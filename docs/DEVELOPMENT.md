@@ -96,7 +96,7 @@ If you installed the app manually, create a `/config.json` with the config you w
 
 ```
 {
-  "IMPORT_SENTENCES": false
+  "IMPORT_SENTENCES": false,
   "MYSQLDBNAME": "voice",
   "MYSQLHOST": "127.0.0.1",
 }
