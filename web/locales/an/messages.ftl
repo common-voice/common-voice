@@ -884,8 +884,13 @@ download-request-title = { $created }
 download-request-description = { $clipCount } fragmentos de voz, mida total de l'archivo { $size }. Caduca: { $expires }.
 download-request-archive-single = Un solo archivo ZIP que contién
 download-request-archive-multiple = Dividiu entre { $archiveCount } archivos ZIP que contienen
+download-request-assembling-description = Se son replegando los tuyos archivos. Torna a comprebar-lo mas enta debant.
 download-request-refresh-button = Actualizar
 download-request-modal-title = Vinclos de descarga
+download-request-modal-description = Aquí tiens los vinclos pa baixar los archivos ZIP.
+download-request-link-text = ZIP num. { $offset } de { $total }
+download-request-metadata-link = Texto d'a frase
+download-request-link-single = Tamién puetz copiar y apegar los URLs directament en o vuestro chestor de baixadas preferiu. Los vinclos caducarán en 12 horas, pero puetz tornar a esta pachina pa chenerar-ne nuevos en qualsequier momento.
 
 ## Landing
 
@@ -903,6 +908,8 @@ demo-welcome-subheader = Yes intresau en aprender mas y contribuyir en o prochec
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ye lo conchunto de datos de voz multilingüe mas gran disponible publicament.
+demo-language-select-card-body = Gracias a las colaboracions de mas de 259.000 personas en mas de 50 luengas, estos datos se fan servir pa entrenar aplicacions de veu per a respondre millor a la veu humana.
 card-button-next = Siguient
 card-button-back = Dezaga
 demo-language-select-label = Explorar luengaches
@@ -932,12 +939,34 @@ demo-dashboard-card-body = Pa cada gravación de voz donada y cada gravación d'
 ## Validation criteria
 
 contribution-criteria-nav = Criterios
+contribution-criteria-link = Comprende los criterios de colaboración
+contribution-criteria-page-title = Criterios de colaboración
+contribution-criteria-page-description = Comprende que cal mirar quan escuites fragmentos de voz y aduya a fer tamién mas rica la tuya voz.
 contribution-for-example = per eixemplo
+contribution-misreadings-title = Lecturas erronias
+contribution-misreadings-description = Quan escuites, compreba cudiadosament que lo que s'ha gravau ye exactament lo que s'ha escrito; refusa-lo encara que nomás i haiga errors menors. Una error muito común.
+contribution-misreadings-description-extended-list-1 = Cambiar una parola per una altra pareixida. Per exemple, <strong>«a»</strong>, <strong>«en»</strong> u <strong>«con»</strong>.
+contribution-misreadings-description-extended-list-2 = Falta una <strong>« s »</strong> a la fin d'a parola.
+contribution-misreadings-description-extended-list-3 = Leyer fendo contraccions u elisions que no se troben en o texto. Per eixemplo, fer «de augua» si en o texto sale «d'augua», u viceversa.
+contribution-misreadings-description-extended-list-4 = Falta d'a fin d'a zaguera parola per tallar masiau rapidament la gravación.
+contribution-misreadings-description-extended-list-5 = Fer intentos multiples pa leyer una parola.
 contribution-misreadings-example-1-title = Los dinosauros chigants d'o Triasico.
 contribution-misreadings-example-2-title = Los dinosauro chigant d'o Triasico.
 contribution-misreadings-example-2-explanation = [Habría d'estar ‘dinosauros’]
 contribution-misreadings-example-3-title = Los dinosauros chigants d'o Triasi-.
+contribution-misreadings-example-3-explanation = [Gravación tallada antes d'a zaguera parola]
 contribution-misreadings-example-4-title = Los dinosauros chigantos d'o Triasico. Sí.
+contribution-misreadings-example-4-explanation = [S'han gravau mas parolas que lo texto requiesto]
+contribution-misreadings-example-5-title = Salimos a fer un café.
+contribution-misreadings-example-6-title = Salimos a fer un café.
+contribution-misreadings-example-6-explanation = [Habría d'estar "son"]
+contribution-misreadings-example-7-title = Salimos a fer un café.
+contribution-misreadings-example-7-explanation = [No i hai garra 'a' en o texto orichinal]
+contribution-misreadings-example-8-title = Un elefant mató una tiradanya.
+contribution-misreadings-example-8-explanation = [Lo conteniu no coincide]
+contribution-varying-pronunciations-title = Pronunciacions variables
+contribution-varying-pronunciations-example-1-title = Ells minchan mengranas.
+contribution-varying-pronunciations-example-1-explanation = [«Ells» se puede pronunciar de diferents trazas, seguntes la variant dialectal]
 contribution-background-noise-title = Rudio de fondo
 contribution-background-noise-example-1-fixed-title = <strong>[Estarnudo]</strong> Los dinosaurios chigants d'o <strong>[tos]</strong> Triasico.
 contribution-background-noise-example-2-fixed-title = Lo dinosauro chi <strong>[tos]</strong> d'o Triasico.
@@ -945,6 +974,7 @@ contribution-background-noise-example-3-fixed-title = <strong>[Cruixiu]</strong>
 contribution-background-voices-title = Voces de fondo?
 contribution-background-voices-description-extended = Si la gravación se talla u fa cluixius, refusa-la, fueras de si se siente la totalidat d'o texto.
 contribution-background-voices-example-1-title = Los dinosauros chigants d'o Triasico. <strong>[leito per una voz]</strong>
+contribution-background-voices-example-1-explanation = Te'n viens? <strong>[clamau per yo]</strong>
 contribution-volume-title = Volumen
 contribution-reader-effects-title = Efectos d'o lector
 contribution-just-unsure-title = Tiens dubdas?
