@@ -587,7 +587,9 @@ other-datasets = Atras bases de datos de voces
 feedback-q = Tiens bell comentario?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ye un <docsLink>conchunto de ferramientas de codigo ubierto</docsLink> pa investigadors que desenrollen modelos de conversa d'IA de zaguera cheneración.
 resource-deepspeech-info = El motor de reconoiximiento de voz de codigo libre Deep Speech de Mozilla se puet fer servir pa crear aplicacions de reconoiximiento de voz. Leye-ne la <githubLink>descripción cheneral en o Github</githubLink> u visita lo <discourseLink>foro DeepSpeech en o Discourse</discourseLink> pa obtener información sobre cómo encomenzar.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> ye dedicau a la tecnolochía de voz ubierta. los suyos prochectos incluyen motors de reconoiximiento de voz y sintesi basaus en l'aprendizache fundo.
 community-playbook = Libro d'a comunidat
+resource-playbook-info = <playbookLink>Troba orientacions utils</playbookLink> sobre tot lo recorriu de Common Voice, dende la localización dica l'uso de conchuntos de datos, y tamién sobre cómo connectar con a nuestra comunidat.
 data-other-librispeech-description = LibriSpeech ye un corpus d'aproximadament 1000 horas d'anglés charrau a 16KHz derivau de lecturas de audiolibros d'o prochecto LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = Lo corpus de TED-LIUM estió feito d'audios de charradas y d'as suyas transcripcions disponibles en o puesto web de TED
@@ -795,14 +797,39 @@ help-reach-hours-pluralized =
     Aduya a alcanzar{ NUMBER($hours) ->
         [one] { $hours } hora
        *[other] { $hours } horas
-    }en { $language } con un obchectivo personal
+    } en { $language } con una meta personal
+help-reach-hours-general-pluralized =
+    Aduya a Common Voice a alcanzar{ NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } horas
+    } en una luenga con una meta personal
 set-a-goal = Establir objetivo
 cant-decide = No te decides?
+activity-needed-calculation-plural =
+    Si { NUMBER($people) ->
+        [one] { $people } persona rechistra
+       *[other] { $people } personas rechistran
+    } { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } fragmento
+       *[other] { $clipsPerDay } fragmentos
+    } por día, se puet alcanzar{ NUMBER($totalHours) ->
+        [one] { $totalHours } hora
+       *[other] { $totalHours } horas
+    } en poco mas { NUMBER($periodMonths) ->
+        [one] de { $periodMonths } mes
+        [11] de { $periodMonths } meses
+       *[other] de { $periodMonths } meses
+    }
 how-many-per-day = Excelent! Quántas gravacions a lo día?
 how-many-a-week = Excelent! Quántas gravacions a la semana?
 which-goal-type = Quiers charrar, escuitar u las dos?
 receiving-emails-info = Agora mesmo lo tiens configurau pa recibir correus electronicos como recordatorios d'obchectivos, actualizacions de progreso y boletines d'información sobre Common Voice
 not-receiving-emails-info = La tuya configuración actual indica que <bold>NO recibes</bold> correus con recordatorios d'obchectivos, actualizacions de progreso ni boletines de noticias de Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } fragmento
+       *[other] { $count } fragmentos
+    }
 help-share-goal = Aduya-nos a trobar mas voces, comparte lo tuyo obchectivo
 confirm-goal = Confirmar objetivo
 goal-interval-weekly = Semanal
@@ -839,6 +866,7 @@ profile-form-delete = Eliminar perfil
 download-q = Amenestes descargar los tuyos datos?
 download-info = Di-nos qué te fería goyo descargar:
 download-profile-title = Perfil
+download-profile-info = Incluye l'adreza electronica, lo nombre d'usuario y la información demografica, disponibles immediatament.
 download-profile-size = Bells pocos bytes
 download-recordings-title = Gravacions
 download-recordings-info = Incluye los mp3 y las frases asociadas, puede tardar una mica a preparar-se
@@ -853,6 +881,9 @@ download-requests = Demandas anteriors de descarga de gravacions
 download-requests-info = Quan demandas las tuyas gravacions, las replegamos en uno u mas fichers ZIP. Aquí son las tuydas demandas:
 download-request-button = Descargar
 download-request-title = { $created }
+download-request-description = { $clipCount } fragmentos de voz, mida total de l'archivo { $size }. Caduca: { $expires }.
+download-request-archive-single = Un solo archivo ZIP que contién
+download-request-archive-multiple = Dividiu entre { $archiveCount } archivos ZIP que contienen
 download-request-refresh-button = Actualizar
 download-request-modal-title = Vinclos de descarga
 
