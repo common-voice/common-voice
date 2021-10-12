@@ -78,6 +78,8 @@ hy-AM = Armenio
 hyw = Armenio occidental
 ia = Ingerlingua
 id = Indonesio
+ie = Interlingue
+ig = Igbo
 is = Islandés
 it = Italiano
 izh = Izhoriano
@@ -86,6 +88,7 @@ ka = Cheorchiano
 kaa = Karakalpak
 kab = Cabilio
 kbd = Cabardiano
+ki = Kikuyu
 kk = Cazaco
 kmr = Kurdo kurmanji
 ko = Coreano
@@ -110,11 +113,13 @@ ms = Malayo
 mt = Maltés
 my = Birmano
 myv = Erzya
+nan-tw = Taiwanés (min nan)
 nb-NO = Noruego Bokmål
 ne-NP = Nepalés
 nia = Nias
 nl = Neerlandés
 nn-NO = Noruego Nynorsk
+nyn = Nyankole
 oc = Occitano
 or = Odeya
 pa-IN = Punjabi
@@ -128,11 +133,14 @@ ro = Rumano
 ru = Ruso
 rw = Kinyarwanda
 sah = Yacuto
+sat = Santali (Ol Chiki)
 sc = Sardo
 scn = Siciliano
+shi = Shilha
 si = Cingalés
 sk = Eslovaco
 sl = Esloveno
+so = Somali
 sq = Albanés
 sr = Serbo
 sv-SE = Sueco
@@ -146,6 +154,7 @@ tl = Tagalo
 tr = Turco
 tt = Tartre
 tw = Twi
+ty = Tahitiano
 uby = Ubikho
 udm = Udmurto
 ug = Uigur
@@ -155,6 +164,7 @@ uz = Uzbeco
 vec = Veneciano
 vi = Vietnamés
 vot = Votico
+yi = Yiddish
 yo = Yoruba
 yue = Cantonés
 zh-CN = Chino (China)
@@ -547,6 +557,7 @@ number-of-voices = Numero de voces
 splits = Particions
 email-to-download = Escribe un email pa descargar
 why-email = <b>Per qué un email?</b> Puede que necesitemos contactar con tu en o futuro sobre cambios en a base de datos; un correu-e nos proporciona un meyo de contacto.
+size-gigabyte = GB
 size-megabyte = Mb
 confirm-no-identify = <b>Te comprometes</b> a no intentar determinar la identidat d'os hablantes en a base de datos de Common Voice
 download-language = Descargar { $language }
@@ -610,6 +621,7 @@ language-section-launched = Lanzaus
 language-section-launched-description = Pa estes idiomas publicaus, lo puesto web ha estau <localizationGlossaryLink>localizau</localizationGlossaryLink> con exito, y tiene suficients <sentenceCollectionGlossaryLink>frases recopiladas</sentenceCollectionGlossaryLink> pa permitir <speakLink>charrar</spenderLink> y <listenLink>escuitar</ listenLink > aportacions de forma contina.
 languages-show-more = Veyer mas
 languages-show-less = Veyer menos
+language-meter-in-progress = Progreso
 language-total-progress = Total
 language-search-input =
     .placeholder = Buscar
@@ -697,6 +709,21 @@ report-success = L'informe se ninvió correctament
 ## Goals
 
 streaks = Fiques
+days =
+    { $count ->
+        [one] Día
+       *[other] Días
+    }
+recordings =
+    { $count ->
+        [one] Gravación
+       *[other] Gravacions
+    }
+validations =
+    { $count ->
+        [one] Validación
+       *[other] Validacions
+    }
 
 ## Dashboard
 
@@ -786,6 +813,10 @@ download-profile-title = Perfil
 download-recordings-title = Gravacions
 download-size = Grandaria
 download-selected = Triau
+download-start = Descargar datos de perfil
+download-request = Demandar gravacions
+download-requests = Demandas anteriors de descarga de gravacions
+download-requests-info = Quan demandas las tuyas gravacions, las replegamos en uno u mas fichers ZIP. Aquí son las tuydas demandas:
 download-request-button = Descargar
 download-request-title = { $created }
 download-request-refresh-button = Actualizar
@@ -841,7 +872,10 @@ contribution-misreadings-example-2-explanation = [Habría d'estar ‘dinosaurios
 contribution-background-noise-title = Rudio de fondo
 contribution-background-noise-example-1-fixed-title = <strong>[Estornudo]</strong> Los dinosaurios chigants d'o <strong>[tos]</strong> Triasico.
 contribution-background-noise-example-2-fixed-title = Lo dinosaurio chigant <strong>[tos]</strong> d'o Triasico.
+contribution-background-voices-title = Voces de fondo?
+contribution-background-voices-description-extended = Si la gravación se talla u fa cluixius, refusa-la, fueras de si se siente la totalidat d'o texto.
 contribution-volume-title = Volumen
 contribution-reader-effects-title = Efectos d'o lector
+contribution-just-unsure-title = Tiens dubdas?
 see-more = </chevron></chevron>Veyer-ne mas
 see-less = <chevron></chevron>Veyer-ne menos
