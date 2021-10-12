@@ -557,11 +557,11 @@ review-delete-recordings = Kayıtlarımı sil
 
 datasets-headline = Herkesin konuşma özellikli uygulamaları eğitmek için kullanabileceği açık kaynaklı, çok dilli bir ses veri kümesi oluşturuyoruz.
 datasets-positioning =
-    Halka açık, büyük ses veri kümelerinin makine öğrenimi tabanlı konuşma teknolojisinde yeniliği ve sağlıklı ticari rekabeti teşvik edeceğine inanıyoruz.
+    Herkese açık, büyük ses verisi kümelerinin makine öğrenimi tabanlı konuşma teknolojilerinde yeniliği ve sağlıklı ticari rekabeti teşvik edeceğine inanıyoruz.
     
-    Common Voice’un çok dilli veri kümesi, zaten türünün herkese açık olan en büyük ses veri kümesidir ancak tek veri kümesi değildir.
+    Common Voice’un çok dilli veri kümesi zaten türünün herkese açık olan en büyük ses veri kümesi, ancak tek veri kümesi değil.
     
-    Bu sayfaya, diğer açık kaynaklı ses veri kümeleri için bir referans kaynağı olarak bakın ve Common Voice büyümeye devam ettikçe, sürüm güncellemelerimiz için bir ev olarak bakın.
+    Bu sayfayı hem diğer açık kaynaklı ses veri kümeleri için bir referans kaynağı hem de Common Voice büyümeye devam ettikçe yayımlayacağımız sürüm güncellemelerinin yuvası olarak görebilirsiniz.
 language = Dil
 # File size in gigabytes
 size = Boyut
@@ -956,6 +956,7 @@ contribution-misreadings-title = Yanlış okumalar
 contribution-misreadings-description = Dinlediğiniz kaydın metinle tam olarak aynı olup olmadığını çok dikkatli kontrol edin. Küçük hatalar olsa bile reddedin. <br />Şunlar çok yaygın yapılan hatalardır:
 contribution-misreadings-description-extended-list-1 = Kayıtın başında ya da sonunda bir sözcüğü atlamak ya da metinde olmayan bir ek sözcük kaydetmek.
 contribution-misreadings-description-extended-list-2 = Kayıt sırasında bazı sözcükleri iki denemede okuma ya da yazılandan farklı bir sözcük kaydetme.
+contribution-misreadings-description-extended-list-3 = Kökü yanlış telaffuzla okumak, kelimelerin başka anlamlara dönüşmesi.
 contribution-misreadings-description-extended-list-4 = Kaydın aceleyle sonlandırılması nedeniyle son kelimenin sonunun kaydedilmemesi.
 contribution-misreadings-description-extended-list-5 = Bir kelimeyi okurken birkaç deneme yapma.
 contribution-misreadings-example-1-title = Bu hastalıklar vücudunu sarsmıştı.
@@ -971,7 +972,7 @@ contribution-misreadings-example-6-explanation = [“oda” olmalıydı]
 contribution-misreadings-example-7-title = Kardeşler de gelince oda birdenbire doldu.
 contribution-misreadings-example-7-explanation = [Metinde "gardaş" olarak yerel dilde geçiyor]
 contribution-misreadings-example-8-title = Tamam canım, bitiyor birazdan.
-contribution-misreadings-example-8-explanation = [Uyuşmayan içerik]
+contribution-misreadings-example-8-explanation = [Farklı içerik]
 contribution-varying-pronunciations-title = Farklı telaffuzlar
 contribution-varying-pronunciations-description = Okuyucunun bir kelimeyi yanlış telaffuz ettiği, vurguyu yanlış yere koyduğu veya soru işaretini görmezden geldiği gerekçesiyle bir kaydı reddetmeden önce dikkatli olun. Dünyanın ve ülkenin farklı yerlerinde kullanılan farklı aksanlar ve telaffuzlar olabilir. Lütfen sizden farklı konuşanlar için bir takdir payı bırakın.
 contribution-varying-pronunciations-description-extended = Öte yandan, okuyucunun muhtemelen kelimeyle daha önce hiç karşılaşmadığını ve kelimeyi tamamen yanlış telaffuz ettiğini düşünüyorsanız lütfen kaydı reddedin. Emin değilseniz atlama düğmesini kullanın.
