@@ -579,12 +579,15 @@ whats-inside = Qué i hai en a base de datos de Common Voice?
 dataset-description-hours =
     Cada dentrada d'o conchunto de datos consiste en un unico fichero MP3 y lo fichero de texto correspondient. Muitas d'as <b>{ $total }</b> horas gravadas d'o conchunto de datos tamién incluyen metadatos demograficos, como la edat, lo sexo y l'accento, que pueden aduyar a millorar la precisión d'os motors de reconoiximiento de voz.
     
-    Actualment, el conjunt de dades inclou <b>{ $valid }</b> hores validades en <b>{ $languages }</b> llengües, però constantment s'hi van afegint més veus i llengües. Visiteu la <languagesLink>pàgina Llengües</languagesLink> per sol·licitar una llengua o per començar a col·laborar-hi.
+    Actualment, lo conchunto de datos incluye <b>{ $valid }</b> horas validadas en <b>{ $languages }</b> idiomas, pero de contino se i van anyadindo mas voces y luengas. Visita la <languagesLink>pachina Luengas</languagesLink> pa demandar una luenga u encomenzar a colaborar-ie.
 want-dataset-update = Quiers recibir información sobre nuevas versions y actualizacions d'as bases de datos de Common Voice? Subscribe-te a lo nuestro boletín.
 subscribe = Suscribirse
 get-started-speech = Empecipia hue mesmo con o reconoiximiento de voz
 other-datasets = Atras bases de datos de voces
 feedback-q = Tiens bell comentario?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ye un <docsLink>conchunto de ferramientas de codigo ubierto</docsLink> pa investigadors que desenrollen modelos de conversa d'IA de zaguera cheneración.
+resource-deepspeech-info = El motor de reconoiximiento de voz de codigo libre Deep Speech de Mozilla se puet fer servir pa crear aplicacions de reconoiximiento de voz. Leye-ne la <githubLink>descripción cheneral en o Github</githubLink> u visita lo <discourseLink>foro DeepSpeech en o Discourse</discourseLink> pa obtener información sobre cómo encomenzar.
+community-playbook = Libro d'a comunidat
 data-other-librispeech-description = LibriSpeech ye un corpus d'aproximadament 1000 horas d'anglés charrau a 16KHz derivau de lecturas de audiolibros d'o prochecto LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = Lo corpus de TED-LIUM estió feito d'audios de charradas y d'as suyas transcripcions disponibles en o puesto web de TED
@@ -654,6 +657,11 @@ contribute = Colaborar
 listen = Escuitar
 skip = Blincar
 shortcuts = Accesos directos
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> fragmento
+       *[other] <bold>{ $count }</bold> fragmentos
+    }
 goal-help-recording = Gracias a la tuya aduya Common Voice ha aconseguiu lo d'o <goalPercentage></goalPercentage> nuestro obchectivo diario de gravación d'o { $goalValue }!
 goal-help-validation = Gracias a la tuya aduya Common Voice ha aconseguiu lo d'o <goalPercentage></goalPercentage> nuestro obchectivo diario de validación d'o { $goalValue }!
 contribute-more = Presto/a pa fer { $count } mas?
@@ -783,6 +791,11 @@ want-to-continue = Quiers continar?
 finish-editing = Quiers acabar d'editar antes?
 lose-changes-warning = Si lo deixas agora, perderás los cambios
 build-custom-goal = Crear un obchectivo personalizau
+help-reach-hours-pluralized =
+    Aduya a alcanzar{ NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } horas
+    }en { $language } con un obchectivo personal
 set-a-goal = Establir objetivo
 cant-decide = No te decides?
 how-many-per-day = Excelent! Quántas gravacions a lo día?
@@ -826,7 +839,12 @@ profile-form-delete = Eliminar perfil
 download-q = Amenestes descargar los tuyos datos?
 download-info = Di-nos qué te fería goyo descargar:
 download-profile-title = Perfil
+download-profile-size = Bells pocos bytes
 download-recordings-title = Gravacions
+download-recordings-info = Incluye los mp3 y las frases asociadas, puede tardar una mica a preparar-se
+download-recordings-size = Normalment bells megabytes
+download-recordings-unavailable = No puetz demandar las tuyas gravacions mientres belatra demanda ya ye en progreso.
+download-recently-requested = Puetz demandar una nueva exportación d'as gravacions cada { $days } días.
 download-size = Grandaria
 download-selected = Triau
 download-start = Descargar datos de perfil
@@ -884,12 +902,18 @@ demo-dashboard-card-body = Pa cada gravación de voz donada y cada gravación d'
 
 contribution-criteria-nav = Criterios
 contribution-for-example = per eixemplo
-contribution-misreadings-example-2-explanation = [Habría d'estar ‘dinosaurios’]
+contribution-misreadings-example-1-title = Los dinosauros chigants d'o Triasico.
+contribution-misreadings-example-2-title = Los dinosauro chigant d'o Triasico.
+contribution-misreadings-example-2-explanation = [Habría d'estar ‘dinosauros’]
+contribution-misreadings-example-3-title = Los dinosauros chigants d'o Triasi-.
+contribution-misreadings-example-4-title = Los dinosauros chigantos d'o Triasico. Sí.
 contribution-background-noise-title = Rudio de fondo
-contribution-background-noise-example-1-fixed-title = <strong>[Estornudo]</strong> Los dinosaurios chigants d'o <strong>[tos]</strong> Triasico.
-contribution-background-noise-example-2-fixed-title = Lo dinosaurio chigant <strong>[tos]</strong> d'o Triasico.
+contribution-background-noise-example-1-fixed-title = <strong>[Estarnudo]</strong> Los dinosaurios chigants d'o <strong>[tos]</strong> Triasico.
+contribution-background-noise-example-2-fixed-title = Lo dinosauro chi <strong>[tos]</strong> d'o Triasico.
+contribution-background-noise-example-3-fixed-title = <strong>[Cruixiu]</strong> Los dinosauros chigants d'o <strong>[cruixiu]</strong> -asico.
 contribution-background-voices-title = Voces de fondo?
 contribution-background-voices-description-extended = Si la gravación se talla u fa cluixius, refusa-la, fueras de si se siente la totalidat d'o texto.
+contribution-background-voices-example-1-title = Los dinosauros chigants d'o Triasico. <strong>[leito per una voz]</strong>
 contribution-volume-title = Volumen
 contribution-reader-effects-title = Efectos d'o lector
 contribution-just-unsure-title = Tiens dubdas?
