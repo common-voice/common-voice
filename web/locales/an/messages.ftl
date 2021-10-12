@@ -394,6 +394,10 @@ faq-what-cv-a =
     La tecnolochía de reconoiximiento de voz ye revolucionando la forma en a qual nos relacionamos con as maquinas, pero los sistemas actuals son caros y no son d'acceso publico. Common Voice ye parte d'a iniciativa de Mozilla pa fer que las tecnolochías de reconoiximiento de voz sían millors y mas accesibles pa totz. Common Voice ye una gran base de datos de voces donadas a nivel mundial que permite que qualsequiera pueda acceder de forma rapida y sencilla a las aplicacions habilitadas pa comunicar-se en quasi totz los idiomas.
     
     No nomás somos recopilando muestras de voz en os idiomas mas charraus, sino tamién en aquells con una menor cantidat de parladors. Publicar una gran base de datos de voces permitirá a desenrolladors, empresarios y a las comunidat az fer frent a ixa brecha. Amás d'a base de datos de Common Voice, tamién somos creando un motor de reconoiximiento de voz de codigo ubierto clamau Deep Speech.
+faq-what-cv-a-2 =
+    La tecnolochía de reconoiximiento de voz ye revolucionando la manera como actuamos con as maquinas, pero los sistemas disponibles actualment son caros y privativos. Mozilla Common Voice ye una iniciativa pa fer que las tecnolochías de reconoiximiento de voz sigan millors y mas accesibles pa totz. Common Voice ye una base de datos mundial masiva de donacions de voz que permiten a qualsequier persona entrenar rapidament y facil las aplicacions de voz en practicament qualsequier luenga.
+    
+    No nomás replegamos muestras de voz de luengas muito extendidas; tamién de luengas con una población de parladors mas chicoteta. La publicación d'un conchunto de datos de voces diversas permitirá a los desenrolladors, empresarios y comunidatz de solucionar esta mancanza per ellas mesmas.
 faq-why-important-q = Per qué ye important?
 faq-why-important-a =
     Charrar ye la traza mas natural que tenemos de comunicar-nos los uns con los atros y la tecnolochía de voz ye facilitando ixa comunicación en ordinadors y dispositivos mobils. Queremos dar la posibilidat a los desenrolladors de crear aplicacions de reconoiximiento de voz increyibles, como traductors a tiempo real u asistents maniaus per voz. Pero hue en día, la mayoría d'os datos de voz que se precisan pa desenrollar esta mena d'aplicacions son caros y privaus. Asperamos que las bases de datos de Common Voice ofreixcan a los desenrolladors lo que precisan pa innovar y crear tecnolochías de reconoiximiento de voz disponibles en os suyos propios idiomas.
@@ -450,6 +454,9 @@ faq-search-for-answers =
 about-title = Per qué fer servir Common Voice?
 about-subtitle = Common Voice fa parte d'a iniciativa de Mozilla pa amostrar a las maquinas cómo charran en realidat los sers humans. Amás d'a base de datos, tamién somos creando un motor de reconoiximiento de voz de codigo ubierto, denominau Deep Speech.
 about-header-description = Totz dos prochectos son lo resultau d'os nuestros esfuerzos pa luitar contra la breca d'o luengache en o mundo dichital. Las tecnolochías de reconoiximiento de voz brindan una dimensión humana a los nuestros dispositivos, pero los desenrolladors precisan una enorme cantidat de datos de voz pa poder crear-las. Actualment, la mayoría d'ixes datos son caros y de propiedat privada. Queremos que los datos de voz sían disponibles de forma libre y publica, y asegurar-nos que los datos represientan la diversidat de personas reals. Chuntos podemos fer que lo reconoiximiento de voz sía millor pa totz.
+about-header-description-2 =
+    Este prochecto ye un esfuerzo pa reducir las desigualdatz en o mundo d'a voz dichital. Las tecnolochías de reconoiximiento de voz aportan una dimensión humana a los nuestros dispositivos, pero los desenrolladors necesitan una gran cantidat de datos de voz pa crear-las. Actualment la mayoría d'estos datos son caros y privaus.
+    Volem que les dades de veu siguin lliures i públiques, i garantir que les dades representin la diversitat de la gent real. Junts podem fer que el reconeixement de veu sigui millor per a tothom.
 how-does-it-work-title = Cómo funciona
 how-does-it-work-text = Lo nuestro obchectivo ye crear una base de datos de voces de codigo ubierto. Dona la tuya voz, valida la precisión d'as gravacions d'atros usuarios y aduya a millorar la base de datos.
 about-speak = Charrar
@@ -504,6 +511,7 @@ de-identified-explanation = Lo proceso per lo qual la información d'o perfil d'
 
 error-title-404 = No podiemos trobar ixa pachina pa tu
 error-content-404 = Talment la nuestra <homepageLink>pachina d'inicio</homepageLink> te puede aduyar? Pa fer una pregunta, une-te a lo <matrixLink>chat d'a comunidat Matrix</matrixLink>, monitorea los problemas d'o puesto a traviés de <githubLink>GitHub</githubLink> u visita <discourseLink>nuestros foros de Discurse</discourseLink>.
+error-title-503 = En este momento somos cayius
 error-content-503 = Lo puesto tornará ta lo suyo funcionamiento lo dinantes posible. Pa obtener la información mas recient, une-te a lo <matrixLink>chat d'a comunidat Matrix</matrixLink> u visita <githubLink>GitHub</githubLink> u <discourseLink> nuestros foros de Discourse</discourseLink> pa ninviar y fer un seguimiento d'os problemas con a experiencia d'o puesto.
 error-code = Error { $code }
 
@@ -512,6 +520,8 @@ error-code = Error { $code }
 data-download-button = Descargar datos de Common Voice
 data-download-yes = Ell
 data-download-deny = No data-download-license
+data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
+data-download-modal = Yes en momentos d'iniciar la descarga de <size>{ $size }GB</size>, seguir?
 data-subtitle = Somos construyindo un fichero de datos de voces ubierto y disponible publicament que totz puedan usar pa entrenar aplicacions con reconoiximiento de voz.
 data-explanatory-text = Creyemos que los fichers de datos de voz grans y disponibles publicament promueven la innovación y la competencia comercial sana en as tecnolochías de voz basadas en l'aprendizache d'as maquinas. Este ye un esfuerzo mundial y convidamos a totz a participar. Nuestro obchectivo ye aduyar a la tecnolochía de voz a estar mas inclusiva, refleixando la diversidat en as voces de totz.
 data-get-started = <speechBlogLink>Empecipiar con o reconoiximiento de voz</speechBlogLink>
@@ -525,6 +535,7 @@ dataset-date = Data
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
 data-download-singleword-title = Descarga l'obchectivo segmentado d'una sola parola
+data-download-singleword-callout-v2 = Esto ye una segmentación de casos d'uso que contienen datos pa potenciar la reconocencia de dichitos y d'o «sí/no»
 review-terms = En usar Common Voice, acceptas los nuestros <termsLink>Termins d'uso</termsLink> y la <privacyLink>Politica de privacidat</privacyLink>
 terms-agree = Soi d'alcuerdo
 terms-disagree = Soi en desacuerdo
@@ -557,6 +568,7 @@ number-of-voices = Numero de voces
 splits = Particions
 email-to-download = Escribe un email pa descargar
 why-email = <b>Per qué un email?</b> Puede que necesitemos contactar con tu en o futuro sobre cambios en a base de datos; un correu-e nos proporciona un meyo de contacto.
+confirm-size = Yes presto pa iniciar una descarga de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = Mb
 confirm-no-identify = <b>Te comprometes</b> a no intentar determinar la identidat d'os hablantes en a base de datos de Common Voice
@@ -564,6 +576,10 @@ download-language = Descargar { $language }
 validated-hours = Horas validadas
 recorded-hours = Horas gravadas
 whats-inside = Qué i hai en a base de datos de Common Voice?
+dataset-description-hours =
+    Cada dentrada d'o conchunto de datos consiste en un unico fichero MP3 y lo fichero de texto correspondient. Muitas d'as <b>{ $total }</b> horas gravadas d'o conchunto de datos tamién incluyen metadatos demograficos, como la edat, lo sexo y l'accento, que pueden aduyar a millorar la precisión d'os motors de reconoiximiento de voz.
+    
+    Actualment, el conjunt de dades inclou <b>{ $valid }</b> hores validades en <b>{ $languages }</b> llengües, però constantment s'hi van afegint més veus i llengües. Visiteu la <languagesLink>pàgina Llengües</languagesLink> per sol·licitar una llengua o per començar a col·laborar-hi.
 want-dataset-update = Quiers recibir información sobre nuevas versions y actualizacions d'as bases de datos de Common Voice? Subscribe-te a lo nuestro boletín.
 subscribe = Suscribirse
 get-started-speech = Empecipia hue mesmo con o reconoiximiento de voz
