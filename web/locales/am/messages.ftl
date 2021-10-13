@@ -344,9 +344,15 @@ browse-file-title = የምስል ፋይል ይጫኑ
 
 ## Error pages
 
+error-code = ስህተት { $code }
 
 ## Data
 
+data-download-button = የጋራ የድምፅ መረጃን ያውርዱ
+data-download-yes = አዎ
+data-download-deny = አይደለም
+data-download-license = ፍቃድ <licenseLink> CC-0 </licenseLink>
+data-download-modal = የ <size>{ $size } ጊባ </size> ማውረድ ሊጀምሩ ነው፤ ይቀጥላሉ?
 license-mixed = የተቀላቀለ
 terms-agree = እስማማለሁ
 terms-disagree = አልስማማም
