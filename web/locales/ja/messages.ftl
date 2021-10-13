@@ -185,6 +185,7 @@ logout = ログアウト
 ## Home Page
 
 home-title = Common Voiceプロジェクトは機械が人の話を理解できるようにする、Mozillaの新たな取り組みです。
+default-tagline = Common Voice プロジェクトは機械が人の話を理解できるようにする、Mozilla の新たな取り組みです。
 home-cta = あなたの声で貢献を始めましょう！
 wall-of-text-start = 音声を使ったコミニケーションは自然で人間的です。人と機械が音声を使ったコミュニケーションができればどれほど素晴らしいでしょうか？この実現にむけて、人々は機械が使える音声技術の開発を行っています。しかし、音声技術の開発には非常に多くの音声データが必要です。
 wall-of-text-more-mobile = 大企業が利用している多くの音声データは一般の人が利用できません。このままでは、音声技術の発展が停滞してしまう。そう考え、誰もが音声技術を利用できるように、Common Voiceプロジェクトを立ち上げました。
@@ -345,26 +346,17 @@ skip-submission-description = 投稿中は、[送信] をクリックした後�
 skip-submission-note = 注意: 「読み上げ」か「聞き取り」から貢献の種類を選んでください
 off = オフ
 on = オン
-avatar-clip-title = アバター声の設定
-change-your-avatar-clip = 音声クリップを変更しますか？
-recording-in-progress = 録音中
-avatar-clip-recorded = アバターに音声クリップが含まれるようになりました。
-record-voice-wave = 音声記録
-retry-voice-wave-recording = 再試行
-re-record = 再録音
-delete-voice = 削除
-recording-voice-wave = 録音中
-delete-voice-clip = または音声クリップを削除
-ready-to-upload = アップロード
-avatar-clip-fact = ページのレイアウトを見たときに、読者がページの読み取り可能なコンテンツに気を取られることは長い間確立された事実です。
-recreate-voice = 音声再記録
-cancel-avatar-clip-recording = キャンセル
-about-avatar-clip-recording = プロフィールアバターの音声クリップを作成します。アバターにカーソルを合わせると他の人が音声クリップを聴けます。
+
+## Profile - Email
+
 browse-file-title = 画像ファイルをアップロード
 browse-file = ドラッグ＆ドロップまたは <browseWrap>ファイルを選択</browseWrap>
 connect-gravatar = Gravatar と接続
 gravatar_not_found = あなたのメールアドレスは Gravatar に見つかりませんでした
 file_too_large = 選択したファイルのサイズが大きすぎます
+
+## Profile - Email
+
 manage-subscriptions = 購読の管理
 manage-email-subscriptions = メール購読を管理
 email-already-used = メールアドレスは別のアカウントですでに使用されています。
@@ -563,8 +555,6 @@ subscribe = 購読
 get-started-speech = 音声認識を始める
 other-datasets = その他の音声データセット
 feedback-q = フィードバックの提供
-deepspeech-info = Common Voice データセットは、音声認識アプリケーションの構築に利用できる Mozilla のオープンソース音声認識エンジン Deep Speech を補完します。使い始める方法は、<githubLink>Github の概要</githubLink>を読むか、<discourseLink>DeepSpeech Discourse</discourseLink> をご覧ください。
-common-voice-info-new = Common Voice についての質問や、特定の言語に関する改善やフィードバックのアイデアをお持ちの方は、<discourseLink>Discourse フォーラム</discourseLink>に参加してお知らせください。
 data-other-librispeech-description = LibriSpeech は16Khzでおよそ1000時間、録音された英語音声のコーパスです。音声は LibriVox が公開しているオーディオブックを読み上げて録音しています。
 data-other-ted-name = TED-LIUM コーパス
 data-other-ted-description = TED-LIUM コーパスは TED のウェブサイトで公開されている音声と、それを文章として書き起こしたものです。
@@ -807,6 +797,9 @@ why-delete-recordings =
     あなたの録音を削除したい理由を教えてください。
 profile-form-delete = プロファイルを削除
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = { $company } のスタッフを歓迎します！
@@ -833,4 +826,7 @@ demo-account = アカウント
 
 
 ## Demo Dashboard
+
+
+## Validation criteria
 
