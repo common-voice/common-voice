@@ -458,6 +458,7 @@ A cada dia que passava?, o coração do menino ficava cada vez mais silencioso.
 A cadeia montanhosa de Pàndols testemunhou batalhas sangrentas.
 A cadeira de pelúcia encostou-se à parede.
 A cadela do fascismo está novamente no cio e uma pequena multidão está aplaudindo
+A cadela ficou famosa por acenar para os clientes do supermercado
 A cadela tem olhos verdes.
 A caixa de lata continha pedras preciosas.
 A caixa estava ao lado de um caminhão estacionado.
@@ -926,6 +927,7 @@ A indústria nos guia e os orienta.
 A indústria tem recursos para isso.
 A inflação está sob observação do banco central
 A informação chegou a meus ouvidos
+A informação foi atualizada no banco de dados.
 A infância é recheada de autodescobertas
 A infância é simples e bonita
 A inovação é a oportunidade para Taiwan sobreviver no futuro.
@@ -1183,6 +1185,8 @@ A necessidade é o pai na inovação.
 A necessidade é uma enfermeira difícil, mas ela cria filhos fortes.
 A necropolítica do presidente
 A neutralidade da rede é fundamental para a liberdade de expressão.
+A nevasca que acometeu o sul do Brasil na noite passada
+A neve caiu em grande quantidade na serra gaúcha
 A neve começa na montanha
 A neve de janeiro parece um cavalheiro.
 A neve em fevereiro é lançada com pernas de galgos.
@@ -3529,6 +3533,7 @@ Aparentemente, pouca coisa.
 Aparentemente, são os bolinhos que fazem com que o ensopado seja tão bom.
 Aparentemente,? são os bolinhos que fazem esse ensopado ter um sabor tão bom.
 Aparências enganam.
+Apaziguou os ânimos em certa feita
 Apela ao consenso passado como aviso, eles fazem as políticas que agora estão ameaçando.
 Apenas "morre" ou "desaparece" quem não ama.
 Apenas a colônia de formigas do bairro.
@@ -4682,6 +4687,7 @@ Avelino Venancio de Oliveira
 Avelinópolis
 Avila Amaral de Souza
 Avila Teixeira Gregorio
+Avisei à Marina sobre sua ausência na aula passada
 Aviso de cookies: ao prosseguir, você concorda com as condições
 Aviso de gatilho
 Avó e mãe
@@ -5896,6 +5902,7 @@ Caraíbas
 Caraúbas
 Caraúbas do Piauí
 Carbonita
+Carcará é uma ave de rapina da família dos falconídeos e símbolo do Brasil
 Carcará, sussuarana e raposinha-do-campo
 Carcia Torres Barbosa
 Cardeal da Silva
@@ -6540,6 +6547,7 @@ Cinco euros, por favor.
 Cinco homens de terno.
 Cinco homens estão jogando lacrosse em um campo.
 Cinco homens sentados com um corpo de água atrás deles.
+Cinco horas da manhã e nenhum sinal dela.
 Cinco libras e quinze, mais.
 Cinco minutos.
 Cinco mulheres envolvidas em um jogo de futebol.
@@ -6790,6 +6798,7 @@ Com cuidado, tente entender o humor e a técnica do pintor
 Com defeito por natureza, deixa até as aparências da força.
 Com dificuldade para decolar
 Com dois tiros de revólver, estirou-o morto no chão...
+Com duas pessoas dá para dançar tango.
 Com efeito, um dia de manhã
 Com essa ferramenta, uma palavra como hello é obtida com quatro pressionamentos de tecla.
 Com esse tipo de organização, acho muito mais fácil priorizar dentro de uma categoria.
@@ -6893,6 +6902,7 @@ Como as ondas do mar, as coisas no mundo vêm e vão.
 Como as plantas pareciam depois de uma semana?
 Como bloquear ligações de telemarketing
 Como calcular seqüências?
+Como chefe, ela não tinha defeitos
 Como chegamos ao outro lado?
 Como comer ou dormir? ou como procurar amor ou encontrar um emprego.
 Como conquistar maturidade muscular?
@@ -6903,6 +6913,7 @@ Como decorar seu lar para a primavera
 Como devo fazer isso?
 Como devo saber?
 Como diferentes pessoas e crenças adoram?
+Como dona da empresa, ela era bem-sucedida
 Como ela era?
 Como ela estava!
 Como ela está em casa?
@@ -6917,6 +6928,7 @@ Como eles conseguiram improvisar em tão pouco tempo, ela nunca saberá.
 Como eles conseguiram improvisar em tão pouco tempo? ela nunca saberá.
 Como eles conseguiram isso?
 Como eles são?
+Como empreendedora, ela não tinha concorrência
 Como enfrentar e melhorar
 Como escravo desta tarefa?, clico com cautela na resposta!
 Como especular sobre isso?
@@ -7159,6 +7171,7 @@ Comprou duas caixas de fogos de artifício.
 Comprou um espeto e lula
 Comprou um monte de pequenos bolos
 Comprou uma passagem de onibus
+Compunha ainda as provas e gabaritos
 Computador.
 Comunicar a bibliografia gerada pelos estudos dos sites que podem estar sujeitos ao subsídio.
 Comunicar ao integrador todas as suspeitas de doenças infecciosas que afetam os animais.
@@ -7724,6 +7737,7 @@ Cônego Marinho
 Da casa que estoura, eu fujo de baixo.
 Da dança do ventre sai.
 Da estação ferroviária, à distância, vinha o som dos trens tocando e roncando.
+Da experiência deriva o contraste
 Da mesma forma, a abertura comercial é ao mesmo tempo uma das características distintivas.
 Da mesma forma, devemos acrescentar o tema da morte e ressurreição.
 Da mesma forma, haverá os depósitos de retenção correspondentes.
@@ -7789,6 +7803,7 @@ De Inglês para Português.
 De Santa Caterina a Nadal, um mês igual.
 De São Miguel a São Miguel faz o mesmo mar e o mesmo céu.
 De Tortosa gostei da catedral, que não gosta de ninguém!
+De acordo com a placa, o estacionamento está fechado hoje
 De acordo com a receita, precisamos de mostarda leve.
 De acordo com a receita?, precisamos de mostarda leve.
 De acordo com essas palavras, Ana retorna com vinho.
@@ -8015,6 +8030,7 @@ Demora duas horas para treinar este modelo.
 Demorou algum tempo para ele acordar completamente.
 Demorou apenas dois dias para obter a atualização.
 Demorou dez anos para atenuar alguns, e outros não parecem melhorar.
+Demorou muito e deu bastante trabalho.
 Demorou muito tempo
 Demorou muito trabalho.
 Demônios!
@@ -9049,6 +9065,7 @@ E amparar a riqueza pública.
 E após uma pausa, rematou o mestre
 E aquela outra lua de mel em uma mina de carvão!
 E aqui estamos nós.
+E aqui jaz nosso admirado grão-mestre
 E aqui, sem raiva ou ressentimento, eu me despeço de você.
 E arranjos narrativos
 E as definições?
@@ -9397,10 +9414,12 @@ Ela encheu novamente o recipiente e foi embora.
 Ela encolhe os ombros.
 Ela ensina geografia.
 Ela era a encarregada de tudo.
+Ela era a estagiária mais inteligente
 Ela era gentil com velhos doentes.
 Ela era muito engraçada.
 Ela era uma chefe legal.
 Ela era uma costureira pobre e sempre usava luvas.
+Ela era uma excelente diretora
 Ela ergueu a bandeira de pirata.
 Ela escreveu as coisas.
 Ela escreveu para mim todos os dias desde então.
@@ -9417,6 +9436,7 @@ Ela estava com medo de olhar para ele.
 Ela estava com o cardigã.
 Ela estava esperando no meu gramado da frente.
 Ela estava esperando por sua resposta.
+Ela estava feliz por estar apaixonada.
 Ela estava jogando bolas de neve no céu.
 Ela estava o seduzindo.
 Ela estuda Ciências Humanas.
@@ -9476,6 +9496,7 @@ Ela garantiu esse lugar?
 Ela gosta da vida no país
 Ela gosta de ler livros de suspense
 Ela gosta de você.
+Ela habilmente destruiu o brinquedo.
 Ela hackeou um banco de dados.
 Ela infelizmente tem um acidente vascular cerebral
 Ela intuitivamente acha que é melhor não ficar mais tempo.
@@ -9706,6 +9727,7 @@ Ele acha que ele é o chefe da família.
 Ele achou o banheiro ocupado.
 Ele achou? logo depois do amanhecer? e não longe dos poços de areia.
 Ele acordou cedo com a ideia de encontrá-lo.
+Ele acordou todo ouvidos às lamentações de sua tia
 Ele acredita que um inventário abrangente é viável.
 Ele acreditava em presságios.
 Ele adivinhou tudo.
@@ -9774,6 +9796,7 @@ Ele contou sua história.
 Ele convidou o prefeito Antônio Lima da Silva.
 Ele cooperou com uns traficantes.
 Ele correu a meio caminho da loja de ferragens.
+Ele costumava levantar cedo, agora dorme até tarde.
 Ele costumava levantar kettlebells agora ele respira fogo.
 Ele costumava ter uma grande dívida
 Ele criou filhos, ele cresceu corvos.
@@ -10119,6 +10142,7 @@ Ele pegou seu celular e fez uma selfie.
 Ele pegou seu dinheiro e contou.
 Ele pegou um engarrafamento na estrutural.
 Ele pegou uma das pedras.
+Ele pensou que com alguma paciência seria capaz de transformar tudo em ouro.
 Ele pensou que estava quebrando uma nuvem na frente de seus olhos.
 Ele pensou que? com alguma paciência? ele seria capaz de transformar tudo em ouro.
 Ele perguntou por ele.
@@ -10567,6 +10591,7 @@ Eles se tornarão o que mais temiam
 Eles se trancaram em seus laboratórios? e tentaram evoluir? como o ouro.
 Eles sempre fazem isso.
 Eles sempre foram apenas alguém para encher as arquibancadas.
+Eles sempre passam o verão juntos em Maceió
 Eles seriam bons para alguém no Natal, mas ninguém pensou a tempo.
 Eles serão contribuintes do excedente correspondente de exploração.
 Eles serão feridos quando sentirem isso.
@@ -11090,6 +11115,7 @@ Entre todos nós, podemos evitar a substituição de idiomas.
 Entre todos os Santos e a Natividade entra no inverno da verdade.
 Entre você e eu, podemos sentar no trem para ficar contra o tráfego.
 Entregue a bonequinha de porcelana
+Entreguei meu presente à Fabiana
 Entrelaçamento quântico
 Entrem.
 Entrevista no local de graduação para jovens
@@ -11735,6 +11761,7 @@ Esta é a minha sentença, que se pronuncia firme e firmemente.
 Esta é a nossa Taiwan
 Esta é a sala de imprensa.
 Esta é a véspera de Natal.
+Esta é dedicada ao gueto de onde eu venho.
 Esta é ela.
 Esta é minha esposa.
 Esta é minha filha.
@@ -11873,6 +11900,7 @@ Este estágio de pesquisa rítmica marcaria seu pensamento musical de maneira in
 Este exame médico é obrigatório e eliminatório.
 Este exercício é pontuado de zero a quatro pontos e não é eliminatório.
 Este exercício, na eleição do tribunal, pode ser lido em sessão pública pelo candidato.
+Este facto dificulta a possível divulgação da mensagem valenciana.
 Este foi o caso de Andreu Devesa, chamada Poma, filho de Nucia.
 Este foi o golpe mais perigoso dado à soberania dos estados.
 Este foi o meu favorito!
@@ -12919,6 +12947,7 @@ Eu não selecionei essa expressão.
 Eu não sou a primeira mulher a morrer por pregar isso.
 Eu não sou casado
 Eu não sou muito bom nisso.
+Eu não sou o primeiro a morrer por falar isso.
 Eu não sou uma boa pessoa.
 Eu não sou uma pessoa má
 Eu não suporto a visão de sangue.
@@ -13175,6 +13204,7 @@ Eu quero pedir toalhas do hotel.
 Eu quero pedir um aumento.
 Eu quero pegar meu dinheiro de volta.
 Eu quero perguntar a ele cara a cara.
+Eu quero perguntar sobre o antílope.
 Eu quero pipoca e uma garrafa de água!
 Eu quero possuir o que quero possuir.
 Eu quero que meu bebê se pareça com você.
@@ -15298,6 +15328,7 @@ Incas, maias e astecas
 Incentivo à cadeia de reciclagem, estímulos à mudança de hábito dos consumidores
 Incentivo à guerra civil
 Incerto esperando para pagar
+Inclinando-se para fora da janela, ele tirava fotos.
 Inclinação do sol
 Inclua o logotipo do departamento, se aplicável.
 Inclua o original no livro de frases e testemunhe esta resolução no processo.
@@ -17025,6 +17056,7 @@ Maraú
 Marc dobrou sessenta centímetros de luz livre.
 Marc, você poderia me dar o mata-moscas?
 Marcação
+Marcação a mercado no Tesouro Direto
 Marcel Ávila Siqueira
 Marcelino Ramos
 Marcelino Vieira
@@ -17562,6 +17594,7 @@ Meca é muito mais longe que as pirâmides.
 Medeiros
 Medeiros Neto
 Medianeira
+Medicação antidepressiva foi administrada durante a terapia
 Medicilândia
 Medida antiga, fé antiga.
 Medida do cumprimento das expectativas que os usuários têm em relação ao recurso.
@@ -17952,6 +17985,7 @@ Montadas
 Montalvânia
 Montanha
 Montanhas
+Montar uma locomotiva é conveniente e barato
 Montauri
 Monte Alegre
 Monte Alegre de Goiás
@@ -18397,6 +18431,7 @@ Na época de seu prédio, as paredes eram consideradas impenetráveis.
 Nacip Raydan
 Nada acontece
 Nada aconteceria nem a um nem a outro; ele, o terceiro, ignorava tudo.
+Nada aconteceu entre o nascer e o pôr do sol
 Nada aguarda mal, quando um homem é muito formal.
 Nada arrisca? nada ganha
 Nada de novo acontecendo em Pindorama
@@ -18413,6 +18448,7 @@ Nada para ser visto!
 Nada perdido por falta de perguntar
 Nada pessoal nisso.
 Nada pode ser visto
+Nada remete ao mesmo significado
 Nada seca mais cedo que lágrimas.
 Nada tem um gosto tão bom quanto se sentir magra
 Nada vai acontecer
@@ -18882,6 +18918,7 @@ Nossa detecção de colisão só funciona para corpos rígidos.
 Nossa família ainda precisa de dinheiro.
 Nossa família costumava ver o quarto
 Nossa galáxia está em qual porção do universo visível?
+Nossa galáxia, a Via Láctea, aparentemente contém matéria escura.
 Nossa galáxia?, a Via Láctea?, aparentemente contém matéria escura.
 Nossa hipoteca está em atraso.
 Nossa influência em seu monopólio é pequena.
@@ -19315,6 +19352,7 @@ Não havia outra bagagem.
 Não havia outro igual nas aldeias do lago.
 Não havia outro veículo envolvido no acidente.
 Não havia quase ninguém lá.
+Não havia religião, ordem ou autoridade e... claro!
 Não havia tempo a perder.
 Não havia voos diretos para Barcelona.
 Não houve dúvidas.
@@ -20713,8 +20751,10 @@ O cão grande está olhando através da cerca para o pequeno cão.
 O cão magro com a cauda longa está viajando pelo campo.
 O cão marrom com uma bandana vermelha está sentado com as patas no computador.
 O cão nada em direção a uma cachoeira.
+O cão padecia de leishmaniose
 O cão preto e branco tem uma bola na boca.
 O cão preto pega um brinquedo na boca enquanto corre no campo.
+O cãozinho foi imunizado contra raiva
 O cérebro humano ainda não é totalmente compreendido.
 O céu e a terra passarão, mas minhas palavras não passarão.
 O céu estava claro.
@@ -21269,6 +21309,7 @@ O melhor jogador não queria jogar.
 O melhor parceiro para passar o tempo é um homem velho.
 O melhor santo é San Juan.
 O melão colhido nos trouxe à realidade: o verão acabou.
+O menino abraçou seu cordeiro.
 O menino achou uma pergunta estranha.
 O menino acordou antes do amanhecer.
 O menino acordou quando o sol nasceu.
@@ -22904,6 +22945,7 @@ Os centros de terapia védica foram espalhados por todo o bairro.
 Os centros e municípios são os detalhados no anexo três.
 Os certificados administrativos eletrônicos produzem efeitos idênticos aos emitidos em suporte de papel.
 Os certificados aprovados nos exames emitidos permitirão o título profissional de pescador.
+Os chefes eram quase tirânicos.
 Os chefes tribais verão que? e você será demitido de sua posição como conselheiro.
 Os chefes tribais vão apreciar o que você faz.
 Os chineses dizem que levará dez minutos.
@@ -23965,6 +24007,7 @@ Paul estava atrasado na aula.
 Paul se desculpou com Linda e abriu a porta.
 Paula Cândido
 Paula Freitas
+Paula e Célio formam um belo casal, pena que moram longe.
 Paula e Maria eram irmãs.
 Paula fez vista grossa.
 Paulicéia
@@ -24007,6 +24050,7 @@ Pedidos de auxílio-desemprego sobem no trimestre
 Pedimos mais uma oração pelo mundo
 Pedir desculpas
 Pedir dinheiro emprestado às pessoas da aldeia
+Pediu uma pizza à napolitana
 Pedra
 Pedra Azul
 Pedra Bela
@@ -25250,6 +25294,7 @@ Procurando por ela para ter algo para comer
 Procurando por um momento no aeroporto
 Procurarei a tinta e os pincéis
 Procurarei uma advogada para me defender no litígio
+Procure a fotografia premiada na competição
 Procure a trilha sonora do Today com Kris Aquino
 Procure o jogo Whitehorse
 Procure o romance Atrás de portas fechadas
@@ -25343,6 +25388,7 @@ Próximo do jardim havia um bueiro que conduzia à rede de esgoto.
 Próximo?, temos que pular para uma coluna específica.
 Próximo?, você desejará enumerar as guias para poder saltar rapidamente entre elas.
 Próximos anos
+Psicopatas são relativamente comuns na nossa sociedade
 Publicar as listas provisórias de admitidos e excluídos listados no anexo ou nesta resolução.
 Publicações não serão avaliadas quando o autor for o editor.
 Publicidade: se aplicável, no site que contém as informações relacionadas às especificações.
@@ -26089,6 +26135,8 @@ Quatro homens estão sentados na varanda de uma igreja de pedra.
 Quatro homens grandes estão comendo juntos no que parece ser um concurso de comida.
 Quatro homens socializando em uma calçada.
 Quatro hora da manhã e nenhum sinal dela.
+Quatro horas da manhã e nenhum sinal dele.
+Quatro horas da tarde e nada de notícias.
 Quatro horas trabalhadas e nos confrontaram.
 Quatro humanos e quatro cães descansando na área de jantar
 Quatro jovens adultos se reuniram ao ar livre
@@ -26833,6 +26881,7 @@ Reserva de emergência
 Reserva de livros para minhas sobrinhas e eu no Light Horse Tavern
 Reserva do Cabaçal
 Reserva do Iguaçu
+Reserve os livros para minhas sobrinhas
 Reserve um hotel para amanhã, às nove da noite.
 Reserve uma reserva para oito pessoas em Dakota do Norte
 Reserve uma reserva para sete pessoas em uma churrascaria no Quênia
@@ -27163,6 +27212,7 @@ Sacos de plástico acabaram sendo um problema para o meio ambiente.
 Sacos vazios não podem ficar em pé.
 Sacramento
 Sacramento, em Calafornia, provavelmente terá conexão de alta velocidade em breve.
+Sacramento, na Califórnia, provavelmente terá conexão de alta velocidade em breve.
 Sacudiu minha cabeça
 Sagrada Família
 Sagres
@@ -27885,6 +27935,7 @@ Sempre foi assim.
 Sempre foi o caso.
 Sempre há olhos que parecem e ouvidos ouvem.
 Sempre igual.
+Sempre me afeiçoarei de ti
 Sempre observe os membros cumprirem as obrigações deste Código de Conduta.
 Sempre pense que a escrita é boa
 Sempre que estou escrevendo um artigo
@@ -28417,6 +28468,7 @@ Sua corda está sempre quebrada onde está mais fina.
 Sua criação e atividade respondem a um duplo objetivo pedagógico e artístico.
 Sua dieta precisava de muitas fibras
 Sua doação significa muito para nós? obrigado.
+Sua envergadura chega a cento e vinte e três centímetros
 Sua equipe fará o trabalho de limpeza.
 Sua esposa foi procurada pela Universidade da Flórida.
 Sua esposa não pode ficar de pé e escolhe se divorciar
@@ -29449,6 +29501,7 @@ Tiroteio será uma defesa forte.
 Tive de fazer um curso para me capacitar
 Tive dificuldades, não vou negar
 Tive outras muitas, melhores, e piores, mas aquela nunca se me apagou do espírito.
+Tiveram de chamar os bombeiros para apagar o incêndio
 Tiveram de chamar os bombeiros para apaguar o incêndio
 Tião postou uma foto dele no Insta
 Tobias Barreto
@@ -29785,6 +29838,7 @@ Traduzir do estoniano para o português
 Traduzir do mandarim para o espanhol
 Traduzir este documento para o italiano.
 Traduzir: seus subsídios.
+Traduzirão invariavelmente todas as objeções
 Tradução de texto.
 Tradução para o catalão de Jordi Mas.
 Traga as lápides
@@ -31169,6 +31223,7 @@ Um homem tira sua foto enquanto explica sobre sua compra recente de computador.
 Um homem tirando uma fotografia em um pequeno corpo de água.
 Um homem toca guitarra em um teatro externo.
 Um homem toca um violino enquanto sorrindo.
+Um homem toca um violino na praça.
 Um homem toca violão em uma calçada chuvosa.
 Um homem tocando violão com um brilho do sol ao fundo
 Um homem trabalha atrás de sua banca de frutas e vegetais.
@@ -34827,6 +34882,7 @@ zé Doca
 É bom ter um amigo mesmo se você estiver no inferno.
 É bom, pois assim economiza um pouco mais
 É chuvoso em Greely Center?
+É chuvoso em São Paulo?
 É claro que terminou tudo em pizza.
 É claro que? isso apenas reduz a gravidade do problema.
 É como eles dizem.
@@ -34839,6 +34895,7 @@ zé Doca
 É como uma peste.
 É composto por três testes obrigatórios, dois testes teóricos e um teste profissional.
 É comum as empresas de serviços desenvolverem soluções sob medida.
+É comum encontrar problemas, então leia atentamente as instruções.
 É comum encontrar problemas?, então leia atentamente as instruções.
 É comum os usuários confundirem software livre com software livre.
 É conveniente deixar algum dinheiro quando necessário.
