@@ -1,7 +1,6 @@
 Administre ĝi apartenis al alia municipo.
 Adolf Hitler plurfoje estis hotelgasto.
 Afiksoj estas uzeblaj por konverti verbon de unu kategorio al la alia.
-Agrikulturo en melalahti komencis kvite frue.
 Agrikulturo estas la ĉefa vivtenado de la loĝantoj.
 Agrikulturo ne sukcesis kaj la municipo estis malriĉa.
 Akademio funkcias en la urbego.
@@ -5032,10 +5031,8 @@ Pri la kapelo ĉiam zorgis la municipo.
 Pri la kastela historio dum la socialismo mankas informoj.
 Pri la lernojaroj mankas informoj.
 Pri la roloj de kresko kaj de merkato en la tasko protekti la klimaton.
-Pri la unuaj kvar dekoj da vivojaroj de Scupoli nenio konatas.
 Pri liaj agadoj tieaj oni ne scias ion.
 Pri sia religio Karjula estas konservativa lestadiano.
-Pri studoj de Antal Gottgeb mankas informoj.
 Pri tio memortabulo memorigas.
 Pri tio monumento memorigas.
 Prie estas ses kooperativoj kaj unu limigita societo.
@@ -5069,7 +5066,6 @@ Pro tio la esplorado je nivelo de ĉeloj pri tiu procezo ricevis specialan atent
 Pro tio la homamaso estis konsiderita tialo por espero ekde la maldekstro.
 Pro tio lia nomo ĝis hodiaŭ konatas.
 Pro tio multaj el ili elmigris de Tanzanio al Eŭropo kaj Barato.
-Pro tio ĝi estis iam klasita en iama genro "Carpophaga".
 Pro tio ĝi havas antispasmajn kaj sedativajn ecojn.
 Pro tiu laboro ŝi estis agnoskita per multaj premioj.
 Pro tiu produkto ŝi ricevis signifan filman premion.
@@ -5109,14 +5105,11 @@ Reveninte al Italujo edziniĝis kaj havis du filojn.
 Rezulte tiuj fariĝas raraj en multaj lokoj.
 Rifuĝintoj revenos sub kontrolo de Unuiĝintaj Nacioj.
 Rijeto estas metodo konservi viandon en graso.
-Rimarkinda ŝia prezentado estas titolita "Lemniscaat" kiu okazas en Laponio.
 Rimarkindaj kolektoj estas en Germanio kaj Usono.
 Rimarkindas ke kuraciloj oble pli ofte kaŭzas estiĝon de aŭtoantikorpoj ol aperon de simptomoj.
 Rivlin estas flua parolanto en araba.
 Rizo kaj fazeoloj ankaŭ estas ĉiutaga manĝaĵo.
 Robotoj ankaŭ estas oftaj temoj de sciencfiksiaj filmoj.
-Rodrigo de Castro estis edziĝinta al Katarina Ribka Rodrigues.
-Rodriguez kuŝas sur la deklivoj (iomete jam sur montoj) de montaro.
 Romulo kaj Remo decidis fondi sur Palatino novan urbon.
 Rosario estas ĉefe kristana.
 Rose ruita fibro estas ĝenerale pli malhela kaj malforta ol alie ruita fibro.
@@ -5196,7 +5189,6 @@ Sed kia grandega vizio!
 Sed krome bongoflavo trovis grandan akcepton ekster la afrika kontinento.
 Sed kun tempopaso grandeco de la kapo revenis al la normo.
 Sed la ekspozicio jam estis fermita.
-Sed la fuĝo finiĝis jam en Naumburg (Saale).
 Sed la juĝado neniam okazis.
 Sed la malfermo de la limo havis ankaŭ forturnitan vizaĝon.
 Sed la maljunulo jam ne facile vivtenas sin partikulare pro malbona vidkapablo.
@@ -5248,7 +5240,6 @@ Sian nomon ĝi ricevis pro la apuda vilaĝo Batecko.
 Siatempe li faris veran literaturan revolucion.
 Sidejo estas en Erevano.
 Siegenthaler kaj lia edzino transloĝiĝis al ĉi tiu universitata kliniko kun li.
-Sigmund Freud konsideris ke internacia organizo estu esenca por antaŭenigi siajn ideojn.
 Silka ligno povas esti uzata por fari meblojn.
 Similaj sistemo kaj termino ekzistas aŭ ekzistis ankaŭ en aliaj landoj.
 Similaĵoj ekzistas ekstere de Hesio ankoraŭ en Vestfalio.
@@ -5352,7 +5343,6 @@ Sur la fervojlinio troviĝas kvin tuneloj.
 Sur la fervojo estas neniaj tuneloj nek grandaj pontoj.
 Sur la malantaŭa parto de la kapo la birdoj havas malhele bluan makulon.
 Sur la plafono la fresko prezentas reĝon Samuel Aba.
-Sur la strando de la lago estas Nacia parko de Nuuksio.
 Sur la tegmenta nivelo estas sola mallarĝa kaj alta fenestro.
 Sur la teritorio de la komunumo estas nur vojoj de loka graveco.
 Sur supra fluo ĝi havas karakteron de montara rojo.
@@ -5663,7 +5653,6 @@ Tipa vortordo estas Subjekto Objekto Verbo.
 Tirozolaj derivaĵoj estas nature trovataj en plantoj kaj sennombraj fruktoj.
 Tiu advokato baldaŭ estis ŝia edzo.
 Tiu amafero finiĝis post du jaroj laŭ komuna konsento.
-Tiu analizo fariĝis konata kiel "Testo Sandage–Loebn".
 Tiu arbo formas parton de la blazono en la dekstra duono.
 Tiu areo estas taŭga por marŝado kaj aliaj subĉielaj sportoj.
 Tiu artikolo estas plejparte traduko de la artikolo en la franca lingvo.
@@ -6082,7 +6071,6 @@ Zsigmond Teleki devenis el juda familio.
 Ĉiuj grandaj teatroj estas subĉielaj.
 Ĉiuj grekoj de Armenio flue parolas kaj la armenan kaj la rusan.
 Ĉiuj homoj estas liberaj en Maŭritanio kaj ĉi tiu afero ne plu ekzistas.
-Ĉiuj konataj specioj de "Strigopoidea" estas endemiaj en Novzelando.
 Ĉiuj kvar filinoj mortis frue.
 Ĉiuj mandatoj ricevitaj dum la unua raŭndo estas konservitaj.
 Ĉiuj suspektas unu la alian.
@@ -6148,46 +6136,6 @@ Zsigmond Teleki devenis el juda familio.
 Ĝi elfluas en Akonvesin.
 Ĝi eltenas konkurencon kun ĉiuj plantoj eĉ arboj.
 Ĝi enhavas informojn ankaŭ rilate al Esperanto.
-Ĝi enhavas nur unu specion (kruca lunulario).
-Ĝi enhavas ununuran genron (amborelo) kaj ununuran specion.
-Ĝi enhavas ununuran genron (barbeŭio) kaj ununuran specion (madagaskara barbeŭio).
-Ĝi enhavas ununuran genron (brevianto) kaj ununuran specion (flava brevianto).
-Ĝi enhavas ununuran genron (briobartramio) kaj ununuran specion.
-Ĝi enhavas ununuran genron (degenerio) kaj du speciojn.
-Ĝi enhavas ununuran genron (dirakmo) kaj du speciojn.
-Ĝi enhavas ununuran genron (discelio) kaj ununuran specion.
-Ĝi enhavas ununuran genron (ekstoksiko) kaj ununuran specion (punkta ekstoksiko).
-Ĝi enhavas ununuran genron (emblingio) kaj ununuran specion.
-Ĝi enhavas ununuran genron (eŭkomio) kaj ununuran specion (ulmeca eŭkomio).
-Ĝi enhavas ununuran genron (gebelielo) kaj ununuran specion.
-Ĝi enhavas ununuran genron (girotiro) kaj ununuran specion (undervuda girotiro).
-Ĝi enhavas ununuran genron (gomortego) kaj ununuran specion.
-Ĝi enhavas ununuran genron (halofitumo) kaj ununuran specion (amegina halofitum).
-Ĝi enhavas ununuran genron (himenofito) kaj ununuran specion.
-Ĝi enhavas ununuran genron (jubulopso) kaj ununuran specion.
-Ĝi enhavas ununuran genron (kurtisio) kaj ununuran specion (denta kurtisio).
-Ĝi enhavas ununuran genron (laktoro) kaj ununuran specion.
-Ĝi enhavas ununuran genron (makinoo) kaj ununuran specion (krispa makinoo).
-Ĝi enhavas ununuran genron (mezoptikio) kaj ununuran specion.
-Ĝi enhavas ununuran genron (mikrotecielo) kaj ununuran specion.
-Ĝi enhavas ununuran genron (mitenio) kaj ununuran specion.
-Ĝi enhavas ununuran genron (mizutanio) kaj ununuran specion.
-Ĝi enhavas ununuran genron (neotrikokoleo) kaj ununuran specion.
-Ĝi enhavas ununuran genron (pentadiplandro) kaj ununuran specion.
-Ĝi enhavas ununuran genron (petermanio) kaj ununuran specion.
-Ĝi enhavas ununuran genron (pleŭroziopso) kaj ununuran specion.
-Ĝi enhavas ununuran genron (plokospermo) kaj ununuran speciojn (buksofolia plokospermo).
-Ĝi enhavas ununuran genron (pseŭdotimielo) kaj ununuran specion.
-Ĝi enhavas ununuran genron (seĉelanto) kaj ununuran specion (blua seĉelanto).
-Ĝi enhavas ununuran genron (tetramelo) kaj ununuran specion (nudflora tetramelo).
-Ĝi enhavas ununuran genron (tikodendro) kaj ununuran specion (nekonata tikodendro).
-Ĝi enhavas ununuran genron (trikotemnomo) kaj ununuran specion.
-Ĝi enhavas ununuran genron (vandimenio) kaj ununuran specion.
-Ĝi enhavas ununuran genron (vardio) kaj ununuran specion.
-Ĝi enhavas ununuran genron (vetaformo) kaj ununuran specion.
-Ĝi enhavas ununuran genron (viridivelo) kaj ununuran specion.
-Ĝi enhavas ununuran genron (ŝeŭcerio) kaj ununuran specion (marĉa ŝeŭcerio).
-Ĝi enhavas ununuran specion (mirinda pseŭdoditriko).
 Ĝi enkorpigita estas en la konstruaĵo.
 Ĝi esta nesolvebla en kloroformo kaj duetila etero.
 Ĝi estas Monda heredaĵo de Unesko.
