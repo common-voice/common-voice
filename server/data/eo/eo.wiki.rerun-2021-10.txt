@@ -6431,15 +6431,6 @@ Zsigmond Teleki devenis el juda familio.
 Ĝi ne havas insulojn.
 Ĝi ne ŝatas kalkhavajn grundojn.
 Ĝi neniam ludis grandan rolon.
-Ĝi nomiĝis "Maria Stein" aŭ "Marienstein".
-Ĝi nun formas parton de Aurseulles.
-Ĝi nun formas parton de Entrelacs.
-Ĝi nun formas parton de Le Grippon.
-Ĝi nun formas parton de Montsenelle.
-Ĝi nun formas parton de Neussargues en Pinatelle.
-Ĝi nun formas parton de Seulline.
-Ĝi nun formas parton de Val d'Oingt.
-Ĝi nuntempe ludas en la Promozione en Sicilio.
 Ĝi ofte kreskis pli horizontale ol alten.
 Ĝi okazas ordinare en komenco de julio en variaj komunumoj de Finnlando sur aerodromo.
 Ĝi plu formas parton de la regiono Grand Est.
@@ -6510,7 +6501,6 @@ Zsigmond Teleki devenis el juda familio.
 Ĝi troviĝas laŭlonge de la sudaj kaj okcidentaj marbordoj de Aŭstralio.
 Ĝi troviĝas norde de Rataje.
 Ĝi troviĝas oriente de Liberec.
-Ĝi troviĝas proksime al la vilaĝo Avsjunino kaj la vilaĝo Doroĥovo.
 Ĝi troviĝas rekte en la urba kerno.
 Ĝi troviĝas sude de la urbo sur altebenaĵo.
 Ĝi troviĝas sude de la urbokerno.
@@ -6535,8 +6525,6 @@ Zsigmond Teleki devenis el juda familio.
 Ĝia discentra orbito krucas tiun de Marso kaj ekstere tanĝas tiun de la Tero.
 Ĝia discentra orbito tanĝas tiun de Urano kaj krucas tiun de Neptuno.
 Ĝia disvolviĝo kaj la fabrikado de derivitaj komponaĵoj kaŭzas eldonadon de multaj patentoj.
-Ĝia elfluorivero estas Hossunjoki.
-Ĝia fonto estas je la kapo de la Buttermere valo.
 Ĝia formo simbolas la gradon de kompato de la suvereno.
 Ĝia graveco estas ankaŭ agnoskita en Esperantujo.
 Ĝia koloro estas blanka aŭ flavgrizeta.
@@ -6551,292 +6539,6 @@ Zsigmond Teleki devenis el juda familio.
 Ĝia rotacia rapido estas iom granda.
 Ĝia sidejo estas en Hanojo.
 Ĝia sorto restis obskura.
-Ĝia tipa genro estas (enkalipto).
-Ĝia tipa genro estas (funario).
-Ĝia tipa genro estas (gigaspermo).
-Ĝia tipa genro estas ajtonio.
-Ĝia tipa genro estas akanio.
-Ĝia tipa genro estas akario.
-Ĝia tipa genro estas akatokarpo.
-Ĝia tipa genro estas akrobolbo.
-Ĝia tipa genro estas alisonio.
-Ĝia tipa genro estas alseŭosmio.
-Ĝia tipa genro estas alstremerio.
-Ĝia tipa genro estas altingio.
-Ĝia tipa genro estas amblistegio.
-Ĝia tipa genro estas anakampsero.
-Ĝia tipa genro estas anastrofilo.
-Ĝia tipa genro estas andreo.
-Ĝia tipa genro estas anemeo.
-Ĝia tipa genro estas aneŭro.
-Ĝia tipa genro estas anizofileo.
-Ĝia tipa genro estas antocero.
-Ĝia tipa genro estas apodanto.
-Ĝia tipa genro estas aponogetono.
-Ĝia tipa genro estas argofilo.
-Ĝia tipa genro estas arkidio.
-Ĝia tipa genro estas arnelio.
-Ĝia tipa genro estas astelio.
-Ĝia tipa genro estas aterospermo.
-Ĝia tipa genro estas aŭlakomnio.
-Ĝia tipa genro estas aŭstrobailejo.
-Ĝia tipa genro estas balanoforo.
-Ĝia tipa genro estas balantiopso.
-Ĝia tipa genro estas bartramio.
-Ĝia tipa genro estas berberisopso.
-Ĝia tipa genro estas blazio.
-Ĝia tipa genro estas bonetio.
-Ĝia tipa genro estas brakitecio.
-Ĝia tipa genro estas brioksifio.
-Ĝia tipa genro estas brunio.
-Ĝia tipa genro estas buksbaŭmio.
-Ĝia tipa genro estas burmanio.
-Ĝia tipa genro estas butomo.
-Ĝia tipa genro estas cefalozielo.
-Ĝia tipa genro estas cefalozio.
-Ĝia tipa genro estas centrolepido.
-Ĝia tipa genro estas centroplako.
-Ĝia tipa genro estas ciateo.
-Ĝia tipa genro estas ciklanto.
-Ĝia tipa genro estas circeastero.
-Ĝia tipa genro estas cirilo.
-Ĝia tipa genro estas cirtopodo.
-Ĝia tipa genro estas cistopterido.
-Ĝia tipa genro estas citino.
-Ĝia tipa genro estas dafnifilo.
-Ĝia tipa genro estas daltonio.
-Ĝia tipa genro estas davalio.
-Ĝia tipa genro estas dazipogono.
-Ĝia tipa genro estas dendrocero.
-Ĝia tipa genro estas diapensio.
-Ĝia tipa genro estas didiereo.
-Ĝia tipa genro estas dikapetalo.
-Ĝia tipa genro estas diknemono.
-Ĝia tipa genro estas dikrano.
-Ĝia tipa genro estas diksonio.
-Ĝia tipa genro estas dionkofilo.
-Ĝia tipa genro estas dipentodonto.
-Ĝia tipa genro estas diplaziopso.
-Ĝia tipa genro estas dipterido.
-Ĝia tipa genro estas ditriko.
-Ĝia tipa genro estas efemerumo (Ephemerum).
-Ĝia tipa genro estas ekdeiokoleo.
-Ĝia tipa genro estas ekinodio.
-Ĝia tipa genro estas elatino.
-Ĝia tipa genro estas eleokarpo.
-Ĝia tipa genro estas enkalipto.
-Ĝia tipa genro estas entodonto.
-Ĝia tipa genro estas eriokaŭlo.
-Ĝia tipa genro estas eritroksilo.
-Ĝia tipa genro estas erpodio.
-Ĝia tipa genro estas eskalonio.
-Ĝia tipa genro estas eŭfronio.
-Ĝia tipa genro estas eŭstikio.
-Ĝia tipa genro estas fabronio.
-Ĝia tipa genro estas filezio.
-Ĝia tipa genro estas filidro.
-Ĝia tipa genro estas filodrepanio.
-Ĝia tipa genro estas fisidento.
-Ĝia tipa genro estas fontinalo.
-Ĝia tipa genro estas fosombronio.
-Ĝia tipa genro estas frimo.
-Ĝia tipa genro estas fukierio.
-Ĝia tipa genro estas funario.
-Ĝia tipa genro estas gelsemio.
-Ĝia tipa genro estas geokaliko.
-Ĝia tipa genro estas gigaspermo.
-Ĝia tipa genro estas gimnomitrio.
-Ĝia tipa genro estas girostemono.
-Ĝia tipa genro estas glejŝenio.
-Ĝia tipa genro estas grimio.
-Ĝia tipa genro estas grosulario.
-Ĝia tipa genro estas gudenio.
-Ĝia tipa genro estas halorago.
-Ĝia tipa genro estas haplomitrio.
-Ĝia tipa genro estas hedvigio.
-Ĝia tipa genro estas hemodoro.
-Ĝia tipa genro estas hernandio.
-Ĝia tipa genro estas hidnoro.
-Ĝia tipa genro estas hidrokarito.
-Ĝia tipa genro estas hilokomio.
-Ĝia tipa genro estas himenofilo.
-Ĝia tipa genro estas hipnodendro.
-Ĝia tipa genro estas hipoksido.
-Ĝia tipa genro estas hipopterigio.
-Ĝia tipa genro estas huerteo.
-Ĝia tipa genro estas hukerio.
-Ĝia tipa genro estas humirio.
-Ĝia tipa genro estas ikacino.
-Ĝia tipa genro estas iksonanto.
-Ĝia tipa genro estas irvingio.
-Ĝia tipa genro estas iteo.
-Ĝia tipa genro estas izoeto.
-Ĝia tipa genro estas jubulo.
-Ĝia tipa genro estas jungermanio.
-Ĝia tipa genro estas kabombo.
-Ĝia tipa genro estas kalicero.
-Ĝia tipa genro estas kalikanto.
-Ĝia tipa genro estas kalimpero.
-Ĝia tipa genro estas kalipogeio.
-Ĝia tipa genro estas kalobrio.
-Ĝia tipa genro estas kalomnio.
-Ĝia tipa genro estas kampinemo.
-Ĝia tipa genro estas kanelao.
-Ĝia tipa genro estas kardiopterido.
-Ĝia tipa genro estas karlemanio.
-Ĝia tipa genro estas katagonio.
-Ĝia tipa genro estas katoskopio.
-Ĝia tipa genro estas ketofilopso.
-Ĝia tipa genro estas kleomo.
-Ĝia tipa genro estas kleveo.
-Ĝia tipa genro estas klimacio.
-Ĝia tipa genro estas kloranto.
-Ĝia tipa genro estas kolumelio.
-Ĝia tipa genro estas konocefalo.
-Ĝia tipa genro estas korsinio.
-Ĝia tipa genro estas kostuso.
-Ĝia tipa genro estas krifeo.
-Ĝia tipa genro estas krososomo.
-Ĝia tipa genro estas ksirido.
-Ĝia tipa genro estas kunonio.
-Ĝia tipa genro estas lacistemo.
-Ĝia tipa genro estas lardizabalo.
-Ĝia tipa genro estas laŭro.
-Ĝia tipa genro estas lembofilo.
-Ĝia tipa genro estas lepidobotrio.
-Ĝia tipa genro estas lepidoleno.
-Ĝia tipa genro estas lepidozio.
-Ĝia tipa genro estas lepikoleo.
-Ĝia tipa genro estas lepirodonto.
-Ĝia tipa genro estas leptodonto.
-Ĝia tipa genro estas leskeo.
-Ĝia tipa genro estas leĵeŭneo.
-Ĝia tipa genro estas leŭkodonto.
-Ĝia tipa genro estas leŭkomio.
-Ĝia tipa genro estas lilio.
-Ĝia tipa genro estas limnanto.
-Ĝia tipa genro estas lindernio.
-Ĝia tipa genro estas lindseo.
-Ĝia tipa genro estas loazo.
-Ĝia tipa genro estas lofiokarpo.
-Ĝia tipa genro estas lofokoleo.
-Ĝia tipa genro estas loganio.
-Ĝia tipa genro estas loksomo.
-Ĝia tipa genro estas lomariopso.
-Ĝia tipa genro estas maranto.
-Ĝia tipa genro estas maratio.
-Ĝia tipa genro estas markgravio.
-Ĝia tipa genro estas marsileo.
-Ĝia tipa genro estas martineo.
-Ĝia tipa genro estas marĉantio.
-Ĝia tipa genro estas mastigoforo.
-Ĝia tipa genro estas matonio.
-Ĝia tipa genro estas mecgerio.
-Ĝia tipa genro estas meezio.
-Ĝia tipa genro estas melastomo.
-Ĝia tipa genro estas melianto.
-Ĝia tipa genro estas menispermo.
-Ĝia tipa genro estas meteorio.
-Ĝia tipa genro estas miodokarpo.
-Ĝia tipa genro estas miurio.
-Ĝia tipa genro estas mnio.
-Ĝia tipa genro estas molugo.
-Ĝia tipa genro estas monosolenio.
-Ĝia tipa genro estas montinio.
-Ĝia tipa genro estas muntingio.
-Ĝia tipa genro estas nartecio.
-Ĝia tipa genro estas nekero.
-Ĝia tipa genro estas neŭrado.
-Ĝia tipa genro estas nitrario.
-Ĝia tipa genro estas nototilado.
-Ĝia tipa genro estas ofiogloso.
-Ĝia tipa genro estas olako.
-Ĝia tipa genro estas opilio.
-Ĝia tipa genro estas ortotriko.
-Ĝia tipa genro estas palavicinio.
-Ĝia tipa genro estas pandao.
-Ĝia tipa genro estas parakrifio.
-Ĝia tipa genro estas penao.
-Ĝia tipa genro estas pentafilako.
-Ĝia tipa genro estas perao.
-Ĝia tipa genro estas peridisko.
-Ĝia tipa genro estas petrosavio.
-Ĝia tipa genro estas pikramnio.
-Ĝia tipa genro estas pikrodendro.
-Ĝia tipa genro estas pilotriko.
-Ĝia tipa genro estas pitosporo.
-Ĝia tipa genro estas plagiokilo.
-Ĝia tipa genro estas plagiotecio.
-Ĝia tipa genro estas pleŭrozio.
-Ĝia tipa genro estas podostemo.
-Ĝia tipa genro estas politriko.
-Ĝia tipa genro estas pontederio.
-Ĝia tipa genro estas porelo.
-Ĝia tipa genro estas potamogetono.
-Ĝia tipa genro estas prionodonto.
-Ĝia tipa genro estas pseŭdolepikoleo.
-Ĝia tipa genro estas psiloto.
-Ĝia tipa genro estas pteriginandro.
-Ĝia tipa genro estas pterobrio.
-Ĝia tipa genro estas ptikomitrio.
-Ĝia tipa genro estas ptikomnio.
-Ĝia tipa genro estas ptilidio.
-Ĝia tipa genro estas putranĵivo.
-Ĝia tipa genro estas rabdovejsio.
-Ĝia tipa genro estas rakitecio.
-Ĝia tipa genro estas rakopilo.
-Ĝia tipa genro estas rapateo.
-Ĝia tipa genro estas regmatodonto.
-Ĝia tipa genro estas restiono.
-Ĝia tipa genro estas rizogonio.
-Ĝia tipa genro estas ruseo.
-Ĝia tipa genro estas rutenbergio.
-Ĝia tipa genro estas sakolomo.
-Ĝia tipa genro estas salvadorao.
-Ĝia tipa genro estas sarkoleno.
-Ĝia tipa genro estas seligerio.
-Ĝia tipa genro estas sematofilo.
-Ĝia tipa genro estas simploko.
-Ĝia tipa genro estas siparuno.
-Ĝia tipa genro estas skapanio.
-Ĝia tipa genro estas skistokilo.
-Ĝia tipa genro estas skizandro.
-Ĝia tipa genro estas skizeo.
-Ĝia tipa genro estas sladenio.
-Ĝia tipa genro estas spiridento.
-Ĝia tipa genro estas splakno.
-Ĝia tipa genro estas splaknobrio.
-Ĝia tipa genro estas stemono.
-Ĝia tipa genro estas stemonuro.
-Ĝia tipa genro estas stereofilo.
-Ĝia tipa genro estas stilidio.
-Ĝia tipa genro estas stirako.
-Ĝia tipa genro estas strasburgerio.
-Ĝia tipa genro estas strelicio.
-Ĝia tipa genro estas suriano.
-Ĝia tipa genro estas tapiscio.
-Ĝia tipa genro estas targionio.
-Ĝia tipa genro estas tektario.
-Ĝia tipa genro estas teliao.
-Ĝia tipa genro estas telipterido.
-Ĝia tipa genro estas tetrafido.
-Ĝia tipa genro estas tetrakondro.
-Ĝia tipa genro estas tofildio.
-Ĝia tipa genro estas trakipodo.
-Ĝia tipa genro estas treŭbio.
-Ĝia tipa genro estas triglokino.
-Ĝia tipa genro estas trigonio.
-Ĝia tipa genro estas trikokoleo.
-Ĝia tipa genro estas triurido.
-Ĝia tipa genro estas trokodendro.
-Ĝia tipa genro estas tuidio.
-Ĝia tipa genro estas turnio.
-Ĝia tipa genro estas velozio.
-Ĝia tipa genro estas vivianio.
-Ĝia tipa genro estas voĉizio.
-Ĝia tipa genro estas vudsio.
-Ĝia tipa genro estas ŝepfio.
-Ĝia tipa genro estas ŝlegelio.
 Ĝia tre discentra orbito ekstere malproksime tanĝas tiun de Marso.
 Ĝia tre discentra orbito krucas tiujn de Marso kaj de la Tero.
 Ĝia treege discentra orbito krucas tiun de Neptuno kaj proksimiĝas tiun de Urano.
@@ -6850,10 +6552,6 @@ Zsigmond Teleki devenis el juda familio.
 Ĝiaj koloroj estas blanka kaj blua.
 Ĝiaj koloroj estas blankaj kaj ruĝaj.
 Ĝiaj kultivaroj estas disvastigitaj en la moderaj regionoj kiel ornamplantoj en parkoj kaj ĝardenoj.
-Ĝiaj loĝantoj en la franca nomiĝas "Mauronnais".
-Ĝiaj loĝantoj nomiĝas "Bellilois".
-Ĝiaj loĝantoj nomiĝas "Briacins".
-Ĝiaj loĝantoj nomiĝas "Callacois".
 Ĝiaj malgrandaj buntaj figuroj elvokas makondeajn karakterojn kaj legendojn.
 Ĝiaj selektitaĵoj estas mondvaste plantitaj.
 Ĝiaj semoj estas multaj kaj fekundaj eĉ dum longaj periodoj de sekeco.
@@ -6864,7 +6562,6 @@ Zsigmond Teleki devenis el juda familio.
 Ĝin kreis Ernst Paul el Dresdeno.
 Ĝin organizis la belorusa registaro kun la financa subteno de Rusio kaj Ukrainio.
 Ĝin ornamis blazonoj de la konstrukomisiintoj.
-Ĝin planis C. L. Engel.
 Ĝin vizitas somere multaj eksteraj kaj landaj turistoj.
 Ĝis antaŭ kelkaj jaroj oni apenaŭ atentis pri ĉi tiu frukto.
 Ĝis du horoj de la akcidento estis ĉiuj vunditoj en la malsanulejoj.
@@ -6932,7 +6629,6 @@ Zsigmond Teleki devenis el juda familio.
 Ŝi estas de miksita deveno (hanĉina kaj mongola).
 Ŝi estas difinata nacia poeto de sia lando.
 Ŝi estas eksedziniĝanta kaj naskis unuafoje.
-Ŝi estas eterna membro de Teatro Szigligeti.
 Ŝi estas kaptita de sia frato.
 Ŝi estas konata kiel la "Reĝino de Brazila Roko".
 Ŝi estas konsiderita revolucia feministo poŝtmodernisma.
@@ -7011,11 +6707,7 @@ Zsigmond Teleki devenis el juda familio.
 Ŝi kantis kanzonojn en kabaredoj.
 Ŝi komencis sian aktoran karieron en Gaja Teatro.
 Ŝi komencis sian aktoran karieron en Nacia Teatro (Budapeŝto).
-Ŝi komencis sian aktoran karieron en Nacia Teatro (Miskolc).
-Ŝi komencis sian aktoran karieron en Nacia Teatro (Szeged).
 Ŝi komencis sian aktoran karieron en Nova Teatro (Budapeŝto) kaj Operetoteatro (Budapeŝto).
-Ŝi komencis sian aktoran karieron en Teatro Csokonai (Debrecen).
-Ŝi komencis sian aktoran karieron en Teatro Szigligeti (Szolnok).
 Ŝi komencis sian aktoran karieron en infana teatro en Budapeŝto.
 Ŝi komencis sian aktoran karieron en malgranda privata teatro en Budapeŝto.
 Ŝi komencis sian aktoran karieron en malgranda teatra kompanio.
@@ -7097,7 +6789,6 @@ Zsigmond Teleki devenis el juda familio.
 Ŝi verkis dek romanojn.
 Ŝi verkis kelkajn librojn.
 Ŝi vivas en Berlino.
-Ŝi vivas en Heidelberg.
 Ŝi vivas en Irano kaj en Novjorko.
 Ŝi vizitis lin dum lia fina malsano.
 Ŝi ĉefe dediĉis sian poezian verkon al ĉi tiu malpermesita amo.
@@ -7141,7 +6832,6 @@ Zsigmond Teleki devenis el juda familio.
 Ŝia patro estis universitata profesoro.
 Ŝia patro konstruis laborejon en la kelo kie ŝi ofte eksperimentis.
 Ŝia patro laboris por la urba Komisio pri Publikaj Servoj kaj havas ukrainan devenon.
-Ŝia persoma nomvarianto estis "Zsuzsanna".
 Ŝia persona nomo eksterlande estis Kristina.
 Ŝia persona nomvarianto estis "Gabriella".
 Ŝia poemoj estas tradukitaj al pli ol kvardek lingvoj.
