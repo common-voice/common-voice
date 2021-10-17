@@ -193,6 +193,8 @@ const DatasetCorpusDownload = ({
   };
 
   const [locale, _] = useLocale();
+
+
   const [releaseStats, setReleaseStats] = React.useState(releases[releaseName]);
 
   let bundleLocale = releaseStats.locales[locale] ? locale : 'en';
@@ -201,6 +203,20 @@ const DatasetCorpusDownload = ({
   const [bundleState, setBundleState] = React.useState(
     generateBundleState(bundleLocale, CURRENT_RELEASE, localeStats)
   );
+
+  /**
+   * Sort Locales by the localized language name.
+   * @param {string} a First language code for comparison. (e.g. 'en')
+   * @param {string} b Second language code for comparison. (e.g. 'pt')
+   */
+  const sortLocales = (a: string, b: string) => {
+    // Get the localized language names.
+    const aLocalized = getString(a).toLocaleLowerCase(locale);
+    const bLocalized = getString(b).toLocaleLowerCase(locale);
+
+    // Use a localized comparison to account for accents and non-latin characters.
+    return aLocalized.localeCompare(bLocalized, locale);
+  }
 
   const handleLangChange = ({ target }: any) => {
     const newLocale = target.value;
@@ -258,7 +274,7 @@ const DatasetCorpusDownload = ({
           value={bundleState.bundleLocale}
           onChange={handleLangChange}>
           {Object.keys(releaseStats.locales)
-            .sort()
+            .sort(sortLocales)
             .map(locale => (
               <Localized key={locale} id={locale}>
                 <option value={locale} />
