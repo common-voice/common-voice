@@ -193,8 +193,6 @@ const DatasetCorpusDownload = ({
   };
 
   const [locale, _] = useLocale();
-
-
   const [releaseStats, setReleaseStats] = React.useState(releases[releaseName]);
 
   let bundleLocale = releaseStats.locales[locale] ? locale : 'en';
