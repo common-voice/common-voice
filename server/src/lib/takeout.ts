@@ -148,8 +148,14 @@ export default class Takeout {
     const takeout_id = job.data.takeout_id;
     const takeout = await this.getTakeout(takeout_id);
     if (takeout === null) throw 'unknown takeout';
-    // IN_PROGRESS takeouts that failed will get cleaned up eventually.
-    if (takeout.state !== TakeoutState.PENDING) throw 'illegal state';
+
+    // As best as I can tell, sometime multiple pods try to initiate the same queue job
+    // but throwing an error here will kill that entire job intead of just that pod's attempt
+    if (takeout.state !== TakeoutState.PENDING) {
+      console.log(`takeout ${job.data.takeout_id} already in progress, do nothing`);
+      return;
+    }
+
     await this.markTakeoutInProgress(takeout_id);
 
     const clips = await this.getClientClips(takeout.client_id);
@@ -262,10 +268,10 @@ export default class Takeout {
     const [stuckTakeouts] = (await this.db.query(
       `
         SELECT * FROM user_client_takeouts
-        WHERE state != ?
+        WHERE state IN (?)
           AND DATE_ADD(requested_date, INTERVAL ? HOUR) < NOW()
       `,
-      [TakeoutState.AVAILABLE, kStuckDurationHours]
+      [[TakeoutState.PENDING, TakeoutState.IN_PROGRESS], kStuckDurationHours]
     )) as [TakeoutRequest[]];
 
     if (stuckTakeouts.length) await this.deleteTakeoutFiles(stuckTakeouts);
@@ -275,10 +281,11 @@ export default class Takeout {
     return (
       await this.db.query(
         `
-          DELETE FROM user_client_takeouts
+          UPDATE user_client_takeouts
+          SET state = ?
           WHERE id IN (?)
         `,
-        [stuckTakeouts.map(takeout => takeout.id)]
+        [TakeoutState.INCOMPLETE, stuckTakeouts.map(takeout => takeout.id)]
       )
     )[0].affectedRows;
   }

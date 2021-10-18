@@ -146,8 +146,10 @@ export default class Bucket {
     chunkIndex: number,
     paths: string[]
   ): Promise<S3.HeadObjectOutput> {
-    console.log('start takeout zipping', takeout.id);
     const destination = this.takeoutKey(takeout, chunkIndex);
+
+    console.log('start takeout zipping', destination);
+
     const bucket = getConfig().CLIP_BUCKET_NAME;
     const passThrough = new PassThrough();
 
