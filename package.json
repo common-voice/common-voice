@@ -5,7 +5,6 @@
   "repository": "mozilla/voice-web",
   "private": true,
   "dependencies": {
-    "fluent-syntax": "^0.14.0",
     "http-status-codes": "^1.4.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.8"
@@ -27,8 +26,6 @@
     "node": ">=10.17.0"
   },
   "resolutions": {
-    "event-stream": "^3.3.4",
-    "@types/react": "^16.9.19",
     "minimist": "^1.2.3",
     "serialize-javascript": "^3.1.0",
     "dot-prop": "^4.2.1",

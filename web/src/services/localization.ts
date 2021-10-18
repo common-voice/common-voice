@@ -1,5 +1,5 @@
 require('fluent-intl-polyfill');
-const { negotiateLanguages } = require('fluent-langneg');
+const { negotiateLanguages } = require('@fluent/langneg');
 const locales = require('../../../locales/all.json') as string[];
 export const NATIVE_NAMES = require('../../../locales/native-names.json') as {
   [key: string]: string;
