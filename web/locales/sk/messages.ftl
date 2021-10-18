@@ -149,6 +149,7 @@ tl = tagalčina
 tr = turečtina
 tt = tatárčina
 tw = Twi
+ty = tahitčina
 uby = ubychčina
 udm = udmurtčina
 ug = ujgurčina
@@ -158,6 +159,7 @@ uz = uzbečtina
 vec = benátčina
 vi = vietnamčina
 vot = vodčina
+yi = jidiš
 yo = Jorubčina
 yue = kantónčina
 zh-CN = čínština (Čína)
@@ -299,6 +301,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Nahrať/zastaviť
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nahrať klip nanovo
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Zahodiť prebiehajúcu nahrávku
 shortcut-submit = Enter
 shortcut-submit-label = Odoslať nahrávky
 request-language-text = Nevidíte na Common Voice svoj jazyk?
@@ -597,8 +601,6 @@ subscribe = Odoberať
 get-started-speech = Začíname s rozpoznávaním reči
 other-datasets = Ďalšie hlasové datasety
 feedback-q = Máte spätnú väzbu?
-deepspeech-info = Dataset Common Voice dopĺňa open-source modul Mozilly na rozpoznávanie hlasu Deep Speech, ktorý je možné použiť na vytváranie aplikácií na rozpoznávanie reči. Prečítajte si náš <githubLink>prehľad na Githube</githubLink> alebo sa pripojte k <discourseLink>diskusnému fóru DeepSpeech</discourseLink>, kde sa dozviete, ako začať.
-common-voice-info-new = Máte otázky týkajúce sa služby Common Voice? Máte návrhy na zlepšenie alebo spätnú väzbu týkajúcu sa konkrétneho jazyka? Pripojte sa k nám na našom <discourseLink>diskusnom fóre</discourseLink> a dajte nám vedieť.
 data-other-librispeech-description = LibriSpeech je korpus približne 1 000 hodín 16 kHz čítanej angličtiny odvodený z audiokníh z projektu LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM je tvorený zvukovými nahrávkami prednášok a ich prepismi dostupnými na webovej stránke TED.
@@ -884,6 +886,13 @@ why-delete-recordings =
     
     Môžete nám dať vedieť, prečo by ste chceli odstrániť svoje nahrávky?
 profile-form-delete = Odstrániť profil
+
+## Profile Download
+
+download-profile-size = Niekoľko bajtov
+download-size = Veľkosť
+download-request-title = { $created }
+download-request-refresh-button = Obnoviť
 
 ## Landing
 
