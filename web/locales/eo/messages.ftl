@@ -478,7 +478,7 @@ about-nav-partners = Asociitoj
 about-nav-get-involved = Partopreni
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artefarita intelekto
-mycroft-description = Mycroft estas la unua malfermitkoda asistanto en la mondo.¶Mycroft funkcias ĉie: en komputilo, en aŭto aŭ en Raspberry Pi.
+mycroft-description = Mycroft estas la unua malfermitkoda asistanto en la mondo.Mycroft funkcias ĉie: en komputilo, en aŭto aŭ en Raspberry Pi.
 mycroft-secondary-description = Tiu ĉi estas malfermitkoda programo kiu povas estis libere rearanĝita, etendita kaj plibonigita. Mycroft povas esti uzata en io ajn, ĉu sciencia projekto ĉu entreprena sistemo.
 
 ## Glossary
@@ -573,8 +573,6 @@ subscribe = Aboni
 get-started-speech = Unua paŝoj en parolrekono
 other-datasets = Aliaj voĉaj datumaroj
 feedback-q = Ĉu vi ŝatus komenti?
-deepspeech-info = La datumaro de Common Voice iras kune kun la malfermitkoda parolrekonilo de Mozilla, Deep Speech, kiun vi povas uzi por konstrui parolkapablajn programojn. Vizitu nian <githubLink>superrigardon de Gihub</githubLink> aŭ aliĝu al <discourseLink>DeepSpeech Discourse</discourseLink> por scii kie kaj kiel komenci.
-common-voice-info-new = Ĉu vi havas demandojn rilate al Common Voice? Ĉu ideojn por plibonigoj aŭ komentoj pri specifa lingvo? Venu al nia <discourseLink>forumo de Discourse</discourseLink> kaj rakontu tion al ni.
 data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
 data-other-ted-name = Kolekto TED-LIUM
 data-other-ted-description = La kolekto TED-LIUM estis farita el prelegoj kaj ĝiaj transskriboj, disponeblaj en la retejo de TED.
@@ -852,6 +850,9 @@ why-delete-recordings =
     
     Ĉu vi povas diri al kial vi ŝatus forigi viajn voĉregistrojn?
 profile-form-delete = Forigi profilon
+
+## Profile Download
+
 
 ## Landing
 
