@@ -35,6 +35,7 @@ import {
 import './dataset-info.css';
 import URLS from '../../../urls';
 import { byteToSize } from '../../../utility';
+import useSortedLocales from "../../../hooks/use-sorted-locales";
 
 export const CURRENT_RELEASE = 'cv-corpus-7.0-2021-07-21';
 const SEGMENT_RELEASE = 'cv-corpus-7.0-singleword';
@@ -194,6 +195,7 @@ const DatasetCorpusDownload = ({
 
   const [locale, _] = useLocale();
   const [releaseStats, setReleaseStats] = React.useState(releases[releaseName]);
+  const [sortedLocales] = useSortedLocales(Object.keys(releaseStats.locales), getString);
 
   let bundleLocale = releaseStats.locales[locale] ? locale : 'en';
   let localeStats = releaseStats.locales[bundleLocale];
@@ -201,20 +203,6 @@ const DatasetCorpusDownload = ({
   const [bundleState, setBundleState] = React.useState(
     generateBundleState(bundleLocale, CURRENT_RELEASE, localeStats)
   );
-
-  /**
-   * Sort Locales by the localized language name.
-   * @param {string} a First language code for comparison. (e.g. 'en')
-   * @param {string} b Second language code for comparison. (e.g. 'pt')
-   */
-  const sortLocales = (a: string, b: string) => {
-    // Get the localized language names.
-    const aLocalized = getString(a).toLocaleLowerCase(locale);
-    const bLocalized = getString(b).toLocaleLowerCase(locale);
-
-    // Use a localized comparison to account for accents and non-latin characters.
-    return aLocalized.localeCompare(bLocalized, locale);
-  }
 
   const handleLangChange = ({ target }: any) => {
     const newLocale = target.value;
@@ -271,8 +259,7 @@ const DatasetCorpusDownload = ({
           name="bundleLocale"
           value={bundleState.bundleLocale}
           onChange={handleLangChange}>
-          {Object.keys(releaseStats.locales)
-            .sort(sortLocales)
+          {sortedLocales
             .map(locale => (
               <Localized key={locale} id={locale}>
                 <option value={locale} />
