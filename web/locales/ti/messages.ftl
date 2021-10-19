@@ -1,5 +1,7 @@
 ## General
 
+yes-receive-emails = እወ ኢ-መይል ስደደለይ። ብዛዕባ ፕሮጀክት ሓባራዊ ድምጺ ኽሕብር እደሊ እየ።
+stayintouch = ኣብ ሞዚላ ኣብ ከባቢ ተክኖሎጂ ድምጺ ማሕበረሰብ ንሃንጽ ኣሎና ። ምስ ምትዕርራያት ንሓድሽ ምንጭታት ሓበሬታ ከምኡውን ነዚ ሓበሬታ እዚ ብኸመይ ከም እትጥቀመሉ ዝያዳ ኽንሰምዕ ንደሊ ኢና።
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
