@@ -381,7 +381,7 @@ faq-do-want-native-q = Siri mwogezi wa lulimi muzaaliranwa era njogera ne akisen
 faq-do-want-native-a = Yee, tusinga kwagala ddoboozi lyo! Ebimu ku biruubirirwa bya Common Voice kwe kukungaanya enjogera ez'enjawulo okusobozesa obuweereza obutegeera amaloboozi okukolera buli omu mu bwenkanya. Kino kitegeeza nti ebiva eri aboogezi abatali bazaaliranwa byamugaso.
 faq-why-different-speakers-q = Lwaki twagala abogezi bangi kubuli lulimi?
 faq-why-different-speakers-a =
-    Databasese z'amaloboozi ezisinga zitendekeddwa n'obungi bw'amaloboozi ag'ekikula ekimu ekivaamu okusosola eri <articleLink>abasajja n'ab'enfuna entono</articleLink>. Enjogera n'enjawulo mu nnimi ezitakiikiriddwa nnyo mu dataset z'okutendeka kyekuusa nnyo ku bibinja by'abantu abanyigirizibwa. Ebyuma bingi nabyo bifuna obuzibu okutegeera amaloboozi g'abakazi. ¶
+    Databasese z'amaloboozi ezisinga zitendekeddwa n'obungi bw'amaloboozi ag'ekikula ekimu ekivaamu okusosola eri <articleLink>abasajja n'ab'enfuna entono</articleLink>. Enjogera n'enjawulo mu nnimi ezitakiikiriddwa nnyo mu dataset z'okutendeka kyekuusa nnyo ku bibinja by'abantu abanyigirizibwa. Ebyuma bingi nabyo bifuna obuzibu okutegeera amaloboozi g'abakazi. 
     Y'ensonga lwaki twetaaga amaloboozi ag'enjawulo mu database yaffe!
 faq-why-my-lang-q = Lwaki olulimi lwange teluriimu?
 faq-why-my-lang-new-a = Mozilla teronda ate tetintimya lulimi lw'ona ku lulala. Wabula, Common Voice etambuzibwa community, naye kitwala <multilangLink>emitendera egy'enjawulo okugattamu olulimi olupya</multilangLink> n'otandika okukungaanya amaloboozi agabawereddwa. Okusooka, omutimbagano gwa Common Voice gwetaaga okuvvuunulwa ba memba ba community bafune obumanyirivu bw'okuwaayo mu lulimi lwabwe. Ekiddako, twetaaga okukungaanya sentensi nnyingi ezitaliiko bwa nannyini abantu ze banaasoma. Ebyetaagisa ebyo byombi bwe bituukirizibwa ng'olulimi "luteekebwa" ku Common Voice abantu batandike okulikoodinga n'okukakasa ebiweereddwayo abalala. Bw'oba oyagala kuyamba kuteekayo lulimi lupya, genda ku <sentenceCollectorLink>kakungaanya sentensi</sentenceCollectorLink> okutandika.
@@ -392,7 +392,7 @@ faq-why-10k-hours-a = Guno gwe muwendo gw'essaawa ogwetaagisa okutendeka sisitii
 faq-how-calc-hours-q = Common voice ebala etya essaawa?
 faq-how-calc-hours-a = Tubala essaawa nga tuteebereza obuwanvu bwa buli likoodingi ne tumala ne tukubisaamu n'omugatte gwa likoodingi eziri mu nnimi zonna.
 faq-where-src-from-2-q = Ensibuko y'ebigambo evaawa?
-faq-where-src-from-2-a = Ensibuko y'ebigambo byaffe ekolebwa bannayini abenyigiramu nga bawaayo n'emboozi eziwandiikiddwa okuva mu firimu ez'olukale nga <italic>It’s a Wonderful Life</italic>.¶  ¶ Osobola okulaba ensibuko y'emboozi zaffe mu<githubLink>GitHub folder</githubLink>.
+faq-where-src-from-2-a = Ensibuko y'ebigambo byaffe ekolebwa bannayini abenyigiramu nga bawaayo n'emboozi eziwandiikiddwa okuva mu firimu ez'olukale nga <italic>It’s a Wonderful Life</italic>.   Osobola okulaba ensibuko y'emboozi zaffe mu<githubLink>GitHub folder</githubLink>.
 faq-why-not-ask-read-q = Lwaki tetubuuza bantu kusoma mu bitabo oba Wikipedia ezili mu nnimi endala?
 faq-why-not-ask-read-a = Okufuula dataset ya Common voice ey'omugaso nga bwe kisoboka tusazeewo kukkiriza text yokka esibuka wansi wa layisinsi ya Creative Commons (CC0). Nga tukozesa emitendera gya CC0 kitegeeza nti kizibu nnyo okusanga n'okukunganya text, naye nga ekikiriza omuntu yenna okukozesebwa data w'amaloboozi nga tewali kugaanibwa oba kumala kukkirizibwa okuva ku Mozilla. Mu nkomerero twagala kufuula dataset y'ennimi zonna ey'omugaso eri buli omu, omuli abanoonyereza, universities, startups, gavumenti, ebitongole by'obulamu bwa bulijjo n'abanyumirwa.
 faq-why-account-q = Lwaki nnina okuggulawo akawunti?
@@ -540,8 +540,6 @@ subscribe = Wewandiise
 get-started-speech = Tandika Okutegera Amaloboozi
 other-datasets = Dataset z'amaloboozi endala
 feedback-q = Oyina obubaka?
-deepspeech-info = Dataset ya Common Voice ekwatagana ne tekinologiya ow'obwereere owa Deep Speech owa Mozilla, gw'osobola okukozesa okuzimba tekinologiya ategeera amaloboozi. Soma <githubLink>Github overview</githubLink>  oba weyunge ku <discourseLink>DeepSpeech Discourse</discourseLink> okuyiga engeri y'okutandika.
-common-voice-info-new = Oyina ebibuuzo ebikwata ku Common Voice? Ebirowoozo by'okulongoosa oba obubaka obukwata ku lulimi olumu? Tweyungeko ku  <discourseLink>Discourse forum</discourseLink> otubuulire.
 data-other-librispeech-description = Ekunganiro lya LibriSpeech lirina essaawa 1000 eza 16Khz ez'Olungereza ezisomeddwa okuva mu bitabo by'amaloboozi ga pulojekiti ya LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM Corpus yakolebwa okuva mu butambi bw'okwogera ne biwandiikiddwa okuva mu mboozi ezo  eziri ku kibanja kya TED.
@@ -778,7 +776,7 @@ how-many-per-day = Kilungi! Buloboozi bumeka olunaku?
 how-many-a-week = Kilungi! Buloboozi bumeka mu wiiki?
 which-goal-type = Oyagala kw'ogera, Kuwuliriza oba by'ombi?
 receiving-emails-info =
-    Kaakano oteekeddwa  okufuna emails nga ezikujjukiza ku kiruubirirwakyo,¶
+    Kaakano oteekeddwa  okufuna emails nga ezikujjukiza ku kiruubirirwakyo,
     wootuuse n'ebikwata ku Common Voice
 not-receiving-emails-info = Kaakano oteekeddwa ku <bold>BUTAFUNA</bold> email nga ezikujjukiza ku kiruubirirwa kyo, ebifa ku w'otuuse n'obubaka obukwata ku Common Voice
 n-clips-pluralized =
@@ -817,6 +815,9 @@ why-delete-recordings =
     Osobola okututegeeza lwaki oyagala likondigi zo zisangulwe?
 profile-form-delete = Sangula ebikwatako
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Tukwaniriza{ $company } mukozi waffe!
@@ -846,4 +847,7 @@ demo-account-card-header = Tekyetaagisa kuba na account okwennyigiramu wadde nga
 
 
 ## Demo Dashboard
+
+
+## Validation criteria
 
