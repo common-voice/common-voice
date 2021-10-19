@@ -4,6 +4,7 @@ return-to-cv = Меки «Common Voice-нди»
 email-input =
     .label = Э-адрессь
 submit-form-action = Кучемс
+loading = Таргави...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
