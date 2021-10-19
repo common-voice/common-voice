@@ -478,7 +478,7 @@ about-nav-partners = Asociitoj
 about-nav-get-involved = Partopreni
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artefarita intelekto
-mycroft-description = Mycroft estas la unua malfermitkoda asistanto en la mondo.Mycroft funkcias ĉie: en komputilo, en aŭto aŭ en Raspberry Pi.
+mycroft-description = Mycroft estas la unua malfermitkoda asistanto en la mondo. Mycroft funkcias ĉie: en komputilo, en aŭto aŭ en Raspberry Pi.
 mycroft-secondary-description = Tiu ĉi estas malfermitkoda programo kiu povas estis libere rearanĝita, etendita kaj plibonigita. Mycroft povas esti uzata en io ajn, ĉu sciencia projekto ĉu entreprena sistemo.
 
 ## Glossary
