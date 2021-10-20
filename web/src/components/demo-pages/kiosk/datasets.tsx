@@ -6,7 +6,11 @@ import {
   CURRENT_RELEASE,
 } from '../../pages/datasets/dataset-info';
 import Subscribe from '../../pages/datasets/subscribe';
-import { Localized, withLocalization } from '@fluent/react';
+import {
+  Localized,
+  withLocalization,
+  WithLocalizationProps,
+} from '@fluent/react';
 import { LinkButton, LabeledSelect } from '../../ui/ui';
 import { CloudIcon, ChevronRight } from '../../ui/icons';
 import urls from '../../../urls';
@@ -16,7 +20,11 @@ import KioskCard from './kiosk-card';
 import './demo-datasets.css';
 
 const getDatasetsComponents = (): PageContentType => {
-  const ContentComponent = ({ getString }: { getString: Function }) => {
+  const ContentComponent = ({
+    getString,
+  }: {
+    getString: WithLocalizationProps['getString'];
+  }) => {
     return (
       <div id="demo-datasets-content-container">
         <div className="grey-bg">

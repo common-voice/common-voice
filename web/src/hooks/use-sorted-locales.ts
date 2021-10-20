@@ -1,13 +1,13 @@
-import {WithLocalizationProps} from '@fluent/react';
-import {useLocale} from "../components/locale-helpers";
-import {useMemo} from "react";
+import { WithLocalizationProps } from '@fluent/react';
+import { useLocale } from '../components/locale-helpers';
+import { useMemo } from 'react';
 
 /**
  * An object describing a locale and its localized name.
  */
 interface LocalizedLocale {
-  locale: string
-  localizedName: string
+  locale: string;
+  localizedName: string;
 }
 
 /**
@@ -25,16 +25,20 @@ function useSortedLocales(
   const [clientLocale] = useLocale();
 
   // Memoize the array of locales and only recompute when necessary.
-  const sortedLocales: LocalizedLocale[] = useMemo(() => locales
-      .map(locale => ({
-        locale,
-        localizedName: getString(locale).toLocaleLowerCase(clientLocale)
-      }))
-      .sort(({localizedName: a}, {localizedName: b}) => a.localeCompare(b, clientLocale)),
+  const sortedLocales: LocalizedLocale[] = useMemo(
+    () =>
+      locales
+        .map(locale => ({
+          locale,
+          localizedName: getString(locale).toLocaleLowerCase(clientLocale),
+        }))
+        .sort(({ localizedName: a }, { localizedName: b }) =>
+          a.localeCompare(b, clientLocale)
+        ),
     [locales, clientLocale, getString]
   );
 
-  return [sortedLocales.map(({locale}) => locale), sortedLocales]
+  return [sortedLocales.map(({ locale }) => locale), sortedLocales];
 }
 
-export default useSortedLocales
+export default useSortedLocales;

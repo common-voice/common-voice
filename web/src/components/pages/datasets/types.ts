@@ -2,7 +2,7 @@ import { UserClient } from 'common';
 import API from '../../../services/api';
 import { Notifications } from '../../../stores/notifications';
 import StateTree from '../../../stores/tree';
-import {WithLocalizationProps} from "@fluent/react";
+import { WithLocalizationProps } from '@fluent/react';
 
 //Datasets-info interfaces
 export interface DatasetPropsFromState {
