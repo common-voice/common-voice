@@ -87,6 +87,7 @@ size-megabyte = МБ
 
 ## Languages Overview
 
+languages-show-less = <chevron></chevron>Няемс сяда аф лама
 
 ## Contribution
 
@@ -117,6 +118,8 @@ size-megabyte = МБ
 
 ## Demo Datasets
 
+card-button-back = Меки
+demo-eofy-header = Нолдаф 2019-це кизоть песта
 
 ## Demo Account
 
@@ -129,3 +132,4 @@ size-megabyte = МБ
 
 ## Validation criteria
 
+contribution-background-noise-title = Фталдонь шум
