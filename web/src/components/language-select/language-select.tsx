@@ -1,4 +1,4 @@
-import {Localized, withLocalization, WithLocalizationProps} from '@fluent/react';
+import { Localized, withLocalization, WithLocalizationProps } from '@fluent/react';
 import Downshift from 'downshift';
 import * as React from 'react';
 
