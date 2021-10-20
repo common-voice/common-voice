@@ -541,6 +541,7 @@ Ach, jetzt kommt die Geschichte.
 Ach, lassen wir das!
 Ach, mach doch, was du willst!
 Ach, nichts Besonderes.
+Ach, schon wieder hormongeschwängerte Sätze der Notgeilheit.
 Ach, so etwas gibt es wirklich?
 Ach, sowas regelt sich ganz schnell intern.
 Ach, was soll's? Dann hacke ich Holz.
@@ -4314,6 +4315,7 @@ Darüber sollten wir mal in Ruhe nachdenken.
 Darüber war er nicht sehr erfreut.
 Darüber werden wir am Freitag abstimmen.
 Das "Hasenbutterbrot" wollte niemand mehr haben.
+Das "Pusher Haus" wurde gestürmt.
 Das "at" Zeichen war einmal als Klammeraffe bekannt.
 Das "smart" in SmartCard deutet nur darauf hin, dass der Chip rechnen kann.
 Das Abendessen Nachtessen wird um Mitternacht, nach dem Theater, eingenommen.
@@ -6221,6 +6223,7 @@ Der Ansager zählt laut von zehn herunter.
 Der Anstieg ist marginal.
 Der Anwalt hat bereits angekündigt, in Revision gehen zu wollen.
 Der Anwalt meinte, dass da überhaupt kein Risiko besteht.
+Der Apfel fällt nicht weit vom Stamm!
 Der Apfel fällt nicht weit vom Stamm.
 Der Apfel hingegen ist etwas dazwischen.
 Der Apfel spielt in vielen alten und neuen Geschichten eine Rolle.
@@ -7691,6 +7694,7 @@ Die Feinstaubbelastung ist zu Silvester am höchsten.
 Die Felder, die bestellen wir, denn ohne Gerste gäb's kein Bier.
 Die Felgen sind aus Aluminium und sternenförmig.
 Die Fernbedienung zu verstecken, ist ein schlimmes Vergehen in Schuberts Wohnzimmer.
+Die Ferndiagnose lautete chronischer Samenstau.
 Die Fernüberwachung von Dampfkesseln hat gemäß Anlage zwei zu erfolgen.
 Die Feuerwehr geht dort hinein, wo andere hinauslaufen.
 Die Feuerwehr war ausgerückt um den Keller leer zu pumpen.
@@ -9656,6 +9660,7 @@ Du kannst davon ausgehen, dass sie die Liste nicht ohne Hintergedanken erstellt 
 Du kannst deine Versicherung jederzeit in Anspruch nehmen.
 Du kannst den Brief direkt in den Müll schmeißen.
 Du kannst den Grundriss einfach abpausen.
+Du kannst dich gerne umschauen, aber jegliche Orgasmen erlebst du ausschließlich mit mir!
 Du kannst dich nicht ewig verstecken!
 Du kannst dir das Brot direkt im Laden schneiden lassen.
 Du kannst dir gar nicht vorstellen, wie er abging.
@@ -10709,6 +10714,7 @@ Eine zweite Staffel wurde allerdings nie gedreht.
 Eine Überwachungskamera überwacht den Eingangsbereich.
 Eine ältere Dame mit Gehwagen ergriff nun das Wort.
 Eine ältere Frau erschien am Fenster, sah kurz hinaus und schloss dann die Fensterläden.
+Eine äußerst performante Modellreihe.
 Eine übermäßige Konzentration von Gedanken in der Luft?
 Eine übertriebene Betonung hingegen nervt leider auch.
 Eineiige Zwillinge sind genetisch gleich, haben aber unterschiedliche Fingerabdrücke.
@@ -11926,6 +11932,7 @@ Es ist wie damals, nur dass es heute einen besseren Grund gibt.
 Es ist wie mit guten Freunden.
 Es ist wie verhext.
 Es ist wie überall im Leben.
+Es ist wieder soweit.
 Es ist windig.
 Es ist wirklich lebensgefährlich, über die Strasse zu gehen.
 Es ist wirklich schwierig, diese Musik einem Genre zuzuordnen.
@@ -12460,6 +12467,7 @@ Flieg nicht so hoch!
 Fliegen mit aus erneuerbaren Energien gewonnenem Treibstoff ist nicht klimaneutral.
 Fliegt nicht irgendein Flieger nach Tegel oder Schönefeld?
 Fließkommazahlen bieten nur eine begrenzte Genauigkeit.
+Flirte mit den jungen Studenten, behalte aber deine Hände bei dir.
 Flixbus drückt sich echt um jede Entschädigung.
 Florian hatte eine Panikattacke.
 Florian hatte etwas Angst, dass Michaela etwas mit der Mafia zu tun haben könnte.
@@ -14012,6 +14020,7 @@ Hart.
 Harte Schale weicher Kern.
 Hartes Wasser schmeckt besser als weiches, sorgt aber für Verkalkung.
 Hartz vier und der Tag gehört dir.
+Hasso, fass!
 Hast du Bock?
 Hast du Damenbesuch?
 Hast du Fieber?
@@ -14621,6 +14630,7 @@ Hier haben wir die Wurzel des Übels.
 Hier haben wir die schönsten Zwetschgen herausgepickt.
 Hier haben wir es schwarz auf weiß.
 Hier habt ihr neues Futter.
+Hier handelt es sich um eine sogenannte kompetetive Hemmung.
 Hier hast du deinen Fisch.
 Hier hat die Verpackung tatsächlich einen weitergehenden Zweck.
 Hier hat mich mal ein Weißer Hai gebissen.
@@ -14848,6 +14858,7 @@ Hol mal schnell ein Kühlkissen!
 Hol mich sofort hier raus!
 Hol schnell einen Techniker!
 Hol sie heraus!
+Hole das Stöckchen!
 Holen Sie Ihren Wagen endlich aus der Werkstatt ab, sonst verschrotten wir den.
 Holen Sie den Zugchef her!
 Holen Sie mal den Filialleiter.
@@ -15233,6 +15244,8 @@ Ich brauche viel Lemon Haze, sofort!
 Ich brauche zwanzig Minuten.
 Ich bringe drei Flaschen Sekt und zwei Flaschen Wein mit.
 Ich bringe ihn auch gleich wieder zurück.
+Ich bringe ihn um, sollte er mir meine Frau streitig machen.
+Ich bringe ihn um, sollte er sich in unsere Beziehung einmischen.
 Ich bringe meine Hausaufgaben mit.
 Ich dachte es mir.
 Ich dachte ja früher schon manchmal "ich bin neutrois" oder "ich bin ein Typ".
@@ -15963,6 +15976,7 @@ Ich liebe Pinguine.
 Ich liebe PowerPoint.
 Ich liebe das Feuer auf dem Teller!
 Ich liebe dich so sehr.
+Ich liebe dich und keine andere!
 Ich liebe die Sprache.
 Ich liebe diese Musik!
 Ich liebe diesen trockenen Humor!
@@ -17038,6 +17052,7 @@ Im nächsten Raum wimmelt es nur so von Feinden.
 Im nächsten Schritt werden etwaige Doubletten entfernt.
 Im passwortgeschützten Bereich finden Sie ein persönliches Postfach.
 Im schlimmsten Fall kommt es zum Hitzestau.
+Im sozialen Brennpunkt der Stadt wurde erneut ein Spezialkommando gesichtet.
 Im strömenden Regen erklimmt sie den Turm.
 Im tiefen Meer ist man vor Erdbeben und Tsunamis sicher.
 Im weiteren Spielverlauf verflachte die Partie zunehmends.
@@ -17883,6 +17898,7 @@ Ist die Salami mit Pferdefleisch?
 Ist die Uni nur ein Auffangbecken für Unentschlossene?
 Ist die Verbindung so schlecht?
 Ist die Vorschuluntersuchung verpflichtend?
+Ist die Zivilpolizei immer so "unauffällig"?
 Ist die Zündung eingeschaltet?
 Ist die aber süß!
 Ist die denn natürlich, oder eher künstlich?
@@ -18150,6 +18166,7 @@ Ja, ich klatsche auf die Eins und die Drei.
 Ja, ich komme ja schon!
 Ja, ich leihe mir auch ab und zu eine solche Anlage fürs Wochenende.
 Ja, ich mag auch die Hochhäuser.
+Ja, ich merkte, dass es mit unserer Beziehung Berg ab ging.
 Ja, ich schaue es mir später an.
 Ja, ich schreibe euch noch eine E-Mail deswegen.
 Ja, ich schreibe zwei Bücher.
@@ -20055,6 +20072,7 @@ Letztes Jahr haben viele meiner Freundinnen sich wieder ganz normale Blogs gemac
 Letztes Mal hat die Putzhilfe die Armaturen nicht gereinigt.
 Letztes Mal schien die Befestigung schon etwas locker zu sein.
 Letztes Mal war er echt süß. Nicht mehr so krumpelig.
+Letztes Wochenende hatten wir einen Dreier mit dem neuen Nachbarn.
 Letzthin habe ich bei Trigema bestellt, da sind die Preise schon anders.
 Letztlich bleibt einem nur die Flucht nach vorn.
 Letztlich erwies sich der einzige nicht ernst gemeinte Vorschlag als hilfreich.
@@ -22043,6 +22061,7 @@ Na ja, deine Familie wird dich schon nicht verstoßen.
 Na ja, die Briten und Franzosen machen es genau so.
 Na ja, eher ein Urlaubsziel.
 Na ja, er hat mehr Muskeln als Verstand.
+Na ja, er wollte keinen Analsex mehr mit mir.
 Na ja, es gibt so ein paar übliche Verdächtige, denen so etwas zuzutrauen wäre.
 Na ja, es ist ja sicherlich für einen guten Zweck.
 Na ja, irgendwann bekommt man halt Durst.
@@ -22164,6 +22183,7 @@ Nach ein, zwei Kameraschwenks sieht man schließlich die besagte Gaube.
 Nach eineinhalb Stunden Fußmarsch kamen wir an eine Lichtung.
 Nach einem Kaltstart kann das schon mal vorkommen.
 Nach einem Peitschenhieb setzte sich das Gespann in Bewegung.
+Nach einem Picknick sieht das aber nicht im Park aus.
 Nach einem Tritt vors Schienbein hielt sie endlich die Klappe.
 Nach einem anstrengenden Tag höre ich gerne laute Musik.
 Nach einem langen, anstrengenden Arbeitstag lässt Thilo sich gerne vom Fernsehen berieseln.
@@ -22356,6 +22376,9 @@ Natürlich ändert der Ventilator nichts an der Temperatur.
 Natürlich, der Biervorrat ist zur Neige gegangen.
 Navigation beenden.
 Navigiere mich zum Rotkelchenring vierzehn!
+Navigiere mich zum nächsten "Megacharger".
+Navigiere mich zum nächsten "Supercharger".
+Navigiere mich zum nächsten Drive-in-Restaurant.
 Ne, da hatte ich schon keins mehr.
 Ne, sieht nicht gut aus.
 Neben Deutsch ist auch Rätoromanisch Amtssprache in der Schweizerischen Eidgenossenschaft.
@@ -23836,6 +23859,7 @@ Planung und Umsetzung vieler öffentlicher Bauprojekte dauern viel zu lange.
 Plastikbecher mit Bier fliegen durch die Menge.
 Plastikverpackungen sollen wenn möglich vermieden werden.
 Plattfische sind wegen ihrer Tarnung kaum vom Meeresboden zu unterscheiden.
+Platz dich!
 Platz!
 Pluto zählt nicht mehr zu den Planeten.
 Plötzlich bekam der gesamte Chor Schluckauf.
@@ -24576,6 +24600,7 @@ Schreib es doch in deinen eigenen Kalender.
 Schreib ihr doch mal einen Brief.
 Schreib ihr halt ein paar liebe Worte rein.
 Schreib nicht mehr mit mir.
+Schreibe noch ein paar mehr Sätze über deine sexuelle Frustation.
 Schreiben Sie Ihrem Abgeordneten!
 Schreiben Sie mit, wenn Sie nicht gerade ein fotografisches Gedächtnis haben.
 Schreiben Sie möglichst viel verschwurbelten Text, der nichts aussagt.
@@ -24890,6 +24915,7 @@ Seine fleißigen Wichtel machten sich sofort daran.
 Seine ganze Sippschaft trägt Zipfelmütze.
 Seine letzten Worte richtete er an seine Ersthelferin.
 Seine morgendliche Dusche empfand er als erfrischend kalt.
+Seine neue Freundin ist sehr besitzergreifend anderen Frauen gegenüber.
 Seine persönlichen Daten wollte er dann doch nicht angeben.
 Seine schwarz weiß Zeichnungen sahen aus wie Fotos.
 Seine tapsige Art wird euch noch so manches Mal zum Verhängnis werden.
@@ -26315,6 +26341,7 @@ Sollten all seine Bemühungen umsonst gewesen sein?
 Sollten wir Jenny fragen, ob sie Lust hat mitzukommen?
 Sollten wir nicht langsam mal einen Quoten-Rassisten einstellen?
 Solltest du auch nicht.
+Solltest du dich nach Abenteuern außerhalb unseres Schlafzimmers auch nur umschauen, verlasse ich dich!
 Solltest du nicht um achtzehn Uhr zu Hause sein?
 Solltet ihr da etwas komisches sehen, sagt einfach bescheid.
 Somit gibt es auch keine deutsche Botschaft in Taiwan.
@@ -32419,6 +32446,7 @@ Woran denkst du gerade?
 Woran erinnert die Siegessäule?
 Woran erkennt man eigentlich eine Erle im Wald?
 Woran erkennt man sie?
+Woran haben Sie das gemerkt?
 Woran hast du das gemerkt?
 Woran liegt es, dass die Bilder so unscharf werden?
 Woran müssen Sie denken, wenn Sie das sehen?
@@ -32863,6 +32891,7 @@ Zum Glück sind die Nachbarn auch Heavy Metal Fans.
 Zum Glück trug sie einen Helm.
 Zum Glück war das Testergebnis negativ.
 Zum Glück wurde bei dem Unglück niemand verletzt.
+Zum Jahresende müssen die Statistiken und Erfolgsquoten wieder aufpoliert werden.
 Zum Kalibrieren der Aufzeichnung nimmt der Darsteller eine T-Pose ein.
 Zum Kartoffelgratin gibt es einen mediterranen Salat.
 Zum Kotzen das alles.
