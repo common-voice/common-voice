@@ -11,7 +11,6 @@ loading = Chargia...
 email-opt-in-info = Eu less surgnir e-mails, chi'm tiran adimmaint meis böts, cun actualisaziuns da meis progress e las novitats da Common Voice.
 email-opt-in-info-title = Annunzcha't per la glista dad e-mails da Common Voice.
 email-opt-in-info-sub-with-challenge = Tü survainst e-mails, chi't tiran adimmaint teis böts, cun actualisaziuns da teis progress e las novitats da Common Voice.
-email-opt-in-privacy = Cun l'acconsentimaint da surgnir e-mails acceptast cha Mozilla tratta quistas infuormaziuns sco declerà illa <privacyLink>decleraziun davart la protecziun da datas</privacyLink>
 indicates-required = * indicha ün chomp obligatoric
 not-available-abbreviation = Na disponibel
 
@@ -82,7 +81,6 @@ kbd = Kabardian
 kk = Casac
 ko = Corean
 kpv = Comi-Sirian
-ku = Curd
 kw = Cornic
 ky = Kirghis
 lij = Liguric
@@ -232,7 +230,6 @@ whats-public = Che es public?
 email-not-public = Nus nu publichain ti'adressa dad e-mail.
 recordings-and-locale-public = La quantità da tias registraziuns e l'infuormaziun in che linguas cha tü contribuischast vegnan publichadas.
 username-optin-public = Tü decidast, scha teis nom d'ütilisader vain publichà o resta anonim.
-demographic-deidentified-clarity = Datas demograficas furnidas opziunalmaing (p.ex. età, schlatta, lingua ed eccent) nu vegnan mai publichadas sün teis profil e nu vegnan colliadas cun teis conto illa collecziun da datas. Clips individuals vegnan attribuits a datas demograficas per pussibilitar ün'analisa plü minuziusa. Sch'ün scienzià less p.ex. orientar seis model d'identificaziun da vusch vers segmaints demografics specifics.
 username-email-not-demographic = Teis nom d'ütilisader e ti'adressa dad e-mail nu vegnan colliats cun las datas publichadas.
 
 ## Speak & Listen Shortcuts
@@ -290,8 +287,6 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Età
-profile-form-gender =
-    .label = Schlatta
 leaderboard-visibility =
     .label = Visibilità sülla glista dals meglders
 hidden = Zoppà
@@ -317,7 +312,6 @@ profile-close = Serra
 profile-explanation = Resta al curraint da teis progress cun ün profil e güda cha nossas datas dvaintan plü precisas.
 thanks-for-account = Grazcha per confirmar teis conto. Uossa creaina teis profil.
 why-demographic = Perche esa important?
-why-demographic-explanation = Datas d'ütilisader anonimisadas, p. ex. età, schlatta, lingua ed accent, güdan ad augmantar la qualità da las datas chi vegnan dovradas per trenar la precisiun da las maschinas dad identifichar vusch. Teis nom d'ütilisader e ti'adressa dad e-mail nu vegnan mai colliats cun tias datas inoltradas e tü poust decider, scha teis nom d'ütilisader es public o anonim.
 accept-privacy = Eu accept cha vus trattais quistas infuormaziuns sco cha vus declerais aint illa <privacyLink>decleraziun a reguard la protecziun da datas</privacyLink> da Mozilla.
 accept-privacy-title = Decleraziun da la protecziun da datas
 login-identity = Identità d'access
@@ -331,26 +325,17 @@ skip-submission-description = Dürant cha tü contribuischast poust sursiglir il
 skip-submission-note = Remarcha: Tü stoust tscherner tanter Discuorra e Taidla per müdar il tip da contribuziun.
 off = Deactivà
 on = Activà
-avatar-clip-title = Dà üna vusch a teis avatar
-change-your-avatar-clip = Voust müdar tia registraziun?
-recording-in-progress = Nus registrain tia vusch ...
-avatar-clip-recorded = Teis avatar cumpiglia uossa üna registraziun!
-record-voice-wave = REGISTRESCHA TIA VUSCH
-retry-voice-wave-recording = REPETA
-re-record = REGISTRESCHA AMO ÜNA JADA
-delete-voice = STÜDA
-recording-voice-wave = Registrazun
-delete-voice-clip = o stüda la registraziun
-ready-to-upload = CHARGIA
-avatar-clip-fact = I's sa fingià dalönch innan, cha la lectura / cha'l lectur vain distrat dal layout legibel dad üna pagina d'internet.
-recreate-voice = Recreescha tia uonda da vusch
-cancel-avatar-clip-recording = INTERRUMPA
-about-avatar-clip-recording = Creescha üna registraziun sco part da teis avatar da profil. Oters pon selecziunar tia registraziun cun la mür per tilla tadlar.
+
+## Profile - Email
+
 browse-file-title = Chargia üna datoteca cun purtret
 browse-file = drag and drop o <browseWrap>sföglia</browseWrap>
 connect-gravatar = Collia cun Gravatar
 gravatar_not_found = Chattà ingün Gravatar per tia adressa dad e-mail
 file_too_large = La datoteca tschernüda es massa gronda
+
+## Profile - Email
+
 manage-subscriptions = Administrescha ils abunamaints
 manage-email-subscriptions = Administrescha ils abunamaints dad e-mail
 email-already-used = Quist'adressa dad e-mail vain fingià dovrada per ün oter conto
@@ -367,8 +352,8 @@ faq-what-cv-a =
     Nus nu ramassain be registraziuns in linguas fich derasadas, ma eir in linguas chi vegnan discurrüdas da populaziuns plü pitschnas. Cun publichar üna vasta collecziun da datas güdaina a sviluppaders, impressaris e comunitats dad implir svessa quista locca. Sper la banca da datas Common Voice sviluppaina eir üna maschina da recugnuschentscha vocala open source cul nom Deep Speech.
 faq-why-important-q = Perche es quai important?
 faq-why-important-a =
-    Discuorrer es suvent il möd il plü natüral per comunichar ün cun tschel e tecnologias vocalas rendan quista comodità nüzzaivla per noss computers ed apparats mobils. Nus lain render pussibel a sviluppaders da construir applicaziuns da recugnuschentscha vocala chi san far star stut, sco p. ex. applicaziuns chi tradüan in temp real o assistents digitals chi san discuorrer. Mo pel mumaint sun las datas da vuschs chi voul per construir quistas applicaziuns charas e protettas cun drets d'auturs. Nus sperain cha la collecziun da datas da Common Voice detta als sviluppaders quai ch'els douvran per innovar e render la tecnologia vocala accessibla in lur aigna lingua.¶
-    ¶
+    Discuorrer es suvent il möd il plü natüral per comunichar ün cun tschel e tecnologias vocalas rendan quista comodità nüzzaivla per noss computers ed apparats mobils. Nus lain render pussibel a sviluppaders da construir applicaziuns da recugnuschentscha vocala chi san far star stut, sco p. ex. applicaziuns chi tradüan in temp real o assistents digitals chi san discuorrer. Mo pel mumaint sun las datas da vuschs chi voul per construir quistas applicaziuns charas e protettas cun drets d'auturs. Nus sperain cha la collecziun da datas da Common Voice detta als sviluppaders quai ch'els douvran per innovar e render la tecnologia vocala accessibla in lur aigna lingua.
+    
     Per render la recugnuschentscha vocala amo plü universala nu ramassaina be registraziuns in linguas derasadas, ma eir in linguas chi vegnan discurrüdas da populaziuns plü pitschnas e nu vegnan suvent na resguardadas adequatamaing da servizis commercials da recugnuschentscha vocala. Cun publichar üna vasta collecziun da datas güdaina a sviluppaders, impressaris e comunitats dad implir svessa quista locca.
 faq-how-get-q = Co survegn eu las datas da Common Voice?
 faq-how-get-a = La collecziun da datas da Common Voice sta a disposiziun per telechargiar suot la licenza <licenseLink>CC0</licenseLink> sün <datasetLink>nossa pagina culla collecziun da datas</datasetLink>. Da l'istessa pagina poust eir telechargiar diversas otras collecziuns da datas publicas.
@@ -407,8 +392,8 @@ faq-how-privacy-q = Co pudaivat vus garantir anonimità e protecziun da datas a 
 faq-how-privacy-a = Las infuormaziuns persunalas vegnan eliminadas da tuot las registraziuns aint illa collecziun da datas.
 faq-what-determine-identity-q = Che voul quai dir ch'eu nu poss  "eruir l'identità" dal pledader aint illa collecziun da datas da Common Voice?
 faq-what-determine-identity-a =
-    La collecziun da datas da Common Voice es üna resursa averta e publica chi po gnir dovrada per trenar üna gronda varietà dad applicaziuns chi vegnan dirigidas culla vusch. Per proteger la sgürezza da nos partecipants pretendaina da tuots chi telechargian la collecziun da datas da Common Voice da respectar la protecziun da la sfera privata dals partecipants.¶
-    ¶
+    La collecziun da datas da Common Voice es üna resursa averta e publica chi po gnir dovrada per trenar üna gronda varietà dad applicaziuns chi vegnan dirigidas culla vusch. Per proteger la sgürezza da nos partecipants pretendaina da tuots chi telechargian la collecziun da datas da Common Voice da respectar la protecziun da la sfera privata dals partecipants.
+    
     Las infuormaziuns persunalas vegnan eliminadas da tuot la registraziuns aint illa collecziun da datas. Cur cha la collecziun da datas vain telechargiada esa dad apporovar chi nu's prova dad eruir l'identità da qualunque partecipant. Quai voul dir chi nun es permiss da crear üna colliaziun tanter las infuormaziuns da la collecziun da datas e las datas persunalas dals partecipants. Cun colliar per exaimpel las datas da la collecziun cun otras datas chi sun fingià avantman aint illa collecziun as poja però dovrar la collecziun da datas per trenar la recugnuschentscha vocala, l'identificaziun dal pledader o otras applicaziuns.
 faq-what-is-cv = Che es Common Voice?
 faq-using-cv = Dovrar Common Voice
@@ -421,7 +406,7 @@ faq-search-for-answers =
 about-title = Perche Common Voice?
 about-subtitle = Common Voice fa part da l'iniziativa da Mozilla chi voul güdar a maschinas ad imprender co cha persunas realas discuorran. Sper la collecziun da datas da Common Voice eschan nus eir landervia da construir üna maschina da recugnuschentscha vocala open source chi ha nom Deep Speech.
 about-header-description =
-    Tuots duos progets fan part da nos ingaschamaint da survendscher ils cunfins davart la lingua digitala. Las tecnologias da recugnuschentscha vocala dan a noss aparats üna dimensiun umana, mo il sviluppaders douvran üna gronda quntità da datas vocalas per pudair construir quistas tecnologias.¶
+    Tuots duos progets fan part da nos ingaschamaint da survendscher ils cunfins davart la lingua digitala. Las tecnologias da recugnuschentscha vocala dan a noss aparats üna dimensiun umana, mo il sviluppaders douvran üna gronda quntità da datas vocalas per pudair construir quistas tecnologias.
     Nus lain render las datas da vusch accessiblas in möd liber ed avert e garantir implü cha las datas rapreschaintan la diversità da persunas realas. Insembel pudaina amegldrar la recugnuschentscha vocala per tuots.
 how-does-it-work-title = Co funcziuna quai?
 how-does-it-work-text = Culla partecipaziun collectiva s-chaffin nu üna collecziun da datas da vusch open source. Contribuischa cun tia vusch, verifichescha las registraziuns dad otras persunas, renda la collecziun da datas megldra per tuots.
@@ -444,14 +429,14 @@ about-clip-graveyard-text = Il sunteri da registraziuns cuntegna registraziuns c
 about-partners = Partenaris
 about-become-a-partner = Dvantar partenaria / partenari
 about-partnership =
-    Common Voice es ün proget collaborativ e nus eschan dependents da nossa comunità da partenaris e partecipants per construir la plü gronda collecziun da datas vocalas open source insomma.¶
-    ¶
+    Common Voice es ün proget collaborativ e nus eschan dependents da nossa comunità da partenaris e partecipants per construir la plü gronda collecziun da datas vocalas open source insomma.
+    
     Nus lain ingrazchar a las seguaintas persunas ed organisaziuns per lur sustegn in connex cun quist proget:
 about-get-involved = Partecipescha't
 about-get-involved-text-2 =
-    Voust güdar ad amegldrar Common Voice?¶
-    Stupend! Contactescha'ns per e-mail o <discourseLink>Discourse</discourseLink>¶
-    forums, infuormescha'ns a reguard problems cun la pagina-web sur <githubLink>GitHub</githubLink>, o aintra i'l¶
+    Voust güdar ad amegldrar Common Voice?
+    Stupend! Contactescha'ns per e-mail o <discourseLink>Discourse</discourseLink>
+    forums, infuormescha'ns a reguard problems cun la pagina-web sur <githubLink>GitHub</githubLink>, o aintra i'l
     <matrixLink>Matrix</matrixLink> chat da la community.
 about-nav-why-common-voice = Perche?
 about-nav-how-it-works = Co?
@@ -460,7 +445,7 @@ about-nav-get-involved = Partecipar
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligenza artificiala
 mycroft-description =
-    Mycroft es il prüm assistent digital open source dal muond.¶
+    Mycroft es il prüm assistent digital open source dal muond.
     Mycroft funcziuna dapertuot - sün ün computer, in ün auto o sün ün Rasperry Pi.
 mycroft-secondary-description = I's tratta dad ün program open source chi po gnir modifichà, schlargià ed amegldrà libramaing. Mycroft po gnir dovrà per tuot il pussibel, saja quai per ün proget scientific o per il program dad ün'applicaziun per affars.
 
@@ -478,10 +463,8 @@ sst-explanation = Tecnologias da la vusch al text (STT) convertischan datas voca
 de-identified = Anonimisà
 de-identified-explanation = Tras quist process vegnan las infuormaziuns dal profil dad ün partecipant separadas da sias registraziuns, cur cha quistas vegnan preparadas per gnir s-chargiadas sco part da la collecziun da datas.
 
-## NotFound
+## Error pages
 
-notfound-title = Na chattà
-notfound-content = Displaschaivelmaing nu saja che cha tü tscherchast.
 
 ## Data
 
@@ -516,10 +499,10 @@ review-delete-recordings = Stüda mias registraziuns
 
 datasets-headline = Nus construin üna collecziun da datas vocalas plurilingua open source, cha minchün po dovrar per trenar applicaziuns chi vegnan dirigidas culla vusch.
 datasets-positioning =
-    Nus eschan persvas, cha collecziuns da datas vocalas chi sun grondas e publicas sustegnan l'innovaziun ed eir üna sana concurrenza commerciala sül chomp da la tecnologia vocala chi's basa sül imprender autonom da maschinas.¶
-    ¶
-    La collecziun da datas plurilingua da Common Voice es uossa fingià la plü gronda collecziun da datas vocalas da sia sort chi'd es disponibla al public, mo i nun es l'unica.¶
-    ¶
+    Nus eschan persvas, cha collecziuns da datas vocalas chi sun grondas e publicas sustegnan l'innovaziun ed eir üna sana concurrenza commerciala sül chomp da la tecnologia vocala chi's basa sül imprender autonom da maschinas.
+    
+    La collecziun da datas plurilingua da Common Voice es uossa fingià la plü gronda collecziun da datas vocalas da sia sort chi'd es disponibla al public, mo i nun es l'unica.
+    
     Tü poust verer quista pagina sco punct da referenza per otras collecziuns da datas vocalas open source. Intant cha Common Voice crescha inavant, publichaina quia implü nossas actualisaziuns.
 language = Lingua
 # File size in gigabytes
@@ -548,8 +531,6 @@ subscribe = Abunescha
 get-started-speech = Cumainza cun l'identificaziun da vusch
 other-datasets = Otras collecziuns da datas
 feedback-q = Ans voust dar ün resun?
-deepspeech-info = La collecziun da datas vocalas da Common Voice cumplettescha la maschina d'identificaziun da vusch open source Deep Speech. Cun quella as poja construir applicaziuns d'identificaziun da vusch. Legia nossa <githubLink>survista sün Github</githubLink> o aintra i'l <discourseLink> discuors DeepSpeech </discourseLink> per imprender co cumanzar.
-common-voice-info-new = Hast dumondas a reguard Common Voice? Ideas per meglioraziuns o resuns a reguard üna lingua specifica? Aintra i'l <discourseLink>forum Discourse</discourseLink> per ans far a savair.
 data-other-librispeech-description = LibriSpeech es ün corpus da bundant 1'000 uras registraziuns da prelecziuns in inglais (registradas in 16kHz) chi vegnan da cudeschs auditivs e dal proget LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Il corpus TED-Lium es gnü realisà cun discuors audio e lur transcripziuns chi sun disponiblas sün la pagina d'internet da TED.
@@ -622,7 +603,6 @@ contribute = Contribuischa
 listen = Taidla
 skip = Sursaglia
 shortcuts = Scurznidas
-clips-with-count = <bold>{ $count }</bold> Registraziuns
 goal-help-recording = Tü hast güdà a Common Voice da ragiundscher <goalPercentage></goalPercentage> da nos böt dal di da { $goalValue } a reguard registraziuns!
 goal-help-validation = Tü hast güdà a Common Voice da ragiundscher <goalPercentage></goalPercentage> da nos böt dal di da { $goalValue } a reguard validaziuns!
 contribute-more =
@@ -753,17 +733,13 @@ want-to-continue = Voust cuntinuar?
 finish-editing = Finischa il prüm tias modificaziuns?
 lose-changes-warning = Bandunar uossa, voul dir cha tü perdast tias modificaziuns.
 build-custom-goal = Definischa ün böt persunal
-help-reach-hours = Güda a ragiundscher { NUMBER($hours) } uras in { $language } cun teis böt persunal
-help-reach-hours-general = Güda cun teis agen böt, cha Common Voice ragiundscha { NUMBER($hours) } uras in üna lingua
 set-a-goal = Definir ün böt
 cant-decide = Est indecis?
-activity-needed-calculation = Nus pudain ragiundscher { NUMBER($totalHours) } uras in be { NUMBER($periodMonths) } mais, scha { NUMBER($people) } persunas fan { NUMBER($clipsPerDay) } registraziuns al di.
 how-many-per-day = Stupend! Quantas registraziuns al di?
 how-many-a-week = Stupend! Quantas registraziuns l'eivna?
 which-goal-type = Voust discuorrer, tadlar o tuots duos?
 receiving-emails-info = Tü hast tschernü da surgnir e-mails chi't regordan p. ex. teis böts, t'infuormeschan sur da teis progress o t'infuormeschan sur da novitats da Common Voice
 not-receiving-emails-info = Tü hast tschernü da <bold>NA</bold> tschüffer e-mails chi't regordan p. ex. vi da teis böts, t'infuormeschan sur da teis progress o t'infuormeschan a reguard las novitats da Common Voice
-n-clips = { NUMBER($count) } registraziuns
 help-share-goal = Güda'ns a chattar daplü vuschs cun publichar teis böts
 confirm-goal = Conferma il böt
 goal-interval-weekly = Minch'eivna
@@ -790,10 +766,13 @@ remove = Stüder
 keep-info = Tias registraziuns vocalas anonimas restan illa collecziun da datas da Common Voice. Scha tü at decidast plü tard üna jada da stüder teis profil nu poust plü pretender cha tias registraziuns vegnan stüzzas da la collecziun da datas.
 remove-info = Nus controllain tia dumonda per stüder tias registraziuns vocalas da la collecziun da datas. Scha tia dumonda vain confermada, lura contactaina ils ütilisaders chi han s-chargià la collecziun da datas e dumandain eir ad els da stüder tias registraziuns.
 why-delete-recordings =
-    Las registraziuns da Common Voice vegnan dovradas dad academikers, pitschens affars pitschens ed entusiasts da l'identificaziun da vusch per trenar e render plü grondas las resursas publicas, sco per exaimpel models da vusch.¶
-    ¶
+    Las registraziuns da Common Voice vegnan dovradas dad academikers, pitschens affars pitschens ed entusiasts da l'identificaziun da vusch per trenar e render plü grondas las resursas publicas, sco per exaimpel models da vusch.
+    
     Ans voust far savair perche cha tü vessast jent da stüder tias registraziuns?
 profile-form-delete = Stüder il profil
+
+## Profile Download
+
 
 ## Landing
 
@@ -802,3 +781,21 @@ help-contribute = Tü poust güdar a construir üna collecziun da datas multifar
 login-company = Annunzcha't / Registrescha't cun l'adressa dad e-mail da { $company }
 profile-not-required = I nu fa dabsögn dad avair ün profil per contribuir, eir schi füss ütil. Suotvart vezzast perche.
 read-more-about = Legia daplü sün nossa pagina d'infuormaziun da Common Voice.
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+

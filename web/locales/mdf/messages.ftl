@@ -1,9 +1,13 @@
 ## General
 
+yes-receive-emails = Пара, кучеда мондейне сёрма. Монь ули мялезе содафтомс «Common Voice» проектть кулянзон мархта.
+stayintouch = Минь Мозилласа тихтяма кялень технологиянь коряс ломанень пуромкс. Минь мяленьке, штоба тинь содалесть сембе од кулятнень, од лисмопрятнень, а тяфта жа  тяфтама даннайхнень тевс нолямаснон
+privacy-info = Макстама вал цебярьста ваномс информациять мельгя. Сяда крхкаста ванк <privacyLink>Кяшф сёрматфксть эса</privacyLink>.
 return-to-cv = Меки «Common Voice-нди»
 email-input =
-    .label = Э-адрессь
+    .label = Эл. адрессь
 submit-form-action = Кучемс
+loading = Таргави...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -69,6 +73,8 @@ af = Африкансонь кяль
 
 ## Datasets Page
 
+size-gigabyte = ГБ
+size-megabyte = МБ
 
 ## Download Modal
 
@@ -81,6 +87,7 @@ af = Африкансонь кяль
 
 ## Languages Overview
 
+languages-show-less = <chevron></chevron>Няемс сяда аф лама
 
 ## Contribution
 
@@ -111,6 +118,8 @@ af = Африкансонь кяль
 
 ## Demo Datasets
 
+card-button-back = Меки
+demo-eofy-header = Нолдаф 2019-це кизоть песта
 
 ## Demo Account
 
@@ -123,3 +132,4 @@ af = Африкансонь кяль
 
 ## Validation criteria
 
+contribution-background-noise-title = Фталдонь шум

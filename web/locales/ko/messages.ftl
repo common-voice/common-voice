@@ -153,6 +153,7 @@ tl = 타갈로그어
 tr = 터키어
 tt = 타타르어
 tw = 트위어
+ty = 타히티어
 uby = 우비흐어
 udm = 우드무르트어
 ug = 위구르어
@@ -476,8 +477,8 @@ about-clip-graveyard-text = 클립 무덤은 Common Voice 데이터 세트에 �
 about-partners = 파트너
 about-become-a-partner = 파트너 되기
 about-partnership =
-    Common Voice는 공동 작업 프로젝트이며 가장 큰 오픈 소스 음성 데이터 세트를 구축하기 위해 파트너와 기여자 커뮤니티의 도움을 받고 있습니다.¶
-    ¶
+    Common Voice는 공동 작업 프로젝트이며 가장 큰 오픈 소스 음성 데이터 세트를 구축하기 위해 파트너와 기여자 커뮤니티의 도움을 받고 있습니다.
+    
     프로젝트에 도움을 주신 다음 분들과 단체에 감사드립니다:
 about-get-involved = 참여하기
 about-get-involved-text-2 =
@@ -554,10 +555,10 @@ review-delete-recordings = 내 녹음 삭제
 
 datasets-headline = 우리는 누구든지 음성 지원 응용프로그램을 교육하기 위해 사용할 수 있는 오픈 소스, 다국어 음성 데이터 세트를 구축하고 있습니다.
 datasets-positioning =
-    우리는 공개적으로 이용할 수 있는 대규모 음성 데이터 세트가 머신-러닝 기반의 음성 기술의 혁신과 건전한 상업 경쟁을 촉진할 것이라고 믿습니다.¶
-    ¶
-    Common Voice의 다국어 데이터 세트는 이미 같은 부류의 세트 중에서 공개적으로 이용할 수 있는 가장 큰 규모의 음성 데이터 세트지만, 그것만이 유일한 것은 아닙니다.¶
-    ¶
+    우리는 공개적으로 이용할 수 있는 대규모 음성 데이터 세트가 머신-러닝 기반의 음성 기술의 혁신과 건전한 상업 경쟁을 촉진할 것이라고 믿습니다.
+    
+    Common Voice의 다국어 데이터 세트는 이미 같은 부류의 세트 중에서 공개적으로 이용할 수 있는 가장 큰 규모의 음성 데이터 세트지만, 그것만이 유일한 것은 아닙니다.
+    
     이 페이지를 다른 오픈 소스 음성 데이터 세트의 기준점(참조처)으로 해주십시오. 또한 Common Voice가 계속 성장하고 있기 때문에, 릴리스 업데이트를 위한 홈으로 삼으십시오.
 language = 언어
 # File size in gigabytes
@@ -871,6 +872,7 @@ download-recordings-title = 녹음
 download-recordings-info = mp3와 관련 문장이 포함되어 있으며 준비하는 데 시간이 걸릴 수 있음
 download-recordings-size = 보통 수 메가바이트
 download-recordings-unavailable = 다른 요청이 이미 진행 중이라면 녹음을 요청할 수 없습니다.
+download-recently-requested = 당신은 매 { $days }일 마다 새로운 녹화본을 요청할 수 있습니다
 download-size = 크기
 download-selected = 선택됨
 download-start = 프로필 데이터 다운로드
@@ -945,6 +947,8 @@ contribution-misreadings-title = 오독
 contribution-misreadings-description = 들을 때 쓰여진 내용이 정확히 녹음 되었는지 매우 주의 깊게 확인하십시오. 사소한 오류라도 있으면 거부하십시오. <br />아주 흔한 실수는 다음과 같습니다.
 contribution-misreadings-description-extended-list-4 = 녹음을 너무 빨리 중단해 마지막 단어의 끝 부분을 놓치는 것.
 contribution-misreadings-description-extended-list-5 = 한 단어를 여러 번 읽는 것.
+contribution-misreadings-example-1-title = 트라이아스기의 거대 공룡들
+contribution-misreadings-example-2-title = 트라이아스기의 거대 공룡
 contribution-misreadings-example-3-explanation = [마지막 단어가 끝나기 전에 녹음이 중단됨]
 contribution-misreadings-example-4-explanation = [요청한 텍스트보다 더 많은 것이 녹음되었음]
 contribution-misreadings-example-8-explanation = [내용이 일치하지 않음]

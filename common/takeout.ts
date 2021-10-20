@@ -2,7 +2,8 @@ export enum TakeoutState {
   PENDING = 0,
   IN_PROGRESS,
   AVAILABLE,
-  EXPIRED
+  EXPIRED,
+  INCOMPLETE
 }
 
 export type TakeoutRequest = {

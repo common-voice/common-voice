@@ -188,8 +188,8 @@ logout = Log Out
 
 home-title = Ang Common Voice ay inisyatibo ng Mozilla para tulungang turuan ang mga machine kung paano magsalita ang mga totoong tao
 home-cta = Magsalita, mag-ambag dito!
-wall-of-text-start = Ang boses ay natural, ang boses ay tao. Kaya kami ay nabighani sa paglikha ng boses na pwedeng gamitin ¶ teknolohiya para sa ating mga makina. Pero upang makalikha ng sistema ng boses, napakaraming boses¶ ang kinakailangang data
-wall-of-text-more-desktop = Ngayon pwede mo nang ibigay ang iyong boses upang matulungan kaming bumuo ng open-source voice database na pwedeng gamitin nino man¶ upang makagawa ng panibagong apps para sa mga kagamitan at ng web. Basahin ang pangungusap para tulungang matuto ang mga makina kung pano magsalita ang totoong tao. Suriin ang gawa ng iba¶ pang mga kontribyutor para mapabuti ang kalidad nito. Ganoon lang kasimple!
+wall-of-text-start = Ang boses ay natural, ang boses ay tao. Kaya kami ay nabighani sa paglikha ng boses na pwedeng gamitin  teknolohiya para sa ating mga makina. Pero upang makalikha ng sistema ng boses, napakaraming boses ang kinakailangang data
+wall-of-text-more-desktop = Ngayon pwede mo nang ibigay ang iyong boses upang matulungan kaming bumuo ng open-source voice database na pwedeng gamitin nino man upang makagawa ng panibagong apps para sa mga kagamitan at ng web. Basahin ang pangungusap para tulungang matuto ang mga makina kung pano magsalita ang totoong tao. Suriin ang gawa ng iba pang mga kontribyutor para mapabuti ang kalidad nito. Ganoon lang kasimple!
 show-wall-of-text = Magbasa nang Higit Pa
 help-us-title = Tulungan kaming magpatibay ng mga pangungusap!
 help-us-explain = Pindutin ang play, makinig at sabihin sa amin: kanila bang nabigkas ng tama ang pangungusap sa ibaba?
@@ -535,6 +535,9 @@ keep = Panatiliin
 remove = Alisin
 profile-form-delete = Burahin ang Profile
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Mabuhay ang mga kawani ng { $company }!
@@ -557,4 +560,7 @@ card-button-back = Balik
 
 
 ## Demo Dashboard
+
+
+## Validation criteria
 

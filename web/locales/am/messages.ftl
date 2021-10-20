@@ -11,7 +11,7 @@ loading = እየጫነ ነው...
 email-opt-in-info = እንደ የአላማ ማስታወሻ፣ ስለራሴ የለውጥ ሂደቶች እና ስለ የጋራ ልሳኖች አጫጭር ዜናዎች፤ የኢሜይል መልእክቶችን መቀበል እፈልጋለሁ።
 email-opt-in-info-title = የጋራ ልሳኖች ይቀላቀሉ
 email-opt-in-info-sub-with-challenge = እንደ የአላማ ማስታወሻ፣ ስለራሴ የለውጥ ሂደቶች እና ስለ የጋራ ልሳኖች አጫጭር ዜናዎች፤ የኢሜይል መልእክቶችን መቀበል እፈልጋለሁ።
-email-opt-in-privacy = ኢሜይል ለመቀበል ፈቃደኛ ሲሆኑ፤ ሞዚላ እነዚህን መረጃዎች የሚይዝበትን በሞዚላ <privacyLink>የግላዊነት ፖሊሲ</privacyLink> ላይ የተገለፀውን መቀበልዎትን ያሳያል።
+email-opt-in-privacy-v2 = ኢሜይል ለመቀበል ፈቃደኛ ሲሆኑ፤ ሞዚላ እነዚህን መረጃዎች የሚይዝበትን በሞዚላ <privacyLink>የግላዊነት ፖሊሲ</privacyLink> ላይ የተገለፀውን መቀበልዎትን ያሳያል።
 indicates-required = * የግድ መሞላት ያለበት ቦታ መሆኑን ያመለክታል
 not-available-abbreviation = ሊገኝ የማይችል
 
@@ -28,17 +28,23 @@ af = አፍሪካንስ
 am = አማርኛ
 an = አራጎኒስ
 ar = አረብኛ
+arn = ማፑዱንገን
 as = አሳሚስ
 ast = አስቱሪያን
 az = አዘርባጃንኛ
 ba = ባሽኪርስ
+bas = ባሳ
+be = ቤላሩሲያን
 bg = ቡልጋሪያኛ
+bm = ባምባራ
 bn = ቤንጋሊ
 br = ብሪቶን
 bxr = ቡርያት
 ca = ካታላን
 cak = ካክቺከል
+ckb = ማዕከላዊ ኩርዲሽ
 cnh = ሀካ ቺን
+co = ክሮሽያን
 cs = ቼክ
 cv = ቹቫሽ
 cy = ዌልስ
@@ -60,11 +66,13 @@ fr = ፈረንሳይኛ
 fy-NL = ፍሪስያኛ
 ga-IE = አይሪሽ
 gl = ጋሊስያን
+gn = ጓራኒ
 ha = ሀውሳ
 he = እብራይስጥ
 hi = ሂንዲኛ
 hr = ክሮሽያኛ
 hsb = ሶርብያን - የላይኛው
+ht = ሃይቲኛ
 hu = ሀንጋሪኛ
 hy-AM = አርመንኛ
 hyw = የአርሜኒያ ምዕራባዊ
@@ -75,31 +83,44 @@ it = ጣልያንኛ
 izh = ኢዞርያኛ
 ja = ጃፓንኛ
 ka = ጆርጂያኛ
+kaa = ካራካልፓክ
 kab = ካባይል
+kbd = ካባርዲያን
 kk = ካዛክ
 ko = ኮርያኛ
 kpv = ኮሚ-ዛሪያን
-ku = ኩርዲሽ
 kw = ኮርኒሽ
 ky = ካይርጊዝ
+lg = ሉጋንዳ
 lij = ሊጉርያን
 lt = ሊቶንያኛ
 lv = ላቲቭያኛ
+mai = ማይቲሊኛ
 mdf = ሞክሻ
 mg = ማለጋሲኛ
 mhr = ሜዶው ማሪ
 mk = ሜቄዶንያኛ
 ml = ማላያላም
 mn = ሞንጎሊያኛ
+mos = ሞሲ
+mr = ማራቲ
 mrj = ሒል ማሪ
+ms = ማላይ
+mt = ማልትስ
+my = በርሚስ
 myv = ኤርዝያ
 nb-NO = ኖርዌይኛ ቦክማል
 ne-NP = ኔፓልኛ
+nia = ኒያስ
 nl = ደች
 nn-NO = ኖርዌይኛ ናይኖርስክ
 oc = ኦክሲታን
 or = ኦድያ
+pa-IN = ፑንጃቢ
+pap-AW = ፓፒያሜንቶ (አሩባ)
 pl = ፖላንድኛ
+ps = ፓሽቶ
+pt = ፖርቹጋልኛ
 rm-sursilv = ሮማንሽ ሰርሲልቫን
 rm-vallader = ሮማንሽ ቫላደር
 ro = ሮማንያኛ
@@ -107,27 +128,36 @@ ru = ሩስያኛ
 rw = ኪንያርዋንዳ
 sah = ሳካህ
 sc = ሳርዲንያኛ
+scn = ሲሲሊያን
+shi = ሺልሃ
 si = ሲንሃላ
 sk = ስሎቫክ
 sl = ስሎቬንያኛ
+so = ሶማልኛ
 sq = አልባንያኛ
 sr = ሰርብያኛ
 sv-SE = ስዊድንኛ
+sw = ስዋሂሊ
 syr = ሲርያክ
 ta = ታሚል
 te = ተሉጉ
 tg = ታጂክ
 th = ታይ
+tl = ታንጋሎግ
 tr = ቱርክኛ
 tt = ታታር
+tw = ትዊ
 uby = ኡባይክ
 udm = ኡድመርት
+ug = ኡይግሁር
 uk = ዩክሬንኛ
 ur = ኡርዱ
 uz = ኡዝቤክ
 vec = ቨኒሸንኛ
 vi = ቬትናምኛ
 vot = ቮቲክ
+yo = ዮሩባ
+yue = ካንቶኒዝ
 zh-CN = ቻይንኛ (ቻይና)
 zh-HK = ቻይንኛ (ሆንግ ኮንግ)
 zh-TW = ቻይንኛ (ታይዋን)
@@ -263,8 +293,6 @@ profile-form-accent =
     .label = አነጋገር
 profile-form-age =
     .label = ዕድሜ
-profile-form-gender =
-    .label = ፆታ
 leaderboard-visibility =
     .label = የመሪዎች ሰሌዳ ታይነት
 hidden = የተደበቀ
@@ -297,13 +325,13 @@ contribution-experience = የማበርከት ተሞክሮ
 skip-submission-feedback = የግቤት ግብረመልስ ዝለል
 off = ዝግ
 on = በርቷል
-avatar-clip-title = ለአምሳሪያዎ ድምጽ ይስጡት
-retry-voice-wave-recording = እንደገና ይሞክሩ
-delete-voice = ሰርዝ
-recording-voice-wave = በመቅዳት ላይ
-ready-to-upload = መጫን
-cancel-avatar-clip-recording = ተወው
+
+## Profile - Email
+
 browse-file-title = የምስል ፋይል ይጫኑ
+
+## Profile - Email
+
 
 ## FAQ
 
@@ -314,11 +342,19 @@ browse-file-title = የምስል ፋይል ይጫኑ
 ## Glossary
 
 
-## NotFound
+## Error pages
 
+error-code = ስህተት { $code }
 
 ## Data
 
+data-download-button = የጋራ የድምፅ መረጃን ያውርዱ
+data-download-yes = አዎ
+data-download-deny = አይደለም
+data-download-license = ፍቃድ <licenseLink> CC-0 </licenseLink>
+data-download-modal = የ <size>{ $size } ጊባ </size> ማውረድ ሊጀምሩ ነው፤ ይቀጥላሉ?
+data-subtitle = በንግግር የሰለጠኑ መተግበሪያዎችን ሁሉም ሰው ሊጠቀምበት የሚችል ክፍት እና በይፋ የሚገኝ የድምፅ የመረጃ ቃት እየገነባን ነው።
+data-explanatory-text = ትልቅ እና በይፋ የሚገኙ የድምፅ መረጃዎች በማሽን-ትምህርት ላይ የተመሠረተ የንግግር ቴክኖሎጂ ውስጥ ፈጠራን እና ጤናማ የንግድ ውድድርን ያበረታታሉ ብለን እናምናለን። ይህ ዓለም አቀፍ ጥረት ነው እናም ሁሉም እንዲሳተፍ እንጋብዛለን። ግባችን የንግግር ቴክኖሎጂን በዓለም ዙሪያ ያሉትን የድምፅ ልዩነቶች የሚያንፀባርቅ የበለጠ አካታች እንዲሆን መርዳት ነው።
 license-mixed = የተቀላቀለ
 terms-agree = እስማማለሁ
 terms-disagree = አልስማማም
@@ -356,5 +392,26 @@ terms-disagree = አልስማማም
 ## Profile Delete
 
 
+## Profile Download
+
+
 ## Landing
+
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
 

@@ -380,8 +380,8 @@ faq-title = 常見問題
 faq-what-cv-q = Common voice 係乜嘢？
 faq-what-cv-a = 語音識別技術喺度改變緊我地同機器互動嘅方法，但目前可用嘅系統唔單止貴，而且係專有技術。Mozilla 提出 Common Voice 作為改進語音識別技術，並將之普及到大眾嘅計畫嘅一部分。Common Voice 都係一套收集咗世界各地人所損贈語音嘅數據庫，希望有助所有人來又快又易噉訓練出可以識別任何語音功能嘅應用程式。
 faq-what-cv-a-2 =
-    語音識別技術喺度改變緊我地同機器互動嘅方法，但目前可用嘅系統唔單止貴，而且係專有技術。Mozilla 提出 Common Voice 作為改進語音識別技術，並將之普及到大眾嘅計畫嘅一部分。Common Voice 都係一套收集咗世界各地人所損贈語音嘅數據庫，希望有助所有人來又快又易噉訓練出可以識別任何語音功能嘅應用程式。¶
-    ¶
+    語音識別技術喺度改變緊我地同機器互動嘅方法，但目前可用嘅系統唔單止貴，而且係專有技術。Mozilla 提出 Common Voice 作為改進語音識別技術，並將之普及到大眾嘅計畫嘅一部分。Common Voice 都係一套收集咗世界各地人所損贈語音嘅數據庫，希望有助所有人來又快又易噉訓練出可以識別任何語音功能嘅應用程式。
+    
     我哋唔止想收集被廣泛使用嘅語言，亦都想收集少有人講嘅語音樣本。一套多元語音資料集，用來幫助開發者、創業家，以及唔同社群縮窄科技上個鴻溝。
 faq-why-important-q = 點解呢個好重要？
 faq-why-important-a =
@@ -463,8 +463,8 @@ about-clip-graveyard-text = 垃圾桶度有無法進入 Common Voice 數據集�
 about-partners = 合作夥伴
 about-become-a-partner = 成爲合作夥伴
 about-partnership =
-    Common Voice 係一個合作計劃，目標係憑住一班合作伙伴同貢獻者嘅力量，建立一個史上最大嘅開源語音資料集。¶
-    ¶
+    Common Voice 係一個合作計劃，目標係憑住一班合作伙伴同貢獻者嘅力量，建立一個史上最大嘅開源語音資料集。
+    
     以下嘅個人同組織喺計劃入面嘅貢獻良多，我哋想向佢哋表示感謝：
 about-get-involved = 參與
 about-get-involved-text-2 =
@@ -573,8 +573,6 @@ subscribe = 訂閲
 get-started-speech = 語音識辨新手入門
 other-datasets = 其他語音數據集
 feedback-q = 有意見反饋？
-deepspeech-info = Common Voice 數據集可同 Mozilla 嘅開放原始碼語音識別引擎 Deep Speech 互補，畀閣下用來製作語音識別應用程式。閣下可閱讀我哋嘅 <githubLink>Github 概觀</githubLink>或加入<discourseLink> DeepSpeech Discourse</discourseLink> 了解點樣入門。
-common-voice-info-new = 對 Common Voice 有問題？有針對某種語言嘅新諗法或者改善嘅意見？歡迎加入 <discourseLink>Discourse 討論區</discourseLink>留言畀我地知。
 data-other-librispeech-description = LibriSpeech 係一個從LibriVox計劃入面，攞到大概一千個鐘嘅16Khz 英語有聲書錄音嘅語料庫。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫係由 TED 網站上提供嘅講座對話語音同埋演講文字抄稿一齊製成嘅語料庫。
@@ -837,6 +835,9 @@ why-delete-recordings =
     可唔可以話畀我哋知你點解想刪除錄音片段？
 profile-form-delete = 刪除個人檔案
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = 歡迎 { $company } 嘅員工！
@@ -903,7 +904,6 @@ contribution-misreadings-example-3-explanation = [未講完最後嗰隻字就斷
 contribution-misreadings-example-4-title = 嗰啲三疊紀嘅巨型恐龍。好。
 contribution-misreadings-example-4-explanation = [錄埋啲原句以外嘅字入去]
 contribution-misreadings-example-5-title = 我哋唔係出去飲咖啡。
-contribution-misreadings-example-5-explanation = [唔關事嘅內容]
 contribution-misreadings-example-6-title = 我哋咪出去飲咖啡。
 contribution-misreadings-example-6-explanation = [應該要係「唔係」]
 contribution-misreadings-example-7-title = 我哋唔係出去飲咖啡啊。
@@ -918,11 +918,7 @@ contribution-varying-pronunciations-example-2-explanation = [喺邊一度嘅粵�
 contribution-background-noise-title = 背景嘈音
 contribution-background-noise-description = 我哋想機器學習嘅演算法可以處理到唔同嘅背景雜音，甚至係大聲嘅嘈音都可以接受。前題係啲聲唔會阻住你聽清楚錄音嘅文字。靜靜哋嘅背景音樂都可以。但係音樂聲大到聽唔清啲字就唔得。
 contribution-background-noise-description-extended = 如果個錄音斷開咗或者有沙沙聲，除非啲文字可以完整聽得到，否則就唔好批。
-contribution-background-noise-example-1-title = <strong>{ Sneeze }</strong>嗰啲三疊紀嘅<strong>{ cough }</strong>巨型恐龍
-contribution-background-noise-example-2-title = 嗰啲三疊紀嘅<strong>{ cough }</strong>恐龍
 contribution-background-noise-example-2-explanation = [部份文字聽唔到]
-contribution-background-noise-example-3-title = <strong>{ Crackle }</strong>嗰啲三疊紀嘅<strong>{ crackle }</strong>龍
-contribution-background-noise-example-3-explanation = [部份文字聽唔到]
 contribution-background-voices-title = 背景聲音
 contribution-background-voices-description = 背景有安靜嘅人聲雜音都可以接受，但係唔可以有一把聲太突出，令機器演算法認出一啲原文冇嘅字。如果你聽到原文冇嘅字句，嗰段錄音就要拒批。一般有呢個情況就係背景開住咗電視，或者附近有其他人喺度傾偈。
 contribution-background-voices-description-extended = 如果段錄音斷開咗，或者沙沙聲，除非啲字聽得清楚，否則唔好批。

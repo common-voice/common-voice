@@ -126,6 +126,7 @@ Albatta bu g‘oya noto‘g‘ri emas.
 Albatta bu ikki narsa bog‘liq.
 Albatta bu noto‘g‘ri.
 Albatta bu raqam gipotetik va o‘ta konservativ.
+Albatta bu vaziyatda tamakiga o‘rganib qolish haqida gap bo‘lishi mumkin emas.
 Albatta bu yaxshi emas-ku, lekin Yevropaning dinamizmi tushishi meni xavotirlantiradi.
 Albatta bular meni o‘ta shaxsiy fikrlarim.
 Albatta chiqadi!
@@ -368,6 +369,7 @@ Avvalgi musulmonlar hatto qushning och qolishiga rozi bo‘lishmagan.
 Avvalgi rektor ayol kishi edi, hozir ham prorektorimiz ayol kishi.
 Avvaliga bir-birlarini tanimas edilar.
 Avvaliga tomchilab turdi-da, keyin shiddat bilan yog‘ib ketdi.
+Avvaliga u ota-onasining sigaretalaridan olgan.
 Avvallari Yaponiyada halol mahsulotlarni topish qiyin edi.
 Avvalo bir narsani biling, siz biznes treningda vaqt uchun pul toʻlaysiz.
 Avvalo inson sifatida uning qaddini ko‘tarib turadigan ehtiyojlarini ta’minlash lozim.
@@ -816,6 +818,8 @@ Bola mo‘jiza ko‘rgandek taqqa to‘xtab qoldi.
 Bola ota-onasi bilan uyiga ketib bo‘lgan ekan.
 Bola tag‘in to‘xtab qoldi.
 Bola yigit bo‘ldi.
+Bola “jamoadan ortda qolmaslik” uchun chekkan.
+Bolaga nafaqat bu ish yaxshi emasligini tushuntirganlar
 Bolakay ichidagini yashirmadi.
 Bolalar hammani yaxshi ko‘radi, ayniqsa unga e’tibor va mehr ko‘rsatganlarni.
 Bolalar haqida hikmatlar.
@@ -1031,6 +1035,7 @@ Bu imkonsiz va maqsadga muvofiq ham emas.
 Bu insonga xos narsa.
 Bu insonlar o'rtasidagi aloqaning jamiyat miqyosidagi inqirozi, inson izolyatsiyasi hisoblanadi.
 Bu ish qanchalik siyosiy ekanligini tekshirishga harakat qildim.
+Bu ishi fosh bo‘lib qolganida boshqa bunday qilmaslikka va’da bergan.
 Bu ishi uchun uni haydab yuborishadi.
 Bu ishlar kechiktirilgani sayin jamiyatda sifatsiz olimlar soni ortib boraveradi.
 Bu ishlarni u oʻzining ishxonasida qilayotgan ishidan koʻra yaxshiroq biladi va sevib qiladi...
@@ -1166,6 +1171,7 @@ Bu usul tinglovchilar diqqatini jamlab turish imkoniyatini beradi.
 Bu uychalar qurilganiga koʻp zamonlar boʻlgan.
 Bu vatan barchamizniki, vatanimiz erkin bo‘lishini ta’minlash ham barchamizning zimmamizda.
 Bu vaziyatda esa, bizning darvozabon oldinga chiqib ketgan edi.
+Bu vaziyatda ota-ona eng to‘g‘ri usulni tanlaganlar.
 Bu videodagi muhokamani eshitsangiz, bunga amin bo‘lasiz.
 Bu vodiyda ko‘paytirilgan tulpor otlarning dong‘i jahonga taralgan.
 Bu voqea Toshkentda ikki talaba o‘qiydigan universitetni yonida sodir bo‘lgan edi.
@@ -1388,6 +1394,7 @@ Charxpalak nolali g‘iyqillab aylanadi.
 Chegaradagi inson, iqtisodiy qiymat yaratmayapti.
 Chegaradagi zo‘ravonda esa unday emas.
 Chek menga chiqdi.
+Chekish uchun pulni buvasidan o‘g‘irlagan.
 Chekkadagi ko‘chma vagoncha oldida voshillab to‘xtadi.
 Chelsini yaxshigina qiynayapmizov, deb o‘yladim ichimda.
 Chempionatda hech qanday xavf sezmayotgan Liverpul yanada ishonchli, yanada sovuqqon, yanada salobatli klubga aylandi.
@@ -2018,6 +2025,7 @@ Haqiqat shu qadar shirinki, totib ko‘rging keladi.
 Haqiqat shu qadar shirinki, totib ko’rging keladi. Shu qadar achchiqki, tilingni kuydiradi!
 Haqiqatan ham o‘rinli savol, rahmat.
 Haqiqatan ham shunday.
+Haqiqatan ham ularning sigaretalariga boshqa tegmagan.
 Haqiqatan juda qiziq bo‘ladi.
 Haqiqatan, birovning joni og‘rib tursa, unga qo‘shilib hamdardlik tuyasiz.
 Haqiqatdan qo‘rqqan odam yolg‘onning panasiga berkinadi.
@@ -2692,6 +2700,7 @@ Ko‘pchilik uchun konstitutsiyaning mazmuni, aynan shu kabi narsalar to‘plang
 Ko‘pchilikda dastlab kelganda bularni tushunmasdan ruhiy tushkunlik bo‘lishi uchrab turadi.
 Ko‘pchilikning nazaridan chetda qolgan, lekin aslida qiziq va foydali bo‘lgan mavzularni yoritish.
 Ko‘pdan ko‘p xizmatkorlar dehqonlarning xo‘jaligida qishin-yozin mehnat qilganlar.
+Ko‘pga yetishi uchun birdaniga katta pul olgan!
 Ko‘pincha dushmanlari qudratli bo‘ladi.
 Ko‘pincha huquq muhofaza qiluvchilar soliqchilardan buni so‘rashmaydi.
 Ko‘pincha o‘zlari uchun ko‘proq vaqt ajratishni xush ko‘rishadi.
@@ -3478,6 +3487,7 @@ Nyu York Times Trampga aloqador soliq hujjatlarini qayerdan olgani ma’lum emas
 Nyu Yorklik bir kishi hindu do‘sti bilan shahar ko‘chalarini aylanib yurardi.
 O'n besh sutkalik ma’muriy qamoqni tanlaganiga hayronman.
 O'n besh sutkalik qamoq jazosi adolatli edimi?
+O'n ikki yoshli Anvar cheka boshladi.
 O'zbekning o'zi qiziq, o'zidan so'zi qiziq.
 Obodonchilik ishlarini amalga oshirish.
 Ochig‘i, men bu gaplarga mutlaqo qo‘shilmayman.
@@ -3804,6 +3814,7 @@ O‘shanda yapon universiteti ta’lim grantini yutib olgandim.
 O‘shanda, menimcha adolat tizimida bir qator muammolar osonroq yechiladi.
 O‘simlik ildizpoyasining yer ostidagi yo‘g‘onlashgan qismi.
 O‘simliklar ham harakatlanish xususiyatiga ega.
+O‘smirlar bilan bog‘liq vaziyatlar murakkabdir.
 O‘t-olov va quyoshga sig‘inuvchi otashparast bo‘lganlar.
 O‘ta kitobiy va balandparvoz so‘zlar.
 O‘ta xudojo‘y kampir edi.
@@ -5498,6 +5509,7 @@ Uyushgan jinoiy guruhlar ham asosan kuch qoidasiga asoslanadi.
 UzbekLife xorijiy mamlakatlar vizalari haqidagi turkum maqolalarni davom ettiradi.
 Uzoq kutilgan Juma namozini jonli efirimizda tomosha qiling.
 Uzoq o‘y o‘ylab yotdi.
+Uzoq suhbatdan keyin shu narsa aniq bo‘ldiki
 Uzoq umr ko‘rish nuqtai nazaridan gaplashsak bo‘ladi.
 Uzoq vaqt qimirlamay yotdi, lekin uxlayolmadi.
 Uzoq vaqt tazyiqda yashagan olomon bu hukumatning tamomila barbod bo‘lishidan manfaatdor edi.
@@ -6065,6 +6077,7 @@ baʼzida hatto bir haftagacha loxas boʻlib, qoʻling ishga bormay yurasan.
 birdan yengil tortdi: Madina yoʻq edi.
 birinchi kechasiyoq poʻrsildoq boyladi, ertasi kuni qadam bosishning iloji boʻlmay qoldi.
 bogʻ-hovlilarning hammasi sotildi, koʻpi shaharliklarning mulkiga aylandi.
+bola onasining tushuntirishlarini eshitmagan
 bolaga muammoni hal qilishning samarali yo‘lini pichirlab, boshqalarga sezdirmay aytib berasiz.
 bosaymi-bosmaymi deb qadam tashlaydi.
 boshi gʻuvillab ogʻrir, lekin haligi alagʻda kayfiyatning tumani biroz tarqaganday edi.
@@ -6149,6 +6162,7 @@ talabaga tanbeh berib, davlatni oilaga o'xshatdi.
 tungi vaqtda noma’lum yovvoyi hayvon qo‘ylariga hujum qilgan
 u bilan tengdoshdek suhbatlashing va bildirgan e’tirozlarini diqqat bilan tinglang.
 u o‘z intervyusida qilmishidan pushaymonligi haqida aniq-tiniq aytib turibdi.
+u shunchaki shu yo‘l bilan onasini o‘zi bilan muloqot qildirishga uringan.
 ular hali-beri kunlik qog‘ozlari ishlaridan qutula olmasa kerak.
 unga bu vaqtdan keyin ko‘chada emas, kimningdir uyida mehmon bo‘lishini taklif qiling
 unga nima deysan, koʻzlariga qanday qaraysan, dedi.

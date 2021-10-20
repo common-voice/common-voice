@@ -78,6 +78,8 @@ hy-AM = Taṛminit
 hyw = Taṛminit tutrimt
 ia = Tutlayt tagraɣlant
 id = Tandunizit
+ie = Interlingue
+ig = Igbo
 is = Taṣlandit
 it = Taṭelyanit
 izh = Tizhuryant
@@ -86,6 +88,7 @@ ka = Tajyuṛjit
 kaa = Karakalpak
 kab = Taqbaylit
 kbd = Takabardyant
+ki = Kikuyu
 kk = Takazaxt
 kmr = Takurdit Takurmanjit
 ko = Takurit
@@ -110,11 +113,13 @@ ms = Tamalizit
 mt = Tamalṭit
 my = Taburmisit
 myv = Erzya
+nan-tw = Taiwanese (Minnan)
 nb-NO = Tanuṛvijt Bokmål
 ne-NP = Tanipalit
 nia = Nias
 nl = Tahulandit
 nn-NO = Tanuṛvijt Nynorsk
+nyn = Nyankole
 oc = Tuksitant
 or = Odia
 pa-IN = Tapenǧabit
@@ -128,6 +133,7 @@ ro = Taṛumanit
 ru = Tarusit
 rw = Takinyaṛwandit
 sah = Tasaxit
+sat = Santali (Ol Chiki)
 sc = Tasardinit
 scn = Tasisiliyant
 shi = Tacelḥit
@@ -148,6 +154,7 @@ tl = Tagalugt
 tr = Taṭurkit
 tt = Taṭaṭarit
 tw = Tatwit
+ty = Tahesiant
 uby = Tubyixt
 udm = Tudmurt
 ug = Tawigurt
@@ -157,6 +164,7 @@ uz = Tuzbikt
 vec = Taviṭnamit
 vi = Tavyiṭnamit
 vot = Tavutikt
+yi = Tayidict
 yo = Tayurubit
 yue = Takuntunit
 zh-CN = Tacinwat (Cinwa)
@@ -285,6 +293,7 @@ shortcut-record-toggle-label = Sekles/Seḥbes
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Sekles tukkist
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Sefsex asekles amiran
 shortcut-submit = Uɣal
 shortcut-submit-label = Azen tukkisin
 request-language-text = Ur tettwaliḍ ara tutlayt-ik di Common Voice yakan?
@@ -573,8 +582,8 @@ subscribe = Jerred
 get-started-speech = Bdu s uɛqal n taɣect
 other-datasets = Tigrummiwin-nniḍen n tuɣac
 feedback-q = Ɣur-k tikti?
-deepspeech-info = Tagrumma n yisefka Common Voice tettkemmil amsedday n taɣect n uɣbalu yeldin n Mozilla Deep Speech, win i tzemred ad tesqedceḍ akken ad tebnuḍ isnasen n uɛqal n taɣect. Ɣer <githubLink> Tazwart Github</githubLink> neɣ ddu ɣer <discourseLink>DeepSpeech Discourse</discourseLink> akken ad tissineḍ ansa ara tebduḍ.
-common-voice-info-new = Tesεiḍ asteqsi ɣef Common Voice? tikti neɣ awennit ɣef yiwet n tutlayt? Ddu  ɣer <discourseLink>agraw n usqerdec n wawal</discourseLink> sakin ibbi-av-d fell-as.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™  d <docsLink>allal ilelli </docsLink> i yimnadiyen yesneflayen tineɣrufin n umeslay AI tufrinin.
+community-playbook = Amnir i temɣiwent
 data-other-librispeech-description = LibriSpeech d ammud n wazal 1000 n yisragen n tɣuri s tneglizit 16Khz i d-yekkan seg yidlisen s taɣect seg usenfar LibriVox.
 data-other-ted-name = Ammud n TED-LIUM
 data-other-ted-description = Ammud n TED-LIUM yettwaxdem-d seg yinawen s taɣect ajerred-nsen yella deg usmel n TED.
@@ -850,6 +859,9 @@ why-delete-recordings =
     
     Tebɣiḍ ad aɣ-teǧǧeḍ ad nẓeṛ acuɣer tebɣiḍ ad nekkes ikalasen-ik?
 profile-form-delete = Kkes amaɣnu
+
+## Profile Download
+
 
 ## Landing
 

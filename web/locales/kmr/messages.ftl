@@ -314,7 +314,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Tomara tê kirin jê bibe
 shortcut-submit = Vegere
 shortcut-submit-label = Tomaran bişîne
-request-language-text = Tu zimanê xwe li ser Common Voicê nabînî?¶
+request-language-text = Tu zimanê xwe li ser Common Voicê nabînî?
 request-language-text-learn = Bizane bê tu çawa dikarî li vir daxwaz bikî!
 request-language-button = Zimanekî bixwaze
 
@@ -491,7 +491,7 @@ about-nav-get-involved = Tev lê bibin
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Hişê Xwedestî (Artificial intelligence)
 mycroft-description =
-    Mycroft, yekem asîstana çavkanî vekirî ya cîhanê ye.¶
+    Mycroft, yekem asîstana çavkanî vekirî ya cîhanê ye.
     Mycroft dikare li her derê (li ser kombersê di otomobîlekê de, an jî li ser Raspberry Pi'yê) bixebite.
 mycroft-secondary-description = Ev, nermalava çavkanî vekirî ye ku dikare bi serbestî were sererastkirin, mezinkirin û baştirkirin.  Ji projeyek zanistî bigire heya sepaneke nermalava karsaziyê, Mycroft dikare di her sepanê de were bikaranîn.
 

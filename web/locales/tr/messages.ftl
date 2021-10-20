@@ -517,6 +517,7 @@ de-identified-explanation = Veri kümesi indirilmek üzere paketlendiği zaman k
 error-title-404 = Aradığınız sayfayı bulamadık
 error-content-404 = <homepageLink>Ana sayfamız</homepageLink> işinize yarayabilir. Soru sormak için <matrixLink>Matrix topluluk sohbetine</matrixLink> katılabilir, <githubLink>GitHub</githubLink> aracılığıyla site sorunlarını takip edebilir ve <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edebilirsiniz.
 error-title-503 = Beklenmedik bir kesinti yaşıyoruz
+error-content-503 = Site en kısa sürede yeniden açılacaktır. En güncel bilgiler için <matrixLink Matrix topluluk sohbetine</matrixLink> katılabilir, site deneyimiyle ilgili sorunları bildirmek ve izlemek için <githubLink>GitHub</githubLink> veya <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edebilirsiniz.
 error-code = Hata { $code }
 
 ## Data
@@ -556,11 +557,11 @@ review-delete-recordings = Kayıtlarımı sil
 
 datasets-headline = Herkesin konuşma özellikli uygulamaları eğitmek için kullanabileceği açık kaynaklı, çok dilli bir ses veri kümesi oluşturuyoruz.
 datasets-positioning =
-    Halka açık, büyük ses veri kümelerinin makine öğrenimi tabanlı konuşma teknolojisinde yeniliği ve sağlıklı ticari rekabeti teşvik edeceğine inanıyoruz.
+    Herkese açık, büyük ses verisi kümelerinin makine öğrenimi tabanlı konuşma teknolojilerinde yeniliği ve sağlıklı ticari rekabeti teşvik edeceğine inanıyoruz.
     
-    Common Voice’un çok dilli veri kümesi, zaten türünün herkese açık olan en büyük ses veri kümesidir ancak tek veri kümesi değildir.
+    Common Voice’un çok dilli veri kümesi zaten türünün herkese açık olan en büyük ses veri kümesi, ancak tek veri kümesi değil.
     
-    Bu sayfaya, diğer açık kaynaklı ses veri kümeleri için bir referans kaynağı olarak bakın ve Common Voice büyümeye devam ettikçe, sürüm güncellemelerimiz için bir ev olarak bakın.
+    Bu sayfayı hem diğer açık kaynaklı ses veri kümeleri için bir referans kaynağı hem de Common Voice büyümeye devam ettikçe yayımlayacağımız sürüm güncellemelerinin yuvası olarak görebilirsiniz.
 language = Dil
 # File size in gigabytes
 size = Boyut
@@ -594,6 +595,7 @@ resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™, en yeni teknolojil
 resource-deepspeech-info = Mozilla’nın açık kaynaklı ses tanıma motoru Deep Speech, konuşma tanıma uygulamaları oluşturmak için kullanılabilir. Nasıl başlayacağınızı öğrenmek için <githubLink>Github genel bakışımızı</githubLink> okuyun veya <discourseLink>DeepSpeech Discourse</discourseLink>'a katılın.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> açık konuşma teknolojileriyle ilgilenir. Projeleri arasında derin öğrenme tabanlı STT ve TTS motorları bulunur.
 community-playbook = Topluluk Başucu Kitabı
+resource-playbook-info = Common Voice yolculuğunuz, yerelleştirme, veri kümelerinin kullanımı, topluluğumuzla bağlantı kurma gibi konularla ilgili <playbookLink>rehberimizi inceleyebilirsiniz</playbookLink>.
 data-other-librispeech-description = LibriSpeech, LibriVox projesinin sesli kitaplarından elde edilen yaklaşık 1000 saatlik 16 Khz'lik sesli okunmuş İngilizce metinlerden oluşan bir korpustur.
 data-other-ted-name = TED-LIUM Korpusu
 data-other-ted-description = TED-LIUM korpusu, TED web sitesindeki sunum ses kayıtları ve onların deşifre metinleri kullanılarak oluşturulmuştur.
@@ -889,9 +891,12 @@ download-requests-info = Kayıtlarınızı talep ettiğinizde, bunları bir veya
 download-request-button = İndir
 download-request-title = { $created }
 download-request-description = { $clipCount } ses kaydı, toplam arşiv boyutu { $size }. Süre sonu: { $expires }.
+download-request-archive-single = Tek ZIP dosyası. İçindekiler:
+download-request-archive-multiple = { $archiveCount } ZIP dosyası. İçindekiler:
 download-request-assembling-description = Dosyalarınız derleniyor. Lütfen daha sonra tekrar kontrol edin.
 download-request-refresh-button = Yenile
 download-request-modal-title = İndirme Bağlantıları
+download-request-modal-description = İşte ZIP dosyalarınızı indirebileceğiniz bağlantılar.
 download-request-link-text = Zip { $offset } / { $total }
 download-request-metadata-link = Cümle metni
 download-request-link-single = Ayrıca doğrudan URL'leri kopyalayıp favori indirme yöneticinize yapıştırabilirsiniz. Bu bağlantılar 12 saat sonra geçersiz olacak, ancak istediğiniz zaman yenilerini oluşturmak için bu sayfaya geri dönebilirsiniz.
@@ -924,6 +929,7 @@ demo-account = Hesap
 ## Demo Account
 
 demo-account-card-header = Katkıda bulunmak için hesap açmak zorunda değilsiniz ama açmanın bazı faydaları var.
+demo-account-card-body = Sağ tarafta, faydaları özetliyor ve hangi bilgileri kamuya açtığımızı açıklıyoruz. Kendi cihazınızda Common Voice hesabı açmak için aşağıdaki bağlantıları kullanabilirsiniz.
 demo-account-enter-email =
     .label = Kayıt bağlantısı almak için e-postanızı yazın
 demo-account-sign-up = Kayıt bağlantısını gönder
@@ -948,6 +954,9 @@ contribution-criteria-page-description = Ses kayıtlarını dinlerken nelere dik
 contribution-for-example = örnek
 contribution-misreadings-title = Yanlış okumalar
 contribution-misreadings-description = Dinlediğiniz kaydın metinle tam olarak aynı olup olmadığını çok dikkatli kontrol edin. Küçük hatalar olsa bile reddedin. <br />Şunlar çok yaygın yapılan hatalardır:
+contribution-misreadings-description-extended-list-1 = Kayıtın başında ya da sonunda bir sözcüğü atlamak ya da metinde olmayan bir ek sözcük kaydetmek.
+contribution-misreadings-description-extended-list-2 = Kayıt sırasında bazı sözcükleri iki denemede okuma ya da yazılandan farklı bir sözcük kaydetme.
+contribution-misreadings-description-extended-list-3 = Kökü yanlış telaffuzla okumak, kelimelerin başka anlamlara dönüşmesi.
 contribution-misreadings-description-extended-list-4 = Kaydın aceleyle sonlandırılması nedeniyle son kelimenin sonunun kaydedilmemesi.
 contribution-misreadings-description-extended-list-5 = Bir kelimeyi okurken birkaç deneme yapma.
 contribution-misreadings-example-1-title = Bu hastalıklar vücudunu sarsmıştı.
@@ -957,19 +966,29 @@ contribution-misreadings-example-3-title = Bu hastalıklar vücudunu sars-
 contribution-misreadings-example-3-explanation = [Kayıt son sözcük tamamlanmadan bitirilmiş]
 contribution-misreadings-example-4-title = Bu hastalıklar onun vücudunu sarsmıştı.
 contribution-misreadings-example-4-explanation = [Metindekinden daha fazla sözcük kaydedilmiş]
-contribution-misreadings-example-8-explanation = [Uyuşmayan içerik]
+contribution-misreadings-example-5-title = Gardaşlar da gelince oda birdenbire doldu.
+contribution-misreadings-example-6-title = Gardaşlar da gelince o da birdenbire doldu
+contribution-misreadings-example-6-explanation = [“oda” olmalıydı]
+contribution-misreadings-example-7-title = Kardeşler de gelince oda birdenbire doldu.
+contribution-misreadings-example-7-explanation = [Metinde "gardaş" olarak yerel dilde geçiyor]
+contribution-misreadings-example-8-title = Tamam canım, bitiyor birazdan.
+contribution-misreadings-example-8-explanation = [Farklı içerik]
 contribution-varying-pronunciations-title = Farklı telaffuzlar
+contribution-varying-pronunciations-description = Okuyucunun bir kelimeyi yanlış telaffuz ettiği, vurguyu yanlış yere koyduğu veya soru işaretini görmezden geldiği gerekçesiyle bir kaydı reddetmeden önce dikkatli olun. Dünyanın ve ülkenin farklı yerlerinde kullanılan farklı aksanlar ve telaffuzlar olabilir. Lütfen sizden farklı konuşanlar için bir takdir payı bırakın.
+contribution-varying-pronunciations-description-extended = Öte yandan, okuyucunun muhtemelen kelimeyle daha önce hiç karşılaşmadığını ve kelimeyi tamamen yanlış telaffuz ettiğini düşünüyorsanız lütfen kaydı reddedin. Emin değilseniz atlama düğmesini kullanın.
 contribution-varying-pronunciations-example-1-title = Yarın geliyordu.
 contribution-varying-pronunciations-example-1-explanation = ['Geliyordu' ya da 'geliyodu' olarak okunabilir]
 contribution-varying-pronunciations-example-2-title = Oparlörü biraz kısar mısın?
 contribution-varying-pronunciations-example-2-explanation = ['Hoparlör' kelimesini 'oparlör', 'apörlö' gibi okumak yanlıştır]
 contribution-background-noise-title = Arka plan gürültüsü
+contribution-background-noise-description = Makine öğrenimi algoritmalarının çeşitli arka plan gürültülerini işleyebilmesini istiyoruz. Hatta metnin tamamını duymanızı engellememesi koşuluyla nispeten yüksek gürültü bile kabul edilebilir. Alçak sesli bir fon müziği de kabul edilebilir ama her kelimeyi net duyamayacağınız kadar yüksek sesli müzik uygun değildir.
 contribution-background-noise-description-extended = Kayıt kesiliyorsa veya çatırtılıysa, metnin tamamı da duyulamıyorsa reddedin.
 contribution-background-noise-example-1-fixed-title = <strong>[HAPŞIRMA]</strong> Bu hastalıklar vücudunu <strong>[ÖKSÜRME]</strong> sarsmıştı.
 contribution-background-noise-example-2-fixed-title = Bu hastal <strong>[ÖKSÜRME]</strong> vücudunu sarsmıştı.
 contribution-background-noise-example-2-explanation = [Metnin bir kısmı duyulamıyor]
 contribution-background-noise-example-3-fixed-title = <strong>[ÇATIRTI]</strong> hastalıklar vücudunu <strong>[ÇATIRTI]</strong> -mıştı.
 contribution-background-voices-title = Arka plan sesleri
+contribution-background-voices-description = Alçak sesli bir arka plan gürültüsü kabul edilebilir, ancak bir makine algoritmasının yazılı metinde olmayan sözcükleri tanımlamasına neden olabilecek ek sesler istemiyoruz. Metinde olmayan kelimeler duyuyorsanız kaydı reddetmelisiniz. Odada televizyon açık bırakıldıysa veya yakınlarda konuşanlar varsa böyle bir durum ortaya çıkabilir.
 contribution-background-voices-description-extended = Kayıt kesiliyorsa veya çatırtılıysa, metnin tamamı da duyulamıyorsa reddedin.
 contribution-background-voices-example-1-title = Bu hastalıklar vücudunu sarsmıştı. <strong>[biri tarafından okunuyor]</strong>
 contribution-background-voices-example-1-explanation = Geliyor musun? <strong>[başka biri çağırıyor]</strong>
