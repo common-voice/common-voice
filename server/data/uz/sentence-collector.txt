@@ -4,6 +4,7 @@
 - Davlat rahbari millatning otasi, padari buzrukvoridir.
 - Ichki oilaviy muammolar haqida shikoyat qilinmaydi.
 - Oilada o'g'il tirik ota o'rnini bosishga harakat qilmaganidek
+- do‘sting yoki boshqa kishi muhimligi haqidagi qaror o‘zing qabul qilishing kerak.
 Abbosiylar davrida Movarounnahr boshqaruvi.
 Abbosiylar davrida Movarounnahr.
 Abbosiylar hokimiyat tepasiga kelgach, Movarounnahrda ahvol qanday o‘zgardi?
@@ -56,6 +57,7 @@ Agar boshing osmonlarga yetgan bo‘lsada, baribir nihoyang o‘limdir.
 Agar boshqa turnirlardagi penaltilarni qo‘shsak, bugun jami o‘ninchi penaltisini tepdi.
 Agar bozorda kartoshkani narxini arzonlashtirilsa nima bo‘ladi?
 Agar bo‘lsa, shuni xatda yozish kerak-da!
+Agar bu gaplar shunchaki notiqlik boʻlsa edi.
 Agar chindan ham menga minnatdorchilik bildirmoqchi bo‘lsangiz, oqibat rishtasini uzib qo‘ymang.
 Agar ega bo‘lmasa, egalik qo‘shimchasi ham kerak emas.
 Agar eshitmasa, masofani o‘ttiz qadamga qisqartirasiz.
@@ -64,15 +66,23 @@ Agar hammaga ruxsat berilsa, buni tizimga solishga ne hojat?
 Agar havolar isib ketib hosilni yig‘ib olsak, senga iPhone olib beraman.
 Agar hozir yoz bo‘lganida, tog‘ga sayohatga chiqardik.
 Agar ko‘pga ega bo‘lsang, molingdan ber.
+Agar mas’uliyatsiz va qaror qabul qilishga layoqatsiz bo‘lib ko‘rinishni istamasang
 Agar musulmon o‘z birodari bilan urishib qolsa o‘rtalarini isloh qilaman.
 Agar ot tushib qoladigan bo‘lsa ham, uning borligini mazmundan bilib turamiz.
 Agar ozga ega bo‘lsang, qalbingdan ber.
 Agar pandemiya tufayli olishga ulgurmasa, ularga qo‘shimcha vaqt beriladimi?
 Agar qabul qilsa.
 Agar qachondir iqtisodiy islohotlar qilishni boshlasak, bunday ishonch darajasi foydamizga ishlashi aniq.
+Agar qila olmasang, yaxshisi bu ishni bo‘ynigga olma.
 Agar qiz bolaga ta’lim bersang, butun ummatga ta’lim bergan bo‘lasan.
+Agar sen atrofingdagilarga chin dildan hamdardlik bildirsang
+Agar sen bir kishining qilgan ishidan norozi bo‘lsang
+Agar sen chetga surilganlardan bo‘lsang
 Agar sen ilohingni boy bersang, o‘rnini biror narsa to‘ldirolmaydi.
+Agar sen o‘zingga hazil bilan munosabatda bo‘lsang
 Agar sharqu g‘arbni kezgan bo‘lsangda, ibtidoying sokinlikdir.
+Agar sinfdoshlaring senga betaraf
+Agar sinfingda xushomadgo‘y bo‘lsa, uni yoqtirmasliklari aniq.
 Agar sizni aqlingiz yashira olmayotgan bo‘lsa, sukutingiz yashirsin.
 Agar tilanchi kelsa men yo‘qman.
 Agar ular sevgining qo‘lidan mahkam tutishganida bu to‘siqdan o‘tishlari mushkul emasdi.
@@ -82,6 +92,7 @@ Agar vaksinani yomon xususiyatlari bo‘lsa ham, buni tez bilar edik.
 Agar vaqting kam bo‘lishini istasang, hech narsa qilma.
 Agar yana bir marta oldingga kelsa, onasini Uchqo‘rg‘ondan ko‘rsataman!
 Agar yetarlicha odam kasal yuqtirmaganda, qachon samaradorligi tasdiqlanishini bilmas edik.
+Agar yolg‘on gapirging kelmasa
 Agar yolg‘on xabar bo‘lsa, tegishli idoralar, masalan sud buni aniqlab, jazosini beradi.
 Ahamiyatlisi shundaki, davolash vositalari ichida so‘z birinchi bo‘lib sanalgan.
 Ahli ilm boshini silab, o‘lmas obidalar yaratdi.
@@ -142,6 +153,7 @@ Albatta, Robbingiz mehribon va rahmlidir.
 Albatta, bu holat u qadar chiroyli emas, bunday vaziyatlar kamroq bo‘lishi tarafdoriman.
 Albatta, bunda ham so‘nggi yillarda londonliklarning transfer bozoridagi muvaffaqiyatli faoliyati zamin yaratgan.
 Albatta, hamma g‘aribni yaxshi ko‘rardi.
+Albatta, ilmiy qo’llanma yozishni boshlash jarayoni quyida ta’riflangan bosqichlardan farq qiladi
 Albatta, ko‘pincha bunday holat tabiiy bo‘ladi.
 Albatta, o‘rinli savol, nima uchun ziyolilar tizim uchun xatar hisoblangan?
 Albatta, qistirish kerak bo‘ladi.
@@ -228,6 +240,7 @@ Ammo sen buni o‘ylab ham ko‘rmaysan.
 Ammo tadbirkorlikning bundanda ajoyib va fazilatli jihatlari bor.
 Ammo u xotirjam, men kimnidir joyini o‘g‘irlashim shart emas.
 Ammo ular sabotni ham, mehrni ham unutdilar.
+Ammo ularga yangi uy hamon berilmayotganini bilasan va bunga rozi boʻlmaysan.
 Ammo ularning harakati juda sekin ro‘y bergani uchun deyarli bilinmaydi.
 Ammo uni dumidan tozalaydilar.
 Ammo vaziyat bunchalik oddiy ham emas.
@@ -242,6 +255,7 @@ Ana o‘shandan keyin inqilobni yakunlasa bo‘lardi.
 Ana shu ikki o‘lchov orasidagi farqdan ham binoning bo‘yini topsa bo‘ladi.
 Ana shu jarayon ezgulik daryosidir.
 Ana shu uyatchan nigohlarda u yuragiga quvvat beradi.
+Ana shunda hech kim seni yig‘loqi yoki janjalkash deb atashiga bahona bo‘lmaydi.
 Ana shunda manzilimiz bexatar bo‘ladi.
 Ana shunda tinchlik va hamjihatlikka erisha olardik.
 Ana shunday psevdo biznes shamanlar qarmogʻiga ilinib qolmaslik uchun baʼzi bir jihatlarni bilish kerak.
@@ -260,6 +274,7 @@ Angliyada hamma narsa monopol boʻlgan deyishadi
 Angliyada qora futbolchilarni negr, maymun, deb haqorat qilishadi tinmay.
 Aniq davosi yo‘q, deb to‘rt yilcha noumid bo‘lishdi.
 Anketani to‘ldirish ikki daqiqa vaqt oldi, xolos.
+Anonim deya koʻrinayotgan ushbu boʻxton va uydirmalar bor
 Anor musulmon xalqlarida salat va gazakka ko‘p ishlatilgan va hozir ham ishlatiladi.
 Anqo haqidagi afsonalarning kelib chiqishi arab davlatlariga, aniqrog‘i Misrga borib taqaladi.
 Antik davrdagi Magnesiya shahri atrofida magnetik xususiyatga ega toshlar ko‘p bo‘lgan.
@@ -383,6 +398,8 @@ Axir kuch ishlatgan a’zoning guruhdan tashqarida imkoniyati bo‘lmaydi.
 Axir odam bosim ostida samimiy fikr bildira olmaydi.
 Axir o‘sha uyda talabalar yashamasa, boshqa odamlar, aytaylik, mardikorlar ham yashashi mumkin edi.
 Axir sajdada Alloh jannatni ko‘rsatarkan-ku!
+Axir sen bir kishi haqida uning ortidan yomonlab gapiradigan qo‘rqoq emasssan-ku?
+Axir sen kichkina bola emassan-ku, omadsizlikdan xo‘ngrab yig‘laydigan.
 Axir shundoq ham musulmonman, to‘g‘ri yo‘ldamanku emas.
 Axir yuz yildan keyin bulardan hech naf yo‘q-ku?
 Ayam bilan sizga ovqat pishiryapman.
@@ -439,6 +456,7 @@ Ayrim manbalarga qaraganda Xorazmshohlar unvonini dastlab siyovushlar sulolasi q
 Ayrim sabzavotlarning ming yillik tarixi bor.
 Ayrim tangalarda esa, hatto hukmdorga yonma-yon malika tasviri ham chekilgan.
 Ayrimlar kambag‘alliklaridan xijolat bo‘ladilar.
+Aytarlik hech kimga hech qanday yomonlik qilmagan bo‘lsang
 Aytaylik, Eshmat maktabda dars beradi.
 Aytaylik, undan bir oylik katta, o‘tgan mavsumni Chempionshipda o‘tkazgan.
 Aytdim nima-yu, aytmadim nima.
@@ -478,7 +496,9 @@ Bajarasan, dedilar.
 Bajarmayman, dedi.
 Bakovulning qoq tunda ovqat pishirayotganini ko‘rdim.
 Baliq boshidan sasiydi.
+Balki Sizdan keyin kelajakda kimgadir aynan shu yechim kerak bo’lib qolar
 Balki Zidanning muvaffaqiyatlari siri ham shundadir.
+Balki atrofingdagilarning sendan noroziligiga nima sabab bo‘lgan
 Balki ayb o‘zimizdadir.
 Balki aynan shu tufayli ajoyib gollar paydo bo‘layotgandir?
 Balki bas qilarsiz endi.
@@ -504,6 +524,7 @@ Banan va sut nonushta uchun eng sevimli taomim.
 Banda qiyomat kuni tog‘lar qadar gunohlar bilan keladi.
 Banditlar aslida xayriya qilishmagan.
 Bank tomonidan tasdiqlangan daromad haqidagi ma’lumot rejalashtirilgan sayohat xarajatlariga zid kelmasligi zarur.
+Bankda ishlovchi odam ham oʻz oldilariga kredit olish uchun oddiy odam kelishini yodidan chiqarmas
 Bankdagi risklarni boshqarish menejeri bo‘libdi.
 Bankka qo‘yilgan omonatlar sir tutilishi va meros huquqi qonun bilan kafolatlanadi.
 Baraka topsin.
@@ -544,6 +565,7 @@ Bayram, dam olish degan narsalarni umuman bilishmaydi, biz bugun ham taʼlimni o
 Bayramingiz muborak bo‘lsin azizlar!
 Ba’zan bot orqali ona tili fani bo‘yicha savollar kelib qoladi.
 Ba’zan odamni shoshirib qo‘yadigan savollar beradi.
+Ba’zan o‘z zaif jihatingni ko‘rsatgandan ko‘ra yaxshisi jim turishing kerak.
 Ba’zi chalkashtiradigan holatlar bor.
 Ba’zi erkaklar ichkilikbozlik yoki giyohvandlikni odat qilib, oila tinchligiga putur yetkazadi.
 Ba’zi ichki manbalar Pep o‘z o‘rniga Artetani tayyorlayotgani haqida ham gapirishmoqda.
@@ -575,6 +597,7 @@ Beton qorishmasi sachrayverib, shimining pochasi qatirmoch bo‘lib ketgan Safar
 Betonchi Safar aka ayiqdek lapanglab vagoncha tomonga birinchi bo‘lib yurdi.
 Bevosita xayriya olganlar, berganlardan bunchalik xursand bo‘lishmaydi.
 Bezgak chivini bizda uchramaydi.
+Bezorilar ranjitgan uysiz kuchukka
 Bezovtalik tebranma kursiga o‘xshaydi.
 BiIasiz, hatto non ishlab chiqarishga shakar talab etiladi.
 Bilamiz agar talab bo‘lsa, narxni arzon ushlash defitsitga olib keladi.
@@ -645,6 +668,7 @@ Bir qizlarga, bir Moʻmin akaga ijirgʻanib qaradi.
 Bir qo‘li narvon oyog‘ida.
 Bir so‘zdagi ikkita chiziqcha diqqatni chalg‘itadi.
 Bir tanada yetuk aql va ta’sirchan qalbning birlashuvi falokatdir.
+Bir tomondan, agar sening yolg‘oning sinfdoshingni jazodan qutqarishi mumkin
 Bir yil bo‘lmasdan insoniyat vaksina o‘ylab topdi.
 Bir yilni shu daftarlar bilan o‘tkazganman.
 Bir yosh-u yetti oyni to‘ldirganda birdan oqsoqlanib, yurishga qiynala boshladi.
@@ -692,13 +716,16 @@ Biroq mahsulotlarning hammasi ham yangi unib chiqqan yoki dirkillama bo‘lmaydi
 Biroq milliy ensiklopediyada ummon nomi to‘g‘ri yozilgan.
 Biroq nopok yo‘l bilan topilgan non ham harom.
 Biroq o‘sha vaziyatda bunga jur’at etolmadi.
+Biroq o‘ta jiddiy ham bo‘lma.
 Biroq qariya ayol buni qanday to‘g‘rilashni bilmay ancha azob chekkan ko‘rinadi.
 Biroq talaba yana bir qancha javoblari borligi haqida eslatdi.
+Biroq tanlash juda qiyin bo‘lgan vaziyatlar ham uchrab turadi.
 Biroq u xushbo‘y hid ma’nosidan tashqari musiqaga oid ma’nolarni ham anglatadi.
 Biroq uning fikri xato edi.
 Biroq uning ostida do‘xtir imzosi bilan bir izoh yozib qo‘yilgandi.
 Biroq uyga kelib hafsalasi pir bo‘ldi.
 Biroq, bu ne’matni kimlardir fitna, buzg‘unchilik, buzuqlik, hayosizlik manbalariga aylantirib ulgurdilar.
+Biroq, sen boshqa mahallada ham xuddi shunday ish boʻlgan.
 Biroq, uni ham to‘g‘ri ishlata bilish masalasi bor.
 Biror fojia roʻy bersa bu hech qachon xalqqa ochiq oydin koʻrsatilmagan.
 Biror ishga kirishsalar, jahd qilib, tez fursatda bitirib qo‘yardilar.
@@ -768,8 +795,11 @@ Bizda ingliz tilidagidek otlarga jins berilmaydi.
 Bizda juda koʻp yoshlar bir yillik xizmatga borishni istashadi, ammo konkursdan oʻtmaydi, qolib ketadi.
 Bizda juda qiziq ishlar bo‘lyapti.
 Bizda kamdan kam hollarda pul yuvilish nima ekanligini tushunishadi shekilli.
+Bizda mulkdor dehqonlar yoʻqligi uchun ham sohada ancha orqadamiz.
+Bizda odamlar mashinaga oʻzboshimchalik bilan oʻzgartirgan
 Bizda oxirgi payt gender tengligi mavzusida ko‘p mulohazalar bo‘lyapti.
 Bizda oʻshanda ham osh va toʻy muammosi, hozir ham shu muammo.
+Bizda soʻnggi paytda yoshlar oʻz siyosiy qarashlarini belgilab olishga harakat qilishyapti.
 Bizdagi kambag‘allik bu anomal natija emas.
 Bizdan Buxoriylar qachon chiqadi?
 Bizdan keyin o‘nlab avlodlar keladi.
@@ -787,6 +817,7 @@ Biznesga ijtimoiy mas’uliyatni qo‘yish xato.
 Bizni brendlar qurshab olgan.
 Bizni butun xalq kutib oldi.
 Bizni eng to‘g‘ri yo‘lga yo‘naltirgin degan ma’noni anglatadi.
+Bizni ham shunday osonlik bilan aldaydi, degan xulosaga keladilar.
 Bizni sharoitda hech kim pul yuvish ehtiyojida emas.
 Bizni tinch qoʻy.
 Bizning Marg‘ilonda bir qiz bor.
@@ -869,7 +900,9 @@ Boshqa ota-onalar ham shunga o‘xshash holatlarga duch kelsa kerak.
 Boshqa saflardan ko‘ra namozxonlarning safi tezroq tartibga keladi.
 Boshqa tarafdan qaraganda, ha, shu ishlar bo‘lishi kerak edi.
 Boshqa tarafdan, bir xil tarmoqlarda reja emas, haqiqiy narx ko‘p narsani belgilaydi.
+Boshqa tomondan, agar kimningdir ustidan kulishayogan bo‘lsa
 Boshqa vaqtlarda ular dehqon xo‘jaligidagi tartibga qarab turganlar.
+Boshqa vazirlik va tashkilotlar ham shunaqa uchrashuvlar qilgan
 Boshqa xodimlarimga qarab xarakteri ham yaxshi tomonga o'zgaradi deb o'yladim.
 Boshqalar hamisha mendan orqada yurishi shart deb hisoblardi.
 Boshqalar qilsin degisi keladi har bir inson.
@@ -901,6 +934,7 @@ Bo‘lib o‘tgan suhbatlar va mavzular ro‘yhati.
 Bo‘lishi mumkin, zero Angliyada yaratilgan xavfli vaziyatlar borasida Siti katta farq bilan yetakchi.
 Bo‘lmasa, maydonga odamlarni o‘zi yig‘gan edi.
 Bo‘lmasa, yo‘qsa so‘zlari bilan ham vergul xuddi shu tartibda ishlatiladi.
+Bo‘lmasamchi: biron narsa bo‘lsa
 Bo‘lsa ham juda ozchilik eslaydi.
 Bo‘ronli kunda bo‘sh idishlarning shovqini kuchli bo‘ladi.
 Bo‘yingiz o‘sib qolibdi.
@@ -911,6 +945,7 @@ Bracha turdagi xizmatlar bepul amalga oshiriladi.
 Brigadadagi montajchilar nosvoy puli olsa, ko‘raman tomoshani.
 Brigadirlik yuki og‘irlik qilib qoldimi.
 Britaniya Falastinni birinchi jahon urushi davrida Usmoniylardan tortib olgan.
+Bu iqtisod boʻyicha Nobel mukofoti laureati Jozef Stiglis
 Bu "plash, yelkaga tashlanadigan yopinchiq" degan ma’noni anglatadi.
 Bu Chelsining asosiy poydevori.
 Bu Germaniyada yasalgan mashhur Berlin edi.
@@ -968,6 +1003,7 @@ Bu degani, sizda faqat sentyabrgacha vaqt bor.
 Bu degani, tashqi ta’sir soliqqa tortilishi kerak.
 Bu deyman, kenayimni xursand qilaverib joniga ham tegib ketsangiz kerak, – dedi qizlarning biri.
 Bu do‘stning do‘stga qilgan qattiqqo‘lligi kabidir.
+Bu dunyoda ko‘pchilik rahm-shafqat ko‘rsatilishiga munosib.
 Bu dunyoda o'lib bo'lmaydi.
 Bu dunyodagi eng katta raqamlardan biri.
 Bu ehtimoldan holi emas.
@@ -1027,6 +1063,7 @@ Bu holat mana shunday bir necha yillar davom etdi.
 Bu holat qalbingning o‘lib qolganidan paydo bo‘ladi.
 Bu holatda jamoatchilik, ayniqsa, mutaxassislarning fikri inobatga olinishi zarur.
 Bu holatlarning o‘ziga yarasha subyektiv sabablari bor albatta.
+Bu holda yaxshisi gapirmay qo‘yganing ma’qul.
 Bu holdan norozi birinchi toifa bu minbardan o‘zini tortmoqda.
 Bu ikki birlashmaning orasidagi farq siyosiydan ijtimoiy-maishiyga ko‘cha boshlagan.
 Bu ikki futbolchi akademiya tarbiyalanuvchilari emas.
@@ -1061,7 +1098,9 @@ Bu kabi choralar asosan fuqarolararo nizolar va norozilik namoyishlari paytida a
 Bu kabi tadqiqotlar anchadan beri qilinadi va shunga yaqin natijalarni ko‘rsatadi.
 Bu kasallikka barchamiz chalinganmiz.
 Bu kitobchani qariyb qirq yil yozdim.
+Bu kitobning tarjimasiga boshidanoq jiddiy qarab, butun jarayonni nazorat qilganman.
 Bu koyish va e’tirozlar menga juda o‘rinli tuyuldi.
+Bu koʻp hollarda kafolat muddatini kuydirib qoʻyadi.
 Bu koʻprikda davlat byudjetidan pul sarflanmagan.
 Bu ko‘pgina rivojlangan mamlakatlarda kuzatiladigan tendensiya.
 Bu majozning markazida esa "mehribon, lekin qattiqqo'l ota" modeli turibdi.
@@ -1122,6 +1161,7 @@ Bu qilinganida, hech kim biz bilan maslahatlashmadi va birga qaror qabul qilishn
 Bu qoida shunga o‘xshash yerosti so‘zida ham amal qiladi.
 Bu qoidalar penalti tepuvchining ishini osonlashtiradi.
 Bu qoidani yaxshilab o‘rganib olish kerak.
+Bu qorongʻilik va bitta ideologiya taʼsirida qolib ketgan
 Bu qo‘rg‘oshin eritish uchun yetarli hisoblanadi.
 Bu rasm Boston shahridagi monumentdan olingan.
 Bu saboq boshqa jabhalarga ham taalluqli.
@@ -1194,6 +1234,7 @@ Bu yerda hamma narsa xato emas.
 Bu yerda ikki turdagi xatolik vujudga keladi.
 Bu yerda kitobning yaxshi-yomonligi haqida gap yo‘q.
 Bu yerda muhim bir gap bor.
+Bu yerda sen maktabda o‘qiy turib nimalarni qilish zarurligi ro‘yxatini topasan.
 Bu yerda solishtiruvni nisbiy elastiklik degan ma’noda ishlatyapman.
 Bu yerda so‘z ikkinchi ma’noda qo‘llangan.
 Bu yerda taomlanish bilan birga tafakkur olamingizni ham boyitish uchun imkoniyat mavjud.
@@ -1231,6 +1272,7 @@ Bugun ham shunga yaqin holat.
 Bugun hamma narsam bor.
 Bugun ijtimoiy tarmoqlarda Namanganda koʻprik sinib ketdi deb tarqagan xabarlarga oydinlik kiritildi.
 Bugun kechki ovqatni kim qildi?
+Bugun kechki payt barcha yangilik saytlarida haqida xabarlar tarqadi.
 Bugun kichik qizim ham burro-burro gapiradi.
 Bugun koʻchada yalangoyoq yurish uyat.
 Bugun men kiyik go‘shtiga shashlik yedim.
@@ -1284,6 +1326,7 @@ Bundan tashvishga tushdi.
 Bundan yuz yil oldin jadidlar aytgan gaplar nega bugun oʻz aktualligini yoʻqotmasdan kelyapti?
 Bundan, albatta, Sharifjon xursand.
 Bunday amallar natijasida, oddiy odamlar o‘sha zolim va qotillar haqida fikr yuritishga qiynalishadi.
+Bunday bolalarni ochiqchasiga emas
 Bunday bo‘lishini xayollariga ham keltirmagan edilar.
 Bunday fikr egalari, xarob bir uyga qorovul bo‘lishdan boshqasiga yaramaydilar.
 Bunday fikrlashni ildizi juda insoniyatga xos.
@@ -1327,6 +1370,7 @@ Buni beruvchi, nazorat qiluvchi tashkilotning bo‘lishi ham mantiqsiz.
 Buni bilib turib qanday yashash mumkin-a?
 Buni esa xayolimizga ham keltirmaymiz.
 Buni eshitib xursand bo‘ldim, ishlashga bajonidil tayyor ekanimni aytdim.
+Buni haqidagi videolarni juda koʻp koʻramiz.
 Buni ichiga noqonuniy to‘xtab turish joylari ham kiradi.
 Buni ko‘rgan bog‘bonning xotini qo‘liga miltiq olib, eshakni otib tashladi.
 Buni ko‘rib xunobi oshgan o‘g‘il va kelin o‘zaro maslahatlashishdi.
@@ -1351,6 +1395,7 @@ Buning ortidan aqli va erkinligini yo‘qotmoqda.
 Buning oxiri nima bilan tugashi noma’lum.
 Buning qo‘rquvi, hayajoni Falastin bilan o‘yinda ham sezilib turdi.
 Buning sababi, birinchi navbatda shoshqaloqlikdir.
+Buning sababi-oqibatlari, “snos” mojarolarining huquqiy va ijtimoiy ahamiyati xususida soʻz yuritildi.
 Buning siri nimada?
 Buning teskarisi ham bor.
 Buning teskarisi ham to‘g‘ri.
@@ -1387,6 +1432,7 @@ Buyuk Britaniyaga kirish uchun yangi qoidalar kuchga kirdi.
 Buyuk fransuz inqilobidan so‘ng yuzaga kelgan.
 Chalinadi nay, g‘ijjak bir tomon.
 Chap qo‘limning yuqorisiga ukol bilan bitta sanchib oldi, bor-yo‘g‘i shu.
+Chaqimchi, g‘iybatchi va laganbardor bilan do‘stlashish kerakmi?
 Charchaydigan bo‘lsang, seni mingashtirib olamiz, deb oqqushlar unga taskin berishdi.
 Charxpalak emas, o‘qituvchilarim ekan.
 Charxpalak ham bunga ranjimaydi.
@@ -1441,6 +1487,7 @@ Chunki bizda shakllangan va uzoq an’analarga ega soliq tizimi yo‘q ham edi.
 Chunki bizdan ancha boyroq va ancha erkinroq o‘lkalar borligini bilamiz.
 Chunki boshqa davlatlarga nisbatan bu yerda salbiy qarash deyarli yo‘q.
 Chunki bu fikr mutlaq xato ekanligini hamma yaxshi biladi.
+Chunki bu har kim ham uddasidan chiqa olmaydigan san’at.
 Chunki bu holat insoniy haqiqatni o‘ldiradi.
 Chunki bu yerda bir harakat bajarilishi uchun boshqa harakat shart qilib qo‘yilyapti.
 Chunki bugungi voqeadan keyin oralari yaxshigina buzildi.
@@ -1506,6 +1553,7 @@ Darding ne bo‘lsa, bo‘lsin, tahorat ol, xuddi nafas kabi zarurdek.
 Darhol ikkinchi partiyani boshlab yuborishdi.
 Darhol, Shaytanatdagi Asadbekni esladim.
 Daromadlarimiz, Pokiston yoki Bangladesh kabi, lekin ishonch darajasi xuddi Yevropadek.
+Darrov hafsalamiz pir boʻlaverdi
 Darsga yuz-qo‘llariga moy surtilgan holda kelishdi.
 Darslik va qo‘llanmalarda qaysi lug‘atdan foydalanish kerak?
 Darslikda berilgan voqealar bilan tanishib boring.
@@ -1522,6 +1570,7 @@ Dastur haqida fikringizni izoh qilib qoldiring, tanqidmi, maqtovmi eshitishga ta
 Dastur rossiyaliklarga qimmatga tushdi.
 Dasturimiz mehmoni San Diego Davlat Universiteti siyosatshunoslik professori.
 Dasturxonda holva, novvot, murabbo.
+Davlat aktivlarini boshqarish agentligiga xalq mulklarini sotilsin.
 Davlat boshqaruv tizimi qanday bo‘lgani aniq ravshan.
 Davlat boshqaruvida ma’lum qonun-qoidalar mavjud bo‘lgan.
 Davlat bunchalik valytuni nazorat qilishi, albatta o‘sha prinsiplarga teskari.
@@ -1562,6 +1611,7 @@ Dehqon ilk o‘rta asrlarda mulkdor tabaqa bo‘lgan.
 Dehqon mulkini qo‘riqlovchi, harbiy posbon.
 Dehqon serfarzand ekanligini aytibdi.
 Dehqonlar arablar istilosidan so‘ng xalifalik noibining vakili hisoblangan amirga bo‘ysunganlar.
+Dehqonlar oʻzini bor yeridan ham ayrilgan
 Dehqonlar shaharlarda hashamatli qasr va saroylarga ega bo‘lganlar.
 Dehqonlar va amirlar soliqning xalifa xazinasiga tushishida vositachilik qilishgan.
 Dehqonlar va ular xo‘jaligidagi hayot.
@@ -1613,6 +1663,8 @@ Doim ham o‘zini yagona xalq deb bilmas edi.
 Doim o‘rta, eng mos yo‘l tanlanib qolinaveradi.
 Doimgidek, ko‘rishni tavsiya qilaman.
 Doimiy ravishda xayriya amallarini bajarish juda qo‘l keladi.
+Doimiylik nigohlarda - muhim sifat!
+Doimo o‘qituvchilaring va ota-onangga yolg‘on gapirishingni bila turib
 Doktorlarga maska yetsin deb aholiga taqish shart emas deyishdi.
 Dollar ham bu bir tovar.
 Dollarni ham shunday defitsitga olib kelishdi.
@@ -1621,6 +1673,7 @@ Domlalar qolganini ham aytishini so‘rashdi.
 Dori ichmasa qaynonamning uyqusi kelmaydi.
 Doska so‘zining kelib chiqish tarixini ko‘pchilik bilmasa kerak.
 Do‘ppisini osmonga otdi.
+Do‘stlaringga, ular senga muhtoj bo‘lsalar, yordam ber.
 Do‘stlik ham shunga o‘xshaydi.
 Dubay shahrini va Moskva shahrini ko‘rib shunday xato fikr qilgan edim.
 Dugonalarimdan biri so‘radi.
@@ -1647,6 +1700,7 @@ E, ahmoq shumtaka-e.
 E, manavini koʻrmaysizmi – chaqirilmagan mehmon.
 E, yoʻq, unga endi qizini bermasa ham kerak.
 Egasi yoningizda bo‘lsa xohlagancha haydab yuraverasiz.
+Egri odam bilan muloqot qilishni hech kim xohlamaydi.
 Eh, nega shu paytgacha indamagandilaring?
 Ehsonlaringizni Alloh dargohida qabul qilsin.
 Ehtimol otasi ham poraxoʻr boʻlib, pulni kuchi bilan hamma narsaga erishaman deb oʻylagan edi.
@@ -1720,6 +1774,7 @@ Eng ulkan va eng hayoliy orzularni shoirlar qiladi.
 Eng yaxshi yangilik golf bo‘yicha musobaqa o‘tkazilgani bo‘ldi.
 Eng yaxshi, eng a’lochi o‘quvchi o‘zim bo‘lishimni xohlayman.
 Eng yaxshisi bo‘lish uchun sinfda a’lochi bo‘lishga tirishardi.
+Eng yomon koʻrganim shu.
 Eng yomoni harom topganini mamlakat iqtisodiga kiritmaydi.
 Eng yosh oliy sud raisi bo‘lib ishga kirdi.
 Eng yosh senatorga murojaat.
@@ -1797,6 +1852,7 @@ Faqat cholni kamroq tergaydigan bo‘ldi.
 Faqat farzandlaringiz sizga vaqt o‘tayotganini sezdirib turishadi.
 Faqat hakam yordamga keldi.
 Faqat haydovchiga bog‘liq bo‘lmagan, uning aybi yo‘q holatlar bundan mustasno hisoblanadi.
+Faqat kimdandir, nimadir kutib yashayversak.
 Faqat muzeylarda buni rasmini ko‘ra olamiz.
 Faqat qattiq mehnat, mustahkam taʼlim, yetuk bilim bilangina bu holatni yengib oʻta olamiz.
 Faqat shaxs-kishini bildiruvchi so‘zlar bilan qo‘llanadi.
@@ -1826,6 +1882,7 @@ Feodal esa qaysidir oldindan aytilgan qismini olishi mumkin bo‘lgan xolos.
 Fergyuson o‘yinlarni boshqacha ko‘rganmi deyman.
 Fergyuson o‘yinni oldindan ko‘rganmi?
 Fermer yoki sanoatchi agar samaradorligini oshirsa, butun mehnat mahsuli o‘zida qolar edi.
+Fermerlar ham bizda aslida davlatning yollanma ishchisi
 Feyk va selfi so‘zlari aynan shu tarzda lug‘atga qo‘shildi.
 Fe’l shart mazmunini ifodalaganda vergul talab qiladi.
 Fe’li paxtasidek yumshoq.
@@ -1909,6 +1966,7 @@ Grafning kundaligidan ham ko‘p narsa oydinlashadi.
 Grafning mahbubalari soni juda ko‘p edi.
 Gruziyada niqob rejimi va komendantlik soati bekor qilindi.
 Gruziyada qilingan muhim islohotlardan biri ham shu bo‘lgan.
+Gul koʻtarib chiqishi kerak?
 Gullarning ostida haqiqatan ham bir chirilloq chigirtka bor ekan.
 Gumroh bandalar odamlarga hayronsan.
 Gunoh deb qonuniy narsadan voz kechish mumkin.
@@ -1938,11 +1996,14 @@ G‘ildirakni almashtirib bo‘lgach, yuziga tabassum indi.
 G‘ildirakni qayta kashf etishning nima keragi bor?
 G‘ishtin devorli hovlida bir o‘zi yashaydi.
 G‘iybat qilish adovatning otasi ham, o‘g‘li hamdir.
+G‘iybatchi darajasiga tushma
 G‘olibga kattagina pul mukofoti berildi.
 G‘oliblariga qo‘shimcha vaqt berilishi belgilanmagan.
 G‘oyalar kurashi inqilobdan so‘ng to‘xtaydi.
 G‘oyamni patentlab oldim.
 G‘uv-g‘uv arilar yopishgan.
+Ha balki ishlari chiqib qolgandir deb yaxshi gumonda boʻlmaydi ular.
+Ha imkoni yoʻqdir, ilojisini qila olmagandir
 Ha, bu boshlanishi, hali so‘kadiyam, uradiyam, deb, vahima qilayotganlar bor.
 Ha, mayli, sizniyam ishdan qoʻydim.
 Ha, men uni maktabda o‘qiganman, juda muhim kitob.
@@ -1952,6 +2013,7 @@ Ha, oʻzgarishlar boʻlmoqda
 Ha, o‘smirlik chog‘idayoq hammaning e’tirofiga sazovor bo‘ldi.
 Ha, reformalar qaysidir maʼnoda boʻlmoqda
 Ha, u voqea hali ham esimda.
+Hadeb oʻtmishdagi allomalar bilan quruq faxrlanib yuraver.
 Hadeb quruq va'da beraverar ekanda.
 Hadeganda uyqum kelavermadi.
 Hadisda ta’kidlanganidek, barchangiz qo‘l ostingizdagilarga mas’ulsizlar.
@@ -2006,6 +2068,7 @@ Hammamiz aka-uka bo‘lib ketganmiz.
 Hammamiz bilamiz, odamlar nimani ko‘rgisi kelsa, o‘shani ko‘rishadi.
 Hammang qaroqchisan deb behuda qichqirardi.
 Hammaning boshi egik bo‘ldi.
+Hammaning ham o‘z kamchiliklari bor
 Hammaning o‘z munosabati bor.
 Hammasi faqatgina o‘zingizga bog‘liq.
 Hammasi kundek ravshan.
@@ -2035,11 +2098,13 @@ Haqiqatni o‘z egosidan muhimroq deb bilishdir.
 Haqiqiy erkin mamlakatning erksiz mamlakatlardan farqi nimada?
 Haqiqiy muhabbat yashirin bo‘ladi, oshkor emas.
 Haqiqiy og‘riqni satrlar ifodalay olmaydi.
+Har bir asarning oxiri mazmunli tugashi kitobning mashxur bo’lishida muhim ahamiyatga ega
 Har bir bola maktabga kelishi kerak.
 Har bir gulning o‘z ifori bor.
 Har bir inson axloq-odob va ijtimoiy munosabatlarni oilada o‘zlashtiradi.
 Har bir inson malakali tibbiy xizmatdan foydalanish huquqiga ega.
 Har bir katta yer egasining maxsus askarlar guruhi bo‘lgan.
+Har bir kishi noyobdir
 Har bir missiyani tayyorlash uchun taxminan yuz million dollar mablag‘ ajratilgan.
 Har bir oxirgi mahsulot, qandaydir ishlab chiqarish zanjiri orqali yaratiladi.
 Har bir saylovchi bir ovozga ega.
@@ -2047,9 +2112,11 @@ Har bir shaxs mulkdor bo‘lishga haqli.
 Har bir tilning o‘ziga xos ustunlik va kamchiliklari bo‘ladi.
 Har bir universitetning o‘z talablari mavjud.
 Har biriga oq qog‘oz va yelimlangan test konvertini berib, alohida-alohida xonaga kirgizdi.
+Har birimiz bugun dunyoqarashimizni kengaytirmas ekan.
 Har birimiz o‘zimizni yaxshi odam hisoblaymiz.
 Har birimiz yo maydonga tushayotgan, yo zaxirada qolayotgan o‘yinchimiz.
 Har birini kutib olishimiz kerakmi?
+Har doim so‘zingda tur.
 Har holda mutaxassis bilan maslahatlashgan yaxshi-da!
 Har ikkalasi ham foydalanishga mo‘ljallangan.
 Har ikki ekinning mevasi oson uziladi.
@@ -2123,6 +2190,7 @@ Hazilga oldim.
 Hazrat Umar haqidagi mashhur serialda, Umar ko‘p ishlatadigan bir so‘z bor.
 He usha koronavirusinggayam.
 Hech boʻlmaganda avlodlarimiz rivojlangan jamiyatda yashasin.
+Hech kim bunday qilmasa kerak!
 Hech kim e’tirozam qilmaydi, nazarimda.
 Hech kim qonunga asoslanmagan holda hibsga olinishi yoki qamoqda saqlanishi mumkin emas.
 Hech kim shu lahzalardan ibrat olmaydi, uni eslamaydi.
@@ -2134,6 +2202,7 @@ Hech nimaga hayron qolmaydigan odamdan olim chiqadi.
 Hech o‘ylamagan edim, o‘zga sayyoraliklar haqida mulohazalar bu darajada normal bo‘lishini.
 Hech qachon mehnat huquqlaringiz buzilmasin
 Hech qachon onaning bu qadar yurakni ezuvchi nolasi qulog‘imga kirmagandi.
+Hech qachon orzular sari intilishga vaqtim yoʻq demaslik kerak.
 Hech qachon sevgi she’rlari va qasidalar yodlamagan.
 Hech qanaqa xasta bola yo‘qmi?
 Hech qanday iqtidor, iste’dod va bilim yordam bermaydi, agar o‘z kuchini ishlatmasa.
@@ -2468,6 +2537,7 @@ Jamoatchilik bu voqeadan shunday xulosaga kelgandi.
 Jamoliddin, yo oshga unnab yuboraymi, a?
 Jang oldidan uni biroz hayajon ham bosdi.
 Jangda amir Husayn yengilib qochibdi.
+Janjallar va ko‘z yoshlari hech kimni bezamaydi.
 Janob Prezident, tug‘ilgan kuningiz bilan.
 Janubiy Amerikadagi eng yaxshi ko‘rsatkich deb yozyapti Economist nashri.
 Jarima baland bo‘lsa, pora ham tegishli ravishda oshadi.
@@ -2573,6 +2643,7 @@ Kelib chiqishiga ko‘ra qanday qabilalarga mansub bo‘lgan?
 Keling, quyida tiriklikning asosiy tuzilish darajalarini ko‘rib chiqaylik.
 Kelinlar qo‘zg‘oloni filmida bir sahna bor.
 Kelinlar qo‘zg‘olonida buning yechimini topa olishganiga do‘ppimni yechaman.
+Keltirilgan maʼlumotlar va fikrlar asosli boʻlsin
 Keng ko‘chalar shaharda yashash uchun noqulay, ham xavfsizlik uchun tahdid.
 Kerak bo‘lsa Gorkiy va Mayakovskiydan ham Rossiya tarixida muhim inson bo‘ladi.
 Kerak bo‘lsa, demokratlar ham ovoz berishadi.
@@ -2597,6 +2668,7 @@ Keyingi hafta iqtisoddan Nobel mukofoti e’lon qilinadi.
 Keyingi safar bundan yomonroq bo‘lishi mumkin.
 Keyingi tug‘ilajak nevaralaringizni yaxshi ko‘rolmas ekansizda.
 Keyingi yilga fikrlash uchun qiziq mavzu.
+Keyingi yuz yilda ham kosamiz oqarmasligi aniq.
 Keyinroq so‘g‘dlar ham ko‘p miqdorda ko‘chib kelgan.
 Keyinroq tuman markazidagi litseyga o‘qishga o‘tganman.
 Kichik olovni to‘xtatish kabi.
@@ -2641,6 +2713,7 @@ Kitobda ham buni yaxshi tushuntirgan.
 Kitobga egilganlarning viqori kishini hayratlantiradi.
 Kitobga shunchalik qiziqib ketganimdan kechki ovqat qilishni ham unutib qo‘yibman.
 Kitoblarni qo‘ygani joy topilmagani uchun musiqa maktabining zaliga olib kelib tashlashibdi.
+Kitobni boshqalar uchun emas, faqat va faqat o’zingiz uchun yozing
 Kitobni iqtisodchilar yozishgan, lekin mavzu sun’iy intellektning iqtisodiyot va hayotimizga ta’siri haqida.
 Kitobni oʻqiganingizdan soʻng, siz atrofingizdagi dunyoga mutlaqo boshqacha nazar bilan qarashni boshlaysiz.
 Kitobni yaxshi o‘qiyman.
@@ -2650,6 +2723,7 @@ Kiyev Rusi millatlardan oldingi sharqiy slavyan davlatidir.
 Kiyik och qolmaslik uchun ko‘kat yeydi.
 Kiyikni ham yeydi.
 Klublarimiz bugungi trendlardan ancha ortda qolib ketishmoqda.
+Knyaz qoʻshnilaringga vaʼda qilingan uyni ololmasliklarini aytadi.
 Kobra material bermasa, Muzaffarda nima gunoh.
 Koinotning eng uzoq burchagi sening ichingdagi bir nuqta xolos.
 Komillik esa tinimsiz mehnat talab qiladi.
@@ -2664,6 +2738,7 @@ Konstitutsiyaning asosiy vazifasi va sharti hokimiyatning markazlashuvini chekla
 Konvertatsiya uch yildan beri erkin.
 Konvertatsiya yo‘q, aslida qarz ham yo‘q.
 Konvertatsiyadan oldingi o‘nlab qo‘rqituvchi maqolalarni eslang.
+Koreyadan keladigan eshik rezinalari toʻgʻri kelmagan
 Koronavirus kasalligi aniqlangani sabab o‘quv jarayonlari masofaviy shaklga o‘tkazildi.
 Korrupsioner rahbar birinchi navbatda xalq oldida xiyonatkordir...
 Korrupsiyaga oid jinoyatlar uchun javobgarlik kuchaytirilmoqda.
@@ -2673,10 +2748,12 @@ Korxonalar soliq to‘lashmaydi.
 Korxonangizda ishchilar ketib qolmoqdami?
 Kosmik apparat o‘tgan yil iyulida Xitoy janubidagi oroldan uchirilgandi.
 Kovidning yangi mutatsiyasi biz kutgandan ancha kuchli ekan.
+Koʻp eʼtibor berib kuzataman
 Koʻpchilik biznes trenerlar degan shamanlarga aldanib qolmoqda.
 Koʻpining derazasi bitta.
 Koʻryapsizmi sistematik korrupsiyani?
 Koʻzingni ochib atrofga kattaroq nazar sol, biz yashab oʻtib ketsakkina boʻldi emas.
+Koʻzlari zulmatga oʻrganganlarning paypaslab yoʻl qidirishlariga oʻxshaydi.
 Ko‘chma ma’noda, xayrixohlik bilan qaralmaydigan odam.
 Ko‘chmanchi chorvador aholi budun yoki qora budun nomlari bilan yuritilgan.
 Ko‘chmanchi va yarim ko‘chmanchi aholining o‘troq hayot tarziga o‘tishi kuchaygan.
@@ -2851,6 +2928,7 @@ Lekin qavmim buni bilmaydi.
 Lekin qaysi lug‘atga asoslanish kerakligi haqida haligacha aniq ko‘rsatma yo‘q.
 Lekin qimmatlash darajasi talabni elastikligiga bog‘liq.
 Lekin qiyinligini sababi makroiqtisodiy emas.
+Lekin rostini aytadigan bo‘lsang, seni sotqinga chiqarishadi.
 Lekin sen bizning do‘stimizsan, haqiqatni bilib qo‘yganing yaxshi.
 Lekin sharoit shuni taqozo qilib turibdi.
 Lekin shu ayol ishga kirganidan beri bog‘chamiz notinch bo‘lib qoldi.
@@ -2884,6 +2962,7 @@ Lekin, respublikachilarning siyosiy kelajagi savol ostida.
 Lemparddan osonroq vazifani qabul qilib olgani uchun ularga ham rahmat aytib qo‘yishi lozim.
 Lenin inqilobi feodal tizim ustidan g‘alaba qozonadi.
 Levi’s brendining to‘g‘ri talaffuzini deyarli hech kim bilmasa kerak.
+Leyeyekin o‘zingni sinf oldida kulgiga qo‘yishlariga imkon berma.
 Lift qanchalik qulay bo‘lmasin, zinadan hech kim voz kechmaydi.
 Liga kubogi yarim finalida, Old Trafforddagi o‘yinda Pep Gvardiola bu uslubga tayyorlanib keldi.
 Lisoniy va madaniy guruhlar bir-biri bilan aloqa qilib yangi guruhlar yaratib kelgan.
@@ -2899,6 +2978,7 @@ Loyiha e’lon qilinganda tez orada yangiliklar bo‘ladi degan umid paydo bo‘
 Loyiha ikki mamlakat tomonidan kelishilgan va yaqin vaqt ichida imzolanishi kutilmoqda.
 Loyiha matni saytimizda batafsil keltirilgan, tanishib chiqing.
 Loyihada men ham ishtirok etyapman.
+Loyihamizning ilk soni yanvar oyida koʻp muhokamalarga sabab boʻlgan
 Loyihaning maqsadi bilan mana bu yerda tanishishingiz mumkin.
 Lug‘at chiqqaniga sakkiz yil bo‘lyapti.
 Lug‘atda dastlabki tajriba sifatida shunday yo‘l tutilgan.
@@ -2935,6 +3015,8 @@ Makkalik kofirlar haqida ko‘p o‘qiganmiz, eshitganmiz, nafratlanamiz ulardan
 Maktab ishlari davlat nazoratidadir.
 Maktab programmasini o‘zlashtirishi qiyinroq bo‘lgan studentlar sizni darsingizni olishdi.
 Maktab statistikasida shuni o‘tishadi.
+Maktabda seni hurmatq ilishlari uchun bajarish kerak bo‘lgan
+Maktabdagi majburiyatlaringga mas’uliyat bilan yondosh.
 Maktabimiz biqinida ariq oqardi.
 Maktabimizning kichkina kutubxonasi bo‘lardi.
 Maktablar uchun qo‘llanma sifatida imlo lug‘ati nashr etildi.
@@ -2973,6 +3055,7 @@ Manimcha, Meksika va tabiiyki o‘zbek futbol muxlislari bu vaziyatni yaxshi esl
 Mansab pillapoyalaridan ko‘tarilganda, xalqqa zulm qilmay tavozeli bo‘lganlar qalbi siniqlardir.
 Mantiq bo‘yicha qo‘shib yozilishi kerak.
 Mantiq qayerda, bo‘tam?
+Maqola so’nggida faqat shu maqola mavzusiga oid savol berilishi mumkin
 Maqoladan iqtibos keltiraman.
 Maqsad aholi kamayishining oldini olish.
 Maqtovlardan mag‘rurlanish nafsni buzadi.
@@ -3008,6 +3091,7 @@ Masalan, o‘n bir yil oldin bu voqeani eshitganman.
 Masalan, professional diniy ta'limdan boshqa diniy ta'lim rasman taqiqlangan.
 Masalan, qahvaxona yomon xizmat ko‘rsatsa, iste’molchi boshqa joyga boradi.
 Masalan, qora daftarga tushishni xohlovchilar ham borakan.
+Masalan, quyidagicha savol berilsa
 Masalan, rais o‘rinbosarlari saylansa, boshqa sudyalar lavozimga tayinlanadi.
 Masalan, sartarosh va stilist uchun qancha xarajat qilgani ko‘rsatilgan.
 Masalan, standart normal taqsimlovga ega o‘zgaruvchini kvadrati bilan, o‘zgaruvchini orasida korrelyatsiya nol.
@@ -3064,6 +3148,7 @@ Ma’naviy zarar yetkazgan, deb hisoblashgan.
 Ma’nosini izohlab bering, iltimos.
 Ma’rifatchilarning orzulari hayot haqiqatiga aylandi.
 Mehmon Lyudovikning singlisi Yelizaveta edi.
+Mehmon ekansizlar deb ancha arzon pul oldi.
 Mehmonga borish vizasi uchun qarindoshlaringiz yoki tanishlaringiz tomonidan yuborilgan taklifnoma.
 Mehmonlar besh kishi edi onasi, xolasi, yana bir ayol, buvisi va bobosi.
 Mehmonlar ham ortimdan kirishdi.
@@ -3074,6 +3159,7 @@ Meliyev o‘z ishini qilib, to‘pni darvozaga tepdi.
 Men Kun.uz bilanman!
 Men avval boshdan pessimist emas edim.
 Men aytmoqchi bo‘lganim, hatto soxta xayriya ham odamlarda mehr uyg‘ota oladi.
+Men bir narsani yaxshi tushunaman.
 Men bir yordamga muhtoj odamga ko‘maklashdim, xolos.
 Men boraqolay, – deb shiypon tomonga yoʻnaldi.
 Men boshida taqdimot qilaman, keyin esa savol-javoblar bo‘ladi.
@@ -3107,6 +3193,7 @@ Men jurnalistikada o‘qimaganman, professional futbol o‘ynamaganman.
 Men maktabgacha ta’lim tashkilotida ikki yildan buyon direktor bulib ishlayman.
 Men muallifdan savollaringizga javoblarni so‘rayman.
 Men och qolib ketdim.
+Men onamni odam bir yerda koʻkaradi degan gaplariga kirmadim
 Men o‘qib chiqmagan badiiy kitobi qolmagan.
 Men o‘zi kimman?
 Men sabab-oqibat savolini bermoqchi edim.
@@ -3119,6 +3206,7 @@ Men shu kompaniyada olti oy malaka oshirdim, rus tilidan tarjima qilib yordam be
 Men shu narsa haqida juda ko‘p o‘qidim, lekin bu maqola boshqacha.
 Men shu o‘rinda vergul mutlaqo ortiqcha deb hisoblayman.
 Men shu shaklni ham lug‘atlarga kiritish tarafdoriman.
+Men shunaqaman va bu bilan yillar davomida kurashib hech narsaga erisha olmadim
 Men shunchaki, yo‘l-yo‘lakay kirgan edim.
 Men sizga o‘zimning pulimni berdim.
 Men sizga shaxsiy raqamimni yubordim.
@@ -3140,6 +3228,8 @@ Men yoshlarimizga murojaat qilar ekanman, ularga doimo o‘qish kerakligini ayta
 Menda argument boshqa.
 Menda bir so‘m bor.
 Menda yangi bir fikr bor.
+Menejerlar bir hafta yoki bir oydan keyin nima qilishi kerak ekanligini yaxshi bilishadi.
+Menga Mefistofel dahshatli maxluq, yovuz mavjudot.
 Menga bir adresni ko‘rsatib, shu joyni anchadan beri topisha olmayotganini aytdi.
 Menga bog‘laning, deb telefoningizni qoldirsangiz, sizga o‘zi bog‘lanadi, deb o‘ylaysizmi?
 Menga bu voqea bir muhim statistik qoyidani eslatdi.
@@ -3159,6 +3249,7 @@ Menimcha bu o‘lim epidemiyasiyani oldini olmaslikka haqqimiz yo‘q.
 Menimcha bu voqeani texnologlar quyidagicha qilishi mumkin.
 Menimcha dunyoni rivojlanishi Yevropada boshlangani, bir ikkita juda omadli va tasodifiy voqealarni oqibati xolos.
 Menimcha ekonometrika fanining asosiy g‘oyasi ham shundan iborat.
+Menimcha farzandlari boʻlib turib, shu holatga tushishgan
 Menimcha opamiz biznes treningga bormaganlar…
 Menimcha suhbat juda qiziq bo‘lgan.
 Menimcha, ayol huquqlari bo‘yicha muammo bormi, bor.
@@ -3410,6 +3501,7 @@ Nega xafa bo‘lasan?
 Nega xalifalikda umaviylarga qarshi xalq noroziligi vujudga keldi?
 Nega yerlarni o‘zlashtirishda mulkdor tabaqa vakillari hamda qabila boshliqlari faol qatnashadilar?
 Negadir bizning odamlar biror so‘zni qanday yozilishini aniqlash uchun manba tanlashni bilmaydi.
+Negadir mashinalarning eshiklari yaxshi yopilmasdi.
 Negadir shu kitobni o‘qib, domlamni esladim.
 Negadir yerusti so‘zi ajratilib yoziladi.
 Negaki, kadrlarga oid hujjatlar bilan ham, ularning o‘zlari shug‘ullanadi.
@@ -3489,6 +3581,7 @@ O'n besh sutkalik ma’muriy qamoqni tanlaganiga hayronman.
 O'n besh sutkalik qamoq jazosi adolatli edimi?
 O'n ikki yoshli Anvar cheka boshladi.
 O'zbekning o'zi qiziq, o'zidan so'zi qiziq.
+O`sha davrini sogʻinuvchilarning miyasidagi nostalgiya qopqoni yaxshi ishlaydi.
 Obodonchilik ishlarini amalga oshirish.
 Ochig‘i, men bu gaplarga mutlaqo qo‘shilmayman.
 Ochiq ma’lumotlar borligi, korrupsiya uchun imkoniyatlarni kamaytiradi.
@@ -3517,12 +3610,15 @@ Odamlar hujjatsiz “tuzoq”, yaʼni qamoqqa tushib qolishmoqda.
 Odamlar qalbingni sindirishsa, o‘kinma.
 Odamlar qattiqqo‘l hokimiyatni sog‘ingan ko‘rinishadi.
 Odamlar quyidagicha o‘ylaydilar.
+Odamlar samimiylikni qadrlaydilar
 Odamlar ularning borligiga ko‘nika boshlashdi.
 Odamlar yashilroq deb, kishi boshiga to‘g‘ri keladigan maydonlarni aytishadi.
 Odamlarga hayronsan. Ota-onasi tirikligida ikki og’iz shirin so’zni tekinga aytmaydi.
 Odamlarni inqilob uyg‘otadi.
 Odamlarni qo‘rqib yashashga majbur qiladigan jamiyat eng omonat jamiyatdir.
+Odamlarni shunchaki hamma narsasini tortib olgan
 Odamlarning aksariyati zo‘ravonlik sababidan emas, boshqa sabablarga ko‘ra o‘lmoqdalar.
+Odamlarning hattoki urugʻlikka deb olib qoʻygan bugʻdoylarini ham olib ketishgan.
 Odamlarning tabaqaga bo‘linishi bekor qilinadi.
 Odamni hech narsa o‘z baxtining qoldiqlarichalik jarohatlamaydi.
 Odamning u yelkasida ham, bu yelkasida ham bittadan farishta o‘tiradi.
@@ -3532,6 +3628,7 @@ Odatda biror mavzuda haddan ortiq bahs-munozara qilinsa, masalaning mohiyatidan 
 Odatda demokratiyalarda, ko‘chalar shinamroq, havo tozaroq, ekologiya yaxshiroq va hokazo.
 Odatda jarima qo‘yishning iqtisodiyoti quyidagicha.
 Odatda kichiklar kattalarga salom beradi.
+Odatda koʻplab rahbar bir oydan keyin nima qilishi kerak ekanligini yaxshi bilishadi.
 Odatda so‘zidan so‘ng vergul ishlatilgan holatlar ko‘p ko‘zga tashlanadi.
 Odatda sud-huquq tizimi vazifa va rag‘batlarini bilish uchun oddiy narsaga qarash kerak.
 Odatda, amerikaliklar amaldagi prezidentga ikki marta imkoniyat berishadi.
@@ -3569,6 +3666,7 @@ Oilaviy hamda mehmonga borish vizasi, yaqin qarindoshlar, do‘stlar bilan ko‘
 Oilaviy rejalarimiz doimo o‘zgarib turadi.
 Ojiz va notavon zarra.
 Ojiznikidan qo‘rqing.
+Oktyabrda boʻlgan saylovlarda kelish masalasi koʻproq boʻlishiga ishonaman.
 Olam birdan charog‘on bo‘ldi.
 Olam shu qadar kengki, xayolan ham qamrab ololmaysan.
 Olam shu qadar torki, olgan nafasing aks-sado beradi.
@@ -3628,6 +3726,8 @@ Onaning qalbi bezovtalikdan yasalgan.
 Onasi issiqda ishlama, deb tayinlagan edi.
 Onasi, dedi.
 Onasini behurmat qilgan odam qo‘shni kampirni yaxshi ko‘raman desa, ishonmayman.
+Onasining bolasi
+Onasining bolasi bo‘lganlarni ochiqchasiga achchig‘ini keltirmasalar ham
 Onlayn metro saytiga kirib, eski kartada qolgan pulingizni yangi kartaga o‘tkazib oling.
 Onlayn tomosha qiling.
 Opa, har ikki gapni birida “tushunarli, tushuntira oldimmi” demasdan real bilim bering
@@ -3674,6 +3774,7 @@ Ota-ona yiqqan-tergani, bor-budini sarflasa ham, mablag‘lari dori-darmonga yet
 Ota-onalar o‘z farzandlarini voyaga yetgunlariga qadar boqish va tarbiyalashga majburdirlar.
 Ota-onam hayot bo‘lishini, ularning xizmatlarini qilishni juda-juda istardim.
 Ota-onani xo‘rlash ming hissa gunoh.
+Ota-onasi ayniqsa buvisi yoki onasi haddan tashqari g‘amxo‘rlik qiladigan
 Otalaringizga yaxshilik qiling, bolalaringiz sizlarga yaxshilik qilishadi.
 Otang bilan onang yaxshi yurishibdimi?
 Otashin muhabbat-rashkka, rashk shubhaga aylanishi mumkin.
@@ -3701,6 +3802,7 @@ Oxiri uning toqati toq bo‘ldi.
 Oxiri, shiyponga qarab yoʻl oldi.
 Oxirida barcha bundan jabr ko‘radi.
 Oxirida esa shartlarga rozilik bildirish uchun imzo tariqasida ma`lum tugmani bosishingiz kerak boʻladi.
+Oxiridan boshlang
 Oxirigacha ko‘rishni qattiq tavsiya qilaman.
 Oxirigacha tomosha qilib og‘ir xo‘rsindi.
 Oylik maosh suhbatdan o‘tgan nomzod bilan kelishiladi.
@@ -3715,6 +3817,7 @@ Ozgina salqinlab qaytib kelaman.
 Ozgina tanqid boʻlsa, tanqid qilgan odamni gʻajirdik.
 Oziq-ovqat sohasida dehqon va tadbirkorlarda muvofiqlashtiruvchi organga ehtiyoj bor.
 Oziq-ovqat xavfsizligi masalasiga aynan hozir davlat aralashuvi juda muhim.
+Ozod dehqonlar umuman sinf sifatida yoʻq boʻlib ketishgan.
 Oʻgʻlining hafsalasiz oʻtirganini koʻrgan ona qatiqni oʻzi olib kelib, kosaga quydi.
 Oʻn kun ichida qop-qorayib ketganidan uyaldi.
 Oʻqishga ham ehtimol pora bilan kirib, pora bilan tugatgan, kallasida hech narsa yoʻq edi.
@@ -3725,16 +3828,23 @@ Oʻsha taxtalarning birida Madina ismli bir qiz sholi oʻtayotgan edi.
 Oʻshanda ham ular osh, dabdaba va ilmga kam eʼtibor haqida gapirishgan.
 Oʻshanda u yangi yildan internet arzonlaydi degandi.
 Oʻtgan yildan beri yalangoyoq yurmagani uchun tovonlari chidash bera olmadi.
+Oʻyindan keyin kelib menga u yerdagi atmosferani aytib bergan
+Oʻylab qarasak asosiy maqsad serial orqali aktyorlarni tanitish emas.
 Oʻylab-oʻylab topgan gapi shu boʻlganidan xijolat tortdi.
 Oʻylamayman deydi-yu, oʻylayveradi.
+Oʻz farzandlariga yetarlicha tarbiya va mehr bermaganlikdan emasmikin?
 Oʻz qizlarini oʻqitmaslikni, ularning joyi oshxonada ekanligini taʼkidlovchilar koʻp.
 Oʻz yoʻlini gazetada rassomlikdan boshlagan Uolt kreativlik yetishmaslik aybi bilan haydaladi.
+Oʻz-oʻzimizga qoʻygan chegaralarni olib tashlamas ekanmiz, muammoga duch kelamiz.
+Oʻzbekistonda birinchi vaksina davlat roʻyhatidan oʻtkazilganligi haqida haqida xabarlar tarqadi.
 Oʻzbekistonda harbiy xizmatni ixtiyoriy qilib qoʻyishni vaqti yetgan.
 Oʻzi avtoritar jamiyatlardagi barcha telekanallar faqat bir kishi uchun ishlaydi, bir kishini koʻklarga koʻtaradi.
 Oʻzi bunaqa paytda esi bor odam shiyponda mizgʻiydi.
 Oʻzi har qanday imtiyoz shunaqa oqibatlarga, bozorda narxning koʻtarilib ketishiga olib kelishini bilamiz.
 Oʻzi umuman mintaqaga toza biznesga asoslangan siyosat yurgazuvchi mamlakatlar bilan hamkorliklarni tezroq mustahkamlaish kerak.
 Oʻzim sinab koʻrdim da “yutvoldim”
+Oʻzimga foydasi juda koʻp tekkan
+Oʻzimga qiziq tuyulgan sohalarga urib natijada hech birini mukammal egallamadim.
 Oʻzing biladigan va qiziqadigan, jamiyat nazarida esa past statusdagi kasbda professional boʻlish afzalroqdir.
 Oʻzingizdan qolar gap yoʻq, – Moʻmin aka oʻzining gapi oʻziga naʼsha qilib kuldi.
 O‘gil taqqa to‘xtadi.
@@ -3760,6 +3870,7 @@ O‘qing va dunyo kezing.
 O‘qish uchun yana nima kerak?
 O‘qishni tavsiya qilaman.
 O‘qituvchi Eshmatning sabr kosasi to‘lib, g‘ishmatni kaltaklay ketdi.
+O‘qituvchining og‘ir sumkasini ko‘tarishib yubora turib
 O‘quvchilar shu disklarga mo‘yqalamlar bilan yozishgan.
 O‘quvchilardan izoh kutib qolaman.
 O‘quvchining yashil daftari bor.
@@ -3847,13 +3958,16 @@ O‘z fikridan qayta bilish menimcha o‘z egosiga qarshi tura olishdan dalil.
 O‘z fursatida qilinmagan yaxshilik yomonlikka yo‘l ochishi mumkin.
 O‘z kelajagimiz qanday bo‘lishini faqat o‘zimiz, birgalikda belgilashimiz nasib qilsin.
 O‘z kuchini ishlatmaslik, ularda ham, zaiflikning belgisi va shubha uyg‘otadigan amal.
+O‘z muammolaringga hazil bilan munosabatda bo‘lishga o‘rgan
 O‘z nafsing uchun yaxshi ko‘rgan narsangni birov uchun ham yaxshi ko‘r.
 O‘z ona tilidan uyaladigan o‘zbeklar bor, sizga aytsam.
 O‘z postidan g‘ururlanib o‘ziga layk bosvordi.
+O‘z qilmishing uchun javob ber
 O‘z qo‘ling bilan yozib berganingda ham begona plitani baribir ishlatmasdim.
 O‘z qo‘lingiz bilan.
 O‘z sadoqatini ko‘rsatish uchun.
 O‘z taassurotlari bilan Xitoy davlat telekanalida ulashibdi.
+O‘z ustingdan kulishni bil.
 O‘z yo‘lingni o‘zing topib olarsan.
 O‘z zamonasining buyuk davlatlari bo‘lgan.
 O‘zaro aloqa o‘rnatish maqsadida Xitoyga elchi yuborgan.
@@ -3931,6 +4045,8 @@ O‘zingdan katta odam noto‘g‘ri gapirsa ham qo‘rslik qilma.
 O‘zingiz kuchsiz bo‘lsangizda kimningdir suyanchi bo‘lishingiz mumkin.
 O‘zingizga ishonsangiz, o‘qishingiz ham shart emas.
 O‘zingni o‘zgartir, tarixni o‘zgartirasan.
+O‘zingni qanday tutish kerakligini bilmayapsanmi?
+O‘zining ustidan kula oladigan kishining ustidan kulishning qizig‘i bormi?
 O‘zining yuzi lagandek.
 O‘zlari buni hech qachon tan olmasalar ham.
 O‘zlaring maza qilib, menga aytmapsizlar-da!
@@ -3979,6 +4095,7 @@ Prezidentlikka nomzodini qo‘yibdi.
 Primitiv guruhlar haqida.
 Primitiv guruhlar odatda guruh rahbari va uning yaqinlari manfaatlariga ishlaydi.
 Prorabga tushuntirdim, uchastka boshlig‘iga iltimos qildim, o‘zining qabuliga kirdim.
+Prosto tak dalada gʻalla oʻrib boʻlingan
 Provokatsiya so‘zining ma’nosi haqida so‘rashibdi.
 Provokatsiyalarga uchmang, fitnalardan saqlaning.
 Provokatsiyani uyushtirgan odam esa provokator deyiladi.
@@ -4005,16 +4122,19 @@ Qadimgi kimyogarlar oltinning sof yoki qalbakiligini aniqlash uchun mohaktosh qo
 Qadimiy turkiy afsona bor.
 Qahr-g‘azab, do‘q-po‘pisa, va zulm kabi ma’nolarni anglatadi.
 Qahramonimiz bu mashhur tibbiyot dargohining ta’sischilaridan biri edi.
+Qahramonlar yarating
 Qalblar noziklashgan paytdagina ko‘radi.
 Qaldirg‘ochga e’tibor berganmisiz?
 Qaldirg‘ochlar fayzsiz, noahil xonadonga hech qachon in qurmaydi.
 Qanaqaligimni bilasan-ku, seni aldamayman, men yaxshi bolaman, deb urib-yengadimi?
 Qancha ko‘p odam o‘qisa, shunchalik yaxshi bo‘lar edi.
 Qancha ko‘p tilni bilsangiz, shuncha yaxshi.
+Qanchalik chaynalgan gap bo‘lmasin
 Qanchalik katta davlat qarzi degan savol juda o‘rinli va qiyin.
 Qanday bo‘lganini tasavvur qilish qiyin emas.
 Qanday bo‘shliqni bersangiz o‘shani to‘liq to‘ldirishadi.
 Qanday qilib bozorlar yaratiladi?
+Qanday qilib chetga surilib qolmaslik mumkin
 Qanday qilib sabab-oqibat bog‘liqligi haqida gapira olamiz?
 Qanday qilib?
 Qanday rag‘bat turlari qiziq va ishlashi mumkin deb o‘ylaysiz?
@@ -4103,6 +4223,7 @@ Qishloq oʻzimizniki.
 Qishloq xo‘jalik mahsulotlariga bo‘lgan ehtiyoj ortib borgan.
 Qishloqda shu-da, kuning shunaqa ishlar bilan oʻtadi.
 Qishloqlarda dehqonlarning mavqeyi ortib, katta-katta yerlarga ega bo‘lib oldilar.
+Qishloqlarda oʻz holiga tashlab ketishgan, qishloqdan ketmoqchi boʻlganlarni chiqarishmagan.
 Qishloqlari toqqa yaqin boʻlgani sababli bu yerda dam olish maskanlari koʻp.
 Qishloqning dehqonlarga qaram aholisi.
 Qishloqqa qaytish niyat ham yo‘q emas.
@@ -4125,6 +4246,8 @@ Qiz javob bermadi.
 Qiz paykal chetidagi ulkan tol soyasida choy ichib oʻtirgan ekan.
 Qiz toʻxtamadi.
 Qiz uning ochqaganini anglagandi.
+Qizchani oʻgʻirlab ketishga uringani aks etgan videolar tarqaldi.
+Qizg‘anchiq bo‘lma, partadoshingni olma bilan mehmon qil
 Qizig‘i, aynan yoshlarni olib kelish faoliyatidagi noqonuniy harakatlar tufayli, taqiq amalda.
 Qizig‘i, ko‘pi xorijiy kompaniyalarning mahsulot va xizmatlari.
 Qizig‘i, rivojlangan dunyoda yagona PhD tizimi mavjud, xolos.
@@ -4363,12 +4486,14 @@ Saviyasi minus cheksizlikka harakatlanib borayotgan kanallarni bir necha yuz min
 Savodli inson gapda ularni o‘z o‘rnida qo‘llay oladi.
 Savol haliyam ochiq.
 Savol qanchalik qiyin va murakkab bo‘lmasin, javob tushunarli va aniq edi.
+Savol qanchalik umumiy bo’lsa, unga javob yozish ham shuncha qiyinlashishi mumkin
 Savol qayerda bo‘lsa, javob o‘sha yerga beriladi.
 Savol siyosiy institutlarni va boshqaruv sifatiga bog‘liq bo‘lgani uchun qiyin.
 Savolga javob ber.
 Savollar juda ko‘p.
 Savollarni izohda yozing.
 Savolning javobi hozircha yo‘q.
+Saxiy bo‘l, biroq laganbardor bo‘lma
 Saxiy dehqonning nomi tillarda doston bo‘libdi.
 Saylov kuni Rossiya hukumatiga yaqin odamlar xursandchiligini yashirishmagan.
 Saylovda qatnashayotgan taraflar saylov natijasini juda yaxshi biladi.
@@ -4376,19 +4501,25 @@ Saylovga albatta borish va o'z ovozingizni berishingiz kerak.
 Sayohat xotiralari bilan bo‘lishaman.
 Sayt orqali kecha ro‘yxatdan o‘tib, bugun soat uchga belgilagan edim.
 Sayt yangi katta bir loyihani boshladi.
+Saytim orqali ko’pincha menga Websum saytida registratsiya ishlamayapti, nima qilishim kerak
+Saytim takroriy savollarga to’lib ketayapti
 Saytlar buni faoliyatga bo‘lgan bosim sifatida qabul qilishdi.
 Seminarlar ingliz tilida Zoom dasturi orqali olib boriladi.
 Seminarlarda faol qatnashgan barchangizga o‘z minnatdorchiligimni bildiraman.
 Sen ota-onang oldidagi burchingni oz bo‘lsa-da o‘tabsan.
+Sen oʻz uyingni bermayotganing va shuning uchun ular ham uyni ololmasliklarini aytadi.
 Sen tug‘ilmasingdan oldin millionlarcha yillar o‘tdi.
+Sen uchun kim?
 Sen yoʻq paytlari oʻsha joʻxorilarni oʻzimiz ekdik.
 Sen, ukam, kattalarning ishiga aralashma, joʻjaxoʻrozlik qilma.
 Senatda urush qilishi, o‘zining foydasiga ishlashi mumkin.
 Sendan bir nechagina so‘z bilan ifodalangan javobni istaymiz.
 Sendan buni kutmagandim.
+Sendan xafa boʻlib yursa, men unga nima yomonlik qildim deb koʻp oʻylayverma.
 Senga salom beryapti-da.
 Seni Iskandar tanimaydi, u faqat o‘zi biladigan insonlargagina ishonadi.
 Seni ham chuv tushiribdi-da!
+Seni kimdir yomon koʻradi.
 Seni ko‘rish uchun ko‘zlarimni yumdim.
 Seniki uzunroq bo‘lishi uchun nima qilish kerak?
 Sening yerga shimilib, bunday loyqa holga kelishingda dalaning nima aybi bor?
@@ -4553,6 +4684,7 @@ Shu protsess yalpi ichki mahsulotda quyidagicha ifoda etiladi.
 Shu protsessdan chiqqan ma’lumotlar bilan o‘rtoqlashishlari mumkin.
 Shu qadar achchiqki, tilingni kuydiradi.
 Shu qilgan ishi uchun uni o‘limga hukm qilishadi.
+Shu quyi boʻgʻin bilan yuqori boʻgʻinlarni bir biri bilan tanishtirib qoʻyaylik
 Shu ruknda yaxshi yangiliklardan gapirsak.
 Shu sabab mijozlar o‘sha tadbirkorni o‘z tanish-bilishlariga tavsiya qilishadi.
 Shu sabab unga umuman ishonmayman!
@@ -4579,10 +4711,13 @@ Shu tovushlar qatnashgan so‘zlarni yozishda ko‘p xato qilamiz.
 Shu tuygʻudan ancha dadillandi, hadik aralash ishtiyoq bilan yoʻlga otlandi.
 Shu uchta kitob bor.
 Shu uchun ikki narsani farqlashimiz kerak.
+Shu vaqtgacha o’qigan asarlaringizni birma-bir yodga olishingiz ham foyda berishi mumkin
 Shu vaziyatga qanday yechim berasiz?
 Shu yerdagina ular bir-birlari bilan tanishishi va kundalik hayoti haqida fikr almashishi mumkin.
 Shu yilning o‘zida Teslaning yangi zavodida avtomobil ishlab chiqarilar ekan.
+Shu yuzasidan matbuot anjumani oʻtkazishni bir necha bor soʻradik.
 Shubhasiz, hukmronlik ramzidan dalolat beradi.
+Shugʻullanuvchi kanal haqida bizning ham oʻz surishtiruvlarimiz mavjud.
 Shulardagi vaqo so‘zining ma’nosi nima ekanligi ko‘pchilikka qiziq bo‘lsa kerak.
 Shularning barchasida asosiy g‘oya bu iqtisodiy o‘sish.
 Shum bolani haligacha o‘qimaganman.
@@ -4606,6 +4741,7 @@ Shunda ham imtihondan o‘z kuchi bilan o‘tishga ishonadiganlar juda kam bo‘
 Shunda men aytdim.
 Shunda norozilarda bunday adolatsizliklarga huquqiy yo'l bilan kurashish imkoni bo'ladi, kamida.
 Shunda respublikachilar baribir yutib chiqishadi.
+Shunda sen do‘stingni sotmaysan.
 Shunda sinfning eng yaxshisi bo‘lasan, o‘rtoqlaringga ham zararing tegmaydi.
 Shunda so‘z qahramonimizga beriladi.
 Shunda tanazzulni to‘xtata olamiz va xatolarimizni yuva bilamiz.
@@ -4619,6 +4755,8 @@ Shundan beri g‘azo sektorini boshqarib keladi.
 Shundan ham vaqtlari barakali bo‘lgan bo‘lsa kerak.
 Shundan keyin Sharifjon oʻzidan-oʻzi bezovtalanadigan, shu qizni sogʻinadigan boʻlib qoldi.
 Shundan keyin mavsum boshlashgach, shu jihatni ta’qib qilishni boshladim.
+Shundan keyin oʻzimniyam bu oʻyinlarda qatnashgim keldi.
+Shundan soʻng u dunyoga dahshat solish uchun katta qoʻshin tashkil qilgan
 Shundan so‘ng go‘sht olish uchun taksida Chorsu bozoriga bordik.
 Shundan so‘ng kunlik menyuda bu ovqat tez-tez paydo bo‘la boshlabdi.
 Shundan so‘ng sosoniylar eftallarga qaram bo‘lib qolgan.
@@ -4722,6 +4860,7 @@ Siz qachonlardir Nagasaki va Xirosima bomba bilan vayron qilinganligi haqida esh
 Siz qanday fikrdasiz?
 Siz qanday hissa qo‘sha olasiz?
 Siz shunchaki xulosa qiling.
+Siz uchun kimdir o’ylamaydi
 Siz uyga kiravering.
 Siz yurtimiz tarixiga bag‘ishlangan xalqaro konferensiyada ishtirok etsangiz, nimalar haqida gapirgan bo‘lardingiz?
 Siz zo‘rsiz, hurmatingiz baland qabilida ishlar osonroq bitadi.
@@ -4795,6 +4934,7 @@ Sovet tizimining iqtisodi tamoman neft eksporti ustiga qurilgan edi.
 Sovetlarning har bir millat uchun alohida respublika va avtonomiyalar tashkil etishdan maqsadlari bor edi.
 Sovqotib qolmaslik uchun turgan joyimda chigalyozdini to‘xtatmasdim.
 Sovrindor xursand bo‘lganicha uyiga yo‘l oldi.
+Sovuqda, darsdan chiqib, toʻgarakka borish kerak
 Soxta hujjatlar taqdim qilinishi mamlakatga kirishga taqiq qo‘yilishiga sabab bo‘lishi mumkin.
 Soʻng chetga qarab tupurdi-da, kelgan yoʻliga qaytdi.
 Soʻng murosa yoʻliga oʻtdi.
@@ -4824,6 +4964,7 @@ So‘zning to‘g‘ri shakli amalda ko‘pam qo‘llanmaydi.
 So‘zning yogurt ko‘rinishi bizga rus tilidan o‘tgan.
 Sport qo‘mitasi chindan ham Sog‘liqni saqlash vazirligi ixtiyoriga o‘tkaziladi.
 Ssenariy mualifi Eduard va rejissyor Abzalovga olqishlarim.
+Stalin jallodlari gʻalla planini bajarish uchun bugʻdoylarini ham olib ketishgan.
 Stalin va sobiq Ittifoqni ayblashadi.
 Standard Oil monopoliyasi keyinroq Rokfeller neft biznesiga o‘tib ketadi.
 Startaplar haqida va ularni yurgizish haqida eng yaxshi kitoblardan.
@@ -4848,6 +4989,7 @@ Sulola asoschisi o‘zbekxon.
 Sun’iy tabassumingiz samimiy kulguga aylanadi.
 Supermarketlar va boshqa joylarda maska ancha keyin kiyish tartibga solindi.
 Surat quyida ilova qilingan.
+Suratdagi hujjatlar roʻyxatiga eʼtibor berilmadi.
 Suriya va Qatarda asosiy farq davlatning mavqeida edi.
 Surxondaryoda chaqiruv bo‘yicha ketayotgan tez yordam mashinasini o‘tkazmagan xodimlar lavozimidan ozod etilgan.
 Sut va oqliq aralashishi, qo‘shilishi natijasida yogurt hosil bo‘ladi.
@@ -4889,10 +5031,12 @@ Tahrir ko‘pincha individuallik kasb etadi, har kimning o‘z varianti bo‘lis
 Tahririyat jamoasiga qo‘shilish uchun ariza yuborishingiz mumkin.
 Takbir, ruku’, sajda.
 Takror ko‘rishni tavsiya qilaman.
+Taksist albatta butun dunyo taksistlari kabi siyosatshunos.
 Talaba deyishsa, peshonasi tirishadi.
 Talaba javoblari bir nechtaligini, u eng yaxshisini tanlashga urinayotganini aytdi.
 Talaba shunday javob berdi.
 Talabalar savolga bemalol javob beramiz, a’lo baho naqd deb o‘ylagandi.
+Talabalar uchun ularni tushunadigan ideal vazir paydo boʻldi shekilli.
 Talabalarga kompensatsiya toʻlab berilar ekan, kompensatsiya toʻlab berilishi uchun shartnoma asosida ijaraga olish kerak.
 Talabalarimiz butun dunyo bo‘ylab o‘qishmoqda, aksariyat investorlar mamlakatimizga ishonch bildiryapti.
 Tamom vassalom!
@@ -4901,6 +5045,7 @@ Tanasi dard bilmas, deyishadi.
 Tangalarining oldi tarafiga shoh surati, orqasiga esa suvoriy surati tushirilgan.
 Tanganing ikkita tarafi bor, buni unutmaslik lozim, balki uchtadir yonini ham hisobga olganda.
 Tanho o‘zini qabiladan haydab yuborisharkan, xolos.
+Taqdirni oʻz qoʻliga olib harakat qilishga vaqtim yoʻq demaslik kerak.
 Taqiqlovchi tashkilot.
 Taraqqiyot uchun shart omil ham erkinlik.
 Tarix juda qiziq-da.
@@ -5042,6 +5187,7 @@ Toshni maydalab, qumga aylantirish uchun bir daqiqa kifoya.
 Toxariston aholisining asosiy qismi o‘troq dehqonchilik bilan shug‘ullangan.
 Toxariston poytaxti Balx shahri bo‘lgan.
 Toxariylar kushonlarning avlodlari bo‘lgan.
+Toʻqqiztasi qatoriga aylana shakl chizilgan. ular talab etilgan hujjatlardir.
 Toʻylarda turli modalar oʻylab topiladi.
 To‘g‘on boshi atrofidan ajratib olganlar.
 To‘g‘ri variantda Tinch okean bo‘ladi.
@@ -5222,6 +5368,7 @@ U yana minishingiz uchun va ziynat sifatida ot, xachir va eshaklarni yaratdi.
 U yana to‘xtab qoldi.
 U yerda bir muddat hukm suradi.
 U yerda bir-biriga o‘xshamaydigan davlatlar va madaniy mintaqalar juda ko‘p.
+U yerda chirib ketishga mahkum boʻlib yotgan boshoqni olganing uchun ham qamalarding.
 U yerda gumanitar yo‘nalishdagi juda qiziq materiallar e’lon qilib turiladi.
 U yerda rasmi ham bor.
 U yerda xalqning xohish-irodasi so‘ralmagandi.
@@ -5262,6 +5409,7 @@ Ular bilan salomlashgach, Sarvarga xabar berish uchun uyga kirib ketdim.
 Ular bir ovozdan baqirib yuborishdi.
 Ular bolaliklaridan boshqalarning g‘am-tashvishi bilan yashashni o‘rganib borganlar.
 Ular dastlab Zarafshon vohasini egallab, janubga harakat qilishgan.
+Ular doimo o‘qituvchilarga xizmat ko‘rsatishga urinadilar
 Ular fojiasi esa aynan shunda.
 Ular ham dunyoni xuddi biz topshirgandek keyingi avlodga bayroqni topshiradilar.
 Ular ham juda uzoq panjara ortida qolmaydi, tez orada yana bir “imkoniyat” beriladi.
@@ -5291,7 +5439,9 @@ Ular saflarimizni yorib, birligimizni yakson qilmoqdalar.
 Ular senga havas bilan qaraydi, hurmatingni joyiga qo‘yadi.
 Ular sevgini ayblay-ayblay, oxiri ajrashdilar.
 Ular sinov oldida chekindilar.
+Ular sinxronizatsiya qilib olishsin ishlarini.
 Ular soliqchini ataylab poylab turgan bo‘lishgani ehtimoliga tergovda diqqat qaratilishi maqsadga muvofiq.
+Ular talab etilgan hujjatlardir.
 Ular tarannum etgan tuyg‘ular inson yuragining azaliy va mangulik xossalaridir.
 Ular tarannum etgan yuksak orzularga erishish ham tasalli berolmaydi.
 Ular tarixga qaraganda nafaqat buyuk g‘alabalarini, balki uyatli voqealarini ham eslashadi.
@@ -5311,6 +5461,7 @@ Ulardan olib rosa o‘qigim kelgan, ammo olishga, birovdan so‘rashga uyalganma
 Ularga Kidar ismli hukmdor boshchilik qilganligi uchun ularni kidariylar deb ham atashadi.
 Ularga barmoq bosilib, muhr bilan tasdiqlab qo‘yilgan.
 Ularga kumush hisobida belgilangan bojni uzluksiz to‘lab turganlar.
+Ularga masalani toʻliq, oddiy va tushunarli qilib koʻrsatishlari kerak deb hisoblaymiz.
 Ularga solishtirsak, to‘g‘ri, musulmonlar jamiyatlari qoloq va erksiz.
 Ularga-ku bir amallab tushuntirsa bo‘ladi.
 Ularni ham tushunsa bo‘ladi.
@@ -5355,6 +5506,7 @@ Umr yo‘ldoshini xo‘rlash yuz hissa gunoh.
 Umrida ichkilik ichmagan, chekmagan, o‘yin-kulgiga qiziqmagan.
 Umuman Gvardiola o‘z faoliyati davomida faqat Barselonada uzoq ishlagan xolos.
 Umuman boshqa sodir bo‘lmaydi endi.
+Umuman ilmni trendga chiqarish kerakligi haqidagi fikrlarim kimgadir yoqdi.
 Umuman olganda demokratiyalarda hayot yaxshiroq ekanligini hammamiz yaxshi bilamiz.
 Umuman olganda, dori va boshqa vositalarni tekshirishga nisbatan falsafamiz o‘zgarishi kerak.
 Umuman olganda, jumlalar xato emas.
@@ -5523,7 +5675,9 @@ Uzumini yeb, bog‘ini surishtirmang.
 Va albatta, oila a’zolarim.
 Va aynan shuning uchun, ularda boyagi yaxshi narsalar ham bo‘lmaydi.
 Va bu, ularning qarorlariga ham o‘z ta’sirini o‘tkazayotganini ko‘rib turibmiz.
+Va men endi oʻzgara olmayman.
 Va nihoyat shu gal ayoli javob berdi.
+Va quruq gaplardan amaliy ishlarga oʻtmasak.
 Vafot etgan ajdodlarimizning oxirati obod bo‘lsin.
 Vagoncha zinasiga pildirab chiqib, baqirdi.
 Vaholanki uni cho‘pon pishirib yeydi.
@@ -5536,6 +5690,7 @@ Vaksinalarni tez tarqatish jamiyatimiz oldidagi eng muhim muammo.
 Vaksinani samaradorligini biz noyabrda bildik.
 Vaqt ajratib ko‘rasizlar degan umiddaman.
 Vaqt seni kutib o‘tirmaydi.
+Vaqt yoki dam olish vaqti adras koʻylakni kiyib gul koʻtarib borish qaysi qizga yoqadi?
 Vaqti kelib birorta muhtoj kishiga ko‘mak bering.
 Vaqtinchalik sulhlar tuzilishi yoki otishmalar to‘xtashi mumkin.
 Varaqdagi so‘zlarni o‘qigan juvonning ko‘zlaridan shashqator yosh quyilib keldi.
@@ -5568,10 +5723,12 @@ Visa va Mastercardga egalik qilish siz uchun ikki karra manfaatlidir.
 Viskonsin universitetidagi matematik kutubxona professor nomiga qo‘yilgan.
 Vohalarda yirik sug‘orish tarmoqlari qazilib, sug‘orma dehqonchilik maydonlari kengaygan.
 Voqea yuzasidan Qishloq xo‘jaligi vazirligi bayonot berdi.
+Voqealar, jumladan, respublikamizning turli hududlarida bino-inshootlarning qulashi xususida soʻz yuritildi.
 Voqeani eshitib hamma tosh qotib qoladi.
 Voy bu aniqku.
 Voyaga yetmaganlar, mehnatga layoqatsizlar va yolg‘iz keksalarning huquqlari davlat himoyasidadir.
 Vyetnam haqida u ham maqola yozibdi.
+Websum saytida nosozlik bormi
 Xabarni o‘qib, ko‘zimga yosh keldi.
 Xalifa davlat yerlarini in’om qilgan.
 Xalifa davlatni boshqarishda vazirga tayangan.
@@ -5596,6 +5753,7 @@ Xalqimiz doimo bunyodkorlikka, ilm va ma’rifatga intilib yashagan.
 Xalqni ayblaganingdan ko‘ra uxlaganing yaxshi edi.
 Xalqning barchasi Allohning boqimandalaridir.
 Xalqning tili Haqning qalamlaridir.
+Xalqqa hisobot berib, savollarga javob berib halol oshini koʻchada ichsa boʻlardi.
 Xarajatlar bir kosa sut bilan to‘lab qo‘yilgan.
 Xarakteridan uncha ko'nglim to'lmasada rus tiliga ixtisoslashgan gruppa qilish niyatida ishga oldim.
 Xatolar orasidagi tanlov emas edi.
@@ -5672,6 +5830,7 @@ Xorazmda sug‘orma dehqonchilik, hunarmandchilik va haykaltaroshlik yuqori dara
 Xorazmdagi kafelarning birida yong‘in sodir bo‘ldi.
 Xorazmshoh o‘z qarorgohini Xorazmning qadimgi Kat shahriga ko‘chiradi.
 Xorijdagi bizneslaridan katta daromad ko‘rgan.
+Xorijdagi mehmonlarni kutib olish uchun nega mening gul qizlarim?
 Xorijiy martabali mehmonlarni kutib olish protokoli umum qabul qilingan normalarga ega.
 Xotin kishi oʻttizdan keyin oʻtin boʻladi, yaxshi qiz.
 Xotin-qizlar va erkaklar teng huquqlidirlar.
@@ -5733,6 +5892,7 @@ Xullas, koronavirusga qarshi vaksinani o‘z vaqtida, hech qanday muammolarsiz o
 Xullas, ko‘ring va albatta ulashish esdan chiqmasin.
 Xullas, maqolani o‘qing.
 Xullas, menga fikrlari qiziq ko‘rinadi.
+Xullas, o‘zing tanla.
 Xullas, pochta va iqtisodiyot bog‘liqligini iqtisodchilar o‘rganishgan.
 Xullas, qissadan hissa shu.
 Xullas, qiziq maqola, o‘qishni tavsiya qilaman.
@@ -5798,6 +5958,7 @@ Yangi unib, o‘sib chiqqan, yosh, mayin maysalar adirni qoplab olgan.
 Yangi yil kutsa bo‘ladimi, Navro‘z kimning bayrami, qabilidagi tortishuvlar ancha eski.
 Yangi yozilgan asar kecha nashrdan chiqdi.
 Yangidan-yangi suv tomchilari.
+Yangiyoʻlda muqaddam sudlangan fuqaro maktab oʻquvchisi boʻlgan
 Yapon o‘rmonda adashib qolibdi.
 Yaponiyada daraxtni bir joydan boshqasiga ko‘chirishyapti.
 Yaponiyaga kelib shu yerda yashab qolish haqida kelishdan avval o‘ylamaslik kerak deb hisoblayman.
@@ -5833,6 +5994,7 @@ Yaxshi yangilik shuki, bu masalaning yechimi bor.
 Yaxshiga kun yo‘q, yomonga o‘lim, deydi.
 Yaxshigayam, yomongayam birdek yaxshi ko‘rinishga urinadigan odam eng xavfli odamdir.
 Yaxshigayam, yomongayam birdek yaxshi ko’rinishga urinadigan odam eng xavfli odamdir!
+Yaxshilikka qarshi kurashuvchi boʻlib emas oddiy tanqidchi kabi koʻrinadi.
 Yaxshiyam yonimda sen bor ekansan.
 Yaxshiyamki iymon atalmish immunitet bor.
 Yaxshiyamki, kechasi bo‘lgan.
@@ -5896,6 +6058,7 @@ Yerda ishlash tartiblarining tubdan o‘zgarishi aholi o‘rtasida tabaqalanishn
 Yerda yig‘ilib qolgan suvlar halqasimon doira hosil qiladi.
 Yerga egalik shakllari.
 Yerlarni o‘lchab, qayerga qancha mahsulot ekilganini bilish va shunga qarab tahlil qilish zarur.
+Yerni jigarini sugʻurib oladigan xalq boʻlsakda, sohada ancha orqadamiz.
 Yevropa Ittifoqi Belarus bilan aviaqatnovlarni to‘xtata boshladi.
 Yevropa kosmik agentligining ikkita marsoxodi qizil sayyoraga qo‘nish chog‘ida portlab ketgan.
 Yevropa osmoni Belarus samolyotlari uchun yopildi, Belavia uchoqlari sarson bo‘la boshladi.
@@ -5928,6 +6091,7 @@ Yirik axborot oqimlarini shakllantirayotgan taniqli shaxslar O‘zbekistonning i
 Yirtilgan etik kiyishga rosa uyalardim.
 Yo biror ishi chiqib ketib qoldimikan?
 Yo senga dinda birodar yoki yaralishda seningdek inson.
+Yodda tut: berilgan va’dani bajarmaslikdan yomoni yo‘q.
 Yogurt g‘irt turkcha so‘z, lekin bizga ajnabiy bo‘lib tuyulaveradi.
 Yog‘och gardishi ko‘hna, temir paqirchalari zanglab ketgan.
 Yoki Ashurmatov shogirdlariga gol o‘tkazib yuborishni buyurib, adolatni ta’minlashgandami.
@@ -5957,6 +6121,7 @@ Yon-atrofingizdagi buyumlarning deyarli barchasi savdogar va tijoratchilar tomon
 Yonida faqat pichog‘i bor ekan.
 Yoniga to‘rt nafar yasovul olib, Sultonali yo‘lga tushdi.
 Yoqimsiz hidni yo‘qotish uchun sinalgan tavsiya.
+Yoqtirmaslik – bu yumshoq qilib aytganda!
 Yorqin damlar eslashga arziydigan ajoyib kunlarga aylansin!
 Yorug‘ kunlarni kutib yashash ham ibodat.
 Yosh bolaning og‘zidan so‘zlar sodda, samimiy va ravon chiqadi.
@@ -5971,6 +6136,7 @@ YouTube’da bir nechta video bor, ko‘p joylari kesilgan.
 YouTube’da ham izoh qoldiring, ko‘proq odam ko‘ra oladi shunda.
 YouTube’da izoh qoldirsangiz albatta javob beraman.
 YouTube’da savollaringizni bersangiz bo‘ladi.
+Yoxannesburg universitetida qilgan maʼruzasini eshitib koʻrishni tavsiya qilaman.
 Yoz, Hamkorbank va Visa.
 Yozda oromgohga borishni reja qilib qo‘ydim.
 Yozda sinfdoshlar bilan birga tog‘ga sayohatga chiqmoqchimiz.
@@ -6011,6 +6177,7 @@ Yuklamani boshqa hollarda vergul bilan yozish ham yanglishdir.
 Yupqa ro‘moli, nimchasi ho‘l bo‘lib ketgan.
 Yuqish darajasi muhim deb o‘ylabman.
 Yuqori tashkilotlardan keladigan topshiriklarni birinchilardan bo'lib bajaramiz.
+Yuqorida aytilganlar ichidan o‘zingni tanigan bo‘lsang nima qilish kerak?
 Yuqorida qayd etilgan xalqlarni birlashtirish g‘oyalari bevosita o‘zbeklar bilan bog‘liq edi.
 Yuqorida sanalgan har bir tashrif o‘ziga xos xususiyatlarga ega.
 Yuqoridagi holat ham shunga o‘xshaydi.
@@ -6067,15 +6234,22 @@ Zo‘rlanishlar esa ancha yillardan beri qo‘rqitish va pul olish uchun ishlati
 Zo‘rlashlar bo‘yicha statistikaga ko‘z tashlasangiz, bir qiziq raqamlarni ko‘rasiz.
 Zug‘um aslan o‘zbekcha so‘z.
 Zulm barmoqning eng yumshoq joyi sari tirnoqning o‘sishidir.
+agar sen bir kishi bilan do‘stlashsang, uni qanday bo‘lsa
 aksincha, mehnatingizga munosib barchaning ardog‘ida bo‘lib yurish nasib qilsin.
 aloqaga chiqsangiz
 amaldor istasa, ularni bemalol qaytarib olishi, bekor qilishi mumkin.
+ana shunda hech qachon qizg‘anchiq yoki xushomadgo‘y degan nom chiqarmaysan!
 anchagina yer chopiqdan chiqqan, yana bor-yoʻgʻi yarim kunlik ish qolgan edi, xolos.
 ayniqsa boshqa odamlarga. Jamiyatdagi muammolar haqida ham shikoyat qilinmaydi,.
 baland olovli qozonga yogʻ qoʻyib qoʻygani esiga tushib qolganday tez oʻtib ketadi.
+balki taniqli aktyorlar orqali millatimiz qahramonlarini dunyoga namoyon qilishdir.
 baʼzida hatto bir haftagacha loxas boʻlib, qoʻling ishga bormay yurasan.
+beparvo munosabatda bo‘layotgan bo‘lsalar
+berilgan vazifalardan o‘zingni chetga olma!
+bir qator yozilmagan qoidalar majmuasi mavjud.
 birdan yengil tortdi: Madina yoʻq edi.
 birinchi kechasiyoq poʻrsildoq boyladi, ertasi kuni qadam bosishning iloji boʻlmay qoldi.
+biroq rostini aytishing ham yaxshi bo‘lmasa, nima qilish kerak?
 bogʻ-hovlilarning hammasi sotildi, koʻpi shaharliklarning mulkiga aylandi.
 bola onasining tushuntirishlarini eshitmagan
 bolaga muammoni hal qilishning samarali yo‘lini pichirlab, boshqalarga sezdirmay aytib berasiz.
@@ -6084,20 +6258,26 @@ boshi gʻuvillab ogʻrir, lekin haligi alagʻda kayfiyatning tumani biroz tarqag
 boshini quyiroq egdi.
 boshqa mehnat sohasidagi qonunchilik hujjatlarini qo‘llash kerak.
 bu ahvolidan esa yanada oʻngʻaysizlandi.
+bu uning yuziga ayt!
 bunda qonunga to'liq amal qilish talabining o'zi kifoya.
 bundan soʻng Moʻmin aka u bilan ikki dunyoda iliq munosabatda boʻlmaydi.
 chin ko‘ngildan pushaymon bo‘lishi ham jazoni yengillashtiruvchi holatlardan biri hisoblanadi.
 cho‘poning itlari qo‘ylarni himoya qilish maqsadida yovvoyi hayvoni jarohatlab o‘ldirgan.
+chunki sen kulgi eng yaxshi darmon ekanligini yodda tutasan!
 chunki ular jisplashgan, inoq oilada nifoq chiqarmoqda.
 dadang oʻzi yolgʻiz sugʻordi.
 dalada rais va birgadirni hisobga olmasa, birov oyoq kiyim kiymas edi.
 demak ulardan voz kechish kerak.
+doimo mulozamat qiladilar va boshqalarni chaqib beradilar.
+do‘stlaringni sotma: sotqinlikni kechirmaydilar!
 ekologiya va tabiatni asrash haqidagi jiddiyroq va qat’iyroq qoidalarni kiritish vaqti kelmadimikan?
 ellik yoshli opani tarbiyachi qilib oldim.
 eng og‘ir jazo turi tanlangani bo‘ldi.
 erkaklar bogʻdagi uychalarni ijaraga olib gap beradi.
+faqatgina razil odamlar, qo‘rqoqlar va munofiqlar
 gaplashishga tayyor bo‘lgunicha kutib turishingizni aytib qo‘ying va o‘z ishlaringizni qilavering.
 hali bu haqida fikr aytganimiz yo‘q
+hamma ham adashadi.
 hol-ahvol soʻraydi.
 hozir toʻgʻri Madinaning oldiga boradi, suhbatlashadi.
 huquqbuzarga nisbatan yengilroq yoki og‘irroq jazo turi tanlanishi kerak.
@@ -6106,8 +6286,10 @@ intizomsiz va zararli xodimni o‘z tashabbusingizga ko‘ra ishdan bo‘shatish
 ishchi xodim xam norozi, ota ona ham.
 joningni ogʻritib nima qilasan deb oʻylashi mumkin.
 judayam qattiq ovozdan karaxt boʻlib qolgan edi.
+katta kishiga yolg‘on gapirishing mumkin.
 keyin ancha vaqtgacha shuning kuchi bilan yayrab-yashnab yuradi.
 keyinchalik Somoniylar, Qoraxoniylar, Xorazmshohlar, Amir Temur hukmronlik qilgan yirik davlatlar faoliyat ko‘rsatgan.
+kimnidir kamsitayotgan bo‘lsalar, hech qachon jim turish kerak emas.
 kiyinishini nazorat qilsin, cho‘ntak chiqimlari uchun pul topsin.
 koʻksini ogʻir bosib turaverdi.
 koʻz oldini qoplagan tumanli boʻshliqqa maʼnosiz tikilib borar edi.
@@ -6115,6 +6297,7 @@ koʻziga dunyo qorongʻu koʻrinib ketdi.
 ko‘p masalalarga oydinlik kiritdi.
 ko‘pchilik o‘z munosabatini bildirdi.
 lekin Rossiya hududlariga asosan, Polsha orqali kelgan.
+lekin baribir ham sinfda do‘sting yo‘q.
 lekin baribir har qanday holatda ham sud o‘z adolatini yo‘qotmasligi kerak edi.
 lekin bu paytda yoʻlga tangaday ham soya tushmaydi.
 lekin koʻnglida “Ishqilib, ketib qolmasin-da” degan xavotir ham bor edi.
@@ -6126,12 +6309,18 @@ mehnat huquqi va kadrlar bilan ishlash borasida aniq bir tizim yo‘lga qo‘yil
 mensimaslik – o‘spirinning mustaqillikka intilishi bilan bog‘liq jiddiy muammodir.
 millatda ham amaldagi davlat rahbariga qarshi hech qanday nojoiz harakatlar qilinmaydi.
 mobil ilova orqali ham kelishish mumkin.
+mulozamat qilgancha jilmayishiga qarash kishining ko‘nglini aynitadi.
 murojaat va nizolarni o‘rganish hamda hal qilishga ko‘maklashish markazi tashkil etiladi.
 nohaq bo‘lsa ham o‘zini yolg‘iz va e’tibordan chetdadek his qiladi.
+nohaq gap eshitgan sinfdoshingga, cho‘ntagiga puli bo‘lmagan faqirga rahming kelsin.
 o'n besh sutkalik ma’muriy qamoq jazosi qo‘llanildi.
 o'n besh sutkalik muddatga ma’muriy qamoq jazosi berilishi mumkin.
 o'zi tomon kelayotgan qizga koʻzi tushdi.
 o'ziz yozing arizangizni desam o'zi tushunishni istamyapti.
+odamlar sen tomon intiladilar va seni hurmat qiladilar.
+og‘ayningni e’tiborsizligi va parishonxotirligi uchun aybga buyurma.
+olimlarning tadqiqotlari va kashfiyotlarini haqidagi fikrlarim kimgadir yoqdi.
+onasining bolasi battol sinfdoshlari ustidan arz qilishga yuguradi
 onasining koʻngli uchun qatiqdan uch-toʻrt marta hoʻplab qoʻydi.
 oromgohdagi baland keksa tollar koʻzga elas-elas tashlanar edi.
 ota-onalarning asosiy vazifasi –
@@ -6141,6 +6330,9 @@ oʻn daqiqacha salqinladi.
 oʻtoq qilinayotgan pol hali tugamagan, Madina tushdan keyinoq ketib qolgan edi.
 oʻzini erkinroq tutishga urinardi.
 o‘jarlik bilan e’tiborsiz qoldirishda davom etsa, uni xoli qoldiring.
+o‘quvchilarni sinfda onasining bolasi yoki qizi, deb mazax qiladilar.
+o‘zing tushunmayotgandirsan?
+o‘zingniki bilan bo‘lish.
 poyabzaling birpasda qum-tuproqqa toʻladi.
 qiz boʻlsa birgina “yaxshi” degan javobni aytadi.
 qizning koʻngliga oʻtirmaydigan gap aytib qoʻyishdan battar qoʻrqar edi.
@@ -6151,6 +6343,11 @@ shaharliklar kelgan boʻlsa nima, axir hovuzdan koʻpi bormi?
 shu tarbiyachini ustidan yozilgan norozilik bildirishnomasi bor.
 shularga amal qilsak yaxshi bo'lar edi.
 shunday dediyu tilini tishladi, tomogʻi qaqrab, manglayida ter paydo boʻldi.
+shunday emasmi?
+shundayligicha qabul qil. Yaqin dugonangni o‘zgartirishga urinma
+shuning uchun haqiqatni gapirishdan qo‘rqma.
+sinfdoshlaring senga ishonadilar deb o‘ylaysanmi?
+sinfdoshlaringni himoya qilib
 sirtlon ov maqsadida o‘ldirilmagan ekan.
 siz buning uchun ana shu ishdan bo‘shatish yo‘l-yo‘riqlarni bilishingiz shart.
 sizning bu muammoingizga yetib borishiga hali ancha qovun pishig‘i borga o‘xshayati
@@ -6159,11 +6356,14 @@ sudlarimizda ularga nisbatan nafrat va norozilik kayfiyati asta-sekin kuchaymoqd
 sudning qarori haqida adolatsiz va holis bo‘lmagan qaror degan fikrga keldim.
 sudyalarga nisbatan ushbu Qonunda tartibga solinmagan munosabatlarga oid qismida tatbiq etiladi” deyilgan.
 talabaga tanbeh berib, davlatni oilaga o'xshatdi.
+tengdoshlaring yolg‘oningni yaxshi ish deb baholaydilar.
 tungi vaqtda noma’lum yovvoyi hayvon qo‘ylariga hujum qilgan
 u bilan tengdoshdek suhbatlashing va bildirgan e’tirozlarini diqqat bilan tinglang.
+u jazoga loyiq bo‘lgan taqdirda ham
 u o‘z intervyusida qilmishidan pushaymonligi haqida aniq-tiniq aytib turibdi.
 u shunchaki shu yo‘l bilan onasini o‘zi bilan muloqot qildirishga uringan.
 ular hali-beri kunlik qog‘ozlari ishlaridan qutula olmasa kerak.
+undaylar bilan do‘stlashishga ko‘pchilik rozi bo‘lavermaydi.
 unga bu vaqtdan keyin ko‘chada emas, kimningdir uyida mehmon bo‘lishini taklif qiling
 unga nima deysan, koʻzlariga qanday qaraysan, dedi.
 uni boshqa ishchi-xodimlar aybini aytib, muhokama kilishini xohlamiman.
@@ -6172,15 +6372,36 @@ uning nuqtai nazari jiddiy qabul qilinmayotganligiga ishonchini oshiradi.
 uning o‘spirincha haddan oshayotganligiga ishora qilmang.
 uning uzun tasbehidan yurak ramzini yasab, joynamozi ustiga qo‘yib ketardi.
 va alaloqibat parokandalikka olib keladi.
+va turgan joyingni mag‘rur tark etishing kerak.
+va u oʻzi istagan narsani oʻzi istagan narxda sota olmaydi.
+va ular ta’zirlarini yeydilar.
+va yana qandaydir yomon holatlar bo‘lishi ham mumkin.
 vatanga xiyonat bilan tengdir.
 xalqaro shartnoma qoidalari qo‘llaniladi".
 xodimda eng kerakli bo‘lgan pedagogik salohiyat ham yo‘qligi shundoq bilinib turibdi.
 xodimlar bilan mehnat munosabatlarini o‘rnatish uchun albatta mehnat shartnomasi tuzish talabini qo‘yadi.
 yana esidan chiqib ketadi.
+yana, ko‘chadagi kampirsholar g‘iybat, fisqu fasod qiladilar.
 yaqin-yaqingacha mavjud bo‘lgan juda ko‘p bo‘shliqlarning o‘rnini to‘ldirdi
+yaxshi, biroq zarar yetkazish, kaltaklash
+yaxshilik hech kimga xalaqit bermagan.
 ya’ni eng yengil jazodan eng og‘ir jazo tartibida keltirilgan.
+yoki o‘qituvchining stoliga navbatdagi shokoladni sezdirmay qo‘yib keta turib
+yo‘lkirasiga pul berib tur, ruchkasi yoki darsligini uyda unutib qoldirgan bo‘lsa
 yuragini teshib oʻtganday boʻldi.
+zimdan kamsitishni va xafa qilishni yaxshi ko‘radilar.
 Вiqqat bilan eshitadigan tomoshabinlar bor.
 Тadbirkorning dadasi oʻlimidan oldin koʻprik qurib berishga pul vasiyat qilib qoldirgan ekan.
 – Qizishmang, aka, qizishmang, – deb gapga aralashdi qorindor kishi.
+“Gaplashadi” – bu nima uchun o‘g‘irlash yaxshi emasligini tushuntirishga harakat qiladi.
 “Ment” so‘zi aslida vengercha so‘z bo‘lgan.
+“Xalq soʻzi”da chiqqan maqolada bizdanam krutoy aytishniklar, biznesmenlar, katta-katta startaplarni ishga tushirgan
+• Atrofingdagilar bilan to‘g‘riso‘z bo‘l.
+• Fikrlaringni kuniga yigirma martalab o‘zgartirma.
+• His-tuyg‘ularingga erk berma!
+• Hozirjavob va samimiy bo‘l.
+• Jur’atli va dalil bo‘l, qiyin bo‘lsa ham doimo maqsadlarigga erish.
+• Mas’uliyatlilik – ajoyib sifat.
+• Mehribon bo‘l.
+• Senga ishonib aytilgan sirlarni saqla.
+• Yodingda tut

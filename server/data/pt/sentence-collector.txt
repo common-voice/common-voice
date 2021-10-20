@@ -7655,6 +7655,7 @@ Cumaru do Norte
 Cumbe
 Cumprimente os novos convidados e saia rapidamente.
 Cumprindo obrigações na calunga
+Cumprindo parte das ameaças que fizera na quinzena anterior
 Cumprindo uma obrigação no terreiro
 Cumprir as disposições desta Especificação, usando os meios descritos nela ou outros legalmente permitidos.
 Cunha
@@ -8425,6 +8426,7 @@ Discuta e corrija
 Discutindo a legalidade, a legalização e a regulamentação
 Disfunções das glândulas exócrinas que envolvem compromisso com a função policial.
 Disfunções que comprometem a mastigação, a deglutição, a digestão ou a excreção.
+Dispensa ou inexigibilidade de licitação
 Dispensar um trabalhador; isto é o que você vê.
 Dispense com um colete em um dia como este.
 Disponha as cadeiras de maneira uniforme no recinto
@@ -8432,6 +8434,7 @@ Disponibilidade da versão do Windows de sessenta e quatro bits.
 Dispositivos de conduítes exclusivos, incluindo os tipos portáteis ou pinguins, não serão elegíveis.
 Dispositivos de som Bluetooth.
 Disse ao cocheiro que esperasse, e rápido enfiou pelo corredor, e subiu a escada.
+Disse que vai acabar com a minha carreira profissional
 Disse-lhe só que esperasse.
 Disseminada por outro espectro partidário
 Disseram que ele é um corno.
@@ -14021,6 +14024,7 @@ Fez um post no Twitter
 Fez um silêncio desconfortável.
 Fez um vídeo no YouTube
 Fez uma conexão em Viracopos
+Fez uma denunciação caluniosa devido ao acesso ao prontuário
 Fez uma escala técnica em Guarulhos
 Fez-se a prestação de contas
 Fez-se o curativo, e tomaram-se as informações.
@@ -14292,6 +14296,7 @@ Fora do calendário escolar, você receberá apoio de saúde.
 Fora insultado como nunca dantes
 Fora é uma floresta
 Fora!
+Foram anexadas à documentação da reportagem
 Foram tempos de infelicidade.
 Forma de resolução
 Forma: por meio de uma instância que será fornecida a eles nos escritórios municipais.
@@ -17673,6 +17678,7 @@ Mente curta tem uma questão de língua.
 Mente vazia, oficina do diabo
 Mentira tem perna curta e nariz arrebitado
 Mentiroso, hipócrita, salafrário, grosso e rude
+Mentiu no relatório de acesso às credenciais
 Menção específica das regras dos planos de estudo.
 Mercado Comum do Sul
 Mercado ocupado em um país árabe.
@@ -19477,7 +19483,6 @@ Não inveje nada, tente ganhar sozinho.
 Não irei ou tentarei fazer uma "síntese" das idéias que os autores desenvolvem.
 Não jogue o bebê para fora com a água do banho.
 Não julgue um livro pela capa
-Não lei as sentenças escritas incorretamente, reporte-as usando o botão "relatar"
 Não machuque meu braço dolorido novamente.
 Não machuque meu dedo novamente.
 Não mais crânios de gado foram ouvidos.
@@ -21134,6 +21139,7 @@ O honorável conselheiro tem a palavra.
 O horizonte estava tingido de vermelho? e de repente o sol apareceu.
 O horário escolar não terminará antes de dezesseis horas.
 O hospital está lotado e precisa de mais bombas de oxigênio
+O hospital fraudou a declaração de óbito a mando do médico plantonista
 O hotel sorriu.
 O humor cômico.
 O humor dos dois lados não é muito bom
@@ -28585,6 +28591,7 @@ Suspenso, enquanto dura a situação de suspensão de funções.
 Suspensão ou advertência?
 Sussuapara
 Sussurrando para minha mãe
+Sustentando a desinformação de que existe tratamento precoce para coronavírus
 Suzana, Evandro, David, Vitória e Artur
 Suzano
 Suzanápolis
@@ -29368,6 +29375,7 @@ Tenista está servindo a bola.
 Tens gana?
 Tensão institucional preocupa mercado financeiro
 Tentando melhorar o mundo pulando para cima e para baixo.
+Tentativa de silenciamento com a imprensa
 Tentativa de zerar e neutralizar as emissões de carbono
 Tente consertar essa fissura com cola.
 Tente conter a sua ira

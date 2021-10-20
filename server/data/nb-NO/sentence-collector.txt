@@ -147,6 +147,7 @@ Broren min har bodd i London i mange år.
 Broren min spiller gitar.
 Bruk litt tid på å bruke litt mindre tid.
 Bruker du narkotika?
+Brussel
 Brød.
 Brøddeigen vi lagde i heimkunnskap endte opp som trolldeig.
 Brødet.
@@ -162,6 +163,7 @@ Bygningen har flyttet seg framover og noe mot øst.
 Både gutt og fiske er godt skildret.
 Bøkene hennes er oversatt til flere europeiske språk.
 Chat med vennene dine.
+D R A M A T I K K
 Da aner jeg ikke hvor problemet kan ligge.
 Da de kom til fiskeplassen, ble det uvær.
 Da er det ikke rom for konkurranse eller mobbing basert på klærstil.
@@ -210,8 +212,10 @@ De færreste elefanter ville frivillig flyttet til Europa.
 De følger ikke etter meg.
 De giftet seg.
 De gikk rundt hjørnet.
+De gikk rundt.
 De gjorde så godt de kunne.
 De hadde flere barn.
+De hadde ikke kommet veldig langt da de møtte en gammel mann.
 De har bodd her i lang tid.
 De har kjøtt.
 De har pause for øyeblikket.
@@ -314,6 +318,7 @@ Denne boken duger.
 Denne boksen er full av epler.
 Denne brosjyren er gratis.
 Denne byen er kald og ensom uten deg.
+Denne byen har økt i befolkning år etter år.
 Denne dressen ser dyr ut.
 Denne dyrearten er dessverre utryddet.
 Denne fonetiske labyrinten
@@ -468,6 +473,7 @@ Det er mulig jeg må fjerne mandlene mine.
 Det er mye å lære av historien.
 Det er nesten ikke melk i glasset.
 Det er noe galt med denne maskinen.
+Det er noe mystisk ved ham.
 Det er nok for nå.
 Det er nok!
 Det er omtrent tre kilometer opp i veien.
@@ -1132,6 +1138,7 @@ Grace, Jeg liker våre små samtaler
 Grace? Dette er Jake Sully
 Gratistelefonen kan selvfølgelig være et alternativ på lokalsamtalene.
 Gribbe spiser åtsel.
+Grimstad
 Grimstad er en koselig liten sørlandsby
 Gruppen oppløste seg.
 Grønt kler deg veldig godt.
@@ -1680,6 +1687,7 @@ Hunden sprang etter en rev.
 Hunden var i ei eske under bordet.
 Hunden vår graver ned beinene sine i hagen.
 Hunden åt ikke kjøttet.
+Hundvåg
 Hunnkatten spiser.
 Huset med det ødelagte taket er blitt reparert.
 Huset mitt er nær Tokyo-tårnet.
@@ -3269,6 +3277,7 @@ Med all den prosessorkrafta kan du nesten simulere fremtiden!
 Med god hjelp av søster, mor og tante når aktiviteten er størst.
 Med mye humor og skjult sosial kritikk gjengav disse bildene scener fra dagliglivet.
 Megleren sa jeg burde rive veggen, men jeg er for gammel til sånt arbeid.
+Melbu
 Meld fra om feil på nettsiden
 Melk holder seg ikke lenge når det er varmt.
 Men arbeidet er ferdig.
@@ -3318,6 +3327,7 @@ Måtte Tom også gjøre det?
 Måtte kraften være med deg.
 Mørke er fravær av lys.
 Mørkets kjerne er en hemmelighet ingen tør nevne navn på.
+N I C O L I N E
 Naboen min har renovert huset sitt fullstendig.
 Nancy hadde aldri sett en kjempepanda.
 Nancy vil ha et par røde sko.
@@ -3367,6 +3377,7 @@ Nyheten er ennå ikke bekreftet av uavhengige kilder.
 Nå og da studerer jeg esperanto.
 Nå venter de to medlemmene på avisenes anmeldelser.
 Når da?
+Når du er atten år gammel er du voksen i de Forente Stater.
 Når er bryllupet?
 Når er du født?
 Når er treningen på onsdag?
@@ -3398,6 +3409,7 @@ Også tyve arbeidere og politimenn ble skadet i sammenstøtene den dagen.
 Oi!
 Oksen er kuaens han.
 Oktober
+Oldedalen
 Om bare legen hadde kommet litt fortere.
 Om bare noen hadde spiker til overs, for jeg har gått tom.
 Om det var noen som skulle ha sett det, så var det Omfred.
@@ -3497,6 +3509,8 @@ Rubén er faren til tre barn.
 Runar Frantzen
 Rødvin passer bra til kjøtt.
 Røyker du?
+S K Y T I N G
+S U N D A L
 Sakuras måte å snakke på går meg på nervene.
 Sami hadde holdt Layla fange I leiligheten hennes.
 Sami sendte en e-post til sjefen.
@@ -3507,6 +3521,7 @@ Sammenlign oversettelsen deres med oversettelsen på tavlen.
 Sammenlignet med tigre er bjørner snille dyr.
 Sannheten kom endelig ut ved rettssaken hans.
 Sannsynligvis blir det butikkjobb istedenfor det planlagte universitetsfaget.
+Santo Domingo
 Se de store linjene i landskapet.
 Se om det er juice i kjøleskapet.
 Se opp tøffing
@@ -3613,6 +3628,7 @@ Snakker du fortsatt med Tom?
 Snakker du italiensk?
 Snakker du kinesisk?
 Snøen fortsatte å falle i fire dager.
+So langt har vi nytt turen vår veldig mye.
 Sola er ikke gul om kvelden. Den er oransje.
 Som far, så sønn.
 Som leder for sikkerhetsavdelingen, er det min jobb å holde dere i live
@@ -3642,6 +3658,7 @@ Stemmer det ikke?
 Stian Solbakken
 Stjernene begynte å komme frem på himmelen.
 Stolen er ødelagt. Du bør få noen til å reparere den.
+Storforshei
 Stormen gjorde stor skade på avlingen.
 Stormen gjorde stor skade på eiendomen hennes.
 Strengt tatt er tomat en frukt.
@@ -3683,6 +3700,7 @@ Sønnen min ble nettopp ferdig med mastergraden sin.
 Sørg bare for at det ikke skjer igjen.
 Søsteren hans og jeg vil nok bli gode venner.
 Søsteren min bor i nærheten av Yokohama.
+T U R N E R I N G E N
 Ta av deg maska.
 Ta deg en dusj.
 Ta den du liker best, samme hvilken det er.
@@ -4107,6 +4125,7 @@ Vi møtes om én uke.
 Vi nøt å se kampen.
 Vi overnattet i Hakone.
 Vi overrakte ham en klokke.
+Vi sa vi burde vinne.
 Vi samles her en gang i uken.
 Vi sees!
 Vi ser fortsatt dette problemet i moderne skoler.
@@ -4191,6 +4210,7 @@ Vær stille!
 Vær så snill å forlat rommet.
 Vær så snill å gi meg noe å spise.
 Vær så snill å kjøp meg noe å spise.
+Været er i ferd med å bli kjøligere.
 Været var flott.
 Værmeldingen tok grunding feil.
 Værsågod.
@@ -4199,17 +4219,56 @@ Yumi kommer til å bli en lærer.
 Zamenhof, skaperen av det konstruerte språket esperanto, var en øyelege.
 Zhu Lis svik var en stor overraskelse for Varrick.
 alle barna gikk på skolen
+begivenhetsrik
+doktorarbeidet
 du er framme
 du har ansvaret
 du vil kjenne deg svak
+en tre sju seks åttifem sju hundre og nittiseks
+femten tusen to hundre og sytti
+femti tusen ni hundre og åttifem
+femtifire tusen to hundre og trettifem
+førti tusen ett hundre og åttiåtte
+førtiåtte tusen ett hundre og trettito
+høyre
+iøynefallende
 kall tilbake
+kokende
+kunst
+kvikke
 medlemskap i fagforeninger
 mora mi får sterke medisiner
+nittiseks tusen tre hundre og femtitre
+normal
+oljeterminalen
+oljetrykk
+opprinnelige
+plastposen
+reguler
+rådføre
 se til venstre først
+seks fire to fem nitten sju hundre og nittisju
+sekstifem tusen tre hundre og sekstifem
+sekstifire tusen ni hundre og en
+sekstiseks tusen ni hundre og tjuefem
 seksuelle forhold
+siste
+sju fire seks sju tolv seks hundre og åttiåtte
 skinnegangen var blokkert
 sola står opp i øst
+syttisju tusen sju hundre og åttini
+søndag
 ta til høyre i neste sving
+tiden
+tjue tusen sju hundre og atten
+tjueto tusen tre hundre og femtien
+to tusen tre hundre og nitten
+tre to åtte seks sekstitre åtte hundre og femtifire
+trettifem tusen ett hundre og tjueåtte
+trettiåtte tusen ni hundre og sytti
+utplassering
+valgallianse
+veibeskrivelse
 «Hold kjeft, alle sammen!», sa han.
 «Hvem er det?» «Det er din mor.»
 «Jeg kan ikke tape,» svarte Djevelen. «Alle dommerne er her nede i Helvete.»
@@ -4237,3 +4296,4 @@ ta til høyre i neste sving
 Ønsket ditt vil gå i oppfyllelse i nær framtid.
 Ønsket hans ble endelig oppfylt.
 Øya ligger vest for Japan.
+åttiåtte tusen sju hundre og nittiseks
