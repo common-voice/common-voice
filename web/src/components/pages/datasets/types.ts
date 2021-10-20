@@ -2,6 +2,7 @@ import { UserClient } from 'common';
 import API from '../../../services/api';
 import { Notifications } from '../../../stores/notifications';
 import StateTree from '../../../stores/tree';
+import {WithLocalizationProps} from "@fluent/react";
 
 //Datasets-info interfaces
 export interface DatasetPropsFromState {
@@ -9,7 +10,7 @@ export interface DatasetPropsFromState {
 }
 
 export interface CorpusProps extends DatasetPropsFromState {
-  getString: Function;
+  getString: WithLocalizationProps['getString'];
   releaseName: string;
 }
 
