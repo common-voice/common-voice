@@ -150,6 +150,7 @@ ta = Tamil
 te = Telugu
 tg = Tádzsik
 th = Thai
+ti = Tigrinya
 tl = Tagalog
 tr = Török
 tt = Tatár
