@@ -127,6 +127,7 @@ pap-AW = 帕皮亚门托语（阿鲁巴）
 pl = 波兰语
 ps = 普什图语
 pt = 葡萄牙语
+quc = 基切语
 rm-sursilv = 罗曼什语（苏斯勒万）
 rm-vallader = 罗曼什瓦勒德语
 ro = 罗马尼亚语
