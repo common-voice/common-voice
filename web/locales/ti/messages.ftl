@@ -180,6 +180,11 @@ zh-TW = ቻይኒዝ (ታይዋን)
 
 speak = ተዛረብ
 speak-now = ሕጂ ተዛረብ
+datasets = ሓበሬታታት
+languages = ቃንቃታት
+about = ብዛዕባ
+profile = ቅርጺ
+help = ሓገዝ
 cookies = ኩክይስ
 content-license-text = ኣብ ትሕቲ <licenseLink>ክሪኤቲቭ ሓባራዊ ፍቓድ ዚርከብ ትሕዝቶ</licenseLink>
 share-title = ድምጾም ዚውፍዩ ኻልኦት ሰባት ክንረክብ ሓግዘና!
