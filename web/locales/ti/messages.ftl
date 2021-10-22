@@ -233,6 +233,14 @@ listen-subtitle = ድምጺ ኸነረጋግጽ ሓግዘና
 listen-paragraph = እተወፈየ ክሊፕታት ምርግጋጽ እውን ንተልእኾ ሓባራዊ ድምጺ ብማዕረ ኣገዳስነት ኣለዎ። ጽን ኢልካ ስምዓዮ ብሉጽ ምንጪ ድምጺ ንኽንሰርሕ ድማ ሓግዘና።
 listen-goal-text = ዝተራጋገጸ ክሊፓት
 hours-recorded = ዝተቐድሑ ሰዓታት
+hours-validated = ዝተረጋገጹ ሰዓታት
+voices-online = ሕጂ ኣብ መስመር ዘለዉ ድምጽታት
+todays-progress = ናይ ሎሚ ግስጋሰ
+help-reach-goal = ናብ { $goal } ንኽንበጽሕ ሓግዘና ።
+read-terms-q = ቃላት ዉዕልና ኣንቢብካዮ'ዶ ?
+ready-to-record = ንኽትዉፊ ዱልው ዲኻ?
+all-locales = ኩሉ
+today = ሎሚ
 
 ## Account Benefits
 
