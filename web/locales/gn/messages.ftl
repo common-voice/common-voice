@@ -591,6 +591,7 @@ subscribe = Mboheraguapy
 get-started-speech = Eñepyrũ ko árape ayvu jeikuaa
 other-datasets = Ambue mba’ekuaara ayvugua rupa
 feedback-q = ¿Eñe’ẽsépa?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ha’e <docsLink>tembipuru aty ijayvu jurujáva</docsLink> mba’erekaha omboguatáva IA ñomongetarã ipyahuetéva.
 community-playbook = Tekoha Ñembosarái
 data-other-librispeech-description = LibriSpeech-niko peteĩ ñe’ẽryapuryru oguerekóva 1000 aravo rupi 16Khz ñe’ẽjoaju ryapu ñongatupyre inglés-pe oúva aponde’aguasu LibriVox arandukarendúvagui.
 data-other-ted-name = TED-LIUM Ñe’ẽryapu Ryru
@@ -945,6 +946,7 @@ demo-dashboard-card-body = Mayma ñe’ẽjoaju ñembohyapupyre ha oñemoneĩmav
 
 ## Validation criteria
 
+contribution-criteria-nav = Ñe’ẽte
 contribution-criteria-link = Eikumby mba’éichapa eipytyvõta
 contribution-for-example = Techapyrãrõ
 contribution-misreadings-title = Moñe’ẽ vai
