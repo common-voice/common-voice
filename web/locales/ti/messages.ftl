@@ -241,9 +241,29 @@ read-terms-q = ቃላት ዉዕልና ኣንቢብካዮ'ዶ ?
 ready-to-record = ንኽትዉፊ ዱልው ዲኻ?
 all-locales = ኩሉ
 today = ሎሚ
+x-weeks-short =
+    { $count ->
+        [one] ሰሙን
+       *[other] { $count }ሰሙናት
+    }
+x-months-short =
+    { $count ->
+        [one] ወርሒ
+       *[other] { $count }ወርሒ
+    }
+x-years-short =
+    { $count ->
+        [one] ዓመት
+       *[other] ዓመታት
+    }
+help-make-dataset = ብሉጽን ኣብ ቅድሚ ህዝቢ ኽፉት ዝዀነን ሓበሬታ ንኽንሰርሕ ሓግዘና
+sign-up-account = ንሕሳብ ምኽፋት ተመዝገብ
+email-subscription-title = ን ኢ-መይል  ተመዝገብ
+email-subscription-title-new = ሓባራዊ ጋዜጣታት ድምጺ መዘኻኸሪታት ሸቶ ከምኡውን እዋናዊ ምዕባለ ንምርካብ ክታም ኣእቱ
 
 ## Account Benefits
 
+benefits = ረብሓታት
 
 ## What's public
 
