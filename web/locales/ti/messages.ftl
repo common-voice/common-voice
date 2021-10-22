@@ -225,6 +225,14 @@ help-us-explain = ፕለይ ጸቂትካ ስሚዕካ ንገረና: ነቲ ኣ�
 no-clips-to-validate = በዚ ቛንቋ እዚ ኽትሰምዖ ዜኽእለካ ክሊፕ ዘየለ እዩ ዚመስል። ሕጂ ንገሊኡ ብምምዝጋብ ነቲ መስርዕ ንኽንመልኦ ሓግዘና።
 vote-yes = እወ
 vote-no = ኣይፋል
+toggle-play-tooltip = ጽቅጥ { shortcut-play-toggle } ናብ ፕለይ ጽወታ
+speak-subtitle = ድምጺኻ/ኺ ኣወፊ
+speak-paragraph = ክሊፕታት ድምጺ ምቕዳሕ ዘይንጸል ክፍሊ ናይቲ ኽፉት ሓበሬታና ምህናጽ ኢዩ፣ ገሊኣቶም እዚ እውን ባህ ዘብል ኢዩ ይብሉ ።
+speak-goal-text = እተቐድሐ ክሊፕታት
+listen-subtitle = ድምጺ ኸነረጋግጽ ሓግዘና
+listen-paragraph = እተወፈየ ክሊፕታት ምርግጋጽ እውን ንተልእኾ ሓባራዊ ድምጺ ብማዕረ ኣገዳስነት ኣለዎ። ጽን ኢልካ ስምዓዮ ብሉጽ ምንጪ ድምጺ ንኽንሰርሕ ድማ ሓግዘና።
+listen-goal-text = ዝተራጋገጸ ክሊፓት
+hours-recorded = ዝተቐድሑ ሰዓታት
 
 ## Account Benefits
 
