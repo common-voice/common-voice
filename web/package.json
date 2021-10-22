@@ -26,7 +26,7 @@
     "lodash.pick": "^4.4.0",
     "lodash.throttle": "^4.1.1",
     "promise-decode-audio-data": "^0.4.1",
-    "react": "^16.12.0",
+    "react": "^17.0.2",
     "react-balance-text": "^2.0.1",
     "react-content-loader": "^4.2.1",
     "react-dom": "^16.12.0",
