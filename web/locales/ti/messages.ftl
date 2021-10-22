@@ -130,13 +130,56 @@ pt = ፖርቱጊስ
 quc = ኪቸ
 rm-sursilv = ሮማንሽ ሱርሲቫን
 rm-vallader = ሮማኒሽ ቫልደር
+ro = ሮማንያን
+ru = ራሻ
+rw = ኪንያርዋንዳ
+sah = ሳኻ
+sat = ሳንታሊ (ኦሊ ቺክ)
+sc = ሳርዲንያን
+scn = ቺቺልያን
+shi = ሺላህ
+si = ሲናላ
+sk = ስሎቫክ
+sl = ስሎቬንያ
+so = ሶማሊ
+sq = ኣልባንያን
+sr = ሰርብያን
+sv-SE = ሽወደን
+sw = ስዋሂሊ
+syr = ሲይሪክ
+ta = ታሚል
+te = ተሉጉ
+tg = ታጂክ
+th = ታይ
 ti = ትግርኛ
+tl = ታጋሎግ
+tr = ተርክሽ
+tt = ታታር
+tw = ችዊ
+ty = ታሂቲያን
+uby = ዑብይክ
+udm = ኡድሙርት
+ug = ኡግሁር
+uk = ዩክረንያን
+ur = ኡርዱ
+uz = ዑዝበክ
+vec = ቨነሽያን
+vi = ቬትናሚስ
+vot = ቮቲክ
+yi = ዪዲሽ
+yo = ዮሩባ
+yue = ካንቶነሰ
+zh-CN = ቻይኒዝ
+zh-HK = ቻይኒዝ (ሆንግ ኮንግ)
+zh-TW = ቻይኒዝ (ታይዋን)
 
 # [/]
 
 
 ## Layout
 
+speak = ተዛረብ
+speak-now = ሕጂ ተዛረብ
 cookies = ኩክይስ
 content-license-text = ኣብ ትሕቲ <licenseLink>ክሪኤቲቭ ሓባራዊ ፍቓድ ዚርከብ ትሕዝቶ</licenseLink>
 share-title = ድምጾም ዚውፍዩ ኻልኦት ሰባት ክንረክብ ሓግዘና!
