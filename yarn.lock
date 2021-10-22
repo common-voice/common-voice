@@ -829,6 +829,11 @@
   resolved "https://registry.yarnpkg.com/@fluent/sequence/-/sequence-0.5.0.tgz#6349b614711df2d8ed256598fa31a757fe032539"
   integrity sha512-70LhnbPO/sO2rI2vHws66QwKq9a7PKiEN0hrc65xY3LzWq3AlATZnt+EmFG1ihmPI+5mqGPnJMAdpp3qze3X2Q==
 
+"@fluent/syntax@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@fluent/syntax/-/syntax-0.18.0.tgz#5204b4bb65e9446f257b33a90e16016fa077c963"
+  integrity sha512-9UTl7hpZMoCxlJht5C1ZU6SsisPwXmu00c9EzHbWhNOKQGMALpNYe79PGFMFV6eg3Eu/dtTOnAoAuIYEUIVWug==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.0.0.tgz#10602de5570baea82f8afbfa2630b24e7a8cfe5b"
@@ -4470,11 +4475,6 @@ fluent-intl-polyfill@^0.1.0:
   integrity sha1-ETOUSrJHeINHOZVZaIPg05z4hc8=
   dependencies:
     intl-pluralrules projectfluent/IntlPluralRules#module
-
-fluent-syntax@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/fluent-syntax/-/fluent-syntax-0.14.0.tgz#d332a67eb3c0a3cdd3d07ee097c89e1c0b95bb84"
-  integrity sha512-+k8uXWfRpSrE33764RbpjIKMzIX6R9EnSjFBgaA1s0Mboc3KnW9sYe0c6vjIoZQY1C4Gst1VFvAOP6YGJjTJuA==
 
 flush-write-stream@^1.0.2:
   version "1.1.1"
