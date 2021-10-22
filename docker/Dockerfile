@@ -1,4 +1,4 @@
-FROM node:10-stretch
+FROM node:12-stretch
 
 ARG MAINTAINER="Alberto del Barrio <alberto@mozilla.com>"
 ARG COMMIT="local-build"
