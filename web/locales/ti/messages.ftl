@@ -446,39 +446,97 @@ email-to-download = ንኸተውርድ ኢመይልካ ኣእቱ
 download-language = { $language } ኣውርድ
 validated-hours = ቅቡል ሰዓታት
 recorded-hours = ናይ ቀረጻ ሰዓታት
+subscribe = ተመዝገብ
+feedback-q = ርእይቶ ኣሎካ ድዩ?
+go-discourse = ናብ ዲስኮርስ ኪድ
+go-languages-page = ናብ ናይ ቛንቛታት ገጽ ኪድ
+more = ዝያዳ
+close = ዕጾ
+download = ኣውርድ
+dataset-version = ሕታም
 
 ## Download Modal
 
+download-title = ምቅራድ ጀሚሩ ኣሎ
+download-form-email =
+    .label = ኢመይልካ ኣእቱ
+    .value = የቐንየልና፡ ኣብ ቀረባ ግዜ ክንረኽበካ ኢና።
+download-no = ይትረፈኒ ከየመስገንኩኹም ግን ክሓልፍ ኣይደልን።
 
 ## Contact Modal
 
+contact-title = መወከሲ ቅጺ
+contact-form-name =
+    .label = ሽም
+contact-form-message =
+    .label = መልእኽቲ
+contact-required = *ግዴታ
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = ቛንቛ
+select-language = ቛንቛ ምረጽ...
+other-language = ካልእ ቛንቛ
 
 ## Languages Overview
 
+language-section-in-progress = ኣብ ገስጋስ
+language-section-launched = ተኸፊቱ ኣሎ
+languages-show-more = ዝያዳ ተመልከት
+languages-show-less = ዝሓጸረ ተመልከት
+language-meter-in-progress = ገስጋስ
+language-total-progress = ጠቕላላ
+language-search-input =
+    .placeholder = ድለይ
+language-speakers = ተዛረብቲ
+sentences = ምሉእ ሓሳባት
 
 ## Contribution
 
+action-click = ጠውቕ
+action-tap = ጠውቕ
+contribute = ኣበርክት
+listen = ስማዕ
+skip = ስገር
+record-cta = ምቕራጽ ጀምር
 
 ## Reporting
 
+report-other-comment =
+    .placeholder = ርእይቶ
+success = ዕዉት
+continue = ቀጽል
 
 ## Goals
 
 
 ## Dashboard
 
+you = ንስኻ
+everyone = ነፍሲ ወከፍ
 
 ## Custom Goals
 
+both-speak-and-listen = ክልቲኡ
+easy-difficulty = ቀሊል
+average-difficulty = ማእከላይ
+difficult-difficulty = ከቢድ
+goal-interval-weekly = ደሙናዊ
+share-goal-type-speak = ምዝራብ
+share-goal-type-listen = ምስማዕ
+share-goal-type-both = ምዝራብን ምስማዕን
 
 ## Profile Delete
 
+keep = ኣጽንሕ
+remove = እለይ
 
 ## Profile Download
 
+download-size = ዓቐን
+download-selected = ዝተመርጸ
+download-request-button = ኣውርድ
 
 ## Landing
 
@@ -488,6 +546,8 @@ recorded-hours = ናይ ቀረጻ ሰዓታት
 
 ## Demo Datasets
 
+card-button-next = ቀጽል
+card-button-back = ተመለስ
 
 ## Demo Account
 
@@ -500,3 +560,4 @@ recorded-hours = ናይ ቀረጻ ሰዓታት
 
 ## Validation criteria
 
+contribution-for-example = ንኣብነት
