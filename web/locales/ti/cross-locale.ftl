@@ -2,17 +2,15 @@
 
 contribute = ኣበርክት
 get-involved-button = ተሳተፍ
-get-involved-title = ኣበርክት ናብ
-get-involved-text =
-    ኣብ { $lang } ኣበርክቶ ኽትገብሩ ስለ ዝገበርኩም ነመስግነኩም ። ንነፍሲ ወከፍ ቋንቋ ንምጅማርን ንምዕቃብን ኣበርቲዕና ንዓዪ ኢና 
-    እተን ጕጅለታት ብኢ-መይል ኣቢለን እዋናዊ ሓበሬታ ከመሓላለፋ እየን። ወፈያ ኽትገብር እንተ ደሊኻ  ብኽብረትካ ኢ-መይልካ ኣብ ታሕቲ ሃብ።
-get-involved-form-title = ነቲ { $lang } ዚብሃል እዋናዊ ሓበሬታ ንምርካብ ክታም ኣእቱ ፦
+get-involved-title = ናብ { $lang } ኣበርክት
+get-involved-text = ኣብ { $lang } ኣበርክቶ ኽትገብሩ ስለ ዘርሓኹሞ ተገደስነት ነመስግን። ኩሉ ቛንቛታት ንኽኣቱ ኣበርቲዕና ንዓዪ ኢና። ነተን ጕጅለታት ድማ ብኢመይል እዋናዊ ሓበሬታ በብእዋኑ ነመሓላልፈለን ኢና። ክትሕግዝ እንተ ደሊኻ፡ ብኽብረትካ ኢመይልካ ኣብ ታሕቲ ሃብ።
+get-involved-form-title = ናይ { $lang } እዋናዊ ሓበሬታ ንምርካብ ተመዝገብ፦
 get-involved-email =
     .label = ኢመይል
-get-involved-opt-in = እወ ኢ-መይል ስደደለይ። ብዛዕባ ዕቤት እዚ ቛንቋ እዚ ኣብ ሓባራዊ ድምጺ ኽሕብሮ እደሊ እየ።
-get-involved-submit = ኣቕርብ
-get-involved-stayintouch = ኣብ ሞዚላ ኣብ ከባቢ ተክኖሎጂ ድምጺ ማሕበረሰብ ንሃንጽ ኣሎና ። ምስ ምትዕርራያት ንሓድሽ ምንጭታት ሓበሬታ ከምኡውን ነዚ ሓበሬታ እዚ ብኸመይ ከም እትጥቀመሉ ዝያዳ ኽንሰምዕ ንደሊ ኢና።
-get-involved-privacy-info = ሓበሬታኻ ብጥንቃቐ ኸም እንሕዞ ንማባጻዕ ። ኣብታ <privacyLink>ናይ  ምስጢርነት ምልክታ</privacyLink> ዘሕለፋ ዝያዳ ኣንብብ።
-get-involved-success-title = ን { $language } ኣበርክቶ ንምግባር ብዕዉት መገዲ ተመዝጊብካ ኢኻ ። የቐንየለይ.
-get-involved-success-text = ዝያዳ ሓበሬታ እናረኸብና ብዝኸድና መጠን ክንራኸብ ኢና ።
-get-involved-return-to-languages = ናብ ቓንቃታት ተመለስ
+get-involved-opt-in = እወ፡ ኢመይል ስደዱለይ። ሓበሬታ ብዛዕባ ዕቤት እዚ ቛንቛ እዚ ኣብ "ኮመን ቮይስ" በብእዋኑ ክትሰዱለይ ይደሊ እየ።
+get-involved-submit = ኣረክብ
+get-involved-stayintouch = ንሕና ኣብ ሞዚላ ዘሎና ሰራሕተኛታት፡ ኣብ ናይ ድምጺ ተክኖሎጂ ማሕበረኮማት ንሰርዕ ኣሎና። ብዛዕባ ሓደስቲ ምዕባለታት፡ ሐደስቲ ምንጪ ናይ ሓበሬታን ኣገባብ ኣጠቓቕማኹምን ንምስማዕ ምሳኹም ቀጻሊ ርክብ ክህልወና ንደሊ ኢና።
+get-involved-privacy-info = ሓበሬታኹም ብጥንቃቐ ከም ንሕዞ ቃል ንኣትወልኩም። ዝያድ ንምንባብ ኣብታ <privacyLink>ናይ ምስጢርነት ምልክታ</privacyLink> ተወከሱ።
+get-involved-success-title = ን { $language } ከተበርክት ተመዝጊብካ ኣሎኻ። የቐንየለይ.
+get-involved-success-text = ዝያዳ ሓበሬታ ምስረኸብና ክንሕብረኩም ኢና።
+get-involved-return-to-languages = ናብ ቛንቛታት ተመለስ

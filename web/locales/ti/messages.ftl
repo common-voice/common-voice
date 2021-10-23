@@ -293,6 +293,7 @@ shortcut-play-toggle-label = ቀጽል/ኣቛርጽ
 shortcut-record-toggle-label = ቅረጽ/ኣቛርጽ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ደጊምካ ቅረጽ
+shortcut-submit = ተመለስ
 shortcut-submit-label = ቀረጻታት ኣረክብ
 request-language-text = ቛንቛኻ ኣብ "ኮመን ቮይስ" ኣይኣተወን ድዩ?
 request-language-text-learn = ብኸመይ ከም ትጠልቦ ኣብዚ ተወከስ!
@@ -356,6 +357,8 @@ email-subscriptions = ናይ ኢመይል መዝገብ
 download-profile = ናይ ውልቕካ ሐበሬታ ኣውርድ
 contribution-experience = ናይ ኣበርክቶ ተመክሮ
 skip-submission-feedback = ርኢቶ ምሃብ ስገሮ
+off = ጠፊኡ
+on = ተወሉዑ
 
 ## Profile - Email
 
@@ -390,6 +393,7 @@ faq-why-different-speakers-a =
 faq-why-my-lang-q = ቋንቋይ ክሳዕ ሕጂ ስለምንታይ እዩ  ዘይተጠቓለለ ?
 faq-why-my-lang-new-a = ሞዚላ ንሓደ ቛንቋ ኻብ ካልእ ቋንቋ ኣይትመርጾን ወይ ኣይተዳሉን እያ። ኣብ ክንድኡስ ሓባራዊ ድምጺ ብማሕበረሰብ ዝምራሕ ተበግሶ ኢዩ እንተዀነ ግን ሓድሽ ቋንቋ ንምውሳኽን ናይ ድምጺ ወፈያታት ንምእካብን <multilangLink>እተወሰነ ስጕምትታት </multilangLink> ዝወስድ። ቀዳማይ ኣባላት ማሕበረሰብ ነቲ ኣበርክቶ ዝገበረ ተመክሮ ብቛንቋኦም ምእንቲ ኺረኽብዎ ወብ ሳይት ሓባራዊ ድምጺ ኺትርጐም ኣለዎ። ድሕርዚ ሰባት ዓው ኢሎም ምእንቲ ኼንብቡ መሰል ዋና ዘይብሉ ብዙሕ ምሉእ ሓሳባት የድልየና። እዚ ኽልቲኡ ብቕዓታት እዚ ሓንሳእ ምስ ተፈጸመ ሰባት ድምጾም ኪምዝግቡን ንኻልኦት ወፈያታት ኬረጋግጹን ምእንቲ ኺጅምሩ ሓደ ቛንቋ ኣብ ሓባራዊ ድምጺ ይጅመር። ሓድሽ ቋንቋ ኣብ ምጅማር ክትሕግዝ እንተ ደሊኻ ናብታ <sentenceCollectorLink>ንምእካብ እትሕግዘና </sentenceCollectorLink> ንዋት ኣተኩር።
 faq-what-quality-q = ክሊፕ ድምጺ ኣብቲ ሓበሬታ ንምጥቃም እንታይ ዓይነት ኣውድዮ እዩ ዜድሊ?
+faq-where-src-from-2-q = እዚ ዝትርጎም ጽሑፋት ካበይ እዩ ዝመጽእ?
 faq-why-account-q = ንምንታይ ኣካውንት ምምዝጋብ የድልየኒ?
 faq-is-account-public-q = ናይ ኣካውንተይ ሓበሬታ ንኹሉ ክፉት ድዩ?
 
@@ -402,6 +406,7 @@ about-listen = ስማዕ
 about-is-it-valid = እዛ ቀረጻ እዚእ ቅንዕቲ ድያ?
 about-nav-why-common-voice = ንምንታይ?
 about-nav-how-it-works = ብኸመይ?
+about-nav-get-involved = ተሳተፍ
 mycroft-subtitle = ሰብ ዝሰርሖ ብልሒ
 
 ## Glossary
@@ -423,6 +428,7 @@ data-download-deny = ኣይፋል
 data-other-goto = ናብ { $name } ኪድ
 data-other-download = ሓበሬታ ኣውርድ
 release-version = ሕታም
+dataset-date = ዕለት
 license-mixed = በብዓይነቱ
 terms-agree = ይሰማማዕ እየ።
 terms-disagree = ኣይሰማማዕን እየ።
@@ -503,6 +509,8 @@ record-cta = ምቕራጽ ጀምር
 
 ## Reporting
 
+report = ሓበሬታ
+report-title = ሓበሬታ ሃብ
 report-other-comment =
     .placeholder = ርእይቶ
 success = ዕዉት
@@ -510,6 +518,11 @@ continue = ቀጽል
 
 ## Goals
 
+days =
+    { $count ->
+        [one] መዓልቲ
+       *[other] መዓልታት
+    }
 
 ## Dashboard
 
@@ -560,4 +573,5 @@ card-button-back = ተመለስ
 
 ## Validation criteria
 
+contribution-criteria-nav = ረቛሒታት
 contribution-for-example = ንኣብነት
