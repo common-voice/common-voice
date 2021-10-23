@@ -266,33 +266,116 @@ email-subscription-title-new = ሓባራዊ ጋዜጣታት ድምጺ መዘኻ�
 benefits = ረብሓታት
 improve-audio = ሓበሬታ ፕሮፌሰር ነቲ ንልክዕነት ኣፍልጦ ዘረባ ንምልላይ ዚሕግዝ ሓበሬታ ኣውድዮ የመሓይሾ እዩ።
 keep-track = ነቲ ኣብ እተፈላለየ ቛንቋታት ዝገበርካዮ ዕቤትን መለክዒታትን ኣረኣእዮ።
+compare-progress = ኣበርክቶኻ ምስ ኣብ ምሉእ ዓለም ዘለው ከመይ ይነጻጸር ተመልከት።
+view-goals = ኣበርክቶኻ ምስ ናይ ውልቅኻን ናይ ጉጅለኻን ዕላማታት ከመይ ይነጻጸር ተመልከት።
+join-newsletter = ገስጋስን ሓድሽ ሓበሬታን ንምርካብ፡ ኣብ ናይ ኢመይል ዝርዝር ተመዝገብ።
 
 ## What's public
 
+whats-public = ንኹሉ ክፉት ዝኾነ ኣየናይ እዩ?
+email-not-public = ኢመይልካ ብስቱር ክንሕዞ ኢና።
+recordings-and-locale-public = ብዝሒ ዝቐረጽካዮን እተበርክቶ ቛንቛታትን ንኹሉ ሰብ ክፉት እዩ።
+username-optin-public = ሽምካ ክዕቀበልካ ወይውን ንኹሉ ግሉጽ ክኸውን ክትመርጽ ትኽእል ኢኻ።
+demographic-deidentified-clarity-2 = ብወለንታኻ ዝነገርካና ናይ ብሕትኻ ሓበሬታ ከም ዕድመ፡ ጾታ፡ ቛንቛን ላህጃን ዝኣመሰለ ኩሉ ብስቱር ክንሕዞ ኢና። ኣብቲ ዝእከብ ሐበሬታውን እንተኾነ ውልቃዊ መንነት ኣይንገልዝን ኢና። ዝበለጸ ውጽኢት ንምርካብ፡ ውልቃዊ ናይ ድምጺ ቅዳሕ ምስ ውልቃዊ መንነት ነታሓሕዞ ኢና። ንኣብነት ሓደ ተመራማሪ ኣብ ዝተወሰነ መንነት ዘቕንዐ ምርምር ክገብር ይኽእል።
+username-email-not-demographic = ሽምካን ኢመይልካን ምስቲ ዝፍኖ ሓበሬታ ኣይዝርጋሕን እዩ።
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ሰ
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = ቀጽል/ኣቛርጽ
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = ቅረጽ/ኣቛርጽ
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ደጊምካ ቅረጽ
+shortcut-submit-label = ቀረጻታት ኣረክብ
+request-language-text = ቛንቛኻ ኣብ "ኮመን ቮይስ" ኣይኣተወን ድዩ?
+request-language-text-learn = ብኸመይ ከም ትጠልቦ ኣብዚ ተወከስ!
+request-language-button = ናይ ቛንቛ ጠለብ ኣቕርብ
 
 ## ProjectStatus
 
+status-title = ሐፈሻፊ ገምጋም፡ ክንደይ ከም ዝሰራሕና ተመልከት!
+status-contribute = ብድምጽኻ ኣበርክት
+status-hours =
+    { $hours ->
+        [one] ሓንቲ ዝተረጋገጸት ሰዓት!
+       *[other] { $hours } ዝተረጋገጻ ሰዓታት!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = ዝስዕብ ዕላማታት፡ { $goal }
+english = እንግሊዥኛ
 
 ## ProfileForm
 
+profile-form-username =
+    .label = ስም ተጠቃሚ
+profile-form-native-language =
+    .label = ቛንቛ ኣደ
+profile-form-additional-language =
+    .label = ተወሳኹ ቛንቛ
+profile-form-accent =
+    .label = ላህጃ
+profile-form-age =
+    .label = ዕድመ
+profile-form-gender-2 =
+    .label = ጾታ
+leaderboard-visibility =
+    .label = ርእየት ሰሌዳ መራሒ
+hidden = ሕቡእ
+visible = ክፉት
+native-language =
+    .label = ቛንቛ ኣደ
+profile-form-submit-save = ዓቅብ
+profile-form-submit-saved = ተዓቂቡ
+male = ተባዕታይ
+female = ኣንስተይቲ
+# Gender
+other = ካልእ
+why-profile-title = ድሕረ ባይታይ ንምንታይ ኣድለየ?
+dashboard = ሰሌዳ
+build-profile = ውልቃዊ ሓበሬታ ምላእ
+avatar = ምስሊ
+goals = ዕላማታት
+settings = ምርጫታት
+edit-profile = ወልቃዊ ሓበሬታ ቀይር
+profile-create-success = ተዓወት፡ ኣካውንትኻ ተሰሪሓ ኣላ!
+profile-close = ዕጾ
+why-demographic = እዚ ስለምንታይ የገድስ?
+accept-privacy-title = ናይ ውልቃውነት ፖሊሲ
+login-identity = መእተዊ መንነት
+login-signup = እተው/ተመዝገብ
+edit = ቀይር
+email-subscriptions = ናይ ኢመይል መዝገብ
+download-profile = ናይ ውልቕካ ሐበሬታ ኣውርድ
+contribution-experience = ናይ ኣበርክቶ ተመክሮ
+skip-submission-feedback = ርኢቶ ምሃብ ስገሮ
 
 ## Profile - Email
 
+browse-file-title = ስእሊ ኣደይብ
+file_too_large = እዚ መሪጽካዮ ዘሎኻ ፋይል ዓቢ እዩ
+avatar-uploaded = ምስሊ ኣደይብ
+max-file-size = እንተዓበየ { $kb } ኪሎ ጥራይ
 
 ## Profile - Email
 
+email-already-used = እዚ ኢመይል እዚ ካልኦት ተጠቂሞምሉ እዮም
+add-language = ተወሳኺ ቛንቛ ኣእቱ
 
 ## FAQ
 
+faq-title = ተደጋጊሞም ዝሕተቱ ሕቶታት
+faq-what-cv-q = "ኮመን ቮይስ" መን እዩ?
+faq-why-important-q = እዚ ንምንታይ እዩ ኣገዳሲ ኮይኑ?
+faq-how-get-q = ኣብ "ኮመን ቮይስ" ዝተኣከበ ሓበሬታ ብኸመይ ክረኽቦ ይኽእል?
+faq-when-release2-q = ኣብ "ኮመን ቮይስ" ዝተኣከበ ሓበሬታ መዓስ ኢኹም ብኻልእ ቛንቛታት ክትዝርግሕዎ?
 faq-why-mission-a = ሞዚላ ነቲ መርበብ ሓበሬታ ንዅሉ ሰብ ክፉት ንምግባርን ብቐሊሉ ንምርካብን እተወፈየት እያ ። ነዚ ንምግባር ንኸም ሓባራዊ ድምጺ ዝኣመሰለ ፕሮጀክትታት ኣቢልና ንፈጠርቲ ወብ ሳይት ሓይሊ ኽንህቦም ኣሎና። ተክኖሎጅያዊ መሳርሒታት ድምጺ ኻብ ጽቡቕ መዓላ ወጻኢ እናበዝሐ ብዝኸደ መጠን ንዅሎም ተጠቀምቲ ብማዕረ ኼገልግሉ ኸም ዘለዎም ንኣምን ኢና። እዚ ኸኣ ተክኖሎጅያዊ ድምጺ ኽትሃንጽን ክትፍትንን ከለኻ ዝያዳ ቛንቋታት ምውፋር ከምኡውን እተፈላለየ ኣደማምጻን ቍጽሪ ህዝብን ምርካብ ማለት እዩ። ሓባራዊ ድምጺ ንዅሎም ሰባት ከምኡውን ኣብ መላእ ዓለም ዝርከቡ ጕጅለታት ሞዚላን ኣዳለውትን ድሮ ኣብ ናይ ገዛእ ርእስና ፕሮጀክትታት ክጥቀሙሉ ዝኽእሉ ህዝባዊ ምንጪ ኢዩ።
 faq-what-cv-and-deepspeech-q = ኣብ መንጎ ሓባራዊ ድምጽን ዓሚቝ ዘረባን (Deep Speech) እንታይ ፍልልይ ኣሎ?
 faq-what-cv-and-deepspeech-a = እቲ ሓባራዊ ናይ ድምጺ ሓበሬታ ነቲ ሞዚላ እተዳለወትሉ ክፉት ምንጪ ናይ ድምጺ መለለዪ ሞተር ዲፕ ስፒች ዝርርብ መመላእታ ኢዩ ። እቲ ናይ መጀመርታ ሕታም ዓሚቝ ዘረባ ኣብ ሕዳር 2017 ወጸ ካብቲ ግዜ እቲ ኣትሒዙ ድማ ብፍልቀት ይቕጽል ኣሎ። ምስ ናይ ሓባር ድምጺ ሓበሬታ ብሓባር እዚ ክፉት ምንጪ ዘለዎ ናይ ድምጺ መለለዪ ተክኖሎጂ ንዅሉ ሰብ ክረኽቦ ከም ዘለዎ ንኣምን ኢና። እዚ ተክኖሎጅያዊ መሳርሒታት እዚ ንተዓዘብቲ ሓድሽ ፍርያትን ኣገልግሎታትን ንኽሃንጹ ከም ዘኽእሎም ተስፋ ንገብር።
@@ -307,21 +390,62 @@ faq-why-different-speakers-a =
 faq-why-my-lang-q = ቋንቋይ ክሳዕ ሕጂ ስለምንታይ እዩ  ዘይተጠቓለለ ?
 faq-why-my-lang-new-a = ሞዚላ ንሓደ ቛንቋ ኻብ ካልእ ቋንቋ ኣይትመርጾን ወይ ኣይተዳሉን እያ። ኣብ ክንድኡስ ሓባራዊ ድምጺ ብማሕበረሰብ ዝምራሕ ተበግሶ ኢዩ እንተዀነ ግን ሓድሽ ቋንቋ ንምውሳኽን ናይ ድምጺ ወፈያታት ንምእካብን <multilangLink>እተወሰነ ስጕምትታት </multilangLink> ዝወስድ። ቀዳማይ ኣባላት ማሕበረሰብ ነቲ ኣበርክቶ ዝገበረ ተመክሮ ብቛንቋኦም ምእንቲ ኺረኽብዎ ወብ ሳይት ሓባራዊ ድምጺ ኺትርጐም ኣለዎ። ድሕርዚ ሰባት ዓው ኢሎም ምእንቲ ኼንብቡ መሰል ዋና ዘይብሉ ብዙሕ ምሉእ ሓሳባት የድልየና። እዚ ኽልቲኡ ብቕዓታት እዚ ሓንሳእ ምስ ተፈጸመ ሰባት ድምጾም ኪምዝግቡን ንኻልኦት ወፈያታት ኬረጋግጹን ምእንቲ ኺጅምሩ ሓደ ቛንቋ ኣብ ሓባራዊ ድምጺ ይጅመር። ሓድሽ ቋንቋ ኣብ ምጅማር ክትሕግዝ እንተ ደሊኻ ናብታ <sentenceCollectorLink>ንምእካብ እትሕግዘና </sentenceCollectorLink> ንዋት ኣተኩር።
 faq-what-quality-q = ክሊፕ ድምጺ ኣብቲ ሓበሬታ ንምጥቃም እንታይ ዓይነት ኣውድዮ እዩ ዜድሊ?
+faq-why-account-q = ንምንታይ ኣካውንት ምምዝጋብ የድልየኒ?
+faq-is-account-public-q = ናይ ኣካውንተይ ሓበሬታ ንኹሉ ክፉት ድዩ?
 
 ## ABOUT US
 
+how-does-it-work-title = ብኸመይ ይሰርሕ?
+about-speak = ተዛረብ
+about-listen-queue = ዝርዝር ክስማዕ ዘለዎ
+about-listen = ስማዕ
+about-is-it-valid = እዛ ቀረጻ እዚእ ቅንዕቲ ድያ?
+about-nav-why-common-voice = ንምንታይ?
+about-nav-how-it-works = ብኸመይ?
+mycroft-subtitle = ሰብ ዝሰርሖ ብልሒ
 
 ## Glossary
 
+glossary = መወከሲ
+localization = ከባብያዊ
+sst = ዘረባ-ናብ-ድምጺ(STT)
 
 ## Error pages
 
+error-title-404 = እዛ ክትርእያ ዝደሎኻ ገጽ ኣይተረኽበትን
+error-title-503 = ዘይተጸቦናዮ ምቁራጽ ኣገልግሎት ኣጋጢሙና ኣሎ።
 
 ## Data
 
+data-download-button = ኣብ "ኮመን ቮይስ" ዘሎ ሓበሬታ ኣውርድ
+data-download-yes = እወ
+data-download-deny = ኣይፋል
+data-other-goto = ናብ { $name } ኪድ
+data-other-download = ሓበሬታ ኣውርድ
+release-version = ሕታም
+license-mixed = በብዓይነቱ
+terms-agree = ይሰማማዕ እየ።
+terms-disagree = ኣይሰማማዕን እየ።
+review-aborted = ምድያብ ተቛሪጹ ኣሎ። እቲ ዝቐረጽካዮ ክትድምስሶዶ ትደሊ ኢኻ?
+review-submit-title = ደጊምካ ስምዓዮ፡ ብድሕሪኡ ኣረክቦ
+review-recording = ደጊምካ ስምዓዮ
+review-rerecord = ከም ብሓድሽ ቅረጽ
+review-cancel = ምርካብ ኣቛርጽ
+review-keep-recordings = እቲ ዝተቐርጸ ዓቅብ
+review-delete-recordings = ኣነ ዝቐረጽክዎ ኩሉ ደምስስዎ
 
 ## Datasets Page
 
+language = ቛንቛ
+# File size in gigabytes
+size = ዓቐን
+cv-license = ፍቓድ
+audio-format = ናይ ድምጺ ቅዳሕ ዓይነት
+splits = ክፋላት
+email-to-download = ንኸተውርድ ኢመይልካ ኣእቱ
+download-language = { $language } ኣውርድ
+validated-hours = ቅቡል ሰዓታት
+recorded-hours = ናይ ቀረጻ ሰዓታት
 
 ## Download Modal
 
