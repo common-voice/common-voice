@@ -367,14 +367,16 @@ profile-create-success = ተዓወት፡ ኣካውንትኻ ተሰሪሓ ኣላ!
 profile-close = ዕጾ
 profile-explanation = ነቲ ዝገበርካዮ ዕቤት ብፕሮፌል(ኣክዉንትካ) ጽሓፍ ሓበሬታ ድምጽና ድማ ዝያዳ ልክዕ ኪኸውን ይሕግዞ።
 why-demographic = እዚ ስለምንታይ የገድስ?
+accept-privacy = ከምቲ ኣብ ናይ ሞዚላ <privacyLink>ናይ ምስጢር ፖሊሲ</privacyLink> ዝተገልጸ ነዚ ሓበሬታ እዚ ምሓዝኩም ይቅበሎ እየ።
 accept-privacy-title = ናይ ውልቃውነት ፖሊሲ
 login-identity = መእተዊ መንነት
 login-signup = እተው/ተመዝገብ
 edit = ቀይር
 email-subscriptions = ናይ ኢመይል መዝገብ
-download-profile = ናይ ውልቕካ ሐበሬታ ኣውርድ
+download-profile = ናይ ውልቕኻ ሐበሬታ ኣውርድ
 contribution-experience = ናይ ኣበርክቶ ተመክሮ
 skip-submission-feedback = ርኢቶ ምሃብ ስገሮ
+skip-submission-note = መዘኻኸሪ፦ ነቲ ኣበርክቶኻ ንምቕያር ካብ ምዝራብ ወይ  ምስማዕ ሓዲኡ ኽትመርጽ ኣሎካ።
 off = ጠፊኡ
 on = ተወሉዑ
 
