@@ -306,6 +306,7 @@ shortcut-record-toggle-label = ቅረጽ/ኣቛርጽ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ደጊምካ ቅረጽ
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = ዝቕዳሕ ዘሎ ደርብዮ
 shortcut-submit = ተመለስ
 shortcut-submit-label = ቀረጻታት ኣረክብ
 request-language-text = ቛንቛኻ ኣብ "ኮመን ቮይስ" ኣይኣተወን ድዩ?
