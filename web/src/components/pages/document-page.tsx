@@ -3,43 +3,47 @@ import { connect } from 'react-redux';
 import API from '../../services/api';
 import StateTree from '../../stores/tree';
 import { Spinner } from '../ui/ui';
-import { useEffect, useState } from "react";
 
 interface PropsFromState {
   api: API;
   locale: string;
 }
 
-type Props = {
-  name: 'privacy' | 'terms' | 'challenge-terms'
-} & PropsFromState
-
 /**
  * Renders an HTML document determined by the <c>name</c> prop.
  * @param {{name:string} & PropsFromState} props Props passed to the component.
  */
-function DocumentPage(props: Props) {
-  const {api, name, locale} = props;
-  const [html, setHtml] = useState('')
+class DocumentPage extends React.Component<
+  { name: 'privacy' | 'terms' | 'challenge-terms' } & PropsFromState,
+  { html: string }
+> {
+  state = {
+    html: '',
+  };
 
   // Whenever locale changes (and on first draw) fetch the document to be displayed.
-  useEffect(() => {
-    fetchDocument().then();
-  }, [locale])
+  async componentDidUpdate() {
+    await this.fetchDocument();
+  }
 
   /**
    * Retrieves the document to be displayed and updates state.
    */
-  async function fetchDocument() {
-    const nextHtml = await api.fetchDocument(name);
-    setHtml(nextHtml);
+  private async fetchDocument() {
+    const { api, name } = this.props;
+    this.setState({
+      html: await api.fetchDocument(name),
+    });
   }
 
-  return html ? (
-    <div dangerouslySetInnerHTML={{__html: html}}/>
-  ) : (
-    <Spinner/>
-  );
+  render() {
+    const { html } = this.state;
+    return html ? (
+      <div dangerouslySetInnerHTML={{ __html: html }} />
+    ) : (
+      <Spinner />
+    );
+  }
 }
 
 /**
