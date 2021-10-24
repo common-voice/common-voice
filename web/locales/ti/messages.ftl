@@ -368,6 +368,7 @@ edit-profile = ወልቃዊ ሓበሬታ ቀይር
 profile-create-success = ተዓወት፡ ኣካውንትኻ ተሰሪሓ ኣላ!
 profile-close = ዕጾ
 profile-explanation = ነቲ ዝገበርካዮ ዕቤት ብፕሮፌል(ኣክዉንትካ) ጽሓፍ ሓበሬታ ድምጽና ድማ ዝያዳ ልክዕ ኪኸውን ይሕግዞ።
+thanks-for-account = ንጸብጻብካ ስለ ዘረጋገጽካዮ አመስግነካ ሕጂ ድሕረ ባይታኻ/ኺ ንህነጾ።
 why-demographic = እዚ ስለምንታይ የገድስ?
 accept-privacy = ከምቲ ኣብ ናይ ሞዚላ <privacyLink>ናይ ምስጢር ፖሊሲ</privacyLink> ዝተገልጸ ነዚ ሓበሬታ እዚ ምሓዝኩም ይቅበሎ እየ።
 accept-privacy-title = ናይ ውልቃውነት ፖሊሲ
