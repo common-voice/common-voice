@@ -283,20 +283,78 @@ shortcut-play-toggle-label = Нолдамс/Лоткафтомс
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = и
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = а
 
 ## Speak Shortcuts
 
-shortcut-record-toggle-label = Сёрматт/Лоткавтт
-shortcut-submit-label = Кучт клипть
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = с
+shortcut-record-toggle-label = Сёрмадомс/Лоткафтомс
+shortcut-rerecord-toggle-label = Одукс сёрмадомс клипть
+shortcut-discard-ongoing-recording-label = Лоткафтомс моли сёрмадомать
+shortcut-submit = Мрдамс
+shortcut-submit-label = Прважамс клипть
+request-language-text = Ашить му эсь кяльцень «Common Voice»-ста?
+request-language-text-learn = Содак, кода вешемс тяста!
+request-language-button = Вешемс кяль
 
 ## ProjectStatus
 
+status-title = Проектть марстонь сатфксоц: ваномс мзяра вайгяльда сёрматф и кодама кяльса
+status-contribute = Сёрматк эсь вайгяльцень
+status-hours =
+    { $hours ->
+        [one] { $hours } част кочкаф тянь ваномста!
+       *[other] { $hours } част кочкаф тянь ваномста!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Сяда товолдонь сатфкне: { $goal }
 english = Англань кяль
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Тев тиемань лем
+profile-form-native-language =
+    .label = Тядянь-авань кяль
+profile-form-additional-language =
+    .label = Лия кяль
+profile-form-accent =
+    .label = Кортафкс
+profile-form-age =
+    .label = Кизотне
+profile-form-gender-2 =
+    .label = Аля/ава ломань
+leaderboard-visibility =
+    .label = Няфтемс монь васенцетнень ёткса
+hidden = Кяшф
+visible = Неяви
+native-language =
+    .label = Тядянь-авань кяль
+profile-form-submit-save = Ванфтомс
+profile-form-submit-saved = Вантф
 male = Аля
 female = Ава
+# Gender
+other = Лия
+why-profile-title = Мезенди эряви профильсь?
+why-profile-text = Максондярят эсь колгат кой-мзяра информация, кона сувафтови Common Voice-ти и кона лезды вайгялень содамань технолологиянь косомаса, сяда цебярьста тиевихть машинатне
+dashboard = Няфтема васта
+build-profile = Тиемс профиль
+avatar = Аватар
+goals = Сатфкст
+settings = Тев тиемат
+edit-profile = Петнемс профильть
+profile-create-success = Пяк пара, профильсь тиевсь!
+profile-close = Пякстамс
+profile-explanation = Ватт сатфкснень мельгя, конат тиевихть профильса и лезтт тейнек вайгялень кочкафксонь сяда цебярьста тиемаса
+thanks-for-account = Сюкпря профилень сувама вастонь кемокстаманкса! Тяни карматама пяшкодема профильть
+why-demographic = Мес тя лувови эрявиксокс?
+why-demographic-explanation-2 = Лемфтема даннайхне, кода кизотне, аля/ава ломань, корхтафкссь цебярьгофтсазь аудиоданнайхнень, конат эрявить ломанень корхтамань шарьхкодемаса. Тонь тев тиемань лемце (имя пользователя) и эл. почтаце мзярдовок аф сувафтовихть максф даннайхнень ёткс и эсь мяльцень коряс кочкасак: лихтемс ломань инголи лемцень али сонь кадомс кяшфста
 
 ## Profile - Email
 
