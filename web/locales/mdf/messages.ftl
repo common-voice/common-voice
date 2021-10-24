@@ -547,18 +547,51 @@ data-other-ted-name = «TED-LIUM» корпуссь
 data-other-ted-description = «TED-LIUM» корпуссь кочкаф «TED» сайтста масф аудио корхтаматнень и синь транскрипцияснон эзда
 data-other-voxforge-description = VoxForge тифоль транскрибировдаф корхтамань кочкаманкса, конац нолдави тевс вайгялень шарьхкодемань панжада и симбонди няеви механизмаса
 data-other-tatoeba-description = «Tatoeba» - тя валрисьмонь, ётафксонь и корхтамань аудионь оцю кочкафкс, кона тевс нолдави кяльть тонафнемста. Тянь таргамста муят англань кяль, кона сёрматф англань ломанень пуромскс мархта.
+your-feedback = Улихть мяльхть, кода цебярьготфтомс  «Common Voice»-ть ? Корхтак тянь колга Discourse форумса
+go-discourse = Ётамс дискурсияс > Сувамс «Discourse» пяльксти
+missing-language = Аф мусак эсь кяльцень кочкафкснень ёткста? Вешк сонь Кяльхть лопаса
+go-languages-page = Сувамс Кяльхть лопати
+ready-to-validate = Анокат валрисьмотнень видеста сёрмадомаснон ванома?
+more = Сяда тов
+close = Пякстамс
+download = Таргамс
+dataset-version = Версия
 
 ## Download Modal
 
+download-title = Таргамась ушедсь
+download-helpus = Лезтт тейнек путомс-арафтомс вайгялень шарьхкотьфти технологиятнень коряс ломанень пуромкс, киртть соткс мархтонк эл.сёрма вельде.
+download-form-email =
+    .label = Сувафтк эсь эл. адресцень
+    .value = Сувафтк эсь эл. адресцень
+download-back = Мрдамс «Common Voice» даннаень кочкафксти
+download-no = Аф, сюкпря
 
 ## Contact Modal
 
+contact-title = Контактонь анкета
+contact-form-name =
+    .label = Лем
+contact-form-message =
+    .label = Куля-сёрма
+contact-required = эрявикс
 
 ## Request Language Modal
 
+request-language-title = Кялень вешема
+request-language-form-language =
+    .label = Кяль
+request-language-success-title = Кялень сувафтомать коряс вешфкссь прважаф. Сюкпря
+request-language-success-content = Минь пяк вишкста мутядязь, азомок сянь колга, кода сувафтомс тонь кяльцень  Common Voice-ти
+select-language = Кочкамс кяль...
+other-language = Лия кяль
 
 ## Languages Overview
 
+language-section-in-progress = Тевсь моли
+language-section-in-progress-new-description = Тя кяльхнень  тяниень пингть касфтыхть-кеподихть синць ломаттне. Башка кяльхнень сатфкссна няеви максф цифратнень вельде, конат няфтихть ичкози ли синь пачкодсть <localizationGlossaryLink>сайтонь ётафтомась</localizationGlossaryLink> и мзяра кочкаф валрисьмода<sentenceCollectionGlossaryLink>.
+language-section-launched = Нолдаф
+language-section-launched-description = Тя нолдаф кяльхнень коряс сайттне цебярьста  <localizationGlossaryLink>ётафтфт</localizationGlossaryLink>, тоса кочкаф <sentenceCollectionGlossaryLink> сатомшка валрисьме </sentenceCollectionGlossaryLink>, штоба ушедомс <speakLink> вайгялень кочкама</speakLink> и синь видеста максомань ширде <listenLink> ванома
 languages-show-more = <chevron></chevron>Няемс сяда лама
 languages-show-less = <chevron></chevron>Няемс сяда аф лама
 
