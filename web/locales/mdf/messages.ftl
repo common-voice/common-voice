@@ -673,15 +673,79 @@ report = Пеняцямс
 report-title = Прважамс пеняцяма вал
 report-ask = Кодат прябалат эвондасть тя валрисьмоть мархта покодемста?
 report-offensive-language = Мялень колай валхт
+report-offensive-language-detail = Валрисьмоса мялень колай и аф цебярь валхт
+report-grammar-or-spelling = Грамматикань ширде /видеста сёрмадомань коряс эльбятькс
+report-grammar-or-spelling-detail = Валрисьмоса грамматикань ширде али видеста сёрмадомань коряс эльбятькс.
+report-different-language = Лия кяль
+report-different-language-detail = Сёрматф лия кяльса, аф стама кяльса, конань вельде корхтан
+report-difficult-pronounce = Стакаста азови
+report-difficult-pronounce-detail = Эсонза валхт али валзюлмот, конат стакаста лувовихть али азовихть
+report-offensive-speech = Мялень колай валхт
+report-offensive-speech-detail = Сёрматфксса мялень колай и аф цебярь валхт
+report-other-comment =
+    .placeholder = Мяльполаткс
+success = Анок
+continue = Поладомс
+report-success = Пеняцямань валсь прважаф
 
 ## Goals
 
+streaks = Лама ши
+days =
+    { $count ->
+        [one] ши
+       *[other] шит
+    }
+recordings =
+    { $count ->
+        [one] Вайгялень сёрмадома
+       *[other] Вайгялень сёрмадомат
+    }
+validations =
+    { $count ->
+        [one] Кемекстамат
+       *[other] Кемекстамат
+    }
 
 ## Dashboard
 
+your-languages = Тонь кяльхне
+toward-next-goal = Сяда товолдонь сатфкссь
+goal-reached = Сатфксне пяшкотьфт
+clips-you-recorded = Сёрматфат
+clips-you-validated = Кемокстайть
+todays-recorded-progress = Тячи тиф «Common Voice»-са сёрматфкста
+todays-validated-progress = Тячи видеста ванф «Common Voice»-са сёрматфкста
+stats = Лувксонь няфтемась
+awards = Казнет
+you = Тон
+everyone = Сембе
+contribution-activity = Лездыень путфкс
+top-contributors = Лездыхне васенцетнень ёткста
+recorded-clips = Сёрматф
+validated-clips = Видеста ванф и кемокстаф клипне
+total-approved = Сембоц видеста ванфта и кемокстафта
+overall-accuracy = Сембоц, кона тиф цебярьста
+set-visibility = Путомс няевиксшить
+visibility-explainer = Мяльс сявомга: Кда арафтови "Няеви", эста тя арафтомась полафтови <profileLink>профилень лопаса</profileLink>
+visibility-overlay-note = Няфтемс ломань ёткса монь вастозень
+show-ranking = Тиемс целень коряс сатфксс
 
 ## Custom Goals
 
+get-started-goals = Тиемс эсь целень коряс сатфкс
+create-custom-goal = Кодама целень сатфкс эстейть путоть?
+goal-type = Кодама целень сатфкс эстейть путоть?
+both-speak-and-listen = И тя, и тона
+both-speak-and-listen-long = И тя, и тона (Сёрмадомась и сёрматфксонь видеста ваномась)
+daily-goal = Эрь шинь сатфкст
+weekly-goal = Эрь недлянь сатфкст
+easy-difficulty = Тёждя
+average-difficulty = Аф пяк стака
+difficult-difficulty = Стака
+pro-difficulty = Профессионалонь
+lose-goal-progress-warning = Полафтомок эсь целень сатфксцень, юмафтсак касомань коряс вастцень
+want-to-continue = Поладсак тевть?
 
 ## Profile Delete
 
