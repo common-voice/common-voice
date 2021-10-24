@@ -384,12 +384,17 @@ on = ተወሉዑ
 ## Profile - Email
 
 browse-file-title = ስእሊ ኣደይብ
-file_too_large = እዚ መሪጽካዮ ዘሎኻ ፋይል ዓቢ እዩ
+browse-file = ስሒብካ ድርብዮ ወይ <browseWrap> ፈትሽ</browseWrap>
+connect-gravatar = ብግራቫተር (Gravator) ኣራኽብ
+gravatar_not_found = ኣብ ኢመይልካ/ኪ ግራቨተር ኣይተረኽበን
+file_too_large = እዚ መሪጽካዮ ዘሎኻ ፋይል ኣዝዩ ዓቢ እዩ
 avatar-uploaded = ምስሊ ኣደይብ
 max-file-size = እንተዓበየ { $kb } ኪሎ ጥራይ
 
 ## Profile - Email
 
+manage-subscriptions = መዝገብ ኣማሓድር
+manage-email-subscriptions = ናይ ኢመይል መዝገባት ኣማሕድር
 email-already-used = እዚ ኢመይል እዚ ካልኦት ተጠቂሞምሉ እዮም
 add-language = ተወሳኺ ቛንቛ ኣእቱ
 
