@@ -746,6 +746,37 @@ difficult-difficulty = Стака
 pro-difficulty = Профессионалонь
 lose-goal-progress-warning = Полафтомок эсь целень сатфксцень, юмафтсак касомань коряс вастцень
 want-to-continue = Поладсак тевть?
+finish-editing = Васеда мяльце шумордамс петнемать?
+lose-changes-warning = Лисендярят тя пингть, сембе полафтоматне юмайхть
+build-custom-goal = Тиемс эсь целень сатфкс
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Лезтт пачкодемс { $hours } частста { $language }са эсь сатфкснень вельде
+       *[other] Лезтт пачкодемс { $hours } частста { $language }са эсь сатфкснень вельде
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Лезтт Common Voice-ти пачкодемс{ $hours } частста эсь сатфкснень вельде
+       *[other] Лезтт Common Voice-ти пачкодемс{ $hours } частста эсь сатфкснень вельде
+    }
+set-a-goal = Путомс целень коряс сатфкс
+cant-decide = Кафтолдат? Аф кемат?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
+       *[other] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
+    }{ NUMBER($periodMonths) ->
+        [one] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
+       *[other] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
+    }{ NUMBER($people) ->
+        [one] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
+       *[other] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
+    }{ NUMBER($clipsPerDay) ->
+        [one] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
+       *[other] { $totalHours } част кочкави ковоньберьф, кда { $periodMonths } ломанць кармай тиема { $people } сёрматфкст шити { $clipsPerDay }
+    }
+how-many-per-day = Пяк пара! Мзяра тиеть сёрматфкста шити?
+how-many-a-week = Пяк пара! Мзяра сёрматфкста тиеть недляти?
 
 ## Profile Delete
 
