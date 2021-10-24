@@ -816,11 +816,16 @@ profile-form-delete = Нардамс профильть
 ## Profile Download
 
 download-profile-title = Профильсь
+download-recordings-title = Сёрматфне
 download-size = Оцюлма
 download-request-button = Таргамс
+download-request-refresh-button = Одкстоптомс
 
 ## Landing
 
+welcome-staff = Пара мяльса учтядязь, { $company } покодихть!
+help-contribute = Лезтт аф фкя лацонь даннаень тиемаса, тиемок профиль Common Voice-са и лездомок эсь вайгяльцень мархта
+login-company = Сувамс / Тиемс сувама васта эл.адресонь вельде
 profile-not-required = Лездомста профильсь аф эряви, но сембе сяка канды лезкс
 read-more-about = Содак сяда лама «Минь колганк» лопаса
 
@@ -864,6 +869,9 @@ demo-dashboard-card-body = Вайгялень сёрматфксонь сува�
 
 contribution-criteria-nav = Критерият
 contribution-for-example = кепотьксонди
+contribution-misreadings-description-extended-list-1 = Ашет <strong>'A'</strong> or <strong>'The'</strong> сёрматфксть ушетксса.
+contribution-misreadings-description-extended-list-2 = Ашет<strong>'s'</strong> валть песа.
+contribution-misreadings-description-extended-list-5 = Аф весть тяряфтк азомс валть
 contribution-misreadings-example-5-title = Мольхтяма кофенкса
 contribution-misreadings-example-7-title = Мольхтяма кофенкса
 contribution-misreadings-example-8-title = Праможсь лийкстась вакска.
