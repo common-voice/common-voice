@@ -640,9 +640,39 @@ record-again-instruction = Пяк цебярь! <recordIcon></recordIcon> Сёр
 record-again-instruction2 = Полатк, сёрматт нинге <recordIcon></recordIcon>
 record-last-instruction = Мекольце!
 review-tooltip = Ванк видеста сёрмадомать и одукс сёрматк клипть тяса
+share-clip = Няфтьк лиятненди эсь сёрматфцень
+share-common-voice = Няфтьк «Common Voice»-ть эса
+review-instruction = Ванк видеста сёрмадомать и кда эряви одукс сёрматк клипть
+record-submit-tooltip = { $actionType } сувафтк, мзярда ули анок
+clips-uploaded = Сёрматфне сувафтфт
+record-abort-title = Васеда шумордость сёрмадомать
+record-abort-text = Лисендярят тя пингть, тиф тевсь юмай
+record-abort-submit = Сувафтомс клипть
+record-abort-continue = Шумордамс сёрмадомать
+record-abort-delete = Лисемс и нардамс клипнень
+listen-instruction = { $actionType } <playIcon></playIcon> видеста азф валрисьмось?
+listen-again-instruction = Пяк цебярь! <playIcon></playIcon> Кулхцонтк оду, мзярда улят анок
+listen-3rd-time-instruction = 2 тифт, сяда тов! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> Мекольцесь!
+listen-empty-state = Шумордавсть сёрматфксне, штоба видеста ваномс вайгяльксонь сёрматфнень тя кяльса
+speak-empty-state = Шумордавсть валрисьмотне, штоба сёрмадомс тя кяльса
+speak-empty-state-cta = Поладомс валрисьмот
+record-button-label = Сёрмадомс эсь вайгяльцень
+share-title-new = <bold>Лезтт тейнек </bold> мумс сяда лама лия вайгяльда
+keep-track-profile = Ваномс путфкснень касомань киснон профильть вельде
+login-to-get-started = Сувак и тяштьфтьк эсь пряцень, штоба ушедомс тевть
+target-segment-first-card = Кандат лезкс минь васенце сегментозонк.
+target-segment-generic-card = Кандат лезкс минь сегментозонк.
+target-segment-first-banner = Лезтт тиемс Common Voice-са васенце целевой сегментть { $locale }
+target-segment-add-voice = Поладомс эсь вайгяльцень
+target-segment-learn-more = Сяда крхкаста
 
 ## Reporting
 
+report = Пеняцямс
+report-title = Прважамс пеняцяма вал
+report-ask = Кодат прябалат эвондасть тя валрисьмоть мархта покодемста?
+report-offensive-language = Мялень колай валхт
 
 ## Goals
 
