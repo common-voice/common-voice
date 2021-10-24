@@ -225,11 +225,35 @@ voices-online = Мзяра вайгяльда тя ёткть
 todays-progress = Тячиень сатфксне
 help-reach-goal = Лезтт миндейнек пачкодемс { $goal } видес
 read-terms-q = Тон лувить минь тевс нолдамань условияньконь?
+ready-to-record = Анокат лездомс эсь вайгяльцень мархта?
 all-locales = Сембе
 today = Тячи
+x-weeks-short =
+    { $count ->
+        [one] { $count }недля
+       *[other]
+            { $count }недлят
+            { $count }недлят
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }ков
+       *[other] { $count }кофт
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }киза
+       *[other] { $count }кизот
+    }
+help-make-dataset = Лезтт тейнек тиемс кялень коряс цебярь кочкафкс, кона улель сембонди сатовикс и панжадокс
+sign-up-account = Тиемс эстейть сувама васта
+email-subscription-title = Сёрматфтомс пря «мезе однясь» кулянь-пачфтемань ширде
+email-subscription-title-new = Сёрматфтомс пря «Common Voice»-нь сатфксонзон содамань коряс кулянь-пачфтемань ширде
 
 ## Account Benefits
 
+benefits = Эрявикс лезкссь
+rich-data = Лемфтома демографиянь даннаень максомста пяшкодесть синь вельф. Нолдамда инголе минь синь тисаськ лемфомокс
 
 ## What's public
 
