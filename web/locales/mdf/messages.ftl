@@ -594,9 +594,52 @@ language-section-launched = Нолдаф
 language-section-launched-description = Тя нолдаф кяльхнень коряс сайттне цебярьста  <localizationGlossaryLink>ётафтфт</localizationGlossaryLink>, тоса кочкаф <sentenceCollectionGlossaryLink> сатомшка валрисьме </sentenceCollectionGlossaryLink>, штоба ушедомс <speakLink> вайгялень кочкама</speakLink> и синь видеста максомань ширде <listenLink> ванома
 languages-show-more = <chevron></chevron>Няемс сяда лама
 languages-show-less = <chevron></chevron>Няемс сяда аф лама
+language-meter-in-progress = Тевть поладомац
+language-total-progress = Сембоц
+language-search-input =
+    .placeholder = Вешемс
+language-speakers = Кортайхне
+localized = Ётафтф эсь кяльс
+sentences = Валрисьмот
+total-hours = Сембоц частта
 
 ## Contribution
 
+action-click = Люпштамс
+action-tap = Токамс
+contribute = Максомс лезкс
+listen = Кулхцондомс
+skip = Ётамс вакска
+shortcuts = Клавишань сочетания
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> клипть
+       *[other] <bold>{ $count }</bold> клипть
+    }
+goal-help-recording = Лездоть Common Voice-нди пачкодемс <goalPercentage></goalPercentage> видети минь эрь шинь вайгялень сёрмадомань коряс сатфксоньконди { $goalValue }!
+goal-help-validation = Лездоть Common Voice-нди пачкодемс <goalPercentage></goalPercentage> видети минь эрь шинь вайгялень сёрматфксонь видеста ваномань коряс { $goalValue }!
+contribute-more =
+    { $count ->
+        [one] Анокат сяда тов тев { $count } тиемс?
+       *[other] Анокат сяда тов тев { $count } тиемс?
+    }
+record-cta = Ушедомс сёрмадомать
+record-platform-not-supported = Ужяль, тяниень пингть платформань ширде аш эрявикс арафтомат.
+record-platform-not-supported-desktop = Шра лангонь компьютерса, тяряфтость таргамс мекольцеть...
+record-platform-not-supported-ios-non-safari = iOS-са вайгялень сёрмадомать пингста, эняльдян, тевс нолдак Safari-ть
+record-must-allow-microphone = Эряви максомс микрофонти нолдавомань видексшить
+record-no-mic-found = Микрофонць аф муви
+record-error-too-short = Сёрматфкссь пяк нюрьхкяня
+record-error-too-long = Сёрматфкссь пяк кувака
+record-error-too-quiet = Сёрматфкссь ёфсикс аф маряви
+record-cancel = Лоткафтомс одукс сёрмадомать
+record-instruction = { $actionType }<recordIcon></recordIcon> меле морафтость валрисьмоть кайгиста
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> мзярда шумордави
+record-three-more-instruction = Илядсь колма!
+record-again-instruction = Пяк цебярь! <recordIcon></recordIcon> Сёрматт сяда тов клип
+record-again-instruction2 = Полатк, сёрматт нинге <recordIcon></recordIcon>
+record-last-instruction = Мекольце!
+review-tooltip = Ванк видеста сёрмадомать и одукс сёрматк клипть тяса
 
 ## Reporting
 
