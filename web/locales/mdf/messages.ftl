@@ -817,6 +817,7 @@ profile-form-delete = Нардамс профильть
 
 download-profile-title = Профильсь
 download-size = Оцюлма
+download-request-button = Таргамс
 
 ## Landing
 
@@ -832,20 +833,29 @@ demo-eofy-header = Нолдаф 2019-це кизоть песта
 
 ## Demo Account
 
+demo-account-sign-up = Кучемс регистрациянди ссылка
 
 ## Demo Contribute
 
+demo-contribute-card-header = Анокат лездомс вайгялень максомаса-сёрмадомаса али кулхцондат?
+demo-contribute-card-body-v2 = Тяни, мзярда содат сяда лама Common Voice-ть колга, мес ба аф тяряфтомс? Люпштак микрофононь тяштенять, штоба азамс валрисьмотнень кайгиста. <br/><br/> Кда мяльце видеста ваномс и петемс лия ломанень вайгялень сёрматфкснень, эста люпштак нолдамань тяштенять. Тянь мархта кемокстасак, што вайгялень сёрматфкссь фкя лацонь валрисьмотнень мархта, конат няфтьфт экранца
+demo-listen-subtitle = Анокат лездомс?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Персональнай информаниянь тяштьксне содафтыхть тонь марнек сатфксснон мархта лия ломатнень и ломанень пуромкснень
+demo-dashboard-card-body = Вайгялень сёрматфксонь сувафтомада и видеста ваномада-петнемада меле тонь аккаунтонь информациянь тяштьксне  одкстомихть, штоба няфтемс тонь сатфкснень эрь кодама кяльса, конань коряс сувафтф эрь кодама путфкс. Виде, тон лездоват ламоц кялень коряс! <br/><br/> Тевс сявк информациянь тяштькснень, штоба ваномс эсь вастцень лия ломаттнень ёткса и путнемс эсь инголет эрь шинь али эрь недлянь сатфкст
 
 ## Validation criteria
 
 contribution-criteria-nav = Критерият
 contribution-for-example = кепотьксонди
 contribution-misreadings-example-5-title = Мольхтяма кофенкса
+contribution-misreadings-example-7-title = Мольхтяма кофенкса
 contribution-misreadings-example-8-title = Праможсь лийкстась вакска.
 contribution-background-noise-title = Фталдонь шум
 contribution-background-voices-title = Фталдонь вайгяльхть
 contribution-volume-title = Кайгиксши
+contribution-just-unsure-title = Аф кемат? /Кафтолдат?
+see-more = Няемс сяда лама
 see-less = <chevron></chevron>Няемс сяда аф лама
