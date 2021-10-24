@@ -488,6 +488,32 @@ error-code = Эльбятькссь { $code }
 data-download-button = Таргамс «Common Voice»-ста даннайхнень
 data-download-yes = Виде
 data-download-deny = Аф
+data-download-license = Лицензиясь: <licenseLink>CC-0</licenseLink>
+data-download-modal = Тон ёрат таргамс <size>{ $size }GB</size>, сяда тов?
+data-subtitle = Минь тихтяма вайгялень даннаень коряс технологият, конат няевихть сембонди и панжадот, конат нолявихть ломанть мархта вайгялень шарьхкодемань программатнень тонафнемста
+data-get-started = Ушедомс тевть <speechBlogLink> вайгялень шарьхкодемать коряс</speechBlogLink>
+data-other-title = Вайгелень лия даннаень кочкафкст…
+data-other-goto = Молемс «{ $name }» вастти
+data-other-download = Таргамс даннайхть
+data-bundle-button = Таргамс даннаень кярьмаз
+data-bundle-description = Common Voice даннаенза марса лия даннаень кочкафкс мархта, конат максфт ала
+release-version = Версиясь
+dataset-date = Кизось-ковсь-шись
+license = Лицензиясь: <licenseLink>{ $license }</licenseLink>
+license-mixed = Шоряф
+data-download-singleword-title = Таргак  целевой сегментонь "Фкя вал"
+data-download-singleword-callout-v2 = Тя сегментсь шарфтф башка тевонь нолдамань лангс, кона цебярьгофтсы цифтать  и «виде»/«аф» шарьхкодематнень
+review-terms = «Common Voice»-нь тевс нолдамста праят фкя мяльс мархтонк <termsLink>Условиятнень </termsLink> и <privacyLink>Эсь тевонь каготтнень кяшемаснон</privacyLink> коряс.
+terms-agree = Праян фкя мяльс
+terms-disagree = Аф праян фкя мяльс
+review-aborted = Материалонь таргамась лоткавтовсь. Ули мяльце нардамс эсь сёрматфнень?
+review-submit-title = Оду кулхцондомс-ваномс и сувафтомс
+review-submit-msg = Сюкпря сёрматфкснень инкса!<lineBreak></lineBreak>Тяни одукс колхцонтт-ватт и сувафтыть эсь сёрматфнень алу.
+review-recording = Сёрматфксонь видеста ваномась
+review-rerecord = Одукс сёрмадомс
+review-cancel = Мрдафтомс прважафть
+review-keep-recordings = Ванфтомс эсь сёрматфнень
+review-delete-recordings = Нардамс эсь сёрматфнень
 
 ## Datasets Page
 
