@@ -254,16 +254,35 @@ email-subscription-title-new = Сёрматфтомс пря «Common Voice»-н
 
 benefits = Эрявикс лезкссь
 rich-data = Лемфтома демографиянь даннаень максомста пяшкодесть синь вельф. Нолдамда инголе минь синь тисаськ лемфомокс
+improve-audio = Профилень содамошись цебярьготьфтсыне аудиоданнайхнень тевс нолдамаснон
+keep-track = Ватт эсь сатфкснень мельге и кода мольфтеви тевсь эрь кодама кялень коряс.
+compare-progress = Ватт, кода тонь сатфксне карань-каршек путневихть лиянь сатфкснень мархта.
+view-goals = Ватт эсь сатфкснень лезксснон эсь проектонь тиемаса
+join-newsletter = Улендяряй мяльце, сёрматфтт пря кулянь-пачфтемань ширде, штоба получамс проектть коряс од информация
 
 ## What's public
 
+whats-public = Кодама даннайть панжевихть сембонди?
+email-not-public = Минь аф карматама лихтема эл.почтать ломанень инголи
+recordings-and-locale-public = Ломань инголи лихневихть и няфтевихть кодама кяльса мархтот тиф вайгялень коряс сёрматфксне
+username-optin-public = Эсь мяльцень коряс тев тиемань лемсь лихтеви ломатнень инголи али кяшеви (кадови лемфтемокс)
+demographic-deidentified-clarity-2 = Максф аф фалу эрявикс демографиянь пяльксне (кода кизось, аля/ава ломань, кяльсь, корхтафкссь (акцентсь ) мзярдовок аф кармайхть улема сембонди няевиксокс тонь профильсот (сувамовастсот) и аф сотовихть аккаунтонтень мархта. Башка сёрматфксне сотовихть демографиянь пялькснень мархта сяда цебярь анализонь тиеманкса, кепотьксонди, исследовательть мялец путомс тонафнемань модельть башка демографиянь сегментть лангс.
+username-email-not-demographic = Тонь тев тиемань лемце (имя пользователя) и эл. почтаце аф сотовихть нолдаф даннайхнень мархта
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = л
 
 ## Listen Shortcuts
 
-shortcut-play-toggle-label = Кулхцонтт/Лоткавтт
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = с
+shortcut-play-toggle-label = Нолдамс/Лоткафтомс
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = и
 
 ## Speak Shortcuts
 
