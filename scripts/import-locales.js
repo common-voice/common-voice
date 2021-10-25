@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { parse } = require('fluent-syntax');
+const { parse } = require('@fluent/syntax');
 const request = require('request-promise-native');
 
 const TRANSLATED_MIN_PROGRESS = 0.9;
@@ -90,7 +90,10 @@ async function importPontoonLocales() {
   const languages = await fetchPontoonLanguages();
   await Promise.all([
     saveToMessages(languages),
-    saveDataJSON('all', languages.map(l => l.code)),
+    saveDataJSON(
+      'all',
+      languages.map(l => l.code)
+    ),
     saveDataJSON(
       'rtl',
       languages
