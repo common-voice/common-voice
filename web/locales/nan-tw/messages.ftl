@@ -21,7 +21,10 @@ not-available-abbreviation = 無適用
 
 ## Languages
 
-ab = 阿布哈茲話
+ab = 阿布哈茲語
+da = 丹麥語
+de = 德語
+vi = 越南語
 
 # [/]
 
@@ -37,6 +40,7 @@ ab = 阿布哈茲話
 
 ## What's public
 
+whats-public = 啥物款的資料會公開？
 
 ## Speak & Listen Shortcuts
 
@@ -46,9 +50,17 @@ ab = 阿布哈茲話
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = 錄音/停止
+shortcut-rerecord-toggle-label = 重新錄製這个片節
+shortcut-discard-ongoing-recording = ESC
+shortcut-submit = 轉去
+shortcut-submit-label = 送出片節
+request-language-text = Common Voice 敢揣無你的語言？
+request-language-button = 要求新的語言
 
 ## ProjectStatus
 
+status-contribute = 貢獻你的聲說
 
 ## ProfileForm
 
