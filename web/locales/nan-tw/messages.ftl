@@ -22,25 +22,82 @@ not-available-abbreviation = 無適用
 ## Languages
 
 ab = 阿布哈茲語
+ar = 阿拉伯語
+cs = 捷克語
 da = 丹麥語
 de = 德語
+eo = 世界語
+es = 西班牙語
+fa = 波斯語
+fi = 芬蘭語
+fr = 法語
+he = 希伯來語
+ht = 海地語
+id = 印尼語
+is = 冰島語
+it = 意大利語
+ko = 韓國語
+mn = 蒙古語
+nan-tw = 臺語
+nb-NO = 書面挪威語
+nl = 荷蘭語
+nn-NO = 新挪威語
+pl = 波蘭語
+pt = 葡萄牙語
+ru = 露西亞語
 vi = 越南語
+yue = 粵語
+zh-CN = 華語（中國）
+zh-TW = 華語（台灣）
 
 # [/]
 
 
 ## Layout
 
+speak = 講話
+speak-now = 這馬就來講話
+languages = 語言
+help = 說明
+contact = 佮阮聯絡
+privacy = 隱私權
+terms = 使用條款
+cookies = Cookie
+faq = 捷看的問題
+back-top = 轉去面頂
+logout = 登出
 
 ## Home Page
 
+vote-yes = 著
+vote-no = 毋著
+listen-goal-text = 个經過驗證的片節
+voices-online = 目前線頂有的語音
+todays-progress = 今仔日的進度
+all-locales = 全部
+today = 今仔日
+x-weeks-short =
+    { $count ->
+       *[other] { $count } 禮拜
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count } 個月
+    }
+x-years-short =
+    { $count ->
+       *[other] { $count } 年
+    }
+sign-up-account = 開新口座
 
 ## Account Benefits
 
+benefits = 好處
 
 ## What's public
 
-whats-public = 啥物款的資料會公開？
+whats-public = 啥物款的資料是公開的？
+email-not-public = 阮袂共你的電子批公開。
 
 ## Speak & Listen Shortcuts
 
@@ -64,9 +121,14 @@ status-contribute = 貢獻你的聲說
 
 ## ProfileForm
 
+login-signup = 登入 / 開新口座
+edit = 編輯
+off = 關起來
+on = 拍開
 
 ## Profile - Email
 
+browse-file-title = 傳一張圖起去
 
 ## Profile - Email
 
