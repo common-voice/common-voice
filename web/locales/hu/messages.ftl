@@ -127,6 +127,7 @@ pap-AW = Papiamento (Aruba)
 pl = Lengyel
 ps = Pastu
 pt = Portugál
+quc = K'iche'
 rm-sursilv = Romans sursilvan
 rm-vallader = Romans vallader
 ro = Román
