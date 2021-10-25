@@ -21,6 +21,7 @@ not-available-abbreviation = 無適用
 
 ## Languages
 
+ab = 阿布哈茲話
 
 # [/]
 
