@@ -442,8 +442,11 @@ about-speak = ተዛረብ
 about-listen-queue = ዝርዝር ክስማዕ ዘለዎ
 about-listen = ስማዕ
 about-is-it-valid = እዛ ቀረጻ እዚእ ቅንዕቲ ድያ?
+about-partners = መሻርኽቲ
+about-get-involved = ተሳተፍ
 about-nav-why-common-voice = ንምንታይ?
 about-nav-how-it-works = ብኸመይ?
+about-nav-partners = መሻርኽቲ
 about-nav-get-involved = ተሳተፍ
 mycroft-subtitle = ሰብ ዝሰርሖ ብልሒ
 
@@ -457,16 +460,20 @@ sst = ዘረባ-ናብ-ድምጺ(STT)
 
 error-title-404 = እዛ ክትርእያ ዝደሎኻ ገጽ ኣይተረኽበትን
 error-title-503 = ዘይተጸቦናዮ ምቁራጽ ኣገልግሎት ኣጋጢሙና ኣሎ።
+error-code = ብልሽት { $code }
 
 ## Data
 
 data-download-button = ኣብ "ኮመን ቮይስ" ዘሎ ሓበሬታ ኣውርድ
 data-download-yes = እወ
 data-download-deny = ኣይፋል
+data-download-license = ፍቓድ: <licenseLink>CC-0</licenseLink>
 data-other-goto = ናብ { $name } ኪድ
 data-other-download = ሓበሬታ ኣውርድ
+data-bundle-button = እኩብ ሓበሬታ ኣውርድ
 release-version = ሕታም
 dataset-date = ዕለት
+license = ፍቓድ: <licenseLink>{ $license }</licenseLink>
 license-mixed = በብዓይነቱ
 terms-agree = ይሰማማዕ እየ።
 terms-disagree = ኣይሰማማዕን እየ።
@@ -483,6 +490,8 @@ review-delete-recordings = ኣነ ዝቐረጽክዎ ኩሉ ደምስስዎ
 language = ቛንቛ
 # File size in gigabytes
 size = ዓቐን
+validated-hr-total = ዝተረጋገጸ ሰዓታት
+overall-hr-total = ጠቕላላ ሰዓታት
 cv-license = ፍቓድ
 audio-format = ናይ ድምጺ ቅዳሕ ዓይነት
 number-of-voices = ብዝሒ ድምጽታት
@@ -495,6 +504,7 @@ validated-hours = ቅቡል ሰዓታት
 recorded-hours = ናይ ቀረጻ ሰዓታት
 subscribe = ተመዝገብ
 feedback-q = ርእይቶ ኣሎካ ድዩ?
+community-playbook = ኮማዊ ፕለይቡክ
 go-discourse = ናብ ዲስኮርስ ኪድ
 go-languages-page = ናብ ናይ ቛንቛታት ገጽ ኪድ
 more = ዝያዳ
@@ -521,8 +531,10 @@ contact-required = *ግዴታ
 
 ## Request Language Modal
 
+request-language-title = ጠለብ ቛንቛ
 request-language-form-language =
     .label = ቛንቛ
+request-language-success-title = ናይ ቛንቛ ጠለብኩም ተቐቢልናዮ ኣሎና። የቐንየልና።
 select-language = ቛንቛ ምረጽ...
 other-language = ካልእ ቛንቛ
 
@@ -538,6 +550,7 @@ language-search-input =
     .placeholder = ድለይ
 language-speakers = ተዛረብቲ
 sentences = ምሉእ ሓሳባት
+total-hours = ዝተረጋገጸ ሰዓታት
 
 ## Contribution
 
@@ -546,16 +559,64 @@ action-tap = ጠውቕ
 contribute = ኣበርክት
 listen = ስማዕ
 skip = ስገር
+contribute-more =
+    { $count ->
+        [one] ሓንቲ ክትውስኽዶ ትደሊ ኢኻ?
+       *[other] { $count } ክትውስኽዶ ትደሊ ኢኻ?
+    }
 record-cta = ምቕራጽ ጀምር
+record-platform-not-supported = ይቕሬታ፡ ኣብዚ ሕጂ እዋን ነዚ ፕላትፎርምካ ደገፍ የብልናን።
+record-platform-not-supported-desktop = … ብምውራድ ኣብ ዴስክቶፕ ከተበርክት ትኽእል ኢኻ።
+record-platform-not-supported-ios-non-safari = ኣብ ኣይ.ኦ.ኤስ ድምጺ ንኽትቐድሕ ሳፋሪ ተጠቐም።
+record-must-allow-microphone = ማይክሮፎን ንምጥቃም ከተፍቅድ ኣሎካ።
+record-no-mic-found = ማይክሮፎን ኣይተረኽበን።
+record-error-too-short = እዚ ናይ ድምጺ ቅዳሕ ብጣዕሚ ሓጺሩ።
+record-error-too-long = እዚ ናይ ድምጺ ቅዳሕ ብጣዕሚ ነዊሑ።
+record-error-too-quiet = እዚ ቅዳሕ ድምጹ ብጣዕሚ ትሒቱ።
+record-cancel = ዳግመ-ምቅዳሕ ሰርዝ።
+record-instruction = { $actionType }<recordIcon></recordIcon> ቀጺልካ ነቲ ምሉእ ሓሳብ ዓው ኢልካ ኣንብቦ
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ምስ ወዳእካ
+record-three-more-instruction = ሰለስተ ጥራይ ተሪፈናኻ!
+record-again-instruction = ተዓወት!<recordIcon></recordIcon> ትቕጽል ክሊፕ ቅላእ
+record-again-instruction2 = ኣጆኻ በርትዕ, ድምጺ ምቕዳሕ ቀጽል <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> ናይ መቀዳእታ!
+record-submit-tooltip = { $actionType } ድሉው ኣብ ዝኾንካሉ ኣረክብ
+clips-uploaded = ክሊፕስ ተሰቒሉ ኣሎ
+record-abort-title = ምቕዳሕዶ ቅድም ክትውድእ?
+record-abort-text = ኣብዚ ምቑራጽ ማለት እዚ ዝገበርካዮ ገስጋስ ክትስእኖ ኢኻ
+record-abort-submit = ክሊፕስ ኣረክብ
+record-abort-continue = ምቕዳሕ ዛዝም
+record-abort-delete = ክሊፓት ይደምሰስ። ኣውጽእኒ።
+listen-instruction = { $actionType }<playIcon></playIcon> ነቲ ጽሑፍ ብትኽክልዶ ተዛሪቦሞ?
+listen-again-instruction = ብሉጽ ስራሕ! <playIcon></playIcon> ምስ ተዳለኻ ምስማዕ ቀጽል
+listen-last-time-instruction = <playIcon></playIcon>ናይ መወዳእታ!
+speak-empty-state-cta = ምሉእ ሓሳባት ኣበርክት
+record-button-label = ድምጽኻ ቅዳሕ
+share-title-new = ተወሳኺ ድምጽታት ክንረክብ <bold>ሓግዙና</bold>
+login-to-get-started = ምቕዳሕ ንኽትጅምር፡ እተው ወይ ተመዝገብ
+target-segment-add-voice = ድምጽኻ ኣእትው
+target-segment-learn-more = ተወሳኺ ሓበሬታ
 
 ## Reporting
 
 report = ሓበሬታ
 report-title = ሓበሬታ ሃብ
+report-ask = ምስዛ ምልእቲ ሓሳባት እንታይ ዝግራት ኣጋጢሙካ?
+report-offensive-language = ስዲ ወይ ዘይቅቡል ቛንቛ
+report-offensive-language-detail = እዛ ጽሕፍቲ ስዲ ወይ ዘይቅቡል ቛንቛ ኣለዋ።
+report-grammar-or-spelling = ሰዋስዋዊ ወይ ናይ ኣጸሓሕፋ ጌጋ
+report-grammar-or-spelling-detail = እዛ ምሉእ ሓሳባት ናይ ሰዋስው ወይ ኣጸሓሕፋ ጌጋ ኣለዋ።
+report-different-language = ካልእ ቛንቛ
+report-different-language-detail = ካብ ቛንቛይ ብዝተፈልየ ቛንቛ እያ ተጻሒፋ።
+report-difficult-pronounce = ንኸተድምጾ ኣሸጋሪ
+report-difficult-pronounce-detail = ንኸተንብቦ ወይ ንኸተድምጾ ኣሸጋሪ ቃላት ወይ ሓሳባት ኣለዋ።
+report-offensive-speech = ጽዩፍ ዘረባ
+report-offensive-speech-detail = እዛ ክሊፕ ሕሱር ወይ ጽዩፍ ቃላት ኣለዋ።
 report-other-comment =
     .placeholder = ርእይቶ
 success = ዕዉት
 continue = ቀጽል
+report-success = ሓበሬታኻ ተቐቢልናዮ ኣሎና።
 
 ## Goals
 
@@ -564,22 +625,66 @@ days =
         [one] መዓልቲ
        *[other] መዓልታት
     }
+recordings =
+    { $count ->
+        [one] ቅዳሕ
+       *[other] ቅዳሓት
+    }
+validations =
+    { $count ->
+        [one] ዝተነጻጸረ
+       *[other] ዝተነጻጸረ
+    }
 
 ## Dashboard
 
+your-languages = ቛንቛኻ
+toward-next-goal = ናብ ዝቕጽል ዕላማ
+goal-reached = እቲ ዝመደብካዮ በጺሕካዮ ኣሎኻ
+clips-you-recorded = ዝቐዳሕኮዮ ክሊፓት
+clips-you-validated = ትኽክልነቱ ዘረጋገጽካዮ ክሊፓት
+stats = ጸብጻብ
+awards = ሽልማት
 you = ንስኻ
 everyone = ነፍሲ ወከፍ
+contribution-activity = ኣበርክቶታት
+top-contributors = ዝበዝሐ ዘበርከቱ
+recorded-clips = ክሊፕስ ቅዳሕ
+validated-clips = ትኽክል ምዃኑ ዝተረጋገጸ ክሊፓት
+total-approved = ብዝሒ ዝተፈቕደ
+overall-accuracy = ሓፈሻዊ ትኽክልነት
+show-ranking = ተርታይ ይረአ
 
 ## Custom Goals
 
 both-speak-and-listen = ክልቲኡ
+both-speak-and-listen-long = ክልቲኡ (ምዝራብን ምስማዕን)
+daily-goal = ማዓልታዊ ዕላማ
+weekly-goal = ሰሙናዊ ዕላማ
 easy-difficulty = ቀሊል
 average-difficulty = ማእከላይ
 difficult-difficulty = ከቢድ
+want-to-continue = ከተበርክት ትደሊ ዲኻ?
+finish-editing = ቅድም ምስትኽኻልዶ ክትውድእ?
+lose-changes-warning = ኣብዚ እንተ ኣቓሪጽካ፡ ኩሉ እቲ ዝገበርካዮ ለውጥታት ክጠፍእ እዩ
+set-a-goal = ዕላማ ኣቐምጥ
+cant-decide = ክትውስን ኣሸጊሩካ?
+how-many-per-day = ብጣዕሚ ጽቡቕ! ንማዓልቲ ክንደይ ክሉፕስ ክትቀድሕ ትደሊ?
+how-many-a-week = ብጣዕሚ ጽቡቕ! ንሰሙን ክንደይ ክሉፕስ ክትቀድሕ ትደሊ?
+which-goal-type = ድምጽኻ ክትቀድሕ ጥራይ ዲኻ ትደሊ ዋላስ ክትሰምዕ እንኮላይ ትደሊ ኢኻ?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] ሓንቲ ክሊፕ
+       *[other] { $count } ክሊፓት
+    }
+confirm-goal = ዕላማኻ ኣረጋግጽ
 goal-interval-weekly = ደሙናዊ
 share-goal-type-speak = ምዝራብ
 share-goal-type-listen = ምስማዕ
 share-goal-type-both = ምዝራብን ምስማዕን
+weekly-goal-created = ሰሙናዊ ዕላማኻ ተሰሪሑ ኣሎ
+daily-goal-created = ማዓልታፊ ውጥንካ ተሰሪሑ ኣሎ
+return-to-edit-goal = ናብዛ ገጽ እዚ ብምምላስ፡ ውጥናትካ ከተስተኻኽል ትኽእል።
 
 ## Profile Delete
 
@@ -591,17 +696,20 @@ remove = እለይ
 download-size = ዓቐን
 download-selected = ዝተመርጸ
 download-request-button = ኣውርድ
+download-request-metadata-link = ጽሑፍ
 
 ## Landing
 
 
 ## DemoLayout
 
+demo-get-started = ንጀምርዶ?
 
 ## Demo Datasets
 
 card-button-next = ቀጽል
 card-button-back = ተመለስ
+demo-account = ኣካውንት
 
 ## Demo Account
 
@@ -616,3 +724,6 @@ card-button-back = ተመለስ
 
 contribution-criteria-nav = ረቛሒታት
 contribution-for-example = ንኣብነት
+contribution-background-noise-title = ኣከባያዊ ረበሻታት
+contribution-background-voices-title = ኣከባያዊ ድምጽታት
+contribution-volume-title = ድምጺ
