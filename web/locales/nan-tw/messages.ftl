@@ -22,7 +22,10 @@ not-available-abbreviation = 無適用
 ## Languages
 
 ab = 阿布哈茲語
+af = 南非語
 ar = 阿拉伯語
+be = 白俄羅斯語
+bg = 保加利亞語
 cs = 捷克語
 da = 丹麥語
 de = 德語
@@ -31,6 +34,7 @@ es = 西班牙語
 fa = 波斯語
 fi = 芬蘭語
 fr = 法語
+ga-IE = 哀耳蘭語
 he = 希伯來語
 ht = 海地語
 id = 印尼語
