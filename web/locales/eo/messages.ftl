@@ -906,4 +906,7 @@ contribution-criteria-page-title = Kriterioj pri kontribuoj
 contribution-criteria-page-description = Lernu pri tio, kion vi devus serĉi kiam vi aŭdas voĉregistrojn kaj plibonigu viajn proprajn registraĵojn!
 contribution-for-example = ekzemple
 contribution-misreadings-title = Mislegoj
+contribution-misreadings-description-extended-list-1 = Mankas <strong>'A'</strong> aŭ <strong>'The'</strong> en la komenco de la registraĵo.
+contribution-varying-pronunciations-title = Malsamaj  prononcoj
+contribution-background-voices-title = Fonaj voĉoj
 contribution-volume-title = Laŭteco
