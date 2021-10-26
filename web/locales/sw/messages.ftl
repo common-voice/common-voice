@@ -897,6 +897,7 @@ contribution-criteria-nav = Vigezo
 contribution-criteria-link = Elewa vigezo vya michango
 contribution-criteria-page-title = Vigezo vya Mchango
 contribution-for-example = Kwa mfano
+contribution-misreadings-example-7-explanation = [Hakuna ‘a’ katika maandishi asili]
 contribution-misreadings-example-8-explanation = [Maudhui yasiyolingana]
 contribution-varying-pronunciations-title = Matamshi tofauti
 contribution-background-noise-title = Kelele za mandharinyuma
