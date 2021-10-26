@@ -897,3 +897,4 @@ contribution-criteria-nav = Vigezo
 contribution-criteria-link = Elewa vigezo vya michango
 contribution-criteria-page-title = Vigezo vya Mchango
 contribution-for-example = Kwa mfano
+contribution-background-noise-title = Kelele za mandharinyuma
