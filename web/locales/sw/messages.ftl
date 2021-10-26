@@ -897,6 +897,7 @@ contribution-criteria-nav = Vigezo
 contribution-criteria-link = Elewa vigezo vya michango
 contribution-criteria-page-title = Vigezo vya Mchango
 contribution-for-example = Kwa mfano
+contribution-misreadings-example-4-explanation = [Mengi zaidi yamerekodiwa kuliko maandishi yanayohitajika]
 contribution-misreadings-example-5-title = Tunakwenda nje kunywa kahawa.
 contribution-misreadings-example-6-title = Tunakwenda nje kunywa kahawa.
 contribution-misreadings-example-7-title = Tunakwenda nje kunywa kahawa.
