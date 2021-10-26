@@ -575,8 +575,6 @@ subscribe = Падпісацца
 get-started-speech = Пазнаёмцеся з распазнаваннем маўлення
 other-datasets = Іншыя наборы галасавых дадзеных
 feedback-q = Ёсць заўвагі?
-deepspeech-info = Набор дадзеных Common Voice дапаўняе наш рухавік распазнавання маўлення з адкрытым зыходным кодам – Deep Speech, які вы можаце выкарыстоўваць для распрацоўкі прылад з функцыяй распазнавання маўлення. Прачытайце наш <githubLink>агляд на Github</githubLink> ці далучыцеся да <discourseLink>Discourse-чату DeepSpeech</discourseLink>, каб даведацца, як пачаць.
-common-voice-info-new = Ёсць пытанні пра Common Voice? Маеце прапановы па паляпшэнні ці хочаце падзяліцца зваротнай сувяззю наконт асобных моў? Далучайцеся да <discourseLink>форума ў Discourse</discourseLink> і паведамляйце нам.
 data-other-librispeech-description = LibriSpeech – гэта корпус з прыблізна 1000 гадзін 16 кГц запісаў англійскага маўлення, атрыманых з чытання аўдыёкніг з праекта LibriVox.
 data-other-ted-name = Корпус TED-LIUM
 data-other-ted-description = Корпус TED-LIUM быў створаны з аўдыёзапісаў выступаў і іх транскрыпцый, даступных на сайце TED.
@@ -862,6 +860,17 @@ why-delete-recordings =
     
     Ці можаце паведаміць нам, чаму вы хацелі б выдаліць вашы запісы?
 profile-form-delete = Выдаліць профіль
+
+## Profile Download
+
+download-profile-title = Профіль
+download-profile-info = Змяшчае электронную пошту, імя карыстальніка і дэмаграфічную інфармацыю, даступна адразу
+download-profile-size = Некалькі байтаў
+download-recordings-title = Запісы
+download-recordings-info = Уключае mp3-файлы і звязаныя з імі сказы, падрыхтоўка можа заняць некаторы час
+download-recordings-size = Звычайна мегабайты
+download-start = Спампаваць дадзеныя профілю
+download-request = Запытаць запісы
 
 ## Landing
 
