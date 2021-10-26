@@ -30,6 +30,7 @@
 "De certa forma,?, então eu sou?" ele disse.
 "De onde estou?" o sol disse? "Eu posso ver a Alma do Mundo.
 "De onde você é de?" o menino perguntou.
+"De onde você é?" o menino perguntou.
 "Devo entender o Emerald Tablet?" o menino perguntou.
 "Dois dias atrás? você disse que eu nunca sonhei em viajar?" respondeu o comerciante.
 "E o que você faz em Salem?" ele insistiu.
@@ -131,6 +132,7 @@
 "Me ajude?" o menino disse.
 "Me conte mais sobre o seu sonho?" disse a mulher.
 "Me dê meu livro?" o menino disse.
+"Meu nome está nas manchetes”, disse o velho.
 "Meu nome é Melchizedek?", disse o velho.
 "Meu pai, me perdoe", acrescentou.
 "Muito melhor?" disse o velho.
@@ -240,6 +242,7 @@
 "É o nome da filha do Profeta,?", disse Fatima.
 "É o oásis?", disse o motorista do camelo.
 "É por isso que a alquimia existe?", disse o garoto.
+"É um código!”, disse a garota, bem satisfeita
 "É um código?" disse o garoto? um pouco desapontado.
 "É um sonho na linguagem do mundo?" ela disse.
 A casa em que moro é própria.
@@ -378,6 +381,7 @@ A apresentação da solicitação implicitamente implica a aceitação das bases
 A apresentação de um novo pedido de destino substitui o anterior.
 A apresentação pública de um relatório entregue por cada candidato será publicada previamente.
 A apropriação cultural foi duramente criticada
+A apólice de seguro irá expirar em dois mil e vinte.
 A apólice de seguro irá expirar em vinte e vinte.
 A aquisição fracassada gerou dúvidas sobre se a liderança da empresa é competente.
 A arbitrariedade da tirania deve ser claramente distinguida.
@@ -738,6 +742,7 @@ A estátua ficará em uma ponte com vista para o Castelo de Pembroke.
 A evapotranspiração potencial atinge valores máximos nas áreas vulneráveis ​​da Comunidade Valenciana.
 A exclusão não se aplica aos cigarros eletrónicos.
 A execução foi cancelada.
+A exibição de tais documentos será obrigatória no quadro de avisos da federação.
 A exibição estava abaixo do esperado.
 A existência do estado de Israel é questionada por países árabes
 A expectativa foi grande devido ao atraso, especialmente porque foi a primeira vez.
@@ -822,6 +827,7 @@ A fruta cresce em rochas altas.
 A fruta laranja ainda não está madura.
 A fumaça do tráfego era insuportável.
 A fumaça vinha de todas as rachaduras.
+A funcionária foi contadora por catorze anos.
 A furadeira sem fio da Jade se tornou defeituosa.
 A fábrica foi demitida devido a um mau funcionamento.
 A fábrica recentemente fez dinheiro
@@ -1064,6 +1070,8 @@ A melhor rota talvez não seja essa
 A memória da brevidade da vida constantemente nos impressiona.
 A memória do projeto de classificação fala de servidões renováveis.
 A memória é o tesouro da mente.
+A menina abraçou seu coelho.
+A menina abraçou seu gatinho.
 A menina asiática nova reza por uma vela.
 A menina em um vestido de flor está falando com as senhoras na rua
 A menina está pescando pelo lago calmo.
@@ -1250,7 +1258,9 @@ A panela ferveu, mas o conteúdo falhou.
 A paralaxe de movimento é uma dica de profundidade monocular.
 A parceria foi firmada entre as bancadas
 A parte branca do bacon é a gordura, e é a que dá sabor.
+A parte complicada é integrá-lo ao sistema.
 A parte complicada é integrá-lo com o Dragonfly.
+A parte complicada é integrá-lo à sociedade
 A parte das despesas executadas fora deste período não está sujeita a subsídio.
 A parte dispositiva da regra contém vinte e seis artigos estruturados em quatro títulos.
 A parte do sentimento não está relacionada a valores
@@ -1326,6 +1336,7 @@ A política liberal de nosso primeiro ministro mantém a moeda estável.
 A ponte será reformada no próximo ano
 A ponte suspensa estava balançando no vendaval.
 A pontuação máxima alcançável para a experiência profissional é de vinte pontos no total.
+A pontuação máxima para treinamento e aprimoramento profissional não pode exceder seis pontos.
 A população da favela convive com o medo.
 A população da favela vive com medo.
 A população das minas se estende e se torna grande.
@@ -4140,6 +4151,7 @@ As funções de conselho, supervisão e correção que os Estatutos reservam à 
 As funções do Conselho Eleitoral serão todas aquelas relacionadas ao controle do processo eleitoral.
 As férias duraram três dias.
 As galinhas deitam o bico.
+As galinhas põem tantos ovos por semana que não seria possível vender todos.
 As galinhas põem tantos ovos por semana? que não seria possível criá-los todos.
 As galinhas sempre voltam para casa à noite.
 As galinhas são adoráveis.
@@ -4226,6 +4238,7 @@ As pernas queriam descer e entrar.
 As pessoas acham que as montanhas não.
 As pessoas acreditam em tudo
 As pessoas andam em uma calçada ao lado de trilhos de bonde.
+As pessoas andam na frente da passarela.
 As pessoas andam na frente de alguns graffiti.
 As pessoas andam por um caminho em uma aldeia na Índia.
 As pessoas andam por uma rua de paralelepípedos com prédios em ambos os lados.
@@ -4479,7 +4492,10 @@ Atitudes e qualidades que favorecem a competição relacional com aqueles que so
 Atitudes nobres e virtuosas
 Ativamente ligar o mercado global
 Ativar legendas.
+Ativar modo de segurança.
 Ativar modo nortuno.
+Ativar modo notuno.
+Ativar modo silencioso.
 Ativar o som
 Atividades de solicitação de verão realizadas este ano
 Atividades que envolvem o processo de aprendizagem.
@@ -5153,6 +5169,7 @@ Boa mãe gera boa filha.
 Boa noita para vocês.
 Boa noite a todas, vamos começar a aula de anatomia e dissecar alguns animais
 Boa noite a todos.
+Boa noite para quem me quer bem.
 Boa noite!
 Boa noite, e bons sonhos.
 Boa ou boa sondagem.
@@ -5513,6 +5530,7 @@ Cada fabricante pode escolher quais banners representam e quais não.
 Cada foco será convenientemente identificado no local, de acordo com esta nomenclatura.
 Cada fogo é jogado em seu rebanho.
 Cada geada em março, uma furiosa em maio.
+Cada licitante só pode enviar uma proposta.
 Cada local na tela está em uma determinada linha e coluna.
 Cada macaco no seu galho
 Cada membro presente na Assembléia poderá ter no máximo duas delegações votantes.
@@ -5697,6 +5715,8 @@ Caminhe por cerca de quarenta minutos
 Caminhei a beira mar em Praia Grande com meu pai, durante minha juventude.
 Caminhei por cerca de seis minutos
 Caminho Primrose
+Caminho do seu lado sempre
+Caminho entre árvores bonitas
 Caminhou três quilômetros até chegar
 Caminhávamos devagar, quando fomos surpreendidos por você
 Camisola ou pijama
@@ -6455,9 +6475,12 @@ Chefe da sua escola
 Chefe de quadrilha
 Chefs preparam comida para os clientes de um restaurante de sushi.
 Chega de burrice com imóveis
+Chega de estudar, disse o garoto.
 Chega, todo mundo tem limites
 Chegamos ao campo quando não resta muito, porque está muito escuro.
 Chegamos na estação do parque Yuanshan
+Chegamos na estação do parque olímpico
+Chegamos na estação do parque subterrâneo
 Chegando na casa soltou Rói-Rói e passou a se divertir.
 Chegando velho, queremos vê-lo, mas sem ele.
 Chegando à porta, estacou assombrado.
@@ -6673,6 +6696,7 @@ Clevelândia
 Clifton é incapaz de alcançar a prateleira.
 Clima subtropical úmido
 Clipes gravados.
+Clique com cautela na resposta!
 Clique na imagem abaixo para saber mais.
 Cloreto de Sódio é apenas sal de mesa comum.
 Cloud-Blue disse isso e ele sempre estava certo.
@@ -6875,6 +6899,7 @@ Comer curry scones
 Comercinho
 Cometeu suicídio político
 Começa às oito horas.
+Começamos com alegria e tivemos boas intuições
 Começando com o seu próprio.
 Começaremos mencionando as principais vantagens e depois analisaremos os falsos mitos.
 Começará às oito horas.
@@ -6919,6 +6944,7 @@ Como ela estava!
 Como ela está em casa?
 Como ela parecia?
 Como ela é?
+Como ele conseguiu essa arma?
 Como ele está?
 Como ele parecia?
 Como ele poderia ser falso?
@@ -7391,6 +7417,7 @@ Coordenar as tarefas executadas pelos funcionários subordinados designados ao D
 Coordenar as unidades de gestão para obter os sistemas de informação do Departamento.
 Coordenar com outras administrações públicas a gestão de espaços compartilhados.
 Coordenar e supervisionar as ações relacionadas aos serviços de prevenção contratados de estrangeiros.
+Coordenar transferências internas.
 Coordenação com pais, equipes técnicas e profissionais que lidam com a deficiência.
 Coordenação entre profissionais que colaboram nos cuidados sociais de saúde.
 Copa da África do Sul.
@@ -7647,6 +7674,7 @@ Cujos homens são você?
 Cujubim
 Culpa do dinheiro.
 Cultive a próxima geração de desenvolvimento adaptativo
+Cultivo da terra seca, que corresponde à terra usada para o cultivo de cereais.
 Cultivo de uma pequena horta na varanda
 Cultura pop popular
 Cumari
@@ -7740,6 +7768,7 @@ Da dança do ventre sai.
 Da estação ferroviária, à distância, vinha o som dos trens tocando e roncando.
 Da experiência deriva o contraste
 Da mesma forma, a abertura comercial é ao mesmo tempo uma das características distintivas.
+Da mesma forma, a documentação está completa e os vários relatórios obrigatórios foram solicitados.
 Da mesma forma, devemos acrescentar o tema da morte e ressurreição.
 Da mesma forma, haverá os depósitos de retenção correspondentes.
 Da mesma forma, municípios limítrofes têm abundantes terras industriais disponíveis para conter atividades.
@@ -8007,6 +8036,7 @@ Deixe-os viver uma vida dura
 Deixe-se sair do problema primeiro
 Deixo claro que em nenhum momento tenho a intenção de tirar a responsabilidade
 Deixo má companhia, que é pior que fogo ou pequena.
+Deixou cinco filhos, dois deles adotados
 Deixou de existir
 Deixou um rastro esverdeado que brilhou por alguns segundos.
 Deixá-la ir
@@ -8020,6 +8050,7 @@ Delta
 Demais!
 Demais, não é bom.
 Demanda por todas as etapas das pessoas ou negócios
+Demandara as miniaturas das constelações
 Demasiada comida é jogada fora.
 Demasiada força sozinha.
 Demasiado carboidrato
@@ -9188,6 +9219,7 @@ E lamento dizer que o congestionamento está aumentando.
 E lá estava você na cama.
 E mais nada.
 E me pegue uma caneta.
+E muita ajuda é necessária para fazer todo esse trabalho.
 E no final? todos escaparam com apenas pequenas abrasões.
 E nos países catalães pode haver muito do primeiro e muito pouco do segundo.
 E não bata com nada.
@@ -9392,6 +9424,7 @@ Ela dançou como um cisne? alto e gracioso.
 Ela dará a luz em oito dias a uma criança
 Ela decidiu tirar algum dinheiro de sua mãe.
 Ela deixou o celular em casa.
+Ela desmontou da bicicleta.
 Ela deu a cada um deles metade para fazê-los trabalhar juntos.
 Ela deu à luz a filha mais nova
 Ela deu à luz um menino
@@ -10852,6 +10885,7 @@ Em seguida, divide alguns conteúdos genéricos do Programa de Monitoramento Amb
 Em seguida, rale os tomates e cozinhe por cerca de quinze minutos.
 Em seguida, retire a farinha, fermento e casca de limão salgado.
 Em segundo lugar, devemos promover uma transformação modernizadora de nossa estrutura produtiva.
+Em segundo lugar, eles usam a temporalidade como uma ferramenta de negociação.
 Em segundo lugar, há a alegria perfeita.
 Em segundo lugar, um estudo estratégico das empresas deve ser realizado.
 Em setembro iremos para a colheita de Josep de Carro.
@@ -11237,6 +11271,7 @@ Então, novamente, é o painel
 Então, não se preocupe, eu não vou começar assim também.
 Então, o que está acontecendo?
 Então, o que você diz que devo fazer?
+Então, podemos dizer que o bilinguismo é outro tipo de multilinguismo.
 Então, por que eles deveriam se surpreender quando vêem um?
 Então, quais são seus planos para esta noite?
 Então, você mesmo se respondeu
@@ -11662,6 +11697,7 @@ Esses edifícios e a história ao redor deles atraem milhares de turistas.
 Esses empresários egoístas sempre se consideram importantes, só porque usam gravata.
 Esses enganos teriam, então, uma dupla leitura.
 Esses espaços não podem ser ocupados pelo comerciante ou sua mercadoria.
+Esses funcionários continuarão a receber a remuneração correspondente ao local de trabalho que ocupam.
 Esses impactos serão basicamente o movimento de terras e rochas da encosta.
 Esses jovens estão relaxando na grama.
 Esses motivos podem ser curtos e repetitivos, ou mais longos e mais variados.
@@ -11867,6 +11903,7 @@ Estação
 Estação Espacial Internacional
 Estação de serviço de emprego Beitou
 Este ar sombrio, estas gotas do céu
+Este acordo não atribui um direito de exclusividade a nenhum dos dois signatários.
 Este acordo não está sujeito ao direito internacional e não é juridicamente vinculativo.
 Este acordo visa aprovar cinco linhas de subsídios no campo das artes.
 Este adolescente não pode resistir.
@@ -12009,6 +12046,7 @@ Este é um problema de percepção da falta de democracia.
 Este é um processo extremamente complicado.
 Este é um tipo diferente de pesquisa.
 Este é um truque para obter sua simpatia.
+Este último atuará como secretário.
 Este último deve ser transportado no intervalo indicado pelo tribunal.
 Este, penso eu, foi o verdadeiro prato do pós-guerra.
 Estefane, Iuri, Larisa, Jakeline e Raiane
@@ -12532,6 +12570,7 @@ Eu falo francês fluentemente.
 Eu falo um pouco de irlandês.
 Eu faria isso depois.
 Eu faria se achasse que eu ouviria alguma coisa que valesse a pena ouvir.
+Eu faço a minha vida prevendo o futuro para as pessoas
 Eu faço o melhor que posso para ajudar.
 Eu ficarei aqui até sábado.
 Eu ficarei aqui por mim durante este tempo.
@@ -12711,6 +12750,7 @@ Eu nunca poderia saber se eu fiz uma carta ruim.
 Eu nunca roubei um relógio na minha vida.
 Eu nunca soube que a vovó era tão determinada antes.
 Eu nunca soube que ele tinha um diário.
+Eu nunca tinha ouvido falar de alquimistas antes
 Eu nunca tive essa ideia.
 Eu nunca vi Amanda agir assim antes.
 Eu nunca vi essa abordagem para essa questão?, mas pode funcionar.
@@ -13184,6 +13224,7 @@ Eu quero fazer doação.
 Eu quero fazer isso?
 Eu quero fazer o que eu quero fazer.
 Eu quero ficar aqui por uma noite.
+Eu quero ficar no oásis
 Eu quero ganhar um prêmio.
 Eu quero ir com a tia.
 Eu quero ir para casa
@@ -13860,6 +13901,7 @@ Fatores que condicionam ou modificam a proposta.
 Fatores que influenciam a absorção de energia.
 Fatores que influenciam a adesão terapêutica.
 Fatores que influenciam a permeabilidade da pele.
+Fatores que influenciam a quantidade de armadilhas necessárias.
 Fatores que modificam a toxicidade.
 Fatos científicos têm sido questionados por líderes governamentais energúmenos e ignorantes que nada compreendem
 Favor que o outro projeto também fazia.
@@ -13884,6 +13926,7 @@ Fazer um robô com sorvete parece muito pouco prático.
 Fazer uma transferência de valores para meu cunhado e seu sócio
 Fazer uma vaquinha
 Fazia parte de uma oficina de artesanato têxtil no distrito industrial de Alcoy.
+Fazê-lo depende apenas dos usuários.
 Faça a leitura do livro essa semana.
 Faça a oferta de forma clara e em diferentes formatos.
 Faça algumas verificações de dados duplicadas
@@ -14054,6 +14097,7 @@ Filipe faltou a aula.
 Filipe tinha uma conta no Itaú, mas usava seu cartão do Citi Bank.
 Filmes com Angelina Jolie.
 Filmes em que Keanu Reeves estava.
+Filmes pornôs têm argumentos estimulantes.
 Filmes que serão lançados nesse ano.
 Filosofia é meu assunto favorito.
 Filtre o que é desnecessário para a progressão térmica
@@ -15150,6 +15194,7 @@ Há um que diz? 'Tudo o que acontece uma vez nunca pode acontecer novamente.
 Há um risco de contaminação
 Há um réptil nos meus sapatos ocidentais.
 Há uma anomalia crescente sendo detectada
+Há uma caravana saindo hoje para o deserto.
 Há uma carne na mesa que é muito deliciosa.
 Há uma carne que é muito deliciosa.
 Há uma criança pequena brincando em uma piscina infantil verde.
@@ -15808,6 +15853,7 @@ Isso é verdade? o menino pensou.
 Isso é vergonhoso.
 Isso é ótimo!
 Isso, na minha opinião, não é o caminho.
+Isto consiste em três aspectos: ajuda financeira, ação política e envolvimento ativo.
 Isto irá cancelar automaticamente os sacos das especialidades acima mencionadas até então.
 Isto não impede a federação.
 Isto não é lugar para você.
@@ -16548,6 +16594,7 @@ Leila, Augusto, Gerson e Rogério
 Leite desnatado geralmente é mais saudável
 Leite e dois açucares, por favor.
 Leite é super rico
+Leitura, discussão e votação sobre as questões e opiniões que aparecem na agenda.
 Lembrando de vidas passadas
 Lembre-me de acordar amanhã às oito da manhã.
 Lembre-me de comprar alguns ovos na próxima vez que eu estiver na loja.
@@ -17772,6 +17819,8 @@ Meu laptop quebrou quando eu deixei cair.
 Meu malvado favorito
 Meu marido revelou que ele era homossexual.
 Meu namorado pegou dois peixes enormes ontem à noite.
+Meu nome está na boca do povo.
+Meu nome está nos jornais.
 Meu nome é Deborah.
 Meu nome é Heather.
 Meu nome é Roberto.
@@ -18952,6 +19001,7 @@ Note-se que o separador introduziu tecnologia que aumenta seu desempenho.
 Notebook, desktop, impressora, netbook e tablet
 Notemos, contudo, que não trata da harmonia na linha dos tratados históricos tradicionais.
 Notificando a unidade policial
+Notificação da mensagem de voz
 Notifique as partes.
 Notifique esta resolução à Comissão de Negociação.
 Notifique o promotor, o Ministério Público, os coproprietários e os pais biológicos de menores.
@@ -20685,6 +20735,7 @@ O comunismo é o oposto do capitalismo.
 O comércio justo não é um assalto.
 O comício venceu por San Juan, é uma reunião e meia para o Natal.
 O conceito de patente, aplicado a programas de computador, não faz sentido.
+O conceito de tempo geológico é uma ideia norteadora em todo o núcleo.
 O conceito principal é
 O concurso para a aprovação inicial dos regulamentos é do Conselho de Governo.
 O concurso para punir os outros colegas corresponde ao Conselho de Governadores dos colégios.
@@ -20842,6 +20893,7 @@ O dióxido de carbono está causando o aquecimento global.
 O documento ambiental apresenta duas alternativas, a escolhida e a alternativa zero.
 O documento estratégico inicial do plano foi acompanhado pelo pedido.
 O documento fornece seus próprios regulamentos, consistentes com o conteúdo do documento geral.
+O documento inclui fotografias da área.
 O documento não especifica se as rotundas estarão acesas ou não.
 O domínio público e o privado.
 O dono do apartamento não se divertiu.
@@ -21722,6 +21774,7 @@ O processador de texto faz coisas estranhas com hífens.
 O processamento das emoções dos personagens também é muito bom
 O processamento do processo penal interromperá os prazos de prescrição da infração.
 O processamento emocional também é muito bom
+O processo de bolha é exatamente o mesmo.
 O processo necessário em cada estágio
 O processo será semelhante a outras eleições.
 O produto desta cisa serviu para pagar a festa do padroeiro São Pedro.
@@ -21873,6 +21926,7 @@ O que eu vou fazer?
 O que faremos
 O que faremos agora?
 O que faremos senão esperar por isso?
+O que faremos!
 O que faz você pensar que eles estão interessados??
 O que fazer
 O que fazer em Holly Recreation Area às oito
@@ -23008,6 +23062,7 @@ Os diamantes são para sempre.
 Os dias de verão são chatos.
 Os dias não são mais tão fáceis como sempre
 Os dias são muito instáveis
+Os direitos que a lei confere aos acionistas são salvos.
 Os documentos comprovativos devem ser revistos e mantidos
 Os documentos foram requisitados para cassação da chapa
 Os doentes se tornam como criaturas.
@@ -23085,6 +23140,7 @@ Os homens participam de um jogo de beisebol.
 Os homens pensam, planejam e às vezes agem.
 Os homens pensam, planejam e às vezes trabalham.
 Os homens se amontoam por necessidade e mulheres, para serem amadas.
+Os homens se movem constantemente, o espírito humano parece quase imóvel.
 Os homens se tornam mais bárbaros.
 Os homens subiram a colina? e estavam cansados ​​quando chegaram ao topo.
 Os homens são assim, não acreditam em nada.
@@ -23370,6 +23426,7 @@ Outra coisa.
 Outra corrida no banco?
 Outra hora começou a dominar os clientes.
 Outra mudança importante no motor foi necessária para corrigir uma grave escassez.
+Outra noção também sugestiva é a da sinergética sociolinguística.
 Outra pausa.
 Outra pessoa ajudou ele.
 Outra pessoa estava lá para ajudá-lo em seu destino.
@@ -23898,6 +23955,7 @@ Parece-me que nesse caminho fizemos cerca de duzentos.
 Pareceu-lhe que não havia problemas.
 Pareceu-lhe, e era verdade, que Fortunato havia-o inteiramente esquecido.
 Pareci Novo
+Parecia impossível que um homenzinho de barba que causasse medo fosse tímido como seminarista.
 Parecia que ele havia feito a longa jornada por nada.
 Parecia que estavas chateada comigo.
 Parecia que, de repente, eles haviam perdido a voz.
@@ -24775,6 +24833,7 @@ Por outro lado, há falta de estabelecimentos em muitos bairros.
 Por outro lado, isso não se refere apenas à ciência administrativa.
 Por outro lado, numerosos tratados internacionais seguem na mesma direção.
 Por outro lado, o caso basco é extraordinariamente interessante.
+Por outro lado, outras questões levantam muito mais dificuldade.
 Por outro lado, outro emprego
 Por outro lado, prepare um grande pedaço de alho e salsa.
 Por outro lado, é o mesmo em higiene, em moralidade.
@@ -25482,6 +25541,7 @@ Quais são os quatro tipos diferentes de osso no corpo?
 Quais são os tempos do filme?
 Quais são os títulos?
 Quais vacinas já estão disponíveis para a nossa região?
+Quaisquer reclamações que não forem consideradas serão respondidas por escrito às partes interessadas.
 Qual a capital da Coreia do Sul?
 Qual a capital do Amazonas?
 Qual a data de validade do mel daquele apiário?
@@ -26409,6 +26469,7 @@ Quem foi?
 Quem for a Viena, solte a barriga.
 Quem ganhou?
 Quem incluiu oitocentas combinações do nome Antônio no Common Voice?
+Quem incluiu tantas sentenças mal traduzidas do espanhol ao Common Voice?
 Quem inventou o computador?
 Quem joga e ganha vinho, e volta a jogar vinho, paga o vinho.
 Quem já chegou?
@@ -27208,6 +27269,7 @@ Sabia da conversa do menino com o deserto? porque os ventos sabem tudo.
 Sabino
 Sabinópolis
 Saboeiro
+Sabonete líquido íntimo
 Sabor doce ao recordar
 Sabáudia
 Sacerdote tetraplégico
@@ -27705,6 +27767,7 @@ Se os desejos não são muito grandes, eles se renovam constantemente.
 Se os pássaros não viessem, o trigo não cresceria.
 Se pararmos e tirarmos fotos, chegaremos às quatro da tarde.
 Se por medo dos pardais parassem de semear, eles seriam colhidos mais tarde.
+Se portar diante da câmera
 Se pretende ser rico, pense em economizar tanto quanto em ganhar.
 Se quer conhecer sua luz, vá conhecer primeiro sua escuridão
 Se quiser que o fogo seja desligado, traga a lenha para perto.
@@ -27999,6 +28062,7 @@ Sentado em silêncio no escuro
 Sentado na colina do teleférico, a neve é ​​maior
 Sentado no salão e descansando
 Sentado à porta da cozinha
+Sente-se e deixe-me tratar de você.
 Sentença é uma unidade linguística constituída por uma ou mais palavras gramaticalmente vinculadas
 Senterada está no Vale das Trevas.
 Senti o sabor e aroma do açafrão nesta receita
@@ -28295,6 +28359,7 @@ Sim? Eu tive uma cutucada nisso e não consegui descobrir o que estava errado.
 Sim? seria.
 Sim? é desorganizado, mas ainda assim acontecerá.
 Sim? é o que eu estava pensando também.
+Simbiose industrial que promove a eficiência dos recursos materiais além da água.
 Simolândia
 Simonésia
 Simplesmente falando
@@ -29277,6 +29342,7 @@ Tem uma população de quase meio milhão.
 Tem uma superfície construída de dez metros, sessenta e dois centímetros quadrados.
 Tem uma superfície útil de doze metros, quarenta e três decímetros quadrados.
 Tem uma tendência patriarcal séria
+Tem uma área construída de cento e vinte e seis metros, cinquenta decímetros quadrados.
 Tem uma área construída de dezessete metros e oitenta e um centímetros quadrados.
 Tem uma área construída de oitenta e oito metros, noventa decímetros quadrados.
 Tem uma área construída de quinhentos e sessenta metros quadrados em cada andar.
@@ -29303,6 +29369,7 @@ Temos que procurar um modelo alternativo e conviver com as multinacionais.
 Temos que produzir um show agora.
 Temos que tirar essa mesa daqui.
 Temos um mês para arquivar um dossiê e obter mais apoio.
+Temos um problema.
 Tempero de arroz.
 Tempestade aumentando sobre as Montanhas Rochosas.
 Tempestade e estresse.
@@ -30145,6 +30212,7 @@ Tudo o que eles pensam é comida e água.
 Tudo o que eles queriam era comida e água.
 Tudo o que não é considerado importante é um engano de comércio.
 Tudo o que temos é passageiro
+Tudo o que vi foi um aglomerado de pessoas.
 Tudo o que você precisa saber que aprendeu durante a sua jornada.
 Tudo parece começar de novo
 Tudo parece moído, ou muito ruim ou muito bom.
@@ -32828,6 +32896,7 @@ Vermelho Novo
 Vermelho é minha cor favorita.
 Vertente do Lério
 Vertentes
+Verá o sol nascer quadrado
 Verão seco, primavera outono.
 Verê
 Veríssimo
@@ -33341,6 +33410,7 @@ Você não pode voltar
 Você não poderia ter uma cama maior aqui embora.
 Você não precisa assinar nada.
 Você não precisa de nenhum outro framework básico de identidade.
+Você não precisa enviar as publicações mencionadas no modelo de currículo.
 Você não precisa fazer nada desse tipo!
 Você não precisa ir comigo.
 Você não precisa se desculpar.
@@ -34967,6 +35037,7 @@ zé Doca
 É imperativo que haja uma forte vontade política para materializar o projeto.
 É importante
 É importante entender bem esse ponto.
+É importante favorecer uma capitalização inspirada na necessidade de práticas interessantes.
 É importante manter a mente aberta? e ela me incentivou a fazer o mesmo.
 É importante para mim manter a Internet saudável.
 É impossível
@@ -35082,6 +35153,7 @@ zé Doca
 É o melhor lanche que você já fez na vida.
 É o mesmo para informar, comunicar, impor, convencer, persuadir, manipular e negociar?
 É o modelo que emerge dos dados e a reação foi extraordinariamente positiva.
+É o nosso futuro.
 É o nosso indicador
 É o passaporte da sua esposa?
 É o pedágio para tentar escapar dos babuínos.
@@ -35224,6 +35296,7 @@ zé Doca
 É um negócio ou não é?
 É um negócio?
 É um número extremamente grande
+É um obstáculo ao desenvolvimento produtivo, econômico e geoestratégico do país.
 É um olhar de cumplicidade.
 É um pouco mais íntimo
 É um precedente muito útil.
