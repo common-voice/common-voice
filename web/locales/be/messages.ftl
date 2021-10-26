@@ -863,6 +863,8 @@ profile-form-delete = Выдаліць профіль
 
 ## Profile Download
 
+download-q = Жадаеце спампаваць свае дадзеныя?
+download-info = Скажыце нам, што вы хацелі б спампаваць:
 download-profile-title = Профіль
 download-profile-info = Змяшчае электронную пошту, імя карыстальніка і дэмаграфічную інфармацыю, даступна адразу
 download-profile-size = Некалькі байтаў
@@ -871,6 +873,7 @@ download-recordings-info = Уключае mp3-файлы і звязаныя з 
 download-recordings-size = Звычайна мегабайты
 download-start = Спампаваць дадзеныя профілю
 download-request = Запытаць запісы
+download-request-title = { $created }
 
 ## Landing
 
