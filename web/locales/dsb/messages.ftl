@@ -601,6 +601,7 @@ resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ jo <docsLink>sajźb
 resource-deepspeech-info = Mašina głosowego spóznaśa wótwórjonego žrědła Mozilla dajo se wužywaś, aby nałoženja głosowego spóznaśa wuwijaś. Cytajśo naš <githubLink>pśeglěd Github</githubLink> abo pśizamkniśo se forumoju <discourseLink>DeepSpeech Discourse</discourseLink>, aby zgónił, kak móžośo zachopiś.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> jo za wótwórjonu powědańsku technologiju myslony. Jich projekty SST- a TTS-systemy na zakłaźe dłymokego wuknjenja wopśimuju.
 community-playbook = Zapiski zgromaźeństwa
+resource-playbook-info = <playbookLink>How namakajośo wužytne rozpokazanja</playbookLink> wó cełek droze projekta Common Voice, wót lokalizacije do wužywanja datowych sajźbow a wó zwisku z našym zgromaźeństwom.
 data-other-librispeech-description = LibriSpeech jo korpus skóro 1.000 góźinow wjengelskej rěcy (nagrate z 16 Khz), kótarež z wótsłuchańskich knigłow projekta LibriVox póchadaju.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM jo napórał z awdiopśednoskow a jich transkripcijow, kótarež su na websedle TED k dispoziciji.
