@@ -541,6 +541,7 @@ download-language = { $language } ኣውርድ
 validated-hours = ቅቡል ሰዓታት
 recorded-hours = ናይ ቀረጻ ሰዓታት
 subscribe = ተመዝገብ
+other-datasets = ካልኦት ድምጺ ሓበሬታታት
 feedback-q = ርእይቶ ኣሎካ ድዩ?
 community-playbook = ኮማዊ ፕለይቡክ
 go-discourse = ናብ ዲስኮርስ ኪድ
