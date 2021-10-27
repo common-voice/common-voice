@@ -545,19 +545,24 @@ why-email = <b>ስለምንታይ ኢ-መይል እልእኽ? </b> ኣብ መጻ
 confirm-size = <b>{ $size } </b> ከተራግፍ ተዳሊኻ ኣለኻ ።
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = ንመንነት እቶም ኣብ ናይ ሓባር ድምጺ ሓበሬታ ዘለዉ ተዛረብቲ ንምልላይ ከይትፍትን <b>ትሰማምዓሉ ኢኻ</b>
+confirm-no-identify = ንመንነት እቶም ኣብ ናይ ኮመን ቮይስ ሓበሬታ ዘለዉ ተዛረብቲ ንምልላይ ከይትፍትን <b>ትሰማምዓሉ ኢኻ</b>
 download-language = { $language } ኣውርድ
 validated-hours = ቅቡል ሰዓታት
 recorded-hours = ናይ ቀረጻ ሰዓታት
+whats-inside = ኣብ ውሽጢ ኮመን ቮይስ ሓበሬታ እንታይ ኣሎ?
+want-dataset-update = ሓድሽ ሕታም ናይ ኮመን ቮይስ ሓበሬታ ኽንወጽእ ከለና እዋናዊ ሓበሬታ ኽትረክብ ትደሊዶ? ናብ ጋዜጣና ተመዝገብ።
 subscribe = ተመዝገብ
+get-started-speech = ንኣፍልጦ ዘረባ ንምጅማር ተበገስ
 other-datasets = ካልኦት ድምጺ ሓበሬታታት
 feedback-q = ርእይቶ ኣሎካ ድዩ?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ከኣ<docsLink>ክፉት ምንጪ ዘለዎ ንዋት </docsLink> ተመራመርቲ ብሉጽ ዝዀነ ምስ ሰባት ዚዘራረቡ AI ሞደል ኬማዕብሉ ዘኽእል እዩ።
 resource-coqui-info = <coquiLink>Coque</coquiLink> ናይ ምዝራብ ተክኖሎጂ ንምኽፋት እተወፈየት እያ። እቲ ፕሮጀክትታቶም ከኣ ዓሚቅ ምምሃር ዝተመርከሰ STTን TTS ሞተረታት ይጠቃልል።
 community-playbook = ኮማዊ ፕለይቡክ
+data-other-librispeech-description = ሊብሪሽፒች ካብቲ ኣብ ፕሮጀክት ሊብሪቮክስ እተረኽበ ናይ ድምጺ መጻሕፍቲ እተወስደ ናይ እንግሊዝኛ ዝርርብ ብገምጋም 1000 ሰዓታት 16ኪሎ ሀርዝ ዘንብብ ኢዩ ።
 data-other-ted-name = TED-LIUM ኮርፐስ
 go-discourse = ናብ ዲስኮርስ ኪድ
 go-languages-page = ናብ ናይ ቛንቛታት ገጽ ኪድ
+ready-to-validate = ሓገዝካ ንምሉእ ሓሳባት ንምርግጋጽ ድሉው ዲኻ?
 more = ዝያዳ
 close = ዕጾ
 download = ኣውርድ
@@ -611,6 +616,11 @@ action-tap = ጠውቕ
 contribute = ኣበርክት
 listen = ስማዕ
 skip = ስገር
+clips-with-count-pluralized =
+    { $count ->
+        [one] ክሊፕ
+       *[other] ክሊፓት
+    }
 contribute-more =
     { $count ->
         [one] ሓንቲ ክትውስኽዶ ትደሊ ኢኻ?
