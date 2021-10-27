@@ -932,6 +932,7 @@ Arada bir fark vardı.
 Arada bizim tahsil yandı.
 Aradaki bu muazzam mesafe elimi kolumu bağlıyordu.
 Aradaki fark ne?
+Aradaki farkı ben yarın uğradığımda alırım.
 Aradaki mesafe azalınca ona doğru koştular.
 Aradan aylar geçti.
 Aradan aylar geçtiği halde bir türlü bu tesirden kurtulamadım.
@@ -956,6 +957,7 @@ Arayacak.
 Arayacağım.
 Araştır.
 Araştıracağım.
+Ardıç ezip suyunu içirdim…
 Arka kapıdan.
 Arka tarafta.
 Arka tekerleğin rondu sahiden fırlamış.
@@ -1520,6 +1522,7 @@ Baksana!
 Baksana.
 Baksana...
 Baktım kız da yavaş sesle okuyor.
+Baktım vakti gelmişe benzer, başında candan adamı yok, ağzına bir yudum su akıtacak oldum.
 Baktın ibrik akıyor; önce götünü yu, sonra aptes boz.
 Baktığımda gökyüzüne…
 Bakın bana!
@@ -1969,6 +1972,7 @@ Belki bir daha görüşemeyiz!
 Belki bir gün parasını da verecekti?
 Belki bir gün, iki gün insan yüzü göremeyecektik…
 Belki bir hafiflik yapmıştım.
+Belki bir saate yakın bekledi, odasının kapısını açıp açıp içeri baktı, kimsecikler yoktu.
 Belki biraz hayret, fakat daha ziyade, alaka ve şefkatle bana bakıyordu.
 Belki bu da kâfiydi.
 Belki bu hayat, sık sık uykusuzluk sinirleri bozuyor!
@@ -1998,6 +2002,7 @@ Belki de sular aldı denize götürdü! derlermiş.
 Belki de yoktur.
 Belki de.
 Belki de...
+Belki derdinin büyüklüğü onun nutkunu tutuyor.
 Belki doğru söylüyordu.
 Belki dört saatten beri yürüyordum.
 Belki gelirim.
@@ -2479,6 +2484,7 @@ Beni burada bırakmayın!
 Beni burada mı beklediniz?
 Beni burada mı bırakacaksın?
 Beni burada tutamazsınız.
+Beni bütün Aydın'a rüsva etti.
 Beni bırakma.
 Beni daha uzaktan dürbünle dikiz edip atlatma planları hazırlamışlar.
 Beni de al.
@@ -2561,6 +2567,7 @@ Beni takip edin.
 Beni takip et.
 Beni tanımadın mı?
 Beni tanımadınız mı?
+Beni tanımadığınız halde, tanıdığınızı söylettiler…
 Beni tanımıyorsun.
 Beni tanıyor musun?
 Beni tanıyorsun.
@@ -2996,6 +3003,7 @@ Bir dakikan var mı?
 Bir dame düşürdü beni ki bahtı siyahım…
 Bir de bana bak.
 Bir de bana sor.
+Bir de bu söylediğimiz devler.
 Bir de karakolda kimi görsem: Bizim Kara Muradın Bekir'i.
 Bir de rüzgar.
 Bir de sizin gördüğünüz.
@@ -3042,6 +3050,7 @@ Bir gün baktım, sazını da evine götürmüş…
 Bir gün başına bir iş gelir.
 Bir gün buna birkaç arkadaşıyla beraber yolda tesadüf ettim.
 Bir gün doğduğum günü sordu.
+Bir gün dükkana uğradı: "Bizdeki de akıl mı ya?" dedi, "öyleleri bize bakar mı?"
 Bir gün dükkanın bir köşesinde tutkal kaynatıyorduk.
 Bir gün evvel yolda sağ tekerleğin rondu fırlamış, telle bağlamışlar…
 Bir gün kadın: "Bak, bu 'Sonbahar Şarkısı'dır" dedi.
@@ -4061,6 +4070,7 @@ Bu kadar komik olan ne?
 Bu kadar komik olan nedir?
 Bu kadar mı?
 Bu kadar sene de oturdum zaten.
+Bu kadar sene karşıbe-karşı esnaflık ettik.
 Bu kadar ustası olduktan sonra hakkıdır alimallah…
 Bu kadar yeter!
 Bu kadar yeter.
@@ -5265,6 +5275,7 @@ Bırakın.
 Bırakıyorum.
 Bıçak sapını kesmez.
 Bıçağı bana ver.
+Bıçağının altına yatanın sağ kalktığı görülmüş mü?
 Bıçağının dokunduğu yerde illet kalmıyor.
 Caddenin iki tarafı gazinolar, sinemalar, tiyatrolarla kaplıydı.
 Caddeye çıkınca bu kadın kalabalığı içinde şaşırdım.
@@ -6080,6 +6091,7 @@ Dört beş günde bir iş bulup alacağı yirmi otuz kuruşla nasıl yaşıyordu
 Dört defadır da bir bahaneyle muhakemesini erteletiyor, bakalım bu sefer…
 Dört duvardan ve iki candarmadan başka bir şey yoktu.
 Dört el bir olunca ne olmaz ki…
+Dört gelin verdik de birini sağ komadınız…
 Dört gözle bekleyeceğim.
 Dört gün sonra, Polonya ve Romanya üzerinden Türkiye'ye döndüm.
 Dört gün sonra, bir gece yarısı kasabaya girdiler…
@@ -6097,6 +6109,7 @@ Dört...
 Dövüş!
 Düdüğünü daha uzaklarda yanık yanık öttüren bir gemi şimdi yaklaşmış, demir atıyordu.
 Dükkanda başka müşteri yoktu.
+Dükkanda camekanda gördüklerimden başka bir şey yok gibiydi.
 Dükkandan çıktım.
 Dükkânlardan birinin önünde sallanan kocaman saat altıyı gösteriyordu.
 Dümdüz.
@@ -6254,6 +6267,7 @@ Efendim, ben ona gittim: Beni dışarı attı.
 Efendim, ben…
 Efendim, ecnebilerin ilmi kıymetlerini inkar etmek aklımızdan geçmez.
 Efendim, iyi misiniz?
+Efendim, ne demek? Bu memlekette bu ameliyatı yapacak adam yok mu?
 Efendim.
 Efendim...
 Efendim?
@@ -6420,6 +6434,7 @@ Emin misin?
 Emin misiniz?
 Emin olabilirsin.
 Emin olun.
+Emine acı acı gülmüş de demiş ki:
 Emine bunu duyunca: 'Yalan!' demiş, 'Haşan ölmedi ki!"
 Emine kimsecikleri görmez, kimseciklerin sözüne bakmaz, durup dinler…
 Emine onun yüzüne gülüvermiş…
@@ -8292,6 +8307,7 @@ Hakkı ne ise o kadar yatıp çıkacaktı.
 Hakkı vardı.
 Hakkı'nın arkasından, bir söz bile demeden çıktı, dükkanına gidip kepenkleri indirdi, kapıyı kilitledi.
 Hakkı, "Yusuf'u kim bilmez?" deyince, "Yusuf'a benden çok selam et!"
+Hakkı: "Aleykümselam" dedi.
 Hakkımızı yedirmeyiz!
 Hakkın var!
 Hakkın var.
@@ -8413,6 +8429,7 @@ Hangi bölümdesin?
 Hangi cehennemdesin?
 Hangi cehennemdeydin?
 Hangi ev?
+Hangi felaket yahu?
 Hangi gün?
 Hangi gündeyiz?
 Hangi insanlar?
@@ -8554,6 +8571,7 @@ Hatta belki de demedim, farkında olmadan aynı saatte kendimi orada buldum.
 Hatta beni öldürsün.
 Hatta benim bile!
 Hatta benimle alakadar oldu.
+Hatta bir aralık atı çevirip gerisingeriye dönmeyi bile düşündüm.
 Hatta bir kere ormanda nasıl pusu kurup babasını vuran adamı devirdiğini bile anlattı.
 Hatta bir parça da vals yapabiliyordum.
 Hatta birisi: Yahu bu yazıyı profesöre de verelim de, yarın bir halt karıştırmasın!
@@ -8990,6 +9008,7 @@ Hemen o gün kendisini kapı dışarı ettiler.
 Hemen olsun efendim.
 Hemen oraya geliyorum.
 Hemen oraya koşarak kapıyı açtı.
+Hemen oraya, taşların üstüne yatırdım, başını dizime aldım.
 Hemen perdeleri kapattım.
 Hemen sabah vizitesinden sonra bizim odanın önündeki koridorda ayak sesleri ve konuşmalar peyda oldu.
 Hemen yakalayacaktım, fakat kendi kendime: "Hepsini odaya saklayalım!" dedim.
@@ -9237,6 +9256,7 @@ Herhalde daha mühim işler bunun yapılmasını bu kadar geri bırakmış.
 Herhalde dostumun kafasından geçen opera muganniliği ve fraklı Avrupa konserleri, ona yabancı idi.
 Herhalde kumandanın istemeyişinde bir sebep vardı…
 Herhalde localardan birine girmişti.
+Herhalde onu bulmalıyım! dedi.
 Herhalde ortak olmalılar.
 Herhalde uyuyordu.
 Herhalde uzak bir memlekette, kendisini tanımayanlar arasında yerleşti, akıllı uslu adam oldu…
@@ -9818,6 +9838,7 @@ Kalk artık!
 Kalk ayağa!
 Kalk ayağa.
 Kalk bakalım Halil Efe, seninle eski hesapları temizleyelim.
+Kalk da çırayı yak… Kerim Ağa kötüledi olmalı! diye bağırdı.
 Kalk hadi.
 Kalk!
 Kalk.
@@ -10713,6 +10734,7 @@ Kutusunu afili bir tavırla omuzuna vurarak yürüdü.
 Kuvveti de yerindeydi; şu halde sırf bir tesadüf onu böyle, ötekileri öyle yapmıştı ha?
 Kuvveti ve iradesi onu bırakmışa benziyordu.
 Kuyruklarını keyifli keyifli sallayıp uzun, kırmızı dilleriyle yalanarak ortalıkta dolaşmaya başladılar.
+Kuyunun başına gelince dört yanıma bakınarak birinin görünmesini bekledim.
 Kuzunun kurda yalvarması gibi bir şey olur.
 Kuş
 Kuş gibi çocuk ama, yol çetin, dermanım kalmadı…
@@ -11288,6 +11310,7 @@ Moskova…
 Motor!
 Motörün hafifleyen gürültüsü arasında aşağıdan doğru gelen bir su şırıltısı duyuluyordu.
 Mozart.
+Muamele tamam mı?
 Muavin atıldı: "Kocası da karıdan yangınmış…"
 Muavin cevap vermedi.
 Muavin itiraz etti: "Yok canım…"
@@ -11322,6 +11345,7 @@ Mukadderatları gibi kanları da birbirine karışmıştı.
 Mukavemet edecek oldu; gözlerimi yumdum ve başımla gelmesini işaret ettim.
 Mussolini ne demiş?
 Mustafa sustu ve önüne baktı.
+Mustafa, bugünlerde sıtma bana öğlenleri geliyor, sabahtan kasabaya inelim, ateş basınca orda oluruz!
 Mustafa, inanmayan gözlerle beni süzdü: "Olur mu ki?"
 Mustafa: "Baş üstüne beyim…" dedi.
 Mutena Cankurtaran'ın tok ve tatlı sesi birden sertleşti: "Ne demek o?"
@@ -12582,6 +12606,7 @@ O zaman Bekir kurtuluş olmadığını anladı.
 O zaman Bükreş Üniversitesinde okuyordum.
 O zaman Raif efendi, tamamen unutmuş olduğum, elimdeki paketi gösterdi.
 O zaman adeta bir yorgunluktan dinleniyormuş gibi olacağım.
+O zaman altı ay çalıştım.
 O zaman aramızda birbirimize hissettirmeden bir mücadele başladı…
 O zaman asla bu kadar ümitsiz olmamıştım.
 O zaman bana yardım et.
@@ -13487,6 +13512,7 @@ Parayı nereden buldun?
 Parayı nideceksin?
 Parayı peşin verdikleri için aldık!
 Parayı sayarken kasapla ahbaplığa başladı:
+Parayı vermeden giderim ha!
 Pardon bayım.
 Pardon efendim.
 Pardon ya.
@@ -15014,6 +15040,7 @@ Son ve keskin bir çığlıktan sonra Atmaca'nın ayağa kalktığını gördüm
 Son.
 Sonbahar Şarkısı'nı ona duyurmak istiyordu.
 Sonlara doğru, sahifenin alt tarafında, tablonun numarasının hizasında şu üç kelimeyi okudum.
+Sonra Avni'ye döndü: Böbreğinizde taş var.
 Sonra Kemal'e döndü.
 Sonra Romanya'ya döndüm.
 Sonra aklıma geldi: O münakaşa akşamı bana dost gözlerle bakan genç kızdı.
@@ -15455,6 +15482,7 @@ Sırılsıklam olmuşsun.
 Sırılsıklamsın.
 Sıska kadın bir an tereddüt etti.
 Sıtma Mücadelesi'ne götürdüm.
+Sıtma!
 Sıvaslı zat: "Onsuz olur mu canım?"
 Sızlanmayı kes.
 Sıçan…
@@ -15983,6 +16011,7 @@ Tıpkı senin gibi.
 Tıpkı şeytan taşlar gibi…
 Tıraş olup, üstümü giyindikten sonra, gitmek için Maria'dan izin istedim.
 Tırnaklarımla yüzlerini parçaladım…
+Ud torbaya, keman kutuya kondu.
 Ufak bir kaprisi için beni rezil etmekte tereddüt etmemişti.
 Ufak bir laf için arkadaşları ile boğaz boğaza girerdi.
 Ufaklık?
@@ -17050,6 +17079,7 @@ Yine başladık.
 Yine başladın.
 Yine başlıyoruz.
 Yine ben.
+Yine de doyuramıyorum gözlerini pezevenklerin…
 Yine de sağ olun.
 Yine de söyle.
 Yine de teşekkürler.
@@ -18115,6 +18145,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 Öteki, çizmelerini sobada kurutarak, cevap verdi…
 Öteki: "Nesini soracaksın, çok kolay…" dedi ve anlattı.
 Öteki: "İşim var!" deyince, "Öyleyse iki lira borç ver!" diye tutturmuş.
+Ötekiler anlayışlı gözlerle birbirlerine baktılar.
 Ötekiler duvar kenarında yığılı duran ve üstleri birer halı ile örtülen yataklara yaslanmışlardı.
 Ötekiler: "Bu sırça köşk de nedir?" diye sormuşlar.
 Ötekilerin hepsi ölmüş, yalnız bunu kurtarabilmişler.
@@ -18340,6 +18371,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 Üşüyeceksin!
 Üşüyorsun, haydi içeri girelim! dedim.
 Üşüyorum.
+İbrahim aralık kapıdan ağır ağır koridora süzüldü.
 İbrahim buna da razı oldu.
 İbrahim de aralarına karıştı, bir saat kadar da doktorun kapısında bekledi.
 İbrahim'in para bulup getirebileceğinden de ümidini kesmeye başlamıştı.
@@ -18967,6 +18999,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 İçimizden birini kasabaya, hükümetin bu işlere karışan memuruna yollayıp bekledik.
 İçinde bir tutamdan az tütün tozu ve bir fitilli çakmak vardı.
 İçinde ne var?
+İçinde seksen portakal bulunan sandıklardan her biri üç liradan hesap edildi.
 İçinde sönmez bir acı vardı.
 İçinde yaşadığım hadiseler bana, aradan uzun seneler geçmiş hatıralar gibi yabancı geliyordu.
 İçindekileri birer birer savdı.

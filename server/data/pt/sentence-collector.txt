@@ -642,6 +642,7 @@ A delinquência juvenil precisa ser combatida com igual rigor
 A dentista precisa aplicar anestesia antes de fazer o procedimento de remoção
 A derrota de sete a um foi gravada na mente coletiva nacional.
 A descida de San Francisco foi uma torrente onde as ondas de pessoas rolaram.
+A descoberta de fontes termais levou à conclusão
 A designação dos proprietários também incluirá a de seus respectivos substitutos.
 A destruição é uma lei da natureza
 A determinação faz o homen.
@@ -784,6 +785,7 @@ A felicidade só pode nos levar ao que nos deu.
 A felicidade é como um copo; é mais brilhante, mais frágil.
 A felicidade é uma aliada dos bravos.
 A ferida foi reconhecida grave.
+A fermentação, a fotossíntese e a respiração permaneceram
 A ferramenta de videoconferência não era confiável para reuniões de alto risco.
 A ferramenta é pesada.
 A ferrovia norte sul está sendo construída.
@@ -1036,6 +1038,7 @@ A maioria das pessoas é cega
 A maioria de nossas importações vem do porto de Roterdã.
 A maioria de nós deixará a cidade em maio.
 A maioria deles estava olhando baixinho para a grande mesa.
+A maioria dessas marcas foi apagada ao longo do tempo pela erosão
 A maioria dos algoritmos não é muito sensível ao tipo de normalização usado.
 A maioria dos carros tem ar condicionado nos dias de hoje.
 A maioria dos estágios nos anos anteriores
@@ -4325,6 +4328,7 @@ As praias eram exuberantes.
 As prateleiras estavam vazias de geléia ou bolachas.
 As praças e os parques precisam de um plano urbanístico mais focado no paisagismo
 As primeiras cinco espécies dominam o resto.
+As primeiras células eucarióticas teriam surgido a partir das células procarióticas
 As principais empresas internacionais do setor nos ofereceram traduções.
 As probabilidades de pixel são condicionadas no estado do modelo.
 As proteções do tipo patrimonial estarão sujeitas aos projetos de gestão.
@@ -14460,6 +14464,7 @@ Fumar em locais onde é proibido por razões de segurança e higiene.
 Fumar é proibido.
 Fumaça descia de todos os lados.
 Funciona.
+Funcionamento básico de um ecossistema e cadeia alimentar
 Funcionário salta nos trilhos e salva criança de trem
 Funcionários da equipe operam caixas registradoras para clientes que compram refrigerante.
 Fundador do pequeno final de semana
@@ -17774,6 +17779,7 @@ Mesópolis
 Metade de um adulto
 Metade do pão é melhor que nada.
 Metade homem nu, inclinando-se fora da janela, tirando fotos.
+Meteoritos colidiam fortemente com a superfície terrestre
 Meter o bedelho onde não é convidado
 Metidos nos cantos?
 Meu acordo com vocês senhores permanece!
@@ -21051,6 +21057,7 @@ O fruto de uma figueira é em forma de maçã.
 O fucarão atingiu a costa noroeste ao entardecer
 O funcionamento desta Comissão não apresentará despesas adicionais.
 O funcionário sugeriu que pedíssemos a sopa.
+O fundador do islamismo foi Mohammad, ou Maomé
 O fundador vai compartilhar
 O furacão se transformou em tempestade tropical
 O fusca era branco com listras vermelhas.
@@ -22622,6 +22629,7 @@ Obter o governador no telefone!
 Obter um certificado de trabalho válido
 Obter uma codificação correta do computador da geminada ela.
 Obter uma refeição chimichanga em uma padaria
+Obtinham energia para o metabolismo a partir da reação de substâncias inorgânicas
 Obtive êxito ao cruzar a fronteira
 Obviamente não é sustentável porque não é possível mantê-lo a tempo.
 Obviamente, a execução da sentença era impossível.
@@ -26433,6 +26441,7 @@ Quem escreveu este artigo no Medium?
 Quem escreveu este livro?
 Quem espera todos os vizinhos, não é a tempo nas manhãs.
 Quem estava usando este laboratório quando o colar ainda estava aqui?
+Quem estiver adicionando sentenças mal traduzidas do espanhol, por favor pare.
 Quem está ai?
 Quem está com a boca errada
 Quem está descalço não o incomoda com os sapatos.
@@ -26975,6 +26984,7 @@ Respire profundamente e você sentirá o cheiro de gás no ar.
 Resplendor
 Responda a chamada
 Responda-me, então: esta insatisfação se manifesta como alegria, ou como tristeza?
+Responde a certos tipos de estímulos, como acelerar quando pisamos no acelerador
 Resposta.
 Respostas incorretas serão zero como vinte e cinco pontos das respostas corretas.
 Ressaquinha
@@ -29274,6 +29284,7 @@ Te mando por e-mail a proposta
 Teatro completo de Natália Correia vai ser editado pela Imprensa Nacional.
 Tece sinergias entre os atores envolvidos.
 Tecendo e filmando, a vida está acontecendo.
+Tecidos: objeto de estudo da histologia
 Teclado, mouse e monitor.
 Tecnicamente? quebrando um espelho não é cinco anos? mas sete anos de azar.
 Tecnologia Open Source é essencial.

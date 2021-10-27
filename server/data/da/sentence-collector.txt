@@ -516,11 +516,13 @@ Broen tillader kun passage for vandlevende dyr.
 Brug af vækstfremmende og pelsmodnende stoffer, herunder melatonin, er ikke tilladt.
 Bryd Dem aldrig om hvad han siger!
 Brylluppet varede i otte dage.
+Brænde havde de ikke, skoven var fældet, hvor de skulde hente det fra
 Brødene blev spist, skinken med og så var de i lapland
 Bure må ikke anbringes oven på hinanden.
 Byens adelige jomfruer sang og førte bruden frem, ridderskabet sang og fulgte brudgommen
 Byerne selv var antydet ved postamenter
 Bygget på ordentlighed.
+Bygmesteren selv var af ringe kuld, men af adelig huld
 Både gamle og nye danskere.
 Båden drev med strømmen
 Båden fór af sted og rotten bag efter.
@@ -1159,6 +1161,7 @@ Der ville han slå mig ihjel.
 Deres hjerter forstod hinanden i al tugt og ære
 Derfor anmoder min gruppe om, at dette punkt tages af dagsordenen.
 Derfor bærer pigen sorg
+Derfor dampede det fra kaminen, derfor knittrede og flammede det
 Derfor fører regeringen en stram udlændingepolitik.
 Derfor nærmede det sig til det, og lyse formodninger vaktes hos lyset
 Derfor skal jeg nok her stå i læ til foråret
@@ -1194,6 +1197,7 @@ Det blev nu min lod at være tælle og ikke voks
 Det blev så koldt, duggen faldt og vinden blæste.
 Det bliver en testsag for det fornuftige samarbejde mellem de to institutioner.
 Det bliver mig ganske broget
+Det bliver røg, smøg, emmer og aske
 Det bryder jeg mig slet ikke om
 Det budskab kan man tage ned på to måder. Man kan vælge magtesløsheden.
 Det buldrede og bragede.
@@ -1459,6 +1463,7 @@ Det må være grueligt
 Det må være kedeligt at stå på trappen, jeg går hellere indenfor
 Det må være ynkeligt at blive født til en lille fugl!
 Det måtte den være til den kunst, sagde gamle stine
+Det mærkede man nok, det mumledes der om
 Det nye testamente skrives
 Det nødvendige areal hertil eksproprieres.
 Det passede godt.
@@ -1567,6 +1572,7 @@ Det var en løjerlig koncert.
 Det var en morgenstund, da kom der folk og rumsterede på loftet
 Det var en morsom musik.
 Det var en prinsesse, som stod udenfor.
+Det var en ringe ting kun
 Det var en stor bedrøvelse
 Det var en stor fejltagelse, og katten fik ikke kræfter til bid
 Det var en stor tanke, men stor tidsel kan nok have stor tanke
@@ -1628,6 +1634,7 @@ Det var jo et morsomt fyrtøj!
 Det var jo ikke lovet os, men det var dog at tænke
 Det var jo kun en forsyndelse imod perspektivet
 Det var jo nogle dejlige klæder, tænkte kejseren.
+Det var klingrende frost
 Det var klokken to i morgenstunden
 Det var kun et øjeblik og det blev kulsort nat omkring ham.
 Det var kun nogle timer siden
@@ -1673,6 +1680,7 @@ Det var såmænd en pæn historie!
 Det var såmænd godt betalt!
 Det var såmænd godt betalt! sagde store Claus.
 Det var tak fordi hun havde skaffet ham på loftet
+Det var tidligt paa aaret, nogle havde æg og nogle havde unger
 Det var til at male, kan de se det, jeg kan se det
 Det var to store, trekantede tagstensbrokker, han havde til øjne.
 Det var udmærket morsomt, sagde djævelen
@@ -1772,6 +1780,7 @@ Drøm og virkelighed gik over i hinanden
 Du aner ikke, hvad der foregår.
 Du beskriver dit hus, så man ser det
 Du bliver syg.
+Du brænder dig selv op
 Du dufter så stærkt
 Du er bare en gammel kvaksalver.
 Du er dog ikke bange for havet, mit stumme barn!
@@ -1997,6 +2006,7 @@ Fab skulle bare se at han selv kunne komme derind
 Falder jeg så endelig i søvn, da bliver jeg snart vækket af hanegal
 Familien havde boet der noget.
 Far, hvem er det?
+Fare hen, fare hen, fare hen, menneskene med
 Farligt affald skal tillige placeres på en oplagsplads med tæt belægning uden afløb
 Fartøjet sejlede bort med marie grubbe
 Farvel du kære fader!
@@ -2057,6 +2067,7 @@ Forstår de hvad det erforstår
 Forstår du den ikke, spørg den gamle johanne i fattighuset
 Forstår du kragemål så skal jeg bedre fortælle
 Forsøgsbehandling må heller ikke gennemføres med tvang over for frivilligt indlagte patienter.
+Fortalte viden, lad fare
 Fortjenesten blev dårlig, klæderne blev dårlige
 Fortæl om hans økonomiske forhold.
 Fortæl os dog om det dejligste sted på jorden
@@ -3238,6 +3249,7 @@ Ja, jeg gør ikke et skridt, for jeg kan ikke
 Ja, jeg har ikke ædelstenen
 Ja, jeg kan ikke gøre forskel!
 Ja, jeg mener disse nye romaner man har.
+Ja, jeg var med
 Ja, jeg vil følge med dig!
 Ja, just i dag er det guldbryllupsdagen
 Ja, kan jeg stole på det
@@ -3265,6 +3277,7 @@ Ja, tag mig med!
 Ja, uskyldig er hun!
 Ja, vil du så holde din mund
 Ja, vil hun dække nede i stalden!
+Jeg alene var den, som sang høit paa slottet
 Jeg betragtede de mange forgrenede årer
 Jeg blev den mest begunstigede
 Jeg blev en krympende orm, med krydderpose og spansk flue
@@ -3375,6 +3388,7 @@ Jeg holder så meget af gamle danske ord
 Jeg hører ikke godt, jeg er syg i dag
 Jeg hører nok egentlig hjemme inden for stakittet og ikke udenfor
 Jeg hørte det af hans egen mund
+Jeg hørte det godt
 Jeg hørte en summen
 Jeg kan fantasere og filosofere over alt det bogværk
 Jeg kan fortælle det
@@ -3402,6 +3416,7 @@ Jeg kunne spise dig af bare kærlighed
 Jeg kunne æde dig
 Jeg laver lidt mad, og det bliver med mand og barn.
 Jeg lo og jeg græd
+Jeg lod det høre min røst, hvad en storm har at sige
 Jeg lod mine ben hænge ned og dingle
 Jeg lyser bedre og brænder i længere tid end andre lys
 Jeg lå i digterpine
@@ -3449,6 +3464,7 @@ Jeg skulle dog tro, at jeg er deres moder
 Jeg skulle jo finde kay
 Jeg smutter i skole nu.
 Jeg smækkede låget til og satte mig selv ovenpå kassen
+Jeg sneede dem inde, det luner, siger man
 Jeg sover altid med kniv
 Jeg sover og drømmer!
 Jeg spår for Dem, for mig, for land og rige
@@ -3585,6 +3601,7 @@ Jørgen sprang og sprang og tumlede ned og snublede og sprang.
 Jørgen svarede ikke.
 Jørgen vidste det.
 Kald os myrens malkeko, rosentræets regiment, de små grønne
+Kammerdøren var lukket af
 Kammerherrenøgle, urnøgle, sankt peters nøgle
 Kammerråden gav hende straks to bøger til læsning
 Kammerråden har fuldt op af bøger, lad hende læse dem
@@ -4480,6 +4497,7 @@ Og det var den slået
 Og det var det, som interesserede Franz.
 Og det var ganske tidligt
 Og det var tante mille
+Og det var ynkeligt
 Og det viste sig
 Og dog er glænøs dage talte
 Og drengen søgte og søgte, men borte var den
@@ -4847,6 +4865,7 @@ Rigtigt klare mig det hele, kan den dog ikke
 Ring til min kone.
 Riv den blomst af!
 Romerbrevet, Galaterbrevet og de to korinterbreve
+Rose, lilie og den blege hyazint
 Rosen troede det var en hilsen, en hyldest
 Roser skal ikke kunne tåle røgen, de skifter farve, bliver grønne
 Roserne blomstrede den sommer så mageløst
@@ -4981,6 +5000,7 @@ Slå deres skrifter, det er at slå dem selv
 Slå poeterne af tønden
 Slåentjørne, de frøs til modne druer, det gør også vi
 Slægt havde hun dog
+Smelte i gulddigelen, og der kommer dog ikke guld
 Smuler er også brød
 Små sorte nisser, med en lygtemand på huen, dansede rundt i salen.
 Snak ikke så højt, for ellers vågner hun!
@@ -5109,6 +5129,7 @@ Svalerne og stæren var også borte, de tro dyr
 Svarede de, og til sidst troede den lille gerda det ikke heller
 Svarede rotterne og gik ind til deres
 Svinepolisk og drillevorn er han
+Sværdet var spændt om laaret og ikke om lænden
 Syg var han og til sengs måtte han
 Synge kan hun, klaver kan hun
 Syv naturlokaliteter vil blive berørt af baneudvidelsen.

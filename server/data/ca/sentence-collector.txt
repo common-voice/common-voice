@@ -126,6 +126,7 @@
 -És l'ocell del meu esperit.
 -És que temo dos perills.
 -…de tantes violències…
+A Alemanya l'embolic es té quan menys un hi pensa.
 A Castelló hi posen botifarres d’arròs, papada de porc i una pilota allargada.
 A França, particularment al sud, també es fa aquesta recepta.
 A València no venien.
@@ -161,6 +162,7 @@ A mitges no omplen sitges.
 A mitjan maig a segar vaig.
 A partir d'ara, si vols alguna cosa, m'ho demanes per escrit.
 A propòsit dels exàmens de juny, en parlarem a la pròxima classe.
+A tres homes els cal un canvi.
 A veure si al maleït coix li trenco jo l'altra cama!
 A vore si vos fan més dolça l’espera estos pastissets.
 Abaixa el diapasó, que per molt que cridis no tindràs més raó.
@@ -1893,6 +1895,7 @@ Aquesta és la millor oferta de bon tros.
 Aquesta última tasca la va compartir amb la comptabilitat d’Abastos.
 Aquestes sèries de sobretaula són d'estar per casa i de molt poca qualitat.
 Aquestes vacances m'han semblat molt curtes, com totes.
+Aquests alemanys són ben particulars, en moltes coses!
 Aquests homes i aquestes dones seran els meus herois d'aquí endavant.»
 Aquests són els contes que tinc.
 Aquests són els llibres de la biblioteca.
@@ -1950,6 +1953,7 @@ Cal enviar un missatge urgent a casa!
 Cal que canviem la reunió de demà, ja que m'ha sortit un imprevist.
 Cal que t'identifiquis per a poder fer aquesta acció.
 Cal reservar una taula en un restaurant proper.
+Cal ésser ferms.
 Calfem l’aigua i, en bollir, aboquem els fesols.
 Cantem la cançó del Serafí.
 Canvia l'estat del commutador.
@@ -2173,6 +2177,7 @@ El pare no pogué evitar la ràbia.
 El pare va fer anar el cap com volent dir que ja veuria.
 El pidolaire estenguè suaument els braços.
 El poble era conegut pels seus planters de moniato.
+El primer matí tot va bé.
 El problema amb els préssecs és que els cullen verds.
 El problema ja no era sols de l’aigua.
 El professor de química sempre fa cara de pomes agres.
@@ -2494,6 +2499,7 @@ Exposició Regional de productes agrícoles, artístics i industrials de Valènc
 Fa anys i panys que no vaig al cinema.
 Fa moltes coses alhora.
 Fa olor a taverna: vi, tramussos i cacaus.
+Fa olor de salobre i herbes marines, amb exclusió de cap altra olor.
 Fa una setmana que dormo molt poc i ja començo a fer ulleres.
 Fabregat expulsava el valencià.
 Facilitat d'accés a les matèries primes.
@@ -2529,6 +2535,7 @@ Francesc que se n’anà a Alemanya.
 Frescoreta, un mot sensacional que està caient en desús.
 Fuma d'amagat dels pares.
 Gelades o qualsevol altra desgràcia corrien per compte de l'arrendatari.
+George va tenir a Dresde, també, la seva aventura.
 Gest de complicitat amb l’espectador.
 Gestió de les reclamacions dels clients.
 Glòria no tenia prou força ni autoritat per oposar-se.
@@ -2547,6 +2554,8 @@ Han coincidit en el temps dues noticies.
 Han fet una cosa molt curiosa i inesperada.
 Han marxat tots els visitants i a casa de Rosanna no hi ha ningú.
 Han tret una moda nova que ha vingut de la marjal.
+Harris deixà precipitadament a la taula el vas que tenia a la mà.
+Harris, com de costum, era partidari de la mar.
 Has anat a consultar un advocat maco.
 Has d'anar a comprar i posar la rentadora.
 Has de dur la nena al cau.
@@ -2702,6 +2711,7 @@ Jo també sóc agraït
 Jo tinc coques borratxes!
 Jo tinc pastissets de moniato!
 Jo vaig ajudar la Tia Conxa a fer-ne.
+Jo vaig fer un gest afirmatiu.
 Jo vull parlar-te molt altrament.
 Jo, a la teva edat, ja anava a repartir la llet.
 Joan és un personatge prou confús.
@@ -2721,6 +2731,7 @@ L'alcalde ha promès que abans de no gaire estarà arreglada la pista esportiva.
 L'altra opció és fer-los al forn.
 L'altre dia el van veure disfressat amb uns bolquers i un xumet.
 L'altre, el de fer que disminueixi el vostre amor…
+L'amabilitat és cosa inútil.
 L'amenaça és una situació de l'entorn que ens és desfavorable.
 L'any vinent faré un viatge a Tel Aviv.
 L'anàlisi de les fortaleses, oportunitats, debilitats i amenaces.
@@ -2775,6 +2786,7 @@ La cara del pidolaire esdevingué resplandent com el sol.
 La carnisseria era un establiment molt important en el dia a dia del poble.
 La carrasca és l'alzina més habitual per aquests paratges.
 La caseta era tota de pedra, i el sostre s'havia esfondrat.
+La colla es reuneix a dos quarts de sis.
 La comunicació és de dalt a baix, de baix a dalt i lateral.
 La correspondència de Sir Thomas va caure en el més lamentable dels endarreriments.
 La cosina de Roger abandonà la pista.
@@ -3012,7 +3024,9 @@ No habilitis el volum automàtic.
 No havia pogut dir ni aquesta boca és meua.
 No he pogut trobar això que em demanes.
 No he sabut trobar això que m'has encomanat.
+No hi ha lloc per a guarir-se de la pluja.
 No hi ha res més bonic que passejar per la muntanya.
+No hi ha vent marí que pugui amb ell.
 No hi havia altre remei.
 No hi havia lloc a dubtes.
 No hi havia pas cap dubte.
@@ -3137,6 +3151,7 @@ Pel camí, després d'un moment de silenci em va dir: besa'm.
 Pel qui les hagués vistes arribar, estaven desconegudes, transfigurades.
 Pel silenci dels prats i en la ribera, fan dringar l'esquellot mentre pasturen.
 Pels volts de Nadal, la mare i l’àvia es tancaven al guisador.
+Pendrem el castell.
 Penes amb pa, fan de bon passar.
 Pensa bé de tothom i no et fiis de ningú.
 Pensa en la vida que tens entorn: aixeca el front.
