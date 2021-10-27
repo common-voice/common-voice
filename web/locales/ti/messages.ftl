@@ -642,6 +642,7 @@ record-three-more-instruction = ሰለስተ ጥራይ ተሪፈናኻ!
 record-again-instruction = ተዓወት!<recordIcon></recordIcon> ትቕጽል ክሊፕ ቅላእ
 record-again-instruction2 = ኣጆኻ በርትዕ, ድምጺ ምቕዳሕ ቀጽል <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ናይ መቀዳእታ!
+share-common-voice = ኮመን ቮይስ ኣካፍል
 record-submit-tooltip = { $actionType } ድሉው ኣብ ዝኾንካሉ ኣረክብ
 clips-uploaded = ክሊፕስ ተሰቒሉ ኣሎ
 record-abort-title = ምቕዳሕዶ ቅድም ክትውድእ?
