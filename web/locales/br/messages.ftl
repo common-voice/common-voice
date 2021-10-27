@@ -952,4 +952,13 @@ demo-dashboard-card-body = Evit pep klip mouezh pourvezet ganeoc'h ha pep klip a
 ## Validation criteria
 
 contribution-criteria-nav = Dezverkoù
+contribution-criteria-page-title = Dezverkoù ar c'hemer perzh
 contribution-for-example = da skouer
+contribution-misreadings-title = Fazioù lenn
+contribution-misreadings-example-6-explanation = [Rankout a rafe bezañ “Ni ’zo”]
+contribution-misreadings-example-7-title = Mont a reomp er-maez da bakañ ur banne kafe.
+contribution-volume-title = Live-son
+contribution-reader-effects-title = Efedoù al lenner
+contribution-just-unsure-title = Etre daou soñj?
+see-more = <chevron></chevron>Gwelet muioc’h
+see-less = <chevron></chevron>Gwelet nebeutoc’h
