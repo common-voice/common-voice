@@ -488,10 +488,12 @@ sentence-collection-explanation = ካብ ህዝባዊ ቦታታት ምሉእ ሓ
 hours-recorded-explanation = ክሳብ ሕጂ ተቐሪጾም ዘለዉ ሰዓታት ድምጽታት።
 sst = ዘረባ-ናብ-ድምጺ(STT)
 sst-explanation = ድምጺ-ናብ-ጽሑፍ (ድናጽ/STT)  ድምጺ ሓበሬታ ናብ ጽሑፍ ዝቅይር ቴክኖሎጂ እዩ።
+de-identified = መንነቶም ዘይፍለጥ
 
 ## Error pages
 
 error-title-404 = እዛ ክትርእያ ዝደሎኻ ገጽ ኣይተረኽበትን
+error-content-404 = ምናልባት <homepageLink>ገጽ ቤትና</homepageLink> ይሕግዘና ይኸውን? ሕቶ ኽትሓትት እንተ ደሊኻ በጃኻ ኣብቲ <matrixLink> ማሕበረሰብ ማትሪክስ </matrixLink> ዕላል ተኻፈለ፣ ነቲ ኣብ ወብ ሳይት ዚለዓል ጕዳያት <githubLink>GitHub</githubLink> ወይ ከኣ <discourseLink>መደረታትና ዲስኮርስ</discourseLink> ርአ።
 error-title-503 = ዘይተጸቦናዮ ምቁራጽ ኣገልግሎት ኣጋጢሙና ኣሎ።
 error-code = ብልሽት { $code }
 
@@ -513,10 +515,14 @@ release-version = ሕታም
 dataset-date = ዕለት
 license = ፍቓድ: <licenseLink>{ $license }</licenseLink>
 license-mixed = በብዓይነቱ
+data-download-singleword-title = ነቲ ሓደ ቓል ዕላማ ዘለዎ ክፋል ኣራግፍ
+data-download-singleword-callout-v2 = እዚ ኸኣ ነቲ ብሓይሊ ዚዝረብ ናይ ኤለክትሮኒካዊ ምልላይ ንቅኑዕን / ገጋን ሓበሬታ ዝሓዘ ኣብ ጥቕሚ ዚውዕል ጕዳይ እዩ ።
+review-terms = ኮመን ቮይስ ብምጥቃም ነቲ <termsLink>ቃላትና</termsLink> ከምኡውን <privacyLink>ናይ ምስጢር ምልክታ ትሰማምዓሉ ኢኻ</privacyLink>
 terms-agree = ይሰማማዕ እየ።
 terms-disagree = ኣይሰማማዕን እየ።
 review-aborted = ምድያብ ተቛሪጹ ኣሎ። እቲ ዝቐረጽካዮ ክትድምስሶዶ ትደሊ ኢኻ?
 review-submit-title = ደጊምካ ስምዓዮ፡ ብድሕሪኡ ኣረክቦ
+review-submit-msg = ስለ ዝተመዝገብኩም ነመስግነኩም! <lineBreak></lineBreak>ሕጂ ነቲ ክሊፕታትካ መርምሮ እሞ ኣብ ታሕቲ ኣቕርቦ።
 review-recording = ደጊምካ ስምዓዮ
 review-rerecord = ከም ብሓድሽ ቅረጽ
 review-cancel = ምርካብ ኣቛርጽ
@@ -535,8 +541,11 @@ audio-format = ናይ ድምጺ ቅዳሕ ዓይነት
 number-of-voices = ብዝሒ ድምጽታት
 splits = ክፋላት
 email-to-download = ንኸተውርድ ኢመይልካ ኣእቱ
+why-email = <b>ስለምንታይ ኢ-መይል እልእኽ? </b> ኣብ መጻኢ ብዛዕባ እቲ ኣብ ሓበሬታ ዚርአ ለውጥታት ክንራኸበካ የድልየና ይኸውን ፣  ኢመይል ከኣ መራኸቢ ክንጥቀመሉ ኢና ።
+confirm-size = <b>{ $size } </b> ከተራግፍ ተዳሊኻ ኣለኻ ።
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = ንመንነት እቶም ኣብ ናይ ሓባር ድምጺ ሓበሬታ ዘለዉ ተዛረብቲ ንምልላይ ከይትፍትን <b>ትሰማምዓሉ ኢኻ</b>
 download-language = { $language } ኣውርድ
 validated-hours = ቅቡል ሰዓታት
 recorded-hours = ናይ ቀረጻ ሰዓታት
