@@ -543,7 +543,10 @@ recorded-hours = ናይ ቀረጻ ሰዓታት
 subscribe = ተመዝገብ
 other-datasets = ካልኦት ድምጺ ሓበሬታታት
 feedback-q = ርእይቶ ኣሎካ ድዩ?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ከኣ<docsLink>ክፉት ምንጪ ዘለዎ ንዋት </docsLink> ተመራመርቲ ብሉጽ ዝዀነ ምስ ሰባት ዚዘራረቡ AI ሞደል ኬማዕብሉ ዘኽእል እዩ።
+resource-coqui-info = <coquiLink>Coque</coquiLink> ናይ ምዝራብ ተክኖሎጂ ንምኽፋት እተወፈየት እያ። እቲ ፕሮጀክትታቶም ከኣ ዓሚቅ ምምሃር ዝተመርከሰ STTን TTS ሞተረታት ይጠቃልል።
 community-playbook = ኮማዊ ፕለይቡክ
+data-other-ted-name = TED-LIUM ኮርፐስ
 go-discourse = ናብ ዲስኮርስ ኪድ
 go-languages-page = ናብ ናይ ቛንቛታት ገጽ ኪድ
 more = ዝያዳ
@@ -557,6 +560,7 @@ download-title = ምቅራድ ጀሚሩ ኣሎ
 download-form-email =
     .label = ኢመይልካ ኣእቱ
     .value = የቐንየልና፡ ኣብ ቀረባ ግዜ ክንረኽበካ ኢና።
+download-back = ናብ ኮመን ቮይስ ተመለስ
 download-no = ይትረፈኒ ከየመስገንኩኹም ግን ክሓልፍ ኣይደልን።
 
 ## Contact Modal
