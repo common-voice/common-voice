@@ -469,7 +469,9 @@ about-is-it-valid = እዛ ቀረጻ እዚእ ቅንዕቲ ድያ?
 about-yes-votes = ≥ 2 ቅኑዕ ምርጫታት
 about-no-votes = ≥ 2 ጌጋ ምርጫታት
 about-dataset-new = ኮመን ቮይስ ሓበሬታ
+about-clip-graveyard = ናይ ክሊፕ እንዳ ጋሓፍ
 about-partners = መሻርኽቲ
+about-become-a-partner = መሻርኽቲ ኹኑና
 about-get-involved = ተሳተፍ
 about-nav-why-common-voice = ንምንታይ?
 about-nav-how-it-works = ብኸመይ?
@@ -481,6 +483,9 @@ mycroft-subtitle = ሰብ ዝሰርሖ ብልሒ
 
 glossary = መወከሲ
 localization = ከባብያዊ
+sentence-collection = መአከቢ ሙሉእ ሓሳባት
+sentence-collection-explanation = ካብ ህዝባዊ ቦታታት ምሉእ ሓሳባት ምእካብ ወይ ንህዝባዊ ግዝኣት ሓድሽ ምጽሓፍ።
+hours-recorded-explanation = ክሳብ ሕጂ ተቐሪጾም ዘለዉ ሰዓታት ድምጽታት።
 sst = ዘረባ-ናብ-ድምጺ(STT)
 
 ## Error pages
