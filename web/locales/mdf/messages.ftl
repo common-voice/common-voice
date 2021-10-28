@@ -293,7 +293,9 @@ shortcut-vote-no = а
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = с
 shortcut-record-toggle-label = Сёрмадомс/Лоткафтомс
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Одукс сёрмадомс клипть
+shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Лоткафтомс моли сёрмадомать
 shortcut-submit = Мрдамс
 shortcut-submit-label = Прважамс клипть
@@ -465,6 +467,7 @@ mycroft-description = Mycroft -- масторлангонь васенце ва�
 ## Glossary
 
 glossary = Валкскя
+localization = Эсь кяльс ётафтома
 localization-explanation = Тя минь текстонь-вайгялень ётафтомань-ладямань процессоньке лама кялень коряс.
 sentence-collection = Валрисьмонь пуромкс
 sentence-collection-explanation = Марстонь панжада вастста валрисьмонь кочкамась али од валрисьмонь сёрмадомась, конат няевольхть сембонди и улельхть панжадот.
@@ -815,11 +818,14 @@ profile-form-delete = Нардамс профильть
 
 ## Profile Download
 
+download-q = Эряви таргамс даннойцень?
+download-info = Азк тейнек мезе арьсят таргамс:
 download-profile-title = Профильсь
 download-recordings-title = Сёрматфне
 download-size = Оцюлма
 download-request-button = Таргамс
 download-request-refresh-button = Одкстоптомс
+download-request-metadata-link = Валрисьмонь текст
 
 ## Landing
 
@@ -868,7 +874,10 @@ demo-dashboard-card-body = Вайгялень сёрматфксонь сува�
 ## Validation criteria
 
 contribution-criteria-nav = Критерият
+contribution-criteria-link = Шархькодемс лезксонь максомань критериятнень
+contribution-criteria-page-title = Лезксонь максомань критериятне
 contribution-for-example = кепотьксонди
+contribution-misreadings-title = Кальдявста морафтомат
 contribution-misreadings-description-extended-list-1 = Ашет <strong>'A'</strong> or <strong>'The'</strong> сёрматфксть ушетксса.
 contribution-misreadings-description-extended-list-2 = Ашет<strong>'s'</strong> валть песа.
 contribution-misreadings-description-extended-list-5 = Аф весть тяряфтк азомс валть
