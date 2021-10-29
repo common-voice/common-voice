@@ -455,7 +455,7 @@ class ContributionPage extends React.Component<Props, State> {
                           transform: [
                             `scale(${isActive ? 1 : 0.9})`,
                             `translateX(${
-                              (document.dir == 'rtl' ? -1 : 1) *
+                              (document.dir == 'rtl' ? 1 : -1) *
                               (i - activeSentenceIndex) *
                               -130
                             }%)`,
