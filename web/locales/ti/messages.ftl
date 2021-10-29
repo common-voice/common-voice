@@ -469,14 +469,25 @@ how-does-it-work-title = ብኸመይ ይሰርሕ?
 about-speak = ተዛረብ
 about-speak-text = እቶም ኣበርክቶ ዚገብሩ ሰባት ካብ እኩብ እተወፈየ ምሉእ ሓሳባት ብምንባብ ክሊፕ ድምጺ ይቐድሑ
 about-listen-queue = ዝርዝር ክስማዕ ዘለዎ
+about-listen-queue-text = ክሊፕታት ድምጺ ንኺሰምዑ ኣብ ዚዳለዉሉ መስርዕ ይኣቱ
 about-listen = ስማዕ
+about-listen-text = እቶም ተጠቃሚት ንልክዕነት እቲ እተወፈየ ክሊፕታት የረጋግጽዎ፡ እቲ ተዛራባይ ነቲ ምሉእ ሓሳባት ብልክዕ የንብቦ እንተ ዀይኑ ድማ የረጋግጽ።
 about-is-it-valid = እዛ ቀረጻ እዚእ ቅንዕቲ ድያ?
-about-yes-votes = ≥ 2 ቅኑዕ ምርጫታት
+about-is-it-valid-text = ሓደ ተጠቃሚ 'አወ' ኢሉ ኺመርጽ ከሎ ክሊፕ ድምጺ "ቅኑዕ" ዚብል ምልክት ይግበረሉ እዩ።
+about-yes-votes = ≥ 2 እወ ምርጫታት
+about-yes-votes-text = ኣብ ናይ ኮመን ቮይስ ሓበሬታ ንምእታው ክሊፕ ድምጺ ብኽልተ እተፈላለዩ ተጠቀምቲ ኺረጋገጽ ኣለዎ።
 about-no-votes = ≥ 2 ጌጋ ምርጫታት
+about-no-votes-text = ሓደ ተጠቃሚ ነቲ ክሊፕ ድምጺ ምስ ዚነጽጎ ናብ መስርዕ ይምለስ። ንኻልኣይ ግዜ እንተ ተነጺጉ እቲ ክሊፕ ድምጺ ናብ መቓብር ክሊፕ ይግዕዝ።
 about-dataset-new = ኮመን ቮይስ ሓበሬታ
-about-clip-graveyard = ናይ ክሊፕ እንዳ ጋሓፍ
+about-dataset-new-text = ኮመን ቮይስ ዳታሰት ንተዓዘብቲ ናይ ድምጺ መለለዪ መሳርሒታት ንምህናጽ ዝሕግዝ ብኣማእታት ኣሽሓት ዝቝጸር ናይ ድምጺ መርኣያታት ዝሓዘ ኢዩ ።
+about-clip-graveyard = መቓብር ክሊፕ
+about-clip-graveyard-text = እቲ ክሊፕ መቓብር ኣብ ናይ ኮመን ቮይስ ሓበሬታ ዘይኣተወ ክሊፕታት ድምጺ ዝሓዘ ኢዩ። ልክዕ ከምቲ ሓበሬታ ዚስራሕ እቲ ክሊፕ መቓብር እውን ከተራግፎ ትኽእል ኢኻ።
 about-partners = መሻርኽቲ
 about-become-a-partner = መሻርኽቲ ኹኑና
+about-partnership =
+    ኮመን ቮይስ ናይ ምትሕብባር ፕሮጀክት ኢዩ ክሳዕ ሕጂ ኻብ እተራእየ እቲ ዝዓበየ ናይ ድምጺ ሓበሬታ ንምስራሕ ከኣ ኣብ ማሕበረሰብና ብጾትናን ወፈያተኛታትናን ኢና እንምርኰስ ዘሎና።
+    
+    ነዞም ዝስዕብ ሰባትን ውድባትን ኣብዚ ፕሮጀክት እዚ ስለ ዝሓገዝዎ ከነመስግኖም ንደሊ ኢና -
 about-get-involved = ተሳተፍ
 about-nav-why-common-voice = ንምንታይ?
 about-nav-how-it-works = ብኸመይ?
