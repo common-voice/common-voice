@@ -608,6 +608,7 @@ data-other-voxforge-description = VoxForge ብናጻን ብግህዶን ምን�
 data-other-tatoeba-description = Tatoeba ኣብ ትምህርቲ ቛንቋ ንምጥቃም ተባሂሉ ምሉእ ሓሳባትን ትርጕማትን ዚዝረብ ኣውድዮን ዝሓዘ ዓብዪ ሓበሬታ ዝሓዘት እያ። እዚ ጽዕነት እዚ ብማሕበረሰቦም እተመዝገበ እንግሊዝኛ ዝሓዘ እዩ ።
 your-feedback = ነቲ ናይ ኮመን ቮይስ ሓበሬታ ብኸመይ ብዝሓሸ መገዲ ኸነመሓይሾ ኸም እንኽእል ሓሳባት ኣሎካዶ? ብዛዕባኡ ኣብ ዲስኮርስ ንገረና
 go-discourse = ናብ ዲስኮርስ ኪድ
+missing-language = ቛንቋኻ ኣብ ዳታሴት(ሓበሬታ) ኪንጸባረቕ ከሎ ይረኣየካ ኣሎ'ዶ? ቋንቋ ኽትሓትት ናብ ገጽ ቋንቋና ኣምርሕ ።
 go-languages-page = ናብ ናይ ቛንቛታት ገጽ ኪድ
 ready-to-validate = ሓገዝካ ንምሉእ ሓሳባት ንምርግጋጽ ድሉው ዲኻ?
 more = ዝያዳ
@@ -674,6 +675,8 @@ clips-with-count-pluralized =
         [one] ክሊፕ
        *[other] ክሊፓት
     }
+goal-help-recording = ሓባራዊ ድምጺ ኣብ <goalPercentage></goalPercentage>መዓልታዊ ሸቶና  { $goalValue } ምምላእ ንኽትበጽሕ ሓጊዝካዮ ኢኻ!
+goal-help-validation = ኮመን ቮይስ <goalPercentage></goalPercentage>ኣብ መዓልታዊ ሸቶና { $goalValue } ምርግጋጽ ንኽትበጽሕ ሓጊዝካዮ ኢኻ!
 contribute-more =
     { $count ->
         [one] ሓንቲ ክትውስኽዶ ትደሊ ኢኻ?
