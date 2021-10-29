@@ -597,8 +597,10 @@ get-started-speech = ንኣፍልጦ ዘረባ ንምጅማር ተበገስ
 other-datasets = ካልኦት ድምጺ ሓበሬታታት
 feedback-q = ርእይቶ ኣሎካ ድዩ?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ከኣ<docsLink>ክፉት ምንጪ ዘለዎ ንዋት </docsLink> ተመራመርቲ ብሉጽ ዝዀነ ምስ ሰባት ዚዘራረቡ AI ሞደል ኬማዕብሉ ዘኽእል እዩ።
+resource-deepspeech-info = እቲ ሞዚላ እትጥቀመሉ ክፉት ምንጪ ናይ ድምጺ መለለዪ ሞተር ዲፕ ስፒች ዝርርብ ንምልላይ ዘረባ ንምጥቃም ክትጥቀመሉ ትኽእል ኢኻ ። ሓፈሻዊ ትሕዝቶ <githubLink>Github</githubLink> ኣንብብ ወይ ብኸመይ ከም እትጅምር ንምፍላጥ ኣብቲ <discourseLink>DeepSpeechspeech</discourseLink> ዘርእስታ መደረ ተኻፈል
 resource-coqui-info = <coquiLink>Coque</coquiLink> ናይ ምዝራብ ተክኖሎጂ ንምኽፋት እተወፈየት እያ። እቲ ፕሮጀክትታቶም ከኣ ዓሚቅ ምምሃር ዝተመርከሰ STTን TTS ሞተረታት ይጠቃልል።
 community-playbook = ኮማዊ ፕለይቡክ
+resource-playbook-info = ንብምሉኡ እቲ ሓባራዊ ድምጺ ዚግበር ጕዕዞ ካብ ከባቢኻ ኣትሒዝካ ኽሳዕ ኣጠቓቕማ ሓበሬታ ከምኡውን ምስ ማሕበረሰብና ብኸመይ ከም እትራኸብ<playbookLink> ሓጋዚ መምርሒ ርኸብ</playbookLink>።
 data-other-librispeech-description = ሊብሪሽፒች ካብቲ ኣብ ፕሮጀክት ሊብሪቮክስ እተረኽበ ናይ ድምጺ መጻሕፍቲ እተወስደ ናይ እንግሊዝኛ ዝርርብ ብገምጋም 1000 ሰዓታት 16ኪሎ ሀርዝ ዘንብብ ኢዩ ።
 data-other-ted-name = TED-LIUM ኮርፐስ
 go-discourse = ናብ ዲስኮርስ ኪድ
@@ -612,6 +614,7 @@ dataset-version = ሕታም
 ## Download Modal
 
 download-title = ምቅራድ ጀሚሩ ኣሎ
+download-helpus = ኣብ ከባቢ ተክኖሎጅያዊ ድምጺ ማሕበረሰብ ንኽንሃንጽ ብኢ-መይል ክንራኸብ ተሓጋገዘና።
 download-form-email =
     .label = ኢመይልካ ኣእቱ
     .value = የቐንየልና፡ ኣብ ቀረባ ግዜ ክንረኽበካ ኢና።
@@ -633,12 +636,14 @@ request-language-title = ጠለብ ቛንቛ
 request-language-form-language =
     .label = ቛንቛ
 request-language-success-title = ናይ ቛንቛ ጠለብኩም ተቐቢልናዮ ኣሎና። የቐንየልና።
+request-language-success-content = ድሕሪ ሓጺር እዋን ቛንቋኻ ኣብ ኮመን ቮይስ ብኸመይ ከም እትውስኽ ዚገልጽ ዝያዳ ሓበሬታ ኽንረክብ ኢና።
 select-language = ቛንቛ ምረጽ...
 other-language = ካልእ ቛንቛ
 
 ## Languages Overview
 
 language-section-in-progress = ኣብ ገስጋስ
+language-section-in-progress-new-description = እዘን ቛንቋታት እዚ ኣብዚ እዋን እዚ ኣብ ምምዕባል ብማሕበረሰብ ኢዩ ዘሎ ። እቲ ምልክት ገስጋስ ባር ንነፍሲ ወከፍ ቋንቋ ኽሳዕ ክንደይ <localizationGlossaryLink>ወብሳይት ዝተተርጎመ </localizationGlossaryLink> <sentenceCollectionGlossaryLink>ምሉእ ሓሳባት ዝተኣከበ</sentenceCollectionGlossaryLink>
 language-section-launched = ተኸፊቱ ኣሎ
 languages-show-more = ዝያዳ ተመልከት
 languages-show-less = ዝሓጸረ ተመልከት
