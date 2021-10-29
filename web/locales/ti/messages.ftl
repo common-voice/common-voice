@@ -489,22 +489,34 @@ about-partnership =
     
     ነዞም ዝስዕብ ሰባትን ውድባትን ኣብዚ ፕሮጀክት እዚ ስለ ዝሓገዝዎ ከነመስግኖም ንደሊ ኢና -
 about-get-involved = ተሳተፍ
+about-get-involved-text-2 =
+    ኮመን ቮይስ ብዝያዳ ኸም ዚመሓየሽ ክትገብር ትደሊዶ ?
+    ግርም! ብኢ-መይል ወይ ብፎሮም <discourseLink>ዲስኮርስ</discourseLink>
+    ጸገማት ብ<githubLink>GitHub</githubLink> ኣቢልካ ሕታማት ወብ ሳይት ኣቕርብ ወይ ኣብቲ ወብ ሳይት ሓብር
+    <matrixLink>ማትሪክስ</matrixLink> ማሕበረሰብ ዕላል።
 about-nav-why-common-voice = ንምንታይ?
 about-nav-how-it-works = ብኸመይ?
 about-nav-partners = መሻርኽቲ
 about-nav-get-involved = ተሳተፍ
 mycroft-subtitle = ሰብ ዝሰርሖ ብልሒ
+mycroft-description =
+    ሚይክሮፍት (Mycroft) ኣብ ዓለም ናይ መጀመርታ  ክፉት ምንጪ ሓጋዚት እያ ።
+    ማይክሮፍት ኣብ ዝዀነ ይኹን ቦታ ማለት ኣብ ኮምፕዩተር ኣብ ውሽጢ ማኪና ወይ ኣብ ራስፐሪ ፒይ እያ እትሰርሕ ።
+mycroft-secondary-description = እዚ ፕሮግራም እዚ ብናጻ ክተሓዋወስ ክሰፍሕ ከምኡውን ክመሓየሽ ዝኽእል ክፉት ምንጪ ፕሮግራም ኢዩ። ማይክሮፍት ካብ ናይ ስነ-ፍልጠት ፕሮጀክት ኣትሒዙ ኽሳዕ ናይ ንግዲ ሶፍትዌር ኣወዓዕላ ኣብ ዝዀነ ይኹን ነገር ክትጥቀመሉ ትኽእል ኢኻ።
 
 ## Glossary
 
 glossary = መወከሲ
 localization = ከባብያዊ
+localization-explanation = እዚ ኸኣ ንትሕዝቶና ንሓያሎ ደቂ እቲ ከባቢ (ቋንቋታት) ንምትርጓምን ንምትዕርራይን እንገብሮ መስርሕ እዩ።
 sentence-collection = መአከቢ ሙሉእ ሓሳባት
 sentence-collection-explanation = ካብ ህዝባዊ ቦታታት ምሉእ ሓሳባት ምእካብ ወይ ንህዝባዊ ግዝኣት ሓድሽ ምጽሓፍ።
 hours-recorded-explanation = ክሳብ ሕጂ ተቐሪጾም ዘለዉ ሰዓታት ድምጽታት።
+hours-validated-explanation = ቍጽሪ ሰዓታት ምቕዳሕ ድምጺ ካብ 3 ተጠቀምቲ 2 "እወ" ብዚብል ድምጺ ተረጋጊጹ እዩ። እዚ ኸኣ ናብቲ ሓፈሻዊ ናይ 10 ሽሕ ሰዓታት ሸቶ ንምብጻሕ እተገብረ ዕቤት ዝሕብር ኢዩ ።
 sst = ዘረባ-ናብ-ድምጺ(STT)
 sst-explanation = ድምጺ-ናብ-ጽሑፍ (ድናጽ/STT)  ድምጺ ሓበሬታ ናብ ጽሑፍ ዝቅይር ቴክኖሎጂ እዩ።
 de-identified = መንነቶም ዘይፍለጥ
+de-identified-explanation = እቲ ሓደ ወሃቢ ዘውጽኦ ናይ ድሕረ ባይታ ሓበሬታ ካብቲ እተወፈየ ክሊፕ ድምጹ ከም ክፍሊ ናይቲ ሓበሬታ ገይርካ  ክዕሸግ ከሎ ዝሕባእ መስርሕ ኢዩ።
 
 ## Error pages
 
