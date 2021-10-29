@@ -603,6 +603,10 @@ community-playbook = ኮማዊ ፕለይቡክ
 resource-playbook-info = ንብምሉኡ እቲ ሓባራዊ ድምጺ ዚግበር ጕዕዞ ካብ ከባቢኻ ኣትሒዝካ ኽሳዕ ኣጠቓቕማ ሓበሬታ ከምኡውን ምስ ማሕበረሰብና ብኸመይ ከም እትራኸብ<playbookLink> ሓጋዚ መምርሒ ርኸብ</playbookLink>።
 data-other-librispeech-description = ሊብሪሽፒች ካብቲ ኣብ ፕሮጀክት ሊብሪቮክስ እተረኽበ ናይ ድምጺ መጻሕፍቲ እተወስደ ናይ እንግሊዝኛ ዝርርብ ብገምጋም 1000 ሰዓታት 16ኪሎ ሀርዝ ዘንብብ ኢዩ ።
 data-other-ted-name = TED-LIUM ኮርፐስ
+data-other-ted-description = ኮርፐስ TED-LIUM  ካብ መደረ ድምጽታትን ካብቲ ኣብ ወብ ሳይት TED ዚርከብ ጽሑፋትን እዩ ተዳልዩ።
+data-other-voxforge-description = VoxForge ብናጻን ብግህዶን ምንጪ ናይ ምዝራብ መለለዪ ሞተር ንምጥቃም ተባሂሉ እተዳለወ ጽሑፍ ዝሓዘ ዝርርብ ንምእካብ ኢዩ ተዳልዩ ።
+data-other-tatoeba-description = Tatoeba ኣብ ትምህርቲ ቛንቋ ንምጥቃም ተባሂሉ ምሉእ ሓሳባትን ትርጕማትን ዚዝረብ ኣውድዮን ዝሓዘ ዓብዪ ሓበሬታ ዝሓዘት እያ። እዚ ጽዕነት እዚ ብማሕበረሰቦም እተመዝገበ እንግሊዝኛ ዝሓዘ እዩ ።
+your-feedback = ነቲ ናይ ኮመን ቮይስ ሓበሬታ ብኸመይ ብዝሓሸ መገዲ ኸነመሓይሾ ኸም እንኽእል ሓሳባት ኣሎካዶ? ብዛዕባኡ ኣብ ዲስኮርስ ንገረና
 go-discourse = ናብ ዲስኮርስ ኪድ
 go-languages-page = ናብ ናይ ቛንቛታት ገጽ ኪድ
 ready-to-validate = ሓገዝካ ንምሉእ ሓሳባት ንምርግጋጽ ድሉው ዲኻ?
@@ -645,6 +649,7 @@ other-language = ካልእ ቛንቛ
 language-section-in-progress = ኣብ ገስጋስ
 language-section-in-progress-new-description = እዘን ቛንቋታት እዚ ኣብዚ እዋን እዚ ኣብ ምምዕባል ብማሕበረሰብ ኢዩ ዘሎ ። እቲ ምልክት ገስጋስ ባር ንነፍሲ ወከፍ ቋንቋ ኽሳዕ ክንደይ <localizationGlossaryLink>ወብሳይት ዝተተርጎመ </localizationGlossaryLink> <sentenceCollectionGlossaryLink>ምሉእ ሓሳባት ዝተኣከበ</sentenceCollectionGlossaryLink>
 language-section-launched = ተኸፊቱ ኣሎ
+language-section-launched-description = ነዚ እተጀመረ ቛንቋታት እቲ ወብ ሳይት ብዕዉት መገዲ <localizationGlossaryLink>ተተርጊሙ</localizationGlossaryLink> ኣሎ፡<speakLink>ንዘረባ</speakLink> ከምኡውን <listenLink>ንምስማዕ</listenLink> ወፈያታት ንምግባር እኹል <sentenceCollectionGlossaryLink>ምሉእ ሓሳባት</sentenceCollectionGlossaryLink> ኣኪቡ ኢዩ።
 languages-show-more = ዝያዳ ተመልከት
 languages-show-less = ዝሓጸረ ተመልከት
 language-meter-in-progress = ገስጋስ
@@ -652,6 +657,7 @@ language-total-progress = ጠቕላላ
 language-search-input =
     .placeholder = ድለይ
 language-speakers = ተዛረብቲ
+localized = ዝተተርጎመ
 sentences = ምሉእ ሓሳባት
 total-hours = ዝተረጋገጸ ሰዓታት
 
@@ -662,6 +668,7 @@ action-tap = ጠውቕ
 contribute = ኣበርክት
 listen = ስማዕ
 skip = ስገር
+shortcuts = ኣቃራጭ
 clips-with-count-pluralized =
     { $count ->
         [one] ክሊፕ
