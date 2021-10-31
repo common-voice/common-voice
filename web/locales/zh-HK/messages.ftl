@@ -848,6 +848,7 @@ profile-form-delete = 刪除個人檔案
 
 download-q = 需要下載你嘅數據？
 download-recordings-title = 錄音片段
+download-size = 大細
 download-selected = 已選
 download-request = 請求下載
 download-request-refresh-button = 更新
