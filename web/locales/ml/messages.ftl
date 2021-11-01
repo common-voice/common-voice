@@ -294,7 +294,12 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = റെക്കോർഡ് / നിര്‍ത്തുക
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ക്ലിപ്പ് വീണ്ടും റെക്കോർഡുചെയ്യുക
+shortcut-discard-ongoing-recording = എസ്കേപ്
+shortcut-discard-ongoing-recording-label = ഇപ്പോഴത്തെ ശബ്ദരേഖ ഉപേക്ഷിക്കുക
+shortcut-submit = റിട്ടേൺ
+shortcut-submit-label = നുറുങ്ങുകൾ സമർപ്പിക്കുക
 request-language-text = കോമണ്‍ വോയിസിൽ ഇനിയും നിങ്ങളുടെ ഭാഷ കാണുന്നില്ലേ?
+request-language-text-learn = അത് എങ്ങനെ അഭ്യർത്ഥിക്കാമെന്ന് ഇവിടെ നിന്ന് മനസിലാക്കുക!
 request-language-button = ഒരു ഭാഷ അഭ്യർത്ഥിക്കുക
 
 ## ProjectStatus
@@ -323,6 +328,8 @@ profile-form-accent =
     .label = ശൈലി
 profile-form-age =
     .label = വയസ്സ്
+profile-form-gender-2 =
+    .label = ലിംഗം
 leaderboard-visibility =
     .label = ലീഡർബോർഡിന്റെ ദൃശ്യപരത
 hidden = അദൃശ്യം
