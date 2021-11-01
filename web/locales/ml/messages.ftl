@@ -794,6 +794,10 @@ n-clips-pluralized =
 help-share-goal = കൂടുതൽ ശബ്ദങ്ങൾ കണ്ടെത്താൻ ഞങ്ങളെ സഹായിക്കുക, നിങ്ങളുടെ ലക്ഷ്യം പങ്കിടുക
 confirm-goal = ലക്ഷ്യം സ്ഥിരീകരിക്കുക
 goal-interval-weekly = പ്രതിവാര
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $type }-ലെ നിങ്ങളുടെ { $count } ശബ്ദശകല പ്രതിദിനലക്ഷ്യം പങ്കിടുക
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type }-ലെ നിങ്ങളുടെ { $count } ശബ്ദശകല പ്രതിവാര ലക്ഷ്യം പങ്കിടുക
 share-goal-type-speak = സംസാരിക്കുന്നു
 share-goal-type-listen = കേൾക്കുന്നു
 share-goal-type-both = സംസാരിക്കുകയും കേൾക്കുകയും ചെയ്യുന്നു
