@@ -893,3 +893,6 @@ contribution-misreadings-example-6-title = ഞങ്ങ കാപ്പി ക�
 contribution-misreadings-example-6-explanation = [“ഞങ്ങൾ” എന്നായിരിക്കണം]
 contribution-misreadings-example-7-title = ഞങ്ങൾ ഒരു കാപ്പി കുടിക്കാൻ പോവുകയാണ്.
 contribution-misreadings-example-7-explanation = [ ‘ഒരു’ എന്നത് യഥാർത്ഥവാചകത്തിലില്ല.]
+contribution-misreadings-example-8-title = ദേ കടന്നല് പോണ്.
+contribution-misreadings-example-8-explanation = [തെറ്റായ ഉള്ളടക്കം]
+contribution-varying-pronunciations-title = വ്യത്യസ്തമായ ഉച്ചാരണങ്ങൾ
