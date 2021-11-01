@@ -391,6 +391,7 @@ faq-how-get-q = ᱪᱮᱠᱟ ᱞᱮᱠᱟᱛᱮ ᱤᱧ ᱥᱚᱢᱟᱱ ᱟᱲᱟ
 faq-when-release2-q = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱮᱴᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱛᱤᱥ ᱯᱮ ᱨᱤᱞᱤᱡᱽ ᱟ?
 faq-why-mission-q = Common Voice ᱫᱚ Mozilla ᱢᱤᱥᱚᱱ ᱨᱮᱭᱟᱜ ᱦᱟᱹᱴᱤᱧ ᱨᱮ ᱪᱚᱫᱟᱜ ᱢᱮᱱᱟᱜᱼᱟ?
 faq-why-my-lang-q = ᱤᱧᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱮᱫᱟᱜ ᱱᱤᱛ ᱵᱟᱠᱚ ᱥᱟᱹᱢᱤᱞ ᱟᱠᱟᱫᱟ?
+faq-where-src-from-2-q = ᱢᱩᱞ ᱚᱞ ᱫᱚ ᱠᱚᱟ ᱠᱷᱚᱱ ᱦᱮᱡ ᱠᱟᱱᱟ?
 faq-why-account-q = ᱢᱤᱫᱴᱟᱹᱝ ᱠᱷᱟᱛᱟ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱭᱤᱱ ᱟᱹᱯ ᱪᱮᱫᱟᱜ ᱤᱧ ᱮᱢ ᱟ?
 faq-is-account-public-q = ᱤᱧᱟᱜ ᱠᱷᱟᱛᱟ ᱟᱭᱢᱟ ᱦᱚᱲ ᱠᱚ ᱵᱟᱲᱟᱭᱟ ᱥᱮ?
 faq-what-is-cv = Common Voice ᱫᱚ ᱪᱮᱫ ᱠᱟᱱᱟ?
