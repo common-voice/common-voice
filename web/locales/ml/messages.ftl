@@ -514,6 +514,7 @@ de-identified-explanation = ഒരു ഡാറ്റാസെറ്റിന്
 error-title-404 = നിങ്ങൾക്ക് വേണ്ടി ഞങ്ങൾക്ക് ആ താൾ കണ്ടെത്താൻ കഴിഞ്ഞില്ല
 error-content-404 = ഒരുപക്ഷേ ഞങ്ങളുടെ <homepageLink>ഹോംപേജ്</homepageLink> സഹായിച്ചേക്കാം? ഒരു ചോദ്യം ചോദിക്കാൻ, ദയവായി <matrixLink>Matrix കമ്മ്യൂണിറ്റി ചാറ്റിൽ</matrixLink> ചേരുക, <githubLink>GitHub</githubLink> വഴി സൈറ്റ് പ്രശ്നങ്ങൾ നിരീക്ഷിക്കുക അല്ലെങ്കിൽ <discourseLink>ഞങ്ങളുടെ Discourse ഫോറങ്ങൾ</discourseLink> സന്ദർശിക്കുക.
 error-title-503 = ഞങ്ങൾ അപ്രതീക്ഷിതമായൊരു പ്രവർത്തനരാഹിത്യത്തിലൂടെ കടന്നുപോവുകയാണ്.
+error-content-503 = സൈറ്റ് എത്രയും വേഗം പ്രവർത്തനക്ഷമമാകും. ഏറ്റവും പുതിയ വിവരങ്ങൾക്കും സൈറ്റ് പ്രശ്നങ്ങൾ സമർപ്പിക്കുന്നതിനും നിരീക്ഷിക്കുന്നതിനും ദയവായി <matrixLink>Matrix കമ്മ്യൂണിറ്റി ചാറ്റിൽ</matrixLink> ചേരുക അല്ലെങ്കിൽ <githubLink>GitHub</githubLink> അല്ലെങ്കിൽ <discourseLink>ഞങ്ങളുടെ Discourse ഫോറങ്ങൾ</discourseLink> സന്ദർശിക്കുക.
 error-code = പിഴവ് { $code }
 
 ## Data
@@ -536,6 +537,7 @@ dataset-date = തിയ്യ‌‌തി
 license = ലൈസൻസ്: <licensLink> { $license } </ licenseLink>
 license-mixed = കൂടിക്കലര്‍ന്ന
 data-download-singleword-title = ഏകപദ ലക്ഷ്യഖണ്ഡം ഡൗൺലോഡ് ചെയ്യുക.
+data-download-singleword-callout-v2 = പറയുന്ന അക്കങ്ങൾ തിരിച്ചറിയുക, അതെ/അല്ല ഇവയിലേതെന്ന് തിരിച്ചറിക എന്നീ ആവശ്യങ്ങൾക്കുള്ള വിവരങ്ങളടങ്ങുന്ന ഒരു പ്രയോഗശകലമാണിത്.
 review-terms = കോമണ്‍ വോയിസ് ഉപയോഗിക്കുന്നതുവഴി, നിങ്ങൾ ഞങ്ങളുടെ <termsLink>നിബന്ധനകൾ</termsLink>, <PrivacyLink> സ്വകാര്യതാ അറിയിപ്പ് </ privacyLink> എന്നിവ അംഗീകരിക്കുന്നു
 terms-agree = ഞാൻ അംഗീകരിക്കുന്നു
 terms-disagree = ഞാൻ അംഗീകരിക്കുന്നില്ല
@@ -583,6 +585,7 @@ subscribe = അംഗത്വം നേടുക
 get-started-speech = സംഭാഷണം തിരിച്ചറിയൽ ഉപയോഗിക്കാന്‍ തുടങ്ങുക
 other-datasets = മറ്റ് ശബ്ദ വിവരസഞ്ചയങ്ങള്‍
 feedback-q = പ്രതികരണം അയയ്ക്കൂ
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ എന്നത് അത്യാധുനിക സംഭാഷണ നിർമിതബുദ്ധി മാതൃകകൾ വികസിപ്പിക്കുന്ന ഗവേഷകർക്കുള്ള ഒരു <docsLink>ഓപ്പൺ സോഴ്‌സ് ടൂൾകിറ്റ്</docsLink> ആണ്.
 community-playbook = കമ്മ്യൂണിറ്റി പ്ലേബുക്ക്
 data-other-librispeech-description = ലിബ്രിസ്പീച്ച് എന്നത് ലിബ്രിവോക്സ് പദ്ധതിയിൽ നിന്നുള്ള വായിക്കപ്പെട്ട ഓഡിയോപുസ്തകങ്ങളിൽ നിന്നും ഉരുത്തിരിഞ്ഞിട്ടുള്ള ഇംഗ്ലീഷ് ഭാഷാശകലങ്ങൾ 16Khz വേഗതയിൽ ഏകദേശം 1000 മണിക്കൂർ വായിച്ചിട്ടുള്ളതിന്റെ സംഭരണിയാണ്.
 data-other-ted-name = TED-LIUM കോർപ്പസ്
