@@ -79,6 +79,7 @@ hyw = Ермэл къуэхьэпIэ
 ia = Интэрлингуэ
 id = Инданэ \ Индэнэз
 ie = Интерлингуа
+ig = Игбо
 is = Ислъэнд
 it = Итал
 izh = Ижэр
@@ -87,6 +88,7 @@ ka = Хъырцэ, Куржы / Куржыбзэ/Хъырцэ/
 kaa = Къарэкъэлпэк
 kab = Къэбыл \ Къэбил \Кэбил
 kbd = Адыгэбзэ (Къэбэрдэй)
+ki = Кикуйу
 kk = Къэзахъ
 kmr = Курмэндж Курд
 ko = Кэрей / Куэрэй
@@ -111,6 +113,7 @@ ms = Мэлэй
 mt = Малт \ Малтий
 my = Бурмэ / Бырмэ
 myv = Ерзий / Арзан
+nan-tw = Тайуэн (Миннан)
 nb-NO = Нэур, Бэкумэл / Нор-быкумэл
 ne-NP = Ныпэл \ Нэпэл/Ныпэл
 nia = Ныйас
@@ -124,6 +127,7 @@ pap-AW = Пэпйэмэнтэ (Арубэ)
 pl = Лыхь, Пэул / Пол
 ps = Пэшту
 pt = Пэртыгу \ Пэртыгу
+quc = Киш
 rm-sursilv = Урмэн Сыурс \ Урым-Сурсэл
 rm-vallader = Урмэн Уэлэд \ Крым-Уэлэд
 ro = Урым
@@ -147,10 +151,12 @@ ta = Тэмыл \ Тамил
 te = Тэлыгу
 tg = Тэджык
 th = Тэй \ Тай
+ti = Тыгринэ
 tl = Тэгълэгу
 tr = Тырку
 tt = Тэтэр
 tw = Тыуи
+ty = Тахьит
 uby = Убых, ПIахъ
 udm = Удмырт
 ug = Уйгур
@@ -160,6 +166,7 @@ uz = Узбэк \ Узбэч/Узбэк
 vec = Уэнэт
 vi = Уэтнэм
 vot = Уэт / Уэд
+yi = Идиш
 yo = Уэрубэ
 yue = Куэнтэн
 zh-CN = Чынт \ Чынтыбзэ
@@ -256,29 +263,67 @@ email-subscription-title-new = 1э тедзэ Common Voice и хьыбарыщ1�
 
 benefits = Дызэреф1эк1хэр
 rich-data = Уи датэ ебгъэхьар гъэбагъуэ зэрыхъу.
+improve-audio = *
+keep-track = *
+compare-progress = *
+view-goals = *
+join-newsletter = *
 
 ## What's public
 
 whats-public = Сыт худэ тхыгъэ псоми ялъэгъуфыр?
+email-not-public = Уи имелыр * тщIынщ
+recordings-and-locale-public = *
+username-optin-public = *
+demographic-deidentified-clarity-2 = *
+username-email-not-demographic = *
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = с
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = п
 shortcut-play-toggle-label = Къегъэуэн/къэгъэувы1эн, Гъэ1у/Щыгъэт,
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = й
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = н
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = р
 shortcut-record-toggle-label = Тхын/къэгъэувы1эн, Тхы/Щыгъэт
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Пычыгъуэр щӀэу тхыж
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = *
+shortcut-submit = Гъэзэж
+shortcut-submit-label = *
 request-language-text = Зэк1э уи бзэр Common Voice-м хэту плъагъукъэ?
+request-language-text-learn = *
 request-language-button = Бзэм щӀэупщӀ
 
 ## ProjectStatus
 
 status-title = ?Прэектым и щытыкӀэ псор: еплъ уздынэсам!
 status-contribute = Уи макъыр егъэтх
+status-hours =
+    { $hours ->
+        [one] *
+       *[other] *
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = *
 english = Инджылызыбзэ/Анджыл
 
 ## ProfileForm
@@ -287,6 +332,8 @@ profile-form-username =
     .label = Анэдэлъхубзэ/Анэбзэ
 profile-form-native-language =
     .label = Анэдэлъхубзэ
+profile-form-additional-language =
+    .label = * бзэ
 profile-form-accent =
     .label = Акцент/
 profile-form-age =
@@ -306,24 +353,105 @@ female = ЦIыхубз
 # Gender
 other = Нэгъуэщ1 \ НэмыщI
 why-profile-title = Сыт профил щӀыхуер?
+why-profile-text = *
+dashboard = *
+build-profile = Профил ухуэ
+avatar = Авэтар
+goals = *
+settings = *
+edit-profile = Профил зэхъуэкI
+profile-create-success = Профил ухуащ!
 profile-close = ХуэщI
+profile-explanation = *
+thanks-for-account = *
+why-demographic = Сыт мы щIэ щхьэпэр?
+why-demographic-explanation-2 = *
+accept-privacy = *
+accept-privacy-title = *
+login-identity = *
+login-signup = *
+edit = Хъуэж
+email-subscriptions = Имел *
+download-profile = Си дата къитхыкI
+contribution-experience = *
+skip-submission-feedback = *
+skip-submission-description = *
+skip-submission-note = *
+off = УфIынкI
+on = ЩIэгъанэ
 
 ## Profile - Email
 
+browse-file-title = *
+browse-file = *
+connect-gravatar = *
+gravatar_not_found = *
+file_too_large = *
+avatar-uploaded = *
+max-file-size = *
 
 ## Profile - Email
 
+manage-subscriptions = *
+manage-email-subscriptions = *
+email-already-used = *
+add-language = *
+change-email-setings = *
 
 ## FAQ
 
+faq-title = *
 faq-what-cv-q = Common Voice-р зи1ысыр сыт?
+faq-what-cv-a = *
+faq-what-cv-a-2 = *
+faq-why-important-q = *
+faq-why-important-a = *
+faq-how-get-q = *
+faq-how-get-a = *
+faq-when-release2-q = *
+faq-when-release2-a = *
+faq-why-mission-q = *
+faq-why-mission-a = *
+faq-what-cv-and-deepspeech-q = *
+faq-what-cv-and-deepspeech-a = *
+faq-is-goal-assistant-q = *
+faq-is-goal-assistant-a = *
+faq-do-want-native-q = *
+faq-do-want-native-a = *
+faq-why-different-speakers-q = *
+faq-why-different-speakers-a = *
+faq-why-my-lang-q = *
+faq-why-my-lang-new-a = *
+faq-what-quality-q = *
+faq-what-quality-a = *
+faq-why-10k-hours-q = *
+faq-why-10k-hours-a = *
+faq-how-calc-hours-q = *
+faq-how-calc-hours-a = *
+faq-where-src-from-2-q = *
+faq-where-src-from-2-a = *
+faq-why-not-ask-read-q = *
+faq-why-not-ask-read-a = *
+faq-why-account-q = *
+faq-is-account-public-q = *
+faq-how-privacy-q = *
+faq-how-privacy-a = *
+faq-what-determine-identity-q = *
+faq-what-determine-identity-a = *
+faq-what-is-cv = *
+faq-using-cv = *
 faq-description = Common Voice-р Mozillam и жэрдэмщ, машынэхэр ирагъэсэну ц1ыху къызэрыгуэк1хэр зэрыпсалъэр къагуры1уэу.
 faq-search-for-answers =
     .label = Пэджэж лъыхъуэн
 
 ## ABOUT US
 
+about-title = *
+about-subtitle = *
+about-header-description = *
+about-header-description-2 = *
 how-does-it-work-title = Мыр дэпхуэдэу зэрылажьэр?
+how-does-it-work-text = *
 about-speak = КъаIуэ
 about-listen = Еда1уэ
 about-is-it-valid = Итхар захуэ?
