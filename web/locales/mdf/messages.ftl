@@ -822,6 +822,7 @@ download-q = Эряви таргамс даннойцень?
 download-info = Азк тейнек мезе арьсят таргамс:
 download-profile-title = Профильсь
 download-recordings-title = Сёрматфне
+download-recordings-size = Сяда сидеста мегабайтт
 download-size = Оцюлма
 download-request-button = Таргамс
 download-request-title = { $created }
