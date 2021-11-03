@@ -11530,6 +11530,7 @@ Erzähle dir dann gleich warum.
 Erzähle doch mehr von zu Hause.
 Erzähle mir mehr davon!
 Erzählen Sie vom ersten Tag in ihrer jetzigen beruflichen Tätigkeit.
+Erzählen sie auch ihren Bekannten und Verwandten von Common Voice.
 Es bahnt sich bereits das nächste Unglück an.
 Es beeinträchtigt die Sicht.
 Es beginnt mit wenig Rauch, der nach und nach zu dichtem Qualm wird.
@@ -13862,6 +13863,8 @@ Haben die Unternehmer ein Anrecht auf Entschädigung?
 Haben die das alte Ding echt noch mal aus der Versenkung geholt?
 Haben geklonte Tiere eine Seele?
 Haben herkömmliche Drahtesel deshalb weniger Konjunktur?
+Haben ihre Bekannten schon ihre Stimme für Common Voice gespendet?
+Haben ihre Verwandten schon ihre Stimme für Common Voice gespendet?
 Haben sich Kameras in den vergangenen fünfzehn Jahren nicht weiterentwickelt?
 Haben sie auch Wasser in Mehrwegglasflaschen?
 Haben sie sich etwa unsittlich berührt?
