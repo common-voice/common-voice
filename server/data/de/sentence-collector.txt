@@ -11530,6 +11530,7 @@ Erzähle dir dann gleich warum.
 Erzähle doch mehr von zu Hause.
 Erzähle mir mehr davon!
 Erzählen Sie vom ersten Tag in ihrer jetzigen beruflichen Tätigkeit.
+Erzählen sie auch ihren Bekannten und Verwandten von Common Voice.
 Es bahnt sich bereits das nächste Unglück an.
 Es beeinträchtigt die Sicht.
 Es beginnt mit wenig Rauch, der nach und nach zu dichtem Qualm wird.
@@ -13862,6 +13863,8 @@ Haben die Unternehmer ein Anrecht auf Entschädigung?
 Haben die das alte Ding echt noch mal aus der Versenkung geholt?
 Haben geklonte Tiere eine Seele?
 Haben herkömmliche Drahtesel deshalb weniger Konjunktur?
+Haben ihre Bekannten schon ihre Stimme für Common Voice gespendet?
+Haben ihre Verwandten schon ihre Stimme für Common Voice gespendet?
 Haben sich Kameras in den vergangenen fünfzehn Jahren nicht weiterentwickelt?
 Haben sie auch Wasser in Mehrwegglasflaschen?
 Haben sie sich etwa unsittlich berührt?
@@ -17947,6 +17950,7 @@ Ist es das wert?
 Ist es denn angenehm?
 Ist es denn ein Geheimnis?
 Ist es denn schon wieder vorbei, wie schade.
+Ist es denn so angenehm?
 Ist es eine fiktive Figur?
 Ist es heute glatt auf den Straßen?
 Ist es nicht rassistisch, dass Chinaböller erlaubt sind, Polenböller jedoch nicht?
@@ -18239,6 +18243,7 @@ Jawohl, der Artikel ist laut Duden korrekt.
 Jawohl, man kommuniziert untereinander und generiert gleichzeitig wertvolle Daten.
 Jawohl, mein Herr, das ist das königliche Schloss.
 Jawohl, mein Herr.
+Jawohl, mein Protokollführer.
 Je eher, desto besser.
 Je größer eine Lupe ist, desto leichter kann man mit ihr ein Feuer entfachen.
 Je höher das Gebirge, desto beschränkter der Horizont, kontert sie.
@@ -23546,6 +23551,7 @@ Ohne Administratorrechte geht hier leider nichts.
 Ohne Alkohol kann man das doch nicht ertragen!
 Ohne Alkohol wären die meisten Ehen in Deutschland nie zustande gekommen.
 Ohne Anhänger müssen Sattelschlepper eine unglaubliche Beschleunigung haben.
+Ohne Anwalt werde ich keine Aussage tätigen.
 Ohne Anzahlung geht sowieso nichts.
 Ohne Autos wäre die Stadt viel lebenswerter.
 Ohne Autovergleich versteht das doch niemand!
@@ -29425,6 +29431,7 @@ Was sollte die durchschnittliche Menge an Sprechern pro Tag im Idealfall sein?
 Was stackselst du denn so beim Vorlesen rum?
 Was steht an?
 Was steht auf dem Preisschild?
+Was steht denn im Gedächtnisprotokoll?
 Was steht heute an in der Uni?
 Was steht ihr da herum wie die Ölgötzen?
 Was steht in der Sprechblase?
@@ -32765,6 +32772,7 @@ Zu diesem Zweck gründete man eine Spezialeinheit.
 Zu diesem Zweck wurde ein großes Labor eingerichtet.
 Zu durchschaubar für einen erfahrenen Gegner.
 Zu einem guten Actionfilm gehören viele Explosionen.
+Zu einem laufenden Verfahren werde ich mich nicht äußern.
 Zu einem richtigen Lagerfeuer gehört jemand, der Gitarre spielen kann.
 Zu einer professionellen Vertonung gehören auch passende Soundeffekte.
 Zu gern würde er hineinfassen, aber er ist nicht groß genug.

@@ -131,6 +131,7 @@ Acaban de llegar Carla y Virginia.
 Acabo de ver un jabalí cruzar por el paso de cebra.
 Aceite abundante, buen año por delante.
 Aceptamos pulpo como animal de compañía
+Acordaos de la palabra que Moisés, siervo de Jehová, os mandó diciendo
 Acostumbrado a olerte
 Acostumbrado a sentirte
 Actualiza el índice de paquetes y todos los paquetes instalados:
@@ -168,6 +169,7 @@ Ahora hemos vuelto a las formas y maneras de antes
 Ahora la parte difícil. ¡ Alicates!
 Ahora me dedico a los bolos y tengo un futuro prometedor.
 Ahora mismo están de pelea, largos silencios y gritos
+Ahora pues, no temas, hija mía:
 Ahora que había enseñado al burro a no comer, va y se muere
 Ahora quiero hablar de un programa
 Ahora repite los gestos y la salmodia mirando al noroeste
@@ -852,6 +854,7 @@ Días de mucho, vísperas de nada.
 Dígale muchas gracias, que se las agradezco muchísimo.
 Díselo luego que ahora no está el horno para bollos
 Dónde deben ir tan mudados.
+E hizo Dios animales de la tierra según su género.
 Echad en el río todo hijo que naciere.
 Echar por el atajo no siempre ahorra trabajo.
 Efectivamente es otra cosa, y se llama voto censitario
@@ -1271,6 +1274,7 @@ En el país de los ciegos el tuerto es el rey.
 En el país de los ciegos, el tuerto es el rey
 En el pecado lleva la penitencia
 En el peligro, se conoce al amigo.
+En el principio crió Dios los cielos y la tierra.
 En el punto medio está la virtud
 En el que se analiza el grado de cumplimiento de las depuradoras
 En el zoo hay un tigre blanco.
@@ -1339,9 +1343,11 @@ Enseña valores morales a tus hijos
 Enseñemos a los chicos nuestro saludo secreto de amigos.
 Entonces, subamos a bordo. ¡ no, espera!
 Entonces, tenemos que hacer algo.
+Entonces Faraón mandó á todo su pueblo, diciendo.
 Entonces no tenemos tiempo que perder.
 Entonces pusieron sobre él comisarios de tributos que los molestasen con sus cargas.
 Entonces yo los tengo también.
+Entonces él dijo: ¿Quién eres?
 Entre col y col, lechuga
 Entre el frío y el hambre se quedó pajarito y la diñó
 Entre nada y prácticamente nada es la ganancia de un músico
@@ -1602,6 +1608,7 @@ Este cojín está duro como una piedra.
 Este crío habla hasta por los codos
 Este dinerito extra me viene como agua de mayo
 Este es mi sitio.
+Este es padre de Isaí, padre de David.
 Este es uno de los tropezones de Jerry
 Este es, evidentemente, uno de sus tropezones
 Este fenómeno supone un beneficio para muchos músicos
@@ -2042,9 +2049,11 @@ Iréis juntos a Santa Cruz.
 Irónicamente, estas compañías
 Ivan Pérez no vendrá de excursión.
 Jana se ha roto el brazo.
+Javier Milei es economista.
 Jaén es la más cumplidora
 Jaén es la más cumplidora con un porcentaje alto
 Jehová había visitado á su pueblo para darles pan.
+Jehová sea con vosotros.
 Jordi tiene una tía en Suiza.
 José llegó a la Formentera hippy de los setenta y se quedó.
 Juan tiene más jeta que espalda
@@ -2577,6 +2586,7 @@ Los ciudadanos también tenían derechos
 Los clásicos de fútbol se me hacen pesados.
 Los cobardes mueren muchas veces, los valientes solo una
 Los cooperantes distribuyeron los alimentos entre la población
+Los cuales tomaron para sí mujeres de Moab.
 Los dados tienen seis caras, al menos en mi pueblo.
 Los datos eran erróneos, ¿verdad?
 Los de la oposición nunca nos dedicamos a lamer el culo del Gobierno.
@@ -2820,6 +2830,7 @@ Mi nave ha impactado aquí por equivocación.
 Mi pareja es bióloga.
 Mi prima tiene una granja en el pueblo.
 Mi profesor dice que la inteligencia artificial acabará con la especie humana.
+Mi siervo Moisés es muerto.
 Mi suegra no me traga, le caigo gordo
 Mi tío y mi hermano se llevan muy bien.
 Mientras hay vida hay esperanza
@@ -2835,6 +2846,7 @@ Mira, en esa casa hay un niño que piensa que eres lo mejor.
 Mira, ya han vuelto.
 Mira adelante y no caerás atrás.
 Mira al pajarito que te saco una foto
+Mira bien el campo que segaren, y síguelas:
 Mira un insecto
 Miramos los corrales donde mugen las vacas.
 Mirando en detalle vi que ni podía ver los libros.
@@ -3156,6 +3168,7 @@ No me gusta la sopa de fideos.
 No me gustan los exámenes de filosofía.
 No me hables acerca de importancia.
 No me hagas muecas.
+No me llaméis Noemi, sino llamadme Mara.
 No me ruegues que te deje, y que me aparte de ti:
 No me tires de la lengua que prometí no contárselo a nadie
 No me toques las palmas que me conozco y me pongo a bailar.
@@ -3287,6 +3300,7 @@ No vendas la piel del oso antes de cazarlo
 No vendré temprano porque me gusta dormir.
 No vio el escalón y casi se escoña
 No visitas
+No, hijas mías;
 Normalmente se configuran con la misma carpeta
 Nos equivocamos de tren y fuimos a parar al aeropuerto.
 Nos gustaría un congreso anual
@@ -3456,6 +3470,7 @@ Parientes y trastos viejos, pocos y lejos.
 Partimos las aceitunas.
 París bien vale una misa
 Pasaba más hambre que un maestro de escuela
+Pasad por medio del campo, y mandad al pueblo, diciendo: Preveníos de comida;
 Pasan las horas y nadie ha hecho el gesto de lavar los platos.
 Pasaremos por Decatlon.
 Paseaban por la calle de la mano sin rumbo, sintiéndose cómplices
@@ -3590,6 +3605,7 @@ Porque el que no es competente... es incompetente
 Porque esta cama es mi sitio.
 Porque las mujeres Hebreas no son como las Egipcias.
 Porque lo digo yo y sanseacabó
+Porque no vayas vacía á tu suegra.
 Porque tienes un amigo en mí.
 Porque yo soy tu amigo fiel.
 Portan los chalecos amarillos de alta visibilidad
@@ -3608,6 +3624,8 @@ Primero es la obligación que la devoción.
 Primero yo, luego yo, y después yo
 Probablemente pierdas tu empleo
 Producir imágenes fuera de los sistemas de intercambio
+Produzca la tierra seres vivientes según su género, bestias y serpientes y animales.
+Produzcan las aguas reptil de ánima viviente.
 Programamos un viaje diferente, fuera del turismo masificado
 Programar te da habiliades de organización.
 Progresaremos mediante su influencia.
@@ -3763,6 +3781,7 @@ Recuérdame que te llame mañana
 Regalamos otra información por pura ignorancia
 Reggae, ¿dices que es?
 Reinicie el ordenador.
+Reposa, hija mía, hasta que sepas como cae la cosa:
 Reserva plazas de parking por Internet.
 Respondió en voz baja: duerme pequeña, duerme
 Resultó ser un regalo envenenado, un caballo de Troya
@@ -3935,6 +3954,7 @@ Se ve que ha habido dos víctimas mortales por la ola de calor.
 Se ve que se conocieron en el instituto.
 Sea arduo y estés muy, muy lejos de tu dulce hogar...
 Sea conciliador.
+Sea él bendito de Jehová.
 Seamos realistas y hagamos lo imposible.
 Secreto bien guardado, el que a nadie se ha contado
 Seguid sin mí. Marchaos.
@@ -3945,6 +3965,7 @@ Según las nuevas informaciones dadas a la prensa
 Según las propias palabras del simpático senador
 Seis, cinco, cuatro, tres, dos, uno
 Sensibilizados es el nombre que reciben los que huyen espantados.
+Sentaos aquí.
 Senterada está en Valle de Fosca.
 Septiembre o seca las fuentes o se lleva los puentes.
 Ser o no ser, esa es la cuestión
@@ -4251,6 +4272,7 @@ Tenía una ricura de niño. Era un sol
 Teníamos tantos planes.
 Tenían las flores perfumadas frases.
 Terminó teniendo gemelos.
+Testigos somos.
 Tesón fue lo que nos enseñaron nuestros antepasados
 Theix era una comuna francesa situada en el departamento de Morbihan.
 Tiempo pasado siempre es deseado.
@@ -4540,6 +4562,7 @@ Vivir es sufrir
 Vivía en la cima del mundo, era el rey
 Vivía la gran vida
 Vivía la vida a tope
+Vió Dios que era bueno.
 Volveos, hijas mías: ¿para qué habéis de ir conmigo?
 Volvió convertido en todo un hombre de pelo en pecho
 Vosotras habíais comido
@@ -4551,6 +4574,7 @@ Vosotros habíais comido
 Vosotros no habréis visitado
 Vosotros no habíais comido
 Vosotros no visitáis
+Vosotros sois hoy testigos.
 Vosotros visitáis
 Voy a cocinar en mi impresora tres de
 Voy a lavar los platos.
@@ -4563,6 +4587,8 @@ Vísteme despacio, que tengo prisa
 Vísteme despacio, que tengo prisa.
 Walter y Skyler White deberían tener una estatua humana en la Rambla.
 Y José estaba en Egipto.
+Y Obed engendró á Isaí, é Isaí engendró á David.
+Y Salmón engendró á Booz, y Booz engendró á Obed;
 Y ahora, de pronto, cosas extrañas me suceden
 Y ahora, vacía esa caja fuerte.
 Y colorín, colorado, este cuento se ha acabado
@@ -4572,16 +4598,23 @@ Y cuando lleguemos allí, encontraremos un modo de llevarte a tu hogar.
 Y cuando él se acostare, repara tú el lugar donde él se acostar.
 Y de una manera más concreta al litoral andaluz
 Y desollará el holocausto, y lo dividirá en sus piezas.
+Y dijo Dios: Sea la luz: y fué la luz.
 Y el rey de Egipto hizo llamar á las parteras.
+Y ella le respondió: Ve, hija mía.
+Y ellos respondieron: Jehová te bendiga.
 Y ellos se sentaron.
 Y en la noche, a la luz del lampadario.
 Y en los tamarindos, con los clarineros.
 Y entre un intenso aroma de lirios y albahacas.
 Y era azul la sierra, la sierra lejana.
 Y es el único que tengo.
+Y estas son las generaciones de Phares: Phares engendró á Hesrón;
 Y estoy haciendo lo mejor que puedo
 Y estás a millas y millas de tu bonita y tibia cama.
+Y fué la tarde y la mañana el día cuarto.
+Y fué la tarde y la mañana el día quinto.
 Y fué la tarde y la mañana el día sexto.
+Y fué la tarde y la mañana el día tercero.
 Y hago lo que puedo para superarlo.
 Y la que no querían también la tuvieron
 Y las parteras respondieron á Faraón.
@@ -4595,6 +4628,7 @@ Y los hijos de Israel crecieron, y multiplicaron.
 Y los que carecen de marca
 Y luego se oye un ruido por lomas y floresta.
 Y me hubieras quitado todo lo que era importante para mí
+Y murieron también los dos, Mahalón y Chelión.
 Y murió José, y todos sus hermanos, y toda aquella generación.
 Y música de nidos, como mansos instrumentos.
 Y nadie me lo va a arrebatar.
@@ -4605,6 +4639,7 @@ Y no solo no les da, sino que les quita
 Y olía a albahaca y alcanfor.
 Y oímos las estrofas del murmurante río.
 Y por haber las parteras temido á Dios, él les hizo casas.
+Y púsolas Dios en la expansión de los cielos, para alumbrar sobre la tierra
 Y qué asco y qué tristeza comenzar a bajar.
 Y qué me dicen de las psicofonías
 Y si nos gusta la zona podemos quedarnos un par de añitos.
@@ -4620,6 +4655,7 @@ Y tú, ¿de dónde eres?
 Y viendo Noemi que estaba tan resuelta á ir con ella, dejó de hablarle.
 Y vuelta la burra al trigo y que si la abuela fuma
 Y yo era el viajero lleno de ilusión.
+Y él respondió: Yo redimiré.
 Ya, os lo tomáis a broma.
 Ya estamos en Sitges.
 Ya estoy completamente recuperado del catarro que me cogí la semana pasada.
@@ -4650,12 +4686,14 @@ Yo era feliz; el mundo sonreía brindándome amoroso su ternura; Y yo, pobre ine
 Yo habré visitado
 Yo he visto cosas que vosotros no creeríais
 Yo levantaré el ranchito.
+Yo me fuí llena, mas vacía me ha vuelto Jehová.
 Yo no habré visitado
 Yo no le tocaría demasiado las narices que tiene muy mala hostia
 Yo no veo nada.
 Yo podría volar si quisiese
 Yo pude haberlo detenido.
 Yo quiero dos cortes.
+Yo soy Ruth tu sierva: extiende el borde de tu capa sobre tu sierva.
 Yo soy quien debería estar atado a ese cohete.
 Yo también te quiero.
 Yucatán es una de las treinta y dos entidades federativas
@@ -11493,6 +11531,7 @@ yo ya no puedo estar contigo.
 ¿Cuántos coches has tenido?
 ¿Cómo se puede tener resaca sin haber bebido?
 ¿Cómo te encuentras?
+¿Cúya es esta moza?
 ¿De Lleida dices que es?
 ¿De la educación me hablas?
 ¿De verdad que Adán y Eva fueron los padres de Caín?
@@ -11610,6 +11649,7 @@ yo ya no puedo estar contigo.
 ¿Quieres decir que el aire acondicionado funciona?
 ¿Quieres decir que no sería mejor ir a otra playa?
 ¿Quieres dejar eso y hacerme caso, por favor?
+¿Quién hay entre vosotros de todo su pueblo?
 ¿Quién le pone el cascabel al gato?
 ¿Quién podría confirmar la existencia de un Alter Ego?
 ¿Quién te pagó los estudios?
@@ -12390,6 +12430,7 @@ yo ya no puedo estar contigo.
 ¿se puede tratar solo de una mala negociación?
 ¿será que esta taberna no esta cerca del Ayuntamiento...?
 ¿será que no se encuentra cerca del Ayuntamiento?
+¿tengo yo más hijos en el vientre, que puedan ser vuestros maridos?
 ¿tu beberías?
 ¿tu no beberías?
 ¿tú beberás?

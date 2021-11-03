@@ -78,6 +78,8 @@ hy-AM = Armenianeg
 hyw = Armenianeg ar c’hornog
 ia = Interlingua
 id = Indonezeg
+ie = Interlingue
+ig = Igbo
 is = Islandeg
 it = Italianeg
 izh = Ijoreg
@@ -86,6 +88,7 @@ ka = Jorjieg
 kaa = Karakalpakeg
 kab = Kabileg
 kbd = Kabardeg
+ki = Kikuyu
 kk = Kazakheg
 kmr = Kurdeg Kurmanji
 ko = Koreaneg
@@ -110,11 +113,13 @@ ms = Malayeg
 mt = Malteg
 my = Birmaneg
 myv = Erzyeg
+nan-tw = Taiwaneg (Minnan)
 nb-NO = Norvegeg bokmål
 ne-NP = Nepaleg
 nia = Niaseg
 nl = Nederlandeg
 nn-NO = Norvegeg nynorsk
+nyn = Nyankole
 oc = Okitaneg
 or = Oriyeg
 pa-IN = Pandjabeg
@@ -122,12 +127,14 @@ pap-AW = Papiamento (Aruba)
 pl = Poloneg
 ps = Pachtoeg
 pt = Portugaleg
+quc = K'iche'
 rm-sursilv = Romañcheg ar sursilvan
 rm-vallader = Romañcheg ar vallader
 ro = Roumaneg
 ru = Rusianeg
 rw = Kinyarwanda
 sah = Yakouteg
+sat = Santali (Ol Chiki)
 sc = Sardinieg
 scn = Sikilianeg
 shi = Tacheliteg
@@ -144,10 +151,12 @@ ta = Tamileg
 te = Telougoueg
 tg = Tadjikeg
 th = Thailandeg
+ti = Tigrinya
 tl = Tagalogeg
 tr = Turkeg
 tt = Tatareg
 tw = Twieg
+ty = Tahitianeg
 uby = Oubic’heg
 udm = Oudmourteg
 ug = Ouigoureg
@@ -157,6 +166,7 @@ uz = Ouzbekeg
 vec = Veneteg
 vi = Vietnameg
 vot = Voteg
+yi = Yiddish
 yo = Yoroubeg
 yue = Kantoneg
 zh-CN = Sinaeg (Sina)
@@ -190,6 +200,7 @@ logout = Digevreañ
 ## Home Page
 
 home-title = Ar raktres Common Voice a zo un intrudu eus Mozilla evit sikour ar mekanikoù da gompren penaos e komz an dud wirion.
+default-tagline = Mozilla Common Voice a zo un intrudu evit sikour ar mekanikoù da gompren penaos e komz an dud wirion.
 home-cta = Komzit, kemerit perzh amañ!
 wall-of-text-start = Naturel eo ar vouezh, denel eo ar vouezh. Setu aze perak e chomomp bamet pa grouomp un deknologiezh vouezh a c’hall bezañ implijet gant hor mekanikoù. Evit krouiñ reizhiadoù mouezh e ranker kaout ur pezh sammad a roadennoù mouezh avat.
 wall-of-text-more-mobile = Ar pep brasañ eus ar roadennoù a ra ar c’hompagnunezhioù bras ganto ne c’hallont ket bezañ implijet gant lodenn vrasañ an dud. Soñjal a ra deomp e voug ar grouüsted. Setu perak hon eus lañset ar raktres Common Voice, ur raktres a laka anaoudegezh ar vouezh da vezañ digor d’an holl.
@@ -292,6 +303,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Enrollañ/Paouez
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Adenrollañ ar c’hlip
+shortcut-discard-ongoing-recording = Achap
 shortcut-submit = Distreiñ
 shortcut-submit-label = Kas ar c’hlipoù
 request-language-text = Ne welit ket ho yezh e Common Voice evit ar mare?
@@ -580,8 +592,6 @@ subscribe = Koumanantiñ
 get-started-speech = Kregiñ gant anaoudegezh ar vouezh
 other-datasets = Spletadoù roadennoù all
 feedback-q = Evezhiadennoù ho peus?
-deepspeech-info = Spletad roadennoù Common Voice a gloka lusker anaoudegezh digor e darzh Mozilla, Deep Speech e anv. Gallout a rit e implij evit sevel arloadoù anaoudegezh ar vouezh. Lennit hon <githubLink>alberz war Github</githubLink> pe kejit gant an <discourseLink>Discourse DeepSpeech</discourseLink> evit gouzout penaos kregiñ ganit.
-common-voice-info-new = Goulennoù hoc’h eus a-zivout Common Voice? Mennozhioù evit gwellaat pe alioù a-zivout ur yezh resis? Deuit ganeomp war ar <discourseLink>forom Discourse</discourseLink> ha lârit deomp.
 data-other-librispeech-description = LibriSpeech a zo anezhañ ur c’horpus a 1000 eurvezh skrid bennak lennet e saozneg (16 kHz) hag a zeu diwar levrioù son ar raktres LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Savet eo bet ar c’horpus TED-LIUM diwar divizoù komzet hag an treuzskrivadurioù anezho a c’haller kavout war lec’hienn TED.
@@ -885,6 +895,19 @@ why-delete-recordings =
     Ha gallout a rafec’h lavar deomp perak e fell deoc’h dilemel hoc’h enrolladennoù?
 profile-form-delete = Dilemel ar profil
 
+## Profile Download
+
+download-profile-title = Profil
+download-profile-size = Un nebeut bitoù
+download-recordings-title = Enrolladennoù
+download-size = Ment
+download-selected = Diuzet
+download-start = Pellgargañ roadennoù ar profil
+download-request-button = Pellgargañ
+download-request-title = { $created }
+download-request-refresh-button = Freskaat
+download-request-modal-title = Liammoù pellgargañ
+
 ## Landing
 
 welcome-staff = Donemat, implijad { $company }!
@@ -928,3 +951,14 @@ demo-dashboard-card-body = Evit pep klip mouezh pourvezet ganeoc'h ha pep klip a
 
 ## Validation criteria
 
+contribution-criteria-nav = Dezverkoù
+contribution-criteria-page-title = Dezverkoù ar c'hemer perzh
+contribution-for-example = da skouer
+contribution-misreadings-title = Fazioù lenn
+contribution-misreadings-example-6-explanation = [Rankout a rafe bezañ “Ni ’zo”]
+contribution-misreadings-example-7-title = Mont a reomp er-maez da bakañ ur banne kafe.
+contribution-volume-title = Live-son
+contribution-reader-effects-title = Efedoù al lenner
+contribution-just-unsure-title = Etre daou soñj?
+see-more = <chevron></chevron>Gwelet muioc’h
+see-less = <chevron></chevron>Gwelet nebeutoc’h

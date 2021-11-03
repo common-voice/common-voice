@@ -78,6 +78,8 @@ hy-AM = 亞美尼亞文
 hyw = 西亞美尼亞文
 ia = 因特文
 id = 印尼文
+ie = 國際語
+ig = 伊博文
 is = 冰島文
 it = 義大利文
 izh = 伊喬里亞文
@@ -86,6 +88,7 @@ ka = 喬治亞文
 kaa = 卡拉卡爾帕克文
 kab = 卡拜爾文
 kbd = 卡巴爾達文
+ki = 基庫尤文
 kk = 哈薩克文
 kmr = 北庫爾德文
 ko = 韓文
@@ -115,6 +118,7 @@ ne-NP = 尼泊爾文
 nia = 尼亞斯文
 nl = 荷蘭文
 nn-NO = 挪威文（新挪威語）
+nyn = 尼揚科勒文
 oc = 奧克文
 or = 歐利亞文
 pa-IN = 旁遮普語
@@ -128,6 +132,7 @@ ro = 羅馬尼亞文
 ru = 俄文
 rw = 盧旺達文
 sah = 薩哈文
+sat = 桑塔利語（Ol Chiki 文）
 sc = 薩丁尼亞語
 scn = 西西里文
 shi = 施盧赫文
@@ -157,6 +162,7 @@ uz = 烏茲別克文
 vec = 威尼斯文
 vi = 越南文
 vot = 沃特文
+yi = 意第緒文
 yo = 約魯巴文
 yue = 粵文
 zh-CN = 中文（大陸）
@@ -190,6 +196,7 @@ logout = 登出
 ## Home Page
 
 home-title = Common Voice 計劃係由 Mozilla 發起嘅，用嚟幫機械學識好似真人咁發聲。
+default-tagline = Mozilla Common Voice 計劃旨在教識機器真人講野嘅方式。
 home-cta = 喺呢度貢獻你嘅聲音！
 wall-of-text-start = 語音係自然、有人性嘅。所以我哋非常希望為機器建造可用嘅語音技術，但建造語音系統需要非常大量嘅語音數據。
 wall-of-text-more-mobile = 大部分現成嘅數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立咗等每個人都可以嚟自由建造語音識別嘅 Common Voice 計劃。
@@ -282,6 +289,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = 錄音/停止
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 重新錄製片段
+shortcut-discard-ongoing-recording = 退出
+shortcut-discard-ongoing-recording-label = 捨棄目前嘅錄音
 shortcut-submit = 返回
 shortcut-submit-label = 提交錄音
 request-language-text = 喺 Common Voice 入邊搵唔到您的語言？
@@ -573,8 +582,6 @@ subscribe = 訂閱
 get-started-speech = 語音識辨新手入門
 other-datasets = 其他語音數據集
 feedback-q = 有意見要回饋嗎？
-deepspeech-info = Common Voice 資料集可與 Mozilla 的開放原始碼語音識別引擎 Deep Speech 互補，讓您用來打造語音識別應用程式。您可閱讀我們的 <githubLink>Github 概觀</githubLink>或加入<discourseLink> DeepSpeech Discourse</discourseLink> 了解如何入門。
-common-voice-info-new = 有關於 Common Voice 的問題嗎？有針對某種語言的新點子或改善的意見嗎？歡迎加入 <discourseLink>Discourse 討論區</discourseLink>留言給我們知道。
 data-other-librispeech-description = LibriSpeech 語料庫來自 LibriVox 計劃，共有大概一千個鐘嘅 16 千赫英語有聲書錄音。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的講座對話，及其被抄寫下來的演講稿一起製作而成的語料庫。
@@ -837,6 +844,16 @@ why-delete-recordings =
     可唔可以話畀我哋知你點解想刪除錄音片段？
 profile-form-delete = 刪除個人檔案
 
+## Profile Download
+
+download-q = 需要下載你嘅數據？
+download-recordings-title = 錄音片段
+download-size = 大細
+download-selected = 已選
+download-request = 請求下載
+download-request-refresh-button = 更新
+download-request-modal-title = 下載鏈結
+
 ## Landing
 
 welcome-staff = 歡迎 { $company } 嘅員工！
@@ -880,3 +897,11 @@ demo-listen-subtitle = 準備好幫手貢獻未？
 
 demo-dashboard-card-header = 個人儀表板可以令你了解個人同社群嘅最新消息。
 demo-dashboard-card-body = 對於每段貢獻咗出嚟嘅錄音同埋經過驗證嘅錄音，您嘅帳戶儀表板都會更新，以反映您喺每種語言嘅最新進展。冇錯，您可以作出多項貢獻。<br/> <br/>你可以透過儀表板跟蹤統計數據，了解您同社群入面其他嘅交往狀況，並設定每日或者每個禮拜嘅貢獻目標。
+
+## Validation criteria
+
+contribution-for-example = 譬如
+contribution-volume-title = 音量
+contribution-just-unsure-title = 唔肯定？
+see-more = <chevron></chevron>睇多啲
+see-less = <chevron></chevron>睇少啲

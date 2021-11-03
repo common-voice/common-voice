@@ -1322,6 +1322,7 @@
 "To see the Good Witch who rules here," she answered.
 "To the Emerald City," said Dorothy, "to see the Great Oz."
 "Too cold," said Della briefly.
+"Trick or Treat" the children cried!
 "True likewise," said Mr. Smith.
 "True," I said.
 "True," answered Oz.
@@ -1982,6 +1983,7 @@ A fine rainy mist lay on the sea like a thin fog.
 A fine shadow was flung over the deep green meadow, darkening all.
 A fire was burning; the place was littered with books and drawing-boards.
 A fish of the sea or river?
+A five-member committee was constituted.
 A flash in the pan or a shot?
 A flash mob came to our town today.
 A flash of horrible anticipation passed through the bar.
@@ -2137,6 +2139,7 @@ A lonesome town, though.
 A longitudinal section was made with a saw completely through its substance.
 A lot of diamonds had been through the thieves' market in London.
 A lot of our history has not survived.
+A lot of the things you said I really relate to and agree with.
 A lot of them got scared.
 A lovely morning, is it not?
 A lovely shaded walk invites the strollers on warm afternoons.
@@ -4220,6 +4223,7 @@ And there's no chivalry, no quarter shown in this fight.
 And there's not such another.
 And these others — the Councillors, Paisley.
 And they all gathered round to have a look.
+And they all lived happily ever after.
 And they are respectable people.
 And they are very angry?
 And they aren't strong this year.
@@ -5572,6 +5576,7 @@ Behind him lay the thousand-years-long road across all Siberia and Russia.
 Behind him the great flowers leaned as if they were calling.
 Behind the hotel his car was waiting.
 Behind the room a door led into a little white-tiled bathroom.
+Behind this is a conspiracy to give a bad name to the farmers' movement.
 Behind us is the supporting wall of the hotel garden.
 Behind, not far back, were the fishermen.
 Behold him there, the monarch of the seas!
@@ -5790,6 +5795,7 @@ Bollywood has vast legacy.
 Bonfires burst out in all in parts of the frame.
 Bong goes the bell.
 Bonny bird; wheeling over our heads in the middle of the moor.
+Book on Subhash Chandra Bose written by Dr Ranbir Singh Dahiya was released.
 BookBrainz is an online encyclopedia containing information about published literature.
 Books are well written, or badly written.
 Boot and saddle, and be quick about it.
@@ -5807,6 +5813,7 @@ Both girls were kind.
 Both men evidently thought the point of great importance.
 Both might be as pale, both as intent.
 Both nocebo and placebo effects are presumably psychogenic.
+Both of them were close comrades of Shaheed Jasbir Singh.
 Both of them were immense.
 Both parties agree on the compromise.
 Both parties were delayed very late.
@@ -7177,6 +7184,7 @@ By no means a bad old sort.
 By no means a scaly project.
 By photosynthesis is understood that power peculiar to chlorophyll.
 By process of elimination we could determine who the real culprit was.
+By reaching out in large numbers to thwart the ongoing conspiracies of the government.
 By seven o’clock the two were in good condition.
 By some the word morphology is employed in a restricted sense.
 By tacit agreement they ignored the remarks and insinuations of their acquaintances.
@@ -8475,6 +8483,7 @@ Do I make myself intelligible?
 Do I need to fill in this questionnaire?
 Do I pull this?
 Do I really look the same as usual?
+Do I really want to be in a textbook?
 Do I understand that you will take her with you?
 Do I want to live?
 Do I, or don't I?
@@ -8963,9 +8972,11 @@ Don't mind me.
 Don't mind politics, young women, they are not good after the waters.
 Don't miss the latest episode of the podcast. Out now!
 Don't peck at one another, children.
+Don't piss him off
 Don't pretend to be in raptures.
 Don't push a winning game too far.
 Don't put him out, sir.
+Don't put me on hold.
 Don't rake up forgotten tragedies.
 Don't say 'wife.'
 Don't say it wasn't done!
@@ -9844,7 +9855,10 @@ Far from it.
 Faraday illustrated the laws of these induced currents.
 Fare well, my beloved friend.
 Faridabad is located in Gujarat right?
+Farmers are protesting against leaders of Bharateeya Janatha party and allies.
 Farmers in Pennsylvania have a commendable spirit for building good barns.
+Farmers showed black flags to the state sports minister Sandeep Singh.
+Farmers' anger and resistance manifesting itself in black flag protests.
 Fast and loose in one thing, fast and loose in everything.
 Fast, but endure.
 Fasting and reflection seemed to have brought him to a better spirit.
@@ -9989,9 +10003,11 @@ Foolish, silly boy!
 Fools they were — not to be more afraid of him.
 Football managers devise the perfect strategy for their team.
 Footnotes have been provided.
+For Christ also died for sins once for all.
 For Developers
 For Gawd's sake!
 For Gawd's sake, cover that face!
+For God so loved the world that he gave his only begotten son.
 For God's sake don't worry me.
 For God's sake tell me all you know.
 For God's sake, don't!
@@ -10059,6 +10075,7 @@ For all I know he was one of the regular threepennies.
 For all have sinned and fall short of the glory of God.
 For all intents and purposes.
 For all the while they lay safe in this cache.
+For all we know, we could be inside a computer simulation.
 For always there will be greater and lesser persons than yourself.
 For an hour or two I watched it from a pit of heather.
 For an instant Gloria thought the officers were being dismissed.
@@ -10289,6 +10306,7 @@ From this room came groans and wailing.
 From this table it appears that the facial is never a right angle.
 From what can it proceed?
 From your faithful Jo.
+Fruit flies are small enough to get through the holes in the screen.
 Frustrated, I throw my water bottle to the ground.
 Fuel prices are leveling out.
 Full details are included in the appendices.
@@ -10570,6 +10588,7 @@ God and Father of mankind.
 God bless 'em, I hope I'll go on seeing them forever.
 God bless and keep us all!
 God bless my soul, ring the bell, then.
+God bless you
 God bless you, my dear!
 God bless you, old fellow!
 God brings thee the tonic cup I feared to mix.
@@ -10583,12 +10602,14 @@ God forgive me! Hush, love!
 God has given me a squeaky voice.
 God help him!
 God helping me, for Thy Name's sake. Amen.
+God is Spirit, Light, Love, and a Consuming Fire
 God is deeply committed to avoiding destroying me
 God is just another word for what we don't understand
 God keep him meek and patient!
 God rest ye merry, gentlemen.
 God save the king! The prince remained to hear no more.
 God saw that it was good.
+God wants to communicate with us who his is and how to live
 God works in our lives.
 God's Perfections are infinite both in extension and intention.
 God, I'm nervous!
@@ -10837,6 +10858,7 @@ Happily, as Mr. Heathcliff conjectured, he’ll not win twenty.
 Happily, we are seeing a decline in knife crime.
 Happiness in marriage is entirely a matter of chance.
 Happiness is the only thing desirable as an end.
+Happy Halloween!
 Happy as a queen, the dear!
 Happy people come on!
 Happy wife, happy life.
@@ -11475,6 +11497,7 @@ He could talk every language — and Greek.
 He couldn't blow the skin off a rice pudding.
 He couldn't bring himself to the scratch.
 He couldn't have suffered much.
+He couldn't live for fear of dying
 He couldn't tell me the difference between Scots and Scottish
 He couldn’t stop laughing.
 He courted her now like a lover.
@@ -12382,8 +12405,10 @@ He is the newly elected speaker of the Ugandan parliament.
 He is the only other occupant of the room?
 He is the only prominent.
 He is the organiser — the organiser of the revolt.
+He is the secretary of the Shaheed Jasbir Singh Memorial Society.
 He is the sole lessee and proprietor of that cupboard.
 He is the strongest candidate.
+He is the vice-president of Shaheed Jasbir Singh Memorial Society.
 He is too keenly intelligent, too sharply sensitive, successfully to endure.
 He is too much an artist to sacrifice himself to his clothes.
 He is too young to settle.
@@ -12539,6 +12564,7 @@ He lived a life of celibacy.
 He lived for it, married it, died of it.
 He lived in Ireland for the rest of his life.
 He lived in a little town called, Puddleby-on-the-Marsh.
+He lived in a time of oppression under the Roman Empire.
 He lived in the city.
 He lives in a house by Frank Lloyd Wright.
 He lives in the City of Emeralds.
@@ -13108,6 +13134,7 @@ He saw her beginning upon a huge dill pickle.
 He saw her face respond.
 He saw her now clearly, and thought her of an entrancing loveliness.
 He saw him afar off and waved a friendly hand.
+He saw how religion manipulated people and he tried to
 He saw it all very clearly.
 He saw me and stopped short.
 He saw more and more of Clara.
@@ -13911,6 +13938,7 @@ He was involved in a pitched battle at the weekend.
 He was irradiated by the dawn of a great amazement.
 He was jerked back as he struck.
 He was just bursting with joy, joy over what.
+He was killed by anti-socials.
 He was killed in his bathroom, you know.
 He was kneeling beside the couch.
 He was knocked sideways, rolled over, and recovered his feet.
@@ -14214,6 +14242,7 @@ He went to put away the mowing machine.
 He went to stare up and down the street.
 He went to the foot of the stairs.
 He went to the poultry yard, followed by Beth.
+He went to the public library.
 He went to the staircase head and stood listening uneasily.
 He went to the tobacconists to buy a packet of cigarettes
 He went to your rooms.
@@ -14382,6 +14411,7 @@ He's a — a meat dog," said the girl.
 He's absolutely sweating evidence at every pore.
 He's all for giving Sedleigh a much-needed boost-up.
 He's almost forty, so it's no harm, Lily.
+He's almost like a parent
 He's always in the same scrape.
 He's an idealist.
 He's as artful as the devil.
@@ -16697,6 +16727,7 @@ I believe he's in that cupboard. What's in this cupboard?
 I believe he's off his nut.
 I believe he's the man she's scared of.
 I believe him to be Lady Catherine's nephew.
+I believe in heaven because the bible says heaven is real.
 I believe in the equal distribution of property.
 I believe it was Morley himself.
 I believe it would work.
@@ -16706,6 +16737,7 @@ I believe it, now attend to Mr. George.
 I believe love always wins in the end.
 I believe so, your ladyship.
 I believe that there are tens of thousands of different species of beetle
+I believe that we are reincarnated but you disagree.
 I believe that we are reincarnated here on earth
 I believe the child is crazy.
 I believe the current housing market may be a bubble.
@@ -17431,6 +17463,7 @@ I don't mind telling you.
 I don't mind, babe. Happy to do either.
 I don't much expect it, but it might be.
 I don't much like coffee personally.
+I don't need a big answer'
 I don't particular complain of that.
 I don't promise to answer.
 I don't really like the flavour of Smarties
@@ -17457,7 +17490,9 @@ I don't think I quite understand.
 I don't think I've ever met an older friend.
 I don't think Tom overdosed.
 I don't think Tom really overdosed.
+I don't think external proof would have convinced me God was real.
 I don't think he will kick us out, either.
+I don't think he'd have an answer but we can ask
 I don't think it's true that Tom hates foreigners.
 I don't think she loves her husband at all.
 I don't think that Tom really overdosed.
@@ -17485,6 +17520,7 @@ I don't want my music on a kid's television show!
 I don't want one.
 I don't want that.
 I don't want to argue with ladies and gentlemen.
+I don't want to ask him anything; my questions are not that important
 I don't want to be offensive
 I don't want to be preached to.
 I don't want to bring mine.
@@ -17813,6 +17849,7 @@ I got it in Glasgow.
 I got marked down from my spelling.
 I got my door open and motioned him in.
 I got my driver's license last year.
+I got seven candles for Christmas.
 I got some work in Sussex, as a tipper.
 I got the first hint in an inn in the Tyrol.
 I got them from Amazon dot com.
@@ -18343,6 +18380,7 @@ I haven't any spray, and I never leave charcoal unfixed overnight.
 I haven't been myself at all these last few days—quite off color.
 I haven't been out for many months.
 I haven't been, all evening.
+I haven't discovered where the dolphins are.
 I haven't forgotten, I never can.
 I haven't fussed about it.
 I haven't got a reply yet.
@@ -18496,6 +18534,7 @@ I just love pretty clothes.
 I just love trees.
 I just made this sentence up.
 I just managed to get by him.
+I just never want to end up in that situation
 I just nipped into the dining-room and drank out of the decanter.
 I just realized I left my keys in the door!
 I just sat in enraptured silence.
@@ -18801,6 +18840,7 @@ I may even have hummed a bar or two.
 I may fairly claim, however
 I may have sent you there on purpose.
 I may manage to freight a cargo back as well.
+I may modify my system
 I may now perhaps mention what I wished to say to you?
 I may push on.
 I may remain.
@@ -18868,6 +18908,7 @@ I might have remembered it.
 I might have to try two or three times.
 I mildly entreated him not to be despondent.
 I mind the number.
+I miss my grandmother very much.
 I miss you every day.
 I missed the dermatology class, may I borrow your notes?
 I missed you.
@@ -18956,6 +18997,7 @@ I need help.
 I need her out, now!
 I need him right now.
 I need more info before I can action this.
+I need more sugar because the cranberries are tart.
 I need my mom right now.
 I need new shoes, mommy!
 I need not tell you what is to be done.
@@ -19214,6 +19256,7 @@ I presume it's been there for years.
 I presume that she will pay.
 I presume this is your other ward, Miss Clare?
 I pretended to consider very deeply.
+I probably wouldn't want to know if I got cancer.
 I proceed to other passages of my narrative.
 I proceeded nervously, very much against my better judgement.
 I promise nothing, you know.
@@ -21005,6 +21048,7 @@ I'm a grown man.
 I'm a hopeless romantic.
 I'm a little thirsty.
 I'm a lumberjack, and I'm okay.
+I'm a special snowflake
 I'm afraid I do.
 I'm afraid he doesn't care for me in that way.
 I'm afraid he must have been rather a valuable animal.
@@ -21113,6 +21157,7 @@ I'm going to tell you what I want you for.
 I'm going to the market after school.
 I'm going to write up the clues
 I'm going to yoga class after the lecture.
+I'm grateful to both of you for being interviewed.
 I'm guessing the approximate time is one o'clock.
 I'm happy to meet you, or to postpone if needed.
 I'm happy with this approach.
@@ -21183,6 +21228,7 @@ I'm not much reassured though.
 I'm not particular to a minute or two.
 I'm not quite sure yet what I'll do.
 I'm not quite sure.
+I'm not searching for something
 I'm not so silly and weak as you think.
 I'm not so sure about this block chain thing yet.
 I'm not stopping you!
@@ -21776,6 +21822,7 @@ Importance may sometimes be purchased too dearly.
 Important expansion of naval programme.
 In April war was declared with Germany.
 In Berlin-Brandenburg, Grünheide, Tesla started to build the first Gigafactory for Europe.
+In Bhiwani, large crowds joined the Yatra everywhere.
 In Britain people measure their weight in stone.
 In Britain we say Anti-clockwise rather than Counterclockwise
 In Britain, A-levels are taken in the sixth form
@@ -21797,10 +21844,16 @@ In Goa, they speak in Konkani.
 In Gothic architecture quirks are abundantly used between mouldings.
 In Japanese tradition, the number four is often considered to be unlucky
 In June her letters grew hurried and less frequent.
+In Kaithal, farmers' protest against Nayab Saini led to him canceling his tour.
+In Karnal, the ashes were immersed in Western Yamuna Canal.
+In Maharashtra, the yatra reached Nashik.
+In Muzaffarnagar, the remains were immersed respectfuly in Teerthnagari Shukrtal.
 In October Elena came out for a two weeks' visit.
 In Shakespeare it is an occasional, but still manifest principle.
 In Spenser the didactic is a controlling principle.
+In Surmi village near Pehowa in Kurukshetra district in Haryana farmers showed black flags.
 In Switzerland, hardly a glance, hardly a word.
+In Uttar Pradesh, the yatra went through several districts like Muzaffarnagar and Meerut.
 In Wilford churchyard the dahlias were sodden with rain — wet black-crimson balls.
 In a basket of clean clothes we found a dirty little pig.
 In a bit the room will be warmer.
@@ -22001,6 +22054,7 @@ In removing the ovaries you do not necessarily destroy sexuality in a woman.
 In respect of fixtures, the tenant may sometimes remove them.
 In retrospect the six weeks seemed miraculously happy.
 In seeing Bingley, her thoughts naturally flew to her sister.
+In several states, protests are underway by paddy farmers.
 In shaky but intelligible Spanish he asked to see her father.
 In short, I had come down on purpose.
 In short, a notable outsider, shunned by all.
@@ -22162,6 +22216,7 @@ In this image, we can see a dwarf star.
 In this instance, the division method does not work.
 In this life, you can choose between two courses.
 In this manner, you are always sure to be satisfied concerning the headway.
+In this meeting, Samyukt Kisan Morcha once again strongly condemned the violent incidents.
 In this paper, the authors examine health, wealth and inequality.
 In this school we allow our students to hone their natural skills and flourish.
 In this society, she reigns supreme.
@@ -22902,6 +22957,7 @@ It is casting a cloud over my whole life.
 It is certainly a delicate thing to meddle with the church establishment.
 It is certainly a thing that calls for explanation.
 It is certainly too bad! said the tender hearted Woodman.
+It is clear that this incident did not happen just like that.
 It is close at hand.
 It is conceivable the burglar broke in through the back door.
 It is creating a lot of accidents on the road.
@@ -23306,6 +23362,7 @@ It may be that he sounds a note of preparation.
 It may frighten her.
 It may have been seen; it must be somewhere.
 It may take a little time, but you don't mind that.
+It means a lot to me
 It means the feathers of the sun.
 It means the son of a dog.
 It means to be an unrelated and autonomous whole.
@@ -23730,6 +23787,7 @@ It was almost as if it were her own life.
 It was almost immediately sustaining.
 It was almost insolent of him.
 It was almost piteous to see the rapid change.
+It was also the death anniversary of Haryana trade-union leader Prabhat Singh.
 It was altogether too discouraging.
 It was always a pleasure to watch her.
 It was amazing to see so many men everywhere in the streets.
@@ -23751,6 +23809,7 @@ It was an insanitary, ancient place.
 It was an old, old house, full of cupboards and passages.
 It was an otherworldly looking creature.
 It was an overwhelming deluge of rain.
+It was announced that there will be a Kisan Mahapanchayat organised in Lucknow.
 It was arranged with peculiar elaboration.
 It was as he expected.
 It was as if he were not glad to see Bertram.
@@ -24102,6 +24161,7 @@ It was the smell that gave me warning.
 It was the sufficiency of the small day-life she could not trust.
 It was the thin little Mrs. Anthony in brown velvet.
 It was the third or fourth time that Philip had heard MacDougall swear.
+It was the thirty-fifth martyrdom anniversary of Haryana state president Jasbir Singh.
 It was the trot of a horse; Cathy’s dance stopped also.
 It was the truth; every word you said was true.
 It was the turning point in my life.
@@ -25132,6 +25192,9 @@ Jerry was so secure in his nook that he did not roll away.
 Jerusalem is an ancient and holy city.
 Jesse is the obvious choice, but the history with Jake makes the decision hard.
 Jessie is a renowned comedian.
+Jesus always tried to hang out with disparaged people
+Jesus claims to be God
+Jesus claims to reveal God to other humans
 Jesus is More than a Carpenter
 Jesus is more misunderstood in history than other figures
 Jesus was a man that some some call Christ.
@@ -25498,6 +25561,7 @@ Lay off the pep pills, Mary.
 Lay's career was in the county seat of Maya.
 Lazurus rises from the dead.
 Lead team, outreach team, or the above church can help you find mentors.
+Leaders who had come for election campaigning were confronted with black flags by farmers.
 Leadership
 Learn about relief options for businesses.
 Learn to walk before you run.
@@ -25563,6 +25627,7 @@ Let me hear how it came to pass.
 Let me hope for a moment!
 Let me introduce you to Comrade Jackson.
 Let me introduce you two ladies.
+Let me know what you think of this essay.
 Let me know whenever you are struggling
 Let me know which one you'd prefer.
 Let me lead the way.
@@ -26596,6 +26661,7 @@ Most countries are inward looking.
 Most disturbing, sir.
 Most fears people have are really nothing mortally threatening.
 Most inconsiderate, he thought, as they reached the road.
+Most kids love pizza and eat it every week.
 Most leap at the opportunity.
 Most medics don't recommend bursting blisters
 Most of her social media postings were duck-face poses
@@ -27176,6 +27242,7 @@ My good woman — dear me, what a situation — pray consider.
 My good, kind brother!
 My gran was unsteady on her feet and used a Zimmer frame for walking
 My grandad used to work on the railway.
+My grandfather just shut down from depression.
 My grandfather was a pharmacist.
 My grandfather's clock was too large for the shelf.
 My grandma underwent cataract surgery to improve her eyesight.
@@ -27210,6 +27277,7 @@ My hobby is genealogy, or family history.
 My hopes and fears are both fulfilled tonight.
 My horn gave an agonised roar, but it was too late.
 My house got crushed by a meteor.
+My husband and I are happy.
 My husband has run away too.
 My husband is at a conference. Would you like to get some coffee?
 My husband is on his way.
@@ -27677,6 +27745,7 @@ No one appeared to notice me very pointedly.
 No one but themselves ever did know, I believe.
 No one came in, the door remained closed.
 No one can understand him better than I do.
+No one could get him to move or do anything
 No one could see him from the hotel.
 No one counted on your awakening.
 No one dreamt you would ever awake.
@@ -28467,6 +28536,7 @@ Now, you know, so very prepossessing in the lady with the veil!
 Now, you men, what do you want?
 Now, you understand.
 Now, you’re coming home with me.
+Nowadays Christians frown on drunks and prostitutes.
 Nowadays a broken heart will run to many editions.
 Nowadays the cry is for waterproof roads.
 Nowadays, we have fewer but larger farms.
@@ -29117,6 +29187,7 @@ Once we open, in he comes.
 Once you've caught me you could easily imprison me.
 One Saturday afternoon Agatha and Miriam were upstairs, dressing.
 One Sunday evening they attained to their old rare harmony.
+One Yatra is taking the asthi Kalash through Uttarakhand.
 One a penny, two a penny, hot cross buns
 One after another they came out upon the next landing.
 One beetle only.
@@ -29763,6 +29834,7 @@ People do not die of little trifling colds.
 People don't even have the ability to question these so called doctors.
 People don't like to reveal their anxieties.
 People don’t learn much in the schools nowadays.
+People have mentioned aliens
 People have not responded yet.
 People just took Ubers
 People make me sick.
@@ -29834,6 +29906,7 @@ Perhaps some power unseen and unsuspected, propelled them all.
 Perhaps some woman who was conspicuously late for the train.
 Perhaps that was what those secret enemies were playing for.
 Perhaps that's it.
+Perhaps that's not a bad thing
 Perhaps the coal is damp.
 Perhaps the narrowest provincialism is that of self.
 Perhaps they didn't even play cricket!
@@ -30272,6 +30345,7 @@ Pretty well done!
 Pretty well, grandmother, I think.
 Pretty well, thank you, sir.
 Pretty, indeed! Oh yes!
+Prevailing market prices are significantly lower than the Minimum Support Price.
 Prevention is better than cure.
 Prices of middling to ordinary American have gradually softened.
 Prime, isn't it?
@@ -30759,9 +30833,17 @@ Samuel collects shiny football stickers.
 Samuel has an Indian liver. He pegs.
 Samuel is a collector of rare retro games.
 Samuel was puffing and out of breath.
+Samyukt Kisan Morcha announced a series of actions to ensure justice.
 Samyukt Kisan Morcha condemns this gruesome killing.
+Samyukt Kisan Morcha demands for an investigation by a Supreme Court Judge.
+Samyukt Kisan Morcha demands that Union Ministers should immediately resign.
+Samyukt Kisan Morcha has already clarified that.
+Samyukt Kisan Morcha has nothing to do with the Nihang Sikhs.
+Samyukt Kisan Morcha meeting was held at Singhu Border today.
+Samyukt Kisan Morcha put out an all-India call for protest dharnas.
 Samyukt Kisan Morcha statement regarding a murder at Singhu Border this morning
 Samyukt Kisan Morcha will cooperate with the police and administration in any lawful action.
+Samyukt Kisan Morcha would now like to clarify strongly.
 Sand, Cement and Gravel cohesively bond together to create a strong concrete mix.
 Sandel would never become a world champion.
 Sangolda is a place in Goa.
@@ -30936,6 +31018,8 @@ Sex is a subject that we need to talk about openly.
 Sex linked factors cross over from each other.
 Sexual selection will give its aid to ordinary selection.
 Sexuality is the characteristic of the male and female reproductive elements.
+Shaheed Kalash Yatra started from Lakhimpur carrying the asthi of martyr-farmers.
+Shaheed Kalash Yatras are in progress in several states of India.
 Shake a leg!
 Shakespeare has never once committed his character in such a way.
 Shakespeare is no sectarian: to all he deals with equity and mercy.
@@ -31249,6 +31333,7 @@ She didn't fix it on me.
 She didn't get off at all—too much in a hurry.
 She didn't seem to get it.
 She didn't tell you, I hope?
+She didn't think she would ever come back.
 She didn’t look.
 She didn’t want her name written up.
 She died of oesophagal cancer.
@@ -31578,6 +31663,7 @@ She hit on the great idea of snail farming.
 She hoped it was not so.
 She hoped no violence would be committed.
 She hoped they might now become friends again.
+She hung eight masks on the three hooks by the door.
 She hung her head, afraid of the people they met.
 She hung his muffler on a corner of the horse.
 She hunted round everywhere for it.
@@ -32800,6 +32886,7 @@ She's down at the station.
 She's focusing on her studies.
 She's from home — Kansas City.
 She's from the Middle West.
+She's going to plant asparagus there.
 She's got you going — oh, Finn!
 She's got you going — oh, Mary!
 She's in California.
@@ -33789,6 +33876,7 @@ Stress in the French of today is independent of length and pitch.
 Strike home, sir, strike home!
 String is my foible.
 Strong enough to be told a secret, I think?
+Struggle for justice for the murder of farmers in Lakhimpur Kheri will grow stronger.
 Students specialise in rote memorisation techniques.
 Students were messing around in class and dropped a beaker on the floor.
 Studying English pronunciation
@@ -34192,6 +34280,8 @@ Thank you Alision, the dinner was stupendous.
 Thank you all for my happy wedding-day.
 Thank you all, heaps and heaps!
 Thank you ever so much for saving my life.
+Thank you for being a part of this
+Thank you for that
 Thank you for this.
 Thank you for waiting.
 Thank you for your order!.
@@ -34211,8 +34301,10 @@ Thank you. Will definitely investigate.
 Thank you; fire away.
 Thankfully the autonomous car detected the obstruction and avoided a collision.
 Thanks for all your help. I really appreciate it.
+Thanks for answering my interview questions.
 Thanks for keeping the pressure on!
 Thanks for looking.
+Thanks for reading this letter through to the end.
 Thanks so much for the kind pressie.
 Thanks so much.
 Thanks to Jeeves.
@@ -34622,6 +34714,7 @@ That's a fine distinction!
 That's a first-rate story.
 That's a lie!
 That's a long time, isn't it?
+That's a magical question
 That's a nice sort of morality.
 That's a novel idea.
 That's a particularly cozy job.
@@ -35078,6 +35171,7 @@ The Minister has reached new heights of incompetence.
 The Minister thinks he should be in control of society.
 The Mock Turtle went on.
 The Modi Government now wants to make Coal India a scapegoat for this failure.
+The Modi government continues to protect and defend Ajay Mishra Teni.
 The Modi government discharge its responsibility and urgently resolve this coal shortage crisis.
 The Modi government failed in its fundamental task.
 The Modi government seeks to deny its role.
@@ -35381,6 +35475,7 @@ The ash-tree moaned outside in a cold, raw wind.
 The ash-tree seemed a friend now.
 The ash-tree stood monstrous and black in front of the wide darkness.
 The ashen pallor deepened in Rose-Marie's cheeks.
+The ashes were immersed today in the Ram Kund.
 The aspect of the country was quiet and pastoral.
 The assailant was caught.
 The assembly divided the total among the departments.
@@ -35499,6 +35594,7 @@ The best way to integrate new ideas into existing processes is one-by-one.
 The best way to save is to live without our means.
 The best workers know how to be competitive and friendly at the same time.
 The best written defense must have fallen flat.
+The bible s both God speaking and a very reliable historical document
 The big chalk headland in Kent, close to Bradgate.
 The big fish slowly backed out of sight.
 The big man nodded as if satisfied.
@@ -35525,6 +35621,7 @@ The bishops carried the patina, chalice, and Bible.
 The bivouac was a cheerful place in the wet night.
 The black fabric had faded to a deep purple colour.
 The black feathers of the crown of the adult are skirted with ash.
+The black flag protests by farmers are spreading to other states.
 The blacksmiths were employed in making many small fixtures to the wagons.
 The blankets must be of fine broadcloth.
 The blast furnace consists of two truncated cones, united at their bases.
@@ -36106,6 +36203,7 @@ The cruelty relied upon to support the complaint is largely mental cruelty.
 The cruise ship fell into a large Maelstrom.
 The crunch of potato-chips was making his co-workers irate.
 The crusade army arrived there in the end of May.
+The crust of the pizza didn't bake right.
 The cry goes round: 'Spiller has been taken unawares'.
 The crypt underneath the manor was beautiful, and in perfect preservation.
 The crystals are arranged in cauliflower-like groups consisting of oblique prisms.
@@ -36522,6 +36620,7 @@ The far-below water-meadows were very green.
 The far-off soprano strains become triumphant.
 The farm had been originally a labourer’s cottage.
 The farmer works the soil and produces grain.
+The farmers are protesting against the state government order.
 The farmers of this section do not make much account of the breed.
 The farming process has changed because of technology.
 The farthest tiny lights seemed to stretch out the darkness for ever.
@@ -36679,6 +36778,7 @@ The fox is loath to begin a long patrol.
 The foxy gentleman admired them immensely.
 The frame for my watercolor has just come in.
 The frame was too small to hold the photo.
+The free gift of God is eternal life in Christ Jesus our lord.
 The free market is the problem.
 The frequent showers flush the tea about every fortnight.
 The friendly giant bear waved goodbye.
@@ -37106,6 +37206,7 @@ The internet is a vast resource.
 The interplay between one and another is unknown.
 The interviews are in Somerset next Monday.
 The intimacy thus commenced grew rapidly; though it encountered temporary interruptions.
+The introduction was made by Virendra Singh.
 The intrusive traps occur in the form of walls and veins.
 The intuitive moralist believes that the utilitarian theory is profoundly immoral.
 The invasive grey squirrel has displaced the native red squirrel in Britain.
@@ -37301,6 +37402,7 @@ The leather is formed so as to encircle the hand.
 The leather used for the seats has been subjected to sufficient pressure.
 The leaves of the stalk proceed from the vaginal sheaths at the joints.
 The leaves were slightly coloured with Dutch pink to impart a bloom.
+The lecture was delivered by Kisan Sabha President Dr Ashok Dhawale.
 The lecturer was good at storytelling.
 The lecturer was proficient in multiple disciplines, a rare talent.
 The ledge of rock had been blasted and hewn away.
@@ -37522,6 +37624,8 @@ The mechanic inspected the car for safety.
 The mechanic was particularly tall.
 The mechanisms behind the causes of ageing are not fully understood.
 The media need to stop using Terminator pictures when talking about Robots.
+The meeting called upon the farmers of Punjab to strengthen the morchas.
+The meeting further raised the issue of procurement of paddy and sugarcane from farmers.
 The meeting seemed endless.
 The melting furnace is designed for applying the greatest force of heat.
 The members of the jury were screened from the public gallery.
@@ -38229,6 +38333,7 @@ The products of the process we may term isolates.
 The professions so naturally share the cast of ideas of the aristocracy.
 The professor’s discourse covered a variety of topics.
 The programme still holds good.
+The programme was presided over by Surender Singh.
 The prohibition does not extend to us, does it?
 The project is complete.
 The project threatens irreplaceable rock art, which is under consideration for World Heritage listing.
@@ -38519,6 +38624,7 @@ The score is deuce.
 The scorn of her voice rang through the room.
 The scout returned with a hopeful report.
 The screen faded to black.
+The screen is broken so it lets in flies.
 The scribe may be the party himself.
 The scribes made mistakes.
 The scribes not only omitted accents, but they often accentuated words wrongly.
@@ -38562,6 +38668,7 @@ The series represents an entirely new approach.
 The serious intention, hid in those mummy wrappings, is not inauthentic.
 The sermon was awfully long, too.
 The sermon was long but lucid.
+The serpent was more subtle than any other beast
 The servant with the bandage was being soundly rated.
 The servant writes to know whether Mrs. Squaw nags.
 The servants affirmed they had not seen her.
@@ -38899,6 +39006,7 @@ The taxi driver only brushed his bumper against the other car.
 The tea-things were on the table.
 The teacher gave an anecdote during tuition.
 The teacher ticked Rosie off for punching.
+The teacher wants the student to figure it out on their own
 The teacher was found to be a paedophile.
 The teacher was very keen on Show and Tell.
 The team equalized just before half-time.
@@ -39439,6 +39547,8 @@ The wrong note entirely.
 The yacht was estimated to cost a half a million dollars.
 The yard door was open!
 The yarn passes to the drying cage.
+The yatra reached Prayagraj where the asthi was immersed in the Ganga.
+The yatra went through Siwaya Toll Plaza.
 The yeast-plant is an assemblage of living cells.
 The yellow brick road is actually quite long.
 The yellow lamp of the carriage shone alone down the black road.
@@ -39601,6 +39711,7 @@ Then I went home.
 Then I went to school.
 Then I will tell you what I told Captain Walker.
 Then I wonder if you would mind doing something for me.
+Then I would have to work my way all the way back up
 Then I'll enjoy myself.
 Then I'll go without.
 Then I'll go.
@@ -40098,6 +40209,7 @@ There are many chemist shops in Porvorim.
 There are many customization options available.
 There are many different versions of Santa Claus, including Father Christmas from England
 There are many established strategies, picking the right one is hard.
+There are many explanations of the gospel.
 There are many historical places in Delhi.
 There are many marked differences between mathematical and physical studies.
 There are many regions that lack potable water.
@@ -40342,6 +40454,7 @@ There is no sacrifice.
 There is no scope for imagination in it at all.
 There is no single Medication that is a Panacea for all ailments.
 There is no skill involved in knocking out stuff like that!
+There is no space in the Singhu Border morcha for the accused groups.
 There is no speedier delivery?
 There is no stone at her grave’s head.
 There is no such thing as a haunted wood anywhere.
@@ -40750,6 +40863,7 @@ There we saw a prim gentleman, with a clean-shaven, lawyer’s face.
 There were a few muttered jeers about getting into the assembly.
 There were a great many ink bottles.
 There were about twenty mobs that never got a rap.
+There were also yatras that went through districts in Haryana.
 There were at high risk for eight of them.
 There were bellows to mend in the Birch camp.
 There were dark faces with fierce mustaches and glittering eyes.
@@ -40980,6 +41094,7 @@ There’s my card.
 There’s no chance for the Council that way.
 There’s no use in trying to run away.
 There’s no use reasoning with Alison now.
+There’s often advice at the back of bibles
 There’s plenty of stuff baked in the house.
 There’s so little scope for imagination in cookery.
 There’s someone at the counter.
@@ -42131,6 +42246,7 @@ Thinking of more important matters, I forget where you said he lived?
 Thirst was my chief torment.
 Thirty pounds, said the captain with finality.
 Thirty-four, thirty-five, thirty-nine, forty-two, forty-seven.
+Thirty-two farmers' organisations of Punjab met at Singhu Morcha yesterday.
 This Bibi was determined to give it.
 This Christmas she would bear him a child.
 This Fifth Avenue Chesterfield married at twenty-two.
@@ -42140,6 +42256,7 @@ This I had never thought of.
 This I have named the neuron.
 This Otorhinolaryngologist treated my hearing problems.
 This Saxon style begins to be defined by flat and round arches.
+This Yatra covered fifteen districts of Maharashtra.
 This a forum for experts.
 This a most infamous coach.
 This account may be rather overcharged.
@@ -42323,6 +42440,7 @@ This is a cross-terrain electric vehicle.
 This is a danger which must be provided for by suitable indicators.
 This is a deep dive course into Machine Learning for Dot Net.
 This is a diesel free zone.
+This is a farmers' movement and not a religious movement.
 This is a fault.
 This is a free call alert.
 This is a freehold property.
@@ -42393,6 +42511,7 @@ This is devils' work!
 This is disgusting and not normal!
 This is domestic produce.
 This is done by making a ring of cement on the slip.
+This is done keeping in mind adverse weather conditions at this point of time.
 This is doubly true when you have to less time on your hands.
 This is eighteen eighty.
 This is females only changing room.
@@ -42473,6 +42592,7 @@ This is the There’s-always-a-bigger-fish principle.
 This is the attack as it should have been delivered.
 This is the best sentence ever.
 This is the best tool I've ever used.
+This is the case in Rajasthan, Himachal Pradesh, Uttar Pradesh and also in Haryana.
 This is the consignment number for your order.
 This is the cup I told you of.
 This is the designated car park for visitors.
@@ -42805,6 +42925,7 @@ This would be a trial.
 This would entirely dispense with the necessity of flushing.
 This would monetize gold again.
 This wrathful man thinks you have been unsuccessful, and is primed to be pouty.
+This yatra has reached the Doiwala Toll Plaza.
 This year he had a good deal against her.
 This year's flu vaccine doesn't seem very effective
 This young boy is a total genius.
@@ -43059,10 +43180,15 @@ To him one evening in the limelight made up for many dark ones.
 To his infinite astonishment, they seized him.
 To his own surprise Harvey spoke without hesitation.
 To his surprise, her answer was flat and uncompromising.
+To immerse the asthi of Lakhimpur Kheri massacre martyrs at Goindwal Sahib.
+To immerse the asthi of Lakhimpur Kheri massacre martyrs at Husainiwala.
+To immerse the asthi of Lakhimpur Kheri massacre martyrs at Kiratpur Sahib.
 To inspire, we need to work diligently.
 To interrupt it carried a subtle suggestion of anarchy.
+To investigate into the conspiracy and deep plot to entrap and denigrate farmers.
 To keep 'em safe, sir, don't you see?
 To keep neck and neck with the printers would be a daily pressure.
+To kill fruit flies, pour boiling water down the drain.
 To know her was to know the worst.
 To know that her daughter would be married was enough.
 To know things otherwise were to be unfashionable.
@@ -43086,6 +43212,7 @@ To overcome procrastination, tackle one task at a time.
 To post a letter, look for a red postbox or pillar box
 To produce replicas of the design, the operator strikes this matrix into lead.
 To protect against invasion, a range of defences were built in Kent and Sussex.
+To put an end to black-marketing of fertilisers.
 To read the Bible through in one year, read three chapters each week day.
 To reduce disruption, students should take water bottles to school for water during class.
 To return to the letter.
@@ -43099,6 +43226,7 @@ To shine an unflinching light.
 To slop the cows was another.
 To sneer at his imperfect attempt was very bad breeding.
 To speak of his death so regardlessly wounded her feelings.
+To submit a fact-finding report of the incident.
 To sweep the cobwebs out of the sky.
 To take your bicycle on the train, put it in the guard’s van
 To tell the truth — he had forgotten them.
@@ -43146,6 +43274,9 @@ Tod snapped at it, and barked.
 Today Faith said something funny and I found myself laughing.
 Today I attended four meetings.
 Today Mitchell is to die.
+Today in Alirajpur district the leaders came for campaigning.
+Today in Jobat assembly constituency the leaders came for campaigning.
+Today is the birth anniversary of Captain Laxmi Sehgal.
 Today is the day of wealth.
 Today it is a principal instrument in awakening the child to cultural values.
 Today it's my world and everything's easy, easy.
@@ -43156,6 +43287,7 @@ Today they were in very fair form.
 Today's expert talk is on the constitution.
 Today's weather forecast is chilly, but sunny.
 Today, I am within sight of my heaven.
+Today, Samyukt Kisan Morcha took a decision to postpone this Mahapanchayat to November.
 Today, education is perhaps the most important function of state and local governments.
 Today, however, they were not playing.
 Today, the goal of a Europe united in liberty is in grave danger.
@@ -43638,6 +43770,7 @@ Viewing the paralysed member, we plainly discovered the red globules dissolved.
 Viewpoints surrounding this issue have been contested for generations.
 Vigorous, decided, with sentiments to a certain point; not coarse.
 Vincent van Gogh was a Dutch painter.
+Vinegar and baking soda can also be effective.
 Vinegar-faced Joseph projected his head from a round window of the barn.
 Violation of this law was made a high misdemeanor and punished accordingly.
 Violence broke out amongst the rank and file.
@@ -44799,6 +44932,7 @@ We will triumph.
 We will walk that way, my dears.
 We will work together!
 We will, Lillie, we will!
+We wish you a merry Christmas!
 We woke at dusk.
 We won!
 We won't refer to that ever again.
@@ -45734,6 +45868,7 @@ What if they don't want to say friends?
 What if they fail to do so?
 What if they were playing Peter’s game?
 What if we all joined forces?
+What if you could trust the answer I gave you
 What important or leading measure is there which can be adopted?
 What improvements in democracy are we looking for?
 What in Heaven's name had he undertaken?
@@ -46840,6 +46975,7 @@ Whom did they play?
 Whom did you say you shared this room with, Bradley?
 Whom was responsible?
 Whose tea was it?
+Whosoever believes in him shall not perish, but have eternal life.
 Who’d believe me?
 Who’d have thought it of him — him so gentle-like and all!
 Who’s number twenty-two, that’s to put all the others out?
@@ -48229,6 +48365,7 @@ You gave us some very good music.
 You get fooling about with the boat, and slop me overboard.
 You gibber, Jeeves.
 You girls are more trouble than you're worth, by half.
+You give a tenth of your spices to the temple.
 You give me fresh life and vigour.
 You give the house a wholesome look.
 You go away and pick flowers.
@@ -48319,6 +48456,7 @@ You have killed yourself.
 You have liked many a stupider person.
 You have made yourself too clear.
 You have many herbs in this garden.
+You have neglected the more important matters of the law
 You have never looked so ravishing.
 You have no business to be taking storybooks to school.
 You have no idea how they smarted.
@@ -49401,6 +49539,7 @@ Zara replied, and, after a musical dialogue, consented to fly.
 Zhu Li’s betrayal was a great surprise to Varrick.
 Zilla relaxed her sour mouth long enough to sigh her satisfaction.
 Zucchini is the same thing as courgette
+a community of committed believers will help you follow Jesus
 a potato.
 a time when Spain was the greatest power in the world
 analyzing certain questions can destroy a life if you're not careful
@@ -49429,7 +49568,9 @@ divide the light from the darkness
 everyone is a sinner
 for the wages of sin is death
 forever because the universe is expanding
+get a bible study guide at a Christian bookstore.
 he asked me with a keen glance.
+he cared so much for the people around him
 he cried in amazement.
 he growled with an appearance of strong resentment.
 he made the stars also.
@@ -49450,10 +49591,14 @@ learn more about our organizational structure.
 like a hurricane, flood, or water pipe breakage
 like the stone in a peach
 many seem to find a belief system whose morals fit theirs
+maybe there isn't a heaven
 media icon Low Resolution Video
 millions of antifeminists berated the feminists for berating the guy
 my dear, I am quite delighted with him.
 need to address a moral situation I hadn't necessarily thought of before
+no one is so skeptical God cannot reach them
+no question would have any meanin
+nothing is outside of God's control
 partly because he's more well-known
 people eat snow cones in the afternoon, not evening.
 pour the water from one clean container to another several times.
@@ -49462,6 +49607,8 @@ remember ye the words which have been spoken before by the apostles.
 said I, taking the woman aside.
 so whenever the universe decides to let me understand things
 some questions are all consuming
+stir until the particles have fully dissolved.
+thank you for being so open and honest with me about our faith.
 that we do not understand between the dimensions
 the Bet was named after him.
 the constable observes to the audience.
@@ -49473,9 +49620,11 @@ the symbolism can't be overused, doesn't wear out
 the teacher doesn't like the word 'say'
 the tree of knowledge of good and evil was there.
 the word "pasta" comes from Italian, but "noodle" comes from German.
+they ask all these obnoxious questions
 to put me on my guard?
 upending my world or adding something new and complicated to the mix
 we are moving now,’ said the old gentleman exultingly.
+we battle that every day
 we can move up or down the food chain
 where is that?’ I asked.
 where they go about their normal lives and there their just human too
