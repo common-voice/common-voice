@@ -304,6 +304,7 @@ shortcut-record-toggle-label = Enrollañ/Paouez
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Adenrollañ ar c’hlip
 shortcut-discard-ongoing-recording = Achap
+shortcut-discard-ongoing-recording-label = Leuskel an enrolladenn vremanel
 shortcut-submit = Distreiñ
 shortcut-submit-label = Kas ar c’hlipoù
 request-language-text = Ne welit ket ho yezh e Common Voice evit ar mare?
@@ -407,6 +408,10 @@ faq-what-cv-a =
     Teknologiezhioù anaoudegezh ar vouezh a zo un dispac’h en doare da etrewezhiat gant ar mekanikoù, met ar reizhiadoù a zo diouto a zo ker ha perc’hennek. Common Voice a zo ul lodenn eus intrudu Mozilla evit lakaat anaoudegezh ar vouezh da vezañ gwelloc’h hag hegerzoc’h evit an holl. Un diaz roadennoù divent a vouezhioù roet evit gallout gourdonañ arloadoù mouezh en un doare eeun ha prim a c’hallfe bezañ implijet evit an holl yezhoù eo Common Voice.
     
     Ouzhpenn mouezhioù yezhoù bras a vez dastumet ganeomp, reoù ar yezhoù gant nebeut a gomzerien ivez. Embann ur spletad roadennoù liesseurt a roio gallout d’an diorroerien, d’an embregerien ha d’ar c’humuniezhioù. Ouzhpenn da-se e savomp ul lusker anaoudegezh ar vouezh digor e darzh anvet Deep Speech.
+faq-what-cv-a-2 =
+    Teknologiezhioù anaoudegezh ar vouezh a zo un dispac’h en doare da etrewezhiat gant ar mekanikoù, met ar reizhiadoù a zo diouto a zo ker ha perc’hennek. Mozilla Common Voice a zo un intrudu evit lakaat anaoudegezh ar vouezh da vezañ gwelloc’h hag hegerzoc’h evit an holl. Un diaz roadennoù divent a vouezhioù roet evit gallout gourdonañ arloadoù mouezh en un doare eeun ha prim a c’hallfe bezañ implijet evit an holl yezhoù eo Common Voice.
+    
+    Ouzhpenn mouezhioù yezhoù bras a vez dastumet ganeomp, reoù ar yezhoù gant nebeut a gomzerien ivez. Embann ur spletad roadennoù liesseurt a roio gallout d’an diorroerien, d’an embregerien ha d’ar c’humuniezhioù.
 faq-why-important-q = Abalamour da betra e vez a-bouez?
 faq-why-important-a =
     Ar gomz eo an doare naturelañ da zaremprediñ an eil gant ar re all, ha teknologiezhioù ar vouezh a zegas an aester-mañ d'ho urzhiataerioù ha d’ho pellgomzerioù. Fellout a ra deomp reiñ gallout d’an diorroerien evit ma c’hallfent sevel arloadoù anaoudegezh ar vouezh dreistordinal evel troerien en amzer gwirion pe skoazellerien elektronek. Evit ar mare, ar roadennoù mouezh goulennet gant an arloadoù-mañ a zo ker ha perc’hennek. Spi hon eus e tegaso Common Voice ar pezh o deus ezhomm d’an diorroerien evit nevezadenniñ ha lakaat teknologiezhioù ar yezh da vezañ implijadus en o yezh.
