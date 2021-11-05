@@ -571,8 +571,6 @@ subscribe = Obuna boʻlish
 get-started-speech = Common Voiceʼni qanday qilib shaxsiy dasturlarda ishlatish mumkin?
 other-datasets = Boshqa ovoz ma’lumotlari to‘plamlari
 feedback-q = Fikr-mulohazalaringizni bildirasizmi?
-deepspeech-info = Umumiy ovozli ma'lumotlar bazasi Mozilla-ning ovozni aniqlash vositalarini Deep Speech-ning ovozini aniqlash dasturini to'ldirishda ishlatadi. Qanday boshlashni o'rganish uchun bizning <githubLink> Github haqida umumiy ma'lumot </githubLink> -ni o'qing yoki <discourseLink> DeepSpeech Disourse </discourseLink> -ga qo'shiling.
-common-voice-info-new = Common Voice haqida savollaringiz bormi? Yaxshilash uchun g'oyalar yoki ma'lum bir til haqida fikrlar? Bizning <discourseLink> Diskurs forumimiz </discourseLink> -ga qo'shiling va bizga xabar bering.
 data-other-librispeech-description = LibriSpeech – LibriVox loyihasidagi ingliz tilida 16Khz 1000 soat atrofida o‘qilgan audiokitoblar jamlanmasi.
 data-other-ted-name = TED-LIUM to‘plami
 data-other-ted-description = TED-LIUM to‘plami TED saytida mavjud bo‘lgan audio suhbatlar va ularning transkripsiyasidan iborat.
@@ -781,9 +779,9 @@ finish-editing = Dastlab, tahrirni tugatib olasizmi?
 lose-changes-warning = Hozir chiqsangiz, hech narsa saqlanmaydi
 build-custom-goal = Shaxsiy maqsadni yarating
 help-reach-hours-pluralized =
-    Shaxsiy maqsadni belgilash orqali { $language } da { $hours } soat ishlashga yordam bering{ NUMBER($hours) ->
-        [one] bir soat
-       *[other] ikki soat
+    Oldingizga shaxsiy maqsadlar qoʻyish orqali { $language } tilida { $hours } soatli kontent yaratishga yordam bering{ NUMBER($hours) ->
+        [one] soat
+       *[other] soat
     }
 help-reach-hours-general-pluralized =
     Common Voiceʼga ushbu tilda{ NUMBER($hours) ->
@@ -851,6 +849,9 @@ why-delete-recordings =
     Yozuvlaringizni nega o'chirib tashlashni xohlashingizni bizga xabar qila olasizmi?
 profile-form-delete = Profilni o‘chirish
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Xush kelibsiz { $company } xodimlari!
@@ -894,3 +895,6 @@ demo-listen-subtitle = Hissa qoʻshishga tayyormisiz?
 
 demo-dashboard-card-header = Shaxsiy boshqaruv panellari sizni individual va jamoaning oʻsishi toʻgʻrisida xabardor qilib turadi.
 demo-dashboard-card-body = Xayriya qilingan va tasdiqlangan har bir audio tasma uchun akkauntingizdagi panellari boʻlimi yangilanadi, siz qo'shgan har bir tildagi so'nggi yutuqlaringizni koʻrsatadi. Ha, siz bir nechta tilga oʻz hissangizni qoʻshishingiz ham mumkin! <br/> <br/> Boshqaruv panelidan statistikangizni kuzatib borish, jamiyatdagilar bilan bir qatorda natijangizni koʻrish, kunlik yoki haftalik maqsadlarni belgilash uchun foydalaning.
+
+## Validation criteria
+
