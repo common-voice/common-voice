@@ -784,10 +784,10 @@ help-reach-hours-pluralized =
        *[other] soat
     }
 help-reach-hours-general-pluralized =
-    Common Voiceʼga ushbu tilda{ NUMBER($hours) ->
+    Common Voiceʼga ushbu tilda { NUMBER($hours) ->
         [one] { $hours } soatli
        *[other] { $hours } soatli
-    }maʼlumot yigʻishga shaxsiy maqsadlaringiz orqali yordam bering.
+    } maʼlumot yigʻishga shaxsiy maqsadlaringiz orqali yordam bering.
 set-a-goal = Maqsad qo'ying
 cant-decide = Qaror berolmaysizmi?
 activity-needed-calculation-plural =
