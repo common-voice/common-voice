@@ -827,14 +827,33 @@ help-reach-hours-general-pluralized =
     }ኣብ ቛንቃ  ብናይ ግሊ  ሸቶ
 set-a-goal = ዕላማ ኣቐምጥ
 cant-decide = ክትውስን ኣሸጊሩካ?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } ሰዓት
+       *[other] { $totalHours } ሰዓታት
+    }ዝተበጽሐ ትወዲኡ ኣሎ{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } ወርሒ
+       *[other] { $periodMonths } ኣዋርሕ
+    }እንተ{ NUMBER($people) ->
+        [one] { $people } ሰብ
+       *[other] { $people } ሰባት
+    }መዝገብ{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } ክሊፕ
+       *[other] { $clipsPerDay } ክሊፓት
+    }መዓልቲ
 how-many-per-day = ብጣዕሚ ጽቡቕ! ንማዓልቲ ክንደይ ክሉፕስ ክትቀድሕ ትደሊ?
 how-many-a-week = ብጣዕሚ ጽቡቕ! ንሰሙን ክንደይ ክሉፕስ ክትቀድሕ ትደሊ?
 which-goal-type = ድምጽኻ ክትቀድሕ ጥራይ ዲኻ ትደሊ ዋላስ ክትሰምዕ እንኮላይ ትደሊ ኢኻ?
+receiving-emails-info =
+    ኣብዚ እዋን እዚ ከም ናይ ሸቶ መዘኻኸሪታተይ ዝኣመሰለ ኢ-መይል ክትቅበል ተዳሊኻ ኣለኻ፡
+    ብዛዕባ ኮመን ቮይስ ዚገልጽ እዋናትን ጋዜጣታትን ምዕባለታትን።
+not-receiving-emails-info = ኣብዚ እዋን እዚ ዝኾነ ከም ናይ ሸቶ መዘኻኸሪታተይ ዝኣመሰለ ኢ-መይል ክትቅበል ኢኻ ተዳሊኻ፡ ዘለኻ ብዛዕባ ኮመን ቮይስ ዚገልጽ እዋናትን ጋዜጣታትን ምዕባለታትን <bold>ኣይክትቅበልን</bold> ኢኻ።
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] ሓንቲ ክሊፕ
        *[other] { $count } ክሊፓት
     }
+help-share-goal = ዝያዳ ድምጽታት ክንርክብ ሸቶኻ ብምክፋል ሓግዝ
 confirm-goal = ዕላማኻ ኣረጋግጽ
 goal-interval-weekly = ደሙናዊ
 share-goal-type-speak = ምዝራብ
