@@ -727,6 +727,9 @@ record-button-label = ድምጽኻ ቅዳሕ
 share-title-new = ተወሳኺ ድምጽታት ክንረክብ <bold>ሓግዙና</bold>
 keep-track-profile = ንዕብየት ኣበርክቶኻ ብድሕረ ባይታኻ ጌርካ ተኻታተሎ
 login-to-get-started = ምቕዳሕ ንኽትጅምር፡ እተው ወይ ተመዝገብ
+target-segment-first-card = ነቲ ናይ መጀመርታ ክፋል ዕላማና ኣበርክቶ ትገብር ኣለኻ
+target-segment-generic-card = ነቲ ክፋል ዕላማና ተበርክት ኣለኻ።
+target-segment-first-banner = ናይ ኮመን ቮይስ ቀዳማይ ክፋል ዕላማ ኣብ{ $locale } ሓገዝ ፍጠር
 target-segment-add-voice = ድምጽኻ ኣእትው
 target-segment-learn-more = ተወሳኺ ሓበሬታ
 
@@ -753,6 +756,7 @@ report-success = ሓበሬታኻ ተቐቢልናዮ ኣሎና።
 
 ## Goals
 
+streaks = ጨርሕታት
 days =
     { $count ->
         [one] መዓልቲ
@@ -776,6 +780,8 @@ toward-next-goal = ናብ ዝቕጽል ዕላማ
 goal-reached = እቲ ዝመደብካዮ በጺሕካዮ ኣሎኻ
 clips-you-recorded = ዝቐዳሕኮዮ ክሊፓት
 clips-you-validated = ትኽክልነቱ ዘረጋገጽካዮ ክሊፓት
+todays-recorded-progress = ናይ ሎሚ ምዕባለታት ኣብ ኮመን ቮይስ እተመልኡ ክሊፕታት።
+todays-validated-progress = ናይ ሎሚ ምዕባለታት ኣብ ኮመን ቮይስ ዝተራጋገጹ ክሊፕታት
 stats = ጸብጻብ
 awards = ሽልማት
 you = ንስኻ
@@ -786,10 +792,16 @@ recorded-clips = ክሊፕስ ቅዳሕ
 validated-clips = ትኽክል ምዃኑ ዝተረጋገጸ ክሊፓት
 total-approved = ብዝሒ ዝተፈቕደ
 overall-accuracy = ሓፈሻዊ ትኽክልነት
+set-visibility = ራእየይ ስራዕ
+visibility-explainer = እዚ ናይቲ መራሒ ሰሌዳኻ  ኸም ዚርአ እዩ ዚገብር። ክትሕባእ ከለኻ ዕቤትካ ብሕታዊ ኪኸውን እዩ። እዚ ማለት ድማ ስእልኻን ስምተጠቃሚኻን ዕቤትካን ኣብቲ መራሒ ሰሌዳ ኣይርአን ኢዩ ። እቲ መራሒ ሰሌዳ ዜሐድስ እንተ ዀይኑ ለውጢ ንምምጻእ ~{ $minutes } ደቒቕ ከም ዚወስድ ኣስተብህል ።
+visibility-overlay-note = መዘኻኸሪ፦ ናብ 'ዚርአ' ኽትቅየር ከለኻ እዚ ዅነታት እዚ ኻብገጽ <profileLink>ድሕረ ባይታ</profileLink> ኪቕየር ይኽእል እዩ
 show-ranking = ተርታይ ይረአ
 
 ## Custom Goals
 
+get-started-goals = ሸቶ ንምውቃዕ ጀምር
+create-custom-goal = ባዕልኻ እትፈጥሮ ሸቶ ፍጠር።
+goal-type = እይንታይ ዓይነት ሸቶ ክትሃንጽ ትደሊ?
 both-speak-and-listen = ክልቲኡ
 both-speak-and-listen-long = ክልቲኡ (ምዝራብን ምስማዕን)
 daily-goal = ማዓልታዊ ዕላማ
@@ -797,6 +809,8 @@ weekly-goal = ሰሙናዊ ዕላማ
 easy-difficulty = ቀሊል
 average-difficulty = ማእከላይ
 difficult-difficulty = ከቢድ
+pro-difficulty = Pro/ፕሮ
+lose-goal-progress-warning = ሸቶኻ ብምእራም ነቲ ዘሎካ ዕቤት ከተጥፍኦ ትኽእል ኢኻ።
 want-to-continue = ከተበርክት ትደሊ ዲኻ?
 finish-editing = ቅድም ምስትኽኻልዶ ክትውድእ?
 lose-changes-warning = ኣብዚ እንተ ኣቓሪጽካ፡ ኩሉ እቲ ዝገበርካዮ ለውጥታት ክጠፍእ እዩ
