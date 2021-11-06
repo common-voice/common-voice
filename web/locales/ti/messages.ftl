@@ -856,20 +856,32 @@ n-clips-pluralized =
 help-share-goal = ዝያዳ ድምጽታት ክንርክብ ሸቶኻ ብምክፋል ሓግዝ
 confirm-goal = ዕላማኻ ኣረጋግጽ
 goal-interval-weekly = ደሙናዊ
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = ናይ { $count }  መዓልታዊ  { $type } ክሊፕ ሸቶ ኣክፍል
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = ናይ { $count }  ሰሙናዊ { $type } ክሊፕ ሸቶ ኣክፍል
 share-goal-type-speak = ምዝራብ
 share-goal-type-listen = ምስማዕ
 share-goal-type-both = ምዝራብን ምስማዕን
+# LINK will be replaced with the current URL
+goal-share-text = ናይ ድምጺ ወፈያ ንምግባር ናይ ብሕተይ ሸቶ ጥራይ  ኣውጺአ ኣለኹ  #CommonVoice፥ ምሳይ ሓቢርኩም ናይ ሓቂ ሰባት ብኸመይ ከም ዚዛረቡ ማሽናት ኣብ ምምሃር ንሓግዝ { $link }
 weekly-goal-created = ሰሙናዊ ዕላማኻ ተሰሪሑ ኣሎ
 daily-goal-created = ማዓልታፊ ውጥንካ ተሰሪሑ ኣሎ
+track-progress = ጸብጻባትካን ምዕባለኻን ኣብዚ ተኻታተል
 return-to-edit-goal = ናብዛ ገጽ እዚ ብምምላስ፡ ውጥናትካ ከተስተኻኽል ትኽእል።
+share-goal = ሸቶይ ኣካፍል
 
 ## Profile Delete
 
+delete-q = ቅዳሓት ድምጽኻ ኺስረዝ ክትሓትት ትደሊዶ ወይስ ኣብ ናይ ኮመን ቮይስ ሓበሬታ ኽትሕዝ ኢኻ እትመርጽ?
 keep = ኣጽንሕ
 remove = እለይ
+keep-info = ስምካ ዘይፍለጥ ቅዳሓት ድምጽኻ ኣብቲ ናይ ኮመን ቮይስ ሓበሬታ ክጸንሕ ኢዩ።  ንድሕረባይታኻ ሓንሳእ ምስ ሰረዝካዮ ነቲ እተቐድሐ ቕዳሓትካ ኻብቲ ሓበሬታ ኸተልግሶ ሕቶ ኽትልእኽ ኣይትኽእልን ኢኻ
+profile-form-delete = ድሕረባይታ ሰርዝ
 
 ## Profile Download
 
+download-q = ሓበሬታካ ከተውርድ ትደሊ ዶ?
 download-size = ዓቐን
 download-selected = ዝተመርጸ
 download-request-button = ኣውርድ
