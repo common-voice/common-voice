@@ -915,3 +915,4 @@ demo-dashboard-card-body = Xayriya qilingan va tasdiqlangan har bir audio tasma 
 ## Validation criteria
 
 contribution-for-example = masalan
+contribution-misreadings-title = Notoʻgʻri oʻqilgan
