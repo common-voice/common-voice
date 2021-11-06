@@ -148,6 +148,8 @@ th = Tay
 tl = Tagal
 tr = Turk
 tt = Tatar
+tw = Tvi
+ty = Tahitian
 uby = Ubux
 udm = Udmurt
 ug = Uygʻur
@@ -157,6 +159,8 @@ uz = O‘zbek
 vec = Venetsiya
 vi = Vyetnam
 vot = Vot
+yi = Yiddish
+yo = Yoruba
 yue = Kanton
 zh-CN = Xitoy (Xitoy)
 zh-HK = Xitoy (Gongkong)
@@ -189,6 +193,7 @@ logout = Chiqish
 ## Home Page
 
 home-title = Common Voice – Mozillaga tegishli loyiha boʻlib, sun’iy ongga insonlar qanday gapirishini o‘rgatadi.
+default-tagline = Mozilla Common Voice – bu mashinalarga haqiqiy odamlar qanday gapirishni oʻrgatish tashabbusi.
 home-cta = Oʻqing va hissa qoʻshing!
 wall-of-text-start = Ovoz — tabiiy va insoniy. Sun’iy ongga mos ovoz texnologiyasini ishlab chiqish esa juda quvonarli. Lekin bunday tizimlarni tuzish uchun o‘ta katta hajmdagi ovozli ma’lumotlar kerak bo’ladi.
 wall-of-text-more-mobile = Katta korporatsiyalar foydalanadigan maʼlumotlardan koʻpchilik odamlar foydalana olmaydi. Bizning fikrimizcha, bu innovatsion taraqqiyotni sekinlashtiradi. Shuning uchun biz Common Voice loyihasini ishga tushirdik.  Bu loyiha ovozni tanish xizmatini hamma uchun ochiq boʻlishini taʼminlaydi.
