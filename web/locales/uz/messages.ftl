@@ -916,3 +916,6 @@ demo-dashboard-card-body = Xayriya qilingan va tasdiqlangan har bir audio tasma 
 
 contribution-for-example = masalan
 contribution-misreadings-title = Notoʻgʻri oʻqilgan
+contribution-misreadings-description = Tinglayotganda yozilgan matnning aynan yozib olingan ovoz bilan bir xilligini diqqat bilan tekshiring. Hatto kichik xatolar boʻlsa ham rad eting. <br />Juda keng tarqalgan xatolarga quyidagilar kiradi:
+contribution-misreadings-description-extended-list-1 = <strong>'A'</strong> harfi yoki audio yozuvning boshida <strong>'The'</strong> artikli qolib ketishi.
+contribution-misreadings-description-extended-list-2 = Soʻzning oxirida <strong>'s'</strong> qoʻshimchasi qolib ketishi.
