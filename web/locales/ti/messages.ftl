@@ -379,6 +379,7 @@ email-subscriptions = ናይ ኢመይል መዝገብ
 download-profile = ናይ ውልቕኻ ሐበሬታ ኣውርድ
 contribution-experience = ናይ ኣበርክቶ ተመክሮ
 skip-submission-feedback = ርኢቶ ምሃብ ስገሮ
+skip-submission-description = ኣብ እዋን ምቅራብ ኣበርክቶ 'Submit' ዝብል ምስ ጸቀጥካ ግብረመልሲኡ ክስገር እዩ።   ወፈያ ናብ ዚቕጽል 5 ቅዳሓት ወይ መረጋገጺታት ብቐጥታ ኪቕጽል እዩ።
 skip-submission-note = መዘኻኸሪ፦ ነቲ ኣበርክቶኻ ንምቕያር ካብ ምዝራብ ወይ  ምስማዕ ሓዲኡ ኽትመርጽ ኣሎካ።
 off = ጠፊኡ
 on = ተወሉዑ
