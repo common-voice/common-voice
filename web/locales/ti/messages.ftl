@@ -895,13 +895,14 @@ download-request-title = { $created }
 download-request-description = { $clipCount } ድምጺ ክሊፓት, ጠቅላላ ኣርካይቭ ዓቀን { $size }.  ዝወድቐሉ { $expires }.
 download-request-archive-single = ዉልቂ ZIP ፋይል ዝሓዘ
 download-request-archive-multiple = ኣብ { $archiveCount } ዝተመቃቀሉ ZIP ዝሓዘ ፋይላት
-download-request-modal-title = ሊንክ (መራኻቢታት) ኣውርድ
+download-request-modal-title = መውርዲ መርሖታት
 download-request-link-text = Zip #{ $offset } ካብ { $total }
 download-request-metadata-link = ጽሑፍ
 
 ## Landing
 
 welcome-staff = መርሓባ { $company } ዓየይቲ!
+read-more-about = ንዝያዳ ኣብ ብዛዕባና ገጽ ኣንብብ
 
 ## DemoLayout
 
