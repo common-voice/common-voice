@@ -882,13 +882,26 @@ profile-form-delete = ድሕረባይታ ሰርዝ
 ## Profile Download
 
 download-q = ሓበሬታካ ከተውርድ ትደሊ ዶ?
+download-info = እይንታይ ክተውርድ ከምትደሊ ንገረና፡
+download-profile-title = ድሕረባይታ
+download-profile-size = ዉሑድ ባይታት
+download-recordings-title = ዝተቀረጸ
+download-recordings-size = ኣብነት መጋባይታት
 download-size = ዓቐን
 download-selected = ዝተመርጸ
+download-start = ድሕረባይታ ኣራግፍ
 download-request-button = ኣውርድ
+download-request-title = { $created }
+download-request-description = { $clipCount } ድምጺ ክሊፓት, ጠቅላላ ኣርካይቭ ዓቀን { $size }.  ዝወድቐሉ { $expires }.
+download-request-archive-single = ዉልቂ ZIP ፋይል ዝሓዘ
+download-request-archive-multiple = ኣብ { $archiveCount } ዝተመቃቀሉ ZIP ዝሓዘ ፋይላት
+download-request-modal-title = ሊንክ (መራኻቢታት) ኣውርድ
+download-request-link-text = Zip #{ $offset } ካብ { $total }
 download-request-metadata-link = ጽሑፍ
 
 ## Landing
 
+welcome-staff = መርሓባ { $company } ዓየይቲ!
 
 ## DemoLayout
 
