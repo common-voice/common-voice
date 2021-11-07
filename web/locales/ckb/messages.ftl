@@ -833,6 +833,10 @@ download-q = دەتەوێت زانیارییەکانت دابگریت؟
 download-info = پێمان بڵێ حەزدەکەی چی دابگریت:
 download-profile-title = پرۆفایل
 download-profile-size = چەند بایتێک
+download-size = قەبارە
+download-selected = هەڵبژێردراو
+download-request-button = داگرتن
+download-request-refresh-button = نوێکردنەوە
 
 ## Landing
 
