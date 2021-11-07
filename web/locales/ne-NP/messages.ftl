@@ -1,19 +1,19 @@
 ## General
 
-yes-receive-emails = हो, मलाई इमेल पठाउनुहोस् । म Common Voice परियोजनाको बारेमा जानकारी लिई राख्न चाहन्छु ।
-stayintouch = हामी Mozilla मा आवाज प्रविधिसँग सम्बन्धित एक समुदाय बनाउँदै छौ । हामी अद्यावधिकहरू, नयाँ डाटा स्रोतहरू र तपाईँले यो डाटा कसरी प्रयोग गर्दै हुनुहुन्छ भन्ने बारेमा थप सुन्न सम्पर्कमा रहन चाहन्छौं ।
-privacy-info = हामी तपाईँको जानकारी हेरचाह पूर्वक प्रयोग गर्ने वाचा गर्दछौँ । हाम्रो <privacyLink>गोपनीयता सूचना</privacyLink> मा थप पढ्नुहोस् ।
+yes-receive-emails = हो, मलाई इमेल पठाउनुहोस् । म Common Voice परियोजनाको बारेमा जानकारी लिन चाहन्छु ।
+stayintouch = हामी Mozilla मा आवाज प्रविधिसँग सम्बन्धित एक समुदाय बनाउँदै छौ । हामी अद्यावधिकहरू, नयाँ डाटा स्रोतहरू र तपाईँले यो डाटा कसरी प्रयोग गर्दै हुनुहुन्छ भन्ने बारेमा थप जान्नका लागि सम्पर्कमा रहन चाहन्छौं ।
+privacy-info = हामी तपाईँको सुचनाहरु हेरचाह पूर्वक प्रयोग गर्ने वाचा गर्दछौँ । हाम्रो <privacyLink>गोपनीयता सूचना</privacyLink> मा थप पढ्नुहोस् ।
 return-to-cv = Common Voice मा फर्किनुहोस्
 email-input =
     .label = इमेल
 submit-form-action = पेश गर्नुहोस्
 loading = लोड गरिदैं...
-email-opt-in-info = म लक्ष्य रिमाइन्डरहरू, मेरो प्रगति अपडेटहरू र Common Voice को बारे समाचारपत्रहरू, ईमेलहरू प्राप्त गर्न चाहन्छु ।
-email-opt-in-info-title = साझा आवाज मेलिंग सूचीमा शामिल हुनुहोस्
-email-opt-in-info-sub-with-challenge = ईमेलहरू प्राप्त गर्नुहोस् जस्तै चुनौती र लक्ष्य रिमाइन्डरहरू, प्रगति अपडेटहरू, र आम भ्वाइसको बारेमा समाचारपत्रहरू।
-email-opt-in-privacy-v2 = ईमेलहरू प्राप्त गर्नका लागि विकल्प छनौट गरेर तपाईं यो अवस्थालाई मोजिलाको ठीकसँगै हुनुहुन्छ भनेर मोजिलाको <privacyLink> गोपनीयता नीति </privacyLink> मा वर्णन गरिए अनुसार।
-indicates-required = * आवश्यक क्षेत्र संकेत
-not-available-abbreviation = N/A
+email-opt-in-info = म लक्ष्य रिमाइण्डर, मेरा प्रगति अद्धावधिकहरु र Common Voice को बारे समाचारपत्रहरू, ईमेलहरू प्राप्त गर्न चाहन्छु ।
+email-opt-in-info-title = Common Voice मेलिङ्ग सूचीमा शामिल हुनुहोस्
+email-opt-in-info-sub-with-challenge = चुनौती र लक्ष्य रिमाइन्डरहरू, प्रगति अद्धावधिकहरु, र Common Voice का बारेमा समाचारपत्रहरू इमेलहरू प्राप्त गर्नुहोस् ।
+email-opt-in-privacy-v2 = इमेलहरू प्राप्त गर्नका लागि विकल्प छनौट गरेर तपाईं यो अवस्थालाई मोजिलाको ठीकसँगै हुनुहुन्छ भनेर मोजिलाको <privacyLink> गोपनीयता नीति </privacyLink> मा वर्णन गरिए अनुसार सहमत हुनुहुन्छ ।
+indicates-required = * आवश्यक क्षेत्र सङ्केत
+not-available-abbreviation = उपलब्ध छैन
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -21,7 +21,7 @@ not-available-abbreviation = N/A
 
 ## Languages
 
-ab = अब्खा
+ab = अब्खाज
 ace = य्याचिनिज
 ady = अ्याडीगे
 af = एफ्रिकान्स
