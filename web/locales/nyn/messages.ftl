@@ -9,6 +9,8 @@ email-input =
 submit-form-action = Omukasheshe ondetere obuhunga bw'okugoya.
 loading = Nitwija kuzayo kuzina buziima.
 email-opt-in-info = Hariyo ebikoopo bishatu byokunyweramu.
+email-opt-in-info-title = Musibiregye Bantumwe!
+email-opt-in-info-sub-with-challenge = Beishi we takabaasa kwetereza?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
