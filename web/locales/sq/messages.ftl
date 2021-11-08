@@ -144,6 +144,7 @@ th = Tajlandisht
 tl = Tagalogase
 tr = Turqisht
 tt = Tatare
+ty = Tahitisht
 uby = Ybyke
 udm = Udmurt
 ug = Ujgur
@@ -153,6 +154,8 @@ uz = Uzbeke
 vec = Venetishte
 vi = Vietnamisht
 vot = Votik
+yi = Jidish
+yo = Joruba
 yue = Kantoneze
 zh-CN = Kineze (Kinë)
 zh-HK = Kineze (Hong Kong)
@@ -185,6 +188,7 @@ logout = Dilni
 ## Home Page
 
 home-title = Projekti Common Voice është një nismë e Mozilla-s për të ndihmuar t’u mësohet makinave se si flasin njerëzit.
+default-tagline = Mozilla Common Voice është një nismë për të ndihmuar t’u mësohet makinave se si flasin njerëzit.
 home-cta = Flisni, kontribuoni këtu!
 wall-of-text-start = Zëri është diçka natyrore, zëri është njerëzor. Ndaj na tërheq krijimi i teknologjive të zërit të përdorshme për makinat tona. Por për të krijuar sisteme zëri lypsen sasi tejet të mëdha zanore.
 wall-of-text-more-mobile = Shumica e të dhënave nga kompanitë e mëdha nuk jepen për shumicën e njerëzve. Jemi të mendimit se ko pengon risitë. Ndaj nisëm projektin Common Voice, një projekt për të ndihmuar në bërjen e njohjes së zërit të hapur për këdo.
@@ -280,6 +284,10 @@ shortcut-record-toggle = i
 shortcut-record-toggle-label = Incizo/Ndale
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Riincizojeni copëzën
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Hidh tej regjistrimin që po bëhet
+shortcut-submit = Return
+shortcut-submit-label = Parashtroni copëza
 request-language-text = S’e shihni ende gjuhën tuaj te Common Voice?
 request-language-text-learn = Mësoni se si ta kërkoni, këtu!
 request-language-button = Kërkoni një Gjuhë
@@ -838,6 +846,11 @@ profile-form-delete = Fshini Profil
 
 ## Profile Download
 
+download-recordings-unavailable = S’mund të kërkoni regjistrimet tuaj teksa ka tashmë në ecuri e sipër një tjetër kërkesë.
+download-size = Madhësi
+download-start = Shkarko të dhëna profili
+download-request = Kërkoni regjistrime
+download-requests = Kërkesa të kaluara për shkarkim regjistrimesh
 
 ## Landing
 
