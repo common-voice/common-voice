@@ -78,6 +78,8 @@ hy-AM = Armene
 hyw = Armene Perëndimore
 ia = Interlingua
 id = Indonezisht
+ie = Interlingue
+ig = Igbo
 is = Islandisht
 it = Italisht
 izh = Izhoriane
@@ -86,6 +88,7 @@ ka = Gjeorgjiane
 kaa = Karakalpak
 kab = Kabile
 kbd = Kabardiane
+ki = Kikuju
 kk = Kazake
 kmr = Kurde Kurmanxhi
 ko = Koreane
@@ -96,11 +99,13 @@ lg = Luganda
 lij = Ligure
 lt = Lituanisht
 lv = Letonisht
+mai = Maithili
 mdf = Moksha
 mg = Malgashe
 mk = Maqedonisht
 ml = Malajalame
 mn = Mongolisht
+mr = Marati
 mrj = Hill Mari
 ms = Malajziane
 mt = Malteze
@@ -113,6 +118,7 @@ nn-NO = Norvegjisht Nynorsk
 oc = Oçitane
 or = Odia
 pa-IN = Panxhabe
+pap-AW = Papiamento (Aruba)
 pl = Polonisht
 ps = Pashtune
 pt = Portugalisht
@@ -558,8 +564,6 @@ subscribe = Pajtohuni
 get-started-speech = Fillojani me Kuptimin e të Folurës
 other-datasets = Grupe të Tjera të Dhënash Zëri
 feedback-q = Keni Diçka Për të Thënë?
-deepspeech-info = Grupi i të dhënave Common Voice plotëson mekanizmin me burim të hapur të Mozilla-s për kuptimin e të folurës, Deep Speech, të cilin mund ta përdorni për të ndërtuar aplikacione që bazohen ose përdorin kuptimin e të folurës. Për të mësuar se si t’ia fillohet, lexoni <githubLink>përmbledhjen tonë në Github</githubLink> ose ejani te <discourseLink>DeepSpeech Discourse</discourseLink>.
-common-voice-info-new = Keni pyetje rreth Common Voice? Ide për përmirësime apo përshtypje rreth një gjuhe të dhënë? Merrni pjesë në <discourseLink>forumin tonë Discourse</discourseLink> dhe na i bëni të ditura.
 data-other-librispeech-description = LibriSpeech është një korpus i afërsisht 1000 orëve incizimesh në 16Khz leximi në anlgisht, rrjedhur prej leximi audiolibrash nga projekti LibriVox.
 data-other-ted-name = Korpusi TED-LIUM
 data-other-ted-description = Korpusi TED-LIUM është ndërtuar mbi bazën e bisedave dhe transkriptimit të tyre, të gatshme në sajtin TED.
@@ -832,6 +836,9 @@ why-delete-recordings =
     Can you let us know why you would like your recordings deleted?
 profile-form-delete = Fshini Profil
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Mirë se vini, anëtar i { $company }!
@@ -875,3 +882,6 @@ demo-listen-subtitle = Gati për të dhënë ndihmesë?
 
 demo-dashboard-card-header = Pultet personale ju mbajnë të përditësuar me ecurinë individuale dhe të bashkësisë.
 demo-dashboard-card-body = Për çdo copëz zanore të incizuar, dhe çdo copëz zanore të vlerësuar, pultet e llogarive tuaja përditësohen për të pasqyruar ecurinë tuaj më të re në çdo gjuhë ku jepni ndihmesë. Po, mund të jepni ndihmesë në më shumë se një!<br/><br/> Përdorini pultet për të ndjekur statistikat tuaja, shihni se si po ecni, kundrejt të tjerëve në bashkësi, dhe caktoni objektiva ditore ose javore dhënieje ndihmese.
+
+## Validation criteria
+
