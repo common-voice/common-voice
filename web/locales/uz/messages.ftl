@@ -867,6 +867,7 @@ profile-form-delete = Profilni o‘chirish
 
 ## Profile Download
 
+download-recordings-title = Yozuvlar
 
 ## Landing
 
