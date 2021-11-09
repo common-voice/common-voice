@@ -884,6 +884,7 @@ download-request-modal-title = Lidhje Shkarkimi
 download-request-modal-description = Ja lidhjet për të shkarkuar kartelat tuaja ZIP.
 download-request-link-text = Zip #{ $offset } nga { $total } gjithsej
 download-request-metadata-link = Tekst fjalie
+download-request-link-single = Mund edhe të kopjoni dhe ngjitni URL-të e drejtpërdrejta në përgjegjësin tuaj të parapëlqyer për shkarkime. Do të skadojnë pas 12 orësh, por mund të riktheheni në çfarëdo kohe te kjo faqe për të prodhuar të reja.
 
 ## Landing
 
@@ -931,3 +932,5 @@ demo-dashboard-card-body = Për çdo copëz zanore të incizuar, dhe çdo copëz
 
 ## Validation criteria
 
+contribution-criteria-nav = Kritere
+contribution-criteria-link = Kuptoni kritere dhënie ndihmese
