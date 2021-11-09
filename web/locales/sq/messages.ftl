@@ -959,3 +959,5 @@ contribution-misreadings-example-7-explanation = [S’ka ‘a’ te teksti origj
 contribution-misreadings-example-8-title = Brumbulli kaloi me nxitim.
 contribution-misreadings-example-8-explanation = [Ngatërrim lënde]
 contribution-varying-pronunciations-title = Ndryshime Në Shqiptim
+contribution-varying-pronunciations-description = Jini i kujdesshëm me hedhjen poshtë të një copëze, me arsyen se lexuesi ka shqiptuar shtrembër një fjalë, e ka vënë theksin në vendin e gabuar, apo pse ka shpërfillur një pikëpyetje. Ka një larmi të madhe shqiptimesh në përdorim nëpër botë, disa prej të cilave mund të mos i keni dëgjuar në bashkësinë tuaj vendore. Ju lutemi, ofroni një grimë vlerësim për ata që mund të flasin ndryshe nga ju.
+contribution-varying-pronunciations-description-extended = Më anë tjetër, nëse mendoni se lexuesi mbase s’e ka hasur kurrë më parë fjalën dhe thjesht po bën për shqiptimin një hamendësim të pasaktë, ju lutemi, hidheni poshtë. Nëse s’jeni i sigurt, përdorni butonin e anashkalimit.
