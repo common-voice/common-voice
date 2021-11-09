@@ -32,6 +32,8 @@ br = ብሪቶን
 bxr = ቡርያት
 ca = ካታላን
 cak = ካክቺከል
+ckb = ሙግባይ ኩርዲ
+cnh = ሀካ ሲን
 co = ኮርሲካኒ
 cs = ቼክ
 cv = ቹቫሽ
@@ -166,9 +168,12 @@ zh-TW = ሲኒ (ታይዋን)
 
 ## Layout
 
+speak-now = ኣዜ ታሃገ
+logout = ፍገር
 
 ## Home Page
 
+home-cta = ሶትካ ኣስምዕ, አንዘ ሳህም
 vote-yes = ኣይዋ
 vote-no = ላአ
 
@@ -189,6 +194,7 @@ vote-no = ላአ
 
 ## ProjectStatus
 
+english = እንግሊዚ
 
 ## ProfileForm
 
