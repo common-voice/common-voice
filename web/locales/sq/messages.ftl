@@ -407,7 +407,7 @@ faq-do-want-native-a = Po, e duam që ç’ke me të zërin tuaj! Pjesë e synim
 faq-why-different-speakers-q = Pse ju duhen kaq shumë folës të ndryshëm për gjuhë?
 faq-why-different-speakers-a =
     Shumica e bazave të të dhënave për të folurën përgatiten bazuar në një përfaqësim të tepruar të disa shtresave demografike, çka sjell anshmëri kah  <articleLink>meshkujt dhe klasa e mesme</articleLink>. Theksat dhe dialektet që priren të jenë të përfaqësuar më dobët në grupe të dhënash të përdorura për stërvitjen e aplikacioneve zakonisht kanë lidhje me grupe njerëzish që janë tashmë të lënë mënjanë. Plot makina e kanë gjithashtu të zorshme të kuptojnë zëra femërorë.
-    This is why in our voice database we want variety!
+    Kjo është arsyeja ose duam larmi në bazën tonë të të dhënave për zërat!
 faq-why-my-lang-q = Pse s’është përfshirë ende gjuha ime?
 faq-why-my-lang-new-a = Mozilla nuk zgjedh apo favorizon ndonjë gjuhë para një tjetre. Në vend të kësaj, Common Voice është një nismë e bazuar kthjellët mbi bashkësinë, por duhen përmbushur <multilangLink>disa hapa për të shtuar një gjuhë të re</multilangLink> dhe për të filluar grumbullim kontributesh zanore. Së pari, lypset të përkthehet sajti Common Voice, që anëtarët e bashkësisë të mund ta përdorin në gjuhën e tyre projektin. Më tej, na duhet një koleksion i madh frazash të lira nga të drejta kopjimi, që të mund të lexohen nga njerëzit. Pasi të jenë plotësuar që të dyja këto domosdoshmëri, gjuha “shtohet” te Common Voice që njerëzit të fillojnë të incizojnë zërin e tyre dhe të vleftësojnë kontributet nga të tjerët. Nëse doni të ndihmoni në shtimin e një gjuhe të re, shkoni te <sentenceCollectorLink>mjeti ynë për grumbullim frazash</sentenceCollectorLink> që t’ia filloni.
 faq-what-quality-q = Ç’shkallë cilësie audio është e domosdoshme që një copëz zanore të përdoret në grupin e të dhënave?
@@ -431,7 +431,7 @@ faq-what-determine-identity-q = Ç’do të thotë se s’mund të “përcaktoj
 faq-what-determine-identity-a =
     Grupi i të dhënave Common Voice është një burim i hapur dhe i përdorshëm publikisht, që mund të përdoret për të stërvitur një gamë të gjerë aplikacionesh që përdorin të folurën. Për të mbrojtur sigurinë e kontribuesve tanë,  i kërkojmë cilitdo që shkarkon grupin e të dhënave Common Voice të respektojë privatësinë e kontribuesve.
     
-    All voice clips in the dataset are scrubbed of personally identifying information.  When you download the dataset, you agree to not attempt  to determine  the identity of any contributor. That means you cannot try to link information in the dataset to a contributor’s personal information. You may, however, use the dataset to train speech recognition, speaker recognition, or other applications, by, for instance, linking information in the dataset to other information already in the dataset.
+    Krejt copëzat zanore në grupin e të dhënave pastrohen nga informacion që lejon identifikim personal.  Kur shkarkoni grupin e të dhënave, pajtoheni se nuk do të përpiqeni të identifikoni cilindo kontribues. Kjo do të thotë se nuk do të provoni të lidhni informacion te grupi i të dhënave me informacion personal të një kontribuesi. Mundeni, ama, ta përdorni grupin e të dhënave për të stërvitur të kuptuarit e të folurës, njohje folësi, ose aplikacione të tjera, përmes, për shembull, lidhje informacioni te grupi të dhënave me informacion tjetër tashmë të pranishëm te i njëjti grup të dhënash.
 faq-what-is-cv = Ç’është Common Voice?
 faq-using-cv = Si të përdoret Common Voice
 faq-description = Common Voice është pjesë e nismës së Mozilla-s për të ndihmuar që makinat të mësojnë se si flasin njerëzit realë.
@@ -449,7 +449,7 @@ about-header-description-2 =
     Ky projekt është një përpjekje për të mbushur hendekun në të folurën dixhitale. Teknologjitë për kuptimin e të folurës sjellin një përmasë njerëzore te pajisjet tona, por për t’i krijuar ato zhvilluesve u duhen sasi të stërmëdha të dhënash zanore. Hëpërhë, shumica e këtyre të dhënave janë të shtrenjta dhe pronësore.
     Duam t’i bëjmë të dhënat zanore të përdorshme lirisht dhe publikisht, dhe të bëjmë të mundur që të dhënat përfaqësojnë larminë e njerëzve realë. Tok, mund ta bëjmë kuptimin e të folurës më të mirë për këdo.
 how-does-it-work-title = Si funksionon?
-how-does-it-work-text = Po krijojmë, me ndihmën e publikut, një grup të dhënash zanore me burim të hapur. Dhuroni zërin tuaj, vlerësoni përpikërinë e copëzave të regjistruara nga persona të tjerë, bëjeni grupin e të dhënave më të mirë për këdo.
+how-does-it-work-text = Po krijojmë, me ndihmën e publikut, një grup të dhënash zanore me burim të hapur. Dhuroni zërin tuaj, vlerësoni përpikërinë e copëzave të incizuara nga persona të tjerë, bëjeni grupin e të dhënave më të mirë për këdo.
 about-speak = Flisni
 about-speak-text = Kontribuesit incizojnë copëza zanore duke lexuar prej një fondi frazash të dhuruara.
 about-listen-queue = Radhë Dëgjimi
@@ -520,7 +520,7 @@ data-download-license = Licencë: <licenseLink>CC-0</licenseLink>
 data-download-modal = Ju ndan një hap nga fillimi i shkarkimit të <size>{ $size }GB</size>, të vazhdohet?
 data-subtitle = Po krijojmë një grup të dhënash zanore me burim të hapur dhe publike të cilat mund t’i përdorë gjithkush për stërvitje aplikacionesh që funksionojnë përmes të folurës.
 data-explanatory-text = Besojmë se grupe të mëdha dhe publike të dhënash zanore mbrujnë risi dhe konkurrencë të shëndetshme komerciale në fushën e teknologjisë së të folurit bazuar në mësimin e makinave. Kjo është një përpjekje mbarëbotërore dhe ftojmë këdo të marrë pjesë. Synimi ynë është të ndihmojmë teknologjinë të jetë më përfshirëse, duke pasqyruar larminë e zërave nga anembanë bota.
-data-get-started = <speechBlogLink>Hapat e Parë Në Njohjen e të Folurit</speechBlogLink>
+data-get-started = <speechBlogLink>Hapat e Parë Në të Kuptuarit e të Folurit</speechBlogLink>
 data-other-title = Grupe të tjerë të dhënash zanore…
 data-other-goto = Kalo te { $name }
 data-other-download = Shkarkoni Të dhëna
