@@ -977,3 +977,4 @@ contribution-background-voices-example-1-title = The giant dinosaurs of the Tria
 contribution-background-voices-example-1-explanation = Are you coming? <strong>[thirrur nga një tjetër]</strong>
 contribution-volume-title = Volum
 contribution-volume-description = Mes lexuesve do të ketë variacione natyrore në volum. Hidheni poshtë vetëm nëse volumi është aq i lartë sa ndërpritet regjistrimi, ose (më rëndom) nëse është kaq i ulët sa nuk mund të dëgjoni ç’po thuhet, pa parë tekstin e shkruar.
+contribution-reader-effects-title = Efekte Lexuesi
