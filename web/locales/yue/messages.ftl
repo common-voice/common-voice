@@ -385,9 +385,9 @@ faq-what-cv-a-2 =
     我哋唔止想收集被廣泛使用嘅語言，亦都想收集少有人講嘅語音樣本。一套多元語音資料集，用來幫助開發者、創業家，以及唔同社群縮窄科技上個鴻溝。
 faq-why-important-q = 點解呢個好重要？
 faq-why-important-a =
-    講嘢通常係我哋同其他人最自然嘅溝通方式，語音技術亦都令電腦同流動裝置更加方便。我哋希望開發者打造令人驚嘆嘅語音識別程式，例如即時翻譯機、有語音功能嘅數位助理等等。但係而家用嚟建設呢啲軟件要用嘅語音資料，大部分都係好貴嘅，所以我哋希望可以提供Common Voice數據集俾開發者進行創新，亦令我哋可以用自己嘅語言打造語音技術。
+    講嘢通常係我哋同其他人最自然嘅溝通方式，語音技術亦都令電腦同流動裝置更加方便。我哋希望開發者打造令人驚嘆嘅語音識別程式，例如即時翻譯機、有語音功能嘅數位助理等等。但係而家用嚟建設呢啲軟件要用嘅語音資料，大部分都係好貴嘅，所以我哋希望可以提供Common Voice數據集畀開發者進行創新，亦令我哋可以用自己嘅語言打造語音技術。
     
-    為咗令語音識別技術可以更加普遍，我哋收集不論係有廣大使用者，定係較少使用者會講嘅語言（大部分商業語音識別技術對呢啲語言都冇乜支援）嘅語音片段，並發佈一組有多元語言同腔調嘅語音資料集，希望可以提供俾開發者、創業家、以及成個語音技術社群跨越呢道鴻溝。
+    為咗令語音識別技術可以更加普遍，我哋收集無論係有廣大使用者，定係較少使用者嘅語言（大部分商業語音識別技術對呢啲語言都冇乜支援）嘅語音片段，並發佈一組有多元語言同腔調嘅語音資料集，希望可以提供畀開發者、創業家、以及成個語音技術社群跨越呢道鴻溝。
 faq-how-get-q = 我可以點樣可以攞到 Common Voice 嘅數據？
 faq-how-get-a = 我哋嘅資料集可到<datasetLink>Common Voice 數據集頁面</datasetLink>下載，本數據集使用<licenseLink>CC0</licenseLink>授權。閣下仲可以喺該頁面中下載其它幾套嘅數據集。
 faq-when-release2-q = Common Voice 幾時會發放其他語言嘅數據？
@@ -540,9 +540,9 @@ review-delete-recordings = 刪除我嘅錄音
 
 datasets-headline = 我地想建立一套開放原始碼、多重語言嘅語音數據集，令到任何人都可以用來開發同語音相關嘅應用。
 datasets-positioning =
-    我們相信若有一組大型、可公開使用的語音數據集，可奠定以機器學習為基礎嘅語音技術上嘅創新，同埋健康嘅商業競爭。
+    我哋相信如果有一組大規模、公開嘅語音數據集，會奠定以機器學習為基礎嘅語音技術上嘅創新，同埋健康嘅商業競爭。
     
-    Common Voice 的多語言數據集已經成為最大嘅公開語音數據集，但不是唯一一套。
+    Common Voice 嘅多語言數據集已經成為咗最大嘅開放語音數據集，但唔係唯一一套。
     
     閣下可於該頁面揾到其他開放原始碼嘅語音數據集。隨住 Common Voice 持續成長，我哋也會喺呢處張貼更新資訊。
 language = 語言
@@ -565,9 +565,9 @@ validated-hours = 已驗證時數
 recorded-hours = 錄音時數
 whats-inside = Common Voice 數據庫入面有啲咩？
 dataset-description-hours =
-    數據集中的每筆資料包含一組獨特嘅 MP3 錄音檔同埋對應文字檔案。資料集中包含 <b>{ $total }</b> 小時嘅錄音片段，當中亦包含好多不同年齡層、性別、口音等，能夠幫助訓練語音識別引擎嘅人口統計資料。
+    數據集中嘅每筆資料包含一組獨特嘅 MP3 錄音檔同埋對應文字檔案。資料集中包含 <b>{ $total }</b> 個鐘嘅錄音片段，當中亦包含好多唔同年齡層、性別、口音等，可以幫助訓練語音識別引擎嘅人口統計資料。
     
-    數據集中目前包含 <b>{ $valid }</b> 小時 <b>{ $languages }</b> 種語言嘅已驗證資料，但我哋希望能夠持續加入更多語音同埋語言。歡迎到我哋嘅<languagesLink>語言頁面</languagesLink>要求增添語言，或者隨時開始加入貢獻。
+    數據集中目前包含 <b>{ $valid }</b> 個鐘 <b>{ $languages }</b> 種語言嘅已驗證資料，但我哋希望可以持續加入更多語音同埋語言。歡迎到我哋嘅<languagesLink>語言頁面</languagesLink>要求增添語言，或者隨時開始加入貢獻。
 want-dataset-update = 想喺新 Common Voice 數據集推出時收到通知？請訂閱我哋嘅電子報。
 subscribe = 訂閲
 get-started-speech = 語音識辨新手入門
@@ -620,7 +620,7 @@ other-language = 其他語言
 ## Languages Overview
 
 language-section-in-progress = 準備緊
-language-section-in-progress-new-description = 呢啲語言現在處於社群開發中，進度條展示緊每種語言<localizationGlossaryLink>網站本地化</localizationGlossaryLink>以及<sentenceCollectionGlossaryLink>搜集語句</sentenceCollectionGlossaryLink>的進度。
+language-section-in-progress-new-description = 呢啲語言而家仲處於社群開發進程中，進度條展示咗每種語言<localizationGlossaryLink>網站本地化</localizationGlossaryLink>同<sentenceCollectionGlossaryLink>搜集語句</sentenceCollectionGlossaryLink>嘅進度。
 language-section-launched = 已啟動
 language-section-launched-description = 以下「已上線」嘅語言，代表網站已經成功被<localizationGlossaryLink>本地化</localizationGlossaryLink>，而且都已經<sentenceCollectionGlossaryLink>收集咗足夠多句子</sentenceCollectionGlossaryLink>令大家可以用<speakLink>講話</speakLink>及<listenLink>聆聽</listenLink>嘅方式貢獻。
 languages-show-more = 睇多啲
