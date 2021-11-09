@@ -747,11 +747,11 @@ validations =
 
 your-languages = Gjuhët Tuaja
 toward-next-goal = Drejt objektivit të ardhshëm
-goal-reached = U arrit synimi
+goal-reached = U arrit objektivi
 clips-you-recorded = Copëza Që Keni Incizuar
 clips-you-validated = Copëza Që Keni Vleftësuar
 todays-recorded-progress = Ecuria e sotme për copëza Common Voice të incizuara
-todays-validated-progress = Ecuria e sotme për copëza Common Voice të vleftësuara
+todays-validated-progress = Ecuria e sotme për copëza Common Voice të vlerësuara
 stats = Statistika
 awards = Çmime
 you = Ju
@@ -759,7 +759,7 @@ everyone = Kushdo
 contribution-activity = Veprimtari Kontributi
 top-contributors = Pjesëmarrësit Kryesues
 recorded-clips = Copëza të Incizuara
-validated-clips = Copëza të Vleftësuara
+validated-clips = Copëza të Vlerësuara
 total-approved = Të miratuara Gjithsej
 overall-accuracy = Saktësia Në Përgjithësi
 set-visibility = Cakto dukshmërinë time
@@ -771,8 +771,8 @@ show-ranking = Shfaq renditjen time
 
 get-started-goals = Filloni me objektiva
 create-custom-goal = Krijoni një Objektiv Vetjak
-goal-type = Ç’lloj synimi doni të krijoni?
-both-speak-and-listen = Të dyja
+goal-type = Ç’lloj objektivi doni të krijoni?
+both-speak-and-listen = Të dy
 both-speak-and-listen-long = Të dy (Folje dhe Dëgjim)
 daily-goal = Objektiv Ditor
 weekly-goal = Objektiv Javor
@@ -789,28 +789,28 @@ help-reach-hours-pluralized =
     Ndihmonani të arrijmë{ NUMBER($hours) ->
         [one] { $hours } orë
        *[other] { $hours } orë
-    }në { $language }, përmes një objektivi personal
+    } në { $language }, përmes një objektivi personal
 help-reach-hours-general-pluralized =
     Ndihmojeni Common Voice-in të arrijë{ NUMBER($hours) ->
         [one] { $hours } orë
        *[other] { $hours } orë
-    }për një gjuhë, përmes një objektivi personal.
+    } për një gjuhë, përmes një objektivi personal.
 set-a-goal = Caktoni një objektiv
 cant-decide = S’vendosni dot?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] { $totalHours } orë
        *[other] { $totalHours } orë
-    }mund të plotësohen në thjesht{ NUMBER($periodMonths) ->
+    } mund të plotësohen në thjesht{ NUMBER($periodMonths) ->
         [one] { $periodMonths } muaj
        *[other] { $periodMonths } muaj
-    }nëse{ NUMBER($people) ->
+    } nëse{ NUMBER($people) ->
         [one] { $people } person
        *[other] { $people } vetë
-    }incizojnë { NUMBER($clipsPerDay) ->
+    } incizojnë { NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } copë
        *[other] { $clipsPerDay } copa
-    }në ditë.
+    } në ditë.
 how-many-per-day = Bukur! Sa copëza në ditë?
 how-many-a-week = Bukur! Sa copëza në javë?
 which-goal-type = Doni të Flisni, të Dëgjoni apo të dyja bashkë?
@@ -823,7 +823,7 @@ n-clips-pluralized =
     }
 help-share-goal = Ndihmonani të gjejmë më shumë zëra, ndani me të tjerët objektivin tuaj
 confirm-goal = Ripohojeni Objektivin
-goal-interval-weekly = Përjavë
+goal-interval-weekly = Në javë
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Ndajeni me të tjerët Objektivin tuaj të { $count } Copëzash Në Ditë për { $type }
 # $type is one of share-goal-type-*
@@ -849,7 +849,7 @@ remove-info = Do ta shqyrtojmë kërkesën tuaj për heqjen nga grupi i të dhë
 why-delete-recordings =
     Incizimet Common Voice përdoren nga mësimdhënës, biznese të vogla, dhe amatorë të njohjes së të folurës për të ndihmuar të stërviten dhe të shtohen burime publike të tillë si modelet e zërit.
     
-    Can you let us know why you would like your recordings deleted?
+    A mund të na bëni me dije pse do të donit të fshihen incizimet tuaja?
 profile-form-delete = Fshini Profil
 
 ## Profile Download
@@ -859,17 +859,17 @@ download-info = Tregonani ç’do të donit të shkarkonit:
 download-profile-title = Profil
 download-profile-info = Përfshin email, emër përdoruesi & hollësi demografike, i passhëm menjëherë
 download-profile-size = Ca thërrime
-download-recordings-title = Regjistrime
+download-recordings-title = Incizime
 download-recordings-info = Përfshin mp3-sha dhe fjalitë përkatëse, mund të duhet ca kohë për ta bërë gati
 download-recordings-size = Megabajte, zakonisht
-download-recordings-unavailable = S’mund të kërkoni regjistrimet tuaj teksa ka tashmë në ecuri e sipër një tjetër kërkesë.
-download-recently-requested = Mund të kërkoni një marrje të re të regjistrimeve tuaja çdo { $days } ditë.
+download-recordings-unavailable = S’mund të kërkoni incizimet tuaja teksa ka tashmë në ecuri e sipër një tjetër kërkesë.
+download-recently-requested = Mund të kërkoni marrje të re të incizimeve tuaja çdo { $days } ditë.
 download-size = Madhësi
 download-selected = I përzgjedhur
 download-start = Shkarko të dhëna profili
-download-request = Kërkoni regjistrime
-download-requests = Kërkesa të kaluara për shkarkim regjistrimesh
-download-requests-info = Kur kërkoni regjistrimet tuaja, i mbledhim tok në një ose disa kartela ZIP. Ja kërkesat tuaja të kaluara:
+download-request = Kërkoni incizime
+download-requests = Kërkesa të kaluara për shkarkim incizimesh
+download-requests-info = Kur kërkoni incizimet tuaja, i mbledhim tok në një ose disa kartela ZIP. Ja kërkesat tuaja të kaluara:
 download-request-button = Shkarkoji
 download-request-title = { $created }
 download-request-description = { $clipCount } fragmente zanore, madhësi gjithsej e arkivit { $size }. Skadon më { $expires }.
@@ -888,7 +888,7 @@ download-request-link-single = Mund edhe të kopjoni dhe ngjitni URL-të e drejt
 welcome-staff = Mirë se vini, anëtar i { $company }!
 help-contribute = Mund të ndihmoni në ndërtimin e një grupi të dhënash të larmishëm, me burim të hapur, duke krijuar një profil te Common Voice dhe duke dhuruar zërin tuaj.
 login-company = Bëni Hyrjen / Regjistrohuni me email { $company }
-profile-not-required = Pasja e një profili s’është e domosdoshme për të kontribuar, por është e dobishme ama
+profile-not-required = Pasja e një profili s’është e domosdoshme për të kontribuar, por është e dobishme ama.
 read-more-about = Lexoni më tepër te faqja jonë Mbi
 
 ## DemoLayout
@@ -899,7 +899,7 @@ demo-welcome-subheader = Ju intereson të mësoni më tepër dhe të jepni ndihm
 
 ## Demo Datasets
 
-demo-language-select-card-header = Common Voice është grupi i të dhënave zanore më i madh në botë që mund të kihet publikisht.
+demo-language-select-card-header = Common Voice është grupi më i madh në botë i të dhënave zanore që mund të kihet publikisht.
 demo-language-select-card-body = Falë kontributeve prej më shumë se 259 mijë vetë në mbi 50 gjuhë, këto të dhëna po përdoren për të stërvitur aplikacione që funksionojnë përmes të folurës, për t’iu përgjigjur më mirë zërit njerëzor.
 card-button-next = Pasuesja
 card-button-back = Mbrapsht
@@ -932,11 +932,11 @@ demo-dashboard-card-body = Për çdo copëz zanore të incizuar, dhe çdo copëz
 contribution-criteria-nav = Kritere
 contribution-criteria-link = Kuptoni kritere dhënie ndihmese
 contribution-criteria-page-title = Kritere Dhënie Ndihmese
-contribution-criteria-page-description = Kuptoni për çfarë të shihet, kur dëgjohen copëza zanore dhe ndihmoni të bëhen edhe regjistrimet tuaja zanore më të pasura!
+contribution-criteria-page-description = Kuptoni për çfarë të shihet, kur dëgjohen copëza zanore dhe ndihmoni të bëhen edhe incizimet tuaja zanore më të pasura!
 contribution-for-example = për shembull
 contribution-misreadings-title = Gabime leximi
-contribution-misreadings-description = Kur dëgjohet, kontrolloni me shumë kujdes që ajo çka është regjistruar të jetë saktësisht ajo çka është shkruar; hidheni tej, edhe nëse ka gabime të vockla. <br />Në gabime shumë të rëndomta përfshihen:
-contribution-misreadings-description-extended-list-1 = Mungesë <strong>'A'</strong>-je, ose <strong>'The'</strong>-je në fillim të regjistrimit.
+contribution-misreadings-description = Kur dëgjohet, kontrolloni me shumë kujdes që ajo çka është incizuar të jetë saktësisht ajo çka është shkruar; hidheni tej, edhe nëse ka gabime të vockla. <br />Në gabime shumë të rëndomta përfshihen:
+contribution-misreadings-description-extended-list-1 = Mungesë <strong>'A'</strong>-je, ose <strong>'The'</strong>-je në fillim të incizimit.
 contribution-misreadings-description-extended-list-2 = Mungesë e një <strong>'s'</strong>-je në fund të një fjale.
 contribution-misreadings-description-extended-list-3 = Prerje shkurt që në fakt s’janë në tekst, bie fjala “We're”, në vend se “We are”, ose anasjelltas.
 contribution-misreadings-description-extended-list-4 = Mungesë e fundit të fjalës së fundit, nga ndërprerja shumë shpejt e regjistrimit.
