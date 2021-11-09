@@ -858,11 +858,32 @@ profile-form-delete = Fshini Profil
 ## Profile Download
 
 download-q = Ju duhet të shkarkoni të dhënat tuaja?
+download-info = Tregonani ç’do të donit të shkarkonit:
+download-profile-title = Profil
+download-profile-info = Përfshin email, emër përdoruesi & hollësi demografike, i passhëm menjëherë
+download-profile-size = Ca thërrime
+download-recordings-title = Regjistrime
+download-recordings-info = Përfshin mp3-sha dhe fjalitë përkatëse, mund të duhet ca kohë për ta bërë gati
+download-recordings-size = Megabajte, zakonisht
 download-recordings-unavailable = S’mund të kërkoni regjistrimet tuaj teksa ka tashmë në ecuri e sipër një tjetër kërkesë.
+download-recently-requested = Mund të kërkoni një marrje të re të regjistrimeve tuaja çdo { $days } ditë.
 download-size = Madhësi
+download-selected = I përzgjedhur
 download-start = Shkarko të dhëna profili
 download-request = Kërkoni regjistrime
 download-requests = Kërkesa të kaluara për shkarkim regjistrimesh
+download-requests-info = Kur kërkoni regjistrimet tuaja, i mbledhim tok në një ose disa kartela ZIP. Ja kërkesat tuaja të kaluara:
+download-request-button = Shkarkoji
+download-request-title = { $created }
+download-request-description = { $clipCount } fragmente zanore, madhësi gjithsej e arkivit { $size }. Skadon më { $expires }.
+download-request-archive-single = Kartelë ZIP njëshe që përmban
+download-request-archive-multiple = Ndaje në { $archiveCount } kartela ZIP që përmbajnë
+download-request-assembling-description = Kartelat tuaja po grumbullohen. Ju lutemi, kontrolloni më vonë.
+download-request-refresh-button = Rifreskoje
+download-request-modal-title = Lidhje Shkarkimi
+download-request-modal-description = Ja lidhjet për të shkarkuar kartelat tuaja ZIP.
+download-request-link-text = Zip #{ $offset } nga { $total } gjithsej
+download-request-metadata-link = Tekst fjalie
 
 ## Landing
 
