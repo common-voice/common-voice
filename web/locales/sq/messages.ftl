@@ -958,3 +958,4 @@ contribution-misreadings-example-7-title = Ne po dalim të pimë një kafe.
 contribution-misreadings-example-7-explanation = [S’ka ‘a’ te teksti origjinal]
 contribution-misreadings-example-8-title = Brumbulli kaloi me nxitim.
 contribution-misreadings-example-8-explanation = [Ngatërrim lënde]
+contribution-varying-pronunciations-title = Ndryshime Në Shqiptim
