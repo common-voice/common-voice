@@ -386,6 +386,10 @@ faq-what-cv-a =
     Teknologjia e të kuptuarit të zërit po revolucionarizon mënyrën se si ne ndërveprojmë me makinat, por sistemet e gatshëm sot janë të shtrenjtë dhe pronësorë. Common Voice është pjesë e nismës së Mozilla-s për at bërë të kuptuarit e zërit më të mirë dhe më të përdorshëm për këdo.  Common Voice është bazë masive globale të dhënash zanore të dhuruara, që i lejon cilitdo të stërvitë shpejt dhe lehtë aplikacione që punojnë dhe me zë, potencialisht për çdo gjuhë.
     
     We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
+faq-what-cv-a-2 =
+    Teknologjia e të kuptuarit të zërit po revolucionarizon mënyrën se si ne ndërveprojmë me makinat, por sistemet e gatshëm sot janë të shtrenjtë dhe pronësorë. Mozilla Common Voice është një nismë për ta bërë të kuptuarit e zërit më të mirë dhe më të përdorshëm për këdo.  Common Voice është bazë masive globale të dhënash zanore të dhuruara, që i lejon cilitdo të stërvitë shpejt dhe lehtë aplikacione që punojnë dhe me zë, potencialisht për çdo gjuhë.
+    
+    S’po mbledhim vetëm copëza zanore për gjuhë të folura gjerësisht, por edhe për ato me popullata më të vogla folësish. Publikimi i një grupi të larmishëm zërash do të ndihmojë zhvilluesit, sipërmarrësit dhe bashkësitë për t’u marrë vetë me këtë hendek. Përveç grupit të të dhënave Common Voice, po ndërtojmë edhe një mekanizëm me burim të hapët për të kuptuarit e të folurës, të quajtur Deep Speech.
 faq-why-important-q = Pse ka rëndësi?
 faq-why-important-a =
     E folura shpesh është rruga më natyrore përmes të cilës komunikojmë me njëri-tjetrin dhe teknologjitë e zërit po e sjellin leverdinë e kësaj rruge te kompjuterat dhe pajisjet celulare. Duam t’u japim mundësi zhvilluesve të krijojnë aplikacione mahnitëse që kuptojnë zërin, b.f. përkthyes të atypëratyshëm dhe asistentë dixhitalë që kontrollohen përmes zërit. Por sot për sot, shumica e të dhënave zanore të domosdoshme për të krijuar këto lloj aplikacionesh janë të shtrenjta dhe pronësore. Shpresojmë që grupi i të dhënave Common Voice t’u japë zhvilluesve çfarë u nevojitet për risi të këtij lloji dhe për ta bërë teknologjinë e të folurit të përdorshme në gjuhën e tyre.
@@ -443,6 +447,9 @@ about-title = Ç’duhet Common Voice?
 about-subtitle = Common Voice është pjesë e nismës së Mozilla-s për të ndihmuar që makinat të mësojnë se si flasin njerëzit realë. Përveç grupeve të të dhënave Common Voice, po krijojmë edhe një motor kuptimi të folure, me burim të hapët, të quajtur Deep Speech.
 about-header-description =
     Që të dy këta projekte janë pjesë e përpjekjeve tona për të mbushur hendekun në të folurën digitale. Teknologjitë për kuptimin e të folurës sjellin një përmasë njerëzore te pajisjet tona, por për t’i krijuar ato zhvilluesve u duhen sasi të stërmëdha të dhënash zanore. Hëpërhë, shumica e këtyre të dhënave janë të shtrenjta dhe pronësore.
+    Duam t’i bëjmë të dhënat zanore të përdorshme lirisht dhe publikisht, dhe të bëjmë të mundur që të dhënat përfaqësojnë larminë e njerëzve realë. Tok, mund ta bëjmë kuptimin e të folurës më të mirë për këdo.
+about-header-description-2 =
+    Ky projekt është një përpjekje për të mbushur hendekun në të folurën dixhitale. Teknologjitë për kuptimin e të folurës sjellin një përmasë njerëzore te pajisjet tona, por për t’i krijuar ato zhvilluesve u duhen sasi të stërmëdha të dhënash zanore. Hëpërhë, shumica e këtyre të dhënave janë të shtrenjta dhe pronësore.
     Duam t’i bëjmë të dhënat zanore të përdorshme lirisht dhe publikisht, dhe të bëjmë të mundur që të dhënat përfaqësojnë larminë e njerëzve realë. Tok, mund ta bëjmë kuptimin e të folurës më të mirë për këdo.
 how-does-it-work-title = Si funksionon?
 how-does-it-work-text = Po krijojmë, me ndihmën e publikut, një grup të dhënash zanore me burim të hapur. Dhuroni zërin tuaj, vlerësoni përpikërinë e copëzave të regjistruara nga persona të tjerë, bëjeni grupin e të dhënave më të mirë për këdo.
@@ -572,6 +579,10 @@ subscribe = Pajtohuni
 get-started-speech = Fillojani me Kuptimin e të Folurës
 other-datasets = Grupe të Tjera të Dhënash Zëri
 feedback-q = Keni Diçka Për të Thënë?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ është një <docsLink>grup mjetesh me burim të hapët</docsLink> për kërkues që merren me modele bisedash, në kuadër Inteligjence Artificiale, të fjalës së fundit.
+resource-deepspeech-info = Mekanizmi me burim të hapët i Mozilla-s për kuptimin e të folurës, Deep Speech, mund të përdoret për të ndërtuar aplikacione që bazohen ose përdorin kuptimin e të folurës. Për të mësuar se si t’ia fillohet, lexoni <githubLink>përmbledhjen tonë në Github</githubLink> ose ejani te <discourseLink>DeepSpeech Discourse</discourseLink>.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> i është përkushtuar teknologjisë me burim të hapët të së folurës. Projektet e tyre përfshijnë nxënie të thellë, bazuar në mekanizma STT dhe TTS.
+resource-playbook-info = <playbookLink>Gjeni drejtim të dobishëm</playbookLink> për krejt rrugën në Common Voice, nga përkthimi te përdorimi i grupit të të dhënave, si dhe në ç’rrugë të lidheni me bashkësinë tonë.
 data-other-librispeech-description = LibriSpeech është një korpus i afërsisht 1000 orëve incizimesh në 16Khz leximi në anlgisht, rrjedhur prej leximi audiolibrash nga projekti LibriVox.
 data-other-ted-name = Korpusi TED-LIUM
 data-other-ted-description = Korpusi TED-LIUM është ndërtuar mbi bazën e bisedave dhe transkriptimit të tyre, të gatshme në sajtin TED.
@@ -846,6 +857,7 @@ profile-form-delete = Fshini Profil
 
 ## Profile Download
 
+download-q = Ju duhet të shkarkoni të dhënat tuaja?
 download-recordings-unavailable = S’mund të kërkoni regjistrimet tuaj teksa ka tashmë në ecuri e sipër një tjetër kërkesë.
 download-size = Madhësi
 download-start = Shkarko të dhëna profili
