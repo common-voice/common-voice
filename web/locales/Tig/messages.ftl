@@ -168,14 +168,21 @@ zh-TW = ሲኒ (ታይዋን)
 
 ## Layout
 
+speak = ታሃገ
 speak-now = ኣዜ ታሃገ
+languages = ሉቃት
+help = ሙሳዓደት
 logout = ፍገር
 
 ## Home Page
 
 home-cta = ሶትካ ኣስምዕ, አንዘ ሳህም
+show-wall-of-text = ዝያዳት ቀርኦ
 vote-yes = ኣይዋ
 vote-no = ላአ
+speak-subtitle = አብ ሶትካ አትቤራ
+hours-recorded = ላትሰጀለያ ሳዓት
+help-reach-goal = ሳኣደና ደብ { $goal } አገል ኔብጻሕ
 
 ## Account Benefits
 
