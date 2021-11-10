@@ -139,6 +139,7 @@ ta = tamilščina
 te = teluščina
 tg = tadžiščina
 th = tajščina
+ti = tigrajščina
 Tig = tigrajščina
 tl = tagaloščina
 tr = turščina
