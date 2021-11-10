@@ -1824,29 +1824,16 @@ Anàlisi de processos de servei i de fabricació.
 Anàlisi de productes defectuosos.
 Anàlisi periòdica de les dades.
 Anàvem molt justos.
-Apaga el forn.
 Apaga el llum de l'escala.
-Apaga el llum de l'habitació.
-Apaga el llum de la cuina.
 Apaga el llum de la terrassa.
 Apaga el llum del balcó.
-Apaga el llum del bany.
-Apaga el llum del garatge.
-Apaga el llum del lavabo.
-Apaga el llum del menjador.
-Apaga el llum del passadís.
 Apaga el llum del pàrquing.
-Apaga el llum del rebedor.
 Apaga el llum del terrat.
 Apaga el llum.
-Apaga el microones.
-Apaga el televisor.
 Apaga els llums.
-Apaga l'aire condicionat.
 Apaga l'ordinador.
 Apaga la bombeta.
 Apaga la calefacció.
-Apaga la ràdio.
 Apaga la televisió.
 Apaga les bombetes.
 Aprofite que Manel escura.
@@ -2356,17 +2343,9 @@ Encara sort que només t'has fet una rascada. Podies haver pres molt mal.
 Encisava els majors.
 Encén el forn.
 Encén el llum de l'escala.
-Encén el llum de l'habitació.
-Encén el llum de la cuina.
 Encén el llum de la terrassa.
 Encén el llum del balcó.
-Encén el llum del bany.
-Encén el llum del garatge.
-Encén el llum del lavabo.
-Encén el llum del menjador.
-Encén el llum del passadís.
 Encén el llum del pàrquing.
-Encén el llum del rebedor.
 Encén el llum del terrat.
 Encén el llum.
 Encén el microones.
@@ -2381,7 +2360,6 @@ Encén la televisió.
 Encén les bombetes.
 Endevino la llum i la tonada del cel i el bosc que novament retrobo.
 Endus-te la xica, Joan!
-Engega el forn.
 Engega el llum de l'escala.
 Engega el llum de l'habitació.
 Engega el llum de la cuina.
@@ -2396,13 +2374,9 @@ Engega el llum del pàrquing.
 Engega el llum del rebedor.
 Engega el llum del terrat.
 Engega el llum.
-Engega el microones.
-Engega el televisor.
 Engega els llums.
-Engega l'aire condicionat.
 Engega l'ordinador.
 Engega la calefacció.
-Engega la ràdio.
 Engega la televisió.
 Enginyeria de producte i de procés.
 Ens han passat informació de la nova agència amb comptagotes.
@@ -2837,7 +2811,6 @@ La nena preferia usos i estils europeus, modes sancionades, normalitats socials.
 La nit és alta i s'abraça amb mi.
 La nova directora vol que abans d’anar-se'n passem pel seu despatx.
 La núvia del president entreveu el paradís.
-La paciència és la mare de la ciència.
 La paraula moniato la utilitzem també com a insult.
 La paraula moniato, procedeix del castellà boniato.
 La paraula sols era la musica.
