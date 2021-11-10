@@ -152,6 +152,7 @@ te = Telugu
 tg = Tacikçe
 th = Tayca
 ti = Tigrinya dili
+Tig = Tigre
 tl = Tagalog
 tr = Türkçe
 tt = Tatarca
