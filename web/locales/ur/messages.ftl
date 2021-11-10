@@ -78,6 +78,8 @@ hy-AM = آرمينيائى
 hyw = آرمینیائی مغربی
 ia = انٹرلنگوا
 id = ‏‏انڈونیشین
+ie = انٹرلنگوا
+ig = اگبو
 is = آئس لينڈى
 it = اطالوی
 izh = ایزورین
@@ -86,6 +88,7 @@ ka = جارجيائى
 kaa = کراکلپاک
 kab = کیبل
 kbd = کبارڈین
+ki = کیکویو
 kk = کازخ
 kmr = کرمانجی کرد
 ko = کوریائِی
@@ -110,10 +113,13 @@ ms = ملئے
 mt = مالٹیائی
 my = برمی
 myv = ایرزیا
+nan-tw = تائیوانی (منان)
 nb-NO = نارویجین بوکمل
 ne-NP = نیپالی
+nia = نیاس
 nl = ڈچ
 nn-NO = نورویجیئن نینورسک
+nyn = رنیانکول
 oc = آكسيٹان
 or = اوڈیا
 pa-IN = پنجابی
@@ -143,9 +149,12 @@ ta = تامل
 te = تلگو
 tg = تاجک
 th = تھائى
+ti = ٹيگرنيا
+Tig = ٹیگرے
 tl = ٹیگا لوگ
 tr = ترک
 tt = ‏‏طاطاری
+tw = توی
 uby = اوبیخ
 udm = اڈمورٹ
 ug = ایغور
@@ -855,6 +864,16 @@ profile-form-delete = پروفائل حزف کریں
 
 ## Profile Download
 
+download-profile-title = پروفائل
+download-profile-size = چند بائٹس
+download-recordings-title = ریکارڈنگز
+download-size = سائز
+download-selected = منتخب شدہ
+download-start = پروفائل ڈیٹا ڈاؤن لوڈ کریں۔
+download-request = ریکارڈنگ کی درخواست کریں۔
+download-requests = ماضی کی ریکارڈنگز ڈاؤن لوڈ کی درخواستیں۔
+download-request-button = ڈاؤن لوڈ
+download-request-title = { $created }
 
 ## Landing
 
@@ -898,3 +917,9 @@ demo-dashboard-card-header = ذاتی ڈیش بورڈز آپ کو انفرادی
 
 ## Validation criteria
 
+contribution-criteria-nav = معیار
+contribution-criteria-link = شراکت کے معیار کو سمجھیں۔
+contribution-criteria-page-title = شراکت کا معیار
+contribution-for-example = مثال کے طور پر
+contribution-volume-title = حجم
+contribution-just-unsure-title = صرف غیر یقینی؟
