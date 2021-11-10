@@ -152,6 +152,7 @@ te = Telugušćina
 tg = Tadźikišćina
 th = Thaišćina
 ti = Tigrinja
+Tig = Tigre
 tl = Tagalog
 tr = Turkowšćina
 tt = Tataršćina
