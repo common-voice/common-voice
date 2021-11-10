@@ -302,6 +302,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = ریکارڈ/روکیں
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = تراشہ دوبارہ ریکارڈ کریں
+shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ کو مسترد کریں۔
 shortcut-submit = واپس
 shortcut-submit-label = تراشے جمع کرائیں
@@ -385,6 +386,7 @@ connect-gravatar = Gravatar کے ساتھ مربوط ہوں
 gravatar_not_found = آپ کے ای میل کے لئے کوئی Gravatar نہیں ملا
 file_too_large = منتخب کی گئی فائل بہت بڑی ہے۔
 avatar-uploaded = اوتار اپ لوڈ ہوگیا
+max-file-size = { $kb }kb زیادہ سے زیادہ
 
 ## Profile - Email
 
@@ -874,6 +876,7 @@ download-info = ہمیں بتائیں کہ آپ کیا ڈاؤن لوڈ کرنا 
 download-profile-title = پروفائل
 download-profile-size = چند بائٹس
 download-recordings-title = ریکارڈنگز
+download-recordings-size = عام طور پر میگا بائٹس
 download-size = سائز
 download-selected = منتخب شدہ
 download-start = پروفائل ڈیٹا ڈاؤن لوڈ کریں۔
@@ -902,6 +905,7 @@ demo-welcome-subheader = کیا آپ مزید جاننے اور اس منصوب�
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice دنیا کا سب سے بڑا عوامی طور پر دستیاب ، کثیر لسانی وائس ڈیٹاسیٹ ہے۔
+demo-language-select-card-body = پچاس سے زیادہ زبانوں میں 259k سے زیادہ افراد کی جانب سے دیئے گئے تعاون کی بدولت ، اس اعداد و شمار کو انسانی آواز کو بہتر انداز میں جواب دینے کے لئے تقریر سے چلنے والے ایپلی کیشنز کی تربیت کے لئے استعمال کیا جا رہا ہے۔
 card-button-next = آگے
 card-button-back = پیچھے
 demo-language-select-label = زبانیں براؤز کریں
@@ -937,6 +941,7 @@ contribution-misreadings-example-6-title = ہم کافی لینے باہر جا 
 contribution-misreadings-example-7-title = ہم کافی لینے باہر جا رہے ہیں۔
 contribution-misreadings-example-8-explanation = [غیر مماثل مواد]
 contribution-varying-pronunciations-title = مختلف تلفظ
+contribution-varying-pronunciations-example-1-title = اس کے سر پر اس نے بیریٹ پہنا ہوا تھا۔
 contribution-varying-pronunciations-example-2-title = اس کا ہاتھ اٹھا ہوا تھا۔
 contribution-background-noise-title = پس منظر کی آوازیں
 contribution-background-voices-title = پس منظر کی آوازیں
