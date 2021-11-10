@@ -133,6 +133,7 @@ ro = پیش قدمی
 ru = روسی
 rw = كنیاروندا
 sah = سکھا
+sat = سنتالی (اول چکی)
 sc = سارڈینی
 scn = سسلین
 shi = شلحہ
@@ -155,6 +156,7 @@ tl = ٹیگا لوگ
 tr = ترک
 tt = ‏‏طاطاری
 tw = توی
+ty = تہیشیائی
 uby = اوبیخ
 udm = اڈمورٹ
 ug = ایغور
@@ -867,6 +869,8 @@ profile-form-delete = پروفائل حزف کریں
 
 ## Profile Download
 
+download-q = اپنا ڈیٹا ڈاؤن لوڈ کرنے کی ضرورت ہے؟
+download-info = ہمیں بتائیں کہ آپ کیا ڈاؤن لوڈ کرنا چاہتے ہیں:
 download-profile-title = پروفائل
 download-profile-size = چند بائٹس
 download-recordings-title = ریکارڈنگز
@@ -879,6 +883,7 @@ download-request-button = ڈاؤن لوڈ
 download-request-title = { $created }
 download-request-refresh-button = تازہ کریں
 download-request-modal-title = ربط ڈاؤن لوڈ کریں۔
+download-request-metadata-link = جملے کا متن
 
 ## Landing
 
@@ -926,6 +931,16 @@ contribution-criteria-nav = معیار
 contribution-criteria-link = شراکت کے معیار کو سمجھیں۔
 contribution-criteria-page-title = شراکت کا معیار
 contribution-for-example = مثال کے طور پر
+contribution-misreadings-example-2-title = ٹرائاسک کا دیوہیکل ڈائنوسار۔
+contribution-misreadings-example-5-title = ہم کافی لینے باہر جا رہے ہیں۔
+contribution-misreadings-example-6-title = ہم کافی لینے باہر جا رہے ہیں۔
+contribution-misreadings-example-7-title = ہم کافی لینے باہر جا رہے ہیں۔
+contribution-misreadings-example-8-explanation = [غیر مماثل مواد]
+contribution-varying-pronunciations-title = مختلف تلفظ
+contribution-varying-pronunciations-example-2-title = اس کا ہاتھ اٹھا ہوا تھا۔
+contribution-background-noise-title = پس منظر کی آوازیں
 contribution-background-voices-title = پس منظر کی آوازیں
 contribution-volume-title = حجم
 contribution-just-unsure-title = صرف غیر یقینی؟
+see-more = <chevron></chevron>مزید دیکھیں
+see-less = <chevron></chevron>کم دیکھیں
