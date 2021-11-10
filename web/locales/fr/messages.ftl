@@ -152,6 +152,7 @@ te = Télougou
 tg = Tadjik
 th = Thaï
 ti = Tigrigna
+Tig = Tigré
 tl = Tagalog
 tr = Turc
 tt = Tatar
