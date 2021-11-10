@@ -152,6 +152,7 @@ te = Telugu
 tg = Tadzjieks
 th = Thai
 ti = Tigrinya
+Tig = Tigre
 tl = Tagalog
 tr = Turks
 tt = Tataars
