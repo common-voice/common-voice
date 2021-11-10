@@ -164,6 +164,8 @@ uz = ازبک
 vec = وینشین
 vi = ویتنامی
 vot = ووٹک
+yi = یدش
+yo = یوروبا
 yue = کینٹونی
 zh-CN = چینی (چین)
 zh-HK = چینی (ہانگ کانگ)
@@ -298,6 +300,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = ریکارڈ/روکیں
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = تراشہ دوبارہ ریکارڈ کریں
+shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ کو مسترد کریں۔
 shortcut-submit = واپس
 shortcut-submit-label = تراشے جمع کرائیں
 request-language-text = اب تک Common Voice پر اپنی زبان نہیں دیکھ رہے ہیں؟
@@ -874,6 +877,8 @@ download-request = ریکارڈنگ کی درخواست کریں۔
 download-requests = ماضی کی ریکارڈنگز ڈاؤن لوڈ کی درخواستیں۔
 download-request-button = ڈاؤن لوڈ
 download-request-title = { $created }
+download-request-refresh-button = تازہ کریں
+download-request-modal-title = ربط ڈاؤن لوڈ کریں۔
 
 ## Landing
 
@@ -921,5 +926,6 @@ contribution-criteria-nav = معیار
 contribution-criteria-link = شراکت کے معیار کو سمجھیں۔
 contribution-criteria-page-title = شراکت کا معیار
 contribution-for-example = مثال کے طور پر
+contribution-background-voices-title = پس منظر کی آوازیں
 contribution-volume-title = حجم
 contribution-just-unsure-title = صرف غیر یقینی؟
