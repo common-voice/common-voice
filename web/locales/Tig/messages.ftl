@@ -205,6 +205,8 @@ english = እንግሊዚ
 
 ## ProfileForm
 
+profile-form-age =
+    .label = ዑምር
 
 ## Profile - Email
 
