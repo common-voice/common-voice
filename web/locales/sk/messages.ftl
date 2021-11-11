@@ -152,6 +152,7 @@ te = telugčina
 tg = tadžičtina
 th = thajčina
 ti = Tigrijčina
+Tig = Tigre
 tl = tagalčina
 tr = turečtina
 tt = tatárčina
