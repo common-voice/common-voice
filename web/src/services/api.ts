@@ -474,4 +474,9 @@ export default class API {
   async getServerDate(): Promise<string> {
     return await this.fetch(`${API_PATH}/server_date`);
   }
+
+  getAccents(lang?: string) {
+    console.log('get!');
+    return this.fetch(`${API_PATH}/language/accents${lang ? '/' + lang : ''}`);
+  }
 }

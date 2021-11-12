@@ -330,6 +330,9 @@ profile-form-additional-language =
     .label = Additional Language
 profile-form-accent =
     .label = Accent
+profile-form-custom-accent-help-text =
+  .label = How would you describe your accent?
+profile-form-custom-accent-placeholder = Describe your accent
 profile-form-age =
     .label = Age
 profile-form-gender-2 =
@@ -342,6 +345,7 @@ native-language =
     .label = Native Language
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
+
 male = Male
 female = Female
 # Gender
@@ -350,6 +354,7 @@ why-profile-title = Why a profile?
 why-profile-text =
   By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
   Recognition engines that use this data to improve their accuracy.
+
 dashboard = Dashboard
 build-profile = Build Profile
 avatar = Avatar

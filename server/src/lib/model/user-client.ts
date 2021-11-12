@@ -10,19 +10,18 @@ import {
   ChallengeTeamToken,
   challengeTokens,
   challengeTeamTokens,
+  AccentLocale,
 } from 'common';
 
 const db = getMySQLInstance();
 
-async function updateLocales(
-  clientId: string,
-  locales: { locale: string; accent: string }[]
-) {
+async function updateLocales(clientId: string, locales: AccentLocale[]) {
+  // Get a list of all accents currently stored for this user
   const [savedLocales]: [
     { id: number; locale: string; accent: string }[]
   ] = await db.query(
     `
-      SELECT id, (SELECT name FROM locales WHERE id = locale_id) AS locale, accent
+      SELECT id, (SELECT name FROM locales WHERE id = locale_id) AS locale, accent_id AS accent
       FROM user_client_accents
       WHERE client_id = ?
       ORDER BY id
@@ -30,6 +29,8 @@ async function updateLocales(
     [clientId]
   );
 
+  // Identify whether there are any entries in savedLocales that are the same as
+  // a corresponding entry in the input locales array
   let startAt = savedLocales.findIndex((savedLocale, i) => {
     const locale = locales[i];
     return (
@@ -38,6 +39,9 @@ async function updateLocales(
       savedLocale.accent !== locale.accent
     );
   });
+
+  // If all language/accent stats are the same, check
+  // whether there are new entries in the input locales array
   if (startAt == -1) {
     if (locales.length <= savedLocales.length) {
       return;
@@ -45,21 +49,52 @@ async function updateLocales(
     startAt = savedLocales.length;
   }
 
+  // Of the entries in savedLocales that are not the same as the input locales array
+  // delete the remainder from savedLocales to avoid polluting/duplicating data
   const deleteIds = savedLocales.slice(startAt).map(s => s.id);
+
   if (deleteIds.length > 0) {
     await db.query('DELETE FROM user_client_accents WHERE id IN (?)', [
       deleteIds,
     ]);
   }
 
+  // @TODO - Jenny - do some basic text cleaning on user submitted accents - trim, lowercase,
+  // look at dashes/underscores/etc
+
+  // Of the entries in savedLocales that are not the same as the input locales array
+  // create any accents that are newly user submitted
   const newAccents = await Promise.all(
-    locales
-      .slice(startAt)
-      .map(async l => [clientId, await getLocaleId(l.locale), l.accent])
+    locales.slice(startAt).map(async l => {
+      const localeId = await getLocaleId(l.locale);
+
+      // If the given accent from the input locales array does not have an accent ID or is
+      // identified as a showCustom value, then this is a new user submitted accent that needs
+      // to be entered
+      if (!l.accent_id && l.showCustom) {
+        await db.query(
+          `INSERT INTO accents (locale_id, accent_name, user_submitted, client_id) values (?, ?, ?, ?)`,
+          [localeId, l.accent, true, clientId]
+        );
+
+        const [
+          [newAccent],
+        ] = await db.query(
+          `SELECT id FROM accents WHERE locale_id = ? AND accent_name = ? AND user_submitted`,
+          [localeId, l.accent]
+        );
+
+        l.accent_id = newAccent.id;
+      }
+
+      return [clientId, localeId, l.accent_id ? null : l.accent, l.accent_id];
+    })
   );
+
+  // Finally, insert the new accent values into the user_client_accents table
   if (newAccents.length > 0) {
     await db.query(
-      'INSERT INTO user_client_accents (client_id, locale_id, accent) VALUES ?',
+      'INSERT INTO user_client_accents (client_id, locale_id, accent_token, accent_id) VALUES ?',
       [newAccents]
     );
   }
@@ -122,9 +157,10 @@ const UserClient = {
   }) {
     const [rows] = await db.query(
       `
-        SELECT u.*, accents.accent, locales.name AS locale, ages.age, genders.gender
+        SELECT u.*, accents.id AS accent_id, accents.accent_name, accents.user_submitted, locales.name AS locale, ages.age, genders.gender
         FROM user_clients u
-        LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
+        LEFT JOIN user_client_accents user_accents ON u.client_id = user_accents.client_id
+        LEFT JOIN accents ON user_accents.accent_id = accents.id
         LEFT JOIN locales on accents.locale_id = locales.id
         -- TODO: This subquery is VERY awkward, but safer until we simplify
         --       accent grouping.
@@ -151,7 +187,14 @@ const UserClient = {
         obj[row.client_id] = {
           ...pick(row, 'client_id', 'accent', 'age', 'gender'),
           locales: (client ? client.locales : []).concat(
-            row.accent ? { accent: row.accent, locale: row.locale } : []
+            typeof row.accent_name == 'string'
+              ? {
+                  accent: row.accent_name,
+                  locale: row.locale,
+                  accent_id: row.accent_id,
+                  showCustom: row.user_submitted,
+                }
+              : []
           ),
         };
         return obj;
@@ -160,11 +203,14 @@ const UserClient = {
   },
 
   async findAccount(email: string): Promise<UserClientType> {
+    // @TOOD: this would be better split out into a few smaller queries than one giant query, surely???
     const [rows] = await db.query(
       `
         SELECT DISTINCT
           u.*,
-          accents.accent,
+          accents.id AS accent_id,
+          accents.accent_name,
+          accents.user_submitted,
           locales.name AS locale,
           ages.age,
           genders.gender,
@@ -176,7 +222,8 @@ const UserClient = {
           n.basket_token AS basket_token
         FROM user_clients u
         LEFT JOIN user_client_newsletter_prefs n ON u.client_id = n.client_id
-        LEFT JOIN user_client_accents accents ON u.client_id = accents.client_id
+        LEFT JOIN user_client_accents user_accents ON u.client_id = user_accents.client_id
+        LEFT JOIN accents ON user_accents.accent_id = accents.id
         LEFT JOIN locales ON accents.locale_id = locales.id
 
         -- TODO: This subquery is awkward, but safer until we simplify accent
@@ -199,8 +246,8 @@ const UserClient = {
           LEFT JOIN teams ON enroll.team_id = teams.id AND challenges.id = teams.challenge_id
         ) t ON t.client_id = u.client_id
         WHERE u.email = ? AND has_login
-        GROUP BY u.client_id, accents.id
-        ORDER BY accents.id ASC
+        GROUP BY u.client_id, user_accents.id
+        ORDER BY user_accents.id ASC
       `,
       [email, email]
     );
@@ -229,8 +276,13 @@ const UserClient = {
               'votes_count'
             ),
             locales: client.locales.concat(
-              typeof row.accent == 'string'
-                ? { accent: row.accent, locale: row.locale }
+              typeof row.accent_name == 'string'
+                ? {
+                    accent: row.accent_name,
+                    locale: row.locale,
+                    accent_id: row.accent_id,
+                    showCustom: row.user_submitted,
+                  }
                 : []
             ),
             awards,

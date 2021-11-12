@@ -97,6 +97,7 @@ export default class API {
     router.post('/user_client/takeout/request', this.requestTakeout);
     router.post('/user_client/takeout/:id/links', this.getTakeoutLinks);
 
+    router.get('/language/accents/:locale?', this.getAccents);
     router.get('/:locale/sentences', this.getRandomSentences);
     router.post('/skipped_sentences/:id', this.createSkippedSentence);
 
@@ -507,4 +508,8 @@ export default class API {
     // prevents contributors manipulating dates in client
     response.json(new Date());
   }
+
+  getAccents = async ({ params }: Request, response: Response) => {
+    response.json(await this.model.db.getAccents(params?.locale || null));
+  };
 }

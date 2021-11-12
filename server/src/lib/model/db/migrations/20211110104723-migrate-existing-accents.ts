@@ -4,7 +4,10 @@ export const up = async function (db: any): Promise<any> {
     ALTER TABLE user_client_accents
       ADD COLUMN accent_id INT UNSIGNED,
       CHANGE COLUMN accent legacy_accent_token VARCHAR(255),
-      ADD CONSTRAINT FOREIGN KEY (accent_id) REFERENCES accents (id);`
+      DROP INDEX client_id,
+      ADD KEY client_id (client_id),
+      ADD CONSTRAINT FOREIGN KEY (accent_id) REFERENCES accents (id),
+      ADD CONSTRAINT client_accent UNIQUE (client_id, locale_id, accent_id);`
   );
 
   await db.runSql(`

@@ -877,19 +877,40 @@ export default class DB {
     )[0][0].count;
   }
 
-  async saveAccents(client_id: string, accents: { [locale: string]: string }) {
-    await Promise.all(
-      Object.entries(accents).map(async ([locale, accent]) =>
-        this.mysql.query(
-          `
-        INSERT INTO user_client_accents (client_id, locale_id, accent) VALUES (?, ?, ?)
-          ON DUPLICATE KEY UPDATE accent = VALUES(accent)
-      `,
-          [client_id, await getLocaleId(locale), accent]
-        )
-      )
+  async getAccents(locale?: string) {
+    const [accents] = await this.mysql.query(
+      `
+      SELECT name as lang, legacy_accent_token AS token, a.id AS accent_id, accent_name, a.user_submitted FROM accents a
+      LEFT JOIN locales ON a.locale_id = locales.id
+      WHERE NOT user_submitted
+      `
     );
+
+    const mappedAccents = accents.reduce((acc: any, curr: any) => {
+      if (!acc[curr.lang]) {
+        acc[curr.lang] = { userGenerated: {}, preset: {} };
+      }
+      const accent = {
+        id: curr.accent_id,
+        legacy_token: curr.token,
+        name: curr.accent_name,
+      };
+
+      // Note: currently the query excludes user_submitted values, leaving this
+      // conditional code here to preserve type structure for future work
+      // enabling suggesting user-created accents
+      if (curr.user_submitted) {
+        acc[curr.lang].userGenerated[curr.accent_id] = accent;
+      } else {
+        acc[curr.lang].preset[curr.accent_id] = accent;
+      }
+
+      return acc;
+    }, {});
+
+    return mappedAccents;
   }
+
 
   async createSkippedSentence(id: string, client_id: string) {
     await this.mysql.query(
