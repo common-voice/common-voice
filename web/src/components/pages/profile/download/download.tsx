@@ -281,6 +281,7 @@ function downloadAsFile(filename: string, url: string) {
   a.remove();
 }
 
+// @TODO - Jenny verify downloads still work as expected
 export function getProfileInfo(account: UserClient) {
   return [
     ...Object.entries(pick(account, 'email', 'username', 'age', 'gender')),
@@ -289,7 +290,7 @@ export function getProfileInfo(account: UserClient) {
       return [
         ...all,
         [localeLabel, l.locale],
-        [localeLabel + ' accent', l.accent],
+        [localeLabel + ' accent', l.accents.join(", ")],
       ];
     }, []),
   ]
