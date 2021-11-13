@@ -910,17 +910,24 @@ download-request-archive-multiple = ኣብ { $archiveCount } ዝተመቃቀሉ 
 download-request-assembling-description = ፋይላትካ ይእከብ ኣሎ ። በጃኻ ጸኒሕካ እንደገና መርምር ።
 download-request-refresh-button = የሕድስ
 download-request-modal-title = መውርዲ መርሖታት
+download-request-modal-description = ፋይላት ZIP ከተራግፍ እትኽእለሉ መርሖታት እንሆ።
 download-request-link-text = Zip #{ $offset } ካብ { $total }
 download-request-metadata-link = ጽሑፍ
+download-request-link-single = ነቲ ብቐጥታ ዚርከብ URLታት ናብቲ እትፈትዎ መራገፊ መስርሒ ኽትቀድሖን  ትኽእል ኢኻ። ምስ ጀመረ ኣብ 12 ሰዓት ክውዳእ ኢዩ እንተዀነ ግን ኣብ ዝዀነ ይኹን እዋን ሓደስቲ ንምድላው ናብዛ ገጽ እዚኣ ክትምለስ ትኽእል ኢኻ።
 
 ## Landing
 
 welcome-staff = መርሓባ { $company } ዓየይቲ!
+help-contribute = ኮመን ቮይስ ድሕረ ባይታ ኣክውንት ብምድላውን ድምጽኻ ኣበርክቶ ብምግባርን እተፈላለየን ክፉት ምንጪ ዘለዎን ሓበሬታ ኣብ ምህናጽ ክትሕግዝ ትኽእል ኢኻ።
+login-company = ተመዝገብ / እተው ብ{ $company } ኢ- መይል
+profile-not-required = ድሕረ ባይታ (profile) ሓጋዚ እኳ እንተ ዀነ ንኣበርክቶ ኺገብር ግን ግደታ ኣይኮነንን፣ ስለምንታይ ኣብ ታሕቲ ኸም ዘሎ ርአ ።
 read-more-about = ንዝያዳ ኣብ ብዛዕባና ገጽ ኣንብብ
 
 ## DemoLayout
 
 demo-get-started = ንጀምርዶ?
+demo-welcome = ናብ ኮመን ቮይስ እንቓዕ ብደሓን መጻኻ/ኺ
+demo-welcome-subheader = ዝያዳ ኽትመሃርን ኣብቲ ፕሮጀክት ኣበርክቶ ኺገብርን ዶ?
 
 ## Demo Datasets
 
