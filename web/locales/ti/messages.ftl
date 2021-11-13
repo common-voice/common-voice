@@ -931,12 +931,18 @@ demo-welcome-subheader = ዝያዳ ኽትመሃርን ኣብቲ ፕሮጀክት 
 
 ## Demo Datasets
 
+demo-language-select-card-header = ኮመን ቮይስ ኣብ ዓለም ካብ ዘሎ እቲ ዝዓበየ ንብዙሕ ቋንቋታት እተዳለወ ናይ ድምጺ ሓበሬታ ዝሓዘ ኢዩ
+demo-language-select-card-body = ሳላ እቲ ልዕሊ 259 ሽሕ. ሰባት ብልዕሊ 50 ቛንቋታት ዝገበርዎ ወፈያ እዚ ሓበሬታ እዚ ንድምጺ ሰብ ብዝሓሸ መገዲ ምላሽ ንምሃብ ነቲ ዘረባ ዚጥቀመሉ መወከሲታት ንምስልጣን የገልግል ኣሎ።
 card-button-next = ቀጽል
 card-button-back = ተመለስ
+demo-language-select-label = ቛንቃታት ዳህስስ
+demo-eofy-header = ናይ መወዳእታ ዓመት 2019 ፈነወ
+demo-eofy-sub_header = ናይ ድምጺ ሓበሬታ፣ ንምውራድ ድሉው
 demo-account = ኣካውንት
 
 ## Demo Account
 
+demo-account-card-header = ንኽተበርክት ኣካዉንት ክህልወካ ግደታ ኣይኮነን፡ ግና ሓጋዚ እዩ።
 
 ## Demo Contribute
 
