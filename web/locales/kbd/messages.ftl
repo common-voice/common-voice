@@ -455,36 +455,91 @@ how-does-it-work-title = Мыр дэпхуэдэу зэрылажьэр?
 how-does-it-work-text = *
 about-speak = КъаIуэ
 about-speak-text = Contributors record voice clips by reading from a bank of donated sentences.
+about-listen-queue = Listen-Queue
+about-listen-queue-text = Voice clips are entered into a submission queue that readies them for listening.
 about-listen = Еда1уэ
+about-listen-text = Users validate the accuracy of donated clips, checking that the speaker read the sentence correctly.
 about-is-it-valid = Итхар захуэ?
 about-is-it-valid-text = "Ныт1э" къыхэпхым итхар тэмэму къилъытэнущ.
+about-yes-votes = ≥ 2 Yes votes
+about-yes-votes-text = To make it into the Common Voice dataset, a voice clip must be validated by two separate users.
+about-no-votes = ≥ 2 No votes
+about-no-votes-text = When a user rejects a voice clip it returns to the Queue. If rejected a second time, the voice clip is moved to the Clip Graveyard.
+about-dataset-new = Common Voice Dataset
+about-dataset-new-text = Common Voice Dataset
 about-clip-graveyard = "Тхыгъэ хэдза"
+about-clip-graveyard-text = The Clip Graveyard consists of voice clips that didn't make it into the Common Voice dataset. Just like the dataset, the Clip Graveyard is available for download.
 about-partners = Лэжьэгъу
 about-become-a-partner = Лэжьэгъу хъун
+about-partnership =
+    Common Voice is a collaborative project, and we're depending on our community of partners and contributors to build the largest open-source dataset of voices ever.
+    
+    We would like to thank the following people and organizations for their help with the project:
 about-get-involved = Хэхьэ
+about-get-involved-text-2 =
+    Want to help make Common Voice even better?
+    Great! Get in touch via email or <discourseLink>Discourse</discourseLink>
+    forums, submit site issues via <githubLink>GitHub</githubLink>, or join the
+    <matrixLink>Matrix</matrixLink> community chat.
 about-nav-why-common-voice = Сытым щхьа?
 about-nav-how-it-works = Дау?
 about-nav-partners = Лэжьэгъу
 about-nav-get-involved = Хэхьэ
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Artificial intelligence
+mycroft-description =
+    Mycroft is the world’s first open source assistant.
+    Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Raspberry Pi.
+mycroft-secondary-description = This is open source software which can be freely remixed, extended, and improved. Mycroft may be used in anything from a science project to an enterprise software application.
 
 ## Glossary
 
 glossary = Псалъэхэр
 localization = Зэдзэк1а
+localization-explanation = This is our process for translating and adapting our content for many locales (languages).
+sentence-collection = Sentence Collection
+sentence-collection-explanation = Collecting sentences from the public domain, or writing new ones for the public domain.
+hours-recorded-explanation = The count of voice recording hours we have collected so far.
+hours-validated-explanation = The count of voice recording hours that have been validated by 2 out of 3 users with a vote of “Yes”. These mark progress toward the overall project 10k hours goal.
 sst = Iуатэр тхыгъэу
+sst-explanation = Speech-to-text (STT) technologies convert voice data into text.
 de-identified = Мыунэхуа
+de-identified-explanation = The process by which a contributor’s profile information is obscured from their donated voice clips when packaged for download as a part of the dataset.
 
 ## Error pages
 
+error-title-404 = We couldn’t find that page for you
+error-content-404 = Maybe our <homepageLink>homepage</homepageLink> will help? To ask a question, please join the <matrixLink>Matrix community chat</matrixLink>, monitor site issues via <githubLink>GitHub</githubLink> or visit <discourseLink>our Discourse forums</discourseLink>.
+error-title-503 = We’re experiencing unexpected downtime
+error-content-503 = The site will be back up as soon as possible. For the latest information, please join the <matrixLink>Matrix community chat</matrixLink> or visit <githubLink>GitHub</githubLink> or <discourseLink>our Discourse forums</discourseLink> to submit and monitor site experience issues.
+error-code = Error { $code }
 
 ## Data
 
+data-download-button = Download Common Voice Data
 data-download-yes = НытӀэ/Нт1э \ Ары
 data-download-deny = Хьэуэ/Хьэу
+data-download-license = License: <licenseLink>CC-0</licenseLink>
+data-download-modal = You are about to initiate a download of <size>{ $size }GB</size>, proceed?
+data-subtitle = We are building an open and publicly available dataset of voices that everyone can use to train speech-enabled applications.
+data-explanatory-text = We believe that large and publicly available voice datasets foster innovation and healthy commercial competition in machine-learning based speech technology. This is a global effort and we invite everyone to participate. Our aim is to help speech technology be more inclusive, reflecting the diversity of voices from around the world.
+data-get-started = <speechBlogLink>Get Started with Speech Recognition</speechBlogLink>
+data-other-title = Other voice datasets…
 data-other-goto = { $name }-м кӀуэ
+data-other-download = Download Data
+data-bundle-button = Download Dataset Bundle
+data-bundle-description = Common Voice data plus all other voice datasets above.
+release-version = Version
+dataset-date = Date
+license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Зэхэт
+data-download-singleword-title = Download the Single Word Target Segment
+data-download-singleword-callout-v2 = This is a use case driven segment containing data to power spoken digit recognition and yes / no detection.
+review-terms = By using Common Voice, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
 terms-agree = Сы аразыщ
 terms-disagree = Сы мы аразы
+review-aborted = Upload aborted. Do you want to delete your recordings?
+review-submit-title = Review & Submit
 review-recording = Хэплъэ
 review-rerecord = Тетхэж
 review-cancel = Йомыгъэхь
