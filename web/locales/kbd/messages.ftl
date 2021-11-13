@@ -701,20 +701,35 @@ listen-3rd-time-instruction = 2 down, keep it up!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Last one!
 listen-empty-state = We've run out of clips to validate in this language...
 speak-empty-state = We've run out of sentences to record in this language...
+speak-empty-state-cta = Contribute sentences
 record-button-label = Уи макъ егъэтх
+share-title-new = <bold>Help us</bold> find more voices
+keep-track-profile = Keep track of your progress with a profile
+login-to-get-started = Log in or sign up to get started
+target-segment-first-card = You’re contributing to our first target segment
+target-segment-generic-card = You’re contributing to a target segment
+target-segment-first-banner = Help create Common Voice’s first target segment in { $locale }
+target-segment-add-voice = Add Your Voice
+target-segment-learn-more = Learn More
 
 ## Reporting
 
 report = Мыхъу-мыщ1эр гъэунэху/Тхьэусыхэ
 report-title = Тхыгъэ-мыхъум хэгъаплъэ / Тхьэусыхэ егъэхь.
+report-ask = What issues are you experiencing with this sentence?
 report-offensive-language = Хъуэн псалэ
+report-offensive-language-detail = The sentence has disrespectful or offensive language.
 report-grammar-or-spelling = Грамэр/ орфограф щыуагъэ
+report-grammar-or-spelling-detail = The sentence has a grammatical or spelling error.
 report-different-language = Нэгъэщ бзэ
+report-different-language-detail = It is written in a language different than what I’m speaking.
 report-difficult-pronounce = БгъэIуэну гугъущ
+report-difficult-pronounce-detail = It contains words or phrases that are hard to read or pronounce.
 report-offensive-speech = Хъуэн псалэ
 report-offensive-speech-detail = Тхам хъуэн, пщ1эм еуэ псалъэ хэтщ
 report-other-comment =
     .placeholder = Тетхэ \ ЩIэтхэ
+success = Success
 continue = АдэкӀэ
 report-success = Хьэзыр/хъащ/ухащ
 
@@ -741,6 +756,7 @@ validations =
 
 your-languages = Фи бзэ
 toward-next-goal = Пэщыт псыгъэ/Iуэху
+goal-reached = Goal reached
 clips-you-recorded = Евгъэтхащ
 clips-you-validated = Фыхэплъащ
 todays-recorded-progress = Common Voice-м нобэ тхыгъэу ит
@@ -756,12 +772,15 @@ validated-clips = Хэплъау щыт
 total-approved = Зыхэплъэжа псор
 overall-accuracy = Зыу гъэпса
 set-visibility = Сызылъагъ теухуэ
+visibility-explainer = This setting controls your leaderboard visibility. When hidden, your progress will be private. This means your image, user name and progress will not appear on the leaderboard. Note that leaderboard refresh takes ~{ $minutes }min to populate changes.
+visibility-overlay-note = Note: When set to 'Visible', this setting can be changed from the <profileLink>Profile page</profileLink>
 show-ranking = Си рейтингыр гъэлъагъуэ
 
 ## Custom Goals
 
 get-started-goals = Гъэпс/ теухуэ
 create-custom-goal = Си гъэпс щIэдзэ
+goal-type = What kind of goal do you want to build?
 both-speak-and-listen = ТIури
 both-speak-and-listen-long = ТIури (тхыи хэплъэж)
 daily-goal = Махуэ гъэпс
@@ -770,8 +789,16 @@ easy-difficulty = Тыншщ
 average-difficulty = Курыт
 difficult-difficulty = Гугъу
 pro-difficulty = Iэзэ
+lose-goal-progress-warning = By editing your goal, you may lose your existing progress.
 want-to-continue = Адэк1э птхыну?
+finish-editing = Finish editing first?
+lose-changes-warning = Leaving now means you’ll lose your changes
 build-custom-goal = Си гъэпс щIэдзэ
+help-reach-hours-pluralized =
+    Help reach { NUMBER($hours) ->
+        [one] { $hours } hour
+       *[other] { $hours } hours
+    }in { $language } with a personal goal
 set-a-goal = Гъэпс, Теухуэ
 cant-decide = Иомыкурэ?
 activity-needed-calculation-plural =
