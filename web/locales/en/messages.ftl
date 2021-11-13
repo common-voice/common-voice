@@ -1008,3 +1008,8 @@ contribution-just-unsure-description = If you come across something that these g
 
 see-more = <chevron></chevron>See more
 see-less = <chevron></chevron>See less
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+# [/SentenceCollector]
