@@ -200,9 +200,31 @@ voices-online = Ólú ókwú ńdị́ nọ́ n'ìkùkù úgbú à
 todays-progress = Àgàmnírú é nwètàrà táà
 help-reach-goal = Nyèré ányị́ áká írú  { $goal }
 read-terms-q = Ị̀ gụ́ọ́lá úsòrò (terms) ányị́ jì émé íhé?
+ready-to-record = Ị̀ dị́lá ńjìkéré ị́tụ́nyé òkè ólú ókwú gị́?
+all-locales = Ha níílé
+today = Táà
+x-weeks-short =
+    { $count ->
+        [one] Ízù
+       *[other] { $count } N'ízù
+    }
+x-months-short =
+    { $count ->
+        [one] Ọ́nwá
+       *[other] { $count } N'ọ́nwá
+    }
+x-years-short =
+    { $count ->
+        [one] Áfọ̀
+       *[other] { $count } N'áfọ̀
+    }
+sign-up-account = Débànyé áhá gị́ kà Í wèé nwétá ọ́wà ǹkè áká gị́
+email-subscription-title = Débànyé áhà gị́ kà Ị́ wèé ná-ènwétá ózí íméèlụ̀ (email) gbàsárá kà íhé sì àgá
+email-subscription-title-new = Débànyé áhà gị́ kà Ị́ wèé ná-ènwétá ákwụ́kwọ́ ózí ńdị́ Common Voice, nàkwàzị̀ ózí ńchétárá m̀bùmnúchè nà kà íhé sì àgá
 
 ## Account Benefits
 
+benefits = Úrù
 
 ## What's public
 
