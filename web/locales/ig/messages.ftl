@@ -294,6 +294,19 @@ hidden = Ǹzòrò èzó
 visible = Hụ̀nányá
 profile-form-submit-save = Chèkwáá
 profile-form-submit-saved = É chèkwàrà
+# Gender
+other = Ńdị́ ọ́zọ́
+why-profile-title = Kèdú íhé kpátárá é jí ènwé ǹjìrìmárá ōnyē?
+why-profile-text =
+    Síté n'ínyé ózí gbàsárá ónwé gị́, ụ́yọ̀kọ̀ ólú ókwú Ị́ zìtèrè Common Voice gà-àdị́ ígwé ǹghọ̀tá ókwú
+    ḿkpà ímélíté ọ̀nọ̀dụ̀ há.
+dashboard = Ógwè (dashboard)
+build-profile = Wùlíté èjìrì márá gị̀.
+goals = Èbùmnúché
+settings = Ǹtọ́àlà/Ńhàzí
+edit-profile = Dèzíé èjìrìmárá gi
+profile-create-success = Ńképụ̀tá èjìrìmárá gi gàrà ǹkè ọ́má!
+profile-close = Mèchíé
 
 ## Profile - Email
 
