@@ -231,9 +231,15 @@ add-language = ሉቀት ወስክ
 
 faq-what-cv-q = Common Voice ሚቱ
 faq-why-important-q = አግል ሚቱ አሊ ሙህም
+faq-why-my-lang-q = ሉቀት ናየ አገልሚ ይሀሌትኒ
+faq-what-is-cv = Common Voice ሚ ቱ
 
 ## ABOUT US
 
+about-speak = ታሃገው
+about-listen = ሰምዖ
+about-nav-why-common-voice = አገልሚ
+about-nav-how-it-works = ከፎ
 
 ## Glossary
 
@@ -243,18 +249,27 @@ faq-why-important-q = አግል ሚቱ አሊ ሙህም
 
 ## Data
 
+data-other-goto = { $name } ጊስ
+terms-agree = አዋፍቅ
+terms-disagree = ይአዋፍቅ
 
 ## Datasets Page
 
+language = ሉቀት
+recorded-hours = ላአትሰጀለያ ሳዓት
 
 ## Download Modal
 
 
 ## Contact Modal
 
+contact-form-name =
+    .label = ሰም
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = ሉቀት
 
 ## Languages Overview
 
