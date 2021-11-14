@@ -305,18 +305,25 @@ you = አንቱም
 ## Custom Goals
 
 easy-difficulty = ሳሃል
+difficult-difficulty = ሳዓብ
+want-to-continue = ትኣስተመሮ ታሓዙ?
+which-goal-type = ትትሃገው ታሓዙ ትስምዖ ሚ ክለኤቱ?
+goal-interval-weekly = ኩል ሳምን
 
 ## Profile Delete
 
+remove = ወርኪዮ
 
 ## Profile Download
 
+download-recordings-title = ተስጂል
 
 ## Landing
 
 
 ## DemoLayout
 
+demo-get-started = የላ ናኣንብት
 
 ## Demo Datasets
 
