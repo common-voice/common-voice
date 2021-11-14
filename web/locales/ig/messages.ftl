@@ -264,12 +264,36 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Kwùnyéghárị́á
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Lághàchí
+request-language-text = Ị̀ ká hụ́bèghị̀ ásụ̀sụ́ gị́ nà Common Voice?
+request-language-text-learn = Mụ̀tá étú é sì àrị̀ọ́tá íhé ébé à
+request-language-button = Rị̀ọ̀tá ótú Ásụ̀sụ́
 
 ## ProjectStatus
 
+status-title = Lèé kà ọ́nọ̀dụ́ sírí gbátá kwụ́rụ́ n'ọ́rụ́ à nàkwà ébé ányị́ nọ̀ úgbúà.
+status-contribute = Tùnyé òkè ólú gí
+status-hours =
+    { $hours ->
+        [one] Kà ọ́ dị̀ úgbúà, á kwàdógó ótú élékéré
+       *[other] { $hours }Élékéré ólé á kwàdògòrò
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Ḿbùmnúché ńdị́ ná-ésòchí: { $goal }
+english = Ásụ̀sụ́ Bèkéè
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Áhá ǹjìrìmárá
+profile-form-additional-language =
+    .label = Ásụ̀sụ́ ḿgbákwúnyéré
+profile-form-age =
+    .label = Áfọ̀
+hidden = Ǹzòrò èzó
+visible = Hụ̀nányá
+profile-form-submit-save = Chèkwáá
+profile-form-submit-saved = É chèkwàrà
 
 ## Profile - Email
 
