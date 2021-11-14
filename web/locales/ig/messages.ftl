@@ -186,11 +186,20 @@ logout = Pụ̀ọ́
 home-title = Common Voice bụ̀ ńchépụ̀tá Mọ̀zị́là íjí nyé áká kụ́zííéré ígwé nwere uche ètù ńdị́ bụ́ ḿmádụ̀ n'ézíé sì èkwú ókwú.
 home-cta = Kwùó ókwú, túnyé òkè gị́ ébé à.
 wall-of-text-more-mobile = Ìmèríìmè ńgwá nchọ́chá (data) ńdị́ ńnúkwú ụ́lọ̀ ḿmépụ̀tà ánághị̀ àdị́rị́ ọ̀tụ́tụ́ ńdị́ ḿmádụ̀ m̀fé ínwétá. Nké à mèrè ànyị́ jì wépụ́tá ámụ̀mà Common Voice à bụ́ nké gá-ényé áká kà ǹghọ́tá ólú dị́rị́ ḿmádụ̀ níílé m̀fé.
+wall-of-text-second = Ìmèríìmè ńgwá nchọ́chá (data) ńdị́ ńnúkwú ụ́lọ̀ ḿmépụ̀tà ánághị̀ àdị́rị́ ọ̀tụ́tụ́ ńdị́ ḿmádụ̀ m̀fé ínwétá. Ǹké à bụ̀ íhé ńdọ́ghàchị́ ázụ́ nyéré ńchépụ̀tá ọ́bụ́là. Nké à mèrè ànyị́ jì wépụ́tá ámụ̀mà Common Voice à bụ́ nké gá-ényé áká kà ǹghọ́tá-ólú dị́rị́ ḿmádụ̀ níílé m̀fé ínwétá.
 show-wall-of-text = Gụ̀kwùó
 help-us-title = Nyèré ányị́ áká mèé kà ọ̀tụ́tụ́ áhị́rị́ókwú kwụ́dósíé íké.
 vote-yes = Éé
 vote-no = Ḿbà
+toggle-play-tooltip = Pị̀á { shortcut-play-toggle } kà Ị́ gbánwèé ọ́nọ̀dụ̀ égwú
 speak-subtitle = Tùnyé òkè ólú gị́
+listen-goal-text = Á kwàdógó ńdékọ́ ńdị́ à
+hours-recorded = Élékéré é dékọ̀rọ̀
+hours-validated = Élékéré ólé á kwàdòrò
+voices-online = Ólú ókwú ńdị́ nọ́ n'ìkùkù úgbú à
+todays-progress = Àgàmnírú é nwètàrà táà
+help-reach-goal = Nyèré ányị́ áká írú  { $goal }
+read-terms-q = Ị̀ gụ́ọ́lá úsòrò (terms) ányị́ jì émé íhé?
 
 ## Account Benefits
 
