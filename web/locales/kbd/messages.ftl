@@ -22,23 +22,23 @@ not-available-abbreviation = Хэмыт
 ## Languages
 
 ab = Азгъэ
-ace = Ачынэ \ Ачэх
-ady = Адыгэ \ Адыгэбзэ/Адыгэ
-af = Африк \ Афрык1
-am = Амхьэр \ Амхэр
-an = Арэгуэн \ Арагуэн
+ace = Ачынэ
+ady = Адыгэ
+af = Афрык1
+am = Амхьэр
+an = Арэгуэн
 ar = Хьэрып
-arn = Мэпыдынгун \ Мапуч
-as = Ассэмэ \ Асам
+arn = Мэпыдынгун
+as = Ассэмэ
 ast = Астурий
 az = Азэр
-ba = Бэшкыр \ Бэшчыр
+ba = Бэшчыр
 bas = Басэ
-be = Урысыху \ Белорус
+be = Урысыху
 bg = Бэлгъэр
-bm = Бэмбэр / Бэмбарэ
+bm = Бэмбэр
 bn = Бэнгэл
-br = Брытэн \ Бретэн
+br = Брытэн
 bxr = Бурэт
 ca = Кэтэлан
 cak = Кэкъшык
@@ -264,20 +264,20 @@ email-subscription-title-new = 1э тедзэ Common Voice и хьыбарыщ1�
 
 benefits = Дызэреф1эк1хэр
 rich-data = Уи датэ ебгъэхьар гъэбагъуэ зэрыхъу.
-improve-audio = *
-keep-track = *
-compare-progress = *
-view-goals = *
-join-newsletter = *
+improve-audio = Profile information improves the audio data used in training speech recognition accuracy.
+keep-track = Keep track of your progress and metrics across multiple languages.
+compare-progress = See how your progress compares to other contributors all over the world.
+view-goals = View your progress against personal and project goals.
+join-newsletter = Optionally join on our email list for updates and new information about the project.
 
 ## What's public
 
 whats-public = Сыт худэ тхыгъэ псоми ялъэгъуфыр?
-email-not-public = Уи имелыр * тщIынщ
-recordings-and-locale-public = *
-username-optin-public = *
-demographic-deidentified-clarity-2 = *
-username-email-not-demographic = *
+email-not-public = We will not make your email public.
+recordings-and-locale-public = The number of recordings and which languages you contribute to will be public.
+username-optin-public = You can choose to make your username public or anonymous.
+demographic-deidentified-clarity-2 = Optionally submitted demographic data (e.g. age, gender, language, and accent) will never be made public on your profile, and will not be linked to your account in the dataset. Individual audio clips will be associated with demographic data for the purpose of more accurate analysis - for example, a researcher might want to target a training model to a specific demographic segment.
+username-email-not-demographic = Your username and email will not be associated with the published data.
 
 ## Speak & Listen Shortcuts
 
@@ -306,11 +306,11 @@ shortcut-record-toggle-label = Тхын/къэгъэувы1эн, Тхы/Щыгъ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Пычыгъуэр щӀэу тхыж
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = *
+shortcut-discard-ongoing-recording-label = Discard ongoing recording
 shortcut-submit = Гъэзэж
-shortcut-submit-label = *
+shortcut-submit-label = Submit clips
 request-language-text = Зэк1э уи бзэр Common Voice-м хэту плъагъукъэ?
-request-language-text-learn = *
+request-language-text-learn = Learn how to request it here!
 request-language-button = Бзэм щӀэупщӀ
 
 ## ProjectStatus
@@ -319,12 +319,14 @@ status-title = ?Прэектым и щытыкӀэ псор: еплъ уздын
 status-contribute = Уи макъыр егъэтх
 status-hours =
     { $hours ->
-        [one] *
-       *[other] *
+        [one] One validated hour so far!
+       *[other]
+            { $hours } validated hours so far!
+            { $hours } validated hours so far!
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = *
+status-goal = Next Goals: { $goal }
 english = Инджылызыбзэ/Анджыл
 
 ## ProfileForm
@@ -334,7 +336,7 @@ profile-form-username =
 profile-form-native-language =
     .label = Анэдэлъхубзэ
 profile-form-additional-language =
-    .label = * бзэ
+    .label = Additional Language
 profile-form-accent =
     .label = Акцент/
 profile-form-age =
@@ -354,68 +356,70 @@ female = ЦIыхубз
 # Gender
 other = Нэгъуэщ1 \ НэмыщI
 why-profile-title = Сыт профил щӀыхуер?
-why-profile-text = *
-dashboard = *
+why-profile-text =
+    By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
+    Recognition engines that use this data to improve their accuracy.
+dashboard = Dashboard
 build-profile = Профил ухуэ
 avatar = Авэтар
-goals = *
-settings = *
+goals = Goals
+settings = Settings
 edit-profile = Профил зэхъуэкI
 profile-create-success = Профил ухуащ!
 profile-close = ХуэщI
-profile-explanation = *
-thanks-for-account = *
+profile-explanation = Keep track of your progress with a profile and help our voice data be more accurate.
+thanks-for-account = Thanks for confirming your account, now let's build your profile.
 why-demographic = Сыт мы щIэ щхьэпэр?
-why-demographic-explanation-2 = *
-accept-privacy = *
-accept-privacy-title = *
-login-identity = *
-login-signup = *
+why-demographic-explanation-2 = Anonymized user data like age, gender, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.
+accept-privacy = I'm okay with you handling this info as you explain in Mozilla's <privacyLink>Privacy Policy</privacyLink>
+accept-privacy-title = Privacy Policy
+login-identity = Login Identity
+login-signup = Log In / Sign Up
 edit = Хъуэж
-email-subscriptions = Имел *
+email-subscriptions = Email Subscriptions
 download-profile = Си дата къитхыкI
-contribution-experience = *
-skip-submission-feedback = *
-skip-submission-description = *
-skip-submission-note = *
+contribution-experience = Contribution Experience
+skip-submission-feedback = Skip Submission Feedback
+skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit'. Contribution will continue directly with the next set of 5 recordings or validations.
+skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
 off = УфIынкI
 on = ЩIэгъанэ
 
 ## Profile - Email
 
-browse-file-title = *
-browse-file = *
-connect-gravatar = *
-gravatar_not_found = *
-file_too_large = *
-avatar-uploaded = *
-max-file-size = *
+browse-file-title = Upload an image file
+browse-file = Drag and drop or <browseWrap>Browse</browseWrap>
+connect-gravatar = Connect with Gravatar
+gravatar_not_found = No gravatar found for your email
+file_too_large = The selected file is too large
+avatar-uploaded = Avatar uploaded
+max-file-size = { $kb }kb max
 
 ## Profile - Email
 
-manage-subscriptions = *
-manage-email-subscriptions = *
-email-already-used = *
-add-language = *
-change-email-setings = *
+manage-subscriptions = Manage Subscriptions
+manage-email-subscriptions = Manage Email Subscriptions
+email-already-used = Email is already used for a different account
+add-language = Add Language
+change-email-setings = Change your email via Settings under Login Identity
 
 ## FAQ
 
-faq-title = *
+faq-title = Frequently Asked Questions
 faq-what-cv-q = Common Voice-р зи1ысыр сыт?
-faq-what-cv-a = *
-faq-what-cv-a-2 = *
-faq-why-important-q = *
-faq-why-important-a = *
-faq-how-get-q = *
-faq-how-get-a = *
-faq-when-release2-q = *
-faq-when-release2-a = *
-faq-why-mission-q = *
-faq-why-mission-a = *
-faq-what-cv-and-deepspeech-q = *
-faq-what-cv-and-deepspeech-a = *
-faq-is-goal-assistant-q = *
+faq-what-cv-a = Voice recognition technology is revolutionizing the way we interact with machines, but the currently available systems are expensive and proprietary. Common Voice is part of Mozilla’s initiative to make voice recognition technologies better and more accessible for everyone. Common Voice is a massive global database of donated voices that lets anyone quickly and easily train voice-enabled apps in potentially every language.
+faq-what-cv-a-2 = Voice recognition technology is revolutionizing the way we interact with machines, but the currently available systems are expensive and proprietary. Mozilla Common Voice is an initiative to make voice recognition technologies better and more accessible for everyone. Common Voice is a massive global database of donated voices that lets anyone quickly and easily train voice-enabled apps in potentially every language.
+faq-why-important-q = Why is it important?
+faq-why-important-a = Speech is often the most natural way we communicate with each other and voice technologies are bringing that convenience to our computers and mobile devices. We want to empower developers to build amazing voice recognition applications like real-time translators and voice-enabled digital assistants. But right now most of the voice data required to build these kinds of apps is expensive and proprietary. We hope the Common Voice dataset will give developers what they need to innovate and make speech technology available in their own language.
+faq-how-get-q = How can I get the Common Voice data?
+faq-how-get-a = The Common Voice dataset is available for download under the <licenseLink>CC0</licenseLink> license on <datasetLink>our Datasets page</datasetLink>. You can also download several other publicly available datasets from the same page.
+faq-when-release2-q = When will you release Common Voice data in other languages?
+faq-when-release2-a = The multi-language version of the Common Voice dataset is currently undergoing community supported bundling and cleaning. If you would like to help us bring Common Voice to new languages, go check out the <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> for adding new sentences to the dataset, and Mozilla <pontoonLink>Pontoon</pontoonLink> for translating the website itself. New languages are added to Common Voice for voice contribution when 5000 approved sentences have been collected.
+faq-why-mission-q = Why is Common Voice part of the Mozilla mission?
+faq-why-mission-a = Mozilla is dedicated to keeping the web open and accessible for everyone. To do that we need to empower web creators through projects like Common Voice. As voice technologies proliferate beyond niche applications, we believe they must serve all users equally. That means investing in more languages and accommodating diverse accents and demographics when building and testing voice technologies. Common Voice is a public resource available to everyone and Mozilla teams and developers around the world are already using it on our own projects as well.
+faq-what-cv-and-deepspeech-q = What’s the difference between Common Voice and Deep Speech?
+faq-what-cv-and-deepspeech-a = The Common Voice dataset complements Mozilla’s open source voice recognition engine Deep Speech. The first version of Deep Speech was released in November 2017 and has continued to evolve ever since. Together with the Common Voice dataset, we believe this open source voice recognition technology should be available to everybody. It’s our hope these technologies will enable developers to build a wave of innovative products and services.
+faq-is-goal-assistant-q = Is the goal of Common Voice to build a voice assistant?
 faq-is-goal-assistant-a = *
 faq-do-want-native-q = *
 faq-do-want-native-a = *
