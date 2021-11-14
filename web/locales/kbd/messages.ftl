@@ -844,36 +844,122 @@ share-n-weekly-contribution-goal = Share your { $count } Clip Weekly Goal for { 
 share-goal-type-speak = Тхы
 share-goal-type-listen = Хэплъэ \ ДаIуэ \ У дэIу
 share-goal-type-both = Тхыи хэплъэж \ е дэIуэж
+# LINK will be replaced with the current URL
+goal-share-text = I just created a personal goal for voice donation to #CommonVoice -- join me and help teach machines how real people speak { $link }
+weekly-goal-created = Your weekly goal has been created
+daily-goal-created = Your daily goal has been created
+track-progress = Track progress here and on your stats page.
+return-to-edit-goal = Return here to edit your goal anytime.
+share-goal = Share my goal
 
 ## Profile Delete
 
+delete-q = Would you like to request your voice recordings be deleted too, or do you prefer to keep them in the Common Voice dataset?
 keep = Къэгъэнэн/Игъэт
 remove = Игъэк1ын/Игъэк1
+keep-info = Your anonymous voice recordings will remain in the Common Voice dataset. Once you delete your profile you will no longer be able to submit a request to remove your recordings from the dataset
+remove-info = We will review your request to remove your voice recordings from the dataset. If your request is approved, we will contact those who have downloaded the dataset and request they remove your voice recordings as well.
+why-delete-recordings =
+    Common Voice recordings are used by academics, small businesses, and voice recognition enthusiasts to help train and grow publicly available resources like voice models.
+    
+    Can you let us know why you would like your recordings deleted?
 profile-form-delete = Профилыр игъэкI
 
 ## Profile Download
 
+download-q = Need to download your data?
+download-info = Tell us what you'd like to download:
+download-profile-title = Profile
+download-profile-info = Includes email, username & demographic info, available right away
+download-profile-size = A few bytes
+download-recordings-title = Recordings
+download-recordings-info = Includes mp3s and related sentences, may take some time to prepare
+download-recordings-size = Typically megabytes
+download-recordings-unavailable = You cannot request your recordings while another request is already in progress.
+download-recently-requested = You can request a new takeout of your recordings every { $days } days.
+download-size = Size
+download-selected = Selected
+download-start = Download profile data
+download-request = Request recordings
+download-requests = Past recordings download requests
+download-requests-info = When you request your recordings, we compile them into one or multiple ZIP files. Here are your past requests:
+download-request-button = Download
+download-request-title = { $created }
+download-request-description = { $clipCount } voice clips, total archive size { $size }. Expires { $expires }.
+download-request-archive-single = Single ZIP file containing
+download-request-archive-multiple = Split into { $archiveCount } ZIP files containing
+download-request-assembling-description = Your files are being assembled. Please check again later.
+download-request-refresh-button = Refresh
+download-request-modal-title = Download Links
+download-request-modal-description = Here are the links to download your ZIP files.
+download-request-link-text = Zip #{ $offset } of { $total }
+download-request-metadata-link = Sentence text
+download-request-link-single = You can also copy and paste the direct URLs into your favorite download manager. They will expire in 12 hours, but you can come back to this page to generate new ones any time.
 
 ## Landing
 
 welcome-staff = Къеблагъэ, { $company } лэжьэгъухэ!
+help-contribute = You can help build a diverse, open-source dataset by creating a Common Voice profile and contributing your voice.
 login-company = Ихьэн/e-mail-ымкIэ зыхэтхэн
+profile-not-required = Having a profile is not required to contribute though it is helpful, see why below.
 read-more-about = Ди напэ-к1уэц1ым ттеухуау нэхъыбэ къафщ1э "Дэ"
 
 ## DemoLayout
 
+demo-get-started = Let's Get Started
+demo-welcome = Welcome to Common Voice
+demo-welcome-subheader = Welcome to Common Voice
 
 ## Demo Datasets
 
+demo-language-select-card-header = Welcome to Common Voice
+demo-language-select-card-body = Thanks to contributions from over 259k people in over 50 languages, this data is being used to train speech-enabled applications to better respond to the human voice.
+card-button-next = Next
+card-button-back = Back
+demo-language-select-label = Browse Languages
+demo-eofy-header = 2019 End-of-Year Release
+demo-eofy-sub_header = Voice Dataset, Ready for Download
+demo-account = Account
 
 ## Demo Account
 
+demo-account-card-header = Having an account is not required to contribute, though it is helpful.
+demo-account-card-body = To the right we outline the benefits and clarify what information we make public. Use the links below to get started with a Common Voice account on your own device.
+demo-account-enter-email =
+    .label = Enter email to send a sign up link
+demo-account-sign-up = Send sign up link
 
 ## Demo Contribute
 
+demo-contribute-card-header = Ready to add your voice or lend your ear?
+demo-contribute-card-body-v2 = Now that you know a little bit more about Common Voice, why not try it out? Click on the microphone icon to start reading sentences aloud. <br/><br/>If you prefer to review other people's voice contributions, click on the play icon. You’ll help confirm that recordings match the sentences written on screen.
+demo-listen-subtitle = Ready to contribute?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Personal dashboards keep you up-to-date with individual and community progress.
+demo-dashboard-card-body = For every voice clip donated, and every audio clip validated, your account dashboards are updated to reflect your latest progress in each language you contribute to. Yes, you can contribute to more than one!<br/><br/> Use dashboards to track your stats, see how you're doing alongside others in the community, and set daily or weekly contribution goals.
 
 ## Validation criteria
 
+contribution-criteria-nav = Criteria
+contribution-criteria-link = Understand contribution criteria
+contribution-criteria-page-title = Contribution Criteria
+contribution-criteria-page-description = Understand what to look for when listening to voice clips and help make your voice recordings richer too!
+contribution-for-example = for example
+contribution-misreadings-title = Misreadings
+contribution-misreadings-description = When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. <br />Very common mistakes include:
+contribution-misreadings-description-extended-list-1 = Missing <strong>'A'</strong> or <strong>'The'</strong> at the beginning of the recording.
+contribution-misreadings-description-extended-list-2 = Missing an <strong>'s'</strong> at the end of a word.
+contribution-misreadings-description-extended-list-3 = Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.
+contribution-misreadings-description-extended-list-4 = Missing the end of the last word by cutting off the recording too quickly.
+contribution-misreadings-description-extended-list-5 = Taking several attempts to read a word.
+contribution-misreadings-example-1-title = The giant dinosaurs of the Triassic.
+contribution-misreadings-example-2-title = The giant dinosaur of the Triassic.
+contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
+contribution-misreadings-example-3-title = The giant dinosaurs of the Triassi-.
+contribution-misreadings-example-3-explanation = [Recording cut off before the end of the last word]
+contribution-misreadings-example-4-title = The giant dinosaurs of the Triassic. Yes.
+contribution-misreadings-example-4-explanation = [More has been recorded than the required text]
+contribution-misreadings-example-5-title = We are going out to get coffee.
+contribution-misreadings-example-6-title = We’re going out to get coffee.
