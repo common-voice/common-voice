@@ -184,6 +184,21 @@ speak-subtitle = አብ ሶትካ አትቤራ
 hours-recorded = ላትሰጀለያ ሳዓት
 help-reach-goal = ሳኣደና ደብ { $goal } አገል ኔብጻሕ
 today = ይኦም
+x-weeks-short =
+    { $count ->
+        [one] ኣስቡዕ
+       *[other] አሳቢዕ
+    }
+x-months-short =
+    { $count ->
+        [one] ሻሃር
+       *[other] ሻሃር
+    }
+x-years-short =
+    { $count ->
+        [one] ሰነት
+       *[other] ሰነት
+    }
 
 ## Account Benefits
 
@@ -200,11 +215,15 @@ benefits = መንፍዓት
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle = [1-5]
+shortcut-discard-ongoing-recording = ESC
 shortcut-submit = አቅብል
+request-language-text = ሉቅትኩም ኣስኽ ኣዜ የህሌትኒ ዲብ Common Voice?
 request-language-button = ሉቀት ጥለብ
 
 ## ProjectStatus
 
+status-contribute = አብ ሶትኩም ሳህሞ
 english = እንግሊዚ
 
 ## ProfileForm
@@ -214,11 +233,13 @@ profile-form-native-language =
 profile-form-age =
     .label = ዑምር
 hidden = ሕቡዕ
+visible = ርኡይ
 native-language =
     .label = ሉቀት ኡም
 # Gender
 other = ብዕድ
 why-demographic = አግል ሚቱ አሊ ሙህም
+contribution-experience = ናይ ሙሳህምት ኽብረት
 
 ## Profile - Email
 
