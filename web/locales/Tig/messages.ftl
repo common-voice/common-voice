@@ -142,6 +142,7 @@ te = ተሉጉ
 tg = ታጂክ
 th = ታይላንዲ
 ti = ቴግርንያ
+Tig = ትግረ
 tl = ታንጋሎግ
 tr = ቱርኪ
 tt = ታታር
@@ -171,8 +172,11 @@ zh-TW = ሲኒ (ታይዋን)
 speak = ታሃገ
 speak-now = ኣዜ ታሃገ
 languages = ሉቃት
+about = መን ሕና
 help = ሙሳዓደት
+terms = ሽሩጥ
 cookies = ክዓክ
+faq = ዲማ ላልትሳኣሉ ኣስአለት
 share-title = ብዕዳም አብ ሶቶም ለልሳህሞ አግል ንርከብ ስዓደና
 logout = ፍገር
 
@@ -302,6 +306,8 @@ error-code = ኻጣአ
 ## Data
 
 data-download-yes = ኣየዋ
+data-download-deny = ልአ
+data-download-license = ሩኽሰት: <licenseLink>CC-0</licenseLink>
 data-other-goto = { $name } ጊስ
 terms-agree = አዋፍቅ
 terms-disagree = ይአዋፍቅ
@@ -309,6 +315,7 @@ terms-disagree = ይአዋፍቅ
 ## Datasets Page
 
 language = ሉቀት
+cv-license = ሩኽሰት
 recorded-hours = ላአትሰጀለያ ሳዓት
 
 ## Download Modal
