@@ -112,19 +112,19 @@ mrj = Хьыл Мэри \ Мэрий
 ms = Мэлэй
 mt = Малт \ Малтий
 my = Бырмэ
-myv = Ерзий / Арзан
+myv = Ерзий
 nan-tw = Тайуэн (Миннан)
-nb-NO = Нэур, Бэкумэл / Нор-быкумэл
-ne-NP = Ныпэл \ Нэпэл/Ныпэл
+nb-NO = Нор-быкумэл
+ne-NP = Ныпэл
 nia = Ныйас
 nl = Дэч \ Хьэлэнд
 nn-NO = Нэур, Нынэур \ Нор-нунор
 nyn = Ныйэнкуэл
 oc = Уэст \ Уэхъсыт \ Уэхьсыт
 or = Уэди \ Уэрий
-pa-IN = Пынджэ / Пэнджаб
+pa-IN = Пынджэ
 pap-AW = Пэпйэмэнтэ (Арубэ)
-pl = Лыхь, Пэул / Пол
+pl = Лыхь
 ps = Пэшту
 pt = Пэртыгу \ Пэртыгу
 quc = Киш
@@ -140,11 +140,11 @@ scn = Сычыл
 shi = Шылхьэ
 si = Сынхьэлэ \ Сынджал
 sk = Сылэв \ Слэвак \ Слав
-sl = Сылэу / Слэвен
+sl = Сылэу
 so = Сомэли
-sq = Албэн \ Албан/
+sq = Албэн
 sr = Сырб
-sv-SE = Сыуд / Шуэд/Швед/Суус \ Суэн
+sv-SE = Сыуээд
 sw = Сыуэхьыл \ Суэхьил
 syr = Сырэй \ Щам
 ta = Тэмыл \ Тамил
@@ -162,11 +162,11 @@ uby = Убых, ПIахъ
 udm = Удмырт
 ug = Уйгур
 uk = КIахэ, Укрэн \ Украин
-ur = Урд \ Урды/
-uz = Узбэк \ Узбэч/Узбэк
+ur = Урд
+uz = Узбэч
 vec = Уэнэт
 vi = Уэтнэм
-vot = Уэт / Уэд
+vot = Уэт
 yi = Идиш
 yo = Уэрубэ
 yue = Куэнтэн
@@ -179,17 +179,17 @@ zh-TW = Чынт (Тэйуэн)
 
 ## Layout
 
-speak = Псалъэ \ КъаIуэ / Макъ Егъэтх
+speak = Псалъэ
 speak-now = Иджы псалъэ \ Егъэтхын
-datasets = Датэщэт / Датэсет
+datasets = Датэсет
 languages = Бзэ
 about = ЩIыс \ Теухуау
 profile = Напэ
 help = Пыкъу \ Ӏэпыкъу
 contact = Кэнтакт \ ЦIыхугъэхэр
 privacy = Щэху
-terms = ЩытыкIэ \ Хабзэ ??/ЛэжьэкӀэ/
-cookies = Кукий / Хьэлыгъу
+terms = ЛэжьэкӀэ
+cookies = Куки
 faq = УпщIэ
 content-license-text = Лэжьыгъэр <licenseLink>лиценз Creative Commons</licenseLink> итщ
 share-title =
@@ -199,8 +199,8 @@ share-text =
     ФыкъыддэIэпыкъу, мэшынэм цIыху псэлъэкIэ йаджыну, { $link }-м фи макъ хэвгъахъуэ.
     Фыкъыддэ1эпыкъу гъущ1ыпэм ц1ыхухэр къыгуры1уу хъуну, фи макъыр тыгъэншэу ефтыну { $link }.
 link-copied = Линк копи \ Линкыр копи хъуащ
-back-top = Щхьэм \ ДэкIуей /И щхьэм
-logout = ИкI \ КъикIын/ИкӀ
+back-top = Щхьэм
+logout = ИкI
 
 ## Home Page
 
@@ -238,7 +238,7 @@ todays-progress = Нобэ щытыкӀэр
 help-reach-goal = КъытдэӀэпыкъу { $goal }'м нэдгъэсыну
 read-terms-q = Уеджа ди 1эмэпсымэхэр къызэрагъэсэбэп Хабзэм?
 ready-to-record = Ухьэзыр уи макъыр тыгъэу ептыну?
-all-locales = Псори/Псоу
+all-locales = Псо
 today = Нобэ
 x-weeks-short =
     { $count ->
@@ -289,7 +289,7 @@ shortcut-skip = с
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = п
-shortcut-play-toggle-label = Къегъэуэн/къэгъэувы1эн, Гъэ1у/Щыгъэт,
+shortcut-play-toggle-label = Гъэ1у/Ув
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = й
@@ -302,7 +302,7 @@ shortcut-vote-no = н
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = р
-shortcut-record-toggle-label = Тхын/къэгъэувы1эн, Тхы/Щыгъэт
+shortcut-record-toggle-label = Тхы/ув
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Пычыгъуэр щӀэу тхыж
 shortcut-discard-ongoing-recording = ESC
@@ -327,26 +327,26 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Next Goals: { $goal }
-english = Инджылызыбзэ/Анджыл
+english = Анджыл
 
 ## ProfileForm
 
 profile-form-username =
-    .label = Анэдэлъхубзэ/Анэбзэ
+    .label = ЦIэ
 profile-form-native-language =
     .label = Анэдэлъхубзэ
 profile-form-additional-language =
     .label = Additional Language
 profile-form-accent =
-    .label = Акцент/
+    .label = Асэлъафэ
 profile-form-age =
     .label = Ныбжь
 profile-form-gender-2 =
-    .label = цӀыхухъу-цӀыхубз/
+    .label = хъу-бзы
 leaderboard-visibility =
     .label = Ищхьэм сыщыгъэлагъуэ
-hidden = Гъэпщк1уау / Былъа
-visible = Нэрылъагъуу / Хэщ
+hidden = Гъэпщк1уа
+visible = Нахуэ
 native-language =
     .label = Анэдэлъхубзэ \ Анэбзэ
 profile-form-submit-save = Хъумэ
@@ -531,8 +531,8 @@ error-code = Error { $code }
 ## Data
 
 data-download-button = Download Common Voice Data
-data-download-yes = НытӀэ/Нт1э \ Ары
-data-download-deny = Хьэуэ/Хьэу
+data-download-yes = Ары
+data-download-deny = Хьэу
 data-download-license = License: <licenseLink>CC-0</licenseLink>
 data-download-modal = You are about to initiate a download of <size>{ $size }GB</size>, proceed?
 data-subtitle = We are building an open and publicly available dataset of voices that everyone can use to train speech-enabled applications.
@@ -672,8 +672,8 @@ skip = БлэгъэкI \ Блэк1
 shortcuts = Теуэ зэгуэт
 clips-with-count-pluralized =
     { $count ->
-        [one] пычыгъуэ
-       *[other] пычыгъуэу
+        [one] пычы
+       *[other] пычыу
     }
 goal-help-recording = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } recording goal!
 goal-help-validation = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } validation goal!
