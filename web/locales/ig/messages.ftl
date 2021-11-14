@@ -75,19 +75,38 @@ hu = Ásụ̀sụ́ Họ̀n̄géríànụ̀ụ̀
 hy-AM = Ásụ̀sụ́ Àméníànụ̀
 hyw = Ásụ̀sụ́ Àméníà Ǹdị̀dà ányánwụ́
 ia = Ásụ̀sụ́ Àgbàtà ásụ̀sụ̀ ábụ̀ọ́
-id = Ị́ndònéshíànụ̀
-kw = Kọ́níìshì
+id = Ásụ̀sụ́ Ị́ndònéshíànụ̀
+ie = Ásụ̀sụ́ á gwàrà ọ́gwá
+ig = Ásụ̀sụ́ Ìgbò
+is = Ásụ̀sụ́ Àị́sị́lándíìkì
+it = Ásụ̀sụ́ Ị̀tálị́ànụ̀
+izh = Ásụ̀sụ́ Ízóríànụ̀
+ja = Ásụ̀sụ́ Jàpáníìsì
+ka = Ásụ̀sụ́ Jọ́jị́ànụ̀
+kaa = Ásụ̀sụ́ Kàràkápáàkị̀
+kab = Ásụ̀sụ́ Kábáị̀lụ̀
+kbd = Ásụ̀sụ́ Kàbádíànụ̀
+ki = Ásụ̀sụ́ Kị̀kúyù
+kk = Ásụ̀sụ́ Kàzéèkị̀
+kmr = Ásụ̀sụ́ Kụ̀màńjíí Kọ́díìshì
+ko = Ásụ̀sụ́ Kòríànụ̀
+kpv = Ásụ̀sụ́ Kòmí-Záríànụ̀
+kw = Ásụ̀sụ́ Kọ́níìshì
 ky = Kọ̀géèsị̀
 lg = Lùgáńdà
 lij = Lị̀gụ́rị̀ànụ̀
 lt = Lị̀tụ̀wéníànụ̀
 lv = Látị́vị́ànụ̀
+quc = Ásụ̀sụ́ Kị́yéèchị̀
+rm-sursilv = Ásụ̀sụ́ RòmánshỊ́  Sọ̀sị́lị́váànụ̀
 
 # [/]
 
 
 ## Layout
 
+cookies = Kúkì (cookies)
+faq = Ájụ̀jụ́ ńdị́ á nà-àjụ́kárị́
 
 ## Home Page
 
