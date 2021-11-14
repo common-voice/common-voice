@@ -344,3 +344,4 @@ demo-listen-subtitle = አግል ትሳህሞ ጃህዛም አንቱም?
 
 contribution-misreadings-example-5-title = ቡን ግል ንስተ ፍግር ሀሌና
 contribution-misreadings-example-6-title = ቡን ግል ንስተ ፍግር ሀሌና
+contribution-misreadings-example-7-title = ቡን ግል ንስተ ፍግር ሀሌና
