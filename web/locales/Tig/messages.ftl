@@ -282,17 +282,26 @@ about-speak = ታሃገው
 about-listen-queue = ናይ ሰምዓት ጣቡር
 about-listen = ሰምዖ
 about-yes-votes = ዝያድ ከልኦት ናይ አይዋ ተስዊት
+about-no-votes = ዝያድ ከልኦት ናይ ላአ ተስዊት
+about-partners = ሹረካአና
+about-become-a-partner = ሸሪክና ግባአ
+about-get-involved = ምስልና ሳህም
 about-nav-why-common-voice = አገልሚ
 about-nav-how-it-works = ከፎ
+about-nav-partners = ሹረካ
+about-nav-get-involved = ምስልና ሳህም
 
 ## Glossary
 
 
 ## Error pages
 
+error-title-404 = ላ ስፍሓት ንርከባካ ኢቀደርናኒ
+error-code = ኻጣአ
 
 ## Data
 
+data-download-yes = ኣየዋ
 data-other-goto = { $name } ጊስ
 terms-agree = አዋፍቅ
 terms-disagree = ይአዋፍቅ
