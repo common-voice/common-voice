@@ -234,15 +234,36 @@ join-newsletter = Ọ́ másị́ gị́, Ì débànyé áhà gị̀ ná-ákwụ́
 
 email-not-public = Ànyị́ ágághị̀ èmé kà ọ̀hànézè hụ̀ ózí ímèélụ̀ (email) gị̀.
 username-optin-public = Í nwèrè íké ímé kà á hụ́ áhá ǹjìrìmárá gị́ mà ọ̀bụ̀kwànụ̀ Ì zóchíé yá.
+username-email-not-demographic = À gághị́ étínyékọ́ áhá ǹjìrìmárá gị́ mà ọ̀ bụ̀ íméèlụ̀  (email) gị́ n'íhé á gà-ébípụ̀tá.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Kpọ̀ọ́/Kwụ̀sị́
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Dèkọ́ọ́/Kwụ̀sị́
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Kwùnyéghárị́á
+shortcut-discard-ongoing-recording = ESC
+shortcut-submit = Lághàchí
 
 ## ProjectStatus
 
