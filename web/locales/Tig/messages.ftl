@@ -235,6 +235,8 @@ english = እንግሊዚ
 
 profile-form-native-language =
     .label = ሉቀት ኡም
+profile-form-accent =
+    .label = ለክነት
 profile-form-age =
     .label = ዑምር
 hidden = ሕቡዕ
@@ -243,6 +245,7 @@ native-language =
     .label = ሉቀት ኡም
 # Gender
 other = ብዕድ
+goals = ኣህዳፍ
 why-demographic = አግል ሚቱ አሊ ሙህም
 contribution-experience = ናይ ሙሳህምት ኽብረት
 
