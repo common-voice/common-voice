@@ -270,12 +270,19 @@ contact-form-name =
 
 request-language-form-language =
     .label = ሉቀት
+select-language = ሉቀት ሕረ
+other-language = ብዕድ ሉቀት
 
 ## Languages Overview
 
 
 ## Contribution
 
+listen = ሰምዖ
+record-cta = ተስጂል ኣንብቶ
+record-error-too-short = ላተስጂል ሓጭራ
+record-error-too-long = ላተስጂል ረይማ
+record-last-instruction = <recordIcon></recordIcon>ኣኽራይት!
 
 ## Reporting
 
