@@ -179,9 +179,13 @@ cookies = Kúkì (cookies)
 faq = Ájụ̀jụ́ ńdị́ á nà-àjụ́kárị́
 share-title = Nyèré ányị́ áká chọ̀tá ńdị́ ọ́zọ́ gá-átụ́nyé ólú há!
 link-copied = Á pị́pụ̀tágó/é dépụ̀tágó ọ́wà ńjìkọ́
+logout = Pụ̀ọ́
 
 ## Home Page
 
+home-title = Common Voice bụ̀ ńchépụ̀tá Mọ̀zị́là íjí nyé áká kụ́zííéré ígwé nwere uche ètù ńdị́ bụ́ ḿmádụ̀ n'ézíé sì èkwú ókwú.
+home-cta = Kwùó ókwú, túnyé òkè gị́ ébé à.
+wall-of-text-more-mobile = Ìmèríìmè ńgwá nchọ́chá (data) ńdị́ ńnúkwú ụ́lọ̀ ḿmépụ̀tà ánághị̀ àdị́rị́ ọ̀tụ́tụ́ ńdị́ ḿmádụ̀ m̀fé ínwétá. Nké à mèrè ànyị́ jì wépụ́tá ámụ̀mà Common Voice à bụ́ nké gá-ényé áká kà ǹghọ́tá ólú dị́rị́ ḿmádụ̀ níílé m̀fé.
 show-wall-of-text = Gụ̀kwùó
 help-us-title = Nyèré ányị́ áká mèé kà ọ̀tụ́tụ́ áhị́rị́ókwú kwụ́dósíé íké.
 vote-yes = Éé
