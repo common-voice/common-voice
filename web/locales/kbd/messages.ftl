@@ -24,7 +24,7 @@ not-available-abbreviation = Хэмыт
 ab = Азгъэ
 ace = Ачынэ
 ady = Адыгэ
-af = Афрык1
+af = Афрык
 am = Амхьэр
 an = Арэгуэн
 ar = Хьэрып
@@ -48,9 +48,9 @@ co = КуэрсыкI
 cs = Чэх
 cv = Чыуэш
 cy = Уэлыш
-da = Дэн \ Дан
+da = Дэн
 de = Алмэн
-dsb = Сэрбий, ЩIагъ \ Лужий-щхъэрэ
+dsb = Сэрбий
 dv = Тхьыуэхь
 el = Алыдж
 en = Анджыл
@@ -92,8 +92,8 @@ ki = Кикуйу
 kk = Къэзахъ
 kmr = Курмэндж Курд
 ko = Кэрей
-kpv = Куэми-Зыр \ Куэми-зыран
-kw = Куэр \ Куэрын
+kpv = Куэми-Зыр
+kw = Куэр
 ky = Къыргъыз
 lg = Лыгуэ
 lij = Лыгур \ Лигур
@@ -710,7 +710,7 @@ record-abort-submit = Егъэхь пычыгъуэр
 record-abort-continue = Тхын ух
 record-abort-delete = КъикIи тхыгъэхэр их.
 listen-instruction = { $actionType }<playIcon></playIcon> did they accurately speak the sentence?
-listen-again-instruction = Лэжьыгъэ лъэщ! <playIcon></playIcon> Зэ едэ1уэж, фы хьэзырым.
+listen-again-instruction = Лэжьыгъэ лъэщ! <playIcon></playIcon> Зэ едэ1уэж, Фы хьэзырым.
 listen-3rd-time-instruction = 2 down, keep it up!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Last one!
 listen-empty-state = We've run out of clips to validate in this language...
@@ -728,12 +728,12 @@ target-segment-learn-more = Learn More
 
 ## Reporting
 
-report = Мыхъу-мыщ1эр гъэунэху/Тхьэусыхэ
-report-title = Тхыгъэ-мыхъум хэгъаплъэ / Тхьэусыхэ егъэхь.
+report = Iуатэ
+report-title = Iуатэ егъэхь
 report-ask = What issues are you experiencing with this sentence?
 report-offensive-language = Хъуэн псалэ
 report-offensive-language-detail = The sentence has disrespectful or offensive language.
-report-grammar-or-spelling = Грамэр/ орфограф щыуагъэ
+report-grammar-or-spelling = Грамэр / орфограф щыуагъэ
 report-grammar-or-spelling-detail = The sentence has a grammatical or spelling error.
 report-different-language = Нэгъэщ бзэ
 report-different-language-detail = It is written in a language different than what I’m speaking.
@@ -745,7 +745,7 @@ report-other-comment =
     .placeholder = Тетхэ \ ЩIэтхэ
 success = Success
 continue = АдэкӀэ
-report-success = Хьэзыр/хъащ/ухащ
+report-success = Хьэзыр хъащ
 
 ## Goals
 
@@ -769,7 +769,7 @@ validations =
 ## Dashboard
 
 your-languages = Фи бзэ
-toward-next-goal = Пэщыт псыгъэ/Iуэху
+toward-next-goal = Пэщыт Iуэху
 goal-reached = Goal reached
 clips-you-recorded = Евгъэтхащ
 clips-you-validated = Фыхэплъащ
@@ -777,11 +777,11 @@ todays-recorded-progress = Common Voice-м нобэ тхыгъэу ит
 todays-validated-progress = Common Voice-м нобэ тхыгъэу хэплъэжа
 stats = ЩытыкӀэ
 awards = Къэхь
-you = Уэ/Фэ
+you = Фэ
 everyone = Елэжь псори
 contribution-activity = Iэпыкъу и тхыгъэ
 top-contributors = Iэпыкъу щхьэпэ
-recorded-clips = Макъыу тха / гъэӀуа
+recorded-clips = Макъыу тха
 validated-clips = Хэплъау щыт
 total-approved = Зыхэплъэжа псор
 overall-accuracy = Зыу гъэпса
@@ -792,7 +792,7 @@ show-ranking = Си рейтингыр гъэлъагъуэ
 
 ## Custom Goals
 
-get-started-goals = Гъэпс/ теухуэ
+get-started-goals = Гъэпс
 create-custom-goal = Си гъэпс щIэдзэ
 goal-type = What kind of goal do you want to build?
 both-speak-and-listen = ТIури
@@ -870,7 +870,7 @@ share-goal = Share my goal
 
 delete-q = Would you like to request your voice recordings be deleted too, or do you prefer to keep them in the Common Voice dataset?
 keep = Къэгъэнэн/Игъэт
-remove = Игъэк1ын/Игъэк1
+remove = Игъэк1
 keep-info = Your anonymous voice recordings will remain in the Common Voice dataset. Once you delete your profile you will no longer be able to submit a request to remove your recordings from the dataset
 remove-info = We will review your request to remove your voice recordings from the dataset. If your request is approved, we will contact those who have downloaded the dataset and request they remove your voice recordings as well.
 why-delete-recordings =
@@ -914,7 +914,7 @@ download-request-link-single = You can also copy and paste the direct URLs into 
 
 welcome-staff = Къеблагъэ, { $company } лэжьэгъухэ!
 help-contribute = You can help build a diverse, open-source dataset by creating a Common Voice profile and contributing your voice.
-login-company = Ихьэн/e-mail-ымкIэ зыхэтхэн
+login-company = Ихьэн/e-mail-ымкIэ зыхэтхэ
 profile-not-required = Having a profile is not required to contribute though it is helpful, see why below.
 read-more-about = Ди напэ-к1уэц1ым ттеухуау нэхъыбэ къафщ1э "Дэ"
 
