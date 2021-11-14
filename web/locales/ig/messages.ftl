@@ -97,19 +97,74 @@ lg = Lùgáńdà
 lij = Lị̀gụ́rị̀ànụ̀
 lt = Lị̀tụ̀wéníànụ̀
 lv = Látị́vị́ànụ̀
+mai = Ásụ̀sụ́ Màị̀tílì
 quc = Ásụ̀sụ́ Kị́yéèchị̀
 rm-sursilv = Ásụ̀sụ́ RòmánshỊ́  Sọ̀sị́lị́váànụ̀
+rm-vallader = Ásụ̀sụ́ RòmánshỊ́ Vàváládà
+ro = Ásụ̀sụ́ Ròmánị́àn
+ru = Ásụ̀sụ́ Rọ́shị́ànụ̀
+rw = Ásụ̀sụ́ Kị̀nyàrwándà
+sah = Ásụ̀sụ́ Sákà
+sat = Ásụ̀sụ́ Sàntálị̀ (Ọ̀lụ̀ Chị́kị̀)
+sc = Ásụ̀sụ́ Sàdị́nị́ànū
+scn = Ásụ̀sụ́ Sị̀sị́lị́ànụ̀
+shi = Ásụ̀sụ́ Shị́là
+si = Ásụ̀sụ́ Sị̀nhálà
+sk = Ásụ̀sụ́ Sụ̀lóváàkị̀
+sl = Ásụ̀sụ́ Sụ̀lóvénị́ànụ̀
+so = Ásụ̀sụ́ Sọ̀málị́à
+sq = Ásụ̀sụ́ Àlụ̀bénị́ànụ̀
+sr = Ásụ̀sụ́ Sábị́ànụ̀
+sv-SE = Ásụ̀sụ́ Sụ̀wídíìshì
+sw = Ásụ̀sụ́ Sụ̀wàhílì
+syr = Ásụ̀sụ́ Sị́rị́àkị̀
+ta = Ásụ̀sụ́ Tàmị́ị̀lụ̀
+te = Ásụ̀sụ́ Télúùgù
+tg = Ásụ̀sụ́ Tájíìkì
+th = Ásụ̀sụ́ Táàyị̀
+ti = Ásụ̀sụ́ Tìgíríníyà
+Tig = Ásụ̀sụ́ Tígírì
+tl = Ásụ̀sụ́ Tágálọ́ọ̀gụ̀
+tr = Ásụ̀sụ́ Tọ́kíìhì
+tt = Ásụ̀sụ́ Tàtáà
+tw = Ásụ̀sụ́ Chúwì
+ty = Ásụ̀sụ́ Tàhíshị́ànụ̀
+uby = Ásụ̀sụ́ Úbíìkì
+udm = Ásụ̀sụ́ Údúmọ́ọ̀tụ̀
+ug = Ásụ̀sụ́ Wígọ̀
+uk = Ásụ̀sụ́ Yùkùréníànụ̀
+ur = Ásụ̀sụ́ Údú
+uz = Ásụ̀sụ́ Úzúbéèkị̀
+vec = Ásụ̀sụ́ Vènị́shị́ànụ̀
+vi = Ásụ̀sụ́ Vị̀yétị̀nàmị́ìsì
+vot = Ásụ̀sụ́ Vótíìkì
+yi = Ásụ̀sụ́ Yị́dị́ìshì
+yo = Ásụ̀sụ́ Yòròbá
+yue = Ásụ̀sụ́ Kàntóníìsì
+zh-CN = Ásụ̀sụ́ Chàị̀níìsì (Cháị́nà)
+zh-HK = Ásụ̀sụ́ Chàị̀níìsì (Họ̀n̄kọ́n̄gụ̀)
+zh-TW = Ásụ̀sụ́ Chàị̀níìsì (Tàị̀wáànụ̀)
 
 # [/]
 
 
 ## Layout
 
+languages = Ásụ̀sụ́
+about = Màkà/gbàsárá
+profile = Íhé gbàsárá ḿmádụ̀
+help = Ènyèmáká
 cookies = Kúkì (cookies)
 faq = Ájụ̀jụ́ ńdị́ á nà-àjụ́kárị́
+share-title = Nyèré ányị́ áká chọ̀tá ńdị́ ọ́zọ́ gá-átụ́nyé ólú há!
+link-copied = Á pị́pụ̀tágó/é dépụ̀tágó ọ́wà ńjìkọ́
 
 ## Home Page
 
+show-wall-of-text = Gụ̀kwùó
+vote-yes = Éé
+vote-no = Ḿbà
+speak-subtitle = Tùnyé òkè ólú gị́
 
 ## Account Benefits
 
