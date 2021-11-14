@@ -4,6 +4,7 @@ contribute = Tùnyé òkè
 get-involved-button = Sònyé
 get-involved-title = Tùnyé òkè nà { $lang }
 get-involved-text = Dààlụ́ màkà ḿḿásị́ gị́ ń'ínyéré áká nà { $lang }. Ànyị̀ nà-àgbàsí m̀bọọ́ íké ímē kà ásụ̀sụ́ ọ́bụ́là dị́ ńkwádébé maka ḿwépụ̀tà mà na-ézìgákwárá òtù ńdị́ ńkwàdó ózí síté n'ùsòrò ḿgbásà ōzī ímèèlụ̀ (email). Ọ́bụ́rụ́ nà Ị̀ chọ̀rọ̀ ị́tụ́nyé òkè gị́, bíkó dépụ̀tà ákàrà ímèèlụ̀ gị́ n'ókpúrù ébé à.
+get-involved-form-title = Débànyé áhà gị́ màkà ínwētā ózí gbàsárá { $lang }:
 get-involved-email =
     .label = ímèèlụ̀ (Email)
 get-involved-opt-in = Éé, zìtéré m ózí n'ímèèlụ̀. Ọ́ gà-àmàsị̀ m kà m nà-ènwétá ōzī gbàsárá àgàníhú ásụ̀sụ̀ à na òtù Common Voice.
