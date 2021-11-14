@@ -283,18 +283,28 @@ record-cta = ተስጂል ኣንብቶ
 record-error-too-short = ላተስጂል ሓጭራ
 record-error-too-long = ላተስጂል ረይማ
 record-last-instruction = <recordIcon></recordIcon>ኣኽራይት!
+record-abort-title = ሰልፍ ተስጂል ታኣኽልሶ?
+record-abort-continue = ተስጂል ኣኽልሶ
+listen-last-time-instruction = <playIcon></playIcon>ኣኽራይት!
+record-button-label = ሶትኩም ሰጀሎ
+target-segment-add-voice = ሶትኩም ወሰኮ
+target-segment-learn-more = ዘያደት አምሮ
 
 ## Reporting
 
+success = ነጃሕ
 
 ## Goals
 
 
 ## Dashboard
 
+your-languages = ሉቃትኩም
+you = አንቱም
 
 ## Custom Goals
 
+easy-difficulty = ሳሃል
 
 ## Profile Delete
 
