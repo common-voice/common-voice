@@ -183,9 +183,11 @@ vote-no = ላአ
 speak-subtitle = አብ ሶትካ አትቤራ
 hours-recorded = ላትሰጀለያ ሳዓት
 help-reach-goal = ሳኣደና ደብ { $goal } አገል ኔብጻሕ
+today = ይኦም
 
 ## Account Benefits
 
+benefits = መንፍዓት
 
 ## What's public
 
@@ -198,6 +200,8 @@ help-reach-goal = ሳኣደና ደብ { $goal } አገል ኔብጻሕ
 
 ## Speak Shortcuts
 
+shortcut-submit = አቅብል
+request-language-button = ሉቀት ጥለብ
 
 ## ProjectStatus
 
@@ -205,8 +209,11 @@ english = እንግሊዚ
 
 ## ProfileForm
 
+profile-form-native-language =
+    .label = ሉቀት ኡም
 profile-form-age =
     .label = ዑምር
+hidden = ሕቡዕ
 
 ## Profile - Email
 
