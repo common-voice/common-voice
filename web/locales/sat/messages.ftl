@@ -630,6 +630,7 @@ recordings =
 ## Dashboard
 
 your-languages = ᱟᱢᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱠᱚ
+stats = ᱟᱸᱝᱠᱲᱟ
 awards = ᱥᱤᱨᱯᱷᱟᱹ ᱠᱚ
 you = ᱟᱢ
 everyone = ᱡᱷᱚᱛᱚᱠᱚ
@@ -644,6 +645,7 @@ easy-difficulty = ᱟᱞᱜᱟ
 average-difficulty = ᱮᱣᱨᱮᱡᱽ
 difficult-difficulty = ᱟᱸᱱᱴ
 pro-difficulty = ᱯᱨᱚ
+receiving-emails-info = ᱟᱢ ᱫᱚ ᱱᱤᱛᱚᱜ ᱜᱚᱞ ᱨᱤᱢᱟᱭᱮᱱᱰᱚᱨ ᱥᱮᱴ ᱵᱚᱵᱚᱛ ᱤᱢᱮᱞ ᱤᱧ ᱧᱟᱢ ᱥᱮᱱᱟᱹᱧ ᱠᱟᱱᱟ, Common Voice ᱵᱟᱵᱚᱛ ᱦᱟᱹᱞᱤᱭᱟᱠ ᱟᱨ ᱠᱷᱚᱵᱚᱨᱪᱤᱴᱷᱤ ᱨᱮᱭᱟᱜ ᱞᱟᱦᱟ ᱛᱮᱫ ᱾
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } ᱠᱞᱤᱯ
@@ -661,6 +663,7 @@ profile-form-delete = ᱢᱚᱦᱲᱟ ᱢᱮᱴᱟᱣ ᱢᱮ
 ## Profile Download
 
 download-profile-title = ᱢᱚᱦᱲᱟ
+download-recordings-title = ᱨᱮᱠᱚᱰᱤᱝ ᱠᱚ
 download-size = ᱢᱟᱯ
 download-selected = ᱵᱟᱪᱷᱟᱣᱮᱱᱟ
 download-start = ᱢᱚᱦᱚᱨ ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱚᱰ ᱢᱮ
