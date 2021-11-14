@@ -247,7 +247,9 @@ native-language =
     .label = ሉቀት ኡም
 # Gender
 other = ብዕድ
+avatar = ሱረት
 goals = ኣህዳፍ
+profile-close = ደብአ
 why-demographic = አግል ሚቱ አሊ ሙህም
 contribution-experience = ናይ ሙሳህምት ኽብረት
 
@@ -277,7 +279,9 @@ faq-search-for-answers =
 about-title = አግል ሚ ቱ Common Voice
 how-does-it-work-title = ኣፎ ትሽቄ?
 about-speak = ታሃገው
+about-listen-queue = ናይ ሰምዓት ጣቡር
 about-listen = ሰምዖ
+about-yes-votes = ዝያድ ከልኦት ናይ አይዋ ተስዊት
 about-nav-why-common-voice = አገልሚ
 about-nav-how-it-works = ከፎ
 
