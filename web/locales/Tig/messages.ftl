@@ -273,6 +273,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = አግል ሚ ቱ Common Voice
+how-does-it-work-title = ኣፎ ትሽቄ?
 about-speak = ታሃገው
 about-listen = ሰምዖ
 about-nav-why-common-voice = አገልሚ
