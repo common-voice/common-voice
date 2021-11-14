@@ -324,6 +324,8 @@ download-recordings-title = ተስጂል
 ## DemoLayout
 
 demo-get-started = የላ ናኣንብት
+demo-welcome = ዳሓን መጻአኹም ዲብ Common Voice
+demo-welcome-subheader = ዓን ኢሊ መሽሩዕ አግል ታአምሮ ው ትሳህሞ ታሓዙ?
 
 ## Demo Datasets
 
@@ -333,9 +335,12 @@ demo-get-started = የላ ናኣንብት
 
 ## Demo Contribute
 
+demo-listen-subtitle = አግል ትሳህሞ ጃህዛም አንቱም?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-misreadings-example-5-title = ቡን ግል ንስተ ፍግር ሀሌና
+contribution-misreadings-example-6-title = ቡን ግል ንስተ ፍግር ሀሌና
