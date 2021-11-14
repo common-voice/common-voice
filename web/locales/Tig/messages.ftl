@@ -172,6 +172,7 @@ speak = ታሃገ
 speak-now = ኣዜ ታሃገ
 languages = ሉቃት
 help = ሙሳዓደት
+cookies = ክዓክ
 logout = ፍገር
 
 ## Home Page
@@ -256,6 +257,7 @@ faq-what-cv-and-deepspeech-q = ፈርቅ ፈንገ Common Voice ው Deep Speech 
 faq-why-different-speakers-q = ግልሚቱ ግል ኩል ሉቀት ብዝሓም ላለትሓግው ታሓዙ?
 faq-why-my-lang-q = ሉቀት ናየ አገልሚ ይሀሌትኒ
 faq-how-calc-hours-q = Common Voice ላስዓት ኣፎ ላሕስቦ?
+faq-why-not-ask-read-q = አግሚቱ ኣዳም ምን ክቱብ ኣው ምን ውክጴድያ አብ ካልአ ሉቀት ግል ለቅሮ ኢትሳኣልዎም?
 faq-what-is-cv = Common Voice ሚ ቱ
 
 ## ABOUT US
