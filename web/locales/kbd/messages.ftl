@@ -7,13 +7,13 @@ return-to-cv = Common Voice-м гъэзэжын/гъазэж/гъазэ
 email-input =
     .label = Имейл
 submit-form-action = Гъэхь/Егъэхьын/егъэхь/утӀыпщ
-loading = Йохъуэ…/Иргъэхь…/йохъуэ/из мэхъу/
+loading = Йохъуэ…
 email-opt-in-info = Сыхуэйт имейл къэкIуэну, Iуэху гугъэкIхэм, си щытыкIэ щIэм, Common Voice-м и хъыбархэм теухуау. / Сэ сыхуейщ мыпхуэдэ тхыгъэхэр къыс1эрыхьэну, си гу къэгъэк1ыжыпхъэу си нэщэнэм щхьа, гу къэгъэк1ыжыу хэхъуэхэми хьыбарыщ1эхэми Common Voice  теухуауэ.
 email-opt-in-info-title = Common Voice имейл листым гухьэ / Common Voice зэбгырыгъэк1ыным хыхьэн
 email-opt-in-info-sub-with-challenge = Имейл къегъэх, гугъухь, Iуэху гугъэкIхэм, си щытыкIэ щIэм, Common Voice-м и хъыбархэм теухуау. \ Common Voice и хъыбарыщ1эхэм щыгъуазэн, тхыгъэхэр къы1эрыхьэн, щапхъэу, нэщэнэ гукъэгъэк1ыжыу.
 email-opt-in-privacy-v2 = Тхыгъэхэр къыф1эрыхьэну арэзыныгъэ тевдзамэ, Mozilla фи т1асхъэм ягъэпсэуалъэну ди <privacyLink>т1асхъэхъумэ политикэ </privacyLink> Mozilla хуэфащэу.
 indicates-required = * Хуе губгъуэр гъэунэху
-not-available-abbreviation = Нэд \ Хэмыт
+not-available-abbreviation = Хэмыт
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -21,7 +21,7 @@ not-available-abbreviation = Нэд \ Хэмыт
 
 ## Languages
 
-ab = Азгъэ, Апсуэ \ Абхъазыбзэ/Азгъэ
+ab = Азгъэ
 ace = Ачынэ \ Ачэх
 ady = Адыгэ \ Адыгэбзэ/Адыгэ
 af = Африк \ Афрык1
