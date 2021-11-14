@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = Éé, zìtéré m ózí n'ímèèlụ̀ (email). Ọ́ gà-àmàsị̀ m kà m nà-ènwétá ōzī gbàsárá àgàníhú ásụ̀sụ̀ à na òtù Common Voice.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
