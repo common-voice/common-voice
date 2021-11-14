@@ -214,15 +214,23 @@ profile-form-native-language =
 profile-form-age =
     .label = ዑምር
 hidden = ሕቡዕ
+native-language =
+    .label = ሉቀት ኡም
+# Gender
+other = ብዕድ
+why-demographic = አግል ሚቱ አሊ ሙህም
 
 ## Profile - Email
 
 
 ## Profile - Email
 
+add-language = ሉቀት ወስክ
 
 ## FAQ
 
+faq-what-cv-q = Common Voice ሚቱ
+faq-why-important-q = አግል ሚቱ አሊ ሙህም
 
 ## ABOUT US
 
