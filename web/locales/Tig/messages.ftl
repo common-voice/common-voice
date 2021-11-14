@@ -173,6 +173,7 @@ speak-now = ኣዜ ታሃገ
 languages = ሉቃት
 help = ሙሳዓደት
 cookies = ክዓክ
+share-title = ብዕዳም አብ ሶቶም ለልሳህሞ አግል ንርከብ ስዓደና
 logout = ፍገር
 
 ## Home Page
@@ -183,7 +184,10 @@ vote-yes = ኣይዋ
 vote-no = ላአ
 speak-subtitle = አብ ሶትካ አትቤራ
 hours-recorded = ላትሰጀለያ ሳዓት
+todays-progress = ናይ ዮም ትቅዱም
 help-reach-goal = ሳኣደና ደብ { $goal } አገል ኔብጻሕ
+ready-to-record = አብ ሶትኩም ግል ትሳህሞ ዱሉያም ህሌኹም?
+all-locales = ኩሉ
 today = ይኦም
 x-weeks-short =
     { $count ->
