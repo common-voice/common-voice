@@ -225,9 +225,15 @@ email-subscription-title-new = Débànyé áhà gị́ kà Ị́ wèé ná-ènwét
 ## Account Benefits
 
 benefits = Úrù
+keep-track = Détùó mà dèbékwá kà Í sì àgá n'íhú nàkwà ńtụ́rụ́ùgò gị́ n'ásụ̀sụ́ dị́ íchèíchè.
+compare-progress = Hụ́ kà àgàmníhú gị́ sì átụ̀nyéré ńkè ńdị́ ọ́zọ́ n'ụ̀wà niile.
+view-goals = Lèléé àgàmníhú gị́ dị́kà ó sì métútá èbùmnúché ǹké ónwé nà ǹkè ọ́rụ́ é jì n'áká.
+join-newsletter = Ọ́ másị́ gị́, Ì débànyé áhà gị̀ ná-ákwụ́kwọ́ ózí íméèlụ̀ (email) ányị́ kà Í wèé nà-ènwétá ózí gbàsárá kà íhé sì àgá nàkwàzị̀ ózí ọ́fụ́rụ́ ńdị́ ọ́zọ́ gbàsárá ọ́rụ́ à.
 
 ## What's public
 
+email-not-public = Ànyị́ ágághị̀ èmé kà ọ̀hànézè hụ̀ ózí ímèélụ̀ (email) gị̀.
+username-optin-public = Í nwèrè íké ímé kà á hụ́ áhá ǹjìrìmárá gị́ mà ọ̀bụ̀kwànụ̀ Ì zóchíé yá.
 
 ## Speak & Listen Shortcuts
 
