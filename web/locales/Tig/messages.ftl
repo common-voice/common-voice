@@ -252,7 +252,10 @@ add-language = ሉቀት ወስክ
 
 faq-what-cv-q = Common Voice ሚቱ
 faq-why-important-q = አግል ሚቱ አሊ ሙህም
+faq-what-cv-and-deepspeech-q = ፈርቅ ፈንገ Common Voice ው Deep Speech ሚቱ?
+faq-why-different-speakers-q = ግልሚቱ ግል ኩል ሉቀት ብዝሓም ላለትሓግው ታሓዙ?
 faq-why-my-lang-q = ሉቀት ናየ አገልሚ ይሀሌትኒ
+faq-how-calc-hours-q = Common Voice ላስዓት ኣፎ ላሕስቦ?
 faq-what-is-cv = Common Voice ሚ ቱ
 
 ## ABOUT US
