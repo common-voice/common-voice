@@ -181,6 +181,22 @@ export const ACCENTS: any = {
     normativo: 'Normativo (estándar)',
     neofalante: 'Neofalante',
   },
+  uz: {
+    fargona: 'Farg\'ona',
+    andijon: 'Andijon',
+    toshkent: 'Toshkent',
+    qoqon: 'Qo\'qon',
+    jizzax: 'Jizzax',
+    samarqand: 'Samarqand',
+    kattaqorgon: 'Kattaqo\'rg\'on',
+    buxoro: 'Buxoro',
+    qarshi: 'Qarshi',
+    osh: 'O\'sh',
+    margilon: 'Marg\'ilon',
+    jalolobod: 'Jalolobod',
+
+  },
+  
   'zh-TW': {
     keelung_city: '出生地：基隆市',
     taipei_city: '出生地：臺北市',
