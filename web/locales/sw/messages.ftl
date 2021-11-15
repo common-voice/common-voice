@@ -80,6 +80,7 @@ hy-AM = Kiarmenia
 hyw = Kiarmenia ya Magharibi
 ia = Kiintalingua
 id = Kiindonesia
+ig = Kiigbo
 is = Kiaislandi
 it = Kiitaliano
 izh = Kiizhorian
@@ -113,8 +114,10 @@ ms = Kimalei
 mt = Kimalta
 my = Kiburma
 myv = Kierzya
+nan-tw = Kitaiwani (Minnan)
 nb-NO = Kinorwe cha Bokmal
 ne-NP = Kinepali
+nia = Kinias
 nl = Kiholanzi
 nn-NO = Kinorwe cha Nynorsk
 nyn = Kirunyankole
@@ -148,6 +151,8 @@ th = Kithai
 tl = Kitagalogi
 tr = Kituruki
 tt = Kitatari
+tw = Kitiwi
+ty = Kitahiti
 uby = Ubiki
 udm = Kiudmurti
 ug = Kiuiguri
@@ -157,6 +162,7 @@ uz = Kiuzbeki
 vec = Kivenetia
 vi = Kivietnamu
 vot = Kivoti
+yi = Kiyidi
 yo = Kiyoruba
 yue = Kikantonisi
 zh-CN = Kichina (Uchina)
@@ -366,6 +372,7 @@ connect-gravatar = Ungana na Gravatar
 gravatar_not_found = Hakuna taswira inayotambuliwa ulimwenguni iliyopatikana kwa barua pepe yako
 file_too_large = Faili lililochaguliwa ni kubwa sana
 avatar-uploaded = Taswira ya mtumiaji imapakiwa
+max-file-size = { $kb }kb upeo
 
 ## Profile - Email
 
@@ -853,6 +860,15 @@ profile-form-delete = Futa wasifu
 
 ## Profile Download
 
+download-q = Je, unahitaji kupakua data yako?
+download-info = Tuambie ungependa kupakua nini:
+download-profile-title = Wasifu
+download-recordings-title = Rekodi
+download-size = Ukubwa
+download-selected = Imechaguliwa
+download-start = Pakua data ya wasifu
+download-request = Omba rekodi
+download-request-button = Pakua
 
 ## Landing
 
@@ -913,3 +929,4 @@ contribution-misreadings-example-8-explanation = [Maudhui yasiyolingana]
 contribution-varying-pronunciations-title = Matamshi tofauti
 contribution-varying-pronunciations-example-1-title = Kichwani alikuwa amevaa bereti.
 contribution-background-noise-title = Kelele za mandharinyuma
+see-more = <chevron></chevron>Angalia zaidi
