@@ -312,7 +312,7 @@ data-download-deny = ልአ
 data-download-license = ሩኽሰት: <licenseLink>CC-0</licenseLink>
 data-other-goto = { $name } ጊስ
 terms-agree = አዋፍቅ
-terms-disagree = ይአዋፍቅ
+terms-disagree = ይአዋፍቅኒ
 
 ## Datasets Page
 
