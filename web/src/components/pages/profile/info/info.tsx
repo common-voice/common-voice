@@ -165,10 +165,10 @@ function ProfilePage({
   };
 
   const getAutocompleteAccents = (locale: string) => {
-    return accents[locale]
+    return accentsAll[locale]
       ? Object.entries({
-          ...accents[locale].userGenerated,
-          ...accents[locale].preset,
+          ...accentsAll[locale].userGenerated,
+          ...accentsAll[locale].preset,
         }).reduce((acc, [_, accent]) => {
           return acc.concat(accent);
         }, [])
