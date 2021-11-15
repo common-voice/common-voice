@@ -377,16 +377,16 @@ on = खुल्ला
 
 browse-file-title = एउटा तस्वीर फाइल अपलोड गर्नुहोस्
 browse-file = तान्नुहोस् र झार्नुहोस वा <browseWrap> ब्राउज गर्नुहोस् </ browseWrap>
-connect-gravatar = Gravatar सँग जोड्नुहोस्
-gravatar_not_found = तपाईंको ईमेलको लागि कुनै gravatar भेटिएन
-file_too_large = चयन गरिएको फाइल अति ठूलो छ
+connect-gravatar = Gravatar सङ्ग जोड्नुहोस्
+gravatar_not_found = तपाईंको इमेलको लागि कुनै gravatar भेटिएन
+file_too_large = छनौट गरिएको फाइल अति ठूलो छ
 avatar-uploaded = अवतार अपलोड गरियो
 max-file-size = अधिकतम { $kb } kb
 
 ## Profile - Email
 
 manage-subscriptions = सदस्यता व्यवस्थापन गर्नुहोस्
-manage-email-subscriptions = इमेल सब्सक्रिप्शनहरू व्यवस्थापन गर्नुहोस्
+manage-email-subscriptions = इमेल सदस्यताहरु व्यवस्थापन गर्नुहोस्
 email-already-used = ईमेल पहिले नै फरक खाताको लागि प्रयोग गरिएको छ
 add-language = भाषा थप्नुहोस्
 change-email-setings = लगइन परिचय अन्तर्गत सेटिङहरू मार्फत तपाईंको इमेल परिवर्तन गर्नुहोस्
