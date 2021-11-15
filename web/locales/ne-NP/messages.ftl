@@ -301,11 +301,11 @@ shortcut-submit = फर्किनुहोस्
 shortcut-submit-label = क्लिपहरु बुझाउनुहोस्
 request-language-text = के तपाईंले Common Voice मा आफ्नो भाषा अझै देख्नुभएन?
 request-language-text-learn = यहाँ कसरी अनुरोध गर्ने जान्नुहोस्!
-request-language-button = भाषा अनुरोध गर्नुहोस्
+request-language-button = एउटा भाषा अनुरोध गर्नुहोस्
 
 ## ProjectStatus
 
-status-title = परियोजनाको समग्र अवस्था: हेर्नुहोस् हामी कति टाढा अाइपुग्यौ !
+status-title = समग्र परियोजना स्थिति: हेर्नुहोस् हामी कति टाढा आइपुगेका छौं!
 status-contribute = तपाईंको आवाज योगदान गर्नुहोस्
 status-hours =
     { $hours ->
@@ -314,15 +314,15 @@ status-hours =
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = अर्को लक्ष्य: { $goal }
-english = अंग्रेजी
+status-goal = अर्को लक्ष्यहरु: { $goal }
+english = अङ्ग्रेजी
 
 ## ProfileForm
 
 profile-form-username =
     .label = प्रयोगकर्ता नाम
 profile-form-native-language =
-    .label = मूल भाषा
+    .label = मातृभाषा
 profile-form-additional-language =
     .label = अतिरिक्त भाषा
 profile-form-accent =
@@ -336,7 +336,7 @@ leaderboard-visibility =
 hidden = लुकेको
 visible = देखिने
 native-language =
-    .label = मूल भाषा
+    .label = मातृभाषा
 profile-form-submit-save = बचत गर्नुहोस्
 profile-form-submit-saved = बचत गरियो
 male = पुरुष
@@ -344,7 +344,9 @@ female = महिला
 # Gender
 other = अन्य
 why-profile-title = प्रोफाइल किन ?
-why-profile-text = तपाईँको बारेमा केहि जानकारी प्रदान गर्दा, तपाईँले Common Voice मा पेश गर्ने अडियो डाटा, बोलि पहिचान गर्ने इन्जिनहरुको लागि अझ उपयोगि हुनेछन् जसले यो डाटा उनिहरुको शुद्दता सुधार गर्न प्रयोग गर्छन् ।
+why-profile-text =
+    आफ्नो बारेमा केही जानकारी प्रदान गरेर, तपाईंले Common Voice मा पेश गर्नुभएको अडियो डाटा भाषणको लागि थप उपयोगी हुनेछ
+    पहिचान इन्जिनहरू जसले आफ्नो शुद्धता सुधार गर्न यो डाटा प्रयोग गर्दछ।
 dashboard = ड्यासबोर्ड
 build-profile = प्रोफाइल बनाउनुहोस्
 avatar = अवतार
