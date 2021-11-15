@@ -191,7 +191,7 @@ listen-subtitle = ኣስዋት አግል ንሓቅቅ ሳዕድና
 hours-recorded = ላትሰጀለያ ሳዓት
 todays-progress = ናይ ዮም ትቅዱም
 help-reach-goal = ሳኣደና ደብ { $goal } አገል ኔብጻሕ
-read-terms-q = ሹሩጥና ቃራአካ?
+read-terms-q = ሹሩጥና ቃራአኩም?
 ready-to-record = አብ ሶትኩም ግል ትሳህሞ ዱሉያም ህሌኹም?
 all-locales = ኩሉ
 today = ይኦም
@@ -254,7 +254,7 @@ other = ብዕድ
 avatar = ሱረት
 goals = ኣህዳፍ
 profile-close = ደብአ
-why-demographic = አግል ሚቱ አሊ ሙህም
+why-demographic = አግል ሚቱ አሊ ሙህም?
 contribution-experience = ናይ ሙሳህምት ኽብረት
 
 ## Profile - Email
@@ -268,7 +268,7 @@ add-language = ሉቀት ወስክ
 
 faq-title = ዲማ ላልትሳኣሉ ኣስአለት
 faq-what-cv-q = Common Voice ሚቱ
-faq-why-important-q = አግል ሚቱ አሊ ሙህም
+faq-why-important-q = አግል ሚቱ አሊ ሙህም?
 faq-what-cv-and-deepspeech-q = ፈርቅ ፈንገ Common Voice ው Deep Speech ሚቱ?
 faq-do-want-native-q = አላ ሉቀት ኡም ናየ ኢኮን ው አብ ለክነት አትሓገያ ሶትች ታሓዘዎ ቱ?
 faq-why-different-speakers-q = ግልሚቱ ግል ኩል ሉቀት ብዝሓም ላለትሓግው ታሓዙ?
