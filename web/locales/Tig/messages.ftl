@@ -330,6 +330,7 @@ contact-form-name =
 
 ## Request Language Modal
 
+request-language-title = ጣለብ ናይ ሉቀት
 request-language-form-language =
     .label = ሉቀት
 select-language = ሉቀት ሕረ
@@ -342,8 +343,9 @@ other-language = ብዕድ ሉቀት
 
 listen = ሰምዖ
 record-cta = ተስጂል ኣንብቶ
-record-error-too-short = ላተስጂል ሓጭራ
-record-error-too-long = ላተስጂል ረይማ
+record-error-too-short = ላተስጂል ብዙሕ ሓጭራ
+record-error-too-long = ላተስጂል ብዙሕ ረይማ
+record-three-more-instruction = ሰለስ ተርፈያ!
 record-last-instruction = <recordIcon></recordIcon>ኣኽራይት!
 record-abort-title = ሰልፍ ተስጂል ታኣኽልሶ?
 record-abort-continue = ተስጂል ኣኽልሶ
@@ -354,6 +356,7 @@ target-segment-learn-more = ዘያደት አምሮ
 
 ## Reporting
 
+report-different-language = ብዕደት ሉቀት
 success = ነጃሕ
 
 ## Goals
