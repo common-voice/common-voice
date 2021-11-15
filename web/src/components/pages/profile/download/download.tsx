@@ -348,7 +348,6 @@ function DownloadProfile(props: WithLocalizationProps) {
     );
   }, [takeouts]);
 
-  console.log(account);
   return (
     <>
       {takeoutRequestId !== null && (
