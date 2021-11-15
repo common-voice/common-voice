@@ -357,10 +357,18 @@ target-segment-learn-more = ዘያደት አምሮ
 ## Reporting
 
 report-different-language = ብዕደት ሉቀት
+report-different-language-detail = አብ ሉቀት ብዕደት መን ላ ኣና አትሃገያ ለህሌኮ ከጥበት ታ
+report-difficult-pronounce = ግል ትንጠቃ ስዓበት ታ
 success = ነጃሕ
+continue = ዋሰል
 
 ## Goals
 
+days =
+    { $count ->
+        [one] ዮም
+       *[other] ኣምዕል
+    }
 
 ## Dashboard
 
