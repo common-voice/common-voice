@@ -476,7 +476,6 @@ export default class API {
   }
 
   getAccents(lang?: string) {
-    console.log('get!');
     return this.fetch(`${API_PATH}/language/accents${lang ? '/' + lang : ''}`);
   }
 }

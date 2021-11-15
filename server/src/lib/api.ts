@@ -509,7 +509,7 @@ export default class API {
     response.json(new Date());
   }
 
-  getAccents = async ({ params }: Request, response: Response) => {
-    response.json(await this.model.db.getAccents(params?.locale || null));
+  getAccents = async ({ client_id, params }: Request, response: Response) => {
+    response.json(await this.model.db.getAccents(client_id, params?.locale || null));
   };
 }

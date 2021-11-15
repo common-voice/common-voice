@@ -328,11 +328,13 @@ profile-form-native-language =
     .label = Native Language
 profile-form-additional-language =
     .label = Additional Language
+profile-form-language =
+    .label = Language
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
   .label = How would you describe your accent?
-profile-form-custom-accent-placeholder = Describe your accent
+profile-form-custom-accent-placeholder-2 = Start typing to describe your accent
 profile-form-age =
     .label = Age
 profile-form-gender-2 =
@@ -343,6 +345,9 @@ hidden = Hidden
 visible = Visible
 native-language =
     .label = Native Language
+profile-form-add-accent = Add new custom accent "{ $inputValue }"
+
+
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
 
@@ -380,6 +385,8 @@ skip-submission-description = During contribution submission feedback will be sk
 skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
 off = Off
 on = On
+help-accent = Need some help with accent?
+help-accent-explanation = Your accent is the way you pronounce words. It can be shaped by where you have lived, which other languages you speak and lots of other factors. You can share any information you feel is relevant here.
 
 ## Profile - Email
 browse-file-title = Upload an image file

@@ -1,6 +1,6 @@
 import { CustomGoal } from './goals';
 import { Enrollment } from './challenge';
-import { AccentLocale } from './locale';
+import { UserAccentLocale } from './locale';
 
 export type UserClient = {
   email?: string;
@@ -8,7 +8,7 @@ export type UserClient = {
   client_id?: string;
   age?: string;
   gender?: string;
-  locales?: AccentLocale[];
+  locales?: UserAccentLocale[];
   visible?: 0 | 1 | 2;
   basket_token?: string;
   skip_submission_feedback?: boolean;

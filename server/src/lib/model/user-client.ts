@@ -10,52 +10,79 @@ import {
   ChallengeTeamToken,
   challengeTokens,
   challengeTeamTokens,
-  AccentLocale,
+  UserAccentLocale,
+  Accent
 } from 'common';
 
 const db = getMySQLInstance();
 
+
+/*
+ * due to the way accents are stored, the user retrieval queries returns
+ * one full row per accent, and these need to be collated into an object
+ */
 const compileLocales = (clientLocales: any, row: any) => {
-  // due to the way accents are stored, the user retrieval queries returns
-  // one full row per accent, and these need to be collated into an object
   const result = clientLocales || {};
+
   if (row.accent_id) {
+    const accent = { name: row.accent_name, id: row.accent_id, token: row.accent_token };
     if (result[row.locale]) {
-      result[row.locale].accents = result[row.locale].accents.concat({ accent: row.accent_name, accent_id: row.accent_id});
+      result[row.locale].accents.push(accent);
     } else {
       result[row.locale] = {
         locale: row.locale,
-        accents: [{ accent: row.accent_name, accent_id: row.accent_id}]
+        accents: [accent]
       }
     }
-
   }
 
   return result;
 }
 
+/*
+ * while collating accents using compileLocales() it makes sense to refer to them as an object
+ * everywhere else in the UI expects an array, and this is less disruptive than refactoring those mechanisms
+ */
 const reduceLocales = (userObj: any) => {
-  // while collating accents using compileLocales() it makes sense to refer to them as an object
-  // everywhere else in the UI expects an array, and this is less disruptive than refactoring those mechanisms
-
-  return userObj?.locales ? {...userObj, locales: Object.keys(userObj.locales).map((key: string) => userObj.locales[key])} : userObj;
+  return userObj?.locales ?
+    {
+      ...userObj,
+      locales: Object.keys(userObj.locales).map((key: string) => userObj.locales[key])
+    }
+    : userObj;
 }
 
-async function updateLocales(clientId: string, locales: AccentLocale[]) {
-  // creates a flat array of accent objects where each accent contains its own locale string and
-  // all locales are at the same level for easier manipulations
-  const accentsFlat = locales.reduce((localeList: { locale: string, accent_name: string, accent_id: number}[], locale: AccentLocale) => {
-    return localeList.concat(locale.accents.reduce((accentList: any[], accent: any) => {
-      return accentList.concat({locale: locale.locale, accent_name: accent.accent, accent_id: accent.accent_id});
-    }, []));
-  }, []);
+const generateAccentToken = (accent: string) => {
+  // Note: this is extremely rudimentary, because ECMA regex is inconsistent with
+  // full unicode charset and may impact non-romance languages
+  return accent.trim().toLowerCase().replace(/[\.,;\?\!'"]/g, '').replace(/[\s-_\(\)\[\]\<\>`]/g, '-').replace(/(-)(?=\1)/g, '-');
+}
 
+/**
+ * Updates accent entries for a given user
+ *
+ * @param clientId clientId as string
+ * @param locales array of UserAccentLocales
+ * @returns an object with two params:
+ *   localesToDelete: { id: number, accent_id: number }[] to represent entries that need to be deleted
+ *   localesToUpdate: { locale: string, accent_name: string, accent_id: number } to represent entres
+ *      that need to be added
+ */
+const getLocalesDelta = async (clientId: string, accentLocales: UserAccentLocale[]) => {
+  // creates a flat array of locale/accent objects so that
+  // all locales are at the same level for easier manipulations
+  const localesFlat = accentLocales.reduce(
+    (localeListFlat: { locale: string, accent_name?: string, accent_id?: number}[], locale: UserAccentLocale) => {
+      // Flatten the accents and return the entire flat array
+      return localeListFlat.concat(locale.accents.reduce((accentListFlat: any[], accent: any) => {
+        return accentListFlat.concat({locale: locale.locale, accent_name: accent.name, accent_id: accent.id});
+      }, []));
+  }, []);
 
   // Get a list of all accents currently stored for this user
   const [savedLocales]: [
     { id: number; accent_id: number }[]
-  ] = await db.query(
-    `
+  ] = await db.query(`
       SELECT id, accent_id
       FROM user_client_accents
       WHERE client_id = ?
@@ -64,24 +91,36 @@ async function updateLocales(clientId: string, locales: AccentLocale[]) {
     [clientId]
   );
 
-  // do not re-insert accents that have already been saved
-  const localesToUpdate = accentsFlat.filter((accentLocale) => {
-    return savedLocales.map((saved) => saved.accent_id).indexOf(accentLocale.accent_id) < 0;
-  });
+  // Get a list of just the accent IDs of each for easier iterating
+  const savedIds = savedLocales.map((saved) => saved.accent_id);
+  const flatIds = localesFlat.map((locale) => locale.accent_id);
+
+  // Do not re-insert accents that have already been saved
+  // Filter out everything from localesFlat that already has a corresponding value in savedLocales
+  const localesToUpdate = localesFlat.filter((accentLocale) => !savedIds.includes(accentLocale.accent_id));
 
   // delete accents that the user has de-selected
-  const localesToDelete = savedLocales.filter((savedLocale) => {
-    return accentsFlat.map((accent) => accent.accent_id).indexOf(savedLocale.accent_id) < 0;
-  });
+  const localesToDelete = savedLocales.filter((savedLocale) => !flatIds.includes(savedLocale.accent_id));
 
+  return { localesToUpdate, localesToDelete };
+}
+
+/**
+ * Updates accent entries for a given user
+ *
+ * @param clientId clientId as string
+ * @param locales array of UserAccentLocales
+ * @returns void
+ */
+async function updateLocales(clientId: string, accentLocales: UserAccentLocale[]) {
+  const { localesToUpdate, localesToDelete } = await getLocalesDelta(clientId, accentLocales);
+
+  // If the user has removed locale/accent values, remove entry from db
   if (localesToDelete.length > 0) {
     await db.query('DELETE FROM user_client_accents WHERE id IN (?)', [
       localesToDelete.map((accent) => accent.id),
     ]);
   }
-
-  // @TODO - Jenny - do some basic text cleaning on user submitted accents - trim, lowercase,
-  // look at dashes/underscores/etc
 
   // Of the entries in savedLocales that are not the same as the input locales array
   // create any accents that are newly user submitted
@@ -93,8 +132,9 @@ async function updateLocales(clientId: string, locales: AccentLocale[]) {
       // If no accent ID exists, create new accent entry
       if (!accentId) {
         await db.query(
-          `INSERT INTO accents (locale_id, accent_name, user_submitted, client_id) values (?, ?, ?, ?)`,
-          [localeId, accent.accent_name, true, clientId]
+          `INSERT INTO accents (locale_id, accent_name, accent_token, user_submitted, client_id) values (?, ?, ?, ?, ?)
+              ON DUPLICATE KEY UPDATE locale_id = locale_id`,
+          [localeId, accent.accent_name, generateAccentToken(accent.accent_name), true, clientId]
         );
 
         const [
@@ -114,7 +154,7 @@ async function updateLocales(clientId: string, locales: AccentLocale[]) {
   // Finally, insert the new accent values into the user_client_accents table
   if (newAccents.length > 0) {
     await db.query(
-      'INSERT INTO user_client_accents (client_id, locale_id, accent_id) VALUES ?',
+      'INSERT INTO user_client_accents (client_id, locale_id, accent_id) VALUES ? ON DUPLICATE KEY UPDATE created_at = NOW()',
       [newAccents]
     );
   }
@@ -177,7 +217,14 @@ const UserClient = {
   }) {
     const [rows] = await db.query(
       `
-        SELECT u.*, accents.id AS accent_id, accents.accent_name, accents.user_submitted, locales.name AS locale, ages.age, genders.gender
+        SELECT
+          u.*,
+          accents.id AS accent_id,
+          accents.accent_name,
+          accents.accent_token,
+          locales.name AS locale,
+          ages.age,
+          genders.gender
         FROM user_clients u
         LEFT JOIN user_client_accents user_accents ON u.client_id = user_accents.client_id
         LEFT JOIN accents ON user_accents.accent_id = accents.id
@@ -223,7 +270,7 @@ const UserClient = {
           u.*,
           accents.id AS accent_id,
           accents.accent_name,
-          accents.user_submitted,
+          accents.accent_token,
           locales.name AS locale,
           ages.age,
           genders.gender,

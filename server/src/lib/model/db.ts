@@ -877,29 +877,31 @@ export default class DB {
     )[0][0].count;
   }
 
-  async getAccents(locale?: string) {
+  async getAccents( client_id: string, locale?: string) {
     const [accents] = await this.mysql.query(
       `
-      SELECT name as lang, legacy_accent_token AS token, a.id AS accent_id, accent_name, a.user_submitted FROM accents a
+      SELECT name as lang, accent_token AS token, a.id AS accent_id, accent_name, a.user_submitted FROM accents a
       LEFT JOIN locales ON a.locale_id = locales.id
-      WHERE NOT user_submitted
-      `
+      WHERE (NOT user_submitted OR client_id = ?)
+      `, [client_id]
     );
 
     const mappedAccents = accents.reduce((acc: any, curr: any) => {
       if (!acc[curr.lang]) {
-        acc[curr.lang] = { userGenerated: {}, preset: {} };
+        acc[curr.lang] = { userGenerated: {}, preset: {}, default: {} };
       }
+
       const accent = {
         id: curr.accent_id,
-        legacy_token: curr.token,
-        name: curr.accent_name,
+        token: curr.token,
+        name: curr.accent_name
       };
 
-      // Note: currently the query excludes user_submitted values, leaving this
-      // conditional code here to preserve type structure for future work
-      // enabling suggesting user-created accents
-      if (curr.user_submitted) {
+      if (curr.accent_name === "")  {
+        // Each language has a default accent placeholder for unspecified accents
+        acc[curr.lang].default = accent;
+      } else if (curr.user_submitted) {
+        // Note: currently the query only shows the user values that they created
         acc[curr.lang].userGenerated[curr.accent_id] = accent;
       } else {
         acc[curr.lang].preset[curr.accent_id] = accent;

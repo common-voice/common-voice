@@ -6,7 +6,7 @@
         font-weight: 600;
     }
 
-    & .demographic-info {
+    & .profile-toggle {
         border-inline-start: 2px solid var(--blue);
         margin: 30px 0;
         padding-inline-start: 12px;
@@ -53,12 +53,22 @@
         flex-wrap: wrap;
         width: 99%;
 
+        &.multilingual {
+            .accent-wrap {
+                border-bottom: 2px solid rgba(230,229,227,.6);
+                margin-bottom: 2rem;
+                &:last-child {
+                    border-bottom:  0;
+                }
+            }
+        }
+
         .accent-wrap {
             display: block;
             width: 100%;
             position: relative;
-            padding: 2rem 0 0.5rem;
-            border-top: 2px solid rgba(230,229,227,.6);
+            padding-bottom: 0.5rem;
+
 
             label {
                 width: 100%;
@@ -111,14 +121,9 @@
         }
     }
 
-
     .add-language-section {
-        padding-top: 30px;
-        border-top: 2px solid rgba(230,229,227,.6);
-
-        .no-languages {
-            display: inline-block;
-            color: var(--red);
+        .profile-toggle {
+            margin-top: 0;
         }
     }
 
@@ -227,5 +232,9 @@
     .add-new-accent {
         color: var(--blue);
         font-weight: 600;
+
+        &:focus, &:hover {
+            background: var(--light-grey);
+        }
     }
 }

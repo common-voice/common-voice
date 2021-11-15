@@ -10,7 +10,7 @@ import { Button, LabeledCheckbox } from '../../../ui/ui';
 import './download.css';
 import API from '../../../../services/api';
 import { useAccount, useAPI } from '../../../../hooks/store-hooks';
-import { TakeoutRequest, TakeoutState, UserClient } from 'common';
+import { TakeoutRequest, TakeoutState, UserClient, Accent } from 'common';
 import { byteToSize } from '../../../../utility';
 import Modal, { ModalProps } from '../../../modal/modal';
 
@@ -281,17 +281,18 @@ function downloadAsFile(filename: string, url: string) {
   a.remove();
 }
 
-// @TODO - Jenny verify downloads still work as expected
 export function getProfileInfo(account: UserClient) {
   return [
     ...Object.entries(pick(account, 'email', 'username', 'age', 'gender')),
     ...account.locales.reduce((all, l, i) => {
       const localeLabel = 'language ' + (i + 1);
-      return [
+      const accents = l.accents.slice(1).map((accent: Accent) => accent.name).join(", ");
+      const arr = [
         ...all,
         [localeLabel, l.locale],
-        [localeLabel + ' accent', l.accents.join(", ")],
+        [localeLabel + ' accent(s)', accents],
       ];
+      return arr;
     }, []),
   ]
     .map(([key, value]) => key + ': ' + value)
