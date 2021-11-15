@@ -367,15 +367,15 @@ edit = सम्पादन गर्नुहोस्
 email-subscriptions = इमेल सदस्यताहरु
 download-profile = मेरो डाटा डाउनलोड गर्नुहोस्
 contribution-experience = योगदान अनुभव
-skip-submission-feedback = सबमिशन प्रतिक्रिया छोड्नुहोस्
-skip-submission-description = योगदान पेस गर्ने समयमा प्रतिक्रिया 'पेश गर्नुहोस्' क्लिक गरेपछि छोडिनेछ। योगदान सिधै record रेकर्डिङ्ग वा मान्यताको अर्को 5 सेटका साथ जारी हुनेछ।
-skip-submission-note = नोट: तपाईंले अझै पनि योगदान प्रकार बधल्न बोल्न वा सुन्नका बीच चयन गर्न आवश्यक पर्दछ।
+skip-submission-feedback = पेस गर्ने प्रतिक्रिया छोड्नुहोस्
+skip-submission-description = योगदान पेस गर्दा प्रतिक्रिया 'पेश गर्नुहोस्' क्लिक गरेपछि छोडिनेछ। योगदान सीधा 5 रेकर्डिङ्ग वा प्रमाणीकरणको अर्को सेट सङ्ग जारी रहनेछ।
+skip-submission-note = नोट: तपाईंले अझै पनि योगदान किसिम परिवर्तन गर्नको लागि बोल्नुहोस् वा सुन्नुहोस् बीचमा चयन गर्न आवश्यक छ।
 off = बन्द
 on = खुल्ला
 
 ## Profile - Email
 
-browse-file-title = चित्र फाइल अपलोड गर्नुहोस्
+browse-file-title = एउटा तस्वीर फाइल अपलोड गर्नुहोस्
 browse-file = तान्नुहोस् र झार्नुहोस वा <browseWrap> ब्राउज गर्नुहोस् </ browseWrap>
 connect-gravatar = Gravatar सँग जोड्नुहोस्
 gravatar_not_found = तपाईंको ईमेलको लागि कुनै gravatar भेटिएन
