@@ -263,11 +263,11 @@ join-newsletter = वैकल्पिक रूपमा अद्यावध
 ## What's public
 
 whats-public = सार्बजनिक भनेको के हो?
-email-not-public = हामी तपाईंको ईमेल सार्वजनिक गर्दैनौं।
-recordings-and-locale-public = रेकर्डिङहरूको संख्या र कुन भाषाहरूमा तपाईंले योगदान गर्नुभएको जानकारी सार्वजनिक हुनेछ।
+email-not-public = हामी तपाईंको इमेल सार्वजनिक गर्दैनौं।
+recordings-and-locale-public = रेकर्डिङ्गहरुको सङ्ख्या र तपाईंले योगदान गर्ने भाषाहरू सार्वजनिक हुनेछन्।
 username-optin-public = तपाईं आफ्नो प्रयोगकर्ता नाम सार्वजनिक वा गुमनाम बनाउन छनौट गर्न सक्नुहुन्छ।
-demographic-deidentified-clarity-2 = वैकल्पिक रूपमा पेश गरिएको जनसांख्यिकीय डेटा (उदाहरण उमेर, लिङ्ग, भाषा, र एक्सेन्ट) लाई कहिले तपाईको प्रोफाइलमा सार्वजनिक गरिने छैन, र डाटासेटमा तपाईंको खातामा लिंक गरिने छैन। व्यक्तिगत अडियो क्लिपहरू अधिक सटीक विश्लेषणको उद्देश्यका लागि डेमोग्राफिक डाटासँग सम्बन्धित हुनेछ - उदाहरणका लागि, एक अन्वेषक एक विशेष जनसांख्यिकीय खण्डमा एक प्रशिक्षण मोडेललाई लक्षित गर्न चाहन सक्छ।
-username-email-not-demographic = तपाईको प्रयोगकर्ता नाम र ईमेल प्रकाशित डेटासँग सम्बद्ध हुनेछैन।
+demographic-deidentified-clarity-2 = वैकल्पिक रूपमा पेश गरिएको जनसांख्यिकीय डेटा (जस्तै उमेर, लिङ्ग, भाषा, र उच्चारण) तपाईंको प्रोफाइलमा सार्वजनिक गरिने छैन, र डाटासेटमा तपाईंको खातामा लिङ्क गरिने छैन। व्यक्तिगत अडियो क्लिपहरू थप सटीक विश्लेषणको उद्देश्यका लागि जनसांख्यिकीय डाटासँग सम्बद्ध हुनेछन् - उदाहरणका लागि, एक अनुसन्धानकर्ताले विशेष जनसांख्यिकीय खण्डमा प्रशिक्षण मोडेललाई लक्षित गर्न चाहन्छ।
+username-email-not-demographic = तपाईको प्रयोगकर्ता नाम र इमेल प्रकाशित डाटासँग सम्बद्ध हुनेछैन।
 
 ## Speak & Listen Shortcuts
 
@@ -293,13 +293,13 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = रेकर्ड गर्नुहोस्/रोक्नुहोस्
-shortcut-rerecord-toggle = [१-५]
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = क्लिप पुन: रेकर्ड गर्नुहोस्
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = चालु रेकर्डिन्ग रद्द गर्नुहोस्
+shortcut-discard-ongoing-recording-label = चलिरहेको रेकर्डिङ्ग रद्द गर्नुहोस्
 shortcut-submit = फर्किनुहोस्
-shortcut-submit-label = क्लिप बुझाउनुहोस्
-request-language-text = Common Voice मा तपाईँको भाषा अझै देख्नुभएन ?
+shortcut-submit-label = क्लिपहरु बुझाउनुहोस्
+request-language-text = के तपाईंले Common Voice मा आफ्नो भाषा अझै देख्नुभएन?
 request-language-text-learn = यहाँ कसरी अनुरोध गर्ने जान्नुहोस्!
 request-language-button = भाषा अनुरोध गर्नुहोस्
 
