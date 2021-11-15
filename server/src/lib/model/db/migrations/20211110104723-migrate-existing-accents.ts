@@ -3,7 +3,7 @@ export const up = async function (db: any): Promise<any> {
     `
     ALTER TABLE user_client_accents
       ADD COLUMN accent_id INT UNSIGNED,
-      ADD COLUMN created_at DATE DEFAULT NOW(),
+      ADD COLUMN created_at DATETIME DEFAULT NOW(),
       CHANGE COLUMN accent accent_token VARCHAR(255),
       DROP INDEX client_id,
       ADD KEY client_id (client_id),
@@ -31,8 +31,8 @@ export const up = async function (db: any): Promise<any> {
 export const down = async function (db: any): Promise<any> {
   return await db.runSql(`
     ALTER TABLE user_client_accents
-      DROP COLUMN accent_id INT UNSIGNED,
-      DROP COLUMN created_at DATE DEFAULT NOW(),
+      DROP COLUMN accent_id,
+      DROP COLUMN created_at,
       CHANGE COLUMN accent_token accent VARCHAR(255) NOT NULL,
       DROP INDEX client_id,
       ADD KEY client_id (client_id, locale_id),
