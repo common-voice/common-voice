@@ -1,7 +1,9 @@
 ## General
 
+return-to-cv = ዲብ Common Voice ኣቅብል
 email-input =
     .label = ኢመል
+loading = ሸሕን ህላ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -322,36 +324,75 @@ contact-form-name =
 
 ## Request Language Modal
 
+request-language-title = ጣለብ ናይ ሉቀት
+request-language-form-language =
+    .label = ሉቀት
+select-language = ሉቀት ሕረ
+other-language = ብዕድ ሉቀት
 
 ## Languages Overview
 
 
 ## Contribution
 
+listen = ሰምዖ
+record-cta = ተስጂል ኣንብቶ
+record-error-too-short = ላተስጂል ብዙሕ ሓጭራ
+record-error-too-long = ላተስጂል ብዙሕ ረይማ
+record-three-more-instruction = ሰለስ ተርፈያ!
+record-last-instruction = <recordIcon></recordIcon>ኣኽራይት!
+record-abort-title = ሰልፍ ተስጂል ታኣኽልሶ?
+record-abort-continue = ተስጂል ኣኽልሶ
+listen-last-time-instruction = <playIcon></playIcon>ኣኽራይት!
+record-button-label = ሶትኩም ሰጀሎ
+target-segment-add-voice = ሶትኩም ወሰኮ
+target-segment-learn-more = ዘያደት አምሮ
 
 ## Reporting
 
+report-different-language = ብዕደት ሉቀት
+report-different-language-detail = አብ ሉቀት ብዕደት መን ላ ኣና አትሃገያ ለህሌኮ ከጥበት ታ
+report-difficult-pronounce = ግል ትንጠቃ ስዓበት ታ
+success = ነጃሕ
+continue = ዋሰል
 
 ## Goals
 
+days =
+    { $count ->
+        [one] ዮም
+       *[other] ኣምዕል
+    }
 
 ## Dashboard
 
+your-languages = ሉቃትኩም
+you = አንቱም
 
 ## Custom Goals
 
+easy-difficulty = ሳሃል
+difficult-difficulty = ሳዓብ
+want-to-continue = ትኣስተመሮ ታሓዙ?
+which-goal-type = ትትሃገው ታሓዙ ትስምዖ ሚ ክለኤቱ?
+goal-interval-weekly = ኩል ሳምን
 
 ## Profile Delete
 
+remove = ወርኪዮ
 
 ## Profile Download
 
+download-recordings-title = ተስጂል
 
 ## Landing
 
 
 ## DemoLayout
 
+demo-get-started = የላ ናኣንብት
+demo-welcome = ዳሓን መጻአኹም ዲብ Common Voice
+demo-welcome-subheader = ዓን ኢሊ መሽሩዕ አግል ታአምሮ ው ትሳህሞ ታሓዙ?
 
 ## Demo Datasets
 
@@ -361,12 +402,16 @@ contact-form-name =
 
 ## Demo Contribute
 
+demo-listen-subtitle = አግል ትሳህሞ ጃህዛም አንቱም?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-misreadings-example-5-title = ቡን ግል ንስተ ፍግር ሀሌና
+contribution-misreadings-example-6-title = ቡን ግል ንስተ ፍግር ሀሌና
+contribution-misreadings-example-7-title = ቡን ግል ንስተ ፍግር ሀሌና
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
