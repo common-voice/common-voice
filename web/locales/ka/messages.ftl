@@ -152,6 +152,7 @@ te = ტელუგუ
 tg = ტაჯიკური
 th = ტაილანდური
 ti = ტიგრინია
+Tig = ტიგრინია
 tl = ტაგალური
 tr = თურქული
 tt = თათრული
@@ -998,3 +999,9 @@ contribution-just-unsure-title = მაინც ეჭვი გეპარე
 contribution-just-unsure-description = თუ ისეთ საკითხს წააწყდით, რომელიც ამ მითითებებში არაა განხილული, გთხოვთ შეაფასოთ საკუთარი შეხედულებისამებრ, კეთილსინდისიერად. როცა ნამდვილად გაგიჭირდებათ გადაწყვეტილების მიღება, უბრალოდ გამოტოვეთ და სხვა ჩანაწერზე გადადით.
 see-more = <chevron></chevron>ვრცლად
 see-less = <chevron></chevron>შემოკლებულად
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+# [/SentenceCollector]
+
