@@ -1,5 +1,7 @@
 ## General
 
+email-input =
+    .label = ኢመል
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -208,6 +210,7 @@ x-years-short =
 
 ## Account Benefits
 
+benefits = መንፍዓት
 
 ## What's public
 
@@ -220,42 +223,102 @@ x-years-short =
 
 ## Speak Shortcuts
 
+shortcut-discard-ongoing-recording = ESC
+shortcut-submit = ዓቅብል
+request-language-text = ሉቅትኩም ኣስኽ ኣዜ የህሌትኒ ዲብ Common Voice?
+request-language-button = ሉቀት ጥለብ
 
 ## ProjectStatus
 
+status-contribute = አብ ሶትኩም ሳህሞ
+english = እንግሊዚ
 
 ## ProfileForm
 
+profile-form-native-language =
+    .label = ሉቀት ኡም
+profile-form-accent =
+    .label = ለክነት
+profile-form-age =
+    .label = ዑምር
+hidden = ሕቡዕ
+visible = ርኡይ
+native-language =
+    .label = ሉቀት ኡም
+# Gender
+other = ብዕድ
+avatar = ሱረት
+goals = ኣህዳፍ
+profile-close = ደብአ
+why-demographic = አግል ሚቱ አሊ ሙህም?
+contribution-experience = ናይ ሙሳህምት ኽብረት
 
 ## Profile - Email
 
 
 ## Profile - Email
 
+add-language = ሉቀት ወስክ
 
 ## FAQ
 
+faq-title = ዲማ ላልትሳኣሉ ኣስአለት
+faq-what-cv-q = Common Voice ሚቱ
+faq-why-important-q = አግል ሚቱ አሊ ሙህም?
+faq-what-cv-and-deepspeech-q = ፈርቅ ፈንገ Common Voice ው Deep Speech ሚቱ?
+faq-why-different-speakers-q = ግልሚቱ ግል ኩል ሉቀት ብዝሓም ላለትሓግው ታሓዙ?
+faq-why-my-lang-q = ሉቀት ናየ አገልሚ ይሀሌትኒ
+faq-how-calc-hours-q = Common Voice ላስዓት ኣፎ ላሕስቦ?
+faq-what-is-cv = Common Voice ሚ ቱ
+faq-search-for-answers =
+    .label = ኣጅውበት ደውሮ
 
 ## ABOUT US
 
+about-title = አግል ሚ ቱ Common Voice
+how-does-it-work-title = ኣፎ ትሽቄ?
+about-speak = ታሃገው
+about-listen-queue = ናይ ሰምዓት ጣቡር
+about-listen = ሰምዖ
+about-yes-votes = ዝያድ ከልኦት ናይ አይዋ ተስዊት
+about-no-votes = ዝያድ ከልኦት ናይ ላአ ተስዊት
+about-partners = ሹረካአና
+about-become-a-partner = ሸሪክና ግባአ
+about-get-involved = ምስልና ሳህም
+about-nav-why-common-voice = አገልሚ
+about-nav-how-it-works = ከፎ
+about-nav-partners = ሹረካ
+about-nav-get-involved = ምስልና ሳህም
 
 ## Glossary
 
 
 ## Error pages
 
+error-code = ኻጣአ
 
 ## Data
 
+data-download-yes = ኣየዋ
+data-download-deny = ልአ
+data-download-license = ሩኽሰት: <licenseLink>CC-0</licenseLink>
+data-other-goto = { $name } ጊስ
+terms-agree = አዋፍቅ
+terms-disagree = ይአዋፍቅኒ
+review-recording = ራጀዕ
 
 ## Datasets Page
 
+language = ሉቀት
+cv-license = ሩኽሰት
 
 ## Download Modal
 
 
 ## Contact Modal
 
+contact-form-name =
+    .label = ሰም
 
 ## Request Language Modal
 
