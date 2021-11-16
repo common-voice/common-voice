@@ -85,11 +85,7 @@ const Item = ({
       ) : (
         <Localized
           id={type === 'clips' ? 'download-request' : 'download-start'}>
-          <Button
-            rounded
-            className="download-button"
-            onClick={action}
-          />
+          <Button rounded className="download-button" onClick={action} />
         </Localized>
       )}
     </div>
@@ -303,7 +299,8 @@ function download(
   type: 'profile' | 'clips',
   forceTakeoutRefresh: () => void
 ) {
-  if (type === 'profile') downloadTextAsFile('profile.txt', getProfileInfo(account));
+  if (type === 'profile')
+    downloadTextAsFile('profile.txt', getProfileInfo(account));
 
   if (type === 'clips')
     api
@@ -340,12 +337,14 @@ function DownloadProfile(props: WithLocalizationProps) {
     );
 
     setHasRecentTakeout(
-      (takeouts || []).reduce(
-        (acc: boolean, t: TakeoutRequest) => {
-          return acc || serverDate.getTime() <= (new Date(t.requested_date).getTime() + REQUEST_LIMIT * 24 * 60 * 60 * 1000);
-        },
-        false
-      )
+      (takeouts || []).reduce((acc: boolean, t: TakeoutRequest) => {
+        return (
+          acc ||
+          serverDate.getTime() <=
+            new Date(t.requested_date).getTime() +
+              REQUEST_LIMIT * 24 * 60 * 60 * 1000
+        );
+      }, false)
     );
   }, [takeouts]);
 
@@ -368,26 +367,33 @@ function DownloadProfile(props: WithLocalizationProps) {
           title={getString('download-profile-title')}
           info={getString('download-profile-info')}
           size={getString('download-profile-size')}
-          type='profile'
+          type="profile"
           action={() => download(account, api, 'profile', forceTakeoutRefresh)}
         />
-        <Item
-          icon={<MicIcon />}
-          title={getString('download-recordings-title')}
-          info={getString('download-recordings-info')}
-          size={getString('download-recordings-size')}
-          type='clips'
-          action={() => download(account, api, 'clips', forceTakeoutRefresh)}
-          isDisabled={hasAnyPendingTakeout || hasRecentTakeout}
-          disabledReason={hasAnyPendingTakeout ? getString('download-recordings-unavailable') :
-            getString('download-recently-requested', { days: REQUEST_LIMIT }) }
-        />
+        {account.clips_count > 0 ? (
+          <Item
+            icon={<MicIcon />}
+            title={getString('download-recordings-title')}
+            info={getString('download-recordings-info')}
+            size={getString('download-recordings-size')}
+            type="clips"
+            action={() => download(account, api, 'clips', forceTakeoutRefresh)}
+            isDisabled={hasAnyPendingTakeout || hasRecentTakeout}
+            disabledReason={
+              hasAnyPendingTakeout
+                ? getString('download-recordings-unavailable')
+                : getString('download-recently-requested', {
+                    days: REQUEST_LIMIT,
+                  })
+            }
+          />
+        ) : null}
       </Section>
       {takeouts && takeouts.length > 0 && (
         <Section
           title={getString('download-requests')}
           info={getString('download-requests-info')}
-          id='requests'
+          id="requests"
           className="download-requests"
           key={takeoutRefresh}>
           {takeouts.map((request: TakeoutRequest) => (
