@@ -1006,7 +1006,7 @@ see-less = <chevron></chevron>შემოკლებულად
 sc-header-home = მთავარი
 sc-header-how-to = როგორ
 sc-header-add = დამატება
-sc-header-review = მიმოხილვა
+sc-header-review = შემოწმება
 sc-header-rejected = უარყოფილი წინადადებები
 sc-header-my = ჩემი წინადადებები
 sc-header-statistics = სტატისტიკა
@@ -1021,6 +1021,21 @@ sc-footer-cookies = ფუნთუშები
 sc-login-signup-button = შესვლა / შექმნა
 sc-logout-button = გასვლა
 sc-home-title = მოგესალმებათ Common Voice – წინადადებების შემგროვებელი
+sc-home-intro =
+    წინადადებების შემგროვებელი, <commonVoiceLink>Common Voice-ის</commonVoiceLink> ნაწილია.
+    მისი მეშვეობით, გროვდება და მოწმდება, ერთობის მიერ შედგენილი წინადადებები.
+    ასევე, გამოსადეგია საყოველთაო საკუთრებაში არსებული მცირე ან საშუალო კორპუსის შემოსატანად,
+    თუ ამგვარი მოიპოვება ენისთვის. ყველა წინადადება აუცილებელია, საყოველთაო საკუთრებად მიიჩნეოდეს.
+    დამოწმებული წინადადები, ყოველკვირა გადადის Common Voice-საცავში და ქვეყნდება
+    Common Voice-ის ვებსაიტზე, ყოველი ახალი გაწყობისას.
+sc-home-collect-title = წინადადებების შეგროვება
+sc-home-collect-text = დაგვეხმარეთ წინადადებების დაწერაში ან საყოველთაო საკუთრებაში არსებულების მოპოვებაში.
+sc-home-review-title = წინადადებების შემოწმება
+sc-home-review-text = მოგვეხმარეთ წინადადებების გადამოწმებაში, სახელმძღვანელოს მიხედვით.
+sc-howto-title = როგორ
+sc-howto-addlang-title = ენების დამატება სამუშაოდ
+sc-howto-addlang-text = შესვლისას, შეგეძლებათ აირჩიოთ ენა პროფილიდან.
+sc-howto-addsen-title = ახალი წინადადებების დამატება
 
 # [/SentenceCollector]
 
