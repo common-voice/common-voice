@@ -152,7 +152,7 @@ te = Telugu
 tg = Tádzsik
 th = Thai
 ti = Tigrinya
-Tig = Tigre
+tig = Tigre
 tl = Tagalog
 tr = Török
 tt = Tatár
@@ -1007,3 +1007,16 @@ contribution-just-unsure-title = Csak bizonytalan?
 contribution-just-unsure-description = Ha olyan dologgal találkozik, amelyre ezek az irányelvek nem vonatkoznak, akkor szavazzon a legjobb megítélése szerint. Ha valóban nem tud dönteni, akkor használja a kihagyás gombot, és folytassa a következő felvétellel.
 see-more = <chevron> </chevron> További információk
 see-less = <chevron> </chevron> Kevesebb információ
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = Kezdőlap
+sc-header-how-to = Hogyan
+sc-header-add = Hozzáadás
+sc-header-review = Ellenőrzés
+sc-header-rejected = Elutasított mondatok
+sc-header-my = Saját mondatok
+sc-header-statistics = Statisztika
+
+# [/SentenceCollector]
+
