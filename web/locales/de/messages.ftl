@@ -1186,6 +1186,109 @@ sc-add-err-submission = Übermittlungsfehler
 sc-confirm-are-you-sure =
     .message = Sätze wurden nicht gesendet. Möchten Sie wirklich gehen?
 sc-confirm-sentences-title = Neue Sätze bestätigen
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Keine Sätze gefunden.
+        [one] Ein Satz gefunden.
+       *[other] { $countOfSentences } Sätze gefunden.
+    }
+sc-confirm-rejected-by-you = { $countOfInvalidated } wurde von Ihnen abgelehnt
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Bisher wurden keine Sätze überprüft.
+        [one] Bisher wurde ein Satz überprüft.
+       *[other] Bisher wurden { $countOfReviewed } Sätze überprüft. Gut gemacht!
+    }
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Kein Satz bereit zur Übermittlung!
+        [one] Ein Satz bereit zur Übermittlung!
+       *[other] { $readyCount } Sätze bereit zur Übermittlung!
+    }
+sc-confirm-unreviewed =
+    { $countOfUnreviewed } Sätze wurden noch nicht überprüft.
+    Wenn Sie möchten, können Sie Ihre Sätze jetzt auch noch einmal überprüfen, bevor Sie sie absenden.
+sc-confirm-button-text = Bestätigen
+sc-confirm-uploading = Sätze werden hochgeladen. Dies kann je nach Anzahl der hinzugefügten Sätze mehrere Minuten dauern. Bitte schließen Sie diese Website nicht.
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Null vollständige insgesamt.
+        [one] Ein vollständiger Satz.
+       *[other] { $totalSentences } vollständige Sätze.
+    }
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Kein Sätze warten auf Überprüfung.
+        [one] Ein Satz wartet auf Überprüfung.
+       *[other] { $totalInReview } Sätze warten auf Überprüfung.
+    }
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Keine Sätze mehr zu überprüfen.
+        [one] Noch ein Satz zu überprüfen.
+       *[other] Noch { $unreviewedSentencesByYou } Sätze zu überprüfen.
+    }
+sc-lang-info-review-now = <reviewLink>Jetzt überprüfen!</reviewLink>
+sc-lang-info-add-more = <addLink>Fügen Sie jetzt weitere Sätze hinzu!</addLink>
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Keine validierten Sätze.
+        [one] Ein validierter Satz.
+       *[other] { $validatedSentences } validierte Sätze.
+    }
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Keine abgelehnten Sätze.
+        [one] Ein abgelehnter Satz.
+       *[other] { $rejectedSentences } abgelehnten Sätze.
+    }
+sc-login-err-failed = Anmeldung fehlgeschlagen
+sc-login-err-try-again = Bitte versuchen Sie es erneut.
+sc-personal-err-lang-not-found = Sprache konnte nicht entfernt werden: Sprache nicht gefunden
+sc-personal-err-remove = Sprache konnte nicht entfernt werden
+sc-personal-your-languages = Ihre Sprachen:
+sc-personal-remove-button = Entfernen
+sc-personal-added-by-you = { $sentences } von Ihnen hinzugefügt
+sc-personal-not-added = Sie haben noch keine Sprachen hinzugefügt.
+sc-criteria-modal = ⓘ Überprüfungskriterien
+sc-criteria-title = Überprüfungskriterien
+sc-criteria-make-sure = Stellen Sie sicher, dass der Satz die folgenden Kriterien erfüllt:
+sc-criteria-item-1 = Der Satz muss richtig geschrieben sein.
+sc-criteria-item-2 = Der Satz muss grammatikalisch korrekt sein.
+sc-criteria-item-3 = Der Satz muss aussprechbar sein.
+sc-criteria-item-4 = Wenn der Satz die Kriterien erfüllt, klicken Sie auf die Schaltfläche „Genehmigen“ auf der rechten Seite.
+sc-criteria-item-5 =
+    Wenn der Satz die oben genannten Kriterien nicht erfüllt, klicken Sie auf die Schaltfläche „Ablehnen“.
+    Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
+sc-criteria-item-6 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
+sc-review-form-prompt =
+    .message = Überprüfte Sätze nicht eingereicht, sind Sie sicher?
+sc-review-form-usage =
+    Wischen Sie nach rechts, um den Satz zu genehmigen. Wischen Sie nach links, um ihn abzulehnen.
+    Wischen Sie nach oben, um ihn zu überspringen. <strong>Vergessen Sie nicht, Ihre Bewertung zu übermitteln!</strong>
+sc-review-form-source = Quelle: { $sentenceSource }
+sc-review-form-button-reject = Ablehnen
+sc-review-form-button-skip = Überspringen
+sc-review-form-button-approve = Genehmigen
+sc-review-form-keyboard-usage = Sie können auch Tastenkombinationen verwenden: Y zum Genehmigen, N zum Ablehnen, S zum Überspringen
+sc-review-form-button-submit =
+    .submitText = Bewertung abschließen
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Keine Sätze überprüft.
+        [one] Ein Satz überprüft. Vielen Dank!
+       *[other] { $sentences } Sätze überprüft. Vielen Dank!
+    }
+sc-review-form-review-failure = Bewertung konnte nicht gespeichert werden. Bitte versuchen Sie es später erneut.
+sc-review-link = Bewertungen
+sc-settings-title = Einstellungen
+sc-settings-reset-skipped = Übersprungene Sätze zurücksetzen
+sc-settings-skipped-decription =
+    Sie haben Sätze beim Überprüfen zuvor übersprungen.
+    Das Zurücksetzen übersprungener Sätze wird alle übersprungenen Sätze wieder zeigen.
+    Das ist unabhängig von der Sprache.
+sc-settings-show-all-button = Alle übersprungenen Sätze wieder anzeigen
+sc-settings-failed = Einstellungen konnten nicht geändert werden. Bitte versuchen Sie es erneut.
 
 # [/SentenceCollector]
 
