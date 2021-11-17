@@ -142,7 +142,7 @@ te = ተሉጉ
 tg = ታጂክ
 th = ታይላንዲ
 ti = ቴግርንያ
-Tig = ትግረ
+tig = ትግረ
 tl = ታንጋሎግ
 tr = ቱርኪ
 tt = ታታር
@@ -308,6 +308,8 @@ data-other-goto = { $name } ጊስ
 terms-agree = አዋፍቅ
 terms-disagree = ይአዋፍቅኒ
 review-recording = ራጀዕ
+review-rerecord = ካልእ ዶል ስጅል
+review-keep-recordings = ዲብ ትስጂል ኣስተምር
 
 ## Datasets Page
 
@@ -413,8 +415,5 @@ contribution-misreadings-example-5-title = ቡን ግል ንስተ ፍግር ሀ
 contribution-misreadings-example-6-title = ቡን ግል ንስተ ፍግር ሀሌና
 contribution-misreadings-example-7-title = ቡን ግል ንስተ ፍግር ሀሌና
 
-# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
-# automatically exported from Sentence Collector.
-# [SentenceCollector]
 # [/SentenceCollector]
 
