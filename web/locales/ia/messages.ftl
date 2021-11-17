@@ -1045,6 +1045,11 @@ sc-howto-addsen-item-2 =
     quando on lege in alte voce. Le maniera que un numero es legite depende del contexto e pote introducer confusion in le collection de datos.
     Per exemplo, le numero “2409” pote esser correctemente legite como ambe “vinti-quatro zero nove” e
     “duo milles quatro cento nove”.
+sc-howto-addsen-item-3 =
+    Abbreviationes eAcronymos. Abbreviationes e acronymos como “USA” o “ICE” 
+    debe esser evitate in le texto fonte perque illos pote esser legite in un maniera que non coincide con lor orthographia.
+    In addition, on pote haber plure accurate lecturas pro un singule abbreviation.
+    Per exemplo, le acronymo “ICE” pote esser pronunciate “I-C-E” o como singule parola.
 
 # [/SentenceCollector]
 
