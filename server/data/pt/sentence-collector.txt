@@ -393,6 +393,7 @@ A arte aguça os sentidos e expande a percepção da realidade
 A arte rupestre é uma das minhas preferidas
 A assinatura deste roteiro pelo participante supõe o fechamento de sua primeira fase.
 A assistência é gratuita e aberta a todos para a capacidade da sala.
+A astúcia artificial deste gerador de paráfrase é tão sofisticada
 A atitude do superior e do inferior não é bem guardada.
 A ativação do softmax é muito cara para computar.
 A atividade era de história, não de português
@@ -509,6 +510,7 @@ A cena da neve no caminho é uma obrigação
 A cena que vejo agora
 A cera de parafina é um ingrediente importante de uma vela.
 A cerca quebrou.
+A certificação de metodologias que nos auxiliam a lidar com a contínua expansão
 A cerveja foi mais do que apenas refrescante? foi delicioso.
 A cerveja provei realmente bom.
 A cerâmica foi arranhada pelas bases do raque
@@ -1284,6 +1286,7 @@ A pauta foi modificada há poucos minutos
 A pauta não foi divulgada
 A paz começa quando a ambição termina.
 A paz do dia
+A paz mundial não é somente possível, mas inevitavelmente inelutável.
 A pedra que cai não pára no final do declive.
 A pedra, quando sai da minha mão, não sabe para onde vai.
 A penalidade se tornará firme no dia seguinte à notificação.
@@ -1668,6 +1671,7 @@ A virtude não floresce e a rica fruta nasce.
 A vista deveria valer a pena.
 A vizinhança está sofrendo com uma infestação de formigas
 A voracidade daquela velha vala era a de todos os velhos filhos da Albufera.
+A vossa coragem e sacrifício serão lembrados para todo o sempre.
 A votação é secreta.
 A voz da mãe repetia-lhe uma porção de casos extraordinários:
 A voz do anjo corresponde a uma voz de soprano.
@@ -2010,6 +2014,7 @@ Advérbio, conjunção, preposição e interjeição
 Adão Fogassa
 Adão é um bandido.
 Afaste-se de mim, embusteiro
+Afeta positivamente a correta previsão do orçamento setorial.
 Afetar a circulação sanguínea
 Afinal de contas, dois meses de relacionamento não dão tanto direito a você.
 Afinal, a ideia que saiu temporariamente
@@ -3971,6 +3976,7 @@ Aroeiras
 Aroeiras do Itaim
 Arquelau Rodrigues Lopes
 Arquimedio Alves de Souza
+Arquipélago é um conjunto de ilhas ou ilhéus
 Arquivo Nacional da Torre do Tombo
 Arquivo descritivo, de acordo com o modelo padrão que aparece como anexo quatro.
 Arquivo, registro, cálculo, faturamento ou tarefas semelhantes que exigem algum grau de iniciativa.
@@ -4396,6 +4402,7 @@ Aspiremos elevarmo-nos a condições mais purificadas e saneadas
 Aspásia
 Assaré
 Assaí
+Assemelha-se a uma bijuteria
 Assentamentos israelenses na região da Palestina
 Assentos altos são melhores para os fãs de futebol.
 Assessorar empresas locais e privadas no planejamento de ações.
@@ -7822,6 +7829,7 @@ Darren nunca viu uma garrafa até os seis meses de idade.
 Das câmaras de comércio, sabemos que nossas vozes sozinhas não são suficientes.
 Das dez questões meteorológicas, o número máximo de erros permitido será cinco.
 Das diferentes infraestruturas que fazem parte da ação e detalhe dos diferentes pontos singulares.
+Das posturas dos órgãos dirigentes com relação às suas atribuições.
 Data Science é incrível!
 Data de formalização: nove de janeiro de dois mil e dezessete.
 Data de nascimento
@@ -10222,6 +10230,7 @@ Ele realmente era um rei sábio.
 Ele realmente era um rei!
 Ele realmente não parece tão ruim.
 Ele recitou um Pai Nosso em silêncio.
+Ele reduzirá o tempo necessário para o nosso programa na inicialização.
 Ele reiniciou seus esforços pela vigésima vez.
 Ele resolveu a equação muito mais rápido do que se pensava anteriormente.
 Ele respirou profundamente
@@ -13726,6 +13735,7 @@ Eva quer o cabelo dela.
 Eva teve um relacionamento misterioso com Ronald.
 Evellyn, Natieli, Mireli, Sthefany e Izabella
 Evidente.
+Evidentemente, a necessidade de renovação processual faz parte
 Evidentemente, somos o show de chão.
 Evitar o autoritarismo através do aprofundamento das instituições democráticas
 Evite a claridade e a exposição ao sol enquanto durar a infecção ocular
@@ -13850,6 +13860,7 @@ Exército nacional totalmente mobilizado alívio de desastres
 Ezequiel, Luciana, Lucas, Nara e Clarisse
 Fabricado em Taiwan.
 Facebook coleta dados sobre não membros.
+Facilita a criação do retorno esperado a longo prazo.
 Facilmente adquirido, facilmente perdido.
 Facilmente assegurado que nada não é mantido.
 Fadas, gnomos, duendes e anões são criaturas mágicas
@@ -14085,6 +14096,7 @@ Fica aqui
 Ficando cada vez mais doloroso
 Ficando mais rápido estava ganhando liberdade.
 Ficando um monte de coisas erradas
+Ficaremos extremamente felizes se cantar alguma coisa.
 Ficará surpreendido com o que há para fazer sem ter que utilizar o cartão.
 Ficou claro que as luzes da modernidade começaram a vislumbrar nosso povo.
 Figos e uvas para agosto, e para setembro, marmelos.
@@ -17121,6 +17133,7 @@ Maraã
 Maraú
 Marc dobrou sessenta centímetros de luz livre.
 Marc, você poderia me dar o mata-moscas?
+Marcadores definitivos das incongruências simplórias
 Marcação
 Marcação a mercado no Tesouro Direto
 Marcel Ávila Siqueira
@@ -18005,6 +18018,7 @@ Mister Robinson chegará a tempo.
 Mister Turner não ficará feliz com isso.
 Misture tudo
 Misture tudo bem
+Misturou as miçangas para formar um pequeno objeto decorativo
 Mistério
 Miszar estava dormindo mal.
 Miséria e presunção de que os pobres só podiam deslumbrar!
@@ -19228,6 +19242,7 @@ Nunca tinha visto uma Ferrari ao vivo.
 Nunca vi
 Nunca vi em Taiwan
 Nunca vou esquecer isso.
+Nunca é demais lembrar o peso e o significado destes problemas
 Nunca é tarde para consertar
 Nunca é tarde para consertar.
 Nuporanga
@@ -19587,6 +19602,7 @@ Não negue; os motivos do meu procedimento podiam ser e eram dignos;
 Não nos dê esse material de ética.
 Não o vejo há uma semana.
 Não obrigado.
+Não obstante, a consulta aos diversos militantes estende o alcance
 Não obstante, era indispensável muita cautela:
 Não organize tudo o que é difícil de fazer.
 Não os ajude a gravar
@@ -20301,6 +20317,7 @@ O Flávio trabalhou cinco anos na Via Engenharia e três na Andrade Gutierrez.
 O Francisco voou com pontos da American Airlines.
 O Frederico conseguiu uma entrevista na Apple para trabalhar no Vale do Silício.
 O Fábio usou milhas da Gol.
+O Gerador de Frases Intrincadas é um recurso gratuito que pode reformular
 O Google está vivendo um momento muito bom.
 O Google é um bom exemplo a seguir.
 O Grande Terremoto do Leste do Japão
@@ -20802,6 +20819,7 @@ O cronômetro será lançado quando o candidato começar a corrida.
 O crédito ganho pela mentira é rápido em morrer.
 O cubano adivinhou essa emoção.
 O cubano sentiu-se assustado e desanimado com a magnitude da empresa.
+O cuidado em identificar pontos críticos no comprometimento entre as equipes prepara-nos
 O cuidado que os americanos tiveram de separar a Igreja do Estado.
 O cultivo diário de plantas é uma questão de mulheres.
 O curso de alemão foi adiado
@@ -20938,6 +20956,7 @@ O elemento antimônio é usado principalmente em retardadores de chama.
 O elevador foi operado por um sistema pneumático.
 O embarque de água é uma forma terrível de tortura.
 O embuste não foi identificado até a conclusão da peripécia
+O empenho em analisar a valorização de fatores subjetivos ainda não demonstrou convincentemente
 O empenho foi grande
 O encanador apertou a válvula com vazamento.
 O encantamento foi escrito em itálico.
@@ -21144,6 +21163,7 @@ O gênio deve sair da lâmpada
 O hall de tráfego tem uma área especial para o design de Londres.
 O hambúrguer é de carne de porco.
 O headphone tinha quebrado
+O herói misterioso voltou a fazer um salvamento.
 O herói sempre tem inimigos.
 O hidratante move-o e as chuvas do leste.
 O homem acabou de subir uma pedra
@@ -21223,6 +21243,7 @@ O imperador pode se tornar um mendigo, se apenas o povo o eleger.
 O importante era sair do perigo.
 O importante é que ele deu o primeiro passo
 O imóvel me custou os olhos da cara
+O incentivo ao avanço tecnológico, assim como o desafiador cenário globalizado
 O incidente não é tratado como suspeito.
 O indulto para George.
 O inferno está lotado daqueles que se dizem muito santos
@@ -21294,6 +21315,7 @@ O lado mais bonito da natureza humana
 O ladrão não estava lá? e o dono lhe trouxe uma xícara de chá.
 O lago brilhava ao sol vermelho e quente.
 O lançamento aéreo da bomba atômica em Hiroshima teve implicações devastadoras.
+O laptop que você está usando
 O laudo concluiu pela sua inocência.
 O laudo pericial esclarecerá o que ocorreu e apontará os responsáveis
 O layout inicial olha para o futuro
@@ -21563,6 +21585,7 @@ O novo começo será milagroso.
 O novo filme do Homem-Aranha será lançado esse ano.
 O novo governo cedeu a província aos rebeldes.
 O novo jarro faz a água fresca.
+O novo modelo estrutural aqui preconizado
 O novo portátil parece ter muito desempenho.
 O não cumprimento da despesa mínima definida resultará na revogação do subsídio concedido.
 O não cumprimento desta obrigação determinará a perda de adesão provisória.
@@ -21570,6 +21593,7 @@ O não cumprimento desta obrigação será a causa do cancelamento do contrato.
 O não cumprimento desta prescrição resultará no cancelamento da autorização.
 O nó no caule de trigo cresceu diariamente.
 O número cinco me parece certo.
+O número de combinações possíveis e consequentes utilizações parece ilimitado.
 O número de incrementos é ilimitado.
 O número de infectados é muito grande.
 O número de lugares é limitado, por favor compreenda
@@ -22034,6 +22058,7 @@ O que são Acordo de Paris e Tríplice Aliança, respectivamente?
 O que te enriquece são os juros compostos
 O que te faz pensar que eu te responderia?
 O que tem fora?
+O que temos que ter sempre em mente
 O que tenho que fazer?
 O que tia está fazendo?
 O que tinha que ser desejado?
@@ -22562,6 +22587,7 @@ O vinho, pouco é bom, muito é veneno.
 O vioão era velho.
 O vitral oferecia uma atmosfera hipnótica.
 O vizinho do quarto é um caso como um repolho.
+O vocabulário deste parafraseador contém uma pletora de palavras
 O volante Lamborghini é feito de couro de pantera.
 O volume não aumentaria muito mais.
 O volume é, se não o fizer, semelhante.
@@ -23887,6 +23913,7 @@ Para!
 Paracambi
 Paracatu
 Paracuru
+Parafrasear ou reescrever orações, parágrafos, artigos, conteúdos
 Paragominas
 Paraguaçu
 Paraguaçu Paulista
@@ -24010,6 +24037,7 @@ Participar como representante do Departamento em diferentes grupos de trabalho i
 Participar de diplomas universitários que não sejam de grau.
 Participar de reuniões do Ministério da Indústria, Turismo e Comércio.
 Participar dos representantes do setor nas entrevistas que eles solicitarem.
+Participar na mudança das condições financeiras e administrativas exigidas.
 Participar no desenvolvimento e implementação de programas interdepartamentais.
 Participar nos órgãos colegiados transversais no domínio dos contratos públicos.
 Participaram do pregão seis concorrentes
@@ -24304,6 +24332,7 @@ Peras não podem provar o mesmo sabor.
 Perca a reserva
 Perca a reserva para negócios
 Perca seu visual
+Percebemos, cada vez mais
 Perdendo tempo
 Perder para a razão, sempre é ganhar.
 Perdeu milhões em uma pirâmide financeira
@@ -24667,6 +24696,7 @@ Podemos falar sobre a realocação como um catalisador para a mudança de identi
 Podemos fechar o sistema de aquecimento?
 Podemos guardar os brinquedos até a noite de Natal?
 Podemos jogar tênis aqui?
+Podemos já vislumbrar o modo pelo qual o surgimento do comércio virtual possibilita
 Podemos nos encontrar essa refeição por favor?
 Podemos nos reunir hoje?
 Podemos planejar fazer isso na terça-feira?
@@ -24796,6 +24826,7 @@ Por favor, envie informações de registro usando o módulo do sistema padrão.
 Por favor, esteja acompanhado pelos pais
 Por favor, evite tirar fotos nesta área.
 Por favor, jogue um álbum de música dos anos noventa.
+Por favor, leia cuidadosamente as informações a seguir.
 Por favor, lembre-se da diferença entre a plataforma e o trem.
 Por favor, leve um cartão de visita.
 Por favor, marque dois quilos.
@@ -25079,6 +25110,7 @@ Positivamente, tinha medo.
 Positivo.
 Posição de liderança
 Posição original não recuperada
+Posições no estabelecimento dos modos de operação convencionais.
 Posse
 Possivelmente
 Posso ajudar você a empacotar?
@@ -25365,6 +25397,7 @@ Processador Intel.
 Processador de quatro núcleos.
 Processadores Intel.
 Processe as sugestões e reclamações que afetam seus próprios assuntos.
+Processo de gerenciamento de alternativas às soluções ortodoxas
 Processo mediúnico
 Processos administrativos da prefeitura
 Procura no Google
@@ -26387,6 +26420,7 @@ Que tipo de respiração ocorrerá na ausência de oxigênio?
 Que tristeza!, as abelhas pensaram.
 Que vergonha!
 Que você disse?
+Que é capaz de entender até mesmo o contexto.
 Que é? perguntou-lhe.
 Que ótimo!
 Que, de maneira espiritual e científica, eu também sabia sobre essas questões.
@@ -26888,6 +26922,7 @@ Reembolsar a enorme dívida
 Reencha um copo de graça
 Reequilibrar difere-se de calibrar
 Reestruturação do tráfego na cidade de Kaohsiung
+Reestruturação dos conhecimentos estratégicos para atingir a excelência.
 Referência especial aos atos judiciais, de procedimento e que esgotam a via administrativa.
 Refiro-me à aproximação entre o Brasil e os Estados Unidos.
 Reflexões acerca das atribulações socioeconômicas
@@ -29056,6 +29091,7 @@ Sítio do Mato
 Sítio do Quinto
 Só Brasil e Estônia não têm imposto sobre grandes fortunas
 Só a leitura transformará as futuras gerações
+Só achei que daria uma história interessante e convincente
 Só agora
 Só assim ele seria capaz de ler os presságios.
 Só coloquei um pouco de cúrcuma e erva-doce
@@ -29078,6 +29114,8 @@ Só tem carro por vir
 Só um momento
 Só uma maneira você pode me ajudar.
 Só vai ser muito mais fácil com você.
+Só é preciso uma centelha, uma singela fagulha
+Só é preciso uma pequena quantidade.
 Súbito, deu um grande salto
 Tabaco, vinho e fogo, pouco.
 Tabaporã
@@ -29201,6 +29239,7 @@ Também levou um tripé para tirar uma foto
 Também parece ótimo com alguns camarões descascados.
 Também permite aplicar melhorias.
 Também permite filtragem avançada por categorias, classificações e outros.
+Também pode ser utilizado para aprimorar o vocabulário
 Também poderia estar morando na geladeira.
 Também prefiro sonhar para sempre
 Também recomendo vincular os atalhos que permitem abrir rapidamente um favorito.
@@ -29386,6 +29425,7 @@ Temos como objetivo a vitória.
 Temos oito por cento das pessoas conectadas à Internet e metade usa software ilegal.
 Temos que "existir no setor".
 Temos que compreender esse fato.
+Temos que examinar cuidadosamente este caso.
 Temos que nos livrar da má sorte!
 Temos que procurar um modelo alternativo e conviver com as multinacionais.
 Temos que produzir um show agora.
@@ -29680,6 +29720,8 @@ Todas as regiões estão se sentindo prejudicadas
 Todas as vias públicas devem ser rotuladas, ou seja, devem ser identificadas.
 Todas essas chapas de aço causaram frio e raiva.
 Todas essas funções são indispensáveis ​​durante a vida do projeto.
+Todas estas questões, devidamente ponderadas
+Todavia, a adoção de políticas descentralizadoras é uma das consequências do sistema
 Todavia, não neguei aos amigos as vantagens pecuniárias
 Todo alfaiate faz o corte dele e alguns dois atrás.
 Todo ano a mesma coisa aconteceu.
@@ -32383,6 +32425,7 @@ Uma pequena ilha estava subindo no meio da água.
 Uma pequena menina deslizando de cabeça para baixo em um slide vermelho brilhante.
 Uma pequena orquestra de cordas toca em uma igreja onde a multidão assiste.
 Uma pequena palavra pode derrubá-lo.
+Uma pequena relíquia descoberta incrível e misteriosamente intacta.
 Uma pequena universitária de uma escola de jornalismo!
 Uma pergunta.
 Uma pessoa a serviço do Memorial Democrata, que irá gravar a reunião do júri.
@@ -32580,6 +32623,7 @@ Urutaí
 Uruçuca
 Uruçuí
 Urânia
+Usa-se o termo para se referir a qualquer grupo de ilhas relativamente próximas
 Usado para coletar opiniões
 Usando satélites para acessar a Internet no espaço
 Usando software livre, obtenha controle sobre seu computador e seus dados.
@@ -32899,6 +32943,7 @@ Veredinha
 Veremos então que temos três termos relacionados, mas que identificam conceitos diferentes.
 Vergonha grita.
 Verificação da hipótese no método científico
+Verificação dos procedimentos normalmente adotados
 Verifico que, tantas vezes alegre, tantas vezes contente, estou sempre triste.
 Verificou que ela tinha diabetes
 Verificou-se que eles não existiam e foram colocados para criá-los.
@@ -33107,6 +33152,7 @@ Você ainda não me disse
 Você ainda não viu nada.
 Você ainda ouve música?
 Você ainda se lembra da senha da sua conta antiga?
+Você ainda será vulnerável à vigilância direcionada.
 Você ainda tem amigos do lado de fora?
 Você ainda tem uma chance
 Você ainda vai comer a coisa toda?
@@ -34920,6 +34966,7 @@ zé Doca
 Área de estar cheia de pessoas
 Área do Maresme: inclui os centros localizados na região de Maresme.
 Área especial
+Áreas plantadas são protegidas por barreiras de onda para minimizar a erosão.
 Árvore que é transplantada, deixe-a regar bem.
 Árvore velha e transplantada, previamente morta que enraizou.
 Áurea
@@ -34984,6 +35031,7 @@ zé Doca
 É bom, pois assim economiza um pouco mais
 É chuvoso em Greely Center?
 É chuvoso em São Paulo?
+É claro que a competitividade nas transações comerciais acarreta um processo de reformulação
 É claro que terminou tudo em pizza.
 É claro que? isso apenas reduz a gravidade do problema.
 É como eles dizem.
@@ -35233,6 +35281,7 @@ zé Doca
 É possível montar um parquinho no parque?
 É possível tirar uma folga maior do estudo da física teórica?
 É possível ver O Dia do Chacal no Pacific Theatres
+É possível, mas achamos bastante dúbio.
 É preciso dizer a verdade como ela é.
 É preciso falar sério: é a mesma coisa.
 É preciso fazer um processo de desintoxicação ao se ter contato com metais pesados
