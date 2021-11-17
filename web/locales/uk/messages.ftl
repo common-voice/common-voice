@@ -1051,6 +1051,13 @@ sc-footer-cookies = Куки
 sc-login-signup-button = Увійти / Зареєструватися
 sc-logout-button = Вийти
 sc-home-title = Ласкаво просимо до Common Voice Sentence Collector
+sc-home-intro =
+    Sentence Collector — це частина <commonVoiceLink>Common Voice</commonVoiceLink>.
+    Тут учасники можуть збирати та перевіряти речення, створені спільнотою.
+    Ви також можете використовувати його для імпорту та очищення загальнодоступного корпусу малого
+    та середнього розміру, який ви знайшли або зібрали. Усі речення мають бути загальнодоступними.
+    Затверджені речення експортуються щотижня в репозиторій Common Voice і випускаються
+    на вебсайті Common Voice під час кожного нового розгортання.
 
 # [/SentenceCollector]
 
