@@ -1058,6 +1058,51 @@ sc-home-intro =
     та середнього розміру, який ви знайшли або зібрали. Усі речення мають бути загальнодоступними.
     Затверджені речення експортуються щотижня в репозиторій Common Voice і випускаються
     на вебсайті Common Voice під час кожного нового розгортання.
+sc-home-collect-title = Запропонувати речення
+sc-home-collect-text = Допоможіть нам, написавши або зібравши речення суспільного надбання.
+sc-home-review-title = Перевірити речення
+sc-home-review-text = Допоможіть нам, перевіривши речення на правильність відповідно до настанов.
+sc-howto-title = Як
+sc-howto-addlang-title = Додавання мов для роботи
+sc-howto-addlang-text = Після входу ви можете вибрати свої мови в розділі профілю.
+sc-howto-addsen-title = Додайте нові речення
+sc-stats-title = Статистика
+sc-stats-last-update = Востаннє оновлено: { $lastUpdate }
+sc-stats-last-update-never = Востаннє оновлено: ніколи
+sc-stats-updating = Оновлення…
+sc-submit-err-select-lang = Оберіть мову.
+sc-submit-err-add-sentences = Додайте речення.
+sc-submit-err-add-source = Додайте джерело.
+sc-submit-err-confirm-pd = Підтвердьте, що ці речення є суспільним надбанням.
+sc-submit-prompt =
+    .message = Речення не надіслано. Ви впевнені, що хочете вийти?
+sc-submit-title = Додайте речення
+sc-submit-select-language =
+    .labelText = Вибрати мову
+sc-submit-add-sentences = Додайте речення <wikipediaLink>суспільного надбання</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Одне речення на рядок
+sc-submit-from-where = Звідки ці речення <wikipediaLink> суспільного надбання</wikipediaLink>?
+sc-add-lang-sec-button = Додати мову
+sc-confirm-button-text = Підтвердити
+sc-login-err-failed = Не вдалося увійти
+sc-login-err-try-again = Спробуйте ще раз.
+sc-personal-err-lang-not-found = Не вдалося вилучити мову: мову не знайдено
+sc-personal-err-remove = Не вдалося вилучити мову
+sc-personal-your-languages = Ваші мови:
+sc-personal-remove-button = вилучити
+sc-personal-added-by-you = { $sentences } додано вами
+sc-personal-not-added = Ви ще не додали жодної мови.
+sc-criteria-modal = ⓘ Критерії перевірки
+sc-criteria-title = Критерії перевірки
+sc-criteria-make-sure = Переконайтеся, що речення відповідає таким критеріям:
+sc-criteria-item-1 = Речення має бути написано правильно.
+sc-criteria-item-2 = Речення має бути граматично правильним.
+sc-criteria-item-3 = Речення має бути вимовним.
+sc-criteria-item-4 = Якщо речення відповідає критеріям, натисніть кнопку &quot;Затвердити&quot; праворуч.
+sc-criteria-item-5 =
+    Якщо речення не відповідає наведеним критеріям, натисніть кнопку &quot;Відхилити&quot; праворуч.
+    Якщо ви не впевнені щодо речення, ви також можете пропустити його та перейти до наступного.
 
 # [/SentenceCollector]
 
