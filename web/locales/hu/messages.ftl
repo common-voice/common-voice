@@ -1030,6 +1030,25 @@ sc-logout-button = Kijelentkezés
 sc-home-title = Üdvözöljük a Common Voice mondatgyűjtőben
 sc-home-collect-title = Mondatok gyűjtése
 sc-home-collect-text = Segítsen nekünk közkincsű mondatok írásában vagy összegyűjtésében.
+sc-home-review-title = Mondatok ellenőrzése
+sc-howto-title = Hogyan
+sc-howto-addlang-title = Kezelendő nyelvek hozzáadása
+sc-howto-addlang-text = Miután bejelentkezett, kiválaszthatja a nyelveket a profil részben.
+sc-howto-addsen-title = Új mondatok hozzáadása
+sc-howto-addsen-item-1 =
+    Az összes beküldött mondatnak <wikipediaLink>közkincs (CC-0) licencűnek</wikipediaLink> kell lennie.
+    Hogy támogassuk a nem nyilvános licenc alatti műveket, létrehoztunk egy
+    <cc0WaiverLink>Közreműködési megállapodás sablont</cc0WaiverLink> arra az esetre, ha a szerzői
+    jogtulajdonos szeretne közreműködni a Common Voice-ban.
+sc-howto-cite-title = Hogyan kell idézni
+sc-howto-cite-pre-1 =
+    Fontos, hogy hivatkozzon arra, hogy hol találta a nyilvános licencet,
+    hogy elkerüljük a plágiumot, és hogy követhetők legyenek a <copyrightIssuesLink>szerzői jogi problémák</copyrightIssuesLink>.
+    Itt van pár módja annak, hogy idézze a művet.
+sc-howto-cite-item-1 = Felveheti a weboldalt, például „Common Voice – https://commonvoice.mozilla.org/”
+sc-howto-cite-item-2 =
+    Használhat akadémiai hivatkozási stílust, például a harvard stílust:
+    „Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)”
 
 # [/SentenceCollector]
 
