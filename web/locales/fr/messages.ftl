@@ -1007,6 +1007,13 @@ see-less = <chevron></chevron>Afficher moins d’exemples
 # [SentenceCollector]
 sc-header-home = Accueil
 sc-header-add = Ajouter
+sc-header-my = Mes phrases
+sc-header-statistics = Statistiques
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-translate = Traduire cette page
+sc-footer-privacy = Confidentialité
+sc-footer-cookies = Cookies
 sc-login-signup-button = Connexion / Inscription
 sc-logout-button = Déconnexion
 sc-home-title = Bienvenue dans le collecteur de phrases de Common Voice
@@ -1025,6 +1032,13 @@ sc-howto-addsen-title = Ajouter de nouvelles phrases
 sc-howto-cite-title = Comment citer
 sc-howto-cite-item-1 = Vous pouvez inclure le site web, par exemple « Common Voice - https://commonvoice.mozilla.org/ »
 sc-howto-review-title = Vérifier les phrases
+sc-howto-review-subtitle = Assurez-vous que la phrase répond aux critères suivants :
+sc-howto-review-criteria-1 = La phrase doit être orthographiée correctement.
+sc-howto-review-criteria-2 = La phrase doit être grammaticalement correcte.
+sc-howto-review-criteria-3 = La phrase doit être prononçable.
+sc-howto-review-criteria-6 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
+sc-howto-findpd-title = Trouver des phrases existantes dans le domaine public
+sc-howto-findpd-tips = Voici quelques astuces pour trouver des phrases :
 
 # [/SentenceCollector]
 
