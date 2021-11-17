@@ -1001,6 +1001,13 @@ sc-header-statistics = 統計
 sc-header-profile = 個人資料
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = 回報 Bug
+sc-footer-translate = 翻譯此頁面
+sc-footer-report-copyright = 回報著作權問題
+sc-footer-privacy = 隱私權
+sc-footer-terms = 使用條款
+sc-footer-cookies = Cookie
+sc-login-signup-button = 登入 / 註冊
+sc-logout-button = 登出
 
 # [/SentenceCollector]
 
