@@ -150,6 +150,7 @@ ta = Taṭamilit
 te = Tatelgut
 tg = Tatajikt
 th = Taṭaylant
+tig = Tatigrit
 tl = Tagalugt
 tr = Taṭurkit
 tt = Taṭaṭarit
@@ -923,3 +924,6 @@ contribution-volume-title = Ableɣ
 contribution-just-unsure-title = Tkukraḍ?
 see-more = <chevron></chevron>Wali ugar
 see-less = <chevron></chevron>Wali drus
+
+# [/SentenceCollector]
+
