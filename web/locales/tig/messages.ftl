@@ -188,6 +188,7 @@ vote-no = ላአ
 speak-subtitle = አብ ሶትካ አትበራዕ
 listen-subtitle = ኣስዋት አግል ንሓቅቅ ሳዕድና
 hours-recorded = ላትሰጀለያ ሳዓት
+hours-validated = ላትሓቀቀያ ሳዓት
 todays-progress = ናይ ዮም ትቅዱም
 help-reach-goal = ሳኣደና ደብ { $goal } አገል ኔብጻሕ
 read-terms-q = ሹሩጥና ቃራአኩም?
@@ -268,10 +269,12 @@ faq-title = ዲማ ላልትሳኣሉ ኣስአለት
 faq-what-cv-q = Common Voice ሚቱ
 faq-why-important-q = አግል ሚቱ አሊ ሙህም?
 faq-what-cv-and-deepspeech-q = ፈርቅ ፈንገ Common Voice ው Deep Speech ሚቱ?
+faq-do-want-native-q = አላ ሉቀት ኡም ናየ ኢኮን ው አብ ለክነት አትሓገያ ሶትች ታሓዘዎ ቱ?
 faq-why-different-speakers-q = ግልሚቱ ግል ኩል ሉቀት ብዝሓም ላለትሓግው ታሓዙ?
 faq-why-my-lang-q = ሉቀት ናየ አገልሚ ይሀሌትኒ
 faq-how-calc-hours-q = Common Voice ላስዓት ኣፎ ላሕስቦ?
 faq-what-is-cv = Common Voice ሚ ቱ
+faq-using-cv = አስትዕማል ናይ Common Voice
 faq-search-for-answers =
     .label = ኣጅውበት ደውሮ
 
@@ -294,9 +297,11 @@ about-nav-get-involved = ምስልና ሳህም
 
 ## Glossary
 
+hours-recorded-explanation = ሕሳብ ናይ ኩሉ ኣስኽ ኣዘ ላ ኣኽብናሁ ትስጂል ናይ ሶት
 
 ## Error pages
 
+error-title-404 = ላ ስፍሓት ንርከባካ ኢቀደርናኒ
 error-code = ኻጣአ
 
 ## Data
@@ -305,6 +310,7 @@ data-download-yes = ኣየዋ
 data-download-deny = ልአ
 data-download-license = ሩኽሰት: <licenseLink>CC-0</licenseLink>
 data-other-goto = { $name } ጊስ
+dataset-date = ታሪኽ
 terms-agree = አዋፍቅ
 terms-disagree = ይአዋፍቅኒ
 review-recording = ራጀዕ
@@ -315,6 +321,8 @@ review-keep-recordings = ዲብ ትስጂል ኣስተምር
 
 language = ሉቀት
 cv-license = ሩኽሰት
+validated-hours = ላትሓቀቅያ ሳዓት
+recorded-hours = ላትስጅለያ ሳዓት
 
 ## Download Modal
 
