@@ -106,6 +106,7 @@ mhr = Wiesenmari
 mk = Mazedonisch
 ml = Malayalam
 mn = Mongolisch
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Bergmari
@@ -152,7 +153,7 @@ te = Telugu
 tg = Tadschikisch
 th = Thailändisch
 ti = Tigrinya
-Tig = Tigre
+tig = Tigre
 tl = Tagalog
 tr = Türkisch
 tt = Tatarisch
@@ -1002,3 +1003,47 @@ contribution-just-unsure-title = Nur unsicher?
 contribution-just-unsure-description = Wenn Sie auf etwas stoßen, das diese Richtlinien nicht abdecken, stimmen Sie bitte nach bestem Wissen und Gewissen ab. Wenn Sie sich wirklich nicht entscheiden können, verwenden Sie die Überspringen-Schaltfläche und fahren Sie mit der nächsten Aufnahme fort.
 see-more = <chevron></chevron>Mehr anzeigen
 see-less = <chevron></chevron>Weniger anzeigen
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = Startseite
+sc-header-how-to = Anleitung
+sc-header-add = Hinzufügen
+sc-header-review = Bewertungen
+sc-header-rejected = Abgelehnte Sätze
+sc-header-my = Meine Sätze
+sc-header-statistics = Statistiken
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Fehler melden
+sc-footer-translate = Diese Seite übersetzen
+sc-footer-report-copyright = Urheberrechtsverletzung melden
+sc-footer-privacy = Datenschutz
+sc-footer-terms = Nutzungsbedingungen
+sc-footer-cookies = Cookies
+sc-login-signup-button = Anmelden / Registrieren
+sc-logout-button = Abmelden
+sc-home-title = Willkommen beim Common-Voice-Satzsammler
+sc-home-intro =
+    Der Satzsammler ist Teil von <commonVoiceLink>Common Voice</commonVoiceLink>.
+    Er ermöglicht Mitwirkenden, von der Gemeinschaft erstellte Sätze zu sammeln und zu validieren.
+    Sie können dieses Tool auch zum Importieren und Bereinigen kleiner bis mittlerer gemeinfreier Korpusse verwenden, die Sie gefunden oder gesammelt haben. Alle Sätze müssen gemeinfrei sein.
+    Genehmigte Sätze werden jede Woche in das Common-Voice-Repository exportiert und auf der Common-Voice-Website mit jeder neuen Version freigegeben.
+sc-home-collect-title = Sätze sammeln
+sc-home-collect-text = Helfen Sie uns, indem Sie gemeinfreie Sätze schreiben oder sammeln.
+sc-home-review-title = Sätze überprüfen
+sc-home-review-text = Helfen Sie uns, indem Sie Sätze gemäß den Richtlinien auf Richtigkeit überprüfen.
+sc-howto-title = Anleitung
+sc-howto-addlang-title = Sprachen hinzufügen, mit denen gearbeitet wird
+sc-howto-addlang-text = Sobald Sie angemeldet sind, können Sie Ihre Sprachen im Abschnitt Profil auswählen.
+sc-howto-addsen-title = Neue Sätze hinzufügen
+sc-howto-addsen-item-1 =
+    Alle Sätze, die Sie einreichen, müssen unter der <wikipediaLink>Public Domain (CC-0)-Lizenz</wikipediaLink> stehen.
+    Um die Aufnahme von Arbeiten zu unterstützen, die nicht unter öffentlicher Lizenz stehen, haben wir eine
+    <cc0WaiverLink>Vorlage für Beiträge</cc0WaiverLink> für Werke erstellt, bei denen der Urheberrechtsinhaber sein Material zu Common Voice beitragen möchte.
+sc-howto-addsen-item-2 =
+    Zahlen. Der Quelltext sollte keine Ziffern enthalten, da diese Probleme verursachen können, wenn sie laut vorgelesen werden. Die Art und Weise, wie eine Zahl gelesen wird, hängt vom Kontext ab und kann zu Verwirrung im Datensatz führen.
+    Zum Beispiel könnte die Zahl „2409“ sowohl als „vierundzwanzig null neun“ als auch als „zweitausendvierhundertneun“ gelesen werden.
+
+# [/SentenceCollector]
+
