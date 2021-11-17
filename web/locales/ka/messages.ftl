@@ -106,6 +106,7 @@ mhr = აღმოსავლეთ დაბლობის მარიულ
 mk = მაკედონური
 ml = მალაიალამური
 mn = მონღოლური
+mni = მეიტეილონი
 mos = მოსი
 mr = მარათული
 mrj = მთის მარიული
@@ -152,7 +153,7 @@ te = ტელუგუ
 tg = ტაჯიკური
 th = ტაილანდური
 ti = ტიგრინია
-Tig = ტიგრინია
+tig = ტიგრინია
 tl = ტაგალური
 tr = თურქული
 tt = თათრული
@@ -999,9 +1000,27 @@ contribution-just-unsure-title = მაინც ეჭვი გეპარე
 contribution-just-unsure-description = თუ ისეთ საკითხს წააწყდით, რომელიც ამ მითითებებში არაა განხილული, გთხოვთ შეაფასოთ საკუთარი შეხედულებისამებრ, კეთილსინდისიერად. როცა ნამდვილად გაგიჭირდებათ გადაწყვეტილების მიღება, უბრალოდ გამოტოვეთ და სხვა ჩანაწერზე გადადით.
 see-more = <chevron></chevron>ვრცლად
 see-less = <chevron></chevron>შემოკლებულად
-
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+sc-header-home = მთავარი
+sc-header-how-to = როგორ
+sc-header-add = დამატება
+sc-header-review = მიმოხილვა
+sc-header-rejected = უარყოფილი წინადადებები
+sc-header-my = ჩემი წინადადებები
+sc-header-statistics = სტატისტიკა
+sc-header-profile = პროფილი
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = ხარვეზის მოხსენება
+sc-footer-translate = ამ გვერდის თარგმნა
+sc-footer-report-copyright = საავტორო უფლებებზე მოხსენება
+sc-footer-privacy = პირადულობა
+sc-footer-terms = პირობები
+sc-footer-cookies = ფუნთუშები
+sc-login-signup-button = შესვლა / შექმნა
+sc-logout-button = გასვლა
+sc-home-title = მოგესალმებათ Common Voice – წინადადებების შემგროვებელი
+
 # [/SentenceCollector]
 
