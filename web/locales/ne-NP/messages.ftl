@@ -152,7 +152,6 @@ te = तेलुगु
 tg = ताजिक
 th = थाई
 ti = तिग्रिन्या
-Tig = टिग्री
 tl = तागालोग
 tr = टर्किस
 tt = टटार
@@ -1002,9 +1001,20 @@ contribution-just-unsure-title = पक्का हुनुहुन्न?
 contribution-just-unsure-description = यदि तपाइँ यी दिशानिर्देशहरु कभर केहि कुरामा आउनुभयो भने, कृपया तपाइँको उत्तम निर्णय अनुसार भोट गर्नुहोस्। यदि तपाइँ साँच्चै निर्णय गर्न सक्नुहुन्न, छोड्नुहोस् बटन को उपयोग गर्नुहोस् र अर्को रेकर्डिङ्ग मा जानुहोस्।
 see-more = <chevron> </chevron> थप हेर्नुहोस्
 see-less = <chevron> </chevron> कम हेर्नुहोस्
-
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+sc-header-home = गृह
+sc-header-add = थप्नुहोस्
+sc-header-review = समीक्षा गर्नुहोस्
+sc-header-rejected = अस्वीकार गरिएका वाक्यहरु
+sc-header-my = मेरा वाक्यहरु
+sc-header-statistics = तथ्याङ्क
+sc-header-profile = प्रोफाइल
+sc-review-form-button-approve = अनुमोदन गर्नुहोस्
+sc-review-link = समीक्षा गर्नुहोस्
+sc-settings-title = सेटिङ्गहरू
+sc-settings-failed = सेटिङ्गहरू परिवर्तन गर्न सकिएन। कृपया पुनः प्रयास गर्नुहोस।
+
 # [/SentenceCollector]
 
