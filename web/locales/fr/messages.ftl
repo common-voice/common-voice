@@ -1039,6 +1039,20 @@ sc-howto-review-criteria-3 = La phrase doit être prononçable.
 sc-howto-review-criteria-6 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 sc-howto-findpd-title = Trouver des phrases existantes dans le domaine public
 sc-howto-findpd-tips = Voici quelques astuces pour trouver des phrases :
+sc-my-title = Mes phrases
+sc-my-loading = Chargement de vos phrases…
+sc-my-err-fetching = Erreur lors de la récupération de vos phrases. Veuillez réessayer.
+sc-my-no-sentences = Aucune phrase trouvée !
+sc-my-source = Source : { $source }
+sc-my-delete = Supprimer les phrases sélectionnées
+sc-my-deleting = Suppression des phrases sélectionnées…
+sc-profile-title = Profil : { $username }
+sc-rejected-title = Phrases rejetées
+sc-rejected-loading = Chargement des phrases rejetées…
+sc-rejected-err-fetching = Erreur lors de la récupération des phrases rejetées. Veuillez réessayer.
+sc-rejected-none-found = Aucune phrase rejetée n’a été trouvée !
+sc-review-title = Vérifier les phrases
+sc-review-loading = Chargement des phrases…
 
 # [/SentenceCollector]
 
