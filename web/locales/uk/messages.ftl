@@ -1203,6 +1203,20 @@ sc-add-lang-could-not-add = Не вдалося додати мову
 sc-add-lang-sec-label = Додайте мову, до якої ви хочете зробити внесок
 sc-add-lang-sec-button = Додати мову
 sc-add-err-unexpected = Сервер повернув неочікувану відповідь
+sc-add-result =
+    { $duplicates ->
+        [0] Надіслані речення. Відхилено { $duplicates } речень, як повторюваних.
+        [one] Надіслані речення. Відхилено { $duplicates } речення, як повторюване.
+        [few] Надіслані речення. Відхилено { $duplicates } речення, як повторювані.
+       *[many] Надіслані речення. Відхилено { $duplicates } речень, як повторюваних.
+    }
+sc-add-err-failed =
+    { $sentences ->
+        [0] Не вдалося додати речення
+        [one] Не вдалося додати 1 речення
+        [few] Не вдалося додати { $sentences } речення
+       *[many] Не вдалося додати { $sentences } речень
+    }
 sc-add-err-submission = Помилка надсилання
 sc-confirm-are-you-sure =
     .message = Речення не надіслано. Ви впевнені, що хочете вийти?
@@ -1215,9 +1229,59 @@ sc-confirm-sentences-found =
        *[many] Знайдено { $countOfSentences } речень.
     }
 sc-confirm-rejected-by-you = Ви відхилили { $countOfInvalidated }
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ще не переглянуто жодного речення
+        [one] Уже переглянуто 1 речення. Чудова робота!
+        [few] Уже переглянуто { $countOfReviewed } речення. Чудова робота!
+       *[many] Уже переглянуто { $countOfReviewed } речень. Чудова робота!
+    }
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Немає готових до надсилання речень!
+        [one] 1 речення готове до надсилання!
+        [few] { $readyCount } речення готові до надсилання!
+       *[many] { $readyCount } речень готові до надсилання!
+    }
 sc-confirm-button-text = Підтвердити
+sc-confirm-uploading = Речення завантажуються. Це може тривати кілька хвилин залежно від кількості доданих речень. Не закривайте цей вебсайт.
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Немає підсумку речень.
+        [one] Всього 1 речення.
+        [few] Всього { $totalSentences } речення.
+       *[many] Всього { $totalSentences } речень.
+    }
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Немає не перевірених речень.
+        [one] 1 не перевірене речення.
+        [few] { $totalInReview } не перевірені речення.
+       *[many] { $totalInReview } не перевірених речень.
+    }
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Не залишилося речень, які ви можете перевірити.
+        [one] Залишилося 1 речення, яке ви можете перевірити.
+        [few] Залишилося { $unreviewedSentencesByYou } речення, які ви можете перевірити.
+       *[many] Залишилося { $unreviewedSentencesByYou } речень, яке ви можете перевірити.
+    }
 sc-lang-info-review-now = <reviewLink>Перевірити зараз!</reviewLink>
 sc-lang-info-add-more = <addLink>Додайте більше речень зараз!</addLink>
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Немає перевірених речень.
+        [one] 1 перевірене речення.
+        [few] { $validatedSentences } перевірені речення.
+       *[many] { $validatedSentences } перевірених речень.
+    }
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Немає відхилених речень.
+        [one] 1 відхилене речення.
+        [few] { $rejectedSentences } відхилені речення.
+       *[many] { $rejectedSentences } відхилених речень.
+    }
 sc-login-err-failed = Не вдалося увійти
 sc-login-err-try-again = Спробуйте ще раз.
 sc-personal-err-lang-not-found = Не вдалося вилучити мову: мову не знайдено
