@@ -1008,19 +1008,34 @@ sc-footer-terms = 使用條款
 sc-footer-cookies = Cookie
 sc-login-signup-button = 登入 / 註冊
 sc-logout-button = 登出
+sc-home-title = 歡迎使用 Common Voice Sentence Collector
+sc-home-collect-title = 收集句子
+sc-home-review-title = 審核句子
 sc-howto-title = 如何做
 sc-howto-addlang-title = 新增要貢獻的語言
 sc-howto-addlang-text = 登入後，就可以從個人資料頁面段落選擇您要貢獻哪些語言的句子。
 sc-howto-addsen-title = 新增句子
 sc-howto-cite-title = 如何引用
+sc-howto-review-title = 審核句子
+sc-howto-review-subtitle = 請確認句子符合下列條件：
+sc-howto-review-criteria-1 = 句子必須拼得正確。
+sc-howto-review-criteria-2 = 句子的文法必須正確。
+sc-howto-review-criteria-3 = 句子必須說得出來。
+sc-howto-findpd-subtitle = 到網路上搜搜看
 sc-my-title = 我的句子
+sc-my-loading = 正在載入您的語句…
 sc-my-no-sentences = 找不到句子！
+sc-my-submission = 送出於：{ $batchId }
+sc-my-source = 來源：{ $source }
 sc-my-delete = 刪除選取的語句
 sc-my-deleting = 刪除選取的語句…
 sc-my-err-failed-delete = 選取的語句刪除失敗…請再試一次！
+sc-profile-title = 個人資料：{ $username }
 sc-rejected-title = 被拒絕的句子
+sc-rejected-loading = 正在載入被拒絕的句子…
 sc-rejected-none-found = 找不到被拒絕的句子！
 sc-review-title = 審核句子
+sc-review-loading = 正在載入語句…
 sc-stats-title = 統計資訊
 sc-stats-last-update = 最後更新：{ $lastUpdate }
 sc-stats-last-update-never = 最後更新：從未
@@ -1106,12 +1121,19 @@ sc-review-form-source = 來源：{ $sentenceSource }
 sc-review-form-button-reject = 退回
 sc-review-form-button-skip = 略過
 sc-review-form-button-approve = 通過
+sc-review-form-keyboard-usage = 您還可以使用快速鍵：按 Y 通過、按 N 退回、按 S 略過
 sc-review-form-button-submit =
     .submitText = 完成審核
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] 未審核語句。
+       *[other] 已審核 { $sentences } 句，感謝您！
+    }
 sc-review-link = 審核
 sc-settings-title = 設定
 sc-settings-reset-skipped = 重設略過的句子
 sc-settings-show-all-button = 再次顯示略過的句子
+sc-settings-failed = 無法更改設定，請再試一次。
 
 # [/SentenceCollector]
 
