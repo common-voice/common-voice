@@ -40,6 +40,7 @@ br = Бретонӣ
 bxr = Бурятӣ
 ca = Каталонӣ
 cak = Какчикелӣ
+ckb = Курдии Марказӣ
 cnh = Хаха Чинӣ
 co = Корсиканӣ
 cs = Чехӣ
@@ -69,6 +70,7 @@ he = Яҳудӣ
 hi = Ҳиндӣ
 hr = Хорватӣ
 hsb = Сорбӣ, боло
+ht = Ҳоитянӣ
 hu = Маҷорӣ
 hy-AM = Арманӣ
 hyw = Армании ғарбӣ
@@ -83,6 +85,7 @@ kaa = Қароқалпоқӣ
 kab = Кабилӣ
 kbd = Кабардинӣ
 kk = Қазоқӣ
+kmr = Курдии Курманҷӣ
 ko = Кореягӣ
 kpv = Коми-зирянӣ
 kw = Корнишӣ
@@ -91,18 +94,23 @@ lg = Луганда
 lij = Лигурӣ
 lt = Литвонӣ
 lv = Латишӣ
+mai = Майтхилӣ
 mdf = Мокшанӣ
 mg = Малагасӣ
 mhr = Марғзории Марийӣ
 mk = Мақдунӣ
 ml = Малаяламӣ
 mn = Муғулӣ
+mos = Моссӣ
+mr = Маратҳӣ
 mrj = Кӯҳии Марийӣ
+ms = Малайӣ
 mt = Малтӣ
 my = Бирманӣ
 myv = Эрзянӣ
 nb-NO = Букмоли норвегӣ
 ne-NP = Непалӣ
+nia = Ниасӣ
 nl = Ҳоландӣ
 nn-NO = Нюнорски норвегӣ
 oc = Окситанӣ
@@ -478,4 +486,10 @@ demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+# [/SentenceCollector]
 
