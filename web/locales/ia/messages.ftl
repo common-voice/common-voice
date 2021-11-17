@@ -1011,12 +1011,15 @@ sc-header-my = Mi phrases
 sc-header-statistics = Statistica
 sc-header-profile = Profilo
 sc-footer-discourse = Discourse
+sc-footer-report-bugs = Reportar defectos
 sc-footer-translate = Traducer iste pagina
+sc-footer-report-copyright = Reporto problemas de derectos de autor
 sc-footer-privacy = Confidentialitate
 sc-footer-terms = Terminos
 sc-footer-cookies = Cookies
 sc-login-signup-button = Aperir session / Inscriber se
 sc-logout-button = Clauder le session
+sc-home-title = Benvenite in le Collector de phrases de Common Voice
 sc-howto-title = Guidas
 
 # [/SentenceCollector]
