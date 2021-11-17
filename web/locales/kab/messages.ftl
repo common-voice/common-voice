@@ -863,6 +863,11 @@ profile-form-delete = Kkes amaɣnu
 
 ## Profile Download
 
+download-profile-title = Amaɣnu
+download-recordings-title = Iseklas
+download-size = Teɣzi
+download-request-button = Sider
+download-request-title = { $created }
 
 ## Landing
 
