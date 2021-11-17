@@ -981,6 +981,25 @@ sc-stats-last-update = Siste oppdatering: { $lastUpdate }
 sc-stats-last-update-never = Siste oppdatering: Aldri
 sc-stats-updating = Oppdaterer…
 sc-submit-title = Legg til setningar
+sc-submit-select-language =
+    .labelText = Vels språk
+sc-add-lang-could-not-add = Klarte ikkje å leggje til språk
+sc-add-lang-sec-button = Legg til språk
+sc-confirm-button-text = Stadfest
+sc-login-err-failed = Mislykka innlogging
+sc-login-err-try-again = Prøv igjen.
+sc-personal-err-remove = Klarte ikkje å fjerne språk
+sc-personal-your-languages = Dine språk:
+sc-personal-remove-button = fjern
+sc-personal-added-by-you = { $sentences } lagt til av deg
+sc-review-form-source = Kjelde: { $sentenceSource }
+sc-review-form-button-reject = Avvis
+sc-review-form-button-skip = Hopp over
+sc-review-form-button-approve = Godkjenn
+sc-review-form-button-submit =
+    .submitText = Fullfør vurdering
+sc-review-link = Vurdering
+sc-settings-title = Innstillingar
 
 # [/SentenceCollector]
 
