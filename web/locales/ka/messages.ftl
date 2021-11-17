@@ -1249,6 +1249,37 @@ sc-personal-remove-button = მოცილება
 sc-personal-added-by-you = { $sentences } დამატებულია თქვენ მიერ
 sc-personal-not-added = ჯერ არცერთი ენა არ დაგიმატებიათ.
 sc-criteria-modal = ⓘ სწორად შემოწმების შესახებ
+sc-criteria-title = როგორ მოწმდება
+sc-criteria-make-sure = უნდა აკმაყოფილებდეს შემდეგ მოთხოვნებს:
+sc-criteria-item-1 = სწორადაა ამოკითხული.
+sc-criteria-item-2 = გრამატიკულად სწორადაა შედგენილი.
+sc-criteria-item-3 = მისი წარმოთქმა სირთულეს არ წარმოადგენს.
+sc-criteria-item-4 = თუ წინადადება აკმაყოფილებს პირობებს, დაწკაპეთ „მიღება", ქვემოთ და მარჯვნივ.
+sc-criteria-item-5 =
+    თუ ვერ აკმაყოფილებს ზემოაღნიშნულ პირობებს, დაწკაპეთ „უარყოფა“, ქვემოთ და მარჯვნივ.
+    თუ გიჭირთ გადაწყვეტა, შეგიძლიათ გამოტოვოთ და სხვაზე გადახვიდეთ.
+sc-criteria-item-6 = თუ ამოიწურება შესამოწმებელი წინადადებები, გთხოვთ დაგვეხმაროთ ახლის მოძიებასა და შეგროვებაში!
+sc-review-form-prompt =
+    .message = გადამოწმებული წინადადებები არ გაგზავნილა, დარწმუნებული ხართ?
+sc-review-form-usage =
+    გადასწიეთ მარჯვნივ წინადადების მისაღებად. გადასწიეთ მარცხნივ, უარსაყოფად.
+    ასწიეთ ზემოთ, გამოსატოვებლად. <strong>არ დაგავიწყდეთ გადამოწმებულების გაგზავნა!</strong>
+sc-review-form-source = წყარო: { $sentenceSource }
+sc-review-form-button-reject = უარყოფა
+sc-review-form-button-skip = გამოტოვება
+sc-review-form-button-approve = მიღება
+sc-review-form-keyboard-usage = აგრეთვე, შეგიძლიათ გამოიყენოთ კლავიატურის ღილაკები: Y მისაღებად, N უარსაყოფად და S გამოსატოვებლად
+sc-review-form-button-submit =
+    .submitText = შემოწმების დასრულება
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] წინადადებები არ შემოწმებულა
+        [one] 1 წინადადებაა შემოწმებული. გმადლობთ!
+       *[other] { $sentences } წინადადებაა შემოწმებული. გმადლობთ!
+    }
+sc-review-form-review-failure = შემოწმებული ვერ შეინახა. გთოხვთ, კვლავ სცადოთ.
+sc-review-link = შემოწმება
+sc-settings-title = პარამეტრები
 
 # [/SentenceCollector]
 
