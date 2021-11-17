@@ -106,6 +106,7 @@ mhr = Mari des prairies
 mk = Macédonien
 ml = Malayalam
 mn = Mongol
+mni = Meitei Lon
 mos = Moré
 mr = Marathe
 mrj = Mari des montagnes
