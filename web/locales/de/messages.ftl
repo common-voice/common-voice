@@ -1044,6 +1044,62 @@ sc-howto-addsen-item-1 =
 sc-howto-addsen-item-2 =
     Zahlen. Der Quelltext sollte keine Ziffern enthalten, da diese Probleme verursachen können, wenn sie laut vorgelesen werden. Die Art und Weise, wie eine Zahl gelesen wird, hängt vom Kontext ab und kann zu Verwirrung im Datensatz führen.
     Zum Beispiel könnte die Zahl „2409“ sowohl als „vierundzwanzig null neun“ als auch als „zweitausendvierhundertneun“ gelesen werden.
+sc-howto-addsen-item-3 =
+    Abkürzungen und Akronyme. Abkürzungen und Akronyme wie „USA“ oder „ICE“
+    sollten im Quelltext vermieden werden, da sie möglicherweise nicht mit ihrer Schreibweise übereinstimmen.
+    Darüber hinaus kann es mehrere genaue Leseformen für eine einzelne Abkürzung geben.
+    Zum Beispiel könnte das Akronym „ICE“ als „I-C-E“ oder als einzelnes Wort ausgesprochen werden.
+sc-howto-addsen-item-4 =
+    Interpunktion. Sonderzeichen und Satzzeichen sollten nur enthalten sein
+    wenn es unbedingt notwendig ist. Zum Beispiel ist ein Apostroph in englischen Wörtern wie 
+    „don’t“ und „we’re“ enthalten und sollte in den Quelltext aufgenommen werden, aber es ist unwahrscheinlich, dass Sie jemals ein Sonderzeichen wie „@“ oder „#“ benötigen.
+sc-howto-addsen-item-5 =
+    Ausländische Buchstaben. Die Buchstaben müssen in der Sprache gültig sein, in der sie gesprochen werden.
+    Zum Beispiel ist „ж“ ein Buchstabe im russischen Alphabet, wird aber nie auf Englisch verwendet und sollte es auch in keinem englischen Quelltext verwendet werden.
+sc-howto-addsen-item-6 =
+    Sprachen können ihre <validationRulesLink>eigenen Validierungsregeln</validationRulesLink>  
+    mit zusätzlichen Anforderungen haben. Wenn für eine Sprache keine spezifische Validierungsdatei vorhanden ist, verwenden wir die allgemeinen englischen Regeln.
+sc-howto-addsen-post-1 =
+    Wir bevorzugen natürliche/Konversationssätze.
+    Während phonetische Vielfalt und unterschiedliche Wörter in Sätzen wichtig sind, versuchen wir,
+    soll das Aufnehmen von Sätzen möglichst viel Spaß machen. Daher wäre es toll, wenn Sie versuchen könnten, Ihre Sätze möglichst natürlich/interessant zu halten.
+sc-howto-cite-title = Zitieren
+sc-howto-cite-pre-1 =
+    Es ist wichtig, dass Sie angeben, wo Sie die öffentliche Lizenz gefunden haben
+    um Plagiate zu vermeiden und Folgemaßnahmen zu <copyrightIssuesLink>Urheberrechtsproblemen</copyrightIssuesLink> zu ermöglichen.
+    Hier sind einige Möglichkeiten, wie Sie die Arbeit zitieren können.
+sc-howto-cite-item-1 = Sie könnten die Website angeben, z.&thinsp;B. „Common Voice – https://commonvoice.mozilla.org/“
+sc-howto-cite-item-2 =
+    Sie könnten den akademischen Zitierstil verwenden, z.B. den Harvard-Style
+    „Mozilla (2021) Common Voice. Abrufbar unter https://commonvoice.mozilla.org/ (Zugriff: 15. September 2021)“
+sc-howto-cite-item-3 =
+    Für Texte unter öffentlicher Lizenz, die nicht online verfügbar sind, können Sie den akademischen Zitierstil verwenden
+    z.&thinsp;B. Hardvard-Style „Jess (2021) Meine gemeinfreien Gedichte“
+sc-howto-review-title = Sätze überprüfen
+sc-howto-review-subtitle = Stellen Sie sicher, dass der Satz die folgenden Kriterien erfüllt:
+sc-howto-review-criteria-1 = Der Satz muss richtig geschrieben sein.
+sc-howto-review-criteria-2 = Der Satz muss grammatikalisch korrekt sein.
+sc-howto-review-criteria-3 = Der Satz muss aussprechbar sein.
+sc-howto-review-criteria-4 = Wenn der Satz die Kriterien erfüllt, klicken Sie auf die Schaltfläche "Genehmigen".
+sc-howto-review-criteria-5 =
+    Wenn der Satz die oben genannten Kriterien nicht erfüllt, klicken Sie auf die Schaltfläche „Ablehnen“.
+    Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
+sc-howto-review-criteria-6 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
+sc-howto-findpd-title = Gemeinfreie Sätze finden
+sc-howto-findpd-subtitle = Suchen Sie im Internet danach
+sc-howto-findpd-text =
+    Denken Sie daran, dass wir die Erlaubnis benötigen, diese Sätze zu veröffentlichen,
+    stellen Sie also immer sicher, dass der Text zur <wikipediaLink>Public Domain</wikipediaLink> gehört. Wenn kein Hinweis vorhanden ist,
+    Wenden Sie sich an die Person, der der Text gehört, und fragen Sie, ob Sie ihren Text verwenden können.
+sc-howto-findpd-tips = Hier sind einige Tipps zum Finden von Sätzen:
+sc-howto-findpd-tips-1 =
+    Die besten Quellen, die Sie suchen können, sind Podcasts, Transkripte, Filmskripts und
+    alles, was Potenzial womöglich alltägliche Gespräche enthalten kann.
+sc-howto-findpd-tips-2 =
+    Regierungsverfahren, Bücher und Artikel sind aber auch hervorragend, da
+    diese Text ist aber eher formaler sind, sie sind weniger wichtig.
+sc-howto-findpd-tips-3 = Leider können wir noch keine Wikimedia-Artikel haben. Kopieren Sie also keine Artikel von dort.
+sc-howto-findpd-subtitle-2 = Arbeiten Sie mit lokalen Organisationen oder Einzelpersonen zusammen
 
 # [/SentenceCollector]
 
