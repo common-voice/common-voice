@@ -1029,7 +1029,12 @@ sc-home-intro =
     super le sito web de Common Voice, cata nove distribution.
 sc-home-collect-title = Colliger phrases
 sc-home-collect-text = Adjuta nos a scriber o colliger Phrases de dominio public.
+sc-home-review-title = Revider phrases
+sc-home-review-text = Adjuta nos per revider phrases pro correctessa secundo le lineas guida.
 sc-howto-title = Guidas
+sc-howto-addlang-title = Addition de linguas a laborar
+sc-howto-addlang-text = Un vice connexe, tu pote eliger tu linguas ab le section profilo.
+sc-howto-addsen-title = Adder nove phrases
 
 # [/SentenceCollector]
 
