@@ -1036,6 +1036,11 @@ sc-howto-title = როგორ
 sc-howto-addlang-title = ენების დამატება სამუშაოდ
 sc-howto-addlang-text = შესვლისას, შეგეძლებათ აირჩიოთ ენა პროფილიდან.
 sc-howto-addsen-title = ახალი წინადადებების დამატება
+sc-howto-addsen-item-1 =
+    ყველა მოწოდებული წინადადება უნდა იყოს <wikipediaLink>საყოველთაო საკუთრებაში, ღია (CC-0) ლიცენზიით</wikipediaLink>.
+    განსხვავებული ლიცენზიის მქონე მასალების მისაღებად კი შევქმენით
+    <cc0WaiverLink>შემომწირველთან შეთანხმების მოწმობა</cc0WaiverLink> იმ შემთხვევებისთვის, როცა მესაკუთრეს
+    სურს თავისი ნამუშევარი შესწიროს Common Voice-ს.
 
 # [/SentenceCollector]
 
