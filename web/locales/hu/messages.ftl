@@ -1049,6 +1049,21 @@ sc-howto-cite-item-1 = Felveheti a weboldalt, például „Common Voice – http
 sc-howto-cite-item-2 =
     Használhat akadémiai hivatkozási stílust, például a harvard stílust:
     „Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)”
+sc-howto-cite-item-3 =
+    Ha az interneten nem érhető el a licenc szövege, akkor használhatja az akadémiai hivatkozási stílust:
+    például harvard stílussal: „Jess (2021) Saját nyilvános licencű költeményeim”
+sc-howto-review-title = Mondatok ellenőrzése
+sc-howto-review-subtitle = Győződjön meg arról, hogy a mondat megfelel a következő kritériumoknak:
+sc-howto-review-criteria-1 = A mondatok helyesen vannak leírva.
+sc-howto-review-criteria-2 = A mondatok nyelvtanilag helyesek.
+sc-howto-review-criteria-3 = A mondatok kimondhatók.
+sc-howto-review-criteria-4 = Ha a mondat megfelel a feltételeknek, kattintson a „Jóváhagyás” gombra.
+sc-howto-review-criteria-5 =
+    Ha a mondat nem felel meg a fenti feltételeknek, kattintson az „Elutasítás” gombra.
+    Ha nem biztos a mondatban, akkor ki is hagyhatja, és továbbléphet a következőre.
+sc-howto-review-criteria-6 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében!
+sc-howto-findpd-title = Meglévő közkincsű szövegek keresése
+sc-howto-findpd-subtitle = Keressen rájuk az interneten
 
 # [/SentenceCollector]
 
