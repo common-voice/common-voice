@@ -1008,6 +1008,110 @@ sc-footer-terms = 使用條款
 sc-footer-cookies = Cookie
 sc-login-signup-button = 登入 / 註冊
 sc-logout-button = 登出
+sc-howto-title = 如何做
+sc-howto-addlang-title = 新增要貢獻的語言
+sc-howto-addlang-text = 登入後，就可以從個人資料頁面段落選擇您要貢獻哪些語言的句子。
+sc-howto-addsen-title = 新增句子
+sc-howto-cite-title = 如何引用
+sc-my-title = 我的句子
+sc-my-no-sentences = 找不到句子！
+sc-my-delete = 刪除選取的語句
+sc-my-deleting = 刪除選取的語句…
+sc-my-err-failed-delete = 選取的語句刪除失敗…請再試一次！
+sc-rejected-title = 被拒絕的句子
+sc-rejected-none-found = 找不到被拒絕的句子！
+sc-review-title = 審核句子
+sc-stats-title = 統計資訊
+sc-stats-last-update = 最後更新：{ $lastUpdate }
+sc-stats-last-update-never = 最後更新：從未
+sc-stats-updating = 更新中…
+sc-submit-err-select-lang = 請選擇語言。
+sc-submit-err-add-sentences = 請新增句子。
+sc-submit-err-add-source = 請新增來源。
+sc-submit-err-confirm-pd = 請確認這些句子是公有領域的句子。
+sc-submit-prompt =
+    .message = 句子尚未送出，您確定要離開嗎？
+sc-submit-title = 新增句子
+sc-submit-select-language =
+    .labelText = 選擇語言
+sc-submit-add-sentences = 新增<wikipediaLink>公有領域（Public Domain）</wikipediaLink>的句子
+sc-submit-ph-one-per-line =
+    .placeholder = 一行一句
+sc-submit-from-where = 這些<wikipediaLink>公有領域（Public Domain）</wikipediaLink>的句子來自何處？
+sc-submit-button =
+    .submitText = 送出
+sc-add-lang-could-not-add = 無法新增語言
+sc-add-lang-sec-label = 新增您想要貢獻的語言
+sc-add-lang-sec-button = 新增語言
+sc-add-err-failed =
+    { $sentences ->
+        [0] 沒有失敗的句子
+       *[other] { $sentences } 句送出失敗
+    }
+sc-add-err-submission = 送出失敗
+sc-confirm-are-you-sure =
+    .message = 句子尚未送出，您確定要離開嗎？
+sc-confirm-sentences-title = 確認新句子
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] 找不到句子。
+       *[other] 找到 { $countOfSentences } 句。
+    }
+sc-confirm-rejected-by-you = 您退回了 { $countOfInvalidated } 句。
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] 未審核任何句子。
+       *[other] 您審核了 { $countOfReviewed } 句，做得好！
+    }
+sc-confirm-button-text = 確認
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] 沒有句子。
+       *[other] 共 { $totalSentences } 句。
+    }
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] 沒有審核中的句子。
+       *[other] { $totalInReview } 句審核中的句子。
+    }
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] 沒有可供您審核的句子。
+       *[other] 剩餘 { $unreviewedSentencesByYou } 句可由您審核的句子。
+    }
+sc-lang-info-review-now = <reviewLink>現在就進行審核！</reviewLink>
+sc-lang-info-add-more = <addLink>現在就新增更多句子！</addLink>
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] 沒有驗證過的句子。
+       *[other] { $validatedSentences } 句驗證過的句子。
+    }
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] 沒有被退回的句子。
+       *[other] { $rejectedSentences } 句被退回的句子。
+    }
+sc-login-err-failed = 登入失敗
+sc-login-err-try-again = 請再試一次。
+sc-personal-err-lang-not-found = 無法移除語言：找不到語言
+sc-personal-err-remove = 無法移除語言
+sc-personal-your-languages = 您的語言：
+sc-personal-remove-button = 移除
+sc-criteria-modal = ⓘ 審核標準
+sc-criteria-title = 審核標準
+sc-criteria-item-1 = 句子必須拼得正確。
+sc-criteria-item-2 = 句子的文法必須正確。
+sc-criteria-item-3 = 句子必須說得出來。
+sc-review-form-source = 來源：{ $sentenceSource }
+sc-review-form-button-reject = 退回
+sc-review-form-button-skip = 略過
+sc-review-form-button-approve = 通過
+sc-review-form-button-submit =
+    .submitText = 完成審核
+sc-review-link = 審核
+sc-settings-title = 設定
+sc-settings-reset-skipped = 重設略過的句子
+sc-settings-show-all-button = 再次顯示略過的句子
 
 # [/SentenceCollector]
 
