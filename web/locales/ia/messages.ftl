@@ -1040,6 +1040,11 @@ sc-howto-addsen-item-1 =
     Pro supportar le inclusion de labor non sub licentia public, nos ha create un
     <cc0WaiverLink>modello de accordo de collaborationes</cc0WaiverLink> pro functionar ubi le proprietario de derectos de autor 
     desirarea contribuer le material a Common Voice.
+sc-howto-addsen-item-2 =
+    Numeros.. Il non debe haber ulle digitos in le texto fonte perque illos pote causar problemas.
+    quando on lege in alte voce. Le maniera que un numero es legite depende del contexto e pote introducer confusion in le collection de datos.
+    Per exemplo, le numero “2409” pote esser correctemente legite como ambe “vinti-quatro zero nove” e
+    “duo milles quatro cento nove”.
 
 # [/SentenceCollector]
 
