@@ -106,6 +106,7 @@ mhr = Mari Đông
 mk = Macedonia
 ml = Malayalam
 mn = Mông Cổ
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Mari Tây
@@ -152,7 +153,7 @@ te = Telugu
 tg = Tajik
 th = Thái
 ti = Tigrinya
-Tig = Tigre
+tig = Tigre
 tl = Tagalog
 tr = Thổ Nhĩ Kỳ
 tt = Tatar
@@ -990,3 +991,290 @@ contribution-just-unsure-title = Không chắc chắn?
 contribution-just-unsure-description = Nếu bạn gặp điều gì đó mà các nguyên tắc này không đề cập đến, vui lòng bỏ phiếu theo đánh giá tốt nhất của bạn. Nếu bạn thực sự không thể quyết định, hãy sử dụng nút bỏ qua và chuyển sang bản ghi tiếp theo.
 see-more = <chevron></chevron>Xem thêm
 see-less = <chevron></chevron>Xem ít hơn
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = Trang chủ
+sc-header-how-to = Cách làm
+sc-header-add = Thêm
+sc-header-review = Đánh giá
+sc-header-rejected = Các câu bị từ chối
+sc-header-my = Các câu của tôi
+sc-header-statistics = Thống kê
+sc-header-profile = Hồ sơ
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Báo cáo lỗi
+sc-footer-translate = Dịch trang này
+sc-footer-report-copyright = Báo cáo vấn đề bản quyền
+sc-footer-privacy = Quyền riêng tư
+sc-footer-terms = Điều khoản
+sc-footer-cookies = Cookie
+sc-login-signup-button = Đăng nhập / Đăng ký
+sc-logout-button = Đăng xuất
+sc-home-title = Chào mừng bạn đến với trình thu thập câu của Common Voice
+sc-home-intro =
+    Trình thu thập câu là một phần của <commonVoiceLink>Common Voice</commonVoiceLink>. Nó cho phép
+    những người đóng góp thu thập và xác thực các câu do cộng đồng tạo ra. Bạn cũng
+    có thể sử dụng công cụ này để nhập và dọn dẹp kho tài liệu miền công cộng có quy
+    mô vừa và nhỏ mà bạn đã tìm thấy hoặc thu thập được. Tất cả các câu cần phải thuộc
+    phạm vi công cộng. Các câu đã được phê duyệt được xuất hàng tuần vào kho lưu trữ
+    Common Voice và được phát hành trên trang web Common Voice vào mỗi lần triển khai mới.
+sc-home-collect-title = Thu thập các câu
+sc-home-collect-text = Giúp chúng tôi bằng cách viết hoặc thu thập các câu thuộc phạm vi cộng đồng.
+sc-home-review-title = Đánh giá các câu
+sc-home-review-text = Giúp chúng tôi bằng cách đánh giá các câu cho đúng theo hướng dẫn.
+sc-howto-title = Cách làm
+sc-howto-addlang-title = Thêm ngôn ngữ để làm việc
+sc-howto-addlang-text = Sau khi đăng nhập, bạn có thể chọn ngôn ngữ của mình từ phần hồ sơ.
+sc-howto-addsen-title = Thêm câu mới
+sc-howto-addsen-item-1 =
+    Tất cả các câu bạn gửi phải có <wikipediaLink>giấy phép Public Domain (CC-0)</wikipediaLink>.
+    Để hỗ trợ việc đưa tác phẩm không theo giấy phép công khai, chúng tôi đã tạo
+    <cc0WaiverLink>mẫu Contributions Agreement</cc0WaiverLink> cho các tác phẩm mà chủ sở hữu
+    bản quyền muốn đóng góp tài liệu cho Common Voice.
+sc-howto-addsen-item-2 =
+    Các con số. Không được có chữ số trong văn bản nguồn vì chúng có thể gây ra
+    sự cố khi đọc to. Cách đọc một số phụ thuộc vào ngữ cảnh và có thể gây nhầm lẫn
+    trong tập dữ liệu. Ví dụ: số “2409” có thể được đọc chính xác cả hai là “hai nghìn bốn
+    trăm linh chín” và “hai bốn không chín”.
+sc-howto-addsen-item-3 =
+    Chữ viết tắt và từ viết tắt. Nên tránh các từ viết tắt và từ viết tắt như “USA” hoặc “ICE”
+    trong văn bản nguồn vì chúng có thể được đọc theo cách không trùng với chính tả của
+    chúng. Ngoài ra, có thể có nhiều cách đọc chính xác cho một từ viết tắt. Ví dụ: từ viết tắt
+    “ICE” có thể được phát âm là “I-C-E” hoặc là một từ duy nhất.
+sc-howto-addsen-item-4 =
+    Chấm câu. Các ký hiệu đặc biệt và dấu câu chỉ nên được đưa vào khi thực sự cần thiết.
+    Ví dụ: dấu nháy đơn được bao gồm trong các từ tiếng Anh như “don't” và “we're”
+    và nên được đưa vào văn bản nguồn, nhưng không chắc bạn sẽ cần một ký hiệu đặc
+    biệt như “@” hoặc “#”.
+sc-howto-addsen-item-5 =
+    Thư nước ngoài. Các chữ cái phải hợp lệ trong ngôn ngữ được sử dụng. Ví dụ: “ж” là một
+    chữ cái trong bảng chữ cái tiếng Nga nhưng không bao giờ được sử dụng trong tiếng Anh
+    và vì vậy sẽ không bao giờ xuất hiện trong bất kỳ văn bản nguồn tiếng Anh nào.
+sc-howto-addsen-item-6 =
+    Các ngôn ngữ có thể có các <validationRulesLink>quy tắc xác thực riêng</validationRulesLink> với các
+    yêu cầu bổ sung. Nếu không có tệp xác thực cụ thể cho một ngôn ngữ, chúng tôi
+    đang sử dụng các quy tắc tiếng Anh chung.
+sc-howto-addsen-post-1 =
+    Chúng tôi thích những câu đối thoại/tự nhiên hơn. Mặc dù sự đa dạng về ngữ
+    âm và các từ khác nhau trong câu là rất quan trọng, nhưng chúng tôi đang cố
+    gắng làm cho việc ghi âm các câu trở nên thú vị nhất có thể. Do đó, sẽ thật tuyệt
+    nếu bạn có thể cố gắng giữ cho câu văn của mình tự nhiên/hấp dẫn nhất có thể.
+sc-howto-cite-title = Cách trích dẫn
+sc-howto-cite-pre-1 =
+    Điều quan trọng là bạn phải tham khảo nơi bạn tìm thấy giấy phép công cộng
+    để tránh đạo văn và cho phép theo dõi các <copyrightIssuesLink>vấn đề về bản quyền</copyrightIssuesLink>.
+    Dưới đây là một số cách bạn có thể trích dẫn tác phẩm.
+sc-howto-cite-item-1 = Bạn có thể bao gồm trang web, ví dụ: "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 =
+    Bạn có thể sử dụng phong cách tham chiếu Học thuật, ví dụ: harvard style
+    "Mozilla (2021) Common Voice. Có sẵn tại https://commonvoice.mozilla.org/ (Ngày truy cập: 15 tháng 9 năm 2021)"
+sc-howto-cite-item-3 =
+    Đối với văn bản giấy phép công khai không có sẵn trực tuyến, bạn có thể sử dụng kiểu tham chiếu Học thuật
+    ví dụ: harvard style "Jess (2021) My Public licence poems"
+sc-howto-review-title = Đánh giá câu
+sc-howto-review-subtitle = Đảm bảo câu đáp ứng các tiêu chí sau:
+sc-howto-review-criteria-1 = Câu phải được viết đúng chính tả.
+sc-howto-review-criteria-2 = Câu phải đúng ngữ pháp.
+sc-howto-review-criteria-3 = Câu phải nói được.
+sc-howto-review-criteria-4 = Nếu câu đáp ứng các tiêu chí, hãy nhấp vào nút "Phê duyệt".
+sc-howto-review-criteria-5 =
+    Nếu câu không đáp ứng các tiêu chí trên, nhấp vào nút "Từ chối".
+    Nếu bạn không chắc chắn về câu, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
+sc-howto-review-criteria-6 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
+sc-howto-findpd-title = Tìm các câu hiện có thuộc phạm vi cộng đồng'
+sc-howto-findpd-subtitle = Tìm kiếm chúng trên internet
+sc-howto-findpd-text =
+    Hãy nhớ rằng chúng tôi cần sự cho phép để xuất bản những câu đó, vì vậy hãy luôn
+    đảm bảo rằng văn bản thuộc <wikipediaLink>phạm vi cộng đồng</wikipediaLink>. Nếu không, hãy
+    liên hệ với người có nội dung văn bản và hỏi xem bạn có thể sử dụng văn bản của họ không.
+sc-howto-findpd-tips = Dưới đây là một số mẹo để tìm câu:
+sc-howto-findpd-tips-1 =
+    Các nguồn tốt nhất bạn có thể tìm là podcast, bản ghi, kịch bản phim và
+    bất cứ thứ gì tiềm năng có thể chứa các cuộc trò chuyện hàng ngày.
+sc-howto-findpd-tips-2 =
+    Tuy nhiên, các thủ tục của chính phủ, sách và bài báo cũng rất tuyệt vì
+    văn bản có xu hướng trang trọng hơn một chút, chúng ít được ưu tiên hơn.
+sc-howto-findpd-tips-3 = Rất tiếc, chúng tôi chưa thể có các bài báo trên Wikimedia. Vì vậy, không sao chép và dán từ đó.
+sc-howto-findpd-subtitle-2 = Hợp tác với các tổ chức hoặc cá nhân địa phương
+sc-howto-findpd-partner-1 =
+    Có rất nhiều tổ chức công có thể muốn cộng tác và đã có rất nhiều văn bản mà họ
+    có thể đóng góp dưới dạng phạm vi công cộng. Tiếp cận với các trường đại học
+    địa phương, Chính phủ và các tổ chức nguồn mở để nói về dự án và yêu cầu họ giúp đỡ.
+sc-howto-findpd-partner-2 =
+    Các nhà ngôn ngữ học chuyên nghiệp cũng có thể giúp đỡ, cố gắng liên hệ với các trường
+    Đại học ngôn ngữ địa phương (cả giáo viên và sinh viên) và xem liệu họ có thể giúp thu thập
+    một loạt các câu đa dạng về âm thanh bằng ngôn ngữ của bạn hay không.
+sc-my-title = Các câu của tôi
+sc-my-description =
+    Trang này cung cấp cho bạn một cái nhìn tổng quan về tất cả các câu đã gửi của bạn.
+    Bạn cũng có thể xóa các câu đã gửi nếu cần bằng cách đánh dấu hộp kiểm bên cạnh câu đó
+    và nhấp vào &quot;Xóa các câu đã chọn&quot; ở dưới cùng.
+    Vui lòng chỉ xóa câu nếu thực sự cần thiết,
+    chẳng hạn nếu bạn nhận thấy sau thực tế rằng một câu được bảo vệ bản quyền.
+sc-my-loading = Đang tải các câu của bạn…
+sc-my-err-fetching = Lỗi khi lấy các câu của bạn. Vui lòng thử lại.
+sc-my-no-sentences = Không tìm thấy câu nào!
+sc-my-submission = ID nội dung đã gửi: { $batchId }
+sc-my-source = Nguồn:  { $source }
+sc-my-delete = Xóa các câu đã chọn
+sc-my-deleting = Đang xóa các câu đã chọn…
+sc-my-err-failed-delete = Không thể xóa các câu đã chọn… Vui lòng thử lại!
+sc-profile-title = Hồ sơ: { $username }
+sc-rejected-title = Câu bị từ chối
+sc-rejected-loading = Đang tải các câu bị từ chối…
+sc-rejected-err-fetching = Lỗi khi lấy các câu bị từ chối. Vui lòng thử lại.
+sc-rejected-none-found = Không tìm thấy câu bị từ chối nào!
+sc-review-lang-not-selected =
+    Bạn chưa chọn bất kỳ ngôn ngữ nào. Xin vui lòng đi đến <profileLink>hồ sơ</profileLink>
+    của bạn để chọn ngôn ngữ.
+sc-review-title = Đánh giá câu
+sc-review-loading = Đang tải câu…
+sc-review-select-language = Vui lòng chọn một ngôn ngữ để đánh giá các câu.
+sc-review-no-sentences =
+    Không có câu nào để đánh giá.
+    <addLink>Thêm các câu khác ngay bây giờ!</addLink>
+sc-stats-title = Thống kê
+sc-stats-last-update = Cập nhật lần cuối: { $lastUpdate }
+sc-stats-last-update-never = Cập nhật lần cuối: chưa một lần nào
+sc-stats-updating = Đang cập nhật...
+sc-stats-summary =
+    Trình thu thập câu của Common Voice đã sưu tầm
+    { $sentenceCount } câu bằng { $languageCount } ngôn ngữ!
+sc-submit-err-select-lang = Vui lòng chọn một ngôn ngữ.
+sc-submit-err-add-sentences = Vui lòng thêm câu.
+sc-submit-err-add-source = Vui lòng thêm nguồn.
+sc-submit-err-confirm-pd = Vui lòng xác nhận rằng những câu này thuộc phạm vi công cộng.
+sc-submit-prompt =
+    .message = Các câu chưa được gửi, bạn có chắc chắn muốn rời đi không?
+sc-submit-title = Thêm câu
+sc-submit-select-language =
+    .labelText = Chọn ngôn ngữ
+sc-submit-add-sentences = Thêm câu thuộc <wikipediaLink>phạm vi cộng đồng</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Mỗi câu một dòng
+sc-submit-from-where = Những câu thuộc <wikipediaLink>phạm vi cộng đồng</wikipediaLink> này đến từ đâu?
+sc-submit-ph-read-how-to =
+    .placeholder = Đọc hướng dẫn của chúng tôi nếu không chắc chắn về cách phân bố
+sc-submit-confirm =
+    Tôi xác nhận rằng những câu này thuộc <wikipediaLink>phạm vi cộng đồng</wikipediaLink> và
+    tôi có quyền tải chúng lên.
+sc-submit-button =
+    .submitText = Gửi
+sc-submit-filtered = Các câu đã lọc do không đạt yêu cầu (vui lòng gửi các phiên bản đã sửa làm câu mới):
+sc-submit-guidelines = Vui lòng kiểm tra <howToLink>nguyên tắc</howToLink>.
+sc-add-lang-could-not-add = Không thể thêm ngôn ngữ
+sc-add-lang-sec-label = Thêm ngôn ngữ bạn muốn đóng góp
+sc-add-lang-sec-button = Thêm ngôn ngữ
+sc-add-err-unexpected = Máy chủ đã trả về phản hồi không mong muốn
+sc-add-result =
+    { $duplicates ->
+        [0] Đã gửi các câu. { $duplicates } câu đã bị từ chối do đã trùng lặp.
+       *[other] Đã gửi các câu. { $duplicates } câu đã bị từ chối do đã trùng lặp.
+    }
+sc-add-err-failed =
+    { $sentences ->
+        [0] Không có câu thất bại
+       *[other] { $sentences } câu không thành công
+    }
+sc-add-err-submission = Lỗi khi gửi
+sc-confirm-are-you-sure =
+    .message = Các câu chưa được gửi, bạn có chắc chắn muốn rời đi không?
+sc-confirm-sentences-title = Xác nhận các câu mới
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Không tìm thấy câu nào.
+       *[other] Đã tìm thấy { $countOfSentences } câu.
+    }
+sc-confirm-rejected-by-you = { $countOfInvalidated } bị bạn từ chối
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Không có câu nào đã đánh giá.
+       *[other] { $countOfReviewed } câu đã được đánh giá. Làm tốt lắm!
+    }
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Không có câu nào sẵn sàng để gửi!
+       *[other] { $readyCount } câu đã sẵn sàng để gửi!
+    }
+sc-confirm-unreviewed =
+    { $countOfUnreviewed } câu chưa được đánh giá.
+    Nếu muốn, bạn cũng có thể xem lại các câu của mình ngay bây giờ trước khi gửi chúng.
+sc-confirm-button-text = Xác nhận
+sc-confirm-uploading = Các câu đang được tải lên. Quá trình này có thể mất vài phút tùy thuộc vào số lượng câu được thêm vào. Vui lòng không đóng trang web này.
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Không có tổng số câu.
+       *[other] Tổng { $totalSentences } câu.
+    }
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Không có câu đang đánh giá.
+       *[other] { $totalInReview } câu đang được đánh giá.
+    }
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Không còn câu nào để bạn đánh giá.
+       *[other] { $unreviewedSentencesByYou } câu còn lại để bạn đánh giá.
+    }
+sc-lang-info-review-now = <reviewLink>Đánh giá ngay bây giờ!</reviewLink>
+sc-lang-info-add-more = <addLink>Thêm các câu khác ngay bây giờ!</addLink>
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Không có câu nào được xác thực.
+       *[other] { $validatedSentences } câu đã được xác thực.
+    }
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Không có câu nào bị từ chối.
+       *[other] { $rejectedSentences } câu đã bị từ chối.
+    }
+sc-login-err-failed = Đăng nhập thất bại
+sc-login-err-try-again = Vui lòng thử lại.
+sc-personal-err-lang-not-found = Không thể xóa ngôn ngữ: không tìm thấy ngôn ngữ
+sc-personal-err-remove = Không thể xóa ngôn ngữ
+sc-personal-your-languages = Ngôn ngữ của bạn:
+sc-personal-remove-button = xóa
+sc-personal-added-by-you = { $sentences } được thêm bởi bạn
+sc-personal-not-added = Bạn chưa thêm bất kỳ ngôn ngữ nào.
+sc-criteria-modal = ⓘ Tiêu chí đánh giá
+sc-criteria-title = Tiêu chí đánh giá
+sc-criteria-make-sure = Đảm bảo câu đáp ứng các tiêu chí sau:
+sc-criteria-item-1 = Câu phải được viết đúng chính tả.
+sc-criteria-item-2 = Câu phải đúng ngữ pháp.
+sc-criteria-item-3 = Câu phải nói được.
+sc-criteria-item-4 = Nếu câu đáp ứng tiêu chí, hãy nhấp vào nút &quot;Phê duyệt&quot; ở bên phải.
+sc-criteria-item-5 =
+    Nếu câu không đáp ứng các tiêu chí trên, hãy nhấp vào nút &quot;Từ chối&quot; ở bên phải.
+    Nếu bạn không chắc chắn về câu, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
+sc-criteria-item-6 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
+sc-review-form-prompt =
+    .message = Các câu đã đánh giá không được gửi, có chắc chắn không?
+sc-review-form-usage =
+    Vuốt sang phải để phê duyệt câu. Vuốt sang trái để từ chối.
+    Vuốt lên để bỏ qua. <strong>Đừng quên gửi đánh giá của bạn!</strong>
+sc-review-form-source = Nguồn: { $sentenceSource }
+sc-review-form-button-reject = Từ chối
+sc-review-form-button-skip = Bỏ qua
+sc-review-form-button-approve = Phê duyệt
+sc-review-form-keyboard-usage = Bạn cũng có thể sử dụng phím tắt: Y để phê duyệt, N để từ chối, S để bỏ qua
+sc-review-form-button-submit =
+    .submitText = Kết thúc đánh giá
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Không có câu nào được đánh giá.
+       *[other] { $sentences } câu đã được đánh giá. Cảm ơn bạn!
+    }
+sc-review-form-review-failure = Không thể lưu đánh giá. Vui lòng thử lại sau.
+sc-review-link = Đánh giá
+sc-settings-title = Cài đặt
+sc-settings-reset-skipped = Đặt lại các câu đã bỏ qua
+sc-settings-skipped-decription =
+    Bạn đã bỏ qua các câu trước đó trong khi đánh giá.
+    Đặt lại các câu đã bỏ qua sẽ hiển thị lại tất cả các câu đã bỏ qua.
+    Điều này độc lập với ngôn ngữ.
+sc-settings-show-all-button = Hiển thị lại tất cả các câu đã bỏ qua
+sc-settings-failed = Không thể thay đổi cài đặt. Vui lòng thử lại.
+
+# [/SentenceCollector]
+
