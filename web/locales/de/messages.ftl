@@ -1100,6 +1100,92 @@ sc-howto-findpd-tips-2 =
     diese Text ist aber eher formaler sind, sie sind weniger wichtig.
 sc-howto-findpd-tips-3 = Leider können wir noch keine Wikimedia-Artikel haben. Kopieren Sie also keine Artikel von dort.
 sc-howto-findpd-subtitle-2 = Arbeiten Sie mit lokalen Organisationen oder Einzelpersonen zusammen
+sc-howto-findpd-partner-1 =
+    Es gibt viele öffentliche Organisationen, die möglicherweise mit Ihnen zusammenarbeiten möchten
+    und die bereits viele Texte haben, die sie als gemeinfreie Inhalte spenden können. Wenden Sie sich an lokale Universitäten,
+    Regierungen und Open-Source-Organisationen, sprechen Sie über das Projekt und bitten Sie um ihre Hilfe.
+sc-howto-findpd-partner-2 =
+    Erfahrene Linguisten können auch helfen; versuchen Sie, linguistische
+    Universitäten (sowohl Lehrende als auch Studierende) in der Nähe zu erreichen und sehen Sie, ob sie helfen können, ein vielfältiges Angebot an
+    klangverschiedenen Sätze in Ihrer Sprache zu sammeln.
+sc-my-title = Meine Sätze
+sc-my-description =
+    Auf dieser Seite erhalten Sie einen Überblick über alle Ihre eingereichten Sätze.
+    Sie können bei Bedarf auch bereits gesendete Sätze löschen, indem Sie das Kontrollkästchen daneben markieren
+    und auf „Ausgewählte Sätze löschen“ darunter klicken.
+    Bitte entfernen Sie Sätze nur, wenn es unbedingt notwendig ist,
+    zum Beispiel, wenn Sie nachträglich bemerkt haben, dass ein Satz urheberrechtlich geschützt ist.
+sc-my-loading = Ihre Sätze werden geladen…
+sc-my-err-fetching = Fehler beim Abrufen der Sätze. Bitte versuchen Sie es erneut.
+sc-my-no-sentences = Keine Sätze gefunden!
+sc-my-submission = Einreichung: { $batchId }
+sc-my-source = Quelle: { $source }
+sc-my-delete = Ausgewählte Sätze löschen
+sc-my-deleting = Ausgewählte Sätze werden gelöscht…
+sc-my-err-failed-delete = Ausgewählte Sätze konnten nicht gelöscht werden... Bitte versuchen Sie es erneut!
+sc-profile-title = Profil: { $username }
+sc-rejected-title = Abgelehnte Sätze
+sc-rejected-loading = Abgelehnte Sätze werden geladen…
+sc-rejected-err-fetching = Fehler beim Abrufen der abgelehnten Sätze. Bitte versuchen Sie es erneut.
+sc-rejected-none-found = Keine abgelehnten Sätze gefunden!
+sc-review-lang-not-selected =
+    Sie haben keine Sprachen ausgewählt. Bitte öffnen Sie Ihr
+    <profileLink>Profil</profileLink>, um Sprachen auszuwählen.
+sc-review-title = Sätze überprüfen
+sc-review-loading = Sätze werden geladen...
+sc-review-select-language = Bitte wählen Sie eine Sprache aus, um Sätze zu überprüfen.
+sc-review-no-sentences =
+    Keine Sätze zu überprüfen.
+    <addLink>Fügen Sie jetzt weitere Sätze hinzu!</addLink>
+sc-stats-title = Statistiken
+sc-stats-last-update = Letzte Aktualisierung: { $lastUpdate }
+sc-stats-last-update-never = Letzte Aktualisierung: Nie
+sc-stats-updating = Wird aktualisiert…
+sc-stats-summary =
+    Der Common-Voice-Satz-Sammler hat
+    { $satzCount } Sätze in { $languageCount } Sprachen gesammelt!
+sc-submit-err-select-lang = Bitte wählen Sie eine Sprache aus.
+sc-submit-err-add-sentences = Bitte fügen Sie Sätze hinzu.
+sc-submit-err-add-source = Bitte fügen Sie eine Quelle hinzu.
+sc-submit-err-confirm-pd = Bitte bestätigen Sie, dass diese Sätze gemeinfrei sind.
+sc-submit-prompt =
+    .message = Sätze wurden nicht gesendet. Möchten Sie wirklich gehen?
+sc-submit-title = Sätze hinzufügen
+sc-submit-select-language =
+    .labelText = Sprache wählen
+sc-submit-add-sentences = <wikipediaLink>Gemeinfreie</wikipediaLink> Sätze hinzufügen
+sc-submit-ph-one-per-line =
+    .placeholder = Ein Satz pro Zeile
+sc-submit-from-where = Woher stammen die <wikipediaLink>gemeinfreien</wikipediaLink> Sätze?
+sc-submit-ph-read-how-to =
+    .placeholder = Lesen Sie unsere Anleitung, wenn Sie sich nicht sicher sind, wie Sie sie zuordnen sollen
+sc-submit-confirm =
+    Ich bestätige, dass diese Sätze <wikipediaLink>gemeinfrei</wikipediaLink> sind und
+    ich die Erlaubnis habe, sie hochzuladen.
+sc-submit-button =
+    .submitText = Absenden
+sc-submit-filtered = Gefilterte Sätze aufgrund fehlender Anforderungen (bitte feste Versionen als neue Sätze einreichen):
+sc-submit-guidelines = Bitte überprüfen Sie die <howToLink>Richtlinien</howToLink>.
+sc-add-lang-could-not-add = Sprache konnte nicht hinzugefügt werden
+sc-add-lang-sec-label = Fügen Sie eine Sprache hinzu, zu der Sie beitragen möchten
+sc-add-lang-sec-button = Sprache hinzufügen
+sc-add-err-unexpected = Unerwartete Antwort vom Server zurückgegeben
+sc-add-result =
+    { $duplicates ->
+        [0] Übermittelte Sätze. { $duplicates } Sätze wurden als Duplikate zurückgewiesen.
+        [one] Übermittelte Sätze. { $duplicates } Satz wurden als Duplikat zurückgewiesen.
+       *[other] Übermittelte Sätze. { $duplicates } Sätze wurden als Duplikate zurückgewiesen.
+    }
+sc-add-err-failed =
+    { $sentences ->
+        [0] Kein Satz fehlgeschlagen
+        [one] Ein Satz fehlgeschlagen
+       *[other] { $sentences } Sätze fehlgeschlagen
+    }
+sc-add-err-submission = Übermittlungsfehler
+sc-confirm-are-you-sure =
+    .message = Sätze wurden nicht gesendet. Möchten Sie wirklich gehen?
+sc-confirm-sentences-title = Neue Sätze bestätigen
 
 # [/SentenceCollector]
 
