@@ -1132,6 +1132,8 @@ sc-confirm-sentences-found =
     }
 sc-confirm-rejected-by-you = Ви відхилили { $countOfInvalidated }
 sc-confirm-button-text = Підтвердити
+sc-lang-info-review-now = <reviewLink>Перевірити зараз!</reviewLink>
+sc-lang-info-add-more = <addLink>Додайте більше речень зараз!</addLink>
 sc-login-err-failed = Не вдалося увійти
 sc-login-err-try-again = Спробуйте ще раз.
 sc-personal-err-lang-not-found = Не вдалося вилучити мову: мову не знайдено
