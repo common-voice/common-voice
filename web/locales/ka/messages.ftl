@@ -1062,6 +1062,13 @@ sc-howto-addsen-item-6 =
     ენას, შესაძლოა ახლდეს <validationRulesLink>შემოწმების საკუთარი წესებიც</validationRulesLink>
     დამატებით წინაპირობებთან ერთად. თუ ამგვარი რამ არ არსებობს ამ ენისთვის,
     გამოყენებული იქნება ზოგადი, ინგლისურის წესები.
+sc-howto-findpd-title = საყოველთაო საკუთრებაში არსებული წინადადებების მოძიება
+sc-submit-err-confirm-pd = გთხოვთ დაადასტუროთ, რომ ეს წინადადებები ნამდვილად საყოველთაო საკუთრებაშია.
+sc-submit-add-sentences = დაამატეთ <wikipediaLink>საყოველთაო საკუთრებაში</wikipediaLink> არსებული წინადადებები
+sc-submit-from-where = საიდანაა აღებული <wikipediaLink>საყოველთაო საკუთრებაში არსებული</wikipediaLink> ეს წინადადებები?
+sc-submit-confirm =
+    ვადასტურებ, რომ ეს წინადადებები <wikipediaLink>საყოველთაო საკუთრებაშია</wikipediaLink> და
+    მაქვს ნებართვა, მათი ატვირთვის.
 
 # [/SentenceCollector]
 
