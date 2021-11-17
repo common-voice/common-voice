@@ -106,6 +106,7 @@ mhr = Луговомарійська
 mk = Македонська
 ml = Малаялам
 mn = Монгольська
+mni = Маніпурі
 mos = Мооре
 mr = Маратхі
 mrj = Гірськомарійська
@@ -152,7 +153,7 @@ te = Телугу
 tg = Таджицька
 th = Тайська
 ti = Тигринья
-Tig = Тиґре
+tig = Тиґре
 tl = Таґальська
 tr = Турецька
 tt = Татарська
@@ -1029,3 +1030,27 @@ contribution-just-unsure-title = Просто не впевнені?
 contribution-just-unsure-description = Якщо ви стикаєтесь із випадком, не описаним у цих настановах, просимо голосувати якнайоб'єктивніше. Якщо ви дійсно не можете визначитися, натисніть кнопку пропуску та переходьте до наступного запису.
 see-more = <chevron></chevron>Докладніше
 see-less = <chevron></chevron>Згорнути
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = Домівка
+sc-header-how-to = Як
+sc-header-add = Додати
+sc-header-review = Перевірити
+sc-header-rejected = Відхилені речення
+sc-header-my = Мої речення
+sc-header-statistics = Статистика
+sc-header-profile = Профіль
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Повідомити про ваду
+sc-footer-translate = Перекласти цю сторінку
+sc-footer-report-copyright = Повідомте про проблеми з авторським правом
+sc-footer-privacy = Приватність
+sc-footer-terms = Умови
+sc-footer-cookies = Куки
+sc-login-signup-button = Увійти / Зареєструватися
+sc-logout-button = Вийти
+sc-home-title = Ласкаво просимо до Common Voice Sentence Collector
+
+# [/SentenceCollector]
+
