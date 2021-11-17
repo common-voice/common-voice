@@ -152,7 +152,7 @@ te = Telugu
 tg = Tajik
 th = Thai
 ti = Tigrinya
-Tig = Tigre
+tig = Tigre
 tl = Tagalog
 tr = Turco
 tt = Tataro
@@ -998,3 +998,22 @@ contribution-just-unsure-title = Justo insecur?
 contribution-just-unsure-description = Si tu ha incontrate qualcosa que iste lineas guida non coperi, per favor vota in accordo a tu melior judicio. Si tu realmente non pote decider, usa le button saltar e va al sequente registration.
 see-more = <chevron></chevron>Vider plus
 see-less = <chevron></chevron>Vider minus
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = Initio
+sc-header-how-to = Guidas
+sc-header-add = Adder
+sc-header-review = Revider
+sc-header-statistics = Statistica
+sc-header-profile = Profilo
+sc-footer-translate = Traducer iste pagina
+sc-footer-privacy = Confidentialitate
+sc-footer-terms = Terminos
+sc-footer-cookies = Cookies
+sc-login-signup-button = Aperir session / Inscriber se
+sc-logout-button = Clauder le session
+sc-howto-title = Guidas
+
+# [/SentenceCollector]
+
