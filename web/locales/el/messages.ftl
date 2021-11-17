@@ -106,6 +106,7 @@ mhr = Ανατολική Μάρι
 mk = Σλαβομακεδονικά
 ml = Μαλαγιάλαμ
 mn = Μογγολικά
+mni = Μεϊτέι Λον
 mos = Μόσι
 mr = Μαράτι
 mrj = Δυτική Μάρι
@@ -152,7 +153,7 @@ te = Τελούγκου
 tg = Τατζίκ
 th = Ταϊλανδικά
 ti = Τιγκρινιακά
-Tig = Τίγκρε
+tig = Τίγκρε
 tl = Τάγκαλογκ
 tr = Τουρκικά
 tt = Ταταρικά
@@ -994,3 +995,36 @@ contribution-just-unsure-title = Δεν γνωρίζετε;
 contribution-just-unsure-description = Αν συναντήσετε κάτι που δεν καλύπτουν αυτοί οι κανόνες, παρακαλούμε ψηφίστε σύμφωνα με τη δική σας κρίση. Αν δεν μπορείτε πραγματικά να αποφασίσετε, χρησιμοποιήστε το κουμπί «Παράλειψη» και μεταβείτε στην επόμενη ηχογράφηση.
 see-more = <chevron></chevron>Προβολή περισσότερων
 see-less = <chevron></chevron>Προβολή λιγότερων
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = Αρχική
+sc-header-add = Προσθήκη
+sc-header-my = Οι προτάσεις μου
+sc-header-statistics = Στατιστικά
+sc-header-profile = Προφίλ
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Αναφορά σφαλμάτων
+sc-footer-translate = Μετάφραση σελίδας
+sc-footer-privacy = Απόρρητο
+sc-footer-terms = Όροι
+sc-footer-cookies = Cookies
+sc-login-signup-button = Σύνδεση/Εγγραφή
+sc-logout-button = Αποσύνδεση
+sc-my-submission = Υποβολή: { $batchId }
+sc-profile-title = Προφίλ: { $username }
+sc-stats-title = Στατιστικά
+sc-stats-updating = Ενημέρωση…
+sc-submit-button =
+    .submitText = Υποβολή
+sc-confirm-sentences-title = Επιβεβαίωση νέων προτάσεων
+sc-confirm-button-text = Επιβεβαίωση
+sc-login-err-failed = Αποτυχία σύνδεσης
+sc-personal-your-languages = Οι γλώσσες σας:
+sc-review-form-button-reject = Απόρριψη
+sc-review-form-button-skip = Παράλειψη
+sc-review-form-button-approve = Έγκριση
+sc-settings-title = Ρυθμίσεις
+
+# [/SentenceCollector]
+
