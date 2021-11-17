@@ -1119,8 +1119,47 @@ sc-my-description =
     და ქვემოთ, &quot;შერჩეული წინადადებების წაშლაზეs&quot; დაწკაპებით.
     გთხოვთ, მხოლოდ იმ შემთხვევაში ამოშალოთ, როცა აუცილებელია იქნება,
     მაგალითად, მას შემდეგ, რაც აღმოაჩენთ რომ საავტორო უფლებებით დაცული ყოფილა.
+sc-my-loading = იტვირთება თქვენი წინადადებები…
+sc-my-err-fetching = შეცდომა, წინადადებების მიღებისას. გთხოვთ, კვლავ სცადოთ.
+sc-my-no-sentences = წინადადებები ვერ მოიძებნა!
+sc-my-submission = გაგზავნა: { $batchId }
+sc-my-source = წყარო:  { $source }
+sc-my-delete = შერჩეული წინადადებების წაშლა
+sc-my-deleting = შერჩეული წინადადებები იშლება…
+sc-my-err-failed-delete = შერჩეული წინადადებების წაშლა ვერ მოხერხდა... გთხოვთ, კვლავ სცადოთ!
+sc-profile-title = პროფილი: { $username }
+sc-rejected-title = უარყოფილი წინადადებები
+sc-rejected-loading = იტვირთება უარყოფილი წინადადებები…
+sc-rejected-err-fetching = შეცდომა, უარყოფილი წინადადებების მიღებისას. გთხოვთ, კვლავ სცადოთ.
+sc-rejected-none-found = უარყოფილი წინადადებები ვერ მოიძებნა!
+sc-review-lang-not-selected =
+    ენა ჯერ არ აგირჩევიათ. გადადით თქვენს
+    <profileLink>პროფილზე</profileLink> ენის მისათითებლად.
+sc-review-title = წინადადებების შემოწმება
+sc-review-loading = იტვირთება წინადადებები…
+sc-review-select-language = გთხოვთ, აირჩიოთ ენა, წინადადებების შესამოწმებლად.
+sc-review-no-sentences =
+    შესამოწმებელი წინადადებები აღარაა.
+    <addLink>თავად დაამატეთ ახლავე!</addLink>
+sc-stats-title = სტატისტიკა
+sc-stats-last-update = ბოლო განახლება: { $lastUpdate }
+sc-stats-last-update-never = ბოლო განახლება: არასდროს
+sc-stats-updating = ახლდება…
+sc-stats-summary =
+    Common Voice-ის წინადადებების შემგროვებელში თავმოყრილია
+    { $sentenceCount } წინადადება { $languageCount } ენაზე!
+sc-submit-err-select-lang = გთხოვთ, აირჩიოთ ენა.
+sc-submit-err-add-sentences = გთხოვთ, დაამატოთ წინადადებები.
+sc-submit-err-add-source = გთხოვთ, დაამატოთ წყარო.
 sc-submit-err-confirm-pd = გთხოვთ დაადასტუროთ, რომ ეს წინადადებები ნამდვილად საყოველთაო საკუთრებაშია.
+sc-submit-prompt =
+    .message = წინადადებები არ გადაგზავნილა, ნამდვილად გსურთ გამოსვლა?
+sc-submit-title = წინადადებების დამატება
+sc-submit-select-language =
+    .labelText = ენის არჩევა
 sc-submit-add-sentences = დაამატეთ <wikipediaLink>საყოველთაო საკუთრებაში</wikipediaLink> არსებული წინადადებები
+sc-submit-ph-one-per-line =
+    .placeholder = თითო წინადადება თითო ხაზზე
 sc-submit-from-where = საიდანაა აღებული <wikipediaLink>საყოველთაო საკუთრებაში არსებული</wikipediaLink> ეს წინადადებები?
 sc-submit-confirm =
     ვადასტურებ, რომ ეს წინადადებები <wikipediaLink>საყოველთაო საკუთრებაშია</wikipediaLink> და
