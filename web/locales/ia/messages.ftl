@@ -1035,6 +1035,11 @@ sc-howto-title = Guidas
 sc-howto-addlang-title = Addition de linguas a laborar
 sc-howto-addlang-text = Un vice connexe, tu pote eliger tu linguas ab le section profilo.
 sc-howto-addsen-title = Adder nove phrases
+sc-howto-addsen-item-1 =
+    Tote le phrases que tu invia debe esser de <wikipediaLink> licentia Dominio public (CC-0)</wikipediaLink>.
+    Pro supportar le inclusion de labor non sub licentia public, nos ha create un
+    <cc0WaiverLink>modello de accordo de collaborationes</cc0WaiverLink> pro functionar ubi le proprietario de derectos de autor 
+    desirarea contribuer le material a Common Voice.
 
 # [/SentenceCollector]
 
