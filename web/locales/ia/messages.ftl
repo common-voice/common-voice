@@ -1020,6 +1020,15 @@ sc-footer-cookies = Cookies
 sc-login-signup-button = Aperir session / Inscriber se
 sc-logout-button = Clauder le session
 sc-home-title = Benvenite in le Collector de phrases de Common Voice
+sc-home-intro =
+    Le Collector de phrases es parte de <commonVoiceLink>Common Voice</commonVoiceLink>.
+    Illo permitte a collaboratores de colliger e validar phrases create per le communitate.
+    Tu pote usar iste instrumento alsi pro importar e nettar corpus de dominio public de dimensiones micre o
+    medie que tu trovava o colligeva. Tote phrases debe esser esser de public dominio.
+    Le phrases approbate es exportate cata septimana al repositorio de Common Voice e es publicate
+    super le sito web de Common Voice, cata nove distribution.
+sc-home-collect-title = Colliger phrases
+sc-home-collect-text = Adjuta nos a scriber o colliger Phrases de dominio public.
 sc-howto-title = Guidas
 
 # [/SentenceCollector]
