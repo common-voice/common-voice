@@ -152,7 +152,7 @@ te = Télougou
 tg = Tadjik
 th = Thaï
 ti = Tigrigna
-Tig = Tigré
+tig = Tigré
 tl = Tagalog
 tr = Turc
 tt = Tatar
@@ -1002,3 +1002,29 @@ contribution-just-unsure-title = Vous hésitez ?
 contribution-just-unsure-description = Si vous rencontrez une situation que ces directives ne couvrent pas, veuillez voter en faisant appel à votre bon sens. Si vous n’arrivez vraiment pas à vous décider, utilisez le bouton « Passer » et passez à l’enregistrement suivant.
 see-more = <chevron></chevron>Afficher plus d’exemples
 see-less = <chevron></chevron>Afficher moins d’exemples
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = Accueil
+sc-header-add = Ajouter
+sc-login-signup-button = Connexion / Inscription
+sc-logout-button = Déconnexion
+sc-home-title = Bienvenue dans le collecteur de phrases de Common Voice
+sc-home-intro =
+    Le collecteur de phrases fait partie du projet <commonVoiceLink>Common Voice</commonVoiceLink>.
+    Il permet aux contributeurs de collecter et de valider des phrases créées par la communauté.
+    Vous pouvez également utiliser cet outil pour importer et nettoyer des corpus du domaine public de petite à moyenne taille que vous avez trouvés ou collectés. Toutes les phrases doivent être du domaine public.
+    Les phrases approuvées sont exportées chaque semaine vers le dépôt de code Common Voice et sont publiées
+    sur le site web de Common Voice à chaque nouveau déploiement.
+sc-home-collect-title = Collecter des phrases
+sc-home-collect-text = Contribuez à écrire ou collecter des phrases du domaine public
+sc-home-review-title = Vérifier les phrases
+sc-home-review-text = Contribuez en révisant les phrases pour qu’elles soient correctes conformément aux consignes.
+sc-howto-title = Comment faire ?
+sc-howto-addsen-title = Ajouter de nouvelles phrases
+sc-howto-cite-title = Comment citer
+sc-howto-cite-item-1 = Vous pouvez inclure le site web, par exemple « Common Voice - https://commonvoice.mozilla.org/ »
+sc-howto-review-title = Vérifier les phrases
+
+# [/SentenceCollector]
+
