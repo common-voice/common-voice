@@ -106,6 +106,7 @@ mhr = Weide-Mari
 mk = Macedonisch
 ml = Malayalam
 mn = Mongools
+mni = Meetei Lono
 mos = More
 mr = Marathi
 mrj = Berg-Mari
@@ -152,7 +153,7 @@ te = Telugu
 tg = Tadzjieks
 th = Thai
 ti = Tigrinya
-Tig = Tigre
+tig = Tigre
 tl = Tagalog
 tr = Turks
 tt = Tataars
@@ -1004,3 +1005,20 @@ contribution-just-unsure-title = Gewoon onzeker?
 contribution-just-unsure-description = Als u iets tegenkomt dat niet in deze richtlijnen wordt behandeld, stem dan naar uw beste oordeel. Als u echt niet kunt beslissen, gebruik dan de knop Overslaan en ga door naar de volgende opname.
 see-more = <chevron></chevron>Meer tonen
 see-less = <chevron></chevron>Minder tonen
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = Startpagina
+sc-header-how-to = Handleiding
+sc-header-add = Toevoegen
+sc-header-review = Beoordelen
+sc-header-rejected = Afgewezen zinnen
+sc-header-my = Mijn zinnen
+sc-header-statistics = Statistieken
+sc-header-profile = Profiel
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Bugs melden
+sc-footer-translate = Deze pagina vertalen
+
+# [/SentenceCollector]
+
