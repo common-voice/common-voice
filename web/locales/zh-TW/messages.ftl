@@ -106,6 +106,7 @@ mhr = 草原馬里語
 mk = 馬其頓語
 ml = 馬拉亞拉姆語
 mn = 蒙古語
+mni = 梅泰語
 mos = 莫西語
 mr = 馬拉提語
 mrj = 山地馬里語
@@ -152,7 +153,7 @@ te = 泰盧固語
 tg = 塔吉克語
 th = 泰語
 ti = 提格利尼亞語
-Tig = 提格雷語
+tig = 提格雷語
 tl = 塔加祿語（菲律賓）
 tr = 土耳其語
 tt = 韃靼語
@@ -987,3 +988,19 @@ contribution-just-unsure-title = 無法決定嗎？
 contribution-just-unsure-description = 如果你遇到本指南中沒有涵蓋的狀況，還請自行盡力判斷。如果真的很難決定，直接按下「略過」到下一句去吧。
 see-more = <chevron></chevron>看更多
 see-less = <chevron></chevron>看更少
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = 首頁
+sc-header-how-to = 如何做
+sc-header-add = 新增
+sc-header-review = 審核
+sc-header-rejected = 被拒絕的句子
+sc-header-my = 我的句子
+sc-header-statistics = 統計
+sc-header-profile = 個人資料
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = 回報 Bug
+
+# [/SentenceCollector]
+
