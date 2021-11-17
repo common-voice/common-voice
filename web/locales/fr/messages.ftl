@@ -1006,13 +1006,18 @@ see-less = <chevron></chevron>Afficher moins d’exemples
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
 sc-header-home = Accueil
+sc-header-how-to = Comment faire
 sc-header-add = Ajouter
+sc-header-review = Vérification
+sc-header-rejected = Phrases rejetées
 sc-header-my = Mes phrases
 sc-header-statistics = Statistiques
 sc-header-profile = Profil
 sc-footer-discourse = Discourse
+sc-footer-report-bugs = Signaler des problèmes
 sc-footer-translate = Traduire cette page
 sc-footer-privacy = Confidentialité
+sc-footer-terms = Conditions d’utilisation
 sc-footer-cookies = Cookies
 sc-login-signup-button = Connexion / Inscription
 sc-logout-button = Déconnexion
@@ -1053,6 +1058,7 @@ sc-rejected-err-fetching = Erreur lors de la récupération des phrases rejetée
 sc-rejected-none-found = Aucune phrase rejetée n’a été trouvée !
 sc-review-title = Vérifier les phrases
 sc-review-loading = Chargement des phrases…
+sc-stats-title = Statistiques
 
 # [/SentenceCollector]
 
