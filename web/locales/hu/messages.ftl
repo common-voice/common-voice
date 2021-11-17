@@ -1064,6 +1064,9 @@ sc-howto-review-criteria-5 =
 sc-howto-review-criteria-6 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében!
 sc-howto-findpd-title = Meglévő közkincsű szövegek keresése
 sc-howto-findpd-subtitle = Keressen rájuk az interneten
+sc-my-title = Saját mondatok
+sc-my-loading = Mondatok betöltése…
+sc-my-err-fetching = Hiba történt a mondatok lekérése során. Próbálja újra.
 
 # [/SentenceCollector]
 
