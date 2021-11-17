@@ -184,6 +184,7 @@ vote-no = Не
 speak-subtitle = Овози худро пешкаш кунед
 hours-recorded = Соатҳои сабтшуда
 hours-validated = Соатҳои тасдиқшуда
+todays-progress = Пешрафти имрӯза
 all-locales = Ҳама
 today = Имрӯз
 x-weeks-short =
@@ -222,6 +223,7 @@ shortcut-play-toggle-label = Пахш/Таваққуф
 
 shortcut-record-toggle-label = Сабт кардан/Истодан
 shortcut-rerecord-toggle = [1-5]
+shortcut-submit = Бозгашт
 request-language-button = Дархости забон
 
 ## ProjectStatus
@@ -240,6 +242,8 @@ profile-form-native-language =
     .label = Забони модарӣ
 profile-form-additional-language =
     .label = Забони иловагӣ
+profile-form-accent =
+    .label = Лаҳҷа
 profile-form-age =
     .label = Синну сол
 profile-form-gender-2 =
