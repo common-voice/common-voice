@@ -1017,6 +1017,19 @@ sc-header-review = Ellenőrzés
 sc-header-rejected = Elutasított mondatok
 sc-header-my = Saját mondatok
 sc-header-statistics = Statisztika
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Hibabejelentés
+sc-footer-translate = Oldal lefordítása
+sc-footer-report-copyright = Szerzői jogi problémák bejelentése
+sc-footer-privacy = Adatvédelem
+sc-footer-terms = Feltételek
+sc-footer-cookies = Sütik
+sc-login-signup-button = Bejelentkezés / Regisztráció
+sc-logout-button = Kijelentkezés
+sc-home-title = Üdvözöljük a Common Voice mondatgyűjtőben
+sc-home-collect-title = Mondatok gyűjtése
+sc-home-collect-text = Segítsen nekünk közkincsű mondatok írásában vagy összegyűjtésében.
 
 # [/SentenceCollector]
 
