@@ -1203,6 +1203,52 @@ sc-confirm-ready =
         [one] 1 წინადადება მზადაა გასაგზავნად!
        *[other] { $readyCount } წინადადება მზადაა გასაგზავნად!
     }
+sc-confirm-unreviewed =
+    { $countOfUnreviewed } წინადადება შეუმოწმებელია..
+    თუ გსურთ, ახლავე შეგიძლიათ შეამოწმოთ თქვენი წინადადებები, გადაგზავნამდე.
+sc-confirm-button-text = დასტური
+sc-confirm-uploading = წინადადებები აიტვირთება. შესაძლოა, რამდენიმე წუთს გასტანოს, გამომდინარე მათი რაოდენობიდან. გთხოვთ, არ დახუროთ ვებსაიტი.
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] წინადადებები არაა.
+        [one] სულ 1 წინადადება.
+       *[other] სულ { $totalSentences } წინადადება.
+    }
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] წინადადებები არ მოწმდება.
+        [one] 1 წინადადება მოწმდება.
+       *[other] { $totalInReview } წინადადება მოწმდება.
+    }
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] შესამოწმებელი წინადადებები აღარაა.
+        [one] 1 შესამოწმებელი წინადადებაა დარჩენილი.
+       *[other] { $unreviewedSentencesByYou } შესამოწმებელი წინადადებაა დარჩენილი.
+    }
+sc-lang-info-review-now = <reviewLink>შეამოწმეთ ახლავე!</reviewLink>
+sc-lang-info-add-more = <addLink>დაამატეთ წინადადებები ახლავე!</addLink>
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] შემოწმებული წინადადებები არაა.
+        [one] 1 წინადადებაა შემოწმებული.
+       *[other] { $validatedSentences } წინადადებაა შემოწმებული.
+    }
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] უარყოფილი წინადადებები არაა.
+        [one] 1 წინადადებაა უარყოფილი.
+       *[other] { $rejectedSentences } წინადადებაა უარყოფილი.
+    }
+sc-login-err-failed = შესვლა ვერ მოხერხდა
+sc-login-err-try-again = გთხოვთ, სცადოთ ხელახლა.
+sc-personal-err-lang-not-found = ენის წაშლა ვერ მოხერხდა: ენა ვერ მოიძებნა
+sc-personal-err-remove = ენის წაშლა ვერ მოხერხდა
+sc-personal-your-languages = თქვენი ენები:
+sc-personal-remove-button = მოცილება
+sc-personal-added-by-you = { $sentences } დამატებულია თქვენ მიერ
+sc-personal-not-added = ჯერ არცერთი ენა არ დაგიმატებიათ.
+sc-criteria-modal = ⓘ სწორად შემოწმების შესახებ
 
 # [/SentenceCollector]
 
