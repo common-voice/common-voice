@@ -326,6 +326,10 @@ recorded-hours = ላትስጅለያ ሳዓት
 
 ## Download Modal
 
+download-form-email =
+    .label = ኢመልኩም ኣቱ
+    .value = ሹክረን ገል ናተስል ብኩም ቱ
+download-no = ላ ሹክረን
 
 ## Contact Modal
 
