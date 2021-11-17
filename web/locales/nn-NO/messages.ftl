@@ -958,3 +958,29 @@ contribution-misreadings-example-8-explanation = [Heilt feil innhald]
 contribution-background-noise-title = Bakgrunnsstøy
 see-more = <chevron></chevron>Vis meir
 see-less = <chevron></chevron>Vis mindre
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = Heim
+sc-header-add = Legg til
+sc-header-review = Vurdering
+sc-header-my = MIne setningar
+sc-header-statistics = Statistikk
+sc-header-profile = Profil
+sc-footer-report-bugs = Rapporter feil
+sc-footer-translate = Omset denne sida
+sc-footer-privacy = Personvern
+sc-footer-cookies = Infokapslar
+sc-login-signup-button = Logg inn/Registrer deg
+sc-logout-button = Logg ut
+sc-profile-title = Profil: { $username }
+sc-review-title = Vurder setningar
+sc-review-loading = Lastar setningar…
+sc-stats-title = Statistikk
+sc-stats-last-update = Siste oppdatering: { $lastUpdate }
+sc-stats-last-update-never = Siste oppdatering: Aldri
+sc-stats-updating = Oppdaterer…
+sc-submit-title = Legg til setningar
+
+# [/SentenceCollector]
+
