@@ -1312,7 +1312,15 @@ sc-review-form-button-skip = Пропустити
 sc-review-form-button-approve = Затвердити
 sc-review-form-keyboard-usage = Ви також можете використовувати комбінації клавіш: Y для схвалення, N для відхилення, S для пропуску
 sc-review-form-button-submit =
-    .submitText = Завершіть перевірку
+    .submitText = Завершити перевірку
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Немає перевірених речень.
+        [one] Перевірено { $sentences } речення. Спасибі!
+        [few] Перевірено { $sentences } речення. Спасибі!
+       *[many] Перевірено { $sentences } речень. Спасибі!
+    }
+sc-review-form-review-failure = Не вдалося зберегти перевірку. Повторіть спробу пізніше.
 sc-review-link = Перевірити
 sc-settings-title = Налаштування
 sc-settings-reset-skipped = Скинути пропущені речення
