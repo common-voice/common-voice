@@ -1243,6 +1243,47 @@ sc-lang-info-in-review =
         [one] Ien sin yn beoardieling.
        *[other] { $totalInReview } sinnen yn beoardieling.
     }
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Gjin sin dy’t jo noch beoardiele kinne.
+        [one] Ien sin dy’t jo noch beoardiele kinne.
+       *[other] { $unreviewedSentencesByYou } sinnen dy’t jo noch beoardiele kinne.
+    }
+sc-lang-info-review-now = <reviewLink>No beoardiele!</reviewLink>
+sc-lang-info-add-more = <addLink>No mear sinnen tafoegje!</addLink>
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Gjin falidearre sinnen.
+        [one] Ien falidearre sin.
+       *[other] { $validatedSentences } falidearre sinnen.
+    }
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Gjin ôfwizen sinnen.
+        [one] Ien ôfwizen sin.
+       *[other] { $rejectedSentences } ôfwizen sinnen.
+    }
+sc-login-err-failed = Oanmelding mislearre
+sc-login-err-try-again = Probearje it opnij.
+sc-personal-err-lang-not-found = Kin taal net fuortsmite: taal net fûn
+sc-personal-err-remove = Kin taal net fuortsmite
+sc-personal-your-languages = Jo talen:
+sc-personal-remove-button = fuortsmite
+sc-personal-added-by-you = { $sinnen } troch jo tafoege
+sc-personal-not-added = Jo hawwe noch gjin talen tafoege.
+sc-criteria-modal = ⓘ Beoardielingskritearia
+sc-criteria-title = Beoardielingskritearia
+sc-criteria-make-sure = Soargje derfoar dat de sin oan de folgjende kritearia foldocht:
+sc-criteria-item-1 = De sin moat goed stavere wêze.
+sc-criteria-item-2 = De sin moat grammatikaal korrekt wêze.
+sc-criteria-item-3 = De sin moat út te sprekken wêze.
+sc-criteria-item-4 = As de sin oan de kritearia foldocht, klik dan op de knop &quot;Goedkarre&quot; oan de rjochterkant.
+sc-criteria-item-5 =
+    As de sin net oan de boppesteande kritearia foldocht, klik dan op de knop &quot;Ofwize&quot; oan de rjochtekant.
+    As jo net wis binne fan de sin, kinne jo dizze ek oerslaan en trochgean nei de folgjende.
+sc-criteria-item-6 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
+sc-review-form-prompt =
+    .message = Beoardiele sinnen net yntsjinne, binne jo wis?
 
 # [/SentenceCollector]
 
