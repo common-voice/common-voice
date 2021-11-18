@@ -1106,6 +1106,106 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm = Megerősítem, hogy ezek a mondatok <wikipediaLink>közkincsek</wikipediaLink>, és engedéllyel töltöm fel őket.
 sc-submit-button =
     .submitText = Beküldés
+sc-add-lang-could-not-add = A nyelv hozzáadása sikertelen
+sc-add-lang-sec-label = Adjon hozzá egy nyelvet, amelyben közreműködne
+sc-add-lang-sec-button = Nyelv hozzáadása
+sc-add-err-unexpected = Váratlan válasz érkezett a kiszolgálótól
+sc-add-result =
+    { $duplicates ->
+        [0] Beküldött mondatok. { $duplicates } mondat ismétlődés miatt elutasítva.
+        [one] Beküldött mondatok. { $duplicates } mondat ismétlődés miatt elutasítva.
+       *[other] Beküldött mondatok. { $duplicates } mondat ismétlődés miatt elutasítva.
+    }
+sc-add-err-failed =
+    { $sentences ->
+        [0] Nincs sikertelen mondat
+        [one] 1 sikertelen mondat
+       *[other] { $sentences } sikertelen mondat
+    }
+sc-add-err-submission = Beküldési hiba
+sc-confirm-are-you-sure =
+    .message = A mondatok nem lettek beküldve, biztos, hogy távozik?
+sc-confirm-sentences-title = Új mondatok megerősítése
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Nem található mondat.
+        [one] 1 mondat található.
+       *[other] { $countOfSentences } mondat található.
+    }
+sc-confirm-rejected-by-you = { $countOfInvalidated } mondatot utasított el
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Még nem ellenőrzött egy mondatot sem.
+        [one] 1 mondatot már ellenőrzött. Szép munka!
+       *[other] Már { $countOfReviewed } mondatot ellenőrzött. Szép munka!
+    }
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Egy mondat sem áll készen a beküldésre.
+        [one] 1 mondat készen áll a beküldésre.
+       *[other] { $readyCount } mondat készen áll a beküldésre.
+    }
+sc-confirm-unreviewed = { $countOfUnreviewed } mondat nincs ellenőrizve. Ha szeretné, most is ellenőrizheti a mondatait, mielőtt beküldi őket.
+sc-confirm-button-text = Megerősítés
+sc-confirm-uploading = A mondatok feltöltése folyamatban van. Ez a hozzáadott mondatok számától függően akár több percig is eltarthat. Ne zárja be ezt a webhelyet.
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Nincs egyetlen mondat sem.
+        [one] Összesen { $totalSentences } mondat.
+       *[other] Összesen { $totalSentences } mondat.
+    }
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Nincs ellenőrzés alatti mondat.
+        [one] 1 mondat ellenőrzés alatt.
+       *[other] { $totalInReview } mondat ellenőrzés alatt.
+    }
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Nem maradt ellenőrizendő mondat.
+        [one] 1 ellenőrizendő mondat maradt.
+       *[other] { $unreviewedSentencesByYou } ellenőrizendő mondat maradt.
+    }
+sc-lang-info-review-now = <reviewLink>Ellenőrzés most</reviewLink>
+sc-lang-info-add-more = <addLink>Mondatok hozzáadása most</addLink>
+sc-login-err-failed = Bejelentkezés sikertelen
+sc-login-err-try-again = Próbálja meg újra.
+sc-personal-err-lang-not-found = Nem sikerült eltávolítani a nyelvet: a nyelv nem található
+sc-personal-err-remove = Nem sikerült eltávolítani a nyelvet
+sc-personal-your-languages = Az Ön nyelvei:
+sc-personal-remove-button = eltávolítás
+sc-personal-added-by-you = Ön ennyit adott hozzá: { $sentences }
+sc-personal-not-added = Még nem adott hozzá egyetlen nyelvet sem.
+sc-criteria-modal = ⓘ Ellenőrzési szempontok
+sc-criteria-title = Ellenőrzési szempontok
+sc-criteria-make-sure = Győződjön meg arról, hogy a mondat megfelel a következő kritériumoknak:
+sc-criteria-item-1 = A mondatok helyesen vannak leírva.
+sc-criteria-item-2 = A mondatok nyelvtanilag helyesek.
+sc-criteria-item-3 = A mondatok kimondhatók.
+sc-criteria-item-4 = Ha a mondat megfelel a feltételeknek, kattintson a „Jóváhagyás” gombra a jobb oldalon.
+sc-criteria-item-5 = Ha a mondat nem felel meg a fenti feltételeknek, kattintson az „Elutasítás” gombra. Ha nem biztos a mondatban, akkor ki is hagyhatja, és továbbléphet a következőre.
+sc-criteria-item-6 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében!
+sc-review-form-prompt =
+    .message = Az ellenőrzött mondatokat nem küldte be, biztos benne?
+sc-review-form-source = Forrás: { $sentenceSource }
+sc-review-form-button-reject = Elutasítás
+sc-review-form-button-skip = Kihagyás
+sc-review-form-button-approve = Jóváhagyás
+sc-review-form-keyboard-usage = Használhatja a gyorsbillentyűket is: Y a jóváhagyáshoz, N az elutasításhoz, S a kihagyáshoz
+sc-review-form-button-submit =
+    .submitText = Ellenőrzés befejezése
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Egyetlen mondat sem lett ellenőrizve.
+        [one] 1 mondat ellenőrizve. Köszönjük!
+       *[other] { $sentences } mondat ellenőrizve. Köszönjük!
+    }
+sc-review-form-review-failure = Az ellenőrzés mentése nem sikerült. Próbálja újra később.
+sc-review-link = Ellenőrzés
+sc-settings-title = Beállítások
+sc-settings-reset-skipped = Kihagyott mondatok visszaállítása
+sc-settings-show-all-button = Az összes kihagyott mondat megjelenítése újra
+sc-settings-failed = Nem sikerült módosítani a beállításokat. Próbálja újra.
 
 # [/SentenceCollector]
 
