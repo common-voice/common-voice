@@ -1057,6 +1057,10 @@ sc-howto-addsen-post-1 = Nos prefere phrases natural/conversational. Durante que
 sc-howto-cite-title = Como citar
 sc-howto-cite-pre-1 = Il es importante que tu refere ubi tu trovava le licentia public pro impedir plagio e pro permitter de sequer ups sur <copyrightIssuesLink>problemas de derectos de autor</copyrightIssuesLink>. Ecce alcun manieras pro citar le labor.
 sc-howto-cite-item-1 = Tu pote includer le sito web, e.g "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Tu pote usar le stilo de citation academic, e.g stilo (de citation) harvard  "Mozilla (2021) Common Voice. Disponibile a https://commonvoice.mozilla.org/ (Accedite: le 15 de septembre 2021)"
+sc-howto-cite-item-3 = Pro texto con licentia public non disponibile online, tu pote usar le stilo de citation academic e.g stilo de citation harvard "Jess (2021) My Public licence poems"
+sc-howto-review-title = Revider phrases
+sc-howto-review-subtitle = Verifica que le phrase reuni le sequente criterios:
 
 # [/SentenceCollector]
 
