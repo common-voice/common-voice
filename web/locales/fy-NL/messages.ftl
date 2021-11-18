@@ -1304,6 +1304,12 @@ sc-review-form-review-failure = Beoardieling kin net bewarre wurde. Probearje it
 sc-review-link = Beoardiele
 sc-settings-title = Ynstellingen
 sc-settings-reset-skipped = Oerslagge sinnen opnij inisjalisearje
+sc-settings-skipped-decription =
+    Jo hawwe earder sinnen oerslagge wylst it beoardielen.
+    By it opnij inisjalisearjen fan oerslagge sinnen wurde alle oerslagge sinnen wer toand.
+    Dit stiet los fan de taal.
+sc-settings-show-all-button = Alle oerslagge sinnen opnij toane
+sc-settings-failed = Kin ynstellingen net wizigje. Probearje it opnij.
 
 # [/SentenceCollector]
 
