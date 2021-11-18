@@ -106,6 +106,7 @@ mhr = Mezei mari
 mk = Macedón
 ml = Malajálam
 mn = Mongol
+mni = Manipuri
 mos = Moszi
 mr = Maráthi
 mrj = Hegyi mari
