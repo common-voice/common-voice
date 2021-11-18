@@ -217,6 +217,7 @@ benefits = መንፍዓት
 
 ## What's public
 
+email-not-public = አማእልኩም ዓም ንድዮ ኤኮን
 
 ## Speak & Listen Shortcuts
 
