@@ -892,6 +892,28 @@ contribution-volume-title = پلەی دەنگ
 contribution-just-unsure-title = دڵنیا نیت؟
 see-more = <chevron></chevron>زیاتر ببینە
 see-less = <chevron></chevron>کەمتر ببینە
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = ماڵەوە
+sc-header-how-to = چۆن-دەکرێت
+sc-header-add = زیادکردن
+sc-header-review = پێداچوونەوە
+sc-header-rejected = ڕستە پەسەند نەکراوەکان
+sc-header-my = ڕستەکانم
+sc-header-statistics = ئامار
+sc-header-profile = پرۆفایل
+sc-footer-discourse = دیسکۆرس
+sc-footer-report-bugs = کێشە ڕاپۆرت بکە
+sc-footer-translate = ئەم پەڕەیە وەربگێڕە
+sc-footer-report-copyright = گرفتی مافی لەبەرگرتنەوە ڕاپۆرت بکە
+sc-footer-privacy = تایبەتێتی
+sc-footer-terms = مەرجەکان
+sc-footer-cookies = شەکرۆکەکان
+sc-login-signup-button = چوونەژوور/خۆتۆمارکردن
+sc-logout-button = چوونەدەرەوە
+sc-home-title = بەخێربێی بۆ کۆکەرەوەی ڕستەی Common Voice
+sc-home-collect-title = ڕستە کۆبکەرەوە
 
 # [/SentenceCollector]
 
