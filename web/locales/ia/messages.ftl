@@ -1061,6 +1061,11 @@ sc-howto-cite-item-2 = Tu pote usar le stilo de citation academic, e.g stilo (de
 sc-howto-cite-item-3 = Pro texto con licentia public non disponibile online, tu pote usar le stilo de citation academic e.g stilo de citation harvard "Jess (2021) My Public licence poems"
 sc-howto-review-title = Revider phrases
 sc-howto-review-subtitle = Verifica que le phrase reuni le sequente criterios:
+sc-howto-review-criteria-1 = Le orthographia del phrase debe esser correcte.
+sc-howto-review-criteria-2 = Le phrase debe esser grammaticalmente correcte.
+sc-howto-review-criteria-3 = Le phrase debe esser pronunciabile.
+sc-howto-review-criteria-4 = Si le phrase reuni le criterios, clicca le button "Approbar".
+sc-howto-review-criteria-5 = Si le phrase non incontra le superior criterios, clicca le button "Rejectar". Si tu non es secur del phrase, tu pote alsi saltar lo e mover sur illo sequente.
 
 # [/SentenceCollector]
 
