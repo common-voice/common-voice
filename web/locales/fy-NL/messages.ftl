@@ -1,7 +1,7 @@
 ## General
 
-yes-receive-emails = Ja, stjoer my e-mailberjochten. Ik wol graach op 'e hichte bliuwe fan it projekt Common Voice.
-stayintouch = By Mozilla meitsje wy in mienskip rûnom spraaktechnology. Wy wolle graach yn kontakt bliuwe mei fernijingen, nije gegevensboarnen en om mear te hearren oer hoe't jo de gegevens brûke.
+yes-receive-emails = Ja, stjoer my e-mailberjochten. Ik wol graach op de hichte bliuwe fan it projekt Common Voice.
+stayintouch = By Mozilla meitsje wy in mienskip rûnom spraaktechnology. Wy wolle graach yn kontakt bliuwe mei fernijingen, nije gegevensboarnen en om mear te hearren oer hoe’t jo de gegevens brûke.
 privacy-info = Wy sizze jo ta dat wy jo ynformaasje mei omtinken behannelje. Mear ynfo dêr oer yn ús <privacyLink>Privacybelied</privacyLink>.
 return-to-cv = Werom nei Common Voice
 email-input =
@@ -194,15 +194,15 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Ynhâld beskikber ûnder in <licenseLink>Creative Commons-lisinsje</licenseLink>
 share-title = Help ús oaren te finen dy’t harren stim donearje wolle!
-share-text = Help mei masinen te learen hoe't echte minsken prate, donearje jo stim op { $link }
+share-text = Help mei masinen te learen hoe’t echte minsken prate, donearje jo stim op { $link }
 link-copied = Keppeling kopiearre
 back-top = Nei boppe
 logout = Ofmelde
 
 ## Home Page
 
-home-title = It projekt Common Voice is it inisjatyf fan Mozilla om masinen te learen hoe't echte minsken sprekke.
-default-tagline = Mozilla Common Voice is in inisjatyf om masinen te helpen learen hoe't echte minsken sprekke.
+home-title = It projekt Common Voice is it inisjatyf fan Mozilla om masinen te learen hoe’t echte minsken sprekke.
+default-tagline = Mozilla Common Voice is in inisjatyf om masinen te helpen learen hoe’t echte minsken sprekke.
 home-cta = Lit jo heare, doch hjir mei!
 wall-of-text-start =
     Spraak is natuerlik, spraak is minsklik. Dat is wêrom wy fassinearre binne mei it meitsjen fan brûkbere
@@ -215,7 +215,7 @@ wall-of-text-more-mobile =
 wall-of-text-more-desktop =
     No kinne jo jo stim donearje om ús te helpen in iepen boarne stimdatabase te meitsjen dy’t elkenien brûke kin
     om ynnovative apps te meitsjen foar apparaten en it web.<lineBreak></lineBreak>
-    Lês in sin om masinen te learen hoe't echte minsken sprekke. Kontrolearje it wurk fan oare
+    Lês in sin om masinen te learen hoe’t echte minsken sprekke. Kontrolearje it wurk fan oare
     dielnimmers om de kwaliteit te ferbetterjen. Sa ienfâldich is it!
 wall-of-text-first = Stim is natuerlik, stim is minsklik. Dêrom binne wy entûsjast oer it meitsjen fan brûkbere stimtechnology foar ús masinen. Mar om stimsystemen te meitsjen, hawwe ûntwikkelers in ekstreem grutte hoemannichte stimgegevens nedich.
 wall-of-text-second = De measte gegevens dy’t troch grutte bedriuwen brûkt wurde, binne foar de measte minsken net beskikber. Wy tinke dat dat ynnovaasje behinderet. Dêrom hawwe wy Common Voice start, in projekt dat helpt stimwerkenning foar elkenien iepen en tagonklik te meitsjen.
@@ -267,7 +267,7 @@ benefits = Foardielen
 rich-data = Meitsje jo yntsjinne gegevens sa ryk mooglik troch wat anonime demografyske gegevens op te jaan. Alle demografyske gegevens wurde anonym makke eardat se publisearre wurde.
 improve-audio = Profylynformaasje ferbetteret de audiogegevens dy’t brûkt wurde by it trainen fan de sekuerens fan spraakwerkenning.
 keep-track = Folgje jo foarútgong en metryske gegevens yn mear talen.
-compare-progress = Beskôgje hoe't jo foarútgong har ferhâldt ta dy fan oaren yn de wrâld.
+compare-progress = Beskôgje hoe’t jo foarútgong har ferhâldt ta dy fan oaren yn de wrâld.
 view-goals = Besjoch jo foarútgong tsjin persoanlike en projektdoelstellingen.
 join-newsletter = Meld jo opsjoneel oan foar ús mailinglist foar updates en nije ynformaasje oer it projekt.
 
@@ -311,7 +311,7 @@ shortcut-discard-ongoing-recording-label = Rinnende opname fuortsmite
 shortcut-submit = Tebek
 shortcut-submit-label = Fragminten yntsjinje
 request-language-text = Sjogge jo jo taal noch net op Common Voice?
-request-language-text-learn = Lês hjir hoe't jo it oanfreegje kinne!
+request-language-text-learn = Lês hjir hoe’t jo it oanfreegje kinne!
 request-language-button = In taal oanfreegje
 
 ## ProjectStatus
@@ -368,7 +368,7 @@ profile-explanation = Hâld jo foarútgong yn 'e gaten mei in profyl en help om 
 thanks-for-account = Tank foar de befêstiging fan jo account, no meitsje wy jo profyl.
 why-demographic = Wêrom is dit wichtich?
 why-demographic-explanation-2 = Anonime brûkersgegevens lykas leeftyd, gender en aksint helpe de audiogegevens dy’t foar it trainen fan de sekuerens fan spraakwerkenningsmasinen brûkt wurde te ferbetterjen. Jo brûkersnamme en e-mailadres sille nea mei jo yntsjinne gegevens keppele wurde, en jo kinne derfoar kieze jo brûkersnamme iepenbier of anonym te meitsjen.
-accept-privacy = Ik gean akkoart mei hoe't jo mei dizze gegevens omgean, lykas útlein yn Mozilla’s <privacyLink>Privacybelied</privacyLink>
+accept-privacy = Ik gean akkoart mei hoe’t jo mei dizze gegevens omgean, lykas útlein yn Mozilla’s <privacyLink>Privacybelied</privacyLink>
 accept-privacy-title = Privacybelied
 login-identity = Oanmeldingsidentiteit
 login-signup = Oanmelde / Registrearje
@@ -459,21 +459,21 @@ faq-what-determine-identity-a =
     Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifisearbere gegevens. Wannear’t jo de gegevensset downloade, geane jo dermei akkoart net te probearjen de identiteit fan in meiwurker te bepalen. Dat betsjut dat jo net probearje meie om gegevens yn de gegevensset oan de persoanlike ynformaasje fan in meiwurker te keppeljen. Jo meie de gegevensset echter wol brûke om spraakwerkenning, sprekkerwerkenning of oare tapassingen te trainen, bygelyks troch gegevens yn de gegevensset te keppeljen oan oare ynformaasje dy’t al yn de gegevensset stiet.
 faq-what-is-cv = Wat is Common Voice?
 faq-using-cv = Common Voice brûke
-faq-description = Common Voice is part fan in inisjatyf fan Mozilla om masinen te helpen learen hoe't echte minsken sprekke.
+faq-description = Common Voice is part fan in inisjatyf fan Mozilla om masinen te helpen learen hoe’t echte minsken sprekke.
 faq-search-for-answers =
     .label = Sykje nei antwurden
 
 ## ABOUT US
 
 about-title = Wêrom Common Voice?
-about-subtitle = Common Voice is part fan in inisjatyf fan Mozilla om masinen te helpen learen hoe't echte minsken sprekke. Yn oanfolling op de Common Voice-gegevensset bouwe wy ek in iepen boarne spraakwerkenningsmasine mei de namme Deep Speech.
+about-subtitle = Common Voice is part fan in inisjatyf fan Mozilla om masinen te helpen learen hoe’t echte minsken sprekke. Yn oanfolling op de Common Voice-gegevensset bouwe wy ek in iepen boarne spraakwerkenningsmasine mei de namme Deep Speech.
 about-header-description =
     Beide projekten meitsje diel út fan ús ynspanningen om de digitale spraakkleau te oerbrêgjen. Spraakwerkenningstechnologyen jouwe us apparaten in minsklike diminsje, mar ûntwikkelers hawwe in enoarme hoemannichte spraakgegevens nedich om se te bouwen. Op dit stuit binne de measte fan dy gegevens djoer en ôfskerme.
     Wy wolle spraakgegevens fergees en frij beskikber meitsje en derfoar soargje dat de gegevens in ferskaat fan echte minsken fertsjinwurdigje. Tegearre kinne wy stimwerkenning foar elkenien better meitsje.
 about-header-description-2 =
     Dit projekt is in ynspanning om de digitale spraakkleau te oerbrêgjen. Spraakwerkenningstechnologyen jouwe ús apparaten in minsklike diminsje, mar ûntwikkelers hawwe in enoarme hoemannichte spraakgegevens nedich om se te bouwen. Op dit stuit binne de measte fan dy gegevens djoer en ôfskerme.
     Wy wolle spraakgegevens fergees en frij beskikber meitsje en derfoar soargje dat de gegevens in ferskaat fan echte minsken fertsjinwurdigje. Tegearre kinne wy stimwerkenning foar elkenien better meitsje.
-how-does-it-work-title = Hoe't it wurket
+how-does-it-work-title = Hoe’t it wurket
 how-does-it-work-text = Wy crowdsource in iepen boarne stimgegevensset. Donearje jo stim, falidearje de sekuerens fan opnamen fan oaren en meitsje de gegevensset better foar elkenien.
 about-speak = Sprek
 about-speak-text = Bydragers nimme spraakfragminten op troch te lêzen fan in databank mei donearre sinnen.
@@ -607,16 +607,16 @@ get-started-speech = Oan 'e gong mei spraakwerkenning
 other-datasets = Oare stimgegevensets
 feedback-q = Kommentaar?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is in <docsLink>opensource-toolkit</docsLink> foar ûndersikers dy’t state-of-the-art-AI-modellen foar konversaasjes ûntwikkelje.
-resource-deepspeech-info = Deep Speech, de iepenboarne-spraakwerkenningsmasine fan Mozilla, kin brûkt wurde om spraakwerkenningstapassingen te bouwen. Lês ús <githubLink>GitHub-oersicht</githubLink> of besykje it <discourseLink>DeepSpeech-foarum op Discourse</discourseLink> om te ûntdekken hoe't jo begjinne kinne.
+resource-deepspeech-info = Deep Speech, de iepenboarne-spraakwerkenningsmasine fan Mozilla, kin brûkt wurde om spraakwerkenningstapassingen te bouwen. Lês ús <githubLink>GitHub-oersicht</githubLink> of besykje it <discourseLink>DeepSpeech-foarum op Discourse</discourseLink> om te ûntdekken hoe’t jo begjinne kinne.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> is tawijd oan iepen spraaktechnology. Harren projekten omfetsje op deep learning basearre STT- en TTS-masinen.
 community-playbook = Mienskipsdraaiboek
-resource-playbook-info = <playbookLink>Untdek nuttige hantliedingen</playbookLink> oer it hiele Common Voice-trajekt, fan lokalisaasje ta gebrûk fan de dataset, krekt as hoe't jo kontakt meitsje kinne mei ús mienskip.
+resource-playbook-info = <playbookLink>Untdek nuttige hantliedingen</playbookLink> oer it hiele Common Voice-trajekt, fan lokalisaasje ta gebrûk fan de dataset, krekt as hoe’t jo kontakt meitsje kinne mei ús mienskip.
 data-other-librispeech-description = LibriSpeech is in korpus fan ûngefear 1.000 oeren lêzen Ingelske spraak yn 16Khz ôfkomstich fan lêzen audioboeken fan it LibriVox-projekt.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = De TED-LIUM-korpus is makke fan audiopetearen en harren ûndertitels beskikber op de TED-website.
 data-other-voxforge-description = VoxForge is opset om ûndertitele spraak te sammeljen foar gebrûk mei Free en Open Source Speech Recognition Engines.
 data-other-tatoeba-description = Tatoeba is in grutte database mei sinnen, oersettingen, en sprutsen audio foar gebrûk yn it oanlearen fan taal. Dizze download befettet al it sprutsen Ingelsk opnommen troch harren mienskip.
-your-feedback = Hawwe jo ideeën oer hoe't wy de Common Voice gegevensset better meitsje kinne? Lit it ús witte op Discourse.
+your-feedback = Hawwe jo ideeën oer hoe’t wy de Common Voice gegevensset better meitsje kinne? Lit it ús witte op Discourse.
 go-discourse = Gean nei Discourse
 missing-language = Sjogge jo jo taal net yn de gegevensset? Gean nei ús talenside om in taal oan te freegjen.
 go-languages-page = Gean nei talenside
@@ -651,7 +651,7 @@ request-language-title = Taaloanfraach
 request-language-form-language =
     .label = Taal
 request-language-success-title = Taaloanfraach mei sukses yntsjinne, tank.
-request-language-success-content = Wy nimme ynkoarten kontakt op mei mear ynformaasje oer hoe't jo taal oan Common Voice tafoege wurde kin .
+request-language-success-content = Wy nimme ynkoarten kontakt op mei mear ynformaasje oer hoe’t jo taal oan Common Voice tafoege wurde kin .
 select-language = Selektearje in taal…
 other-language = Oare taal
 
@@ -865,7 +865,7 @@ share-goal-type-speak = Sprekke
 share-goal-type-listen = Harkje
 share-goal-type-both = Sprekke en harkje
 # LINK will be replaced with the current URL
-goal-share-text = Ik haw sakrekt in persoanlike doelstelling makke foar spraakdonaasje oan #CommonVoice –– doch mei my mei en help masinen te learen hoe't echte minsken sprekke { $link }
+goal-share-text = Ik haw sakrekt in persoanlike doelstelling makke foar spraakdonaasje oan #CommonVoice –– doch mei my mei en help masinen te learen hoe’t echte minsken sprekke { $link }
 weekly-goal-created = Jo wikedoel is oanmakke
 daily-goal-created = Jo deistige doel is oanmakke
 track-progress = Folgje jo deistige fuortgong hjir en op jo statistikenside.
@@ -958,14 +958,14 @@ demo-listen-subtitle = Klear om by te dragen?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Persoanlike dashboarden hâlde jo op de hichte fan jo yndividuele foarútgong en fan dy fan de mienskip.
-demo-dashboard-card-body = Foar elk donearre spraakfragmint en elk falidearre audiofragmint wurde jo accountdashboarden bywurke om jo lêste foarderingen wer te jaan yn elke taal wêroan jo bydrage. Ja, jo kinne oan mear as ien bydrage!<br/><br/>Brûk dashboarden om jo statistiken by te hâlden, te besjen hoe't jo it dogge neist oaren yn de mienskip en deistige of wyklikse bydragedoelen fêst te stellen.
+demo-dashboard-card-body = Foar elk donearre spraakfragmint en elk falidearre audiofragmint wurde jo accountdashboarden bywurke om jo lêste foarderingen wer te jaan yn elke taal wêroan jo bydrage. Ja, jo kinne oan mear as ien bydrage!<br/><br/>Brûk dashboarden om jo statistiken by te hâlden, te besjen hoe’t jo it dogge neist oaren yn de mienskip en deistige of wyklikse bydragedoelen fêst te stellen.
 
 ## Validation criteria
 
 contribution-criteria-nav = Kritearia
 contribution-criteria-link = Bydragekritearia begripe
 contribution-criteria-page-title = Bydragekritearia
-contribution-criteria-page-description = Ynformearje jo oer wêrop't jo by it harkjen fan fragminten lette moatte en hoe't jo jo eigen stimopnamen ferbetterje kinne!
+contribution-criteria-page-description = Ynformearje jo oer wêrop't jo by it harkjen fan fragminten lette moatte en hoe’t jo jo eigen stimopnamen ferbetterje kinne!
 contribution-for-example = bygelyks
 contribution-misreadings-title = Lêsflaters
 contribution-misreadings-description = Kontrolearje wylst jo harkje soarchfuldich dat wat opnommen is ek krekt is wat der skreaun stiet; keur it ôf as der sels lytse flaters binne. <br />Faaks foarkommende flaters binne:
