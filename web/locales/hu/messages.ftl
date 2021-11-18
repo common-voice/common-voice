@@ -1168,6 +1168,18 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Ellenőrzés most</reviewLink>
 sc-lang-info-add-more = <addLink>Mondatok hozzáadása most</addLink>
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Nincsenek ellenőrzött mondatok.
+        [one] 1 ellenőrzött mondat.
+       *[other] { $validatedSentences } ellenőrzött mondat.
+    }
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Nincsenek elutasított mondatok.
+        [one] 1 elutasított mondat.
+       *[other] { $rejectedSentences } elutasított mondat.
+    }
 sc-login-err-failed = Bejelentkezés sikertelen
 sc-login-err-try-again = Próbálja meg újra.
 sc-personal-err-lang-not-found = Nem sikerült eltávolítani a nyelvet: a nyelv nem található
