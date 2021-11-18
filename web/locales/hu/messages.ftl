@@ -1043,6 +1043,10 @@ sc-howto-addsen-item-1 =
     Hogy támogassuk a nem nyilvános licenc alatti műveket, létrehoztunk egy
     <cc0WaiverLink>Közreműködési megállapodás sablont</cc0WaiverLink> arra az esetre, ha a szerzői
     jogtulajdonos szeretne közreműködni a Common Voice-ban.
+sc-howto-addsen-item-2 = Számok. A forrásszövegben ne legyenek számok, mert problémákat okozhatna a hangos felolvasásnál. A számok kiolvasása a környezetüktől függ, és zavart okozhatnak az adatkészletben. Például a „250” olvasható „kétszázötvenként” vagy „kettőszázötvenként” is.
+sc-howto-addsen-item-3 = Rövidítések és mozaikszavak. Az olyan rövidítéseket és mozaikszavakat, mint az „USA” vagy „ICE”, kerülni kell a forrásszövegben, mert előfordulhat, hogy azokat úgy lehet olvasni, hogy azok nem esnek egybe a helyesírásukkal. Ezenkívül egyetlen rövidítéshez több pontos felolvasás is tartozhat. Például az „ICE” mozaikszó kiejthető „I-C-E”-ként, vagy egyetlen szóként is.
+sc-howto-addsen-item-4 = Központozás. Speciális szimbólumokat és írásjeleket csak akkor szabad használni, ha feltétlenül szükséges. Például egy aposztróf szerepel az olyan angol szavakban, mint a „don't” és a „we're”, ezeknek szerepelnie kell a forrásszövegben, de nem valószínű, hogy valaha is szükség lesz az olyan speciális szimbólumra, mint a „@” vagy a „#”.
+sc-howto-addsen-item-5 = Külföldi betűk. A betűknek érvényesnek kell lenniük a beszélt nyelven. Például a „ж” egy betű az orosz ábécében, de soha nem használják a magyarban, ezért soha nem szerepelhet semmilyen magyar forrásszövegben.
 sc-howto-cite-title = Hogyan kell idézni
 sc-howto-cite-pre-1 =
     Fontos, hogy hivatkozzon arra, hogy hol találta a nyilvános licencet,
