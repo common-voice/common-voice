@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = ꯍꯣꯏ, ꯏꯃꯦꯜ ꯑꯩꯉꯣꯟꯗ ꯊꯥꯔꯛꯎ ꯫ ꯑꯩ ꯀꯃꯟ ꯚꯣꯏꯁ ꯊꯧꯔꯥꯡ ꯑꯀꯨꯞ ꯋꯥꯔꯣꯜꯒꯤ ꯏꯄꯥꯎ ꯑꯗꯨꯝ ꯈꯪꯕ ꯄꯥꯝꯃꯤ ꯫
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -117,8 +118,5 @@ hi = ꯍꯤꯟꯗꯤ
 ## Validation criteria
 
 
-# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
-# automatically exported from Sentence Collector.
-# [SentenceCollector]
 # [/SentenceCollector]
 
