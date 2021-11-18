@@ -1064,6 +1064,21 @@ see-more = <chevron></chevron>Gweld rhagor
 see-less = <chevron></chevron>Gweld llai
 sc-header-how-to = Sut mae gwneud
 sc-header-add = Ychwanegu
+sc-header-review = Adolygu
+sc-header-rejected = Brawddegau wedi'u Gwrthod
+sc-header-my = Fy Mrawddegau
+sc-header-statistics = Ystadegau
+sc-header-profile = Proffil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Adrodd ar Wallau
+sc-footer-translate = Cyfieithu'r dudalen hon
+sc-footer-report-copyright = Adrodd ar fater hawlfraint
+sc-footer-privacy = Preifatrwydd
+sc-footer-terms = Termau
+sc-footer-cookies = Cwcis
+sc-login-signup-button = Mewngofnodi / Cofrestru
+sc-logout-button = Allgofnodi
+sc-home-title = Croeso i Gasglwr Brawddegau Common Voice
 
 # [/SentenceCollector]
 
