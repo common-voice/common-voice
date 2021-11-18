@@ -1119,6 +1119,29 @@ sc-howto-findpd-subtitle-2 = Partneru gyda sefydliadau neu unigolion lleol
 sc-howto-findpd-partner-1 = Mae yna lawer o sefydliadau cyhoeddus a allai fod eisiau cydweithio ac sydd eisoes â llawer o destunau y gallan nhw eu rhoi fel parth cyhoeddus. Cysylltwch â'ch Prifysgolion, Llywodraethau a sefydliadau cod agored lleol i siarad am y project a gofyn am eu cymorth.
 sc-howto-findpd-partner-2 = Gall ieithyddion arbenigol hefyd helpu, ceisiwch gysylltu â Phrifysgolion ieithyddol lleol (athrawon a myfyrwyr fel ei gilydd) a gweld a allan nhw helpu i gasglu set amrywiol o frawddegau sain-amrywiol yn eich iaith.
 sc-my-title = Fy Mrawddegau
+sc-my-description = Mae'r dudalen hon yn rhoi trosolwg i chi o'r holl frawddegau rydych wedi'u cyflwyno. Gallwch hefyd ddileu brawddegau a gyflwynwyd eisoes os oes angen gwneud hynny trwy farcio'r blwch ticio wrth ei ymyl a chlicio ar &quot;Dileu'r brawddegau hyn&quot; ar y gwaelod. Peidiwch â dileu brawddegau oni bai bod hynny'n hollol angenrheidiol, er enghraifft, os ydych wedi sylwi wedyn bod brawddeg wedi'i ddiogelu gan hawlfraint.
+sc-my-loading = Yn llwytho'ch brawddegau...
+sc-my-err-fetching = Gwall wrth estyn eich brawddegau. Ceisiwch eto.
+sc-my-no-sentences = Heb ganfod brawddegau
+sc-my-submission = Cyflwyniadau: { $batchId }
+sc-my-source = Ffynhonnell: { $source }
+sc-my-delete = Dileu'r brawddegau hyn
+sc-my-deleting = Yn dileu'r brawddegau hyn…
+sc-my-err-failed-delete = Wedi methu dileu'r brawddegau hyn... Rhowch gynnig arall arni!
+sc-profile-title = Proffil: { $username }
+sc-rejected-title = Brawddegau wedi'u Gwrthod
+sc-rejected-loading = Yn llwytho'r brawddegau wedi'u gwrthod...
+sc-rejected-err-fetching = Gwall wrth estyn y brawddegau wedi'u gwrthod. Ceisiwch eto.
+sc-rejected-none-found = Heb ganfod brawddegau wedi'u gwrthod!
+sc-review-lang-not-selected = Nid ydych wedi dewis unrhyw ieithoedd. Ewch i'ch <profileLink>Proffil</profileLink> i ddewis ieithoedd.
+sc-review-title = Adolygu Brawddegau
+sc-review-loading = Yn llwytho brawddegau...
+sc-review-select-language = Dewiswch iaith i adolygu brawddegau ynddi.
+sc-review-no-sentences = Dim brawddegau i'w hadolygu. <addLink>Ychwanegwch fwy o frawddegau nawr!</addLink>
+sc-stats-title = Ystadegau
+sc-stats-last-update = Diweddariad Diwethaf: { $lastUpdate }
+sc-stats-last-update-never = Diweddariad Diwethaf: byth
+sc-stats-updating = Yn diweddaru…
 
 # [/SentenceCollector]
 
