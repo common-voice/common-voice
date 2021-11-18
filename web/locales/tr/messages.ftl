@@ -106,6 +106,7 @@ mhr = Ova Marice
 mk = Makedonca
 ml = Malayalam
 mn = Moğolca
+mni = Meetei Lon
 mos = Mossi
 mr = Marathice
 mrj = Dağlık Marice
@@ -152,7 +153,7 @@ te = Telugu
 tg = Tacikçe
 th = Tayca
 ti = Tigrinya dili
-Tig = Tigre
+tig = Tigre
 tl = Tagalog
 tr = Türkçe
 tt = Tatarca
@@ -1003,3 +1004,76 @@ contribution-just-unsure-title = Emin değil misiniz?
 contribution-just-unsure-description = Bu yönergelerin kapsamadığı bir şeyle karşılaşırsanız, lütfen sağduyunuza göre oy verin. Gerçekten karar veremiyorsanız, atlama düğmesini kullanın ve bir sonraki kayda geçin.
 see-more = <chevron></chevron>Devamını gör
 see-less = <chevron></chevron>Daha azını gör
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Ana Sayfa
+sc-header-how-to = Nasıl Yapılır
+sc-header-add = Ekle
+sc-header-review = İncele
+sc-header-rejected = Reddedilen Cümleler
+sc-header-my = Cümlelerim
+sc-header-statistics = İstatistikler
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Hata Bildir
+sc-footer-translate = Bu sayfayı çevir
+sc-footer-report-copyright = Telif hakkı sorunlarını bildir
+sc-footer-privacy = Gizlilik
+sc-footer-terms = Koşullar
+sc-footer-cookies = Çerezler
+sc-login-signup-button = Giriş / Kayıt
+sc-logout-button = Çıkış
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+sc-submit-err-select-lang = Lütfen bir dil seçin.
+sc-submit-err-add-sentences = Lütfen cümle ekleyin.
+sc-submit-err-add-source = Lütfen bir kaynak ekleyin.
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
