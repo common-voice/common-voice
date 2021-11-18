@@ -1267,6 +1267,18 @@ sc-lang-info-validated =
         [many] { $validatedSentences } brawddeg wedi'u dilysu.
        *[other] { $validatedSentences } brawddeg wedi'u dilysu.
     }
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Dim brawddegau wedi'u gwrthod.
+        [zero] Dim brawddegau wedi'u gwrthod.
+        [one] 1 frawddeg wedi'i gwrthod.
+        [two] { $rejectedSentences } frawddeg wedi'u gwrthod.
+        [few] { $rejectedSentences } brawddeg wedi'u gwrthod.
+        [many] { $rejectedSentences } brawddeg wedi'u gwrthod.
+       *[other] { $rejectedSentences } brawddeg wedi'u gwrthod.
+    }
+sc-login-err-failed = Methodd y mewngofnodi
+sc-login-err-try-again = Ceisiwch eto.
 
 # [/SentenceCollector]
 
