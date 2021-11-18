@@ -1279,6 +1279,44 @@ sc-lang-info-rejected =
     }
 sc-login-err-failed = Methodd y mewngofnodi
 sc-login-err-try-again = Ceisiwch eto.
+sc-personal-err-lang-not-found = Methu dileu iaith: iaith heb ei chanfod
+sc-personal-err-remove = Methu dileu iaith
+sc-personal-your-languages = Eich ieithoedd:
+sc-personal-remove-button = tynnu
+sc-personal-added-by-you = { $sentences } wedi'u hychwanegu gennych chi
+sc-personal-not-added = Nid ydych wedi ychwanegu unrhyw ieithoedd eto.
+sc-criteria-modal = Ⓘ Meini Prawf Adolygu
+sc-criteria-title = Meini Prawf Adolygu
+sc-criteria-make-sure = Sicrhewch fod y frawddeg yn cwrdd â'r meini prawf canlynol:
+sc-criteria-item-1 = Rhaid fod y frawddeg wedi ei sillafu'n gywir.
+sc-criteria-item-2 = Rhaid i'r frawddeg fod yn ramadegol gywir.
+sc-criteria-item-3 = Rhaid i'r frawddeg fod yn ynganadwy.
+sc-criteria-item-4 = Os yw'r frawddeg yn cwrdd â'r meini prawf, cliciwch y botwm "Cymeradwyo" ar y dde.
+sc-criteria-item-5 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf uchod, cliciwch y botwm "Gwrthod" ar y dde. Os nad ydych yn siŵr am y frawddeg, gallwch hefyd ei hepgor a symud ymlaen i'r un nesaf.
+sc-criteria-item-6 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu rhagor o frawddegau!
+sc-review-form-prompt =
+    .message = Brawddegau wedi'u hadolygu ond heb eu cyflwyno, ydych chi'n siŵr?
+sc-review-form-usage = Llusgwch i'r dde i gymeradwyo'r frawddeg. Llusgwch i'r chwith i'w gwrthod. Llusgwch i fyny i'w hepgor. <strong>Peidiwch ag anghofio i gyflwyno'ch adolygiad!</strong>
+sc-review-form-source = Ffynhonnell: { $sentenceSource }
+sc-review-form-button-reject = Gwrthod
+sc-review-form-button-skip = Hepgor
+sc-review-form-button-approve = Cymeradwyo
+sc-review-form-keyboard-usage = Gallwch hefyd ddefnyddio Llwybrau Byr Allweddell: I i Gymeradwyo, N i Wrthod, H i Hepgor
+sc-review-form-button-submit =
+    .submitText = Gorffen yr Adolygiad
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Dim brawddegau wedi'u hadolygu.
+        [zero] Dim brawddegau wedi'u hadolygu.
+        [one] 1 frawddeg wedi'i adolygu. Diolch yn fawr!
+        [two] { $sentences } frawddeg wedi'u hadolygu. Diolch yn fawr!
+        [few] { $sentences } brawddeg wedi'u hadolygu. Diolch yn fawr!
+        [many] { $sentences } brawddeg wedi'u hadolygu. Diolch yn fawr!
+       *[other] { $sentences } brawddeg wedi'u hadolygu. Diolch yn fawr!
+    }
+sc-review-form-review-failure = Nid oedd modd cadw'r adolygiad. Ceisiwch eto'n hwyrach.
+sc-review-link = Adolygu
+sc-settings-title = Gosodiadau
 
 # [/SentenceCollector]
 
