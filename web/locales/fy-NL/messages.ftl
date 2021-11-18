@@ -316,7 +316,7 @@ request-language-button = In taal oanfreegje
 
 ## ProjectStatus
 
-status-title = Projektsteat: sjoch hoe fier wy't al binne!
+status-title = Projektsteat: sjoch hoe fier wy’t al binne!
 status-contribute = Draach by mei jo stim
 status-hours =
     { $hours ->
@@ -364,7 +364,7 @@ settings = Ynstellingen
 edit-profile = Profyl bewurkje
 profile-create-success = Profyl mei sukses oanmakke!
 profile-close = Slute
-profile-explanation = Hâld jo foarútgong yn 'e gaten mei in profyl en help om ús stimgegevens sekuerder te wêzen.
+profile-explanation = Hâld jo foarútgong yn de gaten mei in profyl en help om ús stimgegevens sekuerder te wêzen.
 thanks-for-account = Tank foar de befêstiging fan jo account, no meitsje wy jo profyl.
 why-demographic = Wêrom is dit wichtich?
 why-demographic-explanation-2 = Anonime brûkersgegevens lykas leeftyd, gender en aksint helpe de audiogegevens dy’t foar it trainen fan de sekuerens fan spraakwerkenningsmasinen brûkt wurde te ferbetterjen. Jo brûkersnamme en e-mailadres sille nea mei jo yntsjinne gegevens keppele wurde, en jo kinne derfoar kieze jo brûkersnamme iepenbier of anonym te meitsjen.
@@ -510,7 +510,7 @@ about-nav-get-involved = Meiwurkje
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence
 mycroft-description =
-    Mycroft is de earste iepen boarne assistint fan 'e wrâld.
+    Mycroft is de earste iepen boarne assistint fan de wrâld.
     Mycroft draait oeral – op in desktopkompjûter, yn in auto of op in Raspberry Pi.
 mycroft-secondary-description = Dit is opensourcesoftware dy’t frij remikst wurde kin, útwreide en ferbettere. Mycroft mei brûkt wurde yn alles fan in wittenskiplik projekt oant in saaklike softwaretapassing.
 
@@ -603,7 +603,7 @@ dataset-description-hours =
     De gegevensset bestiet op dit stuit út <b>{ $valid }</b> falidearre oeren yn <b>{ $languages }</b> talen, mar wy foegje trochgeand spraak en talen ta. Sjoch ris op ús <languagesLink>side Talen</languagesLink> om in taal oan te freegjen of in bydrage te leverjen.
 want-dataset-update = Wolle jo in berjocht wannear’t wy in nije ferzje fan de Common Voice-gegevensset útbringe? Abonnearje jo dan op ús nijsbrief.
 subscribe = Abonnearje
-get-started-speech = Oan 'e gong mei spraakwerkenning
+get-started-speech = Begjinne mei spraakwerkenning
 other-datasets = Oare stimgegevensets
 feedback-q = Kommentaar?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is in <docsLink>opensource-toolkit</docsLink> foar ûndersikers dy’t state-of-the-art-AI-modellen foar konversaasjes ûntwikkelje.
@@ -629,7 +629,7 @@ dataset-version = Ferzje
 ## Download Modal
 
 download-title = Jo download is starten.
-download-helpus = Help ús in mienskip te bouwen rûnom spraaktechnology, bliuw op 'e hichte fia e-mail.
+download-helpus = Help ús in mienskip te bouwen rûnom spraaktechnology, bliuw op de hichte fia e-mail.
 download-form-email =
     .label = Fier jo e-mailadres yn
     .value = Tankewol, wy nimme kontakt op.
@@ -841,7 +841,7 @@ activity-needed-calculation-plural =
        *[other] { $clipsPerDay } fragminten
     }op in dei opnimme
 how-many-per-day = Bjusterbaarlik! Hoefolle fragminten op in dei?
-how-many-a-week = Bjusterbaarlik! Hoefolle fragminten yn 'e wike?
+how-many-a-week = Bjusterbaarlik! Hoefolle fragminten yn ’e wike?
 which-goal-type = Wolle jo sprekke, harkje of beide?
 receiving-emails-info =
     Jo ûntfange op dit stuit e-mailberjochten, lykas omtinken oan doelen, fernijingen
@@ -965,7 +965,7 @@ demo-dashboard-card-body = Foar elk donearre spraakfragmint en elk falidearre au
 contribution-criteria-nav = Kritearia
 contribution-criteria-link = Bydragekritearia begripe
 contribution-criteria-page-title = Bydragekritearia
-contribution-criteria-page-description = Ynformearje jo oer wêrop't jo by it harkjen fan fragminten lette moatte en hoe’t jo jo eigen stimopnamen ferbetterje kinne!
+contribution-criteria-page-description = Ynformearje jo oer wêrop’t jo by it harkjen fan fragminten lette moatte en hoe’t jo jo eigen stimopnamen ferbetterje kinne!
 contribution-for-example = bygelyks
 contribution-misreadings-title = Lêsflaters
 contribution-misreadings-description = Kontrolearje wylst jo harkje soarchfuldich dat wat opnommen is ek krekt is wat der skreaun stiet; keur it ôf as der sels lytse flaters binne. <br />Faaks foarkommende flaters binne:
