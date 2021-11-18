@@ -1120,6 +1120,186 @@ sc-howto-findpd-partner-2 =
     universiteiten (zowel docenten als studenten) en kijk of ze kunnen helpen om een diverse set van
     zinnen met uiteenlopende klanken in uw taal te verzamelen.
 sc-my-title = Mijn zinnen
+sc-my-description =
+    Deze pagina biedt u een overzicht van al uw ingezonden zinnen.
+    U kunt indien nodig ook reeds ingediende zinnen verwijderen door er een vinkje naast te plaatsen
+    en onderaan op &quot;Geselecteerde zinnen verwijderen&quot; te klikken.
+    Verwijder zinnen alleen als dit absoluut noodzakelijk is,
+    bijvoorbeeld als u achteraf opmerkt dat een zin auteursrechtelijk beschermd is.
+sc-my-loading = Uw zinnen laden...
+sc-my-err-fetching = Fout bij het ophalen van uw zinnen. Probeer het opnieuw.
+sc-my-no-sentences = Geen zinnen gevonden!
+sc-my-submission = Inzending: { $batchId }
+sc-my-source = Bron: { $source }
+sc-my-delete = Geselecteerde zinnen verwijderen
+sc-my-deleting = Geselecteerde zinnen verwijderen...
+sc-my-err-failed-delete = Kan geselecteerde zinnen niet verwijderen... Probeer het opnieuw!
+sc-profile-title = Profiel: { $username }
+sc-rejected-title = Afgewezen zinnen
+sc-rejected-loading = Afgewezen zinnen laden…
+sc-rejected-err-fetching = Fout bij het ophalen van afgewezen zinnen. Probeer het opnieuw.
+sc-rejected-none-found = Geen afgewezen zinnen gevonden!
+sc-review-lang-not-selected =
+    U hebt geen talen geselecteerd. Ga naar uw
+    <profileLink>Profiel</profileLink> om talen te selecteren.
+sc-review-title = Zinnen beoordelen
+sc-review-loading = Zinnen laden…
+sc-review-select-language = Selecteer een taal om zinnen te beoordelen.
+sc-review-no-sentences =
+    Geen zinnen om te beoordelen.
+    <addLink>Voeg nu meer zinnen toe!</addLink>
+sc-stats-title = Statistieken
+sc-stats-last-update = Laatste update: { $lastUpdate }
+sc-stats-last-update-never = Laatste update: nooit
+sc-stats-updating = Bijwerken…
+sc-stats-summary =
+    De Common Voice Sentence Collector heeft { $sentenceCount }
+    zinnen in { $languageCount } talen verzameld!
+sc-submit-err-select-lang = Selecteer een taal.
+sc-submit-err-add-sentences = Voeg zinnen toe.
+sc-submit-err-add-source = Voeg een bron toe.
+sc-submit-err-confirm-pd = Bevestig dat deze zinnen publiek domein zijn.
+sc-submit-prompt =
+    .message = Zinnen niet ingediend, weet u zeker dat u wilt afsluiten?
+sc-submit-title = Zinnen toevoegen
+sc-submit-select-language =
+    .labelText = Taal selecteren
+sc-submit-add-sentences = <wikipediaLink>Publiek domein</wikipediaLink>-zinnen toevoegen
+sc-submit-ph-one-per-line =
+    .placeholder = Eén zin per regel
+sc-submit-from-where = Waar komen deze <wikipediaLink>publiek domein</wikipediaLink>-zinnen vandaan?
+sc-submit-ph-read-how-to =
+    .placeholder = Lees onze handleiding als u niet zeker weet hoe u moet toeschrijven
+sc-submit-confirm =
+    Ik bevestig dat deze zinnen <wikipediaLink>publiek domein</wikipediaLink> zijn en
+    ik toestemming heb om ze te uploaden.
+sc-submit-button =
+    .submitText = Indienen
+sc-submit-filtered = Gefilterde zinnen vanwege niet voldoen aan eisen (dien correcte versies in als nieuwe zinnen):
+sc-submit-guidelines = Raadpleeg de <howToLink>richtlijnen</howToLink>.
+sc-add-lang-could-not-add = Kan taal niet toevoegen
+sc-add-lang-sec-label = Voeg een taal toe waaraan u wilt bijdragen
+sc-add-lang-sec-button = Taal toevoegen
+sc-add-err-unexpected = Onverwacht antwoord ontvangen van server
+sc-add-result =
+    { $duplicates ->
+        [0] Ingediende zinnen. { $duplicates } zinnen zijn afgewezen als duplicaten.
+        [one] Ingediende zinnen. { $duplicates } zin is afgewezen als duplicaat.
+       *[other] Ingediende zinnen. { $duplicates } zinnen zijn afgewezen als duplicaten.
+    }
+sc-add-err-failed =
+    { $sentences ->
+        [0] Geen zin mislukt
+        [one] Eén zin mislukt
+       *[other] { $sentences } zinnen mislukt
+    }
+sc-add-err-submission = Indieningsfout
+sc-confirm-are-you-sure =
+    .message = Zinnen niet ingediend, weet u zeker dat u wilt afsluiten?
+sc-confirm-sentences-title = Nieuwe zinnen bevestigen
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Geen zinnen gevonden.
+        [one] Eén zin gevonden.
+       *[other] { $countOfSentences } zinnen gevonden.
+    }
+sc-confirm-rejected-by-you = { $countOfInvalidated } door u afgewezen
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Geen zin reeds beoordeeld.
+        [one] Er is reeds één zin beoordeeld. Goed werk!
+       *[other] Er zijn reeds { $countOfReviewed } zinnen beoordeeld. Goed werk!
+    }
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Geen zin klaar voor indiening!
+        [one] Eén zin klaar voor indiening!
+       *[other] { $readyCount } zinnen klaar voor indiening!
+    }
+sc-confirm-unreviewed =
+    { $countOfUnreviewed } zinnen zijn niet beoordeeld.
+    Als u wilt, kunt u uw zinnen nu ook beoordelen voordat u ze indient.
+sc-confirm-button-text = Bevestigen
+sc-confirm-uploading = Zinnen worden geüpload. Dit kan enkele minuten duren, afhankelijk van het aantal toegevoegde zinnen. Sluit deze website niet.
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Geen totaal aantal zinnen.
+        [one] Totaal één zin.
+       *[other] Totaal { $totalSentences } zinnen.
+    }
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Geen zinnen in beoordeling.
+        [one] Eén zin in beoordeling.
+       *[other] { $totalInReview } zinnen in beoordeling.
+    }
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Geen zin die u nog kunt beoordelen.
+        [one] Eén zin die u nog kunt beoordelen.
+       *[other] { $unreviewedSentencesByYou } zinnen die u nog kunt beoordelen.
+    }
+sc-lang-info-review-now = <reviewLink>Nu beoordelen!</reviewLink>
+sc-lang-info-add-more = <addLink>Nu meer zinnen toevoegen!</addLink>
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Geen gevalideerde zinnen.
+        [one] Eén gevalideerde zin.
+       *[other] { $validatedSentences } gevalideerde zinnen.
+    }
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Geen afgewezen zinnen.
+        [one] Eén afgewezen zin.
+       *[other] { $rejectedSentences } afgewezen zinnen.
+    }
+sc-login-err-failed = Aanmelding mislukt
+sc-login-err-try-again = Probeer het opnieuw.
+sc-personal-err-lang-not-found = Kan taal niet verwijderen: taal niet gevonden
+sc-personal-err-remove = Kan taal niet verwijderen
+sc-personal-your-languages = Uw talen:
+sc-personal-remove-button = verwijderen
+sc-personal-added-by-you = { $sentences } door u toegevoegd
+sc-personal-not-added = U hebt nog geen talen toegevoegd.
+sc-criteria-modal = ⓘ Beoordelingscriteria
+sc-criteria-title = Beoordelingscriteria
+sc-criteria-make-sure = Zorg ervoor dat de zin aan de volgende criteria voldoet:
+sc-criteria-item-1 = De zin moet correct gespeld zijn.
+sc-criteria-item-2 = De zin moet grammaticaal correct zijn.
+sc-criteria-item-3 = De zin moet uitspreekbaar zijn.
+sc-criteria-item-4 = Als de zin aan de criteria voldoet, klik dan op de knop &quot;Goedkeuren&quot; aan de rechterkant.
+sc-criteria-item-5 =
+    Als de zin niet aan de bovenstaande criteria voldoet, klik dan op de knop &quot;Afwijzen&quot; aan de rechterkant.
+    Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
+sc-criteria-item-6 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
+sc-review-form-prompt =
+    .message = Beoordeelde zinnen niet ingediend, weet u het zeker?
+sc-review-form-usage =
+    Veeg naar rechts om de zin goed te keuren. Veeg naar links om deze af te wijzen.
+    Veeg omhoog om deze over te slaan. <strong>Vergeet niet uw beoordeling in te dienen!</strong>
+sc-review-form-source = Bron: { $sentenceSource }
+sc-review-form-button-reject = Afwijzen
+sc-review-form-button-skip = Overslaan
+sc-review-form-button-approve = Goedkeuren
+sc-review-form-keyboard-usage = U kunt ook sneltoetsen gebruiken: Y om goed te keuren, N om af te wijzen, S om over te slaan
+sc-review-form-button-submit =
+    .submitText = Beoordeling voltooien
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Geen zinnen beoordeeld.
+        [one] Eén zin beoordeeld. Bedankt!
+       *[other] { $sentences } zinnen beoordeeld. Bedankt!
+    }
+sc-review-form-review-failure = Beoordeling kan niet worden opgeslagen. Probeer het later nog eens.
+sc-review-link = Beoordelen
+sc-settings-title = Instellingen
+sc-settings-reset-skipped = Overgeslagen zinnen herinitialiseren
+sc-settings-skipped-decription =
+    U hebt eerder zinnen overgeslagen tijdens het beoordelen.
+    Bij het herinitialiseren van overgeslagen zinnen worden alle overgeslagen zinnen weer getoond.
+    Dit staat los van de taal.
+sc-settings-show-all-button = Alle overgeslagen zinnen opnieuw tonen
+sc-settings-failed = Kan instellingen niet wijzigen. Probeer het opnieuw.
 
 # [/SentenceCollector]
 
