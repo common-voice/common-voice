@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = ꯍꯣꯏ, ꯏꯃꯦꯜ ꯑꯩꯉꯣꯟꯗ ꯊꯥꯔꯛꯎ ꯫ ꯑꯩ ꯀꯃꯟ ꯚꯣꯏꯁ ꯊꯧꯔꯥꯡ ꯑꯀꯨꯞ ꯋꯥꯔꯣꯜꯒꯤ ꯏꯄꯥꯎ ꯑꯗꯨꯝ ꯈꯪꯕ ꯄꯥꯝꯃꯤ ꯫
+stayintouch = ꯑꯩꯈꯣꯏꯅ ꯃꯣꯖꯤꯂꯥꯗ ꯂꯩꯗꯨꯅ ꯃꯤꯌꯥꯝ ꯱ ꯁꯦꯝꯗꯨꯅ ꯈꯣꯟꯖꯦꯜꯒꯤ ꯁꯤꯟꯁꯥꯔꯣꯜꯗ ꯫ ꯑꯩꯈꯣꯏꯅ ꯑꯅꯧꯕ ꯑꯅꯧꯕ ꯂꯥꯛꯄ ꯏꯄꯥꯎ, ꯍꯧꯔꯛꯐꯝ ꯈꯪꯕ ꯄꯥꯝꯃꯤ ꯱ꯁꯨꯡ ꯅꯍꯥꯛꯅ ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯗꯥꯇꯥ ꯃꯔꯝꯗ ꯇꯥꯅꯕ ꯫
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
