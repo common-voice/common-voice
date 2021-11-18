@@ -1052,6 +1052,10 @@ sc-howto-addsen-item-3 =
     Per exemplo, le acronymo “ICE” pote esser pronunciate “I-C-E” o como singule parola.
 sc-howto-addsen-item-4 = Punctuation. Symbolos special e punctuation deberea solo esser includite quando absolutemente necessari. Per exemplo, un apostropho es includite in vocabulos anglese como “don’t” e “we’re” e debe esser includite in le texto fonte, ma il es inverisimile que tu unquam besoniara de un symbolo special como “@” o “#.”
 sc-howto-addsen-item-5 = Litteras estranier. Le litteras debe esser valide in le lingua a parlar. Per exemplo, “ж” es un littera in le alphabeto russe ma jammais es usate in anglese e assi non deberea jammais apparer in ulle texto fonte anglese.
+sc-howto-addsen-item-6 = Le linguas pote haber lor <validationRulesLink>proprie regulas de validation</validationRulesLink> con altere requisitos. Si il non ha un specific validation file pro un lingua, nos usa le generic regulas del anglese.
+sc-howto-addsen-post-1 = Nos prefere phrases natural/conversational. Durante que le diversitate phonetic e differente vocabulos in phrases es importante, nos tenta render phrases a registrar le plus amusante possibile. Pro isto il esserea formidabile si tu pote tentar de mantener tu phrases le plus natural e involvente possibile.
+sc-howto-cite-title = Como citar
+sc-howto-cite-pre-1 = Il es importante que tu refere ubi tu trovava le licentia public pro impedir plagio e pro permitter de sequer ups sur <copyrightIssuesLink>problemas de derectos de autor</copyrightIssuesLink>. Ecce alcun manieras que tu pote citar le labor.
 
 # [/SentenceCollector]
 
