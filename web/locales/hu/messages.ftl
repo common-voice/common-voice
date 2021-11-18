@@ -1219,6 +1219,7 @@ sc-criteria-item-5 = Ha a mondat nem felel meg a fenti feltételeknek, kattintso
 sc-criteria-item-6 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében!
 sc-review-form-prompt =
     .message = Az ellenőrzött mondatokat nem küldte be, biztos benne?
+sc-review-form-usage = Csúsztassa jobbra a mondat jóváhagyásához. Csúsztassa balra az elutasításhoz. Csúsztassa felfelé az átugráshoz. <strong>Ne felejtse el elküldeni az értékelését.</strong>
 sc-review-form-source = Forrás: { $sentenceSource }
 sc-review-form-button-reject = Elutasítás
 sc-review-form-button-skip = Kihagyás
@@ -1236,6 +1237,7 @@ sc-review-form-review-failure = Az ellenőrzés mentése nem sikerült. Próbál
 sc-review-link = Ellenőrzés
 sc-settings-title = Beállítások
 sc-settings-reset-skipped = Kihagyott mondatok visszaállítása
+sc-settings-skipped-decription = Korábban kihagyott mondatokat az ellenőrzés során. Az átugrott mondatok visszaállítása az összes kihagyott mondatot újra megjeleníti. Ez független a nyelvtől.
 sc-settings-show-all-button = Az összes kihagyott mondat megjelenítése újra
 sc-settings-failed = Nem sikerült módosítani a beállításokat. Próbálja újra.
 
