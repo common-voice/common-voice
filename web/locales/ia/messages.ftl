@@ -1050,6 +1050,7 @@ sc-howto-addsen-item-3 =
     debe esser evitate in le texto fonte perque illos pote esser legite in un maniera que non coincide con lor orthographia.
     In addition, on pote haber plure accurate lecturas pro un singule abbreviation.
     Per exemplo, le acronymo “ICE” pote esser pronunciate “I-C-E” o como singule parola.
+sc-howto-addsen-item-4 = Punctuation. Symbolos special e punctuation deberea solo esser includite quando absolutemente necessari. Per exemplo, un apostropho es includite in vocabulos anglese como “don’t” e “we’re” e debe esser includite in le texto fonte, ma il es inverisimile que tu unquam besoniara de un symbolo special como “@” o “#.”
 
 # [/SentenceCollector]
 
