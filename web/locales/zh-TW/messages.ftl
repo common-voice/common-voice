@@ -1029,8 +1029,10 @@ sc-howto-review-criteria-2 = 句子的文法必須正確。
 sc-howto-review-criteria-3 = 句子必須說得出來。
 sc-howto-review-criteria-4 = 若句子符合上述標準，請點擊「通過」按鈕。
 sc-howto-findpd-subtitle = 到網路上搜搜看
+sc-howto-findpd-tips = 以下是尋找句子的一些小秘訣：
 sc-my-title = 我的句子
 sc-my-loading = 正在載入您的語句…
+sc-my-err-fetching = 取得您的句子時發生錯誤，請稍候再試。
 sc-my-no-sentences = 找不到句子！
 sc-my-submission = 送出於：{ $batchId }
 sc-my-source = 來源：{ $source }
@@ -1040,13 +1042,17 @@ sc-my-err-failed-delete = 選取的語句刪除失敗…請再試一次！
 sc-profile-title = 個人資料：{ $username }
 sc-rejected-title = 被拒絕的句子
 sc-rejected-loading = 正在載入被拒絕的句子…
+sc-rejected-err-fetching = 取得被拒絕的句子時發生錯誤，請稍候再試。
 sc-rejected-none-found = 找不到被拒絕的句子！
+sc-review-lang-not-selected = 您尚未選擇任何語言，請到<profileLink>個人資料頁面</profileLink>選擇要貢獻的語言。
 sc-review-title = 審核句子
 sc-review-loading = 正在載入語句…
+sc-review-select-language = 請選擇語言來審核句子。
 sc-stats-title = 統計資訊
 sc-stats-last-update = 最後更新：{ $lastUpdate }
 sc-stats-last-update-never = 最後更新：從未
 sc-stats-updating = 更新中…
+sc-stats-summary = Common Voice Sentence Collector 已經收集了 { $languageCount } 種語言的 { $sentenceCount } 個句子！
 sc-submit-err-select-lang = 請選擇語言。
 sc-submit-err-add-sentences = 請新增句子。
 sc-submit-err-add-source = 請新增來源。
@@ -1062,9 +1068,11 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = 這些<wikipediaLink>公有領域（Public Domain）</wikipediaLink>的句子來自何處？
 sc-submit-button =
     .submitText = 送出
+sc-submit-guidelines = 請參考<howToLink>審核指南</howToLink>。
 sc-add-lang-could-not-add = 無法新增語言
 sc-add-lang-sec-label = 新增您想要貢獻的語言
 sc-add-lang-sec-button = 新增語言
+sc-add-err-unexpected = 伺服器回覆了未預期的錯誤
 sc-add-err-failed =
     { $sentences ->
         [0] 沒有失敗的句子
@@ -1084,6 +1092,11 @@ sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] 未審核任何句子。
        *[other] 您審核了 { $countOfReviewed } 句，做得好！
+    }
+sc-confirm-ready =
+    { $readyCount ->
+        [0] 沒有句子可以送出！
+       *[other] 已經有 { $readyCount } 句準備好可以送出！
     }
 sc-confirm-button-text = 確認
 sc-lang-info-total =
@@ -1120,6 +1133,7 @@ sc-personal-err-remove = 無法移除語言
 sc-personal-your-languages = 您的語言：
 sc-personal-remove-button = 移除
 sc-personal-added-by-you = 您新增了 { $sentences } 句
+sc-personal-not-added = 您尚未加入任何語言。
 sc-criteria-modal = ⓘ 審核標準
 sc-criteria-title = 審核標準
 sc-criteria-item-1 = 句子必須拼得正確。
