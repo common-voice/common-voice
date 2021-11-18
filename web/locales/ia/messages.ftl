@@ -1075,6 +1075,7 @@ sc-howto-findpd-tips-1 = Le melior fontes pro recercar es podcasts, transcriptio
 sc-howto-findpd-tips-2 = Alsi deliberationes, libros e articulos governative es formidabile, totevia pois que le texto tende a esser un poco plus formal illos es de minor prioritate.
 sc-howto-findpd-tips-3 = Infortunatemente nos non pote ancora haber articulos de Wikimedia. Assi non copia-colla de illac.
 sc-howto-findpd-subtitle-2 = Partner con interprisas o le personas local
+sc-howto-findpd-partner-1 = Il ha multe public interprisas que poterea voler collaborar e jam ha multe textos que pote donar como dominio public. Attinge local universitates, governamentos e interprisas open-source pro parlar re le projecto e quere lor adjuta.
 
 # [/SentenceCollector]
 
