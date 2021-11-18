@@ -152,7 +152,6 @@ te = telugu
 tg = tadjik
 th = tailandès
 ti = tigrinya
-Tig = tigre
 tl = tagal
 tr = turc
 tt = tàtar
@@ -1003,3 +1002,17 @@ contribution-just-unsure-title = Teniu dubtes?
 contribution-just-unsure-description = Si us trobeu amb alguna cosa que aquestes directrius no cobreixen, voteu segons el vostre criteri. Si realment no ho podeu decidir, feu servir el botó Omet i passeu a l'enregistrament següent.
 see-more = <chevron></chevron>Més
 see-less = <chevron></chevron>Menys
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = Inici
+sc-header-add = Afegeix
+sc-header-rejected = Frases rebutjades
+sc-header-my = Les meves frases
+sc-header-statistics = Estadístiques
+sc-header-profile = Perfil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Informa de problemes
+
+# [/SentenceCollector]
+
