@@ -193,7 +193,7 @@ terms = Betingsten
 cookies = Cookies
 faq = FAQ
 content-license-text = Ynhâld beskikber ûnder in <licenseLink>Creative Commons-lisinsje</licenseLink>
-share-title = Help ús oaren te finen dy't harren stim donearje wolle!
+share-title = Help ús oaren te finen dy’t harren stim donearje wolle!
 share-text = Help mei masinen te learen hoe't echte minsken prate, donearje jo stim op { $link }
 link-copied = Keppeling kopiearre
 back-top = Nei boppe
@@ -213,12 +213,12 @@ wall-of-text-more-mobile =
     dat dat ynnovaasje behinderet. Dêrom hawwe wy it projekt Common Voice lansearre, in projekt om
     spraakwerkenning foar elkenien tagonklik te meitsjen.
 wall-of-text-more-desktop =
-    No kinne jo jo stim donearje om ús te helpen in iepen boarne stimdatabase te meitsjen dy't elkenien brûke kin
+    No kinne jo jo stim donearje om ús te helpen in iepen boarne stimdatabase te meitsjen dy’t elkenien brûke kin
     om ynnovative apps te meitsjen foar apparaten en it web.<lineBreak></lineBreak>
     Lês in sin om masinen te learen hoe't echte minsken sprekke. Kontrolearje it wurk fan oare
     dielnimmers om de kwaliteit te ferbetterjen. Sa ienfâldich is it!
 wall-of-text-first = Stim is natuerlik, stim is minsklik. Dêrom binne wy entûsjast oer it meitsjen fan brûkbere stimtechnology foar ús masinen. Mar om stimsystemen te meitsjen, hawwe ûntwikkelers in ekstreem grutte hoemannichte stimgegevens nedich.
-wall-of-text-second = De measte gegevens dy't troch grutte bedriuwen brûkt wurde, binne foar de measte minsken net beskikber. Wy tinke dat dat ynnovaasje behinderet. Dêrom hawwe wy Common Voice start, in projekt dat helpt stimwerkenning foar elkenien iepen en tagonklik te meitsjen.
+wall-of-text-second = De measte gegevens dy’t troch grutte bedriuwen brûkt wurde, binne foar de measte minsken net beskikber. Wy tinke dat dat ynnovaasje behinderet. Dêrom hawwe wy Common Voice start, in projekt dat helpt stimwerkenning foar elkenien iepen en tagonklik te meitsjen.
 show-wall-of-text = Mear ynfo
 help-us-title = Help ús sinnen te falidearjen!
 help-us-explain = Klik op de ôfspylknop, harkje en fertel ús: wurdt de ûndersteande sin korrekt útsprutsen?
@@ -265,7 +265,7 @@ email-subscription-title-new = Registrearje foar nijsbrieven fan Common Voice, o
 
 benefits = Foardielen
 rich-data = Meitsje jo yntsjinne gegevens sa ryk mooglik troch wat anonime demografyske gegevens op te jaan. Alle demografyske gegevens wurde anonym makke eardat se publisearre wurde.
-improve-audio = Profylynformaasje ferbetteret de audiogegevens dy't brûkt wurde by it trainen fan de sekuerens fan spraakwerkenning.
+improve-audio = Profylynformaasje ferbetteret de audiogegevens dy’t brûkt wurde by it trainen fan de sekuerens fan spraakwerkenning.
 keep-track = Folgje jo foarútgong en metryske gegevens yn mear talen.
 compare-progress = Beskôgje hoe't jo foarútgong har ferhâldt ta dy fan oaren yn de wrâld.
 view-goals = Besjoch jo foarútgong tsjin persoanlike en projektdoelstellingen.
@@ -355,7 +355,7 @@ female = Frou
 # Gender
 other = Oars
 why-profile-title = Wêrom in profyl?
-why-profile-text = Troch wat ynformaasje oer josels te jaan, sille de troch jo by Common Voice yntsjinne audiogegevens better brûkber wêze foar spraakwerkenningsmasinen dy't dizze gegevens brûke om de presizens te ferbetterjen.
+why-profile-text = Troch wat ynformaasje oer josels te jaan, sille de troch jo by Common Voice yntsjinne audiogegevens better brûkber wêze foar spraakwerkenningsmasinen dy’t dizze gegevens brûke om de presizens te ferbetterjen.
 dashboard = Dashboerd
 build-profile = Profyl opbouwe
 avatar = Avatar
@@ -367,7 +367,7 @@ profile-close = Slute
 profile-explanation = Hâld jo foarútgong yn 'e gaten mei in profyl en help om ús stimgegevens sekuerder te wêzen.
 thanks-for-account = Tank foar de befêstiging fan jo account, no meitsje wy jo profyl.
 why-demographic = Wêrom is dit wichtich?
-why-demographic-explanation-2 = Anonime brûkersgegevens lykas leeftyd, gender en aksint helpe de audiogegevens dy't foar it trainen fan de sekuerens fan spraakwerkenningsmasinen brûkt wurde te ferbetterjen. Jo brûkersnamme en e-mailadres sille nea mei jo yntsjinne gegevens keppele wurde, en jo kinne derfoar kieze jo brûkersnamme iepenbier of anonym te meitsjen.
+why-demographic-explanation-2 = Anonime brûkersgegevens lykas leeftyd, gender en aksint helpe de audiogegevens dy’t foar it trainen fan de sekuerens fan spraakwerkenningsmasinen brûkt wurde te ferbetterjen. Jo brûkersnamme en e-mailadres sille nea mei jo yntsjinne gegevens keppele wurde, en jo kinne derfoar kieze jo brûkersnamme iepenbier of anonym te meitsjen.
 accept-privacy = Ik gean akkoart mei hoe't jo mei dizze gegevens omgean, lykas útlein yn Mozilla’s <privacyLink>Privacybelied</privacyLink>
 accept-privacy-title = Privacybelied
 login-identity = Oanmeldingsidentiteit
@@ -414,9 +414,9 @@ faq-what-cv-a-2 =
     Wy sammelje net allinnich spraakfragminten yn de meast sprutsen talen, mar ek yn dy mei in lytser oantal sprekkers. Troch in ferskate gegevensset mei stimmen te publisearjen, krije ûntwikkelers, ûndernimmers en mienskippen de mooglikheid om dizze kleau sels oan te pakken.
 faq-why-important-q = Wêrom is it wichtich?
 faq-why-important-a =
-    Spraak is faaks de meast natuerlike manier om mei inoar te kommunisearjen en spraaktechnologyen bringe dat gemak nei ús kompjûters en mobile apparaten. Wy wolle ûntwikkelers de mooglikheid jaan geweldige spraakwerkenningstapassingen te bouwen, lykas realtime-oersetters en spraakstjoerde digitale assistinten. Mar op dit stuit binne de measte spraakgegevens dy't nedich binne om dit soarte fan tapassingen te bouwen djoer en ôfskerme. Wy hope dat de Common Voice-gegevensset ûntwikkelers biedt wat se nedich hawwe om te ynnovearjen en spraaktechnology beskikber te stellen yn harren eigen taal.
+    Spraak is faaks de meast natuerlike manier om mei inoar te kommunisearjen en spraaktechnologyen bringe dat gemak nei ús kompjûters en mobile apparaten. Wy wolle ûntwikkelers de mooglikheid jaan geweldige spraakwerkenningstapassingen te bouwen, lykas realtime-oersetters en spraakstjoerde digitale assistinten. Mar op dit stuit binne de measte spraakgegevens dy’t nedich binne om dit soarte fan tapassingen te bouwen djoer en ôfskerme. Wy hope dat de Common Voice-gegevensset ûntwikkelers biedt wat se nedich hawwe om te ynnovearjen en spraaktechnology beskikber te stellen yn harren eigen taal.
     
-    Om spraakwerkenning noch universeler te meitsjen, sammelje wy spraakfragminten yn faak sprutsen talen, krekt  sa as dy mei in lytsere populaasje fan sprekkers, dy't faak net stipe wurde troch kommersjele spraakwerkenningstsjinsten. Troch in ferskate gegevensset mei stimmen te publisearjen, kinne ûntwikkelers, ûndernimmers en folsleine spraakmienskippen sels dizze kleau oerbrêgje.
+    Om spraakwerkenning noch universeler te meitsjen, sammelje wy spraakfragminten yn faak sprutsen talen, krekt  sa as dy mei in lytsere populaasje fan sprekkers, dy’t faak net stipe wurde troch kommersjele spraakwerkenningstsjinsten. Troch in ferskate gegevensset mei stimmen te publisearjen, kinne ûntwikkelers, ûndernimmers en folsleine spraakmienskippen sels dizze kleau oerbrêgje.
 faq-how-get-q = Hoe kin ik de gegevens fan Common Voice krije?
 faq-how-get-a = De gegevensset fan Common Voice is beskikber foar downloaden ûnder de <licenseLink>CC0</licenseLink>-lisinsje op <datasetLink>ús side mei gegevenssets</datasetLink>. Jo kinne ek ferskate oare iepenbier beskikbere gegevenssets fan dyselde side downloade.
 faq-when-release2-q = Wannear wurdt Common Voice yn oare talen útjûn?
@@ -426,17 +426,17 @@ faq-why-mission-a = Mozilla wijt harren oan it foar elkenien iepen en tagonklik 
 faq-what-cv-and-deepspeech-q = Wat is it ferskil tusken Common Voice en Deep Speech?
 faq-what-cv-and-deepspeech-a = De Common Voice-gegevensset is in oanfolling op Mozilla’s opensource-spraakwerkenningsmasine Deep Speech. De earste ferzje fan Deep Speech waard útbrocht yn novimber 2017 en is sûnttiid troch evoluearre. Wy fine dat dizze iepenboarne-spraakwerkenningstechnology tegearre mei de Common Voice-gegevensset foar elkenien beskikber wêze moat. Us hoop is dat dizze technologyen ûntwikkelers de mooglikheid jaan in golf fan ynnovative produkten en tsjinsten te bouwen.
 faq-is-goal-assistant-q = Is it doel fan Common Voice om in spraakassistint te bouwen?
-faq-is-goal-assistant-a = It doel fan de Common Voice-gegevensset is om elkenien yn de wrâld de mooglikheid te jaan spraakwerkenning, sprekkerwerkenning of elk oar type tapassing te meitsjen wêrfoar spraakgegevens nedich binne. In spraakassistint is mar ien fan mear soarten fan tapassingen dy't jo mei help fan de gegevensset bouwe kinne.
+faq-is-goal-assistant-a = It doel fan de Common Voice-gegevensset is om elkenien yn de wrâld de mooglikheid te jaan spraakwerkenning, sprekkerwerkenning of elk oar type tapassing te meitsjen wêrfoar spraakgegevens nedich binne. In spraakassistint is mar ien fan mear soarten fan tapassingen dy’t jo mei help fan de gegevensset bouwe kinne.
 faq-do-want-native-q = Ik bin in net-memmetaalsprekker en ik sprek mei in aksint. Wolle jimme dochs myn stim?
 faq-do-want-native-a = Ja, wy wolle foaral jo stim! Underdiel fan it doel fan Common Voice is om safolle mooglik ferskate aksinten te sammeljen, sadat spraakwerkenningstsjinsten foar elkenien like goed wurkje. Dit betsjut dat donaasjes fan net-memmetaalsprekkers bysûnder wichtich binne.
 faq-why-different-speakers-q = Wêrom hawwe jimme sa folle ferskillende sprekkers per taal nedich?
 faq-why-different-speakers-a =
-    De measte spraakdatabases wurde traind mei in oerfertsjinwurdiging fan bepaalde demografyske groepen, wat liedt ta in foarkar foar <articleLink>manlik en út de middenklasse</articleLink>. Aksinten en dialekten dy't faak ûnderfertsjinwurdige binne yn trainingsgegevenssets wurde meastentiids yn ferbân brocht mei groepen minsken dy't al marzjinalisearre binne. In protte masinen hawwe it ek swier mei it begripen fan froulike stimmen.
+    De measte spraakdatabases wurde traind mei in oerfertsjinwurdiging fan bepaalde demografyske groepen, wat liedt ta in foarkar foar <articleLink>manlik en út de middenklasse</articleLink>. Aksinten en dialekten dy’t faak ûnderfertsjinwurdige binne yn trainingsgegevenssets wurde meastentiids yn ferbân brocht mei groepen minsken dy’t al marzjinalisearre binne. In protte masinen hawwe it ek swier mei it begripen fan froulike stimmen.
     Dit is de reden wêrom wy fariaasje yn ús spraakdatabase wolle!
 faq-why-my-lang-q = Wêrom sit myn taal der noch net by?
-faq-why-my-lang-new-a = Mozilla ferkiest net ien taal boppe de oare. Yn stee dêrfan is Common Voice in inisjatyf dat útslutend troch de mienskip oanstjoerd wurdt, mar it ferget <multilangLink>diverske stappen om in nije taal ta te foegjen</multilangLink> en mei it sammeljen fan spraakdonaasjes te begjinnen. Alderearst moat de Common Voice-website oerset wurde, sadat mienskipsleden tagong hawwe ta de ûnderfining fan de meiwurker yn harren eigen taal. Dêrnei hawwe wy in grutte samling auteursrjochtfrije sinnen nedich dy't minsken foarlêze kinne. Sa gau as oan beide easken foldien is, wurdt in taal ‘útbrocht’ op Common Voice, sadat minsken harren stim opnimme kinne en donaasjes fan oaren falidearje kinne. As jo in nije taal beskikber helpe meitsje wolle, gean dan nei 'us <sentenceCollectorLink>helpmiddel foar sinnensamling</sentenceCollectorLink> om te begjinnen.
+faq-why-my-lang-new-a = Mozilla ferkiest net ien taal boppe de oare. Yn stee dêrfan is Common Voice in inisjatyf dat útslutend troch de mienskip oanstjoerd wurdt, mar it ferget <multilangLink>diverske stappen om in nije taal ta te foegjen</multilangLink> en mei it sammeljen fan spraakdonaasjes te begjinnen. Alderearst moat de Common Voice-website oerset wurde, sadat mienskipsleden tagong hawwe ta de ûnderfining fan de meiwurker yn harren eigen taal. Dêrnei hawwe wy in grutte samling auteursrjochtfrije sinnen nedich dy’t minsken foarlêze kinne. Sa gau as oan beide easken foldien is, wurdt in taal ‘útbrocht’ op Common Voice, sadat minsken harren stim opnimme kinne en donaasjes fan oaren falidearje kinne. As jo in nije taal beskikber helpe meitsje wolle, gean dan nei 'us <sentenceCollectorLink>helpmiddel foar sinnensamling</sentenceCollectorLink> om te begjinnen.
 faq-what-quality-q = Hokker lûdskwaliteitsnivo is nedich foar in spraakfragmint om yn de gegevensset brûkt wurde te kinnen?
-faq-what-quality-a = Wy wolle dat de Common Voice-gegevensset de audiokwaliteit wjerspegelet dy't yn spraak-nei-tekst-engine yn it wyld hearre sil, dus wy binne op syk nei ôfwikseling. Neist in fariearre sprekkersmienskip leart in gegevensset mei ferskate audiokwaliteiten de spraak-nei-tekst-engine om ferskate libbensechte situaasjes oan te kinnen, fan achtergrûnlûd oant autolawaai. Sa lang jo spraakopname begryplik is, moat dizze goed genôch wêze foar de gegevensset.
+faq-what-quality-a = Wy wolle dat de Common Voice-gegevensset de audiokwaliteit wjerspegelet dy’t yn spraak-nei-tekst-engine yn it wyld hearre sil, dus wy binne op syk nei ôfwikseling. Neist in fariearre sprekkersmienskip leart in gegevensset mei ferskate audiokwaliteiten de spraak-nei-tekst-engine om ferskate libbensechte situaasjes oan te kinnen, fan achtergrûnlûd oant autolawaai. Sa lang jo spraakopname begryplik is, moat dizze goed genôch wêze foar de gegevensset.
 faq-why-10k-hours-q = Wêrom is de doelstelling foar lûdsopnamen 10.000 oeren per taal?
 faq-why-10k-hours-a = Dit is ûngefear it oantal nedige oeren om in operasjoneel spraak-nei-tekst-systeem te trainen.
 faq-how-calc-hours-q = Hoe berekkenet Common Voice de oeren?
@@ -447,16 +447,16 @@ faq-where-src-from-2-a =
     
     Jo kinne ús boarnesinnen besjen yn <githubLink>dizze GitHub-map</githubLink>.
 faq-why-not-ask-read-q = Wêrom freegje jimme net gewoan oan minsken om yn ferskillende talen út boeken of Wikipedia-artikelen te lêzen?
-faq-why-not-ask-read-a = Om de Common Voice-gegevensset sa nuttich mooglik te meitsjen, hawwe wy besletten om allinnich boarnetekst ta te stean dy't beskikber is ûnder in Creative Commons (CC0)-lisinsje. It gebrûk fan de CC0-standert betsjut dat it swierder is om boarnetekst te finen en te sammeljen, mar elkenien kin de resultearjende spraakgegevens brûke sûnder brûksbeheiningen of tastimming fan Mozilla. Uteinlik wolle wy de meartalige gegevensset sa nuttich mooglik meitsje foar elkenien, ynklusyf ûndersikers, universiteiten, start-ups, oerheden, sosjale doelgroepen en hobbyisten.
+faq-why-not-ask-read-a = Om de Common Voice-gegevensset sa nuttich mooglik te meitsjen, hawwe wy besletten om allinnich boarnetekst ta te stean dy’t beskikber is ûnder in Creative Commons (CC0)-lisinsje. It gebrûk fan de CC0-standert betsjut dat it swierder is om boarnetekst te finen en te sammeljen, mar elkenien kin de resultearjende spraakgegevens brûke sûnder brûksbeheiningen of tastimming fan Mozilla. Uteinlik wolle wy de meartalige gegevensset sa nuttich mooglik meitsje foar elkenien, ynklusyf ûndersikers, universiteiten, start-ups, oerheden, sosjale doelgroepen en hobbyisten.
 faq-why-account-q = Wêrom soe ik in account oanmeitsje?
 faq-is-account-public-q = Binne myn accountgegevens iepenbier?
-faq-how-privacy-q = Hoe garandearje jimme de anonimiteit en privacy fan de persoanen dy't harren stimmen donearre hawwe?
+faq-how-privacy-q = Hoe garandearje jimme de anonimiteit en privacy fan de persoanen dy’t harren stimmen donearre hawwe?
 faq-how-privacy-a = Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifiesearbere gegevens. Wannear in meiwurker demografyske gegevens fia syn of har profyl ferstrekt, wurdt dy ynformaasje út de spraakfragminten fuortsmiten eardat dizze yn de gegevensset bundele wurdt foar downloaden en wurdt dy ynformaasje nea iepenbier makke op syn of har profylside.
 faq-what-determine-identity-q = Wat betsjut it dat ik “de identiteit” fan sprekkers yn de gegevensset fan Common Voice net “bepale kin”?
 faq-what-determine-identity-a =
-    De Common Voice-gegevensset is in frij tagonklike en iepenbiere boarne dy't brûkt wurde kin om in breed skala oan spraakstjoerde tapassingen te trainen. Om de feilichheid fan ús meiwurkers te beskermen, freegje wy elkenien dy't de Common Voice-gegevensset downloadt om de privacy fan de meiwurkers te respektearjen.
+    De Common Voice-gegevensset is in frij tagonklike en iepenbiere boarne dy’t brûkt wurde kin om in breed skala oan spraakstjoerde tapassingen te trainen. Om de feilichheid fan ús meiwurkers te beskermen, freegje wy elkenien dy’t de Common Voice-gegevensset downloadt om de privacy fan de meiwurkers te respektearjen.
     
-    Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifisearbere gegevens. Wannear't jo de gegevensset downloade, geane jo dermei akkoart net te probearjen de identiteit fan in meiwurker te bepalen. Dat betsjut dat jo net probearje meie om gegevens yn de gegevensset oan de persoanlike ynformaasje fan in meiwurker te keppeljen. Jo meie de gegevensset echter wol brûke om spraakwerkenning, sprekkerwerkenning of oare tapassingen te trainen, bygelyks troch gegevens yn de gegevensset te keppeljen oan oare ynformaasje dy't al yn de gegevensset stiet.
+    Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifisearbere gegevens. Wannear’t jo de gegevensset downloade, geane jo dermei akkoart net te probearjen de identiteit fan in meiwurker te bepalen. Dat betsjut dat jo net probearje meie om gegevens yn de gegevensset oan de persoanlike ynformaasje fan in meiwurker te keppeljen. Jo meie de gegevensset echter wol brûke om spraakwerkenning, sprekkerwerkenning of oare tapassingen te trainen, bygelyks troch gegevens yn de gegevensset te keppeljen oan oare ynformaasje dy’t al yn de gegevensset stiet.
 faq-what-is-cv = Wat is Common Voice?
 faq-using-cv = Common Voice brûke
 faq-description = Common Voice is part fan in inisjatyf fan Mozilla om masinen te helpen learen hoe't echte minsken sprekke.
@@ -482,15 +482,15 @@ about-listen-queue-text = Spraakfragminten wurde ynfierd yn in yntsjinningswacht
 about-listen = Harkje
 about-listen-text = Brûkers falidearje de sekuerens fan donearre fragminten en kontrolearje oft de sprekker de sin korrekt lêst.
 about-is-it-valid = Is it fragmint jildich?
-about-is-it-valid-text = In spraakfragmint wurdt markearre as ‘jildich’ wannear't in brûker it in ja-stim jout.
+about-is-it-valid-text = In spraakfragmint wurdt markearre as ‘jildich’ wannear’t in brûker it in ja-stim jout.
 about-yes-votes = ≥ 2 Ja-stimmen
 about-yes-votes-text = Om opnommen te wurden yn de Common Voice-gegevensset moat in fragmint falidearre wurde troch twa ôfsûnderlike brûkers.
 about-no-votes = ≥ 2 Gjin stimmen
 about-no-votes-text = Wannear in brûker in spraakfragmint ôfwiist, keart dit fragmint werom nei de wachtrige. By in twadde ôfwizing wurdt it spraakfragmint ferpleatst nei it Fragmintetsjerkhôf.
 about-dataset-new = Common Voice-gegevensset
-about-dataset-new-text = De Common Voice-gegevensset befettet hûnderttûzenen spraakfragminten dy't ûntwikkelers helpe spraakwerkenningshelpmiddelen te bouwen.
+about-dataset-new-text = De Common Voice-gegevensset befettet hûnderttûzenen spraakfragminten dy’t ûntwikkelers helpe spraakwerkenningshelpmiddelen te bouwen.
 about-clip-graveyard = Fragmintetsjerkhôf
-about-clip-graveyard-text = It Fragmintetsjerkhôf bestiet ut stimfragminten dy't de Common Voice-gegevensset net helle hawwe. Krekt as de gegevensset kin it Fragmintetsjerkhôf download wurde.
+about-clip-graveyard-text = It Fragmintetsjerkhôf bestiet ut stimfragminten dy’t de Common Voice-gegevensset net helle hawwe. Krekt as de gegevensset kin it Fragmintetsjerkhôf download wurde.
 about-partners = Partners
 about-become-a-partner = Partner wurde
 about-partnership =
@@ -512,7 +512,7 @@ mycroft-subtitle = Artificial intelligence
 mycroft-description =
     Mycroft is de earste iepen boarne assistint fan 'e wrâld.
     Mycroft draait oeral – op in desktopkompjûter, yn in auto of op in Raspberry Pi.
-mycroft-secondary-description = Dit is opensourcesoftware dy't frij remikst wurde kin, útwreide en ferbettere. Mycroft mei brûkt wurde yn alles fan in wittenskiplik projekt oant in saaklike softwaretapassing.
+mycroft-secondary-description = Dit is opensourcesoftware dy’t frij remikst wurde kin, útwreide en ferbettere. Mycroft mei brûkt wurde yn alles fan in wittenskiplik projekt oant in saaklike softwaretapassing.
 
 ## Glossary
 
@@ -543,7 +543,7 @@ data-download-yes = Ja
 data-download-deny = Nee
 data-download-license = Lisinsje: <licenseLink>CC-0</licenseLink>
 data-download-modal = Jo stean op it punt in download te starten fan <size>{ $size }GB</size>, trochgean?
-data-subtitle = Wy meitsje in iepen en publyklik tagonklike dataset mei stimmen dy't elkenien brûke kin om mei stim oanstjoerde applikaasjes te trainen.
+data-subtitle = Wy meitsje in iepen en publyklik tagonklike dataset mei stimmen dy’t elkenien brûke kin om mei stim oanstjoerde applikaasjes te trainen.
 data-explanatory-text = Wy tinke dat grutte en iepenbiere stimgegevenssets foar ynnovaasje en sûne kommersjele kompetysje soargje yn spraaktechnology op basis fan masinelearen. Dit is in wrâldwide ynspanning, en wy nûgje elkenien út om diel te nimmen. Us doel is om te helpen der foar te soargjen dat spraaktechnology breder wurdt, wêrmei't it ferskaat oan stimmen oer de wrâld werjûn wurdt.
 data-get-started = <speechBlogLink>Start no mei spraakwerkenning</speechBlogLink>
 data-other-title = Oare stimgegevenssets…
@@ -571,7 +571,7 @@ review-delete-recordings = Myn opnamen fuortsmite
 
 ## Datasets Page
 
-datasets-headline = Wy bouwe in meartalige, iepen boarne gegevensset fan stimmen, dy't elkenien brûke kin om mei spraak oanstjoerde applikaasjes te trainen.
+datasets-headline = Wy bouwe in meartalige, iepen boarne gegevensset fan stimmen, dy’t elkenien brûke kin om mei spraak oanstjoerde applikaasjes te trainen.
 datasets-positioning =
     Wy leauwe dat grutte, iepenbiere spraakgegevenssets foar ynnovaasje en sûne kommersjele kompetysje yn it fjild fan automatisearre learende spraaktechnology soargje sil.
     
@@ -598,15 +598,15 @@ validated-hours = Falidearre oeren:
 recorded-hours = Opnommen oeren
 whats-inside = Wat is de ynhâld fan de Common Voice-gegevensset?
 dataset-description-hours =
-    Elk ûnderdiel yn de gegevensset bestiet út in unyk MP3-bestân en in byhearrend tekstbestân. In protte fan de <b>{ $total }</b> opnommen oeren yn de gegevensset befetsje ek demografyske metagegevens lykas leeftiid, geslacht en aksint, dy't de sekuerens fan spraakwerkenningsmasinen helpe kinne te trainen.
+    Elk ûnderdiel yn de gegevensset bestiet út in unyk MP3-bestân en in byhearrend tekstbestân. In protte fan de <b>{ $total }</b> opnommen oeren yn de gegevensset befetsje ek demografyske metagegevens lykas leeftiid, geslacht en aksint, dy’t de sekuerens fan spraakwerkenningsmasinen helpe kinne te trainen.
     
     De gegevensset bestiet op dit stuit út <b>{ $valid }</b> falidearre oeren yn <b>{ $languages }</b> talen, mar wy foegje trochgeand spraak en talen ta. Sjoch ris op ús <languagesLink>side Talen</languagesLink> om in taal oan te freegjen of in bydrage te leverjen.
-want-dataset-update = Wolle jo in berjocht wannear't wy in nije ferzje fan de Common Voice-gegevensset útbringe? Abonnearje jo dan op ús nijsbrief.
+want-dataset-update = Wolle jo in berjocht wannear’t wy in nije ferzje fan de Common Voice-gegevensset útbringe? Abonnearje jo dan op ús nijsbrief.
 subscribe = Abonnearje
 get-started-speech = Oan 'e gong mei spraakwerkenning
 other-datasets = Oare stimgegevensets
 feedback-q = Kommentaar?
-resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is in <docsLink>opensource-toolkit</docsLink> foar ûndersikers dy't state-of-the-art-AI-modellen foar konversaasjes ûntwikkelje.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is in <docsLink>opensource-toolkit</docsLink> foar ûndersikers dy’t state-of-the-art-AI-modellen foar konversaasjes ûntwikkelje.
 resource-deepspeech-info = Deep Speech, de iepenboarne-spraakwerkenningsmasine fan Mozilla, kin brûkt wurde om spraakwerkenningstapassingen te bouwen. Lês ús <githubLink>GitHub-oersicht</githubLink> of besykje it <discourseLink>DeepSpeech-foarum op Discourse</discourseLink> om te ûntdekken hoe't jo begjinne kinne.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> is tawijd oan iepen spraaktechnology. Harren projekten omfetsje op deep learning basearre STT- en TTS-masinen.
 community-playbook = Mienskipsdraaiboek
@@ -716,7 +716,7 @@ record-abort-submit = Fragminten yntsjinje
 record-abort-continue = Opname foltôgje
 record-abort-delete = Ofslute en fragminten fuortsmite
 listen-instruction = { $actionType } <playIcon></playIcon> – is de sin dúdlik útsprutsen?
-listen-again-instruction = Goed wurk! <playIcon></playIcon> Harkje opnij wannear't jo klear binne
+listen-again-instruction = Goed wurk! <playIcon></playIcon> Harkje opnij wannear’t jo klear binne
 listen-3rd-time-instruction = 2 klear <playIcon></playIcon> , gean sa troch!
 listen-last-time-instruction = <playIcon></playIcon> De lêste!
 listen-empty-state = Wy hawwe yn dizze taal gjin te falidearjen fragminten mear...
@@ -744,7 +744,7 @@ report-grammar-or-spelling-detail = De sin hat in grammatikale of staveringsflat
 report-different-language = Oare taal
 report-different-language-detail = It is skreaun yn in oare taal dan hokker ik sprek.
 report-difficult-pronounce = Swier om út te sprekken
-report-difficult-pronounce-detail = It befettet wurden of sinnen dy't hurd te lêzen of út te sprekken binne.
+report-difficult-pronounce-detail = It befettet wurden of sinnen dy’t hurd te lêzen of út te sprekken binne.
 report-offensive-speech = Beledigjende tekst
 report-offensive-speech-detail = De clip befettet respektleaze of beledigjende taal.
 report-other-comment =
@@ -878,7 +878,7 @@ delete-q = Wolle jo ek dat jo stimopnamen fuortsmiten wurde, of wolle jo dizze y
 keep = Behâlde
 remove = Fuortsmite
 keep-info = Jo anonime stimopnamen bliuwe yn de gegevensset fan Common Voice oanwêzich. Sa gau as jo jo profyl fuortsmite, kinne jo gjin fersyk mear yntsjinje om jo opnamen út de gegevensset fuort te smiten.
-remove-info = Wy sille jo fersyk om jo stimopnamen út de gegevensset fuort te smiten beoardiele. As jo fersyk goedkard wurdt, nimme wy kontakt op mei de partijen dy't de gegevensset download hawwe en freegje wy harren ek jo stimopnamen fuort te smiten.
+remove-info = Wy sille jo fersyk om jo stimopnamen út de gegevensset fuort te smiten beoardiele. As jo fersyk goedkard wurdt, nimme wy kontakt op mei de partijen dy’t de gegevensset download hawwe en freegje wy harren ek jo stimopnamen fuort te smiten.
 why-delete-recordings =
     Common Voice-opnamen wurde brûkt troch akademisy, lytse bedriuwen en leafhawwers fan spraakwerkenning om te helpen by it trainen en ûntwikkeljen fan frij beskikbere boarnen, lykas spraakmodellen.
     
@@ -902,7 +902,7 @@ download-selected = Selektearre
 download-start = Download starte
 download-request = Download oanfreegje
 download-requests = Eardere downloadfersiken
-download-requests-info = Wannear't jo jo opnamen opfreegje, kompilearje wy dizze yn ien of mear ZIP-bestannen. Dit binne jo eardere fersiken:
+download-requests-info = Wannear’t jo jo opnamen opfreegje, kompilearje wy dizze yn ien of mear ZIP-bestannen. Dit binne jo eardere fersiken:
 download-request-button = Downloade
 download-request-title = { $created }
 download-request-description = { $clipCount } spraakfragminten, totale argyfgrutte { $size }. Ferrint { $expires }.
@@ -971,7 +971,7 @@ contribution-misreadings-title = Lêsflaters
 contribution-misreadings-description = Kontrolearje wylst jo harkje soarchfuldich dat wat opnommen is ek krekt is wat der skreaun stiet; keur it ôf as der sels lytse flaters binne. <br />Faaks foarkommende flaters binne:
 contribution-misreadings-description-extended-list-1 = <strong>‘In’</strong> of <strong>‘De’</strong> ûntbrekt oan it begjin fan de opname.
 contribution-misreadings-description-extended-list-2 = Der ûntbrekt <strong>‘s’</strong> of <strong>‘en’</strong> oan it ein fan in wurd.
-contribution-misreadings-description-extended-list-3 = Gearfoegingen dy't der eins net binne, lykas ‘Sa’n’ yn stee fan ‘Sa ien’, of oarsom.
+contribution-misreadings-description-extended-list-3 = Gearfoegingen dy’t der eins net binne, lykas ‘Sa’n’ yn stee fan ‘Sa ien’, of oarsom.
 contribution-misreadings-description-extended-list-4 = It ein fan it lêste wurd ûntbrekt troch it te fluch ôfbrekken fan de opname.
 contribution-misreadings-description-extended-list-5 = Meardere besykjen om in wurd te lêzen.
 contribution-misreadings-example-1-title = De enoarme dinosaurussen fan it Trias.
@@ -989,28 +989,28 @@ contribution-misreadings-example-7-explanation = [Der sit gjin ‘in’ yn de oa
 contribution-misreadings-example-8-title = De hommel fleach foarby.
 contribution-misreadings-example-8-explanation = [Net-oerienkommende ynhâld]
 contribution-varying-pronunciations-title = Utienrinnende útspraken
-contribution-varying-pronunciations-description = Wês foarsichtich eardat jo in fragmint ôfwize as in lêzer in wurd ferkeard útsprutsen hat, de klam op it ferkearde plak lein hat, of blykber in fraachteken negearre hat. Der is wrâldwiid in grut ferskaat oan útspraken yn gebrûk, guon fan dy hawwe jo miskien net heard yn jo lokale mienskip. Jou asjebleaft in marzje fan wurdearring foar dyjingen dy't oars kinne sprekke as jo.
+contribution-varying-pronunciations-description = Wês foarsichtich eardat jo in fragmint ôfwize as in lêzer in wurd ferkeard útsprutsen hat, de klam op it ferkearde plak lein hat, of blykber in fraachteken negearre hat. Der is wrâldwiid in grut ferskaat oan útspraken yn gebrûk, guon fan dy hawwe jo miskien net heard yn jo lokale mienskip. Jou asjebleaft in marzje fan wurdearring foar dyjingen dy’t oars kinne sprekke as jo.
 contribution-varying-pronunciations-description-extended = Mar as jo tinke dat de lêzer it wurd noch nea brûkt hat en ienfâldichwei in ferkeare ynskatting fan de útspraak docht, wiis it fragmint dan ôf. As jo net wis binne, brûk dan de knop Oerslaan.
 contribution-varying-pronunciations-example-1-title = Hy bestelde in poarsje satee.
 contribution-varying-pronunciations-example-1-explanation = [‘Satee’ is OK mei sawol de klemtoan op de earste as de twadde lettergreep]
 contribution-varying-pronunciations-example-2-title = Hy luts him we-rom.
 contribution-varying-pronunciations-example-2-explanation = [‘Werom’ wurdt faaks as ien lettergreep útsprutsen, net as twa]
 contribution-background-noise-title = Eftergrûnlûd
-contribution-background-noise-description = Wy wolle dat de masinelearende algoritmen in breed skala oan eftergrûnlûden ferwurkje kinne, en sels relatyf lûde lûden kinne akseptearre wurde, ûnder betingst dat se net berhinderje dat jo de hiele tekst hearre. Rêstige eftergrûnmuzyk is OK; muzyk dy't lûd genôch is om derfoar te soargjen dat jo net elk wurd ferstean kinne net.
+contribution-background-noise-description = Wy wolle dat de masinelearende algoritmen in breed skala oan eftergrûnlûden ferwurkje kinne, en sels relatyf lûde lûden kinne akseptearre wurde, ûnder betingst dat se net berhinderje dat jo de hiele tekst hearre. Rêstige eftergrûnmuzyk is OK; muzyk dy’t lûd genôch is om derfoar te soargjen dat jo net elk wurd ferstean kinne net.
 contribution-background-noise-description-extended = As de opname fersteurd wurdt of kreaket, wiis dizze dan ôf, útsein de hiele tekst noch hieltyd te ferstean is.
 contribution-background-noise-example-1-fixed-title = <strong>[Prúste]</strong> De enoarme dinosaurussen fan it <strong>[hoastje]</strong> Trias.
 contribution-background-noise-example-2-fixed-title = De enoarme dino <strong>[hoastje]</strong> it Trias.
 contribution-background-noise-example-2-explanation = [De tekst is foar in part net te hearren]
 contribution-background-noise-example-3-fixed-title = <strong>[Kreaklûden]</strong> enoarme dinosaurussen fan <strong>[kreakje]</strong> -ias.
 contribution-background-voices-title = Eftergrûnlûden
-contribution-background-voices-description = In rêstich rûzen op de eftergrûn is oké, mar wy wolle gjin ekstra stimmen dy't derfoar soargje kinne dat in masine-algoritme wurden identifisearret dy't net yn de skreaune tekst stean. As jo oare wurden dan dy fan de tekst hearre kinne, moat it fragmint ôfwiisd wurde. Meastentiids bart dit as de tv oanstiet of as der in petear yn de buert fierd wurdt.
+contribution-background-voices-description = In rêstich rûzen op de eftergrûn is oké, mar wy wolle gjin ekstra stimmen dy’t derfoar soargje kinne dat in masine-algoritme wurden identifisearret dy’t net yn de skreaune tekst stean. As jo oare wurden dan dy fan de tekst hearre kinne, moat it fragmint ôfwiisd wurde. Meastentiids bart dit as de tv oanstiet of as der in petear yn de buert fierd wurdt.
 contribution-background-voices-description-extended = As de opname weifalt of kreaket, wiis it fragmint dan ôf, útsein de hiele tekst noch hieltyd te ferstean is.
 contribution-background-voices-example-1-title = De enoarme dinosaurussen fan it Trias. <strong>[lêzen troch ien stim]</strong>
 contribution-background-voices-example-1-explanation = Komsto? <strong>[roppen troch in oar]</strong>
 contribution-volume-title = Folume
 contribution-volume-description = Der sille natuerlike fariaasjes yn folume tusken lêzers wêze. Wiis it fragmint allinnich ôf as it folume sa heech is dat de opname ûnderbrutsen wurdt, of (faker) as it sa leech is dat ûnfersteanber is wat der sein wurdt sûnder nei de skreaune tekst sjen te moatten.
 contribution-reader-effects-title = Lêzereffekten
-contribution-reader-effects-description = De measte opnamen binne fan minsken dy't mei harren natuerlike stim prate. Jo kinne sa no en dan in ôfwikende opname akseptearje dy't skreauwend of flústere wurdt of dúdlik ôflevere wurdt mei in ‘dramatyske’ stim. Wiis songen opnamen en opnamen mei in kompjûtergenerearre stim ôf.
+contribution-reader-effects-description = De measte opnamen binne fan minsken dy’t mei harren natuerlike stim prate. Jo kinne sa no en dan in ôfwikende opname akseptearje dy’t skreauwend of flústere wurdt of dúdlik ôflevere wurdt mei in ‘dramatyske’ stim. Wiis songen opnamen en opnamen mei in kompjûtergenerearre stim ôf.
 contribution-just-unsure-title = Gewoan ûnwis?
 contribution-just-unsure-description = As jo wat tsjinkomme dat net yn dizze rjochtlinen behannele wurdt, stim dan nei jo bêste oardiel. As jo echt net beslisse kinne, brûk dan de knop Oerslaan en gean troch nei de folgjende opname.
 see-more = <chevron></chevron>Mear toane
