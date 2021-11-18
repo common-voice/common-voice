@@ -1075,6 +1075,43 @@ sc-howto-addsen-item-5 =
     Bûtenlânske letters. Letters moatte jildich wêze yn de taal dy’t sprutsen wurdt.
     ‘ж’ is bygelyks in letter yn it Russyske alfabet, mar wurdt nea yn it Frysk brûkt en soe dus ek nea
     ferskine meie yn in Fryske boarnetekst.
+sc-howto-addsen-item-6 =
+    Talen kinne harren <validationRulesLink>eigen falidaasjeregels</validationRulesLink> hawwe
+    mei oanfoljende easken. As der gjin spesifyk falidaasjebestân foar in taal is,
+    dan wurde de algemiene Fryske regels brûkt.
+sc-howto-addsen-post-1 =
+    Wy jouwe de foarkar oan natuerlike/petearsinnen.
+    Hoewol fonetyske diversiteit en ferskate wurden yn sinnen wichtich binne, probearje wy it opnimmen fan
+    sinnen sa aardich mooglik te meitsjen. Dêrom soe it geweldich wêze as jo probearje jo sinnen
+    sa natuerlik/oantreklik mooglik te hâlden.
+sc-howto-cite-title = Sitearje
+sc-howto-cite-pre-1 =
+    It is wichtich dat jo fermelde wêr’t jo de iepenbiere lisinsje fûn hawwe
+    om plagiaat foar te kommen en om opfolging fan <copyrightIssuesLink>auteursrjochtproblemen</copyrightIssuesLink> mooglik te meitsjen.
+    Hjir binne in pear manieren wêrop jo it wurk sitearje kinne.
+sc-howto-cite-item-1 = Jo kinne de website opnimme, bygelyks ‘Common Voice - https://commonvoice.mozilla.org/’
+sc-howto-cite-item-2 =
+    Jo kinne in akademyske referinsjestyl brûke, bygelyks Harvard-styl
+    ‘Mozilla (2021) Common Voice. Beskikber op https://commonvoice.mozilla.org/ (Benadere: 15 septimber 2021)’
+sc-howto-cite-item-3 =
+    Foar iepenbiere lisinsjetekst dy’t net online beskikber is, kinne jo de akademyske referinsjestyl brûke,
+    byg. Harvard-styl ‘Jess (2021) Myn iepenbiere lisinsjegedichten’
+sc-howto-review-title = Sinnen beoardiele
+sc-howto-review-subtitle = Soargje derfoar dat de sin oan de folgjende kritearia foldocht:
+sc-howto-review-criteria-1 = De sin moat goed stavere wêze.
+sc-howto-review-criteria-2 = De sin moat grammatikaal korrekt wêze.
+sc-howto-review-criteria-3 = De sin moat út te sprekken wêze.
+sc-howto-review-criteria-4 = As de sin foldocht oan de kritearia, klik dan op de knop ‘Goedkarre’.
+sc-howto-review-criteria-5 =
+    As de sin net oan de boppesteande kritearia foldocht, klik dan op de knop ‘Ofwize’.
+    As jo net wis binne fan de sin, kinne jo dizze ek oerslaan en trochgean nei de folgjende.
+sc-howto-review-criteria-6 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
+sc-howto-findpd-title = Besteande sinnen fine yn it publike domein
+sc-howto-findpd-subtitle = Dernei sykje op it ynternet
+sc-howto-findpd-text =
+    Unthâld dat wy tastimming nedich hawwe om dy sinnen te publisearjen,
+    soargje der dus altyd foar dat de tekst oant it <wikipediaLink>publike domein</wikipediaLink> taheart. As der gjin yndikaasje is,
+    nim dan kontakt op mei de persoan fan wa’t de tekst is en freegje oft jo harren tekst brûke meie.
 
 # [/SentenceCollector]
 
