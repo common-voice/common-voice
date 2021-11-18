@@ -1177,6 +1177,7 @@ sc-stats-title = Статистика
 sc-stats-last-update = Востаннє оновлено: { $lastUpdate }
 sc-stats-last-update-never = Востаннє оновлено: ніколи
 sc-stats-updating = Оновлення…
+sc-stats-summary = Common Voice Sentence Collector зібрав { $sentenceCount } речень { $languageCount } мовами!
 sc-submit-err-select-lang = Оберіть мову.
 sc-submit-err-add-sentences = Додайте речення.
 sc-submit-err-add-source = Додайте джерело.
@@ -1243,6 +1244,7 @@ sc-confirm-ready =
         [few] { $readyCount } речення готові до надсилання!
        *[many] { $readyCount } речень готові до надсилання!
     }
+sc-confirm-unreviewed = { $countOfUnreviewed } речень не перевірено. Якщо хочете, можете також перевірити свої речення перед їх поданням.
 sc-confirm-button-text = Підтвердити
 sc-confirm-uploading = Речення завантажуються. Це може тривати кілька хвилин залежно від кількості доданих речень. Не закривайте цей вебсайт.
 sc-lang-info-total =
