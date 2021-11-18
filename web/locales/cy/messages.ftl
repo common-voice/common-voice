@@ -1108,6 +1108,15 @@ sc-howto-review-criteria-3 = Rhaid i'r frawddeg fod yn ynganadwy.
 sc-howto-review-criteria-4 = Os yw'r frawddeg yn cwrdd â'r meini prawf, cliciwch y botwm "Cymeradwyo".
 sc-howto-review-criteria-5 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf uchod, cliciwch y botwm "Gwrthod". Os ydych chi'n ansicr ynghylch y ddedfryd, gallwch hefyd ei hepgor a symud ymlaen i'r un nesaf.
 sc-howto-review-criteria-6 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu mwy o frawddegau!
+sc-howto-findpd-title = Dod o hyd i frawddegau Parth Cyhoeddus sy'n bodoli eisoes
+sc-howto-findpd-subtitle = Chwilio amdanyn nhw ar y rhyngrwyd
+sc-howto-findpd-text = Cofiwch fod angen caniatâd arnom ni i gyhoeddi'r brawddegau hynny, felly gwnewch yn siŵr fod y testun yn perthyn i'r <wikipediaLink>parth cyhoeddus</wikipediaLink>. Os nad yw, cysylltwch â'r person y mae'r testun yn perthyn iddo a gofynnwch a allwch chi ddefnyddio eu testun.
+sc-howto-findpd-tips = Dyma rai awgrymiadau wrth geisio dod o hyd i frawddegau:
+sc-howto-findpd-tips-1 = Y ffynonellau gorau y gallwch edrych amdanyn nhw yw podlediadau, trawsgrifiadau, sgriptiau ffilm ac unrhyw beth sydd â'r potensial o gynnwys sgyrsiau bob dydd.
+sc-howto-findpd-tips-2 = Mae trafodion llywodraeth, llyfrau ac erthyglau llywodraeth hefyd yn wych ond gan fod y testun yn tueddu i fod ychydig yn fwy ffurfiol maen nhw'n llai o flaenoriaeth.
+sc-howto-findpd-tips-3 = Yn anffodus nid oes modd i ni ddefnyddio erthyglau Wikimedia eto. Felly peidiwch â chopïo a gludo oddi yno.
+sc-howto-findpd-subtitle-2 = Partneru gyda sefydliadau neu unigolion lleol
+sc-howto-findpd-partner-1 = Mae yna lawer o sefydliadau cyhoeddus a allai fod eisiau cydweithio ac sydd eisoes â llawer o destunau y gallan nhw eu rhoi fel parth cyhoeddus. Cysylltwch â'ch Prifysgolion, Llywodraethau a sefydliadau cod agored lleol i siarad am y project a gofyn am eu cymorth.
 
 # [/SentenceCollector]
 
