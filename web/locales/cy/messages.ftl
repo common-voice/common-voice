@@ -1243,7 +1243,7 @@ sc-lang-info-in-review =
     { $totalInReview ->
         [0] Dim brawddegau'n cael eu hadolygu
         [zero] Dim brawddegau'n cael eu hadolygu
-        [one] 1 brawddeg yn cael ei hadolygu
+        [one] 1 frawddeg yn cael ei hadolygu
         [two] { $totalInReview } frawddeg yn cael eu hadolygu
         [few] { $totalInReview } brawddeg yn cael eu hadolygu
         [many] { $totalInReview } brawddeg yn cael eu hadolygu
@@ -1265,7 +1265,7 @@ sc-lang-info-validated =
     { $validatedSentences ->
         [0] Dim brawddegau wedi'u dilysu.
         [zero] Dim brawddegau wedi'u dilysu.
-        [one] 1 brawddeg wedi'i dilysu.
+        [one] 1 frawddeg wedi'i dilysu.
         [two] { $validatedSentences } frawddeg wedi'u dilysu.
         [few] { $validatedSentences } brawddeg wedi'u dilysu.
         [many] { $validatedSentences } brawddeg wedi'u dilysu.
@@ -1307,7 +1307,7 @@ sc-review-form-button-skip = Hepgor
 sc-review-form-button-approve = Cymeradwyo
 sc-review-form-keyboard-usage = Gallwch hefyd ddefnyddio Llwybrau Byr Allweddell: I i Gymeradwyo, N i Wrthod, H i Hepgor
 sc-review-form-button-submit =
-    .submitText = Gorffen yr Adolygiad
+    .submitText = Gorffen Adolygu
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Dim brawddegau wedi'u hadolygu.
