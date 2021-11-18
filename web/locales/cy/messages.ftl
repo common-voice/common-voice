@@ -1167,6 +1167,41 @@ sc-add-lang-could-not-add = Methu ychwanegu iaith
 sc-add-lang-sec-label = Ychwanegwch iaith rydych eisiau gyfrannu ati
 sc-add-lang-sec-button = Ychwanegu Iaith
 sc-add-err-unexpected = Dychwelwyd ymateb annisgwyl gan y gweinydd
+sc-add-result =
+    { $duplicates ->
+        [0] Brawddegau a gyflwynwyd. { $duplicates } brawddegau wedi'u gwrthod fel rhai dyblyg.
+        [zero] Brawddegau a gyflwynwyd. { $duplicates } brawddegau wedi'u gwrthod fel rhai dyblyg.
+        [one] Brawddegau a gyflwynwyd. { $duplicates } brawddeg wedi'i wrthod fel un dyblyg.
+        [two] Brawddegau a gyflwynwyd. { $duplicates } frawddeg wedi'u gwrthod fel rhai dyblyg.
+        [few] Brawddegau a gyflwynwyd. { $duplicates } brawddeg wedi'u gwrthod fel rhai dyblyg.
+        [many] Brawddegau a gyflwynwyd. { $duplicates } brawddeg wedi'u gwrthod fel rhai dyblyg.
+       *[other] Brawddegau a gyflwynwyd. { $duplicates } brawddeg wedi'u gwrthod fel rhai dyblyg.
+    }
+sc-add-err-failed =
+    { $sentences ->
+        [0] Dim brawddeagau wedi methu
+        [zero] Dim brawddeagau wedi methu
+        [one] Methodd 1 brawddeg
+        [two] Methodd { $sentences } frawddeg
+        [few] Methodd { $sentences } brawddeg
+        [many] Methodd { $sentences } brawddeg
+       *[other] Methodd { $sentences } brawddeg
+    }
+sc-add-err-submission = Gwall Cyflwyno
+sc-confirm-are-you-sure =
+    .message = Nid ydych wedi cyflwyno brawddegau, a ydych chi'n siŵr eich bod chi eisiau gadael?
+sc-confirm-sentences-title = Cadarnhau'r Brawddegau Newydd
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Heb ganfod brawddegau.
+        [zero] Heb ganfod brawddegau.
+        [one] Wedi canfod 1 brawddeg
+        [two] Wedi canfod { $countOfSentences } frawddeg
+        [few] Wedi canfod { $countOfSentences } brawddeg
+        [many] Wedi canfod { $countOfSentences } brawddeg
+       *[other] Wedi canfod { $countOfSentences } brawddeg
+    }
+sc-confirm-rejected-by-you = { $countOfInvalidated } wedi eu gwrthod gennych chi
 
 # [/SentenceCollector]
 
