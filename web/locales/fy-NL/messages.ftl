@@ -1169,6 +1169,28 @@ sc-submit-err-select-lang = Selektearje in taal.
 sc-submit-err-add-sentences = Foegje sinnen ta.
 sc-submit-err-add-source = Foegje in boarne ta.
 sc-submit-err-confirm-pd = Befêstigje dat dizze sinnen publyk domein binne.
+sc-submit-prompt =
+    .message = Sinnen net yntsjinne, binne jo wis dat jo ôfslute wolle?
+sc-submit-title = Sinnen tafoegje
+sc-submit-select-language =
+    .labelText = Taal selektearje
+sc-submit-add-sentences = <wikipediaLink>Publyk domein</wikipediaLink>-sinnen tafoegje
+sc-submit-ph-one-per-line =
+    .placeholder = Ien sin per rigel
+sc-submit-from-where = Wêr komme dizze <wikipediaLink>publyk domein</wikipediaLink>-sinnen wei?
+sc-submit-ph-read-how-to =
+    .placeholder = Lês ús hantlieding as jo net wis binne hoe’t jo taskriuwe moatte
+sc-submit-confirm =
+    Ik befêstigje dat dizze sinnen <wikipediaLink>publyk domein</wikipediaLink> binne en
+    ik tastimming haw om se op te laden.
+sc-submit-button =
+    .submitText = Yntsjinje
+sc-submit-filtered = Filtere sinnen fanwegen net foldwaan oan easken (tsjinje korrekte ferzjes yn as nije sinnen):
+sc-submit-guidelines = Rieplachtsje de <howToLink>rjochtlinen</howToLink>.
+sc-add-lang-could-not-add = Kin taal net tafoegje
+sc-add-lang-sec-label = Foegje in taal ta dêr’t jo oan bydrage wolle
+sc-add-lang-sec-button = Taal tafoegje
+sc-add-err-unexpected = Unferwacht antwurd ûntfongen fan de server
 
 # [/SentenceCollector]
 
