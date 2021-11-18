@@ -1100,6 +1100,63 @@ sc-confirm-sentences-found =
         [one] Une phrase trouvée.
        *[other] { $countOfSentences } phrases trouvées.
     }
+sc-confirm-rejected-by-you = { $countOfInvalidated } rejetées par vous
+sc-confirm-button-text = Confirmer
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Aucune phrase en révision.
+        [one] Une phrase en révision.
+       *[other] { $totalInReview } phrases en révision.
+    }
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Aucune phrase restante à vérifier.
+        [one] Une phrase restante à vérifier.
+       *[other] { $unreviewedSentencesByYou } phrases restantes à vérifier.
+    }
+sc-lang-info-review-now = <reviewLink>Vérifier maintenant</reviewLink>
+sc-lang-info-add-more = <addLink>Ajoutez plus de phrases maintenant</addLink>
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Aucune phrase validée.
+        [one] Une phrase validée.
+       *[other] { $validatedSentences } phrases validées.
+    }
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Aucune phrase rejetée.
+        [one] Une phrase rejetée.
+       *[other] { $rejectedSentences } phrases rejetées.
+    }
+sc-login-err-failed = Échec de l’authentification
+sc-login-err-try-again = Veuillez réessayer.
+sc-personal-err-lang-not-found = Impossible de supprimer la langue : langue introuvable
+sc-personal-err-remove = Impossible de supprimer la langue
+sc-personal-your-languages = Vos langues :
+sc-personal-remove-button = Supprimer
+sc-personal-added-by-you = { $sentences } ajoutées par vous
+sc-personal-not-added = Vous n’avez pas encore ajouté de langues.
+sc-criteria-modal = ⓘ Critères de révision
+sc-criteria-title = Critères de révision
+sc-criteria-make-sure = Assurez-vous que la phrase répond aux critères suivants :
+sc-criteria-item-1 = La phrase doit être orthographiée correctement.
+sc-criteria-item-2 = La phrase doit être grammaticalement correcte.
+sc-criteria-item-3 = La phrase doit être prononçable.
+sc-criteria-item-6 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
+sc-review-form-button-reject = Rejeter
+sc-review-form-button-skip = Passer
+sc-review-form-button-approve = Approuver
+sc-review-form-keyboard-usage = Vous pouvez également utiliser les raccourcis clavier : Y pour approuver, N pour rejeter, S pour passer
+sc-review-form-button-submit =
+    .submitText = Terminer la vérification
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Aucune phrase vérifiée.
+        [one] Une phrase vérifiée. Merci !
+       *[other] { $phrases } phrases vérifiées. Merci !
+    }
+sc-review-link = Révision
+sc-settings-title = Paramètres
 
 # [/SentenceCollector]
 
