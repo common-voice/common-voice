@@ -1036,6 +1036,31 @@ sc-footer-cookies = Cookies
 sc-login-signup-button = Oanmelde/Registrearje
 sc-logout-button = Ofmelde
 sc-home-title = Wolkom by de Common Voice Sentence Collector
+sc-home-intro =
+    De Sentence Collector is ûnderdiel fan <commonVoiceLink>Common Voice</commonVoiceLink>.
+    Hjirmei kinne bydragers sinnen dy’t troch de mienskip makke binne sammelje en falidearje.
+    Jo kinne dit helpmiddel ek brûke om fûne of sammele lytse oant middelgrutte teksten yn it publike
+    domein te ymportearjen en op te skjinjen. Alle sinnen moatte iepenbier tagonklik wêze.
+    Goedkarre sinnen wurde elke wike eksportearre nei de Common Voice-repository en frijjûn
+    op de Common Voice-website by elke nije ymplemintaasje.
+sc-home-collect-title = Sinnen sammelje
+sc-home-collect-text = Help ús troch iepenbier tagonklike sinnen te skriuwen of te sammeljen.
+sc-home-review-title = Sinnen beoardiele
+sc-home-review-text = Help ús troch sinnen te kontrolearjen op krektens neffens de rjochtlinen.
+sc-howto-title = Hantlieding
+sc-howto-addlang-title = Talen tafoegje om mei te wurkjen
+sc-howto-addlang-text = Neidat jo oanmeld binne, kinne jo jo talen selektearje yn de profylseksje.
+sc-howto-addsen-title = Nije sinnen tafoegje
+sc-howto-addsen-item-1 =
+    Alle sinnen dy’t jo yntsjinje, moatte ûnder de <wikipediaLink>Public Domain (CC-0)-lisinsje</wikipediaLink> falle.
+    Om de opname fan wurk dat net ûnder iepenbiere lisinsje falt te stypjen, hawwe wy in
+    <cc0WaiverLink>Sjabloan foar bydrageoerienkomst</cc0WaiverLink> makke foar wurken wêrfan de eigener fan it auteursrjocht
+    it materiaal graach bydrage wol oan Common Voice.
+sc-howto-addsen-item-2 =
+    Getallen. Der meie gjin sifers yn de boarnetekst stean, omdat dizze problemen feroarsaakje kinne
+    wannear’t se hurdop foarlêzen wurde. De manier wêrop in getal lêzen wurdt is ôfhinklik fan de kontekst en kin betizing yn de dataset feroarsaakje.
+    It getal ‘2409’ kin bygelyks sekuer lêzen wurde as sawol ‘fjouwerentweintich nul njoggen’ en
+    ‘twatûzen fjouwerhûndert njoggen’.
 
 # [/SentenceCollector]
 
