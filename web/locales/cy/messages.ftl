@@ -1079,6 +1079,16 @@ sc-footer-cookies = Cwcis
 sc-login-signup-button = Mewngofnodi / Cofrestru
 sc-logout-button = Allgofnodi
 sc-home-title = Croeso i Gasglwr Brawddegau Common Voice
+sc-home-intro = Mae'r Casglwr Brawddegau yn rhan o </commonVoiceLink>Common Voice</commonVoiceLink>. Mae'n caniatáu i gyfranwyr gasglu a dilysu brawddegau a grëwyd gan y gymuned. Gallwch ddefnyddio'r teclyn hwn hefyd i fewnforio a glanhau corpws parth cyhoeddus bach i ganolig rydych chi wedi'i ddarganfod neu ei gasglu. Rhaid i bob brawddeg fod yn Barth Cyhoeddus. Mae brawddegau cymeradwy yn cael eu hallforio bob wythnos i storfan Common Voice ac yn cael eu rhyddhau i wefan Common Voice ar bob darpariaeth newydd.
+sc-home-collect-title = Casglu brawddegau
+sc-home-collect-text = Helpwch ni trwy ysgrifennu neu gasglu brawddegau Parth Cyhoeddus.
+sc-home-review-title = Adolygu brawddegau
+sc-home-review-text = Helpwch ni trwy adolygu brawddegau i sicrhau eu cywirdeb yn unol â'r canllawiau.
+sc-howto-title = Sut mae gwneud
+sc-howto-addlang-title = Ychwanegu ieithoedd i weithio gyda nhw
+sc-howto-addlang-text = Ar ôl mewngofnodi gallwch ddewis eich ieithoedd o'r adran proffil.
+sc-howto-addsen-title = Ychwanegwch frawddegau newydd
+sc-howto-addsen-item-1 = Rhaid i'r holl frawddegau rydych yn eu cyflwyno fod o dan drwydded <wikipediaLink>Parth Cyhoeddus (CC-0) </wikipediaLink>. Er mwyn cefnogi cynnwys gwaith nad yw o dan drwydded gyhoeddus, rydym wedi creu <cc0WaiverLink>templed Cytundeb Cyfraniadau</cc0WaiverLink> ar gyfer gwaith lle hoffai perchennog yr hawlfraint gyfrannu'r deunydd i Common Voice.
 
 # [/SentenceCollector]
 
