@@ -1202,6 +1202,71 @@ sc-confirm-sentences-found =
        *[other] Wedi canfod { $countOfSentences } brawddeg
     }
 sc-confirm-rejected-by-you = { $countOfInvalidated } wedi eu gwrthod gennych chi
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Dim brawddegau wedi'u hadolygu
+        [zero] Dim brawddegau wedi'u hadolygu
+        [one] 1 brawddeg wedi'i hadolygu. Da iawn!
+        [two] { $countOfReviewed } frawddeg wedi'u hadolygu. Da iawn!
+        [few] { $countOfReviewed } brawddeg wedi'u hadolygu. Da iawn!
+        [many] { $countOfReviewed } frawddeg wedi'u hadolygu. Da { $countOfReviewed } brawddeg wedi'u hadolygu. Da iawn!
+       *[other] { $countOfReviewed } frawddeg wedi'u hadolygu. Da { $countOfReviewed } brawddeg wedi'u hadolygu. Da iawn!
+    }
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Dim brawddegau'n barod i'w cyflwyno!
+        [zero] Dim brawddegau'n barod i'w cyflwyno!
+        [one] 1 frawddeg yn barod i'w chyflwyno!
+        [two] { $readyCount } frawddeg yn barod i'w cyflwyno!
+        [few] { $readyCount } brawddeg yn barod i'w cyflwyno!
+        [many] { $readyCount } brawddeg yn barod i'w cyflwyno!
+       *[other] { $readyCount } brawddeg yn barod i'w cyflwyno!
+    }
+sc-confirm-unreviewed = Mae yna { $countOfUnreviewed } brawddeg heb eu hadolygu. Mae modd i chi nawr i adolygu'ch brawddegau cyn eu cyflwyno.
+sc-confirm-button-text = Cadarnhau
+sc-confirm-uploading = Mae brawddegau'n cael eu llwytho i fyny. Gall hyn gymryd sawl munud yn dibynnu ar nifer y brawddegau sy'n cael eu hychwanegu. Peidiwch â chau'r wefan hon.
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Dim brawddegau cyfan
+        [zero] Dim brawddegau cyfan
+        [one] 1 frawddeg gyfan
+        [two] { $totalSentences } frawddeg gyfan
+        [few] { $totalSentences } brawddeg gyfan
+        [many] { $totalSentences } brawddeg gyfan
+       *[other] { $totalSentences } brawddeg gyfan
+    }
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Dim brawddegau'n cael eu hadolygu
+        [zero] Dim brawddegau'n cael eu hadolygu
+        [one] 1 brawddeg yn cael ei hadolygu
+        [two] { $totalInReview } frawddeg yn cael eu hadolygu
+        [few] { $totalInReview } brawddeg yn cael eu hadolygu
+        [many] { $totalInReview } brawddeg yn cael eu hadolygu
+       *[other] { $totalInReview } brawddeg yn cael eu hadolygu
+    }
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Does dim brawddegau ar ôl i chi eu hadolygu.
+        [zero] Does dim brawddegau ar ôl i chi eu hadolygu.
+        [one] Mae 1 frawddeg ar ôl i chi ei hadolygu.
+        [two] Mae { $unreviewedSentencesByYou } frawddeg ar ôl i chi eu hadolygu.
+        [few] Mae { $unreviewedSentencesByYou } brawddeg ar ôl i chi eu hadolygu.
+        [many] Mae { $unreviewedSentencesByYou } brawddeg ar ôl i chi eu hadolygu.
+       *[other] Mae { $unreviewedSentencesByYou } brawddeg ar ôl i chi eu hadolygu.
+    }
+sc-lang-info-review-now = <reviewLink>Adolygwch nawr!</reviewLink>
+sc-lang-info-add-more = <addLink>Ychwanegwch ragor o frawddegau nawr!</addLink>
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Dim brawddegau wedi'u dilysu.
+        [zero] Dim brawddegau wedi'u dilysu.
+        [one] 1 brawddeg wedi'i dilysu.
+        [two] { $validatedSentences } frawddeg wedi'u dilysu.
+        [few] { $validatedSentences } brawddeg wedi'u dilysu.
+        [many] { $validatedSentences } brawddeg wedi'u dilysu.
+       *[other] { $validatedSentences } brawddeg wedi'u dilysu.
+    }
 
 # [/SentenceCollector]
 
