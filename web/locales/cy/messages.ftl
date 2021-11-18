@@ -1142,6 +1142,17 @@ sc-stats-title = Ystadegau
 sc-stats-last-update = Diweddariad Diwethaf: { $lastUpdate }
 sc-stats-last-update-never = Diweddariad Diwethaf: byth
 sc-stats-updating = Yn diweddaru…
+sc-stats-summary = Mae'r Casglwr Brawddegau Common Voice wedi casglu { $sentenceCount } brawddeg mewn { $languageCount } iaith!
+sc-submit-err-select-lang = Dewiswch iaith.
+sc-submit-err-add-sentences = Ychwanegwch frawddegau.
+sc-submit-err-add-source = Ychwanegwch ffynhonnell.
+sc-submit-err-confirm-pd = Cadarnhewch fod y brawddegau hyn yn rhai parth cyhoeddus.
+sc-submit-prompt =
+    .message = Nid ydych wedi cyflwyno brawddegau, a ydych chi'n siŵr eich bod chi am adael?
+sc-submit-title = Ychwanegwch Frawddegau
+sc-submit-select-language =
+    .labelText = Dewiswch Iaith
+sc-submit-add-sentences = Ychwanegwch frawddegau <wikipediaLink>parth cyhoeddus</wikipediaLink>
 
 # [/SentenceCollector]
 
