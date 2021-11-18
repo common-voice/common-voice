@@ -1026,6 +1026,66 @@ sc-footer-cookies = Cookies
 sc-login-signup-button = Aanmelden/Registreren
 sc-logout-button = Afmelden
 sc-home-title = Welkom bij de Common Voice Sentence Collector
+sc-home-intro =
+    De Sentence Collector is onderdeel van <commonVoiceLink>Common Voice</commonVoiceLink>.
+    Hiermee kunnen bijdragers zinnen die door de gemeenschap zijn gemaakt verzamelen en valideren.
+    U kunt dit hulpmiddel ook gebruiken om gevonden of verzamelde kleine tot middelgrote teksten in het publieke
+    domein te importeren en op te schonen. Alle zinnen moeten openbaar toegankelijk zijn.
+    Goedgekeurde zinnen worden elke week geëxporteerd naar de Common Voice-repository en vrijgegeven
+    op de Common Voice-website bij elke nieuwe implementatie.
+sc-home-collect-title = Zinnen verzamelen
+sc-home-collect-text = Help ons door openbaar toegankelijke zinnen te schrijven of te verzamelen.
+sc-home-review-title = Zinnen beoordelen
+sc-home-review-text = Help ons door zinnen te controleren op juistheid volgens de richtlijnen.
+sc-howto-title = Handleiding
+sc-howto-addlang-title = Talen toevoegen om mee te werken
+sc-howto-addlang-text = Nadat u bent aangemeld, kunt u uw talen selecteren in de profielsectie.
+sc-howto-addsen-title = Nieuwe zinnen toevoegen
+sc-howto-addsen-item-1 =
+    Alle zinnen die u indient, moeten onder de <wikipediaLink>Public Domain (CC-0)-licentie</wikipediaLink> vallen.
+    Om de opname van werk dat niet onder openbare licentie valt te ondersteunen, hebben we een
+    <cc0WaiverLink>Sjabloon voor bijdrageovereenkomst</cc0WaiverLink> gemaakt voor werken waarvan de eigenaar van het auteursrecht
+    het materiaal graag wil bijdragen aan Common Voice.
+sc-howto-addsen-item-2 =
+    Getallen. Er mogen geen cijfers in de brontekst staan, omdat deze problemen kunnen veroorzaken
+    wanneer ze hardop worden voorgelezen. De manier waarop een getal wordt gelezen is afhankelijk van de context en kan verwarring in de dataset veroorzaken.
+    Het getal ‘2409’ kan bijvoorbeeld nauwkeurig worden gelezen als zowel ‘vierentwintig nul negen’ en
+    ‘tweeduizend vierhonderd negen’.
+sc-howto-addsen-item-3 =
+    Afkortingen en acroniemen. Afkortingen en acroniemen zoals ‘USA’ of ‘ICE’
+    moeten in de brontekst worden vermeden, omdat ze op een manier kunnen worden gelezen die niet samenvalt met hun spelling.
+    Bovendien kunnen er meerdere nauwkeurige leesvormen zijn voor een dezelfde afkorting.
+    Het acroniem ‘ICE’ kan bijvoorbeeld worden uitgesproken als ‘I-C-E’ of als een enkel woord.
+sc-howto-addsen-item-4 =
+    Interpunctie. Speciale symbolen en leestekens mogen alleen worden opgenomen
+    wanneer dit absoluut noodzakelijk is. Er is bijvoorbeeld een apostrof opgenomen in Nederlandse woorden als
+    ‘z’n’ en deze zou in de brontekst moeten worden opgenomen, maar het is onwaarschijnlijk dat u
+    ooit een speciaal symbool zoals ‘@‘ of ‘#’ nodig hebt.
+sc-howto-addsen-item-5 =
+    Buitenlandse letters. Letters moeten geldig zijn in de taal die wordt gesproken.
+    ‘ж’ is bijvoorbeeld een letter in het Russische alfabet, maar wordt nooit in het Nederlands gebruikt en zou dus ook nooit
+    mogen verschijnen in een Nederlandse brontekst.
+sc-howto-addsen-item-6 =
+    Talen kunnen hun <validationRulesLink>eigen validatieregels</validationRulesLink> hebben
+    met aanvullende eisen. Als er geen specifiek validatiebestand voor een taal is,
+    dan worden de algemene Nederlandse regels gebruikt.
+sc-howto-addsen-post-1 =
+    We geven de voorkeur aan natuurlijke/gesprekszinnen.
+    Hoewel fonetische diversiteit en verschillende woorden in zinnen belangrijk zijn, proberen we het opnemen van
+    zinnen zo leuk mogelijk te maken. Daarom zou het geweldig zijn als u probeert uw zinnen
+    zo natuurlijk/aantrekkelijk mogelijk te houden.
+sc-howto-cite-title = Citeren
+sc-howto-cite-pre-1 =
+    Het is belangrijk dat u vermeldt waar u de openbare licentie hebt gevonden
+    om plagiaat te voorkomen en om opvolging van <copyrightIssuesLink>auteursrechtproblemen</copyrightIssuesLink> mogelijk te maken.
+    Hier zijn een paar manieren waarop u het werk kunt citeren.
+sc-howto-cite-item-1 = U kunt de website opnemen, bijvoorbeeld ‘Common Voice - https://commonvoice.mozilla.org/’
+sc-howto-cite-item-2 =
+    U kunt een academische referentiestijl gebruiken, bijvoorbeeld harvard-stijl
+    ‘Mozilla (2021) Common Voice. Beschikbaar op https://commonvoice.mozilla.org/ (Benaderd: 15 september 2021)’
+sc-howto-cite-item-3 =
+    Voor openbare licentietekst die niet online beschikbaar is, kunt u de academische referentiestijl gebruiken,
+    b.v. Harvard-stijl ‘Jess (2021) Mijn openbare licentiegedichten’
 
 # [/SentenceCollector]
 
