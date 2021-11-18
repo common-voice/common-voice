@@ -1055,7 +1055,8 @@ sc-howto-addsen-item-5 = Litteras estranier. Le litteras debe esser valide in le
 sc-howto-addsen-item-6 = Le linguas pote haber lor <validationRulesLink>proprie regulas de validation</validationRulesLink> con altere requisitos. Si il non ha un specific validation file pro un lingua, nos usa le generic regulas del anglese.
 sc-howto-addsen-post-1 = Nos prefere phrases natural/conversational. Durante que le diversitate phonetic e differente vocabulos in phrases es importante, nos tenta render phrases a registrar le plus amusante possibile. Pro isto il esserea formidabile si tu pote tentar de mantener tu phrases le plus natural e involvente possibile.
 sc-howto-cite-title = Como citar
-sc-howto-cite-pre-1 = Il es importante que tu refere ubi tu trovava le licentia public pro impedir plagio e pro permitter de sequer ups sur <copyrightIssuesLink>problemas de derectos de autor</copyrightIssuesLink>. Ecce alcun manieras que tu pote citar le labor.
+sc-howto-cite-pre-1 = Il es importante que tu refere ubi tu trovava le licentia public pro impedir plagio e pro permitter de sequer ups sur <copyrightIssuesLink>problemas de derectos de autor</copyrightIssuesLink>. Ecce alcun manieras pro citar le labor.
+sc-howto-cite-item-1 = Tu pote includer le sito web, e.g "Common Voice - https://commonvoice.mozilla.org/"
 
 # [/SentenceCollector]
 
