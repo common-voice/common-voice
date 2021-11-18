@@ -1099,6 +1099,15 @@ sc-howto-cite-title = Sut i Ddyfynnu
 sc-howto-cite-pre-1 = Mae'n bwysig eich bod yn cyfeirio at ble y daethoch o hyd i'r drwydded gyhoeddus i osgoi llên-ladrad ac i ganiatáu ar gyfer camau dilynol ar <copyrightIssuesLink>faterion hawlfraint</copyrightIssuesLink>. Dyma rhai ffyrdd y gallwch chi ddyfynnu'r gwaith.
 sc-howto-cite-item-1 = Fe allech chi gynnwys y wefan, e.e. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Fe allech chi ddefnyddio arddull cyfeirio Academaidd, e.e. arddull harvard "Mozilla (2021) Common Voice. Ar gael yn https://commonvoice.mozilla.org/ (Cyrchwyd: 15fed Medi 2021)"
+sc-howto-cite-item-3 = Ar gyfer testun trwydded gyhoeddus nad yw ar gael ar-lein, fe allech chi ddefnyddio arddull cyfeirio Academaidd e.e. arddull harvard "Jess (2021) Fy ngherddi trwydded gyhoeddus i"
+sc-howto-review-title = Adolygu Brawddegau
+sc-howto-review-subtitle = Gwnewch yn siŵr fod y frawddeg yn cwrdd â'r meini prawf canlynol:
+sc-howto-review-criteria-1 = Rhaid fod y frawddeg wedi ei sillafu'n gywir.
+sc-howto-review-criteria-2 = Rhaid i'r frawddeg fod yn ramadegol gywir.
+sc-howto-review-criteria-3 = Rhaid i'r frawddeg fod yn ynganadwy.
+sc-howto-review-criteria-4 = Os yw'r frawddeg yn cwrdd â'r meini prawf, cliciwch y botwm "Cymeradwyo".
+sc-howto-review-criteria-5 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf uchod, cliciwch y botwm "Gwrthod". Os ydych chi'n ansicr ynghylch y ddedfryd, gallwch hefyd ei hepgor a symud ymlaen i'r un nesaf.
+sc-howto-review-criteria-6 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu mwy o frawddegau!
 
 # [/SentenceCollector]
 
