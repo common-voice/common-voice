@@ -1062,32 +1062,36 @@ contribution-just-unsure-title = Dal Ddim yn Siŵr?
 contribution-just-unsure-description = Os dewch chi ar draws rhywbeth nad yw'r canllawiau hyn yn ei gynnwys, defnyddiwch eich synnwyr cyffredin. Os nad ydych yn gallu penderfynu go iawn, defnyddiwch y botwm hepgor a mynd ymlaen i'r recordiad nesaf.
 see-more = <chevron></chevron>Gweld rhagor
 see-less = <chevron></chevron>Gweld llai
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = Cartref
 sc-header-how-to = Sut mae gwneud
 sc-header-add = Ychwanegu
 sc-header-review = Adolygu
 sc-header-rejected = Brawddegau wedi'u Gwrthod
-sc-header-my = Fy Mrawddegau
+sc-header-my = Fy Mrawddegau i
 sc-header-statistics = Ystadegau
 sc-header-profile = Proffil
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Adrodd ar Wallau
-sc-footer-translate = Cyfieithu'r dudalen hon
+sc-footer-translate = Cyfieithiwch y dudalen hon
 sc-footer-report-copyright = Adrodd ar fater hawlfraint
 sc-footer-privacy = Preifatrwydd
-sc-footer-terms = Termau
+sc-footer-terms = Amodau
 sc-footer-cookies = Cwcis
 sc-login-signup-button = Mewngofnodi / Cofrestru
 sc-logout-button = Allgofnodi
 sc-home-title = Croeso i Gasglwr Brawddegau Common Voice
-sc-home-intro = Mae'r Casglwr Brawddegau yn rhan o </commonVoiceLink>Common Voice</commonVoiceLink>. Mae'n caniatáu i gyfranwyr gasglu a dilysu brawddegau a grëwyd gan y gymuned. Gallwch ddefnyddio'r teclyn hwn hefyd i fewnforio a glanhau corpws parth cyhoeddus bach i ganolig rydych chi wedi'i ddarganfod neu ei gasglu. Rhaid i bob brawddeg fod yn Barth Cyhoeddus. Mae brawddegau cymeradwy yn cael eu hallforio bob wythnos i storfan Common Voice ac yn cael eu rhyddhau i wefan Common Voice ar bob darpariaeth newydd.
+sc-home-intro = Mae'r Casglwr Brawddegau yn rhan o </commonVoiceLink>Common Voice</commonVoiceLink>. Mae'n caniatáu i gyfranwyr gasglu a dilysu brawddegau a grëwyd gan y gymuned. Gallwch ddefnyddio'r teclyn hwn hefyd i fewnforio a glanhau corpws parth cyhoeddus bach i ganolig rydych chi wedi'i ddarganfod neu ei gasglu. Rhaid i bob brawddeg fod yn rhai Parth Cyhoeddus. Mae brawddegau cymeradwy yn cael eu hallforio bob wythnos i storfan Common Voice ac yn cael eu rhyddhau i wefan Common Voice ar bob darpariaeth newydd.
 sc-home-collect-title = Casglu brawddegau
-sc-home-collect-text = Helpwch ni trwy ysgrifennu neu gasglu brawddegau Parth Cyhoeddus.
+sc-home-collect-text = Helpwch ni trwy ysgrifennu neu gasglu brawddegau o'r Parth Cyhoeddus.
 sc-home-review-title = Adolygu brawddegau
 sc-home-review-text = Helpwch ni trwy adolygu brawddegau i sicrhau eu cywirdeb yn unol â'r canllawiau.
-sc-howto-title = Sut mae gwneud
-sc-howto-addlang-title = Ychwanegu ieithoedd i weithio gyda nhw
+sc-howto-title = Sut mae...
+sc-howto-addlang-title = Ychwanegu ieithoedd i weithio arnyn nhw
 sc-howto-addlang-text = Ar ôl mewngofnodi gallwch ddewis eich ieithoedd o'r adran proffil.
-sc-howto-addsen-title = Ychwanegwch frawddegau newydd
+sc-howto-addsen-title = Ychwanegu brawddegau newydd
 sc-howto-addsen-item-1 = Rhaid i'r holl frawddegau rydych yn eu cyflwyno fod o dan drwydded <wikipediaLink>Parth Cyhoeddus (CC-0) </wikipediaLink>. Er mwyn cefnogi cynnwys gwaith nad yw o dan drwydded gyhoeddus, rydym wedi creu <cc0WaiverLink>templed Cytundeb Cyfraniadau</cc0WaiverLink> ar gyfer gwaith lle hoffai perchennog yr hawlfraint gyfrannu'r deunydd i Common Voice.
 sc-howto-addsen-item-2 = Rhifau. Dylai fod dim digidau yn y testun ffynhonnell oherwydd maen nhw'n gallu achosi problemau wrth eu darllen yn uchel. Mae'r ffordd y mae rhif yn cael ei ddarllen yn dibynnu ar y cyd-destun a gall gyflwyno dryswch yn y set ddata. Er enghraifft, mae modd darllen y rhif “2409” yn gywir fel “dau pedwar dim naw” a “dwy fil pedwar cant a naw”.
 sc-howto-addsen-item-3 = Talfyriadau ac Acronymau. Mae'n bwysig osgoi byrfoddau ac acronymau fel “UDA” neu “ICE” yn y testun ffynhonnell oherwydd bod modd eu darllen mewn ffordd nad yw'n cyd-fynd â'u sillafu. Yn ogystal, gall fod nifer o ddarlleniadau cywir ar gyfer un talfyriad. Er enghraifft, gellid ynganu'r acronym “ICE” yn “I-C-E” neu fel un gair.
@@ -1317,6 +1321,10 @@ sc-review-form-reviewed-message =
 sc-review-form-review-failure = Nid oedd modd cadw'r adolygiad. Ceisiwch eto'n hwyrach.
 sc-review-link = Adolygu
 sc-settings-title = Gosodiadau
+sc-settings-reset-skipped = Ailosod brawddegau wedi'u hepgor
+sc-settings-skipped-decription = Yn y gorffennol, rydych wedi hepgor brawddegau wrth eu hadolygu. Bydd ailosod brawddegau wedi'u hepgor yn dangos pob brawddeg sydd wedi'i hepgor eto. Mae hyn yn annibynnol ar yr iaith.
+sc-settings-show-all-button = Dangos yr holl frawddegau wedi'u hepgor eto
+sc-settings-failed = Methu newid y gosodiadau. Ceisiwch eto.
 
 # [/SentenceCollector]
 
