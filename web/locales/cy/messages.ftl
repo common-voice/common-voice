@@ -1153,6 +1153,20 @@ sc-submit-title = Ychwanegwch Frawddegau
 sc-submit-select-language =
     .labelText = Dewiswch Iaith
 sc-submit-add-sentences = Ychwanegwch frawddegau <wikipediaLink>parth cyhoeddus</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Un frawddeg i linell
+sc-submit-from-where = O ble daw'r brawddegau <wikipediaLink>parth cyhoeddus</wikipediaLink> hyn?
+sc-submit-ph-read-how-to =
+    .placeholder = Darllenwch ein Sut mae gwneud, os nad ydych yn siŵr sut i gyfeirio
+sc-submit-confirm = Rwy'n cadarnhau bod y brawddegau hyn yn rhai <wikipediaLink>parth cyhoeddus</wikipediaLink> ac mae gen i ganiatâd i'w llwytho i fyny.
+sc-submit-button =
+    .submitText = Cyflwyno
+sc-submit-filtered = Brawddegau wedi'u didoli oherwydd bod rhai gofynion wedi methu (cyflwynwch fersiynau cywir fel brawddegau newydd):
+sc-submit-guidelines = Darllenwch y <howToLink>canllawiau</howToLink>.
+sc-add-lang-could-not-add = Methu ychwanegu iaith
+sc-add-lang-sec-label = Ychwanegwch iaith rydych eisiau gyfrannu ati
+sc-add-lang-sec-button = Ychwanegu Iaith
+sc-add-err-unexpected = Dychwelwyd ymateb annisgwyl gan y gweinydd
 
 # [/SentenceCollector]
 
