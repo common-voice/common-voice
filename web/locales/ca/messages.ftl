@@ -1013,6 +1013,13 @@ sc-header-statistics = Estadístiques
 sc-header-profile = Perfil
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Informa de problemes
+sc-footer-translate = Tradueix aquesta pàgina
+sc-footer-report-copyright = Informa de problemes de drets d'autor
+sc-footer-privacy = Privadesa
+sc-footer-terms = Condicions d'ús
+sc-footer-cookies = Galetes
+sc-login-signup-button = Inici de sessió / Registre
+sc-logout-button = Tanca la sessió
 
 # [/SentenceCollector]
 
