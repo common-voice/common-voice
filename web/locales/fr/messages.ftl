@@ -1042,6 +1042,7 @@ sc-howto-review-subtitle = Assurez-vous que la phrase répond aux critères suiv
 sc-howto-review-criteria-1 = La phrase doit être orthographiée correctement.
 sc-howto-review-criteria-2 = La phrase doit être grammaticalement correcte.
 sc-howto-review-criteria-3 = La phrase doit être prononçable.
+sc-howto-review-criteria-4 = Si la phrase répond aux critères, cliquez sur le bouton « Approuver ».
 sc-howto-review-criteria-6 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 sc-howto-findpd-title = Trouver des phrases existantes dans le domaine public
 sc-howto-findpd-tips = Voici quelques astuces pour trouver des phrases :
@@ -1049,6 +1050,7 @@ sc-my-title = Mes phrases
 sc-my-loading = Chargement de vos phrases…
 sc-my-err-fetching = Erreur lors de la récupération de vos phrases. Veuillez réessayer.
 sc-my-no-sentences = Aucune phrase trouvée !
+sc-my-submission = Soumission : { $batchId }
 sc-my-source = Source : { $source }
 sc-my-delete = Supprimer les phrases sélectionnées
 sc-my-deleting = Suppression des phrases sélectionnées…
@@ -1059,15 +1061,45 @@ sc-rejected-err-fetching = Erreur lors de la récupération des phrases rejetée
 sc-rejected-none-found = Aucune phrase rejetée n’a été trouvée !
 sc-review-title = Vérifier les phrases
 sc-review-loading = Chargement des phrases…
+sc-review-select-language = Veuillez sélectionner une langue pour vérifier les phrases.
 sc-stats-title = Statistiques
+sc-stats-last-update = Dernière mise à jour : { $lastUpdate }
 sc-stats-updating = Mise à jour…
+sc-stats-summary = Le collecteur de phrases Common Voice a collecté { $sentenceCount } phrases dans { $languageCount } langues !
 sc-submit-err-select-lang = Veuillez sélectionner une langue.
+sc-submit-err-add-sentences = Veuillez ajouter des phrases.
+sc-submit-err-add-source = Veuillez ajouter une source.
+sc-submit-err-confirm-pd = Veuillez confirmer que ces phrases sont du domaine public.
 sc-submit-title = Ajouter des phrases
+sc-submit-select-language =
+    .labelText = Sélectionnez la langue
+sc-submit-ph-one-per-line =
+    .placeholder = Une phrase par ligne
 sc-submit-button =
     .submitText = Envoyer
 sc-submit-filtered = Phrases filtrées en raison de l’échec des exigences (veuillez soumettre des versions corrigées en tant que nouvelles phrases) :
 sc-add-lang-could-not-add = Impossible d’ajouter la langue
 sc-add-lang-sec-label = Ajoutez une langue à laquelle vous souhaitez contribuer
+sc-add-result =
+    { $duplicates ->
+        [0] Phrases soumises. Aucune phrase rejetée en tant que doublon.
+        [1] Phrases soumises. Une phrase a été rejetée en tant que doublon.
+       *[other] Phrases soumises. { $duplicates } phrases ont été rejetées en tant que doublons.
+    }
+sc-add-err-failed =
+    { $sentences ->
+        [0] Aucune phrase échouée
+        [one] 1 phrase échouée
+       *[other] { $sentences } phrases échouées
+    }
+sc-add-err-submission = Erreur de soumission
+sc-confirm-sentences-title = Confirmer les nouvelles phrases
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Aucune phrase trouvée.
+        [one] Une phrase trouvée.
+       *[other] { $countOfSentences } phrases trouvées.
+    }
 
 # [/SentenceCollector]
 
