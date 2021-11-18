@@ -1060,6 +1060,14 @@ sc-rejected-none-found = Aucune phrase rejetée n’a été trouvée !
 sc-review-title = Vérifier les phrases
 sc-review-loading = Chargement des phrases…
 sc-stats-title = Statistiques
+sc-stats-updating = Mise à jour…
+sc-submit-err-select-lang = Veuillez sélectionner une langue.
+sc-submit-title = Ajouter des phrases
+sc-submit-button =
+    .submitText = Envoyer
+sc-submit-filtered = Phrases filtrées en raison de l’échec des exigences (veuillez soumettre des versions corrigées en tant que nouvelles phrases) :
+sc-add-lang-could-not-add = Impossible d’ajouter la langue
+sc-add-lang-sec-label = Ajoutez une langue à laquelle vous souhaitez contribuer
 
 # [/SentenceCollector]
 
