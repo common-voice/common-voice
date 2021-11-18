@@ -1191,6 +1191,58 @@ sc-add-lang-could-not-add = Kin taal net tafoegje
 sc-add-lang-sec-label = Foegje in taal ta dêr’t jo oan bydrage wolle
 sc-add-lang-sec-button = Taal tafoegje
 sc-add-err-unexpected = Unferwacht antwurd ûntfongen fan de server
+sc-add-result =
+    { $duplicates ->
+        [0] Yntsjinne sinnen. { $duplicates } sinnen binne ôfwiisd as duplikaten.
+        [one] Yntsjinne sinnen. { $duplicates } sin is ôfwiisd as duplikaat.
+       *[other] Yntsjinne sinnen. { $duplicates } sinnen binne ôfwiisd as duplikaten.
+    }
+sc-add-err-failed =
+    { $sentences ->
+        [0] Gjin sin mislearre
+        [one] Ien sin mislearre
+       *[other] { $sentences } sinnen mislearre
+    }
+sc-add-err-submission = Yntsjinningsflater
+sc-confirm-are-you-sure =
+    .message = Sinnen net yntsjinne, binne jo wis dat jo ôfslute wolle?
+sc-confirm-sentences-title = Nije sinnen befêstigje
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Gjin sinnen fûn.
+        [one] Ien sin fûn.
+       *[other] { $countOfSentences } sinnen fûn.
+    }
+sc-confirm-rejected-by-you = { $countOfInvalidated } troch jo ôfwiisd
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Gjin sin al beoardiele.
+        [one] Der is al ien sin beoardiele. Goed wurk!
+       *[other] Der binne al { $countOfReviewed } sinnen beoardiele. Goed wurk!
+    }
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Gjin sin klear foar yntsjinning!
+        [one] Ien sin klear foar yntsjinning!
+       *[other] { $readyCount } sinnen klear foar yntsjinning!
+    }
+sc-confirm-unreviewed =
+    { $countOfUnreviewed } sinnen binne net beoardiele.
+    As jo wolle, kinne jo jo sinnen no ek beoardiele eardat jo se yntsjinje.
+sc-confirm-button-text = Befêstigje
+sc-confirm-uploading = Sinnen wurde oplaad. Dit kin inkelde minuten duorje, ôfhinklik fan it oantal tafoege sinnen. Slút dizze website net.
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Gjin totaal oantal sinnen.
+        [one] Totaal ien sin.
+       *[other] Totaal { $totalSentences } sinnen.
+    }
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Gjin sinnen yn beoardieling.
+        [one] Ien sin yn beoardieling.
+       *[other] { $totalInReview } sinnen yn beoardieling.
+    }
 
 # [/SentenceCollector]
 
