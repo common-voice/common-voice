@@ -1130,6 +1130,45 @@ sc-howto-findpd-partner-2 =
     universiteiten (sawol dosinten as studinten) en sjoch oft se helpe kinne om in ferskate set fan
     sinnen mei útienrinnende klanken yn jo taal te sammeljen.
 sc-my-title = Myn sinnen
+sc-my-description =
+    Dizze side biedt jo in oersjoch fan al jo ynstjoerde sinnen.
+    Jo kinne wannear nedich ek al yntsjinne sinnen fuortsmite troch der in finkje neist te pleatsen
+    en ûnderoan op &quot;Selektearre sinnen fuortsmite&quot; te klikken.
+    Smyt sinnen allinnich fuort as dit absolút needsaaklik is,
+    bygelyks as jo efterôf opmerke dat in sin auteursrjochtlik beskerme is.
+sc-my-loading = Jo sinnen laden…
+sc-my-err-fetching = Flater by it opheljen fan jo sinnen. Probearje it opnij.
+sc-my-no-sentences = Gjin sinnen fûn!
+sc-my-submission = Ynstjoering: { $batchId }
+sc-my-source = Boarne: { $source }
+sc-my-delete = Selektearre sinnen fuortsmite
+sc-my-deleting = Selektearre sinnen fuortsmite…
+sc-my-err-failed-delete = Kin selektearre sinnen net fuortsmite… Probearje it opnij!
+sc-profile-title = Profyl: { $username }
+sc-rejected-title = Ofwizen sinnen
+sc-rejected-loading = Ofwizen sinnen lade…
+sc-rejected-err-fetching = Flater by it opheljen fan ôfwizen sinnen. Probearje it opnij.
+sc-rejected-none-found = Gjin ôfwizen sinnen fûn!
+sc-review-lang-not-selected =
+    Jo hawwe gjin talen selektearre. Gean nei jo
+    <profileLink>Profyl</profileLink> om talen te selektearjen.
+sc-review-title = Sinnen beoardiele
+sc-review-loading = Sinnen lade…
+sc-review-select-language = Selektearje in taal om sinnen te beoardielen.
+sc-review-no-sentences =
+    Gjin sinnen om te beoardielen.
+    <addLink>Foegje no mear sinnen ta!</addLink>
+sc-stats-title = Statistiken
+sc-stats-last-update = Lêste fernijing: { $lastUpdate }
+sc-stats-last-update-never = Lêste fernijing: nea
+sc-stats-updating = Bywurkje…
+sc-stats-summary =
+    De Common Voice Sentence Collector hat { $sentenceCount }
+    sinnen yn { $languageCount } talen sammele!
+sc-submit-err-select-lang = Selektearje in taal.
+sc-submit-err-add-sentences = Foegje sinnen ta.
+sc-submit-err-add-source = Foegje in boarne ta.
+sc-submit-err-confirm-pd = Befêstigje dat dizze sinnen publyk domein binne.
 
 # [/SentenceCollector]
 
