@@ -1051,6 +1051,7 @@ sc-howto-addsen-item-3 =
     In addition, on pote haber plure accurate lecturas pro un singule abbreviation.
     Per exemplo, le acronymo “ICE” pote esser pronunciate “I-C-E” o como singule parola.
 sc-howto-addsen-item-4 = Punctuation. Symbolos special e punctuation deberea solo esser includite quando absolutemente necessari. Per exemplo, un apostropho es includite in vocabulos anglese como “don’t” e “we’re” e debe esser includite in le texto fonte, ma il es inverisimile que tu unquam besoniara de un symbolo special como “@” o “#.”
+sc-howto-addsen-item-5 = Litteras estranier. Le litteras debe esser valide in le lingua a parlar. Per exemplo, “ж” es un littera in le alphabeto russe ma jammais es usate in anglese e assi non deberea jammais apparer in ulle texto fonte anglese.
 
 # [/SentenceCollector]
 
