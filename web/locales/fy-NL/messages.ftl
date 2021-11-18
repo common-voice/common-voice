@@ -106,6 +106,7 @@ mhr = Greide-Mari
 mk = Masedoanysk
 ml = Malayalam
 mn = Mongoalsk
+mni = Meetei Lono
 mos = More
 mr = Marathy
 mrj = Berch-Mari
@@ -152,7 +153,7 @@ te = Telugu
 tg = Tadzjyksk
 th = Taisk
 ti = Tigriniaansk
-Tig = Tigre
+tig = Tigre
 tl = Tagalog
 tr = Turksk
 tt = Tatarsk
@@ -1014,3 +1015,27 @@ contribution-just-unsure-title = Gewoan ûnwis?
 contribution-just-unsure-description = As jo wat tsjinkomme dat net yn dizze rjochtlinen behannele wurdt, stim dan nei jo bêste oardiel. As jo echt net beslisse kinne, brûk dan de knop Oerslaan en gean troch nei de folgjende opname.
 see-more = <chevron></chevron>Mear toane
 see-less = <chevron></chevron>Minder toane
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = Startside
+sc-header-how-to = Hantlieding
+sc-header-add = Tafoegje
+sc-header-review = Beoardiele
+sc-header-rejected = Ofwizen sinnen
+sc-header-my = Myn sinnen
+sc-header-statistics = Statistiken
+sc-header-profile = Profyl
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Bugs melde
+sc-footer-translate = Dizze side oersette
+sc-footer-report-copyright = Auteursrjochtproblemen melde
+sc-footer-privacy = Privacy
+sc-footer-terms = Betingsten
+sc-footer-cookies = Cookies
+sc-login-signup-button = Oanmelde/Registrearje
+sc-logout-button = Ofmelde
+sc-home-title = Wolkom by de Common Voice Sentence Collector
+
+# [/SentenceCollector]
+
