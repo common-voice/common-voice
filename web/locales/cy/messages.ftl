@@ -1089,6 +1089,8 @@ sc-howto-addlang-title = Ychwanegu ieithoedd i weithio gyda nhw
 sc-howto-addlang-text = Ar ôl mewngofnodi gallwch ddewis eich ieithoedd o'r adran proffil.
 sc-howto-addsen-title = Ychwanegwch frawddegau newydd
 sc-howto-addsen-item-1 = Rhaid i'r holl frawddegau rydych yn eu cyflwyno fod o dan drwydded <wikipediaLink>Parth Cyhoeddus (CC-0) </wikipediaLink>. Er mwyn cefnogi cynnwys gwaith nad yw o dan drwydded gyhoeddus, rydym wedi creu <cc0WaiverLink>templed Cytundeb Cyfraniadau</cc0WaiverLink> ar gyfer gwaith lle hoffai perchennog yr hawlfraint gyfrannu'r deunydd i Common Voice.
+sc-howto-addsen-item-2 = Rhifau. Dylai fod dim digidau yn y testun ffynhonnell oherwydd maen nhw'n gallu achosi problemau wrth eu darllen yn uchel. Mae'r ffordd y mae rhif yn cael ei ddarllen yn dibynnu ar y cyd-destun a gall gyflwyno dryswch yn y set ddata. Er enghraifft, mae modd darllen y rhif “2409” yn gywir fel “dau pedwar dim naw” a “dwy fil pedwar cant a naw”.
+sc-howto-addsen-item-3 = Talfyriadau ac Acronymau. Mae'n bwysig osgoi byrfoddau ac acronymau fel “UDA” neu “ICE” yn y testun ffynhonnell oherwydd bod modd eu darllen mewn ffordd nad yw'n cyd-fynd â'u sillafu. Yn ogystal, gall fod nifer o ddarlleniadau cywir ar gyfer un talfyriad. Er enghraifft, gellid ynganu'r acronym “ICE” yn “I-C-E” neu fel un gair.
 
 # [/SentenceCollector]
 
