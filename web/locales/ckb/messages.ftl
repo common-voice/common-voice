@@ -837,6 +837,7 @@ download-size = قەبارە
 download-selected = هەڵبژێردراو
 download-request-button = داگرتن
 download-request-refresh-button = نوێکردنەوە
+download-request-metadata-link = دەقی ڕستە
 
 ## Landing
 
@@ -891,3 +892,6 @@ contribution-volume-title = پلەی دەنگ
 contribution-just-unsure-title = دڵنیا نیت؟
 see-more = <chevron></chevron>زیاتر ببینە
 see-less = <chevron></chevron>کەمتر ببینە
+
+# [/SentenceCollector]
+
