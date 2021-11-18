@@ -1082,6 +1082,7 @@ sc-howto-findpd-subtitle-2 = Álljon össze helyi szervezetekkel vagy magánszem
 sc-howto-findpd-partner-1 = Sok olyan nyilvános szervezet lehet, amelyek esetleg szeretnének együttműködni, és már sok olyan szöveggel rendelkezik, amelyet közkincsként felajánlhatnak. Lépjen kapcsolatba a helyi egyetemekkel, önkormányzatokkal és nyílt forráskódú szervezetekkel, hogy beszéljen a projektről, és  a segítségüket kérje.
 sc-howto-findpd-partner-2 = Szakértő nyelvészek is segíthetnek, próbálja meg felvenni a kapcsolatot a helyi nyelvtudományi egyetemekkel (tanárokkal és hallgatókkal egyaránt), és tudja meg, hogy tudnak-e segíteni abban, hogy változatos hangzású, változatos mondatokat gyűjtsenek össze az Ön nyelvén.
 sc-my-title = Saját mondatok
+sc-my-description = Ez az oldal áttekintést nyújt az összes beküldött mondatról. Szükség esetén törölheti a már beküldött mondatokat is, ha bejelöli a mellettük lévő jelölőnégyzetet, és rákattint a lenti „Kijelölt mondatok törlése” gombra. Csak akkor távolítson el mondatokat, ha az feltétlenül szükséges, például ha utólag vette észre, hogy egy mondat szerzői jogvédelem alatt áll.
 sc-my-loading = Mondatok betöltése…
 sc-my-err-fetching = Hiba történt a mondatok lekérése során. Próbálja újra.
 sc-my-no-sentences = Nem találhatóak mondatok.
