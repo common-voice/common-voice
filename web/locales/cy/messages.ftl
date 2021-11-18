@@ -1117,6 +1117,8 @@ sc-howto-findpd-tips-2 = Mae trafodion llywodraeth, llyfrau ac erthyglau llywodr
 sc-howto-findpd-tips-3 = Yn anffodus nid oes modd i ni ddefnyddio erthyglau Wikimedia eto. Felly peidiwch â chopïo a gludo oddi yno.
 sc-howto-findpd-subtitle-2 = Partneru gyda sefydliadau neu unigolion lleol
 sc-howto-findpd-partner-1 = Mae yna lawer o sefydliadau cyhoeddus a allai fod eisiau cydweithio ac sydd eisoes â llawer o destunau y gallan nhw eu rhoi fel parth cyhoeddus. Cysylltwch â'ch Prifysgolion, Llywodraethau a sefydliadau cod agored lleol i siarad am y project a gofyn am eu cymorth.
+sc-howto-findpd-partner-2 = Gall ieithyddion arbenigol hefyd helpu, ceisiwch gysylltu â Phrifysgolion ieithyddol lleol (athrawon a myfyrwyr fel ei gilydd) a gweld a allan nhw helpu i gasglu set amrywiol o frawddegau sain-amrywiol yn eich iaith.
+sc-my-title = Fy Mrawddegau
 
 # [/SentenceCollector]
 
