@@ -1284,6 +1284,26 @@ sc-criteria-item-5 =
 sc-criteria-item-6 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
 sc-review-form-prompt =
     .message = Beoardiele sinnen net yntsjinne, binne jo wis?
+sc-review-form-usage =
+    Fei nei rjochts om de sin goed te karren. Fei nei links om dizze ôf te wizen.
+    Fei omheech om dizze oer te slaan. <strong>Ferjit net jo beoardieling yn te tsjinjen!</strong>
+sc-review-form-source = Boarne: { $sentenceSource }
+sc-review-form-button-reject = Ofwize
+sc-review-form-button-skip = Oerslaan
+sc-review-form-button-approve = Goedkarre
+sc-review-form-keyboard-usage = Jo kinne ek fluchtoetsen brûke: Y om goed te karren, N om ôf te wizen, S om oer te slaan
+sc-review-form-button-submit =
+    .submitText = Beoardieling foltôgje
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Gjin sinnen beoardiele.
+        [one] Ien sin beoardiele. Tank!
+       *[other] { $sentences } sinnen beoardiele. Tige tank!
+    }
+sc-review-form-review-failure = Beoardieling kin net bewarre wurde. Probearje it letter nochris.
+sc-review-link = Beoardiele
+sc-settings-title = Ynstellingen
+sc-settings-reset-skipped = Oerslagge sinnen opnij inisjalisearje
 
 # [/SentenceCollector]
 
