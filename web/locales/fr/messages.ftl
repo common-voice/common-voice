@@ -106,6 +106,7 @@ mhr = Mari des prairies
 mk = Macédonien
 ml = Malayalam
 mn = Mongol
+mni = Meitei Lon
 mos = Moré
 mr = Marathe
 mrj = Mari des montagnes
@@ -152,6 +153,7 @@ te = Télougou
 tg = Tadjik
 th = Thaï
 ti = Tigrigna
+tig = Tigré
 tl = Tagalog
 tr = Turc
 tt = Tatar
@@ -1001,3 +1003,63 @@ contribution-just-unsure-title = Vous hésitez ?
 contribution-just-unsure-description = Si vous rencontrez une situation que ces directives ne couvrent pas, veuillez voter en faisant appel à votre bon sens. Si vous n’arrivez vraiment pas à vous décider, utilisez le bouton « Passer » et passez à l’enregistrement suivant.
 see-more = <chevron></chevron>Afficher plus d’exemples
 see-less = <chevron></chevron>Afficher moins d’exemples
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = Accueil
+sc-header-how-to = Comment faire
+sc-header-add = Ajouter
+sc-header-review = Vérification
+sc-header-rejected = Phrases rejetées
+sc-header-my = Mes phrases
+sc-header-statistics = Statistiques
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Signaler des problèmes
+sc-footer-translate = Traduire cette page
+sc-footer-privacy = Confidentialité
+sc-footer-terms = Conditions d’utilisation
+sc-footer-cookies = Cookies
+sc-login-signup-button = Connexion / Inscription
+sc-logout-button = Déconnexion
+sc-home-title = Bienvenue dans le collecteur de phrases de Common Voice
+sc-home-intro =
+    Le collecteur de phrases fait partie du projet <commonVoiceLink>Common Voice</commonVoiceLink>.
+    Il permet aux contributeurs de collecter et de valider des phrases créées par la communauté.
+    Vous pouvez également utiliser cet outil pour importer et nettoyer des corpus du domaine public de petite à moyenne taille que vous avez trouvés ou collectés. Toutes les phrases doivent être du domaine public.
+    Les phrases approuvées sont exportées chaque semaine vers le dépôt de code Common Voice et sont publiées
+    sur le site web de Common Voice à chaque nouveau déploiement.
+sc-home-collect-title = Collecter des phrases
+sc-home-collect-text = Contribuez à écrire ou collecter des phrases du domaine public
+sc-home-review-title = Vérifier les phrases
+sc-home-review-text = Contribuez en révisant les phrases pour qu’elles soient correctes conformément aux consignes.
+sc-howto-title = Comment faire ?
+sc-howto-addsen-title = Ajouter de nouvelles phrases
+sc-howto-cite-title = Comment citer
+sc-howto-cite-item-1 = Vous pouvez inclure le site web, par exemple « Common Voice - https://commonvoice.mozilla.org/ »
+sc-howto-review-title = Vérifier les phrases
+sc-howto-review-subtitle = Assurez-vous que la phrase répond aux critères suivants :
+sc-howto-review-criteria-1 = La phrase doit être orthographiée correctement.
+sc-howto-review-criteria-2 = La phrase doit être grammaticalement correcte.
+sc-howto-review-criteria-3 = La phrase doit être prononçable.
+sc-howto-review-criteria-6 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
+sc-howto-findpd-title = Trouver des phrases existantes dans le domaine public
+sc-howto-findpd-tips = Voici quelques astuces pour trouver des phrases :
+sc-my-title = Mes phrases
+sc-my-loading = Chargement de vos phrases…
+sc-my-err-fetching = Erreur lors de la récupération de vos phrases. Veuillez réessayer.
+sc-my-no-sentences = Aucune phrase trouvée !
+sc-my-source = Source : { $source }
+sc-my-delete = Supprimer les phrases sélectionnées
+sc-my-deleting = Suppression des phrases sélectionnées…
+sc-profile-title = Profil : { $username }
+sc-rejected-title = Phrases rejetées
+sc-rejected-loading = Chargement des phrases rejetées…
+sc-rejected-err-fetching = Erreur lors de la récupération des phrases rejetées. Veuillez réessayer.
+sc-rejected-none-found = Aucune phrase rejetée n’a été trouvée !
+sc-review-title = Vérifier les phrases
+sc-review-loading = Chargement des phrases…
+sc-stats-title = Statistiques
+
+# [/SentenceCollector]
+

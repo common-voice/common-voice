@@ -152,6 +152,7 @@ te = Telugu
 tg = Tajik
 th = Thai
 ti = Tigrinya
+Tig = Tigre
 tl = Tagalog
 tr = Twrceg
 tt = Tartareg
@@ -1008,8 +1009,8 @@ demo-dashboard-card-body = Ar gyfer pob clip llais sy'n cael ei gyfrannu, a phob
 ## Validation criteria
 
 contribution-criteria-nav = Meini Prawf
-contribution-criteria-link = Deall y meini prawf cyfrannu
-contribution-criteria-page-title = Meini Prawf Cyfrannu
+contribution-criteria-link = Sut mae cyfrannu'n effeithiol
+contribution-criteria-page-title = Cyfrannu'n Effeithiol
 contribution-criteria-page-description = Deall beth i chwilio amdano wrth wrando ar glipiau llais ac i helpu i wneud eich recordiadau llais yn gyfoethocach!
 contribution-for-example = er enghraifft
 contribution-misreadings-title = Camddarllen

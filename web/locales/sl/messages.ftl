@@ -139,10 +139,13 @@ ta = tamilščina
 te = teluščina
 tg = tadžiščina
 th = tajščina
+ti = tigrajščina
+Tig = tigrajščina
 tl = tagaloščina
 tr = turščina
 tt = tatarščina
 tw = tvijščina
+ty = tahitščina
 uby = ubiščina
 udm = udmurtščina
 ug = ujgurščina
@@ -152,6 +155,7 @@ uz = uzbeščina
 vec = beneščina
 vi = vietnamščina
 vot = votščina
+yi = jidiš
 yo = jorubščina
 yue = kantonščina
 zh-CN = kitajščina (Kitajska)
@@ -559,8 +563,6 @@ subscribe = Naroči se
 get-started-speech = Začnite s prepoznavanjem govora
 other-datasets = Drugi glasovni nabori podatkov
 feedback-q = Želite poslati povratne informacije?
-deepspeech-info = Nabor podatkov Common Voice dopolnjuje Mozillin odprtokodni sistem za prepoznavanje govora Deep Speech, ki ga lahko uporabite za izdelavo aplikacij za prepoznavanje govora. Če želite izvedeti, kako začeti, preberite naš <githubLink>priročnik na Githubu</githubLink> ali se nam pridružite <DiscourseLink>na forumu Discourse</discourseLink>.
-common-voice-info-new = Imate vprašanja o projektu Common Voice? Zamisli za izboljšave ali povratne informacije o določenem jeziku? Pridružite se nam na <discourseLink>forumu Discourse</discourseLink> in nam to sporočite.
 data-other-librispeech-description = LibriSpeech je korpus, sestavljen iz približno 1000 ur branih angleških besedil (pri 16 kHz), pridobljen iz zvočnih knjig projekta LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = TED-LIUM je korpus, ki ga sestavljajo zvočni posnetki predstavitev in njihovi prepisi, dostopni na spletni strani TED.com.
@@ -838,6 +840,9 @@ why-delete-recordings =
     
     Bi nam bili pripravljeni povedati, zakaj želite izbrisati svoje posnetke?
 profile-form-delete = Izbriši profil
+
+## Profile Download
+
 
 ## Landing
 

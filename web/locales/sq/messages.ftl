@@ -78,6 +78,8 @@ hy-AM = Armene
 hyw = Armene Perëndimore
 ia = Interlingua
 id = Indonezisht
+ie = Interlingue
+ig = Igbo
 is = Islandisht
 it = Italisht
 izh = Izhoriane
@@ -86,6 +88,7 @@ ka = Gjeorgjiane
 kaa = Karakalpak
 kab = Kabile
 kbd = Kabardiane
+ki = Kikuju
 kk = Kazake
 kmr = Kurde Kurmanxhi
 ko = Koreane
@@ -96,11 +99,13 @@ lg = Luganda
 lij = Ligure
 lt = Lituanisht
 lv = Letonisht
+mai = Maithili
 mdf = Moksha
 mg = Malgashe
 mk = Maqedonisht
 ml = Malajalame
 mn = Mongolisht
+mr = Marati
 mrj = Hill Mari
 ms = Malajziane
 mt = Malteze
@@ -113,6 +118,7 @@ nn-NO = Norvegjisht Nynorsk
 oc = Oçitane
 or = Odia
 pa-IN = Panxhabe
+pap-AW = Papiamento (Aruba)
 pl = Polonisht
 ps = Pashtune
 pt = Portugalisht
@@ -138,6 +144,7 @@ th = Tajlandisht
 tl = Tagalogase
 tr = Turqisht
 tt = Tatare
+ty = Tahitisht
 uby = Ybyke
 udm = Udmurt
 ug = Ujgur
@@ -147,6 +154,8 @@ uz = Uzbeke
 vec = Venetishte
 vi = Vietnamisht
 vot = Votik
+yi = Jidish
+yo = Joruba
 yue = Kantoneze
 zh-CN = Kineze (Kinë)
 zh-HK = Kineze (Hong Kong)
@@ -179,6 +188,7 @@ logout = Dilni
 ## Home Page
 
 home-title = Projekti Common Voice është një nismë e Mozilla-s për të ndihmuar t’u mësohet makinave se si flasin njerëzit.
+default-tagline = Mozilla Common Voice është një nismë për të ndihmuar t’u mësohet makinave se si flasin njerëzit.
 home-cta = Flisni, kontribuoni këtu!
 wall-of-text-start = Zëri është diçka natyrore, zëri është njerëzor. Ndaj na tërheq krijimi i teknologjive të zërit të përdorshme për makinat tona. Por për të krijuar sisteme zëri lypsen sasi tejet të mëdha zanore.
 wall-of-text-more-mobile = Shumica e të dhënave nga kompanitë e mëdha nuk jepen për shumicën e njerëzve. Jemi të mendimit se ko pengon risitë. Ndaj nisëm projektin Common Voice, një projekt për të ndihmuar në bërjen e njohjes së zërit të hapur për këdo.
@@ -274,6 +284,10 @@ shortcut-record-toggle = i
 shortcut-record-toggle-label = Incizo/Ndale
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Riincizojeni copëzën
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Hidh tej incizimin që po kryhet
+shortcut-submit = Return
+shortcut-submit-label = Parashtroni copëza
 request-language-text = S’e shihni ende gjuhën tuaj te Common Voice?
 request-language-text-learn = Mësoni se si ta kërkoni, këtu!
 request-language-button = Kërkoni një Gjuhë
@@ -368,15 +382,16 @@ change-email-setings = Ndryshojeni email-in tuaj që nga Rregullimet , te ndarja
 
 faq-title = Pyetje të Bëra Shpesh
 faq-what-cv-q = Ç’është Common Voice?
-faq-what-cv-a =
-    Teknologjia e të kuptuarit të zërit po revolucionarizon mënyrën se si ne ndërveprojmë me makinat, por sistemet e gatshëm sot janë të shtrenjtë dhe pronësorë. Common Voice është pjesë e nismës së Mozilla-s për at bërë të kuptuarit e zërit më të mirë dhe më të përdorshëm për këdo.  Common Voice është bazë masive globale të dhënash zanore të dhuruara, që i lejon cilitdo të stërvitë shpejt dhe lehtë aplikacione që punojnë dhe me zë, potencialisht për çdo gjuhë.
+faq-what-cv-a = Teknologjia e të kuptuarit të zërit po revolucionarizon mënyrën se si ne ndërveprojmë me makinat, por sistemet e gatshëm sot janë të shtrenjtë dhe pronësorë. Common Voice është pjesë e nismës së Mozilla-s për t’i bërë teknologjitë e të kuptuarit të zërit më të mira dhe më të përdorshme për këdo.  Common Voice është bazë masive globale të dhënash zanore të dhuruara, që i lejon cilitdo të stërvitë shpejt dhe lehtë aplikacione që punojnë dhe me zë, potencialisht për çdo gjuhë.
+faq-what-cv-a-2 =
+    Teknologjia e të kuptuarit të zërit po revolucionarizon mënyrën se si ne ndërveprojmë me makinat, por sistemet e gatshëm sot janë të shtrenjtë dhe pronësorë. Mozilla Common Voice është një nismë për t’i bërë teknologjitë e të kuptuarit të zërit më të mira dhe më të përdorshme për këdo.  Common Voice është bazë masive globale të dhënash zanore të dhuruara, që i lejon cilitdo të stërvitë shpejt dhe lehtë aplikacione që punojnë dhe me zë, potencialisht për çdo gjuhë.
     
-    We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
+    S’po mbledhim vetëm copëza zanore për gjuhë të folura gjerësisht, por edhe për ato me popullata më të vogla folësish. Publikimi i një grupi të larmishëm zërash do të ndihmojë zhvilluesit, sipërmarrësit dhe bashkësitë për t’u marrë vetë me këtë hendek. Përveç grupit të të dhënave Common Voice, po ndërtojmë edhe një mekanizëm me burim të hapët për të kuptuarit e të folurës, të quajtur Deep Speech.
 faq-why-important-q = Pse ka rëndësi?
 faq-why-important-a =
     E folura shpesh është rruga më natyrore përmes të cilës komunikojmë me njëri-tjetrin dhe teknologjitë e zërit po e sjellin leverdinë e kësaj rruge te kompjuterat dhe pajisjet celulare. Duam t’u japim mundësi zhvilluesve të krijojnë aplikacione mahnitëse që kuptojnë zërin, b.f. përkthyes të atypëratyshëm dhe asistentë dixhitalë që kontrollohen përmes zërit. Por sot për sot, shumica e të dhënave zanore të domosdoshme për të krijuar këto lloj aplikacionesh janë të shtrenjta dhe pronësore. Shpresojmë që grupi i të dhënave Common Voice t’u japë zhvilluesve çfarë u nevojitet për risi të këtij lloji dhe për ta bërë teknologjinë e të folurit të përdorshme në gjuhën e tyre.
     
-    To make voice recognition even more universal, we're collecting voice samples in widely spoken languages as well as those with a smaller population of speakers often underserved by commercial speech recognition services. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and entire speech communities to address this gap themselves.
+    Për ta bërë të kuptuarit e zërit edhe më universale, po grumbullojmë shembuj zërash në gjuhë të folura gjerësisht, si dhe prej atyre me popullatë më të pakët folësish, shpesh të lëna mënjanë nga shërbime komerciale të kuptuari të folure. Publikimi i një grupi të larmishëm të dhënash zërash do t’u japë zhvilluesve, sipërmarrësve dhe krejt bashkësive të të folurit fuqi për ta mbyllur vetë këtë hendek.
 faq-how-get-q = Si mund t'i marr të dhënat Common Voice?
 faq-how-get-a = Grupi i të dhënave Common Voice mund të shkarkohet nën licencën <licenseLink>CC0</licenseLink> te <datasetLink>faqja jonë  Grupe të Dhënash</datasetLink>. Prej të njëjtës faqe mund të shkarkoni edhe disa grupe të tjera të dhënash që mund të kihen publikisht.
 faq-when-release2-q = Kur do t’i hidhni në qarkullim të dhënat Common Voice në gjuhë të tjera?
@@ -392,7 +407,7 @@ faq-do-want-native-a = Po, e duam që ç’ke me të zërin tuaj! Pjesë e synim
 faq-why-different-speakers-q = Pse ju duhen kaq shumë folës të ndryshëm për gjuhë?
 faq-why-different-speakers-a =
     Shumica e bazave të të dhënave për të folurën përgatiten bazuar në një përfaqësim të tepruar të disa shtresave demografike, çka sjell anshmëri kah  <articleLink>meshkujt dhe klasa e mesme</articleLink>. Theksat dhe dialektet që priren të jenë të përfaqësuar më dobët në grupe të dhënash të përdorura për stërvitjen e aplikacioneve zakonisht kanë lidhje me grupe njerëzish që janë tashmë të lënë mënjanë. Plot makina e kanë gjithashtu të zorshme të kuptojnë zëra femërorë.
-    This is why in our voice database we want variety!
+    Kjo është arsyeja ose duam larmi në bazën tonë të të dhënave për zërat!
 faq-why-my-lang-q = Pse s’është përfshirë ende gjuha ime?
 faq-why-my-lang-new-a = Mozilla nuk zgjedh apo favorizon ndonjë gjuhë para një tjetre. Në vend të kësaj, Common Voice është një nismë e bazuar kthjellët mbi bashkësinë, por duhen përmbushur <multilangLink>disa hapa për të shtuar një gjuhë të re</multilangLink> dhe për të filluar grumbullim kontributesh zanore. Së pari, lypset të përkthehet sajti Common Voice, që anëtarët e bashkësisë të mund ta përdorin në gjuhën e tyre projektin. Më tej, na duhet një koleksion i madh frazash të lira nga të drejta kopjimi, që të mund të lexohen nga njerëzit. Pasi të jenë plotësuar që të dyja këto domosdoshmëri, gjuha “shtohet” te Common Voice që njerëzit të fillojnë të incizojnë zërin e tyre dhe të vleftësojnë kontributet nga të tjerët. Nëse doni të ndihmoni në shtimin e një gjuhe të re, shkoni te <sentenceCollectorLink>mjeti ynë për grumbullim frazash</sentenceCollectorLink> që t’ia filloni.
 faq-what-quality-q = Ç’shkallë cilësie audio është e domosdoshme që një copëz zanore të përdoret në grupin e të dhënave?
@@ -416,7 +431,7 @@ faq-what-determine-identity-q = Ç’do të thotë se s’mund të “përcaktoj
 faq-what-determine-identity-a =
     Grupi i të dhënave Common Voice është një burim i hapur dhe i përdorshëm publikisht, që mund të përdoret për të stërvitur një gamë të gjerë aplikacionesh që përdorin të folurën. Për të mbrojtur sigurinë e kontribuesve tanë,  i kërkojmë cilitdo që shkarkon grupin e të dhënave Common Voice të respektojë privatësinë e kontribuesve.
     
-    All voice clips in the dataset are scrubbed of personally identifying information.  When you download the dataset, you agree to not attempt  to determine  the identity of any contributor. That means you cannot try to link information in the dataset to a contributor’s personal information. You may, however, use the dataset to train speech recognition, speaker recognition, or other applications, by, for instance, linking information in the dataset to other information already in the dataset.
+    Krejt copëzat zanore në grupin e të dhënave pastrohen nga informacion që lejon identifikim personal.  Kur shkarkoni grupin e të dhënave, pajtoheni se nuk do të përpiqeni të identifikoni cilindo kontribues. Kjo do të thotë se nuk do të provoni të lidhni informacion te grupi i të dhënave me informacion personal të një kontribuesi. Mundeni, ama, ta përdorni grupin e të dhënave për të stërvitur të kuptuarit e të folurës, njohje folësi, ose aplikacione të tjera, përmes, për shembull, lidhje informacioni te grupi të dhënave me informacion tjetër tashmë të pranishëm te i njëjti grup të dhënash.
 faq-what-is-cv = Ç’është Common Voice?
 faq-using-cv = Si të përdoret Common Voice
 faq-description = Common Voice është pjesë e nismës së Mozilla-s për të ndihmuar që makinat të mësojnë se si flasin njerëzit realë.
@@ -430,8 +445,11 @@ about-subtitle = Common Voice është pjesë e nismës së Mozilla-s për të nd
 about-header-description =
     Që të dy këta projekte janë pjesë e përpjekjeve tona për të mbushur hendekun në të folurën digitale. Teknologjitë për kuptimin e të folurës sjellin një përmasë njerëzore te pajisjet tona, por për t’i krijuar ato zhvilluesve u duhen sasi të stërmëdha të dhënash zanore. Hëpërhë, shumica e këtyre të dhënave janë të shtrenjta dhe pronësore.
     Duam t’i bëjmë të dhënat zanore të përdorshme lirisht dhe publikisht, dhe të bëjmë të mundur që të dhënat përfaqësojnë larminë e njerëzve realë. Tok, mund ta bëjmë kuptimin e të folurës më të mirë për këdo.
+about-header-description-2 =
+    Ky projekt është një përpjekje për të mbushur hendekun në të folurën dixhitale. Teknologjitë për kuptimin e të folurës sjellin një përmasë njerëzore te pajisjet tona, por për t’i krijuar ato zhvilluesve u duhen sasi të stërmëdha të dhënash zanore. Hëpërhë, shumica e këtyre të dhënave janë të shtrenjta dhe pronësore.
+    Duam t’i bëjmë të dhënat zanore të përdorshme lirisht dhe publikisht, dhe të bëjmë të mundur që të dhënat përfaqësojnë larminë e njerëzve realë. Tok, mund ta bëjmë kuptimin e të folurës më të mirë për këdo.
 how-does-it-work-title = Si funksionon?
-how-does-it-work-text = Po krijojmë, me ndihmën e publikut, një grup të dhënash zanore me burim të hapur. Dhuroni zërin tuaj, vlerësoni përpikërinë e copëzave të regjistruara nga persona të tjerë, bëjeni grupin e të dhënave më të mirë për këdo.
+how-does-it-work-text = Po krijojmë, me ndihmën e publikut, një grup të dhënash zanore me burim të hapur. Dhuroni zërin tuaj, vlerësoni përpikërinë e copëzave të incizuara nga persona të tjerë, bëjeni grupin e të dhënave më të mirë për këdo.
 about-speak = Flisni
 about-speak-text = Kontribuesit incizojnë copëza zanore duke lexuar prej një fondi frazash të dhuruara.
 about-listen-queue = Radhë Dëgjimi
@@ -502,7 +520,7 @@ data-download-license = Licencë: <licenseLink>CC-0</licenseLink>
 data-download-modal = Ju ndan një hap nga fillimi i shkarkimit të <size>{ $size }GB</size>, të vazhdohet?
 data-subtitle = Po krijojmë një grup të dhënash zanore me burim të hapur dhe publike të cilat mund t’i përdorë gjithkush për stërvitje aplikacionesh që funksionojnë përmes të folurës.
 data-explanatory-text = Besojmë se grupe të mëdha dhe publike të dhënash zanore mbrujnë risi dhe konkurrencë të shëndetshme komerciale në fushën e teknologjisë së të folurit bazuar në mësimin e makinave. Kjo është një përpjekje mbarëbotërore dhe ftojmë këdo të marrë pjesë. Synimi ynë është të ndihmojmë teknologjinë të jetë më përfshirëse, duke pasqyruar larminë e zërave nga anembanë bota.
-data-get-started = <speechBlogLink>Hapat e Parë Në Njohjen e të Folurit</speechBlogLink>
+data-get-started = <speechBlogLink>Hapat e Parë Në të Kuptuarit e të Folurit</speechBlogLink>
 data-other-title = Grupe të tjerë të dhënash zanore…
 data-other-goto = Kalo te { $name }
 data-other-download = Shkarkoni Të dhëna
@@ -530,13 +548,13 @@ datasets-headline = Po krijojmë një grup të dhënash zanore me burim të hapu
 datasets-positioning =
     Besojmë se grupe të dhënash zanore të mëdha, të përdorshme publikisht do të nxisin risitë dhe konkurrencë të shëndetshme komerciale në fushën e teknologjisë së nxënies nga makinat me bazë të folurën.
     
-    Common Voice’s multi-language dataset is already the largest publicly available voice dataset of its kind, but it’s not the only one.
+    Grupi shumëgjuhësh i të dhënave të Common Voice-it është tashmë grupi i të dhënave zanore më i madh publik në botë i llojit të vet, por s’është i vetmi.
     
-    Look to this page as a reference hub for other open source voice datasets and, as Common Voice continues to grow, a home for our release updates.
+    Shiheni këtë faqe si  një referencë për grupe të tjera të dhënash zanore me burim të hapët dhe, teksa Common Voice vazhdon të fuqizohet,si një shtëpi për përditësime të hedhjeve tona në qarkullim.
 language = Gjuhë
 # File size in gigabytes
 size = Madhësi
-validated-hr-total = Orë të Vleftësuara Gjithsej
+validated-hr-total = Orë të Vlerësuara Gjithsej
 overall-hr-total = Orë Gjithsej
 cv-license = Licencë
 audio-format = Format Audio
@@ -544,7 +562,7 @@ number-of-voices = Numër Zërash
 splits = Ndarje
 email-to-download = Jepni Email-in për Shkarkim
 why-email = <b>Pse email?</b> Mund të na duhet të lidhemi me ju në të ardhmen rreth ndryshimesh në grupin e të dhënave, dhe email-i na jep një pikë kontakti.
-confirm-size = Jeni gati të nisnit një shkarkim prej <b>{ $size }</b>
+confirm-size = Jeni gati të nisni një shkarkim prej <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Pranoni</b> se nuk do të rrekeni të përcaktoni identitetin e folësve në grupin e të dhënave nga Common Voice
@@ -553,14 +571,16 @@ validated-hours = Orë Vleftësim
 recorded-hours = Orë Incizim
 whats-inside = Ç’përmban grupi i të dhënave Common Voice?
 dataset-description-hours = Çdo zë në grupin e të dhënave përbëhet nga një incizim MP3 unik dhe një kartelë tekst përkatëse. Shumë nga  <b>{ $total }</b>  orët e incizuara në grupin e të dhënave përfshijnë gjithashtu të dhëna demografike të tilla si mosha, gjinia, dhe theksi, të cilat mund të ndihmojnë në stërvitjen e përpikërisë së mekanizmave të të kuptuarit të të folurës.
-want-dataset-update = Dëshironi përditësime kur hedhin në qarkullim një version të ri të grupit të të dhënave Common Voice? Pajtohuni te buletini ynë.
+want-dataset-update = Dëshironi përditësime kur hedhim në qarkullim një version të ri të grupit të të dhënave Common Voice? Pajtohuni te buletini ynë.
 subscribe = Pajtohuni
 get-started-speech = Fillojani me Kuptimin e të Folurës
-other-datasets = Grupe të Tjera të Dhënash Zëri
+other-datasets = Grupe të Tjera të Dhënash Zzanore
 feedback-q = Keni Diçka Për të Thënë?
-deepspeech-info = Grupi i të dhënave Common Voice plotëson mekanizmin me burim të hapur të Mozilla-s për kuptimin e të folurës, Deep Speech, të cilin mund ta përdorni për të ndërtuar aplikacione që bazohen ose përdorin kuptimin e të folurës. Për të mësuar se si t’ia fillohet, lexoni <githubLink>përmbledhjen tonë në Github</githubLink> ose ejani te <discourseLink>DeepSpeech Discourse</discourseLink>.
-common-voice-info-new = Keni pyetje rreth Common Voice? Ide për përmirësime apo përshtypje rreth një gjuhe të dhënë? Merrni pjesë në <discourseLink>forumin tonë Discourse</discourseLink> dhe na i bëni të ditura.
-data-other-librispeech-description = LibriSpeech është një korpus i afërsisht 1000 orëve incizimesh në 16Khz leximi në anlgisht, rrjedhur prej leximi audiolibrash nga projekti LibriVox.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ është një <docsLink>grup mjetesh me burim të hapët</docsLink> për kërkues që merren me modele bisedash, në kuadër Inteligjence Artificiale, të fjalës së fundit.
+resource-deepspeech-info = Mekanizmi me burim të hapët i Mozilla-s për kuptimin e të folurës, Deep Speech, mund të përdoret për të ndërtuar aplikacione që bazohen ose përdorin kuptimin e të folurës. Për të mësuar se si t’ia fillohet, lexoni <githubLink>përmbledhjen tonë në Github</githubLink> ose ejani te <discourseLink>DeepSpeech Discourse</discourseLink>.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> i është përkushtuar teknologjisë me burim të hapët të së folurës. Projektet e tyre përfshijnë nxënie të thellë, bazuar në mekanizma STT dhe TTS.
+resource-playbook-info = <playbookLink>Gjeni drejtim të dobishëm</playbookLink> për krejt rrugën në Common Voice, nga përkthimi te përdorimi i grupit të të dhënave, si dhe në ç’rrugë të lidheni me bashkësinë tonë.
+data-other-librispeech-description = LibriSpeech është një korpus i afërsisht 1000 orëve incizimesh në 16Khz leximi në anglisht, rrjedhur prej leximi audiolibrash nga projekti LibriVox.
 data-other-ted-name = Korpusi TED-LIUM
 data-other-ted-description = Korpusi TED-LIUM është ndërtuar mbi bazën e bisedave dhe transkriptimit të tyre, të gatshme në sajtin TED.
 data-other-voxforge-description = VoxForge qe ndërtuar për të grumbulluar transkriptime të folurash për përdorim me Mekanizma të Lirë dhe Me Burim të Hapur Njohjeje të Foluri.
@@ -619,7 +639,7 @@ language-search-input =
 language-speakers = Folës
 localized = E përkthyer
 sentences = Fraza
-total-hours = Orë të vleftësuara
+total-hours = Orë të vlerësuara
 
 ## Contribution
 
@@ -643,7 +663,7 @@ contribute-more =
     }
 record-cta = Filloni incizimin
 record-platform-not-supported = Na ndjeni, por platforma juaj nuk mbulohet ende.
-record-platform-not-supported-desktop = Në kompjuter dekstop mund të shkarkoni versionin më të ri:
+record-platform-not-supported-desktop = Në kompjuter dekstop mund të shkarkoni versionin më të ri…
 record-platform-not-supported-ios-non-safari = Në iOS, ju lutemi, vazhdoni me Safari-n, që të aktivizohet incizimi…
 record-must-allow-microphone = Duhet të lejoni përdorimin e mikrofonit.
 record-no-mic-found = S’u gjet mikrofon.
@@ -727,11 +747,11 @@ validations =
 
 your-languages = Gjuhët Tuaja
 toward-next-goal = Drejt objektivit të ardhshëm
-goal-reached = U arrit synimi
+goal-reached = U arrit objektivi
 clips-you-recorded = Copëza Që Keni Incizuar
 clips-you-validated = Copëza Që Keni Vleftësuar
 todays-recorded-progress = Ecuria e sotme për copëza Common Voice të incizuara
-todays-validated-progress = Ecuria e sotme për copëza Common Voice të vleftësuara
+todays-validated-progress = Ecuria e sotme për copëza Common Voice të vlerësuara
 stats = Statistika
 awards = Çmime
 you = Ju
@@ -739,7 +759,7 @@ everyone = Kushdo
 contribution-activity = Veprimtari Kontributi
 top-contributors = Pjesëmarrësit Kryesues
 recorded-clips = Copëza të Incizuara
-validated-clips = Copëza të Vleftësuara
+validated-clips = Copëza të Vlerësuara
 total-approved = Të miratuara Gjithsej
 overall-accuracy = Saktësia Në Përgjithësi
 set-visibility = Cakto dukshmërinë time
@@ -751,8 +771,8 @@ show-ranking = Shfaq renditjen time
 
 get-started-goals = Filloni me objektiva
 create-custom-goal = Krijoni një Objektiv Vetjak
-goal-type = Ç’lloj synimi doni të krijoni?
-both-speak-and-listen = Të dyja
+goal-type = Ç’lloj objektivi doni të krijoni?
+both-speak-and-listen = Të dy
 both-speak-and-listen-long = Të dy (Folje dhe Dëgjim)
 daily-goal = Objektiv Ditor
 weekly-goal = Objektiv Javor
@@ -769,28 +789,28 @@ help-reach-hours-pluralized =
     Ndihmonani të arrijmë{ NUMBER($hours) ->
         [one] { $hours } orë
        *[other] { $hours } orë
-    }në { $language }, përmes një objektivi personal
+    } në { $language }, përmes një objektivi personal
 help-reach-hours-general-pluralized =
     Ndihmojeni Common Voice-in të arrijë{ NUMBER($hours) ->
         [one] { $hours } orë
        *[other] { $hours } orë
-    }për një gjuhë, përmes një objektivi personal.
+    } për një gjuhë, përmes një objektivi personal.
 set-a-goal = Caktoni një objektiv
 cant-decide = S’vendosni dot?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] { $totalHours } orë
        *[other] { $totalHours } orë
-    }mund të plotësohen në thjesht{ NUMBER($periodMonths) ->
+    } mund të plotësohen në thjesht{ NUMBER($periodMonths) ->
         [one] { $periodMonths } muaj
        *[other] { $periodMonths } muaj
-    }nëse{ NUMBER($people) ->
+    } nëse{ NUMBER($people) ->
         [one] { $people } person
        *[other] { $people } vetë
-    }incizojnë { NUMBER($clipsPerDay) ->
+    } incizojnë { NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } copë
        *[other] { $clipsPerDay } copa
-    }në ditë.
+    } në ditë.
 how-many-per-day = Bukur! Sa copëza në ditë?
 how-many-a-week = Bukur! Sa copëza në javë?
 which-goal-type = Doni të Flisni, të Dëgjoni apo të dyja bashkë?
@@ -803,7 +823,7 @@ n-clips-pluralized =
     }
 help-share-goal = Ndihmonani të gjejmë më shumë zëra, ndani me të tjerët objektivin tuaj
 confirm-goal = Ripohojeni Objektivin
-goal-interval-weekly = Përjavë
+goal-interval-weekly = Në javë
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Ndajeni me të tjerët Objektivin tuaj të { $count } Copëzash Në Ditë për { $type }
 # $type is one of share-goal-type-*
@@ -829,15 +849,46 @@ remove-info = Do ta shqyrtojmë kërkesën tuaj për heqjen nga grupi i të dhë
 why-delete-recordings =
     Incizimet Common Voice përdoren nga mësimdhënës, biznese të vogla, dhe amatorë të njohjes së të folurës për të ndihmuar të stërviten dhe të shtohen burime publike të tillë si modelet e zërit.
     
-    Can you let us know why you would like your recordings deleted?
+    A mund të na bëni me dije pse do të donit të fshihen incizimet tuaja?
 profile-form-delete = Fshini Profil
+
+## Profile Download
+
+download-q = Ju duhet të shkarkoni të dhënat tuaja?
+download-info = Tregonani ç’do të donit të shkarkonit:
+download-profile-title = Profil
+download-profile-info = Përfshin email, emër përdoruesi & hollësi demografike, i passhëm menjëherë
+download-profile-size = Ca thërrime
+download-recordings-title = Incizime
+download-recordings-info = Përfshin mp3-sha dhe fjalitë përkatëse, mund të duhet ca kohë për ta bërë gati
+download-recordings-size = Megabajte, zakonisht
+download-recordings-unavailable = S’mund të kërkoni incizimet tuaja teksa ka tashmë në ecuri e sipër një tjetër kërkesë.
+download-recently-requested = Mund të kërkoni marrje të re të incizimeve tuaja çdo { $days } ditë.
+download-size = Madhësi
+download-selected = I përzgjedhur
+download-start = Shkarko të dhëna profili
+download-request = Kërkoni incizime
+download-requests = Kërkesa të kaluara për shkarkim incizimesh
+download-requests-info = Kur kërkoni incizimet tuaja, i mbledhim tok në një ose disa kartela ZIP. Ja kërkesat tuaja të kaluara:
+download-request-button = Shkarkoji
+download-request-title = { $created }
+download-request-description = { $clipCount } fragmente zanore, madhësi gjithsej e arkivit { $size }. Skadon më { $expires }.
+download-request-archive-single = Kartelë ZIP njëshe që përmban
+download-request-archive-multiple = Ndaje në { $archiveCount } kartela ZIP që përmbajnë
+download-request-assembling-description = Kartelat tuaja po grumbullohen. Ju lutemi, kontrolloni më vonë.
+download-request-refresh-button = Rifreskoje
+download-request-modal-title = Lidhje Shkarkimi
+download-request-modal-description = Ja lidhjet për të shkarkuar kartelat tuaja ZIP.
+download-request-link-text = Zip #{ $offset } nga { $total } gjithsej
+download-request-metadata-link = Tekst fjalie
+download-request-link-single = Mund edhe të kopjoni dhe ngjitni URL-të e drejtpërdrejta në përgjegjësin tuaj të parapëlqyer për shkarkime. Do të skadojnë pas 12 orësh, por mund të riktheheni në çfarëdo kohe te kjo faqe për të prodhuar të reja.
 
 ## Landing
 
 welcome-staff = Mirë se vini, anëtar i { $company }!
 help-contribute = Mund të ndihmoni në ndërtimin e një grupi të dhënash të larmishëm, me burim të hapur, duke krijuar një profil te Common Voice dhe duke dhuruar zërin tuaj.
 login-company = Bëni Hyrjen / Regjistrohuni me email { $company }
-profile-not-required = Pasja e një profili s’është e domosdoshme për të kontribuar, por është e dobishme ama
+profile-not-required = Pasja e një profili s’është e domosdoshme për të kontribuar, por është e dobishme ama.
 read-more-about = Lexoni më tepër te faqja jonë Mbi
 
 ## DemoLayout
@@ -848,7 +899,7 @@ demo-welcome-subheader = Ju intereson të mësoni më tepër dhe të jepni ndihm
 
 ## Demo Datasets
 
-demo-language-select-card-header = Common Voice është grupi i të dhënave zanore më i madh në botë që mund të kihet publikisht.
+demo-language-select-card-header = Common Voice është grupi më i madh në botë i të dhënave zanore që mund të kihet publikisht.
 demo-language-select-card-body = Falë kontributeve prej më shumë se 259 mijë vetë në mbi 50 gjuhë, këto të dhëna po përdoren për të stërvitur aplikacione që funksionojnë përmes të folurës, për t’iu përgjigjur më mirë zërit njerëzor.
 card-button-next = Pasuesja
 card-button-back = Mbrapsht
@@ -875,3 +926,59 @@ demo-listen-subtitle = Gati për të dhënë ndihmesë?
 
 demo-dashboard-card-header = Pultet personale ju mbajnë të përditësuar me ecurinë individuale dhe të bashkësisë.
 demo-dashboard-card-body = Për çdo copëz zanore të incizuar, dhe çdo copëz zanore të vlerësuar, pultet e llogarive tuaja përditësohen për të pasqyruar ecurinë tuaj më të re në çdo gjuhë ku jepni ndihmesë. Po, mund të jepni ndihmesë në më shumë se një!<br/><br/> Përdorini pultet për të ndjekur statistikat tuaja, shihni se si po ecni, kundrejt të tjerëve në bashkësi, dhe caktoni objektiva ditore ose javore dhënieje ndihmese.
+
+## Validation criteria
+
+contribution-criteria-nav = Kritere
+contribution-criteria-link = Kuptoni kritere dhënie ndihmese
+contribution-criteria-page-title = Kritere Dhënie Ndihmese
+contribution-criteria-page-description = Kuptoni për çfarë të shihet, kur dëgjohen copëza zanore dhe ndihmoni të bëhen edhe incizimet tuaja zanore më të pasura!
+contribution-for-example = për shembull
+contribution-misreadings-title = Gabime leximi
+contribution-misreadings-description = Kur dëgjohet, kontrolloni me shumë kujdes që ajo çka është incizuar të jetë saktësisht ajo çka është shkruar; hidheni tej, edhe nëse ka gabime të vockla. <br />Në gabime shumë të rëndomta përfshihen:
+contribution-misreadings-description-extended-list-1 = Mungesë <strong>'A'</strong>-je, ose <strong>'The'</strong>-je në fillim të incizimit.
+contribution-misreadings-description-extended-list-2 = Mungesë e një <strong>'s'</strong>-je në fund të një fjale.
+contribution-misreadings-description-extended-list-3 = Prerje shkurt, që në fakt s’janë në tekst, bie fjala “We're”, në vend se “We are”, ose anasjelltas.
+contribution-misreadings-description-extended-list-4 = Mungesë e fundit të fjalës së fundit, nga ndërprerja shumë shpejt e incizimit.
+contribution-misreadings-description-extended-list-5 = Disa përpjekje për të lexuar një fjalë.
+contribution-misreadings-example-1-title = Dinozaurët gjigantë të Triasikut.
+contribution-misreadings-example-2-title = Dinozauri gjigant i Triasikut.
+contribution-misreadings-example-2-explanation = [Duhet të jetë ‘dinozaurët’]
+contribution-misreadings-example-3-title = Dinozaurët gjigantë të Triasi-.
+contribution-misreadings-example-3-explanation = [Incizim i ndërprerë para fundit të fjalës së fundit]
+contribution-misreadings-example-4-title = Dinozaurët gjigantë të Triasikut. Po.
+contribution-misreadings-example-4-explanation = [Incizuar më tepër se sa teksti i kërkuar]
+contribution-misreadings-example-5-title = Ne po dalim të pimë kafe.
+contribution-misreadings-example-6-title = Po dalim të pimë kafe.
+contribution-misreadings-example-6-explanation = [Duhet të jetë “Ne”]
+contribution-misreadings-example-7-title = Ne po dalim të pimë një kafe.
+contribution-misreadings-example-7-explanation = [S’ka ‘një’ te teksti origjinal]
+contribution-misreadings-example-8-title = Brumbulli kaloi me nxitim.
+contribution-misreadings-example-8-explanation = [Ngatërrim lënde]
+contribution-varying-pronunciations-title = Ndryshime Në Shqiptim
+contribution-varying-pronunciations-description = Jini i kujdesshëm me hedhjen poshtë të një copëze, me arsyen se lexuesi ka shqiptuar shtrembër një fjalë, e ka vënë theksin në vendin e gabuar, apo pse ka shpërfillur një pikëpyetje. Ka një larmi të madhe shqiptimesh në përdorim nëpër botë, disa prej të cilave mund të mos i keni dëgjuar në bashkësinë tuaj vendore. Ju lutemi, ofroni një grimë vlerësim për ata që mund të flasin ndryshe nga ju.
+contribution-varying-pronunciations-description-extended = Më anë tjetër, nëse mendoni se lexuesi mbase s’e ka hasur kurrë më parë fjalën dhe thjesht po bën për shqiptimin një hamendësim të pasaktë, ju lutemi, hidheni poshtë. Nëse s’jeni i sigurt, përdorni butonin e anashkalimit.
+contribution-varying-pronunciations-example-1-title = Në kokë mbante një beretë.
+contribution-varying-pronunciations-example-1-explanation = [“Beret” në anglisht është në rregull si me theksin te rrokja e parë (Britani e Madhe), ashtu edhe me theksin në të dytën (ShBA)]
+contribution-varying-pronunciations-example-2-title = His hand was rais-ed.
+contribution-varying-pronunciations-example-2-explanation = [‘Raised’ në anglisht shqiptohet përherë si një rrokje, jo dy]
+contribution-background-noise-title = Zhurmë Në Sfond
+contribution-background-noise-description = Duam që algoritmet e të nxënit nga makina të jenë në gjendje të trajtojnë një larmi zhurmash në sfond dhe mund të pranohet madje zhurmë relativisht e fortë, që nuk ju pengon të dëgjoni tekstin në tërësinë e vet. S’ka problem për muzikë të butë në sfond; por jo me muzikë aq të fortë sa t’ju pengojë të dëgjoni çdo fjalë.
+contribution-background-noise-description-extended = Nëse incizimi ndërpritet, ose ka kërcitje, hidheni poshtë, veç në qoftë se ende mund të dëgjohet teksti në tërësinë e vet.
+contribution-background-noise-example-1-fixed-title = <strong>[Teshtimë]</strong> Dinozaurët gjigantë të <strong>[kollitje]</strong> Triasikut.
+contribution-background-noise-example-2-fixed-title = The giant dino <strong>[kollitje]</strong> the Triassic.
+contribution-background-noise-example-2-explanation = [S’dëgjohet dot një pjesë e tekstit]
+contribution-background-noise-example-3-fixed-title = <strong>[Kërcitje]</strong> giant dinosaurs of <strong>[kërcitje]</strong> -riassic.
+contribution-background-voices-title = Zëra Në Sfond
+contribution-background-voices-description = Një gumëzhitje e butë në sfond është OK, por nuk duam zëra shtesë që mund ta bëjë algoritmin e makinës të identifikojë fjalë që nuk janë në tekstin e shkruar. Nëse mund të dëgjoni fjalë të qarta, veç atyre të tekstit, copëza duhet hedhur poshtë. Zakonisht kjo ndodh kur është lënë hapur televizori, ose kur diku aty afër zhvillohet një bisedë.
+contribution-background-voices-description-extended = Nëse incizimi ndërpritet, ose ka kërcitje, hidheni poshtë, veç në qoftë se ende mund të dëgjohet teksti në tërësinë e vet.
+contribution-background-voices-example-1-title = The giant dinosaurs of the Triassic. <strong>[lexuar nga një zë]</strong>
+contribution-background-voices-example-1-explanation = Are you coming? <strong>[thirrur nga një tjetër]</strong>
+contribution-volume-title = Volum
+contribution-volume-description = Mes lexuesve do të ketë variacione natyrore në volum. Hidheni poshtë vetëm nëse volumi është aq i lartë sa ndërpritet incizimi, ose (më rëndom) nëse është kaq i ulët sa nuk mund të dëgjoni ç’po thuhet, pa parë tekstin e shkruar.
+contribution-reader-effects-title = Efekte Lexuesi
+contribution-reader-effects-description = Shumica e incizimeve janë nga persona që flasin me zërin e tyre natyror. Mund të pranoni me raste incizime jo standarde, ku bërtitet, pëshpëritet ose, kuptueshëm, kryer nën një zë “dramatik”. Ju lutemi, hidhni poshtë incizime të kënduara dhe ato që përdorin një zë të krijuar nga kompjuteri.
+contribution-just-unsure-title = Thjesht i Pasigurt?
+contribution-just-unsure-description = Nëse ndeshni diçka që nuk e mbulojnë këto udhëzime, ju lutemi, votojeni në përputhje me gjykimin tuaj. Nëse vërtet s’vendosni dot, përdorni butonin e anashkalimit dhe ecni më tej me incizimin pasues.
+see-more = <chevron></chevron>Shihni më tepër
+see-less = <chevron></chevron>Shihni më pak

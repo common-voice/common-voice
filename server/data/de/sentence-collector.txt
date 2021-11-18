@@ -1642,6 +1642,7 @@ Auch bei Punks gab es viele "don't's" und "do's".
 Auch bei der Musikanlage handelte es sich um sehr altes Equipment.
 Auch bei diesem Thema gibt es durchaus Berührungspunkte.
 Auch bei feuchtem Wetter nicht.
+Auch beim Validieren der aufgenommenen Sätze können noch Fehler gemeldet werden.
 Auch dann nicht, wenn letzterer Probleme macht.
 Auch darf die Glasfaser nicht geknickt werden.
 Auch das "horizontale Gewerbe" hat starke Umsatzeinbrüche zu verzeichnen.
@@ -4595,6 +4596,7 @@ Das Mondlicht, das er mit seinen Schuppen einfängt, gibt dem Drachen Kraft.
 Das Motorrad war mit einer Faltgarage bedeckt.
 Das Motto der Fortbildung lautet Grundverständnis statt Unverständnis.
 Das Motto der achtziger Jahre war: Alles gut, alles geht und alles geil.
+Das Murena Fairphone drei plus gibt es ohne Google Dienste bei "eSolutions".
 Das Musical war aber toll heute Abend.
 Das Mädchen hatte sich einen Fächer aus Papier gebastelt und wedelte sich Luft zu.
 Das Mädchen hinter der Theke ist schuld!
@@ -5038,6 +5040,7 @@ Das ist Teamgeist!
 Das ist aber echt genial.
 Das ist aber ein organisatorisches und kein technisches Problem.
 Das ist aber ein schönes Geschenk für Christoph.
+Das ist aber infantiles Mädchen.
 Das ist aber kein Problem, denn die Gruben sind oft mehrere hundert Meter tief.
 Das ist aber keine Biomilch!
 Das ist aber nicht der Grund, weshalb Glasfaser schneller ist.
@@ -6455,6 +6458,7 @@ Der Geschäftsführer muss nie persönlich für seine Fehler einstehen.
 Der Geselle sucht den Meister.
 Der Gestank der Mülldeponie zog direkt in die kleine Siedlung.
 Der Giftzwerg ist mir zu toxisch mit seiner Bratpfanne.
+Der Glaser schmeißt die Scheiben ein, und er sagt da müßen neue rein!
 Der Glaube kann Berge versetzen.
 Der Gleichgewichtssinn sitzt im Innenohr.
 Der Gockel muss notgeschlachtet werden, denn ich habe Hunger.
@@ -8970,6 +8974,8 @@ Die vielen Patrouillen haben Sie vielleicht auch schon bemerkt.
 Die vielen Quellwolken lassen Aufwinde vermuten.
 Die vielen Schulbücher sind total unnötig.
 Die vielen schlechten Rezensionen kann ich nicht ganz nachvollziehen.
+Die vierte Coronawelle rollt.
+Die vierte Welle ist nun auch hier eingetroffen.
 Die vierte Welle kommt angerollt.
 Die vierzehn Wörter von Common Voice.
 Die volle Glaubens- und Gewissensfreiheit ist Jedermann gewährleistet.
@@ -9244,6 +9250,7 @@ Dieser Wasserkocher ist eine komplette Fehlkonstruktion.
 Dieser Weg soll nach Wilhelmshöhe führen.
 Dieser Weg war für dich vorherbestimmt.
 Dieser Winkel hängt von den Brechungsindizes der Faser und ihrer Umgebung ab.
+Dieser Winter wird hart für ungeimpfte Personen.
 Dieser hier ist dir persönlich gewidmet.
 Dieser junge Mann hier hat den Bullen des Fleisches wegen geschossen.
 Dieser neue Computer ist eine Workstation.
@@ -13867,6 +13874,9 @@ Haben ihre Bekannten schon ihre Stimme für Common Voice gespendet?
 Haben ihre Verwandten schon ihre Stimme für Common Voice gespendet?
 Haben sich Kameras in den vergangenen fünfzehn Jahren nicht weiterentwickelt?
 Haben sie auch Wasser in Mehrwegglasflaschen?
+Haben sie denn einen Termin?
+Haben sie einen Nachweis?
+Haben sie schon die "Corona-Booster" Injektion erhalten?
 Haben sie sich etwa unsittlich berührt?
 Haben und nicht geben ist in manchen Fällen schlimmer als stehlen.
 Haben wir Sandspielzeug dabei?
@@ -14527,6 +14537,7 @@ Heute muss man anerkennen, dass Karola ihrer Zeit einfach voraus war.
 Heute preise ich das Schicksal, dass ich in jenem Augenblick nicht fotografiert worden bin.
 Heute schon Alkoholikergeräusche wahrgenommen?
 Heute schon deine Sonnengruß-Routine gemacht?
+Heute schon ein paar Aufnahmen validiert?
 Heute schon geschaut?
 Heute schon hygienisch in die Landschaft gerotzt?
 Heute schon protestiert?
@@ -14556,6 +14567,7 @@ Heutzutage schreibt fast niemand mehr seine eigene Engine.
 Heutzutage sind Thermometer nicht mehr mit Quecksilber gefüllt.
 Heutzutage werden Computer ohne Diskettenlaufwerke ausgeliefert.
 Hey Bruder, hast du einmal eine Zigarette?
+Hey Common Voice, arbeitest du mit der "Central Intelligence Agency" zusammen?
 Hey Firefox, bring mir eine leckere Pizza.
 Hey Firefox, deaktiviere alle Add-ons.
 Hey Firefox, finde einen Mann für mich.
@@ -15654,6 +15666,7 @@ Ich habe mehrere attraktive Angebote vorliegen.
 Ich habe mehrmals in der Klinik angerufen, aber da geht keiner ran!
 Ich habe mein Buch vergessen.
 Ich habe meine Frau geheiratet, weil ich nicht wusste, wie ich Schluss machen sollte.
+Ich habe meinen Bruder mit seiner Frau sowie Tochter in Jena besucht.
 Ich habe meinen Dienstbeginn um drei Stunden nach hinten verschoben.
 Ich habe meinen Videorecorder erst kürzlich entsorgt.
 Ich habe meinen Wecker auf acht Uhr gestellt.
@@ -17884,6 +17897,7 @@ Ist der Vertrag wenigstens monatlich kündbar?
 Ist der größte Arbeitgeber Deutschlands eigentlich eine Sekte?
 Ist der neu?
 Ist die Adresse im Personalausweis noch aktuell?
+Ist die Anmeldung denn zu erreichen?
 Ist die Dame des Hauses zu sprechen?
 Ist die Decke zu niedrig, passen einige Möbel nicht in die Wohnung.
 Ist die Farbe entscheidend für den Geschmack?
@@ -17905,6 +17919,7 @@ Ist die Zivilpolizei immer so "unauffällig"?
 Ist die Zündung eingeschaltet?
 Ist die aber süß!
 Ist die denn natürlich, oder eher künstlich?
+Ist die telefonische Auskunft denn besetzt?
 Ist die von der Brücke gefallen?
 Ist dies dein erster Sprachkurs?
 Ist dies dein erster Streifen?
@@ -17913,6 +17928,7 @@ Ist dies echtes Parkett oder ein Imitat?
 Ist dies ein echtes Foto oder ein gerendertes Bild?
 Ist dies eine Meta-Frage?
 Ist dies teurer als das andere?
+Ist diese Adresse denn noch aktuell?
 Ist diese Art von Musik gerade angesagt?
 Ist dieses Spiel für Kinder geeignet?
 Ist dir das schon mal aufgefallen?
@@ -24047,7 +24063,9 @@ Rechts stehen, links gehen.
 Rechts und links davon befindet sich je eine kleinere Mädchenfigur.
 Rechtzeitig daran denken, dass die Feiertage vor der Tür stehen.
 Rede keinen Unsinn!
+Rede mit uns.
 Reden ist Silber, Schweigen ist Gold.
+Reden sie jetzt.
 Reden wir hier von den ganz dicken Fischen?
 Redet der immer so geschwollen?
 Redet ihr nicht miteinander?
@@ -24260,6 +24278,7 @@ Sag nicht, dass du sie attraktiv findest!
 Sag niemals später, irgendwann ist's zu spät.
 Sag schon, was ist drin?
 Sag, wer weiß denn heutzutage, was ich bald auf dem Kopfe trage?
+Sage die Wahrheit!
 Sage einmal an, was die Phase ist.
 Sage ich ja.
 Sage und schreibe elf Kilometer ist sie am Stück geschwommen.
@@ -25755,6 +25774,7 @@ Sind ja nur Steuergelder!
 Sind keine Briefe für mich angekommen?
 Sind noch andere Bäume in der Nähe, so muss genügend Abstand gewahrt werden.
 Sind sie auf dem rechten Auge blind?
+Sind sie geimpft, genesen oder getestet?
 Sind sie gut informiert?
 Sind so viele zu Hause?
 Sind von den Insassen welche eingeklemmt?
@@ -26507,6 +26527,7 @@ Sprechgesang kann durchaus Niveau haben.
 Sprechstationen für möglichst viele Interessierte sollen aufgestellt werden.
 Sprengt den Obelisken!
 Sprich mir nach!
+Sprich!
 Sprichst du Afghanisch?
 Spring zur Datei mit der Klassendefinition!
 Spräche jeder Impfling nach seiner Impfung einige Sätze ein, wären wir schnell am Ziel.
@@ -28751,6 +28772,7 @@ War wohl doch nichts.
 Ware wird nur originalverpackt zurückgenommen.
 Waren Sie schon einmal bei uns?
 Waren bis jetzt im Escape Room und gehen jetzt noch essen.
+Waren sie schon einmal hier?
 Warm-ups dienen als Icebreaker.
 Warme Luft steigt am Äquator auf.
 Warme Wolken sind Wolken, in denen nur flüssiges Wasser vorkommt.
@@ -32162,6 +32184,7 @@ Wo habe ich nur meine Geldbörse gelassen?
 Wo habe ich nur meinen Schlüsselbund liegen lassen?
 Wo habe ich schon wieder meinen Schlüssel gelassen?
 Wo haben Sie meine Stiefel hingestellt?
+Wo haben sie diese Fragetechnik gelernt?
 Wo haben wir angelegt?
 Wo habt ihr Balthasar denn schon wieder gelassen?
 Wo habt ihr meine Pillen versteckt?

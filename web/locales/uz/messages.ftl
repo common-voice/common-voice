@@ -78,6 +78,8 @@ hy-AM = Arman
 hyw = Gʻarbiy arman
 ia = Interlingua
 id = Indonez
+ie = Interlingue
+ig = Igbo
 is = Island
 it = Italyan
 izh = Izhor
@@ -86,6 +88,7 @@ ka = Gruzin
 kaa = Qoraqalpoq
 kab = Kabili
 kbd = Kabardino
+ki = Kikuyu
 kk = Qozoq
 kmr = Kurmanji Kurdish
 ko = Koreyscha
@@ -110,10 +113,13 @@ ms = Malay
 mt = Malta
 my = Birma
 myv = Erzyan
+nan-tw = Tayvanlik (Minnan)
 nb-NO = Norvegiya Bokmål
 ne-NP = Nepal
+nia = Nias
 nl = Golland
 nn-NO = Norvegiya Ninorsk
+nyn = Runyankole
 oc = Oksitan
 or = Odia
 pa-IN = Panjob
@@ -121,12 +127,14 @@ pap-AW = Papiamento (Aruba)
 pl = Polyak
 ps = Pushtu
 pt = Portugal
+quc = K'iche'
 rm-sursilv = Roman Sursilvan
 rm-vallader = Roman Vallader
 ro = Rumin
 ru = Rus
 rw = Ruanda
 sah = Yoqut
+sat = Santali (Ol Chiki)
 sc = Sardin
 scn = Sitsiliy
 shi = Shilha
@@ -143,9 +151,12 @@ ta = Tamil
 te = Telugu
 tg = Tojik
 th = Tay
+ti = Tigrinya
 tl = Tagal
 tr = Turk
 tt = Tatar
+tw = Tvi
+ty = Tahitian
 uby = Ubux
 udm = Udmurt
 ug = Uygʻur
@@ -155,6 +166,8 @@ uz = O‘zbek
 vec = Venetsiya
 vi = Vyetnam
 vot = Vot
+yi = Yiddish
+yo = Yoruba
 yue = Kanton
 zh-CN = Xitoy (Xitoy)
 zh-HK = Xitoy (Gongkong)
@@ -187,6 +200,7 @@ logout = Chiqish
 ## Home Page
 
 home-title = Common Voice – Mozillaga tegishli loyiha boʻlib, sun’iy ongga insonlar qanday gapirishini o‘rgatadi.
+default-tagline = Mozilla Common Voice – bu mashinalarga haqiqiy odamlar qanday gapirishni oʻrgatish tashabbusi.
 home-cta = Oʻqing va hissa qoʻshing!
 wall-of-text-start = Ovoz — tabiiy va insoniy. Sun’iy ongga mos ovoz texnologiyasini ishlab chiqish esa juda quvonarli. Lekin bunday tizimlarni tuzish uchun o‘ta katta hajmdagi ovozli ma’lumotlar kerak bo’ladi.
 wall-of-text-more-mobile = Katta korporatsiyalar foydalanadigan maʼlumotlardan koʻpchilik odamlar foydalana olmaydi. Bizning fikrimizcha, bu innovatsion taraqqiyotni sekinlashtiradi. Shuning uchun biz Common Voice loyihasini ishga tushirdik.  Bu loyiha ovozni tanish xizmatini hamma uchun ochiq boʻlishini taʼminlaydi.
@@ -201,7 +215,7 @@ vote-yes = Ha
 vote-no = Yoʻq
 toggle-play-tooltip = Ijro rejimiga oʻtish uchun { shortcut-play-toggle } ustiga bosing
 speak-subtitle = Ovozingizni hadya qiling
-speak-paragraph = Ovoz yozish bizning ma’lumot jamlanmalarimizning ajralmas qismidir. Hato ba’zilar bu jarayonni juda qiziq ham deyishadi.
+speak-paragraph = Ovoz yozib olish ochiq maʼlumotlar toʻplamini yaratishning ajralmas qismidir. Baʼzilar buni qiziqarli qismi deb aytishadi.
 speak-goal-text = Yozilgan kliplar
 listen-subtitle = Ovozlarni saralashga yordam bering
 listen-paragraph = Qoʻshilgan ovozlarni tekshirish – Common Voice loyihasi uchun juda muhim. Ovozlarni tinglang va sifatli ochiq manbali ovoz maʼlumotlarini yaratishda yordam bering.
@@ -280,6 +294,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Yozib olish/Toʻxtatish
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Klipni qayta yozish
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Joriy yozishni bekor qilish
 shortcut-submit = Joʻnatish
 shortcut-submit-label = Ovozni yuborish
 request-language-text = Common Voice loyihasida ona tilingizni koʻrmayapsizmi?
@@ -571,8 +587,6 @@ subscribe = Obuna boʻlish
 get-started-speech = Common Voiceʼni qanday qilib shaxsiy dasturlarda ishlatish mumkin?
 other-datasets = Boshqa ovoz ma’lumotlari to‘plamlari
 feedback-q = Fikr-mulohazalaringizni bildirasizmi?
-deepspeech-info = Umumiy ovozli ma'lumotlar bazasi Mozilla-ning ovozni aniqlash vositalarini Deep Speech-ning ovozini aniqlash dasturini to'ldirishda ishlatadi. Qanday boshlashni o'rganish uchun bizning <githubLink> Github haqida umumiy ma'lumot </githubLink> -ni o'qing yoki <discourseLink> DeepSpeech Disourse </discourseLink> -ga qo'shiling.
-common-voice-info-new = Common Voice haqida savollaringiz bormi? Yaxshilash uchun g'oyalar yoki ma'lum bir til haqida fikrlar? Bizning <discourseLink> Diskurs forumimiz </discourseLink> -ga qo'shiling va bizga xabar bering.
 data-other-librispeech-description = LibriSpeech – LibriVox loyihasidagi ingliz tilida 16Khz 1000 soat atrofida o‘qilgan audiokitoblar jamlanmasi.
 data-other-ted-name = TED-LIUM to‘plami
 data-other-ted-description = TED-LIUM to‘plami TED saytida mavjud bo‘lgan audio suhbatlar va ularning transkripsiyasidan iborat.
@@ -781,15 +795,15 @@ finish-editing = Dastlab, tahrirni tugatib olasizmi?
 lose-changes-warning = Hozir chiqsangiz, hech narsa saqlanmaydi
 build-custom-goal = Shaxsiy maqsadni yarating
 help-reach-hours-pluralized =
-    Shaxsiy maqsadni belgilash orqali { $language } da { $hours } soat ishlashga yordam bering{ NUMBER($hours) ->
-        [one] bir soat
-       *[other] ikki soat
+    Oldingizga shaxsiy maqsadlar qoʻyish orqali { $language } tilida { $hours } soatli kontent yaratishga yordam bering{ NUMBER($hours) ->
+        [one] soat
+       *[other] soat
     }
 help-reach-hours-general-pluralized =
-    Common Voiceʼga ushbu tilda{ NUMBER($hours) ->
+    Common Voiceʼga ushbu tilda { NUMBER($hours) ->
         [one] { $hours } soatli
        *[other] { $hours } soatli
-    }maʼlumot yigʻishga shaxsiy maqsadlaringiz orqali yordam bering.
+    } maʼlumot yigʻishga shaxsiy maqsadlaringiz orqali yordam bering.
 set-a-goal = Maqsad qo'ying
 cant-decide = Qaror berolmaysizmi?
 activity-needed-calculation-plural =
@@ -851,6 +865,26 @@ why-delete-recordings =
     Yozuvlaringizni nega o'chirib tashlashni xohlashingizni bizga xabar qila olasizmi?
 profile-form-delete = Profilni o‘chirish
 
+## Profile Download
+
+download-recordings-title = Yozuvlar
+download-recordings-info = Mp3 va unga aloqador boshqa soʻzlar mavjud. Tayyorlash biroz vaqt olishi mumkin.
+download-recordings-size = Odatda megabayt
+download-recordings-unavailable = Boshqa soʻrovingiz amalga oshirilayotganda yozuvlaringizni soʻray olmaysiz.
+download-recently-requested = Har { $days } kunda yozuvlaringizni oʻchirishni soʻrashingiz mumkin.
+download-size = Hajmi
+download-selected = Tanlandi
+download-start = Profil maʼlumotlarini yuklab olish
+download-request = Yozuvlarni soʻrash
+download-requests = Oldingi yozuvlarni yuklab olishni soʻrash
+download-requests-info = Yozuvlaringizni soʻrasangiz, biz ularni bir yoki bir nechta ZIP fayllarga birlashtiramiz. Bu yerda oldingi soʻrovlaringiz:
+download-request-button = Yuklab olish
+download-request-title = { $created }
+download-request-description = { $clipCount } ta ovoli lavha, jami arxiv hajmi: { $size }. Muddati tugaydi: { $expires }.
+download-request-archive-single = Bitta ZIP faylda quyidagilar boʻladi
+download-request-assembling-description = Fayllaringiz yigʻilmoqda. Keyinroq yana tekshiring.
+download-request-refresh-button = Yangilash
+
 ## Landing
 
 welcome-staff = Xush kelibsiz { $company } xodimlari!
@@ -894,3 +928,11 @@ demo-listen-subtitle = Hissa qoʻshishga tayyormisiz?
 
 demo-dashboard-card-header = Shaxsiy boshqaruv panellari sizni individual va jamoaning oʻsishi toʻgʻrisida xabardor qilib turadi.
 demo-dashboard-card-body = Xayriya qilingan va tasdiqlangan har bir audio tasma uchun akkauntingizdagi panellari boʻlimi yangilanadi, siz qo'shgan har bir tildagi so'nggi yutuqlaringizni koʻrsatadi. Ha, siz bir nechta tilga oʻz hissangizni qoʻshishingiz ham mumkin! <br/> <br/> Boshqaruv panelidan statistikangizni kuzatib borish, jamiyatdagilar bilan bir qatorda natijangizni koʻrish, kunlik yoki haftalik maqsadlarni belgilash uchun foydalaning.
+
+## Validation criteria
+
+contribution-for-example = masalan
+contribution-misreadings-title = Notoʻgʻri oʻqilgan
+contribution-misreadings-description = Tinglayotganda yozilgan matnning aynan yozib olingan ovoz bilan bir xilligini diqqat bilan tekshiring. Hatto kichik xatolar boʻlsa ham rad eting. <br />Juda keng tarqalgan xatolarga quyidagilar kiradi:
+contribution-misreadings-description-extended-list-1 = <strong>'A'</strong> harfi yoki audio yozuvning boshida <strong>'The'</strong> artikli qolib ketishi.
+contribution-misreadings-description-extended-list-2 = Soʻzning oxirida <strong>'s'</strong> qoʻshimchasi qolib ketishi.

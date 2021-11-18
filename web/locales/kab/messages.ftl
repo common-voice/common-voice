@@ -150,6 +150,7 @@ ta = Taṭamilit
 te = Tatelgut
 tg = Tatajikt
 th = Taṭaylant
+tig = Tatigrit
 tl = Tagalugt
 tr = Taṭurkit
 tt = Taṭaṭarit
@@ -862,6 +863,11 @@ profile-form-delete = Kkes amaɣnu
 
 ## Profile Download
 
+download-profile-title = Amaɣnu
+download-recordings-title = Iseklas
+download-size = Teɣzi
+download-request-button = Sider
+download-request-title = { $created }
 
 ## Landing
 
@@ -923,3 +929,6 @@ contribution-volume-title = Ableɣ
 contribution-just-unsure-title = Tkukraḍ?
 see-more = <chevron></chevron>Wali ugar
 see-less = <chevron></chevron>Wali drus
+
+# [/SentenceCollector]
+

@@ -152,6 +152,7 @@ te = Telugu
 tg = Tagico
 th = Tailandese
 ti = Tigrino
+Tig = Tigrè
 tl = Tagalog
 tr = Turco
 tt = Tataro

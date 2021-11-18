@@ -152,6 +152,7 @@ te = telugu
 tg = tadżycki
 th = tajski
 ti = tigrinia
+Tig = tigre
 tl = tagalski
 tr = turecki
 tt = tatarski

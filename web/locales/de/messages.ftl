@@ -106,6 +106,7 @@ mhr = Wiesenmari
 mk = Mazedonisch
 ml = Malayalam
 mn = Mongolisch
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Bergmari
@@ -152,6 +153,7 @@ te = Telugu
 tg = Tadschikisch
 th = Thailändisch
 ti = Tigrinya
+tig = Tigre
 tl = Tagalog
 tr = Türkisch
 tt = Tatarisch
@@ -1001,3 +1003,292 @@ contribution-just-unsure-title = Nur unsicher?
 contribution-just-unsure-description = Wenn Sie auf etwas stoßen, das diese Richtlinien nicht abdecken, stimmen Sie bitte nach bestem Wissen und Gewissen ab. Wenn Sie sich wirklich nicht entscheiden können, verwenden Sie die Überspringen-Schaltfläche und fahren Sie mit der nächsten Aufnahme fort.
 see-more = <chevron></chevron>Mehr anzeigen
 see-less = <chevron></chevron>Weniger anzeigen
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = Startseite
+sc-header-how-to = Anleitung
+sc-header-add = Hinzufügen
+sc-header-review = Bewertungen
+sc-header-rejected = Abgelehnte Sätze
+sc-header-my = Meine Sätze
+sc-header-statistics = Statistiken
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Fehler melden
+sc-footer-translate = Diese Seite übersetzen
+sc-footer-report-copyright = Urheberrechtsverletzung melden
+sc-footer-privacy = Datenschutz
+sc-footer-terms = Nutzungsbedingungen
+sc-footer-cookies = Cookies
+sc-login-signup-button = Anmelden / Registrieren
+sc-logout-button = Abmelden
+sc-home-title = Willkommen beim Common-Voice-Satzsammler
+sc-home-intro =
+    Der Satzsammler ist Teil von <commonVoiceLink>Common Voice</commonVoiceLink>.
+    Er ermöglicht Mitwirkenden, von der Gemeinschaft erstellte Sätze zu sammeln und zu validieren.
+    Sie können dieses Tool auch zum Importieren und Bereinigen kleiner bis mittlerer gemeinfreier Korpusse verwenden, die Sie gefunden oder gesammelt haben. Alle Sätze müssen gemeinfrei sein.
+    Genehmigte Sätze werden jede Woche in das Common-Voice-Repository exportiert und auf der Common-Voice-Website mit jeder neuen Version freigegeben.
+sc-home-collect-title = Sätze sammeln
+sc-home-collect-text = Helfen Sie uns, indem Sie gemeinfreie Sätze schreiben oder sammeln.
+sc-home-review-title = Sätze überprüfen
+sc-home-review-text = Helfen Sie uns, indem Sie Sätze gemäß den Richtlinien auf Richtigkeit überprüfen.
+sc-howto-title = Anleitung
+sc-howto-addlang-title = Sprachen hinzufügen, mit denen gearbeitet wird
+sc-howto-addlang-text = Sobald Sie angemeldet sind, können Sie Ihre Sprachen im Abschnitt Profil auswählen.
+sc-howto-addsen-title = Neue Sätze hinzufügen
+sc-howto-addsen-item-1 =
+    Alle Sätze, die Sie einreichen, müssen unter der <wikipediaLink>Public Domain (CC-0)-Lizenz</wikipediaLink> stehen.
+    Um die Aufnahme von Arbeiten zu unterstützen, die nicht unter öffentlicher Lizenz stehen, haben wir eine
+    <cc0WaiverLink>Vorlage für Beiträge</cc0WaiverLink> für Werke erstellt, bei denen der Urheberrechtsinhaber sein Material zu Common Voice beitragen möchte.
+sc-howto-addsen-item-2 =
+    Zahlen. Der Quelltext sollte keine Ziffern enthalten, da diese Probleme verursachen können, wenn sie laut vorgelesen werden. Die Art und Weise, wie eine Zahl gelesen wird, hängt vom Kontext ab und kann zu Verwirrung im Datensatz führen.
+    Zum Beispiel könnte die Zahl „2409“ sowohl als „vierundzwanzig null neun“ als auch als „zweitausendvierhundertneun“ gelesen werden.
+sc-howto-addsen-item-3 =
+    Abkürzungen und Akronyme. Abkürzungen und Akronyme wie „USA“ oder „ICE“
+    sollten im Quelltext vermieden werden, da sie möglicherweise nicht mit ihrer Schreibweise übereinstimmen.
+    Darüber hinaus kann es mehrere genaue Leseformen für eine einzelne Abkürzung geben.
+    Zum Beispiel könnte das Akronym „ICE“ als „I-C-E“ oder als einzelnes Wort ausgesprochen werden.
+sc-howto-addsen-item-4 =
+    Interpunktion. Sonderzeichen und Satzzeichen sollten nur enthalten sein
+    wenn es unbedingt notwendig ist. Zum Beispiel ist ein Apostroph in englischen Wörtern wie 
+    „don’t“ und „we’re“ enthalten und sollte in den Quelltext aufgenommen werden, aber es ist unwahrscheinlich, dass Sie jemals ein Sonderzeichen wie „@“ oder „#“ benötigen.
+sc-howto-addsen-item-5 =
+    Ausländische Buchstaben. Die Buchstaben müssen in der Sprache gültig sein, in der sie gesprochen werden.
+    Zum Beispiel ist „ж“ ein Buchstabe im russischen Alphabet, wird aber nie auf Englisch verwendet und sollte es auch in keinem englischen Quelltext verwendet werden.
+sc-howto-addsen-item-6 =
+    Sprachen können ihre <validationRulesLink>eigenen Validierungsregeln</validationRulesLink>  
+    mit zusätzlichen Anforderungen haben. Wenn für eine Sprache keine spezifische Validierungsdatei vorhanden ist, verwenden wir die allgemeinen englischen Regeln.
+sc-howto-addsen-post-1 =
+    Wir bevorzugen natürliche/Konversationssätze.
+    Während phonetische Vielfalt und unterschiedliche Wörter in Sätzen wichtig sind, versuchen wir,
+    soll das Aufnehmen von Sätzen möglichst viel Spaß machen. Daher wäre es toll, wenn Sie versuchen könnten, Ihre Sätze möglichst natürlich/interessant zu halten.
+sc-howto-cite-title = Zitieren
+sc-howto-cite-pre-1 =
+    Es ist wichtig, dass Sie angeben, wo Sie die öffentliche Lizenz gefunden haben
+    um Plagiate zu vermeiden und Folgemaßnahmen zu <copyrightIssuesLink>Urheberrechtsproblemen</copyrightIssuesLink> zu ermöglichen.
+    Hier sind einige Möglichkeiten, wie Sie die Arbeit zitieren können.
+sc-howto-cite-item-1 = Sie könnten die Website angeben, z.&thinsp;B. „Common Voice – https://commonvoice.mozilla.org/“
+sc-howto-cite-item-2 =
+    Sie könnten den akademischen Zitierstil verwenden, z.B. den Harvard-Style
+    „Mozilla (2021) Common Voice. Abrufbar unter https://commonvoice.mozilla.org/ (Zugriff: 15. September 2021)“
+sc-howto-cite-item-3 =
+    Für Texte unter öffentlicher Lizenz, die nicht online verfügbar sind, können Sie den akademischen Zitierstil verwenden
+    z.&thinsp;B. Hardvard-Style „Jess (2021) Meine gemeinfreien Gedichte“
+sc-howto-review-title = Sätze überprüfen
+sc-howto-review-subtitle = Stellen Sie sicher, dass der Satz die folgenden Kriterien erfüllt:
+sc-howto-review-criteria-1 = Der Satz muss richtig geschrieben sein.
+sc-howto-review-criteria-2 = Der Satz muss grammatikalisch korrekt sein.
+sc-howto-review-criteria-3 = Der Satz muss aussprechbar sein.
+sc-howto-review-criteria-4 = Wenn der Satz die Kriterien erfüllt, klicken Sie auf die Schaltfläche "Genehmigen".
+sc-howto-review-criteria-5 =
+    Wenn der Satz die oben genannten Kriterien nicht erfüllt, klicken Sie auf die Schaltfläche „Ablehnen“.
+    Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
+sc-howto-review-criteria-6 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
+sc-howto-findpd-title = Gemeinfreie Sätze finden
+sc-howto-findpd-subtitle = Suchen Sie im Internet danach
+sc-howto-findpd-text =
+    Denken Sie daran, dass wir die Erlaubnis benötigen, diese Sätze zu veröffentlichen,
+    stellen Sie also immer sicher, dass der Text zur <wikipediaLink>Public Domain</wikipediaLink> gehört. Wenn kein Hinweis vorhanden ist,
+    Wenden Sie sich an die Person, der der Text gehört, und fragen Sie, ob Sie ihren Text verwenden können.
+sc-howto-findpd-tips = Hier sind einige Tipps zum Finden von Sätzen:
+sc-howto-findpd-tips-1 =
+    Die besten Quellen, die Sie suchen können, sind Podcasts, Transkripte, Filmskripts und
+    alles, was Potenzial womöglich alltägliche Gespräche enthalten kann.
+sc-howto-findpd-tips-2 =
+    Regierungsverfahren, Bücher und Artikel sind aber auch hervorragend, da
+    diese Text ist aber eher formaler sind, sie sind weniger wichtig.
+sc-howto-findpd-tips-3 = Leider können wir noch keine Wikimedia-Artikel haben. Kopieren Sie also keine Artikel von dort.
+sc-howto-findpd-subtitle-2 = Arbeiten Sie mit lokalen Organisationen oder Einzelpersonen zusammen
+sc-howto-findpd-partner-1 =
+    Es gibt viele öffentliche Organisationen, die möglicherweise mit Ihnen zusammenarbeiten möchten
+    und die bereits viele Texte haben, die sie als gemeinfreie Inhalte spenden können. Wenden Sie sich an lokale Universitäten,
+    Regierungen und Open-Source-Organisationen, sprechen Sie über das Projekt und bitten Sie um ihre Hilfe.
+sc-howto-findpd-partner-2 =
+    Erfahrene Linguisten können auch helfen; versuchen Sie, linguistische
+    Universitäten (sowohl Lehrende als auch Studierende) in der Nähe zu erreichen und sehen Sie, ob sie helfen können, ein vielfältiges Angebot an
+    klangverschiedenen Sätze in Ihrer Sprache zu sammeln.
+sc-my-title = Meine Sätze
+sc-my-description =
+    Auf dieser Seite erhalten Sie einen Überblick über alle Ihre eingereichten Sätze.
+    Sie können bei Bedarf auch bereits gesendete Sätze löschen, indem Sie das Kontrollkästchen daneben markieren
+    und auf „Ausgewählte Sätze löschen“ darunter klicken.
+    Bitte entfernen Sie Sätze nur, wenn es unbedingt notwendig ist,
+    zum Beispiel, wenn Sie nachträglich bemerkt haben, dass ein Satz urheberrechtlich geschützt ist.
+sc-my-loading = Ihre Sätze werden geladen…
+sc-my-err-fetching = Fehler beim Abrufen der Sätze. Bitte versuchen Sie es erneut.
+sc-my-no-sentences = Keine Sätze gefunden!
+sc-my-submission = Einreichung: { $batchId }
+sc-my-source = Quelle: { $source }
+sc-my-delete = Ausgewählte Sätze löschen
+sc-my-deleting = Ausgewählte Sätze werden gelöscht…
+sc-my-err-failed-delete = Ausgewählte Sätze konnten nicht gelöscht werden... Bitte versuchen Sie es erneut!
+sc-profile-title = Profil: { $username }
+sc-rejected-title = Abgelehnte Sätze
+sc-rejected-loading = Abgelehnte Sätze werden geladen…
+sc-rejected-err-fetching = Fehler beim Abrufen der abgelehnten Sätze. Bitte versuchen Sie es erneut.
+sc-rejected-none-found = Keine abgelehnten Sätze gefunden!
+sc-review-lang-not-selected =
+    Sie haben keine Sprachen ausgewählt. Bitte öffnen Sie Ihr
+    <profileLink>Profil</profileLink>, um Sprachen auszuwählen.
+sc-review-title = Sätze überprüfen
+sc-review-loading = Sätze werden geladen...
+sc-review-select-language = Bitte wählen Sie eine Sprache aus, um Sätze zu überprüfen.
+sc-review-no-sentences =
+    Keine Sätze zu überprüfen.
+    <addLink>Fügen Sie jetzt weitere Sätze hinzu!</addLink>
+sc-stats-title = Statistiken
+sc-stats-last-update = Letzte Aktualisierung: { $lastUpdate }
+sc-stats-last-update-never = Letzte Aktualisierung: Nie
+sc-stats-updating = Wird aktualisiert…
+sc-stats-summary =
+    Der Common-Voice-Satz-Sammler hat
+    { $satzCount } Sätze in { $languageCount } Sprachen gesammelt!
+sc-submit-err-select-lang = Bitte wählen Sie eine Sprache aus.
+sc-submit-err-add-sentences = Bitte fügen Sie Sätze hinzu.
+sc-submit-err-add-source = Bitte fügen Sie eine Quelle hinzu.
+sc-submit-err-confirm-pd = Bitte bestätigen Sie, dass diese Sätze gemeinfrei sind.
+sc-submit-prompt =
+    .message = Sätze wurden nicht gesendet. Möchten Sie wirklich gehen?
+sc-submit-title = Sätze hinzufügen
+sc-submit-select-language =
+    .labelText = Sprache wählen
+sc-submit-add-sentences = <wikipediaLink>Gemeinfreie</wikipediaLink> Sätze hinzufügen
+sc-submit-ph-one-per-line =
+    .placeholder = Ein Satz pro Zeile
+sc-submit-from-where = Woher stammen die <wikipediaLink>gemeinfreien</wikipediaLink> Sätze?
+sc-submit-ph-read-how-to =
+    .placeholder = Lesen Sie unsere Anleitung, wenn Sie sich nicht sicher sind, wie Sie sie zuordnen sollen
+sc-submit-confirm =
+    Ich bestätige, dass diese Sätze <wikipediaLink>gemeinfrei</wikipediaLink> sind und
+    ich die Erlaubnis habe, sie hochzuladen.
+sc-submit-button =
+    .submitText = Absenden
+sc-submit-filtered = Gefilterte Sätze aufgrund fehlender Anforderungen (bitte feste Versionen als neue Sätze einreichen):
+sc-submit-guidelines = Bitte überprüfen Sie die <howToLink>Richtlinien</howToLink>.
+sc-add-lang-could-not-add = Sprache konnte nicht hinzugefügt werden
+sc-add-lang-sec-label = Fügen Sie eine Sprache hinzu, zu der Sie beitragen möchten
+sc-add-lang-sec-button = Sprache hinzufügen
+sc-add-err-unexpected = Unerwartete Antwort vom Server zurückgegeben
+sc-add-result =
+    { $duplicates ->
+        [0] Übermittelte Sätze. { $duplicates } Sätze wurden als Duplikate zurückgewiesen.
+        [one] Übermittelte Sätze. { $duplicates } Satz wurden als Duplikat zurückgewiesen.
+       *[other] Übermittelte Sätze. { $duplicates } Sätze wurden als Duplikate zurückgewiesen.
+    }
+sc-add-err-failed =
+    { $sentences ->
+        [0] Kein Satz fehlgeschlagen
+        [one] Ein Satz fehlgeschlagen
+       *[other] { $sentences } Sätze fehlgeschlagen
+    }
+sc-add-err-submission = Übermittlungsfehler
+sc-confirm-are-you-sure =
+    .message = Sätze wurden nicht gesendet. Möchten Sie wirklich gehen?
+sc-confirm-sentences-title = Neue Sätze bestätigen
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Keine Sätze gefunden.
+        [one] Ein Satz gefunden.
+       *[other] { $countOfSentences } Sätze gefunden.
+    }
+sc-confirm-rejected-by-you = { $countOfInvalidated } wurde von Ihnen abgelehnt
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Bisher wurden keine Sätze überprüft.
+        [one] Bisher wurde ein Satz überprüft.
+       *[other] Bisher wurden { $countOfReviewed } Sätze überprüft. Gut gemacht!
+    }
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Kein Satz bereit zur Übermittlung!
+        [one] Ein Satz bereit zur Übermittlung!
+       *[other] { $readyCount } Sätze bereit zur Übermittlung!
+    }
+sc-confirm-unreviewed =
+    { $countOfUnreviewed } Sätze wurden noch nicht überprüft.
+    Wenn Sie möchten, können Sie Ihre Sätze jetzt auch noch einmal überprüfen, bevor Sie sie absenden.
+sc-confirm-button-text = Bestätigen
+sc-confirm-uploading = Sätze werden hochgeladen. Dies kann je nach Anzahl der hinzugefügten Sätze mehrere Minuten dauern. Bitte schließen Sie diese Website nicht.
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Null vollständige insgesamt.
+        [one] Ein vollständiger Satz.
+       *[other] { $totalSentences } vollständige Sätze.
+    }
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Kein Sätze warten auf Überprüfung.
+        [one] Ein Satz wartet auf Überprüfung.
+       *[other] { $totalInReview } Sätze warten auf Überprüfung.
+    }
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Keine Sätze mehr zu überprüfen.
+        [one] Noch ein Satz zu überprüfen.
+       *[other] Noch { $unreviewedSentencesByYou } Sätze zu überprüfen.
+    }
+sc-lang-info-review-now = <reviewLink>Jetzt überprüfen!</reviewLink>
+sc-lang-info-add-more = <addLink>Fügen Sie jetzt weitere Sätze hinzu!</addLink>
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Keine validierten Sätze.
+        [one] Ein validierter Satz.
+       *[other] { $validatedSentences } validierte Sätze.
+    }
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Keine abgelehnten Sätze.
+        [one] Ein abgelehnter Satz.
+       *[other] { $rejectedSentences } abgelehnten Sätze.
+    }
+sc-login-err-failed = Anmeldung fehlgeschlagen
+sc-login-err-try-again = Bitte versuchen Sie es erneut.
+sc-personal-err-lang-not-found = Sprache konnte nicht entfernt werden: Sprache nicht gefunden
+sc-personal-err-remove = Sprache konnte nicht entfernt werden
+sc-personal-your-languages = Ihre Sprachen:
+sc-personal-remove-button = Entfernen
+sc-personal-added-by-you = { $sentences } von Ihnen hinzugefügt
+sc-personal-not-added = Sie haben noch keine Sprachen hinzugefügt.
+sc-criteria-modal = ⓘ Überprüfungskriterien
+sc-criteria-title = Überprüfungskriterien
+sc-criteria-make-sure = Stellen Sie sicher, dass der Satz die folgenden Kriterien erfüllt:
+sc-criteria-item-1 = Der Satz muss richtig geschrieben sein.
+sc-criteria-item-2 = Der Satz muss grammatikalisch korrekt sein.
+sc-criteria-item-3 = Der Satz muss aussprechbar sein.
+sc-criteria-item-4 = Wenn der Satz die Kriterien erfüllt, klicken Sie auf die Schaltfläche „Genehmigen“ auf der rechten Seite.
+sc-criteria-item-5 =
+    Wenn der Satz die oben genannten Kriterien nicht erfüllt, klicken Sie auf die Schaltfläche „Ablehnen“.
+    Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
+sc-criteria-item-6 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
+sc-review-form-prompt =
+    .message = Überprüfte Sätze nicht eingereicht, sind Sie sicher?
+sc-review-form-usage =
+    Wischen Sie nach rechts, um den Satz zu genehmigen. Wischen Sie nach links, um ihn abzulehnen.
+    Wischen Sie nach oben, um ihn zu überspringen. <strong>Vergessen Sie nicht, Ihre Bewertung zu übermitteln!</strong>
+sc-review-form-source = Quelle: { $sentenceSource }
+sc-review-form-button-reject = Ablehnen
+sc-review-form-button-skip = Überspringen
+sc-review-form-button-approve = Genehmigen
+sc-review-form-keyboard-usage = Sie können auch Tastenkombinationen verwenden: Y zum Genehmigen, N zum Ablehnen, S zum Überspringen
+sc-review-form-button-submit =
+    .submitText = Bewertung abschließen
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Keine Sätze überprüft.
+        [one] Ein Satz überprüft. Vielen Dank!
+       *[other] { $sentences } Sätze überprüft. Vielen Dank!
+    }
+sc-review-form-review-failure = Bewertung konnte nicht gespeichert werden. Bitte versuchen Sie es später erneut.
+sc-review-link = Bewertungen
+sc-settings-title = Einstellungen
+sc-settings-reset-skipped = Übersprungene Sätze zurücksetzen
+sc-settings-skipped-decription =
+    Sie haben Sätze beim Überprüfen zuvor übersprungen.
+    Das Zurücksetzen übersprungener Sätze wird alle übersprungenen Sätze wieder zeigen.
+    Das ist unabhängig von der Sprache.
+sc-settings-show-all-button = Alle übersprungenen Sätze wieder anzeigen
+sc-settings-failed = Einstellungen konnten nicht geändert werden. Bitte versuchen Sie es erneut.
+
+# [/SentenceCollector]
+

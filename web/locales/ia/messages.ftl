@@ -106,6 +106,7 @@ mhr = Mari oriental
 mk = Macedone
 ml = Malayalam
 mn = Mongol
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Mari occidental
@@ -152,6 +153,7 @@ te = Telugu
 tg = Tajik
 th = Thai
 ti = Tigrinya
+tig = Tigre
 tl = Tagalog
 tr = Turco
 tt = Tataro
@@ -997,3 +999,57 @@ contribution-just-unsure-title = Justo insecur?
 contribution-just-unsure-description = Si tu ha incontrate qualcosa que iste lineas guida non coperi, per favor vota in accordo a tu melior judicio. Si tu realmente non pote decider, usa le button saltar e va al sequente registration.
 see-more = <chevron></chevron>Vider plus
 see-less = <chevron></chevron>Vider minus
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+sc-header-home = Initio
+sc-header-how-to = Guidas
+sc-header-add = Adder
+sc-header-review = Revider
+sc-header-rejected = Phrases rejectate
+sc-header-my = Mi phrases
+sc-header-statistics = Statistica
+sc-header-profile = Profilo
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Reportar defectos
+sc-footer-translate = Traducer iste pagina
+sc-footer-report-copyright = Reporto problemas de derectos de autor
+sc-footer-privacy = Confidentialitate
+sc-footer-terms = Terminos
+sc-footer-cookies = Cookies
+sc-login-signup-button = Aperir session / Inscriber se
+sc-logout-button = Clauder le session
+sc-home-title = Benvenite in le Collector de phrases de Common Voice
+sc-home-intro =
+    Le Collector de phrases es parte de <commonVoiceLink>Common Voice</commonVoiceLink>.
+    Illo permitte a collaboratores de colliger e validar phrases create per le communitate.
+    Tu pote usar iste instrumento alsi pro importar e nettar corpus de dominio public de dimensiones micre o
+    medie que tu trovava o colligeva. Tote phrases debe esser esser de public dominio.
+    Le phrases approbate es exportate cata septimana al repositorio de Common Voice e es publicate
+    super le sito web de Common Voice, cata nove distribution.
+sc-home-collect-title = Colliger phrases
+sc-home-collect-text = Adjuta nos a scriber o colliger Phrases de dominio public.
+sc-home-review-title = Revider phrases
+sc-home-review-text = Adjuta nos per revider phrases pro correctessa secundo le lineas guida.
+sc-howto-title = Guidas
+sc-howto-addlang-title = Addition de linguas a laborar
+sc-howto-addlang-text = Un vice connexe, tu pote eliger tu linguas ab le section profilo.
+sc-howto-addsen-title = Adder nove phrases
+sc-howto-addsen-item-1 =
+    Tote le phrases que tu invia debe esser de <wikipediaLink> licentia Dominio public (CC-0)</wikipediaLink>.
+    Pro supportar le inclusion de labor non sub licentia public, nos ha create un
+    <cc0WaiverLink>modello de accordo de collaborationes</cc0WaiverLink> pro functionar ubi le proprietario de derectos de autor 
+    desirarea contribuer le material a Common Voice.
+sc-howto-addsen-item-2 =
+    Numeros.. Il non debe haber ulle digitos in le texto fonte perque illos pote causar problemas.
+    quando on lege in alte voce. Le maniera que un numero es legite depende del contexto e pote introducer confusion in le collection de datos.
+    Per exemplo, le numero “2409” pote esser correctemente legite como ambe “vinti-quatro zero nove” e
+    “duo milles quatro cento nove”.
+sc-howto-addsen-item-3 =
+    Abbreviationes eAcronymos. Abbreviationes e acronymos como “USA” o “ICE” 
+    debe esser evitate in le texto fonte perque illos pote esser legite in un maniera que non coincide con lor orthographia.
+    In addition, on pote haber plure accurate lecturas pro un singule abbreviation.
+    Per exemplo, le acronymo “ICE” pote esser pronunciate “I-C-E” o como singule parola.
+
+# [/SentenceCollector]
+

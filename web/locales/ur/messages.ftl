@@ -78,6 +78,8 @@ hy-AM = آرمينيائى
 hyw = آرمینیائی مغربی
 ia = انٹرلنگوا
 id = ‏‏انڈونیشین
+ie = انٹرلنگوا
+ig = اگبو
 is = آئس لينڈى
 it = اطالوی
 izh = ایزورین
@@ -86,6 +88,7 @@ ka = جارجيائى
 kaa = کراکلپاک
 kab = کیبل
 kbd = کبارڈین
+ki = کیکویو
 kk = کازخ
 kmr = کرمانجی کرد
 ko = کوریائِی
@@ -110,10 +113,13 @@ ms = ملئے
 mt = مالٹیائی
 my = برمی
 myv = ایرزیا
+nan-tw = تائیوانی (منان)
 nb-NO = نارویجین بوکمل
 ne-NP = نیپالی
+nia = نیاس
 nl = ڈچ
 nn-NO = نورویجیئن نینورسک
+nyn = رنیانکول
 oc = آكسيٹان
 or = اوڈیا
 pa-IN = پنجابی
@@ -127,6 +133,7 @@ ro = پیش قدمی
 ru = روسی
 rw = كنیاروندا
 sah = سکھا
+sat = سنتالی (اول چکی)
 sc = سارڈینی
 scn = سسلین
 shi = شلحہ
@@ -143,9 +150,13 @@ ta = تامل
 te = تلگو
 tg = تاجک
 th = تھائى
+ti = ٹيگرنيا
+Tig = ٹیگرے
 tl = ٹیگا لوگ
 tr = ترک
 tt = ‏‏طاطاری
+tw = توی
+ty = تہیشیائی
 uby = اوبیخ
 udm = اڈمورٹ
 ug = ایغور
@@ -155,6 +166,8 @@ uz = ازبک
 vec = وینشین
 vi = ویتنامی
 vot = ووٹک
+yi = یدش
+yo = یوروبا
 yue = کینٹونی
 zh-CN = چینی (چین)
 zh-HK = چینی (ہانگ کانگ)
@@ -289,6 +302,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = ریکارڈ/روکیں
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = تراشہ دوبارہ ریکارڈ کریں
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ کو مسترد کریں۔
 shortcut-submit = واپس
 shortcut-submit-label = تراشے جمع کرائیں
 request-language-text = اب تک Common Voice پر اپنی زبان نہیں دیکھ رہے ہیں؟
@@ -371,6 +386,7 @@ connect-gravatar = Gravatar کے ساتھ مربوط ہوں
 gravatar_not_found = آپ کے ای میل کے لئے کوئی Gravatar نہیں ملا
 file_too_large = منتخب کی گئی فائل بہت بڑی ہے۔
 avatar-uploaded = اوتار اپ لوڈ ہوگیا
+max-file-size = { $kb }kb زیادہ سے زیادہ
 
 ## Profile - Email
 
@@ -855,6 +871,22 @@ profile-form-delete = پروفائل حزف کریں
 
 ## Profile Download
 
+download-q = اپنا ڈیٹا ڈاؤن لوڈ کرنے کی ضرورت ہے؟
+download-info = ہمیں بتائیں کہ آپ کیا ڈاؤن لوڈ کرنا چاہتے ہیں:
+download-profile-title = پروفائل
+download-profile-size = چند بائٹس
+download-recordings-title = ریکارڈنگز
+download-recordings-size = عام طور پر میگا بائٹس
+download-size = سائز
+download-selected = منتخب شدہ
+download-start = پروفائل ڈیٹا ڈاؤن لوڈ کریں۔
+download-request = ریکارڈنگ کی درخواست کریں۔
+download-requests = ماضی کی ریکارڈنگز ڈاؤن لوڈ کی درخواستیں۔
+download-request-button = ڈاؤن لوڈ
+download-request-title = { $created }
+download-request-refresh-button = تازہ کریں
+download-request-modal-title = ربط ڈاؤن لوڈ کریں۔
+download-request-metadata-link = جملے کا متن
 
 ## Landing
 
@@ -873,6 +905,7 @@ demo-welcome-subheader = کیا آپ مزید جاننے اور اس منصوب�
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice دنیا کا سب سے بڑا عوامی طور پر دستیاب ، کثیر لسانی وائس ڈیٹاسیٹ ہے۔
+demo-language-select-card-body = پچاس سے زیادہ زبانوں میں 259k سے زیادہ افراد کی جانب سے دیئے گئے تعاون کی بدولت ، اس اعداد و شمار کو انسانی آواز کو بہتر انداز میں جواب دینے کے لئے تقریر سے چلنے والے ایپلی کیشنز کی تربیت کے لئے استعمال کیا جا رہا ہے۔
 card-button-next = آگے
 card-button-back = پیچھے
 demo-language-select-label = زبانیں براؤز کریں
@@ -898,3 +931,21 @@ demo-dashboard-card-header = ذاتی ڈیش بورڈز آپ کو انفرادی
 
 ## Validation criteria
 
+contribution-criteria-nav = معیار
+contribution-criteria-link = شراکت کے معیار کو سمجھیں۔
+contribution-criteria-page-title = شراکت کا معیار
+contribution-for-example = مثال کے طور پر
+contribution-misreadings-example-2-title = ٹرائاسک کا دیوہیکل ڈائنوسار۔
+contribution-misreadings-example-5-title = ہم کافی لینے باہر جا رہے ہیں۔
+contribution-misreadings-example-6-title = ہم کافی لینے باہر جا رہے ہیں۔
+contribution-misreadings-example-7-title = ہم کافی لینے باہر جا رہے ہیں۔
+contribution-misreadings-example-8-explanation = [غیر مماثل مواد]
+contribution-varying-pronunciations-title = مختلف تلفظ
+contribution-varying-pronunciations-example-1-title = اس کے سر پر اس نے بیریٹ پہنا ہوا تھا۔
+contribution-varying-pronunciations-example-2-title = اس کا ہاتھ اٹھا ہوا تھا۔
+contribution-background-noise-title = پس منظر کی آوازیں
+contribution-background-voices-title = پس منظر کی آوازیں
+contribution-volume-title = حجم
+contribution-just-unsure-title = صرف غیر یقینی؟
+see-more = <chevron></chevron>مزید دیکھیں
+see-less = <chevron></chevron>کم دیکھیں
