@@ -1081,11 +1081,45 @@ sc-howto-cite-pre-1 =
     Hier zijn een paar manieren waarop u het werk kunt citeren.
 sc-howto-cite-item-1 = U kunt de website opnemen, bijvoorbeeld ‘Common Voice - https://commonvoice.mozilla.org/’
 sc-howto-cite-item-2 =
-    U kunt een academische referentiestijl gebruiken, bijvoorbeeld harvard-stijl
+    U kunt een academische referentiestijl gebruiken, bijvoorbeeld Harvard-stijl
     ‘Mozilla (2021) Common Voice. Beschikbaar op https://commonvoice.mozilla.org/ (Benaderd: 15 september 2021)’
 sc-howto-cite-item-3 =
     Voor openbare licentietekst die niet online beschikbaar is, kunt u de academische referentiestijl gebruiken,
     b.v. Harvard-stijl ‘Jess (2021) Mijn openbare licentiegedichten’
+sc-howto-review-title = Zinnen beoordelen
+sc-howto-review-subtitle = Zorg ervoor dat de zin aan de volgende criteria voldoet:
+sc-howto-review-criteria-1 = De zin moet correct gespeld zijn.
+sc-howto-review-criteria-2 = De zin moet grammaticaal correct zijn.
+sc-howto-review-criteria-3 = De zin moet uitspreekbaar zijn.
+sc-howto-review-criteria-4 = Als de zin aan de criteria voldoet, klik dan op de knop ‘Goedkeuren’.
+sc-howto-review-criteria-5 =
+    Als de zin niet aan de bovenstaande criteria voldoet, klik dan op de knop ‘Afwijzen’.
+    Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
+sc-howto-review-criteria-6 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
+sc-howto-findpd-title = Bestaande zinnen vinden in het publieke domein
+sc-howto-findpd-subtitle = Ernaar zoeken op het internet
+sc-howto-findpd-text =
+    Onthoud dat we toestemming nodig hebben om die zinnen te publiceren,
+    zorg er dus altijd voor dat de tekst tot het <wikipediaLink>publieke domein</wikipediaLink> behoort. Als er geen indicatie is,
+    neem dan contact op met de persoon van wie de tekst is en vraag of u hun tekst mag gebruiken.
+sc-howto-findpd-tips = Hier zijn enkele tips om zinnen te vinden:
+sc-howto-findpd-tips-1 =
+    De beste bronnen waarnaar u kunt zoeken zijn podcasts, transcripties, filmscripts en
+    alles dat potentieel alledaagse gesprekken kan bevatten.
+sc-howto-findpd-tips-2 =
+    Overheidsprocedures, boeken en artikelen zijn echter ook geweldig, aangezien
+    de tekst echter meestal wat formeler is hebben ze minder prioriteit.
+sc-howto-findpd-tips-3 = Helaas kunnen we nog geen Wikimedia-artikelen hebben. Dus kopieer en plak niets uit die bron.
+sc-howto-findpd-subtitle-2 = Werk samen met lokale organisaties of personen
+sc-howto-findpd-partner-1 =
+    Er zijn veel publieke organisaties die misschien willen samenwerken
+    en al veel teksten die ze als publiek domein kunnen doneren hebben. Neem contact op met lokale universiteiten,
+    overheden en opensource-organisaties om over het project te praten en om hun hulp te vragen.
+sc-howto-findpd-partner-2 =
+    Deskundige linguïsten kunnen ook helpen, probeer contact op te nemen met de lokale linguïstische
+    universiteiten (zowel docenten als studenten) en kijk of ze kunnen helpen om een diverse set van
+    zinnen met uiteenlopende klanken in uw taal te verzamelen.
+sc-my-title = Mijn zinnen
 
 # [/SentenceCollector]
 
