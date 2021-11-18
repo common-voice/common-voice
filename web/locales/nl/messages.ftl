@@ -1019,6 +1019,13 @@ sc-header-profile = Profiel
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Bugs melden
 sc-footer-translate = Deze pagina vertalen
+sc-footer-report-copyright = Auteursrechtproblemen melden
+sc-footer-privacy = Privacy
+sc-footer-terms = Voorwaarden
+sc-footer-cookies = Cookies
+sc-login-signup-button = Aanmelden/Registreren
+sc-logout-button = Afmelden
+sc-home-title = Welkom bij de Common Voice Sentence Collector
 
 # [/SentenceCollector]
 
