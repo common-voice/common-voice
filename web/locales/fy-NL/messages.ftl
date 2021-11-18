@@ -1061,6 +1061,20 @@ sc-howto-addsen-item-2 =
     wannear’t se hurdop foarlêzen wurde. De manier wêrop in getal lêzen wurdt is ôfhinklik fan de kontekst en kin betizing yn de dataset feroarsaakje.
     It getal ‘2409’ kin bygelyks sekuer lêzen wurde as sawol ‘fjouwerentweintich nul njoggen’ en
     ‘twatûzen fjouwerhûndert njoggen’.
+sc-howto-addsen-item-3 =
+    Ofkoartingen en akronimen. Ofkoartingen en akronimen lykas ‘USA’ of ‘ICE’
+    moatte yn de boarnetekst mijd wurde, omdat se op in manier lêzen wurde kinne dy’t net gearfalt mei harren stavering.
+    Boppedat kinne der meardere sekuere lêsfoarmen wêze foar ien deselde ôfkoarting.
+    It akronym ‘ICE’ kin bygelyks útsprutsen wurde as ‘I-C-E’ of as ien inkeld wurd.
+sc-howto-addsen-item-4 =
+    Ynterpunksje. Spesjale symboalen en lêstekens meie allinnich opnommen wurde
+    wannear’t dit absolút needsaaklik is. Der is bygelyks in apostrof opnommen yn Fryske wurden as
+    ‘dy’t’ en dizze soe yn de boarnetekst opnommen wurde moatte, mar it is net wierskynlik dat jo
+    ea in spesjaal symboal lykas ‘@‘ of ‘#’ nedich hawwe.
+sc-howto-addsen-item-5 =
+    Bûtenlânske letters. Letters moatte jildich wêze yn de taal dy’t sprutsen wurdt.
+    ‘ж’ is bygelyks in letter yn it Russyske alfabet, mar wurdt nea yn it Frysk brûkt en soe dus ek nea
+    ferskine meie yn in Fryske boarnetekst.
 
 # [/SentenceCollector]
 
