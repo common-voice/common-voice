@@ -106,6 +106,7 @@ mhr = Mari Dwyreiniol
 mk = Macedoneg
 ml = Malayalam
 mn = Mongolieg
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Mari Gorllewinol
@@ -152,7 +153,7 @@ te = Telugu
 tg = Tajik
 th = Thai
 ti = Tigrinya
-Tig = Tigre
+tig = Tigre
 tl = Tagalog
 tr = Twrceg
 tt = Tartareg
@@ -1061,3 +1062,8 @@ contribution-just-unsure-title = Dal Ddim yn Siŵr?
 contribution-just-unsure-description = Os dewch chi ar draws rhywbeth nad yw'r canllawiau hyn yn ei gynnwys, defnyddiwch eich synnwyr cyffredin. Os nad ydych yn gallu penderfynu go iawn, defnyddiwch y botwm hepgor a mynd ymlaen i'r recordiad nesaf.
 see-more = <chevron></chevron>Gweld rhagor
 see-less = <chevron></chevron>Gweld llai
+sc-header-how-to = Sut mae gwneud
+sc-header-add = Ychwanegu
+
+# [/SentenceCollector]
+
