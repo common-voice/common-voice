@@ -1112,6 +1112,24 @@ sc-howto-findpd-text =
     Unthâld dat wy tastimming nedich hawwe om dy sinnen te publisearjen,
     soargje der dus altyd foar dat de tekst oant it <wikipediaLink>publike domein</wikipediaLink> taheart. As der gjin yndikaasje is,
     nim dan kontakt op mei de persoan fan wa’t de tekst is en freegje oft jo harren tekst brûke meie.
+sc-howto-findpd-tips = Hjir binne inkelde tips om sinnen te finen:
+sc-howto-findpd-tips-1 =
+    De beste boarnen wêrnei jo sykje kinne binne podcasts, transkripsjes, filmscripts en
+    alles dat potinsjeel deistige petearen befetsje kinne.
+sc-howto-findpd-tips-2 =
+    Oerheidsprosedueren, boeken en artikelen binne echter ek geweldich, omdat
+    de tekst echter meastentiids wat formeler is, hawwe se minder prioriteit.
+sc-howto-findpd-tips-3 = Spitigernôch kinne wy noch gjin Wikimedia-artikelen hawwe. Dus kopiearje en plak neat út dy boarne.
+sc-howto-findpd-subtitle-2 = Wurkje gear mei lokale organisaasjes of persoanen
+sc-howto-findpd-partner-1 =
+    Der binne in protte publike organisaasjes dy’t miskien gearwurkje wolle
+    en al in protte teksten dy’t se as publyk domein donearje kinne hawwe. Nim kontakt op mei lokale universiteiten,
+    oerheden en opensource-organisaasjes om oer it projekt te praten en om harren help te freegjen.
+sc-howto-findpd-partner-2 =
+    Deskundige linguisten kinne ek helpe, probearje kontakt op te nimmen mei de lokale linguistyske
+    universiteiten (sawol dosinten as studinten) en sjoch oft se helpe kinne om in ferskate set fan
+    sinnen mei útienrinnende klanken yn jo taal te sammeljen.
+sc-my-title = Myn sinnen
 
 # [/SentenceCollector]
 
