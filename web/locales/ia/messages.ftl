@@ -1066,6 +1066,15 @@ sc-howto-review-criteria-2 = Le phrase debe esser grammaticalmente correcte.
 sc-howto-review-criteria-3 = Le phrase debe esser pronunciabile.
 sc-howto-review-criteria-4 = Si le phrase reuni le criterios, clicca le button "Approbar".
 sc-howto-review-criteria-5 = Si le phrase non incontra le superior criterios, clicca le button "Rejectar". Si tu non es secur del phrase, tu pote alsi saltar lo e mover sur illo sequente.
+sc-howto-review-criteria-6 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger plus phrases!
+sc-howto-findpd-title = Trovar phrases existente de dominio public
+sc-howto-findpd-subtitle = Cercar los in internet
+sc-howto-findpd-text = Rememora que nos besonia le permission pro publicar ille phrases, assi sempre assecura te que le texto pertine al <wikipediaLink>dominio public</wikipediaLink>. Si il non ha un indication, continge le persona cuje le texto pertine e demanda si tu pote usar su texto.
+sc-howto-findpd-tips = Ecce alcun consilios utile pro trovar phrases:
+sc-howto-findpd-tips-1 = Le melior fontes pro recercar es podcasts, transcriptiones, scenarios de film e alco que pote continer conversationes del vita quotidian.
+sc-howto-findpd-tips-2 = Alsi deliberationes, libros e articulos governative es formidabile, totevia pois que le texto tende a esser un poco plus formal illos es de minor prioritate.
+sc-howto-findpd-tips-3 = Infortunatemente nos non pote ancora haber articulos de Wikimedia. Assi non copia-colla de illac.
+sc-howto-findpd-subtitle-2 = Partner con interprisas o le personas local
 
 # [/SentenceCollector]
 
