@@ -957,8 +957,21 @@ sc-add-lang-could-not-add = نەتوانرا زمان زیادبکرێت
 sc-add-lang-sec-button = زمان زیاد بکە
 sc-add-err-unexpected = وەڵامێکی چاوەڕواننەکراو لە ڕاژەوە
 sc-confirm-button-text = دڵنیابوونەوە
+sc-login-err-failed = چوونەژوورەوە سەرکەوتوو نەبوو
 sc-login-err-try-again = تکایە دووبارە هەوڵ بدەرەوە.
+sc-personal-err-lang-not-found = نەتوانرا زمان بسرێتەوە: زمان بوونی نیە
+sc-personal-err-remove = نەتوانرا زمان بسڕێتەوە
+sc-personal-your-languages = زمانەکانی تۆ
 sc-personal-remove-button = سڕینەوە
+sc-personal-added-by-you = { $sentences } زیادکراوە لە لایەن تۆوە
+sc-personal-not-added = تا ئێستا هیچ زمانێکت زیاد نەکردووە.
+sc-criteria-modal = ⓘ پێوەری پێداچوونەوە
+sc-criteria-title = پێوەری پێداچوونەوە
+sc-criteria-make-sure = دڵنیابە کە ڕستەکان لەگەڵ ئەم پێوەرانەدا دەگونجیت:
+sc-criteria-item-1 = دەبێت ڕستەکە بە شێوەیەکی ڕاست نووسرابێت.
+sc-criteria-item-2 = دەبێت ڕستەکە بەشێوەیەکی ڕێزمانی ڕاست نووسرابێت.
+sc-criteria-item-3 = دەبێت ڕستەکە بوترێت.
+sc-criteria-item-4 = ئەگەر ڕستەکە لەگەڵ پێوەرەکاندا گونجا، کرتە بکە لە دوگمەی &quot; سەلماندن &quot; لە لای ڕاستەوە.
 
 # [/SentenceCollector]
 
