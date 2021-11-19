@@ -8,7 +8,7 @@ email-input =
     .label = 电子邮箱
 submit-form-action = 提交
 loading = 加载中…
-email-opt-in-info = 我希望收到诸如目标提醒、我的进度更新与 Common Voice 的相关新闻通讯。
+email-opt-in-info = 我希望收到诸如目标提醒、我的进度更新等与 Common Voice 相关的新闻通讯。
 email-opt-in-info-title = 加入 Common Voice 邮件列表
 email-opt-in-info-sub-with-challenge = 接收诸如挑战、目标提醒、进度更新与 Common Voice 的相关新闻通讯。
 email-opt-in-privacy-v2 = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
@@ -152,7 +152,6 @@ te = 泰卢固语
 tg = 塔吉克语
 th = 泰语
 ti = 提格里尼亚语
-Tig = 提格雷语
 tl = 塔加洛语
 tr = 土耳其语
 tt = 鞑靼语
@@ -243,8 +242,8 @@ x-years-short =
        *[other] { $count } 年
     }
 help-make-dataset = 帮助我们构建高质量、可公开使用的数据集
-sign-up-account = 注册账号
-email-subscription-title = 订阅邮件更新
+sign-up-account = 注册账户
+email-subscription-title = 订阅更新邮件
 email-subscription-title-new = 订阅 Common Voice 新闻通讯、目标提醒和进度更新
 
 ## Account Benefits
@@ -982,3 +981,56 @@ contribution-just-unsure-title = 仍有不解之处？
 contribution-just-unsure-description = 如果遇到了这些准则没有涵盖的内容，请根据您的最佳判断来投票。如果真的无法决定，请使用跳过按钮，继续下一个录音。
 see-more = <chevron></chevron>看更多
 see-less = <chevron></chevron>看更少
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
