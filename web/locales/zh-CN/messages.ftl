@@ -1022,11 +1022,14 @@ sc-stats-updating = 正在更新…
 
 ## ADD
 
+sc-submit-select-language =
+    .labelText = 选择语言
 sc-submit-button =
     .submitText = 提交
 
 ## ADD LANGUAGE
 
+sc-add-err-submission = 提交失败
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1037,6 +1040,8 @@ sc-confirm-button-text = 确认
 
 ## LOGIN
 
+sc-login-err-failed = 登录失败
+sc-login-err-try-again = 请重试。
 
 ## PROFILE
 
@@ -1046,12 +1051,16 @@ sc-personal-remove-button = 移除
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ 审核标准
+sc-criteria-title = 审核标准
 
 ## REVIEW
 
+sc-review-form-button-reject = 驳回
+sc-review-form-button-skip = 跳过
 
 ## SETTINGS
 
+sc-settings-title = 设置
 
 # [/SentenceCollector]
 
