@@ -171,12 +171,26 @@ yi = ꯌꯤꯗꯤꯁ
 yo = ꯌꯣꯔꯨꯕꯥ
 yue = ꯀꯦꯟꯇꯣꯅꯤꯁ
 zh-CN = ꯆꯥꯏꯅꯤꯁ ( ꯆꯤꯅꯥ )
+zh-HK = ꯆꯥꯏꯅꯤꯁ (ꯍꯣꯡ ꯀꯣꯡ )
+zh-TW = ꯆꯥꯏꯅꯤꯁ (ꯇꯥꯏꯋꯥꯟ)
 
 # [/]
 
 
 ## Layout
 
+speak = ꯋꯥ ꯉꯥꯡꯉꯨ
+speak-now = ꯍꯧꯖꯤꯛ ꯉꯥꯡꯉꯨ
+datasets = ꯗꯥꯇꯥꯁꯤꯡ
+languages = ꯂꯣꯟꯁꯤꯡ
+about = ꯃꯇꯥꯡꯗ
+profile = ꯄ꯭ꯔꯣꯐꯥꯏꯜ
+help = ꯃꯇꯦꯡ
+contact = ꯄꯥꯎ ꯐꯥꯎꯐꯝ
+privacy = ꯑꯔꯣꯟ-ꯑꯊꯨꯞ
+terms = ꯁꯤꯖꯤꯟꯅꯕꯒꯤ ꯃꯑꯣꯡ
+cookies = ꯃꯊꯪ ꯆꯪꯕ ꯅꯨꯡꯉꯥꯏꯅꯕ ꯂꯦꯝꯍꯧꯈꯥꯛ
+faq = ꯇꯍꯋ
 
 ## Home Page
 
