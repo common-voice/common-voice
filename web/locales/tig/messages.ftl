@@ -264,9 +264,12 @@ on = ፍቱሕ
 ## Profile - Email
 
 connect-gravatar = እብ Gravatar እፃብጥ
+gravatar_not_found = ኢመልኩም ሱረት ናይ gravatar ይአለቡኒ
 
 ## Profile - Email
 
+manage-subscriptions = ኢሽትራኩም ኣዲሮ
+manage-email-subscriptions = ኢሽትራክ ናይ ኢሜልኩም ኣዲሮ
 add-language = ሉቀት ወስክ
 
 ## FAQ
