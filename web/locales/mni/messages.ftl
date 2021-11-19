@@ -2,6 +2,12 @@
 
 yes-receive-emails = ꯍꯣꯏ, ꯏꯃꯦꯜ ꯑꯩꯉꯣꯟꯗ ꯊꯥꯔꯛꯎ ꯫ ꯑꯩ ꯀꯃꯟ ꯚꯣꯏꯁ ꯊꯧꯔꯥꯡ ꯑꯀꯨꯞ ꯋꯥꯔꯣꯜꯒꯤ ꯏꯄꯥꯎ ꯑꯗꯨꯝ ꯈꯪꯕ ꯄꯥꯝꯃꯤ ꯫
 stayintouch = ꯑꯩꯈꯣꯏꯅ ꯃꯣꯖꯤꯂꯥꯗ ꯂꯩꯗꯨꯅ ꯃꯤꯌꯥꯝ ꯱ ꯁꯦꯝꯗꯨꯅ ꯈꯣꯟꯖꯦꯜꯒꯤ ꯁꯤꯟꯁꯥꯔꯣꯜꯗ ꯫ ꯑꯩꯈꯣꯏꯅ ꯑꯅꯧꯕ ꯑꯅꯧꯕ ꯂꯥꯛꯄ ꯏꯄꯥꯎ, ꯍꯧꯔꯛꯐꯝ ꯈꯪꯕ ꯄꯥꯝꯃꯤ ꯱ꯁꯨꯡ ꯅꯍꯥꯛꯅ ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯗꯥꯇꯥ ꯃꯔꯝꯗ ꯇꯥꯅꯕ ꯫
+email-input =
+    .label = ꯏꯃꯦꯜ
+submit-form-action = ꯄꯤꯁꯤꯟꯕ
+loading = ꯆꯤꯡꯊꯔꯤ
+indicates-required = * ꯃꯁꯤꯅ ꯇꯥꯛꯂꯤꯕ ꯑꯁꯤ ꯁꯣꯢꯗꯅ ꯆꯪꯕ
+not-available-abbreviation = ꯐꯪꯗꯕ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -9,6 +15,20 @@ stayintouch = ꯑꯩꯈꯣꯏꯅ ꯃꯣꯖꯤꯂꯥꯗ ꯂꯩꯗꯨꯅ ꯃꯤꯌ
 
 ## Languages
 
+ab = ꯑꯕꯈꯥꯓ
+ace = ꯑꯆꯦꯅꯤꯁ
+ady = ꯑꯗꯥꯏꯒꯤ
+af = ꯑꯐ꯭ꯔꯤꯀꯥꯟꯁ
+am = ꯑꯝꯍꯥꯔꯤꯛ
+an = ꯑꯔꯥꯒꯣꯅꯦꯁ
+ar = ꯑꯔꯥꯕꯤꯛ
+arn = ꯃꯄꯨꯗꯨꯟꯒꯨꯟ
+as = ꯑꯁꯥꯃꯤꯁ
+ast = ꯑꯁꯇꯨꯔꯤꯌꯥꯟ
+az = ꯑꯓꯦꯔꯕꯥꯏꯖꯥꯅꯤ
+ba = ꯕꯥꯁꯀꯤꯔ
+bas = ꯕꯥꯁꯥ
+be = ꯕꯦꯂꯥꯔꯨꯁꯤꯌꯥꯟ
 hi = ꯍꯤꯟꯗꯤ
 
 # [/]
@@ -117,6 +137,56 @@ hi = ꯍꯤꯟꯗꯤ
 
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
 
 
 # [/SentenceCollector]
