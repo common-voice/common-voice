@@ -184,8 +184,8 @@ share-title = ብዕዳም አብ ሶቶም ለልሳህሞ አግል ንርከ�
 home-cta = ሶትካ ኣስምዕ, አንዘ ሳህም
 show-wall-of-text = ዝያዳት ቀርኦ
 vote-yes = ኣይዋ
-vote-no = ላአ
-speak-subtitle = አብ ሶትካ አትበራዕ
+vote-no = ኢፋል
+speak-subtitle = አብ ሶትኩም አትበራዖ
 listen-subtitle = ኣስዋት አግል ንሓቅቅ ሳዕድና
 hours-recorded = ላትሰጀለያ ሳዓት
 hours-validated = ላትሓቀቀያ ሳዓት
@@ -210,6 +210,7 @@ x-years-short =
         [one] ሰነት
        *[other] ሰነት
     }
+sign-up-account = ሕሳብ ሰጅሎ
 
 ## Account Benefits
 
@@ -427,6 +428,56 @@ demo-listen-subtitle = አግል ትሳህሞ ጃህዛም አንቱም?
 contribution-misreadings-example-5-title = ቡን ግል ንስተ ፍግር ሀሌና
 contribution-misreadings-example-6-title = ቡን ግል ንስተ ፍግር ሀሌና
 contribution-misreadings-example-7-title = ቡን ግል ንስተ ፍግር ሀሌና
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
 
 # [/SentenceCollector]
 
