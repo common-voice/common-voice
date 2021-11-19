@@ -1003,9 +1003,14 @@ contribution-just-unsure-title = Vous hésitez ?
 contribution-just-unsure-description = Si vous rencontrez une situation que ces directives ne couvrent pas, veuillez voter en faisant appel à votre bon sens. Si vous n’arrivez vraiment pas à vous décider, utilisez le bouton « Passer » et passez à l’enregistrement suivant.
 see-more = <chevron></chevron>Afficher plus d’exemples
 see-less = <chevron></chevron>Afficher moins d’exemples
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = Accueil
 sc-header-how-to = Comment faire
 sc-header-add = Ajouter
@@ -1017,11 +1022,15 @@ sc-header-profile = Profil
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Signaler des problèmes
 sc-footer-translate = Traduire cette page
+sc-footer-report-copyright = Signaler des problèmes de droit d’auteur
 sc-footer-privacy = Confidentialité
 sc-footer-terms = Conditions d’utilisation
 sc-footer-cookies = Cookies
 sc-login-signup-button = Connexion / Inscription
 sc-logout-button = Déconnexion
+
+## HOME
+
 sc-home-title = Bienvenue dans le collecteur de phrases de Common Voice
 sc-home-intro =
     Le collecteur de phrases fait partie du projet <commonVoiceLink>Common Voice</commonVoiceLink>.
@@ -1033,6 +1042,9 @@ sc-home-collect-title = Collecter des phrases
 sc-home-collect-text = Contribuez à écrire ou collecter des phrases du domaine public
 sc-home-review-title = Vérifier les phrases
 sc-home-review-text = Contribuez en révisant les phrases pour qu’elles soient correctes conformément aux consignes.
+
+## HOW-TO
+
 sc-howto-title = Comment faire ?
 sc-howto-addsen-title = Ajouter de nouvelles phrases
 sc-howto-cite-title = Comment citer
@@ -1046,6 +1058,9 @@ sc-howto-review-criteria-4 = Si la phrase répond aux critères, cliquez sur le 
 sc-howto-review-criteria-6 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 sc-howto-findpd-title = Trouver des phrases existantes dans le domaine public
 sc-howto-findpd-tips = Voici quelques astuces pour trouver des phrases :
+
+## MY SENTENCES
+
 sc-my-title = Mes phrases
 sc-my-loading = Chargement de vos phrases…
 sc-my-err-fetching = Erreur lors de la récupération de vos phrases. Veuillez réessayer.
@@ -1054,18 +1069,23 @@ sc-my-submission = Soumission : { $batchId }
 sc-my-source = Source : { $source }
 sc-my-delete = Supprimer les phrases sélectionnées
 sc-my-deleting = Suppression des phrases sélectionnées…
-sc-profile-title = Profil : { $username }
+
+## REJECTED
+
 sc-rejected-title = Phrases rejetées
 sc-rejected-loading = Chargement des phrases rejetées…
 sc-rejected-err-fetching = Erreur lors de la récupération des phrases rejetées. Veuillez réessayer.
 sc-rejected-none-found = Aucune phrase rejetée n’a été trouvée !
-sc-review-title = Vérifier les phrases
-sc-review-loading = Chargement des phrases…
-sc-review-select-language = Veuillez sélectionner une langue pour vérifier les phrases.
+
+## STATS
+
 sc-stats-title = Statistiques
 sc-stats-last-update = Dernière mise à jour : { $lastUpdate }
 sc-stats-updating = Mise à jour…
 sc-stats-summary = Le collecteur de phrases Common Voice a collecté { $sentenceCount } phrases dans { $languageCount } langues !
+
+## ADD
+
 sc-submit-err-select-lang = Veuillez sélectionner une langue.
 sc-submit-err-add-sentences = Veuillez ajouter des phrases.
 sc-submit-err-add-source = Veuillez ajouter une source.
@@ -1075,11 +1095,18 @@ sc-submit-select-language =
     .labelText = Sélectionnez la langue
 sc-submit-ph-one-per-line =
     .placeholder = Une phrase par ligne
+sc-submit-confirm = Je confirme que ces phrases sont du <wikipediaLink>domaine public</wikipediaLink> et que j’ai la permission de les envoyer.
 sc-submit-button =
     .submitText = Envoyer
 sc-submit-filtered = Phrases filtrées en raison de l’échec des exigences (veuillez soumettre des versions corrigées en tant que nouvelles phrases) :
+sc-submit-guidelines = Veuillez consulter les <howToLink>directives</howToLink>.
+
+## ADD LANGUAGE
+
 sc-add-lang-could-not-add = Impossible d’ajouter la langue
 sc-add-lang-sec-label = Ajoutez une langue à laquelle vous souhaitez contribuer
+sc-add-lang-sec-button = Ajouter une langue
+sc-add-err-unexpected = Réponse inattendue renvoyée par le serveur
 sc-add-result =
     { $duplicates ->
         [0] Phrases soumises. Aucune phrase rejetée en tant que doublon.
@@ -1093,6 +1120,9 @@ sc-add-err-failed =
        *[other] { $sentences } phrases échouées
     }
 sc-add-err-submission = Erreur de soumission
+
+## ADD SENTENCES CONFIRMATION
+
 sc-confirm-sentences-title = Confirmer les nouvelles phrases
 sc-confirm-sentences-found =
     { $countOfSentences ->
@@ -1102,6 +1132,9 @@ sc-confirm-sentences-found =
     }
 sc-confirm-rejected-by-you = { $countOfInvalidated } rejetées par vous
 sc-confirm-button-text = Confirmer
+
+## LANGUAGE INFO
+
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] Aucune phrase en révision.
@@ -1128,14 +1161,24 @@ sc-lang-info-rejected =
         [one] Une phrase rejetée.
        *[other] { $rejectedSentences } phrases rejetées.
     }
+
+## LOGIN
+
 sc-login-err-failed = Échec de l’authentification
 sc-login-err-try-again = Veuillez réessayer.
+
+## PROFILE
+
+sc-profile-title = Profil : { $username }
 sc-personal-err-lang-not-found = Impossible de supprimer la langue : langue introuvable
 sc-personal-err-remove = Impossible de supprimer la langue
 sc-personal-your-languages = Vos langues :
 sc-personal-remove-button = Supprimer
 sc-personal-added-by-you = { $sentences } ajoutées par vous
 sc-personal-not-added = Vous n’avez pas encore ajouté de langues.
+
+## REVIEW CRITERIA
+
 sc-criteria-modal = ⓘ Critères de révision
 sc-criteria-title = Critères de révision
 sc-criteria-make-sure = Assurez-vous que la phrase répond aux critères suivants :
@@ -1143,9 +1186,16 @@ sc-criteria-item-1 = La phrase doit être orthographiée correctement.
 sc-criteria-item-2 = La phrase doit être grammaticalement correcte.
 sc-criteria-item-3 = La phrase doit être prononçable.
 sc-criteria-item-6 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
+
+## REVIEW
+
+sc-review-title = Vérifier les phrases
+sc-review-loading = Chargement des phrases…
+sc-review-select-language = Veuillez sélectionner une langue pour vérifier les phrases.
 sc-review-form-button-reject = Rejeter
 sc-review-form-button-skip = Passer
 sc-review-form-button-approve = Approuver
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
 sc-review-form-keyboard-usage = Vous pouvez également utiliser les raccourcis clavier : Y pour approuver, N pour rejeter, S pour passer
 sc-review-form-button-submit =
     .submitText = Terminer la vérification
@@ -1156,6 +1206,9 @@ sc-review-form-reviewed-message =
        *[other] { $phrases } phrases vérifiées. Merci !
     }
 sc-review-link = Révision
+
+## SETTINGS
+
 sc-settings-title = Paramètres
 
 # [/SentenceCollector]
