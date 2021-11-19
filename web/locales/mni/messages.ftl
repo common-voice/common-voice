@@ -191,6 +191,11 @@ privacy = ꯑꯔꯣꯟ-ꯑꯊꯨꯞ
 terms = ꯁꯤꯖꯤꯟꯅꯕꯒꯤ ꯃꯑꯣꯡ
 cookies = ꯃꯊꯪ ꯆꯪꯕ ꯅꯨꯡꯉꯥꯏꯅꯕ ꯂꯦꯝꯍꯧꯈꯥꯛ
 faq = ꯇꯍꯋ
+content-license-text = ꯃꯅꯨꯡꯒꯤ ꯑꯌꯥꯎꯕꯁꯤ <licenseLink>ꯀ꯭ꯔꯤꯌꯦꯇꯤꯪꯚ ꯀꯃꯟꯁ ꯑꯌꯥꯕ</licenseLink>ꯒꯤ ꯃꯈꯥꯗ ꯐꯪꯕꯅꯤ
+share-title = ꯑꯩꯈꯣꯏꯗ ꯃꯇꯦꯡ ꯄꯥꯡꯎ ꯑꯇꯩꯒꯤ ꯈꯣꯟꯖꯦꯜ ꯀꯠꯊꯣꯛꯅꯕ!
+link-copied = ꯁꯝꯅꯕꯝ ꯁꯤꯟꯖꯤꯟꯍꯧꯔꯦ
+back-top = ꯃꯅꯤꯡꯗꯒꯤ ꯃꯇꯣꯟ
+logout = ꯃꯄꯥꯟ ꯊꯣꯛꯂꯛꯄ
 
 ## Home Page
 
