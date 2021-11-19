@@ -1106,7 +1106,8 @@ sc-my-err-failed-delete = Impossibile deler phrases seligite… Retenta!
 
 sc-rejected-title = Phrases rejectate
 sc-rejected-loading = Cargamento phrases rejectate…
-sc-rejected-err-fetching = Error recuperante le phrases rejectate.
+sc-rejected-err-fetching = Error recuperante le phrases rejectate. Retenta.
+sc-rejected-none-found = Nulle phrases rejectate trovate!
 
 ## STATS
 
