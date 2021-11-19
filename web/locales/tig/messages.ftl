@@ -286,6 +286,7 @@ faq-why-different-speakers-q = ግልሚቱ ግል ኩል ሉቀት ብዝሓም
 faq-why-my-lang-q = ሉቀት ናየ አገልሚ ይሀሌትኒ
 faq-how-calc-hours-q = Common Voice ላስዓት ኣፎ ላሕስቦ?
 faq-why-not-ask-read-q = አግሚቱ ኣዳም ምን ክቱብ ኣው ምን ውክጴድያ አብ ካልአ ሉቀት ግል ለቅሮ ኢትሳኣልዎም?
+faq-why-account-q = አግልሚ ምስልኩም ሕሳብ ፋትሕ?
 faq-what-is-cv = Common Voice ሚ ቱ
 faq-using-cv = አስትዕማል ናይ Common Voice
 faq-search-for-answers =
@@ -307,6 +308,7 @@ about-nav-why-common-voice = አገልሚ
 about-nav-how-it-works = ከፎ
 about-nav-partners = ሹረካ
 about-nav-get-involved = ምስልና ሳህም
+mycroft-title = Mycroft Ai
 
 ## Glossary
 
@@ -320,7 +322,7 @@ error-code = ኻጣአ
 ## Data
 
 data-download-yes = ኣየዋ
-data-download-deny = ልአ
+data-download-deny = ኢፋል
 data-download-license = ሩኽሰት: <licenseLink>CC-0</licenseLink>
 data-other-goto = { $name } ጊስ
 dataset-date = ታሪኽ
