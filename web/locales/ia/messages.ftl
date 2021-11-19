@@ -999,9 +999,14 @@ contribution-just-unsure-title = Justo insecur?
 contribution-just-unsure-description = Si tu ha incontrate qualcosa que iste lineas guida non coperi, per favor vota in accordo a tu melior judicio. Si tu realmente non pote decider, usa le button saltar e va al sequente registration.
 see-more = <chevron></chevron>Vider plus
 see-less = <chevron></chevron>Vider minus
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = Initio
 sc-header-how-to = Guidas
 sc-header-add = Adder
@@ -1019,6 +1024,9 @@ sc-footer-terms = Terminos
 sc-footer-cookies = Cookies
 sc-login-signup-button = Aperir session / Inscriber se
 sc-logout-button = Clauder le session
+
+## HOME
+
 sc-home-title = Benvenite in le Collector de phrases de Common Voice
 sc-home-intro =
     Le Collector de phrases es parte de <commonVoiceLink>Common Voice</commonVoiceLink>.
@@ -1031,6 +1039,9 @@ sc-home-collect-title = Colliger phrases
 sc-home-collect-text = Adjuta nos a scriber o colliger Phrases de dominio public.
 sc-home-review-title = Revider phrases
 sc-home-review-text = Adjuta nos per revider phrases pro correctessa secundo le lineas guida.
+
+## HOW-TO
+
 sc-howto-title = Guidas
 sc-howto-addlang-title = Addition de linguas a laborar
 sc-howto-addlang-text = Un vice connexe, tu pote eliger tu linguas ab le section profilo.
@@ -1076,6 +1087,51 @@ sc-howto-findpd-tips-2 = Alsi deliberationes, libros e articulos governative es 
 sc-howto-findpd-tips-3 = Infortunatemente nos non pote ancora haber articulos de Wikimedia. Assi non copia-colla de illac.
 sc-howto-findpd-subtitle-2 = Partner con interprisas o le personas local
 sc-howto-findpd-partner-1 = Il ha multe public interprisas que poterea voler collaborar e jam ha multe textos que pote donar como dominio public. Attinge local universitates, governamentos e interprisas open-source pro parlar re le projecto e quere lor adjuta.
+sc-howto-findpd-partner-2 = Experte linguistas poter alsi adjutar, tenta de attinger local Universitates linguistic (ambe inseniantes e studentes) e vide si illes pote adjutar a colliger un diverse collection de phrases que appare diverse in tu lingua.
+
+## MY SENTENCES
+
+sc-my-title = Mi phrases
+sc-my-description = Iste pagina te da un summario de tote tu phrases inviate. Tu pote alsi si necessari deler phrases jam inviate, marcante le quadrato de selection proxime a illo, e cliccante sur &quot;Deler phrases seligite&quot; al fundo. Per favor solo remove phrases si absolutemente necessari, per exemplo si tu ha constatate postea que un phrase es protegite per derectos de autor.
+sc-my-loading = Cargamento de tu phrases…
+sc-my-err-fetching = Error recuperante tu phrases.
+sc-my-no-sentences = Nulle phrases trovate!
+sc-my-submission = Invio: { $batchId }
+sc-my-source = Fonte: { $fonte }
+sc-my-delete = Deler phrases seligite
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
 
 # [/SentenceCollector]
 
