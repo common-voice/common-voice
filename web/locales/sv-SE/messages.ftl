@@ -1098,7 +1098,10 @@ sc-review-title = Granska meningar
 sc-review-loading = Laddar meningar…
 sc-review-select-language = Välj ett språk för att granska meningar.
 sc-review-form-source = Källa: { $sentenceSource }
+sc-review-form-button-reject = Avvisa
 sc-review-form-button-skip = Hoppa över
+sc-review-form-button-approve = Godkänn
+sc-review-link = Granska
 
 ## SETTINGS
 
