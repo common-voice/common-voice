@@ -106,6 +106,7 @@ mhr = Östmariska
 mk = Makedonska
 ml = Malayalam
 mn = Mongoliska
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Västmariska
@@ -152,7 +153,7 @@ te = Telugu
 tg = Tadzjikiska
 th = Thailändska
 ti = Tigrinska
-Tig = Tigre
+tig = Tigre
 tl = Tagalog
 tr = Turkiska
 tt = Tatariska
@@ -986,3 +987,123 @@ contribution-just-unsure-title = Osäker?
 contribution-just-unsure-description = Om du stöter på något som dessa riktlinjer inte täcker, vänligen rösta enligt ditt bästa omdöme. Om du verkligen inte kan bestämma dig, använd knappen hoppa över och gå vidare till nästa inspelning.
 see-more = <chevron></chevron>Se mer
 see-less = <chevron></chevron>Se mindre
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Hem
+sc-header-how-to = Hur man
+sc-header-add = Lägg till
+sc-header-review = Granska
+sc-header-rejected = Avvisade meningar
+sc-header-my = Mina meningar
+sc-header-statistics = Statistik
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Rapportera buggar
+sc-footer-translate = Översätt denna sida
+sc-footer-report-copyright = Rapportera upphovsrättsproblem
+sc-footer-privacy = Sekretess
+sc-footer-terms = Villkor
+sc-footer-cookies = Kakor
+sc-login-signup-button = Logga in / Registrera dig
+sc-logout-button = Logga ut
+
+## HOME
+
+sc-home-collect-title = Samla meningar
+sc-home-review-title = Granska meningar
+
+## HOW-TO
+
+sc-howto-title = Hur man
+sc-howto-addlang-title = Lägga till språk att arbeta med
+sc-howto-addsen-title = Lägg till nya meningar
+sc-howto-cite-title = Hur man citerar
+sc-howto-review-title = Granska meningar
+sc-howto-review-subtitle = Se till att meningen uppfyller följande kriterier:
+sc-howto-review-criteria-1 = Meningen måste vara rättstavad.
+sc-howto-review-criteria-2 = Meningen måste vara grammatiskt korrekt.
+
+## MY SENTENCES
+
+sc-my-title = Mina meningar
+sc-my-loading = Laddar dina meningar…
+sc-my-err-fetching = Det gick inte att hämta dina meningar. Var god försök igen.
+sc-my-no-sentences = Inga meningar hittades!
+sc-my-source = Källa: { $source }
+sc-my-delete = Ta bort markerade meningar
+sc-my-deleting = Tar bort markerade meningar…
+sc-my-err-failed-delete = Det gick inte att ta bort valda meningar… Försök igen!
+
+## REJECTED
+
+
+## STATS
+
+sc-stats-title = Statistik
+sc-stats-updating = Uppdaterar…
+
+## ADD
+
+sc-submit-err-select-lang = Välj ett språk.
+sc-submit-err-add-sentences = Vänligen lägg till meningar.
+sc-submit-err-add-source = Vänligen lägg till en källa.
+sc-submit-title = Lägg till meningar
+sc-submit-select-language =
+    .labelText = Välj språk
+sc-submit-ph-one-per-line =
+    .placeholder = En mening per rad
+sc-submit-button =
+    .submitText = Skicka in
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Det gick inte att lägga till språk
+sc-add-lang-sec-label = Lägg till ett språk du vill bidra till
+sc-add-lang-sec-button = Lägg till språk
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-sentences-title = Bekräfta nya meningar
+sc-confirm-button-text = Bekräfta
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+sc-login-err-failed = Inloggningen misslyckades
+sc-login-err-try-again = Försök igen.
+
+## PROFILE
+
+sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Det gick inte att ta bort språk: språk hittades inte
+sc-personal-err-remove = Det gick inte att ta bort språk
+sc-personal-your-languages = Dina språk:
+sc-personal-remove-button = ta bort
+sc-personal-not-added = Du har inte lagt till några språk än.
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+sc-review-title = Granska meningar
+sc-review-loading = Laddar meningar…
+sc-review-select-language = Välj ett språk för att granska meningar.
+sc-review-form-source = Källa: { $sentenceSource }
+sc-review-form-button-skip = Hoppa över
+
+## SETTINGS
+
+sc-settings-title = Inställningar
+sc-settings-failed = Det gick inte att ändra inställningarna. Var god försök igen.
+
+# [/SentenceCollector]
+
