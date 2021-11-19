@@ -106,6 +106,7 @@ mhr = 草原马里语
 mk = 马其顿语
 ml = 马拉雅拉姆语
 mn = 蒙古语
+mni = 曼尼普尔语
 mos = 莫西语
 mr = 马拉地语
 mrj = 山地马里语
@@ -152,6 +153,7 @@ te = 泰卢固语
 tg = 塔吉克语
 th = 泰语
 ti = 提格里尼亚语
+tig = 提格雷语
 tl = 塔加洛语
 tr = 土耳其语
 tt = 鞑靼语
@@ -989,6 +991,17 @@ see-less = <chevron></chevron>看更少
 
 ## HEADER/FOOTER
 
+sc-header-home = 主页
+sc-header-add = 添加
+sc-header-review = 审核
+sc-footer-report-bugs = 报告缺陷（Bug）
+sc-footer-translate = 翻译此页面
+sc-footer-report-copyright = 报告版权问题
+sc-footer-privacy = 隐私
+sc-footer-terms = 使用条款
+sc-footer-cookies = Cookie
+sc-login-signup-button = 登录 / 注册
+sc-logout-button = 退出
 
 ## HOME
 
@@ -998,21 +1011,26 @@ see-less = <chevron></chevron>看更少
 
 ## MY SENTENCES
 
+sc-my-source = 来源：{ $source }
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-updating = 正在更新…
 
 ## ADD
 
+sc-submit-button =
+    .submitText = 提交
 
 ## ADD LANGUAGE
 
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = 确认
 
 ## LANGUAGE INFO
 
@@ -1022,9 +1040,12 @@ see-less = <chevron></chevron>看更少
 
 ## PROFILE
 
+sc-personal-your-languages = 您的语言：
+sc-personal-remove-button = 移除
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ 审核标准
 
 ## REVIEW
 
