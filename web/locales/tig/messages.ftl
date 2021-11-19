@@ -256,10 +256,14 @@ avatar = ሱረት
 goals = ኣህዳፍ
 profile-close = ደብአ
 why-demographic = አግል ሚቱ አሊ ሙህም?
+accept-privacy-title = ናይ ኽሱስይት ሰያስት
 contribution-experience = ናይ ሙሳህምት ኽብረት
+off = ደቡእ
+on = ፍቱሕ
 
 ## Profile - Email
 
+connect-gravatar = እብ Gravatar እፃብጥ
 
 ## Profile - Email
 
