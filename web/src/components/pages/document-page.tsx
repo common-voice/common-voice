@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import API from '../../services/api';
 import StateTree from '../../stores/tree';
 import { Spinner } from '../ui/ui';
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 interface PropsFromState {
   api: API;
@@ -11,21 +11,21 @@ interface PropsFromState {
 }
 
 type Props = {
-  name: 'privacy' | 'terms' | 'challenge-terms'
-} & PropsFromState
+  name: 'privacy' | 'terms' | 'challenge-terms';
+} & PropsFromState;
 
 /**
  * Renders an HTML document determined by the <c>name</c> prop.
  * @param {{name:string} & PropsFromState} props Props passed to the component.
  */
 function DocumentPage(props: Props) {
-  const {api, name, locale} = props;
-  const [html, setHtml] = useState('')
+  const { api, name, locale } = props;
+  const [html, setHtml] = useState('');
 
   // Whenever locale changes (and on first draw) fetch the document to be displayed.
   useEffect(() => {
     fetchDocument().then();
-  }, [locale])
+  }, [locale]);
 
   /**
    * Retrieves the document to be displayed and updates state.
@@ -36,9 +36,9 @@ function DocumentPage(props: Props) {
   }
 
   return html ? (
-    <div dangerouslySetInnerHTML={{__html: html}}/>
+    <div dangerouslySetInnerHTML={{ __html: html }} />
   ) : (
-    <Spinner/>
+    <Spinner />
   );
 }
 
@@ -47,7 +47,7 @@ function DocumentPage(props: Props) {
  * @param API api Provides methods for fetching HTML for the page.
  * @param {string} locale Triggers a redraw if the locale is changed in state.
  */
-const mapStateToProps = ({api, locale}: StateTree) => ({
+const mapStateToProps = ({ api, locale }: StateTree) => ({
   api,
   locale,
 });
