@@ -1099,9 +1099,14 @@ sc-my-no-sentences = Nulle phrases trovate!
 sc-my-submission = Invio: { $batchId }
 sc-my-source = Fonte: { $fonte }
 sc-my-delete = Deler phrases seligite
+sc-my-deleting = Deletion del phrases seligite
+sc-my-err-failed-delete = Impossibile deler phrases seligite… Retenta!
 
 ## REJECTED
 
+sc-rejected-title = Phrases rejectate
+sc-rejected-loading = Cargamento phrases rejectate…
+sc-rejected-err-fetching = Error recuperante le phrases rejectate.
 
 ## STATS
 
