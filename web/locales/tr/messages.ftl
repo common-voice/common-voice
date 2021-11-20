@@ -1033,6 +1033,7 @@ sc-logout-button = Çıkış
 ## HOME
 
 sc-home-title = Common Voice Cümle Toplayıcı’ya hoş geldiniz
+sc-home-intro = Cümle Toplayıcı, <commonVoiceLink>CommonVoiceLink>’un bir parçasıdır. Gönüllülerin cümle toplamasına ve topluluk tarafından oluşturulan cümleleri doğrulamasına olanak tanır. Bu aracı, bulduğunuz veya topladığınız küçük ve orta ölçekli kamu malı külliyatı içe aktarmak ve temizlemek için kullanabilirsiniz. Tüm cümlelerin kamu malı olması gerekir. Onaylanan cümleler her hafta Common Voice deposuna aktarılır ve her yeni sürümüyle Common Voice web sitesinde yayımlanır.
 sc-home-collect-title = Cümle topla
 sc-home-collect-text = Kamu malı cümleleri yazarak veya toplayarak bize yardımcı olun.
 sc-home-review-title = Cümleleri incele
@@ -1048,15 +1049,26 @@ sc-howto-cite-title = Nasıl alıntı yapılır?
 sc-howto-cite-item-1 = Web sitesi adresini verebilirsiniz. Örn. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Cümleleri inceleme
 sc-howto-review-subtitle = Cümlenin aşağıdaki kriterleri karşıladığından emin olun:
+sc-howto-review-criteria-2 = Cümle dilbilgisi açısından doğru olmalıdır.
+sc-howto-review-criteria-3 = Cümle sesli olarak okunabilir olmalıdır.
+sc-howto-review-criteria-4 = Cümle kriterleri karşılıyorsa "Onayla" düğmesini tıklayın.
+sc-howto-findpd-title = Mevcut kamu malı cümleleri bulma
+sc-howto-findpd-subtitle = İnternette arayın
+sc-howto-findpd-tips = Cümleleri bulmak için bazı ipuçları:
+sc-howto-findpd-tips-3 = Maalesef henüz Wikimedia makalelerini kullanamıyoruz. Bu nedenle oradan kopyala yapıştır yapmayın.
+sc-howto-findpd-subtitle-2 = Yerel kuruluşlar ya da kişilerle ortaklık yapın
 
 ## MY SENTENCES
 
+sc-my-title = Cümlelerim
 sc-my-loading = Cümleleriniz yükleniyor…
 sc-my-err-fetching = Cümleleriniz getirilirken hata oluştu. Lütfen tekrar deneyin.
 sc-my-no-sentences = Hiç cümle bulunamadı!
+sc-my-submission = Gönderim: { $batchId }
 sc-my-source = Kaynak: { $kaynak }
 sc-my-delete = Seçili cümleleri sil
 sc-my-deleting = Seçili cümleler siliniyor…
+sc-my-err-failed-delete = Seçilen cümleler silinemedi. Lütfen tekrar deneyin.
 
 ## REJECTED
 
@@ -1078,8 +1090,20 @@ sc-stats-summary = Common Voice Cümle Toplayıcı, { $languageCount } dilde { $
 sc-submit-err-select-lang = Lütfen bir dil seçin.
 sc-submit-err-add-sentences = Lütfen cümle ekleyin.
 sc-submit-err-add-source = Lütfen bir kaynak ekleyin.
+sc-submit-err-confirm-pd = Lütfen bu cümlelerin kamu malı olduğunu onaylayın.
+sc-submit-prompt =
+    .message = Cümleler gönderilmedi. Çıkmak istediğinizden emin misiniz?
+sc-submit-title = Cümle Ekle
+sc-submit-select-language =
+    .labelText = Dil seçin
+sc-submit-add-sentences = <wikipediaLink>Kamu malı</wikipediaLink> cümleler ekleyin
+sc-submit-ph-one-per-line =
+    .placeholder = Her satıra tek bir cümle
+sc-submit-from-where = Bu <wikipediaLink>kamu malı</wikipediaLink> cümleler nereden geliyor?
+sc-submit-confirm = Bu cümlelerin <wikipediaLink>kamu malı</wikipediaLink> olduğunu ve bunları yükleme iznim olduğunu onaylıyorum.
 sc-submit-button =
     .submitText = Gönder
+sc-submit-guidelines = Lütfen <howToLink>yönergeleri</howToLink> kontrol edin.
 
 ## ADD LANGUAGE
 
@@ -1097,6 +1121,8 @@ sc-add-err-submission = Gönderim Hatası
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Cümleler gönderilmedi. Çıkmak istediğinizden emin misiniz?
 sc-confirm-sentences-title = Yeni Cümleleri Onaylayın
 sc-confirm-sentences-found =
     { $countOfSentences ->
@@ -1104,6 +1130,7 @@ sc-confirm-sentences-found =
         [one] 1 cümle bulundu.
        *[other] { $countOfSentences } cümle bulundu.
     }
+sc-confirm-rejected-by-you = { $countOfInvalidated } cümleyi reddettiniz
 sc-confirm-ready =
     { $readyCount ->
         [0] Gönderime hazır cümle yok!
@@ -1114,12 +1141,20 @@ sc-confirm-button-text = Onayla
 
 ## LANGUAGE INFO
 
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Hiç cümle yok.
+        [one] Toplam 1 cümle.
+       *[other] Toplam { $totalSentences } cümle.
+    }
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] Hiç incelemede olan cümle yok.
         [one] 1 cümle incelemede.
        *[other] { $totalInReview } cümle incelemede.
     }
+sc-lang-info-review-now = <reviewLink>Hemen inceleyin!</reviewLink>
+sc-lang-info-add-more = <addLink>Şimdi daha fazla cümle ekleyin!</addLink>
 
 ## LOGIN
 
@@ -1133,6 +1168,7 @@ sc-personal-err-lang-not-found = Dil kaldırılamadı: dil bulunamadı
 sc-personal-err-remove = Dil kaldırılamadı
 sc-personal-your-languages = Dilleriniz:
 sc-personal-remove-button = kaldır
+sc-personal-added-by-you = { $sentences } cümle eklediniz
 sc-personal-not-added = Henüz herhangi bir dil eklemediniz.
 
 ## REVIEW CRITERIA
@@ -1148,12 +1184,20 @@ sc-criteria-item-5 = Cümle yukarıdaki kriterleri karşılamıyorsa soldaki &qu
 
 ## REVIEW
 
+sc-review-lang-not-selected = Herhangi bir dil seçmediniz. Dil seçmek için lütfen <profileLink>profilinize</profileLink> gidin.
 sc-review-title = Cümleleri İncele
 sc-review-loading = Cümleler yükleniyor…
+sc-review-select-language = Lütfen cümlelerini incelemek istediğiniz dili seçin.
+sc-review-no-sentences = İncelenecek cümle yok. <addLink>Şimdi daha fazla cümle ekleyin!</addLink>
+sc-review-form-prompt =
+    .message = İncelenen cümleler gönderilmedi. Emin misiniz?
+sc-review-form-usage = Cümleyi onaylamak için sağa kaydırın. Reddetmek için sola kaydırın. Atlamak için yukarı kaydırın. <strong>İncelemenizi göndermeyi unutmayın!</strong>
 sc-review-form-source = Kaynak: { $sentenceSource }
 sc-review-form-button-reject = Reddet
 sc-review-form-button-skip = Atla
 sc-review-form-button-approve = Onayla
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = Klavye kısayollarını da kullanabilirsiniz: onaylamak için Y, reddetmek için N, atlamak için S
 sc-review-form-button-submit =
     .submitText = İncelemeyi bitir
 sc-review-form-reviewed-message =
@@ -1168,6 +1212,7 @@ sc-review-form-review-failure = İnceleme kaydedilemedi. Lütfen daha sonra tekr
 
 sc-settings-title = Ayarlar
 sc-settings-reset-skipped = Atlanan cümleleri sıfırla
+sc-settings-skipped-decription = Daha önce incelemeniz sırasında bazı cümleleri atladınız. Atlanan cümleleri sıfırlamak, atlanan tüm cümleleri tekrar gösterecektir. Bu işlem dilden bağımsızdır.
 sc-settings-show-all-button = Atlanan tüm cümleleri tekrar göster
 sc-settings-failed = Ayarlar değiştirilemedi. Lütfen tekrar deneyin.
 
