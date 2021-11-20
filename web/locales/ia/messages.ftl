@@ -1153,6 +1153,12 @@ sc-personal-remove-button = remover
 
 ## REVIEW
 
+sc-review-title = Revider phrases
+sc-review-loading = Cargante phrases…
+sc-review-form-source = Fonte: { $sentenceSource }
+sc-review-form-button-reject = Rejectar
+sc-review-form-button-skip = Saltar
+sc-review-form-button-approve = Approbar
 
 ## SETTINGS
 
