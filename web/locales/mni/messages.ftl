@@ -263,13 +263,46 @@ shortcut-rerecord-toggle-label = ꯑꯃꯨꯛ ꯍꯟꯅ ꯔꯦꯀ꯭ꯔꯗ ꯇ�
 shortcut-discard-ongoing-recording = ꯑꯃꯨꯛꯍꯟꯕ
 shortcut-submit = ꯍꯟꯂꯨ
 request-language-text = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜꯒꯤꯗ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯟ ꯎꯗ꯭ꯔꯤꯕ ꯍꯧꯖꯤꯛꯁꯨ ?
+request-language-text-learn = ꯀꯔꯝꯅ ꯍꯪꯒꯠꯀꯅꯤ ꯇꯝꯁꯤꯟꯂꯨ ꯃꯁꯤꯗ !
 request-language-button = ꯂꯣꯟ ꯱ ꯍꯪꯒꯠꯆꯕ
 
 ## ProjectStatus
 
+status-contribute = ꯅꯍꯥꯛꯀꯤ ꯈꯧꯟꯖꯦꯜ ꯁꯔꯨꯛ ꯌꯥꯎ
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = ꯃꯊꯪꯒꯤ ꯄꯥꯟꯖꯤꯜ:{ $goal }
+english = ꯏꯪꯂꯤꯁ
 
 ## ProfileForm
 
+profile-form-username =
+    .label = ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯃꯃꯤꯡ
+profile-form-native-language =
+    .label = ꯌꯦꯜꯍꯧ ꯂꯣꯟ
+profile-form-additional-language =
+    .label = ꯑꯍꯦꯟꯕ ꯍꯥꯞꯆꯤꯟꯂꯛꯄ ꯂꯣꯟ
+profile-form-accent =
+    .label = ꯃꯔꯣꯜ
+profile-form-age =
+    .label = ꯆꯩꯍꯤ
+profile-form-gender-2 =
+    .label = ꯅꯨꯄꯥ/ꯅꯨꯄꯤ
+hidden = ꯑꯔꯣꯠꯄ
+visible = ꯑꯎꯕ
+native-language =
+    .label = ꯌꯦꯜꯍꯧ ꯂꯣꯟ
+profile-form-submit-save = ꯇꯨꯡꯁꯤꯟꯕ
+profile-form-submit-saved = ꯇꯨꯡꯁꯤꯟꯂꯕ
+male = ꯅꯨꯄꯥ
+female = ꯅꯨꯄꯤ
+# Gender
+other = ꯑꯇꯩ
+why-profile-title = ꯀꯔꯤꯒꯤ ꯄ꯭ꯔꯣꯐꯥꯏꯜ ?
+settings = ꯁꯦꯝꯐꯝ
+edit-profile = ꯄ꯭ꯔꯣꯐꯥꯢꯜ ꯁꯦꯝꯒꯠꯂꯨ
+profile-create-success = ꯃꯥꯢꯄꯥꯛꯂꯦ, ꯄ꯭ꯣꯐꯥꯏꯜ ꯁꯥꯈ꯭ꯔꯦ !
+profile-close = ꯈꯨꯝꯖꯤꯟꯂꯨ
 
 ## Profile - Email
 
