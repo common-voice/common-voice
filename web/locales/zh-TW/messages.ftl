@@ -1050,6 +1050,7 @@ sc-howto-findpd-title = 尋找已使用公眾領域授權的句子
 sc-howto-findpd-subtitle = 到網路上搜搜看
 sc-howto-findpd-text = 請記得我們還是需要獲得授權才可以發布這些句子，所以請務必確定所有文字都是<wikipediaLink>公眾領域</wikipediaLink>的句子。若您找到的句子沒有註明授權條款，請聯絡著作權人確認使否可以使用他們的句子。
 sc-howto-findpd-tips = 以下是尋找句子的一些小秘訣：
+sc-howto-findpd-partner-1 = 有許多公共組織可能會想要一起合作，或是已經有能夠捐贈的公眾領域語句。請聯絡您在地的大學、政府機關、開放原始碼組織，向他們說明本專案並且尋求協助。
 
 ## MY SENTENCES
 
@@ -1104,6 +1105,11 @@ sc-add-lang-could-not-add = 無法新增語言
 sc-add-lang-sec-label = 新增您想要貢獻的語言
 sc-add-lang-sec-button = 新增語言
 sc-add-err-unexpected = 伺服器回覆了未預期的錯誤
+sc-add-result =
+    { $duplicates ->
+        [0] 已送出語句，沒有被退回的重複句子。
+       *[other] 已送出語句，有 { $duplicates } 句重複句子被退回。
+    }
 sc-add-err-failed =
     { $sentences ->
         [0] 沒有失敗的句子
@@ -1133,6 +1139,7 @@ sc-confirm-ready =
        *[other] 已經有 { $readyCount } 句準備好可以送出！
     }
 sc-confirm-button-text = 確認
+sc-confirm-uploading = 正在上傳語句，視句子數量而定可能需要花上幾分鐘。上傳完成前請勿關閉此網站。
 
 ## LANGUAGE INFO
 
@@ -1183,6 +1190,7 @@ sc-personal-not-added = 您尚未加入任何語言。
 
 sc-criteria-modal = ⓘ 審核標準
 sc-criteria-title = 審核標準
+sc-criteria-make-sure = 請確認句子符合下列條件：
 sc-criteria-item-1 = 句子必須拼得正確。
 sc-criteria-item-2 = 句子的文法必須正確。
 sc-criteria-item-3 = 句子必須說得出來。
@@ -1195,6 +1203,7 @@ sc-review-lang-not-selected = 您尚未選擇任何語言，請到<profileLink>�
 sc-review-title = 審核句子
 sc-review-loading = 正在載入語句…
 sc-review-select-language = 請選擇語言來審核句子。
+sc-review-no-sentences = 沒有可以審核的語句。<addLink>馬上來加句子！</addLink>
 sc-review-form-prompt =
     .message = 尚未送出語句審核結果，確定嗎？
 sc-review-form-usage = 向右滑可以通過審核句子、向左滑拒絕、向上滑略過。<strong>別忘記送出您的審核結果！</strong>
