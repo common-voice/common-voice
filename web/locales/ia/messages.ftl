@@ -1142,11 +1142,29 @@ sc-submit-guidelines = Verifica le <howToLink>lineas guida</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Impossibile adder lingua
+sc-add-lang-sec-label = Adde un lingua con le qual tu vole contribuer
 sc-add-lang-sec-button = Adder un lingua
 sc-add-err-unexpected = Responsa inexpectate del servitor
+sc-add-result =
+    { $duplicates ->
+        [0] Phrases inviate. { $duplicates } phrases ha essite rejectate perque duplicate.
+        [one] Phrases inviate. { $duplicates } phrase ha essite rejectate perque duplicate.
+       *[other] Phrases inviate. { $duplicates } phrases ha essite rejectate perque duplicate.
+    }
+sc-add-err-failed =
+    { $sentences ->
+        [0] Nulle phrase fallite
+        [one] 1 phrase fallite
+       *[other] { $sentences } phrases fallite
+    }
+sc-add-err-submission = Error de invio
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Phrases non inviate, desira tu vermente exir?
+sc-confirm-sentences-title = Confirmar nove phrases
 sc-confirm-button-text = Confirmar
 
 ## LANGUAGE INFO
