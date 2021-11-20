@@ -106,6 +106,7 @@ mhr = Mari orientale
 mk = Macedone
 ml = Malayalam
 mn = Mongolo
+mni = Meitei Lon
 mos = More
 mr = Marathi
 mrj = Mari occidentale
@@ -152,7 +153,7 @@ te = Telugu
 tg = Tagico
 th = Tailandese
 ti = Tigrino
-Tig = Tigrè
+tig = Tigre
 tl = Tagalog
 tr = Turco
 tt = Tataro
@@ -984,3 +985,65 @@ contribution-just-unsure-title = Hai ancora dei dubbi?
 contribution-just-unsure-description = Se ti imbatti in una situazione che non è prevista in queste linee guida, convalida seguendo il tuo giudizio. Se davvero non riesci a decidere, utilizza il pulsante Salta e passa alla registrazione seguente.
 see-more = <chevron></chevron>Mostra di più
 see-less = <chevron></chevron>Mostra di meno
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Pagina iniziale
+sc-header-how-to = Guida
+sc-header-add = Aggiungi
+sc-header-review = Convalida
+sc-header-rejected = Frasi rifiutate
+sc-header-my = Le mie frasi
+sc-header-statistics = Statistiche
+sc-header-profile = Profilo
+sc-footer-discourse = Discourse
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
