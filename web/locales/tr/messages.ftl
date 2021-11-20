@@ -1032,9 +1032,22 @@ sc-logout-button = Çıkış
 
 ## HOME
 
+sc-home-title = Common Voice Cümle Toplayıcı’ya hoş geldiniz
+sc-home-collect-title = Cümle topla
+sc-home-collect-text = Kamu malı cümleleri yazarak veya toplayarak bize yardımcı olun.
+sc-home-review-title = Cümleleri incele
+sc-home-review-text = Cümleleri yönergelere uygunluğu açısından gözden geçirerek bize yardımcı olun.
 
 ## HOW-TO
 
+sc-howto-title = Nasıl yapılır
+sc-howto-addlang-title = Üzerinde çalışacağınız dilleri ekleme
+sc-howto-addlang-text = Giriş yaptıktan sonra profil bölümünden dillerinizi seçebilirsiniz.
+sc-howto-addsen-title = Yeni cümleler ekleme
+sc-howto-cite-title = Nasıl alıntı yapılır?
+sc-howto-cite-item-1 = Web sitesi adresini verebilirsiniz. Örn. "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-review-title = Cümleleri inceleme
+sc-howto-review-subtitle = Cümlenin aşağıdaki kriterleri karşıladığından emin olun:
 
 ## MY SENTENCES
 
