@@ -1208,6 +1208,20 @@ sc-lang-info-left-for-you =
         [one] 1 phrase restate pro tu revision.
        *[other] { $unreviewedSentencesByYou } phrases restate pro tu revision.
     }
+sc-lang-info-review-now = <reviewLink>Revide ora!</reviewLink>
+sc-lang-info-add-more = <addLink>Adde altere phrases ora!</addLink>
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Nulle phrases validate.
+        [one] 1 phrase validate.
+       *[other] { $validatedSentences } phrases validate.
+    }
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Nulle phrases rejectate
+        [one] 1 phrase rejectate
+       *[other] { $rejectedSentences } phrases rejectate.
+    }
 
 ## LOGIN
 
@@ -1217,16 +1231,32 @@ sc-login-err-try-again = Retenta.
 ## PROFILE
 
 sc-profile-title = Profilo: { $username }
+sc-personal-err-lang-not-found = Impossibile remover le lingua: lingua non trovate
+sc-personal-err-remove = Impossibile remover le lingua
 sc-personal-your-languages = Tu linguas:
 sc-personal-remove-button = remover
+sc-personal-added-by-you = { $phrases } addite per te
+sc-personal-not-added = Tu non ha addite ulle linguas totevia.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Criterios de revision
+sc-criteria-title = Criterios de revision
+sc-criteria-make-sure = Verifica que le phrase satisface le sequente criterios:
+sc-criteria-item-1 = Le orthographia del phrase debe esser correcte.
+sc-criteria-item-2 = Le phrase debe esser grammaticalmente correcte.
+sc-criteria-item-3 = Le phrase debe esser pronunciabile.
+sc-criteria-item-4 = Si le phrase satisface le criterios, clicca le button &quot;Approbar&quot; a dextera.
+sc-criteria-item-5 = Si le phrase non satisface le criterios de supra, clicca le button &quot;Rejectar&quot; a dextera.
+sc-criteria-item-6 = Si tu non es secur del phrase, tu pote alsi saltar lo e mover a illo sequente.
 
 ## REVIEW
 
+sc-review-lang-not-selected = Tu non ha seligite ulle linguas. Va a tu <profileLink>Profilo</profileLink> pro eliger linguas.
 sc-review-title = Revider phrases
 sc-review-loading = Cargante phrases…
+sc-review-select-language = Elige un lingua pro revider le phrases.
+sc-review-no-sentences = Nulle phrases a revider. <addLink>Adde altere phrases ora!</addLink>
 sc-review-form-source = Fonte: { $sentenceSource }
 sc-review-form-button-reject = Rejectar
 sc-review-form-button-skip = Saltar
