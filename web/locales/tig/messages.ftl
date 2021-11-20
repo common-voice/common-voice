@@ -180,13 +180,16 @@ languages = ሉቃት
 about = መን ሕና
 help = ሙሳዓደት
 contact = መራከቢ
+privacy = ኽሱስያት
 terms = ሽሩጥ
 cookies = ክዓክ
 faq = ዲማ ላልትሳኣሉ ኣስአለት
 share-title = ብዕዳም አብ ሶቶም ለልሳህሞ አግል ንርከብ ስዓደና
+logout = ፍገር
 
 ## Home Page
 
+home-title = Common Voice ናይ Mozilla ሙባደረት አግል ኣለት ናይ ኣማን ኣዳም አፎ ከምልትሃገው ላትዓልም ታ
 home-cta = ሶትካ ኣስምዕ, አንዘ ሳህም
 show-wall-of-text = ዝያዳት ቀርኦ
 vote-yes = ኣይዋ
