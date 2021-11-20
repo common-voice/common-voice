@@ -1038,42 +1038,125 @@ sc-logout-button = Çıkış
 
 ## MY SENTENCES
 
+sc-my-loading = Cümleleriniz yükleniyor…
+sc-my-err-fetching = Cümleleriniz getirilirken hata oluştu. Lütfen tekrar deneyin.
+sc-my-no-sentences = Hiç cümle bulunamadı!
+sc-my-source = Kaynak: { $kaynak }
+sc-my-delete = Seçili cümleleri sil
+sc-my-deleting = Seçili cümleler siliniyor…
 
 ## REJECTED
 
+sc-rejected-title = Reddedilen Cümleler
+sc-rejected-loading = Reddedilen cümleler yükleniyor…
+sc-rejected-err-fetching = Reddedilen cümleler getirilirken hata oluştu. Lütfen tekrar deneyin.
+sc-rejected-none-found = Reddedilen cümle bulunamadı.
 
 ## STATS
 
+sc-stats-title = İstatistikler
+sc-stats-last-update = Son Güncelleme: { $lastUpdate }
+sc-stats-last-update-never = Son Güncelleme: hiç güncellenmedi
+sc-stats-updating = Güncelleniyor…
+sc-stats-summary = Common Voice Cümle Toplayıcı, { $languageCount } dilde { $sentenceCount } cümle topladı!
 
 ## ADD
 
 sc-submit-err-select-lang = Lütfen bir dil seçin.
 sc-submit-err-add-sentences = Lütfen cümle ekleyin.
 sc-submit-err-add-source = Lütfen bir kaynak ekleyin.
+sc-submit-button =
+    .submitText = Gönder
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Dil eklenemedi
+sc-add-lang-sec-label = Katkıda bulunmak istediğiniz bir dil ekleyin
+sc-add-lang-sec-button = Dil Ekle
+sc-add-err-unexpected = Sunucudan beklenmeyen yanıt geldi
+sc-add-err-failed =
+    { $sentences ->
+        [0] Hiç başarısız cümle yok
+        [one] 1 cümle başarısız oldu
+       *[other] { $sentences } cümle başarısız oldu
+    }
+sc-add-err-submission = Gönderim Hatası
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Yeni Cümleleri Onaylayın
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Hiç cümle bulunmadı.
+        [one] 1 cümle bulundu.
+       *[other] { $countOfSentences } cümle bulundu.
+    }
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Gönderime hazır cümle yok!
+        [one] 1 cümle gönderime hazır!
+       *[other] { $countOfReviewed } cümle gönderime hazır!
+    }
+sc-confirm-button-text = Onayla
 
 ## LANGUAGE INFO
 
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Hiç incelemede olan cümle yok.
+        [one] 1 cümle incelemede.
+       *[other] { $totalInReview } cümle incelemede.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Giriş başarısız
+sc-login-err-try-again = Lütfen tekrar deneyin.
 
 ## PROFILE
 
+sc-profile-title = Profil: { $name }
+sc-personal-err-lang-not-found = Dil kaldırılamadı: dil bulunamadı
+sc-personal-err-remove = Dil kaldırılamadı
+sc-personal-your-languages = Dilleriniz:
+sc-personal-remove-button = kaldır
+sc-personal-not-added = Henüz herhangi bir dil eklemediniz.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ İnceleme Kriterleri
+sc-criteria-title = İnceleme Kriterleri
+sc-criteria-make-sure = Cümlenin aşağıdaki kriterleri karşıladığından emin olun:
+sc-criteria-item-1 = Cümle doğru yazılmalıdır.
+sc-criteria-item-2 = Cümle dilbilgisi açısından doğru olmalıdır.
+sc-criteria-item-3 = Cümle sesli olarak okunabilir olmalıdır.
+sc-criteria-item-4 = Cümle kriterleri karşılıyorsa sağdaki &quot;Onayla&quot; düğmesine tıklayın.
+sc-criteria-item-5 = Cümle yukarıdaki kriterleri karşılamıyorsa soldaki &quot;Reddet&quot; düğmesine tıklayın. Emin olmadığınız cümleleri atlayarak bir sonrakine geçebilirsiniz.
 
 ## REVIEW
 
+sc-review-title = Cümleleri İncele
+sc-review-loading = Cümleler yükleniyor…
+sc-review-form-source = Kaynak: { $sentenceSource }
+sc-review-form-button-reject = Reddet
+sc-review-form-button-skip = Atla
+sc-review-form-button-approve = Onayla
+sc-review-form-button-submit =
+    .submitText = İncelemeyi bitir
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Hiç cümle incelenmedi.
+        [one] 1 cümle incelendi. Teşekkürler!
+       *[other] { $sentences } cümle incelendi. Teşekkürler!
+    }
+sc-review-form-review-failure = İnceleme kaydedilemedi. Lütfen daha sonra tekrar deneyin.
 
 ## SETTINGS
 
+sc-settings-title = Ayarlar
+sc-settings-reset-skipped = Atlanan cümleleri sıfırla
+sc-settings-show-all-button = Atlanan tüm cümleleri tekrar göster
+sc-settings-failed = Ayarlar değiştirilemedi. Lütfen tekrar deneyin.
 
 # [/SentenceCollector]
 
