@@ -1270,15 +1270,17 @@ sc-review-form-button-submit =
     .submitText = Finir revision
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] No sentences reviewed.
-        [one] 1 sentence reviewed. Thank you!
-       *[other] { $sentences } sentences reviewed. Thank you!
+        [0] Nulle phrases revidite
+        [one] 1 phrase revidite. Gratias!
+       *[other] { $phrases } phrases revidite. Gratias!
     }
+sc-review-form-review-failure = Impossibile salvar le revision. Retenta plus tarde.
 sc-review-link = Revider
 
 ## SETTINGS
 
 sc-settings-title = Parametros
+sc-settings-reset-skipped = Remontar phrases saltate
 
 # [/SentenceCollector]
 
