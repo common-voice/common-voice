@@ -1281,6 +1281,9 @@ sc-review-link = Revider
 
 sc-settings-title = Parametros
 sc-settings-reset-skipped = Remontar phrases saltate
+sc-settings-skipped-decription = Tu phrases previemente saltate durante le revision. Remontar phrases saltate de novo monstrara tote le phrases saltate. Isto es independente del lingua.
+sc-settings-show-all-button = Monstrar de novo tote le phrases saltate
+sc-settings-failed = Impossibile cambiar parametros. Retenta.
 
 # [/SentenceCollector]
 
