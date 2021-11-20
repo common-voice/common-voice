@@ -230,6 +230,7 @@ x-years-short =
     }
 sign-up-account = ሕሳብ ሰጅሎ
 email-subscription-title = ሸጅሎ ናይ ኢማል ታሕዲስ ኤግል ትርከቦ
+email-subscription-title-new = ኣኽባር መዝከሪ ናይ ሓደፍ ው ታጣውር ኤግል ትርከቦ
 
 ## Account Benefits
 
@@ -247,9 +248,14 @@ email-not-public = አማእልኩም ዓም ንድዮ ኤኮን
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = ስጅል/ኣብጥር
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ክሊፕ እብ ካልእ ስጅል
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = ዓቅብል
+shortcut-submit-label = ክሊፕ ላኣኮ
 request-language-text = ሉቅትኩም ኣስኽ ኣዜ የህሌትኒ ዲብ Common Voice?
+request-language-text-learn = ከፎ ከም ትጠልቦ አንዘ ኣምር!
 request-language-button = ሉቀት ጥለብ
 
 ## ProjectStatus
