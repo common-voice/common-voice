@@ -6,7 +6,9 @@ privacy-info = ማዕሉማትኩም እብ ጥንቃቐ ከም ጽብጣ ንው
 return-to-cv = ዲብ Common Voice ኣቅብል
 email-input =
     .label = ኢመል
+submit-form-action = ኣቅርብ
 loading = ሸሕን ህላ
+indicates-required = * ላለትሓዘ ኣካን ላሓብር
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -177,6 +179,7 @@ speak-now = ኣዜ ታሃገ
 languages = ሉቃት
 about = መን ሕና
 help = ሙሳዓደት
+contact = መራከቢ
 terms = ሽሩጥ
 cookies = ክዓክ
 faq = ዲማ ላልትሳኣሉ ኣስአለት
