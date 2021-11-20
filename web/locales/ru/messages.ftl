@@ -106,6 +106,7 @@ mhr = Лугово-восточный марийский
 mk = Македонский
 ml = Малаялам
 mn = Монгольский
+mni = Манипури
 mos = Мооре
 mr = Маратхи
 mrj = Горномарийский
@@ -152,6 +153,7 @@ te = Телугу
 tg = Таджикский
 th = Тайский
 ti = Тигринья
+tig = Тигре
 tl = Тагальский
 tr = Турецкий
 tt = Татарский
@@ -990,3 +992,56 @@ contribution-just-unsure-title = Не уверены?
 contribution-just-unsure-description = Если вы столкнетесь с чем-то, что не охвачено этими рекомендациями, проголосуйте, исходя из вашего здравого смысла. Если вы действительно не можете решить, используйте кнопку пропуска и переходите к следующей записи.
 see-more = <chevron></chevron>Более подробно
 see-less = <chevron></chevron>Менее подробно
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
