@@ -1186,10 +1186,28 @@ sc-confirm-ready =
     }
 sc-confirm-unreviewed = { $countOfUnreviewed } phrases es non revidite. Si tu vole, tu pote alsi revider tu phrases ora, ante inviar los.
 sc-confirm-button-text = Confirmar
-sc-confirm-uploading = Phrases va esser cargate. Isto pote prender plure minutas secundo le numero de phrases addite.
+sc-confirm-uploading = Phrases va esser cargate. Isto pote prender plure minutas secundo le numero de phrases addite. Non claude iste sito web.
 
 ## LANGUAGE INFO
 
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] N. total de phrases.
+        [one] 1 phrase total
+       *[other] { $totalSentences } phrases total.
+    }
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Nulle phrases in revision.
+        [one] 1 phrase in revision.
+       *[other] { $totalInReview } phrases in revision.
+    }
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Nulle phrases restate pro tu revision.
+        [one] 1 phrase restate pro tu revision.
+       *[other] { $unreviewedSentencesByYou } phrases restate pro tu revision.
+    }
 
 ## LOGIN
 
