@@ -8,6 +8,7 @@ email-input =
     .label = ኢመል
 submit-form-action = ኣቅርብ
 loading = ሸሕን ህላ
+email-opt-in-info = ኢሜል እግለ ለምጽኒ ሓዘ ከምስል ናይ ሃደፍ ላለዝክር ው ናይ ተጣውርየ ው ኣኽባር ናይ Common Voice.
 indicates-required = * ላለትሓዘ ኣካን ላሓብር
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
