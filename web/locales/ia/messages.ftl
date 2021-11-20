@@ -1261,6 +1261,12 @@ sc-review-form-source = Fonte: { $sentenceSource }
 sc-review-form-button-reject = Rejectar
 sc-review-form-button-skip = Saltar
 sc-review-form-button-approve = Approbar
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] No sentences reviewed.
+        [one] 1 sentence reviewed. Thank you!
+       *[other] { $sentences } sentences reviewed. Thank you!
+    }
 sc-review-link = Revider
 
 ## SETTINGS
