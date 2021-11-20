@@ -1030,6 +1030,7 @@ sc-howto-addlang-title = 新增要貢獻的語言
 sc-howto-addlang-text = 登入後，就可以從個人資料頁面段落選擇您要貢獻哪些語言的句子。
 sc-howto-addsen-title = 新增句子
 sc-howto-addsen-item-1 = 您送出的所有句子必須皆符合<wikipediaLink>公開領域（CC-0）授權條款</wikipediaLink>。為了讓未使用公眾授權條款的著作也能加入，我們準備了一份<cc0WaiverLink>貢獻授權條款範本</cc0WaiverLink>協助讓願意將著作貢獻給 Common Voice 著作權人將作品轉換為公共作品。
+sc-howto-addsen-item-2 = 數字，原文段落中不應包含數字，因為會在唸出來的時候造成問題。數字的念法需依上下文而定，可能會在資料集中造成混淆。舉例來說，數字「2409」有時會念成「兩千四百零九」，也有可能念成「二四零九」。
 sc-howto-cite-title = 如何引用
 sc-howto-cite-item-1 = 您可以包含網址，例如「Common Voice - https://commonvoice.mozilla.org/」
 sc-howto-cite-item-2 = 您也可以使用學術參考文獻格式，例如哈佛格式「Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)」
