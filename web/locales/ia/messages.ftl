@@ -1165,7 +1165,28 @@ sc-add-err-submission = Error de invio
 sc-confirm-are-you-sure =
     .message = Phrases non inviate, desira tu vermente exir?
 sc-confirm-sentences-title = Confirmar nove phrases
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Nulle phrases trovate.
+        [one] 1 phrase trovate.
+       *[other] { $countOfSentences } phrases trovate.
+    }
+sc-confirm-rejected-by-you = { $countOfInvalidated } rejectate per te
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Nulle phrase jam revidite.
+        [one] 1 phrase jam revidite. Formidabile labor!
+       *[other] { $countOfReviewed } phrases jam revidite.  Formidabile labor!
+    }
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Nulle phrase preste pro le invio!
+        [one] 1 phrase preste pro le invio!
+       *[other] { $readyCount } phrases preste pro le invio!
+    }
+sc-confirm-unreviewed = { $countOfUnreviewed } phrases es non revidite. Si tu vole, tu pote alsi revider tu phrases ora, ante inviar los.
 sc-confirm-button-text = Confirmar
+sc-confirm-uploading = Phrases va esser cargate. Isto pote prender plure minutas secundo le numero de phrases addite.
 
 ## LANGUAGE INFO
 
