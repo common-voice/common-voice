@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = አይዋ ኢሜል ነድኦ ዲብየ ። ኣብ ምሽሩ Common Voice እድለ ሓዘ
 return-to-cv = ዲብ Common Voice ኣቅብል
 email-input =
     .label = ኢመል
