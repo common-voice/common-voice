@@ -1045,11 +1045,15 @@ sc-howto-review-criteria-1 = 句子必須拼得正確。
 sc-howto-review-criteria-2 = 句子的文法必須正確。
 sc-howto-review-criteria-3 = 句子必須說得出來。
 sc-howto-review-criteria-4 = 若句子符合上述標準，請點擊「通過」按鈕。
+sc-howto-review-criteria-5 = 若句子不符合上述條件，點擊「退回」按鈕。若您不確定句子可不可用，也可以略過，跳到下一句。
 sc-howto-review-criteria-6 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
 sc-howto-findpd-title = 尋找已使用公眾領域授權的句子
 sc-howto-findpd-subtitle = 到網路上搜搜看
 sc-howto-findpd-text = 請記得我們還是需要獲得授權才可以發布這些句子，所以請務必確定所有文字都是<wikipediaLink>公眾領域</wikipediaLink>的句子。若您找到的句子沒有註明授權條款，請聯絡著作權人確認使否可以使用他們的句子。
 sc-howto-findpd-tips = 以下是尋找句子的一些小秘訣：
+sc-howto-findpd-tips-2 = 政府文書、書籍、文章內容也很棒，但文字會比較正式，所以較不優先。
+sc-howto-findpd-tips-3 = 不巧我們還不能使用維基媒體基金會的所有文章（包含維基百科），請不要貼過來。
+sc-howto-findpd-subtitle-2 = 與在地組織或個人合作
 sc-howto-findpd-partner-1 = 有許多公共組織可能會想要一起合作，或是已經有能夠捐贈的公眾領域語句。請聯絡您在地的大學、政府機關、開放原始碼組織，向他們說明本專案並且尋求協助。
 
 ## MY SENTENCES
