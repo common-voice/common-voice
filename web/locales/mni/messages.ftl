@@ -303,6 +303,10 @@ settings = ꯁꯦꯝꯐꯝ
 edit-profile = ꯄ꯭ꯔꯣꯐꯥꯢꯜ ꯁꯦꯝꯒꯠꯂꯨ
 profile-create-success = ꯃꯥꯢꯄꯥꯛꯂꯦ, ꯄ꯭ꯣꯐꯥꯏꯜ ꯁꯥꯈ꯭ꯔꯦ !
 profile-close = ꯈꯨꯝꯖꯤꯟꯂꯨ
+login-signup = ꯃꯅꯨꯡꯆꯪꯁꯤꯟꯕ/ꯃꯤꯡ ꯄꯁꯤꯟꯕ
+edit = ꯁꯦꯝꯒꯠ-ꯁꯥꯒꯠꯂꯨ
+off = ꯃꯨꯊꯠꯄ
+on = ꯊꯥꯕ
 
 ## Profile - Email
 
