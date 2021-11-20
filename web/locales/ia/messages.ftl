@@ -1131,8 +1131,13 @@ sc-submit-select-language =
 sc-submit-add-sentences = Adder phrases de <wikipediaLink>dominio public</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Un singule phrase per linea
+sc-submit-from-where = Ex ubi es iste phrases de <wikipediaLink> dominio public</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Lege nostre Guida si insecur re como attribuer
+sc-submit-confirm = Io confirma que iste phrases es de <wikipediaLink>dominio public</wikipediaLink> e io ha permission pro cargar los.
 sc-submit-button =
     .submitText = Inviar
+sc-submit-filtered = Phrases filtrate per falta de requisitos (invia le versiones corrigite como nove phrases):
 
 ## ADD LANGUAGE
 
