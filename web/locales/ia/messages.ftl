@@ -1111,24 +1111,42 @@ sc-rejected-none-found = Nulle phrases rejectate trovate!
 
 ## STATS
 
+sc-stats-title = Statistica
+sc-stats-last-update = Ultime actualisation: { $lastUpdate }
+sc-stats-last-update-never = Ultime actualisation: nunquam
+sc-stats-updating = Actualisation...
 
 ## ADD
 
+sc-submit-err-select-lang = Elige un lingua
+sc-submit-err-add-sentences = Adde phrases.
+sc-submit-select-language =
+    .labelText = Elige le lingua
+sc-submit-button =
+    .submitText = Inviar
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Adder un lingua
+sc-add-err-unexpected = Responsa inexpectate del servitor
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Confirmar
 
 ## LANGUAGE INFO
 
 
 ## LOGIN
 
+sc-login-err-failed = Authentication fallite
+sc-login-err-try-again = Retenta.
 
 ## PROFILE
 
+sc-profile-title = Profilo: { $username }
+sc-personal-your-languages = Tu linguas:
+sc-personal-remove-button = remover
 
 ## REVIEW CRITERIA
 
