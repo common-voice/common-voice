@@ -366,8 +366,12 @@ review-keep-recordings = ዲብ ትስጂል ኣስተምር
 
 language = ሉቀት
 cv-license = ሩኽሰት
+size-gigabyte = GB
+size-megabyte = MB
 validated-hours = ላትሓቀቅያ ሳዓት
 recorded-hours = ላትስጅለያ ሳዓት
+data-other-ted-name = TED-LIUM Corpus
+go-discourse = Discourse ጊሶ
 
 ## Download Modal
 
@@ -380,6 +384,7 @@ download-no = ላ ሹክረን
 
 contact-form-name =
     .label = ሰም
+contact-required = *ላለትሓዘ
 
 ## Request Language Modal
 
@@ -391,6 +396,8 @@ other-language = ብዕድ ሉቀት
 
 ## Languages Overview
 
+language-search-input =
+    .placeholder = ደውር
 
 ## Contribution
 
