@@ -267,6 +267,8 @@ english = እንግሊዚ
 
 profile-form-native-language =
     .label = ሉቀት ኡም
+profile-form-additional-language =
+    .label = ሉቀት ዝያደት
 profile-form-accent =
     .label = ለክነት
 profile-form-age =
@@ -328,6 +330,7 @@ about-listen-queue = ናይ ሰምዓት ጣቡር
 about-listen = ሰምዖ
 about-yes-votes = ዝያድ ከልኦት ናይ አይዋ ተስዊት
 about-no-votes = ዝያድ ከልኦት ናይ ላአ ተስዊት
+about-clip-graveyard = ቀብር ናይ ክሊፕ
 about-partners = ሹረካአና
 about-become-a-partner = ሸሪክና ግባአ
 about-get-involved = ምስልና ሳህም
