@@ -1138,6 +1138,7 @@ sc-submit-confirm = Io confirma que iste phrases es de <wikipediaLink>dominio pu
 sc-submit-button =
     .submitText = Inviar
 sc-submit-filtered = Phrases filtrate per falta de requisitos (invia le versiones corrigite como nove phrases):
+sc-submit-guidelines = Verifica le <howToLink>lineas guida</howToLink>.
 
 ## ADD LANGUAGE
 
