@@ -1017,9 +1017,9 @@ sc-logout-button = 登出
 ## HOME
 
 sc-home-title = 歡迎使用 Common Voice Sentence Collector
-sc-home-intro = Sentence Collector 是 <commonVoiceLink>Common Voice</commonVoiceLink> 專案的一部分。此收集器讓專案貢獻者能夠收集驗證由社群成員提供的語句。您也可以使用此工具來匯入、清理網路上找到或收集的小規模到中規模公開領域語料庫。所有語句都必須為公開領域內容，每週會將通過審核的句子匯入到 Common Voice 的 repository，再於每次部署時發布到網站上。
+sc-home-intro = Sentence Collector 是 <commonVoiceLink>Common Voice</commonVoiceLink> 專案的一部分。此收集器讓專案貢獻者能夠收集驗證由社群成員提供的語句。您也可以使用此工具來匯入、清理網路上找到或收集的小規模到中規模公眾領域語料庫。所有語句都必須為公開領域內容，每週會將通過審核的句子匯入到 Common Voice 的 repository，再於每次部署時發布到網站上。
 sc-home-collect-title = 收集句子
-sc-home-collect-text = 透過撰寫或收集公開領域的語句來幫助我們增加內容。
+sc-home-collect-text = 透過撰寫或收集公眾領域的語句來幫助我們增加內容。
 sc-home-review-title = 審核句子
 sc-home-review-text = 幫助我們依照下列標準來審核語句是否正確。
 
@@ -1029,9 +1029,12 @@ sc-howto-title = 如何做
 sc-howto-addlang-title = 新增要貢獻的語言
 sc-howto-addlang-text = 登入後，就可以從個人資料頁面段落選擇您要貢獻哪些語言的句子。
 sc-howto-addsen-title = 新增句子
-sc-howto-addsen-item-1 = 您送出的所有句子必須皆符合<wikipediaLink>公開領域（CC-0）授權條款</wikipediaLink>。為了讓未使用公眾授權條款的著作也能加入，我們準備了一份<cc0WaiverLink>貢獻授權條款範本</cc0WaiverLink>協助讓願意將著作貢獻給 Common Voice 著作權人將作品轉換為公共作品。
+sc-howto-addsen-item-1 = 您送出的所有句子必須皆符合<wikipediaLink>公眾領域（CC-0）授權條款</wikipediaLink>。為了讓未使用公眾授權條款的著作也能加入，我們準備了一份<cc0WaiverLink>貢獻授權條款範本</cc0WaiverLink>協助讓願意將著作貢獻給 Common Voice 著作權人將作品轉換為公共作品。
 sc-howto-addsen-item-2 = 數字，原文段落中不應包含數字，因為會在唸出來的時候造成問題。數字的念法需依上下文而定，可能會在資料集中造成混淆。舉例來說，數字「2409」有時會念成「兩千四百零九」，也有可能念成「二四零九」。
 sc-howto-addsen-item-3 = 縮寫與首字省略詞（Acronyms）。由於諸如「USA」或「ICE」這類縮寫或將首字母合併在一起的省略詞的念法可能與文字本身不同，應該避免於原文段落中出現。此外，單一縮寫可能也會有多個不同的正確唸法，例如「ICE」可以被念成「I-C-E」或是單一個字的「ICE」。
+sc-howto-addsen-item-4 = 標點符號。應該只在有絕對必要的時候才加入特殊符號及標點。舉例來說，英文字「don’t」、「we’re」當中的撇號（apostrophe）應該包含在原文段落中，但不太可能會需要「@」或「#」等特殊符號。
+sc-howto-addsen-item-5 = 外語文字。必須使用原文語言所使用的相關文字或字母，舉例來說：「ж」是俄語字母，但英文或中文都不會用到，因此不該包含在原文中。
+sc-howto-addsen-item-6 = 各種語言可能會有<validationRulesLink>自己的審核規則</validationRulesLink>。若各語言沒有自己的驗證檔案，則使用英語通用規則。
 sc-howto-cite-title = 如何引用
 sc-howto-cite-item-1 = 您可以包含網址，例如「Common Voice - https://commonvoice.mozilla.org/」
 sc-howto-cite-item-2 = 您也可以使用學術參考文獻格式，例如哈佛格式「Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)」
@@ -1042,7 +1045,10 @@ sc-howto-review-criteria-1 = 句子必須拼得正確。
 sc-howto-review-criteria-2 = 句子的文法必須正確。
 sc-howto-review-criteria-3 = 句子必須說得出來。
 sc-howto-review-criteria-4 = 若句子符合上述標準，請點擊「通過」按鈕。
+sc-howto-review-criteria-6 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
+sc-howto-findpd-title = 尋找已使用公眾領域授權的句子
 sc-howto-findpd-subtitle = 到網路上搜搜看
+sc-howto-findpd-text = 請記得我們還是需要獲得授權才可以發布這些句子，所以請務必確定所有文字都是<wikipediaLink>公眾領域</wikipediaLink>的句子。若您找到的句子沒有註明授權條款，請聯絡著作權人確認使否可以使用他們的句子。
 sc-howto-findpd-tips = 以下是尋找句子的一些小秘訣：
 
 ## MY SENTENCES
@@ -1077,16 +1083,17 @@ sc-stats-summary = Common Voice Sentence Collector 已經收集了 { $languageCo
 sc-submit-err-select-lang = 請選擇語言。
 sc-submit-err-add-sentences = 請新增句子。
 sc-submit-err-add-source = 請新增來源。
-sc-submit-err-confirm-pd = 請確認這些句子是公有領域的句子。
+sc-submit-err-confirm-pd = 請確認這些句子是公眾領域的句子。
 sc-submit-prompt =
     .message = 句子尚未送出，您確定要離開嗎？
 sc-submit-title = 新增句子
 sc-submit-select-language =
     .labelText = 選擇語言
-sc-submit-add-sentences = 新增<wikipediaLink>公有領域（Public Domain）</wikipediaLink>的句子
+sc-submit-add-sentences = 新增<wikipediaLink>公眾領域（Public Domain）</wikipediaLink>的句子
 sc-submit-ph-one-per-line =
     .placeholder = 一行一句
-sc-submit-from-where = 這些<wikipediaLink>公有領域（Public Domain）</wikipediaLink>的句子來自何處？
+sc-submit-from-where = 這些<wikipediaLink>公眾領域（Public Domain）</wikipediaLink>的句子來自何處？
+sc-submit-confirm = 我確認這些句子都已經以<wikipediaLink>公眾領域條款</wikipediaLink>授權公開，而且我有權上傳。
 sc-submit-button =
     .submitText = 送出
 sc-submit-guidelines = 請參考<howToLink>審核指南</howToLink>。
