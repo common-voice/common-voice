@@ -988,9 +988,14 @@ contribution-just-unsure-title = 無法決定嗎？
 contribution-just-unsure-description = 如果你遇到本指南中沒有涵蓋的狀況，還請自行盡力判斷。如果真的很難決定，直接按下「略過」到下一句去吧。
 see-more = <chevron></chevron>看更多
 see-less = <chevron></chevron>看更少
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = 首頁
 sc-header-how-to = 如何做
 sc-header-add = 新增
@@ -1008,11 +1013,18 @@ sc-footer-terms = 使用條款
 sc-footer-cookies = Cookie
 sc-login-signup-button = 登入 / 註冊
 sc-logout-button = 登出
+
+## HOME
+
 sc-home-title = 歡迎使用 Common Voice Sentence Collector
+sc-home-intro = Sentence Collector 是 <commonVoiceLink>Common Voice</commonVoiceLink> 專案的一部分。此收集器讓專案貢獻者能夠收集驗證由社群成員提供的語句。您也可以使用此工具來匯入、清理網路上找到或收集的小規模到中規模公開領域語料庫。所有語句都必須為公開領域內容，每週會將通過審核的句子匯入到 Common Voice 的 repository，再於每次部署時發布到網站上。
 sc-home-collect-title = 收集句子
 sc-home-collect-text = 透過撰寫或收集公開領域的語句來幫助我們增加內容。
 sc-home-review-title = 審核句子
 sc-home-review-text = 幫助我們依照下列標準來審核語句是否正確。
+
+## HOW-TO
+
 sc-howto-title = 如何做
 sc-howto-addlang-title = 新增要貢獻的語言
 sc-howto-addlang-text = 登入後，就可以從個人資料頁面段落選擇您要貢獻哪些語言的句子。
@@ -1030,6 +1042,9 @@ sc-howto-review-criteria-3 = 句子必須說得出來。
 sc-howto-review-criteria-4 = 若句子符合上述標準，請點擊「通過」按鈕。
 sc-howto-findpd-subtitle = 到網路上搜搜看
 sc-howto-findpd-tips = 以下是尋找句子的一些小秘訣：
+
+## MY SENTENCES
+
 sc-my-title = 我的句子
 sc-my-loading = 正在載入您的語句…
 sc-my-err-fetching = 取得您的句子時發生錯誤，請稍候再試。
@@ -1039,20 +1054,24 @@ sc-my-source = 來源：{ $source }
 sc-my-delete = 刪除選取的語句
 sc-my-deleting = 刪除選取的語句…
 sc-my-err-failed-delete = 選取的語句刪除失敗…請再試一次！
-sc-profile-title = 個人資料：{ $username }
+
+## REJECTED
+
 sc-rejected-title = 被拒絕的句子
 sc-rejected-loading = 正在載入被拒絕的句子…
 sc-rejected-err-fetching = 取得被拒絕的句子時發生錯誤，請稍候再試。
 sc-rejected-none-found = 找不到被拒絕的句子！
-sc-review-lang-not-selected = 您尚未選擇任何語言，請到<profileLink>個人資料頁面</profileLink>選擇要貢獻的語言。
-sc-review-title = 審核句子
-sc-review-loading = 正在載入語句…
-sc-review-select-language = 請選擇語言來審核句子。
+
+## STATS
+
 sc-stats-title = 統計資訊
 sc-stats-last-update = 最後更新：{ $lastUpdate }
 sc-stats-last-update-never = 最後更新：從未
 sc-stats-updating = 更新中…
 sc-stats-summary = Common Voice Sentence Collector 已經收集了 { $languageCount } 種語言的 { $sentenceCount } 個句子！
+
+## ADD
+
 sc-submit-err-select-lang = 請選擇語言。
 sc-submit-err-add-sentences = 請新增句子。
 sc-submit-err-add-source = 請新增來源。
@@ -1069,6 +1088,9 @@ sc-submit-from-where = 這些<wikipediaLink>公有領域（Public Domain）</wik
 sc-submit-button =
     .submitText = 送出
 sc-submit-guidelines = 請參考<howToLink>審核指南</howToLink>。
+
+## ADD LANGUAGE
+
 sc-add-lang-could-not-add = 無法新增語言
 sc-add-lang-sec-label = 新增您想要貢獻的語言
 sc-add-lang-sec-button = 新增語言
@@ -1079,6 +1101,9 @@ sc-add-err-failed =
        *[other] { $sentences } 句送出失敗
     }
 sc-add-err-submission = 送出失敗
+
+## ADD SENTENCES CONFIRMATION
+
 sc-confirm-are-you-sure =
     .message = 句子尚未送出，您確定要離開嗎？
 sc-confirm-sentences-title = 確認新句子
@@ -1099,6 +1124,9 @@ sc-confirm-ready =
        *[other] 已經有 { $readyCount } 句準備好可以送出！
     }
 sc-confirm-button-text = 確認
+
+## LANGUAGE INFO
+
 sc-lang-info-total =
     { $totalSentences ->
         [0] 沒有句子。
@@ -1126,14 +1154,24 @@ sc-lang-info-rejected =
         [0] 沒有被退回的句子。
        *[other] { $rejectedSentences } 句被退回的句子。
     }
+
+## LOGIN
+
 sc-login-err-failed = 登入失敗
 sc-login-err-try-again = 請再試一次。
+
+## PROFILE
+
+sc-profile-title = 個人資料：{ $username }
 sc-personal-err-lang-not-found = 無法移除語言：找不到語言
 sc-personal-err-remove = 無法移除語言
 sc-personal-your-languages = 您的語言：
 sc-personal-remove-button = 移除
 sc-personal-added-by-you = 您新增了 { $sentences } 句
 sc-personal-not-added = 您尚未加入任何語言。
+
+## REVIEW CRITERIA
+
 sc-criteria-modal = ⓘ 審核標準
 sc-criteria-title = 審核標準
 sc-criteria-item-1 = 句子必須拼得正確。
@@ -1141,6 +1179,13 @@ sc-criteria-item-2 = 句子的文法必須正確。
 sc-criteria-item-3 = 句子必須說得出來。
 sc-criteria-item-4 = 若句子符合上述標準，請點擊右方的「通過」按鈕。
 sc-criteria-item-6 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
+
+## REVIEW
+
+sc-review-lang-not-selected = 您尚未選擇任何語言，請到<profileLink>個人資料頁面</profileLink>選擇要貢獻的語言。
+sc-review-title = 審核句子
+sc-review-loading = 正在載入語句…
+sc-review-select-language = 請選擇語言來審核句子。
 sc-review-form-prompt =
     .message = 尚未送出語句審核結果，確定嗎？
 sc-review-form-usage = 向右滑可以通過審核句子、向左滑拒絕、向上滑略過。<strong>別忘記送出您的審核結果！</strong>
@@ -1148,6 +1193,7 @@ sc-review-form-source = 來源：{ $sentenceSource }
 sc-review-form-button-reject = 退回
 sc-review-form-button-skip = 略過
 sc-review-form-button-approve = 通過
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
 sc-review-form-keyboard-usage = 您還可以使用快速鍵：按 Y 通過、按 N 退回、按 S 略過
 sc-review-form-button-submit =
     .submitText = 完成審核
@@ -1158,6 +1204,9 @@ sc-review-form-reviewed-message =
     }
 sc-review-form-review-failure = 無法儲存審核結果，請稍候再試。
 sc-review-link = 審核
+
+## SETTINGS
+
 sc-settings-title = 設定
 sc-settings-reset-skipped = 重設略過的句子
 sc-settings-show-all-button = 再次顯示略過的句子
