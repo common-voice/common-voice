@@ -1115,13 +1115,22 @@ sc-stats-title = Statistica
 sc-stats-last-update = Ultime actualisation: { $lastUpdate }
 sc-stats-last-update-never = Ultime actualisation: nunquam
 sc-stats-updating = Actualisation...
+sc-stats-summary = Common Voice Sentence Collector ha colligite { $sentenceCount } phrases in { $languageCount } linguas!
 
 ## ADD
 
 sc-submit-err-select-lang = Elige un lingua
 sc-submit-err-add-sentences = Adde phrases.
+sc-submit-err-add-source = Adde un fonte.
+sc-submit-err-confirm-pd = Confirma que iste phrases es de dominio public.
+sc-submit-prompt =
+    .message = Phrases non inviate, desira tu vermente exir?
+sc-submit-title = Adder phrases
 sc-submit-select-language =
     .labelText = Elige le lingua
+sc-submit-add-sentences = Adder phrases de <wikipediaLink>dominio public</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Un singule phrase per linea
 sc-submit-button =
     .submitText = Inviar
 
@@ -1159,9 +1168,11 @@ sc-review-form-source = Fonte: { $sentenceSource }
 sc-review-form-button-reject = Rejectar
 sc-review-form-button-skip = Saltar
 sc-review-form-button-approve = Approbar
+sc-review-link = Revider
 
 ## SETTINGS
 
+sc-settings-title = Parametros
 
 # [/SentenceCollector]
 
