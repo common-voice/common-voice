@@ -1257,10 +1257,17 @@ sc-review-title = Revider phrases
 sc-review-loading = Cargante phrases…
 sc-review-select-language = Elige un lingua pro revider le phrases.
 sc-review-no-sentences = Nulle phrases a revider. <addLink>Adde altere phrases ora!</addLink>
+sc-review-form-prompt =
+    .message = Le phrases revidite non es inviate! Es tu secur?
+sc-review-form-usage = Glissa a dextera pro approbar le phrase. Glissa a sinistra pro rejectar lo. <strong>Non oblida de inviar tu revision!</strong>
 sc-review-form-source = Fonte: { $sentenceSource }
 sc-review-form-button-reject = Rejectar
 sc-review-form-button-skip = Saltar
 sc-review-form-button-approve = Approbar
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = Tu alsi pote usar le vias breve de claviero: Y pro Approbar, N pro Rejectar, S pro Saltar
+sc-review-form-button-submit =
+    .submitText = Finir revision
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] No sentences reviewed.
