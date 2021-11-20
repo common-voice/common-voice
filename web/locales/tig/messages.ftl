@@ -104,6 +104,7 @@ mhr = ሜዶው ማሪ
 mk = ማቄዶኒ
 ml = ማላያላም
 mn = ሞንጎሊ
+mni = Meetei Lon
 mos = ሞሲ
 mr = ማሃራቲ
 mrj = ሒል ማሪ

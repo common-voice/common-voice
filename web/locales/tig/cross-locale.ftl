@@ -3,6 +3,7 @@
 contribute = ሳህሞ
 get-involved-button = ምስልና ሳህም
 get-involved-title = አግል { $lang } ሳህሞ
+get-involved-text = ዲብ ሉቀት { $lang } ገል ትሳህሞ አህትማምኩም ንሸክር ። ኩላ ሉቀት እገል ንጀህዛ ው ንኣትያ ው ኩሎም ፍረቅ እብ ኢሜል እገል ናሰእሎም ብዙሕ ንሻቄ ። እገል ትሳህሞ ምን ታሓዙ ኢመልኩም ታሓት ኣቱ
 get-involved-form-title = ሰጀሎ ናይ { $lang } ላሓደሳ አገል ለብፃሓኹም
 get-involved-email =
     .label = ኢመይል
