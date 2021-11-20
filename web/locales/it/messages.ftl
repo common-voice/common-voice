@@ -1002,9 +1002,17 @@ sc-header-my = Le mie frasi
 sc-header-statistics = Statistiche
 sc-header-profile = Profilo
 sc-footer-discourse = Discourse
+sc-footer-translate = Traduci questa pagina
+sc-footer-report-copyright = Segnala problemi di copyright
+sc-footer-privacy = Privacy
+sc-footer-terms = Condizioni di utilizzo
+sc-footer-cookies = Cookie
+sc-logout-button = Disconnetti
 
 ## HOME
 
+sc-home-collect-title = Raccogli frasi
+sc-home-review-title = Convalida frasi
 
 ## HOW-TO
 
