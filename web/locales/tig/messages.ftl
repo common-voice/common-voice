@@ -403,9 +403,13 @@ language-search-input =
 
 listen = ሰምዖ
 record-cta = ተስጂል ኣንብቶ
+record-no-mic-found = መክረፎን ኢትረከባኒ
 record-error-too-short = ላተስጂል ብዙሕ ሓጭራ
 record-error-too-long = ላተስጂል ብዙሕ ረይማ
+record-error-too-quiet = ሶትላ ተስጂል ብዙሕ ዳሃራ
+record-stop-instruction = { $actionType }<stopIcon></stopIcon>ክም ኣኽለስኹም
 record-three-more-instruction = ሰለስ ተርፈያ!
+record-again-instruction = ሳኒ! <recordIcon></recordIcon> ሓቆሃ ላህሌት ክሊፕ ስጅል
 record-last-instruction = <recordIcon></recordIcon>ኣኽራይት!
 record-abort-title = ሰልፍ ተስጂል ታኣኽልሶ?
 record-abort-continue = ተስጂል ኣኽልሶ
