@@ -211,21 +211,59 @@ vote-no = ꯅꯠꯇꯦ
 speak-subtitle = ꯅꯍꯥꯛꯀꯤ ꯈꯣꯟꯖꯦꯜ ꯈꯨꯗꯣꯜ ꯇꯝꯊꯣꯛꯎ
 all-locales = ꯑꯄꯨꯟꯕ
 today = ꯉꯁꯤ
+x-weeks-short =
+    { $count ->
+        [one] ꯆꯩꯌꯣꯜ ꯱
+       *[other] ꯆꯩꯌꯣꯜ { $count }
+    }
+x-months-short =
+    { $count ->
+        [one] ꯊꯥ ꯱
+       *[other] ꯊꯥ { $count }
+    }
+x-years-short =
+    { $count ->
+        [one] ꯆꯩꯍꯤ ꯱
+       *[other] ꯆꯩꯍꯤ { $count }
+    }
 
 ## Account Benefits
 
+benefits = ꯀꯥꯟꯅꯕ ꯐꯪꯒꯗꯕꯁꯤꯡ
 
 ## What's public
 
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ꯍ
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = ꯊ
+shortcut-play-toggle-label = ꯊꯥꯎ/ꯂꯦꯞꯄꯨ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ꯆ
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ꯂ
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ꯇ
+shortcut-record-toggle-label = ꯔꯦꯀ꯭ꯣꯔꯗ/ꯂꯦꯞꯄꯨ
+shortcut-rerecord-toggle = [꯱-꯲]
+shortcut-rerecord-toggle-label = ꯑꯃꯨꯛ ꯍꯟꯅ ꯔꯦꯀ꯭ꯔꯗ ꯇꯧꯈꯔꯕꯁꯤꯡ
+shortcut-discard-ongoing-recording = ꯑꯃꯨꯛꯍꯟꯕ
+shortcut-submit = ꯍꯟꯂꯨ
+request-language-text = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜꯒꯤꯗ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯟ ꯎꯗ꯭ꯔꯤꯕ ꯍꯧꯖꯤꯛꯁꯨ ?
+request-language-button = ꯂꯣꯟ ꯱ ꯍꯪꯒꯠꯆꯕ
 
 ## ProjectStatus
 
