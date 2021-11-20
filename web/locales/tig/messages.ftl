@@ -202,7 +202,9 @@ show-wall-of-text = ዝያዳት ቀርኦ
 vote-yes = ኣይዋ
 vote-no = ኢፋል
 speak-subtitle = አብ ሶትኩም አትበራዖ
+speak-goal-text = ክሊፕ ሳጃላ
 listen-subtitle = ኣስዋት አግል ንሓቅቅ ሳዕድና
+listen-goal-text = ክሊፕ ታሓቃቃ
 hours-recorded = ላትሰጀለያ ሳዓት
 hours-validated = ላትሓቀቀያ ሳዓት
 todays-progress = ናይ ዮም ትቅዱም
@@ -227,6 +229,7 @@ x-years-short =
        *[other] ሰነት
     }
 sign-up-account = ሕሳብ ሰጅሎ
+email-subscription-title = ሸጅሎ ናይ ኢማል ታሕዲስ ኤግል ትርከቦ
 
 ## Account Benefits
 
