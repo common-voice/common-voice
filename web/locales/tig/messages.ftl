@@ -189,6 +189,8 @@ terms = ሽሩጥ
 cookies = ክዓክ
 faq = ዲማ ላልትሳኣሉ ኣስአለት
 share-title = ብዕዳም አብ ሶቶም ለልሳህሞ አግል ንርከብ ስዓደና
+share-text = አለት ኣዳም ናይ ኣማን ከፎ ከምለትሃገ አግኤል ትትዓለም ገል ትሳዕዳ አብ ሶትኩም { $link } እትበረዖ
+back-top = ላዓል ኣቅብል
 logout = ፍገር
 
 ## Home Page
@@ -264,6 +266,8 @@ hidden = ሕቡዕ
 visible = ርኡይ
 native-language =
     .label = ሉቀት ኡም
+male = ተብዕን
+female = ኣንሰት
 # Gender
 other = ብዕድ
 avatar = ሱረት
