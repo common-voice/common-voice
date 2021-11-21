@@ -32,20 +32,20 @@ arn = ماپودونگی
 as = ئاسامی
 ast = ئاستۆری
 az = ئازەری
-ba = باشکیەر
+ba = باشکیر
 bas = باسا
-be = بێلاڕووسی
-bg = بولغاری
+be = بیلاڕووسی
+bg = بولگاری
 bm = بامبارا
 bn = بەنگالی
 br = بریتۆن
 bxr = بوریاتی
 ca = کەتەلۆنی
 cak = کاکچیکیلی
-ckb = کوردی ناوەندی
+ckb = کوردیی ناوەندی
 cnh = هاکای چینی
 co = کۆرسیکی
-cs = چیک
+cs = چیکی
 cv = چووڤاش
 cy = وێڵز
 da = دانیمارکی
@@ -55,7 +55,7 @@ dv = دیڤێهی
 el = یۆنانی
 en = ئینگلیزی
 eo = ئێسپڕانتۆ
-es = ئسپانیایی
+es = ئیسپانی
 et = ئەستۆنی
 eu = باسکی
 fa = فارسی
@@ -904,9 +904,14 @@ contribution-volume-title = پلەی دەنگ
 contribution-just-unsure-title = دڵنیا نیت؟
 see-more = <chevron></chevron>زیاتر ببینە
 see-less = <chevron></chevron>کەمتر ببینە
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = ماڵەوە
 sc-header-how-to = چۆن-دەکرێت
 sc-header-add = زیادکردن
@@ -924,16 +929,25 @@ sc-footer-terms = مەرجەکان
 sc-footer-cookies = شەکرۆکەکان
 sc-login-signup-button = چوونەژوور/خۆتۆمارکردن
 sc-logout-button = چوونەدەرەوە
+
+## HOME
+
 sc-home-title = بەخێربێی بۆ کۆکەرەوەی ڕستەی Common Voice
 sc-home-collect-title = ڕستە کۆبکەرەوە
 sc-home-collect-text = یارمتەیمان بدە بۆ نووسینی یان کۆکردنەوەی ڕستە لە دۆماینی گشتی.
 sc-home-review-title = پێداچوونەوەی ڕستە
+
+## HOW-TO
+
 sc-howto-title = چۆن دەکرێت
 sc-howto-addlang-title = زمان زیاد بکە بۆ ئەوەی کاری تێدابکرێت
 sc-howto-addlang-text = هەر کاتێک چوویتەژوورەوە دەتوانیت زمانێک هەڵبژێریت لە بەشی پەڕەی کەسی.
 sc-howto-addsen-title = ڕستەی نوێ زیادبکە
 sc-howto-review-title = پێداچوونەوەی ڕستە
 sc-howto-findpd-subtitle = بۆیان بگەڕێ لە ئینتەرنیت
+
+## MY SENTENCES
+
 sc-my-title = ڕستەکانم
 sc-my-loading = بارکردنی ڕستەکانت...
 sc-my-err-fetching = هەڵە ڕوویدا لە کاتی ناردنی ڕستەکانت. تکایە دووبارە هەوڵ بدەرەوە.
@@ -942,17 +956,23 @@ sc-my-source = سەرچاوە:{ $source }
 sc-my-delete = ڕستەی دیاریکراو بسڕەوە
 sc-my-deleting = ڕستە دیاریکراوەکان دەسڕێنەوە...
 sc-my-err-failed-delete = نەتوانرا ڕستە دیاریکراوەکان بسڕێنەوە... تکایە دووبارە هەوڵ بدەرەوە!
-sc-profile-title = پەڕەی کەسی: { $username }
+
+## REJECTED
+
 sc-rejected-title = ڕستە پەسەند نەکراوەکان
 sc-rejected-loading = بارکردنی ڕستە پەسەند نەکراوەکان...
 sc-rejected-err-fetching = هەڵە ڕوویدا لە کاتی ناردنی ڕستە پەسەند نەکراوەکان. تکایە دووبارە هەوڵ بدەرەوە.
 sc-rejected-none-found = هیج ڕستەیەکی پەسەند نەکراو نەدۆزرایەوە!
-sc-review-title = پێداچوونەوەی ڕستە
-sc-review-loading = بارکردنی ڕستەکان...
+
+## STATS
+
 sc-stats-title = ئامار
 sc-stats-last-update = کۆتا نوێکردنەوە: { $lastUpdate }
 sc-stats-last-update-never = کۆتا نوێکردنەوە: نییە
 sc-stats-updating = نوێکردنەوە...
+
+## ADD
+
 sc-submit-err-select-lang = تکایە زمانێک هەڵبژێرە.
 sc-submit-err-add-sentences = تکایە ڕسیتەیەک زیاد بکە.
 sc-submit-err-add-source = تکایە سەرچاوە زیاد بکە.
@@ -966,18 +986,37 @@ sc-submit-ph-one-per-line =
     .placeholder = هەر ڕستەو لە دێڕێکدا بێت
 sc-submit-button =
     .submitText = ناردن
+
+## ADD LANGUAGE
+
 sc-add-lang-could-not-add = نەتوانرا زمان زیادبکرێت
 sc-add-lang-sec-button = زمان زیاد بکە
 sc-add-err-unexpected = وەڵامێکی چاوەڕواننەکراو لە ڕاژەوە
+
+## ADD SENTENCES CONFIRMATION
+
 sc-confirm-button-text = دڵنیابوونەوە
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
 sc-login-err-failed = چوونەژوورەوە سەرکەوتوو نەبوو
 sc-login-err-try-again = تکایە دووبارە هەوڵ بدەرەوە.
+
+## PROFILE
+
+sc-profile-title = پەڕەی کەسی: { $username }
 sc-personal-err-lang-not-found = نەتوانرا زمان بسرێتەوە: زمان بوونی نیە
 sc-personal-err-remove = نەتوانرا زمان بسڕێتەوە
 sc-personal-your-languages = زمانەکانی تۆ
 sc-personal-remove-button = سڕینەوە
 sc-personal-added-by-you = { $sentences } زیادکراوە لە لایەن تۆوە
 sc-personal-not-added = تا ئێستا هیچ زمانێکت زیاد نەکردووە.
+
+## REVIEW CRITERIA
+
 sc-criteria-modal = ⓘ پێوەری پێداچوونەوە
 sc-criteria-title = پێوەری پێداچوونەوە
 sc-criteria-make-sure = دڵنیابە کە ڕستەکان لەگەڵ ئەم پێوەرانەدا دەگونجیت:
@@ -986,6 +1025,11 @@ sc-criteria-item-2 = دەبێت ڕستەکە بەشێوەیەکی ڕێزمانی
 sc-criteria-item-3 = دەبێت ڕستەکە بوترێت.
 sc-criteria-item-4 = ئەگەر ڕستەکە لەگەڵ پێوەرەکاندا گونجا، کرتە بکە لە دوگمەی &quot; سەلماندن &quot; لە لای ڕاستەوە.
 sc-criteria-item-5 = ئەگەر ڕستەکە لەگەڵ پێوەرەکاندا نەگونجا، کرتە بکە لە دوگمەی &quot; پەسەند نەکردن&quot; لە لای ڕاستەوە. ئەگەر دڵنیا نەبوویت لە ڕستەکە، دەتوانیت تێیپەرێنی و بچیتە ڕستەیەکی تر.
+
+## REVIEW
+
+sc-review-title = پێداچوونەوەی ڕستە
+sc-review-loading = بارکردنی ڕستەکان...
 sc-review-form-source = سەرچاوە:{ $sentenceSource }
 sc-review-form-button-reject = پەسەندنەکردن
 sc-review-form-button-skip = تێپەڕاندن
@@ -993,6 +1037,9 @@ sc-review-form-button-approve = سەلماندن
 sc-review-form-button-submit =
     .submitText = پێداچوونەوە تەواو بکە
 sc-review-link = پێداچوونەوە
+
+## SETTINGS
+
 sc-settings-title = ڕێکخستنەکان
 
 # [/SentenceCollector]
