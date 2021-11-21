@@ -1045,13 +1045,21 @@ sc-howto-title = Nasıl yapılır
 sc-howto-addlang-title = Üzerinde çalışacağınız dilleri ekleme
 sc-howto-addlang-text = Giriş yaptıktan sonra profil bölümünden dillerinizi seçebilirsiniz.
 sc-howto-addsen-title = Yeni cümleler ekleme
+sc-howto-addsen-item-1 = Gönderdiğiniz tüm cümleler <wikipediaLink>Kamu Malı / Public Domain (CC-0) lisansı</wikipediaLink> kapsamında olmalıdır. Kamu malı lisansı kapsamında olmayan çalışmaların dahil edilebilmesi için bir <cc0WaiverLink>Katkı Sözleşmesi şablonu</cc0WaiverLink> oluşturduk. Telif hakkı sahibi, kendisine ait malzemelerin Common Voice'ta kullanabilmesi için bu şablonu kullanabilir.
+sc-howto-addsen-item-2 = Sayılar. Kaynak metinde rakamlar olmamalıdır çünkü sesli okunduğunda sorun yaratabilirler. Bir sayının okunma şekli bağlama bağlıdır ve veri kümesinde karışıklığa neden olabilir. Örneğin, “2409” sayısı hem “yirmi dört sıfır dokuz” hem de “iki bin dört yüz dokuz” olarak doğru bir şekilde okunabilir.
+sc-howto-addsen-item-4 = Noktalama işaretleri. Özel semboller ve noktalama işaretleri yalnızca kesinlikle gerekli olduğunda dahil edilmelidir. Örneğin, "Ahmet'in" ve "N'aber?" gibi sözcüklerdeki kesme işareti kaynak metne dahil edilmelidir, ancak büyük olasılıkla "@" veya "#" gibi özel sembollere ihtiyacınız olmayacaktır.
+sc-howto-addsen-item-5 = Yabancı harfler. Harfler konuşulan dilde geçerli olmalıdır. Örneğin, "ж" Rus alfabesinde bir harftir ancak Türkçede asla kullanılmaz ve bu nedenle hiçbir Türkçe kaynak metinde yer almamalıdır.
+sc-howto-addsen-item-6 = Diller <validationRulesLink>kendi doğrulama kurallarına</validationRulesLink> ve ek zorunluluklara sahip olabilir. Bir dil için belirli bir doğrulama dosyası yoksa genel İngilizce kurallarını kullanıyoruz.
 sc-howto-cite-title = Nasıl alıntı yapılır?
 sc-howto-cite-item-1 = Web sitesi adresini verebilirsiniz. Örn. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Cümleleri inceleme
 sc-howto-review-subtitle = Cümlenin aşağıdaki kriterleri karşıladığından emin olun:
+sc-howto-review-criteria-1 = Cümle, yazım kurallarına uygun olarak yazılmış olmalıdır.
 sc-howto-review-criteria-2 = Cümle dilbilgisi açısından doğru olmalıdır.
 sc-howto-review-criteria-3 = Cümle sesli olarak okunabilir olmalıdır.
 sc-howto-review-criteria-4 = Cümle kriterleri karşılıyorsa "Onayla" düğmesini tıklayın.
+sc-howto-review-criteria-5 = Cümle yukarıdaki kriterleri karşılamıyorsa "Reddet" düğmesine tıklayın. Cümleden emin değilseniz onu atlayabilir ve bir sonrakine geçebilirsiniz.
+sc-howto-review-criteria-6 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
 sc-howto-findpd-title = Mevcut kamu malı cümleleri bulma
 sc-howto-findpd-subtitle = İnternette arayın
 sc-howto-findpd-tips = Cümleleri bulmak için bazı ipuçları:
@@ -1181,6 +1189,7 @@ sc-criteria-item-2 = Cümle dilbilgisi açısından doğru olmalıdır.
 sc-criteria-item-3 = Cümle sesli olarak okunabilir olmalıdır.
 sc-criteria-item-4 = Cümle kriterleri karşılıyorsa sağdaki &quot;Onayla&quot; düğmesine tıklayın.
 sc-criteria-item-5 = Cümle yukarıdaki kriterleri karşılamıyorsa soldaki &quot;Reddet&quot; düğmesine tıklayın. Emin olmadığınız cümleleri atlayarak bir sonrakine geçebilirsiniz.
+sc-criteria-item-6 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
 
 ## REVIEW
 
@@ -1207,6 +1216,7 @@ sc-review-form-reviewed-message =
        *[other] { $sentences } cümle incelendi. Teşekkürler!
     }
 sc-review-form-review-failure = İnceleme kaydedilemedi. Lütfen daha sonra tekrar deneyin.
+sc-review-link = İncele
 
 ## SETTINGS
 
