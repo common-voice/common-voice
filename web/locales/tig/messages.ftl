@@ -415,6 +415,7 @@ record-abort-title = ሰልፍ ተስጂል ታኣኽልሶ?
 record-abort-continue = ተስጂል ኣኽልሶ
 listen-last-time-instruction = <playIcon></playIcon>ኣኽራይት!
 record-button-label = ሶትኩም ሰጀሎ
+share-title-new = <bold>ሳዕደና</bold>ብዕዳም ሙሳህሚን አግል ንርከብ
 target-segment-add-voice = ሶትኩም ወሰኮ
 target-segment-learn-more = ዘያደት አምሮ
 
