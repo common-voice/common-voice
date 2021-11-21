@@ -521,8 +521,6 @@ subscribe = Анапаҵаҩра
 get-started-speech = Ажәаҳәа аилкааразы аусура алагара
 other-datasets = Егьырҭ Абжьытә Дыррақәа Реизгақәа.
 feedback-q = Угәаанагара аныуҵа?
-deepspeech-info = Common Voice адыррақәа реизга, иаарту адыррақәа абжьы еилкаага программа DeepSpeech Mozilla аҟынтә иаагоу, ухатәы лагаламҭақәа рыҟаҵараан ухы иаурхәар улшоит.
-common-voice-info-new = Common Voice иазку азҵаарақәа умоума? Уҳалахәха, ҳара ҳфорум <discourseLink>Discourse </discourseLink> аҟны.
 data-other-librispeech-description = LibriSpeech шьақәгылоуп инықәырԥшны 1000 сааҭи 16Кгц иҟоу англыз бызшәала иҭаҩу аудионҵамҭақәа реизгақәеи, LibriVox апроект аҟнытәи иаагоу аудиошәыҟәқәеи рыла.
 data-other-ted-name = TED-LIUM аизганҵа
 data-other-ted-description = TED-LIUM аизга аԥҵан TED асаит аҟны ахархәара змоу аудио еиҿцәажәарақәеи урҭ рытранскрипциақәеи рыла.
@@ -678,7 +676,7 @@ validations =
 
 your-languages = Убызшәақәа
 toward-next-goal = Анаҩстәи ахықәкы.
-clips-you-recorded = Абжьы рхаурҵаз анҵамҭақәа
+clips-you-recorded = Абжьы зхауҵаз анҵамҭақәа
 clips-you-validated = Игәауҭаз анҵамҭақәа
 todays-recorded-progress = Common Voice аҟны иахьа анҵамҭақәа ҟаҵоуп.
 todays-validated-progress = Common Voice аҟны иахьа анҵамҭақәа гәаҭоуп.
@@ -751,6 +749,9 @@ remove-info = Адыррақәа реизга иагәылоу уара убжь
 why-delete-recordings = Common Voice анҵамҭақәа рхы иадырхәоит аҵарауаа, абизнес маҷ аҟны, иара убас абжьы еилкаагақәа зхәыцуа рзы абжьытә модельқәа рышьақәыргылараан зегьы еицырзеиԥшу аресурсқәа рырҿиареи абызшәа арҵара аус аҟны. Еилаҳкаар ҟалома уара уанҵамҭақәа рықәгара зыуҭахыу?
 profile-form-delete = Аҷыдахәра аныхтәуп
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Бзиала шәаабеит { $company } аусуҩцәа!
@@ -772,4 +773,60 @@ read-more-about = Нарҭбааны Иазкны ҳдаҟьаҿы
 
 
 ## Demo Dashboard
+
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
