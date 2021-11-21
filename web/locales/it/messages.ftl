@@ -1014,14 +1014,17 @@ sc-logout-button = Disconnetti
 ## HOME
 
 sc-home-title = Benvenuto nel Sentence Collector di Common Voice
-sc-home-intro = Sentence Collector fa parte di <commonVoiceLink>Common Voice</commonVoiceLink>. Consente ai collaboratori di raccogliere e convalidare le frasi create dalla comunità. Puoi utilizzare questo strumento anche per importare e riordinare parti di testo di dominio pubblico di piccole e medie dimensioni che hai trovato o raccolto. Tutte le frasi devono essere di dominio pubblico. Le frasi approvate vengono esportate ogni settimana nel repository di Common Voice e rilasciate sul sito di Common Voice a ogni nuova distribuzione.
+sc-home-intro = Sentence Collector fa parte di <commonVoiceLink>Common Voice</commonVoiceLink>. Consente ai collaboratori di raccogliere e convalidare le frasi create dalla comunità. Puoi utilizzare questo strumento anche per importare e riordinare parti di testo di pubblico dominio di piccole e medie dimensioni che hai trovato o raccolto. Tutte le frasi devono essere di pubblico dominio. Le frasi approvate vengono esportate ogni settimana nel repository di Common Voice e rilasciate sul sito di Common Voice a ogni nuova distribuzione.
 sc-home-collect-title = Raccogli frasi
-sc-home-collect-text = Aiutaci scrivendo o raccogliendo frasi di dominio pubblico.
+sc-home-collect-text = Aiutaci scrivendo o raccogliendo frasi di pubblico dominio.
 sc-home-review-title = Convalida frasi
 sc-home-review-text = Aiutaci convalidando le frasi per verificare che aderiscano alle linee guida.
 
 ## HOW-TO
 
+sc-howto-addlang-title = Aggiungere lingue a cui contribuire
+sc-howto-addlang-text = Una volta effettuato l‘accesso puoi selezionare le lingue dalla sezione “Profilo“
+sc-howto-addsen-title = Aggiungere nuove frasi
 
 ## MY SENTENCES
 
