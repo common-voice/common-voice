@@ -1002,17 +1002,23 @@ sc-header-my = Le mie frasi
 sc-header-statistics = Statistiche
 sc-header-profile = Profilo
 sc-footer-discourse = Discourse
+sc-footer-report-bugs = Segnala bug
 sc-footer-translate = Traduci questa pagina
 sc-footer-report-copyright = Segnala problemi di copyright
 sc-footer-privacy = Privacy
 sc-footer-terms = Condizioni di utilizzo
 sc-footer-cookies = Cookie
+sc-login-signup-button = Accedi / Registrati
 sc-logout-button = Disconnetti
 
 ## HOME
 
+sc-home-title = Benvenuto nel Sentence Collector di Common Voice
+sc-home-intro = Sentence Collector fa parte di <commonVoiceLink>Common Voice</commonVoiceLink>. Consente ai collaboratori di raccogliere e convalidare le frasi create dalla comunità. Puoi utilizzare questo strumento anche per importare e riordinare parti di testo di dominio pubblico di piccole e medie dimensioni che hai trovato o raccolto. Tutte le frasi devono essere di dominio pubblico. Le frasi approvate vengono esportate ogni settimana nel repository di Common Voice e rilasciate sul sito di Common Voice a ogni nuova distribuzione.
 sc-home-collect-title = Raccogli frasi
+sc-home-collect-text = Aiutaci scrivendo o raccogliendo frasi di dominio pubblico.
 sc-home-review-title = Convalida frasi
+sc-home-review-text = Aiutaci convalidando le frasi per verificare che aderiscano alle linee guida.
 
 ## HOW-TO
 
