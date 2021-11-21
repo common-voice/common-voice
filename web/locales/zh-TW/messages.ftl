@@ -1035,6 +1035,7 @@ sc-howto-addsen-item-3 = 縮寫與首字省略詞（Acronyms）。由於諸如�
 sc-howto-addsen-item-4 = 標點符號。應該只在有絕對必要的時候才加入特殊符號及標點。舉例來說，英文字「don’t」、「we’re」當中的撇號（apostrophe）應該包含在原文段落中，但不太可能會需要「@」或「#」等特殊符號。
 sc-howto-addsen-item-5 = 外語文字。必須使用原文語言所使用的相關文字或字母，舉例來說：「ж」是俄語字母，但英文或中文都不會用到，因此不該包含在原文中。
 sc-howto-addsen-item-6 = 各種語言可能會有<validationRulesLink>自己的審核規則</validationRulesLink>。若各語言沒有自己的驗證檔案，則使用英語通用規則。
+sc-howto-addsen-post-1 = 我們更喜歡自然、對話式的語句。雖然各種句子當中的不同腔調語音與不同單字很重要，我們希望讓錄音過程越有趣越好。引此，若您可以盡可能讓句子保持自然、讓人覺得有興趣，那就太好了。
 sc-howto-cite-title = 如何引用
 sc-howto-cite-item-1 = 您可以包含網址，例如「Common Voice - https://commonvoice.mozilla.org/」
 sc-howto-cite-item-2 = 您也可以使用學術參考文獻格式，例如哈佛格式「Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)」
