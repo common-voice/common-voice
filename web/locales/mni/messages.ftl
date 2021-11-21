@@ -209,6 +209,7 @@ help-us-title = ꯋꯥꯍꯩꯄꯔꯦꯡ ꯑꯆꯨꯝꯕ ꯑꯣꯏꯍꯟꯕꯗ �
 vote-yes = ꯍꯣꯏ
 vote-no = ꯅꯠꯇꯦ
 speak-subtitle = ꯅꯍꯥꯛꯀꯤ ꯈꯣꯟꯖꯦꯜ ꯈꯨꯗꯣꯜ ꯇꯝꯊꯣꯛꯎ
+todays-progress = ꯉꯁꯤꯒꯤ ꯈꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯟꯂꯛꯄꯁꯤꯡ
 all-locales = ꯑꯄꯨꯟꯕ
 today = ꯉꯁꯤ
 x-weeks-short =
