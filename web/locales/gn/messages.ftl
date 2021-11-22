@@ -989,14 +989,21 @@ see-less = <chevron></chevron>Ehecha’ive
 
 ## HOME
 
+sc-home-collect-title = Embyaty ñe’ẽjuaju
+sc-home-review-title = Ehechajey ñe’ẽjuaju
 
 ## HOW-TO
 
+sc-howto-title = Mba’éichapa
+sc-howto-addsen-title = Embojuaju ñe’ẽjuaju pyahu
+sc-howto-cite-title = Mba’éicha emombe’úta
+sc-howto-review-title = Ehechajey ñe’ẽjuaju
 
 ## MY SENTENCES
 
 sc-my-title = Che ñe’ẽjuaju
 sc-my-loading = Emyanyhẽ ne ñe’ẽjuaju…
+sc-my-no-sentences = ¡Ndojejuhúi ñe’ẽrysýi!
 sc-my-source = Teñoiha:  { $source }
 sc-my-deleting = Emboguehína ñe’ẽrysýi poravopyre…
 
@@ -1010,6 +1017,9 @@ sc-stats-updating = Hekopyahuhína…
 
 ## ADD
 
+sc-submit-err-add-sentences = Embojuajukuaa ñe’ẽjuaju.
+sc-submit-err-add-source = Embojuaju teñoiha.
+sc-submit-title = Embojuaju ñe’ẽjuaju
 sc-submit-button =
     .submitText = Mondo
 
@@ -1026,9 +1036,11 @@ sc-confirm-button-text = Moneĩ
 
 ## LOGIN
 
+sc-login-err-failed = Ojavy tembiapo ñepyrũ
 
 ## PROFILE
 
+sc-personal-remove-button = jeipe’a
 
 ## REVIEW CRITERIA
 
