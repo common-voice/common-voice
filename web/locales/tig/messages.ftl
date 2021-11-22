@@ -621,6 +621,9 @@ contribution-varying-pronunciations-example-1-title = On his head he wore a bere
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]
 contribution-varying-pronunciations-example-2-title = His hand was rais-ed.
 contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in English is always pronounced as one syllable, not two]
+contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong>ላ ዳይናሱር ዓቢ ምን ናይ ዘመን<strong>[cough]</strong> ትርያሲክ.
+contribution-background-noise-example-2-fixed-title = ላ ዳይናሱር ዓቢ ምን ናይ ዘመን<strong>[cough]</strong> ትርያሲክ.
+contribution-background-voices-example-1-title = ላ ዳይናሱር ዓቢ ምን ናይ ዘመን <strong>ትርያሲክ. <strong>[read by one voice]</strong>
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
