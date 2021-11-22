@@ -1197,9 +1197,15 @@ sc-review-form-source = Fonte: { $sentenceSource }
 sc-review-form-button-reject = Rifiuta
 sc-review-form-button-skip = Salta
 sc-review-form-button-approve = Approva
+sc-review-form-review-failure = Impossibile salvare le convalide. Riprova più tardi.
+sc-review-link = Convalida
 
 ## SETTINGS
 
+sc-settings-title = Impostazioni
+sc-settings-reset-skipped = Ripristina le frasi saltate
+sc-settings-skipped-decription = Mentre stavi convalidando hai saltato delle frasi. Il ripristino delle frasi saltate mostrerà di nuovo tutte le frasi saltate. Questo non dipende dalla lingua.
+sc-settings-failed = Impossibile modificare le impostazioni. Riprova.
 
 # [/SentenceCollector]
 
