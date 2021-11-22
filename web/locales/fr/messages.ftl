@@ -1055,6 +1055,7 @@ sc-howto-cite-title = Comment citer
 sc-howto-cite-pre-1 = Il est important de faire référence à l’endroit où vous avez trouvé la licence publique pour éviter le plagiat et permettre le suivi des <copyrightIssuesLink>problèmes de droits d’auteur</copyrightIssuesLink>. Voici quelques façons d’effectuer des citations.
 sc-howto-cite-item-1 = Vous pouvez inclure le site web, par exemple « Common Voice - https://commonvoice.mozilla.org/ »
 sc-howto-cite-item-2 = Vous pouvez utiliser le style de référencement académique, par exemple le style d’Harvard « Mozilla (2021) Common Voice. Disponible sur https://commonvoice.mozilla.org/ (consulté le 15 septembre 2021) »
+sc-howto-cite-item-3 = Pour le texte sous licence publique non disponible en ligne, vous pouvez utiliser le style de référencement académique, par exemple le style d’Harvard « Jess (2021) Mes poèmes sous licence publique »
 sc-howto-review-title = Vérifier les phrases
 sc-howto-review-subtitle = Assurez-vous que la phrase répond aux critères suivants :
 sc-howto-review-criteria-1 = La phrase doit être orthographiée correctement.
@@ -1064,6 +1065,7 @@ sc-howto-review-criteria-4 = Si la phrase répond aux critères, cliquez sur le 
 sc-howto-review-criteria-6 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 sc-howto-findpd-title = Trouver des phrases existantes dans le domaine public
 sc-howto-findpd-tips = Voici quelques astuces pour trouver des phrases :
+sc-howto-findpd-tips-2 = Les procédures, livres et articles gouvernementaux sont également très importants, cependant, puisque le texte a tendance à être un peu plus formel, ils sont moins prioritaires.
 
 ## MY SENTENCES
 
