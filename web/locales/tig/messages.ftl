@@ -624,6 +624,8 @@ contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in Eng
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong>ላ ዳይናሱር ዓቢ ምን ናይ ዘመን<strong>[cough]</strong> ትርያሲክ.
 contribution-background-noise-example-2-fixed-title = ላ ዳይናሱር ዓቢ ምን ናይ ዘመን<strong>[cough]</strong> ትርያሲክ.
 contribution-background-voices-example-1-title = ላ ዳይናሱር ዓቢ ምን ናይ ዘመን <strong>ትርያሲክ. <strong>[read by one voice]</strong>
+see-more = <chevron></chevron>ብዙሕ ረአ
+see-less = <chevron></chevron>ሑድ ረአ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -632,6 +634,10 @@ contribution-background-voices-example-1-title = ላ ዳይናሱር ዓቢ ም�
 
 ## HEADER/FOOTER
 
+sc-header-add = ወስኽ
+sc-header-statistics = እሕሳእ
+sc-footer-report-bugs = ትቅሪር ናይ ንቁስ
+sc-footer-translate = እላ ሰፍሓት ተርጅም
 
 ## HOME
 
@@ -651,6 +657,9 @@ sc-howto-findpd-subtitle = ዲብ ኢንተርነት ሕዝዎ
 
 ## ADD
 
+sc-submit-err-select-lang = ሉቅት ሕረው
+sc-submit-select-language =
+    .labelText = ሉቅት ሕረው
 
 ## ADD LANGUAGE
 
