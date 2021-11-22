@@ -661,6 +661,12 @@ sc-confirm-button-text = ኣክድ
 
 ## PROFILE
 
+sc-personal-err-lang-not-found = ሉቀት ትትወርከ ኢቀድርትኒ: ሉቀት ኢትረከበትኒ
+sc-personal-err-remove = ሉቀት ትትወርከ ኢቀድርትኒ
+sc-personal-your-languages = ሉቀትኩም
+sc-personal-remove-button = ወርኩዋ
+sc-personal-added-by-you = { $sentences } እንቱም ላወስኩሞ
+sc-personal-not-added = ኣስኽ አዘ ላውሰኩሞ ሉቀት የኣለቡኒ
 
 ## REVIEW CRITERIA
 
