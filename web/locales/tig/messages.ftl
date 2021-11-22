@@ -240,10 +240,12 @@ benefits = መንፍዓት
 keep-track = ተቀዱምካ ዎ አሕሳእየትካ ዲብ በዙሕ ሉቃት ታባዓ
 compare-progress = ተቀዱምካ አትራኣእዮ ምስል ብዕዳም ሙሻርኪአን ናይ እዲና
 view-goals = ተቀዱምካ ርኤ ምስል ናይ ኖስካ ዎ ናይላ መሽሩዕ ተቀዱም አንደ ኣትራኣኤካ
+join-newsletter = ምን ትሓዞ ዲብ ናይ ኢመል ቃኢመትና ኣሽተርኮ ሰበት ላ ሓዳሳ ሓበሬታ ግል ልብጻሓኩም
 
 ## What's public
 
 email-not-public = አማእልኩም ዓም ንድዮ ኤኮን
+recordings-and-locale-public = ዓደድላ ትስጂል ዎ ከምስሉ ላሉቀት ላትሳህሞ አባ ላህሌኩም ኩል ኣዳም ግል ላኣምራ ቱ
 
 ## Speak & Listen Shortcuts
 
