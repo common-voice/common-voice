@@ -456,12 +456,21 @@ other-language = ብዕድ ሉቀት
 
 ## Languages Overview
 
+language-section-launched = ላጃህዘት
+languages-show-more = ዝያደት ረኤ
+languages-show-less = ሑድ ረኤ
+language-meter-in-progress = ትቀዱም
+language-total-progress = ኩሉ ምስል
 language-search-input =
     .placeholder = ደውር
+total-hours = ለትሓቀቀያ ሳዓት
 
 ## Contribution
 
+contribute = ሳህም
 listen = ሰምዖ
+skip = ሕለፍዎ
+shortcuts = ገበይ ሓቻር
 record-cta = ተስጂል ኣንብቶ
 record-no-mic-found = መክረፎን ኢትረከባኒ
 record-error-too-short = ላተስጂል ብዙሕ ሓጭራ
