@@ -594,7 +594,10 @@ get-started-speech = Bdu s uɛqal n taɣect
 other-datasets = Tigrummiwin-nniḍen n tuɣac
 feedback-q = Ɣur-k tikti?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™  d <docsLink>allal ilelli </docsLink> i yimnadiyen yesneflayen tineɣrufin n umeslay AI tufrinin.
+resource-deepspeech-info = Amsedday n uɣbalu yeldin n uɛqal n taɣect n Mozilla, Deep Speech, izmer ad yettwasemres i tmerna n yisnasen n uɛqal n taɣect. Wali <githubLink>agzul deg GitHub</githubLink> neɣ ddu ɣer  <discourseLink>Discourse n DeepSpeech</discourseLink> akken ad tebduḍ akken iwata.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> yettwaxdem i tetiknulujit n taɣect yeldin. Gar yifarisen-nsen llan yimseddayen STT d TTS yebnan ɣef ulmad awurman.
 community-playbook = Amnir i temɣiwent
+resource-playbook-info = <playbookLink>Af-d iwellihen yelhan</playbookLink> deg umezruy n Common Voice, seg usideg ɣer usemres n tegrumma n yisefka, akked wamek ara tedduḍ ɣer temɣiwent-nneɣ.
 data-other-librispeech-description = LibriSpeech d ammud n wazal 1000 n yisragen n tɣuri s tneglizit 16Khz i d-yekkan seg yidlisen s taɣect seg usenfar LibriVox.
 data-other-ted-name = Ammud n TED-LIUM
 data-other-ted-description = Ammud n TED-LIUM yettwaxdem-d seg yinawen s taɣect ajerred-nsen yella deg usmel n TED.
@@ -879,13 +882,21 @@ download-profile-title = Amaɣnu
 download-profile-info = Tedda tansa n yimayl, isem n useqdac d telɣut tadimugrafit, yella tura
 download-profile-size = Kra n yiṭamḍanen
 download-recordings-title = Iseklas
+download-recordings-info = Yegber MP3 d tefyar icudden ɣer-sen, izmer ad yawi akud i uheggi
+download-recordings-size = Sumata, ddeqs n yimigaṭamḍanen
+download-recordings-unavailable = Ur tezmireḍ ara ad tessutreḍ ikalasen-nneɣ skud mazal asuter-nniḍen iteddu.
+download-recently-requested = Tzemreḍ ad tsetreḍ ad tessadreḍ ikalasen yal { $days } n wussan.
 download-size = Teɣzi
 download-selected = Yettwafren
 download-start = Sader isefka n umaɣnu
 download-request = Suter ikalasen
 download-requests = Asuter n usader n yikalasen yezrin
+download-requests-info = Ticki tessutreḍ-d ikalasen-nneɣ, ad tenesdukkel deg yiwen neɣ ddeqs n yifula ZIP. A-ten-an isuturen-ik izrin:
 download-request-button = Sider
 download-request-title = { $created }
+download-request-description = { $clipCount } n tukkisin n taɣect, teɣzi n uɣbar: { $size }. Ad ifat deg { $expires }.
+download-request-archive-single = Yiwen n ufaylu ZIP igebren
+download-request-archive-multiple = Yebḍa ɣef { $archiveCount } n yifuyla ZIP igebren
 
 ## Landing
 
