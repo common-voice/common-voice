@@ -554,8 +554,18 @@ pro-difficulty = ሙሕተርፍ
 want-to-continue = ትኣስተመሮ ታሓዙ?
 set-a-goal = ሓደፍ ውደ
 how-many-per-day = ተማም! ክም ክሊፕ ዲብ ዩም?
+how-many-a-week = ተማም! ክም ክሊፕ ዲብ ሳምን?
 which-goal-type = ትትሃገው ታሓዙ ትስምዖ ሚ ክለኤቱ?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] ክሊፕ
+       *[other] ክሊፕ
+    }
+confirm-goal = ሓደፍኩም ኣክዶ
 goal-interval-weekly = ኩል ሳምን
+share-goal-type-speak = ሃገዮት
+share-goal-type-listen = ስምዓት
+share-goal-type-both = ሃገዮት ዉ ስምዓት
 
 ## Profile Delete
 
@@ -564,6 +574,8 @@ remove = ወርኪዮ
 ## Profile Download
 
 download-recordings-title = ተስጂል
+download-request-title = { $created }
+download-request-refresh-button = ኣሓድስ
 
 ## Landing
 
