@@ -1077,6 +1077,7 @@ sc-my-submission = Soumission : { $batchId }
 sc-my-source = Source : { $source }
 sc-my-delete = Supprimer les phrases sélectionnées
 sc-my-deleting = Suppression des phrases sélectionnées…
+sc-my-err-failed-delete = Impossible de supprimer les phrases sélectionnées… Veuillez réessayer !
 
 ## REJECTED
 
@@ -1089,6 +1090,7 @@ sc-rejected-none-found = Aucune phrase rejetée n’a été trouvée !
 
 sc-stats-title = Statistiques
 sc-stats-last-update = Dernière mise à jour : { $lastUpdate }
+sc-stats-last-update-never = Dernière mise à jour : jamais
 sc-stats-updating = Mise à jour…
 sc-stats-summary = Le collecteur de phrases Common Voice a collecté { $sentenceCount } phrases dans { $languageCount } langues !
 
@@ -1098,9 +1100,12 @@ sc-submit-err-select-lang = Veuillez sélectionner une langue.
 sc-submit-err-add-sentences = Veuillez ajouter des phrases.
 sc-submit-err-add-source = Veuillez ajouter une source.
 sc-submit-err-confirm-pd = Veuillez confirmer que ces phrases sont du domaine public.
+sc-submit-prompt =
+    .message = Phrases non soumises, voulez-vous vraiment quitter ?
 sc-submit-title = Ajouter des phrases
 sc-submit-select-language =
     .labelText = Sélectionnez la langue
+sc-submit-add-sentences = Ajouter des phrases du <wikipediaLink>domaine public</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Une phrase par ligne
 sc-submit-confirm = Je confirme que ces phrases sont du <wikipediaLink>domaine public</wikipediaLink> et que j’ai la permission de les envoyer.
@@ -1131,6 +1136,8 @@ sc-add-err-submission = Erreur de soumission
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Phrases non soumises, voulez-vous vraiment quitter ?
 sc-confirm-sentences-title = Confirmer les nouvelles phrases
 sc-confirm-sentences-found =
     { $countOfSentences ->
@@ -1139,7 +1146,21 @@ sc-confirm-sentences-found =
        *[other] { $countOfSentences } phrases trouvées.
     }
 sc-confirm-rejected-by-you = { $countOfInvalidated } rejetées par vous
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Aucune phrase déjà révisée.
+        [one] Une phrase est déjà révisée. Bon travail !
+       *[other] { $countOfReviewed } phrases sont déjà révisées. Bon travail !
+    }
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Aucune phrase prête pour envoi !
+        [one] Une phrase prête pour envoi !
+       *[other] { $readyCount } phrases prêtes pour envoi !
+    }
+sc-confirm-unreviewed = { $countOfUnreview } phrases ne sont pas vérifiées. Si vous le souhaitez, vous pouvez également revoir vos phrases maintenant avant de les envoyer.
 sc-confirm-button-text = Confirmer
+sc-confirm-uploading = Les phrases sont en cours d’envoi. Cela peut prendre plusieurs minutes selon le nombre de phrases ajoutées. Merci de ne pas fermer ce site.
 
 ## LANGUAGE INFO
 
@@ -1193,13 +1214,21 @@ sc-criteria-make-sure = Assurez-vous que la phrase répond aux critères suivant
 sc-criteria-item-1 = La phrase doit être orthographiée correctement.
 sc-criteria-item-2 = La phrase doit être grammaticalement correcte.
 sc-criteria-item-3 = La phrase doit être prononçable.
+sc-criteria-item-4 = Si la phrase répond aux critères, cliquez sur le bouton « Approuver » à droite.
+sc-criteria-item-5 = Si la phrase ne répond pas aux critères ci-dessus, cliquez sur le bouton « Rejeter » à droite. Si vous avez un doute, vous pouvez également la sauter et passer à la suivante.
 sc-criteria-item-6 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 
 ## REVIEW
 
+sc-review-lang-not-selected = Vous n’avez sélectionné aucune langue. Veuillez accéder à <profileLink>votre profil</profileLink> pour sélectionner des langues.
 sc-review-title = Vérifier les phrases
 sc-review-loading = Chargement des phrases…
 sc-review-select-language = Veuillez sélectionner une langue pour vérifier les phrases.
+sc-review-no-sentences = Aucune phrase à vérifier. Vous pouvez <addLink>ajouter plus de phrases</addLink>.
+sc-review-form-prompt =
+    .message = Les phrases vérifiées n’ont pas été envoyées, voulez-vous continuer ?
+sc-review-form-usage = Faites glisser vers la droite pour approuver la phrase. Faites glisser vers la gauche pour la rejeter. Faites glisser vers le haut pour l’ignorer. <strong>N’oubliez pas d’envoyer le résultat de votre révision !</strong>
+sc-review-form-source = Source : { $sentenceSource }
 sc-review-form-button-reject = Rejeter
 sc-review-form-button-skip = Passer
 sc-review-form-button-approve = Approuver
@@ -1218,6 +1247,8 @@ sc-review-link = Révision
 ## SETTINGS
 
 sc-settings-title = Paramètres
+sc-settings-reset-skipped = Réinitialiser les phrases ignorées
+sc-settings-skipped-decription = Vous avez précédemment ignoré des phrases pendant la révision. Réinitialiser les phrases ignorées affichera à nouveau toutes les phrases ignorées, sans tenir compte de la langue.
 
 # [/SentenceCollector]
 
