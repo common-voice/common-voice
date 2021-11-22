@@ -531,9 +531,19 @@ todays-validated-progress = ናይ ዩም ናይ Common Voice ክሊፕ ሓቀ�
 stats = አሕሳኢየት
 awards = ጅዋእዝ
 you = አንቱም
+everyone = ኩል ኣዳም
+contribution-activity = ነሻጥ ናይ ሙሳሃመት
+top-contributors = ላላዕለው ሙሳህሚን
+recorded-clips = ላትስጅለት ክሊፕ
+validated-clips = ላትሓቀቀት  ክሊፕ
+show-ranking = ተርቲብየ ኣርአ
 
 ## Custom Goals
 
+get-started-goals = እብ ኣህዳፍ ኣንብት
+create-custom-goal = ሃደፍ መኽሱስ ውደ
+goal-type = ሚ ዓይነት ሓደፍ ትውደ ታሓዘ
+both-speak-and-listen = ክልኤቱ
 easy-difficulty = ሳሃል
 difficult-difficulty = ሳዓብ
 want-to-continue = ትኣስተመሮ ታሓዙ?
