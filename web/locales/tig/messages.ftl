@@ -354,13 +354,16 @@ error-code = ኻጣአ
 data-download-yes = ኣየዋ
 data-download-deny = ኢፋል
 data-download-license = ሩኽሰት: <licenseLink>CC-0</licenseLink>
+data-get-started = <speechBlogLink>ሂጋ ኣሌለዩት ኣንብቶ</speechBlogLink>
 data-other-goto = { $name } ጊስ
 dataset-date = ታሪኽ
+license = ሩኽሰት: <licenseLink>{ $license }</licenseLink>
 terms-agree = አዋፍቅ
 terms-disagree = ይአዋፍቅኒ
 review-recording = ራጀዕ
 review-rerecord = ካልእ ዶል ስጅል
 review-keep-recordings = ዲብ ትስጂል ኣስተምር
+review-delete-recordings = ትስጂልየ ዎርክዮ
 
 ## Datasets Page
 
@@ -370,6 +373,7 @@ size-gigabyte = GB
 size-megabyte = MB
 validated-hours = ላትሓቀቅያ ሳዓት
 recorded-hours = ላትስጅለያ ሳዓት
+get-started-speech = ሂጋ ኣሌለዩት ኣንብቶ
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Discourse ጊሶ
 
