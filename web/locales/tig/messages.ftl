@@ -246,15 +246,32 @@ join-newsletter = ምን ትሓዞ ዲብ ናይ ኢመል ቃኢመትና ኣ�
 
 email-not-public = አማእልኩም ዓም ንድዮ ኤኮን
 recordings-and-locale-public = ዓደድላ ትስጂል ዎ ከምስሉ ላሉቀት ላትሳህሞ አባ ላህሌኩም ኩል ኣዳም ግል ላኣምራ ቱ
+username-optin-public = ስም ሕሳብኩም ኣዳም ከም ላኣምራ ኣው ክምሊላኣምራ ትሕረው ትቀድሮ
+username-email-not-demographic = ስምኩም ው ኢሜልኹም ምስልላ ንነሽሮ በያናት ጽቡጥ አይኮኒ
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ሕ
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = ሸ
+shortcut-play-toggle-label = አሽቀ/ኣብጥር
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ኣ
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ኢ
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ሰ
 shortcut-record-toggle-label = ስጅል/ኣብጥር
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ክሊፕ እብ ካልእ ስጅል
