@@ -12,6 +12,7 @@ email-opt-in-info = ኢሜል እግለ ለምጽኒ ሓዘ ከምስል ናይ 
 email-opt-in-info-sub-with-challenge = ኢሜል ከበት ከምሰል ናይ ታሓዲ ሃደፍ ላለዝክር ው ናይ ተጣውርየ ው ኣኽባር ናይ Common Voice.
 email-opt-in-privacy-v2 = ኢሜል እግል ትትከበቶ ላሓረኩም Mozilla ኣብ እሊ ዲብ <privacyLink>Privacy Policy</privacyLink> ላትሸራሓ ገብይ እግል ትጽበጦ ውፉቅም ህለኩም
 indicates-required = * ላለትሓዘ ኣካን ላሓብር
+not-available-abbreviation = ለይህላ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
