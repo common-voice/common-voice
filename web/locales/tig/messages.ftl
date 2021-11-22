@@ -471,6 +471,12 @@ contribute = ሳህም
 listen = ሰምዖ
 skip = ሕለፍዎ
 shortcuts = ገበይ ሓቻር
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold>ክሊፕ
+       *[other] <bold>{ $count }</bold>ክሊፕ
+    }
+goal-help-recording = Common Voice ዲብ ናይ <goalPercentage></goalPercentage> ምንላ ዮምየት  ናይ ተስጂል ሃደፍ { $goalValue } እግል ትብጻ ሳዓድኹማ!
 record-cta = ተስጂል ኣንብቶ
 record-no-mic-found = መክረፎን ኢትረከባኒ
 record-error-too-short = ላተስጂል ብዙሕ ሓጭራ
