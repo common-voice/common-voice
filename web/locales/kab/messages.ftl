@@ -106,6 +106,7 @@ mhr = Tamarit n uzaɣar
 mk = Tamasidunit
 ml = Tamalayalamit
 mn = Tamungult
+mni = Meetei Lon
 mos = Tamusit
 mr = Tamaṛatit
 mrj = Tamarit n udrar
@@ -127,6 +128,7 @@ pap-AW = Tapapiyamant (Aruba)
 pl = Tapulunit
 ps = Tapactut
 pt = Tapuṛṭugit
+quc = K'iche'
 rm-sursilv = Rumanc Sursilvan
 rm-vallader = Taṛumancit n wadda
 ro = Taṛumanit
@@ -150,6 +152,7 @@ ta = Taṭamilit
 te = Tatelgut
 tg = Tatajikt
 th = Taṭaylant
+ti = Tigrinya
 tig = Tatigrit
 tl = Tagalugt
 tr = Taṭurkit
@@ -392,6 +395,10 @@ change-email-setings = Beddel tansa-ik imayl deg yiɣewwaṛen, tigezmi Timagit 
 faq-title = Isteqsiyen i yezgan ttuɣalen-d
 faq-what-cv-q = D acu-t Common Voice?
 faq-what-cv-a = Titiknulujiyin n uɛqal n taɣect wwin-d tagrawla deg temyigawt akked tmacinin, maca inagrawen yellan ɣlay-it daɣen ɣur-sen imawlan. Common Voice yella gar yirmuden n Mozilla i yettnadin ad tesnerni titiknulujiyin n uɛqal n taɣect, daɣen ad ten-terr ttwakcamen i yal yiwen. Common Voice d taffa n yisefka n taɣect tameqqrant ara yeǧǧen yal yiwen ad ten-yesseqdec i usnulfu n tneɣrufin s zreb, s wudem fessusen i yisnasen yesseqdacen taɣect, deg yal tutlayt.
+faq-what-cv-a-2 =
+    Titiknulujiyin n uɛqal n taɣect wwin-d tagrawla deg temyigawt akked tmacinin, maca inagrawen yellan ɣlayit, daɣen ɣur-sen imawlan. Common Voice yella gar yirmuden n Mozilla i yettnadin ad tesnerni titiknulujiyin n uɛqal n taɣect, daɣen ad ten-terr ttwakcamen i yal yiwen. Common Voice d taffa n yisefka n taɣect tameqqrant ara yeǧǧen yal yiwen ad ten-yesseqdec i usnulfu n tneɣrufin s zreb, s wudem fessusen i yisnasen yesseqdacen taɣect, deg yal tutlayt.
+    
+    Ur nleqqeḍ ara kan taɣect i tutlayin meqqren, maca daɣen i tutlayin meẓẓiyen. Asuffeɣ n taffiwin n yisefka yemgaraden, ad isiǧhed ineflayen, imḍebren, d trebbaɛ i yessenɣasen aceqqiq-a i yiman-nsen.
 faq-why-important-q = Acuɣer d axater?
 faq-why-important-a =
     Sumata taɣect d allal agaman n teywalt gar yimdanen, daɣen titiknulujiyin n taɣect gellunt-d s tefsas i yiselkimen akked yibenkan izirazen. Nebɣa ad nmudd i yineflayen allal i usnulfu n yisnasen n uɛqal n taɣect izaden, am yimsuqal s wakud ilaw akked imaragen umḍinen s tladna n taɣect. Maca akka tura, tuget n yisefka n taɣect ilaqen i usnulfu n wanaw-a n yisnasen ɣlay-it daɣen ɣur-sen imawlan-nsen. Nessaram d akken tagrumma n yisefka n Common Voice ad tmudd i yineflayen ayen sran akken ad d-snulfun daɣen ad erren tatiknulujit n taɣect tella deg tutlayt-nsen.
@@ -863,9 +870,17 @@ profile-form-delete = Kkes amaɣnu
 
 ## Profile Download
 
+download-q = Tesriḍ ad tessadreḍ isefka-ik?
+download-info = Ini-aɣ-d ayen tebɣiḍ ad tessadreḍ:
 download-profile-title = Amaɣnu
+download-profile-info = Tedda tansa n yimayl, isem n useqdac d telɣut tadimugrafit, yella tura
+download-profile-size = Kra n yiṭamḍanen
 download-recordings-title = Iseklas
 download-size = Teɣzi
+download-selected = Yettwafren
+download-start = Sader isefka n umaɣnu
+download-request = Suter ikalasen
+download-requests = Asuter n usader n yikalasen yezrin
 download-request-button = Sider
 download-request-title = { $created }
 
@@ -925,10 +940,80 @@ contribution-misreadings-description-extended-list-2 = Ixuṣṣ
 contribution-misreadings-description-extended-list-4 = Txuṣṣ taggara n wawal aneggaru seg unegzum n usekles s lemɣawla.
 contribution-misreadings-description-extended-list-5 = Ɛreḍ acḥal n tikkal deg tɣuri n wawal.
 contribution-misreadings-example-3-explanation = [Asekles yettwagzem send ad yemmed wawal aneggaru]
+contribution-varying-pronunciations-example-1-title = Ɣef uqerru-s, yerra ibiri
+contribution-background-noise-title = Lḥess n deffir
 contribution-volume-title = Ableɣ
 contribution-just-unsure-title = Tkukraḍ?
 see-more = <chevron></chevron>Wali ugar
 see-less = <chevron></chevron>Wali drus
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Asebter agejdan
+sc-header-how-to = Amek
+sc-header-add = Rnu
+sc-header-review = Acegger
+sc-header-rejected = Tifyar yeccḍen
+sc-header-my = Tifyar-iw
+sc-header-statistics = Tidaddanin
+sc-header-profile = Amaɣnu
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Azen-d abug
+sc-footer-translate = Suqel asebter-a
+sc-footer-report-copyright = Azen ugur ɣef yizerfan
+sc-footer-privacy = Tabaḍnit
+sc-footer-terms = Tiwtilin
+sc-footer-cookies = Inagan n tuqqna
+sc-login-signup-button = Kcem / Jerred
+sc-logout-button = Ffeɣ
+
+## HOME
+
+sc-home-title = Anṣuf ɣer Common Voice Sentence Collector
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
 
 # [/SentenceCollector]
 
