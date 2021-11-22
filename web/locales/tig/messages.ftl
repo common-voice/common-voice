@@ -276,6 +276,7 @@ shortcut-record-toggle-label = ስጅል/ኣብጥር
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ክሊፕ እብ ካልእ ስጅል
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = ልሰጀል ልህላ ዎርክዮ
 shortcut-submit = ዓቅብል
 shortcut-submit-label = ክሊፕ ላኣኮ
 request-language-text = ሉቅትኩም ኣስኽ ኣዜ የህሌትኒ ዲብ Common Voice?
@@ -284,7 +285,13 @@ request-language-button = ሉቀት ጥለብ
 
 ## ProjectStatus
 
+status-title = ሓለትላ መሽሩዕ ኣስክ ኣያ በጻሕና ኣስኽ ኣዘ
 status-contribute = አብ ሶትኩም ሳህሞ
+status-hours =
+    { $hours ->
+        [one] ዎሮት ሳዓት ትሓቀቀት ኣስኽ ኣዘ
+       *[other] { $hours } ሳዓት ትሓቀቀያ ኣስኽ ኣዘ
+    }
 english = እንግሊዚ
 
 ## ProfileForm
