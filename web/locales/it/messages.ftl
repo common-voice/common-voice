@@ -1145,12 +1145,6 @@ sc-lang-info-in-review =
         [one] 1 frase in convalida.
        *[other] { $totalInReview } frasi in convalida.
     }
-sc-lang-info-left-for-you =
-    { $unreviewedSentencesByYou ->
-        [0] Nessuna frase rimasta da con convalidare.
-        [one] 1 frase rimasta da convalidare.
-       *[other] { $unreviewedSentencesByYou } frasi rimaste da convalidare.
-    }
 sc-lang-info-review-now = <reviewLink>Convalida ora!</reviewLink>
 sc-lang-info-add-more = <addLink>Aggiungi nuove frasi ora!</addLink>
 sc-lang-info-validated =
@@ -1168,15 +1162,41 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-failed = Accesso non riuscito
+sc-login-err-try-again = Riprova.
 
 ## PROFILE
 
+sc-profile-title = Profilo: { $username }
+sc-personal-err-lang-not-found = Impossibile rimuovere la lingua: lingua non trovata
+sc-personal-err-remove = Impossibile rimuovere la lingua
+sc-personal-your-languages = Le tue lingue:
+sc-personal-remove-button = rimuovi
+sc-personal-added-by-you = { $sentences } aggiunte da te
+sc-personal-not-added = Non hai ancora aggiunto nessuna lingua.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Regole di convalida
+sc-criteria-title = Regole di convalida
+sc-criteria-make-sure = Assicurati che la frase soddisfi le seguenti regole:
+sc-criteria-item-2 = La frase deve essere grammaticalmente corretta.
+sc-criteria-item-3 = La frase deve essere pronunciabile.
+sc-criteria-item-6 = Se hai terminato le frasi da convalidare, aiutaci a raccogliere altre frasi!
 
 ## REVIEW
 
+sc-review-title = Convalida frasi
+sc-review-loading = Caricamento frasi…
+sc-review-select-language = Seleziona una lingua per convalidare le frasi.
+sc-review-no-sentences = Nessuna frase da convalidare. <addLink>Aggiungi altre frasi ora!</addLink>
+sc-review-form-prompt =
+    .message = Le frasi convalidate non sono state inviate, vuoi lasciare la pagina?
+sc-review-form-usage = Scorri verso destra per convalidare la frase. Scorri verso sinistra per rifiutarla. Scorri verso l‘alto per saltarla. <strong>Non dimenticare di inviare le tue convalide!</strong>
+sc-review-form-source = Fonte: { $sentenceSource }
+sc-review-form-button-reject = Rifiuta
+sc-review-form-button-skip = Salta
+sc-review-form-button-approve = Approva
 
 ## SETTINGS
 
