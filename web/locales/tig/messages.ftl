@@ -499,9 +499,11 @@ target-segment-learn-more = ዘያደት አምሮ
 ## Reporting
 
 report = ተቅሪር
+report-offensive-language = እኩይ ሉቀት
 report-different-language = ብዕደት ሉቀት
 report-different-language-detail = አብ ሉቀት ብዕደት መን ላ ኣና አትሃገያ ለህሌኮ ከጥበት ታ
 report-difficult-pronounce = ግል ትንጠቃ ስዓበት ታ
+report-offensive-speech = እኩይ ሀጋ
 report-other-comment =
     .placeholder = ታዕሊቅ
 success = ነጃሕ
