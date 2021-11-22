@@ -1032,6 +1032,19 @@ sc-howto-review-title = Senqed tifyar
 
 ## LANGUAGE INFO
 
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Amḍan amatu n tefyar.
+        [one] 1 n tefyirt.
+       *[other] { $totalSentences } n tefyar.
+    }
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Amḍan n tefyar deg usenqed.
+        [one] 1 tefyirt i usenqed.
+       *[other] { $totalInReview } ntefyar i usenqed.
+    }
+sc-lang-info-add-more = <addLink>Rnu ugar n tefyar tura!</addLink>
 
 ## LOGIN
 
