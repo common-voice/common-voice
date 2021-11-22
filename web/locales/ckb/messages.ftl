@@ -960,6 +960,9 @@ sc-howto-findpd-title = دۆزینەوەی ڕستە لە دۆمەینی گشتی
 sc-howto-findpd-subtitle = بۆیان بگەڕێ لە ئینتەرنیت
 sc-howto-findpd-tips = چەند یارمەتیدەرێک بۆ ئەوەی ڕستە بدۆزیتەوە:
 sc-howto-findpd-tips-1 = باشترین شوێن بۆ گەڕان بریتین لە پۆدکاستەکان، دەقەکان، دەقی فیلمەکان هەروەها هەر شتێکی تر کە گفتوگۆی نێوان چەند کەسیکی تێدایە.
+sc-howto-findpd-tips-2 = کارەکانی حکومەت، پەرتووک و بابەتەکان سەرچاوەی باشن چونکە ئەو نووسینانە لە نووسراوی فەرمیدان.
+sc-howto-findpd-tips-3 = بەداخەوە هەتاوەکوو ئێستا ناتوانین وتارەکانی ویکیپێدیا وەربگرین. بۆیە تکایە لەوێوە بابەت لەبەرمەگرەوە بۆ ئێرە.
+sc-howto-findpd-subtitle-2 = هاوبەشی لەگەڵ ڕێکخراوەکان و کەسەکان بکە
 
 ## MY SENTENCES
 
@@ -985,6 +988,7 @@ sc-stats-title = ئامار
 sc-stats-last-update = کۆتا نوێکردنەوە: { $lastUpdate }
 sc-stats-last-update-never = کۆتا نوێکردنەوە: نییە
 sc-stats-updating = نوێکردنەوە...
+sc-stats-summary = پرۆژەی دەنگی گشتی { $sentenceCount } ڕستەی کۆکردۆتەوە لە { $languageCount } زمان!
 
 ## ADD
 
@@ -997,23 +1001,39 @@ sc-submit-prompt =
 sc-submit-title = ڕستە زیاد بکە
 sc-submit-select-language =
     .labelText = زمان هەڵبژێرە
+sc-submit-add-sentences = ڕستە لە <wikipediaLink>دۆمەینی گشتیەوە</wikipediaLink> زیاد بکە لێرە
 sc-submit-ph-one-per-line =
     .placeholder = هەر ڕستەو لە دێڕێکدا بێت
+sc-submit-from-where = ڕستەی ئەم <wikipediaLink>دۆمەینە گشتییانە</wikipediaLink> لەکوێوە هاتوون؟
+sc-submit-ph-read-how-to =
+    .placeholder = بەشی چۆن-دەکرێت بخوێنەوە ئەگەر دڵنیا نیت چۆن دەتوانیت ڕێکیان بخەیت
+sc-submit-confirm = دووپاتی دەکەمەوە کە ئەم ڕستانە <wikipediaLink>دۆمەینی گشتیین</wikipediaLink> وە هەروەها دەسەڵاتی ئەوەم هەیە کە باریان بکەم.
 sc-submit-button =
     .submitText = ناردن
+sc-submit-guidelines = تکایە <howToLink>ڕێنماییەکان</howToLink> سەیر بکە.
 
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = نەتوانرا زمان زیادبکرێت
+sc-add-lang-sec-label = ئەو زمانە هەڵبژێرە کە دەتەوێت بەشداری تێدا بکەیت
 sc-add-lang-sec-button = زمان زیاد بکە
 sc-add-err-unexpected = وەڵامێکی چاوەڕواننەکراو لە ڕاژەوە
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = ڕستەکان هێشتا نەنێردراون، تۆ دڵنیایت کە دەتەویت بە جێیان بهێڵیت؟
 sc-confirm-button-text = دڵنیابوونەوە
 
 ## LANGUAGE INFO
 
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] کۆی ڕستەکان نیە
+        [one] 1 کۆی ڕستەکان
+       *[other] { $totalSentences } کۆی ڕستەکان
+    }
+sc-lang-info-review-now = <reviewLink>ئێستا پێداچوونەوە بکە!</reviewLink>
 
 ## LOGIN
 
