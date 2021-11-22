@@ -544,9 +544,16 @@ get-started-goals = እብ ኣህዳፍ ኣንብት
 create-custom-goal = ሃደፍ መኽሱስ ውደ
 goal-type = ሚ ዓይነት ሓደፍ ትውደ ታሓዘ
 both-speak-and-listen = ክልኤቱ
+both-speak-and-listen-long = ክልኤቱ ( ሂጋ ው ሰሚዕ)
+daily-goal = ናይ ዎሮ ዮም ሃድፍ
+weekly-goal = ናይ ዎሮ ሳምን ሃድፍ
 easy-difficulty = ሳሃል
+average-difficulty = ምትወስጥ
 difficult-difficulty = ሳዓብ
+pro-difficulty = ሙሕተርፍ
 want-to-continue = ትኣስተመሮ ታሓዙ?
+set-a-goal = ሓደፍ ውደ
+how-many-per-day = ተማም! ክም ክሊፕ ዲብ ዩም?
 which-goal-type = ትትሃገው ታሓዙ ትስምዖ ሚ ክለኤቱ?
 goal-interval-weekly = ኩል ሳምን
 
