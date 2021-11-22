@@ -408,6 +408,8 @@ review-delete-recordings = ትስጂልየ ዎርክዮ
 ## Datasets Page
 
 language = ሉቀት
+# File size in gigabytes
+size = ሓጅም
 cv-license = ሩኽሰት
 size-gigabyte = GB
 size-megabyte = MB
