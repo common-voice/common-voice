@@ -411,11 +411,14 @@ language = ሉቀት
 # File size in gigabytes
 size = ሓጅም
 cv-license = ሩኽሰት
+why-email = <b>ግልሚቱ ኢሜል ኣትሓዜኩም</b>ዲብ ሙስተቅበል ንዋስል ምስልኩም ለትሓዘና ግብእ ኢሜልየ ቱ ምሰልኩም ላልትፃብጠና
 size-gigabyte = GB
 size-megabyte = MB
 validated-hours = ላትሓቀቅያ ሳዓት
 recorded-hours = ላትስጅለያ ሳዓት
+subscribe = ኣሽተርክ
 get-started-speech = ሂጋ ኣሌለዩት ኣንብቶ
+community-playbook = ናይ ማሕበር ሰብ ፕለይቡክ
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Discourse ጊሶ
 
