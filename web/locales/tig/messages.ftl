@@ -423,9 +423,14 @@ data-other-ted-name = TED-LIUM Corpus
 your-feedback = አፍካር ብካ ግል ምጅሙዓት በያናት Common Voice ላናኣገርምእባ?  እት Discourse ኣምረናታ
 go-discourse = Discourse ጊሶ
 missing-language = ሉቀትኩም ዲብላ ምጅሙዓት በያናት ትርአዋ የህሌኩምኒ? ሉቀት ግል ትጥለቦ ዲብ ናይ Languages ሰፍሓት ጊሶ
+go-languages-page = ዲብ ናይ Languages Page ጊሶ
+more = ዝያዳ
+close = ድብኦ
+download = ኣውርድ
 
 ## Download Modal
 
+download-title = ሙራድካ ኣንበታ ህላ
 download-form-email =
     .label = ኢመልኩም ኣቱ
     .value = ሹክረን ገል ናተስል ብኩም ቱ
@@ -433,8 +438,11 @@ download-no = ላ ሹክረን
 
 ## Contact Modal
 
+contact-title = እስትማረት ናይ ተዋሱል
 contact-form-name =
     .label = ሰም
+contact-form-message =
+    .label = ልኡክ
 contact-required = *ላለትሓዘ
 
 ## Request Language Modal
@@ -442,6 +450,7 @@ contact-required = *ላለትሓዘ
 request-language-title = ጣለብ ናይ ሉቀት
 request-language-form-language =
     .label = ሉቀት
+request-language-success-title = ለእከት ናይ ሉቀት ጠለብኩም ንጅሓት, ሹክረን
 select-language = ሉቀት ሕረ
 other-language = ብዕድ ሉቀት
 
