@@ -1026,9 +1026,27 @@ sc-howto-review-title = Senqed tifyar
 
 ## ADD LANGUAGE
 
+sc-add-err-failed =
+    { $sentences ->
+        [0] Amḍan n tefyar yeccḍen
+        [one] 1 n tefyirt tecceḍ
+       *[other] { $sentences } n tefyar ccḍent
+    }
+sc-add-err-submission = Tuccḍa deg tuzna
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Tifyar ur ttwaznent ara, tebɣiḍ ad teffɣeḍ?
+sc-confirm-sentences-title = Sentem tifyar timaynutin
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Amḍan n tefyar yettwafen.
+        [one] 1 n tefyirt yettwafen.
+       *[other] { $countOfSentences } n tefyar ttwafent.
+    }
+sc-confirm-rejected-by-you = { $countOfInvalidated } n tefyar i tugiḍ
+sc-confirm-button-text = Sentem
 
 ## LANGUAGE INFO
 
@@ -1044,6 +1062,13 @@ sc-lang-info-in-review =
         [one] 1 tefyirt i usenqed.
        *[other] { $totalInReview } ntefyar i usenqed.
     }
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Amḍan n tefyar i ak-d-neǧǧa i usenqed.
+        [one] 1 n tefyirt i ak-d-neǧǧa i usenqed.
+       *[other] { $unreviewedSentencesByYou } n tefyar i ak-d-neǧǧa i usenqed.
+    }
+sc-lang-info-review-now = <reviewLink>Senqed tura!</reviewLink>
 sc-lang-info-add-more = <addLink>Rnu ugar n tefyar tura!</addLink>
 
 ## LOGIN
