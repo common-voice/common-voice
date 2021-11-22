@@ -420,7 +420,9 @@ subscribe = ኣሽተርክ
 get-started-speech = ሂጋ ኣሌለዩት ኣንብቶ
 community-playbook = ናይ ማሕበር ሰብ ፕለይቡክ
 data-other-ted-name = TED-LIUM Corpus
+your-feedback = አፍካር ብካ ግል ምጅሙዓት በያናት Common Voice ላናኣገርምእባ?  እት Discourse ኣምረናታ
 go-discourse = Discourse ጊሶ
+missing-language = ሉቀትኩም ዲብላ ምጅሙዓት በያናት ትርአዋ የህሌኩምኒ? ሉቀት ግል ትጥለቦ ዲብ ናይ Languages ሰፍሓት ጊሶ
 
 ## Download Modal
 
