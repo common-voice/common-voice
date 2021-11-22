@@ -1023,9 +1023,15 @@ sc-howto-review-title = Senqed tifyar
 
 ## ADD
 
+sc-submit-button =
+    .submitText = Azen
+sc-submit-guidelines = Ttxil-k wali <howToLink>iwellihen</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ur izmir ara ad yernu tutlayt
+sc-add-lang-sec-label = Rnu tutlayt i tebɣiḍ akken ad tettekkiḍ
+sc-add-lang-sec-button = Rnu tutlayt
 sc-add-err-failed =
     { $sentences ->
         [0] Amḍan n tefyar yeccḍen
