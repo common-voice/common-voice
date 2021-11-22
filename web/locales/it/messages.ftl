@@ -1025,6 +1025,7 @@ sc-home-review-text = Aiutaci convalidando le frasi per verificare che aderiscan
 sc-howto-addlang-title = Aggiungere lingue a cui contribuire
 sc-howto-addlang-text = Una volta effettuato l‘accesso puoi selezionare le lingue dalla sezione “Profilo“
 sc-howto-addsen-title = Aggiungere nuove frasi
+sc-howto-addsen-item-4 = Punteggiatura. I caratteri speciali e la punteggiatura dovrebbero essere inclusi solo se strettamente necessario. Per esempio, un apostrofo è incluso in parole come “l’elefante” e “un’altra” e dovrebbe essere presente nel testo, mentre è improbabile l’utilizzo di caratteri speciali come “@” o “#”.
 
 ## MY SENTENCES
 
