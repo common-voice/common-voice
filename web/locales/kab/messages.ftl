@@ -1010,6 +1010,7 @@ sc-howto-addlang-title = Timrna n tutlayin swayes ara txedmeḍ
 sc-howto-addlang-text = Ticki teqqneḍ, tzemreḍ ad tferneḍ tutlayin-ik deg umaɣnu-ik.
 sc-howto-addsen-title = Rnu tifyar tmaynutin
 sc-howto-cite-title = Amek ara d-temmleḍ
+sc-howto-review-title = Senqed tifyar
 
 ## MY SENTENCES
 
