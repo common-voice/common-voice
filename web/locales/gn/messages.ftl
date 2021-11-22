@@ -986,6 +986,12 @@ see-less = <chevron></chevron>Ehecha’ive
 
 ## HEADER/FOOTER
 
+sc-header-home = Óga
+sc-header-how-to = Mba’éicha
+sc-header-add = Mbojuaju
+sc-header-review = Hechajey
+sc-header-rejected = Ñe’ẽjuaju hejapyre
+sc-header-my = Che ñe’ẽjuaju
 
 ## HOME
 
@@ -1020,6 +1026,8 @@ sc-stats-updating = Hekopyahuhína…
 sc-submit-err-add-sentences = Embojuajukuaa ñe’ẽjuaju.
 sc-submit-err-add-source = Embojuaju teñoiha.
 sc-submit-title = Embojuaju ñe’ẽjuaju
+sc-submit-select-language =
+    .labelText = Eiporavo ñe’ẽ
 sc-submit-button =
     .submitText = Mondo
 
