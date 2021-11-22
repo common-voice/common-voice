@@ -897,6 +897,12 @@ download-request-title = { $created }
 download-request-description = { $clipCount } n tukkisin n taɣect, teɣzi n uɣbar: { $size }. Ad ifat deg { $expires }.
 download-request-archive-single = Yiwen n ufaylu ZIP igebren
 download-request-archive-multiple = Yebḍa ɣef { $archiveCount } n yifuyla ZIP igebren
+download-request-assembling-description = Ifuyla-a teddun ad dukklen. Ma ulac aɣilif senqed tikkelt-nniḍen ticki.
+download-request-refresh-button = Smiren
+download-request-modal-title = Iseɣwan n uzdam
+download-request-modal-description = A-ten-an yiseɣwan i usader n yifuyla-ik ZIP.
+download-request-link-text = Zip #{ $offset } ɣef { $total }
+download-request-metadata-link = Aḍris n tefyirt
 
 ## Landing
 
@@ -955,7 +961,10 @@ contribution-misreadings-description-extended-list-4 = Txuṣṣ taggara n wawal
 contribution-misreadings-description-extended-list-5 = Ɛreḍ acḥal n tikkal deg tɣuri n wawal.
 contribution-misreadings-example-3-explanation = [Asekles yettwagzem send ad yemmed wawal aneggaru]
 contribution-varying-pronunciations-example-1-title = Ɣef uqerru-s, yerra ibiri
+contribution-varying-pronunciations-example-1-explanation = [‘Tawwurt’ yelha ama teɣriḍ-it tabburt, taggurt neɣ tawwwurt]
+contribution-varying-pronunciations-example-2-title = Afus-is yerfed
 contribution-background-noise-title = Lḥess n deffir
+contribution-background-voices-title = Lḥess n deffir
 contribution-volume-title = Ableɣ
 contribution-just-unsure-title = Tkukraḍ?
 see-more = <chevron></chevron>Wali ugar
@@ -989,9 +998,18 @@ sc-logout-button = Ffeɣ
 ## HOME
 
 sc-home-title = Anṣuf ɣer Common Voice Sentence Collector
+sc-home-collect-title = Lqeḍ-d tifyar
+sc-home-collect-text = Mudd-aɣ-d afus s tira neɣ s ulqaḍ n tefyar tizuyaz.
+sc-home-review-title = Senqed tifyar
+sc-home-review-text = Mudd-aɣ-d afus ad nsenqed tifyar s uqader n yilugan n tira.
 
 ## HOW-TO
 
+sc-howto-title = Amek
+sc-howto-addlang-title = Timrna n tutlayin swayes ara txedmeḍ
+sc-howto-addlang-text = Ticki teqqneḍ, tzemreḍ ad tferneḍ tutlayin-ik deg umaɣnu-ik.
+sc-howto-addsen-title = Rnu tifyar tmaynutin
+sc-howto-cite-title = Amek ara d-temmleḍ
 
 ## MY SENTENCES
 
