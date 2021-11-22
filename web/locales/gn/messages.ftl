@@ -1002,18 +1002,24 @@ sc-my-deleting = Emboguehína ñe’ẽrysýi poravopyre…
 
 ## REJECTED
 
+sc-rejected-title = Ñe’ẽjuaju hejapyre
 
 ## STATS
 
+sc-stats-updating = Hekopyahuhína…
 
 ## ADD
 
+sc-submit-button =
+    .submitText = Mondo
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Embojuaju Ñe’ẽ
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Moneĩ
 
 ## LANGUAGE INFO
 
