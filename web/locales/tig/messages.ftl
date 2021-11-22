@@ -607,6 +607,11 @@ demo-listen-subtitle = አግል ትሳህሞ ጃህዛም አንቱም?
 
 ## Validation criteria
 
+contribution-criteria-nav = መቃየሲ
+contribution-criteria-link = ናይ ሙሳሀምት መቃየሲ ፋሃሞ
+contribution-criteria-page-title = ናይ ሙሳሀምት መቃየሲ
+contribution-for-example = መሳል
+contribution-misreadings-title = ቅርኣት ጊጊት
 contribution-misreadings-example-5-title = ቡን ግል ንስተ ፍግር ሀሌና
 contribution-misreadings-example-6-title = ቡን ግል ንስተ ፍግር ሀሌና
 contribution-misreadings-example-7-title = ቡን ግል ንስተ ፍግር ሀሌና
