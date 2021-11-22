@@ -1026,18 +1026,62 @@ sc-howto-addlang-title = Aggiungere lingue a cui contribuire
 sc-howto-addlang-text = Una volta effettuato l‘accesso puoi selezionare le lingue dalla sezione “Profilo“
 sc-howto-addsen-title = Aggiungere nuove frasi
 sc-howto-addsen-item-4 = Punteggiatura. I caratteri speciali e la punteggiatura dovrebbero essere inclusi solo se strettamente necessario. Per esempio, un apostrofo è incluso in parole come “l’elefante” e “un’altra” e dovrebbe essere presente nel testo, mentre è improbabile l’utilizzo di caratteri speciali come “@” o “#”.
+sc-howto-addsen-item-6 = Alcune lingue possono avere <validationRulesLink>proprie regole di convalida</validationRulesLink> con requisiti aggiuntivi. Se non esiste uno specifico file di convalida per una lingua, si utilizzano le regole generiche valide per l‘inglese.
+sc-howto-addsen-post-1 = Preferiamo frasi naturali utilizzate nelle conversazioni. Sebbene la diversità fonetica e la presenza di parole diverse nelle frasi siano importanti, stiamo cercando di rendere la loro registrazione quanto più divertente possibile. Pertanto sarebbe fantastico se riuscissi a mantenere le tue frasi il più naturali e coinvolgenti possibile.
+sc-howto-cite-title = Come citare
+sc-howto-cite-item-1 = Potresti includere il sito, ad esempio “Common Voice - https://commonvoice.mozilla.org/“
+sc-howto-cite-item-2 = Puoi usare lo stile di citazione Accademico, ad esempio lo stile di Harvard “Mozilla (2021) Common Voice. Disponibile su https://commonvoice.mozilla.org/ (consultato: 15 settembre 2021)“
+sc-howto-review-title = Convalida frasi
+sc-howto-review-subtitle = Assicurati che la frase soddisfi i seguenti criteri:
+sc-howto-review-criteria-1 = La frase deve essere scritta senza errori di ortografia.
+sc-howto-review-criteria-2 = La frase deve essere grammaticalmente corretta.
+sc-howto-review-criteria-3 = La frase deve essere pronunciabile.
+sc-howto-review-criteria-4 = Se la frase soddisfa tutti i criteri, fai clic sul pulsante “Approva“.
+sc-howto-review-criteria-5 = Se la frase non soddisfa i precedenti criteri, fai clic su “Rifiuta“. Se non sei sicuro della frase, puoi saltarla e passare a quella successiva.
+sc-howto-review-criteria-6 = Se non ci sono più frasi da convalidare, aiutaci a raccoglierne altre!
+sc-howto-findpd-subtitle = Cercale su Internet
+sc-howto-findpd-tips = Ecco alcuni suggerimenti per trovare frasi:
+sc-howto-findpd-tips-1 = Le migliori fonti che puoi cercare sono podcast, trascrizioni, sceneggiature di film e qualsiasi cosa che possa contenere conversazioni quotidiane.
+sc-howto-findpd-tips-3 = Sfortunatamente non possiamo ancora utilizzare gli articoli di Wikimedia. Quindi non prendere le frasi da lì.
+sc-howto-findpd-subtitle-2 = Collaborare con le organizzazioni locali o individui
 
 ## MY SENTENCES
 
+sc-my-title = Le mie frasi
+sc-my-description = Questa pagina offre una panoramica di tutte le frasi che hai inviato. Puoi anche eliminare frasi già inviate, se necessario, selezionandole tramite la relativa casella di controllo e facendo clic su &quot;Elimina le frasi selezionate&quot; in fondo. Rimuovi le frasi solo se assolutamente necessario, per esempio se hai scoperto che una frase è protetta da copyright.
+sc-my-loading = Caricamento delle frasi…
+sc-my-err-fetching = Errore durante il recupero delle frasi. Riprova.
+sc-my-submission = Invio: { $batchId }
+sc-my-source = Fonte: { $source }
+sc-my-delete = Elimina le frasi selezionate
+sc-my-deleting = Eliminazione delle frasi selezionate…
 
 ## REJECTED
 
+sc-rejected-title = Frasi rifiutate
+sc-rejected-loading = Caricamento delle frasi rifiutate…
+sc-rejected-err-fetching = Errore durante il recupero delle frasi rifiutate. Riprova.
 
 ## STATS
 
+sc-stats-title = Statistiche
+sc-stats-last-update = Ultimo aggiornamento: { $lastUpdate }
+sc-stats-last-update-never = Ultimo aggiornamento: mai
+sc-stats-updating = Aggiornamento…
+sc-stats-summary = Il Sentence Collector di Common Voice ha raccolto { $sentenceCount } frasi in { $languageCount } lingue!
 
 ## ADD
 
+sc-submit-err-select-lang = Seleziona una lingua.
+sc-submit-err-add-sentences = Aggiungi frasi.
+sc-submit-err-add-source = Aggiungi una fonte.
+sc-submit-prompt =
+    .message = Le frasi non sono state inviate, vuoi lasciare la pagina?
+sc-submit-title = Aggiungi frasi
+sc-submit-select-language =
+    .labelText = Seleziona la lingua
+sc-submit-ph-one-per-line =
+    .placeholder = Una frase per riga
 
 ## ADD LANGUAGE
 
