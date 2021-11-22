@@ -1046,6 +1046,19 @@ sc-confirm-sentences-found =
        *[other] { $countOfSentences } n tefyar ttwafent.
     }
 sc-confirm-rejected-by-you = { $countOfInvalidated } n tefyar i tugiḍ
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ulac tifyar i yettwasneqden yakan
+        [one] 1 tefyirt tettwasenqed. Igerrez!
+       *[other] { $countOfReviewed } n tefyar i yettwasneqden yakan. Igerrez!
+    }
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Ulac tiyar i usumer
+        [one] 1 n tefyirt thegga i usumer!
+       *[other] { $readyCount } n tefyar heggant i usumer!
+    }
+sc-confirm-unreviewed = { $countOfUnreview } n tefyar ur ttwasneqdent ara. Ma tebɣiḍ, tzemreḍ daɣen ad tesneqdeḍ tifyar-ik tura uqbel tuzna-nsent.
 sc-confirm-button-text = Sentem
 
 ## LANGUAGE INFO
