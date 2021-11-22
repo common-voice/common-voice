@@ -579,6 +579,7 @@ download-request-refresh-button = ኣሓድስ
 
 ## Landing
 
+read-more-about = ዲብላ ናይና ሰፍሓት About አንደ ግስኹም ዘያደት ቀርኦ
 
 ## DemoLayout
 
@@ -588,9 +589,14 @@ demo-welcome-subheader = ዓን ኢሊ መሽሩዕ አግል ታአምሮ ው �
 
 ## Demo Datasets
 
+card-button-next = ላለታለ
+card-button-back = ጉራ
+demo-language-select-label = ሉቃት ዳህሰሶ
+demo-account = ሕሳብ
 
 ## Demo Account
 
+demo-account-card-header = አግል ትሳህሞ ሐሳብ ገል ላሃሌኩም ኢለትሓዘኒ ብስ ነፍዓኩም
 
 ## Demo Contribute
 
