@@ -1046,9 +1046,15 @@ sc-home-review-text = Contribuez en révisant les phrases pour qu’elles soient
 ## HOW-TO
 
 sc-howto-title = Comment faire ?
+sc-howto-addlang-text = Une fois connecté·e, vous pouvez sélectionner vos langues dans la section profil.
 sc-howto-addsen-title = Ajouter de nouvelles phrases
+sc-howto-addsen-item-1 = Toutes les phrases que vous soumettez doivent être sous une <wikipediaLink>licence de domaine public (CC-0)</wikipediaLink>. Pour prendre en charge l’inclusion d’œuvres non sous licence publique, nous avons créé un <cc0WaiverLink>modèle d’accord de contribution</cc0WaiverLink> pour les œuvres pour lesquelles le titulaire du droit d’auteur souhaite contribuer au contenu de Common Voice.
+sc-howto-addsen-item-6 = Les langues peuvent avoir leurs <validationRulesLink>propres règles de validation</validationRulesLink> avec des exigences supplémentaires. S’il n’y a pas de fichier de validation spécifique pour une langue, nous utilisons les règles génériques anglaises.
+sc-howto-addsen-post-1 = Nous préférons les phrases naturelles / conversationnelles. Bien que la diversité phonétique et les différents mots dans les phrases soient importants, nous essayons de rendre l’enregistrement des phrases aussi amusant que possible. Par conséquent, ce serait bien si vous pouviez essayer de proposer des phrases aussi naturelles / engageantes que possible.
 sc-howto-cite-title = Comment citer
+sc-howto-cite-pre-1 = Il est important de faire référence à l’endroit où vous avez trouvé la licence publique pour éviter le plagiat et permettre le suivi des <copyrightIssuesLink>problèmes de droits d’auteur</copyrightIssuesLink>. Voici quelques façons d’effectuer des citations.
 sc-howto-cite-item-1 = Vous pouvez inclure le site web, par exemple « Common Voice - https://commonvoice.mozilla.org/ »
+sc-howto-cite-item-2 = Vous pouvez utiliser le style de référencement académique, par exemple le style d’Harvard « Mozilla (2021) Common Voice. Disponible sur https://commonvoice.mozilla.org/ (consulté le 15 septembre 2021) »
 sc-howto-review-title = Vérifier les phrases
 sc-howto-review-subtitle = Assurez-vous que la phrase répond aux critères suivants :
 sc-howto-review-criteria-1 = La phrase doit être orthographiée correctement.
