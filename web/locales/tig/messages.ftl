@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = አይዋ ኢሜል ነድኦ ዲብየ ። ኣብ ምሽሩ Common Voice እድለ ሓዘ
+yes-receive-emails = አይዋ ኢሜል ነድኦ ዲብየ ። ኣብ መሽሩዕ Common Voice እድለ ሓዘ
 stayintouch = ሐና አንዘ እት Mozilla እብ ቴኽኖሎጀየት ናይ ሶት ላላህተም ማሕበረሰብ ንበነ ህለይና ። ኣብ ኣሳነዮት ው ሓዳስ መሳድር  ው ከምሰሉማ አግል እሊ ማዐሉማት አፎ ተስታዕሙሎ ከም ህልኩም ገል ናኣምር ናሓዘ
 privacy-info = ማዕሉማትኩም እብ ጥንቃቐ ከም ጽብጣ ንውዕደኩም ። ዲብ ናይ  <privacyLink>Privacy Notice</privacyLink> ዚያደት ቅርኦ
 return-to-cv = ዲብ Common Voice ኣቅብል
