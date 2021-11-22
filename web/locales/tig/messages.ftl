@@ -292,10 +292,15 @@ status-hours =
         [one] ዎሮት ሳዓት ትሓቀቀት ኣስኽ ኣዘ
        *[other] { $hours } ሳዓት ትሓቀቀያ ኣስኽ ኣዘ
     }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = ላተለ ሃደፍ: { $goal }
 english = እንግሊዚ
 
 ## ProfileForm
 
+profile-form-username =
+    .label = ስም ናይ ሙስታዕምል
 profile-form-native-language =
     .label = ሉቀት ኡም
 profile-form-additional-language =
@@ -308,10 +313,14 @@ hidden = ሕቡዕ
 visible = ርኡይ
 native-language =
     .label = ሉቀት ኡም
+profile-form-submit-save = ዓቅብ
+profile-form-submit-saved = ተዓቀባ
 male = ተብዕን
 female = ኣንሰት
 # Gender
 other = ብዕድ
+why-profile-title = መለፍ ናይ ኖስ ገልሚ ኣትሓዛ
+build-profile = መለፍ ናይ ኖስ ውድው
 avatar = ሱረት
 goals = ኣህዳፍ
 profile-close = ደብአ
