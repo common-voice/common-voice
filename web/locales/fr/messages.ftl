@@ -1249,6 +1249,8 @@ sc-review-link = Révision
 sc-settings-title = Paramètres
 sc-settings-reset-skipped = Réinitialiser les phrases ignorées
 sc-settings-skipped-decription = Vous avez précédemment ignoré des phrases pendant la révision. Réinitialiser les phrases ignorées affichera à nouveau toutes les phrases ignorées, sans tenir compte de la langue.
+sc-settings-show-all-button = Afficher à nouveau toutes les phrases ignorées
+sc-settings-failed = Impossible de modifier les paramètres. Veuillez réessayer.
 
 # [/SentenceCollector]
 
