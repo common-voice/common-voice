@@ -1034,6 +1034,7 @@ sc-lang-info-total =
        *[other] { $totalSentences } کۆی ڕستەکان
     }
 sc-lang-info-review-now = <reviewLink>ئێستا پێداچوونەوە بکە!</reviewLink>
+sc-lang-info-add-more = <addLink>ڕستەی زیاتر زیاد بکە ئێستا!</addLink>
 
 ## LOGIN
 
@@ -1069,6 +1070,8 @@ sc-review-form-source = سەرچاوە:{ $sentenceSource }
 sc-review-form-button-reject = پەسەندنەکردن
 sc-review-form-button-skip = تێپەڕاندن
 sc-review-form-button-approve = سەلماندن
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = دەتوانی تەختەکلیل بەکاربێنیت: Y بۆ سەلماندن، N بۆ پەسەندنەکردن، S بۆ تێپەڕاندن
 sc-review-form-button-submit =
     .submitText = پێداچوونەوە تەواو بکە
 sc-review-link = پێداچوونەوە
@@ -1076,6 +1079,8 @@ sc-review-link = پێداچوونەوە
 ## SETTINGS
 
 sc-settings-title = ڕێکخستنەکان
+sc-settings-show-all-button = هەموو ڕستە تێپەڕێنراوەکان پیشان بدە دووبارە
+sc-settings-failed = نەتوانرا ڕێکخستنەکان بگۆڕدرێت. تکایە هەوڵ بدەرەوە.
 
 # [/SentenceCollector]
 
