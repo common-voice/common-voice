@@ -629,6 +629,7 @@ contribution-misreadings-example-7-title = ቡን ግል ንስተ ፍግር ሀ
 
 ## HOW-TO
 
+sc-howto-findpd-subtitle = ዲብ ኢንተርነት ሕዝዎ
 
 ## MY SENTENCES
 
@@ -644,9 +645,13 @@ contribution-misreadings-example-7-title = ቡን ግል ንስተ ፍግር ሀ
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-label = ትሳህም ዲባ ላትሓዘ ሉቀት ውስኽ
+sc-add-lang-sec-button = ሉቀት ውስኽ
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-rejected-by-you = ኣብኩም ላትረፈደያ
+sc-confirm-button-text = ኣክድ
 
 ## LANGUAGE INFO
 
