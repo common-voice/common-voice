@@ -777,6 +777,7 @@ read-more-about = Нарҭбааны Иазкны ҳдаҟьаҿы
 
 ## Validation criteria
 
+contribution-criteria-link = Аԥҟара аилкаара
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
