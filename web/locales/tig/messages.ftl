@@ -514,10 +514,22 @@ days =
         [one] ዮም
        *[other] ኣምዕል
     }
+recordings =
+    { $count ->
+        [one] ተስጂል
+       *[other] ተስጂላት
+    }
 
 ## Dashboard
 
 your-languages = ሉቃትኩም
+goal-reached = ሓደፍ በፃሓ
+clips-you-recorded = ክሊፕ ላስጅልኩመን
+clips-you-validated = ክሊፕ ላትሓቀቅኩም ምነን
+todays-recorded-progress = ናይ ዩም ናይ Common Voice ክሊፕ ስጅሎት ተቀዱም
+todays-validated-progress = ናይ ዩም ናይ Common Voice ክሊፕ ሓቀቆት ተቀዱም
+stats = አሕሳኢየት
+awards = ጅዋእዝ
 you = አንቱም
 
 ## Custom Goals
