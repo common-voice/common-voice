@@ -234,6 +234,7 @@ benefits = ꯀꯥꯟꯅꯕ ꯐꯪꯒꯗꯕꯁꯤꯡ
 
 ## What's public
 
+email-not-public = ꯑꯦꯈꯣꯏꯅ ꯅꯍꯥꯛꯀꯤ ꯏꯃꯦꯜ ꯃꯌꯥꯝꯗ ꯎꯠꯊꯣꯛꯂꯣꯏ
 
 ## Speak & Listen Shortcuts
 
@@ -300,6 +301,7 @@ female = ꯅꯨꯄꯤ
 # Gender
 other = ꯑꯇꯩ
 why-profile-title = ꯀꯔꯤꯒꯤ ꯄ꯭ꯔꯣꯐꯥꯏꯜ ?
+goals = ꯄꯥꯟꯗꯝꯁꯤꯡ
 settings = ꯁꯦꯝꯐꯝ
 edit-profile = ꯄ꯭ꯔꯣꯐꯥꯢꯜ ꯁꯦꯝꯒꯠꯂꯨ
 profile-create-success = ꯃꯥꯢꯄꯥꯛꯂꯦ, ꯄ꯭ꯣꯐꯥꯏꯜ ꯁꯥꯈ꯭ꯔꯦ !
