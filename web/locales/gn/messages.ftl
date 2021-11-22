@@ -1025,6 +1025,10 @@ see-less = <chevron></chevron>Ehecha’ive
 
 ## REVIEW
 
+sc-review-form-source = Teñoiha: { $sentenceSource }
+sc-review-form-button-reject = Hejarei
+sc-review-form-button-skip = Jepo
+sc-review-form-button-approve = Moneĩ
 sc-review-form-button-submit =
     .submitText = Jehechajeypáma
 sc-review-link = Hechajey
@@ -1032,6 +1036,7 @@ sc-review-link = Hechajey
 ## SETTINGS
 
 sc-settings-title = Ñemboheko
+sc-settings-reset-skipped = Erujey ñe’ẽjoaju hejapyre
 
 # [/SentenceCollector]
 
