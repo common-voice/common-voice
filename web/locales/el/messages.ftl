@@ -995,9 +995,14 @@ contribution-just-unsure-title = Δεν γνωρίζετε;
 contribution-just-unsure-description = Αν συναντήσετε κάτι που δεν καλύπτουν αυτοί οι κανόνες, παρακαλούμε ψηφίστε σύμφωνα με τη δική σας κρίση. Αν δεν μπορείτε πραγματικά να αποφασίσετε, χρησιμοποιήστε το κουμπί «Παράλειψη» και μεταβείτε στην επόμενη ηχογράφηση.
 see-more = <chevron></chevron>Προβολή περισσότερων
 see-less = <chevron></chevron>Προβολή λιγότερων
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = Αρχική
 sc-header-add = Προσθήκη
 sc-header-my = Οι προτάσεις μου
@@ -1012,6 +1017,12 @@ sc-footer-terms = Όροι
 sc-footer-cookies = Cookies
 sc-login-signup-button = Σύνδεση/Εγγραφή
 sc-logout-button = Αποσύνδεση
+
+## HOME
+
+
+## HOW-TO
+
 sc-howto-addsen-title = Προσθήκη νέων προτάσεων
 sc-howto-cite-item-1 = Μπορείτε να συμπεριλάβετε τον ιστότοπο, π.χ. «Common Voice - https://commonvoice.mozilla.org/»
 sc-howto-review-title = Έλεγχος προτάσεων
@@ -1019,49 +1030,96 @@ sc-howto-review-subtitle = Βεβαιωθείτε ότι η πρόταση πλ�
 sc-howto-review-criteria-1 = Η πρόταση πρέπει να έχει σωστή ορθογραφία.
 sc-howto-review-criteria-2 = Η πρόταση πρέπει να είναι γραμματικά ορθή.
 sc-howto-review-criteria-4 = Εάν η πρόταση πληροί τα κριτήρια, κάντε κλικ στο κουμπί «Έγκριση».
+
+## MY SENTENCES
+
 sc-my-title = Οι προτάσεις μου
 sc-my-loading = Φόρτωση των προτάσεών σας…
 sc-my-no-sentences = Δεν βρέθηκαν προτάσεις!
 sc-my-submission = Υποβολή: { $batchId }
 sc-my-delete = Διαγραφή επιλεγμένων προτάσεων
 sc-my-deleting = Διαγραφή επιλεγμένων προτάσεων…
-sc-profile-title = Προφίλ: { $username }
-sc-review-title = Έλεγχος προτάσεων
-sc-review-loading = Φόρτωση προτάσεων…
+
+## REJECTED
+
+
+## STATS
+
 sc-stats-title = Στατιστικά
 sc-stats-last-update = Τελευταία ενημέρωση: { $lastUpdate }
 sc-stats-last-update-never = Τελευταία ενημέρωση: ποτέ
 sc-stats-updating = Ενημέρωση…
+
+## ADD
+
+sc-submit-err-select-lang = Παρακαλούμε επιλέξτε μια γλώσσα.
+sc-submit-err-add-sentences = Παρακαλούμε προσθέστε προτάσεις.
 sc-submit-title = Προσθήκη προτάσεων
+sc-submit-select-language =
+    .labelText = Επιλογή γλώσσας
 sc-submit-ph-one-per-line =
     .placeholder = Μία πρόταση ανά γραμμή
 sc-submit-button =
     .submitText = Υποβολή
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Αδυναμία προσθήκης γλώσσας
 sc-add-lang-sec-button = Προσθήκη γλώσσας
 sc-add-err-submission = Σφάλμα υποβολής
+
+## ADD SENTENCES CONFIRMATION
+
 sc-confirm-sentences-title = Επιβεβαίωση νέων προτάσεων
 sc-confirm-button-text = Επιβεβαίωση
+
+## LANGUAGE INFO
+
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Καμία πρόταση.
+        [one] 1 συνολική πρόταση.
+       *[other] { $totalSentences } συνολικές προτάσεις.
+    }
 sc-lang-info-validated =
     { $validatedSentences ->
         [0] Καμία επαληθευμένη πρόταση.
         [one] 1 επαληθευμένη πρόταση.
        *[other] { $validatedSentences } επαληθευμένες προτάσεις.
     }
+
+## LOGIN
+
 sc-login-err-failed = Αποτυχία σύνδεσης
 sc-login-err-try-again = Παρακαλούμε δοκιμάστε ξανά.
+
+## PROFILE
+
+sc-profile-title = Προφίλ: { $username }
 sc-personal-err-remove = Δεν ήταν δυνατή η αφαίρεση της γλώσσας
 sc-personal-your-languages = Οι γλώσσες σας:
 sc-personal-remove-button = αφαίρεση
+
+## REVIEW CRITERIA
+
 sc-criteria-modal = ⓘ Κριτήρια ελέγχου
 sc-criteria-title = Κριτήρια ελέγχου
 sc-criteria-make-sure = Βεβαιωθείτε ότι η πρόταση πληροί τα ακόλουθα κριτήρια:
 sc-criteria-item-1 = Η πρόταση πρέπει να έχει σωστή ορθογραφία.
 sc-criteria-item-2 = Η πρόταση πρέπει να είναι γραμματικά ορθή.
+
+## REVIEW
+
+sc-review-title = Έλεγχος προτάσεων
+sc-review-loading = Φόρτωση προτάσεων…
 sc-review-form-button-reject = Απόρριψη
 sc-review-form-button-skip = Παράλειψη
 sc-review-form-button-approve = Έγκριση
 sc-review-form-button-submit =
     .submitText = Ολοκλήρωση ελέγχου
+
+## SETTINGS
+
 sc-settings-title = Ρυθμίσεις
 sc-settings-failed = Δεν ήταν δυνατή η αλλαγή των ρυθμίσεων. Παρακαλούμε δοκιμάστε ξανά.
 
