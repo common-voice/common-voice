@@ -978,3 +978,60 @@ contribution-reader-effects-title = Moñe’ẽhára Oñandúva
 contribution-just-unsure-title = ¿Nahekorasãi?
 see-more = <chevron></chevron>Ehechave
 see-less = <chevron></chevron>Ehecha’ive
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+sc-review-form-button-submit =
+    .submitText = Jehechajeypáma
+sc-review-link = Hechajey
+
+## SETTINGS
+
+sc-settings-title = Ñemboheko
+
+# [/SentenceCollector]
+
