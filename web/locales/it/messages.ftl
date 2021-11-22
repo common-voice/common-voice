@@ -1082,15 +1082,89 @@ sc-submit-select-language =
     .labelText = Seleziona la lingua
 sc-submit-ph-one-per-line =
     .placeholder = Una frase per riga
+sc-submit-button =
+    .submitText = Invia
+sc-submit-filtered = Frasi rifiutate per mancanza dei requisiti, invia la versione corretta come nuove frasi:
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Impossibile aggiungere la lingua
+sc-add-lang-sec-label = Aggiungi una lingua a cui vuoi contribuire
+sc-add-lang-sec-button = Aggiungi una lingua
+sc-add-result =
+    { $duplicates ->
+        [0] Frasi inviate. { $duplicates } frasi sono state rifiutate come duplicate.
+        [one] Frasi inviate. { $duplicates } frase è stata rifiutata come duplicata.
+       *[other] Frasi inviate. { $duplicates } frasi sono state rifiutate come duplicate.
+    }
+sc-add-err-failed =
+    { $sentences ->
+        [0] Nessuna frase non inviata
+        [one] 1 frase non inviata
+       *[other] { $sentences } frasi non inviate
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Frasi non inviate, vuoi lasciare la pagina?
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Nessuna frase trovata.
+        [one] 1 frase trovata.
+       *[other] { $countOfSentences } frasi trovate.
+    }
+sc-confirm-rejected-by-you = { $countOfInvalidated } frasi rifiutate da te
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Nessuna frase è ancora stata convalidata.
+        [one] 1 frase è già stata convalidata. Ottimo lavoro!
+       *[other] { $countOfReviewed } frasi sono già state convalidate. Ottimo lavoro!
+    }
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Nessuna frase pronta per l‘invio!
+        [one] 1 frase pronta per l‘invio!
+       *[other] { $readyCount } frasi pronte per l‘invio!
+    }
+sc-confirm-unreviewed = { $countOfUnreviewed } frasi non convalidate. Se vuoi, puoi rivedere le tue frasi ora prima di inviarle.
+sc-confirm-button-text = Conferma
+sc-confirm-uploading = Le frasi sono in fase di caricamento. Questa operazione può richiedere diversi minuti in base al numero di frasi aggiunte. Non chiudere questa pagina.
 
 ## LANGUAGE INFO
 
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Nessuna frase.
+        [one] 1 frase in totale.
+       *[other] { $totalSentences } frasi in totale.
+    }
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Nessuna frase in convalida.
+        [one] 1 frase in convalida.
+       *[other] { $totalInReview } frasi in convalida.
+    }
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Nessuna frase rimasta da con convalidare.
+        [one] 1 frase rimasta da convalidare.
+       *[other] { $unreviewedSentencesByYou } frasi rimaste da convalidare.
+    }
+sc-lang-info-review-now = <reviewLink>Convalida ora!</reviewLink>
+sc-lang-info-add-more = <addLink>Aggiungi nuove frasi ora!</addLink>
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Nessuna frase convalidata.
+        [one] 1 frase convalidata.
+       *[other] { $validatedSentences } frasi convalidate.
+    }
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Nessuna frase rifiutata.
+        [one] 1 frase rifiutata.
+       *[other] { $rejectedSentences } frasi rifiutate.
+    }
 
 ## LOGIN
 
