@@ -995,6 +995,10 @@ see-less = <chevron></chevron>Ehecha’ive
 
 ## MY SENTENCES
 
+sc-my-title = Che ñe’ẽjuaju
+sc-my-loading = Emyanyhẽ ne ñe’ẽjuaju…
+sc-my-source = Teñoiha:  { $source }
+sc-my-deleting = Emboguehína ñe’ẽrysýi poravopyre…
 
 ## REJECTED
 
