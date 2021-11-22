@@ -457,6 +457,9 @@ about-subtitle = Common Voice d asenfaṛ n Mozilla i uselmed n tmacinin ad mmes
 about-header-description =
     Sin-agi n yisenfaren ttekkan deg uxeddim-nneɣ i d-nger akken ad nsenɣes aceqqiq yellan deg taɣect tumḍint. Titiknulujiyin n uɛqal n taɣect rennunt-d kra n umaynut icudden ɣer umdan deg yisuga neɣ ibenkan-nneɣ, maca ineflayen sran ddeqs n yisefka n taɣect akken ad feṣṣlen ifecka. Akka tura, tuget n yisefka-a ɣlayit yerna ɣur-sen imawlan.
     Nebɣa ad nerr isefka n taɣect baṭel daɣen ttwakcamen s wudem azayaz, daɣen ad neḍmen d akken isefka-a ḍummen-d meṛṛa imdanen deg tudert tilawt. Lwaḥid, nezmer ad nerr aɛqal n taɣect d ufrin i yal yiwen.
+about-header-description-2 =
+    Iswi n usenfar-a d asenɣes n uceqqiq i yellan deg taɣect tumḍint. Titiknulujiyin n uɛqal n taɣect rennunt-d abaɣur n umdan n yibenkan-nneɣ, maca ineflayen akked tneflayin sran ddeqs n yisefka n taɣect akken ad ten-id-feslen. Akka tura, tuget n yisefka-a ɣlayit daɣen sɛan imawlan.
+    Nebɣa ad nerr isefka n taɣect d ilelliyen, d izuyaz, daɣen ad neḍmen dakken isefka-a mmalen-d tugta n yimdanen deg tilawt. Lwaḥid, ad nizmir ad nesnerni aɛqal n taɣect i yal yiwen d yiwet.
 how-does-it-work-title = Amek iteddu?
 how-does-it-work-text = Ad d-nemmekti attekki lwaḥid deg usbeddi n tegrumma n yisefka n uɣbalu yeldin. Mudd-d taɣect-ik, senqed tiseddi n tuɣac n wiyaḍ, snerni tagrumma n yisefka i yal yiwen.
 about-speak = Mmeslay
