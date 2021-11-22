@@ -1062,9 +1062,14 @@ contribution-just-unsure-title = Dal Ddim yn Siŵr?
 contribution-just-unsure-description = Os dewch chi ar draws rhywbeth nad yw'r canllawiau hyn yn ei gynnwys, defnyddiwch eich synnwyr cyffredin. Os nad ydych yn gallu penderfynu go iawn, defnyddiwch y botwm hepgor a mynd ymlaen i'r recordiad nesaf.
 see-more = <chevron></chevron>Gweld rhagor
 see-less = <chevron></chevron>Gweld llai
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = Cartref
 sc-header-how-to = Sut mae gwneud
 sc-header-add = Ychwanegu
@@ -1082,23 +1087,29 @@ sc-footer-terms = Amodau
 sc-footer-cookies = Cwcis
 sc-login-signup-button = Mewngofnodi / Cofrestru
 sc-logout-button = Allgofnodi
+
+## HOME
+
 sc-home-title = Croeso i Gasglwr Brawddegau Common Voice
-sc-home-intro = Mae'r Casglwr Brawddegau yn rhan o </commonVoiceLink>Common Voice</commonVoiceLink>. Mae'n caniatáu i gyfranwyr gasglu a dilysu brawddegau a grëwyd gan y gymuned. Gallwch ddefnyddio'r teclyn hwn hefyd i fewnforio a glanhau corpws parth cyhoeddus bach i ganolig rydych chi wedi'i ddarganfod neu ei gasglu. Rhaid i bob brawddeg fod yn rhai Parth Cyhoeddus. Mae brawddegau cymeradwy yn cael eu hallforio bob wythnos i storfan Common Voice ac yn cael eu rhyddhau i wefan Common Voice ar bob darpariaeth newydd.
+sc-home-intro = Mae'r Casglwr Brawddegau yn rhan o </commonVoiceLink>Common Voice</commonVoiceLink>. Mae'n caniatáu i gyfranwyr gasglu a dilysu brawddegau a grëwyd gan y gymuned. Gallwch ddefnyddio'r teclyn hwn hefyd i fewnforio a glanhau corpws bach i ganolig yn y parth cyhoeddus rydych chi wedi'i ddarganfod neu ei gasglu. Rhaid i bob brawddeg fod yn rhai Parth Cyhoeddus. Mae brawddegau cymeradwy yn cael eu hallforio bob wythnos i storfan Common Voice ac yn cael eu rhyddhau i wefan Common Voice fesul sypyn newydd.
 sc-home-collect-title = Casglu brawddegau
 sc-home-collect-text = Helpwch ni trwy ysgrifennu neu gasglu brawddegau o'r Parth Cyhoeddus.
 sc-home-review-title = Adolygu brawddegau
 sc-home-review-text = Helpwch ni trwy adolygu brawddegau i sicrhau eu cywirdeb yn unol â'r canllawiau.
+
+## HOW-TO
+
 sc-howto-title = Sut mae...
 sc-howto-addlang-title = Ychwanegu ieithoedd i weithio arnyn nhw
 sc-howto-addlang-text = Ar ôl mewngofnodi gallwch ddewis eich ieithoedd o'r adran proffil.
 sc-howto-addsen-title = Ychwanegu brawddegau newydd
 sc-howto-addsen-item-1 = Rhaid i'r holl frawddegau rydych yn eu cyflwyno fod o dan drwydded <wikipediaLink>Parth Cyhoeddus (CC-0)</wikipediaLink>. Er mwyn cefnogi cynnwys gwaith nad yw o dan drwydded gyhoeddus, rydym wedi creu <cc0WaiverLink>templed Cytundeb Cyfraniadau</cc0WaiverLink> ar gyfer gwaith lle hoffai perchennog yr hawlfraint gyfrannu'r deunydd i Common Voice.
 sc-howto-addsen-item-2 = Rhifau. Dylai fod dim digidau yn y testun ffynhonnell oherwydd maen nhw'n gallu achosi problemau wrth eu darllen yn uchel. Mae'r ffordd y mae rhif yn cael ei ddarllen yn dibynnu ar y cyd-destun a gall gyflwyno dryswch yn y set ddata. Er enghraifft, mae modd darllen y rhif “2409” yn gywir fel “dau pedwar dim naw” a “dwy fil pedwar cant a naw”.
-sc-howto-addsen-item-3 = Talfyriadau ac Acronymau. Mae'n bwysig osgoi byrfoddau ac acronymau fel “UDA” neu “ICE” yn y testun ffynhonnell oherwydd bod modd eu darllen mewn ffordd nad yw'n cyd-fynd â'u sillafu. Yn ogystal, gall fod nifer o ddarlleniadau cywir ar gyfer un talfyriad. Er enghraifft, mae modd ynganu'r acronym “ICE” yn “I-C-E” neu fel un gair.
-sc-howto-addsen-item-4 = Atalnodi. Dim ond pan fydd hynny'n hollol angenrheidiol y dylid cynnwys symbolau ac atalnodi arbennig. Er enghraifft, mae collnod yn cael ei gynnwys mewn geiriau Cymraeg fel “mae'r” a “lle’r” ac mae angen ei gynnwys yn y testun ffynhonnell, ond mae'n annhebygol y bydd angen symbol arbennig fel “@” neu “#” arnoch chi.
+sc-howto-addsen-item-3 = Talfyriadau ac Acronymau. Mae'n bwysig osgoi byrfoddau ac acronymau fel “UDA” neu “S4C” yn y testun ffynhonnell oherwydd bod modd eu darllen mewn ffordd nad yw'n cyd-fynd â'u sillafu. Yn ogystal, gall fod nifer o ddarlleniadau cywir ar gyfer un talfyriad. Er enghraifft, mae modd ynganu'r acronym “S4C” yn “S4C” neu fel Sianel 4 Cymru.
+sc-howto-addsen-item-4 = Atalnodi. Dim ond pan fydd hynny'n hollol angenrheidiol y dylid cynnwys symbolau ac atalnodi arbennig. Er enghraifft, mae collnod yn cael ei gynnwys mewn geiriau Cymraeg fel “mae'r” a “wedi'u” ac mae angen ei gynnwys yn y testun ffynhonnell, ond mae'n annhebygol y bydd angen symbol arbennig fel “@” neu “#” arnoch chi.
 sc-howto-addsen-item-5 = Llythrennau estron. Rhaid i lythrennau fod yn ddilys yn yr iaith sy'n cael ei siarad. Er enghraifft, llythyren yn yr wyddor Rwsiaidd yw “ж” ond nid yw byth yn cael ei defnyddio yn Gymraeg ac felly dylai fyth ymddangos mewn unrhyw destun ffynhonnell Cymraeg.
-sc-howto-addsen-item-6 = Gall ieithoedd gael eu <validationRulesLink>rheolau dilysu</validationRulesLink> eu hunain gyda gofynion ychwanegol. Os nad oes ffeil ddilysu benodol ar gyfer iaith, rydym yn defnyddio'r rheolau Saesneg generig.
-sc-howto-addsen-post-1 = Mae'n well gennym frawddegau naturiol/sgwrsiol. Er bod amrywiaeth ffonetig a geiriau gwahanol mewn brawddegau yn bwysig, rydym yn ceisio gwneud recordio brawddegau gymaint o hwyl â phosibl. Felly byddai'n wych pe gallech chi geisio cadw'ch brawddegau mor naturiol/gafaelgar â phosibl.
+sc-howto-addsen-item-6 = Gall ieithoedd gael eu <validationRulesLink>rheolau dilysu</validationRulesLink> eu hunain gyda gofynion ychwanegol. Os nad oes ffeil ddilysu benodol ar gyfer iaith, rydym yn defnyddio'r rheolau Cymraeg generig.
+sc-howto-addsen-post-1 = Mae'n well gennym frawddegau naturiol/sgwrsiol. Er bod amrywiaeth ffonetig a geiriau gwahanol mewn brawddegau yn bwysig, rydym yn ceisio gwneud recordio brawddegau gymaint o hwyl â phosibl. Felly byddai'n wych pe gallech chi geisio cadw'ch brawddegau mor naturiol/diddorol â phosibl.
 sc-howto-cite-title = Sut i Ddyfynnu
 sc-howto-cite-pre-1 = Mae'n bwysig eich bod yn dweud o ble y daethoch o hyd i'r drwydded gyhoeddus er mwyn osgoi llên-ladrad ac i ganiatáu ar gyfer y camau dilynol ar <copyrightIssuesLink>faterion hawlfraint</copyrightIssuesLink>. Dyma rhai ffyrdd y gallwch chi ddyfynnu'r gwaith.
 sc-howto-cite-item-1 = Fe allech chi gynnwys y wefan, e.e. "Common Voice - https://commonvoice.mozilla.org/"
@@ -1122,6 +1133,9 @@ sc-howto-findpd-tips-3 = Yn anffodus, nid oes modd i ni ddefnyddio erthyglau Wik
 sc-howto-findpd-subtitle-2 = Partneru gyda sefydliadau neu unigolion lleol
 sc-howto-findpd-partner-1 = Mae yna lawer o sefydliadau cyhoeddus a allai fod eisiau cydweithio ac sydd eisoes â llawer o destunau y gallan nhw eu rhoi fel parth cyhoeddus. Cysylltwch â'ch Prifysgolion, Llywodraethau a sefydliadau cod agored lleol i siarad am y project a gofyn am eu cymorth.
 sc-howto-findpd-partner-2 = Gall ieithyddion arbenigol hefyd helpu, felly ceisiwch gysylltu â Phrifysgolion sydd ag adrannau ieithyddol yn lleol (athrawon a myfyrwyr fel ei gilydd) a gweld a fyddan nhw'n gallu helpu i gasglu set amrywiol o frawddegau sain-amrywiol yn eich iaith.
+
+## MY SENTENCES
+
 sc-my-title = Fy Mrawddegau
 sc-my-description = Mae'r dudalen hon yn rhoi trosolwg i chi o'r holl frawddegau rydych chi wedi'u cyflwyno. Gallwch hefyd ddileu brawddegau a gyflwynwyd eisoes os oes angen gwneud hynny trwy farcio'r blwch ticio wrth ei ymyl a chlicio ar &quot;Dileu'r brawddegau hyn&quot; ar y gwaelod. Peidiwch â dileu brawddegau oni bai bod hynny'n hollol angenrheidiol, er enghraifft, os ydych chi wedi sylwi wedyn bod brawddeg wedi'i ddiogelu gan hawlfraint.
 sc-my-loading = Yn llwytho'ch brawddegau...
@@ -1132,21 +1146,24 @@ sc-my-source = Ffynhonnell: { $source }
 sc-my-delete = Dileu'r brawddegau hyn
 sc-my-deleting = Yn dileu'r brawddegau hyn…
 sc-my-err-failed-delete = Wedi methu dileu'r brawddegau hyn... Rhowch gynnig arall arni!
-sc-profile-title = Proffil: { $username }
+
+## REJECTED
+
 sc-rejected-title = Brawddegau wedi'u Gwrthod
 sc-rejected-loading = Yn llwytho'r brawddegau wedi'u gwrthod...
 sc-rejected-err-fetching = Gwall wrth estyn y brawddegau wedi'u gwrthod. Ceisiwch eto.
 sc-rejected-none-found = Heb ganfod brawddegau wedi'u gwrthod!
-sc-review-lang-not-selected = Nid ydych wedi dewis unrhyw ieithoedd. Ewch i'ch <profileLink>Proffil</profileLink> i ddewis ieithoedd.
-sc-review-title = Adolygu Brawddegau
-sc-review-loading = Yn llwytho brawddegau...
-sc-review-select-language = Dewiswch iaith i adolygu brawddegau ynddi.
-sc-review-no-sentences = Dim brawddegau i'w hadolygu. <addLink>Ychwanegwch fwy o frawddegau nawr!</addLink>
+
+## STATS
+
 sc-stats-title = Ystadegau
 sc-stats-last-update = Diweddariad Diwethaf: { $lastUpdate }
 sc-stats-last-update-never = Diweddariad Diwethaf: byth
 sc-stats-updating = Yn diweddaru…
 sc-stats-summary = Mae'r Casglwr Brawddegau Common Voice wedi casglu { $sentenceCount } brawddeg mewn { $languageCount } iaith!
+
+## ADD
+
 sc-submit-err-select-lang = Dewiswch iaith.
 sc-submit-err-add-sentences = Ychwanegwch frawddegau.
 sc-submit-err-add-source = Ychwanegwch ffynhonnell.
@@ -1167,6 +1184,9 @@ sc-submit-button =
     .submitText = Cyflwyno
 sc-submit-filtered = Brawddegau wedi'u didoli oherwydd bod rhai gofynion wedi methu (cyflwynwch fersiynau cywir fel brawddegau newydd):
 sc-submit-guidelines = Darllenwch y <howToLink>canllawiau</howToLink>.
+
+## ADD LANGUAGE
+
 sc-add-lang-could-not-add = Methu ychwanegu iaith
 sc-add-lang-sec-label = Ychwanegwch iaith rydych eisiau gyfrannu ati
 sc-add-lang-sec-button = Ychwanegu Iaith
@@ -1192,6 +1212,9 @@ sc-add-err-failed =
        *[other] Methodd { $sentences } brawddeg
     }
 sc-add-err-submission = Gwall Cyflwyno
+
+## ADD SENTENCES CONFIRMATION
+
 sc-confirm-are-you-sure =
     .message = Nid ydych wedi cyflwyno brawddegau, a ydych chi'n siŵr eich bod chi eisiau gadael?
 sc-confirm-sentences-title = Cadarnhau'r Brawddegau Newydd
@@ -1229,6 +1252,9 @@ sc-confirm-ready =
 sc-confirm-unreviewed = Mae yna { $countOfUnreviewed } brawddeg heb eu hadolygu. Mae modd i chi nawr i adolygu'ch brawddegau cyn eu cyflwyno.
 sc-confirm-button-text = Cadarnhau
 sc-confirm-uploading = Mae brawddegau'n cael eu llwytho i fyny. Gall hyn gymryd sawl munud yn dibynnu ar nifer y brawddegau sy'n cael eu hychwanegu. Peidiwch â chau'r wefan hon.
+
+## LANGUAGE INFO
+
 sc-lang-info-total =
     { $totalSentences ->
         [0] Dim brawddegau cyfan
@@ -1281,14 +1307,24 @@ sc-lang-info-rejected =
         [many] { $rejectedSentences } brawddeg wedi'u gwrthod.
        *[other] { $rejectedSentences } brawddeg wedi'u gwrthod.
     }
+
+## LOGIN
+
 sc-login-err-failed = Methodd y mewngofnodi
 sc-login-err-try-again = Ceisiwch eto.
+
+## PROFILE
+
+sc-profile-title = Proffil: { $username }
 sc-personal-err-lang-not-found = Methu dileu iaith: iaith heb ei chanfod
 sc-personal-err-remove = Methu dileu iaith
 sc-personal-your-languages = Eich ieithoedd:
 sc-personal-remove-button = tynnu
 sc-personal-added-by-you = { $sentences } wedi'u hychwanegu gennych chi
 sc-personal-not-added = Nid ydych wedi ychwanegu unrhyw ieithoedd eto.
+
+## REVIEW CRITERIA
+
 sc-criteria-modal = Ⓘ Meini Prawf Adolygu
 sc-criteria-title = Meini Prawf Adolygu
 sc-criteria-make-sure = Sicrhewch fod y frawddeg yn cwrdd â'r meini prawf canlynol:
@@ -1298,6 +1334,14 @@ sc-criteria-item-3 = Rhaid i'r frawddeg fod yn ynganadwy.
 sc-criteria-item-4 = Os yw'r frawddeg yn cwrdd â'r meini prawf, cliciwch y botwm "Cymeradwyo" ar y dde.
 sc-criteria-item-5 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf uchod, cliciwch y botwm "Gwrthod" ar y dde. Os nad ydych yn siŵr am y frawddeg, gallwch hefyd ei hepgor a symud ymlaen i'r un nesaf.
 sc-criteria-item-6 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu rhagor o frawddegau!
+
+## REVIEW
+
+sc-review-lang-not-selected = Nid ydych wedi dewis unrhyw ieithoedd. Ewch i'ch <profileLink>Proffil</profileLink> i ddewis ieithoedd.
+sc-review-title = Adolygu Brawddegau
+sc-review-loading = Yn llwytho brawddegau...
+sc-review-select-language = Dewiswch iaith i adolygu brawddegau ynddi.
+sc-review-no-sentences = Dim brawddegau i'w hadolygu. <addLink>Ychwanegwch fwy o frawddegau nawr!</addLink>
 sc-review-form-prompt =
     .message = Brawddegau wedi'u hadolygu ond heb eu cyflwyno, ydych chi'n siŵr?
 sc-review-form-usage = Llusgwch i'r dde i gymeradwyo'r frawddeg. Llusgwch i'r chwith i'w gwrthod. Llusgwch i fyny i'w hepgor. <strong>Peidiwch ag anghofio i gyflwyno'ch adolygiad!</strong>
@@ -1305,6 +1349,7 @@ sc-review-form-source = Ffynhonnell: { $sentenceSource }
 sc-review-form-button-reject = Gwrthod
 sc-review-form-button-skip = Hepgor
 sc-review-form-button-approve = Cymeradwyo
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
 sc-review-form-keyboard-usage = Gallwch hefyd ddefnyddio Llwybrau Byr Allweddell: I i Gymeradwyo, N i Wrthod, H i Hepgor
 sc-review-form-button-submit =
     .submitText = Gorffen Adolygu
@@ -1320,6 +1365,9 @@ sc-review-form-reviewed-message =
     }
 sc-review-form-review-failure = Nid oedd modd cadw'r adolygiad. Ceisiwch eto'n hwyrach.
 sc-review-link = Adolygu
+
+## SETTINGS
+
 sc-settings-title = Gosodiadau
 sc-settings-reset-skipped = Ailosod brawddegau wedi'u hepgor
 sc-settings-skipped-decription = Yn y gorffennol, rydych wedi hepgor brawddegau wrth eu hadolygu. Bydd ailosod brawddegau wedi'u hepgor yn dangos pob brawddeg sydd wedi'i hepgor eto. Mae hyn yn annibynnol ar yr iaith.
