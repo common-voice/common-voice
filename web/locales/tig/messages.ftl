@@ -477,7 +477,9 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold>ክሊፕ
     }
 goal-help-recording = Common Voice ዲብ ናይ <goalPercentage></goalPercentage> ምንላ ዮምየት  ናይ ተስጂል ሃደፍ { $goalValue } እግል ትብጻ ሳዓድኹማ!
+goal-help-validation = Common Voice ዲብ ናይ <goalPercentage></goalPercentage> ምንላ ዮምየት  ናይ ታሕቂቅ ሃደፍ { $goalValue } እግል ትብጻ ሳዓድኹማ!
 record-cta = ተስጂል ኣንብቶ
+record-must-allow-microphone = መክረፎን ገል ልሽቀ ስምሖ
 record-no-mic-found = መክረፎን ኢትረከባኒ
 record-error-too-short = ላተስጂል ብዙሕ ሓጭራ
 record-error-too-long = ላተስጂል ብዙሕ ረይማ
@@ -496,9 +498,12 @@ target-segment-learn-more = ዘያደት አምሮ
 
 ## Reporting
 
+report = ተቅሪር
 report-different-language = ብዕደት ሉቀት
 report-different-language-detail = አብ ሉቀት ብዕደት መን ላ ኣና አትሃገያ ለህሌኮ ከጥበት ታ
 report-difficult-pronounce = ግል ትንጠቃ ስዓበት ታ
+report-other-comment =
+    .placeholder = ታዕሊቅ
 success = ነጃሕ
 continue = ዋሰል
 
