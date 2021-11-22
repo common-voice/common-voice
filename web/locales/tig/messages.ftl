@@ -617,6 +617,10 @@ contribution-misreadings-title = ቅርኣት ጊጊት
 contribution-misreadings-example-5-title = ቡን ግል ንስተ ፍግር ሀሌና
 contribution-misreadings-example-6-title = ቡን ግል ንስተ ፍግር ሀሌና
 contribution-misreadings-example-7-title = ቡን ግል ንስተ ፍግር ሀሌና
+contribution-varying-pronunciations-example-1-title = On his head he wore a beret.
+contribution-varying-pronunciations-example-1-explanation = [‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]
+contribution-varying-pronunciations-example-2-title = His hand was rais-ed.
+contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in English is always pronounced as one syllable, not two]
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
