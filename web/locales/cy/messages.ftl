@@ -1137,7 +1137,7 @@ sc-howto-findpd-partner-2 = Gall ieithyddion arbenigol hefyd helpu, felly ceisiw
 ## MY SENTENCES
 
 sc-my-title = Fy Mrawddegau i
-sc-my-description = Mae'r dudalen hon yn rhoi trosolwg i chi o'r holl frawddegau rydych chi wedi'u cyflwyno. Gallwch hefyd ddileu brawddegau a gyflwynwyd eisoes os oes angen gwneud hynny trwy farcio'r blwch ticio wrth ei ymyl a chlicio ar &quot;Dileu'r brawddegau hyn&quot; ar y gwaelod. Peidiwch â dileu brawddegau oni bai bod hynny'n hollol angenrheidiol, er enghraifft, os ydych chi wedi sylwi wedyn bod brawddeg wedi'i ddiogelu gan hawlfraint.
+sc-my-description = Mae'r dudalen hon yn rhoi trosolwg i chi o'r holl frawddegau rydych chi wedi'u cyflwyno. Gallwch hefyd ddileu brawddegau a gyflwynwyd eisoes os oes angen gwneud hynny trwy farcio'r blwch ticio wrth eu hymyl a chlicio ar &quot;Dileu'r brawddegau hyn&quot; ar y gwaelod. Peidiwch â dileu brawddegau oni bai bod hynny'n hollol angenrheidiol, er enghraifft, os ydych chi wedi sylwi wedyn bod brawddeg wedi'i diogelu gan hawlfraint.
 sc-my-loading = Yn llwytho'ch brawddegau...
 sc-my-err-fetching = Gwall wrth estyn eich brawddegau. Ceisiwch eto.
 sc-my-no-sentences = Heb ganfod brawddegau
@@ -1158,7 +1158,7 @@ sc-rejected-none-found = Heb ganfod brawddegau wedi'u gwrthod!
 
 sc-stats-title = Ystadegau
 sc-stats-last-update = Diweddariad Diwethaf: { $lastUpdate }
-sc-stats-last-update-never = Diweddariad Diwethaf: byth
+sc-stats-last-update-never = Diweddariad Diwethaf: erioed
 sc-stats-updating = Yn diweddaru…
 sc-stats-summary = Mae'r Casglwr Brawddegau Common Voice wedi casglu { $sentenceCount } brawddeg mewn { $languageCount } iaith!
 
@@ -1188,7 +1188,7 @@ sc-submit-guidelines = Darllenwch y <howToLink>canllawiau</howToLink>.
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Methu ychwanegu iaith
-sc-add-lang-sec-label = Ychwanegwch iaith rydych eisiau gyfrannu ati
+sc-add-lang-sec-label = Ychwanegwch iaith rydych eisiau cyfrannu ati
 sc-add-lang-sec-button = Ychwanegu Iaith
 sc-add-err-unexpected = Dychwelwyd ymateb annisgwyl gan y gweinydd
 sc-add-result =
@@ -1257,13 +1257,13 @@ sc-confirm-uploading = Mae brawddegau'n cael eu llwytho i fyny. Gall hyn gymryd 
 
 sc-lang-info-total =
     { $totalSentences ->
-        [0] Dim brawddegau cyfan
-        [zero] Dim brawddegau cyfan
-        [one] 1 frawddeg gyfan
-        [two] { $totalSentences } frawddeg gyfan
-        [few] { $totalSentences } brawddeg gyfan
-        [many] { $totalSentences } brawddeg gyfan
-       *[other] { $totalSentences } brawddeg gyfan
+        [0] Dim brawddegau
+        [zero] Dim brawddegau
+        [one] 1 frawddeg i gyd
+        [two] { $totalSentences } frawddeg i gyd
+        [few] { $totalSentences } brawddeg i gyd
+        [many] { $totalSentences } brawddeg i gyd
+       *[other] { $totalSentences } brawddeg i gyd
     }
 sc-lang-info-in-review =
     { $totalInReview ->
@@ -1292,10 +1292,10 @@ sc-lang-info-validated =
         [0] Dim brawddegau wedi'u dilysu.
         [zero] Dim brawddegau wedi'u dilysu.
         [one] 1 frawddeg wedi'i dilysu.
-        [two] { $validatedSentences } frawddeg wedi'u dilysu.
-        [few] { $validatedSentences } brawddeg wedi'u dilysu.
-        [many] { $validatedSentences } brawddeg wedi'u dilysu.
-       *[other] { $validatedSentences } brawddeg wedi'u dilysu.
+        [two] { $validatedSentences } frawddeg wedi'i dilysu.
+        [few] { $validatedSentences } brawddeg wedi'i dilysu.
+        [many] { $validatedSentences } brawddeg wedi'i dilysu.
+       *[other] { $validatedSentences } brawddeg wedi'i dilysu.
     }
 sc-lang-info-rejected =
     { $rejectedSentences ->
