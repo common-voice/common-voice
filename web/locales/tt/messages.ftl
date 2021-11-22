@@ -106,6 +106,7 @@ mhr = Болын мари
 mk = Македон
 ml = Малаялам
 mn = Монгол
+mni = Манипури
 mos = Мосси
 mr = Маратһи
 mrj = Таулы мари
@@ -127,6 +128,7 @@ pap-AW = Папиаменто (Аруба)
 pl = Поляк
 ps = Пушту
 pt = Португал
+quc = Киче
 rm-sursilv = Романш сурсельв
 rm-vallader = Романш Валладер
 ro = Румын
@@ -150,6 +152,8 @@ ta = Тамил
 te = Телугу
 tg = Таҗик
 th = Тай
+ti = Тигринья
+tig = Тигре
 tl = Тагалог
 tr = Төрек
 tt = Татар
@@ -295,6 +299,7 @@ shortcut-record-toggle-label = Яздыру/Туктату
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Клипны янәдән яздыру
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Агымдагы яздырудан баш тарту
 shortcut-submit = Enter
 shortcut-submit-label = Клипларны җибәрү
 request-language-text = Common Voice'ка Сезнең телегез өстәлмәгәнме әле?
@@ -851,7 +856,12 @@ profile-form-delete = Профильне бетерү
 
 ## Profile Download
 
+download-q = Мәгълүматыгызны йөкләргә кирәкме?
 download-profile-title = Профиль
+download-profile-size = Берничә байт
+download-recordings-title = Язмалар
+download-recordings-size = Гадәттә мегабайт
+download-size = Үлчәм
 download-selected = Сайланган
 download-request-button = Йөкләп алу
 download-request-title = { $created }
@@ -919,3 +929,56 @@ contribution-volume-title = Тавыш көче
 contribution-reader-effects-title = Укучы эффектлары
 see-more = <chevron></chevron>Күбрәк
 see-less = <chevron></chevron>Әзрәк
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
