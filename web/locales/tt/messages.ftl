@@ -863,8 +863,13 @@ download-recordings-title = Язмалар
 download-recordings-size = Гадәттә мегабайт
 download-size = Үлчәм
 download-selected = Сайланган
+download-start = Профиль мәгълүматларын йөкләп алу
+download-request = Язмалар йөкләп алуга гариза бирү
+download-requests = Язмаларны йөкләп алуга элегрәк бирелгән гаризалар
 download-request-button = Йөкләп алу
 download-request-title = { $created }
+download-request-archive-single = Бердәнбер ZIP файл. Эчтәлеге:
+download-request-archive-multiple = { $archiveCount } ZIP файл. Эчтәлек:
 download-request-refresh-button = Яңарту
 download-request-modal-title = Сылтамаларны йөкләп алу
 download-request-link-text = Zip #{ $offset } / { $total }
@@ -937,21 +942,38 @@ see-less = <chevron></chevron>Әзрәк
 
 ## HEADER/FOOTER
 
+sc-header-home = Баш бит
+sc-header-how-to = Кулланма
+sc-header-add = Өстәү
+sc-header-review = Тикшерү
+sc-header-statistics = Статистика
+sc-header-profile = Профиль
+sc-footer-discourse = Discourse
+sc-footer-translate = Бу битне тәрҗемә итү
+sc-footer-privacy = Хосусыйлык
+sc-footer-terms = Шартлар
+sc-footer-cookies = Кукилар
+sc-login-signup-button = Керү / Теркәлү
 
 ## HOME
 
+sc-home-review-title = Җөмләләрне тикшерү
 
 ## HOW-TO
 
+sc-howto-title = Кулланма
 
 ## MY SENTENCES
 
+sc-my-title = Минем җөмләләр
+sc-my-no-sentences = Җөмләләр табылмады!
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = Статистика
 
 ## ADD
 
