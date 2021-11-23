@@ -1053,7 +1053,9 @@ sc-login-err-try-again = Eha’ãjey ag̃ave.
 
 sc-profile-title = Mba’ete: { $username }
 sc-personal-err-remove = Neremboguekuaái pe ñe’ẽ
+sc-personal-your-languages = Ne ñe’ẽnguéra:
 sc-personal-remove-button = jeipe’a
+sc-personal-added-by-you = { $sentences } nde embojuajupyre
 
 ## REVIEW CRITERIA
 
