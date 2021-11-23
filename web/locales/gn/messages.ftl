@@ -1057,12 +1057,16 @@ sc-personal-remove-button = jeipe’a
 
 sc-review-title = Ehechajey ñe’ẽjuaju
 sc-review-loading = Emyanyhẽ ñe’ẽrysýi…
+sc-review-select-language = Eiporavo ñe’ẽ ehechajey hag̃ua ñe’ẽjuajukuéra.
+sc-review-form-prompt =
+    .message = Ñe’ẽjuaju jehechapyre oñemondo’ỹva, ¿ejaposéta?
 sc-review-form-source = Teñoiha: { $sentenceSource }
 sc-review-form-button-reject = Hejarei
 sc-review-form-button-skip = Jepo
 sc-review-form-button-approve = Moneĩ
 sc-review-form-button-submit =
     .submitText = Jehechajeypáma
+sc-review-form-review-failure = Ndaikatúi eñongatu pe jehai’i. Eha’ãjey ag̃amieve.
 sc-review-link = Hechajey
 
 ## SETTINGS
