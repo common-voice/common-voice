@@ -360,12 +360,14 @@ faq-why-not-ask-read-q = አግሚቱ ኣዳም ምን ክቱብ ኣው ምን �
 faq-why-account-q = አግልሚ ምስልኩም ሕሳብ ፋትሕ?
 faq-what-is-cv = Common Voice ሚ ቱ
 faq-using-cv = አስትዕማል ናይ Common Voice
+faq-description = Common Voice ናይ Mozilla ሙባደረት እንደ ገብኣት እግል ኣለት ናይ ኣማን ኣዳም ኣፎ ከም ልትሃገ ላትዓልማ ታ
 faq-search-for-answers =
     .label = ኣጅውበት ደውሮ
 
 ## ABOUT US
 
 about-title = አግል ሚ ቱ Common Voice
+about-subtitle = Common Voice ናይ Mozilla ሙባደረት እንደ ገብኣት እግል ኣለት ናይ ኣማን ኣዳም ኣፎ ከም ልትሃገ ላትዓልማ ታ
 how-does-it-work-title = ኣፎ ትሽቄ?
 about-speak = ታሃገው
 about-listen-queue = ናይ ሰምዓት ጣቡር
