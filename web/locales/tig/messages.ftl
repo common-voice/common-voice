@@ -367,13 +367,14 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = አግል ሚ ቱ Common Voice
-about-subtitle = Common Voice ናይ Mozilla ሙባደረት እንደ ገብኣት እግል ኣለት ናይ ኣማን ኣዳም ኣፎ ከም ልትሃገ ላትዓልማ ታ
+about-subtitle = Common Voice ናይ Mozilla ሙባደረት እንደ ገብኣት እግል ኣለት ናይ ኣማን ኣዳም ኣፎ ከም ልትሃገ ላትዓልማ ታ ። ዲብ ራኣስ በያናት ናይ Common Voice, Deep Speech ላልትባሃል መስደሩ ፍቱሕ ላጋኣ ኑጡቅ ላለሌለ ሙሓርክ በነ ህለና
 how-does-it-work-title = ኣፎ ትሽቄ?
 about-speak = ታሃገው
 about-listen-queue = ናይ ሰምዓት ጣቡር
 about-listen = ሰምዖ
 about-yes-votes = ዝያድ ከልኦት ናይ አይዋ ተስዊት
 about-no-votes = ዝያድ ከልኦት ናይ ላአ ተስዊት
+about-dataset-new = ምጅሙዓት ብያናት ናይ Common Voice
 about-clip-graveyard = ቀብር ናይ ክሊፕ
 about-partners = ሹረካአና
 about-become-a-partner = ሸሪክና ግባአ
@@ -383,6 +384,7 @@ about-nav-how-it-works = ከፎ
 about-nav-partners = ሹረካ
 about-nav-get-involved = ምስልና ሳህም
 mycroft-title = Mycroft Ai
+mycroft-subtitle = ዛካእ እስጥናዒ
 
 ## Glossary
 
