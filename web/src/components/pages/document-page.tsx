@@ -3,42 +3,53 @@ import { connect } from 'react-redux';
 import API from '../../services/api';
 import StateTree from '../../stores/tree';
 import { Spinner } from '../ui/ui';
+import { useEffect, useState } from 'react';
 
 interface PropsFromState {
   api: API;
+  locale: string;
 }
 
-class DocumentPage extends React.Component<
-  { name: 'privacy' | 'terms' | 'challenge-terms' } & PropsFromState,
-  { html: string }
-> {
-  state = {
-    html: '',
-  };
+type Props = {
+  name: 'privacy' | 'terms' | 'challenge-terms';
+} & PropsFromState;
 
-  async componentDidMount() {
-    await this.fetchDocument();
+/**
+ * Renders an HTML document determined by the <c>name</c> prop.
+ * @param {{name:string} & PropsFromState} props Props passed to the component.
+ */
+function DocumentPage(props: Props) {
+  const { api, name, locale } = props;
+  const [html, setHtml] = useState('');
+
+  // Whenever locale changes (and on first draw) fetch the document to be displayed.
+  useEffect(() => {
+    fetchDocument().then();
+  }, [locale]);
+
+  /**
+   * Retrieves the document to be displayed and updates state.
+   */
+  async function fetchDocument() {
+    const nextHtml = await api.fetchDocument(name);
+    setHtml(nextHtml);
   }
 
-  private async fetchDocument() {
-    const { api, name } = this.props;
-    this.setState({
-      html: await api.fetchDocument(name),
-    });
-  }
-
-  render() {
-    const { html } = this.state;
-    return html ? (
-      <div dangerouslySetInnerHTML={{ __html: html }} />
-    ) : (
-      <Spinner />
-    );
-  }
+  return html ? (
+    <div dangerouslySetInnerHTML={{ __html: html }} />
+  ) : (
+    <Spinner />
+  );
 }
 
-const mapStateToProps = ({ api }: StateTree) => ({
+/**
+ * Maps Redux state to local props for the component
+ * @param API api Provides methods for fetching HTML for the page.
+ * @param {string} locale Triggers a redraw if the locale is changed in state.
+ */
+const mapStateToProps = ({ api, locale }: StateTree) => ({
   api,
+  locale,
 });
 
 export default connect<PropsFromState>(mapStateToProps)(DocumentPage);
