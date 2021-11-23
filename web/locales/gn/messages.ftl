@@ -1055,6 +1055,8 @@ sc-personal-remove-button = jeipe’a
 
 ## REVIEW
 
+sc-review-title = Ehechajey ñe’ẽjuaju
+sc-review-loading = Emyanyhẽ ñe’ẽrysýi…
 sc-review-form-source = Teñoiha: { $sentenceSource }
 sc-review-form-button-reject = Hejarei
 sc-review-form-button-skip = Jepo
