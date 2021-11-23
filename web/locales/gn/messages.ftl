@@ -1041,13 +1041,18 @@ sc-confirm-button-text = Moneĩ
 
 ## LANGUAGE INFO
 
+sc-lang-info-review-now = <reviewLink>¡Ehechajey ko’ág̃a!</reviewLink>
+sc-lang-info-add-more = <addLink>¡Embojuajuve ñe’ẽjuaju ko’ág̃a!</addLink>
 
 ## LOGIN
 
 sc-login-err-failed = Ojavy tembiapo ñepyrũ
+sc-login-err-try-again = Eha’ãjey ag̃ave.
 
 ## PROFILE
 
+sc-profile-title = Mba’ete: { $username }
+sc-personal-err-remove = Neremboguekuaái pe ñe’ẽ
 sc-personal-remove-button = jeipe’a
 
 ## REVIEW CRITERIA
@@ -1073,6 +1078,8 @@ sc-review-link = Hechajey
 
 sc-settings-title = Ñemboheko
 sc-settings-reset-skipped = Erujey ñe’ẽjoaju hejapyre
+sc-settings-show-all-button = Ehechaukapa ñe’ẽjuaju ojehejerei pyahúva
+sc-settings-failed = Neremoambuekuaái ñembohekopyahu. Eha’ãjey ag̃ave.
 
 # [/SentenceCollector]
 
