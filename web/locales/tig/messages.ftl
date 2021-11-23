@@ -416,7 +416,11 @@ review-delete-recordings = ትስጂልየ ዎርክዮ
 language = ሉቀት
 # File size in gigabytes
 size = ሓጅም
+validated-hr-total = ጅምዕ ላትሓቀቀያ ሳዓት
+overall-hr-total = ጅምዕ ናይ ኩለን ሳዓት
 cv-license = ሩኽሰት
+splits = ፈንተ
+email-to-download = ኢሜል ኣእተ እግል ተውርድ
 why-email = <b>ግልሚቱ ኢሜል ኣትሓዜኩም</b>ዲብ ሙስተቅበል ንዋስል ምስልኩም ለትሓዘና ግብእ ኢሜልየ ቱ ምሰልኩም ላልትፃብጠና
 size-gigabyte = GB
 size-megabyte = MB
