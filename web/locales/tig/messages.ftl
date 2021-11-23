@@ -334,6 +334,7 @@ on = ፍቱሕ
 
 connect-gravatar = እብ Gravatar እፃብጥ
 gravatar_not_found = ኢመልኩም ሱረት ናይ gravatar ይአለቡኒ
+file_too_large = ላትሓራ መለፍ ብዙ ዓባ
 
 ## Profile - Email
 
@@ -347,6 +348,7 @@ add-language = ሉቀት ወስክ
 faq-title = ዲማ ላልትሳኣሉ ኣስአለት
 faq-what-cv-q = Common Voice ሚቱ
 faq-why-important-q = አግል ሚቱ አሊ ሙህም?
+faq-how-get-q = ናይ  Common Voice በያናት ኣፎ ርክባ?
 faq-why-mission-q = አግልሚቱ Common Voice ጅዙአ ምናይ Mozilla ሙሁመት ታ?
 faq-what-cv-and-deepspeech-q = ፈርቅ ፈንገ Common Voice ው Deep Speech ሚቱ?
 faq-is-goal-assistant-q = ሓደፍ ናይ Common Voice ሙሳዒድ ናይ ሶት አግል ልብነቱ?
