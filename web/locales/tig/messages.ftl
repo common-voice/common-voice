@@ -447,6 +447,7 @@ download-title = ሙራድካ ኣንበታ ህላ
 download-form-email =
     .label = ኢመልኩም ኣቱ
     .value = ሹክረን ገል ናተስል ብኩም ቱ
+download-back = ዲብ መጅሙዓት በያናት Common Voice ዓቅብል
 download-no = ላ ሹክረን
 
 ## Contact Modal
