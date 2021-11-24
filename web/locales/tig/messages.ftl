@@ -767,12 +767,23 @@ sc-howto-review-subtitle = ላጅመል እገል እሊ ላተለ መቃየስ 
 sc-howto-review-criteria-6 = ላትራጅዖ ጁመል ምን ታሓግል, ሓስብካ ሳዕደና በዕድ ጁመል እግል ናኣክብ
 sc-howto-findpd-subtitle = ዲብ ኢንተርነት ሕዝዎ
 sc-howto-findpd-tips = ጁመል እግል ተርክቦ ላልሳዕድ ሓበሬታ:
+sc-howto-findpd-subtitle-2 = ሽርከት ግባእ ምስል ሕኩማት ማሓሊየት ኣው ኣፍራድ
 
 ## MY SENTENCES
 
+sc-my-title = ጁመልየ
+sc-my-loading = ጁመልካ ትጽዕን ህሌት ...
+sc-my-no-sentences = ጁመል ይእትረከባኒ!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = መስደር: { $source }
+sc-my-delete = ሐሩያት ላህለያ ጁመል ልትወርከያ
+sc-my-deleting = ሐሩያት ላህለያ ጁመል ልትወርከያ ሀለያ
 
 ## REJECTED
 
+sc-rejected-title = ላትረፈደያ ጁመል
+sc-rejected-loading = ላትረፈደያ ጁመል ለትፃዕና ሃለያ...
 
 ## STATS
 
