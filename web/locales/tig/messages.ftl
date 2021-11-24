@@ -764,7 +764,9 @@ sc-howto-addlang-title = ላትሸቀ እባ ሉቀት ወስኽ
 sc-howto-addsen-title = ሓዲስ ጁመል ወስኽ
 sc-howto-review-title = ጁመል ራጂዕ
 sc-howto-review-subtitle = ላጅመል እገል እሊ ላተለ መቃየስ ከም ለትማሊእ እትኣከድ:
+sc-howto-review-criteria-6 = ላትራጅዖ ጁመል ምን ታሓግል, ሓስብካ ሳዕደና በዕድ ጁመል እግል ናኣክብ
 sc-howto-findpd-subtitle = ዲብ ኢንተርነት ሕዝዎ
+sc-howto-findpd-tips = ጁመል እግል ተርክቦ ላልሳዕድ ሓበሬታ:
 
 ## MY SENTENCES
 
