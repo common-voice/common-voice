@@ -1125,7 +1125,6 @@ sc-howto-review-criteria-5 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf ucho
 sc-howto-review-criteria-6 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu mwy o frawddegau!
 sc-howto-findpd-title = Dod o hyd i frawddegau Parth Cyhoeddus sy'n bodoli eisoes
 sc-howto-findpd-subtitle = Chwilio amdanyn nhw ar y rhyngrwyd
-sc-howto-findpd-text = Cofiwch fod angen caniatâd arnom ni i gyhoeddi'r brawddegau hynny, felly gwnewch yn siŵr fod y testun yn perthyn i'r <wikipediaLink>parth cyhoeddus</wikipediaLink>. Os nad yw, cysylltwch â'r person y mae'r testun yn perthyn iddi/o a gofynnwch a allwch chi ddefnyddio'r testun.
 sc-howto-findpd-tips = Dyma rai awgrymiadau wrth geisio dod o hyd i frawddegau:
 sc-howto-findpd-tips-1 = Y llefydd gorau i edrych amdanyn nhw yw podlediadau, trawsgrifiadau, sgriptiau ffilm ac unrhyw beth sydd â'r potensial i gynnwys sgyrsiau bob dydd.
 sc-howto-findpd-tips-2 = Mae trafodion llywodraeth, llyfrau ac erthyglau hefyd yn wych ond gan fod y testun yn tueddu i fod ychydig yn fwy ffurfiol maen nhw'n llai o flaenoriaeth.
@@ -1141,7 +1140,11 @@ sc-my-description = Mae'r dudalen hon yn rhoi trosolwg i chi o'r holl frawddegau
 sc-my-loading = Yn llwytho'ch brawddegau...
 sc-my-err-fetching = Gwall wrth estyn eich brawddegau. Ceisiwch eto.
 sc-my-no-sentences = Heb ganfod brawddegau
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Cyflwyniadau: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Ffynhonnell: { $source }
 sc-my-delete = Dileu'r brawddegau hyn
 sc-my-deleting = Yn dileu'r brawddegau hyn…
@@ -1157,9 +1160,14 @@ sc-rejected-none-found = Heb ganfod brawddegau wedi'u gwrthod!
 ## STATS
 
 sc-stats-title = Ystadegau
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = Diweddariad Diwethaf: { $lastUpdate }
 sc-stats-last-update-never = Diweddariad Diwethaf: erioed
 sc-stats-updating = Yn diweddaru…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
 sc-stats-summary = Mae'r Casglwr Brawddegau Common Voice wedi casglu { $sentenceCount } brawddeg mewn { $languageCount } iaith!
 
 ## ADD
@@ -1191,6 +1199,8 @@ sc-add-lang-could-not-add = Methu ychwanegu iaith
 sc-add-lang-sec-label = Ychwanegwch iaith rydych eisiau cyfrannu ati
 sc-add-lang-sec-button = Ychwanegu Iaith
 sc-add-err-unexpected = Dychwelwyd ymateb annisgwyl gan y gweinydd
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
         [0] Brawddegau a gyflwynwyd. { $duplicates } brawddegau wedi'u gwrthod fel rhai dyblyg.
@@ -1201,6 +1211,8 @@ sc-add-result =
         [many] Brawddegau a gyflwynwyd. { $duplicates } brawddeg wedi'u gwrthod fel rhai dyblyg.
        *[other] Brawddegau a gyflwynwyd. { $duplicates } brawddeg wedi'u gwrthod fel rhai dyblyg.
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
         [0] Dim brawddeagau wedi methu
@@ -1212,12 +1224,15 @@ sc-add-err-failed =
        *[other] Methodd { $sentences } brawddeg
     }
 sc-add-err-submission = Gwall Cyflwyno
+sc-add-lang-process-notice = Os nad yw'ch iaith wedi'i rhestru yma, gallwch ofyn amdani trwy'r<languageProcessLink>broses hon</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-are-you-sure =
     .message = Nid ydych wedi cyflwyno brawddegau, a ydych chi'n siŵr eich bod chi eisiau gadael?
 sc-confirm-sentences-title = Cadarnhau'r Brawddegau Newydd
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] Heb ganfod brawddegau.
@@ -1228,6 +1243,8 @@ sc-confirm-sentences-found =
         [many] Wedi canfod { $countOfSentences } brawddeg
        *[other] Wedi canfod { $countOfSentences } brawddeg
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } wedi eu gwrthod gennych chi
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
@@ -1239,6 +1256,8 @@ sc-confirm-already-reviewed =
         [many] { $countOfReviewed } frawddeg wedi'u hadolygu. Da { $countOfReviewed } brawddeg wedi'u hadolygu. Da iawn!
        *[other] { $countOfReviewed } frawddeg wedi'u hadolygu. Da { $countOfReviewed } brawddeg wedi'u hadolygu. Da iawn!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
         [0] Dim brawddegau'n barod i'w cyflwyno!
@@ -1249,12 +1268,16 @@ sc-confirm-ready =
         [many] { $readyCount } brawddeg yn barod i'w cyflwyno!
        *[other] { $readyCount } brawddeg yn barod i'w cyflwyno!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = Mae yna { $countOfUnreviewed } brawddeg heb eu hadolygu. Mae modd i chi nawr i adolygu'ch brawddegau cyn eu cyflwyno.
 sc-confirm-button-text = Cadarnhau
 sc-confirm-uploading = Mae brawddegau'n cael eu llwytho i fyny. Gall hyn gymryd sawl munud yn dibynnu ar nifer y brawddegau sy'n cael eu hychwanegu. Peidiwch â chau'r wefan hon.
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
         [0] Dim brawddegau
@@ -1265,6 +1288,8 @@ sc-lang-info-total =
         [many] { $totalSentences } brawddeg i gyd
        *[other] { $totalSentences } brawddeg i gyd
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] Dim brawddegau'n cael eu hadolygu
@@ -1275,6 +1300,8 @@ sc-lang-info-in-review =
         [many] { $totalInReview } brawddeg yn cael eu hadolygu
        *[other] { $totalInReview } brawddeg yn cael eu hadolygu
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] Does dim brawddegau ar ôl i chi eu hadolygu.
@@ -1287,6 +1314,8 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Adolygwch nawr!</reviewLink>
 sc-lang-info-add-more = <addLink>Ychwanegwch ragor o frawddegau nawr!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
         [0] Dim brawddegau wedi'u dilysu.
@@ -1297,6 +1326,8 @@ sc-lang-info-validated =
         [many] { $validatedSentences } brawddeg wedi'i dilysu.
        *[other] { $validatedSentences } brawddeg wedi'i dilysu.
     }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Dim brawddegau wedi'u gwrthod.
@@ -1315,11 +1346,15 @@ sc-login-err-try-again = Ceisiwch eto.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
 sc-profile-title = Proffil: { $username }
 sc-personal-err-lang-not-found = Methu dileu iaith: iaith heb ei chanfod
 sc-personal-err-remove = Methu dileu iaith
 sc-personal-your-languages = Eich ieithoedd:
 sc-personal-remove-button = tynnu
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } wedi'u hychwanegu gennych chi
 sc-personal-not-added = Nid ydych wedi ychwanegu unrhyw ieithoedd eto.
 
@@ -1332,7 +1367,7 @@ sc-criteria-item-1 = Rhaid fod y frawddeg wedi ei sillafu'n gywir.
 sc-criteria-item-2 = Rhaid i'r frawddeg fod yn ramadegol gywir.
 sc-criteria-item-3 = Rhaid i'r frawddeg fod yn hawdd ei hynganu.
 sc-criteria-item-4 = Os yw'r frawddeg yn cwrdd â'r meini prawf, cliciwch y botwm "Cymeradwyo" ar y dde.
-sc-criteria-item-5 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf uchod, cliciwch y botwm "Gwrthod" ar y dde. Os nad ydych yn siŵr am y frawddeg, gallwch hefyd ei hepgor a symud ymlaen i'r un nesaf.
+sc-criteria-item-5-2 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf uchod, cliciwch y botwm "Gwrthod" ar y dde. Os nad ydych yn siŵr am y frawddeg, gallwch hefyd ei hepgor a symud ymlaen i'r un nesaf.
 sc-criteria-item-6 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu rhagor o frawddegau!
 
 ## REVIEW
@@ -1345,6 +1380,8 @@ sc-review-no-sentences = Dim brawddegau i'w hadolygu. <addLink>Ychwanegwch fwy o
 sc-review-form-prompt =
     .message = Brawddegau wedi'u hadolygu ond heb eu cyflwyno, ydych chi'n siŵr?
 sc-review-form-usage = Llusgwch i'r dde i gymeradwyo'r frawddeg. Llusgwch i'r chwith i'w gwrthod. Llusgwch i fyny i'w hepgor. <strong>Peidiwch ag anghofio i gyflwyno'ch adolygiad!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Ffynhonnell: { $sentenceSource }
 sc-review-form-button-reject = Gwrthod
 sc-review-form-button-skip = Hepgor
@@ -1353,6 +1390,8 @@ sc-review-form-button-approve = Cymeradwyo
 sc-review-form-keyboard-usage = Gallwch hefyd ddefnyddio Llwybrau Byr Allweddell: I i Gymeradwyo, N i Wrthod, H i Hepgor
 sc-review-form-button-submit =
     .submitText = Gorffen Adolygu
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Dim brawddegau wedi'u hadolygu.
