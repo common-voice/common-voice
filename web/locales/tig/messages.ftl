@@ -812,6 +812,14 @@ sc-add-lang-sec-button = ሉቀት ውስኽ
 
 sc-confirm-sentences-title = ሓዳይስ ጁመል ኣክድ
 # Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] ዋላ ሃተ ጁምለት ኢትረኸበት
+        [one] ዎሮ ጁምለት ትረኸበት
+       *[other] ጁመል አትረከበያ
+    }
+# Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = ኣብኩም ላትረፈደያ
 sc-confirm-button-text = ኣክድ
@@ -835,9 +843,22 @@ sc-personal-not-added = ኣስኽ አዘ ላውሰኩሞ ሉቀት የኣለቡ�
 
 ## REVIEW CRITERIA
 
+sc-criteria-make-sure = ላጅመል እገል እሊ ላተለ መቃየስ ከም ለትማሊእ እትኣከድ:
+sc-criteria-item-6 = ላትራጅዖ ጁመል ምን ታሓግል, ሓስብካ ሳዕደና በዕድ ጁመል እግል ናኣክብ
 
 ## REVIEW
 
+sc-review-title = ጁመል ራጂዕ
+sc-review-loading = ጁመልካ ትጽዕን ህሌት ...
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = መስድር: { $sentenceSource }
+sc-review-form-button-reject = ርፈድ
+sc-review-form-button-skip = ሕለፍ
+sc-review-form-button-approve = ዋፍቅ
+sc-review-form-button-submit =
+    .submitText = ሙራጅዓት ኣኽልሶ
+sc-review-link = ራጅዕ
 
 ## SETTINGS
 
