@@ -416,8 +416,10 @@ data-get-started = <speechBlogLink>ሂጋ ኣሌለዩት ኣንብቶ</speechBl
 data-other-title = ብዕድ ናይ ሶት መጅሙዓት ብያናት
 data-other-goto = { $name } ጊስ
 data-other-download = በያናት ክረ
+data-bundle-description = በያናት ናይ Common Voice ው ምስሉ ላዓል ላሃላ ኩሉ ናይ ሶት በያናት
 dataset-date = ታሪኽ
 license = ሩኽሰት: <licenseLink>{ $license }</licenseLink>
+review-terms = Common Voice እንደ ታኣስታዕሙሎ እብ <termsLink>ሽሩጥ</termsLink> ው <privacyLink>ሓበረ ናይ ክሱስየት</privacyLink>
 terms-agree = አዋፍቅ
 terms-disagree = ይአዋፍቅኒ
 review-recording = ራጀዕ
@@ -724,6 +726,8 @@ sc-add-lang-sec-button = ሉቀት ውስኽ
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = ኣብኩም ላትረፈደያ
 sc-confirm-button-text = ኣክድ
 
@@ -739,6 +743,8 @@ sc-personal-err-lang-not-found = ሉቀት ትትወርከ ኢቀድርትኒ: �
 sc-personal-err-remove = ሉቀት ትትወርከ ኢቀድርትኒ
 sc-personal-your-languages = ሉቀትኩም
 sc-personal-remove-button = ወርኩዋ
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } እንቱም ላወስኩሞ
 sc-personal-not-added = ኣስኽ አዘ ላውሰኩሞ ሉቀት የኣለቡኒ
 
