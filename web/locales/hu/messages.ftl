@@ -1084,6 +1084,7 @@ sc-howto-review-criteria-5 =
 sc-howto-review-criteria-6 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében!
 sc-howto-findpd-title = Meglévő közkincsű szövegek keresése
 sc-howto-findpd-subtitle = Keressen rájuk az interneten
+sc-howto-findpd-text-2 = Ne feledje, hogy engedélyre van szükségünk ezeknek a mondatoknak a közzétételéhez, ezért mindig győződjön meg arról, hogy a szöveg <wikipediaLink>közkincs</wikipediaLink>. Ha nincs erre kifejezett utalás, lépjen kapcsolatba azzal a személlyel, akihez a szöveg tartozik, és kérdezze meg, hogy szeretné-e a szövegét közkinccsé tenni. Ha szeretnék, akkor segítse őket végig a <cc0WaiverLink>Közreműködői megállapodás</cc0WaiverLink> folyamatán. Ha nem akarnak hozzájárulni a szöveg közzétételéhez, akkor nem használhatja ezt a szöveget.
 sc-howto-findpd-tips = Itt van néhány tipp a mondatok kereséséhez:
 sc-howto-findpd-tips-1 = A legjobb források, amelyeket kereshet, a podcastok, leiratok, filmforgatókönyvek és bármi, ami mindennapi beszélgetéseket tartalmazhat.
 sc-howto-findpd-tips-2 = A kormányzati eljárások, könyvek és cikkek is nagyszerűek, de mivel a szöveg kissé formálisabb, kevésbé élveznek prioritást.
@@ -1175,6 +1176,7 @@ sc-add-err-failed =
        *[other] { $sentences } sikertelen mondat
     }
 sc-add-err-submission = Beküldési hiba
+sc-add-lang-process-notice = Ha az Ön nyelve nem szerepel itt, akkor <languageProcessLink>ezen a folyamaton</languageProcessLink> keresztül kérheti.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1285,6 +1287,7 @@ sc-criteria-item-1 = A mondatok helyesen vannak leírva.
 sc-criteria-item-2 = A mondatok nyelvtanilag helyesek.
 sc-criteria-item-3 = A mondatok kimondhatók.
 sc-criteria-item-4 = Ha a mondat megfelel a feltételeknek, kattintson a „Jóváhagyás” gombra a jobb oldalon.
+sc-criteria-item-5-2 = Ha a mondat nem felel meg a fenti feltételeknek, kattintson a bal oldali „Elutasítás” gombra. Ha nem biztos a mondatban, akkor ki is hagyhatja, és továbbléphet a következőre.
 sc-criteria-item-6 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében!
 
 ## REVIEW
