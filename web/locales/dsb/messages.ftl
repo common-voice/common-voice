@@ -106,6 +106,7 @@ mhr = Łucna marišćina
 mk = Makedońšćina
 ml = Malajalamšćina
 mn = Mongolšćina
+mni = Meetei Lon
 mos = Mossišćina
 mr = Maratišćina
 mrj = Górska marišćina
@@ -152,7 +153,7 @@ te = Telugušćina
 tg = Tadžikšćina
 th = Thailandšćina
 ti = Tigrinja
-Tig = Tigre
+tig = Tigre
 tl = Tagalog
 tr = Turkojšćina
 tt = Tataršćina
@@ -1020,3 +1021,56 @@ contribution-reader-effects-title = Efekty cytarja
 contribution-just-unsure-title = Jano njewěsty?
 see-more = <chevron></chevron>Wěcej pokazaś
 see-less = <chevron></chevron>Mjenjej pokazaś
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
