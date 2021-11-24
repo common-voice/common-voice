@@ -1080,7 +1080,7 @@ sc-header-statistics = Ystadegau
 sc-header-profile = Proffil
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Adrodd ar Wallau
-sc-footer-translate = Cyfieithiwch y dudalen hon
+sc-footer-translate = Cyfieithu'r dudalen hon
 sc-footer-report-copyright = Adrodd ar fater hawlfraint
 sc-footer-privacy = Preifatrwydd
 sc-footer-terms = Amodau
@@ -1125,6 +1125,7 @@ sc-howto-review-criteria-5 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf ucho
 sc-howto-review-criteria-6 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu mwy o frawddegau!
 sc-howto-findpd-title = Dod o hyd i frawddegau Parth Cyhoeddus sy'n bodoli eisoes
 sc-howto-findpd-subtitle = Chwilio amdanyn nhw ar y rhyngrwyd
+sc-howto-findpd-text-2 = Cofiwch fod angen caniatâd arnom i gyhoeddi'r brawddegau hynny, felly gwnewch yn siŵr fod y testun yn perthyn i'r <wikipediaLink>parth cyhoeddus</wikipediaLink>. Os nad oes arwydd penodol, cysylltwch â'r person y mae'r testun yn perthyn iddi/iddo a gofyn a ydyn nhw am gyfrannu eu testun i'r Parth Cyhoeddus. Os ydyn nhw eisiau, helpwch nhw i fynd trwy'r broses <cc0WaiverLink>Cytundeb Cyfraniadau</cc0WaiverLink>. Os nad ydyn nhw am gyfrannu'r testun, yna chewch chi *DDIM* defnyddio'r testun hwnnw.
 sc-howto-findpd-tips = Dyma rai awgrymiadau wrth geisio dod o hyd i frawddegau:
 sc-howto-findpd-tips-1 = Y llefydd gorau i edrych amdanyn nhw yw podlediadau, trawsgrifiadau, sgriptiau ffilm ac unrhyw beth sydd â'r potensial i gynnwys sgyrsiau bob dydd.
 sc-howto-findpd-tips-2 = Mae trafodion llywodraeth, llyfrau ac erthyglau hefyd yn wych ond gan fod y testun yn tueddu i fod ychydig yn fwy ffurfiol maen nhw'n llai o flaenoriaeth.
@@ -1367,7 +1368,7 @@ sc-criteria-item-1 = Rhaid fod y frawddeg wedi ei sillafu'n gywir.
 sc-criteria-item-2 = Rhaid i'r frawddeg fod yn ramadegol gywir.
 sc-criteria-item-3 = Rhaid i'r frawddeg fod yn hawdd ei hynganu.
 sc-criteria-item-4 = Os yw'r frawddeg yn cwrdd â'r meini prawf, cliciwch y botwm "Cymeradwyo" ar y dde.
-sc-criteria-item-5-2 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf uchod, cliciwch y botwm "Gwrthod" ar y dde. Os nad ydych yn siŵr am y frawddeg, gallwch hefyd ei hepgor a symud ymlaen i'r un nesaf.
+sc-criteria-item-5-2 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf uchod, cliciwch y botwm "Gwrthod" ar y dde. Os nad ydych chi'n siŵr am y frawddeg hon, gallwch hefyd ei hepgor a symud ymlaen i'r un nesaf.
 sc-criteria-item-6 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu rhagor o frawddegau!
 
 ## REVIEW
@@ -1409,7 +1410,7 @@ sc-review-link = Adolygu
 
 sc-settings-title = Gosodiadau
 sc-settings-ui-language = Iaith y Rhyngwyneb
-sc-settings-language-translated-warning = Efallai na yw'r tudalennau ar gyfer yr iaith hon wedi'u cyfieithu yn llawn. Gallwch chi helpu gyda chyfieithu <pontoonLinkLink>ar Pontoon</pontoonLinkLink>.
+sc-settings-language-translated-warning = Efallai na yw'r tudalennau ar gyfer yr iaith hon wedi'u cyfieithu yn llawn. Gallwch chi helpu gyda'u cyfieithu <pontoonLinkLink>ar Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Ailosod brawddegau wedi'u hepgor
 sc-settings-skipped-decription = Yn y gorffennol, rydych wedi hepgor brawddegau wrth eu hadolygu. Bydd ailosod brawddegau wedi'u hepgor yn dangos pob brawddeg sydd wedi'i hepgor eto. Mae hyn yn annibynnol ar yr iaith.
 sc-settings-show-all-button = Dangos yr holl frawddegau wedi'u hepgor eto
@@ -1418,6 +1419,7 @@ sc-settings-failed = Methu newid y gosodiadau. Ceisiwch eto.
 sc-validation-number-of-words = Rhaid i'r frawddeg gynnwys rhwng 1 ac 14 gair (i gyd)
 sc-validation-no-numbers = Dylai brawddeg ddim cynnwys rhifau
 sc-validation-no-symbols = Dylai brawddeg ddim cynnwys symbolau
+sc-validation-no-abbreviations = Dylai brawddeg ddim cynnwys byrfoddau
 
 # [/SentenceCollector]
 
