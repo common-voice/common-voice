@@ -1036,6 +1036,8 @@ sc-howto-review-criteria-4 = Εάν η πρόταση πληροί τα κριτ
 sc-my-title = Οι προτάσεις μου
 sc-my-loading = Φόρτωση των προτάσεών σας…
 sc-my-no-sentences = Δεν βρέθηκαν προτάσεις!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Υποβολή: { $batchId }
 sc-my-delete = Διαγραφή επιλεγμένων προτάσεων
 sc-my-deleting = Διαγραφή επιλεγμένων προτάσεων…
@@ -1046,6 +1048,8 @@ sc-my-deleting = Διαγραφή επιλεγμένων προτάσεων…
 ## STATS
 
 sc-stats-title = Στατιστικά
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = Τελευταία ενημέρωση: { $lastUpdate }
 sc-stats-last-update-never = Τελευταία ενημέρωση: ποτέ
 sc-stats-updating = Ενημέρωση…
@@ -1075,12 +1079,16 @@ sc-confirm-button-text = Επιβεβαίωση
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
         [0] Καμία πρόταση.
         [one] 1 συνολική πρόταση.
        *[other] { $totalSentences } συνολικές προτάσεις.
     }
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
         [0] Καμία επαληθευμένη πρόταση.
@@ -1095,6 +1103,8 @@ sc-login-err-try-again = Παρακαλούμε δοκιμάστε ξανά.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
 sc-profile-title = Προφίλ: { $username }
 sc-personal-err-remove = Δεν ήταν δυνατή η αφαίρεση της γλώσσας
 sc-personal-your-languages = Οι γλώσσες σας:
@@ -1121,7 +1131,9 @@ sc-review-form-button-submit =
 ## SETTINGS
 
 sc-settings-title = Ρυθμίσεις
+sc-settings-ui-language = Γλώσσα περιβάλλοντος
 sc-settings-failed = Δεν ήταν δυνατή η αλλαγή των ρυθμίσεων. Παρακαλούμε δοκιμάστε ξανά.
+sc-validation-no-numbers = Η πρόταση δεν πρέπει να περιέχει αριθμούς
 
 # [/SentenceCollector]
 
