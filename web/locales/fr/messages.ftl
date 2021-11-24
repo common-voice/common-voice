@@ -1066,6 +1066,7 @@ sc-howto-review-criteria-1 = La phrase doit être orthographiée correctement.
 sc-howto-review-criteria-2 = La phrase doit être grammaticalement correcte.
 sc-howto-review-criteria-3 = La phrase doit être prononçable.
 sc-howto-review-criteria-4 = Si la phrase répond aux critères, cliquez sur le bouton « Approuver ».
+sc-howto-review-criteria-5 = Si la phrase ne répond pas aux critères ci-dessus, cliquez sur le bouton « Rejeter ». Si vous avez un doute, vous pouvez également la sauter et passer à la suivante.
 sc-howto-review-criteria-6 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 sc-howto-findpd-title = Trouver des phrases existantes dans le domaine public
 sc-howto-findpd-text-2 = Souvenez-vous que nous avons besoin d’une autorisation pour publier ces phrases, aussi assurez-vous toujours que le texte appartient au <wikipediaLink>domaine public</wikipediaLink>. S’il n’y a pas d’indication explicite, contactez la personne à laquelle appartient le texte et demandez-lui si elle souhaite placer son texte dans le domaine public. Si elle accepte, aidez-la à suivre le processus d’<cc0WaiverLink>accord de contribution</cc0WaiverLink>. Si elle ne le veut pas, vous n’avez pas l’autorisation d’utiliser ce texte.
@@ -1073,10 +1074,12 @@ sc-howto-findpd-tips = Voici quelques astuces pour trouver des phrases :
 sc-howto-findpd-tips-2 = Les procédures, livres et articles gouvernementaux sont également très importants, cependant, puisque le texte a tendance à être un peu plus formel, ils sont moins prioritaires.
 sc-howto-findpd-tips-3 = Malheureusement, nous ne pouvons pas encore disposer d’articles de Wikimedia. Donc n’en faites pas de copier-coller.
 sc-howto-findpd-partner-1 = Il y a beaucoup d’organisations publiques qui pourraient vouloir collaborer et qui disposent déjà de beaucoup de textes qu’elles peuvent placer dans le domaine public. Contactez les universités locales, les gouvernements et les organisations open-source pour parler du projet et demander leur aide.
+sc-howto-findpd-partner-2 = Des linguistes experts peuvent également vous aider, essayez de les contacter dans les universités locales dotées d’un département de linguistique (aussi bien les enseignants que les étudiants) et voyez s’ils peuvent vous aider à rassembler un ensemble diversifié de phrases prononcées de différentes façons dans votre langue.
 
 ## MY SENTENCES
 
 sc-my-title = Mes phrases
+sc-my-description = Cette page donne un aperçu de toutes les phrases que vous avez soumises. Vous pouvez également supprimer des phrases déjà soumises si nécessaire, en cochant la case à côté d’elles et en cliquant sur « Supprimer les phrases sélectionnées » en bas. Veuillez ne supprimer les phrases que si cela est absolument nécessaire, par exemple si vous avez remarqué après coup qu’une phrase est protégée par le droit d’auteur.
 sc-my-loading = Chargement de vos phrases…
 sc-my-err-fetching = Erreur lors de la récupération de vos phrases. Veuillez réessayer.
 sc-my-no-sentences = Aucune phrase trouvée !
@@ -1285,6 +1288,7 @@ sc-review-form-reviewed-message =
         [one] Une phrase vérifiée. Merci !
        *[other] { $phrases } phrases vérifiées. Merci !
     }
+sc-review-form-review-failure = La vérification n’a pas pu être enregistrée. Veuillez réessayer plus tard.
 sc-review-link = Révision
 
 ## SETTINGS
@@ -1294,6 +1298,7 @@ sc-settings-reset-skipped = Réinitialiser les phrases ignorées
 sc-settings-skipped-decription = Vous avez précédemment ignoré des phrases pendant la révision. Réinitialiser les phrases ignorées affichera à nouveau toutes les phrases ignorées, sans tenir compte de la langue.
 sc-settings-show-all-button = Afficher à nouveau toutes les phrases ignorées
 sc-settings-failed = Impossible de modifier les paramètres. Veuillez réessayer.
+sc-validation-no-abbreviations = La phrase ne doit pas contenir d’abréviations
 
 # [/SentenceCollector]
 
