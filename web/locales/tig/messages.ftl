@@ -595,16 +595,23 @@ share-goal-type-both = ሃገዮት ዉ ስምዓት
 
 ## Profile Delete
 
+keep = ኣክብ
 remove = ወርኪዮ
 
 ## Profile Download
 
+download-q = በያናትኩም እግል ትክረው ታሓዙ ቱ?
+download-info = ሚ እግል ትክረው ታሓዙ ኻብሩና:
 download-recordings-title = ተስጂል
+download-selected = ሕሪት
+download-request-button = ክረው
 download-request-title = { $created }
 download-request-refresh-button = ኣሓድስ
+download-request-link-text = Zip #{ $offset } of { $total }
 
 ## Landing
 
+welcome-staff = መርሓባ ሙወዘፊን { $company }!
 read-more-about = ዲብላ ናይና ሰፍሓት About አንደ ግስኹም ዘያደት ቀርኦ
 
 ## DemoLayout
