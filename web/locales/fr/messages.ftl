@@ -1049,6 +1049,10 @@ sc-howto-title = Comment faire ?
 sc-howto-addlang-text = Une fois connecté·e, vous pouvez sélectionner vos langues dans la section profil.
 sc-howto-addsen-title = Ajouter de nouvelles phrases
 sc-howto-addsen-item-1 = Toutes les phrases que vous soumettez doivent être sous une <wikipediaLink>licence de domaine public (CC-0)</wikipediaLink>. Pour prendre en charge l’inclusion d’œuvres non sous licence publique, nous avons créé un <cc0WaiverLink>modèle d’accord de contribution</cc0WaiverLink> pour les œuvres pour lesquelles le titulaire du droit d’auteur souhaite contribuer au contenu de Common Voice.
+sc-howto-addsen-item-2 = Nombres. Il ne devrait pas y avoir de chiffres dans le texte source, car ils peuvent causer des problèmes lors de la lecture à haute voix. La façon dont un nombre est lu dépend du contexte et pourrait introduire de la confusion dans le jeu de données. Par exemple, le nombre « 3624 » pourrait être correctement lu comme « trente-six vingt-quatre » et « trois mille six cent vingt-quatre ».
+sc-howto-addsen-item-3 = Abréviations et acronymes. Les abréviations et acronymes comme « USA » ou « DOS » doivent être évités dans le texte source car ils peuvent être lus d’une manière qui ne coïncide pas avec leur orthographe. De plus, il peut y avoir plusieurs lectures précises pour une seule abréviation. Par exemple, l'acronyme « DOS » pourrait être prononcé « D-O-S » ou comme le mot « dos ».
+sc-howto-addsen-item-4 = Ponctuation. Les symboles spéciaux et la ponctuation ne doivent être inclus qu’en cas d’absolue nécessité. Par exemple, une apostrophe est incluse dans des mots français comme « aujourd’hui » et « presqu’île » et doit être incluse dans le texte source, mais il est peu probable que vous ayez jamais besoin d’un symbole spécial comme « @ » ou « # ».
+sc-howto-addsen-item-5 = Lettres étrangères. Les lettres doivent exister dans la langue que l’on doit parler. Par exemple, « ж » est une lettre de l’alphabet russe mais n’est jamais utilisée en français et ne devrait donc jamais apparaître dans un texte source en français.
 sc-howto-addsen-item-6 = Les langues peuvent avoir leurs <validationRulesLink>propres règles de validation</validationRulesLink> avec des exigences supplémentaires. S’il n’y a pas de fichier de validation spécifique pour une langue, nous utilisons les règles génériques anglaises.
 sc-howto-addsen-post-1 = Nous préférons les phrases naturelles / conversationnelles. Bien que la diversité phonétique et les différents mots dans les phrases soient importants, nous essayons de rendre l’enregistrement des phrases aussi amusant que possible. Par conséquent, ce serait bien si vous pouviez essayer de proposer des phrases aussi naturelles / engageantes que possible.
 sc-howto-cite-title = Comment citer
@@ -1064,8 +1068,11 @@ sc-howto-review-criteria-3 = La phrase doit être prononçable.
 sc-howto-review-criteria-4 = Si la phrase répond aux critères, cliquez sur le bouton « Approuver ».
 sc-howto-review-criteria-6 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 sc-howto-findpd-title = Trouver des phrases existantes dans le domaine public
+sc-howto-findpd-text-2 = Souvenez-vous que nous avons besoin d’une autorisation pour publier ces phrases, aussi assurez-vous toujours que le texte appartient au <wikipediaLink>domaine public</wikipediaLink>. S’il n’y a pas d’indication explicite, contactez la personne à laquelle appartient le texte et demandez-lui si elle souhaite placer son texte dans le domaine public. Si elle accepte, aidez-la à suivre le processus d’<cc0WaiverLink>accord de contribution</cc0WaiverLink>. Si elle ne le veut pas, vous n’avez pas l’autorisation d’utiliser ce texte.
 sc-howto-findpd-tips = Voici quelques astuces pour trouver des phrases :
 sc-howto-findpd-tips-2 = Les procédures, livres et articles gouvernementaux sont également très importants, cependant, puisque le texte a tendance à être un peu plus formel, ils sont moins prioritaires.
+sc-howto-findpd-tips-3 = Malheureusement, nous ne pouvons pas encore disposer d’articles de Wikimedia. Donc n’en faites pas de copier-coller.
+sc-howto-findpd-partner-1 = Il y a beaucoup d’organisations publiques qui pourraient vouloir collaborer et qui disposent déjà de beaucoup de textes qu’elles peuvent placer dans le domaine public. Contactez les universités locales, les gouvernements et les organisations open-source pour parler du projet et demander leur aide.
 
 ## MY SENTENCES
 
@@ -1073,7 +1080,11 @@ sc-my-title = Mes phrases
 sc-my-loading = Chargement de vos phrases…
 sc-my-err-fetching = Erreur lors de la récupération de vos phrases. Veuillez réessayer.
 sc-my-no-sentences = Aucune phrase trouvée !
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Soumission : { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Source : { $source }
 sc-my-delete = Supprimer les phrases sélectionnées
 sc-my-deleting = Suppression des phrases sélectionnées…
@@ -1089,9 +1100,14 @@ sc-rejected-none-found = Aucune phrase rejetée n’a été trouvée !
 ## STATS
 
 sc-stats-title = Statistiques
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = Dernière mise à jour : { $lastUpdate }
 sc-stats-last-update-never = Dernière mise à jour : jamais
 sc-stats-updating = Mise à jour…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
 sc-stats-summary = Le collecteur de phrases Common Voice a collecté { $sentenceCount } phrases dans { $languageCount } langues !
 
 ## ADD
@@ -1120,12 +1136,16 @@ sc-add-lang-could-not-add = Impossible d’ajouter la langue
 sc-add-lang-sec-label = Ajoutez une langue à laquelle vous souhaitez contribuer
 sc-add-lang-sec-button = Ajouter une langue
 sc-add-err-unexpected = Réponse inattendue renvoyée par le serveur
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
         [0] Phrases soumises. Aucune phrase rejetée en tant que doublon.
         [1] Phrases soumises. Une phrase a été rejetée en tant que doublon.
        *[other] Phrases soumises. { $duplicates } phrases ont été rejetées en tant que doublons.
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
         [0] Aucune phrase échouée
@@ -1139,12 +1159,16 @@ sc-add-err-submission = Erreur de soumission
 sc-confirm-are-you-sure =
     .message = Phrases non soumises, voulez-vous vraiment quitter ?
 sc-confirm-sentences-title = Confirmer les nouvelles phrases
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] Aucune phrase trouvée.
         [one] Une phrase trouvée.
        *[other] { $countOfSentences } phrases trouvées.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } rejetées par vous
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
@@ -1152,24 +1176,32 @@ sc-confirm-already-reviewed =
         [one] Une phrase est déjà révisée. Bon travail !
        *[other] { $countOfReviewed } phrases sont déjà révisées. Bon travail !
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
         [0] Aucune phrase prête pour envoi !
         [one] Une phrase prête pour envoi !
        *[other] { $readyCount } phrases prêtes pour envoi !
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreview } phrases ne sont pas vérifiées. Si vous le souhaitez, vous pouvez également revoir vos phrases maintenant avant de les envoyer.
 sc-confirm-button-text = Confirmer
 sc-confirm-uploading = Les phrases sont en cours d’envoi. Cela peut prendre plusieurs minutes selon le nombre de phrases ajoutées. Merci de ne pas fermer ce site.
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] Aucune phrase en révision.
         [one] Une phrase en révision.
        *[other] { $totalInReview } phrases en révision.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] Aucune phrase restante à vérifier.
@@ -1178,12 +1210,16 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Vérifier maintenant</reviewLink>
 sc-lang-info-add-more = <addLink>Ajoutez plus de phrases maintenant</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
         [0] Aucune phrase validée.
         [one] Une phrase validée.
        *[other] { $validatedSentences } phrases validées.
     }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Aucune phrase rejetée.
@@ -1198,11 +1234,15 @@ sc-login-err-try-again = Veuillez réessayer.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
 sc-profile-title = Profil : { $username }
 sc-personal-err-lang-not-found = Impossible de supprimer la langue : langue introuvable
 sc-personal-err-remove = Impossible de supprimer la langue
 sc-personal-your-languages = Vos langues :
 sc-personal-remove-button = Supprimer
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } ajoutées par vous
 sc-personal-not-added = Vous n’avez pas encore ajouté de langues.
 
@@ -1215,7 +1255,6 @@ sc-criteria-item-1 = La phrase doit être orthographiée correctement.
 sc-criteria-item-2 = La phrase doit être grammaticalement correcte.
 sc-criteria-item-3 = La phrase doit être prononçable.
 sc-criteria-item-4 = Si la phrase répond aux critères, cliquez sur le bouton « Approuver » à droite.
-sc-criteria-item-5 = Si la phrase ne répond pas aux critères ci-dessus, cliquez sur le bouton « Rejeter » à droite. Si vous avez un doute, vous pouvez également la sauter et passer à la suivante.
 sc-criteria-item-6 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 
 ## REVIEW
@@ -1228,6 +1267,8 @@ sc-review-no-sentences = Aucune phrase à vérifier. Vous pouvez <addLink>ajoute
 sc-review-form-prompt =
     .message = Les phrases vérifiées n’ont pas été envoyées, voulez-vous continuer ?
 sc-review-form-usage = Faites glisser vers la droite pour approuver la phrase. Faites glisser vers la gauche pour la rejeter. Faites glisser vers le haut pour l’ignorer. <strong>N’oubliez pas d’envoyer le résultat de votre révision !</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Source : { $sentenceSource }
 sc-review-form-button-reject = Rejeter
 sc-review-form-button-skip = Passer
@@ -1236,6 +1277,8 @@ sc-review-form-button-approve = Approuver
 sc-review-form-keyboard-usage = Vous pouvez également utiliser les raccourcis clavier : Y pour approuver, N pour rejeter, S pour passer
 sc-review-form-button-submit =
     .submitText = Terminer la vérification
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Aucune phrase vérifiée.
