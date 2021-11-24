@@ -631,8 +631,27 @@ difficult-difficulty = ሳዓብ
 pro-difficulty = ሙሕተርፍ
 want-to-continue = ትኣስተመሮ ታሓዙ?
 lose-changes-warning = ኣዘ ሓቆ ፋገርካ ሽቁልካ ግል ልብደቱ
+help-reach-hours-general-pluralized =
+    Common Voice ሳዕዳ እግል ትብጻሕ{ NUMBER($hours) ->
+        [one] ሳዓት
+       *[other] ሳዓት
+    }ዲብ ዎሮ ሉቀት እብ ናይ ኖስ ሓደፍ
 set-a-goal = ሓደፍ ውደ
 cant-decide = ትቀርሮ ኢትቀድሮ?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] ሳዓት
+       *[other] ሳዓት
+    }እግል ልትበጻሕ ቀድር ኣብ{ NUMBER($periodMonths) ->
+        [one] ሻሃር
+       *[other] ኣሽህር
+    }ሓቆ{ NUMBER($people) ->
+        [one] ዎሮ ነፈር
+       *[other] ኣዳም
+    }ስጅል{ NUMBER($clipsPerDay) ->
+        [one] ክሊፕ
+       *[other] ክሊፕ
+    }ዲብ ኣመዕል
 how-many-per-day = ተማም! ክም ክሊፕ ዲብ ዩም?
 how-many-a-week = ተማም! ክም ክሊፕ ዲብ ሳምን?
 which-goal-type = ትትሃገው ታሓዙ ትስምዖ ሚ ክለኤቱ?
@@ -641,6 +660,7 @@ n-clips-pluralized =
         [one] ክሊፕ
        *[other] ክሊፕ
     }
+help-share-goal = ኣስዋት ብዕደት እግል ንርከብ ሳዕደና, ሓደፍካ ሻርክ
 confirm-goal = ሓደፍኩም ኣክዶ
 goal-interval-weekly = ኩል ሳምን
 share-goal-type-speak = ሃገዮት
