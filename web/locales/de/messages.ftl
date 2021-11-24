@@ -1207,6 +1207,7 @@ sc-add-err-failed =
        *[other] { $sentences } Sätze fehlgeschlagen
     }
 sc-add-err-submission = Übermittlungsfehler
+sc-add-lang-process-notice = Wenn Ihre Sprache hier nicht aufgeführt ist, können Sie sie über <languageProcessLink>diesen Prozess</languageProcessLink> beantragen.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1319,6 +1320,9 @@ sc-criteria-item-1 = Der Satz muss richtig geschrieben sein.
 sc-criteria-item-2 = Der Satz muss grammatikalisch korrekt sein.
 sc-criteria-item-3 = Der Satz muss aussprechbar sein.
 sc-criteria-item-4 = Wenn der Satz die Kriterien erfüllt, klicken Sie auf die Schaltfläche „Genehmigen“ auf der rechten Seite.
+sc-criteria-item-5-2 =
+    Wenn der Satz die oben genannten Kriterien nicht erfüllt, klicken Sie auf die Schaltfläche „Ablehnen“ auf der linken Seite.
+    Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
 sc-criteria-item-6 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
 
 ## REVIEW
@@ -1361,6 +1365,8 @@ sc-review-link = Bewertungen
 ## SETTINGS
 
 sc-settings-title = Einstellungen
+sc-settings-ui-language = Sprache der Benutzeroberfläche
+sc-settings-language-translated-warning = Die Seiten für diese Sprache sind möglicherweise nicht vollständig übersetzt. Sie können bei der Übersetzung <pontoonLinkLink>auf Pontoon</pontoonLinkLink> helfen.
 sc-settings-reset-skipped = Übersprungene Sätze zurücksetzen
 sc-settings-skipped-decription =
     Sie haben Sätze beim Überprüfen zuvor übersprungen.
@@ -1368,6 +1374,11 @@ sc-settings-skipped-decription =
     Das ist unabhängig von der Sprache.
 sc-settings-show-all-button = Alle übersprungenen Sätze wieder anzeigen
 sc-settings-failed = Einstellungen konnten nicht geändert werden. Bitte versuchen Sie es erneut.
+# VALIDATION
+sc-validation-number-of-words = Der Satz muss zwischen 1 und 14 (einschließlich) Wörtern enthalten
+sc-validation-no-numbers = Satz sollte keine Zahlen enthalten
+sc-validation-no-symbols = Satz sollte keine Symbole enthalten
+sc-validation-no-abbreviations = Satz sollte keine Abkürzungen enthalten
 
 # [/SentenceCollector]
 
