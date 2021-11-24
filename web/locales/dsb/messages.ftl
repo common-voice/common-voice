@@ -1074,15 +1074,34 @@ sc-my-submission = Zapódaśe: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Žrědło: { $source }
+sc-my-delete = Wubrane sady lašowaś
+sc-my-deleting = Wubrane sady se lašuju…
 
 ## REJECTED
 
+sc-rejected-title = Wótpokazane sady
+sc-rejected-loading = Wótpokazane sady se zacytuju…
+sc-rejected-none-found = Žedne wótpokazane sady namakane!
 
 ## STATS
 
+sc-stats-title = Statistika
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Slědna aktualizacija: { $lastUpdate }
+sc-stats-last-update-never = Slědna aktualizacija: nigdy
+sc-stats-updating = Aktualizěrujo se…
 
 ## ADD
 
+sc-submit-err-select-lang = Pšosym wubjeŕśo rěc.
+sc-submit-err-add-sentences = Pšosym pśidajśo sady.
+sc-submit-err-add-source = Pšosym pśidajśo žrědło.
+sc-submit-title = Sady pśidaś
+sc-submit-select-language =
+    .labelText = Rěc wubraś
+sc-submit-ph-one-per-line =
+    .placeholder = Jadna sada na smužku
 
 ## ADD LANGUAGE
 
