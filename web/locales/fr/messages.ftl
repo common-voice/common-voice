@@ -1071,6 +1071,7 @@ sc-howto-review-criteria-6 = Si vous n’avez plus de phrases à vérifier, aide
 sc-howto-findpd-title = Trouver des phrases existantes dans le domaine public
 sc-howto-findpd-text-2 = Souvenez-vous que nous avons besoin d’une autorisation pour publier ces phrases, aussi assurez-vous toujours que le texte appartient au <wikipediaLink>domaine public</wikipediaLink>. S’il n’y a pas d’indication explicite, contactez la personne à laquelle appartient le texte et demandez-lui si elle souhaite placer son texte dans le domaine public. Si elle accepte, aidez-la à suivre le processus d’<cc0WaiverLink>accord de contribution</cc0WaiverLink>. Si elle ne le veut pas, vous n’avez pas l’autorisation d’utiliser ce texte.
 sc-howto-findpd-tips = Voici quelques astuces pour trouver des phrases :
+sc-howto-findpd-tips-1 = Les meilleures sources que vous pouvez rechercher sont les podcasts, transcriptions, scripts de film et tout ce qui peut contenir des conversations du quotidien.
 sc-howto-findpd-tips-2 = Les procédures, livres et articles gouvernementaux sont également très importants, cependant, puisque le texte a tendance à être un peu plus formel, ils sont moins prioritaires.
 sc-howto-findpd-tips-3 = Malheureusement, nous ne pouvons pas encore disposer d’articles de Wikimedia. Donc n’en faites pas de copier-coller.
 sc-howto-findpd-partner-1 = Il y a beaucoup d’organisations publiques qui pourraient vouloir collaborer et qui disposent déjà de beaucoup de textes qu’elles peuvent placer dans le domaine public. Contactez les universités locales, les gouvernements et les organisations open-source pour parler du projet et demander leur aide.
@@ -1127,6 +1128,7 @@ sc-submit-select-language =
 sc-submit-add-sentences = Ajouter des phrases du <wikipediaLink>domaine public</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Une phrase par ligne
+sc-submit-from-where = D’où viennent ces phrases du <wikipediaLink>domaine public</wikipediaLink> ?
 sc-submit-confirm = Je confirme que ces phrases sont du <wikipediaLink>domaine public</wikipediaLink> et que j’ai la permission de les envoyer.
 sc-submit-button =
     .submitText = Envoyer
@@ -1156,6 +1158,7 @@ sc-add-err-failed =
        *[other] { $sentences } phrases échouées
     }
 sc-add-err-submission = Erreur de soumission
+sc-add-lang-process-notice = Si votre langue n’est pas répertoriée ici, vous pouvez demander son ajout via <languageProcessLink>ce processus</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1258,6 +1261,7 @@ sc-criteria-item-1 = La phrase doit être orthographiée correctement.
 sc-criteria-item-2 = La phrase doit être grammaticalement correcte.
 sc-criteria-item-3 = La phrase doit être prononçable.
 sc-criteria-item-4 = Si la phrase répond aux critères, cliquez sur le bouton « Approuver » à droite.
+sc-criteria-item-5-2 = Si la phrase ne répond pas aux critères ci-dessus, cliquez sur le bouton « Rejeter » à gauche. Si vous avez un doute, vous pouvez également la sauter et passer à la suivante.
 sc-criteria-item-6 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 
 ## REVIEW
@@ -1294,6 +1298,8 @@ sc-review-link = Révision
 ## SETTINGS
 
 sc-settings-title = Paramètres
+sc-settings-ui-language = Langue de l’interface
+sc-settings-language-translated-warning = Les pages de cette langue peuvent ne pas être entièrement traduites. Vous pouvez aider à la traduction <pontoonLinkLink>sur Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Réinitialiser les phrases ignorées
 sc-settings-skipped-decription = Vous avez précédemment ignoré des phrases pendant la révision. Réinitialiser les phrases ignorées affichera à nouveau toutes les phrases ignorées, sans tenir compte de la langue.
 sc-settings-show-all-button = Afficher à nouveau toutes les phrases ignorées
