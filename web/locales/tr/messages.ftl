@@ -1033,7 +1033,7 @@ sc-logout-button = Çıkış
 ## HOME
 
 sc-home-title = Common Voice Cümle Toplayıcı’ya hoş geldiniz
-sc-home-intro = Cümle Toplayıcı, <commonVoiceLink>CommonVoiceLink>’un bir parçasıdır. Gönüllülerin cümle toplamasına ve topluluk tarafından oluşturulan cümleleri doğrulamasına olanak tanır. Bu aracı, bulduğunuz veya topladığınız küçük ve orta ölçekli kamu malı külliyatı içe aktarmak ve temizlemek için kullanabilirsiniz. Tüm cümlelerin kamu malı olması gerekir. Onaylanan cümleler her hafta Common Voice deposuna aktarılır ve her yeni sürümüyle Common Voice web sitesinde yayımlanır.
+sc-home-intro = Cümle Toplayıcı, <commonVoiceLink>Common Voice<CommonVoiceLink>’un bir parçasıdır. Gönüllülerin cümle toplamasına ve topluluk tarafından oluşturulan cümleleri doğrulamasına olanak tanır. Bu aracı, bulduğunuz veya topladığınız küçük ve orta ölçekli kamu malı külliyatı içe aktarmak ve temizlemek için kullanabilirsiniz. Tüm cümlelerin kamu malı olması gerekir. Onaylanan cümleler her hafta Common Voice deposuna aktarılır ve her yeni sürümüyle Common Voice web sitesinde yayımlanır.
 sc-home-collect-title = Cümle topla
 sc-home-collect-text = Kamu malı cümleleri yazarak veya toplayarak bize yardımcı olun.
 sc-home-review-title = Cümleleri incele
@@ -1047,9 +1047,11 @@ sc-howto-addlang-text = Giriş yaptıktan sonra profil bölümünden dillerinizi
 sc-howto-addsen-title = Yeni cümleler ekleme
 sc-howto-addsen-item-1 = Gönderdiğiniz tüm cümleler <wikipediaLink>Kamu Malı / Public Domain (CC-0) lisansı</wikipediaLink> kapsamında olmalıdır. Kamu malı lisansı kapsamında olmayan çalışmaların dahil edilebilmesi için bir <cc0WaiverLink>Katkı Sözleşmesi şablonu</cc0WaiverLink> oluşturduk. Telif hakkı sahibi, kendisine ait malzemelerin Common Voice'ta kullanabilmesi için bu şablonu kullanabilir.
 sc-howto-addsen-item-2 = Sayılar. Kaynak metinde rakamlar olmamalıdır çünkü sesli okunduğunda sorun yaratabilirler. Bir sayının okunma şekli bağlama bağlıdır ve veri kümesinde karışıklığa neden olabilir. Örneğin, “2409” sayısı hem “yirmi dört sıfır dokuz” hem de “iki bin dört yüz dokuz” olarak doğru bir şekilde okunabilir.
+sc-howto-addsen-item-3 = Kelime kısaltmaları ve baş harf kısaltmaları. Kaynak metinde “ABD” veya “TBMM” gibi kısaltmalar kullanılmamalıdır, çünkü bunlar yazımlarına uymayan bir şekilde okunabilirler. Ek olarak, tek bir kısaltma için birden fazla doğru okuma olabilir. Örneğin, “ABD” kısaltması “A-B-D” olarak veya "Amerika Birleşik Devletleri" olarak telaffuz edilebilir.
 sc-howto-addsen-item-4 = Noktalama işaretleri. Özel semboller ve noktalama işaretleri yalnızca kesinlikle gerekli olduğunda dahil edilmelidir. Örneğin, "Ahmet'in" ve "N'aber?" gibi sözcüklerdeki kesme işareti kaynak metne dahil edilmelidir, ancak büyük olasılıkla "@" veya "#" gibi özel sembollere ihtiyacınız olmayacaktır.
 sc-howto-addsen-item-5 = Yabancı harfler. Harfler konuşulan dilde geçerli olmalıdır. Örneğin, "ж" Rus alfabesinde bir harftir ancak Türkçede asla kullanılmaz ve bu nedenle hiçbir Türkçe kaynak metinde yer almamalıdır.
 sc-howto-addsen-item-6 = Diller <validationRulesLink>kendi doğrulama kurallarına</validationRulesLink> ve ek zorunluluklara sahip olabilir. Bir dil için belirli bir doğrulama dosyası yoksa genel İngilizce kurallarını kullanıyoruz.
+sc-howto-addsen-post-1 = Doğal cümleleri ve konuşma cümlelerini tercih ediyoruz. Cümlelerdeki fonetik çeşitlilik ve farklı kelimeler önemli olmakla birlikte, cümle kaydetmeyi de mümkün olduğunca eğlenceli hale getirmeye çalışıyoruz. Bu nedenle, cümlelerinizi mümkün olduğunca doğal/çekici tutmaya çalışmanız harika olur.
 sc-howto-cite-title = Nasıl alıntı yapılır?
 sc-howto-cite-item-1 = Web sitesi adresini verebilirsiniz. Örn. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Cümleleri inceleme
@@ -1072,7 +1074,11 @@ sc-my-title = Cümlelerim
 sc-my-loading = Cümleleriniz yükleniyor…
 sc-my-err-fetching = Cümleleriniz getirilirken hata oluştu. Lütfen tekrar deneyin.
 sc-my-no-sentences = Hiç cümle bulunamadı!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Gönderim: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Kaynak: { $kaynak }
 sc-my-delete = Seçili cümleleri sil
 sc-my-deleting = Seçili cümleler siliniyor…
@@ -1088,9 +1094,14 @@ sc-rejected-none-found = Reddedilen cümle bulunamadı.
 ## STATS
 
 sc-stats-title = İstatistikler
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = Son Güncelleme: { $lastUpdate }
 sc-stats-last-update-never = Son Güncelleme: hiç güncellenmedi
 sc-stats-updating = Güncelleniyor…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
 sc-stats-summary = Common Voice Cümle Toplayıcı, { $languageCount } dilde { $sentenceCount } cümle topladı!
 
 ## ADD
@@ -1108,6 +1119,8 @@ sc-submit-add-sentences = <wikipediaLink>Kamu malı</wikipediaLink> cümleler ek
 sc-submit-ph-one-per-line =
     .placeholder = Her satıra tek bir cümle
 sc-submit-from-where = Bu <wikipediaLink>kamu malı</wikipediaLink> cümleler nereden geliyor?
+sc-submit-ph-read-how-to =
+    .placeholder = Nasıl ilişkilendireceğinizden emin değilseniz Nasıl Yapılır sayfamızı okuyun
 sc-submit-confirm = Bu cümlelerin <wikipediaLink>kamu malı</wikipediaLink> olduğunu ve bunları yükleme iznim olduğunu onaylıyorum.
 sc-submit-button =
     .submitText = Gönder
@@ -1119,6 +1132,8 @@ sc-add-lang-could-not-add = Dil eklenemedi
 sc-add-lang-sec-label = Katkıda bulunmak istediğiniz bir dil ekleyin
 sc-add-lang-sec-button = Dil Ekle
 sc-add-err-unexpected = Sunucudan beklenmeyen yanıt geldi
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
         [0] Hiç başarısız cümle yok
@@ -1132,13 +1147,19 @@ sc-add-err-submission = Gönderim Hatası
 sc-confirm-are-you-sure =
     .message = Cümleler gönderilmedi. Çıkmak istediğinizden emin misiniz?
 sc-confirm-sentences-title = Yeni Cümleleri Onaylayın
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] Hiç cümle bulunmadı.
         [one] 1 cümle bulundu.
        *[other] { $countOfSentences } cümle bulundu.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } cümleyi reddettiniz
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
         [0] Gönderime hazır cümle yok!
@@ -1146,23 +1167,52 @@ sc-confirm-ready =
        *[other] { $countOfReviewed } cümle gönderime hazır!
     }
 sc-confirm-button-text = Onayla
+sc-confirm-uploading = Cümleler karşıya yükleniyor. Bu, eklenen cümle sayısına bağlı olarak birkaç dakika sürebilir. Lütfen bu web sitesini kapatmayın.
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
         [0] Hiç cümle yok.
         [one] Toplam 1 cümle.
        *[other] Toplam { $totalSentences } cümle.
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] Hiç incelemede olan cümle yok.
         [one] 1 cümle incelemede.
        *[other] { $totalInReview } cümle incelemede.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] İncelemeniz için hiç cümle kalmadı.
+        [one] 1 cümle incelemeniz için bekliyor.
+       *[other] { $unreviewedStencesByYou } cümle incelemeniz için bekliyor.
+    }
 sc-lang-info-review-now = <reviewLink>Hemen inceleyin!</reviewLink>
 sc-lang-info-add-more = <addLink>Şimdi daha fazla cümle ekleyin!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Hiç doğrulanmış cümle yok.
+        [one] 1 cümle doğrulandı.
+       *[other] { $validatedSentences } cümle doğrulandı.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Hiç reddedilmiş cümle yok.
+        [one] 1 cümle reddedildi.
+       *[other] { $rejectedSentences } cümle reddedildi.
+    }
 
 ## LOGIN
 
@@ -1171,11 +1221,15 @@ sc-login-err-try-again = Lütfen tekrar deneyin.
 
 ## PROFILE
 
-sc-profile-title = Profil: { $name }
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
 sc-personal-err-lang-not-found = Dil kaldırılamadı: dil bulunamadı
 sc-personal-err-remove = Dil kaldırılamadı
 sc-personal-your-languages = Dilleriniz:
 sc-personal-remove-button = kaldır
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } cümle eklediniz
 sc-personal-not-added = Henüz herhangi bir dil eklemediniz.
 
@@ -1188,7 +1242,7 @@ sc-criteria-item-1 = Cümle doğru yazılmalıdır.
 sc-criteria-item-2 = Cümle dilbilgisi açısından doğru olmalıdır.
 sc-criteria-item-3 = Cümle sesli olarak okunabilir olmalıdır.
 sc-criteria-item-4 = Cümle kriterleri karşılıyorsa sağdaki &quot;Onayla&quot; düğmesine tıklayın.
-sc-criteria-item-5 = Cümle yukarıdaki kriterleri karşılamıyorsa soldaki &quot;Reddet&quot; düğmesine tıklayın. Emin olmadığınız cümleleri atlayarak bir sonrakine geçebilirsiniz.
+sc-criteria-item-5-2 = Cümle yukarıdaki kriterleri karşılamıyorsa soldaki &quot;Reddet&quot; düğmesine tıklayın. Emin olmadığınız cümleleri atlayarak bir sonrakine geçebilirsiniz.
 sc-criteria-item-6 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
 
 ## REVIEW
@@ -1201,6 +1255,8 @@ sc-review-no-sentences = İncelenecek cümle yok. <addLink>Şimdi daha fazla cü
 sc-review-form-prompt =
     .message = İncelenen cümleler gönderilmedi. Emin misiniz?
 sc-review-form-usage = Cümleyi onaylamak için sağa kaydırın. Reddetmek için sola kaydırın. Atlamak için yukarı kaydırın. <strong>İncelemenizi göndermeyi unutmayın!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Kaynak: { $sentenceSource }
 sc-review-form-button-reject = Reddet
 sc-review-form-button-skip = Atla
@@ -1209,6 +1265,8 @@ sc-review-form-button-approve = Onayla
 sc-review-form-keyboard-usage = Klavye kısayollarını da kullanabilirsiniz: onaylamak için Y, reddetmek için N, atlamak için S
 sc-review-form-button-submit =
     .submitText = İncelemeyi bitir
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Hiç cümle incelenmedi.
@@ -1221,6 +1279,7 @@ sc-review-link = İncele
 ## SETTINGS
 
 sc-settings-title = Ayarlar
+sc-settings-ui-language = Arayüz dili
 sc-settings-reset-skipped = Atlanan cümleleri sıfırla
 sc-settings-skipped-decription = Daha önce incelemeniz sırasında bazı cümleleri atladınız. Atlanan cümleleri sıfırlamak, atlanan tüm cümleleri tekrar gösterecektir. Bu işlem dilden bağımsızdır.
 sc-settings-show-all-button = Atlanan tüm cümleleri tekrar göster
