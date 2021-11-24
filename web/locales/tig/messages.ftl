@@ -397,11 +397,13 @@ error-code = ኻጣአ
 
 ## Data
 
+data-download-button = በያናት ናይ Common Voice ክረ
 data-download-yes = ኣየዋ
 data-download-deny = ኢፋል
 data-download-license = ሩኽሰት: <licenseLink>CC-0</licenseLink>
 data-get-started = <speechBlogLink>ሂጋ ኣሌለዩት ኣንብቶ</speechBlogLink>
 data-other-goto = { $name } ጊስ
+data-other-download = በያናት ክረ
 dataset-date = ታሪኽ
 license = ሩኽሰት: <licenseLink>{ $license }</licenseLink>
 terms-agree = አዋፍቅ
@@ -429,6 +431,7 @@ confirm-no-identify = ዲብ ባያናት ናይ Common Voice ሃውየት ና�
 download-language = { $language } ክረው
 validated-hours = ላትሓቀቅያ ሳዓት
 recorded-hours = ላትስጅለያ ሳዓት
+whats-inside = ዲብ ጅዋ ባያናት Common Voice ሚ ሃላ?
 subscribe = ኣሽተርክ
 get-started-speech = ሂጋ ኣሌለዩት ኣንብቶ
 community-playbook = ናይ ማሕበር ሰብ ፕለይቡክ
@@ -532,6 +535,7 @@ report-success = ላታቅሪር ግሩም እትላኣካ
 
 ## Goals
 
+streaks = ሸራይጥ
 days =
     { $count ->
         [one] ዮም
@@ -645,6 +649,10 @@ contribution-criteria-link = ናይ ሙሳሀምት መቃየሲ ፋሃሞ
 contribution-criteria-page-title = ናይ ሙሳሀምት መቃየሲ
 contribution-for-example = መሳል
 contribution-misreadings-title = ቅርኣት ጊጊት
+contribution-misreadings-example-1-title = ላ ዳይናሱር ዓቢ ምን ናይ ዘመን ትርያሲክ.
+contribution-misreadings-example-2-title = ላ ዳይናሱር ዓቢ ምን ናይ ዘመን ትርያሲክ.
+contribution-misreadings-example-3-title = ላ ዳይናሱር ዓቢ ምን ናይ ዘመን ትርያሲ-.
+contribution-misreadings-example-4-title = ላ ዳይናሱር ዓቢ ምን ናይ ዘመን ትርያሲክ. ኣይዋ.
 contribution-misreadings-example-5-title = ቡን ግል ንስተ ፍግር ሀሌና
 contribution-misreadings-example-6-title = ቡን ግል ንስተ ፍግር ሀሌና
 contribution-misreadings-example-7-title = ቡን ግል ንስተ ፍግር ሀሌና
