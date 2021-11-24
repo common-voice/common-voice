@@ -747,15 +747,22 @@ see-less = <chevron></chevron>ሑድ ረአ
 ## HEADER/FOOTER
 
 sc-header-add = ወስኽ
+sc-header-rejected = ላትረፈደያ ጁመል
+sc-header-my = ጁመል ናየ
 sc-header-statistics = እሕሳእ
 sc-footer-report-bugs = ትቅሪር ናይ ንቁስ
 sc-footer-translate = እላ ሰፍሓት ተርጅም
+sc-footer-terms = ሸሩጥ
 
 ## HOME
 
+sc-home-collect-title = ጁመል ኣኽብ
 
 ## HOW-TO
 
+sc-howto-addlang-title = ላትሸቀ እባ ሉቀት ወስኽ
+sc-howto-addsen-title = ሓዲስ ጁመል ወስኽ
+sc-howto-review-title = ጁመል ራጂዕ
 sc-howto-findpd-subtitle = ዲብ ኢንተርነት ሕዝዎ
 
 ## MY SENTENCES
