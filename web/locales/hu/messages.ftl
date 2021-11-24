@@ -1008,9 +1008,14 @@ contribution-just-unsure-title = Csak bizonytalan?
 contribution-just-unsure-description = Ha olyan dologgal találkozik, amelyre ezek az irányelvek nem vonatkoznak, akkor szavazzon a legjobb megítélése szerint. Ha valóban nem tud dönteni, akkor használja a kihagyás gombot, és folytassa a következő felvétellel.
 see-more = <chevron> </chevron> További információk
 see-less = <chevron> </chevron> Kevesebb információ
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = Kezdőlap
 sc-header-how-to = Hogyan
 sc-header-add = Hozzáadás
@@ -1028,12 +1033,18 @@ sc-footer-terms = Feltételek
 sc-footer-cookies = Sütik
 sc-login-signup-button = Bejelentkezés / Regisztráció
 sc-logout-button = Kijelentkezés
+
+## HOME
+
 sc-home-title = Üdvözöljük a Common Voice mondatgyűjtőben
 sc-home-intro = A mondatgyűjtő a <commonVoiceLink>Common Voice</commonVoiceLink> része. Lehetővé teszi a közreműködőknek a közösség által létrehozott mondatok összegyűjtését és ellenőrzését. Használhatja az eszközt a megtalált vagy összegyűjtött, kis és közepes méretű közkincsnek számító korpuszok importálásához és tisztítására is. Minden mondatnak közkincsnek kell lennie. A jóváhagyott mondatokat hetente exportálják a Common Voice adattárába, és minden új telepítéskor megjelennek a Common Voice webhelyén.
 sc-home-collect-title = Mondatok gyűjtése
 sc-home-collect-text = Segítsen nekünk közkincsű mondatok írásában vagy összegyűjtésében.
 sc-home-review-title = Mondatok ellenőrzése
 sc-home-review-text = Segítsen nekünk a mondatok az irányelvek szerinti helyességének ellenőrzésében.
+
+## HOW-TO
+
 sc-howto-title = Hogyan
 sc-howto-addlang-title = Kezelendő nyelvek hozzáadása
 sc-howto-addlang-text = Miután bejelentkezett, kiválaszthatja a nyelveket a profil részben.
@@ -1073,7 +1084,6 @@ sc-howto-review-criteria-5 =
 sc-howto-review-criteria-6 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében!
 sc-howto-findpd-title = Meglévő közkincsű szövegek keresése
 sc-howto-findpd-subtitle = Keressen rájuk az interneten
-sc-howto-findpd-text = Ne feledje, hogy engedélyre van szükségünk ezeknek a mondatoknak a közzétételéhez, ezért mindig győződjön meg arról, hogy a szöveg <wikipediaLink>közkincs-e</wikipediaLink>. Ha nincs erre utaló jel, forduljon a szöveg tulajdonosához, és kérdezze meg, hogy felhasználhatja-e a szövegét.
 sc-howto-findpd-tips = Itt van néhány tipp a mondatok kereséséhez:
 sc-howto-findpd-tips-1 = A legjobb források, amelyeket kereshet, a podcastok, leiratok, filmforgatókönyvek és bármi, ami mindennapi beszélgetéseket tartalmazhat.
 sc-howto-findpd-tips-2 = A kormányzati eljárások, könyvek és cikkek is nagyszerűek, de mivel a szöveg kissé formálisabb, kevésbé élveznek prioritást.
@@ -1081,31 +1091,46 @@ sc-howto-findpd-tips-3 = Sajnos még nem használhatunk fel Wikimedia cikkeket. 
 sc-howto-findpd-subtitle-2 = Álljon össze helyi szervezetekkel vagy magánszemélyekkel
 sc-howto-findpd-partner-1 = Sok olyan nyilvános szervezet lehet, amelyek esetleg szeretnének együttműködni, és már sok olyan szöveggel rendelkezik, amelyet közkincsként felajánlhatnak. Lépjen kapcsolatba a helyi egyetemekkel, önkormányzatokkal és nyílt forráskódú szervezetekkel, hogy beszéljen a projektről, és  a segítségüket kérje.
 sc-howto-findpd-partner-2 = Szakértő nyelvészek is segíthetnek, próbálja meg felvenni a kapcsolatot a helyi nyelvtudományi egyetemekkel (tanárokkal és hallgatókkal egyaránt), és tudja meg, hogy tudnak-e segíteni abban, hogy változatos hangzású, változatos mondatokat gyűjtsenek össze az Ön nyelvén.
+
+## MY SENTENCES
+
 sc-my-title = Saját mondatok
 sc-my-description = Ez az oldal áttekintést nyújt az összes beküldött mondatról. Szükség esetén törölheti a már beküldött mondatokat is, ha bejelöli a mellettük lévő jelölőnégyzetet, és rákattint a lenti „Kijelölt mondatok törlése” gombra. Csak akkor távolítson el mondatokat, ha az feltétlenül szükséges, például ha utólag vette észre, hogy egy mondat szerzői jogvédelem alatt áll.
 sc-my-loading = Mondatok betöltése…
 sc-my-err-fetching = Hiba történt a mondatok lekérése során. Próbálja újra.
 sc-my-no-sentences = Nem találhatóak mondatok.
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Beküldés: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Forrás:  { $source }
 sc-my-delete = Kijelölt mondatok törlése
 sc-my-deleting = Kijelölt mondatok törlése…
 sc-my-err-failed-delete = A kijelölt mondatok törlése sikertelen… Próbálja újra.
-sc-profile-title = Profil: { $username }
+
+## REJECTED
+
 sc-rejected-title = Elutasított mondatok
 sc-rejected-loading = Elutasított mondatok betöltése…
 sc-rejected-err-fetching = Hiba történt az elutasított mondatok lekérése során. Próbálja újra.
 sc-rejected-none-found = Nem található elutasított mondat.
-sc-review-lang-not-selected = Nem választott ki egyetlen nyelvet sem. A nyelvek kiválasztásához ugorjon a <profileLink>profiljához</profileLink>.
-sc-review-title = Mondatok ellenőrzése
-sc-review-loading = Mondatok betöltése…
-sc-review-select-language = Válasszon nyelvet a mondatok ellenőrzéséhez.
-sc-review-no-sentences = Nincsenek ellenőrizendő mondatok. <addLink>Adjon hozzá további mondatokat.</addLink>
+
+## STATS
+
 sc-stats-title = Statisztika
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = Utolsó frissítés: { $lastUpdate }
 sc-stats-last-update-never = Utolsó frissítés: soha
 sc-stats-updating = Frissítés…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
 sc-stats-summary = A Common Voice mondatgyűjtő { $sentenceCount } mondatot gyűjtött, { $languageCount } nyelven.
+
+## ADD
+
 sc-submit-err-select-lang = Válasszon egy nyelvet.
 sc-submit-err-add-sentences = Adjon hozzá mondatokat.
 sc-submit-err-add-source = Adjon hozzá egy forrást.
@@ -1126,16 +1151,23 @@ sc-submit-button =
     .submitText = Beküldés
 sc-submit-filtered = A követelményeknek nem megfelelő mondatok kiszűrve (a javított változatokat küldje be új mondatként):
 sc-submit-guidelines = Ellenőrizze az <howToLink>irányelveket</howToLink>.
+
+## ADD LANGUAGE
+
 sc-add-lang-could-not-add = A nyelv hozzáadása sikertelen
 sc-add-lang-sec-label = Adjon hozzá egy nyelvet, amelyben közreműködne
 sc-add-lang-sec-button = Nyelv hozzáadása
 sc-add-err-unexpected = Váratlan válasz érkezett a kiszolgálótól
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
         [0] Beküldött mondatok. { $duplicates } mondat ismétlődés miatt elutasítva.
         [one] Beküldött mondatok. { $duplicates } mondat ismétlődés miatt elutasítva.
        *[other] Beküldött mondatok. { $duplicates } mondat ismétlődés miatt elutasítva.
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
         [0] Nincs sikertelen mondat
@@ -1143,15 +1175,22 @@ sc-add-err-failed =
        *[other] { $sentences } sikertelen mondat
     }
 sc-add-err-submission = Beküldési hiba
+
+## ADD SENTENCES CONFIRMATION
+
 sc-confirm-are-you-sure =
     .message = A mondatok nem lettek beküldve, biztos, hogy távozik?
 sc-confirm-sentences-title = Új mondatok megerősítése
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] Nem található mondat.
         [one] 1 mondat található.
        *[other] { $countOfSentences } mondat található.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } mondatot utasított el
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
@@ -1159,27 +1198,40 @@ sc-confirm-already-reviewed =
         [one] 1 mondatot már ellenőrzött. Szép munka!
        *[other] Már { $countOfReviewed } mondatot ellenőrzött. Szép munka!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
         [0] Egy mondat sem áll készen a beküldésre.
         [one] 1 mondat készen áll a beküldésre.
        *[other] { $readyCount } mondat készen áll a beküldésre.
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } mondat nincs ellenőrizve. Ha szeretné, most is ellenőrizheti a mondatait, mielőtt beküldi őket.
 sc-confirm-button-text = Megerősítés
 sc-confirm-uploading = A mondatok feltöltése folyamatban van. Ez a hozzáadott mondatok számától függően akár több percig is eltarthat. Ne zárja be ezt a webhelyet.
+
+## LANGUAGE INFO
+
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
         [0] Nincs egyetlen mondat sem.
         [one] Összesen { $totalSentences } mondat.
        *[other] Összesen { $totalSentences } mondat.
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] Nincs ellenőrzés alatti mondat.
         [one] 1 mondat ellenőrzés alatt.
        *[other] { $totalInReview } mondat ellenőrzés alatt.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] Nem maradt ellenőrizendő mondat.
@@ -1188,26 +1240,44 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Ellenőrzés most</reviewLink>
 sc-lang-info-add-more = <addLink>Mondatok hozzáadása most</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
         [0] Nincsenek ellenőrzött mondatok.
         [one] 1 ellenőrzött mondat.
        *[other] { $validatedSentences } ellenőrzött mondat.
     }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Nincsenek elutasított mondatok.
         [one] 1 elutasított mondat.
        *[other] { $rejectedSentences } elutasított mondat.
     }
+
+## LOGIN
+
 sc-login-err-failed = Bejelentkezés sikertelen
 sc-login-err-try-again = Próbálja meg újra.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
 sc-personal-err-lang-not-found = Nem sikerült eltávolítani a nyelvet: a nyelv nem található
 sc-personal-err-remove = Nem sikerült eltávolítani a nyelvet
 sc-personal-your-languages = Az Ön nyelvei:
 sc-personal-remove-button = eltávolítás
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = Ön ennyit adott hozzá: { $sentences }
 sc-personal-not-added = Még nem adott hozzá egyetlen nyelvet sem.
+
+## REVIEW CRITERIA
+
 sc-criteria-modal = ⓘ Ellenőrzési szempontok
 sc-criteria-title = Ellenőrzési szempontok
 sc-criteria-make-sure = Győződjön meg arról, hogy a mondat megfelel a következő kritériumoknak:
@@ -1215,18 +1285,30 @@ sc-criteria-item-1 = A mondatok helyesen vannak leírva.
 sc-criteria-item-2 = A mondatok nyelvtanilag helyesek.
 sc-criteria-item-3 = A mondatok kimondhatók.
 sc-criteria-item-4 = Ha a mondat megfelel a feltételeknek, kattintson a „Jóváhagyás” gombra a jobb oldalon.
-sc-criteria-item-5 = Ha a mondat nem felel meg a fenti feltételeknek, kattintson az „Elutasítás” gombra. Ha nem biztos a mondatban, akkor ki is hagyhatja, és továbbléphet a következőre.
 sc-criteria-item-6 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében!
+
+## REVIEW
+
+sc-review-lang-not-selected = Nem választott ki egyetlen nyelvet sem. A nyelvek kiválasztásához ugorjon a <profileLink>profiljához</profileLink>.
+sc-review-title = Mondatok ellenőrzése
+sc-review-loading = Mondatok betöltése…
+sc-review-select-language = Válasszon nyelvet a mondatok ellenőrzéséhez.
+sc-review-no-sentences = Nincsenek ellenőrizendő mondatok. <addLink>Adjon hozzá további mondatokat.</addLink>
 sc-review-form-prompt =
     .message = Az ellenőrzött mondatokat nem küldte be, biztos benne?
 sc-review-form-usage = Csúsztassa jobbra a mondat jóváhagyásához. Csúsztassa balra az elutasításhoz. Csúsztassa felfelé az átugráshoz. <strong>Ne felejtse el elküldeni az értékelését.</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Forrás: { $sentenceSource }
 sc-review-form-button-reject = Elutasítás
 sc-review-form-button-skip = Kihagyás
 sc-review-form-button-approve = Jóváhagyás
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
 sc-review-form-keyboard-usage = Használhatja a gyorsbillentyűket is: Y a jóváhagyáshoz, N az elutasításhoz, S a kihagyáshoz
 sc-review-form-button-submit =
     .submitText = Ellenőrzés befejezése
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Egyetlen mondat sem lett ellenőrizve.
@@ -1235,11 +1317,21 @@ sc-review-form-reviewed-message =
     }
 sc-review-form-review-failure = Az ellenőrzés mentése nem sikerült. Próbálja újra később.
 sc-review-link = Ellenőrzés
+
+## SETTINGS
+
 sc-settings-title = Beállítások
+sc-settings-ui-language = Felület nyelve
+sc-settings-language-translated-warning = Előfordulhat, hogy az ehhez a nyelvhez tartozó oldalak nincsenek teljesen lefordítva. Segíthet a fordításban a <pontoonLinkLink>Pontoon-on</pontoonLinkLink>.
 sc-settings-reset-skipped = Kihagyott mondatok visszaállítása
 sc-settings-skipped-decription = Korábban kihagyott mondatokat az ellenőrzés során. Az átugrott mondatok visszaállítása az összes kihagyott mondatot újra megjeleníti. Ez független a nyelvtől.
 sc-settings-show-all-button = Az összes kihagyott mondat megjelenítése újra
 sc-settings-failed = Nem sikerült módosítani a beállításokat. Próbálja újra.
+# VALIDATION
+sc-validation-number-of-words = A mondatnak 1 és 14 (ezt is beleértve) közötti számú szót kell tartalmaznia
+sc-validation-no-numbers = A mondat nem tartalmazhat számokat
+sc-validation-no-symbols = A mondat nem tartalmazhat szimbólumokat
+sc-validation-no-abbreviations = A mondat nem tartalmazhat rövidítéseket
 
 # [/SentenceCollector]
 
