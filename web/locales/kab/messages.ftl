@@ -903,6 +903,7 @@ download-request-modal-title = Iseɣwan n uzdam
 download-request-modal-description = A-ten-an yiseɣwan i usader n yifuyla-ik ZIP.
 download-request-link-text = Zip #{ $offset } ɣef { $total }
 download-request-metadata-link = Aḍris n tefyirt
+download-request-link-single = Tzemreḍ daɣen ad tesneɣleḍ neɣ ad tessenṭeḍeḍ iseɣwan usriden deg umsefrak-ik n yisadaren i tḥemmleḍ. Ad mmten deg 12 n yisragen, maca tzemreḍ ad tuɣaleḍ ɣer ɣer usebter-a akken ad ternuḍ iseɣwan imaynuten melmi i tebɣiḍ.
 
 ## Landing
 
@@ -956,6 +957,8 @@ contribution-criteria-page-title = Attekki n Kriteriya
 contribution-criteria-page-description = Gzu ayen i ilaqen ticki tselleḍ i tefyar, snerni daɣen si tama-k taɣuri-ik!
 contribution-for-example = amedya
 contribution-misreadings-title = Tuccḍa deg tɣuri
+contribution-misreadings-description = Ticki tsemḥaseḍ, wali ma yella ayen yettwaɣran yemṣada d wayen yuran; ttagi xas ma llant tuccḍiwin meẓẓiyen. <br />Kra n tuccḍiwin mucaɛent gebrent:
+contribution-misreadings-description-extended-list-1 = Ixuṣṣ<strong> "a/ta"</strong> degs wazwra n kra n yismawen neɣ <strong>"t"</strong> deg taggra n kra n yismawen n wunti.
 contribution-misreadings-description-extended-list-2 = Ixuṣṣ
 contribution-misreadings-description-extended-list-4 = Txuṣṣ taggara n wawal aneggaru seg unegzum n usekles s lemɣawla.
 contribution-misreadings-description-extended-list-5 = Ɛreḍ acḥal n tikkal deg tɣuri n wawal.
@@ -1032,6 +1035,8 @@ sc-submit-guidelines = Ttxil-k wali <howToLink>iwellihen</howToLink>.
 sc-add-lang-could-not-add = Ur izmir ara ad yernu tutlayt
 sc-add-lang-sec-label = Rnu tutlayt i tebɣiḍ akken ad tettekkiḍ
 sc-add-lang-sec-button = Rnu tutlayt
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
         [0] Amḍan n tefyar yeccḍen
@@ -1045,12 +1050,16 @@ sc-add-err-submission = Tuccḍa deg tuzna
 sc-confirm-are-you-sure =
     .message = Tifyar ur ttwaznent ara, tebɣiḍ ad teffɣeḍ?
 sc-confirm-sentences-title = Sentem tifyar timaynutin
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] Amḍan n tefyar yettwafen.
         [one] 1 n tefyirt yettwafen.
        *[other] { $countOfSentences } n tefyar ttwafent.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } n tefyar i tugiḍ
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
@@ -1058,29 +1067,39 @@ sc-confirm-already-reviewed =
         [one] 1 tefyirt tettwasenqed. Igerrez!
        *[other] { $countOfReviewed } n tefyar i yettwasneqden yakan. Igerrez!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
         [0] Ulac tiyar i usumer
         [one] 1 n tefyirt thegga i usumer!
        *[other] { $readyCount } n tefyar heggant i usumer!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreview } n tefyar ur ttwasneqdent ara. Ma tebɣiḍ, tzemreḍ daɣen ad tesneqdeḍ tifyar-ik tura uqbel tuzna-nsent.
 sc-confirm-button-text = Sentem
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
         [0] Amḍan amatu n tefyar.
         [one] 1 n tefyirt.
        *[other] { $totalSentences } n tefyar.
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] Amḍan n tefyar deg usenqed.
         [one] 1 tefyirt i usenqed.
        *[other] { $totalInReview } ntefyar i usenqed.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] Amḍan n tefyar i ak-d-neǧǧa i usenqed.
