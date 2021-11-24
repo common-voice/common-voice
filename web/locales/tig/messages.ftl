@@ -422,6 +422,7 @@ localization = ታውጢን
 sentence-collection = ጁመል ኣከቦት
 sentence-collection-explanation = ኣከቦት ጁመል ምን ሙልኬት ዓመት, ኣውሃየኒ ክታበት ሓዲስ ጁመል እግል ሙልኬት ዓመት
 hours-recorded-explanation = ሕሳብ ናይ ኩሉ ኣስኽ ኣዘ ላ ኣኽብናሁ ትስጂል ናይ ሶት
+de-identified = መስደር ወርክዮት
 
 ## Error pages
 
@@ -458,6 +459,7 @@ size = ሓጅም
 validated-hr-total = ጅምዕ ላትሓቀቀያ ሳዓት
 overall-hr-total = ጅምዕ ናይ ኩለን ሳዓት
 cv-license = ሩኽሰት
+number-of-voices = ናይ ሶት ክሊፕ ዓደድ
 splits = ፈንተ
 email-to-download = ኢሜል ኣእተ እግል ተውርድ
 why-email = <b>ግልሚቱ ኢሜል ኣትሓዜኩም</b>ዲብ ሙስተቅበል ንዋስል ምስልኩም ለትሓዘና ግብእ ኢሜልየ ቱ ምሰልኩም ላልትፃብጠና
