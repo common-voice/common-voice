@@ -1055,8 +1055,8 @@ sc-howto-addsen-post-1 = We prefer natural/conversational sentences. While phone
 sc-howto-cite-title = How to Cite
 sc-howto-cite-pre-1 = It's important that you reference where you found the public licence to avoid plagiarism and to allow for follow ups on <copyrightIssuesLink>copyright issues</copyrightIssuesLink>. Here are a few ways you can cite the work.
 sc-howto-cite-item-1 = You could include the website, e.g "Common Voice - https://commonvoice.mozilla.org/"
-sc-howto-cite-item-2 = You could use Academic referencing style, e.g harvard style "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
-sc-howto-cite-item-3 = For public licence text not available online, you could use Academic referencing style e.g harvard style "Jess (2021) My Public licence poems"
+sc-howto-cite-item-2 = You could use academic referencing style, e.g Harvard style "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
+sc-howto-cite-item-3 = For public domain text not available online, you could use academic referencing style e.g Harvard style "Jess (2021) My Public licence poems"
 sc-howto-review-title = Review Sentences
 sc-howto-review-subtitle = Make sure the sentence meets the following criteria:
 sc-howto-review-criteria-1 = The sentence must be spelled correctly.
@@ -1066,23 +1066,27 @@ sc-howto-review-criteria-4 = If the sentence meets the criteria, click the "Appr
 sc-howto-review-criteria-5 = If the sentence does not meet the above criteria, click the "Reject" button. If you are unsure about the sentence, you may also skip it and move on to the next one.
 sc-howto-review-criteria-6 = If you run out of sentences to review, please help us collect more sentences!
 sc-howto-findpd-title = Finding existing sentences in the Public Domain
-sc-howto-findpd-subtitle = Search for them on the internet
-sc-howto-findpd-text = Remember that we need permission to publish those sentences, so always ensure that the text belongs to the <wikipediaLink>public domain</wikipediaLink>. If there is not an indication, reach out to the person that the text belongs to and ask if you can use their text.
+sc-howto-findpd-subtitle = Search for them on the Internet
+sc-howto-findpd-text-2 = Remember that we need permission to publish those sentences, so always ensure that the text belongs to the <wikipediaLink>public domain</wikipediaLink>. If there is no explicit indication, reach out to the person that the text belongs to and ask if they want to contribute their text to the Public Domain. If they want to, help them go through the <cc0WaiverLink>Contributions Agreement</cc0WaiverLink> process. If they do not want to contribute the text, then you are not allowed to use that text.
 sc-howto-findpd-tips = Here are some tips to find sentences:
 sc-howto-findpd-tips-1 = The best sources you can look for are podcasts, transcripts, movie scripts and anything that potential can contain everyday conversations.
 sc-howto-findpd-tips-2 = Government proceedings, books and articles are also great however since the text tends to be a little more formal they are less of a priority.
 sc-howto-findpd-tips-3 = Unfortunately we can’t have Wikimedia articles yet. So do not copy paste from there.
 sc-howto-findpd-subtitle-2 = Partner with local organizations or individuals
-sc-howto-findpd-partner-1 = There are a lot of public organizations that might want to collaborate and already have a lot of texts they can donate as public domain. Reach out to local Universities, Governments and open source organizations to talk about the project and ask for their help.
-sc-howto-findpd-partner-2 = Expert linguists can also help, try to reach out to local linguistic Universities (both teachers and students) and see if they can help to gather a diverse set of sound-diverse sentences in your language.
+sc-howto-findpd-partner-1 = There are a lot of public organizations that might want to collaborate and already have a lot of texts they can donate as public domain. Reach out to local universities, Governments and open source organizations to talk about the project and ask for their help.
+sc-howto-findpd-partner-2 = Expert linguists can also help, try to reach out to local linguistic universities (both teachers and students) and see if they can help to gather a diverse set of sound-diverse sentences in your language.
 
 ## MY SENTENCES
 sc-my-title = My Sentences
-sc-my-description = This page gives you an overview of all your submitted sentences. You may also delete already submitted sentences if needed by marking the checkbox next to it and clicking on &quot;Delete selected sentences&quot; at the bottom. Please only remove sentences if absolutely necessary, for example if you noticed after the fact that a sentence is copyright protected.
+sc-my-description = This page gives you an overview of all your submitted sentences. You may also delete already submitted sentences if needed, by marking the checkbox next to it and clicking on &quot;Delete selected sentences&quot; at the bottom. Please only remove sentences if absolutely necessary, for example if you noticed after the fact that a sentence is copyright protected.
 sc-my-loading = Loading your sentences…
 sc-my-err-fetching = Error while fetching your sentences. Please try again.
 sc-my-no-sentences = No sentences found!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Submission: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Source:  { $source }
 sc-my-delete = Delete selected sentences
 sc-my-deleting = Deleting selected sentences…
@@ -1096,9 +1100,14 @@ sc-rejected-none-found = No rejected sentences found!
 
 ## STATS
 sc-stats-title = Statistics
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = Last Update: { $lastUpdate }
 sc-stats-last-update-never = Last Update: never
 sc-stats-updating = Updating…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
 sc-stats-summary = The Common Voice Sentence Collector has collected { $sentenceCount } sentences in { $languageCount } languages!
 
 ## ADD
@@ -1114,7 +1123,7 @@ sc-submit-select-language =
 sc-submit-add-sentences = Add <wikipediaLink>public domain</wikipediaLink> sentences
 sc-submit-ph-one-per-line =
     .placeholder = One sentence per line
-sc-submit-from-where = Where are these <wikipediaLink> public domain</wikipediaLink> sentences from?
+sc-submit-from-where = Where are these <wikipediaLink>public domain</wikipediaLink> sentences from?
 sc-submit-ph-read-how-to =
     .placeholder = Read our How-to if unsure how to attribute
 sc-submit-confirm = I confirm that these sentences are <wikipediaLink>public domain</wikipediaLink> and I have permission to upload them.
@@ -1128,12 +1137,16 @@ sc-add-lang-could-not-add = Could not add language
 sc-add-lang-sec-label = Add a language you want to contribute to
 sc-add-lang-sec-button = Add Language
 sc-add-err-unexpected = Unexpected response returned from server
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     {$duplicates ->
         [0] Submitted sentences. {$duplicates} sentences were rejected as duplicates.
         [one] Submitted sentences. {$duplicates} sentence was rejected as duplicate.
         *[other] Submitted sentences. {$duplicates} sentences were rejected as duplicates.
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     {$sentences ->
         [0] No sentences failed
@@ -1141,17 +1154,22 @@ sc-add-err-failed =
         *[other] {$sentences} sentences failed
     }
 sc-add-err-submission = Submission Error
+sc-add-lang-process-notice = If your language is not listed here, you can request it through <languageProcessLink>this process</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 sc-confirm-are-you-sure =
     .message = Sentences not submitted, are you sure you want to leave?
 sc-confirm-sentences-title = Confirm New Sentences
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     {$countOfSentences ->
         [0] No sentences found.
         [one] 1 sentence found.
         *[other] {$countOfSentences} sentences found.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } rejected by you
 sc-confirm-already-reviewed =
     {$countOfReviewed ->
@@ -1159,29 +1177,39 @@ sc-confirm-already-reviewed =
         [one] 1 sentence is already reviewed. Great job!
         *[other] {$countOfReviewed} sentences are already reviewed. Great job!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     {$readyCount ->
         [0] No sentence ready for submission!
         [one] 1 sentence ready for submission!
         *[other] {$readyCount} sentences ready for submission!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } sentences are unreviewed. If you want, you can also review your sentences now before submitting them.
 sc-confirm-button-text = Confirm
 sc-confirm-uploading = Sentences are being uploaded. This can take several minutes depending on the number of sentences added. Please do not close this website.
 
 ## LANGUAGE INFO
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     {$totalSentences ->
         [0] No total sentences.
         [one] 1 total sentence.
         *[other] {$totalSentences} total sentences.
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     {$totalInReview ->
         [0] No sentences in review.
         [one] 1 sentence in review.
         *[other] {$totalInReview} sentences in review.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     {$unreviewedSentencesByYou ->
         [0] No sentences left for you to review.
@@ -1190,12 +1218,16 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Review now!</reviewLink>
 sc-lang-info-add-more = <addLink>Add more sentences now!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     {$validatedSentences ->
         [0] No validated sentences.
         [one] 1 validated sentence.
         *[other] {$validatedSentences} validated sentences.
     }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     {$rejectedSentences ->
         [0] No rejected sentences.
@@ -1208,11 +1240,15 @@ sc-login-err-failed = Login failed
 sc-login-err-try-again = Please try again.
 
 ## PROFILE
+# Variables:
+#   $username (String) - eMail address of the logged in user
 sc-profile-title = Profile: { $username }
 sc-personal-err-lang-not-found = Could not remove language: language not found
 sc-personal-err-remove = Could not remove language
 sc-personal-your-languages = Your languages:
 sc-personal-remove-button = remove
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } added by you
 sc-personal-not-added = You have not added any languages yet.
 
@@ -1224,7 +1260,7 @@ sc-criteria-item-1 = The sentence must be spelled correctly.
 sc-criteria-item-2 = The sentence must be grammatically correct.
 sc-criteria-item-3 = The sentence must be speakable.
 sc-criteria-item-4 = If the sentence meets the criteria, click the &quot;Approve&quot; button on the right.
-sc-criteria-item-5 = If the sentence does not meet the above criteria, click the &quot;Reject&quot; button on the right. If you are unsure about the sentence, you may also skip it and move on to the next one.
+sc-criteria-item-5-2 = If the sentence does not meet the above criteria, click the &quot;Reject&quot; button on the left. If you are unsure about the sentence, you may also skip it and move on to the next one.
 sc-criteria-item-6 = If you run out of sentences to review, please help us collect more sentences!
 
 ## REVIEW
@@ -1236,6 +1272,8 @@ sc-review-no-sentences = No sentences to review. <addLink>Add more sentences now
 sc-review-form-prompt =
     .message = Reviewed sentences not submitted, are sure?
 sc-review-form-usage = Swipe right to approve the sentence. Swipe left to reject it. Swipe up to skip it. <strong>Do not forget to submit your review!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Source: { $sentenceSource }
 sc-review-form-button-reject = Reject
 sc-review-form-button-skip = Skip
@@ -1244,6 +1282,8 @@ sc-review-form-button-approve = Approve
 sc-review-form-keyboard-usage = You can also use Keyboard Shortcuts: Y to Approve, N to Reject, S to Skip
 sc-review-form-button-submit =
     .submitText = Finish Review
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     {$sentences ->
         [0] No sentences reviewed.
@@ -1255,9 +1295,17 @@ sc-review-link = Review
 
 ## SETTINGS
 sc-settings-title = Settings
+sc-settings-ui-language = Interface Language
+sc-settings-language-translated-warning = The pages for this language might not be fully translated. You can help out with translation <pontoonLinkLink>on Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Reset skipped sentences
 sc-settings-skipped-decription = You previously skipped sentences while reviewing. Resetting skipped sentences will show all skipped sentences again. This is independent of the language.
 sc-settings-show-all-button = Show all skipped sentences again
 sc-settings-failed = Could not change settings. Please try again.
+
+# VALIDATION
+sc-validation-number-of-words = Sentence must contain between 1 and 14 (inclusive) words
+sc-validation-no-numbers = Sentence should not contain numbers
+sc-validation-no-symbols = Sentence should not contain symbols
+sc-validation-no-abbreviations = Sentence should not contain abbreviations
 
 # [/SentenceCollector]
