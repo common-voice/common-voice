@@ -677,6 +677,7 @@ remove = ወርኪዮ
 download-q = በያናትኩም እግል ትክረው ታሓዙ ቱ?
 download-info = ሚ እግል ትክረው ታሓዙ ኻብሩና:
 download-recordings-title = ተስጂል
+download-size = ሓጅም
 download-selected = ሕሪት
 download-requests = ናይ ቀደም ኣዘ ተስጂል አውረዶት ጠለብ
 download-requests-info = ተስጂልኩም ውክት ጠልቦ፣ ዲብ ዎሮት ኣው ብዝሕ መለፍ ናይ ZIP ንወድዮ እግልኩም፣ ናይ ላሓልፋ ጠለብኩም እሊ ቱ:
@@ -757,9 +758,11 @@ sc-footer-terms = ሸሩጥ
 ## HOME
 
 sc-home-collect-title = ጁመል ኣኽብ
+sc-home-review-title = ጁመል ራጂዕ
 
 ## HOW-TO
 
+sc-howto-title = ከፎ
 sc-howto-addlang-title = ላትሸቀ እባ ሉቀት ወስኽ
 sc-howto-addsen-title = ሓዲስ ጁመል ወስኽ
 sc-howto-review-title = ጁመል ራጂዕ
