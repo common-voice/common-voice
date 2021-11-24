@@ -784,15 +784,24 @@ sc-my-deleting = ሐሩያት ላህለያ ጁመል ልትወርከያ ሀለ�
 
 sc-rejected-title = ላትረፈደያ ጁመል
 sc-rejected-loading = ላትረፈደያ ጁመል ለትፃዕና ሃለያ...
+sc-rejected-none-found = ላትረፈደያ ጁመል የኣለቡ
 
 ## STATS
 
+sc-stats-title = እሕሳእ
 
 ## ADD
 
 sc-submit-err-select-lang = ሉቅት ሕረው
+sc-submit-err-add-sentences = ጁመል ውስኽ
+sc-submit-err-add-source = መስደር ውስኽ
+sc-submit-err-confirm-pd = እለን ጁመል ሙልኬት ዓመት ከም ገብአያ ኣክድ
+sc-submit-title = ጁመል ውስኽ
 sc-submit-select-language =
     .labelText = ሉቅት ሕረው
+sc-submit-add-sentences = ናይ<wikipediaLink>ሙልኬት ዓመት</wikipediaLink>ጁመል ውስኽ
+sc-submit-ph-one-per-line =
+    .placeholder = ዎሮ ጁምለት ዲብ ዎሮ ሰጠር
 
 ## ADD LANGUAGE
 
@@ -801,6 +810,7 @@ sc-add-lang-sec-button = ሉቀት ውስኽ
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = ሓዳይስ ጁመል ኣክድ
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = ኣብኩም ላትረፈደያ
