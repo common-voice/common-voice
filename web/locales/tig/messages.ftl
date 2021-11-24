@@ -609,6 +609,7 @@ download-q = በያናትኩም እግል ትክረው ታሓዙ ቱ?
 download-info = ሚ እግል ትክረው ታሓዙ ኻብሩና:
 download-recordings-title = ተስጂል
 download-selected = ሕሪት
+download-requests = ናይ ቀደም ኣዘ ተስጂል አውረዶት ጠለብ
 download-request-button = ክረው
 download-request-title = { $created }
 download-request-refresh-button = ኣሓድስ
