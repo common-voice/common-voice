@@ -1030,9 +1030,14 @@ contribution-just-unsure-title = Просто не впевнені?
 contribution-just-unsure-description = Якщо ви стикаєтесь із випадком, не описаним у цих настановах, просимо голосувати якнайоб'єктивніше. Якщо ви дійсно не можете визначитися, натисніть кнопку пропуску та переходьте до наступного запису.
 see-more = <chevron></chevron>Докладніше
 see-less = <chevron></chevron>Згорнути
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = Домівка
 sc-header-how-to = Як
 sc-header-add = Додати
@@ -1050,6 +1055,9 @@ sc-footer-terms = Умови
 sc-footer-cookies = Куки
 sc-login-signup-button = Увійти / Зареєструватися
 sc-logout-button = Вийти
+
+## HOME
+
 sc-home-title = Ласкаво просимо до Common Voice Sentence Collector
 sc-home-intro =
     Sentence Collector — це частина <commonVoiceLink>Common Voice</commonVoiceLink>.
@@ -1062,6 +1070,9 @@ sc-home-collect-title = Запропонувати речення
 sc-home-collect-text = Допоможіть нам, написавши або зібравши речення суспільного надбання.
 sc-home-review-title = Перевірити речення
 sc-home-review-text = Допоможіть нам, перевіривши речення на правильність відповідно до настанов.
+
+## HOW-TO
+
 sc-howto-title = Як
 sc-howto-addlang-title = Додавання мов для роботи
 sc-howto-addlang-text = Після входу ви можете вибрати свої мови в розділі профілю.
@@ -1123,10 +1134,7 @@ sc-howto-review-criteria-5 =
 sc-howto-review-criteria-6 = Якщо у вас закінчилося речення для перегляду, допоможіть нам зібрати більше речень!
 sc-howto-findpd-title = Пошук наявних речень у суспільному надбанні
 sc-howto-findpd-subtitle = Шукайте їх в інтернеті
-sc-howto-findpd-text =
-    Пам’ятайте, що нам потрібен дозвіл на публікацію цих речень,
-    тому завжди впевнюйтеся, що текст належить до <wikipediaLink>суспільного надбання</wikipediaLink>. Якщо
-    цього не вказано, зв’яжіться з людиною, якій належить текст, і запитайте, чи можете ви використати її текст.
+sc-howto-findpd-text-2 = Пам’ятайте, що нам потрібен дозвіл на публікацію цих речень, тому завжди впевнюйтеся, що текст належить до <wikipediaLink>суспільного надбання</wikipediaLink>. Якщо про це чітко не зазначено, зв’яжіться з людиною, якій належить текст, і запитайте, чи хоче вона долучити свій текст до суспільного надбання. Якщо так, допоможіть їм пройти процедуру <cc0WaiverLink>Угоди про внески</cc0WaiverLink>. Якщо вони не хочуть додавати текст, вам заборонено використовувати цей текст.
 sc-howto-findpd-tips = Ось кілька порад щодо пошуку речень:
 sc-howto-findpd-tips-1 =
     Найкращі джерела, які ви можете знайти, — це подкасти, стенограми, сценарії фільмів тощо
@@ -1144,6 +1152,9 @@ sc-howto-findpd-partner-2 =
     Експерти-лінгвісти також можуть допомогти, спробуйте звернутися до місцевих лінгвістів
     Університети (і викладачів, і студентів) і запитайте, чи можуть вони допомогти урізноманітнити набір
     звучання речень вашою мовою.
+
+## MY SENTENCES
+
 sc-my-title = Мої речення
 sc-my-description =
     На цій сторінці представлено огляд усіх надісланих речень.
@@ -1154,30 +1165,38 @@ sc-my-description =
 sc-my-loading = Завантаження ваших речень…
 sc-my-err-fetching = Помилка під час отримання ваших речень. Спробуйте ще раз.
 sc-my-no-sentences = Речень не знайдено!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Надсилання: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Джерело:  { $source }
 sc-my-delete = Видалити вибрані речення
 sc-my-deleting = Видалення вибраних речень…
 sc-my-err-failed-delete = Не вдалося видалити вибрані речення… Спробуйте ще раз!
-sc-profile-title = Профіль: { $username }
+
+## REJECTED
+
 sc-rejected-title = Відхилені речення
 sc-rejected-loading = Завантаження відхилених речень…
 sc-rejected-err-fetching = Помилка під час отримання відхилених речень. Спробуйте ще раз.
 sc-rejected-none-found = Відхилених речень не знайдено!
-sc-review-lang-not-selected =
-    Ви не вибрали жодної мови. Перейдіть до свого
-    <profileLink>Профілю</profileLink>, щоб обрати мови.
-sc-review-title = Перевірити речення
-sc-review-loading = Завантаження речень…
-sc-review-select-language = Виберіть мову для перевірки речень.
-sc-review-no-sentences =
-    Немає речень для перевірки.
-    <addLink>Додайте ще речення зараз!</addLink>
+
+## STATS
+
 sc-stats-title = Статистика
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = Востаннє оновлено: { $lastUpdate }
 sc-stats-last-update-never = Востаннє оновлено: ніколи
 sc-stats-updating = Оновлення…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
 sc-stats-summary = Common Voice Sentence Collector зібрав { $sentenceCount } речень { $languageCount } мовами!
+
+## ADD
+
 sc-submit-err-select-lang = Оберіть мову.
 sc-submit-err-add-sentences = Додайте речення.
 sc-submit-err-add-source = Додайте джерело.
@@ -1200,10 +1219,15 @@ sc-submit-button =
     .submitText = Надіслати
 sc-submit-filtered = Відфільтровані речення через невиконання вимог (надайте виправлені версії у вигляді нових пропозицій):
 sc-submit-guidelines = Ознайомтеся з <howToLink>настановами</howToLink>.
+
+## ADD LANGUAGE
+
 sc-add-lang-could-not-add = Не вдалося додати мову
 sc-add-lang-sec-label = Додайте мову, до якої ви хочете зробити внесок
 sc-add-lang-sec-button = Додати мову
 sc-add-err-unexpected = Сервер повернув неочікувану відповідь
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
         [0] Надіслані речення. Відхилено { $duplicates } речень, як повторюваних.
@@ -1211,6 +1235,8 @@ sc-add-result =
         [few] Надіслані речення. Відхилено { $duplicates } речення, як повторювані.
        *[many] Надіслані речення. Відхилено { $duplicates } речень, як повторюваних.
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
         [0] Не вдалося додати речення
@@ -1219,9 +1245,15 @@ sc-add-err-failed =
        *[many] Не вдалося додати { $sentences } речень
     }
 sc-add-err-submission = Помилка надсилання
+sc-add-lang-process-notice = Якщо вашої мови тут немає, ви можете надіслати запит про її додавання через <languageProcessLink>цей процес</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+
 sc-confirm-are-you-sure =
     .message = Речення не надіслано. Ви впевнені, що хочете вийти?
 sc-confirm-sentences-title = Підтвердьте нові речення
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] Речень не знайдено
@@ -1229,6 +1261,8 @@ sc-confirm-sentences-found =
         [few] Знайдено { $countOfSentences } речення.
        *[many] Знайдено { $countOfSentences } речень.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = Ви відхилили { $countOfInvalidated }
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
@@ -1237,6 +1271,8 @@ sc-confirm-already-reviewed =
         [few] Уже переглянуто { $countOfReviewed } речення. Чудова робота!
        *[many] Уже переглянуто { $countOfReviewed } речень. Чудова робота!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
         [0] Немає готових до надсилання речень!
@@ -1244,9 +1280,16 @@ sc-confirm-ready =
         [few] { $readyCount } речення готові до надсилання!
        *[many] { $readyCount } речень готові до надсилання!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } речень не перевірено. Якщо хочете, можете також перевірити свої речення перед їх поданням.
 sc-confirm-button-text = Підтвердити
 sc-confirm-uploading = Речення завантажуються. Це може тривати кілька хвилин залежно від кількості доданих речень. Не закривайте цей вебсайт.
+
+## LANGUAGE INFO
+
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
         [0] Немає підсумку речень.
@@ -1254,6 +1297,8 @@ sc-lang-info-total =
         [few] Всього { $totalSentences } речення.
        *[many] Всього { $totalSentences } речень.
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] Немає не перевірених речень.
@@ -1261,6 +1306,8 @@ sc-lang-info-in-review =
         [few] { $totalInReview } не перевірені речення.
        *[many] { $totalInReview } не перевірених речень.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] Не залишилося речень, які ви можете перевірити.
@@ -1270,6 +1317,8 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Перевірити зараз!</reviewLink>
 sc-lang-info-add-more = <addLink>Додайте більше речень зараз!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
         [0] Немає перевірених речень.
@@ -1277,6 +1326,8 @@ sc-lang-info-validated =
         [few] { $validatedSentences } перевірені речення.
        *[many] { $validatedSentences } перевірених речень.
     }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Немає відхилених речень.
@@ -1284,14 +1335,28 @@ sc-lang-info-rejected =
         [few] { $rejectedSentences } відхилені речення.
        *[many] { $rejectedSentences } відхилених речень.
     }
+
+## LOGIN
+
 sc-login-err-failed = Не вдалося увійти
 sc-login-err-try-again = Спробуйте ще раз.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профіль: { $username }
 sc-personal-err-lang-not-found = Не вдалося вилучити мову: мову не знайдено
 sc-personal-err-remove = Не вдалося вилучити мову
 sc-personal-your-languages = Ваші мови:
 sc-personal-remove-button = вилучити
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } додано вами
 sc-personal-not-added = Ви ще не додали жодної мови.
+
+## REVIEW CRITERIA
+
 sc-criteria-modal = ⓘ Критерії перевірки
 sc-criteria-title = Критерії перевірки
 sc-criteria-make-sure = Переконайтеся, що речення відповідає таким критеріям:
@@ -1299,22 +1364,39 @@ sc-criteria-item-1 = Речення має бути написано прави�
 sc-criteria-item-2 = Речення має бути граматично правильним.
 sc-criteria-item-3 = Речення має бути вимовним.
 sc-criteria-item-4 = Якщо речення відповідає критеріям, натисніть кнопку &quot;Затвердити&quot; праворуч.
-sc-criteria-item-5 =
-    Якщо речення не відповідає наведеним критеріям, натисніть кнопку &quot;Відхилити&quot; праворуч.
+sc-criteria-item-5-2 =
+    Якщо речення не відповідає наведеним критеріям, натисніть кнопку &quot;Відхилити&quot; ліворуч.
     Якщо ви не впевнені щодо речення, ви також можете пропустити його та перейти до наступного.
 sc-criteria-item-6 = Якщо у вас закінчилося речення для перегляду, допоможіть нам зібрати більше речень!
+
+## REVIEW
+
+sc-review-lang-not-selected =
+    Ви не вибрали жодної мови. Перейдіть до свого
+    <profileLink>Профілю</profileLink>, щоб обрати мови.
+sc-review-title = Перевірити речення
+sc-review-loading = Завантаження речень…
+sc-review-select-language = Виберіть мову для перевірки речень.
+sc-review-no-sentences =
+    Немає речень для перевірки.
+    <addLink>Додайте ще речення зараз!</addLink>
 sc-review-form-prompt =
     .message = Перевірені речення не надіслано, ви впевнені?
 sc-review-form-usage =
     Проведіть пальцем вправо, щоб затвердити речення. Проведіть пальцем ліворуч, щоб відхилити.
     Проведіть пальцем вгору, щоб пропустити. <strong>Не забудьте надіслати перевірку!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Джерело: { $sentenceSource }
 sc-review-form-button-reject = Відхилити
 sc-review-form-button-skip = Пропустити
 sc-review-form-button-approve = Затвердити
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
 sc-review-form-keyboard-usage = Ви також можете використовувати комбінації клавіш: Y для схвалення, N для відхилення, S для пропуску
 sc-review-form-button-submit =
     .submitText = Завершити перевірку
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Немає перевірених речень.
@@ -1324,7 +1406,12 @@ sc-review-form-reviewed-message =
     }
 sc-review-form-review-failure = Не вдалося зберегти перевірку. Повторіть спробу пізніше.
 sc-review-link = Перевірити
+
+## SETTINGS
+
 sc-settings-title = Налаштування
+sc-settings-ui-language = Мова інтерфейсу
+sc-settings-language-translated-warning = Сторінки цією мовою можуть бути не повністю перекладені. Ви можете допомогти з перекладом <pontoonLinkLink>на Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Скинути пропущені речення
 sc-settings-skipped-decription =
     Ви раніше пропускали речення під час перегляду.
@@ -1332,6 +1419,11 @@ sc-settings-skipped-decription =
     Це не залежить від мови.
 sc-settings-show-all-button = Знову показати всі пропущені речення
 sc-settings-failed = Не вдалося змінити налаштування. Повторіть спробу.
+# VALIDATION
+sc-validation-number-of-words = Речення має містити від 1 до 14 (включно) слів
+sc-validation-no-numbers = Речення не повинно містити цифр
+sc-validation-no-symbols = Речення не повинно містити символів
+sc-validation-no-abbreviations = Речення не повинно містити скорочень
 
 # [/SentenceCollector]
 
