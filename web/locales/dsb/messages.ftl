@@ -1029,15 +1029,51 @@ see-less = <chevron></chevron>Mjenjej pokazaś
 
 ## HEADER/FOOTER
 
+sc-header-home = Startowy bok
+sc-header-how-to = Rozpokazanje
+sc-header-add = Pśidaś
+sc-header-review = Pógódnośenje
+sc-header-rejected = Wótpokazane sady
+sc-header-my = Móje sady
+sc-header-statistics = Statistika
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Zmólki k wěsći daś
+sc-footer-translate = Toś ten bok pśełožowaś
+sc-footer-privacy = Priwatnosć
+sc-footer-terms = Wuměnjenja
+sc-footer-cookies = Cookieje
+sc-login-signup-button = Pśizjawiś / Registrěrowaś
+sc-logout-button = Wótzjawiś
 
 ## HOME
 
+sc-home-collect-title = Sady gromaźiś
+sc-home-review-title = Sady pśeglědaś
 
 ## HOW-TO
 
+sc-howto-title = Rozpokazanje
+sc-howto-addlang-title = Rěcy pśidaś, z kótarymiž se źěła
+sc-howto-addsen-title = Nowe sady pśidaś
+sc-howto-cite-title = Citěrowaś
+sc-howto-cite-item-1 = Wy mógał websedło pódaś, na pś. „Common Voice - https://commonvoice.mozilla.org/“
+sc-howto-review-title = Sady pśeglědaś
+sc-howto-review-criteria-1 = Sada musy pšawje napisana byś.
+sc-howto-review-criteria-2 = Sada musy gramatiski korektna byś.
+sc-howto-review-criteria-3 = Sada musy wugranjajobna byś.
 
 ## MY SENTENCES
 
+sc-my-title = Móje sady
+sc-my-loading = Waše sady se zacytuju…
+sc-my-no-sentences = Žedne sady namakane!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Zapódaśe: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Žrědło: { $source }
 
 ## REJECTED
 
