@@ -333,10 +333,12 @@ goals = ኣህዳፍ
 profile-close = ደብአ
 thanks-for-account = ሕሳብኩም ናይ ላኣከድኩም ንሓምደኩም ፣ ኣዝ የላ መለፍ ናይ ኖስ ንብነ
 why-demographic = አግል ሚቱ አሊ ሙህም?
+accept-privacy = ኣና ግሩም ህሌኮ እባ እንቱም በያናትች ጻብጣማ ላህሌኩም ው ዲብ ናይ Mozilla's <privacyLink>Privacy Policy</privacyLink> ሽርሕት ላህሌት
 accept-privacy-title = ናይ ኽሱስይት ሰያስት
 email-subscriptions = እሽትራካት ኢሜል
 download-profile = በያናትቸ ክረው
 contribution-experience = ናይ ሙሳህምት ኽብረት
+skip-submission-note = ኖዕ ሙሳሃመትኩም ግል ትቀይሮ ፍንገ 'ሃገዮት' ው 'ስምዓት' ሐርየት ላትሓዜኩም ቱ
 off = ደቡእ
 on = ፍቱሕ
 
