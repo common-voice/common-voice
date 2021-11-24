@@ -570,6 +570,7 @@ target-segment-learn-more = ዘያደት አምሮ
 ## Reporting
 
 report = ተቅሪር
+report-title = ታቅሪር ላኣኽ
 report-offensive-language = እኩይ ሉቀት
 report-different-language = ብዕደት ሉቀት
 report-different-language-detail = አብ ሉቀት ብዕደት መን ላ ኣና አትሃገያ ለህሌኮ ከጥበት ታ
