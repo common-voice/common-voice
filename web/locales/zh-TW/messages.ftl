@@ -1050,7 +1050,6 @@ sc-howto-review-criteria-5 = 若句子不符合上述條件，點擊「退回」
 sc-howto-review-criteria-6 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
 sc-howto-findpd-title = 尋找已使用公眾領域授權的句子
 sc-howto-findpd-subtitle = 到網路上搜搜看
-sc-howto-findpd-text = 請記得我們還是需要獲得授權才可以發布這些句子，所以請務必確定所有文字都是<wikipediaLink>公眾領域</wikipediaLink>的句子。若您找到的句子沒有註明授權條款，請聯絡著作權人確認使否可以使用他們的句子。
 sc-howto-findpd-tips = 以下是尋找句子的一些小秘訣：
 sc-howto-findpd-tips-2 = 政府文書、書籍、文章內容也很棒，但文字會比較正式，所以較不優先。
 sc-howto-findpd-tips-3 = 不巧我們還不能使用維基媒體基金會的所有文章（包含維基百科），請不要貼過來。
@@ -1063,7 +1062,11 @@ sc-my-title = 我的句子
 sc-my-loading = 正在載入您的語句…
 sc-my-err-fetching = 取得您的句子時發生錯誤，請稍候再試。
 sc-my-no-sentences = 找不到句子！
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = 送出於：{ $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = 來源：{ $source }
 sc-my-delete = 刪除選取的語句
 sc-my-deleting = 刪除選取的語句…
@@ -1079,9 +1082,14 @@ sc-rejected-none-found = 找不到被拒絕的句子！
 ## STATS
 
 sc-stats-title = 統計資訊
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = 最後更新：{ $lastUpdate }
 sc-stats-last-update-never = 最後更新：從未
 sc-stats-updating = 更新中…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
 sc-stats-summary = Common Voice Sentence Collector 已經收集了 { $languageCount } 種語言的 { $sentenceCount } 個句子！
 
 ## ADD
@@ -1110,11 +1118,15 @@ sc-add-lang-could-not-add = 無法新增語言
 sc-add-lang-sec-label = 新增您想要貢獻的語言
 sc-add-lang-sec-button = 新增語言
 sc-add-err-unexpected = 伺服器回覆了未預期的錯誤
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
         [0] 已送出語句，沒有被退回的重複句子。
        *[other] 已送出語句，有 { $duplicates } 句重複句子被退回。
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
         [0] 沒有失敗的句子
@@ -1127,17 +1139,23 @@ sc-add-err-submission = 送出失敗
 sc-confirm-are-you-sure =
     .message = 句子尚未送出，您確定要離開嗎？
 sc-confirm-sentences-title = 確認新句子
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] 找不到句子。
        *[other] 找到 { $countOfSentences } 句。
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = 您退回了 { $countOfInvalidated } 句。
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] 未審核任何句子。
        *[other] 您審核了 { $countOfReviewed } 句，做得好！
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
         [0] 沒有句子可以送出！
@@ -1148,16 +1166,22 @@ sc-confirm-uploading = 正在上傳語句，視句子數量而定可能需要花
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
         [0] 沒有句子。
        *[other] 共 { $totalSentences } 句。
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] 沒有審核中的句子。
        *[other] { $totalInReview } 句審核中的句子。
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] 沒有可供您審核的句子。
@@ -1165,11 +1189,15 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>現在就進行審核！</reviewLink>
 sc-lang-info-add-more = <addLink>現在就新增更多句子！</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
         [0] 沒有驗證過的句子。
        *[other] { $validatedSentences } 句驗證過的句子。
     }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] 沒有被退回的句子。
@@ -1183,11 +1211,15 @@ sc-login-err-try-again = 請再試一次。
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
 sc-profile-title = 個人資料：{ $username }
 sc-personal-err-lang-not-found = 無法移除語言：找不到語言
 sc-personal-err-remove = 無法移除語言
 sc-personal-your-languages = 您的語言：
 sc-personal-remove-button = 移除
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = 您新增了 { $sentences } 句
 sc-personal-not-added = 您尚未加入任何語言。
 
@@ -1212,6 +1244,8 @@ sc-review-no-sentences = 沒有可以審核的語句。<addLink>馬上來加句�
 sc-review-form-prompt =
     .message = 尚未送出語句審核結果，確定嗎？
 sc-review-form-usage = 向右滑可以通過審核句子、向左滑拒絕、向上滑略過。<strong>別忘記送出您的審核結果！</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = 來源：{ $sentenceSource }
 sc-review-form-button-reject = 退回
 sc-review-form-button-skip = 略過
@@ -1220,6 +1254,8 @@ sc-review-form-button-approve = 通過
 sc-review-form-keyboard-usage = 您還可以使用快速鍵：按 Y 通過、按 N 退回、按 S 略過
 sc-review-form-button-submit =
     .submitText = 完成審核
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] 未審核語句。
@@ -1231,9 +1267,15 @@ sc-review-link = 審核
 ## SETTINGS
 
 sc-settings-title = 設定
+sc-settings-ui-language = 介面語言
 sc-settings-reset-skipped = 重設略過的句子
 sc-settings-show-all-button = 再次顯示略過的句子
 sc-settings-failed = 無法更改設定，請再試一次。
+# VALIDATION
+sc-validation-number-of-words = 句子須包含 1 到 14 個字
+sc-validation-no-numbers = 句子不應包含數字
+sc-validation-no-symbols = 句子不應包含標點符號
+sc-validation-no-abbreviations = 句子不應包含縮寫
 
 # [/SentenceCollector]
 
