@@ -974,33 +974,53 @@ sc-my-no-sentences = Җөмләләр табылмады!
 ## STATS
 
 sc-stats-title = Статистика
+sc-stats-last-update = Соңгы яңарту: { $lastUpdate }
+sc-stats-last-update-never = Соңгы яңарту: һичкайчан
+sc-stats-updating = Яңартыла…
 
 ## ADD
 
+sc-submit-err-select-lang = Зинһар, бер тел сайлагыз.
+sc-submit-select-language =
+    .labelText = Телне сайлау
+sc-submit-button =
+    .submitText = Җибәрү
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Тел өстәү
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Раслау
 
 ## LANGUAGE INFO
 
 
 ## LOGIN
 
+sc-login-err-try-again = Зинһар янәдән тырышып карагыз.
 
 ## PROFILE
 
+sc-profile-title = Профиль: { $username }
+sc-personal-your-languages = Сезнең телләрегез:
+sc-personal-remove-button = бетерү
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-loading = Җөмләләрне йөкләү…
+sc-review-form-source = Чыганак: { $sentenceSource }
+sc-review-form-button-skip = Калдырып тору
+sc-review-form-button-approve = Раслау
+sc-review-link = Тикшерү
 
 ## SETTINGS
 
+sc-settings-title = Көйләүләр
 
 # [/SentenceCollector]
 
