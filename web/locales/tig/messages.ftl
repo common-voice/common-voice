@@ -520,6 +520,7 @@ language-meter-in-progress = ትቀዱም
 language-total-progress = ኩሉ ምስል
 language-search-input =
     .placeholder = ደውር
+sentences = ጁመል
 total-hours = ለትሓቀቀያ ሳዓት
 
 ## Contribution
@@ -535,6 +536,11 @@ clips-with-count-pluralized =
     }
 goal-help-recording = Common Voice ዲብ ናይ <goalPercentage></goalPercentage> ምንላ ዮምየት  ናይ ተስጂል ሃደፍ { $goalValue } እግል ትብጻ ሳዓድኹማ!
 goal-help-validation = Common Voice ዲብ ናይ <goalPercentage></goalPercentage> ምንላ ዮምየት  ናይ ታሕቂቅ ሃደፍ { $goalValue } እግል ትብጻ ሳዓድኹማ!
+contribute-more =
+    { $count ->
+        [one] { $count } ዝያደት እግል ቲደ ጃህዝ ህሌካ?
+       *[other] { $count } ዝያደት እግል ቲደ ጃህዝ ህሌካ?
+    }
 record-cta = ተስጂል ኣንብቶ
 record-must-allow-microphone = መክረፎን ገል ልሽቀ ስምሖ
 record-no-mic-found = መክረፎን ኢትረከባኒ
@@ -554,6 +560,8 @@ listen-again-instruction = ስኒ ወዴኩም! ክምሰል ጃሃዝኩም ካ
 listen-3rd-time-instruction = ክልኤ ወደኩም, ክምሰላ ዋስሎ
 listen-last-time-instruction = <playIcon></playIcon>ኣኽራይት!
 listen-empty-state = ታሕቂቅ ላለትሓዚየን ክሊፕ ናይ እላ ሉቀት ኸልሳ
+speak-empty-state = ዲብ እላ ሉቀት ላልትሰጀላ ጁመል ይኣለቡን ...
+speak-empty-state-cta = እብ ጁመል ሳህም
 record-button-label = ሶትኩም ሰጀሎ
 share-title-new = <bold>ሳዕደና</bold>ብዕዳም ሙሳህሚን አግል ንርከብ
 target-segment-add-voice = ሶትኩም ወሰኮ
