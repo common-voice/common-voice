@@ -106,6 +106,7 @@ mhr = Łučna marišćina
 mk = Makedonšćina
 ml = Malajalamšćina
 mn = Mongolšćina
+mni = Meetei Lon
 mos = Mossišćina
 mr = Maratišćina
 mrj = Hórska marišćina
@@ -152,7 +153,7 @@ te = Telugušćina
 tg = Tadźikišćina
 th = Thaišćina
 ti = Tigrinja
-Tig = Tigre
+tig = Tigre
 tl = Tagalog
 tr = Turkowšćina
 tt = Tataršćina
@@ -1020,3 +1021,75 @@ contribution-reader-effects-title = Efekty čitarja
 contribution-just-unsure-title = Jenož njewěsty?
 see-more = <chevron></chevron>Wjace pokazać
 see-less = <chevron></chevron>Mjenje pokazać
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Startowa strona
+sc-header-how-to = Nawod
+sc-header-add = Přidać
+sc-header-review = Pohódnoćenje
+sc-header-rejected = Wotpokazane sady
+sc-header-my = Moje sady
+sc-header-statistics = Statistika
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Zmylki zdźělić
+sc-footer-translate = Tutu stronu přełožować
+sc-footer-privacy = Priwatnosć
+sc-footer-terms = Wuměnjenja
+sc-footer-cookies = Placki
+sc-login-signup-button = Přizjewić / Registrować
+sc-logout-button = Wotzjewić
+
+## HOME
+
+sc-home-collect-title = Sady hromadźić
+sc-home-review-title = Sady přepruwować
+
+## HOW-TO
+
+sc-howto-title = Nawod
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
