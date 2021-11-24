@@ -378,6 +378,7 @@ faq-how-calc-hours-q = Common Voice ላስዓት ኣፎ ላሕስቦ?
 faq-why-not-ask-read-q = አግሚቱ ኣዳም ምን ክቱብ ኣው ምን ውክጴድያ አብ ካልአ ሉቀት ግል ለቅሮ ኢትሳኣልዎም?
 faq-why-account-q = አግልሚ ምስልኩም ሕሳብ ፋትሕ?
 faq-is-account-public-q = በያናት ናይ ሕሳብየ ኩሉ ኣዳም ልርአእዮ?
+faq-how-privacy-q = ጌልላ እብ ሶቶም ላትባራዓው ኣዳም ሰሞም ዎ ክሱስያቶም ክምደይ ልትኣመር ኣፎ ታኣክዶ ትቀድሮ?
 faq-what-is-cv = Common Voice ሚ ቱ
 faq-using-cv = አስትዕማል ናይ Common Voice
 faq-description = Common Voice ናይ Mozilla ሙባደረት እንደ ገብኣት እግል ኣለት ናይ ኣማን ኣዳም ኣፎ ከም ልትሃገ ላትዓልማ ታ
