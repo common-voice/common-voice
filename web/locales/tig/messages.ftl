@@ -411,6 +411,7 @@ data-download-button = በያናት ናይ Common Voice ክረ
 data-download-yes = ኣየዋ
 data-download-deny = ኢፋል
 data-download-license = ሩኽሰት: <licenseLink>CC-0</licenseLink>
+data-download-modal = ናይ <size>{ $size }GB</size> ኣውረዶት ታኣነብቱ ህሌኹም, ከምሎ?
 data-get-started = <speechBlogLink>ሂጋ ኣሌለዩት ኣንብቶ</speechBlogLink>
 data-other-title = ብዕድ ናይ ሶት መጅሙዓት ብያናት
 data-other-goto = { $name } ጊስ
