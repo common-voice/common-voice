@@ -1408,10 +1408,16 @@ sc-review-link = Adolygu
 ## SETTINGS
 
 sc-settings-title = Gosodiadau
+sc-settings-ui-language = Iaith y Rhyngwyneb
+sc-settings-language-translated-warning = Efallai na yw'r tudalennau ar gyfer yr iaith hon wedi'u cyfieithu yn llawn. Gallwch chi helpu gyda chyfieithu <pontoonLinkLink>ar Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Ailosod brawddegau wedi'u hepgor
 sc-settings-skipped-decription = Yn y gorffennol, rydych wedi hepgor brawddegau wrth eu hadolygu. Bydd ailosod brawddegau wedi'u hepgor yn dangos pob brawddeg sydd wedi'i hepgor eto. Mae hyn yn annibynnol ar yr iaith.
 sc-settings-show-all-button = Dangos yr holl frawddegau wedi'u hepgor eto
 sc-settings-failed = Methu newid y gosodiadau. Ceisiwch eto.
+# VALIDATION
+sc-validation-number-of-words = Rhaid i'r frawddeg gynnwys rhwng 1 ac 14 gair (i gyd)
+sc-validation-no-numbers = Dylai brawddeg ddim cynnwys rhifau
+sc-validation-no-symbols = Dylai brawddeg ddim cynnwys symbolau
 
 # [/SentenceCollector]
 
