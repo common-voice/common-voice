@@ -1304,6 +1304,8 @@ sc-settings-reset-skipped = Réinitialiser les phrases ignorées
 sc-settings-skipped-decription = Vous avez précédemment ignoré des phrases pendant la révision. Réinitialiser les phrases ignorées affichera à nouveau toutes les phrases ignorées, sans tenir compte de la langue.
 sc-settings-show-all-button = Afficher à nouveau toutes les phrases ignorées
 sc-settings-failed = Impossible de modifier les paramètres. Veuillez réessayer.
+# VALIDATION
+sc-validation-number-of-words = La phrase doit contenir entre 1 et 14 mots (inclus)
 sc-validation-no-abbreviations = La phrase ne doit pas contenir d’abréviations
 
 # [/SentenceCollector]
