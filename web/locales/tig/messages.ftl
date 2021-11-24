@@ -309,6 +309,8 @@ profile-form-accent =
     .label = ለክነት
 profile-form-age =
     .label = ዑምር
+profile-form-gender-2 =
+    .label = ጅንስ
 hidden = ሕቡዕ
 visible = ርኡይ
 native-language =
@@ -326,15 +328,19 @@ goals = ኣህዳፍ
 profile-close = ደብአ
 why-demographic = አግል ሚቱ አሊ ሙህም?
 accept-privacy-title = ናይ ኽሱስይት ሰያስት
+email-subscriptions = እሽትራካት ኢሜል
+download-profile = በያናትቸ ክረው
 contribution-experience = ናይ ሙሳህምት ኽብረት
 off = ደቡእ
 on = ፍቱሕ
 
 ## Profile - Email
 
+browse-file-title = ናይ ሱረት መለፍ ሓምል
 connect-gravatar = እብ Gravatar እፃብጥ
 gravatar_not_found = ኢመልኩም ሱረት ናይ gravatar ይአለቡኒ
 file_too_large = ላትሓራ መለፍ ብዙ ዓባ
+avatar-uploaded = ላ ሱረት ትሓመለት
 
 ## Profile - Email
 
