@@ -510,6 +510,7 @@ record-abort-continue = ተስጂል ኣኽልሶ
 listen-again-instruction = ስኒ ወዴኩም! ክምሰል ጃሃዝኩም ካልእ መረት ስምዖ
 listen-3rd-time-instruction = ክልኤ ወደኩም, ክምሰላ ዋስሎ
 listen-last-time-instruction = <playIcon></playIcon>ኣኽራይት!
+listen-empty-state = ታሕቂቅ ላለትሓዚየን ክሊፕ ናይ እላ ሉቀት ኸልሳ
 record-button-label = ሶትኩም ሰጀሎ
 share-title-new = <bold>ሳዕደና</bold>ብዕዳም ሙሳህሚን አግል ንርከብ
 target-segment-add-voice = ሶትኩም ወሰኮ
@@ -527,6 +528,7 @@ report-other-comment =
     .placeholder = ታዕሊቅ
 success = ነጃሕ
 continue = ዋሰል
+report-success = ላታቅሪር ግሩም እትላኣካ
 
 ## Goals
 
@@ -544,6 +546,7 @@ recordings =
 ## Dashboard
 
 your-languages = ሉቃትኩም
+toward-next-goal = ግላ ላተለ ሓደፍ
 goal-reached = ሓደፍ በፃሓ
 clips-you-recorded = ክሊፕ ላስጅልኩመን
 clips-you-validated = ክሊፕ ላትሓቀቅኩም ምነን
@@ -557,6 +560,7 @@ contribution-activity = ነሻጥ ናይ ሙሳሃመት
 top-contributors = ላላዕለው ሙሳህሚን
 recorded-clips = ላትስጅለት ክሊፕ
 validated-clips = ላትሓቀቀት  ክሊፕ
+total-approved = ኩሉ ላትዋፈቃ ዲቡ
 show-ranking = ተርቲብየ ኣርአ
 
 ## Custom Goals
@@ -573,6 +577,7 @@ average-difficulty = ምትወስጥ
 difficult-difficulty = ሳዓብ
 pro-difficulty = ሙሕተርፍ
 want-to-continue = ትኣስተመሮ ታሓዙ?
+lose-changes-warning = ኣዘ ሓቆ ፋገርካ ሽቁልካ ግል ልብደቱ
 set-a-goal = ሓደፍ ውደ
 how-many-per-day = ተማም! ክም ክሊፕ ዲብ ዩም?
 how-many-a-week = ተማም! ክም ክሊፕ ዲብ ሳምን?
