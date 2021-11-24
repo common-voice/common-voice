@@ -381,6 +381,7 @@ about-subtitle = Common Voice ናይ Mozilla ሙባደረት እንደ ገብኣ
 how-does-it-work-title = ኣፎ ትሽቄ?
 about-speak = ታሃገው
 about-listen-queue = ናይ ሰምዓት ጣቡር
+about-listen-queue-text = ናይ ሶት ክሊፕ ዲብ ጣቡር ተስሊም ልኣተ ው ምኑ ግል ልትሰማዕ  ጃህዝ ገቢእ
 about-listen = ሰምዖ
 about-is-it-valid = ላ ክሊፕ ሰኒቱ?
 about-yes-votes = ዝያድ ከልኦት ናይ አይዋ ተስዊት
