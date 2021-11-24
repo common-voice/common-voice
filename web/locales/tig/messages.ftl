@@ -763,6 +763,7 @@ sc-home-collect-title = ጁመል ኣኽብ
 sc-howto-addlang-title = ላትሸቀ እባ ሉቀት ወስኽ
 sc-howto-addsen-title = ሓዲስ ጁመል ወስኽ
 sc-howto-review-title = ጁመል ራጂዕ
+sc-howto-review-subtitle = ላጅመል እገል እሊ ላተለ መቃየስ ከም ለትማሊእ እትኣከድ:
 sc-howto-findpd-subtitle = ዲብ ኢንተርነት ሕዝዎ
 
 ## MY SENTENCES
