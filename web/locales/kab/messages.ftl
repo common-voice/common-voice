@@ -960,6 +960,7 @@ contribution-misreadings-title = Tuccḍa deg tɣuri
 contribution-misreadings-description = Ticki tsemḥaseḍ, wali ma yella ayen yettwaɣran yemṣada d wayen yuran; ttagi xas ma llant tuccḍiwin meẓẓiyen. <br />Kra n tuccḍiwin mucaɛent gebrent:
 contribution-misreadings-description-extended-list-1 = Ixuṣṣ<strong> "a/ta"</strong> degs wazwra n kra n yismawen neɣ <strong>"t"</strong> deg taggra n kra n yismawen n wunti.
 contribution-misreadings-description-extended-list-2 = Ixuṣṣ
+contribution-misreadings-description-extended-list-3 = Kra n temsertit tettwaɣra akken ur ilaq ara, am tčiḍdeg umḍiq n teččiḍ neɣ akken-nniḍen.
 contribution-misreadings-description-extended-list-4 = Txuṣṣ taggara n wawal aneggaru seg unegzum n usekles s lemɣawla.
 contribution-misreadings-description-extended-list-5 = Ɛreḍ acḥal n tikkal deg tɣuri n wawal.
 contribution-misreadings-example-3-explanation = [Asekles yettwagzem send ad yemmed wawal aneggaru]
