@@ -1097,6 +1097,13 @@ sc-stats-updating = Aktualizuje so…
 sc-submit-err-select-lang = Prošu wubjerće rěč.
 sc-submit-err-add-sentences = Prošu přidajće sady.
 sc-submit-err-add-source = Prošu přidajće žórło.
+sc-submit-title = Sady přidać
+sc-submit-select-language =
+    .labelText = Rěč wubrać
+sc-submit-ph-one-per-line =
+    .placeholder = Jedna sada na linku
+sc-submit-button =
+    .submitText = Wotpósłać
 
 ## ADD LANGUAGE
 
