@@ -583,6 +583,7 @@ pro-difficulty = ሙሕተርፍ
 want-to-continue = ትኣስተመሮ ታሓዙ?
 lose-changes-warning = ኣዘ ሓቆ ፋገርካ ሽቁልካ ግል ልብደቱ
 set-a-goal = ሓደፍ ውደ
+cant-decide = ትቀርሮ ኢትቀድሮ?
 how-many-per-day = ተማም! ክም ክሊፕ ዲብ ዩም?
 how-many-a-week = ተማም! ክም ክሊፕ ዲብ ሳምን?
 which-goal-type = ትትሃገው ታሓዙ ትስምዖ ሚ ክለኤቱ?
