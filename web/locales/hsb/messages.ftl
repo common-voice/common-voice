@@ -1054,18 +1054,49 @@ sc-home-review-title = Sady přepruwować
 ## HOW-TO
 
 sc-howto-title = Nawod
+sc-howto-addlang-title = Rěče přidać, z kotrymiž so dźěła
+sc-howto-addsen-title = Nowe sady přidać
+sc-howto-cite-title = Citować
+sc-howto-cite-item-1 = Wy móhł websydło podać, na př. „Common Voice - https://commonvoice.mozilla.org/“
+sc-howto-review-title = Sady přepruwować
+sc-howto-review-criteria-1 = Sada dyrbi prawje napisana być.
+sc-howto-review-criteria-2 = Sada dyrbi gramatiski korektna być.
+sc-howto-review-criteria-3 = Sada dyrbi wurěkujomna być.
 
 ## MY SENTENCES
 
+sc-my-title = Moje sady
+sc-my-loading = Waše sady so začituja…
+sc-my-no-sentences = Žane sady namakane!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Zapodaće: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Žórło: { $source }
+sc-my-delete = Wubrane sady zhašeć
+sc-my-deleting = Wubrane sady so zhašeja…
 
 ## REJECTED
 
+sc-rejected-title = Wotpokazane sady
+sc-rejected-loading = Wotpokazane sady so začituja…
+sc-rejected-none-found = Žane wotpokazane sady namakane!
 
 ## STATS
 
+sc-stats-title = Statistika
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Poslednja aktualizacija: { $lastUpdate }
+sc-stats-last-update-never = Poslednja aktualizacija: ženje
+sc-stats-updating = Aktualizuje so…
 
 ## ADD
 
+sc-submit-err-select-lang = Prošu wubjerće rěč.
+sc-submit-err-add-sentences = Prošu přidajće sady.
+sc-submit-err-add-source = Prošu přidajće žórło.
 
 ## ADD LANGUAGE
 
