@@ -377,6 +377,10 @@ export default class DB {
           SELECT clip_id
           FROM reported_clips reported
           WHERE reported.clip_id = clips.id AND client_id = ?
+          UNION ALL
+          SELECT clip_id
+          FROM skipped_clips skipped
+          WHERE skipped.clip_id = clips.id AND client_id = ?
         )
         AND sentences.clips_count <= 15
         ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
@@ -385,7 +389,15 @@ export default class DB {
       ) t
       ORDER BY RAND()
       LIMIT ?`,
-      [locale_id, client_id, client_id, client_id, SHUFFLE_SIZE, count]
+      [
+        locale_id,
+        client_id,
+        client_id,
+        client_id,
+        client_id,
+        SHUFFLE_SIZE,
+        count,
+      ]
     );
     for (const clip of clips) {
       clip.voters = clip.voters ? clip.voters.split(',') : [];
@@ -436,6 +448,10 @@ export default class DB {
           SELECT clip_id
           FROM reported_clips reported
           WHERE reported.clip_id = clips.id AND client_id = ?
+          UNION ALL
+          SELECT clip_id
+          FROM skipped_clips skipped
+          WHERE skipped.clip_id = clips.id AND client_id = ?
         )
         GROUP BY original_sentence_id
         LIMIT ?
@@ -448,6 +464,7 @@ export default class DB {
         client_id,
         await getTermIds(segments),
         await getTermIds(segments),
+        client_id,
         client_id,
         client_id,
         client_id,
@@ -877,13 +894,14 @@ export default class DB {
     )[0][0].count;
   }
 
-  async getAccents( client_id: string, locale?: string) {
+  async getAccents(client_id: string, locale?: string) {
     const [accents] = await this.mysql.query(
       `
       SELECT name as lang, accent_token AS token, a.id AS accent_id, accent_name, a.user_submitted FROM accents a
       LEFT JOIN locales ON a.locale_id = locales.id
       WHERE (NOT user_submitted OR client_id = ?)
-      `, [client_id]
+      `,
+      [client_id]
     );
 
     const mappedAccents = accents.reduce((acc: any, curr: any) => {
@@ -894,10 +912,10 @@ export default class DB {
       const accent = {
         id: curr.accent_id,
         token: curr.token,
-        name: curr.accent_name
+        name: curr.accent_name,
       };
 
-      if (curr.accent_name === "")  {
+      if (curr.accent_name === '') {
         // Each language has a default accent placeholder for unspecified accents
         acc[curr.lang].default = accent;
       } else if (curr.user_submitted) {
@@ -913,11 +931,19 @@ export default class DB {
     return mappedAccents;
   }
 
-
   async createSkippedSentence(id: string, client_id: string) {
     await this.mysql.query(
       `
         INSERT INTO skipped_sentences (sentence_id, client_id) VALUES (?, ?)
+      `,
+      [id, client_id]
+    );
+  }
+
+  async createSkippedClip(id: string, client_id: string) {
+    await this.mysql.query(
+      `
+        INSERT INTO skipped_clips (clip_id, client_id) VALUES (?, ?)
       `,
       [id, client_id]
     );
@@ -1052,9 +1078,12 @@ export default class DB {
   }
 
   async clipExists(client_id: string, sentence_id: string) {
-    const [[row]] = await this.mysql.query(`
+    const [[row]] = await this.mysql.query(
+      `
       SELECT id FROM clips WHERE client_id = ? AND original_sentence_id = ?
-    `, [client_id, sentence_id]);
+    `,
+      [client_id, sentence_id]
+    );
 
     return !!row;
   }
