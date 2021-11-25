@@ -1365,6 +1365,8 @@ sc-review-link = შემოწმება
 ## SETTINGS
 
 sc-settings-title = პარამეტრები
+sc-settings-ui-language = სამუშაო ენა
+sc-settings-language-translated-warning = გვერდები ამ ენისთვის, შესაძლოა სრულად არ იყოს თარგმნილი. წვლილის შესატანად, იხილეთ <pontoonLinkLink>Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = გამოტოვებული წინადადებების გადატვირთვა
 sc-settings-skipped-decription =
     შემოწმებისას გამოტოვებული გაქვთ წინადადებები.
@@ -1372,6 +1374,9 @@ sc-settings-skipped-decription =
     იმოქმედებს ენისგან დამოუკიდებლად.
 sc-settings-show-all-button = კვლავ გამოჩნდეს ყველა გამოტოვებული წინადადება
 sc-settings-failed = პარამეტრების შეცვლა ვერ მოხერხდა. გთხოვთ, კვლავ სცადოთ.
+sc-validation-no-numbers = წინადადება არ უნდა შეიცავდეს რიცხვებს
+sc-validation-no-symbols = წინადადება არ უნდა შეიცავდეს ნიშნებს
+sc-validation-no-abbreviations = წინადადება არ უნდა შეიცავდეს შემოკლებებს
 
 # [/SentenceCollector]
 
