@@ -900,6 +900,8 @@ sc-review-link = ራጅዕ
 
 ## SETTINGS
 
+sc-validation-no-symbols = ላጅመል ርሙዝ ግል ላሃለ ዲቡ የኣለቡን
+sc-validation-no-abbreviations = ላጅመል ኣኽትሳራት ግል ላሃለ ዲቡ የኣለቡን
 
 # [/SentenceCollector]
 
