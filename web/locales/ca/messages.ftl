@@ -106,6 +106,7 @@ mhr = mari oriental
 mk = macedònic
 ml = malaiàlam
 mn = mongol
+mni = meitei
 mos = mossi
 mr = marathi
 mrj = mari occidental
@@ -152,6 +153,7 @@ te = telugu
 tg = tadjik
 th = tailandès
 ti = tigrinya
+tig = tigre
 tl = tagal
 tr = turc
 tt = tàtar
@@ -1011,7 +1013,9 @@ see-less = <chevron></chevron>Menys
 ## HEADER/FOOTER
 
 sc-header-home = Inici
+sc-header-how-to = Com es fa
 sc-header-add = Afegeix
+sc-header-review = Revisa
 sc-header-rejected = Frases rebutjades
 sc-header-my = Les meves frases
 sc-header-statistics = Estadístiques
@@ -1051,6 +1055,10 @@ sc-howto-review-criteria-1 = La frase és escrita correctament, sense faltes d'o
 sc-howto-review-criteria-2 = La frase ha de ser gramaticalment correcta.
 sc-howto-review-criteria-3 = La frase ha de ser pronunciable.
 sc-howto-review-criteria-4 = Si la frase compleix els criteris, feu clic en el botó «Aprova».
+sc-howto-review-criteria-5 = Si la frase no compleix els criteris anteriors, feu clic en el botó «Rebutja». Si no n'esteu segur, també podeu saltar-la i passar a la següent.
+sc-howto-review-criteria-6 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
+sc-howto-findpd-title = Trobar frases de domini públic
+sc-howto-findpd-subtitle = Cerqueu-ne a Internet
 
 ## MY SENTENCES
 
@@ -1063,12 +1071,22 @@ sc-howto-review-criteria-4 = Si la frase compleix els criteris, feu clic en el b
 
 ## ADD
 
+sc-submit-button =
+    .submitText = Envia
 
 ## ADD LANGUAGE
 
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] No s'ha trobat cap frase.
+        [one] S'ha trobat 1 frase.
+       *[other] S'han trobat { $countOfSentences } frases.
+    }
 
 ## LANGUAGE INFO
 
@@ -1078,15 +1096,35 @@ sc-howto-review-criteria-4 = Si la frase compleix els criteris, feu clic en el b
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Perfil: { $username }
+sc-personal-remove-button = elimina
+sc-personal-not-added = Encara no heu afegit cap llengua.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Criteris de revisió
+sc-criteria-title = Criteris de revisió
+sc-criteria-make-sure = Assegureu-vos que la frase compleix els criteris següents:
+sc-criteria-item-1 = La frase és escrita correctament, sense faltes d'ortografia.
+sc-criteria-item-2 = La frase és gramaticalment correcta.
+sc-criteria-item-3 = La frase és pronunciable.
+sc-criteria-item-4 = Si la frase compleix els criteris, feu clic en el botó «Aprova».
+sc-criteria-item-5-2 = Si la frase no compleix els criteris anteriors, feu clic en el botó «Rebutja». Si no n'esteu segur, també podeu saltar-la i passar a la següent.
 
 ## REVIEW
 
 
 ## SETTINGS
 
+sc-settings-show-all-button = Mostra de nou totes les frases omeses
+sc-settings-failed = No s'ha pogut canviar la configuració. Torneu-ho a provar.
+# VALIDATION
+sc-validation-number-of-words = La frase ha de contenir entre 1 i 14 paraules.
+sc-validation-no-numbers = La frase no pot contenir xifres
+sc-validation-no-symbols = La frase no pot contenir símbols
+sc-validation-no-abbreviations = La frase no pot contenir abreviatures
 
 # [/SentenceCollector]
 
