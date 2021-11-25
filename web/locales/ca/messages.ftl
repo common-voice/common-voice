@@ -1066,6 +1066,7 @@ sc-howto-review-criteria-5 = Si la frase no compleix els criteris anteriors, feu
 sc-howto-review-criteria-6 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
 sc-howto-findpd-title = Trobar frases de domini públic
 sc-howto-findpd-subtitle = Cerqueu-ne a Internet
+sc-howto-findpd-tips-3 = Malauradament, encara no podem tenir articles de la Viquipèdia. Així que no copieu i enganxeu text des d'allà.
 sc-howto-findpd-subtitle-2 = Col·laborar amb persones o organitzacions locals
 sc-howto-findpd-partner-1 = Hi ha moltes organitzacions públiques que potser volen col·laborar i ja tenen molts textos que poden donar com a domini públic. Poseu-vos en contacte amb universitats, governs i organitzacions de codi obert locals per a parlar del projecte i demanar-los ajuda.
 
@@ -1075,6 +1076,9 @@ sc-my-title = Les meves frases
 sc-my-loading = S'estan carregant les frases…
 sc-my-err-fetching = S'ha produït un error en obtenir les frases. Torneu-ho a provar.
 sc-my-no-sentences = No s'ha trobat cap frase!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Tramesa: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Font:  { $source }
@@ -1090,11 +1094,19 @@ sc-stats-updating = S'està actualitzant…
 
 ## ADD
 
+sc-submit-select-language =
+    .labelText = Trieu una llengua
+sc-submit-ph-one-per-line =
+    .placeholder = Una frase per línia
+sc-submit-from-where = D'on són aquestes frases de <wikipediaLink>domini públic</wikipediaLink>?
 sc-submit-button =
     .submitText = Envia
+sc-submit-filtered = Frases filtrades a causa d'algun error en els requeriments (envieu les frases corregides com a frases noves):
+sc-submit-guidelines = Reviseu les <howToLink>directrius</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = No s'ha pogut afegir la llengua
 sc-add-lang-sec-button = Afegeix una llengua
 
 ## ADD SENTENCES CONFIRMATION
@@ -1122,6 +1134,7 @@ sc-login-err-try-again = Torneu-ho a provar.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Perfil: { $username }
+sc-personal-your-languages = Les vostres llengües:
 sc-personal-remove-button = elimina
 sc-personal-not-added = Encara no heu afegit cap llengua.
 
@@ -1149,10 +1162,12 @@ sc-review-form-prompt =
 sc-review-form-button-reject = Rebutja
 sc-review-form-button-skip = Omet
 sc-review-form-button-approve = Aprova
+sc-review-link = Revisa
 
 ## SETTINGS
 
 sc-settings-title = Paràmetres
+sc-settings-ui-language = Llengua de la interfície
 sc-settings-show-all-button = Mostra de nou totes les frases omeses
 sc-settings-failed = No s'ha pogut canviar la configuració. Torneu-ho a provar.
 # VALIDATION
