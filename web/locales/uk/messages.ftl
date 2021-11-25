@@ -340,8 +340,13 @@ profile-form-native-language =
     .label = Рідна мова
 profile-form-additional-language =
     .label = Додаткова мова
+profile-form-language =
+    .label = Мова
 profile-form-accent =
     .label = Акцент
+profile-form-custom-accent-help-text =
+    .label = Як би ви описали свій акцент?
+profile-form-custom-accent-placeholder-2 = Почніть вводити текст, щоб описати свій акцент
 profile-form-age =
     .label = Вік
 profile-form-gender-2 =
@@ -352,6 +357,7 @@ hidden = Приховано
 visible = Видимий
 native-language =
     .label = Рідна мова
+profile-form-add-accent = Додайте новий власний акцент «{ $inputValue }»
 profile-form-submit-save = Зберегти
 profile-form-submit-saved = Збережено
 male = Чоловічі
@@ -385,6 +391,8 @@ skip-submission-description = Після натискання кнопки "На
 skip-submission-note = Примітка: Вам все одно необхідно буде обрати між записом і прослуховуванням для зміни типу допомоги.
 off = Вимкнено
 on = Увімкнено
+help-accent = Потрібна допомога з акцентом?
+help-accent-explanation = Ваш акцент — це те, як ви вимовляєте слова. Він може залежати від того, де ви проживали, якими іншими мовами ви володієте та багатьма іншими факторами. Тут ви можете поділитися будь-якою інформацією, яку вважаєте необхідною.
 
 ## Profile - Email
 
