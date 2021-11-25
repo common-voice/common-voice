@@ -1029,9 +1029,28 @@ sc-logout-button = Tanca la sessió
 ## HOME
 
 sc-home-title = Us donem la benvinguda al Common Voice Sentece Collector
+sc-home-intro = El Sentence Collector és part del <commonVoiceLink>Common Voice</commonVoiceLink>. Permet als col·laboradors de recollir i validar frases creades per la comunitat. També podeu usar aquesta eina per a importar i netejar corpus de domini públic de mida petita i mitjana que hàgiu trobat o recollit. Totes les frases han de ser de domini públic. Les frases aprovades s'exporten cada setmana al repositori del Common Voice i són disponibles al lloc web del Common Voice en cada nou desplegament.
+sc-home-collect-title = Recull frases
+sc-home-collect-text = Ajudeu-nos escrivint o recopilant frases de domini públic.
+sc-home-review-title = Revisa les frases
+sc-home-review-text = Ajudeu-nos revisant la correcció de les frases segons unes directrius.
 
 ## HOW-TO
 
+sc-howto-title = Com es fa per a
+sc-howto-addlang-title = Afegir llengües per a treballar-hi
+sc-howto-addlang-text = Una vegada heu iniciat sessió, podeu triar les llengües a la secció del perfil.
+sc-howto-addsen-title = Afegir frases noves
+sc-howto-cite-title = Com citar
+sc-howto-cite-item-1 = Podeu incloure el lloc web, per exemple, «Common Voice - https://commonvoice.mozilla.org/»
+sc-howto-cite-item-2 = Podeu utilitzar un estil de referència acadèmic. P. ex., l'estil de Harvard «Mozilla (2021) Common Voice. Disponible a https://commonvoice.mozilla.org/ (Consulta: 15 de setembre de 2021)»
+sc-howto-cite-item-3 = Per al text de domini públic que no està disponible en línia, podeu utilitzar un estil de referència acadèmic. P. ex., l'estil de Harvard «Jess (2021) Els meus poemes en domini públic»
+sc-howto-review-title = Revisar frases
+sc-howto-review-subtitle = Assegureu-vos que la frase compleix els criteris següents:
+sc-howto-review-criteria-1 = La frase és escrita correctament, sense faltes d'ortografia.
+sc-howto-review-criteria-2 = La frase ha de ser gramaticalment correcta.
+sc-howto-review-criteria-3 = La frase ha de ser pronunciable.
+sc-howto-review-criteria-4 = Si la frase compleix els criteris, feu clic en el botó «Aprova».
 
 ## MY SENTENCES
 
