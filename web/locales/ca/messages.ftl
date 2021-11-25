@@ -1002,9 +1002,14 @@ contribution-just-unsure-title = Teniu dubtes?
 contribution-just-unsure-description = Si us trobeu amb alguna cosa que aquestes directrius no cobreixen, voteu segons el vostre criteri. Si realment no ho podeu decidir, feu servir el botó Omet i passeu a l'enregistrament següent.
 see-more = <chevron></chevron>Més
 see-less = <chevron></chevron>Menys
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = Inici
 sc-header-add = Afegeix
 sc-header-rejected = Frases rebutjades
@@ -1020,6 +1025,49 @@ sc-footer-terms = Condicions d'ús
 sc-footer-cookies = Galetes
 sc-login-signup-button = Inici de sessió / Registre
 sc-logout-button = Tanca la sessió
+
+## HOME
+
+sc-home-title = Us donem la benvinguda al Common Voice Sentece Collector
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
 
 # [/SentenceCollector]
 
