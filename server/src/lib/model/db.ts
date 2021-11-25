@@ -877,19 +877,42 @@ export default class DB {
     )[0][0].count;
   }
 
-  async saveAccents(client_id: string, accents: { [locale: string]: string }) {
-    await Promise.all(
-      Object.entries(accents).map(async ([locale, accent]) =>
-        this.mysql.query(
-          `
-        INSERT INTO user_client_accents (client_id, locale_id, accent) VALUES (?, ?, ?)
-          ON DUPLICATE KEY UPDATE accent = VALUES(accent)
-      `,
-          [client_id, await getLocaleId(locale), accent]
-        )
-      )
+  async getAccents( client_id: string, locale?: string) {
+    const [accents] = await this.mysql.query(
+      `
+      SELECT name as lang, accent_token AS token, a.id AS accent_id, accent_name, a.user_submitted FROM accents a
+      LEFT JOIN locales ON a.locale_id = locales.id
+      WHERE (NOT user_submitted OR client_id = ?)
+      `, [client_id]
     );
+
+    const mappedAccents = accents.reduce((acc: any, curr: any) => {
+      if (!acc[curr.lang]) {
+        acc[curr.lang] = { userGenerated: {}, preset: {}, default: {} };
+      }
+
+      const accent = {
+        id: curr.accent_id,
+        token: curr.token,
+        name: curr.accent_name
+      };
+
+      if (curr.accent_name === "")  {
+        // Each language has a default accent placeholder for unspecified accents
+        acc[curr.lang].default = accent;
+      } else if (curr.user_submitted) {
+        // Note: currently the query only shows the user values that they created
+        acc[curr.lang].userGenerated[curr.accent_id] = accent;
+      } else {
+        acc[curr.lang].preset[curr.accent_id] = accent;
+      }
+
+      return acc;
+    }, {});
+
+    return mappedAccents;
   }
+
 
   async createSkippedSentence(id: string, client_id: string) {
     await this.mysql.query(
