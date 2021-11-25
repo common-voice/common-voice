@@ -339,7 +339,7 @@ export default function LeaderboardCard({
               onText="visible"
               defaultChecked={Boolean(account.visible)}
               onChange={(event: any) => {
-                saveAccount({ visible: event.target.checked });
+                saveAccount({ ...account, visible: event.target.checked });
               }}
             />
             <Localized id="visibility-explainer" vars={{ minutes: 20 }}>
