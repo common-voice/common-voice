@@ -152,7 +152,6 @@ te = ᱛᱮᱞᱜᱩ
 tg = ᱛᱟᱡᱤᱠ
 th = ᱛᱷᱟᱤ
 ti = ᱴᱤᱜᱽᱨᱤᱭᱟᱱᱟ
-Tig = ᱴᱤᱜᱽᱨᱮ
 tl = ᱛᱟᱜᱟᱞᱚᱜᱽ
 tr = ᱛᱩᱨᱠᱤᱥ
 tt = ᱛᱟᱛᱟᱨ
@@ -408,6 +407,7 @@ faq-why-important-a = ᱵᱷᱟᱥᱚᱬ ᱫᱚ ᱡᱷᱚᱛᱚ ᱠᱷᱚᱱ ᱥ
 faq-how-get-q = ᱪᱮᱠᱟ ᱞᱮᱠᱟᱛᱮ ᱤᱧ ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱧᱟᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ?
 faq-how-get-a = Common Voice ᱰᱟᱴᱟᱥᱮᱴ ᱫᱚ <licenseLink>CC0</licenseLink> ᱞᱟᱭᱥᱮᱸᱥ ᱛᱚᱦᱚᱛ <datasetLink> ᱟᱞᱮᱭᱟᱜ ᱰᱟᱴᱟᱥᱮᱴ </datasetLink> ᱨᱮ ᱰᱟᱩᱱᱞᱚᱰ ᱞᱟᱹᱜᱤᱫ ᱢᱮᱱᱟᱜᱼᱟ᱾ ᱟᱢ ᱱᱚᱶᱟ ᱨᱮᱭᱟᱜ ᱥᱟᱦᱴᱟ ᱠᱷᱚᱱ ᱟᱭᱢᱟ ᱥᱟᱱᱟᱢᱤᱭᱟᱹ ᱦᱤᱥᱟᱹᱵ ᱛᱮ ᱢᱮᱱᱟᱜ ᱰᱟᱴᱟᱥᱮᱴ ᱠᱚ ᱦᱚᱸ ᱰᱟᱩᱱᱞᱚᱰ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ᱾
 faq-when-release2-q = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱮᱴᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱛᱤᱥ ᱯᱮ ᱨᱤᱞᱤᱡᱽ ᱟ?
+faq-when-release2-a = Common Voice ᱰᱟᱴᱟᱥᱮᱴ ᱨᱮᱭᱟᱜ ᱟᱭᱢᱟ ᱯᱟᱹᱨᱥᱤ ᱥᱚᱝᱥᱠᱚᱨᱚᱬ ᱱᱤᱛᱟᱜ ᱫᱚ ᱥᱚᱢᱩᱫᱟᱹᱭ ᱥᱚᱢᱚᱨᱛᱷᱚᱱ ᱵᱟᱸᱰᱞᱤᱝ ᱟᱨ ᱥᱟᱯᱷᱟ ᱨᱮᱭᱟᱜ ᱪᱚᱨᱚᱬ ᱛᱮ ᱪᱟᱞᱟᱣᱜ ᱠᱟᱱᱟ᱾ ᱡᱩᱫᱤ ᱟᱢ Common Voice ᱠᱚ ᱱᱟᱶᱟ ᱯᱟᱹᱨᱥᱤ ᱨᱮ ᱟᱹᱜᱩ ᱞᱟᱹᱜᱤᱫ ᱟᱞᱮ ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱭᱟᱢ ᱢᱮᱱᱠᱷᱟᱱ, ᱛᱚ ᱰᱟᱴᱟᱥᱮᱴ ᱨᱮ ᱱᱟᱶᱟ ᱟᱹᱭᱟᱹᱛ ᱥᱮᱞᱮᱫ ᱞᱟᱹᱜᱤᱫ ## ᱟᱹᱭᱟᱹᱛ ᱦᱟᱢᱮᱴ ᱴᱩᱞ ## ᱟᱨ ᱣᱮᱵᱥᱟᱭᱤᱴ ᱨᱮᱭᱟᱜ ᱛᱚᱨᱡᱚᱢᱟ ᱠᱚᱨᱟᱣ ᱞᱟᱹᱜᱤᱫ Mozilla ##Pontoon## ᱧᱮᱞ ᱢᱮ᱾ ᱚᱠᱟ ᱡᱷᱚᱜ 5000 ᱦᱮᱸᱥᱤᱭᱟᱹᱨ ᱟᱹᱭᱟᱹᱛ ᱢᱤᱫ ᱴᱷᱮᱱ ᱠᱚᱨᱟᱣ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ, ᱛᱚ ᱥᱟᱲᱮ ᱨᱮᱭᱟᱜ ᱭᱩᱜᱫᱟᱱ ᱞᱟᱹᱜᱤᱫ Common Voice ᱨᱮ ᱱᱟᱶᱟ ᱯᱟᱹᱨᱥᱤ ᱥᱮᱞᱮᱫ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ᱾
 faq-why-mission-q = Common Voice ᱫᱚ Mozilla ᱢᱤᱥᱚᱱ ᱨᱮᱭᱟᱜ ᱦᱟᱹᱴᱤᱧ ᱨᱮ ᱪᱚᱫᱟᱜ ᱢᱮᱱᱟᱜᱼᱟ?
 faq-why-my-lang-q = ᱤᱧᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱮᱫᱟᱜ ᱱᱤᱛ ᱵᱟᱠᱚ ᱥᱟᱹᱢᱤᱞ ᱟᱠᱟᱫᱟ?
 faq-where-src-from-2-q = ᱢᱩᱞ ᱚᱞ ᱫᱚ ᱠᱚᱟ ᱠᱷᱚᱱ ᱦᱮᱡ ᱠᱟᱱᱟ?
@@ -704,3 +704,56 @@ contribution-misreadings-title = ᱵᱷᱩᱞ ᱯᱟᱲᱦᱟᱣ
 contribution-volume-title = ᱜᱚᱱᱚᱝ
 see-more = <chevron></chevron>ᱰᱷᱮᱨ ᱧᱮᱞ
 see-less = <chevron></chevron>ᱠᱚᱢ ᱧᱮᱞ ᱢᱮ
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
