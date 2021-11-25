@@ -326,8 +326,13 @@ profile-form-native-language =
     .label = Muttersprache
 profile-form-additional-language =
     .label = Zusätzliche Sprache
+profile-form-language =
+    .label = Sprache
 profile-form-accent =
     .label = Akzent
+profile-form-custom-accent-help-text =
+    .label = Wie würden Sie Ihren Akzent beschreiben?
+profile-form-custom-accent-placeholder-2 = Beginnen Sie mit der Eingabe, um Ihren Akzent zu beschreiben
 profile-form-age =
     .label = Alter
 profile-form-gender-2 =
@@ -338,6 +343,7 @@ hidden = Versteckt
 visible = Sichtbar
 native-language =
     .label = Muttersprache
+profile-form-add-accent = Neuen benutzerdefinierten Akzent hinzufügen „{ $inputValue }“
 profile-form-submit-save = Speichern
 profile-form-submit-saved = Gespeichert
 male = Männlich
@@ -371,6 +377,8 @@ skip-submission-description = Beim Mitarbeiten wird nach dem Klick auf »Übermi
 skip-submission-note = Hinweis: Sie müssen sich weiterhin zwischen »Sprechen« und »Anhören« entscheiden, je nachdem wie Sie mitarbeiten möchten.
 off = Aus
 on = An
+help-accent = Brauchen Sie Hilfe beim Akzent?
+help-accent-explanation = Ihr Akzent ist die Art und Weise, wie Sie Wörter aussprechen. Er kann davon geprägt sein, wo Sie gelebt haben, welche anderen Sprachen Sie sprechen und von vielen anderen Faktoren. Sie können hier alle Informationen teilen, die Sie für relevant halten.
 
 ## Profile - Email
 
