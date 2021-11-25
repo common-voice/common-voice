@@ -778,6 +778,7 @@ sc-footer-cookies = ክዓክ
 
 sc-home-title = ዳሓን መጽው ዲብ ናይ Common Voice ጁመል ኣከብይ
 sc-home-collect-title = ጁመል ኣኽብ
+sc-home-collect-text = ሰደና እብ ክታበት ኦው አካበት ጁመል ሙልኬት ዓመት
 sc-home-review-title = ጁመል ራጂዕ
 
 ## HOW-TO
