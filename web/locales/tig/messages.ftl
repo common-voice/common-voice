@@ -512,6 +512,7 @@ request-language-title = ጣለብ ናይ ሉቀት
 request-language-form-language =
     .label = ሉቀት
 request-language-success-title = ለእከት ናይ ሉቀት ጠለብኩም ንጅሓት, ሹክረን
+request-language-success-content = ኣዘ ቅሩብ ማዕሉማት ጌል ንላኽ እግልኩም ቱ ኣፎ ሉቀትኩም ዲብ Common Voice ታኣትዋ
 select-language = ሉቀት ሕረ
 other-language = ብዕድ ሉቀት
 
@@ -560,6 +561,7 @@ share-common-voice = Common Voice ሻርክ እቡ
 record-abort-title = ሰልፍ ተስጂል ታኣኽልሶ?
 record-abort-text = ኣዘ ሓቆ ፋገርካ ሽቁልካ ግል ልብደቱ
 record-abort-continue = ተስጂል ኣኽልሶ
+listen-instruction = { $actionType }<playIcon></playIcon> ላጅምለት ግሩም ቤለዋ
 listen-again-instruction = ስኒ ወዴኩም! ክምሰል ጃሃዝኩም ካልእ መረት ስምዖ
 listen-3rd-time-instruction = ክልኤ ወደኩም, ክምሰላ ዋስሎ
 listen-last-time-instruction = <playIcon></playIcon>ኣኽራይት!
@@ -670,6 +672,7 @@ goal-interval-weekly = ኩል ሳምን
 share-goal-type-speak = ሃገዮት
 share-goal-type-listen = ስምዓት
 share-goal-type-both = ሃገዮት ዉ ስምዓት
+weekly-goal-created = ናይ ሳምንካ ሃድፍ ስጅላ
 
 ## Profile Delete
 
