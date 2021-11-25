@@ -1107,9 +1107,12 @@ sc-submit-add-sentences = 新增<wikipediaLink>公眾領域（Public Domain）</
 sc-submit-ph-one-per-line =
     .placeholder = 一行一句
 sc-submit-from-where = 這些<wikipediaLink>公眾領域（Public Domain）</wikipediaLink>的句子來自何處？
+sc-submit-ph-read-how-to =
+    .placeholder = 不確定如何貢獻的話，可先閱讀我們的如何貢獻文件
 sc-submit-confirm = 我確認這些句子都已經以<wikipediaLink>公眾領域條款</wikipediaLink>授權公開，而且我有權上傳。
 sc-submit-button =
     .submitText = 送出
+sc-submit-filtered = 由於不符合規定，被過濾的句子（請以新句子重新送出）：
 sc-submit-guidelines = 請參考<howToLink>審核指南</howToLink>。
 
 ## ADD LANGUAGE
@@ -1133,6 +1136,7 @@ sc-add-err-failed =
        *[other] { $sentences } 句送出失敗
     }
 sc-add-err-submission = 送出失敗
+sc-add-lang-process-notice = 若您的語言未列於此處，可以透過<languageProcessLink>此程序</languageProcessLink>申請加入。
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1161,6 +1165,9 @@ sc-confirm-ready =
         [0] 沒有句子可以送出！
        *[other] 已經有 { $readyCount } 句準備好可以送出！
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = 還有 { $countOfUnreviewed } 句未經審核。您想要的話也可以在送出前先審核您的句子。
 sc-confirm-button-text = 確認
 sc-confirm-uploading = 正在上傳語句，視句子數量而定可能需要花上幾分鐘。上傳完成前請勿關閉此網站。
 
@@ -1232,6 +1239,7 @@ sc-criteria-item-1 = 句子必須拼得正確。
 sc-criteria-item-2 = 句子的文法必須正確。
 sc-criteria-item-3 = 句子必須說得出來。
 sc-criteria-item-4 = 若句子符合上述標準，請點擊右方的「通過」按鈕。
+sc-criteria-item-5-2 = 若句子不符合上述條件，點擊「退回」按鈕。若您不確定句子可不可用，也可以略過，跳到下一句。
 sc-criteria-item-6 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
 
 ## REVIEW
