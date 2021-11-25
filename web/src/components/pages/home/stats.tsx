@@ -81,8 +81,8 @@ export namespace ClipsStats {
     const minutes = Math.floor(totalSeconds / 60) % 60;
     const hours = Math.floor(totalSeconds / 3600);
 
-    if (precise) return `${hours.toLocaleString()}h`;
     if (hours >= 1000) {
+      if (precise) return `${hours.toLocaleString()}h`;
       return (hours / 1000).toPrecision(2) + 'k';
     }
 
@@ -228,7 +228,9 @@ export namespace ClipsStats {
           Math.round((DATA_LENGTH * (event.clientX - left)) / width) - 1;
         this.setState({
           hoveredIndex:
-            hoveredIndex >= 0 && hoveredIndex < DATA_LENGTH ? hoveredIndex : null,
+            hoveredIndex >= 0 && hoveredIndex < DATA_LENGTH
+              ? hoveredIndex
+              : null,
         });
       }
     };
@@ -251,8 +253,12 @@ export namespace ClipsStats {
             })}
           </b>
           <div className="metrics">
-            <MetricValue attribute="total">{formatSeconds(total)}</MetricValue>
-            <MetricValue attribute="valid">{formatSeconds(valid)}</MetricValue>
+            <MetricValue attribute="total">
+              {formatSeconds(total, true)}
+            </MetricValue>
+            <MetricValue attribute="valid">
+              {formatSeconds(valid, true)}
+            </MetricValue>
           </div>
         </>
       ) : null;
