@@ -1014,6 +1014,7 @@ sc-logout-button = 退出
 sc-home-title = 欢迎使用 Common Voice 语句收集工具
 sc-home-collect-title = 收集句子
 sc-home-review-title = 审核句子
+sc-home-review-text = 请按下列标准帮助我们审核句子是否正确。
 
 ## HOW-TO
 
@@ -1030,6 +1031,7 @@ sc-howto-review-criteria-1 = 句子必须拼写正确。
 sc-howto-review-criteria-2 = 句子必须语法正确。
 sc-howto-review-criteria-3 = 句子必须说得出来。
 sc-howto-review-criteria-4 = 若句子符合上述标准，请点击“通过”按钮。
+sc-howto-review-criteria-6 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
 sc-howto-findpd-subtitle = 在网上搜搜看
 sc-howto-findpd-subtitle-2 = 与当地组织或个人合作
 
@@ -1211,6 +1213,8 @@ sc-criteria-item-4 = 若句子符合上述标准，请点击右方的“通过�
 
 sc-review-title = 审核句子
 sc-review-loading = 正在加载句子...
+sc-review-form-prompt =
+    .message = 尚未提交句子审核结果，确定吗？
 sc-review-form-usage = 向右滑通过句子、向左滑驳回、向上滑跳过。<strong>别忘记提交您的审核结果！</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
