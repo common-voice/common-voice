@@ -1013,6 +1013,7 @@ sc-logout-button = 退出
 
 sc-home-title = 欢迎使用 Common Voice 语句收集工具
 sc-home-collect-title = 收集句子
+sc-home-collect-text = 帮助我们撰写或收集公有领域的句子。
 sc-home-review-title = 审核句子
 sc-home-review-text = 请按下列标准帮助我们审核句子是否正确。
 
@@ -1022,6 +1023,7 @@ sc-howto-title = 如何做
 sc-howto-addlang-title = 添加要贡献的语言
 sc-howto-addlang-text = 登录后，就可以在个人资料页选择您要贡献哪些语言的句子。
 sc-howto-addsen-title = 添加新句子
+sc-howto-addsen-post-1 = 我们更喜欢自然/对话式的句子。虽然语音多样性和句子中的不同词汇很重要，但我们努力让记录句子的过程尽可能的有趣。因此，如果您能尽量保持句子自然/吸引人，那就再好不过了。
 sc-howto-cite-title = 如何引用
 sc-howto-cite-item-1 = 您可以包含网站，例如“Common Voice - https://commonvoice.mozilla.org/”
 sc-howto-cite-item-2 = 您也可以使用学术参考文献格式，例如哈佛格式：Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)
