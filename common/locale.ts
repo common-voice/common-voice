@@ -10,5 +10,5 @@ export type Accent = {
 // data for a user
 export type UserAccentLocale = {
   locale: string;
-  accents?: Accent[]
+  accents?: Accent[];
 };

@@ -33,7 +33,9 @@ export function useIsSubscribed() {
         account.basket_token
     )
       .then(response => response.json())
-      .then(body => setIsSubscribed(body.newsletters?.includes('common-voice')));
+      .then(body =>
+        setIsSubscribed(body.newsletters?.includes('common-voice'))
+      );
   }, [account.basket_token]);
 
   return isSubscribed;
@@ -49,10 +51,9 @@ export function useStickyState(defaultValue: any, key: string) {
   useEffect(() => {
     try {
       window.localStorage.setItem(key, JSON.stringify(value));
-    } catch(e) {
+    } catch (e) {
       console.warn(`A sessionStorage error occurred ${e.message}`);
     }
-
   }, [key, value]);
 
   return [value, setValue];

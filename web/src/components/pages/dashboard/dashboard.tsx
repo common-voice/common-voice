@@ -271,7 +271,7 @@ export default function Dashboard() {
     if (!account) {
       try {
         sessionStorage.setItem('redirectURL', location.pathname);
-      } catch(e) {
+      } catch (e) {
         console.warn(`A sessionStorage error occurred ${e.message}`);
       }
 

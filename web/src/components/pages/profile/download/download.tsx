@@ -282,7 +282,10 @@ export function getProfileInfo(account: UserClient) {
     ...Object.entries(pick(account, 'email', 'username', 'age', 'gender')),
     ...account.locales.reduce((all, l, i) => {
       const localeLabel = 'language ' + (i + 1);
-      const accents = l.accents.slice(1).map((accent: Accent) => accent.name).join(", ");
+      const accents = l.accents
+        .slice(1)
+        .map((accent: Accent) => accent.name)
+        .join(', ');
       const arr = [
         ...all,
         [localeLabel, l.locale],

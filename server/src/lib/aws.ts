@@ -9,7 +9,11 @@ const awsDefaults = {
 
 export namespace AWS {
   let s3 = new S3({ ...awsDefaults, ...getConfig().S3_CONFIG });
-  let sqs = new SQS({ ...awsDefaults, region: 'us-east-1', ...getConfig().CINCHY_CONFIG });
+  let sqs = new SQS({
+    ...awsDefaults,
+    region: 'us-east-1',
+    ...getConfig().CINCHY_CONFIG,
+  });
 
   export function getS3() {
     return s3;

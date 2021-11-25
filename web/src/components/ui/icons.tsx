@@ -155,7 +155,6 @@ export const CheckIcon = uniqueIcon((id, props) => (
   </svg>
 ));
 
-
 export const CheckWithBoxIcon = () => (
   <svg width="22" height="22" viewBox="0 0 22 22">
     <path

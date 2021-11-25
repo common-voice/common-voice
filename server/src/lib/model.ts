@@ -85,7 +85,7 @@ const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = {
   sah: 5.993,
   vot: 2.408,
   az: 6.585,
-  ha: 4.349
+  ha: 4.349,
 };
 
 const getAvgSecondsPerClip = (locale: string) =>

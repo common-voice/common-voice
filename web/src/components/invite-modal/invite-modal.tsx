@@ -56,7 +56,6 @@ export default ({
             } catch (e) {
               console.warn(`A sessionStorage error occurred ${e.message}`);
             }
-
           }
         );
 

@@ -285,10 +285,10 @@ export default class Clip {
           const ret = challengeTokens.includes(challenge)
             ? {
                 filePrefix: filePrefix,
-                showFirstContributionToast: await earnBonus('first_contribution', [
-                  challenge,
-                  client_id,
-                ]),
+                showFirstContributionToast: await earnBonus(
+                  'first_contribution',
+                  [challenge, client_id]
+                ),
                 hasEarnedSessionToast: await hasEarnedBonus(
                   'invite_contribute_same_session',
                   client_id,
@@ -301,7 +301,9 @@ export default class Clip {
                   client_id,
                   challenge,
                 ]),
-                challengeEnded: await this.model.db.hasChallengeEnded(challenge),
+                challengeEnded: await this.model.db.hasChallengeEnded(
+                  challenge
+                ),
               }
             : { filePrefix };
           response.json(ret);
