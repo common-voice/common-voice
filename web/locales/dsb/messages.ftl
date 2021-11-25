@@ -334,8 +334,13 @@ profile-form-native-language =
     .label = Mamina rěc
 profile-form-additional-language =
     .label = Pśidatna rěc
+profile-form-language =
+    .label = Rěc
 profile-form-accent =
     .label = Akcent
+profile-form-custom-accent-help-text =
+    .label = Kak by wy swój akcent wopisował?
+profile-form-custom-accent-placeholder-2 = Zachopśo pisaś, aby swój akcent wopisował
 profile-form-age =
     .label = Starstwo
 profile-form-gender-2 =
@@ -346,6 +351,7 @@ hidden = Schowany
 visible = Widobny
 native-language =
     .label = Mamina rěc
+profile-form-add-accent = Nowy swójski akcent „{ $inputValue }“ pśidaś
 profile-form-submit-save = Składowaś
 profile-form-submit-saved = Skłaźony
 male = Muski
@@ -379,6 +385,7 @@ skip-submission-description = Pśi sobustatkowanju se zapódawański komentar p�
 skip-submission-note = glědajśo: Musyśo hyšći mjazy Powědaś abo Słuchaś wubraś, aby typ sobustatkowanja změnił.
 off = Wušaltowany
 on = Zašaltowany
+help-accent = Trjebaśo pomoc wó akcenśe?
 
 ## Profile - Email
 
