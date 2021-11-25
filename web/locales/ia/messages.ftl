@@ -330,6 +330,9 @@ profile-form-language =
     .label = Lingua
 profile-form-accent =
     .label = Accento
+profile-form-custom-accent-help-text =
+    .label = Como volerea tu describer tu accento?
+profile-form-custom-accent-placeholder-2 = Initia a describer tu accento
 profile-form-age =
     .label = Etate
 profile-form-gender-2 =
@@ -340,6 +343,7 @@ hidden = Celate
 visible = Visibile
 native-language =
     .label = Lingua native
+profile-form-add-accent = Adde un nove accento personal "{ $inputValue }"
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvate
 male = Masculin
@@ -373,6 +377,8 @@ skip-submission-description = Le retroaction sur tu contributiones non essera mo
 skip-submission-note = Nota: tu debera ancora seliger inter parlar o ascoltar pro cambiar typo de contribution.
 off = Inactive
 on = Active
+help-accent = Besonia tu auxilio con le accento?
+help-accent-explanation = Tu accento es le maniera que tu pronuncia le vocabulos. Illo pote esser formate per ubi tu viveva, qual altere linguas tu parla e plure altere factores. Tu pote compartir ulle informationes que tu senti esser pertinente hic.
 
 ## Profile - Email
 
@@ -1082,6 +1088,7 @@ sc-howto-review-criteria-5 = Si le phrase non incontra le superior criterios, cl
 sc-howto-review-criteria-6 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger plus phrases!
 sc-howto-findpd-title = Trovar phrases existente de dominio public
 sc-howto-findpd-subtitle = Cercar los in internet
+sc-howto-findpd-text-2 = Rememora que nos besonia le permission pro publicar ille phrases, assi sempre assecura te que le texto pertine al <wikipediaLink>dominio public</wikipediaLink>. Si il non ha un indication explicite, continge le persona proprietario del texto e demanda si ille vole contribuer lor texto al dominio public. Si ille lo vole, adjuta le ir per le processo de <cc0WaiverLink>Accordo de collaborationes</cc0WaiverLink>. Si illes non vole contribuer le texto, alora non te es permittite usar ille texto.
 sc-howto-findpd-tips = Ecce alcun consilios utile pro trovar phrases:
 sc-howto-findpd-tips-1 = Le melior fontes pro recercar es podcasts, transcriptiones, scenarios de film e alco que pote continer conversationes del vita quotidian.
 sc-howto-findpd-tips-2 = Alsi deliberationes, libros e articulos governative es formidabile, totevia pois que le texto tende a esser un poco plus formal illos es de minor prioritate.
