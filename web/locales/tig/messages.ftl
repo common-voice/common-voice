@@ -325,6 +325,7 @@ hidden = ሕቡዕ
 visible = ርኡይ
 native-language =
     .label = ሉቀት ኡም
+profile-form-add-accent = ሓዳስ መኽሱሰት ለክነት ወስኮ "{ $inputValue }"
 profile-form-submit-save = ዓቅብ
 profile-form-submit-saved = ተዓቀባ
 male = ተብዕን
@@ -347,6 +348,7 @@ contribution-experience = ናይ ሙሳህምት ኽብረት
 skip-submission-note = ኖዕ ሙሳሃመትኩም ግል ትቀይሮ ፍንገ 'ሃገዮት' ው 'ስምዓት' ሐርየት ላትሓዜኩም ቱ
 off = ደቡእ
 on = ፍቱሕ
+help-accent = ናይ ለክነት ሙሳዓደት ታሓዞ?
 
 ## Profile - Email
 
@@ -848,6 +850,7 @@ sc-submit-ph-one-per-line =
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = ሉቀት ትትወሰኽ ኢቀድርትኒ
 sc-add-lang-sec-label = ትሳህም ዲባ ላትሓዘ ሉቀት ውስኽ
 sc-add-lang-sec-button = ሉቀት ውስኽ
 
@@ -869,6 +872,7 @@ sc-confirm-button-text = ኣክድ
 
 ## LANGUAGE INFO
 
+sc-lang-info-review-now = <reviewLink>ኣዘ ራጀዖ!</reviewLink>
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
