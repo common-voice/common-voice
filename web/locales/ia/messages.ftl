@@ -326,6 +326,8 @@ profile-form-native-language =
     .label = Lingua native
 profile-form-additional-language =
     .label = Lingua additional
+profile-form-language =
+    .label = Lingua
 profile-form-accent =
     .label = Accento
 profile-form-age =
@@ -1080,7 +1082,6 @@ sc-howto-review-criteria-5 = Si le phrase non incontra le superior criterios, cl
 sc-howto-review-criteria-6 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger plus phrases!
 sc-howto-findpd-title = Trovar phrases existente de dominio public
 sc-howto-findpd-subtitle = Cercar los in internet
-sc-howto-findpd-text = Rememora que nos besonia le permission pro publicar ille phrases, assi sempre assecura te que le texto pertine al <wikipediaLink>dominio public</wikipediaLink>. Si il non ha un indication, continge le persona cuje le texto pertine e demanda si tu pote usar su texto.
 sc-howto-findpd-tips = Ecce alcun consilios utile pro trovar phrases:
 sc-howto-findpd-tips-1 = Le melior fontes pro recercar es podcasts, transcriptiones, scenarios de film e alco que pote continer conversationes del vita quotidian.
 sc-howto-findpd-tips-2 = Alsi deliberationes, libros e articulos governative es formidabile, totevia pois que le texto tende a esser un poco plus formal illos es de minor prioritate.
@@ -1096,7 +1097,11 @@ sc-my-description = Iste pagina te da un summario de tote tu phrases inviate. Tu
 sc-my-loading = Cargamento de tu phrases…
 sc-my-err-fetching = Error recuperante tu phrases.
 sc-my-no-sentences = Nulle phrases trovate!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Invio: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Fonte: { $fonte }
 sc-my-delete = Deler phrases seligite
 sc-my-deleting = Deletion del phrases seligite
@@ -1112,9 +1117,14 @@ sc-rejected-none-found = Nulle phrases rejectate trovate!
 ## STATS
 
 sc-stats-title = Statistica
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = Ultime actualisation: { $lastUpdate }
 sc-stats-last-update-never = Ultime actualisation: nunquam
 sc-stats-updating = Actualisation...
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
 sc-stats-summary = Common Voice Sentence Collector ha colligite { $sentenceCount } phrases in { $languageCount } linguas!
 
 ## ADD
@@ -1146,12 +1156,16 @@ sc-add-lang-could-not-add = Impossibile adder lingua
 sc-add-lang-sec-label = Adde un lingua con le qual tu vole contribuer
 sc-add-lang-sec-button = Adder un lingua
 sc-add-err-unexpected = Responsa inexpectate del servitor
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
         [0] Phrases inviate. { $duplicates } phrases ha essite rejectate perque duplicate.
         [one] Phrases inviate. { $duplicates } phrase ha essite rejectate perque duplicate.
        *[other] Phrases inviate. { $duplicates } phrases ha essite rejectate perque duplicate.
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
         [0] Nulle phrase fallite
@@ -1165,12 +1179,16 @@ sc-add-err-submission = Error de invio
 sc-confirm-are-you-sure =
     .message = Phrases non inviate, desira tu vermente exir?
 sc-confirm-sentences-title = Confirmar nove phrases
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] Nulle phrases trovate.
         [one] 1 phrase trovate.
        *[other] { $countOfSentences } phrases trovate.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } rejectate per te
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
@@ -1178,30 +1196,40 @@ sc-confirm-already-reviewed =
         [one] 1 phrase jam revidite. Formidabile labor!
        *[other] { $countOfReviewed } phrases jam revidite.  Formidabile labor!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
         [0] Nulle phrase preste pro le invio!
         [one] 1 phrase preste pro le invio!
        *[other] { $readyCount } phrases preste pro le invio!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } phrases es non revidite. Si tu vole, tu pote alsi revider tu phrases ora, ante inviar los.
 sc-confirm-button-text = Confirmar
 sc-confirm-uploading = Phrases va esser cargate. Isto pote prender plure minutas secundo le numero de phrases addite. Non claude iste sito web.
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
         [0] N. total de phrases.
         [one] 1 phrase total
        *[other] { $totalSentences } phrases total.
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] Nulle phrases in revision.
         [one] 1 phrase in revision.
        *[other] { $totalInReview } phrases in revision.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] Nulle phrases restate pro tu revision.
@@ -1210,12 +1238,16 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Revide ora!</reviewLink>
 sc-lang-info-add-more = <addLink>Adde altere phrases ora!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
         [0] Nulle phrases validate.
         [one] 1 phrase validate.
        *[other] { $validatedSentences } phrases validate.
     }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Nulle phrases rejectate
@@ -1230,11 +1262,15 @@ sc-login-err-try-again = Retenta.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
 sc-profile-title = Profilo: { $username }
 sc-personal-err-lang-not-found = Impossibile remover le lingua: lingua non trovate
 sc-personal-err-remove = Impossibile remover le lingua
 sc-personal-your-languages = Tu linguas:
 sc-personal-remove-button = remover
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $phrases } addite per te
 sc-personal-not-added = Tu non ha addite ulle linguas totevia.
 
@@ -1247,7 +1283,7 @@ sc-criteria-item-1 = Le orthographia del phrase debe esser correcte.
 sc-criteria-item-2 = Le phrase debe esser grammaticalmente correcte.
 sc-criteria-item-3 = Le phrase debe esser pronunciabile.
 sc-criteria-item-4 = Si le phrase satisface le criterios, clicca le button &quot;Approbar&quot; a dextera.
-sc-criteria-item-5 = Si le phrase non satisface le criterios de supra, clicca le button &quot;Rejectar&quot; a dextera.
+sc-criteria-item-5-2 = Si le phrase non satisface le criterios de supra, clicca le button &quot;Rejectar&quot; a sinistra. Si tu non es secur del phrase, tu pote alsi saltar lo e mover sur illo sequente.
 sc-criteria-item-6 = Si tu non es secur del phrase, tu pote alsi saltar lo e mover a illo sequente.
 
 ## REVIEW
@@ -1260,6 +1296,8 @@ sc-review-no-sentences = Nulle phrases a revider. <addLink>Adde altere phrases o
 sc-review-form-prompt =
     .message = Le phrases revidite non es inviate! Es tu secur?
 sc-review-form-usage = Glissa a dextera pro approbar le phrase. Glissa a sinistra pro rejectar lo. <strong>Non oblida de inviar tu revision!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Fonte: { $sentenceSource }
 sc-review-form-button-reject = Rejectar
 sc-review-form-button-skip = Saltar
@@ -1268,6 +1306,8 @@ sc-review-form-button-approve = Approbar
 sc-review-form-keyboard-usage = Tu alsi pote usar le vias breve de claviero: Y pro Approbar, N pro Rejectar, S pro Saltar
 sc-review-form-button-submit =
     .submitText = Finir revision
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Nulle phrases revidite
