@@ -1025,17 +1025,38 @@ sc-my-submission = 提交于：{ $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = 来源：{ $source }
-sc-my-delete = 删除选取的语句
+sc-my-delete = 删除选中的句子
+sc-my-deleting = 正在删除选中的句子…
+sc-my-err-failed-delete = 所选句子删除失败…请重试！
 
 ## REJECTED
 
+sc-rejected-title = 驳回的句子
+sc-rejected-loading = 正在加载驳回的句子…
+sc-rejected-err-fetching = 获取驳回的句子失败，请重试。
+sc-rejected-none-found = 找不到驳回的句子！
 
 ## STATS
 
+sc-stats-title = 统计数据
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = 最后更新：{ $lastUpdate }
+sc-stats-last-update-never = 最后更新：从未
 sc-stats-updating = 正在更新…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice 语句收集工具已收集了 { $languageCount } 种语言的 { $sentenceCount } 个句子！
 
 ## ADD
 
+sc-submit-err-select-lang = 请选择语言。
+sc-submit-err-add-sentences = 请添加句子。
+sc-submit-err-add-source = 请添加来源。
+sc-submit-err-confirm-pd = 请确认这些句子来自于公共领域。
+sc-submit-prompt =
+    .message = 句子尚未提交，您确定要离开吗？
 sc-submit-select-language =
     .labelText = 选择语言
 sc-submit-button =
