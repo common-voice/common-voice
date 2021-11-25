@@ -70,7 +70,7 @@ export default class Server {
     this.model = new Model();
     this.api = new API(this.model);
 
-    useRedis.then((ready) => {
+    useRedis.then(ready => {
       if (ready) {
         this.taskQueues = createTaskQueues(this.api.takeout);
         this.api.takeout.setQueue(this.taskQueues.dataTakeout);

@@ -276,7 +276,7 @@ export default function CustomGoal({
         await saveAccount({
           ...account,
           locales: account.locales.concat({
-            locale: dashboardLocale
+            locale: dashboardLocale,
           }),
         });
       }

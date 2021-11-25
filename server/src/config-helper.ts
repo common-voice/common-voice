@@ -99,7 +99,11 @@ const BASE_CONFIG: CommonVoiceConfig = {
   BASKET_API_KEY: configEntry('CV_BASKET_API_KEY', null),
   BENCHMARK_LIVE: configEntry('CV_BENCHMARK_LIVE', false, castBoolean),
   DEBUG: configEntry('CV_DEBUG', false, castBoolean),
-  FLAG_BUFFER_STREAM_ENABLED: configEntry('CV_FLAG_BUFFER_STREAM_ENABLED', false, castBoolean),
+  FLAG_BUFFER_STREAM_ENABLED: configEntry(
+    'CV_FLAG_BUFFER_STREAM_ENABLED',
+    false,
+    castBoolean
+  ),
 };
 
 let injectedConfig: CommonVoiceConfig;

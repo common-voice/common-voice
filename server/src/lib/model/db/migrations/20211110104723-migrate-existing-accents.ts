@@ -25,7 +25,7 @@ export const up = async function (db: any): Promise<any> {
           AND ua.accent_token = accents.accent_token
         )
       WHERE ua.accent_token IS NOT NULL;
-  `)
+  `);
 };
 
 export const down = async function (db: any): Promise<any> {

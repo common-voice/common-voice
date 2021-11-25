@@ -11,11 +11,10 @@ import {
   challengeTokens,
   challengeTeamTokens,
   UserAccentLocale,
-  Accent
+  Accent,
 } from 'common';
 
 const db = getMySQLInstance();
-
 
 /*
  * due to the way accents are stored, the user retrieval queries returns
@@ -25,38 +24,49 @@ const compileLocales = (clientLocales: any, row: any) => {
   const result = clientLocales || {};
 
   if (row.accent_id) {
-    const accent = { name: row.accent_name, id: row.accent_id, token: row.accent_token };
+    const accent = {
+      name: row.accent_name,
+      id: row.accent_id,
+      token: row.accent_token,
+    };
     if (result[row.locale]) {
       result[row.locale].accents.push(accent);
     } else {
       result[row.locale] = {
         locale: row.locale,
-        accents: [accent]
-      }
+        accents: [accent],
+      };
     }
   }
 
   return result;
-}
+};
 
 /*
  * while collating accents using compileLocales() it makes sense to refer to them as an object
  * everywhere else in the UI expects an array, and this is less disruptive than refactoring those mechanisms
  */
 const reduceLocales = (userObj: any) => {
-  return userObj?.locales ?
-    {
-      ...userObj,
-      locales: Object.keys(userObj.locales).map((key: string) => userObj.locales[key])
-    }
+  return userObj?.locales
+    ? {
+        ...userObj,
+        locales: Object.keys(userObj.locales).map(
+          (key: string) => userObj.locales[key]
+        ),
+      }
     : userObj;
-}
+};
 
 const generateAccentToken = (accent: string) => {
   // Note: this is extremely rudimentary, because ECMA regex is inconsistent with
   // full unicode charset and may impact non-romance languages
-  return accent.trim().toLowerCase().replace(/[\.,;\?\!'"]/g, '').replace(/[\s-_\(\)\[\]\<\>`]/g, '-').replace(/(-)(?=\1)/g, '-');
-}
+  return accent
+    .trim()
+    .toLowerCase()
+    .replace(/[\.,;\?\!'"]/g, '')
+    .replace(/[\s-_\(\)\[\]\<\>`]/g, '-')
+    .replace(/(-)(?=\1)/g, '-');
+};
 
 /**
  * Updates accent entries for a given user
@@ -68,21 +78,38 @@ const generateAccentToken = (accent: string) => {
  *   localesToUpdate: { locale: string, accent_name: string, accent_id: number } to represent entres
  *      that need to be added
  */
-const getLocalesDelta = async (clientId: string, accentLocales: UserAccentLocale[]) => {
+const getLocalesDelta = async (
+  clientId: string,
+  accentLocales: UserAccentLocale[]
+) => {
   // creates a flat array of locale/accent objects so that
   // all locales are at the same level for easier manipulations
   const localesFlat = accentLocales.reduce(
-    (localeListFlat: { locale: string, accent_name?: string, accent_id?: number}[], locale: UserAccentLocale) => {
+    (
+      localeListFlat: {
+        locale: string;
+        accent_name?: string;
+        accent_id?: number;
+      }[],
+      locale: UserAccentLocale
+    ) => {
       // Flatten the accents and return the entire flat array
-      return localeListFlat.concat(locale.accents.reduce((accentListFlat: any[], accent: any) => {
-        return accentListFlat.concat({locale: locale.locale, accent_name: accent.name, accent_id: accent.id});
-      }, []));
-  }, []);
+      return localeListFlat.concat(
+        locale.accents.reduce((accentListFlat: any[], accent: any) => {
+          return accentListFlat.concat({
+            locale: locale.locale,
+            accent_name: accent.name,
+            accent_id: accent.id,
+          });
+        }, [])
+      );
+    },
+    []
+  );
 
   // Get a list of all accents currently stored for this user
-  const [savedLocales]: [
-    { id: number; accent_id: number }[]
-  ] = await db.query(`
+  const [savedLocales]: [{ id: number; accent_id: number }[]] = await db.query(
+    `
       SELECT id, accent_id
       FROM user_client_accents
       WHERE client_id = ?
@@ -92,18 +119,22 @@ const getLocalesDelta = async (clientId: string, accentLocales: UserAccentLocale
   );
 
   // Get a list of just the accent IDs of each for easier iterating
-  const savedIds = savedLocales.map((saved) => saved.accent_id);
-  const flatIds = localesFlat.map((locale) => locale.accent_id);
+  const savedIds = savedLocales.map(saved => saved.accent_id);
+  const flatIds = localesFlat.map(locale => locale.accent_id);
 
   // Do not re-insert accents that have already been saved
   // Filter out everything from localesFlat that already has a corresponding value in savedLocales
-  const localesToUpdate = localesFlat.filter((accentLocale) => !savedIds.includes(accentLocale.accent_id));
+  const localesToUpdate = localesFlat.filter(
+    accentLocale => !savedIds.includes(accentLocale.accent_id)
+  );
 
   // delete accents that the user has de-selected
-  const localesToDelete = savedLocales.filter((savedLocale) => !flatIds.includes(savedLocale.accent_id));
+  const localesToDelete = savedLocales.filter(
+    savedLocale => !flatIds.includes(savedLocale.accent_id)
+  );
 
   return { localesToUpdate, localesToDelete };
-}
+};
 
 /**
  * Updates accent entries for a given user
@@ -112,13 +143,19 @@ const getLocalesDelta = async (clientId: string, accentLocales: UserAccentLocale
  * @param locales array of UserAccentLocales
  * @returns void
  */
-async function updateLocales(clientId: string, accentLocales: UserAccentLocale[]) {
-  const { localesToUpdate, localesToDelete } = await getLocalesDelta(clientId, accentLocales);
+async function updateLocales(
+  clientId: string,
+  accentLocales: UserAccentLocale[]
+) {
+  const { localesToUpdate, localesToDelete } = await getLocalesDelta(
+    clientId,
+    accentLocales
+  );
 
   // If the user has removed locale/accent values, remove entry from db
   if (localesToDelete.length > 0) {
     await db.query('DELETE FROM user_client_accents WHERE id IN (?)', [
-      localesToDelete.map((accent) => accent.id),
+      localesToDelete.map(accent => accent.id),
     ]);
   }
 
@@ -134,7 +171,13 @@ async function updateLocales(clientId: string, accentLocales: UserAccentLocale[]
         await db.query(
           `INSERT INTO accents (locale_id, accent_name, accent_token, user_submitted, client_id) values (?, ?, ?, ?, ?)
               ON DUPLICATE KEY UPDATE locale_id = locale_id`,
-          [localeId, accent.accent_name, generateAccentToken(accent.accent_name), true, clientId]
+          [
+            localeId,
+            accent.accent_name,
+            generateAccentToken(accent.accent_name),
+            true,
+            clientId,
+          ]
         );
 
         const [
@@ -253,7 +296,7 @@ const UserClient = {
         const client = obj[row.client_id];
         obj[row.client_id] = {
           ...pick(row, 'client_id', 'accent', 'age', 'gender'),
-          locales: {...compileLocales(client.locales, row)},
+          locales: { ...compileLocales(client.locales, row) },
         };
         return obj;
       }, {})
@@ -317,36 +360,37 @@ const UserClient = {
       ? await Promise.all([CustomGoal.find(clientId), Awards.find(clientId)])
       : [[], []];
 
-    const userObj = rows.length == 0
-      ? null
-      : rows.reduce(
-          (client: UserClientType, row: any) => ({
-            ...pick(
-              row,
-              'accent',
-              'age',
-              'email',
-              'gender',
-              'username',
-              'basket_token',
-              'skip_submission_feedback',
-              'visible',
-              'avatar_url',
-              'avatar_clip_url',
-              'clips_count',
-              'votes_count'
-            ),
-            locales: {...compileLocales(client.locales, row)},
-            awards,
-            custom_goals,
-            enrollment: {
-              team: row.team,
-              challenge: row.challenge,
-              invite: row.invite,
-            },
-          }),
-          { locales: [] }
-        );
+    const userObj =
+      rows.length == 0
+        ? null
+        : rows.reduce(
+            (client: UserClientType, row: any) => ({
+              ...pick(
+                row,
+                'accent',
+                'age',
+                'email',
+                'gender',
+                'username',
+                'basket_token',
+                'skip_submission_feedback',
+                'visible',
+                'avatar_url',
+                'avatar_clip_url',
+                'clips_count',
+                'votes_count'
+              ),
+              locales: { ...compileLocales(client.locales, row) },
+              awards,
+              custom_goals,
+              enrollment: {
+                team: row.team,
+                challenge: row.challenge,
+                invite: row.invite,
+              },
+            }),
+            { locales: [] }
+          );
 
     return reduceLocales(userObj);
   },
@@ -386,7 +430,11 @@ const UserClient = {
     );
     // the accountClientId can't be a placeholder value otherwise it'll
     // treat any ? in the username or email as a placeholder also and the query will break
-    const updateDemographicsPromise = updateDemographics(accountClientId, data.age, data.gender);
+    const updateDemographicsPromise = updateDemographics(
+      accountClientId,
+      data.age,
+      data.gender
+    );
     await Promise.all([
       updateDemographicsPromise,
       this.claimContributions(accountClientId, clientIds),

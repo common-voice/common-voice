@@ -35,7 +35,7 @@ import {
 import './dataset-info.css';
 import URLS from '../../../urls';
 import { byteToSize } from '../../../utility';
-import useSortedLocales from "../../../hooks/use-sorted-locales";
+import useSortedLocales from '../../../hooks/use-sorted-locales';
 
 export const CURRENT_RELEASE = 'cv-corpus-7.0-2021-07-21';
 const SEGMENT_RELEASE = 'cv-corpus-7.0-singleword';
@@ -195,7 +195,10 @@ const DatasetCorpusDownload = ({
 
   const [locale, _] = useLocale();
   const [releaseStats, setReleaseStats] = React.useState(releases[releaseName]);
-  const [sortedLocales] = useSortedLocales(Object.keys(releaseStats.locales), getString);
+  const [sortedLocales] = useSortedLocales(
+    Object.keys(releaseStats.locales),
+    getString
+  );
 
   let bundleLocale = releaseStats.locales[locale] ? locale : 'en';
   let localeStats = releaseStats.locales[bundleLocale];
@@ -259,12 +262,11 @@ const DatasetCorpusDownload = ({
           name="bundleLocale"
           value={bundleState.bundleLocale}
           onChange={handleLangChange}>
-          {sortedLocales
-            .map(locale => (
-              <Localized key={locale} id={locale}>
-                <option value={locale} />
-              </Localized>
-            ))}
+          {sortedLocales.map(locale => (
+            <Localized key={locale} id={locale}>
+              <option value={locale} />
+            </Localized>
+          ))}
         </LabeledSelect>
 
         <ul className="facts">{renderStats(releaseStats, bundleState)}</ul>
