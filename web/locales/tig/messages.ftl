@@ -871,6 +871,8 @@ sc-submit-select-language =
 sc-submit-add-sentences = ናይ<wikipediaLink>ሙልኬት ዓመት</wikipediaLink>ጁመል ውስኽ
 sc-submit-ph-one-per-line =
     .placeholder = ዎሮ ጁምለት ዲብ ዎሮ ሰጠር
+sc-submit-from-where = እለን ናይ<wikipediaLink>ሙልኬት ዓመት</wikipediaLink>ጁመል ምን ኣያ ተን?
+sc-submit-guidelines = እኢ <howToLink>መምረሔታት</howToLink> ኣምር.
 
 ## ADD LANGUAGE
 
