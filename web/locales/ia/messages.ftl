@@ -1180,6 +1180,7 @@ sc-add-err-failed =
        *[other] { $sentences } phrases fallite
     }
 sc-add-err-submission = Error de invio
+sc-add-lang-process-notice = Si tu lingua non es in le lista de presentation hic, tu pote requirer lo a transverso de <languageProcessLink>iste processo</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1327,10 +1328,17 @@ sc-review-link = Revider
 ## SETTINGS
 
 sc-settings-title = Parametros
+sc-settings-ui-language = Lingua del interfacie:
+sc-settings-language-translated-warning = Le paginas pro iste lingua poterea non esser plenmente traducite. Tu pote adjutar con le traduction <pontoonLinkLink>sur Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Remontar phrases saltate
 sc-settings-skipped-decription = Tu phrases previemente saltate durante le revision. Remontar phrases saltate de novo monstrara tote le phrases saltate. Isto es independente del lingua.
 sc-settings-show-all-button = Monstrar de novo tote le phrases saltate
 sc-settings-failed = Impossibile cambiar parametros. Retenta.
+# VALIDATION
+sc-validation-number-of-words = Phrase debe contine inter 1 e 14 (inclusive) vocabulos
+sc-validation-no-numbers = Phrase non debe continer numeros
+sc-validation-no-symbols = Phrase non debe continer symbolos
+sc-validation-no-abbreviations = Phrase non debe continer abbreviationes
 
 # [/SentenceCollector]
 
