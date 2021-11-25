@@ -496,10 +496,12 @@ const UserClient = {
       [email, old_email]
     );
 
-    await db.query(
-      'UPDATE user_client_newsletter_prefs SET email = ? WHERE email = ?',
-      [email, old_email]
-    );
+    // If user changes email in Common Voice system, Basket/SFDC doesn't know to update
+    // and the current UI doesn't allow them to manually change it, so it's better
+    // to remove the sub altogether and have them resubscribe under a new email
+    await db.query(`DELETE FROM user_client_newsletter_prefs WHERE email = ?`, [
+      old_email,
+    ]);
 
     return true;
   },
