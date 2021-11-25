@@ -580,6 +580,7 @@ target-segment-learn-more = ዘያደት አምሮ
 
 report = ተቅሪር
 report-title = ታቅሪር ላኣኽ
+report-ask = ሚ መሻክል ልዋጅሃኩም ሃላ ምስል እላ ጁምለት
 report-offensive-language = እኩይ ሉቀት
 report-different-language = ብዕደት ሉቀት
 report-different-language-detail = አብ ሉቀት ብዕደት መን ላ ኣና አትሃገያ ለህሌኮ ከጥበት ታ
@@ -603,6 +604,11 @@ recordings =
     { $count ->
         [one] ተስጂል
        *[other] ተስጂላት
+    }
+validations =
+    { $count ->
+        [one] ዓመልየት ታሕቂቅ
+       *[other] ዓመልያት ታሕቂቅ
     }
 
 ## Dashboard
@@ -640,6 +646,7 @@ difficult-difficulty = ሳዓብ
 pro-difficulty = ሙሕተርፍ
 want-to-continue = ትኣስተመሮ ታሓዙ?
 lose-changes-warning = ኣዘ ሓቆ ፋገርካ ሽቁልካ ግል ልብደቱ
+build-custom-goal = ሓደፍ ማኽሱስ ውደ
 help-reach-hours-general-pluralized =
     Common Voice ሳዕዳ እግል ትብጻሕ{ NUMBER($hours) ->
         [one] ሳዓት
