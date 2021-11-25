@@ -864,6 +864,14 @@ sc-confirm-button-text = ኣክድ
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] ላትረፈዳ ጁመል ይኣለቡኒ
+        [one] ዎሮ ላትረፈደት ጁምለት
+       *[other] { $rejectedSentences } ላትረፈደያ ጁመል
+    }
 
 ## LOGIN
 
