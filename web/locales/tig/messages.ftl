@@ -742,6 +742,7 @@ contribution-misreadings-example-4-title = ላ ዳይናሱር ዓቢ ምን ና
 contribution-misreadings-example-5-title = ቡን ግል ንስተ ፍግር ሀሌና
 contribution-misreadings-example-6-title = ቡን ግል ንስተ ፍግር ሀሌና
 contribution-misreadings-example-7-title = ቡን ግል ንስተ ፍግር ሀሌና
+contribution-varying-pronunciations-title = ላልትቀያየር ኑጡቅ
 contribution-varying-pronunciations-example-1-title = On his head he wore a beret.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]
 contribution-varying-pronunciations-example-2-title = His hand was rais-ed.
@@ -760,16 +761,22 @@ see-less = <chevron></chevron>ሑድ ረአ
 
 ## HEADER/FOOTER
 
+sc-header-how-to = ከፎ
 sc-header-add = ወስኽ
+sc-header-review = ራጀዕ
 sc-header-rejected = ላትረፈደያ ጁመል
 sc-header-my = ጁመል ናየ
 sc-header-statistics = እሕሳእ
+sc-header-profile = ናይ ኖስ መለፍ
 sc-footer-report-bugs = ትቅሪር ናይ ንቁስ
 sc-footer-translate = እላ ሰፍሓት ተርጅም
+sc-footer-privacy = ኽሱስያት
 sc-footer-terms = ሸሩጥ
+sc-footer-cookies = ክዓክ
 
 ## HOME
 
+sc-home-title = ዳሓን መጽው ዲብ ናይ Common Voice ጁመል ኣከብይ
 sc-home-collect-title = ጁመል ኣኽብ
 sc-home-review-title = ጁመል ራጂዕ
 
