@@ -808,7 +808,7 @@ sc-footer-cookies = ክዓክ
 
 ## HOME
 
-sc-home-title = ዳሓን መጽው ዲብ ናይ Common Voice ጁመል ኣከብይ
+sc-home-title = ዳሓን መጽው ዲብ ናይ Common Voice ጁመል ኣኬባይ
 sc-home-collect-title = ጁመል ኣኽብ
 sc-home-collect-text = ሰደና እብ ክታበት ኦው አካበት ጁመል ሙልኬት ዓመት
 sc-home-review-title = ጁመል ራጂዕ
@@ -849,6 +849,15 @@ sc-rejected-none-found = ላትረፈደያ ጁመል የኣለቡ
 ## STATS
 
 sc-stats-title = እሕሳእ
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = ኣኽር መረት ታሓደሳ ዲብ:
+sc-stats-last-update-never = ኣኽር መረት ታሓደሳ ዲብ: ኣበደን
+sc-stats-updating = ልትሓደስ ህላ ...
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = ናይ Common Voice ጁመል ኣኬባይ ኣስኽ ኣዘ { $sentenceCount } ጁምለት ኣከባ ዲብ { $languageCount } ሉቀት
 
 ## ADD
 
