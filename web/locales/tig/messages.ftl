@@ -482,6 +482,7 @@ your-feedback = አፍካር ብካ ግል ምጅሙዓት በያናት Common V
 go-discourse = Discourse ጊሶ
 missing-language = ሉቀትኩም ዲብላ ምጅሙዓት በያናት ትርአዋ የህሌኩምኒ? ሉቀት ግል ትጥለቦ ዲብ ናይ Languages ሰፍሓት ጊሶ
 go-languages-page = ዲብ ናይ Languages Page ጊሶ
+ready-to-validate = ዲብ ታሕቂቅ ናይ ጁመል ትሳዕዶ ታሓዙ?
 more = ዝያዳ
 close = ድብኦ
 download = ኣውርድ
@@ -489,6 +490,7 @@ download = ኣውርድ
 ## Download Modal
 
 download-title = ሙራድካ ኣንበታ ህላ
+download-helpus = ናይ ሶት ተክኖሎጂየት ማሕበር እግል ንብነ ስደና, እብ ኢሜል ዋስል ምስልና
 download-form-email =
     .label = ኢመልኩም ኣቱ
     .value = ሹክረን ገል ናተስል ብኩም ቱ
