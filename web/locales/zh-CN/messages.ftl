@@ -767,7 +767,7 @@ contribution-activity = 贡献记录
 top-contributors = 杰出贡献者
 recorded-clips = 录制的片段
 validated-clips = 验证的片段
-total-approved = 总通过数
+total-approved = 总核准数
 overall-accuracy = 总体准确度
 set-visibility = 设置是否在排行榜显示自己
 visibility-explainer = 此设置项控制您的排行榜可见性。若设为“隐藏”，您的进度将仅自己可见。这意味着您的照片、用户名和贡献进度均不会出现在排行榜上。请注意，排行榜信息的刷新需等待约 { $minutes } 分钟，以生效作出的更改。
@@ -1015,6 +1015,12 @@ sc-home-title = 欢迎使用 Common Voice 语句收集工具
 
 ## HOW-TO
 
+sc-howto-title = 如何做
+sc-howto-addlang-title = 添加要贡献的语言
+sc-howto-addlang-text = 登录后，就可以在个人资料页选择您要贡献哪些语言的句子。
+sc-howto-addsen-title = 添加新句子
+sc-howto-cite-title = 如何引用
+sc-howto-cite-item-1 = 您可以包含网站，例如“Common Voice - https://commonvoice.mozilla.org/”
 sc-howto-review-title = 审核句子
 sc-howto-review-subtitle = 请确保句子符合以下标准：
 sc-howto-review-criteria-1 = 句子必须拼写正确。
@@ -1149,9 +1155,11 @@ sc-personal-remove-button = 移除
 
 sc-criteria-modal = ⓘ 审核标准
 sc-criteria-title = 审核标准
+sc-criteria-item-4 = 若句子符合上述标准，请点击右方的“通过”按钮。
 
 ## REVIEW
 
+sc-review-form-usage = 向右滑通过句子、向左滑驳回、向上滑跳过。<strong>别忘记提交您的审核结果！</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = 来源：{ $sentenceSource }
