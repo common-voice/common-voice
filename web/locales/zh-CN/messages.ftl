@@ -210,7 +210,7 @@ wall-of-text-more-desktop = 现在，您可以捐出一段声音，帮助我们�
 wall-of-text-first = 语音是自然的、有人性的。这也是为什么我们希望为机器建立可用的语音技术。但要创造一个语音系统，开发者需要大量的语音数据。
 wall-of-text-second = 大部分由行业巨头持有的数据，并未开放给公众使用。我们认为这会扼杀创新，因而推出了 Common Voice 项目，让语音识别技术的大门对每个人开放而无障碍。
 show-wall-of-text = 详细了解
-help-us-title = 帮助我们验证语句！
+help-us-title = 帮助我们验证句子！
 help-us-explain = 请点击播放，听一听，然后告诉我们：他们正确说出了下面的句子吗？
 no-clips-to-validate = 看来这个语言没有任何片段可听。请帮助我们录下一些片段。
 vote-yes = 是
@@ -601,7 +601,7 @@ your-feedback = 您有任何可以让 Common Voice 数据集变得更好的想�
 go-discourse = 前往 Discourse
 missing-language = 未在数据集中看到您的语言？请到语言页请求加入新语言。
 go-languages-page = 前往语言页
-ready-to-validate = 准备好帮助验证语句了吗？
+ready-to-validate = 准备好帮忙验证句子了吗？
 more = 更多
 close = 关闭
 download = 下载
@@ -641,7 +641,7 @@ other-language = 其他语言
 language-section-in-progress = 准备中
 language-section-in-progress-new-description = 这些语言当前处于社区发展中。其中的进度条反映了<localizationGlossaryLink>网站的本地化</localizationGlossaryLink>翻译进度，以及<sentenceCollectionGlossaryLink>语句</sentenceCollectionGlossaryLink>收集进度。
 language-section-launched = 已上线
-language-section-launched-description = 推出的语言代表网站已成功<localizationGlossaryLink>本地化</localizationGlossaryLink>，也收集了足够的<sentenceCollectionGlossaryLink>语句</sentenceCollectionGlossaryLink>，足以支持<speakLink>说话</speakLink>及<listenLink>聆听</listenLink>的贡献。
+language-section-launched-description = 推出的语言代表网站已成功<localizationGlossaryLink>本地化</localizationGlossaryLink>，也收集了足够多<sentenceCollectionGlossaryLink>句子</sentenceCollectionGlossaryLink>，足以支持<speakLink>说话</speakLink>及<listenLink>聆听</listenLink>的贡献。
 languages-show-more = 显示更多
 languages-show-less = 显示更少
 language-meter-in-progress = 进度
@@ -717,13 +717,13 @@ target-segment-learn-more = 详细了解
 
 report = 反馈
 report-title = 提交反馈
-report-ask = 该语句存在什么问题？
+report-ask = 这句话存在什么问题？
 report-offensive-language = 冒犯性的语言
 report-offensive-language-detail = 这句话有不尊重或冒犯性的语言。
 report-grammar-or-spelling = 语法 / 拼写错误
 report-grammar-or-spelling-detail = 这句话的语法或拼写有误。
 report-different-language = 其他语言
-report-different-language-detail = 这句话是其他语言的语句。
+report-different-language-detail = 这句话是其他语言的句子。
 report-difficult-pronounce = 难以发音
 report-difficult-pronounce-detail = 其中包含难以阅读或发音的单词或短语。
 report-offensive-speech = 冒犯性的录音片段
@@ -992,6 +992,7 @@ see-less = <chevron></chevron>看更少
 ## HEADER/FOOTER
 
 sc-header-home = 主页
+sc-header-how-to = 如何做
 sc-header-add = 添加
 sc-header-review = 审核
 sc-footer-report-bugs = 报告缺陷（Bug）
@@ -1011,6 +1012,8 @@ sc-logout-button = 退出
 
 ## MY SENTENCES
 
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = 来源：{ $source }
 
 ## REJECTED
