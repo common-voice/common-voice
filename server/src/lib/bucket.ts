@@ -126,6 +126,7 @@ export default class Bucket {
       } catch (e) {
         console.log(e.message);
         console.log(`aws error retrieving clip_id ${id}`);
+        await this.model.db.markInvalid(id.toString());
       }
     }
 
