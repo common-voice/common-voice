@@ -896,10 +896,22 @@ sc-review-form-button-skip = ሕለፍ
 sc-review-form-button-approve = ዋፍቅ
 sc-review-form-button-submit =
     .submitText = ሙራጅዓት ኣኽልሶ
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] ላትራጅዓት ጁምለት ይኣለቡኒ
+        [one]
+            ዎሮ ጁምለት ትራጅዓት፣ ሹክረን
+            ዎሮ ጁምለት ትራጅዓት፣ ሹክረን
+            ዎሮ ጁምለት ትራጅዓት፣ ሹክረን
+       *[other] { $sentences } ጁመል ትራጅዕያ፣ ሹክረን
+    }
 sc-review-link = ራጅዕ
 
 ## SETTINGS
 
+sc-settings-language-translated-warning = ላሰፍሓት ናይ አላ ሉቀት ካምለት ትርጅምት የህሌትኒ ። እንዘ <pontoonLinkLink>on Pontoon</pontoonLinkLink>እንደ ጌስኩም ዲብ ተርጃመተን እግል ትሳዕዶ ትቀድሩ
 sc-settings-show-all-button = ኩለን በዲር ላሓለፍኮሀን ጁመል አርኤኒ
 # VALIDATION
 sc-validation-number-of-words = ዎሮ ጁምለት ምን 1 ኣስኽ 14 ክልመት ሃላ አግላ
