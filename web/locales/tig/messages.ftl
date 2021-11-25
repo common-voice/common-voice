@@ -679,6 +679,7 @@ share-goal = ሓደፍየ አሻርክ
 
 ## Profile Delete
 
+delete-q = ላናይ ሶት ተስጂልኩም እጌል ልትወርከ ትጥለቦ ታሓዘ ዋላ ዲብ ናይ Common Voice መጅሙዓት በያናት ለትረፍ
 keep = ኣክብ
 remove = ወርኪዮ
 
@@ -689,6 +690,7 @@ download-info = ሚ እግል ትክረው ታሓዙ ኻብሩና:
 download-recordings-title = ተስጂል
 download-size = ሓጅም
 download-selected = ሕሪት
+download-request = ትስጂል ጥለቡ
 download-requests = ናይ ቀደም ኣዘ ተስጂል አውረዶት ጠለብ
 download-requests-info = ተስጂልኩም ውክት ጠልቦ፣ ዲብ ዎሮት ኣው ብዝሕ መለፍ ናይ ZIP ንወድዮ እግልኩም፣ ናይ ላሓልፋ ጠለብኩም እሊ ቱ:
 download-request-button = ክረው
@@ -732,6 +734,7 @@ contribution-criteria-link = ናይ ሙሳሀምት መቃየሲ ፋሃሞ
 contribution-criteria-page-title = ናይ ሙሳሀምት መቃየሲ
 contribution-for-example = መሳል
 contribution-misreadings-title = ቅርኣት ጊጊት
+contribution-misreadings-description-extended-list-2 = ዲብላ ኣኽር ላክልመት ላትረሳዓ<strong>'ታት'</strong>.
 contribution-misreadings-example-1-title = ላ ዳይናሱር ዓቢ ምን ናይ ዘመን ትርያሲክ.
 contribution-misreadings-example-2-title = ላ ዳይናሱር ዓቢ ምን ናይ ዘመን ትርያሲክ.
 contribution-misreadings-example-3-title = ላ ዳይናሱር ዓቢ ምን ናይ ዘመን ትርያሲ-.
