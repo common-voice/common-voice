@@ -385,6 +385,7 @@ skip-submission-description = Při sobuskutkowanju so zapodawanski komentar po k
 skip-submission-note = Kedźbu: Dyrbiće hišće mjez Rěčeć abo Słuchać wubrać, zo byšće typ sobuskutkowanja změnił.
 off = Wupinjeny
 on = Zapinjeny
+help-accent = Trjebaće pomoc wo akcenće?
 
 ## Profile - Email
 
