@@ -424,6 +424,7 @@ about-nav-partners = ሹረካ
 about-nav-get-involved = ምስልና ሳህም
 mycroft-title = Mycroft Ai
 mycroft-subtitle = ዛካእ እስጥናዒ
+mycroft-description = Mycroft ዲብ ዓለም ኣወል ፍቱህ መስድር ሙሳዕድ ቱ ። ዲብ ኩሉ ሻቀ - ዲብ desktop computer, ዲብ ጅዋ ስያረት ኣው ክማን ዲብ Raspberry Pi.
 
 ## Glossary
 
