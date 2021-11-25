@@ -1012,6 +1012,8 @@ sc-logout-button = 退出
 ## HOME
 
 sc-home-title = 欢迎使用 Common Voice 语句收集工具
+sc-home-collect-title = 收集句子
+sc-home-review-title = 审核句子
 
 ## HOW-TO
 
@@ -1021,6 +1023,7 @@ sc-howto-addlang-text = 登录后，就可以在个人资料页选择您要贡�
 sc-howto-addsen-title = 添加新句子
 sc-howto-cite-title = 如何引用
 sc-howto-cite-item-1 = 您可以包含网站，例如“Common Voice - https://commonvoice.mozilla.org/”
+sc-howto-cite-item-2 = 您也可以使用学术参考文献格式，例如哈佛格式：Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)
 sc-howto-review-title = 审核句子
 sc-howto-review-subtitle = 请确保句子符合以下标准：
 sc-howto-review-criteria-1 = 句子必须拼写正确。
@@ -1028,6 +1031,7 @@ sc-howto-review-criteria-2 = 句子必须语法正确。
 sc-howto-review-criteria-3 = 句子必须说得出来。
 sc-howto-review-criteria-4 = 若句子符合上述标准，请点击“通过”按钮。
 sc-howto-findpd-subtitle = 在网上搜搜看
+sc-howto-findpd-subtitle-2 = 与当地组织或个人合作
 
 ## MY SENTENCES
 
@@ -1099,6 +1103,9 @@ sc-add-err-submission = 提交失败
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = 句子尚未提交，您确定要离开吗？
+sc-confirm-sentences-title = 确认新句子
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
@@ -1109,6 +1116,18 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = 您驳回了 { $countOfInvalidated } 句。
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] 未审核任何句子。
+       *[other] 您审核了 { $countOfReviewed } 句，干得漂亮！
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] 没有句子可以提交！
+       *[other] 已有 { $readyCount } 句准备好可以提交！
+    }
 sc-confirm-button-text = 确认
 
 ## LANGUAGE INFO
@@ -1147,18 +1166,28 @@ sc-login-err-try-again = 请重试。
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = 个人资料：{ $username }
+sc-personal-err-lang-not-found = 无法移除语言：找不到语言
 sc-personal-err-remove = 无法移除语言
 sc-personal-your-languages = 您的语言：
 sc-personal-remove-button = 移除
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = 您添加了 { $sentences } 句
+sc-personal-not-added = 您尚未添加任何语言。
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ 审核标准
 sc-criteria-title = 审核标准
+sc-criteria-make-sure = 请确保句子符合以下标准：
+sc-criteria-item-1 = 句子必须拼写正确。
+sc-criteria-item-2 = 句子必须语法正确。
+sc-criteria-item-3 = 句子必须说得出来。
 sc-criteria-item-4 = 若句子符合上述标准，请点击右方的“通过”按钮。
 
 ## REVIEW
 
+sc-review-title = 审核句子
 sc-review-form-usage = 向右滑通过句子、向左滑驳回、向上滑跳过。<strong>别忘记提交您的审核结果！</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
