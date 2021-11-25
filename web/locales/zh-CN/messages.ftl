@@ -1092,6 +1092,14 @@ sc-submit-button =
 sc-add-lang-could-not-add = 无法添加语言
 sc-add-lang-sec-label = 添加您想要贡献的语言
 sc-add-lang-sec-button = 添加语言
+sc-add-err-unexpected = 返回意外的服务器响应
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] 已提交句子，没有被驳回的重复句子。
+       *[other] 已提交句子，有 { $duplicates } 句重复句子被驳回。
+    }
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
@@ -1138,6 +1146,20 @@ sc-lang-info-total =
     { $totalSentences ->
         [0] 没有句子。
        *[other] 共 { $totalSentences } 句。
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] 没有审核中的句子。
+       *[other] { $totalInReview } 句审核中的句子。
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] 没有可供您审核的句子。
+       *[other] 剩余 { $unreviewedSentencesByYou } 句可供您审核的句子。
     }
 sc-lang-info-review-now = <reviewLink>现在就审核！</reviewLink>
 sc-lang-info-add-more = <addLink>现在就添加更多句子</addLink>
@@ -1188,6 +1210,7 @@ sc-criteria-item-4 = 若句子符合上述标准，请点击右方的“通过�
 ## REVIEW
 
 sc-review-title = 审核句子
+sc-review-loading = 正在加载句子...
 sc-review-form-usage = 向右滑通过句子、向左滑驳回、向上滑跳过。<strong>别忘记提交您的审核结果！</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
@@ -1199,6 +1222,14 @@ sc-review-form-button-approve = 通过
 sc-review-form-keyboard-usage = 您还可以使用快捷键：按 Y 通过、按 N 驳回、按 S 跳过
 sc-review-form-button-submit =
     .submitText = 完成审核
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] 未审核句子。
+       *[other] 已审核 { $sentences } 句，感谢您！
+    }
+sc-review-form-review-failure = 无法保存审核结果，请稍候重试。
 sc-review-link = 审核
 
 ## SETTINGS
