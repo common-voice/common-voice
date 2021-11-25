@@ -1345,7 +1345,7 @@ sc-review-form-prompt =
     .message = გადამოწმებული წინადადებები არ გაგზავნილა, დარწმუნებული ხართ?
 sc-review-form-usage =
     გადასწიეთ მარჯვნივ წინადადების მისაღებად. გადასწიეთ მარცხნივ, უარსაყოფად.
-    ასწიეთ ზემოთ, გამოსატოვებლად. <strong>არ დაგავიწყდეთ გადამოწმებულების გაგზავნა!</strong>
+    ასწიეთ ზემოთ, გამოსატოვებლად. <strong>არ დაგავიწყდეთ გადამოწმებულების წარდგენა!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = წყარო: { $sentenceSource }
