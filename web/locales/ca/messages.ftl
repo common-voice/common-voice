@@ -1045,6 +1045,7 @@ sc-howto-title = Com es fa per a
 sc-howto-addlang-title = Afegir llengües per a treballar-hi
 sc-howto-addlang-text = Una vegada heu iniciat sessió, podeu triar les llengües a la secció del perfil.
 sc-howto-addsen-title = Afegir frases noves
+sc-howto-addsen-item-2 = Xifres. No hi hauria d'haver cap dígit en el text, perquè poden causar problemes quan es llegeixen en veu alta. La manera com es llegeix un nombre depèn del context i pot introduir confusió en el conjunt de dades. Per exemple, el nombre «2409» es podria llegir correctament com «vint-i-quatre zero nou» i com «dos mil quatre-cents nou», segons el context.
 sc-howto-cite-title = Com citar
 sc-howto-cite-item-1 = Podeu incloure el lloc web, per exemple, «Common Voice - https://commonvoice.mozilla.org/»
 sc-howto-cite-item-2 = Podeu utilitzar un estil de referència acadèmic. P. ex., l'estil de Harvard «Mozilla (2021) Common Voice. Disponible a https://commonvoice.mozilla.org/ (Consulta: 15 de setembre de 2021)»
@@ -1062,12 +1063,15 @@ sc-howto-findpd-subtitle = Cerqueu-ne a Internet
 
 ## MY SENTENCES
 
+sc-my-title = Les meves frases
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = Estadístiques
+sc-stats-updating = S'està actualitzant…
 
 ## ADD
 
@@ -1076,6 +1080,7 @@ sc-submit-button =
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Afegeix una llengua
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1087,12 +1092,15 @@ sc-confirm-sentences-found =
         [one] S'ha trobat 1 frase.
        *[other] S'han trobat { $countOfSentences } frases.
     }
+sc-confirm-button-text = Confirma
 
 ## LANGUAGE INFO
 
 
 ## LOGIN
 
+sc-login-err-failed = L'inici de sessió ha fallat
+sc-login-err-try-again = Torneu-ho a provar.
 
 ## PROFILE
 
@@ -1112,12 +1120,24 @@ sc-criteria-item-2 = La frase és gramaticalment correcta.
 sc-criteria-item-3 = La frase és pronunciable.
 sc-criteria-item-4 = Si la frase compleix els criteris, feu clic en el botó «Aprova».
 sc-criteria-item-5-2 = Si la frase no compleix els criteris anteriors, feu clic en el botó «Rebutja». Si no n'esteu segur, també podeu saltar-la i passar a la següent.
+sc-criteria-item-6 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
 
 ## REVIEW
 
+sc-review-lang-not-selected = No heu seleccionat cap llengua. Aneu al vostre <profileLink>Perfil</profileLink> per a triar alguna llengua.
+sc-review-title = Revisa les frases
+sc-review-loading = S'estan carregant les frases…
+sc-review-select-language = Trieu una llengua per a revisar-ne les frases.
+sc-review-no-sentences = No hi ha cap frase per revisar. <addLink>Afegiu més frases ara!</addLink>
+sc-review-form-prompt =
+    .message = No s'han enviat les frases revisades, n'esteu segur?
+sc-review-form-button-reject = Rebutja
+sc-review-form-button-skip = Omet
+sc-review-form-button-approve = Aprova
 
 ## SETTINGS
 
+sc-settings-title = Paràmetres
 sc-settings-show-all-button = Mostra de nou totes les frases omeses
 sc-settings-failed = No s'ha pogut canviar la configuració. Torneu-ho a provar.
 # VALIDATION
