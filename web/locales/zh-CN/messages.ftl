@@ -1054,24 +1054,56 @@ sc-stats-summary = Common Voice 语句收集工具已收集了 { $languageCount 
 sc-submit-err-select-lang = 请选择语言。
 sc-submit-err-add-sentences = 请添加句子。
 sc-submit-err-add-source = 请添加来源。
-sc-submit-err-confirm-pd = 请确认这些句子来自于公共领域。
+sc-submit-err-confirm-pd = 请确认这些句子来自于公有领域。
 sc-submit-prompt =
     .message = 句子尚未提交，您确定要离开吗？
+sc-submit-title = 添加句子
 sc-submit-select-language =
     .labelText = 选择语言
+sc-submit-add-sentences = 添加<wikipediaLink>公有领域（Public Domain）</wikipediaLink>的句子
+sc-submit-ph-one-per-line =
+    .placeholder = 每行一句
+sc-submit-from-where = 这些<wikipediaLink>公有领域（Public Domain）</wikipediaLink>的句子来自何处？
 sc-submit-button =
     .submitText = 提交
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = 无法添加语言
+sc-add-lang-sec-label = 添加您想要贡献的语言
+sc-add-lang-sec-button = 添加语言
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] 没有失败的句子
+       *[other] { $sentences } 句提交失败
+    }
 sc-add-err-submission = 提交失败
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] 找不到句子。
+       *[other] 找到 { $countOfSentences } 句。
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = 您驳回了 { $countOfInvalidated } 句。
 sc-confirm-button-text = 确认
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] 没有句子。
+       *[other] 共 { $totalSentences } 句。
+    }
 
 ## LOGIN
 
@@ -1090,12 +1122,23 @@ sc-criteria-title = 审核标准
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = 来源：{ $sentenceSource }
 sc-review-form-button-reject = 驳回
 sc-review-form-button-skip = 跳过
 
 ## SETTINGS
 
 sc-settings-title = 设置
+sc-settings-reset-skipped = 重置跳过的句子
+sc-settings-show-all-button = 再次显示跳过的句子
+sc-settings-failed = 无法更改设置，请重试。
+# VALIDATION
+sc-validation-number-of-words = 句子须包含 1 到 14 个字
+sc-validation-no-numbers = 句子不应包含数字
+sc-validation-no-symbols = 句子不应包含标点符号
+sc-validation-no-abbreviations = 句子不应包含缩写
 
 # [/SentenceCollector]
 
