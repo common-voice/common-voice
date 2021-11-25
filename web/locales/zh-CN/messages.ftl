@@ -1027,6 +1027,7 @@ sc-howto-addsen-post-1 = 我们更喜欢自然/对话式的句子。虽然语音
 sc-howto-cite-title = 如何引用
 sc-howto-cite-item-1 = 您可以包含网站，例如“Common Voice - https://commonvoice.mozilla.org/”
 sc-howto-cite-item-2 = 您也可以使用学术参考文献格式，例如哈佛格式：Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)
+sc-howto-cite-item-3 = 对于没有在线版本的公有领域文本，可以使用学术参考文献格式，例如哈佛格式“Jess (2021) My Public licence poems”
 sc-howto-review-title = 审核句子
 sc-howto-review-subtitle = 请确保句子符合以下标准：
 sc-howto-review-criteria-1 = 句子必须拼写正确。
@@ -1035,6 +1036,7 @@ sc-howto-review-criteria-3 = 句子必须说得出来。
 sc-howto-review-criteria-4 = 若句子符合上述标准，请点击“通过”按钮。
 sc-howto-review-criteria-6 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
 sc-howto-findpd-subtitle = 在网上搜搜看
+sc-howto-findpd-tips-3 = 很遗憾，我们尚无权使用维基媒体基金会的文章，所以请勿从那里复制粘贴。
 sc-howto-findpd-subtitle-2 = 与当地组织或个人合作
 
 ## MY SENTENCES
@@ -1210,6 +1212,7 @@ sc-criteria-item-1 = 句子必须拼写正确。
 sc-criteria-item-2 = 句子必须语法正确。
 sc-criteria-item-3 = 句子必须说得出来。
 sc-criteria-item-4 = 若句子符合上述标准，请点击右方的“通过”按钮。
+sc-criteria-item-6 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
 
 ## REVIEW
 
