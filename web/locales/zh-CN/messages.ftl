@@ -767,7 +767,7 @@ contribution-activity = 贡献记录
 top-contributors = 杰出贡献者
 recorded-clips = 录制的片段
 validated-clips = 验证的片段
-total-approved = 总核准数
+total-approved = 总通过数
 overall-accuracy = 总体准确度
 set-visibility = 设置是否在排行榜显示自己
 visibility-explainer = 此设置项控制您的排行榜可见性。若设为“隐藏”，您的进度将仅自己可见。这意味着您的照片、用户名和贡献进度均不会出现在排行榜上。请注意，排行榜信息的刷新需等待约 { $minutes } 分钟，以生效作出的更改。
@@ -1114,6 +1114,22 @@ sc-lang-info-total =
         [0] 没有句子。
        *[other] 共 { $totalSentences } 句。
     }
+sc-lang-info-review-now = <reviewLink>现在就审核！</reviewLink>
+sc-lang-info-add-more = <addLink>现在就添加更多句子</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] 没有验证过的句子。
+       *[other] { $validatedSentences } 句验证过的句子。
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] 没有被驳回的句子。
+       *[other] { $rejectedSentences } 句被驳回的句子。
+    }
 
 ## LOGIN
 
@@ -1122,6 +1138,10 @@ sc-login-err-try-again = 请重试。
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = 个人资料：{ $username }
+sc-personal-err-remove = 无法移除语言
 sc-personal-your-languages = 您的语言：
 sc-personal-remove-button = 移除
 
@@ -1137,12 +1157,17 @@ sc-criteria-title = 审核标准
 sc-review-form-source = 来源：{ $sentenceSource }
 sc-review-form-button-reject = 驳回
 sc-review-form-button-skip = 跳过
+sc-review-form-button-approve = 通过
 # Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
 sc-review-form-keyboard-usage = 您还可以使用快捷键：按 Y 通过、按 N 驳回、按 S 跳过
+sc-review-form-button-submit =
+    .submitText = 完成审核
+sc-review-link = 审核
 
 ## SETTINGS
 
 sc-settings-title = 设置
+sc-settings-ui-language = 界面语言
 sc-settings-reset-skipped = 重置跳过的句子
 sc-settings-show-all-button = 再次显示跳过的句子
 sc-settings-failed = 无法更改设置，请重试。
