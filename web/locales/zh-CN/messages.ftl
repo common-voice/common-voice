@@ -5,7 +5,7 @@ stayintouch = 我们在 Mozilla 正围绕语音技术建立一个社区。 我�
 privacy-info = 我们承诺谨慎处理您的信息。阅读我们的<privacyLink>隐私声明</privacyLink>详细了解。
 return-to-cv = 返回 Common Voice
 email-input =
-    .label = 电子邮箱
+    .label = 邮箱
 submit-form-action = 提交
 loading = 加载中…
 email-opt-in-info = 我希望收到诸如目标提醒、我的进度更新等与 Common Voice 相关的新闻通讯。
@@ -995,6 +995,11 @@ sc-header-home = 主页
 sc-header-how-to = 如何做
 sc-header-add = 添加
 sc-header-review = 审核
+sc-header-rejected = 驳回的句子
+sc-header-my = 我的句子
+sc-header-statistics = 统计数据
+sc-header-profile = 个人资料
+sc-footer-discourse = Discourse
 sc-footer-report-bugs = 报告缺陷（Bug）
 sc-footer-translate = 翻译此页面
 sc-footer-report-copyright = 报告版权问题
@@ -1006,15 +1011,21 @@ sc-logout-button = 退出
 
 ## HOME
 
+sc-home-title = 欢迎使用 Common Voice 语句收集工具
 
 ## HOW-TO
 
 
 ## MY SENTENCES
 
+sc-my-no-sentences = 找不到句子！
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = 提交于：{ $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = 来源：{ $source }
+sc-my-delete = 删除选取的语句
 
 ## REJECTED
 
