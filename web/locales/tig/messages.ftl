@@ -900,6 +900,10 @@ sc-review-link = ራጅዕ
 
 ## SETTINGS
 
+sc-settings-show-all-button = ኩለን በዲር ላሓለፍኮሀን ጁመል አርኤኒ
+# VALIDATION
+sc-validation-number-of-words = ዎሮ ጁምለት ምን 1 ኣስኽ 14 ክልመት ሃላ አግላ
+sc-validation-no-numbers = ላጅመል ኣርቃም ግል ላሃለ ዲቡ የኣለቡን
 sc-validation-no-symbols = ላጅመል ርሙዝ ግል ላሃለ ዲቡ የኣለቡን
 sc-validation-no-abbreviations = ላጅመል ኣኽትሳራት ግል ላሃለ ዲቡ የኣለቡን
 
