@@ -571,11 +571,14 @@ record-last-instruction = <recordIcon></recordIcon>ኣኽራይት!
 review-tooltip = አንዘ ክሊፕ ራጀዕ ኣው ካልእ መረት ሰጅል
 share-clip = ክሊፕ ናይካ ሻርክ እቡ
 share-common-voice = Common Voice ሻርክ እቡ
+review-instruction = ሓቆ ኣትሓዛ አንዘ ክሊፕ ራጀዕ ኣው ካልእ መረት ሰጅል
+record-submit-tooltip = { $actionType } ከም ጃሃዝካ ላኣኮ
 clips-uploaded = ክሊፕ ሳጃላ
 record-abort-title = ሰልፍ ተስጂል ታኣኽልሶ?
 record-abort-text = ኣዘ ሓቆ ፋገርካ ሽቁልካ ግል ልብደቱ
 record-abort-submit = ክሊፕ ላኣኮ
 record-abort-continue = ተስጂል ኣኽልሶ
+record-abort-delete = ክሊፕ አንደ ወርከኩም ፍገሮ
 listen-instruction = { $actionType }<playIcon></playIcon> ላጅምለት ግሩም ቤለዋ
 listen-again-instruction = ስኒ ወዴኩም! ክምሰል ጃሃዝኩም ካልእ መረት ስምዖ
 listen-3rd-time-instruction = ክልኤ ወደኩም, ክምሰላ ዋስሎ
@@ -746,6 +749,7 @@ demo-account-card-header = አግል ትሳህሞ ሐሳብ ገል ላሃሌኩ�
 
 ## Demo Contribute
 
+demo-contribute-card-header = ሶትኩም ግል ትወስኮ ኣው ኣዘንኩም ግል ታህቡና ጃህዛም ህለኹም?
 demo-listen-subtitle = አግል ትሳህሞ ጃህዛም አንቱም?
 
 ## Demo Dashboard
