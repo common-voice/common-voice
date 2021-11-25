@@ -692,11 +692,13 @@ share-goal = ሓደፍየ አሻርክ
 delete-q = ላናይ ሶት ተስጂልኩም እጌል ልትወርከ ትጥለቦ ታሓዘ ዋላ ዲብ ናይ Common Voice መጅሙዓት በያናት ለትረፍ
 keep = ኣክብ
 remove = ወርኪዮ
+profile-form-delete = መለፍ ኽሱሲ ወርክዮ
 
 ## Profile Download
 
 download-q = በያናትኩም እግል ትክረው ታሓዙ ቱ?
 download-info = ሚ እግል ትክረው ታሓዙ ኻብሩና:
+download-profile-title = መለፍ ኽሱሲ
 download-recordings-title = ተስጂል
 download-size = ሓጅም
 download-selected = ሕሪት
