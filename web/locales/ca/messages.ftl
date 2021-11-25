@@ -1050,7 +1050,9 @@ sc-howto-addsen-item-3 = Abreviatures i acrònims. S'han d'evitar les abreviatur
 sc-howto-addsen-item-4 = Puntuació. Els símbols especials i els signes de puntuació només s'han d'incloure quan sigui absolutament necessari. Per exemple, en català s'usen el punt volat en la ela geminada i l'apòstrof davant de paraules començades en vocal, i s'haurien d'incloure en el text, però és poc probable que mai necessiteu un símbol especial com ara @ o #.
 sc-howto-addsen-item-5 = Lletres estrangeres. Les lletres han de ser vàlides en la llengua que es parla. Per exemple, «ж» és una lletra de l'alfabet ciríl·lic, però no s'utilitza en català i, per tant, no hauria d'aparèixer mai en cap text en català.
 sc-howto-addsen-item-6 = Cada llengua pot tenir les seves <validationRulesLink>regles de validació</validationRulesLink> amb requeriments addicionals. Si no hi ha cap fitxer de validació específic per a una llengua, s'usen les regles específiques de l'anglès.
+sc-howto-addsen-post-1 = Preferim frases naturals/conversacionals. Tot i que la diversitat fonètica i les diferents paraules a les frases són importants, estem intentant que l'enregistrament de les frases sigui el més divertit possible. Per tant, estaria genial si intenteu que les frases siguin tan naturals i atractives com sigui possible.
 sc-howto-cite-title = Com citar
+sc-howto-cite-pre-1 = És important que feu referència a on heu trobat la llicència pública per a evitar el plagi i per a permetre el seguiment de <copyrightIssuesLink>problemes de drets d'autor</copyrightIssuesLink>. Aquí teniu algunes maneres de citar l'obra.
 sc-howto-cite-item-1 = Podeu incloure el lloc web, per exemple, «Common Voice - https://commonvoice.mozilla.org/»
 sc-howto-cite-item-2 = Podeu utilitzar un estil de referència acadèmic. P. ex., l'estil de Harvard «Mozilla (2021) Common Voice. Disponible a https://commonvoice.mozilla.org/ (Consulta: 15 de setembre de 2021)»
 sc-howto-cite-item-3 = Per al text de domini públic que no està disponible en línia, podeu utilitzar un estil de referència acadèmic. P. ex., l'estil de Harvard «Jess (2021) Els meus poemes en domini públic»
@@ -1064,10 +1066,19 @@ sc-howto-review-criteria-5 = Si la frase no compleix els criteris anteriors, feu
 sc-howto-review-criteria-6 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
 sc-howto-findpd-title = Trobar frases de domini públic
 sc-howto-findpd-subtitle = Cerqueu-ne a Internet
+sc-howto-findpd-subtitle-2 = Col·laborar amb persones o organitzacions locals
+sc-howto-findpd-partner-1 = Hi ha moltes organitzacions públiques que potser volen col·laborar i ja tenen molts textos que poden donar com a domini públic. Poseu-vos en contacte amb universitats, governs i organitzacions de codi obert locals per a parlar del projecte i demanar-los ajuda.
 
 ## MY SENTENCES
 
 sc-my-title = Les meves frases
+sc-my-loading = S'estan carregant les frases…
+sc-my-err-fetching = S'ha produït un error en obtenir les frases. Torneu-ho a provar.
+sc-my-no-sentences = No s'ha trobat cap frase!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Font:  { $source }
+sc-my-deleting = S'estan suprimint les frases seleccionades
 
 ## REJECTED
 
