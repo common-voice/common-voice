@@ -367,18 +367,14 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                   </LocaleNavLink>
                 </div>
               )}
-              {!isBuildingProfile && (
-                <>
-                  {user.account ? (
-                    <Localized id="logout">
-                      <LinkButton rounded href="/logout" />
-                    </Localized>
-                  ) : (
-                    <Localized id="login-signup">
-                      <LinkButton rounded href="/login" />
-                    </Localized>
-                  )}
-                </>
+              {user.account ? (
+                <Localized id="logout">
+                  <LinkButton rounded href="/logout" />
+                </Localized>
+              ) : (
+                <Localized id="login-signup">
+                  <LinkButton rounded href="/login" />
+                </Localized>
               )}
             </div>
           </Nav>
