@@ -206,7 +206,7 @@ default-tagline = Mozilla Common Voice 项目，旨在帮助教会机器真人�
 home-cta = 有话在此大声说！
 wall-of-text-start = 语音是自然的、有人性的。这也是为什么我们希望为机器建立可用的语音技术。但要创造一个语音系统，需要大量的语音数据。
 wall-of-text-more-mobile = 大部分由行业巨头持有的数据，并未开放给公众使用。我们认为这会扼杀创新，因而推出了 Common Voice 项目，让语音识别技术的大门对每个人开放。
-wall-of-text-more-desktop = 现在，您可以捐出一段声音，帮助我们建立一个开源的语音数据库，任何人都可以使用它来为设备和网络制作创新的应用程序。<lineBreak></lineBreak> 只要朗读一段文字，即可帮助机器了解人们如何说话。您也可以复查其他贡献者的工作以提高质量。就这么简单!
+wall-of-text-more-desktop = 现在，您可以捐出一段声音，帮助我们建立一个开源的语音数据库，任何人都可以使用它来为设备和网络制作创新的应用程序。<lineBreak></lineBreak> 只要朗读一段文字，即可帮助机器了解人们如何说话。您也可以审核其他贡献者的工作以提高质量。就这么简单!
 wall-of-text-first = 语音是自然的、有人性的。这也是为什么我们希望为机器建立可用的语音技术。但要创造一个语音系统，开发者需要大量的语音数据。
 wall-of-text-second = 大部分由行业巨头持有的数据，并未开放给公众使用。我们认为这会扼杀创新，因而推出了 Common Voice 项目，让语音识别技术的大门对每个人开放而无障碍。
 show-wall-of-text = 详细了解
@@ -542,9 +542,9 @@ review-terms = 使用 Common Voice 即代表您同意我们的<termsLink>条款<
 terms-agree = 我同意
 terms-disagree = 我不同意
 review-aborted = 上传中止。您要删除您的录音吗？
-review-submit-title = 复查并提交
-review-submit-msg = 感谢您的录制！<lineBreak></lineBreak>现在您可以复查并提交下面的片段。
-review-recording = 复查
+review-submit-title = 确认并提交
+review-submit-msg = 感谢您的录制！<lineBreak></lineBreak>现在您可以确认并提交下面的片段。
+review-recording = 确认
 review-rerecord = 重新录音
 review-cancel = 取消提交
 review-keep-recordings = 保留录音
@@ -920,7 +920,7 @@ demo-account-sign-up = 发送注册链接
 ## Demo Contribute
 
 demo-contribute-card-header = 准备好录入您的声音或伸出耳朵倾听了吗？
-demo-contribute-card-body-v2 = 现在您对 Common Voice 有了更多的了解，为什么不来试一试呢？点击麦克风图标，开始大声朗读句子。<br/><br/>若您想复查其他人的语音贡献，请点击播放图标，以确认录音是否与屏幕上的语句相符。
+demo-contribute-card-body-v2 = 现在您对 Common Voice 有了更多的了解，为什么不来试一试呢？点击麦克风图标，开始大声朗读句子。<br/><br/>若您想审核其他人的语音贡献，请点击播放图标，以确认录音是否与屏幕上的语句相符。
 demo-listen-subtitle = 准备好作出贡献了吗？
 
 ## Demo Dashboard
@@ -1015,9 +1015,19 @@ sc-home-title = 欢迎使用 Common Voice 语句收集工具
 
 ## HOW-TO
 
+sc-howto-review-title = 审核句子
+sc-howto-review-subtitle = 请确保句子符合以下标准：
+sc-howto-review-criteria-1 = 句子必须拼写正确。
+sc-howto-review-criteria-2 = 句子必须语法正确。
+sc-howto-review-criteria-3 = 句子必须说得出来。
+sc-howto-review-criteria-4 = 若句子符合上述标准，请点击“通过”按钮。
+sc-howto-findpd-subtitle = 在网上搜搜看
 
 ## MY SENTENCES
 
+sc-my-title = 我的句子
+sc-my-loading = 正在加载您的句子...
+sc-my-err-fetching = 获取您的句子失败，请重试。
 sc-my-no-sentences = 找不到句子！
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -1127,6 +1137,8 @@ sc-criteria-title = 审核标准
 sc-review-form-source = 来源：{ $sentenceSource }
 sc-review-form-button-reject = 驳回
 sc-review-form-button-skip = 跳过
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = 您还可以使用快捷键：按 Y 通过、按 N 驳回、按 S 跳过
 
 ## SETTINGS
 
