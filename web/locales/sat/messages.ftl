@@ -776,13 +776,23 @@ pro-difficulty = ᱯᱨᱚ
 lose-goal-progress-warning = ᱟᱢᱟᱜ ᱯᱚᱠᱷᱭᱚ ᱠᱚ ᱥᱟᱯᱲᱟᱣ ᱠᱟᱛᱮ, ᱟᱢ ᱟᱢᱟᱜ ᱱᱤᱛᱚᱜ ᱞᱟᱦᱟ ᱠᱚ ᱟᱫ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ᱾
 want-to-continue = ᱪᱮᱫ ᱟᱢ ᱞᱟᱦᱟ ᱨᱮ ᱛᱟᱦᱮᱸ ᱥᱟᱱᱟᱢ ᱠᱟᱱᱟ?
 finish-editing = ᱯᱩᱭᱞᱩ ᱨᱮ ᱥᱟᱯᱲᱟᱣ ᱪᱟᱵᱟᱭᱟ ᱥᱮ?
+lose-changes-warning = ᱱᱤᱛᱚᱜ ᱦᱟᱠᱟᱼᱪᱟᱠᱟ ᱞᱮᱠᱷᱟᱱ ᱱᱤᱛᱚᱜ ᱟᱢᱟᱜ ᱵᱚᱫᱚᱞ ᱠᱚ ᱟᱫ ᱩᱛᱟᱹᱨᱟᱢ᱾
+build-custom-goal = ᱢᱤᱫᱴᱟᱹᱝ ᱠᱩᱥᱤ ᱞᱚᱠᱷᱭᱚ ᱛᱮᱭᱟᱨ ᱢᱮ᱾
+set-a-goal = ᱞᱚᱠᱷᱭᱚ ᱥᱮᱴ ᱛᱟᱢ
+cant-decide = ᱴᱷᱟᱹᱣᱠᱟᱹ ᱵᱟᱝ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ?
+how-many-per-day = ᱥᱟᱨᱦᱟᱣ! ᱫᱤᱱ ᱯᱤᱪᱷᱟᱹ ᱛᱤᱱᱟᱹᱜ ᱠᱞᱤᱯ?
+how-many-a-week = Great! How many clips a week?
+which-goal-type = ᱟᱢ ᱪᱮᱫ ᱨᱚᱲ, ᱟᱸᱡᱚᱢ ᱟᱨ ᱵᱟᱝ ᱵᱟᱨᱭᱟ ᱠᱚᱨᱟᱣ ᱥᱮᱱᱟᱭᱮᱫ ᱢᱮᱭᱟ ᱥᱮ?
 receiving-emails-info = ᱟᱢ ᱫᱚ ᱱᱤᱛᱚᱜ ᱜᱚᱞ ᱨᱤᱢᱟᱭᱮᱱᱰᱚᱨ ᱥᱮᱴ ᱵᱚᱵᱚᱛ ᱤᱢᱮᱞ ᱤᱧ ᱧᱟᱢ ᱥᱮᱱᱟᱹᱧ ᱠᱟᱱᱟ, Common Voice ᱵᱟᱵᱚᱛ ᱦᱟᱹᱞᱤᱭᱟᱠ ᱟᱨ ᱠᱷᱚᱵᱚᱨᱪᱤᱴᱷᱤ ᱨᱮᱭᱟᱜ ᱞᱟᱦᱟ ᱛᱮᱫ ᱾
+not-receiving-emails-info = ᱟᱢ ᱫᱚ ᱱᱤᱛᱚᱜ ᱫᱚ ᱤᱢᱮᱞ "ᱵᱟᱝ" ᱧᱟᱢ ᱛᱮᱢ ᱥᱮᱴ ᱟᱠᱟᱫᱼᱟ ᱡᱮᱞᱠᱟ ᱩᱫᱩᱜ ᱵᱟᱲᱟᱭᱪᱷᱚᱜ, ᱤᱧᱟᱜ ᱞᱟᱦᱟ ᱟᱹᱯᱰᱮᱴ ᱟᱨ Common Voice ᱵᱟᱵᱚᱛ ᱱᱤᱭᱩᱡᱞᱮᱴᱚᱨ
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } ᱠᱞᱤᱯ
         [two] { $count } ᱠᱞᱤᱯ ᱠᱤᱱ
        *[other] { $count } ᱠᱞᱤᱯ ᱠᱚ
     }
+help-share-goal = ᱟᱞᱮ ᱟᱨᱦᱚᱸ ᱣᱤᱰᱤᱭᱚ ᱧᱟᱢᱟ ᱞᱮ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ, ᱟᱢᱟᱜ ᱩᱫᱩᱜ ᱦᱟᱹᱴᱤᱧᱼᱟ ᱞᱮ ᱢᱮ
+confirm-goal = ᱩᱫᱩᱜ ᱴᱷᱟᱹᱣᱠᱟᱹᱭ ᱢᱮ
 goal-interval-weekly = ᱦᱟᱴᱠᱤᱭᱟᱹ
 
 ## Profile Delete
