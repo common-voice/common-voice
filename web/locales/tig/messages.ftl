@@ -668,6 +668,11 @@ pro-difficulty = ሙሕተርፍ
 want-to-continue = ትኣስተመሮ ታሓዙ?
 lose-changes-warning = ኣዘ ሓቆ ፋገርካ ሽቁልካ ግል ልብደቱ
 build-custom-goal = ሓደፍ ማኽሱስ ውደ
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] ሳዕደና { $hours } ሳዓት ሃደፍ እግል ንብጻሕ  ዲብ { $language } እብ ናይ ኖስ ሃደፍ
+       *[other] ሳዕደና { $hours } ሳዓት ሃደፍ እግል ንብጻሕ  ዲብ { $language } እብ ናይ ኖስ ሃደፍ
+    }
 help-reach-hours-general-pluralized =
     Common Voice ሳዕዳ እግል ትብጻሕ{ NUMBER($hours) ->
         [one] ሳዓት
