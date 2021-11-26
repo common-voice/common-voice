@@ -931,7 +931,11 @@ sc-confirm-ready =
         [one] ዎሮ ጁምለት ጃህዘት ታ እግል ለእከት
        *[other] { $readyCount } ጁመል ጃህዛት ተን እግል ለእከት
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } ጁመል ይትራጃዕያኒ. ምን ታሓዞ ላ ጁመልኩም እንደይ ተልኡኮ ኣዘ ትራጀዕዎ ትቀድሮ
 sc-confirm-button-text = ኣክድ
+sc-confirm-uploading = ላጅመል ልትላኣካ ህለያ ። እሊ ከም ደቂቀት ነስእ ዲብ ላ ትወሰከያ ጁመል ላዕተመድ። ላ ምወቀዕ ኢትድቦኦ።
 
 ## LANGUAGE INFO
 
