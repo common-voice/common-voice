@@ -725,6 +725,7 @@ profile-form-delete = መለፍ ኽሱሲ ወርክዮ
 download-q = በያናትኩም እግል ትክረው ታሓዙ ቱ?
 download-info = ሚ እግል ትክረው ታሓዙ ኻብሩና:
 download-profile-title = መለፍ ኽሱሲ
+download-profile-size = ሑዳት bytes
 download-recordings-title = ተስጂል
 download-size = ሓጅም
 download-selected = ሕሪት
@@ -733,8 +734,10 @@ download-requests = ናይ ቀደም ኣዘ ተስጂል አውረዶት ጠለ�
 download-requests-info = ተስጂልኩም ውክት ጠልቦ፣ ዲብ ዎሮት ኣው ብዝሕ መለፍ ናይ ZIP ንወድዮ እግልኩም፣ ናይ ላሓልፋ ጠለብኩም እሊ ቱ:
 download-request-button = ክረው
 download-request-title = { $created }
+download-request-assembling-description = መለፋትኩም ትትኣክብ ህሌት ሓቆ ሽወያ ድለው
 download-request-refresh-button = ኣሓድስ
 download-request-link-text = Zip #{ $offset } of { $total }
+download-request-metadata-link = ናይ ጁምለት ክታበት
 
 ## Landing
 
