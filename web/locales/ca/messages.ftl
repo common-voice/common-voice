@@ -1128,6 +1128,9 @@ sc-submit-select-language =
 sc-submit-ph-one-per-line =
     .placeholder = Una frase per línia
 sc-submit-from-where = D'on són aquestes frases de <wikipediaLink>domini públic</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Llegiu les instruccions si no esteu segurs de com atribuir
+sc-submit-confirm = Confirmo que aquestes frases són de <wikipediaLink>domini públic</wikipediaLink> i tinc permís per pujar-les.
 sc-submit-button =
     .submitText = Envia
 sc-submit-filtered = Frases filtrades a causa d'algun error en els requeriments (envieu les frases corregides com a frases noves):
@@ -1136,6 +1139,7 @@ sc-submit-guidelines = Reviseu les <howToLink>directrius</howToLink>.
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = No s'ha pogut afegir la llengua
+sc-add-lang-sec-label = Afegiu la llengua en la qual voleu contribuir
 sc-add-lang-sec-button = Afegeix una llengua
 sc-add-err-unexpected = El servidor ha retornat una resposta inesperada
 # Variables:
@@ -1178,6 +1182,22 @@ sc-confirm-button-text = Confirma
 
 sc-lang-info-review-now = <reviewLink>Reviseu ara!</reviewLink>
 sc-lang-info-add-more = <addLink>Afegiu més frases ara!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Cap frase validada.
+        [one] Una frase validada.
+       *[other] { $validatedSentences } frases validades.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Cap frase rebutjada.
+        [one] Una frase rebutjada.
+       *[other] { $rejectedSentences } frases rebutjades.
+    }
 
 ## LOGIN
 
@@ -1233,6 +1253,7 @@ sc-review-link = Revisa
 sc-settings-title = Paràmetres
 sc-settings-ui-language = Llengua de la interfície
 sc-settings-reset-skipped = Restableix les frases omeses
+sc-settings-skipped-decription = Abans heu omès frases mentre les revisàveu. Si restabliu les frases omeses, es us tornaran a mostrar. Això és independent de la llengua.
 sc-settings-show-all-button = Mostra de nou totes les frases omeses
 sc-settings-failed = No s'ha pogut canviar la configuració. Torneu-ho a provar.
 # VALIDATION
