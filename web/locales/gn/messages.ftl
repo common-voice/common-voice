@@ -1012,6 +1012,7 @@ sc-logout-button = Emboty tembiapo
 
 ## HOME
 
+sc-home-title = Eg̃uahẽporãite ñe’ẽjuaju mbyatyha ayvu reípe
 sc-home-collect-title = Embyaty ñe’ẽjuaju
 sc-home-review-title = Ehechajey ñe’ẽjuaju
 
