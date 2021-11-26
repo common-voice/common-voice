@@ -395,6 +395,8 @@ skip-submission-description = Wrth gyflwyno cyfraniadau bydd adborth y cael ei h
 skip-submission-note = Sylw: Bydd dal rhaid i chi ddewis rhwng Siarad neu Gwrando i newid y math o gyfraniad.
 off = Diffodd
 on = Ymlaen
+help-accent = Angen cymorth gydag acen?
+help-accent-explanation = Eich acen yw'r ffordd rydych chi'n ynganu geiriau. Mae'n cael ei ffurfio gan ble rydych chi wedi byw, pa ieithoedd eraill rydych chi'n eu siarad a llawer o ffactorau eraill. Gallwch chi rannu unrhyw wybodaeth rydych chi'n teimlo sy'n berthnasol yma.
 
 ## Profile - Email
 
