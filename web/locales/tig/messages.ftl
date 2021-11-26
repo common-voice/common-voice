@@ -463,6 +463,7 @@ review-aborted = ዓረጎት በጥራ:: ትስጂልኩም ትዎርክዎ ታ
 review-submit-title = ራጅዕ & ንዳእ
 review-recording = ራጀዕ
 review-rerecord = ካልእ ዶል ስጅል
+review-cancel = ልእከት ኣብጥር
 review-keep-recordings = ዲብ ትስጂል ኣስተምር
 review-delete-recordings = ትስጂልየ ዎርክዮ
 
@@ -539,6 +540,7 @@ language-total-progress = ኩሉ ምስል
 language-search-input =
     .placeholder = ደውር
 language-speakers = ሄግያይ
+localized = ላትተርጀማ
 sentences = ጁመል
 total-hours = ለትሓቀቀያ ሳዓት
 
@@ -887,6 +889,8 @@ sc-submit-add-sentences = ናይ<wikipediaLink>ሙልኬት ዓመት</wikipedia
 sc-submit-ph-one-per-line =
     .placeholder = ዎሮ ጁምለት ዲብ ዎሮ ሰጠር
 sc-submit-from-where = እለን ናይ<wikipediaLink>ሙልኬት ዓመት</wikipediaLink>ጁመል ምን ኣያ ተን?
+sc-submit-button =
+    .submitText = ላኣኽ
 sc-submit-guidelines = እኢ <howToLink>መምረሔታት</howToLink> ኣምር.
 
 ## ADD LANGUAGE
