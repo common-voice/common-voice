@@ -564,8 +564,19 @@ other-datasets = ᱮᱴᱟᱜ ᱥᱟᱲᱮ ᱰᱟᱴᱥᱮᱴ
 feedback-q = ᱟᱢᱟᱜ ᱢᱚᱛ ᱢᱮᱱᱟᱜᱼᱟ ᱥᱮ?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ᱫᱚ ᱥᱮᱸᱫᱽᱨᱟᱤᱭᱟᱹ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱢᱤᱫᱴᱟᱹᱝ <docsLink> ᱠᱷᱩᱞᱟᱹ ᱥᱨᱚᱛ ᱴᱩᱞᱠᱤᱴ && ᱠᱟᱱᱟ ᱡᱟᱦᱟᱸ ᱨᱮ ᱥᱴᱮᱴᱼᱚᱯᱷᱼᱫᱟᱹᱼᱟᱨᱴ ᱠᱟᱛᱷᱟ ᱵᱟᱨᱛᱟ AI ᱢᱚᱰᱮᱞ ᱞᱟᱹᱜᱩᱫ ᱛᱮᱭᱟᱨᱚᱜ ᱠᱟᱱᱟ᱾
 resource-deepspeech-info = Mozilla ᱨᱮᱭᱟᱜ ᱠᱷᱩᱞᱟᱹ ᱥᱨᱚᱛ ᱥᱟᱰᱮ ᱪᱤᱱᱦᱟᱹᱯ ᱤᱧᱡᱤᱱ ᱜᱟᱹᱦᱤᱸᱨ ᱥᱟᱰᱮ ᱫᱚ ᱥᱟᱰᱮ ᱪᱤᱱᱦᱟᱹᱯ ᱮᱯᱞᱤᱠᱮᱥᱚᱱ ᱛᱮᱭᱟᱨ ᱨᱮ ᱵᱮᱵᱷᱟᱨ ᱜᱟᱱᱚᱜᱼᱟ᱾ ᱪᱮᱞᱠᱟ ᱞᱟᱦᱟᱜ ᱨᱮᱭᱟᱜ ᱵᱟᱵᱚᱛ ᱨᱮ ᱵᱟᱲᱟᱭ ᱞᱟᱹᱜᱩᱫ ᱟᱞᱮᱭᱟᱜ <githubLink>Github overview</githubLink> ᱯᱟᱲᱦᱟᱣ ᱢᱮ ᱟᱨ ᱵᱟᱝ <discourseLink>DeepSpeechDiscourse</discourseLink>ᱨᱮ ᱥᱮᱞᱮᱫᱚᱜ ᱢᱮ᱾
+resource-coqui-info = <coquiLink>Coqui</coquiLink> ᱫᱚ ᱢᱤᱫᱴᱟᱹᱝ ᱠᱷᱩᱞᱟᱹ ᱥᱨᱚᱛ ᱥᱟᱰᱮ ᱴᱮᱠᱱᱚᱞᱚᱡᱤ ᱠᱟᱱᱟ᱾ ᱩᱱᱠᱩᱣᱟᱜ ᱯᱨᱚᱡᱮᱠᱴ ᱨᱮ ᱫᱚ ᱜᱟᱹᱦᱤᱸᱨ ᱪᱮᱫᱚᱜ SST ᱟᱨ TTS ᱤᱧᱡᱤᱱ ᱠᱚ ᱢᱮᱱᱟᱜᱼᱟ᱾
+community-playbook = ᱥᱚᱢᱩᱫᱟᱹᱭ ᱯᱞᱮᱵᱩᱠ
+resource-playbook-info = ᱯᱩᱨᱟᱹ Common Voice ᱫᱟᱬᱟ ᱞᱟᱹᱜᱤᱫ <playbookLink> ᱜᱚᱲᱚ ᱯᱟᱱᱛᱮ ᱢᱮ </playbookLink>, ᱛᱚᱨᱡᱚᱢᱟ ᱠᱷᱚᱱ ᱰᱟᱴᱟᱥᱮᱴ ᱵᱮᱵᱷᱟᱨ, ᱟᱨᱦᱚᱸ ᱪᱮᱞᱠᱟ ᱟᱢ ᱥᱚᱢᱩᱫᱟᱹᱭ ᱥᱟᱞᱟᱜ ᱡᱩᱲᱟᱹᱣᱜ ᱟ᱾
+data-other-librispeech-description = LibriSpeech ᱫᱚ 1000 ᱴᱟᱲᱟᱝ ᱨᱮᱭᱟᱜ ᱑᱕khz ᱯᱟᱲᱦᱟᱣ ᱠᱟᱱ ᱤᱝᱨᱟᱡᱤ ᱥᱟᱰᱮ ᱠᱟᱱᱟ ᱡᱟᱦᱟᱸ ᱫᱚ LibriVox ᱯᱨᱚᱡᱮᱠᱴ ᱨᱮᱭᱟᱜ ᱯᱟᱲᱦᱟᱣ ᱥᱟᱰᱮᱯᱟᱛᱚᱵ ᱠᱷᱚᱱ ᱦᱮᱡ ᱠᱟᱱᱟ᱾
 data-other-ted-name = TED-LIUM ᱠᱚᱨᱯᱚᱥ
+data-other-ted-description = TED-LIUM ᱠᱚᱨᱯᱥ ᱫᱚ ᱥᱟᱰᱮ ᱠᱟᱛᱷᱟ ᱵᱟᱨᱛᱟ ᱟᱨ TED ᱣᱮᱵᱥᱟᱭᱤᱴ ᱨᱮᱭᱟᱜ ᱴᱨᱟᱱᱥᱯᱚᱴᱤᱭᱟᱹᱱ ᱨᱮ ᱢᱮᱱᱜᱼᱟ᱾
+data-other-voxforge-description = VoxForge ᱫᱚ ᱴᱨᱟᱱᱥᱠᱨᱟᱭᱤᱵ ᱠᱟᱱ ᱥᱟᱰᱮ ᱠᱚ ᱡᱟᱣᱨᱟ ᱞᱟᱹᱜᱤᱫ ᱥᱮᱴ ᱠᱟᱱᱟ ᱚᱠᱟ ᱫᱚ ᱯᱷᱨᱤ ᱟᱨ ᱠᱷᱩᱞᱟᱹ ᱥᱨᱚᱛ ᱥᱟᱰᱮ ᱪᱤᱱᱦᱟᱹᱯ ᱤᱧᱡᱤᱱ ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱥᱮᱴ ᱠᱟᱱᱟ᱾
+data-other-tatoeba-description = Tatoeba ᱫᱚ ᱟᱹᱭᱟᱹᱛ, ᱛᱚᱨᱡᱚᱢᱟ, ᱟᱨ ᱢᱮᱱ ᱠᱟᱱ ᱥᱟᱰᱮ ᱨᱮᱭᱟᱜ ᱟᱹᱰᱤ ᱢᱟᱨᱟᱝ ᱰᱟᱴᱟᱵᱮᱥ ᱠᱟᱱᱟ ᱚᱠᱟ ᱫᱚ ᱯᱟᱹᱨᱥᱤ ᱪᱮᱫ ᱨᱮ ᱵᱮᱵᱷᱟᱨᱚᱜ ᱠᱟᱱᱟ᱾ ᱱᱚᱵᱟ ᱰᱟᱩᱞᱚᱰ ᱨᱮ ᱫᱚ ᱢᱮᱱ ᱠᱟᱱ ᱤᱝᱨᱟᱡᱤ ᱨᱮᱠᱚᱰ ᱢᱮᱱᱟᱜᱼᱟ᱾
+your-feedback = ᱟᱢ ᱵᱟᱲᱟᱭᱟᱢ ᱥᱮ ᱟᱵᱚ ᱫᱚ ᱪᱮᱞᱠᱟ ᱛᱮ Common Voice ᱰᱟᱴᱟᱥᱮᱴ ᱵᱮᱥ ᱵᱚᱱ ᱛᱮᱭᱟᱨ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ? ᱟᱞᱮ Discourses ᱨᱮ ᱵᱟᱲᱟᱭ ᱪᱷᱚ ᱞᱮᱢ᱾
+go-discourse = Discourse ᱛᱮ ᱪᱟᱞᱟᱜᱢᱮ
+missing-language = ᱰᱟᱴᱟᱥᱮᱴ ᱨᱮ ᱟᱢᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱵᱟᱝ ᱧᱮᱞᱧᱢ ᱮᱫ ᱟᱢ ᱥᱮ? ᱢᱤᱫᱴᱟᱹᱝ ᱯᱟᱹᱨᱥᱤ ᱱᱮᱦᱚᱨ ᱞᱟᱹᱜᱤᱫ ᱯᱟᱹᱨᱥᱤ ᱵᱟᱨ ᱨᱮ ᱚᱛᱟᱭ ᱢᱮ᱾
 go-languages-page = ᱯᱟᱹᱨᱥᱤ ᱥᱟᱦᱴᱟ ᱛᱮ ᱪᱟᱞᱟᱜ ᱢᱮ
+ready-to-validate = ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱧᱮᱞ ᱵᱤᱲᱟᱹᱣ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢ ᱥᱚᱡ ᱮᱱᱟᱢ?
 more = ᱰᱷᱮᱨ
 close = ᱵᱚᱸᱫᱚᱭ ᱢᱮ
 download = ᱰᱟᱩᱱᱞᱳᱰ
@@ -574,6 +585,7 @@ dataset-version = ᱵᱷᱟᱹᱨᱥᱚᱱ
 ## Download Modal
 
 download-title = ᱟᱢᱟᱜ ᱰᱟᱩᱱᱞᱳᱰ ᱮᱦᱚᱵᱮᱱᱟ ᱾
+download-helpus = ᱥᱟᱰᱮ ᱴᱮᱠᱱᱚᱞᱚᱡᱤ ᱥᱩᱨ ᱛᱮ ᱢᱤᱫᱴᱟᱹᱝ ᱥᱚᱢᱩᱫᱟᱹᱭ ᱛᱮᱭᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱟᱠᱮ ᱜᱚᱲᱚ ᱮᱢᱟ ᱠᱮᱢ, ᱤᱢᱮᱞ ᱥᱟᱞᱟᱜ ᱡᱩᱲᱟᱹᱣ ᱨᱮ ᱛᱟᱦᱮᱸᱱ ᱢᱮ᱾
 download-form-email =
     .label = ᱟᱢᱟᱜ ᱤᱢᱮᱞ ᱟᱫᱮᱨ ᱛᱟᱢ
     .value = ᱥᱟᱦᱨᱟᱣ ᱜᱮ, ᱟᱞᱮ ᱡᱩᱲᱟᱹᱣ ᱛᱟᱦᱮᱱ ᱟᱞᱮ ᱾
@@ -604,6 +616,7 @@ other-language = ᱮᱴᱟᱜᱟ ᱯᱟᱹᱨᱥᱤ
 language-section-in-progress = ᱞᱟᱦᱟ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ
 language-section-in-progress-new-description = ᱱᱚᱶᱟ ᱯᱟᱹᱨᱥᱤ ᱠᱚ ᱫᱚ ᱱᱤᱛᱚᱜ ᱠᱚᱢᱭᱩᱱᱤᱴᱭ ᱰᱮᱵᱷᱞᱚᱯᱢᱮᱱᱴ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ ᱾ ᱱᱚᱶᱟ ᱞᱟᱦᱟ ᱵᱟᱨ ᱫᱚ ᱡᱷᱚᱜᱚ ᱯᱟᱹᱨᱥᱤ ᱠᱚᱣᱟᱜ ᱞᱟᱦᱟ ᱠᱚ <localizationGlossaryLink> ᱣᱮᱵᱥᱟᱭᱤᱴ ᱛᱚᱨᱡᱚᱢᱟ </localizationGlossaryLink> ᱟᱨ <sentenceCollectionGlossaryLink> ᱟᱭᱟᱛ ᱴᱩᱢᱟᱹᱞ </sentenceCollectionGlossaryLink> ᱨᱮ ᱫᱮᱠᱷᱟᱣᱮᱫᱼᱟᱭ ᱾
 language-section-launched = ᱩᱪᱷᱟᱹᱱ ᱮᱱᱟ
+language-section-launched-description = ᱩᱪᱷᱟᱹᱱ ᱠᱟᱱ ᱯᱟᱹᱨᱥᱤ ᱞᱟᱹᱜᱤᱫ ᱣᱮᱵᱥᱟᱭᱤᱴ ᱫᱚ ᱨᱟᱹᱥ ᱞᱮᱠᱷᱟᱛᱮ <localizationGlossaryLink> ᱛᱚᱨᱡᱚᱢᱟ </localizationGlossaryLink> ᱠᱟᱱᱟ, ᱟᱨ ᱴᱷᱤᱠ ᱫᱚᱨᱠᱟᱨ ᱠᱟᱱ <sentenceCollectionGlossaryLink> ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱢᱮᱱᱟᱜᱼᱟ </sentenceCollectionGlossaryLink> ᱡᱟᱦᱟᱸ ᱛᱮ <speakLink> ᱨᱚᱲ </speakLink> ᱟᱨ  <listenLink> ᱟᱸᱡᱚᱢ </listenLink> ᱮᱱᱮᱢ ᱠᱚ ᱜᱟᱱᱚᱜᱼᱟ ᱾
 languages-show-more = ᱰᱷᱮᱨ ᱧᱮᱞ
 languages-show-less = ᱠᱚᱢ ᱧᱮᱞ ᱢᱮ
 language-meter-in-progress = ᱞᱟᱦᱟ
@@ -629,6 +642,8 @@ clips-with-count-pluralized =
         [two] <bold>{ $count }</bold> ᱠᱞᱤᱯ ᱠᱤᱱ
        *[other] <bold>{ $count }</bold> ᱠᱞᱤᱯ ᱠᱚ
     }
+goal-help-recording = ᱟᱢ ᱫᱚ Common Voice <goalPercentage></goalPercentage> ᱨᱮᱭᱟᱜ ᱫᱤᱱᱟᱹᱢ ᱨᱮᱠᱚᱰᱤᱝ ᱩᱫᱩᱜ { $goalValue } ᱨᱮ ᱥᱮᱴᱮᱨ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢ ᱠᱮᱜᱼᱟ᱾
+goal-help-validation = ᱟᱢ ᱫᱚ Common Voice <goalPercentage></goalPercentage> ᱨᱮᱭᱟᱜ ᱫᱤᱱᱟᱹᱢ ᱨᱮᱠᱚᱰᱤᱝ ᱩᱫᱩᱜ { $goalValue } ᱨᱮ ᱥᱮᱴᱮᱨ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢ ᱠᱮᱜᱼᱟ᱾
 contribute-more =
     { $count ->
         [one] { $count } ᱞᱟᱹᱜᱤᱫ ᱥᱚᱡᱽ?
@@ -666,9 +681,14 @@ listen-instruction = { $actionType }<playIcon></playIcon> ᱪᱮᱫ ᱩᱱᱠᱩ
 listen-again-instruction = ᱪᱚᱨᱚᱠ ᱞᱟᱹᱢᱤ!<playIcon></playIcon>ᱥᱚᱡ ᱞᱚᱠᱷᱟᱱᱮᱢ ᱫᱩᱦᱲᱟᱹ ᱟᱧᱡᱚᱢ ᱢᱮ
 listen-3rd-time-instruction = 2 ᱞᱟᱛᱟᱨ, ᱪᱟᱹᱞᱩ ᱠᱟᱜ ᱢᱮ!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon><playIcon>ᱢᱩᱪᱟᱹᱫᱟᱜ!
+listen-empty-state = ᱯᱟᱹᱨᱥᱤ ᱢᱟᱱᱭᱚ ᱞᱟᱹᱜᱤᱫ ᱠᱞᱤᱯ ᱵᱟᱹᱱᱩᱜᱼᱟ...
+speak-empty-state = ᱱᱚᱶᱟ ᱯᱟᱹᱨᱥᱤ ᱨᱮᱠᱚᱰ ᱞᱟᱹᱜᱤᱫ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱠᱚᱢ ᱯᱟᱲᱟᱣᱮᱱᱟ...
 speak-empty-state-cta = ᱟᱹᱭᱟᱹᱛ ᱮᱱᱮᱢ ᱢᱮ
 record-button-label = ᱟᱢᱟᱜ ᱥᱟᱲᱮ ᱨᱮᱠᱚᱰ ᱢᱮ
 share-title-new = <bold>ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ</bold> ᱟᱨᱦᱚᱸ ᱥᱟᱲᱮ ᱯᱟᱱᱛᱮ ᱢᱮ
+keep-track-profile = ᱢᱚᱦᱲᱟ ᱛᱮ ᱟᱢᱟᱜ ᱞᱟᱦᱟ ᱠᱚ ᱨᱮᱭᱟᱜ ᱪᱤᱴᱷᱟᱹ ᱫᱚᱦᱚᱭ ᱢᱮ
+login-to-get-started = ᱮᱛᱦᱚᱵ ᱞᱟᱹᱜᱤᱫ ᱵᱚᱞᱚᱱ ᱢᱮ ᱟᱨ ᱵᱟᱝ ᱥᱩᱦᱤ ᱮᱢ ᱢᱮ
+target-segment-first-card = ᱟᱢ ᱫᱚ ᱟᱞᱮᱭᱟᱜ ᱯᱩᱭᱞᱩ ᱴᱟᱨᱜᱮᱴ ᱠᱷᱟᱹᱱᱰᱤᱭᱟᱹ ᱨᱮ ᱮᱱᱮᱢᱮᱫᱟ
 target-segment-add-voice = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱥᱮᱞᱮᱫ ᱛᱟᱢ
 target-segment-learn-more = ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ
 
