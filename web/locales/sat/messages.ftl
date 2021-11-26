@@ -1042,12 +1042,66 @@ sc-submit-guidelines = ᱫᱟᱭᱟᱠᱟᱛᱮ <howToLink>ᱫᱤᱥᱟᱹ ᱱ�
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = ᱯᱟᱹᱨᱥᱤ ᱥᱮᱞᱮᱫ ᱵᱟᱝ ᱜᱟᱱᱚᱜ ᱠᱟᱱᱟ᱾
+sc-add-lang-sec-label = ᱟᱢ ᱮᱱᱮᱢ ᱥᱟᱱᱟᱢ ᱠᱟᱱ ᱯᱟᱹᱨᱥᱤ ᱥᱮᱞᱮᱫ ᱢᱮ
+sc-add-lang-sec-button = ᱯᱟᱹᱨᱥᱤ ᱥᱮᱞᱮᱫᱽ ᱢᱮ
+sc-add-err-unexpected = ᱥᱟᱹᱨᱣᱟᱹᱨ ᱠᱷᱚᱱ ᱵᱟᱝ ᱟᱝᱥᱟᱠ ᱨᱚᱲ ᱨᱩᱟᱹᱲ ᱦᱮᱡ ᱮᱱᱟ ᱾
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] ᱟᱹᱭᱟᱹᱛ ᱵᱷᱩᱠ ᱮᱱᱟ
+        [one] 1 ᱟᱹᱭᱟᱹᱛ ᱵᱷᱩᱠ ᱮᱱᱟ
+        [two] { $sentences } ᱟᱹᱭᱟᱹᱛ ᱵᱷᱩᱠ ᱮᱱᱟ
+       *[other] { $sentences } ᱟᱹᱭᱟᱹᱛ ᱵᱷᱩᱠ ᱮᱱᱟ
+    }
+sc-add-err-submission = ᱡᱚᱢᱟ ᱵᱷᱩᱞ
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱫᱚ ᱵᱟᱝ ᱡᱚᱢᱟ ᱠᱟᱱᱟ, ᱟᱢ ᱥᱟᱹᱨᱤ ᱛᱮ ᱪᱷᱟᱲᱟ ᱥᱮᱱᱟᱢ ᱠᱟᱱᱟ?
+sc-confirm-sentences-title = ᱱᱟᱶᱟ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱴᱷᱟᱹᱣᱠᱟᱹᱭ ᱢᱮ
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] ᱟᱹᱭᱟᱹᱛ ᱧᱟᱢ ᱮᱱᱟ᱾
+        [one] 1 ᱟᱹᱭᱟᱹᱛ ᱧᱟᱢ ᱮᱱᱟ᱾
+        [two] { $countOfSentences } 1 ᱟᱹᱭᱟᱹᱛ ᱧᱟᱢ ᱮᱱᱟ᱾
+       *[other] { $countOfSentences } 1 ᱟᱹᱭᱟᱹᱛ ᱧᱟᱢ ᱮᱱᱟ᱾
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } ᱟᱢ ᱵᱟᱹᱨᱜᱤᱞ ᱟᱠᱟᱫᱟᱭ
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] ᱢᱩᱴᱷᱮ ᱟᱹᱭᱟᱹᱛ ᱢᱟᱲᱟᱝ ᱠᱷᱚᱱ ᱫᱩᱦᱲᱟᱹ ᱧᱮᱞ ᱠᱟᱱᱟ᱾
+        [one] 1 ᱟᱹᱭᱟᱹᱛ ᱢᱟᱲᱟᱝ ᱠᱷᱚᱱ ᱫᱩᱦᱲᱟᱹ ᱧᱮᱞ ᱠᱟᱱᱟ᱾ ᱥᱟᱨᱦᱟᱣ!
+        [two] { $countOfReviewed } ᱟᱹᱭᱟᱹᱛ ᱢᱟᱲᱟᱝ ᱠᱷᱚᱱ ᱫᱩᱦᱲᱟᱹ ᱧᱮᱞ ᱠᱟᱱᱟ᱾ ᱥᱟᱨᱦᱟᱣ!
+       *[other] { $countOfReviewed } ᱟᱹᱭᱟᱹᱛ ᱢᱟᱲᱟᱝ ᱠᱷᱚᱱ ᱫᱩᱦᱲᱟᱹ ᱧᱮᱞ ᱠᱟᱱᱟ᱾ ᱥᱟᱨᱦᱟᱣ!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] ᱵᱟᱝ ᱟᱹᱭᱟᱹᱛ ᱡᱚᱢᱟ ᱞᱟᱹᱜᱤᱫ ᱴᱷᱤᱠ ᱮᱱᱟ!
+        [one] 1 ᱟᱹᱭᱟᱹᱛ ᱡᱚᱢᱟ ᱞᱟᱹᱜᱤᱫ ᱴᱷᱤᱠ ᱮᱱᱟ!
+        [two] { $readyCount } ᱟᱹᱭᱟᱹᱛ ᱡᱚᱢᱟ ᱞᱟᱹᱜᱤᱫ ᱴᱷᱤᱠ ᱮᱱᱟ!
+       *[other] { $readyCount } ᱟᱹᱭᱟᱹᱛ ᱡᱚᱢᱟ ᱞᱟᱹᱜᱤᱫ ᱴᱷᱤᱠ ᱮᱱᱟ!
+    }
+sc-confirm-button-text = ᱴᱷᱟᱹᱣᱠᱟᱹ
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] ᱵᱟᱝ ᱢᱟᱴ ᱟᱹᱭᱟᱹᱛ ᱠᱚ᱾
+        [one] 1 ᱢᱟᱴ ᱟᱹᱭᱟᱹᱛ ᱠᱚ᱾
+        [two] { $totalSentences } ᱢᱟᱴ ᱟᱹᱭᱟᱹᱛ ᱠᱚ᱾
+       *[other] { $totalSentences } ᱢᱟᱴ ᱟᱹᱭᱟᱹᱛ ᱠᱚ᱾
+    }
 
 ## LOGIN
 
