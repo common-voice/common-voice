@@ -1284,6 +1284,7 @@ sc-review-link = 審核
 
 sc-settings-title = 設定
 sc-settings-ui-language = 介面語言
+sc-settings-language-translated-warning = 此語言的頁面可能尚未完全翻譯完成。歡迎到 <pontoonLinkLink>Pontoon</pontoonLinkLink> 協助我們補充翻譯。
 sc-settings-reset-skipped = 重設略過的句子
 sc-settings-show-all-button = 再次顯示略過的句子
 sc-settings-failed = 無法更改設定，請再試一次。
