@@ -1209,6 +1209,7 @@ sc-login-err-try-again = Torneu-ho a provar.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Perfil: { $username }
+sc-personal-err-lang-not-found = No s'ha pogut suprimir la llengua: la llengua no s'ha trobat
 sc-personal-err-remove = No s'ha pogut suprimir la llengua
 sc-personal-your-languages = Les vostres llengües:
 sc-personal-remove-button = elimina
@@ -1238,20 +1239,33 @@ sc-review-select-language = Trieu una llengua per a revisar-ne les frases.
 sc-review-no-sentences = No hi ha cap frase per revisar. <addLink>Afegiu més frases ara!</addLink>
 sc-review-form-prompt =
     .message = No s'han enviat les frases revisades, n'esteu segur?
+sc-review-form-usage = Llisqueu cap a la dreta per a aprovar la frase. Llisqueu cap a l'esquerra per a rebutjar-la. Llisqueu cap amunt per a ometre-la. <strong>No oblideu de trametre la revisió!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Font:  { $sentenceSource }
 sc-review-form-button-reject = Rebutja
 sc-review-form-button-skip = Omet
 sc-review-form-button-approve = Aprova
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = També podeu usar les dreceres del teclat: Y per a aprovar, N per a rebutjar, S per a ometre
 sc-review-form-button-submit =
     .submitText = Acaba la revisió
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] No heu revisat cap frase.
+        [one] Heu revisat una frase. Gràcies!
+       *[other] Heu revisat { $sentences } frases. Gràcies!
+    }
+sc-review-form-review-failure = No s'ha pogut desar la revisió. Torneu-ho a provar més tard.
 sc-review-link = Revisa
 
 ## SETTINGS
 
 sc-settings-title = Paràmetres
 sc-settings-ui-language = Llengua de la interfície
+sc-settings-language-translated-warning = Les pàgines per aquesta llengua poden no estar acabades de traduir. Podeu ajudar amb les traduccions al <pontoonLinkLink>Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Restableix les frases omeses
 sc-settings-skipped-decription = Abans heu omès frases mentre les revisàveu. Si restabliu les frases omeses, es us tornaran a mostrar. Això és independent de la llengua.
 sc-settings-show-all-button = Mostra de nou totes les frases omeses
