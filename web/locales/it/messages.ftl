@@ -330,6 +330,7 @@ profile-form-accent =
     .label = Accento
 profile-form-custom-accent-help-text =
     .label = Come descriveresti il tuo accento?
+profile-form-custom-accent-placeholder-2 = Inizia a digitare per descrivere il tuo accento
 profile-form-age =
     .label = Età
 profile-form-gender-2 =
@@ -340,6 +341,7 @@ hidden = Nascosto
 visible = Visibile
 native-language =
     .label = Lingua madre
+profile-form-add-accent = Aggiungi nuovo accento personalizzato “{ $inputValue }”
 profile-form-submit-save = Salva
 profile-form-submit-saved = Salva
 male = Maschio
@@ -373,6 +375,8 @@ skip-submission-description = Dopo aver premuto Invia durante l’invio del cont
 skip-submission-note = Nota: sarà comunque necessario selezionare Parla o Ascolta per modificare il tipo di contributo.
 off = Disattiva
 on = Attiva
+help-accent = Hai bisogno di aiuto con l’accento?
+help-accent-explanation = Il tuo accento è il modo in cui pronunci le parole. Può essere condizionato dal luogo in cui hai vissuto, da quali altre lingue parli e da molti altri fattori. Qui puoi condividere qualsiasi informazione che ritieni pertinente.
 
 ## Profile - Email
 
@@ -1253,6 +1257,7 @@ sc-criteria-item-1 = La frase deve essere corretta dal punto di vista dell’ort
 sc-criteria-item-2 = La frase deve essere grammaticalmente corretta.
 sc-criteria-item-3 = La frase deve essere pronunciabile.
 sc-criteria-item-4 = Se la frase soddisfa le regole di convalida, fai clic sul pulsante &quot;Approva&quot; sulla destra
+sc-criteria-item-5-2 = Se la frase non rispetta le regole precedenti, fai clic sul pulsante &quot;Rifiuta&quot; sulla sinistra. Se non sei sicuro della frase, puoi saltarla e passare alla successiva.
 sc-criteria-item-6 = Se hai terminato le frasi da convalidare, aiutaci a raccogliere altre frasi!
 
 ## REVIEW
@@ -1289,10 +1294,17 @@ sc-review-link = Convalida
 ## SETTINGS
 
 sc-settings-title = Impostazioni
+sc-settings-ui-language = Lingua dell’interfaccia
+sc-settings-language-translated-warning = Le pagine per questa lingua potrebbero non essere tradotte completamente. Puoi aiutare con la traduzione <pontoonLinkLink>su Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Ripristina le frasi saltate
 sc-settings-skipped-decription = Mentre stavi convalidando hai saltato delle frasi. Il ripristino delle frasi saltate mostrerà di nuovo tutte le frasi saltate. Questo non dipende dalla lingua.
 sc-settings-show-all-button = Mostra di nuovo tutte le frasi saltate
 sc-settings-failed = Impossibile modificare le impostazioni. Riprova.
+# VALIDATION
+sc-validation-number-of-words = La frase deve contenere da 1 a 14 parole (incluse)
+sc-validation-no-numbers = La frase non deve contenere numeri
+sc-validation-no-symbols = La frase non deve contenere simboli
+sc-validation-no-abbreviations = La frase non deve contenere abbreviazioni
 
 # [/SentenceCollector]
 
