@@ -376,6 +376,7 @@ skip-submission-description = Katkı gönderimi sırasında Gönder'e tıkladık
 skip-submission-note = Not: Katkı türünü değiştirmek için Konuşma veya Dinleme arasında seçim yapmanız gerekecektir.
 off = Kapalı
 on = Açık
+help-accent = Aksan konusunda yardıma mı ihtiyacınız var?
 
 ## Profile - Email
 
@@ -1297,6 +1298,11 @@ sc-settings-reset-skipped = Atlanan cümleleri sıfırla
 sc-settings-skipped-decription = Daha önce incelemeniz sırasında bazı cümleleri atladınız. Atlanan cümleleri sıfırlamak, atlanan tüm cümleleri tekrar gösterecektir. Bu işlem dilden bağımsızdır.
 sc-settings-show-all-button = Atlanan tüm cümleleri tekrar göster
 sc-settings-failed = Ayarlar değiştirilemedi. Lütfen tekrar deneyin.
+# VALIDATION
+sc-validation-number-of-words = Cümle 1 ila 14 kelimeden oluşmalıdır
+sc-validation-no-numbers = Cümle rakam içermemelidir
+sc-validation-no-symbols = Cümle sembol içermemelidir
+sc-validation-no-abbreviations = Cümle kısaltma içermemelidir
 
 # [/SentenceCollector]
 
