@@ -903,6 +903,8 @@ sc-add-lang-process-notice = ሉቀትኩም አንዘ ሓቆ የህሌት, <lan
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = ላ ጁመል ኢትላኣከትኒ፣ ሙትኣኽዲን አንቱም ቲግሶ ቱ?
 sc-confirm-sentences-title = ሓዳይስ ጁመል ኣክድ
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
@@ -915,6 +917,12 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = ኣብኩም ላትረፈደያ
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] ኣስኽ ኣዘ ላትራጃዕያ ጁመል ይሃለያኒ
+        [one] ኣስኽ ኣዘ ዎሮ ጁምለት ትራጃዓት
+       *[other] ኣስኽ ኣዘ { $countOfReviewed } ጁመል ትራጃዓያ
+    }
 sc-confirm-button-text = ኣክድ
 
 ## LANGUAGE INFO
