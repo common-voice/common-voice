@@ -829,43 +829,85 @@ download-profile-size = ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱵᱟᱭᱤᱴᱥ
 download-recordings-title = ᱨᱮᱠᱚᱰᱤᱝ ᱠᱚ
 download-recordings-info = mp3s ᱟᱨ ᱡᱩᱲᱟᱹᱣ ᱠᱟᱱ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱢᱮᱱᱟᱜᱼᱟ, ᱛᱮᱭᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱚᱠᱛᱚ ᱤᱫᱤ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱭ
 download-recordings-size = ᱢᱮᱜᱟᱵᱟᱭᱤᱴ ᱜᱮ
+download-recordings-unavailable = ᱮᱴᱟᱜ ᱱᱮᱦᱚᱨ ᱞᱟᱦᱟ ᱢᱟᱰᱟᱝ ᱨᱮ ᱟᱢ ᱟᱢᱟᱜ ᱨᱮᱠᱚᱰᱤᱝ ᱵᱟᱝ ᱱᱮᱦᱚᱨ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ᱾
+download-recently-requested = ᱡᱷᱚᱛᱟ { $days } ᱫᱤᱱ ᱨᱮ ᱟᱢ ᱟᱢᱟᱜ ᱨᱮᱠᱚᱰᱤᱝ ᱨᱮᱭᱟᱜ ᱤᱫᱤ ᱠᱚ ᱱᱮᱦᱚᱨ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ᱾
 download-size = ᱢᱟᱯ
 download-selected = ᱵᱟᱪᱷᱟᱣᱮᱱᱟ
 download-start = ᱢᱚᱦᱚᱨ ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱚᱰ ᱢᱮ
 download-request = ᱨᱮᱠᱚᱰᱤᱝ ᱱᱮᱦᱚᱨ ᱢᱮ
+download-requests = ᱢᱟᱲᱟᱝ ᱨᱮᱠᱚᱰᱤᱝ ᱰᱟᱩᱱᱞᱚᱰ ᱱᱮᱦᱚᱨ
+download-requests-info = ᱛᱤᱧ ᱡᱷᱚᱜ ᱟᱢ ᱨᱮᱠᱚᱰᱤᱝ ᱮᱢ ᱱᱮᱦᱚᱨᱟ, ᱟᱞᱮ ᱢᱤᱫᱴᱟᱹᱝ ᱵᱟᱝᱠᱷᱟᱱ ZIP ᱨᱮᱫ ᱨᱮ ᱢᱚᱭᱞᱟᱹᱴ ᱠᱟᱜ ᱠᱟᱱᱟ ᱞᱮ᱾ ᱱᱟᱶᱟ ᱠᱚ ᱟᱢᱟᱜ ᱢᱟᱲᱟᱝ ᱱᱮᱦᱚᱨ ᱠᱚ:
 download-request-button = ᱰᱟᱩᱱᱞᱚᱰ
 download-request-title = { $created }
+download-request-description = { $clipCount } ᱥᱟᱰᱮ ᱞᱠᱤᱯ, ᱢᱩᱴ ᱟᱨᱠᱟᱭᱤᱵᱷ ᱢᱟᱯ { $size } ᱾ { $expires } ᱨᱮ ᱪᱟᱵᱟᱜ ᱟ᱾
+download-request-archive-single = ᱢᱤᱫᱴᱟᱹᱝ ZIP ᱢᱮᱱᱟᱜ ᱨᱮᱫ
+download-request-archive-multiple = { $archiveCount } ZIP ᱨᱮᱫ ᱢᱮᱱᱟᱜ ᱨᱮᱫ ᱠᱚ ᱦᱟᱹᱴᱤᱧ ᱯᱮ
+download-request-assembling-description = ᱟᱢᱟᱜ ᱨᱮᱫ ᱠᱚ ᱫᱚᱡᱟᱣᱨᱟᱜᱼᱟ᱾ ᱫᱟᱭᱟᱠᱟᱛᱮ ᱛᱟᱭᱚᱢ ᱛᱮ ᱧᱮᱞ ᱵᱤᱲᱟᱹᱣ ᱢᱮ᱾
 download-request-refresh-button = ᱱᱟᱶᱟ ᱟᱹᱨᱩ
 download-request-modal-title = ᱰᱟᱩᱱᱞᱚᱰ ᱞᱤᱝᱠ
+download-request-modal-description = ᱟᱢᱟᱜ ZIP ᱨᱮᱥ ᱠᱚ ᱰᱟᱩᱞᱚᱰ ᱞᱟᱹᱜᱤᱫ ᱱᱚᱶᱟ ᱠᱚ ᱞᱤᱝ᱾
+download-request-link-text = Zip #{ $offset } ᱨᱮᱭᱟᱜ { $total }
+download-request-metadata-link = ᱟᱹᱭᱟᱹᱛ ᱚᱞ
+download-request-link-single = ᱟᱢᱟᱜ ᱠᱩᱥᱤ ᱰᱟᱩᱱᱞᱚᱰ ᱢᱮᱱᱮᱡᱚᱨ ᱛᱮᱦᱚᱸ ᱟᱢ ᱱᱟᱠᱚᱞ ᱟᱨ ᱞᱟᱴᱷᱟ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ ᱰᱟᱭᱨᱮᱠᱴ URL ᱛᱮ᱾ ᱩᱱᱠᱩ ᱫᱚ ᱑᱒ ᱴᱟᱲᱟᱝ ᱨᱮ ᱪᱟᱵᱟᱜᱼᱟ ᱠᱚ, ᱦᱮᱞᱮ ᱟᱢ ᱫᱚ ᱱᱚᱶᱟ ᱥᱟᱦᱴᱟ ᱨᱮ ᱛᱟᱭᱚᱢ ᱛᱮ ᱦᱚᱸ ᱦᱮᱡ ᱨᱩᱣᱟᱹᱲ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ᱾
 
 ## Landing
 
+welcome-staff = ᱥᱟᱹᱜᱩᱱ ᱫᱟᱨᱟᱢ{ $company } ᱥᱴᱟᱯᱷ!
+help-contribute = ᱟᱢ ᱫᱚ ᱣᱤᱣᱤᱫ, ᱠᱷᱩᱞᱟᱹ ᱥᱨᱚᱛ ᱰᱟᱴᱟᱵᱮᱥ ᱟᱞᱮ ᱛᱮᱭᱟᱨ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ ᱠᱷᱟᱹᱞᱤ ᱢᱤᱫᱴᱟᱹᱝ Common Voice ᱢᱚᱦᱚᱨ ᱟᱨ ᱟᱢᱟᱜ ᱥᱟᱰᱮ ᱨᱮᱭᱟᱜ ᱮᱱᱮᱢ ᱜᱮ᱾
+login-company = ᱵᱚᱞᱚᱱ ᱢᱮ/ ᱥᱩᱦᱤ ᱮᱢ ᱢᱮ { $company } ᱤᱢᱮᱞ ᱥᱟᱶᱛᱮ
+profile-not-required = ᱮᱱᱮᱢ ᱞᱟᱹᱜᱤᱫ ᱢᱚᱦᱚᱨ ᱫᱚ ᱵᱟᱭ ᱫᱚᱨᱠᱟᱨ ᱠᱟᱱᱟ ᱦᱮᱞᱮ ᱠᱚᱨᱟᱣ ᱠᱟᱜ ᱞᱮᱠᱷᱟᱱ ᱴᱷᱤᱠ ᱛᱟᱦᱮᱸᱱᱚ, ᱞᱟᱛᱟᱨ ᱧᱮᱞ ᱢᱮ ᱪᱮᱫᱟᱜ᱾
 read-more-about = ᱟᱞᱮᱭᱟ ᱵᱟᱵᱚᱛ ᱥᱟᱦᱴᱟ ᱨᱮ ᱟᱨᱦᱚᱸ ᱯᱟᱲᱦᱟᱣ ᱯᱮ
 
 ## DemoLayout
 
+demo-get-started = ᱫᱮᱞᱟ ᱮᱛᱦᱚᱵ ᱞᱮᱜᱮ ᱵᱚᱱ
+demo-welcome = Common Voice ᱨᱮ ᱟᱢᱟᱜ ᱥᱟᱹᱜᱩᱱ ᱫᱟᱨᱟᱢ
+demo-welcome-subheader = ᱟᱨᱦᱚᱸ ᱪᱮᱫ ᱟᱨ ᱯᱨᱚᱡᱮᱠᱴ ᱨᱮ ᱮᱱᱮᱢ ᱠᱚ ᱠᱚᱨᱟᱣ ᱥᱮᱱᱟᱢ ᱠᱟᱱᱟ ᱥᱮ?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ᱫᱚ ᱡᱮᱜᱮᱛ ᱨᱮᱭᱟᱜ ᱡᱷᱟᱛᱟ ᱠᱷᱚᱱ ᱢᱟᱨᱟᱝ ᱢᱮᱱᱟᱜ ᱟᱭᱢᱟ ᱯᱟᱹᱨᱥᱤ ᱥᱟᱰᱮ ᱰᱟᱴᱟᱥᱮᱴ ᱠᱟᱱᱟ᱾
+demo-language-select-card-body = ᱕᱐ ᱯᱟᱹᱨᱥᱤ ᱨᱮ ᱒᱕᱙k ᱜᱚᱴᱟᱝ ᱦᱚᱲ ᱠᱚᱣᱟᱜ ᱮᱱᱮᱢ ᱞᱟᱹᱜᱤᱫ ᱟᱭᱢᱟ ᱥᱟᱨᱦᱟᱣ, ᱱᱟᱶᱟ ᱰᱟᱴᱟ ᱫᱚ ᱥᱟᱰᱮ ᱥᱚᱯᱚᱴ ᱠᱟᱱ ᱮᱯᱞᱤᱠᱮᱥᱚᱱ ᱠᱚ ᱪᱮᱪᱮᱫᱚᱜ ᱞᱟᱹᱜᱩᱫ ᱵᱟᱵᱷᱟᱨᱚᱜ ᱠᱟᱱᱟ ᱢᱮᱱᱠᱷᱟᱱ ᱦᱚᱲ ᱠᱚ ᱵᱮᱥ ᱠᱚ ᱵᱩᱡᱷᱟᱹᱣ ᱠᱚ ᱢᱟᱸ᱾
 card-button-next = ᱤᱱᱟᱹ ᱛᱟᱭᱚᱱ
 card-button-back = ᱯᱟᱹᱪᱞᱟᱹ
 demo-language-select-label = ᱯᱟᱹᱨᱥᱤ ᱠᱚ ᱵᱽᱨᱟᱩᱡᱽ ᱢᱮ
+demo-eofy-header = ᱒᱐᱑᱙ ᱪᱟᱵᱟ ᱥᱮᱨᱢᱟ ᱨᱮᱭᱟᱜ ᱨᱤᱞᱤᱡᱽ
+demo-eofy-sub_header = ᱥᱟᱰᱮ ᱰᱮᱴᱟᱥᱮᱴ, ᱰᱟᱩᱱᱞᱚᱰ ᱞᱟᱹᱜᱤᱫ ᱥᱚᱡᱽ
 demo-account = ᱠᱷᱟᱛᱟ
 
 ## Demo Account
 
+demo-account-card-header = ᱮᱱᱮᱢ ᱞᱟᱹᱜᱤᱫ ᱠᱷᱟᱛᱟ ᱛᱮᱭᱟᱨ ᱫᱚ ᱵᱟᱝ ᱫᱚᱨᱠᱟᱨᱟ ᱦᱮᱞᱮ,‌ ᱠᱟᱹᱢᱤ ᱨᱮ ᱮᱢᱟᱭ᱾
+demo-account-card-body = ᱡᱟᱡᱚᱢ ᱛᱤ ᱯᱟᱦᱴᱟ ᱨᱮ ᱚᱱᱟ ᱨᱮᱭᱟᱜ ᱠᱟᱹᱤ ᱨᱮ ᱞᱟᱜᱟᱣᱜ ᱟᱨ ᱚᱱᱟ ᱨᱮᱭᱟᱜ ᱵᱤᱵᱨᱚᱬ ᱪᱮᱞᱠᱟ ᱟᱞᱮ ᱚᱱᱟ ᱞᱮ ᱯᱟᱹᱵᱞᱤᱠᱼᱟ᱾ ᱞᱟᱛᱟᱨ ᱨᱮ ᱮᱢ ᱠᱟᱱ ᱞᱤᱝᱠ ᱥᱟᱶᱛᱮ ᱟᱢᱟᱜ ᱱᱤᱡᱚᱨ ᱥᱟᱫᱷᱚᱱ ᱨᱮ Common Voice᱾
+demo-account-enter-email =
+    .label = ᱢᱤᱫᱴᱟᱹᱝ ᱥᱩᱦᱤ ᱮᱢ ᱞᱤᱝᱠ ᱠᱚ ᱵᱷᱮᱡᱟ ᱞᱟᱹᱜᱤᱫ ᱤᱢᱮᱞ ᱟᱫᱮᱨ ᱢᱮ
+demo-account-sign-up = ᱥᱩᱦᱤ ᱮᱢ ᱞᱤᱝᱠ ᱟᱫᱮᱨ ᱢᱮ
 
 ## Demo Contribute
 
+demo-contribute-card-header = ᱟᱢᱟᱜ ᱥᱟᱰᱮ ᱮᱢ ᱟᱨ ᱟᱢᱟᱜ ᱞᱩᱛᱩᱨ ᱛᱮ ᱟᱸᱡᱟᱢ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱥᱚᱡᱽ ᱜᱮᱭᱟᱢ ᱛᱚ?
+demo-contribute-card-body-v2 = ᱢᱮᱱᱠᱷᱟᱱ ᱟᱢ Common Voice ᱵᱟᱵᱚᱛ ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱮᱢ ᱵᱟᱲᱟᱭ ᱠᱮᱜᱼᱟ, ᱪᱮᱫᱟᱜ ᱵᱟᱝ ᱟᱢ ᱠᱟᱹᱢᱤ ᱨᱮ ᱞᱟᱜᱟᱣᱜ ᱢᱮ? ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱡᱩᱨ ᱛᱮ ᱯᱟᱲᱦᱟᱣ ᱞᱟᱹᱜᱩᱫ ᱢᱟᱭᱠᱨᱚᱯᱷᱚᱱ ᱟᱭᱠᱟᱱ ᱨᱮ ᱚᱛᱟᱭ ᱢᱮ᱾ <br/><br/> ᱡᱩᱫᱤ ᱟᱢ ᱮᱴᱟᱜ ᱦᱚᱲ ᱠᱚᱣᱟᱜ ᱮᱱᱮᱢ ᱠᱚ ᱧᱮᱞ ᱵᱤᱲᱟᱹᱣ ᱥᱮᱱᱟᱮᱫ ᱢᱮᱭᱟ ᱢᱮᱱᱠᱷᱟᱱ, ᱯᱞᱮ ᱵᱩᱛᱟᱹᱢ ᱨᱮ ᱚᱛᱟᱭ ᱢᱮ᱾ ᱟᱢ ᱫᱚ ᱴᱷᱟᱣᱠᱟᱹ ᱧᱟᱢ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱟᱢ ᱡᱮ ᱨᱮᱠᱚᱰᱤᱝ ᱫᱚ ᱟᱹᱭᱟᱹᱛ ᱥᱠᱨᱤᱱ ᱨᱮ ᱮᱢ ᱠᱟᱱ ᱥᱟᱞᱟᱜ ᱢᱮᱲᱟᱣᱜ ᱡᱟᱱᱟ ᱥᱮ ᱱᱟᱦ ᱵᱟᱝᱟ᱾
 demo-listen-subtitle = ᱮᱱᱮᱢ ᱞᱟᱹᱜᱤᱫ ᱛᱮᱭᱟᱨ?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = ᱯᱟᱹᱨᱥᱚᱱᱟᱹᱞ ᱰᱮᱥᱵᱚᱰ ᱫᱚ ᱟᱢ ᱢᱤᱫ ᱦᱚᱲᱟᱜ ᱟᱨ ᱥᱚᱢᱩᱫᱟᱹᱭ ᱞᱟᱦᱟ ᱫᱷᱟᱹᱵᱤᱡ ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱫᱚᱦᱚᱭ ᱢᱮᱭᱟᱭ᱾
+demo-dashboard-card-body = ᱡᱷᱚᱛᱚ ᱥᱟᱰᱮ ᱠᱞᱤᱯ ᱮᱢ ᱠᱟᱱ, ᱟᱨ ᱡᱷᱚᱛᱚ ᱥᱟᱰᱮ ᱠᱞᱯᱤ ᱢᱟᱱᱭᱚ ᱠᱟᱱ, ᱟᱢᱟᱜ ᱠᱷᱟᱛᱟ ᱰᱮᱥᱵᱚᱰ ᱫᱚ ᱞᱮᱢᱮᱥᱴ ᱞᱟᱦᱟ ᱛᱮ ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱠᱟᱱᱟ ᱡᱟᱦᱟᱸ ᱯᱟᱹᱛᱥᱤ ᱛᱮ ᱟᱢ ᱮᱱᱮᱢ ᱮᱢᱚᱜ ᱠᱟᱱᱟᱢ ᱾ ᱦᱮᱸ, ᱟᱢ ᱢᱤᱫ ᱠᱷᱚᱱ ᱰᱷᱮᱨ ᱛᱮ ᱦᱚᱸ ᱮᱱᱟᱢ ᱠᱚᱨᱟᱣ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ <br/><br/> ᱟᱢᱟᱜ ᱞᱟᱦᱟ ᱧᱮᱞ ᱞᱟᱹᱜᱤᱫ ᱰᱮᱥᱵᱚᱰ ᱠᱚ ᱧᱮᱞ ᱢᱮ, ᱧᱮᱞᱢᱮ ᱮᱴᱟᱜ ᱦᱟᱲ ᱠᱚ ᱥᱟᱞᱟᱜ ᱛᱮ ᱟᱢ ᱪᱮᱞᱠᱟ ᱠᱚᱨᱟᱣ ᱮᱫ ᱟᱢ, ᱟᱨ ᱫᱤᱱᱟᱹᱢ ᱟᱨ ᱵᱟᱝ ᱦᱟᱹᱯᱛᱟᱹ ᱮᱱᱮᱢ ᱠᱚ ᱥᱮᱴ ᱛᱟᱢ᱾
 
 ## Validation criteria
 
+contribution-criteria-nav = ᱢᱟᱱᱫᱚᱸᱰ
+contribution-criteria-link = ᱮᱱᱮᱢ ᱢᱟᱱᱫᱚᱸᱰ ᱠᱚ ᱵᱩᱡᱷᱟᱹᱣ ᱢᱮ
+contribution-criteria-page-title = ᱮᱱᱮᱢ ᱢᱟᱱᱫᱚᱸᱰ
+contribution-criteria-page-description = ᱥᱟᱰᱮ ᱠᱞᱤᱯ ᱟᱧᱡᱚᱢ ᱡᱷᱚᱜ ᱪᱮᱫ ᱠᱟᱨᱟᱣ ᱨᱮᱭᱟᱜ ᱢᱮᱱᱟᱜᱼᱟ ᱵᱟᱲᱟᱭ ᱠᱟᱜ ᱢᱮ ᱟᱨ ᱟᱢᱟᱜ ᱥᱟᱰᱮ ᱨᱮᱠᱚᱰᱤᱝ ᱠᱚ ᱟᱨᱦᱚᱸ ᱵᱮᱥ ᱠᱚᱨᱟᱣ ᱛᱟᱢ!
 contribution-for-example = ᱫᱟᱹᱭᱠᱟᱹ ᱞᱮᱠᱷᱟ ᱛᱮ
 contribution-misreadings-title = ᱵᱷᱩᱞ ᱯᱟᱲᱦᱟᱣ
+contribution-misreadings-description = ᱟᱸᱡᱚᱢ ᱡᱷᱚᱜ,ᱱᱫᱷᱭᱟᱱ ᱥᱮ ᱧᱮᱞ ᱢᱮ ᱪᱮᱫ ᱠᱚ ᱨᱮᱠᱚᱰ ᱠᱟᱱᱟ ᱟᱨ ᱯᱨᱚᱠᱨᱩᱛ ᱨᱮ ᱪᱮᱫ ᱚᱞ ᱠᱟᱱᱟ; ᱵᱟᱹᱨᱜᱤᱞ ᱢᱮ ᱡᱩᱫᱤ ᱦᱚᱯᱚᱱ ᱵᱷᱩᱞ ᱦᱚᱸ ᱛᱟᱦᱮᱸᱱ ᱠᱷᱟᱱ᱾ <br /> ᱵᱟᱲᱟᱭ ᱠᱟᱱ ᱵᱷᱩᱞ ᱠᱚ ᱧᱮᱞ ᱵᱤᱲᱟᱹᱣ ᱢᱮ ᱚᱠᱟ ᱫᱚ:
+contribution-misreadings-description-extended-list-1 = ᱟᱫ ᱠᱟᱱ <strong> A </strong> ᱟᱨ ᱵᱟᱝ <strong> The </strong> ᱨᱮᱠᱚᱰᱤᱝ ᱨᱮᱠᱚᱰᱤᱝ ᱨᱮᱭᱟᱜ ᱮᱛᱦᱚᱵ ᱨᱮ᱾
+contribution-misreadings-description-extended-list-2 = ᱟᱹᱲᱟᱹ ᱨᱮᱭᱟᱜ ᱢᱩᱪᱟᱹᱫ ᱨᱮ ᱟᱫ ᱠᱟᱱ <strong>'s'</strong>
+contribution-misreadings-description-extended-list-3 = ᱥᱟᱹᱝᱠᱩᱪᱤᱛ ᱡᱟᱦᱟᱸ ᱫᱚ ᱥᱟᱹᱨᱤ ᱛᱮ ᱵᱟᱹᱱᱩᱜᱼᱟ, ᱡᱮᱞᱠᱟ "ᱟᱞᱮ" ᱵᱟᱝ ᱵᱮᱵᱷᱟᱨ ᱠᱟᱛᱮ "ᱟᱞᱮ ᱠᱟᱱ ᱫᱚ" ᱟᱨ ᱵᱟᱝ ᱚᱱᱟ ᱨᱮᱭᱟᱜ ᱩᱞᱴᱟᱹ᱾
+contribution-misreadings-description-extended-list-4 = ᱢᱩᱪᱟᱹᱲ ᱟᱹᱲᱟᱹ ᱠᱚ ᱜᱮᱫ ᱜᱤᱰᱤᱜᱼᱟ ᱞᱚᱜᱚᱱ ᱜᱮ ᱨᱮᱠᱚᱰᱤᱝ ᱵᱚᱸᱫ ᱡᱷᱚᱜ᱾
+contribution-misreadings-description-extended-list-5 = ᱟᱭᱢᱟ ᱟᱠᱛᱚ ᱡᱮᱠᱷᱟ ᱟᱹᱲᱟᱹ ᱠᱚ ᱢᱮᱱ᱾
 contribution-volume-title = ᱜᱚᱱᱚᱝ
 see-more = <chevron></chevron>ᱰᱷᱮᱨ ᱧᱮᱞ
 see-less = <chevron></chevron>ᱠᱚᱢ ᱧᱮᱞ ᱢᱮ
