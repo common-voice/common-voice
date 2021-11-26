@@ -702,6 +702,7 @@ how-many-per-day = ተማም! ክም ክሊፕ ዲብ ዩም?
 how-many-a-week = ተማም! ክም ክሊፕ ዲብ ሳምን?
 which-goal-type = ትትሃገው ታሓዙ ትስምዖ ሚ ክለኤቱ?
 receiving-emails-info = ኢሜል ከምስል ናይ ሃደፍ ላለዝክር ው ናይ Common Voice ተጠውር ው ኣኽባር እግል ልምጸኩም ስጅላም ህሌኩም
+not-receiving-emails-info = ኢሜል ከምስል ናይ ሃደፍ ላለዝክር ው ናይ Common Voice ተጠውር ው ኣኽባር እግል ልምጸኩም ስጅላም <bold>ይህሌኩምኒ</bold>
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] ክሊፕ
