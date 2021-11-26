@@ -1020,9 +1020,28 @@ sc-stats-updating = ᱦᱟᱹᱞᱤᱭᱟᱼᱜ ᱠᱟᱱᱟ ...
 ## ADD
 
 sc-submit-err-select-lang = ᱫᱟᱭᱟᱠᱟᱛᱮ ᱢᱤᱫ ᱯᱟᱹᱨᱥᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ᱾
+sc-submit-err-add-sentences = ᱫᱟᱭᱟᱠᱟᱛᱮ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱥᱮᱞᱮᱫ ᱢᱮ᱾
+sc-submit-err-add-source = ᱫᱟᱭᱟᱠᱟᱛᱮ ᱢᱤᱫᱴᱟᱹᱝ ᱥᱨᱚᱛ ᱥᱮᱞᱮᱫ ᱢᱮ᱾
+sc-submit-err-confirm-pd = ᱫᱟᱭᱟᱠᱟᱛᱮ ᱴᱷᱟᱹᱣᱠᱟᱹ ᱢᱮ ᱡᱮ ᱱᱚᱶᱟ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱥᱟᱱᱟᱢ ᱰᱚᱢᱮᱱ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ᱾
+sc-submit-prompt =
+    .message = ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱫᱚ ᱵᱟᱝ ᱡᱚᱢᱟ ᱠᱟᱱᱟ, ᱟᱢ ᱥᱟᱹᱨᱤ ᱛᱮ ᱪᱷᱟᱲᱟ ᱥᱮᱱᱟᱢ ᱠᱟᱱᱟ?
+sc-submit-title = ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱥᱮᱞᱮᱫ ᱢᱮ
+sc-submit-select-language =
+    .labelText = ᱯᱟᱹᱨᱥᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ
+sc-submit-add-sentences = <wikipediaLink>ᱥᱟᱱᱟᱢ ᱰᱚᱢᱮᱱ</wikipediaLink> ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱥᱮᱞᱮᱫ ᱢᱮ
+sc-submit-ph-one-per-line =
+    .placeholder = ᱢᱤᱫᱴᱟᱹᱝ ᱟᱹᱭᱟᱹᱛ ᱢᱤᱫ ᱞᱟᱹᱭᱤᱱ
+sc-submit-from-where = <wikipediaLink>ᱥᱟᱱᱟᱢ ᱰᱚᱢᱮᱱ</wikipediaLink> ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱫᱚ ᱚᱠᱟ ᱠᱷᱚᱱ?
+sc-submit-ph-read-how-to =
+    .placeholder = ᱟᱠᱮᱭᱟᱜ ᱪᱮᱞᱠᱟ ᱛᱮ ᱡᱩᱫᱤ ᱵᱟᱝ ᱵᱟᱲᱟᱭ ᱪᱮᱞᱠᱟ ᱫᱟᱹᱣ ᱮᱢᱟ ᱠᱚᱣᱟᱢ ᱯᱟᱲᱦᱟᱣ ᱢᱮ
+sc-submit-confirm = ᱤᱧ ᱦᱮᱸᱥᱮᱨᱤᱭᱟᱹ ᱮᱢ ᱮᱫ ᱟᱹᱧ ᱡᱮ ᱱᱚᱶᱟ ᱟᱹᱭᱟᱹᱛ ᱫᱚ <wikipediaLink>ᱥᱟᱱᱟᱢ ᱰᱚᱢᱮᱱ</wikipediaLink>ᱠᱷᱚᱱ ᱢᱮᱱᱟᱜᱼᱟ ᱟᱨ ᱱᱚᱶᱟ ᱠᱚ ᱞᱟᱫᱮ ᱞᱟᱹᱜᱤᱫ ᱤᱧ ᱴᱷᱮᱱ ᱟᱫᱮᱨ ᱢᱮᱱᱟᱜᱼᱟ᱾
+sc-submit-button =
+    .submitText = ᱡᱚᱢᱟᱭ ᱢᱮ
+sc-submit-guidelines = ᱫᱟᱭᱟᱠᱟᱛᱮ <howToLink>ᱫᱤᱥᱟᱹ ᱱᱤᱨᱫᱮᱥ</howToLink>ᱧᱮᱞ ᱵᱤᱲᱟᱹᱣ ᱢᱮ᱾
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = ᱯᱟᱹᱨᱥᱤ ᱥᱮᱞᱮᱫ ᱵᱟᱝ ᱜᱟᱱᱚᱜ ᱠᱟᱱᱟ᱾
 
 ## ADD SENTENCES CONFIRMATION
 
