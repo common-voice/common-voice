@@ -689,6 +689,8 @@ share-title-new = <bold>ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ</bold> ᱟᱨᱦᱚᱸ 
 keep-track-profile = ᱢᱚᱦᱲᱟ ᱛᱮ ᱟᱢᱟᱜ ᱞᱟᱦᱟ ᱠᱚ ᱨᱮᱭᱟᱜ ᱪᱤᱴᱷᱟᱹ ᱫᱚᱦᱚᱭ ᱢᱮ
 login-to-get-started = ᱮᱛᱦᱚᱵ ᱞᱟᱹᱜᱤᱫ ᱵᱚᱞᱚᱱ ᱢᱮ ᱟᱨ ᱵᱟᱝ ᱥᱩᱦᱤ ᱮᱢ ᱢᱮ
 target-segment-first-card = ᱟᱢ ᱫᱚ ᱟᱞᱮᱭᱟᱜ ᱯᱩᱭᱞᱩ ᱴᱟᱨᱜᱮᱴ ᱠᱷᱟᱹᱱᱰᱤᱭᱟᱹ ᱨᱮ ᱮᱱᱮᱢᱮᱫᱟ
+target-segment-generic-card = ᱟᱢ ᱫᱟ ᱩᱫᱩᱜ ᱠᱟᱱ ᱠᱷᱟᱹᱱᱰᱤᱭᱟᱹ ᱨᱮ ᱮᱱᱮᱢ ᱮᱢᱚᱜ ᱠᱟᱱᱟᱢ
+target-segment-first-banner = { $locale } ᱨᱮ Common Voice ᱨᱮᱭᱟᱜ ᱯᱩᱭᱞᱩ ᱴᱟᱨᱜᱮᱴ‌ ᱠᱷᱟᱹᱱᱰᱤᱭᱟᱹ ᱛᱮᱭᱟᱨ ᱨᱮ ᱟᱞᱮᱭᱟᱜ ᱜᱚᱲᱚ ᱮᱢᱚᱜ ᱢᱮ
 target-segment-add-voice = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱥᱮᱞᱮᱫ ᱛᱟᱢ
 target-segment-learn-more = ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ
 
@@ -696,17 +698,25 @@ target-segment-learn-more = ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ
 
 report = ᱨᱤᱯᱚᱴ
 report-title = ᱢᱤᱫ ᱴᱟᱝ ᱨᱤᱯᱚᱴ ᱡᱚᱢᱟᱭ ᱢᱮ
+report-ask = ᱟᱢ ᱱᱚᱶᱟ ᱟᱹᱭᱟᱹᱛ ᱥᱟᱞᱟᱜ ᱛᱮ ᱪᱮᱫ ᱮᱴᱠᱮᱴᱚᱬᱮ ᱠᱚ ᱧᱟᱢᱮᱫᱟᱢ?
 report-offensive-language = ᱠᱷᱟᱨᱟᱯ ᱯᱟᱹᱨᱥᱤ
+report-grammar-or-spelling = ᱵᱭᱟᱠᱚᱨᱚᱬ/ ᱚᱞ ᱯᱩᱥᱴᱟᱹᱣ ᱵᱷᱩᱠ
+report-grammar-or-spelling-detail = ᱟᱹᱭᱟᱹᱛ ᱨᱮ ᱵᱭᱟᱠᱚᱨᱚᱬ ᱨᱟ ᱵᱟᱝ ᱚᱞ ᱯᱩᱥᱴᱟᱹᱣ ᱵᱷᱩᱞ ᱢᱮᱱᱟᱜᱼᱟ᱾
 report-different-language = ᱵᱷᱮᱜᱟᱨ ᱯᱟᱹᱨᱥᱤ
+report-different-language-detail = ᱱᱚᱶᱟ ᱫᱚ ᱢᱤᱫ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱚᱞ ᱠᱟᱱᱟ ᱚᱠᱟ ᱫᱚ ᱮᱢᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱢᱮᱱᱟᱜᱼᱟ ᱟᱨ ᱤᱧ ᱨᱚᱲ ᱠᱟᱱᱟ᱾
 report-difficult-pronounce = ᱩᱪᱨᱚᱬ ᱢᱩᱥᱠᱤᱞ ᱜᱮᱭᱟ
+report-difficult-pronounce-detail = ᱱᱚᱶᱟ ᱨᱮ ᱱᱚᱠᱟ ᱟᱹᱲᱟᱹ ᱟᱨ ᱵᱟᱝ ᱯᱷᱨᱮᱡᱰᱴᱽ ᱠᱚ ᱢᱮᱱᱟᱜᱼᱟ ᱡᱟᱦᱟᱸ ᱢᱮᱱ ᱟᱨ ᱵᱟᱝ ᱩᱪᱨᱚᱬ ᱫᱚ ᱟᱸᱴ ᱧᱚᱜ ᱜᱮᱭᱟ᱾
 report-offensive-speech = ᱠᱷᱟᱨᱟᱯ ᱨᱚᱲ
+report-offensive-speech-detail = ᱠᱞᱤᱯ ᱨᱮ ᱚᱯᱢᱟᱱᱡᱚᱱᱚᱠ ᱟᱨ ᱵᱟᱝ ᱟᱠᱨᱚᱢᱚᱠ ᱨᱚᱲ ᱢᱮᱱᱟᱜᱼᱟ᱾
 report-other-comment =
     .placeholder = ᱱᱤᱡᱮᱛᱮ ᱨᱚᱲ
 success = ᱨᱟᱹᱥ ᱞᱮᱠᱷᱟᱛᱮ
 continue = ᱞᱟᱦᱟ
+report-success = ᱠᱷᱚᱵᱚᱨ ᱫᱚ ᱯᱟᱹᱨᱤᱛ ᱮᱱᱟ᱾
 
 ## Goals
 
+streaks = ᱫᱷᱟᱨᱟᱹ ᱠᱚ
 days =
     { $count ->
         [one] ᱫᱤᱱ
@@ -719,16 +729,34 @@ recordings =
         [two] ᱨᱮᱠᱚᱰᱤᱝ ᱠᱤᱱ
        *[other] ᱨᱮᱠᱚᱰᱤᱝ ᱠᱚ
     }
+validations =
+    { $count ->
+        [one] ᱢᱟᱫᱭᱚᱠᱚᱨᱚᱬ
+        [two] ᱢᱟᱫᱭᱚᱠᱚᱨᱚᱬ ᱠᱤᱱ
+       *[other] ᱢᱟᱫᱭᱚᱠᱚᱨᱚᱬ ᱠᱚ
+    }
 
 ## Dashboard
 
 your-languages = ᱟᱢᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱠᱚ
+toward-next-goal = ᱮᱴᱟᱜ ᱩᱫᱩᱜ ᱥᱮᱫ
+goal-reached = ᱩᱫᱩᱜ ᱧᱟᱢ ᱮᱱᱟ
+clips-you-recorded = ᱱᱤᱡᱮ ᱨᱮᱠᱚᱰ ᱠᱚᱱ ᱠᱞᱤᱯ ᱠᱚ
+clips-you-validated = ᱟᱢ ᱢᱟᱱᱭᱚ ᱠᱟᱫ ᱠᱞᱤᱯ ᱠᱚ
+todays-recorded-progress = ᱨᱮᱠᱚᱰ ᱠᱞᱤᱯ ᱨᱮ ᱛᱮᱦᱮᱸᱧᱟᱜ Common Voice ᱞᱟᱦᱟ
+todays-validated-progress = ᱢᱟᱱᱭᱚ ᱠᱞᱤᱯ ᱨᱮ ᱛᱮᱦᱮᱸᱧᱟᱜ Common Voice ᱞᱟᱦᱟ
 stats = ᱟᱸᱝᱠᱲᱟ
 awards = ᱥᱤᱨᱯᱷᱟᱹ ᱠᱚ
 you = ᱟᱢ
 everyone = ᱡᱷᱚᱛᱚᱠᱚ
 contribution-activity = ᱮᱱᱮᱢ ᱠᱟᱹᱢᱤ
+top-contributors = ᱪᱮᱛᱟᱱ ᱮᱱᱮᱢᱤᱭᱟᱹ ᱠᱚ
+recorded-clips = ᱨᱮᱠᱚᱰ ᱠᱟᱱ ᱠᱞᱤᱯ ᱠᱚ
+validated-clips = ᱢᱟᱱᱭᱚ ᱠᱞᱤᱯ
+total-approved = ᱢᱩᱴ ᱯᱩᱥᱴᱟᱹᱣ ᱠᱚ
+overall-accuracy = ᱢᱩᱴ ᱥᱩᱫᱷᱤ
 set-visibility = ᱤᱧᱟᱜ ᱧᱮᱞᱚᱜ ᱠᱚ ᱥᱮᱴ ᱢᱮ
+visibility-explainer = ᱱᱚᱶᱟ ᱥᱟᱡᱟᱣᱠᱟ ᱫᱚ ᱟᱢᱟᱜ ᱞᱤᱰᱚᱨᱵᱚᱰ ᱧᱮᱧᱮᱞᱚᱜ ᱠᱚ ᱠᱚᱵᱡᱟᱭ ᱟᱭ᱾ ᱛᱤᱧ ᱡᱷᱚᱜ ᱩᱠᱩ ᱨᱮ ᱛᱟᱦᱟᱮᱸᱱᱟ, ᱟᱢᱟᱜ ᱞᱟᱦᱟ ᱫᱚ ᱩᱠᱩ ᱨᱮᱜᱮ ᱛᱟᱦᱮᱸᱱᱟ᱾ ᱱᱚᱶᱟ ᱢᱮᱱᱮᱛ ᱫᱚ ᱟᱢᱟᱜ ᱪᱤᱛᱟᱹᱨ, ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ ᱟᱨ ᱞᱟᱦᱟ ᱠᱟ ᱫᱚ ᱞᱤᱰᱚᱨᱵᱚᱰ ᱨᱮ ᱵᱟᱭ ᱫᱮᱠᱷᱟᱣᱜᱼᱟ᱾ ᱵᱟᱲᱟᱭ ᱠᱟᱜ ᱢᱮ ᱞᱤᱰᱚᱨᱵᱚᱰ ᱨᱤᱯᱷᱨᱮᱥ ᱫᱚ { $minutes } ᱴᱤᱯᱤᱡ ᱤᱫᱤᱭᱟᱭ ᱵᱚᱫᱚᱞ ᱞᱟᱹᱜᱩᱫ᱾
 
 ## Custom Goals
 
