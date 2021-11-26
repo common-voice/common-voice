@@ -923,6 +923,14 @@ sc-confirm-already-reviewed =
         [one] ኣስኽ ኣዘ ዎሮ ጁምለት ትራጃዓት
        *[other] ኣስኽ ኣዘ { $countOfReviewed } ጁመል ትራጃዓያ
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] እግል ልእከት ላትጃሃዛ ጁመል የኣልቡ
+        [one] ዎሮ ጁምለት ጃህዘት ታ እግል ለእከት
+       *[other] { $readyCount } ጁመል ጃህዛት ተን እግል ለእከት
+    }
 sc-confirm-button-text = ኣክድ
 
 ## LANGUAGE INFO
