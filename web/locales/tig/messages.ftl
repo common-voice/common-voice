@@ -939,6 +939,33 @@ sc-confirm-uploading = ላጅመል ልትላኣካ ህለያ ። እሊ ከም 
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] ጀመዕ ጁመል ይኣለቡ
+        [one] ዎሮ ጀመዕ ጁመል
+       *[other] ጀመዕ ጁመል
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] ላ ለትራጃዕ ላ ህላ ጁመል ይኣለቡ
+        [one] ዎሮ ለትትራጃዕ ላ ህሌት ጁመለት
+       *[other] { $totalInReview } ላልትራጃዕ ላ ህሌት ጁመል
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0]
+            ግልኩም ላ ትሓደጋ ላ ለትራጃዕ ጁመል ይኣለቡ
+            ግልኩም ላ ትሓደጋ ላ ለትራጃዕ ጁመል ይኣለቡ
+            ግልኩም ላ ትሓደጋ ላ ለትራጃዕ ጁመል ይኣለቡ
+        [one] ግልኩም ላ ትሓደጋ ዎሮት ለትትራጃዕ ጁመለት ህሌት
+       *[other] ግልኩም ላ ትሓደጋ { $unreviewedSentencesByYou } ለትትራጃዕ ጁመለት ህሌት
+    }
 sc-lang-info-review-now = <reviewLink>ኣዘ ራጀዖ!</reviewLink>
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
