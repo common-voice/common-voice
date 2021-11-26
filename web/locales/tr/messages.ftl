@@ -326,8 +326,13 @@ profile-form-native-language =
     .label = Anadili
 profile-form-additional-language =
     .label = Ek dil
+profile-form-language =
+    .label = Dil
 profile-form-accent =
     .label = Aksan
+profile-form-custom-accent-help-text =
+    .label = Aksanınızı nasıl tanımlarsınız?
+profile-form-custom-accent-placeholder-2 = Aksanınızı tanımlamak için yazmaya başlayın
 profile-form-age =
     .label = Yaş
 profile-form-gender-2 =
@@ -1033,7 +1038,7 @@ sc-logout-button = Çıkış
 ## HOME
 
 sc-home-title = Common Voice Cümle Toplayıcı’ya hoş geldiniz
-sc-home-intro = Cümle Toplayıcı, <commonVoiceLink>Common Voice<CommonVoiceLink>’un bir parçasıdır. Gönüllülerin cümle toplamasına ve topluluk tarafından oluşturulan cümleleri doğrulamasına olanak tanır. Bu aracı, bulduğunuz veya topladığınız küçük ve orta ölçekli kamu malı külliyatı içe aktarmak ve temizlemek için kullanabilirsiniz. Tüm cümlelerin kamu malı olması gerekir. Onaylanan cümleler her hafta Common Voice deposuna aktarılır ve her yeni sürümüyle Common Voice web sitesinde yayımlanır.
+sc-home-intro = Cümle Toplayıcı, <commonVoiceLink>Common Voice<commonVoiceLink>’un bir parçasıdır. Gönüllülerin cümle toplamasına ve topluluk tarafından oluşturulan cümleleri doğrulamasına olanak tanır. Bu aracı, bulduğunuz veya topladığınız küçük ve orta ölçekli kamu malı külliyatı içe aktarmak ve temizlemek için kullanabilirsiniz. Tüm cümlelerin kamu malı olması gerekir. Onaylanan cümleler her hafta Common Voice deposuna aktarılır ve her yeni sürümüyle Common Voice web sitesinde yayımlanır.
 sc-home-collect-title = Cümle topla
 sc-home-collect-text = Kamu malı cümleleri yazarak veya toplayarak bize yardımcı olun.
 sc-home-review-title = Cümleleri incele
@@ -1079,7 +1084,7 @@ sc-my-no-sentences = Hiç cümle bulunamadı!
 sc-my-submission = Gönderim: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
-sc-my-source = Kaynak: { $kaynak }
+sc-my-source = Kaynak: { $source }
 sc-my-delete = Seçili cümleleri sil
 sc-my-deleting = Seçili cümleler siliniyor…
 sc-my-err-failed-delete = Seçilen cümleler silinemedi. Lütfen tekrar deneyin.
@@ -1132,6 +1137,14 @@ sc-add-lang-could-not-add = Dil eklenemedi
 sc-add-lang-sec-label = Katkıda bulunmak istediğiniz bir dil ekleyin
 sc-add-lang-sec-button = Dil Ekle
 sc-add-err-unexpected = Sunucudan beklenmeyen yanıt geldi
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Cümleler gönderildi.
+        [one] Cümleler gönderildi. 1 cümle tekrar olduğu için reddedildi.
+       *[other] Cümleler gönderildi. { $duplicates } cümle tekrar olduğu için reddedildi.
+    }
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
@@ -1193,7 +1206,7 @@ sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] İncelemeniz için hiç cümle kalmadı.
         [one] 1 cümle incelemeniz için bekliyor.
-       *[other] { $unreviewedStencesByYou } cümle incelemeniz için bekliyor.
+       *[other] { $unreviewedSentencesByYou } cümle incelemeniz için bekliyor.
     }
 sc-lang-info-review-now = <reviewLink>Hemen inceleyin!</reviewLink>
 sc-lang-info-add-more = <addLink>Şimdi daha fazla cümle ekleyin!</addLink>
