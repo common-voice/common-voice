@@ -700,6 +700,7 @@ report = ᱨᱤᱯᱚᱴ
 report-title = ᱢᱤᱫ ᱴᱟᱝ ᱨᱤᱯᱚᱴ ᱡᱚᱢᱟᱭ ᱢᱮ
 report-ask = ᱟᱢ ᱱᱚᱶᱟ ᱟᱹᱭᱟᱹᱛ ᱥᱟᱞᱟᱜ ᱛᱮ ᱪᱮᱫ ᱮᱴᱠᱮᱴᱚᱬᱮ ᱠᱚ ᱧᱟᱢᱮᱫᱟᱢ?
 report-offensive-language = ᱠᱷᱟᱨᱟᱯ ᱯᱟᱹᱨᱥᱤ
+report-offensive-language-detail = ᱟᱹᱭᱟᱹᱛ ᱨᱮ ᱚᱯᱢᱟᱱᱡᱚᱱᱚᱠ ᱟᱨ ᱵᱟᱝ ᱟᱠᱨᱚᱢᱚᱠ ᱨᱚᱲ ᱢᱮᱱᱟᱜᱼᱟ᱾
 report-grammar-or-spelling = ᱵᱭᱟᱠᱚᱨᱚᱬ/ ᱚᱞ ᱯᱩᱥᱴᱟᱹᱣ ᱵᱷᱩᱠ
 report-grammar-or-spelling-detail = ᱟᱹᱭᱟᱹᱛ ᱨᱮ ᱵᱭᱟᱠᱚᱨᱚᱬ ᱨᱟ ᱵᱟᱝ ᱚᱞ ᱯᱩᱥᱴᱟᱹᱣ ᱵᱷᱩᱞ ᱢᱮᱱᱟᱜᱼᱟ᱾
 report-different-language = ᱵᱷᱮᱜᱟᱨ ᱯᱟᱹᱨᱥᱤ
@@ -1114,6 +1115,12 @@ sc-lang-info-total =
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = ᱥᱨᱚᱛ: { $sentenceSource }
+sc-review-form-button-reject = ᱵᱟᱹᱨᱜᱤᱞ
+sc-review-form-button-skip = ᱟᱲᱟᱜ
+sc-review-form-button-approve = ᱮᱢ ᱪᱷᱚ
 
 ## SETTINGS
 
