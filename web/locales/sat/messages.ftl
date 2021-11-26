@@ -978,9 +978,14 @@ sc-logout-button = ᱵᱟᱦᱨᱮ ᱛᱮ ᱚᱰᱚᱠ
 ## HOME
 
 sc-home-title = Common Voice Sentence Collector ᱨᱮ ᱥᱟᱹᱜᱩᱱ ᱫᱟᱨᱟᱢ
+sc-home-collect-title = ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱡᱟᱣᱨᱟᱭ ᱢᱮ
+sc-home-review-title = ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱧᱮᱞ ᱵᱤᱲᱟᱹᱣ ᱢᱮ
 
 ## HOW-TO
 
+sc-howto-title = ᱪᱮᱞᱠᱟ ᱛᱮ
+sc-howto-addsen-title = ᱱᱟᱶᱟ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱥᱮᱞᱮᱫ ᱢᱮ
+sc-howto-review-title = ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱧᱮᱞ ᱵᱤᱲᱟᱹᱣ ᱢᱮ
 
 ## MY SENTENCES
 
