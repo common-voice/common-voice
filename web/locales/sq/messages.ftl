@@ -1013,6 +1013,8 @@ sc-footer-report-copyright = Njoftoni probleme të drejtash kopjimi
 sc-footer-privacy = Privatësi
 sc-footer-terms = Kushte
 sc-footer-cookies = Cookies
+sc-login-signup-button = Hyrje / Regjistrim
+sc-logout-button = Dalje
 
 ## HOME
 
