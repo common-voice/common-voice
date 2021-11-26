@@ -378,6 +378,7 @@ skip-submission-note = Noot: u dient nog steeds een keuze tussen Spreken en Luis
 off = Uit
 on = Aan
 help-accent = Hulp nodig met accent?
+help-accent-explanation = Uw accent is de manier waarop u woorden uitspreekt. Het kan worden gevormd door waar u hebt gewoond, welke andere talen u spreekt en tal van andere factoren. U kunt hier alle informatie delen die u relevant vindt.
 
 ## Profile - Email
 
@@ -1116,6 +1117,7 @@ sc-howto-review-criteria-5 =
 sc-howto-review-criteria-6 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
 sc-howto-findpd-title = Bestaande zinnen vinden in het publieke domein
 sc-howto-findpd-subtitle = Ernaar zoeken op het internet
+sc-howto-findpd-text-2 = Onthoud dat we toestemming nodig hebben om die zinnen te publiceren, dus zorg er altijd voor dat de tekst tot het <wikipediaLink>publieke domein</wikipediaLink> behoort. Als dit niet expliciet aangeduid is, neem dan contact op met de persoon van wie de tekst is en vraag of ze hun tekst willen bijdragen aan het Publieke Domein. Als ze dat willen, help ze dan door het proces van de <cc0WaiverLink>Medewerkersovereenkomst</cc0WaiverLink> te gaan. Als ze de tekst niet willen bijdragen, dan mag u die tekst niet gebruiken.
 sc-howto-findpd-tips = Hier zijn enkele tips om zinnen te vinden:
 sc-howto-findpd-tips-1 =
     De beste bronnen waarnaar u kunt zoeken zijn podcasts, transcripties, filmscripts en
@@ -1226,6 +1228,7 @@ sc-add-err-failed =
        *[other] { $sentences } zinnen mislukt
     }
 sc-add-err-submission = Indieningsfout
+sc-add-lang-process-notice = Als uw taal hier niet wordt vermeld, kunt u deze aanvragen via <languageProcessLink>dit proces</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1338,6 +1341,9 @@ sc-criteria-item-1 = De zin moet correct gespeld zijn.
 sc-criteria-item-2 = De zin moet grammaticaal correct zijn.
 sc-criteria-item-3 = De zin moet uitspreekbaar zijn.
 sc-criteria-item-4 = Als de zin aan de criteria voldoet, klik dan op de knop &quot;Goedkeuren&quot; aan de rechterkant.
+sc-criteria-item-5-2 =
+    Als de zin niet aan de bovenstaande criteria voldoet, klik dan op de knop ‘Afwijzen’ aan de linkerkant.
+    Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
 sc-criteria-item-6 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
 
 ## REVIEW
@@ -1380,6 +1386,8 @@ sc-review-link = Beoordelen
 ## SETTINGS
 
 sc-settings-title = Instellingen
+sc-settings-ui-language = Interfacetaal
+sc-settings-language-translated-warning = De pagina’s voor deze taal zijn mogelijk niet volledig vertaald. U kunt helpen met vertalen <pontoonLinkLink>op Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Overgeslagen zinnen herinitialiseren
 sc-settings-skipped-decription =
     U hebt eerder zinnen overgeslagen tijdens het beoordelen.
@@ -1387,6 +1395,8 @@ sc-settings-skipped-decription =
     Dit staat los van de taal.
 sc-settings-show-all-button = Alle overgeslagen zinnen opnieuw tonen
 sc-settings-failed = Kan instellingen niet wijzigen. Probeer het opnieuw.
+# VALIDATION
+sc-validation-number-of-words = Zin moet tussen 1 en 14 (inclusief) woorden bevatten
 sc-validation-no-numbers = Zin mag geen getallen bevatten
 sc-validation-no-symbols = Zin mag geen symbolen bevatten
 sc-validation-no-abbreviations = Zin mag geen afkortingen bevatten
