@@ -757,15 +757,25 @@ total-approved = ᱢᱩᱴ ᱯᱩᱥᱴᱟᱹᱣ ᱠᱚ
 overall-accuracy = ᱢᱩᱴ ᱥᱩᱫᱷᱤ
 set-visibility = ᱤᱧᱟᱜ ᱧᱮᱞᱚᱜ ᱠᱚ ᱥᱮᱴ ᱢᱮ
 visibility-explainer = ᱱᱚᱶᱟ ᱥᱟᱡᱟᱣᱠᱟ ᱫᱚ ᱟᱢᱟᱜ ᱞᱤᱰᱚᱨᱵᱚᱰ ᱧᱮᱧᱮᱞᱚᱜ ᱠᱚ ᱠᱚᱵᱡᱟᱭ ᱟᱭ᱾ ᱛᱤᱧ ᱡᱷᱚᱜ ᱩᱠᱩ ᱨᱮ ᱛᱟᱦᱟᱮᱸᱱᱟ, ᱟᱢᱟᱜ ᱞᱟᱦᱟ ᱫᱚ ᱩᱠᱩ ᱨᱮᱜᱮ ᱛᱟᱦᱮᱸᱱᱟ᱾ ᱱᱚᱶᱟ ᱢᱮᱱᱮᱛ ᱫᱚ ᱟᱢᱟᱜ ᱪᱤᱛᱟᱹᱨ, ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱧᱩᱛᱩᱢ ᱟᱨ ᱞᱟᱦᱟ ᱠᱟ ᱫᱚ ᱞᱤᱰᱚᱨᱵᱚᱰ ᱨᱮ ᱵᱟᱭ ᱫᱮᱠᱷᱟᱣᱜᱼᱟ᱾ ᱵᱟᱲᱟᱭ ᱠᱟᱜ ᱢᱮ ᱞᱤᱰᱚᱨᱵᱚᱰ ᱨᱤᱯᱷᱨᱮᱥ ᱫᱚ { $minutes } ᱴᱤᱯᱤᱡ ᱤᱫᱤᱭᱟᱭ ᱵᱚᱫᱚᱞ ᱞᱟᱹᱜᱩᱫ᱾
+visibility-overlay-note = ᱠᱷᱟᱴᱚ ᱚᱞ: 'ᱧᱮᱞᱚᱜ' ᱞᱮᱠᱷᱟ ᱛᱮ ᱥᱮᱴ ᱞᱮᱠᱷᱟᱱ, ᱱᱚᱶᱟ ᱥᱟᱡᱟᱣ ᱠᱚ ᱫᱚ <profileLink> ᱢᱚᱦᱚᱨ ᱥᱟᱦᱴᱟ </profileLink> ᱠᱷᱚᱱ ᱵᱚᱫᱚᱞ ᱜᱟᱱᱚᱜᱼᱟ᱾
+show-ranking = ᱤᱧᱟᱜ ᱨᱮᱝᱠᱤᱝ ᱫᱮᱠᱷᱟᱣ ᱢᱮ
 
 ## Custom Goals
 
+get-started-goals = ᱩᱫᱩᱜ ᱥᱟᱞᱟᱜ ᱮᱛᱷᱚᱵ ᱢᱮ
+create-custom-goal = ᱢᱤᱫᱴᱟᱹᱝ ᱵᱟᱪᱷᱟᱣ ᱩᱫᱩᱜ ᱛᱮᱭᱟᱨ ᱢᱮ
+goal-type = ᱟᱢ ᱪᱮᱞᱠᱟ ᱩᱫᱩᱜ ᱛᱮᱭᱟᱨ ᱥᱮᱱᱟᱢ ᱠᱟᱱᱟ
 both-speak-and-listen = ᱵᱟᱱᱟᱨᱜᱮ
 both-speak-and-listen-long = ᱵᱟᱱᱟᱨᱜᱮ (ᱨᱚᱲ ᱢᱮ ᱟᱨ ᱟᱡᱚᱢ ᱢᱮ)
+daily-goal = ᱫᱤᱱ ᱞᱚᱠᱷᱭᱚ
+weekly-goal = ᱦᱟᱹᱯᱛᱟᱠᱤᱭᱟᱹ ᱞᱚᱠᱷᱭᱚ
 easy-difficulty = ᱟᱞᱜᱟ
 average-difficulty = ᱮᱣᱨᱮᱡᱽ
 difficult-difficulty = ᱟᱸᱱᱴ
 pro-difficulty = ᱯᱨᱚ
+lose-goal-progress-warning = ᱟᱢᱟᱜ ᱯᱚᱠᱷᱭᱚ ᱠᱚ ᱥᱟᱯᱲᱟᱣ ᱠᱟᱛᱮ, ᱟᱢ ᱟᱢᱟᱜ ᱱᱤᱛᱚᱜ ᱞᱟᱦᱟ ᱠᱚ ᱟᱫ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ᱾
+want-to-continue = ᱪᱮᱫ ᱟᱢ ᱞᱟᱦᱟ ᱨᱮ ᱛᱟᱦᱮᱸ ᱥᱟᱱᱟᱢ ᱠᱟᱱᱟ?
+finish-editing = ᱯᱩᱭᱞᱩ ᱨᱮ ᱥᱟᱯᱲᱟᱣ ᱪᱟᱵᱟᱭᱟ ᱥᱮ?
 receiving-emails-info = ᱟᱢ ᱫᱚ ᱱᱤᱛᱚᱜ ᱜᱚᱞ ᱨᱤᱢᱟᱭᱮᱱᱰᱚᱨ ᱥᱮᱴ ᱵᱚᱵᱚᱛ ᱤᱢᱮᱞ ᱤᱧ ᱧᱟᱢ ᱥᱮᱱᱟᱹᱧ ᱠᱟᱱᱟ, Common Voice ᱵᱟᱵᱚᱛ ᱦᱟᱹᱞᱤᱭᱟᱠ ᱟᱨ ᱠᱷᱚᱵᱚᱨᱪᱤᱴᱷᱤ ᱨᱮᱭᱟᱜ ᱞᱟᱦᱟ ᱛᱮᱫ ᱾
 n-clips-pluralized =
     { NUMBER($count) ->
