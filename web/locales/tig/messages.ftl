@@ -195,6 +195,7 @@ faq = ዲማ ላልትሳኣሉ ኣስአለት
 content-license-text = ኢሊ ሙሕታዋ እብ ናይ <licenseLink>Creative Commons license</licenseLink>ሩኽሰት ምትወፍር እግልኩም ቱ
 share-title = ብዕዳም አብ ሶቶም ለልሳህሞ አግል ንርከብ ስዓደና
 share-text = አለት ኣዳም ናይ ኣማን ከፎ ከምለትሃገ አግኤል ትትዓለም ገል ትሳዕዳ አብ ሶትኩም { $link } እትበረዖ
+link-copied = ላትናቃላ Link
 back-top = ላዓል ኣቅብል
 logout = ፍገር
 
@@ -967,6 +968,7 @@ sc-lang-info-left-for-you =
        *[other] ግልኩም ላ ትሓደጋ { $unreviewedSentencesByYou } ለትትራጃዕ ጁመለት ህሌት
     }
 sc-lang-info-review-now = <reviewLink>ኣዘ ራጀዖ!</reviewLink>
+sc-lang-info-add-more = <addLink>ዝያዳ ጁመል ወስኽ ኣዝ!</addLink>
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
@@ -1006,6 +1008,8 @@ sc-review-title = ጁመል ራጂዕ
 sc-review-loading = ጁመልካ ትጽዕን ህሌት ...
 sc-review-select-language = ጁመለን ላትራጅዖ ሉቀት ሐረው
 sc-review-no-sentences = ላልትራጃዕ ጁመል ይኣለቡ. <addLink>ጁመል ብዕድ ወስኽ!</addLink>
+sc-review-form-prompt =
+    .message = ላትራጅዓት ጁምለት የትላኣከትኒ። ሙታኣክዲ አንቱም?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = መስድር: { $sentenceSource }
