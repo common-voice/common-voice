@@ -538,11 +538,14 @@ language-meter-in-progress = ትቀዱም
 language-total-progress = ኩሉ ምስል
 language-search-input =
     .placeholder = ደውር
+language-speakers = ሄግያይ
 sentences = ጁመል
 total-hours = ለትሓቀቀያ ሳዓት
 
 ## Contribution
 
+action-click = ጭቀጥ
+action-tap = ክሳእ
 contribute = ሳህም
 listen = ሰምዖ
 skip = ሕለፍዎ
