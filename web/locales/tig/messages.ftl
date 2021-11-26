@@ -433,6 +433,7 @@ localization = ታውጢን
 sentence-collection = ጁመል ኣከቦት
 sentence-collection-explanation = ኣከቦት ጁመል ምን ሙልኬት ዓመት, ኣውሃየኒ ክታበት ሓዲስ ጁመል እግል ሙልኬት ዓመት
 hours-recorded-explanation = ሕሳብ ናይ ኩሉ ኣስኽ ኣዘ ላ ኣኽብናሁ ትስጂል ናይ ሶት
+sst = ሂጋ-ዲብ-ሶት(STT)
 de-identified = መስደር ወርክዮት
 
 ## Error pages
