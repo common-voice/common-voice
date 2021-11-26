@@ -989,15 +989,37 @@ sc-howto-review-title = ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱧᱮᱞ ᱵᱤᱲᱟᱹᱣ �
 
 ## MY SENTENCES
 
+sc-my-title = ᱤᱧᱟᱜ ᱟᱹᱭᱟᱹᱛ ᱠᱚ
+sc-my-no-sentences = ᱟᱹᱭᱟᱹᱛ ᱠᱟ ᱵᱟᱝ ᱧᱟᱢ ᱞᱮᱱᱟ!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = ᱡᱚᱢᱟ:{ $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = ᱥᱨᱚᱛ:{ $source }
+sc-my-delete = ᱵᱟᱪᱷᱟᱣ ᱠᱟᱱ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱢᱮᱴᱟᱣ ᱢᱮ
+sc-my-deleting = ᱵᱟᱪᱷᱟᱣ ᱠᱟᱱ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱢᱮᱴᱟᱣᱜ ᱠᱟᱱᱟ
+sc-my-err-failed-delete = ᱵᱟᱪᱷᱟᱣ ᱠᱟᱱ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱢᱮᱴᱟᱣ ᱵᱟᱝ ᱜᱟᱱᱚᱜ ᱠᱟᱱᱟ ... ᱫᱟᱭᱟᱠᱟᱛᱮ ᱫᱩᱦᱲᱟᱹ ᱪᱮᱥᱴᱟᱭ ᱢᱮ!
 
 ## REJECTED
 
+sc-rejected-title = ᱵᱟᱹᱨᱜᱤᱞ ᱠᱟᱱ ᱟᱹᱭᱟᱹᱛ ᱠᱚ
+sc-rejected-loading = ᱵᱟᱹᱛᱜᱤᱞ ᱠᱟᱱ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱞᱟᱫᱮᱜ ᱠᱟᱱᱟ…
+sc-rejected-err-fetching = ᱵᱟᱹᱜᱤᱞ ᱠᱟᱱ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱟᱹᱜᱩ ᱡᱷᱚᱜ ᱦᱩᱰᱟᱹᱜ᱾ ᱫᱟᱭᱟᱠᱟᱛᱮ ᱫᱩᱦᱲᱟᱹ ᱪᱮᱥᱴᱟᱭ ᱢᱮ᱾
+sc-rejected-none-found = ᱪᱮᱫ ᱵᱟᱹᱨᱜᱤᱞ ᱠᱟᱱ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱵᱟᱝ ᱧᱟᱢ ᱞᱮᱱᱟ!
 
 ## STATS
 
+sc-stats-title = ᱥᱴᱟᱴᱤᱥᱴᱤᱠᱥ
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = ᱢᱟᱲᱟᱝ ᱦᱟᱹᱞᱤᱭᱟᱹᱠ:{ $lastUpdate }
+sc-stats-last-update-never = ᱢᱟᱲᱟᱝ ᱦᱟᱹᱞᱤᱭᱟᱹᱠ:ᱛᱤᱥ ᱦᱚᱸ ᱵᱟᱝ
+sc-stats-updating = ᱦᱟᱹᱞᱤᱭᱟᱼᱜ ᱠᱟᱱᱟ ...
 
 ## ADD
 
+sc-submit-err-select-lang = ᱫᱟᱭᱟᱠᱟᱛᱮ ᱢᱤᱫ ᱯᱟᱹᱨᱥᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ᱾
 
 ## ADD LANGUAGE
 
