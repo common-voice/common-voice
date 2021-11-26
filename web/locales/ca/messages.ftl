@@ -1076,9 +1076,11 @@ sc-howto-findpd-title = Trobar frases de domini públic
 sc-howto-findpd-subtitle = Cerqueu-ne a Internet
 sc-howto-findpd-text-2 = Recordeu que necessitem permís per a publicar aquestes frases, així que assegureu-vos sempre que el text pertany al <wikipediaLink>domini públic</wikipediaLink>. Si no hi ha cap indicació explícita, poseu-vos en contacte amb la persona a qui pertany el text i pregunteu si vol aportar el text al domini públic. Si ho volen, ajudeu-los a passar pel procés de l'<cc0WaiverLink>Acord de col·laboracions</cc0WaiverLink>. Si no volen aportar el text, no podeu utilitzar-lo.
 sc-howto-findpd-tips = Aquí teniu alguns consells per a trobar frases:
+sc-howto-findpd-tips-1 = Les millors fonts que podeu cercar són podcasts, transcripcions, guions de pel·lícules i qualsevol cosa que pugui contenir converses quotidianes.
 sc-howto-findpd-tips-3 = Malauradament, encara no podem tenir articles de la Viquipèdia. Així que no copieu i enganxeu text des d'allà.
 sc-howto-findpd-subtitle-2 = Col·laborar amb persones o organitzacions locals
 sc-howto-findpd-partner-1 = Hi ha moltes organitzacions públiques que potser volen col·laborar i ja tenen molts textos que poden donar com a domini públic. Poseu-vos en contacte amb universitats, governs i organitzacions de codi obert locals per a parlar del projecte i demanar-los ajuda.
+sc-howto-findpd-partner-2 = Els lingüistes experts també us poden ajudar, intenteu posar-vos en contacte amb les universitats lingüístiques locals (amb docents i estudiants) i comproveu si poden ajudar a reunir un conjunt divers d'oracions amb diferents sons en la vostra llengua.
 
 ## MY SENTENCES
 
