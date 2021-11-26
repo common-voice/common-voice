@@ -794,17 +794,41 @@ n-clips-pluralized =
 help-share-goal = ᱟᱞᱮ ᱟᱨᱦᱚᱸ ᱣᱤᱰᱤᱭᱚ ᱧᱟᱢᱟ ᱞᱮ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ, ᱟᱢᱟᱜ ᱩᱫᱩᱜ ᱦᱟᱹᱴᱤᱧᱼᱟ ᱞᱮ ᱢᱮ
 confirm-goal = ᱩᱫᱩᱜ ᱴᱷᱟᱹᱣᱠᱟᱹᱭ ᱢᱮ
 goal-interval-weekly = ᱦᱟᱴᱠᱤᱭᱟᱹ
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $count } ᱞᱟᱹᱜᱤᱫ ᱟᱢᱟᱜ { $type } ᱠᱞᱤᱯ ᱫᱤᱱᱜᱮ ᱦᱟᱹᱴᱤᱧ ᱢᱮ
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $count } ᱞᱟᱹᱜᱤᱫ ᱟᱢᱟᱜ { $type } ᱠᱞᱤᱯ ᱦᱟᱹᱯᱛᱟᱠᱮ ᱦᱟᱹᱴᱤᱧ ᱢᱮ
+share-goal-type-speak = ᱨᱚᱲ ᱠᱟᱱᱟᱭ
+share-goal-type-listen = ᱟᱧᱡᱚᱢ ᱮᱫᱟᱭ
+share-goal-type-both = ᱨᱚᱲ ᱟᱨ ᱟᱧᱡᱚᱢᱮᱫᱟᱭ
+# LINK will be replaced with the current URL
+goal-share-text = #Commonvoice ᱨᱮ ᱥᱟᱰᱮ ᱫᱟᱱ ᱞᱟᱹᱜᱤᱫ ᱤᱧᱟᱜ ᱱᱤᱡᱚᱨ ᱩᱫᱩᱜ ᱤᱧ ᱛᱮᱭᱟᱨ ᱠᱮᱜᱼᱟ -- ᱤᱧ ᱥᱟᱞᱟᱜ ᱡᱩᱲᱟᱹᱣᱜ ᱯᱮ ᱟᱨ ᱜᱟᱲᱚ ᱮᱢᱚᱜ ᱯᱮ ᱢᱮᱥᱤᱱ ᱪᱮᱫᱚᱜ ᱪᱷᱚ ᱞᱟᱹᱜᱤᱫ ᱟᱨ ᱪᱤᱞᱠᱟ ᱥᱟᱹᱨᱤ ᱦᱚᱲ ᱠᱚ ᱨᱚᱲᱟ { $link }
+weekly-goal-created = ᱟᱢᱟᱜ ᱦᱟᱹᱯᱛᱟᱠᱤᱭᱟᱹ ᱩᱫᱩᱜ ᱫᱚ ᱛᱮᱭᱟᱨ ᱦᱩᱭ ᱮᱱᱟ
+daily-goal-created = ᱟᱢᱟᱜ ᱫᱤᱱᱟᱹᱢ ᱩᱫᱩᱜ ᱛᱮᱭᱟᱨ ᱦᱩᱭᱮᱱᱟ
+track-progress = ᱟᱢᱟᱜ ᱞᱟᱦᱟ ᱟᱨ ᱠᱚᱨᱟᱣ ᱠᱚ ᱨᱮᱭᱟᱜ ᱞᱟᱦᱟ ᱱᱚᱶᱟ ᱥᱟᱦᱴᱟ ᱨᱮ ᱧᱮᱞ ᱢᱮ
+return-to-edit-goal = ᱡᱟᱦᱟᱸ ᱛᱤᱱ ᱨᱮᱦᱚᱸ ᱟᱢᱟᱜ ᱩᱫᱩᱜ ᱥᱟᱯᱲᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱱᱚᱰᱮ ᱨᱩᱟᱹᱲ ᱦᱟᱹᱡᱩᱜ ᱢᱮ᱾
+share-goal = ᱤᱧᱟᱜ ᱩᱫᱩᱜ ᱦᱟᱹᱴᱤᱧ ᱢᱮ
 
 ## Profile Delete
 
+delete-q = ᱪᱮᱫ ᱟᱢ ᱟᱢᱟᱜ ᱥᱟᱰᱮ ᱨᱮᱠᱚᱰᱤᱝ ᱦᱚᱸ ᱢᱮᱴᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱱᱮᱦᱚᱨ ᱟᱢ, ᱟᱨ ᱵᱟᱝ ᱪᱮᱫ ᱟᱢ ᱟᱢᱟᱜ ᱥᱟᱰᱮ Common Voice ᱰᱟᱴᱟᱥᱮᱴ ᱨᱮ ᱫᱚᱦᱚ ᱥᱮᱱᱟᱢ ᱠᱟᱱᱟ?
 keep = ᱫᱚᱦᱚᱭ ᱢᱮ
 remove = ᱚᱪᱚᱜᱽ ᱢᱮ
+keep-info = ᱟᱢᱟᱜ ᱵᱟᱝ ᱵᱟᱲᱟᱭ ᱥᱟᱰᱮ ᱨᱮᱠᱚᱰᱤᱝ ᱫᱚ ᱟᱞᱮᱭᱟᱜ Common Voice ᱰᱟᱴᱟᱥᱮᱴ ᱨᱮ ᱵᱟᱝ ᱧᱩᱛᱩᱢᱟᱱ ᱞᱮᱠᱷᱟ ᱛᱟᱦᱮᱸᱱᱟ᱾ ᱢᱤᱫ ᱡᱮᱠᱷᱟ ᱟᱢᱟᱜ ᱢᱚᱦᱚᱨ ᱢᱮᱴᱟᱣ ᱞᱮᱠᱷᱟᱱ ᱟᱢ ᱟᱢᱟᱜ ᱨᱮᱠᱚᱰ ᱠᱟᱱ ᱥᱟᱰᱮ ᱠᱚ ᱢᱮᱴᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱵᱟᱝ ᱱᱮᱦᱚᱨ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ᱾
+remove-info = ᱟᱞᱮ ᱟᱢᱟᱜ ᱥᱟᱰᱮ ᱢᱮᱴᱟᱣ ᱪᱷᱚ ᱨᱮᱭᱟᱜ ᱱᱮᱦᱚᱨ ᱠᱚ ᱧᱮᱞ ᱠᱟᱛᱮ ᱚᱪᱚᱜᱟᱞᱮ᱾ ᱡᱩᱫᱤ ᱟᱢᱟᱜ ᱱᱮᱦᱚᱨ ᱮᱢ ᱪᱷᱚ ᱮᱱᱟ ᱢᱮᱱᱠᱷᱟᱱ, ᱟᱞᱮ ᱩᱱᱠᱩ ᱦᱚᱲ ᱠᱚ ᱞᱮ ᱥᱚᱢᱯᱚᱨᱠ ᱠᱚᱣᱟ ᱡᱟᱦᱟᱸᱭ ᱫᱚ ᱢᱟᱲᱟᱝ ᱠᱷᱚᱱ ᱜᱮ ᱰᱟᱴᱟᱥᱮᱴ ᱠᱚ ᱰᱟᱩᱱᱞᱚᱰ ᱟᱠᱟᱫᱼᱟ ᱟᱨ ᱱᱟᱦᱚᱨ ᱠᱚ ᱡᱮ ᱩᱱᱠᱩ ᱟᱢᱟᱜ ᱥᱟᱰᱮ ᱨᱮᱠᱚᱰᱤᱝ ᱠᱚ ᱦᱚᱸ ᱚᱪᱚᱜ ᱛᱟᱢᱟ᱾
+why-delete-recordings = Common Voice ᱨᱮᱠᱚᱰᱤᱝ ᱠᱚ ᱫᱚ ᱯᱟᱹᱴᱷᱩᱣᱟᱹ, ᱦᱚᱯᱚᱱ ᱵᱮᱯᱟᱨᱤ, ᱟᱨ ᱥᱟᱰᱮ ᱪᱤᱱᱦᱟᱹᱯ ᱩᱛᱥᱩᱠ ᱠᱚ ᱪᱮᱪᱮᱫ ᱜᱚᱲᱚ ᱟᱨ ᱥᱟᱱᱟᱢ ᱠᱚ ᱴᱷᱮᱱ ᱢᱮᱱᱟᱜ ᱡᱟᱣᱨᱟ ᱠᱚ ᱡᱮᱞᱠᱟ ᱥᱟᱰᱮ ᱢᱚᱰᱮᱞ ᱠᱚ ᱢᱟᱨᱟᱝ ᱪᱷᱚ ᱞᱟᱹᱜᱤᱫ ᱵᱟᱮᱵᱷᱟᱨᱚᱜᱚᱼᱟ᱾ ᱪᱮᱫ ᱟᱢ ᱟᱞᱮ ᱢᱮᱛᱟ ᱫᱟᱲᱮ ᱞᱮᱭᱟ ᱡᱮ ᱟᱢᱟᱜ ᱨᱮᱠᱚᱰᱤᱝ ᱪᱮᱫᱟᱜ ᱢᱮᱴᱟᱣ ᱥᱮᱱᱟᱢ ᱠᱟᱱᱟ?
 profile-form-delete = ᱢᱚᱦᱲᱟ ᱢᱮᱴᱟᱣ ᱢᱮ
 
 ## Profile Download
 
+download-q = ᱟᱢᱟᱜ ᱥᱟᱰᱮ ᱰᱟᱩᱱᱰᱞᱚᱰ ᱥᱮᱱᱟᱢ ᱠᱟᱱᱟ ᱥᱮ?
+download-info = ᱟᱞᱮ ᱵᱟᱛᱟᱣ ᱞᱮᱢ ᱟᱢ ᱪᱮᱞᱠᱟ ᱰᱟᱩᱱᱞᱚᱰ ᱥᱟᱱᱟᱢ ᱠᱟᱱᱟ:
 download-profile-title = ᱢᱚᱦᱲᱟ
+download-profile-info = ᱤᱢᱮᱞ, ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱟᱨ ᱰᱮᱢᱚᱜᱽᱨᱟᱯᱷᱤᱠ ᱵᱤᱵᱨᱚᱬ, ᱢᱮᱱᱟᱜᱼᱟ
+download-profile-size = ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱵᱟᱭᱤᱴᱥ
 download-recordings-title = ᱨᱮᱠᱚᱰᱤᱝ ᱠᱚ
+download-recordings-info = mp3s ᱟᱨ ᱡᱩᱲᱟᱹᱣ ᱠᱟᱱ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱢᱮᱱᱟᱜᱼᱟ, ᱛᱮᱭᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱚᱠᱛᱚ ᱤᱫᱤ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱭ
+download-recordings-size = ᱢᱮᱜᱟᱵᱟᱭᱤᱴ ᱜᱮ
 download-size = ᱢᱟᱯ
 download-selected = ᱵᱟᱪᱷᱟᱣᱮᱱᱟ
 download-start = ᱢᱚᱦᱚᱨ ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱚᱰ ᱢᱮ
