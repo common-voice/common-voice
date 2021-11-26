@@ -742,6 +742,7 @@ download-request-metadata-link = ናይ ጁምለት ክታበት
 ## Landing
 
 welcome-staff = መርሓባ ሙወዘፊን { $company }!
+profile-not-required = አግል ትሳህሞ ናይ ኖስ መለፍ ላሀሌኩም ኢለትሓዘኒ ብስ ነፍዓኩም, ገልሚቱ ግል ታኣምሮ ታሓት ራኣው
 read-more-about = ዲብላ ናይና ሰፍሓት About አንደ ግስኹም ዘያደት ቀርኦ
 
 ## DemoLayout
