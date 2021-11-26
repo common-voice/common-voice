@@ -349,6 +349,7 @@ hidden = Rejtett
 visible = Látható
 native-language =
     .label = Anyanyelv
+profile-form-add-accent = Új egyéni akcentus hozzáadása: „{ $inputValue }”
 profile-form-submit-save = Mentés
 profile-form-submit-saved = Mentve
 male = Férfi
@@ -382,6 +383,8 @@ skip-submission-description = A közreműködések beküldésekor a visszajelzé
 skip-submission-note = Megjegyzés: Továbbra is ki kell választania a Beszéljen vagy Figyeljen lehetőséget a közreműködés típusának módosításához.
 off = Ki
 on = Be
+help-accent = Segítségre van szüksége az akcentussal kapcsolatban?
+help-accent-explanation = Az akcentusa az, ahogy a szavakat kiejti. Alakíthatja hogy hol élt, milyen más nyelveket beszél, és sok egyéb tényező. Itt megoszthat minden olyan információt, amelyet relevánsnak érez.
 
 ## Profile - Email
 
