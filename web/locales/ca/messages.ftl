@@ -1074,6 +1074,8 @@ sc-howto-review-criteria-5 = Si la frase no compleix els criteris anteriors, feu
 sc-howto-review-criteria-6 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
 sc-howto-findpd-title = Trobar frases de domini públic
 sc-howto-findpd-subtitle = Cerqueu-ne a Internet
+sc-howto-findpd-text-2 = Recordeu que necessitem permís per a publicar aquestes frases, així que assegureu-vos sempre que el text pertany al <wikipediaLink>domini públic</wikipediaLink>. Si no hi ha cap indicació explícita, poseu-vos en contacte amb la persona a qui pertany el text i pregunteu si vol aportar el text al domini públic. Si ho volen, ajudeu-los a passar pel procés de l'<cc0WaiverLink>Acord de col·laboracions</cc0WaiverLink>. Si no volen aportar el text, no podeu utilitzar-lo.
+sc-howto-findpd-tips = Aquí teniu alguns consells per a trobar frases:
 sc-howto-findpd-tips-3 = Malauradament, encara no podem tenir articles de la Viquipèdia. Així que no copieu i enganxeu text des d'allà.
 sc-howto-findpd-subtitle-2 = Col·laborar amb persones o organitzacions locals
 sc-howto-findpd-partner-1 = Hi ha moltes organitzacions públiques que potser volen col·laborar i ja tenen molts textos que poden donar com a domini públic. Poseu-vos en contacte amb universitats, governs i organitzacions de codi obert locals per a parlar del projecte i demanar-los ajuda.
@@ -1104,10 +1106,21 @@ sc-rejected-none-found = No s'ha trobat cap frase rebutjada!
 ## STATS
 
 sc-stats-title = Estadístiques
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Última actualització: { $lastUpdate }
+sc-stats-last-update-never = Última actualització: mai
 sc-stats-updating = S'està actualitzant…
 
 ## ADD
 
+sc-submit-err-select-lang = Seleccioneu una llengua.
+sc-submit-err-add-sentences = Afegiu frases.
+sc-submit-err-add-source = Afegiu una font.
+sc-submit-err-confirm-pd = Confirmeu que aquestes frases són de domini públic.
+sc-submit-prompt =
+    .message = Les frases no s'han enviat, esteu segur que voleu sortir?
+sc-submit-title = Afegeix frases
 sc-submit-select-language =
     .labelText = Trieu una llengua
 sc-submit-ph-one-per-line =
@@ -1122,9 +1135,30 @@ sc-submit-guidelines = Reviseu les <howToLink>directrius</howToLink>.
 
 sc-add-lang-could-not-add = No s'ha pogut afegir la llengua
 sc-add-lang-sec-button = Afegeix una llengua
+sc-add-err-unexpected = El servidor ha retornat una resposta inesperada
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Frases enviades. No s'ha rebutjat cap frase com a duplicada.
+        [one] Frases enviades. S'ha rebutjat una frase com a duplicada.
+       *[other] Frases enviades. S'han rebutjat { $duplicates } frases com a duplicades.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] No ha fallat cap frase
+        [one] Ha fallat una frase
+       *[other] Han fallat { $sentences } frases
+    }
+sc-add-err-submission = Error d'enviament
+sc-add-lang-process-notice = Si la vostra llengua no apareix aquí, la podeu sol·licitar mitjançant <languageProcessLink>aquest procés</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Les frases no s'han enviat, esteu segur que voleu sortir?
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
@@ -1133,10 +1167,15 @@ sc-confirm-sentences-found =
         [one] S'ha trobat 1 frase.
        *[other] S'han trobat { $countOfSentences } frases.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = N'heu rebutjat { $countOfInvalidated }
 sc-confirm-button-text = Confirma
 
 ## LANGUAGE INFO
 
+sc-lang-info-review-now = <reviewLink>Reviseu ara!</reviewLink>
+sc-lang-info-add-more = <addLink>Afegiu més frases ara!</addLink>
 
 ## LOGIN
 
@@ -1148,8 +1187,12 @@ sc-login-err-try-again = Torneu-ho a provar.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Perfil: { $username }
+sc-personal-err-remove = No s'ha pogut suprimir la llengua
 sc-personal-your-languages = Les vostres llengües:
 sc-personal-remove-button = elimina
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = N'heu afegit { $sentences }
 sc-personal-not-added = Encara no heu afegit cap llengua.
 
 ## REVIEW CRITERIA
@@ -1173,15 +1216,21 @@ sc-review-select-language = Trieu una llengua per a revisar-ne les frases.
 sc-review-no-sentences = No hi ha cap frase per revisar. <addLink>Afegiu més frases ara!</addLink>
 sc-review-form-prompt =
     .message = No s'han enviat les frases revisades, n'esteu segur?
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Font:  { $sentenceSource }
 sc-review-form-button-reject = Rebutja
 sc-review-form-button-skip = Omet
 sc-review-form-button-approve = Aprova
+sc-review-form-button-submit =
+    .submitText = Acaba la revisió
 sc-review-link = Revisa
 
 ## SETTINGS
 
 sc-settings-title = Paràmetres
 sc-settings-ui-language = Llengua de la interfície
+sc-settings-reset-skipped = Restableix les frases omeses
 sc-settings-show-all-button = Mostra de nou totes les frases omeses
 sc-settings-failed = No s'ha pogut canviar la configuració. Torneu-ho a provar.
 # VALIDATION
