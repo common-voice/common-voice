@@ -1002,6 +1002,13 @@ sc-header-my = Che ñe’ẽjuaju
 sc-header-profile = Mba’ete
 sc-footer-discourse = Ñomongeta
 sc-footer-report-bugs = Emomarandu jejavy
+sc-footer-translate = Emoñe’ẽasa ko kuatiarogue
+sc-footer-report-copyright = Emomarandu apohára derécho
+sc-footer-privacy = Ñemigua
+sc-footer-terms = Mba’eichaite
+sc-footer-cookies = Kookie
+sc-login-signup-button = Tembiapo ñepyrũ / Mboheraguapy
+sc-logout-button = Emboty tembiapo
 
 ## HOME
 
