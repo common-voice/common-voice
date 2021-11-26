@@ -338,6 +338,7 @@ profile-form-accent =
     .label = Akcentus
 profile-form-custom-accent-help-text =
     .label = Hogyan jellemezné az akcentusát?
+profile-form-custom-accent-placeholder-2 = Írja be, hogy írná le az akcentusát
 profile-form-age =
     .label = Életkor
 profile-form-gender-2 =
