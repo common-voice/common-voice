@@ -326,8 +326,13 @@ profile-form-native-language =
     .label = Llengua materna
 profile-form-additional-language =
     .label = Llengua addicional
+profile-form-language =
+    .label = Llengua
 profile-form-accent =
     .label = Accent
+profile-form-custom-accent-help-text =
+    .label = Com descriuríeu la vostra variant?
+profile-form-custom-accent-placeholder-2 = Comenceu a escriure per a descriure la vostra variant
 profile-form-age =
     .label = Edat
 profile-form-gender-2 =
@@ -338,6 +343,7 @@ hidden = Amagat
 visible = Visible
 native-language =
     .label = Llengua materna
+profile-form-add-accent = Afegeix una nova variant personalitzada «{ $inputValue }»
 profile-form-submit-save = Desa
 profile-form-submit-saved = S'ha desat
 male = Home
@@ -371,6 +377,8 @@ skip-submission-description = L'enviament de comentaris es desactivarà en fer c
 skip-submission-note = Nota: Igualment haureu de seleccionar entre Parla o Escola per canviar el tipus de col·laboració.
 off = Desactivat
 on = Activat
+help-accent = Us cal ajuda sobre les variants?
+help-accent-explanation = La variant és la forma com pronuncieu les paraules. Es pot crear a partir dels llocs on heu viscut, quins altres idiomes parleu i molts altres factors. Podeu compartir aquí qualsevol informació que considereu rellevant.
 
 ## Profile - Email
 
@@ -1082,10 +1090,16 @@ sc-my-submission = Tramesa: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Font:  { $source }
+sc-my-delete = Suprimeix les frases seleccionades
 sc-my-deleting = S'estan suprimint les frases seleccionades
+sc-my-err-failed-delete = No s'han pogut suprimir les frases seleccionades… Torneu-ho a provar!
 
 ## REJECTED
 
+sc-rejected-title = Frases rebutjades
+sc-rejected-loading = S'estan carregant les frases rebutjades…
+sc-rejected-err-fetching = S'ha produït un error en obtenir les frases rebutjades. Torneu-ho a provar.
+sc-rejected-none-found = No s'ha trobat cap frase rebutjada!
 
 ## STATS
 
