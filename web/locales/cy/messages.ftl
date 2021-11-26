@@ -1225,7 +1225,7 @@ sc-add-err-failed =
        *[other] Methodd { $sentences } brawddeg
     }
 sc-add-err-submission = Gwall Cyflwyno
-sc-add-lang-process-notice = Os nad yw'ch iaith wedi'i rhestru yma, gallwch ofyn amdani trwy'r<languageProcessLink>broses hon</languageProcessLink>.
+sc-add-lang-process-notice = Os nad yw'ch iaith wedi'i rhestru yma, gallwch ofyn amdani trwy'r <languageProcessLink>broses hon</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
