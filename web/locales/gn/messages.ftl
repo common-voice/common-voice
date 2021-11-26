@@ -330,6 +330,8 @@ profile-form-native-language =
     .label = Ypygua Ñe’ẽ
 profile-form-additional-language =
     .label = Ñe’ẽ oĩvéva
+profile-form-language =
+    .label = Ñe’ẽ
 profile-form-accent =
     .label = Muanduhe
 profile-form-age =
@@ -956,10 +958,15 @@ contribution-misreadings-description-extended-list-4 = Okañykuaa pe ñe’ẽ p
 contribution-misreadings-description-extended-list-5 = Eha’ã hetajey emoñe’ẽ hag̃ua peteĩ ñe’ẽ.
 contribution-misreadings-example-1-title = Umi dinosaurio tuicháva Triásico pegua.
 contribution-misreadings-example-2-title = Dinosaurio tuicháva Triásico pegua.
+contribution-misreadings-example-2-explanation = [Ha’eva’erã ‘dinosaurio’]
 contribution-misreadings-example-3-title = Umi dinosaurio tuicháva Triásico pegua.
 contribution-misreadings-example-3-explanation = [Ñeñongatu opa’ã opa mboyvemi pe ñe’ẽ ipaha pegua]
 contribution-misreadings-example-4-title = Umi dinosaurio tuicháva Triásico pegua. Héẽ.
+contribution-misreadings-example-4-explanation = [Oñemboguapy hetave moñe’ẽrã jerurepyre]
+contribution-misreadings-example-5-title = Rosẽ romboy’u taperyva rykue.
+contribution-misreadings-example-6-title = Ore romboy’úta taperyva rykue.
 contribution-misreadings-example-6-explanation = [Oñemoĩva’erã “Ñande”]
+contribution-misreadings-example-7-title = Ore romboy’úta taperyva rykue.
 contribution-misreadings-example-7-explanation = [Ani ‘a’ moñe’ẽrã ypýpe]
 contribution-misreadings-example-8-title = Pe mberuguasu ohasa pya’eterei.
 contribution-misreadings-example-8-explanation = [Tetepy ojokupyty’ỹva]
@@ -992,6 +999,9 @@ sc-header-add = Mbojuaju
 sc-header-review = Hechajey
 sc-header-rejected = Ñe’ẽjuaju hejapyre
 sc-header-my = Che ñe’ẽjuaju
+sc-header-profile = Mba’ete
+sc-footer-discourse = Ñomongeta
+sc-footer-report-bugs = Emomarandu jejavy
 
 ## HOME
 
@@ -1010,6 +1020,8 @@ sc-howto-review-title = Ehechajey ñe’ẽjuaju
 sc-my-title = Che ñe’ẽjuaju
 sc-my-loading = Emyanyhẽ ne ñe’ẽjuaju…
 sc-my-no-sentences = ¡Ndojejuhúi ñe’ẽrysýi!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Teñoiha:  { $source }
 sc-my-deleting = Emboguehína ñe’ẽrysýi poravopyre…
 
@@ -1051,10 +1063,14 @@ sc-login-err-try-again = Eha’ãjey ag̃ave.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
 sc-profile-title = Mba’ete: { $username }
 sc-personal-err-remove = Neremboguekuaái pe ñe’ẽ
 sc-personal-your-languages = Ne ñe’ẽnguéra:
 sc-personal-remove-button = jeipe’a
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } nde embojuajupyre
 
 ## REVIEW CRITERIA
@@ -1067,6 +1083,8 @@ sc-review-loading = Emyanyhẽ ñe’ẽrysýi…
 sc-review-select-language = Eiporavo ñe’ẽ ehechajey hag̃ua ñe’ẽjuajukuéra.
 sc-review-form-prompt =
     .message = Ñe’ẽjuaju jehechapyre oñemondo’ỹva, ¿ejaposéta?
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Teñoiha: { $sentenceSource }
 sc-review-form-button-reject = Hejarei
 sc-review-form-button-skip = Jepo
