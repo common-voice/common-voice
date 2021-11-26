@@ -33,8 +33,10 @@ as = Ассомӣ
 ast = Астурӣ
 az = Озарӣ
 ba = Бошқирдӣ
+bas = Басаа
 be = Белорусӣ
 bg = Булғорӣ
+bm = Бамбара
 bn = Банголӣ
 br = Бретонӣ
 bxr = Бурятӣ
@@ -76,6 +78,8 @@ hy-AM = Арманӣ
 hyw = Армании ғарбӣ
 ia = Интерлингва
 id = Индонезӣ
+ie = Байнизабонӣ
+ig = Игбо
 is = Исландӣ
 it = Итолиёӣ
 izh = Ижорӣ
@@ -84,6 +88,7 @@ ka = Гурҷӣ
 kaa = Қароқалпоқӣ
 kab = Кабилӣ
 kbd = Кабардинӣ
+ki = Кикуйю
 kk = Қазоқӣ
 kmr = Курдии Курманҷӣ
 ko = Кореягӣ
@@ -495,5 +500,52 @@ demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
 # [/SentenceCollector]
 
