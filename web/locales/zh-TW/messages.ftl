@@ -328,6 +328,9 @@ profile-form-language =
     .label = 語言
 profile-form-accent =
     .label = 腔調
+profile-form-custom-accent-help-text =
+    .label = 您會如何描述您講話的腔調？
+profile-form-custom-accent-placeholder-2 = 打字輸入，描述您的腔調
 profile-form-age =
     .label = 年齡
 profile-form-gender-2 =
@@ -338,6 +341,7 @@ hidden = 隱藏
 visible = 可見
 native-language =
     .label = 母語
+profile-form-add-accent = 新增自訂腔調「{ $inputValue }」
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
 male = 男性
@@ -371,6 +375,8 @@ skip-submission-description = 貢獻過程中，在點擊「送出」後將忽�
 skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢獻類型。
 off = 關
 on = 開
+help-accent = 需要關於腔調的說明嗎？
+help-accent-explanation = 腔調就是您發音的方式，可能會受您生活的地方、您會說的其他語言以及其他許多因素影響。您可以在此分享任何您覺得有關的資訊。
 
 ## Profile - Email
 
