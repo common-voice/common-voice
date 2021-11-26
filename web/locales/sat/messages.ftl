@@ -1181,15 +1181,33 @@ sc-personal-not-added = ᱟᱢ ᱱᱤᱛ ᱫᱷᱟᱹᱵᱤᱡ ᱵᱟᱝ ᱥᱮ�
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ ᱧᱮᱧᱮᱞ ᱢᱟᱱᱫᱚᱸᱰ
+sc-criteria-title = ᱧᱮᱧᱮᱞ ᱢᱟᱱᱫᱚᱸᱰ
 
 ## REVIEW
 
+sc-review-title = ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱧᱮᱞ ᱵᱤᱲᱟᱹᱣ ᱢᱮ
+sc-review-loading = ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱞᱟᱫᱮᱜ ᱠᱟᱱᱟ…
+sc-review-select-language = ᱟᱹᱛᱟᱹᱛ ᱧᱮᱞ ᱵᱤᱲᱟᱹᱣ ᱞᱟᱹᱜᱤᱫ ᱫᱟᱭᱟᱠᱟᱛᱮ ᱯᱟᱹᱨᱥᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ᱾
+sc-review-no-sentences = ᱧᱮᱧᱮᱞ ᱞᱟᱹᱜᱤᱫ ᱪᱮᱫ ᱟᱹᱭᱟᱹᱛ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾ <addLink> ᱟᱨᱦᱚᱸ ᱟᱹᱭᱟᱹᱛ ᱱᱤᱛᱚᱜ ᱥᱮᱞᱮᱫ ᱢᱮ!</addLink>
+sc-review-form-prompt =
+    .message = ᱧᱮᱧᱮᱞ ᱠᱟᱱ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱵᱟᱝ ᱡᱚᱢᱟ ᱠᱟᱱᱟ, ᱥᱟᱹᱨᱤ ᱛᱮ?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = ᱥᱨᱚᱛ: { $sentenceSource }
 sc-review-form-button-reject = ᱵᱟᱹᱨᱜᱤᱞ
 sc-review-form-button-skip = ᱟᱲᱟᱜ
 sc-review-form-button-approve = ᱮᱢ ᱪᱷᱚ
+sc-review-form-button-submit =
+    .submitText = ᱧᱮᱧᱮᱞ ᱠᱚ ᱪᱟᱵᱟᱭ ᱢᱮ
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱵᱟᱝ ᱧᱮᱧᱮᱞ ᱠᱟᱱᱟ᱾
+        [one] 1 ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱧᱮᱧᱮᱞ ᱠᱟᱱᱟ᱾ ᱥᱟᱨᱦᱟᱣ!
+        [two] { $sentences } ᱟᱹᱭᱟᱹᱛ ᱠᱤᱱ ᱧᱮᱧᱮᱞ ᱠᱟᱱᱟ᱾ ᱥᱟᱨᱦᱟᱣ!
+       *[other] { $sentences } ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱧᱮᱧᱮᱞ ᱠᱟᱱᱟ᱾ ᱥᱟᱨᱦᱟᱣ!
+    }
 sc-review-link = ᱧᱮᱞ ᱫᱚᱦᱲᱟ
 
 ## SETTINGS
