@@ -344,8 +344,13 @@ profile-form-native-language =
     .label = Iaith Frodorol
 profile-form-additional-language =
     .label = Iaith Ychwanegol
+profile-form-language =
+    .label = Iaith
 profile-form-accent =
     .label = Acen
+profile-form-custom-accent-help-text =
+    .label = Sut fyddech chi'n disgrifio'ch acen?
+profile-form-custom-accent-placeholder-2 = Cychwynnwch deipio i ddisgrifio'ch acen
 profile-form-age =
     .label = Oed
 profile-form-gender-2 =
@@ -356,6 +361,7 @@ hidden = Cudd
 visible = Gweladwy
 native-language =
     .label = Mamiaith
+profile-form-add-accent = Ychwanegwch acen o fath newydd "{ $inputValue }"
 profile-form-submit-save = Cadw
 profile-form-submit-saved = Wedi'u Cadw
 male = Gwryw
@@ -444,7 +450,7 @@ faq-why-my-lang-q = Pam nad yw fy iaith wedi'i chynnwys eto?
 faq-why-my-lang-new-a = Nid yw Mozilla yn dewis nac yn ffafrio unrhyw iaith o flaen un arall. Yn lle hynny, mae Common Voice yn fenter sy'n cael ei yrru dim ond gan y gymuned, ond mae'n cymryd <multilangLink> sawl cam i ychwanegu iaith newydd </multilangLink> a dechrau casglu cyfraniadau llais. Yn gyntaf, mae angen cyfieithu gwefan y Common Voice er mwyn i aelodau'r gymuned gael mynediad i brofiad cyfrannwr yn eu hiaith eu hunain. Nesaf, mae arnom angen casgliad mawr o frawddegau heb hawlfraint i bobl eu darllen allan. Unwaith y bydd y ddau ofyniad hynny wedi'u bodloni, caiff iaith ei "lansio" ar Common Voice i bobl ddechrau recordio eu llais a dilysu cyfraniadau pobl eraill. Os hoffech chi helpu lansio iaith newydd, ewch draw i'n <sentenceCollectorLink>teclyn casglu brawddegau</sentenceCollectorLink>i gychwyn arni.
 faq-what-quality-q = Pa lefel o ansawdd sain sydd ei angen ar gyfer clip llais i'w ddefnyddio yn y set ddata?
 faq-what-quality-a = Rydyn eisiau i set ddata Common Voice adlewyrchu ansawdd sain y bydd peiriant llais-i-destun yn ei glywed yn gyffredin, felly rydym yn chwilio am amrywiaeth. Yn ogystal â chymuned amrywiol o siaradwyr, bydd set ddata gydag ansawdd sain amrywiol yn dysgu'r peiriant llais-i-destun i drin gwahanol sefyllfaoedd o'r byd go iawn, o gefndir gyda siarad i sŵn ceir. Cyn belled â bod eich clip llais yn ddealladwy, dylai fod yn ddigon da i'r set ddata.
-faq-why-10k-hours-q = Pam mae 10,000 awr wedi'i ddilysu y targed ar gyfer casglu sain iaith ?
+faq-why-10k-hours-q = Pam mae 10,000 awr wedi'u dilysu y targed ar gyfer casglu sain iaith ?
 faq-why-10k-hours-a = Dyma'n fras y nifer o oriau sydd eu hangen i hyfforddi cynnyrch system llais i destun.
 faq-how-calc-hours-q = Sut mae Common Voice yn cyfrifo oriau?
 faq-how-calc-hours-a = Rydym yn cyfrifo oriau trwy amcangyfrif hyd cyfartalog pob cofnod, ac yna lluosi'r rhif hwnnw gyda chyfanswm nifer y recordiadau ar draws yr holl ieithoedd.
@@ -1091,7 +1097,7 @@ sc-logout-button = Allgofnodi
 ## HOME
 
 sc-home-title = Croeso i Gasglwr Brawddegau Common Voice
-sc-home-intro = Mae'r Casglwr Brawddegau yn rhan o </commonVoiceLink>Common Voice</commonVoiceLink>. Mae'n caniatáu i gyfranwyr gasglu a dilysu brawddegau a grëwyd gan y gymuned. Gallwch ddefnyddio'r teclyn hwn hefyd i fewnforio a glanhau corpws bach i ganolig yn y parth cyhoeddus rydych chi wedi'i ddarganfod neu ei gasglu. Rhaid i bob brawddeg fod yn rhai Parth Cyhoeddus. Mae brawddegau cymeradwy yn cael eu hallforio bob wythnos i storfan Common Voice ac yn cael eu rhyddhau i wefan Common Voice fesul sypyn newydd.
+sc-home-intro = Mae'r Casglwr Brawddegau yn rhan o </commonVoiceLink>Common Voice</commonVoiceLink>. Mae'n caniatáu i gyfranwyr gasglu a dilysu brawddegau a grëwyd gan y gymuned. Gallwch ddefnyddio'r teclyn hwn hefyd i fewnforio a glanhau corpws bach i ganolig yn y parth cyhoeddus rydych chi wedi'i ddarganfod neu ei gasglu. Rhaid i bob brawddeg fod yn rhai Parth Cyhoeddus. Mae brawddegau cymeradwy yn cael eu hallforio bob wythnos i storfan Common Voice ac yn cael eu rhyddhau i wefan Common Voice fesul sypynnau newydd.
 sc-home-collect-title = Casglu brawddegau
 sc-home-collect-text = Helpwch ni trwy ysgrifennu neu gasglu brawddegau o'r Parth Cyhoeddus.
 sc-home-review-title = Adolygu brawddegau
@@ -1140,7 +1146,7 @@ sc-my-title = Fy Mrawddegau i
 sc-my-description = Mae'r dudalen hon yn rhoi trosolwg i chi o'r holl frawddegau rydych chi wedi'u cyflwyno. Gallwch hefyd ddileu brawddegau a gyflwynwyd eisoes os oes angen gwneud hynny trwy farcio'r blwch ticio wrth eu hymyl a chlicio ar &quot;Dileu'r brawddegau hyn&quot; ar y gwaelod. Peidiwch â dileu brawddegau oni bai bod hynny'n hollol angenrheidiol, er enghraifft, os ydych chi wedi sylwi wedyn bod brawddeg wedi'i diogelu gan hawlfraint.
 sc-my-loading = Yn llwytho'ch brawddegau...
 sc-my-err-fetching = Gwall wrth estyn eich brawddegau. Ceisiwch eto.
-sc-my-no-sentences = Heb ganfod brawddegau
+sc-my-no-sentences = Heb ganfod unrhyw frawddegau!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Cyflwyniadau: { $batchId }
@@ -1156,7 +1162,7 @@ sc-my-err-failed-delete = Wedi methu dileu'r brawddegau hyn... Rhowch gynnig ara
 sc-rejected-title = Brawddegau wedi'u Gwrthod
 sc-rejected-loading = Yn llwytho'r brawddegau wedi'u gwrthod...
 sc-rejected-err-fetching = Gwall wrth estyn y brawddegau wedi'u gwrthod. Ceisiwch eto.
-sc-rejected-none-found = Heb ganfod brawddegau wedi'u gwrthod!
+sc-rejected-none-found = Heb ganfod unrhyw  frawddegau wedi'u gwrthod!
 
 ## STATS
 
@@ -1236,8 +1242,8 @@ sc-confirm-sentences-title = Cadarnhau'r Brawddegau Newydd
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
-        [0] Heb ganfod brawddegau.
-        [zero] Heb ganfod brawddegau.
+        [0] Heb ganfod unrhyw frawddegau.
+        [zero] Heb ganfod unrhyw frawddegau.
         [one] Wedi canfod 1 brawddeg
         [two] Wedi canfod { $countOfSentences } frawddeg
         [few] Wedi canfod { $countOfSentences } brawddeg
@@ -1322,10 +1328,10 @@ sc-lang-info-validated =
         [0] Dim brawddegau wedi'u dilysu.
         [zero] Dim brawddegau wedi'u dilysu.
         [one] 1 frawddeg wedi'i dilysu.
-        [two] { $validatedSentences } frawddeg wedi'i dilysu.
-        [few] { $validatedSentences } brawddeg wedi'i dilysu.
-        [many] { $validatedSentences } brawddeg wedi'i dilysu.
-       *[other] { $validatedSentences } brawddeg wedi'i dilysu.
+        [two] { $validatedSentences } frawddeg wedi'u dilysu.
+        [few] { $validatedSentences } brawddeg wedi'u dilysu.
+        [many] { $validatedSentences } brawddeg wedi'u dilysu.
+       *[other] { $validatedSentences } brawddeg wedi'u dilysu.
     }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
@@ -1377,7 +1383,7 @@ sc-review-lang-not-selected = Nid ydych wedi dewis unrhyw ieithoedd. Ewch i'ch <
 sc-review-title = Adolygu Brawddegau
 sc-review-loading = Yn llwytho brawddegau...
 sc-review-select-language = Dewiswch iaith i adolygu brawddegau ynddi.
-sc-review-no-sentences = Dim brawddegau i'w hadolygu. <addLink>Ychwanegwch fwy o frawddegau nawr!</addLink>
+sc-review-no-sentences = Dim brawddegau i'w hadolygu. <addLink>Ychwanegwch ragor o frawddegau nawr!</addLink>
 sc-review-form-prompt =
     .message = Brawddegau wedi'u hadolygu ond heb eu cyflwyno, ydych chi'n siŵr?
 sc-review-form-usage = Llusgwch i'r dde i gymeradwyo'r frawddeg. Llusgwch i'r chwith i'w gwrthod. Llusgwch i fyny i'w hepgor. <strong>Peidiwch ag anghofio i gyflwyno'ch adolygiad!</strong>
