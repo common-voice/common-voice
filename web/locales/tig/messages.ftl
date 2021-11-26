@@ -898,6 +898,8 @@ sc-submit-guidelines = እኢ <howToLink>መምረሔታት</howToLink> ኣም�
 sc-add-lang-could-not-add = ሉቀት ትትወሰኽ ኢቀድርትኒ
 sc-add-lang-sec-label = ትሳህም ዲባ ላትሓዘ ሉቀት ውስኽ
 sc-add-lang-sec-button = ሉቀት ውስኽ
+sc-add-err-submission = ናይ ልእከት ሙሽክለት
+sc-add-lang-process-notice = ሉቀትኩም አንዘ ሓቆ የህሌት, <languageProcessLink>እምብላ ገበይ</languageProcessLink>ትጥሎባ ትቀድሮ
 
 ## ADD SENTENCES CONFIRMATION
 
