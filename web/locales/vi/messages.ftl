@@ -322,8 +322,13 @@ profile-form-native-language =
     .label = Ngôn ngữ chính
 profile-form-additional-language =
     .label = Ngôn ngữ bổ sung
+profile-form-language =
+    .label = Ngôn ngữ
 profile-form-accent =
     .label = Giọng vùng miền
+profile-form-custom-accent-help-text =
+    .label = Bạn sẽ mô tả trọng âm của mình như thế nào?
+profile-form-custom-accent-placeholder-2 = Bắt đầu nhập để mô tả trọng âm của bạn
 profile-form-age =
     .label = Tuổi
 profile-form-gender-2 =
@@ -334,6 +339,7 @@ hidden = Ẩn
 visible = Hiển thị
 native-language =
     .label = Tiếng mẹ đẻ
+profile-form-add-accent = Thêm trọng âm tùy chỉnh mới "{ $inputValue }"
 profile-form-submit-save = Lưu
 profile-form-submit-saved = Đã lưu
 male = Nam
@@ -367,6 +373,8 @@ skip-submission-description = Trong khi đóng góp, phản hồi của bài g�
 skip-submission-note = Lưu ý: Bạn vẫn cần chọn giữa Nói hoặc Nghe để thay đổi hình thức đóng góp.
 off = Tắt
 on = Bật
+help-accent = Cần một số trợ giúp về trọng âm?
+help-accent-explanation = Trọng âm của bạn là cách bạn phát âm các từ. Nó có thể được định hình bởi nơi bạn đã sống, bạn nói ngôn ngữ nào khác và rất nhiều yếu tố khác. Bạn có thể chia sẻ bất kỳ thông tin nào bạn cảm thấy có liên quan tại đây.
 
 ## Profile - Email
 
@@ -991,9 +999,14 @@ contribution-just-unsure-title = Không chắc chắn?
 contribution-just-unsure-description = Nếu bạn gặp điều gì đó mà các nguyên tắc này không đề cập đến, vui lòng bỏ phiếu theo đánh giá tốt nhất của bạn. Nếu bạn thực sự không thể quyết định, hãy sử dụng nút bỏ qua và chuyển sang bản ghi tiếp theo.
 see-more = <chevron></chevron>Xem thêm
 see-less = <chevron></chevron>Xem ít hơn
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = Trang chủ
 sc-header-how-to = Cách làm
 sc-header-add = Thêm
@@ -1011,6 +1024,9 @@ sc-footer-terms = Điều khoản
 sc-footer-cookies = Cookie
 sc-login-signup-button = Đăng nhập / Đăng ký
 sc-logout-button = Đăng xuất
+
+## HOME
+
 sc-home-title = Chào mừng bạn đến với trình thu thập câu của Common Voice
 sc-home-intro =
     Trình thu thập câu là một phần của <commonVoiceLink>Common Voice</commonVoiceLink>. Nó cho phép
@@ -1023,6 +1039,9 @@ sc-home-collect-title = Thu thập các câu
 sc-home-collect-text = Giúp chúng tôi bằng cách viết hoặc thu thập các câu thuộc phạm vi cộng đồng.
 sc-home-review-title = Đánh giá các câu
 sc-home-review-text = Giúp chúng tôi bằng cách đánh giá các câu cho đúng theo hướng dẫn.
+
+## HOW-TO
+
 sc-howto-title = Cách làm
 sc-howto-addlang-title = Thêm ngôn ngữ để làm việc
 sc-howto-addlang-text = Sau khi đăng nhập, bạn có thể chọn ngôn ngữ của mình từ phần hồ sơ.
@@ -1084,10 +1103,7 @@ sc-howto-review-criteria-5 =
 sc-howto-review-criteria-6 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
 sc-howto-findpd-title = Tìm các câu hiện có thuộc phạm vi cộng đồng'
 sc-howto-findpd-subtitle = Tìm kiếm chúng trên internet
-sc-howto-findpd-text =
-    Hãy nhớ rằng chúng tôi cần sự cho phép để xuất bản những câu đó, vì vậy hãy luôn
-    đảm bảo rằng văn bản thuộc <wikipediaLink>phạm vi cộng đồng</wikipediaLink>. Nếu không, hãy
-    liên hệ với người có nội dung văn bản và hỏi xem bạn có thể sử dụng văn bản của họ không.
+sc-howto-findpd-text-2 = Hãy nhớ rằng chúng tôi cần sự cho phép để xuất bản những câu đó, vì vậy hãy luôn đảm bảo rằng văn bản thuộc về <wikipediaLink>phạm vi công cộng</wikipediaLink>. Nếu không có dấu hiệu rõ ràng, hãy liên hệ với người sở hữu văn bản và hỏi xem họ có muốn đóng góp văn bản của mình cho Miền công cộng hay không. Nếu họ muốn, hãy giúp họ thực hiện quy trình <cc0WaiverLink>thỏa thuận đóng góp</cc0WaiverLink>. Nếu họ không muốn đóng góp văn bản, thì bạn không được phép sử dụng văn bản đó.
 sc-howto-findpd-tips = Dưới đây là một số mẹo để tìm câu:
 sc-howto-findpd-tips-1 =
     Các nguồn tốt nhất bạn có thể tìm là podcast, bản ghi, kịch bản phim và
@@ -1105,6 +1121,9 @@ sc-howto-findpd-partner-2 =
     Các nhà ngôn ngữ học chuyên nghiệp cũng có thể giúp đỡ, cố gắng liên hệ với các trường
     Đại học ngôn ngữ địa phương (cả giáo viên và sinh viên) và xem liệu họ có thể giúp thu thập
     một loạt các câu đa dạng về âm thanh bằng ngôn ngữ của bạn hay không.
+
+## MY SENTENCES
+
 sc-my-title = Các câu của tôi
 sc-my-description =
     Trang này cung cấp cho bạn một cái nhìn tổng quan về tất cả các câu đã gửi của bạn.
@@ -1115,32 +1134,40 @@ sc-my-description =
 sc-my-loading = Đang tải các câu của bạn…
 sc-my-err-fetching = Lỗi khi lấy các câu của bạn. Vui lòng thử lại.
 sc-my-no-sentences = Không tìm thấy câu nào!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = ID nội dung đã gửi: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Nguồn:  { $source }
 sc-my-delete = Xóa các câu đã chọn
 sc-my-deleting = Đang xóa các câu đã chọn…
 sc-my-err-failed-delete = Không thể xóa các câu đã chọn… Vui lòng thử lại!
-sc-profile-title = Hồ sơ: { $username }
+
+## REJECTED
+
 sc-rejected-title = Câu bị từ chối
 sc-rejected-loading = Đang tải các câu bị từ chối…
 sc-rejected-err-fetching = Lỗi khi lấy các câu bị từ chối. Vui lòng thử lại.
 sc-rejected-none-found = Không tìm thấy câu bị từ chối nào!
-sc-review-lang-not-selected =
-    Bạn chưa chọn bất kỳ ngôn ngữ nào. Xin vui lòng đi đến <profileLink>hồ sơ</profileLink>
-    của bạn để chọn ngôn ngữ.
-sc-review-title = Đánh giá câu
-sc-review-loading = Đang tải câu…
-sc-review-select-language = Vui lòng chọn một ngôn ngữ để đánh giá các câu.
-sc-review-no-sentences =
-    Không có câu nào để đánh giá.
-    <addLink>Thêm các câu khác ngay bây giờ!</addLink>
+
+## STATS
+
 sc-stats-title = Thống kê
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = Cập nhật lần cuối: { $lastUpdate }
 sc-stats-last-update-never = Cập nhật lần cuối: chưa một lần nào
 sc-stats-updating = Đang cập nhật...
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
 sc-stats-summary =
     Trình thu thập câu của Common Voice đã sưu tầm
     { $sentenceCount } câu bằng { $languageCount } ngôn ngữ!
+
+## ADD
+
 sc-submit-err-select-lang = Vui lòng chọn một ngôn ngữ.
 sc-submit-err-add-sentences = Vui lòng thêm câu.
 sc-submit-err-add-source = Vui lòng thêm nguồn.
@@ -1163,55 +1190,83 @@ sc-submit-button =
     .submitText = Gửi
 sc-submit-filtered = Các câu đã lọc do không đạt yêu cầu (vui lòng gửi các phiên bản đã sửa làm câu mới):
 sc-submit-guidelines = Vui lòng kiểm tra <howToLink>nguyên tắc</howToLink>.
+
+## ADD LANGUAGE
+
 sc-add-lang-could-not-add = Không thể thêm ngôn ngữ
 sc-add-lang-sec-label = Thêm ngôn ngữ bạn muốn đóng góp
 sc-add-lang-sec-button = Thêm ngôn ngữ
 sc-add-err-unexpected = Máy chủ đã trả về phản hồi không mong muốn
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
         [0] Đã gửi các câu. { $duplicates } câu đã bị từ chối do đã trùng lặp.
        *[other] Đã gửi các câu. { $duplicates } câu đã bị từ chối do đã trùng lặp.
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
         [0] Không có câu thất bại
        *[other] { $sentences } câu không thành công
     }
 sc-add-err-submission = Lỗi khi gửi
+sc-add-lang-process-notice = Nếu ngôn ngữ của bạn không được liệt kê ở đây, bạn có thể yêu cầu ngôn ngữ đó thông qua <languageProcessLink>quá trình này</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+
 sc-confirm-are-you-sure =
     .message = Các câu chưa được gửi, bạn có chắc chắn muốn rời đi không?
 sc-confirm-sentences-title = Xác nhận các câu mới
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] Không tìm thấy câu nào.
        *[other] Đã tìm thấy { $countOfSentences } câu.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } bị bạn từ chối
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Không có câu nào đã đánh giá.
        *[other] { $countOfReviewed } câu đã được đánh giá. Làm tốt lắm!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
         [0] Không có câu nào sẵn sàng để gửi!
        *[other] { $readyCount } câu đã sẵn sàng để gửi!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed =
     { $countOfUnreviewed } câu chưa được đánh giá.
     Nếu muốn, bạn cũng có thể xem lại các câu của mình ngay bây giờ trước khi gửi chúng.
 sc-confirm-button-text = Xác nhận
 sc-confirm-uploading = Các câu đang được tải lên. Quá trình này có thể mất vài phút tùy thuộc vào số lượng câu được thêm vào. Vui lòng không đóng trang web này.
+
+## LANGUAGE INFO
+
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
         [0] Không có tổng số câu.
        *[other] Tổng { $totalSentences } câu.
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] Không có câu đang đánh giá.
        *[other] { $totalInReview } câu đang được đánh giá.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] Không còn câu nào để bạn đánh giá.
@@ -1219,24 +1274,42 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Đánh giá ngay bây giờ!</reviewLink>
 sc-lang-info-add-more = <addLink>Thêm các câu khác ngay bây giờ!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
         [0] Không có câu nào được xác thực.
        *[other] { $validatedSentences } câu đã được xác thực.
     }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Không có câu nào bị từ chối.
        *[other] { $rejectedSentences } câu đã bị từ chối.
     }
+
+## LOGIN
+
 sc-login-err-failed = Đăng nhập thất bại
 sc-login-err-try-again = Vui lòng thử lại.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Hồ sơ: { $username }
 sc-personal-err-lang-not-found = Không thể xóa ngôn ngữ: không tìm thấy ngôn ngữ
 sc-personal-err-remove = Không thể xóa ngôn ngữ
 sc-personal-your-languages = Ngôn ngữ của bạn:
 sc-personal-remove-button = xóa
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } được thêm bởi bạn
 sc-personal-not-added = Bạn chưa thêm bất kỳ ngôn ngữ nào.
+
+## REVIEW CRITERIA
+
 sc-criteria-modal = ⓘ Tiêu chí đánh giá
 sc-criteria-title = Tiêu chí đánh giá
 sc-criteria-make-sure = Đảm bảo câu đáp ứng các tiêu chí sau:
@@ -1244,22 +1317,37 @@ sc-criteria-item-1 = Câu phải được viết đúng chính tả.
 sc-criteria-item-2 = Câu phải đúng ngữ pháp.
 sc-criteria-item-3 = Câu phải nói được.
 sc-criteria-item-4 = Nếu câu đáp ứng tiêu chí, hãy nhấp vào nút &quot;Phê duyệt&quot; ở bên phải.
-sc-criteria-item-5 =
-    Nếu câu không đáp ứng các tiêu chí trên, hãy nhấp vào nút &quot;Từ chối&quot; ở bên phải.
-    Nếu bạn không chắc chắn về câu, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
+sc-criteria-item-5-2 = Nếu câu không đáp ứng các tiêu chí trên, hãy nhấp vào nút &quot;Từ chối&quot; bên trái. Nếu bạn không chắc chắn về câu, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
 sc-criteria-item-6 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
+
+## REVIEW
+
+sc-review-lang-not-selected =
+    Bạn chưa chọn bất kỳ ngôn ngữ nào. Xin vui lòng đi đến <profileLink>hồ sơ</profileLink>
+    của bạn để chọn ngôn ngữ.
+sc-review-title = Đánh giá câu
+sc-review-loading = Đang tải câu…
+sc-review-select-language = Vui lòng chọn một ngôn ngữ để đánh giá các câu.
+sc-review-no-sentences =
+    Không có câu nào để đánh giá.
+    <addLink>Thêm các câu khác ngay bây giờ!</addLink>
 sc-review-form-prompt =
     .message = Các câu đã đánh giá không được gửi, có chắc chắn không?
 sc-review-form-usage =
     Vuốt sang phải để phê duyệt câu. Vuốt sang trái để từ chối.
     Vuốt lên để bỏ qua. <strong>Đừng quên gửi đánh giá của bạn!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Nguồn: { $sentenceSource }
 sc-review-form-button-reject = Từ chối
 sc-review-form-button-skip = Bỏ qua
 sc-review-form-button-approve = Phê duyệt
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
 sc-review-form-keyboard-usage = Bạn cũng có thể sử dụng phím tắt: Y để phê duyệt, N để từ chối, S để bỏ qua
 sc-review-form-button-submit =
     .submitText = Kết thúc đánh giá
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Không có câu nào được đánh giá.
@@ -1267,7 +1355,12 @@ sc-review-form-reviewed-message =
     }
 sc-review-form-review-failure = Không thể lưu đánh giá. Vui lòng thử lại sau.
 sc-review-link = Đánh giá
+
+## SETTINGS
+
 sc-settings-title = Cài đặt
+sc-settings-ui-language = Ngôn ngữ giao diện
+sc-settings-language-translated-warning = Các trang cho ngôn ngữ này có thể không được dịch đầy đủ. Bạn có thể trợ giúp chúng tôi dịch <pontoonLinkLink>trên Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Đặt lại các câu đã bỏ qua
 sc-settings-skipped-decription =
     Bạn đã bỏ qua các câu trước đó trong khi đánh giá.
@@ -1275,6 +1368,11 @@ sc-settings-skipped-decription =
     Điều này độc lập với ngôn ngữ.
 sc-settings-show-all-button = Hiển thị lại tất cả các câu đã bỏ qua
 sc-settings-failed = Không thể thay đổi cài đặt. Vui lòng thử lại.
+# VALIDATION
+sc-validation-number-of-words = Câu phải chứa từ 1 đến 14 (bao gồm) từ
+sc-validation-no-numbers = Câu không nên chứa số
+sc-validation-no-symbols = Câu không được chứa ký tự đặc biệt
+sc-validation-no-abbreviations = Câu không được viết tắt
 
 # [/SentenceCollector]
 
