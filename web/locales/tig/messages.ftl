@@ -843,6 +843,7 @@ sc-footer-translate = እላ ሰፍሓት ተርጅም
 sc-footer-privacy = ኽሱስያት
 sc-footer-terms = ሸሩጥ
 sc-footer-cookies = ክዓክ
+sc-logout-button = ፍግረት
 
 ## HOME
 
@@ -998,6 +999,14 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>ኣዘ ራጀዖ!</reviewLink>
 sc-lang-info-add-more = <addLink>ዝያዳ ጁመል ወስኽ ኣዝ!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] ላትሓቀቀያ ጁመል የኣለቡ
+        [one] ዎሮት ላትሓቀቀት ጁምለት
+       *[other] { $validatedSentences } ላትሓቀቀያ ጁመል
+    }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
