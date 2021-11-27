@@ -194,14 +194,14 @@ cookies = ክዓክ
 faq = ዲማ ላልትሳኣላ ኣስአለት
 content-license-text = ኢሊ ሙሕታዋ እብ ናይ <licenseLink>Creative Commons license</licenseLink>ሩኽሰት ምትወፍር እግልኩም ቱ
 share-title = ብዕዳም አብ ሶቶም ለልሳህሞ አግል ንርከብ ስደውና
-share-text = አለት ስደዋ አግኤል ትትዓለም ኣዳም ናይ ኣማን ከፎ ከምለትሃገ፣ እብ ሶትኩም እንሰር { $link } እትበረዖ
+share-text = አለት ስደዋ አግል ትትዓለም ኣዳም ናይ ኣማን ከፎ ከምለትሃገ፣ እብ ሶትኩም እንሰር { $link } እትበረዖ
 link-copied = ላትናቃላ Link
 back-top = ላዓል ኣቅብል
 logout = ፍገር
 
 ## Home Page
 
-home-title = ሙባደረት Mozilla Common Voice ናይ ኣማን ኣዳም ከፎ ከምልትሃገ  እግል ኣለት እግል ትትዓልም ላትሳዕዳ ታ
+home-title = ሙባደረት Mozilla Common Voice ናይ ኣማን ኣዳም ከፎ ከምልትሃገ  እግል ኣለት እግል ትትዓልም ላትሰድያ ታ
 default-tagline = Mozilla Common Voice ሙባደረት አግል ኣለት ናይ ኣማን ኣዳም አፎ ከምልትሃገው አገል ትትዓልም ላተሳዕዳ ታ
 home-cta = ሶትካ ኣስምዕ, አንዘ ሳህም
 show-wall-of-text = ዝያዳት ቀርኦ
