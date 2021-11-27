@@ -329,6 +329,8 @@ profile-form-native-language =
     .label = Modersmål
 profile-form-additional-language =
     .label = Ytterligare språk
+profile-form-language =
+    .label = Språk
 profile-form-accent =
     .label = Dialekt
 profile-form-age =
@@ -1035,6 +1037,8 @@ sc-my-title = Mina meningar
 sc-my-loading = Laddar dina meningar…
 sc-my-err-fetching = Det gick inte att hämta dina meningar. Var god försök igen.
 sc-my-no-sentences = Inga meningar hittades!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Källa: { $source }
 sc-my-delete = Ta bort markerade meningar
 sc-my-deleting = Tar bort markerade meningar…
@@ -1082,6 +1086,8 @@ sc-login-err-try-again = Försök igen.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
 sc-profile-title = Profil: { $username }
 sc-personal-err-lang-not-found = Det gick inte att ta bort språk: språk hittades inte
 sc-personal-err-remove = Det gick inte att ta bort språk
@@ -1097,6 +1103,8 @@ sc-personal-not-added = Du har inte lagt till några språk än.
 sc-review-title = Granska meningar
 sc-review-loading = Laddar meningar…
 sc-review-select-language = Välj ett språk för att granska meningar.
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Källa: { $sentenceSource }
 sc-review-form-button-reject = Avvisa
 sc-review-form-button-skip = Hoppa över
