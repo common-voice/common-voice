@@ -332,7 +332,10 @@ profile-form-additional-language =
 profile-form-language =
     .label = Språk
 profile-form-accent =
-    .label = Dialekt
+    .label = Accent
+profile-form-custom-accent-help-text =
+    .label = Hur skulle du beskriva din accent?
+profile-form-custom-accent-placeholder-2 = Börja skriva för att beskriva din accent
 profile-form-age =
     .label = Ålder
 profile-form-gender-2 =
@@ -343,6 +346,7 @@ hidden = Dold
 visible = Synlig
 native-language =
     .label = Modersmål
+profile-form-add-accent = Lägg till ny anpassad accent "{ $inputValue }"
 profile-form-submit-save = Spara
 profile-form-submit-saved = Sparad
 male = Man
@@ -376,6 +380,8 @@ skip-submission-description = Under inlämning av bidrag ignoreras återkoppling
 skip-submission-note = Notera: Du behöver fortfarande välja mellan att prata och lyssna för att ändra bidragstyp.
 off = Av
 on = På
+help-accent = Behöver du hjälp med accent?
+help-accent-explanation = Din accent är hur du uttalar ord. Det kan formas av var du har bott, vilka andra språk du talar och massor av andra faktorer. Du kan dela all information som du tycker är relevant här.
 
 ## Profile - Email
 
