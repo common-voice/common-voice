@@ -871,11 +871,13 @@ sc-my-no-sentences = ጁመል ይእትረከባኒ!
 sc-my-source = መስደር: { $source }
 sc-my-delete = ሐሩያት ላህለያ ጁመል ልትወርከያ
 sc-my-deleting = ሐሩያት ላህለያ ጁመል ልትወርከያ ሀለያ
+sc-my-err-failed-delete = ላትሓረያ ጁመልካ ንወርክየን ኢቀደርና ... እስከ ካልእ መረት ጀረብ!
 
 ## REJECTED
 
 sc-rejected-title = ላትረፈደያ ጁመል
 sc-rejected-loading = ላትረፈደያ ጁመል ለትፃዕና ሃለያ...
+sc-rejected-err-fetching = ላትረፈዳ ጁመል እግል ናምፃኣ ኢቀደርና። እስከ ካልእ መረት ጀረብ
 sc-rejected-none-found = ላትረፈደያ ጁመል የኣለቡ
 
 ## STATS
@@ -897,6 +899,8 @@ sc-submit-err-select-lang = ሉቅት ሕረው
 sc-submit-err-add-sentences = ጁመል ውስኽ
 sc-submit-err-add-source = መስደር ውስኽ
 sc-submit-err-confirm-pd = እለን ጁመል ሙልኬት ዓመት ከም ገብአያ ኣክድ
+sc-submit-prompt =
+    .message = ላ ጁመል ኢትላኣከትኒ፣ ሙትኣኽዲን አንቱም ቲግሶ ቱ?
 sc-submit-title = ጁመል ውስኽ
 sc-submit-select-language =
     .labelText = ሉቅት ሕረው
@@ -904,6 +908,7 @@ sc-submit-add-sentences = ናይ<wikipediaLink>ሙልኬት ዓመት</wikipedia
 sc-submit-ph-one-per-line =
     .placeholder = ዎሮ ጁምለት ዲብ ዎሮ ሰጠር
 sc-submit-from-where = እለን ናይ<wikipediaLink>ሙልኬት ዓመት</wikipediaLink>ጁመል ምን ኣያ ተን?
+sc-submit-confirm = ኣና ኣክድ እለን ጁመል <wikipediaLink>ሙልኬት ዓመት</wikipediaLink>ተን ው ኣና መስሙሕ እገልየ ቱ እግል ዓርገን
 sc-submit-button =
     .submitText = ላኣኽ
 sc-submit-guidelines = እኢ <howToLink>መምረሔታት</howToLink> ኣምር.
@@ -913,6 +918,7 @@ sc-submit-guidelines = እኢ <howToLink>መምረሔታት</howToLink> ኣም�
 sc-add-lang-could-not-add = ሉቀት ትትወሰኽ ኢቀድርትኒ
 sc-add-lang-sec-label = ትሳህም ዲባ ላትሓዘ ሉቀት ውስኽ
 sc-add-lang-sec-button = ሉቀት ውስኽ
+sc-add-err-unexpected = ለይትጽበርናሁ ረድ ምን server ዓቅበላ
 sc-add-err-submission = ናይ ልእከት ሙሽክለት
 sc-add-lang-process-notice = ሉቀትኩም አንዘ ሓቆ የህሌት, <languageProcessLink>እምብላ ገበይ</languageProcessLink>ትጥሎባ ትቀድሮ
 
