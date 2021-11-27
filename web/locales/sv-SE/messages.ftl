@@ -1030,6 +1030,8 @@ sc-howto-review-title = Granska meningar
 sc-howto-review-subtitle = Se till att meningen uppfyller följande kriterier:
 sc-howto-review-criteria-1 = Meningen måste vara rättstavad.
 sc-howto-review-criteria-2 = Meningen måste vara grammatiskt korrekt.
+sc-howto-findpd-subtitle-2 = Samarbeta med lokala organisationer eller individer
+sc-howto-findpd-partner-1 = Det finns många offentliga organisationer som kanske vill samarbeta och som redan har många texter de kan donera som allmän egendom. Nå ut till lokala universitet, regeringar och öppen källkodsorganisationer för att prata om projektet och be om deras hjälp.
 
 ## MY SENTENCES
 
@@ -1046,10 +1048,18 @@ sc-my-err-failed-delete = Det gick inte att ta bort valda meningar… Försök i
 
 ## REJECTED
 
+sc-rejected-title = Avvisade meningar
+sc-rejected-loading = Läser in avvisade meningar...
+sc-rejected-err-fetching = Fel vid hämtning av avvisade meningar. Var god försök igen.
+sc-rejected-none-found = Inga avvisade meningar hittades!
 
 ## STATS
 
 sc-stats-title = Statistik
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Senaste uppdatering: { $lastUpdate }
+sc-stats-last-update-never = Senaste uppdatering: aldrig
 sc-stats-updating = Uppdaterar…
 
 ## ADD
@@ -1114,7 +1124,12 @@ sc-review-link = Granska
 ## SETTINGS
 
 sc-settings-title = Inställningar
+sc-settings-reset-skipped = Återställ överhoppade meningar
+sc-settings-show-all-button = Visa alla överhoppade meningar igen
 sc-settings-failed = Det gick inte att ändra inställningarna. Var god försök igen.
+sc-validation-no-numbers = Meningen ska inte innehålla siffror
+sc-validation-no-symbols = Meningen bör inte innehålla symboler
+sc-validation-no-abbreviations = Meningen ska inte innehålla förkortningar
 
 # [/SentenceCollector]
 
