@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = بەڵێ، ئیمەیلم بۆ بنێرە. پێم خۆشە ئاگاداری پرۆژەی کۆمن ڤۆیس بم.
+yes-receive-emails = بەڵێ پۆستی ئەلکترۆنیم بۆ بنێرە. پێم خۆشە ئاگاداری هەواڵەکانی پڕۆژەی دەنگی گشتی بم.
 stayintouch = ئێمە لە مۆزیلا خەریکین کۆمەڵگەیەک پێک دینین بۆ تەکنۆلۆژیای دەنگ. پێمان خۆشە بۆ نوێکارییەکان، سەرچاوەی نوێی زانیاری و ئەوەی کە ئێوە چۆن ئەم زانیاریە بەکار ئەبەن پەیوەندیمان ببێت.
 privacy-info = بەڵێن دەدەین کە بۆ پاراستنی زانیاریەکانی ئێوە وریا بین. بۆ زیاتر زانین ئەتوانی <privacyLink> ئاگاداری پاراستنی نهێنی </privacyLink> ئێمە ببینیت.
 return-to-cv = بگەڕێوە بۆ دەنگی گشتی
@@ -940,8 +940,9 @@ sc-logout-button = چوونەدەرەوە
 sc-home-title = بەخێربێی بۆ کۆکەرەوەی ڕستەی Common Voice
 sc-home-intro = کۆکەرەوەی ڕستە بەشێکە لە <commonVoiceLink>دەنگی گشتی</commonVoiceLink>. ڕێگە دەدات کە بەشداربووەکان ڕستە کۆبکەنەوە و بیسەلمێنن. دەتوانیت ئەم ئامرازە بەکاربهێنیت بۆ هاوردەکردن، پاککردنەوە و ڕێکخستنەوەی ئەو کۆکراوانەی لە دۆمەینی گشتییەوە بەدەستهاتوون. هەموو ڕستەکان پێویستە دۆمەینی گشتی بن. ڕستە پەسەندکراوەکان هەموو هەفتەیەک هەناردە دەکرێن بۆ سەرچاوەی دەنگی گشتی و بڵاودەکرێتەوە لە ماڵپەڕی سەرەکی دەنگی گشتی هەر کاتێک زانیاری نوێ هەبوون.
 sc-home-collect-title = ڕستە کۆبکەرەوە
-sc-home-collect-text = یارمتەیمان بدە بۆ نووسینی یان کۆکردنەوەی ڕستە لە دۆماینی گشتی.
+sc-home-collect-text = یارمەتیمان بدە بۆ نووسین یان کۆکردنەوەی ڕستە لە دۆماینی گشتی.
 sc-home-review-title = پێداچوونەوەی ڕستە
+sc-home-review-text = یارمەتیمان بۆ پێداچوونەوەی ڕستەکان بە مەبەستی چاککردنیان بەپێی ڕێنماییەکان.
 
 ## HOW-TO
 
@@ -971,6 +972,8 @@ sc-my-title = ڕستەکانم
 sc-my-loading = بارکردنی ڕستەکانت...
 sc-my-err-fetching = هەڵە ڕوویدا لە کاتی ناردنی ڕستەکانت. تکایە دووبارە هەوڵ بدەرەوە.
 sc-my-no-sentences = هیچ ڕستەیەک نەدۆزرایەوە!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = سەرچاوە:{ $source }
 sc-my-delete = ڕستەی دیاریکراو بسڕەوە
 sc-my-deleting = ڕستە دیاریکراوەکان دەسڕێنەوە...
@@ -986,9 +989,14 @@ sc-rejected-none-found = هیج ڕستەیەکی پەسەند نەکراو نە�
 ## STATS
 
 sc-stats-title = ئامار
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = کۆتا نوێکردنەوە: { $lastUpdate }
 sc-stats-last-update-never = کۆتا نوێکردنەوە: نییە
 sc-stats-updating = نوێکردنەوە...
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
 sc-stats-summary = پرۆژەی دەنگی گشتی { $sentenceCount } ڕستەی کۆکردۆتەوە لە { $languageCount } زمان!
 
 ## ADD
@@ -1019,6 +1027,7 @@ sc-add-lang-could-not-add = نەتوانرا زمان زیادبکرێت
 sc-add-lang-sec-label = ئەو زمانە هەڵبژێرە کە دەتەوێت بەشداری تێدا بکەیت
 sc-add-lang-sec-button = زمان زیاد بکە
 sc-add-err-unexpected = وەڵامێکی چاوەڕواننەکراو لە ڕاژەوە
+sc-add-lang-process-notice = ئەگەر زمەنکەت زیاد نەکراوە لێرە، دەتوانیت داوای بکەیت لەم <languageProcessLink>ڕێگەییەوە</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1028,6 +1037,8 @@ sc-confirm-button-text = دڵنیابوونەوە
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
         [0] کۆی ڕستەکان نیە
@@ -1044,11 +1055,15 @@ sc-login-err-try-again = تکایە دووبارە هەوڵ بدەرەوە.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
 sc-profile-title = پەڕەی کەسی: { $username }
 sc-personal-err-lang-not-found = نەتوانرا زمان بسرێتەوە: زمان بوونی نیە
 sc-personal-err-remove = نەتوانرا زمان بسڕێتەوە
 sc-personal-your-languages = زمانەکانی تۆ
 sc-personal-remove-button = سڕینەوە
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } زیادکراوە لە لایەن تۆوە
 sc-personal-not-added = تا ئێستا هیچ زمانێکت زیاد نەکردووە.
 
@@ -1061,12 +1076,16 @@ sc-criteria-item-1 = دەبێت ڕستەکە بە شێوەیەکی ڕاست نو
 sc-criteria-item-2 = دەبێت ڕستەکە بەشێوەیەکی ڕێزمانی ڕاست نووسرابێت.
 sc-criteria-item-3 = دەبێت ڕستەکە بوترێت.
 sc-criteria-item-4 = ئەگەر ڕستەکە لەگەڵ پێوەرەکاندا گونجا، کرتە بکە لە دوگمەی &quot; پەسەندکردن&quot; لە لای ڕاستەوە.
-sc-criteria-item-5 = ئەگەر ڕستەکە لەگەڵ پێوەرەکاندا نەگونجا، کرتە بکە لە دوگمەی &quot; پەسەندنەکردن&quot; لە لای ڕاستەوە. ئەگەر دڵنیا نەبوویت لە ڕستەکە، دەتوانیت تێیپەرێنی و بچیتە ڕستەیەکی تر.
 
 ## REVIEW
 
 sc-review-title = پێداچوونەوەی ڕستە
 sc-review-loading = بارکردنی ڕستەکان...
+sc-review-no-sentences = ڕستە نیە بۆ پێداچوونەوە. <addLink>ڕستەی تر زیاد بکە</addLink>
+sc-review-form-prompt =
+    .message = ئەو ڕستانەی پێداچوونەوەت بۆ کردووە نە نێردراوە، تۆ دڵنیایت؟
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = سەرچاوە:{ $sentenceSource }
 sc-review-form-button-reject = پەسەندنەکردن
 sc-review-form-button-skip = تێپەڕاندن
@@ -1075,11 +1094,20 @@ sc-review-form-button-approve = پەسەندکردن
 sc-review-form-keyboard-usage = دەتوانی تەختەکلیل بەکاربێنیت: Y بۆ پەسەندکردن، N بۆ پەسەندنەکردن، S بۆ تێپەڕاندن
 sc-review-form-button-submit =
     .submitText = پێداچوونەوە تەواو بکە
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] هیچ ڕستەیەک پێداچوونەوەی بۆ نەکراوە
+        [one] 1 ڕستە پێداچوونەوەی بۆ کراوە. سوپاس!
+       *[other] { $sentences } ڕستە پێداچوونەوەی بۆ کرا. سوپاس!
+    }
 sc-review-link = پێداچوونەوە
 
 ## SETTINGS
 
 sc-settings-title = ڕێکخستنەکان
+sc-settings-ui-language = زمانی ڕووکاری پیشاندان
 sc-settings-show-all-button = هەموو ڕستە تێپەڕێنراوەکان پیشان بدە دووبارە
 sc-settings-failed = نەتوانرا ڕێکخستنەکان بگۆڕدرێت. تکایە هەوڵ بدەرەوە.
 
