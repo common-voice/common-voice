@@ -153,7 +153,7 @@ te = ተሉጉ
 tg = ታጂክ
 th = ታይላንዲ
 ti = ቴግርንያ
-tig = ትግረ
+tig = ትግረይት
 tl = ታንጋሎግ
 tr = ቱርኪ
 tt = ታታር
@@ -187,7 +187,7 @@ languages = ሉቃት
 about = መን ሕና
 profile = ናይ ኖስ መለፍ
 help = ስድየት
-contact = መራከቢ
+contact = ተዋሱል
 privacy = ኽሱስያት
 terms = ሽሩጥ
 cookies = ክዓክ
@@ -542,6 +542,7 @@ other-language = ብዕድ ሉቀት
 
 language-section-in-progress-new-description = እለን ሉቃት እለን ላ ማሕበር ኣዘ ለጠውረን ሃላ ፣ ሸሪጥ ናይ ተቀዱም ኩላ ሉቀት አያ ባጽሓት ከም ህሌት ዲብ <localizationGlossaryLink>ላማውቅዕ ተርጃመት</localizationGlossaryLink> ው <sentenceCollectionGlossaryLink>ጁመል እካቦት</sentenceCollectionGlossaryLink>ላሓበር
 language-section-launched = ላትጃሃዘት
+language-section-launched-description = እግል እለን ላትጃሃዘያ ሎቃት ላመውቂዕ (website) ሰኒ <localizationGlossaryLink>ተርጀማ</localizationGlossaryLink>, ው ካፊ  <sentenceCollectionGlossaryLink>ላትጃምዓያ ጁመል</sentenceCollectionGlossaryLink>ሃላ እግሉ እግል<speakLink>ሂጋ</speakLink> ው <listenLink>ስምዓት</listenLink>ተበሩዓት ላገብእ
 languages-show-more = ዝያደት ረኤ
 languages-show-less = ሑድ ረኤ
 language-meter-in-progress = ትቀዱም
@@ -570,8 +571,8 @@ goal-help-recording = Common Voice ዲብ ናይ <goalPercentage></goalPercentag
 goal-help-validation = Common Voice ዲብ ናይ <goalPercentage></goalPercentage> ምንላ ዮምየት  ናይ ታሕቂቅ ሃደፍ { $goalValue } እግል ትብጻ ሳዓድኹማ!
 contribute-more =
     { $count ->
-        [one] { $count } ዝያደት እግል ቲደ ጃህዝ ህሌካ?
-       *[other] { $count } ዝያደት እግል ቲደ ጃህዝ ህሌካ?
+        [one] { $count } ዝያደት እግል ቲደው ጃህዛም ህሌኩም?
+       *[other] { $count } ዝያደት እግል ቲደው ጃህዛም ህሌኩም?
     }
 record-cta = ተስጂል ኣንብቶ
 record-must-allow-microphone = መክረፎን ገል ልሽቀ ስምሖ
