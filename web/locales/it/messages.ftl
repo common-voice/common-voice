@@ -1056,6 +1056,7 @@ sc-howto-review-criteria-5 = Se la frase non soddisfa i precedenti criteri, fai 
 sc-howto-review-criteria-6 = Se non ci sono più frasi da convalidare, aiutaci a raccoglierne altre!
 sc-howto-findpd-title = Trovare frasi esistenti in pubblico dominio
 sc-howto-findpd-subtitle = Cercale su Internet
+sc-howto-findpd-text-2 = Ricorda che abbiamo bisogno dell’autorizzazione per pubblicare quelle frasi, quindi assicurati sempre che il testo sia di <wikipediaLink>pubblico dominio</wikipediaLink>. Se non c’è un’indicazione esplicita, contatta la persona a cui appartiene il testo e chiedi se è disponibile a renderlo di pubblico dominio. Se accetta, aiutala a seguire la procedura dell’<cc0WaiverLink>Accordo di Contribuzione</cc0WaiverLink>. Se rifiuta, non sei autorizzato a utilizzare quel testo.
 sc-howto-findpd-tips = Ecco alcuni suggerimenti per trovare frasi:
 sc-howto-findpd-tips-1 = Le migliori fonti che puoi cercare sono podcast, trascrizioni, sceneggiature di film e qualsiasi cosa che possa contenere conversazioni quotidiane.
 sc-howto-findpd-tips-2 = Anche gli atti governativi, i libri e gli articoli sono ottimi, tuttavia poiché il testo tende a essere un po’ più formale, hanno meno priorità.
@@ -1147,6 +1148,7 @@ sc-add-err-failed =
        *[other] { $sentences } frasi non inviate
     }
 sc-add-err-submission = Errore durante l’invio
+sc-add-lang-process-notice = Se la tua lingua non è presente in questo elenco, puoi richiederla tramite <languageProcessLink>questa procedura</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
