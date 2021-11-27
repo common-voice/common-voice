@@ -808,6 +808,10 @@ contribution-background-noise-example-2-fixed-title = ላ ዳይናሱር ዓቢ
 contribution-background-noise-example-2-explanation = [ሰሩ ላክታበት ኢልሰማዕኒ]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> ላ ዳይናሱር ዓቢ ምን ናይ ዘመን<strong>[crackle]</strong> -ርያሲክ.
 contribution-background-voices-example-1-title = ላ ዳይናሱር ዓቢ ምን ናይ ዘመን <strong>ትርያሲክ. <strong>[read by one voice]</strong>
+contribution-background-voices-example-1-explanation = ትምጾቱ?<strong>[ኣብ ብዕድ እትላካ]</strong>
+contribution-volume-title = ሶት
+contribution-reader-effects-title = ናይ ቃሪእ ታእሲር
+contribution-just-unsure-title = ኢታኣከድኩም?
 see-more = <chevron></chevron>ብዙሕ ረአ
 see-less = <chevron></chevron>ሑድ ረአ
 
