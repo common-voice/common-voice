@@ -1111,9 +1111,15 @@ sc-submit-ph-one-per-line =
     .placeholder = Jedna sada na linku
 sc-submit-button =
     .submitText = Wotpósłać
+sc-submit-guidelines = Prošu přepruwujće <howToLink>směrnicy</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Rěč njeda so přidać
+sc-add-lang-sec-label = Přidajće rěč, ke kotrejž chceće přinošować
+sc-add-lang-sec-button = Rěč přidać
+sc-add-err-unexpected = Njewočakowana wotmołwa ze serwera
+sc-add-err-submission = Zapodawanski zmylk
 
 ## ADD SENTENCES CONFIRMATION
 
