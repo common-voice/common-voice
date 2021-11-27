@@ -1109,10 +1109,15 @@ sc-personal-err-lang-not-found = Det gick inte att ta bort språk: språk hittad
 sc-personal-err-remove = Det gick inte att ta bort språk
 sc-personal-your-languages = Dina språk:
 sc-personal-remove-button = ta bort
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } har lagts till av dig
 sc-personal-not-added = Du har inte lagt till några språk än.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Granskningskriterier
+sc-criteria-title = Granskningskriterier
 
 ## REVIEW
 
