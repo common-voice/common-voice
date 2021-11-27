@@ -336,8 +336,12 @@ profile-form-native-language =
     .label = Memmetaal
 profile-form-additional-language =
     .label = Ekstra taal
+profile-form-language =
+    .label = Taal
 profile-form-accent =
     .label = Aksint
+profile-form-custom-accent-help-text =
+    .label = Hoe soene jo jo aksint omskriuwe?
 profile-form-age =
     .label = Leeftiid
 profile-form-gender-2 =
@@ -1015,9 +1019,14 @@ contribution-just-unsure-title = Gewoan ûnwis?
 contribution-just-unsure-description = As jo wat tsjinkomme dat net yn dizze rjochtlinen behannele wurdt, stim dan nei jo bêste oardiel. As jo echt net beslisse kinne, brûk dan de knop Oerslaan en gean troch nei de folgjende opname.
 see-more = <chevron></chevron>Mear toane
 see-less = <chevron></chevron>Minder toane
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = Startside
 sc-header-how-to = Hantlieding
 sc-header-add = Tafoegje
@@ -1035,6 +1044,9 @@ sc-footer-terms = Betingsten
 sc-footer-cookies = Cookies
 sc-login-signup-button = Oanmelde/Registrearje
 sc-logout-button = Ofmelde
+
+## HOME
+
 sc-home-title = Wolkom by de Common Voice Sentence Collector
 sc-home-intro =
     De Sentence Collector is ûnderdiel fan <commonVoiceLink>Common Voice</commonVoiceLink>.
@@ -1047,6 +1059,9 @@ sc-home-collect-title = Sinnen sammelje
 sc-home-collect-text = Help ús troch iepenbier tagonklike sinnen te skriuwen of te sammeljen.
 sc-home-review-title = Sinnen beoardiele
 sc-home-review-text = Help ús troch sinnen te kontrolearjen op krektens neffens de rjochtlinen.
+
+## HOW-TO
+
 sc-howto-title = Hantlieding
 sc-howto-addlang-title = Talen tafoegje om mei te wurkjen
 sc-howto-addlang-text = Neidat jo oanmeld binne, kinne jo jo talen selektearje yn de profylseksje.
@@ -1108,10 +1123,6 @@ sc-howto-review-criteria-5 =
 sc-howto-review-criteria-6 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
 sc-howto-findpd-title = Besteande sinnen fine yn it publike domein
 sc-howto-findpd-subtitle = Dernei sykje op it ynternet
-sc-howto-findpd-text =
-    Unthâld dat wy tastimming nedich hawwe om dy sinnen te publisearjen,
-    soargje der dus altyd foar dat de tekst oant it <wikipediaLink>publike domein</wikipediaLink> taheart. As der gjin yndikaasje is,
-    nim dan kontakt op mei de persoan fan wa’t de tekst is en freegje oft jo harren tekst brûke meie.
 sc-howto-findpd-tips = Hjir binne inkelde tips om sinnen te finen:
 sc-howto-findpd-tips-1 =
     De beste boarnen wêrnei jo sykje kinne binne podcasts, transkripsjes, filmscripts en
@@ -1129,6 +1140,9 @@ sc-howto-findpd-partner-2 =
     Deskundige linguisten kinne ek helpe, probearje kontakt op te nimmen mei de lokale linguistyske
     universiteiten (sawol dosinten as studinten) en sjoch oft se helpe kinne om in ferskate set fan
     sinnen mei útienrinnende klanken yn jo taal te sammeljen.
+
+## MY SENTENCES
+
 sc-my-title = Myn sinnen
 sc-my-description =
     Dizze side biedt jo in oersjoch fan al jo ynstjoerde sinnen.
@@ -1139,32 +1153,40 @@ sc-my-description =
 sc-my-loading = Jo sinnen laden…
 sc-my-err-fetching = Flater by it opheljen fan jo sinnen. Probearje it opnij.
 sc-my-no-sentences = Gjin sinnen fûn!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Ynstjoering: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Boarne: { $source }
 sc-my-delete = Selektearre sinnen fuortsmite
 sc-my-deleting = Selektearre sinnen fuortsmite…
 sc-my-err-failed-delete = Kin selektearre sinnen net fuortsmite… Probearje it opnij!
-sc-profile-title = Profyl: { $username }
+
+## REJECTED
+
 sc-rejected-title = Ofwizen sinnen
 sc-rejected-loading = Ofwizen sinnen lade…
 sc-rejected-err-fetching = Flater by it opheljen fan ôfwizen sinnen. Probearje it opnij.
 sc-rejected-none-found = Gjin ôfwizen sinnen fûn!
-sc-review-lang-not-selected =
-    Jo hawwe gjin talen selektearre. Gean nei jo
-    <profileLink>Profyl</profileLink> om talen te selektearjen.
-sc-review-title = Sinnen beoardiele
-sc-review-loading = Sinnen lade…
-sc-review-select-language = Selektearje in taal om sinnen te beoardielen.
-sc-review-no-sentences =
-    Gjin sinnen om te beoardielen.
-    <addLink>Foegje no mear sinnen ta!</addLink>
+
+## STATS
+
 sc-stats-title = Statistiken
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = Lêste fernijing: { $lastUpdate }
 sc-stats-last-update-never = Lêste fernijing: nea
 sc-stats-updating = Bywurkje…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
 sc-stats-summary =
     De Common Voice Sentence Collector hat { $sentenceCount }
     sinnen yn { $languageCount } talen sammele!
+
+## ADD
+
 sc-submit-err-select-lang = Selektearje in taal.
 sc-submit-err-add-sentences = Foegje sinnen ta.
 sc-submit-err-add-source = Foegje in boarne ta.
@@ -1187,16 +1209,23 @@ sc-submit-button =
     .submitText = Yntsjinje
 sc-submit-filtered = Filtere sinnen fanwegen net foldwaan oan easken (tsjinje korrekte ferzjes yn as nije sinnen):
 sc-submit-guidelines = Rieplachtsje de <howToLink>rjochtlinen</howToLink>.
+
+## ADD LANGUAGE
+
 sc-add-lang-could-not-add = Kin taal net tafoegje
 sc-add-lang-sec-label = Foegje in taal ta dêr’t jo oan bydrage wolle
 sc-add-lang-sec-button = Taal tafoegje
 sc-add-err-unexpected = Unferwacht antwurd ûntfongen fan de server
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
         [0] Yntsjinne sinnen. { $duplicates } sinnen binne ôfwiisd as duplikaten.
         [one] Yntsjinne sinnen. { $duplicates } sin is ôfwiisd as duplikaat.
        *[other] Yntsjinne sinnen. { $duplicates } sinnen binne ôfwiisd as duplikaten.
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
         [0] Gjin sin mislearre
@@ -1204,15 +1233,22 @@ sc-add-err-failed =
        *[other] { $sentences } sinnen mislearre
     }
 sc-add-err-submission = Yntsjinningsflater
+
+## ADD SENTENCES CONFIRMATION
+
 sc-confirm-are-you-sure =
     .message = Sinnen net yntsjinne, binne jo wis dat jo ôfslute wolle?
 sc-confirm-sentences-title = Nije sinnen befêstigje
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] Gjin sinnen fûn.
         [one] Ien sin fûn.
        *[other] { $countOfSentences } sinnen fûn.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } troch jo ôfwiisd
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
@@ -1220,29 +1256,42 @@ sc-confirm-already-reviewed =
         [one] Der is al ien sin beoardiele. Goed wurk!
        *[other] Der binne al { $countOfReviewed } sinnen beoardiele. Goed wurk!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
         [0] Gjin sin klear foar yntsjinning!
         [one] Ien sin klear foar yntsjinning!
        *[other] { $readyCount } sinnen klear foar yntsjinning!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed =
     { $countOfUnreviewed } sinnen binne net beoardiele.
     As jo wolle, kinne jo jo sinnen no ek beoardiele eardat jo se yntsjinje.
 sc-confirm-button-text = Befêstigje
 sc-confirm-uploading = Sinnen wurde oplaad. Dit kin inkelde minuten duorje, ôfhinklik fan it oantal tafoege sinnen. Slút dizze website net.
+
+## LANGUAGE INFO
+
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
         [0] Gjin totaal oantal sinnen.
         [one] Totaal ien sin.
        *[other] Totaal { $totalSentences } sinnen.
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] Gjin sinnen yn beoardieling.
         [one] Ien sin yn beoardieling.
        *[other] { $totalInReview } sinnen yn beoardieling.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] Gjin sin dy’t jo noch beoardiele kinne.
@@ -1251,26 +1300,44 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>No beoardiele!</reviewLink>
 sc-lang-info-add-more = <addLink>No mear sinnen tafoegje!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
         [0] Gjin falidearre sinnen.
         [one] Ien falidearre sin.
        *[other] { $validatedSentences } falidearre sinnen.
     }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Gjin ôfwizen sinnen.
         [one] Ien ôfwizen sin.
        *[other] { $rejectedSentences } ôfwizen sinnen.
     }
+
+## LOGIN
+
 sc-login-err-failed = Oanmelding mislearre
 sc-login-err-try-again = Probearje it opnij.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profyl: { $username }
 sc-personal-err-lang-not-found = Kin taal net fuortsmite: taal net fûn
 sc-personal-err-remove = Kin taal net fuortsmite
 sc-personal-your-languages = Jo talen:
 sc-personal-remove-button = fuortsmite
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sinnen } troch jo tafoege
 sc-personal-not-added = Jo hawwe noch gjin talen tafoege.
+
+## REVIEW CRITERIA
+
 sc-criteria-modal = ⓘ Beoardielingskritearia
 sc-criteria-title = Beoardielingskritearia
 sc-criteria-make-sure = Soargje derfoar dat de sin oan de folgjende kritearia foldocht:
@@ -1278,22 +1345,36 @@ sc-criteria-item-1 = De sin moat goed stavere wêze.
 sc-criteria-item-2 = De sin moat grammatikaal korrekt wêze.
 sc-criteria-item-3 = De sin moat út te sprekken wêze.
 sc-criteria-item-4 = As de sin oan de kritearia foldocht, klik dan op de knop &quot;Goedkarre&quot; oan de rjochterkant.
-sc-criteria-item-5 =
-    As de sin net oan de boppesteande kritearia foldocht, klik dan op de knop &quot;Ofwize&quot; oan de rjochtekant.
-    As jo net wis binne fan de sin, kinne jo dizze ek oerslaan en trochgean nei de folgjende.
 sc-criteria-item-6 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
+
+## REVIEW
+
+sc-review-lang-not-selected =
+    Jo hawwe gjin talen selektearre. Gean nei jo
+    <profileLink>Profyl</profileLink> om talen te selektearjen.
+sc-review-title = Sinnen beoardiele
+sc-review-loading = Sinnen lade…
+sc-review-select-language = Selektearje in taal om sinnen te beoardielen.
+sc-review-no-sentences =
+    Gjin sinnen om te beoardielen.
+    <addLink>Foegje no mear sinnen ta!</addLink>
 sc-review-form-prompt =
     .message = Beoardiele sinnen net yntsjinne, binne jo wis?
 sc-review-form-usage =
     Fei nei rjochts om de sin goed te karren. Fei nei links om dizze ôf te wizen.
     Fei omheech om dizze oer te slaan. <strong>Ferjit net jo beoardieling yn te tsjinjen!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Boarne: { $sentenceSource }
 sc-review-form-button-reject = Ofwize
 sc-review-form-button-skip = Oerslaan
 sc-review-form-button-approve = Goedkarre
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
 sc-review-form-keyboard-usage = Jo kinne ek fluchtoetsen brûke: Y om goed te karren, N om ôf te wizen, S om oer te slaan
 sc-review-form-button-submit =
     .submitText = Beoardieling foltôgje
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Gjin sinnen beoardiele.
@@ -1302,6 +1383,9 @@ sc-review-form-reviewed-message =
     }
 sc-review-form-review-failure = Beoardieling kin net bewarre wurde. Probearje it letter nochris.
 sc-review-link = Beoardiele
+
+## SETTINGS
+
 sc-settings-title = Ynstellingen
 sc-settings-reset-skipped = Oerslagge sinnen opnij inisjalisearje
 sc-settings-skipped-decription =
