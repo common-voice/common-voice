@@ -184,7 +184,7 @@ speak = ታሃገ
 speak-now = ኣዜ ታሃገ
 datasets = መጅሙዓት በያናት
 languages = ሉቃት
-about = መን ሕና
+about = መን እንሕና
 profile = ናይ ኖስ መለፍ
 help = ስድየት
 contact = ተዋሱል
@@ -550,7 +550,7 @@ language-total-progress = ኩሉ ምስል
 language-search-input =
     .placeholder = ቆቅሎ
 language-speakers = ሄግያይ
-localized = ላትተርጀማ
+localized = ላትተርጀመት
 sentences = ጁመል
 total-hours = ለትሓቀቀያ ሳዓት
 
@@ -900,7 +900,7 @@ sc-rejected-none-found = ላትረፈደያ ጁመል የኣለቡ
 sc-stats-title = እሕሳእ
 # Variables:
 #   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = ኣኽር መረት ታሓደሳ ዲብ:
+sc-stats-last-update = ኣኽር መረት ላታሓደሳ ዲባ ወቀት:
 sc-stats-last-update-never = ኣኽር መረት ታሓደሳ ዲብ: ኣበደን
 sc-stats-updating = ልትሓደስ ህላ ...
 # Variables:
