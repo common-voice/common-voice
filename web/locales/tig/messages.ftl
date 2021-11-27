@@ -537,6 +537,7 @@ other-language = ብዕድ ሉቀት
 
 ## Languages Overview
 
+language-section-in-progress-new-description = እለን ሉቃት እለን ላ ማሕበር ኣዘ ለጠውረን ሃላ ፣ ሸሪጥ ናይ ተቀዱም ኩላ ሉቀት አያ ባጽሓት ከም ህሌት ዲብ <localizationGlossaryLink>ላማውቅዕ ተርጃመት</localizationGlossaryLink> ው <sentenceCollectionGlossaryLink>ጁመል እካቦት</sentenceCollectionGlossaryLink>ላሓበር
 language-section-launched = ላጃህዘት
 languages-show-more = ዝያደት ረኤ
 languages-show-less = ሑድ ረኤ
@@ -613,6 +614,7 @@ report-offensive-language = እኩይ ሉቀት
 report-different-language = ብዕደት ሉቀት
 report-different-language-detail = አብ ሉቀት ብዕደት መን ላ ኣና አትሃገያ ለህሌኮ ከጥበት ታ
 report-difficult-pronounce = ግል ትንጠቃ ስዓበት ታ
+report-difficult-pronounce-detail = ከሊማት ኣው ዕባራት ሳዕበት ግል ትቅራአ ኣው ትንጠቃ ሃላ ዲባ
 report-offensive-speech = እኩይ ሀጋ
 report-other-comment =
     .placeholder = ታዕሊቅ
