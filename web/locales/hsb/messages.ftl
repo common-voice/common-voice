@@ -1123,24 +1123,46 @@ sc-add-err-submission = Zapodawanski zmylk
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Nowe sady wobkrućić
+sc-confirm-button-text = Wobkrućić
 
 ## LANGUAGE INFO
 
+sc-lang-info-review-now = <reviewLink>Nětko přepruwować!</reviewLink>
 
 ## LOGIN
 
+sc-login-err-failed = Přizjewjenje njeje so poradźiło
+sc-login-err-try-again = Prošu spytajće hišće raz.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-remove = Rěč njeda so wotstronić
+sc-personal-your-languages = Waše rěče:
+sc-personal-remove-button = wotstronić
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-title = Sady přepruwować
+sc-review-loading = Sady so začituja…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Žórło: { $sentenceSource }
+sc-review-form-button-reject = Wotpokazać
+sc-review-form-button-skip = Přeskočić
+sc-review-form-button-approve = Schwalić
+sc-review-link = Pohódnoćić
 
 ## SETTINGS
 
+sc-settings-title = Nastajenja
+sc-settings-ui-language = Rěč wužiwarskeho powjercha
 
 # [/SentenceCollector]
 
