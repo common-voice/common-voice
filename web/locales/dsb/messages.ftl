@@ -1141,7 +1141,7 @@ sc-login-err-try-again = Pšosym wopytajśo hyšći raz.
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profil: { $username }
 sc-personal-err-remove = Rěc njedajo se wótwónoźeś
-sc-personal-your-languages = Waše rěcy
+sc-personal-your-languages = Waše rěcy:
 sc-personal-remove-button = wótwónoźeś
 
 ## REVIEW CRITERIA
