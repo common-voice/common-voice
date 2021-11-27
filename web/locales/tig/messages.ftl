@@ -237,6 +237,7 @@ x-years-short =
         [one] ሰነት
        *[other] ሰነት
     }
+help-make-dataset = ስዴና ላወቀላ ኖዕ ዓም ው ፍቱሕ በያናት እግል ንብነ
 sign-up-account = ሕሳብ ፍትሖ
 email-subscription-title = ሸጅሎ ናይ ኢማል ታሕዲስ ኤግል ትርከቦ
 email-subscription-title-new = ኣኽባር መዝከሪ ናይ ሓደፍ ው ታጣውር ኤግል ትርከቦ
@@ -289,7 +290,7 @@ shortcut-submit = ዓቅብል
 shortcut-submit-label = ክሊፕ ላኣኮ
 request-language-text = ሉቅትኩም ኣስኽ ኣዜ የህሌትኒ ዲብ Common Voice?
 request-language-text-learn = ከፎ ከም ትጠልቦ አንዘ ኣምር!
-request-language-button = ሉቀት ጥለብ
+request-language-button = ሉቀት ጥለቦ
 
 ## ProjectStatus
 
@@ -398,7 +399,7 @@ faq-what-is-cv = Common Voice ሚ ቱ
 faq-using-cv = አስትዕማል ናይ Common Voice
 faq-description = Common Voice ናይ Mozilla ሙባደረት እንደ ገብኣት እግል ኣለት ናይ ኣማን ኣዳም ኣፎ ከም ልትሃገ ላትዓልማ ታ
 faq-search-for-answers =
-    .label = ኣጅውበት ደውሮ
+    .label = ኣጅውበት ቆቅሎ
 
 ## ABOUT US
 
@@ -540,13 +541,13 @@ other-language = ብዕድ ሉቀት
 ## Languages Overview
 
 language-section-in-progress-new-description = እለን ሉቃት እለን ላ ማሕበር ኣዘ ለጠውረን ሃላ ፣ ሸሪጥ ናይ ተቀዱም ኩላ ሉቀት አያ ባጽሓት ከም ህሌት ዲብ <localizationGlossaryLink>ላማውቅዕ ተርጃመት</localizationGlossaryLink> ው <sentenceCollectionGlossaryLink>ጁመል እካቦት</sentenceCollectionGlossaryLink>ላሓበር
-language-section-launched = ላጃህዘት
+language-section-launched = ላትጃሃዘት
 languages-show-more = ዝያደት ረኤ
 languages-show-less = ሑድ ረኤ
 language-meter-in-progress = ትቀዱም
 language-total-progress = ኩሉ ምስል
 language-search-input =
-    .placeholder = ደውር
+    .placeholder = ቆቅሎ
 language-speakers = ሄግያይ
 localized = ላትተርጀማ
 sentences = ጁመል
