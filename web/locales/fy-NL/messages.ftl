@@ -1408,6 +1408,8 @@ sc-settings-failed = Kin ynstellingen net wizigje. Probearje it opnij.
 # VALIDATION
 sc-validation-number-of-words = Sin moat tusken 1 en 14 (ynklusyf) wurden befetsje
 sc-validation-no-numbers = Sin mei gjin sifers befetsje
+sc-validation-no-symbols = Sin mei gjin symboalen befetsje
+sc-validation-no-abbreviations = Sin mei gjin ôfkoartingen befetsje
 
 # [/SentenceCollector]
 
