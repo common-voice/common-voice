@@ -191,7 +191,7 @@ contact = መራከቢ
 privacy = ኽሱስያት
 terms = ሽሩጥ
 cookies = ክዓክ
-faq = ዲማ ላልትሳኣሉ ኣስአለት
+faq = ዲማ ላልትሳኣላ ኣስአለት
 content-license-text = ኢሊ ሙሕታዋ እብ ናይ <licenseLink>Creative Commons license</licenseLink>ሩኽሰት ምትወፍር እግልኩም ቱ
 share-title = ብዕዳም አብ ሶቶም ለልሳህሞ አግል ንርከብ ስዓደና
 share-text = አለት ኣዳም ናይ ኣማን ከፎ ከምለትሃገ አግኤል ትትዓለም ገል ትሳዕዳ አብ ሶትኩም { $link } እትበረዖ
@@ -372,7 +372,7 @@ add-language = ሉቀት ወስክ
 
 ## FAQ
 
-faq-title = ዲማ ላልትሳኣሉ ኣስአለት
+faq-title = ዲማ ላልትሳኣላ ኣስአለት
 faq-what-cv-q = Common Voice ሚቱ
 faq-why-important-q = አግል ሚቱ አሊ ሙህም?
 faq-how-get-q = ናይ  Common Voice በያናት ኣፎ ርክባ?
@@ -498,8 +498,8 @@ get-started-speech = ሂጋ ኣሌለዩት ኣንብቶ
 other-datasets = ብዕድ ናይ ሶት መጅሙዓት ብያናት
 community-playbook = ናይ ማሕበር ሰብ ፕለይቡክ
 data-other-ted-name = TED-LIUM Corpus
-your-feedback = አፍካር ብካ ግል ምጅሙዓት በያናት Common Voice ላናኣገርምእባ?  እት Discourse ኣምረናታ
-go-discourse = Discourse ጊሶ
+your-feedback = አፍካር ብካ ግል መጅሙዓት በያናት Common Voice ላናኣገርምእባ?  እት ህድግ ኣትኣምረናታ
+go-discourse = ዲብ ህድግ ጊሶ
 missing-language = ሉቀትኩም ዲብላ ምጅሙዓት በያናት ትርአዋ የህሌኩምኒ? ሉቀት ግል ትጥለቦ ዲብ ናይ Languages ሰፍሓት ጊሶ
 go-languages-page = ዲብ ናይ Languages Page ጊሶ
 ready-to-validate = ዲብ ታሕቂቅ ናይ ጁመል ትሳዕዶ ታሓዙ?
@@ -839,6 +839,7 @@ sc-header-rejected = ላትረፈደያ ጁመል
 sc-header-my = ጁመል ናየ
 sc-header-statistics = እሕሳእ
 sc-header-profile = ናይ ኖስ መለፍ
+sc-footer-discourse = ህድግ
 sc-footer-report-bugs = ትቅሪር ናይ ንቁስ
 sc-footer-translate = እላ ሰፍሓት ተርጅም
 sc-footer-privacy = ኽሱስያት
