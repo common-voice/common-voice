@@ -343,6 +343,7 @@ hidden = Gizli
 visible = Görünür
 native-language =
     .label = Anadili
+profile-form-add-accent = "{ $inputValue }" aksanını ekle
 profile-form-submit-save = Kaydet
 profile-form-submit-saved = Kaydedildi
 male = Erkek
@@ -377,6 +378,7 @@ skip-submission-note = Not: Katkı türünü değiştirmek için Konuşma veya D
 off = Kapalı
 on = Açık
 help-accent = Aksan konusunda yardıma mı ihtiyacınız var?
+help-accent-explanation = Aksanınız kelimeleri telaffuz etme şeklinizdir. Yaşadığınız yer, konuştuğunuz diğer diller ve daha birçok faktör aksanınızı etkileyebilir. İlgili olduğunu düşündüğünüz bilgileri burada paylaşabilirsiniz.
 
 ## Profile - Email
 
@@ -1059,7 +1061,10 @@ sc-howto-addsen-item-5 = Yabancı harfler. Harfler konuşulan dilde geçerli olm
 sc-howto-addsen-item-6 = Diller <validationRulesLink>kendi doğrulama kurallarına</validationRulesLink> ve ek zorunluluklara sahip olabilir. Bir dil için belirli bir doğrulama dosyası yoksa genel İngilizce kurallarını kullanıyoruz.
 sc-howto-addsen-post-1 = Doğal cümleleri ve konuşma cümlelerini tercih ediyoruz. Cümlelerdeki fonetik çeşitlilik ve farklı kelimeler önemli olmakla birlikte, cümle kaydetmeyi de mümkün olduğunca eğlenceli hale getirmeye çalışıyoruz. Bu nedenle, cümlelerinizi mümkün olduğunca doğal/çekici tutmaya çalışmanız harika olur.
 sc-howto-cite-title = Nasıl alıntı yapılır?
+sc-howto-cite-pre-1 = İntihalden kaçınmak ve <copyrightIssuesLink>telif hakkı sorunlarını</copyrightIssuesLink> ile gidermemizi sağlamak için kamu malı kaynakları nereden bulduğunuzu belirtmeniz önemlidir. İşte kaynaklartan alıntı yapmanın birkaç yolu…
 sc-howto-cite-item-1 = Web sitesi adresini verebilirsiniz. Örn. "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Akademik referans stilini kullanabilirsiniz. Örneğin Harvard stili ile: "Mozilla (2021) Common Voice. https://commonvoice.mozilla.org/ adresinde mevcuttur (Erişim tarihi: 15 Eylül 2021)"
+sc-howto-cite-item-3 = Çevrimiçi olmayan kamu malı metinler için akademik referans stilini kullanabilirsiniz. Örneğin Harvard stili ile: "Jess (2021) Kamu Malı Lisanslı Şiirlerim"
 sc-howto-review-title = Cümleleri inceleme
 sc-howto-review-subtitle = Cümlenin aşağıdaki kriterleri karşıladığından emin olun:
 sc-howto-review-criteria-1 = Cümle, yazım kurallarına uygun olarak yazılmış olmalıdır.
@@ -1070,6 +1075,7 @@ sc-howto-review-criteria-5 = Cümle yukarıdaki kriterleri karşılamıyorsa "Re
 sc-howto-review-criteria-6 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
 sc-howto-findpd-title = Mevcut kamu malı cümleleri bulma
 sc-howto-findpd-subtitle = İnternette arayın
+sc-howto-findpd-text-2 = Bu cümleleri yayımlamak için izne ihtiyacımız olduğunu unutmayın. Bu nedenle metinlerin her zaman <wikipediaLink>kamu malı</wikipediaLink> olduğundan emin olun. Metnin kamu malu olduğu açıkça belirtilmemişse metnin sahibine ulaşarak metni kamu malı yapmak isteyip istemediğini sorabilirsiniz. İsterse <cc0WaiverLink>Katkı Sözleşmesi</cc0WaiverLink> sürecini tamamlamalarına yardımcı olabilirsiniz. Sahibi katkıda bulunmak istemezse o metni kullanamazsınız.
 sc-howto-findpd-tips = Cümleleri bulmak için bazı ipuçları:
 sc-howto-findpd-tips-3 = Maalesef henüz Wikimedia makalelerini kullanamıyoruz. Bu nedenle oradan kopyala yapıştır yapmayın.
 sc-howto-findpd-subtitle-2 = Yerel kuruluşlar ya da kişilerle ortaklık yapın
@@ -1155,6 +1161,7 @@ sc-add-err-failed =
        *[other] { $sentences } cümle başarısız oldu
     }
 sc-add-err-submission = Gönderim Hatası
+sc-add-lang-process-notice = Diliniz burada listelenmemişse <languageProcessLink>bu süreç</languageProcessLink> aracılığıyla eklenmesini talep edebilirsiniz.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1180,6 +1187,9 @@ sc-confirm-ready =
         [one] 1 cümle gönderime hazır!
        *[other] { $countOfReviewed } cümle gönderime hazır!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } cümle incelenmedi. Dilerseniz cümlelerinizi göndermeden önce de inceleyebilirsiniz.
 sc-confirm-button-text = Onayla
 sc-confirm-uploading = Cümleler karşıya yükleniyor. Bu, eklenen cümle sayısına bağlı olarak birkaç dakika sürebilir. Lütfen bu web sitesini kapatmayın.
 
@@ -1294,6 +1304,7 @@ sc-review-link = İncele
 
 sc-settings-title = Ayarlar
 sc-settings-ui-language = Arayüz dili
+sc-settings-language-translated-warning = Bu dilin sayfaları tam olarak çevrilmemiş olabilir. <pontoonLinkLink>Pontoon</pontoonLinkLink>'da çeviriye yardımcı olabilirsiniz.
 sc-settings-reset-skipped = Atlanan cümleleri sıfırla
 sc-settings-skipped-decription = Daha önce incelemeniz sırasında bazı cümleleri atladınız. Atlanan cümleleri sıfırlamak, atlanan tüm cümleleri tekrar gösterecektir. Bu işlem dilden bağımsızdır.
 sc-settings-show-all-button = Atlanan tüm cümleleri tekrar göster
