@@ -201,7 +201,7 @@ logout = ፍገር
 
 ## Home Page
 
-home-title = Common Voice ናይ Mozilla ሙባደረት አግል ኣለት ናይ ኣማን ኣዳም አፎ ከምልትሃገው አገል ትትዓልም ላተሳዕዳ ታ
+home-title = ሙባደረት Mozilla Common Voice ናይ ኣማን ኣዳም ከፎ ከምልትሃገ  እግል ኣለት እግል ትትዓልም ላትሳዕዳ ታ
 default-tagline = Mozilla Common Voice ሙባደረት አግል ኣለት ናይ ኣማን ኣዳም አፎ ከምልትሃገው አገል ትትዓልም ላተሳዕዳ ታ
 home-cta = ሶትካ ኣስምዕ, አንዘ ሳህም
 show-wall-of-text = ዝያዳት ቀርኦ
