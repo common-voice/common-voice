@@ -342,6 +342,7 @@ profile-form-accent =
     .label = Aksint
 profile-form-custom-accent-help-text =
     .label = Hoe soene jo jo aksint omskriuwe?
+profile-form-custom-accent-placeholder-2 = Begjin mei typen om jo aksint te beskriuwen
 profile-form-age =
     .label = Leeftiid
 profile-form-gender-2 =
@@ -352,6 +353,7 @@ hidden = Ferstoppe
 visible = Sichtber
 native-language =
     .label = Memmetaal
+profile-form-add-accent = Nij oanpast aksint ‘{ $inputValue }’ tafoegje
 profile-form-submit-save = Bewarje
 profile-form-submit-saved = Bewarre
 male = Man
@@ -385,6 +387,8 @@ skip-submission-description = Wylst it bydragen wurdt kommentaar oer ynstjoering
 skip-submission-note = Noat: jo moatte noch hieltyd in kar tusken Sprekke en Harkje meitsje om it type bydragen te wizigjen.
 off = Ut
 on = Oan
+help-accent = Help nedich mei aksint?
+help-accent-explanation = Jo aksint is de manier wêrop jo wurden útsprekke. It kin foarme wurde troch wêr’t jo wenne hawwe, hokker oare talen jo sprekke en tal fan oare faktoaren. Jo kinne hjir alle ynformaasje diele dy’t jo relevant fine.
 
 ## Profile - Email
 
@@ -1123,6 +1127,7 @@ sc-howto-review-criteria-5 =
 sc-howto-review-criteria-6 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
 sc-howto-findpd-title = Besteande sinnen fine yn it publike domein
 sc-howto-findpd-subtitle = Dernei sykje op it ynternet
+sc-howto-findpd-text-2 = Unthâld dat wy tastimming nedich hawwe om dy sinnen te publisearjen, dus soargje der altyd foar dat de tekst ta it <wikipediaLink>publike domein</wikipediaLink> heart. As dit net eksplisyt oanjûn is, nim dan kontakt op mei de persoan fan wa’t de tekst is en freegje oft se harren tekst bydrage wolle oan it Publike Domein. As se dat wolle, help se dan troch it proses fan de <cc0WaiverLink>Meiwurkersoerienkomst</cc0WaiverLink> te gean. As se de tekst net bydrage wolle, dan meie jo dy tekst net brûke.
 sc-howto-findpd-tips = Hjir binne inkelde tips om sinnen te finen:
 sc-howto-findpd-tips-1 =
     De beste boarnen wêrnei jo sykje kinne binne podcasts, transkripsjes, filmscripts en
@@ -1233,6 +1238,7 @@ sc-add-err-failed =
        *[other] { $sentences } sinnen mislearre
     }
 sc-add-err-submission = Yntsjinningsflater
+sc-add-lang-process-notice = As jo taal hjir net fermeld wurdt, kinne jo dizze oanfreegje fia <languageProcessLink>dit proses</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1345,6 +1351,9 @@ sc-criteria-item-1 = De sin moat goed stavere wêze.
 sc-criteria-item-2 = De sin moat grammatikaal korrekt wêze.
 sc-criteria-item-3 = De sin moat út te sprekken wêze.
 sc-criteria-item-4 = As de sin oan de kritearia foldocht, klik dan op de knop &quot;Goedkarre&quot; oan de rjochterkant.
+sc-criteria-item-5-2 =
+    As de sin net oan de boppesteande kritearia foldocht, klik dan op de knop ‘Ofwize’ oan de linkerkant.
+    As jo net wis binne fan de sin, kinne jo dizze ek oerslaan en trochgean nei de folgjende.
 sc-criteria-item-6 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
 
 ## REVIEW
@@ -1387,6 +1396,8 @@ sc-review-link = Beoardiele
 ## SETTINGS
 
 sc-settings-title = Ynstellingen
+sc-settings-ui-language = Ynterfacetaal
+sc-settings-language-translated-warning = De siden foar dizze taal binne mooglik net folslein oerset. Jo kinne helpe mei oersetten <pontoonLinkLink>op Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Oerslagge sinnen opnij inisjalisearje
 sc-settings-skipped-decription =
     Jo hawwe earder sinnen oerslagge wylst it beoardielen.
@@ -1394,6 +1405,9 @@ sc-settings-skipped-decription =
     Dit stiet los fan de taal.
 sc-settings-show-all-button = Alle oerslagge sinnen opnij toane
 sc-settings-failed = Kin ynstellingen net wizigje. Probearje it opnij.
+# VALIDATION
+sc-validation-number-of-words = Sin moat tusken 1 en 14 (ynklusyf) wurden befetsje
+sc-validation-no-numbers = Sin mei gjin sifers befetsje
 
 # [/SentenceCollector]
 
