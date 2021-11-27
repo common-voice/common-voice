@@ -1109,12 +1109,21 @@ sc-submit-select-language =
     .labelText = Rěc wubraś
 sc-submit-ph-one-per-line =
     .placeholder = Jadna sada na smužku
+sc-submit-button =
+    .submitText = Wótpósłaś
+sc-submit-guidelines = Pšosym pśeglědujśo <howToLink>směrnice</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Rěc njedajo se pśidaś
+sc-add-lang-sec-label = Pśidajśo rěc, ku kótarejž cośo pśinosowaś
+sc-add-lang-sec-button = Rěc pśidaś
+sc-add-err-unexpected = Njewótčakane wótegrono ze serwera
+sc-add-err-submission = Zapódawańska zmólka
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Nowe sady wobkšuśiś
 sc-confirm-button-text = Wobkšuśiś
 
 ## LANGUAGE INFO
@@ -1131,15 +1140,29 @@ sc-login-err-try-again = Pšosym wopytajśo hyšći raz.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profil: { $username }
+sc-personal-err-remove = Rěc njedajo se wótwónoźeś
+sc-personal-your-languages = Waše rěcy
+sc-personal-remove-button = wótwónoźeś
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-title = Sady pśeglědaś
+sc-review-loading = Sady se zacytuju…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Žrědło: { $sentenceSource }
+sc-review-form-button-reject = Wótpokazaś
+sc-review-form-button-skip = Pśeskócyś
+sc-review-form-button-approve = Pśizwóliś
+sc-review-link = Pógódnośiś
 
 ## SETTINGS
 
+sc-settings-title = Nastajenja
+sc-settings-ui-language = Rěc wužywaŕskego pówjercha
 
 # [/SentenceCollector]
 
