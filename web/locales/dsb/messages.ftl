@@ -1115,15 +1115,22 @@ sc-submit-ph-one-per-line =
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Wobkšuśiś
 
 ## LANGUAGE INFO
 
+sc-lang-info-review-now = <reviewLink>Něnto pśeglědowaś!</reviewLink>
 
 ## LOGIN
 
+sc-login-err-failed = Pśizjawjenje njejo se raźiło
+sc-login-err-try-again = Pšosym wopytajśo hyšći raz.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
 
 ## REVIEW CRITERIA
 
