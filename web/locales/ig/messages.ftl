@@ -385,6 +385,9 @@ on = Gbànyé
 
 ## Profile - Email
 
+browse-file-title = Zìgá foto gi
+browse-file = Bụbata failụ gị ebe a mà ọ̀ bụ̀<browseWrap>chọ̀ghàrị́á</browseWrap>
+connect-gravatar = Were Gravatar
 
 ## Profile - Email
 
