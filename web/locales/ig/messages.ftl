@@ -362,7 +362,7 @@ dashboard = Ógwè (dashboard)
 build-profile = Wùlíté èjìrì márá gị̀.
 avatar = Ńghọ̀rọ̀
 goals = Èbùmnúché
-settings = Ǹtọ́àlà/Ńhàzí
+settings = Settings
 edit-profile = Dèzíé èjìrìmárá gi
 profile-create-success = Ńképụ̀tá èjìrìmárá gi gàrà ǹkè ọ́má!
 profile-close = Mèchíé
@@ -399,6 +399,7 @@ manage-subscriptions = Hazie Subscriptions
 manage-email-subscriptions = Hazie Subscriptions íméèlụ̀ (email)
 email-already-used = É jìrígó íméèlụ̀ à mépéé akaụntụ ọ́zọ́ dị́ íchè
 add-language = Tìnyé Ásụ̀sụ́
+change-email-setings = Ị cho ị gbanwee akara email gị, ga na "Settings" nke di n'ime "Ǹjìrìmárá"
 
 ## FAQ
 
