@@ -244,7 +244,7 @@ email-subscription-title-new = ኣኽባር መዝከሪ ናይ ሓደፍ ው �
 
 ## Account Benefits
 
-benefits = መንፍዓት
+benefits = ነፍዐ
 keep-track = ተቀዱምካ ዎ አሕሳእየትካ ዲብ ዝያድ ሓተ ሉቃት ታባዓ
 compare-progress = ተቀዱምኩም ቃርንዎ ምስል ብዕዳም ሙሻርኪአን ናይ እዲና
 view-goals = ተቀዱምኩም ምስል ናይ ኖስኩም ዎ ናይላ መሽሩዕ ተቀዱም ኣትራኣእዎ
