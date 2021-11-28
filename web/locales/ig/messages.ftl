@@ -11,6 +11,7 @@ loading = Ḿbànyé/Ńdọ́nyé
 email-opt-in-info = Ọ́ gà-àmásị́ m mà ḿ ná-ènwétá ózí gá ná-échètárá m m̀bùmnúchè íhé á nà-èmé, kà m sì àgá n'íhú nàkwàzị̀ ákwụ́kwọ́ ózí gbàsárá ńdí òtù Common Voice.
 email-opt-in-info-title = Sònyé n'ákwụ́kwọ́ ńzípù ózí ńdị́ òtù Common Voice
 email-opt-in-info-sub-with-challenge = Ná-ènwétà ózí gá ná-échètárá gị́ m̀bùmnúchè ńchọ́chá nà íhé ńdọ́láázụ́, gbàsárá kà íhé sì àgá, yá nà ákwụ́kwọ́ ózí ńdị́ ọ́zọ́ gbàsárá òtù Common Voice.
+email-opt-in-privacy-v2 = Síté n'ị́nátá ózí íméèlụ̀ (email), Ị́ nà-èkwétá kà Mọ̀zị́là jìkwáá ózí ńdị́ à dị́kà é sị̀ dépụ̀tá yá n'ọ́wá ńchékwá ózí Mọ̀zị́là <privacyLink> Ámụ̀mà ńchékwá</privacyLink>
 not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -144,7 +145,6 @@ te = Ásụ̀sụ́ Télúùgù
 tg = Ásụ̀sụ́ Tájíìkì
 th = Ásụ̀sụ́ Táàyị̀
 ti = Ásụ̀sụ́ Tìgíríníyà
-Tig = Ásụ̀sụ́ Tígírì
 tl = Ásụ̀sụ́ Tágálọ́ọ̀gụ̀
 tr = Ásụ̀sụ́ Tọ́kíìhì
 tt = Ásụ̀sụ́ Tàtáà
@@ -384,4 +384,57 @@ profile-close = Mèchíé
 
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
