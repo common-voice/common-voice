@@ -1016,43 +1016,77 @@ sc-logout-button = Wyloguj się
 
 ## HOW-TO
 
+sc-howto-title = Jak to zrobić
 
 ## MY SENTENCES
 
+sc-my-title = Moje zdania
+sc-my-loading = Wczytywanie zdań…
+sc-my-err-fetching = Błąd podczas pobierania zdań. Proszę spróbować ponownie.
+sc-my-no-sentences = Nie odnaleziono żadnych zdań.
+sc-my-delete = Usuń zaznaczone zdania
+sc-my-deleting = Usuwanie zaznaczonych zdań…
+sc-my-err-failed-delete = Usunięcie zaznaczonych zdań się nie powiodło. Proszę spróbować ponownie.
 
 ## REJECTED
 
+sc-rejected-title = Odrzucone zdania
+sc-rejected-loading = Wczytywanie odrzuconych zdań…
+sc-rejected-err-fetching = Błąd podczas pobierania odrzuconych zdań. Proszę spróbować ponownie.
+sc-rejected-none-found = Nie odnaleziono odrzuconych zdań.
 
 ## STATS
 
+sc-stats-title = Statystyki
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Ostatnia aktualizacja: { $lastUpdate }
+sc-stats-last-update-never = Ostatnia aktualizacja: nigdy
+sc-stats-updating = Aktualizowanie…
 
 ## ADD
 
+sc-submit-button =
+    .submitText = Wyślij
 
 ## ADD LANGUAGE
 
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Potwierdź
 
 ## LANGUAGE INFO
 
 
 ## LOGIN
 
+sc-login-err-failed = Zalogowanie się nie powiodło
+sc-login-err-try-again = Proszę spróbować ponownie.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-loading = Wczytywanie zdań…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Źródło: { $sentenceSource }
+sc-review-form-button-reject = Odrzuć
+sc-review-form-button-skip = Pomiń
+sc-review-form-button-approve = Zatwierdź
 
 ## SETTINGS
 
 sc-settings-title = Ustawienia
+sc-settings-ui-language = Język interfejsu
 
 # [/SentenceCollector]
 
