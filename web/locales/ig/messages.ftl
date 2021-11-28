@@ -378,6 +378,8 @@ edit = Dèzíghárị́á
 email-subscriptions = Ńdébànyé áhà màkà ózí íméèlụ̀ (email)
 download-profile = Búdátá ńgwá ńnyọ́chá èjììmárá m
 contribution-experience = Mata ihe ndi ị meputara na Common Voice
+skip-submission-feedback = Hapụ ị mata ihe e kwụrụ gbasara ihe ị meputara
+skip-submission-description = Common Voice a gaghi agwa gi M̀gbé á nà-àtụ́nyé òkè, á gà-àmáfèré ózí ńzághàchí mà ọ́ bụ́rụ́ nà Ị́ pị̀á "zìgá". Òzùgbó áhụ̀, ńtúnyé òkè ńdị́ ọ́zọ́ gà-àgá n'íhú há nà ńdékọ́ nà ńkwàdó 5 ńdị́ ọ́zọ́ ná-ésòchí.
 
 ## Profile - Email
 
