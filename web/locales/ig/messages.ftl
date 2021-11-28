@@ -336,6 +336,8 @@ profile-form-additional-language =
     .label = Ásụ̀sụ́ ndi ozo
 profile-form-language =
     .label = Ásụ̀sụ́
+profile-form-accent =
+    .label = Ǹdébé-ólú (accent)
 profile-form-age =
     .label = Áfọ̀
 profile-form-gender-2 =
@@ -364,6 +366,17 @@ settings = Ǹtọ́àlà/Ńhàzí
 edit-profile = Dèzíé èjìrìmárá gi
 profile-create-success = Ńképụ̀tá èjìrìmárá gi gàrà ǹkè ọ́má!
 profile-close = Mèchíé
+profile-explanation = Jìrí ǹjìrìmárá onye (Profile) Í képụ̀tàrà màrá kà Í sì àgà n'íhú mà nyékwárá áká ímé kà ńgwá ńnyòchá ólú ányị́ nà-àrụ́ ọ́rụ́ ǹkè ọ́má.
+thanks-for-account = Daalụ màkà íkwàdò akaunt ǹké à bụ̀ ǹkè gị́. Kà ànyị́ wúlítézíé èjìrìmárá gị́ úgbú à.
+why-demographic = Gị́nị́ mèrè nà ǹké à jì dị́ ḿkpà?
+why-demographic-explanation-2 = Ọ́bụ̀rụ̀ nà Ị́ zóchíé íhé gbàsárá áfọ̀ ole i dị̀, jenda gị́ nà ǹdébé-ólú (accent) gị́, ọ́ gà-ènyéré ányị́ áká ímélíté ụ́yọ̀kọ̀ ólú ányị́ jì èmé kà ígwé ǹghọ̀tá ókwú nà-àrụ́ ọ́rụ́ ọ̀fụ́má. Á gà-éjìkọ́ áhá ǹjìrìmárá gị́ nàkwà íméèlụ̀ gị́ ná ụ́yọ̀kọ̀ ókwú ǹdí Í zìtèrè. Í nwèkwàrà ike ihọ̀rọ̀ kà i méé kà ḿmádụ̀ níílé hụ́ ǹjìrìmárá gị́ mà ọ̀ bụ̀ kà é zóó yá èzó.
+accept-privacy = Ọ́ gà-àmásị́ m kà Í jíkwáá ózí ńdị́ à dị́kà Í sìrì kọ́wáá yá n'ọ́wà ḿgbásà íwú Mọ̀zị́lá à <privacyLink>Ìwú Ǹzòrò</privacyLink>
+accept-privacy-title = Ìwú Ǹzòrò
+login-identity = Débànyé Ǹjìrìmárá
+login-signup = Bànyé / Débànyé áhá
+edit = Dèzíghárị́á
+email-subscriptions = Ńdébànyé áhà màkà ózí íméèlụ̀ (email)
+download-profile = Búdátá ńgwá ńnyọ́chá èjììmárá m
 
 ## Profile - Email
 
