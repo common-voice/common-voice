@@ -11,7 +11,8 @@ loading = Ḿbànyé/Ńdọ́nyé
 email-opt-in-info = Ọ́ gà-àmásị́ m mà ḿ ná-ènwétá ózí gá ná-échètárá m m̀bùmnúchè íhé á nà-èmé, kà m sì àgá n'íhú nàkwàzị̀ ákwụ́kwọ́ ózí gbàsárá ńdí òtù Common Voice.
 email-opt-in-info-title = Sònyé n'ákwụ́kwọ́ ńzípù ózí ńdị́ òtù Common Voice
 email-opt-in-info-sub-with-challenge = Ná-ènwétà ózí gá ná-échètárá gị́ m̀bùmnúchè ńchọ́chá nà íhé ńdọ́láázụ́, gbàsárá kà íhé sì àgá, yá nà ákwụ́kwọ́ ózí ńdị́ ọ́zọ́ gbàsárá òtù Common Voice.
-email-opt-in-privacy-v2 = Síté n'ị́nátá ózí íméèlụ̀ (email), Ị́ nà-èkwétá kà Mọ̀zị́là jìkwáá ózí ńdị́ à dị́kà é sị̀ dépụ̀tá yá n'ọ́wá ńchékwá ózí Mọ̀zị́là <privacyLink> Ámụ̀mà ńchékwá</privacyLink>
+email-opt-in-privacy-v2 = Ọ bụrụ na i kweta ka e zitere gi ozi email, ọ putara na i kwetago kà Mọ̀zị́là jìkwáá ózí ńdị́ à dị́kà é sị̀ dépụ̀tá yá n'ọ́wá ńchékwá ózí Mọ̀zị́là <privacyLink> Ámụ̀mà ńchékwá</privacyLink
+indicates-required = Ákàrà kpákpáǹdò (*) nà-ègósí ébé á chọ̀rọ̀ ka e dee ihe.
 not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -105,6 +106,7 @@ mhr = Ásụ̀sụ́ Mị̀dò Márị̀
 mk = Ásụ̀sụ́ Màsèdónị́ànụ̀
 ml = Ásụ̀sụ́ Màlàyálàmụ̀
 mn = Ásụ̀sụ́ Mọ̀n̄gólị́ànụ̀
+mni = Meetei Lon
 mos = Ásụ̀sụ́ Mọ́ọ̀sị̀
 mr = Ásụ̀sụ́ Màrátị̀
 mrj = Ásụ̀sụ́ Márị̀ Úgwú
@@ -120,6 +122,12 @@ nl = Ásụ̀sụ́ Dọ́ọ̀chị̀
 nn-NO = Ásụ̀sụ́ Nị́nọ́ọ̀sụ̀kụ̀ Nọ̀wéjị́ànụ̀
 nyn = Ásụ̀sụ́ Nyàn̄kọ́lè
 oc = Ásụ̀sụ́ Ọ́kụ́sị́tànụ̀
+or = Ásụ̀sụ́ Ọ́dị̀yà
+pa-IN = Ásụ̀sụ́ Pụ̀ńjábì
+pap-AW = Ásụ̀sụ́ Pàpị̀yàméntò (Árụ́bà)
+pl = Ásụ̀sụ́ Pọ́líìshì
+ps = Ásụ̀sụ́ Pàshị̀ítò
+pt = Ásụ̀sụ́ Pọ́tùgị́ìsì
 quc = Ásụ̀sụ́ Kị́yéèchị̀
 rm-sursilv = Ásụ̀sụ́ RòmánshỊ́  Sọ̀sị́lị́váànụ̀
 rm-vallader = Ásụ̀sụ́ RòmánshỊ́ Vàváládà
@@ -145,6 +153,7 @@ te = Ásụ̀sụ́ Télúùgù
 tg = Ásụ̀sụ́ Tájíìkì
 th = Ásụ̀sụ́ Táàyị̀
 ti = Ásụ̀sụ́ Tìgíríníyà
+tig = Ásụ̀sụ́ Tigre
 tl = Ásụ̀sụ́ Tágálọ́ọ̀gụ̀
 tr = Ásụ̀sụ́ Tọ́kíìhì
 tt = Ásụ̀sụ́ Tàtáà
@@ -171,13 +180,20 @@ zh-TW = Ásụ̀sụ́ Chàị̀níìsì (Tàị̀wáànụ̀)
 
 ## Layout
 
+speak = Kwùó ókwú
+speak-now = Kwùó ókwú ugbu a.
 languages = Ásụ̀sụ́
 about = Màkà/gbàsárá
 profile = Íhé gbàsárá ḿmádụ̀
 help = Ènyèmáká
+contact = Ákàrà ḿkpọ́tụ́rụ́
+privacy = Nzuzo (Privacy)
+terms = Úsòrò iwu
 cookies = Kúkì (cookies)
 faq = Ájụ̀jụ́ ńdị́ á nà-àjụ́kárị́
+content-license-text = Ihe ndi dị́ n'ókpúrú <licenseLink>ákwụ́kwọ́ íkíkéré ńdị́ Creative Commons</licenseLink>
 share-title = Nyèré ányị́ áká chọ̀tá ńdị́ ọ́zọ́ gá-átụ́nyé ólú há!
+share-text = Nyé áká kụ̀zíéré ígwè-nwéré-àkọ́núchè ètù ńdị́ bụ́ ḿmádụ̀ n'ézíé sì èkwú ókwú síté n'ị́tụ́nyé òkè gị́ ná { $link }
 link-copied = Á pị́pụ̀tágó/é dépụ̀tágó ọ́wà ńjìkọ́
 logout = Pụ̀ọ́
 
