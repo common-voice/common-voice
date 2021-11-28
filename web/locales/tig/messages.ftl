@@ -610,6 +610,7 @@ speak-empty-state = ዲብ እላ ሉቀት ላልትሰጀላ ጁመል ይኣ�
 speak-empty-state-cta = እብ ጁመል ሳህም
 record-button-label = ሶትኩም ሰጀሎ
 share-title-new = <bold>ስደውና</bold>ብዕዳም ሙሳህሚን አግል ንርከብ
+keep-track-profile = ተቀዱምኩም ታብዖ እብ ናይ ኖስ ባያናት
 target-segment-add-voice = ሶትኩም ወሰኮ
 target-segment-learn-more = ዘያደት አምሮ
 
