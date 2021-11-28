@@ -182,6 +182,7 @@ zh-TW = Ásụ̀sụ́ Chàị̀níìsì (Tàị̀wáànụ̀)
 
 speak = Kwùó ókwú
 speak-now = Kwùó ókwú ugbu a.
+datasets = Ụ́yọ̀kọ̀ ńgwá-ńnyòchá (Datasets)
 languages = Ásụ̀sụ́
 about = Màkà/gbàsárá
 profile = Íhé gbàsárá ḿmádụ̀
@@ -206,8 +207,16 @@ home-cta = Kwùó ókwú, túnyé òkè gị́ ébé à.
 wall-of-text-start =
     Ókwú bụ̀ ọ̀nàtàràchí, ókwú bụ̀ ḿmádụ̀. Màkà nké à kà ó jì másị́ ányị́ ímépụ̀tà ǹkà-ólú à (Voice technology)
     íjí nyéré ígwé-nwéré-àkọ́núché ányị́ áká. Mànà íjí mépụ̀tà ákọ́rọ́ngwá ụ̀dà-ólú à (Voice systems), á gà-àchọ́ ọ̀tụ́tụ́
-    ńgwá- ńyọ́chá-ụ̀dà-ólú (Voice data).
+    ńgwá-ńnyòchá-ụ̀dà-ólú (Voice data).
 wall-of-text-more-mobile = Ìmèríìmè ńgwá nchọ́chá (data) ńdị́ ńnúkwú ụ́lọ̀ ḿmépụ̀tà ánághị̀ àdị́rị́ ọ̀tụ́tụ́ ńdị́ ḿmádụ̀ m̀fé ínwétá. Nké à mèrè ànyị́ jì wépụ́tá ámụ̀mà Common Voice à bụ́ nké gá-ényé áká kà ǹghọ́tá ólú dị́rị́ ḿmádụ̀ níílé m̀fé.
+wall-of-text-more-desktop =
+    Ùgbú à, Ị́ nwèrè ị́tụ́nyé ụ̀dà-ólú gị́ íjí nyéré ányị́ áká wúlíté ọ́wá ńgwá ńchọ́chá ụ̀dàólú mépéré èmépé nkè ónyé ọ̀bụ́là nwèrè íké
+    íjì mépụ̀tá ńgwá-ọ́rụ́ (apps and devices) màkà ị́rụ́ ọ́rụ́ nà wéèbụ̀. Gụ̀ọ́ ótú áhị́rị́ókwú íjí nyéré ígwé nwéré àkọ́núché áká ị́ghọtá ètù ńdị́ bụ́ mmádụ̀ n'ézíé sì èkwú ókwú. Lèléé ọ́rụ́ ndị́
+    ntụ́nyé òkè ńdị́ ọ̀zọ́ íjí mélíté ọdị́dị́. Ọ́ dị̀ m̀fé ètú à!
+wall-of-text-first =
+    Ókwú bụ̀ ọ̀nàtàràchí, ókwú bụ̀ ḿmádụ̀. Maka nke a ka o ji másị́ ànyị́ ímépụ̀tà ǹkà ólú à (Voice technology)
+    íjí nyéré ígwé-nwéré-àkọ́núché ányị́ áká. Mànà íjí mépụ̀tà ákọ́rọ́ngwá ụ̀dà-ólú à (Voice systems), ńdị́ńrụ́pụtá gà-àchọ́ ọ̀tụ́tụ́
+    ńgwá ńnyọ́chá ụ̀dà-ólú (Voice data).
 wall-of-text-second = Ìmèríìmè ńgwá nchọ́chá (data) ńdị́ ńnúkwú ụ́lọ̀ ḿmépụ̀tà ánághị̀ àdị́rị́ ọ̀tụ́tụ́ ńdị́ ḿmádụ̀ m̀fé ínwétá. Ǹké à bụ̀ íhé ńdọ́ghàchị́ ázụ́ nyéré ńchépụ̀tá ọ́bụ́là. Nké à mèrè ànyị́ jì wépụ́tá ámụ̀mà Common Voice à bụ́ nké gá-ényé áká kà ǹghọ́tá-ólú dị́rị́ ḿmádụ̀ níílé m̀fé ínwétá.
 show-wall-of-text = Gụ̀kwùó
 help-us-title = Nyèré ányị́ áká mèé kà ọ̀tụ́tụ́ áhị́rị́ókwú kwụ́dósíé íké.
