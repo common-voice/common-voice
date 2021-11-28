@@ -205,7 +205,7 @@ home-title = ሙባደረት Mozilla Common Voice ናይ ኣማን ኣዳም ከ
 default-tagline = Mozilla Common Voice ሙባደረት አግል ኣለት ናይ ኣማን ኣዳም አፎ ከምልትሃገው አገል ትትዓልም ላትሰድያ ታ
 home-cta = ሶትካ ኣስምዕ, አንዘ ሳህም
 show-wall-of-text = ዝያዳ ቅርኦ
-help-us-title = ጁመል አግል ንሓቅቅ ስደና!
+help-us-title = ጁመል አግል ንሓቅቅ ስደውና!
 no-clips-to-validate = ዲብ እላ ሉቀት ላልትሰማዓ ክሊፕ ይኣለቡ መስል ህላ. ስደውና ላጣቡር እግል ንምላእ ኣዘ ሽዋያ ሰጅሎ
 vote-yes = ኣይዋ
 vote-no = ኢፋል
@@ -218,14 +218,14 @@ hours-validated = ላትሓቀቀያ ሳዓት
 voices-online = ኣዘ ዲብ ኸጥ ላህሌት ኣስዋት
 todays-progress = ናይ ዮም ትቅዱም
 help-reach-goal = ሳኣደና ደብ { $goal } አገል ኔብጻሕ
-read-terms-q = ሹሩጥና ቃራአኩም?
+read-terms-q = ሹሩጥና ቃራአኩምማ?
 ready-to-record = አብ ሶትኩም ግል ትሳህሞ ዱሉያም ህሌኹም?
 all-locales = ኩሉ
-today = ይኦም
+today = ዮም
 x-weeks-short =
     { $count ->
         [one] ኣስቡዕ
-       *[other] አሳቢዕ
+       *[other] { $count } አሳቢዕ
     }
 x-months-short =
     { $count ->
@@ -759,6 +759,7 @@ profile-form-delete = መለፍ ኽሱሲ ወርክዮ
 download-q = በያናትኩም እግል ትክረው ታሓዙ ቱ?
 download-info = ሚ እግል ትክረው ታሓዙ ኻብሩና:
 download-profile-title = መለፍ ኽሱሲ
+download-profile-info = ኢሜል፣ ስም ሕሳብ፣ ው ማዕሉማት ዲሞግራፊኪየት (demographic) ላህላ ዲቡ, አዘ ጃህዝ ህላ
 download-profile-size = ሑዳት bytes
 download-recordings-title = ተስጂል
 download-recordings-info = mp3s ው ምስሉ ላትጻበጣ ጁመል ሃላ ዲቡ፣ ግል ትጀህዞ ሽውያ ውቀት ነሰእ
