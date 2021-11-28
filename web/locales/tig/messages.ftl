@@ -510,6 +510,7 @@ resource-coqui-info = <coquiLink>Coqui</coquiLink>ዲብ ተክኖሎጀየት �
 community-playbook = ናይ ማሕበር ሰብ ፕለይቡክ
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = ጅስም ( corpus ) TED-LIUM ምን ናይ ሶት ሂጋ ው ኣትከታትባሑ ዲብ ምውቂዕ ላምትዋፍር ምኑ ፋግር ቱ
+data-other-tatoeba-description = Tatoeba እግል ናይ ሉቀት ማዓለሚ ላገብኣት ቃዕደት በያናት ዓባይ ናይ ጁመል ው ተርጀመት ው ናይ ሂጋ ሶት ታ. እኢ ላልትከረ እብ ማሕበሮም ላትሰጀላ ናይ ሉቀት እንግሊዝ ሂጋ ብዲቡ
 your-feedback = አፍካር ብካ ግል መጅሙዓት በያናት Common Voice ላናኣገርምእባ?  እት ህድግ ኣትኣምረናታ
 go-discourse = ዲብ ህድግ ጊሶ
 missing-language = ሉቀትኩም ዲብላ ምጅሙዓት በያናት ትርአዋ የህሌኩምኒ? ሉቀት ግል ትጥለቦ ዲብ ናይ Languages ሰፍሓት ጊሶ
@@ -550,6 +551,7 @@ other-language = ብዕድ ሉቀት
 
 ## Languages Overview
 
+language-section-in-progress = ልትጃሃዝ ህላ
 language-section-in-progress-new-description = እለን ሉቃት እለን ላ ማሕበር ኣዘ ለጠውረን ሃላ ፣ ሸሪጥ ናይ ተቀዱም ኩላ ሉቀት አያ ባጽሓት ከም ህሌት ዲብ <localizationGlossaryLink>ላማውቅዕ ተርጃመት</localizationGlossaryLink> ው <sentenceCollectionGlossaryLink>ጁመል እካቦት</sentenceCollectionGlossaryLink>ላሓበር
 language-section-launched = ላትጃሃዘት
 language-section-launched-description = እግል እለን ላትጃሃዘያ ሎቃት ላመውቂዕ (website) ሰኒ <localizationGlossaryLink>ተርጀማ</localizationGlossaryLink>, ው ካፊ  <sentenceCollectionGlossaryLink>ላትጃምዓያ ጁመል</sentenceCollectionGlossaryLink>ሃላ እግሉ እግል<speakLink>ሂጋ</speakLink> ው <listenLink>ስምዓት</listenLink>ተበሩዓት ላገብእ
