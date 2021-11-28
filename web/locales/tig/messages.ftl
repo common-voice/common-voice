@@ -463,10 +463,12 @@ data-download-yes = ኣየዋ
 data-download-deny = ኢፋል
 data-download-license = ሩኽሰት: <licenseLink>CC-0</licenseLink>
 data-download-modal = ናይ <size>{ $size }GB</size> ኣውረዶት ታኣነብቱ ህሌኹም, ከምሎ?
+data-subtitle = ፍቱሕ ው ኩሉ ኣዳም ለስታዕምሎ ላቀድር ናይ ሶት መጅሙዓት በያናት ንብነ ህሌና ላሓዛ ላስታዕምላ እግል እብ ሶት ላሸቀ ተጥቢቃት (applications) እግል ልደርብ
 data-get-started = <speechBlogLink>ሂጋ ኣሌለዩት ኣንብቶ</speechBlogLink>
 data-other-title = ብዕድ ናይ ሶት መጅሙዓት ብያናት
 data-other-goto = { $name } ጊስ
 data-other-download = በያናት ክረ
+data-bundle-button = እክብት ምጅሙዓት ባያናት ካሩ
 data-bundle-description = በያናት ናይ Common Voice ው ምስሉ ላዓል ላሃላ ኩሉ ናይ ሶት በያናት
 dataset-date = ታሪኽ
 license = ሩኽሰት: <licenseLink>{ $license }</licenseLink>
@@ -485,6 +487,7 @@ review-delete-recordings = ትስጂልየ ዎርክዮ
 
 ## Datasets Page
 
+datasets-headline = ፍቱሕ እብ ላትፈናታ ሉቃት ው ኩሉ ኣዳም ለስታዕምሎ ላቀድር ናይ ሶት መጅሙዓት በያናት ንብነ ህሌና ላሓዛ ላስታዕምላ እግል እብ ሶት ላሸቀ ተጥቢቃት (applications) እግል ልደርብ
 language = ሉቀት
 # File size in gigabytes
 size = ሓጅም
@@ -765,6 +768,7 @@ download-profile-info = ኢሜል፣ ስም ሕሳብ፣ ው ማዕሉማት ዲ
 download-profile-size = ሑዳት bytes
 download-recordings-title = ተስጂል
 download-recordings-info = mp3s ው ምስሉ ላትጻበጣ ጁመል ሃላ ዲቡ፣ ግል ትጀህዞ ሽውያ ውቀት ነሰእ
+download-recordings-size = ምሳል ናይ ጊጋብይተ (Typically megabytes)
 download-recently-requested = ተስጂልኩም እግል ትንሶ ኩሉ { $days } ዮም ትጥለቦ ትቀድሮ
 download-size = ሓጅም
 download-selected = ሕሪት
