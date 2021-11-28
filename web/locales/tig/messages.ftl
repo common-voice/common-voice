@@ -622,6 +622,7 @@ report = ተቅሪር
 report-title = ታቅሪር ላኣኽ
 report-ask = ሚ መሻክል ልዋጅሃኩም ሃላ ምስል እላ ጁምለት
 report-offensive-language = እኩይ ሉቀት
+report-offensive-language-detail = ላ ጁምለት ላለትካፍእ ኣው ላለትናኢሽ ሃገጊት ብዲባ
 report-different-language = ብዕደት ሉቀት
 report-different-language-detail = አብ ሉቀት ብዕደት መን ላ ኣና አትሃገያ ለህሌኮ ከጥበት ታ
 report-difficult-pronounce = ግል ትንጠቃ ስዓበት ታ
@@ -820,15 +821,19 @@ contribution-misreadings-example-6-title = ቡን ግል ንስተ ፍግር ሀ
 contribution-misreadings-example-6-explanation = ['ንሕና' ትግብኣ ባ]
 contribution-misreadings-example-7-title = ቡን ግል ንስተ ፍግር ሀሌና
 contribution-misreadings-example-7-explanation = [ዲብላ ክታበት 'ኣ' ይኣለቡ]
+contribution-misreadings-example-8-title = ላንህብ ሓልፈት
 contribution-varying-pronunciations-title = ላልትቀያየር ኑጡቅ
 contribution-varying-pronunciations-example-1-title = On his head he wore a beret.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]
 contribution-varying-pronunciations-example-2-title = His hand was rais-ed.
 contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in English is always pronounced as one syllable, not two]
+contribution-background-noise-title = ናይ ጉራ ረብሸት
+contribution-background-noise-description-extended = ላ ተስጂል ሓቆ ኸርባ ኣው በላሻ ርፈድዎ እላ ላከትበት ኩላ ምን ኢትሰምዕ
 contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong>ላ ዳይናሱር ዓቢ ምን ናይ ዘመን<strong>[cough]</strong> ትርያሲክ.
 contribution-background-noise-example-2-fixed-title = ላ ዳይናሱር ዓቢ ምን ናይ ዘመን<strong>[cough]</strong> ትርያሲክ.
 contribution-background-noise-example-2-explanation = [ሰሩ ላክታበት ኢልሰማዕኒ]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> ላ ዳይናሱር ዓቢ ምን ናይ ዘመን<strong>[crackle]</strong> -ርያሲክ.
+contribution-background-voices-title = ናይ ጉራ ሶት
 contribution-background-voices-description-extended = ሓቆ ተስጂል ግሩም የገብኣ፣ ርፎዱ እላ ላካምለት ከታበት ትሳማዕ ምን ኢትገብእ
 contribution-background-voices-example-1-title = ላ ዳይናሱር ዓቢ ምን ናይ ዘመን <strong>ትርያሲክ. <strong>[read by one voice]</strong>
 contribution-background-voices-example-1-explanation = ትምጾቱ?<strong>[ኣብ ብዕድ እትላካ]</strong>
@@ -845,6 +850,7 @@ see-less = <chevron></chevron>ሑድ ረአ
 
 ## HEADER/FOOTER
 
+sc-header-home = ቤት
 sc-header-how-to = ከፎ
 sc-header-add = ወስኽ
 sc-header-review = ራጀዕ
