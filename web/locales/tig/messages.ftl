@@ -636,6 +636,7 @@ report-different-language-detail = አብ ሉቀት ብዕደት መን ላ ኣ�
 report-difficult-pronounce = ግል ትንጠቃ ስዓበት ታ
 report-difficult-pronounce-detail = ከሊማት ኣው ዕባራት ሳዕበት ግል ትቅራአ ኣው ትንጠቃ ሃላ ዲባ
 report-offensive-speech = እኩይ ሀጋ
+report-offensive-speech-detail = ላ ክልፕ ላለትካፍእ ኣው ላለትናኢሽ ሃገጊት ብዲባ
 report-other-comment =
     .placeholder = ታዕሊቅ
 success = ነጃሕ
