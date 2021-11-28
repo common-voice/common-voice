@@ -377,6 +377,7 @@ login-signup = Bànyé / Débànyé áhá
 edit = Dèzíghárị́á
 email-subscriptions = Ńdébànyé áhà màkà ózí íméèlụ̀ (email)
 download-profile = Búdátá ńgwá ńnyọ́chá èjììmárá m
+contribution-experience = Mata ihe ndi ị meputara na Common Voice
 
 ## Profile - Email
 
