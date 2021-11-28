@@ -593,6 +593,7 @@ record-no-mic-found = መክረፎን ኢትረከባኒ
 record-error-too-short = ላተስጂል ብዙሕ ሓጭራ
 record-error-too-long = ላተስጂል ብዙሕ ረይማ
 record-error-too-quiet = ሶትላ ተስጂል ብዙሕ ዳሃራ
+record-cancel = ናይ ካልእ መረት ትስጂል ወርክዩ
 record-instruction = { $actionType }<recordIcon></recordIcon>ዋሓር ላጅምለት እብ ዉቁል ሶት ቅሮኣ
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>ክም ኣኽለስኹም
 record-three-more-instruction = ሰለስ ተርፈያ!
