@@ -502,6 +502,7 @@ subscribe = ኣሽተርክ
 get-started-speech = ሂጋ ኣሌለዩት ኣንብቶ
 other-datasets = ብዕድ ናይ ሶት መጅሙዓት ብያናት
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ መስደሩ ፈቱሕ ላገባኣ ኣዳዋት እግል ላሓደሳ ናይ ሃገጊ AI ሞደል በኑ ላህለው ባሕሲን ቱ
+resource-coqui-info = <coquiLink>Coqui</coquiLink>ዲብ ተክኖሎጀየት ናይ ፍቱሕ ሂጋ ልትኸሰስ ። መሽሩዖም ዲብ አላት ናይ STT ው TTS ላላዕተመድ ዓሚቅ ታዕሊም ሸምል
 community-playbook = ናይ ማሕበር ሰብ ፕለይቡክ
 data-other-ted-name = TED-LIUM Corpus
 your-feedback = አፍካር ብካ ግል መጅሙዓት በያናት Common Voice ላናኣገርምእባ?  እት ህድግ ኣትኣምረናታ
