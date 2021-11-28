@@ -203,6 +203,10 @@ logout = Pụ̀ọ́
 home-title = Common Voice bụ̀ ńchépụ̀tá Mọ̀zị́là íjí nyé áká kụ́zííéré ígwé nwere uche ètù ńdị́ bụ́ ḿmádụ̀ n'ézíé sì èkwú ókwú.
 default-tagline = Common Voice nke Mọ̀zị́là bụ̀ ńchépụ̀tá íjí nyé áká kúzíéré ígwé-nwéré-àkọ́núchè ètù ńdị́ bụ́ ḿmádụ̀ n'ézíé sì èkwú ókwú.
 home-cta = Kwùó ókwú, túnyé òkè gị́ ébé à.
+wall-of-text-start =
+    Ókwú bụ̀ ọ̀nàtàràchí, ókwú bụ̀ ḿmádụ̀. Màkà nké à kà ó jì másị́ ányị́ ímépụ̀tà ǹkà-ólú à (Voice technology)
+    íjí nyéré ígwé-nwéré-àkọ́núché ányị́ áká. Mànà íjí mépụ̀tà ákọ́rọ́ngwá ụ̀dà-ólú à (Voice systems), á gà-àchọ́ ọ̀tụ́tụ́
+    ńgwá- ńyọ́chá-ụ̀dà-ólú (Voice data).
 wall-of-text-more-mobile = Ìmèríìmè ńgwá nchọ́chá (data) ńdị́ ńnúkwú ụ́lọ̀ ḿmépụ̀tà ánághị̀ àdị́rị́ ọ̀tụ́tụ́ ńdị́ ḿmádụ̀ m̀fé ínwétá. Nké à mèrè ànyị́ jì wépụ́tá ámụ̀mà Common Voice à bụ́ nké gá-ényé áká kà ǹghọ́tá ólú dị́rị́ ḿmádụ̀ níílé m̀fé.
 wall-of-text-second = Ìmèríìmè ńgwá nchọ́chá (data) ńdị́ ńnúkwú ụ́lọ̀ ḿmépụ̀tà ánághị̀ àdị́rị́ ọ̀tụ́tụ́ ńdị́ ḿmádụ̀ m̀fé ínwétá. Ǹké à bụ̀ íhé ńdọ́ghàchị́ ázụ́ nyéré ńchépụ̀tá ọ́bụ́là. Nké à mèrè ànyị́ jì wépụ́tá ámụ̀mà Common Voice à bụ́ nké gá-ényé áká kà ǹghọ́tá-ólú dị́rị́ ḿmádụ̀ níílé m̀fé ínwétá.
 show-wall-of-text = Gụ̀kwùó
