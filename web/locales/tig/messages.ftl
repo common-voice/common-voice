@@ -872,6 +872,7 @@ sc-footer-translate = እላ ሰፍሓት ተርጅም
 sc-footer-privacy = ኽሱስያት
 sc-footer-terms = ሸሩጥ
 sc-footer-cookies = ክዓክ
+sc-login-signup-button = እተ/ሕሳብ ፍታሕ
 sc-logout-button = ፍግረት
 
 ## HOME
@@ -906,6 +907,9 @@ sc-my-title = ጁመልየ
 sc-my-loading = ጁመልካ ትጽዕን ህሌት ...
 sc-my-err-fetching = ጁመልካ እግል ናምፃኣ ኢቀደርና። እስከ ካልእ መረት ጀረብ
 sc-my-no-sentences = ጁመል ይእትረከባኒ!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = ተስሊም: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = መስደር: { $source }
