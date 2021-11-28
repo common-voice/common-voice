@@ -339,6 +339,7 @@ female = ኣንሰት
 # Gender
 other = ብዕድ
 why-profile-title = መለፍ ናይ ኖስ ገልሚ ኣትሓዛ
+dashboard = ሰሌደት (Dashboard)
 build-profile = መለፍ ናይ ኖስ ውድው
 avatar = ሱረት
 goals = ኣህዳፍ
@@ -490,6 +491,7 @@ size = ሓጅም
 validated-hr-total = ጅምዕ ላትሓቀቀያ ሳዓት
 overall-hr-total = ጅምዕ ናይ ኩለን ሳዓት
 cv-license = ሩኽሰት
+audio-format = ዓይነትላ ላልሰምዐ ሶት
 number-of-voices = ናይ ሶት ክሊፕ ዓደድ
 splits = ፈንተ
 email-to-download = ኢሜል ኣእተ እግል ተውርድ
