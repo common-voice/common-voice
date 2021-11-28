@@ -1077,8 +1077,11 @@ sc-howto-findpd-title = Mevcut kamu malı cümleleri bulma
 sc-howto-findpd-subtitle = İnternette arayın
 sc-howto-findpd-text-2 = Bu cümleleri yayımlamak için izne ihtiyacımız olduğunu unutmayın. Bu nedenle metinlerin her zaman <wikipediaLink>kamu malı</wikipediaLink> olduğundan emin olun. Metnin kamu malu olduğu açıkça belirtilmemişse metnin sahibine ulaşarak metni kamu malı yapmak isteyip istemediğini sorabilirsiniz. İsterse <cc0WaiverLink>Katkı Sözleşmesi</cc0WaiverLink> sürecini tamamlamalarına yardımcı olabilirsiniz. Sahibi katkıda bulunmak istemezse o metni kullanamazsınız.
 sc-howto-findpd-tips = Cümleleri bulmak için bazı ipuçları:
+sc-howto-findpd-tips-1 = Tarayabileceğiniz en iyi kaynaklar podcast'ler, konuşma dökümleri, film senaryoları ve günlük konuşmaları içerebilecek diğer potansiyel kaynaklardır.
+sc-howto-findpd-tips-2 = Mevzuatlar, kitaplar ve makaleler de işe yarayabilir ama bu metinler biraz daha resmi olma eğiliminde olduğundan öncelikleri daha düşüktür.
 sc-howto-findpd-tips-3 = Maalesef henüz Wikimedia makalelerini kullanamıyoruz. Bu nedenle oradan kopyala yapıştır yapmayın.
 sc-howto-findpd-subtitle-2 = Yerel kuruluşlar ya da kişilerle ortaklık yapın
+sc-howto-findpd-partner-1 = İşbirliği yapmak isteyebilecek ve zaten kamu malı olarak bağışlayabilecekleri çok sayıda metne sahip birçok kamu kuruluşu var. Proje hakkında konuşmak ve yardım istemek için yerel üniversitelere, hükümete ve açık kaynak kuruluşlarına ulaşabilirsiniz.
 
 ## MY SENTENCES
 
