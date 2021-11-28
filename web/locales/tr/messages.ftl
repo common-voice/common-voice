@@ -1139,6 +1139,7 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm = Bu cümlelerin <wikipediaLink>kamu malı</wikipediaLink> olduğunu ve bunları yükleme iznim olduğunu onaylıyorum.
 sc-submit-button =
     .submitText = Gönder
+sc-submit-filtered = Kriterlere uymaması nedeniyle filtrelenmiş cümleler (Lütfen düzelttikten sonra yeni cümle olarak gönderin):
 sc-submit-guidelines = Lütfen <howToLink>yönergeleri</howToLink> kontrol edin.
 
 ## ADD LANGUAGE
@@ -1182,6 +1183,12 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } cümleyi reddettiniz
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Hiç cümle incelenmedi.
+        [one] 1 cümle incelendi. Elinize sağlık!
+       *[other] { $countOfReviewed } cümle incelendi. Elinize sağlık!
+    }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
