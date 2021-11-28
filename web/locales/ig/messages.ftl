@@ -229,7 +229,8 @@ speak-subtitle = Tùnyé òkè ólú gị́
 speak-paragraph = Ḿkpákọ́ nà ńdékọ́ ụ̀dà ólú bụ̀ ákụ̀kụ́ káchásị́ ḿkpà nà ḿwúlíté ọ́wà nchékwá ụ́yọ̀kọ̀-ńgwá-ńnyọ́chá (dataset) dóró ányá. Ụ̀fọ́dụ́ nà-éwèkwá yá dị́ká ǹké káchásị́ ụ̀tọ́.
 speak-goal-text = Ihé ígèńtì nke e nwetagọrọ
 listen-subtitle = Nyèré ányị́ áká lèléé mà ụ̀dà-ólú ńdị́à hà dị̀ kà há kwèsị̀rị̀
-listen-goal-text = Á kwàdógó ńdékọ́ ńdị́ à
+listen-paragraph = Ilèléé mà ụ̀dà-ólú ńdị́à hà dị̀ kà há kwèsị̀rị̀ gà-ényéré òtù Common Voice áká n'íhé há nà-èmé. Gee ntị mà nyèré ányị́ áká képụ̀tá ọ́wá ńchékwá ụ́yọ̀kọ̀ ụ̀dà-ólú kwụ́ chị̀m.
+listen-goal-text = Ihé ígèńtì nke a kwadogoro
 hours-recorded = Élékéré é dékọ̀rọ̀
 hours-validated = Élékéré ólé á kwàdòrò
 voices-online = Ólú ókwú ńdị́ nọ́ n'ìkùkù úgbú à
@@ -254,6 +255,7 @@ x-years-short =
         [one] Áfọ̀
        *[other] { $count } N'áfọ̀
     }
+help-make-dataset = Nyèrè ányị́ áká íwúlíté ụ́yọ̀kọ̀ ńgwá ńnyọ́chá (dataset) bụ́ ị́gbà ǹké gá-éghé óghé màkà ḿmádụ̀ níílé ógé níílé.
 sign-up-account = Débànyé áhá gị́ kà Í wèé nwétá ọ́wà ǹkè áká gị́
 email-subscription-title = Débànyé áhà gị́ kà Ị́ wèé ná-ènwétá ózí íméèlụ̀ (email) gbàsárá kà íhé sì àgá
 email-subscription-title-new = Débànyé áhà gị́ kà Ị́ wèé ná-ènwétá ákwụ́kwọ́ ózí ńdị́ Common Voice, nàkwàzị̀ ózí ńchétárá m̀bùmnúchè nà kà íhé sì àgá
