@@ -765,6 +765,8 @@ download-requests = ናይ ቀደም ኣዘ ተስጂል አውረዶት ጠለ�
 download-requests-info = ተስጂልኩም ውክት ጠልቦ፣ ዲብ ዎሮት ኣው ብዝሕ መለፍ ናይ ZIP ንወድዮ እግልኩም፣ ናይ ላሓልፋ ጠለብኩም እሊ ቱ:
 download-request-button = ክረው
 download-request-title = { $created }
+download-request-archive-single = ዎሮት ZIP ፋይል ላብዲቡ
+download-request-archive-multiple = ዲብ { $archiveCount } ZIP ፋይል ላብዲቡ ኩፉል
 download-request-assembling-description = መለፋትኩም ትትኣክብ ህሌት ሓቆ ሽወያ ድለው
 download-request-refresh-button = ኣሓድስ
 download-request-link-text = Zip #{ $offset } of { $total }
@@ -773,6 +775,7 @@ download-request-metadata-link = ናይ ጁምለት ክታበት
 ## Landing
 
 welcome-staff = መርሓባ ሙወዘፊን { $company }!
+login-company = እተ / ኣብ ናይ { $company } ኢሜል ሕሳብ ፍታሕ
 profile-not-required = አግል ትሳህሞ ናይ ኖስ መለፍ ላሀሌኩም ኢለትሓዘኒ ብስ ነፍዓኩም, ገልሚቱ ግል ታኣምሮ ታሓት ራኣው
 read-more-about = ዲብላ ናይና ሰፍሓት About አንደ ግስኹም ዘያደት ቀርኦ
 
@@ -787,6 +790,7 @@ demo-welcome-subheader = ዓን ኢሊ መሽሩዕ አግል ታአምሮ ው �
 card-button-next = ላለታለ
 card-button-back = ጉራ
 demo-language-select-label = ሉቃት ዳህሰሶ
+demo-eofy-sub_header = ናይ ሶት መጅሙዓት ባያናት፣ ገል ካረዮት ጃህዘት
 demo-account = ሕሳብ
 
 ## Demo Account
