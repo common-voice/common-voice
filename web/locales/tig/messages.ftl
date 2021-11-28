@@ -343,6 +343,7 @@ build-profile = መለፍ ናይ ኖስ ውድው
 avatar = ሱረት
 goals = ኣህዳፍ
 edit-profile = ናይ ኖስ መለፍ ቀይር
+profile-create-success = ነጃሕ፣ ናይ ኖስ መልፍ ከለቃ
 profile-close = ደብአ
 thanks-for-account = ሕሳብኩም ናይ ላኣከድኩም ንሓምደኩም ፣ ኣዝ የላ መለፍ ናይ ኖስ ንብነ
 why-demographic = አግል ሚቱ አሊ ሙህም?
@@ -880,6 +881,7 @@ sc-home-review-title = ጁመል ራጂዕ
 
 sc-howto-title = ከፎ
 sc-howto-addlang-title = ላትሸቀ እባ ሉቀት ወስኽ
+sc-howto-addlang-text = ከም ኣቴኹም ሉቀትኩም ዲብ ናይ ኖስ ክስም አንደ ግስኹም ትሕረዋ ቃድሮ
 sc-howto-addsen-title = ሓዲስ ጁመል ወስኽ
 sc-howto-cite-item-1 = መውቅዕ ኢንተርነት ትውስኮ ትቃድሮ፣ ከምሰል "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = ጁመል ራጂዕ
