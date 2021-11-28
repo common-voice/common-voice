@@ -106,6 +106,7 @@ mhr = maryjski łąkowy
 mk = macedoński
 ml = malajalam
 mn = mongolski
+mni = meetei lon
 mos = mossi
 mr = marathi
 mrj = maryjski górski
@@ -152,7 +153,7 @@ te = telugu
 tg = tadżycki
 th = tajski
 ti = tigrinia
-Tig = tigre
+tig = tigre
 tl = tagalski
 tr = turecki
 tt = tatarski
@@ -329,6 +330,8 @@ profile-form-native-language =
     .label = Język ojczysty
 profile-form-additional-language =
     .label = Dodatkowy język
+profile-form-language =
+    .label = Język
 profile-form-accent =
     .label = Akcent
 profile-form-age =
@@ -983,3 +986,73 @@ demo-dashboard-card-body = Twój panel konta jest aktualizowany po każdym nagra
 
 see-more = <chevron></chevron>Więcej
 see-less = <chevron></chevron>Mniej
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Strona główna
+sc-header-how-to = Jak to zrobić
+sc-header-add = Dodaj
+sc-header-rejected = Odrzucone zdania
+sc-header-my = Moje zdania
+sc-header-statistics = Statystyki
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Zgłoś błędy
+sc-footer-translate = Przetłumacz tę stronę
+sc-footer-report-copyright = Zgłoś problemy z prawami autorskimi
+sc-footer-privacy = Prywatność
+sc-footer-terms = Warunki korzystania
+sc-footer-cookies = Ciasteczka
+sc-login-signup-button = Zaloguj się/zarejestruj
+sc-logout-button = Wyloguj się
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+sc-settings-title = Ustawienia
+
+# [/SentenceCollector]
+
