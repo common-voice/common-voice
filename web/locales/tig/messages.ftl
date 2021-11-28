@@ -731,6 +731,7 @@ share-goal-type-listen = ስምዓት
 share-goal-type-both = ሃገዮት ዉ ስምዓት
 weekly-goal-created = ናይ ሳምንካ ሃድፍ ስጅላ
 daily-goal-created = ናይ ኣምዕልካ ሃድፍ ስጅላ
+track-progress = ተቀዱም ታብዖ እንሰር ኣው ዲብ ሳፍሓት ናይ እሕሳእየትኩም
 return-to-edit-goal = ዲብ ኣይ ውቀት ሓደፍኩም ትቀይሩ መንታሓዙ ኣንሰር ምጹ
 share-goal = ሓደፍየ አሻርክ
 
