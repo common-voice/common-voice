@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Éé, zìtéré m ózí n'ímèèlụ̀ (email). Ọ́ gà-àmàsị̀ m kà m nà-ènwétá ōzī gbàsárá àgàníhú ásụ̀sụ̀ à na òtù Common Voice.
+yes-receive-emails = Éé, zìtéré m ózí n'ímèèlụ̀ (email). Ọ́ gà-àmàsị̀ m kà m nà-ènwétá ōzī gbàsárá àgàmníhú ásụ̀sụ̀ à na òtù Common Voice.
 stayintouch = Ànyị́ níílé nà Mozilla nà-èwú òbòdò màkà ńkwàlíté ǹkà n'ụ́zụ́ ǹkè . Ànyị́ chọ̀rọ̀ kà ànyị́ ná-àkpárị́tá kwà m̀gbè íjí ná-ènwétá ózí kà íhé sì àgà, ụ́zọ̀ ọ́hụ́rụ́ níílé ńgwá ńchọ́chá sì ápụ̀tà nàkwàzị̀ ètù Í sì jìrí ńgwá  ńchọ́chá ńdí à àrụ́ ọ́rụ́.
 privacy-info = Ànyị́ nà-èkwé gị́ ńkwà íjí ányá írú àlà jìkwáá ózí gị́. Gụ̀kwúó gbàsárá ǹké à n'ébé ányị́ dèrè yá <privacyLink> </privacyLink>
 return-to-cv = Lághàchí ázụ́ n'òtù Common Voice
@@ -352,6 +352,8 @@ profile-close = Mèchíé
 
 ## FAQ
 
+faq-what-cv-a = Ǹkà-nà-ụ́zụ́-ǹghọ́tá-ụ̀dà-ólú nà-àgbánwé ètù ànyị́ nà ígwè-nwéré-àkọ́núchè sì àrụ́kọ́. Mà kà ó sílà dị́, ígwè ńdị́ dị́ àdị́ nà-ádà óké ọ́nụ́ nwékwáá ńdị́ nwéhá. Common Voice bụ̀ n'ímé átụ̀màtụ́ Mọ̀zílà ímé kà ǹká ǹghọ́tá ụ̀dà-ólú ká ḿmá mà rútékwá ónyé ọ́bụ́là. Common Voice bụ̀ ńnúkwú ọ́wà ḿbá ụ̀wà màà ńchékwá ólú á tùnyèrè n'òkè ǹké ná-émé kà ọ́ dị́rị́ ónyé ọ́bụ̀là m̀fé íwúlíté ńgwá-ólú ókwú n'ásụ̀sụ́ níílé.
+faq-what-cv-a-2 = Ǹkà-nà-ụ́zụ́-ǹghọ́tá-ụ̀dà-ólú nà-àgbánwé ètù ànyị́ nà ígwè-nwéré-àkọ́núchè sì àrụ́kọ́. Mà kà ó sílà dị́, ígwè ńdị́ dị́ àdị́ nà-ádà óké ọ́nụ́ nwékwáá ńdị́ nwéhá. Common Voice bụ̀ n'ímé átụ̀màtụ́ Mọ̀zílà ímé kà ǹká ǹghọ́tá ụ̀dà-ólú ká ḿmá mà rútékwá ónyé ọ́bụ́là. Common Voice bụ̀ ńnúkwú ọ́wà ḿbá ụ̀wà màà ńchékwá ólú á tùnyèrè n'òkè ǹké ná-émé kà ọ́ dị́rị́ ónyé ọ́bụ̀là m̀fé íwúlíté ńgwá ólú ókwú n'ásụ̀sụ́ níílé. Ólú ányị́ nà-èkpókọ́tá ábụ́ghị́ náánị́ síté n'ásụ̀sụ́ á kàchà àsụ́, kámà, ányị́ nà-èkpókọ̀bákwá ǹkè àsụ̀sụ́ ná-énwéghị́ ọ̀tụ́tụ́ ńdị́ ná-ásụ́ há. Íbípụ̀tà ọ́wà ńchékwá ólú n'ásụ̀sụ́ dị́ íchè íchè gà-ènyéré ńdị́ ḿwúlíté nà ńdị́ jí égó àchụ́ égó nàkwà óbódó dị́ íché íché áká ídózī óghéré dị́ àdị́ n'ónwé há.
 
 ## ABOUT US
 
