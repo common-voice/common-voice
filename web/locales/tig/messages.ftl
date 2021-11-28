@@ -340,6 +340,7 @@ why-profile-title = መለፍ ናይ ኖስ ገልሚ ኣትሓዛ
 build-profile = መለፍ ናይ ኖስ ውድው
 avatar = ሱረት
 goals = ኣህዳፍ
+edit-profile = ናይ ኖስ በያናት ቀይር
 profile-close = ደብአ
 thanks-for-account = ሕሳብኩም ናይ ላኣከድኩም ንሓምደኩም ፣ ኣዝ የላ መለፍ ናይ ኖስ ንብነ
 why-demographic = አግል ሚቱ አሊ ሙህም?
@@ -577,6 +578,7 @@ contribute-more =
        *[other] { $count } ዝያደት እግል ቲደው ጃህዛም ህሌኩም?
     }
 record-cta = ተስጂል ኣንብቶ
+record-platform-not-supported-ios-non-safari = ዲብ ንዛም iOS , Safari ኣስታዕምሎ እግል ተስጂል ...
 record-must-allow-microphone = መክረፎን ገል ልሽቀ ስምሖ
 record-no-mic-found = መክረፎን ኢትረከባኒ
 record-error-too-short = ላተስጂል ብዙሕ ሓጭራ
@@ -748,6 +750,7 @@ download-recordings-title = ተስጂል
 download-recently-requested = ተስጂልኩም እግል ትንሶ ኩሉ { $days } ዮም ትጥለቦ ትቀድሮ
 download-size = ሓጅም
 download-selected = ሕሪት
+download-start = ናይ ኖስ በያናት ካሩ
 download-request = ትስጂል ጥለቡ
 download-requests = ናይ ቀደም ኣዘ ተስጂል አውረዶት ጠለብ
 download-requests-info = ተስጂልኩም ውክት ጠልቦ፣ ዲብ ዎሮት ኣው ብዝሕ መለፍ ናይ ZIP ንወድዮ እግልኩም፣ ናይ ላሓልፋ ጠለብኩም እሊ ቱ:
