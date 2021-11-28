@@ -263,6 +263,7 @@ email-subscription-title-new = Débànyé áhà gị́ kà Ị́ wèé ná-ènwét
 ## Account Benefits
 
 benefits = Úrù
+improve-audio = Ózí gbàsárá íhé ǹjììmárá-ónyé nà-ènyé áká ị́kwàlìtè ọ́nọ̀dụ̀ ńgwá-ńchọ́chá-ụ̀dà-ólú ǹkè é jì ènyé ọ̀zụ̀zụ̀ màkà ǹghọ̀tá ókwú.
 keep-track = Détùó mà dèbékwá kà Í sì àgá n'íhú nàkwà ńtụ́rụ́ùgò gị́ n'ásụ̀sụ́ dị́ íchèíchè.
 compare-progress = Hụ́ kà àgàmníhú gị́ sì átụ̀nyéré ńkè ńdị́ ọ́zọ́ n'ụ̀wà niile.
 view-goals = Lèléé àgàmníhú gị́ dị́kà ó sì métútá èbùmnúché ǹké ónwé nà ǹkè ọ́rụ́ é jì n'áká.
@@ -270,8 +271,11 @@ join-newsletter = Ọ́ másị́ gị́, Ì débànyé áhà gị̀ ná-ákwụ́
 
 ## What's public
 
+whats-public = Gínī kà ọ̀hà nwèrè íké íhū
 email-not-public = Ànyị́ ágághị̀ èmé kà ọ̀hànézè hụ̀ ózí ímèélụ̀ (email) gị̀.
+recordings-and-locale-public = Ọ́nụ́ọ́gụ́gụ́ íhé ńdékọ́ nà ásụ̀sụ́ Í nyèrè áká wètá kà á gà-èmé kà ọ̀hànézè hụ́.
 username-optin-public = Í nwèrè íké ímé kà á hụ́ áhá ǹjìrìmárá gị́ mà ọ̀bụ̀kwànụ̀ Ì zóchíé yá.
+demographic-deidentified-clarity-2 = À gághị̀ èmé kà ọ̀hànézè hụ́ ákàrà ńdị́ Í nyèrè bụ́ ǹjìrìmárá gị́ (dị́kà áfọ̀, òkìkè, ásụ̀sụ́ nà ụ̀dàólú), à gághị̀kwà éjìkọ́tá yá nà ọ́wà ńnyọ́chá áká gị́ . A ga-ejikọta ńdékọ́ íhé ígè ńtị̀ (audio clips) nke onye ọ bụla na data ìgwè mmadụ maka ebumnuche nke nnyocha ziri ezi karịa - dịka ọmụmaatụ, onye nyocha nwere ike chọọ ịchụso usoro ọzụzụ n'otu akụkụ igwe mmadụ. Á gà-èjìkọ́ ụ̀dà-ólú ọ bụla n'ákàrá ńjírí márá kà ńkọ́wá yá dòó ányá. Íjí máá àtụ̀, ónyé ńchọ́chá nwèrè íké chọ́ọ́ kà Ó nyé ótú ụ̀dị́ ńdị́ ọ̀zụ̀zụ̀ pụ́rụ́ íchè.
 username-email-not-demographic = À gághị́ étínyékọ́ áhá ǹjìrìmárá gị́ mà ọ̀ bụ̀ íméèlụ̀  (email) gị́ n'íhé á gà-ébípụ̀tá.
 
 ## Speak & Listen Shortcuts
@@ -301,6 +305,7 @@ shortcut-record-toggle-label = Dèkọ́ọ́/Kwụ̀sị́
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Kwùnyéghárị́á
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Hìcháá ńdékọ́ i na-eme ugbu a
 shortcut-submit = Lághàchí
 request-language-text = Ị̀ ká hụ́bèghị̀ ásụ̀sụ́ gị́ nà Common Voice?
 request-language-text-learn = Mụ̀tá étú é sì àrị̀ọ́tá íhé ébé à
