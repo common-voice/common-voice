@@ -509,6 +509,7 @@ resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ መስደሩ ፈቱ
 resource-coqui-info = <coquiLink>Coqui</coquiLink>ዲብ ተክኖሎጀየት ናይ ፍቱሕ ሂጋ ልትኸሰስ ። መሽሩዖም ዲብ አላት ናይ STT ው TTS ላላዕተመድ ዓሚቅ ታዕሊም ሸምል
 community-playbook = ናይ ማሕበር ሰብ ፕለይቡክ
 data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = ጅስም ( corpus ) TED-LIUM ምን ናይ ሶት ሂጋ ው ኣትከታትባሑ ዲብ ምውቂዕ ላምትዋፍር ምኑ ፋግር ቱ
 your-feedback = አፍካር ብካ ግል መጅሙዓት በያናት Common Voice ላናኣገርምእባ?  እት ህድግ ኣትኣምረናታ
 go-discourse = ዲብ ህድግ ጊሶ
 missing-language = ሉቀትኩም ዲብላ ምጅሙዓት በያናት ትርአዋ የህሌኩምኒ? ሉቀት ግል ትጥለቦ ዲብ ናይ Languages ሰፍሓት ጊሶ
