@@ -1033,6 +1033,9 @@ sc-login-err-try-again = ሓስብኩም ካለእ መረት ጀርቦ
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = ናይ ኖስ በያናት: { $username }
 sc-personal-err-lang-not-found = ሉቀት ትትወርከ ኢቀድርትኒ: ሉቀት ኢትረከበትኒ
 sc-personal-err-remove = ሉቀት ትትወርከ ኢቀድርትኒ
 sc-personal-your-languages = ሉቀትኩም
@@ -1055,6 +1058,7 @@ sc-criteria-item-6 = ላትራጅዖ ጁመል ምን ታሓግል, ሓስብኩ
 
 ## REVIEW
 
+sc-review-lang-not-selected = ሉቀት ሓርያም ይህሌኹምኒ ። ዲብ<profileLink>ናይ ኖስ በያናት</profileLink>እንደ ግስኹም ሉቀት ሕረው
 sc-review-title = ጁመል ራጂዕ
 sc-review-loading = ጁመልካ ትጽዕን ህሌት ...
 sc-review-select-language = ጁመለን ላትራጅዖ ሉቀት ሐረው
