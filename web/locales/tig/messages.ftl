@@ -892,6 +892,7 @@ sc-howto-title = ከፎ
 sc-howto-addlang-title = ላትሸቀ እባ ሉቀት ወስኽ
 sc-howto-addlang-text = ከም ኣቴኹም ሉቀትኩም ዲብ ናይ ኖስ ክስም አንደ ግስኹም ትሕረዋ ቃድሮ
 sc-howto-addsen-title = ሓዲስ ጁመል ወስኽ
+sc-howto-addsen-item-5 = ሐሩፍ ኣጅነብየት ። ሐሩፍ ዲብላ ሉቀት ላትትሃገዋ እግል ታሃለ ባ፣ ከም ምሳል, “ж” ናይ ሉቀት ሩስያ ሓርፍ ቱ ዲብ ሉቀት እንግሊዝ ያሃላን ው ኣቡ ዲብ ናይ እንግሊዝ መስደር ክታበት ገል ልዝሃር ይኣለቡ
 sc-howto-cite-item-1 = መውቅዕ ኢንተርነት ትውስኮ ትቃድሮ፣ ከምሰል "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = ጁመል ራጂዕ
 sc-howto-review-subtitle = ላጅመል እገል እሊ ላተለ መቃየስ ከም ለትማሊእ እትኣከድ:
