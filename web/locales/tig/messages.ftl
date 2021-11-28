@@ -761,6 +761,7 @@ download-info = ሚ እግል ትክረው ታሓዙ ኻብሩና:
 download-profile-title = መለፍ ኽሱሲ
 download-profile-size = ሑዳት bytes
 download-recordings-title = ተስጂል
+download-recordings-info = mp3s ው ምስሉ ላትጻበጣ ጁመል ሃላ ዲቡ፣ ግል ትጀህዞ ሽውያ ውቀት ነሰእ
 download-recently-requested = ተስጂልኩም እግል ትንሶ ኩሉ { $days } ዮም ትጥለቦ ትቀድሮ
 download-size = ሓጅም
 download-selected = ሕሪት
