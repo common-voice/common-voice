@@ -372,6 +372,7 @@ skip-submission-description = 贡献期间，点击“提交”将跳过反馈�
 skip-submission-note = 注：您仍需选择“听”或“说”来切换贡献类型。
 off = 关
 on = 开
+help-accent = 需要口音方面的帮助？
 
 ## Profile - Email
 
@@ -1028,7 +1029,9 @@ sc-howto-title = 如何做
 sc-howto-addlang-title = 添加要贡献的语言
 sc-howto-addlang-text = 登录后，就可以在个人资料页选择您要贡献哪些语言的句子。
 sc-howto-addsen-title = 添加新句子
+sc-howto-addsen-item-2 = 关于数字的问题：源文本中不应包含数字，因为朗读数字时可能会遇到问题，因为数字的读法取决于上下文，可能会在数据集中造成混乱。例如，“2409”可以读作“二四零九”，也可以读作“两千四百零九”。
 sc-howto-addsen-item-3 = 缩写和首字母缩略词。原始文本中应避免使用“USA”或“ICE”等缩写和首字母缩略词，因为它们的阅读方式可能与其拼写不一致。此外，一个缩写可能有多个正确读法。例如，首字母缩略词“ICE”可以读作“I-C-E”，也可读作一个单词。
+sc-howto-addsen-item-4 = 符号问题：源文本中尽量不要包含特殊符号和标点符号，除非确实有需要。例如，英文单词“don’t”和“we’re”中的撇号应予保留，但“@”和“#”之类的特殊符号一般不需要包含在源文本中。
 sc-howto-addsen-item-5 = 外国字母。字母或文字须符合各语言用法。例如，“ж”是俄语字母，但英文或中文不会用到，因此不应出现在原始文本中。
 sc-howto-addsen-post-1 = 我们更喜欢自然/对话式的句子。虽然语音多样性和句子中的不同词汇很重要，但我们努力让记录句子的过程尽可能的有趣。因此，如果您能尽量保持句子自然/吸引人，那就再好不过了。
 sc-howto-cite-title = 如何引用
@@ -1041,10 +1044,16 @@ sc-howto-review-criteria-1 = 句子必须拼写正确。
 sc-howto-review-criteria-2 = 句子必须语法正确。
 sc-howto-review-criteria-3 = 句子必须说得出来。
 sc-howto-review-criteria-4 = 若句子符合上述标准，请点击“通过”按钮。
+sc-howto-review-criteria-5 = 若句子未达到上述条件，请点击「拒绝」按钮。若您不确定句子是否可用，可以忽略该句子，跳到下一句。
 sc-howto-review-criteria-6 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
+sc-howto-findpd-title = 在公有领域查找现有的句子
 sc-howto-findpd-subtitle = 在网上搜搜看
+sc-howto-findpd-tips = 以下是收集句子的一些技巧：
+sc-howto-findpd-tips-1 = 您可以从博客，视频档案，电影剧本等含有日常对话的内容中获得最佳的句子资源。
+sc-howto-findpd-tips-2 = 政府资料、书籍和文章也是不错的资源，不过由于该类文本相对来讲更加正式，并不是最佳选择。
 sc-howto-findpd-tips-3 = 很遗憾，我们尚无权使用维基媒体基金会的文章，所以请勿从那里复制粘贴。
 sc-howto-findpd-subtitle-2 = 与当地组织或个人合作
+sc-howto-findpd-partner-2 = 如果您是专业的语言工作者，请尝试联系当地语言大学的教师和学生，了解他们是否可以协助收集该语言不同发音的形式
 
 ## MY SENTENCES
 
@@ -1097,8 +1106,13 @@ sc-submit-add-sentences = 添加<wikipediaLink>公有领域（Public Domain）</
 sc-submit-ph-one-per-line =
     .placeholder = 每行一句
 sc-submit-from-where = 这些<wikipediaLink>公有领域（Public Domain）</wikipediaLink>的句子来自何处？
+sc-submit-ph-read-how-to =
+    .placeholder = 如果您不确定该如何贡献，请阅读我们的"How-to" 方法
+sc-submit-confirm = 我确认这些句子都是以 <wikipediaLink>公有领域条款</wikipediaLink>授权公开，并且我有权上传。
 sc-submit-button =
     .submitText = 提交
+sc-submit-filtered = 由于不符合标准，被过滤的句子（请将更改后的版本以新句子重新送出）：
+sc-submit-guidelines = 请参考<howToLink>审核指南</howToLink>。
 
 ## ADD LANGUAGE
 
@@ -1121,6 +1135,7 @@ sc-add-err-failed =
        *[other] { $sentences } 句提交失败
     }
 sc-add-err-submission = 提交失败
+sc-add-lang-process-notice = 若此处未列出您的语言，您可以通过<languageProcessLink>此程序</languageProcessLink>申请添加。
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1150,6 +1165,7 @@ sc-confirm-ready =
        *[other] 已有 { $readyCount } 句准备好可以提交！
     }
 sc-confirm-button-text = 确认
+sc-confirm-uploading = 正在上传句子。根据句子数量而定可能需要几分钟。上传完成前请不要关闭本网站。
 
 ## LANGUAGE INFO
 
@@ -1225,6 +1241,8 @@ sc-criteria-item-6 = 若您已经没有句子可以审核了，请帮助我们�
 
 sc-review-title = 审核句子
 sc-review-loading = 正在加载句子...
+sc-review-select-language = 请选择审核句子的语言。
+sc-review-no-sentences = 沒有需要审核的句子。<addLink>现在添加新句子！</addLink>
 sc-review-form-prompt =
     .message = 尚未提交句子审核结果，确定吗？
 sc-review-form-usage = 向右滑通过句子、向左滑驳回、向上滑跳过。<strong>别忘记提交您的审核结果！</strong>
@@ -1252,7 +1270,9 @@ sc-review-link = 审核
 
 sc-settings-title = 设置
 sc-settings-ui-language = 界面语言
+sc-settings-language-translated-warning = 此语言的页面似乎尚未完成翻译。欢迎到 <pontoonLinkLink>Pontoon</pontoonLinkLink> 协助我们补充翻译。
 sc-settings-reset-skipped = 重置跳过的句子
+sc-settings-skipped-decription = 您在之前的审核过程中有跳过句子。重置跳过的句子将显示您在所有语言跳过的句子。
 sc-settings-show-all-button = 再次显示跳过的句子
 sc-settings-failed = 无法更改设置，请重试。
 # VALIDATION
