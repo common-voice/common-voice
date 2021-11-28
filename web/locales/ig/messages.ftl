@@ -372,7 +372,7 @@ why-demographic = Gị́nị́ mèrè nà ǹké à jì dị́ ḿkpà?
 why-demographic-explanation-2 = Ọ́bụ̀rụ̀ nà Ị́ zóchíé íhé gbàsárá áfọ̀ ole i dị̀, jenda gị́ nà ǹdébé-ólú (accent) gị́, ọ́ gà-ènyéré ányị́ áká ímélíté ụ́yọ̀kọ̀ ólú ányị́ jì èmé kà ígwé ǹghọ̀tá ókwú nà-àrụ́ ọ́rụ́ ọ̀fụ́má. Á gà-éjìkọ́ áhá ǹjìrìmárá gị́ nàkwà íméèlụ̀ gị́ ná ụ́yọ̀kọ̀ ókwú ǹdí Í zìtèrè. Í nwèkwàrà ike ihọ̀rọ̀ kà i méé kà ḿmádụ̀ níílé hụ́ ǹjìrìmárá gị́ mà ọ̀ bụ̀ kà é zóó yá èzó.
 accept-privacy = Ọ́ gà-àmásị́ m kà Í jíkwáá ózí ńdị́ à dị́kà Í sìrì kọ́wáá yá n'ọ́wà ḿgbásà íwú Mọ̀zị́lá à <privacyLink>Ìwú Ǹzòrò</privacyLink>
 accept-privacy-title = Ìwú Ǹzòrò
-login-identity = Débànyé Ǹjìrìmárá
+login-identity = Ǹjìrìmárá
 login-signup = Bànyé / Débànyé áhá
 edit = Dèzíghárị́á
 email-subscriptions = Ńdébànyé áhà màkà ózí íméèlụ̀ (email)
@@ -386,11 +386,19 @@ on = Gbànyé
 ## Profile - Email
 
 browse-file-title = Zìgá foto gi
-browse-file = Bụbata failụ gị ebe a mà ọ̀ bụ̀<browseWrap>chọ̀ghàrị́á</browseWrap>
-connect-gravatar = Were Gravatar
+browse-file = Bụbata faịlụ gị ebe a mà ọ̀ bụ̀<browseWrap>chọ̀ghàrị́á</browseWrap>
+connect-gravatar = Were Gravatar banye
+gravatar_not_found = À chọ́tághị́ gravatar ọ̀bụ́là màkà íméèlụ̀ gị́.
+file_too_large = Faịlụ Ị́ họ̀tàrà bùrù íbù ǹkè úkwúù
+avatar-uploaded = É zìgágó Ávátà
+max-file-size = { $kb }Ǹjèdèbè kb
 
 ## Profile - Email
 
+manage-subscriptions = Hazie Subscriptions
+manage-email-subscriptions = Hazie Subscriptions íméèlụ̀ (email)
+email-already-used = É jìrígó íméèlụ̀ à mépéé akaụntụ ọ́zọ́ dị́ íchè
+add-language = Tìnyé Ásụ̀sụ́
 
 ## FAQ
 
