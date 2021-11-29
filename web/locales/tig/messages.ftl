@@ -512,6 +512,7 @@ download-language = { $language } ክረው
 validated-hours = ላትሓቀቅያ ሳዓት
 recorded-hours = ላትስጅለያ ሳዓት
 whats-inside = ዲብ ጅዋ ባያናት Common Voice ሚ ሃላ?
+want-dataset-update = ሓደሶት እግል ልብፃሓኩም ታሓዙ ዶልላ ኑስኸት ሓዳስ ናይ መጅሙዓት በያናት Common Voice ናፋገር? ዲብ ነሽረት ኣኽባርና ሰጀሎ
 subscribe = ኣሽተርክ
 get-started-speech = ሂጋ ኣሌለዩት ኣንብቶ
 other-datasets = ብዕድ ናይ ሶት መጅሙዓት ብያናት
