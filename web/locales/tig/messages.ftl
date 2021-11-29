@@ -446,6 +446,7 @@ mycroft-description = Mycroft ዲብ ዓለም ኣወል ፍቱህ መስድር 
 
 glossary = ሙዕጀም
 localization = ታውጢን
+localization-explanation = እላታ ገበይና ላእባ ንተርጅም ዎ ሙሕታዋና እግል ብዙሕ ሉቓት ነከየፋ
 sentence-collection = ጁመል ኣከቦት
 sentence-collection-explanation = ኣከቦት ጁመል ምን ሙልኬት ዓመት, ኣውሃየኒ ክታበት ሓዲስ ጁመል እግል ሙልኬት ዓመት
 hours-recorded-explanation = ሕሳብ ናይ ኩሉ ኣስኽ ኣዘ ላ ኣኽብናሁ ትስጂል ናይ ሶት
