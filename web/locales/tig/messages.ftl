@@ -518,6 +518,7 @@ other-datasets = ብዕድ ናይ ሶት መጅሙዓት ብያናት
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ መስደሩ ፈቱሕ ላገባኣ ኣዳዋት እግል ላሓደሳ ናይ ሃገጊ AI ሞደል በኑ ላህለው ባሕሲን ቱ
 resource-coqui-info = <coquiLink>Coqui</coquiLink>ዲብ ተክኖሎጀየት ናይ ፍቱሕ ሂጋ ልትኸሰስ ። መሽሩዖም ዲብ አላት ናይ STT ው TTS ላላዕተመድ ዓሚቅ ታዕሊም ሸምል
 community-playbook = ናይ ማሕበር ሰብ ፕለይቡክ
+resource-playbook-info = <playbookLink>ላነፍዕ ሓበረ ርከቦ</playbookLink>ዲብ ኩላ ናይ Common Voice ርሕለትኩም ምን ተርጀመት ዲብ እስትዕማል ናይ መጅሙዓት በያናት፣ ወ ከመሁማ ከፎ ከም ትዋስሎ ምስል ማሕበርና
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = ጅስም ( corpus ) TED-LIUM ምን ናይ ሶት ሂጋ ው ኣትከታትባሑ ዲብ ምውቂዕ ላምትዋፍር ምኑ ፋግር ቱ
 data-other-tatoeba-description = Tatoeba እግል ናይ ሉቀት ማዓለሚ ላገብኣት ቃዕደት በያናት ዓባይ ናይ ጁመል ው ተርጀመት ው ናይ ሂጋ ሶት ታ. እኢ ላልትከረ እብ ማሕበሮም ላትሰጀላ ናይ ሉቀት እንግሊዝ ሂጋ ብዲቡ
