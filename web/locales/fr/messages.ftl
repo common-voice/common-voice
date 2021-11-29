@@ -1311,6 +1311,8 @@ sc-settings-show-all-button = Afficher à nouveau toutes les phrases ignorées
 sc-settings-failed = Impossible de modifier les paramètres. Veuillez réessayer.
 # VALIDATION
 sc-validation-number-of-words = La phrase doit contenir entre 1 et 14 mots (inclus)
+sc-validation-no-numbers = La phrase ne doit pas contenir de chiffres
+sc-validation-no-symbols = La phrase ne doit pas contenir de symboles
 sc-validation-no-abbreviations = La phrase ne doit pas contenir d’abréviations
 
 # [/SentenceCollector]
