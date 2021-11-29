@@ -391,6 +391,7 @@ faq-why-mission-q = አግልሚቱ Common Voice ጅዙአ ምናይ Mozilla ሙ
 faq-what-cv-and-deepspeech-q = ፈርቅ ፈንገ Common Voice ው Deep Speech ሚቱ?
 faq-is-goal-assistant-q = ሓደፍ ናይ Common Voice ሙሳዒድ ናይ ሶት አግል ልብነቱ?
 faq-do-want-native-q = አላ ሉቀት ኡም ናየ ኢኮን ው አብ ለክነት አትሓገያ ሶትች ታሓዘዎ ቱ?
+faq-do-want-native-a = አይዋ! ብዛት ሶትኩም ንሓዘ ህሌና። ጁዝእ ምን መባጽሕ ናይ ጭጭጭ እባ ልቀደረና ላበዝሓ ላክናት እግል ንኣክብ ቱ፣ ው እሊ አግልላ ንዛም ናይ ሶት ኣሌለዮት እጌል ኩሉ ኣከል ሕድ ኸደም።
 faq-why-different-speakers-q = ግልሚቱ ግል ኩል ሉቀት ብዝሓም ላለትሓግው ታሓዙ?
 faq-why-my-lang-q = ሉቀት ናየ አገልሚ ይሀሌትኒ
 faq-what-quality-q = ክሊፕ ሶት ዲብላ በያናት ግልትስታዕመል ሚ ዓይነት ላልትሳማዕ ደረጀት ላትሓዘ?
