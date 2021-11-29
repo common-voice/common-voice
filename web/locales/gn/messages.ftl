@@ -382,6 +382,7 @@ skip-submission-description = Oñepytyvõ aja noñemondomo’ãi marandu’i oje
 skip-submission-note = Jesarekorã: Tekotevẽta gueteri eiporavo Eñe’ẽ térã Ehendu ere hag̃ua mba’éichapa reipytyvõse.
 off = Mboguepyre
 on = Hendypyre
+help-accent = ¿Eñepytyvõkasépa myanduhére?
 
 ## Profile - Email
 
@@ -1022,6 +1023,7 @@ sc-home-review-title = Ehechajey ñe’ẽjuaju
 ## HOW-TO
 
 sc-howto-title = Mba’éichapa
+sc-howto-addlang-title = Embojuaju ñe’ẽ emba’apo hag̃ua
 sc-howto-addsen-title = Embojuaju ñe’ẽjuaju pyahu
 sc-howto-cite-title = Mba’éicha emombe’úta
 sc-howto-review-title = Ehechajey ñe’ẽjuaju
