@@ -1029,6 +1029,9 @@ sc-howto-cite-title = Mba’éicha emombe’úta
 sc-howto-review-title = Ehechajey ñe’ẽjuaju
 sc-howto-review-criteria-1 = Pe ñe’ẽjuaju ojehaiva’erã hekopete.
 sc-howto-review-criteria-2 = Pe ñe’ẽjuaju hekopete ñe’ẽtekuaa rupi.
+sc-howto-review-criteria-3 = Pe ñe’ẽjuaju oje’ekuaava’erã.
+sc-howto-findpd-subtitle = Ehekava’erã ñandutípe
+sc-howto-findpd-tips = Ko’ág̃a oñeñemoñe’ẽta ejuhukuaa hag̃ua ñe’ẽrysýi:
 
 ## MY SENTENCES
 
@@ -1038,11 +1041,14 @@ sc-my-no-sentences = ¡Ndojejuhúi ñe’ẽrysýi!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Teñoiha:  { $source }
+sc-my-delete = Emboguete ñe’ẽrysýi poravopyre
 sc-my-deleting = Emboguehína ñe’ẽrysýi poravopyre…
 
 ## REJECTED
 
 sc-rejected-title = Ñe’ẽjuaju hejapyre
+sc-rejected-loading = Emyanyhẽ ñe’ẽrysýi mboykepyre…
+sc-rejected-none-found = ¡Ndojejuhúi ñe’ẽrysýi mboykepyre!
 
 ## STATS
 
@@ -1055,6 +1061,8 @@ sc-submit-err-add-source = Embojuaju teñoiha.
 sc-submit-title = Embojuaju ñe’ẽjuaju
 sc-submit-select-language =
     .labelText = Eiporavo ñe’ẽ
+sc-submit-ph-one-per-line =
+    .placeholder = Peteĩ ñe’ẽrysýi tairendápe
 sc-submit-button =
     .submitText = Mondo
 
