@@ -1068,7 +1068,9 @@ sc-submit-button =
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Noñembojuajukuaái ñe’ẽ
 sc-add-lang-sec-button = Embojuaju Ñe’ẽ
+sc-add-err-submission = Ojavy ñemondo
 
 ## ADD SENTENCES CONFIRMATION
 
