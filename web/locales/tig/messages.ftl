@@ -385,6 +385,7 @@ faq-title = ዲማ ላልትሳኣላ ኣስአለት
 faq-what-cv-q = Common Voice ሚቱ
 faq-why-important-q = አግል ሚቱ አሊ ሙህም?
 faq-how-get-q = ናይ  Common Voice በያናት ኣፎ ርክባ?
+faq-how-get-a = መጅሙዓት በያናት ናይ Common Voice ዲብ <datasetLink>our Datasets page</datasetLink>ላህሌት ሩኽሰት ናይ <licenseLink>CC0</licenseLink> እግል ትትከረ ምትወፍረት ታ ።  ከመሁማ ብዞሕ እግል ኩሉ መስሙሕ ላጋኣ ካልእ መጅሙዓት በያናት ምን ነፍሳ ሳፍሓት ምትወፍረት ታ
 faq-when-release2-q = በያናት Common Voice እብ ብዕድ ሉቃት ምኣስ ትንሾሮ ቱ?
 faq-why-mission-q = አግልሚቱ Common Voice ጅዙአ ምናይ Mozilla ሙሁመት ታ?
 faq-what-cv-and-deepspeech-q = ፈርቅ ፈንገ Common Voice ው Deep Speech ሚቱ?
