@@ -450,6 +450,7 @@ localization-explanation = እላታ ገበይና ላእባ ንተርጅም ዎ 
 sentence-collection = ጁመል ኣከቦት
 sentence-collection-explanation = ኣከቦት ጁመል ምን ሙልኬት ዓመት, ኣውሃየኒ ክታበት ሓዲስ ጁመል እግል ሙልኬት ዓመት
 hours-recorded-explanation = ሕሳብ ናይ ኩሉ ኣስኽ ኣዘ ላ ኣኽብናሁ ትስጂል ናይ ሶት
+hours-validated-explanation = ዓደድ ተስጅል ሶት 2 ምን 3 ሙስታዕምሊን ላሓቀቅዎ እብ ተስዊት 'አይዋ'። እሊ ተቀዱም ገብእ ዲብ 10k ሳዓት መባጽሕ ናይ ላ መሽሩዕ
 sst = ሂጋ-ዲብ-ሶት(STT)
 sst-explanation = ቴክኖሎጅየት ናይ ሂጋ-ዲብ-ሶት(STT) እግል ባያናት ናይ ሶት ዲብ ክታበት ልቀይሮ
 de-identified = መስደር ወርክዮት
