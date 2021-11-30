@@ -516,6 +516,7 @@ want-dataset-update = ሓደሶት እግል ልብፃሓኩም ታሓዙ ዶል
 subscribe = ኣሽተርክ
 get-started-speech = ሂጋ ኣሌለዩት ኣንብቶ
 other-datasets = ብዕድ ናይ ሶት መጅሙዓት ብያናት
+feedback-q = ራኣይ ብኩም?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ መስደሩ ፈቱሕ ላገባኣ ኣዳዋት እግል ላሓደሳ ናይ ሃገጊ AI ሞደል በኑ ላህለው ባሕሲን ቱ
 resource-coqui-info = <coquiLink>Coqui</coquiLink>ዲብ ተክኖሎጀየት ናይ ፍቱሕ ሂጋ ልትኸሰስ ። መሽሩዖም ዲብ አላት ናይ STT ው TTS ላላዕተመድ ዓሚቅ ታዕሊም ሸምል
 community-playbook = ናይ ማሕበር ሰብ ፕለይቡክ
@@ -636,6 +637,8 @@ record-button-label = ሶትኩም ሰጀሎ
 share-title-new = <bold>ስደውና</bold>ብዕዳም ሙሳህሚን አግል ንርከብ
 keep-track-profile = ተቀዱምኩም ታብዖ እብ ናይ ኖስ ባያናት
 login-to-get-started = እተ/ሕሳብ ፍታሕ እግል ታኣንብት
+target-segment-generic-card = ዲብ ክፋል ሓደፍ ትሳህሞ ሄሌኹም
+target-segment-first-banner = ሰልፍ ናይ { $locale } ክፋል ሓደፍ እግል ንክለቕ ስደና
 target-segment-add-voice = ሶትኩም ወሰኮ
 target-segment-learn-more = ዘያደት አምሮ
 
