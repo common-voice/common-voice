@@ -332,6 +332,8 @@ profile-form-native-language =
     .label = ภาษาท้องถิ่น
 profile-form-additional-language =
     .label = ภาษาอื่นๆ
+profile-form-language =
+    .label = ภาษา
 profile-form-accent =
     .label = สำเนียง
 profile-form-age =
@@ -851,6 +853,7 @@ profile-form-delete = ลบโปรไฟล์
 download-q = ต้องการดาวน์โหลดข้อมูลของคุณ?
 download-info = บอกเราว่าคุณต้องการดาวน์โหลดอะไร:
 download-profile-title = โปรไฟล์
+download-profile-size = ไม่กี่ไบต์
 download-recordings-title = เสียงที่อัด
 download-size = ขนาด
 download-selected = เลือกแล้ว
@@ -922,3 +925,88 @@ contribution-just-unsure-title = แค่ไม่แน่ใจ?
 contribution-just-unsure-description = หากคุณพบสิ่งที่หลักเกณฑ์เหล่านี้ไม่ครอบคลุม โปรดโหวตตามวิจารณญาณที่ดีที่สุดของคุณ หากคุณตัดสินใจไม่ได้จริง ๆ ให้ใช้ปุ่ม ข้าม และตรวจสอบเสียงถัดไป
 see-more = <chevron></chevron>ดูเพิ่ม
 see-less = <chevron></chevron>ดูน้อยลง
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = หน้าแรก
+sc-header-how-to = วิธีการ
+sc-header-add = เพิ่ม
+sc-header-review = ตรวจทาน
+sc-header-rejected = ประโยคที่ถูกปฏิเสธ
+sc-header-my = ประโยคของฉัน
+sc-header-statistics = สถิติ
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = รายงานข้อบกพร่อง
+sc-footer-translate = แปลหน้านี้
+sc-footer-report-copyright = รายงานปัญหาลิขสิทธิ์
+sc-footer-privacy = ความเป็นส่วนตัว
+sc-footer-terms = ข้อกำหนด
+sc-footer-cookies = คุกกี้
+sc-login-signup-button = เข้าสู่ระบบ / ลงทะเบียน
+sc-logout-button = ออกจากระบบ
+
+## HOME
+
+sc-home-review-title = ตรวจทานประโยค
+
+## HOW-TO
+
+sc-howto-title = วิธีการ
+sc-howto-review-title = ตรวจทานประโยค
+
+## MY SENTENCES
+
+sc-my-title = ประโยคของฉัน
+sc-my-loading = กำลังโหลดประโยคของคุณ...
+sc-my-no-sentences = ไม่พบประโยคที่ต้องการหา
+
+## REJECTED
+
+
+## STATS
+
+sc-stats-title = สถิติ
+sc-stats-last-update-never = อัปเดตล่าสุด: ไม่เคย
+sc-stats-updating = กำลังอัปเดต…
+
+## ADD
+
+sc-submit-err-select-lang = โปรดเลือกภาษา
+sc-submit-err-add-sentences = กรุณาเพิ่มประโยค
+sc-submit-err-add-source = กรุณาเพิ่มแหล่งที่มา
+sc-submit-title = เพิ่มประโยค
+sc-submit-select-language =
+    .labelText = เลือกภาษา
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = เพิ่มภาษาไม่ได้
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
