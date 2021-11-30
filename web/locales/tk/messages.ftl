@@ -15,6 +15,45 @@ not-available-abbreviation = D/D
 ## Languages
 
 ab = Abhaz
+ace = Aseh
+ady = Adygeý
+af = Afrikaans
+am = Amhar
+an = Aragon
+ar = Arap
+arn = Mapudungun
+as = Assamça
+ast = Asturiçe
+az = Azerbaýjança
+ba = Başgyrtça
+bas = Basa
+be = Belarus
+bg = Bolgarça
+bm = Bambaraça
+bn = Bengalça
+br = Bretonça
+bxr = Burýatça
+ca = Katalança
+cak = Kakçikelçe
+ckb = Merkezi Kürtçe
+cnh = Haha Çinçe
+co = Korsikaça
+cs = Çehçe
+cv = Çuwaşça
+cy = Welsçe
+da = Daniýaça
+de = Nemesçe
+dsb = Sorbça, aşaky
+dv = Diwehiçe
+el = Grekçe
+en = Iňlisçe
+eo = Esperantoça
+es = Ispança
+et = Estonça
+eu = Baskça
+fa = Parsça
+ff = Fulahça
+fi = Finçe
 
 # [/]
 
