@@ -868,7 +868,7 @@ demo-account = 帳戶
 ## Demo Account
 
 demo-account-card-header = 唔建立帳戶亦可貢獻，但如果有嘅話會更有幫助，下面話你知點解。
-demo-account-card-body = 喺右手邊，我地列明左各項成效以及了我地會公開嘅資訊。請用以下嘅連結喺你自己嘅裝置上開始使用Common Voice 賬戶。
+demo-account-card-body = 喺右手邊，我哋列明咗各項成效同我哋會公開嘅資訊。請用下面嘅連結嚟喺你自己嘅裝置上開始使用 Common Voice 賬戶。
 demo-account-enter-email =
     .label = 輸入你嘅電郵地址嚟轉送註冊鏈結
 demo-account-sign-up = 寄送註冊連結
