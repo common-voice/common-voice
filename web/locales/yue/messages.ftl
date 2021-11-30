@@ -485,10 +485,10 @@ mycroft-secondary-description = 呢個係一套可以自由混搭、擴展、改
 
 glossary = 術語表
 localization = 本地化
-localization-explanation = 呢個係我地翻譯同套用去唔同嘅本地環境（語言）嘅過程。
+localization-explanation = 呢個係我哋翻譯同套用去唔同嘅本地環境（語言）嘅過程。
 sentence-collection = 收集句子
 sentence-collection-explanation = 收集公眾領域嘅語句，或用公眾領域授權撰寫新語句。
-hours-recorded-explanation = 到目前為止我地收集到嘅錄音時數。
+hours-recorded-explanation = 到目前為止我哋收集到嘅錄音時數。
 hours-validated-explanation = 每3位使用者當中，有2位使用者投下「啱」嘅錄音時數。呢個就係成個計劃一萬小時目標嘅進度。
 sst = 語音轉文字
 sst-explanation = 語音轉文字技術係將聲音數據轉化成文字。
@@ -498,9 +498,9 @@ de-identified-explanation = 喺打包做下載資料集時，貢獻者嘅個人�
 ## Error pages
 
 error-title-404 = 我哋揾唔到你想去嘅頁面
-error-content-404 = 我哋嘅<homepageLink>首頁</homepageLink>可能會幫到你？想問問題，請加入<matrixLink>Matrix 群組聊天室</matrixLink>，網站問題可以交畀<githubLink>GitHub</githubLink>，或去一去我地嘅<discourseLink>Discourse 論壇</discourseLink>話畀我地知。
+error-content-404 = 我哋嘅<homepageLink>首頁</homepageLink>可能會幫到你？想問問題，請加入<matrixLink>Matrix 群組聊天室</matrixLink>，網站問題可以交畀<githubLink>GitHub</githubLink>，或去一去我哋嘅<discourseLink>Discourse 論壇</discourseLink>話畀我哋知。
 error-title-503 = 我哋遇上意外嘅系統停機時段
-error-content-503 = 網站將會盡快恢復作業。請到我地嘅 <matrixLink>Matrix 社群聊天頻道</matrixLink>、<githubLink>GitHub</githubLink> 上嘅網站報告問題，或到 <discourseLink>Discourse 討論區</discourseLink>報俾我地，或者瀏覽最新資訊。
+error-content-503 = 網站將會盡快恢復作業。請到我哋嘅 <matrixLink>Matrix 社群聊天頻道</matrixLink>、<githubLink>GitHub</githubLink> 上嘅網站報告問題，或到 <discourseLink>Discourse 討論區</discourseLink>報畀我哋，或者瀏覽最新資訊。
 error-code = 錯誤 { $code }
 
 ## Data
@@ -511,7 +511,7 @@ data-download-deny = 唔係
 data-download-license = 授權條款: <licenseLink>CC-0</licenseLink>
 data-download-modal = 閣下將會下載 <size>{ $size } GB</size> 嘅檔案，要下載嗎？
 data-subtitle = 我哋整緊套公開而人人用得嘅語音數據集，人人都可以用佢來訓練認得到聲嘅應用程式。
-data-explanatory-text = 我地相信，大型而公開可用嘅語音數據集能夠促進語音機器學習科技嘅創新，以及健康嘅商業競爭。呢個係一個全球運動，我地邀請任何人士參與。我地嘅目標係令語音技術能夠更有包容性，反映出世界各地語音嘅多樣性。
+data-explanatory-text = 我哋相信，大型而公開可用嘅語音數據集能夠促進語音機器學習科技嘅創新，以及健康嘅商業競爭。呢個係一個全球運動，我哋邀請任何人士參與。我哋嘅目標係令語音技術能夠更有包容性，反映出世界各地語音嘅多樣性。
 data-get-started = <speechBlogLink>語音辨識新手上路</speechBlogLink>
 data-other-title = 其他語音數據集…
 data-other-goto = 往 { $name }
@@ -524,7 +524,7 @@ license = 授權條款：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
 data-download-singleword-title = 下載單字目標分段
 data-download-singleword-callout-v2 = 呢個係按照實際使用需要拆出嚟嘅部份，入面嘅資料可以用喺數字識別同埋是/否檢測。
-review-terms = 使用 Common Voice，即代表閣下同意我地嘅<termsLink>條款</termsLink>同埋<privacyLink>私隱聲明</privacyLink>
+review-terms = 使用 Common Voice，即代表閣下同意我哋嘅<termsLink>條款</termsLink>同埋<privacyLink>私隱聲明</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我唔同意
 review-aborted = 上載中斷咗，你想唔想刪除你嘅錄音？
@@ -538,7 +538,7 @@ review-delete-recordings = 刪除我嘅錄音
 
 ## Datasets Page
 
-datasets-headline = 我地想建立一套開放原始碼、多重語言嘅語音數據集，令到任何人都可以用來開發同語音相關嘅應用。
+datasets-headline = 我哋想建立一套開放原始碼、多重語言嘅語音數據集，令到任何人都可以用來開發同語音相關嘅應用。
 datasets-positioning =
     我哋相信如果有一組大規模、公開嘅語音數據集，會奠定以機器學習為基礎嘅語音技術上嘅創新，同埋健康嘅商業競爭。
     
@@ -573,6 +573,7 @@ subscribe = 訂閲
 get-started-speech = 語音識辨新手入門
 other-datasets = 其他語音數據集
 feedback-q = 有意見反饋？
+resource-deepspeech-info = Mozilla 嘅開放原始碼語音識別引擎 Deep Speech，可以用來打造語音識別應用程式。您可以睇下我哋嘅 <githubLink>Github 概觀</githubLink>或者加入 <discourseLink>DeepSpeech Discourse</discourseLink> 了解點樣入門。
 data-other-librispeech-description = LibriSpeech 係一個從LibriVox計劃入面，攞到大概一千個鐘嘅16Khz 英語有聲書錄音嘅語料庫。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫係由 TED 網站上提供嘅講座對話語音同埋演講文字抄稿一齊製成嘅語料庫。
@@ -687,7 +688,7 @@ listen-empty-state = 呢個語言可以驗證嘅錄音已經驗晒啦⋯⋯
 speak-empty-state = 呢個語言可以錄嘅句子已經錄晒啦⋯⋯
 speak-empty-state-cta = 貢獻句子
 record-button-label = 錄低你把聲
-share-title-new = <bold>幫我地</bold>揾多啲聲音
+share-title-new = <bold>幫我哋</bold>揾多啲聲音
 keep-track-profile = 建立個人檔案，紀錄閣下嘅進度
 login-to-get-started = 登入或注冊嚟開始
 target-segment-first-card = 閣下正為我哋第一條目標細分群體貢獻錄音
@@ -837,6 +838,7 @@ profile-form-delete = 刪除個人檔案
 
 ## Profile Download
 
+download-info = 話畀我哋知你想下載啲咩：
 
 ## Landing
 
@@ -848,7 +850,7 @@ read-more-about = 去關於我哋嘅頁面瞭解更多
 
 ## DemoLayout
 
-demo-get-started = 我地開始啦
+demo-get-started = 我哋開始啦
 demo-welcome = 歡迎使用 Common Voice
 demo-welcome-subheader = 你有冇興趣學多啲嘢，為呢一個計劃貢獻？
 
