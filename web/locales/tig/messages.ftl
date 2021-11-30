@@ -786,6 +786,7 @@ download-profile-size = ሑዳት bytes
 download-recordings-title = ተስጂል
 download-recordings-info = mp3s ው ምስሉ ላትጻበጣ ጁመል ሃላ ዲቡ፣ ግል ትጀህዞ ሽውያ ውቀት ነሰእ
 download-recordings-size = ምሳል ናይ ጊጋብይተ (Typically megabytes)
+download-recordings-unavailable = ተስጅልኩም ተጥለቦ ኢትቀድሩኒ ኣዘ ላኣወላይ ጠለብኩም እንደ ለትጃሃዝ
 download-recently-requested = ተስጂልኩም እግል ትንሶ ኩሉ { $days } ዮም ትጥለቦ ትቀድሮ
 download-size = ሓጅም
 download-selected = ሕሪት
