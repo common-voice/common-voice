@@ -1012,6 +1012,14 @@ sc-add-result =
         [one] ላትሰለመያ ጁመል. { $duplicates } ድጋም ጁመል አትረፈደት
        *[other] ላትሰለመያ ጁመል. { $duplicates } ድጋም ጁመል አትረፈደያ
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] ላፈሽለያ ጁመል ይኣለቡ
+        [one] ዎሮ ጁምለት ፋሽለት
+       *[other] ጁመል ፋሽለያ
+    }
 sc-add-err-submission = ናይ ልእከት ሙሽክለት
 sc-add-lang-process-notice = ሉቀትኩም አንዘ ሓቆ የህሌት, <languageProcessLink>እምብላ ገበይ</languageProcessLink>ትጥሎባ ትቀድሮ
 
