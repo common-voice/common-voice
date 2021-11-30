@@ -756,6 +756,10 @@ n-clips-pluralized =
 help-share-goal = ኣስዋት ብዕደት እግል ንርከብ ስደውና, ሓደፍካ ሻርክ
 confirm-goal = ሓደፍኩም ኣክዶ
 goal-interval-weekly = ኩል ሳምን
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = ናይ { $type } ክሊፕ ናይ { $count } ዲብ ዮም ሃደፍ ኣካፍል
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = ናይ { $type } ክሊፕ ናይ { $count } ዲብ ሳምን ሃደፍ ኣካፍል
 share-goal-type-speak = ሃገዮት
 share-goal-type-listen = ስምዓት
 share-goal-type-both = ሃገዮት ዉ ስምዓት
