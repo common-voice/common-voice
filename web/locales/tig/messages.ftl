@@ -792,6 +792,7 @@ download-request-archive-single = ዎሮት ZIP ፋይል ላብዲቡ
 download-request-archive-multiple = ዲብ { $archiveCount } ZIP ፋይል ላብዲቡ ኩፉል
 download-request-assembling-description = መለፋትኩም ትትኣክብ ህሌት ሓቆ ሽወያ ድለው
 download-request-refresh-button = ኣሓድስ
+download-request-modal-description = እለንተን ላ links መለፍ ZIP ላትከሮ ምና
 download-request-link-text = Zip #{ $offset } of { $total }
 download-request-metadata-link = ናይ ጁምለት ክታበት
 
@@ -810,6 +811,7 @@ demo-welcome-subheader = ዓን ኢሊ መሽሩዕ አግል ታአምሮ ው �
 
 ## Demo Datasets
 
+demo-language-select-card-header = ዲብ ኣዲና ላዓባ ግል ኩሉ ፍቱሕ ብዙሕ-ሉቀት ናይ ሶት መጅሙዓት በያናት ቱ
 card-button-next = ላለታለ
 card-button-back = ጉራ
 demo-language-select-label = ሉቃት ዳህሰሶ
@@ -819,6 +821,9 @@ demo-account = ሕሳብ
 ## Demo Account
 
 demo-account-card-header = አግል ትሳህሞ ሐሳብ ገል ላሃሌኩም ኢለትሓዘኒ ብስ ነፍዓኩም
+demo-account-enter-email =
+    .label = ኢሜልኩም ኣቱ ናይ ሕሳብ ፍትሓት link እግል ትልኣኾ
+demo-account-sign-up = ናይ ሕሳብ ፍትሓት link ላኣኾ
 
 ## Demo Contribute
 
