@@ -378,9 +378,9 @@ change-email-setings = 要更改電郵，請先撳登入身份，然後再撳設
 
 faq-title = 常見問題
 faq-what-cv-q = Common voice 係乜嘢？
-faq-what-cv-a = 語音識別技術喺度改變緊我地同機器互動嘅方法，但目前可用嘅系統唔單止貴，而且係專有技術。Mozilla 提出 Common Voice 作為改進語音識別技術，並將之普及到大眾嘅計畫嘅一部分。Common Voice 都係一套收集咗世界各地人所損贈語音嘅數據庫，希望有助所有人來又快又易噉訓練出可以識別任何語音功能嘅應用程式。
+faq-what-cv-a = 語音識別技術喺度改變緊我哋同機器互動嘅方法，但目前可用嘅系統唔單止貴，而且係專有技術。Mozilla 提出 Common Voice 作為改進語音識別技術，並將之普及到大眾嘅計畫嘅一部分。Common Voice 都係一套收集咗世界各地人所損贈語音嘅數據庫，希望有助所有人來又快又易噉訓練出可以識別任何語音功能嘅應用程式。
 faq-what-cv-a-2 =
-    語音識別技術喺度改變緊我地同機器互動嘅方法，但目前可用嘅系統唔單止貴，而且係專有技術。Mozilla 提出 Common Voice 作為改進語音識別技術，並將之普及到大眾嘅計畫嘅一部分。Common Voice 都係一套收集咗世界各地人所損贈語音嘅數據庫，希望有助所有人來又快又易噉訓練出可以識別任何語音功能嘅應用程式。
+    語音識別技術喺度改變緊我哋同機器互動嘅方法，但目前可用嘅系統唔單止貴，而且係專有技術。Mozilla 提出 Common Voice 作為改進語音識別技術，並將之普及到大眾嘅計畫嘅一部分。Common Voice 都係一套收集咗世界各地人所損贈語音嘅數據庫，希望有助所有人來又快又易噉訓練出可以識別任何語音功能嘅應用程式。
     
     我哋唔止想收集被廣泛使用嘅語言，亦都想收集少有人講嘅語音樣本。一套多元語音資料集，用來幫助開發者、創業家，以及唔同社群縮窄科技上個鴻溝。
 faq-why-important-q = 點解呢個好重要？
@@ -391,11 +391,11 @@ faq-why-important-a =
 faq-how-get-q = 我可以點樣可以攞到 Common Voice 嘅數據？
 faq-how-get-a = 我哋嘅資料集可到<datasetLink>Common Voice 數據集頁面</datasetLink>下載，本數據集使用<licenseLink>CC0</licenseLink>授權。閣下仲可以喺該頁面中下載其它幾套嘅數據集。
 faq-when-release2-q = Common Voice 幾時會發放其他語言嘅數據？
-faq-when-release2-a = 多語言版本嘅 Common Voice 數據集，目前正交由社群進行清理同埋打包。若閣下想幫我地新添語言到 Common Voice，請使用 <sentenceCollectorLink>語句收集工具</sentenceCollectorLink>來將語句加入到數據集，並到 <pontoonLink>Mozilla Pontoon</pontoonLink> 度將網站翻譯成該語言。當每種語言有超過 5000 條語句並獲審批後，就會正式加入 Common Voice。
+faq-when-release2-a = 多語言版本嘅 Common Voice 數據集，目前正交由社群進行清理同埋打包。若閣下想幫我哋新添語言到 Common Voice，請使用 <sentenceCollectorLink>語句收集工具</sentenceCollectorLink>來將語句加入到數據集，並到 <pontoonLink>Mozilla Pontoon</pontoonLink> 度將網站翻譯成該語言。當每種語言有超過 5000 條語句並獲審批後，就會正式加入 Common Voice。
 faq-why-mission-q = 點解Common Voice 係 Mozilla 嘅重點任務之一？
-faq-why-mission-a = Mozilla 致力於保持網路開放，令任何人都可使用。為咗達到呢個目標，我地要透過 Common Voice 噉樣嘅計劃嚟幫助網絡創作者。隨住採用語音技術嘅程式激增，我哋相信呢啲程式應該公平噉嚟服務所有使用者。噉樣意味住喺建設與測試語音科技時，需要滿足更多唔同腔調、年齡層等等嘅需求。Common Voice 將會成為一套人人可用嘅公眾資源，而且Mozilla 同埋全球開發者羣眾已將佢用喺專案開發當中。
+faq-why-mission-a = Mozilla 致力於保持網路開放，令任何人都可使用。為咗達到呢個目標，我哋要透過 Common Voice 噉樣嘅計劃嚟幫助網絡創作者。隨住採用語音技術嘅程式激增，我哋相信呢啲程式應該公平噉嚟服務所有使用者。噉樣意味住喺建設與測試語音科技時，需要滿足更多唔同腔調、年齡層等等嘅需求。Common Voice 將會成為一套人人可用嘅公眾資源，而且Mozilla 同埋全球開發者羣眾已將佢用喺專案開發當中。
 faq-what-cv-and-deepspeech-q = Common Voice 同 Deep Speech 有咩分別？
-faq-what-cv-and-deepspeech-a = Common Voice 能夠同 Mozilla 嘅開放原始碼語音識別引擎 Deep Speech 互補。初版嘅 Deep Speech 喺 2017 年 11 月發行，並持續發展。加埋 Common Voice 數據集，我地相信呢套開放原始碼語音辨識技術應該開放畀所有人使用，亦希望呢啲技術可以令開發者建設到新一輪嘅產品同埋服務。
+faq-what-cv-and-deepspeech-a = Common Voice 能夠同 Mozilla 嘅開放原始碼語音識別引擎 Deep Speech 互補。初版嘅 Deep Speech 喺 2017 年 11 月發行，並持續發展。加埋 Common Voice 數據集，我哋相信呢套開放原始碼語音辨識技術應該開放畀所有人使用，亦希望呢啲技術可以令開發者建設到新一輪嘅產品同埋服務。
 faq-is-goal-assistant-q = Common Voice 係咪志在建立一個語音助手？
 faq-is-goal-assistant-a = Common Voice 數據集嘅目標係令任何人都可以建造語音識別、説話者識別，或其他任何需要語音資料嘅應用程式。語音助理就是呢個數據集可以用嚟建造嘅應用之一。
 faq-do-want-native-q = 如果我唔係母語人士而且講野有口音，咁你地仲要唔要我把聲？
@@ -405,7 +405,7 @@ faq-why-different-speakers-a =
     大多數嘅語音數據庫嘅語音來源偏重某啲特定人口，令到結果偏向於<articleLink>男性以及中產階級</articleLink>。而喺呢啲訓練機械嘅數據之中，各種弱勢嘅口音以及方言往往同邊緣化嘅人群有關，同時好多機器亦好難理解女性嘅聲音。
     呢個就係點解我哋嘅語音數據庫應該海納百川，收集各種聲音！
 faq-why-my-lang-q = 點解仲未有我嘅語言嘅？
-faq-why-my-lang-new-a = Mozilla 唔會特別偏好邊種語言。相反而然 Common Voice 係一個純社群發起嘅計劃，需要<multilangLink>幾個步驟先可以新增語言</multilangLink>並開始收集語音片段。首先，需要完成翻譯 Common Voice 網站，噉樣社群成員先得用自己嘅語言進行貢獻。次之，我地需要大量嘅無版權語句，畀大家可以朗讀出嚟。當兩個條件都滿足之後， Common Voice 即可「上線」，畀大家開始錄音，同埋驗證其他人所錄低嘅片段。如果你想協助準備畀新語言上線，歡迎到<sentenceCollectorLink>語句收集工具</sentenceCollectorLink>開始幫手。
+faq-why-my-lang-new-a = Mozilla 唔會特別偏好邊種語言。相反而然 Common Voice 係一個純社群發起嘅計劃，需要<multilangLink>幾個步驟先可以新增語言</multilangLink>並開始收集語音片段。首先，需要完成翻譯 Common Voice 網站，噉樣社群成員先得用自己嘅語言進行貢獻。次之，我哋需要大量嘅無版權語句，畀大家可以朗讀出嚟。當兩個條件都滿足之後， Common Voice 即可「上線」，畀大家開始錄音，同埋驗證其他人所錄低嘅片段。如果你想協助準備畀新語言上線，歡迎到<sentenceCollectorLink>語句收集工具</sentenceCollectorLink>開始幫手。
 faq-what-quality-q = 錄音品質要到咩等級，先用得喺數據集入面？
 faq-what-quality-a = 我哋希望 Common Voice 數據集能夠反映出語音轉文字引擎會喺現實環境入面聽到嘅聲音，所以我哋希望能夠收集各種環境下同埋唔同錄音品質嘅片段。除咗多元嘅講者群體，如果呢個數據集包含到各種語音品質嘅片段，就可以令語音轉文字引擎處理到各種現實環境下嘅狀況，例如背景中有人喺度講嘢，或者有車輛嘅噪音。只要閣下嘅片段可以足夠俾人聽得明，即可收錄到數據集入面。
 faq-why-10k-hours-q = 點解每個語言以收集10,000個驗證時數為目標？
@@ -438,10 +438,10 @@ faq-search-for-answers =
 
 about-title = 點解要揀 Common Voice?
 about-subtitle = Common Voice 係 Mozilla 幫助教機器真人點樣講嘢嘅倡議嘅一部分。除咗 Common Voice 數據集之外，我哋仲建構緊一個名為Deep Speech嘅開源語音識別引擎。
-about-header-description = 呢兩個計劃都係我地努力糾正電子語音落差嘅一部份。語音識別技術可以令我地嘅電子裝置更加人性化，但係開發者需要十分大量嘅語音數據，先能夠打造出噉樣嘅系統。目前大部分語音數據都相當昂貴，而且受專有權限制。
+about-header-description = 呢兩個計劃都係我哋努力糾正電子語音落差嘅一部份。語音識別技術可以令我哋嘅電子裝置更加人性化，但係開發者需要十分大量嘅語音數據，先能夠打造出噉樣嘅系統。目前大部分語音數據都相當昂貴，而且受專有權限制。
 about-header-description-2 =
     呢個計劃係想縮短數碼語音嘅技術分歧。語音識別科技可以令我哋嘅設備更加人性化，但係開發者要靠大量嘅語音資料先至可以建立到。目前可用嘅資料價格昂貴，又係專有技術。
-    我地想令語音數據可以公開自由畀人使用，並且確保呢啲數據反映出我地大衆嘅多樣性。合衆人之力，我地可以幫大家將語音識別技術變得更好！
+    我哋想令語音數據可以公開自由畀人使用，並且確保呢啲數據反映出我哋大衆嘅多樣性。合衆人之力，我哋可以幫大家將語音識別技術變得更好！
 how-does-it-work-title = 佢係點運作嘅？
 how-does-it-work-text = 我哋整緊一個開源嘅聲音資料集。一齊幫手，貢獻你嘅聲音，核實錄音嘅準確度，令資料集變得更加好。
 about-speak = 講
@@ -932,3 +932,56 @@ contribution-just-unsure-title = 單係唔確定？
 contribution-just-unsure-description = 如果你遇到呢份指引冇列出嘅情況，請用你嘅判斷去投票。如果真係決定唔到，可以用跳過掣去聽下一段錄音。
 see-more = <chevron></chevron>睇多啲
 see-less = <chevron></chevron>睇少啲
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
