@@ -713,6 +713,7 @@ easy-difficulty = ሳሃል
 average-difficulty = ምትወስጥ
 difficult-difficulty = ሳዓብ
 pro-difficulty = ሙሕተርፍ
+lose-goal-progress-warning = ናይ ሓደፍካ በያናት ሓቆ ቀየርካ ናይ ኣዘ ሓደፍካ ልብደቱ
 want-to-continue = ትኣስተመሮ ታሓዙ?
 finish-editing = ሰልፍ ተስጂል ታኣኽልሶ?
 lose-changes-warning = ኣዘ ሓቆ ፋገርካ ሽቁልካ ግል ልብደቱ
@@ -763,6 +764,8 @@ share-n-weekly-contribution-goal = ናይ { $type } ክሊፕ ናይ { $count } 
 share-goal-type-speak = ሃገዮት
 share-goal-type-listen = ስምዓት
 share-goal-type-both = ሃገዮት ዉ ስምዓት
+# LINK will be replaced with the current URL
+goal-share-text = ኣና ናይ ኖስ ሃደፍ ወደኮ እግል ናይ ሶት ተባሩዕ እግል #CommonVoice -- ከመየ እግል አለት ኣዳም ናይ ኣማን ከፎ ከምልትሃገ አገል ትትዓለም ሳዕዳ
 weekly-goal-created = ናይ ሳምንካ ሃድፍ ስጅላ
 daily-goal-created = ናይ ኣምዕልካ ሃድፍ ስጅላ
 track-progress = ተቀዱም ታብዖ እንሰር ኣው ዲብ ሳፍሓት ናይ እሕሳእየትኩም
