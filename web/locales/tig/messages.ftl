@@ -523,6 +523,7 @@ resource-playbook-info = <playbookLink>ላነፍዕ ሓበረ ርከቦ</playboo
 data-other-librispeech-description = LibriSpeech corpus ናይ 1000 ሳትዓ ላገብእ 16Khz ተስጂል ሂጋ ኤንግሊዚ ምን መሽሩዕ LibriVox ናይ ከቱብ ሶት ላማትጸት ታ
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = ጅስም ( corpus ) TED-LIUM ምን ናይ ሶት ሂጋ ው ኣትከታትባሑ ዲብ ምውቂዕ ላምትዋፍር ምኑ ፋግር ቱ
+data-other-voxforge-description = VoxForge ሑር ው ፍቱሕ መስደሩ ላገብኣ ሂጋ-ላተሌለለ አለት ላገብእ ከቱብ ሂጋ እግል ታኣክብ ትከወነት
 data-other-tatoeba-description = Tatoeba እግል ናይ ሉቀት ማዓለሚ ላገብኣት ቃዕደት በያናት ዓባይ ናይ ጁመል ው ተርጀመት ው ናይ ሂጋ ሶት ታ. እኢ ላልትከረ እብ ማሕበሮም ላትሰጀላ ናይ ሉቀት እንግሊዝ ሂጋ ብዲቡ
 your-feedback = አፍካር ብካ ግል መጅሙዓት በያናት Common Voice ላናኣገርምእባ?  እት ህድግ ኣትኣምረናታ
 go-discourse = ዲብ ህድግ ጊሶ
@@ -634,6 +635,7 @@ speak-empty-state-cta = እብ ጁመል ሳህም
 record-button-label = ሶትኩም ሰጀሎ
 share-title-new = <bold>ስደውና</bold>ብዕዳም ሙሳህሚን አግል ንርከብ
 keep-track-profile = ተቀዱምኩም ታብዖ እብ ናይ ኖስ ባያናት
+login-to-get-started = እተ/ሕሳብ ፍታሕ እግል ታኣንብት
 target-segment-add-voice = ሶትኩም ወሰኮ
 target-segment-learn-more = ዘያደት አምሮ
 
