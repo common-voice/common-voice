@@ -154,6 +154,7 @@ tg = Tagico
 th = Tailandese
 ti = Tigrino
 tig = Tigre
+tk = Turkmeno
 tl = Tagalog
 tr = Turco
 tt = Tataro
