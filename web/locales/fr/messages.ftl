@@ -154,6 +154,7 @@ tg = Tadjik
 th = Thaï
 ti = Tigrigna
 tig = Tigré
+tk = Turkmène
 tl = Tagalog
 tr = Turc
 tt = Tatar
@@ -378,6 +379,7 @@ skip-submission-description = L’envoi de commentaires sera désactivé après 
 skip-submission-note = Remarque : vous devez encore choisir entre Parler et Écouter pour modifier votre type de contribution.
 off = Désactivé
 on = Activé
+help-accent-explanation = Votre accent est votre manière de prononcer les mots. Il peut être façonné par les endroits où vous avez vécu, les autres langues que vous parlez et beaucoup d’autres facteurs. Vous pouvez partager toute information que vous jugez pertinente ici.
 
 ## Profile - Email
 
@@ -1051,7 +1053,8 @@ sc-home-review-text = Contribuez en révisant les phrases pour qu’elles soient
 ## HOW-TO
 
 sc-howto-title = Comment faire ?
-sc-howto-addlang-text = Une fois connecté·e, vous pouvez sélectionner vos langues dans la section profil.
+sc-howto-addlang-title = Ajout de langues pour travailler
+sc-howto-addlang-text = Connectez-vous pour pouvoir sélectionner vos langues dans la section profil.
 sc-howto-addsen-title = Ajouter de nouvelles phrases
 sc-howto-addsen-item-1 = Toutes les phrases que vous soumettez doivent être sous une <wikipediaLink>licence de domaine public (CC-0)</wikipediaLink>. Pour prendre en charge l’inclusion d’œuvres non sous licence publique, nous avons créé un <cc0WaiverLink>modèle d’accord de contribution</cc0WaiverLink> pour les œuvres pour lesquelles le titulaire du droit d’auteur souhaite contribuer au contenu de Common Voice.
 sc-howto-addsen-item-2 = Nombres. Il ne devrait pas y avoir de chiffres dans le texte source, car ils peuvent causer des problèmes lors de la lecture à haute voix. La façon dont un nombre est lu dépend du contexte et pourrait introduire de la confusion dans le jeu de données. Par exemple, le nombre « 3624 » pourrait être correctement lu comme « trente-six vingt-quatre » et « trois mille six cent vingt-quatre ».
@@ -1074,11 +1077,13 @@ sc-howto-review-criteria-4 = Si la phrase répond aux critères, cliquez sur le 
 sc-howto-review-criteria-5 = Si la phrase ne répond pas aux critères ci-dessus, cliquez sur le bouton « Rejeter ». Si vous avez un doute, vous pouvez également la sauter et passer à la suivante.
 sc-howto-review-criteria-6 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 sc-howto-findpd-title = Trouver des phrases existantes dans le domaine public
+sc-howto-findpd-subtitle = Les rechercher sur Internet
 sc-howto-findpd-text-2 = Souvenez-vous que nous avons besoin d’une autorisation pour publier ces phrases, aussi assurez-vous toujours que le texte appartient au <wikipediaLink>domaine public</wikipediaLink>. S’il n’y a pas d’indication explicite, contactez la personne à laquelle appartient le texte et demandez-lui si elle souhaite placer son texte dans le domaine public. Si elle accepte, aidez-la à suivre le processus d’<cc0WaiverLink>accord de contribution</cc0WaiverLink>. Si elle ne le veut pas, vous n’avez pas l’autorisation d’utiliser ce texte.
-sc-howto-findpd-tips = Voici quelques astuces pour trouver des phrases :
+sc-howto-findpd-tips = Voici quelques conseils pour trouver des phrases :
 sc-howto-findpd-tips-1 = Les meilleures sources que vous pouvez rechercher sont les podcasts, transcriptions, scripts de film et tout ce qui peut contenir des conversations du quotidien.
 sc-howto-findpd-tips-2 = Les procédures, livres et articles gouvernementaux sont également très importants, cependant, puisque le texte a tendance à être un peu plus formel, ils sont moins prioritaires.
 sc-howto-findpd-tips-3 = Malheureusement, nous ne pouvons pas encore disposer d’articles de Wikimedia. Donc n’en faites pas de copier-coller.
+sc-howto-findpd-subtitle-2 = Collaborer avec des organisations ou des personnes près de chez vous
 sc-howto-findpd-partner-1 = Il y a beaucoup d’organisations publiques qui pourraient vouloir collaborer et qui disposent déjà de beaucoup de textes qu’elles peuvent placer dans le domaine public. Contactez les universités locales, les gouvernements et les organisations open-source pour parler du projet et demander leur aide.
 sc-howto-findpd-partner-2 = Des linguistes experts peuvent également vous aider, essayez de les contacter dans les universités locales dotées d’un département de linguistique (aussi bien les enseignants que les étudiants) et voyez s’ils peuvent vous aider à rassembler un ensemble diversifié de phrases prononcées de différentes façons dans votre langue.
 
@@ -1203,6 +1208,14 @@ sc-confirm-uploading = Les phrases sont en cours d’envoi. Cela peut prendre pl
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Aucune phrase.
+        [one] Une seule phrase.
+       *[other] { $totalSentences } phrases en tout.
+    }
 # Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
