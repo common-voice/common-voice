@@ -154,6 +154,7 @@ tg = Tadžikšćina
 th = Thailandšćina
 ti = Tigrinja
 tig = Tigre
+tk = Turkmeńšćina
 tl = Tagalog
 tr = Turkojšćina
 tt = Tataršćina
