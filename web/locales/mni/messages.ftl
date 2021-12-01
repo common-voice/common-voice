@@ -209,6 +209,7 @@ help-us-title = ꯋꯥꯍꯩꯄꯔꯦꯡ ꯑꯆꯨꯝꯕ ꯑꯣꯏꯍꯟꯕꯗ �
 vote-yes = ꯍꯣꯏ
 vote-no = ꯅꯠꯇꯦ
 speak-subtitle = ꯅꯍꯥꯛꯀꯤ ꯈꯣꯟꯖꯦꯜ ꯈꯨꯗꯣꯜ ꯇꯝꯊꯣꯛꯎ
+listen-subtitle = ꯑꯩꯈꯣꯢꯕꯨ ꯃꯇꯦꯡ ꯄꯥꯡꯉꯨ ꯈꯣꯟꯖꯦꯜꯁꯤꯡ ꯆꯨꯝꯍꯟꯕꯗ
 todays-progress = ꯉꯁꯤꯒꯤ ꯈꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯟꯂꯛꯄꯁꯤꯡ
 all-locales = ꯑꯄꯨꯟꯕ
 today = ꯉꯁꯤ
@@ -227,6 +228,8 @@ x-years-short =
         [one] ꯆꯩꯍꯤ ꯱
        *[other] ꯆꯩꯍꯤ { $count }
     }
+sign-up-account = ꯑꯦꯀꯥꯎꯟ ꯱ ꯁꯦꯝꯅꯕ ꯃꯤꯡ ꯄꯤꯁꯤꯟꯂꯨ
+email-subscription-title = ꯢꯃꯦꯜ ꯅꯧꯊꯣꯛꯅꯕ ꯃꯤꯡ ꯄꯤꯁꯤꯟꯂꯨ
 
 ## Account Benefits
 
@@ -234,6 +237,7 @@ benefits = ꯀꯥꯟꯅꯕ ꯐꯪꯒꯗꯕꯁꯤꯡ
 
 ## What's public
 
+whats-public = ꯃꯤꯌꯥꯝ ꯑꯁꯤ ꯀꯔꯤꯅꯣ?
 email-not-public = ꯑꯦꯈꯣꯏꯅ ꯅꯍꯥꯛꯀꯤ ꯏꯃꯦꯜ ꯃꯌꯥꯝꯗ ꯎꯠꯊꯣꯛꯂꯣꯏ
 
 ## Speak & Listen Shortcuts
@@ -284,6 +288,8 @@ profile-form-native-language =
     .label = ꯌꯦꯜꯍꯧ ꯂꯣꯟ
 profile-form-additional-language =
     .label = ꯑꯍꯦꯟꯕ ꯍꯥꯞꯆꯤꯟꯂꯛꯄ ꯂꯣꯟ
+profile-form-language =
+    .label = ꯂꯣꯟ
 profile-form-accent =
     .label = ꯃꯔꯣꯜ
 profile-form-age =
@@ -301,13 +307,17 @@ female = ꯅꯨꯄꯤ
 # Gender
 other = ꯑꯇꯩ
 why-profile-title = ꯀꯔꯤꯒꯤ ꯄ꯭ꯔꯣꯐꯥꯏꯜ ?
+build-profile = ꯄ꯭ꯔꯣꯐꯥꯢꯜ ꯁꯥꯒꯠꯂꯨ
+avatar = ꯃꯁꯛ
 goals = ꯄꯥꯟꯗꯝꯁꯤꯡ
 settings = ꯁꯦꯝꯐꯝ
 edit-profile = ꯄ꯭ꯔꯣꯐꯥꯢꯜ ꯁꯦꯝꯒꯠꯂꯨ
 profile-create-success = ꯃꯥꯢꯄꯥꯛꯂꯦ, ꯄ꯭ꯣꯐꯥꯏꯜ ꯁꯥꯈ꯭ꯔꯦ !
 profile-close = ꯈꯨꯝꯖꯤꯟꯂꯨ
+why-demographic = ꯃꯁꯤ ꯌꯥꯎꯕꯒꯤ ꯀꯔꯤ ꯃꯊꯧꯇꯥꯔꯤꯅꯣ?
 login-signup = ꯃꯅꯨꯡꯆꯪꯁꯤꯟꯕ/ꯃꯤꯡ ꯄꯁꯤꯟꯕ
 edit = ꯁꯦꯝꯒꯠ-ꯁꯥꯒꯠꯂꯨ
+download-profile = ꯑꯩꯒꯤ ꯗꯥꯇꯥ ꯆꯤꯡꯊꯔꯛꯎ
 off = ꯃꯨꯊꯠꯄ
 on = ꯊꯥꯕ
 
