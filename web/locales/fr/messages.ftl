@@ -335,6 +335,7 @@ profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
     .label = Comment décririez-vous votre accent ?
+profile-form-custom-accent-placeholder-2 = Commencez à écrire la description de votre accent
 profile-form-age =
     .label = Âge
 profile-form-gender-2 =
@@ -379,6 +380,7 @@ skip-submission-description = L’envoi de commentaires sera désactivé après 
 skip-submission-note = Remarque : vous devez encore choisir entre Parler et Écouter pour modifier votre type de contribution.
 off = Désactivé
 on = Activé
+help-accent = Besoin d’aide pour l’accent ?
 help-accent-explanation = Votre accent est votre manière de prononcer les mots. Il peut être façonné par les endroits où vous avez vécu, les autres langues que vous parlez et beaucoup d’autres facteurs. Vous pouvez partager toute information que vous jugez pertinente ici.
 
 ## Profile - Email
