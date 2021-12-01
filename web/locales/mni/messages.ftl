@@ -326,9 +326,13 @@ on = ꯊꯥꯕ
 
 ## Profile - Email
 
+add-language = ꯂꯣꯟ ꯍꯥꯞꯆꯤꯟꯂꯨ
 
 ## FAQ
 
+faq-what-cv-q = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯍꯥꯢꯕꯁꯤ ꯀꯔꯤꯅꯣ?
+faq-why-important-q = ꯃꯁꯤ ꯀꯔꯤꯒꯤ ꯃꯔꯨꯑꯣꯢꯔꯤꯅꯣ?
+faq-why-different-speakers-q = ꯑꯩꯈꯣꯢꯅ ꯀꯩꯗꯧꯕꯒꯤ ꯂꯣꯟ ꯱ꯗ ꯃꯥꯟꯅꯗꯕ ꯋꯉꯥꯡꯂꯣꯢ ꯃꯌꯥꯝ ꯆꯪꯉꯤꯕ ꯀꯔꯤꯒꯤꯅꯣ?
 
 ## ABOUT US
 
