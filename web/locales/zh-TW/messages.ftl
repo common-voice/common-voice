@@ -1060,6 +1060,7 @@ sc-howto-review-criteria-6 = 若您已經沒有句子可以審核了，請幫助
 sc-howto-findpd-title = 尋找已使用公眾領域授權的句子
 sc-howto-findpd-subtitle = 到網路上搜搜看
 sc-howto-findpd-tips = 以下是尋找句子的一些小秘訣：
+sc-howto-findpd-tips-1 = 最佳來源還有 Podcase、廣播內容、劇本腳本及任何可能包含日常對話內容的文字。
 sc-howto-findpd-tips-2 = 政府文書、書籍、文章內容也很棒，但文字會比較正式，所以較不優先。
 sc-howto-findpd-tips-3 = 不巧我們還不能使用維基媒體基金會的所有文章（包含維基百科），請不要貼過來。
 sc-howto-findpd-subtitle-2 = 與在地組織或個人合作
@@ -1069,6 +1070,7 @@ sc-howto-findpd-partner-2 = 語言學的專家也能幫忙，請嘗試聯繫在�
 ## MY SENTENCES
 
 sc-my-title = 我的句子
+sc-my-description = 此頁面讓您可以對所有送出過的句子有個快速綜覽。有需要的話，也可以在此勾選句子，並點擊底部的「刪除選取的語句」進行刪除。請只在有必要時（例如送出後才發現句子受著作權保護），才刪除該語句。
 sc-my-loading = 正在載入您的語句…
 sc-my-err-fetching = 取得您的句子時發生錯誤，請稍候再試。
 sc-my-no-sentences = 找不到句子！
