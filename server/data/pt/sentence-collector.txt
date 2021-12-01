@@ -7350,6 +7350,7 @@ Construção para metade
 Construções de pedra não queimam.
 Construído janeiro décimo nono? dezenove dezessete? o monumento está celebrando agora o seu centenário.
 Consultar calendário para esta final de semana.
+Consultar calendário para esta viagem.
 Consulte os termos de utilização
 Conta!
 Contagem
@@ -7596,6 +7597,7 @@ Crianças jogando videogame juntos.
 Crianças na escola tirando uma foto com seu professor.
 Crianças perseguindo a bola em um jogo de futebol.
 Crianças praticando artes marciais em um dojo? enquanto membros mais velhos observam.
+Crianças praticando artes marciais enquanto os mais velhos observam.
 Crianças pulando em poças.
 Criar um assentamento industrial estatal
 Criar uma empresa é uma decisão complicada que muitas vezes desestimula o empreendedorismo.
@@ -7622,6 +7624,7 @@ Cristalina
 Cristalândia
 Cristalândia do Piauí
 Cristiano Otoni
+Cristiano Ronaldo é um grande jogador de futebol.
 Cristiano tá muito feliz hoje.
 Cristiano, Núbia, William, Tomás e Anderson
 Cristianópolis
@@ -7852,10 +7855,12 @@ De São Miguel a São Miguel faz o mesmo mar e o mesmo céu.
 De Tortosa gostei da catedral, que não gosta de ninguém!
 De acordo com a placa, o estacionamento está fechado hoje
 De acordo com a receita, precisamos de mostarda leve.
+De acordo com a receita, precisamos de mostarda.
 De acordo com a receita?, precisamos de mostarda leve.
 De acordo com essas palavras, Ana retorna com vinho.
 De acordo com janeiro, você vai comer o pão do próximo ano.
 De acordo com o dicionário?, a palavra "gizmo" significa o mesmo que "gadget".
+De acordo com o sinal, o estacionamento está livre.
 De acordo com o sinal? sem estacionamento hoje por causa da filmagem do filme.
 De agora em diante irei todos os dias ao rio para beber água.
 De agora em diante não há desculpa para não escrever corretamente.
@@ -7908,6 +7913,7 @@ De pescada, cauda.
 De pé, à cabeceira da cama, com os olhos estúpidos, a boca entreaberta
 De quais permissões meu bisavô precisa?
 De qual plataforma o trem vai?
+De qualquer forma, acho que devemos ser extremamente cautelosos.
 De qualquer forma, agimos com cautela, o que também agradecemos ao governo.
 De qualquer forma, esse assunto não é urgente.
 De qualquer forma, minha neta nasceu também.
@@ -7929,6 +7935,7 @@ De repente, ele sentiu-se tremendamente feliz.
 De repente, jogado no grande balde de gelo
 De repente, o menino ficou feliz por estar lá no armazém.
 De repente, o monstro desapareceu.
+De repente, um dos falcões fez um mergulho intermitente no céu, atacando o outro.
 De repente, uma ideia veio à mente
 De repente? sem razão aparente? o cavalo do menino começou a desacelerar.
 De repente? um dos falcões fez um mergulho intermitente no céu? atacando o outro.
@@ -8105,6 +8112,7 @@ Depois de escrever um relatório de bug?, deve-se verificar regularmente se algu
 Depois de executar a calibração?, a precisão é visivelmente melhor.
 Depois de frio, coloque o açúcar por cima e sirva.
 Depois de janeiro, podar a árvore frutífera.
+Depois de jogar tênis em realidade virtual, ele se sentiu tonto.
 Depois de jogar tênis em realidade virtual? ele se sentiu tonto.
 Depois de muito tempo, ela aguenta.
 Depois de muito tempo, ela gradualmente se recuperou da dor.
@@ -8210,6 +8218,7 @@ Desde esse incidente
 Desde o ano passado a startup fez algumas ações mais pontuais
 Desde quando?
 Desde que foi consertado, o carro não mostrou mais o problema.
+Desde que foi reparado, o carro não mostrou mais o problema.
 Desde que foi reparado? o carro não mostrou mais o problema.
 Desde que o mineiro sacrificou tudo para seu destino, o velho decidiu se envolver.
 Desde que recebi um cachorro?, as visitas regulares da raposa pararam.
@@ -8372,6 +8381,7 @@ Dezenove anos e já fez tudo isso?
 Dezesseis de Novembro
 Dezesseis é uma potência de dois
 Dezessete carrega significado político no Brasil
+Dezessete minutos depois, ela estava na água e quase se afogou.
 Dezessete minutos depois,? ela estava na água e quase se afogou.
 Dezessete é o número da besta
 Dezoito anos é a divisa da maioridade
@@ -9050,6 +9060,7 @@ Dê Diário da Casa Branca dois pontos
 Dê a ela as obras.
 Dê a esta série atual uma classificação de um.
 Dê a este livro uma classificação de quatro em seis.
+Dê a este romance quatro estrelas
 Dê a série atual duas estrelas.
 Dê ao Chater's Annual uma classificação de dois em seis.
 Dê casa para posada e você será beijado.
@@ -9237,6 +9248,7 @@ E lá estava você na cama.
 E mais nada.
 E me pegue uma caneta.
 E muita ajuda é necessária para fazer todo esse trabalho.
+E nem adianta explicar para o digníssimo.
 E no final? todos escaparam com apenas pequenas abrasões.
 E nos países catalães pode haver muito do primeiro e muito pouco do segundo.
 E não bata com nada.
@@ -10080,6 +10092,7 @@ Ele nunca chove, mas nos derrama.
 Ele nunca imaginou que perguntas sobre a vida seriam tão importantes para um pastor.
 Ele nunca sentiu minha falta
 Ele nunca tinha chorado na frente de suas próprias ovelhas.
+Ele nunca viu uma mamadeira até os seis meses de idade.
 Ele não amplia gradualmente sua alma como sua casa.
 Ele não assumiu a tarefa de regular as coisas secundárias da sociedade.
 Ele não conseguia dormir, ele não conseguia dormir.
@@ -11779,6 +11792,7 @@ Esta mulher está montando um cavalo bonito e bem preparado.
 Esta noite
 Esta noite eles queimaram um recipiente na frente da casa.
 Esta notificação é uma transcrição exata da resolução original contida no arquivo.
+Esta não era a única maneira viável de se produzir oxigênio puro.
 Esta não é a casa dela.
 Esta não é sua caixa de correio.
 Esta ocupação é constituída por um edifício destinado a restaurante e terraço anexo.
@@ -17290,6 +17304,7 @@ Mas deve entrar.
 Mas devemos especificar o que estamos falando.
 Mas distraio-me e faço.
 Mas e depois?
+Mas e o patê?
 Mas ela estará lá.
 Mas ela não disse nada.
 Mas ela não lhe cobrou nada.
@@ -18913,6 +18928,7 @@ No processo de comunicação e interação
 No processo, as pessoas continuam a ensinar as massas
 No próximo ano, lançaremos um novo conjunto de dados público.
 No próximo ano, você tem que ser mentalmente mais rico.
+No próximo final de semana será feriado.
 No que diz respeito ao tratamento do imposto sobre o valor acrescentado.
 No que diz respeito à língua estrangeira, basta oferecer uma.
 No que não foi acordado neste acordo, as normas gerais são aplicáveis.
@@ -19418,6 +19434,7 @@ Não foi um prazer reunir bons amigos?
 Não foi uma história incrível que lhe demos?
 Não foi verdade.
 Não funciona se o moinho estiver em pé e a língua estiver silenciosa.
+Não gosto de celebrar o ano novo
 Não gosto desta comida.
 Não grite sua felicidade, a inveja tem sono leve
 Não haverá insurreição vermelha!
@@ -20887,6 +20904,7 @@ O dia das bruxas está sendo cada vez mais comemorado
 O dia de trabalho anual acordado é um dia de trabalho eficaz.
 O dia escapa por toda a noite.
 O dia estava amanhecendo? e o pastor instigou suas ovelhas na direção do sol.
+O dia está muito quente hoje.
 O dia está nublado
 O dia está quente
 O dia foi esplêndido; Um verdadeiro domingo de Páscoa.
@@ -22953,6 +22971,7 @@ Oportunidades de emprego de adequação de mídia
 Oportunidades de lucrar nos leilões
 Oportunidades e estratégias
 Oposição secreta dos ricos à democracia.
+Ops! Derramei sem querer.
 Ora esta!
 Ora, como tudo cansa, esta monotonia acabou por exaurir-me também.
 Oratórios
@@ -23487,6 +23506,7 @@ Outra razão é que a cidade perdeu mais tarde os desenvolvimentos econômicos.
 Outras circunstâncias que impedem ou alteram os termos da adjudicação do contrato.
 Outras fontes de energia recebem subsídios, bem como?, muitas vezes muito maior.
 Outras fontes de energia também recebem subsídios, muitas vezes muito mais altos.
+Outras funções de natureza semelhante que podem ser ordenadas pelo seu superior hierárquico.
 Outras informações: aquelas contidas nas cláusulas administrativas específicas e no projeto de obras.
 Outras informações: veja as dobras.
 Outras modificações profundas no motor afetam a geração de alternativas e serão descritas posteriormente.
@@ -26064,6 +26084,7 @@ Quando íamos nadar ao meio-dia, tínhamos água, mas não era suficiente.
 Quanta bateria você ainda tem?
 Quanta custa essa televisão?
 Quanta maldade estará no décimo diagrama?
+Quanta zombaria
 Quantas bacias foram completadas por todas as quatro equipes?
 Quantas bactérias estão no balcão da cozinha?
 Quantas bebidas alcoólicas você consome a cada semana?
@@ -26306,6 +26327,7 @@ Que bem isso fará?
 Que bem vai fazer?
 Que bola de beisebol!
 Que bom!
+Que cansaço!
 Que carga de lixo na televisão hoje.
 Que caro!
 Que carro!
@@ -26751,6 +26773,7 @@ Queria ter um milhão de dólares.
 Querida, eu tenho um presente para você.
 Querida, você poderia me pegar um pouco de doce na farmácia local?
 Querida? Eu tenho um presente para você.
+Quero a lista de filmes exibidos à noite no cinema
 Quero café!
 Quero dar uma bebida à minha flor.
 Quero dizer, foi o senhor Mohammed.
