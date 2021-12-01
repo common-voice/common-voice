@@ -154,6 +154,7 @@ tg = Tacikçe
 th = Tayca
 ti = Tigrinya dili
 tig = Tigre
+tk = Türkmence
 tl = Tagalog
 tr = Türkçe
 tt = Tatarca
@@ -1082,10 +1083,12 @@ sc-howto-findpd-tips-2 = Mevzuatlar, kitaplar ve makaleler de işe yarayabilir a
 sc-howto-findpd-tips-3 = Maalesef henüz Wikimedia makalelerini kullanamıyoruz. Bu nedenle oradan kopyala yapıştır yapmayın.
 sc-howto-findpd-subtitle-2 = Yerel kuruluşlar ya da kişilerle ortaklık yapın
 sc-howto-findpd-partner-1 = İşbirliği yapmak isteyebilecek ve zaten kamu malı olarak bağışlayabilecekleri çok sayıda metne sahip birçok kamu kuruluşu var. Proje hakkında konuşmak ve yardım istemek için yerel üniversitelere, hükümete ve açık kaynak kuruluşlarına ulaşabilirsiniz.
+sc-howto-findpd-partner-2 = Uzman dilbilimciler de yardımcı olabilir. Üniversitelerin dilbilim ile ilgili bölümlerine (hem öğretmenler hem de öğrenciler) ulaşmaya çalışabilir ve Türkçede çok çeşitli farklı/yerel sesler içiren cümleler oluşturmaya yardımcı olup olamayacaklarını sorabilirsiniz.
 
 ## MY SENTENCES
 
 sc-my-title = Cümlelerim
+sc-my-description = Bu sayfa, gönderdiğiniz tüm cümlelerin bir özetini sunar. Ayrıca, daha önce iletilmiş cümleleri silmeniz gerekirse, yanındaki onay kutusunu işaretleyip altta yer alan &quot;Seçili cümleleri sil&quot;e tıklayabilirsiniz. Lütfen cümleleri yalnızca kesinlikle gerekliyse, örneğin bir cümlenin telif hakkıyla korunduğunu fark ederseniz silin.
 sc-my-loading = Cümleleriniz yükleniyor…
 sc-my-err-fetching = Cümleleriniz getirilirken hata oluştu. Lütfen tekrar deneyin.
 sc-my-no-sentences = Hiç cümle bulunamadı!
