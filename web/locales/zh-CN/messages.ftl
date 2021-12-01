@@ -1056,6 +1056,7 @@ sc-howto-findpd-tips-1 = 您可以从博客，视频档案，电影剧本等含�
 sc-howto-findpd-tips-2 = 政府资料、书籍和文章也是不错的资源，不过由于该类文本相对来讲更加正式，并不是最佳选择。
 sc-howto-findpd-tips-3 = 很遗憾，我们尚无权使用维基媒体基金会的文章，所以请勿从那里复制粘贴。
 sc-howto-findpd-subtitle-2 = 与当地组织或个人合作
+sc-howto-findpd-partner-1 = 许多公共组织有大量可以捐赠的公有领域文本，可以试着和它们合作。联系当地大学、政府机关和开源组织，讨论该项目并寻求他们的帮助。
 sc-howto-findpd-partner-2 = 如果您是专业的语言工作者，请尝试联系当地语言大学的教师和学生，了解他们是否可以协助收集该语言不同发音的形式
 
 ## MY SENTENCES
