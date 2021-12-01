@@ -375,6 +375,7 @@ skip-submission-note = 注：您仍需选择“听”或“说”来切换贡献
 off = 关
 on = 开
 help-accent = 需要口音方面的帮助？
+help-accent-explanation = 口音就是您发音的方式，通常受到您生活过的地方、会说的语言等诸多因素影响。您可以在此分享任何您认为有关的信息。
 
 ## Profile - Email
 
