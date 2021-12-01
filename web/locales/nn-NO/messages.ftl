@@ -958,9 +958,14 @@ contribution-misreadings-example-8-explanation = [Heilt feil innhald]
 contribution-background-noise-title = Bakgrunnsstøy
 see-more = <chevron></chevron>Vis meir
 see-less = <chevron></chevron>Vis mindre
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = Heim
 sc-header-add = Legg til
 sc-header-review = Vurdering
@@ -973,25 +978,90 @@ sc-footer-privacy = Personvern
 sc-footer-cookies = Infokapslar
 sc-login-signup-button = Logg inn/Registrer deg
 sc-logout-button = Logg ut
-sc-profile-title = Profil: { $username }
-sc-review-title = Vurder setningar
-sc-review-loading = Lastar setningar…
+
+## HOME
+
+
+## HOW-TO
+
+sc-howto-addsen-title = Legg til nye setningar
+
+## MY SENTENCES
+
+sc-my-title = MIne setningar
+sc-my-loading = Lastar setningane dine…
+sc-my-no-sentences = Fann ingen setningar!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Kjede:  { $source }
+sc-my-delete = Slett valde setningar
+sc-my-deleting = Slettar valde setningar…
+
+## REJECTED
+
+sc-rejected-title = Avviste setningar
+sc-rejected-loading = Lastar avviste setningar…
+sc-rejected-none-found = Fann ingen avviste setningar!
+
+## STATS
+
 sc-stats-title = Statistikk
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = Siste oppdatering: { $lastUpdate }
 sc-stats-last-update-never = Siste oppdatering: Aldri
 sc-stats-updating = Oppdaterer…
+
+## ADD
+
+sc-submit-err-select-lang = Vel eit språk.
+sc-submit-err-add-sentences = Legg til setningar.
+sc-submit-err-add-source = Legg til ei kjelde.
 sc-submit-title = Legg til setningar
 sc-submit-select-language =
     .labelText = Vels språk
+sc-submit-ph-one-per-line =
+    .placeholder = Ei setning per linje
+
+## ADD LANGUAGE
+
 sc-add-lang-could-not-add = Klarte ikkje å leggje til språk
 sc-add-lang-sec-button = Legg til språk
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-sentences-title = Stadfest nye setningar
 sc-confirm-button-text = Stadfest
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
 sc-login-err-failed = Mislykka innlogging
 sc-login-err-try-again = Prøv igjen.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
 sc-personal-err-remove = Klarte ikkje å fjerne språk
 sc-personal-your-languages = Dine språk:
 sc-personal-remove-button = fjern
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } lagt til av deg
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+sc-review-title = Vurder setningar
+sc-review-loading = Lastar setningar…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Kjelde: { $sentenceSource }
 sc-review-form-button-reject = Avvis
 sc-review-form-button-skip = Hopp over
@@ -999,6 +1069,9 @@ sc-review-form-button-approve = Godkjenn
 sc-review-form-button-submit =
     .submitText = Fullfør vurdering
 sc-review-link = Vurdering
+
+## SETTINGS
+
 sc-settings-title = Innstillingar
 
 # [/SentenceCollector]
