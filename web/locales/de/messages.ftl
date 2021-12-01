@@ -154,6 +154,7 @@ tg = Tadschikisch
 th = Thailändisch
 ti = Tigrinya
 tig = Tigre
+tk = Turkmenisch
 tl = Tagalog
 tr = Türkisch
 tt = Tatarisch
