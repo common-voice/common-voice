@@ -340,6 +340,7 @@ hidden = 隐藏
 visible = 可见
 native-language =
     .label = 母语
+profile-form-add-accent = 添加新的自定义口音“{ $inputValue }”
 profile-form-submit-save = 保存
 profile-form-submit-saved = 已保存
 male = 男
@@ -1045,7 +1046,7 @@ sc-howto-review-criteria-1 = 句子必须拼写正确。
 sc-howto-review-criteria-2 = 句子必须语法正确。
 sc-howto-review-criteria-3 = 句子必须说得出来。
 sc-howto-review-criteria-4 = 若句子符合上述标准，请点击“通过”按钮。
-sc-howto-review-criteria-5 = 若句子未达到上述条件，请点击「拒绝」按钮。若您不确定句子是否可用，可以忽略该句子，跳到下一句。
+sc-howto-review-criteria-5 = 若句子未达到上述条件，请点击“驳回”按钮。若您不确定句子是否可用，也可以略过，跳到下一句。
 sc-howto-review-criteria-6 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
 sc-howto-findpd-title = 在公有领域查找现有的句子
 sc-howto-findpd-subtitle = 在网上搜搜看
@@ -1165,6 +1166,9 @@ sc-confirm-ready =
         [0] 没有句子可以提交！
        *[other] 已有 { $readyCount } 句准备好可以提交！
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = 还有 { $countOfUnreviewed } 句未审核。您也可以在提交前先审核您的句子。
 sc-confirm-button-text = 确认
 sc-confirm-uploading = 正在上传句子。根据句子数量而定可能需要几分钟。上传完成前请不要关闭本网站。
 
@@ -1236,10 +1240,12 @@ sc-criteria-item-1 = 句子必须拼写正确。
 sc-criteria-item-2 = 句子必须语法正确。
 sc-criteria-item-3 = 句子必须说得出来。
 sc-criteria-item-4 = 若句子符合上述标准，请点击右方的“通过”按钮。
+sc-criteria-item-5-2 = 若句子未达到上述条件，请点击“驳回”按钮。若您不确定句子是否可用，也可以略过，跳到下一句。
 sc-criteria-item-6 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
 
 ## REVIEW
 
+sc-review-lang-not-selected = 您尚未选择任何语言，请到<profileLink>个人资料页</profileLink>选择要贡献的语言。
 sc-review-title = 审核句子
 sc-review-loading = 正在加载句子...
 sc-review-select-language = 请选择审核句子的语言。
