@@ -333,6 +333,8 @@ add-language = ꯂꯣꯟ ꯍꯥꯞꯆꯤꯟꯂꯨ
 faq-what-cv-q = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯍꯥꯢꯕꯁꯤ ꯀꯔꯤꯅꯣ?
 faq-why-important-q = ꯃꯁꯤ ꯀꯔꯤꯒꯤ ꯃꯔꯨꯑꯣꯢꯔꯤꯅꯣ?
 faq-why-different-speakers-q = ꯑꯩꯈꯣꯢꯅ ꯀꯩꯗꯧꯕꯒꯤ ꯂꯣꯟ ꯱ꯗ ꯃꯥꯟꯅꯗꯕ ꯋꯉꯥꯡꯂꯣꯢ ꯃꯌꯥꯝ ꯆꯪꯉꯤꯕ ꯀꯔꯤꯒꯤꯅꯣ?
+faq-why-my-lang-q = ꯍꯧꯖꯤꯛꯐꯥꯎꯕ ꯑꯩꯒꯤ ꯂꯣꯟ ꯌꯥꯎꯗ꯭ꯔꯤꯕꯁꯤ ꯀꯔꯤꯒꯤꯅꯣ?
+faq-where-src-from-2-q = ꯍꯧꯔꯛꯐꯝ ꯋꯥꯍꯩ ꯋꯥꯇꯥ ꯑꯁꯤ ꯛꯔꯥꯢꯗꯒꯤ ꯂꯥꯛꯄꯅꯣ?
 
 ## ABOUT US
 
