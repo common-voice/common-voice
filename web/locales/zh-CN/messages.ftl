@@ -1035,6 +1035,7 @@ sc-howto-addsen-item-2 = 关于数字的问题：源文本中不应包含数字�
 sc-howto-addsen-item-3 = 缩写和首字母缩略词。原始文本中应避免使用“USA”或“ICE”等缩写和首字母缩略词，因为它们的阅读方式可能与其拼写不一致。此外，一个缩写可能有多个正确读法。例如，首字母缩略词“ICE”可以读作“I-C-E”，也可读作一个单词。
 sc-howto-addsen-item-4 = 符号问题：源文本中尽量不要包含特殊符号和标点符号，除非确实有需要。例如，英文单词“don’t”和“we’re”中的撇号应予保留，但“@”和“#”之类的特殊符号一般不需要包含在源文本中。
 sc-howto-addsen-item-5 = 外国字母。字母或文字须符合各语言用法。例如，“ж”是俄语字母，但英文或中文不会用到，因此不应出现在原始文本中。
+sc-howto-addsen-item-6 = 各语言可能会有<validationRulesLink>自己的验证规则</validationRulesLink>及其他要求。若一语言没有特定的验证文件，我们将使用英语通用规则。
 sc-howto-addsen-post-1 = 我们更喜欢自然/对话式的句子。虽然语音多样性和句子中的不同词汇很重要，但我们努力让记录句子的过程尽可能的有趣。因此，如果您能尽量保持句子自然/吸引人，那就再好不过了。
 sc-howto-cite-title = 如何引用
 sc-howto-cite-item-1 = 您可以包含网站，例如“Common Voice - https://commonvoice.mozilla.org/”
