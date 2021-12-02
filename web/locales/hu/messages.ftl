@@ -154,6 +154,7 @@ tg = Tádzsik
 th = Thai
 ti = Tigrinya
 tig = Tigre
+tk = Türkmén
 tl = Tagalog
 tr = Török
 tt = Tatár
