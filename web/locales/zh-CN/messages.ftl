@@ -1066,6 +1066,7 @@ sc-howto-findpd-partner-2 = 如果您是专业的语言工作者，请尝试联�
 ## MY SENTENCES
 
 sc-my-title = 我的句子
+sc-my-description = 您可以在此页面概览所有已提交的句子。 有需要的话，也可以在此勾选句子，并点击底部的“删除选中的句子”进行删除。 请只在确有必要时（例如提交后才发现句子受版权保护）删除该句子。
 sc-my-loading = 正在加载您的句子...
 sc-my-err-fetching = 获取您的句子失败，请重试。
 sc-my-no-sentences = 找不到句子！
