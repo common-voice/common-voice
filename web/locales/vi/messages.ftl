@@ -154,6 +154,7 @@ tg = Tajik
 th = Thái
 ti = Tigrinya
 tig = Tigre
+tk = Turkmen
 tl = Tagalog
 tr = Thổ Nhĩ Kỳ
 tt = Tatar
