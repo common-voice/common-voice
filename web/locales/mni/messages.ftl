@@ -153,6 +153,7 @@ tg = ꯇꯥꯖꯤꯛ
 th = ꯊꯥꯏ
 ti = ꯇꯤꯒ꯭ꯔꯤꯅ꯭ꯌꯥ
 tig = ꯇꯥꯢꯒ꯭ꯔꯦ
+tk = ꯇ꯭ꯔꯛꯃꯦꯟ
 tl = ꯇꯥꯒꯥꯂꯣꯒ
 tr = ꯇꯔꯀꯤꯁ
 tt = ꯇꯥꯇꯥꯔ
@@ -335,9 +336,23 @@ faq-why-important-q = ꯃꯁꯤ ꯀꯔꯤꯒꯤ ꯃꯔꯨꯑꯣꯢꯔꯤꯅꯣ?
 faq-why-different-speakers-q = ꯑꯩꯈꯣꯢꯅ ꯀꯩꯗꯧꯕꯒꯤ ꯂꯣꯟ ꯱ꯗ ꯃꯥꯟꯅꯗꯕ ꯋꯉꯥꯡꯂꯣꯢ ꯃꯌꯥꯝ ꯆꯪꯉꯤꯕ ꯀꯔꯤꯒꯤꯅꯣ?
 faq-why-my-lang-q = ꯍꯧꯖꯤꯛꯐꯥꯎꯕ ꯑꯩꯒꯤ ꯂꯣꯟ ꯌꯥꯎꯗ꯭ꯔꯤꯕꯁꯤ ꯀꯔꯤꯒꯤꯅꯣ?
 faq-where-src-from-2-q = ꯍꯧꯔꯛꯐꯝ ꯋꯥꯍꯩ ꯋꯥꯇꯥ ꯑꯁꯤ ꯛꯔꯥꯢꯗꯒꯤ ꯂꯥꯛꯄꯅꯣ?
+faq-what-is-cv = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯍꯥꯏꯕꯁꯤ ꯀꯔꯤꯅꯣ?
+faq-using-cv = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯁꯤꯖꯤꯟꯅꯔꯤ
+faq-description = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯃꯣꯓꯤꯂꯥꯒꯤ ꯁꯔꯨꯛ ꯑꯃꯅꯤ ꯍꯧꯗꯣꯛꯄꯤꯗꯨꯅ ꯃꯦꯆꯤꯟ ꯑꯁꯤꯇꯁꯦꯡꯕ  ꯃꯤꯑꯣꯏꯕꯅ ꯋꯥ-ꯉꯥꯡꯕ ꯇꯝꯕꯤꯔꯤ ꯫
+faq-search-for-answers =
+    .label = ꯄꯥꯎꯈꯨꯝꯁꯤꯡ ꯊꯤꯕ
 
 ## ABOUT US
 
+about-title = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯀꯔꯤꯒꯤ?
+about-speak = ꯋꯥ ꯉꯥꯡꯉꯨ
+about-listen = ꯃꯨꯟꯅ ꯇꯥꯎ
+about-partners = ꯈꯣꯡꯂꯣꯏ
+about-nav-why-common-voice = ꯀꯔꯤꯒꯤ?
+about-nav-how-it-works = ꯀꯔꯝꯅ?
+about-nav-partners = ꯈꯣꯡꯂꯣꯏ
+about-nav-get-involved = ꯌꯥꯎꯁꯤꯟꯕ
+mycroft-subtitle = ꯈꯨꯠꯁꯦꯝꯒꯤ ꯍꯩꯁꯤꯡꯕ
 
 ## Glossary
 
