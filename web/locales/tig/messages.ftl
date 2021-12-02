@@ -642,6 +642,7 @@ record-button-label = ሶትኩም ሰጀሎ
 share-title-new = <bold>ስደውና</bold>ብዕዳም ሙሳህሚን አግል ንርከብ
 keep-track-profile = ተቀዱምኩም ታብዖ እብ ናይ ኖስ ባያናት
 login-to-get-started = እተ/ሕሳብ ፍታሕ እግል ታኣንብት
+target-segment-first-card = እግል ሰልፍ ክፋል ደፍና ትሳሕሞ ሄሌኩም
 target-segment-generic-card = ዲብ ክፋል ሓደፍ ትሳህሞ ሄሌኹም
 target-segment-first-banner = ሰልፍ ናይ { $locale } ክፋል ሓደፍ እግል ንክለቕ ስደና
 target-segment-add-voice = ሶትኩም ወሰኮ
@@ -1180,6 +1181,7 @@ sc-review-link = ራጅዕ
 
 ## SETTINGS
 
+sc-settings-ui-language = ሉቀት ናይ ሙስተኸደም ዋጅሃት
 sc-settings-language-translated-warning = ላሰፍሓት ናይ አላ ሉቀት ካምለት ትርጅምት የህሌትኒ ። እንዘ <pontoonLinkLink>on Pontoon</pontoonLinkLink>እንደ ጌስኩም ዲብ ተርጃመተን እግል ትስደው ትቀድሩ
 sc-settings-skipped-decription = በዲር አንደ ትራጀዕ ጁመል ኣሕለፍካ ፣ እለን ሓቆ ወርከካሀን ኩለን ቀደም ኣዘ ላሓለፍካሃን ጁመል ምን ሓዲስ እግል ልትራኣያቱ ። እሊ ዲብላ ሉቀት ኢላዕተምድኒ
 sc-settings-show-all-button = ኩለን በዲር ላሓለፍኮሀን ጁመል አርኤኒ
