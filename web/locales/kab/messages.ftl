@@ -1206,9 +1206,12 @@ sc-personal-remove-button = kkes
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } ttwarnant sɣur-k
+sc-personal-not-added = Ur terniḍ ara yakan tutlayin.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = Tiwtilin n usenqed
+sc-criteria-title = Tiwtilin n usenqed
 
 ## REVIEW
 
