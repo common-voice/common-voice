@@ -849,7 +849,7 @@ share-goal-type-speak = ᱨᱚᱲ ᱠᱟᱱᱟᱭ
 share-goal-type-listen = ᱟᱧᱡᱚᱢ ᱮᱫᱟᱭ
 share-goal-type-both = ᱨᱚᱲ ᱟᱨ ᱟᱧᱡᱚᱢᱮᱫᱟᱭ
 # LINK will be replaced with the current URL
-goal-share-text = #Commonvoice ᱨᱮ ᱥᱟᱰᱮ ᱫᱟᱱ ᱞᱟᱹᱜᱤᱫ ᱤᱧᱟᱜ ᱱᱤᱡᱚᱨ ᱩᱫᱩᱜ ᱤᱧ ᱛᱮᱭᱟᱨ ᱠᱮᱜᱼᱟ -- ᱤᱧ ᱥᱟᱞᱟᱜ ᱡᱩᱲᱟᱹᱣᱜ ᱯᱮ ᱟᱨ ᱜᱟᱲᱚ ᱮᱢᱚᱜ ᱯᱮ ᱢᱮᱥᱤᱱ ᱪᱮᱫᱚᱜ ᱪᱷᱚ ᱞᱟᱹᱜᱤᱫ ᱟᱨ ᱪᱤᱞᱠᱟ ᱥᱟᱹᱨᱤ ᱦᱚᱲ ᱠᱚ ᱨᱚᱲᱟ { $link }
+goal-share-text = #Commonvoice ᱨᱮ ᱥᱟᱰᱮ ᱫᱟᱱ ᱞᱟᱹᱜᱤᱫ ᱤᱧᱟᱜ ᱱᱤᱡᱚᱨ ᱩᱫᱩᱜ ᱤᱧ ᱛᱮᱭᱟᱨ ᱠᱮᱜᱼᱟ -- ᱤᱧ ᱥᱟᱞᱟᱜ ᱡᱩᱲᱟᱹᱣᱜ ᱯᱮ ᱟᱨ ᱜᱚᱲᱚ ᱮᱢᱚᱜ ᱯᱮ ᱢᱮᱥᱤᱱ ᱪᱮᱫ ᱪᱷᱚ ᱞᱟᱹᱜᱤᱫ ᱟᱨ ᱪᱮᱞᱠᱟ ᱥᱟᱹᱨᱤ ᱦᱚᱲ ᱠᱚ ᱨᱚᱲᱟ { $link }
 weekly-goal-created = ᱟᱢᱟᱜ ᱦᱟᱹᱯᱛᱟᱠᱤᱭᱟᱹ ᱩᱫᱩᱜ ᱫᱚ ᱛᱮᱭᱟᱨ ᱦᱩᱭ ᱮᱱᱟ
 daily-goal-created = ᱟᱢᱟᱜ ᱫᱤᱱᱟᱹᱢ ᱩᱫᱩᱜ ᱛᱮᱭᱟᱨ ᱦᱩᱭᱮᱱᱟ
 track-progress = ᱟᱢᱟᱜ ᱞᱟᱦᱟ ᱟᱨ ᱠᱚᱨᱟᱣ ᱠᱚ ᱨᱮᱭᱟᱜ ᱞᱟᱦᱟ ᱱᱚᱶᱟ ᱥᱟᱦᱴᱟ ᱨᱮ ᱧᱮᱞ ᱢᱮ
