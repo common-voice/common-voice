@@ -356,15 +356,40 @@ mycroft-subtitle = ꯈꯨꯠꯁꯦꯝꯒꯤ ꯍꯩꯁꯤꯡꯕ
 
 ## Glossary
 
+sentence-collection = ꯋꯥꯍꯩꯄꯔꯦꯡ ꯈꯣꯝꯖꯤꯟꯕ
+sst = ꯈꯣꯟꯖꯦꯜ_ꯗꯒꯤ_ꯋꯥꯍꯩ ꯋꯥꯇꯥ
+sst-explanation = ꯈꯣꯟꯖꯦꯜ_ꯗꯒꯤ_ꯋꯥꯍꯩ ꯋꯥꯇꯥ (ꯈꯗꯋ) ꯁꯤꯟ-ꯁꯥꯔꯣꯜ ꯑꯁꯤꯅ ꯈꯣꯟꯖꯦꯜꯒꯤ ꯗꯥꯇꯥ ꯑꯗꯨ ꯋꯥꯍꯩ ꯋꯥꯇꯥꯗ ꯑꯣꯟꯊꯣꯛꯄ
+de-identified = ꯃꯁꯛ ꯈꯪꯗꯣꯛꯇꯕ
 
 ## Error pages
 
+error-code = { $code } ꯑꯔꯥꯟꯕ
 
 ## Data
 
+data-download-yes = ꯍꯣꯏ
+data-download-deny = ꯅꯠꯇꯦ
+data-other-goto = { $name }ꯗ ꯆꯠꯂꯨ
+data-other-download = ꯗꯥꯇꯥ ꯆꯤꯡꯊꯧ
+dataset-date = ꯆꯩꯆꯠ
+license = ꯑꯌꯥꯕ: <licenseLink>{ $license }</licenseLink>
+license-mixed = ꯌꯥꯟꯁꯤꯟꯅꯕ
+terms-agree = ꯑꯩ ꯌꯥꯔꯦ
+terms-disagree = ꯑꯩ ꯌꯥꯅꯤꯡꯗꯦ
+review-recording = ꯑꯃꯨꯛꯍꯟꯅ ꯌꯦꯡꯕ
 
 ## Datasets Page
 
+language = ꯂꯣꯟ
+# File size in gigabytes
+size = ꯆꯥꯎꯕꯒꯤ ꯆꯥꯡ
+cv-license = ꯑꯌꯥꯕ
+audio-format = ꯈꯣꯟꯖꯦꯜꯒꯤ ꯃꯑꯣꯡ
+number-of-voices = ꯈꯣꯟꯖꯦꯜꯁꯤꯡ ꯃꯁꯤꯡ
+splits = ꯁꯦꯠꯇꯣꯛꯅꯕ
+email-to-download = ꯆꯤꯡꯊꯅꯕ ꯏꯃꯦꯜ ꯍꯥꯞꯄꯨ
+size-gigabyte = ꯖꯤꯕꯤ
+size-megabyte = ꯑꯦꯝꯕꯤ
 
 ## Download Modal
 
