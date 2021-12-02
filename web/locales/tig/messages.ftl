@@ -480,9 +480,11 @@ data-other-goto = { $name } ጊስ
 data-other-download = በያናት ክረ
 data-bundle-button = እክብት ምጅሙዓት ባያናት ካሩ
 data-bundle-description = በያናት ናይ Common Voice ው ምስሉ ላዓል ላሃላ ኩሉ ናይ ሶት በያናት
+release-version = እስዳር
 dataset-date = ታሪኽ
 license = ሩኽሰት: <licenseLink>{ $license }</licenseLink>
 license-mixed = ሕቡር
+data-download-singleword-title = እግል ዎሮ ከሊመት ሓደፍ ለቡ ክፋል ክረ
 review-terms = Common Voice እንደ ታኣስታዕሙሎ እብ <termsLink>ሽሩጥ</termsLink> ው <privacyLink>ሓበረ ናይ ክሱስየት</privacyLink>
 terms-agree = አዋፍቅ
 terms-disagree = ይአዋፍቅኒ
@@ -539,6 +541,7 @@ ready-to-validate = ዲብ ታሕቂቅ ናይ ጁመል ትስደው ታሓዙ?
 more = ዝያዳ
 close = ድብኦ
 download = ኣውርድ
+dataset-version = እስዳር
 
 ## Download Modal
 
@@ -607,6 +610,7 @@ contribute-more =
        *[other] { $count } ዝያደት እግል ቲደው ጃህዛም ህሌኩም?
     }
 record-cta = ተስጂል ኣንብቶ
+record-platform-not-supported-desktop = ዲብ desktop devices ትሳህሞ ትቀድሮ አንደከረኩም ...
 record-platform-not-supported-ios-non-safari = ዲብ ንዛም iOS , Safari ኣስታዕምሎ እግል ተስጂል ...
 record-must-allow-microphone = መክረፎን ገል ልሽቀ ስምሖ
 record-no-mic-found = መክረፎን ኢትረከባኒ
