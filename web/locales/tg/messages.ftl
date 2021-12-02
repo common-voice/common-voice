@@ -230,6 +230,10 @@ benefits = Бартариҳо
 
 ## What's public
 
+whats-public = Оммавӣ чист?
+email-not-public = Мо почтаи электронии шуморо оммавӣ намекунем.
+recordings-and-locale-public = Шумораи сабтҳо ва забонҳое, ки шумо дар он саҳм мегузоред, оммавӣ хоҳад буд.
+username-optin-public = Шумо метавонед интихоб кунед, ки номи корбарии худро оммавӣ ё беном гардонед.
 username-email-not-demographic = Номи корбар ва почтаи электронии шумо бо маълумоти нашршуда иртибот нахоҳад дошт.
 
 ## Speak & Listen Shortcuts
@@ -315,6 +319,7 @@ add-language = Илова кардани забон
 faq-title = Саволҳои зиёд такроршаванда
 faq-what-cv-q = «Common Voice» чист?
 faq-why-important-q = Чаро ин муҳим аст?
+faq-what-quality-q = Барои истифода бурдани клипи овозӣ дар маҷмӯаи додаҳо кадом сатҳи сифати аудио лозим аст?
 faq-what-is-cv = «Common Voice» чист?
 faq-using-cv = Истифодаи «Common Voice»
 faq-search-for-answers =
