@@ -296,7 +296,7 @@ const UserClient = {
         const client = obj[row.client_id];
         obj[row.client_id] = {
           ...pick(row, 'client_id', 'accent', 'age', 'gender'),
-          locales: { ...compileLocales(client.locales, row) },
+          locales: { ...compileLocales(client?.locales, row) },
         };
         return obj;
       }, {})
