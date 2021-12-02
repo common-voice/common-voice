@@ -1021,6 +1021,7 @@ sc-logout-button = 退出
 ## HOME
 
 sc-home-title = 欢迎使用 Common Voice 语句收集工具
+sc-home-intro = 语句收集工具（Sentence Collector）是 <commonVoiceLink>Common Voice</commonVoiceLink> 项目的一部分。此工具让项目贡献者能够收集验证由社区成员提供的句子。您也可以使用此工具来导入、清理网上找到或收集的中小型公有领域语料库。所有句子都必须为公有领域内容，每周会将通过审核的句子导入到 Common Voice 的 repository，并在网站每次新部署时发布。
 sc-home-collect-title = 收集句子
 sc-home-collect-text = 帮助我们撰写或收集公有领域的句子。
 sc-home-review-title = 审核句子
