@@ -379,6 +379,7 @@ skip-submission-note = Tazmilt: akken ad tbedleḍ tamahilt n utteki ilaq ad fer
 off = Sens
 on = Rmed
 help-accent = Tesriḍ tallelt ɣef uɣdebbu?
+help-accent-explanation = Aɣdebbu-ik d tarrayt i tsemraseḍ deg usenṭeq n wawalen, izmer yeṭṭafar imeḍqan anida tettidireḍ, neɣ tutlayin-nniḍen i tettmeslayeḍ d ddeqs n sebbat-nniḍen. Tzemreḍ ad tebḍuḍ yid-neɣ meṛṛa talɣut i twalaḍ telha.
 
 ## Profile - Email
 
@@ -1144,9 +1145,36 @@ sc-lang-info-add-more = <addLink>Rnu ugar n tefyar tura!</addLink>
 
 ## REVIEW
 
+sc-review-title = Senqed tifyar
+sc-review-loading = Abeddel n tefyar…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Aɣbalu: { $sentenceSource }
+sc-review-form-button-reject = Agi
+sc-review-form-button-skip = Suref
+sc-review-form-button-approve = Qbel
+sc-review-form-button-submit =
+    .submitText = Fak asenqed
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ulac tifyar yettwasneqden.
+        [one] 1 n tefyirt tettwasenqed. Tanemmirt!
+       *[other] { $sentences } n tefyar ttwasneqdent. Tanemmirt!
+    }
+sc-review-form-review-failure = Asenqed ur izmir ad yettwasekles. Ttxil-k ɛreḍ tikkelt-nniḍen ticki.
+sc-review-link = Asenqed
 
 ## SETTINGS
 
+sc-settings-title = Iɣewwaṛen
+sc-settings-ui-language = Tutlayt n ugrudem
+# VALIDATION
+sc-validation-number-of-words = Ilaq tafyirt ad tegber gar 1 d 14 n wawalen (ddan)
+sc-validation-no-numbers = Ur ilaq tafyirt ad tegber izwilen
+sc-validation-no-symbols = Ur ilaq ara tafyirt ad tegber izamulen
+sc-validation-no-abbreviations = Ur ilaq ara tafyirt ad tegber asiwzel
 
 # [/SentenceCollector]
 
