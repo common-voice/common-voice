@@ -519,7 +519,7 @@ download-language = { $language } ክረው
 validated-hours = ላትሓቀቅያ ሳዓት
 recorded-hours = ላትስጅለያ ሳዓት
 whats-inside = ዲብ ጅዋ ባያናት Common Voice ሚ ሃላ?
-want-dataset-update = ሓደሶት እግል ልብፃሓኩም ታሓዙ ዶልላ ኑስኸት ሓዳስ ናይ መጅሙዓት በያናት Common Voice ናፋገር? ዲብ ነሽረት ኣኽባርና ሰጀሎ
+want-dataset-update = ሓደሶት እግል ልብፃሓኩም ታሓዙ ዶልላ ኑስኸት ሓዳስ ናይ መጅሙዓት በያናት ሶት ሕበር ናፋገር? ዲብ ነሽረት ኣኽባርና ሰጀሎ
 subscribe = ኣሽተርክ
 get-started-speech = ሂጋ ኣሌለዩት ኣንብቶ
 other-datasets = ብዕድ ናይ ሶት መጅሙዓት ብያናት
@@ -527,7 +527,7 @@ feedback-q = ራኣይ ብኩም?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ መስደሩ ፈቱሕ ላገባኣ ኣዳዋት እግል ላሓደሳ ናይ ሃገጊ AI ሞደል በኑ ላህለው ባሕሲን ቱ
 resource-coqui-info = <coquiLink>Coqui</coquiLink>ዲብ ተክኖሎጀየት ናይ ፍቱሕ ሂጋ ልትኸሰስ ። መሽሩዖም ዲብ አላት ናይ STT ው TTS ላላዕተመድ ዓሚቅ ታዕሊም ሸምል
 community-playbook = ናይ ማሕበር ሰብ ፕለይቡክ
-resource-playbook-info = <playbookLink>ላነፍዕ ሓበረ ርከቦ</playbookLink>ዲብ ኩላ ናይ Common Voice ርሕለትኩም ምን ተርጀመት ዲብ እስትዕማል ናይ መጅሙዓት በያናት፣ ወ ከመሁማ ከፎ ከም ትዋስሎ ምስል ማሕበርና
+resource-playbook-info = <playbookLink>ላነፍዕ ሓበረ ርከቦ</playbookLink>ዲብ ኩላ ናይ ሶት ሕበር  ርሕለትኩም ምን ተርጀመት ዲብ እስትዕማል ናይ መጅሙዓት በያናት፣ ወ ከመሁማ ከፎ ከም ትዋስሎ ምስል ማሕበርና
 data-other-librispeech-description = LibriSpeech corpus ናይ 1000 ሳትዓ ላገብእ 16Khz ተስጂል ሂጋ ኤንግሊዚ ምን መሽሩዕ LibriVox ናይ ከቱብ ሶት ላማትጸት ታ
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = ጅስም ( corpus ) TED-LIUM ምን ናይ ሶት ሂጋ ው ኣትከታትባሑ ዲብ ምውቂዕ ላምትዋፍር ምኑ ፋግር ቱ
@@ -550,7 +550,7 @@ download-helpus = ናይ ሶት ተክኖሎጂየት ማሕበር እግል ን
 download-form-email =
     .label = ኢሜልኩም ኣቱ
     .value = ሹክረን ገል ናተስል ብኩም ቱ
-download-back = ዲብ መጅሙዓት በያናት Common Voice ዓቅብል
+download-back = ዲብ መጅሙዓት በያናት ሶት ሕበር  ዓቅብል
 download-no = ላ ሹክረን
 
 ## Contact Modal
@@ -568,7 +568,7 @@ request-language-title = ጣለብ ናይ ሉቀት
 request-language-form-language =
     .label = ሉቀት
 request-language-success-title = ለእከት ናይ ሉቀት ጠለብኩም ንጅሓት, ሹክረን
-request-language-success-content = ኣዘ ቅሩብ ማዕሉማት ጌል ንላኽ እግልኩም ቱ ኣፎ ሉቀትኩም ዲብ Common Voice ታኣትዋ
+request-language-success-content = ኣዘ ቅሩብ ማዕሉማት ጌል ንላኽ እግልኩም ቱ ኣፎ ሉቀትኩም ዲብ ሶት ሕበር ታኣትዋ
 select-language = ሉቀት ሕረ
 other-language = ብዕድ ሉቀት
 
@@ -602,7 +602,7 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold>ክሊፕ
        *[other] <bold>{ $count }</bold>ክሊፕ
     }
-goal-help-recording = Common Voice ዲብ ናይ <goalPercentage></goalPercentage> ምንላ ዮምየት  ናይ ተስጂል ሃደፍ { $goalValue } እግል ትብጻ ሳዓድኹማ!
+goal-help-recording = ሶት ሕበር  ዲብ ናይ <goalPercentage></goalPercentage> ምንላ ዮምየት  ናይ ተስጂል ሃደፍ { $goalValue } እግል ትብጻ ሳዓድኹማ!
 goal-help-validation = Common Voice ዲብ ናይ <goalPercentage></goalPercentage> ምንላ ዮምየት  ናይ ታሕቂቅ ሃደፍ { $goalValue } እግል ትብጻ ሳዓድኹማ!
 contribute-more =
     { $count ->
@@ -648,7 +648,7 @@ keep-track-profile = ተቀዱምኩም ታብዖ እብ ናይ ኖስ ባያና
 login-to-get-started = እተ/ሕሳብ ፍታሕ እግል ታኣንብት
 target-segment-first-card = እግል ሰልፍ ክፋል ደፍና ትሳሕሞ ሄሌኩም
 target-segment-generic-card = ዲብ ክፋል ሓደፍ ትሳህሞ ሄሌኹም
-target-segment-first-banner = ሰልፍ ናይ { $locale } ክፋል ሓደፍ እግል ንክለቕ ስደና
+target-segment-first-banner = ሰልፍ ናይ ሶት ሕበር  ኣብ { $locale } ክፋል ሓደፍ እግል ንክለቕ ስደና
 target-segment-add-voice = ሶትኩም ወሰኮ
 target-segment-learn-more = ዘያደት አምሮ
 
@@ -697,7 +697,7 @@ toward-next-goal = ግላ ላተለ ሓደፍ
 goal-reached = ሓደፍ በፃሓ
 clips-you-recorded = ክሊፕ ላስጅልኩመን
 clips-you-validated = ክሊፕ ላትሓቀቅኩም ምነን
-todays-recorded-progress = ናይ ዩም ናይ Common Voice ክሊፕ ስጅሎት ተቀዱም
+todays-recorded-progress = ናይ ዩም ናይ ሶት ሕበር ክሊፕ ስጅሎት ተቀዱም
 todays-validated-progress = ናይ ዩም ናይ Common Voice ክሊፕ ሓቀቆት ተቀዱም
 stats = አሕሳኢየት
 awards = ጅዋእዝ
@@ -758,7 +758,7 @@ how-many-per-day = ተማም! ክም ክሊፕ ዲብ ዩም?
 how-many-a-week = ተማም! ክም ክሊፕ ዲብ ሳምን?
 which-goal-type = ትትሃገው ታሓዙ ትስምዖ ሚ ክለኤቱ?
 receiving-emails-info = ኢሜል ከምስል ናይ ሃደፍ ላለዝክር ው ናይ Common Voice ተጠውር ው ኣኽባር እግል ልምጸኩም ስጅላም ህሌኩም
-not-receiving-emails-info = ኢሜል ከምስል ናይ ሃደፍ ላለዝክር ው ናይ Common Voice ተጠውር ው ኣኽባር እግል ልምጸኩም ስጅላም <bold>ይህሌኩምኒ</bold>
+not-receiving-emails-info = ኢሜል ከምስል ናይ ሃደፍ ላለዝክር ው ናይ ሶት ሕበር ተጠውር ው ኣኽባር እግል ልምጸኩም ስጅላም <bold>ይህሌኩምኒ</bold>
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] ክሊፕ
@@ -784,7 +784,7 @@ share-goal = ሓደፍየ አሻርክ
 
 ## Profile Delete
 
-delete-q = ላናይ ሶት ተስጂልኩም እጌል ልትወርከ ትጥለቦ ታሓዘ ዋላ ዲብ ናይ Common Voice መጅሙዓት በያናት ለትረፍ
+delete-q = ላናይ ሶት ተስጂልኩም እጌል ልትወርከ ትጥለቦ ታሓዘ ዋላ ዲብ ናይ ሶት ሕበር መጅሙዓት በያናት ለትረፍ
 keep = ኣክብ
 remove = ወርኪዮ
 profile-form-delete = መለፍ ኽሱሲ ወርክዮ
@@ -829,7 +829,7 @@ read-more-about = ዲብላ ናይና ሰፍሓት About አንደ ግስኹም 
 ## DemoLayout
 
 demo-get-started = የላ ናኣንብት
-demo-welcome = ዳሓን መጻአኹም ዲብ Common Voice
+demo-welcome = ዳሓን መጻአኹም ዲብ ሶት ሕበር
 demo-welcome-subheader = ዓን ኢሊ መሽሩዕ አግል ታአምሮ ው ትሳህሞ ታሓዙ?
 
 ## Demo Datasets
@@ -931,7 +931,7 @@ sc-logout-button = ፍግረት
 
 ## HOME
 
-sc-home-title = ዳሓን መጽው ዲብ ናይ Common Voice ጁመል ኣኬባይ
+sc-home-title = ዳሓን መጽው ዲብ ናይ ሶት ሕበር ጁመል ኣኬባይ
 sc-home-collect-title = ጁመል ኣኽብ
 sc-home-collect-text = ሰደና እብ ክታበት ኦው አካበት ጁመል ሙልኬት ዓመት
 sc-home-review-title = ጁመል ራጂዕ
@@ -943,7 +943,7 @@ sc-howto-addlang-title = ላትሸቀ እባ ሉቀት ወስኽ
 sc-howto-addlang-text = ከም ኣቴኹም ሉቀትኩም ዲብ ናይ ኖስ ክስም አንደ ግስኹም ትሕረዋ ቃድሮ
 sc-howto-addsen-title = ሓዲስ ጁመል ወስኽ
 sc-howto-addsen-item-5 = ሐሩፍ ኣጅነብየት ። ሐሩፍ ዲብላ ሉቀት ላትትሃገዋ እግል ታሃለ ባ፣ ከም ምሳል, “ж” ናይ ሉቀት ሩስያ ሓርፍ ቱ ዲብ ሉቀት እንግሊዝ ያሃላን ው ኣቡ ዲብ ናይ እንግሊዝ መስደር ክታበት ገል ልዝሃር ይኣለቡ
-sc-howto-cite-item-1 = መውቅዕ ኢንተርነት ትውስኮ ትቃድሮ፣ ከምሰል "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-1 = መውቅዕ ኢንተርነት ትውስኮ ትቃድሮ፣ ከምሰል "ሶት ሕበር - https://commonvoice.mozilla.org/"
 sc-howto-review-title = ጁመል ራጂዕ
 sc-howto-review-subtitle = ላጅመል እገል እሊ ላተለ መቃየስ ከም ለትማሊእ እትኣከድ:
 sc-howto-review-criteria-1 = ላጅምለት ግሩም ትትነጠቅ ሃላ እግላ
@@ -992,7 +992,7 @@ sc-stats-updating = ልትሓደስ ህላ ...
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
-sc-stats-summary = ናይ Common Voice ጁመል ኣኬባይ ኣስኽ ኣዘ { $sentenceCount } ጁምለት ኣከባ ዲብ { $languageCount } ሉቀት
+sc-stats-summary = ናይ ሶት ሕበር ጁመል ኣኬባይ ኣስኽ ኣዘ { $sentenceCount } ጁምለት ኣከባ ዲብ { $languageCount } ሉቀት
 
 ## ADD
 
