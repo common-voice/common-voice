@@ -1042,15 +1042,54 @@ sc-howto-review-title = Senqed tifyar
 
 ## MY SENTENCES
 
+sc-my-loading = Asali n tefyar-ik…
+sc-my-err-fetching = Tuccḍa deg tririt n tefyar-ik. Ttḋil-k ɛreḍ tikkelt-nniḍen.
+sc-my-no-sentences = Ulac tifyar!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Tuzna: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Aɣbalu:  { $source }
+sc-my-delete = Kkes tifyar yettwafernen
+sc-my-deleting = Tukksa n tefyar yettwafernen…
+sc-my-err-failed-delete = Tukksa n tefyar yettwafernen ur teddi ara… Ttxil-k ɛreḍ tikkelt-nniḍen!
 
 ## REJECTED
 
+sc-rejected-title = Tifyar yettwagin
+sc-rejected-loading = Asali n tefyar yettwagin…
+sc-rejected-err-fetching = Tuccḍa deg unadi n tefyar yettwagin. Ttḋil-k ɛreḍ tikkelt-nniḍen.
+sc-rejected-none-found = Ulac tifyar yettwagin!
 
 ## STATS
 
+sc-stats-title = Tidaddanin
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Abeddel aneggaru: { $lastUpdate }
+sc-stats-last-update-never = Abeddel aneggaru: urǧin
+sc-stats-updating = Abeddel...
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Aleqqaḍ n tefyar Common Voice ilqeḍ-d { $sentenceCount } n tefyar deg { $languageCount } n tutlayin!
 
 ## ADD
 
+sc-submit-err-select-lang = Ttxil-k fren tutlayt.
+sc-submit-err-add-sentences = Ttxil-k rnu tifyar.
+sc-submit-err-add-source = Ttxil-k rnu aɣbalu.
+sc-submit-err-confirm-pd = Ttxil-k sentem dakken tifyar-a d taɣult tazayazt.
+sc-submit-prompt =
+    .message = Tifyar ur ttwaznent ara, tebɣiḍ ad teffɣeḍ?
+sc-submit-title = Rnu tifyar
+sc-submit-select-language =
+    .labelText = Fren tutlayt
+sc-submit-add-sentences = Rnu tifyar n <wikipediaLink>taɣult tazayat</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Yiwet n tefyirt deg uzirig neq deg udur
+sc-submit-from-where = Ansa i d-kkant tefyar-a n  <wikipediaLink>taɣult tazayazt</wikipediaLink>?
 sc-submit-button =
     .submitText = Azen
 sc-submit-guidelines = Ttxil-k wali <howToLink>iwellihen</howToLink>.
@@ -1133,12 +1172,40 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Senqed tura!</reviewLink>
 sc-lang-info-add-more = <addLink>Rnu ugar n tefyar tura!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Tifyar yettwaqeblen.
+        [one] 1 tefyirt tettwaqbel.
+       *[other] { $validatedSentences } n tefyar ttwaqeblent.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ulac tifyar yettwagin.
+        [one] 1 n tefyirt tetwwagi.
+       *[other] { $rejectedSentences } n tefyar ttwagint.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Tuqqna ur teddi ara
+sc-login-err-try-again = Ttxil-k ɛreḍ tikkelt-nniḍen.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Amaɣnu: { $username }
+sc-personal-err-lang-not-found = Ur izmir ara ad ikkes tutlayt: tutlayt ulac-itt
+sc-personal-err-remove = Ur izmir ara ad yekkes tutlayt
+sc-personal-your-languages = Tutlayin-ik:
+sc-personal-remove-button = kkes
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } ttwarnant sɣur-k
 
 ## REVIEW CRITERIA
 
