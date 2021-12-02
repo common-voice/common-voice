@@ -2536,7 +2536,6 @@ Abhay is very sweet.
 Abhay is worried about something.
 Abhay works on time.
 Abide with me.
-Abort.
 About Us and Site Notices
 About a hundred a month.
 About eight next morning I witnessed the arrival of two constables and a sergeant.
@@ -2569,7 +2568,6 @@ Absolutely as arranged.
 Absolutely loved the Morris dancers!
 Absolutely noiseless, as usual.
 Absolutely not in it at all.
-Absolutely.
 Absolutely. That's all totally fine.
 Abusive use of alcohol, tobacco or coffee, causes this sickness.
 Academic journals are more publicly accessible if they are published open access.
@@ -2592,6 +2590,7 @@ According to the prayer book, marriage is an honourable estate.
 According to the timetable, the group leaders had programmed a very full day.
 According to these writers a twin is a re-oriented slip band.
 Accordingly there ought to be one for it.
+Account for new users are blocked by default.
 Accountability must be baked into the design of automated systems.
 Accountancy is the name of the profession for accountants
 Accumulators are sometimes called condensers.
@@ -2647,6 +2646,7 @@ Adam Patch was not well, said Shuttleworth indignantly.
 Adam was not well, said Shuttleworth indignantly.
 Adaptiveness is the peculiarity of human nature.
 Add a collaborator to the repository.
+Add celery and onion in butter for six minutes, stirring occasionally, until tender.
 Add fairy-princess gag.
 Add four grams of butter to the self raising flour.
 Add some Cilantro.
@@ -2981,6 +2981,7 @@ Alice—Alice—I won’t forget it again.
 Alignment is the first quality to be considered in purchasing a typewriter.
 Alkaline batteries are recyclable.
 All Celia's heart and youth rose in revolt against her extremity.
+All Clipart are Released into the Public Domain.
 All Drinking Water Topics
 All His pictures are like that, if you’ve noticed.
 All I know is, I'm going to have it.
@@ -5663,7 +5664,6 @@ Best ever chocolate crepe recipe.
 Best of luck, and may God help you.
 Best plan to get the books out of him first.
 Best regards, Michael
-Best regards.
 Bet she brings old Bradley to terms.
 Beta is the second letter of the Greek alphabet.
 Beth had disappeared behind Jonathon, and Grace was asleep.
@@ -7210,6 +7210,7 @@ By this time she was very angry.
 By this time the news has got into the court.
 By this time the news will be on its way.
 By unplugging the holes, we let the soap-suds off the decks.
+By using our site, you consent and are in agreeance with our privacy policy.
 By using the horizontal swing, it may often be brought into focus.
 By virtue of that power we shall remain in power.
 By way of a start, I read the note again.
@@ -7270,6 +7271,7 @@ Can I speak plainer?
 Can I stroll along with you?
 Can I take your hat and coat, sir?
 Can I trust your assertion, Isabella?
+Can I use cliparts for commercial uses?
 Can Josh come too?
 Can algorithms be racist or is it the data?
 Can anyone hear me?
@@ -7768,6 +7770,7 @@ Colin appears rather sad this afternoon
 Colin shook his head.
 Colin, is that you?
 Collaboration is key.
+Collection is done anonymously and is not tied to any identifiable information.
 Collins, you must marry.
 Collins, you must send a servant with them.
 Colloquialism language is commonly used.
@@ -7948,6 +7951,7 @@ Consumer electronics are not built to last like they used to.
 Consumers want an appealing, stylish and durable product.
 Contact Us to ask a question, provide feedback, or report a problem.
 Content Management Systems are outdated now-a-days.
+Continue to add broth until desired thickness. Add seasonings.
 Continuous Integration has been a lifesaver for us.
 Continuous effort – not strength or intelligence – is the key to unlocking our potential.
 Contrary to popular belief, the Great Wall of China is not visible from space.
@@ -7958,6 +7962,7 @@ Convergence of character, as it may be called, has likewise played a part.
 Conversation is, as a rule, reduced to a regulation level of decorous flatness.
 Conversational and acquiescent on both sides.
 Convolutional Neural Networks are great to work with images.
+Cookies can be disabled in your browser.
 Cookies must be baked at the right temperature.
 Cool and methodical — after the first collapse.
 Cool story, bro!
@@ -8038,6 +8043,7 @@ Courage was one of the great staple outfits of the ship.
 Cousin John, perhaps, is better.
 Cousin, compose yourself.
 Cover Art Archive is a database of cover art.
+Cover with lid or aluminum foil and bake for thirty minutes;
 Covered with ink and mire generally, washing only on alternate Thursdays.
 Cowboys occasionally show remarkable versatility in their tastes and pursuits.
 Crack, crack, crack, they came one after the other.
@@ -9318,6 +9324,7 @@ Dynamic Link Libraries are reusable modules of windows software applications.
 Dyslexia is a learning difficulty experienced in reading and writing.
 Dyspraxia is a developmental co-ordination disorder.
 Each accelerator carried twelve or thirteen letter-carriers.
+Each artist at Openclipart releases all rights to the images they share at Openclipart.
 Each belongs to a different category.
 Each buoy is to be divided horizontally into four.
 Each day she became a more vital part of him.
@@ -9852,7 +9859,6 @@ Fanny turned, smiling very gently on Paul.
 Fans were beating down the door at the launch of the first iPhone.
 Far away to the southward a second squadron was coming.
 Far beyond my hopes.
-Far from it.
 Faraday illustrated the laws of these induced currents.
 Fare well, my beloved friend.
 Faridabad is located in Gujarat right?
@@ -10021,6 +10027,7 @@ For Helene gave her a look, a smile of reassurance.
 For I look at another of your questions.
 For I was thinking desperately of what I had found in Scudder’s pocket-book.
 For Miriam he was too quick.
+For Quartering large bodies of armed troops among us:
 For Students and Teachers
 For a Salvadorian he was not such a calamitous little man.
 For a few moments he ate in silence.
@@ -10066,6 +10073,7 @@ For a second their hostess looked bewildered.
 For a space Max stood without a movement.
 For a space he could not move.
 For a space he watched these.
+For a successful Guided Trial, please ensure all contact information is accurate.
 For a time he doubted his ears.
 For a time the exciting thrill of his adventure was gone.
 For a week he was in a critical condition.
@@ -10084,6 +10092,8 @@ For an instant he saw Pierre drawn like a silhouette against the sky.
 For apart from her happiness, her own, it seemed, was at stake too.
 For at times, no doubt, he is wrong too.
 For certain grave reasons his tale must wait for four hours.
+For cutting off our Trade with all parts of the world:
+For depriving us in many cases, of the benefits of Trial by Jury:
 For directly I opened my eyes on the morrow, I saw daylight.
 For each instrument two plates will be standardized.
 For each of these princes a suitable establishment was provided.
@@ -10111,6 +10121,7 @@ For himself, he had neither feeling nor reason.
 For his hand touched the bandage over her mouth — tentatively.
 For hours he talked to her, when she was well.
 For how many, sir?
+For imposing Taxes on us without our Consent:
 For in the face of all aridity and disenchantment
 For in this house, gentlemen, we have nothing more to do.
 For instance, do you know why the testator disinherited you?
@@ -10178,6 +10189,7 @@ For this I should be grateful, should I not?
 For this she put the blame on Miriam.
 For this you’re on your own, but I have confidence in you.
 For today, I have, my friend.
+For transporting us beyond Seas to be tried for pretended offences
 For twenty minutes I sat there, wondering what I was to do next.
 For two days he clung to the ticker tape as to a lifeline.
 For two hours not a word passed between them.
@@ -10208,6 +10220,7 @@ Form and function.
 Forms going up — carpenters coming down — lamps, glasses, harps.
 Formula one drivers train to be physically healthy to increase their endurance.
 Formula one racing is performed by highly skilled drivers.
+FortiGate Guided Trial. Thirty Days Free!
 Fortunately Wednesday is one of his days.
 Fortunately it is not far.
 Fortunately, however, it did cease.
@@ -10361,6 +10374,7 @@ Gentlemen plunderers are far more pernicious than the lumpers or mudlarks.
 Gentlemen, I am a professional man.
 Gentlemen, I beg your pardon; this is my friend Mr. Trundle.
 Gentlemen, your hands and names.
+Gently add the celery mixture to the bread mixture until cubes are evenly coated.
 Gently rock the cradle to put the baby to sleep.
 Geoff always got annoyed when people spelt his name Jeff.
 Geoffrey Blake pegged along the hard road of industrious poverty.
@@ -10403,6 +10417,7 @@ Get out, sir, this instant.
 Get right up this minute and tell me.
 Get run over by a steam-roller or something?
 Get started as an entrepreneur using backing from family or friends.
+Get started with a White Glove Guided Trial of FortiGate on Google Cloud.
 Get up and dress?
 Get up and move the furniture back.
 Get up — that's enough.
@@ -12138,6 +12153,7 @@ He has delightful hair and a weak mouth.
 He has dematerialized into a memory, into an amiable ghost.
 He has disobeyed me.
 He has early onset fatigue.
+He has endeavoured to prevent the population of these States;
 He has entirely dedicated himself to editorial criticism.
 He has fully appreciated the beneficent effects of this tonic wine.
 He has gone back to New York with a bed bug in his ear.
@@ -12155,7 +12171,6 @@ He has lost his grip completely.
 He has more brains than he needs.
 He has much to tell you, but not today.
 He has never missed a day before.
-He has never proposed again.
 He has no chance.
 He has no debts — at least, nothing worth speaking about.
 He has no idea of the value of money.
@@ -13006,7 +13021,6 @@ He remained single as a lifestyle choice.
 He remained staring about him, rotating slowly backwards.
 He remained stationary in the muffin-cap and leathers.
 He remains in his chambers, clouded and depressed.
-He remarked their incredulity.
 He remembered now that he had wanted to sleep.
 He remembered some words spoken by a stranger.
 He remembered the things that he had meant to say.
@@ -14520,6 +14534,7 @@ Hearing the clack of the gate she stood in suspense.
 Heart disease can be prevented with a good diet and health guidance.
 Heartfree was too much flustered to examine the woman with sufficient art.
 Hearthrug, near the fender.
+Heat oven to three hundred fifty degrees.
 Heathcliff advanced to the hearth.
 Heathcliff approached the fire, where my mistress and I stood silent.
 Heathcliff gazed after him, and sighed.
@@ -15711,6 +15726,7 @@ How can I help you?
 How can I prevent him from being so insensitive?
 How can I submit comments?
 How can I take you seriously if you can't even form a coherent sentence?
+How can I unblock it?
 How can I, my dear Esther, with nothing settled!
 How can he bowl if his hand has a injury?
 How can she do so?
@@ -15834,6 +15850,7 @@ How do we encourage greater involvement with the overall vision?
 How do we identify cancer early?
 How do we know whom he is deceiving there?
 How do we reconcile these two things?
+How do we use your information?
 How do you balance on a Segway?
 How do you contrive to live here without them?
 How do you deal with the unintended impacts of machine learning?
@@ -16109,6 +16126,7 @@ How to freeze fruit and vegetables.
 How to live a better life.
 How to make an edible fruit bouquet.
 How to make pancakes.
+How to save an file on my Computer using Safari?
 How to use JavaScript Debugger?
 How valiantly I went at it that first day.
 How very kind of you!
@@ -17249,7 +17267,6 @@ I did up the bundle again, and put the paper conspicuously beside it.
 I did use to think you were possessed.
 I did wrong to sigh, Jo.
 I did, indeed.
-I did.
 I didn't anticipate having to do everything on my own.
 I didn't come here to talk about photographs.
 I didn't do that.
@@ -17579,7 +17596,6 @@ I don’t know that I can think of any.
 I don’t know what it is.
 I don’t know what they do teach in schools.
 I don’t know what to do with him.
-I don’t know.
 I don’t like green Christmases.
 I don’t like you standing over me.
 I don’t love you!
@@ -18790,6 +18806,7 @@ I love athletic activities.
 I love bright red drinks, don’t you?
 I love cheese; my favourite is camembert.
 I love dearly to hear people describe their travels.
+I love eating ugali
 I love hard work; I enjoy hard work.
 I love her goofy laugh.
 I love her new look: what style!
@@ -18817,7 +18834,6 @@ I love to see a young man that keeps things slick around him.
 I love to watch New Year's Eve fireworks.
 I love traditional Cornish clotted cream
 I love you too.
-I love you.
 I loved that episode!
 I made a picture of it.
 I made a speculative offer.
@@ -19373,7 +19389,6 @@ I remember fitting-in a floppy drive on my desktop tower.
 I remember her perfectly. Leave that rat alone, Jip!
 I remember it perfectly.
 I remember that guy, I think it's Thomas.
-I remember that night.
 I remember that was the older word.
 I remember that you did seem dubious, sir.
 I remember the pamphlet he wrote — a curious production.
@@ -21561,6 +21576,7 @@ If a person can't do a thing for first five years.
 If a quarrel took place, the whole play was spoilt.
 If a space ship fuel is depleted, does that mean they are stranded?
 If all citizens do their role of putting votes to the right person.
+If any questions should arise you may contact us using the below information:
 If anything, you are too attentive.
 If at any time I could not supply them, it was an injury.
 If constantly worn it tends to promote slovenliness.
@@ -21857,6 +21873,7 @@ In Surmi village near Pehowa in Kurukshetra district in Haryana farmers showed b
 In Switzerland, hardly a glance, hardly a word.
 In Uttar Pradesh, the yatra went through several districts like Muzaffarnagar and Meerut.
 In Wilford churchyard the dahlias were sodden with rain — wet black-crimson balls.
+In a mixing bowl mix all other ingredients
 In a basket of clean clothes we found a dirty little pig.
 In a bit the room will be warmer.
 In a bittersweet turn of events, the brothers reunited after their mother died.
@@ -21944,6 +21961,7 @@ In black and white, of course — not like this.
 In both the assertions there was some foundation of truth.
 In bracket stairs the internal angle of the steps is open to the end.
 In came Casper, thin, yellow, and in soiled khaki.
+In casserole dish, mix green beans, soup and milk.
 In central Colorado the continental divide is a wilderness of desolate peaks.
 In church and waiting on trains, like.
 In company with them we will inspect the villa.
@@ -22290,6 +22308,7 @@ Infinitely dismayed, he seemed to bulge in protest.
 Inflammatory speeches were delivered.
 Influential leaders of opinion warn us against materialism, secularism, unbelief.
 Information and society.
+Information is collected from you when you register on our site.
 Initial readings indicate an influx of toxic chemicals.
 Innovation takes perspiration.
 Inoffensive ranchers in remote valleys were held up by armed men.
@@ -22965,7 +22984,6 @@ It is conceivable the burglar broke in through the back door.
 It is creating a lot of accidents on the road.
 It is crucial to write your name on an exam paper!.
 It is curious that the Japanese should have anticipated Europe.
-It is dangerous.
 It is dependent on how quickly the bank will approve my mortgage application.
 It is deplorable how few.
 It is designed and guided, like the human mind.
@@ -24495,6 +24513,7 @@ It's been slick and peppy this fall.
 It's been wonderful.
 It's been years since I've seen you!
 It's best to use washing-up liquid if you're going to wash the dishes
+It's better if made ahead of time & heated with turkey drippings.
 It's better than doing Thucydides with Pugh.
 It's bound to work.
 It's business, and I don't know business.
@@ -25567,6 +25586,7 @@ Lead team, outreach team, or the above church can help you find mentors.
 Leaders who had come for election campaigning were confronted with black flags by farmers.
 Leadership
 Learn about relief options for businesses.
+Learn more on the Librarians page.
 Learn to walk before you run.
 Learning and humanization quickly followed.
 Learning from experiment failures will lead to new discoveries.
@@ -25783,6 +25803,7 @@ Liah, for goodness sake smile a little.
 Liberate Hong Kong; revolution of our times
 Liberty is within — not without.
 Librarians always cite their sources.
+Librarians are volunteers in charge of protecting and nurturing the Open Clipart collection.
 Libraries are the final bastion.
 Libraries must become up to date with technology and help visitors learn new skills.
 Libraries must find new ways to help people with their careers.
@@ -26266,6 +26287,7 @@ Max felt a queer regret over Ava’s inches.
 Max is a fully qualified veterinarian.
 Maximilian forgot, with extreme levity, his promises and alliances.
 May God forgive me!
+May I Use Openclipart for?
 May I ask a question?
 May I ask any questions?
 May I ask you a question, Richard?
@@ -27516,6 +27538,7 @@ Nearly all toxicologists agree on that.
 Nebula must not be regarded as in all cases a very local phenomenon.
 Necessity is the mother of all invention.
 Need I worry about it?
+Need a Legal Disclaimer?
 Need a hand?
 Need more to elaborate on this.
 Need to elaborate on this.
@@ -28042,6 +28065,7 @@ Nor did the latter escape.
 Nor do I know yet.
 Nor does fury sound like bury.
 Nor have I heard what became of him.
+Nor have We been wanting in attentions to our British brethren.
 Nor is it intended for much conversation.
 Nor the man to allow his junior to be walked over either?
 Nor was Elam Harnish an exception.
@@ -28156,7 +28180,6 @@ Not much of a one, sir.
 Not much of that, I should think.
 Not much time for it, I should say?
 Not much, I'm afraid.
-Not much.
 Not much; they won't let me.
 Not much; you may have my share.
 Not now, not yet.
@@ -28731,7 +28754,6 @@ Oh yes, I felt that I must pit myself against him.
 Oh yes, by next Friday or Saturday.
 Oh yes, quite impossible!
 Oh — it's one of these crazy schemes.
-Oh!
 Oh! Sorry to know about that.
 Oh!’ he shouted, suddenly jumping up with a short scream.
 Oh, Becky I’m so proud!
@@ -29188,6 +29210,7 @@ Once upon a time there were four little rabbits.
 Once we have moved, I'm hoping to acquire a poodle.
 Once we open, in he comes.
 Once you've caught me you could easily imprison me.
+Once your first clipart has been reviewed and accepted, your account will be unblocked.
 One Saturday afternoon Agatha and Miriam were upstairs, dressing.
 One Sunday evening they attained to their old rare harmony.
 One Yatra is taking the asthi Kalash through Uttarakhand.
@@ -29592,8 +29615,10 @@ Our realism is not a physically monistic realism, or a merely logical realism.
 Our records show that you never existed.
 Our red-coated postmen drop out of the accelerators.
 Our relationship eventually petered out.
+Our repeated Petitions have been answered only by repeated injury.
 Our scheme is a great shareholding company.
 Our senses do not perceive it.
+Our site uses cookies.
 Our smart setters live a sort of up-in-the-air life mentally.
 Our social order will probably seem very complex to you.
 Our spirits can commune.
@@ -30591,6 +30616,7 @@ Regular practice improves performance.
 Regular small overpayment's on a mortgage is the best way to reduce interest.
 Regulation and governance removes ambiguity.
 Regulatory Requirements
+Reheat with turkey drippings or add chicken broth so it does not dry out.
 Relate it all.
 Related Pages
 Relax! It's Sunday and our favorite show is about to begin!
@@ -30615,6 +30641,7 @@ Reminds me of Cannes.
 Remiss in anything, my dear!
 Remonstrances were useless.
 Remotely lock my car.
+Remove from heat and drain off the fat.
 Remuneration is usually calculated according to supply and demand.
 Renewables are quickly taking over the Australian energy grid.
 Rents are considerably higher in the inner parts of the city.
@@ -32998,7 +33025,6 @@ Show me relevant results.
 Show me the highlights of the match of the day.
 Show me the morning wood.
 Show me the workers.
-Show me your hands!
 Show off your inner groove.
 Showing empathy is what makes us human.
 Shrewd creatures, those lawyers.
@@ -33926,6 +33952,7 @@ Such delightful times as we are having!
 Such doings discomposed Mr. Bennet exceedingly.
 Such goings on, Sammy!
 Such gradients are definitely related to the axes of the individual.
+Such has been the patient sufferance of these Colonies;
 Such ignorance!” sniffed Too-Too.
 Such is my passage engaged on the steamer.
 Such is my reward and doom.
@@ -36832,7 +36859,6 @@ The garments waved onward, the faces poured by more abundantly.
 The garrison must help.
 The gas escaped from the edge of the manifold.
 The gate is open at eleven.
-The gate was closed.
 The gates automatically opened on approach.
 The gates had been closed by order of the National Commission.
 The gay and non-binary communities are very diverse.
@@ -37320,7 +37346,6 @@ The lady amassed the largest collection of records the world has ever known.
 The lady looked at herself in the glass.
 The lady made no answer, but she smiled again.
 The lady started.
-The lady turned aside her head.
 The lady was branded an anathema.
 The lady was young, blonde, and dressed in blue.
 The lady, as we have already stated, was near the door.
@@ -38710,7 +38735,6 @@ The shopping trolley provided by Tesco had very wonky casters
 The shops will be quite full and fussy.
 The shot wasn't on the board.
 The show was a combination of fashion and failure.
-The show was broadcast live.
 The showcase is handcrafted using oak wood.
 The shutters are up, and the glass will fall outside.
 The sick person may at once enjoy the convenience of a cradle.
@@ -39272,6 +39296,7 @@ The typical holidaymaker in the nineteen-fifties would often go to a seaside res
 The ultimate good desired is better reached by free trade in ideas.
 The ultrasound confirmed the baby is healthy.
 The umpires, all in short panties, conferred.
+The unanimous Declaration of the thirteen united States of America
 The undercut, or fillet of a sirloin, is best eaten when hot.
 The undertaker has treated me ill.
 The undeveloped germ doubtless existed in the previous epic composition.
@@ -39525,7 +39550,6 @@ The world cup was held in Brazil.
 The world doesn't revolve around me.
 The world has altered since your day, altered very strangely.
 The world has become aware of its invisible citizen.
-The world has changed.
 The world has passed beyond that prettiness.
 The world is in crisis.
 The world is on your shoulders.
@@ -41320,6 +41344,7 @@ They are all very well for the run of people.
 They are almost new, you see.
 They are asteroids revolving about the sun.
 They are at it, are they?
+They are at the core of the daily life of the website.
 They are big trees and require plenty of room.
 They are born, they are thwarted and they die.
 They are caged up with all the others.
@@ -41922,6 +41947,7 @@ They tipped up the jar, and she scrambled out.
 They toiled forward along a tiny path on the river’s lip.
 They told me he was there.
 They told me they were going to take me away.
+They too have been deaf to the voice of justice and of consanguinity.
 They too have their story.
 They took a bike ride on the forest trails.
 They took a multitude of titles.
@@ -41962,6 +41988,7 @@ They want this show to air right next to a Christian program!
 They want to talk about the extreme swearing on some of your shows.
 They want us to speak to them?
 They wanted a furnished cottage for two weeks.
+They welcome new users, organize requests and improve quality everyday.
 They went about it as gleefully as schoolboys at recess doing stunts.
 They went across the dark yard to the gate.
 They went along a little walk on planks, under a sunny red-brick wall.
@@ -42217,6 +42244,7 @@ They’ve all had a bath this morning.
 They’ve been most everywhere but here.
 They’ve had their time.
 They’ve not been sleeping, I know that.
+Thin the paste with slowly adding broth.
 Things are sweeter when they're lost.
 Things began to look black for Harry.
 Things did happen occasionally, even in this God-forgotten metropolis.
@@ -42265,12 +42293,14 @@ This a most infamous coach.
 This account may be rather overcharged.
 This aching heart, for instance.
 This act can potentially become a criminal offense if done in such a way.
+This act of "sharing" is the foundation Openclipart is based upon.
 This afternoon you shall go to Brinkley Court, an honoured guest.
 This ain't a licence.
 This ain't no rest-room.
 This ain't no time for foolery.
 This airport does intercontinental flights.
 This also became part of the daily schedule.
+This also can be made ahead of time and heated in microwave with drippings.
 This amused and stimulated her.
 This announces the first day of the Terror.
 This answers to the way in which I visualize for them.
@@ -43215,6 +43245,7 @@ To overcome procrastination, tackle one task at a time.
 To post a letter, look for a red postbox or pillar box
 To produce replicas of the design, the operator strikes this matrix into lead.
 To protect against invasion, a range of defences were built in Kent and Sussex.
+To prove this, let Facts be submitted to a candid world.
 To put an end to black-marketing of fertilisers.
 To read the Bible through in one year, read three chapters each week day.
 To reduce disruption, students should take water bottles to school for water during class.
@@ -43495,6 +43526,7 @@ Try some of this salmon.
 Try some popular short stories.
 Try the "High Voltage Sid Collection" for further information.
 Try turning it off and then turning it back on.
+Try using powerful Intrusion Prevention Service and continuous threat intelligence from FortiGuard Labs.
 Try, try, and try again.
 Trying to be romantically metropolitan.
 Tudor surveyed him with withering disgust.
@@ -43682,6 +43714,7 @@ User authentication is required.
 Users must authenticate credentials first.
 Using contextual analysis, machine learning algorithms can make predictions that make sense.
 Using decomposition we can find the final value.
+Using stuffing bread works best. Bread that is not sliced.
 Usually he preferred to go out with a scarf round his neck.
 Usually he rang his bell and laughed towards the house.
 Uttering shriek upon shriek, she sank upon the ground.
@@ -44390,6 +44423,7 @@ We have purposely avoided any discussion on gradualism as an element in emancipa
 We have rather a fragment of a picture than the picture itself.
 We have recession of the gum and of the sockets of the teeth.
 We have regular arguments about sex.
+We have reminded them of the circumstances of our emigration and settlement here.
 We have said that the specific productivity of labor fixes wages.
 We have searched the room.
 We have seen above remarkable examples of the specialization of the meaning of words.
@@ -44497,7 +44531,6 @@ We mounted ten guns, besides chasers.
 We moved on to new and more fertile pastures.
 We must achieve our own salvation.
 We must act, Comrade Jackson!
-We must act.
 We must advertise it.
 We must all agree in that.
 We must anaesthetize the skin first.
@@ -44543,6 +44576,7 @@ We must talk about it!
 We must treat people humanely.
 We must trust to you and time to set him right.
 We must, purely for the sake of reference, give this opinion a name.
+We must, therefore, acquiesce in the necessity, which denounces our Separation
 We mustn't forget to pack a flannel.
 We need a greater emphasis on reform.
 We need a lot of time for principal photography.
@@ -45693,7 +45727,6 @@ What do you mean by 'something'?
 What do you mean by beautiful?
 What do you mean by coming here and frightening my cow?
 What do you mean by flopping yourself down and praying against me?
-What do you mean by it?
 What do you mean by this outrageous conduct.
 What do you mean by tumbling into my bed all covered with smuts?
 What do you mean by “If you really are a Queen”?
@@ -45880,8 +45913,10 @@ What in the world are those girls about now?
 What in the world are you doing here?
 What in the world?
 What induced you to do such a thing?
+What information do we collect?
 What is Diana like?
 What is Freetekno?
+What is Open Clipart?
 What is Saki's manner, what his magic talisman?
 What is Skywarn and where can I get more information?
 What is a Severe Thunderstorm or Tornado Watch?
@@ -45891,6 +45926,7 @@ What is a little mine?
 What is a lorry?
 What is a meritocracy?
 What is a strong determinant that a subscriber will cancel their Gym membership?
+What is a vector clipart?
 What is all that soot in the fender?
 What is an Oxford comma?
 What is an alabaster brow?
@@ -46350,7 +46386,6 @@ What, what?
 What, you have not forgotten it yet!
 What, you know him, do you?
 What, you were thirsty, were you?
-What?
 What? Drugs in the Ronald McDonald?
 Whatever company he comes into, he is enabled to make himself one of them.
 Whatever else he lacks, he has the art of covering up his tracks.
@@ -46824,6 +46859,7 @@ Who are not to be disturbed by ideas.
 Who are the Munchkins?
 Who are the Wizards?
 Who are the lawyers?
+Who are the librarians?
 Who are they from?
 Who are those depressed-looking young women who have just gone by?
 Who are to rejoice at nothing and be sorry for nothing.
@@ -47114,6 +47150,8 @@ Why is her fringe not straight?
 Why is it best, sir?
 Why is it so difficult, my dear?
 Why is it that some domains cost very little.
+Why is my account blocked?
+Why is my clipart flagged as 'need review'?
 Why is that a taboo?
 Why is that funny?
 Why is the classroom empty?
@@ -47694,7 +47732,6 @@ Ya! That's true. I have heard of that earlier too.
 Ya, I know about it. Why what happened?
 Ya, if that happened it will be their kids entrace into politics.
 Ya, that's true.
-Ya.
 Ya. Also the roads in the state are way messy.
 Ya. If most of us who has not taken the vaccine.
 Ya. That is creating more mess right now.
@@ -47867,7 +47904,6 @@ Yes, you did; it was a bargain between us.
 Yes, you have.
 Yes, you may wash the dishes.
 Yes, you suspected him.
-Yes.
 Yes; 'codicils,' they call them.
 Yes; I went to Agatha’s to tea.
 Yes; a present for mother, and here it is!
@@ -48123,6 +48159,7 @@ You called her Jenny, didn't you?
 You came for me, no doubt?
 You came while I was still in bed.
 You can add new sentences on the "Common Voice Sentence Collector" website.
+You can add turkey or chicken broth or milk to make the stuffing moister.
 You can also put a splash of it in when baking for good measure.
 You can also use river or lake water.
 You can apply for membership of the board.
@@ -48166,9 +48203,11 @@ You can learn how to build parts for a prosthetic arm.
 You can lie as snug here as if you were in a moss-hole.
 You can listen to the entire bible on youtube
 You can make a direct transfer to our bank account.
+You can make ahead of time and then reheat in the oven
 You can not find a replacement for Mahendra Singh as a captain.
 You can pop off, Jack.
 You can punish me in any way you like, Hazel.
+You can read more on the Wikipedia page.
 You can reclaim gift aid provided you are a taxpayer.
 You can relate everything to me.
 You can rent it on Amazon for a fraction of the cost.
@@ -48660,6 +48699,7 @@ You may tell me that I over-excite myself.
 You may trust in me, cousin Richard.
 You may trust me so far.
 You may trust me, for I took your son.
+You may visit our site anonymously and choose not to register.
 You may well exclaim.
 You may well say 'Golly!'
 You may well warn me against such an evil.
@@ -49426,6 +49466,7 @@ Your methods are not simple, not straightforward.
 Your mother clung to you weeping, and said, 'Edwin, stay!'
 Your mother has got her down at Meg's.
 Your mother insists upon your accepting it.
+Your name may be your real name, or an assumed artist name.
 Your necessities are greater than mine.
 Your nerves are all upset.
 Your new hat is elegant, Rachael, and so becoming.
@@ -49438,6 +49479,7 @@ Your parrot's dead.
 Your party talks this language like a steam engine.
 Your password has been hashed for security.
 Your payment is due.
+Your personal information will not be distributed to outside parties without your consent.
 Your plans are always so wise and kind!
 Your price, my son, is just about thirty per week.
 Your pride cannot blind God!
@@ -49558,6 +49600,7 @@ and played for his sons.
 and that God recycles the universe
 and these I have chosen according to how I want to live my life
 and they described you jolly well, down to your boots and shirt.
+and totally unworthy the Head of a civilized nation.
 and was not not a cousin.
 and was written by a fold touch.
 and with the knowledge of your ill opinion, too!
@@ -49569,9 +49612,11 @@ come to think of it, I don't know what snivel means.
 coranavirus
 divide the light from the darkness
 everyone is a sinner
+for that purpose obstructing the Laws for Naturalization of Foreigners;
 for the wages of sin is death
 forever because the universe is expanding
 get a bible study guide at a Christian bookstore.
+giving his Assent to their Acts of pretended Legislation:
 he asked me with a keen glance.
 he cared so much for the people around him
 he cried in amazement.
@@ -49632,6 +49677,7 @@ we can move up or down the food chain
 where is that?’ I asked.
 where they go about their normal lives and there their just human too
 which piece of it makes sense, was I wrong here
+which, would inevitably interrupt our connections and correspondence.
 while others cost thousands?
 whispered Miss Jellyby, drawing my arm tighter through her own.
 whispered Richard, not thinking she could hear him.

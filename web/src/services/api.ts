@@ -194,7 +194,15 @@ export default class API {
     });
   }
 
-  fetchClipsStats(locale?: string): Promise<
+  skipClip(id: string) {
+    return this.fetch(`${API_PATH}/skipped_clips/` + id, {
+      method: 'POST',
+    });
+  }
+
+  fetchClipsStats(
+    locale?: string
+  ): Promise<
     {
       date: string;
       total: number;
@@ -204,7 +212,9 @@ export default class API {
     return this.fetch(API_PATH + (locale ? '/' + locale : '') + '/clips/stats');
   }
 
-  fetchClipVoices(locale?: string): Promise<
+  fetchClipVoices(
+    locale?: string
+  ): Promise<
     {
       date: string;
       value: number;
@@ -473,5 +483,9 @@ export default class API {
 
   async getServerDate(): Promise<string> {
     return await this.fetch(`${API_PATH}/server_date`);
+  }
+
+  getAccents(lang?: string) {
+    return this.fetch(`${API_PATH}/language/accents${lang ? '/' + lang : ''}`);
   }
 }

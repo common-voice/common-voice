@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Éé, zìtéré m ózí n'ímèèlụ̀ (email). Ọ́ gà-àmàsị̀ m kà m nà-ènwétá ōzī gbàsárá àgàníhú ásụ̀sụ̀ à na òtù Common Voice.
+yes-receive-emails = Éé, zìtéré m ózí n'ímèèlụ̀ (email). Ọ́ gà-àmàsị̀ m kà m nà-ènwétá ōzī gbàsárá àgàmníhú ásụ̀sụ̀ à na òtù Common Voice.
 stayintouch = Ànyị́ níílé nà Mozilla nà-èwú òbòdò màkà ńkwàlíté ǹkà n'ụ́zụ́ ǹkè . Ànyị́ chọ̀rọ̀ kà ànyị́ ná-àkpárị́tá kwà m̀gbè íjí ná-ènwétá ózí kà íhé sì àgà, ụ́zọ̀ ọ́hụ́rụ́ níílé ńgwá ńchọ́chá sì ápụ̀tà nàkwàzị̀ ètù Í sì jìrí ńgwá  ńchọ́chá ńdí à àrụ́ ọ́rụ́.
 privacy-info = Ànyị́ nà-èkwé gị́ ńkwà íjí ányá írú àlà jìkwáá ózí gị́. Gụ̀kwúó gbàsárá ǹké à n'ébé ányị́ dèrè yá <privacyLink> </privacyLink>
 return-to-cv = Lághàchí ázụ́ n'òtù Common Voice
@@ -11,6 +11,8 @@ loading = Ḿbànyé/Ńdọ́nyé
 email-opt-in-info = Ọ́ gà-àmásị́ m mà ḿ ná-ènwétá ózí gá ná-échètárá m m̀bùmnúchè íhé á nà-èmé, kà m sì àgá n'íhú nàkwàzị̀ ákwụ́kwọ́ ózí gbàsárá ńdí òtù Common Voice.
 email-opt-in-info-title = Sònyé n'ákwụ́kwọ́ ńzípù ózí ńdị́ òtù Common Voice
 email-opt-in-info-sub-with-challenge = Ná-ènwétà ózí gá ná-échètárá gị́ m̀bùmnúchè ńchọ́chá nà íhé ńdọ́láázụ́, gbàsárá kà íhé sì àgá, yá nà ákwụ́kwọ́ ózí ńdị́ ọ́zọ́ gbàsárá òtù Common Voice.
+email-opt-in-privacy-v2 = Ọ bụrụ na i kweta ka e zitere gi ozi email, ọ putara na i kwetago kà Mọ̀zị́là jìkwáá ózí ńdị́ à dị́kà é sị̀ dépụ̀tá yá n'ọ́wá ńchékwá ózí Mọ̀zị́là <privacyLink> Ámụ̀mà ńchékwá</privacyLink
+indicates-required = Ákàrà kpákpáǹdò (*) nà-ègósí ébé á chọ̀rọ̀ ka e dee ihe.
 not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -104,6 +106,7 @@ mhr = Ásụ̀sụ́ Mị̀dò Márị̀
 mk = Ásụ̀sụ́ Màsèdónị́ànụ̀
 ml = Ásụ̀sụ́ Màlàyálàmụ̀
 mn = Ásụ̀sụ́ Mọ̀n̄gólị́ànụ̀
+mni = Meetei Lon
 mos = Ásụ̀sụ́ Mọ́ọ̀sị̀
 mr = Ásụ̀sụ́ Màrátị̀
 mrj = Ásụ̀sụ́ Márị̀ Úgwú
@@ -119,6 +122,12 @@ nl = Ásụ̀sụ́ Dọ́ọ̀chị̀
 nn-NO = Ásụ̀sụ́ Nị́nọ́ọ̀sụ̀kụ̀ Nọ̀wéjị́ànụ̀
 nyn = Ásụ̀sụ́ Nyàn̄kọ́lè
 oc = Ásụ̀sụ́ Ọ́kụ́sị́tànụ̀
+or = Ásụ̀sụ́ Ọ́dị̀yà
+pa-IN = Ásụ̀sụ́ Pụ̀ńjábì
+pap-AW = Ásụ̀sụ́ Pàpị̀yàméntò (Árụ́bà)
+pl = Ásụ̀sụ́ Pọ́líìshì
+ps = Ásụ̀sụ́ Pàshị̀ítò
+pt = Ásụ̀sụ́ Pọ́tùgị́ìsì
 quc = Ásụ̀sụ́ Kị́yéèchị̀
 rm-sursilv = Ásụ̀sụ́ RòmánshỊ́  Sọ̀sị́lị́váànụ̀
 rm-vallader = Ásụ̀sụ́ RòmánshỊ́ Vàváládà
@@ -144,7 +153,7 @@ te = Ásụ̀sụ́ Télúùgù
 tg = Ásụ̀sụ́ Tájíìkì
 th = Ásụ̀sụ́ Táàyị̀
 ti = Ásụ̀sụ́ Tìgíríníyà
-Tig = Ásụ̀sụ́ Tígírì
+tig = Ásụ̀sụ́ Tigre
 tl = Ásụ̀sụ́ Tágálọ́ọ̀gụ̀
 tr = Ásụ̀sụ́ Tọ́kíìhì
 tt = Ásụ̀sụ́ Tàtáà
@@ -171,29 +180,57 @@ zh-TW = Ásụ̀sụ́ Chàị̀níìsì (Tàị̀wáànụ̀)
 
 ## Layout
 
+speak = Kwùó ókwú
+speak-now = Kwùó ókwú ugbu a.
+datasets = Ụ́yọ̀kọ̀ ńgwá-ńnyòchá (Datasets)
 languages = Ásụ̀sụ́
 about = Màkà/gbàsárá
-profile = Íhé gbàsárá ḿmádụ̀
+profile = Ǹjììmárá-ónyé (Profile)
 help = Ènyèmáká
+contact = Ákàrà ḿkpọ́tụ́rụ́
+privacy = Nzuzo (Privacy)
+terms = Úsòrò iwu
 cookies = Kúkì (cookies)
 faq = Ájụ̀jụ́ ńdị́ á nà-àjụ́kárị́
+content-license-text = Ihe ndi dị́ n'ókpúrú <licenseLink>ákwụ́kwọ́ íkíkéré ńdị́ Creative Commons</licenseLink>
 share-title = Nyèré ányị́ áká chọ̀tá ńdị́ ọ́zọ́ gá-átụ́nyé ólú há!
-link-copied = Á pị́pụ̀tágó/é dépụ̀tágó ọ́wà ńjìkọ́
+share-text = Nyé áká kụ̀zíéré ígwè-nwéré-àkọ́núchè ètù ńdị́ bụ́ ḿmádụ̀ n'ézíé sì èkwú ókwú síté n'ị́tụ́nyé òkè gị́ ná { $link }
+link-copied = Ị nwetagọ ọ́wà-ńjìkọ́
+back-top = Lághàchí ázụ́ bídó n'élú
 logout = Pụ̀ọ́
 
 ## Home Page
 
 home-title = Common Voice bụ̀ ńchépụ̀tá Mọ̀zị́là íjí nyé áká kụ́zííéré ígwé nwere uche ètù ńdị́ bụ́ ḿmádụ̀ n'ézíé sì èkwú ókwú.
+default-tagline = Common Voice nke Mọ̀zị́là bụ̀ ńchépụ̀tá íjí nyé áká kúzíéré ígwé-nwéré-àkọ́núchè ètù ńdị́ bụ́ ḿmádụ̀ n'ézíé sì èkwú ókwú.
 home-cta = Kwùó ókwú, túnyé òkè gị́ ébé à.
+wall-of-text-start =
+    Ókwú bụ̀ ọ̀nàtàràchí, ókwú bụ̀ ḿmádụ̀. Màkà nké à kà ó jì másị́ ányị́ ímépụ̀tà ǹkà-ólú à (Voice technology)
+    íjí nyéré ígwé-nwéré-àkọ́núché ányị́ áká. Mànà íjí mépụ̀tà ákọ́rọ́ngwá ụ̀dà-ólú à (Voice systems), á gà-àchọ́ ọ̀tụ́tụ́
+    ńgwá-ńnyòchá-ụ̀dà-ólú (Voice data).
 wall-of-text-more-mobile = Ìmèríìmè ńgwá nchọ́chá (data) ńdị́ ńnúkwú ụ́lọ̀ ḿmépụ̀tà ánághị̀ àdị́rị́ ọ̀tụ́tụ́ ńdị́ ḿmádụ̀ m̀fé ínwétá. Nké à mèrè ànyị́ jì wépụ́tá ámụ̀mà Common Voice à bụ́ nké gá-ényé áká kà ǹghọ́tá ólú dị́rị́ ḿmádụ̀ níílé m̀fé.
+wall-of-text-more-desktop =
+    Ùgbú à, Ị́ nwèrè ị́tụ́nyé ụ̀dà-ólú gị́ íjí nyéré ányị́ áká wúlíté ọ́wá ńgwá ńchọ́chá ụ̀dàólú mépéré èmépé nkè ónyé ọ̀bụ́là nwèrè íké
+    íjì mépụ̀tá ńgwá-ọ́rụ́ (apps and devices) màkà ị́rụ́ ọ́rụ́ nà wéèbụ̀. Gụ̀ọ́ ótú áhị́rị́ókwú íjí nyéré ígwé nwéré àkọ́núché áká ị́ghọtá ètù ńdị́ bụ́ mmádụ̀ n'ézíé sì èkwú ókwú. Lèléé ọ́rụ́ ndị́
+    ntụ́nyé òkè ńdị́ ọ̀zọ́ íjí mélíté ọdị́dị́. Ọ́ dị̀ m̀fé ètú à!
+wall-of-text-first =
+    Ókwú bụ̀ ọ̀nàtàràchí, ókwú bụ̀ ḿmádụ̀. Maka nke a ka o ji másị́ ànyị́ ímépụ̀tà ǹkà ólú à (Voice technology)
+    íjí nyéré ígwé-nwéré-àkọ́núché ányị́ áká. Mànà íjí mépụ̀tà ákọ́rọ́ngwá ụ̀dà-ólú à (Voice systems), ńdị́ńrụ́pụtá gà-àchọ́ ọ̀tụ́tụ́
+    ńgwá ńnyọ́chá ụ̀dà-ólú (Voice data).
 wall-of-text-second = Ìmèríìmè ńgwá nchọ́chá (data) ńdị́ ńnúkwú ụ́lọ̀ ḿmépụ̀tà ánághị̀ àdị́rị́ ọ̀tụ́tụ́ ńdị́ ḿmádụ̀ m̀fé ínwétá. Ǹké à bụ̀ íhé ńdọ́ghàchị́ ázụ́ nyéré ńchépụ̀tá ọ́bụ́là. Nké à mèrè ànyị́ jì wépụ́tá ámụ̀mà Common Voice à bụ́ nké gá-ényé áká kà ǹghọ́tá-ólú dị́rị́ ḿmádụ̀ níílé m̀fé ínwétá.
 show-wall-of-text = Gụ̀kwùó
 help-us-title = Nyèré ányị́ áká mèé kà ọ̀tụ́tụ́ áhị́rị́ókwú kwụ́dósíé íké.
+help-us-explain = Pịa "kpọọ", gèé yá ńtị̀ ǹkè ómá kà Í wèé gwá ányí mà à kpọ̀pụ̀tàkwàrà áhị́rị́ókwú ńdị́ à ọ̀fụ́má.
+no-clips-to-validate = Ọ́ dị̀ kà à gà-ásị́ nà é nwéghị́ íhé ígèńtì á gà-àkpọ́ n'ásụ̀sụ́ à. Nyèré ányị́ áká sèté mà dèkọ̀ọ́ ụ́fọ́dụ́ íjí méjúó óghéré à.
 vote-yes = Éé
 vote-no = Ḿbà
 toggle-play-tooltip = Pị̀á { shortcut-play-toggle } kà Ị́ gbánwèé ọ́nọ̀dụ̀ égwú
 speak-subtitle = Tùnyé òkè ólú gị́
-listen-goal-text = Á kwàdógó ńdékọ́ ńdị́ à
+speak-paragraph = Ḿkpákọ́ nà ńdékọ́ ụ̀dà ólú bụ̀ ákụ̀kụ́ káchásị́ ḿkpà nà ḿwúlíté ọ́wà nchékwá ụ́yọ̀kọ̀-ńgwá-ńnyọ́chá (dataset) dóró ányá. Ụ̀fọ́dụ́ nà-éwèkwá yá dị́ká ǹké káchásị́ ụ̀tọ́.
+speak-goal-text = Ihé ígèńtì nke e nwetagọrọ
+listen-subtitle = Nyèré ányị́ áká lèléé mà ụ̀dà-ólú ńdị́à hà dị̀ kà há kwèsị̀rị̀
+listen-paragraph = Ilèléé mà ụ̀dà-ólú ńdị́à hà dị̀ kà há kwèsị̀rị̀ gà-ényéré òtù Common Voice áká n'íhé há nà-èmé. Gee ntị mà nyèré ányị́ áká képụ̀tá ọ́wá ńchékwá ụ́yọ̀kọ̀ ụ̀dà-ólú kwụ́ chị̀m.
+listen-goal-text = Ihé ígèńtì nke a kwadogoro
 hours-recorded = Élékéré é dékọ̀rọ̀
 hours-validated = Élékéré ólé á kwàdòrò
 voices-online = Ólú ókwú ńdị́ nọ́ n'ìkùkù úgbú à
@@ -218,6 +255,7 @@ x-years-short =
         [one] Áfọ̀
        *[other] { $count } N'áfọ̀
     }
+help-make-dataset = Nyèrè ányị́ áká íwúlíté ụ́yọ̀kọ̀ ńgwá ńnyọ́chá (dataset) bụ́ ị́gbà ǹké gá-éghé óghé màkà ḿmádụ̀ níílé ógé níílé.
 sign-up-account = Débànyé áhá gị́ kà Í wèé nwétá ọ́wà ǹkè áká gị́
 email-subscription-title = Débànyé áhà gị́ kà Ị́ wèé ná-ènwétá ózí íméèlụ̀ (email) gbàsárá kà íhé sì àgá
 email-subscription-title-new = Débànyé áhà gị́ kà Ị́ wèé ná-ènwétá ákwụ́kwọ́ ózí ńdị́ Common Voice, nàkwàzị̀ ózí ńchétárá m̀bùmnúchè nà kà íhé sì àgá
@@ -225,6 +263,7 @@ email-subscription-title-new = Débànyé áhà gị́ kà Ị́ wèé ná-ènwét
 ## Account Benefits
 
 benefits = Úrù
+improve-audio = Ózí gbàsárá íhé ǹjììmárá-ónyé nà-ènyé áká ị́kwàlìtè ọ́nọ̀dụ̀ ńgwá-ńchọ́chá-ụ̀dà-ólú ǹkè é jì ènyé ọ̀zụ̀zụ̀ màkà ǹghọ̀tá ókwú.
 keep-track = Détùó mà dèbékwá kà Í sì àgá n'íhú nàkwà ńtụ́rụ́ùgò gị́ n'ásụ̀sụ́ dị́ íchèíchè.
 compare-progress = Hụ́ kà àgàmníhú gị́ sì átụ̀nyéré ńkè ńdị́ ọ́zọ́ n'ụ̀wà niile.
 view-goals = Lèléé àgàmníhú gị́ dị́kà ó sì métútá èbùmnúché ǹké ónwé nà ǹkè ọ́rụ́ é jì n'áká.
@@ -232,8 +271,11 @@ join-newsletter = Ọ́ másị́ gị́, Ì débànyé áhà gị̀ ná-ákwụ́
 
 ## What's public
 
+whats-public = Gínī kà ọ̀hà nwèrè íké íhū
 email-not-public = Ànyị́ ágághị̀ èmé kà ọ̀hànézè hụ̀ ózí ímèélụ̀ (email) gị̀.
+recordings-and-locale-public = Ọ́nụ́ọ́gụ́gụ́ íhé ńdékọ́ nà ásụ̀sụ́ Í nyèrè áká wètá kà á gà-èmé kà ọ̀hànézè hụ́.
 username-optin-public = Í nwèrè íké ímé kà á hụ́ áhá ǹjìrìmárá gị́ mà ọ̀bụ̀kwànụ̀ Ì zóchíé yá.
+demographic-deidentified-clarity-2 = À gághị̀ èmé kà ọ̀hànézè hụ́ ákàrà ńdị́ Í nyèrè bụ́ ǹjìrìmárá gị́ (dị́kà áfọ̀, òkìkè, ásụ̀sụ́ nà ụ̀dàólú), à gághị̀kwà éjìkọ́tá yá nà ọ́wà ńnyọ́chá áká gị́ . A ga-ejikọta ńdékọ́ íhé ígè ńtị̀ (audio clips) nke onye ọ bụla na data ìgwè mmadụ maka ebumnuche nke nnyocha ziri ezi karịa - dịka ọmụmaatụ, onye nyocha nwere ike chọọ ịchụso usoro ọzụzụ n'otu akụkụ igwe mmadụ. Á gà-èjìkọ́ ụ̀dà-ólú ọ bụla n'ákàrá ńjírí márá kà ńkọ́wá yá dòó ányá. Íjí máá àtụ̀, ónyé ńchọ́chá nwèrè íké chọ́ọ́ kà Ó nyé ótú ụ̀dị́ ńdị́ ọ̀zụ̀zụ̀ pụ́rụ́ íchè.
 username-email-not-demographic = À gághị́ étínyékọ́ áhá ǹjìrìmárá gị́ mà ọ̀ bụ̀ íméèlụ̀  (email) gị́ n'íhé á gà-ébípụ̀tá.
 
 ## Speak & Listen Shortcuts
@@ -263,7 +305,9 @@ shortcut-record-toggle-label = Dèkọ́ọ́/Kwụ̀sị́
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Kwùnyéghárị́á
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Hìcháá ńdékọ́ i na-eme ugbu a
 shortcut-submit = Lághàchí
+shortcut-submit-label = Zìga íhé ńdékọ́
 request-language-text = Ị̀ ká hụ́bèghị̀ ásụ̀sụ́ gị́ nà Common Voice?
 request-language-text-learn = Mụ̀tá étú é sì àrị̀ọ́tá íhé ébé à
 request-language-button = Rị̀ọ̀tá ótú Ásụ̀sụ́
@@ -286,14 +330,28 @@ english = Ásụ̀sụ́ Bèkéè
 
 profile-form-username =
     .label = Áhá ǹjìrìmárá
+profile-form-native-language =
+    .label = Ásụ̀sụ́ Òbòdò
 profile-form-additional-language =
-    .label = Ásụ̀sụ́ ḿgbákwúnyéré
+    .label = Ásụ̀sụ́ ndi ozo
+profile-form-language =
+    .label = Ásụ̀sụ́
+profile-form-accent =
+    .label = Ǹdébé-ólú (accent)
 profile-form-age =
     .label = Áfọ̀
+profile-form-gender-2 =
+    .label = Jenda
+leaderboard-visibility =
+    .label = Lee Leaderboard
 hidden = Ǹzòrò èzó
 visible = Hụ̀nányá
+native-language =
+    .label = Ásụ̀sụ́ Òbòdò
 profile-form-submit-save = Chèkwáá
 profile-form-submit-saved = É chèkwàrà
+male = Nwoke
+female = Nwaanyi
 # Gender
 other = Ńdị́ ọ́zọ́
 why-profile-title = Kèdú íhé kpátárá é jí ènwé ǹjìrìmárá ōnyē?
@@ -302,20 +360,51 @@ why-profile-text =
     ḿkpà ímélíté ọ̀nọ̀dụ̀ há.
 dashboard = Ógwè (dashboard)
 build-profile = Wùlíté èjìrì márá gị̀.
+avatar = Ńghọ̀rọ̀
 goals = Èbùmnúché
-settings = Ǹtọ́àlà/Ńhàzí
+settings = Settings
 edit-profile = Dèzíé èjìrìmárá gi
 profile-create-success = Ńképụ̀tá èjìrìmárá gi gàrà ǹkè ọ́má!
 profile-close = Mèchíé
+profile-explanation = Jìrí ǹjìrìmárá onye (Profile) Í képụ̀tàrà màrá kà Í sì àgà n'íhú mà nyékwárá áká ímé kà ńgwá ńnyòchá ólú ányị́ nà-àrụ́ ọ́rụ́ ǹkè ọ́má.
+thanks-for-account = Daalụ màkà íkwàdò akaunt ǹké à bụ̀ ǹkè gị́. Kà ànyị́ wúlítézíé èjìrìmárá gị́ úgbú à.
+why-demographic = Gị́nị́ mèrè nà ǹké à jì dị́ ḿkpà?
+why-demographic-explanation-2 = Ọ́bụ̀rụ̀ nà Ị́ zóchíé íhé gbàsárá áfọ̀ ole i dị̀, jenda gị́ nà ǹdébé-ólú (accent) gị́, ọ́ gà-ènyéré ányị́ áká ímélíté ụ́yọ̀kọ̀ ólú ányị́ jì èmé kà ígwé ǹghọ̀tá ókwú nà-àrụ́ ọ́rụ́ ọ̀fụ́má. Á gà-éjìkọ́ áhá ǹjìrìmárá gị́ nàkwà íméèlụ̀ gị́ ná ụ́yọ̀kọ̀ ókwú ǹdí Í zìtèrè. Í nwèkwàrà ike ihọ̀rọ̀ kà i méé kà ḿmádụ̀ níílé hụ́ ǹjìrìmárá gị́ mà ọ̀ bụ̀ kà é zóó yá èzó.
+accept-privacy = Ọ́ gà-àmásị́ m kà Í jíkwáá ózí ńdị́ à dị́kà Í sìrì kọ́wáá yá n'ọ́wà ḿgbásà íwú Mọ̀zị́lá à <privacyLink>Ìwú Ǹzòrò</privacyLink>
+accept-privacy-title = Ìwú Ǹzòrò
+login-identity = Ǹjìrìmárá
+login-signup = Bànyé / Débànyé áhá
+edit = Dèzíghárị́á
+email-subscriptions = Ńdébànyé áhà màkà ózí íméèlụ̀ (email)
+download-profile = Búdátá ńgwá ńnyọ́chá èjììmárá m
+contribution-experience = Mata ihe ndi ị meputara na Common Voice
+skip-submission-feedback = Hapụ ị mata ihe e kwụrụ gbasara ihe ị meputara
+skip-submission-note = Lee anya: Ọ́ ga-adị́ ḿkpà kà ị họ̀rọ̀ ótù n'ímé ndi a: "Kwuo Okwu" ma ọ bụ "Ge ntị". Nke a ga-enye aka ị duzi gi ebe ị ga-aga tunye òkè.
+off = Gbànyụ́ọ́
+on = Gbànyé
 
 ## Profile - Email
 
+browse-file-title = Zìgá foto gi
+browse-file = Bụbata faịlụ gị ebe a mà ọ̀ bụ̀<browseWrap>chọ̀ghàrị́á</browseWrap>
+connect-gravatar = Were Gravatar banye
+gravatar_not_found = À chọ́tághị́ gravatar ọ̀bụ́là màkà íméèlụ̀ gị́.
+file_too_large = Faịlụ Ị́ họ̀tàrà bùrù íbù ǹkè úkwúù
+avatar-uploaded = É zìgágó Ávátà
+max-file-size = { $kb }Ǹjèdèbè kb
 
 ## Profile - Email
 
+manage-subscriptions = Hazie Subscriptions
+manage-email-subscriptions = Hazie Subscriptions íméèlụ̀ (email)
+email-already-used = É jìrígó íméèlụ̀ à mépéé akaụntụ ọ́zọ́ dị́ íchè
+add-language = Tìnyé Ásụ̀sụ́
+change-email-setings = Ị cho ị gbanwee akara email gị, ga na "Settings" nke di n'ime "Ǹjìrìmárá"
 
 ## FAQ
 
+faq-what-cv-a = Ǹkà-nà-ụ́zụ́-ǹghọ́tá-ụ̀dà-ólú nà-àgbánwé ètù ànyị́ nà ígwè-nwéré-àkọ́núchè sì àrụ́kọ́. Mà kà ó sílà dị́, ígwè ńdị́ dị́ àdị́ nà-ádà óké ọ́nụ́ nwékwáá ńdị́ nwéhá. Common Voice bụ̀ n'ímé átụ̀màtụ́ Mọ̀zílà ímé kà ǹká ǹghọ́tá ụ̀dà-ólú ká ḿmá mà rútékwá ónyé ọ́bụ́là. Common Voice bụ̀ ńnúkwú ọ́wà ḿbá ụ̀wà màà ńchékwá ólú á tùnyèrè n'òkè ǹké ná-émé kà ọ́ dị́rị́ ónyé ọ́bụ̀là m̀fé íwúlíté ńgwá-ólú ókwú n'ásụ̀sụ́ níílé.
+faq-what-cv-a-2 = Ǹkà-nà-ụ́zụ́-ǹghọ́tá-ụ̀dà-ólú nà-àgbánwé ètù ànyị́ nà ígwè-nwéré-àkọ́núchè sì àrụ́kọ́. Mà kà ó sílà dị́, ígwè ńdị́ dị́ àdị́ nà-ádà óké ọ́nụ́ nwékwáá ńdị́ nwéhá. Common Voice bụ̀ n'ímé átụ̀màtụ́ Mọ̀zílà ímé kà ǹká ǹghọ́tá ụ̀dà-ólú ká ḿmá mà rútékwá ónyé ọ́bụ́là. Common Voice bụ̀ ńnúkwú ọ́wà ḿbá ụ̀wà màà ńchékwá ólú á tùnyèrè n'òkè ǹké ná-émé kà ọ́ dị́rị́ ónyé ọ́bụ̀là m̀fé íwúlíté ńgwá ólú ókwú n'ásụ̀sụ́ níílé. Ólú ányị́ nà-èkpókọ́tá ábụ́ghị́ náánị́ síté n'ásụ̀sụ́ á kàchà àsụ́, kámà, ányị́ nà-èkpókọ̀bákwá ǹkè àsụ̀sụ́ ná-énwéghị́ ọ̀tụ́tụ́ ńdị́ ná-ásụ́ há. Íbípụ̀tà ọ́wà ńchékwá ólú n'ásụ̀sụ́ dị́ íchè íchè gà-ènyéré ńdị́ ḿwúlíté nà ńdị́ jí égó àchụ́ égó nàkwà óbódó dị́ íché íché áká ídózī óghéré dị́ àdị́ n'ónwé há.
 
 ## ABOUT US
 
@@ -384,4 +473,57 @@ profile-close = Mèchíé
 
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 

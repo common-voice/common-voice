@@ -106,6 +106,7 @@ mhr = Болын мари
 mk = Македон
 ml = Малаялам
 mn = Монгол
+mni = Манипури
 mos = Мосси
 mr = Маратһи
 mrj = Таулы мари
@@ -127,6 +128,7 @@ pap-AW = Папиаменто (Аруба)
 pl = Поляк
 ps = Пушту
 pt = Португал
+quc = Киче
 rm-sursilv = Романш сурсельв
 rm-vallader = Романш Валладер
 ro = Румын
@@ -150,6 +152,8 @@ ta = Тамил
 te = Телугу
 tg = Таҗик
 th = Тай
+ti = Тигринья
+tig = Тигре
 tl = Тагалог
 tr = Төрек
 tt = Татар
@@ -295,6 +299,7 @@ shortcut-record-toggle-label = Яздыру/Туктату
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Клипны янәдән яздыру
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Агымдагы яздырудан баш тарту
 shortcut-submit = Enter
 shortcut-submit-label = Клипларны җибәрү
 request-language-text = Common Voice'ка Сезнең телегез өстәлмәгәнме әле?
@@ -395,6 +400,10 @@ faq-what-cv-a =
     Тавыш тану технологияләре безнең машиналар белән эш итү рәвешен тамырдан үзгәртә алыр иде, әмма әлегә кадәр эшләнгән системалар кыйммәт һәм проприетар. Common Voice — Mozilla'ның тавыш тану технологияләрен камилрәк һәм һәркем өчен дә ачык итүгә юнәлгән инициативасының бер өлеше. Common Voice ул — дөньяның һәр тарафында яшәүче кешеләр иганә иткән аудиоязмалар тупланмасы. Әлеге тупланма һәр тел өчен дә (бу тел өчен аудиоязмалар җитәрлек булса, әлбәттә) ул телдә сөйләгәнне «аңлаучы» программалар ясауны мөмкин итә.
     
     Аудиоязмаларны без сөйләшүчеләр саны зур булган телләрдә генә түгел, чагыштырмача әз кеше сөйләшкән телләрдә дә җыябыз. Төрле телләрдә булган аудиоязмалар тупланмасын нәшер итү программачыларга, эшмәкәрләргә һәм җәмгыятьләргә үз телләре өчен технологияләр булдыруны мөмкин итәчәк.
+faq-what-cv-a-2 =
+    Сөйләм тану технологияләре безнең машиналар белән эш итү рәвешен тамырдан үзгәртә алыр иде, әмма әлегә кадәр эшләнгән системалар кыйммәт һәм проприетар. Mozilla Common Voice — сөйләм тану технологияләрен камилрәк һәм һәркем өчен дә ачык итүгә юнәлгән инициатива. Common Voice ул — бик зур, дөньяның һәр тарафында яшәүче кешеләр иганә иткән аудиоязмалар тупланмасы. Әлеге тупланманы кулланып, һәркем тиз һәм җиңел генә һәр тел өчен дә ул телдә сөйләгәнне «аңлаучы» программалар булдыра ала.
+    
+    Аудиоязмаларны сөйләшүчеләр саны зур булган телләрдә генә түгел, чагыштырмача әз кеше сөйләшкән телләрдә дә җыябыз. Төрле телләрдә булган аудиоязмалар тупланмасын нәшер итү программачыларга, эшмәкәрләргә һәм җәмгыятьләргә үз телләре өчен технологияләр булдыруны мөмкин итәчәк.
 faq-why-important-q = Бу ни өчен мөһим?
 faq-why-important-a =
     Сөйләм — аралашуның иң табигый ысулы, һәм сөйләм технологияләре компьютер һәм мобиль җиһазлар белән дә сөйләм аша идарә итүне мөмкин итә. Безнең программачыларга синхрон тәрҗемәче яисә дигиталь ассистент кебек, сөйләм тану технологияләренә нигезләнгән гаҗәеп кушымталар булдырырга ярдәм итәсебез килә. Әмма әлегә мондый төр кушымталарны булдырырга кирәкле аудиомәгълүматның күпчелек өлеше кыйммәт һәм проприетар. Common Voice мәгълүмат тупланмасы җитештерүчеләргә инновацияләү өчен кирәкле мәгълүмат бирер һәм аларга үз туган телләре өчен дә сөйләм тану технологияләрен булдырырга ярдәм итәр дип өметләнәбез.
@@ -447,6 +456,9 @@ about-title = Нигә Common Voice?
 about-subtitle = Common Voice — Mozilla'ның җиһазларга чын кешеләр ничек сөйләшә икәнен өйрәтүгә багышланган инициативасының бер өлеше. Common Voice мәгълүмат тупланмасыннан тыш, без Deep Speech дип аталучы ачык кодлы сөйләм тану системасы өстендә дә эшлибез.
 about-header-description =
     Бу проектның икесе дә — цифралаштырылган сөйләмдә булган тигезсезлекне төзәтүне максат итеп тоткан тырышлыкларыбызның бер өлеше. Сөйләм тану технологияләре электрон җиһазларыбызга кешечә бер йөз бирә, әмма аларны булдыру өчен, җитештерүчеләргә ифрат күп аудиоязмалар кирәк. Әлеге вакытта андый мәгълүматның күпчелек өлеше кыйммәт һәм проприетар.
+    Без аудиомәгълүматның ирекле һәм һәркем өчен дә ачык булуын, һәм кешеләрнең төрлелеген чагылдыруын телибез. Бергәләшеп без сөйләм тану технологияләрен һәркем өчен дә яхшырак итә алабыз.
+about-header-description-2 =
+    Бу проект — цифралаштырылган сөйләмдә булган тигезсезлекне төзәтүне максат итеп тоткан тырышлыгыбыз. Сөйләм тану технологияләре электрон җиһазларыбызга кешечә бер йөз бирә, әмма аларны булдыру өчен, җитештерүчеләргә ифрат күп аудиоязмалар кирәк. Әлеге вакытта андый мәгълүматның күпчелек өлеше кыйммәт һәм проприетар.
     Без аудиомәгълүматның ирекле һәм һәркем өчен дә ачык булуын, һәм кешеләрнең төрлелеген чагылдыруын телибез. Бергәләшеп без сөйләм тану технологияләрен һәркем өчен дә яхшырак итә алабыз.
 how-does-it-work-title = Ул ничек эшли?
 how-does-it-work-text = Без ачык аудиоязма тупланмасын төзибез. Тавышыгызны иганә итегез, башка кешеләр яздырган аудиоязмаларның төгәллеген тикшерегз, бу мәгълүмат тупланмасын һәркем өчен дә яхшыртыгыз.
@@ -851,10 +863,21 @@ profile-form-delete = Профильне бетерү
 
 ## Profile Download
 
+download-q = Мәгълүматыгызны йөкләргә кирәкме?
 download-profile-title = Профиль
+download-profile-size = Берничә байт
+download-recordings-title = Язмалар
+download-recordings-size = Гадәттә мегабайт
+download-size = Үлчәм
 download-selected = Сайланган
+download-start = Профиль мәгълүматларын йөкләп алу
+download-request = Язмалар йөкләп алуга гариза бирү
+download-requests = Язмаларны йөкләп алуга элегрәк бирелгән гаризалар
 download-request-button = Йөкләп алу
 download-request-title = { $created }
+download-request-description = { $clipCount } аудиоязма, гомуми архив күләме: { $size }. Вакыты чыга: { $expires }.
+download-request-archive-single = Бердәнбер ZIP файл. Эчтәлеге:
+download-request-archive-multiple = { $archiveCount } ZIP файл. Эчтәлек:
 download-request-refresh-button = Яңарту
 download-request-modal-title = Сылтамаларны йөкләп алу
 download-request-link-text = Zip #{ $offset } / { $total }
@@ -919,3 +942,93 @@ contribution-volume-title = Тавыш көче
 contribution-reader-effects-title = Укучы эффектлары
 see-more = <chevron></chevron>Күбрәк
 see-less = <chevron></chevron>Әзрәк
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Баш бит
+sc-header-how-to = Кулланма
+sc-header-add = Өстәү
+sc-header-review = Тикшерү
+sc-header-statistics = Статистика
+sc-header-profile = Профиль
+sc-footer-discourse = Discourse
+sc-footer-translate = Бу битне тәрҗемә итү
+sc-footer-privacy = Хосусыйлык
+sc-footer-terms = Шартлар
+sc-footer-cookies = Кукилар
+sc-login-signup-button = Керү / Теркәлү
+
+## HOME
+
+sc-home-review-title = Җөмләләрне тикшерү
+
+## HOW-TO
+
+sc-howto-title = Кулланма
+
+## MY SENTENCES
+
+sc-my-title = Минем җөмләләр
+sc-my-no-sentences = Җөмләләр табылмады!
+
+## REJECTED
+
+
+## STATS
+
+sc-stats-title = Статистика
+sc-stats-last-update = Соңгы яңарту: { $lastUpdate }
+sc-stats-last-update-never = Соңгы яңарту: һичкайчан
+sc-stats-updating = Яңартыла…
+
+## ADD
+
+sc-submit-err-select-lang = Зинһар, бер тел сайлагыз.
+sc-submit-select-language =
+    .labelText = Телне сайлау
+sc-submit-button =
+    .submitText = Җибәрү
+
+## ADD LANGUAGE
+
+sc-add-lang-sec-button = Тел өстәү
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-button-text = Раслау
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+sc-login-err-try-again = Зинһар янәдән тырышып карагыз.
+
+## PROFILE
+
+sc-profile-title = Профиль: { $username }
+sc-personal-your-languages = Сезнең телләрегез:
+sc-personal-remove-button = бетерү
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+sc-review-loading = Җөмләләрне йөкләү…
+sc-review-form-source = Чыганак: { $sentenceSource }
+sc-review-form-button-skip = Калдырып тору
+sc-review-form-button-approve = Раслау
+sc-review-link = Тикшерү
+
+## SETTINGS
+
+sc-settings-title = Көйләүләр
+
+# [/SentenceCollector]
+

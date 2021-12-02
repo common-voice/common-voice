@@ -33,7 +33,10 @@ export default function StatsCard({
   ]);
 
   return (
-    <div className={`stats-card ${className || ''} ${scrollable ? 'scrollable' : ''}`}>
+    <div
+      className={`stats-card ${className || ''} ${
+        scrollable ? 'scrollable' : ''
+      }`}>
       {overlay}
       <div className="stats-card__inner">
         <div className="title-and-icon">

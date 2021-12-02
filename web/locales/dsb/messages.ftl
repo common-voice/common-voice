@@ -106,6 +106,7 @@ mhr = Łucna marišćina
 mk = Makedońšćina
 ml = Malajalamšćina
 mn = Mongolšćina
+mni = Meetei Lon
 mos = Mossišćina
 mr = Maratišćina
 mrj = Górska marišćina
@@ -152,7 +153,8 @@ te = Telugušćina
 tg = Tadžikšćina
 th = Thailandšćina
 ti = Tigrinja
-Tig = Tigre
+tig = Tigre
+tk = Turkmeńšćina
 tl = Tagalog
 tr = Turkojšćina
 tt = Tataršćina
@@ -333,8 +335,13 @@ profile-form-native-language =
     .label = Mamina rěc
 profile-form-additional-language =
     .label = Pśidatna rěc
+profile-form-language =
+    .label = Rěc
 profile-form-accent =
     .label = Akcent
+profile-form-custom-accent-help-text =
+    .label = Kak by wy swój akcent wopisował?
+profile-form-custom-accent-placeholder-2 = Zachopśo pisaś, aby swój akcent wopisował
 profile-form-age =
     .label = Starstwo
 profile-form-gender-2 =
@@ -345,6 +352,7 @@ hidden = Schowany
 visible = Widobny
 native-language =
     .label = Mamina rěc
+profile-form-add-accent = Nowy swójski akcent „{ $inputValue }“ pśidaś
 profile-form-submit-save = Składowaś
 profile-form-submit-saved = Skłaźony
 male = Muski
@@ -378,6 +386,7 @@ skip-submission-description = Pśi sobustatkowanju se zapódawański komentar p�
 skip-submission-note = glědajśo: Musyśo hyšći mjazy Powědaś abo Słuchaś wubraś, aby typ sobustatkowanja změnił.
 off = Wušaltowany
 on = Zašaltowany
+help-accent = Trjebaśo pomoc wó akcenśe?
 
 ## Profile - Email
 
@@ -1020,3 +1029,141 @@ contribution-reader-effects-title = Efekty cytarja
 contribution-just-unsure-title = Jano njewěsty?
 see-more = <chevron></chevron>Wěcej pokazaś
 see-less = <chevron></chevron>Mjenjej pokazaś
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Startowy bok
+sc-header-how-to = Rozpokazanje
+sc-header-add = Pśidaś
+sc-header-review = Pógódnośenje
+sc-header-rejected = Wótpokazane sady
+sc-header-my = Móje sady
+sc-header-statistics = Statistika
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Zmólki k wěsći daś
+sc-footer-translate = Toś ten bok pśełožowaś
+sc-footer-privacy = Priwatnosć
+sc-footer-terms = Wuměnjenja
+sc-footer-cookies = Cookieje
+sc-login-signup-button = Pśizjawiś / Registrěrowaś
+sc-logout-button = Wótzjawiś
+
+## HOME
+
+sc-home-collect-title = Sady gromaźiś
+sc-home-review-title = Sady pśeglědaś
+
+## HOW-TO
+
+sc-howto-title = Rozpokazanje
+sc-howto-addlang-title = Rěcy pśidaś, z kótarymiž se źěła
+sc-howto-addsen-title = Nowe sady pśidaś
+sc-howto-cite-title = Citěrowaś
+sc-howto-cite-item-1 = Wy mógał websedło pódaś, na pś. „Common Voice - https://commonvoice.mozilla.org/“
+sc-howto-review-title = Sady pśeglědaś
+sc-howto-review-criteria-1 = Sada musy pšawje napisana byś.
+sc-howto-review-criteria-2 = Sada musy gramatiski korektna byś.
+sc-howto-review-criteria-3 = Sada musy wugranjajobna byś.
+
+## MY SENTENCES
+
+sc-my-title = Móje sady
+sc-my-loading = Waše sady se zacytuju…
+sc-my-no-sentences = Žedne sady namakane!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Zapódaśe: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Žrědło: { $source }
+sc-my-delete = Wubrane sady lašowaś
+sc-my-deleting = Wubrane sady se lašuju…
+
+## REJECTED
+
+sc-rejected-title = Wótpokazane sady
+sc-rejected-loading = Wótpokazane sady se zacytuju…
+sc-rejected-none-found = Žedne wótpokazane sady namakane!
+
+## STATS
+
+sc-stats-title = Statistika
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Slědna aktualizacija: { $lastUpdate }
+sc-stats-last-update-never = Slědna aktualizacija: nigdy
+sc-stats-updating = Aktualizěrujo se…
+
+## ADD
+
+sc-submit-err-select-lang = Pšosym wubjeŕśo rěc.
+sc-submit-err-add-sentences = Pšosym pśidajśo sady.
+sc-submit-err-add-source = Pšosym pśidajśo žrědło.
+sc-submit-title = Sady pśidaś
+sc-submit-select-language =
+    .labelText = Rěc wubraś
+sc-submit-ph-one-per-line =
+    .placeholder = Jadna sada na smužku
+sc-submit-button =
+    .submitText = Wótpósłaś
+sc-submit-guidelines = Pšosym pśeglědujśo <howToLink>směrnice</howToLink>.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Rěc njedajo se pśidaś
+sc-add-lang-sec-label = Pśidajśo rěc, ku kótarejž cośo pśinosowaś
+sc-add-lang-sec-button = Rěc pśidaś
+sc-add-err-unexpected = Njewótčakane wótegrono ze serwera
+sc-add-err-submission = Zapódawańska zmólka
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-sentences-title = Nowe sady wobkšuśiś
+sc-confirm-button-text = Wobkšuśiś
+
+## LANGUAGE INFO
+
+sc-lang-info-review-now = <reviewLink>Něnto pśeglědowaś!</reviewLink>
+
+## LOGIN
+
+sc-login-err-failed = Pśizjawjenje njejo se raźiło
+sc-login-err-try-again = Pšosym wopytajśo hyšći raz.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-remove = Rěc njedajo se wótwónoźeś
+sc-personal-your-languages = Waše rěcy:
+sc-personal-remove-button = wótwónoźeś
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+sc-review-title = Sady pśeglědaś
+sc-review-loading = Sady se zacytuju…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Žrědło: { $sentenceSource }
+sc-review-form-button-reject = Wótpokazaś
+sc-review-form-button-skip = Pśeskócyś
+sc-review-form-button-approve = Pśizwóliś
+sc-review-link = Pógódnośiś
+
+## SETTINGS
+
+sc-settings-title = Nastajenja
+sc-settings-ui-language = Rěc wužywaŕskego pówjercha
+
+# [/SentenceCollector]
+

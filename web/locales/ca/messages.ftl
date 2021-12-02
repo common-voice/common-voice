@@ -106,6 +106,7 @@ mhr = mari oriental
 mk = macedònic
 ml = malaiàlam
 mn = mongol
+mni = meitei
 mos = mossi
 mr = marathi
 mrj = mari occidental
@@ -152,7 +153,7 @@ te = telugu
 tg = tadjik
 th = tailandès
 ti = tigrinya
-Tig = tigre
+tig = tigre
 tl = tagal
 tr = turc
 tt = tàtar
@@ -325,8 +326,13 @@ profile-form-native-language =
     .label = Llengua materna
 profile-form-additional-language =
     .label = Llengua addicional
+profile-form-language =
+    .label = Llengua
 profile-form-accent =
     .label = Accent
+profile-form-custom-accent-help-text =
+    .label = Com descriuríeu la vostra variant?
+profile-form-custom-accent-placeholder-2 = Comenceu a escriure per a descriure la vostra variant
 profile-form-age =
     .label = Edat
 profile-form-gender-2 =
@@ -337,6 +343,7 @@ hidden = Amagat
 visible = Visible
 native-language =
     .label = Llengua materna
+profile-form-add-accent = Afegeix una nova variant personalitzada «{ $inputValue }»
 profile-form-submit-save = Desa
 profile-form-submit-saved = S'ha desat
 male = Home
@@ -370,6 +377,8 @@ skip-submission-description = L'enviament de comentaris es desactivarà en fer c
 skip-submission-note = Nota: Igualment haureu de seleccionar entre Parla o Escola per canviar el tipus de col·laboració.
 off = Desactivat
 on = Activat
+help-accent = Us cal ajuda sobre les variants?
+help-accent-explanation = La variant és la forma com pronuncieu les paraules. Es pot crear a partir dels llocs on heu viscut, quins altres idiomes parleu i molts altres factors. Podeu compartir aquí qualsevol informació que considereu rellevant.
 
 ## Profile - Email
 
@@ -1003,3 +1012,269 @@ contribution-just-unsure-title = Teniu dubtes?
 contribution-just-unsure-description = Si us trobeu amb alguna cosa que aquestes directrius no cobreixen, voteu segons el vostre criteri. Si realment no ho podeu decidir, feu servir el botó Omet i passeu a l'enregistrament següent.
 see-more = <chevron></chevron>Més
 see-less = <chevron></chevron>Menys
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Inici
+sc-header-how-to = Com es fa
+sc-header-add = Afegeix
+sc-header-review = Revisa
+sc-header-rejected = Frases rebutjades
+sc-header-my = Les meves frases
+sc-header-statistics = Estadístiques
+sc-header-profile = Perfil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Informa de problemes
+sc-footer-translate = Tradueix aquesta pàgina
+sc-footer-report-copyright = Informa de problemes de drets d'autor
+sc-footer-privacy = Privadesa
+sc-footer-terms = Condicions d'ús
+sc-footer-cookies = Galetes
+sc-login-signup-button = Inici de sessió / Registre
+sc-logout-button = Tanca la sessió
+
+## HOME
+
+sc-home-title = Us donem la benvinguda al Common Voice Sentece Collector
+sc-home-intro = El Sentence Collector és part del <commonVoiceLink>Common Voice</commonVoiceLink>. Permet als col·laboradors de recollir i validar frases creades per la comunitat. També podeu usar aquesta eina per a importar i netejar corpus de domini públic de mida petita i mitjana que hàgiu trobat o recollit. Totes les frases han de ser de domini públic. Les frases aprovades s'exporten cada setmana al repositori del Common Voice i són disponibles al lloc web del Common Voice en cada nou desplegament.
+sc-home-collect-title = Recull frases
+sc-home-collect-text = Ajudeu-nos escrivint o recopilant frases de domini públic.
+sc-home-review-title = Revisa les frases
+sc-home-review-text = Ajudeu-nos revisant la correcció de les frases segons unes directrius.
+
+## HOW-TO
+
+sc-howto-title = Com es fa per a
+sc-howto-addlang-title = Afegir llengües per a treballar-hi
+sc-howto-addlang-text = Una vegada heu iniciat sessió, podeu triar les llengües a la secció del perfil.
+sc-howto-addsen-title = Afegir frases noves
+sc-howto-addsen-item-2 = Xifres. No hi hauria d'haver cap dígit en el text, perquè poden causar problemes quan es llegeixen en veu alta. La manera com es llegeix un nombre depèn del context i pot introduir confusió en el conjunt de dades. Per exemple, el nombre «2409» es podria llegir correctament com «vint-i-quatre zero nou» i com «dos mil quatre-cents nou», segons el context.
+sc-howto-addsen-item-3 = Abreviatures i acrònims. S'han d'evitar les abreviatures i els acrònims com ara «EUA» o «IEC» en el text, perquè es poden llegir d'una manera que no coincideix amb la seva grafia. A més, pot haver-hi diverses lectures correctes per a una sola abreviatura. Per exemple, l'acrònim «UAB» es pot pronunciar "u-a-be", "uab" o com «Universitat Autònoma de Barcelona».
+sc-howto-addsen-item-4 = Puntuació. Els símbols especials i els signes de puntuació només s'han d'incloure quan sigui absolutament necessari. Per exemple, en català s'usen el punt volat en la ela geminada i l'apòstrof davant de paraules començades en vocal, i s'haurien d'incloure en el text, però és poc probable que mai necessiteu un símbol especial com ara @ o #.
+sc-howto-addsen-item-5 = Lletres estrangeres. Les lletres han de ser vàlides en la llengua que es parla. Per exemple, «ж» és una lletra de l'alfabet ciríl·lic, però no s'utilitza en català i, per tant, no hauria d'aparèixer mai en cap text en català.
+sc-howto-addsen-item-6 = Cada llengua pot tenir les seves <validationRulesLink>regles de validació</validationRulesLink> amb requeriments addicionals. Si no hi ha cap fitxer de validació específic per a una llengua, s'usen les regles específiques de l'anglès.
+sc-howto-addsen-post-1 = Preferim frases naturals/conversacionals. Tot i que la diversitat fonètica i les diferents paraules a les frases són importants, estem intentant que l'enregistrament de les frases sigui el més divertit possible. Per tant, estaria genial si intenteu que les frases siguin tan naturals i atractives com sigui possible.
+sc-howto-cite-title = Com citar
+sc-howto-cite-pre-1 = És important que feu referència a on heu trobat la llicència pública per a evitar el plagi i per a permetre el seguiment de <copyrightIssuesLink>problemes de drets d'autor</copyrightIssuesLink>. Aquí teniu algunes maneres de citar l'obra.
+sc-howto-cite-item-1 = Podeu incloure el lloc web, per exemple, «Common Voice - https://commonvoice.mozilla.org/»
+sc-howto-cite-item-2 = Podeu utilitzar un estil de referència acadèmic. P. ex., l'estil de Harvard «Mozilla (2021) Common Voice. Disponible a https://commonvoice.mozilla.org/ (Consulta: 15 de setembre de 2021)»
+sc-howto-cite-item-3 = Per al text de domini públic que no està disponible en línia, podeu utilitzar un estil de referència acadèmic. P. ex., l'estil de Harvard «Jess (2021) Els meus poemes en domini públic»
+sc-howto-review-title = Revisar frases
+sc-howto-review-subtitle = Assegureu-vos que la frase compleix els criteris següents:
+sc-howto-review-criteria-1 = La frase és escrita correctament, sense faltes d'ortografia.
+sc-howto-review-criteria-2 = La frase ha de ser gramaticalment correcta.
+sc-howto-review-criteria-3 = La frase ha de ser pronunciable.
+sc-howto-review-criteria-4 = Si la frase compleix els criteris, feu clic en el botó «Aprova».
+sc-howto-review-criteria-5 = Si la frase no compleix els criteris anteriors, feu clic en el botó «Rebutja». Si no n'esteu segur, també podeu saltar-la i passar a la següent.
+sc-howto-review-criteria-6 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
+sc-howto-findpd-title = Trobar frases de domini públic
+sc-howto-findpd-subtitle = Cerqueu-ne a Internet
+sc-howto-findpd-text-2 = Recordeu que necessitem permís per a publicar aquestes frases, així que assegureu-vos sempre que el text pertany al <wikipediaLink>domini públic</wikipediaLink>. Si no hi ha cap indicació explícita, poseu-vos en contacte amb la persona a qui pertany el text i pregunteu si vol aportar el text al domini públic. Si ho volen, ajudeu-los a passar pel procés de l'<cc0WaiverLink>Acord de col·laboracions</cc0WaiverLink>. Si no volen aportar el text, no podeu utilitzar-lo.
+sc-howto-findpd-tips = Aquí teniu alguns consells per a trobar frases:
+sc-howto-findpd-tips-1 = Les millors fonts que podeu cercar són podcasts, transcripcions, guions de pel·lícules i qualsevol cosa que pugui contenir converses quotidianes.
+sc-howto-findpd-tips-3 = Malauradament, encara no podem tenir articles de la Viquipèdia. Així que no copieu i enganxeu text des d'allà.
+sc-howto-findpd-subtitle-2 = Col·laborar amb persones o organitzacions locals
+sc-howto-findpd-partner-1 = Hi ha moltes organitzacions públiques que potser volen col·laborar i ja tenen molts textos que poden donar com a domini públic. Poseu-vos en contacte amb universitats, governs i organitzacions de codi obert locals per a parlar del projecte i demanar-los ajuda.
+sc-howto-findpd-partner-2 = Els lingüistes experts també us poden ajudar, intenteu posar-vos en contacte amb les universitats lingüístiques locals (amb docents i estudiants) i comproveu si poden ajudar a reunir un conjunt divers d'oracions amb diferents sons en la vostra llengua.
+
+## MY SENTENCES
+
+sc-my-title = Les meves frases
+sc-my-loading = S'estan carregant les frases…
+sc-my-err-fetching = S'ha produït un error en obtenir les frases. Torneu-ho a provar.
+sc-my-no-sentences = No s'ha trobat cap frase!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Tramesa: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Font:  { $source }
+sc-my-delete = Suprimeix les frases seleccionades
+sc-my-deleting = S'estan suprimint les frases seleccionades
+sc-my-err-failed-delete = No s'han pogut suprimir les frases seleccionades… Torneu-ho a provar!
+
+## REJECTED
+
+sc-rejected-title = Frases rebutjades
+sc-rejected-loading = S'estan carregant les frases rebutjades…
+sc-rejected-err-fetching = S'ha produït un error en obtenir les frases rebutjades. Torneu-ho a provar.
+sc-rejected-none-found = No s'ha trobat cap frase rebutjada!
+
+## STATS
+
+sc-stats-title = Estadístiques
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Última actualització: { $lastUpdate }
+sc-stats-last-update-never = Última actualització: mai
+sc-stats-updating = S'està actualitzant…
+
+## ADD
+
+sc-submit-err-select-lang = Seleccioneu una llengua.
+sc-submit-err-add-sentences = Afegiu frases.
+sc-submit-err-add-source = Afegiu una font.
+sc-submit-err-confirm-pd = Confirmeu que aquestes frases són de domini públic.
+sc-submit-prompt =
+    .message = Les frases no s'han enviat, esteu segur que voleu sortir?
+sc-submit-title = Afegeix frases
+sc-submit-select-language =
+    .labelText = Trieu una llengua
+sc-submit-ph-one-per-line =
+    .placeholder = Una frase per línia
+sc-submit-from-where = D'on són aquestes frases de <wikipediaLink>domini públic</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Llegiu les instruccions si no esteu segurs de com atribuir
+sc-submit-confirm = Confirmo que aquestes frases són de <wikipediaLink>domini públic</wikipediaLink> i tinc permís per pujar-les.
+sc-submit-button =
+    .submitText = Envia
+sc-submit-filtered = Frases filtrades a causa d'algun error en els requeriments (envieu les frases corregides com a frases noves):
+sc-submit-guidelines = Reviseu les <howToLink>directrius</howToLink>.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = No s'ha pogut afegir la llengua
+sc-add-lang-sec-label = Afegiu la llengua en la qual voleu contribuir
+sc-add-lang-sec-button = Afegeix una llengua
+sc-add-err-unexpected = El servidor ha retornat una resposta inesperada
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Frases enviades. No s'ha rebutjat cap frase com a duplicada.
+        [one] Frases enviades. S'ha rebutjat una frase com a duplicada.
+       *[other] Frases enviades. S'han rebutjat { $duplicates } frases com a duplicades.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] No ha fallat cap frase
+        [one] Ha fallat una frase
+       *[other] Han fallat { $sentences } frases
+    }
+sc-add-err-submission = Error d'enviament
+sc-add-lang-process-notice = Si la vostra llengua no apareix aquí, la podeu sol·licitar mitjançant <languageProcessLink>aquest procés</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = Les frases no s'han enviat, esteu segur que voleu sortir?
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] No s'ha trobat cap frase.
+        [one] S'ha trobat 1 frase.
+       *[other] S'han trobat { $countOfSentences } frases.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = N'heu rebutjat { $countOfInvalidated }
+sc-confirm-button-text = Confirma
+
+## LANGUAGE INFO
+
+sc-lang-info-review-now = <reviewLink>Reviseu ara!</reviewLink>
+sc-lang-info-add-more = <addLink>Afegiu més frases ara!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Cap frase validada.
+        [one] Una frase validada.
+       *[other] { $validatedSentences } frases validades.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Cap frase rebutjada.
+        [one] Una frase rebutjada.
+       *[other] { $rejectedSentences } frases rebutjades.
+    }
+
+## LOGIN
+
+sc-login-err-failed = L'inici de sessió ha fallat
+sc-login-err-try-again = Torneu-ho a provar.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Perfil: { $username }
+sc-personal-err-lang-not-found = No s'ha pogut suprimir la llengua: la llengua no s'ha trobat
+sc-personal-err-remove = No s'ha pogut suprimir la llengua
+sc-personal-your-languages = Les vostres llengües:
+sc-personal-remove-button = elimina
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = N'heu afegit { $sentences }
+sc-personal-not-added = Encara no heu afegit cap llengua.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ Criteris de revisió
+sc-criteria-title = Criteris de revisió
+sc-criteria-make-sure = Assegureu-vos que la frase compleix els criteris següents:
+sc-criteria-item-1 = La frase és escrita correctament, sense faltes d'ortografia.
+sc-criteria-item-2 = La frase és gramaticalment correcta.
+sc-criteria-item-3 = La frase és pronunciable.
+sc-criteria-item-4 = Si la frase compleix els criteris, feu clic en el botó «Aprova».
+sc-criteria-item-5-2 = Si la frase no compleix els criteris anteriors, feu clic en el botó «Rebutja». Si no n'esteu segur, també podeu saltar-la i passar a la següent.
+sc-criteria-item-6 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
+
+## REVIEW
+
+sc-review-lang-not-selected = No heu seleccionat cap llengua. Aneu al vostre <profileLink>Perfil</profileLink> per a triar alguna llengua.
+sc-review-title = Revisa les frases
+sc-review-loading = S'estan carregant les frases…
+sc-review-select-language = Trieu una llengua per a revisar-ne les frases.
+sc-review-no-sentences = No hi ha cap frase per revisar. <addLink>Afegiu més frases ara!</addLink>
+sc-review-form-prompt =
+    .message = No s'han enviat les frases revisades, n'esteu segur?
+sc-review-form-usage = Llisqueu cap a la dreta per a aprovar la frase. Llisqueu cap a l'esquerra per a rebutjar-la. Llisqueu cap amunt per a ometre-la. <strong>No oblideu de trametre la revisió!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Font:  { $sentenceSource }
+sc-review-form-button-reject = Rebutja
+sc-review-form-button-skip = Omet
+sc-review-form-button-approve = Aprova
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = També podeu usar les dreceres del teclat: Y per a aprovar, N per a rebutjar, S per a ometre
+sc-review-form-button-submit =
+    .submitText = Acaba la revisió
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] No heu revisat cap frase.
+        [one] Heu revisat una frase. Gràcies!
+       *[other] Heu revisat { $sentences } frases. Gràcies!
+    }
+sc-review-form-review-failure = No s'ha pogut desar la revisió. Torneu-ho a provar més tard.
+sc-review-link = Revisa
+
+## SETTINGS
+
+sc-settings-title = Paràmetres
+sc-settings-ui-language = Llengua de la interfície
+sc-settings-language-translated-warning = Les pàgines per aquesta llengua poden no estar acabades de traduir. Podeu ajudar amb les traduccions al <pontoonLinkLink>Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = Restableix les frases omeses
+sc-settings-skipped-decription = Abans heu omès frases mentre les revisàveu. Si restabliu les frases omeses, es us tornaran a mostrar. Això és independent de la llengua.
+sc-settings-show-all-button = Mostra de nou totes les frases omeses
+sc-settings-failed = No s'ha pogut canviar la configuració. Torneu-ho a provar.
+# VALIDATION
+sc-validation-number-of-words = La frase ha de contenir entre 1 i 14 paraules.
+sc-validation-no-numbers = La frase no pot contenir xifres
+sc-validation-no-symbols = La frase no pot contenir símbols
+sc-validation-no-abbreviations = La frase no pot contenir abreviatures
+
+# [/SentenceCollector]
+

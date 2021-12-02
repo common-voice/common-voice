@@ -3,7 +3,7 @@
 yes-receive-emails = Бале, ба ман паёмҳои электрониро фиристед. Ман мехоҳам оид ба лоиҳаи «Common Voice» бохабар бошам.
 stayintouch = Мо дар Mozilla аз паи бунёди ҷомеа атрофи технологияҳои забонҳо ҳастем. Мо мехоҳем, ки шумо аз навигариҳо, манбаъҳои нави маълумот бохабар бошед ва бифаҳмем, ки шумо чӣ гуна ин маълумотҳоро истифода мебаред.
 privacy-info = Мо ваъда медиҳем, ки маълумоти шуморо эҳтиёткорона коркард мекунем. Маълумоти бештарро дар <PrivacyLink>Огоҳиномаи махфият</ PrivacyLink> хонед.
-return-to-cv = Бозгашт ба Common Voice
+return-to-cv = Бозгашт ба «Common Voice»
 email-input =
     .label = Почтаи электронӣ
 submit-form-action = Пешниҳод кардан
@@ -33,8 +33,10 @@ as = Ассомӣ
 ast = Астурӣ
 az = Озарӣ
 ba = Бошқирдӣ
+bas = Басаа
 be = Белорусӣ
 bg = Булғорӣ
+bm = Бамбара
 bn = Банголӣ
 br = Бретонӣ
 bxr = Бурятӣ
@@ -76,6 +78,8 @@ hy-AM = Арманӣ
 hyw = Армании ғарбӣ
 ia = Интерлингва
 id = Индонезӣ
+ie = Байнизабонӣ
+ig = Игбо
 is = Исландӣ
 it = Итолиёӣ
 izh = Ижорӣ
@@ -84,6 +88,7 @@ ka = Гурҷӣ
 kaa = Қароқалпоқӣ
 kab = Кабилӣ
 kbd = Кабардинӣ
+ki = Кикуйю
 kk = Қазоқӣ
 kmr = Курдии Курманҷӣ
 ko = Кореягӣ
@@ -108,6 +113,7 @@ ms = Малайӣ
 mt = Малтӣ
 my = Бирманӣ
 myv = Эрзянӣ
+nan-tw = Тайванӣ (Миннан)
 nb-NO = Букмоли норвегӣ
 ne-NP = Непалӣ
 nia = Ниасӣ
@@ -117,6 +123,7 @@ oc = Окситанӣ
 or = Одия
 pa-IN = Панҷобӣ
 pl = Лаҳистонӣ
+ps = Пашту
 pt = Португалӣ
 rm-sursilv = Сурселвии романшӣ
 rm-vallader = Валладери романшӣ
@@ -129,6 +136,7 @@ scn = Ситсилӣ
 si = Сингалӣ
 sk = Словакӣ
 sl = Словенӣ
+so = Сомалӣ
 sq = Албанӣ
 sr = Сербӣ
 sv-SE = Шведӣ
@@ -178,13 +186,19 @@ logout = Баромадан
 
 home-title = «Common Voice» ташуббуси Mozilla буда ба мошинҳо омӯхтани тарзи суханронии одамони воқеиро кӯмак мекунад.
 home-cta = Сухан гӯед, саҳми худро гузоред!
+wall-of-text-first = Фановарии Овоз табиист, овоз одамист. Аз ин рӯ, мо ба эҷоди технологияи овозии дар мошинҳои худ истифодашаванда шавқ дорем. Аммо барои сохтани низомҳои овозӣ, таҳиягарон ба миқдори бениҳоят зиёди маълумоти овозӣ ниёз доранд.
+wall-of-text-second = Аксари маълумоте, ки аз ҷониби ширкатҳои бузург истифода мешаванд, ба аксарияти одамон дастрас нестанд. Мо фикр мекунем, ки ин навовариро бозмедорад. Ҳамин тавр, мо лоиҳаи «Common Voice»-ро оғоз кардем, ки ин лоиҳа садошиносиро ба ҳамагон дастрас мекунад.
 show-wall-of-text = Бештар хондан
+help-us-title = Ба мо дар тасдиқи ҷумлаҳо кумак кунед!
+help-us-explain = Тугмаи «Пахш кардан»-ро зер карда, гӯш кунед ва ба мо гӯед: оё онҳо ҷумлаи зеринро дуруст гуфтаанд?
 vote-yes = Ҳа
 vote-no = Не
 speak-subtitle = Овози худро пешкаш кунед
 hours-recorded = Соатҳои сабтшуда
 hours-validated = Соатҳои тасдиқшуда
 todays-progress = Пешрафти имрӯза
+read-terms-q = Оё шумо Шартҳои моро хондаед?
+ready-to-record = Омодаед, ки овози худро тақдим кунед?
 all-locales = Ҳама
 today = Имрӯз
 x-weeks-short =
@@ -495,5 +509,52 @@ demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
 # [/SentenceCollector]
 

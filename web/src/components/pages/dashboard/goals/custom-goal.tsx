@@ -277,7 +277,6 @@ export default function CustomGoal({
           ...account,
           locales: account.locales.concat({
             locale: dashboardLocale,
-            accent: '',
           }),
         });
       }

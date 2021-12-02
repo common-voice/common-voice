@@ -154,6 +154,7 @@ tg = Tadschikisch
 th = Thailändisch
 ti = Tigrinya
 tig = Tigre
+tk = Turkmenisch
 tl = Tagalog
 tr = Türkisch
 tt = Tatarisch
@@ -326,8 +327,13 @@ profile-form-native-language =
     .label = Muttersprache
 profile-form-additional-language =
     .label = Zusätzliche Sprache
+profile-form-language =
+    .label = Sprache
 profile-form-accent =
     .label = Akzent
+profile-form-custom-accent-help-text =
+    .label = Wie würden Sie Ihren Akzent beschreiben?
+profile-form-custom-accent-placeholder-2 = Beginnen Sie mit der Eingabe, um Ihren Akzent zu beschreiben
 profile-form-age =
     .label = Alter
 profile-form-gender-2 =
@@ -338,6 +344,7 @@ hidden = Versteckt
 visible = Sichtbar
 native-language =
     .label = Muttersprache
+profile-form-add-accent = Neuen benutzerdefinierten Akzent hinzufügen „{ $inputValue }“
 profile-form-submit-save = Speichern
 profile-form-submit-saved = Gespeichert
 male = Männlich
@@ -371,6 +378,8 @@ skip-submission-description = Beim Mitarbeiten wird nach dem Klick auf »Übermi
 skip-submission-note = Hinweis: Sie müssen sich weiterhin zwischen »Sprechen« und »Anhören« entscheiden, je nachdem wie Sie mitarbeiten möchten.
 off = Aus
 on = An
+help-accent = Brauchen Sie Hilfe beim Akzent?
+help-accent-explanation = Ihr Akzent ist die Art und Weise, wie Sie Wörter aussprechen. Er kann davon geprägt sein, wo Sie gelebt haben, welche anderen Sprachen Sie sprechen und von vielen anderen Faktoren. Sie können hier alle Informationen teilen, die Sie für relevant halten.
 
 ## Profile - Email
 
@@ -1003,9 +1012,14 @@ contribution-just-unsure-title = Nur unsicher?
 contribution-just-unsure-description = Wenn Sie auf etwas stoßen, das diese Richtlinien nicht abdecken, stimmen Sie bitte nach bestem Wissen und Gewissen ab. Wenn Sie sich wirklich nicht entscheiden können, verwenden Sie die Überspringen-Schaltfläche und fahren Sie mit der nächsten Aufnahme fort.
 see-more = <chevron></chevron>Mehr anzeigen
 see-less = <chevron></chevron>Weniger anzeigen
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = Startseite
 sc-header-how-to = Anleitung
 sc-header-add = Hinzufügen
@@ -1023,6 +1037,9 @@ sc-footer-terms = Nutzungsbedingungen
 sc-footer-cookies = Cookies
 sc-login-signup-button = Anmelden / Registrieren
 sc-logout-button = Abmelden
+
+## HOME
+
 sc-home-title = Willkommen beim Common-Voice-Satzsammler
 sc-home-intro =
     Der Satzsammler ist Teil von <commonVoiceLink>Common Voice</commonVoiceLink>.
@@ -1033,6 +1050,9 @@ sc-home-collect-title = Sätze sammeln
 sc-home-collect-text = Helfen Sie uns, indem Sie gemeinfreie Sätze schreiben oder sammeln.
 sc-home-review-title = Sätze überprüfen
 sc-home-review-text = Helfen Sie uns, indem Sie Sätze gemäß den Richtlinien auf Richtigkeit überprüfen.
+
+## HOW-TO
+
 sc-howto-title = Anleitung
 sc-howto-addlang-title = Sprachen hinzufügen, mit denen gearbeitet wird
 sc-howto-addlang-text = Sobald Sie angemeldet sind, können Sie Ihre Sprachen im Abschnitt Profil auswählen.
@@ -1087,10 +1107,7 @@ sc-howto-review-criteria-5 =
 sc-howto-review-criteria-6 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
 sc-howto-findpd-title = Gemeinfreie Sätze finden
 sc-howto-findpd-subtitle = Suchen Sie im Internet danach
-sc-howto-findpd-text =
-    Denken Sie daran, dass wir die Erlaubnis benötigen, diese Sätze zu veröffentlichen,
-    stellen Sie also immer sicher, dass der Text zur <wikipediaLink>Public Domain</wikipediaLink> gehört. Wenn kein Hinweis vorhanden ist,
-    Wenden Sie sich an die Person, der der Text gehört, und fragen Sie, ob Sie ihren Text verwenden können.
+sc-howto-findpd-text-2 = Denken Sie daran, dass wir zur Veröffentlichung dieser Sätze eine Erlaubnis benötigen. Stellen Sie daher immer sicher, dass der Text <wikipediaLink>gemeinfrei</wikipediaLink> ist. Wenn es keinen ausdrücklichen Hinweis gibt, wenden Sie sich an die Person, der der Text gehört, und fragen Sie, ob sie ihren Text gemeinfrei veröffentlichen möchte. Wenn sie möchten, helfen Sie ihnen, die <cc0WaiverLink>Beitragsvereinbarung</cc0WaiverLink> auszufüllen. Wenn sie den Text nicht beitragen möchten, dürfen Sie diesen Text nicht verwenden.
 sc-howto-findpd-tips = Hier sind einige Tipps zum Finden von Sätzen:
 sc-howto-findpd-tips-1 =
     Die besten Quellen, die Sie suchen können, sind Podcasts, Transkripte, Filmskripts und
@@ -1108,6 +1125,9 @@ sc-howto-findpd-partner-2 =
     Erfahrene Linguisten können auch helfen; versuchen Sie, linguistische
     Universitäten (sowohl Lehrende als auch Studierende) in der Nähe zu erreichen und sehen Sie, ob sie helfen können, ein vielfältiges Angebot an
     klangverschiedenen Sätze in Ihrer Sprache zu sammeln.
+
+## MY SENTENCES
+
 sc-my-title = Meine Sätze
 sc-my-description =
     Auf dieser Seite erhalten Sie einen Überblick über alle Ihre eingereichten Sätze.
@@ -1118,32 +1138,38 @@ sc-my-description =
 sc-my-loading = Ihre Sätze werden geladen…
 sc-my-err-fetching = Fehler beim Abrufen der Sätze. Bitte versuchen Sie es erneut.
 sc-my-no-sentences = Keine Sätze gefunden!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Einreichung: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Quelle: { $source }
 sc-my-delete = Ausgewählte Sätze löschen
 sc-my-deleting = Ausgewählte Sätze werden gelöscht…
 sc-my-err-failed-delete = Ausgewählte Sätze konnten nicht gelöscht werden... Bitte versuchen Sie es erneut!
-sc-profile-title = Profil: { $username }
+
+## REJECTED
+
 sc-rejected-title = Abgelehnte Sätze
 sc-rejected-loading = Abgelehnte Sätze werden geladen…
 sc-rejected-err-fetching = Fehler beim Abrufen der abgelehnten Sätze. Bitte versuchen Sie es erneut.
 sc-rejected-none-found = Keine abgelehnten Sätze gefunden!
-sc-review-lang-not-selected =
-    Sie haben keine Sprachen ausgewählt. Bitte öffnen Sie Ihr
-    <profileLink>Profil</profileLink>, um Sprachen auszuwählen.
-sc-review-title = Sätze überprüfen
-sc-review-loading = Sätze werden geladen...
-sc-review-select-language = Bitte wählen Sie eine Sprache aus, um Sätze zu überprüfen.
-sc-review-no-sentences =
-    Keine Sätze zu überprüfen.
-    <addLink>Fügen Sie jetzt weitere Sätze hinzu!</addLink>
+
+## STATS
+
 sc-stats-title = Statistiken
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = Letzte Aktualisierung: { $lastUpdate }
 sc-stats-last-update-never = Letzte Aktualisierung: Nie
 sc-stats-updating = Wird aktualisiert…
-sc-stats-summary =
-    Der Common-Voice-Satz-Sammler hat
-    { $satzCount } Sätze in { $languageCount } Sprachen gesammelt!
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Der Common-Voice-Satz-Sammler hat { $sentenceCount } Sätze in { $languageCount } Sprachen gesammelt!
+
+## ADD
+
 sc-submit-err-select-lang = Bitte wählen Sie eine Sprache aus.
 sc-submit-err-add-sentences = Bitte fügen Sie Sätze hinzu.
 sc-submit-err-add-source = Bitte fügen Sie eine Quelle hinzu.
@@ -1166,16 +1192,23 @@ sc-submit-button =
     .submitText = Absenden
 sc-submit-filtered = Gefilterte Sätze aufgrund fehlender Anforderungen (bitte feste Versionen als neue Sätze einreichen):
 sc-submit-guidelines = Bitte überprüfen Sie die <howToLink>Richtlinien</howToLink>.
+
+## ADD LANGUAGE
+
 sc-add-lang-could-not-add = Sprache konnte nicht hinzugefügt werden
 sc-add-lang-sec-label = Fügen Sie eine Sprache hinzu, zu der Sie beitragen möchten
 sc-add-lang-sec-button = Sprache hinzufügen
 sc-add-err-unexpected = Unerwartete Antwort vom Server zurückgegeben
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
         [0] Übermittelte Sätze. { $duplicates } Sätze wurden als Duplikate zurückgewiesen.
         [one] Übermittelte Sätze. { $duplicates } Satz wurden als Duplikat zurückgewiesen.
        *[other] Übermittelte Sätze. { $duplicates } Sätze wurden als Duplikate zurückgewiesen.
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
         [0] Kein Satz fehlgeschlagen
@@ -1183,15 +1216,23 @@ sc-add-err-failed =
        *[other] { $sentences } Sätze fehlgeschlagen
     }
 sc-add-err-submission = Übermittlungsfehler
+sc-add-lang-process-notice = Wenn Ihre Sprache hier nicht aufgeführt ist, können Sie sie über <languageProcessLink>diesen Prozess</languageProcessLink> beantragen.
+
+## ADD SENTENCES CONFIRMATION
+
 sc-confirm-are-you-sure =
     .message = Sätze wurden nicht gesendet. Möchten Sie wirklich gehen?
 sc-confirm-sentences-title = Neue Sätze bestätigen
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] Keine Sätze gefunden.
         [one] Ein Satz gefunden.
        *[other] { $countOfSentences } Sätze gefunden.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } wurde von Ihnen abgelehnt
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
@@ -1199,29 +1240,42 @@ sc-confirm-already-reviewed =
         [one] Bisher wurde ein Satz überprüft.
        *[other] Bisher wurden { $countOfReviewed } Sätze überprüft. Gut gemacht!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
         [0] Kein Satz bereit zur Übermittlung!
         [one] Ein Satz bereit zur Übermittlung!
        *[other] { $readyCount } Sätze bereit zur Übermittlung!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed =
     { $countOfUnreviewed } Sätze wurden noch nicht überprüft.
     Wenn Sie möchten, können Sie Ihre Sätze jetzt auch noch einmal überprüfen, bevor Sie sie absenden.
 sc-confirm-button-text = Bestätigen
 sc-confirm-uploading = Sätze werden hochgeladen. Dies kann je nach Anzahl der hinzugefügten Sätze mehrere Minuten dauern. Bitte schließen Sie diese Website nicht.
+
+## LANGUAGE INFO
+
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
         [0] Null vollständige insgesamt.
         [one] Ein vollständiger Satz.
        *[other] { $totalSentences } vollständige Sätze.
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] Kein Sätze warten auf Überprüfung.
         [one] Ein Satz wartet auf Überprüfung.
        *[other] { $totalInReview } Sätze warten auf Überprüfung.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] Keine Sätze mehr zu überprüfen.
@@ -1230,26 +1284,44 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Jetzt überprüfen!</reviewLink>
 sc-lang-info-add-more = <addLink>Fügen Sie jetzt weitere Sätze hinzu!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
         [0] Keine validierten Sätze.
         [one] Ein validierter Satz.
        *[other] { $validatedSentences } validierte Sätze.
     }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Keine abgelehnten Sätze.
         [one] Ein abgelehnter Satz.
        *[other] { $rejectedSentences } abgelehnten Sätze.
     }
+
+## LOGIN
+
 sc-login-err-failed = Anmeldung fehlgeschlagen
 sc-login-err-try-again = Bitte versuchen Sie es erneut.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
 sc-personal-err-lang-not-found = Sprache konnte nicht entfernt werden: Sprache nicht gefunden
 sc-personal-err-remove = Sprache konnte nicht entfernt werden
 sc-personal-your-languages = Ihre Sprachen:
 sc-personal-remove-button = Entfernen
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } von Ihnen hinzugefügt
 sc-personal-not-added = Sie haben noch keine Sprachen hinzugefügt.
+
+## REVIEW CRITERIA
+
 sc-criteria-modal = ⓘ Überprüfungskriterien
 sc-criteria-title = Überprüfungskriterien
 sc-criteria-make-sure = Stellen Sie sicher, dass der Satz die folgenden Kriterien erfüllt:
@@ -1257,22 +1329,39 @@ sc-criteria-item-1 = Der Satz muss richtig geschrieben sein.
 sc-criteria-item-2 = Der Satz muss grammatikalisch korrekt sein.
 sc-criteria-item-3 = Der Satz muss aussprechbar sein.
 sc-criteria-item-4 = Wenn der Satz die Kriterien erfüllt, klicken Sie auf die Schaltfläche „Genehmigen“ auf der rechten Seite.
-sc-criteria-item-5 =
-    Wenn der Satz die oben genannten Kriterien nicht erfüllt, klicken Sie auf die Schaltfläche „Ablehnen“.
+sc-criteria-item-5-2 =
+    Wenn der Satz die oben genannten Kriterien nicht erfüllt, klicken Sie auf die Schaltfläche „Ablehnen“ auf der linken Seite.
     Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
 sc-criteria-item-6 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
+
+## REVIEW
+
+sc-review-lang-not-selected =
+    Sie haben keine Sprachen ausgewählt. Bitte öffnen Sie Ihr
+    <profileLink>Profil</profileLink>, um Sprachen auszuwählen.
+sc-review-title = Sätze überprüfen
+sc-review-loading = Sätze werden geladen...
+sc-review-select-language = Bitte wählen Sie eine Sprache aus, um Sätze zu überprüfen.
+sc-review-no-sentences =
+    Keine Sätze zu überprüfen.
+    <addLink>Fügen Sie jetzt weitere Sätze hinzu!</addLink>
 sc-review-form-prompt =
     .message = Überprüfte Sätze nicht eingereicht, sind Sie sicher?
 sc-review-form-usage =
     Wischen Sie nach rechts, um den Satz zu genehmigen. Wischen Sie nach links, um ihn abzulehnen.
     Wischen Sie nach oben, um ihn zu überspringen. <strong>Vergessen Sie nicht, Ihre Bewertung zu übermitteln!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Quelle: { $sentenceSource }
 sc-review-form-button-reject = Ablehnen
 sc-review-form-button-skip = Überspringen
 sc-review-form-button-approve = Genehmigen
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
 sc-review-form-keyboard-usage = Sie können auch Tastenkombinationen verwenden: Y zum Genehmigen, N zum Ablehnen, S zum Überspringen
 sc-review-form-button-submit =
     .submitText = Bewertung abschließen
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Keine Sätze überprüft.
@@ -1281,7 +1370,12 @@ sc-review-form-reviewed-message =
     }
 sc-review-form-review-failure = Bewertung konnte nicht gespeichert werden. Bitte versuchen Sie es später erneut.
 sc-review-link = Bewertungen
+
+## SETTINGS
+
 sc-settings-title = Einstellungen
+sc-settings-ui-language = Sprache der Benutzeroberfläche
+sc-settings-language-translated-warning = Die Seiten für diese Sprache sind möglicherweise nicht vollständig übersetzt. Sie können bei der Übersetzung <pontoonLinkLink>auf Pontoon</pontoonLinkLink> helfen.
 sc-settings-reset-skipped = Übersprungene Sätze zurücksetzen
 sc-settings-skipped-decription =
     Sie haben Sätze beim Überprüfen zuvor übersprungen.
@@ -1289,6 +1383,11 @@ sc-settings-skipped-decription =
     Das ist unabhängig von der Sprache.
 sc-settings-show-all-button = Alle übersprungenen Sätze wieder anzeigen
 sc-settings-failed = Einstellungen konnten nicht geändert werden. Bitte versuchen Sie es erneut.
+# VALIDATION
+sc-validation-number-of-words = Der Satz muss zwischen 1 und 14 (einschließlich) Wörtern enthalten
+sc-validation-no-numbers = Satz sollte keine Zahlen enthalten
+sc-validation-no-symbols = Satz sollte keine Symbole enthalten
+sc-validation-no-abbreviations = Satz sollte keine Abkürzungen enthalten
 
 # [/SentenceCollector]
 

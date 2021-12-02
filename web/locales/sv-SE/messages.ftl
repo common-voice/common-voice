@@ -106,6 +106,7 @@ mhr = Östmariska
 mk = Makedonska
 ml = Malayalam
 mn = Mongoliska
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Västmariska
@@ -152,7 +153,8 @@ te = Telugu
 tg = Tadzjikiska
 th = Thailändska
 ti = Tigrinska
-Tig = Tigre
+tig = Tigre
+tk = Turkmeniska
 tl = Tagalog
 tr = Turkiska
 tt = Tatariska
@@ -328,8 +330,13 @@ profile-form-native-language =
     .label = Modersmål
 profile-form-additional-language =
     .label = Ytterligare språk
+profile-form-language =
+    .label = Språk
 profile-form-accent =
-    .label = Dialekt
+    .label = Accent
+profile-form-custom-accent-help-text =
+    .label = Hur skulle du beskriva din accent?
+profile-form-custom-accent-placeholder-2 = Börja skriva för att beskriva din accent
 profile-form-age =
     .label = Ålder
 profile-form-gender-2 =
@@ -340,6 +347,7 @@ hidden = Dold
 visible = Synlig
 native-language =
     .label = Modersmål
+profile-form-add-accent = Lägg till ny anpassad accent "{ $inputValue }"
 profile-form-submit-save = Spara
 profile-form-submit-saved = Sparad
 male = Man
@@ -373,6 +381,8 @@ skip-submission-description = Under inlämning av bidrag ignoreras återkoppling
 skip-submission-note = Notera: Du behöver fortfarande välja mellan att prata och lyssna för att ändra bidragstyp.
 off = Av
 on = På
+help-accent = Behöver du hjälp med accent?
+help-accent-explanation = Din accent är hur du uttalar ord. Det kan formas av var du har bott, vilka andra språk du talar och massor av andra faktorer. Du kan dela all information som du tycker är relevant här.
 
 ## Profile - Email
 
@@ -986,3 +996,152 @@ contribution-just-unsure-title = Osäker?
 contribution-just-unsure-description = Om du stöter på något som dessa riktlinjer inte täcker, vänligen rösta enligt ditt bästa omdöme. Om du verkligen inte kan bestämma dig, använd knappen hoppa över och gå vidare till nästa inspelning.
 see-more = <chevron></chevron>Se mer
 see-less = <chevron></chevron>Se mindre
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Hem
+sc-header-how-to = Hur man
+sc-header-add = Lägg till
+sc-header-review = Granska
+sc-header-rejected = Avvisade meningar
+sc-header-my = Mina meningar
+sc-header-statistics = Statistik
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Rapportera buggar
+sc-footer-translate = Översätt denna sida
+sc-footer-report-copyright = Rapportera upphovsrättsproblem
+sc-footer-privacy = Sekretess
+sc-footer-terms = Villkor
+sc-footer-cookies = Kakor
+sc-login-signup-button = Logga in / Registrera dig
+sc-logout-button = Logga ut
+
+## HOME
+
+sc-home-collect-title = Samla meningar
+sc-home-review-title = Granska meningar
+
+## HOW-TO
+
+sc-howto-title = Hur man
+sc-howto-addlang-title = Lägga till språk att arbeta med
+sc-howto-addsen-title = Lägg till nya meningar
+sc-howto-cite-title = Hur man citerar
+sc-howto-review-title = Granska meningar
+sc-howto-review-subtitle = Se till att meningen uppfyller följande kriterier:
+sc-howto-review-criteria-1 = Meningen måste vara rättstavad.
+sc-howto-review-criteria-2 = Meningen måste vara grammatiskt korrekt.
+sc-howto-findpd-subtitle-2 = Samarbeta med lokala organisationer eller individer
+sc-howto-findpd-partner-1 = Det finns många offentliga organisationer som kanske vill samarbeta och som redan har många texter de kan donera som allmän egendom. Nå ut till lokala universitet, regeringar och öppen källkodsorganisationer för att prata om projektet och be om deras hjälp.
+
+## MY SENTENCES
+
+sc-my-title = Mina meningar
+sc-my-loading = Laddar dina meningar…
+sc-my-err-fetching = Det gick inte att hämta dina meningar. Var god försök igen.
+sc-my-no-sentences = Inga meningar hittades!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Källa: { $source }
+sc-my-delete = Ta bort markerade meningar
+sc-my-deleting = Tar bort markerade meningar…
+sc-my-err-failed-delete = Det gick inte att ta bort valda meningar… Försök igen!
+
+## REJECTED
+
+sc-rejected-title = Avvisade meningar
+sc-rejected-loading = Läser in avvisade meningar...
+sc-rejected-err-fetching = Fel vid hämtning av avvisade meningar. Var god försök igen.
+sc-rejected-none-found = Inga avvisade meningar hittades!
+
+## STATS
+
+sc-stats-title = Statistik
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Senaste uppdatering: { $lastUpdate }
+sc-stats-last-update-never = Senaste uppdatering: aldrig
+sc-stats-updating = Uppdaterar…
+
+## ADD
+
+sc-submit-err-select-lang = Välj ett språk.
+sc-submit-err-add-sentences = Vänligen lägg till meningar.
+sc-submit-err-add-source = Vänligen lägg till en källa.
+sc-submit-title = Lägg till meningar
+sc-submit-select-language =
+    .labelText = Välj språk
+sc-submit-ph-one-per-line =
+    .placeholder = En mening per rad
+sc-submit-button =
+    .submitText = Skicka in
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Det gick inte att lägga till språk
+sc-add-lang-sec-label = Lägg till ett språk du vill bidra till
+sc-add-lang-sec-button = Lägg till språk
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-sentences-title = Bekräfta nya meningar
+sc-confirm-button-text = Bekräfta
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+sc-login-err-failed = Inloggningen misslyckades
+sc-login-err-try-again = Försök igen.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Det gick inte att ta bort språk: språk hittades inte
+sc-personal-err-remove = Det gick inte att ta bort språk
+sc-personal-your-languages = Dina språk:
+sc-personal-remove-button = ta bort
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } har lagts till av dig
+sc-personal-not-added = Du har inte lagt till några språk än.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ Granskningskriterier
+sc-criteria-title = Granskningskriterier
+
+## REVIEW
+
+sc-review-title = Granska meningar
+sc-review-loading = Laddar meningar…
+sc-review-select-language = Välj ett språk för att granska meningar.
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Källa: { $sentenceSource }
+sc-review-form-button-reject = Avvisa
+sc-review-form-button-skip = Hoppa över
+sc-review-form-button-approve = Godkänn
+sc-review-link = Granska
+
+## SETTINGS
+
+sc-settings-title = Inställningar
+sc-settings-reset-skipped = Återställ överhoppade meningar
+sc-settings-show-all-button = Visa alla överhoppade meningar igen
+sc-settings-failed = Det gick inte att ändra inställningarna. Var god försök igen.
+sc-validation-no-numbers = Meningen ska inte innehålla siffror
+sc-validation-no-symbols = Meningen bör inte innehålla symboler
+sc-validation-no-abbreviations = Meningen ska inte innehålla förkortningar
+
+# [/SentenceCollector]
+

@@ -106,6 +106,7 @@ mhr = Мэдэу Мэри
 mk = Мэсыд
 ml = Мэлэйэл
 mn = Мэнгуэл
+mni = Meetei Lon
 mos = Мэуси
 mr = Мэрати
 mrj = Хьыл Мэри
@@ -152,7 +153,7 @@ te = Тэлыгу
 tg = Тэджык
 th = Тхьэй
 ti = Тыгринэ
-Tig = Tigre
+tig = Tigre
 tl = Тэгълэгу
 tr = Тырку
 tt = Тэтэр
@@ -1009,3 +1010,62 @@ contribution-just-unsure-title = Just Unsure?
 contribution-just-unsure-description = If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.
 see-more = <chevron></chevron>See more
 see-less = <chevron></chevron>See less
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Home
+sc-header-how-to = How-to
+sc-header-add = Add
+sc-header-review = Review
+sc-header-rejected = Review
+sc-header-my = My Sentences
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+

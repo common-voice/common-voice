@@ -106,6 +106,7 @@ mhr = maryjski łąkowy
 mk = macedoński
 ml = malajalam
 mn = mongolski
+mni = meetei lon
 mos = mossi
 mr = marathi
 mrj = maryjski górski
@@ -152,7 +153,7 @@ te = telugu
 tg = tadżycki
 th = tajski
 ti = tigrinia
-Tig = tigre
+tig = tigre
 tl = tagalski
 tr = turecki
 tt = tatarski
@@ -329,6 +330,8 @@ profile-form-native-language =
     .label = Język ojczysty
 profile-form-additional-language =
     .label = Dodatkowy język
+profile-form-language =
+    .label = Język
 profile-form-accent =
     .label = Akcent
 profile-form-age =
@@ -983,3 +986,107 @@ demo-dashboard-card-body = Twój panel konta jest aktualizowany po każdym nagra
 
 see-more = <chevron></chevron>Więcej
 see-less = <chevron></chevron>Mniej
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Strona główna
+sc-header-how-to = Jak to zrobić
+sc-header-add = Dodaj
+sc-header-rejected = Odrzucone zdania
+sc-header-my = Moje zdania
+sc-header-statistics = Statystyki
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Zgłoś błędy
+sc-footer-translate = Przetłumacz tę stronę
+sc-footer-report-copyright = Zgłoś problemy z prawami autorskimi
+sc-footer-privacy = Prywatność
+sc-footer-terms = Warunki korzystania
+sc-footer-cookies = Ciasteczka
+sc-login-signup-button = Zaloguj się/zarejestruj
+sc-logout-button = Wyloguj się
+
+## HOME
+
+
+## HOW-TO
+
+sc-howto-title = Jak to zrobić
+
+## MY SENTENCES
+
+sc-my-title = Moje zdania
+sc-my-loading = Wczytywanie zdań…
+sc-my-err-fetching = Błąd podczas pobierania zdań. Proszę spróbować ponownie.
+sc-my-no-sentences = Nie odnaleziono żadnych zdań.
+sc-my-delete = Usuń zaznaczone zdania
+sc-my-deleting = Usuwanie zaznaczonych zdań…
+sc-my-err-failed-delete = Usunięcie zaznaczonych zdań się nie powiodło. Proszę spróbować ponownie.
+
+## REJECTED
+
+sc-rejected-title = Odrzucone zdania
+sc-rejected-loading = Wczytywanie odrzuconych zdań…
+sc-rejected-err-fetching = Błąd podczas pobierania odrzuconych zdań. Proszę spróbować ponownie.
+sc-rejected-none-found = Nie odnaleziono odrzuconych zdań.
+
+## STATS
+
+sc-stats-title = Statystyki
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Ostatnia aktualizacja: { $lastUpdate }
+sc-stats-last-update-never = Ostatnia aktualizacja: nigdy
+sc-stats-updating = Aktualizowanie…
+
+## ADD
+
+sc-submit-button =
+    .submitText = Wyślij
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-button-text = Potwierdź
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+sc-login-err-failed = Zalogowanie się nie powiodło
+sc-login-err-try-again = Proszę spróbować ponownie.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+sc-review-loading = Wczytywanie zdań…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Źródło: { $sentenceSource }
+sc-review-form-button-reject = Odrzuć
+sc-review-form-button-skip = Pomiń
+sc-review-form-button-approve = Zatwierdź
+
+## SETTINGS
+
+sc-settings-title = Ustawienia
+sc-settings-ui-language = Język interfejsu
+
+# [/SentenceCollector]
+

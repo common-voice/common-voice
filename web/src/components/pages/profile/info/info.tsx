@@ -4,12 +4,13 @@ import {
   WithLocalizationProps,
 } from '@fluent/react';
 import * as React from 'react';
+import Downshift from 'downshift';
 import { useCallback, useEffect, useState } from 'react';
 import { Redirect, RouteComponentProps, withRouter } from 'react-router';
 import { useAction, useAPI } from '../../../../hooks/store-hooks';
 import { NATIVE_NAMES } from '../../../../services/localization';
 import { trackProfile } from '../../../../services/tracker';
-import { ACCENTS, AGES, GENDERS } from '../../../../stores/demographics';
+import { AGES, GENDERS } from '../../../../stores/demographics';
 import { Notifications } from '../../../../stores/notifications';
 import { useTypedSelector } from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
@@ -17,7 +18,7 @@ import { User } from '../../../../stores/user';
 import URLS from '../../../../urls';
 import { LocaleLink, useLocale } from '../../../locale-helpers';
 import TermsModal from '../../../terms-modal';
-import { DownIcon } from '../../../ui/icons';
+import { DownIcon, CloseIcon } from '../../../ui/icons';
 import {
   Button,
   Hr,
@@ -26,11 +27,15 @@ import {
   LabeledSelect,
 } from '../../../ui/ui';
 import { isEnrolled } from '../../dashboard/challenge/constants';
+import { Accent, UserAccentLocale } from 'common';
 
 import './info.css';
 
 const pick = require('lodash.pick');
 const { Tooltip } = require('react-tippy');
+
+// Types for Downshift haven't caught up yet. Can be removed in the future
+const Input = LabeledInput as any;
 
 const Options = withLocalization(
   ({
@@ -49,7 +54,15 @@ const Options = withLocalization(
   )
 );
 
-type Locales = { locale: string; accent: string }[];
+type UserAccentLocales = UserAccentLocale[];
+
+type AccentsAll = {
+  [locale: string]: {
+    default: Accent;
+    userGenerated: { [id: string]: Accent };
+    preset: { [id: string]: Accent };
+  };
+};
 
 function ProfilePage({
   getString,
@@ -87,11 +100,15 @@ function ProfilePage({
     sendEmails,
     privacyAgreed,
   } = userFields;
-  const [locales, setLocales] = useState<Locales>([]);
+  const [userAccentLocales, setUserAccentLocales] = useState<UserAccentLocales>(
+    []
+  );
+  const [accentsAll, setAccentsAll] = useState<AccentsAll>({});
   const [isInitialized, setIsInitialized] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [showDemographicInfo, setShowDemographicInfo] = useState(false);
+  const [showAccentInfo, setShowAccentInfo] = useState(false);
   const [termsStatus, setTermsStatus] = useState<null | 'show' | 'agreed'>(
     null
   );
@@ -102,7 +119,11 @@ function ProfilePage({
     if (user.isFetchingAccount || isInitialized) {
       return;
     }
-    setIsInitialized(true);
+
+    api.getAccents().then(accents => {
+      setAccentsAll(accents);
+      setIsInitialized(true);
+    });
 
     if (!account && userClients.length == 0) {
       history.push('/');
@@ -122,17 +143,19 @@ function ProfilePage({
       privacyAgreed: Boolean(account) || user.privacyAgreed,
     });
 
-    let locales: Locales = [];
+    let userAccentLocales: UserAccentLocale[] = [];
     if (!account) {
-      locales = userClients.reduce(
+      userAccentLocales = userClients.reduce(
         (locales, u) => locales.concat(u.locales || []),
         []
       );
-      locales = locales.filter(
-        (l1, i) => i == locales.findIndex(l2 => l2.locale == l1.locale)
+      userAccentLocales = userAccentLocales.filter(
+        (l1, i) =>
+          i == userAccentLocales.findIndex(l2 => l2.locale == l1.locale)
       );
     }
-    setLocales(account ? account.locales : locales);
+
+    setUserAccentLocales(account ? account.locales : userAccentLocales);
   }, [user]);
 
   const handleChangeFor = (field: string) => ({
@@ -143,6 +166,63 @@ function ProfilePage({
       [field]: target.type == 'checkbox' ? target.checked : target.value,
     });
   };
+
+  const getAutocompleteAccents = (locale: string) => {
+    return accentsAll[locale]
+      ? Object.entries({
+          ...accentsAll[locale].userGenerated,
+          ...accentsAll[locale].preset,
+        }).reduce((acc, [_, accent]) => {
+          return acc.concat(accent);
+        }, [])
+      : [];
+  };
+
+  const updateCustomAccent = (accent: any, locale: string, index: number) => {
+    const accentName = typeof accent === 'string' ? accent : accent.name;
+    const accentId = typeof accent === 'string' ? null : accent.id;
+
+    const newLocales = userAccentLocales.slice();
+
+    const accentExists =
+      newLocales[index].accents.filter(accentObj => {
+        return accentObj.name === accentName;
+      }).length > 0;
+
+    if (accentExists) return;
+
+    // if this is new custom accent, input value will be string
+    // otherwise it will be Accent
+    newLocales[index] = {
+      locale,
+      accents: (newLocales[index].accents || []).concat({
+        name: accentName,
+        id: accentId,
+      }),
+    };
+
+    setUserAccentLocales(newLocales);
+  };
+
+  const removeAccent = (languageIndex: number, accentIndex: number) => {
+    const newAccents = userAccentLocales.slice();
+    newAccents[languageIndex].accents.splice(accentIndex, 1);
+    setUserAccentLocales(newAccents);
+  };
+
+  function stateReducer(state: any, changes: any) {
+    // this clears out the Downshift input upon selecting an accent
+    switch (changes.type) {
+      case Downshift.stateChangeTypes.keyDownEnter:
+      case Downshift.stateChangeTypes.clickItem:
+        return {
+          ...changes,
+          inputValue: '',
+        };
+      default:
+        return changes;
+    }
+  }
 
   const submit = useCallback(() => {
     if (!user.account) {
@@ -160,7 +240,7 @@ function ProfilePage({
 
     const data = {
       ...pick(userFields, 'username', 'age', 'gender'),
-      locales: locales.filter(l => l.locale),
+      locales: userAccentLocales.filter(l => l.locale),
       visible: JSON.parse(visible.toString()),
       client_id: user.userId,
       enrollment: user.userClients[0].enrollment || {
@@ -181,7 +261,15 @@ function ProfilePage({
         setIsSaving(false);
       },
     ]);
-  }, [api, getString, locale, locales, termsStatus, user, userFields]);
+  }, [
+    api,
+    getString,
+    locale,
+    userAccentLocales,
+    termsStatus,
+    user,
+    userFields,
+  ]);
 
   if (!isInitialized) {
     return null;
@@ -216,9 +304,7 @@ function ProfilePage({
       </Localized>
 
       <div
-        className={
-          'demographic-info ' + (showDemographicInfo ? 'expanded' : '')
-        }>
+        className={'profile-toggle ' + (showDemographicInfo ? 'expanded' : '')}>
         <button
           type="button"
           onClick={() => setShowDemographicInfo(!showDemographicInfo)}>
@@ -233,7 +319,10 @@ function ProfilePage({
         </Localized>
       </div>
 
-      <div className="form-fields">
+      <div
+        className={`form-fields ${
+          userAccentLocales.length > 1 ? 'multilingual' : ''
+        }`}>
         <Localized id="profile-form-username" attrs={{ label: true }}>
           <LabeledInput
             value={username}
@@ -268,27 +357,25 @@ function ProfilePage({
             <Options>{GENDERS}</Options>
           </LabeledSelect>
         </Localized>
-
-        {locales.map(({ locale, accent }, i) => (
-          <React.Fragment key={i}>
-            <Localized
-              id={
-                i == 0
-                  ? 'profile-form-native-language'
-                  : 'profile-form-additional-language'
-              }
-              attrs={{ label: true }}>
+        {userAccentLocales.map(({ locale, accents }, i) => (
+          <div className="accent-wrap" key={i}>
+            <Localized id="profile-form-language" attrs={{ label: true }}>
               <LabeledSelect
                 value={locale}
                 onChange={({
                   target: { value },
                 }: React.ChangeEvent<HTMLSelectElement>) => {
-                  const newLocales = locales.slice();
-                  newLocales[i] = { locale: value, accent: '' };
+                  const newLocales = userAccentLocales.slice();
+                  newLocales[i] = {
+                    locale: value,
+                    accents: accentsAll[value]
+                      ? [accentsAll[value]?.default]
+                      : [],
+                  };
                   if (!value) {
                     newLocales.splice(i, 1);
                   }
-                  setLocales(
+                  setUserAccentLocales(
                     newLocales.filter(
                       ({ locale }, i2) => i2 === i || locale !== value
                     )
@@ -302,39 +389,154 @@ function ProfilePage({
                 ))}
               </LabeledSelect>
             </Localized>
-            <Localized id="profile-form-accent" attrs={{ label: true }}>
-              <LabeledSelect
-                value={accent}
-                onChange={({
-                  target: { value },
-                }: React.ChangeEvent<HTMLSelectElement>) => {
-                  const newLocales = locales.slice();
-                  newLocales[i].accent = value;
-                  setLocales(newLocales);
-                }}>
-                <option value="" />
-                {ACCENTS[locale] && <Options>{ACCENTS[locale]}</Options>}
-              </LabeledSelect>
-            </Localized>
-          </React.Fragment>
+            <Localized id="profile-form-accent" attrs={{ label: true }} />
+            <Downshift
+              id="accent-selection"
+              onChange={selection => {
+                updateCustomAccent(selection, locale, i);
+              }}
+              stateReducer={stateReducer}
+              itemToString={item => (item ? item.name : '')}>
+              {({
+                getInputProps,
+                getItemProps,
+                openMenu,
+                getMenuProps,
+                isOpen,
+                inputValue,
+                highlightedIndex,
+                selectItem,
+              }) => {
+                const clean = (text: string) => {
+                  return text ? text.trim().toLowerCase() : '';
+                };
+
+                const options = getAutocompleteAccents(locale).filter(item =>
+                  clean(item.name).includes(clean(inputValue))
+                );
+
+                return (
+                  <div>
+                    <Localized
+                      id="profile-form-custom-accent-help-text"
+                      attrs={{ label: true }}>
+                      <Input
+                        disabled={locale.length === 0}
+                        {...getInputProps({
+                          onFocus: openMenu,
+                          type: 'text',
+                          value: inputValue || '',
+                          onKeyDown: (e: any) => {
+                            if (e.key === 'Enter') {
+                              selectItem(e.target.value, {
+                                type: Downshift.stateChangeTypes.keyDownEnter,
+                              });
+                            }
+                          },
+                        })}
+                        placeholder={getString(
+                          'profile-form-custom-accent-placeholder-2'
+                        )}
+                      />
+                    </Localized>
+
+                    {isOpen ? (
+                      <ul
+                        {...getMenuProps()}
+                        className={isOpen ? 'downshift-open' : ''}>
+                        {options.map((item, index) => (
+                          <li
+                            {...getItemProps({
+                              key: item.name,
+                              index,
+                              item,
+                              style: {
+                                backgroundColor:
+                                  highlightedIndex === index
+                                    ? 'var(--light-grey)'
+                                    : 'initial',
+                              },
+                            })}>
+                            {item.name}
+                          </li>
+                        ))}
+                        {inputValue?.length > 0 && options.length == 0 && (
+                          <li
+                            {...getItemProps({ item: inputValue })}
+                            className="add-new-accent">
+                            <Localized
+                              id="profile-form-add-accent"
+                              vars={{ inputValue }}
+                            />
+                          </li>
+                        )}
+                      </ul>
+                    ) : null}
+                  </div>
+                );
+              }}
+            </Downshift>
+            {locale && locale.length > 0 ? (
+              <>
+                {accents.map((accent, idx) => {
+                  return (
+                    accent.name?.length > 0 && (
+                      <span key={`accent-${idx}`} className="selected-accent">
+                        <CloseIcon black onClick={() => removeAccent(i, idx)} />
+                        {accent.name}
+                      </span>
+                    )
+                  );
+                })}
+              </>
+            ) : null}
+          </div>
         ))}
       </div>
+      <div className="add-language-section">
+        {userAccentLocales.length > 0 ? (
+          <div
+            className={'profile-toggle ' + (showAccentInfo ? 'expanded' : '')}>
+            <button
+              type="button"
+              onClick={() => setShowAccentInfo(!showAccentInfo)}>
+              <Localized id="help-accent">
+                <span />
+              </Localized>
 
-      <Button
-        className="add-language"
-        outline
-        onClick={() => {
-          if (locales.length && !locales[locales.length - 1].locale) {
-            return;
-          }
-          setLocales(locales.concat({ locale: '', accent: '' }));
-        }}>
-        <Localized id="add-language">
-          <span />
-        </Localized>
-        <span>+</span>
-      </Button>
+              <DownIcon />
+            </button>
+            <Localized id="help-accent-explanation">
+              <div className="explanation" />
+            </Localized>
+          </div>
+        ) : null}
 
+        <Button
+          className="add-language"
+          outline
+          onClick={() => {
+            if (
+              userAccentLocales.length &&
+              !userAccentLocales[userAccentLocales.length - 1].locale
+            ) {
+              return;
+            }
+            setUserAccentLocales(
+              userAccentLocales.concat({ locale: '', accents: [] })
+            );
+          }}>
+          <Localized id="add-language">
+            <span />
+          </Localized>
+          <span>+</span>
+        </Button>
+        {userAccentLocales.length == 0 ? (
+          <Localized id="profile-select-language">
+            <span className="no-languages" />
+          </Localized>
+        ) : null}
+      </div>
       <Hr />
 
       {!user.account?.basket_token && (
@@ -365,41 +567,33 @@ function ProfilePage({
                 checked={sendEmails}
               />
 
+              <LabeledCheckbox
+                {...(user.account || isSubmitted ? { disabled: true } : {})}
+                label={
+                  <>
+                    <Localized id="accept-privacy-title">
+                      <strong />
+                    </Localized>
+                    <Localized
+                      id="accept-privacy"
+                      elems={{
+                        privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
+                      }}>
+                      <span />
+                    </Localized>
+                  </>
+                }
+                checked={privacyAgreed}
+                onChange={handleChangeFor('privacyAgreed')}
+              />
 
-
-                  <LabeledCheckbox
-                    {...(user.account || isSubmitted) ? {disabled: true} : {}}
-                    label={
-                      <>
-                        <Localized id="accept-privacy-title">
-                          <strong />
-                        </Localized>
-                        <Localized
-                          id="accept-privacy"
-                          elems={{
-                            privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
-                          }}>
-                          <span />
-                        </Localized>
-                      </>
-                    }
-                    checked={privacyAgreed}
-                    onChange={handleChangeFor('privacyAgreed')}
-                  />
-
-                  <Localized id="read-terms-q">
-                    <LocaleLink
-                      to={
-                        isEnrolledInChallenge
-                          ? URLS.CHALLENGE_TERMS
-                          : URLS.TERMS
-                      }
-                      className="terms"
-                      blank
-                    />
-                  </Localized>
-
-
+              <Localized id="read-terms-q">
+                <LocaleLink
+                  to={isEnrolledInChallenge ? URLS.CHALLENGE_TERMS : URLS.TERMS}
+                  className="terms"
+                  blank
+                />
+              </Localized>
             </div>
           </div>
 

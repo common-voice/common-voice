@@ -378,9 +378,9 @@ change-email-setings = 要更改電郵，請先撳登入身份，然後再撳設
 
 faq-title = 常見問題
 faq-what-cv-q = Common voice 係乜嘢？
-faq-what-cv-a = 語音識別技術喺度改變緊我地同機器互動嘅方法，但目前可用嘅系統唔單止貴，而且係專有技術。Mozilla 提出 Common Voice 作為改進語音識別技術，並將之普及到大眾嘅計畫嘅一部分。Common Voice 都係一套收集咗世界各地人所損贈語音嘅數據庫，希望有助所有人來又快又易噉訓練出可以識別任何語音功能嘅應用程式。
+faq-what-cv-a = 語音識別技術喺度改變緊我哋同機器互動嘅方法，但目前可用嘅系統唔單止貴，而且係專有技術。Mozilla 提出 Common Voice 作為改進語音識別技術，並將之普及到大眾嘅計畫嘅一部分。Common Voice 都係一套收集咗世界各地人所損贈語音嘅數據庫，希望有助所有人來又快又易噉訓練出可以識別任何語音功能嘅應用程式。
 faq-what-cv-a-2 =
-    語音識別技術喺度改變緊我地同機器互動嘅方法，但目前可用嘅系統唔單止貴，而且係專有技術。Mozilla 提出 Common Voice 作為改進語音識別技術，並將之普及到大眾嘅計畫嘅一部分。Common Voice 都係一套收集咗世界各地人所損贈語音嘅數據庫，希望有助所有人來又快又易噉訓練出可以識別任何語音功能嘅應用程式。
+    語音識別技術喺度改變緊我哋同機器互動嘅方法，但目前可用嘅系統唔單止貴，而且係專有技術。Mozilla 提出 Common Voice 作為改進語音識別技術，並將之普及到大眾嘅計畫嘅一部分。Common Voice 都係一套收集咗世界各地人所損贈語音嘅數據庫，希望有助所有人來又快又易噉訓練出可以識別任何語音功能嘅應用程式。
     
     我哋唔止想收集被廣泛使用嘅語言，亦都想收集少有人講嘅語音樣本。一套多元語音資料集，用來幫助開發者、創業家，以及唔同社群縮窄科技上個鴻溝。
 faq-why-important-q = 點解呢個好重要？
@@ -391,11 +391,11 @@ faq-why-important-a =
 faq-how-get-q = 我可以點樣可以攞到 Common Voice 嘅數據？
 faq-how-get-a = 我哋嘅資料集可到<datasetLink>Common Voice 數據集頁面</datasetLink>下載，本數據集使用<licenseLink>CC0</licenseLink>授權。閣下仲可以喺該頁面中下載其它幾套嘅數據集。
 faq-when-release2-q = Common Voice 幾時會發放其他語言嘅數據？
-faq-when-release2-a = 多語言版本嘅 Common Voice 數據集，目前正交由社群進行清理同埋打包。若閣下想幫我地新添語言到 Common Voice，請使用 <sentenceCollectorLink>語句收集工具</sentenceCollectorLink>來將語句加入到數據集，並到 <pontoonLink>Mozilla Pontoon</pontoonLink> 度將網站翻譯成該語言。當每種語言有超過 5000 條語句並獲審批後，就會正式加入 Common Voice。
+faq-when-release2-a = 多語言版本嘅 Common Voice 數據集，目前正交由社群進行清理同埋打包。若閣下想幫我哋新添語言到 Common Voice，請使用 <sentenceCollectorLink>語句收集工具</sentenceCollectorLink>來將語句加入到數據集，並到 <pontoonLink>Mozilla Pontoon</pontoonLink> 度將網站翻譯成該語言。當每種語言有超過 5000 條語句並獲審批後，就會正式加入 Common Voice。
 faq-why-mission-q = 點解Common Voice 係 Mozilla 嘅重點任務之一？
-faq-why-mission-a = Mozilla 致力於保持網路開放，令任何人都可使用。為咗達到呢個目標，我地要透過 Common Voice 噉樣嘅計劃嚟幫助網絡創作者。隨住採用語音技術嘅程式激增，我哋相信呢啲程式應該公平噉嚟服務所有使用者。噉樣意味住喺建設與測試語音科技時，需要滿足更多唔同腔調、年齡層等等嘅需求。Common Voice 將會成為一套人人可用嘅公眾資源，而且Mozilla 同埋全球開發者羣眾已將佢用喺專案開發當中。
+faq-why-mission-a = Mozilla 致力於保持網路開放，令任何人都可使用。為咗達到呢個目標，我哋要透過 Common Voice 噉樣嘅計劃嚟幫助網絡創作者。隨住採用語音技術嘅程式激增，我哋相信呢啲程式應該公平噉嚟服務所有使用者。噉樣意味住喺建設與測試語音科技時，需要滿足更多唔同腔調、年齡層等等嘅需求。Common Voice 將會成為一套人人可用嘅公眾資源，而且Mozilla 同埋全球開發者羣眾已將佢用喺專案開發當中。
 faq-what-cv-and-deepspeech-q = Common Voice 同 Deep Speech 有咩分別？
-faq-what-cv-and-deepspeech-a = Common Voice 能夠同 Mozilla 嘅開放原始碼語音識別引擎 Deep Speech 互補。初版嘅 Deep Speech 喺 2017 年 11 月發行，並持續發展。加埋 Common Voice 數據集，我地相信呢套開放原始碼語音辨識技術應該開放畀所有人使用，亦希望呢啲技術可以令開發者建設到新一輪嘅產品同埋服務。
+faq-what-cv-and-deepspeech-a = Common Voice 能夠同 Mozilla 嘅開放原始碼語音識別引擎 Deep Speech 互補。初版嘅 Deep Speech 喺 2017 年 11 月發行，並持續發展。加埋 Common Voice 數據集，我哋相信呢套開放原始碼語音辨識技術應該開放畀所有人使用，亦希望呢啲技術可以令開發者建設到新一輪嘅產品同埋服務。
 faq-is-goal-assistant-q = Common Voice 係咪志在建立一個語音助手？
 faq-is-goal-assistant-a = Common Voice 數據集嘅目標係令任何人都可以建造語音識別、説話者識別，或其他任何需要語音資料嘅應用程式。語音助理就是呢個數據集可以用嚟建造嘅應用之一。
 faq-do-want-native-q = 如果我唔係母語人士而且講野有口音，咁你地仲要唔要我把聲？
@@ -405,7 +405,7 @@ faq-why-different-speakers-a =
     大多數嘅語音數據庫嘅語音來源偏重某啲特定人口，令到結果偏向於<articleLink>男性以及中產階級</articleLink>。而喺呢啲訓練機械嘅數據之中，各種弱勢嘅口音以及方言往往同邊緣化嘅人群有關，同時好多機器亦好難理解女性嘅聲音。
     呢個就係點解我哋嘅語音數據庫應該海納百川，收集各種聲音！
 faq-why-my-lang-q = 點解仲未有我嘅語言嘅？
-faq-why-my-lang-new-a = Mozilla 唔會特別偏好邊種語言。相反而然 Common Voice 係一個純社群發起嘅計劃，需要<multilangLink>幾個步驟先可以新增語言</multilangLink>並開始收集語音片段。首先，需要完成翻譯 Common Voice 網站，噉樣社群成員先得用自己嘅語言進行貢獻。次之，我地需要大量嘅無版權語句，畀大家可以朗讀出嚟。當兩個條件都滿足之後， Common Voice 即可「上線」，畀大家開始錄音，同埋驗證其他人所錄低嘅片段。如果你想協助準備畀新語言上線，歡迎到<sentenceCollectorLink>語句收集工具</sentenceCollectorLink>開始幫手。
+faq-why-my-lang-new-a = Mozilla 唔會特別偏好邊種語言。相反而然 Common Voice 係一個純社群發起嘅計劃，需要<multilangLink>幾個步驟先可以新增語言</multilangLink>並開始收集語音片段。首先，需要完成翻譯 Common Voice 網站，噉樣社群成員先得用自己嘅語言進行貢獻。次之，我哋需要大量嘅無版權語句，畀大家可以朗讀出嚟。當兩個條件都滿足之後， Common Voice 即可「上線」，畀大家開始錄音，同埋驗證其他人所錄低嘅片段。如果你想協助準備畀新語言上線，歡迎到<sentenceCollectorLink>語句收集工具</sentenceCollectorLink>開始幫手。
 faq-what-quality-q = 錄音品質要到咩等級，先用得喺數據集入面？
 faq-what-quality-a = 我哋希望 Common Voice 數據集能夠反映出語音轉文字引擎會喺現實環境入面聽到嘅聲音，所以我哋希望能夠收集各種環境下同埋唔同錄音品質嘅片段。除咗多元嘅講者群體，如果呢個數據集包含到各種語音品質嘅片段，就可以令語音轉文字引擎處理到各種現實環境下嘅狀況，例如背景中有人喺度講嘢，或者有車輛嘅噪音。只要閣下嘅片段可以足夠俾人聽得明，即可收錄到數據集入面。
 faq-why-10k-hours-q = 點解每個語言以收集10,000個驗證時數為目標？
@@ -438,10 +438,10 @@ faq-search-for-answers =
 
 about-title = 點解要揀 Common Voice?
 about-subtitle = Common Voice 係 Mozilla 幫助教機器真人點樣講嘢嘅倡議嘅一部分。除咗 Common Voice 數據集之外，我哋仲建構緊一個名為Deep Speech嘅開源語音識別引擎。
-about-header-description = 呢兩個計劃都係我地努力糾正電子語音落差嘅一部份。語音識別技術可以令我地嘅電子裝置更加人性化，但係開發者需要十分大量嘅語音數據，先能夠打造出噉樣嘅系統。目前大部分語音數據都相當昂貴，而且受專有權限制。
+about-header-description = 呢兩個計劃都係我哋努力糾正電子語音落差嘅一部份。語音識別技術可以令我哋嘅電子裝置更加人性化，但係開發者需要十分大量嘅語音數據，先能夠打造出噉樣嘅系統。目前大部分語音數據都相當昂貴，而且受專有權限制。
 about-header-description-2 =
     呢個計劃係想縮短數碼語音嘅技術分歧。語音識別科技可以令我哋嘅設備更加人性化，但係開發者要靠大量嘅語音資料先至可以建立到。目前可用嘅資料價格昂貴，又係專有技術。
-    我地想令語音數據可以公開自由畀人使用，並且確保呢啲數據反映出我地大衆嘅多樣性。合衆人之力，我地可以幫大家將語音識別技術變得更好！
+    我哋想令語音數據可以公開自由畀人使用，並且確保呢啲數據反映出我哋大衆嘅多樣性。合衆人之力，我哋可以幫大家將語音識別技術變得更好！
 how-does-it-work-title = 佢係點運作嘅？
 how-does-it-work-text = 我哋整緊一個開源嘅聲音資料集。一齊幫手，貢獻你嘅聲音，核實錄音嘅準確度，令資料集變得更加好。
 about-speak = 講
@@ -485,10 +485,10 @@ mycroft-secondary-description = 呢個係一套可以自由混搭、擴展、改
 
 glossary = 術語表
 localization = 本地化
-localization-explanation = 呢個係我地翻譯同套用去唔同嘅本地環境（語言）嘅過程。
+localization-explanation = 呢個係我哋翻譯同套用去唔同嘅本地環境（語言）嘅過程。
 sentence-collection = 收集句子
 sentence-collection-explanation = 收集公眾領域嘅語句，或用公眾領域授權撰寫新語句。
-hours-recorded-explanation = 到目前為止我地收集到嘅錄音時數。
+hours-recorded-explanation = 到目前為止我哋收集到嘅錄音時數。
 hours-validated-explanation = 每3位使用者當中，有2位使用者投下「啱」嘅錄音時數。呢個就係成個計劃一萬小時目標嘅進度。
 sst = 語音轉文字
 sst-explanation = 語音轉文字技術係將聲音數據轉化成文字。
@@ -498,9 +498,9 @@ de-identified-explanation = 喺打包做下載資料集時，貢獻者嘅個人�
 ## Error pages
 
 error-title-404 = 我哋揾唔到你想去嘅頁面
-error-content-404 = 我哋嘅<homepageLink>首頁</homepageLink>可能會幫到你？想問問題，請加入<matrixLink>Matrix 群組聊天室</matrixLink>，網站問題可以交畀<githubLink>GitHub</githubLink>，或去一去我地嘅<discourseLink>Discourse 論壇</discourseLink>話畀我地知。
+error-content-404 = 我哋嘅<homepageLink>首頁</homepageLink>可能會幫到你？想問問題，請加入<matrixLink>Matrix 群組聊天室</matrixLink>，網站問題可以交畀<githubLink>GitHub</githubLink>，或去一去我哋嘅<discourseLink>Discourse 論壇</discourseLink>話畀我哋知。
 error-title-503 = 我哋遇上意外嘅系統停機時段
-error-content-503 = 網站將會盡快恢復作業。請到我地嘅 <matrixLink>Matrix 社群聊天頻道</matrixLink>、<githubLink>GitHub</githubLink> 上嘅網站報告問題，或到 <discourseLink>Discourse 討論區</discourseLink>報俾我地，或者瀏覽最新資訊。
+error-content-503 = 網站將會盡快恢復作業。請到我哋嘅 <matrixLink>Matrix 社群聊天頻道</matrixLink>、<githubLink>GitHub</githubLink> 上嘅網站報告問題，或到 <discourseLink>Discourse 討論區</discourseLink>報畀我哋，或者瀏覽最新資訊。
 error-code = 錯誤 { $code }
 
 ## Data
@@ -511,7 +511,7 @@ data-download-deny = 唔係
 data-download-license = 授權條款: <licenseLink>CC-0</licenseLink>
 data-download-modal = 閣下將會下載 <size>{ $size } GB</size> 嘅檔案，要下載嗎？
 data-subtitle = 我哋整緊套公開而人人用得嘅語音數據集，人人都可以用佢來訓練認得到聲嘅應用程式。
-data-explanatory-text = 我地相信，大型而公開可用嘅語音數據集能夠促進語音機器學習科技嘅創新，以及健康嘅商業競爭。呢個係一個全球運動，我地邀請任何人士參與。我地嘅目標係令語音技術能夠更有包容性，反映出世界各地語音嘅多樣性。
+data-explanatory-text = 我哋相信，大型而公開可用嘅語音數據集能夠促進語音機器學習科技嘅創新，以及健康嘅商業競爭。呢個係一個全球運動，我哋邀請任何人士參與。我哋嘅目標係令語音技術能夠更有包容性，反映出世界各地語音嘅多樣性。
 data-get-started = <speechBlogLink>語音辨識新手上路</speechBlogLink>
 data-other-title = 其他語音數據集…
 data-other-goto = 往 { $name }
@@ -524,7 +524,7 @@ license = 授權條款：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
 data-download-singleword-title = 下載單字目標分段
 data-download-singleword-callout-v2 = 呢個係按照實際使用需要拆出嚟嘅部份，入面嘅資料可以用喺數字識別同埋是/否檢測。
-review-terms = 使用 Common Voice，即代表閣下同意我地嘅<termsLink>條款</termsLink>同埋<privacyLink>私隱聲明</privacyLink>
+review-terms = 使用 Common Voice，即代表閣下同意我哋嘅<termsLink>條款</termsLink>同埋<privacyLink>私隱聲明</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我唔同意
 review-aborted = 上載中斷咗，你想唔想刪除你嘅錄音？
@@ -538,7 +538,7 @@ review-delete-recordings = 刪除我嘅錄音
 
 ## Datasets Page
 
-datasets-headline = 我地想建立一套開放原始碼、多重語言嘅語音數據集，令到任何人都可以用來開發同語音相關嘅應用。
+datasets-headline = 我哋想建立一套開放原始碼、多重語言嘅語音數據集，令到任何人都可以用來開發同語音相關嘅應用。
 datasets-positioning =
     我哋相信如果有一組大規模、公開嘅語音數據集，會奠定以機器學習為基礎嘅語音技術上嘅創新，同埋健康嘅商業競爭。
     
@@ -573,6 +573,7 @@ subscribe = 訂閲
 get-started-speech = 語音識辨新手入門
 other-datasets = 其他語音數據集
 feedback-q = 有意見反饋？
+resource-deepspeech-info = Mozilla 嘅開放原始碼語音識別引擎 Deep Speech，可以用來打造語音識別應用程式。您可以睇下我哋嘅 <githubLink>Github 概觀</githubLink>或者加入 <discourseLink>DeepSpeech Discourse</discourseLink> 了解點樣入門。
 data-other-librispeech-description = LibriSpeech 係一個從LibriVox計劃入面，攞到大概一千個鐘嘅16Khz 英語有聲書錄音嘅語料庫。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫係由 TED 網站上提供嘅講座對話語音同埋演講文字抄稿一齊製成嘅語料庫。
@@ -687,7 +688,7 @@ listen-empty-state = 呢個語言可以驗證嘅錄音已經驗晒啦⋯⋯
 speak-empty-state = 呢個語言可以錄嘅句子已經錄晒啦⋯⋯
 speak-empty-state-cta = 貢獻句子
 record-button-label = 錄低你把聲
-share-title-new = <bold>幫我地</bold>揾多啲聲音
+share-title-new = <bold>幫我哋</bold>揾多啲聲音
 keep-track-profile = 建立個人檔案，紀錄閣下嘅進度
 login-to-get-started = 登入或注冊嚟開始
 target-segment-first-card = 閣下正為我哋第一條目標細分群體貢獻錄音
@@ -837,6 +838,7 @@ profile-form-delete = 刪除個人檔案
 
 ## Profile Download
 
+download-info = 話畀我哋知你想下載啲咩：
 
 ## Landing
 
@@ -848,7 +850,7 @@ read-more-about = 去關於我哋嘅頁面瞭解更多
 
 ## DemoLayout
 
-demo-get-started = 我地開始啦
+demo-get-started = 我哋開始啦
 demo-welcome = 歡迎使用 Common Voice
 demo-welcome-subheader = 你有冇興趣學多啲嘢，為呢一個計劃貢獻？
 
@@ -866,7 +868,7 @@ demo-account = 帳戶
 ## Demo Account
 
 demo-account-card-header = 唔建立帳戶亦可貢獻，但如果有嘅話會更有幫助，下面話你知點解。
-demo-account-card-body = 喺右手邊，我地列明左各項成效以及了我地會公開嘅資訊。請用以下嘅連結喺你自己嘅裝置上開始使用Common Voice 賬戶。
+demo-account-card-body = 喺右手邊，我哋列明咗各項成效同我哋會公開嘅資訊。請用下面嘅連結嚟喺你自己嘅裝置上開始使用 Common Voice 賬戶。
 demo-account-enter-email =
     .label = 輸入你嘅電郵地址嚟轉送註冊鏈結
 demo-account-sign-up = 寄送註冊連結
@@ -932,3 +934,56 @@ contribution-just-unsure-title = 單係唔確定？
 contribution-just-unsure-description = 如果你遇到呢份指引冇列出嘅情況，請用你嘅判斷去投票。如果真係決定唔到，可以用跳過掣去聽下一段錄音。
 see-more = <chevron></chevron>睇多啲
 see-less = <chevron></chevron>睇少啲
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+

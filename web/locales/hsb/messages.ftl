@@ -106,6 +106,7 @@ mhr = Łučna marišćina
 mk = Makedonšćina
 ml = Malajalamšćina
 mn = Mongolšćina
+mni = Meetei Lon
 mos = Mossišćina
 mr = Maratišćina
 mrj = Hórska marišćina
@@ -152,7 +153,8 @@ te = Telugušćina
 tg = Tadźikišćina
 th = Thaišćina
 ti = Tigrinja
-Tig = Tigre
+tig = Tigre
+tk = Turkmenšćina
 tl = Tagalog
 tr = Turkowšćina
 tt = Tataršćina
@@ -333,8 +335,13 @@ profile-form-native-language =
     .label = Maćeršćina
 profile-form-additional-language =
     .label = Přidatna rěč
+profile-form-language =
+    .label = Rěč
 profile-form-accent =
     .label = Akcent
+profile-form-custom-accent-help-text =
+    .label = Kak byšće swój akcent wopisował?
+profile-form-custom-accent-placeholder-2 = Započńće pisać, zo byšće swój akcent wopisował
 profile-form-age =
     .label = Staroba
 profile-form-gender-2 =
@@ -345,6 +352,7 @@ hidden = Schowany
 visible = Widźomny
 native-language =
     .label = Maćeršćina
+profile-form-add-accent = Nowy swójski akcent „{ $inputValue }“ přidać
 profile-form-submit-save = Składować
 profile-form-submit-saved = Składowany
 male = Muski
@@ -378,6 +386,7 @@ skip-submission-description = Při sobuskutkowanju so zapodawanski komentar po k
 skip-submission-note = Kedźbu: Dyrbiće hišće mjez Rěčeć abo Słuchać wubrać, zo byšće typ sobuskutkowanja změnił.
 off = Wupinjeny
 on = Zapinjeny
+help-accent = Trjebaće pomoc wo akcenće?
 
 ## Profile - Email
 
@@ -1020,3 +1029,141 @@ contribution-reader-effects-title = Efekty čitarja
 contribution-just-unsure-title = Jenož njewěsty?
 see-more = <chevron></chevron>Wjace pokazać
 see-less = <chevron></chevron>Mjenje pokazać
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Startowa strona
+sc-header-how-to = Nawod
+sc-header-add = Přidać
+sc-header-review = Pohódnoćenje
+sc-header-rejected = Wotpokazane sady
+sc-header-my = Moje sady
+sc-header-statistics = Statistika
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Zmylki zdźělić
+sc-footer-translate = Tutu stronu přełožować
+sc-footer-privacy = Priwatnosć
+sc-footer-terms = Wuměnjenja
+sc-footer-cookies = Placki
+sc-login-signup-button = Přizjewić / Registrować
+sc-logout-button = Wotzjewić
+
+## HOME
+
+sc-home-collect-title = Sady hromadźić
+sc-home-review-title = Sady přepruwować
+
+## HOW-TO
+
+sc-howto-title = Nawod
+sc-howto-addlang-title = Rěče přidać, z kotrymiž so dźěła
+sc-howto-addsen-title = Nowe sady přidać
+sc-howto-cite-title = Citować
+sc-howto-cite-item-1 = Wy móhł websydło podać, na př. „Common Voice - https://commonvoice.mozilla.org/“
+sc-howto-review-title = Sady přepruwować
+sc-howto-review-criteria-1 = Sada dyrbi prawje napisana być.
+sc-howto-review-criteria-2 = Sada dyrbi gramatiski korektna być.
+sc-howto-review-criteria-3 = Sada dyrbi wurěkujomna być.
+
+## MY SENTENCES
+
+sc-my-title = Moje sady
+sc-my-loading = Waše sady so začituja…
+sc-my-no-sentences = Žane sady namakane!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Zapodaće: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Žórło: { $source }
+sc-my-delete = Wubrane sady zhašeć
+sc-my-deleting = Wubrane sady so zhašeja…
+
+## REJECTED
+
+sc-rejected-title = Wotpokazane sady
+sc-rejected-loading = Wotpokazane sady so začituja…
+sc-rejected-none-found = Žane wotpokazane sady namakane!
+
+## STATS
+
+sc-stats-title = Statistika
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Poslednja aktualizacija: { $lastUpdate }
+sc-stats-last-update-never = Poslednja aktualizacija: ženje
+sc-stats-updating = Aktualizuje so…
+
+## ADD
+
+sc-submit-err-select-lang = Prošu wubjerće rěč.
+sc-submit-err-add-sentences = Prošu přidajće sady.
+sc-submit-err-add-source = Prošu přidajće žórło.
+sc-submit-title = Sady přidać
+sc-submit-select-language =
+    .labelText = Rěč wubrać
+sc-submit-ph-one-per-line =
+    .placeholder = Jedna sada na linku
+sc-submit-button =
+    .submitText = Wotpósłać
+sc-submit-guidelines = Prošu přepruwujće <howToLink>směrnicy</howToLink>.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Rěč njeda so přidać
+sc-add-lang-sec-label = Přidajće rěč, ke kotrejž chceće přinošować
+sc-add-lang-sec-button = Rěč přidać
+sc-add-err-unexpected = Njewočakowana wotmołwa ze serwera
+sc-add-err-submission = Zapodawanski zmylk
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-sentences-title = Nowe sady wobkrućić
+sc-confirm-button-text = Wobkrućić
+
+## LANGUAGE INFO
+
+sc-lang-info-review-now = <reviewLink>Nětko přepruwować!</reviewLink>
+
+## LOGIN
+
+sc-login-err-failed = Přizjewjenje njeje so poradźiło
+sc-login-err-try-again = Prošu spytajće hišće raz.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-remove = Rěč njeda so wotstronić
+sc-personal-your-languages = Waše rěče:
+sc-personal-remove-button = wotstronić
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+sc-review-title = Sady přepruwować
+sc-review-loading = Sady so začituja…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Žórło: { $sentenceSource }
+sc-review-form-button-reject = Wotpokazać
+sc-review-form-button-skip = Přeskočić
+sc-review-form-button-approve = Schwalić
+sc-review-link = Pohódnoćić
+
+## SETTINGS
+
+sc-settings-title = Nastajenja
+sc-settings-ui-language = Rěč wužiwarskeho powjercha
+
+# [/SentenceCollector]
+

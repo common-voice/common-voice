@@ -111,6 +111,7 @@ ms = Malajziane
 mt = Malteze
 my = Birmanisht
 myv = Erzan
+nan-tw = Tajvanisht (Minan)
 nb-NO = Norvegjisht Bokmål
 ne-NP = Nepaleze
 nl = Holandisht
@@ -314,8 +315,13 @@ profile-form-native-language =
     .label = Gjuhë Amtare
 profile-form-additional-language =
     .label = Gjuhë Shtesë
+profile-form-language =
+    .label = Gjuhë
 profile-form-accent =
     .label = Theks
+profile-form-custom-accent-help-text =
+    .label = Si do ta përshkruanit theksin tuaj?
+profile-form-custom-accent-placeholder-2 = Filloni të shtypni, që të përshkruani theksin tuaj
 profile-form-age =
     .label = Moshë
 profile-form-gender-2 =
@@ -326,6 +332,7 @@ hidden = I fshehur
 visible = I dukshëm
 native-language =
     .label = Gjuhë Amtare
+profile-form-add-accent = Shtoni theks të ri vetjak "{ $inputValue }"
 profile-form-submit-save = Ruaje
 profile-form-submit-saved = U ruajt
 male = Mashkull
@@ -359,6 +366,7 @@ skip-submission-description = Gjatë parashtrimit të kontributeve, dhënia e p�
 skip-submission-note = Shënim: Prapë do të duhet të përzgjidhni mes Flisni ose Dëgjoni, për të ndryshuar llojin e kontributit.
 off = Off
 on = On
+help-accent = Ju duhet ca ndihmë me thekset?
 
 ## Profile - Email
 
@@ -982,3 +990,73 @@ contribution-just-unsure-title = Thjesht i Pasigurt?
 contribution-just-unsure-description = Nëse ndeshni diçka që nuk e mbulojnë këto udhëzime, ju lutemi, votojeni në përputhje me gjykimin tuaj. Nëse vërtet s’vendosni dot, përdorni butonin e anashkalimit dhe ecni më tej me incizimin pasues.
 see-more = <chevron></chevron>Shihni më tepër
 see-less = <chevron></chevron>Shihni më pak
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Kreu
+sc-header-how-to = Si të
+sc-header-add = Shtoje
+sc-header-review = Shqyrtim
+sc-header-rejected = Togfjalësha të Hedhur Poshtë
+sc-header-my = Togfjalëshat e Mi
+sc-header-statistics = Statistika
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Njoftoni të Meta
+sc-footer-translate = Përkthejeni këtë faqe
+sc-footer-report-copyright = Njoftoni probleme të drejtash kopjimi
+sc-footer-privacy = Privatësi
+sc-footer-terms = Kushte
+sc-footer-cookies = Cookies
+sc-login-signup-button = Hyrje / Regjistrim
+sc-logout-button = Dalje
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+

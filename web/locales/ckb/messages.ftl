@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = بەڵێ پۆستی ئەلکترۆنیم بۆ بنێرە. پێم خۆشە هەواڵ وەرگرم سەبارەت بۆ پڕۆژەی دەنگی گشتی.
+yes-receive-emails = بەڵێ پۆستی ئەلکترۆنیم بۆ بنێرە. پێم خۆشە ئاگاداری هەواڵەکانی پڕۆژەی دەنگی گشتی بم.
 stayintouch = ئێمە لە مۆزیلا خەریکین کۆمەڵگەیەک پێک دینین بۆ تەکنۆلۆژیای دەنگ. پێمان خۆشە بۆ نوێکارییەکان، سەرچاوەی نوێی زانیاری و ئەوەی کە ئێوە چۆن ئەم زانیاریە بەکار ئەبەن پەیوەندیمان ببێت.
 privacy-info = بەڵێن دەدەین کە بۆ پاراستنی زانیاریەکانی ئێوە وریا بین. بۆ زیاتر زانین ئەتوانی <privacyLink> ئاگاداری پاراستنی نهێنی </privacyLink> ئێمە ببینیت.
 return-to-cv = بگەڕێوە بۆ دەنگی گشتی
@@ -24,7 +24,7 @@ not-available-abbreviation = نیە
 ab = ئابخاز
 ace = ئاسێنیز
 ady = ئەدیگە
-af = ئەفریقی
+af = ئافریکانس
 am = ئەمهەری
 an = ئاراگۆنی
 ar = عەرەبی
@@ -32,20 +32,20 @@ arn = ماپودونگی
 as = ئاسامی
 ast = ئاستۆری
 az = ئازەری
-ba = باشکیەر
+ba = باشکیر
 bas = باسا
-be = بێلاڕووسی
-bg = بولغاری
+be = بیلاڕووسی
+bg = بولگاری
 bm = بامبارا
 bn = بەنگالی
 br = بریتۆن
 bxr = بوریاتی
 ca = کەتەلۆنی
 cak = کاکچیکیلی
-ckb = کوردی ناوەندی
+ckb = کوردیی ناوەندی
 cnh = هاکای چینی
 co = کۆرسیکی
-cs = چیک
+cs = چیکی
 cv = چووڤاش
 cy = وێڵز
 da = دانیمارکی
@@ -55,7 +55,7 @@ dv = دیڤێهی
 el = یۆنانی
 en = ئینگلیزی
 eo = ئێسپڕانتۆ
-es = ئسپانیایی
+es = ئیسپانی
 et = ئەستۆنی
 eu = باسکی
 fa = فارسی
@@ -79,9 +79,10 @@ hyw = ئەرمینیای ڕۆژئاوا
 ia = ئینترلینگووا
 id = ئیندۆنیزی
 ie = ئینترلینگوی
+ig = ئیگبۆ
 is = ئایسلەندی
-it = ئیتالیایی
-izh = ئیگۆری
+it = ئیتالی
+izh = ئیژۆریانی
 ja = ژاپۆنی
 ka = جۆرجی
 kaa = کاراکالپاکی
@@ -89,7 +90,7 @@ kab = قەبیلی
 kbd = کاباردی
 ki = کیکوویوو
 kk = کازاخی
-kmr = کوردی کرمانجی
+kmr = کوردیی کرمانجی
 ko = کۆری
 kpv = کۆمی زۆریا
 kw = کۆڕنی
@@ -112,11 +113,12 @@ ms = مالیزی
 mt = ماڵتایی
 my = بۆرمایی
 myv = ئارزی
-nb-NO = نەرویجی بۆکمالی
+nan-tw = تایوانی (مینان)
+nb-NO = نەرویجیی بۆکمالی
 ne-NP = نیپاڵی
-nia = Nias
+nia = نیاس
 nl = هۆڵەندی
-nn-NO = نەرویجی نینۆرسک
+nn-NO = نەرویجیی نینۆرسک
 nyn = Nyankole
 oc = ئۆکیتان
 or = ئۆدیا
@@ -144,14 +146,17 @@ sr = سڕبی
 sv-SE = سویدی
 sw = سواحیلی
 syr = سیریاک
-ta = تەمیل
+ta = تامیلی
 te = تێلووگوو
 tg = تاجیکی
 th = تایلەندی
+ti = تیگرینیا
+tig = تیگری
 tl = تاگالۆگی
 tr = تورکی
 tt = تەتەری
 tw = تویی
+ty = تاهیتی
 uby = ئوبیخ
 udm = ئودمورت
 ug = ئیگۆر
@@ -161,6 +166,7 @@ uz = ئۆزبەکی
 vec = ڤێنیسی
 vi = ڤیێتنامی
 vot = ڤۆتیک
+yi = ییدیش
 yo = یۆرووبا
 yue = کانتۆنی (چین)
 zh-CN = چینی (چین)
@@ -172,12 +178,12 @@ zh-TW = چینی (تایوان)
 
 ## Layout
 
-speak = قسەبکە
+speak = قسە بکە
 speak-now = ئێستا قسە بکە
-datasets = کۆزانیاریکان
+datasets = کۆزانیارییەکان
 languages = زمانەکان
-about = دەربارەی ئێمە
-profile = پرۆفایل
+about = دەربارە
+profile = پەڕەی کەسی
 help = یارمەتی
 contact = پەیوەندی
 privacy = تایبەتیی
@@ -185,7 +191,7 @@ terms = مەرجەکان
 cookies = شەکرۆکەکان
 faq = پرسیارە باوەکان
 content-license-text = ئەم زانیارییە لەسەر بنەمای <licenseLink>Creative Commons license</licenseLink> بەردەست کراوە.
-share-title = یارمەتیمان بدە کەسانی دیکەش بدۆزینەوە بۆ بەخشینی دەنگی خۆیان
+share-title = یارمەتیمان بدەن بۆ دۆزینەوەی کەسانی تر بۆ بەخشینی دەنگیان!
 share-text = یارمەتیمان بدە چۆنیەتی قسەکردنی مرۆڤ فێری ئامیرەکان بکەین، دەنگی خۆت ببەخشە لە { $link }
 link-copied = بەستەر لەبەرگیراوە
 back-top = بگەڕێوە بۆ سەرەوە
@@ -335,15 +341,15 @@ male = پیاو
 female = ژن
 # Gender
 other = جیاواز
-why-profile-title = بۆچی پرۆفایل پێویستە؟
+why-profile-title = بۆچی پەڕەی کەسی پێویستە؟
 why-profile-text = بە دیاری کردنی هەندێک زانیاری سەبارەت بە خۆت، زانیاریی ناردراوی تۆ بۆ دەنگی گشتی سوودمەندتر دەبێت. بزوێنەرەکانی ناسینەوەی وتار ئەم زانیارییە بەکار دێنن بۆ باشتر کردنی وردی خۆیان.
 dashboard = داشبۆڕد
-build-profile = پرۆفایل درووست کە
+build-profile = پەڕەی کەسی درووست کە
 avatar = وێنە
 goals = ئامانجەکان
 settings = ڕێکخستنەکان
-edit-profile = دەستکاریکردنی پرۆفایل
-profile-create-success = سەرکەوتن! پرۆفایل ئامادە کرا
+edit-profile = دەستکاریکردنی پەڕەی کەسی
+profile-create-success = سەرکەوتن! پەڕەی کەسی ئامادە کرا
 profile-close = داخستن
 profile-explanation = ئاگادار بە لە پێشکەوتنی خۆت لە ڕێگای پڕۆفایل و یارمەتی ئێمە بدە زانیاریکەمان وردتر بێت.
 thanks-for-account = سوپاس بۆ سەلماندنی هەژماری خۆت، ئێستا وەرە پڕۆفایلێک درووستبکەین.
@@ -394,7 +400,7 @@ faq-why-important-a =
 faq-how-get-q = چۆن دەتوانم زانیاریی دەنگی گشتی وەرگرم؟
 faq-how-get-a = زانیاریسێتی دەنگی گشتی دەتوانە بە مۆڵەتی <licenseLink>CC0</licenseLink> لە <datasetLink>بەرگەی زانیاریسێتەکانی ئێمە</datasetLink> دابگریت. هەروەها دەتوانی چەند زانیاریسێتی کراوەی دیکش لە هەمان بەرگە دابگریت.
 faq-when-release2-q = کەی زانیاریی دەنگی گشتی بۆ زمانەکانی تر بڵاو دەکەنەوە؟
-faq-when-release2-a = وەشانی چەند زمانەی زانیاریسێتی دەنگی گشتی لە ئیستادا بە یارمەتی کۆمەڵگەی خۆبەخشان لە بواری دەستەبەندی و ئامادەبوون دایە. ئەگەر پێتان خۆشە بۆ هێنانی زمانی تازە بۆ ئەم پرۆژە یارمەتیمان بدەن بەم هەنگاوانە دا بچن: بۆ زیاد کردنی رەستەی نوێ سەردانی <sentenceCollectorLink>ئەبزاری کۆکردنەوەی دەنگ</sentenceCollectorLink> یان یان بۆ وەرگێڕانی خودی ماڵپەڕی پڕۆژەکە سەردانی ئەبزاری <pontoonLink>Pontoon</pontoonLink> بکەن. کاتێک لانی کەم ٥٠٠٠ رەستەی پشتڕاستکراو کۆ بکرێتەوە ئەوکات زمانە تازەکە دەخرێتە سەر ئەم پرۆژەیەو ئامادە دەبێت کە خۆبەخشەکان بەشداری تێدا بکەن.
+faq-when-release2-a = وەشانی چەند زمانەی زانیاریسێتی دەنگی گشتی لە ئیستادا بە یارمەتی کۆمەڵگەی خۆبەخشان لە بواری دەستەبەندی و ئامادەبوون دایە. ئەگەر پێتان خۆشە بۆ هێنانی زمانی تازە بۆ ئەم پرۆژە یارمەتیمان بدەن بەم هەنگاوانە دا بچن: بۆ زیاد کردنی ڕستەی نوێ سەردانی <sentenceCollectorLink>ئەبزاری کۆکردنەوەی دەنگ</sentenceCollectorLink> یان یان بۆ وەرگێڕانی خودی ماڵپەڕی پڕۆژەکە سەردانی ئەبزاری <pontoonLink>Pontoon</pontoonLink> بکەن. کاتێک لانی کەم ٥٠٠٠ ڕستەی پشتڕاستکراو کۆ بکرێتەوە ئەوکات زمانە تازەکە دەخرێتە سەر ئەم پرۆژەیەو ئامادە دەبێت کە خۆبەخشەکان بەشداری تێدا بکەن.
 faq-why-mission-q = بۆچی دەنگی گشتی بەشێکە لە ئامانجەکانی مۆزیلا؟
 faq-why-mission-a = موزیلا سوورە لەسەر ئاوەڵابوون و دەستەبەربوونی تۆڕی ئینتێرنێت بۆ هەموان. بۆ ئەم مەبەستە ئێمە پێویستمانە خولقێنەرەکانی ئەم  تۆڕە بەهێز بکەین لە رێگای پرۆژەی وەک دەنگی گشتی. ئێمە پێمان وایە تەکنۆلۆژیاکانی دەنگ فراوانتر لە ئیشە سادەکان دەبن و پێویستە ئەمانە بە شێوەی یەکسان بۆ هەموو کەس سوودی ببێت. ئەمەش مانای ئەوەیە کە پێویستە پەرە بدرێت بە زمان، زاراوە و دێمۆگرافی زیاتر لە کاتی سازکردنی تەکنۆلۆژیاکانی دەنگ.  پرۆژەی دەنگی گشتی سەرچاوەیێکی گشتییە بۆ هەمووکەس و هەر ئێستاش تیمەکان و گەشەپێدەرانی موزیلا لە سەرتاسەری جیهان خەریکن لە پرۆژەکانی خۆیشماندا دا بەکاری دێنن.
 faq-what-cv-and-deepspeech-q = جیاوازە دەنگی گشتی و Deep Speech چییە؟
@@ -507,7 +513,7 @@ data-get-started = <speechBlogLink> وتارناسی دەست پێ بکە</speec
 data-other-title = زانیاریسێتە دەنگییەکانی تر...
 data-other-goto = بڕۆ بۆ { $name }
 data-other-download = داگرتنی زانیاری
-data-bundle-button = داگرتنی  سێتی زانیاری
+data-bundle-button = داگرتنی سێتی زانیاری
 data-bundle-description = دەنگی گشتی و هەمووی زانیاریسێتەکانی سەرەوە.
 release-version = وەشان
 dataset-date = ڕێکەوت
@@ -738,7 +744,7 @@ contribution-activity = مێژووی بەشداری
 top-contributors = باشترین بەشداریکەران
 recorded-clips = کلیپی تۆمارکراو
 validated-clips = کلیپی سەلمێندراو
-total-approved = کۆی سەلمێندراو
+total-approved = کۆی پەسەندکراوەکان
 overall-accuracy = وردی گشتی
 set-visibility = دیاری بوونی من رێکبخە
 visibility-explainer = ئەم تەنزیمە دیار بوونی Leaderboardی تۆ دیاری دەکات. کاتێک ئەمە لەسەر <شاراوە> بێت ئاستی پێشکەوتنی تۆ کەسایەتی دەبێت، بە مانای ئەوە کە وێنە، ناوی بەکارهێنەر و ئاستی پێشکەوتنی تۆ لەسەر لیدێربۆرد پیشان نادرێت. سرنج بدەن کە نەو بوونەوەی لیدێربۆرد لەوانەیە تا { $minutes } خۆلەک بخایێنێت.
@@ -823,20 +829,28 @@ delete-q = دەتهەوێ زەبتەکانیشت بسڕینەوە یان لە ز
 keep = ڕاگرتن
 remove = سڕینەوە
 keep-info = دەنگە نەناسراوەکانی تۆ لە زانیاریسێتی دەنگی گشتی دەمێنێتەوە. کاتێک پڕۆفایلەکەت بسڕییتەوە، چیدی ناتوانی داواکاری بۆ لابردنی دەنگەکانت بنێری.
-remove-info = ئێمە بە داواکاری تۆ بۆ سڕینەوەی دەنگەکانت ڕا دەگەین. ئەگەر داواکاری تۆ قبووڵ بێت، ئەوکات پەیوەندی دەکەین بۆ هەرکەسێک کە زانیاریسێتەکەیان دانڵۆد کردووە و داوایان لە دەکەێن ئەوانیش دەنگی تۆ بسڕێنەوە.
+remove-info = ئێمە بە داواکاری تۆدا دەچینەوە بۆ سڕینەوەی دەنگەکانت. ئەگەر داواکاری تۆ قبووڵ بێت، ئەوکات پەیوەندی دەکەین بۆ هەرکەسێک کە کۆزانیارییەکانی داگرتووە و داوایان لە دەکەین ئەوانیش دەنگی تۆ بسڕنەوە.
 why-delete-recordings = کەسانی ئەکادێمیک، تیجارەتە چکوولەکان و کەسانی سەرخۆش بە تەکنۆلۆژیای ناسینەوەی وتار دەنگەکانی دەنگی گشتی بەکار دێنن بۆ فێرکردن و باشتر کردنی سەرچاوە کراوەکان وەک مۆدێلەکانی دەنگی. پێمان دەڵێی بۆچی دەتهەوێ دەنگەکانی تۆ بسڕینەوە؟
-profile-form-delete = سڕینەوەی پرۆفایل
+profile-form-delete = سڕینەوەی پەڕەی کەسی
 
 ## Profile Download
 
 download-q = دەتەوێت زانیارییەکانت دابگریت؟
 download-info = پێمان بڵێ حەزدەکەی چی دابگریت:
-download-profile-title = پرۆفایل
+download-profile-title = پەڕەی کەسی
 download-profile-size = چەند بایتێک
+download-recordings-title = تۆمارەکان
+download-recently-requested = دەتوانی جارێکی تر داوای تۆمارەکانت بکەیت هەموو { $days } ڕۆژ جارێک.
 download-size = قەبارە
 download-selected = هەڵبژێردراو
+download-start = زانیاری هەژمارەکەت دابگرە
+download-request = داوای تۆمارەکانت بکە
+download-requests = داواکاری پێشوو بۆ تۆمارەکانت
 download-request-button = داگرتن
+download-request-title = { $created }
 download-request-refresh-button = نوێکردنەوە
+download-request-modal-title = بەستەری داگرتن
+download-request-metadata-link = دەقی ڕستە
 
 ## Landing
 
@@ -884,10 +898,218 @@ demo-dashboard-card-body = بۆ هەموو گرتەیەکی دەنگی بەخش�
 
 ## Validation criteria
 
+contribution-criteria-nav = پێوەر
+contribution-criteria-link = لە پێوەری بەشداریکردن تێبگە
 contribution-criteria-page-title = چوارچێوەی بەشداری
 contribution-for-example = بۆ نموونە
 contribution-varying-pronunciations-example-2-title = دەستی بەرزکردەوە
+contribution-background-noise-title = ژاوەژاوی پشتەوە
+contribution-background-voices-title = دەنگی پشتەوە
 contribution-volume-title = پلەی دەنگ
 contribution-just-unsure-title = دڵنیا نیت؟
 see-more = <chevron></chevron>زیاتر ببینە
 see-less = <chevron></chevron>کەمتر ببینە
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = ماڵەوە
+sc-header-how-to = چۆن-دەکرێت
+sc-header-add = زیادکردن
+sc-header-review = پێداچوونەوە
+sc-header-rejected = ڕستە پەسەندنەکراوەکان
+sc-header-my = ڕستەکانم
+sc-header-statistics = ئامار
+sc-header-profile = پەڕەی کەسی
+sc-footer-discourse = دیسکۆرس
+sc-footer-report-bugs = کێشە ڕاپۆرت بکە
+sc-footer-translate = ئەم پەڕەیە وەربگێڕە
+sc-footer-report-copyright = گرفتی مافی لەبەرگرتنەوە ڕاپۆرت بکە
+sc-footer-privacy = تایبەتێتی
+sc-footer-terms = مەرجەکان
+sc-footer-cookies = شەکرۆکەکان
+sc-login-signup-button = چوونەژوور/خۆتۆمارکردن
+sc-logout-button = چوونەدەرەوە
+
+## HOME
+
+sc-home-title = بەخێربێی بۆ کۆکەرەوەی ڕستەی Common Voice
+sc-home-intro = کۆکەرەوەی ڕستە بەشێکە لە <commonVoiceLink>دەنگی گشتی</commonVoiceLink>. ڕێگە دەدات کە بەشداربووەکان ڕستە کۆبکەنەوە و بیسەلمێنن. دەتوانیت ئەم ئامرازە بەکاربهێنیت بۆ هاوردەکردن، پاککردنەوە و ڕێکخستنەوەی ئەو کۆکراوانەی لە دۆمەینی گشتییەوە بەدەستهاتوون. هەموو ڕستەکان پێویستە دۆمەینی گشتی بن. ڕستە پەسەندکراوەکان هەموو هەفتەیەک هەناردە دەکرێن بۆ سەرچاوەی دەنگی گشتی و بڵاودەکرێتەوە لە ماڵپەڕی سەرەکی دەنگی گشتی هەر کاتێک زانیاری نوێ هەبوون.
+sc-home-collect-title = ڕستە کۆبکەرەوە
+sc-home-collect-text = یارمەتیمان بدە بۆ نووسین یان کۆکردنەوەی ڕستە لە دۆماینی گشتی.
+sc-home-review-title = پێداچوونەوەی ڕستە
+sc-home-review-text = یارمەتیمان بۆ پێداچوونەوەی ڕستەکان بە مەبەستی چاککردنیان بەپێی ڕێنماییەکان.
+
+## HOW-TO
+
+sc-howto-title = چۆن دەکرێت
+sc-howto-addlang-title = زمان زیاد بکە بۆ ئەوەی کاری تێدابکرێت
+sc-howto-addlang-text = هەر کاتێک چوویتەژوورەوە دەتوانیت زمانێک هەڵبژێریت لە بەشی پەڕەی کەسی.
+sc-howto-addsen-title = ڕستەی نوێ زیادبکە
+sc-howto-review-title = پێداچوونەوەی ڕستە
+sc-howto-review-subtitle = دڵنیابە کە ڕستەکان لەگەڵ ئەم پێوەرانەدا دەگونجیت:
+sc-howto-review-criteria-1 = دەبێت ڕستەکە بە شێوەیەکی ڕاست نووسرابێت.
+sc-howto-review-criteria-2 = دەبێت ڕستەکە بەشێوەیەکی ڕێزمانی ڕاست نووسرابێت.
+sc-howto-review-criteria-3 = دەبێت ڕستەکە بوترێت.
+sc-howto-review-criteria-4 = ئەگەر ڕستەکە لەگەڵ پێوەرەکاندا گونجا، کرتە بکە لە دوگمەی "پەسەندکردن".
+sc-howto-review-criteria-5 = ئەگەر ڕستەکە لەگەڵ پێوەرەکاندا نەگونجا، کرتە بکە لە دوگمەی"پەسەند نەکردن". ئەگەر دڵنیا نەبوویت لە ڕستەکە، دەتوانیت تێیپەرێنی و بچیتە ڕستەیەکی تر.
+sc-howto-review-criteria-6 = ئەگەر ڕستە نەما بۆ پێداچوونەوە، تکایە یارمەتیمان بدە ڕستەی زیاتر کۆبکەینەوە!
+sc-howto-findpd-title = دۆزینەوەی ڕستە لە دۆمەینی گشتی
+sc-howto-findpd-subtitle = بۆیان بگەڕێ لە ئینتەرنیت
+sc-howto-findpd-tips = چەند یارمەتیدەرێک بۆ ئەوەی ڕستە بدۆزیتەوە:
+sc-howto-findpd-tips-1 = باشترین شوێن بۆ گەڕان بریتین لە پۆدکاستەکان، دەقەکان، دەقی فیلمەکان هەروەها هەر شتێکی تر کە گفتوگۆی نێوان چەند کەسیکی تێدایە.
+sc-howto-findpd-tips-2 = کارەکانی حکومەت، پەرتووک و بابەتەکان سەرچاوەی باشن چونکە ئەو نووسینانە لە نووسراوی فەرمیدان.
+sc-howto-findpd-tips-3 = بەداخەوە هەتاوەکوو ئێستا ناتوانین وتارەکانی ویکیپێدیا وەربگرین. بۆیە تکایە لەوێوە بابەت لەبەرمەگرەوە بۆ ئێرە.
+sc-howto-findpd-subtitle-2 = هاوبەشی لەگەڵ ڕێکخراوەکان و کەسەکان بکە
+
+## MY SENTENCES
+
+sc-my-title = ڕستەکانم
+sc-my-loading = بارکردنی ڕستەکانت...
+sc-my-err-fetching = هەڵە ڕوویدا لە کاتی ناردنی ڕستەکانت. تکایە دووبارە هەوڵ بدەرەوە.
+sc-my-no-sentences = هیچ ڕستەیەک نەدۆزرایەوە!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = سەرچاوە:{ $source }
+sc-my-delete = ڕستەی دیاریکراو بسڕەوە
+sc-my-deleting = ڕستە دیاریکراوەکان دەسڕێنەوە...
+sc-my-err-failed-delete = نەتوانرا ڕستە دیاریکراوەکان بسڕێنەوە... تکایە دووبارە هەوڵ بدەرەوە!
+
+## REJECTED
+
+sc-rejected-title = ڕستە پەسەندنەکراوەکان
+sc-rejected-loading = بارکردنی ڕستە پەسەندنەکراوەکان...
+sc-rejected-err-fetching = هەڵە ڕوویدا لە کاتی ناردنی ڕستە پەسەندنەکراوەکان. تکایە دووبارە هەوڵ بدەرەوە.
+sc-rejected-none-found = هیج ڕستەیەکی پەسەند نەکراو نەدۆزرایەوە!
+
+## STATS
+
+sc-stats-title = ئامار
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = کۆتا نوێکردنەوە: { $lastUpdate }
+sc-stats-last-update-never = کۆتا نوێکردنەوە: نییە
+sc-stats-updating = نوێکردنەوە...
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = پرۆژەی دەنگی گشتی { $sentenceCount } ڕستەی کۆکردۆتەوە لە { $languageCount } زمان!
+
+## ADD
+
+sc-submit-err-select-lang = تکایە زمانێک هەڵبژێرە.
+sc-submit-err-add-sentences = تکایە ڕسیتەیەک زیاد بکە.
+sc-submit-err-add-source = تکایە سەرچاوە زیاد بکە.
+sc-submit-err-confirm-pd = تکایە دڵنیابە لەوەی ئەم ڕستانە لە دۆماینی گشتین.
+sc-submit-prompt =
+    .message = ڕستەکان نەنێردراون، ئایا تۆ دڵنیایت دەتەویت بڕۆیت؟
+sc-submit-title = ڕستە زیاد بکە
+sc-submit-select-language =
+    .labelText = زمان هەڵبژێرە
+sc-submit-add-sentences = ڕستە لە <wikipediaLink>دۆمەینی گشتیەوە</wikipediaLink> زیاد بکە لێرە
+sc-submit-ph-one-per-line =
+    .placeholder = هەر ڕستەو لە دێڕێکدا بێت
+sc-submit-from-where = ڕستەی ئەم <wikipediaLink>دۆمەینە گشتییانە</wikipediaLink> لەکوێوە هاتوون؟
+sc-submit-ph-read-how-to =
+    .placeholder = بەشی چۆن-دەکرێت بخوێنەوە ئەگەر دڵنیا نیت چۆن دەتوانیت ڕێکیان بخەیت
+sc-submit-confirm = دووپاتی دەکەمەوە کە ئەم ڕستانە <wikipediaLink>دۆمەینی گشتیین</wikipediaLink> وە هەروەها دەسەڵاتی ئەوەم هەیە کە باریان بکەم.
+sc-submit-button =
+    .submitText = ناردن
+sc-submit-guidelines = تکایە <howToLink>ڕێنماییەکان</howToLink> سەیر بکە.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = نەتوانرا زمان زیادبکرێت
+sc-add-lang-sec-label = ئەو زمانە هەڵبژێرە کە دەتەوێت بەشداری تێدا بکەیت
+sc-add-lang-sec-button = زمان زیاد بکە
+sc-add-err-unexpected = وەڵامێکی چاوەڕواننەکراو لە ڕاژەوە
+sc-add-lang-process-notice = ئەگەر زمەنکەت زیاد نەکراوە لێرە، دەتوانیت داوای بکەیت لەم <languageProcessLink>ڕێگەییەوە</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = ڕستەکان هێشتا نەنێردراون، تۆ دڵنیایت کە دەتەویت بە جێیان بهێڵیت؟
+sc-confirm-button-text = دڵنیابوونەوە
+
+## LANGUAGE INFO
+
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] کۆی ڕستەکان نیە
+        [one] 1 کۆی ڕستەکان
+       *[other] { $totalSentences } کۆی ڕستەکان
+    }
+sc-lang-info-review-now = <reviewLink>ئێستا پێداچوونەوە بکە!</reviewLink>
+sc-lang-info-add-more = <addLink>ڕستەی زیاتر زیاد بکە ئێستا!</addLink>
+
+## LOGIN
+
+sc-login-err-failed = چوونەژوورەوە سەرکەوتوو نەبوو
+sc-login-err-try-again = تکایە دووبارە هەوڵ بدەرەوە.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = پەڕەی کەسی: { $username }
+sc-personal-err-lang-not-found = نەتوانرا زمان بسرێتەوە: زمان بوونی نیە
+sc-personal-err-remove = نەتوانرا زمان بسڕێتەوە
+sc-personal-your-languages = زمانەکانی تۆ
+sc-personal-remove-button = سڕینەوە
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } زیادکراوە لە لایەن تۆوە
+sc-personal-not-added = تا ئێستا هیچ زمانێکت زیاد نەکردووە.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ پێوەری پێداچوونەوە
+sc-criteria-title = پێوەری پێداچوونەوە
+sc-criteria-make-sure = دڵنیابە کە ڕستەکان لەگەڵ ئەم پێوەرانەدا دەگونجیت:
+sc-criteria-item-1 = دەبێت ڕستەکە بە شێوەیەکی ڕاست نووسرابێت.
+sc-criteria-item-2 = دەبێت ڕستەکە بەشێوەیەکی ڕێزمانی ڕاست نووسرابێت.
+sc-criteria-item-3 = دەبێت ڕستەکە بوترێت.
+sc-criteria-item-4 = ئەگەر ڕستەکە لەگەڵ پێوەرەکاندا گونجا، کرتە بکە لە دوگمەی &quot; پەسەندکردن&quot; لە لای ڕاستەوە.
+
+## REVIEW
+
+sc-review-title = پێداچوونەوەی ڕستە
+sc-review-loading = بارکردنی ڕستەکان...
+sc-review-no-sentences = ڕستە نیە بۆ پێداچوونەوە. <addLink>ڕستەی تر زیاد بکە</addLink>
+sc-review-form-prompt =
+    .message = ئەو ڕستانەی پێداچوونەوەت بۆ کردووە نە نێردراوە، تۆ دڵنیایت؟
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = سەرچاوە:{ $sentenceSource }
+sc-review-form-button-reject = پەسەندنەکردن
+sc-review-form-button-skip = تێپەڕاندن
+sc-review-form-button-approve = پەسەندکردن
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = دەتوانی تەختەکلیل بەکاربێنیت: Y بۆ پەسەندکردن، N بۆ پەسەندنەکردن، S بۆ تێپەڕاندن
+sc-review-form-button-submit =
+    .submitText = پێداچوونەوە تەواو بکە
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] هیچ ڕستەیەک پێداچوونەوەی بۆ نەکراوە
+        [one] 1 ڕستە پێداچوونەوەی بۆ کراوە. سوپاس!
+       *[other] { $sentences } ڕستە پێداچوونەوەی بۆ کرا. سوپاس!
+    }
+sc-review-link = پێداچوونەوە
+
+## SETTINGS
+
+sc-settings-title = ڕێکخستنەکان
+sc-settings-ui-language = زمانی ڕووکاری پیشاندان
+sc-settings-show-all-button = هەموو ڕستە تێپەڕێنراوەکان پیشان بدە دووبارە
+sc-settings-failed = نەتوانرا ڕێکخستنەکان بگۆڕدرێت. تکایە هەوڵ بدەرەوە.
+
+# [/SentenceCollector]
+

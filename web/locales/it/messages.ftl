@@ -106,6 +106,7 @@ mhr = Mari orientale
 mk = Macedone
 ml = Malayalam
 mn = Mongolo
+mni = Meitei Lon
 mos = More
 mr = Marathi
 mrj = Mari occidentale
@@ -152,7 +153,8 @@ te = Telugu
 tg = Tagico
 th = Tailandese
 ti = Tigrino
-Tig = Tigrè
+tig = Tigre
+tk = Turkmeno
 tl = Tagalog
 tr = Turco
 tt = Tataro
@@ -323,8 +325,13 @@ profile-form-native-language =
     .label = Lingua nativa
 profile-form-additional-language =
     .label = Altra lingua
+profile-form-language =
+    .label = Lingua
 profile-form-accent =
     .label = Accento
+profile-form-custom-accent-help-text =
+    .label = Come descriveresti il tuo accento?
+profile-form-custom-accent-placeholder-2 = Inizia a digitare per descrivere il tuo accento
 profile-form-age =
     .label = Età
 profile-form-gender-2 =
@@ -335,6 +342,7 @@ hidden = Nascosto
 visible = Visibile
 native-language =
     .label = Lingua madre
+profile-form-add-accent = Aggiungi nuovo accento personalizzato “{ $inputValue }”
 profile-form-submit-save = Salva
 profile-form-submit-saved = Salva
 male = Maschio
@@ -368,6 +376,8 @@ skip-submission-description = Dopo aver premuto Invia durante l’invio del cont
 skip-submission-note = Nota: sarà comunque necessario selezionare Parla o Ascolta per modificare il tipo di contributo.
 off = Disattiva
 on = Attiva
+help-accent = Hai bisogno di aiuto con l’accento?
+help-accent-explanation = Il tuo accento è il modo in cui pronunci le parole. Può essere condizionato dal luogo in cui hai vissuto, da quali altre lingue parli e da molti altri fattori. Qui puoi condividere qualsiasi informazione che ritieni pertinente.
 
 ## Profile - Email
 
@@ -984,3 +994,320 @@ contribution-just-unsure-title = Hai ancora dei dubbi?
 contribution-just-unsure-description = Se ti imbatti in una situazione che non è prevista in queste linee guida, convalida seguendo il tuo giudizio. Se davvero non riesci a decidere, utilizza il pulsante Salta e passa alla registrazione seguente.
 see-more = <chevron></chevron>Mostra di più
 see-less = <chevron></chevron>Mostra di meno
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Pagina iniziale
+sc-header-how-to = Guida
+sc-header-add = Aggiungi
+sc-header-review = Convalida
+sc-header-rejected = Frasi rifiutate
+sc-header-my = Le mie frasi
+sc-header-statistics = Statistiche
+sc-header-profile = Profilo
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Segnala bug
+sc-footer-translate = Traduci questa pagina
+sc-footer-report-copyright = Segnala problemi di copyright
+sc-footer-privacy = Privacy
+sc-footer-terms = Condizioni di utilizzo
+sc-footer-cookies = Cookie
+sc-login-signup-button = Accedi / Registrati
+sc-logout-button = Disconnetti
+
+## HOME
+
+sc-home-title = Benvenuto nel Sentence Collector di Common Voice
+sc-home-intro = Sentence Collector fa parte di <commonVoiceLink>Common Voice</commonVoiceLink>. Consente ai collaboratori di raccogliere e convalidare le frasi create dalla comunità. Puoi utilizzare questo strumento anche per importare e riordinare parti di testo di pubblico dominio di piccole e medie dimensioni che hai trovato o raccolto. Tutte le frasi devono essere di pubblico dominio. Le frasi approvate vengono esportate ogni settimana nel repository di Common Voice e rilasciate sul sito di Common Voice a ogni nuova distribuzione.
+sc-home-collect-title = Raccogli frasi
+sc-home-collect-text = Aiutaci scrivendo o raccogliendo frasi di pubblico dominio.
+sc-home-review-title = Convalida frasi
+sc-home-review-text = Aiutaci convalidando le frasi per verificare che aderiscano alle linee guida.
+
+## HOW-TO
+
+sc-howto-title = Guida
+sc-howto-addlang-title = Aggiungere lingue a cui contribuire
+sc-howto-addlang-text = Una volta effettuato l’accesso puoi selezionare le lingue dalla sezione “Profilo”
+sc-howto-addsen-title = Aggiungere nuove frasi
+sc-howto-addsen-item-1 = Tutte le frasi che invii devono essere sotto <wikipediaLink>licenza di Pubblico Dominio (CC-0)</wikipediaLink>. Per supportare l’inclusione di testi non soggetti a pubblico dominio, abbiamo creato un <cc0WaiverLink>modello di Accordo di Contribuzione</cc0WaiverLink> per il titolare del copyright che desidera contribuire a Common Voice con la propria opera.
+sc-howto-addsen-item-2 = Numeri. Non dovrebbero esserci numeri scritti in cifre nel testo perché possono creare problemi quando letti ad alta voce. Il modo in cui un numero viene letto dipende dal contesto e potrebbe generare confusione nel dataset. Per esempio, il numero “2409” potrebbe essere letto correttamente sia come “ventiquattro zero nove” che come “duemilaquattrocentonove”.
+sc-howto-addsen-item-3 = Abbreviazioni e acronimi. Le abbreviazioni e gli acronimi come “USA” o “ICE” dovrebbero essere evitati perché potrebbero essere letti in un modo che non coincide con l’ortografia. Inoltre, potrebbero esserci più letture corrette per una singola abbreviazione. Per esempio, l’acronimo “ICE” potrebbe essere pronunciato “I-C-E" o come una singola parola.
+sc-howto-addsen-item-4 = Punteggiatura. I caratteri speciali e la punteggiatura dovrebbero essere inclusi solo se strettamente necessario. Per esempio, un apostrofo è incluso in parole come “l’elefante” e “un’altra” e dovrebbe essere presente nel testo, mentre è improbabile l’utilizzo di caratteri speciali come “@” o “#”.
+sc-howto-addsen-item-5 = Lettere straniere. Le lettere devono essere valide nella lingua parlata. Per esempio, “ж” è una lettera dell’alfabeto russo, non è mai utilizzata in inglese o in italiano e non dovrebbe essere mai presente in un testo di origine inglese o italiana.
+sc-howto-addsen-item-6 = Alcune lingue possono avere <validationRulesLink>proprie regole di convalida</validationRulesLink> con requisiti aggiuntivi. Se non esiste uno specifico file di convalida per una lingua, si utilizzano le regole generiche valide per l’inglese.
+sc-howto-addsen-post-1 = Preferiamo frasi naturali utilizzate nelle conversazioni. Sebbene la diversità fonetica e la presenza di parole diverse nelle frasi siano importanti, stiamo cercando di rendere la loro registrazione quanto più divertente possibile. Pertanto sarebbe fantastico se riuscissi a mantenere le tue frasi il più naturali e coinvolgenti possibile.
+sc-howto-cite-title = Come citare
+sc-howto-cite-pre-1 = È importante indicare dove hai trovato il testo sotto licenza pubblica per evitare il plagio e per consentire il monitoraggio di <copyrightIssuesLink>problemi di copyright</copyrightIssuesLink>. Di seguito alcuni modi per citare la fonte.
+sc-howto-cite-item-1 = Potresti includere il sito, ad esempio “Common Voice - https://commonvoice.mozilla.org/“
+sc-howto-cite-item-2 = Puoi usare lo stile di citazione Accademico, ad esempio lo stile di Harvard “Mozilla (2021) Common Voice. Disponibile su https://commonvoice.mozilla.org/ (consultato: 15 settembre 2021)“
+sc-howto-cite-item-3 = Per il testo sotto licenza di pubblico dominio non disponibile online, potresti utilizzare lo stile di citazione Accademico, ad esempio lo stile di Harvard “Jess (2021) I miei poemi sotto pubblica licenza“
+sc-howto-review-title = Convalida frasi
+sc-howto-review-subtitle = Assicurati che la frase soddisfi i seguenti criteri:
+sc-howto-review-criteria-1 = La frase deve essere scritta senza errori di ortografia.
+sc-howto-review-criteria-2 = La frase deve essere grammaticalmente corretta.
+sc-howto-review-criteria-3 = La frase deve essere pronunciabile.
+sc-howto-review-criteria-4 = Se la frase soddisfa tutti i criteri, fai clic sul pulsante “Approva“.
+sc-howto-review-criteria-5 = Se la frase non soddisfa i precedenti criteri, fai clic su “Rifiuta“. Se non sei sicuro della frase, puoi saltarla e passare a quella successiva.
+sc-howto-review-criteria-6 = Se non ci sono più frasi da convalidare, aiutaci a raccoglierne altre!
+sc-howto-findpd-title = Trovare frasi esistenti in pubblico dominio
+sc-howto-findpd-subtitle = Cercale su Internet
+sc-howto-findpd-text-2 = Ricorda che abbiamo bisogno dell’autorizzazione per pubblicare quelle frasi, quindi assicurati sempre che il testo sia di <wikipediaLink>pubblico dominio</wikipediaLink>. Se non c’è un’indicazione esplicita, contatta la persona a cui appartiene il testo e chiedi se è disponibile a renderlo di pubblico dominio. Se accetta, aiutala a seguire la procedura dell’<cc0WaiverLink>Accordo di Contribuzione</cc0WaiverLink>. Se rifiuta, non sei autorizzato a utilizzare quel testo.
+sc-howto-findpd-tips = Ecco alcuni suggerimenti per trovare frasi:
+sc-howto-findpd-tips-1 = Le migliori fonti che puoi cercare sono podcast, trascrizioni, sceneggiature di film e qualsiasi cosa che possa contenere conversazioni quotidiane.
+sc-howto-findpd-tips-2 = Anche gli atti governativi, i libri e gli articoli sono ottimi, tuttavia poiché il testo tende a essere un po’ più formale, hanno meno priorità.
+sc-howto-findpd-tips-3 = Sfortunatamente non possiamo ancora utilizzare gli articoli di Wikimedia. Quindi non prendere le frasi da lì.
+sc-howto-findpd-subtitle-2 = Collaborare con le organizzazioni locali o individui
+sc-howto-findpd-partner-1 = Ci sono molte organizzazioni pubbliche che potrebbero voler collaborare e che hanno già molti testi che possono donare come di pubblico dominio. Contatta le Università locali, le Amministrazioni e le organizzazioni open source per parlare del progetto e chiedere il loro aiuto.
+sc-howto-findpd-partner-2 = Anche i linguisti esperti possono aiutare, prova a contattare le Università di Lingue locali (sia studenti che insegnanti) per vedere se possono aiutare a raccogliere un insieme variegato di frasi con suoni diversi nella tua lingua.
+
+## MY SENTENCES
+
+sc-my-title = Le mie frasi
+sc-my-description = Questa pagina offre una panoramica di tutte le frasi che hai inviato. Puoi anche eliminare frasi già inviate, se necessario, selezionandole tramite la relativa casella di controllo e facendo clic su &quot;Elimina le frasi selezionate&quot; in fondo. Rimuovi le frasi solo se assolutamente necessario, per esempio se hai scoperto che una frase è protetta da copyright.
+sc-my-loading = Caricamento delle frasi…
+sc-my-err-fetching = Errore durante il recupero delle frasi. Riprova.
+sc-my-no-sentences = Nessuna frase trovata.
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Invio: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Fonte: { $source }
+sc-my-delete = Elimina le frasi selezionate
+sc-my-deleting = Eliminazione delle frasi selezionate…
+sc-my-err-failed-delete = Impossibile eliminare le frasi selezionate… Riprova.
+
+## REJECTED
+
+sc-rejected-title = Frasi rifiutate
+sc-rejected-loading = Caricamento delle frasi rifiutate…
+sc-rejected-err-fetching = Errore durante il recupero delle frasi rifiutate. Riprova.
+sc-rejected-none-found = Nessuna frase rifiutata trovata.
+
+## STATS
+
+sc-stats-title = Statistiche
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Ultimo aggiornamento: { $lastUpdate }
+sc-stats-last-update-never = Ultimo aggiornamento: mai
+sc-stats-updating = Aggiornamento…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Il Sentence Collector di Common Voice ha raccolto { $sentenceCount } frasi in { $languageCount } lingue!
+
+## ADD
+
+sc-submit-err-select-lang = Seleziona una lingua.
+sc-submit-err-add-sentences = Aggiungi frasi.
+sc-submit-err-add-source = Aggiungi una fonte.
+sc-submit-err-confirm-pd = Conferma che queste frasi sono sotto licenza di pubblico dominio.
+sc-submit-prompt =
+    .message = Le frasi non sono state inviate, vuoi lasciare la pagina?
+sc-submit-title = Aggiungi frasi
+sc-submit-select-language =
+    .labelText = Seleziona la lingua
+sc-submit-add-sentences = Aggiungi frasi di <wikipediaLink>pubblico dominio</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Una frase per riga
+sc-submit-from-where = Da dove provengono queste frasi di <wikipediaLink>pubblico dominio</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Leggi “Guida“ se non sai come citare la fonte
+sc-submit-confirm = Confermo che queste frasi sono di <wikipediaLink>pubblico dominio</wikipediaLink> e ho l’autorizzazione a caricarle.
+sc-submit-button =
+    .submitText = Invia
+sc-submit-filtered = Frasi rifiutate per mancanza dei requisiti, invia la versione corretta come nuove frasi:
+sc-submit-guidelines = Si prega di controllare la sezione <howToLink>Guida</howToLink>.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Impossibile aggiungere la lingua
+sc-add-lang-sec-label = Aggiungi una lingua a cui vuoi contribuire
+sc-add-lang-sec-button = Aggiungi una lingua
+sc-add-err-unexpected = Risposta imprevista dal server
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Frasi inviate. { $duplicates } frasi sono state rifiutate come duplicate.
+        [one] Frasi inviate. { $duplicates } frase è stata rifiutata come duplicata.
+       *[other] Frasi inviate. { $duplicates } frasi sono state rifiutate come duplicate.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Nessuna frase non inviata
+        [one] 1 frase non inviata
+       *[other] { $sentences } frasi non inviate
+    }
+sc-add-err-submission = Errore durante l’invio
+sc-add-lang-process-notice = Se la tua lingua non è presente in questo elenco, puoi richiederla tramite <languageProcessLink>questa procedura</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = Frasi non inviate, vuoi lasciare la pagina?
+sc-confirm-sentences-title = Conferma nuove frasi
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Nessuna frase trovata.
+        [one] 1 frase trovata.
+       *[other] { $countOfSentences } frasi trovate.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } frasi rifiutate da te
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Nessuna frase è ancora stata convalidata.
+        [one] 1 frase è già stata convalidata. Ottimo lavoro!
+       *[other] { $countOfReviewed } frasi sono già state convalidate. Ottimo lavoro!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Nessuna frase pronta per l’invio!
+        [one] 1 frase pronta per l’invio!
+       *[other] { $readyCount } frasi pronte per l’invio!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } frasi non convalidate. Se vuoi, puoi rivedere le tue frasi ora prima di inviarle.
+sc-confirm-button-text = Conferma
+sc-confirm-uploading = Le frasi sono in fase di caricamento. Questa operazione può richiedere diversi minuti in base al numero di frasi aggiunte. Non chiudere questa pagina.
+
+## LANGUAGE INFO
+
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Nessuna frase.
+        [one] 1 frase in totale.
+       *[other] { $totalSentences } frasi in totale.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Nessuna frase in convalida.
+        [one] 1 frase in convalida.
+       *[other] { $totalInReview } frasi in convalida.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Nessuna frase rimasta da revisionare.
+        [one] 1 frase rimasta da revisionare.
+       *[other] { $unreviewedSentencesByYou } frasi rimaste da revisionare.
+    }
+sc-lang-info-review-now = <reviewLink>Convalida ora!</reviewLink>
+sc-lang-info-add-more = <addLink>Aggiungi nuove frasi ora!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Nessuna frase convalidata.
+        [one] 1 frase convalidata.
+       *[other] { $validatedSentences } frasi convalidate.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Nessuna frase rifiutata.
+        [one] 1 frase rifiutata.
+       *[other] { $rejectedSentences } frasi rifiutate.
+    }
+
+## LOGIN
+
+sc-login-err-failed = Accesso non riuscito
+sc-login-err-try-again = Riprova.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profilo: { $username }
+sc-personal-err-lang-not-found = Impossibile rimuovere la lingua: lingua non trovata
+sc-personal-err-remove = Impossibile rimuovere la lingua
+sc-personal-your-languages = Le tue lingue:
+sc-personal-remove-button = rimuovi
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } aggiunte da te
+sc-personal-not-added = Non hai ancora aggiunto nessuna lingua.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ Regole di convalida
+sc-criteria-title = Regole di convalida
+sc-criteria-make-sure = Assicurati che la frase soddisfi le seguenti regole:
+sc-criteria-item-1 = La frase deve essere corretta dal punto di vista dell’ortografia.
+sc-criteria-item-2 = La frase deve essere grammaticalmente corretta.
+sc-criteria-item-3 = La frase deve essere pronunciabile.
+sc-criteria-item-4 = Se la frase soddisfa le regole di convalida, fai clic sul pulsante &quot;Approva&quot; sulla destra
+sc-criteria-item-5-2 = Se la frase non rispetta le regole precedenti, fai clic sul pulsante &quot;Rifiuta&quot; sulla sinistra. Se non sei sicuro della frase, puoi saltarla e passare alla successiva.
+sc-criteria-item-6 = Se hai terminato le frasi da convalidare, aiutaci a raccogliere altre frasi!
+
+## REVIEW
+
+sc-review-lang-not-selected = Non hai selezionato alcuna lingua. Vai nel tuo <profileLink>Profilo</profileLink> per selezionare le lingue.
+sc-review-title = Convalida frasi
+sc-review-loading = Caricamento frasi…
+sc-review-select-language = Seleziona una lingua per convalidare le frasi.
+sc-review-no-sentences = Nessuna frase da convalidare. <addLink>Aggiungi altre frasi ora!</addLink>
+sc-review-form-prompt =
+    .message = Le frasi convalidate non sono state inviate, vuoi lasciare la pagina?
+sc-review-form-usage = Scorri verso destra per convalidare la frase. Scorri verso sinistra per rifiutarla. Scorri verso l’alto per saltarla. <strong>Non dimenticare di inviare le tue convalide!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Fonte: { $sentenceSource }
+sc-review-form-button-reject = Rifiuta
+sc-review-form-button-skip = Salta
+sc-review-form-button-approve = Approva
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = Puoi usare anche le scorciatoie da tastiera: Y per Approvare, N per Rifiutare, S per Saltare.
+sc-review-form-button-submit =
+    .submitText = Termina la convalida
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Nessuna frase convalidata.
+        [one] 1 frase convalidata. Grazie.
+       *[other] { $sentences } frasi convalidate. Grazie.
+    }
+sc-review-form-review-failure = Impossibile salvare le convalide. Riprova più tardi.
+sc-review-link = Convalida
+
+## SETTINGS
+
+sc-settings-title = Impostazioni
+sc-settings-ui-language = Lingua dell’interfaccia
+sc-settings-language-translated-warning = Le pagine per questa lingua potrebbero non essere tradotte completamente. Puoi aiutare con la traduzione <pontoonLinkLink>su Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = Ripristina le frasi saltate
+sc-settings-skipped-decription = Mentre stavi convalidando hai saltato delle frasi. Il ripristino delle frasi saltate mostrerà di nuovo tutte le frasi saltate. Questo non dipende dalla lingua.
+sc-settings-show-all-button = Mostra di nuovo tutte le frasi saltate
+sc-settings-failed = Impossibile modificare le impostazioni. Riprova.
+# VALIDATION
+sc-validation-number-of-words = La frase deve contenere da 1 a 14 parole (incluse)
+sc-validation-no-numbers = La frase non deve contenere numeri
+sc-validation-no-symbols = La frase non deve contenere simboli
+sc-validation-no-abbreviations = La frase non deve contenere abbreviazioni
+
+# [/SentenceCollector]
+

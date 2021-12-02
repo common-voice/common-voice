@@ -154,6 +154,7 @@ tg = Tadzjieks
 th = Thai
 ti = Tigrinya
 tig = Tigre
+tk = Turkmeens
 tl = Tagalog
 tr = Turks
 tt = Tataars
@@ -326,8 +327,13 @@ profile-form-native-language =
     .label = Moedertaal
 profile-form-additional-language =
     .label = Extra taal
+profile-form-language =
+    .label = Taal
 profile-form-accent =
     .label = Accent
+profile-form-custom-accent-help-text =
+    .label = Hoe zou u uw accent omschrijven?
+profile-form-custom-accent-placeholder-2 = Begin met typen om uw accent te beschrijven
 profile-form-age =
     .label = Leeftijd
 profile-form-gender-2 =
@@ -338,6 +344,7 @@ hidden = Verborgen
 visible = Zichtbaar
 native-language =
     .label = Moedertaal
+profile-form-add-accent = Nieuw aangepast accent ‘{ $inputValue }’ toevoegen
 profile-form-submit-save = Opslaan
 profile-form-submit-saved = Opgeslagen
 male = Mannelijk
@@ -371,6 +378,8 @@ skip-submission-description = Tijdens het bijdragen wordt feedback over inzendin
 skip-submission-note = Noot: u dient nog steeds een keuze tussen Spreken en Luisteren te maken om het type bijdragen te wijzigen.
 off = Uit
 on = Aan
+help-accent = Hulp nodig met accent?
+help-accent-explanation = Uw accent is de manier waarop u woorden uitspreekt. Het kan worden gevormd door waar u hebt gewoond, welke andere talen u spreekt en tal van andere factoren. U kunt hier alle informatie delen die u relevant vindt.
 
 ## Profile - Email
 
@@ -709,8 +718,8 @@ listen-instruction = { $actionType } <playIcon></playIcon> - is de zin duidelijk
 listen-again-instruction = Goed werk! <playIcon></playIcon> Luister opnieuw wanneer u klaar bent
 listen-3rd-time-instruction = 2 gedaan, ga zo door! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> De laatste!
-listen-empty-state = We hebben in deze taal geen te valideren fragmenten meer...
-speak-empty-state = We hebben in deze taal geen op te nemen zinnen meer...
+listen-empty-state = We hebben in deze taal geen te valideren fragmenten meer…
+speak-empty-state = We hebben in deze taal geen op te nemen zinnen meer…
 speak-empty-state-cta = Zinnen bijdragen
 record-button-label = Uw stem opnemen
 share-title-new = <bold>Help ons</bold> meer stemmen te vinden
@@ -1005,9 +1014,14 @@ contribution-just-unsure-title = Gewoon onzeker?
 contribution-just-unsure-description = Als u iets tegenkomt dat niet in deze richtlijnen wordt behandeld, stem dan naar uw beste oordeel. Als u echt niet kunt beslissen, gebruik dan de knop Overslaan en ga door naar de volgende opname.
 see-more = <chevron></chevron>Meer tonen
 see-less = <chevron></chevron>Minder tonen
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = Startpagina
 sc-header-how-to = Handleiding
 sc-header-add = Toevoegen
@@ -1019,6 +1033,374 @@ sc-header-profile = Profiel
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Bugs melden
 sc-footer-translate = Deze pagina vertalen
+sc-footer-report-copyright = Auteursrechtproblemen melden
+sc-footer-privacy = Privacy
+sc-footer-terms = Voorwaarden
+sc-footer-cookies = Cookies
+sc-login-signup-button = Aanmelden/Registreren
+sc-logout-button = Afmelden
+
+## HOME
+
+sc-home-title = Welkom bij de Common Voice Sentence Collector
+sc-home-intro =
+    De Sentence Collector is onderdeel van <commonVoiceLink>Common Voice</commonVoiceLink>.
+    Hiermee kunnen bijdragers zinnen die door de gemeenschap zijn gemaakt verzamelen en valideren.
+    U kunt dit hulpmiddel ook gebruiken om gevonden of verzamelde kleine tot middelgrote teksten in het publieke
+    domein te importeren en op te schonen. Alle zinnen moeten openbaar toegankelijk zijn.
+    Goedgekeurde zinnen worden elke week geëxporteerd naar de Common Voice-repository en vrijgegeven
+    op de Common Voice-website bij elke nieuwe implementatie.
+sc-home-collect-title = Zinnen verzamelen
+sc-home-collect-text = Help ons door openbaar toegankelijke zinnen te schrijven of te verzamelen.
+sc-home-review-title = Zinnen beoordelen
+sc-home-review-text = Help ons door zinnen te controleren op juistheid volgens de richtlijnen.
+
+## HOW-TO
+
+sc-howto-title = Handleiding
+sc-howto-addlang-title = Talen toevoegen om mee te werken
+sc-howto-addlang-text = Nadat u bent aangemeld, kunt u uw talen selecteren in de profielsectie.
+sc-howto-addsen-title = Nieuwe zinnen toevoegen
+sc-howto-addsen-item-1 =
+    Alle zinnen die u indient, moeten onder de <wikipediaLink>Public Domain (CC-0)-licentie</wikipediaLink> vallen.
+    Om de opname van werk dat niet onder openbare licentie valt te ondersteunen, hebben we een
+    <cc0WaiverLink>Sjabloon voor bijdrageovereenkomst</cc0WaiverLink> gemaakt voor werken waarvan de eigenaar van het auteursrecht
+    het materiaal graag wil bijdragen aan Common Voice.
+sc-howto-addsen-item-2 =
+    Getallen. Er mogen geen cijfers in de brontekst staan, omdat deze problemen kunnen veroorzaken
+    wanneer ze hardop worden voorgelezen. De manier waarop een getal wordt gelezen is afhankelijk van de context en kan verwarring in de dataset veroorzaken.
+    Het getal ‘2409’ kan bijvoorbeeld nauwkeurig worden gelezen als zowel ‘vierentwintig nul negen’ en
+    ‘tweeduizend vierhonderd negen’.
+sc-howto-addsen-item-3 =
+    Afkortingen en acroniemen. Afkortingen en acroniemen zoals ‘USA’ of ‘ICE’
+    moeten in de brontekst worden vermeden, omdat ze op een manier kunnen worden gelezen die niet samenvalt met hun spelling.
+    Bovendien kunnen er meerdere nauwkeurige leesvormen zijn voor een dezelfde afkorting.
+    Het acroniem ‘ICE’ kan bijvoorbeeld worden uitgesproken als ‘I-C-E’ of als een enkel woord.
+sc-howto-addsen-item-4 =
+    Interpunctie. Speciale symbolen en leestekens mogen alleen worden opgenomen
+    wanneer dit absoluut noodzakelijk is. Er is bijvoorbeeld een apostrof opgenomen in Nederlandse woorden als
+    ‘z’n’ en deze zou in de brontekst moeten worden opgenomen, maar het is onwaarschijnlijk dat u
+    ooit een speciaal symbool zoals ‘@‘ of ‘#’ nodig hebt.
+sc-howto-addsen-item-5 =
+    Buitenlandse letters. Letters moeten geldig zijn in de taal die wordt gesproken.
+    ‘ж’ is bijvoorbeeld een letter in het Russische alfabet, maar wordt nooit in het Nederlands gebruikt en zou dus ook nooit
+    mogen verschijnen in een Nederlandse brontekst.
+sc-howto-addsen-item-6 =
+    Talen kunnen hun <validationRulesLink>eigen validatieregels</validationRulesLink> hebben
+    met aanvullende eisen. Als er geen specifiek validatiebestand voor een taal is,
+    dan worden de algemene Nederlandse regels gebruikt.
+sc-howto-addsen-post-1 =
+    We geven de voorkeur aan natuurlijke/gesprekszinnen.
+    Hoewel fonetische diversiteit en verschillende woorden in zinnen belangrijk zijn, proberen we het opnemen van
+    zinnen zo leuk mogelijk te maken. Daarom zou het geweldig zijn als u probeert uw zinnen
+    zo natuurlijk/aantrekkelijk mogelijk te houden.
+sc-howto-cite-title = Citeren
+sc-howto-cite-pre-1 =
+    Het is belangrijk dat u vermeldt waar u de openbare licentie hebt gevonden
+    om plagiaat te voorkomen en om opvolging van <copyrightIssuesLink>auteursrechtproblemen</copyrightIssuesLink> mogelijk te maken.
+    Hier zijn een paar manieren waarop u het werk kunt citeren.
+sc-howto-cite-item-1 = U kunt de website opnemen, bijvoorbeeld ‘Common Voice - https://commonvoice.mozilla.org/’
+sc-howto-cite-item-2 =
+    U kunt een academische referentiestijl gebruiken, bijvoorbeeld Harvard-stijl
+    ‘Mozilla (2021) Common Voice. Beschikbaar op https://commonvoice.mozilla.org/ (Benaderd: 15 september 2021)’
+sc-howto-cite-item-3 =
+    Voor openbare licentietekst die niet online beschikbaar is, kunt u de academische referentiestijl gebruiken,
+    b.v. Harvard-stijl ‘Jess (2021) Mijn openbare licentiegedichten’
+sc-howto-review-title = Zinnen beoordelen
+sc-howto-review-subtitle = Zorg ervoor dat de zin aan de volgende criteria voldoet:
+sc-howto-review-criteria-1 = De zin moet correct gespeld zijn.
+sc-howto-review-criteria-2 = De zin moet grammaticaal correct zijn.
+sc-howto-review-criteria-3 = De zin moet uitspreekbaar zijn.
+sc-howto-review-criteria-4 = Als de zin aan de criteria voldoet, klik dan op de knop ‘Goedkeuren’.
+sc-howto-review-criteria-5 =
+    Als de zin niet aan de bovenstaande criteria voldoet, klik dan op de knop ‘Afwijzen’.
+    Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
+sc-howto-review-criteria-6 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
+sc-howto-findpd-title = Bestaande zinnen vinden in het publieke domein
+sc-howto-findpd-subtitle = Ernaar zoeken op het internet
+sc-howto-findpd-text-2 = Onthoud dat we toestemming nodig hebben om die zinnen te publiceren, dus zorg er altijd voor dat de tekst tot het <wikipediaLink>publieke domein</wikipediaLink> behoort. Als dit niet expliciet aangeduid is, neem dan contact op met de persoon van wie de tekst is en vraag of ze hun tekst willen bijdragen aan het Publieke Domein. Als ze dat willen, help ze dan door het proces van de <cc0WaiverLink>Medewerkersovereenkomst</cc0WaiverLink> te gaan. Als ze de tekst niet willen bijdragen, dan mag u die tekst niet gebruiken.
+sc-howto-findpd-tips = Hier zijn enkele tips om zinnen te vinden:
+sc-howto-findpd-tips-1 =
+    De beste bronnen waarnaar u kunt zoeken zijn podcasts, transcripties, filmscripts en
+    alles dat potentieel alledaagse gesprekken kan bevatten.
+sc-howto-findpd-tips-2 =
+    Overheidsprocedures, boeken en artikelen zijn echter ook geweldig, aangezien
+    de tekst echter meestal wat formeler is hebben ze minder prioriteit.
+sc-howto-findpd-tips-3 = Helaas kunnen we nog geen Wikimedia-artikelen hebben. Dus kopieer en plak niets uit die bron.
+sc-howto-findpd-subtitle-2 = Werk samen met lokale organisaties of personen
+sc-howto-findpd-partner-1 =
+    Er zijn veel publieke organisaties die misschien willen samenwerken
+    en al veel teksten die ze als publiek domein kunnen doneren hebben. Neem contact op met lokale universiteiten,
+    overheden en opensource-organisaties om over het project te praten en om hun hulp te vragen.
+sc-howto-findpd-partner-2 =
+    Deskundige linguïsten kunnen ook helpen, probeer contact op te nemen met de lokale linguïstische
+    universiteiten (zowel docenten als studenten) en kijk of ze kunnen helpen om een diverse set van
+    zinnen met uiteenlopende klanken in uw taal te verzamelen.
+
+## MY SENTENCES
+
+sc-my-title = Mijn zinnen
+sc-my-description =
+    Deze pagina biedt u een overzicht van al uw ingezonden zinnen.
+    U kunt indien nodig ook reeds ingediende zinnen verwijderen door er een vinkje naast te plaatsen
+    en onderaan op &quot;Geselecteerde zinnen verwijderen&quot; te klikken.
+    Verwijder zinnen alleen als dit absoluut noodzakelijk is,
+    bijvoorbeeld als u achteraf opmerkt dat een zin auteursrechtelijk beschermd is.
+sc-my-loading = Uw zinnen laden…
+sc-my-err-fetching = Fout bij het ophalen van uw zinnen. Probeer het opnieuw.
+sc-my-no-sentences = Geen zinnen gevonden!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Inzending: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Bron: { $source }
+sc-my-delete = Geselecteerde zinnen verwijderen
+sc-my-deleting = Geselecteerde zinnen verwijderen…
+sc-my-err-failed-delete = Kan geselecteerde zinnen niet verwijderen… Probeer het opnieuw!
+
+## REJECTED
+
+sc-rejected-title = Afgewezen zinnen
+sc-rejected-loading = Afgewezen zinnen laden…
+sc-rejected-err-fetching = Fout bij het ophalen van afgewezen zinnen. Probeer het opnieuw.
+sc-rejected-none-found = Geen afgewezen zinnen gevonden!
+
+## STATS
+
+sc-stats-title = Statistieken
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Laatste update: { $lastUpdate }
+sc-stats-last-update-never = Laatste update: nooit
+sc-stats-updating = Bijwerken…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary =
+    De Common Voice Sentence Collector heeft { $sentenceCount }
+    zinnen in { $languageCount } talen verzameld!
+
+## ADD
+
+sc-submit-err-select-lang = Selecteer een taal.
+sc-submit-err-add-sentences = Voeg zinnen toe.
+sc-submit-err-add-source = Voeg een bron toe.
+sc-submit-err-confirm-pd = Bevestig dat deze zinnen publiek domein zijn.
+sc-submit-prompt =
+    .message = Zinnen niet ingediend, weet u zeker dat u wilt afsluiten?
+sc-submit-title = Zinnen toevoegen
+sc-submit-select-language =
+    .labelText = Taal selecteren
+sc-submit-add-sentences = <wikipediaLink>Publiek domein</wikipediaLink>-zinnen toevoegen
+sc-submit-ph-one-per-line =
+    .placeholder = Eén zin per regel
+sc-submit-from-where = Waar komen deze <wikipediaLink>publiek domein</wikipediaLink>-zinnen vandaan?
+sc-submit-ph-read-how-to =
+    .placeholder = Lees onze handleiding als u niet zeker weet hoe u moet toeschrijven
+sc-submit-confirm =
+    Ik bevestig dat deze zinnen <wikipediaLink>publiek domein</wikipediaLink> zijn en
+    ik toestemming heb om ze te uploaden.
+sc-submit-button =
+    .submitText = Indienen
+sc-submit-filtered = Gefilterde zinnen vanwege niet voldoen aan eisen (dien correcte versies in als nieuwe zinnen):
+sc-submit-guidelines = Raadpleeg de <howToLink>richtlijnen</howToLink>.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Kan taal niet toevoegen
+sc-add-lang-sec-label = Voeg een taal toe waaraan u wilt bijdragen
+sc-add-lang-sec-button = Taal toevoegen
+sc-add-err-unexpected = Onverwacht antwoord ontvangen van server
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Ingediende zinnen. { $duplicates } zinnen zijn afgewezen als duplicaten.
+        [one] Ingediende zinnen. { $duplicates } zin is afgewezen als duplicaat.
+       *[other] Ingediende zinnen. { $duplicates } zinnen zijn afgewezen als duplicaten.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Geen zin mislukt
+        [one] Eén zin mislukt
+       *[other] { $sentences } zinnen mislukt
+    }
+sc-add-err-submission = Indieningsfout
+sc-add-lang-process-notice = Als uw taal hier niet wordt vermeld, kunt u deze aanvragen via <languageProcessLink>dit proces</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = Zinnen niet ingediend, weet u zeker dat u wilt afsluiten?
+sc-confirm-sentences-title = Nieuwe zinnen bevestigen
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Geen zinnen gevonden.
+        [one] Eén zin gevonden.
+       *[other] { $countOfSentences } zinnen gevonden.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } door u afgewezen
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Geen zin reeds beoordeeld.
+        [one] Er is reeds één zin beoordeeld. Goed werk!
+       *[other] Er zijn reeds { $countOfReviewed } zinnen beoordeeld. Goed werk!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Geen zin klaar voor indiening!
+        [one] Eén zin klaar voor indiening!
+       *[other] { $readyCount } zinnen klaar voor indiening!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed =
+    { $countOfUnreviewed } zinnen zijn niet beoordeeld.
+    Als u wilt, kunt u uw zinnen nu ook beoordelen voordat u ze indient.
+sc-confirm-button-text = Bevestigen
+sc-confirm-uploading = Zinnen worden geüpload. Dit kan enkele minuten duren, afhankelijk van het aantal toegevoegde zinnen. Sluit deze website niet.
+
+## LANGUAGE INFO
+
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Geen totaal aantal zinnen.
+        [one] Totaal één zin.
+       *[other] Totaal { $totalSentences } zinnen.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Geen zinnen in beoordeling.
+        [one] Eén zin in beoordeling.
+       *[other] { $totalInReview } zinnen in beoordeling.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Geen zin die u nog kunt beoordelen.
+        [one] Eén zin die u nog kunt beoordelen.
+       *[other] { $unreviewedSentencesByYou } zinnen die u nog kunt beoordelen.
+    }
+sc-lang-info-review-now = <reviewLink>Nu beoordelen!</reviewLink>
+sc-lang-info-add-more = <addLink>Nu meer zinnen toevoegen!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Geen gevalideerde zinnen.
+        [one] Eén gevalideerde zin.
+       *[other] { $validatedSentences } gevalideerde zinnen.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Geen afgewezen zinnen.
+        [one] Eén afgewezen zin.
+       *[other] { $rejectedSentences } afgewezen zinnen.
+    }
+
+## LOGIN
+
+sc-login-err-failed = Aanmelding mislukt
+sc-login-err-try-again = Probeer het opnieuw.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profiel: { $username }
+sc-personal-err-lang-not-found = Kan taal niet verwijderen: taal niet gevonden
+sc-personal-err-remove = Kan taal niet verwijderen
+sc-personal-your-languages = Uw talen:
+sc-personal-remove-button = verwijderen
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } door u toegevoegd
+sc-personal-not-added = U hebt nog geen talen toegevoegd.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ Beoordelingscriteria
+sc-criteria-title = Beoordelingscriteria
+sc-criteria-make-sure = Zorg ervoor dat de zin aan de volgende criteria voldoet:
+sc-criteria-item-1 = De zin moet correct gespeld zijn.
+sc-criteria-item-2 = De zin moet grammaticaal correct zijn.
+sc-criteria-item-3 = De zin moet uitspreekbaar zijn.
+sc-criteria-item-4 = Als de zin aan de criteria voldoet, klik dan op de knop &quot;Goedkeuren&quot; aan de rechterkant.
+sc-criteria-item-5-2 =
+    Als de zin niet aan de bovenstaande criteria voldoet, klik dan op de knop ‘Afwijzen’ aan de linkerkant.
+    Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
+sc-criteria-item-6 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
+
+## REVIEW
+
+sc-review-lang-not-selected =
+    U hebt geen talen geselecteerd. Ga naar uw
+    <profileLink>Profiel</profileLink> om talen te selecteren.
+sc-review-title = Zinnen beoordelen
+sc-review-loading = Zinnen laden…
+sc-review-select-language = Selecteer een taal om zinnen te beoordelen.
+sc-review-no-sentences =
+    Geen zinnen om te beoordelen.
+    <addLink>Voeg nu meer zinnen toe!</addLink>
+sc-review-form-prompt =
+    .message = Beoordeelde zinnen niet ingediend, weet u het zeker?
+sc-review-form-usage =
+    Veeg naar rechts om de zin goed te keuren. Veeg naar links om deze af te wijzen.
+    Veeg omhoog om deze over te slaan. <strong>Vergeet niet uw beoordeling in te dienen!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Bron: { $sentenceSource }
+sc-review-form-button-reject = Afwijzen
+sc-review-form-button-skip = Overslaan
+sc-review-form-button-approve = Goedkeuren
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = U kunt ook sneltoetsen gebruiken: Y om goed te keuren, N om af te wijzen, S om over te slaan
+sc-review-form-button-submit =
+    .submitText = Beoordeling voltooien
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Geen zinnen beoordeeld.
+        [one] Eén zin beoordeeld. Bedankt!
+       *[other] { $sentences } zinnen beoordeeld. Bedankt!
+    }
+sc-review-form-review-failure = Beoordeling kan niet worden opgeslagen. Probeer het later nog eens.
+sc-review-link = Beoordelen
+
+## SETTINGS
+
+sc-settings-title = Instellingen
+sc-settings-ui-language = Interfacetaal
+sc-settings-language-translated-warning = De pagina’s voor deze taal zijn mogelijk niet volledig vertaald. U kunt helpen met vertalen <pontoonLinkLink>op Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = Overgeslagen zinnen herinitialiseren
+sc-settings-skipped-decription =
+    U hebt eerder zinnen overgeslagen tijdens het beoordelen.
+    Bij het herinitialiseren van overgeslagen zinnen worden alle overgeslagen zinnen weer getoond.
+    Dit staat los van de taal.
+sc-settings-show-all-button = Alle overgeslagen zinnen opnieuw tonen
+sc-settings-failed = Kan instellingen niet wijzigen. Probeer het opnieuw.
+# VALIDATION
+sc-validation-number-of-words = Zin moet tussen 1 en 14 (inclusief) woorden bevatten
+sc-validation-no-numbers = Zin mag geen getallen bevatten
+sc-validation-no-symbols = Zin mag geen symbolen bevatten
+sc-validation-no-abbreviations = Zin mag geen afkortingen bevatten
 
 # [/SentenceCollector]
 

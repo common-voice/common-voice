@@ -18,9 +18,19 @@ const NAV_IDS = {
 };
 
 const GetStartedResource = React.memo(
-  ({ title, nick, trademark, titleLocalized, image, url, description }: any) => {
-    Object.keys(description.linkElems).forEach((el) => {
-      description.linkElems[el] = <StyledLink href={description.linkElems[el]} blank />
+  ({
+    title,
+    nick,
+    trademark,
+    titleLocalized,
+    image,
+    url,
+    description,
+  }: any) => {
+    Object.keys(description.linkElems).forEach(el => {
+      description.linkElems[el] = (
+        <StyledLink href={description.linkElems[el]} blank />
+      );
     });
 
     return (
@@ -30,11 +40,10 @@ const GetStartedResource = React.memo(
           <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
           <div className="content">
             <h2>
-              <StyledLink
-                href={url}
-                blank>
-                { titleLocalized ? <Localized id={nick} /> : title }
-              </StyledLink>{ trademark ? trademark : ''}
+              <StyledLink href={url} blank>
+                {titleLocalized ? <Localized id={nick} /> : title}
+              </StyledLink>
+              {trademark ? trademark : ''}
             </h2>
             <Localized
               id={description.localizationId}
@@ -44,7 +53,7 @@ const GetStartedResource = React.memo(
           </div>
         </div>
       </div>
-    )
+    );
   }
 );
 
@@ -174,7 +183,6 @@ export default React.memo(() => {
           {getStartedResource.map(props => (
             <GetStartedResource key={props.nick} {...props} />
           ))}
-
         </Section>
 
         <Section

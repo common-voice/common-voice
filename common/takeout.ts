@@ -3,7 +3,7 @@ export enum TakeoutState {
   IN_PROGRESS,
   AVAILABLE,
   EXPIRED,
-  INCOMPLETE
+  INCOMPLETE,
 }
 
 export type TakeoutRequest = {

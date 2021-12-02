@@ -106,6 +106,7 @@ mhr = Lugo Mariy
 mk = Makedon
 ml = Malay
 mn = Mongol
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Mari
@@ -152,6 +153,7 @@ te = Telugu
 tg = Tojik
 th = Tay
 ti = Tigrinya
+tig = Tigre
 tl = Tagal
 tr = Turk
 tt = Tatar
@@ -179,7 +181,7 @@ zh-TW = Xitoy (Tayvan)
 ## Layout
 
 speak = Oʻqish
-speak-now = O'qishni boshlash
+speak-now = O‘qishni boshlash
 datasets = Maʼlumotlar toʻplami
 languages = Tillar
 about = Biz haqimizda
@@ -325,7 +327,7 @@ profile-form-native-language =
 profile-form-additional-language =
     .label = Qoʻshimcha til
 profile-form-accent =
-    .label = Lahja
+    .label = Sheva
 profile-form-age =
     .label = Yosh
 profile-form-gender-2 =
@@ -936,3 +938,10 @@ contribution-misreadings-title = Notoʻgʻri oʻqilgan
 contribution-misreadings-description = Tinglayotganda yozilgan matnning aynan yozib olingan ovoz bilan bir xilligini diqqat bilan tekshiring. Hatto kichik xatolar boʻlsa ham rad eting. <br />Juda keng tarqalgan xatolarga quyidagilar kiradi:
 contribution-misreadings-description-extended-list-1 = <strong>'A'</strong> harfi yoki audio yozuvning boshida <strong>'The'</strong> artikli qolib ketishi.
 contribution-misreadings-description-extended-list-2 = Soʻzning oxirida <strong>'s'</strong> qoʻshimchasi qolib ketishi.
+sc-footer-cookies = Kukilar
+sc-logout-button = Chiqish
+sc-submit-select-language =
+    .labelText = Tilni tanlang
+
+# [/SentenceCollector]
+

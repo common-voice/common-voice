@@ -97,8 +97,10 @@ export default class API {
     router.post('/user_client/takeout/request', this.requestTakeout);
     router.post('/user_client/takeout/:id/links', this.getTakeoutLinks);
 
+    router.get('/language/accents/:locale?', this.getAccents);
     router.get('/:locale/sentences', this.getRandomSentences);
     router.post('/skipped_sentences/:id', this.createSkippedSentence);
+    router.post('/skipped_clips/:id', this.createSkippedClip);
 
     router.use(
       '/:locale?/clips',
@@ -190,6 +192,15 @@ export default class API {
       params: { id },
     } = request;
     await this.model.db.createSkippedSentence(id, client_id);
+    response.json({});
+  };
+
+  createSkippedClip = async (request: Request, response: Response) => {
+    const {
+      client_id,
+      params: { id },
+    } = request;
+    await this.model.db.createSkippedClip(id, client_id);
     response.json({});
   };
 
@@ -506,5 +517,11 @@ export default class API {
   getServerDate = (request: Request, response: Response) => {
     // prevents contributors manipulating dates in client
     response.json(new Date());
-  }
+  };
+
+  getAccents = async ({ client_id, params }: Request, response: Response) => {
+    response.json(
+      await this.model.db.getAccents(client_id, params?.locale || null)
+    );
+  };
 }

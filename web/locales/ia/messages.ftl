@@ -154,6 +154,7 @@ tg = Tajik
 th = Thai
 ti = Tigrinya
 tig = Tigre
+tk = turkmeno
 tl = Tagalog
 tr = Turco
 tt = Tataro
@@ -326,8 +327,13 @@ profile-form-native-language =
     .label = Lingua native
 profile-form-additional-language =
     .label = Lingua additional
+profile-form-language =
+    .label = Lingua
 profile-form-accent =
     .label = Accento
+profile-form-custom-accent-help-text =
+    .label = Como volerea tu describer tu accento?
+profile-form-custom-accent-placeholder-2 = Initia a describer tu accento
 profile-form-age =
     .label = Etate
 profile-form-gender-2 =
@@ -338,6 +344,7 @@ hidden = Celate
 visible = Visibile
 native-language =
     .label = Lingua native
+profile-form-add-accent = Adde un nove accento personal "{ $inputValue }"
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvate
 male = Masculin
@@ -371,6 +378,8 @@ skip-submission-description = Le retroaction sur tu contributiones non essera mo
 skip-submission-note = Nota: tu debera ancora seliger inter parlar o ascoltar pro cambiar typo de contribution.
 off = Inactive
 on = Active
+help-accent = Besonia tu auxilio con le accento?
+help-accent-explanation = Tu accento es le maniera que tu pronuncia le vocabulos. Illo pote esser formate per ubi tu viveva, qual altere linguas tu parla e plure altere factores. Tu pote compartir ulle informationes que tu senti esser pertinente hic.
 
 ## Profile - Email
 
@@ -999,9 +1008,14 @@ contribution-just-unsure-title = Justo insecur?
 contribution-just-unsure-description = Si tu ha incontrate qualcosa que iste lineas guida non coperi, per favor vota in accordo a tu melior judicio. Si tu realmente non pote decider, usa le button saltar e va al sequente registration.
 see-more = <chevron></chevron>Vider plus
 see-less = <chevron></chevron>Vider minus
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = Initio
 sc-header-how-to = Guidas
 sc-header-add = Adder
@@ -1019,6 +1033,9 @@ sc-footer-terms = Terminos
 sc-footer-cookies = Cookies
 sc-login-signup-button = Aperir session / Inscriber se
 sc-logout-button = Clauder le session
+
+## HOME
+
 sc-home-title = Benvenite in le Collector de phrases de Common Voice
 sc-home-intro =
     Le Collector de phrases es parte de <commonVoiceLink>Common Voice</commonVoiceLink>.
@@ -1031,6 +1048,9 @@ sc-home-collect-title = Colliger phrases
 sc-home-collect-text = Adjuta nos a scriber o colliger Phrases de dominio public.
 sc-home-review-title = Revider phrases
 sc-home-review-text = Adjuta nos per revider phrases pro correctessa secundo le lineas guida.
+
+## HOW-TO
+
 sc-howto-title = Guidas
 sc-howto-addlang-title = Addition de linguas a laborar
 sc-howto-addlang-text = Un vice connexe, tu pote eliger tu linguas ab le section profilo.
@@ -1050,6 +1070,276 @@ sc-howto-addsen-item-3 =
     debe esser evitate in le texto fonte perque illos pote esser legite in un maniera que non coincide con lor orthographia.
     In addition, on pote haber plure accurate lecturas pro un singule abbreviation.
     Per exemplo, le acronymo “ICE” pote esser pronunciate “I-C-E” o como singule parola.
+sc-howto-addsen-item-4 = Punctuation. Symbolos special e punctuation deberea solo esser includite quando absolutemente necessari. Per exemplo, un apostropho es includite in vocabulos anglese como “don’t” e “we’re” e debe esser includite in le texto fonte, ma il es inverisimile que tu unquam besoniara de un symbolo special como “@” o “#.”
+sc-howto-addsen-item-5 = Litteras estranier. Le litteras debe esser valide in le lingua a parlar. Per exemplo, “ж” es un littera in le alphabeto russe ma jammais es usate in anglese e assi non deberea jammais apparer in ulle texto fonte anglese.
+sc-howto-addsen-item-6 = Le linguas pote haber lor <validationRulesLink>proprie regulas de validation</validationRulesLink> con altere requisitos. Si il non ha un specific validation file pro un lingua, nos usa le generic regulas del anglese.
+sc-howto-addsen-post-1 = Nos prefere phrases natural/conversational. Durante que le diversitate phonetic e differente vocabulos in phrases es importante, nos tenta render phrases a registrar le plus amusante possibile. Pro isto il esserea formidabile si tu pote tentar de mantener tu phrases le plus natural e involvente possibile.
+sc-howto-cite-title = Como citar
+sc-howto-cite-pre-1 = Il es importante que tu refere ubi tu trovava le licentia public pro impedir plagio e pro permitter de sequer ups sur <copyrightIssuesLink>problemas de derectos de autor</copyrightIssuesLink>. Ecce alcun manieras pro citar le labor.
+sc-howto-cite-item-1 = Tu pote includer le sito web, e.g "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Tu pote usar le stilo de citation academic, e.g stilo (de citation) harvard  "Mozilla (2021) Common Voice. Disponibile a https://commonvoice.mozilla.org/ (Accedite: le 15 de septembre 2021)"
+sc-howto-cite-item-3 = Pro texto con licentia public non disponibile online, tu pote usar le stilo de citation academic e.g stilo de citation harvard "Jess (2021) My Public licence poems"
+sc-howto-review-title = Revider phrases
+sc-howto-review-subtitle = Verifica que le phrase reuni le sequente criterios:
+sc-howto-review-criteria-1 = Le orthographia del phrase debe esser correcte.
+sc-howto-review-criteria-2 = Le phrase debe esser grammaticalmente correcte.
+sc-howto-review-criteria-3 = Le phrase debe esser pronunciabile.
+sc-howto-review-criteria-4 = Si le phrase reuni le criterios, clicca le button "Approbar".
+sc-howto-review-criteria-5 = Si le phrase non incontra le superior criterios, clicca le button "Rejectar". Si tu non es secur del phrase, tu pote alsi saltar lo e mover sur illo sequente.
+sc-howto-review-criteria-6 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger plus phrases!
+sc-howto-findpd-title = Trovar phrases existente de dominio public
+sc-howto-findpd-subtitle = Cercar los in internet
+sc-howto-findpd-text-2 = Rememora que nos besonia le permission pro publicar ille phrases, assi sempre assecura te que le texto pertine al <wikipediaLink>dominio public</wikipediaLink>. Si il non ha un indication explicite, continge le persona proprietario del texto e demanda si ille vole contribuer lor texto al dominio public. Si ille lo vole, adjuta le ir per le processo de <cc0WaiverLink>Accordo de collaborationes</cc0WaiverLink>. Si illes non vole contribuer le texto, alora non te es permittite usar ille texto.
+sc-howto-findpd-tips = Ecce alcun consilios utile pro trovar phrases:
+sc-howto-findpd-tips-1 = Le melior fontes pro recercar es podcasts, transcriptiones, scenarios de film e alco que pote continer conversationes del vita quotidian.
+sc-howto-findpd-tips-2 = Alsi deliberationes, libros e articulos governative es formidabile, totevia pois que le texto tende a esser un poco plus formal illos es de minor prioritate.
+sc-howto-findpd-tips-3 = Infortunatemente nos non pote ancora haber articulos de Wikimedia. Assi non copia-colla de illac.
+sc-howto-findpd-subtitle-2 = Partner con interprisas o le personas local
+sc-howto-findpd-partner-1 = Il ha multe public interprisas que poterea voler collaborar e jam ha multe textos que pote donar como dominio public. Attinge local universitates, governamentos e interprisas open-source pro parlar re le projecto e quere lor adjuta.
+sc-howto-findpd-partner-2 = Experte linguistas poter alsi adjutar, tenta de attinger local Universitates linguistic (ambe inseniantes e studentes) e vide si illes pote adjutar a colliger un diverse collection de phrases que appare diverse in tu lingua.
+
+## MY SENTENCES
+
+sc-my-title = Mi phrases
+sc-my-description = Iste pagina te da un summario de tote tu phrases inviate. Tu pote alsi si necessari deler phrases jam inviate, marcante le quadrato de selection proxime a illo, e cliccante sur &quot;Deler phrases seligite&quot; al fundo. Per favor solo remove phrases si absolutemente necessari, per exemplo si tu ha constatate postea que un phrase es protegite per derectos de autor.
+sc-my-loading = Cargamento de tu phrases…
+sc-my-err-fetching = Error recuperante tu phrases.
+sc-my-no-sentences = Nulle phrases trovate!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Invio: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Fonte: { $fonte }
+sc-my-delete = Deler phrases seligite
+sc-my-deleting = Deletion del phrases seligite
+sc-my-err-failed-delete = Impossibile deler phrases seligite… Retenta!
+
+## REJECTED
+
+sc-rejected-title = Phrases rejectate
+sc-rejected-loading = Cargamento phrases rejectate…
+sc-rejected-err-fetching = Error recuperante le phrases rejectate. Retenta.
+sc-rejected-none-found = Nulle phrases rejectate trovate!
+
+## STATS
+
+sc-stats-title = Statistica
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Ultime actualisation: { $lastUpdate }
+sc-stats-last-update-never = Ultime actualisation: nunquam
+sc-stats-updating = Actualisation...
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector ha colligite { $sentenceCount } phrases in { $languageCount } linguas!
+
+## ADD
+
+sc-submit-err-select-lang = Elige un lingua
+sc-submit-err-add-sentences = Adde phrases.
+sc-submit-err-add-source = Adde un fonte.
+sc-submit-err-confirm-pd = Confirma que iste phrases es de dominio public.
+sc-submit-prompt =
+    .message = Phrases non inviate, desira tu vermente exir?
+sc-submit-title = Adder phrases
+sc-submit-select-language =
+    .labelText = Elige le lingua
+sc-submit-add-sentences = Adder phrases de <wikipediaLink>dominio public</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Un singule phrase per linea
+sc-submit-from-where = Ex ubi es iste phrases de <wikipediaLink> dominio public</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Lege nostre Guida si insecur re como attribuer
+sc-submit-confirm = Io confirma que iste phrases es de <wikipediaLink>dominio public</wikipediaLink> e io ha permission pro cargar los.
+sc-submit-button =
+    .submitText = Inviar
+sc-submit-filtered = Phrases filtrate per falta de requisitos (invia le versiones corrigite como nove phrases):
+sc-submit-guidelines = Verifica le <howToLink>lineas guida</howToLink>.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Impossibile adder lingua
+sc-add-lang-sec-label = Adde un lingua con le qual tu vole contribuer
+sc-add-lang-sec-button = Adder un lingua
+sc-add-err-unexpected = Responsa inexpectate del servitor
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Phrases inviate. { $duplicates } phrases ha essite rejectate perque duplicate.
+        [one] Phrases inviate. { $duplicates } phrase ha essite rejectate perque duplicate.
+       *[other] Phrases inviate. { $duplicates } phrases ha essite rejectate perque duplicate.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Nulle phrase fallite
+        [one] 1 phrase fallite
+       *[other] { $sentences } phrases fallite
+    }
+sc-add-err-submission = Error de invio
+sc-add-lang-process-notice = Si tu lingua non es in le lista de presentation hic, tu pote requirer lo a transverso de <languageProcessLink>iste processo</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = Phrases non inviate, desira tu vermente exir?
+sc-confirm-sentences-title = Confirmar nove phrases
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Nulle phrases trovate.
+        [one] 1 phrase trovate.
+       *[other] { $countOfSentences } phrases trovate.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } rejectate per te
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Nulle phrase jam revidite.
+        [one] 1 phrase jam revidite. Formidabile labor!
+       *[other] { $countOfReviewed } phrases jam revidite.  Formidabile labor!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Nulle phrase preste pro le invio!
+        [one] 1 phrase preste pro le invio!
+       *[other] { $readyCount } phrases preste pro le invio!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } phrases es non revidite. Si tu vole, tu pote alsi revider tu phrases ora, ante inviar los.
+sc-confirm-button-text = Confirmar
+sc-confirm-uploading = Phrases va esser cargate. Isto pote prender plure minutas secundo le numero de phrases addite. Non claude iste sito web.
+
+## LANGUAGE INFO
+
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] N. total de phrases.
+        [one] 1 phrase total
+       *[other] { $totalSentences } phrases total.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Nulle phrases in revision.
+        [one] 1 phrase in revision.
+       *[other] { $totalInReview } phrases in revision.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Nulle phrases restate pro tu revision.
+        [one] 1 phrase restate pro tu revision.
+       *[other] { $unreviewedSentencesByYou } phrases restate pro tu revision.
+    }
+sc-lang-info-review-now = <reviewLink>Revide ora!</reviewLink>
+sc-lang-info-add-more = <addLink>Adde altere phrases ora!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Nulle phrases validate.
+        [one] 1 phrase validate.
+       *[other] { $validatedSentences } phrases validate.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Nulle phrases rejectate
+        [one] 1 phrase rejectate
+       *[other] { $rejectedSentences } phrases rejectate.
+    }
+
+## LOGIN
+
+sc-login-err-failed = Authentication fallite
+sc-login-err-try-again = Retenta.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profilo: { $username }
+sc-personal-err-lang-not-found = Impossibile remover le lingua: lingua non trovate
+sc-personal-err-remove = Impossibile remover le lingua
+sc-personal-your-languages = Tu linguas:
+sc-personal-remove-button = remover
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $phrases } addite per te
+sc-personal-not-added = Tu non ha addite ulle linguas totevia.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ Criterios de revision
+sc-criteria-title = Criterios de revision
+sc-criteria-make-sure = Verifica que le phrase satisface le sequente criterios:
+sc-criteria-item-1 = Le orthographia del phrase debe esser correcte.
+sc-criteria-item-2 = Le phrase debe esser grammaticalmente correcte.
+sc-criteria-item-3 = Le phrase debe esser pronunciabile.
+sc-criteria-item-4 = Si le phrase satisface le criterios, clicca le button &quot;Approbar&quot; a dextera.
+sc-criteria-item-5-2 = Si le phrase non satisface le criterios de supra, clicca le button &quot;Rejectar&quot; a sinistra. Si tu non es secur del phrase, tu pote alsi saltar lo e mover sur illo sequente.
+sc-criteria-item-6 = Si tu non es secur del phrase, tu pote alsi saltar lo e mover a illo sequente.
+
+## REVIEW
+
+sc-review-lang-not-selected = Tu non ha seligite ulle linguas. Va a tu <profileLink>Profilo</profileLink> pro eliger linguas.
+sc-review-title = Revider phrases
+sc-review-loading = Cargante phrases…
+sc-review-select-language = Elige un lingua pro revider le phrases.
+sc-review-no-sentences = Nulle phrases a revider. <addLink>Adde altere phrases ora!</addLink>
+sc-review-form-prompt =
+    .message = Le phrases revidite non es inviate! Es tu secur?
+sc-review-form-usage = Glissa a dextera pro approbar le phrase. Glissa a sinistra pro rejectar lo. <strong>Non oblida de inviar tu revision!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Fonte: { $sentenceSource }
+sc-review-form-button-reject = Rejectar
+sc-review-form-button-skip = Saltar
+sc-review-form-button-approve = Approbar
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = Tu alsi pote usar le vias breve de claviero: Y pro Approbar, N pro Rejectar, S pro Saltar
+sc-review-form-button-submit =
+    .submitText = Finir revision
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Nulle phrases revidite
+        [one] 1 phrase revidite. Gratias!
+       *[other] { $phrases } phrases revidite. Gratias!
+    }
+sc-review-form-review-failure = Impossibile salvar le revision. Retenta plus tarde.
+sc-review-link = Revider
+
+## SETTINGS
+
+sc-settings-title = Parametros
+sc-settings-ui-language = Lingua del interfacie:
+sc-settings-language-translated-warning = Le paginas pro iste lingua poterea non esser plenmente traducite. Tu pote adjutar con le traduction <pontoonLinkLink>sur Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = Remontar phrases saltate
+sc-settings-skipped-decription = Tu phrases previemente saltate durante le revision. Remontar phrases saltate de novo monstrara tote le phrases saltate. Isto es independente del lingua.
+sc-settings-show-all-button = Monstrar de novo tote le phrases saltate
+sc-settings-failed = Impossibile cambiar parametros. Retenta.
+# VALIDATION
+sc-validation-number-of-words = Phrase debe contine inter 1 e 14 (inclusive) vocabulos
+sc-validation-no-numbers = Phrase non debe continer numeros
+sc-validation-no-symbols = Phrase non debe continer symbolos
+sc-validation-no-abbreviations = Phrase non debe continer abbreviationes
 
 # [/SentenceCollector]
 

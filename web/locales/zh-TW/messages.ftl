@@ -154,6 +154,7 @@ tg = 塔吉克語
 th = 泰語
 ti = 提格利尼亞語
 tig = 提格雷語
+tk = 土庫曼語
 tl = 塔加祿語（菲律賓）
 tr = 土耳其語
 tt = 韃靼語
@@ -324,8 +325,13 @@ profile-form-native-language =
     .label = 母語
 profile-form-additional-language =
     .label = 其他語言
+profile-form-language =
+    .label = 語言
 profile-form-accent =
     .label = 腔調
+profile-form-custom-accent-help-text =
+    .label = 您會如何描述您講話的腔調？
+profile-form-custom-accent-placeholder-2 = 打字輸入，描述您的腔調
 profile-form-age =
     .label = 年齡
 profile-form-gender-2 =
@@ -336,6 +342,7 @@ hidden = 隱藏
 visible = 可見
 native-language =
     .label = 母語
+profile-form-add-accent = 新增自訂腔調「{ $inputValue }」
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
 male = 男性
@@ -369,6 +376,8 @@ skip-submission-description = 貢獻過程中，在點擊「送出」後將忽�
 skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢獻類型。
 off = 關
 on = 開
+help-accent = 需要關於腔調的說明嗎？
+help-accent-explanation = 腔調就是您發音的方式，可能會受您生活的地方、您會說的其他語言以及其他許多因素影響。您可以在此分享任何您覺得有關的資訊。
 
 ## Profile - Email
 
@@ -988,9 +997,14 @@ contribution-just-unsure-title = 無法決定嗎？
 contribution-just-unsure-description = 如果你遇到本指南中沒有涵蓋的狀況，還請自行盡力判斷。如果真的很難決定，直接按下「略過」到下一句去吧。
 see-more = <chevron></chevron>看更多
 see-less = <chevron></chevron>看更少
+
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
 # [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-header-home = 首頁
 sc-header-how-to = 如何做
 sc-header-add = 新增
@@ -1008,87 +1022,187 @@ sc-footer-terms = 使用條款
 sc-footer-cookies = Cookie
 sc-login-signup-button = 登入 / 註冊
 sc-logout-button = 登出
+
+## HOME
+
 sc-home-title = 歡迎使用 Common Voice Sentence Collector
+sc-home-intro = Sentence Collector 是 <commonVoiceLink>Common Voice</commonVoiceLink> 專案的一部分。此收集器讓專案貢獻者能夠收集驗證由社群成員提供的語句。您也可以使用此工具來匯入、清理網路上找到或收集的小規模到中規模公眾領域語料庫。所有語句都必須為公開領域內容，每週會將通過審核的句子匯入到 Common Voice 的 repository，再於每次部署時發布到網站上。
 sc-home-collect-title = 收集句子
+sc-home-collect-text = 透過撰寫或收集公眾領域的語句來幫助我們增加內容。
 sc-home-review-title = 審核句子
+sc-home-review-text = 幫助我們依照下列標準來審核語句是否正確。
+
+## HOW-TO
+
 sc-howto-title = 如何做
 sc-howto-addlang-title = 新增要貢獻的語言
 sc-howto-addlang-text = 登入後，就可以從個人資料頁面段落選擇您要貢獻哪些語言的句子。
 sc-howto-addsen-title = 新增句子
+sc-howto-addsen-item-1 = 您送出的所有句子必須皆符合<wikipediaLink>公眾領域（CC-0）授權條款</wikipediaLink>。為了讓未使用公眾授權條款的著作也能加入，我們準備了一份<cc0WaiverLink>貢獻授權條款範本</cc0WaiverLink>協助讓願意將著作貢獻給 Common Voice 著作權人將作品轉換為公共作品。
+sc-howto-addsen-item-2 = 數字，原文段落中不應包含數字，因為會在唸出來的時候造成問題。數字的念法需依上下文而定，可能會在資料集中造成混淆。舉例來說，數字「2409」有時會念成「兩千四百零九」，也有可能念成「二四零九」。
+sc-howto-addsen-item-3 = 縮寫與首字省略詞（Acronyms）。由於諸如「USA」或「ICE」這類縮寫或將首字母合併在一起的省略詞的念法可能與文字本身不同，應該避免於原文段落中出現。此外，單一縮寫可能也會有多個不同的正確唸法，例如「ICE」可以被念成「I-C-E」或是單一個字的「ICE」。
+sc-howto-addsen-item-4 = 標點符號。應該只在有絕對必要的時候才加入特殊符號及標點。舉例來說，英文字「don’t」、「we’re」當中的撇號（apostrophe）應該包含在原文段落中，但不太可能會需要「@」或「#」等特殊符號。
+sc-howto-addsen-item-5 = 外語文字。必須使用原文語言所使用的相關文字或字母，舉例來說：「ж」是俄語字母，但英文或中文都不會用到，因此不該包含在原文中。
+sc-howto-addsen-item-6 = 各種語言可能會有<validationRulesLink>自己的審核規則</validationRulesLink>。若各語言沒有自己的驗證檔案，則使用英語通用規則。
+sc-howto-addsen-post-1 = 我們更喜歡自然、對話式的語句。雖然各種句子當中的不同腔調語音與不同單字很重要，我們希望讓錄音過程越有趣越好。引此，若您可以盡可能讓句子保持自然、讓人覺得有興趣，那就太好了。
 sc-howto-cite-title = 如何引用
+sc-howto-cite-pre-1 = 引用您所找到的語句的來源出處可避免發生抄襲事件，相當重要，也讓我們可以介入處理<copyrightIssuesLink>著作權問題</copyrightIssuesLink>。以下是幾種引用作品的方式。
+sc-howto-cite-item-1 = 您可以包含網址，例如「Common Voice - https://commonvoice.mozilla.org/」
+sc-howto-cite-item-2 = 您也可以使用學術參考文獻格式，例如哈佛格式「Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)」
+sc-howto-cite-item-3 = 若為沒有線上版本的公開授權文字，可以使用學術參考文獻格式，例如哈佛格式「Jess (2021) My Public licence poems」
 sc-howto-review-title = 審核句子
 sc-howto-review-subtitle = 請確認句子符合下列條件：
 sc-howto-review-criteria-1 = 句子必須拼得正確。
 sc-howto-review-criteria-2 = 句子的文法必須正確。
 sc-howto-review-criteria-3 = 句子必須說得出來。
+sc-howto-review-criteria-4 = 若句子符合上述標準，請點擊「通過」按鈕。
+sc-howto-review-criteria-5 = 若句子不符合上述條件，點擊「退回」按鈕。若您不確定句子可不可用，也可以略過，跳到下一句。
+sc-howto-review-criteria-6 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
+sc-howto-findpd-title = 尋找已使用公眾領域授權的句子
 sc-howto-findpd-subtitle = 到網路上搜搜看
+sc-howto-findpd-text-2 = 請務必記得我們必須取得授權，才可發布這些句子。所以請隨時確認送出的語句符合<wikipediaLink>公眾領域</wikipediaLink>授權條款。若您找到的資料來源並未明確標示，請聯絡語料的擁有者，詢問他們是否可將內容以公眾領域條款釋出。若他們同意，請協助他們完成<cc0WaiverLink>同意貢獻</cc0WaiverLink>流程；若他們不同意，您就不可使用該語料。
+sc-howto-findpd-tips = 以下是尋找句子的一些小秘訣：
+sc-howto-findpd-tips-1 = 最佳來源還有 Podcase、廣播內容、劇本腳本及任何可能包含日常對話內容的文字。
+sc-howto-findpd-tips-2 = 政府文書、書籍、文章內容也很棒，但文字會比較正式，所以較不優先。
+sc-howto-findpd-tips-3 = 不巧我們還不能使用維基媒體基金會的所有文章（包含維基百科），請不要貼過來。
+sc-howto-findpd-subtitle-2 = 與在地組織或個人合作
+sc-howto-findpd-partner-1 = 有許多公共組織可能會想要一起合作，或是已經有能夠捐贈的公眾領域語句。請聯絡您在地的大學、政府機關、開放原始碼組織，向他們說明本專案並且尋求協助。
+sc-howto-findpd-partner-2 = 語言學的專家也能幫忙，請嘗試聯繫在地的大學語言相關科系（老師或學生都沒問題），看看他們能不能幫助收集您的語言中的各種語句，與各種不同腔調的聲音。
+
+## MY SENTENCES
+
 sc-my-title = 我的句子
+sc-my-description = 此頁面讓您可以對所有送出過的句子有個快速綜覽。有需要的話，也可以在此勾選句子，並點擊底部的「刪除選取的語句」進行刪除。請只在有必要時（例如送出後才發現句子受著作權保護），才刪除該語句。
 sc-my-loading = 正在載入您的語句…
+sc-my-err-fetching = 取得您的句子時發生錯誤，請稍候再試。
 sc-my-no-sentences = 找不到句子！
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = 送出於：{ $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = 來源：{ $source }
 sc-my-delete = 刪除選取的語句
 sc-my-deleting = 刪除選取的語句…
 sc-my-err-failed-delete = 選取的語句刪除失敗…請再試一次！
-sc-profile-title = 個人資料：{ $username }
+
+## REJECTED
+
 sc-rejected-title = 被拒絕的句子
 sc-rejected-loading = 正在載入被拒絕的句子…
+sc-rejected-err-fetching = 取得被拒絕的句子時發生錯誤，請稍候再試。
 sc-rejected-none-found = 找不到被拒絕的句子！
-sc-review-title = 審核句子
-sc-review-loading = 正在載入語句…
+
+## STATS
+
 sc-stats-title = 統計資訊
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = 最後更新：{ $lastUpdate }
 sc-stats-last-update-never = 最後更新：從未
 sc-stats-updating = 更新中…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector 已經收集了 { $languageCount } 種語言的 { $sentenceCount } 個句子！
+
+## ADD
+
 sc-submit-err-select-lang = 請選擇語言。
 sc-submit-err-add-sentences = 請新增句子。
 sc-submit-err-add-source = 請新增來源。
-sc-submit-err-confirm-pd = 請確認這些句子是公有領域的句子。
+sc-submit-err-confirm-pd = 請確認這些句子是公眾領域的句子。
 sc-submit-prompt =
     .message = 句子尚未送出，您確定要離開嗎？
 sc-submit-title = 新增句子
 sc-submit-select-language =
     .labelText = 選擇語言
-sc-submit-add-sentences = 新增<wikipediaLink>公有領域（Public Domain）</wikipediaLink>的句子
+sc-submit-add-sentences = 新增<wikipediaLink>公眾領域（Public Domain）</wikipediaLink>的句子
 sc-submit-ph-one-per-line =
     .placeholder = 一行一句
-sc-submit-from-where = 這些<wikipediaLink>公有領域（Public Domain）</wikipediaLink>的句子來自何處？
+sc-submit-from-where = 這些<wikipediaLink>公眾領域（Public Domain）</wikipediaLink>的句子來自何處？
+sc-submit-ph-read-how-to =
+    .placeholder = 不確定如何貢獻的話，可先閱讀我們的如何貢獻文件
+sc-submit-confirm = 我確認這些句子都已經以<wikipediaLink>公眾領域條款</wikipediaLink>授權公開，而且我有權上傳。
 sc-submit-button =
     .submitText = 送出
+sc-submit-filtered = 由於不符合規定，被過濾的句子（請以新句子重新送出）：
+sc-submit-guidelines = 請參考<howToLink>審核指南</howToLink>。
+
+## ADD LANGUAGE
+
 sc-add-lang-could-not-add = 無法新增語言
 sc-add-lang-sec-label = 新增您想要貢獻的語言
 sc-add-lang-sec-button = 新增語言
+sc-add-err-unexpected = 伺服器回覆了未預期的錯誤
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] 已送出語句，沒有被退回的重複句子。
+       *[other] 已送出語句，有 { $duplicates } 句重複句子被退回。
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
         [0] 沒有失敗的句子
        *[other] { $sentences } 句送出失敗
     }
 sc-add-err-submission = 送出失敗
+sc-add-lang-process-notice = 若您的語言未列於此處，可以透過<languageProcessLink>此程序</languageProcessLink>申請加入。
+
+## ADD SENTENCES CONFIRMATION
+
 sc-confirm-are-you-sure =
     .message = 句子尚未送出，您確定要離開嗎？
 sc-confirm-sentences-title = 確認新句子
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] 找不到句子。
        *[other] 找到 { $countOfSentences } 句。
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = 您退回了 { $countOfInvalidated } 句。
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] 未審核任何句子。
        *[other] 您審核了 { $countOfReviewed } 句，做得好！
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] 沒有句子可以送出！
+       *[other] 已經有 { $readyCount } 句準備好可以送出！
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = 還有 { $countOfUnreviewed } 句未經審核。您想要的話也可以在送出前先審核您的句子。
 sc-confirm-button-text = 確認
+sc-confirm-uploading = 正在上傳語句，視句子數量而定可能需要花上幾分鐘。上傳完成前請勿關閉此網站。
+
+## LANGUAGE INFO
+
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
         [0] 沒有句子。
        *[other] 共 { $totalSentences } 句。
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] 沒有審核中的句子。
        *[other] { $totalInReview } 句審核中的句子。
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] 沒有可供您審核的句子。
@@ -1096,44 +1210,96 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>現在就進行審核！</reviewLink>
 sc-lang-info-add-more = <addLink>現在就新增更多句子！</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
         [0] 沒有驗證過的句子。
        *[other] { $validatedSentences } 句驗證過的句子。
     }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] 沒有被退回的句子。
        *[other] { $rejectedSentences } 句被退回的句子。
     }
+
+## LOGIN
+
 sc-login-err-failed = 登入失敗
 sc-login-err-try-again = 請再試一次。
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = 個人資料：{ $username }
 sc-personal-err-lang-not-found = 無法移除語言：找不到語言
 sc-personal-err-remove = 無法移除語言
 sc-personal-your-languages = 您的語言：
 sc-personal-remove-button = 移除
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = 您新增了 { $sentences } 句
+sc-personal-not-added = 您尚未加入任何語言。
+
+## REVIEW CRITERIA
+
 sc-criteria-modal = ⓘ 審核標準
 sc-criteria-title = 審核標準
+sc-criteria-make-sure = 請確認句子符合下列條件：
 sc-criteria-item-1 = 句子必須拼得正確。
 sc-criteria-item-2 = 句子的文法必須正確。
 sc-criteria-item-3 = 句子必須說得出來。
+sc-criteria-item-4 = 若句子符合上述標準，請點擊右方的「通過」按鈕。
+sc-criteria-item-5-2 = 若句子不符合上述條件，點擊「退回」按鈕。若您不確定句子可不可用，也可以略過，跳到下一句。
+sc-criteria-item-6 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
+
+## REVIEW
+
+sc-review-lang-not-selected = 您尚未選擇任何語言，請到<profileLink>個人資料頁面</profileLink>選擇要貢獻的語言。
+sc-review-title = 審核句子
+sc-review-loading = 正在載入語句…
+sc-review-select-language = 請選擇語言來審核句子。
+sc-review-no-sentences = 沒有可以審核的語句。<addLink>馬上來加句子！</addLink>
+sc-review-form-prompt =
+    .message = 尚未送出語句審核結果，確定嗎？
+sc-review-form-usage = 向右滑可以通過審核句子、向左滑拒絕、向上滑略過。<strong>別忘記送出您的審核結果！</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = 來源：{ $sentenceSource }
 sc-review-form-button-reject = 退回
 sc-review-form-button-skip = 略過
 sc-review-form-button-approve = 通過
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
 sc-review-form-keyboard-usage = 您還可以使用快速鍵：按 Y 通過、按 N 退回、按 S 略過
 sc-review-form-button-submit =
     .submitText = 完成審核
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] 未審核語句。
        *[other] 已審核 { $sentences } 句，感謝您！
     }
+sc-review-form-review-failure = 無法儲存審核結果，請稍候再試。
 sc-review-link = 審核
+
+## SETTINGS
+
 sc-settings-title = 設定
+sc-settings-ui-language = 介面語言
+sc-settings-language-translated-warning = 此語言的頁面可能尚未完全翻譯完成。歡迎到 <pontoonLinkLink>Pontoon</pontoonLinkLink> 協助我們補充翻譯。
 sc-settings-reset-skipped = 重設略過的句子
+sc-settings-skipped-decription = 您先前在審核時跳過了一些句子。重設略過的句子將再次顯示所有這些被跳過的句子。此設定對所有語言都有效。
 sc-settings-show-all-button = 再次顯示略過的句子
 sc-settings-failed = 無法更改設定，請再試一次。
+# VALIDATION
+sc-validation-number-of-words = 句子須包含 1 到 14 個字
+sc-validation-no-numbers = 句子不應包含數字
+sc-validation-no-symbols = 句子不應包含標點符號
+sc-validation-no-abbreviations = 句子不應包含縮寫
 
 # [/SentenceCollector]
 
