@@ -202,8 +202,8 @@ logout = ፍገር
 
 ## Home Page
 
-home-title = ሙባደረት Mozilla Common Voice ናይ ኣማን ኣዳም ከፎ ከምልትሃገ  እግል ኣለት እግል ትትዓልም ላትሰድያ ታ
-default-tagline = Mozilla Common Voice ሙባደረት አግል ኣለት ናይ ኣማን ኣዳም አፎ ከምልትሃገው አገል ትትዓልም ላትሰድያ ታ
+home-title = ሙባደረት ሶት ሕበር ሞዚላ  ናይ ኣማን ኣዳም ከፎ ከምልትሃገ  እግል ኣለት እግል ትትዓልም ላትሰድያ ታ
+default-tagline = ሙባደረት ሶት ሕበር ሞዚላ ናይ ኣማን ኣዳም ከፎ ከምልትሃገ  እግል ኣለት እግል ትትዓልም ላትሰድያ ታ
 home-cta = ሶትካ ኣስምዕ, አንዘ ሳህም
 show-wall-of-text = ዝያዳ ቅርኦ
 help-us-title = ጁመል አግል ንሓቅቅ ስደውና!
