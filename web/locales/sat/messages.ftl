@@ -224,7 +224,7 @@ no-clips-to-validate = ᱵᱩᱡᱷᱟᱹᱣᱜ ᱠᱟᱱᱟ ᱱᱟᱶᱟ ᱯᱟ
 vote-yes = ᱦᱮᱸ
 vote-no = ᱵᱟᱝ
 toggle-play-tooltip = ᱯᱞᱮ ᱢᱳᱰ ᱴᱚᱜᱟᱹᱞ ᱞᱟᱹᱜᱤᱫ { shortcut-play-toggle } ᱚᱛᱟᱭ ᱢᱮ
-speak-subtitle = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱮᱱᱮᱢ ᱢᱮ
+speak-subtitle = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱫᱟᱱ ᱢᱮ
 speak-paragraph = ᱥᱟᱲᱮ ᱠᱞᱤᱯ ᱨᱮᱠᱚᱰᱤᱝ ᱫᱚ ᱟᱞᱮᱭᱟᱜ ᱠᱷᱩᱞᱟᱹ ᱰᱟᱴᱟᱥᱮᱴ ᱛᱮᱭᱟᱨ ᱨᱮᱭᱟᱜ ᱡᱩᱢᱤᱫ ᱛᱷᱟᱠ ᱠᱟᱱᱟ; ᱡᱟᱦᱟᱭ ᱠᱚ ᱢᱮᱱ ᱜᱭᱟ ᱱᱚᱶᱟ ᱫᱚ ᱢᱚᱡᱽ ᱛᱷᱟᱠ ᱠᱟᱱ ᱜᱮᱭᱟ ᱾
 speak-goal-text = ᱠᱞᱤᱯ ᱨᱮᱠᱚᱰ ᱮᱱᱟ
 listen-subtitle = ᱟᱞᱮ ᱨᱚᱲ ᱯᱩᱥᱴᱟᱹᱣ ᱪᱷᱚ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱞᱮᱢ
@@ -233,10 +233,10 @@ listen-goal-text = ᱠᱞᱤᱯ ᱯᱩᱥᱴᱟᱹᱣ ᱪᱷᱚ ᱮᱱᱟ
 hours-recorded = ᱴᱟᱲᱟᱝ ᱨᱮᱠᱚᱰ ᱮᱱᱟ
 hours-validated = ᱴᱚᱲᱟᱝ ᱯᱩᱥᱴᱟᱹᱣ ᱪᱷᱚ ᱮᱱᱟ
 voices-online = ᱱᱤᱛᱚᱜᱼᱟ ᱚᱱᱞᱟᱭᱤᱱ ᱟᱲᱟᱝ ᱠᱚ
-todays-progress = ᱛᱚᱦᱮᱸᱧᱟᱜ ᱞᱟᱦᱟ
+todays-progress = ᱛᱮᱦᱮᱸᱧᱟᱜ ᱞᱟᱦᱟ
 help-reach-goal = { $goal } ᱥᱮᱴᱮᱨ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ
 read-terms-q = ᱟᱞᱮᱭᱟᱜ ᱥᱚᱨᱚᱛ ᱯᱟᱲᱦᱟᱣ ᱟᱠᱟᱫᱟᱢ ᱥᱮ?
-ready-to-record = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱮᱱᱮᱢ ᱞᱟᱹᱜᱤᱫᱛᱮ ᱛᱮᱭᱟᱨ ᱢᱮᱱᱟᱢᱟ ᱥᱮ?
+ready-to-record = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱫᱟᱱ ᱞᱟᱹᱜᱤᱫ ᱛᱮ ᱥᱚᱡᱽ ᱜᱮᱭᱟᱢ ᱥᱮ?
 all-locales = ᱡᱷᱚᱛᱚ
 today = ᱛᱮᱦᱮᱸᱧ
 x-weeks-short =
@@ -318,7 +318,7 @@ request-language-button = ᱯᱟᱹᱨᱥᱤ ᱱᱮᱦᱚᱨ ᱢᱮ
 ## ProjectStatus
 
 status-title = ᱡᱷᱚᱛᱚ ᱭᱚᱡᱱᱟ ᱨᱮᱭᱟᱜ ᱥᱛᱤᱛᱷᱤ: ᱧᱮᱞ ᱞᱮᱜᱮ ᱵᱚᱱ ᱛᱤᱱᱟᱹᱜ ᱡᱷᱟᱹᱞ ᱵᱚᱱ ᱦᱮᱡ ᱮᱱᱟ᱾
-status-contribute = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱮᱱᱮᱢ ᱢᱮ
+status-contribute = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱮᱢᱚᱜ ᱢᱮ
 status-hours =
     { $hours ->
         [one] ᱱᱤᱛ ᱫᱷᱟᱹᱵᱤᱡ ᱢᱤᱫ ᱢᱟᱱᱭᱚ ᱴᱟᱲᱟᱝ!
