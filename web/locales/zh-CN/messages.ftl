@@ -1041,6 +1041,7 @@ sc-howto-addsen-item-5 = 外国字母。字母或文字须符合各语言用法�
 sc-howto-addsen-item-6 = 各语言可能会有<validationRulesLink>自己的验证规则</validationRulesLink>及其他要求。若一语言没有特定的验证文件，我们将使用英语通用规则。
 sc-howto-addsen-post-1 = 我们更喜欢自然/对话式的句子。虽然语音多样性和句子中的不同词汇很重要，但我们努力让记录句子的过程尽可能的有趣。因此，如果您能尽量保持句子自然/吸引人，那就再好不过了。
 sc-howto-cite-title = 如何引用
+sc-howto-cite-pre-1 = 重要提醒：注明您找到的句子的来源出处可避免发生剽窃事件，也方便我们跟进处理<copyrightIssuesLink>版权问题</copyrightIssuesLink>。以下是几种引用作品的方式。
 sc-howto-cite-item-1 = 您可以包含网站，例如“Common Voice - https://commonvoice.mozilla.org/”
 sc-howto-cite-item-2 = 您也可以使用学术参考文献格式，例如哈佛格式：Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)
 sc-howto-cite-item-3 = 对于没有在线版本的公有领域文本，可以使用学术参考文献格式，例如哈佛格式“Jess (2021) My Public licence poems”
