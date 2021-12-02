@@ -1033,6 +1033,7 @@ sc-howto-title = 如何做
 sc-howto-addlang-title = 添加要贡献的语言
 sc-howto-addlang-text = 登录后，就可以在个人资料页选择您要贡献哪些语言的句子。
 sc-howto-addsen-title = 添加新句子
+sc-howto-addsen-item-1 = 您提交的所有句子皆须符合<wikipediaLink>公有领域（CC-0）许可协议</wikipediaLink>。为了让未使用公有协议的著作也可加入，我们为愿意将著作贡献给 Common Voice 的版权人准备了一份<cc0WaiverLink>贡献协议模板</cc0WaiverLink>。
 sc-howto-addsen-item-2 = 关于数字的问题：源文本中不应包含数字，因为朗读数字时可能会遇到问题，因为数字的读法取决于上下文，可能会在数据集中造成混乱。例如，“2409”可以读作“二四零九”，也可以读作“两千四百零九”。
 sc-howto-addsen-item-3 = 缩写和首字母缩略词。原始文本中应避免使用“USA”或“ICE”等缩写和首字母缩略词，因为它们的阅读方式可能与其拼写不一致。此外，一个缩写可能有多个正确读法。例如，首字母缩略词“ICE”可以读作“I-C-E”，也可读作一个单词。
 sc-howto-addsen-item-4 = 符号问题：源文本中尽量不要包含特殊符号和标点符号，除非确实有需要。例如，英文单词“don’t”和“we’re”中的撇号应予保留，但“@”和“#”之类的特殊符号一般不需要包含在源文本中。
