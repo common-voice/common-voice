@@ -1055,6 +1055,7 @@ sc-howto-review-criteria-5 = 若句子未达到上述条件，请点击“驳回
 sc-howto-review-criteria-6 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
 sc-howto-findpd-title = 在公有领域查找现有的句子
 sc-howto-findpd-subtitle = 在网上搜搜看
+sc-howto-findpd-text-2 = 请记住我们必须获得授权，才可发布这些句子。所以请始终确保提交的文本属于<wikipediaLink>公有领域</wikipediaLink>。若没有明确的标示，请联系文本的所有者，询问他们是否同意将文本以公有领域许可协议进行贡献。若同意，请协助他们完成<cc0WaiverLink>贡献协议</cc0WaiverLink>流程。若不同意，您就不能就使用这些文本。
 sc-howto-findpd-tips = 以下是收集句子的一些技巧：
 sc-howto-findpd-tips-1 = 您可以从博客，视频档案，电影剧本等含有日常对话的内容中获得最佳的句子资源。
 sc-howto-findpd-tips-2 = 政府资料、书籍和文章也是不错的资源，不过由于该类文本相对来讲更加正式，并不是最佳选择。
