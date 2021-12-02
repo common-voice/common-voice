@@ -419,6 +419,7 @@ faq-search-for-answers =
 about-title = አግል ሚ ቱ Common Voice
 about-subtitle = Common Voice ናይ Mozilla ሙባደረት እንደ ገብኣት እግል ኣለት ናይ ኣማን ኣዳም ኣፎ ከም ልትሃገ ላትዓልማ ታ ። ዲብ ራኣስ በያናት ናይ Common Voice, Deep Speech ላልትባሃል መስደሩ ፍቱሕ ላጋኣ ኑጡቅ ላለሌለ ሙሓርክ በነ ህለና
 how-does-it-work-title = ኣፎ ትሽቄ?
+how-does-it-work-text = እካበት ፍቱሕ ናይ ሶት በያናት እግል ኩሉ ኣዳም ንሻረክ ዲቡ ህሌና፣ እብ ሶትኩም እትበረዖ፣ ናይ ኣዳም ብዕድ ክሊፕ ሓቅቆ፣ መጅሙዓት በያናት እግል ኩሉ ከም ታሓይስ ውደዋ ።
 about-speak = ታሃገው
 about-speak-text = ምን ብርዕት ምኽዘን ጁመል አንደ ቀርኣው ሙሻርኪን ናይ ሶት ክሊፕ ልሰጅሎ
 about-listen-queue = ናይ ሰምዓት ጣቡር
