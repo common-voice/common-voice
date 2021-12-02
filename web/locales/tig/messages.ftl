@@ -943,6 +943,7 @@ sc-howto-cite-item-1 = መውቅዕ ኢንተርነት ትውስኮ ትቃድሮ
 sc-howto-review-title = ጁመል ራጂዕ
 sc-howto-review-subtitle = ላጅመል እገል እሊ ላተለ መቃየስ ከም ለትማሊእ እትኣከድ:
 sc-howto-review-criteria-1 = ላጅምለት ግሩም ትትነጠቅ ሃላ እግላ
+sc-howto-review-criteria-2 = ናሓው ናይላ ጁምለት ሰኒ ልግባእ ብቱ
 sc-howto-review-criteria-3 = ላጅምለት ላትትባሃል እግላ ትግባእ ባ
 sc-howto-review-criteria-4 = ሓቆ ላጅምለት ላመቅያስ ታማልእ፣ ናይ 'ሙዋፈቀት" ዝረት ጭቀጦ
 sc-howto-review-criteria-5 = ሓቆ ላጅምለት ላመቅያስ ላዓል ላህላ ኢታማልእ፣ ናይ 'ረፍድ" ዝረት ጭቀጦ. ሓቆ ምንላ ጁምለት ሙትኣክድ ይእንታ ሕለፋ ው ሓቆሃ ላህለት ውደ
@@ -1120,6 +1121,7 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-failed = Login ፈሽላ
 sc-login-err-try-again = ሓስብኩም ካለእ መረት ጀርቦ
 
 ## PROFILE
