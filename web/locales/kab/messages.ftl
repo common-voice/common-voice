@@ -154,6 +154,7 @@ tg = Tatajikt
 th = Taṭaylant
 ti = Tigrinya
 tig = Tatigrit
+tk = Taturkmant
 tl = Tagalugt
 tr = Taṭurkit
 tt = Taṭaṭarit
@@ -326,8 +327,13 @@ profile-form-native-language =
     .label = Tutlayt tayemmat
 profile-form-additional-language =
     .label = Tutlayt-nniḍen
+profile-form-language =
+    .label = Tutlayt
 profile-form-accent =
     .label = Asusru
+profile-form-custom-accent-help-text =
+    .label = Amek ara d-tseglmeḍ aɣdebbu-ik?
+profile-form-custom-accent-placeholder-2 = Bdu  tira n uglam n uɣdebuu-ik
 profile-form-age =
     .label = Awtay
 profile-form-gender-2 =
@@ -338,6 +344,7 @@ hidden = Uffir
 visible = Uman
 native-language =
     .label = Tutlayt tayemat
+profile-form-add-accent = Rnu aɣdebbu udmawan amaynut « { $inputValue } »
 profile-form-submit-save = Sekles
 profile-form-submit-saved = Yettwasekles
 male = Amalay
@@ -371,6 +378,7 @@ skip-submission-description = Di lawan n utteki, tuzna n tmuɣli-inek ad tettwas
 skip-submission-note = Tazmilt: akken ad tbedleḍ tamahilt n utteki ilaq ad ferneḍ gar Mmeslay akked Timesliwt.
 off = Sens
 on = Rmed
+help-accent = Tesriḍ tallelt ɣef uɣdebbu?
 
 ## Profile - Email
 
