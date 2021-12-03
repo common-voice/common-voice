@@ -345,6 +345,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯀꯔꯤꯒꯤ?
+how-does-it-work-title = ꯃꯁꯤ ꯀꯔꯝꯅ ꯃꯊꯧ ꯇꯧꯕꯅꯣ?
 about-speak = ꯋꯥ ꯉꯥꯡꯉꯨ
 about-listen = ꯃꯨꯟꯅ ꯇꯥꯎ
 about-partners = ꯈꯣꯡꯂꯣꯏ
