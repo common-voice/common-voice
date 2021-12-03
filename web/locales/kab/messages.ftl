@@ -987,6 +987,7 @@ contribution-misreadings-example-7-explanation = [Llan sin n 'ṛ' deg beṛṛa
 contribution-misreadings-example-8-title = Inṭeq-d uẓru
 contribution-misreadings-example-8-explanation = [Tafyirt-a ur tesɛi ara lmeɛna]
 contribution-varying-pronunciations-title = Asenqed n tɣuri
+contribution-varying-pronunciations-description = Ɣur-wat uqbel ad tagim tukkist ma yella imeɣri neɣ timeɣrit yettban-d ur d-yeɣri ara akken ilaq awal neɣ kra n tunṭiqin, neɣ yezgel agaz n usteqsi. Ddeqs n wanawen n tɣuri i yettwaseqdacen deg umaḍal, ahat llant deg-sen wid ur tessineḍ ara deg temnaḍt-ik. Eǧǧ cwiṭ n usenqed i wid ahat i izemren neɣ ssnen ugar ɣef tɣuri akked usenṭeq.
 contribution-varying-pronunciations-example-1-title = Ɣef uqerru-s, yerra ibiri
 contribution-varying-pronunciations-example-1-explanation = [‘Tawwurt’ yelha ama teɣriḍ-it tabburt, taggurt neɣ tawwwurt]
 contribution-varying-pronunciations-example-2-title = Afus-is yerfed
