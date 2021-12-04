@@ -55,10 +55,10 @@
 
         &.multilingual {
             .accent-wrap {
-                border-bottom: 2px solid rgba(230,229,227,.6);
+                border-bottom: 2px solid rgba(230, 229, 227, 0.6);
                 margin-bottom: 2rem;
                 &:last-child {
-                    border-bottom:  0;
+                    border-bottom: 0;
                 }
             }
         }
@@ -68,7 +68,6 @@
             width: 100%;
             position: relative;
             padding-bottom: 0.5rem;
-
 
             label {
                 width: 100%;
@@ -109,6 +108,7 @@
 
             @media (--sm-down) {
                 width: 100%;
+                flex: none;
             }
 
             @media (--md-up) {
@@ -143,7 +143,6 @@
             color: var(--black);
         }
     }
-
 
     .signup-section {
         display: flex;
@@ -233,7 +232,8 @@
         color: var(--blue);
         font-weight: 600;
 
-        &:focus, &:hover {
+        &:focus,
+        &:hover {
             background: var(--light-grey);
         }
     }
