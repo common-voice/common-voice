@@ -78,6 +78,8 @@ hy-AM = Armensk
 hyw = Vestarmensk
 ia = Interlingua
 id = Indonesisk
+ie = Interlingue
+ig = Igbo
 is = Islandsk
 it = Italiensk
 izh = Ingrisk
@@ -86,6 +88,7 @@ ka = Georgisk
 kaa = Karakalpak
 kab = Kabylsk
 kbd = Kabardisk
+ki = Kikuyu
 kk = Kasakhisk
 kmr = Nordkurdisk
 ko = Koreansk
@@ -103,6 +106,7 @@ mhr = Østmarisk
 mk = Makedonsk
 ml = Malayalam
 mn = Mongolsk
+mni = Meitei-lon
 mos = Mossi
 mr = Marathi
 mrj = Vestmarisk
@@ -110,11 +114,13 @@ ms = Malaysisk
 mt = Maltesisk
 my = Burmesisk
 myv = Erziamordvinsk
+nan-tw = Taiwansk (Minnan)
 nb-NO = Norsk (bokmål)
 ne-NP = Nepalsk
 nia = Nias
 nl = Nederlandsk
 nn-NO = Norsk (nynorsk)
+nyn = Runyankole
 oc = Oksitansk
 or = Oriya
 pa-IN = Panjabi
@@ -122,12 +128,14 @@ pap-AW = Papiamento (Aruba)
 pl = Polsk
 ps = Pashto
 pt = Portugisisk
+quc = K'iche'
 rm-sursilv = Sursilvan Retoromansk
 rm-vallader = Vallader
 ro = Rumensk
 ru = Russisk
 rw = Kinyarwanda
 sah = Jakutisk
+sat = Santali (Ol Chiki)
 sc = Sardisk
 scn = Siciliansk
 shi = Shilha
@@ -147,6 +155,8 @@ th = Thai
 tl = Tagalog
 tr = Tyrkisk
 tt = Tatar
+tw = Twi
+ty = Tahitisk
 uby = Ubykh
 udm = Udmurtisk
 ug = Uigurisk
@@ -188,6 +198,7 @@ logout = Logg av
 ## Home Page
 
 home-title = Prosjektet Common Voice er et initiativ fra Mozilla, som skal hjelpe maskiner med å forstå hvordan folk snakker.
+default-tagline = Mozilla Common Voice er et initiativ som skal hjelpe maskiner med å forstå hvordan folk snakker.
 home-cta = Snakk, støtt prosjektet og gjør et bidrag!
 wall-of-text-start = Stemmen er naturlig, stemmen er menneskelig. Det er derfor vi er fascinert av å lage en anvendelig taleteknologi for maskinene våre. Men for å lage systemer for talegjenkjenning trengs det svært store mengder med innspilt tale.
 wall-of-text-more-mobile = Det meste av dataene som brukes av store bedrifter er utilgjengelige for folk flest. Vi mener dette hindrer innovasjon. Derfor lanserte vi prosjektet Common Voice, et prosjekt for å hjelpe til med å gjøre talegjenkjenning tilgjengelig for alle.
@@ -285,6 +296,7 @@ shortcut-record-toggle = e
 shortcut-record-toggle-label = Ta opp/Stopp
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Spill inn lydklipp om igjen
+shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Enter
 shortcut-submit-label = Send inn klipp
 request-language-text = Ser du ikke språket ditt på Common Voice ennå?
@@ -313,8 +325,12 @@ profile-form-native-language =
     .label = Morsmål
 profile-form-additional-language =
     .label = Øvrige språk
+profile-form-language =
+    .label = Språk
 profile-form-accent =
     .label = Dialekt
+profile-form-custom-accent-help-text =
+    .label = Hvordan vil du beskrive din aksent?
 profile-form-age =
     .label = Alder
 profile-form-gender-2 =
@@ -566,8 +582,6 @@ subscribe = Abonner
 get-started-speech = Kom i gang med talegjenkjenning
 other-datasets = Andre stemmedatasett
 feedback-q = Har du tilbakemeldinger?
-deepspeech-info = Common Voice-datasettet komplementerer Mozillas åpen kildekode stemmegjenkjenningsmotor Deep Speech, som du kan bruke til å bygge talegjenkjenningsapplikasjoner. Les vår <githubLink>Github-oversikt</githubLink> eller bli med på <discourseLink>DeepSpeech Discourse</discourseLink> for å lære hvordan du kommer i gang.
-common-voice-info-new = Har du spørsmål om Common Voice? Ideer til forbedringer eller tilbakemeldinger om et spesifikt språk? Bli med på vårt <discourseLink> Discourse forum </discourseLink> og gi oss beskjed.
 data-other-librispeech-description = LibriSpeech er et korpus på omtrent 1000 timer med 16 kHz lest engelsk tale hentet fra innleste lydbøker i LibriVox-prosjektet.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = TED-LIUM-korpuset ble produsert av presentasjoner og deres transkripsjoner tilgjengelig på TED-nettstedet.
@@ -846,6 +860,25 @@ why-delete-recordings =
     Kan du fortelle oss om hvorfor du vil at lydklippene dine blir slettet?
 profile-form-delete = Slett profil
 
+## Profile Download
+
+download-q = Trenger du å laste ned dataene dine?
+download-info = Fortell oss hva du vil laste ned:
+download-profile-title = Profil
+download-recordings-title = Innspillinger
+download-size = Størrelse
+download-selected = Valgt
+download-start = Last ned profildata
+download-request-button = Last ned
+download-request-title = { $created }
+download-request-archive-single = Enkel ZIP-fil som inneholder
+download-request-archive-multiple = Del opp i { $archiveCount } ZIP-filer som inneholder
+download-request-refresh-button = Oppdater
+download-request-modal-title = Nedlastingslenker
+download-request-modal-description = Her er lenkene for å laste ned ZIP-filene dine.
+download-request-link-text = Zip #{ $offset } av { $total }
+download-request-metadata-link = Setningstekst
+
 ## Landing
 
 welcome-staff = Velkommen medarbeidere fra { $company }!
@@ -892,7 +925,68 @@ demo-dashboard-card-body = For hvert stemmeklipp som doneres, og hvert lydklipp 
 
 ## Validation criteria
 
+contribution-criteria-link = Forstå bidragskriterier
+contribution-criteria-page-title = Bidragskriterier
 contribution-for-example = for eksempel
 contribution-misreadings-title = Feillesninger
+contribution-misreadings-description-extended-list-2 = Mangler en <strong>«s»</strong> på slutten av et ord.
+contribution-misreadings-description-extended-list-5 = Bruker flere forsøk på å lese et ord.
+contribution-background-noise-title = Bakgrunnsstøy
+contribution-background-voices-title = Bakgrunnsstemmer
+contribution-volume-title = Volum
+contribution-just-unsure-title = Bare usikker?
 see-more = <chevron></chevron>Se mer
 see-less = <chevron></chevron>Se mindre
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
