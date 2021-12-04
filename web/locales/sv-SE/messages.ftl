@@ -1136,6 +1136,7 @@ sc-review-link = Granska
 ## SETTINGS
 
 sc-settings-title = Inställningar
+sc-settings-ui-language = Gränssnittsspråk
 sc-settings-reset-skipped = Återställ överhoppade meningar
 sc-settings-show-all-button = Visa alla överhoppade meningar igen
 sc-settings-failed = Det gick inte att ändra inställningarna. Var god försök igen.
