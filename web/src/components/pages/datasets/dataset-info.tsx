@@ -7,7 +7,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import { connect } from 'react-redux';
 import StateTree from '../../../stores/tree';
-import { ACCENTS, AGES } from '../../../stores/demographics';
+import { LEGACY_ACCENTS as ACCENTS, AGES } from '../../../stores/demographics';
 import {
   localeConnector,
   LocalePropsFromState,
