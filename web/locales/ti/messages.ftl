@@ -106,6 +106,7 @@ mhr = ሚዶው ማሪ
 mk = መቆዶንያ
 ml = ማላይለም
 mn = ሞንጎልያን
+mni = ሚተይ ሎን
 mos = ሞሲ
 mr = ማራቲ
 mrj = ሂል ማሪ
@@ -152,6 +153,8 @@ te = ተሉጉ
 tg = ታጂክ
 th = ታይ
 ti = ትግርኛ
+tig = ትግራይት
+tk = ቱርክመን
 tl = ታጋሎግ
 tr = ተርክሽ
 tt = ታታር
@@ -336,8 +339,13 @@ profile-form-native-language =
     .label = ቛንቛ ኣደ
 profile-form-additional-language =
     .label = ተወሳኹ ቛንቛ
+profile-form-language =
+    .label = ቛንቓ
 profile-form-accent =
     .label = ላህጃ
+profile-form-custom-accent-help-text =
+    .label = ላሃጃኻ ብኸመይ ትገልጾ?
+profile-form-custom-accent-placeholder-2 = ልሃጃኻ ምግላጽ ምጽሓፍ ጀምር
 profile-form-age =
     .label = ዕድመ
 profile-form-gender-2 =
@@ -348,6 +356,7 @@ hidden = ሕቡእ
 visible = ክፉት
 native-language =
     .label = ቛንቛ ኣደ
+profile-form-add-accent = ሓድሽ ላሃጃ ኣእቱ "{ $inputValue }"
 profile-form-submit-save = ዓቅብ
 profile-form-submit-saved = ተዓቂቡ
 male = ተባዕታይ
@@ -383,6 +392,7 @@ skip-submission-description = ኣብ እዋን ምቅራብ ኣበርክቶ 'Sub
 skip-submission-note = መዘኻኸሪ፦ ነቲ ኣበርክቶኻ ንምቕያር ካብ ምዝራብ ወይ  ምስማዕ ሓዲኡ ኽትመርጽ ኣሎካ።
 off = ጠፊኡ
 on = ተወሉዑ
+help-accent = ኣብ ላሃጃ ሓገዝ የድሊ ድዩ?
 
 ## Profile - Email
 
@@ -1023,6 +1033,7 @@ contribution-volume-title = ድምጺ
 
 ## SETTINGS
 
+sc-validation-no-numbers = ሙልእ ሓሳባት ቑጽሪ ክህልዎ የብሉን
 
 # [/SentenceCollector]
 
