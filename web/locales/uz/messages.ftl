@@ -154,6 +154,7 @@ tg = Tojik
 th = Tay
 ti = Tigrinya
 tig = Tigre
+tk = Turkman
 tl = Tagal
 tr = Turk
 tt = Tatar
@@ -326,8 +327,13 @@ profile-form-native-language =
     .label = Ona tili
 profile-form-additional-language =
     .label = Qoʻshimcha til
+profile-form-language =
+    .label = Til
 profile-form-accent =
     .label = Sheva
+profile-form-custom-accent-help-text =
+    .label = Talaffuzingizga qanday taʼrif berasiz?
+profile-form-custom-accent-placeholder-2 = Talaffuzingizga taʼrif yozishni boshlang
 profile-form-age =
     .label = Yosh
 profile-form-gender-2 =
@@ -338,6 +344,7 @@ hidden = Yashirin
 visible = Oshkor
 native-language =
     .label = Ona tili
+profile-form-add-accent = Yangi boshqa "{ $inputValue }" talaffuzini qoʻshing
 profile-form-submit-save = Saqlash
 profile-form-submit-saved = Saqlandi
 male = Erkak
@@ -371,6 +378,8 @@ skip-submission-description = “Yuborish” tugmasini bosgan vaqtingizda qoʻsh
 skip-submission-note = Eslatma: Siz baribir “Oʻqish” yoki “Tinglash” boʻlimidan birini tanlashingizga toʻgʻri keladi.
 off = Oʻchiq
 on = Yoniq
+help-accent = Talaffuzga aloqador yordam kerakmi?
+help-accent-explanation = Talaffuzingiz – bu soʻzlarni talaffuz qilish usulingiz. Bu yashagan muhitingiz, boshqa tillarda gaplashishingiz va boshqa koʻplab omillarga bogʻliq. Bu yerdagi istagan maʼlumotingizni ulashishingiz mumkin.
 
 ## Profile - Email
 
@@ -938,10 +947,60 @@ contribution-misreadings-title = Notoʻgʻri oʻqilgan
 contribution-misreadings-description = Tinglayotganda yozilgan matnning aynan yozib olingan ovoz bilan bir xilligini diqqat bilan tekshiring. Hatto kichik xatolar boʻlsa ham rad eting. <br />Juda keng tarqalgan xatolarga quyidagilar kiradi:
 contribution-misreadings-description-extended-list-1 = <strong>'A'</strong> harfi yoki audio yozuvning boshida <strong>'The'</strong> artikli qolib ketishi.
 contribution-misreadings-description-extended-list-2 = Soʻzning oxirida <strong>'s'</strong> qoʻshimchasi qolib ketishi.
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
 sc-footer-cookies = Kukilar
 sc-logout-button = Chiqish
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
 sc-submit-select-language =
     .labelText = Tilni tanlang
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
 
 # [/SentenceCollector]
 
