@@ -816,10 +816,10 @@ finish-editing = ቅድም ምስትኽኻልዶ ክትውድእ?
 lose-changes-warning = ኣብዚ እንተ ኣቓሪጽካ፡ ኩሉ እቲ ዝገበርካዮ ለውጥታት ክጠፍእ እዩ
 build-custom-goal = ሓድሽ ሸቶ ህነጽ
 help-reach-hours-pluralized =
-    ሓገዝ{ NUMBER($hours) ->
-        [one] { $hours } ሰዓት
-       *[other] { hours } ሰዓታት
-    }ኣብ { $language } ብናይ ግሊ ሸቶ
+    { NUMBER($hours) ->
+        [one] ሓገዝ{ $hours } ሰዓትኣብ { $language } ብናይ ግሊ ሸቶ
+       *[other] ሓገዝ{ $hours } ሰዓታትኣብ { $language } ብናይ ግሊ ሸቶ
+    }
 help-reach-hours-general-pluralized =
     ንኮመን ቮይስ ሓግዝ{ NUMBER($hours) ->
         [one] { $hours } ሰዓት
@@ -973,3 +973,56 @@ contribution-misreadings-description-extended-list-2 = ኣብ መውዳእታ �
 contribution-background-noise-title = ኣከባያዊ ረበሻታት
 contribution-background-voices-title = ኣከባያዊ ድምጽታት
 contribution-volume-title = ድምጺ
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
