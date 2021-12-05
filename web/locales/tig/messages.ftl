@@ -194,7 +194,7 @@ terms = ሽሩጥ
 cookies = ክዓክ
 faq = ዲማ ላልትሳኣላ ኣስአለት
 content-license-text = ኢሊ ሙሕታዋ እብ ናይ <licenseLink>Creative Commons license</licenseLink>ሩኽሰት ምትወፍር እግልኩም ቱ
-share-title = ብዕዳም አብ ሶቶም ለልሳህሞ አግል ንርከብ ስደውና
+share-title = ስደውና ብዕዳም አብ ሶቶም ለልሳህሞ አግል ንርከብ
 share-text = አለት ስደዋ አግል ትትዓለም ኣዳም ናይ ኣማን ከፎ ከምለትሃገ፣ እብ ሶትኩም እንሰር { $link } እትበረዖ
 link-copied = ላትናቃላ Link
 back-top = ላዓል ኣቅብል
@@ -202,8 +202,8 @@ logout = ፍገር
 
 ## Home Page
 
-home-title = ሙባደረት ሶት ሕበር ሞዚላ  ናይ ኣማን ኣዳም ከፎ ከምልትሃገ  እግል ኣለት እግል ትትዓልም ላትሰድያ ታ
-default-tagline = ሙባደረት ሶት ሕበር ሞዚላ ናይ ኣማን ኣዳም ከፎ ከምልትሃገ  እግል ኣለት እግል ትትዓልም ላትሰድያ ታ
+home-title = ሙባደረት ሶት ሕበር ሞዚላ  ናይ ኣማን ኣዳም ከፎ ከምልትሃገ  እግል ኣለት እግል ትትዓልም ላትሳዕድ ታ
+default-tagline = ሙባደረት ሶት ሕበር ሞዚላ ናይ ኣማን ኣዳም ከፎ ከምልትሃገ  እግል ኣለት እግል ትትዓልም ላትሳዕድ ታ
 home-cta = ሶትካ ኣስምዕ, አንዘ ሳህም
 show-wall-of-text = ዝያዳ ቅርኦ
 help-us-title = ጁመል አግል ንሓቅቅ ስደውና!
@@ -419,14 +419,14 @@ faq-search-for-answers =
 about-title = አግል ሚ ቱ ሶት ሕበር?
 about-subtitle = ሶት ሕበር ናይ ሞዚላ ሙባደረት እንደ ገብኣት እግል ኣለት ናይ ኣማን ኣዳም ኣፎ ከም ልትሃገ ላትዓልማ ታ ። ዲብ ራኣስ በያናት ናይ ሶት ሕበር, Deep Speech ላልትባሃል መስደሩ ፍቱሕ ላጋኣ ኑጡቅ ላለሌለ ሙሓርክ በነ ህለና
 how-does-it-work-title = ኣፎ ትሽቄ?
-how-does-it-work-text = እካበት ፍቱሕ ናይ ሶት በያናት እግል ኩሉ ኣዳም ንሻረክ ዲቡ ህሌና፣ እብ ሶትኩም እትበረዖ፣ ናይ ኣዳም ብዕድ ክሊፕ ሓቅቆ፣ መጅሙዓት በያናት እግል ኩሉ ከም ታሓይስ ውደዋ ።
+how-does-it-work-text = እግል እካበት ፍቱሕ ናይ ሶት በያናት እግል ኩሉ ኣዳም ንሻረክ ዲቡ ህሌና፣ እብ ሶትኩም እትበረዖ፣ ናይ ኣዳም ብዕድ ክሊፕ ሓቅቆ፣ መጅሙዓት በያናት እግል ኩሉ ከም ታሓይስ ውደዋ ።
 about-speak = ታሃገው
-about-speak-text = ምን ብርዕት ምኽዘን ጁመል አንደ ቀርኣው ሙሻርኪን ናይ ሶት ክሊፕ ልሰጅሎ
+about-speak-text = ምን ምኽዘን ተበሩዕ ጁመል አንደ ቀርኣው ሙሻርኪን ናይ ሶት ክሊፕ ልሰጅሎ
 about-listen-queue = ናይ ሰምዓት ጣቡር
 about-listen-queue-text = ናይ ሶት ክሊፕ ዲብ ጣቡር ተስሊም ልኣተ ው ምኑ ግል ልትሰማዕ  ጃህዝ ገቢእ
 about-listen = ሰምዖ
 about-listen-text = ሙስታዕምሊን እግል ላትበርዓ ክሊፕ ናይ ሶት ሰኒ ከምቱ ልሓቅቆ፣ ላትሄግያይ እግል ላጅምለት ስኒ ከም ቃርኣያ ልትኣኸዶ።
-about-is-it-valid = ላ ክሊፕ ሰኒቱ?
+about-is-it-valid = ክሊፕ ሰኒቱ?
 about-is-it-valid-text = ዶልላ ሙስተኽድም ናይ 'ኣበ' ታስዊት ሃይባ ናይ ሶት ክሊፕ 'ሳልሃት' ዓላማት ግብእ እታ
 about-yes-votes = ዝያድ ከልኦት ናይ አይዋ ተስዊት
 about-yes-votes-text = ናይ ሶት ክሊፕ ዲብ መጅሙዓት ባያናት ሶት ሕበር እግል ትእተ አብ ክልኦት ሙስተኽድሚን ትትሓቀቀ ባ
