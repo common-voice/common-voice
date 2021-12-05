@@ -248,7 +248,7 @@ email-subscription-title-new = ምስል ሶት ሕበር ሳጃሎ ኣኽባር
 ## Account Benefits
 
 benefits = ነፍዐ
-keep-track = ተቀዱምካ ዎ አሕሳእየትካ ዲብ ዝያድ ሓተ ሉቃት ታባዓ
+keep-track = ተቀዱምኩም ዎ አሕሳእየትካ ዲብ ዝያድ ሓተ ሉቃት ታባዓ
 compare-progress = ተቀዱምኩም ቃርንዎ ምስል ብዕዳም ሙሻርኪአን ናይ እዲና
 view-goals = ተቀዱምኩም ምስል ናይ ኖስኩም ዎ ናይላ መሽሩዕ ተቀዱም ኣትራኣእዎ
 join-newsletter = ምን ትሓዞ ዲብ ናይ ኢሜል ቃኢመትና ኣሽተርኮ ሰበት ላ ሓዳሳ ሓበሬታ ግል ልብጻሓኩም
