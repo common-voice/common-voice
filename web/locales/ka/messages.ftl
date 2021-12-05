@@ -154,6 +154,7 @@ tg = ტაჯიკური
 th = ტაილანდური
 ti = ტიგრინია
 tig = ტიგრინია
+tk = თურქმენული
 tl = ტაგალური
 tr = თურქული
 tt = თათრული
@@ -328,8 +329,13 @@ profile-form-native-language =
     .label = მშობლიური ენა
 profile-form-additional-language =
     .label = დამატებითი ენა
+profile-form-language =
+    .label = ენა
 profile-form-accent =
     .label = აქცენტი
+profile-form-custom-accent-help-text =
+    .label = როგორ დაახასიათებდით თქვენი ლაპარაკის კილოს?
+profile-form-custom-accent-placeholder-2 = აკრეფა კილოს აღსაწერად
 profile-form-age =
     .label = ასაკი
 profile-form-gender-2 =
@@ -340,6 +346,7 @@ hidden = დამალული
 visible = ხილული
 native-language =
     .label = მშობლიური ენა
+profile-form-add-accent = დაამატეთ საკუთარი კილო „{ $inputValue }“
 profile-form-submit-save = შენახვა
 profile-form-submit-saved = შენახულია
 male = მამრობითი
@@ -373,6 +380,7 @@ skip-submission-description = წვლილის შეტანისას 
 skip-submission-note = შენიშვნა: ჩაწერა ან მოსმენა მაინც უნდა აირჩიოთ, შესატანი წვლილის სახეობის შესაცვლელად.
 off = გამორთ.
 on = ჩართ.
+help-accent = გესაჭიროებათ დახმარება კილოებთან დაკავშირებით?
 
 ## Profile - Email
 
