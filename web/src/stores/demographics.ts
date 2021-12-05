@@ -1,4 +1,8 @@
-export const ACCENTS: any = {
+// Please note - this list is no longer the canonical list of
+// accents on the platform and will be removed in a future
+// dataset release. For more info, please see this Discourse
+// post: https://discourse.mozilla.org/t/89754
+export const LEGACY_ACCENTS: any = {
   br: {
     gwenedeg: 'Gwenedeg',
     kerneveg: 'Kerneveg',
