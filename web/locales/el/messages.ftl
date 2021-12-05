@@ -333,6 +333,9 @@ profile-form-language =
     .label = Γλώσσα
 profile-form-accent =
     .label = Προφορά
+profile-form-custom-accent-help-text =
+    .label = Πώς θα περιγράφατε την προφορά σας;
+profile-form-custom-accent-placeholder-2 = Ξεκινήστε να πληκτρολογείτε για να περιγράψετε την προφορά σας
 profile-form-age =
     .label = Ηλικία
 profile-form-gender-2 =
@@ -377,6 +380,7 @@ skip-submission-description = Κατά την υποβολή της συνεισ
 skip-submission-note = Σημείωση: Θα πρέπει ακόμα να επιλέξετε ανάμεσα σε Ομιλία ή Ακρόαση για να αλλάξετε τον τύπο συνεισφοράς.
 off = Ανενεργό
 on = Ενεργό
+help-accent = Χρειάζεστε βοήθεια με την προφορά;
 
 ## Profile - Email
 
@@ -1008,7 +1012,9 @@ see-less = <chevron></chevron>Προβολή λιγότερων
 ## HEADER/FOOTER
 
 sc-header-home = Αρχική
+sc-header-how-to = Οδηγίες
 sc-header-add = Προσθήκη
+sc-header-review = Έλεγχος
 sc-header-my = Οι προτάσεις μου
 sc-header-statistics = Στατιστικά
 sc-header-profile = Προφίλ
@@ -1027,6 +1033,7 @@ sc-logout-button = Αποσύνδεση
 
 ## HOW-TO
 
+sc-howto-title = Οδηγίες
 sc-howto-addsen-title = Προσθήκη νέων προτάσεων
 sc-howto-cite-item-1 = Μπορείτε να συμπεριλάβετε τον ιστότοπο, π.χ. «Common Voice - https://commonvoice.mozilla.org/»
 sc-howto-review-title = Έλεγχος προτάσεων
@@ -1043,8 +1050,12 @@ sc-my-no-sentences = Δεν βρέθηκαν προτάσεις!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Υποβολή: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Πηγή:  { $source }
 sc-my-delete = Διαγραφή επιλεγμένων προτάσεων
 sc-my-deleting = Διαγραφή επιλεγμένων προτάσεων…
+sc-my-err-failed-delete = Αποτυχία διαγραφής επιλεγμένων προτάσεων… Παρακαλούμε δοκιμάστε ξανά!
 
 ## REJECTED
 
@@ -1079,6 +1090,14 @@ sc-add-err-submission = Σφάλμα υποβολής
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-sentences-title = Επιβεβαίωση νέων προτάσεων
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Δεν βρέθηκαν προτάσεις.
+        [one] Βρέθηκε 1 πρόταση.
+       *[other] Βρέθηκαν { $countOfSentences } προτάσεις.
+    }
 sc-confirm-button-text = Επιβεβαίωση
 
 ## LANGUAGE INFO
@@ -1091,6 +1110,7 @@ sc-lang-info-total =
         [one] 1 συνολική πρόταση.
        *[other] { $totalSentences } συνολικές προτάσεις.
     }
+sc-lang-info-review-now = <reviewLink>Έλεγχος τώρα!</reviewLink>
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
@@ -1110,9 +1130,11 @@ sc-login-err-try-again = Παρακαλούμε δοκιμάστε ξανά.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Προφίλ: { $username }
+sc-personal-err-lang-not-found = Δεν ήταν δυνατή η αφαίρεση της γλώσσας: η γλώσσα δεν βρέθηκε
 sc-personal-err-remove = Δεν ήταν δυνατή η αφαίρεση της γλώσσας
 sc-personal-your-languages = Οι γλώσσες σας:
 sc-personal-remove-button = αφαίρεση
+sc-personal-not-added = Δεν έχετε προσθέσει καμία γλώσσα ακόμα.
 
 ## REVIEW CRITERIA
 
@@ -1126,11 +1148,15 @@ sc-criteria-item-2 = Η πρόταση πρέπει να είναι γραμμα
 
 sc-review-title = Έλεγχος προτάσεων
 sc-review-loading = Φόρτωση προτάσεων…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Πηγή: { $sentenceSource }
 sc-review-form-button-reject = Απόρριψη
 sc-review-form-button-skip = Παράλειψη
 sc-review-form-button-approve = Έγκριση
 sc-review-form-button-submit =
     .submitText = Ολοκλήρωση ελέγχου
+sc-review-link = Έλεγχος
 
 ## SETTINGS
 
