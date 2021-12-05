@@ -154,6 +154,7 @@ tg = tadżycki
 th = tajski
 ti = tigrinia
 tig = tigre
+tk = turkmeński
 tl = tagalski
 tr = turecki
 tt = tatarski
@@ -1017,6 +1018,8 @@ sc-logout-button = Wyloguj się
 ## HOW-TO
 
 sc-howto-title = Jak to zrobić
+sc-howto-addsen-title = Dodaj nowe zdania
+sc-howto-cite-title = Jak cytować
 
 ## MY SENTENCES
 
@@ -1024,6 +1027,9 @@ sc-my-title = Moje zdania
 sc-my-loading = Wczytywanie zdań…
 sc-my-err-fetching = Błąd podczas pobierania zdań. Proszę spróbować ponownie.
 sc-my-no-sentences = Nie odnaleziono żadnych zdań.
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Źródło:  { $source }
 sc-my-delete = Usuń zaznaczone zdania
 sc-my-deleting = Usuwanie zaznaczonych zdań…
 sc-my-err-failed-delete = Usunięcie zaznaczonych zdań się nie powiodło. Proszę spróbować ponownie.
@@ -1046,11 +1052,19 @@ sc-stats-updating = Aktualizowanie…
 
 ## ADD
 
+sc-submit-err-select-lang = Wybierz język.
+sc-submit-err-add-sentences = Dodaj zdania.
+sc-submit-err-add-source = Dodaj źródło.
+sc-submit-title = Dodaj zdania
+sc-submit-select-language =
+    .labelText = Wybierz język
 sc-submit-button =
     .submitText = Wyślij
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Nie można dodać języka
+sc-add-lang-sec-button = Dodaj język
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1069,6 +1083,9 @@ sc-login-err-try-again = Proszę spróbować ponownie.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Nie można usunąć języka: nie odnaleziono języka
+sc-personal-err-remove = Nie można usunąć języka
+sc-personal-your-languages = Twoje języki:
 
 ## REVIEW CRITERIA
 
