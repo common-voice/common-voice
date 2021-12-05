@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = አይዋ ኢሜል ነድኦ ዲብየ ። ኣብ መሽሩዕ ሶት ሕበር እድለ ሓዘ
-stayintouch = ሐና አንዘ እት Mozilla እብ ቴኽኖሎጀየት ናይ ሶት ላላህተም ማሕበረሰብ እንበነ ህለይና ። ኣብ ኣሳነዮት ው ሓዳስ መሳድር  ው ከምሰልሁማ አግል እሊ ማዐሉማት ከፎ ተስታዕሙሎ ከም ህልኩም ገል ናኣምር ናሓዘ
+stayintouch = ሐና አንዘ እት ሞዚላ እብ ቴኽኖሎጀየት ናይ ሶት ላላህተም ማሕበረሰብ እንበነ ህለይና ። ኣብ ኣሳነዮት ው ሓዳስ መሳድር  ው ከምሰልሁማ አግል እሊ ማዐሉማት ከፎ ተስታዕሙሎ ከም ህልኩም ገል ናኣምር ናሓዘ
 privacy-info = ማዕሉማትኩም እብ ጥንቃቐ ከም ጽብጣ ንውዕደኩም ። ዲብ ናይ  <privacyLink>Privacy Notice</privacyLink> ዚያደት ቅርኦ
 return-to-cv = ዲብ ሶት ሕበር ኣቅብሉተ
 email-input =
@@ -292,7 +292,7 @@ shortcut-discard-ongoing-recording-label = ልሰጀል ልህላ ዎርክዮ
 shortcut-submit = ዓቅብል
 shortcut-submit-label = ክሊፕ ላኣኮ
 request-language-text = ሉቅትኩም ኣስኽ ኣዜ የህሌትኒ ዲብ ሶት ሕበር ?
-request-language-text-learn = ከፎ ከም ትጠልቦ አንዘ ኣምር!
+request-language-text-learn = ከፎ ከም ትጠልቦ አንዘ ኣምሮ!
 request-language-button = ሉቀት ጥለቦ
 
 ## ProjectStatus
@@ -574,9 +574,9 @@ other-language = ብዕድ ሉቀት
 
 ## Languages Overview
 
-language-section-in-progress = ልትጃሃዝ ህላ
+language-section-in-progress = ልትጃሃዝ ላሃለያ
 language-section-in-progress-new-description = እለን ሉቃት እለን ላ ማሕበር ኣዘ ለጠውረን ሃላ ፣ ሸሪጥ ናይ ተቀዱም ኩላ ሉቀት አያ ባጽሓት ከም ህሌት ዲብ <localizationGlossaryLink>ላማውቅዕ ተርጃመት</localizationGlossaryLink> ው <sentenceCollectionGlossaryLink>ጁመል እካቦት</sentenceCollectionGlossaryLink>ላሓበር
-language-section-launched = ላትጃሃዘት
+language-section-launched = ላትጃሃዘያ
 language-section-launched-description = እግል እለን ላትጃሃዘያ ሎቃት ላመውቂዕ (website) ሰኒ <localizationGlossaryLink>ተርጀማ</localizationGlossaryLink>, ው ካፊ  <sentenceCollectionGlossaryLink>ላትጃምዓያ ጁመል</sentenceCollectionGlossaryLink>ሃላ እግሉ እግል<speakLink>ሂጋ</speakLink> ው <listenLink>ስምዓት</listenLink>ተበሩዓት ላገብእ
 languages-show-more = ዝያደት ረኤ
 languages-show-less = ሑድ ረኤ
