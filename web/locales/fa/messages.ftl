@@ -890,6 +890,7 @@ demo-dashboard-card-header = داشبوردهای شخصی، شما را با پ
 contribution-criteria-nav = معیار
 contribution-criteria-page-title = معیارهای مشارکت
 contribution-for-example = برای مثال
+contribution-misreadings-description-extended-list-4 = از دست رفتن انتهای آخرین واژه با قطع خیلی سریع ضبط.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
