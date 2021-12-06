@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = بله ، برای من ایمیل ارسال کنید. من می خواهم در مورد پروژه صدای مشترک مطلع شوم.
+yes-receive-emails = بله، برایم رایانامه ارسال کنید. می‌خواهم در مورد پروژه‌ی صدای مشترک مطلع شوم.
 stayintouch = ما در موزیلا در حال ایجاد یک جامعه حول فن‌آوری صوتی هستیم. ما دوست داریم با به‌روزرسانی‌ها، منابع اطلاعات جدید در دسترس باشیم و بیشتر بدانیم که چگونه از این اطلاعات استفاده می‌کنید.
 privacy-info = ما قول می‌دهیم که اطلاعات شما را با دقت به کار ببریم. در <privacyLink>نکات حریم خصوصی</privacyLink> بیشتر مطالعه کنید.
 return-to-cv = بازگشت به آواهای مشترک
@@ -358,6 +358,7 @@ browse-file = کشیدن و رها کردن یا <browseWrap>مرور</browseWra
 connect-gravatar = اتصال به Gravatar
 gravatar_not_found = هیچ گراواتاری برای ایمیل شما یافت نشد
 file_too_large = پرونده انتخاب شده خیلی بزرگ است
+max-file-size = حداکثر { $kb } کیلوبایت
 
 ## Profile - Email
 
@@ -823,6 +824,8 @@ profile-form-delete = حذف نمایه
 
 ## Profile Download
 
+download-profile-size = چند بایت
+download-recordings-title = ضبط شده‌ها
 
 ## Landing
 
