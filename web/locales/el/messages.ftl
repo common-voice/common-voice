@@ -1030,6 +1030,7 @@ sc-logout-button = Αποσύνδεση
 
 ## HOME
 
+sc-home-review-title = Έλεγχος προτάσεων
 
 ## HOW-TO
 
@@ -1073,6 +1074,9 @@ sc-stats-updating = Ενημέρωση…
 
 sc-submit-err-select-lang = Παρακαλούμε επιλέξτε μια γλώσσα.
 sc-submit-err-add-sentences = Παρακαλούμε προσθέστε προτάσεις.
+sc-submit-err-add-source = Παρακαλούμε προσθέστε μια πηγή.
+sc-submit-prompt =
+    .message = Οι προτάσεις δεν υποβλήθηκαν, θέλετε σίγουρα να αποχωρήσετε;
 sc-submit-title = Προσθήκη προτάσεων
 sc-submit-select-language =
     .labelText = Επιλογή γλώσσας
@@ -1080,15 +1084,27 @@ sc-submit-ph-one-per-line =
     .placeholder = Μία πρόταση ανά γραμμή
 sc-submit-button =
     .submitText = Υποβολή
+sc-submit-guidelines = Παρακαλούμε ελέγξτε τις <howToLink>οδηγίες</howToLink>.
 
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Αδυναμία προσθήκης γλώσσας
 sc-add-lang-sec-button = Προσθήκη γλώσσας
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Δεν απέτυχε καμία πρόταση
+        [one] Απέτυχε 1 πρόταση
+       *[other] Απέτυχαν { $sentences } προτάσεις
+    }
 sc-add-err-submission = Σφάλμα υποβολής
+sc-add-lang-process-notice = Αν η γλώσσα σας δεν βρίσκεται εδώ, μπορείτε να αιτηθείτε την προσθήκη της μέσω <languageProcessLink>αυτής της διαδικασίας</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Οι προτάσεις δεν υποβλήθηκαν, θέλετε σίγουρα να αποχωρήσετε;
 sc-confirm-sentences-title = Επιβεβαίωση νέων προτάσεων
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
@@ -1134,6 +1150,9 @@ sc-personal-err-lang-not-found = Δεν ήταν δυνατή η αφαίρεσ�
 sc-personal-err-remove = Δεν ήταν δυνατή η αφαίρεση της γλώσσας
 sc-personal-your-languages = Οι γλώσσες σας:
 sc-personal-remove-button = αφαίρεση
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = Προστέθηκαν { $sentences } από εσάς
 sc-personal-not-added = Δεν έχετε προσθέσει καμία γλώσσα ακόμα.
 
 ## REVIEW CRITERIA
@@ -1154,6 +1173,8 @@ sc-review-form-source = Πηγή: { $sentenceSource }
 sc-review-form-button-reject = Απόρριψη
 sc-review-form-button-skip = Παράλειψη
 sc-review-form-button-approve = Έγκριση
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = Μπορείτε επίσης να χρησιμοποιήσετε συντομεύσεις πληκτρολογίου: Y για έγκριση, N για απόρριψη, S για παράλειψη
 sc-review-form-button-submit =
     .submitText = Ολοκλήρωση ελέγχου
 sc-review-link = Έλεγχος
@@ -1164,6 +1185,7 @@ sc-settings-title = Ρυθμίσεις
 sc-settings-ui-language = Γλώσσα περιβάλλοντος
 sc-settings-failed = Δεν ήταν δυνατή η αλλαγή των ρυθμίσεων. Παρακαλούμε δοκιμάστε ξανά.
 sc-validation-no-numbers = Η πρόταση δεν πρέπει να περιέχει αριθμούς
+sc-validation-no-symbols = Η πρόταση δεν πρέπει να περιέχει σύμβολα
 
 # [/SentenceCollector]
 
