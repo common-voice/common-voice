@@ -374,6 +374,7 @@ about-no-votes = ≥ 2 овози «Не»
 about-dataset-new = Маҷмӯаи маълумоти «Common Voice»
 about-dataset-new-text = Маҷмӯаи маълумоти «Common Voice» садҳо ҳазор намунаҳои овозиро дар бар мегирад, ки ба таҳиягарон дар сохтани асбобҳои садошиносӣ кумак мекунанд.
 about-partners = Шарикон
+about-become-a-partner = Шарик шавед
 about-get-involved = Ҳамроҳ шудан
 about-nav-why-common-voice = Чаро?
 about-nav-how-it-works = Чӣ тавр?
@@ -385,6 +386,7 @@ mycroft-title = Mycroft Ai
 
 glossary = Вожанома
 localization = Маҳаллисозӣ
+sentence-collection = Маҷмӯаи ҷумлаҳо
 sst = Нутқ-ба-матн (STT)
 
 ## Error pages
