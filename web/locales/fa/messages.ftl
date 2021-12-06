@@ -342,26 +342,17 @@ skip-submission-description = در حین مشارکت در تکمیل بازخ�
 skip-submission-note = توجه: هنوز لازم است بین گفتن یا شنیدن یکی را انتخاب کنید تا نوع مشارکت را تغییر دهید.
 off = خاموش
 on = روشن
-avatar-clip-title = به نمایه خود یک صدا اضافه کنید
-change-your-avatar-clip = می‌خواهید کلیپ صوتی خود را تغییر دهید؟
-recording-in-progress = ضبط صدا در حال انجام است
-avatar-clip-recorded = حالا آواتار شما شامل یک کلیپ صوتی است!
-record-voice-wave = موج صدای ضبط شده
-retry-voice-wave-recording = تلاش مجدد
-re-record = ضبط دوباره
-delete-voice = حذف
-recording-voice-wave = در حال ضبط کردن
-delete-voice-clip = یا کلیپ صوتی را حذف کنید
-ready-to-upload = بارگذاری
-avatar-clip-fact = این یک واقعیت اثبات شده است که خوانندگان با دیدن لایه های صفحات با محتوا خواندنی دچار سردرگمی می شوند.
-recreate-voice = ایجاد کردن مجدد موج صدا
-cancel-avatar-clip-recording = لغو
-about-avatar-clip-recording = ایجاد کردن یک برش به عنوان تصویر نمایه خود. دیگران قادر به شنیدن برش صدای شما خواهند بود.
+
+## Profile - Email
+
 browse-file-title = یک تصویر بارگذاری کنید
 browse-file = کشیدن و رها کردن یا <browseWrap>مرور</browseWrap>
 connect-gravatar = اتصال به Gravatar
 gravatar_not_found = هیچ گراواتاری برای ایمیل شما یافت نشد
 file_too_large = پرونده انتخاب شده خیلی بزرگ است
+
+## Profile - Email
+
 manage-subscriptions = مدیریت اشتراک‌ها
 manage-email-subscriptions = مدیریت اشتراک پست الکترونیکی
 email-already-used = ایمیل پیش از این برای حساب دیگری استفاده شده است
@@ -563,8 +554,6 @@ subscribe = عضویت
 get-started-speech = شروع کار با تشخیص گفتار
 other-datasets = دیگر مجموعه‌های داده صوتی
 feedback-q = نظری دارید؟
-deepspeech-info = داده‌های آواهای مشترک از موتور بررسی عمیق تشخیص صدای متن باز موزیلا بهره می‌برد که این امکان را به شما برای ساختن یک برنامه تشخیص صدا می‌دهد. <githubLink> صفحه اطلاعات گیتهاب </githubLink> ما را برای ورود به <discourseLink>گفتمان گفت‌ و گفت عمیق</discourseLink> مطالعه کنید و یادبگیرید چگونه آغاز کنید.
-common-voice-info-new = سوالی دربارهٔ آواهای مشترک دارید؟ ایده‌هایی برای بهبودسازی یا بازخوردهایی در مورد یک زبان خاص چطور؟ به <discourseLink>انجمن Discourse</discourseLink> ما بپیوندید و ما را آگاه کنید.
 data-other-librispeech-description = LibriSpeech یک قسمت تقریبا ۱۰۰۰ ساعتی از صوت 16Khz است که به زبان انگلیسی خوانده می‌شود و از کتاب‌های صوتی خوانده‌شده از پروژه LibriVox گرفته‌شده است.
 data-other-ted-name = مجموعه نوشته‌های TED-LIUM
 data-other-ted-description = مجموعه نوشته‌های TED-LIUM از گفتگو‌های صوتی و رونوشت‌های آن‌ها که در وب سایت TED در دسترس هستند، ساخته شده است.
@@ -824,6 +813,9 @@ why-delete-recordings =
     آیا می‎توانید به ما اطلاع دهید که چرا تمایل به حذف ضبط‎های خود دارید؟
 profile-form-delete = حذف نمایه
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = کارمند { $company } خوش آمدید‍!
@@ -851,4 +843,62 @@ demo-account-sign-up = ارسال پیوند عضویت
 demo-listen-subtitle = آماده مشارکت هستید؟
 
 ## Demo Dashboard
+
+
+## Validation criteria
+
+contribution-criteria-nav = معیار
+contribution-criteria-page-title = معیارهای مشارکت
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
