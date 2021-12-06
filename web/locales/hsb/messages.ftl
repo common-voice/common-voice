@@ -1186,7 +1186,38 @@ sc-lang-info-total =
         [few] { $totalSentences } dospołne sady.
        *[other] { $totalSentences } dospołnych sadow.
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Žane sady na přepruwowanje čakaja.
+        [one] { $totalInReview } sada na přepruwowanje čaka.
+        [two] { $totalInReview } sadźe na přepruwowanje čakatej.
+        [few] { $totalInReview } sady na přepruwowanje čakaja.
+       *[other] { $totalInReview } sadow na přepruwowanje čaka.
+    }
 sc-lang-info-review-now = <reviewLink>Nětko přepruwować!</reviewLink>
+sc-lang-info-add-more = <addLink>Přidajće nětko wjace sadow!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Žane wobkrućene sady.
+        [one] { $validatedSentences } wobkrućena sada.
+        [two] { $validatedSentences } wobkrućenej sadźe.
+        [few] { $validatedSentences } wobkrućene sady.
+       *[other] { $validatedSentences } wobkrućenych sadow.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Žane wotpokazane sady.
+        [one] { $validatedSentences } wotpokazana sada.
+        [two] { $validatedSentences } wotpokazanej sadźe.
+        [few] { $validatedSentences } wotpokazane sady.
+       *[other] { $validatedSentences } wotpokazanych sadow.
+    }
 
 ## LOGIN
 
@@ -1198,23 +1229,34 @@ sc-login-err-try-again = Prošu spytajće hišće raz.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Rěč njeda so wotstronić: Rěč njeje so namakała
 sc-personal-err-remove = Rěč njeda so wotstronić
 sc-personal-your-languages = Waše rěče:
 sc-personal-remove-button = wotstronić
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = Sće { $sentences } přidał
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Přepruwowanske kriterije
+sc-criteria-title = Přepruwowanske kriterije
 
 ## REVIEW
 
 sc-review-title = Sady přepruwować
 sc-review-loading = Sady so začituja…
+sc-review-select-language = Prošu wubjerće rěč, zo byšće sady přepruwował.
+sc-review-form-prompt =
+    .message = Přepruwowane sady hišće zapodate njejsu, něwěrno?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Žórło: { $sentenceSource }
 sc-review-form-button-reject = Wotpokazać
 sc-review-form-button-skip = Přeskočić
 sc-review-form-button-approve = Schwalić
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = Móžeće tež tastowe skrótšenki wužiwać: Y za schwalenje, N za wotpokazanje, S za přeskočenje
 sc-review-link = Pohódnoćić
 
 ## SETTINGS
