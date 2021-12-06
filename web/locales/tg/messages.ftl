@@ -346,6 +346,9 @@ connect-gravatar = Бо Gravatar пайваст шавед
 
 ## Profile - Email
 
+manage-subscriptions = Идоракунии обунаҳо
+manage-email-subscriptions = Идоракунии обунаҳои почтаи электронӣ
+email-already-used = Почтаи электронӣ аллакай барои ҳисоби дигар истифода мешавад
 add-language = Илова кардани забон
 
 ## FAQ
@@ -353,6 +356,7 @@ add-language = Илова кардани забон
 faq-title = Саволҳои зиёд такроршаванда
 faq-what-cv-q = «Common Voice» чист?
 faq-why-important-q = Чаро ин муҳим аст?
+faq-how-get-q = Чӣ тавр ман метавонам маълумоти «Common Voice»-ро гирам?
 faq-what-quality-q = Барои истифода бурдани клипи овозӣ дар маҷмӯаи додаҳо кадом сатҳи сифати аудио лозим аст?
 faq-what-is-cv = «Common Voice» чист?
 faq-using-cv = Истифодаи «Common Voice»
@@ -365,6 +369,10 @@ about-title = Чаро «Common Voice»?
 how-does-it-work-title = Он чӣ тавр кор мекунад?
 about-speak = Ҳарф занед
 about-listen = Гӯш кунед
+about-yes-votes = ≥ 2 овози «Ҳа»
+about-no-votes = ≥ 2 овози «Не»
+about-dataset-new = Маҷмӯаи маълумоти «Common Voice»
+about-dataset-new-text = Маҷмӯаи маълумоти «Common Voice» садҳо ҳазор намунаҳои овозиро дар бар мегирад, ки ба таҳиягарон дар сохтани асбобҳои садошиносӣ кумак мекунанд.
 about-partners = Шарикон
 about-get-involved = Ҳамроҳ шудан
 about-nav-why-common-voice = Чаро?
