@@ -1070,6 +1070,8 @@ sc-howto-review-title = Sady přepruwować
 sc-howto-review-criteria-1 = Sada dyrbi prawje napisana być.
 sc-howto-review-criteria-2 = Sada dyrbi gramatiski korektna być.
 sc-howto-review-criteria-3 = Sada dyrbi wurěkujomna być.
+sc-howto-findpd-tips = Tu su někotre pokiwy, zo byšće sady namakał:
+sc-howto-findpd-subtitle-2 = Dźěłajće z lokalnymi organizacijemi abo jednotliwcami sobu
 
 ## MY SENTENCES
 
@@ -1164,6 +1166,9 @@ sc-review-link = Pohódnoćić
 
 sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěč wužiwarskeho powjercha
+sc-validation-no-numbers = Sada njeměła ličby wobsahować
+sc-validation-no-symbols = Sada njeměła symbole wobsahować
+sc-validation-no-abbreviations = Sada njeměła skrótšenki wobsahować
 
 # [/SentenceCollector]
 
