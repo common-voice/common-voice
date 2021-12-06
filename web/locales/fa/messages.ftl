@@ -893,6 +893,10 @@ contribution-for-example = برای مثال
 contribution-misreadings-description-extended-list-4 = از دست رفتن انتهای آخرین واژه با قطع خیلی سریع ضبط.
 contribution-misreadings-description-extended-list-5 = چندین بار تلاش برای خواندن یک واژه.
 contribution-misreadings-example-3-title = دایناسورهای غول پیکر دوره تریاس.
+contribution-misreadings-example-3-explanation = [ضبط قبل از پایان واژه آخر قطع شد]
+contribution-misreadings-example-4-title = دایناسورهای غول پیکر دوره تریاس. آره.
+contribution-misreadings-example-4-explanation = [چیزی بیشتر از متن مورد نیاز ضبط شده است.]
+contribution-misreadings-example-5-title = می‌رویم بیرون قهوه بخوریم.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
