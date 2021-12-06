@@ -360,7 +360,9 @@ faq-how-get-q = Чӣ тавр ман метавонам маълумоти «Com
 faq-what-cv-and-deepspeech-q = Фарқи байни «Common Voice» ва «Deep Speech» дар чист?
 faq-is-goal-assistant-q = Оё ҳадафи «Common Voice» сохтани дастёри овозӣ аст?
 faq-do-want-native-q = Ман соҳибзабон нестам ва бо лаҳҷа ҳарф мезанам, оё шумо ҳоло ҳам садои маро мехоҳед?
+faq-why-my-lang-q = Чаро забони ман то ҳол илова карда нашудааст?
 faq-what-quality-q = Барои истифода бурдани клипи овозӣ дар маҷмӯаи додаҳо кадом сатҳи сифати аудио лозим аст?
+faq-how-calc-hours-q = «Common Voice» соатҳоро чӣ гуна ҳисоб мекунад?
 faq-what-is-cv = «Common Voice» чист?
 faq-using-cv = Истифодаи «Common Voice»
 faq-search-for-answers =
@@ -394,10 +396,12 @@ sst = Нутқ-ба-матн (STT)
 
 ## Error pages
 
+error-title-404 = Мо ин саҳифаро барои шумо ёфта натавонистем
 error-code = Рамзи хато { $code }
 
 ## Data
 
+data-download-button = Маълумоти «Common Voice»-ро боргирӣ кунед
 data-download-yes = Ҳа
 data-download-deny = Не
 data-download-license = Иҷозатнома: <licenseLink>CC-0</licenseLink>
