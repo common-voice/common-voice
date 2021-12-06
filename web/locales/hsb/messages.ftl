@@ -1151,10 +1151,41 @@ sc-confirm-sentences-found =
         [few] { $countOfSentences } sady njejsu so namakali.
        *[other] { $countOfSentences } sadow njeje so namakało.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = Sće { $countOfInvalidated } wotpokazał
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Žana sada njeje so přepruwowała.
+        [one] { $countOfReviewed } sada njeje so přepruwowała.
+        [two] { $countOfReviewed } sadźe njejstej so přepruwowałoj.
+        [few] { $countOfReviewed } sady njejsu so přepruwowali.
+       *[other] { $countOfReviewed } sadow njeje so přepruwowało.
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Žana sada za zapodaće hotowa!
+        [one] { $readyCount } sada za zapodaće hotowa!
+        [two] { $readyCount } sadźe za zapodaće hotowej!
+        [few] { $readyCount } sady za zapodaće hotowe!
+       *[other] { $readyCount } sadow za zapodaće hotowe!
+    }
 sc-confirm-button-text = Wobkrućić
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Žane dospołne sady.
+        [one] { $totalSentences } dospołna sada.
+        [two] { $totalSentences } dospołnej sadźe.
+        [few] { $totalSentences } dospołne sady.
+       *[other] { $totalSentences } dospołnych sadow.
+    }
 sc-lang-info-review-now = <reviewLink>Nětko přepruwować!</reviewLink>
 
 ## LOGIN
