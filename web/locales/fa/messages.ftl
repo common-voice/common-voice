@@ -897,6 +897,15 @@ contribution-misreadings-example-3-explanation = [ضبط قبل از پایان 
 contribution-misreadings-example-4-title = دایناسورهای غول پیکر دوره تریاس. آره.
 contribution-misreadings-example-4-explanation = [چیزی بیشتر از متن مورد نیاز ضبط شده است.]
 contribution-misreadings-example-5-title = می‌رویم بیرون قهوه بخوریم.
+contribution-misreadings-example-6-title = میریم بیرون قهوه بخوریم.
+contribution-misreadings-example-6-explanation = [باید «می‌رویم» باشد.]
+contribution-misreadings-example-7-title = می‌رویم بیرون تا یک قهوه‌ بخوریم.
+contribution-misreadings-example-7-explanation = [در متن اصلی "یک" قبل از قهوه وجود ندارد]
+contribution-varying-pronunciations-title = تلفظ های متفاوت
+contribution-background-voices-title = صداهای پس زمینه
+contribution-reader-effects-title = جلوه‌های خواننده
+see-more = <chevron> </chevron> بیشتر ببینید
+see-less = <chevron> </chevron> کمتر ببینید
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
