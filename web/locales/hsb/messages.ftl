@@ -1257,12 +1257,27 @@ sc-review-form-button-skip = Přeskočić
 sc-review-form-button-approve = Schwalić
 # Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
 sc-review-form-keyboard-usage = Móžeće tež tastowe skrótšenki wužiwać: Y za schwalenje, N za wotpokazanje, S za přeskočenje
+sc-review-form-button-submit =
+    .submitText = Pohódnoćenje dokónčić
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Žane sady přepruwowane.
+        [one] { $sentences } sada njeje so přepruwowała. Wulki dźak!
+        [two] { $sentences } sadźe njejstej so přepruwowałoj. Wulki dźak!
+        [few] { $sentences } sady njejsu so přepruwowali. Wulki dźak!
+       *[other] { $sentences } sadow njeje so přepruwowało. Wulki dźak!
+    }
 sc-review-link = Pohódnoćić
 
 ## SETTINGS
 
 sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěč wužiwarskeho powjercha
+sc-settings-failed = Nastajenja njedadźa so změnić. Prošu spytajće hišće raz.
+# VALIDATION
+sc-validation-number-of-words = Sada dyrbi mjez 1 a (inkluziwnje) 14 słowami wobsahować
 sc-validation-no-numbers = Sada njeměła ličby wobsahować
 sc-validation-no-symbols = Sada njeměła symbole wobsahować
 sc-validation-no-abbreviations = Sada njeměła skrótšenki wobsahować
