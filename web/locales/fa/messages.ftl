@@ -891,6 +891,8 @@ contribution-criteria-nav = معیار
 contribution-criteria-page-title = معیارهای مشارکت
 contribution-for-example = برای مثال
 contribution-misreadings-description-extended-list-4 = از دست رفتن انتهای آخرین واژه با قطع خیلی سریع ضبط.
+contribution-misreadings-description-extended-list-5 = چندین بار تلاش برای خواندن یک واژه.
+contribution-misreadings-example-3-title = دایناسورهای غول پیکر دوره تریاس.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
