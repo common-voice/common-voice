@@ -255,6 +255,9 @@ email-subscription-title-new = Барои хабарномаҳои «Common Voic
 ## Account Benefits
 
 benefits = Бартариҳо
+rich-data = Бо пешниҳоди баъзе маълумоти демографии ношинос маълумоти пешниҳодкардаи худро то ҳадди имкон бой кунед. Мо ҳама маълумоти демографиро пеш аз он ки оммавӣ кунем, ношинос мекунем.
+improve-audio = Маълумоти профилӣ маълумоти садоиро, ки дар омӯзиши дақиқии садошиносӣ истифода мешавад, беҳтар мекунад.
+keep-track = Пешрафт ва ченакҳои худро дар бисёр забонҳо пайгирӣ кунед.
 
 ## What's public
 
@@ -275,6 +278,9 @@ shortcut-play-toggle-label = Пахш/Таваққуф
 
 shortcut-record-toggle-label = Сабт кардан/Истодан
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Клипро аз нав сабт кунед
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Сабти ҷориро рад кунед
 shortcut-submit = Бозгашт
 request-language-button = Дархости забон
 
