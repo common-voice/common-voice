@@ -1077,6 +1077,7 @@ sc-howto-findpd-subtitle-2 = Dźěłajće z lokalnymi organizacijemi abo jednotl
 
 sc-my-title = Moje sady
 sc-my-loading = Waše sady so začituja…
+sc-my-err-fetching = Zmylk při wotwołowanju wašich sadow. Prošu spytajće hišće raz.
 sc-my-no-sentences = Žane sady namakane!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -1086,11 +1087,13 @@ sc-my-submission = Zapodaće: { $batchId }
 sc-my-source = Žórło: { $source }
 sc-my-delete = Wubrane sady zhašeć
 sc-my-deleting = Wubrane sady so zhašeja…
+sc-my-err-failed-delete = Wubrane sady njedachu so zhašeć … Prošu spytajće hišće raz!
 
 ## REJECTED
 
 sc-rejected-title = Wotpokazane sady
 sc-rejected-loading = Wotpokazane sady so začituja…
+sc-rejected-err-fetching = Zmylk při wotwołowanju wotpokazanych sadow. Prošu spytajće hišće raz.
 sc-rejected-none-found = Žane wotpokazane sady namakane!
 
 ## STATS
@@ -1107,6 +1110,7 @@ sc-stats-updating = Aktualizuje so…
 sc-submit-err-select-lang = Prošu wubjerće rěč.
 sc-submit-err-add-sentences = Prošu přidajće sady.
 sc-submit-err-add-source = Prošu přidajće žórło.
+sc-submit-err-confirm-pd = Prošu wobkrućće, zo tute sady su zjawnosći k dispoziciji.
 sc-submit-title = Sady přidać
 sc-submit-select-language =
     .labelText = Rěč wubrać
@@ -1122,11 +1126,31 @@ sc-add-lang-could-not-add = Rěč njeda so přidać
 sc-add-lang-sec-label = Přidajće rěč, ke kotrejž chceće přinošować
 sc-add-lang-sec-button = Rěč přidać
 sc-add-err-unexpected = Njewočakowana wotmołwa ze serwera
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Žane sady njejsu so poradźili
+        [one] Žane sady njejsu so poradźili
+        [two] { $sentences } sadźe njejstej so poradźiłoj
+        [few] { $sentences } sady njejsu so poradźili
+       *[other] { $sentences } sadow njeje so poradźiło
+    }
 sc-add-err-submission = Zapodawanski zmylk
 
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-sentences-title = Nowe sady wobkrućić
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Žane sady njejsu so namakali.
+        [one] { $countOfSentences } sada njeje so namakała.
+        [two] { $countOfSentences } sadźe njejstej so namakałoj.
+        [few] { $countOfSentences } sady njejsu so namakali.
+       *[other] { $countOfSentences } sadow njeje so namakało.
+    }
 sc-confirm-button-text = Wobkrućić
 
 ## LANGUAGE INFO
