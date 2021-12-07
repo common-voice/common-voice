@@ -908,6 +908,7 @@ contribution-misreadings-example-7-title = می‌رویم بیرون تا یک 
 contribution-misreadings-example-7-explanation = [در متن اصلی "یک" قبل از قهوه وجود ندارد]
 contribution-varying-pronunciations-title = تلفظ های متفاوت
 contribution-varying-pronunciations-description-extended = از طرف دیگر، اگر فکر می‌کنید که خواننده احتمالاً قبلاً هرگز با این کلمه برخورد نکرده است و صرفاً در تلفظ آن حدس نادرستی می‌زند، لطفاً رد کنید. اگر مطمئن نیستید، از دکمه پرش استفاده کنید.
+contribution-background-noise-description-extended = اگر ضبط شکسته شد، یا صدای ترق تروق داشت، آن را رد کنید، مگر اینکه هنوز تمامیت متن به درستی قابل شنیدن باشد.
 contribution-background-noise-example-2-explanation = [بخشی از متن شنیده نمی‌شود]
 contribution-background-voices-title = صداهای پس زمینه
 contribution-volume-title = بلندی صدا
