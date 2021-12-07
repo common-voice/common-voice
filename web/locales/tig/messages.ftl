@@ -866,6 +866,7 @@ demo-listen-subtitle = አግል ትሳህሞ ጃህዛም አንቱም?
 contribution-criteria-nav = መቃየሲ
 contribution-criteria-link = ናይ ሙሳሀምት መቃየሲ ፋሃሞ
 contribution-criteria-page-title = ናይ ሙሳሀምት መቃየሲ
+contribution-criteria-page-description = ክሊፕ ተስጂል ዶል ታተንሱ ሚ ላትሓዘ ፋሃሞ ው ታስጂል ሶትኩም ላሔሳ እግል ልግብአ ስደው
 contribution-for-example = መሳል
 contribution-misreadings-title = ቅርኣት ጊጊት
 contribution-misreadings-description = ዶል ታተንሶ፣ ላትሰጀላ ክምላ አትክተባ ክምጋአ ኣንደ ኣንተባህኩም ሓቀቆ; ርፎዳ ንኡሽ ክታእ ምን ትረኽቡ<br/>ላበዝሓ አክታእ ከምሰል እሊ ቱ:
