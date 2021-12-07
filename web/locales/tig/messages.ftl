@@ -855,6 +855,7 @@ demo-account-sign-up = ናይ ሕሳብ ፍትሓት link ላኣኾ
 ## Demo Contribute
 
 demo-contribute-card-header = ሶትኩም ግል ትወስኮ ኣው ኣዘንኩም ግል ታህቡና ጃህዛም ህለኹም?
+demo-contribute-card-body-v2 = ኣዘ ናይ ሕበር ሶት ሚቱ ኣመርኩም ፣ ኣፎ ኢትጀሩባ? ዓላመት ማክረፎን እንደ ጨቀጥኩም እብ ሶት ውቁል ጁምለት ቅሮኣ  <br/><br/> ናይ ፀርኩም ናይ ሶት ተበሩዓት ታሓቅቆ ምን ታሓዙ፣ ናይ play ዓላመት ጭቃጦ። ላ ተስጂል ከማ ክታበት ከም ጋኣ እግታኣኸዶ ቱ ።
 demo-listen-subtitle = አግል ትሳህሞ ጃህዛም አንቱም?
 
 ## Demo Dashboard
