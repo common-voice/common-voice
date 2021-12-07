@@ -1070,11 +1070,14 @@ sc-howto-review-title = Sady pśeglědaś
 sc-howto-review-criteria-1 = Sada musy pšawje napisana byś.
 sc-howto-review-criteria-2 = Sada musy gramatiski korektna byś.
 sc-howto-review-criteria-3 = Sada musy wugranjajobna byś.
+sc-howto-findpd-tips = How su někotare pokaze, aby wy sady namakał:
+sc-howto-findpd-subtitle-2 = Źěłajśo z lokalnymi organizacijami abo jadne same gromadu
 
 ## MY SENTENCES
 
 sc-my-title = Móje sady
 sc-my-loading = Waše sady se zacytuju…
+sc-my-err-fetching = Zmólka pśi wótwołowanju wašych sadow. Pšosym wopytajśo hyšći raz.
 sc-my-no-sentences = Žedne sady namakane!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -1084,11 +1087,13 @@ sc-my-submission = Zapódaśe: { $batchId }
 sc-my-source = Žrědło: { $source }
 sc-my-delete = Wubrane sady lašowaś
 sc-my-deleting = Wubrane sady se lašuju…
+sc-my-err-failed-delete = Wubrane sady njejsu se dali lašowaś … Pšosym wopytajśo hyšći raz!
 
 ## REJECTED
 
 sc-rejected-title = Wótpokazane sady
 sc-rejected-loading = Wótpokazane sady se zacytuju…
+sc-rejected-err-fetching = Zmólka pśi wótwołowanju wótpokazanych sadow. Pšosym wopytajśo hyšći raz.
 sc-rejected-none-found = Žedne wótpokazane sady namakane!
 
 ## STATS
@@ -1105,6 +1110,7 @@ sc-stats-updating = Aktualizěrujo se…
 sc-submit-err-select-lang = Pšosym wubjeŕśo rěc.
 sc-submit-err-add-sentences = Pšosym pśidajśo sady.
 sc-submit-err-add-source = Pšosym pśidajśo žrědło.
+sc-submit-err-confirm-pd = Pšosym wobkšuśćo, až toś te sady su zjawnosći k dispoziciji.
 sc-submit-title = Sady pśidaś
 sc-submit-select-language =
     .labelText = Rěc wubraś
@@ -1120,16 +1126,98 @@ sc-add-lang-could-not-add = Rěc njedajo se pśidaś
 sc-add-lang-sec-label = Pśidajśo rěc, ku kótarejž cośo pśinosowaś
 sc-add-lang-sec-button = Rěc pśidaś
 sc-add-err-unexpected = Njewótčakane wótegrono ze serwera
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Žedne sady njejsu se raźili
+        [one] { $sentences } sada njejo se raźiła
+        [two] { $sentences } saźe njejstej se raźiłej
+        [few] { $sentences } sady njejsu se raźili
+       *[other] { $sentences } sadow njejo se raźiło
+    }
 sc-add-err-submission = Zapódawańska zmólka
 
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-sentences-title = Nowe sady wobkšuśiś
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Žedne sady njejsu se namakali.
+        [one] { $countOfSentences } sada njejo se namakała.
+        [two] { $countOfSentences } saźe njejstej se namakałej.
+        [few] { $countOfSentences } sady njejsu se namakali.
+       *[other] { $countOfSentences } sadow njejo se namakało.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = Sćo wótpokazał { $countOfInvalidated }
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Žedna sada njejo se pśeglědała.
+        [one] { $countOfReviewed } sada jo se južo pśeglědała. Wjelicne źěło!
+        [two] { $countOfReviewed } saźe stej se južo pśeglědałej. Wjelicne źěło!
+        [few] { $countOfReviewed } sady su se južo pśeglědali. Wjelicne źěło!
+       *[other] { $countOfReviewed } sadow jo se južo pśeglědało. Wjelicne źěło!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Žedna sada gótowa za zapódaśe!
+        [one] { $readyCount } sada gótowa za zapódaśe!
+        [two] { $readyCount } saźe gótowej za zapódaśe!
+        [few] { $readyCount } sady gótowe za zapódaśe!
+       *[other] { $readyCount } sadow gótowe za zapódaśe!
+    }
 sc-confirm-button-text = Wobkšuśiś
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Žedne dopołne sady.
+        [one] { $totalSentences } dopołna sada.
+        [two] { $totalSentences } dopołnej saźe.
+        [few] { $totalSentences } dopołne sady.
+       *[other] { $totalSentences } dopołnych sadow.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Žedne sady na pśeglědanje njecakaju.
+        [one] { $totalInReview } sada na pśeglědanje caka.
+        [two] { $totalInReview } saźe na pśeglědanje cakatej.
+        [few] { $totalInReview } sady na pśeglědanje cakaju.
+       *[other] { $totalInReview } sadow na pśeglědanje caka.
+    }
 sc-lang-info-review-now = <reviewLink>Něnto pśeglědowaś!</reviewLink>
+sc-lang-info-add-more = <addLink>Pśidajśo něnto wěcej sadow!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Žedne wobkšuśone sady.
+        [one] { $validatedSentences } wobkšuśona sada.
+        [two] { $validatedSentences } wobkšuśonej saźe.
+        [few] { $validatedSentences } wobkšuśone sady.
+       *[other] { $validatedSentences } wobkšuśonych sadow.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Žedne wótpokazane sady.
+        [one] { $validatedSentences } wótpokazana sada.
+        [two] { $validatedSentences } wótpokazanej saźe.
+        [few] { $validatedSentences } wótpokazane sady.
+       *[other] { $validatedSentences } wótpokazanych sadow.
+    }
 
 ## LOGIN
 
@@ -1141,29 +1229,61 @@ sc-login-err-try-again = Pšosym wopytajśo hyšći raz.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Rěc njedajo se wótwónoźeś: Rěc njejo se namakała
 sc-personal-err-remove = Rěc njedajo se wótwónoźeś
 sc-personal-your-languages = Waše rěcy:
 sc-personal-remove-button = wótwónoźeś
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = Sćo pśidał { $sentences }
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Pśeglědowańske kriterije
+sc-criteria-title = Pśeglědowańske kriterije
+sc-criteria-item-1 = Sada musy pšawje napisana byś.
+sc-criteria-item-2 = Sada musy gramatiski korektna byś.
+sc-criteria-item-3 = Sada musy wugranjajobna byś.
 
 ## REVIEW
 
 sc-review-title = Sady pśeglědaś
 sc-review-loading = Sady se zacytuju…
+sc-review-select-language = Pšosym wubjeŕśo rěc, aby sady pśeglědował.
+sc-review-form-prompt =
+    .message = Pśeglědane sady hyšći njejsu zapódane, nic ga?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Žrědło: { $sentenceSource }
 sc-review-form-button-reject = Wótpokazaś
 sc-review-form-button-skip = Pśeskócyś
 sc-review-form-button-approve = Pśizwóliś
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = Móžośo teke tastowe skrotconki wužywaś: Y za pśizwólenje, N za wótpokazanje, S za pśeskócenje
+sc-review-form-button-submit =
+    .submitText = Pógódnośenje dokóńcyś
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Žedne sady pśeglědane.
+        [one] { $sentences } sada jo se pśeglědała. Wjeliki źěk!
+        [two] { $sentences } saźe stej se pśeglědałej. Wjeliki źěk!
+        [few] { $sentences } sady su se pśeglědali. Wjeliki źěk!
+       *[other] { $sentences } sadow jo se pśeglědało. Wjeliki źěk!
+    }
 sc-review-link = Pógódnośiś
 
 ## SETTINGS
 
 sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěc wužywaŕskego pówjercha
+sc-settings-failed = Nastajenja njedaju se změniś. Pšosym wopytajśo hyšći raz.
+# VALIDATION
+sc-validation-number-of-words = Sada musy mjazy 1 a (inkluziwnje) 14 słowami wopśimowaś
+sc-validation-no-numbers = Sada njeměła licby wopśimowaś
+sc-validation-no-symbols = Sada njeměła symbole wopśimowaś
+sc-validation-no-abbreviations = Sada njeměła skrotconki wopśimowaś
 
 # [/SentenceCollector]
 
