@@ -1071,7 +1071,7 @@ sc-howto-review-criteria-1 = Sada dyrbi prawje napisana być.
 sc-howto-review-criteria-2 = Sada dyrbi gramatiski korektna być.
 sc-howto-review-criteria-3 = Sada dyrbi wurěkujomna być.
 sc-howto-findpd-tips = Tu su někotre pokiwy, zo byšće sady namakał:
-sc-howto-findpd-subtitle-2 = Dźěłajće z lokalnymi organizacijemi abo jednotliwcami sobu
+sc-howto-findpd-subtitle-2 = Dźěłajće z lokalnymi organizacijemi abo jednotliwcami hromadźe
 
 ## MY SENTENCES
 
@@ -1131,7 +1131,7 @@ sc-add-err-unexpected = Njewočakowana wotmołwa ze serwera
 sc-add-err-failed =
     { $sentences ->
         [0] Žane sady njejsu so poradźili
-        [one] Žane sady njejsu so poradźili
+        [one] { $sentences } sada njeje so poradźiła
         [two] { $sentences } sadźe njejstej so poradźiłoj
         [few] { $sentences } sady njejsu so poradźili
        *[other] { $sentences } sadow njeje so poradźiło
@@ -1157,10 +1157,10 @@ sc-confirm-rejected-by-you = Sće { $countOfInvalidated } wotpokazał
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Žana sada njeje so přepruwowała.
-        [one] { $countOfReviewed } sada njeje so přepruwowała.
-        [two] { $countOfReviewed } sadźe njejstej so přepruwowałoj.
-        [few] { $countOfReviewed } sady njejsu so přepruwowali.
-       *[other] { $countOfReviewed } sadow njeje so přepruwowało.
+        [one] { $countOfReviewed } sada jo so hižo přepruwowała. Wulkotne dźěło!
+        [two] { $countOfReviewed } sadźe stej so hižo přepruwowałoj. Wulkotne dźěło!
+        [few] { $countOfReviewed } sady su so hižo přepruwowali. Wulkotne dźěło!
+       *[other] { $countOfReviewed } sadow je so hižo přepruwowało. Wulkotne dźěło!
     }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
@@ -1190,7 +1190,7 @@ sc-lang-info-total =
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
-        [0] Žane sady na přepruwowanje čakaja.
+        [0] Žane sady na přepruwowanje nječakaja.
         [one] { $totalInReview } sada na přepruwowanje čaka.
         [two] { $totalInReview } sadźe na přepruwowanje čakatej.
         [few] { $totalInReview } sady na přepruwowanje čakaja.
@@ -1264,10 +1264,10 @@ sc-review-form-button-submit =
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Žane sady přepruwowane.
-        [one] { $sentences } sada njeje so přepruwowała. Wulki dźak!
-        [two] { $sentences } sadźe njejstej so přepruwowałoj. Wulki dźak!
-        [few] { $sentences } sady njejsu so přepruwowali. Wulki dźak!
-       *[other] { $sentences } sadow njeje so přepruwowało. Wulki dźak!
+        [one] { $sentences } sada je so přepruwowała. Wulki dźak!
+        [two] { $sentences } sadźe stej so přepruwowałoj. Wulki dźak!
+        [few] { $sentences } sady su so přepruwowali. Wulki dźak!
+       *[other] { $sentences } sadow je so přepruwowało. Wulki dźak!
     }
 sc-review-link = Pohódnoćić
 
