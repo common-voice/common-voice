@@ -578,7 +578,7 @@ other-language = ብዕድ ሉቀት
 
 ## Languages Overview
 
-language-section-in-progress = ልትጃሃዝ ላሃለያ
+language-section-in-progress = ልትጃሃዛ ላህለያ
 language-section-in-progress-new-description = እለን ሉቃት እለን ላ ማሕበር ኣዘ ለጠውረን ሃላ ፣ ሸሪጥ ናይ ተቀዱም ኩላ ሉቀት አያ ባጽሓት ከም ህሌት ዲብ <localizationGlossaryLink>ላማውቅዕ ተርጃመት</localizationGlossaryLink> ው <sentenceCollectionGlossaryLink>ጁመል እካቦት</sentenceCollectionGlossaryLink>ላሓበር
 language-section-launched = ላትጃሃዘያ
 language-section-launched-description = እግል እለን ላትጃሃዘያ ሎቃት ላመውቂዕ (website) ሰኒ <localizationGlossaryLink>ተርጀማ</localizationGlossaryLink>, ው ካፊ  <sentenceCollectionGlossaryLink>ላትጃምዓያ ጁመል</sentenceCollectionGlossaryLink>ሃላ እግሉ እግል<speakLink>ሂጋ</speakLink> ው <listenLink>ስምዓት</listenLink>ተበሩዓት ላገብእ
@@ -588,7 +588,7 @@ language-meter-in-progress = ትቀዱም
 language-total-progress = ኩሉ ምስል
 language-search-input =
     .placeholder = ቆቅሎ
-language-speakers = ሄግያይ
+language-speakers = ተሄግያይያም
 localized = ትርጅምት
 sentences = ጁመል
 total-hours = ለትሓቀቀያ ሳዓት
