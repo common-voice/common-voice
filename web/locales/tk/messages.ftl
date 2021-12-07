@@ -212,6 +212,24 @@ wall-of-text-first = Ses tebigydyr, ses adamzada mahsusdyr. Hut şonuň üçin-e
 wall-of-text-second = Uly kompaniýalar tarapyndan ulanylýan maglumatlaryň köpüsi adamlaryň köpüsine elýeterli däl. Biziň pikirimizçe bu innowasiýa bökdençlik döredýär. Şonuň üçin, biz ses tanamagy hemme kişä açyk we elýeterli etmek üçin Common Voice taslamasyna başladyk.
 show-wall-of-text = Goşmaça oka
 help-us-title = Sözlemleri barlamaga bize kömek ediň!
+help-us-explain = Aýtdyr-a basyň, diňläň we bize aýdyň: olar aşakdaky sözlemi dogry aýtdylarmy?
+no-clips-to-validate = Bu dilde diňlemek üçin ses ýazgylary ýok ýaly. Häzir käbirlerini ýazga alyp, nobaty doldurmaga kömek ediň.
+vote-yes = Hawa
+vote-no = Ýok
+toggle-play-tooltip = Aýtdyrmak tertibini çalyşmak üçin { shortcut-play-toggle } basyň
+speak-subtitle = Sesiňizi peşgeş beriň
+speak-paragraph = Ses kliplerini ýazga almak açyk maglumat bazamyzy gurmagyň aýrylmaz bölegidir; käbirleri üçin işiň gyzykly tarapy hem şu.
+speak-goal-text = Ýazga alnan klipler
+listen-subtitle = Sesleri barlamaga bize kömek ediň
+listen-paragraph = Bagyş edilen klipleri barlamak Common Voice missiýasy üçin deň derejede möhümdir. Diňläp görüň we ýokary hilli açyk sesli maglumatlary döretmäge kömek ediň.
+listen-goal-text = Barlanan klipler
+hours-recorded = Ýazga alnan sagatlar
+hours-validated = Barlanan sagatlar
+voices-online = Häzir onlaýn sesler
+todays-progress = Şu günki öňegidişlik
+help-reach-goal = { $goal } maksada ýetmäge kömek ediň
+read-terms-q = Düzgünlerimizi okap gördüňizmi?
+ready-to-record = Sesiňizi bagyş etmäge taýýarmy?
 
 ## Account Benefits
 
