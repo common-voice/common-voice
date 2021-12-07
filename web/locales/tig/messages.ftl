@@ -185,7 +185,6 @@ speak = ታሃገ
 speak-now = ኣዜ ታሃገ
 datasets = መጅሙዓት በያናት
 languages = ሉቃት
-about = መን እንሕና
 profile = ናይ ኖስ መለፍ
 help = ስድየት
 contact = ተዋሱል
