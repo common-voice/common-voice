@@ -214,6 +214,7 @@ listen-subtitle = ꯑꯩꯈꯣꯢꯕꯨ ꯃꯇꯦꯡ ꯄꯥꯡꯉꯨ ꯈꯣꯟ�
 todays-progress = ꯉꯁꯤꯒꯤ ꯈꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯟꯂꯛꯄꯁꯤꯡ
 help-reach-goal = { $goal } ꯑꯁꯤ ꯌꯧꯅꯕ ꯑꯩꯈꯣꯏ ꯃꯇꯦꯡ ꯄꯥꯡꯎ
 read-terms-q = ꯑꯩꯈꯣꯏꯅ ꯌꯥꯅꯕ ꯃꯇꯥꯡꯗꯨ ꯅꯍꯥꯛ ꯄꯥꯔꯕ꯭ꯔꯥ?
+ready-to-record = ꯅꯍꯥꯛꯀꯤ ꯈꯧꯟꯖꯦꯜ ꯈꯨꯗꯣꯜ ꯇꯧꯅꯕ ꯊꯧꯔꯥꯡ ꯇꯧꯔꯣ?
 all-locales = ꯑꯄꯨꯟꯕ
 today = ꯉꯁꯤ
 x-weeks-short =
@@ -231,6 +232,7 @@ x-years-short =
         [one] ꯆꯩꯍꯤ ꯱
        *[other] ꯆꯩꯍꯤ { $count }
     }
+help-make-dataset = ꯃꯇꯤꯡ ꯂꯩꯕ , ꯃꯤꯌꯥꯝꯅ ꯂꯥꯏꯅ ꯁꯤꯖꯤꯟꯅꯕ ꯌꯥꯕ ꯗꯥꯇꯥꯁꯦꯠ ꯁꯥꯕꯗ ꯃꯇꯦꯡ ꯄꯥꯡꯉꯨ
 sign-up-account = ꯑꯦꯀꯥꯎꯟ ꯱ ꯁꯦꯝꯅꯕ ꯃꯤꯡ ꯄꯤꯁꯤꯟꯂꯨ
 email-subscription-title = ꯢꯃꯦꯜ ꯅꯧꯊꯣꯛꯅꯕ ꯃꯤꯡ ꯄꯤꯁꯤꯟꯂꯨ
 
