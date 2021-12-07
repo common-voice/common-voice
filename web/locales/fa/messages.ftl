@@ -892,6 +892,7 @@ demo-dashboard-card-header = داشبوردهای شخصی، شما را با پ
 
 contribution-criteria-nav = معیار
 contribution-criteria-page-title = معیارهای مشارکت
+contribution-criteria-page-description = بدانید که هنگام گوش‌دادن به کلیپ‌های صوتی دنبال چه چیزی باشید و ضبط‌های خود را نیز بهتر کنید!
 contribution-for-example = برای مثال
 contribution-misreadings-title = خوانش‌های نادرست
 contribution-misreadings-description = هنگام گوش دادن، با دقت بررسی کنید که آنچه ضبط شده دقیقاً همان چیزی است که نوشته شده. حتی در صورت وجود خطاهای جزئی نیز رد کنید. <br /> اشتباهات بسیار رایج عبارتند از:
