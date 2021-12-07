@@ -152,6 +152,7 @@ te = Телугунь кяль
 tg = Таджиконь кяль
 th = Таецонь кяль
 ti = Тигриньянь кяль
+tk = туркань
 tl = Тагалогонь кяль
 tr = Туркань кяль
 tt = Татаронь кяль
@@ -325,8 +326,13 @@ profile-form-native-language =
     .label = Тядянь-авань кяль
 profile-form-additional-language =
     .label = Лия кяль
+profile-form-language =
+    .label = кяль
 profile-form-accent =
     .label = Кортафкс
+profile-form-custom-accent-help-text =
+    .label = Кода ба тон сёрмадолеть эсь корхтамацень колга?
+profile-form-custom-accent-placeholder-2 = Ушетт печатлама, штоба азондомс эсь корхтамацень колга
 profile-form-age =
     .label = Кизотне
 profile-form-gender-2 =
@@ -337,6 +343,7 @@ hidden = Кяшф
 visible = Неяви
 native-language =
     .label = Тядянь-авань кяль
+profile-form-add-accent = Сувафтомс од корхтама "{ $inputValue }"
 profile-form-submit-save = Ванфтомс
 profile-form-submit-saved = Вантф
 male = Аля
@@ -370,6 +377,7 @@ skip-submission-description = "Кучемс" повнять люпштамда �
 skip-submission-note = Тяшкстаф: тейть сави кочкамс вайгялень сёрмадомась али кулхцондомась, штоба полафтомс путфксонь типсь
 off = Пякстамс
 on = Нолдамс
+help-accent = Эряви лезкс корхтамать шарьхкодемаса?
 
 ## Profile - Email
 
@@ -827,6 +835,7 @@ download-size = Оцюлма
 download-request-button = Таргамс
 download-request-title = { $created }
 download-request-refresh-button = Одкстоптомс
+download-request-modal-title = Материалонь таргаманди ссылка
 download-request-metadata-link = Валрисьмонь текст
 
 ## Landing
@@ -910,3 +919,56 @@ contribution-volume-title = Кайгиксши
 contribution-just-unsure-title = Аф кемат? /Кафтолдат?
 see-more = Няемс сяда лама
 see-less = <chevron></chevron>Няемс сяда аф лама
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
