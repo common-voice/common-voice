@@ -213,6 +213,7 @@ speak-subtitle = ꯅꯍꯥꯛꯀꯤ ꯈꯣꯟꯖꯦꯜ ꯈꯨꯗꯣꯜ ꯇꯝꯊ
 listen-subtitle = ꯑꯩꯈꯣꯢꯕꯨ ꯃꯇꯦꯡ ꯄꯥꯡꯉꯨ ꯈꯣꯟꯖꯦꯜꯁꯤꯡ ꯆꯨꯝꯍꯟꯕꯗ
 todays-progress = ꯉꯁꯤꯒꯤ ꯈꯨꯃꯥꯡ ꯆꯥꯎꯁꯤꯟꯂꯛꯄꯁꯤꯡ
 help-reach-goal = { $goal } ꯑꯁꯤ ꯌꯧꯅꯕ ꯑꯩꯈꯣꯏ ꯃꯇꯦꯡ ꯄꯥꯡꯎ
+read-terms-q = ꯑꯩꯈꯣꯏꯅ ꯌꯥꯅꯕ ꯃꯇꯥꯡꯗꯨ ꯅꯍꯥꯛ ꯄꯥꯔꯕ꯭ꯔꯥ?
 all-locales = ꯑꯄꯨꯟꯕ
 today = ꯉꯁꯤ
 x-weeks-short =
