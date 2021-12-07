@@ -202,6 +202,16 @@ logout = Hasapdan çyk
 
 ## Home Page
 
+home-title = “Common Voice”, Mozillanyň maşynlara hakyky adamlaryň gürleýşini öwretmäge kömek etmek üçin ornaşdyrýan başlangyjydyr.
+default-tagline = Mozilla Common Voice maşynlara hakyky adamlaryň gürleýşini öwretmäge kömek etmek üçin ornaşdyrylýan başlangyçdyr.
+home-cta = Gepläň, şu ýerden goşant goşuň!
+wall-of-text-start = Ses tebigydyr, ses adamzada mahsusdyr. Hut şonuň üçin-em biz maşynlarymyz üçin ulanyp bolýan ses tehnologiýasyny döretmek bilen gyzyklanýarys. Emma ses ulgamlaryny döretmek üçin, bize örän uly mukdarda ses maglumaty gerek.
+wall-of-text-more-mobile = Uly kompaniýalar tarapyndan ulanylýan maglumatlaryň köpüsi adamlaryň köpüsine elýeterli däl. Biziň pikirimizçe bu innowasiýa bökdençlik döredýär. Şonuň üçin, biz ses tanamagy hemme kişä açyk etmek üçin Common Voice taslamasyna başladyk.
+wall-of-text-more-desktop = Indi siz islendik adamyň enjamlar we web üçin innowatiw programmalary ulanyp bilmegi üçin bize açyk çeşme ses maglumat bazasyny gurmaga öz sesiňizi peşgeş bermek arkaly kömek edip bilersiňiz. Maşynlara hakyky adamlaryň gepleýşini öwretmek üçin bir sözlem okaň. Hili gowulandyrmak üçin başga goşantçylaryň işini barlaň. Şolar ýaly aňsat!
+wall-of-text-first = Ses tebigydyr, ses adamzada mahsusdyr. Hut şonuň üçin-em biz maşynlarymyz üçin ulanyp bolýan ses tehnologiýasyny döretmek bilen gyzyklanýarys. Emma ses ulgamlaryny döretmek üçin, işläp düzüjilere örän uly mukdarda ses maglumaty gerek.
+wall-of-text-second = Uly kompaniýalar tarapyndan ulanylýan maglumatlaryň köpüsi adamlaryň köpüsine elýeterli däl. Biziň pikirimizçe bu innowasiýa bökdençlik döredýär. Şonuň üçin, biz ses tanamagy hemme kişä açyk we elýeterli etmek üçin Common Voice taslamasyna başladyk.
+show-wall-of-text = Goşmaça oka
+help-us-title = Sözlemleri barlamaga bize kömek ediň!
 
 ## Account Benefits
 
