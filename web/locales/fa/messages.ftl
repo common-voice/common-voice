@@ -837,11 +837,13 @@ download-profile-title = نمایه
 download-profile-size = چند بایت
 download-recordings-title = ضبط شده‌ها
 download-recordings-info = شامل mp3ها و جملات مرتبط است، ممکن است آماده شدن کمی طول بکشد
+download-recordings-unavailable = مادامی که درخواست دیگری در حال انجام است، نمی‌توانید ضبط‌های خود را درخواست کنید.
 download-size = اندازه
 download-selected = انتخاب شده
 download-start = بارگیری داده‌های نمایه
 download-request = درخواست ضبط‌ها
 download-requests = درخواست‌های بارگیری ضبط‌های گذشته
+download-requests-info = هنگامی که ضبط‌های خود را درخواست می‌کنید، ما آن‌ها را در یک یا چند فایل ZIP جمع آوری می کنیم. در اینجا درخواست‌های قبلی شما آمده است:
 download-request-button = بارگیری
 download-request-title = { $created }
 download-request-description = { $clipCount } کلیپ صوتی، { $size } اندازهٔ کل بایگانی. در { $expires } منقضی می‌شود.
@@ -867,6 +869,7 @@ card-button-next = بعدی
 card-button-back = عقب
 demo-language-select-label = زبان‌های مرورگر
 demo-eofy-header = انتشار پایان سال 2019
+demo-eofy-sub_header = مجموعه‌ی داده‌های صوتی آماده‌ی بارگیری‌ست
 demo-account = حساب
 
 ## Demo Account
