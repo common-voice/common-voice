@@ -1,5 +1,8 @@
 ## General
 
+yes-receive-emails = Hawa, maňa e-poçta iber. Men Common Voice taslamasy barada maglumat alyp durmak isleýärin.
+stayintouch = Biz Mozilla-da ses tehnologiýalary boýunça jemgyýeti döredýäris. Biz täzelenmeleri, täze maglumat çeşmelerini paýlaşyp habarlaşyp durmak hem-de maglumaty nähili ulanýandygyňyz barada sizden habar almak isleýäris.
+privacy-info = Biz siziň maglumatyňyzy aýratyn üns bilen işlejekdigimize söz berýäris. Bu barada <privacyLink>Ýaşyrynlyk bildirişinde</privacyLink> okaň.
 return-to-cv = Common Voice-a dolan
 email-input =
     .label = E-poçta
