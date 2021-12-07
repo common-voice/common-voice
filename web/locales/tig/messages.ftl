@@ -291,7 +291,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = ልሰጀል ልህላ ዎርክዮ
 shortcut-submit = ዓቅብል
 shortcut-submit-label = ክሊፕ ላኣኮ
-request-language-text = ሉቅትኩም ኣስኽ ኣዜ የህሌትኒ ዲብ ሶት ሕበር ?
+request-language-text = ኣስኽ ኣዜ ሉቅትኩም የህሌትኒ ዲብ ሶት ሕበር ?
 request-language-text-learn = ከፎ ከም ትጠልቦ አንዘ ኣምሮ!
 request-language-button = ሉቀት ጥለቦ
 
@@ -579,9 +579,9 @@ other-language = ብዕድ ሉቀት
 ## Languages Overview
 
 language-section-in-progress = ልትጃሃዛ ላህለያ
-language-section-in-progress-new-description = እለን ሉቃት እለን ላ ማሕበር ኣዘ ለጠውረን ሃላ ፣ ሸሪጥ ናይ ተቀዱም ኩላ ሉቀት አያ ባጽሓት ከም ህሌት ዲብ <localizationGlossaryLink>ላማውቅዕ ተርጃመት</localizationGlossaryLink> ው <sentenceCollectionGlossaryLink>ጁመል እካቦት</sentenceCollectionGlossaryLink>ላሓበር
+language-section-in-progress-new-description = እለን ሉቃት እለን ላ ማሕበር ኣዘ ለጠውረን ሃላ ፣ ሸሪጥ ናይ ተቀዱም ኩላ ሉቀት አያ ባጽሓት ከም ህሌት ዲብ <localizationGlossaryLink>ላማውቅዕ ተርጃመት</localizationGlossaryLink> ው <sentenceCollectionGlossaryLink>ጁመል እካቦት </sentenceCollectionGlossaryLink>ላሓበር
 language-section-launched = ላትጃሃዘያ
-language-section-launched-description = እግል እለን ላትጃሃዘያ ሎቃት ላመውቂዕ (website) ሰኒ <localizationGlossaryLink>ተርጀማ</localizationGlossaryLink>, ው ካፊ  <sentenceCollectionGlossaryLink>ላትጃምዓያ ጁመል</sentenceCollectionGlossaryLink>ሃላ እግሉ እግል<speakLink>ሂጋ</speakLink> ው <listenLink>ስምዓት</listenLink>ተበሩዓት ላገብእ
+language-section-launched-description = እግል እለን ላትጃሃዘያ ሉቃት ላመውቂዕ (website) ሰኒ <localizationGlossaryLink>ትርጁም</localizationGlossaryLink>, ው ካፊ  <sentenceCollectionGlossaryLink>ላትጃምዓያ ጁመል</sentenceCollectionGlossaryLink> ሃላ እግሉ እግል<speakLink>ሂጋ</speakLink> ው <listenLink>ስምዓት</listenLink> ተበሩዓት ላገብእ
 languages-show-more = ዝያደት ረኤ
 languages-show-less = ሑድ ረኤ
 language-meter-in-progress = ትቀዱም
