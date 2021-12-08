@@ -19,7 +19,7 @@ The Sentence Extractor is a tool that can scrape public domain data sources for 
 
 ## Bulk submission
 
-If you know of a public domain corpus of sentences with more than 100k sentences, you can manually submit a pull request to add this as a bulk dataset. However, you will need to manually perform QA (quality assurance) to make sure the sentences are valid and high-quality.
+If you know of a public domain corpus of sentences with more than 10k sentences, you can manually submit a pull request to add this as a bulk dataset. However, you will need to manually perform QA (quality assurance) to make sure the sentences are valid and high-quality.
 
 [This Discourse post](https://discourse.mozilla.org/t/using-the-europarl-dataset-with-sentences-from-speeches-from-the-european-parliament/50184) has a more detailed guide for how to do manual QA, but in brief:
 
@@ -32,7 +32,7 @@ We're looking for less than 5% of error rate on the random sample. You can use [
 
 Feel free to set up this QA however makes most sense for you, but here's a [sample Google Spreadsheets template](https://docs.google.com/spreadsheets/d/1dJpysfcwmUwR4oJuw5ttGcUFYLeTbmn50Fpufz9qx-8/edit#gid=0).
 
-Once the review is complete, submit a pull request with the # of sentences submitted, a link to the manual QA results, and the % error rate. Here's [an example PR](https://github.com/mozilla/common-voice/pull/2873).
+Once the review is complete, submit a pull request with the # of sentences submitted, a link to the manual QA results, and the % error rate. Here's [an example PR](https://github.com/mozilla/common-voice/pull/2873). Please make sure the sentences are in a plain `.txt` file with one sentence per line.
 
 ## Flagging problematic sentences
 
