@@ -281,9 +281,10 @@ shortcut-vote-no = e
 shortcut-record-toggle = g
 shortcut-record-toggle-label = Grabatu/Gelditu
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Birgrabatutako grabaketa
+shortcut-rerecord-toggle-label = Grabatu berriz
 shortcut-discard-ongoing-recording = ESK
 shortcut-submit = Sartu
+shortcut-submit-label = Gorde grabaketak
 request-language-text = Ez duzu zure hizkuntza Common Voicen ikusten oraindik?
 request-language-button = Eskatu hizkuntza bat
 
@@ -864,3 +865,56 @@ contribution-criteria-page-title = Parte hartzeko irizpideak
 contribution-volume-title = Bolumena
 see-more = <chevron></chevron>Ikusi gehiago
 see-less = <chevron></chevron>Ikusi gutxiago
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
