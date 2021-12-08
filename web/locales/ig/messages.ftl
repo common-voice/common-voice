@@ -839,12 +839,21 @@ download-request-metadata-link = Èdèrèdé áhị́rị́ókwú
 
 ## Landing
 
+welcome-staff = Ǹnọ́ọ̀ { $company } ónyé ọ́rụ́!
+help-contribute = Ị́ nwèrè íké ínyé áká wúó ọ́wà ụ́yọ̀kọ̀ ńgwá ńchọ́chá dị́ íchè íché gá-ádị́ màkà ónyé ọ̀bụ́là (open-source dataset) síté nà íképụ̀tà èjìrìmárá ǹkè gị́ nà Common Voice mà tụ́nyékwá òkè ólú ókwú.
+login-company = Jìrí íméèlụ̀ (email){ $company } bànyé/Débànyé áhà
+profile-not-required = Énwéghị́ èjìrìmárá (profaịlụ) ápụ́tàghị̀ nà Ị́ gághị̀ àtụ́nyé òkè, mànà ọ́ nà-ènyé áká. Lèé íhé kpátárá ǹké à n'òkpúrù.
+read-more-about = Gụ̀kwúó n'íhú íbé íhé gbàsárá ányị́
 
 ## DemoLayout
 
+demo-get-started = Kà ànyị́ bídó
+demo-welcome = Ǹnọ́ọ̀ nà Common Voice
+demo-welcome-subheader = Ị̀ nwèrè ḿmásị́ ị́gụ́kwú nà n'ị́tụ̀nyé òkè n'ámụ̀má à?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice bụ̀ ụ́yọ̀kọ̀ ńgwá ńchọ́chá ólú ókwú (voice dataset) n'ọ̀tụ́tụ́ ásụ̀sụ́ dị́ màkà ónyé ọ̀bụ́là ma káchásị́ íbù n'ụ̀wà.
 
 ## Demo Account
 
