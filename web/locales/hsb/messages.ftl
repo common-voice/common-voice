@@ -1295,12 +1295,15 @@ sc-review-form-reviewed-message =
         [few] { $sentences } sady su so přepruwowali. Wulki dźak!
        *[other] { $sentences } sadow je so přepruwowało. Wulki dźak!
     }
+sc-review-form-review-failure = Pohódnoćenje njeda so składować. Prošu spytajće pozdźišo hišće raz.
 sc-review-link = Pohódnoćić
 
 ## SETTINGS
 
 sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěč wužiwarskeho powjercha
+sc-settings-reset-skipped = Přeskočene sady wróćo stajić
+sc-settings-show-all-button = Wšě přeskočene sady hišće raz pokazać
 sc-settings-failed = Nastajenja njedadźa so změnić. Prošu spytajće hišće raz.
 # VALIDATION
 sc-validation-number-of-words = Sada dyrbi mjez 1 a (inkluziwnje) 14 słowami wobsahować
