@@ -737,6 +737,23 @@ easy-difficulty = M̀fé
 average-difficulty = Ǹhàtùàhú
 difficult-difficulty = Sìrì íké
 pro-difficulty = Ọ̀kàchàsị̀ márá
+lose-goal-progress-warning = Síté nà ídēzíghárị́ èbùmnúché, Ị́ nwèrè íké ítúfù àgàmníhú Ị́ nwètàràlà.
+want-to-continue = Ị chọrọ ịga n'ihu?
+finish-editing = Bùrú ụ́zọ̀ dèzíghárị́cháá?
+lose-changes-warning = Ị́hápụ̀ ùgbú à pụ̀tàrà nà Ị́ gà-àtụ́fù ḿgbánwè níílé Ị́ tìnyèrè
+build-custom-goal = Wùlíté èbùmnúché ǹkè áká gị́
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Nyé áká kà é jìrí èbùmnúché ǹkè ónwé{ $language } rúó élékéré ólé ná { $hours }
+       *[other] Nyé áká kà é jìrí èbùmnúché ǹkè ónwé{ $language } rúó élékéré ólé ná { $hours }
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Nyèré Common Voice áká iru élékéré   { $hours } n'ásụ̀sụ́ site èbùmnúché ǹkè gị
+       *[other] Nyèré Common Voice áká iru élékéré   { $hours } n'ásụ̀sụ́ site èbùmnúché ǹkè gị
+    }
+set-a-goal = Hàzíé èbùmnúché gị
+cant-decide = É nwéghị́ íké íkpébị̀?
 
 ## Profile Delete
 
