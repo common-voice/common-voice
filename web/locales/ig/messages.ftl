@@ -775,6 +775,20 @@ receiving-emails-info =
     Kà ọ́ dị̀ úgbú à, á kwádóólá gị́ kà Ị́ ị́nátá ózí íméèlụ̀ (email) ọ̀bụ́là ǹkè ńchètárá ébmnúché,
      kà ó sí gbátá kwụ́rụ́ gbàsàrà àgàníhú m, nàkwà ákwụ́kwọ̀ ózí gbàsàrà Common Voice.
 not-receiving-emails-info = Kà ọ́ dị̀ úgbú à, á kwádóólá gị́ kà Ị́ ghàrá ị́nátá ózí íméèlụ̀ ọ̀bụ́là ǹkè ńchètárá ébmnúché, kà ó sí gbátá kwụ́rụ́ gbàsàrà àgàníhú m, nàkwà ákwụ́kwọ̀ ózí gbàsàrà Common Voice.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } íríghírí ńkéńké ḿkpọ́nyé
+       *[other] { $count } íríghírí ńkéńké ḿkpọ́nyé
+    }
+help-share-goal = Nyèré ányị́ áká chọ̀tá ólú ókwú ńdị́ ọ́zọ́; késàá èbùmnúchè gị́
+confirm-goal = Kwàdóó èbùmnúchè
+goal-interval-weekly = Kwà ízù
+share-goal-type-speak = Nà-èkwú
+share-goal-type-listen = Nà-égè ńtị́
+share-goal-type-both = Á ná-èkwú à ná-égè ńtị́
+# LINK will be replaced with the current URL
+goal-share-text = Éképụ̀tàrà m èbùmnúché ǹké ónwé màkà ị́tụ̀nyé òkè ólú ókwú na #CommonVoice -- sònyéré m wèé kụ̀zíéré ígwè-nwéré-àkọ́núchè ètù ńdị́ ḿmádụ́ sì èkwú ókwú { $link }.
+weekly-goal-created = É képụ̀tálá èbùmnúché gị́ kwà ízù
 
 ## Profile Delete
 
