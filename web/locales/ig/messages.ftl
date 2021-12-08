@@ -995,9 +995,27 @@ sc-howto-findpd-title = Ị́chọ̄tā áhị́rị́ókwū dị́ nà ǹ
 sc-howto-findpd-subtitle = Chọ̀ọ́ há nà ị́ntānètị̀ (internet)
 sc-howto-findpd-text-2 = Chètá nà ànyị chọ̀rọ̀ íkíké íbīpụ̀tà áhị́rị́ókwū ńdị́ áhụ̀, yáábụ̀ gbàá ḿbọ̀  hụ́ nà èdèrèdè bụ̀ ǹkè <wikipediaLink> ǹgàlàbá ọ̀hà (Public Domain)</wikipediaLink>. Ọ́ bụ́rụ́ nà énwēghị̄ ńkọ́wá dóró ányá, kpọ̀tụ́rụ́ ónyé áhụ̀ nà èdèrèdè, mà jụ̀ọ́ mà hà àchọ̀rọ̀ ítīnyē èdèrèdè há nà ǹgàlàbá Ọ̀hà. Ọ́ bụ́rụ́ nà há chọ̀rọ̀, nyèré hà áká ị́gāfè ùsòrò <cc0WaiverLink>Ńkwékọ́rị́tá ńkwàdó (Contributions Agreement)</cc0WaiverLink>. Ọ́ bụ́rụ́ nà há áchọ̄ghị̄ ítīnyē èdèrèdè, m̀gbè áhụ̀, Ị̀ gághị̄ ènwé íkíke ị́ jí èdèrèdè áhụ̀.
 sc-howto-findpd-tips = Lèé ǹdụ̀mọ́dụ́ ụ̀fọ́dụ́ màkà ị́chọ̄tā áhị́rị́ókwū:
+sc-howto-findpd-tips-1 = Ébé káchá ḿmā ị́ nwèrè íké ị́chọ̄ bụ̀ pọ́dkástị̀, èdèrèdè é détùrù síté n’íhé m̀mádù kwùrù (transcripts), íhé ńkírí ńkíri nà íhé ọ́ bụ́là nwéré íké ị́nwē ḿkpárị́tá ụ́kà kwà ụ́bọ̀chị̀.
+sc-howto-findpd-tips-2 = Ùsòrò gọ́ọ́mèntị̀, ákwụ́kwọ́ ákụ́kọ́ íhé méré èmé nà ákụ́kọ́ ụ̀wà dị̀kwà óké ḿmā, mànà ébé ọ̀ bụ́ nà èdèrèdè nà-àdị́ ńjìkéré kárị́á, hà ànághị̄ àdí ḿkpà káríá
+sc-howto-findpd-tips-3 = Ọ́ dị̀ ńwúté nà ànyị́ énwēghị̄ íké ị́nwē ákụ́kọ́ Wikimedia. Bíkō ésīlā ébé áhụ̀ détùó  mà ọ̀ bu màdó.
+sc-howto-findpd-subtitle-2 = Sòró òtú dí íchè íchè mà ọ́ bụ̀ ńdị́ m̀mádụ̀ n'ótù n'ótù rúkóó
+sc-howto-findpd-partner-1 = Énwèrè ọ̀tụ́tụ́ ụ́lọ̀ ọ́rụ̄ nwéré íké chọ́ọ́ ímēkọ́ íhé ọ́nụ̄ mà nwéé ọ̀tụ́tụ́ èdèrèdé há nwèrè íké ínyē díkà. Gàá nà máhādùm dí íchè íchè, Gọ́ọ́mēntì nà ụ́lọ̀ ọ́rụ̄ ná èkwé kà ọ̀há ḿmádù nwétá íhé há nà-èmé ná-ánāghī égō,  kwùó màkà ọ́rụ́ à wèé rị́ọ́ màkà ènyèmáká hà.
+sc-howto-findpd-partner-2 = Ńdị́ ọ̀kàchàmàrà n'ásụ̀sụ́ nwèkwàrà íké ínyē áká, gbálị̀á gáá nà máhādùm ásụ̀sụ́ òbòdò (mà ńdị́ ńkúzí mà ụ́mụ̀ ákwụ́kwọ́) wèé hụ́ mà hà nwèrè íké ínyē áká chị́kọ́tá ḿkpụ́rụ́ókwū dị́ íchè íchè ǹké dárá  íchè íchè n'ásụ̀sụ́ gị́.
 
 ## MY SENTENCES
 
+sc-my-title = Áhị́rị́ókwū m
+sc-my-description = Ówà à nà-ègósí gí áhị́rị́ókwū níīlē ị́ tùnyèrè. Ị́ nwèkwàrà íké íhíchàpụ̀ áhị́rị́ókwū ńdị́ étìnyègòrò mà ọ̀ bụ́rụ́ nà ọ́ dị̀ ḿkpà, síté nà ị́kànỳe ákàrà n'ìgbé dị́ n'ákụ̀kụ̀ yà wèé pị̀á &quot;Híchàpụ́ áhị́rị́ókwū á họ́pụ̀tàrà&quot; n'òkpúrú. Bíkō wépụ̀ áhị́rị́ókwū mà ọ̀ bụ́rụ́ nà ọ́ dị̀ ézígbó ḿkpà, dị́kà nà ọ̀ bụ́rụ́ nà ị́ chọ̀pụ́tàchàrà nà échèkwàrà áhị́rị́ókwū ńchékwá (Copyright protected)
+sc-my-loading = Ọ́ nà-èbúpụ̀tá áhị́rị́ókwu  gí...
+sc-my-err-fetching = Ò nwéghīké íhọ̄pùtà áhị́rị́ókwu gí. Biko nwaa ọzọ.
+sc-my-no-sentences = Ọ̀ nwéghi áhị́rị́ókwu áhụ̀rụ̀
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Ńnyéfè: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Ébé ǹké à sì bíá
+sc-my-delete = Híchàpụ̀ áhị́rị́ókwū ńdị́ áhọ̄pụ̀tàrà
 
 ## REJECTED
 
