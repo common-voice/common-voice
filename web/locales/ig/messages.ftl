@@ -414,9 +414,38 @@ faq-what-cv-a = Ǹkà-nà-ụ́zụ́-ǹghọ́tá-ụ̀dà-ólú nà-àgbánw
 faq-what-cv-a-2 = Ǹkà-nà-ụ́zụ́-ǹghọ́tá-ụ̀dà-ólú nà-àgbánwé ètù ànyị́ nà ígwè-nwéré-àkọ́núchè sì àrụ́kọ́. Mà kà ó sílà dị́, ígwè ńdị́ dị́ àdị́ nà-ádà óké ọ́nụ́ nwékwáá ńdị́ nwéhá. Common Voice bụ̀ n'ímé átụ̀màtụ́ Mọ̀zílà ímé kà ǹká ǹghọ́tá ụ̀dà-ólú ká ḿmá mà rútékwá ónyé ọ́bụ́là. Common Voice bụ̀ ńnúkwú ọ́wà ḿbá ụ̀wà màà ńchékwá ólú á tùnyèrè n'òkè ǹké ná-émé kà ọ́ dị́rị́ ónyé ọ́bụ̀là m̀fé íwúlíté ńgwá ólú ókwú n'ásụ̀sụ́ níílé. Ólú ányị́ nà-èkpókọ́tá ábụ́ghị́ náánị́ síté n'ásụ̀sụ́ á kàchà àsụ́, kámà, ányị́ nà-èkpókọ̀bákwá ǹkè àsụ̀sụ́ ná-énwéghị́ ọ̀tụ́tụ́ ńdị́ ná-ásụ́ há. Íbípụ̀tà ọ́wà ńchékwá ólú n'ásụ̀sụ́ dị́ íchè íchè gà-ènyéré ńdị́ ḿwúlíté nà ńdị́ jí égó àchụ́ égó nàkwà óbódó dị́ íché íché áká ídózī óghéré dị́ àdị́ n'ónwé há.
 faq-why-important-q = Gị́nị́ mèrè ǹké á jì dị́ ḿkpà?
 faq-why-important-a = Ókwú bụ̀ ụ́zọ́ ọ̀nàtàràchí káchásị́nụ́ ǹkè ànyị́ jì àkpárị́tá n'ètítí ónwé ányị́.  Ǹkà nà ụ́zụ́ ụ̀dà-ólú, n'áká ǹkè yá, nà-éwètá ị́dị́ ḿmá à n'ékwéńtị́ nà ígwé ányị́ nwéré àkọ́núchè. Ànyị́ chọ̀rọ̀ ínyé ńdị́ ḿwúlíté íkíkéré ị́rụ́pụ̀tà ígwé ǹghọ̀tá ụ̀dà-ólú ndị́ gá ná-èmé ńtúghárị́ nà ńdị́ gá ná-ènyéré ḿmád aká síté nà íkwú ókwú. Mànà kà ọ́ dị̀ kị́tà, ńgwá á gà-éjí méé kà ǹké à pụ̀tá ìhè dị̀ óké ọ́nụ́ nwékwárá ńdị́ nwé há. Ànyị́ nwèrè òlìlèányá nà ụ́yọ̀kọ̀ ńgwá ńchọ́chá ǹkè Common Voice kpókọ̀bàrà gà-ényéré ńdị́ ḿwúlíté áká íchépụ̀tà mà rụ́pụ́tákwá nka ụ̀dà-ólú  n'ásụ̀sụ̀ ǹkè há. Ímé kà ígwé ǹghọ́tá ụ̀dà-ólú bụ́rụ́ òzùrù ḿbà níílé, ànyị́ nà-ékpókọ̀bá ụ̀dà-ólú á gà-ényòchá síté n'ásụ̀sụ́ á kàchà àsụ́ nàkwà ásụ̀sụ́ ná-ánághị̀ ènwètá ùgwú rúrú ha n'áká ńdị́ ná-árụ́ ígwé ǹghọ́tá-ókwú (speech recognition) màkà na ńdị́ ná-ásụ́ há ádị́ghị́ ọ̀tụ́tụ́. Íbípụ̀tà ụ́yọ̀kọ̀ ńgwá ńchọ́chá n'ásụ̀sụ́ dị́ íchè íchè gà-ényéré ńdị́ ḿwúlíté nà ńdị́ jí égó àchọ́ égó nàkwà ńdị́ òbòdò ásụ̀sụ́ há bụ̀ òfú ímézí óghéré á dị́.
+faq-how-get-a = Ị́ gà-ènwé íké ị́nwētā  Ụ́yọ̀kọ̀ ńgwá ńchọ́chá Common Voice nà<licenseLink>CC0</licenseLink>ákwụ́kwọ́ íkíkéré nà<datasetLink>íbé ụ́yọ̀kọ̀ ńgwá ńchọ́chá ányị́</datasetLink>. Í nwèkwàrà íké ínwétá ụ́yọ̀kọ̀ ńgwá ńchọ́chá  ńdị́ ọ́zọ́ bụ́ ǹkè ḿmádụ̀ níílé n'ótú íhú áhụ̀.
+faq-when-release2-q = Kèdú m̀gbè Ị́ gà-èzípụ̀tá ńgwá ńchọ́chá Common Voice n'ásụ̀sụ́ ńdị́ ọ́zọ́?
+faq-when-release2-a = Ụ́yọ̀kọ̀ ńgwá ńchọ́chá Common Voice ǹké bụ̀ màkà ọ̀tụ́tụ́ ásụ̀sụ́ nà-àgábìgá ḿwúlíté nàkwà ńdózí ǹké òbòdó Common Voice kwàdòrò. Ọ́ bụ́rụ́ nà Ị́ gà-àchọ́ ínyéré ànyị́ áká méé kà Common Voice mátá màkà ásụ̀sụ́ ọ́hụ́rụ́, gàá lèléé<sentenceCollectorLink>Ńgwá ḿkpókọ́ áhị́rị́ókwú</sentenceCollectorLink>màkà ítínyé áhị́rị́ókwú ọ́hụ́rụ́ nà ụ́yọ̀kọ̀ ńgwá ńchọ́chá dị́ àdị́ nà nà Mọ̀zị́là<pontoonLink>Pontoo</pontoonLink>màkà ị́tụ́ghárị́ ọ́wà ózí n'ònwé yá. Á nà-ètínyé ásụ̀sụ́ ọ́hụ́rụ́ nà Common Voice m̀gbè á nàtàgòrò áhị́rị́ókwú 5000 á kwàdòrò ákwàdó.
+faq-why-mission-q =
+    Gị́nị́ mèrè Common Voice jìrì bụ̀rụ̀ ótù n'íhè Mòzíllà  tìnyèrè úchè nà há gà-èmé
+    ?
+faq-why-mission-a = Mọ̀zị́là nyèrè ònwé yá ímé kà ónyé ọ̀bụ́là nwéé íké ímé ńchọ́chá n'ọ́wà ńchọ́chá. Ímē ǹké à, ànyị́ kwèsị̀rị̀ ínyé ńdị́ ná-éképụ̀tá ọ́wà ńchọ́chá íkíkéré síté n'átụ̀màtụ̀ Common Voice. Dị́kà ǹkànụ́zụ́ ụ̀dà-ólú nà-àbáwányé kárị́á  ńgwá ná-ábụ́ghị̄ màkà ónyé ọ̀bụ́là, ànyị́ mà nà ọ́ gà-ábàkwárá ḿmádụ̀ níílé úrù.Ọ́ pụ̀tàrà ị́bàgìdè ọ́rụ́ n'ásụ̀sụ́ ńdị́ ọ́zọ́ mà nábàtáwá ǹdébéólú ńdị́ dị́ íchè íché m̀gbè á nà-èképụ̀tá ǹkànụ́zụ́ ólú ókwú. Common Voice bụ̀ ákọ̀rọ̀ńgwá dị́ màkà ónyé ọ́bụ́là; ńdị́ òtú Mọ̀zị́là nàkwàzị̀ ńdị́ ḿwúlíté n'ụ̀wà gbáá gbùrùgbúrú éjìrígórì yá ná-àrụ́ ọ́rụ́.
+faq-what-cv-and-deepspeech-q = Kèdụ́ íhé dị́ íchè n'ètítì Common Voice nà Deep Speech?
+faq-is-goal-assistant-q = Èbùmnúchè Common Voice ọ̀ bụ̀ íwú ígwé nyá nà m̀mádù nwèrè íké íjì ókwú nà-ézì ózí dì íchè íchè.
+faq-is-goal-assistant-a = Èbùmnúché ụ́yọ̀kọ̀ ńgwá ńchọ́chá Common Voice bụ̀ ímé kà ḿmádụ̀ níílé n'ụ̀wà nwéé íké íwúlíté ígwé ǹghọ̀tá ókwú, ǹké ná-ághọ́tá ónyé nà-ékwú ókwú, nà ńgwá ńdị́ ọ́zọ́ dị́ kà há. Ígwé nwéré àkọ̀núché ná-ényéré ḿmádụ̀ áká síté n'íkwú ókwú bụ̀ náánị́ ótù n'ímé íhé ńdị́ é nwèrè íké íjí ụ́yọ̀kọ́ ńgwá ńchọ́chá à rụ́pụ̀tá.
+faq-do-want-native-q = Ásùsú à ábūghī ásùsú-òbòdò m, é jì m̀ ńdébé-ólū àsú yá, Ị̀ kà chọ̀rọ̀ ólú ókwú m?
+faq-do-want-native-a = Éé, ànyị́ chọ̀kàrị̀sị̀rị̀ ólú ókwú gị́! Ótú n'ímé èbùmnúché Common Voice bụ̀ íkpókọ̀bà ọ̀tụ́tụ́ ǹdébéólú dị́ íchè íché é nwérè íké íkpókbà kà ọ́rú ǹghọ̀tá ụ̀dà-ólú bàárá ḿmádụ̀ níílé uru. Ǹké à pụ̀tàrà nà ụ̀dà-ólú ńdị́ ná-ásụ́ ásụ̀sụ̀ há dị́ íchè íchè dị̀ óké ḿkpà.
+faq-why-different-speakers-q = Gị́nị̄ mèrè Ị́ jìrì chóóọ̀tụ́tụ́ ḿmádụ̀ dị́ íchè íchè n'ásụ̀sụ́ ọ̀bụ́là?
+faq-why-10k-hours-q = Kèdụ́ íhé kpátárá nà élékéré 10,000 á kwàdòrò jìrì bụ́rụ́ èbùmnúchè ísètè áféré ókwú kwà ásụ̀sụ́ ọ́bụ́là?
+faq-how-calc-hours-q = Kèdụ́ kà Common Voice sì ágbákọ́ élékéré?
+faq-what-determine-identity-q = Kèdú íhé ọ́ pụ̀tàrà nà ènwéghị̄ m íké "ị́chọ̄pụ̀tà ǹjìrìmárá" ńdị́ nà-ékwú ókwū nà ụ́yọ̀kọ̀ ńgwá ńchọ́chá Common Voice?
+faq-what-is-cv = Gị́nị́ bụ̀ Common Voice?
+faq-using-cv = Íjí Common Voice àrụ́  ọ́rụ́.
+faq-description = Common Voice sòtèrè n’íhé Mòzíllà nà-èmé íjì àkụ́zị́rị́ ígwè nwéré àkọ́núchè ètù ḿmádụ̀ sì èkwú ókwú.
+faq-search-for-answers =
+    .label = Chọọ azịza
 
 ## ABOUT US
 
+about-title = Gị́nị́ kpàlìtèrè Common Voice?
+about-subtitle = Common Voice sòtèrè n’íhé Mòzíllà nà-èmé íjì àkụ́zị́rị́ ígwè nwéré àkọ́núchè ètù ḿmádụ̀ sì èkwú ókwú. N'ị́gbàkwùnyèrè n'ụ́yọ̀kọ̀ ńgwá ńhọ́chá Common Voice, ànyị́ nà-èwu ígwé nghọ́tá-ókwú ọ́nụ́ gá-ádị́ màkà ḿmádụ̀ níílé á nà-àkpọ́ Deep Speech.
+about-header-description = Ámụ̀mà àbụ̀ọ́ ńdị́ à sò nà ḿbọ̀ ányị́ nà-àgbá méchínátá óké dị́ n'ètítí úsòròókwú àgbà óchíènà ǹkè ọ́hụ́rụ́. Ǹkànụ́zụ́ ǹghọ́tá ụ̀dà-ólú ányị́ nà-ènyé ígwè ànyị́ nà-àrụ́ ọ̀dị́dị́ḿmádụ̀, mànà ńdị́ ḿwlíté chọ̀rọ̀ ọ̀tụ́tụ́ ńgwá ńchọ́chá ólú ókwú íjí rụ́pụ̀tá há. Kà ọ́ dị̀ úgbú à, ọ̀tụ́tụ́ n'ímé ńgwá ńchọ́chá ńdị́ à dị̀ óké ọ́nụ́ nwékwáá áká nwé há.
+how-does-it-work-title = Kèdú kà ó sì àrú ọ́rụ̄?
+about-speak = Kwùó ókwú
+about-listen-queue = Íhé ńdí Í gà-égè
+about-listen-queue-text = Á nà-àwúnyéÍhé ákpònyèrè n'ímé ọ́gbárá íhé ńdị́ á tụ̀kọ̀tàrà ǹké ná-ákwádó há màkà ńgèré.
+about-listen = Gèé ńtị̀
 
 ## Glossary
 
