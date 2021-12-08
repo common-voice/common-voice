@@ -129,6 +129,7 @@ pl = Polonese
 ps = Pashto
 pt = Portugese
 quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romancio vallader
 ro = Romaniano
