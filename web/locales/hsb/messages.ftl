@@ -1113,11 +1113,15 @@ sc-submit-err-select-lang = Prošu wubjerće rěč.
 sc-submit-err-add-sentences = Prošu přidajće sady.
 sc-submit-err-add-source = Prošu přidajće žórło.
 sc-submit-err-confirm-pd = Prošu wobkrućće, zo tute sady su zjawnosći k dispoziciji.
+sc-submit-prompt =
+    .message = Sady njejsu so wotpósłali, chceće woprawdźe woteńć?
 sc-submit-title = Sady přidać
 sc-submit-select-language =
     .labelText = Rěč wubrać
 sc-submit-ph-one-per-line =
     .placeholder = Jedna sada na linku
+sc-submit-ph-read-how-to =
+    .placeholder = Čitajće naš nawod, jeli sej wěsty njejsće, kak dyrbiće je přirjadować
 sc-submit-button =
     .submitText = Wotpósłać
 sc-submit-guidelines = Prošu přepruwujće <howToLink>směrnicy</howToLink>.
@@ -1142,6 +1146,8 @@ sc-add-err-submission = Zapodawanski zmylk
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Sady njejsu so wotpósłali, chceće woprawdźe woteńć?
 sc-confirm-sentences-title = Nowe sady wobkrućić
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
@@ -1238,11 +1244,17 @@ sc-personal-remove-button = wotstronić
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = Sće { $sentences } přidał
+sc-personal-not-added = Hišće njejsće rěče přidał.
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ Přepruwowanske kriterije
 sc-criteria-title = Přepruwowanske kriterije
+sc-criteria-make-sure = Zawěsćće, zo sady slědowacym kriterijam wotpowěduja:
+sc-criteria-item-1 = Sada dyrbi prawje napisana być.
+sc-criteria-item-2 = Sada dyrbi gramatisce korektna być.
+sc-criteria-item-3 = Sada dyrbi wurěkujomna być.
+sc-criteria-item-4 = Jeli sada kriterijam wotpowěduje, klikńće na tłóčatko „Schwalić“.
 
 ## REVIEW
 
