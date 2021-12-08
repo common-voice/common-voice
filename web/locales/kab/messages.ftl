@@ -1042,6 +1042,7 @@ sc-howto-addlang-title = Timrna n tutlayin swayes ara txedmeḍ
 sc-howto-addlang-text = Ticki teqqneḍ, tzemreḍ ad tferneḍ tutlayin-ik deg umaɣnu-ik.
 sc-howto-addsen-title = Rnu tifyar tmaynutin
 sc-howto-cite-title = Amek ara d-temmleḍ
+sc-howto-cite-item-1 = Tzemreḍ ad tsedduḍ asmel web, am. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Senqed tifyar
 
 ## MY SENTENCES
