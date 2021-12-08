@@ -129,6 +129,7 @@ pl = Ba Lan
 ps = Pashto
 pt = Bồ Đào Nha
 quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romansh Sursilva
 rm-vallader = Romansh
 ro = Rumani
