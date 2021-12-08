@@ -129,6 +129,7 @@ pl = Polacco
 ps = Pashtu
 pt = Portoghese
 quc = Quiché
+quy = Quechua Chanka
 rm-sursilv = Romancio sottosilvano
 rm-vallader = Romancio Vallader
 ro = Rumeno
