@@ -1068,21 +1068,52 @@ sc-add-lang-could-not-add = Ènwéghị̄ íké ị́gbàkwùnyè ásụ
 sc-add-lang-sec-label = Tìnyé Ásụ̀sụ́ ị́chọ̀rọ̀ ítūnyē òkè nà yá
 sc-add-lang-sec-button = Tìnyé Ásụ̀sụ́
 sc-add-err-unexpected = Sávà (server) wéghàchìrì ńzághàchí á nā-átụ́ghị́ ányá yá
+sc-add-err-submission = Ńtínyé ágāghí
+sc-add-lang-process-notice = Ọ́bụ́rụ́ nà èdépụ̀tàghị̀ ásụ̀sụ́ gị́ ébé à, ị́ nwèrè íké ị́rị́ọ́ yà síté nà <languageProcessLink>ùsòrò á</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Ìnyéfèbèghì áhị́rị́ókwū, Í kà chọ̀rọ̀ ị́pụ̀?
+sc-confirm-sentences-title = Kwàdónyé áhị́rị́ókwū ọ́hụ́rụ́
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = Enyochabeghi áhị́rị́ókwū { $countOfUnreviewed } ńdí à . Ọ́bụ́rụ́ nà ị́chọ̀rọ̀, ị́ nwèkwàrà íké nyòcháá áhị́rị́ókwū gị́ ùgbú à túpú ị̀nyéfèé há.
+sc-confirm-button-text = Kwènyé
+sc-confirm-uploading = Á nà-èbúgó áhị́rị́ókwū. Ǹké à nwèrè íké wèré ńkéjí òlé nà òlé dàbéré ná ọ́nụ́ọ́gụ́ ǹkè áhị́rị́ókwū àgbàkwùnyèrè. Bíkō émēchīkwálá íhú ówà à.
 
 ## LANGUAGE INFO
 
+sc-lang-info-review-now = <reviewLink> Nyòcháá ùgbú à!</reviewLink>
+sc-lang-info-add-more = <addLink>Tìnyékwúó áhị́rị́ókwū ùgbú à!</ addLink>
 
 ## LOGIN
 
+sc-login-err-failed = Mbànyé ágāghị̄
+sc-login-err-try-again = Bíkō nwàá ọ̀zọ́
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Ǹjììmárá-ónyé (Profaịlụ): { $username }
+sc-personal-err-lang-not-found = È nwéghị̄ íké íwēpụ̀ ásụ̀sụ́: àhụ́ghị́ ásụ̀sụ̀
+sc-personal-err-remove = È nwéghị̄ íké íwēpụ̀ ásụ̀sụ́
+sc-personal-your-languages = Ásụ̀sụ́ gị́:
+sc-personal-remove-button = Wépù
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } ǹkè Í tìnyèrè
+sc-personal-not-added = Ị̀ tínyèbèghị̀ ásụ̀sụ́ ọ́bụ́là.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Nyòcháá ìwú ùsòrò
+sc-criteria-title = Nyòcháá ìwú ùsòrò
+sc-criteria-make-sure = Gbàá ḿbọ̀ hụ́ nà áhị́rị́ókwū áhụ̀ tózùrù íhé ńdị́ à:
+sc-criteria-item-1 = À gà-èdérị́rị́ áhị́rị́ókwū áhụ̀ ǹkè ọ́má.
+sc-criteria-item-2 = Áhị́rị́ókwū áhụ̀ gà-àbụ́rị́rị́ ǹké zírí ézí nà ụ̀tọ́ásụ̀sụ́
+sc-criteria-item-3 = Áhị́rị́ókwū áhụ̀ gà-àbụ́rị́rị́ íhé ḿmádū ǹwèrè íké íkwú
 
 ## REVIEW
 
