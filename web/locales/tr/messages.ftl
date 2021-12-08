@@ -129,6 +129,7 @@ pl = Lehçe
 ps = Peştuca
 pt = Portekizce
 quc = Kiçece
+quy = Quechua Chanka
 rm-sursilv = Romanşça Sursilvan
 rm-vallader = Romanşça Vallader
 ro = Rumence
