@@ -957,9 +957,27 @@ sc-logout-button = Pụ̀ọ́
 ## HOME
 
 sc-home-title = Nnọ̀ọ́ nà ńdị́ nà-ánákọ́tá áhị́rị́ókwū Common Voice (Common Voice Sentence Collector).
+sc-home-intro = Ńnákọ́tá áhị́rị́ókwū bụ̀ ákụ̀kụ̀ ǹkè <commonVoiceLink>Common Voice</commonVoiceLink>. Ọ̀ nà-ènyé ńdị́ ǹtínyè ákā áká ị́nākọ̄tā mà kwàdó áhị́rị́ókwū  ńdị́ òbòdò mèbèrè. Ị́ nwèkwàrà íké íjì ńgwá ọ́rụ̄ à búbàtá mà hícháá óbérē ǹgàlàb̀a ọ̀hà ǹkè ị́ chọ̀tàrà mà ọ̀ bụ̀ chị̀kọ̀tàrà. Áhị́rị́ókwū níílē kwèsị̀rị̀ ị́bụ̄ ǹgàlàbà Ọ̀hànézè. À nà-èbúp̀ụ áhị́rị́ókwū ńdị́ ákwàdòrò kwà ízù nà ébé ńchékwá Common Voice mà nà-èwépụ̀tá yá nà ówà Common Voice nà ḿbúghárị́ ọ́hụ́rụ́ ọ́bụ́là.
+sc-home-collect-title = Chị̀kọ́tá áhị́rị́ókwū
+sc-home-collect-text = Nyéré ányị́ áká síté ná-ídē mà ọ̀ bụ̀ nà-ànákọta áhị́rị́ókwū Public Domain.
+sc-home-review-title = Nyòcháá áhị́rị́ókwū
+sc-home-review-text = Nyéré ányị́ áká nyòcháá áhị́rị́ókwū màkà ízī ézí dị́kà ńtùzíákā sìrì dị́.
 
 ## HOW-TO
 
+sc-howto-title = Kà-ésì èmé
+sc-howto-addlang-title = Tìnyé ásụ̀sụ íjì rụ́ọ́ ọ́rụ̄
+sc-howto-addlang-text = Òzùgbò íbànyèrè, ị́ nwèrè íké ị́họ̀rọ̀ ásụ̀sụ́ gị́ síté n’ǹgàlàbá prófàị̀lụ̀
+sc-howto-addsen-title = Tìnye áhị́rị́ókwū ọ́hụ́rụ̄
+sc-howto-addsen-item-1 = Áhị́rị́ókwū níílē ị́ nyéfèrè gà-àdị́ n'òkpúrù íkíké <wikipediaLink>Public Domain (CC-0)</wikipediaLink>. Íjì kwàdó ńsònyé ọ́rụ̄ nà-ábụ̄ghị̄ n'òkpúrù íkíké ọ̀hà, ànyị́ éképụ̀tálà <cc0WaiverLink>Ḿkpébì Ńkwékọ́rị́tá (Contributions Agreement template)</cc0WaiverLink> màkà ọ́rụ́ ébé òkè-ónyénwéíhé gá-áchọ́ ìtínyé íhé áhụ̀ nà Common Voice .
+sc-howto-addsen-item-2 = Ọ́nụ́ọ̀gụ́. È kwésị́ghị́ ínwē ḿkpụ́rụ́ọ́nụ́ọ́gụ́ dị́ nà èdèrèdè ísí m̀málíté n'íhì nà há nwèrè íké ị́kpātā ńsògbú m̀gbè à nà-àgụ́pụ̀tá yà. Ótú ésì àgụ́ ọ́nụ́ọ́gụ́gụ́ dábèrè nà íhé gbárá yá gbùrùgbùrù mà nwéé íké wébàtá ọ̀gbá ághárá nà ńhàzí dátà. Dị́kà ọ̀mụ́máàtụ̀, énwèrè íké ị́gụ̄ nọ́mbà “2409” ǹkè ọ́má dị́kà "ìrí àbụ̀ọ́ nà ànọ́ éfù ìtóólū" nà "púkú àbụ̀ọ́ nà nàrị̀ ànọ́ nà ìtóólū".
+sc-howto-addsen-item-3 =
+    Ḿbíbìrí nà Ḿkpébì. 
+    É kwèsị̀rị̀ ị́zènàrị̀ ḿbírí nà ḿkpírísí ḿkpírísí dị́ kà “USA” mà ọ̀ bụ̀ “ICE” nà èdèrèdè ísí ḿmàlíté n'íhì nà ènwèrè íké ị́gụ̄ há n'ụ́zọ̀ ná-ádābàghị̀ nà ḿkpọ́pùtá há. Nà ḿgbàkwúnyè, ènwèrè íké ị́nwē ọ̀tụ́tụ́ ọ̀gụ́gụ̀ zírí ézí màkà òtù ńdébìrí. Dị́kà ọ̀mụ́máàtụ̀, ènwèrè íké ị́kpọ́ ḿkpụ́kpọ́ ókwū "ICE" "I-C-E" mà ọ̀ bụ̀ dị́kà ótù ókwū.
+sc-howto-addsen-item-4 = Èdèrèdè. É kwèsị̀rị̀ ítīnyē ákàrà nà ákàrà pụ́rụ́ íchè náānị̄ m̀gbè ọ́ dị̀ óké ḿkpà. Í jì má àtù, á nà-ètínyé apostrophe n'ókwú Bekee dị ka “don’t” na “we’re” há kwèsị̀rị̀ ítīnyē nà èdèrèdè ísí ḿmàlíté, mànà ò díghị́ kà ị́ gà-àchọ́ ákàrà pụ́rụ́ íchè dị́ kà "@" mà ọ̀ bụ̀ "#. ”
+sc-howto-addsen-item-5 = Ákwụ́kwọ́ ózī ḿbā ọ̀zọ́. Ákwụ́kwọ́ ózī gà-àdị́ ìrè̀ n'ásụ̀sụ́ á nà-àsụ́. Í jì má àtù, "ж" bụ̀ ḿkpụ́rụ́édémédé n'ásụ̀sụ́ Rọ́shị̀à mànà ànághị́ éjī yá èmé íhē n'ásụ̀sụ́ bekee, yábụ̀ nà ó kwésị̄ghị̄ ị́pụ̀tà nà èdèrèdè Bekee ọ́ bụ́là.
+sc-howto-addsen-item-6 = Ásụ̀sụ́ nwèrè íké ị́nwē <validationRulesLink>ìwú ńkwàdó ǹké ònwé hā</validationRulesLink> nwéé kwá íhé ńdị ọ̀zọ́. Ọ́ bụ́rụ́ nà ènwéghị́ fáị́lụ̀ ńkwàdó ákọ̄wàpụ̀tàrà màkà ásụ̀sụ́, ànyị́ nà-éjì ìwú bekee zúrú òkè.
+sc-howto-addsen-post-1 = Ànyị́ nà-áhọ̀rọ̀ áhị́rị́ókwū ḿkpárị́tá ụ́kà. Ọ́ bụ̀ ézīē nà ụ̀dị́ ụ̀dà-ólū dị́ íchè íchè nà ókwú dị́ íchè íchè dị́ n'áhị́rị́ókwū dị̀ ḿkpà, ànyị́ nà-àgbálị̀ ímē kà èdèrèdè édèrè bụ́rụ́ íhé ná-átọ́ ụ̀tọ́ dị́kà ó kwèrè méé. Yá mèrè, ọ́ gà-àdị́ ḿmá mà ọ́ bụ́rụ́ nà ị́ nwèrè íké ị́gbālị̄ ídōbē áhị́rị́ókwū gị́ kà ọ́ bụ́rụ́ íhé dí kà ó sì àdị́ n’ùwá ńkị́tị́ / ná-àdọ̀rọ̀ ḿmásị́ dị́kà ó kwèrè méé.
 
 ## MY SENTENCES
 
