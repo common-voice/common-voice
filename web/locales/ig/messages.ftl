@@ -1016,12 +1016,19 @@ sc-my-submission = Ńnyéfè: { $batchId }
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Ébé ǹké à sì bíá
 sc-my-delete = Híchàpụ̀ áhị́rị́ókwū ńdị́ áhọ̄pụ̀tàrà
+sc-my-deleting = Ńhíchàpụ́ áhị́rị́ókwū ńdị́ áhọ̄pụ̀tàrà...
+sc-my-err-failed-delete = Ò nwéghīké Íhíchàpụ̀ áhị́rị́ókwū ńdị́  áhọ̄pụ̀tàrà … Biko nwaa ọzọ!
 
 ## REJECTED
 
+sc-rejected-title = Ahị́rị́ókwū ájụ̀rụ̀ àjụ́
+sc-rejected-loading = M̀wúkwányé áhị́rị́ókwū ájụ̀rụ̀ àjụ́...
+sc-rejected-err-fetching = Énwéré íhé ná-ágáhī ọ̀fụ́má m̀gbè ígwè nà-àchọ́ ínwētá áhị́rị́ókwū ájụ̀rụ̀ àjụ́, Bíkō nwàá ọ̀zọ́.
+sc-rejected-none-found = È nwéghị̄ áhị́rị́ókwū ńdị́ ájụ̀rụ̀ àjụ́ áhụ̀rụ̀!
 
 ## STATS
 
+sc-stats-title = Ọ̀gụ́gụ́ ọ́nụ́ọ̀gụ́gụ́
 
 ## ADD
 
