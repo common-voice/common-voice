@@ -978,6 +978,23 @@ sc-howto-addsen-item-4 = Èdèrèdè. É kwèsị̀rị̀ ítīnyē á
 sc-howto-addsen-item-5 = Ákwụ́kwọ́ ózī ḿbā ọ̀zọ́. Ákwụ́kwọ́ ózī gà-àdị́ ìrè̀ n'ásụ̀sụ́ á nà-àsụ́. Í jì má àtù, "ж" bụ̀ ḿkpụ́rụ́édémédé n'ásụ̀sụ́ Rọ́shị̀à mànà ànághị́ éjī yá èmé íhē n'ásụ̀sụ́ bekee, yábụ̀ nà ó kwésị̄ghị̄ ị́pụ̀tà nà èdèrèdè Bekee ọ́ bụ́là.
 sc-howto-addsen-item-6 = Ásụ̀sụ́ nwèrè íké ị́nwē <validationRulesLink>ìwú ńkwàdó ǹké ònwé hā</validationRulesLink> nwéé kwá íhé ńdị ọ̀zọ́. Ọ́ bụ́rụ́ nà ènwéghị́ fáị́lụ̀ ńkwàdó ákọ̄wàpụ̀tàrà màkà ásụ̀sụ́, ànyị́ nà-éjì ìwú bekee zúrú òkè.
 sc-howto-addsen-post-1 = Ànyị́ nà-áhọ̀rọ̀ áhị́rị́ókwū ḿkpárị́tá ụ́kà. Ọ́ bụ̀ ézīē nà ụ̀dị́ ụ̀dà-ólū dị́ íchè íchè nà ókwú dị́ íchè íchè dị́ n'áhị́rị́ókwū dị̀ ḿkpà, ànyị́ nà-àgbálị̀ ímē kà èdèrèdè édèrè bụ́rụ́ íhé ná-átọ́ ụ̀tọ́ dị́kà ó kwèrè méé. Yá mèrè, ọ́ gà-àdị́ ḿmá mà ọ́ bụ́rụ́ nà ị́ nwèrè íké ị́gbālị̄ ídōbē áhị́rị́ókwū gị́ kà ọ́ bụ́rụ́ íhé dí kà ó sì àdị́ n’ùwá ńkị́tị́ / ná-àdọ̀rọ̀ ḿmásị́ dị́kà ó kwèrè méé.
+sc-howto-cite-title = Òtù é sì àkọ́wá ónyénwé íhé
+sc-howto-cite-pre-1 = Ọ́ dị̀ ḿkpà kà ị́ rụ̀tụ́ ákā n'ébé ị́chọ̀tàrà íkíké ọ̀hànézè kà ị́zènárị́ ńkwútọ̀ nà ínyē òhèrè màkà ńsònyé nà <copyrightIssuesLink>ókwú òkè-ónyénwé (copyright issues)</copyrightIssuesLink>. Ǹké à bụ̀ ụ́zọ̀ òlé nà òlé ị́ nwèrè íké ísí kọ́wáá ọ́rụ́ áhụ̀.
+sc-howto-cite-item-1 = Ị́ nwèrè íké ị́gụ̄nyē wébụ́sáị̀tị̀ áhụ̀, dị́kà "Comon Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Ị́ nwèrè íké íjì ụ̀dị́ ǹtụ̀áká àgụ̀mákwụ́kwọ́, dị́kà ụ̀dị́ Harvard "Mozilla (2021) Common Voice. Ọ dị́ nà https://commonvoice.mozilla.org/ (Nwètàrà: 15th Septemba 2021)"
+sc-howto-cite-item-3 = Màkà èdèrèdè ǹgàlàbà ọ̀hà ná-ádị́ghị́ n'ị́ntānētị̀, ị́ nwèrè íké íjì ụ̀dị́ ńtụ̀áká àgụ́mákwụkwọ́ dị́kà ụ̀dị́ Harvard "Jess (2021) Ùrí íkíké ọ̀hàńezè m̀"
+sc-howto-review-title = Nyòcháá áhị́rị́ókwū
+sc-howto-review-subtitle = Gbàá ḿbọ̀ hụ́ nà áhị́rị́ókwū áhụ̀ tózùrù íhé ńdị́ à:
+sc-howto-review-criteria-1 = À gà-èdérị́rị́ áhị́rị́ókwū áhụ̀ ǹkè ọ́má.
+sc-howto-review-criteria-2 = Áhị́rị́ókwū áhụ̀ gà-àbụ́rị́rị́ ǹké zírí ézí nà ụ̀tọ́ásụ̀sụ́
+sc-howto-review-criteria-3 = Áhị́rị́ókwū áhụ̀ gà-àbụ́rị́rị́ íhé ḿmádū ǹwèrè íké íkwú
+sc-howto-review-criteria-4 = Ọ́ bụ́rụ́ nà áhị́rị́ókwū áhụ̀ dábàrà n’ ùsòrò pị̀á bọ́tị̀nụ̀ "Kwàdòrò (Approve)".
+sc-howto-review-criteria-5 = Ọ́ bụ́rụ́ nà áhị́rị́ókwū áhụ̀ émēzùghị̀ ùsòrò à dị́ n'élū, pị̀á bọ́tị̀nụ̀ "Jụ́ (Reject)". Ọ ́bụ́rụ́ nà ị̀ mághị̄ màkà áhị́rị́ókwū áhụ̀, ị́ nwèkwàrà íké ị́māfē yá wèé gáá nà ǹké ná-ésòté.
+sc-howto-review-criteria-6 = Ọ́ bụ́rụ́ n'áhị́rị́ókwū ígà ényòchá àgwụ́lá, bíkō nyèré ànyị́ áká ị́nākọ́tá áhị́rị́ókwū ńdị́ ọ̀zọ́!
+sc-howto-findpd-title = Ị́chọ̄tā áhị́rị́ókwū dị́ nà ǹgàlàbà Ọ̀hà (Public Domain)
+sc-howto-findpd-subtitle = Chọ̀ọ́ há nà ị́ntānètị̀ (internet)
+sc-howto-findpd-text-2 = Chètá nà ànyị chọ̀rọ̀ íkíké íbīpụ̀tà áhị́rị́ókwū ńdị́ áhụ̀, yáábụ̀ gbàá ḿbọ̀  hụ́ nà èdèrèdè bụ̀ ǹkè <wikipediaLink> ǹgàlàbá ọ̀hà (Public Domain)</wikipediaLink>. Ọ́ bụ́rụ́ nà énwēghị̄ ńkọ́wá dóró ányá, kpọ̀tụ́rụ́ ónyé áhụ̀ nà èdèrèdè, mà jụ̀ọ́ mà hà àchọ̀rọ̀ ítīnyē èdèrèdè há nà ǹgàlàbá Ọ̀hà. Ọ́ bụ́rụ́ nà há chọ̀rọ̀, nyèré hà áká ị́gāfè ùsòrò <cc0WaiverLink>Ńkwékọ́rị́tá ńkwàdó (Contributions Agreement)</cc0WaiverLink>. Ọ́ bụ́rụ́ nà há áchọ̄ghị̄ ítīnyē èdèrèdè, m̀gbè áhụ̀, Ị̀ gághị̄ ènwé íkíke ị́ jí èdèrèdè áhụ̀.
+sc-howto-findpd-tips = Lèé ǹdụ̀mọ́dụ́ ụ̀fọ́dụ́ màkà ị́chọ̄tā áhị́rị́ókwū:
 
 ## MY SENTENCES
 
