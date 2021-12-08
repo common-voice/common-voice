@@ -129,6 +129,7 @@ pl = Pólšćina
 ps = Paštošćina, Pašto
 pt = Portugišćina
 quc = Kičešćina
+quy = Quechua Chanka
 rm-sursilv = Retoromanišćina (Sursilvan)
 rm-vallader = Retoromanšćina Vallader
 ro = Rumunšćina
@@ -1111,6 +1112,8 @@ sc-submit-err-select-lang = Pšosym wubjeŕśo rěc.
 sc-submit-err-add-sentences = Pšosym pśidajśo sady.
 sc-submit-err-add-source = Pšosym pśidajśo žrědło.
 sc-submit-err-confirm-pd = Pšosym wobkšuśćo, až toś te sady su zjawnosći k dispoziciji.
+sc-submit-prompt =
+    .message = Sady njejsu se wótpósłali, cośo napšawdu wótejś?
 sc-submit-title = Sady pśidaś
 sc-submit-select-language =
     .labelText = Rěc wubraś
@@ -1140,6 +1143,8 @@ sc-add-err-submission = Zapódawańska zmólka
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Sady njejsu se wótpósłali, cośo napšawdu wótejś?
 sc-confirm-sentences-title = Nowe sady wobkšuśiś
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
@@ -1236,14 +1241,17 @@ sc-personal-remove-button = wótwónoźeś
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = Sćo pśidał { $sentences }
+sc-personal-not-added = Hyšći njejsćo rěcy pśidał.
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ Pśeglědowańske kriterije
 sc-criteria-title = Pśeglědowańske kriterije
+sc-criteria-make-sure = Zawěsććo, až sady slědujucym kriterijam wótpowěduju:
 sc-criteria-item-1 = Sada musy pšawje napisana byś.
 sc-criteria-item-2 = Sada musy gramatiski korektna byś.
 sc-criteria-item-3 = Sada musy wugranjajobna byś.
+sc-criteria-item-4 = Jolic sada kriterijam wótpowědujo, klikniśo na tłocašk „Pśizwóliś“.
 
 ## REVIEW
 
@@ -1272,12 +1280,15 @@ sc-review-form-reviewed-message =
         [few] { $sentences } sady su se pśeglědali. Wjeliki źěk!
        *[other] { $sentences } sadow jo se pśeglědało. Wjeliki źěk!
     }
+sc-review-form-review-failure = Pógódnośenje njedajo se składowaś. Pšosym wopytajśo pózdźej hyšći raz.
 sc-review-link = Pógódnośiś
 
 ## SETTINGS
 
 sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěc wužywaŕskego pówjercha
+sc-settings-reset-skipped = Pśeskócone sady slědk stajiś
+sc-settings-show-all-button = Wšykne pśeskócone sady hyšći raz pokazaś
 sc-settings-failed = Nastajenja njedaju se změniś. Pšosym wopytajśo hyšći raz.
 # VALIDATION
 sc-validation-number-of-words = Sada musy mjazy 1 a (inkluziwnje) 14 słowami wopśimowaś
