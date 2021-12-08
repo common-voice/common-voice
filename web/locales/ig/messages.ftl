@@ -2,7 +2,7 @@
 
 yes-receive-emails = Éé, zìtéré m ózí n'ímèèlụ̀ (email). Ọ́ gà-àmàsị̀ m kà m nà-ènwétá ózī gbàsárá àgàmníhú ásụ̀sụ̀ à na òtù Common Voice.
 stayintouch = Ànyị́ níílé nà Mozilla nà-èwú òbòdò màkà ńkwàlíté ǹkà n'ụ́zụ́ gbásạ́rá ụ̀dà-ólú.  Ànyị́ chọ̀rọ̀ kà ànyị́ ná-àkpárị́tá kwà m̀gbè íjí ná-ènwétá ózí kà íhé sì àgà mà ụ́zọ̀ ọ́hụ́rụ́ níílé ńgwá ńchọ́chá sì ápụ̀tà nàkwàzị̀ ètù Í sì jìrí ńgwá  ńchọ́chá ńdí à àrụ́ ọ́rụ́.
-privacy-info = Ànyị́ nà-èkwé gị́ ńkwà íjí ányá írú àlà jìkwáá ózí gị́. Gụ̀kwúó gbàsárá ǹké à n'ébé ányị́ dèrè yá <privacyLink> </privacyLink>
+privacy-info = Ànyị́ nà-èkwé gị́ ńkwà íjí ányá írú àlà jìkwáá ózí gị́. Gụ̀kwúó ihe gbàsárá ǹké à n'ébé ányị́ dèrè yá <privacyLink> </privacyLink>
 return-to-cv = Lághàchí ázụ́ n'òtù Common Voice
 email-input =
     .label = íméèlụ̀ (email)
