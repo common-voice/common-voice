@@ -902,7 +902,13 @@ contribution-misreadings-example-4-title = Ńnúkwú ọ́kị́ká (dinosaurs) 
 contribution-misreadings-example-4-explanation = [Ńdékọ́ é nwètàrà àkárị́álá ḿkpụ́rụ́ édémédé ólé á chọ̀rọ̀]
 contribution-misreadings-example-5-title = Ànyị́ nà-ápụ̀ ị́gá wètà kọ̀fị́ (coffee). [We are going out to get coffee.]
 contribution-misreadings-example-6-title = Ànyị́ nà-ápụ̀ ị́gá wètà kọ̀fị́ (coffee). [We’re going out to get coffee.]
-contribution-misreadings-example-6-explanation = [Ọ́kwèsị̀rị̀ ị́bụ̄ "Anyị bụ" ("We are")]
+contribution-misreadings-example-6-explanation = [Ọ́kwèsị̀rị̀ ị́bụ̄ "We are"]
+contribution-misreadings-example-7-title = Ànyị́ nà-ápụ̀ ị́gá wètà kọ̀fị́
+contribution-misreadings-example-7-explanation = [Enweghị 'a' na ederede izizi]
+contribution-misreadings-example-8-title = Ụ̀zụ̀ án̄ụ́ (Bumblebee) áhụ̀ gàfèrè
+contribution-misreadings-example-8-explanation = [Ndị̀ná á ná-édényéghị́ ébé ó kwèsị̀rị̀]
+contribution-varying-pronunciations-title = Ụ̀dị́ ḿkpọ́pụ̀tá dị́ íchè íchè
+contribution-varying-pronunciations-description = Kpàchárá ányá túpú Ị̀ jụ́ ị́nátá ńkéńké íhé ḿkpọ́nyé ọ́bụ́là màkà nà ọ̀gụ́ụ̀ ákpọ́tághị́ ókwú, tìnyèrè ógó ólú ébé ná-ékwésị́ghị́, mà ọ̀ bụ̀ ghàrà ítínyé ákàrá ájụ̀jụ́. É ùsòró ḿkpọ́pụ̀tá dị́ íchè íchè n'uwa níílé, ndị́ ó nwèrè íké ị́bụ́ nà Ị́ nụ́tụ̀bèghị́ há n'ímé òbòdò gị́. Bíkó, wépụ̀tá óké èkèlé màkà ńdị́ ná-ékwú ókwú étú dị́ íchè nà kà Ị́ sì èkwú.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
