@@ -798,10 +798,10 @@ finish-editing = Башта мөхәррирләүне тәмамларгамы?
 lose-changes-warning = Хәзер бу биттән китү үзгәртүләрегезнең югалуына китерәчәк.
 build-custom-goal = Шәхси бер максат булдыру
 help-reach-hours-pluralized =
-    Шәхси максат куеп, { $language }{ NUMBER($hours) ->
-        [one] { $hours } сәгать
-       *[other] { $hours } сәгать
-    }аудиоязма җыярга ярдәм итегез
+    { NUMBER($hours) ->
+        [one] Шәхси максат куеп, { $language } телендә { $hours } сәгать аудиоязма җыярга ярдәм итегез
+       *[other] Шәхси максат куеп, { $language } телендә { $hours } сәгать аудиоязма җыярга ярдәм итегез
+    }
 help-reach-hours-general-pluralized =
     Үзегезгә бер шәхси максат куеп, Common Voice'ка{ NUMBER($hours) ->
         [one] { $hours } сәгать
@@ -982,6 +982,8 @@ sc-my-no-sentences = Җөмләләр табылмады!
 ## STATS
 
 sc-stats-title = Статистика
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = Соңгы яңарту: { $lastUpdate }
 sc-stats-last-update-never = Соңгы яңарту: һичкайчан
 sc-stats-updating = Яңартыла…
@@ -1011,6 +1013,8 @@ sc-login-err-try-again = Зинһар янәдән тырышып карагыз
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
 sc-profile-title = Профиль: { $username }
 sc-personal-your-languages = Сезнең телләрегез:
 sc-personal-remove-button = бетерү
@@ -1021,6 +1025,8 @@ sc-personal-remove-button = бетерү
 ## REVIEW
 
 sc-review-loading = Җөмләләрне йөкләү…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Чыганак: { $sentenceSource }
 sc-review-form-button-skip = Калдырып тору
 sc-review-form-button-approve = Раслау
