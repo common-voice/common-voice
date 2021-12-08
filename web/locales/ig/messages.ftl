@@ -909,6 +909,26 @@ contribution-misreadings-example-8-title = Ụ̀zụ̀ án̄ụ́ (Bumblebee) á
 contribution-misreadings-example-8-explanation = [Ndị̀ná á ná-édényéghị́ ébé ó kwèsị̀rị̀]
 contribution-varying-pronunciations-title = Ụ̀dị́ ḿkpọ́pụ̀tá dị́ íchè íchè
 contribution-varying-pronunciations-description = Kpàchárá ányá túpú Ị̀ jụ́ ị́nátá ńkéńké íhé ḿkpọ́nyé ọ́bụ́là màkà nà ọ̀gụ́ụ̀ ákpọ́tághị́ ókwú, tìnyèrè ógó ólú ébé ná-ékwésị́ghị́, mà ọ̀ bụ̀ ghàrà ítínyé ákàrá ájụ̀jụ́. É ùsòró ḿkpọ́pụ̀tá dị́ íchè íchè n'uwa níílé, ndị́ ó nwèrè íké ị́bụ́ nà Ị́ nụ́tụ̀bèghị́ há n'ímé òbòdò gị́. Bíkó, wépụ̀tá óké èkèlé màkà ńdị́ ná-ékwú ókwú étú dị́ íchè nà kà Ị́ sì èkwú.
+contribution-varying-pronunciations-description-extended = N'áká ǹkè ọ́zọ́, ọ́bụ́rụ́ nà Ị́ nà-échè n ọ̀gụ́ụ̀ áhụ́tụ̀bèghì ḿkpụ́rụ́ókwú áhụ̀ m̀bụ́ mà ná-ákpọ́kwá yá ètù ó sì chèé yá, bíkó, jụ́ ị́nábàtà yá. Ọ́bụrụ́ nà Ị́ máchághị̀, lòó ḿkpọ́chí ḿwụ̀fè.
+contribution-varying-pronunciations-example-1-title = Ó kpù ókpú (beret) n'ísí yá.
+contribution-varying-pronunciations-example-1-explanation = [‘Beret’ dị̀ ḿmá mà é tínyé ógó ólú yá ńkébìókwú ǹké ḿbụ́ (UK) mà ọ̀ bụ̀ ńké àbụ̀ọ́ (US)]
+contribution-varying-pronunciations-example-2-title = Ó wèlì-rì áká yá.
+contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in English is always pronounced as one syllable, not two]
+contribution-background-noise-title = Ḿkpọ́tụ́ ná-ádá
+contribution-background-noise-description = Ànyị́ chọ̀rọ̀ kà ńhàzí ígwé é jì émé ḿmụ̀tá nwéé íké íjíkwátá ḿkpọ́tụ́ ná-ádà, mà ọ̀bụ́làdị̀ ụ̀zụ́ ná-ádàsị́ íké kà é nwèrè íké ị́nábàtà mà ọ́bụ́rụ́ nà há égbóchìghì gị̀ ị́ghọ́tá íhé níílé dị́ n'èdèrèèdé. Ḿkpọ́tụ́ ná-ádá àlá àlà dị̀ ḿmá; mànà égwú ná-ádàsị́ íké ǹké nwéré íké ímé kà Ị́ ghàrá ị́nụ́ ḿkpụ́rụ́ókwú níílé ádị́ghị́ ḿmá.
+contribution-background-noise-description-extended = Ọ́bụ́rụ́ nà ḿkpọ́nyé gbábìé mà ọ̀ bụ̀ nwéé ḿkpọ́bìrísí, jụ́ ị́nábàtà yá bèlụ́ sọ̀ mà à kà gà-ánụ́ íhé níílé dị́ n'èdèrèèdé.
+contribution-background-voices-title = Ólú ná-ádá
+contribution-background-voices-description = Ḿkpọ́tụ́ ná-ádá dị̀ ḿmá mànà ányị́ áchọ́ghị́ ólú ókwú ńdị́ ọ́zọ́ nwéré íké ímé kà ńhàzí ígwè-nwéré-àkọ́núchè (machine learning algorithm) ghọ́tá íhé ná-ádị́ghị́ nà ǹké é dèrè édé. Ọ́bụ́rụ́ nà Ị́ wèrè íké ị́nụ́ ókwú dị́ íchè nà ńdị́ èdèrè èdé, jụ́ ị́nábàtà ḿkpọ́nyé áhụ̀. Ǹké à nà-èmékárị́ mà ọ̀bụ́rụ́ nà á gbànyèrè ígwé ònyònyò mà ọ̀ bụ̀ ná-ákpárị́tá ńkàtá n'ébé dị́ ǹsó.
+contribution-background-voices-description-extended = Ọ́bụ́rụ́ nà ḿkpọ́nyé gbábìé mà ọ̀ bụ̀ nwéé ḿkpọ́bìsí, jụ́ ị́nábàtà yá bèlụ́ sọ̀ mà à kà gà-àgụ́tánwú ǹkè é dị́ n'ụ̀dị́ edèrè èdé.
+contribution-background-voices-example-1-explanation = Ị̀ nà-àbị́á?<strong> [ónyé ọ́zọ́ kpọ̀tàrà]</strong>
+contribution-volume-title = Ógó ụ̀dà (volume)
+contribution-volume-description = Á gà-énwénátá ǹdị̀íchè ékéréchí n'ógó ụ̀dà n'ètítì ńdị́ ńgụ́pụ̀tá àbụ̀ọ́. Jụ́ ị́nábàtà yá mà ọ́bụ́rụ́ nà ọ́ nà-ádàsị́ íké ǹkè nà ọ́ nághị̀ èkwú ọ́fụ́má mà bụ̀ (ǹké káchá èmé), ọ́ bụ́rụ́ nà ọ́ ná-ádá  ǹkè nà Ị̀ gághị̀ àghọ́táchá íhé é kwùrù bèlú sọ̀ mà Ị̀ lèrè ányá nà ǹkè é dèrè édé.
+contribution-reader-effects-title = M̀mètụ̀tàrà Ọ̀gụ́ụ̀ (Reader)
+contribution-reader-effects-description = Ọ̀tụ́tụ́ ḿkpọ́nyé bụ̀ ǹkè ńdị́ ná-ékwú ókwú n'ólú ékéréchí há. Ị́ nwèrè íké ị́nábátá ńdékọ́ ńdị́ ná-érúchághị́ ógó ǹkè ná-ánághị̀ àbị́á m̀gbè níílé ǹkè é tìrì nà ḿkpú mà ọ̀ bụ̀ kwúó n'ólú nwáyọ̀ọ̀ mà ọ̀ bụ̀ jìrí ólú ǹkà kwúó. Bíkó jụ́ ị́nábàtà ǹké ọ́bụ́là á gụ̀rụ̀ n'égwú mà ọ̀ bụ̀ ǹkè é jì ígwé ómé kà ḿmádụ̀ kwúó.
+contribution-just-unsure-title = Náánị́ éjìghì n'áká?
+contribution-just-unsure-description = Ọ́búrú nà Ị́ hụ́ íhé ọ̀bụ́là íhé ḿgbàzírí ńdị́ à ná-éjíkọ̀tàghị̀, bíkó tùlíé áká étú ó sì kwésí. Ọ́bụ́rụ́ nà Ị̀ nwéchághí íké íkpébì, pị̀á kà Ị́ gáfèé mà jéé nà ḿkpọ́nyé ná-èsòchí.
+see-more = <chevron></chevron>Hụkwuo
+see-less = <chevron></chevron>Lee obere
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -917,9 +937,26 @@ contribution-varying-pronunciations-description = Kpàchárá ányá túpú Ị�
 
 ## HEADER/FOOTER
 
+sc-header-home = Ísíḿbídó ówà (Home)
+sc-header-how-to = Kà-ésì èmé
+sc-header-add = Tìnyékwúó
+sc-header-review = Nyòchàá
+sc-header-rejected = Áhị́rị́ókwū ájụ̀rụ̀ àjụ́
+sc-header-my = Áhị́rị́ókwū ḿ
+sc-header-statistics = Ọ̀gụ́gụ́ ọ́nụ́ọ̀gụ́gụ́
+sc-header-profile = Ǹjìrìmárá (Profaịlụ)
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Kpèsá áhụ́hụ́-ọ́wā (bugs)
+sc-footer-report-copyright = Kpèsá ńsògbú òkè-ónyénwéíhé  (copyright issues?)
+sc-footer-privacy = Ǹzúzó (Privacy)
+sc-footer-terms = Úsòrò ìwú
+sc-footer-cookies = Kúkì (cookies)
+sc-login-signup-button = Bànyé / Débànyé áhá
+sc-logout-button = Pụ̀ọ́
 
 ## HOME
 
+sc-home-title = Nnọ̀ọ́ nà ńdị́ nà-ánákọ́tá áhị́rị́ókwū Common Voice (Common Voice Sentence Collector).
 
 ## HOW-TO
 
