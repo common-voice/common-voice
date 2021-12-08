@@ -129,6 +129,7 @@ pl = Pools
 ps = Pashtu
 pt = Portugees
 quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Reto-Romaans Surselvisch
 rm-vallader = Reto-Romaans Vallader
 ro = Roemeens
