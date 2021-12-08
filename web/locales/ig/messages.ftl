@@ -831,6 +831,11 @@ download-request-description = { $clipCount }ńkéńké mkpọ́nyé ólú ó
 download-request-archive-single = Ótù faịlụ ZIP nwéré
 download-request-archive-multiple = Kérìé n'ímé { $archiveCount } ḿkpókọ́tá (faịlụ) ZIP nwéré
 download-request-assembling-description = Á nà-áchị́kọ́tá íbé ḿkpókọ́tá n̄gwá gị́. Bíkó, lèléghárị́á m̀gbé ọ̀zọ́
+download-request-refresh-button = Mèpéghárị́á (refresh)
+download-request-modal-title = Ọ́wà ḿbúdàtá (Download Links)
+download-request-modal-description = Ǹké à bụ̀ ọ́wà á gà-èsí búdàtá faịlụ ZIP gị́.
+download-request-link-text = Zip #{ $offset } ǹkè { $total }
+download-request-metadata-link = Èdèrèdé áhị́rị́ókwú
 
 ## Landing
 
