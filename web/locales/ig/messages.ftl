@@ -478,12 +478,44 @@ de-identified-explanation = Úsòrò é sì ézóchíté ózí gbàsárá ónyé
 
 ## Error pages
 
+error-title-503 = Ànyị́ nà-ènwé ógè ọ̀dị̀dà ná-àtụ́ghị̄ ányá yá
+error-code = M̀pérí{ $code }
 
 ## Data
 
+data-download-button = Búdàtá ụ́yọ̀kọ̀ ńgwá ólú ókwú Common Voice.
+data-download-yes = Ee
+data-download-deny = Ḿbà
+data-download-license = Ikikere: <licenseLink>CC-0</licenseLink>
+data-download-modal = Ị́ nà-áchọ́ íbídó ḿbúdàtá nke<size>{ $size }GB</size>, Ị̀ chọ̀rọ̀ ị́gá n'íhú?
+data-subtitle = Ànyị́ nà-éwúlíté ụ́yọ̀kọ̀ ńgwá ńchọ́chá ụ̀dà-ólú gá-ádị́rí ónyé ọ́bụ́là, ǹkè ḿmádụ̀ níílé gà-èjí wúlíté ńgwá ólú ókwú.
+data-explanatory-text = Ànyị́ kwèsìrì íké nà ọ́tùtù ụ́yọ̀kọ̀ ńgwá ńchọ́chá ólú ókwú é mèrè màkà ḿmádụ̀ níílé gà-ákwàlite mmepụta ihe ọhụrụ na ézígbó asọmpi n'azụmahịa mmụta igwe ǹké dábéré nà ǹkànụ́zụ́ ókwú. Nke a bụ ḿbọ zuru ụwa ọnụ ǹkè anyị na-akpọ onye ọ bụla ka ọ sonye. Ebumnobi anyị bụ inyere nkà na ụzụ okwu aka ísònyè nà kà ó sì ágá, mà na-egosipụta ụdị olu dị iche iche sitere n'ákụ̀kụ̀ ụwa níílé.
+data-other-title = Ụ́yọ̀kọ̀ ńgwá ńchọ́chá ụ̀dà-ólú ǹkè ólú ǹdị́ ọ́zọ́...
+data-other-goto = Gaa na { $name }
+data-other-download = Búdàtá ụ́yọ̀kọ̀ ńgwá ńchọ́chá
+data-bundle-button = Búdàtá ńgwùgwù ụ́yọ̀kọ̀ ńgwá ńchọ́chá (Dataset Bundle)
+data-bundle-description = Ńgwá ńchọ́chá ụ̀dà-ólú ǹkè Common Voice nà ụ́yọ̀kọ̀ ńgwá ńchọ́chá ńdị́ ọ́zọ́ dị́ n'élú.
+release-version = Ụ̀dị́
+dataset-date = Ụ́bọ̀chị̀
+license = Ikikere: <licenseLink>{ $license }</licenseLink>
+license-mixed = Ńkwákọ́tá
+data-download-singleword-title = Búdàtá Ńkébì Èbùmnúchè Ótù Ókwū
+data-download-singleword-callout-v2 = Ńké à bụ̀ ákụ̀kụ́ ǹlò ǹké gụ́nyéré ńgwá ńchọ́chá gá-ágbányé ígwé ǹghọ̀tá ọ́nụ́ọ́gụ́gụ́ nà ǹkè ná-áchọ́pụ̀tá éé/ḿbà.
+review-terms = Síté nà-íjì Common Voice mèé íhē, Ị́ nà-èkwéré na <termsLink> Usoro</termsLink> na <privacyLink> Ọkwa Nzoro</privacyLink>
+terms-agree = Ékwèrè ḿ
+terms-disagree = Èkwéghị́ ḿ
+review-aborted = Bùgóté ńdị́ Ị́ kábìrì. Ị̀ chọ̀rọ̀ íhíchàpụ̀ íhé ígéńtì gị́?
+review-submit-title = Nyòcháá mà zìgá
+review-submit-msg = Ǹdéwó màkà ́ḿkpọ́nyé. Úgbú à, nyòcháá mà zìgá íríghírí ́ḿkpọ̄nyē gị́ n'òkpúrù ébé à
+review-recording = Nyòchàá
+review-rerecord = Kpọ̀nyéghárị́á
+review-keep-recordings = Dèbé íhé ḿkpọ́nyé
+review-delete-recordings = Hị́chàpụ́ íhé ńd́ekọ̀ ḿ
 
 ## Datasets Page
 
+datasets-headline = Ànyị́ nà-èwú ụ́yọ̀kọ̀ ńgwá ńchọ́chá n'ọ̀tụ́tụ́ ásụ̀sụ́ ǹkè ḿmádụ̀ níílé nwèrè íké íjì wúlíté ńgwá nwéré íké mà ọ̀ bụ̀ ghọ́tá ókwú.
+datasets-positioning = Ànyị́ kwènyèrè nà na ọ̀tụ́tụ́ ụ́yọ̀kọ̀ ngwá ńchọ́chá é wùbèrè màkà ónyé ọ́bụ́là gà-ènyé  áká kwàdóó ńchépụ́tá ọ́húrú nà ézí ásọ́mụ́mpì n'àzụ́máhị́á ńdị́ ná-éwú ígwè é jì émé ḿmụ̀tá ńké gbádóró ụ́kwụ́ nà ǹkànụ́zụ́ ókwú. Ụ́yọ̀kọ̀ ngwá ńchọ́chá Common Voice n'ọ̀tụ́tụ́ bụ̀ ọ̀kà íbè n'ímé ụ́yọ̀kọ̀ ngwá ńchọ́chá mànà ọ̀bụ́ghị́ náánị́ yá dị̀. Légá ányá n'íhú ọ́wá à dị́kà ébé ńrụ̀tụ́áká màkà ọ́wà ụ́yọ̀kọ̀ ngwá ńchọ́chá ńdị́ ọ́zọ́ nàkwà ébé ńnwétá ózí ọ́hụ́rụ́ dị́kà Common Voice nà-àgá n'íhú.
 
 ## Download Modal
 
