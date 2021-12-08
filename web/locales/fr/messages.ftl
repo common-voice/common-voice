@@ -129,6 +129,7 @@ pl = Polonais
 ps = Pachto
 pt = Portugais
 quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romanche sursilvan
 rm-vallader = Bas-engadinois
 ro = Roumain
