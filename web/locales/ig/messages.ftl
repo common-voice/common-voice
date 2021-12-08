@@ -429,6 +429,7 @@ faq-is-goal-assistant-a = Èbùmnúché ụ́yọ̀kọ̀ ńgwá ńchọ́chá
 faq-do-want-native-q = Ásùsú à ábūghī ásùsú-òbòdò m, é jì m̀ ńdébé-ólū àsú yá, Ị̀ kà chọ̀rọ̀ ólú ókwú m?
 faq-do-want-native-a = Éé, ànyị́ chọ̀kàrị̀sị̀rị̀ ólú ókwú gị́! Ótú n'ímé èbùmnúché Common Voice bụ̀ íkpókọ̀bà ọ̀tụ́tụ́ ǹdébéólú dị́ íchè íché é nwérè íké íkpókbà kà ọ́rú ǹghọ̀tá ụ̀dà-ólú bàárá ḿmádụ̀ níílé uru. Ǹké à pụ̀tàrà nà ụ̀dà-ólú ńdị́ ná-ásụ́ ásụ̀sụ̀ há dị́ íchè íchè dị̀ óké ḿkpà.
 faq-why-different-speakers-q = Gị́nị̄ mèrè Ị́ jìrì chóóọ̀tụ́tụ́ ḿmádụ̀ dị́ íchè íchè n'ásụ̀sụ́ ọ̀bụ́là?
+faq-why-my-lang-q = Gị́nị́ mèrè nà-èdébànyèbèghị̀ ásụ̀sụ́ m?
 faq-why-10k-hours-q = Kèdụ́ íhé kpátárá nà élékéré 10,000 á kwàdòrò jìrì bụ́rụ́ èbùmnúchè ísètè áféré ókwú kwà ásụ̀sụ́ ọ́bụ́là?
 faq-how-calc-hours-q = Kèdụ́ kà Common Voice sì ágbákọ́ élékéré?
 faq-what-determine-identity-q = Kèdú íhé ọ́ pụ̀tàrà nà ènwéghị̄ m íké "ị́chọ̄pụ̀tà ǹjìrìmárá" ńdị́ nà-ékwú ókwū nà ụ́yọ̀kọ̀ ńgwá ńchọ́chá Common Voice?
