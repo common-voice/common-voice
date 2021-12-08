@@ -129,6 +129,7 @@ pl = Pólšćina
 ps = Paštošćina, Pašto
 pt = Portugalšćina
 quc = Kičešćina
+quy = Quechua Chanka
 rm-sursilv = Retoromanšćina Sursilvan
 rm-vallader = Retoromanšćina Vallader
 ro = Rumunšćina
