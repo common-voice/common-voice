@@ -1029,12 +1029,45 @@ sc-rejected-none-found = È nwéghị̄ áhị́rị́ókwū ńdị́ áj
 ## STATS
 
 sc-stats-title = Ọ̀gụ́gụ́ ọ́nụ́ọ̀gụ́gụ́
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = M̀wúkwányé (update) ǹké ìkpèàzú: { $lastUpdate }
+sc-stats-last-update-never = M̀wúkwányé (update) ǹké ìkpèàzú: ọ̀ díghì
+sc-stats-updating = M̀wúkwányé (updating)
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Ọ̀nátà-áhị́rị́ókwū ǹkè ńdí Common Voice ànákọ́tàgó { $sentenceCount } ahịrịokwu n'asụsụ { $languageCount }!
 
 ## ADD
 
+sc-submit-err-select-lang = Bíko Họ̀rọ́ ásụ̀sụ́.
+sc-submit-err-add-sentences = Bíkō tìnyé áhị́rị́ókwū.
+sc-submit-err-add-source = Bíkō tìnyé ébé ǹké à sì bíá
+sc-submit-err-confirm-pd = Bíkō kwàdó nà áhị́rị́ókwū ńdị́ à dì nà ǹgàlàbà ọ̀hà (Public Domain).
+sc-submit-prompt =
+    .message = Ìnyéfèbèghì áhị́rị́ókwū, Í kà chọ̀rọ̀ ị́pụ̀?
+sc-submit-title = Tìnyé Áhị́rị́ókwū
+sc-submit-select-language =
+    .labelText = Họ̀rọ́ ásụ̀sụ́
+sc-submit-add-sentences = Tìnyé <wikipediaLink>ńgàlàbà ọ̀hà (public domain)</wikipediaLink> áhị́rị́ókwū
+sc-submit-ph-one-per-line =
+    .placeholder = Ótù áhị́rị́ókwū kwà áhị́rị́
+sc-submit-from-where = Èbéé kà áhị́rị́ókwū <wikipediaLink>ńgàlàbà ọ̀hà (public domain)</wikipediaLink> sị̀?
+sc-submit-ph-read-how-to =
+    .placeholder = Gụ̀ọ́ ‘kà-ànyí-sí-èmé’ ọ́bụ́rụ́ nà í mághī kà é sì àtúnyé
+sc-submit-confirm = Á nà m̀ ákwàdó nà áhị́rị́ókwū ńdị́ à bụ̀ <wikipediaLink>ńgàlàbà ọ̀hà (public domain)</wikipediaLink> nà énwèrè m̄ íkíké íbūgō há.
+sc-submit-button =
+    .submitText = Nyéfèé
+sc-submit-filtered = Áhị́rị́ókwū  éwēpùtàrà màkà nà há ádị̄ghí kà há chọ̀rọ̀ (bíkō nyéfèé ńdí édòzìrì dị́ kà áhị́rị́ókwū ọ́hụ́rụ́):
+sc-submit-guidelines = Bíkō lèléé <howToLink> ńtùzíákā</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ènwéghị̄ íké ị́gbàkwùnyè ásụ̀sụ́
+sc-add-lang-sec-label = Tìnyé Ásụ̀sụ́ ị́chọ̀rọ̀ ítūnyē òkè nà yá
+sc-add-lang-sec-button = Tìnyé Ásụ̀sụ́
+sc-add-err-unexpected = Sávà (server) wéghàchìrì ńzághàchí á nā-átụ́ghị́ ányá yá
 
 ## ADD SENTENCES CONFIRMATION
 
