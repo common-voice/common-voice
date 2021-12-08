@@ -441,14 +441,40 @@ faq-search-for-answers =
 about-title = Gị́nị́ kpàlìtèrè Common Voice?
 about-subtitle = Common Voice sòtèrè n’íhé Mòzíllà nà-èmé íjì àkụ́zị́rị́ ígwè nwéré àkọ́núchè ètù ḿmádụ̀ sì èkwú ókwú. N'ị́gbàkwùnyèrè n'ụ́yọ̀kọ̀ ńgwá ńhọ́chá Common Voice, ànyị́ nà-èwu ígwé nghọ́tá-ókwú ọ́nụ́ gá-ádị́ màkà ḿmádụ̀ níílé á nà-àkpọ́ Deep Speech.
 about-header-description = Ámụ̀mà àbụ̀ọ́ ńdị́ à sò nà ḿbọ̀ ányị́ nà-àgbá méchínátá óké dị́ n'ètítí úsòròókwú àgbà óchíènà ǹkè ọ́hụ́rụ́. Ǹkànụ́zụ́ ǹghọ́tá ụ̀dà-ólú ányị́ nà-ènyé ígwè ànyị́ nà-àrụ́ ọ̀dị́dị́ḿmádụ̀, mànà ńdị́ ḿwlíté chọ̀rọ̀ ọ̀tụ́tụ́ ńgwá ńchọ́chá ólú ókwú íjí rụ́pụ̀tá há. Kà ọ́ dị̀ úgbú à, ọ̀tụ́tụ́ n'ímé ńgwá ńchọ́chá ńdị́ à dị̀ óké ọ́nụ́ nwékwáá áká nwé há.
+about-header-description-2 =
+    Ámụ̀má à bụ̀ ḿbọ̀ ányị́ nà-àgbá méchínátá óké dị́ n'ètítí úsòròókwú àgbà óchíènà ǹkè ọ́hụ́rụ́. Ǹkànụ́zụ́ ǹghọ́tá ụ̀dà-ólú ányị́ nà-ènyé ígwè ànyị́ nà-àrụ́ ọ̀dị́dị́ḿmádụ̀, mànà ńdị́ ḿwlíté chọ̀rọ̀ ọ̀tụ́tụ́ ńgwá ńchọ́chá ólú ókwú íjí rụ́pụ̀tá há. Kà ọ́ dị̀ úgbú à, ọ̀tụ́tụ́ n'ímé ńgwá ńchọ́chá ńdị́ à dị̀ óké ọ́nụ́ nwékwáá áká nwé há. 
+    Ànyị́ chọ̀rọ̀ ímé kà ńgwá ńchọ́chá ólú ókwú dị́rị́ ónyé ọ̀bụ́là m̀fé ńnwétá, mékwáá kà yá bụ́ ńgwá ńchọ́chá nọ̀chíté ńdị́ bụ́ ḿmádụ̀. Kà ànyị́ jìkọ́ọ́ áká ọ́nụ́ méé átụ̀màtụ̀ ńghọ́tá ụ̀dà-ólú à káwányé ḿmá màkà ḿmádụ̀ níílé.
 how-does-it-work-title = Kèdú kà ó sì àrú ọ́rụ̄?
 about-speak = Kwùó ókwú
 about-listen-queue = Íhé ńdí Í gà-égè
 about-listen-queue-text = Á nà-àwúnyéÍhé ákpònyèrè n'ímé ọ́gbárá íhé ńdị́ á tụ̀kọ̀tàrà ǹké ná-ákwádó há màkà ńgèré.
 about-listen = Gèé ńtị̀
+about-partners = Ńdí ḿmékọ́
+about-become-a-partner = Bụ̣̀rụ̣́ ónyé ḿmékọ̣́
+about-partnership =
+    Common Voice bụ̀ ámụ́mà ḿmékọ́rị́tá. Ànyị́ nà-ádàbékwárá nà ńdị́ ḿmékọ́rị́tá nà ndị́ ńkwàdó ányị́ íjí wúlíté ọ́wá ụ́yọ̀kọ̀ ńgwá ńchọ́chá káchásị́ íbù dị́kwá màkà ónyé ọ́bụ́là. 
+    
+     Ànyị́ chọ̀rọ̀ ńdị́ à màkà ńkwàdó há:
+about-get-involved = Sònyé
+about-nav-why-common-voice = Màkà gị́nị́?
+about-nav-how-it-works = Ètú ólé?
+about-nav-partners = Ńdí ḿmékọ́
+about-nav-get-involved = Sònyé
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Àkọ́núchè m̀mádù mèrè
+mycroft-description = Mycroft bụ̀ ọ́wà ǹnyèmáká ḿbụ́ é nwèrè n'ụ̀wà dị́ màkà ónyé ọ́bụlà. Mycroft nà-àrụ́ ọ́rụ́ n'ígwé ómékàm̀mádụ̀, nà n'ụ́gbọ́ àlà, mà ọ̀ bụ̀ na Raspberry Pi.
+mycroft-secondary-description = Ǹké bụ̀ ọ́wà ńgwá ánághị̀ àhụ́ ányá ńdị́ é nwèrè íké ínwòghàrị̀, mụ́bá, mà ọ̀ bụ̀kwànụ̀ mélíté. É nwèrè íké íjì Mycroft méé íhé ọ̀bụ́lá tụ̀màdị̀ ámụ́mà ǹkà nà ńgwá ńdị́ ánághị̀ àhụ́ ányá.
 
 ## Glossary
 
+glossary = Ńkọ́wá ókwū
+localization = Ńtụ́ghárị́ n’ásụ̀sụ́ òbòdó-ńdị́
+localization-explanation = Ǹkė à bụ̀ ùsòrò ànyị jì àtụ́ghárị́ íhé ànyị́ ná ásụ̀sú dì íchè íchè kà ọ̀tụ́tụ́ ńdị́ nwé íké ị́gūtā yá n’ásụ̀sụ ́há
+sentence-collection = Ńchị́kọ́tá áhị́rị́ókwū (Sentence Collection)
+sentence-collection-explanation = Ị́nākọ́tá áhị́rị́ókwū sítéré nà ǹgàlàbá ọ̀hà, mà ọ́ bụ́ ídē ǹkè ọ́hụ́rụ́ màkà ǹgàlàbá ọ̀hà.
+hours-recorded-explanation = Ọ́nụ́ọ́gụ́ élékéré ńdékọ̀ ụ̀dà-ólú ólē ànyị́ chị̀kọ̀tàràlà kà ọ́ dị́ ùgbú à
+hours-validated-explanation = Ọ́nụ́ọ́gụ́ élékéré ńdékọ̀ ụ̀dà-ólú ǹkè 2 n'ime ndị ǹlò 3 kwadogòrò site na ńtùlí áká nke "Ee". Íhé ńdị́ à nà-ègósí àgàmníhụ́ é nwètàràlà ènwétá ị́gárú èbùmnúchè ǹké bụ́ (10k) élékéré.
+de-identified-explanation = Úsòrò é sì ézóchíté ózí gbàsárá ónyé ńtúnyé òkè yá nà íríghírí ólú ókwú há tụ̀nyèrè m̀gbè á nà-àkwádó há màkà ḿbúdàtá dị́kà ụ́yọ̀kọ̀ ótù n'ímé ńgwá ńchọ́chá
 
 ## Error pages
 
