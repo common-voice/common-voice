@@ -1067,9 +1067,11 @@ sc-howto-addsen-title = Nowe sady přidać
 sc-howto-cite-title = Citować
 sc-howto-cite-item-1 = Wy móhł websydło podać, na př. „Common Voice - https://commonvoice.mozilla.org/“
 sc-howto-review-title = Sady přepruwować
+sc-howto-review-subtitle = Zawěsćće, zo sady slědowacym kriterijam wotpowěduja:
 sc-howto-review-criteria-1 = Sada dyrbi prawje napisana być.
 sc-howto-review-criteria-2 = Sada dyrbi gramatiski korektna być.
 sc-howto-review-criteria-3 = Sada dyrbi wurěkujomna być.
+sc-howto-review-criteria-4 = Jeli sada kriterijam wotpowěduje, klikńće na tłóčatko „Schwalić“.
 sc-howto-findpd-tips = Tu su někotre pokiwy, zo byšće sady namakał:
 sc-howto-findpd-subtitle-2 = Dźěłajće z lokalnymi organizacijemi abo jednotliwcami hromadźe
 
