@@ -664,15 +664,79 @@ target-segment-learn-more = Mụ̀tákwúó
 
 report = Kpèsáá
 report-title = Zìgá mkpèsá
+report-ask = Kèdú ńsògbú Ị́ nà-ènwé n'áhị́rị́ókwū à?
+report-offensive-language = Ókwú ḿkpárị́
+report-offensive-language-detail = Áhị́rị́ókwú áhụ̀ ǹwèrè ḿkpárị́ màọ̀bụ̀ íhé gá-éwúté m̀mádù  n'ímé yá.
+report-grammar-or-spelling = Írí m̀pérí n'ụ̀tọ́ásụ̀sụ́/ńsúpè
+report-grammar-or-spelling-detail = Áhị́rị́ókwú ókwú áhụ̀ rìrì mpérí n'ụ̀tọ́ásụ̀sụ́ nà ńsụ́pé.
+report-different-language = Ásụ̀sụ́ dị̀ íchè
+report-different-language-detail = É dèrè yá n’ ásụ̀sụ́ dị̀ íchè nà ǹkè m nà-àsụ́.
+report-difficult-pronounce = Ó sìrì íké ḿkpọ́pụ̀tá
+report-difficult-pronounce-detail = O nwere okwu ma ọ bụ nkebiokwu siri ike ịgụ ma ọ bụ ịkpọpụta.
+report-offensive-speech = Ókwú ḿkpárị́
+report-offensive-speech-detail = Ihé ḿkpọ́nyé à nà-ènyé ḿkpárị́ mà ọ̀ bụ̀ nwèrè ókwú ḿkpárị́ n'ímé yá.
+report-other-comment =
+    .placeholder = Tìnyé ọ́nụ́
+success = Ọ́ gàrà ǹkè ọ́má
+continue = Gàá n'íhú
+report-success = É zìgálá ḿkpésá n'ébé kwésírí
 
 ## Goals
 
+streaks = Streaks
+days =
+    { $count ->
+        [one] Ụbọchị
+       *[other] Ụbọchị
+    }
+recordings =
+    { $count ->
+        [one] ḿkpọ́nyé
+       *[other] ḿkpọ́nyé
+    }
+validations =
+    { $count ->
+        [one] Ńkwàdó
+       *[other] Ńkwàdó
+    }
 
 ## Dashboard
 
+your-languages = Ásụ̀sụ́ gị
+toward-next-goal = N'írú èbùmnúché ná-ésòchí
+goal-reached = Èbùmnúché ńdị́ é nwètàràlà
+clips-you-recorded = íhé ńdị́ Í kpọ̀nyèrè
+clips-you-validated = Ihé ígèńtì ńdị́ Í kwàdòròlà
+todays-recorded-progress = Àgàmníhú Common Voice nwètèrèlà n'ụ́mụ̀ ńkéńké íhé Ị́ kpọ̀nyèrè taa
+todays-validated-progress = Àgàmníhú Common Voice nwètèrèlà n'íhé ígèńtì ńdị́ á kwádòròlà táà
+stats = Stats
+awards = Ònyìnyé ńríté
+you = Gị
+everyone = Onye ọbụla
+contribution-activity = Mmemme ntinye aka
+top-contributors = Ńdị́ káchá ákwàdó
+recorded-clips = Íhé á kpọ̀nyèrèlà
+validated-clips = Íhé á kwàdòròlà
+total-approved = Ḿkpókọ́tá ọ́nụ́ ọ́gụ́gụ́ íhé ńdị́ kwàdòròlà
+overall-accuracy = Ǹdàbàrà níílé
+set-visibility = Hàzíé ọ̀hụ́hụ́ m
+visibility-explainer = Ńhàzí à nà-àchị́kọ́tá ụ́gbọ́ ńdú ọ̀hụ̀hụ̀ gị́. É zóó yá, à gághị̀zị̀ àhụ́ àgàmníhú gí. Ǹké à pụ̀tàrà nà ònyònyó, áhá ǹjìrìmárá nà àgàmníhú gị́ ạ́gághị̀ ègósí n'ụ́gbọ́ ńdú. Màtá nà ńsàpéghárị́ ụ́gbọ́ ńdú nà-éwè - { $minutes }ńkéjí íjí tínyégásị́á ḿgbánwè á chọ̀rọ̀.
+visibility-overlay-note = Màtà: Ọ́ bụ́rụ́ nà é tínyé "kà á hụ́" nà ńhàzí, é nwèrè íké ígbánwè ǹké à síté nà <profileLink>íhú ọ́wā ǹjìrìmárá</profileLink>
+show-ranking = Gòsí ọ́kwá ḿ
 
 ## Custom Goals
 
+get-started-goals = Jìrí íhé m̀bùmnúchè bìdó
+create-custom-goal = Képụ̀tá èbùmnúché ǹkè gị́
+goal-type = Kèdụ́ ụ́dị́ èbùmnúché Ị́ chọ̀rọ̀ íwúlíté
+both-speak-and-listen = Há àbụ̀ọ́
+both-speak-and-listen-long = Há àbụ̀ọ́ (kwùó mà gèé ńtị̀)
+daily-goal = Èbùmńúchè kwà ụ́bọ̀chị̀
+weekly-goal = Èbùmnúché kwà ízù
+easy-difficulty = M̀fé
+average-difficulty = Ǹhàtùàhú
+difficult-difficulty = Sìrì íké
+pro-difficulty = Ọ̀kàchàsị̀ márá
 
 ## Profile Delete
 
