@@ -129,6 +129,7 @@ pl = Polnisch
 ps = Paschtu
 pt = Portugiesisch
 quc = K’iche’
+quy = Quechua Chanka
 rm-sursilv = Surselvisch
 rm-vallader = Rätoromanisch Vallader
 ro = Rumänisch
