@@ -129,6 +129,7 @@ pl = Poalsk
 ps = Pashtu
 pt = Portugeesk
 quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Reto-Romaansk Surselvysk
 rm-vallader = Reto-Romaansk Fallader
 ro = Roemeensk
