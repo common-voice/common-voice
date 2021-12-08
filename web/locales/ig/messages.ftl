@@ -304,9 +304,9 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
-shortcut-record-toggle-label = Dèkọ́ọ́/Kwụ̀sị́
+shortcut-record-toggle-label = Kpọ̀nyé/Kwụ̀sị́
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Kwùnyéghárị́á
+shortcut-rerecord-toggle-label = Kpọ̀nyéghárị́á
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Hìcháá ńdékọ́ i na-eme ugbu a
 shortcut-submit = Lághàchí
@@ -510,7 +510,7 @@ review-aborted = Bùgóté ńdị́ Ị́ kábìrì. Ị̀ chọ̀rọ̀ íhích�
 review-submit-title = Nyòcháá mà zìgá
 review-submit-msg = Ǹdéwó màkà ́ḿkpọ́nyé. Úgbú à, nyòcháá mà zìgá íríghírí ́ḿkpọ̄nyē gị́ n'òkpúrù ébé à
 review-recording = Nyòchàá
-review-rerecord = Kpọ̀nyéghárị́á
+review-rerecord = Kpọ̀nyéghárị́á (re-record)
 review-keep-recordings = Dèbé íhé ḿkpọ́nyé
 review-delete-recordings = Hị́chàpụ́ íhé ńd́ekọ̀ ḿ
 
@@ -949,6 +949,7 @@ sc-header-statistics = Ọ̀gụ́gụ́ ọ́nụ́ọ̀gụ́gụ́
 sc-header-profile = Ǹjìrìmárá (Profaịlụ)
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Kpèsá áhụ́hụ́-ọ́wā (bugs)
+sc-footer-translate = Tụ̀ghárị́á íhú ówà à
 sc-footer-report-copyright = Kpèsá ńsògbú òkè-ónyénwéíhé  (copyright issues?)
 sc-footer-privacy = Ǹzúzó (Privacy)
 sc-footer-terms = Úsòrò ìwú
@@ -1086,6 +1087,14 @@ sc-confirm-uploading = Á nà-èbúgó áhị́rị́ókwū. Ǹké à
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ènwéghī áhị́rị́ókwū Í gà  ényòchá.
+        [one] 1 áhị́rị́ókwū Í gà  ényòchá
+       *[other] áhị́rị́ókwū { $totalInReview } ńdí Í gà  ényòchá.
+    }
 sc-lang-info-review-now = <reviewLink> Nyòcháá ùgbú à!</reviewLink>
 sc-lang-info-add-more = <addLink>Tìnyékwúó áhị́rị́ókwū ùgbú à!</ addLink>
 
