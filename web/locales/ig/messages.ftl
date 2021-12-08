@@ -551,24 +551,119 @@ data-other-voxforge-description = É hìbèrè VoxForge màkà ị́nákọ́tá 
 your-feedback = Ò nwè íhé Ị́ mà gbàsárá kà ányị́ gà-èsí méé kà ụ́yọ̀kọ̀ ńgwá ńchọ́chá Common Voice dị́káwányé mmá káríá kà ọ́ dì ùgbú à? Mèé kà ányị́ mátá ǹké à nà-ébè ḿkpárị́tá.
 go-discourse = Gàá na Discourse
 missing-language = Ị̀ hụ́ghị́ ébé é dènyéré ásụ̀sụ́ gị́ n'ụ́yọ̀kọ̀ ńgwá ńchọ́chá? Màkà ị́rị́ọ́tá ásụ̀sụ́, gàá n'íhú ọ́wá ányị́ bụ́ màkà ásụ̀sụ́.
+go-languages-page = Gàá na Languages Page
+more = Ọ̀zọ́
+close = Mèchíé
+download = Búdàtá
+dataset-version = Ụ̀dị́
 
 ## Download Modal
 
+download-title = Ḿbúdàtá Ị́ chọ̀rọ̀ ámàlítélá.
+download-helpus = Nyéré ányị́ áká wùlíté òbòdò nà gbùrùgbúrū ǹkànụ́zụ́ ólú ókwú. Sònyéré ányị́ síté n'ózí íméèlụ̀ (email).
+download-form-email =
+    .label = Dènyé ákàrà ímèèlụ̀ (email) gị́.
+    .value = Dàálụ́, ányị́ gà ná-àkpọ́tụ́rụ́ gị́.
+download-no = Ḿbà, Dàálụ́.
 
 ## Contact Modal
 
+contact-title = Ákwụ́kwọ́ ńdébányé màkà ḿkpọ́tụ́rụ́.
+contact-form-name =
+    .label = Áhà
+contact-form-message =
+    .label = Ózí
+contact-required = *nkè á chọ̀rọ̀̀
 
 ## Request Language Modal
 
+request-language-title = Ńrị́ọ́tá Ásụ̀sụ́
+request-language-form-language =
+    .label = Ásụ̀sụ́
+request-language-success-title = Ńzígá ńhọ̀rọ̀ ásụ̀sụ́ gị́ gàrà ọ̀fụ́má, dàálụ́.
+request-language-success-content = Ànyị́ gà-àkpọ́tụ́rụ́ m̀gbè ná-étéghì ányá màkà ózí gbàsárá kà Ị́ èsí tínyé ásụ̀sụ́ gị́ nà Common Voice.
+select-language = Họ̀rọ́ Ásụ̀sụ́...
+other-language = Ásụ̀sụ́ ńdí ọ̀zọ́
 
 ## Languages Overview
 
+language-section-in-progress = Nà-àgá n'íhú
+language-section-in-progress-new-description = Ásụ̀sụ́ ńdị́ à kà nà-àgábìgà ḿwúlíté ǹkè ńdị́ òbòdò à. Ógwé ọ̀gàníhú nà-ègósí ébé ásụ̀sụ́ ọ́bụ́là rùgòrò nà<localizationGlossaryLink>ńchị́kọ́tá ọ́wà ńchọ́chá</localizationGlossaryLink> na<sentenceCollectionGlossaryLink>ḿkpókọ́tá áhị́rị́ókwú</sentenceCollectionGlossaryLink>.
+language-section-launched = Ḿwépụ̀tá
+language-section-launched-description = Màkà ásụ̀sụ́ ńdị́ é wépùtàràlà, ńchị́kọ́tá ọ́wà ńchọ́chá àgágó ǹkè ọ́má<localizationGlossaryLink></localizationGlossaryLink>, ma nweekwa<sentenceCollectionGlossaryLink>áhị́rị́ókwú é kpókọ̀bàrà</sentenceCollectionGlossaryLink> iji kwe ka ńtụ́nyéòkè<speakLink>ókwú ọ́nụ́</speakLink>na<listenLink>nkè ígè ńtị́ </listenLink>ná-àgá n'íhú.
+languages-show-more = Hụ̀kwúó
+languages-show-less = Hụ́ ńtàkírí
+language-meter-in-progress = Ọ̀gàníhú
+language-total-progress = Ḿkpọ́kọ́tá
+language-search-input =
+    .placeholder = Chọ̀ọ́
+language-speakers = Ndị na-ekwu okwu
+localized = Ńchị́kọ́tọ́ ḿpághárá
+sentences = Ahịrịokwu
+total-hours = Élékéré òlé nà òlé à kwàdòrò
 
 ## Contribution
 
+action-click = Pị̀á
+action-tap = Kpàtụ́
+contribute = Tụ̀nyé òkè
+listen = Gèé ńtị̀
+skip = Máfèé
+shortcuts = Ụ́zọ̀ ḿpíó (Shortcuts)
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold>íhé ígèńtì
+       *[other] <bold>{ $count }</bold>íhé ígèńtì
+    }
+goal-help-recording = Í nyérélá Common Voice áká írúté<goalPercentage></goalPercentage>ǹké ébmnúché ńdékọ́ ányị́{ $goalValue } kwà ụ́bọ̀chị̀!
+goal-help-validation = Í nyérélá Common Voice áká írúté<goalPercentage></goalPercentage> ǹké bụ́ èbùmnúchè ńkwàdó { $goalValue }ányị́ kwà ụ́bọ̀chị̀!
+record-cta = Bìdó ḿkpọ́nyé
+record-platform-not-supported = Ọ́ dị̀ ḿwúté, à kwádòghị̀ íkpó gị́ kà ọ́ dị̀ úgbú à.
+record-platform-not-supported-desktop = Nà ńgwá desktop, Í nwèrè íké ị́tụ̀nyé ókè síté n'íbúdàtà...
+record-platform-not-supported-ios-non-safari = Nà iOS Ị́ nwèrè íké jírí Safari gáá n'íhú síté n'ị́kpọ́nye ǹdékọ́ ólú...
+record-must-allow-microphone = Ị́ gà-kwérírí kà ígwè ókwū gí nwéé òhèrè
+record-no-mic-found = Ènwéghị̄ ígwè ókwū (microphone) à hụ̀rụ̀.
+record-error-too-short = ḿkpọ́nyé ahụ̀ pèrè m̀pé
+record-error-too-long = ḿkpọ́nyé ahụ̀  dị̀ ógólógó
+record-error-too-quiet = Ńdékọ́ áhụ́ ánághị́ ádàsị́ íké.
+record-cancel = Kàgbúó ḿkpọ́ghárị́
+record-instruction = { $actionType }<recordIcon></recordIcon>mà gụ́pụ̀tá áhị́rị́ókwú
+record-stop-instruction = { $actionType }<stopIcon></stopIcon>mà Í mécháá
+record-three-more-instruction = Ọ́ fọ̀dụ̀rụ̀ àtọ́ kà é mécháá!
+record-again-instruction = Ọ́ dị̀ mmá!<recordIcon></recordIcon> kpọ̀nyézíé ḿkpọ́nyé  ọ̀zọ́
+record-again-instruction2 = Jìsíé íké, ḿkpọ́nyé  ọ̀zọ́<recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon>Ǹké íkpéázụ́!
+review-tooltip = Nyòcháá mà kpọ́ghárị́á óbéré ḿkpọ́nyé
+share-clip = Késàá óbéré ḿkpọ́nyé
+share-common-voice = Késàá Common Voice
+review-instruction = Nyócháá mà kpọ́ghárị́á mà Ị́ chọ́ọ́
+record-submit-tooltip = { $actionType } zìgá m̀gbè Ị́ dị̀ ńjíkéré
+clips-uploaded = É búgóólá ḿkpọ́nyé gị́
+record-abort-title = Ị́ chọ̀rọ̀ íbú ụ́zọ̀ kpọ́cháá?
+record-abort-text = Ị́hāpụ̀ ùgbú à pụ̀tàrà nà ị́ gà-àtụ́fù ọ̀gàníhú gị́
+record-abort-submit = Zìgáá ḿkpọ́nyé
+record-abort-continue = Kpọ̀nyéchàá
+record-abort-delete = Pụ̀ọ́ mà híchàpú ḿkpọ́nyé  níílé
+listen-instruction = { $actionType }<playIcon></playIcon>hà àkpọ́pụ̀tàrà áhị́rị́ókwú ètù ó kwèsị̀rị̀?
+listen-again-instruction = Í méélá ǹkè ọ́má!<playIcon></playIcon>Gèé ńtị̀ ọ̀zọ́ m̀gbè Ị́ dị̀ ńjíkéré
+listen-3rd-time-instruction = 2 àgáá, jìsíé íké!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Ǹké ìkpéàzụ́!
+speak-empty-state = Áhị́rị́ókwú á gà-èdékọ́ n'ásụ̀sụ́ à àgwụ́sị́gó
+speak-empty-state-cta = Nye aka n'ahịrịokwu
+record-button-label = Kpọ̀nyé ólú ókwú gị́
+share-title-new = <bold>Nyèré ányị́ aká </bold>chọ̀tákwúó ólú ókwú ndị ọzọ
+keep-track-profile = Jide profaịlụ gị́ ná-àmátá kà Í sì ágá n'íhú.
+login-to-get-started = Bànyé màọ̀bụ̀ débànyé áhà kà ị́màlíté
+target-segment-first-card = Ị nà-àtụ́nyé óké nà ńgàlàbá èbùmnúché ányị́ ǹké ḿbụ́.
+target-segment-generic-card = Ị́ nà-àtụ́nyé óké n'ótù ńgàlàbá èbùmnúché.
+target-segment-first-banner = Nyé áká képụ̀tá ńgàlàbá èbùmnúché Common Voice ǹké ḿbụ́ nà{ $locale }
+target-segment-add-voice = Tìnyé ólū gị́
+target-segment-learn-more = Mụ̀tákwúó
 
 ## Reporting
 
+report = Kpèsáá
+report-title = Zìgá mkpèsá
 
 ## Goals
 
