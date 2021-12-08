@@ -1134,6 +1134,16 @@ sc-add-lang-sec-label = Přidajće rěč, ke kotrejž chceće přinošować
 sc-add-lang-sec-button = Rěč přidać
 sc-add-err-unexpected = Njewočakowana wotmołwa ze serwera
 # Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Zapodate sady. { $duplicates } sadow je so jako duplikat wotpokazało.
+        [one] Zapodate sady. { $duplicates } sada je so jako duplikat wotpokazała.
+        [two] Zapodate sady. { $duplicates } sadźe stej so jako duplikataj wotpokazałoj.
+        [few] Zapodate sady. { $duplicates } sady su so jako duplikaty wotpokazali.
+       *[other] Zapodate sady. { $duplicates } sadow je so jako duplikat wotpokazało.
+    }
+# Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
@@ -1259,6 +1269,7 @@ sc-criteria-item-4 = Jeli sada kriterijam wotpowěduje, klikńće na tłóčatko
 
 ## REVIEW
 
+sc-review-lang-not-selected = Njejsće rěče wubrał. Prošu přeńdźće k swojemu <profileLink>profilej</profileLink>, zo byšće rěče wubrał.
 sc-review-title = Sady přepruwować
 sc-review-loading = Sady so začituja…
 sc-review-select-language = Prošu wubjerće rěč, zo byšće sady přepruwował.
