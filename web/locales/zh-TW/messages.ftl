@@ -129,6 +129,7 @@ pl = 波蘭語
 ps = 普什圖語
 pt = 葡萄牙語
 quc = 基切語
+quy = 克丘亞占卡語
 rm-sursilv = 羅曼蘇塞瓦語
 rm-vallader = 羅曼什瓦拉德語
 ro = 羅馬尼亞語
