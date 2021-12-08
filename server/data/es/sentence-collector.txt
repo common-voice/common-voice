@@ -294,6 +294,7 @@ Aprendiz de mucho, maestro de nada.
 Aquel año las pasó canutas
 Aquel caserío tenía un modo de ser especial.
 Aquel día la radio despertador zumbaba de manera reiterada
+Aquel hombre no parará hasta que hoy concluya el negocio.
 Aquel sitio era la hostia. El año que viene volveremos fijo
 Aquello era algo real como la vida misma
 Aquello era un diálogo para besugos, sin sentido alguno
@@ -329,6 +330,7 @@ Así que vamos.
 Así que, ya sabes, ¡coge el tranvía y ve a por ella!
 Así se impone un modelo de media distancia
 Así terminó el imperio
+Así volvió Noemi y Ruth Moabita su nuera con ella.
 Atenderemos los heridos en el porche.
 Aterrizaje forzoso en un extraño planeta.
 Aunque parece insuperable
@@ -855,11 +857,13 @@ Dígale muchas gracias, que se las agradezco muchísimo.
 Díselo luego que ahora no está el horno para bollos
 Dónde deben ir tan mudados.
 E hizo Dios animales de la tierra según su género.
+E hizo Dios las dos grandes lumbreras
 Echad en el río todo hijo que naciere.
 Echar por el atajo no siempre ahorra trabajo.
 Edificaremos con vosotros, porque como vosotros buscaremos á vuestro Dios.
 Efectivamente es otra cosa, y se llama voto censitario
 Efímero como un castillo de arena
+Eh, fulano, ven acá y siéntate. Y él vino, y sentóse.
 Eh, ¡que te dejas el móvil al cajero automático!
 El Espanyol es un club de fútbol.
 El Gobierno siempre ha tenido una visión honorable
@@ -1005,6 +1009,7 @@ El necio cree que todo lo sabe.
 El niño pilló un berrinche de tres pares de cojones
 El niño se cayó y empezó a llorar como una magdalena
 El nombre de aquel varón era Elimelech, y el de su mujer Noemi
+El nombre del varón con quien hoy he trabajado es Booz.
 El nombre es una referencia a los chalecos que llevan puestos
 El novio de Marta está más bueno que el pan
 El nuevo coche eléctrico no se oye nada
@@ -1345,9 +1350,12 @@ Enseñemos a los chicos nuestro saludo secreto de amigos.
 Entonces, subamos a bordo. ¡ no, espera!
 Entonces, tenemos que hacer algo.
 Entonces Faraón mandó á todo su pueblo, diciendo.
+Entonces degollará el becerro en la presencia de Jehová;
+Entonces ella vino calladamente, y descubrió los pies, y acostóse.
 Entonces no tenemos tiempo que perder.
 Entonces pusieron sobre él comisarios de tributos que los molestasen con sus cargas.
 Entonces se levantaron los cabezas de las familias de Judá.
+Entonces se levantó con sus nueras, y volvióse de los campos de Moab
 Entonces yo los tengo también.
 Entonces él dijo: ¿Quién eres?
 Entre col y col, lechuga
@@ -1594,6 +1602,7 @@ Estas complicaciones conforman la problemática historia del país
 Estas muestras ya pueden ser consultadas
 Estas muy guapa esta mañana con tu vestido carmesí
 Estas patatas bravas pican y repican
+Estas seis medidas de cebada me dió, diciéndome:
 Estas son las partes más relevantes del documento
 Estas, dirigidas como vemos por una élite económica
 Este artículo explora los métodos que se pueden utilizar en ambos casos
@@ -1767,6 +1776,7 @@ Fuerte como el viento. Salvaje como el viento. Libre como el viento.
 Fuimos al Museo del Prado para ver la exposición.
 Fuma, jode y bebe, que la vida es breve
 Fumaba como un carretero y vivió hasta los cien
+Fué pues, y llegando, espigó en el campo en pos de los segadores:
 Fátima, se llamaba aquella moza que me rompió el corazón.
 Gallina vieja hace buen caldo
 Gallo que no canta, algo tiene en la garganta
@@ -1872,6 +1882,7 @@ Hacer un pan como unas hostias
 Hacer un pan como unas tortas
 Hacia un sueño que termina antes de tiempo
 Haciendo la maleta, siempre se me olvida algo.
+Hagamos al hombre á nuestra imagen, conforme á nuestra semejanza.
 Han alquilado un apartamento en Figueres.
 Han dicho que no tendrán que entrar en prisión.
 Han llegado a Roma con tres horas de retraso.
@@ -2057,6 +2068,7 @@ Javier Milei es economista.
 Jaén es la más cumplidora
 Jaén es la más cumplidora con un porcentaje alto
 Jehová había visitado á su pueblo para darles pan.
+Jehová haga con vosotras misericordia, como la habéis hecho con los muertos y conmigo.
 Jehová sea con vosotros.
 Jordi tiene una tía en Suiza.
 José llegó a la Formentera hippy de los setenta y se quedó.
@@ -4602,8 +4614,11 @@ Walter y Skyler White deberían tener una estatua humana en la Rambla.
 Y José estaba en Egipto.
 Y Obed engendró á Isaí, é Isaí engendró á David.
 Y Salmón engendró á Booz, y Booz engendró á Obed;
+Y Tenia Noemi un pariente de su marido, varón poderoso y de hecho.
+Y aconteció, que á la media noche se estremeció aquel hombre, y palpó
 Y ahora, de pronto, cosas extrañas me suceden
 Y ahora, vacía esa caja fuerte.
+Y ahora, aunque es cierto que yo soy pariente cercano.
 Y cantaban, alabando y confesando á Jehová.
 Y colorín, colorado, este cuento se ha acabado
 Y crió Dios al hombre á su imagen, á imagen de Dios lo crió.
@@ -4612,6 +4627,7 @@ Y cuando lleguemos allí, encontraremos un modo de llevarte a tu hogar.
 Y cuando él se acostare, repara tú el lugar donde él se acostar.
 Y de una manera más concreta al litoral andaluz
 Y desollará el holocausto, y lo dividirá en sus piezas.
+Y después que reposó á sus pies hasta la mañana, levantóse.
 Y dieron dinero á los carpinteros y oficiales;
 Y dijo Dios: Sea la luz: y fué la luz.
 Y el rey de Egipto hizo llamar á las parteras.
@@ -4646,6 +4662,7 @@ Y luego se oye un ruido por lomas y floresta.
 Y me hubieras quitado todo lo que era importante para mí
 Y muchos de los sacerdotes, ancianos que habían visto la casa primera.
 Y murieron también los dos, Mahalón y Chelión.
+Y murió Elimelech, marido de Noemi, y quedó ella con sus dos hijos;
 Y murió José, y todos sus hermanos, y toda aquella generación.
 Y música de nidos, como mansos instrumentos.
 Y nadie me lo va a arrebatar.
@@ -8928,6 +8945,7 @@ que ha silenciado muchas voces a lo largo de la historia
 que hace mucho que nadie me da la oportunidad
 que hacen aumentar todos los demás conceptos
 que han aceptado como buena estrategia
+que has hecho mejor tu postrera gracia que la primera.
 que hubiera partido
 que hubierais partido
 que hubieran partido
@@ -9155,6 +9173,7 @@ resulta costosa de romper
 resultó un discurso disperso
 retirarme a descansar, hermana.
 retire temporalmente las competencias en materia de cultura
+retiróse á dormir á un lado del montón.
 retorciéndose las manos, pálida, casi trágica, se adelantaba exclamando:
 revertir la destrucción del patrimonio
 revisa el barco de arriba a abajo, hay que encontrarlo antes
@@ -9680,6 +9699,7 @@ tiraba lentamente.
 tocas el tambor y sin que la policía te detenga
 toda la escolta me siguió.
 toda la potencia de cálculo combinado no puede romper el cifrado
+toda la puerta de mi pueblo sabe que eres mujer virtuosa.
 todas las miradas quedaron inmóviles sobre la mano del jarocho.
 todas lo hacen, todas.
 todas tenemos voz y podemos tener acceso a las herramientas
@@ -10314,6 +10334,7 @@ y al perderme, quizá para siempre, en la vastedad del viejo Imperio Azteca
 y al posarse en los cocoteros del arenal desgajaban las palmas.
 y al segundo Rioja, le cascas el morreo.
 y allá encender el cigarro en la pipa de los misioneros armenios.
+y aquí estarás con mis mozas.
 y aquí fué donde la Niña Chole no quiso oír más:
 y así expire en un tiempo determinado
 y aunque no queramos, los imanes se atraen.
@@ -10363,6 +10384,7 @@ y generales americanos, y toreros españoles, y judíos rusos, y grandes señore
 y hablar de nuestras cosas.
 y hasta que me muera de no dormir, quiero tenerte, quiero entenderte.
 y hazlo como Dios manda.
+y he aquí, la mujer que estaba acostada á sus pies.
 y juzgué que era bastante desagravio besar su mano.
 y juzgué que no podía menos de hacer lo mismo el Marqués de Bradomín.
 y la Niña Chole entró con el cortejo de sus criados.

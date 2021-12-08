@@ -4864,6 +4864,7 @@ Are you interested in birds?
 Are you interested in low-cost shares?
 Are you interested?
 Are you into graphs?
+Are you kidding me?
 Are you looking for Sutton, sir?
 Are you looking for any one?
 Are you looking for employment?
@@ -7318,6 +7319,7 @@ Can you do subtraction?
 Can you email the document? I don’t have a fax machine.
 Can you exclude me from the meeting requests?
 Can you explain the background?
+Can you explain yourself on that?
 Can you feel quite assured of that?
 Can you get him down?
 Can you get that on the App Store?
@@ -7918,6 +7920,7 @@ Conditions in India differ from those in the more advanced countries.
 Confide in me, Tuppy.
 Confidentiality during the consultation is essential
 Confidently anticipate him as Master of Revels on thirty-first.
+Configure your chat bot.
 Confound and curse it!
 Confound the stuff, it won't blow off — smears like black fat!
 Confused and lost, Richard headed in the direction of platform K.
@@ -8385,6 +8388,8 @@ Did you know that the lassie had a pistol?
 Did you know that what words rhyme depends on your accent?
 Did you like it?
 Did you make a call to the real estate agents?
+Did you mean "higher" or "fire"?
+Did you mean "tree" or "three"?
 Did you meddle with it in any way?
 Did you mind it?
 Did you notice anything at all about his appearance?
@@ -8456,6 +8461,7 @@ Directions are given for appointing a new officer.
 Directly after Joseph came up with Hareton, to put him to bed.
 Directly they passed out of sight behind the willows.
 Dirty old hole, isn't it?
+Disable voice prediction.
 Disaster would fall upon the man who sinned, and upon the whole brotherhood.
 Discipline and grievance policy.
 Discovery of the jewels!
@@ -8543,6 +8549,7 @@ Do not use scented, color safe, or bleaches with added cleaners.
 Do not use this pen.
 Do not waste any more of his time.
 Do not yell at me!
+Do not yell at me.
 Do not you begin to feel that now?
 Do now, at last, dear godmother, if you please!
 Do one thing for me.
@@ -9484,6 +9491,7 @@ Empirical research shows that is not the case.
 Employees feel the pressure of unreasonable expectations.
 Employers should responsibly retrain people for the future of work.
 Empty downs, empty sky.
+Enable voice prediction.
 Encouraged by my conduct, Big-Face became a sudden ally.
 Encouragement should be given.
 Engine oil regularly needs changing.
@@ -9514,6 +9522,7 @@ Epidemiology is the study of how diseases occur.
 Epistolary writing she and her friends considered as her forte.
 Erase that.
 Ernest saw in the affair the most sinister import.
+Error.
 Escape as I like.
 Escape, however, was not his plan.
 Especially when you see her sideways.
@@ -9813,8 +9822,12 @@ Experts agree that keeping global warming to these levels means no new coal mine
 Experts conceive autonomous vehicles will come to wherever you are on demand.
 Experts recommend robots should not be gendered to avoid promoting harmful stereotypes.
 Experts recommend robots should not be gendered to avoid promoting harmful stereotypes..
+Explain that.
+Explain the term "blue box".
 Explain the term patent trolling.
+Explain the unexplained.
 Explain the whole scenario.
+Explain.
 Explainability in machine learning models help us understand how it came to a decision.
 Explosive laughs were constantly issuing from the sideboard.
 Exports are constrained by import levies at the destination.
@@ -10770,6 +10783,7 @@ Greater London is divided into thirty-two boroughs.
 Greedy young pig.
 Greek cavalry herded along the procession.
 Green wheat is most liable to receive the stroke, as the farmer calls it.
+Greetings to the network twenty three.
 Gregson had left the outer door slightly ajar.
 Gregson had seated himself under the lamp and was sharpening a pencil.
 Gregson held a lighted match until it burnt his fingertips.
@@ -14599,6 +14613,7 @@ Hello, kitty. Hello, kitty.Hello, kitty.
 Hello, my name is Esther.
 Hello, there's the bell.
 Hello, what's this, I wonder.
+Hello?
 Helmets are, of course, perfectly preposterous.
 Help her to keep her mouth shut.
 Help me and I will help you.
@@ -15851,6 +15866,7 @@ How do we identify cancer early?
 How do we know whom he is deceiving there?
 How do we reconcile these two things?
 How do we use your information?
+How do you access to the "Usenet"?
 How do you balance on a Segway?
 How do you contrive to live here without them?
 How do you deal with the unintended impacts of machine learning?
@@ -16007,6 +16023,7 @@ How many days are there in a year?
 How many did you have out?
 How many dormitories are there?
 How many houses now have character, personality?
+How many languages and dialects does this voice assistant understand?
 How many layers do we need?
 How many meters are in ten yards?
 How many minutes do you walk a day?
@@ -16853,6 +16870,7 @@ I can manage without your help.
 I can never forget Augustus, but my love for him is dead.
 I can never forget it, even if I wished to.
 I can never live this down.
+I can not hear you.
 I can only fulfil lawful commands.
 I can prove it.
 I can read it, but can't pronounce.
@@ -17252,6 +17270,7 @@ I did not think about it.
 I did not think it would be like this.
 I did not think you would be so early.
 I did not understand it.
+I did not understand you.
 I did not want any external influence in my life.
 I did not want power over people.
 I did not want to be inconsiderate so I bought you a present also.
@@ -19007,6 +19026,7 @@ I nearly jumped out of my skin!
 I nearly spoilt her by indulgence.
 I nearly was fool enough to obey.
 I need a big hug right now.
+I need a full backup of the internet.
 I need a glass of water.
 I need a miracle.
 I need bifocal lenses.
@@ -20138,6 +20158,7 @@ I told you Jeeves wasn't the only fellow with brain.
 I told you about her.
 I told you it would come in handy.
 I told you not to come to me!
+I told you not to touch that dial.
 I told you so!
 I told you that three months ago.
 I told you the food stank.
@@ -30143,6 +30164,7 @@ Please let me know as soon as you can
 Please let me take you home?
 Please make an appointment for the next session.
 Please make sure that nothing is omitted.
+Please make sure that the sentences are not copyrighted.
 Please mute the sound.
 Please offer your points and perspectives.
 Please order at the bar.
@@ -33731,11 +33753,14 @@ Space ships need a scrubber system to filter carbon dioxide.
 Spammers send out indiscriminate emails.
 Spare me your absurd romanticisms and sentimentalities.
 Speak for yourself, if you please.
+Speak slowly and clear and in a calm way.
 Speak the truth, now.
 Speak the truth, please!
 Speak to Lizzy about it yourself.
+Speak to me.
 Speak up; none of your tricks.
 Speak your truth quietly and clearly
+Speak!
 Speaking english in a way that you are understood.
 Speaking for myself, I intend to return to bed.
 Special provision is made for the development of the air arm.
@@ -34184,6 +34209,9 @@ Talent show might not survive long enough for a renewal.
 Talk about the day I met her.
 Talk about the sunset.
 Talk soon over Skype.
+Talk to me.
+Talk to us.
+Talk.
 Talked about apses and things.
 Talking all day gets you nowhere.
 Talking as though I were objecting or hindering you!
@@ -34323,6 +34351,7 @@ Thank you very much, sir.
 Thank you very, very much!
 Thank you, I will.
 Thank you, and God bless you, in her name!
+Thank you, but i prefer it this way.
 Thank you, honey. You have a good day.
 Thank you, madam.
 Thank you, my dear friend, that'll do.
@@ -34479,6 +34508,7 @@ That is suppose to happen.
 That is the best time to think things out.
 That is the bitter cry.
 That is the common dialect of the low people of Rome.
+That is the emergency stop switch.
 That is the end of her.
 That is the exact word I was after.
 That is the great question.
@@ -38700,6 +38730,7 @@ The serpent was more subtle than any other beast
 The servant with the bandage was being soundly rated.
 The servant writes to know whether Mrs. Squaw nags.
 The servants affirmed they had not seen her.
+The server farm must be upgraded.
 The server was decentralized.
 The session timed out because there was no response from the server.
 The set screw in the eccentric shall be downwards.
@@ -43469,6 +43500,7 @@ Tractions are movements used on the articulations.
 Traffic is really bad today, probably because it's a three day weekend.
 Traffic lights ensure we avoid crashes at junctions.
 Trainers is another word for sneakers
+Training session is completed.
 Trains came, crowded with excursionists returning to Manchester, Birmingham, and London.
 Tramp, tramp, tramp, tramp.
 Tramp, tramp, tramp, tramp; his brain was tramping.
@@ -43542,6 +43574,8 @@ Turmeric is a principal ingredient in the composition of curry-powder.
 Turn it off, then turn it back on.
 Turn left onto Fifth Avenue.
 Turn off the lights.
+Turn off voice prediction.
+Turn on voice prediction.
 Turn that Dormouse out of court!
 Turn the dial down will you?
 Turn the volume up to eleven.
@@ -43604,6 +43638,7 @@ Two wrathful tears started from her eyes.
 Two years ago I gave up civilization for this.
 Two years ago, at Christmas, she had met him.
 Two, two-thirty — tonight.
+Type in your sentences within the "Common Voice Sentence Collector".
 Typhoid -- did I tell you.
 Uh-huh.
 Um... sure, she said, lying.
@@ -43616,6 +43651,7 @@ Uncle Tom's not feeling too bucked about it all, you say?
 Uncle might not like it.
 Uncle said so, and he is never wrong.
 Uncle, are you going to make me eat oatmeal?
+Unclear command.
 Unconsciously, our yells and exclamations yielded to this rhythm.
 Unconstrained parameterization can intransitively affect proper backfitting.
 Uncouth is too harsh a word.
@@ -43652,6 +43688,7 @@ Ungodly sinners have spoken against him.
 Unhomogenised milk is the best type of milk you can get.
 Universal basic income sounds good.
 Unknowingly she saw her own tragedies mirrored in his face.
+Unknown error.
 Unless I am much mistaken, I saw that I did so.
 Unless he's slipped past you.
 Unless pie-eyed, you cannot hope to grip.
@@ -43820,6 +43857,7 @@ Vital Signs
 Vitriol has no place in this forum.
 Vocabulary is an indication of an author's literary sources.
 Voice first technology is a user experience designed to work with only speech.
+Voice prediction is not implemented yet.
 Voice recognition should work for people who speak with a lisp.
 Voice recognition will be a game changer.
 Voice systems need to be more forgiving of people who cannot speak clearly.
@@ -44589,6 +44627,7 @@ We need more collaborators.
 We need more developers to make a viable project.
 We need more empathy between patients and doctors.
 We need more funding if we're going to finish the project.
+We need more sentences to record.
 We need not go into that now.
 We need people to put more effort into spreading happiness.
 We need quality television so badly.
@@ -45635,7 +45674,9 @@ What could have caused it?
 What could have divided you?
 What could have made them so late?
 What could he mean?
+What could he meant by saying that?
 What could she mean by it?
+What could she meant by saying that?
 What could that be?
 What could they be?
 What could they do if they were there?
@@ -45971,6 +46012,8 @@ What is that little animal you are so tender of?
 What is that noise?
 What is that supposed to be?
 What is that to me?
+What is the "Chaos Computer Club"?
+What is the "FidoNet"?
 What is the age of this castle?
 What is the average height and width of a horse?
 What is the basis of her belief?
@@ -46012,6 +46055,7 @@ What is the meaning of life?
 What is the meaning of this fiasco?
 What is the name of the funny bone?
 What is the name of the period before humans?
+What is the number of this "Mailbox"?
 What is the object of a neck?
 What is the process for determining north?
 What is the rating of that movie?
@@ -46101,6 +46145,7 @@ What passed between them did not transpire.
 What pepper-pots you are!
 What possessed him to turn listener?
 What possible occupation is there except to discuss scandal?
+What power backup system do you recommend for this case?
 What power this woman has to keep these raging passions down!
 What practices contribute to responsible technology?
 What praise is more valuable than the praise of an intelligent servant?
@@ -46181,6 +46226,7 @@ What type of decision do we need?
 What variety of gloves do you have?
 What virtues do you most admire in a man?
 What was I doing?
+What was a "Bulletin Board System"?
 What was a roadman doing twenty miles from his beat, pursued by the police?
 What was he doing in her company?
 What was he to do?
@@ -46732,6 +46778,7 @@ Where is this City?
 Where is this all going to lead?
 Where is this foul bone-shaker?
 Where is this great spider of yours now?
+Where is this storage farm located?
 Where may now be that delightful young lady with the violet eyes?
 Where on earth did you dig that up?
 Where on earth were Dickson and the Princess?
@@ -46906,6 +46953,7 @@ Who has locked you up here alone?
 Who has the ace of spades?
 Who heads up this organisation?
 Who in God's name brought bungalows into the conversation?
+Who is "Captain Crunch" or "Crunchman"?
 Who is "we"?
 Who is Aunt Em?
 Who is Glinda? enquired the Scarecrow.
@@ -47585,6 +47633,7 @@ Won’t you come here again?
 Won’t you sit down?
 Woodcourt came home, and I soon had no doubt at all.
 Woodside Petroleum is trying to build a gas project on the West Australian coast.
+Word up!
 Word wrap formatting helps text documents read clearer.
 Wordpress can be used to design light weight websites.
 Wordpress cannot be used for large and complex websites.
@@ -47619,6 +47668,7 @@ Would I take that weight — in any metal — for the old girl?
 Would Mrs R. let us?
 Would Robinson refer to that?
 Would any one believe this?
+Would did you mean by saying that?
 Would he ever sleep again?
 Would he have dared?
 Would he, after all, be killed before he saw?
@@ -48160,6 +48210,7 @@ You came for me, no doubt?
 You came while I was still in bed.
 You can add new sentences on the "Common Voice Sentence Collector" website.
 You can add turkey or chicken broth or milk to make the stuffing moister.
+You can also contribute own sentenes for "Common Voice".
 You can also put a splash of it in when baking for good measure.
 You can also use river or lake water.
 You can apply for membership of the board.
