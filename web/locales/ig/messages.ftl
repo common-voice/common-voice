@@ -754,6 +754,27 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Hàzíé èbùmnúché gị
 cant-decide = É nwéghị́ íké íkpébị̀?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́
+       *[other] élékéré { $totalHours } kà é nwèrè íké ínwétá n'ímé íhé kárị́rị́
+    }{ NUMBER($periodMonths) ->
+        [one] ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà
+       *[other] ọ́nwá { $periodMonths } mà ọ́ bụ́rụ́ nà
+    } { NUMBER($people) ->
+        [one] ḿmádụ̀ { $people } tunyere aka
+       *[other] ḿmádụ̀ { $people } tunyere aka
+    }{ NUMBER($clipsPerDay) ->
+        [one] na ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+       *[other] na ḿkpọ́nyé { $clipsPerDay } n'ótù ụ́bọ̀chị̀
+    }
+how-many-per-day = Ọ́ dị̀ ḿmá! Ńkéńké ḿkpọ́nyé ólé kà Ị́ nwèrè íké Kpọ́nyé n'òfú ụ́bọ̀chị̀?
+how-many-a-week = Ọ́ dị̀ ḿmá! Òlé kà Ị́ nwèrè íké Kpọ́nyé n'òfú ízù?
+which-goal-type = Ị̀ chọ̀rọ̀ íkwú èkwú kà Ị̀ chọ̀rọ̀ ígè ńtị̀, kà Ị̀ chọ̀rọ̀ ímé há àbụ̀ọ́?
+receiving-emails-info =
+    Kà ọ́ dị̀ úgbú à, á kwádóólá gị́ kà Ị́ ị́nátá ózí íméèlụ̀ (email) ọ̀bụ́là ǹkè ńchètárá ébmnúché,
+     kà ó sí gbátá kwụ́rụ́ gbàsàrà àgàníhú m, nàkwà ákwụ́kwọ̀ ózí gbàsàrà Common Voice.
+not-receiving-emails-info = Kà ọ́ dị̀ úgbú à, á kwádóólá gị́ kà Ị́ ghàrá ị́nátá ózí íméèlụ̀ ọ̀bụ́là ǹkè ńchètárá ébmnúché, kà ó sí gbátá kwụ́rụ́ gbàsàrà àgàníhú m, nàkwà ákwụ́kwọ̀ ózí gbàsàrà Common Voice.
 
 ## Profile Delete
 
