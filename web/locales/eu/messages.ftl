@@ -283,6 +283,7 @@ shortcut-record-toggle-label = Grabatu/Gelditu
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Grabatu berriz
 shortcut-discard-ongoing-recording = ESK
+shortcut-discard-ongoing-recording-label = Baztertu grabaketa hau
 shortcut-submit = Sartu
 shortcut-submit-label = Gorde grabaketak
 request-language-text = Ez duzu zure hizkuntza Common Voicen ikusten oraindik?
