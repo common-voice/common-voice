@@ -129,6 +129,7 @@ pl = Lengyel
 ps = Pastu
 pt = Portugál
 quc = K'iche'
+quy = Kecsua chanka
 rm-sursilv = Romans sursilvan
 rm-vallader = Romans vallader
 ro = Román
