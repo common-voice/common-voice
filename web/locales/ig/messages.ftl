@@ -872,12 +872,37 @@ demo-account-sign-up = Zìgá ọ́wà ńdébànyé áhá gị́
 ## Demo Contribute
 
 demo-contribute-card-body-v2 = Ùgbú à Ị́ ghọ̀tàtụ̀rụ̀là íhé gbàsárá Common Voice, gị́nị́ mèrè nà Ị̀ gághị́ ánwàlé yá. Pị̀á íhé ná-égósí ígwè ókwū (microphone) kà Ị́ màlíté ị́gụ́pụ̀tà áhị́rị́ókwú. <br/><br/>Ọ́bụ́rụ́ nà ọ́ kàrà gị́ ḿmá ínyòchà ńtúnyé òkè ólú ókwú ńdị́ ọ́zọ́ tụ̀nyèrè, kpàtụ́ íhé ná-égósí ḿgbányé (Play). Ị́ gà-ènyé áká kọ́wáá mà mkpọ́nyé ha dàbàkwàrà n'áhị́rị́okwú ńdị́ ná-égósí n'ònyònyó.
+demo-listen-subtitle = Ị̀ dị́lá ńjìkéré ị́tụ́nyé òkè?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Ụ́gbọ́ ńdékọ́ ǹkè ónyé (Personal Dashboard) nà-émé kà Ị́ mátá ọ̀gàníhú ǹkè ónyé nàkwà ǹké ọ̀há òbòdò.
+demo-dashboard-card-body = Á nà-èbúgó íríghírí ḿkpọ́nyé ọ̀bụ́là à tụ̀nyèrè nàkwà ńdị́ á kwàdòrò n'ụ́gbọ́ ńdékọ́ ọ́wà ǹkè áká gị́ (account dashboard) íjí gósí àgàmníhú ọ́hụ́rụ́ nkè ásụ̀sụ́ Ị́ nà-àtụ́nyéré. Éé, Ị́ nwèrè íké ị́tụ̀nyéré kárị́á ótù. Jìrí ụ́gbọ́ńdékọ́ màtá ńchị́kọtá gị́, hụ́kwá kà gị́ nà ńdị́ ọ́zọ́ sì ágá n'íhú, mà hàzíkwáá ńtụnyé òkè gị́ kwà ụ́bọ̀chị̀ mà ọ̀ bụ̀ kwà ízú.
 
 ## Validation criteria
 
+contribution-criteria-nav = Úsòrò
+contribution-criteria-link = Ghọ̀tá úsòrò ńtụ́nyé òkè
+contribution-criteria-page-title = Usòrò ńtụ́nyé òkè
+contribution-criteria-page-description = Ghọ̀tá íhé ńdị́ Ị́ kwèsị̀rị̀ ị́ ná-àchọ́ m̀gbè Ị́ nà-ègé ḿkpọ́nyé ụ̀dà-ólú ńtị̀ mà nyékwá áká báwányékwúó ńdékọ́ ụ̀dà-ólú ǹkè gị́.
+contribution-for-example = ọ̀mụ́máàtụ̀
+contribution-misreadings-title = Ńgúhìèsí
+contribution-misreadings-description = Dị́kà Ị́ nà-égè ńtị́ lèléé ǹkè ọ́má mà íhé ńdị́ á kpònyèrè, nà ńdị́ é dèrè èdé hà bụ̀ ótù; jụ̀ ị́nábàtà yá mà é nwéé ọ̀bụ́làdị̀ ḿmérú pékásírí ḿpé.<br /> Ḿmérú káchá ápụ̀tá ìhè gụ̀nyèrè:
+contribution-misreadings-description-extended-list-1 = Ná-éfù <strong>'A' </strong>mà ọ̀ bụ̀ <strong>Áhụ̀ ('The')</strong> ǹkè dị́ ná ḿmàlíté mkpọ́nyé áhụ̀.
+contribution-misreadings-description-extended-list-2 = Ngósí ụ́bárá nà ásụ́sụ́ Bèkéè <strong>'s' </strong> nà-éfú èfú nà ńgwụ́chá ókwú.
+contribution-misreadings-description-extended-list-3 = Ị́gụ́pụ̀tà ńkwàkọ́tá ókwú ńdị́ ná-ádị́ghị́ n'ézíé dị́kà 'We're (Ànyị́ n'ị̀ yá)' kámà ị́gụ́ yá dị́kà 'We are (Ànyị́ nọ̀ yà)' mà ọ̀ bụ̀ búghárị́á yá.
+contribution-misreadings-description-extended-list-4 = Ị́tụ̀fú ókwú ǹkè ìkpèázụ́ síté n'ị́gbábìrì ḿkpọ́nyé nà-érúghí érú.
+contribution-misreadings-description-extended-list-5 = Nà-éwè ọ́tụ́tụ́ ḿbọ̀ ị́gụ́pụ̀tà ḿkpụ́rụ́ókwú
+contribution-misreadings-example-1-title = Ńnúkwú ọ́kị́ká (dinosaur) Tràyásíìkì (Triassic). [The giant dinosaurs of the Triassic.]
+contribution-misreadings-example-2-title = Ńnúkwú ọ́kị́ká (dinosaur) Tràyásíìkì (Triassic). [The giant dinosaur of the Triassic.]
+contribution-misreadings-example-2-explanation = [Kwèsị̀rị̀ ị́bụ́  ‘dinosaurs’]
+contribution-misreadings-example-3-title = Ńnúkwú ọ́kị́ká Tràyásì- (Triassi-). [The giant dinosaurs of the Triassi-.]
+contribution-misreadings-example-3-explanation = Ńdékọ́ á gbábìrì tùpù ókwú ńgwụ́chá
+contribution-misreadings-example-4-title = Ńnúkwú ọ́kị́ká (dinosaurs) Tràyásíìkì (Triassic). Èé.
+contribution-misreadings-example-4-explanation = [Ńdékọ́ é nwètàrà àkárị́álá ḿkpụ́rụ́ édémédé ólé á chọ̀rọ̀]
+contribution-misreadings-example-5-title = Ànyị́ nà-ápụ̀ ị́gá wètà kọ̀fị́ (coffee). [We are going out to get coffee.]
+contribution-misreadings-example-6-title = Ànyị́ nà-ápụ̀ ị́gá wètà kọ̀fị́ (coffee). [We’re going out to get coffee.]
+contribution-misreadings-example-6-explanation = [Ọ́kwèsị̀rị̀ ị́bụ̄ "Anyị bụ" ("We are")]
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
