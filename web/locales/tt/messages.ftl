@@ -1047,13 +1047,19 @@ sc-personal-remove-button = бетерү
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Тикшерү критерийлары
+sc-criteria-title = Тикшерү критерийлары
 
 ## REVIEW
 
+sc-review-title = Җөмләләрне тикшерү
 sc-review-loading = Җөмләләрне йөкләү…
+sc-review-select-language = Зинһар, җөмләләрне тикшерү өчен телне сайлагыз.
+sc-review-no-sentences = Тикшерү өчен җөмләләр юк. <addLink>Хәзер күбрәк җөмлә өстәгез!</addLink>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Чыганак: { $sentenceSource }
+sc-review-form-button-reject = Кире кагу
 sc-review-form-button-skip = Калдырып тору
 sc-review-form-button-approve = Раслау
 sc-review-link = Тикшерү
@@ -1061,6 +1067,7 @@ sc-review-link = Тикшерү
 ## SETTINGS
 
 sc-settings-title = Көйләүләр
+sc-settings-ui-language = Интерфейс теле
 
 # [/SentenceCollector]
 
