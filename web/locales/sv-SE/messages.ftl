@@ -1131,6 +1131,8 @@ sc-review-form-source = Källa: { $sentenceSource }
 sc-review-form-button-reject = Avvisa
 sc-review-form-button-skip = Hoppa över
 sc-review-form-button-approve = Godkänn
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = Du kan också använda tangentbordsgenvägar: Y för att godkänna, N för att avvisa, S för att hoppa över
 sc-review-link = Granska
 
 ## SETTINGS
@@ -1140,6 +1142,8 @@ sc-settings-ui-language = Gränssnittsspråk
 sc-settings-reset-skipped = Återställ överhoppade meningar
 sc-settings-show-all-button = Visa alla överhoppade meningar igen
 sc-settings-failed = Det gick inte att ändra inställningarna. Var god försök igen.
+# VALIDATION
+sc-validation-number-of-words = Meningen måste innehålla mellan 1 och 14 (inklusive) ord
 sc-validation-no-numbers = Meningen ska inte innehålla siffror
 sc-validation-no-symbols = Meningen bör inte innehålla symboler
 sc-validation-no-abbreviations = Meningen ska inte innehålla förkortningar
