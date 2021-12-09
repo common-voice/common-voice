@@ -1064,6 +1064,7 @@ sc-home-review-title = Sady přepruwować
 
 sc-howto-title = Nawod
 sc-howto-addlang-title = Rěče přidać, z kotrymiž so dźěła
+sc-howto-addlang-text = Hdyž sće přizjewjeny, móžeće swoje rěče we wotrězku Profil wubrać.
 sc-howto-addsen-title = Nowe sady přidać
 sc-howto-cite-title = Citować
 sc-howto-cite-item-1 = Wy móhł websydło podać, na př. „Common Voice - https://commonvoice.mozilla.org/“
@@ -1155,6 +1156,7 @@ sc-add-err-failed =
        *[other] { $sentences } sadow njeje so poradźiło
     }
 sc-add-err-submission = Zapodawanski zmylk
+sc-add-lang-process-notice = Jeli waša rěč tu nalistowana njeje, móžeć ju přez <languageProcessLink>tutón proces</languageProcessLink> požadać.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1192,6 +1194,9 @@ sc-confirm-ready =
         [few] { $readyCount } sady za zapodaće hotowe!
        *[other] { $readyCount } sadow za zapodaće hotowe!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = Njepřepruwowane sady: { $countOfUnreviewed }. Jeli chceće, móžeće nětko tež swoje sady přepruwować, prjedy hač je wotposćeleće.
 sc-confirm-button-text = Wobkrućić
 
 ## LANGUAGE INFO
