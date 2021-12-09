@@ -129,6 +129,7 @@ pl = Поляк
 ps = Пушту
 pt = Португал
 quc = Киче
+quy = Кечуа Чанка
 rm-sursilv = Романш сурсельв
 rm-vallader = Романш Валладер
 ro = Румын
@@ -154,6 +155,7 @@ tg = Таҗик
 th = Тай
 ti = Тигринья
 tig = Тигре
+tk = Төрекмән
 tl = Тагалог
 tr = Төрек
 tt = Татар
@@ -328,6 +330,8 @@ profile-form-native-language =
     .label = Туган тел
 profile-form-additional-language =
     .label = Өстәмә тел
+profile-form-language =
+    .label = Тел
 profile-form-accent =
     .label = Акцент
 profile-form-age =
@@ -954,14 +958,18 @@ sc-header-home = Баш бит
 sc-header-how-to = Кулланма
 sc-header-add = Өстәү
 sc-header-review = Тикшерү
+sc-header-rejected = Кире кагылган җөмләләр
+sc-header-my = Минем җөмләләр
 sc-header-statistics = Статистика
 sc-header-profile = Профиль
 sc-footer-discourse = Discourse
+sc-footer-report-bugs = Хаталар турында хәбәр итү
 sc-footer-translate = Бу битне тәрҗемә итү
 sc-footer-privacy = Хосусыйлык
 sc-footer-terms = Шартлар
 sc-footer-cookies = Кукилар
 sc-login-signup-button = Керү / Теркәлү
+sc-logout-button = Чыгу
 
 ## HOME
 
@@ -970,11 +978,22 @@ sc-home-review-title = Җөмләләрне тикшерү
 ## HOW-TO
 
 sc-howto-title = Кулланма
+sc-howto-addsen-title = Яңа җөмләләр өстәү
+sc-howto-review-title = Җөмләләрне тикшерү
 
 ## MY SENTENCES
 
 sc-my-title = Минем җөмләләр
+sc-my-loading = Җөмләләрегез йөкләнә…
 sc-my-no-sentences = Җөмләләр табылмады!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Җибәрү: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Чыганак:    { $source }
+sc-my-delete = Сайланган җөмләләрне бетерү
+sc-my-deleting = Сайланган җөмләләр бетерелә…
 
 ## REJECTED
 
@@ -991,6 +1010,9 @@ sc-stats-updating = Яңартыла…
 ## ADD
 
 sc-submit-err-select-lang = Зинһар, бер тел сайлагыз.
+sc-submit-err-add-sentences = Зинһар, җөмләләр өстәгез.
+sc-submit-err-add-source = Зинһар, чыганак өстәгез.
+sc-submit-title = Җөмләләр өстәү
 sc-submit-select-language =
     .labelText = Телне сайлау
 sc-submit-button =
@@ -999,6 +1021,7 @@ sc-submit-button =
 ## ADD LANGUAGE
 
 sc-add-lang-sec-button = Тел өстәү
+sc-add-err-submission = Җибәрү хатасы
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1006,9 +1029,12 @@ sc-confirm-button-text = Раслау
 
 ## LANGUAGE INFO
 
+sc-lang-info-review-now = <reviewLink>Хәзер үк тикшерәм!</reviewLink>
+sc-lang-info-add-more = <addLink>Хәзер үк күбрәк җөмләләр өстим!</addLink>
 
 ## LOGIN
 
+sc-login-err-failed = Керү уңышсыз тәмамланды
 sc-login-err-try-again = Зинһар янәдән тырышып карагыз.
 
 ## PROFILE
