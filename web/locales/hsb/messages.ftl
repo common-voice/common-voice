@@ -1221,6 +1221,16 @@ sc-lang-info-in-review =
         [few] { $totalInReview } sady na přepruwowanje čakaja.
        *[other] { $totalInReview } sadow na přepruwowanje čaka.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Za přepruwowanje žane sady njejsu.
+        [one] Dyrbiće hišće { $unreviewedSentencesByYou } sadu přepruwować.
+        [two] Dyrbiće hišće { $unreviewedSentencesByYou } sadźe přepruwować.
+        [few] Dyrbiće hišće { $unreviewedSentencesByYou } sady přepruwować.
+       *[other] Dyrbiće hišće { $unreviewedSentencesByYou } sadow přepruwować.
+    }
 sc-lang-info-review-now = <reviewLink>Nětko přepruwować!</reviewLink>
 sc-lang-info-add-more = <addLink>Přidajće nětko wjace sadow!</addLink>
 # Variables:
@@ -1272,6 +1282,7 @@ sc-criteria-item-1 = Sada dyrbi prawje napisana być.
 sc-criteria-item-2 = Sada dyrbi gramatisce korektna być.
 sc-criteria-item-3 = Sada dyrbi wurěkujomna być.
 sc-criteria-item-4 = Jeli sada kriterijam wotpowěduje, klikńće na tłóčatko „Schwalić“.
+sc-criteria-item-6 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
 
 ## REVIEW
 
