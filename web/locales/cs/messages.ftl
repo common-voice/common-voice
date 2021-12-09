@@ -160,6 +160,7 @@ uz = Uzbečtina
 vec = Benátština
 vi = Vietnamština
 vot = Votština
+yi = Jidiš
 yo = Jorubština
 yue = Kantonština
 zh-CN = Čínština (Čína)
@@ -321,8 +322,12 @@ profile-form-native-language =
     .label = Mateřský jazyk
 profile-form-additional-language =
     .label = Další jazyk
+profile-form-language =
+    .label = Jazyk
 profile-form-accent =
     .label = Přízvuk
+profile-form-custom-accent-help-text =
+    .label = Jak byste popsali svůj přízvuk?
 profile-form-age =
     .label = Věk
 profile-form-gender-2 =
@@ -958,3 +963,56 @@ contribution-just-unsure-title = Jen si nejste jisti?
 contribution-just-unsure-description = Pokud narazíte v nahrávce na problém, který tu nezmiňujeme, hlasujte o nahrávce podle svého nejlepšího úsudku. Pokud se nemůžete rozhodnout, nahrávku přeskočte.
 see-more = <chevron></chevron> Zobrazit více
 see-less = <chevron></chevron> Zobrazit méně
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
