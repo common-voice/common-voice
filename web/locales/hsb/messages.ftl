@@ -1073,6 +1073,7 @@ sc-howto-review-criteria-1 = Sada dyrbi prawje napisana być.
 sc-howto-review-criteria-2 = Sada dyrbi gramatiski korektna być.
 sc-howto-review-criteria-3 = Sada dyrbi wurěkujomna być.
 sc-howto-review-criteria-4 = Jeli sada kriterijam wotpowěduje, klikńće na tłóčatko „Schwalić“.
+sc-howto-findpd-subtitle = Pytajće w interneće za nimi
 sc-howto-findpd-tips = Tu su někotre pokiwy, zo byšće sady namakał:
 sc-howto-findpd-subtitle-2 = Dźěłajće z lokalnymi organizacijemi abo jednotliwcami hromadźe
 
@@ -1273,6 +1274,7 @@ sc-review-lang-not-selected = Njejsće rěče wubrał. Prošu přeńdźće k swo
 sc-review-title = Sady přepruwować
 sc-review-loading = Sady so začituja…
 sc-review-select-language = Prošu wubjerće rěč, zo byšće sady přepruwował.
+sc-review-no-sentences = Žane sady za přepruwowanje. <addLink>Přidajće nětko dalše sady!</addLink>
 sc-review-form-prompt =
     .message = Přepruwowane sady hišće zapodate njejsu, něwěrno?
 # Variables:
