@@ -129,6 +129,7 @@ pl = Pwyleg
 ps = Pashto
 pt = Portiwgaleg
 quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 ro = Rwmaneg
