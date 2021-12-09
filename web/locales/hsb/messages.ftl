@@ -1078,6 +1078,7 @@ sc-howto-review-criteria-6 = Jeli wam sady wuńdu, pomhajće nam dalše sady zb�
 sc-howto-findpd-title = Zjawne sady namakać
 sc-howto-findpd-subtitle = Pytajće w interneće za nimi
 sc-howto-findpd-tips = Tu su někotre pokiwy, zo byšće sady namakał:
+sc-howto-findpd-tips-3 = Bohužel njemóžemy nastawki z Wikimedije měć. Njekopěrujće potajkim žane nastawki wottam.
 sc-howto-findpd-subtitle-2 = Dźěłajće z lokalnymi organizacijemi abo jednotliwcami hromadźe
 
 ## MY SENTENCES
