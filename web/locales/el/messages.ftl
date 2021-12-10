@@ -129,6 +129,7 @@ pl = Πολωνικά
 ps = Παστού
 pt = Πορτογαλικά
 quc = Κιτσέ
+quy = Κέτσουα Τσάνκα
 rm-sursilv = Ρομανσικά (Sursilvan)
 rm-vallader = Ρομανσικά (Vallader)
 ro = Ρουμανικά
