@@ -817,15 +817,15 @@ share-goal = Partekatu nire helburua
 
 ## Profile Delete
 
-delete-q = Egin dituzun ahots grabaketak ere ezabatzea nahi duzu ala nahiago duzu Common Voicen datu-sortan manten daitezen?
+delete-q = Egin dituzun ahots grabazioak ere ezabatzea nahi duzu ala nahiago duzu Common Voicen datu-sortan manten daitezen?
 keep = Mantendu
 remove = Kendu
-keep-info = Zure ahots grabaketa anonimoak Common Voice datu-sortan gordeko dira. Behin zure profila ezabatzen duzunean, ezingo duzu eskatu zure grabaketak datu-sortatik kentzerik.
+keep-info = Zure ahots grabazio anonimoak Common Voice datu-sortan gordeko dira. Behin zure profila ezabatzen duzunean, ezingo duzu eskatu zure grabazioak datu-sortatik kentzerik.
 remove-info = Zure ahots grabazioak datu-sortatik ezabatzeko eskaria berrikusiko dugu. Zure eskaria onartua dada, datu-sorta deskargatu dutenekin ere harremanetan jarriko gara eta zure ahots grabazioak ezabatzeko eskatuko diegu.
 why-delete-recordings =
-    Common Voice grabaketak hezkuntza zentroek eta ikerlariek, enpresa txikiek eta ahotsaren ezagutzaren zaleek erabiltzen dituzte publikoki erabilgarri dauden baliabideak trebatzeko eta hazteko, ahots ereduekin gertatzen den bezala.
+    Common Voice grabazioak hezkuntza zentroek eta ikerlariek, enpresa txikiek eta ahotsaren ezagutzaren zaleek erabiltzen dituzte publikoki erabilgarri dauden baliabideak trebatzeko eta hazteko, ahots ereduekin gertatzen den bezala.
     
-    Esango al zeniguke zergatik nahi duzun zure grabaketak ezabatzea?
+    Esango al zeniguke zergatik nahi duzun zure grabazioak ezabatzea?
 profile-form-delete = Ezabatu profila
 
 ## Profile Download
@@ -873,6 +873,14 @@ demo-account = Kontua
 contribution-criteria-nav = Irizpideak
 contribution-criteria-link = Ulertu parte hartzeko irizpideak
 contribution-criteria-page-title = Parte hartzeko irizpideak
+contribution-criteria-page-description = Ulertu zer bilatu ahots-grabazioak entzuten dituzunean eta lagundu aberasten zure ahots-grabazioak!
+contribution-misreadings-title = Gaizki irakurriak
+contribution-misreadings-description =
+    Entzutean, egiaztatu kontu handiz grabatu dena zehazki idatzi dena dela; baztertu akats txikiena ere aurkitzen baldin baduzu.
+    Akats ohikoenak honako hauek dira:
+contribution-misreadings-description-extended-list-2 = Hitz baten bukaeran pluralaren <strong>'k'</strong> galtzea.
+contribution-misreadings-description-extended-list-3 = Testuan ez dauden kontrakzio edo laburketak irakurtzea, adibidez "euki" "eduki"ren ordez.
+contribution-misreadings-description-extended-list-4 = Azken hitzaren bukaera galtzea, grabazioa azkarregi gelditzeagatik.
 contribution-volume-title = Bolumena
 see-more = <chevron></chevron>Ikusi gehiago
 see-less = <chevron></chevron>Ikusi gutxiago
