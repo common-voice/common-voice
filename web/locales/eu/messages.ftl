@@ -205,11 +205,11 @@ vote-yes = Bai
 vote-no = Ez
 toggle-play-tooltip = Sakatu { shortcut-play-toggle } erreproduzitze modura aldatzeko
 speak-subtitle = Grabatu zure ahotsa
-speak-paragraph = Ahots grabaketak egitea proiektu honetako datu bilketaren funtsa da; batzuek diote dibertigarria ere badela.
-speak-goal-text = Egindako grabaketak
+speak-paragraph = Ahots grabazioak egitea proiektu honetako datu bilketaren funtsa da; batzuek diote dibertigarria ere badela.
+speak-goal-text = Egindako grabazioak
 listen-subtitle = Lagundu ahotsak balioztatzen
-listen-paragraph = Grabaketak balioztatzea, ahotsa uztea bezain garrantzitsua da Common Voicen helbururako. Mesedez, hartu denbora entzuteko eta lagun gaitzazu kalitatezko ahots-datu libreak sortzen.
-listen-goal-text = Balioztatutako grabaketak
+listen-paragraph = Grabazioak balioztatzea, ahotsa uztea bezain garrantzitsua da Common Voicen helbururako. Mesedez, hartu denbora entzuteko eta lagun gaitzazu kalitatezko ahots-datu libreak sortzen.
+listen-goal-text = Balioztatutako grabazioak
 hours-recorded = Grabatutako orduak
 hours-validated = Balioztatutako orduak
 voices-online = Orain online daude ahotsak
@@ -284,9 +284,9 @@ shortcut-record-toggle-label = Grabatu/Gelditu
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Grabatu berriz
 shortcut-discard-ongoing-recording = ESK
-shortcut-discard-ongoing-recording-label = Baztertu grabaketa hau
+shortcut-discard-ongoing-recording-label = Baztertu grabazioa hau
 shortcut-submit = Sartu
-shortcut-submit-label = Gorde grabaketak
+shortcut-submit-label = Gorde grabazioak
 request-language-text = Ez duzu zure hizkuntza Common Voicen ikusten oraindik?
 request-language-button = Eskatu hizkuntza bat
 
@@ -380,9 +380,9 @@ change-email-setings = Aldatu zure e-posta Hobespenetako "Saioa hasteko identita
 faq-title = Ohiko galderak
 faq-what-cv-q = Zer da Common Voice?
 faq-what-cv-a =
-    Ahotsaren ezagutzaren teknologiak, makinekin elkar eragiteko dugun moduan iraultza ekartzen ari da, baina egun erabilgarri dauden sistemak garestiak eta jabedunak dira. Common Voice, Mozillaren ekimenaren parte da eta bere helburua ahotsaren ezagutzaren teknologiak hobeak eta guztientzat irisgarriagoak egitea da. Common Voice dohaintzan emandako ahots grabaketa-sorta  erraldoia da, edonori ahalbidetu diezaiokeena, potentzialki edozein hizkuntzan, ahotsa erabiltzen duten app-ak modu azkar eta erraz batean trebatzea.
+    Ahotsaren ezagutzaren teknologiak, makinekin elkar eragiteko dugun moduan iraultza ekartzen ari da, baina egun erabilgarri dauden sistemak garestiak eta jabedunak dira. Common Voice, Mozillaren ekimenaren parte da eta bere helburua ahotsaren ezagutzaren teknologiak hobeak eta guztientzat irisgarriagoak egitea da. Common Voice dohaintzan emandako ahots grabazio-sorta  erraldoia da, edonori ahalbidetu diezaiokeena, potentzialki edozein hizkuntzan, ahotsa erabiltzen duten app-ak modu azkar eta erraz batean trebatzea.
     
-    Ez gara ari hizkuntza zabalduenetan bakarrik ahots grabaketak biltzen, baizik eta hiztun gutxiago dituztenetan ere bai. Mota askotako ahotsez osatutako datu-sorta bat argitaratuz, garatzaile, ekintzaile eta komunitateei existitzen den hutsune hori betetzeko ahaldundu nahi ditugu. Common Voice datu-sortaz gain, Deep Speech izena duen ahots ezagutza motor libre bat ere sortzen ari gara.
+    Ez gara ari hizkuntza zabalduenetan bakarrik ahots grabazioak biltzen, baizik eta hiztun gutxiago dituztenetan ere bai. Mota askotako ahotsez osatutako datu-sorta bat argitaratuz, garatzaile, ekintzaile eta komunitateei existitzen den hutsune hori betetzeko ahaldundu nahi ditugu. Common Voice datu-sortaz gain, Deep Speech izena duen ahots ezagutza motor libre bat ere sortzen ari gara.
 faq-why-important-q = Zergatik da garrantzitsua?
 faq-why-important-a = Ahotsa gure artean komunikatzeko dugun modurik naturalena da eta ahots teknologiek gaitasun hori gure ordenagailu eta sakelakoek izatea lortzen ari dira. Garatzaileak hizketaren ezagutza aplikazio txundigarriak sortzeko ahaldundu nahi ditugu, denbora errealeko itzultzaileak edo ahots bidezko asistente digitalak bezala. Baina oraintxe bertan, era honetako app-ak sortzeko behar diren ahots-datuak garestiak eta jabedunak dira. Common Voice datu-sortarekin, berritzaileak izateko eta ahots teknologiak beraien hizkuntzetan eskuragarri jartzeko garatzaileek behar dutena ematea espero dugu.
 faq-how-get-q = Nola lor ditzaket Common Voiceko datuak?
@@ -401,7 +401,7 @@ faq-why-different-speakers-a =
     Hizketa teknologia gehienak esparru demografiko zehatz batzuekin, <articleLink>klase ertaineko gizonezkoekin</articleLink>, beste guztiekin baino gehiago trebatzen dira. Ordezkaritza nahikorik gabe geratu ohi diren azentuak eta dialektoak, hain zuzen, dagoeneko marjinaturik dauden giza taldeei dagozkienak izaten dira. Makina askok emakumezkoen ahotsak ere ulertzeko arazoak dituzte.
     Horregatik nahi dugu aniztasuna gure ahots datu-sortan!
 faq-why-my-lang-q = Zergatik ez da nire hizkuntza hemen agertzen?
-faq-what-quality-q = Zenbateko audio kalitatea behar da grabaketa datu-sortan erabilia izan dadin?
+faq-what-quality-q = Zenbateko audio kalitatea behar da grabazioen datu-sortan erabilia izan dadin?
 faq-why-10k-hours-q = Zergatik lortu behar dira balioztatutako 10.000 audio ordu hizkuntza bakoitzean?
 faq-why-10k-hours-a = Ordu kopuru hau gutxi-gora-behera ekoizpeneko speech-to-text sistema bat trebatzeko behar dena da.
 faq-how-calc-hours-q = Common Voicek nola kalkulatzen ditu orduak?
@@ -416,12 +416,12 @@ faq-why-not-ask-read-a = Common Voicen datu-sorta ahalik erabilgarriena egiteko,
 faq-why-account-q = Zergatik eman beharko nuke izena eta kontu bat sortu?
 faq-is-account-public-q = Nire kontuko informazioa publikoa da?
 faq-how-privacy-q = Nola ziurtatzen dituzue beren ahotsak lagatzen dituzten pertsonen anonimotasuna eta pribatutasuna?
-faq-how-privacy-a = Datu-sortako ahots grabaketa guztiei informazio pertsonala kentzen zaie. Laguntzaile batek datu demografikoa ematen duenean bere profilaren bitartez, informazio hori des-identifikatu egiten da datu-sorta deskargagarri izateko prestatzen denean eta inoiz ez da datu demografikoa publiko egiten profil publikoetan.
+faq-how-privacy-a = Datu-sortako ahots grabazio guztiei informazio pertsonala kentzen zaie. Laguntzaile batek datu demografikoa ematen duenean bere profilaren bitartez, informazio hori des-identifikatu egiten da datu-sorta deskargagarri izateko prestatzen denean eta inoiz ez da datu demografikoa publiko egiten profil publikoetan.
 faq-what-determine-identity-q = Zer nahi du esan ezin dela hizlarien "identitatea ondorioztatu" Common Voice datu-sortan?
 faq-what-determine-identity-a =
     Common Voice datu-sorta baliabide irekia eta publikoki atzigarria da, hizketa baliatzen duten hainbat aplikazio trebatzeko erabil daitekeena. Gure laguntzaile guztien segurtasuna babesteko, Common Voice datu-sorta deskargatzen duen orori, gure laguntzaileen pribatutasuna errespetatzeko eskatzen diogu.
     
-    Datu-sortako ahots grabaketa guztiei informazio pertsonala kentzen zaie. Datu-sorta deskargatzen duzunean, laguntzaile bat bera ere nor den ondorioztatzen saiatuko ez zarela onartzen duzu. Horrek esan nahi du ezin duzula datu-sortako datu bat ere laguntzaile baten datu pertsonalekin lotu. Hala ere, lotu dezakezu datu-sortako informazio bat datu-sorta barruko beste datu batekin, adibidez hizketaren ezagutza, hizlariaren detekzioa edo bestelako aplikazioak burutzeko.
+    Datu-sortako ahots grabazio guztiei informazio pertsonala kentzen zaie. Datu-sorta deskargatzen duzunean, laguntzaile bat bera ere nor den ondorioztatzen saiatuko ez zarela onartzen duzu. Horrek esan nahi du ezin duzula datu-sortako datu bat ere laguntzaile baten datu pertsonalekin lotu. Hala ere, lotu dezakezu datu-sortako informazio bat datu-sorta barruko beste datu batekin, adibidez hizketaren ezagutza, hizlariaren detekzioa edo bestelako aplikazioak burutzeko.
 faq-what-is-cv = Zer da Common Voice?
 faq-using-cv = Common Voice erabiltzen
 faq-description = Common Voice proiektua Mozillaren ekimenaren parte da, makinei gizakiek benetan nola hitz egiten duten irakasten laguntzeko.
@@ -436,23 +436,23 @@ about-header-description-2 =
     Proiektu hau hizketa digitalaren arrakala ixteko ahalegina da. Ahotsa ezagutzeko teknologiek giza dimentsioa ematen diete gure gailuei, baina garatzaileek ahots-datu ugari behar dituzte horiek eraikitzeko. Gaur egun, datu horietako gehienak garestiak eta jabedunak dira. 
     Ahots-datuak doan eta publikoki eskuragarri egotea nahi dugu, eta datuek benetako pertsonen aniztasuna adierazten dutela ziurtatu. Elkarrekin ahotsaren ezagutza guztiontzat hobea izatea lor dezakegu.
 how-does-it-work-title = Nola dabilen
-how-does-it-work-text = Ahotsen datu-sorta ireki bat sortzen ari gara denon artean. Eman zure ahotsa, balioztatu besteen grabaketen egokitasuna, egin datu-sorta hobea guztiontzat.
+how-does-it-work-text = Ahotsen datu-sorta ireki bat sortzen ari gara denon artean. Eman zure ahotsa, balioztatu besteen grabazioen egokitasuna, egin datu-sorta hobea guztiontzat.
 about-speak = Hitz egin
-about-speak-text = Parte hartzaileek beraien grabaketak egiten dituzte aurretik lagatako esaldi biltegi batetik esaldiak irakurriz.
+about-speak-text = Parte hartzaileek beraien grabazioak egiten dituzte aurretik lagatako esaldi biltegi batetik esaldiak irakurriz.
 about-listen-queue = Entzuketa ilara
-about-listen-queue-text = Ahots grabaketak ilara batean sartzen dira eta parte hartzaileek entzuteko prest geratzen dira.
+about-listen-queue-text = Ahots grabazioak ilara batean sartzen dira eta parte hartzaileek entzuteko prest geratzen dira.
 about-listen = Entzun
-about-listen-text = Erabiltzaileek jasotako grabaketak egokiak diren erabakitzen dute, hizlariak esaldia ondo ahoskatu duen egiaztatuz.
-about-is-it-valid = Grabaketa baliozkoa da?
-about-is-it-valid-text = Ahots grabaketa bat "baliozkoa" bezala markatzen da erabiltzaile batek Bai bozkatzen duenean.
+about-listen-text = Erabiltzaileek jasotako grabazioak egokiak diren erabakitzen dute, hizlariak esaldia ondo ahoskatu duen egiaztatuz.
+about-is-it-valid = Grabazioa baliozkoa da?
+about-is-it-valid-text = Ahots grabazio bat "baliozkoa" bezala markatzen da erabiltzaile batek Bai bozkatzen duenean.
 about-yes-votes = Baiezko 2 bozka edo gehiago
-about-yes-votes-text = Common Voice datu-sortan sartua izan dadin, ahots grabaketa bi balioztatzaile desberdinen oniritzia jaso behar du.
+about-yes-votes-text = Common Voice datu-sortan sartua izan dadin, ahots grabazioak bi balioztatzaile desberdinen oniritzia jaso behar du.
 about-no-votes = Ezezko 2 bozka edo gehiago
-about-no-votes-text = Erabiltzaile batek ahots grabaketa bat errefusatzen duenean ilarara itzultzen da. Bigarrenez errefusatua izaten bada, Grabaketen hilerrian gordetzen da.
+about-no-votes-text = Erabiltzaile batek ahots grabazio bat errefusatzen duenean ilarara itzultzen da. Bigarrenez errefusatua izaten bada, Grabazioen hilerrian gordetzen da.
 about-dataset-new = Common Voice datu-sorta
 about-dataset-new-text = Common Voice datu-sortak ehunka mila ahots laginez osatuta dago, garatzaileei ahotsaren ezagutzarako tresnak sortzen laguntzen diena.
-about-clip-graveyard = Grabaketen hilerria
-about-clip-graveyard-text = Grabaketen hilerria Common Voice datu-sortan sartu ez diren ahots grabaketez osatuta dago. Datu-sorta bezala, Grabaketen hilerria ere deskargagarri dago.
+about-clip-graveyard = Grabazioen hilerria
+about-clip-graveyard-text = Grabazioen hilerria Common Voice datu-sortan sartu ez diren ahots grabazioez osatuta dago. Datu-sorta bezala, Grabazioen hilerria ere deskargagarri dago.
 about-partners = Babesleak
 about-become-a-partner = Babesle bihurtu
 about-partnership =
@@ -484,7 +484,7 @@ localization = Lokalizazioa
 localization-explanation = gure edukia hainbat lokaletara (hizkuntzatara) itzultzeko eta moldatzeko prozesuari deritzo.
 sentence-collection = Esaldiak biltzea
 sentence-collection-explanation = jabetza publikoan dauden esaldiak biltzea edo zuzenean berriak idaztea eta berauok jabetza publikoan uztea.
-hours-recorded-explanation = orain arte bildu ditugun ahots grabaketa ordu kopurua.
+hours-recorded-explanation = Orain arte bildu ditugun ahots grabazioen ordu kopurua.
 hours-validated-explanation = 2 edo 3 erabiltzailek "Bai" bezala bozkatu dituzten ahots grabaketa orduak. 10.000 orduko helburuarekiko aurrerabidea honen arabera kalkulatzen da.
 sst = Speech-to-text (STT)
 sst-explanation = hizketatik testura teknologiek (STT), ahots datuak testu bihurtzen dituzte.
