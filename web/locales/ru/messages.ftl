@@ -129,6 +129,7 @@ pl = Польский
 ps = Пушту
 pt = Португальский
 quc = Киче
+quy = Аякучанский кечуа
 rm-sursilv = Романшский Сурсельвский
 rm-vallader = Романшский Валладер
 ro = Румынский
@@ -154,6 +155,7 @@ tg = Таджикский
 th = Тайский
 ti = Тигринья
 tig = Тигре
+tk = Туркменский
 tl = Тагальский
 tr = Турецкий
 tt = Татарский
@@ -330,8 +332,13 @@ profile-form-native-language =
     .label = Родной язык
 profile-form-additional-language =
     .label = Дополнительный язык
+profile-form-language =
+    .label = Язык
 profile-form-accent =
     .label = Акцент
+profile-form-custom-accent-help-text =
+    .label = Как бы вы описали свой акцент?
+profile-form-custom-accent-placeholder-2 = Начните печатать, чтобы описать свой акцент
 profile-form-age =
     .label = Возраст
 profile-form-gender-2 =
@@ -342,6 +349,7 @@ hidden = Скрытый
 visible = Видимый
 native-language =
     .label = Родной язык
+profile-form-add-accent = Добавить новый акцент "{ $inputValue }"
 profile-form-submit-save = Сохранить
 profile-form-submit-saved = Сохранено
 male = Мужской
@@ -375,6 +383,7 @@ skip-submission-description = Оценка работы с Common Voice буде
 skip-submission-note = Примечание: Вам по-прежнему нужно выбирать между записью и прослушиванием, чтобы изменить тип внесения вклада.
 off = Выкл.
 on = Вкл.
+help-accent = Нужна помощь с акцентом?
 
 ## Profile - Email
 
@@ -1000,6 +1009,7 @@ see-less = <chevron></chevron>Менее подробно
 
 ## HEADER/FOOTER
 
+sc-header-add = Добавить
 
 ## HOME
 
