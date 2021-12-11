@@ -1010,6 +1010,13 @@ see-less = <chevron></chevron>Менее подробно
 ## HEADER/FOOTER
 
 sc-header-add = Добавить
+sc-header-statistics = Статистика
+sc-header-profile = Профиль
+sc-footer-translate = Перевод этой страницы
+sc-footer-privacy = Конфиденциальность
+sc-footer-cookies = Куки
+sc-login-signup-button = Войти / Зарегистрироваться
+sc-logout-button = Выйти
 
 ## HOME
 
