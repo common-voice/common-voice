@@ -1064,13 +1064,19 @@ sc-home-review-title = Sady pśeglědaś
 
 sc-howto-title = Rozpokazanje
 sc-howto-addlang-title = Rěcy pśidaś, z kótarymiž se źěła
+sc-howto-addlang-text = Gaž sćo pśizjawjony, móžośo swóje rěcy we wótrězku Profil wubraś.
 sc-howto-addsen-title = Nowe sady pśidaś
 sc-howto-cite-title = Citěrowaś
 sc-howto-cite-item-1 = Wy mógał websedło pódaś, na pś. „Common Voice - https://commonvoice.mozilla.org/“
 sc-howto-review-title = Sady pśeglědaś
+sc-howto-review-subtitle = Zawěsććo, až sady slědujucym kriterijam wótpowěduju:
 sc-howto-review-criteria-1 = Sada musy pšawje napisana byś.
 sc-howto-review-criteria-2 = Sada musy gramatiski korektna byś.
 sc-howto-review-criteria-3 = Sada musy wugranjajobna byś.
+sc-howto-review-criteria-4 = Jolic sada kriterijam wótpowědujo, klikniśo na tłocašk „Pśizwóliś“.
+sc-howto-review-criteria-6 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
+sc-howto-findpd-title = Zjawne sady namakaś
+sc-howto-findpd-subtitle = Pytajśo w interneśe za nimi
 sc-howto-findpd-tips = How su někotare pokaze, aby wy sady namakał:
 sc-howto-findpd-subtitle-2 = Źěłajśo z lokalnymi organizacijami abo jadne same gromadu
 
