@@ -1078,6 +1078,7 @@ sc-howto-review-criteria-6 = Jolic wam sady wujdu, pomagajśo nam dalšne sady z
 sc-howto-findpd-title = Zjawne sady namakaś
 sc-howto-findpd-subtitle = Pytajśo w interneśe za nimi
 sc-howto-findpd-tips = How su někotare pokaze, aby wy sady namakał:
+sc-howto-findpd-tips-3 = Bóžko njamóžomy nastawki z Wikimedije měś. Njekopěrujśo pótakem žedne nastawki wót tam.
 sc-howto-findpd-subtitle-2 = Źěłajśo z lokalnymi organizacijami abo jadne same gromadu
 
 ## MY SENTENCES
@@ -1125,6 +1126,8 @@ sc-submit-select-language =
     .labelText = Rěc wubraś
 sc-submit-ph-one-per-line =
     .placeholder = Jadna sada na smužku
+sc-submit-ph-read-how-to =
+    .placeholder = Cytajśo našo rozpokazanje, jolic njejsćo se wěsty, kak musyśo je pśirědowaś
 sc-submit-button =
     .submitText = Wótpósłaś
 sc-submit-guidelines = Pšosym pśeglědujśo <howToLink>směrnice</howToLink>.
@@ -1136,6 +1139,16 @@ sc-add-lang-sec-label = Pśidajśo rěc, ku kótarejž cośo pśinosowaś
 sc-add-lang-sec-button = Rěc pśidaś
 sc-add-err-unexpected = Njewótčakane wótegrono ze serwera
 # Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Zapódane sady. { $duplicates } sadow jo se wótpokazało ako duplikat.
+        [one] Zapódane sady. { $duplicates } sada jo se wótpokazała ako duplikat.
+        [two] Zapódane sady. { $duplicates } saźe stej se wótpokazałej ako duplikat.
+        [few] Zapódane sady. { $duplicates } sady su se wótpokazali ako duplikat.
+       *[other] Zapódane sady. { $duplicates } sadow jo se wótpokazało ako duplikat.
+    }
+# Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
@@ -1146,6 +1159,7 @@ sc-add-err-failed =
        *[other] { $sentences } sadow njejo se raźiło
     }
 sc-add-err-submission = Zapódawańska zmólka
+sc-add-lang-process-notice = Jolic waša rěc njejo how nalicona, móžośo na nju pśez <languageProcessLink>toś ten proces</languageProcessLink> požedanje stajiś.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1183,6 +1197,9 @@ sc-confirm-ready =
         [few] { $readyCount } sady gótowe za zapódaśe!
        *[other] { $readyCount } sadow gótowe za zapódaśe!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = Njepśeglědane sady: { $countOfUnreviewed }. Jolic cośo, móžośo něnto teke swóje sady pśeglědowaś, nježli až je wótpósćełaśo.
 sc-confirm-button-text = Wobkšuśiś
 
 ## LANGUAGE INFO
@@ -1206,6 +1223,16 @@ sc-lang-info-in-review =
         [two] { $totalInReview } saźe na pśeglědanje cakatej.
         [few] { $totalInReview } sady na pśeglědanje cakaju.
        *[other] { $totalInReview } sadow na pśeglědanje caka.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Njedaju žedne sady za pśeglědanje.
+        [one] Musyśo hyšći { $unreviewedSentencesByYou } sadu pśeglědowaś.
+        [two] Musyśo hyšći { $unreviewedSentencesByYou } saźe pśeglědowaś.
+        [few] Musyśo hyšći { $unreviewedSentencesByYou } sady pśeglědowaś.
+       *[other] Musyśo hyšći { $unreviewedSentencesByYou } sadow pśeglědowaś.
     }
 sc-lang-info-review-now = <reviewLink>Něnto pśeglědowaś!</reviewLink>
 sc-lang-info-add-more = <addLink>Pśidajśo něnto wěcej sadow!</addLink>
@@ -1258,12 +1285,15 @@ sc-criteria-item-1 = Sada musy pšawje napisana byś.
 sc-criteria-item-2 = Sada musy gramatiski korektna byś.
 sc-criteria-item-3 = Sada musy wugranjajobna byś.
 sc-criteria-item-4 = Jolic sada kriterijam wótpowědujo, klikniśo na tłocašk „Pśizwóliś“.
+sc-criteria-item-6 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
 
 ## REVIEW
 
+sc-review-lang-not-selected = Njejsćo wubrał rěcy. Pšosym pśejźćo k swójomu <profileLink>profiloju</profileLink>, aby rěcy wubrał.
 sc-review-title = Sady pśeglědaś
 sc-review-loading = Sady se zacytuju…
 sc-review-select-language = Pšosym wubjeŕśo rěc, aby sady pśeglědował.
+sc-review-no-sentences = Žedne sady za pśeglědowanje. <addLink>Pśidajśo něnto dalšne sady!</addLink>
 sc-review-form-prompt =
     .message = Pśeglědane sady hyšći njejsu zapódane, nic ga?
 # Variables:
