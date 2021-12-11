@@ -192,15 +192,15 @@ logout = Itxi saioa
 home-title = Common Voice, egiazko jendeak nola hitz egiten duen makinei ikasten laguntzeko ekimena da.
 default-tagline = Mozilla Common Voice benetako jendeak nola hitz egiten duen makinei erakusten laguntzeko ekimena da.
 home-cta = Mintzatu, lagundu hemen!
-wall-of-text-start = Ahotsa naturala da, ahotsa gizatiarra da. Horregatik hain zuzen gure gailuetarako ahots teknologia erabilgarria sortzearen ideiak sorginduta gauzka.  Baina ahots sistemak sortzeko benetan ahots grabaketa asko behar dira.
+wall-of-text-start = Ahotsa naturala da, ahotsa gizatiarra da. Horregatik hain zuzen gure gailuetarako ahots teknologia erabilgarria sortzearen ideiak sorginduta gauzka.  Baina ahots sistemak sortzeko benetan ahots grabazio asko behar dira.
 wall-of-text-more-mobile = Enpresa handiek erabiltzen dituzten datu gehienak ez daude jende gehienaren eskura. Horrek berrikuntza  itotzen duela uste dugu. Horregatik, Common Voice proiektua hasi dugu, ahotsaren ezagutza guztioi irekita usten laguntzen duena.
 wall-of-text-more-desktop = Orain zure ahotsa utz dezakezu ahots datu-base ireki bat eraikitzen laguntzeko eta horrekin gailuetarako eta weberako app berritzaileak sortzen laguntzeko. Irakur ezazu esaldi bat benetako hiztun batek nola hitz egiten duen makinei irakasteko. Egiaztatu ezazu beste laguntzaileen lana kalitatea hobetzeko. Benetan sinplea da ekimen honetan laguntzea!
-wall-of-text-first = Ahotsa naturala da, ahotsa gizatiarra da. Horregatik hain zuzen gure gailuetarako ahots teknologia erabilgarria sortzearen ideiak sorginduta gauzka.  Baina ahots sistemak sortzeko, garatzailek benetan ahots grabaketa asko behar dituzte.
+wall-of-text-first = Ahotsa naturala da, ahotsa gizatiarra da. Horregatik hain zuzen gure gailuetarako ahots teknologia erabilgarria sortzearen ideiak sorginduta gauzka.  Baina ahots sistemak sortzeko, garatzailek benetan ahots grabazio asko behar dituzte.
 wall-of-text-second = Enpresa handiek erabiltzen dituzten datu gehienak ez daude jende gehienaren eskura. Horrek berrikuntza  itotzen duela uste dugu. Horregatik, Common Voice proiektua hasi dugu, ahotsaren ezagutza guztioi irekita usten laguntzen duena.
 show-wall-of-text = Irakurri gehiago
 help-us-title = Lagun gaitzazu esaldiak balioztatzen!
 help-us-explain = Sakatu Erreproduzitu botoia, entzun eta esaguzu: ondoko esaldiak zehaztasunez ahoskatu dituzte?
-no-clips-to-validate = Badirudi ez dagoela grabaketa gehiagorik entzuteko hizkuntza honetan. Lagun gaitzazu ilara betetzen grabaketa batzuk orain eginez.
+no-clips-to-validate = Badirudi ez dagoela grabazio gehiagorik entzuteko hizkuntza honetan. Lagun gaitzazu ilara betetzen grabazio batzuk orain eginez.
 vote-yes = Bai
 vote-no = Ez
 toggle-play-tooltip = Sakatu { shortcut-play-toggle } erreproduzitze modura aldatzeko
@@ -253,7 +253,7 @@ join-newsletter = Aukera duzu gure e-posta zerrendan izena emateko eta proiektua
 
 whats-public = Zer da Publikoa?
 email-not-public = Ez dugu zure e-posta helbidea publiko egingo.
-recordings-and-locale-public = Grabaketa kopurua eta zein hizkuntzatan laguntzen duzun publikoa izango da.
+recordings-and-locale-public = Grabazio kopurua eta zein hizkuntzatan laguntzen duzun publikoa izango da.
 username-optin-public = Zure erabiltzaile-izena publikoa edo anonimoa izatea aukera dezakezu.
 username-email-not-demographic = Zure erabiltzaile-izena eta e-posta ez dira argitaratutako datuekin lotuko.
 
@@ -352,7 +352,7 @@ email-subscriptions = E-posta harpidetzak
 download-profile = Deskargatu nire datuak
 contribution-experience = Eskarmentua laguntzen
 skip-submission-feedback = Saltatu feedback bidalketa
-skip-submission-description = Bidali sakatzean feedback bidalketa saltatuko duzu. Jarraian beste 5 grabaketa egiteko edo balioztatzeko eskainiko zaizkizu.
+skip-submission-description = Bidali sakatzean feedback bidalketa saltatuko duzu. Jarraian beste 5 grabazio egiteko edo balioztatzeko eskainiko zaizkizu.
 skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun artean zure laguntza-mota aldatzeko.
 off = Itzalita
 on = Piztuta
@@ -405,7 +405,7 @@ faq-what-quality-q = Zenbateko audio kalitatea behar da grabaketa datu-sortan er
 faq-why-10k-hours-q = Zergatik lortu behar dira balioztatutako 10.000 audio ordu hizkuntza bakoitzean?
 faq-why-10k-hours-a = Ordu kopuru hau gutxi-gora-behera ekoizpeneko speech-to-text sistema bat trebatzeko behar dena da.
 faq-how-calc-hours-q = Common Voicek nola kalkulatzen ditu orduak?
-faq-how-calc-hours-a = Orduak kalkulatzeko grabaketa bakoitzaren batezbesteko luzera hartu eta hizkuntza guztietan egindako grabaketa guztien kopuruagatik biderkatzen dugu.
+faq-how-calc-hours-a = Orduak kalkulatzeko grabazio bakoitzaren batezbesteko luzera hartu eta hizkuntza guztietan egindako grabazio guztien kopuruagatik biderkatzen dugu.
 faq-where-src-from-2-q = Nondik dator iturri testua?
 faq-where-src-from-2-a =
     Gure iturburu testuak proiektuko laguntzaileek berariaz sortutakoak dira eta baita <italic>Bizitza ederra da</italic> bezala jabetza publikoan dauden filmen azpitituluetatik ateratakoak. Euskararen kasuan, hainbat esaldi <italic>Argia</italic> aldizkaritik ateratakoak dira, proiektu honetarako espresuki jabetza publikoan utzi baititu.
@@ -462,9 +462,10 @@ about-partnership =
 about-get-involved = Parte hartu
 about-get-involved-text-2 =
     Common Voice oraindik hobeto lagundu nahi duzu?
-    Primeran! Jar zaitez gurekin harremanetan eposta bidez edo <discourseLink>Discourse</discourseLink>
-    foroak erabiliz, forums, submit site issues via <githubLink>GitHub</githubLink>, or join the
-    <matrixLink>Matrix</matrixLink> community chat.
+    Primeran! Jar zaitez gurekin harremanetan eposta bidez
+    <discourseLink>Discourse</discourseLink> foroak erabiliz,
+    <githubLink>GitHub</githubLink>-en arazo baten berri eman,
+    edo batu komunitateko <matrixLink>Matrix</matrixLink> txatera.
 about-nav-why-common-voice = Zergatik?
 about-nav-how-it-works = Nola?
 about-nav-partners = Babesleak
@@ -519,14 +520,14 @@ data-download-singleword-title = Deskargatu hitz bakarreko esparru zehatzeko ata
 review-terms = Common Voice erabiltzean, bere <termsLink>erabilera baldintzak</termsLink> eta <privacyLink>pribatutasun-oharra</privacyLink> onartzen dituzu
 terms-agree = Onartzen dut
 terms-disagree = Ez dut onartzen
-review-aborted = Igotzea bertan behera geratu da. Zure grabaketak ezabatu nahi al dituzu?
+review-aborted = Igotzea bertan behera geratu da. Zure grabazioak ezabatu nahi al dituzu?
 review-submit-title = Berrikusi eta bidali
 review-submit-msg = Eskerrik asko grabatzeagatik!<lineBreak></lineBreak>Orain ondoko grabaketak berrikusi eta bidali.
 review-recording = Berrikusi
 review-rerecord = Grabatu berriro
 review-cancel = Ezeztatu bidalketa
-review-keep-recordings = Mantendu grabaketak
-review-delete-recordings = Ezabatu nire grabaketak
+review-keep-recordings = Mantendu grabazioak
+review-delete-recordings = Ezabatu nire grabazioak
 
 ## Datasets Page
 
@@ -720,8 +721,8 @@ days =
     }
 recordings =
     { $count ->
-        [one] grabaketa
-       *[other] grabaketa
+        [one] grabazio
+       *[other] grabazio
     }
 validations =
     { $count ->
@@ -820,7 +821,7 @@ delete-q = Egin dituzun ahots grabaketak ere ezabatzea nahi duzu ala nahiago duz
 keep = Mantendu
 remove = Kendu
 keep-info = Zure ahots grabaketa anonimoak Common Voice datu-sortan gordeko dira. Behin zure profila ezabatzen duzunean, ezingo duzu eskatu zure grabaketak datu-sortatik kentzerik.
-remove-info = Zure ahots grabaketak datu-sortatik ezabatzeko eskaria berrikusiko dugu. Zure eskaria onartua dada, datu-sorta deskargatu dutenekin ere harremanetan jarriko gara eta zure ahots grabaketak ezabatzeko eskatuko diegu.
+remove-info = Zure ahots grabazioak datu-sortatik ezabatzeko eskaria berrikusiko dugu. Zure eskaria onartua dada, datu-sorta deskargatu dutenekin ere harremanetan jarriko gara eta zure ahots grabazioak ezabatzeko eskatuko diegu.
 why-delete-recordings =
     Common Voice grabaketak hezkuntza zentroek eta ikerlariek, enpresa txikiek eta ahotsaren ezagutzaren zaleek erabiltzen dituzte publikoki erabilgarri dauden baliabideak trebatzeko eta hazteko, ahots ereduekin gertatzen den bezala.
     
@@ -831,7 +832,7 @@ profile-form-delete = Ezabatu profila
 
 download-q = Zure datuak deskargatu behar dituzu?
 download-profile-title = Profila
-download-recordings-title = Grabaketak
+download-recordings-title = Grabazioak
 download-size = Tamaina
 download-start = Deskargatu profilaren datuak
 download-request-button = Deskargatu
