@@ -891,8 +891,11 @@ contribution-background-noise-description-extended = Baztertu grabazioa etenak e
 contribution-background-voices-title = Atzealdeko ahotsak
 contribution-background-voices-description = Atzealdeko zalaparta apal bat ondo dago, baina ez dugu ahots gehigarririk nahi, algoritmo batek testuan ez dauden hitzak identifika ez ditzan. Baztertu grabazioa testukoak ez diren hitzak entzun badaitezke. Normalean, telebista piztuta uzten denean edo gertuko elkarrizketa bat izaten denean gertatzen da hori.
 contribution-background-voices-description-extended = Baztertu grabazioa etenak edo karraskak baditu eta ezin bada testu osoa entzun.
+contribution-background-voices-example-1-title = Pilota partida hastera doa. <strong>[beste norbaitek esana]</strong>
 contribution-background-voices-example-1-explanation = Bazatoz? <strong>[beste norbaitek esana]</strong>
 contribution-volume-title = Bolumena
+contribution-volume-description = Bolumen aldaketa naturalak egongo dira irakurleen artean. Baztertu grabaketa bakarrik bolumena hain handia bada grabazioa eten egiten dela edo (ohikoagoa dena) hain baxua bada, ezin dela entzun esaten dena testu idatziari erreferentzia egin gabe.
+contribution-reader-effects-description = Grabazio gehienak beren ahots naturalarekin hitz egiten duten pertsonenak dira. Noizbehinkako ezohiko grabazioa onar dezakezu; oihukatzen, xuxurlatzen edo era ‘dramatizatuan‘ egina. Baztertu grabazio abestuak eta ordenagailuz sortutako ahotsa erabiltzen dutenak.
 see-more = <chevron></chevron>Ikusi gehiago
 see-less = <chevron></chevron>Ikusi gutxiago
 
