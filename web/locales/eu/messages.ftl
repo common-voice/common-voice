@@ -485,11 +485,11 @@ localization-explanation = gure edukia hainbat lokaletara (hizkuntzatara) itzult
 sentence-collection = Esaldiak biltzea
 sentence-collection-explanation = jabetza publikoan dauden esaldiak biltzea edo zuzenean berriak idaztea eta berauok jabetza publikoan uztea.
 hours-recorded-explanation = Orain arte bildu ditugun ahots grabazioen ordu kopurua.
-hours-validated-explanation = 2 edo 3 erabiltzailek "Bai" bezala bozkatu dituzten ahots grabaketa orduak. 10.000 orduko helburuarekiko aurrerabidea honen arabera kalkulatzen da.
+hours-validated-explanation = 2 edo 3 erabiltzailek "Bai" bezala bozkatu dituzten ahots grabazioen orduak. 10.000 orduko helburuarekiko aurrerabidea honen arabera kalkulatzen da.
 sst = Speech-to-text (STT)
 sst-explanation = hizketatik testura teknologiek (STT), ahots datuak testu bihurtzen dituzte.
 de-identified = Des-identifikazioa
-de-identified-explanation = datu-sorta deskargagarri uzteko paketatzen denean, egilearen profilaren informazioa berak grabatutako grabaketetatik ezkutatzeko prozesua.
+de-identified-explanation = Datu-sorta deskargagarri uzteko paketatzen denean, egilearen profilaren informazioa berak grabatutako grabazioetatik ezkutatzeko prozesua.
 
 ## Error pages
 
@@ -522,7 +522,7 @@ terms-agree = Onartzen dut
 terms-disagree = Ez dut onartzen
 review-aborted = Igotzea bertan behera geratu da. Zure grabazioak ezabatu nahi al dituzu?
 review-submit-title = Berrikusi eta bidali
-review-submit-msg = Eskerrik asko grabatzeagatik!<lineBreak></lineBreak>Orain ondoko grabaketak berrikusi eta bidali.
+review-submit-msg = Eskerrik asko grabatzeagatik!<lineBreak></lineBreak>Orain ondoko grabazioak berrikusi eta bidali.
 review-recording = Berrikusi
 review-rerecord = Grabatu berriro
 review-cancel = Ezeztatu bidalketa
@@ -570,7 +570,7 @@ data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 or
 data-other-ted-name = TED-LIUM corpusa
 data-other-ted-description = TED-LIUM corpusa, TED webguneko hitzaldietako audioetatik eta transkripzioetatik sortua da.
 data-other-voxforge-description = VoxForge transkribatutako hizketak biltzeko sortu zen, hizketaren ezagutza motor libreek erabiltzeko.
-data-other-tatoeba-description = Tatoeba hizkuntzen ikasketan erabiltzeko hainbat esaldi, itzulpen eta ahoskatutako audio dituen datu-basea da. Deskarga honek ,bere baitan, Tatoebako komunitateak ingelesez ahoskatutako grabaketen audioak dauzka.
+data-other-tatoeba-description = Tatoeba hizkuntzen ikasketan erabiltzeko hainbat esaldi, itzulpen eta ahoskatutako audio dituen datu-basea da. Deskarga honek, bere baitan, Tatoebako komunitateak ingelesez ahoskatutako grabazioen audioak dauzka.
 your-feedback = Common Voice datu-sorta nola hobe dezakegun ideiarik duzu? Parteka itzazu gurekin Discoursen
 go-discourse = Joan Discoursera
 missing-language = Ez duzu zure hizkuntza ikusten datu-sortan? Hizkuntza bat eskatzeko zoaz gure Hizkuntzak orrira.
@@ -637,48 +637,48 @@ skip = Saltatu
 shortcuts = Lasterbideak
 clips-with-count-pluralized =
     { $count ->
-        [one] Grabaketa <bold>{ $count }</bold>
-       *[other] <bold>{ $count }</bold> grabaketa
+        [one] Grabazio <bold>{ $count }</bold>
+       *[other] <bold>{ $count }</bold> grabazio
     }
-goal-help-recording = Common Voicek egunero { $goalValue } grabaketa lortzea du helburu eta zuk helburuaren <goalPercentage></goalPercentage>a lortzen lagundu duzu!
+goal-help-recording = Common Voicek egunero { $goalValue } grabazio lortzea du helburu eta zuk helburuaren <goalPercentage></goalPercentage>a lortzen lagundu duzu!
 goal-help-validation = Common Voice lagundu duzu egunero { $goalValue } balidatzeko dugun helburuaren <goalPercentage></goalPercentage> lortzen!
 contribute-more =
     { $count ->
         [one] { $count } gehiago egiteko prest?
        *[other] { $count } gehiago egiteko prest?
     }
-record-cta = Hasi grabaketa
+record-cta = Hasi grabazioa
 record-platform-not-supported = Sentitzen dugu baina orain ez diogu plataforma horri euskarririk ematen.
 record-platform-not-supported-desktop = Mahaigaineko ordenagailuetan, azkena deskarga dezakezu:
-record-platform-not-supported-ios-non-safari = iOS-en Safarirekin jarraitu grabaketak egin ahal izateko…
+record-platform-not-supported-ios-non-safari = iOS-en Safarirekin jarraitu grabazioak egin ahal izateko…
 record-must-allow-microphone = Mikrofonoa erabiltzeko baimena eman behar duzu.
 record-no-mic-found = Ez da mikrofonorik aurkitu.
-record-error-too-short = Grabaketa laburregia izan da.
-record-error-too-long = Grabaketa luzeegia izan da.
-record-error-too-quiet = Grabaketa baxuegi entzuten da.
+record-error-too-short = Grabazioa laburregia izan da.
+record-error-too-long = Grabazioa luzeegia izan da.
+record-error-too-quiet = Grabazioa baxuegi entzuten da.
 record-cancel = Ezeztatu berriro grabatzea
 record-instruction = { $actionType }<recordIcon></recordIcon> ikurrean esaldia altuan irakurtzeko
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> egindakoan
 record-three-more-instruction = Bagoaz!
-record-again-instruction = Bikain!<recordIcon></recordIcon> Egin zure hurrengo grabaketa
+record-again-instruction = Bikain!<recordIcon></recordIcon> Egin zure hurrengo grabazioa
 record-again-instruction2 = Segi horrela! grabatu berriro <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Azkena!
-review-tooltip = Berrikusi eta grabaketak berregin hemen egin ahala
-share-clip = Partekatu zure grabaketa
+review-tooltip = Berrikusi eta grabazioak berregin hemen egin ahala
+share-clip = Partekatu zure grabazioa
 share-common-voice = Partekatu Common Voice
-review-instruction = Berrikusi eta grabaketak berriz egin beharrezkoa bada
+review-instruction = Berrikusi eta grabazioak berriz egin beharrezkoa bada
 record-submit-tooltip = { $actionType } bidali prest egotean
-clips-uploaded = Grabaketak igota
-record-abort-title = Lehenago grabaketa bukatu?
+clips-uploaded = Grabazioak igota
+record-abort-title = Lehenago grabazioa bukatu?
 record-abort-text = Orain ateratzen bazara egin berri dituzunak galduko dira
-record-abort-submit = Bidali grabaketak
-record-abort-continue = Bukatu grabaketa
-record-abort-delete = Irten eta ezabatu grabaketak
+record-abort-submit = Bidali grabazioak
+record-abort-continue = Bukatu grabazioa
+record-abort-delete = Irten eta ezabatu grabazioak
 listen-instruction = { $actionType }<playIcon></playIcon> esaldia ondo ahoskatu dute?
 listen-again-instruction = Lan bikaina!<playIcon></playIcon> Entzun berriro prest zaudenean
 listen-3rd-time-instruction = 2 gutxiago, segi horrela!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Azkena!
-listen-empty-state = Balioztatzeko grabaketarik gabe geratu gara hizkuntza honetan...
+listen-empty-state = Balioztatzeko grabaziorik gabe geratu gara hizkuntza honetan...
 speak-empty-state = Grabatzeko esaldirik gabe geratu gara hizkuntza honetan...
 speak-empty-state-cta = Lagundu esaldiekin
 record-button-label = Grabatu zure ahotsa
@@ -704,7 +704,7 @@ report-different-language-detail = Hitz egiten ari naizen hizkuntza ez den beste
 report-difficult-pronounce = Ahoskatzeko zaila
 report-difficult-pronounce-detail = Irakurtzeko edo ahoskatzeko zailak diren hitzak edo esaldiak ditu.
 report-offensive-speech = Hizkuntza iraingarria
-report-offensive-speech-detail = Grabaketak errespeturik gabeko hizkuntza du edo hizkera iraingarria du.
+report-offensive-speech-detail = Grabazioak errespeturik gabeko hizkuntza du edo hizkera iraingarria du.
 report-other-comment =
     .placeholder = Iruzkina
 success = Ondo burutu da
@@ -735,18 +735,18 @@ validations =
 your-languages = Zure hizkuntzak
 toward-next-goal = Hurrengo helbururantz
 goal-reached = Helburua lortuta
-clips-you-recorded = Egin dituzun grabaketak
-clips-you-validated = Balioztatu dituzun grabaketak
-todays-recorded-progress = Common Voicen gaurko aurrerapena egindako grabaketetan
-todays-validated-progress = Common Voicen gaurko aurrerapena balioztatutako grabaketetan
+clips-you-recorded = Egin dituzun grabazioak
+clips-you-validated = Balioztatu dituzun grabazioak
+todays-recorded-progress = Common Voicen gaurko aurrerapena egindako grabazioetan
+todays-validated-progress = Common Voicen gaurko aurrerapena balioztatutako grabazioetan
 stats = Estatistikak
 awards = Sariak
 you = Zuk
 everyone = Denek
 contribution-activity = Gaurko jarduera
 top-contributors = Laguntzaile gogotsuenak
-recorded-clips = Egindako grabaketak
-validated-clips = Balioztatutako grabaketak
+recorded-clips = Egindako grabazioak
+validated-clips = Balioztatutako grabazioak
 total-approved = Onartuak guztira
 overall-accuracy = Zehaztasun orokorra
 set-visibility = Ezarri nire ikusgarritasuna
@@ -783,8 +783,8 @@ help-reach-hours-general-pluralized =
     }lortzen hizkuntza batean helburu pertsonal batekin
 set-a-goal = Ezarri helburu bat
 cant-decide = Ezin duzu erabaki?
-how-many-per-day = Primeran! Zenbat grabaketa egunean?
-how-many-a-week = Primeran! Zenbat grabaketa astean?
+how-many-per-day = Primeran! Zenbat grabazio egunean?
+how-many-a-week = Primeran! Zenbat grabazio astean?
 which-goal-type = Hitz egin, entzun edo biak egin nahi dituzu?
 receiving-emails-info =
     Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren
@@ -794,16 +794,16 @@ not-receiving-emails-info =
     eguneraketak eta buletinak posta elektroniko bidez jasotzeko aukera <bold>EZ</bold> duzu ezarrita
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] Grabaketa { $count }
-       *[other] { $count } grabaketa
+        [one] Grabazio { $count }
+       *[other] { $count } grabazio
     }
 help-share-goal = Lagundu ahots gehiago lortzen, partekatu zure helburua
 confirm-goal = Berretsi helburua
 goal-interval-weekly = Astero
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Partekatu zure { $type } motako { $count } grabaketa egunero lortzeko helburua
+share-n-daily-contribution-goal = Partekatu zure { $type } motako { $count } grabazio egunero lortzeko helburua
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Partekatu zure { $type } motako { $count } grabaketa astero lortzeko helburua
+share-n-weekly-contribution-goal = Partekatu zure { $type } motako { $count } grabazio astero lortzeko helburua
 share-goal-type-speak = Hitz egiten
 share-goal-type-listen = Entzuten
 share-goal-type-both = Hitz egiten eta entzuten
