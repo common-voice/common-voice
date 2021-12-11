@@ -961,7 +961,7 @@ sc-logout-button = Pụ̀ọ́
 ## HOME
 
 sc-home-title = Nnọ̀ọ́ nà ńdị́ nà-ánákọ́tá áhị́rị́ókwū Common Voice (Common Voice Sentence Collector).
-sc-home-intro = Ńnákọ́tá áhị́rị́ókwū bụ̀ ákụ̀kụ̀ ǹkè <commonVoiceLink>Common Voice</commonVoiceLink>. Ọ̀ nà-ènyé ńdị́ ǹtínyè ákā áká ị́nākọ̄tā mà kwàdó áhị́rị́ókwū  ńdị́ òbòdò mèbèrè. Ị́ nwèkwàrà íké íjì ńgwá ọ́rụ̄ à búbàtá mà hícháá óbérē ǹgàlàb̀a ọ̀hà ǹkè ị́ chọ̀tàrà mà ọ̀ bụ̀ chị̀kọ̀tàrà. Áhị́rị́ókwū níílē kwèsị̀rị̀ ị́bụ̄ ǹgàlàbà Ọ̀hànézè. À nà-èbúp̀ụ áhị́rị́ókwū ńdị́ ákwàdòrò kwà ízù nà ébé ńchékwá Common Voice mà nà-èwépụ̀tá yá nà ówà Common Voice nà ḿbúghárị́ ọ́hụ́rụ́ ọ́bụ́là.
+sc-home-intro = Ńnákọ́tá áhị́rị́ókwū bụ̀ ákụ̀kụ̀ ǹkè <commonVoiceLink>Common Voice</commonVoiceLink>. Ọ̀ nà-ènyé áká ị́nākọ̄tā mà kwàdó áhị́rị́ókwū. Ị́ nwèkwàrà íké íjì ńgwá ọ́rụ̄ à búbàtá mà nyòcháá áhị́rị́ókwū ǹkè ị́ chọ̀tàrà mà ọ̀ bụ̀ chị̀kọ̀tàrà. Áhị́rị́ókwū níílē kwèsị̀rị̀ ị́bụ̄ ǹgàlàbà Ọ̀hànézè (Public Domain). À nà-èbúp̀ụ áhị́rị́ókwū ńdị́ ákwàdòrò kwà ízù nà ébé ńchékwá Common Voice mà nà-èwépụ̀tá yá nà ówà Common Voice nà ḿbúghárị́ ọ́hụ́rụ́ ọ́bụ́là.
 sc-home-collect-title = Chị̀kọ́tá áhị́rị́ókwū
 sc-home-collect-text = Nyéré ányị́ áká síté ná-ídē mà ọ̀ bụ̀ nà-ànákọta áhị́rị́ókwū Public Domain.
 sc-home-review-title = Nyòcháá áhị́rị́ókwū
