@@ -1054,9 +1054,12 @@ sc-logout-button = Dalje
 
 ## REVIEW
 
+sc-review-link = Shqyrtojeni
 
 ## SETTINGS
 
+sc-settings-title = Rregullime
+sc-settings-ui-language = Gjuhë Ndërfaqeje
 
 # [/SentenceCollector]
 
