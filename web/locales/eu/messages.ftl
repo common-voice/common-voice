@@ -190,6 +190,7 @@ logout = Itxi saioa
 ## Home Page
 
 home-title = Common Voice, egiazko jendeak nola hitz egiten duen makinei ikasten laguntzeko ekimena da.
+default-tagline = Mozilla Common Voice benetako jendeak nola hitz egiten duen makinei erakusten laguntzeko ekimena da.
 home-cta = Mintzatu, lagundu hemen!
 wall-of-text-start = Ahotsa naturala da, ahotsa gizatiarra da. Horregatik hain zuzen gure gailuetarako ahots teknologia erabilgarria sortzearen ideiak sorginduta gauzka.  Baina ahots sistemak sortzeko benetan ahots grabaketa asko behar dira.
 wall-of-text-more-mobile = Enpresa handiek erabiltzen dituzten datu gehienak ez daude jende gehienaren eskura. Horrek berrikuntza  itotzen duela uste dugu. Horregatik, Common Voice proiektua hasi dugu, ahotsaren ezagutza guztioi irekita usten laguntzen duena.
@@ -431,6 +432,9 @@ faq-search-for-answers =
 
 about-title = Zergatik Common Voice?
 about-subtitle = Common Voice Mozillaren ekimenaren parte da, makinei gizakiek benetan nola hitz egiten duten irakasten laguntzeko. Common Voice datu-sortaz gain, kode irekiko ahotsa ezagutzeko motorra ere sortzen ari gara, Deep Speech izenekoa.
+about-header-description-2 =
+    Proiektu hau hizketa digitalaren arrakala ixteko ahalegina da. Ahotsa ezagutzeko teknologiek giza dimentsioa ematen diete gure gailuei, baina garatzaileek ahots-datu ugari behar dituzte horiek eraikitzeko. Gaur egun, datu horietako gehienak garestiak eta jabedunak dira. 
+    Ahots-datuak doan eta publikoki eskuragarri egotea nahi dugu, eta datuek benetako pertsonen aniztasuna adierazten dutela ziurtatu. Elkarrekin ahotsaren ezagutza guztiontzat hobea izatea lor dezakegu.
 how-does-it-work-title = Nola dabilen
 how-does-it-work-text = Ahotsen datu-sorta ireki bat sortzen ari gara denon artean. Eman zure ahotsa, balioztatu besteen grabaketen egokitasuna, egin datu-sorta hobea guztiontzat.
 about-speak = Hitz egin
@@ -456,6 +460,11 @@ about-partnership =
     
     Eskerrak eman nahi dizkiegu honako pertsona eta erakunde hauei proiektuan laguntzeagatik:
 about-get-involved = Parte hartu
+about-get-involved-text-2 =
+    Common Voice oraindik hobeto lagundu nahi duzu?
+    Primeran! Jar zaitez gurekin harremanetan eposta bidez edo <discourseLink>Discourse</discourseLink>
+    foroak erabiliz, forums, submit site issues via <githubLink>GitHub</githubLink>, or join the
+    <matrixLink>Matrix</matrixLink> community chat.
 about-nav-why-common-voice = Zergatik?
 about-nav-how-it-works = Nola?
 about-nav-partners = Babesleak
