@@ -1159,7 +1159,7 @@ sc-add-err-failed =
        *[other] { $sentences } sadow njeje so poradźiło
     }
 sc-add-err-submission = Zapodawanski zmylk
-sc-add-lang-process-notice = Jeli waša rěč tu nalistowana njeje, móžeć ju přez <languageProcessLink>tutón proces</languageProcessLink> požadać.
+sc-add-lang-process-notice = Jeli waša rěč tu nalistowana njeje, móžeće ju přez <languageProcessLink>tutón proces</languageProcessLink> požadać.
 
 ## ADD SENTENCES CONFIRMATION
 
