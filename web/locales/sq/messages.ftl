@@ -1021,6 +1021,9 @@ sc-logout-button = Dalje
 
 ## HOW-TO
 
+sc-howto-review-criteria-6 = Nëse ju mbarohen fjalitë për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
+sc-howto-findpd-title = Gjetje fjalish ekzistuese nën Përkatësi Publike
+sc-howto-findpd-subtitle = Kërkoni për ta në Internet
 
 ## MY SENTENCES
 
@@ -1060,6 +1063,7 @@ sc-review-link = Shqyrtojeni
 
 sc-settings-title = Rregullime
 sc-settings-ui-language = Gjuhë Ndërfaqeje
+sc-settings-language-translated-warning = Faqet për këtë gjuhë mund të mos jenë përkthyer plotësisht. Mund të ndihmoni me përkthimin <pontoonLinkLink>në Pontoon</pontoonLinkLink>.
 
 # [/SentenceCollector]
 
