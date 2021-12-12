@@ -1024,6 +1024,13 @@ sc-logout-button = Dalje
 sc-howto-review-criteria-6 = Nëse ju mbarohen fjalitë për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
 sc-howto-findpd-title = Gjetje fjalish ekzistuese nën Përkatësi Publike
 sc-howto-findpd-subtitle = Kërkoni për ta në Internet
+sc-howto-findpd-text-2 = Mbani mend se na duhet leje për t’i botuar këto fjali, ndaj sigurohuni përherë se teksti gjenden nën <wikipediaLink>përkatësi publike</wikipediaLink>. Nëse për këtë nuk ka pohim shprehimisht, lidhuni me personin të cilit i përket teksti dhe kërkojini nëse dëshiron ta japë tekstin e vet nën Përkatësi Publike. Nëse dëshiron, ndihmojini te procesi i <cc0WaiverLink>Marrëveshjes së Kontributeve</cc0WaiverLink>. Nëse s’duan të kontribuojnë me tekstin, atëherë s’ju lejohet të përdorni atë tekst.
+sc-howto-findpd-tips = Ja disa ndihmëza se si të gjenden fjali:
+sc-howto-findpd-tips-1 = Burimet më të mira ku mund të shihni janë podcast-et, transkriptimet, skenarë filmash dhe gjithçka që mundet të përmbajë biseda të përditshme.
+sc-howto-findpd-tips-2 = Proces-verbalet qeveritare, librat dhe artikujt janë gjithashtu të përshtatshëm, por ngaqë teksti në to priret të jetë pak më tepër formal, përfaqësojnë përparësi më të pakët.
+sc-howto-findpd-tips-3 = Mjerisht, s’mundemi ende të përdorim artikuj nga Wikimedia. Ndaj mos kopjoni gjë prej andej.
+sc-howto-findpd-subtitle-2 = Bashkëpunoni me ente apo individë vendorë
+sc-howto-findpd-partner-1 = Ka mjaft ente publike që mund të duan të bashkëpunojnë dhe kanë tashmë plot tekst që mund ta dhurojnë si nën përkatësi publike. Lidhuni me universitete vendore, pushtete dhe ente të burimit të hapët, për të biseduar rreth projektit dhe për t’u kërkuar ndihmë.
 
 ## MY SENTENCES
 
