@@ -950,6 +950,10 @@ sc-footer-discourse = Discourse
 
 ## MY SENTENCES
 
+sc-my-no-sentences = Ez da esaldirik aurkitu!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Iturria:  { $source }
 
 ## REJECTED
 
@@ -959,18 +963,27 @@ sc-rejected-none-found = Ez da baztertutako esaldirik aurkitu!
 
 ## STATS
 
+sc-stats-title = Estatistikak
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Azken eguneratzea: { $lastUpdate }
+sc-stats-last-update-never = Azken eguneratzea: inoiz ez
+sc-stats-updating = Eguneratzen…
 
 ## ADD
 
+sc-submit-title = Gehitu esaldiak
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Gehitu hizkuntza
 
 ## ADD SENTENCES CONFIRMATION
 
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } zuk baztertuak
+sc-confirm-button-text = Baieztatu
 
 ## LANGUAGE INFO
 
@@ -985,19 +998,37 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-try-again = Saiatu berriz mesedez.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profila: { $username }
+sc-personal-your-languages = Zure hizkuntzak:
+sc-personal-remove-button = ezabatu
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-title = Berrikusi esaldiak
+sc-review-loading = Esaldiak kargatzen...
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Iturria: { $sentenceSource }
 sc-review-form-button-reject = Baztertu
+sc-review-form-button-skip = Saltatu
+sc-review-form-button-approve = Onartu
+sc-review-form-button-submit =
+    .submitText = Amaitu berrikusketa
+sc-review-link = Berrikusi
 
 ## SETTINGS
 
+sc-settings-title = Ezarpenak
+sc-settings-ui-language = Interfazearen hizkuntza
 
 # [/SentenceCollector]
 
