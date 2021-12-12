@@ -129,6 +129,7 @@ pl = Polska
 ps = Pashto
 pt = Portugisiska
 quc = Quiché
+quy = Quechua Chanka
 rm-sursilv = Rätoromanska
 rm-vallader = Rätoromanska Vallader
 ro = Rumänska
@@ -1033,10 +1034,17 @@ sc-howto-title = Hur man
 sc-howto-addlang-title = Lägga till språk att arbeta med
 sc-howto-addsen-title = Lägg till nya meningar
 sc-howto-cite-title = Hur man citerar
+sc-howto-cite-item-1 = Du kan inkludera webbplatsen, t.ex. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Granska meningar
 sc-howto-review-subtitle = Se till att meningen uppfyller följande kriterier:
 sc-howto-review-criteria-1 = Meningen måste vara rättstavad.
 sc-howto-review-criteria-2 = Meningen måste vara grammatiskt korrekt.
+sc-howto-review-criteria-3 = Meningen måste vara talbar.
+sc-howto-review-criteria-4 = Om meningen uppfyller kriterierna, klicka på knappen "Godkänn".
+sc-howto-review-criteria-5 = Om meningen inte uppfyller ovanstående kriterier, klicka på knappen "Avvisa". Om du är osäker på meningen kan du också hoppa över den och gå vidare till nästa.
+sc-howto-review-criteria-6 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
+sc-howto-findpd-subtitle = Sök efter dem på Internet
+sc-howto-findpd-tips = Här är några tips för att hitta meningar:
 sc-howto-findpd-subtitle-2 = Samarbeta med lokala organisationer eller individer
 sc-howto-findpd-partner-1 = Det finns många offentliga organisationer som kanske vill samarbeta och som redan har många texter de kan donera som allmän egendom. Nå ut till lokala universitet, regeringar och öppen källkodsorganisationer för att prata om projektet och be om deras hjälp.
 
@@ -1046,6 +1054,9 @@ sc-my-title = Mina meningar
 sc-my-loading = Laddar dina meningar…
 sc-my-err-fetching = Det gick inte att hämta dina meningar. Var god försök igen.
 sc-my-no-sentences = Inga meningar hittades!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Bidrag: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Källa: { $source }
@@ -1133,13 +1144,26 @@ sc-review-form-button-skip = Hoppa över
 sc-review-form-button-approve = Godkänn
 # Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
 sc-review-form-keyboard-usage = Du kan också använda tangentbordsgenvägar: Y för att godkänna, N för att avvisa, S för att hoppa över
+sc-review-form-button-submit =
+    .submitText = Avsluta granskning
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Inga meningar granskade.
+        [one] 1 mening granskad. Tack!
+       *[other] { $sentences } meningar granskade. Tack!
+    }
+sc-review-form-review-failure = Granskningen kunde inte sparas. Vänligen försök igen senare.
 sc-review-link = Granska
 
 ## SETTINGS
 
 sc-settings-title = Inställningar
 sc-settings-ui-language = Gränssnittsspråk
+sc-settings-language-translated-warning = Sidorna för detta språk kanske inte är helt översatta. Du kan hjälpa till med översättning <pontoonLinkLink>på Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Återställ överhoppade meningar
+sc-settings-skipped-decription = Du hoppade över meningar tidigare när du granskade. Om du återställer överhoppade meningar visas alla överhoppade meningar igen. Detta är oberoende av språket.
 sc-settings-show-all-button = Visa alla överhoppade meningar igen
 sc-settings-failed = Det gick inte att ändra inställningarna. Var god försök igen.
 # VALIDATION
