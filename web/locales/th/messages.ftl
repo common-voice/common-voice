@@ -859,6 +859,7 @@ download-size = ขนาด
 download-selected = เลือกแล้ว
 download-start = ดาวน์โหลดข้อมูลโปรไฟล์
 download-request-button = ดาวน์โหลด
+download-request-archive-single = ไฟล์ ZIP เดียวที่มี
 download-request-refresh-button = เรียกใหม่
 download-request-modal-title = ดาวน์โหลดลิงก์
 download-request-modal-description = นี่คือลิงก์สำหรับดาวน์โหลดไฟล์ ZIP ของคุณ
@@ -940,6 +941,7 @@ sc-header-review = ตรวจทาน
 sc-header-rejected = ประโยคที่ถูกปฏิเสธ
 sc-header-my = ประโยคของฉัน
 sc-header-statistics = สถิติ
+sc-header-profile = โปรไฟล์
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = รายงานข้อบกพร่อง
 sc-footer-translate = แปลหน้านี้
@@ -952,11 +954,17 @@ sc-logout-button = ออกจากระบบ
 
 ## HOME
 
+sc-home-title = ยินดีต้อนรับสู่เครื่องมือรวบรวมประโยค Common Voice
+sc-home-intro = เครื่องมือรวบรวมประโยคนี้เป็นส่วนหนึ่งของ <commonVoiceLink>Common Voice</commonVoiceLink> ซึ่งเปิดให้ผู้มีส่วนร่วมสามารถรวบรวมและตรวจสอบประโยคที่สร้างโดยชุมชน คุณสามารถใช้เครื่องมือนี้เพื่อนำเข้าและทำความสะอาดคลังข้อมูลสาธารณสมบัติขนาดเล็กถึงขนาดกลางที่คุณพบหรือรวบรวมได้ ประโยคทั้งหมดต้องเป็นสาธารณสมบัติ (Public Domain) เท่านั้น ประโยคที่ได้รับอนุมัติจะถูกส่งออกทุกสัปดาห์ไปยังที่เก็บ Common Voice และเผยแพร่บนเว็บไซต์ Common Voice ในการปรับใช้ใหม่ทุกครั้ง
+sc-home-collect-title = รวบรวมประโยค
+sc-home-collect-text = ช่วยเราโดยการเขียนหรือรวบรวมประโยคที่เป็นสาธารณสมบัติ
 sc-home-review-title = ตรวจทานประโยค
 
 ## HOW-TO
 
 sc-howto-title = วิธีการ
+sc-howto-addsen-title = เพิ่มประโยคใหม่
+sc-howto-cite-title = วิธีอ้างอิง
 sc-howto-review-title = ตรวจทานประโยค
 
 ## MY SENTENCES
@@ -964,6 +972,13 @@ sc-howto-review-title = ตรวจทานประโยค
 sc-my-title = ประโยคของฉัน
 sc-my-loading = กำลังโหลดประโยคของคุณ...
 sc-my-no-sentences = ไม่พบประโยคที่ต้องการหา
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = ส่ง: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = ที่มา: { $source }
+sc-my-delete = ลบประโยคที่เลือก
 
 ## REJECTED
 
@@ -971,8 +986,15 @@ sc-my-no-sentences = ไม่พบประโยคที่ต้องก�
 ## STATS
 
 sc-stats-title = สถิติ
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = อัปเดตล่าสุด: { $lastUpdate }
 sc-stats-last-update-never = อัปเดตล่าสุด: ไม่เคย
 sc-stats-updating = กำลังอัปเดต…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = เครื่องมือรวบรวมประโยค Common Voice ได้รวบรวมไปแล้ว { $sentenceCount } ประโยคใน { $languageCount } ภาษา!
 
 ## ADD
 
@@ -982,13 +1004,18 @@ sc-submit-err-add-source = กรุณาเพิ่มแหล่งที�
 sc-submit-title = เพิ่มประโยค
 sc-submit-select-language =
     .labelText = เลือกภาษา
+sc-submit-button =
+    .submitText = ส่ง
 
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = เพิ่มภาษาไม่ได้
+sc-add-lang-sec-label = เพิ่มภาษาที่คุณต้องการมีส่วนร่วม
+sc-add-lang-sec-button = เพิ่มภาษา
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = ยืนยัน
 
 ## LANGUAGE INFO
 
@@ -1004,6 +1031,16 @@ sc-add-lang-could-not-add = เพิ่มภาษาไม่ได้
 
 ## REVIEW
 
+sc-review-title = ตรวจทานประโยค
+sc-review-loading = กำลังโหลดประโยค...
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = ที่มา: { $sentenceSource }
+sc-review-form-button-reject = ปฏิเสธ
+sc-review-form-button-skip = ข้าม
+sc-review-form-button-approve = อนุมัติ
+sc-review-form-button-submit =
+    .submitText = เสร็จสิ้นการตรวจสอบ
 
 ## SETTINGS
 
