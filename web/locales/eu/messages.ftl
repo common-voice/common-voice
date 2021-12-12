@@ -312,6 +312,8 @@ profile-form-native-language =
     .label = Ama hizkuntza
 profile-form-additional-language =
     .label = Hizkuntza gehigarria
+profile-form-language =
+    .label = Hizkuntza
 profile-form-accent =
     .label = Azentua
 profile-form-age =
@@ -907,6 +909,10 @@ contribution-varying-pronunciations-example-2-explanation = [Euskalkien ahoskera
 contribution-background-noise-title = Atzealdeko zarata
 contribution-background-noise-description = Ikasketa automatikoko algoritmoek askotariko atzealdeko zarata-motak kudeatzeko gai izatea nahi dugu, eta zarata handi samarrak ere onar daitezke, betiere hitz guzti-guztiak entzutea eragozten ez badute. Atzealdeko musika lasaia ondo dago; hitz guzti-guztiak entzutea galarazteko moduko bolumenean dagoen musika ez.
 contribution-background-noise-description-extended = Baztertu grabazioa etenak edo karraskak baditu eta ezin bada testu osoa entzun.
+contribution-background-noise-example-1-fixed-title = <strong>[Doministiku]</strong> Nahi duzuenean etorri <strong>[eztula]</strong> etxera.
+contribution-background-noise-example-2-fixed-title = Nahi duzuenean <strong>[eztula]</strong> etxera.
+contribution-background-noise-example-2-explanation = [Testuaren zati bat ez da entzuten]
+contribution-background-noise-example-3-fixed-title = <strong>[Karrask]</strong> duzuenean etorri <strong>[karrask]</strong> -txera.
 contribution-background-voices-title = Atzealdeko ahotsak
 contribution-background-voices-description = Atzealdeko zalaparta apal bat ondo dago, baina ez dugu ahots gehigarririk nahi, algoritmo batek testuan ez dauden hitzak identifika ez ditzan. Baztertu grabazioa testukoak ez diren hitzak entzun badaitezke. Normalean, telebista piztuta uzten denean edo gertuko elkarrizketa bat izaten denean gertatzen da hori.
 contribution-background-voices-description-extended = Baztertu grabazioa etenak edo karraskak baditu eta ezin bada testu osoa entzun.
@@ -927,6 +933,14 @@ see-less = <chevron></chevron>Ikusi gutxiago
 
 ## HEADER/FOOTER
 
+sc-header-home = Etxea
+sc-header-add = Gehitu
+sc-header-review = Berrikusi
+sc-header-rejected = Baztertutako esaldiak
+sc-header-my = Nire esaldiak
+sc-header-statistics = Estatistikak
+sc-header-profile = Profila
+sc-footer-discourse = Discourse
 
 ## HOME
 
@@ -939,6 +953,9 @@ see-less = <chevron></chevron>Ikusi gutxiago
 
 ## REJECTED
 
+sc-rejected-title = Baztertutako esaldiak
+sc-rejected-loading = Baztertutako esaldiak kargatzen…
+sc-rejected-none-found = Ez da baztertutako esaldirik aurkitu!
 
 ## STATS
 
@@ -951,9 +968,20 @@ see-less = <chevron></chevron>Ikusi gutxiago
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } zuk baztertuak
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Baztertutako esaldirik ez.
+        [one] Baztertutako esaldi 1.
+       *[other] Baztertutako { $rejectedSentences } esaldi.
+    }
 
 ## LOGIN
 
@@ -966,6 +994,7 @@ see-less = <chevron></chevron>Ikusi gutxiago
 
 ## REVIEW
 
+sc-review-form-button-reject = Baztertu
 
 ## SETTINGS
 
