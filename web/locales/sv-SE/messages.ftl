@@ -986,6 +986,7 @@ contribution-misreadings-example-3-explanation = [Inspelning avbruten före slut
 contribution-misreadings-example-4-explanation = [Mer har spelats in än den obligatoriska texten]
 contribution-misreadings-example-8-explanation = [Felaktigt innehåll]
 contribution-varying-pronunciations-title = Varierande uttal
+contribution-varying-pronunciations-description = Var försiktig innan du avvisar ett klipp med motiveringen att läsaren har uttalat ett ord fel, har lagt betoningen på fel ställe eller uppenbarligen har ignorerat ett frågetecken. Det finns en mängd olika uttal som används runt om i världen, av vilka du kanske inte har hört några i ditt område. Vänligen ge en marginal för uppskattning för dem som kanske talar annorlunda än du.
 contribution-background-noise-title = Bakgrundsbrus
 contribution-background-noise-example-2-explanation = [Delar av texten kan inte höras]
 contribution-background-voices-title = Bakgrundsröster
