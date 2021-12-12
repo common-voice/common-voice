@@ -944,12 +944,17 @@ sc-footer-discourse = Discourse
 
 ## HOME
 
+sc-home-collect-title = Bildu esaldiak
+sc-home-review-title = Berrikusi esaldiak
 
 ## HOW-TO
 
+sc-howto-addsen-title = Gehitu esaldi berriak
+sc-howto-review-title = Berrikusi esaldiak
 
 ## MY SENTENCES
 
+sc-my-title = Nire esaldiak
 sc-my-no-sentences = Ez da esaldirik aurkitu!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
