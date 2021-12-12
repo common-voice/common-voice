@@ -1021,22 +1021,41 @@ sc-logout-button = Dalje
 
 ## HOW-TO
 
-sc-howto-review-criteria-6 = Nëse ju mbarohen fjalitë për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
-sc-howto-findpd-title = Gjetje fjalish ekzistuese nën Përkatësi Publike
+sc-howto-review-criteria-6 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
+sc-howto-findpd-title = Gjetje togfjalëshash  ekzistues nën Përkatësi Publike
 sc-howto-findpd-subtitle = Kërkoni për ta në Internet
-sc-howto-findpd-text-2 = Mbani mend se na duhet leje për t’i botuar këto fjali, ndaj sigurohuni përherë se teksti gjenden nën <wikipediaLink>përkatësi publike</wikipediaLink>. Nëse për këtë nuk ka pohim shprehimisht, lidhuni me personin të cilit i përket teksti dhe kërkojini nëse dëshiron ta japë tekstin e vet nën Përkatësi Publike. Nëse dëshiron, ndihmojini te procesi i <cc0WaiverLink>Marrëveshjes së Kontributeve</cc0WaiverLink>. Nëse s’duan të kontribuojnë me tekstin, atëherë s’ju lejohet të përdorni atë tekst.
-sc-howto-findpd-tips = Ja disa ndihmëza se si të gjenden fjali:
+sc-howto-findpd-text-2 = Mbani mend se na duhet leje për t’i botuar këto togfjalësha, ndaj sigurohuni përherë se teksti gjenden nën <wikipediaLink>përkatësi publike</wikipediaLink>. Nëse për këtë nuk ka pohim shprehimisht, lidhuni me personin të cilit i përket teksti dhe kërkojini nëse dëshiron ta japë tekstin e vet nën Përkatësi Publike. Nëse dëshiron, ndihmojini te procesi i <cc0WaiverLink>Marrëveshjes së Kontributeve</cc0WaiverLink>. Nëse s’duan të kontribuojnë me tekstin, atëherë s’ju lejohet të përdorni atë tekst.
+sc-howto-findpd-tips = Ja disa ndihmëza se si të gjenden togfjalësha:
 sc-howto-findpd-tips-1 = Burimet më të mira ku mund të shihni janë podcast-et, transkriptimet, skenarë filmash dhe gjithçka që mundet të përmbajë biseda të përditshme.
-sc-howto-findpd-tips-2 = Proces-verbalet qeveritare, librat dhe artikujt janë gjithashtu të përshtatshëm, por ngaqë teksti në to priret të jetë pak më tepër formal, përfaqësojnë përparësi më të pakët.
+sc-howto-findpd-tips-2 = Proces-verbalet qeveritare, librat dhe artikujt janë gjithashtu të përshtatshëm, por ngaqë teksti në to priret të jetë pak më tepër formal, përfaqësojnë përparësi më të ulët.
 sc-howto-findpd-tips-3 = Mjerisht, s’mundemi ende të përdorim artikuj nga Wikimedia. Ndaj mos kopjoni gjë prej andej.
 sc-howto-findpd-subtitle-2 = Bashkëpunoni me ente apo individë vendorë
 sc-howto-findpd-partner-1 = Ka mjaft ente publike që mund të duan të bashkëpunojnë dhe kanë tashmë plot tekst që mund ta dhurojnë si nën përkatësi publike. Lidhuni me universitete vendore, pushtete dhe ente të burimit të hapët, për të biseduar rreth projektit dhe për t’u kërkuar ndihmë.
+sc-howto-findpd-partner-2 = Mund t’ju ndihmojnë specialistë të gjuhësisë gjithashtu, provoni të lidheni me universitete vendore të gjuhësisë (mësues dhe nxënës) dhe shihni nëse mund t’ju ndihmojnë të grumbulloni një grup të larmishëm togfjalëshash në gjuhën tuaj.
 
 ## MY SENTENCES
 
+sc-my-title = Togfjalëshat e Mi
+sc-my-description = Kjo faqe ju jep një përmbledhje të krejt togfjalëshave që keni parashtruar. Mundeni edhe të fshini, sipas nevojës, togfjalësha të parashtruar tashmë, duke i vënë shenjë kutizës në krah dhe duke klikuar mbi “Fshije”, në fund. Ju lutemi, hiqni togfjalësh vetëm nëse është absolutisht e nevojshme, për shembull, nëse vutë re më pas se një togfjalësh është nën të drejta kopjimi.
+sc-my-loading = Po ngarkohen togfjalëshat tuaj…
+sc-my-err-fetching = Gabim teksa silleshin togfjalëshat tuaj. Ju lutemi, riprovoni.
+sc-my-no-sentences = S’u gjetën togfjalësha!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Parashtrim: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Burim:  { $source }
+sc-my-delete = Fshiji togfjalëshat e përzgjedhur
+sc-my-deleting = Po fshihen togfjalëshat e përzgjedhur…
+sc-my-err-failed-delete = S’u arrit të fshihen togfjalëshat e përzgjedhur… Ju lutemi, riprovoni!
 
 ## REJECTED
 
+sc-rejected-title = Togfjalësha të Hedhur Poshtë
+sc-rejected-loading = Po ngarkohen togfjalëshat e hedhur poshtë…
+sc-rejected-err-fetching = Gabim teksa silleshin togfjalëshat e hedhur poshtë. Ju lutemi, riprovoni.
+sc-rejected-none-found = S’u gjetën togfjalësha të hedhur poshtë!
 
 ## STATS
 
