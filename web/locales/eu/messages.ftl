@@ -568,6 +568,7 @@ subscribe = Harpidetu
 get-started-speech = Ikasi hizketaren ezagutzari buruz
 other-datasets = Beste ahots datu-sortak
 feedback-q = Zerbait komentatu nahi diguzu?
+community-playbook = Komunitatearen eskuliburua
 data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 ordu inguruko corpusa da, LibriVox proiektuko audio-liburuak ingelesez irakurrita.
 data-other-ted-name = TED-LIUM corpusa
 data-other-ted-description = TED-LIUM corpusa, TED webguneko hitzaldietako audioetatik eta transkripzioetatik sortua da.
@@ -841,6 +842,7 @@ download-request-button = Deskargatu
 download-request-title = { $created }
 download-request-refresh-button = Freskatu
 download-request-modal-title = Deskarga estekak
+download-request-metadata-link = Esaldiaren testua
 
 ## Landing
 
@@ -866,6 +868,7 @@ demo-account = Kontua
 
 ## Demo Contribute
 
+demo-listen-subtitle = Laguntzeko prest?
 
 ## Demo Dashboard
 
@@ -934,6 +937,7 @@ see-less = <chevron></chevron>Ikusi gutxiago
 ## HEADER/FOOTER
 
 sc-header-home = Etxea
+sc-header-how-to = Nola
 sc-header-add = Gehitu
 sc-header-review = Berrikusi
 sc-header-rejected = Baztertutako esaldiak
@@ -941,10 +945,18 @@ sc-header-my = Nire esaldiak
 sc-header-statistics = Estatistikak
 sc-header-profile = Profila
 sc-footer-discourse = Discourse
+sc-footer-translate = Itzuli orrialde hau
+sc-footer-privacy = Pribatutasuna
+sc-footer-terms = Baldintzak
+sc-footer-cookies = Cookieak
+sc-login-signup-button = Hasi saioa / Eman izena
+sc-logout-button = Amaitu saioa
 
 ## HOME
 
+sc-home-title = Ongi etorri Common Voiceko esaldi biltzailera
 sc-home-collect-title = Bildu esaldiak
+sc-home-collect-text = Lagun gaitzazu jabetza publikoan dauden esaldiak idatziz edo bilduz.
 sc-home-review-title = Berrikusi esaldiak
 
 ## HOW-TO
