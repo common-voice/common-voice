@@ -1059,9 +1059,31 @@ sc-rejected-none-found = S’u gjetën togfjalësha të hedhur poshtë!
 
 ## STATS
 
+sc-stats-title = Statistika
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Përditësimi i Fundit Më: { $lastUpdate }
+sc-stats-last-update-never = Përditësimi i Fundit: kurrë
+sc-stats-updating = Po përditësohet…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Grumbulluesi Common Voice i Togfjalëshave ka grumbulluar { $sentenceCount } togfjalësha në { $languageCount } gjuhë!
 
 ## ADD
 
+sc-submit-err-select-lang = Ju lutemi, përzgjidhni një gjuhë.
+sc-submit-err-add-sentences = Ju lutemi, shtoni togfjalësha.
+sc-submit-err-add-source = Ju lutemi, shtoni një burim.
+sc-submit-err-confirm-pd = Ju lutemi, ripohoni se këto togfjalësha gjenden nën përkatësi publike.
+sc-submit-prompt =
+    .message = S’u parashtruan togfjalëshat, jeni i sigurt se doni të iket?
+sc-submit-title = Shtoni Togfjalësha
+sc-submit-select-language =
+    .labelText = Përzgjidhni Gjuhë
+sc-submit-add-sentences = Shtoni togfjalësha nën <wikipediaLink>përkatësi publike</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Një togfjalësh për rresht
 
 ## ADD LANGUAGE
 
