@@ -1226,6 +1226,8 @@ sc-criteria-make-sure = Sigurohuni se togfjalëshi plotëson kushtet vijuese:
 sc-criteria-item-1 = Togfjalëshi duhet shkruar si duhet.
 sc-criteria-item-2 = Togfjalëshi duhet të jetë i saktë gramatikisht.
 sc-criteria-item-3 = Togfjalëshi duhet të jetë i shqiptueshëm.
+sc-criteria-item-4 = Nëse togfjalëshi plotëson kushtet, klikoni butonin “Miratojeni” në të djathtë.
+sc-criteria-item-5-2 = Nëse togfjalëshi nuk pajtohet me kriteret më sipër, klikoni mbi butonin “Hidhe poshtë” në të djathtë. Nëse jeni i pasigurt për togfjalëshin, mundeni edhe ta anashkaloni dhe të vazhdoni me pasuesin.
 
 ## REVIEW
 
