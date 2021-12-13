@@ -1172,15 +1172,60 @@ sc-lang-info-in-review =
         [one] 1 togfjalësh në shqyrtim.
        *[other] { $totalInReview } togfjalësha në shqyrtim.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Pa togfjalësha të lënë për ju për shqyrtim.
+        [one] 1 togfjalësh lënë për ju për shqyrtim.
+       *[other] { $unreviewedSentencesByYou } togfjalësha të lënë për ju për shqyrtim.
+    }
+sc-lang-info-review-now = <reviewLink>Shqyrtojini tani!</reviewLink>
+sc-lang-info-add-more = <addLink>Shtoni më tepër togfjalësha tani!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Pa togfjalësha të vlerësuar.
+        [one] 1 togfjalësh i vlerësuar.
+       *[other] { $validatedSentences } togfjalësha të vlerësuar.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Pa togfjalësha të hedhur poshtë.
+        [one] 1 togfjalësh i hedhur poshtë.
+       *[other] { $rejectedSentences } togfjalësha të hedhur poshtë.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Dështoi hyrja
+sc-login-err-try-again = Ju lutemi, riprovoni.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = S’u hoq dot gjuhë: gjuha s’u gjet
+sc-personal-err-remove = S’u hoq dot gjuhë
+sc-personal-your-languages = Gjuhët tuaja:
+sc-personal-remove-button = hiqe
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } shtuar nga ju
+sc-personal-not-added = S’keni shtuar ende ndonjë gjuhë.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Kritere Shqyrtimi
+sc-criteria-title = Kritere Shqyrtimi
+sc-criteria-make-sure = Sigurohuni se togfjalëshi plotëson kushtet vijuese:
+sc-criteria-item-1 = Togfjalëshi duhet shkruar si duhet.
+sc-criteria-item-2 = Togfjalëshi duhet të jetë i saktë gramatikisht.
+sc-criteria-item-3 = Togfjalëshi duhet të jetë i shqiptueshëm.
 
 ## REVIEW
 
