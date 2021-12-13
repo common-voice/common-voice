@@ -1084,6 +1084,12 @@ sc-submit-select-language =
 sc-submit-add-sentences = Shtoni togfjalësha nën <wikipediaLink>përkatësi publike</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Një togfjalësh për rresht
+sc-submit-from-where = Prej nga vijnë këto togfjalësha <wikipediaLink>nën përkatësi publike</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Nëse jeni të pasigurt si t’i atribuoni, lexoni “How-to” tonë
+sc-submit-confirm = Ripohoj se këto togfjalësha janë nën <wikipediaLink>përkatësi publike</wikipediaLink> dhe kam leje t’i ngarkoj.
+sc-submit-button =
+    .submitText = Parashtroje
 
 ## ADD LANGUAGE
 
