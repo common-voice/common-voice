@@ -1090,9 +1090,15 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm = Ripohoj se këto togfjalësha janë nën <wikipediaLink>përkatësi publike</wikipediaLink> dhe kam leje t’i ngarkoj.
 sc-submit-button =
     .submitText = Parashtroje
+sc-submit-filtered = Togfjalësha të filtruar, për shkak mosplotësimi domosdoshmërish (ju lutemi, versionet e ndrequr parashtrojini si togfjalësha të rinj):
+sc-submit-guidelines = Ju lutemi, shihni <howToLink>udhëzimet</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = S’u shtua dot gjuhë
+sc-add-lang-sec-label = Shtoni një gjuhë në të cilën doni të jepni ndihmesë
+sc-add-lang-sec-button = Shtoni Gjuhën
+sc-add-err-unexpected = Përgjigje e papritur e kthyer prej shërbyesit
 
 ## ADD SENTENCES CONFIRMATION
 
