@@ -367,6 +367,7 @@ skip-submission-note = Shënim: Prapë do të duhet të përzgjidhni mes Flisni 
 off = Off
 on = On
 help-accent = Ju duhet ca ndihmë me thekset?
+help-accent-explanation = Theksi është mënyra se si shqiptoni fjalët. Mund të formohet nga ku keni jetuar, cilat gjuhë të tjera flisni dhe plot faktorë të tjerë. Këtu mund të jepni çfarëdo hollësie që mendoni se ka vend.
 
 ## Profile - Email
 
@@ -1018,6 +1019,7 @@ sc-logout-button = Dalje
 
 ## HOME
 
+sc-home-title = Mirë se vini te Common Voice Sentence Collector
 
 ## HOW-TO
 
@@ -1246,6 +1248,19 @@ sc-review-form-source = Burim: { $sentenceSource }
 sc-review-form-button-reject = Hidhe poshtë
 sc-review-form-button-skip = Anashkaloje
 sc-review-form-button-approve = Miratoje
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = Mund të përdorni edhe Shkurtore Tastiere: Y për Miratim, N për Hedhje Poshtë, S për Anashkalim
+sc-review-form-button-submit =
+    .submitText = Përfundojeni Shqyrtimin
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Pa togfjalësha të shqyrtuar.
+        [one] 1 togfjalësh i shqyrtuar. Faleminderit!
+       *[other] { $sentences } togfjalësha të shqyrtuar. Faleminderit!
+    }
+sc-review-form-review-failure = Shqyrtimi s’u ruajt dot. Ju lutemi, riprovoni më vonë.
 sc-review-link = Shqyrtojeni
 
 ## SETTINGS
@@ -1253,6 +1268,15 @@ sc-review-link = Shqyrtojeni
 sc-settings-title = Rregullime
 sc-settings-ui-language = Gjuhë Ndërfaqeje
 sc-settings-language-translated-warning = Faqet për këtë gjuhë mund të mos jenë përkthyer plotësisht. Mund të ndihmoni me përkthimin <pontoonLinkLink>në Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = Riktheni si të pashqyrtuara togfjalëshat e anashkaluar
+sc-settings-skipped-decription = Teksa shqyrtonit, keni anashkaluar togfjalësha. Rikthimi si të pashqyrtuara i togfjalëshave të anashkaluar do t’i rishfaqë krejt togfjalëshat e anashkaluar. Kjo nuk varet nga gjuha.
+sc-settings-show-all-button = Rishfaq krejt togfjalëshat e anashkaluar
+sc-settings-failed = S’u ndryshuan dot rregullimet. Ju lutemi, riprovoni.
+# VALIDATION
+sc-validation-number-of-words = Togfjalëshat duhet të përmbajnë mes 1 dhe 14 fjalë
+sc-validation-no-numbers = Togfjalëshi s’duhet të përmbajë numra
+sc-validation-no-symbols = Togfjalëshi s’duhet të përmbajë simbole
+sc-validation-no-abbreviations = Togfjalëshi s’duhet të përmbajë shkurtime
 
 # [/SentenceCollector]
 
