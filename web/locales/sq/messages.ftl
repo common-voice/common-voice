@@ -1228,9 +1228,24 @@ sc-criteria-item-2 = Togfjalëshi duhet të jetë i saktë gramatikisht.
 sc-criteria-item-3 = Togfjalëshi duhet të jetë i shqiptueshëm.
 sc-criteria-item-4 = Nëse togfjalëshi plotëson kushtet, klikoni butonin “Miratojeni” në të djathtë.
 sc-criteria-item-5-2 = Nëse togfjalëshi nuk pajtohet me kriteret më sipër, klikoni mbi butonin “Hidhe poshtë” në të djathtë. Nëse jeni i pasigurt për togfjalëshin, mundeni edhe ta anashkaloni dhe të vazhdoni me pasuesin.
+sc-criteria-item-6 = Nëse mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër togfjalësha!
 
 ## REVIEW
 
+sc-review-lang-not-selected = S’keni përzgjedhur ndonjë gjuhë. Ju lutemi, kaloni te <profileLink>Profili</profileLink> juaj, që të përzgjidhni gjuhë.
+sc-review-title = Shqyrtoni Togfjalësha
+sc-review-loading = Po ngarkohen togfjalësha…
+sc-review-select-language = Ju lutemi, përzgjidhni një gjuhë që të shqyrtoni togfjalësha.
+sc-review-no-sentences = S’ka togfjalësha për shqyrtim. <addLink>Shtoni më tepër togfjalësha tani!</addLink>
+sc-review-form-prompt =
+    .message = Togfjalësha të shqyrtuar jo të parashtruar, jeni i sigurt?
+sc-review-form-usage = Fërkojeni për djathtas që ta miratoni togfjalëshin. Fërkojeni për majtas që ta hidhni poshtë. Fërkojeni për sipër që ta anashkaloni. <strong>Mos harroni të parashtroni shqyrtimin tuaj!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Burim: { $sentenceSource }
+sc-review-form-button-reject = Hidhe poshtë
+sc-review-form-button-skip = Anashkaloje
+sc-review-form-button-approve = Miratoje
 sc-review-link = Shqyrtojeni
 
 ## SETTINGS
