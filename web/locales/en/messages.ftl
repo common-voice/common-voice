@@ -490,12 +490,27 @@ faq-search-for-answers =
 
 ## ABOUT US
 about-title = Why Common Voice?
-about-subtitle = Common Voice is part of Mozilla's initiative to help teach machines how real people speak. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
-about-header-description = Both of these projects are part of our efforts to bridge the digital speech divide. Voice recognition technologies bring a human dimension to our devices, but developers need an enormous amount of voice data to build them. Currently, most of that data is expensive and proprietary.
-about-header-description-2 = This project is an effort to bridge the digital speech divide. Voice recognition technologies bring a human dimension to our devices, but developers need an enormous amount of voice data to build them. Currently, most of that data is expensive and proprietary.
-    We want to make voice data freely and publicly available, and make sure the data represents the diversity of real people. Together we can make voice recognition better for everyone.
-how-does-it-work-title = How does it work?
+about-header-description-v2 = <p>Common Voice is a publicly available voice dataset, powered by the voices of volunteer contributors around the world. People who want to build voice applications can use the dataset to train machine learning models.</p>
+    <p>At present, most voice datasets are owned by companies, which stifles innovation. Voice datasets also over-represent white, English-speaking males. This means that voice-enabled technology doesn’t work at all for many languages, and where it does work, it may not perform equally well for everyone. We want to change that by mobilising people everywhere to share their voice.</p>
+
+how-does-it-work-title-v2 = How does Common Voice work?
 how-does-it-work-text = We’re crowdsourcing an open-source dataset of voices. Donate your voice, validate the accuracy of other people’s clips, make the dataset better for everyone.
+
+## How does it work section
+about-language-req-subtitle = Someone asks for a language to be added.
+about-localization-title = Website Localization
+about-localization-subtitle = The website text is translated into that language.
+about-sentence-collection-title = Sentence Collection
+about-sentence-collection-subtitle = Sentences are collected for people to read aloud.
+about-new-lang-title = New Language Launch
+about-new-lang-subtitle = We launch the Common Voice site in this language.
+about-voice-contrib-title = Voice Contribution
+about-voice-contrib-subtitle = People come and contribute their voices.
+about-voice-validation-title = Voice Validation
+about-voice-validation-subtitle = Other people validate those voice clips.
+about-dataset-release-title = Dataset Release
+about-dataset-release-subtitle = We release the dataset every 3 months.
+
 
 about-speak = Speak
 about-speak-text = Contributors record voice clips by reading from a bank of donated sentences.
@@ -529,6 +544,37 @@ about-nav-why-common-voice = Why ?
 about-nav-how-it-works = How ?
 about-nav-partners = Partners
 about-nav-get-involved = Get involved
+
+
+
+  {
+    title: 'request-language-title',
+    subtitle: 'about-language-req-subtitle',
+  },
+  {
+    title: 'about-localization-title',
+    subtitle: 'about-localization-subtitle',
+  },
+  {
+    title: 'about-sentence-collection-title',
+    subtitle: 'about-sentence-collection-subtitle',
+  },
+  {
+    title: 'about-new-lang-title',
+    subtitle: 'about-new-lang-subtitle',
+  },
+  {
+    title: 'about-voice-contrib-title',
+    subtitle: 'about-voice-contrib-subtitle',
+  },
+  {
+    title: 'about-voice-validation-title',
+    subtitle: 'about-voice-validation-subtitle',
+  },
+  {
+    title: 'about-dataset-release-title',
+    subtitle: 'about-dataset-release-subtitle'
+  },
 
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence
