@@ -1120,9 +1120,58 @@ sc-add-lang-process-notice = Nëse gjuha juaj nuk duket këtu, mund të kërkoni
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = S’u parashtruan togfjalëshat, jeni i sigurt se doni të iket?
+sc-confirm-sentences-title = Ripohoni Togfjalësha të Rinj
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] S’u gjetën togfjalësha.
+        [one] U gjet 1 togfjalësh.
+       *[other] u gjetën { $countOfSentences } togfjalësha.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } hedhur poshtë nga ju
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] S’ka togfjalësh tashmë të shqyrtuar.
+        [one] 1 togfjalësh është shqyrtuar tashmë. Ju lumtë!
+       *[other] { $countOfReviewed } togfjalësha janë shqyrtuar tashmë. Ju lumtë!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] S’ka togfjalësh gati për parashtrim!
+        [one] 1 togfjalësh gati për parashtrim!
+       *[other] { $readyCount } togfjalësha gati për parashtrim!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } togfjalësha janë të pashqyrtuara. Nëse doni, mundeni edhe të shqyrtoni togfjalëshat tuaj tani, para parashtrimit të tyre.
+sc-confirm-button-text = Ripohojeni
+sc-confirm-uploading = Togfjalëshat po ngarkohen. Kjo mund të dojë disa minuta, në varësi të numrit të togfjalëshave të shtuar. Ju lutemi, mos e mbyllni këtë sajt.
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Pa togfjalësha të plotë.
+        [one] 1 togfjalësh i plotë.
+       *[other] { $totalSentences } togfjalësha të plotë.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Pa togfjalësh në shqyrtim.
+        [one] 1 togfjalësh në shqyrtim.
+       *[other] { $totalInReview } togfjalësha në shqyrtim.
+    }
 
 ## LOGIN
 
