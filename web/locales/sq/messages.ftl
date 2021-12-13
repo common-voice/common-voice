@@ -1099,6 +1099,24 @@ sc-add-lang-could-not-add = S’u shtua dot gjuhë
 sc-add-lang-sec-label = Shtoni një gjuhë në të cilën doni të jepni ndihmesë
 sc-add-lang-sec-button = Shtoni Gjuhën
 sc-add-err-unexpected = Përgjigje e papritur e kthyer prej shërbyesit
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Togfjalësha të parashtruar. { $duplicates } togfjalësha u hodhën tej si të përsëdytur.
+        [one] Togfjalësha të parashtruar. { $duplicates } togfjalësh u hodh tej si i përsëdytur.
+       *[other] Togfjalësha të parashtruar. { $duplicates } togfjalësha u hodhën tej si të përsëdytur.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Pa togfjalësh të dështuar
+        [one] 1 togfjalësh i dështuar
+       *[other] { $sentences } togfjalësha të dështuar
+    }
+sc-add-err-submission = Gabim Parashtrimi
+sc-add-lang-process-notice = Nëse gjuha juaj nuk duket këtu, mund të kërkoni shtimin e saj përmes <languageProcessLink>këtij procesi</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
