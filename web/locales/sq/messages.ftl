@@ -1020,9 +1020,18 @@ sc-logout-button = Dalje
 ## HOME
 
 sc-home-title = Mirë se vini te Common Voice Sentence Collector
+sc-home-intro = Grumbulluesi i Togfjalëshave është pjesë e <commonVoiceLink>Common Voice</commonVoiceLink>. U lejon kontribuesve të grumbullojnë dhe vlerësojnë togfjalësha të krijuar nga bashkësia. Këtë mjet mund ta përdorni edhe për të importuar dhe pastruar korpus të vogël deri në të mesëm nën përkatësi publike që keni gjetur ose grumbulluar. Krejt togfjalëshat lypset të jenën nën Përkatësi Publike. Togfjalëshat e miratuar eksportohen çdo javë në depon e Common Voice-it dhe hidhen në qarkullim te sajti Common Voice gjatë çdo përditësimi të ri.
+sc-home-collect-title = Mblidhni togfjalësha
+sc-home-collect-text = Ndihmonani duke shkruar dhe mbledhur togfjalësha nën Përkatësi Publike.
+sc-home-review-title = Shqyrtoni togfjalësha
+sc-home-review-text = Ndihmonani duke shqyrtuar se togfjalëshat janë në pajtim me udhëzimet.
 
 ## HOW-TO
 
+sc-howto-title = Si të
+sc-howto-addlang-title = Shtim gjuhësh për t’u marrë me to
+sc-howto-addlang-text = Pasi të keni bërë hyrjen, mund të përzgjidhni gjuhët tuaja që nga ndarja e profilit.
+sc-howto-addsen-title = Shtoni togfjalësha të rinj
 sc-howto-review-criteria-6 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
 sc-howto-findpd-title = Gjetje togfjalëshash  ekzistues nën Përkatësi Publike
 sc-howto-findpd-subtitle = Kërkoni për ta në Internet
