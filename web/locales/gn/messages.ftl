@@ -1060,10 +1060,15 @@ sc-rejected-none-found = ¡Ndojejuhúi ñe’ẽrysýi mboykepyre!
 
 ## STATS
 
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Ñembohekopyahu: { $lastUpdate }
+sc-stats-last-update-never = Ñembohekopyahu: araka’eve
 sc-stats-updating = Hekopyahuhína…
 
 ## ADD
 
+sc-submit-err-select-lang = Ikatúpa eiporavo peteĩ ñe’ẽ.
 sc-submit-err-add-sentences = Embojuajukuaa ñe’ẽjuaju.
 sc-submit-err-add-source = Embojuaju teñoiha.
 sc-submit-title = Embojuaju ñe’ẽjuaju
@@ -1082,6 +1087,18 @@ sc-add-err-submission = Ojavy ñemondo
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Emoneĩ ñe’ẽjuaju pyahu
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Ndojejuhúi ñe’ẽjuaju.
+        [one] Ojejuhu 1 ñe’ẽjuaju.
+       *[other] { $countOfSentences } ojejuhu ñe’ẽjuaju.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } nde remboykepyre
 sc-confirm-button-text = Moneĩ
 
 ## LANGUAGE INFO
