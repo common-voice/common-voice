@@ -1033,6 +1033,7 @@ sc-howto-review-title = Ehechajey ñe’ẽjuaju
 sc-howto-review-criteria-1 = Pe ñe’ẽjuaju ojehaiva’erã hekopete.
 sc-howto-review-criteria-2 = Pe ñe’ẽjuaju hekopete ñe’ẽtekuaa rupi.
 sc-howto-review-criteria-3 = Pe ñe’ẽjuaju oje’ekuaava’erã.
+sc-howto-review-criteria-6 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃ua, ¡orepytyvõ rombyatyvévo ñe’ẽjuaju!
 sc-howto-findpd-subtitle = Ehekava’erã ñandutípe
 sc-howto-findpd-tips = Ko’ág̃a oñeñemoñe’ẽta ejuhukuaa hag̃ua ñe’ẽrysýi:
 
@@ -1040,7 +1041,11 @@ sc-howto-findpd-tips = Ko’ág̃a oñeñemoñe’ẽta ejuhukuaa hag̃ua ñe’
 
 sc-my-title = Che ñe’ẽjuaju
 sc-my-loading = Emyanyhẽ ne ñe’ẽjuaju…
+sc-my-err-fetching = Ojavy ehekakuévo ñe'ẽjuaju. Eha’ãjey ag̃amieve.
 sc-my-no-sentences = ¡Ndojejuhúi ñe’ẽrysýi!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Ñemomirĩ: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Teñoiha:  { $source }
