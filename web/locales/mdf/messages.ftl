@@ -835,6 +835,7 @@ download-size = Оцюлма
 download-selected = Сявф
 download-start = Профильста таргаф даннайхне
 download-request = Анамс/сявомс сёрматфнень
+download-requests = Сёрматфонь таргамань ингольдень васттне
 download-request-button = Таргамс
 download-request-title = { $created }
 download-request-refresh-button = Одкстоптомс
@@ -930,6 +931,14 @@ see-less = <chevron></chevron>Няемс сяда аф лама
 
 ## HEADER/FOOTER
 
+sc-header-home = Куду
+sc-header-how-to = Кода
+sc-header-add = Поладомс
+sc-header-review = Семботь ваномац
+sc-header-rejected = Мрдафтф валрисьмот/азфт
+sc-header-my = Монь валрисьмоне/азфоне
+sc-header-statistics = Лувомась
+sc-header-profile = Профильсь
 
 ## HOME
 
