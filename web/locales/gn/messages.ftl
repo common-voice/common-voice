@@ -1103,6 +1103,14 @@ sc-confirm-button-text = Moneĩ
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Ndaiporipái ñe’ẽjuaju.
+        [one] 1 ñe’ẽjuajúnte.
+       *[other] { $totalSentences } ñe’ẽjuaju retakue.
+    }
 sc-lang-info-review-now = <reviewLink>¡Ehechajey ko’ág̃a!</reviewLink>
 sc-lang-info-add-more = <addLink>¡Embojuajuve ñe’ẽjuaju ko’ág̃a!</addLink>
 
@@ -1125,6 +1133,7 @@ sc-personal-added-by-you = { $sentences } nde embojuajupyre
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-3 = Pe ñe’ẽjuaju oje’ekuaava’erã.
 
 ## REVIEW
 
