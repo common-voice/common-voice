@@ -939,6 +939,11 @@ sc-header-rejected = Мрдафтф валрисьмот/азфт
 sc-header-my = Монь валрисьмоне/азфоне
 sc-header-statistics = Лувомась
 sc-header-profile = Профильсь
+sc-footer-discourse = Корхтамать вятемац
+sc-footer-report-bugs = Пачфтемс эльбятькснень колга
+sc-footer-translate = Ётафтомс тя лопать/страницать
+sc-login-signup-button = Сувама вастсь
+sc-logout-button = Лисемс
 
 ## HOME
 
