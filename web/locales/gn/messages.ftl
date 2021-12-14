@@ -1028,6 +1028,7 @@ sc-howto-title = Mba’éichapa
 sc-howto-addlang-title = Embojuaju ñe’ẽ emba’apo hag̃ua
 sc-howto-addsen-title = Embojuaju ñe’ẽjuaju pyahu
 sc-howto-cite-title = Mba’éicha emombe’úta
+sc-howto-cite-item-1 = Emoingekuaa ñanduti renda, techapyrã, "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Ehechajey ñe’ẽjuaju
 sc-howto-review-criteria-1 = Pe ñe’ẽjuaju ojehaiva’erã hekopete.
 sc-howto-review-criteria-2 = Pe ñe’ẽjuaju hekopete ñe’ẽtekuaa rupi.
