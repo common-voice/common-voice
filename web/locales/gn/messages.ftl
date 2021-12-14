@@ -1156,6 +1156,7 @@ sc-review-link = Hechajey
 ## SETTINGS
 
 sc-settings-title = Ñemboheko
+sc-settings-ui-language = Jehechaha Ñe’ẽ
 sc-settings-reset-skipped = Erujey ñe’ẽjoaju hejapyre
 sc-settings-show-all-button = Ehechaukapa ñe’ẽjuaju ojehejerei pyahúva
 sc-settings-failed = Neremoambuekuaái ñembohekopyahu. Eha’ãjey ag̃ave.
