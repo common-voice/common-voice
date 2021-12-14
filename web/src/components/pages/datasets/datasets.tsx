@@ -4,7 +4,7 @@ import URLS from '../../../urls';
 import { LocaleLink, useLocale } from '../../locale-helpers';
 import { PlayOutlineIcon } from '../../ui/icons';
 import DatasetInfo from './dataset-info';
-import Subscribe from './subscribe';
+import Subscribe from '../../email-subscribe-block/subscribe';
 
 import Resources from './resources';
 import './datasets.css';
@@ -16,6 +16,7 @@ export default () => (
   <div className="datasets-content">
     <DatasetInfo />
     <Resources />
+    <Subscribe subscribeText="want-dataset-update" />
     <div className="mars-validate">
       <div>
         <img src={require('./images/mars.svg')} alt="" />

@@ -511,6 +511,7 @@ about-voice-validation-subtitle = Other people validate those voice clips.
 about-dataset-release-title = Dataset Release
 about-dataset-release-subtitle = We release the dataset every 3 months.
 
+about-subscribe-text = Want to stay in touch with Common Voice?
 
 about-speak = Speak
 about-speak-text = Contributors record voice clips by reading from a bank of donated sentences.

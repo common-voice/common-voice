@@ -962,6 +962,31 @@ export const TargetIcon = () => (
   </svg>
 );
 
+export const HexIcon = () => (
+  <svg
+    width="62"
+    height="68"
+    viewBox="0 0 62 68"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path d="M61 50.6443L31 67.1924L1 50.6443V17.5481L31 1L61 17.5481V50.6443Z" />
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M61 50.6443L31 67.1924L1 50.6443V17.5481L31 1L61 17.5481V50.6443Z"
+      stroke="black"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      opacity="0.5"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M54.816 45.6799L30.9998 58.6809L7.1836 45.6799L1.5 50.371L30.9998 66.6714L60.6599 50.371L54.816 45.6799Z"
+    />
+  </svg>
+);
+
 export const FirefoxColor = Icon(
   require('./icons/ff-color.svg'),
   'firefox-color'

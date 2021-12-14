@@ -1,10 +1,10 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import URLS from '../../../urls';
-import { LocaleLink } from '../../locale-helpers';
-import { ArrowLeft } from '../../ui/icons';
-import { Button, LabeledCheckbox, LabeledInput } from '../../ui/ui';
+import URLS from '../../urls';
+import { LocaleLink } from '../locale-helpers';
+import { ArrowLeft } from '../ui/icons';
+import { Button, LabeledCheckbox, LabeledInput } from '../ui/ui';
 import {
   SubscribeMapDispatchToProps,
   SubscribeMapStateToProps,
@@ -56,7 +56,7 @@ class Subscribe extends React.Component<SubscribeProps, State> {
   };
 
   render() {
-    const { account, demoMode } = this.props;
+    const { account, demoMode, subscribeText, light } = this.props;
     const { submitStatus } = this.state;
     const isEditable = submitStatus == null;
     const email = account ? account.email : this.state.email;
@@ -68,8 +68,8 @@ class Subscribe extends React.Component<SubscribeProps, State> {
     }
 
     return (
-      <div className="dataset-subscribe">
-        <Localized id="want-dataset-update">
+      <div className={`email-subscribe ${light ? 'light' : ''}`}>
+        <Localized id={subscribeText}>
           <h2 />
         </Localized>
         <div>
@@ -96,10 +96,9 @@ class Subscribe extends React.Component<SubscribeProps, State> {
               }>
               {!demoMode && (
                 <Localized id="subscribe">
-                  <span className="hidden-md-down" />
+                  <span />
                 </Localized>
               )}
-              <ArrowLeft className={demoMode ? '' : 'hidden-lg-up'} />
             </Button>
           </form>
           <LabeledCheckbox
