@@ -997,6 +997,8 @@ sc-my-deleting = Сайланган җөмләләр бетерелә…
 
 ## REJECTED
 
+sc-rejected-title = Кире кагылган җөмләләр
+sc-rejected-loading = Кире кагылган җөмләләр йөкләнә…
 
 ## STATS
 
