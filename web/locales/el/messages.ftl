@@ -1061,6 +1061,8 @@ sc-my-err-failed-delete = Αποτυχία διαγραφής επιλεγμέν
 
 ## REJECTED
 
+sc-rejected-title = Απορριφθείσες προτάσεις
+sc-rejected-loading = Φόρτωση απορριφθεισών προτάσεων…
 
 ## STATS
 
@@ -1136,6 +1138,14 @@ sc-lang-info-validated =
         [one] 1 επαληθευμένη πρόταση.
        *[other] { $validatedSentences } επαληθευμένες προτάσεις.
     }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Καμία απορριφθείσα πρόταση.
+        [one] 1 απορριφθείσα πρόταση.
+       *[other] { $rejectedSentences } απορριφθείσες προτάσεις.
+    }
 
 ## LOGIN
 
@@ -1185,8 +1195,11 @@ sc-review-link = Έλεγχος
 sc-settings-title = Ρυθμίσεις
 sc-settings-ui-language = Γλώσσα περιβάλλοντος
 sc-settings-failed = Δεν ήταν δυνατή η αλλαγή των ρυθμίσεων. Παρακαλούμε δοκιμάστε ξανά.
+# VALIDATION
+sc-validation-number-of-words = Η πρόταση πρέπει να περιέχει από 1 έως και 14 λέξεις.
 sc-validation-no-numbers = Η πρόταση δεν πρέπει να περιέχει αριθμούς
 sc-validation-no-symbols = Η πρόταση δεν πρέπει να περιέχει σύμβολα
+sc-validation-no-abbreviations = Η πρόταση δεν πρέπει να περιέχει συντομογραφίες
 
 # [/SentenceCollector]
 
