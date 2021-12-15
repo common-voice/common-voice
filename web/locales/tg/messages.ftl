@@ -198,7 +198,7 @@ content-license-text = Муҳтаво зери иҷозатномаи <licenseLi
 share-title = Ба мо кумак кунед, то дигаронеро пайдо кунем, ки садои худро пешкаш кунанд!
 share-text = Ба мошинҳо кумак расонед, ки чӣ гуна одамони воқеӣ гап мезананд, овози худро дар { $link } хайрия кунед
 link-copied = Пайванд нусха бардошта шуд
-back-top = Бозгашт ба аввал
+back-top = Бозгашт ба боло
 logout = Баромадан
 
 ## Home Page
@@ -277,7 +277,7 @@ shortcut-play-toggle-label = Пахш/Таваққуф
 
 ## Speak Shortcuts
 
-shortcut-record-toggle-label = Сабт кардан/Истодан
+shortcut-record-toggle-label = Сабт/Ист
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Клипро аз нав сабт кунед
 shortcut-discard-ongoing-recording = ESC
@@ -344,6 +344,7 @@ on = Фаъол
 
 browse-file-title = Бор кардани файли тасвирӣ
 connect-gravatar = Бо Gravatar пайваст шавед
+avatar-uploaded = Аватар бор карда шуд
 
 ## Profile - Email
 
@@ -387,6 +388,7 @@ about-nav-how-it-works = Чӣ тавр?
 about-nav-partners = Шарикон
 about-nav-get-involved = Ҳамроҳ шудан
 mycroft-title = Mycroft Ai
+mycroft-subtitle = Зеҳни сунъӣ
 
 ## Glossary
 
