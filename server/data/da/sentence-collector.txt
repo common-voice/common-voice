@@ -942,6 +942,7 @@ Den pranger i landets våben, giv mig den
 Den prøvesagkyndige kan dog bedømme kørslen som passager på ansøgerens motorcykel
 Den prøvesagkyndige skal bedømme, om ansøgeren kan udføre disse færdigheder i tilstrækkeligt omfang
 Den pågældende skal samtidig gøres bekendt med adgangen til domstolsprøvelse
+Den raskeste af søstrene tog jeg mig af
 Den rige enke henne i kælderen har sagt mig varme ord
 Den rose dr er gnavet af en orm
 Den sad som skønhedsblomst mellem andre blomster og dejligt grønt
@@ -1139,6 +1140,7 @@ Der var i en by to mænd, som begge havde selvsamme navn.
 Der var ikke et menneske på gaden.
 Der var ikke et træ, ikke en blomst
 Der var ingen beværtning, kun fri drikkevarer, hele dammen, om de kunne
+Der var ingen rude, der var kun et hul i væggen
 Der var ingen.
 Der var marked i staden
 Der var noget i kattens ansigt, som om den ville sige til fuglen
@@ -1345,6 +1347,7 @@ Det er vistnok løjtnantens, som bor deroppe.
 Det er vores fælles ansvar at passe på Danmark.
 Det faldt jeg på.
 Det fortalte alt sammen i vor tid degnen
+Det fortryd hende slet ikke, at hun vendte om, hun var bare ærgerlig
 Det fremgår videre, om prøven er bestået eller ikke er bestået
 Det frøs, så det knagede i isskorpen
 Det første hjerte, han kom igennem, var en dames.
@@ -1471,6 +1474,7 @@ Det påhviler regionsråd og kommunalbestyrelser at give oplysninger til Styrels
 Det rager ingen uden mig
 Det råbte en lille dreng og klappede i hænderne.
 Det sagde han til sig selv da han kom hjem i sin egen stue.
+Det sagde jeg nok
 Det sagde nu hver, når man spurgte dem
 Det sagde også de små og de store drenge
 Det sagde tante mille og kyssede mig
@@ -1617,6 +1621,7 @@ Det var han også.
 Det var hele tolv forestillinger med bevægelige figurer og med sang og tale
 Det var hendes behændighedskunst
 Det var hendes lyst at slå med pisken mellem jagthundene
+Det var hendes moder, som døde
 Det var her engang
 Det var i grunden en rar aften
 Det var i husets anliggende rejsen måtte gøres
@@ -1641,10 +1646,12 @@ Det var kun nogle timer siden
 Det var kældermanden, som kom så sent
 Det var kønne ord
 Det var ligesom det sorte dække ogsaa havde tilsløret dets øine
+Det var ligesom en violin
 Det var ligesom om den nyste rødt
 Det var længe inden han begyndte at se underlig ud.
 Det var marie grubbe
 Det var meget interessant at vide, mente moster
+Det var meget ubehageligt
 Det var midnat, metalsvinet rørte sig, han hørte, at det sagde ganske tydeligt.
 Det var min bedstemoder og ikke mig, du slog ihjel!
 Det var mor søren, færgekonen
@@ -1799,6 +1806,7 @@ Du er min digter, og det bliver du
 Du er så klog, sagde rensdyret
 Du er så tarvelig.
 Du er tidlig kommet i stadsklæderne i dag!
+Du er vel ved magt
 Du er vistnok en værre morgenbolle
 Du gode gud, jeg takker dig,at du igen har mættet mig
 Du gør mig ganske bedrøvet, sagde den lille gerda
@@ -1915,6 +1923,7 @@ En gammel kvægvogter boede på gården, det var det hele mandskab
 En gang til.
 En gravede et hul og kastede hele sin skæppe kartofler derned
 En grøn krans om det våde hår.
+En guds engel græd over hende
 En højst usædvanlig rejse.
 En institution kan afvise at modtage en person, som har valgt institutionen
 En kopi af behandlingsplanen skal udleveres til patienten, medmindre denne frabeder sig dette.
@@ -2150,6 +2159,7 @@ Gid at du havde
 Gid bare pengene vil slå til
 Gid du bare var langt borte
 Gid jeg aldrig få pisk om jeg lyver
+Gid jeg aldrig var født
 Gid jeg allerede lå på den øverste hylde!
 Gid jeg allerede lå på den øverste hylde!"
 Gid jeg i morgen kunne huske det, når jeg vågner.
@@ -2573,6 +2583,7 @@ Her var kulører at se
 Her vil jeg sætte mig i en krog!
 Herefter kan godkendelsen udvides til at omfatte øvrige kategorier
 Heri er altid en trøst
+Hernede skal man da ikke blive bedre i det selskab
 Herom talte jeg med tante
 Herr Charlot Dupont behagede, skrev "Le Figaro".
 Herr Emmanuelo bragte hende til Ro med Krøllejernet.
@@ -2694,6 +2705,7 @@ Hun kom dem ganske nær, floden drev båden lige ind imod land
 Hun kom i teatret, hun kom i logen
 Hun kom op til ham
 Hun kom sjældnere til stine, bragte hende ingen ny gave
+Hun kommer aldrig mere op
 Hun kommer om et øjeblik.
 Hun kunne huske, jeg fik den første tand og familieglæden herover
 Hun kunne ikke lade være at græde derved.
@@ -2938,6 +2950,7 @@ Hvor dog pigebarnet her ser mild og god ud
 Hvor dog verden er stor
 Hvor du er yndig
 Hvor du fortæller dejligt
+Hvor du har bedrøvet din moder
 Hvor du har været lykkelig
 Hvor er detog den lille skrubtudse kom og ytrede sin deltagelse
 Hvor er du dejlig
@@ -2970,6 +2983,7 @@ Hvor kunne du forlade et sådant sted?
 Hvor langt er der til tankstationen?
 Hvor længe siden er det, at hun gik bort
 Hvor længe skal det vare
+Hvor længtes hun efter ham
 Hvor mange gange i timen kører bussen?
 Hvor meget koster det at komme med færgen?
 Hvor rasler den prægtige silkekjortel
@@ -2990,6 +3004,7 @@ Hvordan man bliver gode venner igen
 Hvordan synes De, det gik.
 Hvordan var det de så ud!
 Hvorfor beholder de alle deres grene hvor kører de hendet ved vi
+Hvorfor blev det hende forundt
 Hvorfor da sådan forskel
 Hvorfor du kommer her, ved jeg
 Hvorfor er der ingen brandinstrukser?
@@ -3228,10 +3243,12 @@ Ja, det pikkede inden for skallen
 Ja, det skal stort hjælpe
 Ja, det skal vi nok få at vide!
 Ja, det tror jeg nok
+Ja, det tænkte jeg nok
 Ja, det var da jeg var en lille dreng!
 Ja, det var dejligt
 Ja, det var, i grunden, ganske morsomme tider
 Ja, du forstår det!
+Ja, en herlighed var det
 Ja, er det ikke et smukt stykke tøj!
 Ja, forstår vi dig ikke, hvem skulle så forstå dig
 Ja, gør du det
@@ -3440,6 +3457,7 @@ Jeg overlevede dem alle
 Jeg rappede og snappede, men det hjalp ikke
 Jeg sagde tak og løb af sted og ville se
 Jeg sagde til ham, at du skulle hente noget i juicebaren.
+Jeg sang ved hendes grav
 Jeg sank ligestraks til bunds.
 Jeg ser en klar støtte til iværksætterpotentialet som en løsning.
 Jeg ser og hører jo!
@@ -4053,6 +4071,7 @@ Men katten brød sig ikke om sengetæppet
 Men kay, lille kay
 Men kejseren var endnu ikke død
 Men kisten derhenne må du tage med dig.
+Men kommer hun aldrig mere op spurgte den lille pige
 Men konen tog mig hjem igen, betragtede mig ret inderligt, mildt og venligt.
 Men kragen spurgte den lille gerda
 Men kun et øjeblik, så gjorde det just godt
@@ -4302,6 +4321,7 @@ Nu gik han ind i det tredje kammer!
 Nu gjorde det ikke ondt mere, men det var der
 Nu går jeg og lurer
 Nu går jeg ud og drukner dig!
+Nu har de da noget at fortælle deroppe
 Nu har den ikke blomst mere
 Nu har du narret mig igen!
 Nu har han hverken liv eller gods
@@ -4327,6 +4347,7 @@ Nu kan jeg forstå det med hans længsel!
 Nu kan man se kometen
 Nu kan vi få fåremælk og fåreost og uldne strømper, ja, ulden nattrøje!
 Nu kom de til stedet
+Nu kom den hellige julefest
 Nu kom der en havkat
 Nu kom det an på, om Johannes kunne gætte den tredje gang.
 Nu kom lille Claus hjem igen med de mange penge.
@@ -4401,6 +4422,7 @@ Nu ville da kejseren selv se det, medens det endnu var på væven.
 Nu ville han rask tage hovedet tilbage, men det gik ikke.
 Nu ville han snøre sin ransel, se fremmede lande
 Nu åbnede kongen et lille kammer, tæt ved hvor hun skulle sove.
+Nye tider, andre tider
 Nyt år, ny sorg for udkommet
 Nå det fornøjer os!
 Nå, De siger ikke noget om det!
@@ -4478,6 +4500,7 @@ Og den unge mand måtte igen over stakittet og bryde tidselbægret af
 Og den åbnede sit gab og viste sine seks rækker tænder
 Og denne gang blev hans ord til sandhed
 Og der blev danset af lille og stor
+Og der blev svaret
 Og der blev vejrskifte, det slog om i tø.
 Og der er lunt og lyst, der er rent og nydeligt
 Og der følger til ballast dansk litteratur
@@ -4488,6 +4511,7 @@ Og det er den, de lå i som luftbørn
 Og det er jo i sidste instans målet.
 Og det fik han
 Og det gjorde de
+Og det gjorde hun rigtignok
 Og det gjorde kopisten, vips var han ude af buret.
 Og det kom ind i haven, op på gården og ind i salen
 Og det nøs derpå
@@ -4527,9 +4551,11 @@ Og han så salomons dom fra oven og faldt i søvn
 Og hans læste for dem det gamle eventyr om brændehuggeren og hans kone
 Og have-ole og have-kirsten sagde
 Og hendes ansigt strålede af lyksalighed
+Og hendes sind var vredt og ondt mod alle mennesker
 Og her står min gamle kæreste bæh
 Og hun dækkede godt til om ham, at han ikke skulle forkøle sig
 Og hun fik både støvler og muffe
+Og hun fik hende
 Og hun førte Elisa et stykke længere frem til en skrænt.
 Og hun gik ud af stuen
 Og hun glemte at synge sin salme, hun glemte at læse sit fadervor
@@ -4563,6 +4589,7 @@ Og idet ordet var udtalt, var han i hjemmet.
 Og jasminblomsterne åbnede deres store hvide klokker, de duftede så forunderligt sødt.
 Og jeg er moderen for dem
 Og jeg har trykket hans hånd
+Og jeg vil ikke være bedre
 Og jeg vil sige
 Og jeg, som landsmand, fortæller det naturligvis straks igen, blot for at fortælle
 Og jo nærmere de stod ved døren, jo stoltere så de ud
@@ -4994,6 +5021,7 @@ Slet ingen mærkede den lille Ida.
 Sligt blev nok aldrig set af en landsbyskrædder, sagde hun
 Sligt byder man næppe et vokslys ovre i det rige hus
 Sligt kan hænde og med ham hændte det
+Slip mig ikke i min sidste stund
 Slip snore og tov
 Slog klokken fem viste sig de fem sanser
 Slå deres skrifter, det er at slå dem selv
@@ -5404,6 +5432,7 @@ Ugen derefter blev den døde begravet.
 Uglen slog på tromme, fårekyllingerne peb og de sorte græshopper blæste på mundharpe.
 Uh! Dér sad hunden med øjnene, så store som tekopper og gloede på ham.
 Uh, hvor der var mørkt og kedeligt, og så sagde de til ham.
+Uh, hvor jeg pines
 Uh, jeg er for tyk!
 Ulvene hylede, og ravnene skreg
 Under bordet ved sine fødder havde han lagt sin sæk.
