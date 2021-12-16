@@ -257,6 +257,10 @@ email-subscription-title-new = Common Voice habarnamalaryna, maksat ýatlatmalar
 
 benefits = Peýdalary
 rich-data = Käbir anonim demografik maglumatlar bilen girizen maglumatlaryňyzy mümkin boldugyndan baýlaşdyryň. Demografik maglumatlary köpçülige ýetirmezden ozal ugradanyň şahsy maglumatlaryny aýyrýarys.
+improve-audio = Profil maglumatlary sözleýiş tanamagyň takyklygyny öwretmekde ulanylýan ses maglumatlaryny gowulandyrýar.
+keep-track = Öňegidişligiňizi we ölçegleriňizi birnäçe dilde yzarlaň.
+compare-progress = Öňegidişligiňizi dünýäniň beýleki goşantçylary bilen deňeşdiriň.
+view-goals = Şahsy we taslama boýunça maksatlara ýetmekde öňegidişligiňizi görüň.
 
 ## What's public
 
