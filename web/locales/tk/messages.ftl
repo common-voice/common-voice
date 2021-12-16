@@ -298,12 +298,52 @@ shortcut-record-toggle-label = Ýazgy et/Duruz
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Klibi täzeden ýaz
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Dowam edýän ýazgyny taşla
+shortcut-submit = Yza dolan
+shortcut-submit-label = Klipleri iber
+request-language-text = Common Voice-da entek diliňizi göreňzokmy?
+request-language-text-learn = Bu ýerde nädip haýyş etmelidigini görüň!
+request-language-button = Dil goşmagy sora
 
 ## ProjectStatus
 
+status-title = Taslamanyň umumy ýagdaýy: ýeten derejämize serediň!
+status-contribute = Sesiňizi goşuň
+status-hours =
+    { $hours ->
+        [one] Häzire çenli bir sagat barlandy!
+       *[other] Häzire çenli { $hours } sagat barlandy!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Indiki maksatlar: { $goal }
+english = Iňlisçe
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Ulanyjy ady
+profile-form-native-language =
+    .label = Ene dili
+profile-form-additional-language =
+    .label = Goşmaça dil
+profile-form-language =
+    .label = Dil
+profile-form-accent =
+    .label = Aksent
+profile-form-custom-accent-help-text =
+    .label = Aksentiňizi nädip suratlandyrýarsyňyz?
+profile-form-custom-accent-placeholder-2 = Aksentiňizi suratlandyrmak üçin ýazyp başlaň
+profile-form-age =
+    .label = Ýaş
+profile-form-gender-2 =
+    .label = Gender
+leaderboard-visibility =
+    .label = Lider tagtasynyň görünişi
+hidden = Gizlenen
+visible = Görünýän
+native-language =
+    .label = Ene dili
 
 ## Profile - Email
 
