@@ -261,18 +261,43 @@ improve-audio = Profil maglumatlary sözleýiş tanamagyň takyklygyny öwretmek
 keep-track = Öňegidişligiňizi we ölçegleriňizi birnäçe dilde yzarlaň.
 compare-progress = Öňegidişligiňizi dünýäniň beýleki goşantçylary bilen deňeşdiriň.
 view-goals = Şahsy we taslama boýunça maksatlara ýetmekde öňegidişligiňizi görüň.
+join-newsletter = Taslama barada täzelenmeler we täze maglumatlar üçin islege bagly e-poçta sanawymyza goşulyň.
 
 ## What's public
 
+whats-public = Näme köpçülige açyk?
+email-not-public = E-poçtaňyzy köpçülige mälim etmeris.
+recordings-and-locale-public = Ýazgylaryň sany we haýsy dillere goşant goşýandygyňyz köpçülige açyk bolar.
+username-optin-public = Ulanyjy adyňyzy köpçülige açyk ýa-da anonim etmegi saýlap bilersiňiz.
+username-email-not-demographic = Ulanyjy adyňyz we e-poçtaňyz neşir edilen maglumatlar bilen baglanyşykly bolmaz.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = g
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = o
+shortcut-play-toggle-label = Oýnat/Duruz
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = h
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ý
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Ýazgy et/Duruz
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Klibi täzeden ýaz
+shortcut-discard-ongoing-recording = ESC
 
 ## ProjectStatus
 
