@@ -129,6 +129,7 @@ pl = Polýakça
 ps = Paştunça
 pt = Portugalça
 quc = Kiçeçe
+quy = Keçua Çanka
 rm-sursilv = Romanşça Sursilwan
 rm-vallader = Romanşça Wallader
 ro = Rumynça
@@ -230,9 +231,32 @@ todays-progress = Şu günki öňegidişlik
 help-reach-goal = { $goal } maksada ýetmäge kömek ediň
 read-terms-q = Düzgünlerimizi okap gördüňizmi?
 ready-to-record = Sesiňizi bagyş etmäge taýýarmy?
+all-locales = Hemme
+today = Şu gün
+x-weeks-short =
+    { $count ->
+        [one] Hepde
+       *[other] hepdeler
+    }
+x-months-short =
+    { $count ->
+        [one] aý
+       *[other] aýlar
+    }
+x-years-short =
+    { $count ->
+        [one] ýyl
+       *[other] ýyllar
+    }
+help-make-dataset = Bize ýokary hilli, köpçülige açyk maglumat bazasyny döretmäge kömek ediň.
+sign-up-account = Hasap açmak üçin ýazylyň
+email-subscription-title = email täzelikleri üçin ýazylyň
+email-subscription-title-new = Common Voice habarnamalaryna, maksat ýatlatmalaryna we öňegidişlik täzeliklerine ýazylyň
 
 ## Account Benefits
 
+benefits = Peýdalary
+rich-data = Käbir anonim demografik maglumatlar bilen girizen maglumatlaryňyzy mümkin boldugyndan baýlaşdyryň. Demografik maglumatlary köpçülige ýetirmezden ozal ugradanyň şahsy maglumatlaryny aýyrýarys.
 
 ## What's public
 
@@ -263,6 +287,13 @@ ready-to-record = Sesiňizi bagyş etmäge taýýarmy?
 
 ## ABOUT US
 
+how-does-it-work-title = Ol nähili işleýär?
+about-speak = Geple
+about-listen-queue = Diňleme nobaty
+about-listen = Diňle
+about-is-it-valid = Klip dogrumy?
+about-yes-votes = ≥ 2 Hawa ses
+about-no-votes = ≥ 2 Ýok ses
 
 ## Glossary
 
@@ -275,6 +306,8 @@ ready-to-record = Sesiňizi bagyş etmäge taýýarmy?
 
 ## Datasets Page
 
+other-datasets = Başga ses maglumat toplumlary
+feedback-q = Seslenme barmy?
 
 ## Download Modal
 
