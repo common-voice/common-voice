@@ -923,6 +923,7 @@ contribution-background-voices-example-1-title = Pilota partida hastera doa. <st
 contribution-background-voices-example-1-explanation = Bazatoz? <strong>[beste norbaitek esana]</strong>
 contribution-volume-title = Bolumena
 contribution-volume-description = Bolumen aldaketa naturalak egongo dira irakurleen artean. Baztertu grabaketa bakarrik bolumena hain handia bada grabazioa eten egiten dela edo (ohikoagoa dena) hain baxua bada, ezin dela entzun esaten dena testu idatziari erreferentzia egin gabe.
+contribution-reader-effects-title = Irakurlearen efektuak
 contribution-reader-effects-description = Grabazio gehienak beren ahots naturalarekin hitz egiten duten pertsonenak dira. Noizbehinkako ezohiko grabazioa onar dezakezu; oihukatzen, xuxurlatzen edo era ‘dramatizatuan‘ egina. Baztertu grabazio abestuak eta ordenagailuz sortutako ahotsa erabiltzen dutenak.
 contribution-just-unsure-title = Oraindik zalantzatan?
 contribution-just-unsure-description = Irizpide hauek betetzen ez dituen zerbaitekin topo egiten baduzu, bozkatu zure sen onaren arabera. Benetan ezin baduzu erabaki, erabili Saltatu botoia eta jarraitu hurrengo grabazioarekin.
