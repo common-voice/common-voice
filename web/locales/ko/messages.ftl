@@ -79,6 +79,7 @@ hyw = 서부 아르메니아어
 ia = 인테르링구아어
 id = 인도네시아어
 ie = 인테르링구에어
+ig = 이보어
 is = 아이슬란드어
 it = 이탈리아어
 izh = 이조르어
@@ -105,6 +106,7 @@ mhr = 메도우 마리어
 mk = 마케도니아어
 ml = 말라얄람어
 mn = 몽골어
+mni = 마니푸르어
 mos = 모시어
 mr = 마라티어
 mrj = 힐 마리어
@@ -126,6 +128,7 @@ pap-AW = 파피아멘토(아루바)
 pl = 폴란드어
 ps = 파슈토어
 pt = 포르투갈어
+quc = 키체어
 rm-sursilv = 로만슈 수르실반어
 rm-vallader = 로만슈 발라데르어
 ro = 루마니아어
@@ -149,6 +152,8 @@ ta = 타밀어
 te = 텔루구어
 tg = 타지크어
 th = 태국어
+ti = 티그리냐어
+tig = 티그레어
 tl = 타갈로그어
 tr = 터키어
 tt = 타타르어
@@ -970,3 +975,56 @@ contribution-just-unsure-title = 그냥 잘 모르겠다면?
 contribution-just-unsure-description = 이 지침에서 다루지 않는 것을 발견하면 최선의 판단에 따라 결정하십시오. 정말 결정하기 어려우면 건너뛰기 버튼을 누르고 다음 녹음으로 넘어가십시오.
 see-more = <chevron></chevron>더 보기
 see-less = <chevron></chevron>덜 보기
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
