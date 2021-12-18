@@ -1047,6 +1047,7 @@ sc-howto-review-criteria-5 = Om meningen inte uppfyller ovanstående kriterier, 
 sc-howto-review-criteria-6 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
 sc-howto-findpd-subtitle = Sök efter dem på Internet
 sc-howto-findpd-tips = Här är några tips för att hitta meningar:
+sc-howto-findpd-tips-1 = De bästa källorna du kan leta efter är poddsändningar, transkriptioner, filmmanus och allt möjligt som kan innehålla vardagliga konversationer.
 sc-howto-findpd-subtitle-2 = Samarbeta med lokala organisationer eller individer
 sc-howto-findpd-partner-1 = Det finns många offentliga organisationer som kanske vill samarbeta och som redan har många texter de kan donera som allmän egendom. Nå ut till lokala universitet, regeringar och öppen källkodsorganisationer för att prata om projektet och be om deras hjälp.
 
