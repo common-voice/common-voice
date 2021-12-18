@@ -1103,25 +1103,41 @@ sc-stats-title = Statistik
 sc-stats-last-update = Senaste uppdatering: { $lastUpdate }
 sc-stats-last-update-never = Senaste uppdatering: aldrig
 sc-stats-updating = Uppdaterar…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice meningssamlare har samlat in { $sentenceCount } meningar på { $languageCount } språk!
 
 ## ADD
 
 sc-submit-err-select-lang = Välj ett språk.
 sc-submit-err-add-sentences = Vänligen lägg till meningar.
 sc-submit-err-add-source = Vänligen lägg till en källa.
+sc-submit-err-confirm-pd = Vänligen bekräfta att dessa meningar är allmän egendom.
+sc-submit-prompt =
+    .message = Meningar har inte skickats in, är du säker på att du vill lämna?
 sc-submit-title = Lägg till meningar
 sc-submit-select-language =
     .labelText = Välj språk
+sc-submit-add-sentences = Lägg till meningar som är <wikipediaLink>allmän egendom</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = En mening per rad
+sc-submit-from-where = Var kommer dessa <wikipediaLink>allmänna</wikipediaLink> meningar ifrån?
+sc-submit-ph-read-how-to =
+    .placeholder = Läs vår guide om du inte är säker på hur du ska tillskriva
+sc-submit-confirm = Jag bekräftar att dessa meningar är <wikipediaLink>allmän egendom</wikipediaLink> och jag har tillåtelse att ladda upp dem.
 sc-submit-button =
     .submitText = Skicka in
+sc-submit-filtered = Filtrerade meningar på grund av bristande krav (vänligen skicka in fasta versioner som nya meningar):
+sc-submit-guidelines = Vänligen kontrollera <howToLink>riktlinjerna</howToLink>.
 
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Det gick inte att lägga till språk
 sc-add-lang-sec-label = Lägg till ett språk du vill bidra till
 sc-add-lang-sec-button = Lägg till språk
+sc-add-err-unexpected = Oväntat svar returnerades från servern
+sc-add-err-submission = Överföringsfel
 
 ## ADD SENTENCES CONFIRMATION
 
