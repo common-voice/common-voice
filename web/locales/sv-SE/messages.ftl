@@ -1030,13 +1030,18 @@ sc-logout-button = Logga ut
 
 ## HOME
 
+sc-home-title = Välkommen till Common Voice meningssamlare
+sc-home-intro = Meningssamlaren är en del av <commonVoiceLink>Common Voice</commonVoiceLink>. Det tillåter bidragsgivare att samla in och validera meningar skapade av gemenskapen. Du kan också använda det här verktyget för att importera och städa upp små till medelstora offentliga korpus som du har hittat eller samlat in. Alla meningar måste vara allmän egendom. Godkända meningar exporteras varje vecka till Common Voice-förrådet och släpps på Common Voice-webbplatsen vid varje ny distribution.
 sc-home-collect-title = Samla meningar
+sc-home-collect-text = Hjälp oss genom att skriva eller samla meningar som är allmän egendom.
 sc-home-review-title = Granska meningar
+sc-home-review-text = Hjälp oss genom att granska meningar för korrekthet enligt riktlinjerna.
 
 ## HOW-TO
 
 sc-howto-title = Hur man
 sc-howto-addlang-title = Lägga till språk att arbeta med
+sc-howto-addlang-text = När du är inloggad kan du välja dina språk från profilsektionen.
 sc-howto-addsen-title = Lägg till nya meningar
 sc-howto-cite-title = Hur man citerar
 sc-howto-cite-item-1 = Du kan inkludera webbplatsen, t.ex. "Common Voice - https://commonvoice.mozilla.org/"
