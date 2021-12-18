@@ -1074,6 +1074,7 @@ sc-howto-findpd-partner-2 = Expertlingvister kan också hjälpa till, försöka 
 ## MY SENTENCES
 
 sc-my-title = Mina meningar
+sc-my-description = Den här sidan ger dig en översikt över alla dina inskickade meningar. Du kan också ta bort redan inskickade meningar om det behövs, genom att markera kryssrutan bredvid den och klicka på &quot;Ta bort valda meningar&quot; längst ner. Ta bara bort meningar om det är absolut nödvändigt, till exempel om du märkt att en mening är upphovsrättsskyddad.
 sc-my-loading = Laddar dina meningar…
 sc-my-err-fetching = Det gick inte att hämta dina meningar. Var god försök igen.
 sc-my-no-sentences = Inga meningar hittades!
