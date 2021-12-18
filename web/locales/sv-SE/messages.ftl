@@ -987,6 +987,7 @@ contribution-misreadings-example-4-explanation = [Mer har spelats in än den obl
 contribution-misreadings-example-8-explanation = [Felaktigt innehåll]
 contribution-varying-pronunciations-title = Varierande uttal
 contribution-varying-pronunciations-description = Var försiktig innan du avvisar ett klipp med motiveringen att läsaren har uttalat ett ord fel, har lagt betoningen på fel ställe eller uppenbarligen har ignorerat ett frågetecken. Det finns en mängd olika uttal som används runt om i världen, av vilka du kanske inte har hört några i ditt område. Vänligen ge en marginal för uppskattning för dem som kanske talar annorlunda än du.
+contribution-varying-pronunciations-description-extended = Å andra sidan, om du tror att läsaren förmodligen aldrig har stött på ordet tidigare, och bara gör en felaktig gissning på uttalet, vänligen avvisa. Om du är osäker, använd knappen hoppa över.
 contribution-background-noise-title = Bakgrundsbrus
 contribution-background-noise-description = Vi vill att maskininlärningsalgoritmerna ska kunna hantera en mängd olika bakgrundsljud, och även relativt höga ljud kan accepteras förutsatt att de inte hindrar dig från att höra hela texten. Tyst bakgrundsmusik är OK; musik tillräckligt hög för att hindra dig från att höra vartenda ord är det inte.
 contribution-background-noise-description-extended = Om inspelningen stoppar eller sprakar, avvisa den om du inte fortfarande kan höra all text.
@@ -1220,6 +1221,22 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Granska nu!</reviewLink>
 sc-lang-info-add-more = <addLink>Lägg till fler meningar nu!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Inga validerade meningar.
+        [one] 1 validerad mening.
+       *[other] { $validatedSentences } validerade meningar.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Inga avvisade meningar.
+        [one] 1 avvisad mening.
+       *[other] { $rejectedSentences } avvisade meningar.
+    }
 
 ## LOGIN
 
@@ -1244,12 +1261,24 @@ sc-personal-not-added = Du har inte lagt till några språk än.
 
 sc-criteria-modal = ⓘ Granskningskriterier
 sc-criteria-title = Granskningskriterier
+sc-criteria-make-sure = Se till att meningen uppfyller följande kriterier:
+sc-criteria-item-1 = Meningen måste vara rättstavad.
+sc-criteria-item-2 = Meningen måste vara grammatiskt korrekt.
+sc-criteria-item-3 = Meningen måste vara talbar.
+sc-criteria-item-4 = Om meningen uppfyller kriterierna klickar du på knappen &quot;Godkänn&quot; knappen till höger.
+sc-criteria-item-5-2 = Om meningen inte uppfyller ovanstående kriterier klickar du på knappen &quot;Avvisa&quot; knappen till vänster. Om du är osäker på meningen kan du också hoppa över den och gå vidare till nästa.
+sc-criteria-item-6 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Du har inte valt några språk. Gå till din <profileLink>Profil</profileLink> för att välja språk.
 sc-review-title = Granska meningar
 sc-review-loading = Laddar meningar…
 sc-review-select-language = Välj ett språk för att granska meningar.
+sc-review-no-sentences = Inga meningar att granska. <addLink>Lägg till fler meningar nu!</addLink>
+sc-review-form-prompt =
+    .message = Granskade meningar som inte har skickats in, är du säker?
+sc-review-form-usage = Svep åt höger för att godkänna meningen. Svep åt vänster för att avvisa den. Svep uppåt för att hoppa över den. <strong>Glöm inte att skicka in din granskning!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Källa: { $sentenceSource }
