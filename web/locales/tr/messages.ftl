@@ -1043,7 +1043,7 @@ sc-logout-button = Çıkış
 ## HOME
 
 sc-home-title = Common Voice Cümle Toplayıcı’ya hoş geldiniz
-sc-home-intro = Cümle Toplayıcı, <commonVoiceLink>Common Voice<commonVoiceLink>’un bir parçasıdır. Gönüllülerin cümle toplamasına ve topluluk tarafından oluşturulan cümleleri doğrulamasına olanak tanır. Bu aracı, bulduğunuz veya topladığınız küçük ve orta ölçekli kamu malı külliyatı içe aktarmak ve temizlemek için kullanabilirsiniz. Tüm cümlelerin kamu malı olması gerekir. Onaylanan cümleler her hafta Common Voice deposuna aktarılır ve her yeni sürümüyle Common Voice web sitesinde yayımlanır.
+sc-home-intro = Cümle Toplayıcı, <commonVoiceLink>Common Voice</commonVoiceLink>’un bir parçasıdır. Gönüllülerin cümle toplamasına ve topluluk tarafından oluşturulan cümleleri doğrulamasına olanak tanır. Bu aracı, bulduğunuz veya topladığınız küçük ve orta ölçekli kamu malı külliyatı içe aktarmak ve temizlemek için kullanabilirsiniz. Tüm cümlelerin kamu malı olması gerekir. Onaylanan cümleler her hafta Common Voice deposuna aktarılır ve her yeni sürümüyle Common Voice web sitesinde yayımlanır.
 sc-home-collect-title = Cümle topla
 sc-home-collect-text = Kamu malı cümleleri yazarak veya toplayarak bize yardımcı olun.
 sc-home-review-title = Cümleleri incele
@@ -1199,7 +1199,7 @@ sc-confirm-ready =
     { $readyCount ->
         [0] Gönderime hazır cümle yok!
         [one] 1 cümle gönderime hazır!
-       *[other] { $countOfReviewed } cümle gönderime hazır!
+       *[other] { $readyCount } cümle gönderime hazır!
     }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
