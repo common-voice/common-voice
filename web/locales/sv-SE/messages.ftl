@@ -1202,6 +1202,24 @@ sc-lang-info-total =
         [one] 1 mening.
        *[other] { $totalSentences } meningar.
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Inga meningar under granskning.
+        [one] 1 mening under granskning.
+       *[other] { $totalInReview } meningar under granskning.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Inga meningar kvar för dig att granska.
+        [one] 1 mening kvar att granska.
+       *[other] { $unreviewedSentencesByYou } meningar kvar för dig att granska.
+    }
+sc-lang-info-review-now = <reviewLink>Granska nu!</reviewLink>
+sc-lang-info-add-more = <addLink>Lägg till fler meningar nu!</addLink>
 
 ## LOGIN
 
