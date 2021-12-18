@@ -1046,8 +1046,12 @@ sc-howto-addsen-title = Lägg till nya meningar
 sc-howto-addsen-item-1 = Alla meningar du skickar in måste vara under en <wikipediaLink>licens för offentlig egendom (CC-0)</wikipediaLink>. För att stödja inkluderingen av verk som inte är under offentlig licens har vi skapat en <cc0WaiverLink>mall för bidragsavtal</cc0WaiverLink> för verk där upphovsrättsinnehavaren vill bidra med materialet till Common Voice.
 sc-howto-addsen-item-2 = Tal. Det ska inte finnas några siffror i källtexten eftersom de kan orsaka problem vid högläsning. Hur ett nummer läses beror på sammanhanget och kan skapa förvirring i datamängden. Till exempel kan siffran "2409" korrekt läsas som både "tjugofyra noll nio" och "tvåtusenfyrahundranio".
 sc-howto-addsen-item-6 = Språk kan ha sina <validationRulesLink>egna valideringsregler</validationRulesLink> med ytterligare krav. Om det inte finns någon specifik valideringsfil för ett språk använder vi de allmänna engelska reglerna.
+sc-howto-addsen-post-1 = Vi föredrar naturliga/konverserande meningar. Även om fonetisk mångfald och olika ord i meningar är viktigt, försöker vi göra det så roligt som möjligt att spela in meningar. Därför skulle det vara bra om du kunde försöka hålla dina meningar så naturliga/engagerande som möjligt.
 sc-howto-cite-title = Hur man citerar
+sc-howto-cite-pre-1 = Det är viktigt att du hänvisar till var du hittade den offentliga licensen för att undvika plagiat och för att möjliggöra uppföljning av <copyrightIssuesLink>upphovsrättsfrågor</copyrightIssuesLink>. Här är några sätt du kan citera verket på.
 sc-howto-cite-item-1 = Du kan inkludera webbplatsen, t.ex. "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Du kan använda akademisk referensstil, t.ex. Harvard-stil "Mozilla (2021) Common Voice. Tillgänglig på https://commonvoice.mozilla.org/ (Åtkommen: 15 september 2021)"
+sc-howto-cite-item-3 = För allmän egendomstext som inte är tillgänglig online kan du använda akademisk referensstil, t.ex. Harvard-stil "Jess (2021) My Public license poems"
 sc-howto-review-title = Granska meningar
 sc-howto-review-subtitle = Se till att meningen uppfyller följande kriterier:
 sc-howto-review-criteria-1 = Meningen måste vara rättstavad.
@@ -1056,11 +1060,16 @@ sc-howto-review-criteria-3 = Meningen måste vara talbar.
 sc-howto-review-criteria-4 = Om meningen uppfyller kriterierna, klicka på knappen "Godkänn".
 sc-howto-review-criteria-5 = Om meningen inte uppfyller ovanstående kriterier, klicka på knappen "Avvisa". Om du är osäker på meningen kan du också hoppa över den och gå vidare till nästa.
 sc-howto-review-criteria-6 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
+sc-howto-findpd-title = Hitta befintliga meningar i det offentliga
 sc-howto-findpd-subtitle = Sök efter dem på Internet
+sc-howto-findpd-text-2 = Kom ihåg att vi behöver tillstånd för att publicera dessa meningar, så se alltid till att texten tillhör  <wikipediaLink>allmän egendom</wikipediaLink>. Om det inte finns någon uttrycklig indikation, kontakta personen som texten tillhör och fråga om de vill bidra med sin text. Om de vill, hjälp dem att gå igenom <cc0WaiverLink>bidragsavtalet</cc0WaiverLink>. Om de inte vill bidra med texten så får du inte använda den texten.
 sc-howto-findpd-tips = Här är några tips för att hitta meningar:
 sc-howto-findpd-tips-1 = De bästa källorna du kan leta efter är poddsändningar, transkriptioner, filmmanus och allt möjligt som kan innehålla vardagliga konversationer.
+sc-howto-findpd-tips-2 = Regeringsprocedurer, böcker och artiklar är också bra men eftersom texten tenderar att vara lite mer formell är de mindre prioriterade.
+sc-howto-findpd-tips-3 = Tyvärr kan vi inte ha Wikimedia-artiklar ännu. Så kopiera inte därifrån.
 sc-howto-findpd-subtitle-2 = Samarbeta med lokala organisationer eller individer
 sc-howto-findpd-partner-1 = Det finns många offentliga organisationer som kanske vill samarbeta och som redan har många texter de kan donera som allmän egendom. Nå ut till lokala universitet, regeringar och öppen källkodsorganisationer för att prata om projektet och be om deras hjälp.
+sc-howto-findpd-partner-2 = Expertlingvister kan också hjälpa till, försöka nå ut till lokala språkuniversitet (både lärare och studenter) och se om de kan hjälpa till att samla in en mångsidig uppsättning ljud-diverse meningar på ditt språk.
 
 ## MY SENTENCES
 
