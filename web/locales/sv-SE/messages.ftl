@@ -1137,15 +1137,71 @@ sc-add-lang-could-not-add = Det gick inte att lägga till språk
 sc-add-lang-sec-label = Lägg till ett språk du vill bidra till
 sc-add-lang-sec-button = Lägg till språk
 sc-add-err-unexpected = Oväntat svar returnerades från servern
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Inlämnade meningar. { $duplicates } meningar avvisades som dubbletter.
+        [one] Inlämnade meningar. { $duplicates } meningen avvisades som dubblett.
+       *[other] Inlämnade meningar. { $duplicates } meningar avvisades som dubbletter.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Inga meningar misslyckades
+        [one] 1 mening misslyckades
+       *[other] { $sentences } meningar misslyckades
+    }
 sc-add-err-submission = Överföringsfel
+sc-add-lang-process-notice = Om ditt språk inte finns med här kan du begära det genom <languageProcessLink>denna process</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Meningar har inte skickats in, är du säker på att du vill lämna?
 sc-confirm-sentences-title = Bekräfta nya meningar
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Inga meningar hittades.
+        [one] 1 mening hittades.
+       *[other] { $countOfSentences } meningar hittades.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } avvisades av dig
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ingen mening har redan granskats.
+        [one] 1 mening har redan granskats. Bra jobbat!
+       *[other] { $countOfReviewed } meningar har redan granskats. Bra jobbat!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Ingen mening redo för inlämning!
+        [one] 1 mening redo för inlämning!
+       *[other] { $readyCount } meningar redo för inlämning!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } meningar är ogranskade. Om du vill kan du också granska dina meningar nu innan du skickar in dem.
 sc-confirm-button-text = Bekräfta
+sc-confirm-uploading = Meningar laddas upp. Detta kan ta flera minuter beroende på antalet tillagda meningar. Stäng inte denna webbplats.
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Inga meningar.
+        [one] 1 mening.
+       *[other] { $totalSentences } meningar.
+    }
 
 ## LOGIN
 
