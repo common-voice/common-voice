@@ -851,12 +851,15 @@ profile-form-delete = Ezabatu profila
 ## Profile Download
 
 download-q = Zure datuak deskargatu behar dituzu?
+download-info = Esaguzu zer deskargatu nahiko zenukeen:
 download-profile-title = Profila
 download-recordings-title = Grabazioak
+download-recordings-unavailable = Ezin dituzu zure grabazioak eskatu beste eskari bat martxan den bitartean.
 download-size = Tamaina
 download-selected = Hautatuta
 download-start = Deskargatu profilaren datuak
 download-request = Eskatu grabazioak
+download-requests = Iraganeko grabazio deskargen eskariak
 download-request-button = Deskargatu
 download-request-title = { $created }
 download-request-refresh-button = Freskatu
@@ -875,12 +878,14 @@ read-more-about = Irakurri gehiago guri buruzko orrian
 
 demo-get-started = Has gaitezen
 demo-welcome = Ongi etorri Common Voicera
+demo-welcome-subheader = Gehiago ikasi eta proiektuan laguntzeko interesik duzu?
 
 ## Demo Datasets
 
 card-button-next = Hurrengoa
 card-button-back = Atzera
 demo-language-select-label = Arakatu hizkuntzak
+demo-eofy-header = 2019(e)ko urte bukaerako argitalpena
 demo-account = Kontua
 
 ## Demo Account
