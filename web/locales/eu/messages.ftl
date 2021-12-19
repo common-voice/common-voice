@@ -288,6 +288,7 @@ shortcut-discard-ongoing-recording-label = Baztertu grabazioa hau
 shortcut-submit = Sartu
 shortcut-submit-label = Gorde grabazioak
 request-language-text = Ez duzu zure hizkuntza Common Voicen ikusten oraindik?
+request-language-text-learn = Ikasi hemen nola eskatzen den!
 request-language-button = Eskatu hizkuntza bat
 
 ## ProjectStatus
@@ -316,6 +317,9 @@ profile-form-language =
     .label = Hizkuntza
 profile-form-accent =
     .label = Azentua
+profile-form-custom-accent-help-text =
+    .label = Nola deskribatuko zenuke zure azentua?
+profile-form-custom-accent-placeholder-2 = Hasi idazten zure azentua deskribatzeko
 profile-form-age =
     .label = Adina
 profile-form-gender-2 =
@@ -358,6 +362,7 @@ skip-submission-description = Bidali sakatzean feedback bidalketa saltatuko duzu
 skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun artean zure laguntza-mota aldatzeko.
 off = Itzalita
 on = Piztuta
+help-accent = Azentuarekin laguntza behar duzu?
 
 ## Profile - Email
 
@@ -436,7 +441,7 @@ faq-search-for-answers =
 
 about-title = Zergatik Common Voice?
 about-subtitle = Common Voice Mozillaren ekimenaren parte da, makinei gizakiek benetan nola hitz egiten duten irakasten laguntzeko. Common Voice datu-sortaz gain, kode irekiko ahotsa ezagutzeko motorra ere sortzen ari gara, Deep Speech izenekoa.
-about-header-description = Bi proiektu horiek mundu digitalean hizkuntzaren arrakalaren aurka borrokatzeko egin ditugun ahaleginen emaitza dira. Ahotsa ezagutzeko teknologiek giza dimentsioa ematen diete gure gailuei, baina garatzaileek ahots-datu ugari behar dituzte horiek sortu ahal izateko. Gaur egun, datu horietako gehienak garestiak dira, eta jabetza pribatukoak. Ahots datuak modu libre eta publikoan eskuragarri egotea nahi dugu, eta datuek pertsona errealen aniztasuna irudikatzen dutela ziurtatzea. Elkarrekin egin dezakegu ahots aitorpena guztiontzat hobea izan dadin.
+about-header-description = Bi proiektu hauek mundu digitalean hizkuntzaren arrakalaren aurka borrokatzeko egin ditugun ahaleginen emaitza dira. Ahotsa ezagutzeko teknologiek giza dimentsioa ematen diete gure gailuei, baina garatzaileek ahots-datu ugari behar dituzte horiek sortu ahal izateko. Gaur egun, datu horietako gehienak garestiak eta jabetza pribatukoak dira.
 about-header-description-2 =
     Proiektu hau hizketa digitalaren arrakala ixteko ahalegina da. Ahotsa ezagutzeko teknologiek giza dimentsioa ematen diete gure gailuei, baina garatzaileek ahots-datu ugari behar dituzte horiek eraikitzeko. Gaur egun, datu horietako gehienak garestiak eta jabedunak dira. 
     Ahots-datuak doan eta publikoki eskuragarri egotea nahi dugu, eta datuek benetako pertsonen aniztasuna adierazten dutela ziurtatu. Elkarrekin ahotsaren ezagutza guztiontzat hobea izatea lor dezakegu.
@@ -691,6 +696,8 @@ record-button-label = Grabatu zure ahotsa
 share-title-new = <bold>Lagun gaitzazu</bold> ahots gehiago aurkitzen
 keep-track-profile = Jarraitu zure aurrerapenak profil batekin
 login-to-get-started = Hasteko, hasi saioa edo eman izena
+target-segment-first-card = Esparru zehatzerako gure lehen atalean laguntza ari zara
+target-segment-generic-card = Esparru zehatzerako atal batean laguntza ari zara
 target-segment-first-banner = Lagundu esparru zehatzerako lehen { $locale } atala sortzen
 target-segment-add-voice = Gehitu zure ahotsa
 target-segment-learn-more = Ikasi gehiago
@@ -839,7 +846,9 @@ download-q = Zure datuak deskargatu behar dituzu?
 download-profile-title = Profila
 download-recordings-title = Grabazioak
 download-size = Tamaina
+download-selected = Hautatuta
 download-start = Deskargatu profilaren datuak
+download-request = Eskatu grabazioak
 download-request-button = Deskargatu
 download-request-title = { $created }
 download-request-refresh-button = Freskatu
