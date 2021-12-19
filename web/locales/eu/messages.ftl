@@ -854,6 +854,7 @@ read-more-about = Irakurri gehiago guri buruzko orrian
 
 ## DemoLayout
 
+demo-get-started = Has gaitezen
 demo-welcome = Ongi etorri Common Voicera
 
 ## Demo Datasets
