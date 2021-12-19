@@ -1016,6 +1016,7 @@ sc-header-home = Αρχική
 sc-header-how-to = Οδηγίες
 sc-header-add = Προσθήκη
 sc-header-review = Έλεγχος
+sc-header-rejected = Απορριφθείσες προτάσεις
 sc-header-my = Οι προτάσεις μου
 sc-header-statistics = Στατιστικά
 sc-header-profile = Προφίλ
@@ -1130,6 +1131,7 @@ sc-lang-info-total =
        *[other] { $totalSentences } συνολικές προτάσεις.
     }
 sc-lang-info-review-now = <reviewLink>Έλεγχος τώρα!</reviewLink>
+sc-lang-info-add-more = <addLink>Προσθέστε περισσότερες προτάσεις τώρα!</addLink>
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
@@ -1173,9 +1175,12 @@ sc-criteria-title = Κριτήρια ελέγχου
 sc-criteria-make-sure = Βεβαιωθείτε ότι η πρόταση πληροί τα ακόλουθα κριτήρια:
 sc-criteria-item-1 = Η πρόταση πρέπει να έχει σωστή ορθογραφία.
 sc-criteria-item-2 = Η πρόταση πρέπει να είναι γραμματικά ορθή.
+sc-criteria-item-3 = Η πρόταση πρέπει να μπορεί να λεχθεί.
+sc-criteria-item-6 = Εάν ξεμείνετε από προτάσεις για έλεγχο, παρακαλούμε βοηθήστε μας να συγκεντρώσουμε περισσότερες προτάσεις!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Δεν έχετε επιλέξει καμία γλώσσα. Παρακαλούμε μεταβείτε στο <profileLink>Προφίλ</profileLink> σας για να επιλέξετε γλώσσες.
 sc-review-title = Έλεγχος προτάσεων
 sc-review-loading = Φόρτωση προτάσεων…
 # Variables:
