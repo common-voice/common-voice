@@ -390,6 +390,7 @@ faq-why-important-a = Ahotsa gure artean komunikatzeko dugun modurik naturalena 
 faq-how-get-q = Nola lor ditzaket Common Voiceko datuak?
 faq-how-get-a = Common Voice datu-sorta deskargagarri dago <licenseLink>CC0</licenseLink></licenseLink> lizentziapean gure <datasetLink>datu-sorta orrian</datasetLink>. Bertatik, publikoki deskargagarri dauden beste hainbat datu-sorta ere deskargatu ditzakezu.
 faq-when-release2-q = Noiz argitaratuko dituzue Common Voiceren datuak beste hizkuntza batzuetan?
+faq-when-release2-a = Common Voice datu-artxibategiaren bertsio eleaniztuna taldekatzen eta garbitzen ari da komunitatea. Common Voice-rako hizkuntza berriak onartzen lagundu nahi badiguzu, kontsultatu <sentenceCollectorLink>esaldiak biltzeko tresna</sentenceCollectorLink> datu multzoari eta Mozillari esaldi berriak gehitzeko eta <pontoonLink>Pontoon</pontoonLink> gunea bera itzultzeko. Hizkuntza berriak gehituko zaizkio Common Voice-ri, ahotsa emateko, onetsitako 5.000 esaldi biltzean.
 faq-why-mission-q = Zergatik da Common Voice  Mozilla misioaren parte?
 faq-why-mission-a = Mozillaren egitekoa, weba guztiontzat irekia eta eskuragarri mantentzea da. Horretarako, web sortzaileak Common Voice bezalako proiektuekin ahaldundu behar ditugu. Ahots teknologiek beraien merkatu-nitxotik haratagoko aplikazioetara hedatzen diren heinean, uste dugu erabiltzaile guztiei berdin zerbitzatu behar dietela. Horregatik saiatzen gara hizkuntza gehiagotara zabaltzen eta ahots teknologien sortzea eta proba, hizkera eta talde demografiko ezberdinetara moldatzen. Common Voice guztientzat eskuragarri dagoen baliabide publiko bat da eta munduan zehar dauden Mozilla taldeek eta garatzaileek, dagoeneko beraien proiektuetarako erabiltzen ari dira.
 faq-what-cv-and-deepspeech-q = Zein desberdintasun dago Common Voice-n eta Deep Speech-en artean?
@@ -404,6 +405,7 @@ faq-why-different-speakers-a =
     Horregatik nahi dugu aniztasuna gure ahots datu-sortan!
 faq-why-my-lang-q = Zergatik ez da nire hizkuntza hemen agertzen?
 faq-what-quality-q = Zenbateko audio kalitatea behar da grabazioen datu-sortan erabilia izan dadin?
+faq-what-quality-a = Nahi dugu Common Voice-ren datu baseak islatzea ahotsetik testurako motor batek errealitatean entzungo duen audioaren kalitatea; beraz, barietate bila ari gara. Hizlari komunitate anitza izateaz gain, audio kalitate aldakorra duen datu base batek testuz testu motorrari mundu errealeko hainbat egoera maneiatzen irakatsiko dio, bigarren mailan hitz egitetik autoen zarata entzuteraino. Ahots zatia ulergarria bada, datu baserako baliagarria izan beharko luke.
 faq-why-10k-hours-q = Zergatik lortu behar dira balioztatutako 10.000 audio ordu hizkuntza bakoitzean?
 faq-why-10k-hours-a = Ordu kopuru hau gutxi-gora-behera ekoizpeneko speech-to-text sistema bat trebatzeko behar dena da.
 faq-how-calc-hours-q = Common Voicek nola kalkulatzen ditu orduak?
@@ -434,6 +436,7 @@ faq-search-for-answers =
 
 about-title = Zergatik Common Voice?
 about-subtitle = Common Voice Mozillaren ekimenaren parte da, makinei gizakiek benetan nola hitz egiten duten irakasten laguntzeko. Common Voice datu-sortaz gain, kode irekiko ahotsa ezagutzeko motorra ere sortzen ari gara, Deep Speech izenekoa.
+about-header-description = Bi proiektu horiek mundu digitalean hizkuntzaren arrakalaren aurka borrokatzeko egin ditugun ahaleginen emaitza dira. Ahotsa ezagutzeko teknologiek giza dimentsioa ematen diete gure gailuei, baina garatzaileek ahots-datu ugari behar dituzte horiek sortu ahal izateko. Gaur egun, datu horietako gehienak garestiak dira, eta jabetza pribatukoak. Ahots datuak modu libre eta publikoan eskuragarri egotea nahi dugu, eta datuek pertsona errealen aniztasuna irudikatzen dutela ziurtatzea. Elkarrekin egin dezakegu ahots aitorpena guztiontzat hobea izan dadin.
 about-header-description-2 =
     Proiektu hau hizketa digitalaren arrakala ixteko ahalegina da. Ahotsa ezagutzeko teknologiek giza dimentsioa ematen diete gure gailuei, baina garatzaileek ahots-datu ugari behar dituzte horiek eraikitzeko. Gaur egun, datu horietako gehienak garestiak eta jabedunak dira. 
     Ahots-datuak doan eta publikoki eskuragarri egotea nahi dugu, eta datuek benetako pertsonen aniztasuna adierazten dutela ziurtatu. Elkarrekin ahotsaren ezagutza guztiontzat hobea izatea lor dezakegu.
@@ -463,7 +466,7 @@ about-partnership =
     Eskerrak eman nahi dizkiegu honako pertsona eta erakunde hauei proiektuan laguntzeagatik:
 about-get-involved = Parte hartu
 about-get-involved-text-2 =
-    Common Voice oraindik hobeto lagundu nahi duzu?
+    Common Voice hobeto lagundu nahi duzu?
     Primeran! Jar zaitez gurekin harremanetan eposta bidez
     <discourseLink>Discourse</discourseLink> foroak erabiliz,
     <githubLink>GitHub</githubLink>-en arazo baten berri eman,
@@ -688,7 +691,6 @@ record-button-label = Grabatu zure ahotsa
 share-title-new = <bold>Lagun gaitzazu</bold> ahots gehiago aurkitzen
 keep-track-profile = Jarraitu zure aurrerapenak profil batekin
 login-to-get-started = Hasteko, hasi saioa edo eman izena
-target-segment-first-card = Esparru zehatzerako lehen atalean laguntzen ari zara
 target-segment-first-banner = Lagundu esparru zehatzerako lehen { $locale } atala sortzen
 target-segment-add-voice = Gehitu zure ahotsa
 target-segment-learn-more = Ikasi gehiago
@@ -885,6 +887,7 @@ contribution-misreadings-title = Gaizki irakurriak
 contribution-misreadings-description =
     Entzutean, egiaztatu kontu handiz grabatu dena zehazki idatzi dena dela; baztertu akats txikiena ere aurkitzen baldin baduzu.
     Akats ohikoenak honako hauek dira:
+contribution-misreadings-description-extended-list-1 = Esaldiaren hasiera ez dago ondo grabatuta.
 contribution-misreadings-description-extended-list-2 = Hitz baten bukaeran pluralaren <strong>'k'</strong> galtzea.
 contribution-misreadings-description-extended-list-3 = Testuan ez dauden kontrakzio edo laburketak irakurtzea, adibidez "euki" "eduki"ren ordez.
 contribution-misreadings-description-extended-list-4 = Azken hitzaren bukaera galtzea, grabazioa azkarregi gelditzeagatik.
