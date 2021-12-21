@@ -438,7 +438,7 @@ faq-why-different-speakers-a =
     Najwjace hłosowych datowych bankow so z nadreprezentaciju wěstych demografijow trenuje, přez kotrež  so <articleLink>muscy wobdźělnicy a wobdźělnicy srjedźneje klasy</articleLink> preferuja. Akcenty a dialekty, kotrež su zwjetša podreprezentowane w datowych sadźbach su typisce zwjazane ze skupinami ludźi, kotrež su hižo ke kromje stłóčene. Wjele mašinow ma hižo ćeže, žónske hłosy rozumić.
     Tohodla chcemy wšelakorosc w swojej hłosowej datowej bance!
 faq-why-my-lang-q = Čehodla moja rěč hišće njeje?
-faq-why-my-lang-new-a = Mozilla sej wěstu rěč njewudypuje a wěste rěče njepreferuje. Město toho je Common Voice iniciatiwa, kotrež so dospołnje wot zhromadźenstwa doprědka ćěri, ale su trěbne <multilangLink>wjacore kroki, zo by so nowa rěč přidała</multilangLink> a zo by so hromadźenje rěčnych darow započało. Najprjedy dyrbi so websydło Common Voice přełožować, zo bychu čłonojo zhromadźenstwa přistup na nazhonjenja sobuskutkowarjow w swojej rěči měli. Jako přichodne trjebamy wulku zběrku sadow bjez awtorskoprawniskeho škita, kotrež ludźo móža wótře předčitać. Hdyž stej tutej žadani spjelnjenej, so rěč na Common Voice "startuje", zo bychu ludźo móhli swój hłós natočić a dary druhich wobkrućić. Jeli chceće pomhać, nowu rěč startować, wobhladajće sej naš <sentenceCollectorLink>nastroj za hromadźenje sadow</sentenceCollectorLink>, zo byšće započał.
+faq-why-my-lang-new-a = Mozilla sej wěstu rěč njewudypuje a wěste rěče njepreferuje. Město toho je Common Voice iniciatiwa, kotrež so dospołnje wot zhromadźenstwa doprědka ćěri, ale su trěbne <multilangLink>wjacore kroki, zo by so nowa rěč přidała</multilangLink> a zo by so hromadźenje rěčnych darow započało. Najprjedy dyrbi so websydło Common Voice přełožować, zo bychu čłonojo zhromadźenstwa přistup k nazhonjenjam sobuskutkowarjow w swojej rěči měli. Jako přichodne trjebamy wulku zběrku sadow bjez awtorsko-prawniskeho škita, kotrež ludźo móža wótře předčitać. Hdyž stej tutej žadani spjelnjenej, so rěč na Common Voice "startuje", zo bychu ludźo móhli swój hłós natočić a dary druhich wobkrućić. Jeli chceće pomhać, nowu rěč startować, wobhladajće sej naš <sentenceCollectorLink>nastroj za hromadźenje sadow</sentenceCollectorLink>, zo byšće započał.
 faq-what-quality-q = Kotra awdiokwalita je trěbna, zo by so hłosowy klip w datowej sadźbje wužiwał?
 faq-what-quality-a = Chcemy, zo datowa sadźba Common Voice awdiokwalitu wotbłyšćuje, kotruž mašina rěčenja do teksta w swobodnej přirodźe słyša, pytamy tuž za wšelakorosću. Nimo wšelakoreho zhromadźenstwa rěčnikow, datowa sadźba z wšelakej awdiokwalitu mašinu rěčenja do teksta wukmani, z rozdźělnymi situacijemi z woprawdźiteho žiwjenja wobchadźeć, wot rozmołwow w pozadku do  awtoweho šuma. Tak dołho kaž waš hłosowy klip je rozumić, dyrbjał dobry dosć za datowu sadźbu być.
 faq-why-10k-hours-q = Čehodla je 10&#x202f;000 přepruwowanych hodźin na rěč cil za awdionatočenje?
@@ -702,7 +702,7 @@ record-cta = Natočenje startować
 record-platform-not-supported = Je nam žel, ale waša platforma so tuchwilu njepodpěruje.
 record-platform-not-supported-desktop = Na desktopowych ličakach móžeće najnowšu wersiju sćahnyć:
 record-platform-not-supported-ios-non-safari = Prošu pokročujće na iOS ze Safari, zo byšće natočenje zmóžnił…
-record-must-allow-microphone = Dyrbiće přistup na mikrofon dowolić.
+record-must-allow-microphone = Dyrbiće přistup k mikrofonej dowolić.
 record-no-mic-found = Žadyn mikrofon namakany.
 record-error-too-short = Natočenje bě překrótke.
 record-error-too-long = Natočenje bě předołhe.
