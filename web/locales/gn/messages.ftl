@@ -151,6 +151,7 @@ te = Telugu ñe’ẽ
 tg = Tajik ñe’ẽ
 th = Tailandia ñe’ẽ
 ti = Etiopía ñe’ẽ
+tig = Jaguarete
 tk = Turkmenistán-gua
 tl = Tagalo ñe’ẽ
 tr = Turquía ñe’ẽ
@@ -1160,6 +1161,11 @@ sc-settings-ui-language = Jehechaha Ñe’ẽ
 sc-settings-reset-skipped = Erujey ñe’ẽjoaju hejapyre
 sc-settings-show-all-button = Ehechaukapa ñe’ẽjuaju ojehejerei pyahúva
 sc-settings-failed = Neremoambuekuaái ñembohekopyahu. Eha’ãjey ag̃ave.
+# VALIDATION
+sc-validation-number-of-words = Pe ñe’ẽjoaju oguerekova’erã 1 ha 14 ñe’ẽ pa’ũme (oĩháme)
+sc-validation-no-numbers = Pe ñe’ẽjoaju ndorekoiva’erã papapy
+sc-validation-no-symbols = Pe ñe’ẽjoaju ndorekoiva’erã ta’ãnga’i
+sc-validation-no-abbreviations = Pe ñe’ẽjoaju ndorekoiva’erã ñe’ẽmbykypyre
 
 # [/SentenceCollector]
 
