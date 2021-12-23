@@ -985,6 +985,7 @@ contribution-varying-pronunciations-example-1-explanation = [‘Beret’ oĩpor�
 contribution-varying-pronunciations-example-2-title = Omopu’ã ipo.
 contribution-varying-pronunciations-example-2-explanation = [‘Raised’ inglés-pe oñemoñe’ẽ peteĩ ñe’ẽpehẽme, ndaha’éi mokõime]
 contribution-background-noise-title = Tyapu tapykuegua
+contribution-background-noise-description-extended = Ne ñe’ẽñongatu osóramo térã nosẽporãmbái, ejapojeýnte noñehendupaiva’éramo opahaite peve ñe’ẽpu.
 contribution-background-noise-example-1-fixed-title = <strong>[Atĩa]</strong> Umi dinosaurio tuicháva <strong>[hu’u]</strong> Triásico pegua.
 contribution-background-noise-example-2-explanation = [Ndaikatúi oñehendu moñe’ẽrã vore]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> dinosaurio tuicháva <strong>[crackle]</strong> Triásico rehegua.
@@ -1039,6 +1040,7 @@ sc-howto-review-criteria-1 = Pe ñe’ẽjuaju ojehaiva’erã hekopete.
 sc-howto-review-criteria-2 = Pe ñe’ẽjuaju hekopete ñe’ẽtekuaa rupi.
 sc-howto-review-criteria-3 = Pe ñe’ẽjuaju oje’ekuaava’erã.
 sc-howto-review-criteria-6 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃ua, ¡orepytyvõ rombyatyvévo ñe’ẽjuaju!
+sc-howto-findpd-title = Ejuhúta ñe’ẽjuaju oĩva opavave oipurukuaahápe
 sc-howto-findpd-subtitle = Ehekava’erã ñandutípe
 sc-howto-findpd-tips = Ko’ág̃a oñeñemoñe’ẽta ejuhukuaa hag̃ua ñe’ẽrysýi:
 
