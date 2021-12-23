@@ -958,6 +958,7 @@ demo-dashboard-card-body = Mayma ñe’ẽjoaju ñembohyapupyre ha oñemoneĩmav
 
 contribution-criteria-nav = Ñe’ẽte
 contribution-criteria-link = Eikumby mba’éichapa eipytyvõta
+contribution-criteria-page-description = ¡Eikumby mba’épa ehekáta ehendúvo ñe’ẽpu ha eipytyvõ emoporãve hag̃ua ne ñe’ẽ ñeñongatu avei!
 contribution-for-example = Techapyrãrõ
 contribution-misreadings-title = Moñe’ẽ vai
 contribution-misreadings-description-extended-list-1 = Okañy <strong>'A'</strong> térã <strong>'The'</strong> oñepyrũvo ñeñongatu.
