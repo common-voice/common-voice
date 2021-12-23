@@ -897,6 +897,7 @@ download-selected = Poravopyre
 download-start = Emboguejy Ñepyrũ
 download-request = Ejerure Ñemboguejy
 download-requests = Ñemboguejy ohasámava mba’ejerure
+download-requests-info = Ejerurévo ne mba’eñongatupyre, rombyaty peteĩ térã heta ZIP marandurendápe. Ko’ápe oĩ ne mba’ejerurekue:
 download-request-button = Mboguejy
 download-request-title = { $created }
 download-request-description = { $clipCount } ayvu mbyky, marandurenda tuichakue { $size }. Hu’ãta { $expires }.
