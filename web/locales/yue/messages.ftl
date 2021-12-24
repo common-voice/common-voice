@@ -115,6 +115,7 @@ ne-NP = 尼泊爾語
 nia = 尼亞斯語
 nl = 荷蘭語
 nn-NO = 新挪威語
+nyn = 尼揚科勒語
 oc = 奧克語
 or = 奧里亞語
 pa-IN = 旁遮普語
@@ -942,12 +943,34 @@ see-less = <chevron></chevron>睇少啲
 
 ## HEADER/FOOTER
 
+sc-header-home = 主頁
+sc-header-how-to = 點樣
+sc-header-add = 添加
+sc-header-review = 審核
+sc-header-rejected = 否決咗嘅句子
+sc-header-my = 我嘅句子
+sc-header-statistics = 統計數據
+sc-footer-report-bugs = 報告 bug
+sc-footer-translate = 翻譯呢個頁面
+sc-footer-report-copyright = 報告版權問題
+sc-footer-privacy = 私隱
+sc-footer-terms = 條款
+sc-footer-cookies = Cookies
+sc-login-signup-button = 登入/註冊
+sc-logout-button = 登出
 
 ## HOME
 
+sc-home-title = 歡迎嚟到 Common Voice 句子收集器
+sc-home-collect-title = 收集句子
+sc-home-collect-text = 幫我哋收集或者創作公共領域嘅句子
+sc-home-review-title = 審核句子
 
 ## HOW-TO
 
+sc-howto-title = 點樣
+sc-howto-addlang-title = 增加使用語言
+sc-howto-addsen-title = 添加新句子
 
 ## MY SENTENCES
 
