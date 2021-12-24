@@ -954,12 +954,30 @@ see-less = <chevron> </chevron> کمتر ببینید
 
 ## HEADER/FOOTER
 
+sc-header-home = خانه
+sc-header-how-to = چگونه
+sc-header-add = افزودن
+sc-header-review = بازبینی
+sc-header-rejected = جملات رد شده
+sc-header-my = جملات من
+sc-header-statistics = آمار
+sc-header-profile = نمایه
+sc-footer-report-bugs = گزارش مشکلات
+sc-footer-translate = ترجمه این صفحه
+sc-footer-privacy = حریم خصوصی
+sc-footer-terms = شرایط
+sc-footer-cookies = کوکی‌ها
+sc-login-signup-button = ورود / ثبت‌نام
+sc-logout-button = خروج
 
 ## HOME
 
+sc-home-review-title = بازبینی جملات
 
 ## HOW-TO
 
+sc-howto-title = چگونه
+sc-howto-addsen-title = افزودن جمله‌های جدید
 
 ## MY SENTENCES
 
