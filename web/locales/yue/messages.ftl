@@ -862,6 +862,8 @@ profile-form-delete = 刪除個人檔案
 
 download-q = 需要下載你嘅數據？
 download-info = 話畀我哋知你想下載啲咩：
+download-profile-title = 個人檔案
+download-profile-info = 包括電郵地址、用户名同人口統計資訊
 download-profile-size = 幾個字節
 download-recordings-title = 錄音
 download-recordings-info = 包含 MP3 錄音檔同相關語句，可能需要啲時間嚟準備
@@ -946,6 +948,7 @@ contribution-misreadings-example-6-title = 我哋咪出去飲咖啡。
 contribution-misreadings-example-6-explanation = [應該要係「唔係」]
 contribution-misreadings-example-7-title = 我哋唔係出去飲咖啡啊。
 contribution-misreadings-example-7-explanation = [原本冇「啊」]
+contribution-misreadings-example-8-explanation = [唔關事嘅內容]
 contribution-varying-pronunciations-title = 發音差異
 contribution-varying-pronunciations-description = 拒批錄音嗰陣要審慎一啲，尤其係因為讀錯，文白異讀，變調，漏咗個問號拉高等等問題。世界上有好多唔同嘅發音，有啲人嘅習慣同你可能有啲啲唔同。請理解同包容一啲講嘢方式同你有少少唔同嘅朋友。
 contribution-varying-pronunciations-description-extended = 另一方面，如果你覺得個朗讀者可能唔識隻字，又估錯隻字點讀，請拒批。唔肯定嘅，用跳過掣。
