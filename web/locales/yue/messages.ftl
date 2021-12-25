@@ -301,8 +301,8 @@ shortcut-discard-ongoing-recording = 退出
 shortcut-discard-ongoing-recording-label = 捨棄當前錄音
 shortcut-submit = 返回
 shortcut-submit-label = 提交錄音
-request-language-text = 喺 Common Voice 見唔到你嘅語言？
-request-language-text-learn = 喺呢度了解點樣請求佢！
+request-language-text = 喺 Common Voice 度見唔到你嘅語言？
+request-language-text-learn = 撳呢度瞭解點樣請求加埋佢！
 request-language-button = 申請增加一種語言
 
 ## ProjectStatus
