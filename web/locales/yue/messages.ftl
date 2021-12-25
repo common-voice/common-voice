@@ -874,6 +874,9 @@ download-start = 下載檔案數據
 download-request = 請求獲取錄音
 download-requests = 過往嘅下載錄音請求
 download-request-button = 下載
+download-request-title = { $created }
+download-request-archive-single = 包含單個zip檔
+download-request-assembling-description = 你嘅文件喺度整理緊，請稍後再試。
 download-request-refresh-button = 刷新
 download-request-modal-title = 下載連結
 download-request-metadata-link = 句子文本
@@ -959,7 +962,10 @@ contribution-varying-pronunciations-example-2-explanation = [喺邊一度嘅粵�
 contribution-background-noise-title = 背景嘈音
 contribution-background-noise-description = 我哋想機器學習嘅演算法可以處理到唔同嘅背景雜音，甚至係大聲嘅嘈音都可以接受。前題係啲聲唔會阻住你聽清楚錄音嘅文字。靜靜哋嘅背景音樂都可以。但係音樂聲大到聽唔清啲字就唔得。
 contribution-background-noise-description-extended = 如果個錄音斷開咗或者有沙沙聲，除非啲文字可以完整聽得到，否則就唔好批。
+contribution-background-noise-example-1-fixed-title = <strong>[乞嚏]</strong> 三疊紀嘅 <strong>[咳]</strong> 大恐龍。
+contribution-background-noise-example-2-fixed-title = 三疊紀嘅 <strong>[咳]</strong> 大恐龍。
 contribution-background-noise-example-2-explanation = [部份文字聽唔到]
+contribution-background-noise-example-3-fixed-title = 大<strong>[嘞嘞聲]</strong> 恐 <strong>[嘞嘞聲]</strong> 龍。
 contribution-background-voices-title = 背景聲音
 contribution-background-voices-description = 背景有安靜嘅人聲雜音都可以接受，但係唔可以有一把聲太突出，令機器演算法認出一啲原文冇嘅字。如果你聽到原文冇嘅字句，嗰段錄音就要拒批。一般有呢個情況就係背景開住咗電視，或者附近有其他人喺度傾偈。
 contribution-background-voices-description-extended = 如果段錄音斷開咗，或者沙沙聲，除非啲字聽得清楚，否則唔好批。
@@ -1044,9 +1050,19 @@ sc-howto-addsen-title = 添加新句子
 
 ## REVIEW
 
+sc-review-form-button-reject = 否決
+sc-review-form-button-skip = 跳過
+sc-review-form-button-approve = 通過
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = 你都可以用鍵盤快捷掣：撳 Y 通過、N 否決、S 跳過
+sc-review-form-button-submit =
+    .submitText = 完成審核
+sc-review-link = 審核
 
 ## SETTINGS
 
+sc-settings-title = 設定
+sc-settings-ui-language = 介面語言
 sc-validation-no-abbreviations = 句子唔應該含有縮寫
 
 # [/SentenceCollector]
