@@ -26,7 +26,7 @@ syr = ܣܘܼܪܝܝܐ
 ## Layout
 
 speak = ܐܡܪ
-speak-now = ܐܡܪ ܗܕ݂ܝܼܐ
+speak-now = ܐܡܪ ܗܕܝܐ
 datasets = ܣܕܪ̈ܐ ܕܫܘܘܕ̈ܥܐ
 languages = ܠܫܢ̈ܐ
 about = ܡܢܝ ܝܘܚ
