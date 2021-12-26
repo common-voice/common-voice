@@ -1031,18 +1031,35 @@ sc-footer-privacy = গোপনীয়তা
 sc-footer-terms = চৰ্তাৱলী
 sc-footer-cookies = কুকিজ
 sc-login-signup-button = লগিন / ছাইন আপ কৰক
+sc-logout-button = লগ-আউট কৰক
 
 ## HOME
 
+sc-home-title = কমন ভইচৰ বাক্য গোটোৱা সঁজুলিলৈ আদৰণি জনাইছোঁ
+sc-home-collect-title = বাক্য গোটাওক
+sc-home-collect-text = লিখি অথবা ৰাজহুৱা ডমেইনৰ বাক্য সংগ্ৰহ কৰি আমাক সহায় কৰক।
+sc-home-review-title = বাক্যবোৰ পৰ্যালোচনা কৰক
 
 ## HOW-TO
 
+sc-howto-title = এনেকৈ কৰা হয়
+sc-howto-addlang-text = লগিন কৰাৰ পিছতেই আপুনি প্ৰ'ফাইল শাখাৰ পৰা আপোনাৰ ভাষাবোৰ বাছনি কৰিব পাৰিব।
+sc-howto-addsen-title = নতুন বাক্য যোগ কৰক
+sc-howto-cite-title = এনেকৈ উদ্ধৃতি দিব লাগে
 
 ## MY SENTENCES
 
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = উৎস:  { $source }
+sc-my-delete = বাছনি কৰা বাক্যবোৰ মচি পেলাওক
+sc-my-deleting = বাছনি কৰা বাক্যবোৰ মচি থকা হৈছে…
+sc-my-err-failed-delete = বাছনি কৰা বাক্যবোৰ মচিবলৈ ব্যৰ্থ... অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক!
 
 ## REJECTED
 
+sc-rejected-title = নাকচ কৰা বাক্যবোৰ
+sc-rejected-loading = নাকচ কৰা বাক্যবোৰ ল'ড কৰি থকা হৈছে…
 
 ## STATS
 
