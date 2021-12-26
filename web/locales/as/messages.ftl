@@ -1049,6 +1049,7 @@ sc-howto-cite-title = এনেকৈ উদ্ধৃতি দিব লাগ�
 
 ## MY SENTENCES
 
+sc-my-title = মোৰ বাক্যবোৰ
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = উৎস:  { $source }
