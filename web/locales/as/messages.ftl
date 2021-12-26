@@ -1088,9 +1088,14 @@ sc-rejected-loading = নাকচ কৰা বাক্যবোৰ ল'ড �
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = উৎস: { $sentenceSource }
 sc-review-form-button-reject = নাকচ কৰক
-sc-review-form-button-skip = এৰক
+sc-review-form-button-skip = বাদ দিয়ক
 sc-review-form-button-approve = অনুমোদন জনাওক
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = আপুনি কীব'ৰ্ড চমুপথবিলাকো ব্যৱহাৰ কৰিব পাৰে: অনুমোদন জনাবলৈ Y, নাকচ কৰিবলৈ N, বাদ দিবলৈ S
 sc-review-form-button-submit =
     .submitText = পৰ্যালোচনা শেষ কৰক
 
@@ -1098,6 +1103,10 @@ sc-review-form-button-submit =
 
 sc-settings-title = ছেটিংছ
 sc-settings-ui-language = ইণ্টাৰফে'চৰ ভাষা
+sc-settings-show-all-button = বাদ পৰা আটাইবোৰ বাক্য আকৌ দেখুৱাওক
+sc-settings-failed = ছেটিংছ সলনি কৰিব পৰা নগ'ল। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।
+sc-validation-no-numbers = বাক্যত সংখ্যা থাকিব নালাগে
+sc-validation-no-symbols = বাক্যত চিহ্ন থাকিব নালাগে
 sc-validation-no-abbreviations = বাক্যত সংক্ষিপ্ত ৰূপ থাকিব নালাগে
 
 # [/SentenceCollector]
