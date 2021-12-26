@@ -1014,6 +1014,11 @@ see-less = <chevron></chevron>কম চাওক
 
 ## HEADER/FOOTER
 
+sc-header-home = মূখ্যপৃষ্ঠা
+sc-header-add = যোগ কৰক
+sc-header-review = পৰ্যালোচনা কৰক
+sc-header-rejected = নাকচ কৰা বাক্যবোৰ
+sc-header-my = মোৰ বাক্যবোৰ
 
 ## HOME
 
@@ -1053,9 +1058,17 @@ see-less = <chevron></chevron>কম চাওক
 
 ## REVIEW
 
+sc-review-form-button-reject = নাকচ কৰক
+sc-review-form-button-skip = এৰক
+sc-review-form-button-approve = অনুমোদন জনাওক
+sc-review-form-button-submit =
+    .submitText = পৰ্যালোচনা শেষ কৰক
 
 ## SETTINGS
 
+sc-settings-title = ছেটিংছ
+sc-settings-ui-language = ইণ্টাৰফে'চৰ ভাষা
+sc-validation-no-abbreviations = বাক্যত সংক্ষিপ্ত ৰূপ থাকিব নালাগে
 
 # [/SentenceCollector]
 
