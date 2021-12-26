@@ -79,6 +79,7 @@ hyw = Западнојерменски
 ia = Интерлингва
 id = Индонежански
 ie = Интерлингве
+ig = Игбо
 is = Исландски
 it = Италијански
 izh = Ижорски
@@ -87,6 +88,7 @@ ka = Грузински
 kaa = Кара-калпашки
 kab = Кабиле
 kbd = Кабардијски
+ki = Кикују
 kk = Казашки
 kmr = Севернокурдски
 ko = Корејски
@@ -124,6 +126,8 @@ pap-AW = Папијаменто (Аруба)
 pl = Пољски
 ps = Паштунски
 pt = Португалски
+quc = Киче
+quy = Кечуа Чанка
 rm-sursilv = Романш
 rm-vallader = Романш Валадер
 ro = Румунски
@@ -147,10 +151,14 @@ ta = Тамилски
 te = Телугу
 tg = Таџички
 th = Тајски
+ti = Тигриња
+tig = Тигре
+tk = Туркменски
 tl = Тагалог
 tr = Турски
 tt = Татарски
 tw = Tви
+ty = Тахићански
 uby = Убишки
 udm = Удмуртски
 ug = Ујгурски
@@ -968,3 +976,56 @@ contribution-misreadings-title = Грешке при читању
 contribution-misreadings-description = Приликом слушања, пажљиво проверите да ли је снимљено тачно онако како је написано; одбацујте чак и ако постоје мање грешке. <br />Врло честе грешке укључују:
 contribution-misreadings-description-extended-list-4 = Одсуство краја последње речи због превременог престанка снимања.
 contribution-misreadings-description-extended-list-5 = Поновљени покушаји читања речи.
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
