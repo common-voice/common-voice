@@ -377,6 +377,7 @@ skip-submission-note = 참고: Speak(말하기) 또는 Listen(듣기) 중 하나
 off = 꺼짐
 on = 켜짐
 help-accent = 억양에 도움이 필요하십니까?
+help-accent-explanation = 억양은 단어를 발음하는 방식입니다. 살았던 곳이나 사용하는 다른 언어나 기타 많은 요인에 의해 형성됩니다. 관련이 있다고 생각하는 정보를 여기에서 공유할 수 있습니다.
 
 ## Profile - Email
 
@@ -981,6 +982,7 @@ contribution-varying-pronunciations-title = 다양한 발음
 contribution-varying-pronunciations-description = 읽는 사람이 단어를 잘못 발음했거나, 강세를 잘못된 위치에 넣었거나, 물음표를 무시했다면 클립을 거부하기 전에 확인해주세요. 전 세계에서 사용되는 발음은 매우 다양하며, 그 중 일부는 지역 사회에서 들어보지 못한 것일 수 있습니다. 다르게 말하는 사람들을 위한 이해의 여백을 남겨 주세요.
 contribution-varying-pronunciations-description-extended = 반면에 읽는 사람이 단어를 이전에 본 적이 없는 것 같고 발음에 대해 잘못된 추측을 하고 있다고 생각되면 거부하세요. 확실하지 않은 경우 건너뛰기 버튼을 사용하세요.
 contribution-varying-pronunciations-example-1-title = 머리에는 베레모를 쓰고 있었습니다.
+contribution-varying-pronunciations-example-1-explanation = ['Beret'은 강세가 첫 음절(영국)이든 두 번째 음절(미국)이든 괜찮습니다.]
 contribution-background-noise-title = 배경 소음
 contribution-background-noise-description = 우리는 기계 학습 알고리즘이 다양한 배경 소음을 처리할 수 있기를 원하며, 텍스트 전체를 듣는 데 방해가 되지 않는다면 비교적 큰 소음도 수용할 수 있습니다. 조용한 배경 음악은 괜찮습니다. 모든 단어가 들리지 않을 정도로 큰 음악은 그렇지 않습니다.
 contribution-background-noise-description-extended = 녹음이 깨지거나 딱딱거리는 소리가 난다면, 텍스트 전체가 잘 들리지 않는 한 거부합니다.
