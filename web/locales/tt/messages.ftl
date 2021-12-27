@@ -344,6 +344,7 @@ hidden = Яшерен
 visible = Күренә
 native-language =
     .label = Ана теле
+profile-form-add-accent = Яңа үзгә "{ $inputValue }" акцентын өстәү
 profile-form-submit-save = Саклау
 profile-form-submit-saved = Сакланды
 male = Ир-ат
@@ -973,6 +974,9 @@ sc-logout-button = Чыгу
 
 ## HOME
 
+sc-home-title = Common Voice җөмләләр җыючысына рәхим итегез
+sc-home-collect-title = Җөмләләр туплау
+sc-home-collect-text = Иҗтимагый милектәге җөмләләр язып яки җыеп, безгә ярдәм итегез.
 sc-home-review-title = Җөмләләрне тикшерү
 
 ## HOW-TO
@@ -980,6 +984,8 @@ sc-home-review-title = Җөмләләрне тикшерү
 sc-howto-title = Кулланма
 sc-howto-addsen-title = Яңа җөмләләр өстәү
 sc-howto-review-title = Җөмләләрне тикшерү
+sc-howto-findpd-title = Иҗтимагый милектәге җөмләләрне табу
+sc-howto-findpd-subtitle = Аларны интернетта эзләү
 
 ## MY SENTENCES
 
@@ -999,6 +1005,7 @@ sc-my-deleting = Сайланган җөмләләр бетерелә…
 
 sc-rejected-title = Кире кагылган җөмләләр
 sc-rejected-loading = Кире кагылган җөмләләр йөкләнә…
+sc-rejected-none-found = Кире кагылган җөмләләр табылмады!
 
 ## STATS
 
