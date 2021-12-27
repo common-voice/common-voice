@@ -983,6 +983,7 @@ contribution-varying-pronunciations-description = 읽는 사람이 단어를 잘
 contribution-varying-pronunciations-description-extended = 반면에 읽는 사람이 단어를 이전에 본 적이 없는 것 같고 발음에 대해 잘못된 추측을 하고 있다고 생각되면 거부하세요. 확실하지 않은 경우 건너뛰기 버튼을 사용하세요.
 contribution-varying-pronunciations-example-1-title = 머리에는 베레모를 쓰고 있었습니다.
 contribution-varying-pronunciations-example-1-explanation = ['Beret'은 강세가 첫 음절(영국)이든 두 번째 음절(미국)이든 괜찮습니다.]
+contribution-varying-pronunciations-example-2-explanation = [영어의 'Raised'는 항상 2음절이 아닌 1음절로 발음합니다.]
 contribution-background-noise-title = 배경 소음
 contribution-background-noise-description = 우리는 기계 학습 알고리즘이 다양한 배경 소음을 처리할 수 있기를 원하며, 텍스트 전체를 듣는 데 방해가 되지 않는다면 비교적 큰 소음도 수용할 수 있습니다. 조용한 배경 음악은 괜찮습니다. 모든 단어가 들리지 않을 정도로 큰 음악은 그렇지 않습니다.
 contribution-background-noise-description-extended = 녹음이 깨지거나 딱딱거리는 소리가 난다면, 텍스트 전체가 잘 들리지 않는 한 거부합니다.
@@ -1006,9 +1007,25 @@ see-less = <chevron></chevron>덜 보기
 
 ## HEADER/FOOTER
 
+sc-header-home = 홈
+sc-header-add = 추가
+sc-header-review = 리뷰
+sc-header-rejected = 거부된 문장
+sc-header-my = 내 문장
+sc-header-statistics = 통계
+sc-header-profile = 프로필
+sc-footer-report-bugs = 오류 신고
+sc-footer-translate = 이 페이지 번역
+sc-footer-report-copyright = 저작권 문제 신고
+sc-footer-privacy = 개인 정보 보호
+sc-footer-terms = 이용약관
+sc-footer-cookies = 쿠키
+sc-login-signup-button = 로그인 / 회원가입
+sc-logout-button = 로그아웃
 
 ## HOME
 
+sc-home-title = Common Voice Sentence Collector에 오신 것을 환영합니다
 
 ## HOW-TO
 
