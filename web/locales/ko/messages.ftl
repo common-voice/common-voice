@@ -154,6 +154,7 @@ tg = 타지크어
 th = 태국어
 ti = 티그리냐어
 tig = 티그레어
+tk = 투르쿠멘어
 tl = 타갈로그어
 tr = 터키어
 tt = 타타르어
@@ -324,8 +325,13 @@ profile-form-native-language =
     .label = 모국어
 profile-form-additional-language =
     .label = 추가 언어
+profile-form-language =
+    .label = 언어
 profile-form-accent =
     .label = 억양
+profile-form-custom-accent-help-text =
+    .label = 당신의 억양을 어떻게 설명하시겠습니까?
+profile-form-custom-accent-placeholder-2 = 억양을 설명하기 위해 입력을 시작하세요.
 profile-form-age =
     .label = 나이
 profile-form-gender-2 =
@@ -336,6 +342,7 @@ hidden = 숨김
 visible = 보이기
 native-language =
     .label = 모국어
+profile-form-add-accent = 새 사용자 지정 억양 "{ $inputValue }" 추가
 profile-form-submit-save = 저장
 profile-form-submit-saved = 저장됨
 male = 남자
@@ -369,6 +376,7 @@ skip-submission-description = '제출'을 클릭하면 기여 제출 피드백�
 skip-submission-note = 참고: Speak(말하기) 또는 Listen(듣기) 중 하나를 선택해야 합니다.
 off = 꺼짐
 on = 켜짐
+help-accent = 억양에 도움이 필요하십니까?
 
 ## Profile - Email
 
