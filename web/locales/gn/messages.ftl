@@ -1085,8 +1085,11 @@ sc-submit-select-language =
     .labelText = Eiporavo ñe’ẽ
 sc-submit-ph-one-per-line =
     .placeholder = Peteĩ ñe’ẽrysýi tairendápe
+sc-submit-ph-read-how-to =
+    .placeholder = Emoñe’ẽ ore Mba’éichapa ojejapo ndereikuaaporãirõ mba’éichapa ejapóta
 sc-submit-button =
     .submitText = Mondo
+sc-submit-guidelines = Eporandu umi <howToLink>jejaporã</howToLink>.
 
 ## ADD LANGUAGE
 
@@ -1096,6 +1099,8 @@ sc-add-err-submission = Ojavy ñemondo
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Ñe’ẽjoaju oñemondo’ỹva, ¿Esẽsépa añetehápe?
 sc-confirm-sentences-title = Emoneĩ ñe’ẽjuaju pyahu
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
