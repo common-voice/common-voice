@@ -1133,6 +1133,7 @@ sc-login-err-try-again = Eha’ãjey ag̃ave.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Mba’ete: { $username }
+sc-personal-err-lang-not-found = Ndaikatúi emboguete pe ñe’ẽ: ñe’ẽ ojejuhu’ỹva
 sc-personal-err-remove = Neremboguekuaái pe ñe’ẽ
 sc-personal-your-languages = Ne ñe’ẽnguéra:
 sc-personal-remove-button = jeipe’a
@@ -1143,6 +1144,7 @@ sc-personal-added-by-you = { $sentences } nde embojuajupyre
 ## REVIEW CRITERIA
 
 sc-criteria-item-3 = Pe ñe’ẽjuaju oje’ekuaava’erã.
+sc-criteria-item-6 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃ua, ¡orepytyvõ rombyatyvévo ñe’ẽjuaju!
 
 ## REVIEW
 
