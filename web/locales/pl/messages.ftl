@@ -129,6 +129,7 @@ pl = polski
 ps = paszto
 pt = portugalski
 quc = kicze
+quy = keczua chanka
 rm-sursilv = retoromański (sursilvan)
 rm-vallader = retoromański (vallader)
 ro = rumuński
