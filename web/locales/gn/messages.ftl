@@ -1146,6 +1146,7 @@ sc-criteria-item-3 = Pe ñe’ẽjuaju oje’ekuaava’erã.
 
 ## REVIEW
 
+sc-review-lang-not-selected = Ndereiporavói mba’evéichagua ñe’ẽ. Tereho nde <profileLink>Mba’etépe</profileLink> eiporavokuaa hag̃ua ñe’ẽ.
 sc-review-title = Ehechajey ñe’ẽjuaju
 sc-review-loading = Emyanyhẽ ñe’ẽrysýi…
 sc-review-select-language = Eiporavo ñe’ẽ ehechajey hag̃ua ñe’ẽjuajukuéra.
@@ -1157,6 +1158,8 @@ sc-review-form-source = Teñoiha: { $sentenceSource }
 sc-review-form-button-reject = Hejarei
 sc-review-form-button-skip = Jepo
 sc-review-form-button-approve = Moneĩ
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = Eipurukuaa avei tairenda mbopya’eha: Y emoneĩ hag̃ua, N emboyke hag̃ua, N embotove hag̃ua
 sc-review-form-button-submit =
     .submitText = Jehechajeypáma
 sc-review-form-review-failure = Ndaikatúi eñongatu pe jehai’i. Eha’ãjey ag̃amieve.
