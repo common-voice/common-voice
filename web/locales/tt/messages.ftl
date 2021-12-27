@@ -1024,22 +1024,52 @@ sc-submit-err-add-source = Зинһар, чыганак өстәгез.
 sc-submit-title = Җөмләләр өстәү
 sc-submit-select-language =
     .labelText = Телне сайлау
+sc-submit-add-sentences = <wikipediaLink>Иҗтимагый милектәге</wikipediaLink> җөмләләр өстәү
 sc-submit-button =
     .submitText = Җибәрү
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Телне өстәп булмады
 sc-add-lang-sec-button = Тел өстәү
 sc-add-err-submission = Җибәрү хатасы
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Яңа җөмләләрне раслау
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Җөмләләр табылмады.
+        [one] 1 җөмлә табылды.
+       *[other] { $countOfSentences } җөмлә табылды.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } җөмләне кире кактыгыз
 sc-confirm-button-text = Раслау
 
 ## LANGUAGE INFO
 
 sc-lang-info-review-now = <reviewLink>Хәзер үк тикшерәм!</reviewLink>
 sc-lang-info-add-more = <addLink>Хәзер үк күбрәк җөмләләр өстим!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Тикшерелгән җөмләләр юк.
+        [one] 1 җөмлә тикшерелде.
+       *[other] { $validatedSentences } җөмлә тикшерелде.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Кире кагылган җөмләләр юк.
+        [one] 1 җөмлә кире кагылды.
+       *[other] { $rejectedSentences } җөмлә кире кагылды.
+    }
 
 ## LOGIN
 
@@ -1053,6 +1083,9 @@ sc-login-err-try-again = Зинһар янәдән тырышып карагыз
 sc-profile-title = Профиль: { $username }
 sc-personal-your-languages = Сезнең телләрегез:
 sc-personal-remove-button = бетерү
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } җөмлә өстәгәнсез
 
 ## REVIEW CRITERIA
 
@@ -1071,12 +1104,18 @@ sc-review-form-source = Чыганак: { $sentenceSource }
 sc-review-form-button-reject = Кире кагу
 sc-review-form-button-skip = Калдырып тору
 sc-review-form-button-approve = Раслау
+sc-review-form-button-submit =
+    .submitText = Тикшерүне тәмамлау
 sc-review-link = Тикшерү
 
 ## SETTINGS
 
 sc-settings-title = Көйләүләр
 sc-settings-ui-language = Интерфейс теле
+sc-settings-reset-skipped = Калдырып торган җөмләләрне үз хәлләренә кайтару
+sc-validation-no-numbers = Җөмләдә саннар булырга тиеш түгел
+sc-validation-no-symbols = Җөмләдә символлар булырга тиеш түгел
+sc-validation-no-abbreviations = Җөмләдә кыскартылмалар булырга тиеш түгел
 
 # [/SentenceCollector]
 
