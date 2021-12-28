@@ -78,6 +78,7 @@ hy-AM = Armenio ñe’ẽ
 hyw = Armenio ñe’ẽ Kuarahyreike gotyogua
 ia = Ñe’ẽ Interlingua
 id = Indonesia ñe’ẽ
+ie = Ñe’ẽ Interlingua
 ig = Igbo
 is = Islandia ñe’ẽ
 it = Italia ñe’ẽ
