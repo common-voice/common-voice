@@ -1149,6 +1149,7 @@ sc-personal-added-by-you = { $sentences } nde embojuajupyre
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-2 = Pe ñe’ẽjuaju oĩ hekopete ñe’ẽtekuaa rupi.
 sc-criteria-item-3 = Pe ñe’ẽjuaju oje’ekuaava’erã.
 sc-criteria-item-6 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃ua, ¡orepytyvõ rombyatyvévo ñe’ẽjuaju!
 
@@ -1158,6 +1159,7 @@ sc-review-lang-not-selected = Ndereiporavói mba’evéichagua ñe’ẽ. Tereho
 sc-review-title = Ehechajey ñe’ẽjuaju
 sc-review-loading = Emyanyhẽ ñe’ẽrysýi…
 sc-review-select-language = Eiporavo ñe’ẽ ehechajey hag̃ua ñe’ẽjuajukuéra.
+sc-review-no-sentences = Ndaipóri ñe’ẽjuaju jehechajeyrã. <addLink>¡Embojuajuve ñe’ẽjuaju ko'ág̃a!</addLink>
 sc-review-form-prompt =
     .message = Ñe’ẽjuaju jehechapyre oñemondo’ỹva, ¿ejaposéta?
 # Variables:
@@ -1185,6 +1187,7 @@ sc-review-link = Hechajey
 
 sc-settings-title = Ñemboheko
 sc-settings-ui-language = Jehechaha Ñe’ẽ
+sc-settings-language-translated-warning = Hi’ã chéve kuatiarogue ko ñe’ẽmegua noñembohasapái gueteri. Ikatu eipytyvõ pe ñe’ẽasápe <pontoonLinkLink>Pontoon pegua</pontoonLinkLink>
 sc-settings-reset-skipped = Erujey ñe’ẽjoaju hejapyre
 sc-settings-show-all-button = Ehechaukapa ñe’ẽjuaju ojehejerei pyahúva
 sc-settings-failed = Neremoambuekuaái ñembohekopyahu. Eha’ãjey ag̃ave.
