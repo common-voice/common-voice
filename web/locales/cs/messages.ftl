@@ -936,6 +936,8 @@ download-request-refresh-button = Obnovit
 download-request-modal-title = Odkazy pro stažení
 download-request-modal-description = Zde jsou odkazy pro stažení vašich souborů ZIP.
 download-request-link-text = ZIP { $offset } z { $total }
+download-request-metadata-link = Text věty
+download-request-link-single = Můžete také zkopírovat a vložit adresy těchto odkazů do svého oblíbeného správce stahování. Jejich platnost vyprší za 12 hodin, ale kdykoli se můžete vrátit na tuto stránku a vygenerovat nové.
 
 ## Landing
 
@@ -983,12 +985,14 @@ demo-dashboard-card-body = Vaše nástěnka se aktualizuje s každou nově nahra
 
 ## Validation criteria
 
+contribution-criteria-nav = Kritéria
 contribution-criteria-link = Kritéria pro přispívání
 contribution-criteria-page-title = Kritéria pro přispívání
 contribution-criteria-page-description = Na co se zaměřit při poslechu hlasových nahrávek i při pořizování vlastních nahrávek.
 contribution-for-example = například
 contribution-misreadings-title = Přeřeknutí
 contribution-misreadings-description = Během poslechu dávejte bedlivě pozor, jestli nahrávka obsahuje přesně to, co je napsáno. Odmítněte nahrávku i pokud obsahuje jen drobnou chybu. <br />Mezi běžné chyby patří:
+contribution-misreadings-description-extended-list-1 = Chybějící krátká slova jako <strong>'V'</strong> nebo <strong>'Pro'</strong> na začátku nahrávky.
 contribution-misreadings-description-extended-list-4 = Chybějící část posledního slova kvůli předčasně ukončenému nahrávání.
 contribution-misreadings-description-extended-list-5 = Opakované přečtení téhož slova.
 contribution-varying-pronunciations-description = Speciální péči věnujte případnému zamítání nahrávek kvůli odlišně vyslovenému slovu, přízvuku nebo tónu věty. Ne každý vyslovuje stejně, jako vy, a v našem datasetu chceme zachytit výslovnost každého, pokud je správná.
