@@ -1170,6 +1170,14 @@ sc-review-form-button-approve = Moneĩ
 sc-review-form-keyboard-usage = Eipurukuaa avei tairenda mbopya’eha: Y emoneĩ hag̃ua, N emboyke hag̃ua, N embotove hag̃ua
 sc-review-form-button-submit =
     .submitText = Jehechajeypáma
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ndojehechajeýi ñe’ẽjoaju.
+        [one] 1 ñe’ẽjoaju ojehechajeýva. ¡Aguyje!
+       *[other] { $sentences } ñe’ẽjoaju ojehechajeýva. ¡Aguyje!
+    }
 sc-review-form-review-failure = Ndaikatúi eñongatu pe jehai’i. Eha’ãjey ag̃amieve.
 sc-review-link = Hechajey
 
