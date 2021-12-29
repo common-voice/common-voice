@@ -708,6 +708,7 @@ Ano, ti rebelové.
 Ano, tohle je ten třetí typ sousedů.
 Ano, zastřelil jsem vlka samopalem.
 Ano, úředníci.
+Apoštolské Vyznání
 Arboristou bys být nechtěl?
 Arduino a EduShield
 Aritmeticko-logická jednotka "alu"
@@ -875,6 +876,7 @@ Božena Němcová, rodným jménem vlastně Barbora Panklová, narodila se ve V�
 Boží soud!
 Brambory taky nestály za moc.
 Bramborák neboli vošouch je oblíbené jídlo.
+Branná pohotovost státu.
 Bratr její dal se také bez okolků do výkladu.
 Bratr ji zastavil.
 Bratře střez neteř.
@@ -955,9 +957,11 @@ Buďte tak dobrá, co stojí u vás libra chleba?
 Buďte veselí.
 Buďte vítána, slečno Gloryová.
 Buďto mně řekněte do očí něco strašně zlého, a pak vás nechám.
+By drůbež nemohla přeletět.
 Bych byl rád, kdybyste se za mnou někdy zastavili.
 Bydlíte tu dlouho?
 Bydlíš s někým?
+Byl ale předešlo se nákladnému sporu o vlastnictví.
 Byl by z vás dobrý chirurg.
 Byl bych rád, kdybyste se za mnou brzy zastavil, abych byl v obraze.
 Byl divný už od dětství nejútlejšího.
@@ -1347,6 +1351,7 @@ Daleko častěji dělají party u sebe v bytě než venku.
 Dali by ji do stoupy.
 Dali mně lhůtu – do dne do roka.
 Dali si s tím práci a chtěli vytvořit něco hezkého.
+Dali část kamene a pomáhali stavět uvádí Vojka.
 Dalo by se říct, že Pepíček je sympatický a přítulný tlusťoch.
 Dalo by se říct, že jen absolutní minimum.
 Další blok je zaklet k tomu, aby nesl samé železné balkóny.
@@ -1453,6 +1458,7 @@ Do prdele!
 Do práva autorského nezasahuje ten, kdo užije dílo pro účely karikatury nebo parodie.
 Do ulice je obrácen výrazným portálem s bosáží.
 Do zahrádky šla z několika sousedních domů okna.
+Do zbraně byli povoláni příslušníci specielních jednotek.
 Do zeleninového vývaru se přidává maso ze psa.
 Do čeho?
 Dobrej den, slečinko.
@@ -1694,6 +1700,7 @@ Editor nabízí jejich vyhledávač.
 Ediční program je zaměřen na vydávání odborných, ale i populárně naučných publikací
 EduShield
 EduShield a displej
+Eduard Králík při známé jeho povaze a příznivých poměrech.
 Ehm, teda, řidič.
 Ehmm.
 Ekonomky a elektrikáři to mají už zítra.
@@ -1837,6 +1844,7 @@ Hm, vůně pro sportovce?
 Hned jak jste sňala závoj.
 Hned na obrázku se mi líbila.
 Hned ráno, sotva se postavím před vrata, vidím, že mně někdo trhá třešně.
+Hned tak zeď od kuželníku co měl stavět Nováček neb Sajbrt.
 Hned tam zatelefonuji.
 Hned to bude.
 Hned toho nech!
@@ -2458,6 +2466,7 @@ Jenže ze mě žádný peníze nedostane.
 Jenže...
 Jest to obraz příliš pitvorný a hnusný.
 Jest to račí ucho, nedokonalé a zakrnělé ve svém ústrojí.
+Jest tudíž tvrzení Josefy Sajbrtové, že tuto zeď „žádný“ neopravoval.
 Jest čas, ať dále přijdu.
 Jestli bude čas, přidat nepřátele.
 Jestli by o něco takového byl zájem větší než malý.
@@ -2507,6 +2516,7 @@ Ještě čekat.
 Ještě štěstí, že se nesešli.
 Ježiš, ahoj!
 Ježišikriste.
+Ježto naše obce je příliš malá, nebylo možno nijakých oslav v obci pořádati.
 Ježíšmarjá, Šefle, honem!
 Ji chválí a tobě nadávají, chce-li sedlák náš neodbytnosť někoho naznačit.
 Jim je to jedno, nemají vůbec chuti.
@@ -2783,6 +2793,7 @@ K tomu je zapotřebí doložit úmrtní list.
 K tomu nemám pravomoc.
 K tomu připojíme rezistor, elektrolytický kondenzátor
 K tomuto skvělému jídlu by se nejlépe hodil kečup.
+K utlumení pohraničních třenic, způsobených příslušníky německé Henleinovy strany.
 K vůli vám se jí odříkám!
 K čemu je tato stránka?
 K čemu jednotlivé šuplíky slouží?
@@ -2964,6 +2975,7 @@ Když jsme vylezli ven, tak nás ovanul svěží jarní vánek.
 Když jste dva, bylo by dobré nějak slučovat násobné detekce do jedné.
 Když kritizuji, měl bych současně navrhnout něco jiného.
 Když mne učit chceš, račiž napřed jíti sám!
+Když na zřízení této zahrady tak značný náklad věnoval.
 Když navrtával telefonní automat, aby do něj mohl napumpovat vanilkový puding.
 Když ne izolačka, tak špagát.
 Když ne, tak nestahujeme.
@@ -3276,6 +3288,7 @@ Maminko, já se půjdu koupat.
 Mandát poslance nebo senátora vzniká zvolením.
 Marcela sledovala nekonečný televizní seriál.
 Marek si sedá na židli.
+Marie Kolářová a Anastazie Kuchařová
 Marie se tři roky nekoupe, pouze sprchuje.
 Marie, Sullo, můžete odejít.
 Marie, doveďte Sullu do pitevny, aby ji otevřeli.
@@ -3306,6 +3319,7 @@ Mezi dveřmi stál - přítel...
 Mezi fosilní paliva řadíme uhlí, ropu a zemní plyn.
 Mezi hlavní alkohol patří pivo a sodžu.
 Mezi nimi pěkný vejcovitý s držákem.
+Mezi novostavbou a skladištěm benzínu uvádí majitel sousední zahrady Matěje Vojka toto:
 Mezi těmi našimi předky museli být andělé.
 Meziroční rozdíl v tržbách však podle něj nebude tak markantní jako letos.
 Mezitím připravíme louh.
@@ -4075,6 +4089,7 @@ Nebuď tak písčitá.
 Nebyl bych vám šel na oči.
 Nebyl jsem v Anglii dobrých deset let.
 Nebyl to přece idiot.
+Nebyla nikdy žádným opravována.
 Nebyla tak velká, jako se ze začátku zdálo.
 Nebyla ti zima?
 Nebyla to ani tak diskuse, jako monolog.
@@ -4130,6 +4145,7 @@ Nejdéle však se slaví Polanár, neboť přichází jen vzácně.
 Nejdřív si ji dá do pusy první.
 Nejdřív vysunula pravou přední nožičku dopředu, a co teď?
 Nejdřív zkusil udělat umělého psa.
+Nejdříve Králík, po něm Vojka, který ji několikráte opravoval.
 Nejdříve proběhlo přijímání.
 Nejdříve vyhladíte obraz nějakým filtrem.
 Nejeden host se nechal zlákat k rozhovoru.
@@ -4270,6 +4286,7 @@ Není to však nic světoborného.
 Není tu pan lesní?
 Není tu.
 Není tvůj kmen tak starý jako všech ostatních ptáků?
+Není vyloučeno, že toto manželům Sajbrtovým bylo Králíkem hrazeno.
 Není vám zima?
 Není žena.
 Není-li taková utěšená rozprava k zlosti a při tom k smíchu?
@@ -4305,6 +4322,7 @@ Nesnese se se sestrou.
 Nesou Loupežníka k vozu.
 Nesouhlasy?
 Nespatřil nic.
+Nesprávným již i z toho důvodu.
 Nestihli jsme to včas.
 Nestrachujte se a běžte domů.
 Nestydíš se trochu?
@@ -4655,6 +4673,7 @@ Některé tyhle sbírky se staly legendou.
 Někteří lidé už jsou prostě takoví.
 Někteří používají parafín smíchaný s nitrákem.
 Někteří prodejci nicméně už omezují investice a začínají šetřit.
+Někteří se dostali až na hranice, jiní hlídkovali u mostů na Milevsku a Horažďovicku.
 Někteří také hučení vnímají skrze své tělo.
 Někteří ze spolupacientů se vyléčí nebo uchlastají.
 Někteří.
@@ -4746,6 +4765,7 @@ Od autorů příspěvku.
 Od božího rána až do slunce západu most nestačí se zvedati.
 Od mých patnácti let chci být kouzelníkem.
 Od našich až sem a zas k našim a zas sem a jakoby nic.
+Od nemajetných manželů Sajbrtových.
 Od něho se odvíjel celý zdejší život.
 Od té doby jsem osiřel.
 Od té doby mají foxteriéři černé a hnědé skvrny, víš?
@@ -4753,6 +4773,7 @@ Od té doby tam chodím, každý týden dvakrát.
 Odborové organizace vznikají nezávisle na státu.
 Odbory tomu nečinně přihlížejí, zatímco vláda tvrdě spí.
 Odchlíplá podešev nabírala sníh, mráz hryzl obnažené palce.
+Odchodem hospodářů nastal nedostatek pracovních sil.
 Oddá je kněz Vavřinec.
 Ode mne?
 Odejde do domu.
@@ -5008,6 +5029,7 @@ Panečku, já poznal hezký kousek světa.
 Panna, nebo orel?
 Panovala tam dobrá nálada.
 Panoši a zbrojnoši.
+Paní Kirian postaví na této zdi zděné pilířky a tyto spojí plankovým plotem.
 Paní ji tudíž více již nenutila.
 Paní pekařka přisahala pomstu.
 Paní četla označené místo francouzské knihy.
@@ -5173,6 +5195,7 @@ Podsvícení displejů elektrospotřebičů.
 Podvodnice!
 Podvádějícím svou manželku.
 Podzim přešel v zimu.
+Podzimní práce byly zpožděny, statky jen se služebnými.
 Podá Cikánce ruku.
 Podání reklamace nemá odkladný účinek.
 Podává vizitku.
@@ -5305,6 +5328,7 @@ Pomyslel jsem si, že je to opravdu vážné.
 Pomáhá vám to sestavit si model světa.
 Pomůže mi se zotavit, když jsem zraněný.
 Ponechal jsem ho aspoň u sebe ve věži.
+Poněvadž nemohl neb nechtěl, stavěl Králík.
 Popis se týká pouze registrace pro Česko.
 Popovídal si s ním.
 Popravuje zvířata, co odporují.
@@ -5610,6 +5634,7 @@ Prosím, sedněte.
 Prosím, slečno, posaďte se.
 Prosím, tuhle větu tam nedávej.
 Prosím, zavolej mi, jak budeš moct.
+Proti výpovědi Josefy Sajbrtové v příčině vlastnictví zdi.
 Proto by to měl někdo oživit.
 Proto existuje možnost registrace ochranné známky.
 Proto je důležité, aby byla nová silnice vidět v mapách.
@@ -5630,6 +5655,7 @@ Proto si umanul udělat člověka navlas, jako jsme my.
 Proto si všechno ostatní svlékl, aby boty lépe vynikly.
 Proto tak učiním.
 Proto tu dal tatínek zamřížovat všechna okna, když utekla.
+Proto tvrzení Josefi Sajbrtové.
 Proto virtuálně metry, reálně však kilometry a více.
 Proto věru není vystavěn Karlštejn!
 Protože by mohly být pochopené doslova.
@@ -6237,6 +6263,7 @@ Silně to zvyšuje adhezi.
 Sinus je lichá funkce.
 Sivé oči jeho zahleděly se do plamenů.
 Sklapla pixla.
+Skončeno a podepsáno.
 Skončila válka.
 Skoro bych otevřela oči, abych viděla, jak vypadáš.
 Skoro jako by jí na tu historii nestačil dech.
@@ -6393,9 +6420,11 @@ Starý voják se ozval, hladě si dlouhé kníry.
 Stav se za mnou na začátku příštího týdne a koukneme na to.
 Stav se za mnou.
 Stavebnice
+Stavební komise navrhuje aby stavba dle nákresu provedená byla.
 Stavit se můžeš, jestli chceš.
 Stavím se kdykoliv jindy.
 Stavíme z polotovarů
+Stavěl tuto zeď Králík sám, jak on v památní knize doslovně píše.
 Stavět a vážit v hrsti.
 Stačila jedna policejní kulka.
 Stačí pár Voltů a buď jej to omráčí, nebo zabije.
@@ -7745,6 +7774,7 @@ Vedení se rozhodlo celou akci zhodnotit.
 Vedení školy následně uplatnilo své nejnovější poznatky.
 Vedle Dominova stolu psací stroj, na němž píše dívka Sulla.
 Vedle běží televize.
+Vedle mladších aktivních ročníků.
 Vedle nich dva biče, tykadel to tvar, všemu tvorstvu na postrach, se chvějí.
 Vedle sebe, za sebou
 Vedle vozu kráčela žena, nesouc na hřbetě malé děvče.
@@ -8225,6 +8255,7 @@ Větší část kódu jste odněkud převzal a nikde se o této skutečnosti nez
 Věř mi, prosím.
 Věřila byste, že si nebožtík mladý Rossum zahrál na Boha?
 Věřím tomu, už pro ty tvé velké černé oči!
+Věřím v Boha Otce všemohoucího, stvořitele nebe i země.
 Věříte v konec světa?
 Vřetánko je jednoduchý nástroj pro ruční přadení vlny.
 Však bývalo hůře ještě před nedávném.
@@ -8361,6 +8392,7 @@ Z toho mohlo vzniknout něco velmi zajímavého!
 Z toho může pramenit několik problémů.
 Z toho si nic nedělej.
 Z toho vyplývá, že ve filmu je jen málo sekund bez triků.
+Z toho zřejmo vlastníctví na zeď Vojky.
 Z toho, co jsem měl před tím, jsem tam nic nedal.
 Z této množiny volí hráči svoje rozhodnutí - strategii.
 Z vrat domu vyjde Fanka.
@@ -8399,6 +8431,7 @@ Za tímto účelem vládá připraví podmínky pro otevření trhu v železnič
 Za týden by měla být kolaudace.
 Za základní přístup k problematice změny klimatu vláda považuje adaptaci na tuto změnu.
 Za účelem zrychlení sítě byl zaslán požadavek na zjištění příčiny pomalého internetu.
+Zabavením obecní kroniky donutily kronikáře k dočasnému mlčení.
 Zabočil za roh.
 Zabušil na vrata.
 Zachraňte ho!
@@ -8454,6 +8487,7 @@ Zasvištěl svišť, slyšel sysel.
 Zatancujme si.
 Zatim ten pán jen klopejt.
 Zatloukat, zatloukat, zatloukat.
+Zato žádal asi hmotných obětí na ohražení své zahrady.
 Zatraceně, ani při nejlepší vůli tenhle pokus neukecám.
 Zatáhni za páku, stiskni knoflík.
 Zatím co Evička skonávala, spěchali sem dědeček a babička.
@@ -8517,6 +8551,8 @@ Zde u lidí je pravá nevděčnosť.
 Zde vidím velký prostor pro další rozvoj.
 Zde válka běsná.
 Zde čti, co lidé o tobě povídají.
+Zdi a vak se zahražovaly.
+Zdi nečiní majitel zahrady.
 Zdravotní sestra není skutečná.
 Zdravím všechny řešitele projektu.
 Zdravím, Roman včera určitě říkal něco o odevzdání projektu.
@@ -8722,12 +8758,16 @@ jak obstát ve světě Internetu a technologií
 jako je šifrování, hešování a podobně.
 já znám dva Ferdinandy.
 když vím jen to, že součin má být xyz?
+kronikář Vojtěch Matějka
 letem světem, a později se k ní vrátit.
 mos, cmos
 my použijeme libovolný z nich – tedy eles, hácé...
 my se k nim taky dostaneme
 na těchto stránkách můžete zdarma stáhnout v elektronickém formátu.
+narodil se z Marie Panny
 od základů číslicové techniky přesuneme ke konstrukci složitějších obvodů - totiž vlastních počítačů
+odpuštění hříchů
+odtud přijde soudit živé i mrtvé.
 one-Wire
 po úvodu do elektroniky a základech mikroprocesorových konstrukcí
 procesor osmdesát padesát jedna
@@ -8735,10 +8775,14 @@ publikací spojených s Internetem a jeho technologiemi.
 pwm
 přes základní elektronické součástky a řadu číslicových obvodů ttl řady sedumtisíc čtyřista
 přináší úvod do práce s programovatelnými logickými poli.
+společenství svatých
 tak se v elektronice používá blikání světlem.
 totiž integrovaný obvod.
+třetího dne vstal z mrtvých
+vstoupil do nebe, sedí po pravici Boha Otce všemohoucího
 vyrábí ho celá řada výrobců v nejrůznějších obměnách
 využijeme z nich polovinu, tedy tři.
+vzkříšení těla
 xor
 Á plus bé je menší než cé.
 Á, slečinka.
@@ -8975,6 +9019,7 @@ xor
 Že se to muselo stát u nás!
 Že seš taková rozzářená?
 Že systém neběžel?
+Že tato zeď bude vždy naše, od té doby co byla zeď postavena.
 Že ti to není hanba!
 Že to celé nemyslím vážně?
 Že tu okamžitě není, ale že dnes večer jistě sem přijede.
