@@ -1087,10 +1087,13 @@ sc-submit-prompt =
 sc-submit-title = Embojuaju ñe’ẽjuaju
 sc-submit-select-language =
     .labelText = Eiporavo ñe’ẽ
+sc-submit-add-sentences = Embojuaju ñe’ẽjuaju <wikipediaLink>opavaveguáva</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Peteĩ ñe’ẽrysýi tairendápe
+sc-submit-from-where = ¿Moõgui osẽ ko’ã ñe’ẽjuaju <wikipediaLink>opavaveguáva</wikipediaLink>?
 sc-submit-ph-read-how-to =
     .placeholder = Emoñe’ẽ ore Mba’éichapa ojejapo ndereikuaaporãirõ mba’éichapa ejapóta
+sc-submit-confirm = Amoneĩ ko’ã ñe’ẽjuaju ha’eha <wikipediaLink>opavaveguáva</wikipediaLink> ha areko ñemoneĩ ahupi hag̃ua.
 sc-submit-button =
     .submitText = Mondo
 sc-submit-guidelines = Eporandu umi <howToLink>jejaporã</howToLink>.
@@ -1098,7 +1101,9 @@ sc-submit-guidelines = Eporandu umi <howToLink>jejaporã</howToLink>.
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Noñembojuajukuaái ñe’ẽ
+sc-add-lang-sec-label = Embojuaju peteĩ ñe’ẽ eipytyvõsévape
 sc-add-lang-sec-button = Embojuaju Ñe’ẽ
+sc-add-err-unexpected = Oujey ñembohovái eha’arõ’ỹva mohendahavusúgui
 sc-add-err-submission = Ojavy ñemondo
 
 ## ADD SENTENCES CONFIRMATION
