@@ -598,6 +598,7 @@ Achtzig Jahre nach dem Angriff auf Polen wählen zwei Bundesländer zu einem Vie
 Acrylsäure polymerisiert zu Polyacrylsäure.
 Adam konnte Eva nirgends finden und so konnte er wieder keine Äpfel essen.
 Adelinde hat sich ganz schön aufgedonnert.
+Adent, Advent, die Kiste brennt.
 Adieu! Gute Nacht!
 Adieu, mein Herr.
 Administratorrechte hat er leider auch nicht.
@@ -5473,6 +5474,7 @@ Das klingt sehr gut.
 Das klingt sehr gut. Ich freue mich schon darauf.
 Das klingt so kriminell.
 Das klingt ziemlich anders als es ist in Wirklichkeit ist!
+Das knallt im Karton.
 Das kommt auf den Bestimmungsort an.
 Das kommt dann mit der Post.
 Das kommt darauf an, wie lange Sie schon verheiratet sind.
@@ -9361,6 +9363,7 @@ Diese Verschlüsselung kann nicht mal der Geheimdienst knacken.
 Diese Winde werden durch Corioliskräfte erzeugt.
 Diese Wissenslücke gilt es zu schließen.
 Diese Wohnung hat einen gewissen Charme!
+Diese Zielsetzung finde ich sportlich.
 Diese Zugfahrt endet hier.
 Diese Züge würden dann freilich nicht an Hauptbahnhöfen halten.
 Diese als besonders schlimm geltenden Ereignisse haben ein hohes Potential, Menschen zu traumatisieren.
@@ -10569,6 +10572,7 @@ Ein defekter Hydrant hat die Straße unter Wasser gesetzt.
 Ein defektes Windrad droht, einen seiner Flügel zu verlieren.
 Ein deutsches Blatt besteht aus Eichel, Laub, Herz und Schelle.
 Ein drittes ist unterwegs.
+Ein dräundes Ungemach.
 Ein dünner Ölfilm auf dem Metall verhindert eine vernünftige Haftung.
 Ein echter Sympathieträger, der Herr Maroni!
 Ein echtes Schleckermaul!
@@ -20330,6 +20334,7 @@ Lasst den Halunken nicht aufs Podium!
 Lasst die Schwerter sprechen!
 Lasst die Zugbrücke herab!
 Lasst die anderen Leute erst aussteigen!
+Lasst es euch gut gehen.
 Lasst es euch schmecken und lasst eure Handys unterm Tisch!
 Lasst es krachen!
 Lasst euch Alternativen aufzeigen, um euren beschränkten Blick zu weiten!
@@ -24579,6 +24584,7 @@ Rein äußerlich kam Alexander ganz seiner Mutter nach.
 Reine Gewöhnungssache.
 Reine Gewöhungssache.
 Reine Kopfsache!
+Reiner Müll?
 Reinhold kann es noch immer nicht fassen.
 Reisende sollte man nicht aufhalten.
 Reisepass und Impfpass bitte.
@@ -28133,6 +28139,7 @@ Und weißt du, was das Beste daran ist?
 Und welchen Service bieten Sie an?
 Und welches Baujahr?
 Und wenn Sie nicht gestorben sind, lamentieren Sie noch heute.
+Und wenn das fünfte Lichtlein brennt, dann hat sie Weihnachten verpennt.
 Und wenn das jetzt noch automatisch ginge, wäre das das i-Tüpfelchen.
 Und wenn das jetzt noch automatisch ginge, wäre es perfekt!
 Und wenn das stimmt, werden die E-Mails automatisch verschlüsselt.
@@ -31954,6 +31961,7 @@ Wie war euer Pokerabend?
 Wie war noch gleich Ihr Name?
 Wie war noch mal die Nummer?
 Wie war nochmal der Name?
+Wie war.noch der Name?
 Wie warm ist es?
 Wie wechselt man die Druckerpatrone?
 Wie wecke ich das Interesse meiner Nachbarin?
