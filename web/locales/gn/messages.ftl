@@ -1138,6 +1138,12 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } nde remboykepyre
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ndojehechajeýi mba’evéichagua ñe’ẽjuaju.
+        [one] 1 ñe’ẽjuaju ojehechajeýma. ¡Tembiapo porã!
+       *[other] { $countOfReviewed } ñe’ẽjuaju ojehechajeýma. ¡Tembiapo porã!
+    }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
@@ -1260,6 +1266,7 @@ sc-settings-title = Ñemboheko
 sc-settings-ui-language = Jehechaha Ñe’ẽ
 sc-settings-language-translated-warning = Hi’ã chéve kuatiarogue ko ñe’ẽmegua noñembohasapái gueteri. Ikatu eipytyvõ pe ñe’ẽasápe <pontoonLinkLink>Pontoon pegua</pontoonLinkLink>
 sc-settings-reset-skipped = Erujey ñe’ẽjoaju hejapyre
+sc-settings-skipped-decription = Ymave ohasa ñe’ẽjuaju omoñe’ẽ’aja. Oguerujeývo umi ñe’ẽjuaju ñomimbyre, ojehechaukáta opaite ñe’ẽjuaju ñomimbyre ipyahúva. Kóva imombyry pe ñe’ẽgui.
 sc-settings-show-all-button = Ehechaukapa ñe’ẽjuaju ojehejerei pyahúva
 sc-settings-failed = Neremoambuekuaái ñembohekopyahu. Eha’ãjey ag̃ave.
 # VALIDATION
