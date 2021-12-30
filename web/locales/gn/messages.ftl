@@ -1045,6 +1045,7 @@ sc-howto-addsen-title = Embojuaju ñe’ẽjuaju pyahu
 sc-howto-cite-title = Mba’éicha emombe’úta
 sc-howto-cite-item-1 = Emoingekuaa ñanduti renda, techapyrã, "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Ehechajey ñe’ẽjuaju
+sc-howto-review-subtitle = Ehecháke ñe’ẽjuaju orekova’erãha katuete ko’ã mba’e:
 sc-howto-review-criteria-1 = Pe ñe’ẽjuaju ojehaiva’erã hekopete.
 sc-howto-review-criteria-2 = Pe ñe’ẽjuaju hekopete ñe’ẽtekuaa rupi.
 sc-howto-review-criteria-3 = Pe ñe’ẽjuaju oje’ekuaava’erã.
@@ -1165,6 +1166,14 @@ sc-lang-info-in-review =
         [one] 1 ñe’ẽjuaju ojehechajeýva.
        *[other] { $totalInReview } ñe’ẽjuaju ojehechajeýva.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Ndaiporivéima ñe’ẽjuaju ehechajeyva’erã.
+        [one] 1 ñe’ẽjuaju ehechajeyva’erã.
+       *[other] { $unreviewedSentencesByYou } ñe’ẽjuaju ehechajeyva’erã.
+    }
 sc-lang-info-review-now = <reviewLink>¡Ehechajey ko’ág̃a!</reviewLink>
 sc-lang-info-add-more = <addLink>¡Embojuajuve ñe’ẽjuaju ko’ág̃a!</addLink>
 # Variables:
@@ -1205,6 +1214,9 @@ sc-personal-not-added = Nerembojuajúi gueteri peteĩ ñe’ẽ jepe.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Jehechajey rehegua
+sc-criteria-title = Jehechajey rehegua
+sc-criteria-make-sure = Ehecháke ñe’ẽjuaju orekova’erãha katuete ko’ã mba’e:
 sc-criteria-item-1 = Pe ñe’ẽjuaju ojehaiva’erã hekopete.
 sc-criteria-item-2 = Pe ñe’ẽjuaju oĩ hekopete ñe’ẽtekuaa rupi.
 sc-criteria-item-3 = Pe ñe’ẽjuaju oje’ekuaava’erã.
