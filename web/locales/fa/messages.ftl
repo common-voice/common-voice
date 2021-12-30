@@ -972,7 +972,10 @@ sc-logout-button = خروج
 
 ## HOME
 
+sc-home-collect-title = گردآوری جملات
+sc-home-collect-text = با نوشتن یا گردآوری جملاتی در مالکیت عمومی به ما کمک کنید
 sc-home-review-title = بازبینی جملات
+sc-home-review-text = با بررسی جملات برای درستی‌شان مطابق دستورالعمل‌ها به ما کمک کنید.
 
 ## HOW-TO
 
