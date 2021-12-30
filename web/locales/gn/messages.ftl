@@ -962,6 +962,7 @@ demo-dashboard-card-body = Mayma ñe’ẽjoaju ñembohyapupyre ha oñemoneĩmav
 
 contribution-criteria-nav = Ñe’ẽte
 contribution-criteria-link = Eikumby mba’éichapa eipytyvõta
+contribution-criteria-page-title = Ñepytyvõ rehegua
 contribution-criteria-page-description = ¡Eikumby mba’épa ehekáta ehendúvo ñe’ẽpu ha eipytyvõ emoporãve hag̃ua ne ñe’ẽ ñeñongatu avei!
 contribution-for-example = Techapyrãrõ
 contribution-misreadings-title = Moñe’ẽ vai
@@ -991,9 +992,11 @@ contribution-varying-pronunciations-example-2-explanation = [‘Raised’ inglé
 contribution-background-noise-title = Tyapu tapykuegua
 contribution-background-noise-description-extended = Ne ñe’ẽñongatu osóramo térã nosẽporãmbái, ejapojeýnte noñehendupaiva’éramo opahaite peve ñe’ẽpu.
 contribution-background-noise-example-1-fixed-title = <strong>[Atĩa]</strong> Umi dinosaurio tuicháva <strong>[hu’u]</strong> Triásico pegua.
+contribution-background-noise-example-2-fixed-title = Dinosaurio tuicháva <strong>[hu’u]</strong> Triásico-gua.
 contribution-background-noise-example-2-explanation = [Ndaikatúi oñehendu moñe’ẽrã vore]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> dinosaurio tuicháva <strong>[crackle]</strong> Triásico rehegua.
 contribution-background-voices-title = Ñe’ẽ tapykuegua
+contribution-background-voices-description-extended = Ne ñe’ẽñongatu osóramo térã nosẽporãmbái, ejapojeýnte noñehendupaiva’éramo opahaite peve ñe’ẽpu.
 contribution-background-voices-example-1-title = Umi dinosaurio tuicháva Triásico pegua. <strong>[omoñe’ẽva ayvúpe]</strong>
 contribution-background-voices-example-1-explanation = ¿Ejútapa? <strong>[ambue renoimbyre]</strong>
 contribution-volume-title = Mbopuha
@@ -1015,6 +1018,7 @@ sc-header-add = Mbojuaju
 sc-header-review = Hechajey
 sc-header-rejected = Ñe’ẽjuaju hejapyre
 sc-header-my = Che ñe’ẽjuaju
+sc-header-statistics = Papapy’atygua
 sc-header-profile = Mba’ete
 sc-footer-discourse = Ñomongeta
 sc-footer-report-bugs = Emomarandu jejavy
@@ -1030,6 +1034,7 @@ sc-logout-button = Emboty tembiapo
 
 sc-home-title = Eg̃uahẽporãite ñe’ẽjuaju mbyatyha ayvu reípe
 sc-home-collect-title = Embyaty ñe’ẽjuaju
+sc-home-collect-text = Orepytyvõ ehaívo térã embyatývo ñe’ẽjuaju opavaveguáva.
 sc-home-review-title = Ehechajey ñe’ẽjuaju
 
 ## HOW-TO
