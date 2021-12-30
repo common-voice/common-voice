@@ -1157,6 +1157,7 @@ sc-personal-added-by-you = { $sentences } nde embojuajupyre
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-1 = Pe ñe’ẽjuaju ojehaiva’erã hekopete.
 sc-criteria-item-2 = Pe ñe’ẽjuaju oĩ hekopete ñe’ẽtekuaa rupi.
 sc-criteria-item-3 = Pe ñe’ẽjuaju oje’ekuaava’erã.
 sc-criteria-item-4 = Pe ñe’ẽjuaju oreko tekotevéva, eikutu pe votõ &quot;Moneĩ&quot; votõ akatuaguáva.
@@ -1171,6 +1172,7 @@ sc-review-select-language = Eiporavo ñe’ẽ ehechajey hag̃ua ñe’ẽjuajuk
 sc-review-no-sentences = Ndaipóri ñe’ẽjuaju jehechajeyrã. <addLink>¡Embojuajuve ñe’ẽjuaju ko'ág̃a!</addLink>
 sc-review-form-prompt =
     .message = Ñe’ẽjuaju jehechapyre oñemondo’ỹva, ¿ejaposéta?
+sc-review-form-usage = Epoko akatúa gotyo ha emoneĩ ñe’ẽjuaju. Epoko asu gotyo ha embotove. Epoko yvate ha ehejarei. <strong>¡Ani nderesarái emondóvo jehai’i!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Teñoiha: { $sentenceSource }
