@@ -1046,6 +1046,7 @@ sc-howto-review-criteria-6 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃u
 sc-howto-findpd-title = Ejuhúta ñe’ẽjuaju oĩva opavave oipurukuaahápe
 sc-howto-findpd-subtitle = Ehekava’erã ñandutípe
 sc-howto-findpd-tips = Ko’ág̃a oñeñemoñe’ẽta ejuhukuaa hag̃ua ñe’ẽrysýi:
+sc-howto-findpd-subtitle-2 = Eñemoirũ atyguasu térã tapicha tendaguávare
 
 ## MY SENTENCES
 
@@ -1104,6 +1105,14 @@ sc-add-lang-could-not-add = Noñembojuajukuaái ñe’ẽ
 sc-add-lang-sec-label = Embojuaju peteĩ ñe’ẽ eipytyvõsévape
 sc-add-lang-sec-button = Embojuaju Ñe’ẽ
 sc-add-err-unexpected = Oujey ñembohovái eha’arõ’ỹva mohendahavusúgui
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Ndaipóri ñe’ẽjuaju ojavýva
+        [one] 1 ñe’ẽjuaju ojavýva
+       *[other] ñe’ẽjuaju ojavýva ñe’ẽjuaju ojavýva
+    }
 sc-add-err-submission = Ojavy ñemondo
 
 ## ADD SENTENCES CONFIRMATION
@@ -1122,6 +1131,14 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } nde remboykepyre
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] ¡Ndaipóri ñe’ẽjuaju ojeapoítava!
+        [one] 1 ¡ñe’ẽjuaju ojeapoítava!
+       *[other] { $readyCount } ¡ñe’ẽjuaju ojeapoítava!
+    }
 sc-confirm-button-text = Moneĩ
 
 ## LANGUAGE INFO
@@ -1133,6 +1150,14 @@ sc-lang-info-total =
         [0] Ndaiporipái ñe’ẽjuaju.
         [one] 1 ñe’ẽjuajúnte.
        *[other] { $totalSentences } ñe’ẽjuaju retakue.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ndaipóri ñe’ẽjuaju ojehechajeýva.
+        [one] 1 ñe’ẽjuaju ojehechajeýva.
+       *[other] { $totalInReview } ñe’ẽjuaju ojehechajeýva.
     }
 sc-lang-info-review-now = <reviewLink>¡Ehechajey ko’ág̃a!</reviewLink>
 sc-lang-info-add-more = <addLink>¡Embojuajuve ñe’ẽjuaju ko’ág̃a!</addLink>
