@@ -1136,6 +1136,22 @@ sc-lang-info-total =
     }
 sc-lang-info-review-now = <reviewLink>¡Ehechajey ko’ág̃a!</reviewLink>
 sc-lang-info-add-more = <addLink>¡Embojuajuve ñe’ẽjuaju ko’ág̃a!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ñe’ẽjuaju oñemoneĩ’ỹva.
+        [one] 1 ñe’ẽjuaju moneĩmbyre.
+       *[other] { $validatedSentences } ñe’ẽjuaju moneĩmbyre.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ndaipóri je’etepyre oñembotovéva.
+        [one] 1 je’etepyre oñembotovéva.
+       *[other] { $rejectedSentences } je’etepyre oñembotovéva.
+    }
 
 ## LOGIN
 
@@ -1154,6 +1170,7 @@ sc-personal-remove-button = jeipe’a
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } nde embojuajupyre
+sc-personal-not-added = Nerembojuajúi gueteri peteĩ ñe’ẽ jepe.
 
 ## REVIEW CRITERIA
 
