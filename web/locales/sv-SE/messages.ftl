@@ -991,6 +991,7 @@ contribution-varying-pronunciations-description-extended = Å andra sidan, om du
 contribution-background-noise-title = Bakgrundsbrus
 contribution-background-noise-description = Vi vill att maskininlärningsalgoritmerna ska kunna hantera en mängd olika bakgrundsljud, och även relativt höga ljud kan accepteras förutsatt att de inte hindrar dig från att höra hela texten. Tyst bakgrundsmusik är OK; musik tillräckligt hög för att hindra dig från att höra vartenda ord är det inte.
 contribution-background-noise-description-extended = Om inspelningen stoppar eller sprakar, avvisa den om du inte fortfarande kan höra all text.
+contribution-background-noise-example-1-fixed-title = <strong>[Nysning]</strong> De gigantiska dinosaurierna i <strong>[hostning]</strong> trias.
 contribution-background-noise-example-2-explanation = [Delar av texten kan inte höras]
 contribution-background-voices-title = Bakgrundsröster
 contribution-background-voices-description = Ett tyst tumult i bakgrunden är OK, men vi vill inte ha ytterligare röster som kan få en maskinalgoritm att identifiera ord som inte finns i den skrivna texten. Om du kan höra distinkta ord förutom de i texten, bör klippet avvisas. Vanligtvis händer detta där TV:n har lämnats på eller där det pågår en konversation i närheten.
