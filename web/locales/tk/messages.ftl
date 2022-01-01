@@ -957,12 +957,46 @@ sc-howto-addlang-title = Işlemek üçin dilleri goşmak
 sc-howto-addlang-text = Hasaba gireniňizden soň dilleriňizi profil bölüminden saýlap bilersiňiz.
 sc-howto-addsen-title = Täze sözlemleri goş
 sc-howto-cite-title = Nädip sitirlemeli
+sc-howto-cite-pre-1 = Plagiatdan gaça durmak we <copyrightIssuesLink>awtorlyk hukugy meseleleri</copyrightIssuesLink> boýunça habarlaşmaga mümkinçilik döretmek üçin köpçülikleýin ygtyýarnamany tapan ýeriňize salgylanmak möhümdir. Şol işlere salgylanmagyň birnäçe usullary şu ýerde görkezilýär.
+sc-howto-cite-item-1 = Websaýty görkezip bilersiňiz, m.ü. "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-review-title = Sözlemleri gözden geçir
+sc-howto-review-subtitle = Sözlemiň aşakdaky kriterilere gabat gelýändigine göz ýetiriň:
+sc-howto-review-criteria-1 = Sözlem dogry ýazylan bolmaly.
+sc-howto-review-criteria-2 = Sözlem grammatiki taýdan dogry bolmaly.
+sc-howto-review-criteria-3 = Sözlem aýdylyp bilinýän bolmaly.
+sc-howto-review-criteria-4 = Eger sözlem kriterilere gabat gelýän bolsa, "Tassykla" düwmesine basyň.
+sc-howto-review-criteria-5 = Eger sözlem ýokardaky kriterilere gabat gelmeýän bolsa, "Ret et" düwmesine basyň. Eger sözlem barada ynamly netijä gelip bilmeseňiz, ony geçiň we indiki sözlem bilen dowam ediň.
+sc-howto-review-criteria-6 = Eger gözden geçirilmeli sözlemleri gutarsaňyz, bize köpräk sözlem ýygnamaga kömek ediň!
+sc-howto-findpd-title = Köpçülikleýin domende ýerleşýän bar bolan sözlemleri tapmak
+sc-howto-findpd-subtitle = Olary Internetde gözläň
+sc-howto-findpd-tips = Sözlemleri tapmak boýunça ine birnäçe maslahatlar:
+sc-howto-findpd-tips-1 = Gözläp biljek iň gowy çeşmeleriňiz podkastlar, transkriptler, ssenariler we gündelik gürrüňleri öz içine alýan islendik ýazgylardyr.
+sc-howto-findpd-tips-2 = Hökümet ýazgylary, kitaplar we makalalar hem gowy, emma olaryň teksti biraz resmi bolandyklary üçin ileri tutulmaýar.
+sc-howto-findpd-tips-3 = Gynansak-da, biz entek Wikimedia makalalaryny alyp bilmeýäris. Şonuň üçin olary şol ýerden göçürip ýelmemäň.
+sc-howto-findpd-subtitle-2 = Ýerli guramalar we şahslar bilen hyzmatdaşlyk ediň
 
 ## MY SENTENCES
 
+sc-my-title = Sözlemlerim
+sc-my-loading = Sözlemleriňiz ýüklenýär…
+sc-my-err-fetching = Sözlemleriňiz getirilýän wagty ýalňyş çykdy. Gaýtadan synanyşyň.
+sc-my-no-sentences = Hiç hili söz tapylmady!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Tabşyrma: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Çeşme:  { $source }
+sc-my-delete = Saýlanan sözlemleri poz
+sc-my-deleting = Saýlanan sözlemler pozulýar…
+sc-my-err-failed-delete = Saýlanan sözlemleri pozup bilmedi… Gaýtadan synanyşyň!
 
 ## REJECTED
 
+sc-rejected-title = Ret edilen sözlemler
+sc-rejected-loading = Ret edilen sözlemler ýüklenýär…
+sc-rejected-err-fetching = Ret edilen sözlemler getirilýän wagty ýalňyş çykdy. Gaýtadan synanyşyň.
+sc-rejected-none-found = Ret edilen sözlem tapylmady!
 
 ## STATS
 
