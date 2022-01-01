@@ -414,6 +414,23 @@ faq-why-important-a =
 faq-how-get-q = Common Voice maglumatyny nädip alyp bilerin?
 faq-how-get-a = Common Voice maglumat toplumy <licenseLink>CC0</licenseLink> lisenziýasy boýunça <datasetLink>biziň Maglumat toplumlary sahypamyzda</datasetLink> göçürip almaga elýeterlidir. Şol sahypadan siz başga-da köpçülige açyk birnäçe maglumat çeşmelerini alyp bilersiňiz.
 faq-when-release2-q = Common Voice maglumatlary başga dillerde haçan çykararsyňyz?
+faq-when-release2-a = Common Voice maglumat toplumynyň köpdilli wersiýasy häzirki wagtda köpçüligiň güýji bilen jemlenýär we arassalanýar. Eger Common Voice-y täze dillere getirmekde kömek etmek isleseňiz, täze sözlemleri maglumat bazasyna goşmak üçin <sentenceCollectorLink>Sözlem ýygnama guralyna</sentenceCollectorLink> we websaýtyň özüni terjime etmek üçin, Mozilla <pontoonLink>Pontoon</pontoonLink> saýtyna serediň. Täze diller 5000 tassyklanan sözlem ýygnalanda Common Voice-a ses goşmak üçin goşulýar.
+faq-why-mission-q = Common Voice näme üçin Mozilla missiýasynyň bir bölegi?
+faq-what-cv-and-deepspeech-q = Common Voice bilen Deep Speech arasynda näme tapawut bar?
+faq-is-goal-assistant-q = Common Voice-iň maksady ses kömekçisini döretmekmi?
+faq-do-want-native-q = Men şol diliň asyl gepleýjisi däl we aksent bilen gürleýärin, henizem sesimi isleýärsiňizmi?
+faq-why-different-speakers-q = Näme üçin her dilde şonça köp gepleýji gerek?
+faq-why-my-lang-q = Näme üçin meniň dilim entek goşulmandyr?
+faq-what-quality-q = Maglumat toplumynda ses klipiniň ulanylmagy üçin haýsy ses hili talap edilýär?
+faq-why-10k-hours-q = Näme üçin ses almak üçin her dilde 10.000 tassyklanan sagada ýetmek maksat edinilýär?
+faq-why-10k-hours-a = Bu önümçilikde sözleýişden-tekste ulgamyny türgenleşdirmek üçin zerur bolan takmyny sagat sanydyr.
+faq-how-calc-hours-q = Common Voice sagatlary nädip hasaplaýar?
+faq-how-calc-hours-a = Her ýazgynyň ortaça uzynlygyna baha bermek bilen sagatlary hasaplaýarys we soňra bu sanlary ähli dillerdäki ýazgylaryň umumy sanyna köpeldýäris.
+faq-where-src-from-2-q = Çeşme tekst nireden gelýär?
+faq-why-not-ask-read-q = Adamlardan dürli dillerdäki kitaplardan ýa-da Wikipediýa makalalaryndan okamaklaryny sorasaňyz bolmaýarmy?
+faq-why-account-q = Men näme üçin hasap açmaly?
+faq-is-account-public-q = Hasabym baradaky maglumatlar köpçülige açykmy?
+faq-how-privacy-q = Seslerini bagyş eden adamlaryň anonimligini we ýaşyrynlygyny nädip üpjün edip bilersiňiz?
 
 ## ABOUT US
 
