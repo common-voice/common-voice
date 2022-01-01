@@ -662,15 +662,75 @@ listen-last-time-instruction = <playIcon></playIcon>Soňkusy!
 listen-empty-state = Bu dilde barlanmaly klipleri gutardyk...
 speak-empty-state = Bu dilde ýazgy edilmeli sözlemleri gutardyk...
 speak-empty-state-cta = Sözlem goş
+record-button-label = Sesiňi ýazga al
+share-title-new = Has köp ses tapmaga <bold>bize kömek ediň</bold>
+keep-track-profile = Öňegidişligiňizi profil bilen yzarlaň
+login-to-get-started = Başlamak üçin giriň ýa-da ýazylyň
+target-segment-first-card = Siz ilkinji nyşana segmentimize goşant goşýarsyňyz
+target-segment-generic-card = Siz nyşana segmente goşant goşýarsyňyz
+target-segment-first-banner = { $locale } lokalda Common Voice-iň ilkinji nyşana segmentini döretmäge kömek ediň
+target-segment-add-voice = Sesiňizi goşuň
+target-segment-learn-more = Goşmaça maglumat
 
 ## Reporting
 
+report = Habar ber
+report-title = Hasabat iber
+report-ask = Bu sözlem bilen nähili meseleler çykýar?
+report-offensive-language = Gödek dil
+report-offensive-language-detail = Sözlemde hormat goýmaýan ýa-da kemsidiji dil bar.
+report-grammar-or-spelling = Grammatik / dürs ýazuw ýalňyşy
+report-grammar-or-spelling-detail = Sözlemde grammatik ýa-da dürs ýazuw ýalňyşy bar.
+report-different-language = Başga dil
+report-different-language-detail = Ol meniň gepleýänimden başga dilde ýazylypdyr.
+report-difficult-pronounce = Aýtmasy kyn
+report-difficult-pronounce-detail = Onda okamasy ýa-da aýtmasy kyn sözler we söz düzümleri bar.
+report-offensive-speech = Gödek sözleýiş
+report-offensive-speech-detail = Klipde hormatsyz ýa-da kemsidiji dil bar.
+report-other-comment =
+    .placeholder = Teswir ýaz
+success = Üstünlik
+continue = Dowam et
+report-success = Habar üstünlikli iberildi
 
 ## Goals
 
+streaks = Yzygiderli ädimler
+days =
+    { $count ->
+        [one] Gün
+       *[other] Gün
+    }
+recordings =
+    { $count ->
+        [one] Ýazgy
+       *[other] Ýazgy
+    }
+validations =
+    { $count ->
+        [one] Barlag
+       *[other] Barlag
+    }
 
 ## Dashboard
 
+your-languages = Dilleriňiz
+toward-next-goal = Indiki maksada tarap
+goal-reached = Maksada ýetildi
+clips-you-recorded = Ýazan klipleriňiz
+clips-you-validated = Barlan klipleriňiz
+todays-recorded-progress = Ýazga alnan klipler boýunça Common Voice-iň şu günki öňegidişligi
+todays-validated-progress = Barlanan klipler boýunça Common Voice-iň şu günki öňegidişligi
+stats = Statistika
+awards = Baýraklar
+you = Siz
+everyone = Hemmeler
+contribution-activity = Goşant işjeňligi
+top-contributors = Iň köp goşant goşanlar
+recorded-clips = Ýazga alnan klipler
+validated-clips = Barlanan klipler
+total-approved = Jemi tassyklanan
+overall-accuracy = Umumy dogrulyk
 
 ## Custom Goals
 
