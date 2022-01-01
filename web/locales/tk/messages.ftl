@@ -431,16 +431,30 @@ faq-why-not-ask-read-q = Adamlardan dürli dillerdäki kitaplardan ýa-da Wikipe
 faq-why-account-q = Men näme üçin hasap açmaly?
 faq-is-account-public-q = Hasabym baradaky maglumatlar köpçülige açykmy?
 faq-how-privacy-q = Seslerini bagyş eden adamlaryň anonimligini we ýaşyrynlygyny nädip üpjün edip bilersiňiz?
+faq-what-determine-identity-q = Common Voice maglumat toplumyndaky gürleýjileriň şahsyýetini kesgitläp bilmeýändigim näme many berýär?
+faq-what-is-cv = Common Voice näme?
+faq-using-cv = Common Voice ulanmak
+faq-description = Common Voice Mozillanyň maşynlara hakyky adamlaryň gürleýşini öwretmäge kömek etmek üçin başlangyjydyr.
+faq-search-for-answers =
+    .label = Jogap gözläň
 
 ## ABOUT US
 
+about-title = Näme üçin Common Voice?
 how-does-it-work-title = Ol nähili işleýär?
 about-speak = Geple
+about-speak-text = Goşantçylar bagyş edilen sözlemler bankyndan okamak arkaly ses kliplerini ýazga edýärler.
 about-listen-queue = Diňleme nobaty
+about-listen-queue-text = Ses klipleri olary diňlemäge taýýarlaýan tabşyryş nobatyna girizilýär.
 about-listen = Diňle
+about-listen-text = Ulanyjylar, gürleýjiniň sözlemi dogry okaýandygyny barlap, bagyşlanan klipleriň takyklygyny tassyklaýarlar.
 about-is-it-valid = Klip dogrumy?
+about-is-it-valid-text = Bir ulanyjy Hawa ses bereninde ses klibi "tassyklanan" diýlip bellenilýär.
 about-yes-votes = ≥ 2 Hawa ses
+about-yes-votes-text = Common Voice maglumatlar bazasyna girizilmek üçin, ses klibini iki aýry ulanyjy tassyklamaly.
 about-no-votes = ≥ 2 Ýok ses
+about-no-votes-text = Bir ulanyjy ses klibini ret etse, ol nobata gaýtarylýar. Ikinji gezek ret edilse, ses klibi Klip mazarlygyna geçirilýär.
+about-dataset-new = Common Voice maglumat toplumy
 
 ## Glossary
 
