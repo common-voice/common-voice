@@ -893,6 +893,20 @@ contribution-misreadings-example-6-title = Kofe içmäge çykýas.
 contribution-misreadings-example-6-explanation = [“çykýarys” bolmaly]
 contribution-misreadings-example-7-title = Bir kofe içmäge çykýarys.
 contribution-misreadings-example-7-explanation = [Asyl tekstde ‘bir’ ýok]
+contribution-misreadings-example-8-title = Şmel geçip gitdi.
+contribution-misreadings-example-8-explanation = [Gabat gelmeýän mazmun]
+contribution-varying-pronunciations-title = Üýtgeýän aýdylyşlar
+contribution-varying-pronunciations-example-1-title = Ol kellesine beret geýdi.
+contribution-varying-pronunciations-example-1-explanation = [‘Beret’ birinji bogunda (UK) ýa-da ikinji bogunda (US) basymly okalyp bilner]
+contribution-varying-pronunciations-example-2-title = Onuň eli galdyrylgydy.
+contribution-varying-pronunciations-example-2-explanation = [Iňlis dilinde ‘Raised’ hemişe bir bogunly aýdylýar, iki bogunly däl]
+contribution-background-noise-title = Fon sesleri
+contribution-background-noise-description-extended = Eger ýazgy döwülýän ýa-da bölünýän bolsa, teksti dolulygyna eşdip bolmaýan bolsa ret ediň.
+contribution-background-noise-example-1-fixed-title = <strong>[asgyrmak]</strong> Trias eýýamynyň äpet <strong>[üsgürme]</strong> dinozawrlary.
+contribution-background-noise-example-2-fixed-title = Trias eýýamynyň äpet dino <strong>[üsgürme]</strong>.
+contribution-background-noise-example-2-explanation = [Tekstiň bir bölegi eşdilenok]
+contribution-background-noise-example-3-fixed-title = <strong>[döwülme]</strong> eýýamynyň apet dino <strong>[döwülme]</strong>-ry.
+contribution-background-voices-title = Fon galmagaly
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
