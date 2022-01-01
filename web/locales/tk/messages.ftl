@@ -375,15 +375,38 @@ email-subscriptions = E-poçta abunalary
 download-profile = Maglumatymy göçürip al
 contribution-experience = Goşant goşmak tejribesi
 skip-submission-feedback = Iberiş seslenmesinden geç
+skip-submission-description = Goşant goşulýan mahaly 'Iber'-e basylandan soň iberiş seslenmesinden geçiler. Goşant goşmak indiki 5 ýazgy ýa-da tassyklama bilen gös-göni dowam eder.
+skip-submission-note = Bellik: Goşant görnüşiňizi üýtgetmek üçin şonda-da Geple ýa-da Diňle düwmesinden birini saýlamaly bolarsyňyz.
+off = Öçürilen
+on = Işledilen
+help-accent = Şiwe boýunça kömek gerekmi?
+help-accent-explanation = Siziň şiwäňiz sözleri aýdyş usulyňyzdyr. Ol ýaşan ýeriňize, başga gepleýän dilleriňize we başga birnäçe faktorlara bagly bolup biler. Degişlidir öýdýän maglumatlaryňyzy bu ýerde paýlaşyp bilersiňiz.
 
 ## Profile - Email
 
+browse-file-title = Surat faýlyny ýükle
+browse-file = Çek we taşla ýa-da <browseWrap>Göz aýla</browseWrap>
+connect-gravatar = Gravatar bilen birikdiriň
+gravatar_not_found = E-poçtaňyz üçin grawatar tapylmady
+file_too_large = Saýlanan faýl aşa uly
+avatar-uploaded = Awatar ýüklendi
+max-file-size = { $kb }kb maks
 
 ## Profile - Email
 
+manage-subscriptions = Abunalary dolandyr
+manage-email-subscriptions = E-poçta abunalaryny dolandyr
+email-already-used = E-poçta eýýäm başga bir hasap üçin ulanylýar
+add-language = Dil goş
+change-email-setings = E-poçtaňyzy Sazlamalarda Giriş şahsyýetligi bölüminde üýtgediň
 
 ## FAQ
 
+faq-title = Köp soralýan soraglar
+faq-what-cv-q = Common Voice näme?
+faq-what-cv-a = Ses tanaýyş tehnologiýasy biiziň enjamlar bilen aragatnaşygymyzda öwrülişik döredýär, emma bar bolan ulgamlar gymmat we hususy eýeçilikde. Common Voice Mozillanyň ses tanaýyş tehnologiýalaryny ösdürmek we hemmelere elýeterli etmek başlangyjynyň bölegidir. Common Voice islendik adama ses-işledilen goýmalary islendik dilde çalt we aňsat türgenleşdirmäge mümkinçilik berýän, bagyş edilen seslerden ybarat uly global maglumat binýadydyr.
+faq-what-cv-a-2 = Ses tanaýyş tehnologiýasy biziň enjamlar bilen aragatnaşygymyzda öwrülişik döredýär, emma bar bolan ulgamlar gymmat we hususy eýeçilikde. Common Voice Mozillanyň ses tanaýyş tehnologiýalaryny ösdürmek we hemmelere elýeterli etmek başlangyjynyň bölegidir. Common Voice islendik adama ses-işledilen goýmalary islendik dilde çalt we aňsat türgenleşdirmäge mümkinçilik berýän, bagyş edilen seslerden ybarat uly global maglumat binýadydyr.
+faq-why-important-q = Bu näme üçin möhüm?
 
 ## ABOUT US
 
