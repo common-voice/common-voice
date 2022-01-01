@@ -345,6 +345,36 @@ hidden = Gizlenen
 visible = Görünýän
 native-language =
     .label = Ene dili
+profile-form-add-accent = Täze ýörite şiwe goş "{ $inputValue }"
+profile-form-submit-save = Ýatda sakla
+profile-form-submit-saved = Ýatda saklandy
+male = Erkek
+female = Zenan
+# Gender
+other = Başga
+why-profile-title = Profil nämä gerek?
+why-profile-text = Özüňiz hakda käbir maglumatlary bermek bilen, “Common Voice” -a iberýän ses maglumatlaryňyz bu maglumaty takyklygy gowulandyrmak üçin ulanýan Sözleýiş tanama motorlaryna has peýdaly bolar.
+dashboard = Dolandyryş paneli
+build-profile = Profil döret
+avatar = Awatar
+goals = Maksatlar
+settings = Sazlamalar
+edit-profile = Profili redaktirle
+profile-create-success = Üstünlik, profil döredildi!
+profile-close = Ýap
+profile-explanation = Profil bilen öňegidişligiňizi yzarlaň we ses maglumatlarymyzyň has takyk bolmagyna kömek ediň.
+thanks-for-account = Hasabyňyzy tassyklanyňyz üçin sagboluň, geliň indi profiliňizi döredeliň.
+why-demographic = Bu näme üçin möhüm?
+why-demographic-explanation-2 = Ýaş, jyns we şiwe ýaly anonimleşdirilen ulanyjy maglumatlary sözleýşi tanaýyş motorlarynyň dogrulygyny türgenleşdirmekde ulanylýan ses maglumatyny gowulandyrmaga ýardam berýär. Ulanyjy adyňyz we e-poçtaňyz hiç haçan iberen maglumatyňyz bilen baglanyşdyrylmaz we ulanyjy adyňyzy köpçülige açyk ýa-da anonim etmegi saýlap bilersiňiz.
+accept-privacy = Men bu maglumaty Mozillanyň <privacyLink>Gizlinlik syýasatynda</privacyLink> düşündirişiňiz ýaly ulanmagyňyz bilen razylaşýaryn.
+accept-privacy-title = Gizlinlik syýasaty
+login-identity = Giriş şahsyýetligi
+login-signup = Gir / Ýazyl
+edit = Redaktirle
+email-subscriptions = E-poçta abunalary
+download-profile = Maglumatymy göçürip al
+contribution-experience = Goşant goşmak tejribesi
+skip-submission-feedback = Iberiş seslenmesinden geç
 
 ## Profile - Email
 
