@@ -455,15 +455,48 @@ about-yes-votes-text = Common Voice maglumatlar bazasyna girizilmek üçin, ses 
 about-no-votes = ≥ 2 Ýok ses
 about-no-votes-text = Bir ulanyjy ses klibini ret etse, ol nobata gaýtarylýar. Ikinji gezek ret edilse, ses klibi Klip mazarlygyna geçirilýär.
 about-dataset-new = Common Voice maglumat toplumy
+about-dataset-new-text = Common Voice maglumat toplumynda işläp düzüjilere ses tanaýyş gurallaryny gurmaga kömek edýän ýüz müňlerçe ses nusgasy bar.
+about-clip-graveyard = Klip mazarlygy
+about-clip-graveyard-text = Klip mazarlygy, Common Voice maglumat toplumyna girmedik ses kliplerinden ybarat. Maglumat toplumynda bolşy ýaly, Klip mazarlygyny hem göçürip alyp bolýar.
+about-partners = Hyzmatdaşlar
+about-become-a-partner = Hyzmatdaş bol
+about-get-involved = Işe goşulyň
+about-nav-why-common-voice = Näme üçin?
+about-nav-how-it-works = Nähili işleýär?
+about-nav-partners = Hyzmatdaşlar
+about-nav-get-involved = Işe goşulyň
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Emeli zehin
+mycroft-description =
+    Mycroft dünýädäki ilkinji açyk çeşme kömekçisi.
+    Mycroft islendik ýerde - iş stoly kompýuterinde, awtoulagyň içinde ýa-da Raspberry Pi-de işleýär.
 
 ## Glossary
 
+glossary = Sözlük
+localization = Lokalizasiýa
+localization-explanation = Bu biziň mazmunymyzy köp sebitler (diller) üçin terjime etmek we uýgunlaşdyrmak prosesimizdir.
+sentence-collection = Sözlem ýygnama
+sentence-collection-explanation = Jemgyýetçilikden sözlem ýygnamak, ýa-da köpçülige açyk täze sözlemleri ýazmak.
+hours-recorded-explanation = Şu wagta çenli ýygnan ses ýazgy sagatlarymyzyň sany.
+sst = Gepleşikden tekste (STT)
+sst-explanation = Gepleşikden tekste (STT) tehnologiýalary ses maglumatlaryny tekste öwürýär.
+de-identified = Şahsyýetligi aýrylan
+de-identified-explanation = Maglumat toplumynyň bir bölegi hökmünde göçürip almak üçin gaplanylanda, goşant goşanlaryň profil maglumatlarynyň bagyş edilen ses kliplerinden gizlenmek prosesi.
 
 ## Error pages
 
+error-title-404 = Siz üçin şol sahypany tapyp bilmedik
+error-title-503 = Ulgamlarymyzda garaşylmadyk meseleleri başdan geçirýäris
+error-code = Ýalňyşlyk { $code }
 
 ## Data
 
+data-download-button = Common Voice maglumatyny göçürip al
+data-download-yes = Hawa
+data-download-deny = Ýok
+data-download-license = Lisenziýa: <licenseLink>CC-0</licenseLink>
+data-download-modal = <size>{ $size }GB</size> ölçegli maglumaty göçürip aljak bolýarsyňyz, dowam etmelimi?
 
 ## Datasets Page
 
