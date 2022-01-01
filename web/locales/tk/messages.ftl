@@ -976,6 +976,7 @@ sc-howto-findpd-tips-1 = Gözläp biljek iň gowy çeşmeleriňiz podkastlar, tr
 sc-howto-findpd-tips-2 = Hökümet ýazgylary, kitaplar we makalalar hem gowy, emma olaryň teksti biraz resmi bolandyklary üçin ileri tutulmaýar.
 sc-howto-findpd-tips-3 = Gynansak-da, biz entek Wikimedia makalalaryny alyp bilmeýäris. Şonuň üçin olary şol ýerden göçürip ýelmemäň.
 sc-howto-findpd-subtitle-2 = Ýerli guramalar we şahslar bilen hyzmatdaşlyk ediň
+sc-howto-findpd-partner-1 = Hyzmatdaşlyk etmek isleýän we jemgyýetçilik domeni hökmünde bagyşlap biljek tekstleri köp bolan jemgyýetçilik guramalary köp. Taslama barada gürleşmek we kömek soramak üçin ýerli uniwersitetlere, hökümetlere we açyk çeşme guramalaryna ýüz tutuň.
 sc-howto-findpd-partner-2 = Dilçi bilermenler hem kömek edip biler, ýerli dilçi uniwersitetlere (mugallymlara we talyplara) ýüz tutuň we diliňizdäki ses taýdan dürli sözlemleri ýygnamaga kömek etmeklerini soraň.
 
 ## MY SENTENCES
