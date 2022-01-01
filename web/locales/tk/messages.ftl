@@ -497,6 +497,9 @@ data-download-yes = Hawa
 data-download-deny = Ýok
 data-download-license = Lisenziýa: <licenseLink>CC-0</licenseLink>
 data-download-modal = <size>{ $size }GB</size> ölçegli maglumaty göçürip aljak bolýarsyňyz, dowam etmelimi?
+data-subtitle = Hemmeleriň sözleýiş bilen işleýän programmalary türgenleşdirmek üçin ulanyp biljek açyk we köpçülige elýeterli ses maglumat toplumyny gurýarys.
+data-get-started = <speechBlogLink>Sözleýiş tanaýyşa giriş</speechBlogLink>
+data-other-title = Başga ses maglumat toplumlary…
 
 ## Datasets Page
 
