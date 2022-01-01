@@ -786,12 +786,41 @@ share-goal-type-listen = Diňlemek
 share-goal-type-both = Geplemek we diňlemek
 # LINK will be replaced with the current URL
 goal-share-text = Men ýaňyja #CommonVoice sesimi bagyş etmek boýunça şahsy maksat goýdum -- maňa goşulyň we enjamlara hakyky adamlaryň nähili gepleýändigini öwretmäge kömek ediň { $link }
+weekly-goal-created = Siziň hepdelik maksadyňyz döredildi
+daily-goal-created = Günlük maksadyňyz döredildi
+track-progress = Öňegidişligiňizi şu ýerden we statistika sahypaňyzdan yzarlaň.
+return-to-edit-goal = Maksadyňyzy redaktirlemek üçin islendik wagt şu ýere dolanyň.
+share-goal = Maksadymy paýlaş
 
 ## Profile Delete
 
+delete-q = Siz ses ýazgylaryňyzyň hem pozulmagyny soramak isleýärsiňizmi ýa-da olary Common Voice maglumat toplumynda saklamak isleýärsiňizmi?
+keep = Sakla
+remove = Aýyr
+profile-form-delete = Profili poz
 
 ## Profile Download
 
+download-q = Maglumatyňyzy göçürip almalymy?
+download-info = Göçürip almak isleýän zadyňyzy bize aýdyň:
+download-profile-title = Profil
+download-profile-info = E-poçta, ulanyjy ady we demografik maglumaty öz içine alýar, edil şu wagt elýeterli
+download-profile-size = Birnäçe baýt
+download-recordings-title = Ýazgylar
+download-recordings-info = mp3-leri we degişli sözlemleri öz içine alýar, taýýarlamak üçin biraz wagt gerek bolmagy mümkin
+download-recordings-size = Adatça megabaýtlar
+download-recordings-unavailable = Başga bir haýyş dowam edýän wagty ýazgylaryňyzy almagy haýyş edip bilmersiňiz.
+download-recently-requested = Her { $days } günden bir gezek ýazgylaryňyzyň täze çykarmasyny sorap bilersiňiz.
+download-size = Ölçeg
+download-selected = Saýlanan
+download-start = Profil maglumatyny göçürip al
+download-request = Ýazgylary sora
+download-requests = Ýazgylary göçürip almak boýunça öňki soramalar
+download-requests-info = Ýazgylaryňyzy soranyňyzda, biz olary bir ýa-da birnäçe ZIP faýllara ýygnaýarys. Ine siziň öňki soramalaryňyz:
+download-request-button = Göçürip al
+download-request-title = { $created }
+download-request-description = { $clipCount } ses klibi, arhiwiň jemi ölçegi { $size }. Gutarýan möhleti { $expires }.
+download-request-archive-single = Öz içine alýan bir ZIP faýl
 
 ## Landing
 
