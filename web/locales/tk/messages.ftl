@@ -1000,12 +1000,45 @@ sc-rejected-none-found = Ret edilen sözlem tapylmady!
 
 ## STATS
 
+sc-stats-title = Statistika
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Soňky täzelenme: { $lastUpdate }
+sc-stats-last-update-never = Soňky täzelenme: hiç haçan
+sc-stats-updating = Täzelenýär…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sözlem ýygnaýjy { $languageCount } dilde { $sentenceCount } sözlem ýygnady!
 
 ## ADD
 
+sc-submit-err-select-lang = Dil saýlaň.
+sc-submit-err-add-sentences = Sözlem goşmagyňyzy haýyş edýäris.
+sc-submit-err-add-source = Çeşme goşmagyňyzy haýyş edýäris.
+sc-submit-err-confirm-pd = Bu sözlemleriň köpçülige açykdygyny tassyklamagyňyzy haýyş edýäris.
+sc-submit-prompt =
+    .message = Sözlemler tabşyrylmady, siz çyndanam çykmak isleýärsiňizmi?
+sc-submit-title = Sözlem goş
+sc-submit-select-language =
+    .labelText = Dil saýla
+sc-submit-add-sentences = <wikipediaLink>Köpçülikleýin domen</wikipediaLink> sözlemlerini goş
+sc-submit-ph-one-per-line =
+    .placeholder = Her setirde bir sözlem
+sc-submit-from-where = Bu <wikipediaLink>köpçülikleýin domen</wikipediaLink> sözlemleri nireden alyndy?
+sc-submit-ph-read-how-to =
+    .placeholder = Nähili salgylanmalydygyny bilmeýän bolsaňyz gollanmamyzy okaň
+sc-submit-confirm = Bu sözlemleriň <wikipediaLink>jemgyýetçilik domenidigini</wikipediaLink> we olary ýüklemäge rugsadymyň barlygyny tassyklaýaryn.
+sc-submit-button =
+    .submitText = Tabşyr
+sc-submit-filtered = Talaplaryň berjaý edilmeýändigi sebäpli süzülen sözlemler (olaryň düzedilen görnüşlerini täze sözlem hökmünde tabşyryň):
+sc-submit-guidelines = <howToLink>Düzgünlere</howToLink> serediň.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Dil goşup bilmedi
+sc-add-lang-sec-label = Goşant goşmak isleýän diliňizi saýlaň
+sc-add-lang-sec-button = Dil goş
 
 ## ADD SENTENCES CONFIRMATION
 
