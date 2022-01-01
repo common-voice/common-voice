@@ -551,21 +551,79 @@ feedback-q = Seslenme barmy?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ soňky çykan sözleýiş AI nusgalaryny işläp düzýän ylmy barlagçylar üçin <docsLink>açyk çeşme gural toplumydyr</docsLink>.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> açyk sözleýiş tehnologiýasyna bagyşlanýar. Olaryň taslamalary çuňňur öwrenmäge esaslanýan STT we TTS motorlaryny öz içine alýar.
 community-playbook = Jemgyýetçilik düzgünleri
+resource-playbook-info = Lokalizasiýadan başlap maglumat toplumyny ulanmaga çenli, şol sanda jemgyýetçilik bilen habarlaşmalydygy barada, tutuş Common Voice ýolagçylygy barada <playbookLink>peýdaly maglumat tapyň</playbookLink>.
+data-other-ted-name = TED-LIUM korpus
+data-other-ted-description = TED-LIUM korpusy ses gepleşiklerinden ýasaldy we olaryň transkripsiýalary TED websaýtynda elýeterli.
+data-other-voxforge-description = VoxForge Mugt we açyk çeşme sözleýiş tanaýyş motorlary bilen ulanmak üçin transkribirlenen sözleýşi ýygnamak üçin gurnaldy.
+your-feedback = Common Voice maglumat toplumyny nähili gowulandyryp biljekdigimiz barada pikiriňiz barmy? Bize Discourse-da aýdyň
+go-discourse = Discourse-a git
+missing-language = Maglumat toplumynda diliňizi göreňzokmy? Dil soramak üçin Diller sahypasyna baryň.
+go-languages-page = Diller sahypasyna git
+ready-to-validate = Sözlemleri barlamaga kömek etmäge taýýarmy?
+more = Köpräk
+close = Ýap
+download = Göçürip al
+dataset-version = Wersiýa
 
 ## Download Modal
 
+download-title = Göçürip almaňyz başlady.
+download-helpus = Ses tehnologiýasynyň töwereginde jemgyýetçilik döretmäge ýardam beriň, e-poçta arkaly habarlaşyp duruň.
+download-form-email =
+    .label = E-poçtaňyzy giriziň
+    .value = Sag boluň, habarlaşarys.
+download-back = Common Voice maglumat toplumlaryna dolan
+download-no = Ýok, sag bol.
 
 ## Contact Modal
 
+contact-title = Aragatnaşyk formasy
+contact-form-name =
+    .label = At
+contact-form-message =
+    .label = Habar
+contact-required = *hökmany
 
 ## Request Language Modal
 
+request-language-title = Dil soramak
+request-language-form-language =
+    .label = Dil
+request-language-success-title = Dil soramak üstünlikli iberildi, sag boluň.
+request-language-success-content = Common Voice-a diliňizi goşmak barada gysga wagtda goşmaça maglumat bilen siz bilen habarlaşarys.
+select-language = Dil saýla
+other-language = Başga dil
 
 ## Languages Overview
 
+language-section-in-progress = Dowam edýär
+language-section-launched = Işledildi
+languages-show-more = Köpräk gör
+languages-show-less = Azrak gör
+language-meter-in-progress = Öňegidişlik
+language-total-progress = Jemi
+language-search-input =
+    .placeholder = Gözle
+language-speakers = Gepleýjiler
+localized = Lokallaşdyrylan
+sentences = Sözlemler
+total-hours = Barlanan sagatlar
 
 ## Contribution
 
+action-click = Bas
+action-tap = Deg
+contribute = Goşant goş
+listen = Diňle
+skip = Geç
+shortcuts = Gysga ýollar
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> klip
+       *[other] <bold>{ $count }</bold> klip
+    }
+goal-help-recording = Siz Common Voice-yň günlük { $goalValue } ýazgy etme maksadymyzyň <goalPercentage></goalPercentage> derejesine ýetmegine kömek etdiňiz!
+goal-help-validation = Siz Common Voice-yň günlük { $goalValue } barlama maksadymyzyň <goalPercentage></goalPercentage> derejesine ýetmegine kömek etdiňiz!
 
 ## Reporting
 
