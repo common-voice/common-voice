@@ -906,7 +906,16 @@ contribution-background-noise-example-1-fixed-title = <strong>[asgyrmak]</strong
 contribution-background-noise-example-2-fixed-title = Trias eýýamynyň äpet dino <strong>[üsgürme]</strong>.
 contribution-background-noise-example-2-explanation = [Tekstiň bir bölegi eşdilenok]
 contribution-background-noise-example-3-fixed-title = <strong>[döwülme]</strong> eýýamynyň apet dino <strong>[döwülme]</strong>-ry.
-contribution-background-voices-title = Fon galmagaly
+contribution-background-voices-title = Fon sesleri
+contribution-background-voices-description-extended = Eger ýazgy döwülýän ýa-da bölünýän bolsa, teksti dolulygyna eşdip bolmaýan bolsa ret ediň.
+contribution-background-voices-example-1-title = Trias eýýamynyň äpet dinozawrlary. <strong>[bir ses tarapyndan okalýar]</strong>
+contribution-background-voices-example-1-explanation = Gelýäňmi? <strong>[başga biri çagyrýar]</strong>
+contribution-volume-title = Ses derejesi
+contribution-reader-effects-title = Okaýjynyň täsirleri
+contribution-just-unsure-title = Doly ynamly dälmi?
+contribution-just-unsure-description = Eger şu düzgünlerde beýan edilmedik bir ýagdaýa gabat gelseňiz, özüňizçe iň dogry hasaplaýşyňyza görä ses beriň. Çyndanam netijä gelip bilmeseňiz, geç düwmesine basyň we indiki ýazga dowam ediň.
+see-more = <chevron></chevron>Köpräk gör
+see-less = <chevron></chevron>Azrak gör
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -915,12 +924,39 @@ contribution-background-voices-title = Fon galmagaly
 
 ## HEADER/FOOTER
 
+sc-header-home = Baş sahypa
+sc-header-how-to = Gollanma
+sc-header-add = Goş
+sc-header-review = Gözden geçir
+sc-header-rejected = Ret edilen sözlemler
+sc-header-my = Sözlemlerim
+sc-header-statistics = Statistika
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Ýalňyşlary habar beriň
+sc-footer-translate = Şu sahypany terjime et
+sc-footer-report-copyright = Awtorlyk hukugy meselelerini habar beriň
+sc-footer-privacy = Gizlinlik
+sc-footer-terms = Düzgünler
+sc-footer-cookies = Kökeler
+sc-login-signup-button = Gir / Ýazyl
+sc-logout-button = Çyk
 
 ## HOME
 
+sc-home-title = Common Voice Sözlem ýygnaýja hoş geldiňiz
+sc-home-collect-title = Sözlemleri ýygna
+sc-home-collect-text = Köpçülikleýin domende ýerleşýän sözlemleri ýazyp ýa-da ýygnap bize kömek ediň.
+sc-home-review-title = Sözlemleri gözden geçir
+sc-home-review-text = Sözlemleri düzgünlere laýyklykda gözden geçirip bize kömek ediň.
 
 ## HOW-TO
 
+sc-howto-title = Gollanma
+sc-howto-addlang-title = Işlemek üçin dilleri goşmak
+sc-howto-addlang-text = Hasaba gireniňizden soň dilleriňizi profil bölüminden saýlap bilersiňiz.
+sc-howto-addsen-title = Täze sözlemleri goş
+sc-howto-cite-title = Nädip sitirlemeli
 
 ## MY SENTENCES
 
