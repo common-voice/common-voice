@@ -192,7 +192,7 @@ help = Kömek
 contact = Aragatnaşyk
 privacy = Ýaşyrynlyk
 terms = Düzgünler
-cookies = Kukiler
+cookies = Kökeler
 faq = KSS
 content-license-text = Mazmun <licenseLink>Creative Commons license</licenseLink> lisenziýasy esasynda elýeterli
 share-title = Bize seslerini peşgeş berjek başga adamlary tapmaga kömek ediň!
@@ -269,6 +269,7 @@ whats-public = Näme köpçülige açyk?
 email-not-public = E-poçtaňyzy köpçülige mälim etmeris.
 recordings-and-locale-public = Ýazgylaryň sany we haýsy dillere goşant goşýandygyňyz köpçülige açyk bolar.
 username-optin-public = Ulanyjy adyňyzy köpçülige açyk ýa-da anonim etmegi saýlap bilersiňiz.
+demographic-deidentified-clarity-2 = Islege baglylykda iberilen demografik maglumat (m.ü. ýaş, jyns, dil we şiwe) hiç haçan siziň profiliňizde köpçülige açylmaz we maglumat toplumyndaky hasabyňyza çatylmaz. Her audio klip has dogry seljeriş üçin demografik maglumat bilen baglanyşdyrylar - mysal üçin, ylmy barlagçy türgenleşdirme nusgasyny belli bir demografik segmente görä ýerine ýetirmek isläp biler.
 username-email-not-demographic = Ulanyjy adyňyz we e-poçtaňyz neşir edilen maglumatlar bilen baglanyşykly bolmaz.
 
 ## Speak & Listen Shortcuts
