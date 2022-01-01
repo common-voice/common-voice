@@ -820,28 +820,64 @@ download-requests-info = Ýazgylaryňyzy soranyňyzda, biz olary bir ýa-da birn
 download-request-button = Göçürip al
 download-request-title = { $created }
 download-request-description = { $clipCount } ses klibi, arhiwiň jemi ölçegi { $size }. Gutarýan möhleti { $expires }.
-download-request-archive-single = Öz içine alýan bir ZIP faýl
+download-request-archive-single = Bir ZIP faýl, öz içine alýar
+download-request-archive-multiple = { $archiveCount } ZIP faýlyna bölünen, öz içine alýar
+download-request-assembling-description = Faýllaryňyz ýygnalýar. Soňrak täzeden barlap görüň.
+download-request-refresh-button = Täzele
+download-request-modal-title = Göçürip almak üçin baglanyşyklar
+download-request-modal-description = ZIP faýllaryňyzy göçürip almak üçin baglanyşyklar ine.
+download-request-link-text = Zip #{ $offset } jemi { $total }
+download-request-metadata-link = Sözlemiň teksti
 
 ## Landing
 
+welcome-staff = Hoş geldiňiz { $company } işgäri!
+help-contribute = Common Voice profilini döredip we sesiňizi goşant goşup, köpdürli, açyk çeşme maglumatyny döretmäge kömek edip bilersiňiz.
+login-company = Gir / { $company } e-poçtasy bilen ýazyl
+profile-not-required = Goşant goşmak üçin profiliň bolmagy hökmany däl, ýöne ol peýdaly, sebäbini aşakda görüň.
+read-more-about = Hakynda sahypamyzda goşmaça okaň
 
 ## DemoLayout
 
+demo-get-started = Başlalyň
+demo-welcome = Common Voice-e hoş geldiňiz
+demo-welcome-subheader = Goşmaça maglumat almak we taslama goşant goşmak bilen gyzyklanýarsyňyzmy?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice dünýäniň iň uly köpçülige elýeterli, köpdilli ses maglumat toplumydyr.
+card-button-next = Indiki
+card-button-back = Yza
+demo-language-select-label = Dillere göz aýla
+demo-eofy-header = 2019 ýyl soňy goýberilişi
+demo-eofy-sub_header = Ses maglumat toplumy, göçürmäge taýýar
+demo-account = Hasap
 
 ## Demo Account
 
+demo-account-card-header = Goşant goşmak üçin hasap hökmany däl, emma ol peýdaly.
+demo-account-enter-email =
+    .label = Ýazylmak üçin baglanyşyk ugradar ýaly e-poçta giriziň
+demo-account-sign-up = Ýazylmak baglanyşygyny iber
 
 ## Demo Contribute
 
+demo-contribute-card-header = Sesiňizi goşmaga ýa-da gulagyňyzy ulanmaga taýýarmy?
+demo-listen-subtitle = Goşant goşmaga taýynmy?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Şahsy dolandyryş panelleri şahsy we jemgyýetçilik öňegidişligi boýunça habarly bolmagyňyzy üpjün edýär.
 
 ## Validation criteria
 
+contribution-criteria-nav = Kriteriler
+contribution-criteria-link = Goşant goşmagyň kriterilerine düşüniň
+contribution-criteria-page-title = Goşant goşmak kriterileri
+contribution-for-example = mysal üçin
+contribution-misreadings-title = Ýalňyş okamalar
+contribution-misreadings-description-extended-list-1 = Ýazgynyň başynda <strong>'A'</strong> ýa-da <strong>'The'</strong> sesleriniň ýoklugy.
+contribution-misreadings-description-extended-list-2 = Sözüň soňunda <strong>'s'</strong> ýoklugy.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
