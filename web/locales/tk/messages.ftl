@@ -624,6 +624,44 @@ clips-with-count-pluralized =
     }
 goal-help-recording = Siz Common Voice-yň günlük { $goalValue } ýazgy etme maksadymyzyň <goalPercentage></goalPercentage> derejesine ýetmegine kömek etdiňiz!
 goal-help-validation = Siz Common Voice-yň günlük { $goalValue } barlama maksadymyzyň <goalPercentage></goalPercentage> derejesine ýetmegine kömek etdiňiz!
+contribute-more =
+    { $count ->
+       *[other] Ýene { $count } sany etmäge taýýarmy?
+    }
+record-cta = Ýazga almaga başla
+record-platform-not-supported = Bagyşlaň, platformaňyz häzirki wagtda goldanmaýar.
+record-platform-not-supported-desktop = Iş stoly enjamlarynda şulary göçürip alyp goşant goşup bilersiňiz…
+record-platform-not-supported-ios-non-safari = iOS-da ýazgyny işjeňleşdirmek üçin Safari bilen dowam ediň…
+record-must-allow-microphone = Siz mikrofona girişine rugsat bermeli.
+record-no-mic-found = Mikrofon tapylmady.
+record-error-too-short = Ýazgy aşa gysga boldy.
+record-error-too-long = Ýazgy aşa uzyn boldy.
+record-error-too-quiet = Ýazgy aşa ýuwaş boldy.
+record-cancel = Täzeden ýazga almagy bes et
+record-instruction = { $actionType }<recordIcon></recordIcon> soňra sözlemi gaty ses bilen okaň
+record-stop-instruction = Bolanyňyzdan soň { $actionType }<stopIcon></stopIcon> basyň
+record-three-more-instruction = Ýene üç sany galdy!
+record-again-instruction = Örän gowy!<recordIcon></recordIcon> Indiki klibiňizi ýazga alyň
+record-again-instruction2 = Dowam ediň, ýene ýazga alyň <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Iň soňky!
+review-tooltip = Gözden geçir & gidip barşyňyza klipleri täzeden ýazga alyň
+share-clip = Klibiňizi paýlaşyň
+share-common-voice = Common Voice-i paýlaş
+review-instruction = Klipleri gözden geçiriň we gerek bolsa, gaýtadan ýazyň
+record-submit-tooltip = { $actionType } taýýar bolanda tabşyryň
+clips-uploaded = Ýüklenen klipler
+record-abort-title = Ilki ýazgyny tamamlamalymy?
+record-abort-text = Häzir çyksaňyz öňegidişligiňizi ýitirersiňiz
+record-abort-submit = Klipleri tabşyr
+record-abort-continue = Ýazgyny tamamla
+record-abort-delete = Çyk we klipleri poz
+listen-instruction = { $actionType }<playIcon></playIcon> olar sözlemi dogry aýtdymy?
+listen-again-instruction = Berekella!<playIcon></playIcon> Taýýar bolanyňyzda ýene diňläň
+listen-3rd-time-instruction = 2 sanysy dyndy, arman dowam ediň!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Soňkusy!
+listen-empty-state = Bu dilde barlanmaly klipleri gutardyk...
+speak-empty-state = Bu dilde ýazgy edilmeli sözlemleri gutardyk...
+speak-empty-state-cta = Sözlem goş
 
 ## Reporting
 
