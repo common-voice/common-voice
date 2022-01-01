@@ -407,6 +407,13 @@ faq-what-cv-q = Common Voice näme?
 faq-what-cv-a = Ses tanaýyş tehnologiýasy biiziň enjamlar bilen aragatnaşygymyzda öwrülişik döredýär, emma bar bolan ulgamlar gymmat we hususy eýeçilikde. Common Voice Mozillanyň ses tanaýyş tehnologiýalaryny ösdürmek we hemmelere elýeterli etmek başlangyjynyň bölegidir. Common Voice islendik adama ses-işledilen goýmalary islendik dilde çalt we aňsat türgenleşdirmäge mümkinçilik berýän, bagyş edilen seslerden ybarat uly global maglumat binýadydyr.
 faq-what-cv-a-2 = Ses tanaýyş tehnologiýasy biziň enjamlar bilen aragatnaşygymyzda öwrülişik döredýär, emma bar bolan ulgamlar gymmat we hususy eýeçilikde. Common Voice Mozillanyň ses tanaýyş tehnologiýalaryny ösdürmek we hemmelere elýeterli etmek başlangyjynyň bölegidir. Common Voice islendik adama ses-işledilen goýmalary islendik dilde çalt we aňsat türgenleşdirmäge mümkinçilik berýän, bagyş edilen seslerden ybarat uly global maglumat binýadydyr.
 faq-why-important-q = Bu näme üçin möhüm?
+faq-why-important-a =
+    Sözleýiş köplenç birek-birek bilen gatnaşmagymyz üçin iň tebigy usuldyr we ses tehnologiýalary şol amatlylygy kompýuterlerimize we mobil enjamlarymyza getirýär. Biz işläp düzüjileri hakyky-wagt terjimeçiler we ses bilen işleýän sanly kömekçiler ýaly ses tanaýyş programmalaryny taýýarlamakda goldamak isleýäris. Emma edil häzir şular ýaly programmalary düzmek üçin gerek bolan ses maglumaty gymmat we hususy eýeçilikde. Biz Common Voice maglumat toplumynyň innowasiýa etmek we ses tehnologiýasyny öz dillerinde elýeterli etmekleri üçin gerek zatlary işläp düzüjilere berer diýip umyt edýäris.
+    
+    Ses tanaýşy has hem uniwersal etmek üçin, biz giňden geplenýän diller bilen bir hatarda täjirçilik ses tanaýyş hyzmatlary tarapyndan çäkli hyzmat edilýän az gepleýjili dillerden hem ses nusgalaryny ýygnaýarys. Dürli sesli maglumat toplumyny neşir etmek işläp düzüjilere, telekeçilere we ses jemgyýetlerine bu boşlugy öz güýçleri bilen ýapmaga uly goldaw berer.
+faq-how-get-q = Common Voice maglumatyny nädip alyp bilerin?
+faq-how-get-a = Common Voice maglumat toplumy <licenseLink>CC0</licenseLink> lisenziýasy boýunça <datasetLink>biziň Maglumat toplumlary sahypamyzda</datasetLink> göçürip almaga elýeterlidir. Şol sahypadan siz başga-da köpçülige açyk birnäçe maglumat çeşmelerini alyp bilersiňiz.
+faq-when-release2-q = Common Voice maglumatlary başga dillerde haçan çykararsyňyz?
 
 ## ABOUT US
 
