@@ -528,8 +528,29 @@ datasets-headline = Islendik adamyň sözleýiş bilen işleýän programmalary 
 language = Dil
 # File size in gigabytes
 size = Ölçeg
+overall-hr-total = Umumy sag. jemi
+cv-license = Ygtyýarnama
+audio-format = Ses formaty
+number-of-voices = Sesleriň sany
+splits = Bölünmeler
+email-to-download = Göçürip almak üçin e-poçta giriz
+why-email = <b> Näme üçin e-poçta? </b> Maglumatlar bazasyndaky üýtgeşmeler barada geljekde size ýüz tutmaly bolmagymyz mümkin, e-poçta bize aragatnaşyk mümkinçiligini berýär.
+confirm-size = Siz <b>{ $size }</b> ölçegli göçürip alma başlamak üçin taýýar.
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = Siz Common Voice maglumat toplumyndaky ulanyjylaryň şahsyýetini anyklamaga synanyşmazlyk barada <b>ylalaşýarsyňyz</b>
+download-language = { $language } dilini göçürip al
+validated-hours = Barlanan sagatlar
+recorded-hours = Ýazga alnan sagatlar
+whats-inside = Common Voice maglumat toplumynyň içinde näme bar?
+want-dataset-update = Common Voice maglumat toplumynyň täze wersiýasyny goýberenimizde täzelenme almak isleýärsiňizmi? Habarnamamyza ýazylyň.
+subscribe = Ýazyl
+get-started-speech = Sözleýiş tanaýyşa giriş
 other-datasets = Başga ses maglumat toplumlary
 feedback-q = Seslenme barmy?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ soňky çykan sözleýiş AI nusgalaryny işläp düzýän ylmy barlagçylar üçin <docsLink>açyk çeşme gural toplumydyr</docsLink>.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> açyk sözleýiş tehnologiýasyna bagyşlanýar. Olaryň taslamalary çuňňur öwrenmäge esaslanýan STT we TTS motorlaryny öz içine alýar.
+community-playbook = Jemgyýetçilik düzgünleri
 
 ## Download Modal
 
