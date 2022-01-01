@@ -419,6 +419,7 @@ faq-why-mission-q = Common Voice näme üçin Mozilla missiýasynyň bir bölegi
 faq-what-cv-and-deepspeech-q = Common Voice bilen Deep Speech arasynda näme tapawut bar?
 faq-is-goal-assistant-q = Common Voice-iň maksady ses kömekçisini döretmekmi?
 faq-do-want-native-q = Men şol diliň asyl gepleýjisi däl we aksent bilen gürleýärin, henizem sesimi isleýärsiňizmi?
+faq-do-want-native-a = Hawa, biz aýratynam siziň sesiňizi isleýäris! Common Voice-iň maksadynyň bir bölegi mümkin boldugyça dürli şiweleri ýygnap, ses tanaýyş hyzmatlarynyň hemmeleri üçin deň derejede gowy işlemegini gazanmak. Bu şol diliň asyl gepleýjisi däl bolan adamlaryň seslerini ýygnamagy aýratyn ähmiýetli edýär.
 faq-why-different-speakers-q = Näme üçin her dilde şonça köp gepleýji gerek?
 faq-why-my-lang-q = Näme üçin meniň dilim entek goşulmandyr?
 faq-what-quality-q = Maglumat toplumynda ses klipiniň ulanylmagy üçin haýsy ses hili talap edilýär?
@@ -431,6 +432,7 @@ faq-why-not-ask-read-q = Adamlardan dürli dillerdäki kitaplardan ýa-da Wikipe
 faq-why-account-q = Men näme üçin hasap açmaly?
 faq-is-account-public-q = Hasabym baradaky maglumatlar köpçülige açykmy?
 faq-how-privacy-q = Seslerini bagyş eden adamlaryň anonimligini we ýaşyrynlygyny nädip üpjün edip bilersiňiz?
+faq-how-privacy-a = Maglumat toplumyndaky ähli ses klipleri şahsyýeti anyklaýan maglumatlardan saplanan. Haçan-da bir goşantçy öz profiliniň üsti bilen demografiki maglumatlary berse, maglumat toplumynyň içinde göçürilip alynmaga taýýarlananda şol ses kliplerinden şahsyýet maglumatlary aýrylýar we hiç haçan profil sahypasynda köpçülige açylmaýar.
 faq-what-determine-identity-q = Common Voice maglumat toplumyndaky gürleýjileriň şahsyýetini kesgitläp bilmeýändigim näme many berýär?
 faq-what-is-cv = Common Voice näme?
 faq-using-cv = Common Voice ulanmak
@@ -974,6 +976,7 @@ sc-howto-findpd-tips-1 = Gözläp biljek iň gowy çeşmeleriňiz podkastlar, tr
 sc-howto-findpd-tips-2 = Hökümet ýazgylary, kitaplar we makalalar hem gowy, emma olaryň teksti biraz resmi bolandyklary üçin ileri tutulmaýar.
 sc-howto-findpd-tips-3 = Gynansak-da, biz entek Wikimedia makalalaryny alyp bilmeýäris. Şonuň üçin olary şol ýerden göçürip ýelmemäň.
 sc-howto-findpd-subtitle-2 = Ýerli guramalar we şahslar bilen hyzmatdaşlyk ediň
+sc-howto-findpd-partner-2 = Dilçi bilermenler hem kömek edip biler, ýerli dilçi uniwersitetlere (mugallymlara we talyplara) ýüz tutuň we diliňizdäki ses taýdan dürli sözlemleri ýygnamaga kömek etmeklerini soraň.
 
 ## MY SENTENCES
 
@@ -1168,6 +1171,7 @@ sc-criteria-item-1 = Sözlem dogry ýazylan bolmaly.
 sc-criteria-item-2 = Sözlem grammatiki taýdan dogry bolmaly.
 sc-criteria-item-3 = Sözlem aýdylyp bilinýän bolmaly.
 sc-criteria-item-4 = Eger sözlem kriterilere laýyk gelýän bolsa, sagdaky &quot;Tassykla&quot; düwmesine basyň.
+sc-criteria-item-5-2 = Eger sözlem ýokardaky kriterilere gabat gelmeýän bolsa, çepdäki "Ret et" düwmesine basyň. Eger sözlem barada ynamly netijä gelip bilmeseňiz, ony geçiň we indiki sözlem bilen dowam ediň.
 sc-criteria-item-6 = Eger gözden geçirilmeli sözlemleri gutarsaňyz, bize köpräk sözlem ýygnamaga kömek ediň!
 
 ## REVIEW
@@ -1205,6 +1209,16 @@ sc-review-link = Gözden geçir
 
 sc-settings-title = Sazlamalar
 sc-settings-ui-language = Interfeýs dili
+sc-settings-language-translated-warning = Bu dil üçin sahypalar doly terjime edilmedik bolup biler. Siz terjime babatda <pontoonLinkLink>Pontoon-da</pontoonLinkLink> kömek edip bilersiňiz.
+sc-settings-reset-skipped = Geçilen sözlemleri nolla
+sc-settings-skipped-decription = Öň gözden geçireniňizde sözlemleriň üstünden geçdiňiz. Üstünden geçilen sözlemleri nollamak olaryň ýene görkezýär. Bu dile bagly däl.
+sc-settings-show-all-button = Geçilen sözlemleri ýene görkez
+sc-settings-failed = Sazlamalary üýtgedip bolmady. Gaýtadan synanyşyň.
+# VALIDATION
+sc-validation-number-of-words = Sözlemde 1 we 14 (içine goşmak bilen) aralykda söz bolmaly
+sc-validation-no-numbers = Sözlemde san bolmaly däl
+sc-validation-no-symbols = Sözlemde simwollar bolmaly däl
+sc-validation-no-abbreviations = Sözlemde gysgaltmalar bolmaly däl
 
 # [/SentenceCollector]
 
