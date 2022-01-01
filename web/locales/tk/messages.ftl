@@ -500,9 +500,34 @@ data-download-modal = <size>{ $size }GB</size> ölçegli maglumaty göçürip al
 data-subtitle = Hemmeleriň sözleýiş bilen işleýän programmalary türgenleşdirmek üçin ulanyp biljek açyk we köpçülige elýeterli ses maglumat toplumyny gurýarys.
 data-get-started = <speechBlogLink>Sözleýiş tanaýyşa giriş</speechBlogLink>
 data-other-title = Başga ses maglumat toplumlary…
+data-other-goto = { $name }-a(e) git
+data-other-download = Maglumaty göçürip al
+data-bundle-button = Maglumat toplumy ýygnamasyny göçürip al
+data-bundle-description = Common Voice maglumat we ýokardaky ähli beýleki ses maglumat toplumlary.
+release-version = Wersiýa
+dataset-date = Sene
+license = Ygtyýarnama: <licenseLink>{ $license }</licenseLink>
+license-mixed = Garyşyk
+data-download-singleword-title = Bir sözli nyşana segmenti göçürip al
+data-download-singleword-callout-v2 = Bu ulanyş ýagdaýy tarapyndan kesgitlenilýän geplenilen san belgilerini we hawa / ýok anyklamaga ýardam berýän segmentdir.
+review-terms = Common Voice-i ulanmak bilen, <termsLink>Düzgünlerimiz</termsLink> we <privacyLink>Gizlinlik syýasatymyz</privacyLink> bilen ylalaşýarsyňyz.
+terms-agree = Ylalaşýaryn
+terms-disagree = Ylalaşmaýaryn
+review-aborted = Ýüklemek ýatyryldy. Ýazgylaryňyzy pozmak isleýärsiňizmi?
+review-submit-title = Gözden geçir we tabşyr
+review-submit-msg = Ýazgy edeniňiz üçin sag boluň!<lineBreak></lineBreak>Häzir gözden geçiriň we klipleriňizi aşakda tabşyryň.
+review-recording = Gözden geçir
+review-rerecord = Täzeden ýaz
+review-cancel = Tabşyrmany ýatyr
+review-keep-recordings = Ýazgylary sakla
+review-delete-recordings = Ýazgylarymy poz
 
 ## Datasets Page
 
+datasets-headline = Islendik adamyň sözleýiş bilen işleýän programmalary türgenleşdirmek üçin ulanyp biljek açyk çeşme, köpdilli ses maglumat toplumyny gurýarys.
+language = Dil
+# File size in gigabytes
+size = Ölçeg
 other-datasets = Başga ses maglumat toplumlary
 feedback-q = Seslenme barmy?
 
