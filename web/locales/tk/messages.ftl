@@ -1039,12 +1039,80 @@ sc-submit-guidelines = <howToLink>Düzgünlere</howToLink> serediň.
 sc-add-lang-could-not-add = Dil goşup bilmedi
 sc-add-lang-sec-label = Goşant goşmak isleýän diliňizi saýlaň
 sc-add-lang-sec-button = Dil goş
+sc-add-err-unexpected = Serwerden garaşylmadyk jogap geldi
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Tabşyrylan sözlemler. { $duplicates } sözlem dublikat hökmünde ret edildi.
+        [one] Tabşyrylan sözlemler. { $duplicates } sözlem dublikat hökmünde ret edildi.
+       *[other] Tabşyrylan sözlemler. { $duplicates } sözlem dublikat hökmünde ret edildi.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Geçmedik sözlem ýok
+        [one] 1 sözlem geçmedi
+       *[other] { $sentences } sözlem geçmedi
+    }
+sc-add-err-submission = Tabşyrma ýalňyşy
+sc-add-lang-process-notice = Diliňiz bu sanawda ýok bolsa, ony <languageProcessLink>şu proses</languageProcessLink> arkaly sorap bilersiňiz.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Sözlemler tabşyrylmady, çyndanam şu wagt çykmak isleýärsiňizmi?
+sc-confirm-sentences-title = Täze sözlemleri tassykla
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Sözlem tapylmady.
+        [one] 1 sözlem tapyldy.
+       *[other] { $countOfSentences } sözlem tapyldy.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = siz tarapyndan ret edilen { $countOfInvalidated } sany
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Eýýäm gözden geçirilen sözlem ýok.
+        [one] 1 sözlem eýýäm gözden geçirildi. Berekella!
+       *[other] { $countOfReviewed } sözlem eýýäm gözden geçirildi. Berekella!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Tabşyrylmaga taýýar sözlem ýok!
+        [one] 1 sözlem tabşyrylmaga taýýar!
+       *[other] { $readyCount } sözlem tabşyrylmaga taýýar!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } sözlem gözden geçirilmedik. Isleseňiz, sözlemleriňizi tabşyrmankaňyz, häzir öňünden gözden geçirip bilersiňiz.
+sc-confirm-button-text = Tassykla
+sc-confirm-uploading = Sözlemler ýüklenýär. Bu goşulýan sözlemleriň sanyna baglylykda birnäçe minut wagt alyp biler. Bu websaýty ýapmaň.
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Jemi sözlem ýok.
+        [one] Jemi 1 sözlem.
+       *[other] Jemi { $totalSentences } sözlem.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Gözden geçirilýän sözlem ýok.
+        [one] 1 sözlem gözden geçirilýär.
+       *[other] { $totalInReview } sözlem gözden geçirilýär.
+    }
 
 ## LOGIN
 
