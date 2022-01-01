@@ -1113,21 +1113,98 @@ sc-lang-info-in-review =
         [one] 1 sözlem gözden geçirilýär.
        *[other] { $totalInReview } sözlem gözden geçirilýär.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Gözden geçirmegiňiz üçin galan sözlem ýok.
+        [one] Gözden geçirmegiňiz üçin 1 sözlem galdy.
+       *[other] Gözden geçirmegiňiz üçin { $unreviewedSentencesByYou } sözlem galdy.
+    }
+sc-lang-info-review-now = <reviewLink>Häzir gözden geçir!</reviewLink>
+sc-lang-info-add-more = <addLink>Häzir goşmaça sözlemleri goş!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Barlanan sözlem ýok.
+        [one] 1 barlanan sözlem.
+       *[other] { $validatedSentences } barlanan sözlem.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ret edilen sözlem ýok.
+        [one] 1 ret edilen sözlem.
+       *[other] { $rejectedSentences } ret edilen sözlem.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Giriş başa barmady
+sc-login-err-try-again = Gaýtadan synanyşyň.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Dili aýryp bolmady: dil tapylmady
+sc-personal-err-remove = Dili aýryp bolmady
+sc-personal-your-languages = Dilleriňiz:
+sc-personal-remove-button = aýyr
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } siz tarapyndan goşuldy
+sc-personal-not-added = Entek haýsydyr bir dil goşmadyňyz.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Gözden geçiriş kriterileri
+sc-criteria-title = Gözden geçiriş kriterileri
+sc-criteria-make-sure = Sözlemiň aşakdaky kriterilere gabat gelýändigine göz ýetiriň:
+sc-criteria-item-1 = Sözlem dogry ýazylan bolmaly.
+sc-criteria-item-2 = Sözlem grammatiki taýdan dogry bolmaly.
+sc-criteria-item-3 = Sözlem aýdylyp bilinýän bolmaly.
+sc-criteria-item-4 = Eger sözlem kriterilere laýyk gelýän bolsa, sagdaky &quot;Tassykla&quot; düwmesine basyň.
+sc-criteria-item-6 = Eger gözden geçirilmeli sözlemleri gutarsaňyz, bize köpräk sözlem ýygnamaga kömek ediň!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Hiç hili dil saýlamadyňyz. Dilleri saýlamak üçin <profileLink>Profiliňize</profileLink> giriň.
+sc-review-title = Sözlemleri gözden geçir
+sc-review-loading = Sözlemler ýüklenýär…
+sc-review-select-language = Sözlemleri gözden geçirmek üçin dil saýlaň.
+sc-review-no-sentences = Gözden geçirmek üçin sözlem ýok. <addLink>Häzir has köp sözlem goşuň! </addLink>
+sc-review-form-prompt =
+    .message = Gözden geçirilen sözlemler tabşyrylmady, çyndanam?
+sc-review-form-usage = Sözlemi tassyklamak üçin saga süýşüriň. Ony ret etmek üçin çepe süýşüriň. Geçmek üçin ýokary süýşüriň. <strong>Gözden geçirmäňizi tabşyrmagy ýatdan çykarmaň!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Çeşme: { $sentenceSource }
+sc-review-form-button-reject = Ret et
+sc-review-form-button-skip = Geç
+sc-review-form-button-approve = Tassykla
+# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
+sc-review-form-keyboard-usage = Şeýle hem klawiatura gysga ýollaryny ulanyp bilersiňiz: Y tassyklamak üçin N, ret etmek, S geçmek üçin
+sc-review-form-button-submit =
+    .submitText = Gözden geçirmäni tamamla
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Hiç sözlem gözden geçirilmedi.
+        [one] 1 sözlem gözden geçirildi. Minnetdar!
+       *[other] { $sentences } sözlem gözden geçirildi. Minnetdar!
+    }
+sc-review-form-review-failure = Gözden geçirmäni ýatda saklap bolmady. Soňra gaýtadan synanyşyň.
+sc-review-link = Gözden geçir
 
 ## SETTINGS
 
+sc-settings-title = Sazlamalar
+sc-settings-ui-language = Interfeýs dili
 
 # [/SentenceCollector]
 
