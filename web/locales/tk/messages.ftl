@@ -878,6 +878,21 @@ contribution-for-example = mysal üçin
 contribution-misreadings-title = Ýalňyş okamalar
 contribution-misreadings-description-extended-list-1 = Ýazgynyň başynda <strong>'A'</strong> ýa-da <strong>'The'</strong> sesleriniň ýoklugy.
 contribution-misreadings-description-extended-list-2 = Sözüň soňunda <strong>'s'</strong> ýoklugy.
+contribution-misreadings-description-extended-list-3 = Gysgaltmalaryň ýok ýerinde bar ýaly okamak, meselem "We are" derek "We're", ýa-da oň tersine.
+contribution-misreadings-description-extended-list-4 = Ýazgyny wagtyndan öň kesip, soňky sözüň soňuny ýitirmek.
+contribution-misreadings-description-extended-list-5 = Bir sözi okamak üçin birnäçe gezek synanyşyk etmek.
+contribution-misreadings-example-1-title = Trias eýýamynyň äpet dinozawrlary.
+contribution-misreadings-example-2-title = Trias eýýamynyň äpet dinozawry.
+contribution-misreadings-example-2-explanation = [‘dinozawrlar’ bolmaly]
+contribution-misreadings-example-3-title = Trias eýýamynyň äpet dinozawrlar-.
+contribution-misreadings-example-3-explanation = [soňky sözüň soňundan öň ýazgy kesilipdir]
+contribution-misreadings-example-4-title = Trias eýýamynyň äpet dinozawrlary. Hawa.
+contribution-misreadings-example-4-explanation = [Talap edilýän tekstden köp ýazgy edilipdir]
+contribution-misreadings-example-5-title = Kofe içmäge çykýarys.
+contribution-misreadings-example-6-title = Kofe içmäge çykýas.
+contribution-misreadings-example-6-explanation = [“çykýarys” bolmaly]
+contribution-misreadings-example-7-title = Bir kofe içmäge çykýarys.
+contribution-misreadings-example-7-explanation = [Asyl tekstde ‘bir’ ýok]
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
