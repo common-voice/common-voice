@@ -339,12 +339,13 @@ connect-gravatar = Gravatarతో అనుసంధానించండి
 gravatar_not_found = మీ ఈమెయిలుకి గ్రావతార్ ఏమీ దొరకలేదు
 file_too_large = ఎంచుకున్న ఫైలు చాలా పెద్దగా ఉంది
 avatar-uploaded = అవతారం ఎక్కించబడింది
+max-file-size = { $kb }kb గరిష్ఠం
 
 ## Profile - Email
 
 manage-subscriptions = చందాల నిర్వహణ
 manage-email-subscriptions = ఈమెయిలు చందాల నిర్వహణ
-email-already-used = వేరొక ఖాతా కోసం ఈమెయిలు ఇప్పటికే వాడుతున్నారు
+email-already-used = ఈమెయిలును వేరొక ఖాతా కోసం ఇప్పటికే వాడుతున్నారు
 add-language = భాషను చేర్చు
 
 ## FAQ
@@ -601,6 +602,9 @@ keep = ఉంచు
 remove = తొలగించు
 profile-form-delete = ప్రొఫైలును తొలగించు
 
+## Profile Download
+
+
 ## Landing
 
 profile-not-required = తోడ్పడటానికి ప్రొఫైలు కలివుండటం తప్పనిసరి కాదు కానీ అది ఉపయోగపడుతుంది, ఎందుకో కింద చూడండి.
@@ -622,4 +626,57 @@ read-more-about = మా గురించి పేజీలో మరిం�
 
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
