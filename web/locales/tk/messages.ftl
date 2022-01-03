@@ -942,11 +942,13 @@ demo-account-sign-up = Ýazylmak baglanyşygyny iber
 ## Demo Contribute
 
 demo-contribute-card-header = Sesiňizi goşmaga ýa-da gulagyňyzy ulanmaga taýýarmy?
+demo-contribute-card-body-v2 = Common Voice hakda biraz maglumat alandygyňyza görä, ony synap görmek isleýärsiňizmi? Sözlemleri sesli okap başlamak üçin mikrofon şekiljigine basyň. <br/> <br/>Başga adamlaryň ses goşantlaryny gözden geçirmek isleseňiz, oýnat şekiljigine basyň. Ýazgylaryň ekranda ýazylan sözlemlere gabat gelýändigini tassyklamaga kömek edersiňiz.
 demo-listen-subtitle = Goşant goşmaga taýynmy?
 
 ## Demo Dashboard
 
 demo-dashboard-card-header = Şahsy dolandyryş panelleri şahsy we jemgyýetçilik öňegidişligi boýunça habarly bolmagyňyzy üpjün edýär.
+demo-dashboard-card-body = Bagyş edilen her ses klibi we barlanan her bir ses klibi üçin goşant goşan her diliňizdäki soňky ösüşiňizi görkezmek üçin hasabyňyzyň dolandyryş panelleri täzelenýär. Hawa, birden köp dile goşant goşup bilersiňiz! <br/><br/> Statistikalaryňyzy yzarlamak, jemgyýetdäki beýlekiler bilen deňeşdirilende nähili işleýändigiňizi we gündelik ýa-da hepdelik goşant goşmak maksatlaryny bellemek üçin dolandyryş panellerini ulanyň.
 
 ## Validation criteria
 
@@ -977,6 +979,7 @@ contribution-misreadings-example-7-explanation = [Asyl tekstde ‘bir’ ýok]
 contribution-misreadings-example-8-title = Şmel geçip gitdi.
 contribution-misreadings-example-8-explanation = [Gabat gelmeýän mazmun]
 contribution-varying-pronunciations-title = Üýtgeýän aýdylyşlar
+contribution-varying-pronunciations-description = Okaýjynyň bir sözi ýalňyş aýdandygyna, basymlary nädogry ýerde goýandygyna ýa-da sorag belgisini äsgermezlik edendigine esaslanyp klibi ret etmezden ozal seresap boluň. Dünýäde ulanylýan dürli aýdylyşlar bar we olaryň käbirlerini siz öz ýerli jemgyýetiňizde eşitmedik bolmagyňyz mümkin. Sizden üýtgeşik gepleýänlere hem belli bir derejede kabul ediliş mümkinçiligini bermegiňizi haýyş edýäris.
 contribution-varying-pronunciations-description-extended = Başga bir tarapdan, okyjy öň hiç haçan bu söze duş gelmändir we aýdylyşynda nädogry çaklama edýär diýip pikir edýän bolsaňyz, ret etmegiňizi haýyş edýäris. Eger ynamly netijä gelip bilmeseňiz, geçmek düwmesini ulanyň.
 contribution-varying-pronunciations-example-1-title = Ol kellesine beret geýdi.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ birinji bogunda (UK) ýa-da ikinji bogunda (US) basymly okalyp bilner]
