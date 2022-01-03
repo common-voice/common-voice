@@ -430,12 +430,18 @@ faq-why-different-speakers-a =
 faq-why-my-lang-q = Näme üçin meniň dilim entek goşulmandyr?
 faq-why-my-lang-new-a = Mozilla haýsydyr bir dili saýlamaýar ýa-da beýleki dilden has ýokarda tutmaýar. Muňa derek, Common Voice arassa jemgyýetçilik tarapyndan döredilen başlangyçdyr, ýöne ses bagyş etmelerini ýygnap başlamak üçin <multilangLink>täze dil goşmak üçin birnäçe ädim</multilangLink> ýerine ýetirilmeli. Ilki bilen, bileleşigiň agzalary öz dillerinde goşant goşmak tejribesine girip biler ýaly, umumy ses web sahypasyny terjime etmeli. Ondan soň, adamlaryň daşyndan okamaklary üçin awtorlyk hukugy goralmaýan sözlemleriň uly toplumy gerek. Bu talaplaryň ikisi-de kanagatlandyrylansoň, adamlar sesini ýazga geçirip we başgalaryň bagyş etmelerini tassyklap bilerler ýaly, Common Voice-da bir dil “işe girizilýär”. Täze dil açmaga kömek etmek isleseňiz, başlamak üçin <sentenceCollectorLink> sözlem ýygnamak guralyna </sentenceCollectorLink> başlaň.
 faq-what-quality-q = Maglumat toplumynda ses klipiniň ulanylmagy üçin haýsy ses hili talap edilýär?
+faq-what-quality-a = Common Voice maglumatlar maglumat toplumynyň sözleýişden tekste öwürýän motoryň hakyky durmuşda eşitjek seslerini öz içine almagyny isleýäris, şonuň üçin bize dürlülik gerek. Dürli gürleýjileri bolan jemgyýete goşmaça, dürli ses hili bolan maglumat toplumy sözleýiş-tekst motoryna fonda gürleşmekden awtoulag sesine çenli dürli hakyky ýagdaýlar bilen iş salyşmagy öwreder. Ses klipiňize düşünip bolýan bolsa, ol maglumat toplumy üçin ýeterlik derejede gowy diýmekdir.
 faq-why-10k-hours-q = Näme üçin ses almak üçin her dilde 10.000 tassyklanan sagada ýetmek maksat edinilýär?
 faq-why-10k-hours-a = Bu önümçilikde sözleýişden-tekste ulgamyny türgenleşdirmek üçin zerur bolan takmyny sagat sanydyr.
 faq-how-calc-hours-q = Common Voice sagatlary nädip hasaplaýar?
 faq-how-calc-hours-a = Her ýazgynyň ortaça uzynlygyna baha bermek bilen sagatlary hasaplaýarys we soňra bu sanlary ähli dillerdäki ýazgylaryň umumy sanyna köpeldýäris.
 faq-where-src-from-2-q = Çeşme tekst nireden gelýär?
+faq-where-src-from-2-a =
+    Çeşme tekstimiz, goşant goşanlaryň original bagyş etmelerinden, şeýle hem <italic>Bu ajaýyp durmuş</italic> ýaly köpçülikleýin domende ýerleşýän film ssenarilerinden alnan gepleşiklerden ybarat.
+    
+    Çeşme sözlemlerimizi şu <githubLink>GitHub bukjasynda</githubLink> görüp bilersiňiz.
 faq-why-not-ask-read-q = Adamlardan dürli dillerdäki kitaplardan ýa-da Wikipediýa makalalaryndan okamaklaryny sorasaňyz bolmaýarmy?
+faq-why-not-ask-read-a = Common Voice maglumat bazasyny mümkin boldugyça peýdaly etmek üçin diňe Creative Commons (CC0) ygtyýarnamasy bilen elýeterli çeşme tekstine rugsat bermegi makul bildik. CC0 standartyny ulanmak, çeşme tekstini tapmagyň we ýygnamagyň has kyn bolmagyny aňladýar, ýöne islendik adama hiç hili çäklendirmesiz we Mozillanyň rugsadyny soraman, ses maglumatyny ulanmaga mümkinçilik berýär. Ahyrky netijede, biz köp dilli maglumat toplumyny ylmy barlagçylara, uniwersitetlere, startaplara, hökümetlere, sosial maksatly guramalara we höwesjeňlere ýagny hemmelere mümkin boldugyça peýdaly  etmek isleýäris.
 faq-why-account-q = Men näme üçin hasap açmaly?
 faq-is-account-public-q = Hasabym baradaky maglumatlar köpçülige açykmy?
 faq-how-privacy-q = Seslerini bagyş eden adamlaryň anonimligini we ýaşyrynlygyny nädip üpjün edip bilersiňiz?
@@ -450,6 +456,11 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Näme üçin Common Voice?
+about-subtitle = Common Voice Mozilla-nyň maşynlara hakyky adamlaryň gepleýşini öwretmäge kömek etmek boýunça başlangyjydyr. Common Voice maglumat toplumyna goşmaça, biz Deep Speech atly açyk çeşme sözleýşi tanaýjy motory hem işläp düzýäris.
+about-header-description = Bu taslamalaryň ikisi hem sanly söz bölünişigini ýeňip geçmek üçin edýän tagallalarymyzyň bir bölegidir. Ses tanaýyş tehnologiýalary enjamlarymyza adam ölçegini getirýär, ýöne döredijiler olary düzmek üçin ummasyz ses maglumatlaryna mätäç. Häzirki wagtda bu maglumatlaryň köpüsi gymmat we hususy eýeçilikde.
+about-header-description-2 =
+    Bu taslama sanly söz bölünişigini ýeňip geçmek üçin edilýän tagalla. Ses tanaýyş tehnologiýalary enjamlarymyza adam ölçegini getirýär, ýöne döredijilere olary düzmek üçin ummasyz ses maglumatlary gerek. Häzirki wagtda bu maglumatlaryň köpüsi gymmat we hususy eýeçilikde.
+    Ses maglumatlaryny erkin we köpçülige elýeterli etmek we maglumatlaryň hakyky adamlaryň dürlüligini görkezýändigine göz ýetirmek isleýäris. Bilelikde hemmeler üçin ses tanamagy has gowulandyryp bileris.
 how-does-it-work-title = Ol nähili işleýär?
 how-does-it-work-text = Sesleriň açyk çeşmeli maglumat toplumyny köpçülik bolup ýygnaýarys. Sesiňizi bagyş ediň, beýleki adamlaryň klipleriniň dogrulygyny barlaň, maglumatlar toplumyny hemmeler üçin has gowulandyryň.
 about-speak = Geple
