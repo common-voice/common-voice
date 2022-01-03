@@ -849,6 +849,11 @@ delete-q = Siz ses ýazgylaryňyzyň hem pozulmagyny soramak isleýärsiňizmi �
 keep = Sakla
 remove = Aýyr
 keep-info = Anonim ses ýazgylaryňyz Common Voice maglumat toplumynda galar. Profiliňizi pozanyňyzdan soň ýazgylaryňyzy maglumat toplumyndan aýyrmak üçin haýyş bilen ýüz tutup bilmersiňiz
+remove-info = Ses ýazgylaryňyzy maglumat toplumyndan aýyrmak baradaky haýyşyňyzy gözden geçireris. Haýyşyňyz tassyklanan bolsa, maglumat toplumyny göçürip alanlar bilen habarlaşarys we ses ýazgylaryňyzy aýyrmaklaryny olardan hem haýyş ederis.
+why-delete-recordings =
+    Common Voice ýazgylary ylmy işgärler, kiçi kärhanalar we ses tanamak höwesjeňleri tarapyndan ses modelleri ýaly köpçülige elýeterli çeşmeleri türgenleşdirmek we ösdürmek üçin ulanylýar.
+    
+    Näme üçin ýazgylaryňyzyň pozulmagyny isleýändigiňizi bize aýdyp bilersiňizmi?
 profile-form-delete = Profili poz
 
 ## Profile Download
@@ -880,6 +885,7 @@ download-request-modal-title = Göçürip almak üçin baglanyşyklar
 download-request-modal-description = ZIP faýllaryňyzy göçürip almak üçin baglanyşyklar ine.
 download-request-link-text = Zip #{ $offset } jemi { $total }
 download-request-metadata-link = Sözlemiň teksti
+download-request-link-single = Şeýle hem gönüden-göni URL-leri halaýan göçürip alyjy programmaňyza göçürip ýelmäp bilersiňiz. 12 sagadyň dowamynda olaryň möhleti gutarar, ýöne islän wagtyňyz täze salgylary döretmek üçin bu sahypa dolanyp bilersiňiz.
 
 ## Landing
 
@@ -898,6 +904,7 @@ demo-welcome-subheader = Goşmaça maglumat almak we taslama goşant goşmak bil
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice dünýäniň iň uly köpçülige elýeterli, köpdilli ses maglumat toplumydyr.
+demo-language-select-card-body = 50-den gowrak dilde 259 müňden gowrak adamyň goşant goşmagy netijesinde bu maglumatlar adam sesine has gowy jogap bermek üçin sözleýiş programmalaryny türgenleşdirmek üçin ulanylýar.
 card-button-next = Indiki
 card-button-back = Yza
 demo-language-select-label = Dillere göz aýla
@@ -908,6 +915,7 @@ demo-account = Hasap
 ## Demo Account
 
 demo-account-card-header = Goşant goşmak üçin hasap hökmany däl, emma ol peýdaly.
+demo-account-card-body = Sag tarapda peýdalaryny görkezýäris we haýsy maglumatlary köpçülige ýetirýändigimizi düşündirýäris. Öz enjamyňyzda Common Voice hasabyny açyp, işe girişmek üçin aşakdaky baglanyşyklary ulanyň.
 demo-account-enter-email =
     .label = Ýazylmak üçin baglanyşyk ugradar ýaly e-poçta giriziň
 demo-account-sign-up = Ýazylmak baglanyşygyny iber
@@ -926,8 +934,10 @@ demo-dashboard-card-header = Şahsy dolandyryş panelleri şahsy we jemgyýetçi
 contribution-criteria-nav = Kriteriler
 contribution-criteria-link = Goşant goşmagyň kriterilerine düşüniň
 contribution-criteria-page-title = Goşant goşmak kriterileri
+contribution-criteria-page-description = Ses kliplerini diňläniňizde nämä üns bermelidigine düşüniň we ses ýazgylaryňyzy hem baýlaşdyrmaga kömek ediň!
 contribution-for-example = mysal üçin
 contribution-misreadings-title = Ýalňyş okamalar
+contribution-misreadings-description = Diňläniňizde ses ýazgylarynyň edil ýazylan tekstlere gabat gelýändigini uly üns bilen barlaň; ownuk ýalňyşlyklar bar bolsa-da ret ediň.<br />Iň köp duş gelýän ýalňyşlyklar şulary öz içine alýar:
 contribution-misreadings-description-extended-list-1 = Ýazgynyň başynda <strong>'A'</strong> ýa-da <strong>'The'</strong> sesleriniň ýoklugy.
 contribution-misreadings-description-extended-list-2 = Sözüň soňunda <strong>'s'</strong> ýoklugy.
 contribution-misreadings-description-extended-list-3 = Gysgaltmalaryň ýok ýerinde bar ýaly okamak, meselem "We are" derek "We're", ýa-da oň tersine.
@@ -948,6 +958,7 @@ contribution-misreadings-example-7-explanation = [Asyl tekstde ‘bir’ ýok]
 contribution-misreadings-example-8-title = Şmel geçip gitdi.
 contribution-misreadings-example-8-explanation = [Gabat gelmeýän mazmun]
 contribution-varying-pronunciations-title = Üýtgeýän aýdylyşlar
+contribution-varying-pronunciations-description-extended = Başga bir tarapdan, okyjy öň hiç haçan bu söze duş gelmändir we aýdylyşynda nädogry çaklama edýär diýip pikir edýän bolsaňyz, ret etmegiňizi haýyş edýäris. Eger ynamly netijä gelip bilmeseňiz, geçmek düwmesini ulanyň.
 contribution-varying-pronunciations-example-1-title = Ol kellesine beret geýdi.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ birinji bogunda (UK) ýa-da ikinji bogunda (US) basymly okalyp bilner]
 contribution-varying-pronunciations-example-2-title = Onuň eli galdyrylgydy.
