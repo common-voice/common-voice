@@ -428,6 +428,7 @@ faq-why-different-speakers-a =
     Sözleýiş maglumat bazalarynyň köpüsinde belli bir demografiýanyň aşa köp görkezilmegi bilen taýýarlanylýar, bu bolsa, netijede <articleLink>erkek we orta synpyň</articleLink> tarapgöýlügine sebäp bolýar. Türgenleşdiriş maglumat toplumynda kän bir wekilçilik edilmeýän şiweler we dialektler, adatça, marginallaşdyrylan adamlaryň toparlary bilen baglanyşyklydyr. Köp enjamlar zenan seslerine düşünmekde hem kynçylyk çekýärler.
     Şonuň üçin hem biz ses maglumat bazamyzda dürlüligi isleýäris!
 faq-why-my-lang-q = Näme üçin meniň dilim entek goşulmandyr?
+faq-why-my-lang-new-a = Mozilla haýsydyr bir dili saýlamaýar ýa-da beýleki dilden has ýokarda tutmaýar. Muňa derek, Common Voice arassa jemgyýetçilik tarapyndan döredilen başlangyçdyr, ýöne ses bagyş etmelerini ýygnap başlamak üçin <multilangLink>täze dil goşmak üçin birnäçe ädim</multilangLink> ýerine ýetirilmeli. Ilki bilen, bileleşigiň agzalary öz dillerinde goşant goşmak tejribesine girip biler ýaly, umumy ses web sahypasyny terjime etmeli. Ondan soň, adamlaryň daşyndan okamaklary üçin awtorlyk hukugy goralmaýan sözlemleriň uly toplumy gerek. Bu talaplaryň ikisi-de kanagatlandyrylansoň, adamlar sesini ýazga geçirip we başgalaryň bagyş etmelerini tassyklap bilerler ýaly, Common Voice-da bir dil “işe girizilýär”. Täze dil açmaga kömek etmek isleseňiz, başlamak üçin <sentenceCollectorLink> sözlem ýygnamak guralyna </sentenceCollectorLink> başlaň.
 faq-what-quality-q = Maglumat toplumynda ses klipiniň ulanylmagy üçin haýsy ses hili talap edilýär?
 faq-why-10k-hours-q = Näme üçin ses almak üçin her dilde 10.000 tassyklanan sagada ýetmek maksat edinilýär?
 faq-why-10k-hours-a = Bu önümçilikde sözleýişden-tekste ulgamyny türgenleşdirmek üçin zerur bolan takmyny sagat sanydyr.
@@ -450,6 +451,7 @@ faq-search-for-answers =
 
 about-title = Näme üçin Common Voice?
 how-does-it-work-title = Ol nähili işleýär?
+how-does-it-work-text = Sesleriň açyk çeşmeli maglumat toplumyny köpçülik bolup ýygnaýarys. Sesiňizi bagyş ediň, beýleki adamlaryň klipleriniň dogrulygyny barlaň, maglumatlar toplumyny hemmeler üçin has gowulandyryň.
 about-speak = Geple
 about-speak-text = Goşantçylar bagyş edilen sözlemler bankyndan okamak arkaly ses kliplerini ýazga edýärler.
 about-listen-queue = Diňleme nobaty
@@ -468,7 +470,15 @@ about-clip-graveyard = Klip mazarlygy
 about-clip-graveyard-text = Klip mazarlygy, Common Voice maglumat toplumyna girmedik ses kliplerinden ybarat. Maglumat toplumynda bolşy ýaly, Klip mazarlygyny hem göçürip alyp bolýar.
 about-partners = Hyzmatdaşlar
 about-become-a-partner = Hyzmatdaş bol
+about-partnership =
+    Common Voice bilelikdäki taslama bolup, sesleriň iň uly açyk maglumat toplumyny döretmek üçin hyzmatdaşlarymyza we goşant goşujylarymyza bil baglaýarys.
+    
+    Taslama kömek edendikleri üçin aşakdaky adamlara we guramalara sag bolsun aýdýarys:
 about-get-involved = Işe goşulyň
+about-get-involved-text-2 =
+    Common Voice-i hasam gowulandyrmak isleýärsiňizmi?
+    Gowy! E-poçta ýa-da <discourseLink>Discourse</discourseLink> forumlary arkaly habarlaşyň, saýt meselelerini <githubLink>GitHub</githubLink> ýa-da
+    <matrixLink>Matrix</matrixLink> jemgyýetçilik söhbetdeşligi arkaly iberiň.
 about-nav-why-common-voice = Näme üçin?
 about-nav-how-it-works = Nähili işleýär?
 about-nav-partners = Hyzmatdaşlar
@@ -478,6 +488,7 @@ mycroft-subtitle = Emeli zehin
 mycroft-description =
     Mycroft dünýädäki ilkinji açyk çeşme kömekçisi.
     Mycroft islendik ýerde - iş stoly kompýuterinde, awtoulagyň içinde ýa-da Raspberry Pi-de işleýär.
+mycroft-secondary-description = Bu erkin remiks edilip, giňeldilip we kämilleşdirilip bilinýän açyk çeşme programma üpjünçiligidir. Mycroft, ylym taslamasyndan başlap, kärhana programma üpjünçiligine çenli islendik zatda ulanylyp bilner.
 
 ## Glossary
 
@@ -487,6 +498,7 @@ localization-explanation = Bu biziň mazmunymyzy köp sebitler (diller) üçin t
 sentence-collection = Sözlem ýygnama
 sentence-collection-explanation = Jemgyýetçilikden sözlem ýygnamak, ýa-da köpçülige açyk täze sözlemleri ýazmak.
 hours-recorded-explanation = Şu wagta çenli ýygnan ses ýazgy sagatlarymyzyň sany.
+hours-validated-explanation = 3 ulanyjynyň 2-si tarapyndan “Hawa” diýip ses bermek arkaly tassyklanan ses ýazgy sagatlarynyň sany. Bular umumy taslamanyň 10 müň sagatlyk maksadyna tarap öňegidişligi görkezýär.
 sst = Gepleşikden tekste (STT)
 sst-explanation = Gepleşikden tekste (STT) tehnologiýalary ses maglumatlaryny tekste öwürýär.
 de-identified = Şahsyýetligi aýrylan
@@ -495,6 +507,7 @@ de-identified-explanation = Maglumat toplumynyň bir bölegi hökmünde göçür
 ## Error pages
 
 error-title-404 = Siz üçin şol sahypany tapyp bilmedik
+error-content-404 = Belki, <homepageLink>baş sahypamyz</homepageLink> kömek eder? Sorag bermek üçin, <matrixLink>Matrix jemgyýetçilik söhbetdeşligine</matrixLink> goşulyň, <githubLink>GitHub</githubLink> arkaly saýt meselelerine gözegçilik ediň ýa-da <discourseLink>Discourse forumlarymyza</discourseLink> giriň.
 error-title-503 = Ulgamlarymyzda garaşylmadyk meseleleri başdan geçirýäris
 error-code = Ýalňyşlyk { $code }
 
