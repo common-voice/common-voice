@@ -1010,9 +1010,13 @@ see-less = <chevron></chevron>Менее подробно
 ## HEADER/FOOTER
 
 sc-header-add = Добавить
+sc-header-rejected = Отклоненные предложения
+sc-header-my = Мои предложения
 sc-header-statistics = Статистика
 sc-header-profile = Профиль
+sc-footer-report-bugs = Сообщить об ошибках
 sc-footer-translate = Перевод этой страницы
+sc-footer-report-copyright = Сообщить о нарушениях авторских прав
 sc-footer-privacy = Конфиденциальность
 sc-footer-cookies = Куки
 sc-login-signup-button = Войти / Зарегистрироваться
@@ -1023,6 +1027,16 @@ sc-logout-button = Выйти
 
 ## HOW-TO
 
+sc-howto-cite-title = Как цитировать
+sc-howto-review-subtitle = Убедитесь, что предложение соответствует следующим критериям:
+sc-howto-review-criteria-1 = Предложение должно быть написано правильно.
+sc-howto-review-criteria-2 = Предложение должно быть грамматически правильным.
+sc-howto-review-criteria-3 = Предложение должно быть произносимым.
+sc-howto-review-criteria-4 = Если предложение соответствует критериям, щёлкните по кнопке «Утвердить».
+sc-howto-review-criteria-5 = Если предложение не соответствует вышеуказанным критериям, щёлкните по кнопке «Отклонить». Если вы не уверены в предложении, вы также можете пропустить его и перейти к следующему.
+sc-howto-review-criteria-6 = Если у вас закончились предложения для проверки, помогите нам собрать больше предложений!
+sc-howto-findpd-title = Поиск существующих предложений в общественном достоянии
+sc-howto-findpd-tips = Вот несколько советов по поиску предложений:
 
 ## MY SENTENCES
 
