@@ -587,6 +587,7 @@ data-other-librispeech-description = LibriSpeech, LibriVox taslamasyndan okalýa
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpusy ses gepleşiklerinden ýasaldy we olaryň transkripsiýalary TED websaýtynda elýeterli.
 data-other-voxforge-description = VoxForge Mugt we açyk çeşme sözleýiş tanaýyş motorlary bilen ulanmak üçin transkribirlenen sözleýşi ýygnamak üçin gurnaldy.
+data-other-tatoeba-description = Tatoeba dil öwrenmekde ulanmak üçin sözlemleriň, terjimeleriň we aýdylýan sesleriň uly maglumat bazasydyr. Bu olaryň jemgyýeti tarapyndan ýazgy edilen geplenilýän iňlis dilini öz içine alýar.
 your-feedback = Common Voice maglumat toplumyny nähili gowulandyryp biljekdigimiz barada pikiriňiz barmy? Bize Discourse-da aýdyň
 go-discourse = Discourse-a git
 missing-language = Maglumat toplumynda diliňizi göreňzokmy? Dil soramak üçin Diller sahypasyna baryň.
@@ -629,7 +630,9 @@ other-language = Başga dil
 ## Languages Overview
 
 language-section-in-progress = Dowam edýär
+language-section-in-progress-new-description = Bu diller häzirki wagtda jemgyýetçilik tarapyndan işläp düzmek tapgyrynda. Öňegidişlik zolaklary, her diliň <localizationGlossaryLink>web sahypasynyň lokalizasiýasy </localizationGlossaryLink> we <sentenceCollectionGlossaryLink>sözlem ýygnamak</sentenceCollectionGlossaryLink> prosesinde nirä ýetendigini görkezýär.
 language-section-launched = Işledildi
+language-section-launched-description = Bu işe girizilen diller üçin web sahypasy üstünlikli <localizationGlossaryLink>lokallaşdyryldy </localizationGlossaryLink> we dowam edýän <speakLink>Geplemek</speakLink> we <listenLink>Diňlemek<sentenceCollectionGlossaryLink> goşantlaryna mümkinçilik berýän ýeterlik <sentenceCollectionGlossaryLink>ýygnalan sözlemleri</sentenceCollectionGlossaryLink> bar.
 languages-show-more = Köpräk gör
 languages-show-less = Azrak gör
 language-meter-in-progress = Öňegidişlik
@@ -764,6 +767,7 @@ validated-clips = Barlanan klipler
 total-approved = Jemi tassyklanan
 overall-accuracy = Umumy dogrulyk
 set-visibility = Görünijiligimi sazla
+visibility-explainer = Bu sazlama lider tagtasynyň görünmegini dolandyrýar. Gizlenilende, öňegidişligiňiz hususy bolar. Diýmek, suratyňyz, ulanyjy adyňyz we öňegidişligiňiz lider tagtasynda görünmez. Üýtgeşmeleri görkezmek üçin lider tagtasynyň täzelenmegi ~ { $minutes } min wagt alýar.
 visibility-overlay-note = Bellik: 'Görünýän' edilip bellenende, bu sazlamany <profileLink>Profil sahypasynda</profileLink> üýtgedip bolýar
 show-ranking = Reýtingimi görkez
 
@@ -797,10 +801,25 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Maksat goý
 cant-decide = Karar berip bilmeýärsiňizmi?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } sagada ýetip bolýar
+       *[other] { $totalHours } sagada ýetip bolýar
+    } { NUMBER($periodMonths) ->
+        [one] { $periodMonths } aýda eger
+       *[other] { $periodMonths } aýda eger
+    } { NUMBER($people) ->
+        [one] { $people } adam ýazgy etse
+       *[other] { $people } adam ýazgy etse
+    } { NUMBER($clipsPerDay) ->
+        [one] günde { $clipsPerDay } klip.
+       *[other] günde { $clipsPerDay } klip.
+    }
 how-many-per-day = Örän gowy! Günde näçe klip?
 how-many-a-week = Örän gowy! Hepdede näçe klip?
 which-goal-type = Geplemek, diňlemek ýa-da ikisinem isleýärsiňizmi?
 receiving-emails-info = Häzirki wagtda siz maksat ýatladyjylar, öňegidişlik täzelenmeleri we Common Voice barada habarnamalary e-poçtalary almaga sazlanan
+not-receiving-emails-info = Häzirki wagtda siz maksat ýatladyjylaryna, öňegidişlik täzelenmelerime we Common Voice barada habarnamalara degişli e-poçtalary <bold>ALMAZLYGA</bold> sazlanan
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } klip
@@ -829,6 +848,7 @@ share-goal = Maksadymy paýlaş
 delete-q = Siz ses ýazgylaryňyzyň hem pozulmagyny soramak isleýärsiňizmi ýa-da olary Common Voice maglumat toplumynda saklamak isleýärsiňizmi?
 keep = Sakla
 remove = Aýyr
+keep-info = Anonim ses ýazgylaryňyz Common Voice maglumat toplumynda galar. Profiliňizi pozanyňyzdan soň ýazgylaryňyzy maglumat toplumyndan aýyrmak üçin haýyş bilen ýüz tutup bilmersiňiz
 profile-form-delete = Profili poz
 
 ## Profile Download
