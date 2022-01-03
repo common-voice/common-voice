@@ -509,6 +509,7 @@ de-identified-explanation = Maglumat toplumynyň bir bölegi hökmünde göçür
 error-title-404 = Siz üçin şol sahypany tapyp bilmedik
 error-content-404 = Belki, <homepageLink>baş sahypamyz</homepageLink> kömek eder? Sorag bermek üçin, <matrixLink>Matrix jemgyýetçilik söhbetdeşligine</matrixLink> goşulyň, <githubLink>GitHub</githubLink> arkaly saýt meselelerine gözegçilik ediň ýa-da <discourseLink>Discourse forumlarymyza</discourseLink> giriň.
 error-title-503 = Ulgamlarymyzda garaşylmadyk meseleleri başdan geçirýäris
+error-content-503 = Saýt mümkin boldugyça gysga wagtda işläp başlar. Iň soňky maglumat üçin, <matrixLink>Matrix jemgyýetçilik söhbetdeşligine</matrixLink> goşulyň ýa-da saýtyň tejribe meselelerini ibermek we gözegçilik etmek üçin <githubLink>GitHub</githubLink> ýa-da <discourseLink>Discourse forumlarymyza</discourseLink> giriň.
 error-code = Ýalňyşlyk { $code }
 
 ## Data
@@ -519,6 +520,7 @@ data-download-deny = Ýok
 data-download-license = Lisenziýa: <licenseLink>CC-0</licenseLink>
 data-download-modal = <size>{ $size }GB</size> ölçegli maglumaty göçürip aljak bolýarsyňyz, dowam etmelimi?
 data-subtitle = Hemmeleriň sözleýiş bilen işleýän programmalary türgenleşdirmek üçin ulanyp biljek açyk we köpçülige elýeterli ses maglumat toplumyny gurýarys.
+data-explanatory-text = Uly we köpçülige açyk ses maglumat toplumlarynyň maşynlaýyn öwreniş esasly söz tehnologiýasynda innowasiýa we sagdyn täjirçilik bäsleşigini ösdürýändigine ynanýarys. Bu global tagalladyr we hemmeleri gatnaşmaga çagyrýarys. Biziň maksadymyz, sözleýiş tehnologiýasynyň has inklýuziw bolmagy we dünýäniň dürli künjeklerinden gelýän sesleriň dürlüligini görkezmegidir.
 data-get-started = <speechBlogLink>Sözleýiş tanaýyşa giriş</speechBlogLink>
 data-other-title = Başga ses maglumat toplumlary…
 data-other-goto = { $name }-a(e) git
@@ -546,9 +548,16 @@ review-delete-recordings = Ýazgylarymy poz
 ## Datasets Page
 
 datasets-headline = Islendik adamyň sözleýiş bilen işleýän programmalary türgenleşdirmek üçin ulanyp biljek açyk çeşme, köpdilli ses maglumat toplumyny gurýarys.
+datasets-positioning =
+    Uly, köpçülige açyk ses maglumat bazalarynyň maşynlaýyn öwreniş esasly söz tehnologiýasynda innowasiýa we sagdyn täjirçilik bäsleşigini ösdürjekdigine ynanýarys.
+    
+    Common Voice-iň köp dilli maglumat toplumy eýýäm köpçülige hödürlenýän iň uly ses maglumat toplumydyr, ýöne ol ýeke-täk däl.
+    
+    Bu sahypany beýleki açyk çeşme ses maglumat toplumlary we Common Voice-iň ösmegi bilen, täzeleniş goýberilişleri üçin salgylanma merkezi hökmünde görüň.
 language = Dil
 # File size in gigabytes
 size = Ölçeg
+validated-hr-total = Jemi barlanan sag.
 overall-hr-total = Umumy sag. jemi
 cv-license = Ygtyýarnama
 audio-format = Ses formaty
@@ -570,9 +579,11 @@ get-started-speech = Sözleýiş tanaýyşa giriş
 other-datasets = Başga ses maglumat toplumlary
 feedback-q = Seslenme barmy?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ soňky çykan sözleýiş AI nusgalaryny işläp düzýän ylmy barlagçylar üçin <docsLink>açyk çeşme gural toplumydyr</docsLink>.
+resource-deepspeech-info = Mozilla-nyň açyk çeşmeli ses tanaýyş motory Deep Speech sözleýiş tanaýjy programmalary düzmek üçin ulanylyp bilner. <githubLink>Github umumy synymyzy</githubLink> okaň ýa-da nädip başlamalydygyny öwrenmek üçin <discourseLink>DeepSpeech Discourse</discourseLink>-a goşulyň.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> açyk sözleýiş tehnologiýasyna bagyşlanýar. Olaryň taslamalary çuňňur öwrenmäge esaslanýan STT we TTS motorlaryny öz içine alýar.
 community-playbook = Jemgyýetçilik düzgünleri
 resource-playbook-info = Lokalizasiýadan başlap maglumat toplumyny ulanmaga çenli, şol sanda jemgyýetçilik bilen habarlaşmalydygy barada, tutuş Common Voice ýolagçylygy barada <playbookLink>peýdaly maglumat tapyň</playbookLink>.
+data-other-librispeech-description = LibriSpeech, LibriVox taslamasyndan okalýan audiokitaplardan alnan 16Khz ýygylykdaky iňlis dilindäki sözleýşiň takmynan 1000 sagadyndan ybarat korpusdyr.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpusy ses gepleşiklerinden ýasaldy we olaryň transkripsiýalary TED websaýtynda elýeterli.
 data-other-voxforge-description = VoxForge Mugt we açyk çeşme sözleýiş tanaýyş motorlary bilen ulanmak üçin transkribirlenen sözleýşi ýygnamak üçin gurnaldy.
