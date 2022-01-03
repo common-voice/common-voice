@@ -447,6 +447,10 @@ faq-is-account-public-q = Hasabym baradaky maglumatlar köpçülige açykmy?
 faq-how-privacy-q = Seslerini bagyş eden adamlaryň anonimligini we ýaşyrynlygyny nädip üpjün edip bilersiňiz?
 faq-how-privacy-a = Maglumat toplumyndaky ähli ses klipleri şahsyýeti anyklaýan maglumatlardan saplanan. Haçan-da bir goşantçy öz profiliniň üsti bilen demografiki maglumatlary berse, maglumat toplumynyň içinde göçürilip alynmaga taýýarlananda şol ses kliplerinden şahsyýet maglumatlary aýrylýar we hiç haçan profil sahypasynda köpçülige açylmaýar.
 faq-what-determine-identity-q = Common Voice maglumat toplumyndaky gürleýjileriň şahsyýetini kesgitläp bilmeýändigim näme many berýär?
+faq-what-determine-identity-a =
+    Common Voice maglumat toplumy açyk we köpçülige açyk çeşme bolup, sözleýiş funksiýaly programmalaryň giň gerimini türgenleşdirmek üçin ulanylyp bilner. Goşant goşujylarymyzyň howpsuzlygyny goramak üçin, Common Voice maglumat toplumyny göçürip alýanlaryň hemmesinden goşantçylaryň şahsy ýaşyrynlygyna hormat goýmaklaryny soraýarys.
+    
+    Maglumat toplumyndaky ähli ses klipleri şahsyýeti anyklaýan maglumatlardan saplanandyr. Maglumat toplumyny göçürip alanyňyzda, haýsydyr bir goşantçynyň şahsyýetini anyklajak bolmazlyga razy bolýarsyňyz. Diýmek, maglumatlar toplumyndaky maglumatlary goşantçynyň şahsy maglumatlary bilen baglanyşdyrmaga synanyşyp bilmersiňiz. Emma, mysal üçin maglumatlar toplumyndaky maglumatlary maglumat toplumyndaky beýleki maglumatlar bilen baglanyşdyrmak arkaly sözleýiş tanamak, gepleýjini tanamak ýa-da başga programmalar üçin maglumat toplumyny ulanyp bilersiňiz.
 faq-what-is-cv = Common Voice näme?
 faq-using-cv = Common Voice ulanmak
 faq-description = Common Voice Mozillanyň maşynlara hakyky adamlaryň gürleýşini öwretmäge kömek etmek üçin başlangyjydyr.
@@ -584,6 +588,10 @@ download-language = { $language } dilini göçürip al
 validated-hours = Barlanan sagatlar
 recorded-hours = Ýazga alnan sagatlar
 whats-inside = Common Voice maglumat toplumynyň içinde näme bar?
+dataset-description-hours =
+    Maglumat toplumyndaky her ýazgy özboluşly MP3 we degişli tekst faýlyndan durýar. Maglumat toplumynda ýazylan <b>{ $total }</b> sagadyň köpüsinde ýaş, jyns we şiwe ýaly sözleýşi tanaýjy motorlaryň dogrulygyny türgenleşdirmäge ýardam berip biljek demografiki metadata hem bar.
+    
+    Maglumatlar toplumy häzirki wagtda <b>{ $languages }</b> dilde tassyklanan <b>{ $valid }</b> sagatdan ybarat, emma biz yzygiderli has köp ses we dil goşýarys. Bir dil soramak ýa-da goşant goşmak üçin <languagesLink>Diller sahypasyna</languagesLink> göz aýlaň.
 want-dataset-update = Common Voice maglumat toplumynyň täze wersiýasyny goýberenimizde täzelenme almak isleýärsiňizmi? Habarnamamyza ýazylyň.
 subscribe = Ýazyl
 get-started-speech = Sözleýiş tanaýyşa giriş
