@@ -917,6 +917,7 @@ sc-logout-button = Derketin
 
 ## HOME
 
+sc-home-title = Bi xêr hatî Berhevkara Hevokan ya Common Voiceê
 
 ## HOW-TO
 
