@@ -106,6 +106,7 @@ mhr = Meadow Marî
 mk = Makedonî
 ml = Malayalamî
 mn = Mongolî
+mni = Meetei Lon
 mos = Moreyî
 mr = Marathi
 mrj = Mariya Çiyayî
@@ -127,6 +128,8 @@ pap-AW = Papiamento (Aruba)
 pl = Polonî
 ps = Peştûyî
 pt = Portugalî
+quc = Kîçê
+quy = Quechua Chanka
 rm-sursilv = Sursilvaniya Romanşî
 rm-vallader = Valadera Romanşî
 ro = Romanî
@@ -150,6 +153,9 @@ ta = Tamîlî
 te = Telûgûyî
 tg = Tacikî
 th = Tayî
+ti = Tîgrînîya
+tig = Tîgrî
+tk = Tirkmenî
 tl = Tagalogî
 tr = Tirkî
 tt = Teterî
@@ -340,8 +346,13 @@ profile-form-native-language =
     .label = Zimanê zikmakî
 profile-form-additional-language =
     .label = Zimanê din
+profile-form-language =
+    .label = Ziman
 profile-form-accent =
     .label = Devok
+profile-form-custom-accent-help-text =
+    .label = Tu aksana xwe çawa pênase dikî?
+profile-form-custom-accent-placeholder-2 = Ji bo pênasekirina aksana xwe dest bi nivîsandinê bike
 profile-form-age =
     .label = Temen
 profile-form-gender-2 =
@@ -352,6 +363,7 @@ hidden = Veşartî
 visible = Xuya
 native-language =
     .label = Zimanê zikmakî
+profile-form-add-accent = Aksana "{ $inputValue }" lê zêde bike
 profile-form-submit-save = Tomar bike
 profile-form-submit-saved = Hat tomarkirin
 male = Mêr
@@ -387,6 +399,7 @@ skip-submission-description = Di dema şandina beşdariyê de piştî ku li 'Bi�
 skip-submission-note = Not: Ji bo guhertina cureya beşdariyê divê tu Axaftinê an Jî Guhdarîkirinê hilbijêrî.
 off = Girtî
 on = Vekirî
+help-accent = Ji bo aksanê ji te re alîkarî divê?
 
 ## Profile - Email
 
@@ -778,10 +791,10 @@ finish-editing = Pêşî sererastkirinê biqedîne?
 lose-changes-warning = Heke tu aniha derkevî ew ê hemû guhertin wenda bibin
 build-custom-goal = Hedefeke nû diyar bike
 help-reach-hours-pluralized =
-    Armanceke şexsî diyar bike ku em bi zimanê { language } bigihîjin{ NUMBER($hours) ->
-        [one] saetekê
-       *[other] { $hours } saetan
-    }.
+    { NUMBER($hours) ->
+        [one] Armanceke şexsî diyar bike ku em bi zimanê { $language } bigihîjin saetekê { $hours }.
+       *[other] Armanceke şexsî diyar bike ku em bi zimanê { $language } bigihîjin{ $hours } saetan.
+    }
 set-a-goal = Hedefekê diyar bike
 cant-decide = Tu nikarî biryarê bidî?
 how-many-per-day = Bijî! Rojane çend klîb?
@@ -873,4 +886,76 @@ demo-listen-subtitle = Tu ji bo beşdariyê amade yî?
 demo-dashboard-card-header = Destgehên şexsî derbarê pêşveçûna te û pêşveçûna civakê de te agahdar dike.
 
 ## Validation criteria
+
+see-more = <chevron></chevron>Zêdetir bibîne
+see-less = <chevron></chevron>Hindiktir bibîne
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Serûpel
+sc-header-how-to = Çawa çêdibe
+sc-header-add = Lê zêde bike
+sc-header-review = Nirxandin
+sc-header-rejected = Hevokên hatine redkirin
+sc-header-my = Hevokên min
+sc-header-statistics = Amar
+sc-header-profile = Profîl
+sc-footer-discourse = Gotûbêj
+sc-footer-report-bugs = Çewtiyê rapor bike
+sc-footer-translate = Vê rûpelê wergerîne
+sc-footer-report-copyright = Pirsgirêkên mafê telîfê rapor bike
+sc-footer-privacy = Nepenî
+sc-footer-terms = Merc
+sc-footer-cookies = Çerez
+sc-login-signup-button = Têketin / Tomarbûn
+sc-logout-button = Derketin
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
