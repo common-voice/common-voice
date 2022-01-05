@@ -91,6 +91,7 @@ kab = kabylski
 kbd = kabardyjski
 ki = kikuju
 kk = kazachski
+km = khmerski
 kmr = kurmandżi
 ko = koreański
 kpv = komi (zyriański)
