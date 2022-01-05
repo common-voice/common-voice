@@ -164,6 +164,7 @@ uz = Usbeque
 vec = Veneziano
 vi = Vietnamita
 vot = Vótico
+yi = Iídiche
 yo = Iorubá
 yue = Cantonês
 zh-CN = Chinês (China)
@@ -321,6 +322,8 @@ profile-form-native-language =
     .label = Idioma nativo
 profile-form-additional-language =
     .label = Idioma adicional
+profile-form-language =
+    .label = Idioma
 profile-form-accent =
     .label = Sotaque
 profile-form-age =
@@ -1003,6 +1006,7 @@ see-less = <chevron></chevron>Ver menos
 
 ## HEADER/FOOTER
 
+sc-header-add = Adicionar
 
 ## HOME
 
