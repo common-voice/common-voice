@@ -1768,6 +1768,7 @@ A Christmas party at our hotel?
 A Counter-factual is something that would have happened if something else had happened.
 A Dove is a type of bird.
 A Field Programming Gate Array is a processor designed for machine learning.
+A Greek phrasebook written in Armenian script was found in Egypt.
 A Gypsy tart is a traditional Kentish dessert.
 A Lost Copy?
 A Man o’ War is an archaic ship of war.
@@ -8693,6 +8694,7 @@ Do you always go in and out like a cat?
 Do you believe him?
 Do you believe in destiny?
 Do you believe such people are happy in the other world, sir?
+Do you break codes?
 Do you breed many like him in Glasgow?
 Do you call him 'John'?
 Do you call that a short neck?
@@ -26133,6 +26135,7 @@ Listen, it's horses.
 Listen, watch, examine — but no interruptions!
 ListenBrainz allows users to import their listen history.
 ListenBrainz is an open source music website.
+Lithuanian is known to be a language that shows very conservative features.
 Little Baptiste had never had anything to do with horses.
 Little Baptiste went from bad to worse.
 Little James had never had anything to do with horses.
@@ -28104,6 +28107,7 @@ No sign was made.
 No sound came to me in that dark place.
 No sound of breathing came from the seated figure!
 No subject has come up in New Hampshire with a larger outreach.
+No such agency.
 No suspension was formally announced.
 No sweeping and dusting, only good fire and dry sheets were necessary.
 No swift merciful death for him.
@@ -30904,6 +30908,7 @@ Recomposing himself on the sofa like the second gentleman of Europe.
 Record your voice.
 Recruiters are always looking for brilliant graduates.
 Red carpet was laid down for the occasion.
+Red versus Blue.
 Red, with a thin green stripe, was the Sedleigh color.
 Red, with green stripes, sir.
 Red-Eye never committed a more outrageous deed.
@@ -35541,6 +35546,7 @@ The Lord bless us!
 The Lord forgive us!
 The Lord is my Shepherd.
 The Lord’s Supper is a sacrament, wherein, by giving and receiving bread and wine
+The Lycian, Lydian languages are valuable resources for the study of Indo-European languages.
 The Magicians of Egypt produced a very good bogus.
 The Major was afraid of the possible consequences of an upset of the canoe.
 The Mall is nearby.
@@ -39343,6 +39349,7 @@ The students have made absolutely no effort to clean up the kitchen.
 The students made literally no effort to clean the kitchen.
 The students were always well behaved.
 The study had many flaws.
+The study of Anatolian languages has been facilitated by the excavation of Hittite inscriptions.
 The study of philosophy is an interesting project for retirement.
 The study of the framework will be absolutely necessary.
 The stupidity of that man never ceases to amaze me.
@@ -43722,6 +43729,7 @@ To you and your sisters.
 To you — to my two daughters — I may tell the truth.
 Toast tastes best with butter.
 Tobacco causes cancer.
+Tocharian languages include three mutually unintelligible dialects, Tocharian A, Tocharian B and Tocharian C.
 Tod had made his home.
 Tod snapped at it, and barked.
 Today Faith said something funny and I found myself laughing.
@@ -48145,6 +48153,7 @@ Won’t you come here again?
 Won’t you sit down?
 Woodcourt came home, and I soon had no doubt at all.
 Woodside Petroleum is trying to build a gas project on the West Australian coast.
+Word for word is saved.
 Word up!
 Word wrap formatting helps text documents read clearer.
 Wordpress can be used to design light weight websites.
@@ -49995,6 +50004,7 @@ Your contribution to our charity is appreciated.
 Your cousin's conduct does not suit my feelings.
 Your cynicism is simply a pose.
 Your daddy only cares about himself.
+Your data is our data.
 Your days were the days of freedom.
 Your dear mother was so clever at all those things!
 Your determination, Sir.
@@ -50003,6 +50013,7 @@ Your email was forwarded to us in the marketing office.
 Your encounters at Thornbury were really comic.
 Your endurance is all mental, eh?
 Your enthusiasm has bounds.
+Your equipment is our equipment.
 Your face is covered, my dear fellow, quite covered.
 Your face is red with blood.
 Your face was the personification of duplicity.
