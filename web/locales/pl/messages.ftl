@@ -39,6 +39,7 @@ bg = bułgarski
 bm = bambara
 bn = bengalski
 br = bretoński
+bs = bośniacki
 bxr = buriacki
 ca = kataloński
 cak = kakczikel
