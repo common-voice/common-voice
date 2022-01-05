@@ -1057,36 +1057,89 @@ sc-my-err-failed-delete = Falha ao excluir frases selecionadas… Tente novament
 ## REJECTED
 
 sc-rejected-title = Frases rejeitadas
+sc-rejected-loading = Carregando frases rejeitadas…
+sc-rejected-err-fetching = Erro ao buscar frases rejeitadas. Tente novamente.
+sc-rejected-none-found = Nenhuma frase rejeitada encontrada!
 
 ## STATS
 
+sc-stats-title = Estatisticas
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Última atualização: { $lastUpdate }
+sc-stats-last-update-never = Última atualização: nunca
+sc-stats-updating = Atualizando…
 
 ## ADD
 
+sc-submit-err-select-lang = Selecione um idioma.
+sc-submit-err-add-sentences = Adicione frases.
+sc-submit-err-add-source = Adicione uma origem.
+sc-submit-err-confirm-pd = Confirme que essas frases são de domínio público.
+sc-submit-prompt =
+    .message = Frases não enviadas, tem certeza que quer sair?
+sc-submit-title = Adicionar frases
+sc-submit-select-language =
+    .labelText = Selecionar idioma
+sc-submit-add-sentences = Adicionar frases de <wikipediaLink>domínio público</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Uma frase por linha
+sc-submit-from-where = De onde são essas frases de <wikipediaLink>domínio público</wikipediaLink>?
+sc-submit-button =
+    .submitText = Enviar
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Não foi possível adicionar idioma
+sc-add-lang-sec-label = Adicionar um idioma em que você quer contribuir
+sc-add-lang-sec-button = Adicionar idioma
+sc-add-err-unexpected = Resposta não esperada retornada do servidor
+sc-add-err-submission = Erro de envio
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Confirmar novas frases
+sc-confirm-button-text = Confirmar
 
 ## LANGUAGE INFO
 
 
 ## LOGIN
 
+sc-login-err-failed = Falha na autenticação
+sc-login-err-try-again = Tente novamente.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Perfil: { $username }
+sc-personal-err-lang-not-found = Não foi possível remover idioma: idioma não encontrado
+sc-personal-err-remove = Não foi possível remover idioma
+sc-personal-your-languages = Seus idiomas:
+sc-personal-remove-button = remover
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } adicionadas por você
+sc-personal-not-added = Você ainda não adicionou nenhum idioma.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Critérios de revisão
+sc-criteria-title = Critérios de revisão
 
 ## REVIEW
 
+sc-review-title = Revisar frases
+sc-review-loading = Carregando frases…
+sc-review-select-language = Selecione um idioma para revisar frases.
+sc-review-form-button-reject = Rejeitar
+sc-review-form-button-skip = Pular
+sc-review-form-button-approve = Aprovar
 
 ## SETTINGS
 
+sc-settings-title = Configurações
 
 # [/SentenceCollector]
 
