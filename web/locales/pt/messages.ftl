@@ -1007,18 +1007,56 @@ see-less = <chevron></chevron>Ver menos
 ## HEADER/FOOTER
 
 sc-header-add = Adicionar
+sc-header-review = Revisar
+sc-header-rejected = Frases rejeitadas
+sc-header-my = Minhas frases
+sc-header-statistics = Estatisticas
+sc-header-profile = Perfil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Relatar bugs
+sc-footer-translate = Traduzir esta página
+sc-footer-report-copyright = Denunciar problemas de direitos autorais
+sc-footer-privacy = Privacidade
+sc-footer-terms = Termos
+sc-footer-cookies = Cookies
+sc-login-signup-button = Entrar / Inscrever-se
+sc-logout-button = Sair
 
 ## HOME
 
+sc-home-title = Boas-vindas ao coletor de frases do Common Voice
+sc-home-collect-title = Coletar frases
+sc-home-collect-text = Ajude-nos escrevendo ou coletando frases de domínio público.
+sc-home-review-title = Revisar frases
+sc-home-review-text = Ajude-nos revisando frases para ver se estão corretas, de acordo com as diretrizes.
 
 ## HOW-TO
 
+sc-howto-addsen-title = Adicionar novas frases
+sc-howto-cite-title = Como citar
+sc-howto-cite-item-1 = Você pode incluir o site, por exemplo, "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-review-title = Revisar frases
+sc-howto-findpd-tips = Veja algumas dicas de como encontrar frases:
 
 ## MY SENTENCES
 
+sc-my-title = Minhas frases
+sc-my-loading = Carregando suas frases…
+sc-my-err-fetching = Erro ao buscar suas frases. Tente novamente.
+sc-my-no-sentences = Nenhuma frase encontrada!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Envio: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Origem:  { $source }
+sc-my-delete = Excluir frases selecionadas
+sc-my-deleting = Excluindo frases selecionadas…
+sc-my-err-failed-delete = Falha ao excluir frases selecionadas… Tente novamente!
 
 ## REJECTED
 
+sc-rejected-title = Frases rejeitadas
 
 ## STATS
 
