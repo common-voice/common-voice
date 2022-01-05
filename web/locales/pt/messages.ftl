@@ -326,6 +326,9 @@ profile-form-language =
     .label = Idioma
 profile-form-accent =
     .label = Sotaque
+profile-form-custom-accent-help-text =
+    .label = Como você descreveria seu sotaque?
+profile-form-custom-accent-placeholder-2 = Comece a digitar para descrever seu sotaque
 profile-form-age =
     .label = Idade
 profile-form-gender-2 =
@@ -336,6 +339,7 @@ hidden = Oculto
 visible = Visível
 native-language =
     .label = Idioma nativo
+profile-form-add-accent = Adicionar novo sotaque personalizado "{ $inputValue }"
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvo
 male = Masculino
@@ -369,6 +373,7 @@ skip-submission-description = Durante o envio de uma contribuição, o retorno s
 skip-submission-note = Nota: você ainda precisará escolher entre Falar ou Ouvir para alterar o tipo de contribuição.
 off = Desligar
 on = Ligar
+help-accent = Precisa de ajuda com sotaque?
 
 ## Profile - Email
 
@@ -1006,6 +1011,8 @@ see-less = <chevron></chevron>Ver menos
 
 ## HEADER/FOOTER
 
+sc-header-home = Início
+sc-header-how-to = Como
 sc-header-add = Adicionar
 sc-header-review = Revisar
 sc-header-rejected = Frases rejeitadas
@@ -1032,10 +1039,21 @@ sc-home-review-text = Ajude-nos revisando frases para ver se estão corretas, de
 
 ## HOW-TO
 
+sc-howto-title = Como
+sc-howto-addlang-title = Adicionando idiomas para trabalhar
+sc-howto-addlang-text = Após entrar, você pode selecionar seus idiomas na seção de perfil.
 sc-howto-addsen-title = Adicionar novas frases
 sc-howto-cite-title = Como citar
 sc-howto-cite-item-1 = Você pode incluir o site, por exemplo, "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Revisar frases
+sc-howto-review-criteria-1 = A frase deve ser escrita corretamente.
+sc-howto-review-criteria-2 = A frase deve estar gramaticalmente correta.
+sc-howto-review-criteria-3 = Deve ser possível pronunciar a frase.
+sc-howto-review-criteria-4 = Se a frase atender aos critérios, clique no botão "Aprovar".
+sc-howto-review-criteria-5 = Se a frase não atender aos critérios acima, clique no botão "Rejeitar". Se não tiver certeza sobre a frase, você também pode pular e passar para a próxima.
+sc-howto-review-criteria-6 = Se você ficar sem frases para revisar, ajude-nos a coletar mais frases!
+sc-howto-findpd-title = Encontrando frases existentes em domínio público
+sc-howto-findpd-subtitle = Procurar na internet
 sc-howto-findpd-tips = Veja algumas dicas de como encontrar frases:
 
 ## MY SENTENCES
@@ -1099,6 +1117,23 @@ sc-add-err-submission = Erro de envio
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-sentences-title = Confirmar novas frases
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Nenhuma frase encontrada.
+        [one] 1 frase encontrada.
+       *[other] { $countOfSentences } frases encontradas.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } rejeitadas por você
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Nenhuma frase revisada.
+        [one] 1 frase já foi revisada. Bom trabalho!
+       *[other] { $countOfReviewed } frases já foram revisadas. Bom trabalho!
+    }
 sc-confirm-button-text = Confirmar
 
 ## LANGUAGE INFO
@@ -1136,10 +1171,19 @@ sc-review-select-language = Selecione um idioma para revisar frases.
 sc-review-form-button-reject = Rejeitar
 sc-review-form-button-skip = Pular
 sc-review-form-button-approve = Aprovar
+sc-review-link = Revisão
 
 ## SETTINGS
 
 sc-settings-title = Configurações
+sc-settings-ui-language = Idioma da interface
+sc-settings-reset-skipped = Redefinir frases ignoradas
+sc-settings-failed = Não foi possível alterar as configurações. Tente novamente.
+# VALIDATION
+sc-validation-number-of-words = A frase deve conter de 1 a 14 palavras
+sc-validation-no-numbers = A frase não deve conter números
+sc-validation-no-symbols = A frase não deve conter símbolos
+sc-validation-no-abbreviations = A frase não deve conter abreviações
 
 # [/SentenceCollector]
 
