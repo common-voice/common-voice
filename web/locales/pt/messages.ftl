@@ -39,6 +39,7 @@ bg = Búlgaro
 bm = Bambara
 bn = Bengalês
 br = Bretão
+bs = Bósnio
 bxr = Buriato
 ca = Catalão
 cak = Caqchiquel
@@ -88,6 +89,7 @@ kaa = Caracalpaque
 kab = Kabyle
 kbd = Kabardiano
 kk = Cazaque
+km = Khmer
 kmr = Curdo do norte
 ko = Coreano
 kpv = Komi-Zyrian
@@ -147,10 +149,12 @@ ta = Tâmil
 te = Telugo
 tg = Tajique
 th = Tailandês
+tk = Turcomano
 tl = Filipino
 tr = Turco
 tt = Tártaro
 tw = Twi
+ty = Taitiano
 uby = Ubykh
 udm = Udmurte
 ug = Uigur
@@ -991,3 +995,56 @@ contribution-just-unsure-title = Não tem certeza?
 contribution-just-unsure-description = Caso se depare com algo que essas diretrizes não abrangem, vote de acordo com seu bom senso. Se realmente não conseguir decidir, use o botão de pular e siga para a próxima gravação.
 see-more = <chevron></chevron>Ver mais
 see-less = <chevron></chevron>Ver menos
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
