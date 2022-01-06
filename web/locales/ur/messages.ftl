@@ -352,6 +352,7 @@ hidden = پوشیدہ
 visible = ‏‏مرئی
 native-language =
     .label = مقامی زبان
+profile-form-add-accent = نیا حسب ضرورت لہجہ شامل کریں "{ $inputValue }"
 profile-form-submit-save = محفوظ کریں
 profile-form-submit-saved = محفوظ شدہ
 male = مردانہ
@@ -984,22 +985,41 @@ sc-logout-button = لاگ آؤٹ
 
 ## HOME
 
+sc-home-collect-title = جملے جمع کریں۔
 
 ## HOW-TO
 
 sc-howto-title = کیسے
+sc-howto-addsen-title = نئے جملے شامل کریں۔
+sc-howto-cite-title = حوالہ کیسے دیں
+sc-howto-review-criteria-1 = جملے کی ہجے درست انداز میں ادا کرنے چاہیے۔
+sc-howto-review-criteria-2 = جملہ گرامر کے لحاظ سے درست ہونا چاہیے۔
+sc-howto-review-criteria-3 = جملہ بولنے کے قابل ہونا چاہیے۔
+sc-howto-findpd-subtitle = انٹرنیٹ پر انہیں تلاش کریں۔
 
 ## MY SENTENCES
 
+sc-my-title = میرے جملے
+sc-my-no-sentences = کوئی جملے نہیں ملے!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = جمع کرانا: { $batchId }
+sc-my-delete = منتخب جملے حذف کریں۔
 
 ## REJECTED
 
+sc-rejected-title = مسترد شدہ جملے
+sc-rejected-none-found = کوئی مسترد شدہ جملے نہیں ملے!
 
 ## STATS
 
+sc-stats-title = شماریات
 
 ## ADD
 
+sc-submit-err-select-lang = برآیے مہربانی زبان منتخب کریں۔
+sc-submit-err-add-sentences = براہ مہربانی جملے شامل کریں۔
+sc-submit-err-add-source = براہ مہربانی  ایک ذریعہ شامل کریں۔
 
 ## ADD LANGUAGE
 
@@ -1016,6 +1036,8 @@ sc-login-err-failed = لاگ ان ناکام رہے
 
 ## PROFILE
 
+sc-personal-err-lang-not-found = زبان کو ہٹایا نہیں جا سکا: زبان نہیں ملی
+sc-personal-err-remove = زبان کو ہٹایا نہیں جا سکا
 sc-personal-your-languages = آپ کی زبانیں
 sc-personal-remove-button = ہٹائیں
 
