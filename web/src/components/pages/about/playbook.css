@@ -1,7 +1,8 @@
 .cv-tab-group {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 30% 65%;
     grid-template-rows: auto;
+    grid-column-gap: 5%;
 
     @media (--sm-down) {
         display: block;
@@ -55,7 +56,6 @@
 
     .cv-tab-content {
         display: none;
-        margin-inline-start: 3rem;
         grid-row-start: 1;
         grid-row-end: 100;
         grid-column-start: 2;

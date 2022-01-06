@@ -541,6 +541,10 @@ about-get-involved-text-2 = Want to help make Common Voice even better?
     forums, submit site issues via <githubLink>GitHub</githubLink>, or join the
     <matrixLink>Matrix</matrixLink> community chat.
 
+about-stay-in-touch = How do I stay in touch?
+about-stay-in-touch-text-1 = <emailFragment>Sign up</emailFragment> to our mailing list to learn how you can take part in campaigns, events and co-design features on Common Voice.
+about-stay-in-touch-text-2 = You can meet others in the Mozilla language communities by joining <discourseLink>Discourse</discourseLink> for topical conversations, or <matrixLink>Matrix</matrixLink> for quick advice.
+
 about-nav-why-common-voice = Why ?
 about-nav-how-it-works = How ?
 about-nav-partners = Partners
