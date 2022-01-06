@@ -491,9 +491,8 @@ about-partnership =
 about-get-involved = 參與
 about-get-involved-text-2 =
     想幫手令 Common Voice 計劃變得更好？
-    太好喇！請用電郵或<discourseLink>Discourse</discourseLink>論壇同我哋聯絡，
-    喺<githubLink>GitHub</githubLink>上面提交網站問題，或者加入
-    <matrixLink>Matrix</matrixLink>群組傾偈。
+    太好喇！請用電郵或者 <discourseLink>Discourse</discourseLink> 論壇聯絡我哋，或者喺 <githubLink>GitHub</githubLink> 上面提交網站問題，或者加入 
+    <matrixLink>Matrix</matrixLink> 群組傾偈。
 about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點樣？
 about-nav-partners = 合作夥伴
