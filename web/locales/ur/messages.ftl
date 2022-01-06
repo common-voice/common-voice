@@ -39,6 +39,7 @@ bg = بلغاریائی
 bm = بمبارا
 bn = بنگالی
 br = بریٹن
+bs = بوسنیائی
 bxr = بریات
 ca = کیٹلان
 cak = کقیچلیل
@@ -90,6 +91,7 @@ kab = کیبل
 kbd = کبارڈین
 ki = کیکویو
 kk = کازخ
+km = خمیر
 kmr = کرمانجی کرد
 ko = کوریائِی
 kpv = کومی زائرین
@@ -106,6 +108,7 @@ mhr = میڈوو ماری
 mk = مقدونیائی
 ml = ملیالم
 mn = منگولیائی
+mni = میٹی لون
 mos = موسی
 mr = مراٹھی
 mrj = ہل ماری
@@ -151,7 +154,7 @@ te = تلگو
 tg = تاجک
 th = تھائى
 ti = ٹيگرنيا
-Tig = ٹیگرے
+tk = ترکمانی
 tl = ٹیگا لوگ
 tr = ترک
 tt = ‏‏طاطاری
@@ -332,8 +335,13 @@ profile-form-native-language =
     .label = مقامی زبان
 profile-form-additional-language =
     .label = اضافی زبان
+profile-form-language =
+    .label = زبان
 profile-form-accent =
     .label = ‏‏لہجا
+profile-form-custom-accent-help-text =
+    .label = آپ اپنے لہجے کی وضاحت کیسے کریں گے؟
+profile-form-custom-accent-placeholder-2 = اپنے لہجے کو بیان کرنے کے لیے ٹائپ کرنا شروع کریں۔
 profile-form-age =
     .label = عمر
 profile-form-gender-2 =
@@ -377,6 +385,7 @@ skip-submission-description = شراکت جمع کرانے کے دوران 'جم
 skip-submission-note = نوٹ: شراکت کی قسم بدلنے کے لیے آپ کو سننے یا بولنے میں سے ایک قسم کو چننا پڑے گا۔
 off = بند
 on = چالو
+help-accent = لہجے میں کچھ مدد کی ضرورت ہے؟
 
 ## Profile - Email
 
@@ -935,6 +944,7 @@ contribution-criteria-nav = معیار
 contribution-criteria-link = شراکت کے معیار کو سمجھیں۔
 contribution-criteria-page-title = شراکت کا معیار
 contribution-for-example = مثال کے طور پر
+contribution-misreadings-title = غلط پڑھنا۔
 contribution-misreadings-example-2-title = ٹرائاسک کا دیوہیکل ڈائنوسار۔
 contribution-misreadings-example-5-title = ہم کافی لینے باہر جا رہے ہیں۔
 contribution-misreadings-example-6-title = ہم کافی لینے باہر جا رہے ہیں۔
@@ -949,3 +959,78 @@ contribution-volume-title = حجم
 contribution-just-unsure-title = صرف غیر یقینی؟
 see-more = <chevron></chevron>مزید دیکھیں
 see-less = <chevron></chevron>کم دیکھیں
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = ابتدائی صفحہ
+sc-header-how-to = کیسے
+sc-header-add = اضافہ کریں
+sc-header-review = جائزہ لیں
+sc-header-rejected = مسترد شدہ جملے
+sc-header-my = میرے جملے
+sc-header-statistics = شماریات
+sc-header-profile = پروفائل
+sc-footer-translate = اس صفحہ کا ترجمہ کریں
+sc-footer-privacy = رازداری
+sc-footer-terms = شرائط
+sc-footer-cookies = کوکیز
+sc-login-signup-button = لاگ ان / سائن اپ کریں
+sc-logout-button = لاگ آؤٹ
+
+## HOME
+
+
+## HOW-TO
+
+sc-howto-title = کیسے
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+sc-login-err-failed = لاگ ان ناکام رہے
+
+## PROFILE
+
+sc-personal-your-languages = آپ کی زبانیں
+sc-personal-remove-button = ہٹائیں
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+sc-review-form-button-skip = اچٹیں
+sc-review-form-button-approve = منظور کریں
+sc-review-link = جائزہ
+
+## SETTINGS
+
+sc-settings-title = سیٹنگز
+
+# [/SentenceCollector]
+
