@@ -30,13 +30,6 @@ const About: React.ComponentType = React.memo(() => {
         [SECTIONS.SUBSCRIBE, Subscribe],
         [SECTIONS.PLAYBOOK, Playbook],
         [SECTIONS.GET_INVOLVED, GetInvolved],
-        [
-          {
-            activeSection: activeSection,
-            navType: 'mobile',
-          },
-          Nav,
-        ],
       ].map(([section, SectionComponent]: [string, any], index: number) => {
         if (typeof section === 'object') {
           return <SectionComponent key={`section-${index}`} {...section} />;

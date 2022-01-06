@@ -10,12 +10,6 @@
         margin: -2rem auto 2rem;
         max-width: 100%;
 
-        &.desktop {
-            @media (--sm-down) {
-                display: none;
-            }
-        }
-
         .menu-item {
             width: auto;
             cursor: pointer;
@@ -67,102 +61,15 @@
             }
         }
 
-        &.mobile {
-            position: sticky;
-            bottom: -3px;
-            height: 17vw;
-            max-height: 3rem;
-            background: var(--white);
-            display: none;
+        @media (--sm-down) {
+            top: 92vh;
+            height: 8vh;
+            margin-bottom: 0;
 
-            @media (--sm-down) {
-                display: flex;
-            }
-
-            img {
-                display: none;
-
-                &.mobile-rounded {
-                    display: block;
-                }
-            }
-
-            & .menu-item {
-                flex: 1;
-                display: flex;
-                position: relative;
-                background: var(--white);
-                flex-direction: column;
-                align-items: center;
-                justify-content: flex-end;
-                min-height: 60px;
-
-                &.i1,
-                &.i4 {
-                    top: 0;
-
-                    & .text {
-                        margin-left: 0;
-                        margin-right: 0;
-                    }
-                }
-
-                & .mobile-rounded {
-                    position: absolute;
-                    width: 100%;
-                    transition: all 0.5s 0s;
-                    transform: scaleY(1);
-                    transform-origin: bottom;
-                    bottom: calc(100% - 1px);
-                }
-
-                & .text {
-                    text-align: center;
-                    width: 100%;
-                    font-size: 11px;
-                    position: relative;
-                    max-height: 0;
-                    opacity: 0;
-                    overflow: hidden;
-                    transition: all 0.8s 0s;
-                    z-index: var(--middle-z-index);
-                    margin-bottom: 1rem;
-                    margin-top: 4%;
-                    top: -1rem;
-                }
-
-                & svg {
-                    opacity: 0.5;
-                    transition: opacity 0.8s 0s;
-                    z-index: var(--middle-z-index);
-                    position: relative;
-                    max-width: 20px;
-                    top: -1rem;
-
-                    & path {
-                        fill: var(--near-black);
-                    }
-                }
-
-                &.active {
-                    &:before {
-                        opacity: 0.7;
-                    }
-
-                    & img {
-                        transform: scaleY(2);
-                        bottom: calc(100% - 0.7vw);
-                    }
-
-                    & .text {
-                        max-height: 20px;
-                        opacity: 1;
-                    }
-
-                    & svg {
-                        opacity: 0.9;
-                    }
-                }
+            .menu-item {
+                text-align: center;
+                padding: 1rem;
+                width: 50%;
             }
         }
     }

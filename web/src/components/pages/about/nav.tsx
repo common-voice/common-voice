@@ -59,16 +59,6 @@ const Nav: React.ComponentType<Props> = React.memo((props: Props) => {
           })}
           href={`#${key}`}
           {...otherProps}>
-          {props.navType === 'mobile' && (
-            <>
-              <img
-                src={require('./images/nav/nav-mobile.png')}
-                className="mobile-rounded"
-              />
-              <MobileIcon />
-            </>
-          )}
-
           <Localized id={`about-nav-${key}`}>
             <div className="text" />
           </Localized>

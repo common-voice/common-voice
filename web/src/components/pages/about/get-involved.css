@@ -11,16 +11,14 @@
             grid-template-columns: 30% 65%;
             grid-template-rows: auto;
             grid-column-gap: 5%;
+            @media (--sm-down) {
+                display: block;
+            }
         }
 
         .text-button {
             display: none;
         }
-
-        @media (--sm-down) {
-            padding-bottom: 5rem;
-        }
-
         .wave-footer {
             position: absolute;
             bottom: 0;
@@ -41,16 +39,13 @@
                 margin-top: 8rem;
                 position: relative;
                 @media (--md-down) {
-                    max-width: 60%;
+                    margin-top: 0;
+                    max-width: 100%;
                 }
             }
 
             @media (--sm-down) {
-                padding: 0 25%;
-                margin: 0 auto;
-                img {
-                    max-width: 100%;
-                }
+                display: none;
             }
         }
 
@@ -66,6 +61,14 @@
                 gap: 1rem;
                 max-width: 750px;
                 margin: 0 0 2rem;
+            }
+
+            @media (--sm-down) {
+                text-align: left;
+
+                > p {
+                    display: block;
+                }
             }
         }
 
@@ -154,17 +157,16 @@
             height: auto;
             flex-direction: column;
 
-            .wave-footer {
-                bottom: auto;
+            &.about-hero {
+                padding: 2rem;
+                padding-bottom: 12rem;
             }
 
-            .line {
-                display: none;
+            .wave-footer {
+                bottom: 0;
             }
 
             .text-section {
-                text-align: center;
-                align-items: center;
                 margin-top: 2rem;
 
                 & p {
@@ -173,8 +175,7 @@
             }
 
             .round-button {
-                width: 42px;
-                height: 42px;
+                margin-bottom: 1rem;
             }
         }
 

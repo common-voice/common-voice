@@ -13,8 +13,14 @@
 
     .about-hero {
         position: relative;
-        padding-left: 1rem;
+        padding-inline-start: 1rem;
         padding-bottom: 2rem;
+
+        @media (--md-down) {
+            &.playbook {
+                padding: 0;
+            }
+        }
 
         &.subscribe {
             margin-top: 2rem;

@@ -9,7 +9,7 @@
         display: block;
 
         .cv-tab-content {
-            margin: 1rem 0;
+            margin: 0;
         }
     }
 
@@ -21,6 +21,11 @@
         padding: 0.75rem 0 1.25rem;
         display: block;
         position: relative;
+        margin: 0 1rem;
+
+        @media (--md-down) {
+            border-top: 1px solid var(--warm-grey);
+        }
 
         a {
             display: block;
@@ -63,6 +68,10 @@
 
         h2 {
             font-family: var(--base-font-family);
+
+            @media (--sm-down) {
+                display: none;
+            }
         }
 
         p {
@@ -117,6 +126,11 @@
             padding: 2rem;
             background: var(--lighter-grey);
             box-shadow: 0px 4px 8px var(--darker-grey);
+
+            @media (--sm-down) {
+                box-shadow: 0;
+                padding: 1rem 2rem 2rem;
+            }
         }
 
         .record-quality-content {
