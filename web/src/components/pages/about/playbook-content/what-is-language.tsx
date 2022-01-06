@@ -1,18 +1,29 @@
 import * as React from 'react';
+import { Localized } from '@fluent/react';
 
 const WhatIsLanguage = React.memo(() => {
   return (
-    <div>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis
-      accumsan enim, ut cursus metus. Pellentesque sodales efficitur sapien, sed
-      tempor elit efficitur porta. Pellentesque vitae urna quis urna dignissim
-      interdum nec non enim. Ut quis consectetur dolor. Phasellus mattis, risus
-      ac ornare tristique, nibh ante pulvinar augue, ac pharetra lacus nulla sed
-      eros. Cras mollis dui eu lectus venenatis sagittis. Phasellus at risus
-      felis. Nulla at suscipit nunc. Quisque dictum, tellus in tincidunt
-      ultricies, ipsum nisl volutpat dui, non dignissim sapien elit at massa.
-      Vivamus eu gravida neque, vitae condimentum diam.
-    </div>
+    <>
+      <Localized id="about-playbook-what-is-language-content-1">
+        <p />
+      </Localized>
+      <Localized id="about-playbook-what-is-language-content-2">
+        <p />
+      </Localized>
+      <Localized
+        id="about-playbook-what-is-language-content-3"
+        elems={{
+          ctaLink: (
+            <a
+              href="https://foundation.mozilla.org/en/blog/how-we-are-making-common-voice-even-more-linguistically-inclusive/"
+              target="_blank"
+              rel="noopener noreferer"
+            />
+          ),
+        }}>
+        <p />
+      </Localized>
+    </>
   );
 });
 

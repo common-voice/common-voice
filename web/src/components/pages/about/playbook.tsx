@@ -1,64 +1,60 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
 import { Localized } from '@fluent/react';
+import { PLAYBOOK } from './constants';
 import WhatIsLanguage from './playbook-content/what-is-language';
 import HowAddLanguage from './playbook-content/how-add-language';
+import HowLocalize from './playbook-content/how-localize';
+import HowAddSentences from './playbook-content/how-add-sentences';
+import HowRecordQuality from './playbook-content/how-record-quality';
+import HowGrowLanguage from './playbook-content/how-grow-language';
+import HowValidate from './playbook-content/how-validate';
+import HowAccessDataset from './playbook-content/how-access-dataset';
+import HowProjectGovernance from './playbook-content/how-project-governance';
 
 import './playbook.css';
-
-// type TabContentComponentType = React.Component & { title: string };
 
 interface TabEntryType {
   title: string;
   contentComponent: React.ComponentType;
 }
 
-// about-playbook-what-is-language = What is a language on Common Voice?
-// about-playbook-how-add-language = How do I add a language?
-// about-playbook-how-localize = How does site localization work?
-// about-playbook-how-add-sentences = How do I add sentences?
-// about-playbook-how-record-quality = How do I record a high quality voice clip?
-// about-playbook-how-grow-language = How can we effectively grow a language on Common Voice?
-// about-playbook-how-validate = How do I know whether to approve a voice clip?
-// about-playbook-how-access-dataset = How do I access and use the dataset?
-// about-playbook-how-project-governance = How are project decisions made?
-
 const tabs: TabEntryType[] = [
   {
-    title: 'what-is-language',
+    title: PLAYBOOK.WHAT_IS_LANGUAGE,
     contentComponent: WhatIsLanguage,
   },
   {
-    title: 'how-localize',
+    title: PLAYBOOK.HOW_ADD_LANGUAGE,
     contentComponent: HowAddLanguage,
   },
   {
-    title: 'how-add-language',
-    contentComponent: WhatIsLanguage, // @TODO
+    title: PLAYBOOK.HOW_LOCALIZE,
+    contentComponent: HowLocalize,
   },
   {
-    title: 'how-add-sentences',
-    contentComponent: HowAddLanguage, // @TODO
+    title: PLAYBOOK.HOW_ADD_SENTENCES,
+    contentComponent: HowAddSentences,
   },
   {
-    title: 'how-record-quality',
-    contentComponent: WhatIsLanguage, // @TODO
+    title: PLAYBOOK.HOW_RECORD_QUALITY,
+    contentComponent: HowRecordQuality,
   },
   {
-    title: 'how-grow-language',
-    contentComponent: WhatIsLanguage, // @TODO
+    title: PLAYBOOK.HOW_GROW_LANGUAGE,
+    contentComponent: HowGrowLanguage,
   },
   {
-    title: 'how-validate',
-    contentComponent: HowAddLanguage, // @TODO
+    title: PLAYBOOK.HOW_VALIDATE,
+    contentComponent: HowValidate,
   },
   {
-    title: 'how-access-dataset',
-    contentComponent: WhatIsLanguage, // @TODO
+    title: PLAYBOOK.HOW_ACCESS_DATASET,
+    contentComponent: HowAccessDataset,
   },
   {
-    title: 'how-project-governance',
-    contentComponent: HowAddLanguage, // @TODO
+    title: PLAYBOOK.HOW_PROJECT_GOVERNANCE,
+    contentComponent: HowProjectGovernance,
   },
 ];
 

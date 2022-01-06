@@ -1,24 +1,28 @@
 .about {
-    & #content {
+    #content {
         padding: 0;
     }
 
-    & #help-links {
+    #help-links {
         display: none;
     }
 
-    & footer {
+    footer {
         margin-top: 0;
     }
 
-    & .about-hero {
+    .about-hero {
         position: relative;
         padding-left: 1rem;
         padding-bottom: 2rem;
 
+        &.subscribe,
+        &.playbook {
+            margin-top: 2rem;
+        }
+
         &.subscribe {
             padding-left: 0;
-            margin-top: 2rem;
         }
 
         &.why-common-voice,

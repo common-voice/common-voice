@@ -549,16 +549,76 @@ about-nav-get-involved = Get involved
 about-nav-how-it-works-2 = How does Common Voice work?
 about-nav-playbook = Learn how to take part
 
+## Community Playbook Content
+## What is a language
 about-playbook-what-is-language = What is a language on Common Voice?
-about-playbook-how-add-language = How do I add a language?
-about-playbook-how-localize = How does site localization work?
-about-playbook-how-add-sentences = How do I add sentences?
-about-playbook-how-record-quality = How do I record a high quality voice clip?
-about-playbook-how-grow-language = How can we effectively grow a language on Common Voice?
-about-playbook-how-validate = How do I know whether to approve a voice clip?
-about-playbook-how-access-dataset = How do I access and use the dataset?
-about-playbook-how-project-governance = How are project decisions made?
+about-playbook-what-is-language-content-1 = There are lots of ways to think about language. For the purposes of speech recognition models, Common Voice suggests focussing on ‘mutual intelligibility’, or ‘can speakers of this language mostly understand one another if they try to?’
+about-playbook-what-is-language-content-2 = We want speech models to be better at understanding a diverse range of speakers. For this to happen, a voice dataset must represent lots of different people.
+about-playbook-what-is-language-content-3 = Some languages have enormous variation in grammar, vocabulary and pronunciation. For this reason, we are <ctaLink>introducing ‘Variants’</ctaLink in 2022. This gives communities a way to distinguish their languages within the larger dataset.
 
+## How do I add a language
+about-playbook-how-add-language = How do I add a language?
+about-playbook-how-add-language-content-1 = First, check if your language <languageLink>already exists</languageLink>. If it doesn’t you need to <strong>translate the site and collect sentences</strong>.
+about-playbook-how-add-language-content-2 = <strong>To translate the site</strong> - get <translateVideo>set up</translateVideo> on <pontoonLink>Pontoon</pontoonLink>. Pontoon has lots of languages, but if it doesn’t have yours you can <pontoonRequestLink>request it</pontoonRequestLink>. Then ask <repoLink>via GitHub</repoLink> to have the Common Voice project made available for the language. See more on <localizationFragment>site translation</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>To collect sentences</strong> - <scVideo>set up</scVideo> on <scLink>Sentence Collector</scLink>.
+about-playbook-how-add-language-content-4 = You can <scLinkAdd>add small numbers</scLinkAdd> of sentences here, or you can do <bulkImportDocsLink>bulk imports</bulkImportDocsLink> via a Github request. Remember that sentences need to be <licenseLink>CC0 (or public domain)</licenseLink>, or you can write your own. See more on <scFragment>sentence collection</scFragment>.
+
+## How does localization work
+about-playbook-how-localize = How does site localization work?
+about-playbook-how-localize-content-1 = Translation of the Common Voice site happens on <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Create an account</pontoonAccountLink> if you don’t have one. Then, choose your language <strong>(‘Team’)</strong> and then choose the project, <pontoonCvLink>Common Voice</pontoonCvLink>. There will be files to translate. Click on one, then it shows words in English and a box to translate them.
+about-playbook-how-localize-content-3 = Translation is from English, but you can see <strong>Suggestions</strong> in other languages. Click the <strong>Profile</strong> icon, then <strong>Settings</strong> link and add any languages you speak. At the bottom right-hand corner will be a list of translations called <strong>Locales</strong>. Translations show on the site after one day.
+about-playbook-how-localize-content-4 = The site is ready to be launched when it reaches 75% completion.
+about-playbook-how-localize-content-5 = Watch our video explainer to help
+
+## How to add sentences
+about-playbook-how-add-sentences = How do I add sentences?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> is a tool for collecting and validating public domain sentences. You will <scAccountLink>need to create an account</scAccountLink>. Then, add your language to your <strong>Profile</strong>.  You can <strong>Add</strong> sentences or <strong>Review</strong> previously-added sentences.
+about-playbook-how-add-sentences-content-2 = Sentences must be reviewed and accepted by two people to be included in Common Voice. You create guidelines for your language <languageGuidelinesLink>here</languageGuidelinesLink>. Sentences must be in the <licenseLink>public domain</licenseLink> and shorter than 15 words. You can ask the owner of a text to make it <waiverLink>CC0 using our waiver process</waiverLink>, and send to us on commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = You can use the <scraperLink>Sentence extractor</scraperLink> to leverage short sentences from Wikipedia.
+about-playbook-how-add-sentences-content-4 = Sentences that have been validated are exported on Wednesdays, and are available after the next release.
+
+## How to record quality
+about-playbook-how-record-quality = How do I record a high quality voice clip?
+about-playbook-how-record-content-1 = Avoid too much background noise - it should be easy to hear you.
+about-playbook-how-record-content-2 = Read the sentence carefully - don’t miss, change or add words.
+about-playbook-how-record-content-3 = Make sure the platform is recording before you start speaking, and that it only stops once you’re finished.
+about-playbook-how-record-content-4 = Speak in your normal voice! The way you speak is welcome here - we want your accent as it is, and we want your usual volume, style and intonation.
+about-playbook-how-record-content-5 = <accuracyLink>See more on accuracy criteria.</accuracyLink>
+
+## How to grow language
+about-playbook-how-grow-language = How can we effectively grow a language on Common Voice?
+about-playbook-how-grow-language-content-1 = Creating opportunities for a diversity of people to contribute to Common Voice ensures the dataset serves as many people as possible. We’ve created resources and templates that you can use!
+about-playbook-how-grow-language-content-2 = Events
+about-playbook-how-grow-language-content-3 = You can run events to help people contribute. It’s easier than you think. You could do it online with a videoconferencing tool, or in person if it’s safe. <eventTemplate>Check out our templates and resources for running events</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Social media
+about-playbook-how-grow-language-content-5 = You could use social media platforms to get the message out. Share posts that explain why it matters, and get in touch with other people talking about issues like language rights, voice AI, or bias in tech. See more advice on <campaignLink>running a social campaign, including content you can re-use</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnerships and networks
+about-playbook-how-grow-language-content-7 = Find others who care. That could be universities, language schools, advocacy groups or data science communities. Reach out and explain clearly how they can help and why. <outreachTemplates>See our template outreach emails</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Get creative!</strong> Your language community will be unique, and these are just a few ways to get started.
+
+## How to validate
+about-playbook-how-validate = How do I know whether to approve a voice clip?
+about-playbook-how-validate-content-1 = If you could <strong>hear them</strong> and <strong>understand them</strong>, it’s usually <strong>best to approve</strong>.
+about-playbook-how-validate-content-2 = <strong>Do not reject clips where the speaker ‘has an accent’ that is different to your own</strong> - this is important for voice recognition to work better for everyone.
+about-playbook-how-validate-content-3 = If you think the pronunciation makes it <strong>impossible to understand</strong>, or there’s a <strong>lot of background noise</strong>, or there are <strong>other people speaking too</strong>, then you should reject the clip. <accuracyLink>See more information in our accuracy criteria</accuracyLink>.
+about-playbook-how-validate-content-4 = If a clip is rejected by 2 people, it is released in a different subset of the dataset.
+
+## How to access dataset
+about-playbook-how-access-dataset = How do I access and use the dataset?
+about-playbook-how-access-dataset-content-1 = You can go to the <datasetsPage>datasets page</datasetsPage>, select the version and language(s) you want, and download it! The files have <metadataLink>associated metadata</metadataLink>, such as demographic information and validation data. You’ll need to provide an email address to download the dataset.
+about-playbook-how-access-dataset-content-2 = If you’re looking for tools to build ASR models, you can connect to other people in the community <discourseLink>on Discourse</discourseLink>.
+
+
+## How are decisions made
+about-playbook-how-project-governance = How are project decisions made?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice is made possible by a diverse community of activists, linguists, data scientists, academics and software engineers from all over the world. The project is stewarded by the Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Our governance is founded on the pillars of:
+about-playbook-how-project-governance-content-3 = Privacy, security and transparency.
+about-playbook-how-project-governance-content-4 = Community participation and decision making.
+about-playbook-how-project-governance-content-5 = Value and recognition.
+about-playbook-how-project-governance-content-6 = Mutual accountability.
+about-playbook-how-project-governance-content-7 = <governanceLink>Read more about how we're governed</governanceLink>
 
 
 mycroft-title = Mycroft Ai
