@@ -39,6 +39,7 @@ bg = Болгар
 bm = Бамбара
 bn = Бенгал
 br = Бретон
+bs = Босния
 bxr = Бурят
 ca = Каталан
 cak = Какчикел
@@ -90,6 +91,7 @@ kab = Кабил
 kbd = Кабардин
 ki = Кикуйу
 kk = Казакъ
+km = Кхмер
 kmr = Курманҗи көрд
 ko = Корей
 kpv = Коми-зырян
@@ -1081,6 +1083,8 @@ sc-login-err-try-again = Зинһар янәдән тырышып карагыз
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Профиль: { $username }
+sc-personal-err-lang-not-found = Телне бетереп булмады: тел табылмады
+sc-personal-err-remove = Телне бетереп булмады
 sc-personal-your-languages = Сезнең телләрегез:
 sc-personal-remove-button = бетерү
 # Variables:
@@ -1106,6 +1110,7 @@ sc-review-form-button-skip = Калдырып тору
 sc-review-form-button-approve = Раслау
 sc-review-form-button-submit =
     .submitText = Тикшерүне тәмамлау
+sc-review-form-review-failure = Тикшерүне саклап булмады. Зинһар соңрак янә тырышып карагыз.
 sc-review-link = Тикшерү
 
 ## SETTINGS
@@ -1113,6 +1118,7 @@ sc-review-link = Тикшерү
 sc-settings-title = Көйләүләр
 sc-settings-ui-language = Интерфейс теле
 sc-settings-reset-skipped = Калдырып торган җөмләләрне үз хәлләренә кайтару
+sc-settings-failed = Көйләүләрне үзгәртеп булмады. Зинһар янәдән тырышып карагыз.
 sc-validation-no-numbers = Җөмләдә саннар булырга тиеш түгел
 sc-validation-no-symbols = Җөмләдә символлар булырга тиеш түгел
 sc-validation-no-abbreviations = Җөмләдә кыскартылмалар булырга тиеш түгел
