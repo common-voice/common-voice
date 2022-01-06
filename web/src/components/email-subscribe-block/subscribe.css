@@ -54,7 +54,7 @@
         }
     }
 
-    @media (--sm-down) {
+    @media (--xs-down) {
         padding: 60px 20px;
         flex-direction: column;
         background: url('images/email-bg-md.svg');
@@ -67,7 +67,7 @@
         }
     }
 
-    @media (--md-up) {
+    @media (--sm-up) {
         padding: 70px 20px;
         flex-direction: row;
         background: url('images/email-bg.png');

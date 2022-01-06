@@ -1,15 +1,7 @@
 .about {
-    .how-it-works-container {
-        display: flex;
+    .how-it-works-intro {
         max-width: 80rem;
         margin: 0 auto;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .how-it-works-intro {
-        width: 100%;
         text-align: center;
         padding: 2rem 4rem;
 
@@ -24,12 +16,99 @@
             max-width: 40rem;
             margin: 0 auto 3rem;
         }
+
+        @media (--md-down) {
+            padding: 0 2rem;
+
+            p {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    .how-it-works-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 80rem;
+        margin: 0 auto;
+        position: relative;
+
+        .more-next-overlay,
+        .more-previous-overlay {
+            display: none;
+        }
+
+        @media (--md-down) {
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            max-width: none;
+            padding-top: 1rem;
+
+            .more-next-overlay,
+            .more-previous-overlay {
+                width: 0;
+                position: sticky;
+                z-index: 1;
+                top: 0;
+                bottom: auto;
+                overflow: visible;
+                display: block;
+
+                &:before,
+                &:after {
+                    width: 50vw;
+                    position: absolute;
+                    height: 100%;
+                    top: 0;
+                    bottom: 0;
+                }
+            }
+
+            .more-next-overlay {
+                left: calc(50vw - 1rem);
+
+                &:before {
+                    content: '';
+                    background: linear-gradient(
+                        270deg,
+                        #fff,
+                        rgba(255, 255, 255, 0)
+                    );
+                }
+                &:after {
+                    content: '';
+                    background: url('./images/chevron-right.svg') no-repeat
+                        right 10px center;
+                }
+            }
+
+            .more-previous-overlay {
+                left: 0;
+                &:before {
+                    content: '';
+                    background: linear-gradient(
+                        90deg,
+                        #fff,
+                        rgba(255, 255, 255, 0)
+                    );
+                }
+                &:after {
+                    content: '';
+                    background: url('./images/chevron-left.svg') no-repeat 10px
+                        center;
+                }
+            }
+        }
     }
 
     .how-it-works-block {
         width: 15rem;
         min-height: 6rem;
-        margin: 1rem 2rem 1rem;
+        margin: 1rem 2rem;
         padding: 2rem;
         padding-inline-start: 3rem;
         border-radius: 5px;
@@ -39,6 +118,14 @@
 
         h3 {
             margin-bottom: 1rem;
+        }
+
+        @media (--md-down) {
+            width: 12rem;
+            padding: 3rem 1.5rem 2rem;
+            padding-inline-start: 1.5rem;
+            margin: 2rem 0.5rem 1.25rem;
+            flex-shrink: 0;
         }
     }
 
@@ -60,11 +147,21 @@
             background-image: url('./images/hex-done.svg');
             color: transparent;
         }
+
+        @media (--md-down) {
+            left: 30px;
+            top: -30px;
+        }
     }
 }
 
 [dir='rtl'] .about {
     .how-it-works-icon {
         right: -30px;
+
+        @media (--md-down) {
+            right: 30;
+            top: -30px;
+        }
     }
 }
