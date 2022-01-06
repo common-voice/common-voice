@@ -3,6 +3,7 @@
     grid-template-columns: 30% 65%;
     grid-template-rows: auto;
     grid-column-gap: 5%;
+    padding-top: 5rem;
 
     @media (--sm-down) {
         display: block;

@@ -16,13 +16,9 @@
         padding-left: 1rem;
         padding-bottom: 2rem;
 
-        &.subscribe,
-        &.playbook {
-            margin-top: 2rem;
-        }
-
         &.subscribe {
-            padding-left: 0;
+            margin-top: 2rem;
+            padding: 0;
         }
 
         &.why-common-voice,
