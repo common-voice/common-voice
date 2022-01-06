@@ -546,36 +546,10 @@ about-nav-how-it-works = How ?
 about-nav-partners = Partners
 about-nav-get-involved = Get involved
 
+about-nav-how-it-works-2 = How does Common Voice work?
+about-nav-playbook = Learn how to take part
 
 
-  {
-    title: 'request-language-title',
-    subtitle: 'about-language-req-subtitle',
-  },
-  {
-    title: 'about-localization-title',
-    subtitle: 'about-localization-subtitle',
-  },
-  {
-    title: 'about-sentence-collection-title',
-    subtitle: 'about-sentence-collection-subtitle',
-  },
-  {
-    title: 'about-new-lang-title',
-    subtitle: 'about-new-lang-subtitle',
-  },
-  {
-    title: 'about-voice-contrib-title',
-    subtitle: 'about-voice-contrib-subtitle',
-  },
-  {
-    title: 'about-voice-validation-title',
-    subtitle: 'about-voice-validation-subtitle',
-  },
-  {
-    title: 'about-dataset-release-title',
-    subtitle: 'about-dataset-release-subtitle'
-  },
 
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence

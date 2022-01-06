@@ -1,9 +1,10 @@
-import Nav from './nav';
 import * as React from 'react';
 import * as cx from 'classnames';
 import Partners from './partners';
+import Nav from './nav';
 import { SECTIONS } from './constants';
 import HowItWorks from './how-it-works';
+import Playbook from './playbook';
 import GetInvolved from './get-involved';
 import WhyCommonVoice from './why-common-voice';
 import Subscribe from '../../email-subscribe-block/subscribe';
@@ -27,7 +28,7 @@ const About: React.ComponentType = React.memo(() => {
         ],
         [SECTIONS.HOW_IT_WORKS, HowItWorks],
         [SECTIONS.SUBSCRIBE, Subscribe],
-        // [SECTIONS.PLAYBOOK, Playbook],
+        [SECTIONS.PLAYBOOK, Playbook],
         [SECTIONS.GET_INVOLVED, GetInvolved],
         [
           {

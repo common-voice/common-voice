@@ -28,7 +28,7 @@
 
     .how-it-works-block {
         width: 15rem;
-        height: 6rem;
+        min-height: 6rem;
         margin: 1rem 2rem 1rem;
         padding: 2rem;
         padding-inline-start: 3rem;
