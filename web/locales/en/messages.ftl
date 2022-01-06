@@ -549,6 +549,16 @@ about-nav-get-involved = Get involved
 about-nav-how-it-works-2 = How does Common Voice work?
 about-nav-playbook = Learn how to take part
 
+about-playbook-what-is-language = What is a language on Common Voice?
+about-playbook-how-add-language = How do I add a language?
+about-playbook-how-localize = How does site localization work?
+about-playbook-how-add-sentences = How do I add sentences?
+about-playbook-how-record-quality = How do I record a high quality voice clip?
+about-playbook-how-grow-language = How can we effectively grow a language on Common Voice?
+about-playbook-how-validate = How do I know whether to approve a voice clip?
+about-playbook-how-access-dataset = How do I access and use the dataset?
+about-playbook-how-project-governance = How are project decisions made?
+
 
 
 mycroft-title = Mycroft Ai

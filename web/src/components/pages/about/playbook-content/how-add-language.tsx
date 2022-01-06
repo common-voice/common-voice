@@ -1,9 +1,9 @@
 import * as React from 'react';
+import { Localized } from '@fluent/react';
 
-const HowAddLanguage = () => {
+const HowAddLanguage = React.memo(() => {
   return (
-    <div>
-      <h2>How do I add a language</h2>
+    <>
       Quisque quis lectus odio. Aenean condimentum, quam ac dictum ultricies,
       mauris ante ornare ante, eu blandit nibh ligula vitae odio. Proin non
       lacinia orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -13,11 +13,12 @@ const HowAddLanguage = () => {
       at sem blandit, volutpat nibh et, venenatis leo. Curabitur sagittis
       venenatis dui at faucibus. Sed fermentum eleifend ante eget consequat.
       Phasellus vitae ullamcorper lorem, in rhoncus tellus.
-    </div>
+    </>
   );
-};
+});
 
-// Type 'NamedExoticComponent<unknown> & { readonly type: () => Element; }' is missing the following properties from type 'ReactElement<any, string | JSXElementConstructor<any>>': props, key
+{
+  /*// Type 'NamedExoticComponent<unknown> & { readonly type: () => Element; }' is missing the following properties from type 'ReactElement<any, string | JSXElementConstructor<any>>': props, key
 
 // (property) JSX.IntrinsicElements.h2: React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>
 // Type 'NamedExoticComponent<unknown> & { readonly type: () => Element; }'
@@ -25,5 +26,6 @@ const HowAddLanguage = () => {
 
 // (alias) namespace React
 // import React
-
+*/
+}
 export default HowAddLanguage;

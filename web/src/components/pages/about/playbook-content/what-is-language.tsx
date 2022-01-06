@@ -3,7 +3,6 @@ import * as React from 'react';
 const WhatIsLanguage = React.memo(() => {
   return (
     <div>
-      <h2>What is a language on common voice</h2>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis
       accumsan enim, ut cursus metus. Pellentesque sodales efficitur sapien, sed
       tempor elit efficitur porta. Pellentesque vitae urna quis urna dignissim
