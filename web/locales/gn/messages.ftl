@@ -39,6 +39,7 @@ bg = Bulgaria ñe’ẽ
 bm = Bambara
 bn = Bengali ñe’ẽ
 br = Breton ñe’ẽ
+bs = Bosnia
 bxr = Buryat ñe’ẽ
 ca = Catalán ñe’ẽ
 cak = Kaqchikel ñe’ẽ
