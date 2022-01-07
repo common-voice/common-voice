@@ -879,6 +879,10 @@ profile-form-delete = Profilni o‘chirish
 
 ## Profile Download
 
+download-q = Maʼlumotlaringizni yuklab olish kerakmi?
+download-info = Nimalarni yuklab olishni xohlashingizni bizga ayting:
+download-profile-title = Profil
+download-profile-size = Bir necha bayt
 download-recordings-title = Yozuvlar
 download-recordings-info = Mp3 va unga aloqador boshqa soʻzlar mavjud. Tayyorlash biroz vaqt olishi mumkin.
 download-recordings-size = Odatda megabayt
@@ -896,6 +900,8 @@ download-request-description = { $clipCount } ta ovoli lavha, jami arxiv hajmi: 
 download-request-archive-single = Bitta ZIP faylda quyidagilar boʻladi
 download-request-assembling-description = Fayllaringiz yigʻilmoqda. Keyinroq yana tekshiring.
 download-request-refresh-button = Yangilash
+download-request-modal-title = Yuklab olish uchun havolalar
+download-request-modal-description = ZIP fayllarni yuklab olish uchun havolalar.
 
 ## Landing
 
