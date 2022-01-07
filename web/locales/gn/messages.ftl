@@ -91,6 +91,7 @@ kab = Kabyle ñe’ẽ
 kbd = Kabardian ñe’ẽ
 ki = Kenia ñe’ẽ
 kk = Kazakh ñe’ẽ
+km = Ñe’ẽ Jemer
 kmr = Kurmanji Kurdish ñe’ẽ
 ko = Corea ñe’ẽ
 kpv = Komi-Zyrian ñe’ẽ
@@ -1037,11 +1038,13 @@ sc-home-title = Eg̃uahẽporãite ñe’ẽjuaju mbyatyha ayvu reípe
 sc-home-collect-title = Embyaty ñe’ẽjuaju
 sc-home-collect-text = Orepytyvõ ehaívo térã embyatývo ñe’ẽjuaju opavaveguáva.
 sc-home-review-title = Ehechajey ñe’ẽjuaju
+sc-home-review-text = Orepytyvõ rohechajeývo ñe’ẽjuaju oĩporãpa he’iháicha tekoguatarãme.
 
 ## HOW-TO
 
 sc-howto-title = Mba’éichapa
 sc-howto-addlang-title = Embojuaju ñe’ẽ emba’apo hag̃ua
+sc-howto-addlang-text = Emoñepyrũ rire ne tembiapo, eiporavokuaa ñe’ẽnguéra mba’ete rendápe.
 sc-howto-addsen-title = Embojuaju ñe’ẽjuaju pyahu
 sc-howto-cite-title = Mba’éicha emombe’úta
 sc-howto-cite-item-1 = Emoingekuaa ñanduti renda, techapyrã, "Common Voice - https://commonvoice.mozilla.org/"
