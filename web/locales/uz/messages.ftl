@@ -902,6 +902,7 @@ download-request-assembling-description = Fayllaringiz yigʻilmoqda. Keyinroq ya
 download-request-refresh-button = Yangilash
 download-request-modal-title = Yuklab olish uchun havolalar
 download-request-modal-description = ZIP fayllarni yuklab olish uchun havolalar.
+download-request-metadata-link = Gap matni
 
 ## Landing
 
