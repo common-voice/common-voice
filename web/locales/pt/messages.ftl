@@ -374,6 +374,7 @@ skip-submission-note = Nota: você ainda precisará escolher entre Falar ou Ouvi
 off = Desligar
 on = Ligar
 help-accent = Precisa de ajuda com sotaque?
+help-accent-explanation = Seu sotaque é a maneira como você pronuncia as palavras. Ele pode ser moldado de acordo com o local onde você viveu, os outros idiomas que você fala e muitos outros fatores. Você pode compartilhar qualquer informação que considere relevante aqui.
 
 ## Profile - Email
 
@@ -885,6 +886,7 @@ download-recordings-title = Gravações
 download-recordings-info = Inclui arquivos mp3 e frases relacionadas
 download-recordings-size = Normalmente megabytes
 download-recordings-unavailable = Você não pode solicitar suas gravações enquanto outra solicitação já estiver em andamento.
+download-recently-requested = Você pode solicitar uma nova remoção de suas gravações a cada { $days } dias.
 download-size = Tamanho
 download-selected = Selecionado
 download-start = Iniciar download
