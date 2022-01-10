@@ -1047,6 +1047,7 @@ sc-howto-addlang-text = Após entrar, você pode selecionar seus idiomas na seç
 sc-howto-addsen-title = Adicionar novas frases
 sc-howto-cite-title = Como citar
 sc-howto-cite-item-1 = Você pode incluir o site, por exemplo, "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Você pode usar estilo de referência acadêmica, por exemplo, estilo Harvard "Mozilla (2021) Common Voice. Disponível em https://commonvoice.mozilla.org/ (acessado em 15 de setembro de 2021)"
 sc-howto-review-title = Revisar frases
 sc-howto-review-criteria-1 = A frase deve ser escrita corretamente.
 sc-howto-review-criteria-2 = A frase deve estar gramaticalmente correta.
