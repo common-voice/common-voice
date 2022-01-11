@@ -1045,6 +1045,7 @@ sc-howto-title = Como
 sc-howto-addlang-title = Adicionando idiomas para trabalhar
 sc-howto-addlang-text = Após entrar, você pode selecionar seus idiomas na seção de perfil.
 sc-howto-addsen-title = Adicionar novas frases
+sc-howto-addsen-item-5 = Letras estrangeiras. Letras devem ser válidas no idioma falado. Por exemplo, “ж” é uma letra do alfabeto russo, mas nunca é usada em inglês, portanto nunca deve aparecer em nenhum texto de origem em inglês.
 sc-howto-cite-title = Como citar
 sc-howto-cite-item-1 = Você pode incluir o site, por exemplo, "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Você pode usar estilo de referência acadêmica, por exemplo, estilo Harvard "Mozilla (2021) Common Voice. Disponível em https://commonvoice.mozilla.org/ (acessado em 15 de setembro de 2021)"
