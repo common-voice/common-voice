@@ -84,7 +84,7 @@ You may want to set up each component manually. In which case you will need:
 
 ### Requirements
 
-- [NodeJS](https://nodejs.org) (v10.7+)
+- [NodeJS](https://nodejs.org) (v12+)
 - [yarn](https://yarnpkg.com) (v1 or higher)
 - [MySQL](https://www.mysql.com/downloads/) (v5.7 or higher)
 
