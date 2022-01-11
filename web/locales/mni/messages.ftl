@@ -38,6 +38,7 @@ bg = ꯕꯨꯜꯒꯥꯔꯤꯌꯥꯟ
 bm = ꯕꯥꯝꯕꯥꯔꯥ
 bn = ꯕꯦꯡꯒꯥꯂꯤ
 br = ꯕ꯭ꯔꯦꯇꯣꯟ
+bs = ꯕꯣꯁꯅꯤꯌꯥꯟ
 bxr = ꯕꯨꯔꯌꯥꯠ
 ca = ꯀꯥꯇꯥꯂꯟ
 cak = ꯀꯥꯛꯆꯤꯀꯦꯜ
@@ -89,6 +90,7 @@ kab = ꯀꯦꯕꯥꯏꯜ
 kbd = ꯀꯥꯕꯥꯔꯗꯤꯌꯥꯟ
 ki = ꯀꯤꯀꯤꯌꯨ
 kk = ꯀꯥꯓꯥꯈ
+km = ꯈꯃꯦꯔ
 kmr = ꯀꯨꯔꯃꯟꯖꯤ ꯀꯨꯔꯗꯤꯁ
 ko = ꯀꯣꯔꯤꯌꯥꯟ
 kpv = ꯀꯣꯃꯤ-ꯓꯥꯏꯔꯤꯌꯥꯟ
@@ -325,9 +327,13 @@ edit = ꯁꯦꯝꯒꯠ-ꯁꯥꯒꯠꯂꯨ
 download-profile = ꯑꯩꯒꯤ ꯗꯥꯇꯥ ꯆꯤꯡꯊꯔꯛꯎ
 off = ꯃꯨꯊꯠꯄ
 on = ꯊꯥꯕ
+help-accent = ꯈꯣꯟꯊꯣꯛꯀꯤ ꯃꯇꯥꯡꯗ ꯃꯇꯦꯡ ꯈꯔꯥ ꯃꯊꯧ ꯇꯥꯕꯔꯥ?
 
 ## Profile - Email
 
+browse-file-title = ꯃꯤꯔꯦꯜ ꯐꯥꯏꯜ ꯊꯥꯒꯠꯂꯨ
+file_too_large = ꯐꯥꯏꯜ ꯑꯁꯤ ꯌꯥꯝ ꯆꯥꯎꯔꯦ
+avatar-uploaded = ꯁꯛꯇꯝ ꯊꯥꯒꯠꯂꯦ
 
 ## Profile - Email
 
