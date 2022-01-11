@@ -1,6 +1,9 @@
 ## General
 
 yes-receive-emails = Hoi, maka emails send kôr. Maka khup khosi astili Common Voice Project'an bag govpak.
+stayintouch = Voice technology'cher ami ek community karma Mozilla'an. Ami chad khosi tumka update dovarpak, novo data duvpak and aikpak tumi koso ho data use karta toh.
+email-input =
+    .label = Email
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
