@@ -1059,6 +1059,7 @@ sc-howto-review-criteria-6 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃u
 sc-howto-findpd-title = Ejuhúta ñe’ẽjuaju oĩva opavave oipurukuaahápe
 sc-howto-findpd-subtitle = Ehekava’erã ñandutípe
 sc-howto-findpd-tips = Ko’ág̃a oñeñemoñe’ẽta ejuhukuaa hag̃ua ñe’ẽrysýi:
+sc-howto-findpd-tips-3 = Rombyasy, ndoroguerekói Wikimedia mba’eñemurã. Upévare ani embokuatia ha emboja upe guive.
 sc-howto-findpd-subtitle-2 = Eñemoirũ atyguasu térã tapicha tendaguávare
 
 ## MY SENTENCES
@@ -1075,15 +1076,18 @@ sc-my-submission = Ñemomirĩ: { $batchId }
 sc-my-source = Teñoiha:  { $source }
 sc-my-delete = Emboguete ñe’ẽrysýi poravopyre
 sc-my-deleting = Emboguehína ñe’ẽrysýi poravopyre…
+sc-my-err-failed-delete = Ndoikói emboguévo ñe’ẽjuaju poravopyre… ¡Eha’ãjey ag̃ave!
 
 ## REJECTED
 
 sc-rejected-title = Ñe’ẽjuaju hejapyre
 sc-rejected-loading = Emyanyhẽ ñe’ẽrysýi mboykepyre…
+sc-rejected-err-fetching = Ojavy eguerukuévo ñe’ẽjuaju hejapyre. Eha’ãjey ag̃amieve.
 sc-rejected-none-found = ¡Ndojejuhúi ñe’ẽrysýi mboykepyre!
 
 ## STATS
 
+sc-stats-title = Papapy’atygua
 # Variables:
 #   $lastUpdate (Date) - Localized date of last statistics update
 sc-stats-last-update = Ñembohekopyahu: { $lastUpdate }
