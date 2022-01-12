@@ -68,6 +68,7 @@ fy-NL = 弗里西语
 ga-IE = 爱尔兰语
 gl = 加利西亚语
 gn = 瓜拉尼语
+gom = 孔卡尼语（果阿）
 ha = 豪萨语
 he = 希伯莱语
 hi = 印地语
@@ -93,6 +94,7 @@ ki = 基库尤语
 kk = 哈萨克语
 km = 高棉语
 kmr = 库尔曼吉库尔德语
+knn = 孔卡尼语（天城文）
 ko = 韩语
 kpv = 科米-齐良语
 kw = 康沃尔语
@@ -1270,8 +1272,13 @@ sc-review-form-source = 来源：{ $sentenceSource }
 sc-review-form-button-reject = 驳回
 sc-review-form-button-skip = 跳过
 sc-review-form-button-approve = 通过
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = 您还可以使用快捷键：按 Y 通过、按 N 驳回、按 S 跳过
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = 您可以使用键盘快捷键：{ sc-review-form-button-approve-shortcut } 键 - 通过，{ sc-review-form-button-reject-shortcut } 键 - 驳回，{ sc-review-form-button-skip-shortcut } 键 - 跳过
 sc-review-form-button-submit =
     .submitText = 完成审核
 # Variables:
