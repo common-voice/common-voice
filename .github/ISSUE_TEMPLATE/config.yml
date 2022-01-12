@@ -5,3 +5,6 @@ contact_links:
 - name: "\U0001F5E3 Join the Community Chat"
   url: https://chat.mozilla.org/#/room/#common-voice:mozilla.org 
   about: "If you have quick question or would like to connect with contributors, join our element chat"
+- name: "U1F4D1 Documentation Issue"
+  url: https://github.com/common-voice/community-playbook/issues/new?assignees=&labels=enhancement&template=missing.md&title=Missing+Knowledge
+  about: "Have you noticed a gap in documentation ? You can make an issue request via our Community Playbook repo"
