@@ -1168,6 +1168,9 @@ sc-confirm-ready =
         [one] 1 ¡ñe’ẽjuaju ojeapoítava!
        *[other] { $readyCount } ¡ñe’ẽjuaju ojeapoítava!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } ñe’ẽjuaju ojehechajey’ỹva. Eipotáramo, avei ehechajeykuaa ne ñe’ẽjuajukuéra eguerahauka mboyve.
 sc-confirm-button-text = Moneĩ
 
 ## LANGUAGE INFO
