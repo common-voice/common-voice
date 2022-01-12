@@ -1306,8 +1306,12 @@ sc-review-form-source = Žórło: { $sentenceSource }
 sc-review-form-button-reject = Wotpokazać
 sc-review-form-button-skip = Přeskočić
 sc-review-form-button-approve = Schwalić
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Móžeće tež tastowe skrótšenki wužiwać: Y za schwalenje, N za wotpokazanje, S za přeskočenje
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = H
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = P
 sc-review-form-button-submit =
     .submitText = Pohódnoćenje dokónčić
 # Variables:
