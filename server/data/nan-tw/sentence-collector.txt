@@ -1,5 +1,4 @@
-一thiōng錢 （tsi̍t thōng tsînn）
-一tòng錢 （tsi̍t tòng tsînn）
+㪉紙機（kap-tsuá-ki）
 一丈差九尺 （tsi̍t-tn̄g tsha káu-tshioh）
 一丈槌無留三尺後 （tsi̍t-tn̄g-thuî bô-lâu sann-tshioh āu）
 一丈槌著留三尺後 （tsi̍t tn̄g thuî tio̍h lâu sann tshioh āu）
@@ -188,7 +187,6 @@
 一粒頭，兩粒大 （tsi̍t-lia̍p thâu, nn̄g-lia̍p tuā）
 一絲一厘都無差 （tsi̍t si tsi̍t lî to bô-tsha）
 一絲仔就袂走閃得 （tsi̍t-si-á tō bē tsáu-siám tit）
-一罐 （tsi̍t-kuàn）
 一耙食到冬尾 （tsi̍t-pê tsia̍h-kàu tang-bué）
 一耦鱟 （tsi̍t-ngauh-hāu）
 一聲毋知，百項無代 （tsi̍t-siann m̄-tsai, pah-hāng bô-tāi）
@@ -227,7 +225,6 @@
 一雷天下響 （it-luî thian-hā hiáng）
 一霎仔久 （tsi̍t-tiap-á-kú）
 一面抹壁雙面光 （tsi̍t-bīn buah-piah siang-bīn kng）
-一頂--的 （it-tíng--ê）
 一頂的 （it-tíng--ê）
 一頂眠床 （tsi̍t tíng bîn-tshn̂g）
 一頓久久，兩頓相拄 （tsi̍t tuìnn kú-kú nn̄g tuìnn sio-tú）
@@ -236,7 +233,6 @@
 一首歌 （tsi̍t-siú-kua）
 一馬掛雙鞍 （it-má kuà siang uann）
 一點一揬 （tsi̍t-tiám tsi̍t-tuh）
-一點一滴 （tsi̍t-tiám-tsi̍t-tih）
 一點也貓，百點也貓 （tsi̍t-tiám iā niau, pah-tiám iā niau）
 一點仔 （tsit-tiám-á）
 一點仔囝 （tsi̍t-tiám-á-kiánn）
@@ -388,7 +384,6 @@
 三民主義 （Sam-bîn-tsú-gī）
 三消病 （sann-siau-pēnn）
 三消症 （sann siau tsìng）
-三爽 （sàm-sóng）
 三界公生 （Sann-kài-kong-senn）
 三番五次 （sann-huan ngóo tshù）
 三皇五帝 （Sam-hông Ngóo-tè）
@@ -736,7 +731,6 @@
 人生親像做人客 （jîn-sing tshin-tshiūnn tsò-lâng-kheh）
 人瘟 （lâng-un）
 人稱代名詞 （jîn-tshing tāi-bîng-sû）
-人窮志不窮 （jîn kîng tsì put kîng）
 人範 （lâng-pān）
 人緣䆀 （lâng-iân bái）
 人聲喊喝 （lâng siann hiàm huah）
@@ -764,10 +758,9 @@
 人食裝，佛食扛 （lâng tsia̍h tsng, pu̍t tsia̍h kng）
 人驚賊，賊驚人 （lâng kiann tsha̍t, tsha̍t kiann-lâng）
 人驚鬼，鬼驚人 （lâng kiann kuí, kuíkiann-lâng）
-人𠢕，天咧做對頭 （lâng gâu thinn teh tsò tuì-thâu）
-人𠢕，毋值天咧做對頭 （lâng-gâu m̄-ta̍t thinn teh tsò tuì-thâu）
 你提轉去了後，就一項一項共伊讀出來
 你這款病，是腹肚內有應聲蟲咧作怪
+做惡做毒，騎馬碌硞（tsò-ok tsò-to̍k, khiâ-bé lo̍k-kho̍k）
 偷食袂瞞得喙齒，討翁袂瞞得鄉里
 兄弟若手足，某囝若衫褲
 入人門，順人意 （ji̍p lâng-mn̂g, sūn lâng-ì）
@@ -847,7 +840,6 @@
 十扳仔 （si̍p-pán-á）
 十指有長短 （tsa̍p-tsáinn ū tn̂g-té）
 十指迵心肝 （tsa̍p-tsáinn thàng sim-kuann）
-十桱床 （tsa̍p-kènn-tshn̂g | tsa̍p-kìnn-tshn̂g）
 十穀米 （si̍p-kok-bí）
 十箍 （tsa̍p khoo）
 十跤五手 （tsa̍p kha gōo tshiú）
@@ -895,6 +887,7 @@
 和好人行，有布通經；和歹人行，有囝通生
 善的掠來縛，惡的放伊去
 四算錢，五燒香，六拜年
+國立臺灣史前文化博物館（Kok-li̍p Tâi-uân Sú-tsiân Bûn-huà Phok-bu̍t-kuán）
 土keh （thóo-keh）
 土人參 （thóo jîn-sim）
 土地公 （Thóo-lī-kong | Thóo-tī-kong）
@@ -1136,7 +1129,6 @@
 大茴香 （tuā-huê-hiunn）
 大草 （tuā-tsháu）
 大菇蟳 （Tuā-koo-tsîm）
-大落價 （tuā lo̍h-kè）
 大葉九重炊 （tuā-hio̍h káu-tîng-tshue）
 大葉枴仔棕 （tuā-hio̍h-kuái-á-tsang）
 大葉校栗 （ttuā-hio̍h kàu la̍t）
@@ -1223,6 +1215,30 @@
 子游 （Tsír-iû | Tsú-iû）
 子貢 （Tsú-kòng）
 子路 （Tsú-lōo）
+害慘慘（hāi-tshám-tshám）
+家伙仔（ke-hué-á）
+家內無貓，鳥鼠會曲跤（ka-lāi bô niau niáu-tshí ē khiau-kha）
+家宿（ka-siok）
+家己主心願（ka-kī tsú sim-guān）
+家己來（ka-kī lâi）
+家己做得來（ka-kī tsò-tit-lâi | ka-kī tsuè-tit-lâi）
+家己刣，趁腹內（ka-kī thâi thàn pak-lāi）
+家己呵，較袂臭臊（ka-kī o khah-bē tshàu-tsho）
+家己面無肉，怨人大尻川（ka-kī bīn-bô-bah uàn-lâng tuā-kha-tshuinn）
+家己飼（ka-kī tshī）
+家己（ka-kī | ka-tī | ka-ti）
+家庭主婦（ka-tîng-tsú-hū）
+家庭暴力（ka-tîng pō-li̍k）
+家暴（ka-pō）
+家樂福（Ka-lo̍k-hok）
+家治（ka-tī）
+家私人（ke-si-lâng）
+家私頭仔（ke-si-thâu-á）
+家財萬貫（ka-tsâi-bān-kuàn）
+宸（sîn）
+容器（iông-khì）
+射手座（Siā-tshiú-tsō）
+射精（siā-tsing）
 小䉪咧 （sió luí--leh）
 小七哥仔 （sió-tshit ko-á）
 小丑仔 （siáu-thiú-á）
@@ -1286,6 +1302,12 @@
 小鬼袂做得大頭路 （sió-kuí bē tsò-tit tuā-thâu-lōo）
 小點仔 （sió-tiám-á）
 小齣 （sió-tshut）
+展寶文（tián-pó-bûn）
+展歌（tián-kua）
+展覽館（tián-lám-kuán）
+屘叔仔（ban-tsik-á）
+屘叔（ban tsik）
+屘姑（ban-koo）
 山仔港 （Suann-á-káng）
 山仔跤 （Suann-á-kha）
 山仙楂 （suann sian-tsa）
@@ -1341,6 +1363,20 @@
 山頭鹿角尾 （suann-thâu lo̍k-kak bué）
 山魈 （sam-siau）
 山鼻仔 （Suann-phīnn-á）
+島嶼天光（tó-sū thinn-kng）
+島群（tó-kûn | tóo-kûn）
+崁一張牌，共這回合結束（khàm tsi̍t tiunn pâi, kā tsit huê-ha̍p kiat-sok）
+崁下（khàm-hā）
+崁仔跤（Khàm-á-kha）
+崁步（khàm-pōo）
+崁浮輪（khàm-phû-lián）
+崁火鍋（khàm hué-ko）
+崁瑕膏（khàm-hâ-ko）
+崁耳仔帽（khàm-hīnn-á-bō）
+崁蓋（khàm-kuà）
+崁跤（khàm-kha）
+崁面（khàm-bīn）
+崁頭鴨（Khàm-thâu-ah）
 川仔溝 （tshuan-á-kau）
 川普 （Tshuan-phóo）
 川貝枇杷膏 （tshuan-puè gî-pê-ko）
@@ -1353,8 +1389,15 @@
 工業革命 （Kang-gia̍p-kik-bīng）
 工程數學 （kang-tîng sòo-ha̍k）
 工課路 （khang-khuè-lōo）
+差一天地（tsha tsi̍t thinn-tē）
+差味（tsua̍h-bī）
+差錯（tsha-tshò）
 己亥 （kí-hāi）
 已經過定 （ik-ing-kuè-tiānn）
+師丈（su-tiūnn）
+師範學院（su-huān ha̍k-īnn）
+師翁（su-ong）
+師（sai）
 干仔霧 （Kan-á-bū）
 干係 （kan-hē）
 干於 （kan-î）
@@ -1367,19 +1410,617 @@
 干邑 （Kan-ip）
 干邑物蘭池 （Kan-ip Bu̍t-lân-tî）
 干阿達 （Kan-o-ta̍t）
+座右銘（tsō-iū-bîng）
 弓 （king）
 弓仔跤 （King-á-kha）
 弓箭 （king-tsìnn）
 弓箭士 （king-tsìnn-sū）
 弓蕉鼠 （King-tsio-tshí）
+強驚勇，勇驚雄，雄驚無天良（Kiông kiann ióng, ióng kiann hiông, hiông kiann bô thian-liông）
+徐欣瑩（Tshî Him-êng）
+徐（Tshî）
+恁娘咧（lín-niâ--leh）
+恁娘的（lín-niâ--ê）
+恁娘蹺去（lín-niâ-khiau--khì）
+恁娘較好（lín niâ khah hó）
+恁爸共你𢼌落去（lín-pē kā-lí pa--lueh）
+恁爸嘛是人（lín-pē mā-sī-lâng）
+恁爸（lín-pē）
+恁遮的（lín tsia--ê）
+恁阿母敢知影你佇遮發廢文（Lín a-bú kám tsai-iánn lí tī tsia huat huì-bûn）
+恙蟲病（iōng-thâng-pēnn | iōng-thâng-pīnn）
+恩主公廟（Un-tsú-kong-biō）
+恭喜發財（kiong-hí-huat-tsâi）
+悍馬仔（Hán-bé-á）
 我散赤閣頇顢，萬項代誌都袂曉
+扇形車庫（sìnn hîng tshia-khòo）
+扇頭拍人袂疼，情意不該（sìnn-thâu phah-lâng bē thiànn tsîng-ì put-kai）
 才 （tsha̋i）
 才拄 （tsiah-tú）
 才疏學淺 （tsâi soo ha̍k tshián）
 才調 （tsâi-tiāu）
+拳擊（kûn-kik）
+拳母猴（Kûn-bó-kâu）
+拳母石（Kûn-bó-tsio̍h）
+拳頭師（Kûn-thâu-sai）
+拳頭拇收佇手䘼內（kûn-thâu-bú siu tī tshiú-ńg lāi）
+拳頭高高在上（kûn-thâu ko-ko tsāi-siōng）
+挈批的（khe̍h phue--ê）
+挐氅氅（jû tsháng tsháng）
+挨小提琴（e sió-thê-khîm）
+挨石磨（e-tsio̍h-bō）
+挨礱（e-lâng | ue-lâng）
+挩枋仔（thuah-pang-á）
+挩鍊仔（thauh-liān-á）
+挪威（Ná-ui | Nô-ui）
+挫傷（tshò-siong）
+挵井（lòng-tsénn | lòng-tsínn）
+挵挵車（lòng-lòng-tshia）
+挵紅燈（lòng-âng-ting）
+挵著（lòng-tio̍h）
+挵課（lòng-khò）
+挵關（lòng-kuan）
+挹肥（ip-puî）
+挽瓜揫藤（bán-kue-tshiû-tîn）
+挽筋（bán-kin）
+挽肉（bán-bah）
+挽草（bán-tsháu）
+挽菜（bán-tshài）
+挽藥草（bán io̍h-tsháu）
+挽藥（bán-io̍h）
+挽（bán）
+挾著（gia̍p-tio̍h | nge̍h-tio̍h）
+挾（gia̍p | nge̍h）
+捀場（phâng-tiûnn）
+捀羅經（phâng-lô-kenn）
+捀菜（phâng-tshài）
+捅鼻（thóng-phīnn）
+捋（luah）
+捌代誌（bat tāi-tsì）
+捎攏無（sa-lóng-bô）
+捎無寮仔門（sa-bô liâu-á-muî | sa-bô-liâu-á-mn̂g）
+捎無摠（sa-bô-tsáng）
+捎無頭摠（sa-bô thâu-tsáng）
+捒做堆（sak-tsò-tui）
+捒文（sak-bûn）
+捒炮（sak-phàu）
+捒爆去（sak po̍k--khì）
+捒責任（sak-tsik-jīm | sak-tsik-līm）
+捒風（sak-hong）
+捕風捉影（póo-hong-tshiok-íng）
+捘螺絲（tsūn lôo-si）
+捙倒醋甕（tshia-tó tshòo-àng）
+捙拚（tshia-piànn）
+捙蛆（tshia-tshi | tshia-tshu | tshia-tshir）
+捙跋反（tshia-pua̍h-píng）
+捙（tshia）
+排尿（pâi-jiō | pâi-liō）
+排插（pâi-tshah）
+排有生相（pâi ū senn-siùnn）
+排泄器（pâi-siat-khì）
+排熱（pâi-jua̍h）
+排甲躼躼長（pâi kah lò-lò-tn̂g）
+排線（pâi-suànn）
+排隊排甲若長蛇陣（pâi-tuī pâi kah ná tn̂g-tsuâ-tīn）
+排頭為準（pâi thâu uî tsún）
+掖名刺（iā mè-sì）
+掖（iā）
+掘塗（ku̍t-thôo）
+掘窟（ku̍t-khut）
+掛保證（kuà-pó-tsìng）
+掛喙掩仔（kuà tshuì-ng-á）
+掛喙掩（kuà tshuì-om）
+掛喙罨（kuà tshuì-am）
+掛喙罩（kuà tshuì-tà）
+掛心（khuà-sim）
+掛意（kuà-ì）
+掛慮（kuà-lū）
+掛無事牌（kuà bô-sū pâi）
+掛耳包（kuà-hīnn-pau）
+掛肚（kuà-tōo）
+掛（kuà）
+掜粉（tau-hún）
+掠中範（lia̍h-tiong-pān）
+掠交替（Lia̍h-kau-thè）
+掠大誤（lia̍h tuā gōo）
+掠天湳湳（lia̍h thinn làm làm）
+掠姦在床，掠賊在贓（lia̍h kan tsāi tshn̂g, lia̍h tsha̍t tsāi tsng）
+掠平感（lia̍h-pênn-kám）
+掠準講（lia̍h-tsún kóng）
+掠狂馬（Lia̍h-kông-bé）
+掠狂（lia̍h-kông）
+掠猴（lia̍h-kâu）
+掠肉（lia̍h-bah）
+掠落來（lia̍h--lo̍h-lâi）
+掠著暢筋（lia̍h-tio̍h thiòng-kin）
+掠車（lia̍h-tshia）
+掠魚船（lia̍h-hî-tsûn）
+揤倚來（tshi̍h uá-lâi）
+揤吊（ji̍h-tiàu）
+揤子（tshi̍h-jí）
+揤控（tshi̍h-khòng）
+揤落去（tshi̍h--lueh）
+揤落（tshih loh | tshi̍h-loh）
+揤讚（tshi̍h tsán）
+揤鈕（tshi̍h-liú）
+揤（tshih）
+敆倚（kap-uá）
+敆峇（kap-bā）
+敆路（kap-lōo）
+敆蹛病房（kap-tuà pēnn-pâng）
+敆陣（kap-tīn）
+敆餅（kap-piánn）
+料小（liāu-siáu）
+料理包（liāu-lí-pau）
+旁邊（pông-pinn）
+旅程（lí-tîng | lú-tîng）
+時代力量（Sî-tāi Li̍k-liōng）
+時來運轉（sî-lâi-ūn-tsuán）
+時到時擔當（sî kàu sî tam-tng | sî tàu sî tam-tng）
+時區（sî-khu）
+時咕仔（sî-koo-á）
+時局（sî-kio̍k）
+時態（sî-thài）
+時時刻刻（sî-sî-khik-khik）
+時時（sî-sî）
+時機kia̍t（sî-ki kia̍t）
+時站（sî-tsām）
+時行歌（sî-kiânn-kua）
+時行（sî-kiânn）
+時計果（sî-kè-kó）
+時錶仔（sî-pió-á）
+時鐘瓜（sî-tsing-kue）
+時間倒算（sî-kan tò-sǹg）
+時陣（sî-tsūn）
+晉安（Tsìn-an）
+晉江話（Tsìn-kang-uē）
+晉江（Tsìn-kang）
+晟（sīng）
+書呆（tsu-tai）
+書經（Sir-king | Su-king）
+書鋏（tsu-giap）
+朔啡亞（sok-pi-a）
+朗讀比賽（lóng-tho̍k pí-sài）
+朗讀稿（lóng-tho̍k-kó）
+柴刻（tshâ-khik）
+柴厝仔（tshâ-tshù-á）
+柴塊仔（tshâ-tè-á）
+柴屐耳（tshâ-kia̍h-hīnn）
+柴屐襻（tshâ-kia̍h-phàn）
+柴屑（tshâ sut）
+柴山（Tshâ-suann | Tshâ-san）
+柴扒（tshâ-pê）
+柴杮（tshâ-phuè）
+柴枕頭（tshâ-tsím-thâu）
+柴橋（tshâ-kiô）
+柴烌（tshâ-hu）
+柴牆（tshâ-tshiûnn）
+柴犬（tshâ-khián）
+柴球（tshâ-kiû）
+柴疊仔（tshâ-thia̍p-á）
+柴目（tshâ-ba̍k）
+柴磚仔（tshâ-tsng-á）
+柴米油鹽醬醋茶（tshâ-bí-iû-iâm-tsiùnn-tshòo-tê）
+柴糖（tshâ-thn̂g）
+柴耙（tshâ-pê）
+柴角仔（tshâ-kak-á）
+柴較冷灶（tshâ khah líng tsàu）
+柴轎（tshâ-kiō）
+柴鉤（tshâ-kau）
+柴雕（tshâ-tiau）
+柴雷（tshâ-luî）
+柴龜（tshâ-ku）
+栗子頭（la̍t-tsí-thâu）
+栗子（la̍t-tsí）
+栗戰書（Li̍kTsiàn-su）
+栗美國（La̍t-bí-kok）
+校園霸凌（hāu-hn̂g-pà-lîng）
+校長兼摃鐘（hāu-tiúnn kiam kòng-tsing）
+栱（kông）
+核子彈（hu̍t-tsí-tuānn）
+核子武器（hi̍k-tsú bú-khì）
+核子（hu̍t-tsí）
+核廢料（hi̍k-huī-liāu | hi̍k-huì-liāu）
+核彈（hu̍t-tuānn）
+核武（hu̍t-bú）
+核能發電（hi̍k-lîng huat-tiān）
+根節（kin-tsat | kun-tsat）
+根菜（kin-tshài | kun-tshài）
+格仔粿（keh-á-kér | keh-á-ké | keh-á-kué）
+格仔膨餅（keh-á-phòng-piánn）
+格仔餅（keh-á-piáⁿ | keh-á-piánn）
+栽仔（tsai-á）
+桃仔園（Thô-á-huînn）
+桃仔色（thô-á-sik）
+桃園國際機場（thô-hn̂g kok-tsè ki-tiûnn）
+桃園捷運（Thô-hn̂g tsia̍t-ūn）
+桃志其（Thô-tsì-kî）
+桃源部落（Thô-guân Pōo-lo̍k）
+桄榔子（kong lông tsú）
+框箍（khong-khoo）
+框起來（khong--khí-lâi）
+案下（àn-hā）
+案頭燈（àn-thâu-ting）
+桌仔耍（toh-á-sńg）
+桌奕（toh-ī）
+桌火（toh-hué）
+桌角（toh-kak）
+桌誌（toh-tsì）
+桌長（toh-tiúnn）
+桌頂奕（toh-tíng-ī）
+桌頂拈柑（toh-tíng ni-kam）
+桌頂耍奕（toh-tíng sńg-ī）
+桌頂耍（toh-tíng-sńg）
+桌頭曆日（toh-thâu la̍h-ji̍t）
+桌頭燈（toh-thâu-ting）
+桐廬（Tông-lû）
+桐花（tâng-hue）
+桐鄉（Tông-hiong）
+桑材仔（sng-tsâi-á）
+桑榆晚景（song-jû buán-kíng）
+桑穗（sng-suī）
+桑臍（sng-tsâi）
+桑葚（sng-sûinn）
+桓（huân）
+桔仔龜（kiat-á-ku）
 棚頂做甲流汗，棚跤嫌甲流瀾
+欱（hop）
+氣到地仔（khì kàu-tè á）
+氣力（khuì-la̍t）
+氣咧來（khuì teh lâi）
+氣學（khì-ha̍k）
+氣尾（khuì-bué）
+氣掣掣（khì-tshuah-tshuah）
+氣暢忍（khì-thiòng-lún）
+氣氛（khì-hun）
+氣泡（khì-pho）
+氣炸鍋（khì-tsà-ko）
+氣糋鍋（khì-tsìnn-ue | khì-tsìnn-ko）
+氣罩（khì-tà）
+氣腸氣肚（khì tn̂g khì tōo）
+氣虛（khì-hi）
+氣象學（khì-siōng-ha̍k）
+氣路加壓機（khuì-lōo ka-ap-ki）
+氣身惱命（khì-sin-lóo-miā）
+氦（hāi）
 沓沓仔觀察伊的反應，就知影伊有啥物臭空矣
+泰國拳（Thài-kok-kûn）
+泰國月娘蝦餅（Thài-kok gue̍h-niû hê-piánn）
+泰國蝦（Thài-kok-hê）
+泰寧（Thài-lîng）
+泰拳（Thài-kûn）
+泰武（Thài-Bú）
+泰順（Thài-sūn）
+浙南（Tsiat-lâm）
+浡丁（phu̍h-ting）
+浡（phū）
+浣熊（uān-hîm）
+浦城（Phóo-siânn）
+浦江（Phóo-kang）
+浪毒（lōng-to̍k）
+浪港（làng-káng）
+浪溜嗹（lōng-liú-lian）
+浮動（phû-tōng）
+浮水印（phû-tsuí-ìn）
+浮水沬（phû-tsuí-bī）
+浮沬（phû-bī）
+浮洲仔（Phû-tsiu-á）
+浮洲（Phû-tsiu）
+浮球（phû-kiû）
+浮空（phû-khang）
+浮筒仔（）
+浴壺（i̍k-ôo）
+浴帽（i̍k-bō）
+浴房（i̍k-pâng）
+海䖳（hái-thē）
+海仔（hái-á）
+海刺龍（Hái-tshì-liông）
+海參崴（Hái-sam-ui | Hái-som-ui）
+海口（Hái-kháu）
+海嘯（hái-siàu）
+海坪仔（hái-phiânn-á）
+海埔（hái-poo）
+海墘仔（hái-kînn-á）
+海墘厝（hái-kînn-tshù）
+海墘營（Hái-kînn-iânn）
+海墘跤（hái-kînn-kha）
+海墘（hái-kînn）
+海婆仔（hái-pô-á）
+海寧（Hái-lî͘ng）
+海岸線（hái-huānn-suànn）
+海岸（hái-huānn）
+海峽兩岸（Hái-kiap Lióng-gān）
+海市蜃樓（hái-tshī-sīn-lâu）
+海底摸針（hái-té bong-tsiam）
+海底船（hái-té-tsûn | hái-tué-tsûn）
+海徛（hái-khiā）
+海掃（hái-sàu）
+海曙（Hái-sū）
+海棗（hái-tsó）
+海水倒激（hái-tsuí tó-kik）
+海沖（hái-tshiâng）
+海沙坪（hái-suann-phiânn）
+海沙埔（hái-sua-poo）
+海淹（hái-im）
+海湧閃閃爍爍（hái-íng siám-siám-sih-sih）
+海湧（hái-íng）
+海溝（hái-kau）
+海灣（hái-uan）
+海牙（Hái-gâ）
+海狗（hái-káu）
+海獅囝（Hái-sai-kiánn）
+海產煎餅（hái-sán-tsian-piánn）
+海砂厝（hái-sua-tshù）
+海碗（hái-uánn）
+海結仔頭（hái-kat-á-thâu）
+海綿質（hái-mî-tsit）
+海肚（hái-tóo）
+海草礁（hái-tsháu-ta）
+海蔬仔（hái-se-á）
+海蜈蚣（hái-giâ-kang）
+海螺仔風（hái-lê-á-hong）
+海蟹（hái-huē）
+海角（hái-kak）
+海豬仔踅（hái-ti-á-se̍h）
+海豬仔（Hái-ti | tu-á）
+海豬泅（hái-ti-siû）
+海賊王（Hái-tshat-ông）
+海賊船（hái-tsha̍t-tsûn）
+海跤（hái-kha）
+海邊仔（hái-pinn-á）
+海釣（hái-tiò）
+海青（hái-tshing）
+海馬精（Hái-bé-tsiann）
+海鳥（hái-tsiáu）
+海鼻（hái-phīnn）
+海龜（hái-ku）
+海（hái）
+浸水式教學（tsìm-tsuí-sik kàu-ha̍k）
+浸水式教育（tsìm-tsuí-sik kàu-io̍k）
+浸水桶（tsìm-tsuí-tháng）
+浸燒水（tsím sio-tsuí）
+浸磺水（tsìm hông-tsuí）
+浸透（tsìm-thàu）
+消化器（siau-huà-khì）
+消敨壓力（siau-tháu ap-li̍k）
+消敨（siau-tháu）
+消毒水（siau-to̍k-tsuí）
+消涼（siau-liâng）
+消火器（siau-hué-khì | siau-hé-khì）
+消牽頭（siau-khan-thâu）
+消遣（siau-khián）
+消防局（siau-hông-kio̍k）
+消防栓（siau-hông-tsuān）
+消防罐（siau-hông-kuàn）
+消防署（Siau-hông-sú）
+消防隊員（siau-hông-tuī-uân）
+烌（hu）
+烏仁對白仁（oo-jîn tuì pe̍h-jîn）
+烏仔目草（oo-á-ba̍k-tsháu）
+烏咖啡（oo-ka-pi）
+烏喙牛尻川（oo-tshuì gû kha-tshng）
+烏塌（oo-lap）
+烏塗仔糜（oo-thôo-á-muê）
+烏子仔草（oo tsí-á tsháu）
+烏尾仔（oo-bué-á | oo-bé-á | oo-bér-á）
+烏屎（oo-sái）
+烏山（Oo-suann）
+烏干達（Oo-kan-ta̍t）
+烏昏面（oo-hng-bīn）
+烏昏（oo-hng）
+烏暗時代（oo-àm sî-tāi）
+烏暗的（oo-àm--ê）
+烏暗眩（oo-àm-hîn）
+烏暗（oo-àm）
+烏有去矣（oo-iú khì-ah）
+烏有矣（oo-iú--ah）
+烏李仔菜（oo-lí-á-tshài）
+烏格（oo-keh）
+烏洞（oo-tōng）
+烏焦瘦（oo-ta-sán）
+烏焦蛇（oo-ta-tsuâ）
+烏片（oo-phìnn）
+烏牛欄（Oo-gû-lân | Oo-gû-nuâ）
+烏牢底（oo-tiâu-té）
+烏狗偷食，白狗坐罪（oo-káu thau-tsia̍h pe̍h-káu tshē-tsuē）
+烏珠（oo-tsu）
+烏白tang仔（oo-pe̍h tang-á）
+烏白切（oo-pe̍h-tshiat）
+烏白沐（oo-pe̍h-bak）
+烏白炸（oo-pe̍h-tsuànn）
+烏白試（oo-pe̍h tshì）
+烏白講（oo-pe̍h-kóng）
+烏白走（oo-pe̍h tsáu）
+烏白郎君（oo-pe̍h-lông-kun）
+烏目鏡（oo-ba̍k-kiànn）
+烏矸仔貯豆油（oo-kan-á té tāu-iû）
+烏社會（oo-siā-huē）
+烏空（oo-khang）
+烏笛仔（oo-ta̍t-á）
+烏肉底（oo-bah-té）
+烏肚䆀（oo-tóo-bái）
+烏蚋仔蠓（oo-suî-á-báng）
+烏蚋仔（oo-suî-á）
+烏蛆（oo-tshi）
+烏蛟騰（Oo-kau-thîng）
+烏豆奶（oo-tāu-ling）
+烏豹（oo-pà）
+烏雨（oo hōo）
+烏雲失暗（oo-hûn sit-àm）
+烏雲罩霧（oo-hûn tà-bū）
+烏青積血（oo-tshenn-tshik-hueh | oo-tshinn-tshik-huih）
+烏青（oo-tshinn | oo-tshenn）
+烏面抐桮（oo-bīn-lā-pue）
+烏骨仔（oo-kut-á）
+烏鬼仔洞（Oo-kuí-á-tōng）
+無khàng暝日（bô-khàng mê-ji̍t）
+無亂滾笑（bô luān kún-tshiò）
 無兩人相親像 （bô nn̄g-lâng sio-tshin-tshiūnn）
+無勢（bô-sè）
+無喙水（bô-tshuì-tsuí）
+無喙齒的飛龍（bô-tshuì-khí ê pue-liông）
+無塊軟（bô-teh-nńg）
+無夠一喙（bô-kàu tsi̍t-tshuì）
+無夠窒喙空（bô-kàu that tshuì-khang）
+無夠體力（bô-kàu thé-la̍t）
+無天良上驚神經無正常（bô thian-liông siōng-kiann sîn-king bô tsìng-siông）
+無嫌著磨（bô hiâm tio̍h buâ）
+無對同（bô tuì-tâng）
+無張無持（bô-tiunn-bô-tî）
+無彩工（bô-tshái-kang）
+無影代（bô-iánn-tāi）
+無影槍揬死（bô-iánn tshiunn tu̍h-sí）
+無影無一隻（bô-iánn-bô-tsi̍t-tsiah）
+無影無跡（bô-iánn-bô-tsiah）
+無影無跡，講甲遐對同（bô-iánn-bô-tsiah kóng kah hiah tuì-tâng）
+無影無隻（bû-iánn-bû-tsiah）
+無影話（bô-iánn-uē）
+無得定（bô tit tiānn）
+無得無定（bô tit bô tiānn）
+無想欲（bô-siūnn-beh）
+無想著（bô-siūnn-tio̍h）
+無意中學（bô-ì-tiong-o̍h）
+無意無意（bô-ì bô-ì）
+無意神（bô-ì-sîn）
+無意識（bû-ì-sik）
+無愛閣再（bô ài koh-tsài）
+無損檢測（bû-sún kiám-tshik）
+無攝（bô-liap）
+無攬無拈（bô-lám-bô-ne）
+無救矣（bô kiù--ah）
+無敢定（bô-kánn-tīng）
+無敵（bû-ti̍k）
+無斬無截（bô-tsám-bô-tsue̍h）
+無極死禿頭（bû-ki̍k sí thut-thâu）
+無機化學（bû-ki huà-ha̍k）
+無歇（bô-hioh）
+無清無楚（bô-tshing-bô-tshó）
+無準算（bô tsún-sǹg）
+無滴無噹（bô-tih-bô-tang）
+無滿意（bô muá-ì）
+無潲姦（bô-siâu-kàn）
+無濫無濫（bô-lām-bô-lām）
+無濫（bô-lām）
+無照子午（bô tsiàu tsú-ngóo）
+無煩惱食穿（bô huân-ló tsia̍h-tshīng）
+無牌醫生（bô-pâi-i-sing）
+無稽之談（bû-khe-tsi-tâm）
+無穩是（bô-ún-sī）
+無第二句話（bô tē-jī-kù uē）
+無算擺（bô-suìnn-pái）
+無管無插（bô-kuán-bô-tshap）
+無精彩（bô-tsing-tshái）
+無精神（bô tsing-sîn）
+無緣無故（bô-iân bô-kòo）
+無興趣（bô hìng-tshù）
+無落種閣欲收成（bô lo̍h-tsìng koh-beh siu-sîng）
+無話無句（bô-uē-bô-kù）
+無話講茭荖（bô-uē kóng ka-ló）
+無話講（bô-uē-kóng）
+無認份（bô jīn-hūn）
+無講欲，也無講毋（bô-kóng beh iā bô-kóng m̄）
+無貓無鵁鴒（bô-niau bô-ka-līng）
+無賰（bô tshun）
+無路使（bô-lōo-sái）
+無路屎（bô-lōo-sái）
+無較縒（bô-khah-tsua̍h）
+無這个人（bô tsit ê lâng）
+無通（bô-thang）
+無道德錢（bô tō-tik tsînn）
+無錢講無話（bô-tsînn kóng bô-uē）
+無錢（bô tshînn | bô tsînn）
+無開門（bô khui-mn̂g）
+無閒刺刺（bô-îng-tshì-tshì）
+無閒刺鑿（bô-îng tshì-tsha̍k）
+無閒（bô-îng）
+無陸水錢（bô lio̍k-suí-tsînn | bô lio̍k-tsuí-tsînn）
+無電（bô-tiān）
+無順序（bô sūn-sī | bô sūn-sū）
+無頭摠（bô thâu-tsáng）
+無頭神證（bô-thâu-sîn-tsìng）
+無驚無亂（bô-kiann-bô-luān）
+無驚無惶（bô-kiann-bô-hiânn）
+無體無統（bô thé bô thóng）
+無魚，蝦嘛好（Bô hî, hê mā hó）
+無鵁鴒無草蜢（bô ka-līng bô tsháu-meh）
+無款（bô-siāng-khuán）
+焦便所（ta-piān-sóo）
+焦去（ta-khì）
+焦塗（ta-thôo）
+焦柴花（ta-tshâ-hue）
+焦氣機（ta-khì-ki）
+焦水期（ta-tsuí-kî）
+焦溪（Ta-khe）
+焦澀（ta-siap）
+焦燥地（ta-sò tē）
+焦糖（ta-thn̂g）
+焦花（ta-hue）
+焦麵（ta-mī）
+煮忝（tsú-thiám | tsí-thiám）
+煮海（thí-hái）
+煮熟（tsú-si̍k）
+煮食師傅（tsí-tsia̍h-sai-hū）
+煮食的（tsí-tsia̍h-ê）
+牌（pâi）
+牚腿（thènn-thuí）
+犀牛望月（sai-gû bāng-gue̍h | sai-gû bāng-ge̍h）
+犀牛照角（sai-gû tsiò kak）
+犀牛鳥（sai-gû-tsiáu）
+犀角金龜（sai-kak-kim-ku）
+猫空流籠（Bâ-khang-liû-lông）
+猫空（Bâ-khang）
+猴囡仔（kâu-gín-á）
+猴怪（Kâu-kuài）
+猴桃仔（kâu-thô-á）
+猴樹港（Kâu-tshiū-káng）
+猴毋爬（kâu m̄-pê）
+猴洞仔（Kâu-tōng-á）
+猴管豬哥，豬哥管猴（kâu kuán ti-ko ti-ko kuán kâu）
+猴繃（kâu-penn）
+猴齊天（Kâu Tsê-thian）
+猶太人（Iû-thài-lâng）
+猶搧（iá-sàm）
+猶是（iáu-sī）
+猶會使（iáu--ē-sái）
+猶未傀儡嗹囉（iáu-buē ka-lé-liân-lô）
+猶未咖哩囉（iáu-buē ka-lí-lô）
+猶未戲哼（iáu-buē hì hainn）
+猶未（iá-bē | iá-buē | iah-bē | iah-buē）
+猶的（iáu-ê）
+猶閣咧（iáu-koh teh）
+番仔掃帚（huan-á sàu-tshiú）
+番仔樓（huan-á-lâu）
+番仔正（huan-á tsiann）
+番仔火枝（huan-á-hué-ki | huan-á-hé-ki）
+番仔火盒仔（huan-á-hué a̍h-á）
+番仔火（huan-á-húe）
+番仔狗（huan-á-káu）
+番仔番薯（huan-á han-tsî | huan-á han-tsû）
+番仔過年（huan-á kuè-nî）
+番地（huan-tē）
+番社（Huan-siā）
+番薑（huan-kiunn）
+番薯丸（han-tsî-uân）
+番薯仔鳥（han-tsî-á-tsiáu）
+番薯圓（han-tsî-înn）
+番薯條（han-tsî-tiâu | han-tsû-tiâu）
+番薯片（han-tsî-phìnn）
+番薯球（han-tsî-kiû）
+番薯簽糋（han-tsî-tshiam-tsìnn | han-tsû-tshiam-tsìnn）
+番薯糋（han-tsî-tsìnn | han-tsû-tsìnn | hân-tsî-tsìnn）
+番薯葉（han-tsî-hio̍h | han-tsû-hio̍h）
+番貨（huan-huè）
+番路（Huan-lōo）
+番麥殼（huan-be̍h khak）
+番麥濃湯（huan-be̍h-lông-thng）
+番麥筍（huan-be̍h-sún）
+番麥米（huan-be̍h-bí）
+番麥粒（huan-be̍h-lia̍p）
+番麥羹湯（huan-be̍h-kenn-thng）
+番麥葉（huan-be̍h hio̍h）
+番黍（huan-sé）
+番鼎仔（huan-tiánn-á）
+番鼠（huan-tshí）
 百年修得共枕眠 （pik liân siu tik kiōng tsím biân）
 若拄著應聲蟲毋敢應的，你就用彼帖藥仔來治伊
 若閣拖落去毋趕緊共治予好，早慢會穢著你的某囝
@@ -1387,3 +2028,4 @@
 跤鬆手弄
 較贏十隻歇在樹 （khah-iânn tsa̍p-tsiah hioh tsāi tshiū）
 這馬症頭已經誠嚴重矣
+鳥鼠擗仔（niáu-tshí-phia̍k-á | niáu-tshú-phiak-á）

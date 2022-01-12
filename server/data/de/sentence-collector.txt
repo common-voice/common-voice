@@ -848,6 +848,7 @@ Alles nur aus Liebe, mein Schatz!
 Alles nur wegen der Zeitumstellung!
 Alles oder nichts!
 Alles schmeckt besser mit ganz viel Käse.
+Alles verpixelt.
 Alles vor der vierten Auflage ist nicht zu empfehlen.
 Alles war voller Qualm.
 Alles was Sie sagen, kann gegen Sie verwendet werden.
@@ -2814,6 +2815,7 @@ Bert stört sich an der Hecke seines Nachbarn.
 Berta will gewinnen.
 Bertold fühlt sich moralisch verpflichtet, den geringen Fleischkonsum seiner vegetarischen Schwester auszugleichen.
 Beruhigen Sie sich wieder.
+Bescheid.
 Beschreiben Sie Ihr Anliegen kurz und bündig.
 Beschreiben Sie uns, was passiert ist!
 Beschwerden von besorgten Bürgern sind an der Tagesordnung.
@@ -3247,6 +3249,7 @@ Brauchen wir Wurst oder Käse?
 Brauchen wir einen antivirologischen Schutzwall?
 Brauchst du Unterstützung bei deinem Umzug?
 Brauchst du dabei Hilfe?
+Brauchst du ein Ladegerät?
 Brauchst du ein Taschentuch?
 Brauchst du es noch?
 Brauchst du noch etwas?
@@ -3461,6 +3464,7 @@ Da haben die Tempelritter keine Chance.
 Da haben die sich damals gegenseitig die Schädel eingehauen.
 Da haben einige kluge Frauen mit dem richtigen Geschäftsmodell viel Geld verdient.
 Da haben sie den Finnen aber ordentlich einen eingeschenkt!
+Da haben sie ein gutes Ei gelegt.
 Da haben sie ihn auf dem falschen Fuß erwischt.
 Da haben wir den Bandsalat!
 Da haben wir den Übeltäter.
@@ -3568,8 +3572,10 @@ Da kommt man ja zu nichts anderem mehr.
 Da kommt mir ja gleich die Galle hoch.
 Da kommt noch einer von hinten!
 Da konnte wieder einer seinen Mund nicht halten.
+Da kriege ich doch Plaque bei solchen "Gesprächen".
 Da kriege ich doch Puls bei der.
 Da kriegst du kein Gehalt, bloß eine Aufwandsentschädigung.
+Da kriegt sie einen gewischt.
 Da kräht kein Hahn nach.
 Da können wir alle zusammen stolz drauf sein!
 Da können wir zusammen Karaoke singen.
@@ -3672,6 +3678,7 @@ Da wirft sie den Hintern herum.
 Da wo Bibi ist, da herrscht das Chaos.
 Da wollte Franziska aber noch ein Wörtchen mitreden.
 Da wollte er sich noch nicht festlegen.
+Da wundert es mich nicht, dass es zu einer Verstopfung kam.
 Da wurde aus politischen Gründen eine kontraproduktive Entscheidung getroffen.
 Da wurde sich aber nicht gut abgesprochen.
 Da wusste ich dann auch nicht mehr, wie ich ihn überzeugen sollte.
@@ -5196,6 +5203,7 @@ Das ist der Stand der Technik.
 Das ist der amerikanische Lebenstraum.
 Das ist der beste Hotdog der Stadt.
 Das ist der sogenannte "Stromsparmodus", der Ihre Stromrechnung schont.
+Das ist der versprochene Rückruf.
 Das ist der weniger schöne Teil der Strecke.
 Das ist deutsches Fabrikat, nicht wahr?
 Das ist die Deichsel des Großen Wagens.
@@ -6033,6 +6041,7 @@ Dein Hund hat wohl Arthrose.
 Dein Hund schnarcht!
 Dein Kontingent ist fast erschöpft.
 Dein Kostüm wird auf der Party ein echter Hingucker sein.
+Dein Kunde bittet um Rückruf.
 Dein Mixer macht einen Höllenlärm!
 Dein Name ist dort falsch geschrieben.
 Dein Namensgedächtnis möchte ich haben.
@@ -6398,6 +6407,7 @@ Der Ausbau muß den Gebirgsverhältnissen entsprechen.
 Der Ausdruck "nach bestem Wissen und Gewissen" wird oft falsch verwendet
 Der Ausdruck "nach bestem Wissen und Gewissen" wird oft falsch verwendet.
 Der Ausgang des Experiments ist ungewiss.
+Der Auslieferungsfahrer hat endlich Wochenende.
 Der Ausläufer wird tangential angelegt.
 Der Ausschlag ist immer rechts neben dem Mund an der Wange.
 Der Ausstieg befindet sich heute auf der rechten Seite.
@@ -6437,6 +6447,8 @@ Der Bergsteiger hat Vorfahrt.
 Der Bericht listet gravierende Mängel auf.
 Der Bericht über die neuesten Erkenntnisse lässt aufhorchen.
 Der Berliner Fernsehturm am Alexanderplatz wird auch Telespagel oder langer Lulatsch genannt.
+Der Bescheid ist eingetroffen.
+Der Bescheid wurde persönlich übergeben.
 Der Besuch im Museum hat sich aber trotzdem gelohnt.
 Der Besuch ist da.
 Der Betonarbeiter hat seine Tochter Zementa genannt.
@@ -6568,6 +6580,7 @@ Der Felsenspringer ist ein Urinsekt.
 Der Fernseher hat sich selbst ausgeschaltet nachdem ich einige Stunden lang Netflix geschaut habe.
 Der Fertigungsprozess wurde auf zweiundzwanzig Nanometer geschrumpft.
 Der Film gestern war echt lustig.
+Der Film ist fünfzehn Minuten kürzer, als die Originalversion.
 Der Film war leicht schräg.
 Der Film war so lange, dass mein Fernseher sich selbst ausgeschaltet hat.
 Der Finanzminister entschied sich für eine weitere Haushaltshilfe, die alle Bedenken vom Tisch wischt.
@@ -7280,6 +7293,7 @@ Der fährt nach vorne.
 Der fünfunddreißigste Mai ist ein guter Tag, um den Äquator zu schrubben.
 Der ganz normale Wahnsinn.
 Der ganze Batzen rattert in nur sieben Minuten durch.
+Der ganze Film wurde zerschnitten.
 Der gaukelt mir nichts vor.
 Der geheime Code lautet Romeo Oskar Foxtrott Lima.
 Der geht zum Lachen in den Keller.
@@ -8909,6 +8923,7 @@ Die erwachsenen Schwäne sind weiß, die kleinen grau und schlechter zu sehen.
 Die externe Festplatte hat ein weißes Gehäuse.
 Die extreme Vernetzung wird uns noch teuer zu stehen kommen.
 Die fahren hier alle wie die Bekloppten.
+Die faire Computermaus.
 Die falsche Größe wäre ein Reklamationsgrund.
 Die falschen Medikamente eingenommen?
 Die falschen Schuhe anzuhaben kann unangenehme Folgen haben.
@@ -8917,6 +8932,7 @@ Die fehlenden Quellenangaben reiche ich nach.
 Die feinen Unterschiede muss man heraushören.
 Die finden schnell einmal, dass etwas richtig klingt.
 Die flippen dann alle aus. Und W-Lan geht dann ja auch nicht.
+Die folgende Szene wurde herausgeschnitten.
 Die frankophonen Gebiete.
 Die freie Demokratische Partei mit ihrem Vorsitzenden Herrn Lindner.
 Die fährt mit Ihrem Tussenpanzer zum nächsten Briefkasten, und erzählt anderen etwas von Umweltschutz.
@@ -10140,6 +10156,7 @@ Durch die Überdüngung der Äcker wird sich unser Trinkwasser verteuern.
 Durch die Übersteuerung kommen zusätzliche Obertöne ins Frequenzspektrum.
 Durch dieses Manöver konnte Anke sein Interesse an ihr wecken.
 Durch ein Loch in der Mitte der Zeltdecke zieht der Rauch des Feuers ab.
+Durch eine Verstopfung wird das Abwasser der Nachbarn in meine Spüle hochgedrückt.
 Durch eine simple Vorschrift ließe sich der Ertrag deckeln.
 Durch einen Fehler wurde das Gehalt doppelt überwiesen.
 Durch einen Hackerangriff auf Ampelanlagen kommt der Verkehr zum Erliegen.
@@ -10588,6 +10605,7 @@ Ein berauschter Pirat hat sie auf einer einsamen Insel geschrieben.
 Ein bestimmtes Lebensmittel aus dem Kühlschrank scheint euch alle besonders zu interessieren.
 Ein billiger Trick.
 Ein bischen auf männliche Genitalien fixiert, wie?
+Ein bischen gaga?
 Ein bischen nervös, wie?
 Ein bischen.
 Ein bisschen Anonymität und Abstand finde ich nicht schlecht.
@@ -11137,6 +11155,7 @@ Einige Kollegen nannten ihn hinter der vorgehaltenen Hand "Propagandaminister".
 Einige Leute im Fachschaftsrat sammeln fleißig Altklausuren.
 Einige Mitglieder der Tippgemeinschaft fühlen sich hinters Licht geführt.
 Einige Mutige preschen voran und zeigen den anderen, wie es geht.
+Einige Nachbarn scheinen ihre Essensreste über das Küchenabwasser zu entsorgen.
 Einige Opas haben schon ihr künstliches Gebiss verloren.
 Einige Schachfiguren lassen sich als Rotationskörper modellieren.
 Einige Schüler verfolgen den Unterricht aufmerksam, andere dösen vor sich hin.
@@ -12650,6 +12669,7 @@ Fahrschulen sollten ihren Schülern beibringen, was Kontaktschleifen sind und wi
 Fahrzeuge mit Sirene haben Sonderrechte.
 Fail!
 Fair und transparent!
+Faire Elektronik?
 Fairerweise muss man sagen, dass manch ein Fortschritt auch ein gesellschaftlicher Rückschritt war.
 Fake News sind auf dem Vormarsch.
 Falk geht viel zu voreingenommen an die Sache heran.
@@ -13712,6 +13732,7 @@ Gestern standen wir vor dem Abgrund, heute sind wir einen Schritt weiter.
 Gestern war ich auf dem Trödelmarkt.
 Gestern war ich bei Tante Erna zu Kaffee und Kuchen.
 Gestern war ich beim Zirkeltraining.
+Gestern war ich sowas von geladen!
 Gestern war sie noch im Kleingarten und hat Unkraut gejätet.
 Gestern waren sie doch noch hier.
 Gestern wurde Edwins Urne in einem Friedwald beigesetzt.
@@ -14471,6 +14492,7 @@ Hast du gesehen ob dort was explodiert ist?
 Hast du gesehen, wie ich die Wespe im Flug erschlagen habe?
 Hast du gesehen, wie sie aus dem Fenster geklettert ist?
 Hast du gewusst, dass Whitney Houstons Tochter auch schon tot ist?
+Hast du groẞ gemacht?
 Hast du heute Abend oder am Wochenende schon etwas vor?
 Hast du heute Nachmittag Zeit?
 Hast du heute Semmeln gebacken?
@@ -14492,6 +14514,7 @@ Hast du meinen Locher gesehen?
 Hast du mich gerade fett genannt?
 Hast du mich verstanden?
 Hast du mir eigentlich das Buch zurückgegeben, das ich dir mal geliehen habe?
+Hast du mit ihm einen Rückruf abgesprochen?
 Hast du neben der Duschkabine geduscht oder warum ist der Boden so nass?
 Hast du nicht gehört?
 Hast du noch ein Problem?
@@ -14523,6 +14546,7 @@ Hast du schon mal selber Brot gebacken?
 Hast du schon wieder von den blauen Pillen genascht?
 Hast du schon über Abtreibung nachgedacht?
 Hast du seinen Kanal auf YouTube abonniert?
+Hast du sie noch nicht abgehört?
 Hast du sonst noch was vor?
 Hast du vergessen mir ihre Grüße auszurichten?
 Hast du viel zu tun?
@@ -14596,6 +14620,7 @@ Hat er blondes oder schwarzes Haar?
 Hat er den Verstand verloren?
 Hat er die Lampen wieder an?
 Hat er nicht gesagt.
+Hat er schon Bescheid gesagt?
 Hat er schon ein Bäuerchen gemacht?
 Hat er seine Anekdote aus der Cocktailbar schon erzählt?
 Hat er seinen Gartenzaun nicht sowieso an der falschen Stelle gezogen?
@@ -14642,6 +14667,7 @@ Hat sich dir was im Kopf verschoben?
 Hat sie euch jemals etwas zum Geburtstag geschenkt?
 Hat sie euch wirklich Hausaufgaben gegeben?
 Hat sie ihr heutiges Tageswerk beendet?
+Hat sie schon Bescheid gesagt?
 Hat sie wenigstens geschmeckt?
 Hat sonst noch jemand das gleiche Problem?
 Hat wieder keiner geklatscht, als ich ins Büro kam
@@ -14886,6 +14912,7 @@ Heute muss es immer gleich eine App sein.
 Heute muss ich neue Bettwäsche aufziehen.
 Heute muss ich wieder was für die Schule machen.
 Heute muss man anerkennen, dass Karola ihrer Zeit einfach voraus war.
+Heute nicht mehr.
 Heute preise ich das Schicksal, dass ich in jenem Augenblick nicht fotografiert worden bin.
 Heute schon Alkoholikergeräusche wahrgenommen?
 Heute schon deine Sonnengruß-Routine gemacht?
@@ -16007,6 +16034,7 @@ Ich habe ein Gamepad an den Computer angeschlossen.
 Ich habe ein Geräusch gehört.
 Ich habe eine Decke mitgebracht und wir setzen uns unter einen Baum.
 Ich habe eine Lösung und suche ein passendes Problem.
+Ich habe eine Nachricht auf deiner Mobilbox hinterlassen.
 Ich habe eine Party mit meinen Freunden.
 Ich habe eine andere Definition von Alkoholproblem.
 Ich habe eine frohe Botschaft zu verkünden!
@@ -16622,6 +16650,7 @@ Ich rufe besser die Feuerwehr.
 Ich rufe die Auskunft heute früher als sonst an.
 Ich rufe oft meinen Vater an.
 Ich sage "Oh".
+Ich sage dir Bescheid, wenn du drücken kannst.
 Ich sage dir mein Passwort nicht.
 Ich sage dir, Schorsch fährt voll auf dich ab!
 Ich sage dir, er weiß einfach alles.
@@ -16666,6 +16695,7 @@ Ich sehe dich eher als Bruder und nicht als meinen Lebensgefährten.
 Ich sehe dich, du kleiner Schleimbeutel.
 Ich sehe es mir gleich an.
 Ich sehe etwas blass aus, nicht?
+Ich sehe gar nichts.
 Ich sehe immer nur die sich bewegenden Lippen der Pressetussi.
 Ich sehe kein Leerzeichen.
 Ich sehe keinen Nutzen, da dabei zu sein.
@@ -18615,6 +18645,7 @@ Ja, das wird mir häufig gesagt.
 Ja, das wundert mich nicht!
 Ja, das wächst 'ne gewisse Zeit.
 Ja, das wäre sehr sinnvoll.
+Ja, das wäre super.
 Ja, dass finde ich auch
 Ja, dazu stehe ich.
 Ja, der Witz ist gut! Er hat nur einen Moment zum Zünden gebraucht.
@@ -19073,6 +19104,7 @@ Jetzt hupe doch einmal!
 Jetzt hör endlich auf Trübsal zu blasen!
 Jetzt höre ich mich schon an wie mein Alter!
 Jetzt höre sich das einmal einer an!
+Jetzt höre sich das einmal einer an.
 Jetzt höre sich die einer einmal an.
 Jetzt höre sich einer den Jaust an!
 Jetzt höre sich einer den Stuss von dem Jaust an.
@@ -21538,6 +21570,7 @@ Mein Jüngster hat sein Hobby zum Beruf gemacht.
 Mein Kandidat ist nicht mehr im Rennen.
 Mein Kennwort lautet "Kennwort".
 Mein Kind, im wahren Leben schenkt dir niemand etwas.
+Mein Kollege hat Ihnen keinen Rückruf angeboten?
 Mein Kopfhörer hat sich gerade verabschiedet.
 Mein Korkenzieher funktioniert hervorragend.
 Mein Kühlschrank ist kaputt.
@@ -21943,6 +21976,7 @@ Mir schmecken weder Pilze noch Tomaten.
 Mir schmeckt Schokoladeneis am besten.
 Mir sind da leider die Hände gebunden.
 Mir soll es recht sein.
+Mir stehen die Haare zu Berge.
 Mir tut immer noch der Kopf weh von gestern.
 Mir tut schon die Hand weh.
 Mir war klar, dass er sich nicht trauen würde.
@@ -22088,6 +22122,7 @@ Mit dem Durchbrechen der Schallmauer steigt der Treibstoffverbrauch schlagartig 
 Mit dem Erfolg im Rücken stolzierte er zu seinem neuen Dienstwagen.
 Mit dem Fahrrad zu pendeln hält fit.
 Mit dem Finger malt er ein männliches Glied auf die beschlagene Fensterscheibe.
+Mit dem Finger vor der Linse werden die Videos nicht so gut.
 Mit dem Finger zeigt es auf das beeindruckende Vehikel.
 Mit dem Geländewagen geht es durch unwegsames Gelände.
 Mit dem Gesocks habe ich nichts zu schaffen!
@@ -22501,6 +22536,7 @@ Mutti stand unter Schock.
 Muttis Bester musste sich einen Bart wachsen lassen.
 Muß das denn heute noch fertig werden?
 Muß die immer so brüllen?
+Mußt du groß oder klein?
 Mädchen schminken sich, um älter auszusehen.
 Mädchen, was machst du da?
 Mängel sollten angesprochen, aber nicht darauf herumgeritten werden.
@@ -22678,6 +22714,7 @@ Na, wer weiß, was ich meine?
 Na, wie geht es euch?
 Na, wie hängt er?
 Na, wie wär's denn mit uns beiden?
+Na, wieder am schauen?
 Nabenschaltung und Nabendynamo werden nicht mit R geschrieben.
 Nabenschaltungen lassen einen auch ohne Treten den Gang wechseln.
 Nach Absetzen des Medikaments war Uroma wie ausgewechselt.
@@ -23115,6 +23152,7 @@ Nein, lass einmal, echt nicht.
 Nein, lieber nicht!
 Nein, machen Sie mir nichts ins Haar, das liebe ich nicht.
 Nein, man sollte dazu sitzen.
+Nein, mein Akku ist leer.
 Nein, meins ist es nicht.
 Nein, musst du nicht.
 Nein, nein! So geht das nicht. Drehen Sie wieder um!
@@ -25356,6 +25394,7 @@ Sehr bemerkenswert!
 Sehr deliziös!
 Sehr deliziös.
 Sehr einfallsreich!
+Sehr elektrisierend.
 Sehr geehrte Fahrgäste, unser nächster Halt wäre Wolfsburg gewesen.
 Sehr gnädig!
 Sehr gut, die Leute waren begeistert.
@@ -26365,6 +26404,7 @@ Sind Sie schon dahinter gekommen, wie Tamara in echt heißt?
 Sind Sie schon einmal mit Kinderwagen am Rhein entlang gejoggt?
 Sind Sie schon im Bett?
 Sind Sie selbstständig oder sind Sie angestellt?
+Sind Sie sicher, dass wir Sie ab acht Uhr zurückrufen sollen? Oder lieber später?
 Sind Sie stolz, für Ihre Firma zu arbeiten?
 Sind Sie um diese Zeit schon müde?
 Sind Sie voll einsatzbereit?
@@ -27027,6 +27067,7 @@ Sonnenblumenöl schmeckt am besten zu Fleischgerichten oder Bratkartoffeln.
 Sonntags belästigt man seine Nachbarn nicht mit Lärm.
 Sonntags gehen der Labrador und der Kanarienvogel gemeinsam im Wald spazieren.
 Sonntags haben die Geschäfte dann aber zu.
+Sonntags wird nicht angeliefert.
 Sonst bemerken die noch was.
 Sonst gibt es nichts zu beanstanden.
 Sonst hat er ja nichts zu tun.
@@ -29382,6 +29423,7 @@ Wann kommst du?
 Wann kommt Papa wieder von der Arbeit?
 Wann kommt das Paket an?
 Wann kommt dein Freund wieder?
+Wann kommt die Ladung an?
 Wann kommt die Lieferung endlich?
 Wann kommt die vierte Corona Impfung?
 Wann lassen wir die Katze aus Sack?
@@ -29409,6 +29451,7 @@ Wann und weswegen wurde denn das Grundgesetz letztmalig geändert?
 Wann war Marius das letzte Mal online?
 Wann war noch mal die Bewerbungsfrist?
 Wann werde ich endlich als charakterlich ungeeignet eingestuft?
+Wann werden Sie zurückrufen?
 Wann werden die Wartungsarbeiten abgeschlossen sein?
 Wann werden die gelben Säcke abgeholt?
 Wann werden endlich mehr Power-to-Gas-Anlagen errichtet?
@@ -30557,6 +30600,7 @@ Welcher erlebnisorientierten Jugendkultur gehört er denn an?
 Welcher europäische Abgeordnete hat das Folgende gesagt?
 Welcher genau?
 Welcher ist es?
+Welches "NitroPad" gefällt dir?
 Welches Auto fährst du?
 Welches Betriebssystem ist am wenigsten geschwätzig?
 Welches Brot hätten Sie gern?
@@ -31392,6 +31436,7 @@ Wer will sie neu anlernen?
 Wer will, findet Wege.
 Wer wird als Nächstes zum König ernannt?
 Wer wird die neue Kollegin anlernen?
+Wer wird mich zurückrufen?
 Wer wird schon gerne auf seinen Extremismus reduziert?
 Wer wohnt in einer Ananas ganz tief im Meer?
 Wer wollte nicht schon einmal seinen eigenen Vergnügungspark eröffnen?
@@ -31432,6 +31477,7 @@ Werden Nicken und Kopfschütteln in jeder Kultur verstanden?
 Werden Sie des Morgens geweckt, oder wachen Sie von selbst auf?
 Werden Sie doch Kassiererin und probieren Sie es aus!
 Werden Sie nicht frech!
+Werden Sie zurückrufen?
 Werden an der Uni eigentlich nur Fachidioten herangezüchtet?
 Werden die Daten gelöscht oder nur als gelöscht markiert?
 Werden die Holzreste einfach verbrannt?
@@ -32233,6 +32279,7 @@ Wieso ist eigentlich vorher kein Allergiker darauf gekommen?
 Wieso ist es heute nur so kalt?
 Wieso ist es hier so dunkel?
 Wieso ist es so schwierig, Zahlwörter korrekt auszuschreiben?
+Wieso ist gerade jetzt die Kamera beschlagen?
 Wieso ist schon wieder keiner anspielbar?
 Wieso ist sie nicht in ihrem Zimmer?
 Wieso ist sie trotzdem noch da?
