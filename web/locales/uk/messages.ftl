@@ -1405,8 +1405,13 @@ sc-review-form-source = Джерело: { $sentenceSource }
 sc-review-form-button-reject = Відхилити
 sc-review-form-button-skip = Пропустити
 sc-review-form-button-approve = Затвердити
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Ви також можете використовувати комбінації клавіш: Y для схвалення, N для відхилення, S для пропуску
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Т
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = Н
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = П
+sc-review-form-keyboard-usage-custom = Ви також можете використовувати комбінації клавіш: { sc-review-form-button-approve-shortcut } для схвалення, { sc-review-form-button-reject-shortcut } для відхилення, { sc-review-form-button-skip-shortcut }, щоб пропустити
 sc-review-form-button-submit =
     .submitText = Завершити перевірку
 # Variables:
