@@ -68,6 +68,7 @@ fy-NL = Frisiska
 ga-IE = Irländska
 gl = Galiciska
 gn = Guarani
+gom = Goa-konkani
 ha = Hausa
 he = Hebreiska
 hi = Hindi
@@ -93,6 +94,7 @@ ki = Kikuyu
 kk = Kazakstanska
 km = Khmer
 kmr = Kurmanji kurdiska
+knn = Konkani (devanagari)
 ko = Koreanska
 kpv = Komi-syrjänska
 kw = Korniska
@@ -1295,8 +1297,11 @@ sc-review-form-source = Källa: { $sentenceSource }
 sc-review-form-button-reject = Avvisa
 sc-review-form-button-skip = Hoppa över
 sc-review-form-button-approve = Godkänn
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Du kan också använda tangentbordsgenvägar: Y för att godkänna, N för att avvisa, S för att hoppa över
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = J
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = H
+sc-review-form-keyboard-usage-custom = Du kan också använda kortkommandon: { sc-review-form-button-approve-shortcut } för att godkänna, { sc-review-form-button-reject-shortcut } för att avvisa, { sc-review-form-button-skip-shortcut } för att hoppa över
 sc-review-form-button-submit =
     .submitText = Avsluta granskning
 # Variables:
