@@ -24,7 +24,7 @@
     "maintenance"
   ],
   "engines": {
-    "node": ">=10.17.0"
+    "node": ">=12"
   },
   "resolutions": {
     "browserslist": "^4.16.5",
