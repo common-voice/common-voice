@@ -1361,8 +1361,13 @@ sc-review-form-source = Quelle: { $sentenceSource }
 sc-review-form-button-reject = Ablehnen
 sc-review-form-button-skip = Überspringen
 sc-review-form-button-approve = Genehmigen
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Sie können auch Tastenkombinationen verwenden: Y zum Genehmigen, N zum Ablehnen, S zum Überspringen
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = G
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = A
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = U
+sc-review-form-keyboard-usage-custom = Sie können auch Tastenkombinationen verwenden: { sc-review-form-button-approve-shortcut } zum Genehmigen, { sc-review-form-button-reject-shortcut } zum Ablehnen, { sc-review-form-button-skip-shortcut } zum Überspringen
 sc-review-form-button-submit =
     .submitText = Bewertung abschließen
 # Variables:
