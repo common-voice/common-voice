@@ -1049,6 +1049,7 @@ sc-howto-addlang-text = Emoñepyrũ rire ne tembiapo, eiporavokuaa ñe’ẽngu�
 sc-howto-addsen-title = Embojuaju ñe’ẽjuaju pyahu
 sc-howto-cite-title = Mba’éicha emombe’úta
 sc-howto-cite-item-1 = Emoingekuaa ñanduti renda, techapyrã, "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Eipurukuaa ñembokatupyryrã rehegua, techapyrã, oipuruháicha Harvard "Mozilla (2021) Common Voice. Eipurukuaa https://commonvoice.mozilla.org/-pe (Ñeporandu: 15 jasyporundy 2021)"
 sc-howto-review-title = Ehechajey ñe’ẽjuaju
 sc-howto-review-subtitle = Ehecháke ñe’ẽjuaju orekova’erãha katuete ko’ã mba’e:
 sc-howto-review-criteria-1 = Pe ñe’ẽjuaju ojehaiva’erã hekopete.
@@ -1093,6 +1094,10 @@ sc-stats-title = Papapy’atygua
 sc-stats-last-update = Ñembohekopyahu: { $lastUpdate }
 sc-stats-last-update-never = Ñembohekopyahu: araka’eve
 sc-stats-updating = Hekopyahuhína…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = ¡Common Voice Sentence Collector ombyaty { $sentenceCount } ñe’ẽjuaju { $languageCount } ñe’ẽnguéra!
 
 ## ADD
 
@@ -1131,6 +1136,7 @@ sc-add-err-failed =
        *[other] ñe’ẽjuaju ojavýva ñe’ẽjuaju ojavýva
     }
 sc-add-err-submission = Ojavy ñemondo
+sc-add-lang-process-notice = Ne ñe’ẽ ndaipóriramo ko’ápe, ejerurekuaa <languageProcessLink>ko tapereko</languageProcessLink> rupive.
 
 ## ADD SENTENCES CONFIRMATION
 
