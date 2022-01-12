@@ -1312,6 +1312,7 @@ sc-review-form-button-approve-shortcut = H
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = P
+sc-review-form-keyboard-usage-custom = Móžeće tež tastowe skrótšenki wužiwać: { sc-review-form-button-approve-shortcut }, zo byšće schwalił, { sc-review-form-button-reject-shortcut }, zo byšće wotpokazał, { sc-review-form-button-skip-shortcut }, zo byšće přeskočił
 sc-review-form-button-submit =
     .submitText = Pohódnoćenje dokónčić
 # Variables:
