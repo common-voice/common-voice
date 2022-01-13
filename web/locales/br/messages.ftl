@@ -152,6 +152,7 @@ te = Telougoueg
 tg = Tadjikeg
 th = Thailandeg
 ti = Tigrinya
+tig = Tigreeg
 tl = Tagalogeg
 tr = Turkeg
 tt = Tatareg
@@ -967,3 +968,56 @@ contribution-reader-effects-title = Efedoù al lenner
 contribution-just-unsure-title = Etre daou soñj?
 see-more = <chevron></chevron>Gwelet muioc’h
 see-less = <chevron></chevron>Gwelet nebeutoc’h
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
