@@ -1263,12 +1263,16 @@ sc-criteria-item-1 = A frase deve ser escrita corretamente.
 sc-criteria-item-2 = A frase deve estar gramaticalmente correta.
 sc-criteria-item-3 = Deve ser possível pronunciar a frase.
 sc-criteria-item-4 = Se a frase atender aos critérios, clique no botão &quot;Aprovar&quot; à direita.
+sc-criteria-item-5-2 = Se a frase não atender aos critérios acima, clique no botão &quot;Rejeitar&quot; à esquerda. Se não tiver certeza sobre a frase, você também pode pular e passar para a próxima.
+sc-criteria-item-6 = Se você não tiver mais frases para revisar, ajude-nos a coletar mais frases!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Você não selecionou nenhum idioma. Vá em seu <profileLink>Perfil</profileLink> para selecionar idiomas.
 sc-review-title = Revisar frases
 sc-review-loading = Carregando frases…
 sc-review-select-language = Selecione um idioma para revisar frases.
+sc-review-no-sentences = Nenhuma frase para revisar. <addLink>Adicione mais frases agora!</addLink>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Origem: { $sentenceSource }
