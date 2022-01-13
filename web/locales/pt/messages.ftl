@@ -1143,10 +1143,29 @@ sc-add-lang-could-not-add = Não foi possível adicionar idioma
 sc-add-lang-sec-label = Adicionar um idioma em que você quer contribuir
 sc-add-lang-sec-button = Adicionar idioma
 sc-add-err-unexpected = Resposta não esperada retornada do servidor
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Frases enviadas. Nenhuma frase foi rejeitada como duplicata.
+        [one] Frases enviadas. { $duplicates } frase foi rejeitada como duplicata.
+       *[other] Frases enviadas. { $duplicates } frases foram rejeitadas como duplicatas.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Nenhuma frase falhou
+        [one] 1 frase falhou
+       *[other] { $sentences } frases falharam
+    }
 sc-add-err-submission = Erro de envio
+sc-add-lang-process-notice = Se o seu idioma não estiver listado aqui, você pode solicitar através <languageProcessLink>deste processo</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Frases não enviadas, tem certeza que quer sair?
 sc-confirm-sentences-title = Confirmar novas frases
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
@@ -1165,6 +1184,17 @@ sc-confirm-already-reviewed =
         [one] 1 frase já foi revisada. Bom trabalho!
        *[other] { $countOfReviewed } frases já foram revisadas. Bom trabalho!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Nenhuma frase pronta para ser enviada!
+        [one] 1 frase pronta para ser enviada!
+       *[other] { $readyCount } frases prontas para ser enviadas!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } frases não foram revisadas. Se quiser, você também pode revisar suas frases agora, antes de enviar.
 sc-confirm-button-text = Confirmar
 
 ## LANGUAGE INFO
