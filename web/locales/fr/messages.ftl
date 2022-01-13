@@ -68,6 +68,7 @@ fy-NL = Frison
 ga-IE = Irlandais
 gl = Galicien
 gn = Guarani
+gom = Goan Konkani
 ha = Haoussa
 he = Hébreu
 hi = Hindi
@@ -93,6 +94,7 @@ ki = Kikuyu
 kk = Kazakh
 km = Khmer
 kmr = Kurmandji kurde
+knn = Konkani (devanagari)
 ko = Coréen
 kpv = Komi-zyriène
 kw = Cornique
@@ -1305,8 +1307,13 @@ sc-review-form-source = Source : { $sentenceSource }
 sc-review-form-button-reject = Rejeter
 sc-review-form-button-skip = Passer
 sc-review-form-button-approve = Approuver
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Vous pouvez également utiliser les raccourcis clavier : Y pour approuver, N pour rejeter, S pour passer
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = O
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = P
+sc-review-form-keyboard-usage-custom = Vous pouvez également utiliser des raccourcis clavier : { sc-review-form-button-approve-shortcut } pour approuver, { sc-review-form-button-reject-shortcut } pour rejeter, { sc-review-form-button-skip-shortcut } pour passer
 sc-review-form-button-submit =
     .submitText = Terminer la vérification
 # Variables:
