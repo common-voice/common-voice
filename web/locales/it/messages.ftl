@@ -1284,8 +1284,6 @@ sc-review-form-source = Fonte: { $sentenceSource }
 sc-review-form-button-reject = Rifiuta
 sc-review-form-button-skip = Salta
 sc-review-form-button-approve = Approva
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Puoi usare anche le scorciatoie da tastiera: Y per Approvare, N per Rifiutare, S per Saltare.
 sc-review-form-button-submit =
     .submitText = Termina la convalida
 # Variables:
