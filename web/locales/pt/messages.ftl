@@ -1074,10 +1074,13 @@ sc-howto-findpd-tips-1 = As melhores fontes onde que você pode procurar são po
 sc-howto-findpd-tips-2 = Procedimentos governamentais, livros e artigos também são ótimos, mas como o texto tende a ser um pouco mais formal, tem menor prioridade.
 sc-howto-findpd-tips-3 = Infelizmente ainda não podemos ter artigos da Wikimedia. Então não copie e cole de lá.
 sc-howto-findpd-subtitle-2 = Faça parcerias com organizações ou indivíduos locais
+sc-howto-findpd-partner-1 = Existem muitas organizações públicas que podem querer colaborar e já têm muitos textos que podem doar como domínio público. Entre em contato com universidades locais, governos e organizações de código aberto para conversar sobre o projeto e pedir ajuda.
+sc-howto-findpd-partner-2 = Linguistas especialistas também podem ajudar. Tente entrar em contato com universidades locais de línguas (professores e alunos) e veja se eles podem ajudar a reunir um conjunto diversificado de frases com sons diferentes em seu idioma.
 
 ## MY SENTENCES
 
 sc-my-title = Minhas frases
+sc-my-description = Esta página fornece uma visão geral de todas as suas frases enviadas. Você também pode excluir frases já enviadas, se necessário, marcando a caixa de seleção ao lado e clicando em &quot;Excluir frases selecionadas&quot; no final. Somente remova frases se for absolutamente necessário, por exemplo, se você só perceber depois o fato de que uma frase é protegida por direitos autorais.
 sc-my-loading = Carregando suas frases…
 sc-my-err-fetching = Erro ao buscar suas frases. Tente novamente.
 sc-my-no-sentences = Nenhuma frase encontrada!
@@ -1106,6 +1109,10 @@ sc-stats-title = Estatisticas
 sc-stats-last-update = Última atualização: { $lastUpdate }
 sc-stats-last-update-never = Última atualização: nunca
 sc-stats-updating = Atualizando…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = O coletor de frases do Common Voice coletou { $sentenceCount } frases em { $languageCount } idiomas!
 
 ## ADD
 
@@ -1122,8 +1129,13 @@ sc-submit-add-sentences = Adicionar frases de <wikipediaLink>domínio público</
 sc-submit-ph-one-per-line =
     .placeholder = Uma frase por linha
 sc-submit-from-where = De onde são essas frases de <wikipediaLink>domínio público</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Leia nosso guia de como fazer, caso não tenha certeza de como atribuir
+sc-submit-confirm = Confirmo que estas frases são de <wikipediaLink>domínio público</wikipediaLink> e tenho permissão para enviar.
 sc-submit-button =
     .submitText = Enviar
+sc-submit-filtered = Frases filtradas devido a falhas nos requisitos (favor enviar versões corrigidas como novas frases):
+sc-submit-guidelines = Verifique as <howToLink>diretrizes</howToLink>.
 
 ## ADD LANGUAGE
 
