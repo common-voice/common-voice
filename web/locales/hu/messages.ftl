@@ -1320,8 +1320,13 @@ sc-review-form-source = Forrás: { $sentenceSource }
 sc-review-form-button-reject = Elutasítás
 sc-review-form-button-skip = Kihagyás
 sc-review-form-button-approve = Jóváhagyás
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Használhatja a gyorsbillentyűket is: Y a jóváhagyáshoz, N az elutasításhoz, S a kihagyáshoz
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = I
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = K
+sc-review-form-keyboard-usage-custom = Billentyűparancsokat is használhat: { sc-review-form-button-approve-shortcut } a jóváhagyáshoz, { sc-review-form-button-reject-shortcut } az elutasításhoz, { sc-review-form-button-skip-shortcut } a kihagyáshoz
 sc-review-form-button-submit =
     .submitText = Ellenőrzés befejezése
 # Variables:
