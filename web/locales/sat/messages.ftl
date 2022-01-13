@@ -68,6 +68,7 @@ fy-NL = ᱯᱷᱤᱨᱤᱥᱤᱭᱟᱱ
 ga-IE = ᱟᱭᱨᱤᱥ
 gl = ᱜᱮᱞᱤᱥᱤᱭᱟᱱ
 gn = ᱜᱩᱟᱨᱟᱱᱤ
+gom = ᱜᱚᱣᱟᱱ ᱠᱚᱱᱠᱟᱱᱤ
 ha = ᱦᱟᱣᱥᱟ
 he = ᱦᱤᱵᱽᱨᱩ
 hi = ᱦᱤᱱᱫᱤ
@@ -93,6 +94,7 @@ ki = ᱠᱤᱠᱩᱭᱩ
 kk = ᱠᱟᱡᱟᱠᱷ
 km = ᱠᱷᱟᱹᱢᱮᱨ
 kmr = ᱠᱩᱨᱢᱟᱧᱡᱤ ᱠᱩᱨᱫᱤᱥ
+knn = ᱠᱚᱱᱠᱟᱱᱤ (ᱫᱚᱣᱟᱹᱱᱟᱜᱽᱨᱤ))
 ko = ᱠᱳᱨᱤᱭᱟᱹᱱ
 kpv = ᱠᱚᱢᱤᱼᱡᱤᱨᱤᱭᱟᱹᱱ
 kw = ᱠᱚᱨᱱᱤᱥ
@@ -1296,8 +1298,10 @@ sc-review-form-source = ᱥᱨᱚᱛ: { $sentenceSource }
 sc-review-form-button-reject = ᱵᱟᱹᱨᱜᱤᱞ
 sc-review-form-button-skip = ᱟᱲᱟᱜ
 sc-review-form-button-approve = ᱮᱢ ᱪᱷᱚ
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = ᱟᱢ ᱫᱚ ᱠᱤᱵᱚᱰ ᱨᱮᱭᱟᱜ ᱥᱚᱴᱠᱚᱴ ᱦᱚᱸ ᱵᱮᱵᱷᱟᱨ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ: ᱦᱮᱸᱥᱤᱭᱟᱹᱨ ᱞᱟᱹᱜᱤᱫ Y, ᱵᱟᱹᱨᱜᱤᱞ ᱞᱟᱹᱜᱤᱫ N, ᱟᱲᱟᱜ ᱞᱟᱹᱜᱤᱫ S
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
 sc-review-form-button-submit =
     .submitText = ᱧᱮᱧᱮᱞ ᱠᱚ ᱪᱟᱵᱟᱭ ᱢᱮ
 # Variables:
