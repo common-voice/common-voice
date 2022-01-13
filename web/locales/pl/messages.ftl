@@ -68,6 +68,7 @@ fy-NL = fryzyjski
 ga-IE = irlandzki
 gl = galicyjski
 gn = guarani
+gom = goańskie konkani
 ha = hausa
 he = hebrajski
 hi = hindi
@@ -93,6 +94,7 @@ ki = kikuju
 kk = kazachski
 km = khmerski
 kmr = kurmandżi
+knn = konkani (dewanagari)
 ko = koreański
 kpv = komi (zyriański)
 kw = kornijski
@@ -1089,6 +1091,7 @@ sc-profile-title = Profil: { $username }
 sc-personal-err-lang-not-found = Nie można usunąć języka: nie odnaleziono języka
 sc-personal-err-remove = Nie można usunąć języka
 sc-personal-your-languages = Twoje języki:
+sc-personal-remove-button = usuń
 
 ## REVIEW CRITERIA
 
@@ -1102,6 +1105,12 @@ sc-review-form-source = Źródło: { $sentenceSource }
 sc-review-form-button-reject = Odrzuć
 sc-review-form-button-skip = Pomiń
 sc-review-form-button-approve = Zatwierdź
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = T
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = P
 
 ## SETTINGS
 
