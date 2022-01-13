@@ -1034,6 +1034,7 @@ sc-logout-button = Sair
 ## HOME
 
 sc-home-title = Boas-vindas ao coletor de frases do Common Voice
+sc-home-intro = O Coletor de Sentenças faz parte do <commonVoiceLink>Common Voice</commonVoiceLink>. Ele permite que colaboradores coletem e validem frases criadas pela comunidade. Você também pode usar esta ferramenta para importar e limpar frases de domínio público de pequeno a médio porte que você encontrou ou coletou. Todas as frases precisam ser de domínio público. Frases aprovadas são exportadas toda semana para o repositório do Common Voice e lançadas no site do Common Voice em cada nova implantação.
 sc-home-collect-title = Coletar frases
 sc-home-collect-text = Ajude-nos escrevendo ou coletando frases de domínio público.
 sc-home-review-title = Revisar frases
@@ -1045,6 +1046,8 @@ sc-howto-title = Como
 sc-howto-addlang-title = Adicionando idiomas para trabalhar
 sc-howto-addlang-text = Após entrar, você pode selecionar seus idiomas na seção de perfil.
 sc-howto-addsen-title = Adicionar novas frases
+sc-howto-addsen-item-1 = Todas as frases que você enviar devem estar sob licença de <wikipediaLink>Domínio Público (CC-0)</wikipediaLink>. Para apoiar a inclusão de trabalhos que não estejam sob licença pública, criamos um <cc0WaiverLink>modelo de contrato de contribuição</cc0WaiverLink> para trabalhos em que o proprietário dos direitos autorais quer contribuir com material para o Common Voice.
+sc-howto-addsen-item-2 = Números. Não deve haver dígitos no texto de origem, pois podem causar problemas ao ser lidos em voz alta. A maneira como um número é lido depende do contexto e pode causar confusão no conjunto de dados. Por exemplo, o número “2409” pode ser lido com precisão como “vinte e quatro zero nove” e também como “dois mil quatrocentos e nove”.
 sc-howto-addsen-item-5 = Letras estrangeiras. Letras devem ser válidas no idioma falado. Por exemplo, “ж” é uma letra do alfabeto russo, mas nunca é usada em inglês, portanto nunca deve aparecer em nenhum texto de origem em inglês.
 sc-howto-cite-title = Como citar
 sc-howto-cite-item-1 = Você pode incluir o site, por exemplo, "Common Voice - https://commonvoice.mozilla.org/"
