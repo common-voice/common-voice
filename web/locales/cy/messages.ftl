@@ -1401,8 +1401,13 @@ sc-review-form-source = Ffynhonnell: { $sentenceSource }
 sc-review-form-button-reject = Gwrthod
 sc-review-form-button-skip = Hepgor
 sc-review-form-button-approve = Cymeradwyo
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Gallwch hefyd ddefnyddio Llwybrau Byr Allweddell: I i Gymeradwyo, N i Wrthod, H i Hepgor
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = I
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = H
+sc-review-form-keyboard-usage-custom = Gallwch hefyd ddefnyddio Llwybrau Byr Bysellfwrdd: { sc-review-form-button-approve-shortcut } Cymeradwyo, { sc-review-form-button-reject-shortcut } Gwrthod, { sc-review-form-button-skip-shortcut } a Hepgor
 sc-review-form-button-submit =
     .submitText = Gorffen Adolygu
 # Variables:
