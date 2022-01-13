@@ -1374,8 +1374,13 @@ sc-review-form-source = Bron: { $sentenceSource }
 sc-review-form-button-reject = Afwijzen
 sc-review-form-button-skip = Overslaan
 sc-review-form-button-approve = Goedkeuren
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = U kunt ook sneltoetsen gebruiken: Y om goed te keuren, N om af te wijzen, S om over te slaan
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = J
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = O
+sc-review-form-keyboard-usage-custom = U kunt ook sneltoetsen gebruiken: { sc-review-form-button-approve-shortcut } om goed te keuren, { sc-review-form-button-reject-shortcut } om af te keuren, { sc-review-form-button-skip-shortcut } om over te slaan
 sc-review-form-button-submit =
     .submitText = Beoordeling voltooien
 # Variables:
