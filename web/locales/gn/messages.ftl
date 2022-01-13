@@ -609,6 +609,7 @@ resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ha’e <docsLink>te
 resource-deepspeech-info = Mozilla ñe’ẽ jekuaaukarã mongu’eha ijayvu jurujáva, Deep Speech, eipuru emoheñói hag̃ua tembipuru’i ñe’ẽ jekuaaukarã. Emoñe’ẽ <githubLink>Github mbykypyre</githubLink> térã eike <discourseLink>DeepSpeech Discourse</discourseLink> eikuaa hag̃ua mba’éichapa eñepyrũta.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> omba’apo tembipurupyahu ñe’ẽpu ijurujáva rehe. Hembiaporãme oike STT mongu’eha ha TTS ojekóva tembikuaa pypukúre.
 community-playbook = Tekoha Ñembosarái
+resource-playbook-info = <playbookLink>Ejuhúta ñemyesakã</playbookLink> Common Voice rapykuere rehegua, ñemoñe’ẽasa guive mba’ekuaarã aty jepuru peve, avei mba’éichapa eikekuaáta ore rekohápe.
 data-other-librispeech-description = LibriSpeech-niko peteĩ ñe’ẽryapuryru oguerekóva 1000 aravo rupi 16Khz ñe’ẽjoaju ryapu ñongatupyre inglés-pe oúva aponde’aguasu LibriVox arandukarendúvagui.
 data-other-ted-name = TED-LIUM Ñe’ẽryapu Ryru
 data-other-ted-description = TED-LIUM ñe’ẽryapu ryru ombyaty ñe’ẽryapu oúva ñomongeta ha jehai TED ñandutirendágui.
