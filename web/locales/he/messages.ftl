@@ -270,6 +270,7 @@ shortcut-vote-no = ל
 shortcut-record-toggle = ק
 shortcut-record-toggle-label = הקלטה/עצירה
 shortcut-rerecord-toggle-label = הקלטת קטע מחדש
+shortcut-discard-ongoing-recording = ESC
 request-language-text = השפה שלך עדיין לא מופיעה ב־Common Voice?
 request-language-text-learn = כאן ניתן ללמוד כיצד לבקש את זה!
 request-language-button = בקשת שפה
@@ -297,8 +298,12 @@ profile-form-native-language =
     .label = שפת אם
 profile-form-additional-language =
     .label = שפה נוספת
+profile-form-language =
+    .label = שפה
 profile-form-accent =
     .label = מבטא
+profile-form-custom-accent-help-text =
+    .label = איך היית מתאר את המבטא שלך?
 profile-form-age =
     .label = גיל
 profile-form-gender-2 =
@@ -714,6 +719,11 @@ remove = להסיר
 remove-info = אנו נבדוק את בקשתך להסרת ההקלטות הקוליות שלך ממאגר הנתונים. אם בקשתך תאושר, אנו ניצור קשר עם כל מי שהוריד את מאגר הנתונים ונבקש מהם להסיר את ההקלטות הקוליות שלך גם כן.
 profile-form-delete = מחיקת פרופיל
 
+## Profile Download
+
+download-recordings-unavailable = אין באפשרותך לבקש את ההקלטות שלך בזמן שבקשה אחרת כבר בעיצומה.
+download-request-title = { $created }
+
 ## Landing
 
 welcome-staff = ברוך בואך סגל { $company }!
@@ -745,4 +755,61 @@ demo-account-sign-up = שליחת קישור להרשמה
 demo-listen-subtitle = מעניין אותך לתרום?
 
 ## Demo Dashboard
+
+
+## Validation criteria
+
+contribution-misreadings-example-7-title = אנחנו יוצאים לשתות קפה.
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
