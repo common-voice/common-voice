@@ -1054,9 +1054,12 @@ sc-howto-addsen-item-5 = Letras estrangeiras. Letras devem ser válidas no idiom
 sc-howto-addsen-item-6 = Idiomas podem ter suas próprias <validationRulesLink>regras de validação</validationRulesLink> com requisitos adicionais. Se não houver nenhum arquivo de validação específico de um idioma, usamos as regras genéricas do inglês.
 sc-howto-addsen-post-1 = Preferimos frases naturais/coloquiais. Embora seja importante frases com diversidade fonética e palavras diferentes, estamos tentando tornar a gravação de frases o mais divertido possível. Portanto, seria ótimo se você puder tentar manter suas frases o mais natural/envolvente possível.
 sc-howto-cite-title = Como citar
+sc-howto-cite-pre-1 = É importante que você mencione onde encontrou a licença pública para evitar plágio e permitir a investigação de <copyrightIssuesLink>problemas de direitos autorais</copyrightIssuesLink>. Aqui estão algumas formas de citar o trabalho.
 sc-howto-cite-item-1 = Você pode incluir o site, por exemplo, "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Você pode usar estilo de referência acadêmica, por exemplo, estilo Harvard "Mozilla (2021) Common Voice. Disponível em https://commonvoice.mozilla.org/ (acessado em 15 de setembro de 2021)"
+sc-howto-cite-item-3 = Para texto de domínio público não disponível online, você pode usar o estilo de referência acadêmica, por exemplo, estilo Harvard "Jess (2021) My Public licence poems"
 sc-howto-review-title = Revisar frases
+sc-howto-review-subtitle = Assegure que a frase atende aos seguintes critérios:
 sc-howto-review-criteria-1 = A frase deve ser escrita corretamente.
 sc-howto-review-criteria-2 = A frase deve estar gramaticalmente correta.
 sc-howto-review-criteria-3 = Deve ser possível pronunciar a frase.
@@ -1065,7 +1068,12 @@ sc-howto-review-criteria-5 = Se a frase não atender aos critérios acima, cliqu
 sc-howto-review-criteria-6 = Se você ficar sem frases para revisar, ajude-nos a coletar mais frases!
 sc-howto-findpd-title = Encontrando frases existentes em domínio público
 sc-howto-findpd-subtitle = Procurar na internet
+sc-howto-findpd-text-2 = Lembre que precisamos de permissão para publicar essas frases, portanto sempre verifique se o texto pertence ao <wikipediaLink>domínio público</wikipediaLink>. Se não houver indicação explícita, entre em contato com a pessoa a quem o texto pertence e pergunte se ela quer contribuir com seu texto para o domínio público. Se ela quiser, dê uma ajuda no processo do <cc0WaiverLink>Contrato de Contribuições</cc0WaiverLink>. Caso ela não queira contribuir com o texto, você não tem permissão de usar tal texto.
 sc-howto-findpd-tips = Veja algumas dicas de como encontrar frases:
+sc-howto-findpd-tips-1 = As melhores fontes onde que você pode procurar são podcasts, transcrições, roteiros de filmes e qualquer coisa que possa conter conversas cotidianas.
+sc-howto-findpd-tips-2 = Procedimentos governamentais, livros e artigos também são ótimos, mas como o texto tende a ser um pouco mais formal, tem menor prioridade.
+sc-howto-findpd-tips-3 = Infelizmente ainda não podemos ter artigos da Wikimedia. Então não copie e cole de lá.
+sc-howto-findpd-subtitle-2 = Faça parcerias com organizações ou indivíduos locais
 
 ## MY SENTENCES
 
