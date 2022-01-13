@@ -1034,6 +1034,7 @@ sc-logout-button = Αποσύνδεση
 
 ## HOME
 
+sc-home-collect-title = Συλλογή προτάσεων
 sc-home-review-title = Έλεγχος προτάσεων
 
 ## HOW-TO
@@ -1191,8 +1192,6 @@ sc-review-form-source = Πηγή: { $sentenceSource }
 sc-review-form-button-reject = Απόρριψη
 sc-review-form-button-skip = Παράλειψη
 sc-review-form-button-approve = Έγκριση
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Μπορείτε επίσης να χρησιμοποιήσετε συντομεύσεις πληκτρολογίου: Y για έγκριση, N για απόρριψη, S για παράλειψη
 sc-review-form-button-submit =
     .submitText = Ολοκλήρωση ελέγχου
 sc-review-link = Έλεγχος
