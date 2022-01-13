@@ -1196,9 +1196,44 @@ sc-confirm-ready =
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } frases não foram revisadas. Se quiser, você também pode revisar suas frases agora, antes de enviar.
 sc-confirm-button-text = Confirmar
+sc-confirm-uploading = As frases estão sendo enviadas. Isso pode demorar vários minutos, dependendo do número de frases adicionadas. Não feche este site.
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Nenhuma frase no total.
+        [one] 1 frase no total.
+       *[other] { $totalSentences } frase no total.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Nenhuma frase em revisão.
+        [one] 1 frase em revisão.
+       *[other] { $totalInReview } frases em revisão.
+    }
+sc-lang-info-review-now = <reviewLink>Revise agora!</reviewLink>
+sc-lang-info-add-more = <addLink>Adicione mais frases agora!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Nenhuma frase validada.
+        [one] 1 frase validada.
+       *[other] { $validatedSentences } frases validadas.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Nenhuma frase rejeitada.
+        [one] 1 frase rejeitada.
+       *[other] { $rejectedSentences } frases rejeitadas.
+    }
 
 ## LOGIN
 
@@ -1223,15 +1258,40 @@ sc-personal-not-added = Você ainda não adicionou nenhum idioma.
 
 sc-criteria-modal = ⓘ Critérios de revisão
 sc-criteria-title = Critérios de revisão
+sc-criteria-make-sure = Assegure que a frase atende aos seguintes critérios:
+sc-criteria-item-1 = A frase deve ser escrita corretamente.
+sc-criteria-item-2 = A frase deve estar gramaticalmente correta.
+sc-criteria-item-3 = Deve ser possível pronunciar a frase.
+sc-criteria-item-4 = Se a frase atender aos critérios, clique no botão &quot;Aprovar&quot; à direita.
 
 ## REVIEW
 
 sc-review-title = Revisar frases
 sc-review-loading = Carregando frases…
 sc-review-select-language = Selecione um idioma para revisar frases.
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Origem: { $sentenceSource }
 sc-review-form-button-reject = Rejeitar
 sc-review-form-button-skip = Pular
 sc-review-form-button-approve = Aprovar
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = S
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = P
+sc-review-form-button-submit =
+    .submitText = Concluir revisão
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Nenhuma frase revisada.
+        [one] 1 frase revisada. Obrigado!
+       *[other] { $sentences } frases revisadas. Obrigado!
+    }
+sc-review-form-review-failure = A revisão não pôde ser salva. Tente novamente mais tarde.
 sc-review-link = Revisão
 
 ## SETTINGS
@@ -1239,6 +1299,7 @@ sc-review-link = Revisão
 sc-settings-title = Configurações
 sc-settings-ui-language = Idioma da interface
 sc-settings-reset-skipped = Redefinir frases ignoradas
+sc-settings-show-all-button = Mostrar novamente todas as frases ignoradas
 sc-settings-failed = Não foi possível alterar as configurações. Tente novamente.
 # VALIDATION
 sc-validation-number-of-words = A frase deve conter de 1 a 14 palavras
