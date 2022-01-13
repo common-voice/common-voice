@@ -1277,8 +1277,13 @@ sc-review-form-source = 來源：{ $sentenceSource }
 sc-review-form-button-reject = 退回
 sc-review-form-button-skip = 略過
 sc-review-form-button-approve = 通過
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = 您還可以使用快速鍵：按 Y 通過、按 N 退回、按 S 略過
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = 您也可以使用快速鍵：{ sc-review-form-button-approve-shortcut } 來通過審核、{ sc-review-form-button-reject-shortcut } 來退回、{ sc-review-form-button-skip-shortcut } 來略過
 sc-review-form-button-submit =
     .submitText = 完成審核
 # Variables:
