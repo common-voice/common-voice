@@ -68,6 +68,7 @@ fy-NL = Frisia
 ga-IE = Ireland
 gl = Galicia
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Do Thái
 hi = Hindi
@@ -93,6 +94,7 @@ ki = Kikuyu
 kk = Kazakh
 km = Khmer
 kmr = Tiếng Kurmanji
+knn = Konkani (Devanagari)
 ko = Hàn
 kpv = Komi-Zyria
 kw = Cornwall
@@ -1346,8 +1348,13 @@ sc-review-form-source = Nguồn: { $sentenceSource }
 sc-review-form-button-reject = Từ chối
 sc-review-form-button-skip = Bỏ qua
 sc-review-form-button-approve = Phê duyệt
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Bạn cũng có thể sử dụng phím tắt: Y để phê duyệt, N để từ chối, S để bỏ qua
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Bạn cũng có thể sử dụng phím tắt bàn phím: { sc-review-form-button-approve-shortcut } để Phê duyệt, { sc-review-form-button-reject-shortcut } để Từ chối, { sc-review-form-button-skip-shortcut } để Bỏ qua
 sc-review-form-button-submit =
     .submitText = Kết thúc đánh giá
 # Variables:
