@@ -1275,6 +1275,7 @@ sc-review-select-language = Selecione um idioma para revisar frases.
 sc-review-no-sentences = Nenhuma frase para revisar. <addLink>Adicione mais frases agora!</addLink>
 sc-review-form-prompt =
     .message = Frases revisadas não foram enviadas, tem certeza?
+sc-review-form-usage = Deslize para direita para aprovar a frase. Deslize para esquerda para rejeitar. Deslize para cima para pular. <strong>Não esqueça de enviar sua revisão!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Origem: { $sentenceSource }
@@ -1287,6 +1288,7 @@ sc-review-form-button-approve-shortcut = S
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = P
+sc-review-form-keyboard-usage-custom = Você também pode usar atalhos de teclado: { sc-review-form-button-approve-shortcut } para aprovar, { sc-review-form-button-reject-shortcut } para rejeitar, { sc-review-form-button-skip-shortcut } para pular
 sc-review-form-button-submit =
     .submitText = Concluir revisão
 # Variables:
