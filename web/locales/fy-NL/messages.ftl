@@ -68,6 +68,7 @@ fy-NL = Frysk
 ga-IE = Iersk
 gl = Galisysk
 gn = Guaraní
+gom = Goaneesk Konkani
 ha = Hausa
 he = Hebriuwsk
 hi = Hindy
@@ -93,6 +94,7 @@ ki = Kikuyu
 kk = Kazaksk
 km = Khmer
 kmr = Kurmanci
+knn = Konkani (Devanagari)
 ko = Koreaansk
 kpv = Kom-Zyrian
 kw = Kornish
@@ -1382,8 +1384,13 @@ sc-review-form-source = Boarne: { $sentenceSource }
 sc-review-form-button-reject = Ofwize
 sc-review-form-button-skip = Oerslaan
 sc-review-form-button-approve = Goedkarre
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Jo kinne ek fluchtoetsen brûke: Y om goed te karren, N om ôf te wizen, S om oer te slaan
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = J
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = O
+sc-review-form-keyboard-usage-custom = Jo kinne ek fluchtoetsen brûke: { sc-review-form-button-approve-shortcut } om goed te karren, { sc-review-form-button-reject-shortcut } om ôf te karren, { sc-review-form-button-skip-shortcut } om oer te slaan
 sc-review-form-button-submit =
     .submitText = Beoardieling foltôgje
 # Variables:
