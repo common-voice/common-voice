@@ -68,6 +68,7 @@ fy-NL = Frisão
 ga-IE = Irlandês
 gl = Galego
 gn = Guarani
+gom = Konkani de Goa
 ha = Hauçá
 he = Hebraico
 hi = Hindi
@@ -80,6 +81,7 @@ hyw = Armênio ocidental
 ia = Interlíngua
 id = Indonésio
 ie = Interlíngua
+ig = Igbo
 is = Islandês
 it = Italiano
 izh = Ijoriano
@@ -88,9 +90,11 @@ ka = Georgiano
 kaa = Caracalpaque
 kab = Kabyle
 kbd = Kabardiano
+ki = Kikuyu
 kk = Cazaque
 km = Khmer
 kmr = Curdo do norte
+knn = Konkani (Devanagari)
 ko = Coreano
 kpv = Komi-Zyrian
 kw = Córnico
@@ -106,6 +110,7 @@ mhr = Meadow Mari
 mk = Macedônio
 ml = Malaiala
 mn = Mongol
+mni = Meitei-lon
 mos = Moré
 mr = Marata
 mrj = Hill Mari
@@ -1216,6 +1221,14 @@ sc-lang-info-in-review =
         [one] 1 frase em revisão.
        *[other] { $totalInReview } frases em revisão.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Nenhuma frase restante para você revisar.
+        [one] 1 frase restante para você revisar.
+       *[other] { $unreviewedSentencesByYou } frases restantes para você revisar.
+    }
 sc-lang-info-review-now = <reviewLink>Revise agora!</reviewLink>
 sc-lang-info-add-more = <addLink>Adicione mais frases agora!</addLink>
 # Variables:
@@ -1306,7 +1319,9 @@ sc-review-link = Revisão
 
 sc-settings-title = Configurações
 sc-settings-ui-language = Idioma da interface
+sc-settings-language-translated-warning = As páginas deste idioma podem não estar totalmente traduzidas. Você pode ajudar na tradução no <pontoonLinkLink>Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Redefinir frases ignoradas
+sc-settings-skipped-decription = Anteriormente, você pulou frases durante a revisão. A redefinição de frases ignoradas faz com que todas elas sejam exibidas novamente. Isso independente do idioma.
 sc-settings-show-all-button = Mostrar novamente todas as frases ignoradas
 sc-settings-failed = Não foi possível alterar as configurações. Tente novamente.
 # VALIDATION
