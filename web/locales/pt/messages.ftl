@@ -1273,6 +1273,8 @@ sc-review-title = Revisar frases
 sc-review-loading = Carregando frases…
 sc-review-select-language = Selecione um idioma para revisar frases.
 sc-review-no-sentences = Nenhuma frase para revisar. <addLink>Adicione mais frases agora!</addLink>
+sc-review-form-prompt =
+    .message = Frases revisadas não foram enviadas, tem certeza?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Origem: { $sentenceSource }
