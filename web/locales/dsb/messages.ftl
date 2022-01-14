@@ -1328,6 +1328,7 @@ sc-review-link = Pógódnośiś
 
 sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěc wužywaŕskego pówjercha
+sc-settings-language-translated-warning = Boki za toś tu rěc njejsu snaź dopołnje pśełožone. Móžośo z pśełožowanim <pontoonLinkLink>na Pontoon</pontoonLinkLink> wupomogaś.
 sc-settings-reset-skipped = Pśeskócone sady slědk stajiś
 sc-settings-show-all-button = Wšykne pśeskócone sady hyšći raz pokazaś
 sc-settings-failed = Nastajenja njedaju se změniś. Pšosym wopytajśo hyšći raz.
