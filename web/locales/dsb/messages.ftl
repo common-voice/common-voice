@@ -68,6 +68,7 @@ fy-NL = Frizišćina
 ga-IE = Iršćina
 gl = Galicišćina
 gn = Guaranšćina, Guarani
+gom = Goaska konkanišćina
 ha = Hausa
 he = Hebrejšćina
 hi = Hindišćina
@@ -93,6 +94,7 @@ ki = Kikujušćina
 kk = Kazachšćina
 km = Khmer
 kmr = Kurmanźiska kurdišćina
+knn = Konkanišćina (dewanagari)
 ko = Korejańšćina
 kpv = Komi-syrjeńšćina
 kw = Kornišćina
@@ -1304,8 +1306,9 @@ sc-review-form-source = Žrědło: { $sentenceSource }
 sc-review-form-button-reject = Wótpokazaś
 sc-review-form-button-skip = Pśeskócyś
 sc-review-form-button-approve = Pśizwóliś
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Móžośo teke tastowe skrotconki wužywaś: Y za pśizwólenje, N za wótpokazanje, S za pśeskócenje
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Móžośo teke tastowe skrotconki wužywaś: { sc-review-form-button-approve-shortcut }, abo pśizwólił, { sc-review-form-button-reject-shortcut }, aby wótpokazał, { sc-review-form-button-skip-shortcut }, aby pśeskócył
 sc-review-form-button-submit =
     .submitText = Pógódnośenje dokóńcyś
 # Variables:
