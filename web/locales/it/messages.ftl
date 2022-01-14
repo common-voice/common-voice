@@ -1290,6 +1290,7 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Puoi anche utilizzare le scorciatoie da tastiera: { sc-review-form-button-approve-shortcut } per approvare, { sc-review-form-button-reject-shortcut } per rifiutare, { sc-review-form-button-skip-shortcut } per saltare
 sc-review-form-button-submit =
     .submitText = Termina la convalida
 # Variables:
