@@ -181,8 +181,8 @@ zh-TW = ሲኒ (ታይዋን)
 
 ## Layout
 
-speak = ታሃገ
-speak-now = ኣዜ ታሃገ
+speak = ታሃገው
+speak-now = ኣዜ ታሃገው
 datasets = መጅሙዓት በያናት
 languages = ሉቃት
 profile = ናይ ኖስ መለፍ
