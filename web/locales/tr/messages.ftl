@@ -68,6 +68,7 @@ fy-NL = Frizce
 ga-IE = İrlandaca
 gl = Galce
 gn = Guarani
+gom = Goan Konkani
 ha = Hausaca
 he = İbranice
 hi = Hintçe
@@ -93,6 +94,7 @@ ki = Kikuyu
 kk = Kazakça
 km = Kmerce
 kmr = Kurmançça
+knn = Konkani (Devanagari)
 ko = Korece
 kpv = Komi Zıryan
 kw = Kernevekçe
@@ -1301,8 +1303,13 @@ sc-review-form-source = Kaynak: { $sentenceSource }
 sc-review-form-button-reject = Reddet
 sc-review-form-button-skip = Atla
 sc-review-form-button-approve = Onayla
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Klavye kısayollarını da kullanabilirsiniz: onaylamak için Y, reddetmek için N, atlamak için S
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = E
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = H
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = A
+sc-review-form-keyboard-usage-custom = Klavye kısayollarını da kullanabilirsiniz: Onaylamak için { sc-review-form-button-approve-shortcut }, reddetmek için { sc-review-form-button-reject-shortcut }, atlamak için { sc-review-form-button-skip-shortcut }
 sc-review-form-button-submit =
     .submitText = İncelemeyi bitir
 # Variables:
