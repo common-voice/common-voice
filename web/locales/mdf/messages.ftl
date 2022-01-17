@@ -986,9 +986,18 @@ sc-my-err-failed-delete = Аш кода нардамс кочкаф валрис
 ## REJECTED
 
 sc-rejected-title = Ёрдаф валрисьмотне
+sc-rejected-loading = Ёрдаф валрисьмотне аноклакшневихть...
+sc-rejected-err-fetching = Ёрдаф валрисьмотнень аноклакшнемста лиссь эльбятькс. Тяряфтк тага весть.
+sc-rejected-none-found = Фкявок ёрдаф валрисьме ашезь мув!
 
 ## STATS
 
+sc-stats-title = Статистика
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Мекольце одкстоптомась: { $lastUpdate }
+sc-stats-last-update-never = Мекольце одкстоптомась: мзярдонга ашель
+sc-stats-updating = Одкстоптомась моли...
 
 ## ADD
 
