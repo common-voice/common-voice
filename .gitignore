@@ -15,6 +15,7 @@ xcuserdata/
 .vscode/
 ZZidea
 .env-local-docker
+docker-compose.override.yml
 
 # Nubis
 nubis/librarian-puppet.tar.gz
