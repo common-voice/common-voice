@@ -68,6 +68,7 @@ fy-NL = frisó
 ga-IE = irlandès
 gl = gallec
 gn = guaraní
+gom = konkani
 ha = haussa
 he = hebreu
 hi = hindi
@@ -1203,6 +1204,7 @@ sc-confirm-ready =
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } frases estan pendents de revisar. Si voleu, també podeu revisar les vostres frases ara abans d'enviar-les.
 sc-confirm-button-text = Confirma
+sc-confirm-uploading = Les frases s'estan pujant. Això pot trigar alguns minuts depenent del nombre de frases afegides. No tanqueu aquesta pàgina.
 
 ## LANGUAGE INFO
 
