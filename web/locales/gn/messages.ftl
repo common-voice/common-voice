@@ -971,6 +971,7 @@ contribution-criteria-page-title = Ñepytyvõ rehegua
 contribution-criteria-page-description = ¡Eikumby mba’épa ehekáta ehendúvo ñe’ẽpu ha eipytyvõ emoporãve hag̃ua ne ñe’ẽ ñeñongatu avei!
 contribution-for-example = Techapyrãrõ
 contribution-misreadings-title = Moñe’ẽ vai
+contribution-misreadings-description = Ehendúvo, ehechajey mbeguekatumi pe eñongatuva’ekuépa ha’ehína umi ojehaiva’ekue; emboyke oĩramo jejavy michĩmíva jepe. <br />Jejavy tapiaguáva oikehápe avei:
 contribution-misreadings-description-extended-list-1 = Okañy <strong>'A'</strong> térã <strong>'The'</strong> oñepyrũvo ñeñongatu.
 contribution-misreadings-description-extended-list-2 = Ndaipóri <strong>'s'</strong> opakuévo pe ñe’ẽ.
 contribution-misreadings-description-extended-list-3 = Emoñe’ẽ momichĩmbyre añetehápe oĩ’ỹva ha’éva "We're" pe "We are" rendaguépe, térã juavyháicha.
