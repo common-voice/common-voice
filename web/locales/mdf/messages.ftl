@@ -1085,9 +1085,35 @@ sc-confirm-ready =
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } валрисьмот апак ванонтт. Улендяряй мяльце тон тяни тага маштат эсь валрисьмотнень ванондомс прважамада инголе.
 sc-confirm-button-text = Кемокстамс
+sc-confirm-uploading = Валрисьмотне тонгокшневихть. Эряви мзярошка минутат. Пингсь ащи тянь эзда мзяра валрисьмода полаткшневихть. Тят сёлга тя интернет лопать.
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Аш валрисьмот.
+        [one] Сембоц 1 валрисьме.
+       *[other] Сембоц { $totalSentences } валрисьмот.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Аш валрисьмот ванондомаса.
+        [one] 1 валрисьме ванондомаса.
+       *[other] { $totalInReview } валрисьмот ванондомаса.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Аш валрисьмот лятф ванондоманди.
+        [one] 1 валрисьме лядсь ванондоманди.
+       *[other] { $unreviewedSentencesByYou } валрисьмот лядсть ванондоманди.
+    }
+sc-lang-info-review-now = <reviewLink>Тяни ванонтт!</reviewLink>
 
 ## LOGIN
 
