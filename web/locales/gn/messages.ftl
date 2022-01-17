@@ -1050,6 +1050,7 @@ sc-howto-title = Mba’éichapa
 sc-howto-addlang-title = Embojuaju ñe’ẽ emba’apo hag̃ua
 sc-howto-addlang-text = Emoñepyrũ rire ne tembiapo, eiporavokuaa ñe’ẽnguéra mba’ete rendápe.
 sc-howto-addsen-title = Embojuaju ñe’ẽjuaju pyahu
+sc-howto-addsen-item-5 = Tai pytagua. Umi kuatiahai oikova’erã ñe’ẽ ojepurúvape. Techapyrã, “ж” ha'e tai Rusia ñe’ẽ achegetýpe, hákatu araka’eve ndojepurúiva inglés ñe’ẽme ha, upévare, nosẽiva’erã mba’evéichagua moñe’ẽrã inglés-pe.
 sc-howto-cite-title = Mba’éicha emombe’úta
 sc-howto-cite-pre-1 = Iporã emombe’u moõpa ejuhu pe ñemoneĩ guasu emboyke hag̃ua ñemonda ha emoneĩ pe jehapykueho <copyrightIssuesLink>apohára derécho apañuãi</copyrightIssuesLink>. Ko’ápe ejuhúta heta hendáicha emombe’u hag̃ua tembiapokue.
 sc-howto-cite-item-1 = Emoingekuaa ñanduti renda, techapyrã, "Common Voice - https://commonvoice.mozilla.org/"
