@@ -1000,6 +1000,13 @@ sc-logout-button = Лисемс
 
 ## REVIEW
 
+sc-review-form-button-approve = Кемокстамс
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = И
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = А
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = Л
 sc-review-form-button-submit =
     .submitText = Шумордамс ванондомать
 # Variables:
