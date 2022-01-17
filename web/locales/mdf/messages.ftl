@@ -970,9 +970,22 @@ sc-logout-button = Лисемс
 
 ## MY SENTENCES
 
+sc-my-loading = Тонь валрисьмотне аноклакшнихть...
+sc-my-err-fetching = Тонь валрисьмотнень аноклакшнемста лиссь эльбятькс. Тяряфтк тага весть.
+sc-my-no-sentences = Фкявок валрисьме ашезь мув!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Прважама: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Лисьма:  { $source }
+sc-my-delete = Нардамс кочкаф валрисьмотнень
+sc-my-deleting = Кочкаф валрисьмотненть нардамась моли...
+sc-my-err-failed-delete = Аш кода нардамс кочкаф валрисьмотнень... Тяряфтк тага весть!
 
 ## REJECTED
 
+sc-rejected-title = Ёрдаф валрисьмотне
 
 ## STATS
 
