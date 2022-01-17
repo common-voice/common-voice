@@ -1028,6 +1028,10 @@ sc-submit-guidelines = Ваность <howToLink>ветямовалхнень</h
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Аш кода поладомс кяль
+sc-add-lang-sec-label = Полатт кяль конань эса тон ёрат лездомс
+sc-add-lang-sec-button = Полатт кяль
+sc-add-err-unexpected = Серверста лиссь апак учт эльбятькс
 
 ## ADD SENTENCES CONFIRMATION
 
