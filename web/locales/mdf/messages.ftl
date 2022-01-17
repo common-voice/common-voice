@@ -1014,6 +1014,15 @@ sc-submit-prompt =
 sc-submit-title = Поладомс валрисьмот
 sc-submit-select-language =
     .labelText = Кочкамс кяль
+sc-submit-add-sentences = Поладомс <wikipediaLink>эрти панжада лисьмаста</wikipediaLink> валрисьмот
+sc-submit-ph-one-per-line =
+    .placeholder = Фкя валрисьме китьксс
+sc-submit-from-where = Коста сявфольхть ня <wikipediaLink>эрти панжада лисьмаста</wikipediaLink> валрисьмотне?
+sc-submit-ph-read-how-to =
+    .placeholder = Кафтолдондярят кода видеста поладомс валрисьмот - лувк минь лезкс Кода тиемс
+sc-submit-confirm = Мон кемокстан ня валрисьмотне сявфт <wikipediaLink>эрти панжеда лисьмаста</wikipediaLink>, моньге ули мярьговома синь тонгоманди.
+sc-submit-button =
+    .submitText = Прважамс
 
 ## ADD LANGUAGE
 
