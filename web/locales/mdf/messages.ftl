@@ -1049,9 +1049,21 @@ sc-add-err-failed =
        *[other] { $sentences }  валрисьмот ашесть ёта
     }
 sc-add-err-submission = Прважамонь эльбятькс
+sc-add-lang-process-notice = Ашить му эсь кяльцень тяста? Ули кода вешфкс кучемс <languageProcessLink>тя процессть</languageProcessLink> вельде.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Тон афкукс ёрат лисемс и кадомс валрисьмотнень апак прважак?
+sc-confirm-sentences-title = Кемокстайть од валрисьмотнень
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Фкявок валрисьме ашезь мув.
+        [one] 1 валрисьме мувсь.
+       *[other] { $countOfSentences } валрисьмот мувсть.
+    }
 
 ## LANGUAGE INFO
 
