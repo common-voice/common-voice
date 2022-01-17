@@ -1032,6 +1032,23 @@ sc-add-lang-could-not-add = Аш кода поладомс кяль
 sc-add-lang-sec-label = Полатт кяль конань эса тон ёрат лездомс
 sc-add-lang-sec-button = Полатт кяль
 sc-add-err-unexpected = Серверста лиссь апак учт эльбятькс
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Прважаф валрисьмотне. { $duplicates } валрисьмот ёрдафольхть кода дубликатт.
+        [one] Прважаф валрисьмотне. { $duplicates } валрисьме ёрдафоль кода дубликат.
+       *[other] Прважаф валрисьмотне. { $duplicates } валрисьмот ёрдафольхть кода дубликатт.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Фкявок валрисьме афоль ёрдав
+        [one] 1 валрисьме ашезь ёта
+       *[other] { $sentences }  валрисьмот ашесть ёта
+    }
+sc-add-err-submission = Прважамонь эльбятькс
 
 ## ADD SENTENCES CONFIRMATION
 
