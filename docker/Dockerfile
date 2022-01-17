@@ -1,14 +1,10 @@
 FROM node:12-stretch
 
-ARG MAINTAINER="Alberto del Barrio <alberto@mozilla.com>"
 ARG COMMIT="local-build"
 ARG TAG=""
 
 LABEL commit=${COMMIT}
 LABEL tag=$TAG
-LABEL maintainer=${MAINTAINER}
-
-MAINTAINER ${MAINTAINER}
 
 # Allow exposing HTTP endpoint
 EXPOSE 9000
