@@ -1306,6 +1306,10 @@ sc-review-form-source = Žrědło: { $sentenceSource }
 sc-review-form-button-reject = Wótpokazaś
 sc-review-form-button-skip = Pśeskócyś
 sc-review-form-button-approve = Pśizwóliś
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = P
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = W
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Móžośo teke tastowe skrotconki wužywaś: { sc-review-form-button-approve-shortcut }, abo pśizwólił, { sc-review-form-button-reject-shortcut }, aby wótpokazał, { sc-review-form-button-skip-shortcut }, aby pśeskócył
