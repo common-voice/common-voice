@@ -1003,6 +1003,8 @@ sc-logout-button = Лисемс
 
 ## SETTINGS
 
+sc-settings-show-all-button = Тага няфтемс сембе вакска нолдаф валрисьмотнень.
+sc-settings-failed = Тев тиематнень ашесть полафта . Тяряфтт тага весть.
 # VALIDATION
 sc-validation-number-of-words = Эрявихть валрисьмотне 1-14 (-ти самс) валхнень мархта.
 sc-validation-no-numbers = Аф эрявихть валрисьмот цифратнень мархта.
