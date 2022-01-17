@@ -1114,9 +1114,27 @@ sc-lang-info-left-for-you =
        *[other] { $unreviewedSentencesByYou } валрисьмот лядсть ванондоманди.
     }
 sc-lang-info-review-now = <reviewLink>Тяни ванонтт!</reviewLink>
+sc-lang-info-add-more = <addLink>Тяни поладыть сяда лама валрисьмот!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Аш валидация мархта валрисьмот.
+        [one] 1 валидация мархта валрисьме.
+       *[other] { $validatedSentences } валидация мархта валрисьмот.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Аш ёрдаф валрисьмот.
+        [one] 1 ёрдаф валрисьме.
+       *[other] { $rejectedSentences } ёрдаф валрисьмот.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Сувама вал эльбятькс
 sc-login-err-try-again = Тяряфтк тага весть.
 
 ## PROFILE
