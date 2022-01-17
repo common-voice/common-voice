@@ -1126,6 +1126,7 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm = Amoneĩ ko’ã ñe’ẽjuaju ha’eha <wikipediaLink>opavaveguáva</wikipediaLink> ha areko ñemoneĩ ahupi hag̃ua.
 sc-submit-button =
     .submitText = Mondo
+sc-submit-filtered = Ñe’ẽjuaju mboguapyréva ojavy rupi tekotevẽva (emondo peteĩchagua oĩporãva ñe’ẽjuaju pyahúramo):
 sc-submit-guidelines = Eporandu umi <howToLink>jejaporã</howToLink>.
 
 ## ADD LANGUAGE
