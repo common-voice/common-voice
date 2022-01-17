@@ -994,9 +994,11 @@ sc-logout-button = Лисемс
 
 ## PROFILE
 
+sc-personal-your-languages = Кяльхне:
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-6 = Улефтяряй валрисьмот ванондоманди, лезтт тейнек кочкамс сяда лама валрисьмода!
 
 ## REVIEW
 
