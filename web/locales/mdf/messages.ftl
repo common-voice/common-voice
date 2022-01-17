@@ -1000,6 +1000,12 @@ sc-logout-button = Лисемс
 
 ## REVIEW
 
+sc-review-title = Валрисьмотнень ванондомс
+sc-review-loading = Валрисьмотне аноклакшнихть...
+sc-review-select-language = Кочкак кяльть валрисьмонь ванондоманди.
+sc-review-no-sentences = Ванондомс валрисьмот ашет. <addLink>Тяни полатк сяда лама валрисьмот!</addLink>
+sc-review-form-prompt =
+    .message = Тон афкукс ёрат кадомс ванонтф валрисьмотнень апак прважак?
 sc-review-form-usage = Валрисьмонь кемокстаманди тяемс сурхнень эса виде шири. Тяемс кержи шири сонь ёрдаманди. Тяемс вяри вакска нолдаманди. <strong>Тят юкста вимс тонь ванондомацень.</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
