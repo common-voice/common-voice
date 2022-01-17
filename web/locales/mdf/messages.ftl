@@ -1023,6 +1023,8 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm = Мон кемокстан ня валрисьмотне сявфт <wikipediaLink>эрти панжеда лисьмаста</wikipediaLink>, моньге ули мярьговома синь тонгоманди.
 sc-submit-button =
     .submitText = Прважамс
+sc-submit-filtered = Правилатнень коряс фильтраяфтф валрисьмотне аф ётайхть (прважайть видептьф валрисьмотнень верзияснон кода од валрисьмотнень)
+sc-submit-guidelines = Ваность <howToLink>ветямовалхнень</howToLink>.
 
 ## ADD LANGUAGE
 
