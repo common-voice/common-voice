@@ -998,9 +998,16 @@ sc-stats-title = Статистика
 sc-stats-last-update = Мекольце одкстоптомась: { $lastUpdate }
 sc-stats-last-update-never = Мекольце одкстоптомась: мзярдонга ашель
 sc-stats-updating = Одкстоптомась моли...
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice-ть Валрисьмонь Кочкамась кочкась { $sentenceCount } валрисьмот { $languageCount } кяльса!
 
 ## ADD
 
+sc-submit-err-select-lang = Кочкак кяль.
+sc-submit-err-add-sentences = Поладыть валрисьмот.
+sc-submit-err-add-source = Полатт лисьма, коста валрисьмотне сявфт.
 
 ## ADD LANGUAGE
 
