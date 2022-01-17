@@ -39,6 +39,7 @@ bg = búlgar
 bm = bambara
 bn = bengalí
 br = bretó
+bs = bosnià
 bxr = buriat
 ca = català
 cak = kaqtxikel
@@ -1113,6 +1114,10 @@ sc-stats-title = Estadístiques
 sc-stats-last-update = Última actualització: { $lastUpdate }
 sc-stats-last-update-never = Última actualització: mai
 sc-stats-updating = S'està actualitzant…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = El Common Voice Sentence Collector ha recollit { $sentenceCount } frases en { $languageCount } llengües!
 
 ## ADD
 
@@ -1165,6 +1170,7 @@ sc-add-lang-process-notice = Si la vostra llengua no apareix aquí, la podeu sol
 
 sc-confirm-are-you-sure =
     .message = Les frases no s'han enviat, esteu segur que voleu sortir?
+sc-confirm-sentences-title = Confirma les frases noves
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
@@ -1176,10 +1182,40 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = N'heu rebutjat { $countOfInvalidated }
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] No hi ha cap frase ja revisada.
+        [one] Ja s'ha revisat una frase. Bona feina!
+       *[other] Ja s'han revisat { $countOfReviewed } frases. Bona feina!
+    }
 sc-confirm-button-text = Confirma
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Cap frase en total.
+        [one] Una frase en total.
+       *[other] { $totalSentences } frases en total.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] No hi ha cap frase en revisió.
+        [one] Hi ha una frase en revisió.
+       *[other] Hi ha { $totalInReview } frases en revisió.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] No teniu cap frase per revisar.
+        [one] Teniu una frase per revisar.
+       *[other] Teniu { $unreviewedSentencesByYou } frases per revisar.
+    }
 sc-lang-info-review-now = <reviewLink>Reviseu ara!</reviewLink>
 sc-lang-info-add-more = <addLink>Afegiu més frases ara!</addLink>
 # Variables:
@@ -1246,8 +1282,13 @@ sc-review-form-source = Font:  { $sentenceSource }
 sc-review-form-button-reject = Rebutja
 sc-review-form-button-skip = Omet
 sc-review-form-button-approve = Aprova
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = També podeu usar les dreceres del teclat: Y per a aprovar, N per a rebutjar, S per a ometre
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = S
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = O
+sc-review-form-keyboard-usage-custom = També podeu utilitzar les dreceres de teclat: { sc-review-form-button-approve-shortcut } per a aprovar, { sc-review-form-button-reject-shortcut } per a rebutjar, { sc-review-form-button-skip-shortcut } per a ometre
 sc-review-form-button-submit =
     .submitText = Acaba la revisió
 # Variables:
