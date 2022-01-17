@@ -22,7 +22,7 @@ import authRouter, { authMiddleware } from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
 import * as proxy from 'http-proxy-middleware';
 import { createTaskQueues, TaskQueues } from './lib/takeout';
-import HttpStatus from 'http-status-codes';
+const HttpStatus = require('http-status-codes');
 
 require('source-map-support').install();
 const contributableLocales = require('locales/contributable.json');
