@@ -1003,6 +1003,8 @@ sc-logout-button = Лисемс
 
 ## SETTINGS
 
+sc-settings-title = Тев тиемат
+sc-settings-language-translated-warning = Тя кяльть лопанзон, улема, ашезь ётафта педа-пес. Тейть ули кода лездомс ётафтомать мархта.
 sc-settings-reset-skipped = Валхтомс вакска нолдаф валрисьмотнень.
 sc-settings-skipped-decription = Сяда инголе валрисьмотнень ванондомда тон нолдать синь вакска. Синь валхтомста тон тага синь няят. Тя кяльть эзда аф ащихть.
 sc-settings-show-all-button = Тага няфтемс сембе вакска нолдаф валрисьмотнень.
