@@ -1000,6 +1000,7 @@ sc-logout-button = Лисемс
 
 ## REVIEW
 
+sc-review-lang-not-selected = Тон ашеть кочка кяльть. Мольхть Профильс</profileLink> кялень кочкаманди.
 sc-review-title = Валрисьмотнень ванондомс
 sc-review-loading = Валрисьмотне аноклакшнихть...
 sc-review-select-language = Кочкак кяльть валрисьмонь ванондоманди.
