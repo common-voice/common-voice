@@ -1000,6 +1000,8 @@ sc-logout-button = Лисемс
 
 ## REVIEW
 
+sc-review-form-button-reject = Ёрдамс
+sc-review-form-button-skip = Нолдамс вакска
 sc-review-form-button-approve = Кемокстамс
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = И
@@ -1007,6 +1009,7 @@ sc-review-form-button-approve-shortcut = И
 sc-review-form-button-reject-shortcut = А
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = Л
+sc-review-form-keyboard-usage-custom = Тейть ули кода тага клавиатурань пунятнень тевс нолдамс: { sc-review-form-button-approve-shortcut } кемокстаманди, { sc-review-form-button-reject-shortcut } ёрдаманди, { sc-review-form-button-skip-shortcut } вакска нолдаманди
 sc-review-form-button-submit =
     .submitText = Шумордамс ванондомать
 # Variables:
