@@ -998,14 +998,25 @@ sc-login-err-try-again = Тяряфтк тага весть.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Профильсь:{ $username }
+sc-personal-err-lang-not-found = Аш кода нардамс кяльть: кяльсь апак мук
+sc-personal-err-remove = Аш кода нардамс кяльть
 sc-personal-your-languages = Кяльхне:
 sc-personal-remove-button = нардамс
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } тон поладоть
+sc-personal-not-added = Тон мзярс ашеть полада фкявок кяль.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Ванондомань критериятне
+sc-criteria-title = Ванондомань критериятне
+sc-criteria-make-sure = Варжак лацкаста эли аф тиф валрисьмотне критериятнень коряс:
+sc-criteria-item-1 = Валрисьмоть эса аш орфографиянь эльбятькст.
+sc-criteria-item-2 = Валрисмось лацкаста сёрматф грамматикань коряс.
+sc-criteria-item-3 = Валрисьмось морафтови.
+sc-criteria-item-4 = Кда валрисьмось тиф критериятнень коряс люпштак&quot;Кемокстамс&quot; пуня виде ширеса.
+sc-criteria-item-5-2 = Кда валрисьмось тиф критериятнень вяре каршес, люпштак &quot;Ёрдамс&quot; пуня кержи ширеса. Кафтолдондярят - нолдак сонь вакска, мольхть сай валрисьмонди.
 sc-criteria-item-6 = Улефтяряй валрисьмот ванондоманди, лезтт тейнек кочкамс сяда лама валрисьмода!
 
 ## REVIEW
