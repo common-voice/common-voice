@@ -91,6 +91,7 @@ kab = cabilenc
 kbd = kabardí
 ki = kikuiu
 kk = kazakh
+km = khmer
 kmr = kurd del nord
 ko = coreà
 kpv = komi
@@ -155,6 +156,7 @@ tg = tadjik
 th = tailandès
 ti = tigrinya
 tig = tigre
+tk = turcman
 tl = tagal
 tr = turc
 tt = tàtar
@@ -1130,6 +1132,7 @@ sc-submit-prompt =
 sc-submit-title = Afegeix frases
 sc-submit-select-language =
     .labelText = Trieu una llengua
+sc-submit-add-sentences = Afegiu frases de <wikipediaLink>domini públic</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Una frase per línia
 sc-submit-from-where = D'on són aquestes frases de <wikipediaLink>domini públic</wikipediaLink>?
@@ -1188,6 +1191,17 @@ sc-confirm-already-reviewed =
         [one] Ja s'ha revisat una frase. Bona feina!
        *[other] Ja s'han revisat { $countOfReviewed } frases. Bona feina!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] No hi ha cap frase per a l'enviar!
+        [one] Hi ha una frase preparada per a l'enviament!
+       *[other] Hi ha { $readyCount } frases preparades per a l'enviament!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } frases estan pendents de revisar. Si voleu, també podeu revisar les vostres frases ara abans d'enviar-les.
 sc-confirm-button-text = Confirma
 
 ## LANGUAGE INFO
