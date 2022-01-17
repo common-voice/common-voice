@@ -1000,10 +1000,23 @@ sc-logout-button = Лисемс
 
 ## REVIEW
 
+sc-review-form-button-submit =
+    .submitText = Шумордамс ванондомать
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] валрисьмот ванонтфольхть
+        [one] валрисьме ванонтфоль
+       *[other] валрисьмот ванонтфольхть
+    }
+sc-review-form-review-failure = Ванондомась аш кода ванфтомс. Тяряфтк тага весть меле.
+sc-review-link = Ванондомс
 
 ## SETTINGS
 
 sc-settings-title = Тев тиемат
+sc-settings-ui-language = Интерфейсонь кяль
 sc-settings-language-translated-warning = Тя кяльть лопанзон, улема, ашезь ётафта педа-пес. Тейть ули кода лездомс ётафтомать мархта.
 sc-settings-reset-skipped = Валхтомс вакска нолдаф валрисьмотнень.
 sc-settings-skipped-decription = Сяда инголе валрисьмотнень ванондомда тон нолдать синь вакска. Синь валхтомста тон тага синь няят. Тя кяльть эзда аф ащихть.
