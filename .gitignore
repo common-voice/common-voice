@@ -14,7 +14,7 @@ xcuserdata/
 .DS_Store
 .vscode/
 ZZidea
-
+.env-local-docker
 
 # Nubis
 nubis/librarian-puppet.tar.gz

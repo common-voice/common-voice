@@ -24,7 +24,7 @@ We provide a [docker-compose](https://docs.docker.com/compose/) setup to orchest
 
 You can find configurable options, like the port Common Voice is running on, in `/server/src/config-helper.ts`. If you want to modify any of these values, you will need to create a configuration file.
 
-If you're using Docker, you should save this file as `.env-local-docker` in the root directory of the project, and it will be formatted like unix env values, with each key having a `CV_` prefix. For example:
+If you're using Docker, you should save this file as `.env-local-docker` (see `.env-local-docker.example`) in the root directory of the project, and it will be formatted like unix env values, with each key having a `CV_` prefix. For example:
 
 ```
 CV_DB_ROOT_PASS="root"
