@@ -4,19 +4,6 @@
   "license": "MPL-2.0",
   "repository": "mozilla/voice-web",
   "private": true,
-  "dependencies": {
-    "@fluent/syntax": "^0.18.0",
-    "http-status-codes": "^1.4.0",
-    "request": "^2.88.0",
-    "request-promise-native": "^1.0.8"
-  },
-  "devDependencies": {
-    "concurrently": "^5.1.0",
-    "husky": "^4.2.1",
-    "prettier": "^2.1.1",
-    "pretty-quick": "^3.0.2",
-    "typescript": "4.0.2"
-  },
   "workspaces": [
     "common",
     "server",
@@ -25,6 +12,16 @@
   ],
   "engines": {
     "node": ">=12"
+  },
+  "devDependencies": {
+    "@fluent/syntax": "^0.18.0",
+    "concurrently": "^5.1.0",
+    "husky": "^4.2.1",
+    "prettier": "^2.1.1",
+    "pretty-quick": "^3.0.2",
+    "request-promise-native": "^1.0.8",
+    "request": "^2.88.0",
+    "typescript": "4.0.2"
   },
   "resolutions": {
     "browserslist": "^4.16.5",
