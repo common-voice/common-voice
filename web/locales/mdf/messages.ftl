@@ -1064,6 +1064,23 @@ sc-confirm-sentences-found =
         [one] 1 валрисьме мувсь.
        *[other] { $countOfSentences } валрисьмот мувсть.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } тон ёрдать
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Фкявок валрисьме афоль ванондов.
+        [one] 1 валрисьме ванондоволь ни. Пара тевсь!
+       *[other] { $countOfReviewed } валрисьмот ванондовольхть ни. Пара тевсь!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Фкявок валрисьме аф анок прважаманди!
+        [one] 1 валрисьме анок прважаманди!
+       *[other] { $readyCount } валрисьмот анокт прважаманди!
+    }
 
 ## LANGUAGE INFO
 
