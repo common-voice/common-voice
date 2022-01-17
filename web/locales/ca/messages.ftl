@@ -94,6 +94,7 @@ ki = kikuiu
 kk = kazakh
 km = khmer
 kmr = kurd del nord
+knn = konkani (devangari)
 ko = coreà
 kpv = komi
 kw = còrnic
