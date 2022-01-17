@@ -991,10 +991,18 @@ sc-logout-button = Лисемс
 
 ## LOGIN
 
+sc-login-err-try-again = Тяряфтк тага весть.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профильсь:{ $username }
 sc-personal-your-languages = Кяльхне:
+sc-personal-remove-button = нардамс
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } тон поладоть
 
 ## REVIEW CRITERIA
 
