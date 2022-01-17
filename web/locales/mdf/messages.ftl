@@ -1000,6 +1000,10 @@ sc-logout-button = Лисемс
 
 ## REVIEW
 
+sc-review-form-usage = Валрисьмонь кемокстаманди тяемс сурхнень эса виде шири. Тяемс кержи шири сонь ёрдаманди. Тяемс вяри вакска нолдаманди. <strong>Тят юкста вимс тонь ванондомацень.</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Лисьма: { $sentenceSource }
 sc-review-form-button-reject = Ёрдамс
 sc-review-form-button-skip = Нолдамс вакска
 sc-review-form-button-approve = Кемокстамс
