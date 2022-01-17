@@ -1081,6 +1081,10 @@ sc-confirm-ready =
         [one] 1 валрисьме анок прважаманди!
        *[other] { $readyCount } валрисьмот анокт прважаманди!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } валрисьмот апак ванонтт. Улендяряй мяльце тон тяни тага маштат эсь валрисьмотнень ванондомс прважамада инголе.
+sc-confirm-button-text = Кемокстамс
 
 ## LANGUAGE INFO
 
