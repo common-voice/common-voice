@@ -299,6 +299,8 @@ shortcut-record-toggle = s
 shortcut-record-toggle-label = Snemaj/Ustavi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Znova posnemi posnetek
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Zavrzi trenutno snemanje
 shortcut-submit-label = Pošlji posnetke
 request-language-text = Vaš jezik še ni vključen v Common Voice?
 request-language-text-learn = Naučite se, kako to zahtevati!
@@ -854,6 +856,7 @@ profile-form-delete = Izbriši profil
 
 ## Profile Download
 
+download-q = Želite prenesti svoje podatke?
 download-info = Povejte, kaj želite prenesti:
 download-profile-title = Profil
 download-profile-info = Vključuje e-poštni naslov, uporabniško ime in demografske podatke, ki so na voljo takoj
