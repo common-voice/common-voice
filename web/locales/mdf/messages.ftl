@@ -838,6 +838,7 @@ profile-form-delete = Нардамс профильть
 download-q = Эряви таргамс даннойцень?
 download-info = Азк тейнек мезе арьсят таргамс:
 download-profile-title = Профильсь
+download-profile-size = Аф лама байтта
 download-recordings-title = Сёрматфне
 download-recordings-size = Сяда сидеста мегабайтт
 download-size = Оцюлма
