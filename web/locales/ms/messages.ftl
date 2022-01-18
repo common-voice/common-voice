@@ -45,6 +45,7 @@ bxr = Bahasa Buryat
 ca = Bahasa Catalonia
 cak = Bahasa Kaqchikel
 ckb = Bahasa Kurdi Tengah
+cnh = Bahasa Hakha Chin
 co = Bahasa Corsica
 cs = Czech
 cv = Bahasa Chuvash
@@ -79,6 +80,7 @@ hy-AM = Bahasa Armenia
 hyw = Armenia Barat
 ia = Interlingua
 id = Bahasa Indonesia
+ig = Bahasa Igbo
 is = Bahasa Iceland
 it = Bahasa Itali
 izh = Bahasa Izhoria
@@ -87,6 +89,7 @@ ka = Bahasa Georgia
 kaa = Bahasa Karakalpak
 kab = Bahasa Kabyle
 kbd = Bahasa Kabardia
+ki = Bahasa Kikuyu
 kk = Bahasa Kazakh
 kmr = Bahasa Kurdi Utara
 ko = Bahasa Korea
@@ -170,11 +173,31 @@ privacy = Privasi
 terms = Terma
 cookies = Kuki
 faq = Soalan Lazim
+content-license-text = Kandungan tersedia di bawah <licenseLink>lesen Creative Commons</licenseLink>
+share-title = Bantu kami cari orang lain untuk menderma suara mereka!
+share-text = Bantu mengajar mesin bagaimana orang sebenar bercakap, sumbangkan suara anda di { $link }
+link-copied = Pautan Disalin
 back-top = Kembali ke atas
 logout = Log Keluar
 
 ## Home Page
 
+home-title = Common Voice adalah inisiatif Mozilla untuk membantu mengajar mesin bagaimana orang sebenar bercakap.
+default-tagline = Mozilla Common Voice adalah inisiatif untuk membantu mengajar mesin bagaimana orang sebenar bercakap.
+home-cta = Bersuara, menyumbang di sini!
+wall-of-text-start =
+    Suara itu semula jadi, suara adalah manusia. Itulah sebabnya kami terpesona dengan mencipta suara yang boleh digunakan
+    teknologi untuk mesin kami. Tetapi untuk membuat sistem suara, jumlah data suara yang sangat besar diperlukan.
+wall-of-text-more-desktop =
+    Kini anda dapat menyumbangkan suara anda untuk membantu kami membina pangkalan data suara sumber terbuka yang boleh digunakan oleh sesiapa sahaja
+    untuk membuat aplikasi inovatif untuk peranti dan web. Baca ayat untuk membantu mesin mengetahui bagaimana orang sebenar bercakap. Periksa kerja orang lain
+    penyumbang untuk meningkatkan kualiti. Sangat mudah!
+wall-of-text-first =
+    Suara adalah semulajadi, suara adalah manusia. Itulah sebabnya kami teruja mencipta teknologi suara yang boleh digunakan
+    untuk mesin kita. Tetapi untuk mewujudkan sistem suara, pembangun memerlukan data suara yang sangat besar.
+wall-of-text-second =
+    Sebilangan besar data yang digunakan oleh syarikat besar tidak tersedia untuk majoriti orang. Kami berpendapat bahawa itu menyekat inovasi. Oleh itu, kami telah melancarkan Common Voice, sebuah projek untuk membantu menjadikan pengecaman suara terbuka
+    dan boleh diakses oleh semua orang.
 
 ## Account Benefits
 
@@ -195,6 +218,12 @@ logout = Log Keluar
 
 
 ## ProfileForm
+
+
+## Profile - Email
+
+
+## Profile - Email
 
 
 ## FAQ
@@ -245,6 +274,9 @@ logout = Log Keluar
 ## Profile Delete
 
 
+## Profile Download
+
+
 ## Landing
 
 
@@ -261,4 +293,60 @@ logout = Log Keluar
 
 
 ## Demo Dashboard
+
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
