@@ -328,8 +328,12 @@ profile-form-native-language =
     .label = Materni jezik
 profile-form-additional-language =
     .label = Dodatni jezik
+profile-form-language =
+    .label = Jezik
 profile-form-accent =
     .label = Naglas
+profile-form-custom-accent-help-text =
+    .label = Kako bi opisali svoj naglas?
 profile-form-age =
     .label = Starost
 profile-form-gender-2 =
@@ -850,6 +854,26 @@ profile-form-delete = Izbriši profil
 
 ## Profile Download
 
+download-info = Povejte, kaj želite prenesti:
+download-profile-title = Profil
+download-profile-info = Vključuje e-poštni naslov, uporabniško ime in demografske podatke, ki so na voljo takoj
+download-profile-size = Nekaj bajtov
+download-recordings-title = Posnetke
+download-size = Velikost
+download-selected = Izbrano
+download-start = Prenesi podatke profila
+download-request = Zahtevaj posnetke
+download-requests = Pretekle zahteve za prenos posnetkov
+download-requests-info = Ko zahtevate svoje posnetke, jih zberemo v eno ali več datotek ZIP. Tukaj so vaše pretekle zahteve:
+download-request-button = Prenesi
+download-request-title = { $created }
+download-request-description = { $clipCount } glasovnih posnetkov, skupna velikost arhiva { $size }. Poteče { $expires }.
+download-request-archive-single = Ena datoteka ZIP, ki vsebuje
+download-request-archive-multiple = Razdeljeno na več datotek ZIP ({ $archiveCount }), ki vsebujejo
+download-request-refresh-button = Osveži
+download-request-modal-title = Povezave za prenos
+download-request-modal-description = Tu so povezave za prenos datotek ZIP.
+download-request-link-text = ZIP št. { $offset } od { $total }
 
 ## Landing
 
@@ -886,9 +910,12 @@ demo-account-sign-up = Pošlji povezavo za registracijo
 
 ## Validation criteria
 
+contribution-criteria-nav = Merila
 contribution-for-example = na primer
 contribution-volume-title = Glasnost
 contribution-just-unsure-title = Samo niste prepričani?
+see-more = <chevron></chevron>Prikaži več
+see-less = <chevron></chevron>Prikaži manj
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -897,6 +924,16 @@ contribution-just-unsure-title = Samo niste prepričani?
 
 ## HEADER/FOOTER
 
+sc-header-statistics = Statistika
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Prijavi napake
+sc-footer-translate = Prevedi stran
+sc-footer-privacy = Zasebnost
+sc-footer-terms = Pogoji
+sc-footer-cookies = Piškotki
+sc-login-signup-button = Prijava / Registracija
+sc-logout-button = Odjava
 
 ## HOME
 
@@ -912,9 +949,18 @@ contribution-just-unsure-title = Samo niste prepričani?
 
 ## STATS
 
+sc-stats-title = Statistika
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Zadnja posodobitev: { $lastUpdate }
+sc-stats-last-update-never = Zadnja posodobitev: nikoli
+sc-stats-updating = Posodabljanje …
 
 ## ADD
 
+sc-submit-err-select-lang = Izberite jezik.
+sc-submit-select-language =
+    .labelText = Izberi jezik
 
 ## ADD LANGUAGE
 
@@ -930,15 +976,22 @@ contribution-just-unsure-title = Samo niste prepričani?
 
 ## PROFILE
 
+sc-personal-your-languages = Vaši jeziki:
+sc-personal-remove-button = odstrani
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-form-button-reject = Zavrni
+sc-review-form-button-skip = Preskoči
+sc-review-form-button-approve = Odobri
 
 ## SETTINGS
 
+sc-settings-title = Nastavitve
+sc-settings-ui-language = Jezik vmesnika
 
 # [/SentenceCollector]
 
