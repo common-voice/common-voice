@@ -840,6 +840,7 @@ download-info = Азк тейнек мезе арьсят таргамс:
 download-profile-title = Профильсь
 download-profile-size = Аф лама байтта
 download-recordings-title = Сёрматфне
+download-recordings-info = Ащи mp3 файлань и мархтост сотнеф валрисьмотнень эзда, эряви пингсь анокламонза
 download-recordings-size = Сяда сидеста мегабайтт
 download-size = Оцюлма
 download-selected = Сявф
