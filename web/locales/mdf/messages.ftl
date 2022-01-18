@@ -1036,15 +1036,15 @@ sc-add-err-unexpected = Серверста лиссь апак учт эльбя
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
     { $duplicates ->
-        [0] Прважаф валрисьмотне. { $duplicates } валрисьмот ёрдафольхть кода дубликатт.
-        [one] Прважаф валрисьмотне. { $duplicates } валрисьме ёрдафоль кода дубликат.
-       *[other] Прважаф валрисьмотне. { $duplicates } валрисьмот ёрдафольхть кода дубликатт.
+        [0] Сувафтф валрисьмотне. { $duplicates } валрисьмот ёрдафольхть кода дубликатт.
+        [one] Сувафтф валрисьмотне. { $duplicates } валрисьме мрдафтфоль кода дубликат.
+       *[other] Сувафтф валрисьмотне. { $duplicates } валрисьмот мрдафтфольхть кода дубликатт.
     }
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
-        [0] Фкявок валрисьме афоль ёрдав
+        [0] Фкявок валрисьме афоль мрдафтов
         [one] 1 валрисьме ашезь ёта
        *[other] { $sentences }  валрисьмот ашесть ёта
     }
