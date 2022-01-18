@@ -39,9 +39,11 @@ bg = bolgarščina
 bm = bambarščina
 bn = bengalščina
 br = bretonščina
+bs = bosanščina
 bxr = burijatščina
 ca = katalonščina
 cak = kaqchikel
+ckb = osrednja kurdščina
 cnh = hakha chin
 co = korziščina
 cs = češčina
@@ -77,6 +79,8 @@ hy-AM = armenščina
 hyw = zahodna armenščina
 ia = interlingva
 id = indonezijščina
+ie = interlingve
+ig = igbo
 is = islandščina
 it = italijanščina
 izh = ingrijščina
@@ -140,7 +144,6 @@ te = teluščina
 tg = tadžiščina
 th = tajščina
 ti = tigrajščina
-Tig = tigrajščina
 tl = tagaloščina
 tr = turščina
 tt = tatarščina
@@ -882,3 +885,56 @@ demo-account-sign-up = Pošlji povezavo za registracijo
 contribution-for-example = na primer
 contribution-volume-title = Glasnost
 contribution-just-unsure-title = Samo niste prepričani?
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
