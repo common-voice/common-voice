@@ -59,7 +59,7 @@
     "lint:common": "eslint ./common",
     "lint:server": "eslint ./server",
     "lint:web": "eslint ./web",
-    "prettier": "yarn lint --write",
+    "prettier": "prettier \"**/*.{ts,tsx}\" --write",
     "start": "yarn build-common && concurrently -p \"[{name}]\" -n \"CO,BE,FE\" -c \"bgYellow.bold,bgBlue.bold,bgMagenta.bold,bgCyan.bold\" \"cd common && yarn dev\" \"cd server && yarn start\" \"cd web && yarn dev\"",
     "start:prod": "yarn build-common && node server/js/main.js",
     "start:maint": "cd maintenance && yarn dev",
