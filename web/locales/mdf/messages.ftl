@@ -1069,17 +1069,17 @@ sc-confirm-sentences-found =
 sc-confirm-rejected-by-you = { $countOfInvalidated } ашеть кемокста
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
-        [0] Фкявок валрисьме афоль ванондов.
-        [one] 1 валрисьме ванондоволь ни. Пара тевсь!
-       *[other] { $countOfReviewed } валрисьмот ванондовольхть ни. Пара тевсь!
+        [0] Фкявок валрисьме афоль вана.
+        [one] 1 валрисьме ванфоль ни. Пяк цебярь!
+       *[other] { $countOfReviewed } валрисьмот ванфольхть ни. Пяк цебярь!
     }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
-        [0] Фкявок валрисьме аф анок прважаманди!
-        [one] 1 валрисьме анок прважаманди!
-       *[other] { $readyCount } валрисьмот анокт прважаманди!
+        [0] Фкявок валрисьме аф анок сувафтоманди!
+        [one] 1 валрисьме анок сувафтоманди!
+       *[other] { $readyCount } валрисьмот анокт сувафтоманди!
     }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
