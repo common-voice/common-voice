@@ -369,33 +369,138 @@ localization = Lokalisasi
 
 data-download-modal = Anda akan memulakan muat turun <size> { $size } GB </size>, teruskan?
 review-keep-recordings = Simpan rakaman
+review-delete-recordings = Padamkan rakaman saya
 
 ## Datasets Page
 
+language = Bahasa
+# File size in gigabytes
+size = Saiz
+email-to-download = Masukkan E-mel untuk Muat turun
+confirm-size = Anda bersedia untuk memulakan muat turun <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Anda bersetuju</b> untuk tidak cuba menentukan identiti penceramah dalam set data Common Voice
+download-language = Muat turun { $language }
+validated-hours = Bilangan jam yang telah disahkan
+recorded-hours = Bilangan jam yang telah dirakam
+get-started-speech = Mulakan dengan Pengecaman Pertuturan
+other-datasets = Set Data Suara Lain
+feedback-q = Ada Maklum balas?
+data-other-voxforge-description = VoxForge ditubuhkan untuk mengumpulkan ucapan yang ditranskrip untuk digunakan dengan Enjin Pengecaman Pertuturan Ucapan Sumber Bebas dan Terbuka.
+go-languages-page = Pergi ke Halaman Bahasa
+more = Selanjutnya
+close = Tutup
+download = Muat turun
+dataset-version = Versi
 
 ## Download Modal
 
+download-title = Muat turun anda telah bermula.
+download-helpus = Bantu kami membina komuniti di sekeliling teknologi suara, terus berhubung melalui e-mel.
+download-back = Kembali ke set data Common Voice
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Nama
+contact-form-message =
+    .label = Mesej
+contact-required = *diperlukan
 
 ## Request Language Modal
 
+request-language-title = Permintaan Bahasa
+request-language-form-language =
+    .label = Bahasa
+request-language-success-title = Permintaan bahasa berjaya dihantar, terima kasih.
+select-language = Pilih Bahasa...
+other-language = Bahasa Lain
 
 ## Languages Overview
 
+language-section-in-progress = Sedang Dijalankan
+language-section-launched = Dilancarkan
+languages-show-more = Lihat lagi
+languages-show-less = Lihat Kurang
+language-meter-in-progress = Kemajuan
+language-total-progress = Jumlah
+language-search-input =
+    .placeholder = Carian
+language-speakers = Penceramah
+localized = Dilokalisasi
+sentences = Ayat
+total-hours = Hrs Disahkan
 
 ## Contribution
 
+action-click = Klik
+contribute = Penyumbang
+listen = Dengar
+skip = Langkau
+shortcuts = Pintasan
+record-cta = Mula Merakam
+record-must-allow-microphone = Anda mesti membenarkan akses mikrofon.
+record-error-too-short = Rakaman terlalu pendek.
+record-error-too-quiet = Rakaman terlalu senyap.
+record-cancel = Batalkan Rakaman Semula
+record-three-more-instruction = Tiga lagi!
+share-clip = Kongsi klip anda
+share-common-voice = Kongsi Common Voice
+review-instruction = Semak & rakam semula klip jika diperlukan
+clips-uploaded = Klip Dimuat Naik
+record-abort-title = Selesaikan rakaman terlebih dahulu?
+record-abort-text = Pergi sekarang bermakna anda akan kehilangan kemajuan
+record-abort-submit = Hantar klip
+record-abort-continue = Selesai merakam
+record-abort-delete = Keluar & Padam klip
+listen-again-instruction = Syabas!<playIcon></playIcon> Dengar sekali lagi apabila anda sudah bersedia
+listen-last-time-instruction = <playIcon> </playIcon> Terakhir!
+listen-empty-state = Kami kehabisan klip untuk mengesahkan dalam bahasa ini ...
+speak-empty-state = Kami kehabisan ayat untuk dirakam dalam bahasa ini ...
+speak-empty-state-cta = Menyumbang ayat
+record-button-label = Rakam suara anda
+share-title-new = <bold>Bantu kami</bold> mencari lebih banyak suara
+keep-track-profile = Jejaki kemajuan anda dengan profil
+login-to-get-started = Log masuk atau daftar untuk mulakan
+target-segment-first-card = Anda memberikan sumbangan untuk segmen sasaran pertama kami
+target-segment-generic-card = Anda menyumbang kepada segmen sasaran
+target-segment-add-voice = Tambahkan Suara Anda
+target-segment-learn-more = Ketahui Selanjutnya
 
 ## Reporting
 
+report-ask = Apakah isu-isu yang anda alami dengan ayat ini?
+report-grammar-or-spelling = Kesalahan tatabahasa / ejaan
+report-different-language = Bahasa berbeza
+report-different-language-detail = Bahasa ini ditulis dalam bahasa yang berbeza daripada apa yang saya bercakap.
+report-difficult-pronounce = Sukar untuk disebut
+report-difficult-pronounce-detail = Ia mengandungi perkataan atau frasa yang sukar dibaca atau diucapkan.
+report-other-comment =
+    .placeholder = Komen
+success = Berjaya
+continue = Teruskan
+report-success = Laporan berjaya dihantar
 
 ## Goals
 
+days =
+    { $count ->
+       *[other] Hari
+    }
+recordings =
+    { $count ->
+       *[other] Rakaman
+    }
 
 ## Dashboard
 
+your-languages = Bahasa Anda
+toward-next-goal = Ke arah matlamat seterusnya
+goal-reached = Matlamat tercapai
+clips-you-recorded = Klip yang Anda Rakam
+clips-you-validated = Klip yang Anda Sahkan
+todays-recorded-progress = Kemajuan Common Voice hari ini pada klip yang dirakam
 
 ## Custom Goals
 
