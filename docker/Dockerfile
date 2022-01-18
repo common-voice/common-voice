@@ -1,14 +1,10 @@
 FROM node:12-stretch
 
-ARG MAINTAINER="Alberto del Barrio <alberto@mozilla.com>"
 ARG COMMIT="local-build"
 ARG TAG=""
 
 LABEL commit=${COMMIT}
 LABEL tag=$TAG
-LABEL maintainer=${MAINTAINER}
-
-MAINTAINER ${MAINTAINER}
 
 # Allow exposing HTTP endpoint
 EXPOSE 9000
@@ -24,7 +20,7 @@ RUN mkdir /code/logs
 
 # Install dependencies
 RUN apt-get update && \
-    apt-get install -y apt-transport-https && \
+    apt-get install -y apt-transport-https build-essential cmake && \
     curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
     echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list && \
     apt-get update && \

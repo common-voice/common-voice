@@ -276,11 +276,13 @@ export const up = async function (db: any): Promise<any> {
       `SELECT id FROM locales WHERE name = "${language}"`
     );
 
-    for (const accent_token in ACCENTS[language]) {
-      await db.runSql(`
-        INSERT INTO accents (locale_id, accent_name, accent_token)
-          VALUES (${row.id}, "${ACCENTS[language][accent_token]}", "${accent_token}")
-      `);
+    if (row && row.id) {
+      for (const accent_token in ACCENTS[language]) {
+        await db.runSql(`
+          INSERT INTO accents (locale_id, accent_name, accent_token)
+            VALUES (${row.id}, "${ACCENTS[language][accent_token]}", "${accent_token}")
+        `);
+      }
     }
   }
 };

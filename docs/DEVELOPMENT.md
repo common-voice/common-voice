@@ -24,13 +24,15 @@ We provide a [docker-compose](https://docs.docker.com/compose/) setup to orchest
 
 You can find configurable options, like the port Common Voice is running on, in `/server/src/config-helper.ts`. If you want to modify any of these values, you will need to create a configuration file.
 
-If you're using Docker, you should save this file as `.env-local-docker` in the root directory of the project, and it will be formatted like unix env values, with each key having a `CV_` prefix. For example:
+If you're using Docker, you should save this file as `.env-local-docker` (see `.env-local-docker.example`) in the root directory of the project, and it will be formatted like unix env values, with each key having a `CV_` prefix. For example:
 
 ```
 CV_DB_ROOT_PASS="root"
 CV_MYSQLHOST="db"
 CV_IMPORT_SENTENCES="true"
 ```
+
+> You can copy the example with `cp .env-local-docker.example .env-local-docker`.
 
 ### Setup steps
 
@@ -51,6 +53,17 @@ This is going to:
 You can visit the website at [http://localhost:9000](http://localhost:9000).
 
 **Note**: Docker can be a very memory-intensive process. If you notice intermittent failures, or if features like auto-rebuilding crash, try increasing Docker's available memory from within Docker's _Preferences > Resources_ settings.\*\*
+
+#### Apple M1 Silicon
+
+There is an outstanding issue where [MySQL doesn't work in Docker on Apple Silicon (as of 17th January 2022)](https://docs.docker.com/desktop/mac/apple-silicon/#known-issues). You can instead replace it with MariaDB in a [`docker-compose.override.yml` file](https://docs.docker.com/compose/extends/).
+
+```yml
+services:
+  db:
+    image: mariadb:10.4
+    command: mysqld --sql_mode="STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION"
+```
 
 ### Troubleshooting
 
