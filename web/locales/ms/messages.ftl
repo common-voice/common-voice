@@ -80,6 +80,7 @@ hy-AM = Bahasa Armenia
 hyw = Armenia Barat
 ia = Interlingua
 id = Bahasa Indonesia
+ie = Bahasa Interlingue
 ig = Bahasa Igbo
 is = Bahasa Iceland
 it = Bahasa Itali
@@ -100,6 +101,7 @@ lg = Luganda
 lij = Bahasa Liguria
 lt = Bahasa Lithuania
 lv = Bahasa Latvia
+mai = Bahasa Maithili
 mdf = Bahasa Moksha
 mg = Bahasa Malagasi
 mhr = Meadow Mari
@@ -114,11 +116,14 @@ mt = Bahasa Malta
 my = Bahasa Burma
 myv = Erzya
 ne-NP = Bahasa Nepal
+nia = Bahasa Nias
 nl = Bahasa Belanda
 nn-NO = Nynorsk
+nyn = Bahasa Nyankole
 oc = Bahasa Occitan
 or = Bahasa Odia
 pa-IN = Bahasa Punjabi
+pap-AW = Bahasa Papiamento (Aruba)
 pl = Bahasa Poland
 ps = Bahasa Pashto
 pt = Bahasa Portugis
@@ -130,6 +135,7 @@ rw = Bahasa Rwanda
 sah = Bahasa Sakha
 sc = Bahasa Sardinia
 scn = Bahasa Sicilia
+shi = Bahasa Shilha
 si = Bahasa Sinhala
 sk = Bahasa Slovak
 sl = Bahasa Slovenia
@@ -501,36 +507,121 @@ goal-reached = Matlamat tercapai
 clips-you-recorded = Klip yang Anda Rakam
 clips-you-validated = Klip yang Anda Sahkan
 todays-recorded-progress = Kemajuan Common Voice hari ini pada klip yang dirakam
+todays-validated-progress = Kemajuan Common Voice hari ini pada klip disahkan
+stats = Statistik
+awards = Anugerah
+you = Anda
+everyone = Semua orang
+contribution-activity = Aktiviti Sumbangan
+top-contributors = Penyumbang Teratas
+recorded-clips = Klip yang Dirakam
+validated-clips = Klip yang Disahkan
+total-approved = Jumlah Diluluskan
+overall-accuracy = Ketepatan Keseluruhan
+set-visibility = Tetapkan ketampakan saya
+show-ranking = Tunjuk rangking saya
 
 ## Custom Goals
 
+get-started-goals = Mulakan dengan matlamat
+create-custom-goal = Cipta Matlamat Kustom
+goal-type = Apakah jenis matlamat yang ingin anda bina?
+both-speak-and-listen = Kedua-duanya
+both-speak-and-listen-long = Kedua-duanya (Cakap dan Dengar)
+daily-goal = Matlamat Harian
+weekly-goal = Matlamat Mingguan
+easy-difficulty = Mudah
+average-difficulty = Purata
+difficult-difficulty = Sukar
+pro-difficulty = Pro
+lose-goal-progress-warning = Dengan mengedit matlamat anda, anda mungkin kehilangan kemajuan yang ada.
+want-to-continue = Adakah anda mahu teruskan?
+finish-editing = Selesai mengedit dahulu?
+lose-changes-warning = Meninggalkan sekarang bermakna anda akan kehilangan perubahan anda
+build-custom-goal = Bina matlamat kustom
+set-a-goal = Tetapkan matlamat
+cant-decide = Tidak dapat membuat keputusan?
+how-many-per-day = Hebat! Berapa banyak klip sehari?
+how-many-a-week = Hebat! Berapa banyak klip seminggu?
+which-goal-type = Adakah anda mahu bercakap, mendengar atau kedua-duanya?
+n-clips-pluralized =
+    { NUMBER($count) ->
+       *[other] { $count } klip
+    }
+help-share-goal = Bantu kami mencari lebih banyak suara, kongsi matlamat anda
+confirm-goal = Sahkan Matlamat
+goal-interval-weekly = Mingguan
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Kongsi { $count } Klip Sasaran Harian anda untuk { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Kongsi { $count } Klip Matlamat Mingguan anda untuk { $type }
+share-goal-type-speak = Bercakap
+share-goal-type-listen = Mendengar
+share-goal-type-both = Bercakap dan Mendengar
+weekly-goal-created = Matlamat mingguan anda telah dicipta
+daily-goal-created = Matlamat harian anda telah dicipta
+track-progress = Jejak kemajuan di sini dan di halaman statistik anda.
+return-to-edit-goal = Kembali ke sini untuk mengedit matlamat anda pada bila-bila masa.
+share-goal = Kongsi matlamat saya
 
 ## Profile Delete
 
+delete-q = Adakah anda ingin meminta rakaman suara anda juga dihapuskan, atau adakah anda lebih suka menyimpannya dalam set data Common Voice?
+keep = Simpan
+remove = Buang
+profile-form-delete = Hapus Profil
 
 ## Profile Download
 
 
 ## Landing
 
+welcome-staff = Selamat Datang kakitangan { $company }!
+login-company = Log masuk / Daftar dengan e-mel { $company }
+read-more-about = Baca lebih lanjut di halaman Perihal kami
 
 ## DemoLayout
 
+demo-get-started = Mari kita mulakan
+demo-welcome = Selamat Datang ke Common Voice
+demo-welcome-subheader = Berminat untuk belajar lebih banyak dan menyumbang kepada projek ini?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice adalah set data suara berbilang bahasa terbesar di dunia yang tersedia untuk umum.
+card-button-next = Berikutnya
+card-button-back = Undur
+demo-language-select-label = Layari Bahasa
+demo-eofy-header = Keluaran Akhir Tahun 2019
+demo-eofy-sub_header = Set Data Suara, Sedia untuk diMuat turun
+demo-account = Akaun
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = Masukkan e-mel untuk hantar pautan pendaftaran
+demo-account-sign-up = Hantar pautan pendaftaran
 
 ## Demo Contribute
 
+demo-contribute-card-header = Sedia untuk menambah suara anda atau meminjamkan telinga anda?
+demo-listen-subtitle = Bersedia untuk menyumbang?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-criteria-nav = Kriteria
+contribution-criteria-link = Fahami kriteria sumbangan
+contribution-criteria-page-title = Kriteria Sumbangan
+contribution-criteria-page-description = Fahami apa yang harus dicari semasa mendengar klip suara dan bantu menjadikan rakaman suara anda juga lebih kaya!
+contribution-for-example = sebagai contoh
+contribution-misreadings-title = Kesalahan membaca
+contribution-misreadings-description-extended-list-4 = Kehilangan akhir perkataan terakhir dengan memotong rakaman terlalu cepat.
+contribution-misreadings-description-extended-list-5 = Mengambil beberapa percubaan untuk membaca satu perkataan.
+contribution-misreadings-example-3-explanation = [Rakaman terputus sebelum akhir perkataan]
+contribution-misreadings-example-6-explanation = [Sepatutnya "Kami"]
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
