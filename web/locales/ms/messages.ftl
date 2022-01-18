@@ -262,33 +262,113 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rakam semula klip
 shortcut-submit = Kembali
 shortcut-submit-label = Hantar Klip
+request-language-text-learn = Ketahui cara memintanya di sini!
+request-language-button = Permintaan Bahasa
 
 ## ProjectStatus
 
+status-contribute = Sumbang Suara Anda
+status-hours =
+    { $hours ->
+       *[other] { $hours } jam yang disahkan setakat ini!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Matlamat Seterusnya: { $goal }
+english = Bahasa Inggeris
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Nama Pengguna
+profile-form-additional-language =
+    .label = Bahasa Tambahan
+profile-form-accent =
+    .label = Loghat
+profile-form-age =
+    .label = Umur
+profile-form-gender-2 =
+    .label = Jantina
+leaderboard-visibility =
+    .label = Ketampakan Papan Pemuka
+hidden = Tersembunyi
+profile-form-submit-save = Simpan
+profile-form-submit-saved = Telah disimpan
+male = Lelaki
+female = Perempuan
+# Gender
+other = Lain-lain
+why-profile-text =
+    Dengan memberikan beberapa maklumat mengenai diri anda, data audio yang anda kirimkan ke Common Voice akan lebih berguna untuk Ucapan
+    Enjin pengecaman yang menggunakan data ini untuk meningkatkan ketepatannya.
+dashboard = Papan Pemuka
+build-profile = Bina Profil
+avatar = Avatar
+goals = Matlamat
+settings = Tetapan
+edit-profile = Edit Profil
+profile-create-success = Berjaya, profil dicipta!
+profile-close = Tutup
+profile-explanation = Jejaki kemajuan anda dengan profil dan bantu data suara kami menjadi lebih tepat.
+thanks-for-account = Terima kasih kerana mengesahkan akaun anda, sekarang mari bina profil anda.
+why-demographic = Kenapa ini penting?
+accept-privacy = Saya setuju anda mengendalikan maklumat ini seperti yang dijelaskan dalam <privacyLink>Polisi Privasi</privacyLink> Mozilla
+login-signup = Log Masuk / Daftar
+edit = Sunting
+email-subscriptions = Langganan E-mel
+download-profile = Muat turun Data Saya
+contribution-experience = Pengalaman Sumbangan
+skip-submission-feedback = Langkau Penghantaran Maklum balas
+skip-submission-note = Catatan: Anda masih perlu memilih antara Cakap atau Dengarkan untuk menukar jenis sumbangan.
 
 ## Profile - Email
 
+browse-file-title = Muat naik fail imej
+connect-gravatar = Sambung dengan Gravatar
+gravatar_not_found = Tiada gravatar dijumpai untuk e-mel anda
+file_too_large = Fail yang dipilih terlalu besar
+avatar-uploaded = Avatar dimuat naik
+max-file-size = { $kb }kb maksima
 
 ## Profile - Email
 
+manage-subscriptions = Urus Langganan
+manage-email-subscriptions = Urus Langganan E-mel
+email-already-used = E-mel sudah digunakan untuk akaun lain
+add-language = Tambah Bahasa
+change-email-setings = Tukar e-mel anda melalui Tetapan di bawah Identiti Log Masuk
 
 ## FAQ
 
+faq-title = Soalan Lazim
+faq-what-cv-q = Apakah Common Voice?
+faq-why-important-q = Mengapa ia penting?
+faq-how-get-q = Bagaimana saya boleh mendapatkan data Common Voice?
+faq-when-release2-q = Bilakah anda akan mengeluarkan data Common Voice dalam bahasa lain?
+faq-why-mission-q = Mengapa Common Voice menjadi sebahagian daripada misi Mozilla?
+faq-what-cv-and-deepspeech-q = Apa perbezaan antara Common Voice dan Deep Speech?
+faq-why-my-lang-q = Mengapa bahasa saya belum dimasukkan lagi?
+faq-what-quality-q = Apakah tahap kualiti audio yang diperlukan untuk klip suara digunakan dalam set data?
+faq-why-10k-hours-q = Mengapa 10,000 jam disahkan matlamat setiap bahasa bagi menangkap audio?
+faq-how-calc-hours-q = Bagaimana Common Voice mengira jam?
+faq-where-src-from-2-q = Dari manakah teks sumber berasal?
 
 ## ABOUT US
 
+about-title = Mengapa Common Voice?
+mycroft-subtitle = Kecerdasan buatan
 
 ## Glossary
 
+localization = Lokalisasi
 
 ## Error pages
 
 
 ## Data
 
+data-download-modal = Anda akan memulakan muat turun <size> { $size } GB </size>, teruskan?
+review-keep-recordings = Simpan rakaman
 
 ## Datasets Page
 
