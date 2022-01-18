@@ -198,21 +198,70 @@ wall-of-text-first =
 wall-of-text-second =
     Sebilangan besar data yang digunakan oleh syarikat besar tidak tersedia untuk majoriti orang. Kami berpendapat bahawa itu menyekat inovasi. Oleh itu, kami telah melancarkan Common Voice, sebuah projek untuk membantu menjadikan pengecaman suara terbuka
     dan boleh diakses oleh semua orang.
+show-wall-of-text = Baca Selanjutnya
+help-us-title = Bantu kami mengesahkan ayat!
+help-us-explain = Tekan main, dengar & beritahu kami: adakah mereka menyebut ayat di bawah dengan tepat?
+no-clips-to-validate = Nampaknya tidak ada klip untuk didengarkan dalam bahasa ini. Bantu kami mengisi barisan dengan merakam beberapa sekarang.
+vote-yes = Ya
+vote-no = Tidak
+toggle-play-tooltip = Tekan { shortcut-play-toggle }  untuk togol mode main
+speak-subtitle = Sumbang suara anda
+speak-paragraph = Merakam klip suara adalah bahagian penting dalam membina set data terbuka kami; ada juga yang mengatakan itu adalah bahagian yang menyeronokkan juga.
+speak-goal-text = Klip dirakam
+listen-subtitle = Tolong kami mengesahkan suara
+listen-paragraph = Mengesahkan klip yang disumbangkan sama pentingnya untuk misi Common Voice. Dengarkan dan bantu kami membuat data suara sumber terbuka yang berkualiti.
+listen-goal-text = Klip disahkan
+hours-validated = Jam Disahkan
+todays-progress = Kemajuan Hari ini
+help-reach-goal = Bantu kami untuk mencapai { $goal }
+ready-to-record = Bersedia untuk menyumbangkan suara anda?
+all-locales = Semua
+today = Hari ini
+help-make-dataset = Bantu kami membina set data berkualiti tinggi dan terbuka untuk umum
+sign-up-account = Daftar untuk mendapatkan akaun
+email-subscription-title = Daftar untuk mendapatkan kemas kini emel
+email-subscription-title-new = Daftar untuk buletin Common Voice, peringatan matlamat dan kemas kini kemajuan
 
 ## Account Benefits
 
+benefits = Kebaikan
+keep-track = Jejaki kemajuan dan metrik anda dalam pelbagai bahasa.
+compare-progress = Lihat bagaimana kemajuan anda dibandingkan dengan penyumbang lain di seluruh dunia.
 
 ## What's public
 
+recordings-and-locale-public = Jumlah rakaman dan bahasa yang anda sumbangkan akan menjadi umum.
+username-optin-public = Anda boleh pilih untuk jadikan nama pengguna anda terbuka atau tanpa nama.
+username-email-not-demographic = Nama pengguna dan e-mel anda tidak akan dikaitkan dengan data yang diterbitkan.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Main/Berhenti
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Rekod/Berhenti
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Rakam semula klip
+shortcut-submit = Kembali
+shortcut-submit-label = Hantar Klip
 
 ## ProjectStatus
 
