@@ -32,6 +32,8 @@ CV_MYSQLHOST="db"
 CV_IMPORT_SENTENCES="true"
 ```
 
+> You can copy the example with `cp .env-local-docker.example .env-local-docker`.
+
 ### Setup steps
 
 Run the following commands:
