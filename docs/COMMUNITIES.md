@@ -13,7 +13,7 @@ Many language communities are self organising and have their contact channels on
 * Catalan (`ca`):
   * [Telegram](https://t.me/softcatala_tecnologiesparla)
 * Czech (`cs`):
-  * [Telegram](http://t.me/MozillaCZ)
+  * [Matrix](https://matrix.to/#/#common-voice-czech:mozilla.org)
 * Dhivehi (`dv`):
    * [Web](https://dhivehi.ai/)
    * [Discord](https://discord.com/invite/5ZdTHsN8Mn)
