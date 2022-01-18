@@ -1066,7 +1066,7 @@ sc-confirm-sentences-found =
     }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
-sc-confirm-rejected-by-you = { $countOfInvalidated } тон ёрдать
+sc-confirm-rejected-by-you = { $countOfInvalidated } ашеть кемокста
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Фкявок валрисьме афоль ванондов.
