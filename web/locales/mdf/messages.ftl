@@ -987,21 +987,21 @@ sc-my-err-failed-delete = Аш кода нардамс кочкаф валрис
 
 sc-rejected-title = Мрдафтф валрисьмот/азфт
 sc-rejected-loading = Мрдафтф валрисьмотне аноклакшневихть...
-sc-rejected-err-fetching = Мрдаф валрисьмотнень аноклакшневомста лиссь эльбятькс. Тяряфтт тага весть.
+sc-rejected-err-fetching = Мрдафтф валрисьмотнень аноклакшневомста лиссь эльбятькс. Тяряфтт тага весть.
 sc-rejected-none-found = Фкявок ёрдаф валрисьме ашезь мув!
 
 ## STATS
 
-sc-stats-title = Статистика
+sc-stats-title = Лувомась
 # Variables:
 #   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Мекольце одкстоптомась: { $lastUpdate }
-sc-stats-last-update-never = Мекольце одкстоптомась: мзярдонга ашель
-sc-stats-updating = Одкстоптомась моли...
+sc-stats-last-update = Мекольце одкстомомась: { $lastUpdate }
+sc-stats-last-update-never = Мекольце одкстомомась: мзярдонга ашель
+sc-stats-updating = Одкстомомась моли...
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
-sc-stats-summary = Common Voice-ть Валрисьмонь Кочкамась кочкась { $sentenceCount } валрисьмот { $languageCount } кяльса!
+sc-stats-summary = Common Voice-ть Валрисьмонь Кочкамась кочкась { $sentenceCount } валрисьме { $languageCount } кяльса!
 
 ## ADD
 
@@ -1019,10 +1019,10 @@ sc-submit-ph-one-per-line =
     .placeholder = Фкя валрисьме китьксс
 sc-submit-from-where = Коста сявфольхть ня <wikipediaLink>эрти панжада лисьмаста</wikipediaLink> валрисьмотне?
 sc-submit-ph-read-how-to =
-    .placeholder = Кафтолдондярят кода видеста поладомс валрисьмот - лувк минь лезкс Кода тиемс
+    .placeholder = Кафтолдондярят кода видеста поладомс валрисьмот - лувк минь лезкс Кода
 sc-submit-confirm = Мон кемокстан ня валрисьмотне сявфт <wikipediaLink>эрти панжеда лисьмаста</wikipediaLink>, моньге ули мярьговома синь тонгоманди.
 sc-submit-button =
-    .submitText = Прважамс
+    .submitText = Сувафтомс
 sc-submit-filtered = Правилатнень коряс фильтраяфтф валрисьмотне аф ётайхть (прважайть видептьф валрисьмотнень верзияснон кода од валрисьмотнень)
 sc-submit-guidelines = Ваность <howToLink>ветямовалхнень</howToLink>.
 
