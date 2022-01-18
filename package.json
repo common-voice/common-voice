@@ -19,8 +19,8 @@
     "husky": "^4.2.1",
     "prettier": "^2.1.1",
     "pretty-quick": "^3.0.2",
-    "request-promise-native": "^1.0.8",
     "request": "^2.88.0",
+    "request-promise-native": "^1.0.8",
     "typescript": "4.0.2"
   },
   "resolutions": {
@@ -57,5 +57,6 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "packageManager": "yarn@1.22.17"
 }
