@@ -1113,38 +1113,38 @@ sc-lang-info-left-for-you =
         [one] 1 валрисьме лядсь ваноманди.
        *[other] { $unreviewedSentencesByYou } валрисьмот лядсть ваноманди.
     }
-sc-lang-info-review-now = <reviewLink>Тяни ванонтт!</reviewLink>
+sc-lang-info-review-now = <reviewLink>Тяни ватт!</reviewLink>
 sc-lang-info-add-more = <addLink>Тяни поладыть сяда лама валрисьмот!</addLink>
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
-        [0] Аш валидация мархта валрисьмот.
-        [one] 1 валидация мархта валрисьме.
-       *[other] { $validatedSentences } валидация мархта валрисьмот.
+        [0] Аш кемокстаф валрисьмот.
+        [one] 1 кемокстаф валрисьме.
+       *[other] { $validatedSentences } кемокстаф валрисьмода.
     }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
-        [0] Аш ёрдаф валрисьмот.
-        [one] 1 ёрдаф валрисьме.
-       *[other] { $rejectedSentences } ёрдаф валрисьмот.
+        [0] Аш мрдафтф валрисьмот.
+        [one] 1 мрдафтф валрисьме.
+       *[other] { $rejectedSentences } мрдафтф валрисьмода.
     }
 
 ## LOGIN
 
-sc-login-err-failed = Сувама вал эльбятькс
-sc-login-err-try-again = Тяряфтк тага весть.
+sc-login-err-failed = Сувама ваcтть эльбятьксоц
+sc-login-err-try-again = Тяряфтт тага весть.
 
 ## PROFILE
 
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Профильсь:{ $username }
-sc-personal-err-lang-not-found = Аш кода нардамс кяльть: кяльсь апак мук
+sc-personal-err-lang-not-found = Аш кода нардамс кяльть: кяльсь ашезь мув
 sc-personal-err-remove = Аш кода нардамс кяльть
-sc-personal-your-languages = Кяльхне:
+sc-personal-your-languages = Тонь кяльхне:
 sc-personal-remove-button = нардамс
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
