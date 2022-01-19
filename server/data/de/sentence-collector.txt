@@ -1020,6 +1020,7 @@ Als wir zu Englisch wechselten, stakselte ich nur noch herum.
 Als zuverlässiges Sturmgewehr ist die Kalaschnikow bei Terroristen beliebt.
 Also Donnerstag wäre Behördentag.
 Also Kinder, dafür haben wir doch keine Zeit.
+Also Kinder, so kann ich nicht arbeiten!
 Also Kinder, was fehlt noch in unserem Einkaufswagen?
 Also Kinders, so kann ich nicht lesen.
 Also Kirsten, Pflicht oder Wahrheit?
@@ -2212,7 +2213,6 @@ Ausgetragen wird der Wettbewerb in Bergisch Gladbach.
 Ausgiebig vergleicht Frau Schröter die Preise.
 Auskunftsersuchen und Löschungsersuchen bitte schriftlich an den behördlichen Datenschutzbeauftragten schicken.
 Auslandsaufenthalte werden massiv überbewertet.
-Ausnahmen bestätigen die Regel.
 Ausnahmen werden nur bei Krankgeschriebenen erlaubt.
 Ausnahmen werden nur in begründeten Einzelfällen bewilligt.
 Ausschließen kann das niemand.
@@ -4714,7 +4714,6 @@ Das Objekt wird dreidimensional eingescannt.
 Das Oktoberfest sollte man da lassen, wo es herkommt.
 Das Opossum stellt sich nur tot.
 Das Ordnungsamt kontrolliert die Einhaltung des Leinenzwangs für Hunde.
-Das Paar hat keine Kinder.
 Das Paket kommt morgen früh in Hamburg an.
 Das Paket wird nicht geöffnet.
 Das Paket wurde bereits an die Spedition übergeben.
@@ -6701,6 +6700,7 @@ Der Integralsatz von Gauß leuchtet ein.
 Der Internet-Router gab am ersten Tag des Lockdowns den Geist auf.
 Der Internetkonsum junger Menschen nimmt rapide ab.
 Der Irre hat unsere Mülltonne umgefahren!
+Der Job als Sesselschwitzer ist schon vergeben.
 Der Jogger rennt mit einem Affenzahn durch den Park.
 Der Jonathan ist ein ganz schlimmer Finger.
 Der Junge fasste einen Entschluss.
@@ -7021,6 +7021,7 @@ Der Spielmannszug spielt den Radetzky-Marsch.
 Der Sportverein schenkte allen Kindern des Vereins Schirmmützen zum Nikolaustag.
 Der Sprecher auf dem Podium verursacht ständig Rückkopplungen mit dem Mikrofon.
 Der Springer geht zwei Felder vor und eins zur Seite.
+Der Spruch auf seinem Grabstein.
 Der Spruch des Tages.
 Der Staat darf uns sowas nicht aufzwingen.
 Der Staatsanwalt erwartet einen genauen Schlussbericht zu der Akte.
@@ -10263,7 +10264,6 @@ Eher erobert Elfriede Engelhart Eritrea!
 Eher friert die Hölle zu.
 Eher gebe ich mir die Kugel!
 Eher mit großem Geschrei und Gestöhne.
-Eher nicht.
 Eher verzichte ich auf Kaffee als auf mein Franzbrötchen am Morgen.
 Eher wie ein Angriff der Replikanten und Klone.
 Ehrenamt verdient Anerkennung.
@@ -10527,6 +10527,7 @@ Ein Ruder münzt die Kraft des Wassers in eine Seitwärtsbewegung um.
 Ein Rumpsteak sollte richtig zubereitet werden.
 Ein Sachschaden ist besser als ein Dachschaden.
 Ein Salamander ist bei Dunkelheit in den Fensterschacht gefallen.
+Ein Satz aus seinem Nachruf.
 Ein Schallplattenspieler und ein Kassettenrekorder zählten dazu, ebenso ein Radio.
 Ein Schauder lief ihr kalt den Rücken runter.
 Ein Schema, mehrere Schemata.
@@ -11480,6 +11481,7 @@ Er hat zwölf Uhr gesagt?
 Er hatte beim Abbiegen nicht geblinkt.
 Er hatte damals einen Bandscheibenvorfall oder sowas.
 Er hatte einen schlimmen Verkehrsunfall.
+Er hatte immer seinen eigenen Kopf.
 Er hatte jetzt fast drei Tage Fieber.
 Er hatte mit der Kunden-Hotline zu tun.
 Er hatte sich auf der Küchenbank lang gemacht und schlummerte.
@@ -12261,7 +12263,6 @@ Es ist wirklich lebensgefährlich, über die Strasse zu gehen.
 Es ist wirklich schwierig, diese Musik einem Genre zuzuordnen.
 Es ist ziemlich kalt hier.
 Es ist zu dunkel, der Pinke Sattel stört und das Bild ist schief.
-Es ist zum Heulen.
 Es ist zum aus der Haut fahren!
 Es ist zweifelhaft, ob die Koalition lange halten wird.
 Es ist zwölf Uhr mittags, zwölf Uhr nachts.
@@ -13545,6 +13546,7 @@ Gehören Sie auch zu den Strahlungshysterikern?
 Gehört Raufen zu einem Grundbedürfnis? Egal welchen Geschlechts.
 Geil, ich habe eine eigene Wohnung!
 Geiler Effektlack.
+Geimpft, geboostert und getestet.
 Geimpfte lachen länger.
 Geistern in Ihrer Gegend auch regelmäßig Untote umher?
 Geistreiche Texte sind ein Qualitätsmerkmal von Common Voice.
@@ -16563,6 +16565,7 @@ Ich musste bis jetzt nur einmal einen Notarzt rufen.
 Ich musste eine Vollbremsung hinlegen.
 Ich musste einfach etwas machen, womit er nicht rechnete.
 Ich musste leider auf die Lieferung bis nach Weihnachten warten.
+Ich muß los.
 Ich möchte Ihnen nicht zu nahe treten, Sie Corona-Infizierter!
 Ich möchte aber auf dem Sofa sitzen.
 Ich möchte auch einen Tentakel-Bart haben, mit dem ich Orgel spielen kann.
@@ -19559,6 +19562,7 @@ Kannst du mir endlich den Unterschied zwischen rosa, pink, magenta, violett und 
 Kannst du mir erklären was Shorts und Longs sind?
 Kannst du mir erklären, was ein Cunnilingus ist?
 Kannst du mir etwas Mehl auf die Hände schütten?
+Kannst du mir etwas mitbringen?
 Kannst du mir für diesen Sessel noch einen Stoffbezug nähen?
 Kannst du mir halbwegs folgen?
 Kannst du mir mal zur Hand gehen?
@@ -24191,6 +24195,7 @@ Ohne Dachgepäckträger kriegen wir all das Gepäck nicht mit.
 Ohne Diffusion wäre der Geruchssinn relativ nutzlos.
 Ohne Drucker ist das Internet für mich nutzlos.
 Ohne Egoismus gäbe es keine Korruption.
+Ohne Einkaufsliste vergißt se immer die Hälfte.
 Ohne Einladung kommt niemand rein.
 Ohne Elektronisches Stabilitätsprogramm würden viele Modelle nicht einmal den Elchtest bestehen.
 Ohne Frage war er ein brillanter Theoretiker.
@@ -25003,6 +25008,7 @@ Schatz, ich glaube ich habe das Internet gelöscht.
 Schatz, ich glaube, ich habe das Internet gelöscht.
 Schatz, ich habe ein neues Kleid gekauft.
 Schatz, kannst du mal kurz nachschauen?
+Schatz, was gibt es heute zu Essen?
 Schatzi will mir kein Foto schenken.
 Schau dir die Facettenaugen der Libelle an.
 Schau dir diesen Faulenzer an!
@@ -25301,7 +25307,6 @@ Schwebt dir etwas Bestimmtes vor?
 Schweigen Sie!
 Schweigen ist der Rest.
 Schweigen wird als Zustimmung gewertet.
-Schwein gehabt!
 Schweinshaxe zu essen, ist verpflichtendes Aufnahmeritual bei den Christsozialen.
 Schweißgebadet wachte sie auf.
 Schwere Jungs und leichte Mädchen.
@@ -25956,6 +25961,7 @@ Sie hatte den Eindruck, diese Stimme gehört Herrn Rehfeld.
 Sie hatte die Maskenpflicht absichtlich missachtet.
 Sie hatte eine sehr offenherzige Art, sich zu kleiden.
 Sie hatte einen teuflischen Plan.
+Sie hatte immer ihren eigenen Kopf.
 Sie hatte schon den ganzen Strand nach einer Flaschenpost durchsucht.
 Sie hatte schon immer eine rege Fantasie.
 Sie hatte sich nicht verabschiedet, aber ihren Gastgeber wecken wollte sie auch nicht.
@@ -27333,6 +27339,7 @@ Steht das Wasser auf dem Herd?
 Steht das auch auf deiner Checkliste?
 Steht der Saft wieder bis unter den Augen?
 Steht die Abkürzung für Sondereinsatzkommando oder für Spezialeinsatzkommando?
+Steht er, dann geht er.
 Steht im Verlies auch eine Streckbank?
 Steht mir die Bluse?
 Steht noch etwas auf dem Herd?
@@ -29423,6 +29430,7 @@ Wann kommst du?
 Wann kommt Papa wieder von der Arbeit?
 Wann kommt das Paket an?
 Wann kommt dein Freund wieder?
+Wann kommt die Dreifach-G Regel?
 Wann kommt die Ladung an?
 Wann kommt die Lieferung endlich?
 Wann kommt die vierte Corona Impfung?
@@ -29514,6 +29522,7 @@ Warst du beim Friseur?
 Warst du beim Frisör?
 Warst du mit dem Hund schon draußen?
 Warst du mit ihm schon dort?
+Warst du schon einkaufen?
 Warst du schon mal im Zirkus?
 Warst du schon mal in Skandinavien im Urlaub?
 Wart ihr auch schon auf der Expo?
@@ -31304,6 +31313,7 @@ Wer morgens nichts frühstückt, muss sich nicht wundern, wenn er tagsüber kein
 Wer muss gehen, wer darf bleiben?
 Wer möchte Common Voice bei der langen Nacht der Wissenschaften vorstellen?
 Wer möchte Kuchen?
+Wer möchte alles ein Eis haben?
 Wer möchte dies mit mir diskutieren?
 Wer möchte vorlesen?
 Wer möchte, bekommt auch eine dritte Dosis.
@@ -31318,6 +31328,13 @@ Wer nicht wagt, der nicht gewinnt!
 Wer nicht will, sucht Gründe.
 Wer nichts besitzt, hat auch nichts zu verlieren.
 Wer nichts weiß, kann auch nichts verraten.
+Wer nichts zu verbergen hat, braucht auch kein Anwaltsgeheimnis.
+Wer nichts zu verbergen hat, braucht auch kein Bankgeheimnis.
+Wer nichts zu verbergen hat, braucht auch kein Beichtgeheimnis.
+Wer nichts zu verbergen hat, braucht auch kein Briefgeheimnis.
+Wer nichts zu verbergen hat, braucht auch kein Wahlgeheimnis.
+Wer nichts zu verbergen hat, braucht auch keine Vorhänge.
+Wer nichts zu verbergen hat, braucht auch keine ärztliche Schweigepflicht.
 Wer nur eines von beidem für richtig hält, wurde von Musiklehrern indoktriniert.
 Wer oder was steckt dahinter?
 Wer oft in Hotels übernachtet, sollte die Karten daher aufbewahren.
@@ -31410,6 +31427,7 @@ Wer wagt es, meine Ruhe zu stören?
 Wer war denn noch alles dabei?
 Wer war zuerst da, die Straße oder du?
 Wer war zuerst da: Das Virus oder Patient null?
+Wer weis denn so was?
 Wer weiß das schon.
 Wer weiß denn, welche Rechtschreibung gerade aktuell korrekt ist?
 Wer weiß es?
@@ -31684,6 +31702,7 @@ Wie hat es ihm gedünket?
 Wie hat man sich den Spin eines Elektrons vorzustellen?
 Wie hat man zu Zeiten des Schwarzweißfernsehens die gelbe von der roten Karte unterschieden?
 Wie heisst dies?
+Wie heist das Lied?
 Wie heißen die deutschen Volksparteien?
 Wie heißt Silvia eigentlich mit Nachnamen?
 Wie heißt dein Netzwerk?
@@ -31875,6 +31894,7 @@ Wie machst du das?
 Wie macht das Vögelchen?
 Wie macht die Kuh?
 Wie macht er das bloß?
+Wie macht man das nochmal?
 Wie macht man das wieder aus?
 Wie macht sich die Unterforderung bemerkbar?
 Wie macht sie das nur?
@@ -32132,6 +32152,7 @@ Wie von Geisterhand fährt der Hobel über das Holz.
 Wie war das?
 Wie war das Wochenende?
 Wie war dein Tag so?
+Wie war dein Tag?
 Wie war dein erstes Mal anal?
 Wie war deine Reise nach Indien?
 Wie war die Demonstration?

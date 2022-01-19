@@ -32,7 +32,6 @@ ba = Bashkir
 bas = Basaa
 be = Belarusian
 bg = Bulgarian
-bm = Bambara
 bn = Bengali
 br = Breton
 bs = Bosnian
