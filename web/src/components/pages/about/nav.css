@@ -4,8 +4,7 @@
         flex: 1;
         justify-content: center;
         z-index: var(--top-z-index);
-        position: sticky;
-        top: 0;
+        position: relative;
         height: auto;
         margin: -2rem auto 2rem;
         max-width: 100%;
@@ -65,6 +64,7 @@
             top: 92vh;
             height: 8vh;
             margin-bottom: 0;
+            position: sticky;
 
             .menu-item {
                 text-align: center;
