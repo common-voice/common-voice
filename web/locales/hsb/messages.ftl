@@ -490,6 +490,7 @@ about-voice-contrib-subtitle = Ludźo přińdu a darja swoje hłosy.
 about-voice-validation-title = Přepruwowanje hłosow
 about-voice-validation-subtitle = Druzy ludźo tute hłosowe klipy přepruwuja.
 about-dataset-release-title = Wozjewjenje datoweje sadźby
+about-dataset-release-subtitle = Wozjewjamy datowu sadźbu kóžde 3 měsacy.
 about-speak = Rěčeć
 about-speak-text = Sobuskutkowarjo čitaja z datoweje banki sadow a nahrawaja hłosowe klipy.
 about-listen-queue = Słuchowy čakanski rynk
@@ -520,19 +521,26 @@ about-nav-why-common-voice = Čehodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnerojo
 about-nav-get-involved = Čińće sobu
+about-nav-how-it-works-2 = Kak Common Voice funguje?
+about-nav-playbook = Zhońće, ka móžeće so wobdźělić
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Što je rěč na Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Kak móžu rěč přidać?
 
 ## How does localization work
 
+about-playbook-how-localize = Kak lokalizowanje sydłow funguje?
+about-playbook-how-localize-content-1 = Přełožowanje sydła Common Voice so na <strong>Pontoon</strong> wotměwa.
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Kak móžu sady přidać?
 
 ## How to record quality
 
