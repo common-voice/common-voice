@@ -481,6 +481,11 @@ about-sentence-collection-title = Zinnenverzameling
 about-sentence-collection-subtitle = Zinnen worden verzameld die mensen hardop kunnen lezen.
 about-new-lang-title = Lancering nieuwe taal
 about-new-lang-subtitle = We lanceren de Common Voice-website in deze taal.
+about-voice-contrib-title = Spraakbijdrage
+about-voice-contrib-subtitle = Mensen komen hun spraak bijdragen.
+about-voice-validation-title = Spraakvalidatie
+about-voice-validation-subtitle = Anderen valideren die spraakfragmenten.
+about-subscribe-text = In contact blijven met Common Voice?
 about-speak = Spreken
 about-speak-text = Bijdragers nemen spraakfragmenten op door te lezen van een databank van gedoneerde zinnen.
 about-listen-queue = Luisterwachtrij
@@ -509,10 +514,12 @@ about-get-involved-text-2 =
     Geweldig! Neem contact op via e-mail of <discourseLink>Discourse</discourseLink>-
     forums, meld problemen met de website via <githubLink>GitHub</githubLink>, of doe
     mee met de gemeenschapschat op <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Hoe houd ik contact?
 about-nav-why-common-voice = Waarom?
 about-nav-how-it-works = Hoe?
 about-nav-partners = Partners
 about-nav-get-involved = Meedoen
+about-nav-how-it-works-2 = Hoe werkt Common Voice?
 
 ## Community Playbook Content
 ## What is a language
