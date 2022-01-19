@@ -483,7 +483,10 @@ about-new-lang-subtitle = Romyasãima Common Voice renda ko ñe’ẽme.
 about-voice-contrib-title = Ñe’ẽayvu ñeme’ẽ
 about-voice-contrib-subtitle = Yvypóra ou ha oipytyvõ iñe’ẽ rupive.
 about-voice-validation-title = Ñe’ẽayvu ñemoneĩ
+about-voice-validation-subtitle = Ambue yvypóra omoneĩ umi ñe’ẽayvu.
 about-dataset-release-title = Mba’ekuaarã aty ñemyasãi
+about-dataset-release-subtitle = Rohupi mba’ekuaarã aty 3 jasy ohasa rire.
+about-subscribe-text = ¿Eñe’ẽse tapiaitépa Common Voice ndive?
 about-speak = Ayvu
 about-speak-text = Ome’ẽva ijahy’o omoñe’ẽ hatã ñe’ẽjoaju ome’ẽreiva’ekue avei oréve ambue pytyvõhára ha oĩva ore kuaapy’atýpe.
 about-listen-queue = Ñehenduha ruguái
@@ -522,9 +525,11 @@ about-nav-playbook = Aikuaa mba’éichapa aikéta
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ¿Mba’épa ñe’ẽ Common Voice ryepýpe?
 
 ## How do I add a language
 
+about-playbook-how-add-language = ¿Mba’éicha ambojuajúta ñe’ẽ?
 
 ## How does localization work
 
