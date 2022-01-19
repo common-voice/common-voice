@@ -609,7 +609,7 @@ overall-hr-total = Συνολικές ώρες
 cv-license = Άδεια
 audio-format = Μορφή ήχου
 number-of-voices = Αριθμός φωνών
-splits = Μερίδια
+splits = Τμήματα
 email-to-download = Εισαγωγή email για λήψη
 why-email = <b>Γιατί χρειάζεστε το email μου;</b> Για την περίπτωση που θα χρειαστεί να επικοινωνήσουμε μαζί σας σχετικά με αλλαγές στο σύνολο δεδομένων.
 confirm-size = Πρόκειται να αρχίσετε μια λήψη <b>{ $size }</b>
@@ -642,7 +642,7 @@ your-feedback = Έχετε ιδέες για το πώς να κάνουμε τ�
 go-discourse = Μετάβαση στο Discourse
 missing-language = Δεν βλέπετε τη γλώσσα σας στο σύνολο δεδομένων; Για να ζητήσετε μια γλώσσα, μεταβείτε στη σελίδα «Γλώσσες» μας.
 go-languages-page = Μετάβαση στη σελίδα γλωσσών
-ready-to-validate = Είστε έτοιμοι να βοηθήσετε στην επαλήθευση προτάσεων;
+ready-to-validate = Θέλετε να κάνετε επικύρωση προτάσεων;
 more = Περισσότερα
 close = Κλείσιμο
 download = Λήψη
@@ -734,14 +734,14 @@ review-tooltip = Ελέγξτε και ηχογραφήστε ξανά τα ηχ
 share-clip = Κοινοποίηση του κλιπ σας
 share-common-voice = Κοινοποίηση του Common Voice
 review-instruction = Ελέγξτε και ηχογραφήστε ξανά τα ηχητικά κλιπ, εφόσον χρειάζεται
-record-submit-tooltip = Υποβολή όταν είστε έτοιμοι
+record-submit-tooltip = { $actionType } στο «Υποβολή» όταν τελειώσετε
 clips-uploaded = Μεταφορτώθηκαν κλιπ
 record-abort-title = Να ολοκληρωθεί πρώτα η ηχογράφηση;
 record-abort-text = Αν αποχωρήσετε τώρα, θα χάσετε την πρόοδό σας
 record-abort-submit = Υποβολή κλιπ
 record-abort-continue = Λήξη ηχογράφησης
 record-abort-delete = Έξοδος & διαγραφή κλιπ
-listen-instruction = { $actionType }<playIcon></playIcon> Εκφώνησε σωστά την πρόταση:
+listen-instruction = { $actionType } στο <playIcon></playIcon> Εκφώνησε σωστά την πρόταση:
 listen-again-instruction = Εξαιρετική δουλειά! <playIcon></playIcon> Ακούστε ξανά όταν είστε έτοιμος
 listen-3rd-time-instruction = Έφυγαν 2, συνεχίστε! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Τελευταίο!
@@ -973,9 +973,9 @@ demo-account-sign-up = Αποστολή συνδέσμου εγγραφής
 
 ## Demo Contribute
 
-demo-contribute-card-header = Είστε έτοιμοι να προσθέσετε τη φωνή σας ή να δανείσετε την ακοή σας;
+demo-contribute-card-header = Θέλετε να προσθέσετε τη φωνή σας ή να δανείσετε την ακοή σας;
 demo-contribute-card-body-v2 = Τώρα που γνωρίζετε λίγο περισσότερα για το Common Voice, γιατί δεν το δοκιμάζετε; Κάντε κλικ στο εικονίδιο του μικροφώνου για να ξεκινήσετε να διαβάζετε προτάσεις δυνατά. <br/><br/>Εάν προτιμάτε να ασχοληθείτε με τον έλεγχο φωνητικών συνεισφορών άλλων ατόμων, κάντε κλικ στο εικονίδιο αναπαραγωγής. Θα μας βοηθήσετε να επιβεβαιώσουμε ότι οι ηχογραφήσεις αντιστοιχούν στις προτάσεις που εμφανίζονται στην οθόνη.
-demo-listen-subtitle = Είστε έτοιμοι να συνεισφέρετε;
+demo-listen-subtitle = Θέλετε να συνεισφέρετε;
 
 ## Demo Dashboard
 
