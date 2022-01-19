@@ -509,10 +509,13 @@ about-get-involved-text-2 =
     Reipytyvõsépa ikatu hag̃uáicha Common Voice iporãve?
     Iporãiténe upéva! Eñe’ẽ orendive ne ñe’ẽveve rupive térã <discourseLink>Ñomongetaguasu</discourseLink>
     renda rupive, orekuaaukamína avei oĩramo apañuãi ñanduti rendápe ko’ápe:<githubLink>GitHub</githubLink> térã eikemi <matrixLink>Atyrusu</matrixLink>ñemongeta rendápe.
+about-stay-in-touch = ¿Mba’éicha aiméta ñe’ẽme?
 about-nav-why-common-voice = ¿Mba’ére?
 about-nav-how-it-works = ¿Mba’e?
 about-nav-partners = Irũnguéra
 about-nav-get-involved = Ñepytyvõ
+about-nav-how-it-works-2 = ¿Mba’éicha omba’apo Common Voice?
+about-nav-playbook = Aikuaa mba’éichapa aikéta
 
 ## Community Playbook Content
 ## What is a language
@@ -532,12 +535,17 @@ about-nav-get-involved = Ñepytyvõ
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Tembiaporã
+about-playbook-how-grow-language-content-4 = Ava ñandutieta
+about-playbook-how-grow-language-content-6 = Ñemboaty ha ñandutieta
 
 ## How to validate
 
+about-playbook-how-validate = ¿Mba’éicha aikuaáta amoneĩtaha ñe’ẽayvu jekutu?
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ¿Mba’éicha aike ha aipurúta mba’ekuaarã aty?
 
 ## How are decisions made
 
