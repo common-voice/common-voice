@@ -516,6 +516,7 @@ about-nav-why-common-voice = Miért?
 about-nav-how-it-works = Hogyan?
 about-nav-partners = Partnerek
 about-nav-get-involved = Csatlakozzon
+about-nav-how-it-works-2 = Hogyan működik a Common Voice?
 
 ## Community Playbook Content
 ## What is a language
@@ -526,9 +527,16 @@ about-nav-get-involved = Csatlakozzon
 
 ## How does localization work
 
+about-playbook-how-localize = Hogyan működik a webhely lokalizációja?
+about-playbook-how-localize-content-1 = A Common Voice webhely fordítása a <strong>Pontoonon</strong> történik.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Hozzon létre egy fiókot</pontoonAccountLink> ha még nem rendelkezik vele. Majd válassza ki a nyelvet <strong>(„Team”)</strong> és a <pontoonCvLink>Common Voice</pontoonCvLink> projektet. Ott lesznek a lefordítandó fájlok. Kattintson egyre, majd megjeleníti a szavakat angolul, és egy dobozt, amelyben lefordíthatja.
+about-playbook-how-localize-content-3 = A fordítás angolból történik, de láthat <strong>javaslatokat</strong> más nyelveken is. Kattintson a <strong>Profil</strong> ikonra, majd a <strong>Settings</strong> hivatkozásra, és adja hozzá azokat a nyelveken, amelyeket beszéli. A jobb alsó sarokban lesz egy fordításokat tartalmazó lista, a <strong>Locales</strong> lapon. A fordítások egy nap után jelennek meg az oldalon.
+about-playbook-how-localize-content-4 = A webhely akkor áll készen az indításra, ha eléri a 75%-os készültséget.
+about-playbook-how-localize-content-5 = A segítséghez tekintse meg a magyarázó videónkat
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Hogyan adhatok hozzá mondatokat?
 
 ## How to record quality
 
