@@ -165,10 +165,11 @@ export default class API {
 
   getRandomSentences = async (request: Request, response: Response) => {
     const { client_id, params } = request;
+    const count = this.getCountQueryParam(request) || 1;
     const sentences = await this.model.findEligibleSentences(
       client_id,
       params.locale,
-      parseInt(request.query.count, 10) || 1
+      count
     );
 
     response.json(sentences);
@@ -523,5 +524,22 @@ export default class API {
     response.json(
       await this.model.db.getAccents(client_id, params?.locale || null)
     );
+  };
+
+  private getCountQueryParam = (request: Request) => {
+    const { count } = request.query;
+
+    if (typeof count !== 'string') {
+      return null;
+    }
+
+    const countNumberResult = parseInt(count, 10);
+
+    // handle if we don't have a number sent
+    if (!Number.isNaN(countNumberResult)) {
+      return null;
+    }
+
+    return countNumberResult;
   };
 }

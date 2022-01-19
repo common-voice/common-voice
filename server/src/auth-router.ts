@@ -75,12 +75,14 @@ if (DOMAIN) {
       clientID: CLIENT_ID,
       clientSecret: CLIENT_SECRET,
       callbackURL:
-        (({
-          stage: 'https://commonvoice.allizom.org',
-          prod: 'https://commonvoice.mozilla.org',
-          dev: 'https://dev.voice.mozit.cloud',
-          sandbox: 'https://sandbox.voice.mozit.cloud',
-        } as any)[ENVIRONMENT] || '') + CALLBACK_URL,
+        ((
+          {
+            stage: 'https://commonvoice.allizom.org',
+            prod: 'https://commonvoice.mozilla.org',
+            dev: 'https://dev.voice.mozit.cloud',
+            sandbox: 'https://sandbox.voice.mozit.cloud',
+          } as any
+        )[ENVIRONMENT] || '') + CALLBACK_URL,
       scope: 'openid email',
     },
     (
@@ -97,18 +99,24 @@ if (DOMAIN) {
   console.log('No Auth0 configuration found');
 }
 
+function parseState(request: Request) {
+  const { state } = request.query;
+
+  if (!state || typeof state !== 'string') {
+    return {};
+  }
+
+  return JSON.parse(AES.decrypt(state, SECRET).toString(enc.Utf8));
+}
+
 router.get(
   CALLBACK_URL,
   passport.authenticate('auth0', { failureRedirect: '/login' }),
   async (request: Request, response: Response) => {
-    const {
-      user,
-      query: { state },
-      session,
-    } = request;
-    const { locale, old_user, old_email, redirect, enrollment } = JSON.parse(
-      AES.decrypt(state, SECRET).toString(enc.Utf8)
-    );
+    const { user, session } = request;
+    const { locale, old_user, old_email, redirect, enrollment } =
+      parseState(request);
+
     const basePath = locale ? `/${locale}/` : '/';
     if (!user) {
       response.redirect(basePath + 'login-failure');
