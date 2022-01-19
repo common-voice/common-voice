@@ -549,24 +549,64 @@ about-playbook-how-add-language-content-4 = Sie können hier <scLinkAdd>eine kle
 
 about-playbook-how-localize = Wie funktioniert die Lokalisierung der Website?
 about-playbook-how-localize-content-1 = Die Übersetzung der Common-Voice-Website erfolgt auf <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Erstellen Sie ein Konto</pontoonAccountLink>, falls Sie noch keines haben. Wählen Sie dann Ihre Sprache <strong>(„Team“)</strong> und dann das Projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Sie finden dort die zu übersetzenden Dateien. Klicken Sie auf eine, dann werden Wörter auf Englisch und ein Kästchen zum Übersetzen angezeigt.
+about-playbook-how-localize-content-3 = Die Übersetzung erfolgt aus dem Englischen, aber Sie können <strong>Vorschläge</strong> in anderen Sprachen sehen. Klicken Sie auf das Symbol <strong>Profil</strong>, dann auf den Link <strong>Einstellungen</strong> und fügen Sie alle Sprachen hinzu, die Sie sprechen. In der unteren rechten Ecke befindet sich eine Liste mit Übersetzungen namens <strong>Locales</strong>. Übersetzungen werden nach einem Tag auf der Website angezeigt.
+about-playbook-how-localize-content-4 = Die Website kann veröffentlicht werden, wenn sie zu 75 % fertiggestellt ist.
+about-playbook-how-localize-content-5 = Sehen Sie sich unser Erklärungsvideo zur Übersetzung an
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Wie füge ich Sätze hinzu?
+about-playbook-how-add-sentences-content-1 = <strong>Satzsammler</strong> ist ein Werkzeug zum Sammeln und Validieren gemeinfreier Sätze. Sie müssen <scAccountLink>ein Konto erstellen</scAccountLink>. Fügen Sie dann Ihre Sprache zu Ihrem <strong>Profil</strong> hinzu. Sie können Sätze <strong>hinzufügen</strong> oder zuvor hinzugefügte Sätze <strong>überprüfen</strong>.
+about-playbook-how-add-sentences-content-2 = Sätze müssen von zwei Personen überprüft und akzeptiert werden, um in Common Voice aufgenommen zu werden. Richtlinien für Ihre Sprache erstellen Sie <languageGuidelinesLink>hier</languageGuidelinesLink>. Sätze müssen <licenseLink>gemeinfrei</licenseLink> und kürzer als 15 Wörter sein. Sie können den Eigentümer eines Textes bitten, ihn mithilfe unserer Verzichtserklärung unter <waiverLink>CC0</waiverLink> zu stellen, und uns an commonvoice@mozilla.com senden.
+about-playbook-how-add-sentences-content-3 = Sie können den <scraperLink>Satzextraktor</scraperLink> verwenden, um kurze Sätze aus Wikipedia zu beziehen.
+about-playbook-how-add-sentences-content-4 = Sätze, die validiert wurden, werden mittwochs exportiert und sind nach der nächsten Veröffentlichung verfügbar.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Wie nehme ich einen Sprachclip in hoher Qualität auf?
+about-playbook-how-record-content-1 = Sprechen Sie mit Ihrer normalen Stimme! Ihre Art zu sprechen ist hier willkommen – wir wollen Ihren Akzent so wie er ist, und wir wollen Ihre übliche Lautstärke, Ihren Stil und Ihre Intonation.
+about-playbook-how-record-content-2 = Vermeiden Sie zu viele Hintergrundgeräusche – Sie sollten gut zu hören sein.
+about-playbook-how-record-content-3 = Lesen Sie den Satz sorgfältig durch – überspringen, ändern oder fügen Sie keine Wörter hinzu.
+about-playbook-how-record-content-4 = Stellen Sie sicher, dass die Plattform aufnimmt, bevor Sie sprechen, und dass sie erst aufhört, wenn Sie fertig sind.
+about-playbook-how-record-content-5 = <accuracyLink>Weitere Informationen zu Genauigkeitskriterien.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Wie können wir eine Sprache auf Common Voice effektiv wachsen lassen?
+about-playbook-how-grow-language-content-1 = Die Schaffung von Möglichkeiten für eine Vielzahl von Menschen, zu Common Voice beizutragen, sorgt dafür, dass der Datensatz so vielen Menschen wie möglich dient. Wir haben Ressourcen und Vorlagen erstellt, die Sie verwenden können!
+about-playbook-how-grow-language-content-2 = Veranstaltungen
+about-playbook-how-grow-language-content-3 = Sie können Veranstaltungen durchführen, um Menschen beim Mitwirken zu unterstützen. Es ist leichter, als Sie denkken. Sie könnten es online mit einem Videokonferenzwerkzeug tun, oder persönlich, wenn es sicher ist. <eventTemplate>Sehen Sie sich unsere Vorlagen und Ressourcen für laufende Veranstaltungen an.</eventTemplate>
+about-playbook-how-grow-language-content-4 = Soziale Medien
+about-playbook-how-grow-language-content-5 = Sie könnten Social-Media-Plattformen nutzen, um die Botschaft zu verbreiten. Teilen Sie Beiträge, die erklären, warum es wichtig ist, und treten Sie mit anderen in Kontakt, um über Themen wie Sprachrechte, Sprach-KI oder Voreingenommenheit in der Technik zu sprechen. Sehen Sie sich weitere Ratschläge zur <campaignLink>Durchführung einer sozialen Kampagne an, einschließlich Inhalten, die Sie wiederverwenden können</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnerschaften und Netzwerke
+about-playbook-how-grow-language-content-7 = Finden Sie andere, denen das Thema wichtig ist. Das könnten Universitäten, Sprachschulen, Interessenvertretungen oder datenwissenschaftliche Gemeinschaften sein. Stellen Sie den Kontakt her und erklären Sie, wie sie helfen können und warum. <outreachVorlagen>Hier finden Sie unsere Vorlagen zur Kontaktaufnahme.</outreachVorlagen>
+about-playbook-how-grow-language-content-8 = <strong>Werden Sie kreativ!</strong> Ihre Sprachgemeinschaft wird einzigartig sein, und dies sind nur einige Möglichkeiten, um loszulegen.
 
 ## How to validate
 
+about-playbook-how-validate = Woher weiß ich, ob ich einen Sprachclip freischalten soll?
+about-playbook-how-validate-content-1 = Wenn Sie den Clip <strong>hören</strong> und <strong>verstehen</strong> konnten, ist es normalerweise <strong>am besten, ihn zu freizuschalten</strong>.
+about-playbook-how-validate-content-2 = <strong>Lehnen Sie keine Clips ab, in denen der Sprecher „einen anderen Akzent hat“ als Sie selbst</strong> – dies ist wichtig, damit die Spracherkennung für alle besser funktioniert.
+about-playbook-how-validate-content-3 = Wenn Sie der Meinung sind, dass die Aussprache den Cliü <strong>unverständlich</strong> macht, oder es <strong>viele Hintergrundgeräusche</strong> gibt oder <strong>andere Personen sprechen</strong>, dann sollten Sie den Clip ablehnen. <accuracyLink>Weitere Informationen finden Sie in unseren Genauigkeitskriterien</accuracyLink>.
+about-playbook-how-validate-content-4 = Wenn ein Clip von zwei Personen abgelehnt wird, wird er in einer anderen Teilmenge des Datensatzes veröffentlicht.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Wie kann ich auf den Datensatz zugreifen und ihn verwenden?
+about-playbook-how-access-dataset-content-1 = Sie können zur <datasetsPage>Datensatzseite</datasetsPage> gehen, die gewünschte Version und Sprache(n) auswählen und herunterladen! Die Dateien haben <metadataLink>zugeordnete Metadaten</metadataLink>, wie z.&thinsp;B. demografische Informationen und Validierungsdaten. Sie müssen eine E-Mail-Adresse angeben, um den Datensatz herunterzuladen.
+about-playbook-how-access-dataset-content-2 = Wenn Sie nach Werkzeugen zum Erstellen von ASR-Modellen suchen, können Sie sich mit anderen Personen in der Gemeinschaft <discourseLink>auf Discourse</discourseLink> verbinden.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Wie werden Projektentscheidungen getroffen?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice wird von einer vielfältigen Gemeinschaft von Aktivisten, Linguisten, Datenwissenschaftlern, Akademikern und Softwareentwicklern aus der ganzen Welt ermöglicht. Das Projekt wird von der Mozilla Foundation betreut.
+about-playbook-how-project-governance-content-2 = Die Führung unseres Projekts basiert auf den Säulen:
+about-playbook-how-project-governance-content-3 = Datenschutz, Sicherheit und Transparenz.
+about-playbook-how-project-governance-content-4 = Mitwirkung der Gemeinschaft und Entscheidungsfindung.
+about-playbook-how-project-governance-content-5 = Wert und Anerkennung.
+about-playbook-how-project-governance-content-6 = Gegenseitige Rechenschaftspflicht.
+about-playbook-how-project-governance-content-7 = <governanceLink>Lesen Sie mehr über unsere Führungsstruktur</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Künstliche Intelligenz
 mycroft-description =
