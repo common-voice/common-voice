@@ -527,6 +527,7 @@ about-nav-how-it-works-2 = Como functiona Common Voice?
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Eventos
 
 ## How to validate
 
