@@ -466,7 +466,9 @@ how-does-it-work-text = 我们集众人之力，构建开源的语音数据集�
 
 ## How does it work section
 
+about-language-req-subtitle = 有人申请添加一门语言。
 about-localization-title = 网站本地化
+about-dataset-release-subtitle = 我们每 3 个月发布一次数据集。
 about-speak = 说话
 about-speak-text = 贡献者通过朗读一系列由他人捐赠的语句，将语音片段录制下来。
 about-listen-queue = 聆听队列
@@ -495,6 +497,7 @@ about-get-involved-text-2 =
     太好了！请发送电子邮件与我们联系，也可以到 <discourseLink>Discourse</discourseLink> 论坛留言、
     通过 <githubLink>GitHub</githubLink> 反馈网站问题、
     也可以加入我们的 <matrixLink>Matrix</matrixLink> 社区群组。
+about-stay-in-touch = 如何获取最新信息？
 about-nav-why-common-voice = 为什么？
 about-nav-how-it-works = 怎么做？
 about-nav-partners = 合作伙伴
@@ -507,15 +510,19 @@ about-nav-playbook = 了解如何参与
 
 ## How do I add a language
 
+about-playbook-how-add-language = 如何添加语言？
 
 ## How does localization work
 
+about-playbook-how-localize-content-1 = Common Voice 网站的翻译工作在 <strong>Pontoon</strong> 上进行。
 
 ## How to add sentences
 
 
 ## How to record quality
 
+about-playbook-how-record-quality = 如何录制高质量的语音片段？
+about-playbook-how-record-content-3 = 准确读出句子内容，不要漏词、改词或添词。
 
 ## How to grow language
 
