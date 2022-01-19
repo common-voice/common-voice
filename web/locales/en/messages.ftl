@@ -584,10 +584,10 @@ about-playbook-how-add-sentences-content-4 = Sentences that have been validated 
 
 ## How to record quality
 about-playbook-how-record-quality = How do I record a high quality voice clip?
-about-playbook-how-record-content-1 = Avoid too much background noise - it should be easy to hear you.
-about-playbook-how-record-content-2 = Read the sentence carefully - don’t miss, change or add words.
-about-playbook-how-record-content-3 = Make sure the platform is recording before you start speaking, and that it only stops once you’re finished.
-about-playbook-how-record-content-4 = Speak in your normal voice! The way you speak is welcome here - we want your accent as it is, and we want your usual volume, style and intonation.
+about-playbook-how-record-content-1 = Speak in your normal voice! The way you speak is welcome here - we want your accent as it is, and we want your usual volume, style and intonation.
+about-playbook-how-record-content-2 = Avoid too much background noise - it should be easy to hear you.
+about-playbook-how-record-content-3 = Read the sentence carefully - don’t miss, change or add words.
+about-playbook-how-record-content-4 = Make sure the platform is recording before you start speaking, and that it only stops once you’re finished.
 about-playbook-how-record-content-5 = <accuracyLink>See more on accuracy criteria.</accuracyLink>
 
 ## How to grow language
