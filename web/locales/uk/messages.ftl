@@ -571,12 +571,25 @@ about-playbook-how-localize-content-5 = Перегляньте наше віде
 ## How to add sentences
 
 about-playbook-how-add-sentences = Як додати речення?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> — це засіб для збору та перевірки речень, які є суспільним надбанням. Вам <scAccountLink>потрібно створити обліковий запис</scAccountLink>. Потім додайте свою мову до свого <strong>профілю</strong>. Ви можете <strong>Додати</strong> речення або <strong>Переглянути</strong> раніше додані речення.
+about-playbook-how-add-sentences-content-2 = Речення повинні бути переглянуті та прийняті двома людьми, щоб бути включеними до Common Voice. Ви створюєте рекомендації для своєї мови <languageGuidelinesLink>тут</languageGuidelinesLink>. Речення мають бути <licenseLink>суспільним надбанням</licenseLink> і коротшими за 15 слів. Ви можете попросити власника тексту зробити його <waiverLink>CC0, використовуючи нашу процедуру відмови</waiverLink>, і надіслати нам на commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Ви можете використовувати <scraperLink>видобувач речень</scraperLink>, щоб додавати короткі речення з Вікіпедії.
+about-playbook-how-add-sentences-content-4 = Затверджені речення експортуються по середах і доступні після наступного випуску.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Як записати високоякісний голосовий кліп?
+about-playbook-how-record-content-1 = Говоріть звичайним голосом! Те, як ви говорите, тут вітається — ми хочемо, щоб ваш акцент був таким, яким він є, і ми хочемо вашої звичайної гучності, стилю та інтонації.
+about-playbook-how-record-content-2 = Уникайте надмірного фонового шуму — він має бути ледь чутним.
+about-playbook-how-record-content-3 = Уважно прочитайте речення — не пропускайте, не змінюйте і не додавайте слова.
+about-playbook-how-record-content-4 = Перш ніж почати говорити, переконайтеся, що платформа записує звук, і що запис припиняється лише після того, як ви завершите.
+about-playbook-how-record-content-5 = <accuracyLink>Докладніше про критерії точність.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Як ефективно розвивати мову на Common Voice?
+about-playbook-how-grow-language-content-1 = Створення можливостей для різноманітних людей зробити свій внесок у Common Voice гарантує, що набір даних обслуговуватиме якомога більше людей. Ми створили ресурси та шаблони, які ви можете використовувати!
+about-playbook-how-grow-language-content-2 = Події
 
 ## How to validate
 
