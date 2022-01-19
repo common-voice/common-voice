@@ -36,7 +36,6 @@ ba = Baškiršćina
 bas = Basašćina
 be = Běłorušćina
 bg = Bołharšćina
-bm = Bambaršćina, Bambara
 bn = Bengalšćina
 br = Bretonšćina
 bs = Bosnišćina
@@ -474,15 +473,23 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Čehodla Common Voice?
-about-subtitle = Common Voice je dźěl iniciatiwy Mozilla, kotraž ma mašiny wučić, kak woprawdźići ludźo rěča. Nimo datoweje sadźby Common Voice, wuwiwamy program za rěčenske spóznaće wotewrjeneho žórła z mjenom Deep Speech.
-about-header-description =
-    Wobaj projektaj stej dźěl našich napinanjow, zo byštej mjezotu digitalneho rěčenja přemosćiłoj. Technologije hłosoweho spóznaća čłowjesku dimensiju na naše graty přinjesu, ale wuwiwarjo trjebaja nimoměry wjele hłosowych datow, zo bychu so wutworili. Tuchwilu je najwjace z tutych datow drohe a proprietarne.
-    Chcemy hłosowe daty darmotnje a zjawnje k dispoziciji stajić a zawěsćić, zo daty wšelakorosć woprawdźitych ludźi wotbłyšćuja. Hromadźe móžemy hłosowe spóznaće za kóždeho polěpšić.
-about-header-description-2 =
-    Tutón projekt je napinanje, zo bychmy mjezotu digitalneho rěčenja přemosćiłoj. Technologije hłosoweho spóznaća čłowjesku dimensiju na naše graty přinjesu, ale wuwiwarjo trjebaja nimoměry wjele hłosowych datow, zo bychu so wutworili. Tuchwilu je najwjace z tutych datow drohe a proprietarne.
-    Chcemy hłosowe daty darmotnje a zjawnje k dispoziciji stajić a zawěsćić, zo daty wšelakorosć woprawdźitych ludźi wotbłyšćuja. Hromadźe móžemy hłosowe spóznaće za kóždeho polěpšić.
-how-does-it-work-title = Kak to funguje
+how-does-it-work-title-v2 = Kak Common Voice funguje?
 how-does-it-work-text = Přeměsćamy datowu sadźbu hłosow wotewrjeneho žórła do dobrowólnikow. Darće swój hłós, přepruwujće dokładnosć klipy druhich wosobow, polěpšće datowu sadźbu za kóždeho.
+
+## How does it work section
+
+about-language-req-subtitle = Něchtó wo přidawanje rěče prosy.
+about-localization-title = Lokalizacija websydłow
+about-localization-subtitle = Tekst websydła je do teje rěče přełoženy.
+about-sentence-collection-title = Zběrka sadow
+about-sentence-collection-subtitle = Sady so zběraja, zo bychu ludźo je wótře čitali.
+about-new-lang-title = Wozjewjenje noweje rěče
+about-new-lang-subtitle = Wozjewjamy sydło Common Voice w tutej rěči.
+about-voice-contrib-title = Přinošowanje k hłosam
+about-voice-contrib-subtitle = Ludźo přińdu a darja swoje hłosy.
+about-voice-validation-title = Přepruwowanje hłosow
+about-voice-validation-subtitle = Druzy ludźo tute hłosowe klipy přepruwuja.
+about-dataset-release-title = Wozjewjenje datoweje sadźby
 about-speak = Rěčeć
 about-speak-text = Sobuskutkowarjo čitaja z datoweje banki sadow a nahrawaja hłosowe klipy.
 about-listen-queue = Słuchowy čakanski rynk
@@ -513,6 +520,34 @@ about-nav-why-common-voice = Čehodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnerojo
 about-nav-get-involved = Čińće sobu
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kumšnta inteligenca
 mycroft-description =
