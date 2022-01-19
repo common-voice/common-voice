@@ -590,15 +590,37 @@ about-playbook-how-record-content-5 = <accuracyLink>Докладніше про 
 about-playbook-how-grow-language = Як ефективно розвивати мову на Common Voice?
 about-playbook-how-grow-language-content-1 = Створення можливостей для різноманітних людей зробити свій внесок у Common Voice гарантує, що набір даних обслуговуватиме якомога більше людей. Ми створили ресурси та шаблони, які ви можете використовувати!
 about-playbook-how-grow-language-content-2 = Події
+about-playbook-how-grow-language-content-3 = Ви можете проводити події, щоб допомогти людям зробити свій внесок. Це простіше, ніж ви думаєте. Ви можете зробити це онлайн за допомогою інструменту для відеоконференцій або особисто, якщо це безпечно. <eventTemplate>Перегляньте наші шаблони та ресурси для запуску подій</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Суспільні медіа
+about-playbook-how-grow-language-content-5 = Ви можете використовувати платформи суспільних мереж, щоб розповсюдити повідомлення. Поділіться дописами, які пояснюють, чому це важливо, і зв’яжіться з іншими людьми, які обговорюють такі проблеми, як мовні права, голосовий ШІ або упередженість у технологіях. Перегляньте додаткові поради щодо <campaignLink>проведення громадської кампанії, включно з вмістом, який можна повторно використовувати</campaignLink>.
+about-playbook-how-grow-language-content-6 = Партнерство та мережі
+about-playbook-how-grow-language-content-7 = Знайдіть інших не байдужих. Це можуть бути університети, мовні курси, групи захисту або спільноти data science. Зв’яжіться і чітко поясніть, як вони можуть допомогти й навіщо. <outreachTemplates>Перегляньте наші шаблони електронних листів</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Будьте вигадливі!</strong> Ваша мовна спільнота буде унікальною, і це лише кілька способів розпочати роботу.
 
 ## How to validate
 
+about-playbook-how-validate = Як дізнатися, чи схвалити голосовий кліп?
+about-playbook-how-validate-content-1 = Якщо ви можете <strong>чути їх</strong> і <strong>розуміти</strong>, зазвичай <strong>краще їх схвалити</strong>.
+about-playbook-how-validate-content-2 = <strong>Не відхиляйте кліпи, у яких мовець «має акцент», який відрізняється від вашого</strong> — важливо, щоб розпізнавання голосу працювало краще для всіх.
+about-playbook-how-validate-content-3 = Якщо ви вважаєте, що через вимову його <strong>неможливо зрозуміти</strong>, або <strong>забагато фонового шуму</strong>, або <strong>чутно балачки інших людей</strong>, тоді слід відхилити кліп. <accuracyLink>Читайте більше інформації в наших критеріях точності</accuracyLink>.
+about-playbook-how-validate-content-4 = Якщо кліп відхилено 2 особами, він буде випущений в іншому піднаборі даних.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Як отримати доступ і використовувати набір даних?
+about-playbook-how-access-dataset-content-1 = Ви можете перейти на <datasetsPage>сторінку наборів даних</datasetsPage>, вибрати потрібну версію та мову(и) й завантажити їх! Файли мають <metadataLink>пов’язані метадані</metadataLink>, такі як демографічна інформація та дані перевірки. Вам потрібно буде вказати адресу електронної пошти, щоб завантажити набір даних.
+about-playbook-how-access-dataset-content-2 = Якщо ви шукаєте інструменти для створення моделей ASR, ви можете зв’язатися з іншими людьми в спільноті <discourseLink>на Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Як приймаються проєктні рішення?
+about-playbook-how-project-governance-content-1 = Існування Mozilla Common Voice можливе завдяки різноманітним спільнотам активістів, лінгвістів, науковців з даних, науковців та інженерів програмного забезпечення з усього світу. Розпорядником проєкту є Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Наше керування базується на таких основах:
+about-playbook-how-project-governance-content-3 = Приватність, безпека та прозорість.
+about-playbook-how-project-governance-content-4 = Участь спільноти та прийняття рішень.
+about-playbook-how-project-governance-content-5 = Цінність і визнання.
+about-playbook-how-project-governance-content-6 = Взаємовідповідальність.
+about-playbook-how-project-governance-content-7 = <governanceLink>Докладніше про керування</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Штучний інтелект
 mycroft-description =
