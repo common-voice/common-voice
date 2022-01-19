@@ -539,18 +539,22 @@ about-playbook-how-add-language = Kak móžu rěč přidać?
 
 about-playbook-how-localize = Kak lokalizowanje sydłow funguje?
 about-playbook-how-localize-content-1 = Přełožowanje sydła Common Voice so na <strong>Pontoon</strong> wotměwa.
+about-playbook-how-localize-content-4 = Sydło je hotowe za wozjewjenje, hdyž je po 75 % dokónčene.
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Kak móžu sady přidać?
+about-playbook-how-add-sentences-content-4 = Sady, kotrež su přepruwowane, so na srjedach eksportuja a su po přichodnym wozjewjenju k dispoziciji.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Kak móžu hłosowy klip we wysokej kwaliće natočić?
 about-playbook-how-record-content-3 = Čitajće sadu prócniwje – njewuwostajejće, njeměnjejće abo njepřidawajće słowa.
+about-playbook-how-record-content-5 = <accuracyLink>Zhońće wjace wo kriterijach dokładnosće.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Kak móžemy rěč na Common Voice skutkownje rosć dać?
 about-playbook-how-grow-language-content-2 = Podawki
 about-playbook-how-grow-language-content-4 = Socialne medije
 about-playbook-how-grow-language-content-6 = Partnerstwa a syće
