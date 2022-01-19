@@ -558,12 +558,15 @@ about-playbook-how-grow-language-content-6 = Partnerstwa a syće
 ## How to validate
 
 about-playbook-how-validate = Zwotkel wěm, hač mam hłosowy klip schwalić?
+about-playbook-how-validate-content-4 = Jeli klip so wot 2 wosobow wotpokazuje, wozjewi so w druhej dźělnej sadźbje datoweje sadźby.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Kak mam přistup k datowej sadźbje a kak móžu ju wužiwać?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Kak so projektowe rozsudy tworja?
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kumšnta inteligenca
 mycroft-description =
