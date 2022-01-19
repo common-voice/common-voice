@@ -743,7 +743,7 @@ record-abort-text = Αν αποχωρήσετε τώρα, θα χάσετε τη
 record-abort-submit = Υποβολή κλιπ
 record-abort-continue = Λήξη ηχογράφησης
 record-abort-delete = Έξοδος & διαγραφή κλιπ
-listen-instruction = Εκφώνησαν σωστά την πρόταση;
+listen-instruction = { $actionType }<playIcon></playIcon> Εκφώνησε σωστά την πρόταση:
 listen-again-instruction = Εξαιρετική δουλειά! <playIcon></playIcon> Ακούστε ξανά όταν είστε έτοιμος
 listen-3rd-time-instruction = Έφυγαν 2, συνεχίστε! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Τελευταίο!
@@ -827,7 +827,7 @@ show-ranking = Εμφάνιση κατάταξης
 ## Custom Goals
 
 get-started-goals = Ξεκινήστε με στόχους
-create-custom-goal = Δημιουργία προσαρμοσμένου στόχου
+create-custom-goal = Δημιουργία στόχου
 goal-type = Τι είδους στόχο θέλετε να δημιουργήσετε;
 both-speak-and-listen = Και τα δυο
 both-speak-and-listen-long = Και τα δύο (Μιλήστε και Ακούστε)
@@ -848,10 +848,10 @@ help-reach-hours-pluralized =
        *[other] { $hours } ώρες
     } στα { $language } με ένα προσωπικό στόχο
 help-reach-hours-general-pluralized =
-    Βοηθήστε το Common Voice να φτάσει την/τις { NUMBER($hours) ->
-        [one] { $hours } ώρα
-       *[other] { $hours } ώρες
-    }σε μια γλώσσα με ένα προσωπικό ρεκόρ
+    { NUMBER($hours) ->
+        [one] Βοηθήστε το Common Voice να φτάσει τη { $hours } ώρα σε μια γλώσσα με έναν προσωπικό στόχο
+       *[other] Βοηθήστε το Common Voice να φτάσει τις { $hours } ώρες σε μια γλώσσα με έναν προσωπικό στόχο
+    }
 set-a-goal = Ορισμός στόχου
 cant-decide = Δεν μπορείτε να αποφασίσετε;
 activity-needed-calculation-plural =
