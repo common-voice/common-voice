@@ -220,7 +220,7 @@ help-us-explain = Πατήστε το κουμπί αναπαραγωγής, α�
 no-clips-to-validate = Φαίνεται ότι δεν υπάρχει κανέναν κλιπ για ακρόαση σε αυτή τη γλώσσα. Βοηθήστε μας να συμπληρώσουμε τη σειρά ηχογραφώντας μερικά τώρα.
 vote-yes = Ναι
 vote-no = Όχι
-toggle-play-tooltip = Πατήστε το πλήκτρο { shortcut-play-toggle } για εναλλαγή της κατάστασης αναπαραγωγής
+toggle-play-tooltip = Πατήστε το { shortcut-play-toggle } για αναπαραγωγή/παύση
 speak-subtitle = Δωρίστε τη φωνή σας
 speak-paragraph = Η ηχογράφηση αποσπασμάτων φωνής είναι αναπόσπαστο μέρος της ανάπτυξης του ανοικτού συνόλου δεδομένων· πολλοί λένε ότι είναι το πιο διασκεδαστικό κομμάτι.
 speak-goal-text = Ηχογραφημένα κλιπ
@@ -233,7 +233,7 @@ voices-online = Φωνές σε σύνδεση
 todays-progress = Σημερινή πρόοδος
 help-reach-goal = Βοηθήστε μας να φτάσουμε στα { $goal }
 read-terms-q = Έχετε διαβάσει τους όρους;
-ready-to-record = Έτοιμοι να δωρίσετε τη φωνή σας;
+ready-to-record = Θέλετε να δωρίσετε τη φωνή σας;
 all-locales = Όλα
 today = Σήμερα
 x-weeks-short =
@@ -243,12 +243,10 @@ x-weeks-short =
     }
 x-months-short =
     { $count ->
-        [one] { $count } μήνας
        *[other] { $count } μήνες
     }
 x-years-short =
     { $count ->
-        [one] { $count } έτος
        *[other] { $count } έτη
     }
 help-make-dataset = Βοηθήστε μας να συλλέξουμε υψηλής ποιότητας, δημόσια δεδομένα
@@ -558,7 +556,7 @@ de-identified-explanation = Η διαδικασία κατά την οποία �
 error-title-404 = Δεν ήταν δυνατή η εύρεση αυτής της σελίδας
 error-content-404 = Ίσως σας βοηθήσει η <homepageLink>αρχική μας σελίδα</homepageLink>; Για να θέσετε μια ερώτηση, παρακαλούμε γίνετε μέλος της <matrixLink>συνομιλίας της κοινότητας Matrix</matrixLink>, παρακολουθήστε τα ζητήματα της σελίδας μέσω του <githubLink>GitHub</githubLink> ή επισκεφτείτε το <discourseLink>φόρουμ στο Discourse</discourseLink>.
 error-title-503 = Αντιμετωπίζουμε μη αναμενόμενο χρόνο διακοπής λειτουργίας
-error-content-503 = Η ιστοσελίδα θα επανέλθει το συντομότερο δυνατό. Για τις πιο πρόσφατες πληροφορίες, παρακαλούμε γίνετε μέλος της <matrixLink>της κοινότητας μας στο Matrix</matrixLink>, επισκεφθείτε το <githubLink>GitHub</githubLink> ή το <discourseLink>φόρουμ μας στο Discourse</discourseLink> για να υποβάλετε και να παρακολουθείτε ζητήματα σχετικά με την ιστοσελίδα.
+error-content-503 = Ο ιστότοπος θα επανέλθει το συντομότερο δυνατό. Για τις πιο πρόσφατες πληροφορίες, παρακαλούμε γίνετε μέλος της <matrixLink>της κοινότητάς μας στο Matrix</matrixLink>, επισκεφθείτε το <githubLink>GitHub</githubLink> ή το <discourseLink>φόρουμ μας στο Discourse</discourseLink> για να υποβάλλετε και να παρακολουθείτε ζητήματα σχετικά με τον ιστότοπο.
 error-code = Σφάλμα { $code }
 
 ## Data
