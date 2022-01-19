@@ -525,6 +525,8 @@ about-playbook-what-is-language = Common Voice 如何列出語言？
 
 ## How do I add a language
 
+about-playbook-how-add-language = 要如何加入語言？
+about-playbook-how-add-language-content-3 = <scVideo>使用</scVideo><scLink>Sentence Collector</scLink><strong>來收集句子</strong>。
 
 ## How does localization work
 
