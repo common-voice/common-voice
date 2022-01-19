@@ -610,7 +610,7 @@ cv-license = Άδεια
 audio-format = Μορφή ήχου
 number-of-voices = Αριθμός φωνών
 splits = Μερίδια
-email-to-download = Εισάγετε email για λήψη
+email-to-download = Εισαγωγή email για λήψη
 why-email = <b>Γιατί χρειάζεστε το email μου;</b> Ενδέχεται να χρειαστεί να επικοινωνήσουμε μαζί σας στο μέλλον σχετικά με αλλαγές στο σύνολο δεδομένων και μια διεύθυνση email μάς βοηθά να το κάνουμε.
 confirm-size = Πρόκειται να αρχίσετε μια λήψη <b>{ $size }</b>
 size-gigabyte = GB
@@ -877,7 +877,7 @@ n-clips-pluralized =
        *[other] { $count } αποσπάσματα
     }
 help-share-goal = Βοηθήστε μας να βρείτε περισσότερες φωνές, μοιραστείτε το στόχο σας
-confirm-goal = Επιβεβαίωση στόχου
+confirm-goal = Επιβεβαίωση
 goal-interval-weekly = Εβδομαδιαία
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Μοιραστείτε τον ημερήσιο στόχο σας { $count } κλιπ για { $type }
