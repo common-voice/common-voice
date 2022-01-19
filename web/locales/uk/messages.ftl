@@ -555,10 +555,15 @@ about-playbook-what-is-language-content-3 = Деякі мови мають ве�
 
 about-playbook-how-add-language = Як додати мову?
 about-playbook-how-add-language-content-1 = Спочатку перевірте, чи <languageLink>додано вже вашу мову</languageLink>. Якщо ні, вам потрібно <strong>перекласти сайт і зібрати речення</strong>.
-about-playbook-how-add-language-content-2 = <strong>Щоб перекласти сайт</strong> — <translateVideo>перейдіть</translateVideo> на <pontoonLink>Pontoon</pontoonLink>. Pontoon має багато мов, але якщо вашої немає, ви можете <pontoonRequestLink>попросити додати її</pontoonRequestLink>. Потім попросіть <repoLink>через GitHub</repoLink> зробити доступним проєкт Common Voice для цієї мови. Читайте більше про <localizationFragment>переклад сайту</localizationFragment>.
+about-playbook-how-add-language-content-2 = <strong>Щоб перекласти сайт</strong> — <translateVideo>зареєструйтесь</translateVideo> на <pontoonLink>Pontoon</pontoonLink>. Pontoon має багато мов, але якщо вашої немає, ви можете <pontoonRequestLink>попросити додати її</pontoonRequestLink>. Потім попросіть <repoLink>через GitHub</repoLink> зробити доступним проєкт Common Voice для цієї мови. Читайте більше про <localizationFragment>переклад сайту</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Для збору речень</strong> — <scVideo>зареєструйтеся</scVideo> на <scLink>Sentence Collector</scLink>.
+about-playbook-how-add-language-content-4 = Ви можете <scLinkAdd>додати невелику кількість</scLinkAdd> речень тут, або можете виконати <bulkImportDocsLink>масове імпортування</bulkImportDocsLink> за допомогою запиту Github. Пам’ятайте, що пропозиції мають бути ліцензовані <licenseLink>CC0 (або загальнодоступними)</licenseLink>, або ви можете написати власні. Докладніше про <scFragment>збір речень</scFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Як працює локалізація сайту?
+about-playbook-how-localize-content-1 = Переклад сайту Common Voice здійснюється на <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Створіть обліковий запис</pontoonAccountLink>, якщо у вас його немає. Потім виберіть свою мовну <strong>(‘Команду’)</strong>, а потім виберіть проєкт <pontoonCvLink>Common Voice</pontoonCvLink>. Там будуть файли для перекладу. Натисніть на один із них, тоді з’являться слова англійською мовою та поле для їхнього перекладу.
 
 ## How to add sentences
 
