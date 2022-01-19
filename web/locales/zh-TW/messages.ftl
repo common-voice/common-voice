@@ -530,6 +530,7 @@ about-nav-playbook = 了解如何參與
 about-playbook-what-is-language = Common Voice 如何列出語言？
 about-playbook-what-is-language-content-1 = 不同領域對語言有不同的定義。對語音識別模型來說，Common Voice 建議您著重於「相互理解性」，或是「使用這種語言的人嘗試理解對方的話，他們是否真能相互理解？」
 about-playbook-what-is-language-content-2 = 我們想讓語音模型能夠更加包容不同的說話者，所以我們希望語音資料集能夠反映出各種多樣化的聲音。
+about-playbook-what-is-language-content-3 = 某些語言有許多不同的文法、詞彙、發音差異。因此，我們自 2022 年起<ctaLink>引入了「變體」的概念</ctaLink>。讓各社群能夠在完整的資料集中更精準地分辨出各種語言。
 
 ## How do I add a language
 
@@ -547,6 +548,7 @@ about-playbook-how-localize-content-1 = Common Voice 網站的翻譯在 <strong>
 
 ## How to record quality
 
+about-playbook-how-record-quality = 要如何錄下高品質的語音片段？
 about-playbook-how-record-content-5 = <accuracyLink>看更多有關準確度的判斷標準。</accuracyLink>
 
 ## How to grow language
