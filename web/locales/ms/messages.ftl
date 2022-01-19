@@ -13,7 +13,7 @@ email-opt-in-info-title = Sertai senarai mel Common Voice
 email-opt-in-info-sub-with-challenge = Terima e-mel seperti peringatan cabaran dan matlamat, kemas kini kemajuan, dan buletin mengenai Common Voice.
 email-opt-in-privacy-v2 =
     Dengan memilih untuk menerima e-mel, anda menyatakan bahawa anda baik-baik saja dengan Mozilla mengendalikan 
-     maklumat ini seperti yang dijelaskan dalam <privacyLink>Notis Privasi</privacyLink> Mozilla.
+     maklumat ini seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla.
 indicates-required = * Menunjukkan maklumat yang perlu disi
 not-available-abbreviation = N/A
 
@@ -358,7 +358,8 @@ profile-close = Tutup
 profile-explanation = Jejaki kemajuan anda dengan profil dan bantu data suara kami menjadi lebih tepat.
 thanks-for-account = Terima kasih kerana mengesahkan akaun anda, sekarang mari bina profil anda.
 why-demographic = Kenapa ini penting?
-accept-privacy = Saya setuju anda mengendalikan maklumat ini seperti yang dijelaskan dalam <privacyLink>Polisi Privasi</privacyLink> Mozilla
+accept-privacy = Saya setuju anda mengendalikan maklumat ini seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla
+accept-privacy-title = Dasar Polisi
 login-identity = Identiti Log Masuk
 login-signup = Log Masuk / Daftar
 edit = Sunting
@@ -738,6 +739,7 @@ see-less = <chevron></chevron>Lihat kurang
 
 ## HEADER/FOOTER
 
+sc-footer-privacy = Privasi
 
 ## HOME
 
