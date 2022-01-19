@@ -549,9 +549,13 @@ about-nav-playbook = Дізнайтеся, як взяти участь
 about-playbook-what-is-language = Що таке мова на Common Voice?
 about-playbook-what-is-language-content-1 = Існує багато способів пояснення мови. Для моделей розпізнавання мовлення Common Voice пропонує зосередитися на «взаємній зрозумілості», або «чи можуть носії цієї мови зрозуміти один одного, якщо спробують?»
 about-playbook-what-is-language-content-2 = Ми хочемо, щоб моделі мовлення краще розуміли різноманітне коло мовців. Для цього голосовий набір даних повинен представляти багато різних людей.
+about-playbook-what-is-language-content-3 = Деякі мови мають величезні варіації в граматиці, словниковому запасі та вимові. З цієї причини ми <ctaLink>впроваджуємо «Варіанти»</ctaLink> у 2022 році. Це дає спільнотам можливість розпізнавати свої мови за допомогою більшого набору даних.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Як додати мову?
+about-playbook-how-add-language-content-1 = Спочатку перевірте, чи <languageLink>додано вже вашу мову</languageLink>. Якщо ні, вам потрібно <strong>перекласти сайт і зібрати речення</strong>.
+about-playbook-how-add-language-content-2 = <strong>Щоб перекласти сайт</strong> — <translateVideo>перейдіть</translateVideo> на <pontoonLink>Pontoon</pontoonLink>. Pontoon має багато мов, але якщо вашої немає, ви можете <pontoonRequestLink>попросити додати її</pontoonRequestLink>. Потім попросіть <repoLink>через GitHub</repoLink> зробити доступним проєкт Common Voice для цієї мови. Читайте більше про <localizationFragment>переклад сайту</localizationFragment>.
 
 ## How does localization work
 
