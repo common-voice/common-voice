@@ -36,7 +36,6 @@ ba = Basjkiers
 bas = Basaa
 be = Wit-Russisch
 bg = Bulgaars
-bm = Bambara
 bn = Bengaals
 br = Bretons
 bs = Bosnisch
@@ -470,15 +469,15 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Waarom Common Voice?
-about-subtitle = Common Voice is onderdeel van een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken. In aanvulling op de Common Voice-gegevensset bouwen we ook een open source spraakherkenningsengine genaamd Deep Speech.
-about-header-description =
-    Beide projecten maken deel uit van onze inspanningen om de digitale spraakkloof te overbruggen. Spraakherkenningstechnologieën geven onze apparaten een menselijke dimensie, maar ontwikkelaars hebben een enorme hoeveelheid spraakgegevens nodig om ze te bouwen. Momenteel zijn de meeste van die gegevens duur en afgeschermd.
-    We willen spraakgegevens gratis en vrij beschikbaar maken en ervoor zorgen dat de gegevens de diversiteit van echte mensen vertegenwoordigen. Samen kunnen we stemherkenning voor iedereen beter maken.
-about-header-description-2 =
-    Dit project is een inspanning om de digitale spraakkloof te overbruggen. Spraakherkenningstechnologieën geven onze apparaten een menselijke dimensie, maar ontwikkelaars hebben een enorme hoeveelheid spraakgegevens nodig om ze te bouwen. Momenteel zijn de meeste van die gegevens duur en afgeschermd.
-    We willen spraakgegevens gratis en vrij beschikbaar maken en ervoor zorgen dat de gegevens de diversiteit van echte mensen vertegenwoordigen. Samen kunnen we stemherkenning voor iedereen beter maken.
-how-does-it-work-title = Hoe werkt het
+how-does-it-work-title-v2 = Hoe werkt Common Voice?
 how-does-it-work-text = We crowdsourcen een open source stemgegevensset. Doneer uw stem, valideer de nauwkeurigheid van opnames van anderen, en maak de gegevensset beter voor iedereen.
+
+## How does it work section
+
+about-language-req-subtitle = Iemand vraagt om een taal toe te voegen.
+about-localization-title = Websitelocalisatie
+about-localization-subtitle = De websitetekst wordt in die taal vertaald.
+about-sentence-collection-title = Zinnenverzameling
 about-speak = Spreken
 about-speak-text = Bijdragers nemen spraakfragmenten op door te lezen van een databank van gedoneerde zinnen.
 about-listen-queue = Luisterwachtrij
@@ -511,6 +510,34 @@ about-nav-why-common-voice = Waarom?
 about-nav-how-it-works = Hoe?
 about-nav-partners = Partners
 about-nav-get-involved = Meedoen
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft AI
 mycroft-subtitle = Kunstmatige intelligentie
 mycroft-description =
