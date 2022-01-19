@@ -370,6 +370,7 @@ skip-submission-description = Semasa maklum balas serahan sumbangan akan dilangk
 skip-submission-note = Catatan: Anda masih perlu memilih antara Cakap atau Dengarkan untuk menukar jenis sumbangan.
 off = Matikan
 on = Hidupkan
+help-accent-explanation = Loghat ialah cara anda menyebut perkataan. Ia boleh dibentuk oleh tempat tinggal anda, bahasa lain yang anda tuturkan dan banyak faktor lain. Anda boleh berkongsi sebarang maklumat yang anda rasa relevan di sini.
 
 ## Profile - Email
 
