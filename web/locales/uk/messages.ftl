@@ -495,6 +495,16 @@ about-language-req-subtitle = Хтось просить додати мову.
 about-localization-title = Локалізація вебсайту
 about-localization-subtitle = Текст вебсайту перекладено цією мовою.
 about-sentence-collection-title = Збірка речень
+about-sentence-collection-subtitle = Речення збираються, щоб люди могли читати їх вголос.
+about-new-lang-title = Запуск нової мови
+about-new-lang-subtitle = Ми запускаємо сайт Common Voice цією мовою.
+about-voice-contrib-title = Голосовий внесок
+about-voice-contrib-subtitle = Люди приходять і надають свій голос.
+about-voice-validation-title = Перевірка голосу
+about-voice-validation-subtitle = Інші люди перевіряють ці голосові кліпи.
+about-dataset-release-title = Випуск набору даних
+about-dataset-release-subtitle = Ми випускаємо набір даних що 3 місяці.
+about-subscribe-text = Бажаєте залишатися на зв’язку з Common Voice?
 about-speak = Говорити
 about-speak-text = Співавтори записують голоси, читаючи з відкритої бази речень.
 about-listen-queue = Черга прослуховування
@@ -523,14 +533,22 @@ about-get-involved-text-2 =
     Чудово! Напишіть нам на е-пошту або на форумі <discourseLink>Discourse</discourseLink>,
     повідомляйте про проблеми з сайтом на <githubLink>GitHub</githubLink>,
     або приєднуйтеся до чату спільноти <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Як мені залишатися на зв’язку?
+about-stay-in-touch-text-1 = <emailFragment>Приєднуйтеся</emailFragment> до нашого списку розсилки, щоб дізнатися, як ви можете брати участь у кампаніях, подіях та спільній розробці можливостей на Common Voice.
+about-stay-in-touch-text-2 = Ви можете познайомитися з іншими в мовних спільнотах Mozilla, приєднавшись до <discourseLink>Discourse</discourseLink> для актуальних розмов або до <matrixLink>Matrix</matrixLink> для отримання швидких порад.
 about-nav-why-common-voice = Чому?
 about-nav-how-it-works = Як?
 about-nav-partners = Партнери
 about-nav-get-involved = Долучитися
+about-nav-how-it-works-2 = Як працює Common Voice?
+about-nav-playbook = Дізнайтеся, як взяти участь
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Що таке мова на Common Voice?
+about-playbook-what-is-language-content-1 = Існує багато способів пояснення мови. Для моделей розпізнавання мовлення Common Voice пропонує зосередитися на «взаємній зрозумілості», або «чи можуть носії цієї мови зрозуміти один одного, якщо спробують?»
+about-playbook-what-is-language-content-2 = Ми хочемо, щоб моделі мовлення краще розуміли різноманітне коло мовців. Для цього голосовий набір даних повинен представляти багато різних людей.
 
 ## How do I add a language
 
