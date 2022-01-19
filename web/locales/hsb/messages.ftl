@@ -491,6 +491,7 @@ about-voice-validation-title = Přepruwowanje hłosow
 about-voice-validation-subtitle = Druzy ludźo tute hłosowe klipy přepruwuja.
 about-dataset-release-title = Wozjewjenje datoweje sadźby
 about-dataset-release-subtitle = Wozjewjamy datowu sadźbu kóžde 3 měsacy.
+about-subscribe-text = Chceće z Common Voice w zwisku wostać?
 about-speak = Rěčeć
 about-speak-text = Sobuskutkowarjo čitaja z datoweje banki sadow a nahrawaja hłosowe klipy.
 about-listen-queue = Słuchowy čakanski rynk
@@ -517,6 +518,7 @@ about-get-involved = Čińće sobu
 about-get-involved-text-2 =
     Chceće pomhać, Common Voice polěpšić?
     Wulkotnje! Stajće so z nami přez e-mejl abo we forumach <discourseLink>Discourse</discourseLink>  do zwiska, sćelće sydłowe problemy přez <githubLink>Github</githubLink> abo wopytajće nas w chaće zhromadźenstwa <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Kak móžu w zwisku wostać?
 about-nav-why-common-voice = Čehodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnerojo
@@ -544,6 +546,7 @@ about-playbook-how-add-sentences = Kak móžu sady přidać?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Kak móžu hłosowy klip we wysokej kwaliće natočić?
 
 ## How to grow language
 
