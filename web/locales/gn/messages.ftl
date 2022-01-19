@@ -533,9 +533,12 @@ about-playbook-how-add-language = ¿Mba’éicha ambojuajúta ñe’ẽ?
 
 ## How does localization work
 
+about-playbook-how-localize = ¿Mba’éicha ojejapo ñe’ẽasa tendápe?
+about-playbook-how-localize-content-5 = Ehecha ore ta’ãngamýi myesakãha ne pytyvõtava
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ¿Mba’éicha ambojuajúta ñe’ẽjuaju?
 
 ## How to record quality
 
