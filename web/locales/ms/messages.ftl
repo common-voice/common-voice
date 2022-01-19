@@ -38,7 +38,6 @@ ba = Bahasa Baskhir
 bas = Bahasa Basaa
 be = Bahasa Belarus
 bg = Bahasa Bulgaria
-bm = Bahasa Bambara
 bn = Bahasa Benggali
 br = Bahasa Breton
 bxr = Bahasa Buryat
@@ -169,6 +168,7 @@ zh-TW = Bahasa Cina (Taiwan)
 ## Layout
 
 speak = Bercakap
+speak-now = Cakap sekarang
 datasets = Set data
 languages = Bahasa
 about = Mengenai
@@ -194,6 +194,10 @@ home-cta = Bersuara, menyumbang di sini!
 wall-of-text-start =
     Suara itu semula jadi, suara adalah manusia. Itulah sebabnya kami terpesona dengan mencipta suara yang boleh digunakan
     teknologi untuk mesin kami. Tetapi untuk membuat sistem suara, jumlah data suara yang sangat besar diperlukan.
+wall-of-text-more-mobile =
+    Kebanyakan data yang digunakan oleh syarikat besar tidak tersedia untuk kebanyakan pengguna. Kami fikir
+    itu yang menyekat inovasi. Oleh itu, kita telah melancarkan Projek Common Voice, projek untuk membantu membuat suara
+    pengiktirafan terbuka kepada semua orang.
 wall-of-text-more-desktop =
     Kini anda dapat menyumbangkan suara anda untuk membantu kami membina pangkalan data suara sumber terbuka yang boleh digunakan oleh sesiapa sahaja
     untuk membuat aplikasi inovatif untuk peranti dan web. Baca ayat untuk membantu mesin mengetahui bagaimana orang sebenar bercakap. Periksa kerja orang lain
@@ -223,6 +227,14 @@ help-reach-goal = Bantu kami untuk mencapai { $goal }
 ready-to-record = Bersedia untuk menyumbangkan suara anda?
 all-locales = Semua
 today = Hari ini
+x-months-short =
+    { $count ->
+       *[other] { $count } mo
+    }
+x-years-short =
+    { $count ->
+       *[other] { $count }y
+    }
 help-make-dataset = Bantu kami membina set data berkualiti tinggi dan terbuka untuk umum
 sign-up-account = Daftar untuk mendapatkan akaun
 email-subscription-title = Daftar untuk mendapatkan kemas kini emel
@@ -233,9 +245,13 @@ email-subscription-title-new = Daftar untuk buletin Common Voice, peringatan mat
 benefits = Kebaikan
 keep-track = Jejaki kemajuan dan metrik anda dalam pelbagai bahasa.
 compare-progress = Lihat bagaimana kemajuan anda dibandingkan dengan penyumbang lain di seluruh dunia.
+view-goals = Lihat kemajuan anda terhadap matlamat peribadi dan projek.
+join-newsletter = Secara pilihan, sertai senarai e-mel kami untuk kemas kini dan maklumat baru mengenai projek ini.
 
 ## What's public
 
+whats-public = Apa itu awam?
+email-not-public = Kami tidak akan menjadikan e-mel anda umum.
 recordings-and-locale-public = Jumlah rakaman dan bahasa yang anda sumbangkan akan menjadi umum.
 username-optin-public = Anda boleh pilih untuk jadikan nama pengguna anda terbuka atau tanpa nama.
 username-email-not-demographic = Nama pengguna dan e-mel anda tidak akan dikaitkan dengan data yang diterbitkan.
@@ -268,6 +284,7 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rakam semula klip
 shortcut-submit = Kembali
 shortcut-submit-label = Hantar Klip
+request-language-text = Masih belum melihat bahasa anda di Common Voice?
 request-language-text-learn = Ketahui cara memintanya di sini!
 request-language-button = Permintaan Bahasa
 
@@ -287,6 +304,8 @@ english = Bahasa Inggeris
 
 profile-form-username =
     .label = Nama Pengguna
+profile-form-native-language =
+    .label = Bahasa Asal
 profile-form-additional-language =
     .label = Bahasa Tambahan
 profile-form-accent =
@@ -298,6 +317,8 @@ profile-form-gender-2 =
 leaderboard-visibility =
     .label = Ketampakan Papan Pemuka
 hidden = Tersembunyi
+native-language =
+    .label = Bahasa Asal
 profile-form-submit-save = Simpan
 profile-form-submit-saved = Telah disimpan
 male = Lelaki
@@ -319,13 +340,17 @@ profile-explanation = Jejaki kemajuan anda dengan profil dan bantu data suara ka
 thanks-for-account = Terima kasih kerana mengesahkan akaun anda, sekarang mari bina profil anda.
 why-demographic = Kenapa ini penting?
 accept-privacy = Saya setuju anda mengendalikan maklumat ini seperti yang dijelaskan dalam <privacyLink>Polisi Privasi</privacyLink> Mozilla
+login-identity = Identiti Log Masuk
 login-signup = Log Masuk / Daftar
 edit = Sunting
 email-subscriptions = Langganan E-mel
 download-profile = Muat turun Data Saya
 contribution-experience = Pengalaman Sumbangan
 skip-submission-feedback = Langkau Penghantaran Maklum balas
+skip-submission-description = Semasa maklum balas serahan sumbangan akan dilangkau selepas mengklik 'Hantar'. Sumbangan akan terus diteruskan dengan set 5 rakaman atau pengesahan seterusnya.
 skip-submission-note = Catatan: Anda masih perlu memilih antara Cakap atau Dengarkan untuk menukar jenis sumbangan.
+off = Matikan
+on = Hidupkan
 
 ## Profile - Email
 
@@ -358,10 +383,54 @@ faq-what-quality-q = Apakah tahap kualiti audio yang diperlukan untuk klip suara
 faq-why-10k-hours-q = Mengapa 10,000 jam disahkan matlamat setiap bahasa bagi menangkap audio?
 faq-how-calc-hours-q = Bagaimana Common Voice mengira jam?
 faq-where-src-from-2-q = Dari manakah teks sumber berasal?
+faq-why-not-ask-read-q = Mengapa anda tidak meminta orang untuk membaca daripada buku atau artikel Wikipedia dalam bahasa yang berbeza?
+faq-is-account-public-q = Adakah maklumat akaun saya terbuka?
+faq-what-is-cv = Apakah Common Voice?
+faq-using-cv = Menggunakan Common Voice
+faq-description = Common Voice adalah sebahagian daripada inisiatif Mozilla untuk membantu mengajar mesin cara orang sebenar bercakap.
 
 ## ABOUT US
 
 about-title = Mengapa Common Voice?
+
+## How does it work section
+
+about-speak = Cakap
+about-speak-text = Penyumbang merakam klip suara dengan membaca dari bank ayat yang disumbangkan.
+about-listen-queue = Giliran-Dengar
+about-listen = Dengar
+about-is-it-valid = Adakah clip ini sah?
+about-is-it-valid-text = Klip suara ditandakan "sah" apabila pengguna memberikan undi Ya.
+about-yes-votes = ≥ 2 undian Ya
+about-no-votes = ≥ 2 Tiada undian
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-subtitle = Kecerdasan buatan
 
 ## Glossary
