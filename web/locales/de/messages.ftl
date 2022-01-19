@@ -36,7 +36,6 @@ ba = Baschkirisch
 bas = Basaa
 be = Weißrussisch
 bg = Bulgarisch
-bm = Bambara
 bn = Bengali
 br = Bretonisch
 bs = Bosnisch
@@ -470,15 +469,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Warum Common Voice?
-about-subtitle = Common-Voice ist ein Teil von Mozillas Initiative, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen. Zusätzlich zum Common-Voice-Datensatz entwickeln wir auch eine quelloffene Spracherkennungs-Engine namens Deep Speech.
-about-header-description =
-    Beide Projekte sind Teil unserer Bemühungen, die Lücke, die digitale Sprache bedeutet, zu überbrücken. Spracherkennungstechnologien verleihen unseren Geräten eine menschliche Dimension, aber Entwickler benötigen eine riesige Menge an Sprachdaten, um sie zu erstellen. Derzeit sind die meisten dieser Daten teuer und proprietär.
-    Wir möchten Sprachdaten frei und öffentlich verfügbar machen und sicherstellen, dass die Daten die Vielfalt echter Menschen darstellen. Gemeinsam können wir die Spracherkennung für alle verbessern.
-about-header-description-2 =
-    Dieses Projekt ist ein Versuch, die Lücke, die digitale Sprache bedeutet, zu überbrücken. Spracherkennungstechnologien verleihen unseren Geräten eine menschliche Dimension, aber Entwickler benötigen eine riesige Menge an Sprachdaten, um sie zu erstellen. Derzeit sind die meisten dieser Daten teuer und proprietär.
-    Wir möchten Sprachdaten frei und öffentlich verfügbar machen und sicherstellen, dass die Daten die Vielfalt echter Menschen darstellen. Gemeinsam können wir die Spracherkennung für alle verbessern.
-how-does-it-work-title = Wie es funktioniert
+about-header-description-v2 =
+    <p>Common Voice ist ein öffentlich verfügbarer Sprachdatensatz, der durch Stimmen freiwilliger Mitwirkender auf der ganzen Welt geschaffen wird. Menschen, die Sprachanwendungen erstellen möchten, können den Datensatz verwenden, um Modelle für maschinelles Lernen zu trainieren.</p>
+    <p>Derzeit sind die meisten Sprachdatensätze im Besitz von Unternehmen, was Innovationen erstickt. Stimmdatensätze überrepräsentieren auch weiße, englischsprachige Männer. Das bedeutet, dass die sprachgesteuerte Technologie in vielen Sprachen überhaupt nicht funktioniert, und wo sie funktioniert, funktioniert sie möglicherweise nicht bei allen gleich gut. Wir möchten das ändern, indem wir Menschen überall mobilisieren, ihre Stimme zu teilen.</p>
+how-does-it-work-title-v2 = Wie funktioniert Common Voice?
 how-does-it-work-text = Wir crowdsourcen einen Open-Source-Datensatz von Stimmen. Spenden Sie Ihre Stimme, überprüfen Sie die Genauigkeit der Clips anderer Personen, und verbessern Sie den Datensatz für alle.
+
+## How does it work section
+
+about-language-req-subtitle = Jemand bittet darum, eine Sprache hinzuzufügen.
+about-localization-title = Website-Lokalisierung
+about-localization-subtitle = Der Text der Website wird in diese Sprache übersetzt.
+about-sentence-collection-title = Satz-Sammlung
+about-sentence-collection-subtitle = Sätze werden gesammelt, damit Menschen diese laut vorlesen können.
+about-new-lang-title = Veröffentlichung einer neuen Sprache
+about-new-lang-subtitle = Wir veröffentlichen die Common-Voice-Website in dieser Sprache.
+about-voice-contrib-title = Beitragen von Stimmen
+about-voice-contrib-subtitle = Menschen kommen und spenden ihre Stimme.
+about-voice-validation-title = Stimmenüberprüfung
+about-voice-validation-subtitle = Andere Leute validieren diese Sprachclips.
+about-dataset-release-title = Veröffentlichung des Datensatzes
+about-dataset-release-subtitle = Wir veröffentlichen den Datensatz alle drei Monate.
+about-subscribe-text = Möchten Sie mit Common Voice in Kontakt bleiben?
 about-speak = Sprechen
 about-speak-text = Mitwirkende zeichnen Sprachclips auf, indem sie aus einer Datenbank gespendeter Sätze lesen.
 about-listen-queue = Hör-Warteschlange
@@ -507,10 +519,54 @@ about-get-involved-text-2 =
     Großartig! Kontaktieren Sie uns per E-Mail oder über die<discourseLink>Discourse</discourseLink>-Foren,
     melden Sie Probleme mit der Website über <githubLink>GitHub</githubLink>
     oder besuchen Sie unseren Community-Chat auf <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Wie bleibe ich in Kontakt?
+about-stay-in-touch-text-1 = <emailFragment>Registrieren Sie sich bei unserer Mailingliste</emailFragment> an, um zu erfahren, wie Sie an Kampagnen, Veranstaltungen und Co-Design-Funktionen auf Common Voice teilnehmen können.
+about-stay-in-touch-text-2 = Sie können andere Menschen in den Mozilla-Sprachgemeinschaften treffen, indem Sie <discourseLink>Discourse</discourseLink> für aktuelle Gespräche oder <matrixLink>Matrix</matrixLink> für schnelle Ratschläge beitreten.
 about-nav-why-common-voice = Warum?
 about-nav-how-it-works = Wie?
 about-nav-partners = Partner
 about-nav-get-involved = Mitmachen
+about-nav-how-it-works-2 = Wie funktioniert Common Voice?
+about-nav-playbook = Erfahren Sie, wie Sie mitmachen können
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Was ist eine Sprache bei Common Voice?
+about-playbook-what-is-language-content-1 = Es gibt viele Möglichkeiten, sich Sprache vorzustellen. Für die Zwecke von Spracherkennungsmodellen schlägt Common Voice vor, sich auf „gegenseitige Verständlichkeit“ zu konzentrieren oder „können Sprecher dieser Sprache einander meistens verstehen, wenn sie es versuchen?“.
+about-playbook-what-is-language-content-2 = Wir wollen, dass Sprachmodelle besser in der Lage sind, eine Vielzahl von Sprechern zu verstehen. Damit dies geschieht, muss ein Sprachdatensatz viele verschiedene Personen repräsentieren.
+about-playbook-what-is-language-content-3 = Einige Sprachen haben enorme Unterschiede in Grammatik, Vokabular und Aussprache. Aus diesem Grund führen wir 2022 <ctaLink>„Varianten“</ctaLink ein. Dies gibt Gemeinschaften eine Möglichkeit, ihre Sprachen innerhalb des größeren Datensatzes zu unterscheiden.
+
+## How do I add a language
+
+about-playbook-how-add-language = Wie füge ich eine Sprache hinzu?
+about-playbook-how-add-language-content-1 = Überprüfen Sie zunächst, ob Ihre Sprache <languageLink>bereits existiert</languageLink>. Wenn nicht, müssen Sie <strong>die Seite übersetzen und Sätze sammeln</strong>.
+about-playbook-how-add-language-content-2 = <strong>Um die Website zu übersetzen</strong> – <translateVideo>erstellen Sie ein Konto</translateVideo> auf <pontoonLink>Pontoon</pontoonLink>. Pontoon hat viele Sprachen, aber wenn Ihre noch fehlt können Sie sie <pontoonRequestLink>anfordern</pontoonRequestLink>. Dann bitten Sie <repoLink>über GitHub</repoLink>, das Common-Voice-Projekt für die Sprache verfügbar zu machen. Weitere Informationen finden Sie unter <localizationFragment>Website-Übersetzung</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Um Sätze zu sammeln</strong> – <scVideo>richten Sie</scVideo> den <scLink>Satzsammler</scLink> ein.
+about-playbook-how-add-language-content-4 = Sie können hier <scLinkAdd>eine kleine Anzahl</scLinkAdd> von Sätzen hinzufügen oder Sie können <bulkImportDocsLink>Massenimporte</bulkImportDocsLink> über eine Github-Anfrage durchführen. Denken Sie daran, dass Sätze <licenseLink>CC0 (oder gemeinfrei)</licenseLink> sein müssen; alternativ können Sie Ihre eigenen schreiben. Weitere Informationen finden Sie unter <scFragment>Satzsammlung</scFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Wie funktioniert die Lokalisierung der Website?
+about-playbook-how-localize-content-1 = Die Übersetzung der Common-Voice-Website erfolgt auf <strong>Pontoon</strong>.
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Künstliche Intelligenz
 mycroft-description =
