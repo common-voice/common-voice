@@ -550,19 +550,27 @@ about-playbook-how-add-sentences = Hur lägger jag till meningar?
 
 ## How to grow language
 
+about-playbook-how-grow-language = Hur kan vi effektivt utveckla ett språk på Common Voice?
+about-playbook-how-grow-language-content-2 = Evenemang
 about-playbook-how-grow-language-content-4 = Sociala medier
 about-playbook-how-grow-language-content-6 = Partnerskap och nätverk
 
 ## How to validate
 
+about-playbook-how-validate = Hur vet jag om jag ska godkänna ett röstklipp?
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Hur kommer jag åt och använder datamängden?
 
 ## How are decisions made
 
 about-playbook-how-project-governance = Hur fattas projektbeslut?
+about-playbook-how-project-governance-content-3 = Sekretess, säkerhet och transparens.
+about-playbook-how-project-governance-content-4 = Gemenskapens deltagande och beslutsfattande.
+about-playbook-how-project-governance-content-5 = Värde och erkännande.
 about-playbook-how-project-governance-content-6 = Ömsesidigt ansvar.
+about-playbook-how-project-governance-content-7 = <governanceLink>Läs mer om hur vi styrs</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificiell intelligens
 mycroft-description =
