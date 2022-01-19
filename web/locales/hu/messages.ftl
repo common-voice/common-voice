@@ -36,7 +36,6 @@ ba = Baskír
 bas = Basza
 be = Belorusz
 bg = Bolgár
-bm = Bambara
 bn = Bengáli
 br = Breton
 bs = Bosnyák
@@ -473,15 +472,18 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Miért a Common Voice?
-about-subtitle = A Common Voice a Mozilla azon kezdeményezésének része, hogy megtanítsuk a gépeket arra, hogyan beszélnek az emberek. A Common Voice adatkészlet mellett egy nyílt forráskódú szövegfelismerési motort is fejlesztünk, melyet Deep Searchnek hívnak.
-about-header-description =
-    Mindkét projekt azon erőfeszítésünk része, hogy áthidaljuk a digitális beszéd szakadékát. A hangfelismerési technológiák emberi dimenziót adnak az eszközeinknek, de a fejlesztőknek hatalmas mennyiségű hangadatra van szükségük az elkészítésükhöz. Jelenleg az ilyen adatok legnagyobb része drága és zárt.
-    A hangadatokat szabadon és nyilvánosan elérhetővé akarjuk tenni, és meg akarunk győződni arról, hogy az adatok a valódi emberek sokszínűségét tükrözik. Együtt mindenki számára jobbá tehetjük a hangfelismerést.
-about-header-description-2 =
-    A projekt a digitális beszéd szakadékának áthidalását célzó kezdeményezés. A hangfelismerési technológiák emberi dimenziót adnak az eszközeinknek, de a fejlesztőknek hatalmas mennyiségű hangadatra van szükségük az elkészítésükhöz. Jelenleg az ilyen adatok legnagyobb része drága és zárt.
-    A hangadatokat szabadon és nyilvánosan elérhetővé akarjuk tenni, és meg akarunk győződni arról, hogy az adatok a valódi emberek sokszínűségét tükrözik. Együtt mindenki számára jobbá tehetjük a hangfelismerést.
-how-does-it-work-title = Hogyan működik
+how-does-it-work-title-v2 = Hogyan működik a Common Voice?
 how-does-it-work-text = Közösségi munkában gyűjtjük a hangok nyílt forráskódú készletét. Adja a hangját, ellenőrizze más emberek klipjeinek pontosságát, és tegye mindenki számára jobbá az adatkészletet.
+
+## How does it work section
+
+about-language-req-subtitle = Valaki egy nyelv hozzáadását kéri.
+about-localization-title = Webhely lokalizálása
+about-localization-subtitle = A webhely szövegét lefordítják erre a nyelvre.
+about-sentence-collection-title = Mondatok gyűjtése
+about-sentence-collection-subtitle = A mondatokat összegyűjtik, hogy az emberek felolvassák.
+about-new-lang-title = Új nyelv indítása
+about-new-lang-subtitle = Elindítjuk ezen a nyelven a Common Voice webhelyet.
 about-speak = Beszéljen
 about-speak-text = A közreműködők hangfelvételeket készítenek a felajánlott mondatok felolvasásával.
 about-listen-queue = Figyelési sor
@@ -514,6 +516,34 @@ about-nav-why-common-voice = Miért?
 about-nav-how-it-works = Hogyan?
 about-nav-partners = Partnerek
 about-nav-get-involved = Csatlakozzon
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Mesterséges intelligencia
 mycroft-description =
