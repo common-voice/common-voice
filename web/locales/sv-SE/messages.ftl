@@ -36,7 +36,6 @@ ba = Basjkiriska
 bas = Basaa
 be = Vitryska
 bg = Bulgariska
-bm = Bambara
 bn = Bengaliska
 br = Bretonska
 bs = Bosniska
@@ -475,17 +474,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Varför Common Voice?
-about-subtitle = Common Voice är en del av Mozillas initiativ för att hjälpa till att lära maskiner hur riktiga människor talar. Förutom Common Voice-datamängd bygger vi också en taligenkänningsmotor med öppen källkod som heter Deep Speech.
-about-header-description =
-    Båda dessa projekt är en del av våra ansträngningar att överbrygga den digitala talklyftan. Röstigenkänningsteknik ger en mänsklig dimension till våra enheter, men utvecklare behöver en enorm mängd röstdata för att bygga dem. För närvarande är de flesta av dessa data dyra och proprietära.
-    Vi vill göra röstdata fritt och allmänt tillgängliga, och se till att uppgifterna representerar mångfalden av riktiga människor. Tillsammans kan vi göra röstigenkänning bättre för alla.
-about-header-description-2 =
-    Detta projekt är ett försök att överbrygga det digitala talets klyfta.
-    Röstigenkänningsteknologin tillför en mänsklig dimension åt våra apparater men för att det skall lyckas så behöver utvecklare enorma mängder av röstdata och för tillfället så är större delen av dessa data både dyr och belagd med patent.
-    Vi vill att röstdata skall vara gratis och tillgängligt för alla, inte minst  för att säkerställa att datan verkligen representerar mångfalden av verkliga människor.
-    Tillsammans kan vi göra röstigenkänning bättre för alla.
-how-does-it-work-title = Hur fungerar det
+how-does-it-work-title-v2 = Hur fungerar Common Voice?
 how-does-it-work-text = Vi crowdsourcar en röstdatamängd med öppen källkod. Donera din röst, bekräfta noggrannheten i inspelningar från andra och gör datamängden bättre för alla.
+
+## How does it work section
+
+about-language-req-subtitle = Någon ber om att ett språk ska läggas till.
+about-localization-title = Webbplatsöversättning
+about-localization-subtitle = Webbplatsens text är översatt till det språket.
+about-sentence-collection-title = Insamling av meningar
+about-sentence-collection-subtitle = Meningar samlas in för att personer ska kunna läsa högt.
+about-new-lang-title = Ny språklansering
+about-new-lang-subtitle = Vi lanserar webbplatsen Common Voice på detta språk.
+about-voice-contrib-title = Röstbidrag
+about-voice-contrib-subtitle = Personer kommer och bidrar med sina röster.
+about-voice-validation-title = Röstvalidering
+about-voice-validation-subtitle = Andra personer validerar dessa röstklipp.
+about-dataset-release-title = Släpp av datamängder
+about-dataset-release-subtitle = Vi släpper datamängder var tredje månad.
+about-subscribe-text = Vill du hålla kontakten med Common Voice?
 about-speak = Tala
 about-speak-text = Bidragsgivare spelar in röstklipp genom att läsa från en bank med givna meningar.
 about-listen-queue = Lyssna-kö
@@ -514,10 +521,48 @@ about-get-involved-text-2 =
     Bra! Ta kontakt via e-post eller <discourseLink>Discourse</discourseLink>
     forum, skicka webbplatsfrågor via <githubLink>GitHub</githubLink> eller gå med i
     <matrixLink>Matrix</matrixLink> communitychatt.
+about-stay-in-touch = Hur håller jag kontakten?
 about-nav-why-common-voice = Varför ?
 about-nav-how-it-works = Hur ?
 about-nav-partners = Partners
 about-nav-get-involved = Engagera dig
+about-nav-how-it-works-2 = Hur fungerar Common Voice?
+about-nav-playbook = Lär dig hur du deltar
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Vad är ett språk på Common Voice?
+
+## How do I add a language
+
+about-playbook-how-add-language = Hur lägger jag till ett språk?
+
+## How does localization work
+
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Hur lägger jag till meningar?
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-4 = Sociala medier
+about-playbook-how-grow-language-content-6 = Partnerskap och nätverk
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance = Hur fattas projektbeslut?
+about-playbook-how-project-governance-content-6 = Ömsesidigt ansvar.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificiell intelligens
 mycroft-description =
