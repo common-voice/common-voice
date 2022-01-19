@@ -528,6 +528,8 @@ about-nav-playbook = 了解如何參與
 ## What is a language
 
 about-playbook-what-is-language = Common Voice 如何列出語言？
+about-playbook-what-is-language-content-1 = 不同領域對語言有不同的定義。對語音識別模型來說，Common Voice 建議您著重於「相互理解性」，或是「使用這種語言的人嘗試理解對方的話，他們是否真能相互理解？」
+about-playbook-what-is-language-content-2 = 我們想讓語音模型能夠更加包容不同的說話者，所以我們希望語音資料集能夠反映出各種多樣化的聲音。
 
 ## How do I add a language
 
