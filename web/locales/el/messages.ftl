@@ -834,7 +834,7 @@ weekly-goal = Εβδομαδιαίος στόχος
 easy-difficulty = Εύκολο
 average-difficulty = Μέτριο
 difficult-difficulty = Δύσκολο
-pro-difficulty = Επαγγ.
+pro-difficulty = Επαγγελματικό
 lose-goal-progress-warning = Με την επεξεργασία του στόχου σας, ενδέχεται να χάσετε την υπάρχουσα πρόοδό σας.
 want-to-continue = Θέλετε να συνεχίσετε;
 finish-editing = Να ολοκληρωθεί πρώτα η επεξεργασία;
@@ -854,27 +854,27 @@ set-a-goal = Ορισμός στόχου
 cant-decide = Δεν μπορείτε να αποφασίσετε;
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] { $totalHours } ώρα
-       *[other] { $totalHours } ώρες
-    }μπορεί(ούν) να επιτευχθεί(ούν) σε λίγο περισσότερο από{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } μήνα
-       *[other] { $periodMonths } μήνες
-    }αν{ NUMBER($people) ->
-        [one] { $people } άτομο
-       *[other] { $people } άτομα
-    }καταγράφει(ουν){ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } κλιπ
-       *[other] { $clipsPerDay } κλιπ
-    }κάθε μέρα.
-how-many-per-day = Εξαιρετικά! Πόσα κλιπ την ημέρα;
-how-many-a-week = Εξαιρετικά! Πόσα κλιπ την εβδομάδα;
+        [one] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από
+       *[other] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από
+    } { NUMBER($periodMonths) ->
+        [one] { $periodMonths } μήνα εάν
+       *[other] { $periodMonths } μήνες εάν
+    } { NUMBER($people) ->
+        [one] { $people } άτομο καταγράφει
+       *[other] { $people } άτομα καταγράφουν
+    } { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } απόσπασμα την ημέρα.
+       *[other] { $clipsPerDay } αποσπάσματα την ημέρα.
+    }
+how-many-per-day = Τέλεια! Πόσα αποσπάσματα την ημέρα;
+how-many-a-week = Τέλεια! Πόσα αποσπάσματα την εβδομάδα;
 which-goal-type = Θέλετε να μιλήσετε, να ακούσετε ή και τα δύο;
 receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, θα λαμβάνετε email, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 not-receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, <bold>ΔΕΝ</bold> θα λαμβάνετε email, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] { $count } κλιπ
-       *[other] { $count } κλιπ
+        [one] { $count } απόσπασμα
+       *[other] { $count } αποσπάσματα
     }
 help-share-goal = Βοηθήστε μας να βρείτε περισσότερες φωνές, μοιραστείτε το στόχο σας
 confirm-goal = Επιβεβαίωση στόχου
