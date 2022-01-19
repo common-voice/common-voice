@@ -36,7 +36,6 @@ ba = Basquir
 bas = Basa
 be = Bielorrusso
 bg = Búlgaro
-bm = Bambara
 bn = Bengalês
 br = Bretão
 bs = Bósnio
@@ -470,15 +469,12 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Por que o Common Voice?
-about-subtitle = O Common Voice faz parte da iniciativa da Mozilla de ajudar a ensinar às máquinas como pessoas de verdade falam. Em paralelo ao conjunto de dados do Common Voice, estamos construindo também um mecanismo de reconhecimento de voz de código aberto chamado Deep Speech.
-about-header-description =
-    Ambos os projetos fazem parte de nossos esforços de conciliar a desunião da fala digital. Tecnologias de reconhecimento de voz dão uma dimensão humana a nossos dispositivos, mas os desenvolvedores precisam de uma enorme quantidade de dados de voz para construí-las. Atualmente, a maioria dos dados é cara e proprietária.
-    Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de assegurar que os dados representem a diversidade de pessoas reais. Juntos podemos tornar o reconhecimento de voz melhor para todos.
-about-header-description-2 =
-    Este projeto é um esforço de conciliar a desunião da fala digital. Tecnologias de reconhecimento de voz dão uma dimensão humana a nossos dispositivos, mas os desenvolvedores precisam de uma enorme quantidade de dados de voz para construí-las. Atualmente, a maioria dos dados é cara e proprietária.
-    Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de assegurar que os dados representem a diversidade de pessoas reais. Juntos podemos tornar o reconhecimento de voz melhor para todos.
-how-does-it-work-title = Como funciona
+how-does-it-work-title-v2 = Como funciona o Common Voice?
 how-does-it-work-text = Estamos colhendo um conjunto de dados de voz de código aberto através de colaboração pública. Doe sua voz, valide a correção dos clipes de outras pessoas, torne o conjunto de dados melhor para todos.
+
+## How does it work section
+
+about-localization-title = Tradução do site
 about-speak = Falar
 about-speak-text = Os colaboradores gravam clipes de voz lendo a partir de um banco de frases doadas.
 about-listen-queue = Fila de audição
@@ -511,6 +507,34 @@ about-nav-why-common-voice = Por quê?
 about-nav-how-it-works = Como?
 about-nav-partners = Parceiros
 about-nav-get-involved = Envolva-se
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Inteligência artificial
 mycroft-description =
