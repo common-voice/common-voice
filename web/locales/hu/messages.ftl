@@ -537,6 +537,7 @@ about-playbook-how-localize-content-5 = A segítséghez tekintse meg a magyaráz
 ## How to add sentences
 
 about-playbook-how-add-sentences = Hogyan adhatok hozzá mondatokat?
+about-playbook-how-add-sentences-content-1 = A <strong>mondatgyűjtő</strong> egy eszköz, amely közkincsű mondatok gyűjtésére és ellenőrzésére szolgál. <scAccountLink>Létre kell hoznia egy fiókot</scAccountLink>. Majd adja hozzá a nyelvét a <strong>profiljában</strong>. <strong>Hozzáadhat</strong> mondatokat, vagy <strong>ellenőrizheti</strong> az előzőleg hozzáadottakat.
 
 ## How to record quality
 
@@ -552,6 +553,13 @@ about-playbook-how-add-sentences = Hogyan adhatok hozzá mondatokat?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Hogyan születnek a projektekkel kapcsolatos döntések?
+about-playbook-how-project-governance-content-2 = Az irányításunk ezekre a pillérekre épül:
+about-playbook-how-project-governance-content-3 = Adatvédelem, biztonság és átláthatóság.
+about-playbook-how-project-governance-content-4 = Közösségi részvétel és döntéshozatal.
+about-playbook-how-project-governance-content-5 = Érték és elismerés.
+about-playbook-how-project-governance-content-6 = Kölcsönös elszámoltathatóság.
+about-playbook-how-project-governance-content-7 = <governanceLink>További információk az irányításunkról</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Mesterséges intelligencia
 mycroft-description =
@@ -606,9 +614,9 @@ review-terms = A Common Voice használatával elfogadja a <termsLink>Jogi felté
 terms-agree = Elfogadom
 terms-disagree = Nem fogadom el
 review-aborted = Feltöltés megszakítva. Törli a felvételt?
-review-submit-title = Átnézés és beküldés
+review-submit-title = Ellenőrzés és beküldés
 review-submit-msg = Köszönjük a felvételt!<lineBreak></lineBreak>Nézze át, és küldje be az alábbi klipeket.
-review-recording = Véleményezés
+review-recording = Ellenőrzés
 review-rerecord = Újrarögzítés
 review-cancel = Beküldés megszakítása
 review-keep-recordings = Felvételek megtartása
@@ -997,7 +1005,7 @@ demo-account-sign-up = Regisztrációs hivatkozás engedélyezése
 ## Demo Contribute
 
 demo-contribute-card-header = Készen áll, hogy kölcsönadja a hangját vagy a fülét?
-demo-contribute-card-body-v2 = Most, hogy egy kicsit többet tud a Common Voice-ról, miért ne próbálná ki? Kattintson a mikrofon ikonra a mondatok hangos olvasásának megkezdéséhez.<br/><br/>Ha inkább átnézné mások hanghozzájárulásait, kattintson a lejátszás ikonra. Segíteni fog annak a megerősítésében, hogy a hangfelvételek megegyeznek a képernyőre írt mondatokkal.
+demo-contribute-card-body-v2 = Most, hogy egy kicsit többet tud a Common Voice-ról, miért ne próbálná ki? Kattintson a mikrofon ikonra a mondatok hangos olvasásának megkezdéséhez.<br/><br/>Ha inkább ellenőrizné mások hanghozzájárulásait, kattintson a lejátszás ikonra. Segíteni fog annak a megerősítésében, hogy a hangfelvételek megegyeznek a képernyőre írt mondatokkal.
 demo-listen-subtitle = Készen áll a közreműködésre?
 
 ## Demo Dashboard
@@ -1351,7 +1359,7 @@ sc-review-select-language = Válasszon nyelvet a mondatok ellenőrzéséhez.
 sc-review-no-sentences = Nincsenek ellenőrizendő mondatok. <addLink>Adjon hozzá további mondatokat.</addLink>
 sc-review-form-prompt =
     .message = Az ellenőrzött mondatokat nem küldte be, biztos benne?
-sc-review-form-usage = Csúsztassa jobbra a mondat jóváhagyásához. Csúsztassa balra az elutasításhoz. Csúsztassa felfelé az átugráshoz. <strong>Ne felejtse el elküldeni az értékelését.</strong>
+sc-review-form-usage = Csúsztassa jobbra a mondat jóváhagyásához. Csúsztassa balra az elutasításhoz. Csúsztassa felfelé az átugráshoz. <strong>Ne felejtse el elküldeni az ellenőrzés eredményét.</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Forrás: { $sentenceSource }
