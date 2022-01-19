@@ -567,6 +567,9 @@ about-playbook-how-access-dataset = Kak mam přistup k datowej sadźbje a kak m�
 ## How are decisions made
 
 about-playbook-how-project-governance = Kak so projektowe rozsudy tworja?
+about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transparenca.
+about-playbook-how-project-governance-content-5 = Hódnota a připóznaće.
+about-playbook-how-project-governance-content-6 = Mjezsobna rozprawniska winowatosć.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kumšnta inteligenca
 mycroft-description =
