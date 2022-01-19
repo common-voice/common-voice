@@ -541,8 +541,12 @@ about-nav-get-involved = Ñepytyvõ
 
 ## How are decisions made
 
+about-playbook-how-project-governance = ¿Mba’éichapa ojejapyhy apopyrã rape?
 about-playbook-how-project-governance-content-2 = Ore rekuái oñemopyenda ko’ã ytáre:
 about-playbook-how-project-governance-content-3 = Tekoñemi, tekorosã ha tekosakã.
+about-playbook-how-project-governance-content-4 = Tekohápe jeike ha mba'e tapépa ojejapyhy.
+about-playbook-how-project-governance-content-5 = Tepykue ha jehechakuaa.
+about-playbook-how-project-governance-content-6 = Jepapapy mokõiveguáva.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Tembiporu Ikatupyrýva
 mycroft-description =
