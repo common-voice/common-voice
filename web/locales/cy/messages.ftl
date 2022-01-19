@@ -560,18 +560,43 @@ about-playbook-how-add-language = Sut mae modd i mi ychwanegu iaith?
 about-playbook-how-add-language-content-1 = Yn gyntaf, edrychwch i weld a yw eich iaith <languageLink>yn bodoli eisoes</languageLink>. Os nad ydyw, mae angen <strong>cyfieithu'r wefan a chasglu brawddegau</strong>.
 about-playbook-how-add-language-content-2 = <strong>I gyfieithu'r wefan</strong> - mae angen <translateVideo>eich gosod</translateVideo> ar <pontoonLink>Pontoon</pontoonLink>. Mae llawer o ieithoedd ar Pontoon, ond os nad yw eich un chi yno gallwch <pontoonRequestLink>ofyn iddi gael ei gosod yno</pontoonRequestLink>. Yna gofynnwch <repoLink>trwy GitHub</repoLink> i drefnu bod y project Common Voice ar gael ar gyfer yr iaith. Mae rhagor i'w weld ar <localizationFragment>cyfieithu gwefan</localizationFragment>.
 about-playbook-how-add-language-content-3 = <strong>I gasglu brawddegau</strong> - <scVideo>bydd angen i chi osod eich iaith</scVideo> ar y <scLink>Casglwr Brawddegau</scLink>.
+about-playbook-how-add-language-content-4 = Gallwch <scLinkAdd>ychwanegu niferoedd bach</scLinkAdd> o frawddegau yma, neu gallwch <bulkImportDocsLink>fewnforio swmp</bulkImportDocsLink> drwy gais Github. Cofiwch fod angen i frawddegau fod yn <licenseLink>CC0 (neu barth cyhoeddus)</licenseLink>, neu gallwch ysgrifennu rhai eich hun. Dyma ragor am <scFragment>gasglu brawddegau</scFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Sut mae lleoleiddio gwefan yn gweithio?
+about-playbook-how-localize-content-1 = Mae cyfieithu gwefan Common Voice yn digwydd ar <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Crëwch gyfrif</pontoonAccountLink> os nad oes gennych un eisoes. Yna, dewiswch <strong>(‘Tîm’)</strong> eich iaith ac yna dewiswch y project, <pontoonCvLink>Common Voice</pontoonCvLink>. Bydd ffeiliau i'w cyfieithu. Cliciwch ar un, yna mae'n dangos y testun yn Saesneg a blwch i'w gyfieithu.
+about-playbook-how-localize-content-3 = Mae'r cyfieithiad o'r Saesneg, ond gallwch weld <strong>Awgrymiadau</strong> mewn ieithoedd eraill. Cliciwch yr eicon <strong>Proffil</strong>, yna dolen <strong>Gosodiadau</strong> ac ychwanegwch unrhyw ieithoedd rydych chi'n eu siarad. Yn y gornel dde ar y gwaelod bydd rhestr o gyfieithiadau o'r enw <strong>Locales</strong>. Bydd y cyfieithiadau'n ymddangos ar y wefan ar y diwrnod canlynol.
+about-playbook-how-localize-content-4 = Mae'r wefan yn barod i'w lansio pan fydd 75% wedi'i chwblhau.
+about-playbook-how-localize-content-5 = Gwyliwch ein fideo esbonio i'ch helpu
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Sut ydw i'n ychwanegu brawddegau?
+about-playbook-how-add-sentences-content-1 = Mae'r <strong>Casglwr Brawddegau </strong> yn offeryn ar gyfer casglu a dilysu brawddegau parth cyhoeddus. Bydd angen i chi <scAccountLink>greu cyfrif</scAccountLink>. Yna, ychwanegwch eich iaith at eich <strong>Proffil</strong>. Gallwch <strong>Ychwanegu</strong> brawddegau neu <strong>Adolygu</strong> brawddegau a ychwanegwyd yn flaenorol.
+about-playbook-how-add-sentences-content-2 = Rhaid i frawddegau gael eu hadolygu a'u derbyn gan ddau berson i'w cynnwys yn Common Voice. Rydych chi'n creu canllawiau ar gyfer eich iaith <languageGuidelinesLink>yma</languageGuidelinesLink>. Rhaid i frawddegau fod yn y <licenseLink>parth cyhoeddus</licenseLink> ac yn llai na 15 gair. Gallwch ofyn i berchennog neges destun ei wneud yn <waiverLink>CC0 gan ddefnyddio ein proses hepgoriad</waiverLink>, a'i anfon atom ar commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Gallwch ddefnyddio'r <scraperLink>Echdynnwr Brawddeg</scraperLink> i dynnu brawddegau byr o Wicipedia.
+about-playbook-how-add-sentences-content-4 = Mae brawddegau sydd wedi'u dilysu yn cael eu hallforio ar ddydd Mercher, a byddant ar gael ar ôl y ryddhad nesaf.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Sut mae recordio clip llais o ansawdd uchel?
+about-playbook-how-record-content-1 = Siaradwch yn eich llais arferol! Mae croeso i’r ffordd rydych chi’n siarad yma – rydyn ni eisiau’ch acen fel ag y mae, ac rydyn ni eisiau maint eich llais, arddull a thonyddiaeth arferol.
+about-playbook-how-record-content-2 = Osgowch gormod o sŵn cefndir - dylai fod yn hawdd eich clywed.
+about-playbook-how-record-content-3 = Darllenwch y frawddeg yn ofalus - peidiwch â cholli, newid nac ychwanegu geiriau.
+about-playbook-how-record-content-4 = Gwnewch yn siŵr bod y platfform yn recordio cyn i chi ddechrau siarad, a dim ond ar ôl i chi orffen y bydd yn stopio.
+about-playbook-how-record-content-5 = <accuracyLink>Gweld rhagor am feini prawf cywirdeb.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Sut gallwn ni fod yn effeithiol yn tyfu iaith ar Common Voice?
+about-playbook-how-grow-language-content-1 = Mae creu cyfleoedd i amrywiaeth o bobl gyfrannu at Common Voice yn sicrhau bod y set ddata yn gwasanaethu cymaint o bobl â phosibl. Rydyn ni wedi creu adnoddau a thempledi y gallwch chi eu defnyddio!
+about-playbook-how-grow-language-content-2 = Digwyddiadau
+about-playbook-how-grow-language-content-3 = Gallwch gynnal digwyddiadau i helpu pobl i gyfrannu. Mae'n haws nag yr ydych chi'n meddwl. Fe allech chi ei wneud ar-lein gydag offeryn fideo-gynadledda, neu yn bersonol os yw'n ddiogel. <eventTemplate>Edrychwch ar ein templedi a'n hadnoddau ar gyfer rhedeg digwyddiadau</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Cyfryngau cymdeithasol
+about-playbook-how-grow-language-content-5 = Gallech ddefnyddio llwyfannau cyfryngau cymdeithasol i ledaenu'r neges. Rhannwch negeseuon sy'n esbonio pam ei fod yn bwysig, a chysylltwch â phobl eraill i siarad am faterion fel hawliau iaith, llais AI, neu ragfarn mewn technoleg. Dyma ragor o gyngor ar gael ar sut i <campaignLink>gynnal ymgyrch gymdeithasol, gan gynnwys cynnwys y gallwch ei ailddefnyddio</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partneriaethau a rhwydweithiau
 
 ## How to validate
 
