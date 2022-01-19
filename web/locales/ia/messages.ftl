@@ -36,7 +36,6 @@ ba = Bashkir
 bas = Basaa
 be = Bielorusso
 bg = Bulgaro
-bm = Bambara
 bn = Bengali
 br = Breton
 bs = Bosniano
@@ -467,15 +466,15 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Proque Common Voice?
-about-subtitle = Common Voice es parte del initiativa de Mozilla pro adjutar a inseniar al machinas como parla le personas real. Ultra al collection de datos Common Voice, nos alsi produce un motor open-source de recognition de voce appellate Deep Speech.
-about-header-description =
-    Ambe iste projectos face parte de nostre effortios pro construer un ponte super le division digital vocal. Le technologias de recognition vocal apporta un dimension human a nostre apparatos, ma le disveloppatores require un enorme quantitate de datos vocal pro crear los. Actualmente, le major parte de ille datos es costose e proprietari.
-    Nos vole render le datos vocal liberemente e publicamente disponibile e assecurar que le datos representa le diversitate del personas real. Insimul nos pote render le recognition vocal melior pro totes.
-about-header-description-2 =
-    Iste projecto es un effortio pro construer un ponte super le division digital vocal. Le technologias de recognition vocal apporta un dimension human a nostre apparatos, ma le disveloppatores require un enorme quantitate de datos vocal pro crear los. Actualmente, le major parte de ille datos es costose e proprietari.
-    Nos vole render le datos vocal liberemente e publicamente disponibile e assecurar que le datos representa le diversitate del personas real. Insimul nos pote render le recognition vocal melior pro totes.
-how-does-it-work-title = Como functiona illo?
+how-does-it-work-title-v2 = Como functiona Common Voice?
 how-does-it-work-text = Nos face un grande collecta open-source de voces donate. Dona tu voce, valida le precision del retalios vocal del alteres, rende melior le collection de datos pro totes!
+
+## How does it work section
+
+about-localization-title = Localisation del sitos Web
+about-sentence-collection-title = Collection de phrases
+about-voice-contrib-title = Contribution vocal
+about-voice-validation-title = Validation del voces
 about-speak = Parlar
 about-speak-text = Contributores registra retalios vocal legente ab un banca de phrases donate.
 about-listen-queue = Cauda pro le ascolta
@@ -508,6 +507,35 @@ about-nav-why-common-voice = Proque?
 about-nav-how-it-works = Como ?
 about-nav-partners = Partners
 about-nav-get-involved = Collabora
+about-nav-how-it-works-2 = Como functiona Common Voice?
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligentia artificial
 mycroft-description =
