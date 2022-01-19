@@ -36,7 +36,6 @@ ba = 巴什噶爾語
 bas = 巴薩語
 be = 白俄羅斯語
 bg = 保加利亞語
-bm = 班巴拉語
 bn = 孟加拉語
 br = 布里多尼語
 bs = 波士尼亞語
@@ -511,6 +510,7 @@ about-get-involved-text-2 =
     討論區留言、透過 <githubLink>GitHub</githubLink> 回報網站問題、
     或是加入我們的 <matrixLink>Matrix</matrixLink> 社群聊天室。
 about-stay-in-touch = 我要如何與你們保持聯繫？
+about-stay-in-touch-text-1 = <emailFragment>訂閱</emailFragment>我們的郵件群組，瞭解可以參加哪些活動、並一同參與 Common Voice 的功能設計。
 about-nav-why-common-voice = 為什麼？
 about-nav-how-it-works = 怎麼做？
 about-nav-partners = 夥伴
@@ -521,6 +521,7 @@ about-nav-playbook = 了解如何參與
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice 如何列出語言？
 
 ## How do I add a language
 
