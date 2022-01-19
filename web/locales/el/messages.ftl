@@ -36,7 +36,6 @@ ba = Μπασκίρ
 bas = Μπασάα
 be = Λευκορωσικά
 bg = Βουλγαρικά
-bm = Μπαμπάρα
 bn = Μπενγκάλι
 br = Βρετονικά
 bs = Βοσνιακά
@@ -465,12 +464,12 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Γιατί το Common Voice;
-about-subtitle = Το Common Voice είναι μέρος της πρωτοβουλίας της Mozilla για να διδάξει τις μηχανές πώς μιλάνε οι πραγματικοί άνθρωποι. Εκτός από το σύνολο δεδομένων Common Voice, χτίζουμε επίσης μια μηχανή αναγνώρισης ομιλίας ανοιχτού κώδικα που ονομάζεται Deep Speech.
-about-header-description =
-    Και τα δύο αυτά έργα αποτελούν μέρος των προσπαθειών μας να γεφυρωθούν τα κενά του ψηφιακού λόγου. Οι τεχνολογίες αναγνώρισης φωνής φέρνουν μια ανθρώπινη διάσταση στις συσκευές μας, αλλά οι προγραμματιστές χρειάζονται ένα τεράστιο όγκο δεδομένων φωνής για να τα κατασκευάσουν. Επί του παρόντος, τα περισσότερα από αυτά τα δεδομένα είναι ακριβά και ιδιοταγή.
-    Θέλουμε να επιτρέψουμε την ελεύθερη και δημόσια διάθεση των φωνητικών δεδομένων και να διασφαλίσουμε ότι τα δεδομένα αντιπροσωπεύουν την ποικιλομορφία της ανθρωπότητας. Μαζί μπορούμε να κάνουμε την φωνητική αναγνώριση καλύτερη για όλους.
-how-does-it-work-title = Πώς λειτουργεί;
 how-does-it-work-text = Δημιουργούμε με crowdsourcing ένα σύνολο φωνητικών δεδομένων ανοικτού κώδικα. Συνεισφέρετε τη φωνή σας, επικυρώστε την ακρίβεια των κλιπ άλλων χρηστών, κάντε το σύνολο δεδομένων καλύτερο για όλους.
+
+## How does it work section
+
+about-localization-title = Μετάφραση ιστοτόπου
+about-sentence-collection-title = Συλλογή προτάσεων
 about-speak = Ομιλία
 about-speak-text = Οι συνεισφέροντες καταγράφουν φωνητικά κλιπ διαβάζοντας προτάσεις από ένα σύνολο που έχει δωρήσει η κοινότητα.
 about-listen-queue = Ουρά-Ακρόασης
@@ -503,6 +502,38 @@ about-nav-why-common-voice = Γιατί;
 about-nav-how-it-works = Πώς;
 about-nav-partners = Συνεργάτες
 about-nav-get-involved = Συμμετοχή
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Πώς προσθέτω προτάσεις;
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance-content-3 = Απόρρητο, ασφάλεια και διαφάνεια.
+about-playbook-how-project-governance-content-5 = Αξία και αναγνώριση.
+about-playbook-how-project-governance-content-6 = Αμοιβαία ευθύνη.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Τεχνητή νοημοσύνη
 mycroft-description = Ο Mycroft είναι ο πρώτος βοηθός ανοιχτού κώδικα στον κόσμο. Ο Mycroft λειτουργεί οπουδήποτε - σε επιτραπέζιο υπολογιστή, σε ένα αυτοκίνητο ή στο Raspberry Pi.
