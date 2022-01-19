@@ -472,9 +472,13 @@ how-does-it-work-text = 我們集合眾人之力，打造開放原始碼的語�
 
 ## How does it work section
 
+about-language-req-subtitle = 某人要求加入一種語言。
 about-localization-title = 網站在地化
+about-localization-subtitle = 到 Pontoon 完整翻譯該語言版本。
 about-sentence-collection-title = 收集語句
+about-sentence-collection-subtitle = 收集好能夠讓人錄音的語句。
 about-new-lang-title = 發布新語言
+about-new-lang-subtitle = 我們讓此語言版本的 Common Voice 網站上線。
 about-voice-contrib-title = 貢獻語音
 about-voice-contrib-subtitle = 有一群人會參與貢獻錄音。
 about-voice-validation-title = 驗證錄音
