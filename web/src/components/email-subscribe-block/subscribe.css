@@ -1,0 +1,190 @@
+.email-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+
+    &.light {
+        color: var(--near-black);
+
+        .labeled-form-control.for-input {
+            .label {
+                color: var(--near-black);
+                background: var(--lighter-grey);
+            }
+
+            input {
+                color: var(--near-black);
+                border: 1.6px solid var(--near-black);
+            }
+        }
+
+        button {
+            border: 1.6px solid var(--near-bloack);
+            color: var(--lighter-grey);
+            background: var(--near-black);
+
+            &:hover {
+                border-color: var(--blue) !important;
+                background: var(--blue) !important;
+            }
+        }
+
+        .labeled-checkbox {
+            line-height: 1.5;
+            max-width: 390px;
+
+            a {
+                text-decoration: underline;
+                color: var(--blue);
+            }
+
+            .checkbox-container {
+                border: 1.6px solid var(--near-black);
+                border-radius: 2px;
+            }
+
+            .checkbox-container input {
+                background-color: var(--light-grey);
+            }
+
+            .checkmark path {
+                fill: var(--near-black);
+            }
+        }
+    }
+
+    @media (--xs-down) {
+        padding: 60px 20px;
+        flex-direction: column;
+        background: url('images/email-bg-md.svg');
+        background-size: cover;
+
+        &.light {
+            background-image: url('images/email-bg-md-light.svg');
+            padding: 150px 20px;
+            background-position: center center;
+        }
+    }
+
+    @media (--sm-up) {
+        padding: 70px 20px;
+        flex-direction: row;
+        background: url('images/email-bg.png');
+        background-size: 100% 100%;
+
+        &.light {
+            background-image: url('images/email-bg-light.png');
+        }
+    }
+
+    h2 {
+        font-weight: normal;
+
+        @media (--md-down) {
+            margin-bottom: 25px;
+        }
+
+        @media (--lg-up) {
+            margin-inline-end: 70px;
+            max-width: 480px;
+            font-size: 36px;
+        }
+    }
+
+    form {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+
+        @media (--md-down) {
+            flex-wrap: wrap;
+
+            .labeled-form-control.for-input {
+                input {
+                    border-inline-end: 1.6px solid var(--near-black);
+                    border-bottom: 0;
+                }
+            }
+
+            input,
+            button,
+            label {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    }
+
+    .labeled-form-control.for-input {
+        .label {
+            color: #f9f9f8;
+            background: var(--near-black);
+        }
+
+        input {
+            color: white;
+            border: 1.6px solid #f9f9f8;
+            border-radius: 2px 0 0 2px;
+            border-inline-end: 0;
+            background: white;
+        }
+    }
+
+    button {
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border: 1.6px solid #f9f9f8;
+        width: 100%;
+        min-width: auto;
+        max-width: 200px;
+        font-weight: normal;
+        color: #666666;
+        background: #f9f9f8;
+
+        &:disabled {
+            opacity: 0.8;
+        }
+
+        &:hover {
+            border-color: var(--valid-green) !important;
+            background: var(--valid-green) !important;
+            color: var(--white) !important;
+        }
+
+        @media (--lg-up) {
+            flex-shrink: 0;
+        }
+
+        & svg {
+            transform: rotateY(180deg);
+        }
+
+        & path {
+            fill: #666666;
+        }
+    }
+
+    .labeled-checkbox {
+        line-height: 1.5;
+        max-width: 390px;
+
+        a {
+            text-decoration: underline;
+            color: var(--blue);
+        }
+
+        .checkbox-container {
+            border: 1.6px solid #f9f9f8;
+            border-radius: 2px;
+        }
+
+        .checkbox-container input {
+            background-color: var(--near-black);
+        }
+
+        .checkmark path {
+            fill: #f9f9f8;
+        }
+    }
+}

@@ -188,8 +188,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
   private visitHash() {
     if (location.hash) {
+      const hash = location.hash.split('?')[0];
       setTimeout(() => {
-        const node = document.querySelector(location.hash);
+        const node = document.querySelector(hash);
         node && node.scrollIntoView();
       }, 100);
     }
