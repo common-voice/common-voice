@@ -293,6 +293,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekod/Berhenti
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rakam semula klip
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Buang rakaman yang sedang berlangsung
 shortcut-submit = Kembali
 shortcut-submit-label = Hantar Klip
 request-language-text = Masih belum melihat bahasa anda di Common Voice?
@@ -319,8 +321,13 @@ profile-form-native-language =
     .label = Bahasa Asal
 profile-form-additional-language =
     .label = Bahasa Tambahan
+profile-form-language =
+    .label = Bahasa
 profile-form-accent =
     .label = Loghat
+profile-form-custom-accent-help-text =
+    .label = Bagaimanakah anda menerangkan loghat anda?
+profile-form-custom-accent-placeholder-2 = Mula menaip untuk menerangkan loghat anda
 profile-form-age =
     .label = Umur
 profile-form-gender-2 =
@@ -336,6 +343,7 @@ male = Lelaki
 female = Perempuan
 # Gender
 other = Lain-lain
+why-profile-title = Mengapa profil?
 why-profile-text =
     Dengan memberikan beberapa maklumat mengenai diri anda, data audio yang anda kirimkan ke Common Voice akan lebih berguna untuk Ucapan
     Enjin pengecaman yang menggunakan data ini untuk meningkatkan ketepatannya.
