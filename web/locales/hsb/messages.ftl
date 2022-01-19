@@ -547,12 +547,17 @@ about-playbook-how-add-sentences = Kak móžu sady přidać?
 ## How to record quality
 
 about-playbook-how-record-quality = Kak móžu hłosowy klip we wysokej kwaliće natočić?
+about-playbook-how-record-content-3 = Čitajće sadu prócniwje – njewuwostajejće, njeměnjejće abo njepřidawajće słowa.
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Podawki
+about-playbook-how-grow-language-content-4 = Socialne medije
+about-playbook-how-grow-language-content-6 = Partnerstwa a syće
 
 ## How to validate
 
+about-playbook-how-validate = Zwotkel wěm, hač mam hłosowy klip schwalić?
 
 ## How to access dataset
 
