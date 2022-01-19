@@ -475,6 +475,13 @@ how-does-it-work-text = Ore romono’õ viru yvypóra ome’ẽreíva ñandéve 
 
 about-language-req-subtitle = Oĩ ojeruréva oñembojuajúvo peteĩ ñe’ẽ.
 about-localization-title = Ñanduti renda moñe’ẽasa
+about-localization-subtitle = Ñanduti renda oñemoñe’ẽasa pe ñe’ẽme.
+about-sentence-collection-title = Ñe’ẽjuaju ñembyatyha
+about-sentence-collection-subtitle = Oñembyaty ñe’ẽjuaju tapicha omoñe’ẽ hag̃ua ayvúpe.
+about-new-lang-title = Ñe’ẽ pyahu ñemyasãi
+about-new-lang-subtitle = Romyasãima Common Voice renda ko ñe’ẽme.
+about-voice-contrib-title = Ñe’ẽayvu ñeme’ẽ
+about-voice-validation-title = Ñe’ẽayvu ñemoneĩ
 about-speak = Ayvu
 about-speak-text = Ome’ẽva ijahy’o omoñe’ẽ hatã ñe’ẽjoaju ome’ẽreiva’ekue avei oréve ambue pytyvõhára ha oĩva ore kuaapy’atýpe.
 about-listen-queue = Ñehenduha ruguái
