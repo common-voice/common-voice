@@ -501,6 +501,13 @@ about-sentence-collection-title = Casglu Brawddegau
 about-sentence-collection-subtitle = Mae brawddegau'n cael eu casglu i bobl eu darllen yn uchel.
 about-new-lang-title = Lansio Iaith Newydd
 about-new-lang-subtitle = Rydym yn lansio gwefan Common Voice yn yr iaith hon.
+about-voice-contrib-title = Cyfrannu Lleisiau
+about-voice-contrib-subtitle = Mae pobl yn dod i gyfrannu eu lleisiau.
+about-voice-validation-title = Dilysu Lleisiau
+about-voice-validation-subtitle = Mae pobl eraill yn dilysu'r clipiau llais hynny.
+about-dataset-release-title = Rhyddhau Set Ddata
+about-dataset-release-subtitle = Rydyn ni'n rhyddhau'r set ddata bob 3 mis.
+about-subscribe-text = Eisiau cadw mewn cysylltiad â Common Voice?
 about-speak = Siarad
 about-speak-text = Mae cyfranwyr yn recordio clipiau llais trwy ddarllen o gronfa o frawddegau a gyfrannwyd.
 about-listen-queue = Ciw Gwrando
@@ -529,17 +536,30 @@ about-get-involved-text-2 =
     Gwych! Cysylltwch trwy e-bost neu ar <discourseLink>Discource</discourseLink>,
     cyflwynwch adborth trwy <githubLink>GitHub</githubLink>, neu ymuno â ni
     ar lwyfan sgwrsio cymdeithasol <matrixLink>Matrix</matrixLink>
+about-stay-in-touch = Sut ydw i'n cadw mewn cysylltiad?
+about-stay-in-touch-text-1 = <emailFragment>Cofrestrwch</emailFragment> i'n rhestr bostio i wybod sut y gallwch chi gymryd rhan mewn ymgyrchoedd, digwyddiadau ac i gyd-ddylunio nodweddion ar Common Voice.
+about-stay-in-touch-text-2 = Gallwch gwrdd ag eraill yng nghymunedau iaith Mozilla drwy ymuno â <discourseLink>Discourse</discourseLink> am sgyrsiau amserol, neu <matrixLink>Matrix</matrixLink> am gyngor cyflym.
 about-nav-why-common-voice = Pam ?
 about-nav-how-it-works = Sut ?
 about-nav-partners = Partneriaid
 about-nav-get-involved = Ymunwch
+about-nav-how-it-works-2 = Sut mae Common Voice yn gweithio?
+about-nav-playbook = Dysgwch sut i gymryd rhan
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Beth yw iaith ar Common Voice?
+about-playbook-what-is-language-content-1 = Mae yna lawer o ffyrdd i feddwl am iaith. At ddibenion modelau adnabod lleferydd, mae Common Voice yn awgrymu canolbwyntio ar ‘gyd-ddealltwriaeth’, neu ‘a all siaradwyr yr iaith hon ddeall ei gilydd os ydynt yn ceisio gwneud hynny?’
+about-playbook-what-is-language-content-2 = Rydym am i fodelau lleferydd fod yn well am ddeall ystod amrywiol o siaradwyr. Er mwyn i hyn ddigwydd, rhaid i set ddata llais gynrychioli llawer o wahanol bobl.
+about-playbook-what-is-language-content-3 = Mae rhai ieithoedd yn amrywio'n fawr o ran gramadeg, geirfa ac ynganiad. Am y rheswm hwn, rydym yn <ctaLink>yn cyflwyno ‘Amrywiadau’</ctaLink yn 2022. Mae hyn yn rhoi ffordd i gymunedau wahaniaethu eu hieithoedd o fewn y set ddata fwy.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Sut mae modd i mi ychwanegu iaith?
+about-playbook-how-add-language-content-1 = Yn gyntaf, edrychwch i weld a yw eich iaith <languageLink>yn bodoli eisoes</languageLink>. Os nad ydyw, mae angen <strong>cyfieithu'r wefan a chasglu brawddegau</strong>.
+about-playbook-how-add-language-content-2 = <strong>I gyfieithu'r wefan</strong> - mae angen <translateVideo>eich gosod</translateVideo> ar <pontoonLink>Pontoon</pontoonLink>. Mae llawer o ieithoedd ar Pontoon, ond os nad yw eich un chi yno gallwch <pontoonRequestLink>ofyn iddi gael ei gosod yno</pontoonRequestLink>. Yna gofynnwch <repoLink>trwy GitHub</repoLink> i drefnu bod y project Common Voice ar gael ar gyfer yr iaith. Mae rhagor i'w weld ar <localizationFragment>cyfieithu gwefan</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>I gasglu brawddegau</strong> - <scVideo>bydd angen i chi osod eich iaith</scVideo> ar y <scLink>Casglwr Brawddegau</scLink>.
 
 ## How does localization work
 
