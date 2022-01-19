@@ -474,10 +474,20 @@ how-does-it-work-text = Nos face un grande collecta open-source de voces donate.
 
 ## How does it work section
 
+about-language-req-subtitle = Qualcuno demanda le addition de un lingua.
 about-localization-title = Localisation del sitos Web
+about-localization-subtitle = Le texto del sito web es traducite in ille lingua.
 about-sentence-collection-title = Collection de phrases
+about-sentence-collection-subtitle = Phrases es colligite pro esser legite a alte voce.
+about-new-lang-title = Lanceamento de un nove lingua
+about-new-lang-subtitle = Nos lancea le sito de Common Voice in iste lingua.
 about-voice-contrib-title = Contribution vocal
+about-voice-contrib-subtitle = Le gente veni contribuer lor voces.
 about-voice-validation-title = Validation del voces
+about-voice-validation-subtitle = Altere personas valida iste retalios vocal.
+about-dataset-release-title = Publication del collection de daots
+about-dataset-release-subtitle = Nos publica le collection de datos cata tres menses.
+about-subscribe-text = Vole mantener te in contacto con Common Voice?
 about-speak = Parlar
 about-speak-text = Contributores registra retalios vocal legente ab un banca de phrases donate.
 about-listen-queue = Cauda pro le ascolta
@@ -506,15 +516,20 @@ about-get-involved-text-2 =
     Optimo! Contacta nos via e-mail o le foros de <discourseLink>Discourse</discourseLink>,
     signala problemas con le sito via <githubLink>GitHub</githubLink>,
     o junge te al conversation communitari sur <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Como me mantene io in contacto?
+about-stay-in-touch-text-1 = <emailFragment>Inscribe te</emailFragment> a nostre lista de diffusion pro apprender como participar in campanias e eventos e co-designar functiones sur Common Voice.
+about-stay-in-touch-text-2 = Tu pote incontrar altere personas in le communitates linguistic de Mozilla adherente a <discourseLink>Discourse</discourseLink> pro conversationes topical, o a <matrixLink>Matrix</matrixLink> pro consilios rapide.
 about-nav-why-common-voice = Proque?
 about-nav-how-it-works = Como ?
 about-nav-partners = Partners
 about-nav-get-involved = Collabora
 about-nav-how-it-works-2 = Como functiona Common Voice?
+about-nav-playbook = Apprende como participar
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Que es un lingua sur Common Voice?
 
 ## How do I add a language
 
