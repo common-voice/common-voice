@@ -605,12 +605,25 @@ about-playbook-how-grow-language-content-8 = <strong>Byddwch yn greadigol!</stro
 about-playbook-how-validate = Sut ydw i'n gwybod pryd i gymeradwyo clip llais?
 about-playbook-how-validate-content-1 = Os ydych chi'n gallu <strong>eu clywed</strong> a'u <strong>deall nhw</strong>, fel arfer <strong>mae'n well eu cymeradwyo</strong>.
 about-playbook-how-validate-content-2 = <strong>Peidiwch â gwrthod clipiau lle mae gan y siaradwr ‘acen’ sy’n wahanol i’ch un chi</strong> - mae hyn yn bwysig er mwyn i adnabod lleferydd weithio’n well i bawb.
+about-playbook-how-validate-content-3 = Os ydych chi'n meddwl bod yr ynganiad yn ei gwneud hi'n <strong>amhosib ei ddeall</strong>, neu os oes yna <strong>lawer o sŵn cefndir</strong>, neu os oes <strong>pobl eraill yn siarad hefyd</strong>, yna chi dylech chi wrthod y clip. <ccuracyLink>Rhagor o wybodaeth yn ein meini prawf cywirdeb</accuracyLink>.
+about-playbook-how-validate-content-4 = Os yw clip yn cael ei wrthod gan 2 berson, caiff ei ryddhau mewn is-set arall o'r set ddata.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Sut mae cael mynediad at a defnyddio'r set ddata?
+about-playbook-how-access-dataset-content-1 = Gallwch fynd i'r <datasetsPage>dudalen setiau data</datasetsPage>, dewis y fersiwn a'r iaith(ieithoedd) rydych chi eu heisiau, a'i llwytho i lawr! Mae gan y ffeiliau <metadataLink>metadata cysylltiedig</metadataLink>, megis gwybodaeth ddemograffig a data dilysu. Bydd angen i chi ddarparu cyfeiriad e-bost i lwytho'r set ddata i lawr.
+about-playbook-how-access-dataset-content-2 = Os ydych chi'n chwilio am offer i adeiladu modelau ASR, gallwch chi gysylltu â phobl eraill yn y gymuned <discourseLink>ar Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Sut mae penderfyniadau project yn cael eu gwneud?
+about-playbook-how-project-governance-content-1 = Mae Common Voice Mozilla yn bosibl oherwydd cymuned amrywiol o weithredwyr, ieithyddion, gwyddonwyr data, academyddion a pheirianwyr meddalwedd o bob rhan o'r byd. Mae'r project yn cael ei stiwardio gan y Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Mae ein llywodraethu wedi’i seilio ar:
+about-playbook-how-project-governance-content-3 = Preifatrwydd, diogelwch a thryloywder.
+about-playbook-how-project-governance-content-4 = Cyfranogiad a penderfyniadau cymunedol.
+about-playbook-how-project-governance-content-5 = Gwerth a chydnabyddiaeth.
+about-playbook-how-project-governance-content-6 = Atebolrwydd ar y cyd.
+about-playbook-how-project-governance-content-7 = <governanceLink>Darllenwch ragor am sut rydyn ni'n cael ein llywodraethu</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Deallusrwydd artiffisial
 mycroft-description =
