@@ -193,7 +193,7 @@ help = Βοήθεια
 contact = Επικοινωνία
 privacy = Απόρρητο
 terms = Όροι
-cookies = Cookie
+cookies = Cookies
 faq = Συχνές ερωτήσεις
 content-license-text = Το περιεχόμενο διατίθεται υπό την <licenseLink>άδεια Creative Commons</licenseLink>
 share-title = Βοηθήστε μας να βρούμε και άλλους που θα συνεισφέρουν τη φωνή τους!
@@ -375,22 +375,22 @@ edit = Επεξεργασία
 email-subscriptions = Συνδρομές email
 download-profile = Λήψη δεδομένων
 contribution-experience = Εμπειρία συνεισφορών
-skip-submission-feedback = Παράκαμψη σχολίων υποβολής
-skip-submission-description = Επιλέγοντας «Υποβολή», θα συνεχίσετε στο επόμενο σετ 5 ηχογραφήσεων ή επικυρώσεων, χωρίς να εμφανιστεί το αίτημα για υποβολή σχολίων.
-skip-submission-note = Σημείωση: Θα πρέπει ακόμα να επιλέξετε ανάμεσα σε Ομιλία ή Ακρόαση για να αλλάξετε τον τύπο συνεισφοράς.
+skip-submission-feedback = Παράλειψη υποβολής σχολίων
+skip-submission-description = Κατά τη διάρκεια της συνεισφοράς, κάνοντας κλικ στο «Υποβολή», θα συνεχίσετε στο επόμενο σετ 5 ηχογραφήσεων ή επικυρώσεων, χωρίς να εμφανιστεί το αίτημα για υποβολή σχολίων.
+skip-submission-note = Σημείωση: Θα πρέπει να επιλέγετε ανάμεσα σε «Ομιλία» ή «Ακρόαση» για να αλλάξετε τον τύπο συνεισφοράς.
 off = Όχι
 on = Ναι
 help-accent = Χρειάζεστε βοήθεια με την προφορά;
 
 ## Profile - Email
 
-browse-file-title = Μεταφόρτωση αρχείου εικόνας
-browse-file = Σύρετε και εναποθέστε ή <browseWrap>περιήγηση</browseWrap>
+browse-file-title = Αρχείο εικόνας
+browse-file = Εναπόθεση εικόνας ή <browseWrap>περιήγηση</browseWrap>
 connect-gravatar = Σύνδεση με Gravatar
 gravatar_not_found = Δεν βρέθηκε gravatar για το email σας
 file_too_large = Το επιλεγμένο αρχείο είναι πολύ μεγάλο
 avatar-uploaded = Μεταφορτώθηκε το avatar
-max-file-size = { $kb }kb μέγιστο
+max-file-size = έως { $kb }KB
 
 ## Profile - Email
 
@@ -714,7 +714,7 @@ contribute-more =
         [one] Έτοιμοι να κάνετε { $count } ακόμη;
        *[other] Έτοιμοι να κάνετε { $count } ακόμη;
     }
-record-cta = Έναρξη ηχογράφησης
+record-cta = Έναρξη εγγραφής
 record-platform-not-supported = Λυπούμαστε, αλλά η πλατφόρμα σας δεν υποστηρίζεται ακόμη.
 record-platform-not-supported-desktop = Σε υπολογιστές, μπορείτε να συνεισφέρετε κάνοντας λήψη…
 record-platform-not-supported-ios-non-safari = Στο iOS παρακαλούμε συνεχίστε με το Safari για ενεργοποίησης ηχογράφησης…
@@ -735,7 +735,7 @@ share-clip = Κοινοποίηση του κλιπ σας
 share-common-voice = Κοινοποίηση του Common Voice
 review-instruction = Ελέγξτε και ηχογραφήστε ξανά τα ηχητικά κλιπ, εφόσον χρειάζεται
 record-submit-tooltip = Υποβολή όταν είστε έτοιμοι
-clips-uploaded = Μεταφορτώθηκαν κλιπς
+clips-uploaded = Μεταφορτώθηκαν κλιπ
 record-abort-title = Να ολοκληρωθεί πρώτα η ηχογράφηση;
 record-abort-text = Αν αποχωρήσετε τώρα, θα χάσετε την πρόοδό σας
 record-abort-submit = Υποβολή κλιπ
