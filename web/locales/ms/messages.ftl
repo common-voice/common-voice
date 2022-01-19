@@ -138,6 +138,7 @@ shi = Bahasa Shilha
 si = Bahasa Sinhala
 sk = Bahasa Slovak
 sl = Bahasa Slovenia
+so = Bahasa Somali
 sq = Bahasa Albania
 sr = Bahasa Serbia
 sv-SE = Bahasa Sweden
@@ -150,6 +151,7 @@ th = Bahasa Thai
 tl = Bahasa Tagalog
 tr = Bahasa Turki
 tt = Bahasa Tatar
+tw = Bahasa Twi
 uby = Ubykh
 udm = Bahasa Udmurt
 ug = Bahasa Uyghur
@@ -158,6 +160,9 @@ ur = Bahasa Urdu
 uz = Bahasa Uzbek
 vec = Bahasa Venesia
 vi = Bahasa Vietnam
+vot = Bahasa Votik
+yo = Bahasa Yoruba
+yue = Kantonis
 zh-CN = Bahasa Cina
 zh-HK = Bahasa Kantonis Hong Kong
 zh-TW = Bahasa Cina (Taiwan)
@@ -221,12 +226,18 @@ speak-goal-text = Klip dirakam
 listen-subtitle = Tolong kami mengesahkan suara
 listen-paragraph = Mengesahkan klip yang disumbangkan sama pentingnya untuk misi Common Voice. Dengarkan dan bantu kami membuat data suara sumber terbuka yang berkualiti.
 listen-goal-text = Klip disahkan
+hours-recorded = Jam Dirakam
 hours-validated = Jam Disahkan
+voices-online = Suara Dalam Talian Sekarang
 todays-progress = Kemajuan Hari ini
 help-reach-goal = Bantu kami untuk mencapai { $goal }
 ready-to-record = Bersedia untuk menyumbangkan suara anda?
 all-locales = Semua
 today = Hari ini
+x-weeks-short =
+    { $count ->
+       *[other] { $count } minggu
+    }
 x-months-short =
     { $count ->
        *[other] { $count } mo
@@ -403,6 +414,15 @@ about-is-it-valid = Adakah clip ini sah?
 about-is-it-valid-text = Klip suara ditandakan "sah" apabila pengguna memberikan undi Ya.
 about-yes-votes = ≥ 2 undian Ya
 about-no-votes = ≥ 2 Tiada undian
+about-dataset-new = Set Data Common Voice
+about-clip-graveyard = Perkuburan Klip
+about-partners = Rakan Kongsi
+about-become-a-partner = Menjadi rakan kongsi
+about-get-involved = Melibatkan diri
+about-nav-why-common-voice = Kenapa?
+about-nav-how-it-works = Bagaimana?
+about-nav-partners = Rakan kongsi
+about-nav-get-involved = Melibatkan diri
 
 ## Community Playbook Content
 ## What is a language
@@ -431,10 +451,12 @@ about-no-votes = ≥ 2 Tiada undian
 
 ## How are decisions made
 
+mycroft-title = Mycroft Ai
 mycroft-subtitle = Kecerdasan buatan
 
 ## Glossary
 
+glossary = Glosari
 localization = Lokalisasi
 
 ## Error pages
@@ -567,6 +589,10 @@ recordings =
     { $count ->
        *[other] Rakaman
     }
+validations =
+    { $count ->
+       *[other] Pengesahan
+    }
 
 ## Dashboard
 
@@ -667,6 +693,7 @@ demo-account = Akaun
 
 ## Demo Account
 
+demo-account-card-header = Mempunyai akaun yang tidak diperlukan untuk memberikan sumbangan, walaupun ia membantu.
 demo-account-enter-email =
     .label = Masukkan e-mel untuk hantar pautan pendaftaran
 demo-account-sign-up = Hantar pautan pendaftaran
@@ -691,6 +718,9 @@ contribution-misreadings-description-extended-list-4 = Kehilangan akhir perkataa
 contribution-misreadings-description-extended-list-5 = Mengambil beberapa percubaan untuk membaca satu perkataan.
 contribution-misreadings-example-3-explanation = [Rakaman terputus sebelum akhir perkataan]
 contribution-misreadings-example-6-explanation = [Sepatutnya "Kami"]
+contribution-just-unsure-title = Tidak pasti?
+see-more = <chevron> </chevron> Lihat lagi
+see-less = <chevron></chevron>Lihat kurang
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
