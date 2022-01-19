@@ -31,6 +31,9 @@ module.exports = {
   rules: {
     // turn on errors for missing imports
     'import/no-unresolved': 'error',
+
+    // warn us if we're using @ts-ignore etc..
+    '@typescript-eslint/ban-ts-comment': 'warn',
   },
   settings: {
     react: {
