@@ -36,7 +36,6 @@ ba = Bashkirs
 bas = Basaa
 be = Belarusieg
 bg = Bwlgareg
-bm = Bambara
 bn = Bengaleg
 br = Llydaweg
 bs = Bosnieg
@@ -487,15 +486,21 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Pam Common Voice?
-about-subtitle = Mae Common Voice yn rhan o fenter Mozilla i helpu i ddysgu peiriannau sut mae pobl go iawn yn siarad. Yn ogystal â set ddata Common Voice, rydym hefyd yn adeiladu peiriant adnabod lleferydd cod agored o'r enw Deep Speech.
-about-header-description =
-    Mae'r ddau brosiect hyn yn rhan o'n hymdrechion i bontio'r rhaniad lleferydd digidol. Mae technolegau adnabod llais yn dod â dimensiwn dynol i'n dyfeisiau, ond mae angen llawer iawn o ddata llais ar ddatblygwyr i'w hadeiladu. Ar hyn o bryd, mae'r rhan fwyaf o'r data hwnnw'n ddrud ac yn berchnogol.
-    Rydym am sicrhau bod data llais ar gael yn rhwydd ac yn gyhoeddus, a sicrhau bod y data'n cynrychioli amrywiaeth pobl go iawn. Gyda'n gilydd gallwn wneud adnabod llais yn well i bawb.
-about-header-description-2 =
-    Mae'r project hwn yn ymdrech i bontio'r rhaniad lleferydd digidol. Mae technolegau adnabod llais yn dod â dimensiwn dynol i'n dyfeisiau, ond mae angen llawer iawn o ddata llais ar ddatblygwyr i'w hadeiladu. Ar hyn o bryd, mae'r rhan fwyaf o'r data hwnnw'n ddrud ac yn berchnogol.
-    Rydym am sicrhau bod data llais ar gael yn rhwydd ac yn gyhoeddus, a sicrhau bod y data'n cynrychioli amrywiaeth pobl go iawn. Gyda'n gilydd gallwn wneud adnabod llais yn well i bawb.
-how-does-it-work-title = Sut mae'n gweithio?
+about-header-description-v2 =
+    <p>Mae Common Voice yn set ddata llais sydd ar gael yn gyhoeddus, wedi'i phweru gan leisiau cyfranwyr gwirfoddol ledled y byd. Gall pobl sydd eisiau adeiladu rhaglenni llais ddefnyddio'r set ddata i hyfforddi modelau dysgu peirianyddol.</p>
+    <p>Ar hyn o bryd, cwmnïau sy’n berchen ar y rhan fwyaf o setiau data llais, sy’n rhwystro arloesedd. Mae setiau data llais hefyd yn gorgynrychioli gwrywod gwyn, Saesneg eu hiaith. Mae hyn yn golygu nad yw technoleg llais yn gweithio o gwbl ar gyfer llawer o ieithoedd a lle mae'n gweithio, efallai na fydd yn perfformio cystal i bawb. Rydyn ni eisiau newid hynny trwy ysgogi pobl ym mhobman i rannu eu llais.</p>
+how-does-it-work-title-v2 = Sut mae Common Voice yn gweithio?
 how-does-it-work-text = Rydym yn torfoli set ddata cod agored o leisiau. Rhowch eich llais, dilyswch gywirdeb clipiau pobl eraill, gwnewch y set ddata yn well i bawb.
+
+## How does it work section
+
+about-language-req-subtitle = Mae rhywun yn gofyn i ychwanegu iaith.
+about-localization-title = Lleoleiddio Gwefan
+about-localization-subtitle = Mae testun y wefan yn cael ei gyfieithu i'r iaith honno.
+about-sentence-collection-title = Casglu Brawddegau
+about-sentence-collection-subtitle = Mae brawddegau'n cael eu casglu i bobl eu darllen yn uchel.
+about-new-lang-title = Lansio Iaith Newydd
+about-new-lang-subtitle = Rydym yn lansio gwefan Common Voice yn yr iaith hon.
 about-speak = Siarad
 about-speak-text = Mae cyfranwyr yn recordio clipiau llais trwy ddarllen o gronfa o frawddegau a gyfrannwyd.
 about-listen-queue = Ciw Gwrando
@@ -528,6 +533,34 @@ about-nav-why-common-voice = Pam ?
 about-nav-how-it-works = Sut ?
 about-nav-partners = Partneriaid
 about-nav-get-involved = Ymunwch
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Deallusrwydd artiffisial
 mycroft-description =
