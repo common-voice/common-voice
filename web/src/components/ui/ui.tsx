@@ -2,7 +2,7 @@ import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { HTMLProps, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import * as cx from 'classnames';
+import cx from 'classnames';
 import { LocaleLink } from '../locale-helpers';
 import { CheckIcon } from './icons';
 

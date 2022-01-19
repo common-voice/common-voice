@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { useRef } from 'react';
-import * as cx from 'classnames';
 import { Localized } from '@fluent/react';
 import useIsVisible from '../../../hooks/use-is-visible';
 import { CheckIcon, HexIcon } from '../../ui/icons';

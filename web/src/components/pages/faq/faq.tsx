@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
-import * as cx from 'classnames';
+import cx from 'classnames';
 import { isMobileResolution } from '../../../utility';
 import { LocalizedGetAttribute } from '../../locale-helpers';
 import { SearchIconCode, ChevronDown } from '../../ui/icons';
