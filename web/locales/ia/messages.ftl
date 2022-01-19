@@ -530,9 +530,16 @@ about-nav-playbook = Apprende como participar
 ## What is a language
 
 about-playbook-what-is-language = Que es un lingua sur Common Voice?
+about-playbook-what-is-language-content-1 = Existe multe manieras de considerar lo que es un lingua. Pro le scopos de modellos de recognition vocal, Common Voice suggere que on se focalisa sur le ‘intercomprehension’, o ‘pote le parlantes de iste lingua generalmente comprender se con alcun effortio?’
+about-playbook-what-is-language-content-2 = Nos vole que le modellos vocal comprende melio un grande varietate de parlantes. Pro effectuar isto, un collection de datos vocal debe representar multe personas differente.
+about-playbook-what-is-language-content-3 = Alcun linguas ha un enorme variation in grammatica, vocabulario e pronunciation. Pro iste ration, nos <ctaLink>introduce ‘Variantes’</ctaLink> in 2022. Isto da al communitates un maniera de distinguer lor linguas in le collection de datos general.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Como adde io un lingua?
+about-playbook-how-add-language-content-1 = Primo, verifica si tu lingua <languageLink>ja existe</languageLink>. Si non, tu debe <strong>traducer le sito e colliger phrases</strong>.
+about-playbook-how-add-language-content-2 = <strong>Pro traducer le sito</strong>, <translateVideo>crea un conto</translateVideo> sur <pontoonLink>Pontoon</pontoonLink>. Pontoon ha multe linguas, ma si non ha le tue, tu pote <pontoonRequestLink>requestar lo</pontoonRequestLink>. Alora demanda <repoLink>sur GitHub</repoLink> que le projecto Common Voice sia rendite disponibile pro le lingua. Lege plus sur <localizationFragment>le traduction del sito</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Pro colliger phrases</strong>, <scVideo>crea un conto</scVideo> sur <scLink>Sentence Collector</scLink>.
 
 ## How does localization work
 
