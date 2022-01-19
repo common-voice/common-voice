@@ -468,15 +468,20 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 為什麼會有 Common Voice？
-about-subtitle = Common Voice 是 Mozilla 想讓機器學會真人說話方式的專案。除了 Common Voice 資料集外，我們也正在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
-about-header-description =
-    這兩個專案都是我們努力弭平數位語音落差的一部份。語音識別技術可讓我們的裝置帶來人性，但開發者需要極為龐大數量的語音資料，才能打造出這樣的系統。目前大部分語音資料都相當昂貴，也是專有的資料。
-    我們希望讓語音資料能夠公開自由使用，並確保資料反映出人們實際的多樣性。讓我們一起為所有人把語音識別技術變得更好吧！
-about-header-description-2 =
-    此專案是我們為了努力弭平數位語音落差所做的努力。語音識別技術可讓我們的裝置帶來人性，但開發者需要極為龐大數量的語音資料，才能打造出這樣的系統。目前大部分語音資料都相當昂貴，也是專有的資料。
-    我們希望讓語音資料能夠公開自由使用，並確保資料反映出人們實際的多樣性。讓我們一起為所有人把語音識別技術變得更好吧！
-how-does-it-work-title = 原理是什麼？
 how-does-it-work-text = 我們集合眾人之力，打造開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證錄音片段是否正確，讓資料集能夠變得更好。
+
+## How does it work section
+
+about-localization-title = 網站在地化
+about-sentence-collection-title = 收集語句
+about-new-lang-title = 發布新語言
+about-voice-contrib-title = 貢獻語音
+about-voice-contrib-subtitle = 有一群人會參與貢獻錄音。
+about-voice-validation-title = 驗證錄音
+about-voice-validation-subtitle = 有另一群人會參與驗證這些錄音片段。
+about-dataset-release-title = 發布資料集
+about-dataset-release-subtitle = 我們每 3 個月發布一次資料集。
+about-subscribe-text = 想要與 Common Voice 保持聯繫嗎？
 about-speak = 說話
 about-speak-text = 貢獻者透過讀出一系列由他人捐贈的語料庫句子，將語音片段錄音下來。
 about-listen-queue = 聆聽佇列
@@ -505,10 +510,53 @@ about-get-involved-text-2 =
     沒問題！請寄 E-Mail 給我們，也可以到 <discourseLink>Discourse</discourseLink>
     討論區留言、透過 <githubLink>GitHub</githubLink> 回報網站問題、
     或是加入我們的 <matrixLink>Matrix</matrixLink> 社群聊天室。
+about-stay-in-touch = 我要如何與你們保持聯繫？
 about-nav-why-common-voice = 為什麼？
 about-nav-how-it-works = 怎麼做？
 about-nav-partners = 夥伴
 about-nav-get-involved = 參與我們
+about-nav-how-it-works-2 = Common Voice 的原理是什麼？
+about-nav-playbook = 了解如何參與
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+about-playbook-how-localize = 如何進行網站在地化？
+about-playbook-how-localize-content-1 = Common Voice 網站的翻譯在 <strong>Pontoon</strong> 進行。
+
+## How to add sentences
+
+
+## How to record quality
+
+about-playbook-how-record-content-5 = <accuracyLink>看更多有關準確度的判斷標準。</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = 活動
+about-playbook-how-grow-language-content-4 = 社群網路
+about-playbook-how-grow-language-content-6 = 成為夥伴與合作網路的一員
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance = 專案運作中如何進行決策？
+about-playbook-how-project-governance-content-3 = 隱私權、安全性、透明度。
+about-playbook-how-project-governance-content-4 = 社群參與決策。
+about-playbook-how-project-governance-content-5 = 價值與重視。
+about-playbook-how-project-governance-content-6 = 相互問責。
+about-playbook-how-project-governance-content-7 = <governanceLink>更加了解我們如何治理本專案</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智慧
 mycroft-description = Mycroft 是全球第一套的開放原始碼語音助理，不論是在電腦、車子、Raspberry Pi 或是任何地方都能運作。
