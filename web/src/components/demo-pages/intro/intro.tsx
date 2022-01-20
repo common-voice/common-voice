@@ -12,10 +12,10 @@ import URLS from '../../../urls';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
 import { connect } from 'react-redux';
-import { LOCALES_WITH_NAMES } from '../../layout/layout';
 import { useHistory } from 'react-router';
 import { replacePathLocale } from '../../../utility';
 import NotSupported from '../not-supported';
+import LocalizationSelect from '../../localization-select/localization-select';
 
 const mapDispatchToProps = {
   setLocale: Locale.actions.set,
@@ -69,22 +69,15 @@ export default connect<PropsFromState, PropsFromDispatch>(
             </Localized>
             <ArrowRight id="arrow-right" />
           </LinkButton>
-          <LabeledSelect
-            className="localization-select"
-            value={locale}
-            onChange={(event: any) => {
-              let newLocale = event.target.value;
+          <LocalizationSelect
+            locale={locale}
+            onLocaleChange={(newLocale: string) => {
               setLocale(newLocale);
               history.push(
                 replacePathLocale(history.location.pathname, newLocale)
               );
-            }}>
-            {LOCALES_WITH_NAMES.map(([code, name]) => (
-              <option key={code} value={code}>
-                {name}
-              </option>
-            ))}
-          </LabeledSelect>
+            }}
+          />
         </div>
       </>
     );
