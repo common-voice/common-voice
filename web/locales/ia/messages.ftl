@@ -555,6 +555,7 @@ about-playbook-how-localize-content-5 = Specta nostre video explicative pro adju
 
 about-playbook-how-add-sentences = Como adde io phrases?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> es un instrumento pro colliger e validar phrases de dominio public. Tu <scAccountLink>debera crear un conto</scAccountLink>. E pois, adder tu lingua a tu <strong>Profilo</strong>. <s0/>Tu potera <strong>Adder</strong> phrases o <strong>Revider</strong> phrases previemente addite.
+about-playbook-how-add-sentences-content-3 = Tu pote usar le <scraperLink>Extractor de phrase</scraperLink> pro procurar te curte phrases ex Wikipedia.
 about-playbook-how-add-sentences-content-4 = Le phrases que ha essite validate es exportate le mercuridis, e es disponibile post le publication successive.
 
 ## How to record quality
