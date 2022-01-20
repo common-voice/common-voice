@@ -555,6 +555,7 @@ about-playbook-how-localize-content-5 = Specta nostre video explicative pro adju
 
 about-playbook-how-add-sentences = Como adde io phrases?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> es un instrumento pro colliger e validar phrases de dominio public. Tu <scAccountLink>debera crear un conto</scAccountLink>. E pois, adder tu lingua a tu <strong>Profilo</strong>. <s0/>Tu potera <strong>Adder</strong> phrases o <strong>Revider</strong> phrases previemente addite.
+about-playbook-how-add-sentences-content-4 = Le phrases que ha essite validate es exportate le mercuridis, e es disponibile post le publication successive.
 
 ## How to record quality
 
@@ -562,6 +563,7 @@ about-playbook-how-record-quality = Como pote facer io un registration vocal de 
 about-playbook-how-record-content-1 = Parla con tu voce normal! Le maniera que tu parla es benvenite hic, nos vole tu accento como illo es, e nos vole tu usual volumine, stilo e intonation.
 about-playbook-how-record-content-2 = Evita troppo ruito de fundo, debe esser facile audir te.
 about-playbook-how-record-content-3 = Lege le phrase accuratemente, non perde, cambia o adde vocabulos.
+about-playbook-how-record-content-4 = Verifica que le platteforma es in registration ante que tu initia a parlar, e que illo solo cessa un vice tu ha finite.
 about-playbook-how-record-content-5 = <accuracyLink>Vide plus sur le criterios de precision.</accuracyLink>
 
 ## How to grow language
