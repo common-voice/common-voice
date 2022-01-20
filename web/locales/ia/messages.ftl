@@ -546,6 +546,7 @@ about-playbook-how-add-language-content-4 = Tu pote <scLinkAdd>adder poc</scLink
 
 about-playbook-how-localize = Como functiona le localisation del sito?
 about-playbook-how-localize-content-1 = Le traduction del sito de Common Voice eveni sur <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Crea un conto</pontoonAccountLink> si tu non ha un. Tunc, elige le <strong>(‘Team’)</strong> de tu lingua e pois elige le projecto, <t0/><pontoonCvLink>Common Voice</pontoonCvLink>. Illac il habera le files a traducer. Illac il habera le files a traducer. Clicca sur un, alora illo monstrara le parolas in anglese e un campo pro traducer los.
 
 ## How to add sentences
 
