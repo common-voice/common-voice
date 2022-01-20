@@ -574,6 +574,7 @@ about-playbook-how-grow-language-content-2 = Eventos
 about-playbook-how-grow-language-content-3 = Tu pote developpar eventos pro adjutar personas a collaborar. Il es plus facile que tu pensa. Tu pote facer lo online con un instrumento de video-conferentias, o in persona si illo es secur. <eventTemplate>Discoperi nostre modellos e ressources pro developpar eventos</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Medios social
 about-playbook-how-grow-language-content-6 = Societates e retes
+about-playbook-how-grow-language-content-7 = Trova alteres qui cura. Que pote esser universitates, scholas de linguas, gruppos de propugnation o communitates de scientia de datos. Attinge les e explica clarmente como illes pote adjutar e perque. <outreachTemplates>Vide nostre e-mails modello de extension</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Sia creative!</strong> Tu communitate linguistic sera unic, e istos es solo alcun manieras pro comenciar.
 
 ## How to validate
@@ -587,11 +588,13 @@ about-playbook-how-validate-content-4 = Si un registration es rejectate per 2 pe
 ## How to access dataset
 
 about-playbook-how-access-dataset = Como accede e usa io le collection de datos?
+about-playbook-how-access-dataset-content-1 = Tu pote ir al <datasetsPage>pagina del collectiones de datos</datasetsPage>, eliger le version e lingua(s) que tu vole, e discargar lo! Le files ha <metadataLink>associate metadatos</metadataLink>, tal como informationes demographic e datos de validation. Tu debe fornir un adresse e-mail pro discargar le collection de datos.
 about-playbook-how-access-dataset-content-2 = Si tu cerca applicationes pro producer modellos ASR, tu pote connecter te a altere personas in le communitate <discourseLink>sur Discourse</discourseLink>.
 
 ## How are decisions made
 
 about-playbook-how-project-governance = Como es prendite le decisiones del projecto?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice es rendite possibile per diverse communitate de activistas, linguistas, scientistas de datos, academicos e ingenieros de software, de tote le mundo. Le projecto es assistite per Mozilla Foundation.
 about-playbook-how-project-governance-content-2 = Nostre gestion es fundate super le columnas de:
 about-playbook-how-project-governance-content-3 = Confidentialitate, securitate e transparentia.
 about-playbook-how-project-governance-content-4 = Participation del communitate e prisas de decision.
