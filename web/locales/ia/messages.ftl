@@ -558,10 +558,18 @@ about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong>
 
 ## How to record quality
 
+about-playbook-how-record-quality = Como pote facer io un registration vocal de alte qualitate?
+about-playbook-how-record-content-1 = Parla con tu voce normal! Le maniera que tu parla es benvenite hic, nos vole tu accento como illo es, e nos vole tu usual volumine, stilo e intonation.
+about-playbook-how-record-content-2 = Evita troppo ruito de fundo, debe esser facile audir te.
+about-playbook-how-record-content-3 = Lege le phrase accuratemente, non perde, cambia o adde vocabulos.
+about-playbook-how-record-content-5 = <accuracyLink>Vide plus sur le criterios de precision.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Como pote nos in modo efficace facer crescer un lingua sur Common Voice?
 about-playbook-how-grow-language-content-2 = Eventos
+about-playbook-how-grow-language-content-4 = Medios social
+about-playbook-how-grow-language-content-6 = Societates e retes
 
 ## How to validate
 
