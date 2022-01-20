@@ -582,6 +582,13 @@ about-playbook-how-access-dataset = Como accede e usa io le collection de datos?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Como es prendite le decisiones del projecto?
+about-playbook-how-project-governance-content-2 = Nostre gestion es fundate super le columnas de:
+about-playbook-how-project-governance-content-3 = Confidentialitate, securitate e transparentia.
+about-playbook-how-project-governance-content-4 = Participation del communitate e prisas de decision.
+about-playbook-how-project-governance-content-5 = Valor e recognition.
+about-playbook-how-project-governance-content-6 = Reciproc responsabilitate.
+about-playbook-how-project-governance-content-7 = <governanceLink>Lege plus re como nos es gerite</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligentia artificial
 mycroft-description =
