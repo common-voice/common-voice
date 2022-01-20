@@ -576,15 +576,37 @@ about-playbook-how-record-content-5 = <accuracyLink>Meer info over nauwkeurighei
 about-playbook-how-grow-language = Hoe kunnen we effectief een taal laten groeien op Common Voice?
 about-playbook-how-grow-language-content-1 = Het creëren van kansen voor een diversiteit aan mensen om bij te dragen aan Common Voice zorgt ervoor dat de gegevensset zoveel mogelijk mensen bedient. We hebben hulpbronnen en sjablonen gemaakt die u kunt gebruiken!
 about-playbook-how-grow-language-content-2 = Evenementen
+about-playbook-how-grow-language-content-3 = U kunt evenementen organiseren om mensen te helpen een bijdrage te leveren. Het is makkelijker dan u denkt. U kunt het online doen met een videoconferentiehulpmiddel, of persoonlijk als dat veilig is. <eventTemplate>Bekijk onze sjablonen en hulpbronnen voor lopende evenementen</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Sociale media
+about-playbook-how-grow-language-content-5 = U kunt sociale mediaplatforms gebruiken om de boodschap naar buiten te brengen. Deel berichten die uitleggen waarom het belangrijk is, en kom in contact met andere mensen die praten over zaken als taalrechten, spraak-AI of vooroordelen in technologie. Bekijk meer advies over <campaignLink>het uitvoeren van een sociale campagne, inclusief inhoud die u opnieuw kunt gebruiken</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnerschappen en netwerken
+about-playbook-how-grow-language-content-7 = Zoek anderen die om taal geven. Dat kunnen universiteiten, taalscholen, belangengroepen of gemeenschappen voor gegevenswetenschappen zijn. Neem contact op en leg duidelijk uit hoe ze kunnen helpen en waarom. <outreachTemplates>Bekijk onze e-mailsjablonen om contact op te nemen</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Wees creatief!</strong> Uw taalgemeenschap zal uniek zijn, en dit zijn slechts een paar manieren om te beginnen.
 
 ## How to validate
 
+about-playbook-how-validate = Hoe weet ik of ik een spraakfragment kan goedkeuren?
+about-playbook-how-validate-content-1 = Als u ze <strong>kan horen</strong> en <strong>verstaan</strong>, is het meestal <strong>het beste om goed te keuren</strong>.
+about-playbook-how-validate-content-2 = <strong>Weiger geen fragmenten waarin de spreker ‘een accent heeft’ dat anders is dan het uwe</strong> – dit is belangrijk om ervoor te zorgen dat spraakherkenning beter werkt voor iedereen.
+about-playbook-how-validate-content-3 = Als u denkt dat de uitspraak het <strong>onmogelijk maakt om te verstaan</strong>, of er is <strong>veel achtergrondgeluid</strong>, of er <strong>praten ook andere mensen</strong>, dan moet u het fragment afwijzen. <accuracyLink>Meer info in onze nauwkeurigheidscriteria</accuracyLink>.
+about-playbook-how-validate-content-4 = Als een fragment door twee personen is afgewezen, wordt deze vrijgegeven in een andere subset van de gegevensset.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Hoe krijg ik toegang tot en gebruik ik de gegevensset?
+about-playbook-how-access-dataset-content-1 = U kunt naar de <datasetsPage>pagina met gegevenssets</datasetsPage> gaan, de gewenste versie en taal of talen selecteren en deze downloaden! De bestanden hebben <metadataLink>geassocieerde metadata</metadataLink>, zoals demografische gegevens en validatiegegevens. U moet een e-mailadres opgeven om de gegevensset te downloaden.
+about-playbook-how-access-dataset-content-2 = Als u op zoek bent naar hulpmiddelen om ASR-modellen te bouwen, kunt u contact opnemen met andere mensen in de gemeenschap <discourseLink>op Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Hoe worden projectbeslissingen genomen?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice wordt mogelijk gemaakt door een diverse gemeenschap van activisten, taalkundigen, gegevenswetenschappers, academici en software-engineers van over de hele wereld. Het project wordt beheerd door de Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Ons bestuur is gebaseerd op de pijlers van:
+about-playbook-how-project-governance-content-3 = Privacy, veiligheid en transparantie.
+about-playbook-how-project-governance-content-4 = Deelname van en besluitvorming door de gemeenschap.
+about-playbook-how-project-governance-content-5 = Waarde en erkenning.
+about-playbook-how-project-governance-content-6 = Wederzijdse verantwoordelijkheid.
+about-playbook-how-project-governance-content-7 = <governanceLink>Meer info over hoe we worden bestuurd</governanceLink>
 mycroft-title = Mycroft AI
 mycroft-subtitle = Kunstmatige intelligentie
 mycroft-description =
