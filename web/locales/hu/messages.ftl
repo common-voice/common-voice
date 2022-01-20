@@ -541,6 +541,8 @@ about-playbook-what-is-language-content-3 = Egyes nyelvek nagyon változatosak n
 
 about-playbook-how-add-language = Hogyan adhatok hozzá egy nyelvet?
 about-playbook-how-add-language-content-1 = Először ellenőrizze, hogy <languageLink>már létezik-e</languageLink>. Ha nem, akkor <strong>le kell fordítania a webhelyet, és össze kell gyűjtenie a mondatokat</strong>.
+about-playbook-how-add-language-content-2 = <strong>A webhely lefordításához</strong> <translateVideo>álltysa be</translateVideo> a <pontoonLink>Pontoonon</pontoonLink>. A Pontoon számos nyelvet tartalmaz, de ha nem rendelkezik az Önével, akkor <pontoonRequestLink>kérheti azt</pontoonRequestLink>. Ezután kérje a <repoLink>GitHubon</repoLink> keresztül, hogy tegyék elérhetővé a Common Voice projektet az adott nyelven. További információk a <localizationFragment>webhely fordításáról itt</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>A mondatok gyűjtését</strong> <scVideo>állítsa be</scVideo> a <scLink>Mondatgyűjtőben</scLink>.
 
 ## How does localization work
 
