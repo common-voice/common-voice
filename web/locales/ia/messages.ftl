@@ -587,6 +587,7 @@ about-playbook-how-validate-content-4 = Si un registration es rejectate per 2 pe
 ## How to access dataset
 
 about-playbook-how-access-dataset = Como accede e usa io le collection de datos?
+about-playbook-how-access-dataset-content-2 = Si tu cerca applicationes pro producer modellos ASR, tu pote connecter te a altere personas in le communitate <discourseLink>sur Discourse</discourseLink>.
 
 ## How are decisions made
 
