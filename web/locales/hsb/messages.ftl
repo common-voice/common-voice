@@ -520,6 +520,8 @@ about-get-involved-text-2 =
     Chceće pomhać, Common Voice polěpšić?
     Wulkotnje! Stajće so z nami přez e-mejl abo we forumach <discourseLink>Discourse</discourseLink>  do zwiska, sćelće sydłowe problemy přez <githubLink>Github</githubLink> abo wopytajće nas w chaće zhromadźenstwa <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Kak móžu w zwisku wostać?
+about-stay-in-touch-text-1 = <emailFragment>Registrujće so</emailFragment> za našu rozesyłansku lisćinu, zo byšće zhonił, kak móžeće so na kampanjach, podawkach a kodesignych funkcijach na Common Voice wobdźělić.
+about-stay-in-touch-text-2 = Přidružće so <discourseLink>Discourse</discourseLink> za temowe rozmołwy abo <matrixLink>Matrix</matrixLink> za spěšnu radu, zo byšće so z druhimi ludźimi w rěčnych zhromadźenstwach Mozilla zetkał.
 about-nav-why-common-voice = Čehodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnerojo
@@ -531,6 +533,7 @@ about-nav-playbook = Zhońće, ka móžeće so wobdźělić
 ## What is a language
 
 about-playbook-what-is-language = Što je rěč na Common Voice?
+about-playbook-what-is-language-content-2 = Chcemy, zo rěčne modele lěpje móža, wjele rozdźělnych rěčnikow rozumić. Zo by to je móžne, dyrbi datowa sadźba wjele rozdźělnych ludźi reprezentować.
 
 ## How do I add a language
 
