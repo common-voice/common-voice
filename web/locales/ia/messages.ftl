@@ -540,6 +540,7 @@ about-playbook-how-add-language = Como adde io un lingua?
 about-playbook-how-add-language-content-1 = Primo, verifica si tu lingua <languageLink>ja existe</languageLink>. Si non, tu debe <strong>traducer le sito e colliger phrases</strong>.
 about-playbook-how-add-language-content-2 = <strong>Pro traducer le sito</strong>, <translateVideo>crea un conto</translateVideo> sur <pontoonLink>Pontoon</pontoonLink>. Pontoon ha multe linguas, ma si non ha le tue, tu pote <pontoonRequestLink>requestar lo</pontoonRequestLink>. Alora demanda <repoLink>sur GitHub</repoLink> que le projecto Common Voice sia rendite disponibile pro le lingua. Lege plus sur <localizationFragment>le traduction del sito</localizationFragment>.
 about-playbook-how-add-language-content-3 = <strong>Pro colliger phrases</strong>, <scVideo>crea un conto</scVideo> sur <scLink>Sentence Collector</scLink>.
+about-playbook-how-add-language-content-4 = Tu pote <scLinkAdd>adder poc</scLinkAdd> phrases hic, o tu pote <bulkImportDocsLink>importar los in bloco</bulkImportDocsLink> via un requesta GitHub.
 
 ## How does localization work
 
