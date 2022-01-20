@@ -549,9 +549,12 @@ about-playbook-how-localize-content-1 = Le traduction del sito de Common Voice e
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Crea un conto</pontoonAccountLink> si tu non ha un. Tunc, elige le <strong>(‘Team’)</strong> de tu lingua e pois elige le projecto, <t0/><pontoonCvLink>Common Voice</pontoonCvLink>. Illac il habera le files a traducer. Illac il habera le files a traducer. Clicca sur un, alora illo monstrara le parolas in anglese e un campo pro traducer los.
 about-playbook-how-localize-content-3 = Le traduction es ab le anglese, ma tu pote vider <strong>Suggestiones</strong> in altere linguas. Clicca le icone <strong>Profile</strong>, e pois le ligamine <strong>Settings</strong> e adde ulle lingua que tu parla. Al angulo inferior dextere il habera un lista de traductiones appellate <strong>Locales</strong>. Le traductiones es monstrate sur le sito depost un die.
 about-playbook-how-localize-content-4 = Le sito es preste a esser lanceate quando illo attinge le 75% de completamento.
+about-playbook-how-localize-content-5 = Specta nostre video explicative pro adjuta
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Como adde io phrases?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> es un instrumento pro colliger e validar phrases de dominio public. Tu <scAccountLink>debera crear un conto</scAccountLink>. E pois, adder tu lingua a tu <strong>Profilo</strong>. <s0/>Tu potera <strong>Adder</strong> phrases o <strong>Revider</strong> phrases previemente addite.
 
 ## How to record quality
 
