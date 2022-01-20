@@ -36,7 +36,6 @@ ba = ᱵᱟᱥᱠᱤᱨ
 bas = ᱵᱟᱥᱟ
 be = ᱵᱮᱞᱟᱨᱩᱥᱤ
 bg = ᱵᱩᱞᱜᱮᱨᱤᱭᱟᱹᱱ
-bm = ᱵᱟᱢᱵᱟᱨᱟ
 bn = ᱵᱮᱝᱜᱟᱞᱤ
 br = ᱵᱨᱮᱴᱚᱱ
 bs = ᱵᱚᱥᱱᱤᱭᱟᱱ
@@ -464,11 +463,14 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Common Voice ᱫᱚ ᱪᱮᱫᱟᱜ?
-about-subtitle = Common Voice ᱢᱮᱥᱤᱱ ᱠᱚ ᱪᱮᱪᱮᱫᱚᱜ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢ ᱪᱷᱚ ᱞᱟᱹᱜᱤᱫ Mozilla ᱨᱮᱭᱟᱜ ᱯᱚᱦᱚᱞ ᱨᱮᱭᱟᱜ ᱦᱟᱹᱴᱤᱧ ᱠᱟᱱᱟ ᱡᱮ ᱥᱟᱹᱨᱤ ᱛᱮ ᱦᱚᱲ ᱪᱮᱞᱠᱟ ᱠᱚ ᱨᱚᱲᱟ᱾ Common Voice ᱪᱷᱚᱲᱟ ᱦᱚᱸ, ᱟᱞᱮ ᱜᱚᱦᱨᱟ ᱵᱷᱟᱥᱚᱬ ᱢᱤᱫᱴᱟᱹᱝ ᱠᱷᱩᱞᱟᱹ ᱥᱨᱚᱛ ᱵᱷᱟᱥᱚᱬ ᱢᱟᱱᱭᱚᱛᱟ ᱤᱧᱡᱤᱱ ᱦᱚᱸ ᱛᱟᱦᱮᱸ ᱠᱚᱜ ᱢᱟᱸ᱾
-about-header-description = ᱱᱚᱶᱟ ᱵᱟᱨᱭᱟ ᱯᱨᱚᱡᱮᱠᱴ ᱫᱚ ᱰᱤᱡᱤᱴᱟᱞ ᱵᱷᱟᱥᱚᱬ ᱠᱚ ᱚᱨ ᱞᱟᱹᱜᱤᱫ ᱟᱞᱮᱭᱟᱜ ᱪᱮᱥᱴᱟ ᱨᱮᱭᱟᱜ ᱢᱤᱫᱴᱟᱹᱝ ᱦᱟᱹᱴᱤᱧ ᱠᱟᱱᱟ᱾ ᱥᱟᱲᱮ ᱪᱤᱱᱦᱟᱹᱯ ᱫᱚ ᱯᱨᱚᱫᱤᱠᱟᱹ ᱟᱞᱮ ᱩᱯᱠᱚᱨᱚᱬ ᱨᱮ ᱢᱟᱱᱚᱵ ᱟᱭᱟᱢ ᱞᱟᱜᱟᱣ ᱮᱫᱟᱭ, ᱦᱮᱞᱮ ᱰᱮᱵᱷᱞᱚᱯᱟᱹᱨᱥ ᱠᱚ ᱚᱱᱟ ᱛᱮᱭᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱟᱹᱰᱤ ᱟᱭᱢᱟ ᱥᱟᱰᱮ ᱰᱟᱴᱟ ᱨᱮᱭᱟᱜ ᱫᱚᱨᱠᱟᱨ ᱛᱟᱦᱮᱸᱱ ᱠᱟᱱ ᱛᱟᱠᱚᱣᱟ᱾ ᱱᱤᱛᱚᱜ ᱫᱚ, ᱚᱱᱟ ᱰᱟᱴᱟ ᱟᱹᱰᱤ ᱜᱮ ᱫᱟᱢᱟ ᱟᱨ ᱢᱟᱹᱞᱤᱠᱟᱱᱟ ᱠᱟᱱᱟ᱾
-about-header-description-2 = ᱱᱚᱶᱟ ᱯᱨᱚᱡᱮᱠᱴ ᱫᱚ ᱰᱤᱡᱤᱴᱟᱹᱞ ᱵᱷᱟᱥᱚᱬ ᱵᱤᱵᱷᱟᱹᱡᱚᱱ ᱨᱮᱭᱟᱜ ᱡᱤᱞᱤᱧ ᱠᱚ ᱦᱚᱯᱚᱱ ᱪᱷᱚ ᱞᱟᱹᱜᱤᱫ ᱪᱮᱥᱴᱟ ᱠᱟᱱᱟ᱾ ᱥᱟᱰᱮ ᱪᱤᱱᱦᱟᱹᱯ ᱴᱮᱠᱱᱚᱞᱚᱡᱤ ᱟᱞᱮᱞᱟᱜ ᱥᱟᱫᱷᱚᱱ ᱠᱚ ᱨᱮ ᱦᱚᱲ ᱠᱚᱣᱟᱜ ᱛᱟᱦᱮᱸ ᱫᱚᱨᱥᱟᱣ ᱟᱭ, ᱦᱮᱞᱮ ᱰᱮᱵᱷᱞᱚᱯᱟᱹᱨᱥ ᱫᱚ ᱟᱭᱢᱟ ᱱᱤᱨᱜᱷᱟᱹᱛᱤᱭᱟᱹ ᱥᱟᱰᱮ ᱰᱟᱴᱟ ᱫᱚᱨᱠᱟᱨ ᱛᱟᱠᱚ ᱛᱮᱭᱟᱨ ᱞᱟᱹᱜᱤᱫ᱾ ᱱᱤᱛᱚᱜ, ᱵᱟᱹᱲᱛᱤᱭᱟᱱ ᱰᱟᱴᱟ ᱫᱚ ᱟᱹᱰᱤᱜᱟᱱ ᱫᱟᱢᱟ ᱟᱨ ᱢᱟᱹᱞᱤᱠᱟᱱᱟ ᱠᱟᱱᱟ᱾ ᱟᱞᱮ ᱱᱚᱶᱟ ᱥᱟᱰᱮ ᱰᱟᱴᱟ ᱫᱚ ᱡᱷᱚᱛᱚ ᱦᱚᱲ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱯᱷᱨᱤ ᱟᱨ ᱥᱟᱱᱟᱢ ᱠᱚ ᱴᱷᱮᱱ ᱥᱮᱴᱮᱨᱮᱜᱼᱟ ᱞᱮ, ᱟᱨ ᱟᱞᱮ ᱱᱤᱥᱪᱤᱛ ᱮᱫᱟ ᱞᱮ ᱡᱮ ᱚᱱᱟ ᱰᱟᱴᱟ ᱨᱮ ᱥᱟᱹᱨᱤ ᱦᱚᱲ ᱠᱚᱣᱟᱜ ᱣᱤᱣᱤᱫᱛᱟᱹ ᱛᱟᱦᱮᱸᱱ ᱢᱟᱸ᱾ ᱡᱷᱚᱛᱚ ᱢᱮᱥᱟ ᱠᱟᱛᱮ ᱟᱵᱚ ᱥᱟᱰᱮ ᱪᱤᱱᱦᱟᱹᱯ ᱡᱷᱚᱛᱚ ᱦᱚᱲ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱵᱮᱥ ᱵᱚᱱ ᱛᱮᱭᱟᱨ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ᱾
-how-does-it-work-title = ᱱᱚᱶᱟ ᱫᱚ ᱪᱮᱞᱠᱟ ᱠᱟᱹᱢᱤᱭᱟᱭ?
+how-does-it-work-title-v2 = Common Voice ᱪᱮᱞᱠᱟ ᱠᱟᱹᱤ ᱮᱫᱟᱭ ?
 how-does-it-work-text = ᱟᱞᱮ ᱥᱟᱰᱮ ᱨᱮᱭᱟᱜ ᱠᱷᱩᱞᱟᱹᱼᱥᱨᱚᱛ ᱰᱟᱴᱟᱥᱮᱴ ᱠᱚ ᱵᱷᱤᱰ ᱜᱚᱲᱚ ᱛᱮ ᱠᱚᱨᱟᱣᱮᱫᱼᱟ᱾ ᱟᱢᱟᱜ ᱥᱟᱰᱮ ᱫᱟᱱ ᱢᱮ, ᱮᱴᱟᱜ ᱦᱚᱲ ᱠᱚᱣᱟᱜ ᱠᱞᱤᱯ ᱠᱚ ᱢᱟᱱᱭᱚ ᱠᱚᱨᱟᱣ ᱢᱮ, ᱡᱷᱚᱛᱚ ᱦᱚᱲ ᱞᱟᱹᱜᱤᱫ ᱰᱟᱴᱟᱥᱮᱴ ᱵᱮᱥ ᱠᱚᱨᱟᱣ ᱢᱮ᱾
+
+## How does it work section
+
+about-language-req-subtitle = ᱢᱤᱫᱢᱟᱹᱝ ᱯᱟᱹᱨᱥᱤ ᱥᱮᱞᱮᱫ ᱞᱟᱹᱜᱤᱫ ᱡᱟᱦᱟᱸᱭ ᱠᱚ ᱠᱩᱠᱞᱤ ᱠᱟᱱᱟ ᱠᱚ ᱾
+about-localization-title = ᱣᱮᱵᱽᱥᱟᱭᱤᱴ ᱛᱚᱨᱡᱚᱢᱟ
+about-sentence-collection-title = ᱟᱹᱭᱟᱹᱛ ᱛᱩᱢᱟᱹᱞ
 about-speak = ᱨᱚᱲ ᱢᱮ
 about-speak-text = ᱮᱱᱮᱢᱤᱭᱟᱹ ᱫᱟᱱ ᱠᱟᱫ ᱟᱭᱢᱟ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱫᱚ ᱯᱟᱲᱦᱟᱣ ᱠᱟᱛᱮ ᱥᱟᱰᱮ ᱠᱞᱤᱯ ᱠᱚ ᱨᱮᱠᱚᱰᱼᱟ᱾
 about-listen-queue = ᱟᱧᱡᱚᱢᱼᱫᱷᱟᱹᱲ
@@ -496,6 +498,34 @@ about-nav-why-common-voice = ᱪᱮᱫᱟᱜ?
 about-nav-how-it-works = ᱪᱮᱠᱟᱛᱮ ?
 about-nav-partners = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤᱠᱚ
 about-nav-get-involved = ᱥᱟᱹᱢᱤᱞᱚᱜ ᱯᱮ
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = ᱟᱨᱴᱤᱯᱷᱤᱥᱤᱭᱟᱞ ᱤᱱᱴᱮᱞᱤᱡᱮᱱᱥ
 mycroft-description = Mycroft ᱫᱚ ᱡᱮᱜᱮᱛ ᱨᱮᱛᱟᱭ ᱯᱩᱭᱞᱩ ᱠᱷᱩᱞᱟᱹ ᱥᱨᱚᱛ ᱮᱥᱤᱥᱴᱮᱸᱴ ᱠᱟᱱᱟ ᱴ᱾ Mycroft  ᱫᱚ ᱡᱟᱦᱟᱸᱭ ᱨᱮ ᱜᱮ ᱫᱟᱹᱲᱟᱭ - ᱰᱮᱥᱠᱴᱚᱯ ᱠᱚᱢᱯᱭᱩᱴᱚᱨ, ᱚᱴᱚᱢᱚᱵᱟᱭᱤᱞ ᱵᱷᱤᱛᱨᱭ ᱨᱮ, ᱟᱨ ᱵᱟᱝ ᱨᱮᱥᱯᱵᱮᱨᱭ Pi ᱨᱮ᱾
