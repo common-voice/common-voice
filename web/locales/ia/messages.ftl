@@ -530,7 +530,7 @@ about-nav-playbook = Apprende como participar
 ## What is a language
 
 about-playbook-what-is-language = Que es un lingua sur Common Voice?
-about-playbook-what-is-language-content-1 = Existe multe manieras de considerar lo que es un lingua. Pro le scopos de modellos de recognition vocal, Common Voice suggere que on se focalisa sur le ‘intercomprehension’, o ‘pote le parlantes de iste lingua generalmente comprender se con alcun effortio?’
+about-playbook-what-is-language-content-1 = Existe multe manieras de considerar lo que es un lingua. Pro le scopos del modellos de recognition vocal, Common Voice propone de concentrar se sur le ‘reciproc comprensibilitate’, o ‘pote le parlantes de iste lingua generalmente comprender se, le un le altere, si illes lo tenta?’
 about-playbook-what-is-language-content-2 = Nos vole que le modellos vocal comprende melio un grande varietate de parlantes. Pro effectuar isto, un collection de datos vocal debe representar multe personas differente.
 about-playbook-what-is-language-content-3 = Alcun linguas ha un enorme variation in grammatica, vocabulario e pronunciation. Pro iste ration, nos <ctaLink>introduce ‘Variantes’</ctaLink> in 2022. Isto da al communitates un maniera de distinguer lor linguas in le collection de datos general.
 
