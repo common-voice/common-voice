@@ -535,9 +535,12 @@ about-nav-playbook = Tudja meg, hogyan vehetsz részt
 about-playbook-what-is-language = Mi egy nyelv a Common Voice-ban?
 about-playbook-what-is-language-content-1 = Sokféleképpen lehet gondolkodni a nyelvről. A beszédfelismerési modellek szempontjából a Common Voice a „kölcsönös érthetőségre” való összpontosítást javasolja, vagy „a nyelvet beszélők többnyire megértik egymást, ha megpróbálják?”
 about-playbook-what-is-language-content-2 = Azt akarjuk, hogy a beszédmodellek jobban megértsék a beszélők sokféleségét. Ahhoz, hogy ez megtörténjen, egy hangadatkészletnek sok különböző embert kell képviselnie.
+about-playbook-what-is-language-content-3 = Egyes nyelvek nagyon változatosak nyelvtanilag, szókincsben és kiejtésben. Emiatt 2022-ben <ctaLink>bevezetjük a „Változatokat”</ctaLink>. Ez lehetővé teszi a közösségek számára, hogy megkülönböztethessék nyelveiket a nagyobb adatkészleten belül.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Hogyan adhatok hozzá egy nyelvet?
+about-playbook-how-add-language-content-1 = Először ellenőrizze, hogy <languageLink>már létezik-e</languageLink>. Ha nem, akkor <strong>le kell fordítania a webhelyet, és össze kell gyűjtenie a mondatokat</strong>.
 
 ## How does localization work
 
