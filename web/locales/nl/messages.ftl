@@ -541,18 +541,41 @@ about-playbook-what-is-language-content-3 = Sommige talen hebben een enorme vari
 
 about-playbook-how-add-language = Hoe voeg ik een taal toe?
 about-playbook-how-add-language-content-1 = Controleer eerst of uw taal <languageLink>al bestaat</languageLink>. Als dat niet het geval is, moet u <strong>de website vertalen en zinnen verzamelen</strong>.
+about-playbook-how-add-language-content-2 = <strong>Om de website te vertalen</strong> – zorg dat u <translateVideo>bent ingesteld</translateVideo> op <pontoonLink>Pontoon</pontoonLink>. Pontoon bevat veel talen, maar als de uwe er niet bij zit, kunt u <pontoonRequestLink>deze aanvragen</pontoonRequestLink>. Vraag vervolgens <repoLink>via GitHub</repoLink> om het Common Voice-project beschikbaar te maken voor de taal. Meer info over <localizationFragment>websitevertaling</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Om zinnen te verzamelen</strong> – <scVideo>stel</scVideo> <scLink>Sentence Collector</scLink> in.
+about-playbook-how-add-language-content-4 = U kunt hier <scLinkAdd>kleine aantallen</scLinkAdd> zinnen toevoegen, of u kunt <bulkImportDocsLink>bulkimport</bulkImportDocsLink> doen via een Github-verzoek. Onthoud dat zinnen <licenseLink>CC0 (of publiek domein)</licenseLink> moeten zijn, of u kunt uw eigen zinnen schrijven. Meer info over <scFragment>zinnenverzameling</scFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Hoe werkt websitelocalisatie?
+about-playbook-how-localize-content-1 = De vertaling van de Common Voice-website gebeurt op <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Maak een account aan</pontoonAccountLink> als u er nog geen heeft. Kies vervolgens uw taal <strong>(‘Team’)</strong> en kies vervolgens het project, <pontoonCvLink>Common Voice</pontoonCvLink>. Er zullen bestanden zijn om te vertalen. Klik op een ervan, dan toont Pontoon woorden in het Engels en een vak om ze te vertalen.
+about-playbook-how-localize-content-3 = De vertaling is uit het Engels, maar u kunt <strong>Suggesties</strong> in andere talen zien. Klik op het pictogram <strong>Profiel</strong>, vervolgens op de koppeling <strong>Settings</strong> en voeg eventuele talen toe die u spreekt. In de rechterbenedenhoek staat een lijst met vertalingen genaamd <strong>Locales</strong>. Vertalingen verschijnen na een dag op de website.
+about-playbook-how-localize-content-4 = De website kan worden gelanceerd wanneer 75% is voltooid.
+about-playbook-how-localize-content-5 = Bekijk onze video-uitleg om te helpen
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Hoe voeg ik zinnen toe?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> is een hulpmiddel voor het verzamelen en valideren van zinnen in het publieke domein. U moet <scAccountLink>een account aanmaken</scAccountLink>. Voeg vervolgens uw taal toe aan uw <strong>Profiel</strong>. U kunt zinnen <strong>Toevoegen</strong> of eerder toegevoegde zinnen <strong>Beoordelen</strong>.
+about-playbook-how-add-sentences-content-2 = Zinnen moeten door twee mensen worden beoordeeld en geaccepteerd om te worden opgenomen in Common Voice. U maakt <languageGuidelinesLink>hier</languageGuidelinesLink> richtlijnen voor uw taal. Zinnen moeten in het <licenseLink>publieke domein</licenseLink> staan en korter zijn dan 15 woorden. U kunt de eigenaar van een tekst vragen om deze <waiverLink>CC0 te maken met behulp van ons ontheffingsproces</waiverLink> en deze naar ons sturen op commonvoice@mozilla.com.
+about-playbook-how-add-sentences-content-3 = U kunt de <scraperLink>Sentence extractor</scraperLink> gebruiken om korte zinnen uit Wikipedia te gebruiken.
+about-playbook-how-add-sentences-content-4 = Gevalideerde zinnen worden op woensdag geëxporteerd en zijn na de volgende uitgave beschikbaar.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Hoe neem ik een spraakfragment van hoge kwaliteit op?
+about-playbook-how-record-content-1 = Spreek met uw normale stem! De manier waarop u spreekt is hier welkom – we willen uw accent zoals het is, en we willen uw gebruikelijke volume, stijl en intonatie.
+about-playbook-how-record-content-2 = Vermijd te veel achtergrondgeluid – het moet gemakkelijk zijn om u te horen.
+about-playbook-how-record-content-3 = Lees de zin aandachtig – mis of verander geen woorden en voeg geen woorden toe.
+about-playbook-how-record-content-4 = Zorg ervoor dat het platform opneemt voordat u begint te spreken en dat het pas stopt als u klaar bent.
+about-playbook-how-record-content-5 = <accuracyLink>Meer info over nauwkeurigheidscriteria.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Hoe kunnen we effectief een taal laten groeien op Common Voice?
+about-playbook-how-grow-language-content-1 = Het creëren van kansen voor een diversiteit aan mensen om bij te dragen aan Common Voice zorgt ervoor dat de gegevensset zoveel mogelijk mensen bedient. We hebben hulpbronnen en sjablonen gemaakt die u kunt gebruiken!
+about-playbook-how-grow-language-content-2 = Evenementen
 
 ## How to validate
 
