@@ -468,7 +468,7 @@ faq-search-for-answers =
 about-title = Proque Common Voice?
 about-header-description-v2 =
     <p>Common Voice es un collection de datos vocal publicamente disponibile que existe gratias al voces de contributores voluntari de tote le mundo. Illes qui vole producer applicationes vocal pote usar le collection de datos pro trainar modellos a apprendimento automatic.</p>
-    <p>Al presente, le major parte de collectiones de datos vocal es le proprietate de grande companias, lo que suffoca le innovation. De plus, le voces de homines blanc e anglophone ha un representation disproportional. Isto significa que le technologia actionate per voce non functiona del toto pro multe linguas, e si functiona, non livra un qualitate equal pro totes. Nos vole cambiar isto mobilisante le gente de tote le mundo a condivider lor voce.</p>
+    <p>Al presente, le major parte de collectiones de datos vocal es le proprietate de grande companias, lo que suffoca le innovation. De plus, le voces de homines blanc e anglophone ha un representation disproportional. Isto significa que le technologia actionate per voce non functiona del toto pro multe linguas, e si functiona, non livra un qualitate equal pro totes. Nos vole cambiar isto mobilisante le gente de tote le mundo pro compartir lor voce.</p>
 how-does-it-work-title-v2 = Como functiona Common Voice?
 how-does-it-work-text = Nos face un grande collecta open-source de voces donate. Dona tu voce, valida le precision del retalios vocal del alteres, rende melior le collection de datos pro totes!
 
