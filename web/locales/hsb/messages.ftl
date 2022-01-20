@@ -391,6 +391,7 @@ skip-submission-note = Kedźbu: Dyrbiće hišće mjez Rěčeć abo Słuchać wub
 off = Wupinjeny
 on = Zapinjeny
 help-accent = Trjebaće pomoc wo akcenće?
+help-accent-explanation = Waš akcent je wašnje, kak słowa wurěkujeće. Jejo charakater wot toho wotwisuje, hdźež sće žiwy był, kotre druhe rěče rěčiće a wot wjele druhich faktorow. Móžeće wšě informacije zdźělić, kotrež za relewantne  maće.
 
 ## Profile - Email
 
