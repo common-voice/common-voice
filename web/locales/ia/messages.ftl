@@ -573,9 +573,12 @@ about-playbook-how-grow-language-content-6 = Societates e retes
 
 ## How to validate
 
+about-playbook-how-validate = Como sape io si approbar un registration vocal?
+about-playbook-how-validate-content-4 = Si un registration es rejectate per 2 personas, illo es publicate in un differente sub-ensemble del collection de datos.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Como accede e usa io le collection de datos?
 
 ## How are decisions made
 
