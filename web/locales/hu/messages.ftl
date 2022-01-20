@@ -484,6 +484,13 @@ about-sentence-collection-title = Mondatok gyűjtése
 about-sentence-collection-subtitle = A mondatokat összegyűjtik, hogy az emberek felolvassák.
 about-new-lang-title = Új nyelv indítása
 about-new-lang-subtitle = Elindítjuk ezen a nyelven a Common Voice webhelyet.
+about-voice-contrib-title = Közreműködés a hangokban
+about-voice-contrib-subtitle = Az emberek jönnek és a hangjukat adják.
+about-voice-validation-title = Hangok ellenőrzése
+about-voice-validation-subtitle = Mások ellenőrzik ezeket a hangfelvételeket.
+about-dataset-release-title = Adatkészlet kiadása
+about-dataset-release-subtitle = Az adatkészletet 3 havonta adjuk ki.
+about-subscribe-text = Szeretne kapcsolatban maradni a Common Voice-szal?
 about-speak = Beszéljen
 about-speak-text = A közreműködők hangfelvételeket készítenek a felajánlott mondatok felolvasásával.
 about-listen-queue = Figyelési sor
@@ -512,15 +519,22 @@ about-get-involved-text-2 =
     Nagyszerű! Lépjen velünk kapcsolatba e-mailben vagy a <discourseLink>Discourse</discourseLink>
     fórumon, küldjön be hibákat <githubLink>GitHubon</githubLink>,
     vagy csatlakozzon a <matrixLink>Matrix</matrixLink> közösségi csevegéshez.
+about-stay-in-touch = Hogyan maradhatok kapcsolatban?
+about-stay-in-touch-text-1 = <emailFragment>Regisztráljon</emailFragment> a levelezőlistánkra, hogy megtudja, hogyan vehet részt kampányokban, eseményekben és a Common Voice közös tervezési funkcióiban.
+about-stay-in-touch-text-2 = Találkozhat másokkal a Mozilla nyelvi közösségeiben, ha csatlakozik a <discourseLink>Discourse</discourseLink>-hoz, ha egy adott témához kapcsolódó beszélgetéseket szeretne, vagy a <matrixLink>Matrix</matrixLink>hoz, ha gyors tanácsokat szeretne kapni.
 about-nav-why-common-voice = Miért?
 about-nav-how-it-works = Hogyan?
 about-nav-partners = Partnerek
 about-nav-get-involved = Csatlakozzon
 about-nav-how-it-works-2 = Hogyan működik a Common Voice?
+about-nav-playbook = Tudja meg, hogyan vehetsz részt
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Mi egy nyelv a Common Voice-ban?
+about-playbook-what-is-language-content-1 = Sokféleképpen lehet gondolkodni a nyelvről. A beszédfelismerési modellek szempontjából a Common Voice a „kölcsönös érthetőségre” való összpontosítást javasolja, vagy „a nyelvet beszélők többnyire megértik egymást, ha megpróbálják?”
+about-playbook-what-is-language-content-2 = Azt akarjuk, hogy a beszédmodellek jobban megértsék a beszélők sokféleségét. Ahhoz, hogy ez megtörténjen, egy hangadatkészletnek sok különböző embert kell képviselnie.
 
 ## How do I add a language
 
