@@ -469,6 +469,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Waarom Common Voice?
+about-header-description-v2 =
+    <p>Common Voice is een openbaar beschikbare spraakgegevensset, mogelijk gemaakt door de stemmen van vrijwillige donateurs over de hele wereld. Mensen die spraaktoepassingen willen bouwen, kunnen de gegevensset gebruiken om machine learning-modellen te trainen.</p>
+    <p>Momenteel zijn de meeste spraakgegevenssets eigendom van bedrijven, wat innovatie verstikt. Spraakgegevenssets bevatten ook een oververtegenwoordiging van witte, Engelstalige mannen. Dit betekent dat spraakgestuurde technologie voor veel talen helemaal niet werkt, en waar het wel werkt, presteert het mogelijk niet voor iedereen even goed. We willen dat veranderen door mensen overal te mobiliseren om hun stem te delen.</p>
 how-does-it-work-title-v2 = Hoe werkt Common Voice?
 how-does-it-work-text = We crowdsourcen een open source stemgegevensset. Doneer uw stem, valideer de nauwkeurigheid van opnames van anderen, en maak de gegevensset beter voor iedereen.
 
@@ -485,6 +488,8 @@ about-voice-contrib-title = Spraakbijdrage
 about-voice-contrib-subtitle = Mensen komen hun spraak bijdragen.
 about-voice-validation-title = Spraakvalidatie
 about-voice-validation-subtitle = Anderen valideren die spraakfragmenten.
+about-dataset-release-title = Vrijgave gegevensset
+about-dataset-release-subtitle = We geven de gegevensset elke drie maanden vrij.
 about-subscribe-text = In contact blijven met Common Voice?
 about-speak = Spreken
 about-speak-text = Bijdragers nemen spraakfragmenten op door te lezen van een databank van gedoneerde zinnen.
@@ -515,18 +520,27 @@ about-get-involved-text-2 =
     forums, meld problemen met de website via <githubLink>GitHub</githubLink>, of doe
     mee met de gemeenschapschat op <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Hoe houd ik contact?
+about-stay-in-touch-text-1 = <emailFragment>Schrijf u in</emailFragment> voor onze e-maillijst om te leren hoe u kunt deelnemen aan campagnes, evenementen en gezamenlijke ontwerpfuncties op Common Voice.
+about-stay-in-touch-text-2 = U kunt anderen in de Mozilla-taalgemeenschappen ontmoeten door lid te worden van <discourseLink>Discourse</discourseLink> voor actuele gesprekken, of <matrixLink>Matrix</matrixLink> voor snel advies.
 about-nav-why-common-voice = Waarom?
 about-nav-how-it-works = Hoe?
 about-nav-partners = Partners
 about-nav-get-involved = Meedoen
 about-nav-how-it-works-2 = Hoe werkt Common Voice?
+about-nav-playbook = Lees hoe u kunt deelnemen
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Wat is een taal op Common Voice?
+about-playbook-what-is-language-content-1 = Er zijn veel manieren om over taal na te denken. Ten behoeve van spraakherkenningsmodellen stelt Common Voice voor om te focussen op ‘wederzijdse begrijpelijkheid’, of ‘kunnen sprekers van deze taal elkaar in het algemeen verstaan als ze dat proberen?’
+about-playbook-what-is-language-content-2 = We willen dat spraakmodellen beter zijn in het verstaan van een breed scala aan sprekers. Om dit te laten gebeuren, moet een spraakgegevensset veel verschillende mensen vertegenwoordigen.
+about-playbook-what-is-language-content-3 = Sommige talen hebben een enorme variatie in grammatica, woordenschat en uitspraak. Om deze reden <ctaLink>introduceren we ‘Varianten’</ctaLink> in 2022. Dit geeft gemeenschappen een manier om hun talen te onderscheiden binnen de grotere gegevensset.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Hoe voeg ik een taal toe?
+about-playbook-how-add-language-content-1 = Controleer eerst of uw taal <languageLink>al bestaat</languageLink>. Als dat niet het geval is, moet u <strong>de website vertalen en zinnen verzamelen</strong>.
 
 ## How does localization work
 
