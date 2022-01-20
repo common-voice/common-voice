@@ -555,6 +555,7 @@ about-playbook-how-localize-content-5 = Specta nostre video explicative pro adju
 
 about-playbook-how-add-sentences = Como adde io phrases?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> es un instrumento pro colliger e validar phrases de dominio public. Tu <scAccountLink>debera crear un conto</scAccountLink>. E pois, adder tu lingua a tu <strong>Profilo</strong>. <s0/>Tu potera <strong>Adder</strong> phrases o <strong>Revider</strong> phrases previemente addite.
+about-playbook-how-add-sentences-content-2 = Le phrases debe esser revidite e acceptate per duo personas pro includer los in Common Voice. Que tu crea lineas guida pro tu lingua <languageGuidelinesLink>hic</languageGuidelinesLink>. Le phrases debe esser de <licenseLink>dominio public</licenseLink> e plus curte que 15 vocabulos. Tu pote demandar al proprietario de un texto de render lo <waiverLink>CC0, per nostre processo de exemption</waiverLink>, e inviar lo nos a <a0>commonvoice@mozilla.com</a0>
 about-playbook-how-add-sentences-content-3 = Tu pote usar le <scraperLink>Extractor de phrase</scraperLink> pro procurar te curte phrases ex Wikipedia.
 about-playbook-how-add-sentences-content-4 = Le phrases que ha essite validate es exportate le mercuridis, e es disponibile post le publication successive.
 
@@ -574,6 +575,7 @@ about-playbook-how-grow-language-content-1 = Crear opportunitates pro que divers
 about-playbook-how-grow-language-content-2 = Eventos
 about-playbook-how-grow-language-content-3 = Tu pote developpar eventos pro adjutar personas a collaborar. Il es plus facile que tu pensa. Tu pote facer lo online con un instrumento de video-conferentias, o in persona si illo es secur. <eventTemplate>Discoperi nostre modellos e ressources pro developpar eventos</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Medios social
+about-playbook-how-grow-language-content-5 = Tu pote usar platteformas de medios social pro diffunder le message. Comparti messages que explica perque illo es importante, e continge altere personas qui parla re problemas como derectos linguistic, voce intelligentia artificial del voce, o le prejudicios in le technologia. Vide altere consilios sur <campaignLink>developpar un campania social, includite le contento que tu pote re-usar</campaignLink>.
 about-playbook-how-grow-language-content-6 = Societates e retes
 about-playbook-how-grow-language-content-7 = Trova alteres qui cura. Que pote esser universitates, scholas de linguas, gruppos de propugnation o communitates de scientia de datos. Attinge les e explica clarmente como illes pote adjutar e perque. <outreachTemplates>Vide nostre e-mails modello de extension</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Sia creative!</strong> Tu communitate linguistic sera unic, e istos es solo alcun manieras pro comenciar.
