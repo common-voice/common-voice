@@ -543,6 +543,7 @@ about-playbook-how-add-language-content-3 = <scVideo>使用</scVideo><scLink>Sen
 
 about-playbook-how-localize = 如何進行網站在地化？
 about-playbook-how-localize-content-1 = Common Voice 網站的翻譯在 <strong>Pontoon</strong> 進行。
+about-playbook-how-localize-content-4 = 網站翻譯完成度達 75% 時，即可準備上線。
 about-playbook-how-localize-content-5 = 請看我們的說明影片
 
 ## How to add sentences
