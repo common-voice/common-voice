@@ -569,13 +569,19 @@ about-playbook-how-record-content-5 = <accuracyLink>Vide plus sur le criterios d
 ## How to grow language
 
 about-playbook-how-grow-language = Como pote nos in modo efficace facer crescer un lingua sur Common Voice?
+about-playbook-how-grow-language-content-1 = Crear opportunitates pro que diverse personas contribue a Common Voice, garanti que le collection de datos servi quante plus personas possibile. Nos ha create ressources e modellos que tu pote usar!
 about-playbook-how-grow-language-content-2 = Eventos
+about-playbook-how-grow-language-content-3 = Tu pote developpar eventos pro adjutar personas a collaborar. Il es plus facile que tu pensa. Tu pote facer lo online con un instrumento de video-conferentias, o in persona si illo es secur. <eventTemplate>Discoperi nostre modellos e ressources pro developpar eventos</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Medios social
 about-playbook-how-grow-language-content-6 = Societates e retes
+about-playbook-how-grow-language-content-8 = <strong>Sia creative!</strong> Tu communitate linguistic sera unic, e istos es solo alcun manieras pro comenciar.
 
 ## How to validate
 
 about-playbook-how-validate = Como sape io si approbar un registration vocal?
+about-playbook-how-validate-content-1 = Si tu pote <strong>audir los</strong> e <strong>comprender los</strong>, il es usualmente <strong>melio approbar los</strong>.
+about-playbook-how-validate-content-2 = <strong>Non rejecta registrationes ubi le parlator ‘ha un accento’ que es differente de tu proprie</strong>, isto es importante pro que le recognition vocal functiona melio pro totes.
+about-playbook-how-validate-content-3 = Si tu pensa que le pronunciation rende <strong>impossibile a comprender</strong>, o il ha <strong>multe ruito de fundo</strong>, o il ha <strong>altere personas parlante alsi</strong>, alora tu deberea rejectar le registration. <accuracyLink>Vide altere informationes in nostre criterios de precision</accuracyLink>.
 about-playbook-how-validate-content-4 = Si un registration es rejectate per 2 personas, illo es publicate in un differente sub-ensemble del collection de datos.
 
 ## How to access dataset
