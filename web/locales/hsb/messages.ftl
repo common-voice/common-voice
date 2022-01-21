@@ -1143,6 +1143,7 @@ sc-howto-review-criteria-1 = Sada dyrbi prawje napisana być.
 sc-howto-review-criteria-2 = Sada dyrbi gramatiski korektna być.
 sc-howto-review-criteria-3 = Sada dyrbi wurěkujomna być.
 sc-howto-review-criteria-4 = Jeli sada kriterijam wotpowěduje, klikńće na tłóčatko „Schwalić“.
+sc-howto-review-criteria-5 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Wotpokazać“. Jeli sej wo sadźe wěsty njejsće, móžeće tež ju přeskočić a k přichodnej přeńć.
 sc-howto-review-criteria-6 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
 sc-howto-findpd-title = Zjawne sady namakać
 sc-howto-findpd-subtitle = Pytajće w interneće za nimi
