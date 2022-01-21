@@ -742,7 +742,7 @@ listen-3rd-time-instruction = 2 ta tayyor, shunday ruhda davom eting!<playIcon><
 listen-last-time-instruction = <playIcon></playIcon>Oxirgisi!
 listen-empty-state = Ushbu tilda tasdiqlash uchun audio yozuvlar qolmadi...
 speak-empty-state = Ushbu tilda yozib olish uchun audio jumlalar qolmadi...
-speak-empty-state-cta = Gap taklif qilish
+speak-empty-state-cta = Jumla qo'shiish
 record-button-label = Ovozingizni yozing
 share-title-new = Yana ovoz yig‘ishimizda <bold>yordam bering</bold>
 keep-track-profile = O'zingizning profilingizda profilingizni kuzatib boring
@@ -992,15 +992,35 @@ contribution-misreadings-description-extended-list-2 = Soʻzning oxirida <strong
 
 ## HEADER/FOOTER
 
+sc-header-home = Bosh sahifa
+sc-header-how-to = Qanday
+sc-header-add = Qoʻshish
+sc-header-review = Tekshirish
+sc-header-rejected = Rad etilgan jumlalar
+sc-header-my = Mening jumlalarim
+sc-header-statistics = Statistika
+sc-header-profile = Profil
+sc-footer-report-bugs = Xatolar haqida xabar berish
+sc-footer-translate = Bu sahifani tarjima qilish
+sc-footer-report-copyright = Mualliflik huquqi bilan bogʻliq muammolar haqida xabar bering
+sc-footer-privacy = Maxfiylik
+sc-footer-terms = Shartlar
 sc-footer-cookies = Kukilar
+sc-login-signup-button = Kirish / Roʻyxatdan oʻtish
 sc-logout-button = Chiqish
 
 ## HOME
 
+sc-home-title = Common Voice jumla yigʻgichga xush kelibsiz
+sc-home-collect-title = Jumlalarni yigʻish
 
 ## HOW-TO
 
+sc-howto-title = Qanday
 sc-howto-addlang-text = Kirsangiz, profil qismidan tillarni tanlash mumkin.
+sc-howto-addsen-title = Yangi jumlalar qoʻshish
+sc-howto-cite-title = Qanday iqtibos keltirish mumkin
+sc-howto-review-criteria-3 = Jumlani gapirish mumkin boʻlishi kerak.
 
 ## MY SENTENCES
 
