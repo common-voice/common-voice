@@ -573,6 +573,7 @@ about-playbook-how-grow-language-content-1 = 讓廣泛的人們都有 Common Voi
 about-playbook-how-grow-language-content-2 = 活動
 about-playbook-how-grow-language-content-3 = 您可以辦活動，幫助人們參與貢獻。不論是透過線上的視訊會議舉辦，或是現場舉辦（安全的話），這件事絕對比您想得還容易。<eventTemplate>可點擊此處參考我們的活動範例與輔助資源</eventTemplate>。
 about-playbook-how-grow-language-content-4 = 社群網路
+about-playbook-how-grow-language-content-5 = 您可以使用社群媒體平台來散播訊息，分享貼文說明這件事為什麼重要，並且與其他討論語言權、語音 AI、科技偏見等議題的人聯繫。可參考這裡有關<campaignLink>舉辦社群活動的更多建議，以及許多您可以重複使用的內容</campaignLink>。
 about-playbook-how-grow-language-content-6 = 成為夥伴與合作網路的一員
 about-playbook-how-grow-language-content-7 = 尋找其他關注此議題的人，可能是大學、語言學校、倡議團體、資料科學社群的成員。可以聯繫他們，並且向他們解釋為什麼、要如何參與。<outreachTemplates>請點擊此處參考我們的聯絡郵件範本</outreachTemplates>。
 about-playbook-how-grow-language-content-8 = <strong>發揮創意！</strong>您的語言社群可以走出自己的風格，這幾點都只是一開始的小建議而已。
@@ -594,6 +595,7 @@ about-playbook-how-access-dataset-content-2 = 若您在尋找能用來建立 ASR
 ## How are decisions made
 
 about-playbook-how-project-governance = 專案運作中如何進行決策？
+about-playbook-how-project-governance-content-2 = 此專案的治理方式建築於下列項目上：
 about-playbook-how-project-governance-content-3 = 隱私權、安全性、透明度。
 about-playbook-how-project-governance-content-4 = 社群參與決策。
 about-playbook-how-project-governance-content-5 = 價值與重視。
