@@ -38,6 +38,7 @@ be = Belarus
 bg = Bolgar
 bn = Bengal
 br = Breton
+bs = Bosniyalik
 bxr = Buryat
 ca = Katalan
 cak = Kaqchikel
@@ -66,6 +67,7 @@ fy-NL = Friz
 ga-IE = Irland
 gl = Galisiy
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Yahudiy
 hi = Hind
@@ -89,7 +91,9 @@ kab = Kabili
 kbd = Kabardino
 ki = Kikuyu
 kk = Qozoq
+km = Xmer
 kmr = Kurmanji Kurdish
+knn = Konkani (Devanagari)
 ko = Koreyscha
 kpv = Komi-zıryan
 kw = Kornish
@@ -996,6 +1000,7 @@ sc-logout-button = Chiqish
 
 ## HOW-TO
 
+sc-howto-addlang-text = Kirsangiz, profil qismidan tillarni tanlash mumkin.
 
 ## MY SENTENCES
 
@@ -1025,6 +1030,7 @@ sc-submit-select-language =
 
 ## PROFILE
 
+sc-personal-your-languages = Tillaringiz:
 
 ## REVIEW CRITERIA
 
