@@ -1182,6 +1182,10 @@ sc-stats-title = Statistika
 sc-stats-last-update = Poslednja aktualizacija: { $lastUpdate }
 sc-stats-last-update-never = Poslednja aktualizacija: ženje
 sc-stats-updating = Aktualizuje so…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = The Common Voice Sentence Collector je { $sentenceCount } sadow w { $languageCount } rěčach zběrał!
 
 ## ADD
 
@@ -1271,6 +1275,7 @@ sc-confirm-ready =
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = Njepřepruwowane sady: { $countOfUnreviewed }. Jeli chceće, móžeće nětko tež swoje sady přepruwować, prjedy hač je wotposćeleće.
 sc-confirm-button-text = Wobkrućić
+sc-confirm-uploading = Sady so nahrawaja. To móže někotre mjeńšiny trać, wotwisujo wot ličby přidatych sadow. Prošu njezačinjejće tute websydło.
 
 ## LANGUAGE INFO
 
@@ -1355,6 +1360,7 @@ sc-criteria-item-1 = Sada dyrbi prawje napisana być.
 sc-criteria-item-2 = Sada dyrbi gramatisce korektna być.
 sc-criteria-item-3 = Sada dyrbi wurěkujomna być.
 sc-criteria-item-4 = Jeli sada kriterijam wotpowěduje, klikńće na tłóčatko „Schwalić“.
+sc-criteria-item-5-2 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Wotpokazać“. Jeli sej wo sadźe wěsty njejsće, móžeće tež ju přeskočić a k přichodnej přeńć.
 sc-criteria-item-6 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
 
 ## REVIEW
@@ -1398,6 +1404,7 @@ sc-review-link = Pohódnoćić
 
 sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěč wužiwarskeho powjercha
+sc-settings-language-translated-warning = Strony za tutu rěč snano dospołnje přełožene njejsu. Móžeće z přełoženjom na <pontoonLinkLink>Pontoon</pontoonLinkLink> wupomhać.
 sc-settings-reset-skipped = Přeskočene sady wróćo stajić
 sc-settings-show-all-button = Wšě přeskočene sady hišće raz pokazać
 sc-settings-failed = Nastajenja njedadźa so změnić. Prošu spytajće hišće raz.
