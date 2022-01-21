@@ -336,6 +336,7 @@ profile-form-accent =
     .label = Dialekt
 profile-form-custom-accent-help-text =
     .label = Hvordan vil du beskrive din aksent?
+profile-form-custom-accent-placeholder-2 = Begynn å skrive for å beskrive aksenten din
 profile-form-age =
     .label = Alder
 profile-form-gender-2 =
