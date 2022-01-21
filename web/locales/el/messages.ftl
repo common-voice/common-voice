@@ -507,9 +507,11 @@ about-nav-get-involved = Συμμετοχή
 
 ## How do I add a language
 
+about-playbook-how-add-language = Πώς προσθέτω μια γλώσσα;
 
 ## How does localization work
 
+about-playbook-how-localize-content-1 = Η μετάφραση του ιστοτόπου του Common Voice γίνεται στο <strong>Pontoon</strong>.
 
 ## How to add sentences
 
@@ -520,6 +522,9 @@ about-playbook-how-add-sentences = Πώς προσθέτω προτάσεις;
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Εκδηλώσεις
+about-playbook-how-grow-language-content-4 = Κοινωνικά δίκτυα
+about-playbook-how-grow-language-content-6 = Συνεργασίες και δίκτυα
 
 ## How to validate
 
