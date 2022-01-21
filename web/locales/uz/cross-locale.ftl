@@ -2,7 +2,7 @@
 
 contribute = Hissa qoʻshish
 get-involved-button = Jamoaga qoʻshilish
-get-involved-title = { $lang } tiliga hissa qo‘shish
+get-involved-title = { $lang } tiliga hissa qoʻshish
 get-involved-text =
     { $lang } tiliga hissa qoʻshishga qiziqqaningiz uchun rahmat. Ona tilingizda ushbu loyiha ishga tushishi uchun biz qattiq ishlaymiz 
     va atamalarni elektron pochta orqali yangilab turamiz. Hissa qoʻshmoqchi boʻlsangiz, pochtangizni kiriting.
