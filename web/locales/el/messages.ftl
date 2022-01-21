@@ -67,6 +67,7 @@ fy-NL = Φριζιακά
 ga-IE = Ιρλανδικά
 gl = Γαλικικά
 gn = Γκουαρανί
+gom = Κονκανικά (Γκόα)
 ha = Χάουσα
 he = Εβραϊκά
 hi = Χίντι
@@ -92,6 +93,7 @@ ki = Κικούγιου
 kk = Καζακικά
 km = Χμερ
 kmr = Κουρμάντζι Κουρδικά
+knn = Κονκανικά (Ντεβανάγκαρι)
 ko = Κορεατικά
 kpv = Komi-Zyrian
 kw = Κορνουαλικά
@@ -462,12 +464,19 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Γιατί το Common Voice;
+how-does-it-work-title-v2 = Πώς λειτουργεί το Common Voice;
 how-does-it-work-text = Δημιουργούμε με crowdsourcing ένα σύνολο φωνητικών δεδομένων ανοικτού κώδικα. Συνεισφέρετε τη φωνή σας, επικυρώστε την ακρίβεια των κλιπ άλλων χρηστών, κάντε το σύνολο δεδομένων καλύτερο για όλους.
 
 ## How does it work section
 
 about-localization-title = Μετάφραση ιστοτόπου
 about-sentence-collection-title = Συλλογή προτάσεων
+about-voice-contrib-title = Συνεισφορά φωνής
+about-voice-contrib-subtitle = Ο κόσμος έρχεται και συνεισφέρει τις φωνές του.
+about-voice-validation-title = Επικύρωση φωνής
+about-voice-validation-subtitle = Άλλα άτομα επικυρώνουν αυτά τα αποσπάσματα.
+about-dataset-release-title = Έκδοση συνόλου δεδομένων
+about-dataset-release-subtitle = Δημοσιεύουμε το σύνολο δεδομένων κάθε 3 μήνες.
 about-speak = Ομιλία
 about-speak-text = Οι συνεισφέροντες καταγράφουν φωνητικά κλιπ διαβάζοντας προτάσεις από ένα σύνολο που έχει δωρήσει η κοινότητα.
 about-listen-queue = Ουρά-Ακρόασης
@@ -500,6 +509,7 @@ about-nav-why-common-voice = Γιατί;
 about-nav-how-it-works = Πώς;
 about-nav-partners = Συνεργάτες
 about-nav-get-involved = Συμμετοχή
+about-nav-how-it-works-2 = Πώς λειτουργεί το Common Voice;
 
 ## Community Playbook Content
 ## What is a language
