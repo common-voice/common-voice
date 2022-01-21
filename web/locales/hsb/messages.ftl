@@ -534,11 +534,13 @@ about-nav-playbook = Zhońće, ka móžeće so wobdźělić
 
 about-playbook-what-is-language = Što je rěč na Common Voice?
 about-playbook-what-is-language-content-2 = Chcemy, zo rěčne modele lěpje móža, wjele rozdźělnych rěčnikow rozumić. Zo by to je móžne, dyrbi datowa sadźba wjele rozdźělnych ludźi reprezentować.
+about-playbook-what-is-language-content-3 = Někotre rěče maja enormne rozdźělne w gramatice, wokabularje a wurěkowanju. Tohodla budźemy w lěće 2022 <ctaLink>„warianty“ zawjedować</ctaLink. To zhromadźenstwam móžnosć dawa, swoje rěče we wjetšej datowej sadźbje rozeznawać.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Kak móžu rěč přidać?
 about-playbook-how-add-language-content-1 = Přepruwujće najprjedy, hač waša rěč <languageLink>hižo eksistuje</languageLink>. Jeli nic, dyrbiće <strong>sydło překožować a sady zběrać</strong>.
+about-playbook-how-add-language-content-2 = <strong>Zo byšće sydło přełožował</strong> – <translateVideo>konfigurujće</translateVideo> na <pontoonLink>Pontoon</pontoonLink>. Pontoon ma wjele rěčow, ale waša rěč tam njeje, móžeće <pontoonRequestLink>ju požadać</pontoonRequestLink>. Prošće potom <repoLink>na GitHub</repoLink>, zo by so projekt Common Voice za swoju rěč k dispoziciji stajił. Hlejće dalše informacije wo <localizationFragment>přełožowanju sydła</localizationFragment>.
 about-playbook-how-add-language-content-3 = <strong>Zo byšće sady zběrał</strong> - <scVideo>konfigurujće</scVideo> <scLink>Sentence Collector</scLink>.
 
 ## How does localization work
