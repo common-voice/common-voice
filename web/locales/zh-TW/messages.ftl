@@ -570,6 +570,8 @@ about-playbook-how-grow-language-content-6 = 成為夥伴與合作網路的一�
 about-playbook-how-validate = 是否接受錄音的標準是什麼？
 about-playbook-how-validate-content-1 = 只要您<strong>聽得到句子</strong>，也能<strong>聽懂句子</strong>，通常<strong>就可以通過</strong>。
 about-playbook-how-validate-content-2 = <strong>不要因為說話的人「講話有腔調」、「腔調跟您不同」就退回句子</strong>若要讓每個人都能容易使用語音識別，接受各種腔調相當重要。
+about-playbook-how-validate-content-3 = 若您覺得錄音片段中的<strong>發音無法理解</strong>、有<strong>太大的背景噪音</strong> 或是<strong>同時錄到其他人的聲音</strong>，那麼就該退回錄音片段。<accuracyLink>若需有關準確度判斷準則的相關資訊，請閱讀此文章</accuracyLink>。
+about-playbook-how-validate-content-4 = 若有兩個人退回了錄音片段，此片段就會放到獨立的子資料集中發布。
 
 ## How to access dataset
 
