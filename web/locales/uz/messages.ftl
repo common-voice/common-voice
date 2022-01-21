@@ -36,7 +36,6 @@ ba = Boshqird
 bas = Basaa
 be = Belarus
 bg = Bolgar
-bm = Bambara
 bn = Bengal
 br = Breton
 bxr = Buryat
@@ -462,12 +461,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Nima uchun Common Voice?
-about-subtitle = Common Voice - Mozilla tashabbusining bir qismi bo'lib, mashinalarga haqiqiy odamlar qanday gapirayotganini o'rgatishga yordam beradi. Common Voice ma'lumotlar bazasiga qo'shimcha ravishda, biz "Deep Speech" deb nomlangan ochiq manbali nutqni aniqlash tizimini yaratmoqdamiz.
-about-header-description =
-    Ushbu ikkala loyiha raqamli nutqlar o'rtasidagi tafovutni bartaraf etishga qaratilgan harakatlarimizning bir qismidir. Ovozni aniqlash texnologiyalari bizning qurilmalarimizga insoniy o'lchovlarni olib keladi, ammo ularni ishlab chiqish uchun ishlab chiquvchilar juda ko'p miqdordagi ovoz ma'lumotlariga muhtoj. Hozirgi vaqtda ushbu ma'lumotlarning ko'pi qimmat va mulkiy hisoblanadi.
-    Biz ovozli ma'lumotlarni bemalol va hammaga taqdim qilishni istaymiz va ma'lumotlar haqiqiy odamlarning xilma-xilligini aks ettirishiga ishonch hosil qilamiz. Birgalikda biz hamma uchun ovozni yaxshiroq aniqlashimiz mumkin.
-how-does-it-work-title = Bu qanday ishlaydi?
 how-does-it-work-text = Ovozlarning ochiq manbali ma'lumotlar to'plamini jalb qilmoqdamiz. Ovozingizni bering, boshqalarning kliplari aniqligini tekshiring, ma'lumotlar bazasini hamma uchun yaxshilang.
+
+## How does it work section
+
 about-speak = Oʻqish
 about-speak-text = Ishtirokchilar maʼlumotlar omboridagi jumlalarni oʻqib, ovozli tasmaga yozishadi.
 about-listen-queue = Eshitish navbati
@@ -500,6 +497,34 @@ about-nav-why-common-voice = Nega?
 about-nav-how-it-works = Qanday ?
 about-nav-partners = Hamkorlar
 about-nav-get-involved = Hissa qo‘shish
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Sunʼiy idrok
 mycroft-description =
@@ -1009,6 +1034,10 @@ sc-submit-select-language =
 
 ## SETTINGS
 
+sc-settings-title = Sozlamalar
+sc-settings-ui-language = Interfeys tili
+sc-settings-language-translated-warning = Bu til uchun sahifalar tarjima qilinmagan boʻlishi mumkin. Tarjimaga <pontoonLinkLink> Pontoon</pontoonLinkLink> orqali yordam berishingiz mumkin.
+sc-settings-reset-skipped = Oʻtkazib yuborilgan jumlalarni tiklash
 
 # [/SentenceCollector]
 
