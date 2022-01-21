@@ -553,10 +553,14 @@ about-playbook-how-add-sentences = 要如何加入句子？
 ## How to record quality
 
 about-playbook-how-record-quality = 要如何錄下高品質的語音片段？
+about-playbook-how-record-content-2 = 避免太吵雜的背景噪音，應該要很容易就能聽到您的聲音。
+about-playbook-how-record-content-3 = 小心閱讀句子，別讀錯、改字或加減字。
+about-playbook-how-record-content-4 = 確定錄音開始了再說話，說完了再停止錄音。
 about-playbook-how-record-content-5 = <accuracyLink>看更多有關準確度的判斷標準。</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = 我們如何有效地在 Common Voice 發展一套語言？
 about-playbook-how-grow-language-content-2 = 活動
 about-playbook-how-grow-language-content-4 = 社群網路
 about-playbook-how-grow-language-content-6 = 成為夥伴與合作網路的一員
