@@ -595,6 +595,7 @@ about-playbook-how-access-dataset-content-2 = 若您在尋找能用來建立 ASR
 ## How are decisions made
 
 about-playbook-how-project-governance = 專案運作中如何進行決策？
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice 是由來自世界各地的社會運動家、語言學家、資料科學家、學者、軟體工程師所組成的多元化社群所共同打造的。本專案由 Mozilla Foundation 管理運作。
 about-playbook-how-project-governance-content-2 = 此專案的治理方式建築於下列項目上：
 about-playbook-how-project-governance-content-3 = 隱私權、安全性、透明度。
 about-playbook-how-project-governance-content-4 = 社群參與決策。
