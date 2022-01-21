@@ -538,21 +538,29 @@ about-playbook-how-add-language = 要如何加入語言？
 about-playbook-how-add-language-content-1 = 首先請先確認您的語言是否<languageLink>已經存在</languageLink>。若還不存在的話，請<strong>將網站翻譯成您的語言，並且收集語句</strong>。
 about-playbook-how-add-language-content-2 = <translateVideo>使用</translateVideo> Pontoon</pontoonLink> <strong>來翻譯網站</strong>。Pontoon 上有許多語言，若沒有您想參與貢獻的語言，可以<pontoonRequestLink>要求加入新語言</pontoonRequestLink>。然後再到 <repoLink>GitHub</repoLink> 上面請 Common Voice 加入此專案。若需更多資訊請點擊了解<localizationFragment>網站翻譯流程</localizationFragment>。
 about-playbook-how-add-language-content-3 = <scVideo>使用</scVideo><scLink>Sentence Collector</scLink><strong>來收集句子</strong>。
+about-playbook-how-add-language-content-4 = 您可以在此<scLinkAdd>加入少量</scLinkAdd>的句子，或是透過 Github 發需求來<bulkImportDocsLink>批次大量匯入</bulkImportDocsLink>。請務必記得所有句子都必須使用 <licenseLink>CC0（或公眾領域）</licenseLink>授權條款，或是由您自行撰寫。若需更多資訊，請閱讀<scFragment>收集句子</scFragment>段落。
 
 ## How does localization work
 
 about-playbook-how-localize = 如何進行網站在地化？
 about-playbook-how-localize-content-1 = Common Voice 網站的翻譯在 <strong>Pontoon</strong> 進行。
+about-playbook-how-localize-content-2 = 若您還沒有的話，請先<pontoonAccountLink>註冊帳號</pontoonAccountLink>。然後選擇要加入的語言<strong>（「團隊」）</strong>，再選擇 <pontoonCvLink>Common Voice</pontoonCvLink> 專案。專案中就會有要翻譯的檔案。任選一個檔案，然後就會顯示每個字串的英文原文，以及輸入譯文的翻譯框。
+about-playbook-how-localize-content-3 = 原則上都是根據英文翻譯，但您可以參考其他語言的<strong>翻譯建議</strong>。可以點擊<strong>個人帳號大頭照</strong>圖示當中的<strong>Settings</strong>連結，加入您會使用的任何語言。點擊右下角的<strong>Locales</strong> 標籤會出現其他語系目前的翻譯內容供您參考。翻譯完成後的隔天我們就會將完成的譯文更新到網站上。
 about-playbook-how-localize-content-4 = 網站翻譯完成度達 75% 時，即可準備上線。
 about-playbook-how-localize-content-5 = 請看我們的說明影片
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = 要如何加入句子？
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> 是一套用來收集與驗證公眾領域語句的工具。您要先<scAccountLink>註冊帳號</scAccountLink>，然後將您使用的語言加到<strong>個人資料</strong>中，然後就可以<strong>新增</strong>句子或者<strong>審核</strong>先前新增的句子。
+about-playbook-how-add-sentences-content-2 = 每個句子都必須經過兩個人審核接受才會被加入 Common Voice。您可以<languageGuidelinesLink>在此</languageGuidelinesLink>建立您的語言的審核標準。句子的內容必須使用<licenseLink>公眾領域</licenseLink>授權條款，並且不超過 15 個字。您可以請文字內容的作者或著作權擁有者<waiverLink>以 CC0 條款拋棄著作權</waiverLink>，並且寄到 commonvoice@mozilla.com 給我們即可使用。
+about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 來從維基百科收集短句。
+about-playbook-how-add-sentences-content-4 = 每週三會匯出驗證完成的句子，並且在下次發行時一併發布。
 
 ## How to record quality
 
 about-playbook-how-record-quality = 要如何錄下高品質的語音片段？
+about-playbook-how-record-content-1 = 用最您最習慣的方式說話！不論您操哪種腔調，我們都希望您用最習慣的說話音量、方式、抑揚頓挫來錄音。
 about-playbook-how-record-content-2 = 避免太吵雜的背景噪音，應該要很容易就能聽到您的聲音。
 about-playbook-how-record-content-3 = 小心閱讀句子，別讀錯、改字或加減字。
 about-playbook-how-record-content-4 = 確定錄音開始了再說話，說完了再停止錄音。
@@ -561,9 +569,12 @@ about-playbook-how-record-content-5 = <accuracyLink>看更多有關準確度的�
 ## How to grow language
 
 about-playbook-how-grow-language = 我們如何有效地在 Common Voice 發展一套語言？
+about-playbook-how-grow-language-content-1 = 讓廣泛的人們都有 Common Voice 的貢獻機會，能確保產出的資料集可被更多數人所用。我們已經預先建立了一些資源與範本供您使用！
 about-playbook-how-grow-language-content-2 = 活動
+about-playbook-how-grow-language-content-3 = 您可以辦活動，幫助人們參與貢獻。不論是透過線上的視訊會議舉辦，或是現場舉辦（安全的話），這件事絕對比您想得還容易。<eventTemplate>可點擊此處參考我們的活動範例與輔助資源</eventTemplate>。
 about-playbook-how-grow-language-content-4 = 社群網路
 about-playbook-how-grow-language-content-6 = 成為夥伴與合作網路的一員
+about-playbook-how-grow-language-content-8 = <strong>發揮創意！</strong>您的語言社群可以走出自己的風格，這幾點都只是一開始的小建議而已。
 
 ## How to validate
 
@@ -576,6 +587,7 @@ about-playbook-how-validate-content-4 = 若有兩個人退回了錄音片段，�
 ## How to access dataset
 
 about-playbook-how-access-dataset = 要如何存取使用資料集？
+about-playbook-how-access-dataset-content-1 = 您可以到<datasetsPage>資料集頁面</datasetsPage>選擇需要的版本與語言內容，然後直接下載！檔案中也包含了人口統計資訊、驗證資料等<metadataLink>相關後設資料</metadataLink>。需要提供電子郵件地址給我們才可以下載資料集。
 about-playbook-how-access-dataset-content-2 = 若您在尋找能用來建立 ASR 模型的工具，歡迎到 <discourseLink>Discourse</discourseLink> 尋找社群成員。
 
 ## How are decisions made
@@ -1108,7 +1120,7 @@ sc-logout-button = 登出
 ## HOME
 
 sc-home-title = 歡迎使用 Common Voice Sentence Collector
-sc-home-intro = Sentence Collector 是 <commonVoiceLink>Common Voice</commonVoiceLink> 專案的一部分。此收集器讓專案貢獻者能夠收集驗證由社群成員提供的語句。您也可以使用此工具來匯入、清理網路上找到或收集的小規模到中規模公眾領域語料庫。所有語句都必須為公開領域內容，每週會將通過審核的句子匯入到 Common Voice 的 repository，再於每次部署時發布到網站上。
+sc-home-intro = Sentence Collector 是 <commonVoiceLink>Common Voice</commonVoiceLink> 專案的一部分。此收集器讓專案貢獻者能夠收集驗證由社群成員提供的語句。您也可以使用此工具來匯入、清理網路上找到或收集的小規模到中規模公眾領域語料庫。所有語句都必須為公眾領域內容，每週會將通過審核的句子匯入到 Common Voice 的 repository，再於每次部署時發布到網站上。
 sc-home-collect-title = 收集句子
 sc-home-collect-text = 透過撰寫或收集公眾領域的語句來幫助我們增加內容。
 sc-home-review-title = 審核句子
@@ -1131,7 +1143,7 @@ sc-howto-cite-title = 如何引用
 sc-howto-cite-pre-1 = 引用您所找到的語句的來源出處可避免發生抄襲事件，相當重要，也讓我們可以介入處理<copyrightIssuesLink>著作權問題</copyrightIssuesLink>。以下是幾種引用作品的方式。
 sc-howto-cite-item-1 = 您可以包含網址，例如「Common Voice - https://commonvoice.mozilla.org/」
 sc-howto-cite-item-2 = 您也可以使用學術參考文獻格式，例如哈佛格式「Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)」
-sc-howto-cite-item-3 = 若為沒有線上版本的公開授權文字，可以使用學術參考文獻格式，例如哈佛格式「Jess (2021) My Public licence poems」
+sc-howto-cite-item-3 = 若為沒有線上版本的公眾領域文字，也可以使用學術參考文獻格式。例如哈佛格式「Jess (2021) My Public licence poems」
 sc-howto-review-title = 審核句子
 sc-howto-review-subtitle = 請確認句子符合下列條件：
 sc-howto-review-criteria-1 = 句子必須拼得正確。
