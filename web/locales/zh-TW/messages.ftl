@@ -574,6 +574,7 @@ about-playbook-how-grow-language-content-2 = 活動
 about-playbook-how-grow-language-content-3 = 您可以辦活動，幫助人們參與貢獻。不論是透過線上的視訊會議舉辦，或是現場舉辦（安全的話），這件事絕對比您想得還容易。<eventTemplate>可點擊此處參考我們的活動範例與輔助資源</eventTemplate>。
 about-playbook-how-grow-language-content-4 = 社群網路
 about-playbook-how-grow-language-content-6 = 成為夥伴與合作網路的一員
+about-playbook-how-grow-language-content-7 = 尋找其他關注此議題的人，可能是大學、語言學校、倡議團體、資料科學社群的成員。可以聯繫他們，並且向他們解釋為什麼、要如何參與。<outreachTemplates>請點擊此處參考我們的聯絡郵件範本</outreachTemplates>。
 about-playbook-how-grow-language-content-8 = <strong>發揮創意！</strong>您的語言社群可以走出自己的風格，這幾點都只是一開始的小建議而已。
 
 ## How to validate
