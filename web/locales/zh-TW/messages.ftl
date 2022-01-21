@@ -567,9 +567,14 @@ about-playbook-how-grow-language-content-6 = 成為夥伴與合作網路的一�
 
 ## How to validate
 
+about-playbook-how-validate = 是否接受錄音的標準是什麼？
+about-playbook-how-validate-content-1 = 只要您<strong>聽得到句子</strong>，也能<strong>聽懂句子</strong>，通常<strong>就可以通過</strong>。
+about-playbook-how-validate-content-2 = <strong>不要因為說話的人「講話有腔調」、「腔調跟您不同」就退回句子</strong>若要讓每個人都能容易使用語音識別，接受各種腔調相當重要。
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = 要如何存取使用資料集？
+about-playbook-how-access-dataset-content-2 = 若您在尋找能用來建立 ASR 模型的工具，歡迎到 <discourseLink>Discourse</discourseLink> 尋找社群成員。
 
 ## How are decisions made
 
