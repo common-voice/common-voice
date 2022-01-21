@@ -538,6 +538,8 @@ about-playbook-what-is-language-content-2 = Chcemy, zo rěčne modele lěpje mó
 ## How do I add a language
 
 about-playbook-how-add-language = Kak móžu rěč přidać?
+about-playbook-how-add-language-content-1 = Přepruwujće najprjedy, hač waša rěč <languageLink>hižo eksistuje</languageLink>. Jeli nic, dyrbiće <strong>sydło překožować a sady zběrać</strong>.
+about-playbook-how-add-language-content-3 = <strong>Zo byšće sady zběrał</strong> - <scVideo>konfigurujće</scVideo> <scLink>Sentence Collector</scLink>.
 
 ## How does localization work
 
@@ -1126,6 +1128,7 @@ sc-logout-button = Wotzjewić
 
 ## HOME
 
+sc-home-title = Witajće k Common Voice Sentence Collector
 sc-home-collect-title = Sady hromadźić
 sc-home-review-title = Sady přepruwować
 
