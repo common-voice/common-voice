@@ -534,6 +534,7 @@ about-nav-playbook = როგორ უნდა მიიღოთ მონ�
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = რას გულისხმობს „ენა“ Common Voice-ში?
 
 ## How do I add a language
 
