@@ -479,6 +479,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Wêrom Common Voice?
+about-header-description-v2 =
+    <p>Common Voice is in iepenbier beskikbere spraakgegevensset, mooglik makke troch de stimmen fan frijwillige donateurs fan oer de hiele wrâld. Minsken dy’t spraaktapassingen bouwe wolle, kinne de gegevensset brûke om masine learmodellen te trainen.</p>
+    <p>Op dit stuit binne de measte spraakgegevenssets eigendom fan bedriuwen, wat ynnovaasje tsjinhâldt. Spraakgegevenssets befetsje ek in oerfertsjinwurdiging fan wite, Ingelsktalige mannen. Dit betsjut dat spraakstjoerde technology foar in protte talen hielendal net wurket, en wêr’ it wol wurket, prestearret it mooglik net foar elkenien like goed. Wy wolle dat feroarje troch minsken oeral te mobilisearjen om harren stim te dielen.</p>
 how-does-it-work-title-v2 = Hoe wurket Common Voice?
 how-does-it-work-text = Wy crowdsource in iepen boarne stimgegevensset. Donearje jo stim, falidearje de sekuerens fan opnamen fan oaren en meitsje de gegevensset better foar elkenien.
 
