@@ -515,6 +515,7 @@ about-playbook-how-add-language = 如何添加语言？
 ## How does localization work
 
 about-playbook-how-localize-content-1 = Common Voice 网站的翻译工作在 <strong>Pontoon</strong> 上进行。
+about-playbook-how-localize-content-4 = 网站本地化完成度达 75% 后即可上线。
 
 ## How to add sentences
 
@@ -527,6 +528,7 @@ about-playbook-how-record-content-3 = 准确读出句子内容，不要漏词、
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = 活动
+about-playbook-how-grow-language-content-4 = 社交媒体
 
 ## How to validate
 
@@ -536,6 +538,7 @@ about-playbook-how-grow-language-content-2 = 活动
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = 隐私、安全和透明度。
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智能
 mycroft-description = Mycroft 是全球第一个开源语音助手，不论是在桌面电脑、汽车、树莓派（Raspberry Pi）或是任何地方都能运行。
