@@ -36,7 +36,6 @@ ba = Bashkyrsk
 bas = Basaa
 be = Wit-Russysk
 bg = Bulgaarsk
-bm = Bambara
 bn = Bingaalsk
 br = Bretonsk
 bs = Bosnysk
@@ -480,15 +479,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Wêrom Common Voice?
-about-subtitle = Common Voice is part fan in inisjatyf fan Mozilla om masinen te helpen learen hoe’t echte minsken sprekke. Yn oanfolling op de Common Voice-gegevensset bouwe wy ek in iepen boarne spraakwerkenningsmasine mei de namme Deep Speech.
-about-header-description =
-    Beide projekten meitsje diel út fan ús ynspanningen om de digitale spraakkleau te oerbrêgjen. Spraakwerkenningstechnologyen jouwe us apparaten in minsklike diminsje, mar ûntwikkelers hawwe in enoarme hoemannichte spraakgegevens nedich om se te bouwen. Op dit stuit binne de measte fan dy gegevens djoer en ôfskerme.
-    Wy wolle spraakgegevens fergees en frij beskikber meitsje en derfoar soargje dat de gegevens in ferskaat fan echte minsken fertsjinwurdigje. Tegearre kinne wy stimwerkenning foar elkenien better meitsje.
-about-header-description-2 =
-    Dit projekt is in ynspanning om de digitale spraakkleau te oerbrêgjen. Spraakwerkenningstechnologyen jouwe ús apparaten in minsklike diminsje, mar ûntwikkelers hawwe in enoarme hoemannichte spraakgegevens nedich om se te bouwen. Op dit stuit binne de measte fan dy gegevens djoer en ôfskerme.
-    Wy wolle spraakgegevens fergees en frij beskikber meitsje en derfoar soargje dat de gegevens in ferskaat fan echte minsken fertsjinwurdigje. Tegearre kinne wy stimwerkenning foar elkenien better meitsje.
-how-does-it-work-title = Hoe’t it wurket
+how-does-it-work-title-v2 = Hoe wurket Common Voice?
 how-does-it-work-text = Wy crowdsource in iepen boarne stimgegevensset. Donearje jo stim, falidearje de sekuerens fan opnamen fan oaren en meitsje de gegevensset better foar elkenien.
+
+## How does it work section
+
+about-language-req-subtitle = Immen freget om in taal ta te foegjen.
+about-localization-title = Websitelokalisaasje
+about-localization-subtitle = De websitetekst wurdt yn dy taal oerset.
+about-sentence-collection-title = Sinnensamling
+about-sentence-collection-subtitle = Sinnen wurde sammele dy’t minsken hurdop foar lêze kinne.
+about-new-lang-title = Lansearring nije taal
+about-new-lang-subtitle = Wy lansearje de Common Voice-website yn dizze taal.
+about-voice-contrib-title = Spraakbydrage
+about-voice-contrib-subtitle = Minsken komme harren spraak bydrage.
+about-voice-validation-title = Spraakfalidaasje
+about-voice-validation-subtitle = Oaren falidearje dy spraakfragminten.
+about-dataset-release-title = Frijjefte gegevensset
+about-dataset-release-subtitle = Wy jouwe de gegevensset elke trije moannen frij.
+about-subscribe-text = Yn kontakt bliuwe mei Common Voice?
 about-speak = Sprek
 about-speak-text = Bydragers nimme spraakfragminten op troch te lêzen fan in databank mei donearre sinnen.
 about-listen-queue = Harkwachtrige
@@ -517,10 +526,42 @@ about-get-involved-text-2 =
     Geweldich! Nim kontakt op fia e-mail of op <discourseLink>Discourse</discourseLink>
     -forums, meld problemen mei de website fia <githubLink>GitHub</githubLink>, of doch
     mei mei de mienskipschat op <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Hoe hâld ik kontakt?
+about-stay-in-touch-text-1 = <emailFragment>Skriuw jo yn</emailFragment> foar ús e-maillist om te learen hoe’t jo dielnimme kinne oan kampanjes, eveneminten en mienskiplike ûntwerpfunksjes op Common Voice.
+about-stay-in-touch-text-2 = Jo kinne oaren yn de Mozilla-taalmienskippen moetsje troch lid te wurden fan <discourseLink>Discourse</discourseLink> foar aktuele petearen, of <matrixLink>Matrix</matrixLink> foar fluch advys.
 about-nav-why-common-voice = Wêrom?
 about-nav-how-it-works = Hoe?
 about-nav-partners = Partners
 about-nav-get-involved = Meiwurkje
+about-nav-how-it-works-2 = Hoe wurket Common Voice?
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence
 mycroft-description =
