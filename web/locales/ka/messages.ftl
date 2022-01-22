@@ -537,12 +537,20 @@ about-nav-playbook = როგორ უნდა მიიღოთ მონ�
 about-playbook-what-is-language = რას გულისხმობს „ენა“ Common Voice-ში?
 about-playbook-what-is-language-content-1 = მრავალი კუთხით შეიძლება განვიხილოთ ენა. ხმის ამომცნობი სისტემებისთვის კი, Common Voice გთავაზობთ „ურთიერთგაგების“ გათვალისწინებას, ანუ „ამ ენაზე მოლაპარაკეებს უნდა შეეძლოთ აზრი გამოიტანონ ერთმანეთის საუბრიდან“.
 about-playbook-what-is-language-content-2 = გვსურს, რომ ხმის მოდელებს უკეთ შეეძლოს სხვადასხვა ადამიანის გაგება. ამისთვის, კრებული უნდა შედგებოდეს მრავალი განსხვავებული ხმის ჩანაწერისგან.
+about-playbook-what-is-language-content-3 = ზოგ ენაში, შეიძლება იყოს უამრავი სახესხვაობაა გრამატიკაში, ლექსიკაში, ფონეტიკაში. ამიტომ, გადავწყვიტეთ <ctaLink>შემოგვეღო „ნაირსახეობები“</ctaLink> 2022 წელს. ეს, საზოგადოების თითოეულ ჯგუფს მისცემს საშუალებას, გამოარჩიოს თავისი სალაპარაკო ენა მთლიანი კრებულიდან.
 
 ## How do I add a language
 
+about-playbook-how-add-language = როგორ დავამატო ენა?
+about-playbook-how-add-language-content-1 = ჯერ გადაამოწმეთ, <languageLink>უკვე არის თუ არა</languageLink> ენა. თუ არაა, საჭირო იქნება <strong>საიტის თარგმნა და წინადადებების შეგროვება</strong>.
+about-playbook-how-add-language-content-2 = <strong>საიტის გადასათარგმნად</strong> – უნდა <translateVideo>გამოიყენოთ</translateVideo>  <pontoonLink>Pontoon</pontoonLink>. Pontoon-ზე ბევრი ენაა, მაგრამ თუ თქვენი არ იქნება, შეგიძლიათ <pontoonRequestLink>მოითხოვოთ</pontoonRequestLink> დამატება. შემდეგ განაცხადეთ <repoLink>GitHub-ზე</repoLink>, რომ გსურთ Common Voice ხელმისაწვდომი იყოს თქვენი ენისთვის. ვრცლად იხილეთ <localizationFragment>საიტის თარგმნა</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>წინადადებების შესაგროვებლად</strong> – <scVideo>უნდა გამოიყენოთ</scVideo <scLink>წინადადებების შემგროვებელი</scLink>.
+about-playbook-how-add-language-content-4 = აქედან შეგიძლიათ მხოლოდ <scLinkAdd>მცირე ოდენობით</scLinkAdd> წინადადებების დამატება, ხოლო <bulkImportDocsLink>ერთიანად შეტანისთვის</bulkImportDocsLink> უნდა განაცხადოთ Github-ზე. დაიხსომეთ, რომ წინადადებები აუცილებლად უნდა იყოს <licenseLink>CC0 (ანუ საყოველთაო საკუთრებაში)</licenseLink>, ანდაც თავად უნდა დაწეროთ. ვრცლად იხილეთ <scFragment>წინადადებების შემგროვებელი ხელსაწყო</scFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = როგორ უნდა ითარგმნოს საიტი?
+about-playbook-how-localize-content-1 = Common Voice-საიტის თარგმნისთვის გამოიყენება <strong>Pontoon</strong>.
 
 ## How to add sentences
 
