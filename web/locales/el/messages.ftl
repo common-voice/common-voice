@@ -471,12 +471,14 @@ how-does-it-work-text = Δημιουργούμε με crowdsourcing ένα σύ�
 
 about-localization-title = Μετάφραση ιστοτόπου
 about-sentence-collection-title = Συλλογή προτάσεων
+about-new-lang-title = Έναρξη νέας γλώσσας
 about-voice-contrib-title = Συνεισφορά φωνής
 about-voice-contrib-subtitle = Ο κόσμος έρχεται και συνεισφέρει τις φωνές του.
 about-voice-validation-title = Επικύρωση φωνής
 about-voice-validation-subtitle = Άλλα άτομα επικυρώνουν αυτά τα αποσπάσματα.
 about-dataset-release-title = Έκδοση συνόλου δεδομένων
 about-dataset-release-subtitle = Δημοσιεύουμε το σύνολο δεδομένων κάθε 3 μήνες.
+about-subscribe-text = Θέλετε να ενημερώνεστε για το Common Voice;
 about-speak = Ομιλία
 about-speak-text = Οι συνεισφέροντες καταγράφουν φωνητικά κλιπ διαβάζοντας προτάσεις από ένα σύνολο που έχει δωρήσει η κοινότητα.
 about-listen-queue = Ουρά-Ακρόασης
@@ -505,19 +507,23 @@ about-get-involved-text-2 =
     Τέλεια! Επικοινωνήστε μέσω email ή στο <discourseLink>Discourse</discourseLink> φόρουμ,
     αναφέρετε ζητήματα της ιστοσελίδας μέσω του <githubLink>GitHub</githubLink>,
     ή βρείτε μας στην κοινότητα μας στο <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Πώς μπορώ να ενημερώνομαι;
 about-nav-why-common-voice = Γιατί;
 about-nav-how-it-works = Πώς;
 about-nav-partners = Συνεργάτες
 about-nav-get-involved = Συμμετοχή
 about-nav-how-it-works-2 = Πώς λειτουργεί το Common Voice;
+about-nav-playbook = Μάθετε πώς να λάβετε μέρος
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Τι είναι μια γλώσσα του Common Voice;
 
 ## How do I add a language
 
 about-playbook-how-add-language = Πώς προσθέτω μια γλώσσα;
+about-playbook-how-add-language-content-1 = Αρχικά, ελέγξτε εάν η γλώσσα σας <languageLink>υπάρχει ήδη</languageLink>. Εάν δεν υπάρχει, θα πρέπει να <strong>μεταφράσετε τον ιστότοπο και να συγκεντρώσετε προτάσεις</strong>.
 
 ## How does localization work
 
@@ -1140,6 +1146,7 @@ sc-submit-guidelines = Παρακαλούμε ελέγξτε τις <howToLink>�
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Αδυναμία προσθήκης γλώσσας
+sc-add-lang-sec-label = Προσθέστε μια γλώσσα στην οποία θέλετε να συνεισφέρετε
 sc-add-lang-sec-button = Προσθήκη γλώσσας
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
