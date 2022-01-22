@@ -523,10 +523,13 @@ about-get-involved-text-2 =
     <matrixLink>Matrix-ზე</matrixLink> საერთო მიმოწერაში.
 about-stay-in-touch = როგორ დავრჩე კავშირზე?
 about-stay-in-touch-text-1 = <emailFragment>გაწევრიანდით</emailFragment> ჩვენი ელფოსტის ჯგუფში და გაეცანით, როგორ შეგიძლიათ მიიღოთ მონაწილეობა კამპანიებში, ღონისძიებებსა და ახალი შესაძლებლობების დანერგვაში Common Voice-ისთვის.
+about-stay-in-touch-text-2 = შეგიძლიათ შეხვდეთ Mozilla-ს წარმომადგენლებს სხვადასხვა ენებიდან <discourseLink>Discourse-ზე</discourseLink> შემოერთებით, ცალკეულ საკითხზე სასაუბროდ ან <matrixLink>Matrix-ზე</matrixLink> შემოსვლით, სწრაფი რჩევების მისაღებად.
 about-nav-why-common-voice = რატომ?
 about-nav-how-it-works = როგორ?
 about-nav-partners = თანამშრომლობა
 about-nav-get-involved = შემოგვიერთდით
+about-nav-how-it-works-2 = როგორ მუშაობს Common Voice?
+about-nav-playbook = როგორ უნდა მიიღოთ მონაწილეობა
 
 ## Community Playbook Content
 ## What is a language
