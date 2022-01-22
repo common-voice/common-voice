@@ -522,6 +522,7 @@ about-get-involved-text-2 =
     ფორუმებზე, მოგვახსენეთ ხარვეზები <githubLink>GitHub-ზე</githubLink> ან შემოგვიერთდით
     <matrixLink>Matrix-ზე</matrixLink> საერთო მიმოწერაში.
 about-stay-in-touch = როგორ დავრჩე კავშირზე?
+about-stay-in-touch-text-1 = <emailFragment>გაწევრიანდით</emailFragment> ჩვენი ელფოსტის ჯგუფში და გაეცანით, როგორ შეგიძლიათ მიიღოთ მონაწილეობა კამპანიებში, ღონისძიებებსა და ახალი შესაძლებლობების დანერგვაში Common Voice-ისთვის.
 about-nav-why-common-voice = რატომ?
 about-nav-how-it-works = როგორ?
 about-nav-partners = თანამშრომლობა
