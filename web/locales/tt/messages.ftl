@@ -36,7 +36,6 @@ ba = Башкорт
 bas = Басаа
 be = Беларус
 bg = Болгар
-bm = Бамбара
 bn = Бенгал
 br = Бретон
 bs = Босния
@@ -68,6 +67,7 @@ fy-NL = Фриз
 ga-IE = Ирланд
 gl = Галисия
 gn = Гуарани
+gom = Конкани (Гоа)
 ha = Хауса
 he = Яһүд
 hi = Һинди
@@ -93,6 +93,7 @@ ki = Кикуйу
 kk = Казакъ
 km = Кхмер
 kmr = Курманҗи көрд
+knn = Конкани (Деванагари)
 ko = Корей
 kpv = Коми-зырян
 kw = Корн
@@ -460,15 +461,13 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Нигә Common Voice?
-about-subtitle = Common Voice — Mozilla'ның җиһазларга чын кешеләр ничек сөйләшә икәнен өйрәтүгә багышланган инициативасының бер өлеше. Common Voice мәгълүмат тупланмасыннан тыш, без Deep Speech дип аталучы ачык кодлы сөйләм тану системасы өстендә дә эшлибез.
-about-header-description =
-    Бу проектның икесе дә — цифралаштырылган сөйләмдә булган тигезсезлекне төзәтүне максат итеп тоткан тырышлыкларыбызның бер өлеше. Сөйләм тану технологияләре электрон җиһазларыбызга кешечә бер йөз бирә, әмма аларны булдыру өчен, җитештерүчеләргә ифрат күп аудиоязмалар кирәк. Әлеге вакытта андый мәгълүматның күпчелек өлеше кыйммәт һәм проприетар.
-    Без аудиомәгълүматның ирекле һәм һәркем өчен дә ачык булуын, һәм кешеләрнең төрлелеген чагылдыруын телибез. Бергәләшеп без сөйләм тану технологияләрен һәркем өчен дә яхшырак итә алабыз.
-about-header-description-2 =
-    Бу проект — цифралаштырылган сөйләмдә булган тигезсезлекне төзәтүне максат итеп тоткан тырышлыгыбыз. Сөйләм тану технологияләре электрон җиһазларыбызга кешечә бер йөз бирә, әмма аларны булдыру өчен, җитештерүчеләргә ифрат күп аудиоязмалар кирәк. Әлеге вакытта андый мәгълүматның күпчелек өлеше кыйммәт һәм проприетар.
-    Без аудиомәгълүматның ирекле һәм һәркем өчен дә ачык булуын, һәм кешеләрнең төрлелеген чагылдыруын телибез. Бергәләшеп без сөйләм тану технологияләрен һәркем өчен дә яхшырак итә алабыз.
-how-does-it-work-title = Ул ничек эшли?
 how-does-it-work-text = Без ачык аудиоязма тупланмасын төзибез. Тавышыгызны иганә итегез, башка кешеләр яздырган аудиоязмаларның төгәллеген тикшерегз, бу мәгълүмат тупланмасын һәркем өчен дә яхшыртыгыз.
+
+## How does it work section
+
+about-localization-title = Вебсайтны тәрҗемә итү
+about-localization-subtitle = Вебсайт тексты бу телгә тәрҗемә ителә.
+about-sentence-collection-title = Җөмләләр тупланмасы
 about-speak = Сөйләү
 about-speak-text = Катнашучылар, иганә ителгән җөмләләрне укып, аудиоязмалар булдыралар.
 about-listen-queue = Тыңлау чираты
@@ -500,6 +499,39 @@ about-nav-why-common-voice = Нигә?
 about-nav-how-it-works = Ничек?
 about-nav-partners = Партнёрлар
 about-nav-get-involved = Катнашу
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+about-playbook-how-add-language = Телне ничек өсти алам?
+
+## How does localization work
+
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Җөмләләрне өсти алам?
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = Вакыйгалар
+about-playbook-how-grow-language-content-4 = Социаль челтәр
+about-playbook-how-grow-language-content-6 = Партнёрлык һәм челтәрләр
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Ясалма интеллект
 mycroft-description = Mycroft — дөньяда беренче ачык чыганак кодлы ассистент. Ул һәркайда да эшли ала — өстәл өсте компьютерында, автомобильдә яки Raspberry Pi'да.
@@ -745,7 +777,7 @@ report-success = Шикаять җибәрелде
 
 ## Goals
 
-streaks = көн рәттән
+streaks = Көн рәттән
 days =
     { $count ->
         [one] Көн
@@ -1108,6 +1140,12 @@ sc-review-form-source = Чыганак: { $sentenceSource }
 sc-review-form-button-reject = Кире кагу
 sc-review-form-button-skip = Калдырып тору
 sc-review-form-button-approve = Раслау
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = Тикшерүне тәмамлау
 sc-review-form-review-failure = Тикшерүне саклап булмады. Зинһар соңрак янә тырышып карагыз.
