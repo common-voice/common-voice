@@ -534,10 +534,12 @@ about-nav-how-it-works = Hoe?
 about-nav-partners = Partners
 about-nav-get-involved = Meiwurkje
 about-nav-how-it-works-2 = Hoe wurket Common Voice?
+about-nav-playbook = Lês hoe’t jo dielnimme kinne
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Wat is in taal op Common Voice?
 
 ## How do I add a language
 
@@ -562,6 +564,12 @@ about-nav-how-it-works-2 = Hoe wurket Common Voice?
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-2 = Us bestjoer is basearre op de pylders fan:
+about-playbook-how-project-governance-content-3 = Privacy, feilichheid en transparânsje.
+about-playbook-how-project-governance-content-4 = Dielnimming fan en beslútfoarming troch de mienskip.
+about-playbook-how-project-governance-content-5 = Wearde en erkenning.
+about-playbook-how-project-governance-content-6 = Underlinge ferantwurdlikheid.
+about-playbook-how-project-governance-content-7 = <governanceLink>Mear ynfo oer hoe’t wy bestjoerd wurde</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence
 mycroft-description =
