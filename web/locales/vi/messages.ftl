@@ -36,7 +36,6 @@ ba = Bashkir
 bas = Basaa
 be = Belarut
 bg = Bulgaria
-bm = Bambara
 bn = Bengal
 br = Breton
 bs = Bosnian
@@ -466,15 +465,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Tại sao là Common Voice?
-about-subtitle = Common Voice là một phần trong sáng kiến của Mozilla nhằm giúp đào tạo cho máy móc cách người thật nói. Ngoài bộ dữ liệu Common Voice, chúng tôi còn xây dựng một công cụ nhận dạng giọng nói nguồn mở có tên Deep Speech.
-about-header-description =
-    Cả hai dự án này là một phần trong những nỗ lực của chúng tôi để thu hẹp sự phân chia lời nói kỹ thuật số. Các công nghệ nhận dạng giọng nói mang lại kích thước con người cho các thiết bị của chúng tôi, nhưng các nhà phát triển cần một lượng dữ liệu giọng nói khổng lồ để xây dựng chúng. Hiện nay, hầu hết các dữ liệu đó là đắt tiền và độc quyền.
-    Chúng tôi muốn cung cấp dữ liệu giọng nói một cách tự do và công khai và đảm bảo dữ liệu thể hiện sự đa dạng của người thực. Cùng nhau chúng ta có thể làm cho nhận dạng giọng nói tốt hơn cho mọi người.
-about-header-description-2 =
-    Dự án này là một nỗ lực để thu hẹp khoảng cách giữa giọng nói kỹ thuật số. Các công nghệ nhận dạng giọng nói mang lại kích thước con người cho các thiết bị của chúng tôi, nhưng các nhà phát triển cần một lượng dữ liệu giọng nói khổng lồ để xây dựng chúng. Hiện nay, hầu hết các dữ liệu đó là đắt tiền và độc quyền.
-    Chúng tôi muốn cung cấp dữ liệu giọng nói một cách tự do và công khai và đảm bảo dữ liệu thể hiện sự đa dạng của người thực. Cùng nhau chúng ta có thể làm cho nhận dạng giọng nói tốt hơn cho mọi người.
-how-does-it-work-title = Nó hoạt động như thế nào
+how-does-it-work-title-v2 = Common Voice hoạt động như thế nào?
 how-does-it-work-text = Chúng tôi có thể cung cấp một bộ dữ liệu nguồn mở của các giọng nói. Quyên góp giọng nói của bạn, xác thực tính chính xác clip của người khác, làm cho bộ dữ liệu tốt hơn cho mọi người.
+
+## How does it work section
+
+about-language-req-subtitle = Ai đó yêu cầu một ngôn ngữ được thêm vào.
+about-localization-title = Bản địa hóa trang web
+about-localization-subtitle = Văn bản trang web được dịch sang ngôn ngữ đó.
+about-sentence-collection-title = Bộ sưu tập câu
+about-sentence-collection-subtitle = Các câu được thu thập để mọi người đọc thành tiếng.
+about-new-lang-title = Ra mắt ngôn ngữ mới
+about-new-lang-subtitle = Chúng tôi khởi chạy trang web Common Voice bằng ngôn ngữ này.
+about-voice-contrib-title = Đóng góp bằng giọng nói
+about-voice-contrib-subtitle = Mọi người đến và đóng góp tiếng nói của mình.
+about-voice-validation-title = Xác thực giọng nói
+about-voice-validation-subtitle = Những người khác xác nhận các đoạn thoại đó.
+about-dataset-release-title = Tập dữ liệu phát hành
+about-dataset-release-subtitle = Chúng tôi phát hành tập dữ liệu 3 tháng một lần.
+about-subscribe-text = Bạn muốn giữ liên lạc với Common Voice?
 about-speak = Nói
 about-speak-text = Người đóng góp ghi lại clip bằng giọng nói bằng cách đọc từ ngân hàng các câu được tặng.
 about-listen-queue = Nghe-Xếp hàng
@@ -503,10 +512,54 @@ about-get-involved-text-2 =
     Tuyệt quá! Hãy liên lạc qua email hoặc diễn đàn <discourseLink>Discourse</discourseLink>,
     gửi các vấn đề về trang web thông qua <githubLink>GitHub</githubLink>,
     hoặc tham gia trò chuyện cộng đồng trên <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Làm cách nào để giữ liên lạc?
+about-stay-in-touch-text-1 = <emailFragment>Đăng ký</emailFragment> vào danh sách gửi thư của chúng tôi để tìm hiểu cách bạn có thể tham gia vào các chiến dịch, sự kiện và các tính năng đồng thiết kế trên Common Voice.
+about-stay-in-touch-text-2 = Bạn có thể gặp gỡ những người khác trong cộng đồng ngôn ngữ Mozilla bằng cách tham gia <discourseLink>Discourse</discourseLink> để trò chuyện theo chủ đề hoặc <matrixLink>Matrix</matrixLink> để được tư vấn nhanh.
 about-nav-why-common-voice = Tại sao ?
 about-nav-how-it-works = Làm thế nào ?
 about-nav-partners = Đối tác
 about-nav-get-involved = Tham gia đóng góp
+about-nav-how-it-works-2 = Common Voice hoạt động như thế nào?
+about-nav-playbook = Tìm hiểu cách tham gia
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Ngôn ngữ trên Common Voice là gì?
+about-playbook-what-is-language-content-2 = Chúng tôi muốn các mô hình bài phát biểu hiểu rõ hơn về nhiều loại diễn giả khác nhau. Để điều này xảy ra, một tập dữ liệu thoại phải đại diện cho nhiều người khác nhau.
+
+## How do I add a language
+
+about-playbook-how-add-language = Làm cách nào để thêm ngôn ngữ?
+about-playbook-how-add-language-content-1 = Trước tiên, hãy kiểm tra xem ngôn ngữ của bạn <languageLink>đã tồn tại chưa</languageLink>. Nếu không, bạn cần phải <strong>dịch trang web và thu thập các câu</strong>.
+
+## How does localization work
+
+about-playbook-how-localize = Bản địa hóa trang web hoạt động như thế nào?
+about-playbook-how-localize-content-1 = Bản dịch của trang web Common Voice ở trên <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Tạo tài khoản</pontoonAccountLink> nếu bạn chưa có. Sau đó, chọn ngôn ngữ của <strong>(‘Nhóm’)</strong> bạn rồi chọn dự án, <pontoonCvLink>Common Voice</pontoonCvLink>. Sẽ có các tập tin để dịch. Nhấp vào một từ, sau đó nó hiển thị các từ bằng tiếng Anh và một hộp để dịch chúng.
+about-playbook-how-localize-content-3 = Bản dịch từ tiếng Anh nhưng bạn có thể xem <strong>đề xuất</strong> bằng các ngôn ngữ khác. Nhấp vào biểu tượng <strong>Hồ sơ</strong>, sau đó nhấp vào liên kết <strong>Cài đặt</strong> và thêm bất kỳ ngôn ngữ nào bạn nói. Ở góc dưới cùng bên phải sẽ là danh sách các bản dịch được gọi là <strong>Ngôn ngữ</strong>. Bản dịch sẽ hiển thị trên trang web sau một ngày.
+about-playbook-how-localize-content-4 = Trang web đã sẵn sàng để khởi chạy khi hoàn thành 75%.
+about-playbook-how-localize-content-5 = Xem giải thích bằng video của chúng tôi để giúp đỡ
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Làm cách nào để thêm câu?
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Trí tuệ nhân tạo
 mycroft-description =
