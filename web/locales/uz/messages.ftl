@@ -465,10 +465,23 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Nima uchun Common Voice?
+how-does-it-work-title-v2 = Common Voice qanday ishlaydi?
 how-does-it-work-text = Ovozlarning ochiq manbali ma'lumotlar to'plamini jalb qilmoqdamiz. Ovozingizni bering, boshqalarning kliplari aniqligini tekshiring, ma'lumotlar bazasini hamma uchun yaxshilang.
 
 ## How does it work section
 
+about-language-req-subtitle = Kimdir til qoʻshishni soʻraydi.
+about-localization-title = Sayt lokalizatsiyasi
+about-localization-subtitle = Sayt matni shu tilga tarjima qilinadi.
+about-sentence-collection-title = Jumlalar toʻplami
+about-sentence-collection-subtitle = Odamlar ovoz chiqarib oʻqishlari uchun jumlalar yigʻiladi.
+about-new-lang-title = Yangi tilni ishga tushirish
+about-new-lang-subtitle = Biz ushbu tilda Common Voice saytini ishga tushiramiz.
+about-voice-contrib-title = Ovozingiz bilan yordam qiling
+about-voice-contrib-subtitle = Odamlar kelib, oʻz ovozlari bilan yordam berishadi.
+about-voice-validation-title = Ovozni tekshirish
+about-voice-validation-subtitle = Boshqa odamlar bu ovozli kliplarni tasdiqlaydi.
+about-dataset-release-title = Maʼlumotlar toʻplami relizi
 about-speak = Oʻqish
 about-speak-text = Ishtirokchilar maʼlumotlar omboridagi jumlalarni oʻqib, ovozli tasmaga yozishadi.
 about-listen-queue = Eshitish navbati
