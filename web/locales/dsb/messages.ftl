@@ -521,23 +521,31 @@ about-get-involved-text-2 =
     Wjelicnje! Stajśo se z nami pśez e-mail abo we forumach <discourseLink>Discourse</discourseLink>  do zwiska, sćelśo sedłowe problemy pśez <githubLink>Github</githubLink> abo woglědajśo se k nam w chaśe zgromaźeństwa <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Kak mógu w zwisku wóstaś?
 about-stay-in-touch-text-1 = <emailFragment>Registrěrujśo se</emailFragment> za našu rozesćełańsku lisćinu, aby zgónił, kak móžośo se na kampanjach, tšojenjach a kodesignych funkcijach na Common Voice wobźěliś.
+about-stay-in-touch-text-2 = Pśzamkniśo se <discourseLink>Discourse</discourseLink> za temowe rozgrona abo <matrixLink>Matrix</matrixLink> za malsnu radu, aby se z drugimi luźami w rěcnych zgromaźeństwach Mozilla zmakał.
 about-nav-why-common-voice = Cogodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnarje
 about-nav-get-involved = Cyńśo sobu
+about-nav-how-it-works-2 = Kak Common Voice funkcioněrujo?
+about-nav-playbook = Zgóńśo, kak móžośo se wobźěliś
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Co jo rěc na Common Voice?
+about-playbook-what-is-language-content-2 = Comy, až rěcne modele lěpjej mógu, wjele rozdźělnych powědarjow rozměś. Aby to jo móžne, musy datowa sajźba wjele rozdźělnych luźi reprezentěrowaś.
+about-playbook-what-is-language-content-3 = Někotare rěcy maju enormne rozdźělne w gramatice, wokabularje a wugronje. Togodla buźomy w lěśe 2022 <ctaLink>„warianty“ zawjedowaś</ctaLink. To zgromaźeństwam móžnosć dawa, swóje rěcy we wětšej datowej sajźbje rozeznawaś.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Kak mógu rěc pśidaś?
 
 ## How does localization work
 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Kak mógu sady pśidaś?
 
 ## How to record quality
 
