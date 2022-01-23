@@ -528,6 +528,7 @@ about-playbook-how-add-language-content-1 = Αρχικά, ελέγξτε εάν 
 ## How does localization work
 
 about-playbook-how-localize-content-1 = Η μετάφραση του ιστοτόπου του Common Voice γίνεται στο <strong>Pontoon</strong>.
+about-playbook-how-localize-content-5 = Δείτε το ενημερωτικό βίντεο για βοήθεια
 
 ## How to add sentences
 
@@ -535,6 +536,7 @@ about-playbook-how-add-sentences = Πώς προσθέτω προτάσεις;
 
 ## How to record quality
 
+about-playbook-how-record-content-5 = <accuracyLink>Δείτε περισσότερα σχετικά με τα κριτήρια ακρίβειας.</accuracyLink>
 
 ## How to grow language
 
