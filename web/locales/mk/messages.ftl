@@ -151,10 +151,14 @@ ta = Тамил
 te = Телугу
 tg = Таџекистански
 th = Таи
+ti = Тигринија
+tig = Тигре
+tk = Туркменски
 tl = Тагалог
 tr = Турски
 tt = Татарски
 tw = Тви
+ty = Тахитски
 uby = Ујбих
 udm = Удмурт
 ug = Ујгурски
@@ -164,6 +168,7 @@ uz = Узбекистански
 vec = Венециски
 vi = Виетнамски
 vot = Гласно
+yi = Јидиш
 yo = Јоруба
 yue = Кантонски
 zh-CN = Кинески (Кина)
@@ -324,8 +329,12 @@ profile-form-native-language =
     .label = Мајчин јазик
 profile-form-additional-language =
     .label = Дополнителен јазик
+profile-form-language =
+    .label = Јазик
 profile-form-accent =
     .label = Акцент
+profile-form-custom-accent-help-text =
+    .label = Како би го опишале вашиот акцент?
 profile-form-age =
     .label = Возраст
 profile-form-gender-2 =
@@ -371,6 +380,8 @@ skip-submission-description = Откако ќе кликнете на „Пот�
 skip-submission-note = Забелешка: Вие сепак ќе треба да изберете помеѓу Зборување или Слушање за да го промените типот на придонес.
 off = Исклучен
 on = Вклучен
+help-accent = Ви треба помош со акцентот?
+help-accent-explanation = Вашиот акцент е начинот на кој ги изговарате зборовите. Тоа може да се обликува според местото каде сте живееле, кои други јазици ги зборувате и многу други фактори. Овде можете да ги споделите сите информации што сметате дека се релевантни.
 
 ## Profile - Email
 
@@ -458,10 +469,15 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Зошто Common Voice?
+how-does-it-work-title-v2 = Како функционира Common Voice?
 how-does-it-work-text = Собираме голем број гласови за да создадеме база на податоци објавена како слободен софтвер. Донирајте го вашиот глас, потврдете ја точноста на клиповите на другите луѓе, направете ја базата на податоци подобра за секого.
 
 ## How does it work section
 
+about-localization-subtitle = Текстот на веб-страницата е преведен на тој јазик.
+about-sentence-collection-title = Збирка на реченици
+about-sentence-collection-subtitle = Се собираат реченици за луѓето да ги читаат на глас.
+about-subscribe-text = Сакате да останете во контакт со Common Voice?
 about-speak = Зборувај
 about-speak-text = Придонесувачите снимаат гласовни снимки читајќи од збирка на донирани реченици.
 about-listen-queue = Ред за слушање
@@ -490,14 +506,17 @@ about-get-involved-text-2 =
     Одлично! Контактирајте нè преку е-пошта или <discourseLink>Дискурс</discourseLink>
     форуми, пријавете ги проблемите на <githubLink>GitHub</githubLink>, или придружете се на дискусијата во
     заедница <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Како да останам во контакт?
 about-nav-why-common-voice = Зошто?
 about-nav-how-it-works = Како?
 about-nav-partners = Партнери
 about-nav-get-involved = Приклучете се
+about-nav-how-it-works-2 = Како функционира Common Voice?
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Што е јазик на Common Voice?
 
 ## How do I add a language
 
@@ -508,6 +527,7 @@ about-playbook-how-add-language = Како да додадам јазик?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Како да додадам реченици?
 
 ## How to record quality
 
@@ -998,48 +1018,90 @@ sc-header-rejected = Одбиени реченици
 sc-header-my = Моите реченици
 sc-header-statistics = Статистики
 sc-header-profile = Профил
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Пријавете грешки
+sc-footer-translate = Преведи ја оваа страница
+sc-footer-report-copyright = Пријавете проблеми со авторските права
+sc-footer-privacy = Приватност
+sc-footer-terms = Услови
+sc-footer-cookies = Колачиња
+sc-login-signup-button = Најава / Регистрација
+sc-logout-button = Одјавете се
 
 ## HOME
 
+sc-home-review-title = Прегледајте реченици
 
 ## HOW-TO
 
+sc-howto-cite-title = Како да се цитира
+sc-howto-review-title = Прегледајте реченици
+sc-howto-review-criteria-1 = Реченицата мора да биде правилно напишана.
+sc-howto-review-criteria-2 = Реченицата мора да биде граматички точна.
+sc-howto-review-criteria-4 = Ако реченицата ги исполнува критериумите, кликнете на копчето „Одобри“.
 
 ## MY SENTENCES
 
+sc-my-title = Моите реченици
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Извор:  { $source }
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = Статистики
 
 ## ADD
 
+sc-submit-err-select-lang = Ве молиме изберете јазик.
+sc-submit-err-add-sentences = Ве молиме додадете реченици.
+sc-submit-err-add-source = Ве молиме додадете извор.
+sc-submit-select-language =
+    .labelText = Изберете јазик
+sc-submit-button =
+    .submitText = Поднеси
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Додај Јазик
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Потврди
 
 ## LANGUAGE INFO
 
 
 ## LOGIN
 
+sc-login-err-try-again = Обиди се повторно.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профил: { $username }
+sc-personal-your-languages = Вашите јазици:
+sc-personal-remove-button = отстрани
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-1 = Реченицата мора да биде правилно напишана.
+sc-criteria-item-2 = Реченицата мора да биде граматички точна.
 
 ## REVIEW
 
+sc-review-form-button-skip = Прескокни
+sc-review-form-button-approve = Одобри
 
 ## SETTINGS
 
+sc-settings-title = Поставки
+sc-validation-no-symbols = Реченицата не треба да содржи симболи
+sc-validation-no-abbreviations = Реченицата не треба да содржи кратенки
 
 # [/SentenceCollector]
 
