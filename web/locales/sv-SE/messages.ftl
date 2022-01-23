@@ -555,19 +555,35 @@ about-playbook-how-add-language-content-4 = Du kan <scLinkAdd>lägga till ett li
 about-playbook-how-localize = Hur fungerar översättning av webbplatsen?
 about-playbook-how-localize-content-1 = Översättning av Common Voice-webbplatsen sker på <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Skapa ett konto</pontoonAccountLink> om du inte har ett. Välj sedan ditt språk <strong>(‘Team’)</strong> och välj sedan projektet, <pontoonCvLink>Common Voice</pontoonCvLink>. Det kommer att finnas filer att översätta. Klicka på en, så visas ord på engelska och en ruta för att översätta dem.
+about-playbook-how-localize-content-3 = Översättningen är från engelska, men du kan se <strong>Förslag</strong> på andra språk. Klicka på ikonen <strong>Profil</strong>, sedan på länken <strong>Inställningar</strong> och lägg till alla språk du talar. I det nedre högra hörnet finns en lista med översättningar som heter <strong>Språk</strong>. Översättningar visas på webbplatsen efter en dag.
+about-playbook-how-localize-content-4 = Webbplatsen är redo att lanseras när den är 75% klar.
+about-playbook-how-localize-content-5 = Se vår videoförklaring för att hjälpa dig
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Hur lägger jag till meningar?
+about-playbook-how-add-sentences-content-1 = <strong>Meningsinsamlaren</strong> är ett verktyg för att samla in och validera meningar som är allmän egendom. Du måste <scAccountLink>skapa ett konto</scAccountLink>. Lägg sedan till ditt språk i din <strong>profil</strong>. Du kan <strong>Lägga till</strong> meningar eller <strong>Granska</strong> tidigare tillagda meningar.
+about-playbook-how-add-sentences-content-2 = Meningar måste granskas och accepteras av två personer för att inkluderas i Common Voice. Du skapar riktlinjer för ditt språk <languageGuidelinesLink>här</languageGuidelinesLink>. Meningar måste vara <licenseLink>allmänna egendom</licenseLink> och kortare än 15 ord. Du kan be ägaren av en text att göra den till <waiverLink>CC0 med hjälp av vår dispensprocess</waiverLink> och skicka till oss på commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Du kan använda <scraperLink>Meningsutdragaren</scraperLink> för att utnyttja korta meningar från Wikipedia.
+about-playbook-how-add-sentences-content-4 = Meningar som har validerats exporteras på onsdagar och är tillgängliga efter nästa release.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Hur spelar jag in ett röstklipp med hög kvalitet?
+about-playbook-how-record-content-1 = Tala med din vanliga röst! Sättet du talar på är välkommet här - vi vill ha din accent som den är, och vi vill ha din vanliga volym, stil och intonation.
+about-playbook-how-record-content-2 = Undvik för mycket bakgrundsljud – det ska vara lätt att höra dig.
+about-playbook-how-record-content-3 = Läs meningen noga - missa inte, ändra eller lägg till ord.
+about-playbook-how-record-content-4 = Se till att plattformen spelar in innan du börjar prata och att den endast stannar när du är klar.
+about-playbook-how-record-content-5 = <accuracyLink>Se mer om noggrannhetskriterier.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = Hur kan vi effektivt utveckla ett språk på Common Voice?
+about-playbook-how-grow-language-content-1 = Genom att skapa möjligheter för en mångfald människor att bidra till Common Voice säkerställer vi att datamängden betjänar så många människor som möjligt. Vi har skapat resurser och mallar som du kan använda!
 about-playbook-how-grow-language-content-2 = Evenemang
+about-playbook-how-grow-language-content-3 = Du kan anordna evenemang för att hjälpa människor att bidra. Det är lättare än du tror. Du kan göra det online med ett videokonferensverktyg eller personligen om det är säkert. <eventTemplate>Kolla in våra mallar och resurser för att köra evenemang</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sociala medier
+about-playbook-how-grow-language-content-5 = Du kan använda sociala medier för att få ut budskapet. Dela inlägg som förklarar varför det är viktigt och ta kontakt med andra som pratar om frågor som språkrättigheter, röst-AI eller teknisk fördom. Se fler råd om att <campaignLink>köra en social kampanj, inklusive innehåll som du kan återanvända</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerskap och nätverk
 
 ## How to validate
