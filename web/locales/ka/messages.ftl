@@ -577,6 +577,9 @@ about-playbook-how-record-content-5 = <accuracyLink>იხილეთ ვრც
 
 about-playbook-how-grow-language = როგორ შევუწყოთ ხელი ენის ზრდას Common Voice-ზე?
 about-playbook-how-grow-language-content-1 = პირობების შექმნა, განსხვავებული ხალხის მოსაზიდად მოხალისეობისთვის არის წინაპირობა, რომ Common Voice იქნება მორგებული კიდევ უფრო მეტ ადამიანზე. ჩვენ შექმნილი გვაქვს მასალები და ნიმუშები, რომლებიც ამ საქმისთვის გამოგადგებათ!
+about-playbook-how-grow-language-content-2 = ღონისძიებები
+about-playbook-how-grow-language-content-3 = შეგიძლიათ მოაწყოთ ღონისძიება მეტი მოხალისის მოსაწვევად. გაცილებით ადვილია, ვიდრე გგონიათ. შეგიძლიათ ინტერნეტითაც, კონფერენციის ჩასატარებელი საშუალებებით ან პირადი შეხვედრებითაც, თუ უსაფრთხო იქნება. <eventTemplate>გადახედეთ ჩვენს ნიმუშებსა და მასალებს ღონისძიებების შესახებ</eventTemplate>.
+about-playbook-how-grow-language-content-4 = სოცქსელები
 
 ## How to validate
 
