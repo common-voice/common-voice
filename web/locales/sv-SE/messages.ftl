@@ -428,7 +428,7 @@ faq-why-important-a =
 faq-how-get-q = Hur kan jag hämta hem Common Voice-data?
 faq-how-get-a = Common Voice-datamängd finns tillgänglig för nedladdning under licensen <licenseLink>CC0</licenseLink> på <datasetLink>vår sida för datamängder</datasetLink>. Du kan också ladda ner flera andra publikt tillgängliga datamängder från samma sida.
 faq-when-release2-q = När kommer ni släppa Common Voice-data på andra språk?
-faq-when-release2-a = Flerspråkig version av Common Voice-datamängd genomgår för närvarande paketering och rengöring av gemenskapen. Om du vill hjälpa oss att ta med Common Voice till andra språk, gå till <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> för att lägga till nya meningar i datamängden och Mozilla <pontoonLink>Pontoon</pontoonLink> för att översätta webbplatsen. Nya språk läggs till i Common Voice när 5000 godkända meningar har samlats in.
+faq-when-release2-a = Flerspråkig version av Common Voice-datamängd genomgår för närvarande paketering och rengöring av gemenskapen. Om du vill hjälpa oss att ta med Common Voice till andra språk, gå till <sentenceCollectorLink>verktyg för meningsinsamling</sentenceCollectorLink> för att lägga till nya meningar i datamängden och Mozilla <pontoonLink>Pontoon</pontoonLink> för att översätta webbplatsen. Nya språk läggs till i Common Voice när 5000 godkända meningar har samlats in.
 faq-why-mission-q = Varför är Common Voice en del av Mozillas uppdrag?
 faq-why-mission-a = Mozilla är dedikerat till att hålla webben öppen och tillgänglig för alla. För att göra det behöver vi stärka webbskapare genom projekt som Common Voice. Eftersom röstteknologi växer utöver nischprogram, tycker vi att de måste vara tillgängliga för alla användare. Det innebär en investering i fler språk och anpassning efter fler accenter och större demografi när man bygger och testar röstteknik. Common Voice är en offentlig resurs tillgänglig för alla och Mozilla-team och utvecklare runt om i världen använder den redan i sina egna projekt.
 faq-what-cv-and-deepspeech-q = Vad är skillnaden mellan Common Voice och Deep Speech?
@@ -547,9 +547,14 @@ about-playbook-what-is-language-content-3 = Vissa språk har enorm variation i g
 about-playbook-how-add-language = Hur lägger jag till ett språk?
 about-playbook-how-add-language-content-1 = Kontrollera först om ditt språk <languageLink>redan finns</languageLink>. Om det inte gör det måste du <strong>översätta webbplatsen och samla meningar</strong>.
 about-playbook-how-add-language-content-2 = <strong>För att översätta webbplatsen</strong> - <translateVideo>konfigurera</translateVideo <pontoonLink>Pontoon</pontoonLink>. Pontoon har många språk, men om det inte har ditt kan du <pontoonRequestLink>begära det</pontoonRequestLink>. Be sedan <repoLink>via GitHub</repoLink> att få Common Voice-projektet tillgängligt för språket. Se mer om <localizationFragment>webbplatsöversättning</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>För att samla in meningar</strong> - <scVideo>konfigurera</scVideo> <scLink>meningsinsamlaren</scLink>.
+about-playbook-how-add-language-content-4 = Du kan <scLinkAdd>lägga till ett litet antal</scLinkAdd> meningar här eller så kan du göra <bulkImportDocsLink>massimport</bulkImportDocsLink> via en Github-förfrågan. Kom ihåg att meningar måste vara <licenseLink>CC0 (eller allmän egendom)</licenseLink> eller så kan du skriva din egen. Se mer om <scFragment>meningsinsamling</scFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Hur fungerar översättning av webbplatsen?
+about-playbook-how-localize-content-1 = Översättning av Common Voice-webbplatsen sker på <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Skapa ett konto</pontoonAccountLink> om du inte har ett. Välj sedan ditt språk <strong>(‘Team’)</strong> och välj sedan projektet, <pontoonCvLink>Common Voice</pontoonCvLink>. Det kommer att finnas filer att översätta. Klicka på en, så visas ord på engelska och en ruta för att översätta dem.
 
 ## How to add sentences
 
