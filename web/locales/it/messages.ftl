@@ -524,8 +524,14 @@ about-nav-get-involved = Collabora
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Come vengono prese le decisioni relative al progetto?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice esiste grazie a una comunità eterogenea di attivisti, linguisti, data scientist, accademici e sviluppatori software di tutto il mondo. Il progetto è gestito da Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = La nostra governance si basa sui seguenti pilastri:
 about-playbook-how-project-governance-content-3 = Privacy, sicurezza e trasparenza.
+about-playbook-how-project-governance-content-4 = Partecipazione della comunità nel processo decisionale.
+about-playbook-how-project-governance-content-5 = Valore e riconoscimento.
 about-playbook-how-project-governance-content-6 = Responsabilità reciproca.
+about-playbook-how-project-governance-content-7 = <governanceLink>Ulteriori informazioni sui criteri di gestione del progetto.</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligenza artificiale
 mycroft-description = Mycroft è il primo assistente digitale open source al mondo. Puoi installare Mycroft ovunque: computer fissi, automobili e perfino Raspberry Pi.
