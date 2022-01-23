@@ -527,7 +527,7 @@ about-nav-how-it-works = Kak?
 about-nav-partners = Partnerojo
 about-nav-get-involved = Čińće sobu
 about-nav-how-it-works-2 = Kak Common Voice funguje?
-about-nav-playbook = Zhońće, ka móžeće so wobdźělić
+about-nav-playbook = Zhońće, kak móžeće so wobdźělić
 
 ## Community Playbook Content
 ## What is a language
