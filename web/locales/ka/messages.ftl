@@ -602,6 +602,13 @@ about-playbook-how-access-dataset-content-2 = თუ ეძებთ ხელ�
 ## How are decisions made
 
 about-playbook-how-project-governance = ვინ იღებს გადაწყვეტილებებს ამ პროექტში?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice შეიქმნა მრავალი განსხვავებული ხალხის ძალისხმევით, მათ შორის აქტივისტების, ენათმეცნიერების, მონაცემთა მეცნიერების, სწავლულებისა და პროგრამული უზრუნველყოფის სპეციალისტების მიერ, მთელი მსოფლიოდან. პროექტს ხელმძღვანელობს Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = ჩვენი მმართველობის დასაყრდენია:
+about-playbook-how-project-governance-content-3 = პირადულობა, უსაფრთხოება და გამჭვირვალობა.
+about-playbook-how-project-governance-content-4 = ხალხის ჩართულობა გადაწყვეტილებების მიღებაში.
+about-playbook-how-project-governance-content-5 = დაფასება და აღიარება.
+about-playbook-how-project-governance-content-6 = ურთიერთპასუხისმგებლობა.
+about-playbook-how-project-governance-content-7 = <governanceLink>იხილეთ ვრცლად, რას როგორ ვმართავთ</governanceLink>
 mycroft-title = Mycroft AI
 mycroft-subtitle = ხელოვნური ინტელექტი
 mycroft-description =
@@ -1455,6 +1462,13 @@ sc-review-form-source = წყარო: { $sentenceSource }
 sc-review-form-button-reject = უარყოფა
 sc-review-form-button-skip = გამოტოვება
 sc-review-form-button-approve = მიღება
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = დ
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = ა
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = ტ
+sc-review-form-keyboard-usage-custom = შეგიძლიათ ღილაკებიც გამოიყენოთ სამართავად: { sc-review-form-button-approve-shortcut } არის დასამოწმებლად, { sc-review-form-button-reject-shortcut } – უარსაყოფად და { sc-review-form-button-skip-shortcut } – გამოსატოვებლად.
 sc-review-form-button-submit =
     .submitText = შემოწმების დასრულება
 # Variables:
