@@ -585,18 +585,28 @@ about-playbook-how-grow-language-content-3 = Du kan anordna evenemang för att h
 about-playbook-how-grow-language-content-4 = Sociala medier
 about-playbook-how-grow-language-content-5 = Du kan använda sociala medier för att få ut budskapet. Dela inlägg som förklarar varför det är viktigt och ta kontakt med andra som pratar om frågor som språkrättigheter, röst-AI eller teknisk fördom. Se fler råd om att <campaignLink>köra en social kampanj, inklusive innehåll som du kan återanvända</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerskap och nätverk
+about-playbook-how-grow-language-content-7 = Hitta andra som bryr sig. Det kan vara universitet, språkskolor, opinionsbildningsgrupper eller datavetenskapsgemenskaper. Nå ut och förklara tydligt hur de kan hjälpa och varför. <outreachTemplates>Se våra mallar för uppsökande e-postmeddelanden</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Var kreativ!</strong> Din språkgemenskap kommer att vara unik och det här är bara några sätt att komma igång.
 
 ## How to validate
 
 about-playbook-how-validate = Hur vet jag om jag ska godkänna ett röstklipp?
+about-playbook-how-validate-content-1 = Om du kunde <strong>höra dem</strong> och <strong>förstå dem</strong> är det vanligtvis <strong>bäst att godkänna</strong>.
+about-playbook-how-validate-content-2 = <strong>Avvisa inte klipp där högtalaren "har en brytning" som skiljer sig från din egen</strong> - detta är viktigt för att röstigenkänning ska fungera bättre för alla.
+about-playbook-how-validate-content-3 = Om du tror att uttalet gör det <strong>omöjligt att förstå</strong> eller om det finns <strong>mycket bakgrundsljud</strong> eller om det finns <strong>andra människor som också talar</strong>, då ska du avvisa klippet. <accuracyLink>Se mer information i våra noggrannhetskriterier</accuracyLink>.
+about-playbook-how-validate-content-4 = Om ett klipp avvisas av två personer släpps det i en annan delmängd av datamängden.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Hur kommer jag åt och använder datamängden?
+about-playbook-how-access-dataset-content-1 = Du kan gå till <datasetsPage>datamängdsidan</datasetsPage>, välja version och språk du vill ha och ladda ner den! Filerna har <metadataLink>associerad metadata</metadataLink>, såsom demografisk information och valideringsdata. Du måste ange en e-postadress för att ladda ner datamängden.
+about-playbook-how-access-dataset-content-2 = Om du letar efter verktyg för att bygga ASR-modeller kan du ansluta till andra människor i communityn <discourseLink>på Discourse</discourseLink>.
 
 ## How are decisions made
 
 about-playbook-how-project-governance = Hur fattas projektbeslut?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice är möjliggjord av en mångsidig gemenskap av aktivister, lingvister, datavetare, akademiker och mjukvaruingenjörer från hela världen. Projektet leds av Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Ledarskapet för vårt projekt bygger på pelarna:
 about-playbook-how-project-governance-content-3 = Sekretess, säkerhet och transparens.
 about-playbook-how-project-governance-content-4 = Gemenskapens deltagande och beslutsfattande.
 about-playbook-how-project-governance-content-5 = Värde och erkännande.
@@ -1383,6 +1393,8 @@ sc-review-form-button-skip = Hoppa över
 sc-review-form-button-approve = Godkänn
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = J
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = H
 sc-review-form-keyboard-usage-custom = Du kan också använda kortkommandon: { sc-review-form-button-approve-shortcut } för att godkänna, { sc-review-form-button-reject-shortcut } för att avvisa, { sc-review-form-button-skip-shortcut } för att hoppa över
