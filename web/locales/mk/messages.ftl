@@ -36,9 +36,9 @@ ba = Башкир
 bas = Басаа
 be = Белоруски
 bg = Бугарски
-bm = Бамбара
 bn = Бенгали
 br = Бретонски
+bs = Босански
 bxr = Бурјат
 ca = Каталонски
 cak = Какчикелски
@@ -79,6 +79,7 @@ hyw = Ерменски западен
 ia = Интерлингва
 id = Индонезиски
 ie = Интерлингве
+ig = Игбо
 is = Исландски
 it = Италјански
 izh = Изоријан
@@ -89,6 +90,7 @@ kab = Кабилски
 kbd = Кабаријан
 ki = Кикују
 kk = Казакстански
+km = Камбоџиски
 kmr = Курмански курдски
 ko = Корејски
 kpv = Коми-Зиријан
@@ -456,15 +458,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Зошто Common Voice?
-about-subtitle = Common Voice е дел од иницијативата на Mozilla да им помогне на машините да научат како реалните луѓе зборуваат. Покрај податоците од Common Voice, ние градиме и модел за препознавање на говор објавен како слободен софтвер, наречен Deep Speech.
-about-header-description =
-    Двата проекта се дел од нашите напори да се надмине поделбата на дигиталниот говор. Технологиите за препознавање глас донесуваат човечка димензија кај нашите уреди, но на развивачите им треба огромна количина на говорни податоци за да ги изградат. Во моментов, повеќето од овие податоци се скапи и заштитени.
-    Ние сакаме да ги направиме говорни податоци слободни и јавно достапни, и да се осигураме дека податоците претставуваат разновидност на реалните луѓе. Заедно можеме да го направиме препознавањето на гласот подобро за секого.
-about-header-description-2 =
-    Овој проект е дел од нашиот напор да се надмине поделбата на дигиталниот говор. Технологиите за препознавање на глас донесуваат човечка димензија кај нашите уреди, но на програмерите им треба огромна количина на говорни податоци за да ги изградат. Во моментов, повеќето од овие податоци се скапи и заштитени.
-    Ние сакаме да ги направиме говорни податоци слободни и јавно достапни, и да се осигураме дека податоците претставуваат разновидност на реалните луѓе. Заедно можеме да го направиме препознавањето на гласот подобро за секого.
-how-does-it-work-title = Како работи?
 how-does-it-work-text = Собираме голем број гласови за да создадеме база на податоци објавена како слободен софтвер. Донирајте го вашиот глас, потврдете ја точноста на клиповите на другите луѓе, направете ја базата на податоци подобра за секого.
+
+## How does it work section
+
 about-speak = Зборувај
 about-speak-text = Придонесувачите снимаат гласовни снимки читајќи од збирка на донирани реченици.
 about-listen-queue = Ред за слушање
@@ -497,6 +494,35 @@ about-nav-why-common-voice = Зошто?
 about-nav-how-it-works = Како?
 about-nav-partners = Партнери
 about-nav-get-involved = Приклучете се
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+about-playbook-how-add-language = Како да додадам јазик?
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Вештачка интелигенција
 mycroft-description =
@@ -874,10 +900,16 @@ profile-form-delete = Избриши профил
 
 ## Profile Download
 
+download-info = Кажете ни што сакате да преземете:
 download-profile-title = Профил
+download-profile-size = Неколку бајти
 download-recordings-title = Снимки
+download-recordings-size = Обично мегабајти
 download-size = Големина
 download-request-button = Преземи
+download-request-title = { $created }
+download-request-refresh-button = Освежи
+download-request-metadata-link = Текст на реченицата
 
 ## Landing
 
@@ -951,3 +983,63 @@ contribution-just-unsure-title = Само несигурни?
 contribution-just-unsure-description = Ако наидете на нешто што овие упатства не го опфаќаат, ве молиме гласајте според вашата најдобра проценка. Ако навистина не можете да одлучите, користете го копчето за прескокнување и продолжете со следната снимка.
 see-more = <chevron> </chevron> Види повеќе
 see-less = <chevron> </chevron> Види помалку
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Дома
+sc-header-add = Додај
+sc-header-review = Прегледај
+sc-header-rejected = Одбиени реченици
+sc-header-my = Моите реченици
+sc-header-statistics = Статистики
+sc-header-profile = Профил
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
