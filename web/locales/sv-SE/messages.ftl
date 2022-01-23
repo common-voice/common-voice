@@ -546,6 +546,7 @@ about-playbook-what-is-language-content-3 = Vissa språk har enorm variation i g
 
 about-playbook-how-add-language = Hur lägger jag till ett språk?
 about-playbook-how-add-language-content-1 = Kontrollera först om ditt språk <languageLink>redan finns</languageLink>. Om det inte gör det måste du <strong>översätta webbplatsen och samla meningar</strong>.
+about-playbook-how-add-language-content-2 = <strong>För att översätta webbplatsen</strong> - <translateVideo>konfigurera</translateVideo <pontoonLink>Pontoon</pontoonLink>. Pontoon har många språk, men om det inte har ditt kan du <pontoonRequestLink>begära det</pontoonRequestLink>. Be sedan <repoLink>via GitHub</repoLink> att få Common Voice-projektet tillgängligt för språket. Se mer om <localizationFragment>webbplatsöversättning</localizationFragment>.
 
 ## How does localization work
 
