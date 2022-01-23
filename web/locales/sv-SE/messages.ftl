@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Ja, skicka mig e-postmeddelanden. Jag skulle vilja hålla mig informerad om projektet Common Voice.
-stayintouch = Vi hos Mozilla bygger en gemenskap kring röstteknik. Vi skulle vilja hålla kontakten med dig om uppdateringar, nya datakällor och höra mer om hur du använder dessa data.
+stayintouch = Vi på Mozilla bygger en gemenskap kring röstteknik. Vi skulle vilja hålla kontakten med dig om uppdateringar, nya datakällor och höra mer om hur du använder dessa data.
 privacy-info = Vi lovar att hantera din information med försiktighet. Läs mer i vår <privacyLink>sekretesspolicy</ privacyLink>.
 return-to-cv = Återgå till Common Voice
 email-input =
@@ -263,7 +263,7 @@ email-subscription-title-new = Registrera dig för Common Voice nyhetsbrev, mål
 
 benefits = Fördelar
 rich-data = Gör dina inskickade data så utförliga som möjligt genom att bidra med anonym demografi. Vi anonymiserar all demografisk data innan den blir publik.
-improve-audio = Profilinformation förbättrar ljuddatan som används för att göra träningen av röstigenkänning bättre.
+improve-audio = Profilinformation förbättrar ljuddata som används för att göra träningen av röstigenkänning bättre.
 keep-track = Håll reda på dina framsteg och mätvärden för flera språk.
 compare-progress = Se hur dina framsteg går mot andra som bidrar över hela världen.
 view-goals = Se dina personliga framsteg och projektmål.
@@ -273,7 +273,7 @@ join-newsletter = Du kan, om du vill, gå med i vår e-postlista för uppdaterin
 
 whats-public = Vad är offentligt?
 email-not-public = Vi kommer inte göra din e-post offentlig.
-recordings-and-locale-public = Antalet inspelningar och vilka språk du bidrar till kommer att vara offentligt.
+recordings-and-locale-public = Antalet inspelningar och vilka språk du bidrar till kommer att vara offentliga.
 username-optin-public = Du kan välja att göra ditt användarnamn offentligt eller anonymt.
 demographic-deidentified-clarity-2 = Valfritt inskickade demografiska data (t.ex. ålder, kön, språk och accent) kommer aldrig att offentliggöras i din profil och kommer inte att länkas till ditt konto i datamängden. Enskilda ljudklipp kommer att associeras med demografiska data i syfte att göra en mer exakt analys - till exempel kan en forskare inrikta sig på en träningsmodell till ett specifikt demografiskt segment.
 username-email-not-demographic = Ditt användarnamn och e-post kommer inte att kopplas till den publicerade datan.
@@ -474,6 +474,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Varför Common Voice?
+about-header-description-v2 =
+    <p>Common Voice är en allmänt tillgänglig röstdatamängd, som drivs av röster från frivilliga bidragsgivare runt om i världen. Människor som vill bygga röstapplikationer kan använda datamängden för att träna maskininlärningsmodeller.</p>
+    <p>För närvarande ägs de flesta röstdatamängder av företag, vilket hämmar innovation. Röstdatamängder överrepresenterar också vita, engelsktalande män. Detta betyder att röstaktiverad teknik inte fungerar alls för många språk och där den fungerar kanske den inte fungerar lika bra för alla. Vi vill ändra på det genom att mobilisera människor överallt för att dela sin röst.</p>
 how-does-it-work-title-v2 = Hur fungerar Common Voice?
 how-does-it-work-text = Vi crowdsourcar en röstdatamängd med öppen källkod. Donera din röst, bekräfta noggrannheten i inspelningar från andra och gör datamängden bättre för alla.
 
@@ -522,6 +525,8 @@ about-get-involved-text-2 =
     forum, skicka webbplatsfrågor via <githubLink>GitHub</githubLink> eller gå med i
     <matrixLink>Matrix</matrixLink> communitychatt.
 about-stay-in-touch = Hur håller jag kontakten?
+about-stay-in-touch-text-1 = <emailFragment>Anmäl dig</emailFragment> till vår e-postlista för att lära dig hur du kan ta del av kampanjer, evenemang och samarbetsdesignfunktioner på Common Voice.
+about-stay-in-touch-text-2 = Du kan träffa andra i Mozillas språkgemenskaper genom att gå med i <discourseLink>Discourse</discourseLink> för aktuella samtal eller <matrixLink>Matrix</matrixLink> för snabba råd.
 about-nav-why-common-voice = Varför ?
 about-nav-how-it-works = Hur ?
 about-nav-partners = Partners
@@ -533,10 +538,14 @@ about-nav-playbook = Lär dig hur du deltar
 ## What is a language
 
 about-playbook-what-is-language = Vad är ett språk på Common Voice?
+about-playbook-what-is-language-content-1 = Det finns många sätt att tänka på språk. För taligenkänningsmodeller föreslår Common Voice att man fokuserar på "ömsesidig förståelse", eller "kan talare av detta språk mestadels förstå varandra om de försöker?"
+about-playbook-what-is-language-content-2 = Vi vill att talmodeller ska bli bättre på att förstå en mängd olika talare. För att detta ska hända måste en röstdatamängd representera många olika personer.
+about-playbook-what-is-language-content-3 = Vissa språk har enorm variation i grammatik, ordförråd och uttal. Av denna anledning <ctaLink>introducerar vi "Varianter"</ctaLink 2022. Detta ger gemenskaper ett sätt att särskilja sina språk inom den större datamängden.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Hur lägger jag till ett språk?
+about-playbook-how-add-language-content-1 = Kontrollera först om ditt språk <languageLink>redan finns</languageLink>. Om det inte gör det måste du <strong>översätta webbplatsen och samla meningar</strong>.
 
 ## How does localization work
 
