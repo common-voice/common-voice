@@ -482,6 +482,8 @@ about-voice-contrib-subtitle = Odamlar kelib, oʻz ovozlari bilan yordam berisha
 about-voice-validation-title = Ovozni tekshirish
 about-voice-validation-subtitle = Boshqa odamlar bu ovozli kliplarni tasdiqlaydi.
 about-dataset-release-title = Maʼlumotlar toʻplami relizi
+about-dataset-release-subtitle = Biz maʼlumotlar toʻplamini har 3 oyda chiqaramiz.
+about-subscribe-text = Common Voice bilan aloqada boʻlishni xohlaysizmi?
 about-speak = Oʻqish
 about-speak-text = Ishtirokchilar maʼlumotlar omboridagi jumlalarni oʻqib, ovozli tasmaga yozishadi.
 about-listen-queue = Eshitish navbati
@@ -510,6 +512,7 @@ about-get-involved-text-2 =
     Ajoyib! Elektron pochta yoki <discourseLink> Muhokama </discourseLink> orqali bogʻlaning
     forumlarda qatnashish, sayt muammolarini <githubLink> GitHub </githubLink> orqali yuborish yoki qoʻshilish
     <matrixLink> Matrix </matrixLink> jamoaviy suhbat.
+about-stay-in-touch = Qanday qilib aloqada qolishim mumkin?
 about-nav-why-common-voice = Nega?
 about-nav-how-it-works = Qanday ?
 about-nav-partners = Hamkorlar
