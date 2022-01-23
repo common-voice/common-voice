@@ -566,6 +566,7 @@ about-playbook-how-add-sentences-content-4 = წინადადებებ�
 
 ## How to record quality
 
+about-playbook-how-record-quality = როგორ იქმნება სათანადო ხარისხის ჩანაწერი?
 
 ## How to grow language
 
