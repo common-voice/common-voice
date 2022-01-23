@@ -479,6 +479,20 @@ how-does-it-work-text = Wuměstnjamy datowu sajźbu głosow wótwórjonego žrě
 
 ## How does it work section
 
+about-language-req-subtitle = Něchten wó pśidawanje rěcy pšosy.
+about-localization-title = Lokalizacija websedłow
+about-localization-subtitle = Tekst websedła jo do teje rěcy pśełožony.
+about-sentence-collection-title = Zběrka sadow
+about-sentence-collection-subtitle = Sady se gramaźe, aby luźe je głosnje cytali.
+about-new-lang-title = Wózjawjenje noweje rěcy
+about-new-lang-subtitle = Wózjawjamy sedło Common Voice w toś tej rěcy.
+about-voice-contrib-title = Pśinosowanje ku głosam
+about-voice-contrib-subtitle = Luźe pśidu a pósćiwaju swóje głosy.
+about-voice-validation-title = Pśeglědanje głosow
+about-voice-validation-subtitle = Druge luźe toś te głosowe klipy pśeglěduju.
+about-dataset-release-title = Wózjawjenje datoweje sajźby
+about-dataset-release-subtitle = Wózjawjamy datowu sajźbu kužde 3 mjasece.
+about-subscribe-text = Cośo z Common Voice w zwisku wóstaś?
 about-speak = Powědaś
 about-speak-text = Sobustatkujuce cytaju z datoweje banki sadow a nagrawaju głosowe klipy.
 about-listen-queue = Słuchowy cakański rěd
@@ -505,6 +519,8 @@ about-get-involved = Cyńśo sobu
 about-get-involved-text-2 =
     Cośo pomagaś, Common Voice pólěpšyś?
     Wjelicnje! Stajśo se z nami pśez e-mail abo we forumach <discourseLink>Discourse</discourseLink>  do zwiska, sćelśo sedłowe problemy pśez <githubLink>Github</githubLink> abo woglědajśo se k nam w chaśe zgromaźeństwa <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Kak mógu w zwisku wóstaś?
+about-stay-in-touch-text-1 = <emailFragment>Registrěrujśo se</emailFragment> za našu rozesćełańsku lisćinu, aby zgónił, kak móžośo se na kampanjach, tšojenjach a kodesignych funkcijach na Common Voice wobźěliś.
 about-nav-why-common-voice = Cogodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnarje
