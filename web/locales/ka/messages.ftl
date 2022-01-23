@@ -596,9 +596,12 @@ about-playbook-how-validate-content-4 = თუ ჩანაწერს უა�
 ## How to access dataset
 
 about-playbook-how-access-dataset = როგორ გამოვიყენო მონაცემთა კრებული?
+about-playbook-how-access-dataset-content-1 = შეგიძლიათ გადახვიდეთ <datasetsPage>მონაცემთა კრებულის გვერდზე</datasetsPage>, აირჩიოთ ვერსია, მიუთითოთ სასურველი ენა (ენები) და ჩამოტვირთოთ! ფაილებს <metadataLink>დართული ექნება მონაცემები</metadataLink>, მათ შორის დემოგრაფიული ინფორმაცია და მოხალისეების შეფასებები. დაგჭირდებათ ელფოსტის შეყვანა, კრებულის ჩამოსატვირთად.
+about-playbook-how-access-dataset-content-2 = თუ ეძებთ ხელსაწყოებს ხმის ამომცნობი (ASR) მოდელის ასაგებად, შეგიძლიათ დაუკავშირდეთ სხვებს ჩვენს ერთობაში <discourseLink>Discourse-ზე</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = ვინ იღებს გადაწყვეტილებებს ამ პროექტში?
 mycroft-title = Mycroft AI
 mycroft-subtitle = ხელოვნური ინტელექტი
 mycroft-description =
