@@ -535,7 +535,7 @@ about-nav-playbook = Erfahren Sie, wie Sie mitmachen können
 about-playbook-what-is-language = Was ist eine Sprache bei Common Voice?
 about-playbook-what-is-language-content-1 = Es gibt viele Möglichkeiten, sich Sprache vorzustellen. Für die Zwecke von Spracherkennungsmodellen schlägt Common Voice vor, sich auf „gegenseitige Verständlichkeit“ zu konzentrieren oder „können Sprecher dieser Sprache einander meistens verstehen, wenn sie es versuchen?“.
 about-playbook-what-is-language-content-2 = Wir wollen, dass Sprachmodelle besser in der Lage sind, eine Vielzahl von Sprechern zu verstehen. Damit dies geschieht, muss ein Sprachdatensatz viele verschiedene Personen repräsentieren.
-about-playbook-what-is-language-content-3 = Einige Sprachen haben enorme Unterschiede in Grammatik, Vokabular und Aussprache. Aus diesem Grund führen wir 2022 <ctaLink>„Varianten“</ctaLink ein. Dies gibt Gemeinschaften eine Möglichkeit, ihre Sprachen innerhalb des größeren Datensatzes zu unterscheiden.
+about-playbook-what-is-language-content-3 = Einige Sprachen haben enorme Unterschiede in Grammatik, Vokabular und Aussprache. Aus diesem Grund führen wir 2022 <ctaLink>„Varianten“</ctaLink> ein. Dies gibt Gemeinschaften eine Möglichkeit, ihre Sprachen innerhalb des größeren Datensatzes zu unterscheiden.
 
 ## How do I add a language
 
