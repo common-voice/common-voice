@@ -36,7 +36,6 @@ ba = Baškiršćina
 bas = Basašćina
 be = Běłorušćina
 bg = Bułgaršćina
-bm = Bambaršćina, Bambara
 bn = Bengalšćina
 br = Bretońšćina
 bs = Bosnišćina
@@ -392,6 +391,7 @@ skip-submission-note = glědajśo: Musyśo hyšći mjazy Powědaś abo Słuchaś
 off = Wušaltowany
 on = Zašaltowany
 help-accent = Trjebaśo pomoc wó akcenśe?
+help-accent-explanation = Waš akcent jo nałog, kak słowa wugranjaśo. Jogo charakter wót togo wótwisujo, źož sćo był žywy, kótare druge rěcy powědaśo a wót wjele drugich faktorow. Móžośo wšykne informacije k wěsći daś, kótarež za relewantne  maśo.
 
 ## Profile - Email
 
@@ -474,15 +474,11 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Cogodla Common Voice?
-about-subtitle = Common Voice jo źěl iniciatiwy Mozilla, kótaraž ma mašiny wucyś, kak napšawdne luźe powědaju. Mimo datoweje sajźby Common Voice, wuwijamy program za powědańske spóznaśe wótwórjonego žrědła z mjenim Deep Speech.
-about-header-description =
-    Wobej projekta stej źěl našych procowanjow, aby prozny flak digitalnego powědanja pśemósćiłej. Technologije głosowego spóznaśa cłowjesku dimensiju na naše rědy pśinjasu, ale wuwijarje trjebaju wjelgickan wjele głosowych datow, aby se napórali. Tuchylu jo nejwěcej z toś tych datow droge a proprietarne.
-    Comy głosowe daty dermotnje a zjawnje k dispoziciji stajiś a zawěsćiś, až daty wšakorakosć napšawdnych luźi wótbłyšćuju. Gromaźe móžomy głosowe spóznaśe za kuždego pólěpšyś.
-about-header-description-2 =
-    Toś ten projekt jo procowanje, aby prozny flak digitalnego powědanja pśemósćiłej. Technologije głosowego spóznaśa cłowjesku dimensiju na naše rědy pśinjasu, ale wuwijarje trjebaju wjelgickan wjele głosowych datow, aby se napórali. Tuchylu jo nejwěcej z toś tych datow droge a proprietarne.
-    Comy głosowe daty dermotnje a zjawnje k dispoziciji stajiś a zawěsćiś, až daty wšakorakosć napšawdnych luźi wótbłyšćuju. Gromaźe móžomy głosowe spóznaśe za kuždego pólěpšyś.
-how-does-it-work-title = Kak to funkcioněrujo
+how-does-it-work-title-v2 = Kak Common Voice funkcioněrujo?
 how-does-it-work-text = Wuměstnjamy datowu sajźbu głosow wótwórjonego žrědła do dobrowólnikow. Pósććo swój głos, pśeglědujśo dokradnosć klipy drugich wósobow, pólěpšćo datowu sajźbu za kuždego.
+
+## How does it work section
+
 about-speak = Powědaś
 about-speak-text = Sobustatkujuce cytaju z datoweje banki sadow a nagrawaju głosowe klipy.
 about-listen-queue = Słuchowy cakański rěd
@@ -513,6 +509,34 @@ about-nav-why-common-voice = Cogodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnarje
 about-nav-get-involved = Cyńśo sobu
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kumštna inteligenca
 mycroft-description =
