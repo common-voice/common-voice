@@ -474,7 +474,20 @@ how-does-it-work-text = Estamos colhendo um conjunto de dados de voz de código 
 
 ## How does it work section
 
+about-language-req-subtitle = Alguém pede que um idioma seja adicionado.
 about-localization-title = Tradução do site
+about-localization-subtitle = O texto do site é traduzido para esse idioma.
+about-sentence-collection-title = Coleta de frases
+about-sentence-collection-subtitle = Frases são coletadas para que as pessoas leiam em voz alta.
+about-new-lang-title = Lançamento de novo idioma
+about-new-lang-subtitle = Lançamos o site do Common Voice neste idioma.
+about-voice-contrib-title = Contribuição de voz
+about-voice-contrib-subtitle = Pessoas vêm e contribuem com suas vozes.
+about-voice-validation-title = Validação de voz
+about-voice-validation-subtitle = Outras pessoas validam esses clipes de voz.
+about-dataset-release-title = Lançamento do conjunto de dados
+about-dataset-release-subtitle = Lançamos o conjunto de dados a cada 3 meses.
+about-subscribe-text = Quer ficar em contato com o Common Voice?
 about-speak = Falar
 about-speak-text = Os colaboradores gravam clipes de voz lendo a partir de um banco de frases doadas.
 about-listen-queue = Fila de audição
@@ -503,6 +516,7 @@ about-get-involved-text-2 =
     Fantástico! Entre em contato via email ou nos fóruns do <discourseLink>Discourse</discourseLink>,
     relate problemas no site via <githubLink>GitHub</githubLink>,
     ou participe de conversas da comunidade no <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Como ficar em contato?
 about-nav-why-common-voice = Por quê?
 about-nav-how-it-works = Como?
 about-nav-partners = Parceiros
