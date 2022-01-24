@@ -517,38 +517,54 @@ about-get-involved-text-2 =
     relate problemas no site via <githubLink>GitHub</githubLink>,
     ou participe de conversas da comunidade no <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Como ficar em contato?
+about-stay-in-touch-text-1 = <emailFragment>Inscreva-se</emailFragment> em nossa lista de emails para saber como você pode participar de campanhas, eventos e recursos de design cooperativo no Common Voice.
+about-stay-in-touch-text-2 = Você pode conhecer outras pessoas nas comunidades de idioma da Mozilla, juntando-se ao <discourseLink>Discourse</discourseLink> para conversas sobre tópicos, ou ao <matrixLink>Matrix</matrixLink> para aconselhamento rápido.
 about-nav-why-common-voice = Por quê?
 about-nav-how-it-works = Como?
 about-nav-partners = Parceiros
 about-nav-get-involved = Envolva-se
+about-nav-how-it-works-2 = Como funciona o Common Voice?
+about-nav-playbook = Saiba como participar
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = O que é um idioma no Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Como adicionar um idioma?
+about-playbook-how-add-language-content-1 = Primeiro, verifique se seu idioma <languageLink>já existe</languageLink>. Se não existir, você precisa <strong>traduzir o site e coletar frases</strong>.
 
 ## How does localization work
 
+about-playbook-how-localize-content-4 = O site fica pronto para ser lançado quando atingir 75% de conclusão.
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Como adicionar frases?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Como gravar um clipe de voz de alta qualidade?
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Eventos
+about-playbook-how-grow-language-content-4 = Mídia social
+about-playbook-how-grow-language-content-6 = Parcerias e redes
 
 ## How to validate
 
+about-playbook-how-validate = Como posso saber se devo aprovar um clipe de voz?
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Como acessar e usar o conjunto de dados?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Como são tomadas as decisões do projeto?
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Inteligência artificial
 mycroft-description =
