@@ -517,10 +517,15 @@ about-nav-why-common-voice = Nega?
 about-nav-how-it-works = Qanday ?
 about-nav-partners = Hamkorlar
 about-nav-get-involved = Hissa qo‘shish
+about-nav-how-it-works-2 = Common Voice qanday ishlaydi?
+about-nav-playbook = Qanday ishtirok etishni oʻrganing
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voiceda til nima?
+about-playbook-what-is-language-content-1 = Til haqida oʻylashning koʻplab usullari mavjud. Nutqni tanish modellarini yaratish maqsadida Common Voice “oʻzaro tushunarlilik” yoki yoki “bu tilda gaplashuvchilardan biri boshqasini tushunishi”ga eʼtibor qaratishni taklif qiladi.
+about-playbook-what-is-language-content-2 = Biz nutq modellarini turli xil soʻzlashuvchilarni yaxshiroq tushunishda yordam berishini xohlaymiz. Buning uchun juda koʻp odamlardan ovozli maʼlumotlar toʻplami kerak boʻladi.
 
 ## How do I add a language
 
