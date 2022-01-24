@@ -1046,6 +1046,10 @@ sc-howto-review-criteria-3 = Jumlani gapirish mumkin boʻlishi kerak.
 
 ## STATS
 
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Oxirgi yangilanish: { $lastUpdate }
+sc-stats-last-update-never = Oxirgi yangilanish: hech qachon
 
 ## ADD
 
