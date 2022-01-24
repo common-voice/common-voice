@@ -526,9 +526,14 @@ about-nav-playbook = Qanday ishtirok etishni oʻrganing
 about-playbook-what-is-language = Common Voiceda til nima?
 about-playbook-what-is-language-content-1 = Til haqida oʻylashning koʻplab usullari mavjud. Nutqni tanish modellarini yaratish maqsadida Common Voice “oʻzaro tushunarlilik” yoki yoki “bu tilda gaplashuvchilardan biri boshqasini tushunishi”ga eʼtibor qaratishni taklif qiladi.
 about-playbook-what-is-language-content-2 = Biz nutq modellarini turli xil soʻzlashuvchilarni yaxshiroq tushunishda yordam berishini xohlaymiz. Buning uchun juda koʻp odamlardan ovozli maʼlumotlar toʻplami kerak boʻladi.
+about-playbook-what-is-language-content-3 = Baʼzi tillar grammatika, lugʻat va talaffuzda juda katta farqqa ega. Shu sababli, biz 2022-yilda <ctaLink>“Variantlar”</ctaLinkni taqdim qilamiz. Bu hamjamiyatlarga kattaroq maʼlumotlar toʻplamida oʻz tillarini farqlash imkonini beradi.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Tilni qanday qoʻshishim mumkin?
+about-playbook-how-add-language-content-1 = Avval tilingiz <languageLink>allaqachon</languageLink> mavjudligini tekshiring. Yoʻq boʻlsa, <strong>saytni tarjima qilishingiz va jumlalarni toʻplashingiz</strong> kerak.
+about-playbook-how-add-language-content-2 = <strong>Saytni tarjima qilish</strong> uchun <pontoonLink>Pontoon</pontoonLink> saytida <translateVideo>sozlashingiz</translateVideo> kerak. Pontoonda juda koʻp tillar bor, u yerda ona tilingiz boʻlmasa, <pontoonRequestLink>soʻrov yuborishingiz mumkin</pontoonRequestLink>. Keyin <repoLink>GitHub</repoLink> orqali til uchun Common Voice loyihasini taqdim etishini soʻrang. <localizationFragment>sayt tarjimasi</localizationFragment> haqida batafsil.
+about-playbook-how-add-language-content-3 = <strong>Gaplarni toʻplash</strong> - <scLink>Jumlalarni yigʻgich</scLink>ni <scVideo>sozlang</scVideo>.
 
 ## How does localization work
 
