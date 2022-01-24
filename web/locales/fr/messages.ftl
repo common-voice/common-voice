@@ -477,6 +477,13 @@ how-does-it-work-text = Nous appelons à la participation collective pour consti
 ## How does it work section
 
 about-language-req-subtitle = Quelqu’un demande l’ajout d’une langue.
+about-localization-subtitle = Le site web est traduit dans cette langue.
+about-sentence-collection-title = Collecte de phrases
+about-new-lang-title = Lancement d’une nouvelle langue
+about-new-lang-subtitle = Nous lançons le site Common Voice dans cette langue.
+about-voice-validation-subtitle = D’autres personnes valident ces extraits vocaux.
+about-dataset-release-title = Publication des données
+about-dataset-release-subtitle = Nous publions les données tous les 3 mois.
 about-speak = Parler
 about-speak-text = Les contributeurs et contributrices lisent et enregistrent des échantillons vocaux issus d’une banque de phrases données par la communauté.
 about-listen-queue = File d’attente de l’écoute
@@ -509,22 +516,29 @@ about-nav-why-common-voice = Pourquoi ?
 about-nav-how-it-works = Comment ?
 about-nav-partners = Partenaires
 about-nav-get-involved = Participer
+about-nav-how-it-works-2 = Comment fonctionne Common Voice ?
+about-nav-playbook = Découvrez comment participer
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Qu’est-ce qu’une langue sur Common Voice ?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Comment ajouter une langue ?
 
 ## How does localization work
 
+about-playbook-how-localize-content-4 = Le site est prêt à être lancé lorsqu’il atteint 75 % d’achèvement.
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Comment ajouter des phrases ?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Comment enregistrer un extrait vocal de haute qualité ?
 
 ## How to grow language
 
