@@ -2,6 +2,7 @@ import * as React from 'react';
 import { useSelect } from 'downshift';
 import classNames from 'classnames';
 
+import { LocalizedGetAttribute } from '../locale-helpers';
 import { LOCALES, LOCALES_WITH_NAMES } from '../../services/localization';
 import VisuallyHidden from '../visually-hidden/visually-hidden';
 
@@ -41,42 +42,46 @@ const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
   const selectedLocale = selectedItem as LocaleWithName;
 
   // don't show select if we dont have multiple locales
-  if (LOCALES.length <= 1) {
+  if (items.length <= 1) {
     return null;
   }
 
   return (
-    <div
-      className={classNames('localization-select with-down-arrow', {
-        'localization-select--open': isOpen,
-      })}>
-      <VisuallyHidden>
-        <label {...getLabelProps()}>Choose a language/localization:</label>
-      </VisuallyHidden>
-      <button
-        aria-label={selectedLocale.name}
-        className="button"
-        type="button"
-        {...getToggleButtonProps()}>
-        {locale}
-      </button>
-      <div className="list-wrapper" {...getMenuProps()}>
-        <div className="triangle" />
-        <ul>
-          {items.map((item, index) => (
-            <li
-              key={item.code}
-              className={classNames({
-                selected: item.code === locale,
-                highlighted: index == highlightedIndex,
-              })}
-              {...getItemProps({ item })}>
-              {item.name}
-            </li>
-          ))}
-        </ul>
-      </div>
-    </div>
+    <LocalizedGetAttribute id="localization-select" attribute="label">
+      {(label: string) => (
+        <div
+          className={classNames('localization-select with-down-arrow', {
+            'localization-select--open': isOpen,
+          })}>
+          <VisuallyHidden>
+            <label {...getLabelProps()}>{label}</label>
+          </VisuallyHidden>
+          <button
+            aria-label={selectedLocale.name}
+            className="button"
+            type="button"
+            {...getToggleButtonProps()}>
+            {locale}
+          </button>
+          <div className="list-wrapper">
+            <div className="triangle" />
+            <ul {...getMenuProps()}>
+              {items.map((item, index) => (
+                <li
+                  key={item.code}
+                  className={classNames({
+                    selected: item.code === locale,
+                    highlighted: index == highlightedIndex,
+                  })}
+                  {...getItemProps({ item })}>
+                  {item.name}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      )}
+    </LocalizedGetAttribute>
   );
 };
 
