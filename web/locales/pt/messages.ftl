@@ -530,6 +530,7 @@ about-nav-playbook = Saiba como participar
 ## What is a language
 
 about-playbook-what-is-language = O que é um idioma no Common Voice?
+about-playbook-what-is-language-content-1 = Há muitas formas de pensar sobre idioma. Para fins de modelos de reconhecimento de fala, o Common Voice sugere focar na 'inteligibilidade mútua', ou 'a maioria dos falantes desse idioma consegue se entender, se tentar?'
 
 ## How do I add a language
 
