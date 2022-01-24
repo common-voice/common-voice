@@ -7,10 +7,16 @@
         width: 100%;
         height: 100%;
         position: absolute;
-        background: url('./globe.svg') no-repeat left 13px center;
+        background: url('./globe.svg') no-repeat;
+        background-position-x: left 13px;
+        background-position-y: center;
         background-size: 17px 16px;
         pointer-events: none;
         z-index: var(--top-z-index);
+
+        [dir='rtl'] & {
+            background-position-x: right 13px;
+        }
     }
 
     &.with-down-arrow::after {
@@ -73,6 +79,11 @@
             overflow-y: auto;
             background: var(--white);
             color: var(--near-black);
+
+            [dir='rtl'] & {
+                right: auto;
+                left: 0;
+            }
 
             & li {
                 border-bottom: 1px solid var(--light-grey);
