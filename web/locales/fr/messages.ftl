@@ -36,7 +36,6 @@ ba = Bashkir
 bas = Basaa
 be = Biélorusse
 bg = Bulgare
-bm = Bambara
 bn = Bengali
 br = Breton
 bs = Bosniaque
@@ -472,15 +471,12 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Pourquoi Common Voice ?
-about-subtitle = Common Voice fait partie de l’initiative de Mozilla aidant les machines à apprendre comment parlent les vraies personnes. Outre le jeu de données Common Voice, nous créons également un moteur de reconnaissance vocale open source appelé Deep Speech.
-about-header-description =
-    Ces deux projets font partie de nos efforts pour réduire la fracture de la parole numérisée. Les technologies de reconnaissance vocale apportent une dimension humaine à nos appareils, mais les développeurs et développeuses ont besoin d’une énorme quantité de données vocales pour les concevoir. Actuellement, la plupart de ces données sont coûteuses et propriétaires.
-    Nous voulons rendre les données vocales librement et publiquement accessibles, et nous assurer que les données représentent la diversité de personnes réelles. Ensemble, nous pouvons améliorer la reconnaissance vocale pour tous et toutes.
-about-header-description-2 =
-    Ce projet vise à réduire la fracture de la parole numérisée. Les technologies de reconnaissance vocale apportent une dimension humaine à nos appareils, mais les développeurs et développeuses ont besoin d’une énorme quantité de données vocales pour les concevoir. Actuellement, la plupart de ces données sont coûteuses et propriétaires.
-    Nous voulons rendre les données vocales librement et publiquement accessibles, et nous assurer que les données représentent la diversité de personnes réelles. Ensemble, nous pouvons améliorer la reconnaissance vocale pour tous et toutes.
-how-does-it-work-title = Mode d’emploi
+how-does-it-work-title-v2 = Comment fonctionne Common Voice ?
 how-does-it-work-text = Nous appelons à la participation collective pour constituer un jeu de données open source de voix. Donnez votre voix, validez la précision des échantillons d’autres personnes, améliorez le jeu de données pour tout le monde.
+
+## How does it work section
+
+about-language-req-subtitle = Quelqu’un demande l’ajout d’une langue.
 about-speak = Parler
 about-speak-text = Les contributeurs et contributrices lisent et enregistrent des échantillons vocaux issus d’une banque de phrases données par la communauté.
 about-listen-queue = File d’attente de l’écoute
@@ -513,6 +509,34 @@ about-nav-why-common-voice = Pourquoi ?
 about-nav-how-it-works = Comment ?
 about-nav-partners = Partenaires
 about-nav-get-involved = Participer
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligence artificielle
 mycroft-description =
