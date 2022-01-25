@@ -86,7 +86,7 @@
   "scripts": {
     "build": "webpack --mode=production",
     "dev": "webpack --mode=development --watch",
-    "test": "yarn build && jest --forceExit --config=jest.config.js",
+    "test": "jest --forceExit --config=jest.config.js",
     "test:watch": "jest --watch --config=jest.config.js"
   },
   "browserslist": [
