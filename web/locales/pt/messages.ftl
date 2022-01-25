@@ -578,7 +578,9 @@ about-playbook-how-grow-language-content-1 = Criar oportunidades para que uma di
 about-playbook-how-grow-language-content-2 = Eventos
 about-playbook-how-grow-language-content-3 = Você pode realizar eventos para ajudar as pessoas a contribuir. É mais fácil do que você imagina. Você pode fazer isso online com uma ferramenta de videoconferência, ou pessoalmente se for seguro. <eventTemplate>Confira nossos modelos e recursos para a realização de eventos</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Mídia social
+about-playbook-how-grow-language-content-5 = Você pode usar plataformas de mídia social para divulgar a mensagem. Compartilhe publicações que explicam por que isso é importante e entre em contato com outras pessoas para falar sobre questões como direitos de idioma, inteligência artificial de voz ou preconceito em tecnologia. Veja mais conselhos sobre <campaignLink>como realizar uma campanha em mídias sociais, incluindo conteúdo que você pode reutilizar</campaignLink>.
 about-playbook-how-grow-language-content-6 = Parcerias e redes
+about-playbook-how-grow-language-content-8 = <strong>Seja criativo!</strong> Sua comunidade de idioma será única. Essas são apenas algumas maneiras de começar.
 
 ## How to validate
 
