@@ -527,6 +527,7 @@ about-playbook-how-add-language-content-1 = Αρχικά, ελέγξτε εάν 
 
 ## How does localization work
 
+about-playbook-how-localize = Πώς λειτουργεί η μετάφραση του ιστοτόπου;
 about-playbook-how-localize-content-1 = Η μετάφραση του ιστοτόπου του Common Voice γίνεται στο <strong>Pontoon</strong>.
 about-playbook-how-localize-content-5 = Δείτε το ενημερωτικό βίντεο για βοήθεια
 
