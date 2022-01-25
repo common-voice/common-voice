@@ -335,6 +335,7 @@ profile-form-accent =
     .label = Акцент
 profile-form-custom-accent-help-text =
     .label = Како би го опишале вашиот акцент?
+profile-form-custom-accent-placeholder-2 = Почнете да пишувате за да го опишете вашиот акцент
 profile-form-age =
     .label = Возраст
 profile-form-gender-2 =
@@ -345,6 +346,7 @@ hidden = Скриено
 visible = Видливо
 native-language =
     .label = Мајчин јазик
+profile-form-add-accent = Додајте нов прилагоден акцент „{ $inputValue }“
 profile-form-submit-save = Сними
 profile-form-submit-saved = Снимено
 male = Maшки
@@ -1084,6 +1086,7 @@ sc-confirm-button-text = Потврди
 
 ## LOGIN
 
+sc-login-err-failed = Најавувањето не успеа
 sc-login-err-try-again = Обиди се повторно.
 
 ## PROFILE
@@ -1101,12 +1104,17 @@ sc-criteria-item-2 = Реченицата мора да биде грамати�
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Извор: { $sentenceSource }
+sc-review-form-button-reject = Отфрли
 sc-review-form-button-skip = Прескокни
 sc-review-form-button-approve = Одобри
 
 ## SETTINGS
 
 sc-settings-title = Поставки
+sc-validation-no-numbers = Реченицата не треба да содржи бројки
 sc-validation-no-symbols = Реченицата не треба да содржи симболи
 sc-validation-no-abbreviations = Реченицата не треба да содржи кратенки
 
