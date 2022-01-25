@@ -552,7 +552,7 @@ about-nav-playbook = Dyma sut mae cymryd rhan
 about-playbook-what-is-language = Beth yw iaith ar Common Voice?
 about-playbook-what-is-language-content-1 = Mae yna lawer o ffyrdd i feddwl am iaith. At ddibenion modelau adnabod lleferydd, mae Common Voice yn awgrymu canolbwyntio ar ‘gyd-ddealltwriaeth’, neu ‘a all siaradwyr yr iaith hon ddeall ei gilydd os ydynt yn ceisio gwneud hynny?’
 about-playbook-what-is-language-content-2 = Rydym am i fodelau lleferydd fod yn well am ddeall ystod amrywiol o siaradwyr. Er mwyn i hyn ddigwydd, rhaid i set ddata llais gynrychioli llawer o wahanol bobl.
-about-playbook-what-is-language-content-3 = Mae rhai ieithoedd yn amrywio'n fawr o ran gramadeg, geirfa ac ynganiad. Am y rheswm hwn, rydym yn <ctaLink>yn cyflwyno ‘Amrywiadau’</ctaLink yn 2022. Mae hyn yn rhoi ffordd i gymunedau wahaniaethu eu hieithoedd o fewn y set ddata fwy.
+about-playbook-what-is-language-content-3 = Mae rhai ieithoedd yn amrywio'n fawr o ran gramadeg, geirfa ac ynganiad. Am y rheswm hwn, rydym yn <ctaLink>yn cyflwyno ‘Amrywiadau’</ctaLink> yn 2022. Mae hyn yn rhoi ffordd i gymunedau wahaniaethu eu hieithoedd o fewn y set ddata fwy.
 
 ## How do I add a language
 

@@ -540,7 +540,7 @@ about-nav-playbook = Lär dig hur du deltar
 about-playbook-what-is-language = Vad är ett språk på Common Voice?
 about-playbook-what-is-language-content-1 = Det finns många sätt att tänka på språk. För taligenkänningsmodeller föreslår Common Voice att man fokuserar på "ömsesidig förståelse", eller "kan talare av detta språk mestadels förstå varandra om de försöker?"
 about-playbook-what-is-language-content-2 = Vi vill att talmodeller ska bli bättre på att förstå en mängd olika talare. För att detta ska hända måste en röstdatamängd representera många olika personer.
-about-playbook-what-is-language-content-3 = Vissa språk har enorm variation i grammatik, ordförråd och uttal. Av denna anledning <ctaLink>introducerar vi "Varianter"</ctaLink 2022. Detta ger gemenskaper ett sätt att särskilja sina språk inom den större datamängden.
+about-playbook-what-is-language-content-3 = Vissa språk har enorm variation i grammatik, ordförråd och uttal. Av denna anledning <ctaLink>introducerar vi "Varianter"</ctaLink> 2022. Detta ger gemenskaper ett sätt att särskilja sina språk inom den större datamängden.
 
 ## How do I add a language
 

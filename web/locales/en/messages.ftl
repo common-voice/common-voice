@@ -559,7 +559,7 @@ about-nav-playbook = Learn how to take part
 about-playbook-what-is-language = What is a language on Common Voice?
 about-playbook-what-is-language-content-1 = There are lots of ways to think about language. For the purposes of speech recognition models, Common Voice suggests focussing on ‘mutual intelligibility’, or ‘can speakers of this language mostly understand one another if they try to?’
 about-playbook-what-is-language-content-2 = We want speech models to be better at understanding a diverse range of speakers. For this to happen, a voice dataset must represent lots of different people.
-about-playbook-what-is-language-content-3 = Some languages have enormous variation in grammar, vocabulary and pronunciation. For this reason, we are <ctaLink>introducing ‘Variants’</ctaLink in 2022. This gives communities a way to distinguish their languages within the larger dataset.
+about-playbook-what-is-language-content-3 = Some languages have enormous variation in grammar, vocabulary and pronunciation. For this reason, we are <ctaLink>introducing ‘Variants’</ctaLink> in 2022. This gives communities a way to distinguish their languages within the larger dataset.
 
 ## How do I add a language
 about-playbook-how-add-language = How do I add a language?
