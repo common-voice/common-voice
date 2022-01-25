@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Пара, кучеда мондейне сёрма. Монь ули мялезе содафтомс «Common Voice» проектть кулянзон мархта.
-stayintouch = Минь Мозилласа тихтяма кялень технологиянь коряс ломанень пуромкс. Минь мяленьке, штоба тинь содалесть сембе од кулятнень, од лисмопрятнень, а тяфта жа  тяфтама даннайхнень тевс нолямаснон
+stayintouch = Минь Mozilla-са тихтяма кялень технологиянь коряс ломанень пуромкс. Минь мяленьке, штоба тинь содалесть сембе од кулятнень, од лисмопрятнень, а тяфта жа  тяфтама даннайхнень тевс нолямаснон
 privacy-info = Макстама вал цебярьста ваномс информациять мельгя. Сяда крхкаста ванк <privacyLink>Кяшф сёрматфксть эса</privacyLink>.
 return-to-cv = Меки «Common Voice-нди»
 email-input =
@@ -36,7 +36,6 @@ ba = Башкиронь кяль
 bas = Басань кяль
 be = Беларузонь кяль
 bg = Болгариянь кяль
-bm = Бамбарань кяль
 bn = Бенгалонь кяль
 br = Бретононь кяль
 bs = Босниянь кяль
@@ -450,8 +449,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Мес «Common Voice»-сь?
-about-subtitle = Common Voice-сь — тя Mozilla-ть ушетксонь пяльксоц, кона лезды тонафтомс машинатнень ломанькс корхтама.  Common Voice-нь даннайда башка минь тихтяма тев Deep Speech, кона шарьхкодьсы вайгяльть и кона лувови панжадокс и сембонди няевикс.
-how-does-it-work-title = Кода «Common Voice»-са моли тевсь?
+
+## How does it work section
+
 about-speak = Корхтамс
 about-speak-text = Лезксонь максыхне сёрмадсазь эсь вайгяльснон, лувомок максф валрисьмотнень
 about-listen-queue = Пинге кулхцондомс
@@ -477,6 +477,34 @@ about-nav-why-common-voice = Мес?
 about-nav-how-it-works = Кода ?
 about-nav-partners = Ялгат (партнерхт)
 about-nav-get-involved = Кундамс марстонь тевс
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Эсь тиф интеллект Mycroft
 mycroft-subtitle = Эсь тиф интеллект
 mycroft-description = Mycroft -- масторлангонь васенце вайгялень коряс лездыкс технология, кона панжада код мархта. Mycroft покоди эрь коса -- компьютерса, автомобильса али Raspberry Pi-са.
