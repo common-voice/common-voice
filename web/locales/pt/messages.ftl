@@ -599,6 +599,7 @@ about-playbook-how-project-governance-content-3 = Privacidade, segurança e tran
 about-playbook-how-project-governance-content-4 = Participação e tomada de decisões da comunidade.
 about-playbook-how-project-governance-content-5 = Valorização e reconhecimento.
 about-playbook-how-project-governance-content-6 = Responsabilidade mútua.
+about-playbook-how-project-governance-content-7 = <governanceLink>Mais informações sobre nossos critérios de gerenciamento do projeto</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Inteligência artificial
 mycroft-description =
