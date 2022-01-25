@@ -538,9 +538,13 @@ about-playbook-what-is-language-content-3 = Alguns idiomas têm uma enorme varia
 
 about-playbook-how-add-language = Como adicionar um idioma?
 about-playbook-how-add-language-content-1 = Primeiro, verifique se seu idioma <languageLink>já existe</languageLink>. Se não existir, você precisa <strong>traduzir o site e coletar frases</strong>.
+about-playbook-how-add-language-content-2 = <strong>Para traduzir o site</strong>, <translateVideo>cadastre-se</translateVideo>  no <pontoonLink>Pontoon</pontoonLink>. O Pontoon tem muitos idiomas, mas se não tiver o seu, você pode <pontoonRequestLink>solicitar</pontoonRequestLink>. Depois peça <repoLink>via GitHub</repoLink> para disponibilizar o projeto Common Voice no idioma. Saiba mais sobre <localizationFragment>tradução do site</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Para coletar frases</strong>, <scVideo>cadastre-se</scVideo> no <scLink>Coletor de frases</scLink>.
 
 ## How does localization work
 
+about-playbook-how-localize = Como funciona a tradução do site?
+about-playbook-how-localize-content-1 = A tradução do site Common Voice é feita no <strong>Pontoon</strong>.
 about-playbook-how-localize-content-4 = O site fica pronto para ser lançado quando atingir 75% de conclusão.
 
 ## How to add sentences
@@ -759,7 +763,7 @@ record-error-too-short = A gravação foi muito curta.
 record-error-too-long = A gravação foi muito longa
 record-error-too-quiet = A gravação ficou com volume muito baixa.
 record-cancel = Cancelar regravação
-record-instruction = { $actionType }<recordIcon></recordIcon>e então leia a sentença em voz alta
+record-instruction = { $actionType }<recordIcon></recordIcon> depois leia a frase em voz alta
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> quando terminar
 record-three-more-instruction = No três, vai!
 record-again-instruction = Ótimo! <recordIcon></recordIcon> Grave a próxima frase
@@ -776,7 +780,7 @@ record-abort-text = Se parar agora vai perder todo o seu progresso
 record-abort-submit = Enviar frases
 record-abort-continue = Finalizar gravação
 record-abort-delete = Sair e excluir frases
-listen-instruction = { $actionType } <playIcon></playIcon> as sentenças foram pronunciadas com precisão?
+listen-instruction = { $actionType }<playIcon></playIcon> a frase foi pronunciada com precisão?
 listen-again-instruction = Bom trabalho! <playIcon></playIcon> Ouça novamente quando estiver pronto
 listen-3rd-time-instruction = 2 prontas <playIcon></playIcon> , continue assim!
 listen-last-time-instruction = <playIcon></playIcon> Última!
@@ -1101,7 +1105,7 @@ sc-logout-button = Sair
 ## HOME
 
 sc-home-title = Boas-vindas ao coletor de frases do Common Voice
-sc-home-intro = O Coletor de Sentenças faz parte do <commonVoiceLink>Common Voice</commonVoiceLink>. Ele permite que colaboradores coletem e validem frases criadas pela comunidade. Você também pode usar esta ferramenta para importar e limpar frases de domínio público de pequeno a médio porte que você encontrou ou coletou. Todas as frases precisam ser de domínio público. Frases aprovadas são exportadas toda semana para o repositório do Common Voice e lançadas no site do Common Voice em cada nova implantação.
+sc-home-intro = O coletor de frases faz parte do <commonVoiceLink>Common Voice</commonVoiceLink>. Ele permite que colaboradores coletem e validem frases criadas pela comunidade. Você também pode usar esta ferramenta para importar e limpar frases de domínio público de pequeno a médio porte que você encontrou ou coletou. Todas as frases precisam ser de domínio público. Frases aprovadas são exportadas toda semana para o repositório do Common Voice e lançadas no site do Common Voice em cada nova implantação.
 sc-home-collect-title = Coletar frases
 sc-home-collect-text = Ajude-nos escrevendo ou coletando frases de domínio público.
 sc-home-review-title = Revisar frases
