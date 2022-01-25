@@ -531,6 +531,8 @@ about-nav-playbook = Saiba como participar
 
 about-playbook-what-is-language = O que é um idioma no Common Voice?
 about-playbook-what-is-language-content-1 = Há muitas formas de pensar sobre idioma. Para fins de modelos de reconhecimento de fala, o Common Voice sugere focar na 'inteligibilidade mútua', ou 'a maioria dos falantes desse idioma consegue se entender, se tentar?'
+about-playbook-what-is-language-content-2 = Queremos que os modelos de fala sejam melhores para entender uma gama diversificada de falantes. Para que isso aconteça, um conjunto de dados de voz deve representar muitas pessoas diferentes.
+about-playbook-what-is-language-content-3 = Alguns idiomas têm uma enorme variação de gramática, vocabulário e pronúncia. Por esse motivo, <ctaLink>lançamos ‘Variantes’</ctaLink> em 2022. Isso oferece às comunidades uma forma de distinguir seus idiomas no conjunto de dados mais amplo.
 
 ## How do I add a language
 
