@@ -14,6 +14,10 @@ module.exports = {
   globals: {
     'ts-jest': {
       tsconfig: 'tsconfig.test.json',
+      diagnostics: {
+        /* ignore add esModuleInterop warning */
+        ignoreCodes: [151001],
+      },
     },
   },
 };
