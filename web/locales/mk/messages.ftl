@@ -534,6 +534,7 @@ about-playbook-how-add-sentences = Како да додадам реченици
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Настани
 
 ## How to validate
 
@@ -543,6 +544,10 @@ about-playbook-how-add-sentences = Како да додадам реченици
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = Приватност, безбедност и транспарентност.
+about-playbook-how-project-governance-content-4 = Учество на заедницата и донесување одлуки.
+about-playbook-how-project-governance-content-5 = Вредност и признание.
+about-playbook-how-project-governance-content-6 = Взаемна одговорност.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Вештачка интелигенција
 mycroft-description =
@@ -926,6 +931,7 @@ download-profile-size = Неколку бајти
 download-recordings-title = Снимки
 download-recordings-size = Обично мегабајти
 download-size = Големина
+download-selected = Одбрано
 download-request-button = Преземи
 download-request-title = { $created }
 download-request-refresh-button = Освежи
@@ -1049,6 +1055,7 @@ sc-my-source = Извор:  { $source }
 
 ## REJECTED
 
+sc-rejected-title = Одбиени реченици
 
 ## STATS
 
