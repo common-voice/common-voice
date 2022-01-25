@@ -545,7 +545,10 @@ about-playbook-how-add-language-content-3 = <strong>Para coletar frases</strong>
 
 about-playbook-how-localize = Como funciona a tradução do site?
 about-playbook-how-localize-content-1 = A tradução do site Common Voice é feita no <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Crie uma conta</pontoonAccountLink> se ainda não tiver. Depois escolha seu idioma <strong>(‘Equipe’)</strong> e escolha o projeto, <pontoonCvLink>Common Voice</pontoonCvLink>. Haverá arquivos a ser traduzidos. Clique em um deles, então aparecem palavras em inglês e um campo para traduzir.
+about-playbook-how-localize-content-3 = A tradução é a partir do inglês, mas você pode ver <strong>sugestões</strong> em outros idiomas. Clique no ícone de <strong>perfil</strong>, depois no link <strong>Settings</strong> (configurações) e adicione os idiomas que você fala. No canto inferior direito há uma lista de traduções chamada <strong>Locales</strong>. As traduções aparecem no site após um dia.
 about-playbook-how-localize-content-4 = O site fica pronto para ser lançado quando atingir 75% de conclusão.
+about-playbook-how-localize-content-5 = Assista ao nosso vídeo explicativo
 
 ## How to add sentences
 
