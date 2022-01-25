@@ -593,6 +593,12 @@ about-playbook-how-access-dataset-content-2 = Se você está procurando ferramen
 ## How are decisions made
 
 about-playbook-how-project-governance = Como são tomadas as decisões do projeto?
+about-playbook-how-project-governance-content-1 = O Mozilla Common Voice é possível graças a uma comunidade diversificada de ativistas, linguistas, cientistas de dados, acadêmicos e engenheiros de software do mundo todo. O projeto é administrado pela Fundação Mozilla.
+about-playbook-how-project-governance-content-2 = Nossa governança está alicerçada nos pilares de:
+about-playbook-how-project-governance-content-3 = Privacidade, segurança e transparência.
+about-playbook-how-project-governance-content-4 = Participação e tomada de decisões da comunidade.
+about-playbook-how-project-governance-content-5 = Valorização e reconhecimento.
+about-playbook-how-project-governance-content-6 = Responsabilidade mútua.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Inteligência artificial
 mycroft-description =
