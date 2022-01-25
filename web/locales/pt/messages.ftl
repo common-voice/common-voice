@@ -469,6 +469,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Por que o Common Voice?
+about-header-description-v2 =
+    <p>O Common Voice é um conjunto de dados de voz disponível publicamente, alimentado pelas vozes de colaboradores voluntários do mundo todo. As pessoas que querem criar aplicativos de voz podem usar o conjunto de dados para treinar modelos de aprendizado de máquina.</p>
+    <p>Atualmente, a maioria dos conjuntos de dados de voz pertence a empresas, o que reprime a inovação. Esses conjuntos de dados de voz também representam demais homens brancos falantes de inglês. Significa que a tecnologia habilitada para voz simplesmente não funciona em muitos idiomas e, onde funciona, pode não desempenhar igualmente bem para todos. Queremos mudar isso, mobilizando pessoas em todos os lugares para compartilhar suas vozes.</p>
 how-does-it-work-title-v2 = Como funciona o Common Voice?
 how-does-it-work-text = Estamos colhendo um conjunto de dados de voz de código aberto através de colaboração pública. Doe sua voz, valide a correção dos clipes de outras pessoas, torne o conjunto de dados melhor para todos.
 
@@ -540,6 +543,7 @@ about-playbook-how-add-language = Como adicionar um idioma?
 about-playbook-how-add-language-content-1 = Primeiro, verifique se seu idioma <languageLink>já existe</languageLink>. Se não existir, você precisa <strong>traduzir o site e coletar frases</strong>.
 about-playbook-how-add-language-content-2 = <strong>Para traduzir o site</strong>, <translateVideo>cadastre-se</translateVideo>  no <pontoonLink>Pontoon</pontoonLink>. O Pontoon tem muitos idiomas, mas se não tiver o seu, você pode <pontoonRequestLink>solicitar</pontoonRequestLink>. Depois peça <repoLink>via GitHub</repoLink> para disponibilizar o projeto Common Voice no idioma. Saiba mais sobre <localizationFragment>tradução do site</localizationFragment>.
 about-playbook-how-add-language-content-3 = <strong>Para coletar frases</strong>, <scVideo>cadastre-se</scVideo> no <scLink>Coletor de frases</scLink>.
+about-playbook-how-add-language-content-4 = Você pode <scLinkAdd>adicionar pequenas quantidades</scLinkAdd> de frases aqui, ou pode fazer <bulkImportDocsLink>importação em massa</bulkImportDocsLink> por meio de uma requisição do Github. Lembre que as frases precisam ser <licenseLink>CC0 (ou de domínio público)</licenseLink>, ou você pode escrever suas próprias. Saiba mais sobre <scFragment>coleta de frases</scFragment>.
 
 ## How does localization work
 
