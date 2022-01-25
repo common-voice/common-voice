@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as cx from 'classnames';
+import cx from 'classnames';
 import { SECTIONS } from './constants';
 import { Localized } from '@fluent/react';
 import { FlagIcon, LayersIcon, BookmarkIcon, HeartIcon } from '../../ui/icons';

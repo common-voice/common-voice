@@ -26,7 +26,7 @@ import LocalizationSelect from './localization-select';
 import Logo from './logo';
 import Nav from './nav';
 import UserMenu from './user-menu';
-import * as cx from 'classnames';
+import cx from 'classnames';
 import WelcomeModal from '../welcome-modal/welcome-modal';
 import {
   ChallengeTeamToken,
