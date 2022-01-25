@@ -580,6 +580,8 @@ about-playbook-how-grow-language-content-6 = Parcerias e redes
 ## How to validate
 
 about-playbook-how-validate = Como posso saber se devo aprovar um clipe de voz?
+about-playbook-how-validate-content-2 = <strong>Não rejeite clipes em que o locutor ‘tem um sotaque’ diferente do seu</strong>. Isso é importante para que o reconhecimento de voz funcione melhor para todos.
+about-playbook-how-validate-content-3 = Se você acha que a pronúncia torna <strong>impossível entender</strong>, ou há <strong>muito ruído de fundo</strong>, ou há <strong>outras pessoas falando também</strong>, então você deve rejeitar o clipe. <accuracyLink>Veja mais informações em nossos critérios de precisão</accuracyLink>.
 
 ## How to access dataset
 
