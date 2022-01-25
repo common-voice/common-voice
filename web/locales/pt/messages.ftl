@@ -553,10 +553,17 @@ about-playbook-how-localize-content-5 = Assista ao nosso vídeo explicativo
 ## How to add sentences
 
 about-playbook-how-add-sentences = Como adicionar frases?
+about-playbook-how-add-sentences-content-1 = O <strong>coletor de frases</strong> é uma ferramenta para coletar e validar frases de domínio público. Você <scAccountLink>precisa criar uma conta</scAccountLink>. Depois adicione seu idioma ao seu <strong>perfil</strong>. Você pode <strong>adicionar</strong> frases ou <strong>revisar</strong> frases adicionadas anteriormente.
+about-playbook-how-add-sentences-content-4 = Frases validadas são exportadas às quartas-feiras e ficam disponíveis após o próximo lançamento.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Como gravar um clipe de voz de alta qualidade?
+about-playbook-how-record-content-1 = Fale com sua voz normal! A maneira como você fala é bem-vinda aqui. Queremos seu sotaque como ele é, e queremos seu volume, estilo e entonação habituais.
+about-playbook-how-record-content-2 = Evite muito ruído de fundo. Deve ser fácil ouvir você.
+about-playbook-how-record-content-3 = Leia a frase com atenção. Não descarte, altere ou adicione palavras.
+about-playbook-how-record-content-4 = Certifique-se de que a plataforma esteja gravando antes de começar a falar e que ela só pare quando você terminar.
+about-playbook-how-record-content-5 = <accuracyLink>Saiba mais sobre critérios de precisão.</accuracyLink>
 
 ## How to grow language
 
