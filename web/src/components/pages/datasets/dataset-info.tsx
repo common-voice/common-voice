@@ -37,7 +37,7 @@ import URLS from '../../../urls';
 import { byteToSize } from '../../../utility';
 import useSortedLocales from '../../../hooks/use-sorted-locales';
 
-export const CURRENT_RELEASE = 'cv-corpus-7.0-2021-07-21';
+export const CURRENT_RELEASE = 'cv-corpus-8.0-2022-01-19';
 const SEGMENT_RELEASE = 'cv-corpus-7.0-singleword';
 
 const DEFAULT_CATEGORY_COUNT = 2;
@@ -200,8 +200,8 @@ const DatasetCorpusDownload = ({
     getString
   );
 
-  let bundleLocale = releaseStats.locales[locale] ? locale : 'en';
-  let localeStats = releaseStats.locales[bundleLocale];
+  const bundleLocale = releaseStats.locales[locale] ? locale : 'en';
+  const localeStats = releaseStats.locales[bundleLocale];
 
   const [bundleState, setBundleState] = React.useState(
     generateBundleState(bundleLocale, CURRENT_RELEASE, localeStats)
@@ -349,7 +349,7 @@ const DownloadEmailPrompt = ({
     setFormState(prev => ({ ...prev, hideEmailForm: false }));
 
   const handleInputChange = async ({ target }: any) => {
-    let newState = {
+    const newState = {
       ...formState,
       [target.name]: target.type !== 'checkbox' ? target.value : target.checked,
     };
