@@ -582,10 +582,13 @@ about-playbook-how-grow-language-content-6 = Parcerias e redes
 about-playbook-how-validate = Como posso saber se devo aprovar um clipe de voz?
 about-playbook-how-validate-content-2 = <strong>Não rejeite clipes em que o locutor ‘tem um sotaque’ diferente do seu</strong>. Isso é importante para que o reconhecimento de voz funcione melhor para todos.
 about-playbook-how-validate-content-3 = Se você acha que a pronúncia torna <strong>impossível entender</strong>, ou há <strong>muito ruído de fundo</strong>, ou há <strong>outras pessoas falando também</strong>, então você deve rejeitar o clipe. <accuracyLink>Veja mais informações em nossos critérios de precisão</accuracyLink>.
+about-playbook-how-validate-content-4 = Se um clipe for rejeitado por 2 pessoas, ele é lançado em um subconjunto diferente do conjunto de dados.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Como acessar e usar o conjunto de dados?
+about-playbook-how-access-dataset-content-1 = Você pode acessar a <datasetsPage>página de conjuntos de dados</datasetsPage>, selecionar a versão e o(s) idioma(s) que quer e baixar! Os arquivos têm <metadataLink>metadados associados</metadataLink>, como informações demográficas e dados de validação. Você precisa fornecer um endereço de email para baixar um conjunto de dados.
+about-playbook-how-access-dataset-content-2 = Se você está procurando ferramentas para construir modelos de reconhecimento automático de voz, pode se conectar com outras pessoas na comunidade, <discourseLink>no Discourse</discourseLink>.
 
 ## How are decisions made
 
