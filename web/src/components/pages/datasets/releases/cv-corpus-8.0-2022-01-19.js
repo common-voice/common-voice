@@ -1,9 +1,8 @@
 exports.stats = {
   bundleURLTemplate:
-    'cv-corpus-8.0-2022-01-19/cv-corpus-8.0-2022-01-19-{locale}.tar.gz',
+    'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-8.0-2022-01-19/{locale}.tar.gz',
   date: '2022-01-19',
   name: 'Common Voice Corpus 8.0',
-  multilingual: true,
   locales: {
     en: {
       duration: 10390463635,
@@ -42,6 +41,13 @@ exports.stats = {
         },
       },
       users: 79398,
+      size: 75356163484,
+      checksum:
+        '8b82525e6adb8382e28eabfed1beeedd3f315c1d3cdf7445a3ff33743f42025d',
+      avgDurationSecs: 5.142,
+      validDurationSecs: 7868938.703,
+      totalHrs: 2886.23,
+      validHrs: 2185.81,
     },
     fa: {
       buckets: {
@@ -77,6 +83,13 @@ exports.stats = {
       },
       users: 4016,
       duration: 1316470688,
+      size: 9804861437,
+      checksum:
+        '5b351ade3858fd9636691569dc9918e7270fedbc1a68fc47b4fe82bf6d34fd9a',
+      avgDurationSecs: 4.019,
+      validDurationSecs: 1142236.058,
+      totalHrs: 365.68,
+      validHrs: 317.28,
     },
     fr: {
       buckets: {
@@ -115,6 +128,13 @@ exports.stats = {
         },
       },
       users: 16082,
+      size: 23747554124,
+      checksum:
+        '0e11673e55bbcf30244d5da0c3a8ab07f7deb96ae98b3d2ae752b51c2caa0ea2',
+      avgDurationSecs: 4.983,
+      validDurationSecs: 2974120.808,
+      totalHrs: 902.04,
+      validHrs: 826.14,
     },
     es: {
       buckets: {
@@ -153,6 +173,13 @@ exports.stats = {
         },
       },
       users: 22741,
+      size: 19549932331,
+      checksum:
+        'b138e13fd63ffdf8668120ad457376c257756ca8e4bcad6485185683fa2f520b',
+      avgDurationSecs: 5.036,
+      validDurationSecs: 1456572.451,
+      totalHrs: 739.37,
+      validHrs: 404.6,
     },
     sl: {
       buckets: {
@@ -188,6 +215,13 @@ exports.stats = {
         },
       },
       users: 125,
+      size: 281432145,
+      checksum:
+        '38a3bfd9e5dfe83cd5d6eb44851b8416449cc0675e965b4016a1ad2365010062',
+      avgDurationSecs: 3.868,
+      validDurationSecs: 34716.159,
+      totalHrs: 10.75,
+      validHrs: 9.64,
     },
     kab: {
       buckets: {
@@ -225,6 +259,13 @@ exports.stats = {
         },
       },
       users: 1431,
+      size: 17959985919,
+      checksum:
+        '45834be25ed44de041ca41c722344bc0743bae556b24e58278771e9a9db1969c',
+      avgDurationSecs: 3.325,
+      validDurationSecs: 1981942.057,
+      totalHrs: 661.2,
+      validHrs: 550.53,
     },
     cy: {
       buckets: {
@@ -262,6 +303,13 @@ exports.stats = {
         },
       },
       users: 1695,
+      size: 3878708024,
+      checksum:
+        'b087632306ff2fb11da1753c5adfda39634c727abc7e027be13c6c0d652b71a1',
+      avgDurationSecs: 4.828,
+      validDurationSecs: 418807.239,
+      totalHrs: 145.59,
+      validHrs: 116.33,
     },
     ca: {
       buckets: {
@@ -300,6 +348,13 @@ exports.stats = {
         },
       },
       users: 6665,
+      size: 26810695121,
+      checksum:
+        '9ce115587d1641da7dba3b3a8251809d71c9c08e539bfcc3a2c0a17a518b2299',
+      avgDurationSecs: 5.432,
+      validDurationSecs: 3300411.025,
+      totalHrs: 1036.87,
+      validHrs: 916.78,
     },
     de: {
       buckets: {
@@ -338,6 +393,13 @@ exports.stats = {
         },
       },
       users: 16390,
+      size: 29533045352,
+      checksum:
+        'ed2ff5a0564f5e4c0da9606d9fb10ef9189d3c369a9046cdde95d2f1ba5b4e0e',
+      avgDurationSecs: 5.125,
+      validDurationSecs: 3825985.881,
+      totalHrs: 1133.44,
+      validHrs: 1062.77,
     },
     tt: {
       buckets: {
@@ -373,6 +435,13 @@ exports.stats = {
         },
       },
       users: 206,
+      size: 795268101,
+      checksum:
+        '31f43dac431fcef8e07ca6f96320d9425ca4bfbf862c6a1fd38dea10b6cc5db2',
+      avgDurationSecs: 3.739,
+      validDurationSecs: 105071.625,
+      totalHrs: 29.74,
+      validHrs: 29.18,
     },
     ta: {
       buckets: {
@@ -410,6 +479,13 @@ exports.stats = {
         },
       },
       users: 679,
+      size: 7385758869,
+      checksum:
+        'afc50e741d646f789f4781af0447e7ac7e352a3816ba6957052e55666285a486',
+      avgDurationSecs: 6.218,
+      validDurationSecs: 783569.311,
+      totalHrs: 341.53,
+      validHrs: 217.65,
     },
     ru: {
       buckets: {
@@ -446,6 +522,13 @@ exports.stats = {
         },
       },
       users: 2452,
+      size: 4974445991,
+      checksum:
+        '5dc41389cd248c8e80568751048da64145f876778959f6ef34ca15858eeeb304',
+      avgDurationSecs: 5.232,
+      validDurationSecs: 585439.478,
+      totalHrs: 193.99,
+      validHrs: 162.62,
     },
     nl: {
       buckets: {
@@ -484,6 +567,13 @@ exports.stats = {
         },
       },
       users: 1462,
+      size: 2632034245,
+      checksum:
+        'a173515c0f7c99559ef5a446c26d0c16e91d72201ffd64bd68703b7776fee2c1',
+      avgDurationSecs: 4.291,
+      validDurationSecs: 352987.544,
+      totalHrs: 105.62,
+      validHrs: 98.05,
     },
     it: {
       buckets: {
@@ -522,6 +612,13 @@ exports.stats = {
         },
       },
       users: 6576,
+      size: 8431167904,
+      checksum:
+        '55d734e2269fb843b3d63e27fcd8ca51349551db1dedf1f9e3d6bc3f1ae0e1ef',
+      avgDurationSecs: 5.349,
+      validDurationSecs: 1118182.93,
+      totalHrs: 335.68,
+      validHrs: 310.6,
     },
     eu: {
       buckets: {
@@ -558,6 +655,13 @@ exports.stats = {
         },
       },
       users: 1192,
+      size: 3939191632,
+      checksum:
+        'c63d79e13a292e9cff9a4dbb84b1abaa7f8f9ed48f5eb5173df2811247366db2',
+      avgDurationSecs: 5.187,
+      validDurationSecs: 356070.62,
+      totalHrs: 144.65,
+      validHrs: 98.9,
     },
     tr: {
       buckets: {
@@ -595,6 +699,13 @@ exports.stats = {
         },
       },
       users: 1228,
+      size: 1550870485,
+      checksum:
+        '7a82a2cf91f91fafd67f16a15676e09f2ba92a6b8a99a495bb3438386f87e794',
+      avgDurationSecs: 3.706,
+      validDurationSecs: 234357.644,
+      totalHrs: 68.53,
+      validHrs: 65.09,
     },
     ar: {
       buckets: {
@@ -631,6 +742,13 @@ exports.stats = {
         },
       },
       users: 1216,
+      size: 2987783290,
+      checksum:
+        'b208528232109044d218035e65a91803c79319bfbcb50b616b7a1a9a7421fede',
+      avgDurationSecs: 597.429,
+      validDurationSecs: 44872859.698,
+      totalHrs: 19939.34,
+      validHrs: 12464.68,
     },
     'zh-TW': {
       buckets: {
@@ -667,6 +785,13 @@ exports.stats = {
         },
       },
       users: 1695,
+      size: 2410877453,
+      checksum:
+        'b0fe7534d4a45cc75d4ddccbdec1120d3016a36532ee29629fa50280dc66db77',
+      avgDurationSecs: 3.241,
+      validDurationSecs: 225253.68,
+      totalHrs: 89.38,
+      validHrs: 62.57,
     },
     br: {
       buckets: {
@@ -702,6 +827,13 @@ exports.stats = {
         },
       },
       users: 171,
+      size: 525334515,
+      checksum:
+        '5a7fbf4904a5ecca643637672154e270562b97d806b731dfe652ef366d3bcdba',
+      avgDurationSecs: 3.075,
+      validDurationSecs: 34216.139,
+      totalHrs: 19.78,
+      validHrs: 9.5,
     },
     pt: {
       buckets: {
@@ -738,6 +870,13 @@ exports.stats = {
         },
       },
       users: 2365,
+      size: 3098993125,
+      checksum:
+        '0cb4b6d603d4277bd279609404f127040ed2446f6f7d5d6cab890f036f351fd1',
+      avgDurationSecs: 4.226,
+      validDurationSecs: 403325.777,
+      totalHrs: 130.39,
+      validHrs: 112.03,
     },
     eo: {
       buckets: {
@@ -775,6 +914,13 @@ exports.stats = {
         },
       },
       users: 1415,
+      size: 39920892777,
+      checksum:
+        '0a69c50e958736afe155c8f9044016c9c90e024524369741dd2bc30dfd036a4b',
+      avgDurationSecs: 47.309,
+      validDurationSecs: 40102529.154,
+      totalHrs: 14475.85,
+      validHrs: 11139.59,
     },
     'zh-CN': {
       buckets: {
@@ -811,6 +957,13 @@ exports.stats = {
         },
       },
       users: 4013,
+      size: 2545234598,
+      checksum:
+        '3e47195ee95e41bf256c42c457d1726fd1d8b5f5a0c36bf0efe4d78568ac52eb',
+      avgDurationSecs: 5.238,
+      validDurationSecs: 244856.594,
+      totalHrs: 95.27,
+      validHrs: 68.01,
     },
     id: {
       buckets: {
@@ -845,6 +998,13 @@ exports.stats = {
         },
       },
       users: 394,
+      size: 1237534480,
+      checksum:
+        '58c934a8798c3d29c84bc99e8f425c43ddaefb3f945766094134c4769a790fce',
+      avgDurationSecs: 4.066,
+      validDurationSecs: 93010.386,
+      totalHrs: 53.87,
+      validHrs: 25.83,
     },
     ia: {
       buckets: {
@@ -880,6 +1040,13 @@ exports.stats = {
         },
       },
       users: 57,
+      size: 406246505,
+      checksum:
+        '4bae7a76fdac182ad6844c7d037589770e2cc3a4bdd70731a898eab64a890632',
+      avgDurationSecs: 4.176,
+      validDurationSecs: 46538.506,
+      totalHrs: 16.62,
+      validHrs: 12.92,
     },
     lv: {
       buckets: {
@@ -913,6 +1080,13 @@ exports.stats = {
         },
       },
       users: 115,
+      size: 224375158,
+      checksum:
+        '037fbf62bd6a4e8703ce6fa6bd7b414825e388e7532c3b59d621ff983cb7f246',
+      avgDurationSecs: 3.409,
+      validDurationSecs: 25713.22,
+      totalHrs: 8.45,
+      validHrs: 7.14,
     },
     ja: {
       buckets: {
@@ -948,6 +1122,13 @@ exports.stats = {
         },
       },
       users: 550,
+      size: 958012363,
+      checksum:
+        '6185cda4aee9c4a7e3c18739ed48c2ac84e235f5bc2a7f7bdd458a981d3f1f86',
+      avgDurationSecs: 4.765,
+      validDurationSecs: 146842.535,
+      totalHrs: 43.57,
+      validHrs: 40.78,
     },
     rw: {
       buckets: {
@@ -959,8 +1140,8 @@ exports.stats = {
         train: 1003810,
         validated: 1438253,
       },
-      reportedSentences: 624,
       duration: 8579999777,
+      reportedSentences: 624,
       clips: 1713284,
       splits: {
         accent: {
@@ -982,6 +1163,13 @@ exports.stats = {
         },
       },
       users: 1055,
+      size: 60993257948,
+      checksum:
+        'b454b08caadfa678564b80fbd0a20bdea09508bac4da79a7204e4325838aa933',
+      avgDurationSecs: 5.008,
+      validDurationSecs: 7202664.835,
+      totalHrs: 2383.33,
+      validHrs: 2000.74,
     },
     'sv-SE': {
       buckets: {
@@ -1018,6 +1206,13 @@ exports.stats = {
         },
       },
       users: 718,
+      size: 1113702755,
+      checksum:
+        '8cf722f710eea600fefea628d88ab534cb375103fac38474d70c8fbd5f4f4eb1',
+      avgDurationSecs: 3.936,
+      validDurationSecs: 146805.183,
+      totalHrs: 48.58,
+      validHrs: 40.77,
     },
     cnh: {
       duration: 20673132,
@@ -1051,6 +1246,13 @@ exports.stats = {
         },
       },
       users: 298,
+      size: 161377131,
+      checksum:
+        'a5bc2a2505a3cebf92c76d15d3bd822a583cfaaa1f9fa46275b3e7b41ac34ec6',
+      avgDurationSecs: 3.564,
+      validDurationSecs: 8741.802,
+      totalHrs: 5.74,
+      validHrs: 2.42,
     },
     et: {
       duration: 158860334,
@@ -1086,6 +1288,13 @@ exports.stats = {
         },
       },
       users: 723,
+      size: 1118010789,
+      checksum:
+        'b277d1c98c6f46abdb0867e582aa5ea37cd788b868f4537144dbdc5499b52d65',
+      avgDurationSecs: 6.74,
+      validDurationSecs: 116626.092,
+      totalHrs: 44.12,
+      validHrs: 32.39,
     },
     ky: {
       duration: 159748788,
@@ -1119,6 +1328,13 @@ exports.stats = {
         },
       },
       users: 234,
+      size: 1034900324,
+      checksum:
+        '05ddbd6beddc51c341b4d414723d4408a8c1e9c21167744d02110ce0df273235',
+      avgDurationSecs: 4.544,
+      validDurationSecs: 134003.961,
+      totalHrs: 44.37,
+      validHrs: 37.22,
     },
     ro: {
       duration: 133037923,
@@ -1155,6 +1371,13 @@ exports.stats = {
         },
       },
       users: 332,
+      size: 837935454,
+      checksum:
+        '7c7f81d93b7c591a61040aea88ff0b216f21e4d77f5a99ca2817a307793fdbe3',
+      avgDurationSecs: 3.957,
+      validDurationSecs: 56908.842,
+      totalHrs: 36.95,
+      validHrs: 15.8,
     },
     hsb: {
       duration: 10103328,
@@ -1189,6 +1412,13 @@ exports.stats = {
         },
       },
       users: 19,
+      size: 79355786,
+      checksum:
+        '2920dfc81bd6083572b7a91a9cf5a98aa2d9a5f0346e559084f27546cc32512d',
+      avgDurationSecs: 6.101,
+      validDurationSecs: 8529.259,
+      totalHrs: 2.8,
+      validHrs: 2.36,
     },
     el: {
       duration: 93490738,
@@ -1224,6 +1454,13 @@ exports.stats = {
         },
       },
       users: 312,
+      size: 638647250,
+      checksum:
+        'bcaaf3fa149e4ac9f670a8271c77be8a4d14fc9607bda6e9cf6ae35593af908e',
+      avgDurationSecs: 4.124,
+      validDurationSecs: 57122.231,
+      totalHrs: 25.96,
+      validHrs: 15.86,
     },
     cs: {
       duration: 244312851,
@@ -1259,6 +1496,13 @@ exports.stats = {
         },
       },
       users: 525,
+      size: 1734765011,
+      checksum:
+        '7512363c0b7fa44931b5e9402a4e8f27041fab88b353e7a3344e3654f4cb3883',
+      avgDurationSecs: 4.319,
+      validDurationSecs: 197613.351,
+      totalHrs: 67.86,
+      validHrs: 54.89,
     },
     pl: {
       duration: 584124014,
@@ -1295,6 +1539,13 @@ exports.stats = {
         },
       },
       users: 3026,
+      size: 4217805363,
+      checksum:
+        '4c67cc1917503fde008510eec0117ccd79f90540c8cd0d4cfba25f9c6a06d94e',
+      avgDurationSecs: 4.457,
+      validDurationSecs: 512002.234,
+      totalHrs: 162.25,
+      validHrs: 142.22,
     },
     'rm-sursilv': {
       duration: 37259753,
@@ -1328,6 +1579,13 @@ exports.stats = {
         },
       },
       users: 84,
+      size: 284030804,
+      checksum:
+        'b58ba0a7b617abb3a2f30d8b6c62d481c03f7b1cadcc9e5562f18336bf301421',
+      avgDurationSecs: 5.507,
+      validDurationSecs: 22055.175,
+      totalHrs: 10.34,
+      validHrs: 6.12,
     },
     'rm-vallader': {
       duration: 14917514,
@@ -1362,6 +1620,13 @@ exports.stats = {
         },
       },
       users: 50,
+      size: 114303398,
+      checksum:
+        'c1fb6a7fe372b0eb1b32dfac2da331f4df967ae860c6bdf2f8771a52d817bc70',
+      avgDurationSecs: 5.791,
+      validDurationSecs: 8449.011,
+      totalHrs: 4.14,
+      validHrs: 2.34,
     },
     mn: {
       duration: 66850604,
@@ -1397,6 +1662,13 @@ exports.stats = {
         },
       },
       users: 451,
+      size: 511311464,
+      checksum:
+        '4918ec6e8de6f0c167130e1a11edf0811c0a033fa22d6552e69f09a3bd9f3731',
+      avgDurationSecs: 5.468,
+      validDurationSecs: 44731.12,
+      totalHrs: 18.56,
+      validHrs: 12.42,
     },
     'zh-HK': {
       duration: 433845852,
@@ -1433,6 +1705,13 @@ exports.stats = {
         },
       },
       users: 2738,
+      size: 3189158718,
+      checksum:
+        '0cae705ca0b0d86f608bc61b9872e7f7ba61c4015cc1c279d33daf94fdbcdac3',
+      avgDurationSecs: 4.236,
+      validDurationSecs: 358760.894,
+      totalHrs: 120.51,
+      validHrs: 99.65,
     },
     ab: {
       duration: 300948948,
@@ -1469,6 +1748,13 @@ exports.stats = {
         },
       },
       users: 392,
+      size: 1718935472,
+      checksum:
+        'fbfddfeddfe3b6f95bc7ee0d1cf293ac6e5e8b00ba3266c53ed7493476f771d3',
+      avgDurationSecs: 5.127,
+      validDurationSecs: 214197.39,
+      totalHrs: 83.59,
+      validHrs: 59.49,
     },
     cv: {
       duration: 81658092,
@@ -1502,6 +1788,13 @@ exports.stats = {
         },
       },
       users: 101,
+      size: 573369798,
+      checksum:
+        'b62162fb5588f579be9629551c28d3ea80d9c09343fe361c9bafdc588c6d2ae8',
+      avgDurationSecs: 4.985,
+      validDurationSecs: 47378.84,
+      totalHrs: 22.68,
+      validHrs: 13.16,
     },
     uk: {
       duration: 276258228,
@@ -1536,6 +1829,13 @@ exports.stats = {
         },
       },
       users: 684,
+      size: 1905832841,
+      checksum:
+        '0c7aa9dcd83282471753e83131a0e0d94ec8c1052395330f5ce7af972f66fa9e',
+      avgDurationSecs: 4.853,
+      validDurationSecs: 228397.734,
+      totalHrs: 76.73,
+      validHrs: 63.44,
     },
     mt: {
       duration: 60956460,
@@ -1571,6 +1871,13 @@ exports.stats = {
         },
       },
       users: 203,
+      size: 453931362,
+      checksum:
+        'dfc42d48aa7b4b02e75ae7e13f6ef764b97efcc2bfbc30eaaf17707753b0ab9b',
+      avgDurationSecs: 4.736,
+      validDurationSecs: 29919.431,
+      totalHrs: 16.93,
+      validHrs: 8.31,
     },
     as: {
       duration: 5118797,
@@ -1600,6 +1907,13 @@ exports.stats = {
         },
       },
       users: 38,
+      size: 35350705,
+      checksum:
+        '488309b938dbcb4027d387a39cafa17bf03816ef129ee2b68c3c5ca01cfc6824',
+      avgDurationSecs: 5.304,
+      validDurationSecs: 4869.488,
+      totalHrs: 1.42,
+      validHrs: 1.35,
     },
     ka: {
       duration: 29256840,
@@ -1633,6 +1947,13 @@ exports.stats = {
         },
       },
       users: 127,
+      size: 193547750,
+      checksum:
+        '0424f971399d08f1fd9ed0b2badf1310d7e4b5cb4a8bac3c63905d91b98ac896',
+      avgDurationSecs: 5.362,
+      validDurationSecs: 27347.853,
+      totalHrs: 8.12,
+      validHrs: 7.59,
     },
     'fy-NL': {
       duration: 453115107,
@@ -1669,6 +1990,13 @@ exports.stats = {
         },
       },
       users: 1132,
+      size: 2839357525,
+      checksum:
+        '42f0bebb57cb56a715be8423aff6ef97c338b58aaa8efa4b6f766b14937f489a',
+      avgDurationSecs: 4.977,
+      validDurationSecs: 178564.588,
+      totalHrs: 125.86,
+      validHrs: 49.6,
     },
     dv: {
       duration: 210442743,
@@ -1702,6 +2030,13 @@ exports.stats = {
         },
       },
       users: 300,
+      size: 1353683004,
+      checksum:
+        '1e7a5b82997ca76d37ee256e8c666f42eb01cbbf5a9dc6e24fa577c2b4ecff16',
+      avgDurationSecs: 5.042,
+      validDurationSecs: 129939.899,
+      totalHrs: 58.45,
+      validHrs: 36.09,
     },
     'pa-IN': {
       duration: 12071510,
@@ -1736,6 +2071,13 @@ exports.stats = {
         },
       },
       users: 47,
+      size: 88232608,
+      checksum:
+        '5728ab2b9391ff9ac7c744646bcb7cd1433796ec69aaac2cc61cb0b08feee7b5',
+      avgDurationSecs: 4.802,
+      validDurationSecs: 5838.885,
+      totalHrs: 3.35,
+      validHrs: 1.62,
     },
     vi: {
       duration: 60732188,
@@ -1771,6 +2113,13 @@ exports.stats = {
         },
       },
       users: 200,
+      size: 352797985,
+      checksum:
+        '38782df109852d3cbc6a7b788bfa3a745648c1886a4e81acd2a600b529a4fbe5',
+      avgDurationSecs: 3.968,
+      validDurationSecs: 16134.406,
+      totalHrs: 16.87,
+      validHrs: 4.48,
     },
     or: {
       duration: 32312652,
@@ -1803,6 +2152,13 @@ exports.stats = {
         },
       },
       users: 79,
+      size: 237971623,
+      checksum:
+        'bc2310cfae8ad38401c83dc43d75dec3686c82e98b22dca9cd0ab3034d93d50b',
+      avgDurationSecs: 5.053,
+      validDurationSecs: 5381.231,
+      totalHrs: 8.97,
+      validHrs: 1.49,
     },
     'ga-IE': {
       duration: 31746555,
@@ -1838,6 +2194,13 @@ exports.stats = {
         },
       },
       users: 153,
+      size: 221761496,
+      checksum:
+        '800e4bdc1823758925bb1cd5cc680c64fc97cd1d34aa78fcac40ec37b8caaf3c',
+      avgDurationSecs: 3.527,
+      validDurationSecs: 15561.138,
+      totalHrs: 8.81,
+      validHrs: 4.32,
     },
     fi: {
       duration: 53956767,
@@ -1873,6 +2236,13 @@ exports.stats = {
         },
       },
       users: 171,
+      size: 322898980,
+      checksum:
+        '53c0c6e9c8fb523486ca8c4d8c20409dff6cff4a622f6ee5fb8c817748b3418c',
+      avgDurationSecs: 4.549,
+      validDurationSecs: 30471.791,
+      totalHrs: 14.98,
+      validHrs: 8.46,
     },
     hu: {
       duration: 88030549,
@@ -1907,6 +2277,13 @@ exports.stats = {
         },
       },
       users: 197,
+      size: 572439425,
+      checksum:
+        '76663918e570d3fdcd8b3dc7e8642e06a8b508ba19347fd8721542af5821fce0',
+      avgDurationSecs: 4.9,
+      validDurationSecs: 71640.58,
+      totalHrs: 24.45,
+      validHrs: 19.9,
     },
     th: {
       duration: 1224838524,
@@ -1943,6 +2320,13 @@ exports.stats = {
         },
       },
       users: 7414,
+      size: 7129246288,
+      checksum:
+        'b30339fc5e6c55651f5b0978f959b49f8aaaaaa446a853e8aa05e526c5cc9baf',
+      avgDurationSecs: 4.264,
+      validDurationSecs: 511642.92,
+      totalHrs: 340.23,
+      validHrs: 142.12,
     },
     lt: {
       duration: 73294964,
@@ -1977,6 +2361,13 @@ exports.stats = {
         },
       },
       users: 249,
+      size: 450546574,
+      checksum:
+        '43a12031682ea130a3ea2bcfb3d3622a4776d0dc83ff70b25e3bfd6db76edfb4',
+      avgDurationSecs: 5.156,
+      validDurationSecs: 62710.091,
+      totalHrs: 20.35,
+      validHrs: 17.41,
     },
     lg: {
       duration: 1719856143,
@@ -2012,6 +2403,13 @@ exports.stats = {
         },
       },
       users: 486,
+      size: 10082077359,
+      checksum:
+        '4628670760d5fc2f646422944229297ce4cd3fd969cba05374184786f052c45e',
+      avgDurationSecs: 5.806,
+      validDurationSecs: 1464210.404,
+      totalHrs: 477.73,
+      validHrs: 406.72,
     },
     hi: {
       duration: 60712692,
@@ -2046,6 +2444,13 @@ exports.stats = {
         },
       },
       users: 276,
+      size: 358891308,
+      checksum:
+        '58430ad90346a5a2bd60fc6608fc5a6a2531c46cc660b924137652a27f3e479d',
+      avgDurationSecs: 4.749,
+      validDurationSecs: 42205.389,
+      totalHrs: 16.86,
+      validHrs: 11.72,
     },
     bas: {
       duration: 9448128,
@@ -2074,6 +2479,13 @@ exports.stats = {
         },
       },
       users: 30,
+      size: 52383598,
+      checksum:
+        '9be95b0329c472a29d5aff9524a74362181f19454058c6697141e5968c05f367',
+      avgDurationSecs: 4.403,
+      validDurationSecs: 7308.431,
+      totalHrs: 2.62,
+      validHrs: 2.03,
     },
     sk: {
       duration: 68047884,
@@ -2107,6 +2519,13 @@ exports.stats = {
         },
       },
       users: 133,
+      size: 380843781,
+      checksum:
+        '1e15ba6684a14ad6f198969891ae09f6f8c7665650469414dd3c45c04cac1cf6',
+      avgDurationSecs: 4,
+      validDurationSecs: 63715.891,
+      totalHrs: 18.9,
+      validHrs: 17.69,
     },
     kmr: {
       duration: 191414844,
@@ -2141,6 +2560,13 @@ exports.stats = {
         },
       },
       users: 295,
+      size: 1020029130,
+      checksum:
+        '73b8936cc9e62cf1ed6bd2c8ec8666b0b8ac59669aa917676347a3a24ce8c206',
+      avgDurationSecs: 4.422,
+      validDurationSecs: 168456.383,
+      totalHrs: 53.17,
+      validHrs: 46.79,
     },
     bg: {
       duration: 42329448,
@@ -2174,6 +2600,13 @@ exports.stats = {
         },
       },
       users: 60,
+      size: 247038973,
+      checksum:
+        '063a26e5267a0f4c804fcef64341c4e2255eb2987bff3082cfa79ef4f20f542e',
+      avgDurationSecs: 5.499,
+      validDurationSecs: 29625.664,
+      totalHrs: 11.75,
+      validHrs: 8.22,
     },
     kk: {
       duration: 6257556,
@@ -2206,6 +2639,13 @@ exports.stats = {
         },
       },
       users: 75,
+      size: 35863149,
+      checksum:
+        'dc3fd78b5a18010dc1edbe0fa2f875aaf288d6c35a7a7aa7b731159f47ab9255',
+      avgDurationSecs: 5.022,
+      validDurationSecs: 5313.398,
+      totalHrs: 1.73,
+      validHrs: 1.47,
     },
     ba: {
       duration: 956435580,
@@ -2241,6 +2681,13 @@ exports.stats = {
         },
       },
       users: 866,
+      size: 5364795092,
+      checksum:
+        '313d21aec123d5d8842d36e9e7b523087430f036b7a2b78d266b4899f49dd026',
+      avgDurationSecs: 4.425,
+      validDurationSecs: 918915.548,
+      totalHrs: 265.67,
+      validHrs: 255.25,
     },
     gl: {
       duration: 54358920,
@@ -2276,6 +2723,13 @@ exports.stats = {
         },
       },
       users: 130,
+      size: 312424426,
+      checksum:
+        'e4b45d11f9df9115c4cc9facf81f1f8cedf985dcc0d11d49b35cba5a9b7d3827',
+      avgDurationSecs: 4.808,
+      validDurationSecs: 36630.363,
+      totalHrs: 15.09,
+      validHrs: 10.17,
     },
     ug: {
       duration: 230330232,
@@ -2311,6 +2765,13 @@ exports.stats = {
         },
       },
       users: 382,
+      size: 1342350136,
+      checksum:
+        '24f4eb359b09c1e93b9bc00d7f3784b63295f73b02afe871db53fb3564618004',
+      avgDurationSecs: 6.032,
+      validDurationSecs: 215395.892,
+      totalHrs: 63.98,
+      validHrs: 59.83,
     },
     'hy-AM': {
       duration: 12582828,
@@ -2343,6 +2804,13 @@ exports.stats = {
         },
       },
       users: 32,
+      size: 73751770,
+      checksum:
+        'eef313003c5d83e0a716625a31114ccf8d996e35ddf36fa9bfefc920f350b999',
+      avgDurationSecs: 6.138,
+      validDurationSecs: 6530.795,
+      totalHrs: 3.49,
+      validHrs: 1.81,
     },
     be: {
       duration: 3555221004,
@@ -2379,6 +2847,13 @@ exports.stats = {
         },
       },
       users: 6160,
+      size: 20224853323,
+      checksum:
+        '90845533f7bc31c0eed59f1a4f88639879a793b8b2637d996d73a930713aad40',
+      avgDurationSecs: 4.8,
+      validDurationSecs: 3253921.652,
+      totalHrs: 987.56,
+      validHrs: 903.86,
     },
     ur: {
       duration: 12235824,
@@ -2411,6 +2886,13 @@ exports.stats = {
         },
       },
       users: 48,
+      size: 71258354,
+      checksum:
+        'f9a7c509c2152d4dbbf7187b477817c413cd1b725d5749f19cbdff01babee427',
+      avgDurationSecs: 4.19,
+      validDurationSecs: 4823.094,
+      totalHrs: 3.39,
+      validHrs: 1.33,
     },
     gn: {
       duration: 8325792,
@@ -2441,6 +2923,13 @@ exports.stats = {
         },
       },
       users: 58,
+      size: 45681477,
+      checksum:
+        'f992e3e60efa3b39ceb04a530b3787b0ca170e8e0f85cbca7ac66ff5d5c2c989',
+      avgDurationSecs: 4.422,
+      validDurationSecs: 2409.749,
+      totalHrs: 2.31,
+      validHrs: 0.66,
     },
     sr: {
       duration: 6546024,
@@ -2474,6 +2963,13 @@ exports.stats = {
         },
       },
       users: 51,
+      size: 36210414,
+      checksum:
+        '03458e5beb7f3a99134aa1cafe086c1a1d39d123a1ad24b55c439935a6939b74',
+      avgDurationSecs: 2.829,
+      validDurationSecs: 5312.633,
+      totalHrs: 1.81,
+      validHrs: 1.47,
     },
     uz: {
       duration: 817646544,
@@ -2508,6 +3004,13 @@ exports.stats = {
         },
       },
       users: 1355,
+      size: 4555245955,
+      checksum:
+        '5c66de6387d70c0660d2ad06539bafced11544ad029d2c8b02fddc21389c3e21',
+      avgDurationSecs: 4.022,
+      validDurationSecs: 291782.18,
+      totalHrs: 227.12,
+      validHrs: 81.05,
     },
     mr: {
       duration: 18138924,
@@ -2539,6 +3042,13 @@ exports.stats = {
         },
       },
       users: 14,
+      size: 106764053,
+      checksum:
+        '511fc22b802978cdee292034d7c6332b7d031134eabb5987b2e31037694be31f',
+      avgDurationSecs: 5.76,
+      validDurationSecs: 5783.258,
+      totalHrs: 5.03,
+      validHrs: 1.6,
     },
     da: {
       duration: 25078464,
@@ -2573,6 +3083,13 @@ exports.stats = {
         },
       },
       users: 137,
+      size: 143294716,
+      checksum:
+        '3105db00bf917f3ea91b5fb43e6270c4014a56f9b247341571f67f6fbb66c37e',
+      avgDurationSecs: 4.355,
+      validDurationSecs: 23780.551,
+      totalHrs: 6.96,
+      validHrs: 6.6,
     },
     myv: {
       duration: 8153208,
@@ -2603,6 +3120,13 @@ exports.stats = {
         },
       },
       users: 5,
+      size: 47661126,
+      checksum:
+        'f61f4fed7c1e8a32c5b58fcde3db2fc2cc8e743bb9f5162191670ddcf23022fc',
+      avgDurationSecs: 5.718,
+      validDurationSecs: 6426.512,
+      totalHrs: 2.26,
+      validHrs: 1.78,
     },
     'nn-NO': {
       duration: 1388556,
@@ -2633,6 +3157,13 @@ exports.stats = {
         },
       },
       users: 13,
+      size: 8143783,
+      checksum:
+        'fe619255f01ea4badb373b4d0edbacd2146ae002967a28082724afd543306ea9',
+      avgDurationSecs: 4.739,
+      validDurationSecs: 1108.949,
+      totalHrs: 0.38,
+      validHrs: 0.3,
     },
     ha: {
       duration: 37282500,
@@ -2665,6 +3196,13 @@ exports.stats = {
         },
       },
       users: 25,
+      size: 218110720,
+      checksum:
+        'e3bc71d73407b0db85e5254750f4eb8dd184d457513ddaf9544f324f3ce797db',
+      avgDurationSecs: 4.336,
+      validDurationSecs: 12282.977,
+      totalHrs: 10.35,
+      validHrs: 3.41,
     },
     ckb: {
       duration: 134665092,
@@ -2699,6 +3237,13 @@ exports.stats = {
         },
       },
       users: 209,
+      size: 727060125,
+      checksum:
+        'f1a81c037ea3e44b47bd762740ac30dc9b630166dae9c5f23a8f74967bdb9861',
+      avgDurationSecs: 3.833,
+      validDurationSecs: 130168.589,
+      totalHrs: 37.4,
+      validHrs: 36.15,
     },
     ml: {
       duration: 9095544,
@@ -2727,6 +3272,13 @@ exports.stats = {
         },
       },
       users: 10,
+      size: 53097264,
+      checksum:
+        '64919d4bdbb3b439840afbfe7fc2698a670da9ffba41d56dacf42d1587fd8608',
+      avgDurationSecs: 4.082,
+      validDurationSecs: 1232.879,
+      totalHrs: 2.52,
+      validHrs: 0.34,
     },
     mdf: {
       duration: 1697688,
@@ -2757,6 +3309,13 @@ exports.stats = {
         },
       },
       users: 8,
+      size: 9972105,
+      checksum:
+        'f8f2506fa98a1243ec4dd0c848959ab60ed140aed852820ddf5a999a2662f0d7',
+      avgDurationSecs: 5.289,
+      validDurationSecs: 1226.989,
+      totalHrs: 0.47,
+      validHrs: 0.34,
     },
     sw: {
       duration: 2359703628,
@@ -2791,6 +3350,13 @@ exports.stats = {
         },
       },
       users: 288,
+      size: 13818063727,
+      checksum:
+        'fc84436e79671fa55241525aba63d0d53a85a24967f60a15a691f8f831704630',
+      avgDurationSecs: 5.3,
+      validDurationSecs: 528627.762,
+      totalHrs: 655.47,
+      validHrs: 146.84,
     },
     sat: {
       duration: 1729728,
@@ -2824,6 +3390,13 @@ exports.stats = {
         },
       },
       users: 8,
+      size: 9017013,
+      checksum:
+        '4e813435cfae5e88f90e96fa9966022be4ea6b4f37fa798b7f61d53a67671191',
+      avgDurationSecs: 5.087,
+      validDurationSecs: 773.29,
+      totalHrs: 0.48,
+      validHrs: 0.21,
     },
     sah: {
       duration: 23990556,
@@ -2855,6 +3428,13 @@ exports.stats = {
         },
       },
       users: 48,
+      size: 183316054,
+      checksum:
+        '0e6cef17a832f265a6964dfbecbf6c2355f1c4652bc143a1714e43b35e089d54',
+      avgDurationSecs: 5.993,
+      validDurationSecs: 23259.392,
+      totalHrs: 6.66,
+      validHrs: 6.46,
     },
     vot: {
       duration: 1025976,
@@ -2882,6 +3462,13 @@ exports.stats = {
         },
       },
       users: 5,
+      size: 7892848,
+      checksum:
+        'b4a512348d76caac3fca3f8e31047d6f6fbc832e75a0fb7ee9a897bd11446c10',
+      avgDurationSecs: 2.408,
+      validDurationSecs: 226.389,
+      totalHrs: 0.28,
+      validHrs: 0.06,
     },
     az: {
       duration: 493344,
@@ -2909,6 +3496,13 @@ exports.stats = {
         },
       },
       users: 10,
+      size: 2871153,
+      checksum:
+        '9855029a8cedcce51a6b028795ac89040699ff34bbd632b6ab34651fa2f2838b',
+      avgDurationSecs: 5.362,
+      validDurationSecs: 386.095,
+      totalHrs: 0.13,
+      validHrs: 0.1,
     },
     mk: {
       duration: 691272,
@@ -2933,6 +3527,13 @@ exports.stats = {
         },
       },
       users: 3,
+      size: 4058513,
+      checksum:
+        'd7bbfc7f39bd1643c6570478dbed4f115e93f5ec9bc5f77d27256013ae16f4b8',
+      avgDurationSecs: 4.973,
+      validDurationSecs: 452.559,
+      totalHrs: 0.19,
+      validHrs: 0.12,
     },
     ig: {
       duration: 32472,
@@ -2957,6 +3558,17 @@ exports.stats = {
         },
       },
       users: 1,
+      size: 192599,
+      checksum:
+        '5a7666730a84b5a2b24ea32b1251a6827d7de0ea60120573796a4ecbe8bc1888',
+      avgDurationSecs: 6.494,
+      validDurationSecs: 0,
+      totalHrs: 0,
+      validHrs: 0,
     },
   },
+  totalDuration: 182386574870,
+  totalValidDurationSecs: 130441859,
+  totalHrs: 50662,
+  totalValidHrs: 36233,
 };
