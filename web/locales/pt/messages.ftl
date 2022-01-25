@@ -558,6 +558,7 @@ about-playbook-how-localize-content-5 = Assista ao nosso vídeo explicativo
 
 about-playbook-how-add-sentences = Como adicionar frases?
 about-playbook-how-add-sentences-content-1 = O <strong>coletor de frases</strong> é uma ferramenta para coletar e validar frases de domínio público. Você <scAccountLink>precisa criar uma conta</scAccountLink>. Depois adicione seu idioma ao seu <strong>perfil</strong>. Você pode <strong>adicionar</strong> frases ou <strong>revisar</strong> frases adicionadas anteriormente.
+about-playbook-how-add-sentences-content-2 = As frases devem ser revisadas e aceitas por duas pessoas para ser incluídas no Common Voice. Você cria diretrizes para seu idioma <languageGuidelinesLink>aqui</languageGuidelinesLink>. As frases devem ser de <licenseLink>domínio público</licenseLink> e ter menos de 15 palavras. Você pode pedir ao proprietário de um texto para torná-lo <waiverLink>CC0 (domínio público) usando nosso processo de renúncia de direitos</waiverLink> e nos enviar em commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-4 = Frases validadas são exportadas às quartas-feiras e ficam disponíveis após o próximo lançamento.
 
 ## How to record quality
