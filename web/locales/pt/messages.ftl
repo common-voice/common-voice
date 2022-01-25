@@ -580,11 +580,13 @@ about-playbook-how-grow-language-content-3 = Você pode realizar eventos para aj
 about-playbook-how-grow-language-content-4 = Mídia social
 about-playbook-how-grow-language-content-5 = Você pode usar plataformas de mídia social para divulgar a mensagem. Compartilhe publicações que explicam por que isso é importante e entre em contato com outras pessoas para falar sobre questões como direitos de idioma, inteligência artificial de voz ou preconceito em tecnologia. Veja mais conselhos sobre <campaignLink>como realizar uma campanha em mídias sociais, incluindo conteúdo que você pode reutilizar</campaignLink>.
 about-playbook-how-grow-language-content-6 = Parcerias e redes
+about-playbook-how-grow-language-content-7 = Encontre outras pessoas que se importam. Pode ser em universidades, escolas de idiomas, grupos de defesa ou comunidades de ciência de dados. Entre em contato e explique com clareza como eles podem ajudar e por quê. <outreachTemplates>Veja nossos modelos de email de divulgação</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Seja criativo!</strong> Sua comunidade de idioma será única. Essas são apenas algumas maneiras de começar.
 
 ## How to validate
 
 about-playbook-how-validate = Como posso saber se devo aprovar um clipe de voz?
+about-playbook-how-validate-content-1 = Se você conseguiu <strong>ouvir</strong> e <strong>entender</strong>, geralmente é <strong>melhor aprovar</strong>.
 about-playbook-how-validate-content-2 = <strong>Não rejeite clipes em que o locutor ‘tem um sotaque’ diferente do seu</strong>. Isso é importante para que o reconhecimento de voz funcione melhor para todos.
 about-playbook-how-validate-content-3 = Se você acha que a pronúncia torna <strong>impossível entender</strong>, ou há <strong>muito ruído de fundo</strong>, ou há <strong>outras pessoas falando também</strong>, então você deve rejeitar o clipe. <accuracyLink>Veja mais informações em nossos critérios de precisão</accuracyLink>.
 about-playbook-how-validate-content-4 = Se um clipe for rejeitado por 2 pessoas, ele é lançado em um subconjunto diferente do conjunto de dados.
