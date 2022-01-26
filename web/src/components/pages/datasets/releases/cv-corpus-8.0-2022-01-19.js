@@ -1,8 +1,9 @@
 exports.stats = {
   bundleURLTemplate:
-    'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-8.0-2022-01-19/{locale}.tar.gz',
+    'cv-corpus-8.0-2022-01-19/cv-corpus-8.0-2022-01-19-{locale}.tar.gz',
   date: '2022-01-19',
   name: 'Common Voice Corpus 8.0',
+  multilingual: true,
   locales: {
     en: {
       duration: 10390463635,
