@@ -889,7 +889,7 @@ exports.stats = {
         train: 143982,
         validated: 847678,
       },
-      duration: 5916826000,
+      duration: 6683979355,
       reportedSentences: 2090,
       clips: 1101554,
       splits: {
@@ -918,9 +918,9 @@ exports.stats = {
       size: 39920892777,
       checksum:
         '0a69c50e958736afe155c8f9044016c9c90e024524369741dd2bc30dfd036a4b',
-      avgDurationSecs: 5.371,
+      avgDurationSecs: 6.068,
       validDurationSecs: 5068560,
-      totalHrs: 1643.56,
+      totalHrs: 1856.66111111,
       validHrs: 1407.93,
     },
     'zh-CN': {
@@ -3568,8 +3568,8 @@ exports.stats = {
       validHrs: 0,
     },
   },
-  totalDuration: 64909685898,
+  totalDuration: 65676839253,
   totalValidDurationSecs: 50841646,
-  totalHrs: 18030,
+  totalHrs: 18243,
   totalValidHrs: 14122,
 };

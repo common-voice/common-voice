@@ -8,7 +8,7 @@ const locales = require('locales/all.json') as string[];
 const contributableLocales = require('locales/contributable.json') as string[];
 
 // based on the latest dataset
-const AVG_CLIP_SECONDS = 4.722;
+const AVG_CLIP_SECONDS = 4.896;
 const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = {
   en: 5.142,
   fa: 4.019,
