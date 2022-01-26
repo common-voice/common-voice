@@ -482,9 +482,13 @@ about-localization-subtitle = Le site web est traduit dans cette langue.
 about-sentence-collection-title = Collecte de phrases
 about-new-lang-title = Lancement d’une nouvelle langue
 about-new-lang-subtitle = Nous lançons le site Common Voice dans cette langue.
+about-voice-contrib-title = Contribution vocale
+about-voice-contrib-subtitle = Des personnes contribuent avec leur voix.
+about-voice-validation-title = Validation vocale
 about-voice-validation-subtitle = D’autres personnes valident ces extraits vocaux.
 about-dataset-release-title = Publication des données
 about-dataset-release-subtitle = Nous publions les données tous les 3 mois.
+about-subscribe-text = Vous souhaitez rester en contact avec Common Voice ?
 about-speak = Parler
 about-speak-text = Les contributeurs et contributrices lisent et enregistrent des échantillons vocaux issus d’une banque de phrases données par la communauté.
 about-listen-queue = File d’attente de l’écoute
@@ -513,6 +517,7 @@ about-get-involved-text-2 =
     Super ! Contactez-nous par courriel ou bien sur les forums <discourseLink>Discourse</discourseLink>,
     signalez des problèmes sur <githubLink>GitHub</githubLink>,
     ou rejoignez la discussion communautaire sur <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Comment rester en contact ?
 about-nav-why-common-voice = Pourquoi ?
 about-nav-how-it-works = Comment ?
 about-nav-partners = Partenaires
@@ -528,10 +533,14 @@ about-playbook-what-is-language = Qu’est-ce qu’une langue sur Common Voice 
 ## How do I add a language
 
 about-playbook-how-add-language = Comment ajouter une langue ?
+about-playbook-how-add-language-content-1 = Tout d’abord, vérifiez si votre langue <languageLink>existe déjà</languageLink>. Si ce n’est pas le cas, vous devrez <strong>traduire le site et collecter des phrases</strong>.
 
 ## How does localization work
 
+about-playbook-how-localize = Comment fonctionne la traduction du site ?
+about-playbook-how-localize-content-1 = La traduction du site Common Voice s’effectue sur <strong>Pontoon</strong>.
 about-playbook-how-localize-content-4 = Le site est prêt à être lancé lorsqu’il atteint 75 % d’achèvement.
+about-playbook-how-localize-content-5 = Regardez notre vidéo explicative pour vous aider
 
 ## How to add sentences
 
@@ -543,6 +552,8 @@ about-playbook-how-record-quality = Comment enregistrer un extrait vocal de haut
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Évènements
+about-playbook-how-grow-language-content-4 = Réseaux sociaux
 
 ## How to validate
 
