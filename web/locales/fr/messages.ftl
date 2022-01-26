@@ -477,6 +477,7 @@ how-does-it-work-text = Nous appelons à la participation collective pour consti
 ## How does it work section
 
 about-language-req-subtitle = Quelqu’un demande l’ajout d’une langue.
+about-localization-title = Traduction du site web
 about-localization-subtitle = Le site web est traduit dans cette langue.
 about-sentence-collection-title = Collecte de phrases
 about-new-lang-title = Lancement d’une nouvelle langue
