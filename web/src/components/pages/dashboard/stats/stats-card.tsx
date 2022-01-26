@@ -4,10 +4,14 @@ import { useState, useEffect } from 'react';
 import LanguageSelect, {
   ALL_LOCALES,
 } from '../../../language-select/language-select';
+import { useLocalStorageState } from '../../../../hooks/store-hooks';
 
 import './stats-card.css';
 
+const DEFAULT_LOCALE_OPTION = ALL_LOCALES;
+
 export default function StatsCard({
+  id,
   className,
   title,
   iconButtons,
@@ -17,6 +21,7 @@ export default function StatsCard({
   scrollable,
   currentLocale,
 }: {
+  id?: string;
   className?: string;
   title: string;
   iconButtons?: React.ReactNode;
@@ -26,11 +31,15 @@ export default function StatsCard({
   scrollable?: boolean;
   currentLocale?: string;
 }) {
-  const [locale, setLocale] = useState(ALL_LOCALES);
+  const [locale, setLocale] = useLocalStorageState(DEFAULT_LOCALE_OPTION, id);
   const [selectedTab, setSelectedTab] = useState(Object.keys(tabs)[0]);
-  useEffect(() => setLocale(currentLocale ? currentLocale : ALL_LOCALES), [
-    currentLocale,
-  ]);
+  const isDefaultOptionSelected = locale === DEFAULT_LOCALE_OPTION;
+
+  useEffect(() => {
+    if (isDefaultOptionSelected && currentLocale) {
+      setLocale(currentLocale);
+    }
+  }, [currentLocale]);
 
   return (
     <div
@@ -80,7 +89,9 @@ export default function StatsCard({
           )}
         </div>
         <div className="content">
-          {tabs[selectedTab]({ locale: locale == ALL_LOCALES ? null : locale })}
+          {tabs[selectedTab]({
+            locale: isDefaultOptionSelected ? null : locale,
+          })}
         </div>
       </div>
     </div>
