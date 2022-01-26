@@ -44,6 +44,8 @@ export default function StatsCard({
             <h2 className="challenge-title">{title}</h2>
           ) : (
             <Localized id={title}>
+              {/* Localized injects content into child component */}
+              {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
               <h2 />
             </Localized>
           )}
