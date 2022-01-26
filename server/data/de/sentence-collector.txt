@@ -2174,6 +2174,7 @@ Aus irgendeinem Grund ist die Turnhalle abgeschlossen.
 Aus ist es, sobald entweder der Ball oder ein Fuß die Linie überschreiten.
 Aus meiner Sicht ist dies keinesfalls widersprüchlich.
 Aus meiner beruflichen Erfahrung kann ich das bestätigen.
+Aus nichts wird nichts.
 Aus objektiver Perspektive betrachtet, lassen sich Fahrlässigkeitsdelikte nur schwer vermeiden.
 Aus physiologischer Sicht sind Haferflocken ein ausgesprochen wertvolles Nahrungsmittel.
 Aus schwarzen Haaren kann ich Ihnen keine blonden machen.
@@ -2186,6 +2187,7 @@ Aus unerfindlichen Gründen klemmt es immer genau dann.
 Aus ungelegten Eiern schlüpfen keine Hühner.
 Aus virologischer Sicht wäre das aber nicht korrekt.
 Aus welchem Turngau ist der denn entsprungen?
+Aus welcher Zotenparade sind die denn entsprungen?
 Aus welcher überaus seriösen Boulevardzeitung beziehen Sie Ihre Bildung?
 Aus zwei Dosen und einer gespannten Schnur lässt sich ganz einfach ein Telefon bauen.
 Aus Äpfeln, die nicht gut genug für den Verkauf aussehen, presst man Saft.
@@ -2339,6 +2341,7 @@ Bald wird er ermüden.
 Bald wird es sicher eine Studie geben, die die Gefährlichkeit von Infrarotstrahlung aufzeigt.
 Bald wird mein Vorrat knapp werden.
 Ballaststoffreiche Ernährung hilft bei der Verdauung.
+Ballistische Experimente mit kristallinem Wasser auf dem Areal der Pädagogischen Institutionen unterliegen striktester Prohibition!
 Ballkünstler werden in unserer Gesellschaft besonders bewundert.
 Ballonfahrten in Grenznähe sind immer etwas heikel.
 Ballonstarts in der Einflugschneise sind ungefähr so sinnvoll wie ein Zebrastreifen auf der Autobahn.
@@ -2971,6 +2974,7 @@ Bin beschäftigt!
 Bin doch total uninteressant.
 Bin ich denn abermals betrogen?
 Bin ich der Einzige, der dem System zurückgewiesene Sätze korrigiert wieder zuführt?
+Bin ich der Einzige, der hier Sätze schreibt?
 Bin ich die Auskunft oder was?
 Bin ich die einzige, die davon noch nie etwas gehört hat?
 Bin ich ein Mensch?
@@ -4408,6 +4412,7 @@ Darüber sollten wir mal in Ruhe nachdenken.
 Darüber war er nicht sehr erfreut.
 Darüber werden wir am Freitag abstimmen.
 Das "Hasenbutterbrot" wollte niemand mehr haben.
+Das "Nitrophone zwei pro" kann auch als zweihundertsechsundfünfzig Gigabyte Variante gekauft werden.
 Das "Pusher Haus" wurde gestürmt.
 Das "at" Zeichen war einmal als Klammeraffe bekannt.
 Das "smart" in SmartCard deutet nur darauf hin, dass der Chip rechnen kann.
@@ -4877,6 +4882,7 @@ Das Wasser in der Bucht ist sehr klar.
 Das Wasser läuft gerade ein, die Wanne ist bald voll.
 Das Wasser plätscherte in der Dachrinne.
 Das Weinregal ist gut gefüllt.
+Das Werfen von Schneebällen auf dem Schulhof ist verboten!
 Das Wetter ist veränderlich.
 Das Wetter war aber auch schon mal besser, oder?
 Das Wetter war frühlingshaft mild.
@@ -4957,6 +4963,7 @@ Das bezieht das dritte Geschlecht mit ein.
 Das bin ich euch schuldig.
 Das bin nämlich ich.
 Das brauche ich im ziemlig zügig Verfahren.
+Das brauche ich nicht.
 Das bringe ich dir vorbei.
 Das bringst auch nur Du fertig!
 Das bringt mich jetzt in ein großes Dilemma.
@@ -5233,6 +5240,7 @@ Das ist doch eine Kupferleitung.
 Das ist doch gar kein richtiger Lockdown.
 Das ist doch gelogen.
 Das ist doch genau dein Thema.
+Das ist doch immer das selbe mit dir
 Das ist doch kein Beinbruch.
 Das ist doch kein Name, das ist ein Sammelbegriff.
 Das ist doch keine Herausforderung!
@@ -5572,6 +5580,7 @@ Das meistgewählte Passwort lautet eins zwei drei vier fünf sechs.
 Das merkt eh keiner.
 Das mit dem großen Gehirn war vielleicht doch keine so gute Idee.
 Das mit den Kindern sollte man sich wirklich gut überlegen.
+Das mit der Grammatik üben wir aber nocheinmal.
 Das mit der Prozentrechnung üben wir dann noch mal.
 Das mittelständische Unternehmen exportiert Gabelstapler in alle Welt.
 Das muss auch gar nicht lange sein.
@@ -6622,6 +6631,7 @@ Der Generalverdacht wird weiter ausgebaut.
 Der Genitiv wird umgangssprachlich kaum verwendet.
 Der Genuß der bürgerlichen und politischen Rechte ist von dem Religionsbekenntnisse unabhängig.
 Der Geruch von Kleidung hängt wesentlich vom verwendeten Waschmittel ab.
+Der Geruchskoeffizient gewisser finanzieller Mittel ist permanent gleich null!
 Der Geruchssinn dieser Hunde ist unglaublich.
 Der Gescheitere gibt nach! Ein unsterbliches Wort. Es begründete die Weltherrschaft der Dummheit.
 Der Geschirrspüler läuft aber noch.
@@ -6650,6 +6660,7 @@ Der Handel mit Bonobo-Äffchen ist ein florierendes Geschäft.
 Der Handwerker stellte sich vor und sagte, er würde gern ein Rohr verlegen.
 Der Hanse-Express hält auch in Elmshorn.
 Der Hauptbeschuldigte ist einer der Top-Leute des Clans.
+Der Hausmeister hat immer so viel zu tun.
 Der Haustürschlüssel lag praktischerweise noch in der Wohnung.
 Der Heilige Vater wandelte unsicheren Schrittes durch das Rotlichtviertel.
 Der Heißluftföhn ist nicht für die Haare.
@@ -7332,6 +7343,7 @@ Der hat wohl seinen religiösen Tag heute.
 Der heilige Gral ist bloß ein bedeutungsloser Kelch.
 Der häusliche Unterricht unterliegt keiner solchen Beschränkung.
 Der internationale Gerichtshof hat seinen Sitz in Den Haag.
+Der ist doch so etwas von geizig.
 Der ist einfach bei Rot über die Straße gelaufen!
 Der ist heute aber bräsig.
 Der ist ja mickrig!
@@ -7671,6 +7683,7 @@ Die Ausbreitung der Seuche allein sorgte für genug Gesprächsstoff.
 Die Ausbreitung des Virus belastet die Wirtschaft zunehmend.
 Die Auserwählten wollen die Sache diesmal zügig über die Bühne bringen.
 Die Ausgabe sollte verbessert werden.
+Die Auslotung gradientenfreier Gewässer bereitet messtechnisch gesehen Schwierigkeiten.
 Die Aussagen von Christian Drosten haben mir in der Pandemie oft weitergeholfen.
 Die Aussagen von Professor Drosten landen nach dem Podcast sofort in sämtlichen Zeitungen.
 Die Aussprache hatte etwas Befreiendes.
@@ -8045,6 +8058,7 @@ Die Hausnummer muss beleuchtet sein.
 Die Haustür habe ich verkauft.
 Die Hautcreme hat echt gut geholfen.
 Die Hautversammlung hat sich der Uli auch anders vorgestellt.
+Die Heizung ist kalt.
 Die Hemden lagen sorgfältig zusammengelegt auf dem Bügelbrett.
 Die Herausforderung nehme ich an!
 Die Herbergsmutter erwartet aber eine Gegenleistung.
@@ -8419,6 +8433,7 @@ Die Polizei sieht hinter der Tat keine politische Motivation.
 Die Polizei steht daneben und schaut zu.
 Die Pollen sind weg und mit ihr die Symptome der Allergie.
 Die Pollen werden vom Winde verweht.
+Die Pommes sind kalt und matschig
 Die Pommes wurden in Belgien erfunden.
 Die Pop-Musik, aus Korea nennt man auch K-Pop.
 Die Poren öffnen sich und der Schweiß fließt.
@@ -8610,6 +8625,7 @@ Die Strecke führt einmal quer durch die Pampa.
 Die Strecke von Hamburg über Fehmarn und Lolland nach Kopenhagen wird auch Vogelfluglinie genannt.
 Die Streiterei zwischen den beiden zipft sie enorm an.
 Die Strohpuppe hat drei Leben.
+Die Struktur einer ambivalenten Beziehung beeinträchtigt das visuelle und kognitive Wahrnehmungsvermögen extrem.
 Die Strömung ist so schwach, dass sie den Schwimmern nicht auffällt.
 Die Strömungsgeräusche sind jetzt deutlich wahrnehmbar.
 Die Studentinnen können sich vor Umwerbungsversuchen kaum retten.
@@ -8812,6 +8828,8 @@ Die Zukunft ist stets ungewiss: Volles Haar oder doch nur Spliss?
 Die Zulassung erfolgt zunächst mit Vorbehalt.
 Die Zustellung dauert in der Regel ein bis zwei Werktage.
 Die Zwillinge gleichen sich wie ein Ei dem anderen.
+Die Zwillingsbrüder sind sehr unterschiedlich.
+Die Zwillingsschwestern kann niemand auseinanderhalten.
 Die Zündung einer einzelnen Rakete kann man nicht als Feuerwerk bezeichnen.
 Die abgeleitete Standardeinheit für Energie ist Joule.
 Die aggressive Vermarktung des Mittels ist Teil der unrühmlichen Geschichte des Pharmakonzerns.
@@ -8899,6 +8917,7 @@ Die drittgrößte Stadt in Österreich heißt Linz.
 Die durchgestrichene Mülltonne bedeutet, dass Akkus nicht in den Hausmüll gehören.
 Die durchgestrichene Mülltonne bedeutet, dass Batterien nicht in den Hausmüll gehören.
 Die dänische Männer-Handballnationalmannschaft vertritt Dänemark bei internationalen Turnieren im Handball.
+Die dümmsten Bauern ernten die dicksten Kartoffeln.
 Die eigene Wohnung sagt viel über eine Person aus.
 Die eine Seite zeigt einen stehenden weiblichen Genius, der eine Maske und Leier hält.
 Die einen behaupten dies, die anderen behaupten das.
@@ -9104,6 +9123,7 @@ Die meisten sind dem Netzwerk beigetreten, weil die meisten anderen dem Netzwerk
 Die meisten unserer Wähler leiden unter Realitätsverlust im Endstadium.
 Die meisten würden einfach ertrinken.
 Die meisten öffentlichen Parks und Gärten werden vom Amt für Kultur und Freizeit verwaltet.
+Die meistgestellten Fragen geben ganz bestimmt eine Antwort darauf.
 Die mir bis dato unbekannte Bibliothek hat sich als Goldgrube entpuppt.
 Die motiviertesten Mitarbeiter nützen nichts, wenn sie keine Skills haben.
 Die muss ich morgen nur noch in die Ideenwolke schreiben.
@@ -9737,6 +9757,7 @@ Dramatische Szenen spielten sich gestern auf dem Hamburger Dom ab.
 Draußen auf der Straße laufen Heuchler und Zinker.
 Draußen fahren ist schwieriger als drinnen.
 Draußen gewittert es.
+Draußen scheint die Sonne.
 Draußen sieht es sehr nach Regen aus.
 Dreh dich mal auf den Bauch.
 Dreh mal den Bass auf, dann fällt der Dreck von allein ab.
@@ -10096,6 +10117,7 @@ Dummerweise hat das Team ein Paddel verloren.
 Dummerweise hatte man vergessen, die Polizei zu schmieren.
 Dummerweise kann Anastasia nicht schwimmen.
 Dummerweise war sie nicht versichert und musste für den Schaden selbst aufkommen.
+Dummes Geschwätz.
 Dummheit frisst, Intelligenz säuft, das Genie macht beides.
 Dumpingpreis und Dumpinglohn gehen meist Hand in Hand.
 Durch Abhören unserer Telefonate hat der Geheimdienst sicher eine riesige Datenbank.
@@ -10528,6 +10550,7 @@ Ein Rumpsteak sollte richtig zubereitet werden.
 Ein Sachschaden ist besser als ein Dachschaden.
 Ein Salamander ist bei Dunkelheit in den Fensterschacht gefallen.
 Ein Satz aus seinem Nachruf.
+Ein Satz wird eigentlich mit einem Punkt beendet.
 Ein Schallplattenspieler und ein Kassettenrekorder zählten dazu, ebenso ein Radio.
 Ein Schauder lief ihr kalt den Rücken runter.
 Ein Schema, mehrere Schemata.
@@ -10623,6 +10646,7 @@ Ein blindes Huhn trinkt auch mal einen Korn.
 Ein buschiger Bart.
 Ein defekter Hydrant hat die Straße unter Wasser gesetzt.
 Ein defektes Windrad droht, einen seiner Flügel zu verlieren.
+Ein deutscher Schnäppchenjäger.
 Ein deutsches Blatt besteht aus Eichel, Laub, Herz und Schelle.
 Ein drittes ist unterwegs.
 Ein dräundes Ungemach.
@@ -10800,6 +10824,7 @@ Eine Druckbetankung war von Anfang an vorgesehen.
 Eine Durchseuchung wird tausende Leben kosten.
 Eine Ehe darf nur bei freier und uneingeschränkter Willenseinigung der künftigen Ehegatten geschlossen werden.
 Eine Einzelfallprüfung wird gefordert.
+Eine Emission energiereicher Strahlungsquanten seitens des Zentralgestirns des Solarsystems manifestiert sich exterritorial.
 Eine Entschädigung für die Hinterbliebenen ist damit wohl vom Tisch.
 Eine Familie geht im Wald spazieren.
 Eine Fangschaltung ist eingerichtet.
@@ -10909,6 +10934,7 @@ Eine alte Pantoffel muss als Türstopper herhalten.
 Eine alternative Auktionsplattform mit vernünftigem Datenschutz wäre wünschenswert.
 Eine andere Route? Die gibt es nicht.
 Eine andere Verbindung wäre günstiger.
+Eine antiquate amorose Relation zweier geschlechtlich getrennter Komponenten verhält sich oxidationsresistent.
 Eine auf dem Schreibtisch liegende Lupe hat den Brand verursacht.
 Eine ausgefallene Ampel sorgt für ungewöhnlich geschmeidigen Verkehrsfluss.
 Eine beabsichtigte Änderung der in einer Grube angewendeten Ausbauart ist der Berghauptmannschaft anzuzeigen.
@@ -11390,6 +11416,7 @@ Er blieb standhaft und brachte seinen Wunsch ihr immer wieder vor.
 Er bringt es nicht fertig, ein Gespräch mit ihr anzufangen, geschweige denn zu flirten.
 Er checkt nicht, dass er in der Friendzone steckt.
 Er dachte, es wäre eine Gaspistole gewesen.
+Er dreht jeden Euro zweimal um.
 Er drehte am Regler und stellte seine Waffe von tödlich auf Betäubung.
 Er erkennt die Zeichen seines Körpers nicht.
 Er erpresst Schutzgeld von zig Leuten und hat dabei nicht mal ein schlechtes Gewissen.
@@ -11404,6 +11431,7 @@ Er folgt mir auffällig unauffällig.
 Er freut sich schon tierisch auf seine Gefolgschaft.
 Er freut sich wie Bolle.
 Er fährt gerade Autorennen, aber Star Wars gefällt ihm auch ganz gut.
+Er fänft das Knausern an.
 Er fängt wieder mit seiner Palaverei an.
 Er fühlte sich freier als ein Vogel.
 Er gab ihr Nachhilfe im Abkochen von Kochgeschirr.
@@ -11657,6 +11685,7 @@ Er traut sich nicht alleine am Karatetraining teilzunehmen.
 Er trug einen Schnauzbart.
 Er trägt die Kapuze tief ins Gesicht gezogen.
 Er trägt ein weißes Leinenhemd.
+Er trägt gerne Knickerbocker.
 Er trägt im Winter kurze Hosen.
 Er trägt im rechten Fang eine goldene Sichel, im linken Fang einen goldenen Hammer.
 Er trägt seine Wampe mit Stolz.
@@ -12626,6 +12655,7 @@ Eventuell fehlen ihr sogar die Enzyme, um die pflanzliche Nahrung zu verwerten.
 Eventuell wird es Zeit, dass ich mir mal wieder eine gute neue Bohrmaschine kaufe.
 Eventuelle Analogien zur Realität sind reiner Zufall und nicht beabsichtigt.
 Ewald kannte sich nicht so gut mit der politischen Lage in Asien aus.
+Expansion der interranen Tuberosa steht in inverser Proportionalität zur intellektuellen Kapazität des kultivierenden Agronoms.
 Experten gehen jedoch von einer hohen Dunkelziffer aus.
 Experten gehen von einer weitaus höheren Dunkelziffer aus.
 Experten halten das Video für einen Fake.
@@ -13562,6 +13592,7 @@ Gelber Container.
 Geld ist ein wirksames Mittel, Menschen zu Dingen anzutreiben, die sie eigentlich nicht wollen.
 Geld macht nicht glücklich, aber es beruhigt ungemein.
 Geld regiert die Welt.
+Geld stinkt nicht!
 Geld und Reichtum kannst du nicht mitnehmen, wenn du stirbst.
 Geld zerstört den Charakter.
 Geld, das man nicht hat, kann man nicht ausgeben.
@@ -13772,6 +13803,7 @@ Gib "Windows" keine Chance.
 Gib Acht darauf, ihn nicht zu triggern.
 Gib Bescheid, wenn du soweit bist.
 Gib Gas!
+Gib das mal mir, ich zeig dir wie das geht
 Gib deiner Haut Zeit, Pigmente zu bilden.
 Gib deiner Mutter einen Kuss.
 Gib dem Corona Virus eine Chance.
@@ -13793,6 +13825,7 @@ Gib mal ein Lebenszeichen von dir!
 Gib mir Pflanzennamen!
 Gib mir bescheid, wenn dir etwas fehlt.
 Gib mir bitte den Zauberstab.
+Gib mir das mal, ich zeig dir wie das geht
 Gib mir dein letztes Hemd!
 Gib mir einen Tag Bedenkzeit.
 Gib mir endlich den Respekt den ich verdient habe!
@@ -14182,6 +14215,7 @@ Haben Sie ein Herz für Ausdauersportler?
 Haben Sie ein Herzleiden oder sowas in der Art?
 Haben Sie ein Problem mit Alkohol?
 Haben Sie ein Problem mit den Ohren, oder mehr so dazwischen?
+Haben Sie eine "Payback" Karte?
 Haben Sie eine Kundenkarte?
 Haben Sie eine Lizenz zum Löten?
 Haben Sie eine Payback-Karte?
@@ -14501,6 +14535,7 @@ Hast du heute Semmeln gebacken?
 Hast du im Kofferraum noch Platz für meine Reisetasche?
 Hast du in Mathe nicht aufgepasst?
 Hast du jetzt Bock?
+Hast du kalte Füße bekommen?
 Hast du kurz eine Viertelstunde Zeit?
 Hast du mal die Farben verglichen?
 Hast du mal einen Fünfziger?
@@ -15730,6 +15765,7 @@ Ich empfehle Ihnen das Wiederherstellen der Werkseinstellungen.
 Ich empfehle Opus, einen Hybridcodec, für verlustbehaftete Audiodatenkomprimierung im Internet.
 Ich empfehle dazu ein Bankschließfach.
 Ich empfehle jedem Vater seine Elternzeit zu nehmen.
+Ich empfinde es als schlecht, wenn man unnötigerweise viele Fremdwörter nutzt.
 Ich erinnere mich noch, als wäre es gestern gewesen.
 Ich erkläre es dir.
 Ich erledige heute die Dokumentation.
@@ -15737,6 +15773,7 @@ Ich erwarte, dass man ehrlich mit mir umgeht.
 Ich esse gerne Pizza.
 Ich esse gerne Polentataler.
 Ich esse nach der Karte, und Sie, lieber Freund?
+Ich estimiere es als suboptimal, wenn man altera linguale Synonyme itterativ apportiert.
 Ich fahre am liebsten im Frühjahr nach Paris.
 Ich fand Michael "Bully" Herbig ja immer besser.
 Ich fand das Füßeln schön.
@@ -16459,6 +16496,7 @@ Ich liebe diesen trockenen Humor!
 Ich liebe es, in schlauen Büchern zu schmökern!
 Ich liefere nur bestes haze, ich schwör.
 Ich liege in deinem Schoß.
+Ich lüge immer!
 Ich mach das aber ohne, dass die es sehen
 Ich mache das nur dir zuliebe.
 Ich mache dir gleich ein Foto vom Essen.
@@ -16776,6 +16814,7 @@ Ich verdiene daran, denn ich verkaufe sie.
 Ich verfolge euch schon 'ne ganze Weile.
 Ich verlange eine Gutschrift.
 Ich vermisse das Ladegerät von meinem Handy. Hast du es gesehen?
+Ich vermisse dich.
 Ich vermisse ihn seit gestern.
 Ich vermisse meine Großmutter.
 Ich verpasse dir eine anständige Tracht Prügel.
@@ -17149,6 +17188,7 @@ Ihr drückt in die falsche Richtung!
 Ihr dürft die Satzzeichen nicht vergessen. Und richtig einsetzen!
 Ihr dürft mitentscheiden.
 Ihr fragt die weisen Männer, doch sie belächeln euch nur.
+Ihr fällt die Decke auf dem Kopf.
 Ihr gefällt die Kulisse.
 Ihr geht hinein in den Wald und findet nicht wieder hinaus.
 Ihr habt auch einen Lasercutter?
@@ -18029,6 +18069,7 @@ In meiner Langeweile habe ich ein Lied geschrieben.
 In meiner Vorstellung trage ich ein weißes Sommerkleid und braune Sandalen.
 In meiner morgendlichen Trägheit habe ich es nicht mehr geschafft.
 In meiner neuen Wohnung habe ich endlich eine Fußbodenheizung.
+In meiner psychisch soziologischen Konstellation manifestiert sich die absolute Dominanz positiver Impressionen deines Individuums.
 In naher Zukunft ist eher mit Evolution statt mit Revolution zu rechnen.
 In natürlichem Gestein treten die Mineralien nur sporadisch auf.
 In nicht einmal einer Minute hatten sie die Blackstory schon gelöst.
@@ -18250,6 +18291,7 @@ Irgendwie riecht es hier verbrannt.
 Irgendwie schafft Pohlmann es immer wieder, seinen Kopf aus der Schlinge zu ziehen.
 Irgendwie schien es ihm auch ein persönliches Anliegen zu sein.
 Irgendwie schmeckt das Getränk nach Spüli.
+Irgendwie seltsam, oder?
 Irgendwie verehrt die Welt Egoisten und hasst Wohltäter.
 Irgendwie waren da alle Leute ziemlich krass drauf.
 Irgendwie waren wir dann aber doch erleichtert, als sie weg gelaufen sind.
@@ -18386,6 +18428,7 @@ Ist der Mensch Teil oder Gegenteil der Natur?
 Ist der Progesteronspiegel eine relevante Größe?
 Ist der Vertrag wenigstens monatlich kündbar?
 Ist der größte Arbeitgeber Deutschlands eigentlich eine Sekte?
+Ist der kniepig!
 Ist der neu?
 Ist die Adresse im Personalausweis noch aktuell?
 Ist die Anmeldung denn zu erreichen?
@@ -18600,6 +18643,7 @@ Ja, aber gilt das auch in den Ferien?
 Ja, aber ich habe kein Guthaben mehr.
 Ja, aber neunzehnhundertdreizehn.
 Ja, aber nicht so früh am Morgen.
+Ja, aber nur bei der neuen Mieterin.
 Ja, aber ordentlich durchgebraten.
 Ja, aber sicher ist sicher.
 Ja, aber was ist so toll daran?
@@ -19662,6 +19706,7 @@ Kein Bier vor vier.
 Kein Ding.
 Kein Elektrogrill versprüht diesen wohltuenden Geruch von Holzkohle.
 Kein Element hat eine höhere Elektronegativität als Fluor.
+Kein Fleisch, kein Fisch, nur Obst und Gemüse
 Kein Gesetz halten die Bürger so konsequent ein wie die Naturgesetze.
 Kein Händler muss sich an die unverbindliche Preisempfehlung halten.
 Kein Kommentar!
@@ -19909,6 +19954,7 @@ Knutschflecke sind versehentlich hervorgerufene Blutergüsse.
 Kochen geht auch ohne Backofen und Mikrowelle.
 Kochst du Eier?
 Kochst du mir heute was schönes?
+Kognitiv beeinträchtigtes, maskulines Individuum der lokalen Umgebung.
 Kognitiv zu früh abgebogen?
 Kohlekraftwerke sind im Wesentlichen große Dampfmaschinen.
 Kohlenhydratreiche Kost macht dick.
@@ -20502,6 +20548,7 @@ Lawrence als englischer und männlicher Vorname, oder Lawrence als französische
 Lawrence brach die Schule im Alter von vierzehn Jahren ohne Abschluss ab.
 Laß das Hansi, in meinem Sack sind keine Rosinen, ds sind Samen.
 Laß das sein!
+Laß das!
 Laß es langsam angehen.
 Lebe glücklich lebe froh, wie der Mops im Haferstroh.
 Lebe glücklich, lebe froh, wie der Mops im Haferstroh.
@@ -20825,6 +20872,7 @@ Mach mal Platz.
 Mach mal ein Foto davon.
 Mach mal ein Foto von euch.
 Mach mal lauter!
+Mach mal leiser!
 Mach mal!
 Mach nicht solchen Krach!
 Mach selber!
@@ -21867,6 +21915,7 @@ Menschenansammlungen verhalten sich immer so dumm wie ihr dümmstes Mitglied.
 Menschenkenntnis ermöglicht es einem, auch mit Menschen zurechtzukommen, die völlig anders ticken.
 Menschenskinder, sind die Nachbarn verbohrt!
 Mental Monika hat geschrieben.
+Mentale Imagination besitzt Abilität durch Kontinentaldrift kausierte Gesteinsformationen in ihrer lokalen Position zu transferieren.
 Mercedes-Sterne sind ein zusätzliches Verletzungsrisiko für Fußgänger.
 Merk dir folgende vier Begriffe: Baum, Auto, Herd, Katze.
 Merken Sie nicht, dass Sie an dem Patienten vorbeireden?
@@ -22284,6 +22333,7 @@ Mit ihrem Lärm hat sie schon die halbe Nachbarschaft geweckt.
 Mit ihrem Reklamationsversuch hält Elfriede den ganzen Laden auf.
 Mit ihrem Vorschlag war er nicht einverstanden.
 Mit ihrem extravaganten Kühlkörper ist die Grafikkarte ziemlich wuchtig.
+Mit ihren Reizen hat sie nicht gegeizt.
 Mit ihrer Intuition lag sie genau richtig.
 Mit ihrer provozierenden und pointierten Analyse ließ Gertraud die Debatte wieder aufflammen.
 Mit ihrer rechthaberischen Art kann ich nicht umgehen.
@@ -23082,6 +23132,7 @@ Nein, bitte nicht.
 Nein, bleiben Sie, ich bin schon fertig.
 Nein, da täuschen Sie sich.
 Nein, danke, ich ziehe die andere vor.
+Nein, danke.
 Nein, das Porto ist einfach.
 Nein, das Signal ist zu schwach.
 Nein, das Zeug ist hochgradig giftig.
@@ -23694,6 +23745,7 @@ Nun ist es ganz schön still, ausgenommen der Sturm, der draußen tobt.
 Nun ja, das sieht mir doch sehr nach Machtwechsel aus.
 Nun ja, jedenfalls hat Annegret nun einen neuen Avatar.
 Nun ja.
+Nun kann sie mit ihrem neuen Smartphone herumprotzen.
 Nun komm!
 Nun kommen die Steckachsen und lösen die Schnellspanner ab.
 Nun kommen wir zum dynamischen Fall.
@@ -23714,6 +23766,7 @@ Nun sage, wie hast du es mit der Religion?
 Nun scannen Sie schon den Barcode!
 Nun schlage das Lenkrad ganz nach rechts ein und gib leicht Gas.
 Nun schreit hier nicht so herum!
+Nun sei doch nichr so knickerig!
 Nun sei nicht so ein Dickkopf!
 Nun sind alle gefordert, sich einzuschränken.
 Nun spiel nicht den sterbenden Schwan.
@@ -23748,6 +23801,7 @@ Nur Anfänger lassen sich dabei erwischen.
 Nur Bares ist Wahres.
 Nur Evelyn hat die Hoffnung noch nicht aufgegeben.
 Nur Fliegen ist schöner.
+Nur Geduld, mit der Zeit wird aus Gras Milch.
 Nur Helen mag keine Marshmallows.
 Nur Hotels und Flughäfen.
 Nur Spinner glauben an eine bevorstehende Eiszeit.
@@ -23930,6 +23984,7 @@ Obacht, scharfes Gerät!
 Obdachlose sind hilfsbereiter als Superreiche.
 Oben an der Hauswand sitzt ein kleines Hoffensterchen.
 Oben im Fernsehturm gibt es ein Restaurant.
+Oberhalb Kulminationspunkten forstwirtschaftlicher Bestände tendieren die Dezibelwerte gegen den Nullpunkt.
 Oberpfaffenhofen ist als Standort des Deutschen Zentrums für Luft- und Raumfahrt bekannt.
 Oberste Instanz in Zivil- und Strafrechtssachen ist der Oberste Gerichtshof.
 Oberste Sicherheitsbehörde ist der Bundesminister für Inneres.
@@ -24399,6 +24454,7 @@ Pass besser auf dich auf!
 Pass bitte auf, die Küchenmesser sind mega scharf.
 Pass doch auf, wo du hinläufst!
 Pass mal auf!
+Passage in der analen Peripherie.
 Passanten hatten sie bemerkt und alarmierten die Bürgerwehr.
 Passanten wollen Frau Schmitz' Dackel zuletzt im Ghetto von Hürth gesehen haben.
 Passen Sie aber auf!
@@ -24538,6 +24594,7 @@ Politische Konflikte sollten nicht mit Gewalt gelöst werden.
 Polizeibeamte und Freiwillige haben das gesamte Gelände durchkämmt.
 Polizisten nehmen nicht weg, sie beschlagnahmen.
 Pommes frites sind nur essbar aus der Friteuse.
+Populanten von transparenten Domizilen sollen mit fester Materie keine transzendenten Bewegungen durchführen!
 Pornos vermitteln eine völlig falsche Vorstellung über die Pünktlichkeit von Handwerkern.
 Portugal hat immer so ein Losglück!
 Posaunen Sie bloß nicht herum, dass Sie in Besitz des Erbguts sind!
@@ -24991,6 +25048,7 @@ Schaffner, wie lange haben wir Aufenthalt?
 Schaffst du das Wolkenquiz immer noch so souverän wie früher?
 Schaffst du einen Hocksprung über den langen Kasten?
 Schallendes Gelächter!
+Schallwellen werden von dichtstehenden Bäumen reflektiert.
 Schalt das Licht aus!
 Schalt doch bitte den Drucker aus.
 Schalte alle Geräte ein.
@@ -25207,6 +25265,7 @@ Schon einmal etwas davon gehört?
 Schon fertig?
 Schon fünf Minuten am Tag können helfen.
 Schon gar nicht für längere Fahrten!
+Schon gewußt?
 Schon gut, ich zweifle nicht daran, aber es ist trotzdem merkwürdig.
 Schon gut.
 Schon in der Bibel wird Milka erwähnt.
@@ -25298,6 +25357,7 @@ Schwanensee ist ein Teich in Prag.
 Schwangerschaft ist keine Krankheit.
 Schwanzwedelnd kam Bello in die Küche.
 Schwarz wie die Nacht und dunkel wie die Seele.
+Schwarz,Rot,Gold, das sind unsere Farben
 Schwarze Tonne mit braunem Deckel.
 Schwarze Tonne mit gelbem Deckel.
 Schwarze Tonne.
@@ -25954,6 +26014,7 @@ Sie hat sich sehr über deine Hilfe gefreut.
 Sie hat sich total in Angela verknallt.
 Sie hat unerschütterlich daran festgehalten.
 Sie hat uns eine Falle gestellt!
+Sie hat viele Sachen erlebt.
 Sie hatte Schmerzen und ihr Hals brannte.
 Sie hatte alle Läden in der näheren Umgebung abgegrast und dennoch nichts gefunden.
 Sie hatte braune Haare und ein Dirndl an.
@@ -26446,6 +26507,7 @@ Sind ja nur Steuergelder!
 Sind keine Briefe für mich angekommen?
 Sind noch andere Bäume in der Nähe, so muss genügend Abstand gewahrt werden.
 Sind sie auf dem rechten Auge blind?
+Sind sie etwa nicht geimpft?
 Sind sie geimpft, genesen oder getestet?
 Sind sie geimpft?
 Sind sie gut informiert?
@@ -26742,6 +26804,7 @@ So sieht es also aus, wenn meine Mitbewohnerin eine Woche allein zu Haus war.
 So sieht es jedenfalls aus.
 So sieht sie ungeschminkt aus.
 So sind Sie, die Kinder der Liebe.
+So sind die erlebnisorientierten Halbstarken.
 So sind nun mal die Regeln.
 So sind sie, die Kinder der Triebe.
 So sind sie, die Problemkinder.
@@ -27041,6 +27104,7 @@ Sollte es doch mal tropfen, wird die Farbe abgefangen.
 Sollte es weltweit nur noch eine Währung geben?
 Sollte ich dennoch der Versuchung verfallen, darfst du mich bestrafen.
 Sollte man Moore trockenlegen?
+Sollte man nicht weniger Fremdworte verwenden?
 Sollte sich das ändern, kommen Sie gerne auf mich zurück!
 Sollte sie auf den Kosten sitzen bleiben, wäre Marina praktisch sofort pleite.
 Sollten Allergiker im Garten den Rasen mähen?
@@ -27352,6 +27416,7 @@ Steigert man den Strom weiter, wird es schmerzhaft.
 Steile These, kann er das auch argumentativ begründen?
 Stein schlägt Schere.
 Steinpilz, Pfifferling oder ähnliches kann der geübte Wanderer im Wald finden.
+Stell das wieder hin und mach was anderes
 Stell den Fernseher ab!
 Stell dich nicht über andere.
 Stell die Heizung höher.
@@ -27582,6 +27647,7 @@ Theater werden überbewertet.
 Thema der ersten Jahre war die Forderung nach freien, geheimen und gleichen Frauenwahlrecht.
 Theo fragte sich wie all die Waren so schnell auf den Wagen gekommen waren.
 Theodor war sich unsicher ob er an die Nordsee oder an die Ostsee wollte.
+Theoretisch hört sich das ganz gut an.
 Theoretisch sogar noch ein bisschen mehr.
 Theresa hat sich beim Kopfball auf die Zunge gebissen.
 Theresa steckte ihre Hand in seine Hose und holte ihm einen runter.
@@ -27706,6 +27772,7 @@ Trainiere Ich das neuronale Netz, oder trainiert das Netz mich?
 Trainiert wird mit ziemlich echt aussehenden Puppen in Lebensgröße.
 Traktor fahren!
 Tralala, ich höre nichts!
+Transparentpudding ist ein Ausdruck für Götterspeise?
 Transportverschlüsselung beherrschen mittlerweile die meisten Webserver.
 Traue keinem Computer, den du nicht eigenhändig aus dem Fenster werfen kannst!
 Traue niemals einem Fortschrittsbalken!
@@ -28581,6 +28648,7 @@ Veranschauliche den Variantenreichtum mit ein paar Bildern!
 Veranstalte bitte nicht wieder so ein Affentheater.
 Veranstalte hier nicht so ein Hokuspokus!
 Verantwortung übernehmen hieße in dem Fall zurücktreten.
+Verbalemanation ohne kommunikative Signifikanz.
 Verbandskasten und Warndreieck auch dabei?
 Verbiegst du immer alle unsere Löffel?
 Verbinden Sie mich mit der Beratungsstelle für von Steuerfahndern verfolgten Superreichen!
@@ -28976,6 +29044,7 @@ Vier von drei Leuten haben Probleme mit Mathe.
 Viertel nach neun.
 Vierundzwanzig Türchen warten darauf, geöffnet zu werden.
 Vierzehn Wörter sind ein weises Limit.
+Vierzylindermotor.
 Villach ist weit über die Grenzen Kärntens für seinen Villacher Fasching bekannt.
 Vincent konnte die Gefühle seiner Mitarbeiter nicht so gut deuten.
 Viren sind keine Lebewesen.
@@ -29013,6 +29082,7 @@ Vollgas ist also – isoliert unter diesem Aspekt betrachtet – umweltfreundlic
 Vollpension ist inklusive.
 Vollumfänglich, keiner.
 Vollwaschmittel ist für weiße Wäsche gedacht.
+Voluminöse Expansion subterrarer Agrarprodukte ist reziprok proportional zur intellektuellen Kapazität ihrer Produzenten.
 Voluminöses Haar bekommt man, wenn man es wäscht und sich danach statisch auflädt.
 Volvo ist ein schwedischer Automobilhersteller.
 Vom Alter her könnte seine Frau auch seine Tochter sein.
@@ -29156,6 +29226,7 @@ Von mir werden Sie es niemals erfahren!
 Von morgens früh bis abends spät sitze ich am Empfangsgerät.
 Von neuerem Krempel ganz abgesehen.
 Von nichts komm nichts.
+Von nichts kommt nichts.
 Von nun an steckt Frau Leifert in einem Zwiespalt.
 Von reibungslos kann keine Rede sein.
 Von schlichter Natur.
@@ -30486,6 +30557,7 @@ Welch buntes Treiben an und in der Einrichtung.
 Welch ein Feuchtnasenprimat!
 Welch ein Gaukelaffe.
 Welch ein Mistwetter!
+Welch ein Monumentalrektum!
 Welch ein Musterbeispiel für Völkerverständigung!
 Welch ein Rammler!
 Welch ein Trunkenbold.
@@ -31138,6 +31210,7 @@ Wer bin ich, das zu beurteilen?
 Wer bist du denn?
 Wer bist du?
 Wer bitte ist Felix?
+Wer braucht denn so etwas?
 Wer braucht diese schwarz und weiß Malerei?
 Wer darf alles abstimmen?
 Wer das Lösegeld bezahlt, finanziert damit den Terrorismus.
@@ -31236,6 +31309,7 @@ Wer hätte gedacht, dass so viele Menschen den Parlamentariern nachplappern werd
 Wer hätte mit so viel Beteiligung gerechnet?
 Wer hört da so laut Musik?
 Wer im Glashaus sitzt, der sollte Nachts das Licht ausmachen.
+Wer im Glashaus sitzt, sollte nicht mit Steinen werfen.
 Wer in Guantanamo keinen Schlaf findet, dem helfen weder Schlaftabletten noch Rotwein.
 Wer in die Lava fällt, ist sofort tot.
 Wer in die Öffentlichkeit tritt, hat keine Nachsicht zu erwarten und keine zu fordern.
@@ -31257,6 +31331,7 @@ Wer ist der Typ mit dem Schwertfisch als Avatar?
 Wer ist der bedeutendste Komponist von Filmmusik der Gegenwart?
 Wer ist diese Jugend?
 Wer ist eigentlich diese Agathe Bauer?
+Wer ist eigentlich dieser Ingo?
 Wer ist ihr Zahnarzt? Doktor Richter oder Doktor Friedrich?
 Wer ist mit Vorlesen dran?
 Wer ist mit dabei?
@@ -31497,6 +31572,7 @@ Werden Sie doch Kassiererin und probieren Sie es aus!
 Werden Sie nicht frech!
 Werden Sie zurückrufen?
 Werden an der Uni eigentlich nur Fachidioten herangezüchtet?
+Werden deswegen die Sätze abgelehnt?
 Werden die Daten gelöscht oder nur als gelöscht markiert?
 Werden die Holzreste einfach verbrannt?
 Werden die Küken dann erst geschreddert, wenn sie älter sind?
@@ -33447,6 +33523,7 @@ Wäre auch irgendwie zu schön gewesen, um wahr zu werden.
 Wäre der Bipolartransistor hier eine gute Wahl?
 Wäre die Welt ohne Geld eine bessere?
 Wäre es ein sicherheitskritisches Bauteil, würde man es jetzt wechseln.
+Wäre es nicht adequat, den Usus heterogener Termini zu minimieren?
 Wäre es nicht an der Zeit, vom ursprünglichen Ziel Abstand zu nehmen?
 Wäre es nicht nett, wenn man sich in einer Sprechercommunity vernetzen würde?
 Wäre für solche Überlegungen nicht ein größeres Hirn vonnöten gewesen?
@@ -33962,6 +34039,7 @@ Zählt eine Mahlzeit um dreizehn Uhr noch als Frühstück?
 Zählt man als Datenbänker auch zu den Bänkern?
 Zögern Sie nicht, einen Wunderheiler aufzusuchen!
 Züge findest du sehr leicht im Internet.
+der, die, das, wer weis das?
 ich konnte mich einfach nicht zwischen einem Döner und einem Dürüm entscheiden.
 ja klar, kannst du einen Kindersitz ausleihen.
 trans heißt: hat nicht das Geschlecht, das bei der Geburt festgelegt wurde.
@@ -34002,6 +34080,7 @@ x und y heben sich gegenseitig weg.
 Über Schnellspanner freuen sich auch Diebe.
 Über Themen außerhalb von Fußball konnte ich mit ihm nicht sprechen.
 Über Wochen hat er sich was eingesteckt.
+Über allen Wipfeln ist Ruh.
 Über andere zu lachen, ist die primitivste Art von Humor.
 Über das Einstiegsgehalt kann man schon mal nicht meckern.
 Über das Kommen mancher Leute tröstet uns nichts als die Hoffnung auf ihr Gehen.

@@ -9038,6 +9038,7 @@ Nu lipsesc exemplele în acest sens.
 Nu luăm bani de la alte naţiuni.
 Nu m-am aflat printre aceia care au susţinut-o.
 Nu m-am referit la nicio micro-autoritate.
+Nu m-am speriat.
 Nu mai aveau la chioșc și am fost sfătuit să vin aici.
 Nu mai avem nevoie de altele.
 Nu mai doresc să adaug nimic.
@@ -9063,6 +9064,7 @@ Nu mai vrem discuții de dragul discuțiilor.
 Nu menţionez aceste lucruri din întâmplare.
 Nu merită să încercăm să clasificăm păsurile.
 Nu mi se pare să fie aşa!
+Nu mi-a respectat cuvintele.
 Nu mi-a venit să cred că în comuna noastră trăiesc astfel de persoane.
 Nu mi-am putut imagina că e atât de alterată.
 Nu moneda euro a fost problema.
@@ -9293,6 +9295,7 @@ Nu susţin nimic revoluţionar, epocal sau radical aici.
 Nu susținem o astfel de uniune.
 Nu te faci vânător doar ca să admiri natura.
 Nu te poți opune unei ideologii prin fapte.
+Nu te-ai schimbat deloc.
 Nu toate aceste regiuni sunt omogene.
 Nu toată lumea a reuşit să vină.
 Nu toată lumea este de acord.
@@ -9353,6 +9356,7 @@ Nu trebuie să îi obligăm să mai aştepte.
 Nu trebuie să-mi fie teamă să rostesc cuvântul...
 Nu trebuie un alt program economic al guvernului.
 Nu trebuie înlocuită de măsuri necoordonate.
+Nu tu i-ai adus laptele?
 Nu uitați că ați fost ministrul justiției.
 Nu va avea loc o şedinţă plenară.
 Nu va fi primit, va fi returnat și judecat la Berlin.
@@ -9455,12 +9459,17 @@ Nu, nu suntem exagerat de critici.
 Nu, pentru că nu sunt informați.
 Nu, sectorul privat va trebui să facă asta.
 Nu-i milă, ci crimă să ierţi pe ucigaşi.
+Nu-mi aduc aminte.
 Nu-mi dau seama cum va fi organizat traficul dacă se construiește podul.
+Nu-mi este foame.
 Nu-mi explic ce s-a întâmplat.
 Nu-mi plac oamenii care nu au cuvânt.
 Nu-mi place când văd necredința în Dumnezeu.
 Nu-mi place minciuna și grandomania.
 Nu-mi place răutatea și prostia.
+Nu-mi regret decizia.
+Nu-mi voi cere scuze de la ea.
+Nu-mi voi cere scuze.
 Nu-ţi depăşi niciodată drepturile, şi ele vor deveni curând nelimitate.
 Nu-ţi ofensa prietenul împrumutîndu-i merite dăruite de noi.
 Numai atunci ei vor fi credibili.
