@@ -717,7 +717,7 @@ exports.stats = {
         train: 27823,
         validated: 75110,
       },
-      duration: 500993,
+      duration: 500993000,
       reportedSentences: 2022,
       clips: 120151,
       splits: {
@@ -888,7 +888,7 @@ exports.stats = {
         train: 143982,
         validated: 847678,
       },
-      duration: 52113068170,
+      duration: 5916826000,
       reportedSentences: 2090,
       clips: 1101554,
       splits: {
@@ -918,9 +918,9 @@ exports.stats = {
       checksum:
         '0a69c50e958736afe155c8f9044016c9c90e024524369741dd2bc30dfd036a4b',
       avgDurationSecs: 47.309,
-      validDurationSecs: 40102529.154,
-      totalHrs: 14475.85,
-      validHrs: 11139.59,
+      validDurationSecs: 5068556000,
+      totalHrs: 1643.56,
+      validHrs: 1407.93,
     },
     'zh-CN': {
       buckets: {
@@ -3567,8 +3567,8 @@ exports.stats = {
       validHrs: 0,
     },
   },
-  totalDuration: 182386574870,
-  totalValidDurationSecs: 130441859,
-  totalHrs: 50662,
-  totalValidHrs: 36233,
+  totalDuration: 110605436061,
+  totalValidDurationSecs: 85875615,
+  totalHrs: 30723,
+  totalValidHrs: 23854,
 };
