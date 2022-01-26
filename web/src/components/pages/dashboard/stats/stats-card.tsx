@@ -21,7 +21,7 @@ export default function StatsCard({
   title: string;
   iconButtons?: React.ReactNode;
   overlay?: React.ReactNode;
-  tabs?: { [label: string]: (props: { locale?: string }) => any };
+  tabs?: { [label: string]: (props: { locale?: string }) => any }; // eslint-disable-line @typescript-eslint/no-explicit-any
   challenge?: boolean;
   scrollable?: boolean;
   currentLocale?: string;
@@ -44,6 +44,8 @@ export default function StatsCard({
             <h2 className="challenge-title">{title}</h2>
           ) : (
             <Localized id={title}>
+              {/* Localized injects content into child component */}
+              {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
               <h2 />
             </Localized>
           )}
