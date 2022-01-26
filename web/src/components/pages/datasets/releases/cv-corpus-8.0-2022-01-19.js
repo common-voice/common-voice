@@ -717,7 +717,7 @@ exports.stats = {
         train: 27823,
         validated: 75110,
       },
-      duration: 71781639802,
+      duration: 500993,
       reportedSentences: 2022,
       clips: 120151,
       splits: {
@@ -745,10 +745,10 @@ exports.stats = {
       size: 2987783290,
       checksum:
         'b208528232109044d218035e65a91803c79319bfbcb50b616b7a1a9a7421fede',
-      avgDurationSecs: 597.429,
-      validDurationSecs: 44872859.698,
-      totalHrs: 19939.34,
-      validHrs: 12464.68,
+      avgDurationSecs: 4.17,
+      validDurationSecs: 306616.003,
+      totalHrs: 139.17,
+      validHrs: 85.17,
     },
     'zh-TW': {
       buckets: {
