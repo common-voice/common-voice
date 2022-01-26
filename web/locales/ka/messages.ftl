@@ -551,7 +551,7 @@ about-playbook-how-add-language-content-4 = მისი მეშვეობ�
 
 about-playbook-how-localize = როგორ უნდა ითარგმნოს საიტი?
 about-playbook-how-localize-content-1 = Common Voice-საიტის თარგმნისთვის გამოიყენება <strong>Pontoon</strong>.
-about-playbook-how-localize-content-2 = <pontoonAccountLink>შექმენით ანგარიში</pontoonAccountLink> თუ ჯერ არ გაქვთ. შემდეგ, აირჩიეთ ენის <strong>(‘Team’)</strong> და პროექტი <pontoonCvLink>Common Voice</pontoonCvLink>. იქ დაგხვდებათ გადასათარგმნი ფაილები. დაწკაპეთ ერთ-ერთს და გამოჩნდება ინგლისური ტექსტი, ქვემოთ კი ველი, სადაც ჩაწერთ თარგმანს.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>შექმენით ანგარიში</pontoonAccountLink> თუ ჯერ არ გაქვთ. შემდეგ, აირჩიეთ თქვენი ენის <strong>(„Team“)</strong> და პროექტი <pontoonCvLink>Common Voice</pontoonCvLink>. იქ დაგხვდებათ გადასათარგმნი ფაილები. დაწკაპეთ ერთ-ერთს და გამოჩნდება ინგლისური ტექსტი, ქვემოთ კი ველი, სადაც ჩაწერთ თარგმანს.
 about-playbook-how-localize-content-3 = თარგმნა ინგლისურიდან ხდება, თუმცა შეგიძლიათ იხილოთ <strong>შემოთავაზებებიც</strong> სხვა ენებიდან. დაწკაპეთ <strong>Profile</strong> ხატულაზე, შემდეგ <strong>Settings</strong> ბმულზე და დაამატეთ სასურველი ენები. ქვედა მარჯვენა კუთხეში იხილავთ ენებიდან შემოთავაზებებს, რომელთაც აწერია <strong>Locales</strong>. თარგმანი საიტზე აისახება ერთ დღეში.
 about-playbook-how-localize-content-4 = საიტი მზად იქნება გასაშვებად, როცა თარგმნილი იქნება 75%.
 about-playbook-how-localize-content-5 = იხილეთ ვიდეო უკეთ გასაგებად
@@ -569,16 +569,16 @@ about-playbook-how-add-sentences-content-4 = წინადადებებ�
 about-playbook-how-record-quality = როგორ იქმნება სათანადო ხარისხის ჩანაწერი?
 about-playbook-how-record-content-1 = ილაპარაკეთ ბუნებრივად! თქვენი განსხვავებული საუბრის მანერა, მეტად მისასალმებელია აქ – გვსურს მივიღოთ თქვენი აქცენტი, ხმის სიმაღლე, მეტყველების თავსებურება ისე, როგორც არის.
 about-playbook-how-record-content-2 = აირიდეთ ზედმეტი ხმაური ფონზე – თქვენი ხმა გასაგები უნდა იყოს.
-about-playbook-how-record-content-3 = წაიკითხეთ წინადადება ყურადღებით – არ გამორჩეთ, არ შეცვალოთ და არ დაამატოთ სიტყვები ან ასოები.
+about-playbook-how-record-content-3 = წაიკითხეთ წინადადება ყურადღებით – არ გამოგრჩეთ, არ შეცვალოთ და არ დაამატოთ სიტყვები ან ასოები.
 about-playbook-how-record-content-4 = დარწმუნდით, რომ თქვენი მოწყობილობა იწერს ხმას საუბრის დაწყებამდე და მხოლოდ დასრულების შემდეგ წყვეტს.
 about-playbook-how-record-content-5 = <accuracyLink>იხილეთ ვრცლად, წვლილის სწორად შეტანის შესახებ.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = როგორ შევუწყოთ ხელი ენის ზრდას Common Voice-ზე?
-about-playbook-how-grow-language-content-1 = პირობების შექმნა, განსხვავებული ხალხის მოსაზიდად მოხალისეობისთვის არის წინაპირობა, რომ Common Voice იქნება მორგებული კიდევ უფრო მეტ ადამიანზე. ჩვენ შექმნილი გვაქვს მასალები და ნიმუშები, რომლებიც ამ საქმისთვის გამოგადგებათ!
+about-playbook-how-grow-language-content-1 = პირობების შექმნა, განსხვავებული ხალხის მოსაზიდად მოხალისეობისთვის არის საწინდარი, რომ Common Voice იქნება მორგებული კიდევ უფრო მეტ ადამიანზე. ჩვენ გამზადებული გვაქვს მასალები და ნიმუშები, რომლებიც ამ საქმისთვის გამოგადგებათ!
 about-playbook-how-grow-language-content-2 = ღონისძიებები
-about-playbook-how-grow-language-content-3 = შეგიძლიათ მოაწყოთ ღონისძიება მეტი მოხალისის მოსაწვევად. გაცილებით ადვილია, ვიდრე გგონიათ. შეგიძლიათ ინტერნეტითაც, კონფერენციის ჩასატარებელი საშუალებებით ან პირადი შეხვედრებითაც, თუ უსაფრთხო იქნება. <eventTemplate>გადახედეთ ჩვენს ნიმუშებსა და მასალებს ღონისძიებების შესახებ</eventTemplate>.
+about-playbook-how-grow-language-content-3 = შეგიძლიათ მოაწყოთ ღონისძიება მეტი მოხალისის მოსაწვევად. გაცილებით ადვილია, ვიდრე გგონიათ. შესაძლებელია როგორც ინტერნეტში, კონფერენციის დასაგეგმი პროგრამებით, ასევე პირადი შეხვედრებითაც, თუ უსაფრთხოა. <eventTemplate>გადახედეთ ჩვენს ნიმუშებსა და სასარგებლო მასალებს ღონისძიებების შესახებ</eventTemplate>.
 about-playbook-how-grow-language-content-4 = სოცქსელები
 about-playbook-how-grow-language-content-5 = შეგიძლია გამოიყენოთ სხვადასხვა სოციალური ქსელი ხმის მისაწვდენად მეტ ადამიანამდე. გააზიარეთ და ახსენით, რატომაა ეს საკითხი მნიშვნელოვანი, შეეხმიანეთ ხალხს და ესაუბრეთ ენის ციფრულად გადარჩენის, ხმოვანი ხელსაწყოების ან ტექსამყაროში არსებული უთანასწორობის შესახებ. იხილეთ რჩევები <campaignLink>სოციალური კამპანიის გატარებაზე, აგრეთვე სხვა გამოსადეგი მასალები</campaignLink>.
 about-playbook-how-grow-language-content-6 = თანამშრომლობა და ქსელის შექმნა
@@ -597,7 +597,7 @@ about-playbook-how-validate-content-4 = თუ ჩანაწერს უა�
 
 about-playbook-how-access-dataset = როგორ გამოვიყენო მონაცემთა კრებული?
 about-playbook-how-access-dataset-content-1 = შეგიძლიათ გადახვიდეთ <datasetsPage>მონაცემთა კრებულის გვერდზე</datasetsPage>, აირჩიოთ ვერსია, მიუთითოთ სასურველი ენა (ენები) და ჩამოტვირთოთ! ფაილებს <metadataLink>დართული ექნება მონაცემები</metadataLink>, მათ შორის დემოგრაფიული ინფორმაცია და მოხალისეების შეფასებები. დაგჭირდებათ ელფოსტის შეყვანა, კრებულის ჩამოსატვირთად.
-about-playbook-how-access-dataset-content-2 = თუ ეძებთ ხელსაწყოებს ხმის ამომცნობი (ASR) მოდელის ასაგებად, შეგიძლიათ დაუკავშირდეთ სხვებს ჩვენს ერთობაში <discourseLink>Discourse-ზე</discourseLink>.
+about-playbook-how-access-dataset-content-2 = თუ ეძებთ ხელსაწყოებს ხმის ამომცნობი (ASR) მოდელის ასაგებად, შეგიძლიათ დაუკავშირდეთ ჩვენი ერთობის სხვა წევრებს <discourseLink>Discourse-ზე</discourseLink>.
 
 ## How are decisions made
 
