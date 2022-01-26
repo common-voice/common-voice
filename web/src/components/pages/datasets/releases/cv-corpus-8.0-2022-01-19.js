@@ -917,8 +917,8 @@ exports.stats = {
       size: 39920892777,
       checksum:
         '0a69c50e958736afe155c8f9044016c9c90e024524369741dd2bc30dfd036a4b',
-      avgDurationSecs: 47.309,
-      validDurationSecs: 5068556000,
+      avgDurationSecs: 5.371,
+      validDurationSecs: 5068560,
       totalHrs: 1643.56,
       validHrs: 1407.93,
     },
@@ -3567,8 +3567,8 @@ exports.stats = {
       validHrs: 0,
     },
   },
-  totalDuration: 110605436061,
-  totalValidDurationSecs: 85875615,
-  totalHrs: 30723,
-  totalValidHrs: 23854,
+  totalDuration: 64909685898,
+  totalValidDurationSecs: 50841646,
+  totalHrs: 18030,
+  totalValidHrs: 14122,
 };
