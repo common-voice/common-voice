@@ -545,13 +545,19 @@ about-playbook-how-localize-content-5 = Regardez notre vidéo explicative pour v
 ## How to add sentences
 
 about-playbook-how-add-sentences = Comment ajouter des phrases ?
+about-playbook-how-add-sentences-content-3 = Vous pouvez utiliser <scraperLink>l’extracteur de phrase</scraperLink> pour recueillir de courtes phrases sur Wikipédia.
+about-playbook-how-add-sentences-content-4 = Les phrases qui ont été validées sont exportées le mercredi et sont disponibles dès la version suivante.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Comment enregistrer un extrait vocal de haute qualité ?
+about-playbook-how-record-content-2 = Évitez trop de bruit de fond - il devrait être facile de vous entendre.
+about-playbook-how-record-content-3 = Lisez attentivement la phrase - n’oubliez pas, ne modifiez pas ou n’ajoutez pas de mots.
+about-playbook-how-record-content-4 = Assurez-vous que la plateforme enregistre avant de commencer à parler et qu’elle ne s’arrête qu’une fois que vous avez terminé.
 
 ## How to grow language
 
+about-playbook-how-grow-language = Comment est-il possible de développer efficacement une langue sur Common Voice ?
 about-playbook-how-grow-language-content-2 = Évènements
 about-playbook-how-grow-language-content-4 = Réseaux sociaux
 
