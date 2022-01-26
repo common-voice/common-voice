@@ -1,4 +1,4 @@
-import * as cx from 'classnames';
+import cx from 'classnames';
 import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { useState } from 'react';

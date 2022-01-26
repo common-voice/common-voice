@@ -36,9 +36,9 @@ ba = Basjkirsk
 bas = Basaa
 be = Hviterussisk
 bg = Bulgarsk
-bm = Bambara
 bn = Bengalsk
 br = Bretonsk
+bs = Bosnisk
 bxr = Burjatisk
 ca = Katalansk
 cak = Kakchikel
@@ -67,6 +67,7 @@ fy-NL = Frisisk
 ga-IE = Irsk
 gl = Galisisk
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Hebraisk
 hi = Hindi
@@ -90,7 +91,9 @@ kab = Kabylsk
 kbd = Kabardisk
 ki = Kikuyu
 kk = Kasakhisk
+km = Khmer
 kmr = Nordkurdisk
+knn = Konkani (Devanāgarī)
 ko = Koreansk
 kpv = Komi-syriansk
 kw = Cornisk
@@ -166,6 +169,7 @@ uz = Usbekisk
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+yi = Jiddisch
 yue = Kantonesisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
@@ -297,6 +301,7 @@ shortcut-record-toggle-label = Ta opp/Stopp
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Spill inn lydklipp om igjen
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Forkast pågående opptak
 shortcut-submit = Enter
 shortcut-submit-label = Send inn klipp
 request-language-text = Ser du ikke språket ditt på Common Voice ennå?
@@ -331,6 +336,7 @@ profile-form-accent =
     .label = Dialekt
 profile-form-custom-accent-help-text =
     .label = Hvordan vil du beskrive din aksent?
+profile-form-custom-accent-placeholder-2 = Begynn å skrive for å beskrive aksenten din
 profile-form-age =
     .label = Alder
 profile-form-gender-2 =
@@ -450,10 +456,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Hvorfor Common Voice?
-about-subtitle = Common Voice er en del av Mozillas initiativ for å hjelpe å lære maskiner hvordan virkelige mennesker snakker. I tillegg til Common Voice-datasettet, bygger vi også en åpen kildekode talegjenkjenningsmotor kalt Deep Speech.
-about-header-description = Begge disse prosjektene er deler av våre anstrengelser for å bygge bro over det digitale skillet. Talegjenkjenning bidrar med en menneskelig dimensjon til de digitale enhetene våre, men utviklere trenger en enorm mengde med data for å lage denne. Det meste av slike data er dyre og proprietære. Vi ønsker å gjøre stemmedata gratis og offentlig tilgjengelig, og forsikre om at dataene representerer variasjonen mellom virkelige mennesker. Sammen kan vi gjøre talegjenkjenning bedre for alle.
-how-does-it-work-title = Hvordan virker det?
 how-does-it-work-text = Vi masseinnsamler et åpent datasett av stemmer. Bidra med din stemme, valider nøyaktigheten av andres lydklipp, gjør datasettet bedre for alle.
+
+## How does it work section
+
 about-speak = Tal
 about-speak-text = Bidragsytere spiller inn lydklipp ved å lese inn fra en samling av bidratte setninger.
 about-listen-queue = Lyttekø
@@ -483,6 +489,34 @@ about-nav-why-common-voice = Hvorfor?
 about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
 about-nav-get-involved = Bli med
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft AI
 mycroft-subtitle = Kunstig Intelligens
 mycroft-description =

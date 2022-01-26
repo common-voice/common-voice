@@ -36,7 +36,6 @@ ba = Baskír
 bas = Basza
 be = Belorusz
 bg = Bolgár
-bm = Bambara
 bn = Bengáli
 br = Breton
 bs = Bosnyák
@@ -473,15 +472,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Miért a Common Voice?
-about-subtitle = A Common Voice a Mozilla azon kezdeményezésének része, hogy megtanítsuk a gépeket arra, hogyan beszélnek az emberek. A Common Voice adatkészlet mellett egy nyílt forráskódú szövegfelismerési motort is fejlesztünk, melyet Deep Searchnek hívnak.
-about-header-description =
-    Mindkét projekt azon erőfeszítésünk része, hogy áthidaljuk a digitális beszéd szakadékát. A hangfelismerési technológiák emberi dimenziót adnak az eszközeinknek, de a fejlesztőknek hatalmas mennyiségű hangadatra van szükségük az elkészítésükhöz. Jelenleg az ilyen adatok legnagyobb része drága és zárt.
-    A hangadatokat szabadon és nyilvánosan elérhetővé akarjuk tenni, és meg akarunk győződni arról, hogy az adatok a valódi emberek sokszínűségét tükrözik. Együtt mindenki számára jobbá tehetjük a hangfelismerést.
-about-header-description-2 =
-    A projekt a digitális beszéd szakadékának áthidalását célzó kezdeményezés. A hangfelismerési technológiák emberi dimenziót adnak az eszközeinknek, de a fejlesztőknek hatalmas mennyiségű hangadatra van szükségük az elkészítésükhöz. Jelenleg az ilyen adatok legnagyobb része drága és zárt.
-    A hangadatokat szabadon és nyilvánosan elérhetővé akarjuk tenni, és meg akarunk győződni arról, hogy az adatok a valódi emberek sokszínűségét tükrözik. Együtt mindenki számára jobbá tehetjük a hangfelismerést.
-how-does-it-work-title = Hogyan működik
+how-does-it-work-title-v2 = Hogyan működik a Common Voice?
 how-does-it-work-text = Közösségi munkában gyűjtjük a hangok nyílt forráskódú készletét. Adja a hangját, ellenőrizze más emberek klipjeinek pontosságát, és tegye mindenki számára jobbá az adatkészletet.
+
+## How does it work section
+
+about-language-req-subtitle = Valaki egy nyelv hozzáadását kéri.
+about-localization-title = Webhely lokalizálása
+about-localization-subtitle = A webhely szövegét lefordítják erre a nyelvre.
+about-sentence-collection-title = Mondatok gyűjtése
+about-sentence-collection-subtitle = A mondatokat összegyűjtik, hogy az emberek felolvassák.
+about-new-lang-title = Új nyelv indítása
+about-new-lang-subtitle = Elindítjuk ezen a nyelven a Common Voice webhelyet.
+about-voice-contrib-title = Közreműködés a hangokban
+about-voice-contrib-subtitle = Az emberek jönnek és a hangjukat adják.
+about-voice-validation-title = Hangok ellenőrzése
+about-voice-validation-subtitle = Mások ellenőrzik ezeket a hangfelvételeket.
+about-dataset-release-title = Adatkészlet kiadása
+about-dataset-release-subtitle = Az adatkészletet 3 havonta adjuk ki.
+about-subscribe-text = Szeretne kapcsolatban maradni a Common Voice-szal?
 about-speak = Beszéljen
 about-speak-text = A közreműködők hangfelvételeket készítenek a felajánlott mondatok felolvasásával.
 about-listen-queue = Figyelési sor
@@ -510,10 +519,66 @@ about-get-involved-text-2 =
     Nagyszerű! Lépjen velünk kapcsolatba e-mailben vagy a <discourseLink>Discourse</discourseLink>
     fórumon, küldjön be hibákat <githubLink>GitHubon</githubLink>,
     vagy csatlakozzon a <matrixLink>Matrix</matrixLink> közösségi csevegéshez.
+about-stay-in-touch = Hogyan maradhatok kapcsolatban?
+about-stay-in-touch-text-1 = <emailFragment>Regisztráljon</emailFragment> a levelezőlistánkra, hogy megtudja, hogyan vehet részt kampányokban, eseményekben és a Common Voice közös tervezési funkcióiban.
+about-stay-in-touch-text-2 = Találkozhat másokkal a Mozilla nyelvi közösségeiben, ha csatlakozik a <discourseLink>Discourse</discourseLink>-hoz, ha egy adott témához kapcsolódó beszélgetéseket szeretne, vagy a <matrixLink>Matrix</matrixLink>hoz, ha gyors tanácsokat szeretne kapni.
 about-nav-why-common-voice = Miért?
 about-nav-how-it-works = Hogyan?
 about-nav-partners = Partnerek
 about-nav-get-involved = Csatlakozzon
+about-nav-how-it-works-2 = Hogyan működik a Common Voice?
+about-nav-playbook = Tudja meg, hogyan vehetsz részt
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Mi egy nyelv a Common Voice-ban?
+about-playbook-what-is-language-content-1 = Sokféleképpen lehet gondolkodni a nyelvről. A beszédfelismerési modellek szempontjából a Common Voice a „kölcsönös érthetőségre” való összpontosítást javasolja, vagy „a nyelvet beszélők többnyire megértik egymást, ha megpróbálják?”
+about-playbook-what-is-language-content-2 = Azt akarjuk, hogy a beszédmodellek jobban megértsék a beszélők sokféleségét. Ahhoz, hogy ez megtörténjen, egy hangadatkészletnek sok különböző embert kell képviselnie.
+about-playbook-what-is-language-content-3 = Egyes nyelvek nagyon változatosak nyelvtanilag, szókincsben és kiejtésben. Emiatt 2022-ben <ctaLink>bevezetjük a „Változatokat”</ctaLink>. Ez lehetővé teszi a közösségek számára, hogy megkülönböztethessék nyelveiket a nagyobb adatkészleten belül.
+
+## How do I add a language
+
+about-playbook-how-add-language = Hogyan adhatok hozzá egy nyelvet?
+about-playbook-how-add-language-content-1 = Először ellenőrizze, hogy <languageLink>már létezik-e</languageLink>. Ha nem, akkor <strong>le kell fordítania a webhelyet, és össze kell gyűjtenie a mondatokat</strong>.
+about-playbook-how-add-language-content-2 = <strong>A webhely lefordításához</strong> <translateVideo>álltysa be</translateVideo> a <pontoonLink>Pontoonon</pontoonLink>. A Pontoon számos nyelvet tartalmaz, de ha nem rendelkezik az Önével, akkor <pontoonRequestLink>kérheti azt</pontoonRequestLink>. Ezután kérje a <repoLink>GitHubon</repoLink> keresztül, hogy tegyék elérhetővé a Common Voice projektet az adott nyelven. További információk a <localizationFragment>webhely fordításáról itt</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>A mondatok gyűjtését</strong> <scVideo>állítsa be</scVideo> a <scLink>Mondatgyűjtőben</scLink>.
+
+## How does localization work
+
+about-playbook-how-localize = Hogyan működik a webhely lokalizációja?
+about-playbook-how-localize-content-1 = A Common Voice webhely fordítása a <strong>Pontoonon</strong> történik.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Hozzon létre egy fiókot</pontoonAccountLink> ha még nem rendelkezik vele. Majd válassza ki a nyelvet <strong>(„Team”)</strong> és a <pontoonCvLink>Common Voice</pontoonCvLink> projektet. Ott lesznek a lefordítandó fájlok. Kattintson egyre, majd megjeleníti a szavakat angolul, és egy dobozt, amelyben lefordíthatja.
+about-playbook-how-localize-content-3 = A fordítás angolból történik, de láthat <strong>javaslatokat</strong> más nyelveken is. Kattintson a <strong>Profil</strong> ikonra, majd a <strong>Settings</strong> hivatkozásra, és adja hozzá azokat a nyelveken, amelyeket beszéli. A jobb alsó sarokban lesz egy fordításokat tartalmazó lista, a <strong>Locales</strong> lapon. A fordítások egy nap után jelennek meg az oldalon.
+about-playbook-how-localize-content-4 = A webhely akkor áll készen az indításra, ha eléri a 75%-os készültséget.
+about-playbook-how-localize-content-5 = A segítséghez tekintse meg a magyarázó videónkat
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Hogyan adhatok hozzá mondatokat?
+about-playbook-how-add-sentences-content-1 = A <strong>mondatgyűjtő</strong> egy eszköz, amely közkincsű mondatok gyűjtésére és ellenőrzésére szolgál. <scAccountLink>Létre kell hoznia egy fiókot</scAccountLink>. Majd adja hozzá a nyelvét a <strong>profiljában</strong>. <strong>Hozzáadhat</strong> mondatokat, vagy <strong>ellenőrizheti</strong> az előzőleg hozzáadottakat.
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance = Hogyan születnek a projektekkel kapcsolatos döntések?
+about-playbook-how-project-governance-content-2 = Az irányításunk ezekre a pillérekre épül:
+about-playbook-how-project-governance-content-3 = Adatvédelem, biztonság és átláthatóság.
+about-playbook-how-project-governance-content-4 = Közösségi részvétel és döntéshozatal.
+about-playbook-how-project-governance-content-5 = Érték és elismerés.
+about-playbook-how-project-governance-content-6 = Kölcsönös elszámoltathatóság.
+about-playbook-how-project-governance-content-7 = <governanceLink>További információk az irányításunkról</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Mesterséges intelligencia
 mycroft-description =
@@ -568,9 +633,9 @@ review-terms = A Common Voice használatával elfogadja a <termsLink>Jogi felté
 terms-agree = Elfogadom
 terms-disagree = Nem fogadom el
 review-aborted = Feltöltés megszakítva. Törli a felvételt?
-review-submit-title = Átnézés és beküldés
+review-submit-title = Ellenőrzés és beküldés
 review-submit-msg = Köszönjük a felvételt!<lineBreak></lineBreak>Nézze át, és küldje be az alábbi klipeket.
-review-recording = Véleményezés
+review-recording = Ellenőrzés
 review-rerecord = Újrarögzítés
 review-cancel = Beküldés megszakítása
 review-keep-recordings = Felvételek megtartása
@@ -959,7 +1024,7 @@ demo-account-sign-up = Regisztrációs hivatkozás engedélyezése
 ## Demo Contribute
 
 demo-contribute-card-header = Készen áll, hogy kölcsönadja a hangját vagy a fülét?
-demo-contribute-card-body-v2 = Most, hogy egy kicsit többet tud a Common Voice-ról, miért ne próbálná ki? Kattintson a mikrofon ikonra a mondatok hangos olvasásának megkezdéséhez.<br/><br/>Ha inkább átnézné mások hanghozzájárulásait, kattintson a lejátszás ikonra. Segíteni fog annak a megerősítésében, hogy a hangfelvételek megegyeznek a képernyőre írt mondatokkal.
+demo-contribute-card-body-v2 = Most, hogy egy kicsit többet tud a Common Voice-ról, miért ne próbálná ki? Kattintson a mikrofon ikonra a mondatok hangos olvasásának megkezdéséhez.<br/><br/>Ha inkább ellenőrizné mások hanghozzájárulásait, kattintson a lejátszás ikonra. Segíteni fog annak a megerősítésében, hogy a hangfelvételek megegyeznek a képernyőre írt mondatokkal.
 demo-listen-subtitle = Készen áll a közreműködésre?
 
 ## Demo Dashboard
@@ -1313,7 +1378,7 @@ sc-review-select-language = Válasszon nyelvet a mondatok ellenőrzéséhez.
 sc-review-no-sentences = Nincsenek ellenőrizendő mondatok. <addLink>Adjon hozzá további mondatokat.</addLink>
 sc-review-form-prompt =
     .message = Az ellenőrzött mondatokat nem küldte be, biztos benne?
-sc-review-form-usage = Csúsztassa jobbra a mondat jóváhagyásához. Csúsztassa balra az elutasításhoz. Csúsztassa felfelé az átugráshoz. <strong>Ne felejtse el elküldeni az értékelését.</strong>
+sc-review-form-usage = Csúsztassa jobbra a mondat jóváhagyásához. Csúsztassa balra az elutasításhoz. Csúsztassa felfelé az átugráshoz. <strong>Ne felejtse el elküldeni az ellenőrzés eredményét.</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Forrás: { $sentenceSource }

@@ -36,7 +36,6 @@ ba = Bashkir
 bas = Basaa
 be = Belarusian
 bg = Bulgaria ñe’ẽ
-bm = Bambara
 bn = Bengali ñe’ẽ
 br = Breton ñe’ẽ
 bs = Bosnia
@@ -469,12 +468,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ¿Mba’é eipurúta Common Voice?
-about-subtitle = Common Voice niko Mozilla rembiapo oipytyvõva maquina-kuérape oñe’ẽvo oñe’ẽháicha yvypóra. Common Voice kuaapy’aty ykére, rojapo avei ambue tembiporu hérava Deep Speech, ha’evahína tembiporu oikũmbykuaáva yvypóra ñe’ẽ.
-about-header-description =
-    Mokõivéva tembiapo rojapo roñeha’ãgui og̃uahẽ hag̃ua tembiporu pyahu opavavépe. Tembiporu yvypóra ñe’ẽ oikũmbýva ombohasy’ỹve mba’epyahu jeporu (mohendaha, pumbyry, tablet ha ambueve). Upeva’erã roikotevẽ hetaite ñe’ẽryapu ñongatupyre. Ko’ag̃a rupi heta yvypóra ñe’ẽryapu ñongatupyre oĩva ijára.
-    Ore rohecha vai upéva ha roipota opavave oiporukuaa tembiporu yvypóra ñe’ẽ oikũmbýva ha oĩhágui opaichagua yvypóra, roipota avei ojejesarekõ opaite ñe’ẽ oĩva ñande yvy ape ári rehe. Oñondive ñamoĩkuaa ãichagua tembiporu opavave pópe.
-how-does-it-work-title = ¿Mba’éicha omba’apo?
+how-does-it-work-title-v2 = ¿Mba’éicha omba’apo Common Voice?
 how-does-it-work-text = Ore romono’õ viru yvypóra ome’ẽreíva ñandéve jajapo hag̃ua ko tembiapo. Eme’ẽmi nde ahy’o térã emoneĩ ñe’ẽryapu ñongatupyre eporopytyvõ hag̃ua avei. Péicharupi ko tembiapo iporãveta opavavépe g̃uarã.
+
+## How does it work section
+
+about-language-req-subtitle = Oĩ ojeruréva oñembojuajúvo peteĩ ñe’ẽ.
+about-localization-title = Ñanduti renda moñe’ẽasa
+about-localization-subtitle = Ñanduti renda oñemoñe’ẽasa pe ñe’ẽme.
+about-sentence-collection-title = Ñe’ẽjuaju ñembyatyha
+about-sentence-collection-subtitle = Oñembyaty ñe’ẽjuaju tapicha omoñe’ẽ hag̃ua ayvúpe.
+about-new-lang-title = Ñe’ẽ pyahu ñemyasãi
+about-new-lang-subtitle = Romyasãima Common Voice renda ko ñe’ẽme.
+about-voice-contrib-title = Ñe’ẽayvu ñeme’ẽ
+about-voice-contrib-subtitle = Yvypóra ou ha oipytyvõ iñe’ẽ rupive.
+about-voice-validation-title = Ñe’ẽayvu ñemoneĩ
+about-voice-validation-subtitle = Ambue yvypóra omoneĩ umi ñe’ẽayvu.
+about-dataset-release-title = Mba’ekuaarã aty ñemyasãi
+about-dataset-release-subtitle = Rohupi mba’ekuaarã aty 3 jasy ohasa rire.
+about-subscribe-text = ¿Eñe’ẽse tapiaitépa Common Voice ndive?
 about-speak = Ayvu
 about-speak-text = Ome’ẽva ijahy’o omoñe’ẽ hatã ñe’ẽjoaju ome’ẽreiva’ekue avei oréve ambue pytyvõhára ha oĩva ore kuaapy’atýpe.
 about-listen-queue = Ñehenduha ruguái
@@ -502,10 +514,57 @@ about-get-involved-text-2 =
     Reipytyvõsépa ikatu hag̃uáicha Common Voice iporãve?
     Iporãiténe upéva! Eñe’ẽ orendive ne ñe’ẽveve rupive térã <discourseLink>Ñomongetaguasu</discourseLink>
     renda rupive, orekuaaukamína avei oĩramo apañuãi ñanduti rendápe ko’ápe:<githubLink>GitHub</githubLink> térã eikemi <matrixLink>Atyrusu</matrixLink>ñemongeta rendápe.
+about-stay-in-touch = ¿Mba’éicha aiméta ñe’ẽme?
 about-nav-why-common-voice = ¿Mba’ére?
 about-nav-how-it-works = ¿Mba’e?
 about-nav-partners = Irũnguéra
 about-nav-get-involved = Ñepytyvõ
+about-nav-how-it-works-2 = ¿Mba’éicha omba’apo Common Voice?
+about-nav-playbook = Aikuaa mba’éichapa aikéta
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = ¿Mba’épa ñe’ẽ Common Voice ryepýpe?
+
+## How do I add a language
+
+about-playbook-how-add-language = ¿Mba’éicha ambojuajúta ñe’ẽ?
+
+## How does localization work
+
+about-playbook-how-localize = ¿Mba’éicha ojejapo ñe’ẽasa tendápe?
+about-playbook-how-localize-content-5 = Ehecha ore ta’ãngamýi myesakãha ne pytyvõtava
+
+## How to add sentences
+
+about-playbook-how-add-sentences = ¿Mba’éicha ambojuajúta ñe’ẽjuaju?
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = Tembiaporã
+about-playbook-how-grow-language-content-4 = Ava ñandutieta
+about-playbook-how-grow-language-content-6 = Ñemboaty ha ñandutieta
+
+## How to validate
+
+about-playbook-how-validate = ¿Mba’éicha aikuaáta amoneĩtaha ñe’ẽayvu jekutu?
+
+## How to access dataset
+
+about-playbook-how-access-dataset = ¿Mba’éicha aike ha aipurúta mba’ekuaarã aty?
+
+## How are decisions made
+
+about-playbook-how-project-governance = ¿Mba’éichapa ojejapyhy apopyrã rape?
+about-playbook-how-project-governance-content-2 = Ore rekuái oñemopyenda ko’ã ytáre:
+about-playbook-how-project-governance-content-3 = Tekoñemi, tekorosã ha tekosakã.
+about-playbook-how-project-governance-content-4 = Tekohápe jeike ha mba'e tapépa ojejapyhy.
+about-playbook-how-project-governance-content-5 = Tepykue ha jehechakuaa.
+about-playbook-how-project-governance-content-6 = Jepapapy mokõiveguáva.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Tembiporu Ikatupyrýva
 mycroft-description =

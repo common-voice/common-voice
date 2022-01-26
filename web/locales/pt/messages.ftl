@@ -36,7 +36,6 @@ ba = Basquir
 bas = Basa
 be = Bielorrusso
 bg = Búlgaro
-bm = Bambara
 bn = Bengalês
 br = Bretão
 bs = Bósnio
@@ -470,15 +469,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Por que o Common Voice?
-about-subtitle = O Common Voice faz parte da iniciativa da Mozilla de ajudar a ensinar às máquinas como pessoas de verdade falam. Em paralelo ao conjunto de dados do Common Voice, estamos construindo também um mecanismo de reconhecimento de voz de código aberto chamado Deep Speech.
-about-header-description =
-    Ambos os projetos fazem parte de nossos esforços de conciliar a desunião da fala digital. Tecnologias de reconhecimento de voz dão uma dimensão humana a nossos dispositivos, mas os desenvolvedores precisam de uma enorme quantidade de dados de voz para construí-las. Atualmente, a maioria dos dados é cara e proprietária.
-    Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de assegurar que os dados representem a diversidade de pessoas reais. Juntos podemos tornar o reconhecimento de voz melhor para todos.
-about-header-description-2 =
-    Este projeto é um esforço de conciliar a desunião da fala digital. Tecnologias de reconhecimento de voz dão uma dimensão humana a nossos dispositivos, mas os desenvolvedores precisam de uma enorme quantidade de dados de voz para construí-las. Atualmente, a maioria dos dados é cara e proprietária.
-    Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de assegurar que os dados representem a diversidade de pessoas reais. Juntos podemos tornar o reconhecimento de voz melhor para todos.
-how-does-it-work-title = Como funciona
+about-header-description-v2 =
+    <p>O Common Voice é um conjunto de dados de voz disponível publicamente, alimentado pelas vozes de colaboradores voluntários do mundo todo. As pessoas que querem criar aplicativos de voz podem usar o conjunto de dados para treinar modelos de aprendizado de máquina.</p>
+    <p>Atualmente, a maioria dos conjuntos de dados de voz pertence a empresas, o que reprime a inovação. Esses conjuntos de dados de voz também representam demais homens brancos falantes de inglês. Significa que a tecnologia habilitada para voz simplesmente não funciona em muitos idiomas e, onde funciona, pode não desempenhar igualmente bem para todos. Queremos mudar isso, mobilizando pessoas em todos os lugares para compartilhar suas vozes.</p>
+how-does-it-work-title-v2 = Como funciona o Common Voice?
 how-does-it-work-text = Estamos colhendo um conjunto de dados de voz de código aberto através de colaboração pública. Doe sua voz, valide a correção dos clipes de outras pessoas, torne o conjunto de dados melhor para todos.
+
+## How does it work section
+
+about-language-req-subtitle = Alguém pede que um idioma seja adicionado.
+about-localization-title = Tradução do site
+about-localization-subtitle = O texto do site é traduzido para esse idioma.
+about-sentence-collection-title = Coleta de frases
+about-sentence-collection-subtitle = Frases são coletadas para que as pessoas leiam em voz alta.
+about-new-lang-title = Lançamento de novo idioma
+about-new-lang-subtitle = Lançamos o site do Common Voice neste idioma.
+about-voice-contrib-title = Contribuição de voz
+about-voice-contrib-subtitle = Pessoas vêm e contribuem com suas vozes.
+about-voice-validation-title = Validação de voz
+about-voice-validation-subtitle = Outras pessoas validam esses clipes de voz.
+about-dataset-release-title = Lançamento do conjunto de dados
+about-dataset-release-subtitle = Lançamos o conjunto de dados a cada 3 meses.
+about-subscribe-text = Quer ficar em contato com o Common Voice?
 about-speak = Falar
 about-speak-text = Os colaboradores gravam clipes de voz lendo a partir de um banco de frases doadas.
 about-listen-queue = Fila de audição
@@ -507,10 +519,94 @@ about-get-involved-text-2 =
     Fantástico! Entre em contato via email ou nos fóruns do <discourseLink>Discourse</discourseLink>,
     relate problemas no site via <githubLink>GitHub</githubLink>,
     ou participe de conversas da comunidade no <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Como ficar em contato?
+about-stay-in-touch-text-1 = <emailFragment>Inscreva-se</emailFragment> em nossa lista de emails para saber como você pode participar de campanhas, eventos e recursos de design cooperativo no Common Voice.
+about-stay-in-touch-text-2 = Você pode conhecer outras pessoas nas comunidades de idioma da Mozilla, juntando-se ao <discourseLink>Discourse</discourseLink> para conversas sobre tópicos, ou ao <matrixLink>Matrix</matrixLink> para aconselhamento rápido.
 about-nav-why-common-voice = Por quê?
 about-nav-how-it-works = Como?
 about-nav-partners = Parceiros
 about-nav-get-involved = Envolva-se
+about-nav-how-it-works-2 = Como funciona o Common Voice?
+about-nav-playbook = Saiba como participar
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = O que é um idioma no Common Voice?
+about-playbook-what-is-language-content-1 = Há muitas formas de pensar sobre idioma. Para fins de modelos de reconhecimento de fala, o Common Voice sugere focar na 'inteligibilidade mútua', ou 'a maioria dos falantes desse idioma consegue se entender, se tentar?'
+about-playbook-what-is-language-content-2 = Queremos que os modelos de fala sejam melhores para entender uma gama diversificada de falantes. Para que isso aconteça, um conjunto de dados de voz deve representar muitas pessoas diferentes.
+about-playbook-what-is-language-content-3 = Alguns idiomas têm uma enorme variação de gramática, vocabulário e pronúncia. Por esse motivo, <ctaLink>lançamos ‘Variantes’</ctaLink> em 2022. Isso oferece às comunidades uma forma de distinguir seus idiomas no conjunto de dados mais amplo.
+
+## How do I add a language
+
+about-playbook-how-add-language = Como adicionar um idioma?
+about-playbook-how-add-language-content-1 = Primeiro, verifique se seu idioma <languageLink>já existe</languageLink>. Se não existir, você precisa <strong>traduzir o site e coletar frases</strong>.
+about-playbook-how-add-language-content-2 = <strong>Para traduzir o site</strong>, <translateVideo>cadastre-se</translateVideo>  no <pontoonLink>Pontoon</pontoonLink>. O Pontoon tem muitos idiomas, mas se não tiver o seu, você pode <pontoonRequestLink>solicitar</pontoonRequestLink>. Depois peça <repoLink>via GitHub</repoLink> para disponibilizar o projeto Common Voice no idioma. Saiba mais sobre <localizationFragment>tradução do site</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Para coletar frases</strong>, <scVideo>cadastre-se</scVideo> no <scLink>Coletor de frases</scLink>.
+about-playbook-how-add-language-content-4 = Você pode <scLinkAdd>adicionar pequenas quantidades</scLinkAdd> de frases aqui, ou pode fazer <bulkImportDocsLink>importação em massa</bulkImportDocsLink> por meio de uma requisição do Github. Lembre que as frases precisam ser <licenseLink>CC0 (ou de domínio público)</licenseLink>, ou você pode escrever suas próprias. Saiba mais sobre <scFragment>coleta de frases</scFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Como funciona a tradução do site?
+about-playbook-how-localize-content-1 = A tradução do site Common Voice é feita no <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Crie uma conta</pontoonAccountLink> se ainda não tiver. Depois escolha seu idioma <strong>(‘Equipe’)</strong> e escolha o projeto, <pontoonCvLink>Common Voice</pontoonCvLink>. Haverá arquivos a ser traduzidos. Clique em um deles, então aparecem palavras em inglês e um campo para traduzir.
+about-playbook-how-localize-content-3 = A tradução é a partir do inglês, mas você pode ver <strong>sugestões</strong> em outros idiomas. Clique no ícone de <strong>perfil</strong>, depois no link <strong>Settings</strong> (configurações) e adicione os idiomas que você fala. No canto inferior direito há uma lista de traduções chamada <strong>Locales</strong>. As traduções aparecem no site após um dia.
+about-playbook-how-localize-content-4 = O site fica pronto para ser lançado quando atingir 75% de conclusão.
+about-playbook-how-localize-content-5 = Assista ao nosso vídeo explicativo
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Como adicionar frases?
+about-playbook-how-add-sentences-content-1 = O <strong>coletor de frases</strong> é uma ferramenta para coletar e validar frases de domínio público. Você <scAccountLink>precisa criar uma conta</scAccountLink>. Depois adicione seu idioma ao seu <strong>perfil</strong>. Você pode <strong>adicionar</strong> frases ou <strong>revisar</strong> frases adicionadas anteriormente.
+about-playbook-how-add-sentences-content-2 = As frases devem ser revisadas e aceitas por duas pessoas para ser incluídas no Common Voice. Você cria diretrizes para seu idioma <languageGuidelinesLink>aqui</languageGuidelinesLink>. As frases devem ser de <licenseLink>domínio público</licenseLink> e ter menos de 15 palavras. Você pode pedir ao proprietário de um texto para torná-lo <waiverLink>CC0 (domínio público) usando nosso processo de renúncia de direitos</waiverLink> e nos enviar em commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Você pode usar o <scraperLink>extrator de frases</scraperLink> para aproveitar frases curtas do Wikipedia.
+about-playbook-how-add-sentences-content-4 = Frases validadas são exportadas às quartas-feiras e ficam disponíveis após o próximo lançamento.
+
+## How to record quality
+
+about-playbook-how-record-quality = Como gravar um clipe de voz de alta qualidade?
+about-playbook-how-record-content-1 = Fale com sua voz normal! A maneira como você fala é bem-vinda aqui. Queremos seu sotaque como ele é, e queremos seu volume, estilo e entonação habituais.
+about-playbook-how-record-content-2 = Evite muito ruído de fundo. Deve ser fácil ouvir você.
+about-playbook-how-record-content-3 = Leia a frase com atenção. Não descarte, altere ou adicione palavras.
+about-playbook-how-record-content-4 = Certifique-se de que a plataforma esteja gravando antes de começar a falar e que ela só pare quando você terminar.
+about-playbook-how-record-content-5 = <accuracyLink>Saiba mais sobre critérios de precisão.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Como podemos efetivamente fazer crescer um idioma no Common Voice?
+about-playbook-how-grow-language-content-1 = Criar oportunidades para que uma diversidade de pessoas contribua com o Common Voice garante que o conjunto de dados atenda ao maior número possível de pessoas. Criamos recursos e modelos que você pode usar!
+about-playbook-how-grow-language-content-2 = Eventos
+about-playbook-how-grow-language-content-3 = Você pode realizar eventos para ajudar as pessoas a contribuir. É mais fácil do que você imagina. Você pode fazer isso online com uma ferramenta de videoconferência, ou pessoalmente se for seguro. <eventTemplate>Confira nossos modelos e recursos para a realização de eventos</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Mídia social
+about-playbook-how-grow-language-content-5 = Você pode usar plataformas de mídia social para divulgar a mensagem. Compartilhe publicações que explicam por que isso é importante e entre em contato com outras pessoas para falar sobre questões como direitos de idioma, inteligência artificial de voz ou preconceito em tecnologia. Veja mais conselhos sobre <campaignLink>como realizar uma campanha em mídias sociais, incluindo conteúdo que você pode reutilizar</campaignLink>.
+about-playbook-how-grow-language-content-6 = Parcerias e redes
+about-playbook-how-grow-language-content-7 = Encontre outras pessoas que se importam. Pode ser em universidades, escolas de idiomas, grupos de defesa ou comunidades de ciência de dados. Entre em contato e explique com clareza como eles podem ajudar e por quê. <outreachTemplates>Veja nossos modelos de email de divulgação</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Seja criativo!</strong> Sua comunidade de idioma será única. Essas são apenas algumas maneiras de começar.
+
+## How to validate
+
+about-playbook-how-validate = Como posso saber se devo aprovar um clipe de voz?
+about-playbook-how-validate-content-1 = Se você conseguiu <strong>ouvir</strong> e <strong>entender</strong>, geralmente é <strong>melhor aprovar</strong>.
+about-playbook-how-validate-content-2 = <strong>Não rejeite clipes em que o locutor ‘tem um sotaque’ diferente do seu</strong>. Isso é importante para que o reconhecimento de voz funcione melhor para todos.
+about-playbook-how-validate-content-3 = Se você acha que a pronúncia torna <strong>impossível entender</strong>, ou há <strong>muito ruído de fundo</strong>, ou há <strong>outras pessoas falando também</strong>, então você deve rejeitar o clipe. <accuracyLink>Veja mais informações em nossos critérios de precisão</accuracyLink>.
+about-playbook-how-validate-content-4 = Se um clipe for rejeitado por 2 pessoas, ele é lançado em um subconjunto diferente do conjunto de dados.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Como acessar e usar o conjunto de dados?
+about-playbook-how-access-dataset-content-1 = Você pode acessar a <datasetsPage>página de conjuntos de dados</datasetsPage>, selecionar a versão e o(s) idioma(s) que quer e baixar! Os arquivos têm <metadataLink>metadados associados</metadataLink>, como informações demográficas e dados de validação. Você precisa fornecer um endereço de email para baixar um conjunto de dados.
+about-playbook-how-access-dataset-content-2 = Se você está procurando ferramentas para construir modelos de reconhecimento automático de voz, pode se conectar com outras pessoas na comunidade, <discourseLink>no Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Como são tomadas as decisões do projeto?
+about-playbook-how-project-governance-content-1 = O Mozilla Common Voice é possível graças a uma comunidade diversificada de ativistas, linguistas, cientistas de dados, acadêmicos e engenheiros de software do mundo todo. O projeto é administrado pela Fundação Mozilla.
+about-playbook-how-project-governance-content-2 = Nossa governança está alicerçada nos pilares de:
+about-playbook-how-project-governance-content-3 = Privacidade, segurança e transparência.
+about-playbook-how-project-governance-content-4 = Participação e tomada de decisões da comunidade.
+about-playbook-how-project-governance-content-5 = Valorização e reconhecimento.
+about-playbook-how-project-governance-content-6 = Responsabilidade mútua.
+about-playbook-how-project-governance-content-7 = <governanceLink>Mais informações sobre nossos critérios de gerenciamento do projeto</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Inteligência artificial
 mycroft-description =
@@ -702,7 +798,7 @@ record-error-too-short = A gravação foi muito curta.
 record-error-too-long = A gravação foi muito longa
 record-error-too-quiet = A gravação ficou com volume muito baixa.
 record-cancel = Cancelar regravação
-record-instruction = { $actionType }<recordIcon></recordIcon>e então leia a sentença em voz alta
+record-instruction = { $actionType }<recordIcon></recordIcon> depois leia a frase em voz alta
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> quando terminar
 record-three-more-instruction = No três, vai!
 record-again-instruction = Ótimo! <recordIcon></recordIcon> Grave a próxima frase
@@ -719,7 +815,7 @@ record-abort-text = Se parar agora vai perder todo o seu progresso
 record-abort-submit = Enviar frases
 record-abort-continue = Finalizar gravação
 record-abort-delete = Sair e excluir frases
-listen-instruction = { $actionType } <playIcon></playIcon> as sentenças foram pronunciadas com precisão?
+listen-instruction = { $actionType }<playIcon></playIcon> a frase foi pronunciada com precisão?
 listen-again-instruction = Bom trabalho! <playIcon></playIcon> Ouça novamente quando estiver pronto
 listen-3rd-time-instruction = 2 prontas <playIcon></playIcon> , continue assim!
 listen-last-time-instruction = <playIcon></playIcon> Última!
@@ -1044,7 +1140,7 @@ sc-logout-button = Sair
 ## HOME
 
 sc-home-title = Boas-vindas ao coletor de frases do Common Voice
-sc-home-intro = O Coletor de Sentenças faz parte do <commonVoiceLink>Common Voice</commonVoiceLink>. Ele permite que colaboradores coletem e validem frases criadas pela comunidade. Você também pode usar esta ferramenta para importar e limpar frases de domínio público de pequeno a médio porte que você encontrou ou coletou. Todas as frases precisam ser de domínio público. Frases aprovadas são exportadas toda semana para o repositório do Common Voice e lançadas no site do Common Voice em cada nova implantação.
+sc-home-intro = O coletor de frases faz parte do <commonVoiceLink>Common Voice</commonVoiceLink>. Ele permite que colaboradores coletem e validem frases criadas pela comunidade. Você também pode usar esta ferramenta para importar e limpar frases de domínio público de pequeno a médio porte que você encontrou ou coletou. Todas as frases precisam ser de domínio público. Frases aprovadas são exportadas toda semana para o repositório do Common Voice e lançadas no site do Common Voice em cada nova implantação.
 sc-home-collect-title = Coletar frases
 sc-home-collect-text = Ajude-nos escrevendo ou coletando frases de domínio público.
 sc-home-review-title = Revisar frases

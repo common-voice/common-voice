@@ -36,7 +36,6 @@ ba = Baschiro
 bas = Basaa
 be = Bielorusso
 bg = Bulgaro
-bm = Bambara
 bn = Bengalese
 br = Bretone
 bs = Bosniaco
@@ -466,11 +465,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Perché Common Voice?
-about-subtitle = Common Voice è parte di un’iniziativa Mozilla per insegnare alle macchine come la gente parla nella vita reale. In aggiunta al dataset di Common Voice, stiamo costruendo un motore di riconoscimento vocale open source chiamato Deep Speech.
-about-header-description = Entrambi i progetti rientrano nella nostra missione di colmare il divario nel settore del riconoscimento vocale digitale. Le tecnologie di riconoscimento vocale conferiscono una dimensione umana ai nostri dispositivi, ma gli sviluppatori hanno bisogno di un’enorme quantità di dati vocali per crearle. Attualmente, la maggior parte di questi dati è costosa e proprietaria. Vogliamo rendere i dati vocali disponibili liberamente e pubblicamente e assicurarci che questi dati rispecchino la diversità delle persone reali. Insieme possiamo rendere il riconoscimento vocale migliore per tutti.
-about-header-description-2 = Questo progetto mira a colmare il divario nel settore del riconoscimento vocale digitale. Le tecnologie di riconoscimento vocale conferiscono una dimensione umana ai nostri dispositivi, ma gli sviluppatori hanno bisogno di un’enorme quantità di dati vocali per crearle. Attualmente, la maggior parte di questi dati è costosa e proprietaria. Vogliamo rendere i dati vocali disponibili liberamente e pubblicamente e assicurarci che questi dati rispecchino la diversità delle persone reali. Insieme possiamo rendere il riconoscimento vocale migliore per tutti.
-how-does-it-work-title = Come funziona
 how-does-it-work-text = Stiamo realizzando un dataset vocale open source attraverso il crowdsourcing. Dona la tua voce, convalida le registrazioni inviate da altre persone, rendi il dataset migliore per tutti.
+
+## How does it work section
+
 about-speak = Parla
 about-speak-text = I collaboratori leggono e registrano un breve testo tratto da una banca dati di frasi donate.
 about-listen-queue = Coda di ascolto
@@ -498,6 +496,42 @@ about-nav-why-common-voice = Perché?
 about-nav-how-it-works = Come?
 about-nav-partners = Partner
 about-nav-get-involved = Collabora
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance = Come vengono prese le decisioni relative al progetto?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice esiste grazie a una comunità eterogenea di attivisti, linguisti, data scientist, accademici e sviluppatori software di tutto il mondo. Il progetto è gestito da Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = La nostra governance si basa sui seguenti pilastri:
+about-playbook-how-project-governance-content-3 = Privacy, sicurezza e trasparenza.
+about-playbook-how-project-governance-content-4 = Partecipazione della comunità nel processo decisionale.
+about-playbook-how-project-governance-content-5 = Valore e riconoscimento.
+about-playbook-how-project-governance-content-6 = Responsabilità reciproca.
+about-playbook-how-project-governance-content-7 = <governanceLink>Ulteriori informazioni sui criteri di gestione del progetto.</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligenza artificiale
 mycroft-description = Mycroft è il primo assistente digitale open source al mondo. Puoi installare Mycroft ovunque: computer fissi, automobili e perfino Raspberry Pi.

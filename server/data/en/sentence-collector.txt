@@ -1866,6 +1866,7 @@ A chronic meningitis will probably soon prove destructive to life.
 A cigar consists of three parts, the wrapper, the bunch, and the filler.
 A city is a place with a large number of men and women.
 A class action was brought against the company.
+A class of individuals sued TransUnion under the Fair Credit Reporting Act.
 A clear fountain of living water bubbled forth from under the twisted roots.
 A clear ten thousand per annum.
 A clergyman like you must marry.
@@ -1937,6 +1938,7 @@ A dismal place, indeed, but Houghton felt only its strangeness.
 A disposition of this character is to be avoided.
 A district of country is first divided into square miles, or sections.
 A disturbing picture, you will admit.
+A divided panel of the Ninth Circuit affirmed the District Court's decision.
 A dog barked furiously.
 A door out of our garden will save the roundabout by the town.
 A doped animal will run till it is done, mad drunk with the drug.
@@ -3287,6 +3289,7 @@ Also, in summer, the pits are slack.
 Also, people who haven't died yet are actually suffering.
 Also, she has forbidden them smoking their pipes in the after-room.
 Also, she wouldn't walk.
+Also, special needs students often have an aptitude for math
 Also, there was awe in their faces.
 Also, there were a few chill flowers, in pale cold bud.
 Also, you will do much that is bogus.
@@ -5338,6 +5341,7 @@ At that point the woman had driven off without them.
 At that sound Mr. V. was nerved to abrupt action.
 At that time Babylonian was the international language.
 At that time it was considered extremely daring.
+At that time, TransUnion only compared first and last names.
 At that time, peace was peace. We could disarm with confidence.
 At the Custom House they would know something.
 At the age of eighty, he was torn to pieces in the City.
@@ -5593,6 +5597,7 @@ Because of the rain there was no result to the match.
 Because she was not alone.
 Because there is sin, there is pain and death.
 Because there was a pothole on the road and no street light.
+Because this is an optional math class, this class has no homework
 Because we are real friends.
 Because you wear silver shoes and have killed the wicked witch.
 Because you were probably off drinking somewhere.
@@ -8050,11 +8055,13 @@ Consternation sat on every face.
 Consumables are the most sold items.
 Consumer Confidence Reports
 Consumer electronics are not built to last like they used to.
+Consumer reporting agencies compile and disseminate personal information about consumers.
 Consumers want an appealing, stylish and durable product.
 Contact Us to ask a question, provide feedback, or report a problem.
 Content Management Systems are outdated now-a-days.
 Content-based community involvement can provide great enrichment for the students.
 Continue to add broth until desired thickness. Add seasonings.
+Continuity requires both derivatives and y values to match
 Continuous Integration has been a lifesaver for us.
 Continuous effort – not strength or intelligence – is the key to unlocking our potential.
 Contrary to popular belief, the Great Wall of China is not visible from space.
@@ -10063,6 +10070,7 @@ Finally she picked up her basket.
 Finally, as a State necessity, the matter of the religions was compromised.
 Finals are next week and I'm panicking.
 Financial Assistance for Food, Housing, and Bills
+Find a project suitable for Honors Calculus class
 Find a train design that would be operable on the given track.
 Find a way, then!
 Find information on changes to passport processing.
@@ -20532,6 +20540,7 @@ I want to look through everything you’ve ever sent, liked, watched, or posted 
 I want to make you happy.
 I want to plug my lawnmower into mains power
 I want to pull his head off.
+I want to reprint some of the poems in this book
 I want to see a show, don't you?
 I want to see the people in blue.
 I want to see the workers.
@@ -23850,6 +23859,7 @@ It teaches likewise a method for the making a golem.
 It tells you which card made the purchase on the Capital One website
 It terrifies me too much to think of it.
 It then occurred to her to employ him in reading.
+It then sells those reports for use by entities that request information about consumers.
 It throws up a stem from the center of its leaves.
 It tired me dreadfully writing those long letters.
 It took a considerable amount of time and effort.
@@ -25306,6 +25316,7 @@ I’m not in the depths of despair this morning.
 I’m not mad — yet.
 I’m not saying it isn’t.
 I’m not sorry.
+I’m not sure how well we meet low income student’s needs
 I’m not sure whether this pub offers accommodation
 I’m not talking hot air, my friend.
 I’m not to re-enter it without you!
@@ -25314,6 +25325,7 @@ I’m only borrowing your car for an hour or two.
 I’m only just pruned down and branched out.
 I’m rather glad I have one.
 I’m really extremely grateful for them.
+I’m really looking forward to teaching them, especially teaching partial numbers
 I’m really very sorry.
 I’m so glad I have such a lot.
 I’m so glad it’s a sunshiny morning.
@@ -26310,7 +26322,6 @@ Lottery is one of the most amusing and lively games for a large party.
 Lottery is without doubt, the most amusing, and the game of the greatest commerce.
 Loudhailer and megaphone are alternative terms for bullhorn
 Louis Napoleon was little less than a godsend to the journalistic enterprise.
-Louka told me you were asleep.
 Love and gratitude will not be narrowed down to mere family-considerations.
 Love and trust me.
 Love had not turned her into a Puritan.
@@ -27529,6 +27540,7 @@ My experience in the industry means I can adapt to this new role quickly.
 My family and I lead a very peaceful existence in Cornwall.
 My family have lived here for as long as we can trace.
 My family likes to watch movies every Friday night.
+My family lives in a white house high up on the mountain
 My farmer’s boy thinks he knows all about horses.
 My father bears it better.
 My father can afford to send me.
@@ -34301,8 +34313,10 @@ Strike home, sir, strike home!
 String is my foible.
 Strong enough to be told a secret, I think?
 Struggle for justice for the murder of farmers in Lakhimpur Kheri will grow stronger.
+Students are provided textbooks
 Students specialise in rote memorisation techniques.
 Students were messing around in class and dropped a beaker on the floor.
+Students will be able to design a continuous rollercoaster
 Student’s interests should be included, and this may vary based on ethnicity
 Studying English pronunciation
 Studying French, I see; who is your teacher?
@@ -35012,6 +35026,7 @@ That sounds like a fraudulent pyramid scheme.
 That speech was like fire to gunpowder.
 That startled me, made me angry.
 That state of things continued, assumed an air of permanency.
+That teacher is a specialist
 That the discovery of my birth gave him no shock.
 That the two cousins may fall in love, and get married.
 That they can wait till the verdict comes.
@@ -35378,6 +35393,7 @@ The "silly talk" had been translated into terrifying action.
 The "us versus them" attitude is not healthy.
 The 'woman of thirty' sort of thing.
 The Academy is too large and too vulgar.
+The Act creates a cause of action for consumers to sue and recover damages.
 The African project at present employs my whole time.
 The Alderman, however, eats salad.
 The Amazon River is the longest in the world.
@@ -35476,6 +35492,7 @@ The Dakotas would neither kill nor eat their totems.
 The Defence Spending Review has revealed a multi-million pound shortfall.
 The Defibrillator revived the patient who had suffered cardiac arrest.
 The Director was decisive and accurate.
+The District Court ruled that all class members had standing.
 The Dobby's Walk was within the inhabited domains of the Hall.
 The Doctor and all his animals were gone.
 The Doctor and the rest were taken before the King.
@@ -35516,6 +35533,7 @@ The European Union is a highly successful geopolitical entity.
 The European elk is the same species as the North American moose.
 The Exorcist movie was too scary back in its day.
 The Eyes looked at her thoughtfully.
+The Fair Credit Reporting Act regulates the consumer reporting agencies.
 The Federalist party have much the same disposition as the Court party in England.
 The Fibonacci sequence is surprisingly common in nature.
 The Fire People, like ourselves, lived in caves.
@@ -36133,6 +36151,7 @@ The boy answered me back, and was very cheeky
 The boy at the wheel lost his head.
 The boy began to get feverish with irritation.
 The boy bore him a grudge.
+The boy cannot write a list without paper
 The boy could not stand it any longer.
 The boy dropped on his knees.
 The boy glanced away.
@@ -37242,6 +37261,7 @@ The four men came back unaccompanied also.
 The four men turned a bend in the road.
 The four sheets were covered.
 The fourth and fifth days passed without any developments.
+The fourth commandment forbids the omission, or careless performance, of the duties
 The fourth industrial revolution is expected to be more impactful than the last.
 The fourth of July, or Independence Day, is an important day for many Americans.
 The fox is loath to begin a long patrol.
@@ -37672,6 +37692,7 @@ The interest on her car loan was exorbitant.
 The interest on mortgages is adjustable.
 The interest was intense.
 The interface between the computer and the cable is broken.
+The internal credit files of the other class members were not distributed.
 The internet gives us unprecedented access to data.
 The internet has enabled faster innovation cycles.
 The internet has only been around for a few decades.
@@ -37731,6 +37752,8 @@ The jumper is a most admirable conveyance.
 The jumper would be ordered to confine himself to his own territory.
 The junior captain announced, "We will begin our descent shortly".
 The jury all brightened up again.
+The jury awarded each class member statutory damages.
+The jury returned a verdict for the plaintiffs.
 The keenest of thinkers strikes a bad patch occasionally.
 The kettle sings a merry song.
 The kettle was singing.
@@ -38696,6 +38719,7 @@ The place where she was touching him ran hot with friction.
 The plain breakfast made a cheerful show.
 The plain nervous orator will no longer gain attention.
 The plainsong to which psalms were sung was the second tone.
+The plaintiffs also complained defects in mailings they received.
 The plan was ineffective.
 The plane descends steadily during landing.
 The plane was delayed by two hours.
@@ -39904,6 +39928,7 @@ The whole business had mesmerised me.
 The whole business shows the child from beginning to end.
 The whole business — it's unreasonable from beginning to end.
 The whole city shouts against the Council.
+The whole class is a small group of three
 The whole concern looked like a stupendous bon-bon.
 The whole country rings with it.
 The whole country would be frittered down into potato gardens.
@@ -42644,6 +42669,7 @@ They will lift him.
 They will lose their hold of their children.
 They will never be distressed for money.
 They will never climb over the railing.
+They will not leave the state without a car
 They will only fall to other masters.
 They will prove a source of limitless delight.
 They will read together.
@@ -42676,6 +42702,7 @@ They young cows are apt to be fudgy in milking.
 They'd simply laugh at you.
 They'll be a lot sicker before we've finished.
 They'll be safer inside.
+They'll describe their roller coaster
 They'll do as they are?
 They'll hold you to that, you know.
 They're a holding company.
@@ -42880,6 +42907,7 @@ This dogma has been challenged.
 This draw is made by the player, hopeful of getting two pairs.
 This dunce had a dull energy and a sort of beefy tenacity of purpose.
 This e-book can be shared freely but for non-commercial uses only.
+This eBook is for the use of anyone anywhere at no cost
 This emphatically closed the conversation.
 This enables us to measure up an elementary cell of its structure.
 This energy is stored up in what is called an accumulator
@@ -43014,6 +43042,7 @@ This is an echo rather than an imitation or a plagiarism.
 This is an emergency broadcast.
 This is an encroachment on the rights of the states and the federal principle.
 This is an essential part of civilized society.
+This is an example sentence for my talk.
 This is an important historical site, and we need to preserve it.
 This is an important subject.
 This is an incubator for innovation.
@@ -43210,6 +43239,8 @@ This manner of looking has existed no where that I know of.
 This manner of parliamentary procedure was declared against at the revolution.
 This man’s was different: soft, non-intellectual, warm, a kind of gambolling.
 This may end badly.
+This may vary based on gender
+This may vary based on locality
 This means that the conference has been pushed back a month.
 This might be their own house, his and hers.
 This might be worth a look.
@@ -43283,6 +43314,7 @@ This principle shall have the same effect retroactively.
 This process of nuclear division has been termed fragmentation.
 This process of star-hunting is technically called alignment.
 This produced a jargon compounded of Albanian, Slavonic, and Latin.
+This program has been edited for content.
 This project marks the end of the chapter.
 This propensity gave her great uneasiness.
 This proposition, like the other, was received with unanimous applause.
@@ -43979,6 +44011,11 @@ Tramp, tramp, tramp, tramp.
 Tramp, tramp, tramp, tramp; his brain was tramping.
 Tramping high and low, are they?
 Trances don’t last.
+TransUnion compiles personal and financial information about individual consumers to create consumer reports.
+TransUnion introduced an add-on product called Name Screen Alert.
+TransUnion is a credit reporting agency.
+TransUnion placed an alert on the credit report.
+TransUnion would conduct its ordinary credit check of the consumer.
 Transcribed from the original.
 Transmission Layer Security keeps us safe while browsing the web.
 Transport him would be better!
@@ -47053,6 +47090,7 @@ When I love a person very tenderly indeed, it seems to brighten.
 When I return I shall be as other men are.
 When I say 'this business', of course I mean the — forbidden subject.
 When I told him, he laughed.
+When I tried to make hedges of the slaves, I couldn't.
 When I wake up, remind me to take my laptop to work.
 When I was a child, I loved buying sherbet at the sweet shop
 When I was a child, little boys wanted to become engine drivers.
@@ -49336,6 +49374,7 @@ You may be right.
 You may be sure he will be kind to it.
 You may call me 'S'. My other name doesn't matter.
 You may consider yourself very fortunate in having escaped him so easily.
+You may copy it, give it away or re-use it
 You may depend upon my seeking no further.
 You may experience disruption of your broadband connection while we perform road works.
 You may fancy a glimpse of the abyss where I grovelled!
@@ -50190,7 +50229,6 @@ You’d hardly think it.
 You’d think they’d have a hospital here.
 You’ll be catching a crab directly.
 You’ll be delighted with him.
-You’ll catch your death.
 You’ll come to it in time.
 You’ll fall off and be killed.
 You’ll give me a teeny piece, won’t you?
@@ -50315,6 +50353,7 @@ he asked me with a keen glance.
 he cared so much for the people around him
 he cried in amazement.
 he growled with an appearance of strong resentment.
+he knows part of the list.
 he made the stars also.
 he passed his spread fingers comb-wise through his hair
 he said, rising and pushing back his chair.
@@ -50327,9 +50366,11 @@ if you succeed in following your beliefs and morals in each lifetime
 illustration of person thinking about having a baby
 in circumstances under which no weakling could survive
 in my thoughts and in my words
+it is appropriate to include illustrations, diagrams, and purely mathematical symbol-based problems.
 it is very effective.
 it was melancholy to leave her to such society!
 it will let me understand things when it wants me to, or
+it’s not very nice, and it’s stressful.
 joined a queue of three or four persons.
 just copy the references and they all come up at once.
 kind of like writing a book This is how bibles are made, maybe
@@ -50378,14 +50419,18 @@ the fourth river is Euphrates.
 the greater light to rule the day, and the lesser to rule the night:
 the holy catholic Church
 the judgments which I have formed
+the more tense I am, the more closely I stick to my plans.
 the result of something even bigger in the cosmos
 the resurrection of the body
 the symbolism can't be overused, doesn't wear out
 the teacher doesn't like the word 'say'
 the tree of knowledge of good and evil was there.
 the word "pasta" comes from Italian, but "noodle" comes from German.
+then I explained another way to do that same problem, and corrected his errors.
+there are almost no restrictions whatsoever.
 therefore we are bound to keep all his commandments.
 they ask all these obnoxious questions
+they cannot walk that many miles.
 they were created, by sinning against God.
 thy kingdom come; thy will be done on earth as it is in heaven.
 to assume among the powers of the earth
@@ -50404,6 +50449,7 @@ we worship you, we give you thanks, we praise you for your glory.
 we wouldn’t have to rush to get them problems for their notes.
 where is that?’ I asked.
 where they go about their normal lives and there their just human too
+which one is our home?
 which piece of it makes sense, was I wrong here
 which, would inevitably interrupt our connections and correspondence.
 while others cost thousands?

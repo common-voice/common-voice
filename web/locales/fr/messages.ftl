@@ -36,7 +36,6 @@ ba = Bashkir
 bas = Basaa
 be = Biélorusse
 bg = Bulgare
-bm = Bambara
 bn = Bengali
 br = Breton
 bs = Bosniaque
@@ -472,15 +471,24 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Pourquoi Common Voice ?
-about-subtitle = Common Voice fait partie de l’initiative de Mozilla aidant les machines à apprendre comment parlent les vraies personnes. Outre le jeu de données Common Voice, nous créons également un moteur de reconnaissance vocale open source appelé Deep Speech.
-about-header-description =
-    Ces deux projets font partie de nos efforts pour réduire la fracture de la parole numérisée. Les technologies de reconnaissance vocale apportent une dimension humaine à nos appareils, mais les développeurs et développeuses ont besoin d’une énorme quantité de données vocales pour les concevoir. Actuellement, la plupart de ces données sont coûteuses et propriétaires.
-    Nous voulons rendre les données vocales librement et publiquement accessibles, et nous assurer que les données représentent la diversité de personnes réelles. Ensemble, nous pouvons améliorer la reconnaissance vocale pour tous et toutes.
-about-header-description-2 =
-    Ce projet vise à réduire la fracture de la parole numérisée. Les technologies de reconnaissance vocale apportent une dimension humaine à nos appareils, mais les développeurs et développeuses ont besoin d’une énorme quantité de données vocales pour les concevoir. Actuellement, la plupart de ces données sont coûteuses et propriétaires.
-    Nous voulons rendre les données vocales librement et publiquement accessibles, et nous assurer que les données représentent la diversité de personnes réelles. Ensemble, nous pouvons améliorer la reconnaissance vocale pour tous et toutes.
-how-does-it-work-title = Mode d’emploi
+how-does-it-work-title-v2 = Comment fonctionne Common Voice ?
 how-does-it-work-text = Nous appelons à la participation collective pour constituer un jeu de données open source de voix. Donnez votre voix, validez la précision des échantillons d’autres personnes, améliorez le jeu de données pour tout le monde.
+
+## How does it work section
+
+about-language-req-subtitle = Quelqu’un demande l’ajout d’une langue.
+about-localization-title = Traduction du site web
+about-localization-subtitle = Le site web est traduit dans cette langue.
+about-sentence-collection-title = Collecte de phrases
+about-new-lang-title = Lancement d’une nouvelle langue
+about-new-lang-subtitle = Nous lançons le site Common Voice dans cette langue.
+about-voice-contrib-title = Contribution vocale
+about-voice-contrib-subtitle = Des personnes contribuent avec leur voix.
+about-voice-validation-title = Validation vocale
+about-voice-validation-subtitle = D’autres personnes valident ces extraits vocaux.
+about-dataset-release-title = Publication des données
+about-dataset-release-subtitle = Nous publions les données tous les 3 mois.
+about-subscribe-text = Vous souhaitez rester en contact avec Common Voice ?
 about-speak = Parler
 about-speak-text = Les contributeurs et contributrices lisent et enregistrent des échantillons vocaux issus d’une banque de phrases données par la communauté.
 about-listen-queue = File d’attente de l’écoute
@@ -509,10 +517,58 @@ about-get-involved-text-2 =
     Super ! Contactez-nous par courriel ou bien sur les forums <discourseLink>Discourse</discourseLink>,
     signalez des problèmes sur <githubLink>GitHub</githubLink>,
     ou rejoignez la discussion communautaire sur <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Comment rester en contact ?
 about-nav-why-common-voice = Pourquoi ?
 about-nav-how-it-works = Comment ?
 about-nav-partners = Partenaires
 about-nav-get-involved = Participer
+about-nav-how-it-works-2 = Comment fonctionne Common Voice ?
+about-nav-playbook = Découvrez comment participer
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Qu’est-ce qu’une langue sur Common Voice ?
+
+## How do I add a language
+
+about-playbook-how-add-language = Comment ajouter une langue ?
+about-playbook-how-add-language-content-1 = Tout d’abord, vérifiez si votre langue <languageLink>existe déjà</languageLink>. Si ce n’est pas le cas, vous devrez <strong>traduire le site et collecter des phrases</strong>.
+
+## How does localization work
+
+about-playbook-how-localize = Comment fonctionne la traduction du site ?
+about-playbook-how-localize-content-1 = La traduction du site Common Voice s’effectue sur <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Le site est prêt à être lancé lorsqu’il atteint 75 % d’achèvement.
+about-playbook-how-localize-content-5 = Regardez notre vidéo explicative pour vous aider
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Comment ajouter des phrases ?
+about-playbook-how-add-sentences-content-3 = Vous pouvez utiliser <scraperLink>l’extracteur de phrase</scraperLink> pour recueillir de courtes phrases sur Wikipédia.
+about-playbook-how-add-sentences-content-4 = Les phrases qui ont été validées sont exportées le mercredi et sont disponibles dès la version suivante.
+
+## How to record quality
+
+about-playbook-how-record-quality = Comment enregistrer un extrait vocal de haute qualité ?
+about-playbook-how-record-content-2 = Évitez trop de bruit de fond - il devrait être facile de vous entendre.
+about-playbook-how-record-content-3 = Lisez attentivement la phrase - n’oubliez pas, ne modifiez pas ou n’ajoutez pas de mots.
+about-playbook-how-record-content-4 = Assurez-vous que la plateforme enregistre avant de commencer à parler et qu’elle ne s’arrête qu’une fois que vous avez terminé.
+
+## How to grow language
+
+about-playbook-how-grow-language = Comment est-il possible de développer efficacement une langue sur Common Voice ?
+about-playbook-how-grow-language-content-2 = Évènements
+about-playbook-how-grow-language-content-4 = Réseaux sociaux
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligence artificielle
 mycroft-description =

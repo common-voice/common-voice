@@ -36,7 +36,6 @@ ba = Baškiršćina
 bas = Basašćina
 be = Běłorušćina
 bg = Bułgaršćina
-bm = Bambaršćina, Bambara
 bn = Bengalšćina
 br = Bretońšćina
 bs = Bosnišćina
@@ -392,6 +391,7 @@ skip-submission-note = glědajśo: Musyśo hyšći mjazy Powědaś abo Słuchaś
 off = Wušaltowany
 on = Zašaltowany
 help-accent = Trjebaśo pomoc wó akcenśe?
+help-accent-explanation = Waš akcent jo nałog, kak słowa wugranjaśo. Jogo charakter wót togo wótwisujo, źož sćo był žywy, kótare druge rěcy powědaśo a wót wjele drugich faktorow. Móžośo wšykne informacije k wěsći daś, kótarež za relewantne  maśo.
 
 ## Profile - Email
 
@@ -474,15 +474,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Cogodla Common Voice?
-about-subtitle = Common Voice jo źěl iniciatiwy Mozilla, kótaraž ma mašiny wucyś, kak napšawdne luźe powědaju. Mimo datoweje sajźby Common Voice, wuwijamy program za powědańske spóznaśe wótwórjonego žrědła z mjenim Deep Speech.
-about-header-description =
-    Wobej projekta stej źěl našych procowanjow, aby prozny flak digitalnego powědanja pśemósćiłej. Technologije głosowego spóznaśa cłowjesku dimensiju na naše rědy pśinjasu, ale wuwijarje trjebaju wjelgickan wjele głosowych datow, aby se napórali. Tuchylu jo nejwěcej z toś tych datow droge a proprietarne.
-    Comy głosowe daty dermotnje a zjawnje k dispoziciji stajiś a zawěsćiś, až daty wšakorakosć napšawdnych luźi wótbłyšćuju. Gromaźe móžomy głosowe spóznaśe za kuždego pólěpšyś.
-about-header-description-2 =
-    Toś ten projekt jo procowanje, aby prozny flak digitalnego powědanja pśemósćiłej. Technologije głosowego spóznaśa cłowjesku dimensiju na naše rědy pśinjasu, ale wuwijarje trjebaju wjelgickan wjele głosowych datow, aby se napórali. Tuchylu jo nejwěcej z toś tych datow droge a proprietarne.
-    Comy głosowe daty dermotnje a zjawnje k dispoziciji stajiś a zawěsćiś, až daty wšakorakosć napšawdnych luźi wótbłyšćuju. Gromaźe móžomy głosowe spóznaśe za kuždego pólěpšyś.
-how-does-it-work-title = Kak to funkcioněrujo
+how-does-it-work-title-v2 = Kak Common Voice funkcioněrujo?
 how-does-it-work-text = Wuměstnjamy datowu sajźbu głosow wótwórjonego žrědła do dobrowólnikow. Pósććo swój głos, pśeglědujśo dokradnosć klipy drugich wósobow, pólěpšćo datowu sajźbu za kuždego.
+
+## How does it work section
+
+about-language-req-subtitle = Něchten wó pśidawanje rěcy pšosy.
+about-localization-title = Lokalizacija websedłow
+about-localization-subtitle = Tekst websedła jo do teje rěcy pśełožony.
+about-sentence-collection-title = Zběrka sadow
+about-sentence-collection-subtitle = Sady se gramaźe, aby luźe je głosnje cytali.
+about-new-lang-title = Wózjawjenje noweje rěcy
+about-new-lang-subtitle = Wózjawjamy sedło Common Voice w toś tej rěcy.
+about-voice-contrib-title = Pśinosowanje ku głosam
+about-voice-contrib-subtitle = Luźe pśidu a pósćiwaju swóje głosy.
+about-voice-validation-title = Pśeglědanje głosow
+about-voice-validation-subtitle = Druge luźe toś te głosowe klipy pśeglěduju.
+about-dataset-release-title = Wózjawjenje datoweje sajźby
+about-dataset-release-subtitle = Wózjawjamy datowu sajźbu kužde 3 mjasece.
+about-subscribe-text = Cośo z Common Voice w zwisku wóstaś?
 about-speak = Powědaś
 about-speak-text = Sobustatkujuce cytaju z datoweje banki sadow a nagrawaju głosowe klipy.
 about-listen-queue = Słuchowy cakański rěd
@@ -509,10 +519,48 @@ about-get-involved = Cyńśo sobu
 about-get-involved-text-2 =
     Cośo pomagaś, Common Voice pólěpšyś?
     Wjelicnje! Stajśo se z nami pśez e-mail abo we forumach <discourseLink>Discourse</discourseLink>  do zwiska, sćelśo sedłowe problemy pśez <githubLink>Github</githubLink> abo woglědajśo se k nam w chaśe zgromaźeństwa <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Kak mógu w zwisku wóstaś?
+about-stay-in-touch-text-1 = <emailFragment>Registrěrujśo se</emailFragment> za našu rozesćełańsku lisćinu, aby zgónił, kak móžośo se na kampanjach, tšojenjach a kodesignych funkcijach na Common Voice wobźěliś.
+about-stay-in-touch-text-2 = Pśzamkniśo se <discourseLink>Discourse</discourseLink> za temowe rozgrona abo <matrixLink>Matrix</matrixLink> za malsnu radu, aby se z drugimi luźami w rěcnych zgromaźeństwach Mozilla zmakał.
 about-nav-why-common-voice = Cogodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnarje
 about-nav-get-involved = Cyńśo sobu
+about-nav-how-it-works-2 = Kak Common Voice funkcioněrujo?
+about-nav-playbook = Zgóńśo, kak móžośo se wobźěliś
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Co jo rěc na Common Voice?
+about-playbook-what-is-language-content-2 = Comy, až rěcne modele lěpjej mógu, wjele rozdźělnych powědarjow rozměś. Aby to jo móžne, musy datowa sajźba wjele rozdźělnych luźi reprezentěrowaś.
+about-playbook-what-is-language-content-3 = Někotare rěcy maju enormne rozdźělne w gramatice, wokabularje a wugronje. Togodla buźomy w lěśe 2022 <ctaLink>„warianty“ zawjedowaś</ctaLink. To zgromaźeństwam móžnosć dawa, swóje rěcy we wětšej datowej sajźbje rozeznawaś.
+
+## How do I add a language
+
+about-playbook-how-add-language = Kak mógu rěc pśidaś?
+
+## How does localization work
+
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Kak mógu sady pśidaś?
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kumštna inteligenca
 mycroft-description =

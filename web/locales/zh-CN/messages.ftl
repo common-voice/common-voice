@@ -36,7 +36,6 @@ ba = 巴什基尔语
 bas = 巴萨语
 be = 白俄罗斯语
 bg = 保加利亚语
-bm = 班巴拉语
 bn = 孟加拉语
 br = 布列塔尼语
 bs = 波斯尼亚语
@@ -463,15 +462,13 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 为什么会有 Common Voice？
-about-subtitle = Common Voice 项目是 Mozilla 发起的倡议，旨在帮助教会机器真人的说话方式。除 Common Voice 数据集外，我们还在构建一个名为 Deep Speech 的开源语音识别引擎。
-about-header-description =
-    这两个项目都是我们努力弭平数字语音鸿沟的一部分。语音识别技术为我们的设备带来人性的维度，但开发者需要巨量的语音数据来构建它们。目前大部分语音数据都相当昂贵且为巨头专有。
-    我们希望能够自由公开地提供语音数据，并确保数据反映出人们实际的多样性。让我们一起为所有人把语音识别技术发展得更好吧！
-about-header-description-2 =
-    此项目是我们努力弭平数字语音鸿沟所做的努力。语音识别技术为我们的设备带来人性的维度，但开发者需要巨量的语音数据来构建它们。目前大部分语音数据都相当昂贵且为巨头专有。
-    我们希望自由公开地提供语音数据，并确保数据反映出人们实际的多样性。让我们一起为所有人把语音识别技术发展得更好吧！
-how-does-it-work-title = 原理是什么？
 how-does-it-work-text = 我们集众人之力，构建开源的语音数据集。欢迎捐出一段声音，或者帮助验证录音片段是否正确，让数据集能够变得更好。
+
+## How does it work section
+
+about-language-req-subtitle = 有人申请添加一门语言。
+about-localization-title = 网站本地化
+about-dataset-release-subtitle = 我们每 3 个月发布一次数据集。
 about-speak = 说话
 about-speak-text = 贡献者通过朗读一系列由他人捐赠的语句，将语音片段录制下来。
 about-listen-queue = 聆听队列
@@ -500,10 +497,48 @@ about-get-involved-text-2 =
     太好了！请发送电子邮件与我们联系，也可以到 <discourseLink>Discourse</discourseLink> 论坛留言、
     通过 <githubLink>GitHub</githubLink> 反馈网站问题、
     也可以加入我们的 <matrixLink>Matrix</matrixLink> 社区群组。
+about-stay-in-touch = 如何获取最新信息？
 about-nav-why-common-voice = 为什么？
 about-nav-how-it-works = 怎么做？
 about-nav-partners = 合作伙伴
 about-nav-get-involved = 参与进来
+about-nav-playbook = 了解如何参与
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+about-playbook-how-add-language = 如何添加语言？
+
+## How does localization work
+
+about-playbook-how-localize-content-1 = Common Voice 网站的翻译工作在 <strong>Pontoon</strong> 上进行。
+about-playbook-how-localize-content-4 = 网站本地化完成度达 75% 后即可上线。
+
+## How to add sentences
+
+
+## How to record quality
+
+about-playbook-how-record-quality = 如何录制高质量的语音片段？
+about-playbook-how-record-content-3 = 准确读出句子内容，不要漏词、改词或添词。
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = 活动
+about-playbook-how-grow-language-content-4 = 社交媒体
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance-content-3 = 隐私、安全和透明度。
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智能
 mycroft-description = Mycroft 是全球第一个开源语音助手，不论是在桌面电脑、汽车、树莓派（Raspberry Pi）或是任何地方都能运行。

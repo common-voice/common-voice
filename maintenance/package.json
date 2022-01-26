@@ -1,5 +1,6 @@
 {
   "name": "maintenance",
+  "private": true,
   "version": "1.0.0",
   "description": "Static maintenance page for Common Voice",
   "devDependencies": {
