@@ -41,18 +41,43 @@ export function useIsSubscribed() {
   return isSubscribed;
 }
 
-export function useStickyState(defaultValue: any, key: string) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function useLocalStorageState(defaultValue: any, key: string) {
   const [value, setValue] = useState(() => {
-    const stickyValue = window.localStorage.getItem(key);
+    if (!key) {
+      return defaultValue;
+    }
 
-    return stickyValue !== null ? JSON.parse(stickyValue) : defaultValue;
+    try {
+      const storedValue = window.localStorage.getItem(key);
+
+      // no stored value
+      if (storedValue === null) {
+        return defaultValue;
+      }
+
+      return JSON.parse(storedValue);
+    } catch (e) {
+      // silently fail if no localStorage or JSON parse fails
+      return defaultValue;
+    }
   });
 
   useEffect(() => {
+    if (!key) {
+      return;
+    }
+
     try {
+      // remove item from storage if it's the default option
+      if (value === defaultValue) {
+        window.localStorage.removeItem(key);
+        return;
+      }
+
       window.localStorage.setItem(key, JSON.stringify(value));
     } catch (e) {
-      console.warn(`A sessionStorage error occurred ${e.message}`);
+      // silently fail if no localStorage or JSON stringify fails
     }
   }, [key, value]);
 
