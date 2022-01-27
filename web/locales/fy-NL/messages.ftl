@@ -567,12 +567,23 @@ about-playbook-how-localize-content-5 = Besjoch ús fideo-útlis om te helpen
 ## How to add sentences
 
 about-playbook-how-add-sentences = Hoe foegje ik sinnen ta?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> is in helpmiddel foar it sammeljen en falidearjen fan sinnen yn it publike domein. Jo moatte <scAccountLink>in account oanmeitsje</scAccountLink>. Foegje dêrnei jo taal ta oan jo <strong>Profyl</strong>. Jo kinne sinnen <strong>Tafoegje</strong> of earder tafoege sinnen <strong>Beoardiele</strong>.
+about-playbook-how-add-sentences-content-2 = Sinnen moatte troch twa minsken beoardiele en akseptearre wurde om opnommen te wurden yn Common Voice. Jo meitsje <languageGuidelinesLink>hjir</languageGuidelinesLink> rjochtlinen foar jo taal. Sinnen moatte yn it <licenseLink>publike domein</licenseLink> stean en koarter wêze as 15 wurden. Jo kinne de eigener fan in tekst freegje om dizze <waiverLink>CC0 te meitsjen mei help fan ús ûntheffingsproses</waiverLink> en dizze nei ús stjoeren fia commonvoice@mozilla.com.
+about-playbook-how-add-sentences-content-3 = Jo kinne de <scraperLink>Sentence extractor</scraperLink> brûke om koarte sinnen út Wikipedia te brûken.
+about-playbook-how-add-sentences-content-4 = Falidearre sinnen wurde op woansdei eksportearre en binne nei de folgjende útjefte beskikber.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Hoe nim ik in spraakfragmint fan hege kwaliteit op?
+about-playbook-how-record-content-1 = Sprek mei jo normale stim! De manier wêrop jo sprekke is hjir wolkom – wy wolle jo aksint lykas it is, en wy wolle jo gebrûklike folume, styl en yntonaasje.
+about-playbook-how-record-content-2 = Mij te folle eftergrûnlûd – it moat maklik wêzen om jo te hearren.
+about-playbook-how-record-content-3 = Lês de sin oandachtich – mis of wizigje gjin wurden en foegje gjin wurden ta.
+about-playbook-how-record-content-4 = Soargje derfoar dat it platfoarm opnimt eardat jo begjinne te sprekken en dat it pas stoppet as jo klear binne.
+about-playbook-how-record-content-5 = <accuracyLink>Mear ynfo oer sekuerenskritearia.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Hoe kinne wy effektyf in taal groeie litte op Common Voice?
 
 ## How to validate
 
