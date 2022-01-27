@@ -543,9 +543,16 @@ about-nav-playbook = Lês hoe’t jo dielnimme kinne
 ## What is a language
 
 about-playbook-what-is-language = Wat is in taal op Common Voice?
+about-playbook-what-is-language-content-1 = Der binne in protte manieren om oer taal nei te tinken. Foar it doel fan spraakwerkenningsmodellen stelt Common Voice foar om te fokusjen op ‘ûnderlinge fersteanberens’, of ‘kinne sprekkers fan dizze taal inoar yn it algemien ferstean as se dat probearje?’
+about-playbook-what-is-language-content-2 = Wy wolle dat spraakmodellen better binne yn it ferstean fan in breed skala oan sprekkers. Om dit barre te litten, moat in spraakgegevensset in protte ferskate minsken fertsjinwurdigje.
+about-playbook-what-is-language-content-3 = Guon talen hawwe in enoarme fariaasje yn grammatika, wurdskat en útspraak. Om dizze reden <ctaLink>yntrodusearje wy ‘Farianten’</ctaLink> yn 2022. Dit jout mienskippen in manier om harren talen te ûnderskieden binnen de gruttere gegevensset.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Hoe foegje ik in taal ta?
+about-playbook-how-add-language-content-1 = Kontrolearje earst oft jo taal <languageLink>al bestiet</languageLink>. As dat net sa is, moatte jo <strong>de website oersette en sinnen sammelje</strong>.
+about-playbook-how-add-language-content-2 = <strong>Om de side oer te setten</strong> – soargje dat jo <translateVideo>ynsteld binne</translateVideo> op <pontoonLink>Pontoon</pontoonLink>. Pontoon befettet in protte talen, mar as dy fan jo der net by sit, kinne jo <pontoonRequestLink>dizze oanfreegje</pontoonRequestLink>. Freegje dan <repoLink>fia GitHub</repoLink> om it Common Voice-projekt beskikber te meitsjen foar de taal. Mear ynfo oer <localizationFragment>website-oersetting</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Om sinnen te sammeljen</strong> – <scVideo>stel</scVideo> <scLink>Sentence Collector</scLink> yn.
 
 ## How does localization work
 
