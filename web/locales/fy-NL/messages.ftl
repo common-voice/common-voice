@@ -584,9 +584,21 @@ about-playbook-how-record-content-5 = <accuracyLink>Mear ynfo oer sekuerenskrite
 ## How to grow language
 
 about-playbook-how-grow-language = Hoe kinne wy effektyf in taal groeie litte op Common Voice?
+about-playbook-how-grow-language-content-1 = It kreëarjen fan kânsen foar in ferskaat oan minsken om by te dragen oan Common Voice soarget derfoar dat de gegevensset safolle mooglik minsken betsjinnet. Wy hawwe helpboarnen en sjabloanen makke dy’t jo brûke kinne!
+about-playbook-how-grow-language-content-2 = Eveneminten
+about-playbook-how-grow-language-content-3 = Jo kinne eveneminten organisearje om minsken te helpen in bydrage te leverjen. It is makliker as jo tinke. Jo kinne it online dwaan mei in fideokonferinsjehelpmiddel, of persoanlik as dat feilich is. <eventTemplate>Besjoch ús sjabloanen en helpboarnen foar rinnende eveneminten</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Sosjale media
+about-playbook-how-grow-language-content-5 = Jo kinne sosjale mediaplatfoarms brûke om de boadskip nei bûten te bringen. Diel berjochten dy’t útlizze wêrom it wichtich is, en kom yn kontakt mei oare minsken dy’t prate oer saken as taalrjochten, spraak-AI of foaroardielen yn technology. Besjoch mear advys oer <campaignLink>it útfieren fan in sosjale kampanje, ynklusyf ynhâld dy’t jo  opnij brûke kinne</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnerskippen en netwurken
+about-playbook-how-grow-language-content-7 = Sykje oaren dy’t om taal jouwe. Dat kinne universiteiten, taalskoallen, belangegroepen of mienskippen foar gegevenswittenskippen wêze. Nim kontakt op en lis dúdlik út hoe’t de helpe kinne en wêrom. <outreachTemplates>Besjoch ús e-mailsjabloanen om kontakt op te nimmen</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Wês kreatyf!</strong> Jo taalmienskip sil unyk wêze, en dit binne mar in pear manieren om te begjinnen.
 
 ## How to validate
 
+about-playbook-how-validate = Hoe wit ik oft ik in spraakfragmint goedkarre kin?
+about-playbook-how-validate-content-1 = As jo se <strong>hearre</strong> en <strong>ferstean kinne</strong>, is it meastentiids <strong>it beste om goed te karren</strong>.
+about-playbook-how-validate-content-2 = <strong>Wegerje gjin fragminten wêryn de sprekker ‘in aksint hat’ dat oars is as dat fan jo</strong> – dit is wichtich om derfoar te soargjen dat spraakwerkenning better wurket foar elkenien.
+about-playbook-how-validate-content-3 = As jo tinke dat de útspraak it <strong>ûnmooglik makket om te ferstean</strong>, of der is <strong>in protte eftergrûnlûd</strong>, of der <strong>prate ek oare minsken</strong>, dan moatte jo it fragmint ôfwize. <accuracyLink>Mear ynfo yn ús sekuerenskritearia</accuracyLink>.
 
 ## How to access dataset
 
