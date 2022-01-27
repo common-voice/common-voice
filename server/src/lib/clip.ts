@@ -404,7 +404,7 @@ export default class Clip {
     const number = parseInt(count, 10);
 
     // if invalid number return nothing
-    if (!Number.isNaN(number)) {
+    if (Number.isNaN(number)) {
       return null;
     }
 
