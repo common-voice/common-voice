@@ -36,9 +36,9 @@ ba = 바시키르어
 bas = 바사어
 be = 벨로루시어
 bg = 불가리아어
-bm = 밤바라어
 bn = 벵골어
 br = 브르타뉴어
+bs = 보스니아어
 bxr = 부랴트어
 ca = 카탈로니아어
 cak = 마야어
@@ -67,6 +67,7 @@ fy-NL = 프리지아어
 ga-IE = 아일랜드어
 gl = 갈리시아어
 gn = 과라니어
+gom = 고안 콘칸어
 ha = 하우사어
 he = 히브리어
 hi = 힌디어
@@ -90,7 +91,9 @@ kab = 커바일어
 kbd = 카바르다어
 ki = 키쿠유어
 kk = 카자흐스탄어
+km = 크메르어
 kmr = 쿠르만지 쿠르드어
+knn = 콘칸어(데바나가리)
 ko = 한국어
 kpv = 코미지리안어
 kw = 콘월어
@@ -129,6 +132,7 @@ pl = 폴란드어
 ps = 파슈토어
 pt = 포르투갈어
 quc = 키체어
+quy = 케추아 찬카
 rm-sursilv = 로만슈 수르실반어
 rm-vallader = 로만슈 발라데르어
 ro = 루마니아어
@@ -463,15 +467,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 왜 Common Voice 인가요?
-about-subtitle = Common Voice는 실제로 사람이 어떻게 말하는지를 기계에게 교육시키기 위한 Mozilla의 시작 활동의 일부입니다. Common Voice 뿐만 아니라 우리는 Deep Speech라는 오픈 소스 음성 인식 엔진을 만들고 있습니다.
-about-header-description =
-    이 두 프로젝트는 디지털 음성 격차를 해소하려는 노력의 일환입니다. 음성 인식 기술은 우리의 기기에 인간과 같은 능력을 가져다 주지만 개발자는 이를 구축하기 위해 엄청난 양의 음성 데이터가 필요합니다. 현재 이 데이터의 대부분은 비싸고 독점되어 있습니다.
-    우리는 음성 데이터를 자유롭고 공개적으로 이용할 수 있게 하고 데이터가 실제 사람들의 다양성을 나타내는 지 확인하고 싶습니다. 함께하면 우리는 모두를 위한 음성 인식기술을 만들 수 있습니다.
-about-header-description-2 =
-    이 프로젝트는 디지털 음성 격차를 해소하기 위한 노력의 일환입니다. 음성 인식 기술은 우리의 기기에 인간과 같은 능력을 가져다 주지만 개발자는 이를 구축하기 위해 엄청난 양의 음성 데이터가 필요합니다. 현재 이 데이터의 대부분은 비싸고 독점되어 있습니다.
-    우리는 음성 데이터를 자유롭고 공개적으로 이용할 수 있게 하고 데이터가 실제 사람들의 다양성을 나타내는 지 확인하고 싶습니다. 함께하면 우리는 모두를 위한 음성 인식기술을 만들 수 있습니다.
-how-does-it-work-title = 어떻게 작동하나요?
 how-does-it-work-text = 오픈 소스 음성 데이터 세트를 크라우드 소싱하고 있습니다. 목소리를 기부하고, 다른 사람의 클립의 정확성을 검증하고, 모든 사람에게 더 나은 데이터 세트를 만드세요.
+
+## How does it work section
+
 about-speak = 말하기
 about-speak-text = 참가가 미리 기여된 문장의 저장고에서 글을 읽고 음성 클립을 녹음합니다.
 about-listen-queue = 듣기 대기열
@@ -503,6 +502,34 @@ about-nav-why-common-voice = 왜?
 about-nav-how-it-works = 어떻게?
 about-nav-partners = 파트너
 about-nav-get-involved = 참여하기
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 인공 지능
 mycroft-description =
