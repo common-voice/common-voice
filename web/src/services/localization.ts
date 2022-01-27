@@ -25,7 +25,7 @@ export function negotiateLocales(locales: ReadonlyArray<string>) {
 
 // By implementing the sequence of FluentBundles as a generator, the cost of
 // parsing fallback resources is deferred to until they're needed.
-function* asBundleGenerator(
+export function* asBundleGenerator(
   localeMessages: string[][],
   messageOverwrites?: MessageOverwrites
 ) {
