@@ -580,6 +580,8 @@ about-playbook-how-access-dataset = Kak mam pśistup k datowej sajźbje a kak m�
 
 about-playbook-how-project-governance = Kak se wó projektach rozsuźuju?
 about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transparenca.
+about-playbook-how-project-governance-content-5 = Gódnota a pśipóznaśe.
+about-playbook-how-project-governance-content-6 = Mjazsobna rozpšawniska winowatosć.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kumštna inteligenca
 mycroft-description =
@@ -1128,6 +1130,7 @@ sc-logout-button = Wótzjawiś
 
 ## HOME
 
+sc-home-title = Witajśo k Common Voice Sentence Collector
 sc-home-collect-title = Sady gromaźiś
 sc-home-review-title = Sady pśeglědaś
 
@@ -1145,6 +1148,7 @@ sc-howto-review-criteria-1 = Sada musy pšawje napisana byś.
 sc-howto-review-criteria-2 = Sada musy gramatiski korektna byś.
 sc-howto-review-criteria-3 = Sada musy wugranjajobna byś.
 sc-howto-review-criteria-4 = Jolic sada kriterijam wótpowědujo, klikniśo na tłocašk „Pśizwóliś“.
+sc-howto-review-criteria-5 = Jolic sada kriterijam gorjejce njewótpowědujo, klikniśo na tłocašk „Wótpokazaś“. Jolic se wó saźe wěsty njejsćo, móžośo teke ju pśeskócyś a k pśiducej pśejś.
 sc-howto-review-criteria-6 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
 sc-howto-findpd-title = Zjawne sady namakaś
 sc-howto-findpd-subtitle = Pytajśo w interneśe za nimi
@@ -1183,6 +1187,10 @@ sc-stats-title = Statistika
 sc-stats-last-update = Slědna aktualizacija: { $lastUpdate }
 sc-stats-last-update-never = Slědna aktualizacija: nigdy
 sc-stats-updating = Aktualizěrujo se…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector jo gromaźił { $sentenceCount } sadow w { $languageCount } rěcach!
 
 ## ADD
 
@@ -1272,6 +1280,7 @@ sc-confirm-ready =
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = Njepśeglědane sady: { $countOfUnreviewed }. Jolic cośo, móžośo něnto teke swóje sady pśeglědowaś, nježli až je wótpósćełaśo.
 sc-confirm-button-text = Wobkšuśiś
+sc-confirm-uploading = Sady se nagrawaju. To móžo někotare minuty traś, wótwisujucy wót licby pśidanych sadow. Pšosym njezacynjajśo toś to websedło.
 
 ## LANGUAGE INFO
 
