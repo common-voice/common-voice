@@ -553,12 +553,20 @@ about-playbook-how-add-language = Hoe foegje ik in taal ta?
 about-playbook-how-add-language-content-1 = Kontrolearje earst oft jo taal <languageLink>al bestiet</languageLink>. As dat net sa is, moatte jo <strong>de website oersette en sinnen sammelje</strong>.
 about-playbook-how-add-language-content-2 = <strong>Om de side oer te setten</strong> – soargje dat jo <translateVideo>ynsteld binne</translateVideo> op <pontoonLink>Pontoon</pontoonLink>. Pontoon befettet in protte talen, mar as dy fan jo der net by sit, kinne jo <pontoonRequestLink>dizze oanfreegje</pontoonRequestLink>. Freegje dan <repoLink>fia GitHub</repoLink> om it Common Voice-projekt beskikber te meitsjen foar de taal. Mear ynfo oer <localizationFragment>website-oersetting</localizationFragment>.
 about-playbook-how-add-language-content-3 = <strong>Om sinnen te sammeljen</strong> – <scVideo>stel</scVideo> <scLink>Sentence Collector</scLink> yn.
+about-playbook-how-add-language-content-4 = Jo kinne hjir <scLinkAdd>lytse oantallen</scLinkAdd> sinnen tafoegje, of jo kinne <bulkImportDocsLink>bulkymport</bulkImportDocsLink> dwaan fia in Github-fersyk. Unthâld dat sinnen <licenseLink>CC0 (of publyk domein)</licenseLink> wêze moatte, of jo kinne jo eigen sinnen skriuwe. Mear ynfo oer <scFragment>sinnensamling</scFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Hoe wurket websitelokalisaasje?
+about-playbook-how-localize-content-1 = De oersetting fan de Common Voice-website bart op <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Meitsje in account oan</pontoonAccountLink> as jo der noch gjin hawwe. Kies dêrnei jo taal <strong>(‘Team’)</strong> en kies dêrnei it projekt, <pontoonCvLink>Common Voice</pontoonCvLink>. Der sille bestannen wêze om oer te setten. Klik op ien derfan, dan toant Pontoon wurden yn it Ingelsk en in fek om se oer te setten.
+about-playbook-how-localize-content-3 = De oersetting is út it Ingelsk, mar jo kinne <strong>Suggestjes</strong> yn oare talen sjen. Klik op it piktogram <strong>Profyl</strong>, dêrnei op de keppeling <strong>Settings</strong> en foegje eventuele talen ta dy’t jo sprekke. Yn de rjochterbenedenhoeke stiet in list mei oersettingen neamd <strong>Locales</strong>. Oersettingen ferskine nei in dei op de website.
+about-playbook-how-localize-content-4 = De website kin lansearre wurde wannear’t 75% foltôge is.
+about-playbook-how-localize-content-5 = Besjoch ús fideo-útlis om te helpen
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Hoe foegje ik sinnen ta?
 
 ## How to record quality
 
