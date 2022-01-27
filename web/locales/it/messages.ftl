@@ -465,10 +465,13 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Perché Common Voice?
+how-does-it-work-title-v2 = Come funziona Common Voice?
 how-does-it-work-text = Stiamo realizzando un dataset vocale open source attraverso il crowdsourcing. Dona la tua voce, convalida le registrazioni inviate da altre persone, rendi il dataset migliore per tutti.
 
 ## How does it work section
 
+about-language-req-subtitle = Qualcuno richiede l’aggiunta di una nuova lingua.
+about-localization-title = Localizzazione del sito web
 about-speak = Parla
 about-speak-text = I collaboratori leggono e registrano un breve testo tratto da una banca dati di frasi donate.
 about-listen-queue = Coda di ascolto
