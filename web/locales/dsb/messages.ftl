@@ -1365,6 +1365,7 @@ sc-criteria-item-1 = Sada musy pšawje napisana byś.
 sc-criteria-item-2 = Sada musy gramatiski korektna byś.
 sc-criteria-item-3 = Sada musy wugranjajobna byś.
 sc-criteria-item-4 = Jolic sada kriterijam wótpowědujo, klikniśo na tłocašk „Pśizwóliś“.
+sc-criteria-item-5-2 = Jolic sada kriterijam górjejce njewótpowědujo, klikniśo na tłocašk „Wótpokazaś“. Joli se wó saźe wěsty njejsćo, móžośo teke ju pśeskócyś a k pśiducej pśejś.
 sc-criteria-item-6 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
 
 ## REVIEW
