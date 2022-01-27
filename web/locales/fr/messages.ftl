@@ -567,6 +567,7 @@ about-playbook-how-grow-language-content-6 = Partenariats et réseaux
 
 ## How to access dataset
 
+about-playbook-how-access-dataset-content-2 = Si vous recherchez des outils pour créer des modèles ASR, vous pouvez discuter avec d’autres membres de la communauté <discourseLink>sur Discourse</discourseLink>.
 
 ## How are decisions made
 
