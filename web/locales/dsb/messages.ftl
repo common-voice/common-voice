@@ -557,18 +557,29 @@ about-playbook-how-add-sentences-content-4 = Sady, kótarež su pśeglědane, se
 ## How to record quality
 
 about-playbook-how-record-quality = Kak mógu głosowy klip we wusokej kwaliśe nagraś?
+about-playbook-how-record-content-3 = Cytajśo sadu kradosćiwje – njewuwostajśo, njezměnjajśo abo njepśidawajśo słowa.
+about-playbook-how-record-content-5 = <accuracyLink>Zgóńśo wěcej wó kriterijach dokradnosći.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Kak móžomy rěx na Common Voice statkownje rosć daś?
+about-playbook-how-grow-language-content-2 = Tšojenja
+about-playbook-how-grow-language-content-4 = Socialne medije
+about-playbook-how-grow-language-content-6 = Partnaŕstwa a seśi
 
 ## How to validate
 
+about-playbook-how-validate = Wótkul wěm, lěc mam głosowy klip pśizwóliś?
+about-playbook-how-validate-content-4 = Jolic klip se wót 2 wósobowu wótpokazujo, wózjawijo se w drugej źělnej sajźbje datoweje sajźby.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Kak mam pśistup k datowej sajźbje a kak mógu ju wužywaś?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Kak se wó projektach rozsuźuju?
+about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transparenca.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kumštna inteligenca
 mycroft-description =
