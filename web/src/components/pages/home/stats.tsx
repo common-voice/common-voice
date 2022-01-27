@@ -7,6 +7,7 @@ import {
 import * as React from 'react';
 import { useState } from 'react';
 import { connect } from 'react-redux';
+import { Tooltip } from 'react-tippy';
 import API from '../../../services/api';
 import { trackHome } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
@@ -22,8 +23,6 @@ import Plot, {
 } from '../../plot/plot';
 
 import './stats.css';
-
-const { Tooltip } = require('react-tippy');
 
 const PLOT_STROKE_WIDTH = 2;
 
@@ -261,7 +260,14 @@ export namespace ClipsStats {
             </MetricValue>
           </div>
         </>
-      ) : null;
+      ) : (
+        <div />
+      );
+
+      const isTooltipOpen = Object.prototype.hasOwnProperty.call(
+        data,
+        hoveredIndex
+      );
 
       return (
         <StatsCard
@@ -276,7 +282,7 @@ export namespace ClipsStats {
             arrow={true}
             duration={0}
             html={tooltipContents}
-            open={Boolean(tooltipContents)}
+            open={isTooltipOpen}
             theme="white"
             followCursor>
             <Plot
