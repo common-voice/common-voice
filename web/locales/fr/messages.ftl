@@ -560,6 +560,7 @@ about-playbook-how-record-content-4 = Assurez-vous que la plateforme enregistre 
 about-playbook-how-grow-language = Comment est-il possible de développer efficacement une langue sur Common Voice ?
 about-playbook-how-grow-language-content-2 = Évènements
 about-playbook-how-grow-language-content-4 = Réseaux sociaux
+about-playbook-how-grow-language-content-6 = Partenariats et réseaux
 
 ## How to validate
 
@@ -569,6 +570,12 @@ about-playbook-how-grow-language-content-4 = Réseaux sociaux
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-2 = Notre gouvernance repose sur les piliers suivants :
+about-playbook-how-project-governance-content-3 = Confidentialité, sécurité et transparence.
+about-playbook-how-project-governance-content-4 = Participation communautaire et prise de décisions.
+about-playbook-how-project-governance-content-5 = Valeur et reconnaissance.
+about-playbook-how-project-governance-content-6 = Responsabilité mutuelle.
+about-playbook-how-project-governance-content-7 = <governanceLink>En savoir plus sur notre gouvernance</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligence artificielle
 mycroft-description =
