@@ -599,12 +599,18 @@ about-playbook-how-validate = Hoe wit ik oft ik in spraakfragmint goedkarre kin?
 about-playbook-how-validate-content-1 = As jo se <strong>hearre</strong> en <strong>ferstean kinne</strong>, is it meastentiids <strong>it beste om goed te karren</strong>.
 about-playbook-how-validate-content-2 = <strong>Wegerje gjin fragminten wêryn de sprekker ‘in aksint hat’ dat oars is as dat fan jo</strong> – dit is wichtich om derfoar te soargjen dat spraakwerkenning better wurket foar elkenien.
 about-playbook-how-validate-content-3 = As jo tinke dat de útspraak it <strong>ûnmooglik makket om te ferstean</strong>, of der is <strong>in protte eftergrûnlûd</strong>, of der <strong>prate ek oare minsken</strong>, dan moatte jo it fragmint ôfwize. <accuracyLink>Mear ynfo yn ús sekuerenskritearia</accuracyLink>.
+about-playbook-how-validate-content-4 = As in fragmint troch twa persoanen ôfwêzen is, wurdt dizze frijjûn yn in oare subset fan de gegevensset.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Hoe krij ik tagong ta en gebrûk ik de gegevensset?
+about-playbook-how-access-dataset-content-1 = Jo kinne nei de <datasetsPage>side mei gegevenssets</datasetsPage> gean, de winske ferzje en taal of talen selektearje en dizze downloade! De bestannen hawwe <metadataLink>assosjearre metadata</metadataLink>, lykas demografyske gegevens en falidaasjegegevens. Jo moatte in e-mailadres opjaan om de gegevensset te downloaden.
+about-playbook-how-access-dataset-content-2 = As jo sykje nei helpmiddelen om ASR-modellen te bouwen, kinne jo kontakt opnimme mei oare minsken yn de mienskip <discourseLink>op Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Hoe wurde projektbeslissingen nommen?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice wurdt mooglik makke troch in ferskate mienskip fan aktivisten, taalkundigen, gegevenswittenskippers, akademisy en software-engineers fan oer de hiele wrâld. It projekt wurdt beheard troch de Mozilla Foundation.
 about-playbook-how-project-governance-content-2 = Us bestjoer is basearre op de pylders fan:
 about-playbook-how-project-governance-content-3 = Privacy, feilichheid en transparânsje.
 about-playbook-how-project-governance-content-4 = Dielnimming fan en beslútfoarming troch de mienskip.
