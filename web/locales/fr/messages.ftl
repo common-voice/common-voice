@@ -480,6 +480,7 @@ about-language-req-subtitle = Quelqu’un demande l’ajout d’une langue.
 about-localization-title = Traduction du site web
 about-localization-subtitle = Le site web est traduit dans cette langue.
 about-sentence-collection-title = Collecte de phrases
+about-sentence-collection-subtitle = Des phrases sont collectées pour être lues à haute voix.
 about-new-lang-title = Lancement d’une nouvelle langue
 about-new-lang-subtitle = Nous lançons le site Common Voice dans cette langue.
 about-voice-contrib-title = Contribution vocale
