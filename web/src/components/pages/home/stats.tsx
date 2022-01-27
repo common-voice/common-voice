@@ -28,10 +28,6 @@ const PLOT_STROKE_WIDTH = 2;
 
 type Attribute = 'total' | 'valid';
 
-interface State {
-  locale: string;
-}
-
 function StatsCard({
   children,
   onLocaleChange,
@@ -70,37 +66,38 @@ const mapStateToProps = ({ api }: StateTree) => ({
   api,
 });
 
+function formatSeconds(totalSeconds: number, precise = false) {
+  const seconds = totalSeconds % 60;
+  const minutes = Math.floor(totalSeconds / 60) % 60;
+  const hours = Math.floor(totalSeconds / 3600);
+
+  if (hours >= 1000) {
+    if (precise) return `${hours.toLocaleString()}h`;
+    return (hours / 1000).toPrecision(2) + 'k';
+  }
+
+  const timeParts = [];
+
+  if (hours > 0) {
+    timeParts.push(hours + 'h');
+  }
+
+  if (hours < 10 && minutes > 0) {
+    timeParts.push(minutes + 'm');
+  }
+
+  if (hours == 0 && minutes < 10 && seconds > 0) {
+    timeParts.push(seconds + 's');
+  }
+
+  return timeParts.join(' ') || '0';
+}
+
+// eslint-disable-next-line @typescript-eslint/no-namespace
 export namespace ClipsStats {
   const DATA_LENGTH = 5;
   const TICK_COUNT = 7;
   const CIRCLE_RADIUS = 8;
-
-  function formatSeconds(totalSeconds: number, precise: boolean = false) {
-    const seconds = totalSeconds % 60;
-    const minutes = Math.floor(totalSeconds / 60) % 60;
-    const hours = Math.floor(totalSeconds / 3600);
-
-    if (hours >= 1000) {
-      if (precise) return `${hours.toLocaleString()}h`;
-      return (hours / 1000).toPrecision(2) + 'k';
-    }
-
-    const timeParts = [];
-
-    if (hours > 0) {
-      timeParts.push(hours + 'h');
-    }
-
-    if (hours < 10 && minutes > 0) {
-      timeParts.push(minutes + 'm');
-    }
-
-    if (hours == 0 && minutes < 10 && seconds > 0) {
-      timeParts.push(seconds + 's');
-    }
-
-    return timeParts.join(' ') || '0';
-  }
 
   const MetricValue = ({ attribute, title, children }: any) => (
     <div className={'metric-value ' + attribute} title={title}>
@@ -199,6 +196,8 @@ export namespace ClipsStats {
     }
   );
 
+  Path.displayName = 'Path';
+
   class BareRoot extends React.Component<
     WithLocalizationProps & PropsFromState
   > {
@@ -283,7 +282,7 @@ export namespace ClipsStats {
             duration={0}
             html={tooltipContents}
             open={isTooltipOpen}
-            theme="white"
+            theme="light"
             followCursor>
             <Plot
               data={data}
@@ -361,6 +360,8 @@ export const VoiceStats = connect<PropsFromState>(mapStateToProps)(
           header={
             <div>
               <Localized id="voices-online">
+                {/* Localized injects content into child tag */}
+                {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
                 <h3 />
               </Localized>
               <div className="online-voices">
