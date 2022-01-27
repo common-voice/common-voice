@@ -539,6 +539,7 @@ about-playbook-what-is-language-content-3 = Někotare rěcy maju enormne rozdź�
 ## How do I add a language
 
 about-playbook-how-add-language = Kak mógu rěc pśidaś?
+about-playbook-how-add-language-content-1 = Pśeglědajśo nejpjerwjej, lěc waša rěc <languageLink>južo eksistěrujo</languageLink>. Jolic nic, musyśo <strong>sedło pśełožowaś a sady gromaźiś</strong>.
 
 ## How does localization work
 
