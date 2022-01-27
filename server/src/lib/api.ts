@@ -536,7 +536,7 @@ export default class API {
     const countNumberResult = parseInt(count, 10);
 
     // handle if we don't have a number sent
-    if (!Number.isNaN(countNumberResult)) {
+    if (Number.isNaN(countNumberResult)) {
       return null;
     }
 

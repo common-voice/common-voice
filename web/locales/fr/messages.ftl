@@ -560,15 +560,28 @@ about-playbook-how-record-content-4 = Assurez-vous que la plateforme enregistre 
 about-playbook-how-grow-language = Comment est-il possible de développer efficacement une langue sur Common Voice ?
 about-playbook-how-grow-language-content-2 = Évènements
 about-playbook-how-grow-language-content-4 = Réseaux sociaux
+about-playbook-how-grow-language-content-6 = Partenariats et réseaux
+about-playbook-how-grow-language-content-8 = <strong>Faites preuve de créativité !</strong> Votre communauté linguistique sera unique, et ce ne sont là que quelques pistes pour commencer.
 
 ## How to validate
 
+about-playbook-how-validate = Comment savoir si un échantillon vocal doit être approuvé ?
+about-playbook-how-validate-content-4 = Si un clip est rejeté par deux personnes, il est publié dans un sous-ensemble différent du jeu de données.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Comment puis-je accéder au jeu de données et l’utiliser ?
+about-playbook-how-access-dataset-content-1 = Vous pouvez vous rendre sur la <datasetsPage>page des jeux de données</datasetsPage>, sélectionner la version et la ou les langue(s) souhaitée(s) et le télécharger ! Les fichiers contiennent des <metadataLink>métadonnées associées</metadataLink>, telles que des informations démographiques et les données de validation. Vous devrez fournir une adresse e-mail pour télécharger le jeu de données.
+about-playbook-how-access-dataset-content-2 = Si vous recherchez des outils pour créer des modèles ASR, vous pouvez discuter avec d’autres membres de la communauté <discourseLink>sur Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-2 = Notre gouvernance repose sur les piliers suivants :
+about-playbook-how-project-governance-content-3 = Confidentialité, sécurité et transparence.
+about-playbook-how-project-governance-content-4 = Participation communautaire et prise de décisions.
+about-playbook-how-project-governance-content-5 = Valeur et reconnaissance.
+about-playbook-how-project-governance-content-6 = Responsabilité mutuelle.
+about-playbook-how-project-governance-content-7 = <governanceLink>En savoir plus sur notre gouvernance</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligence artificielle
 mycroft-description =

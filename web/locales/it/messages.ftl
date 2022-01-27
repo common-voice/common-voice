@@ -465,10 +465,20 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Perché Common Voice?
+how-does-it-work-title-v2 = Come funziona Common Voice?
 how-does-it-work-text = Stiamo realizzando un dataset vocale open source attraverso il crowdsourcing. Dona la tua voce, convalida le registrazioni inviate da altre persone, rendi il dataset migliore per tutti.
 
 ## How does it work section
 
+about-language-req-subtitle = Qualcuno richiede l’aggiunta di una nuova lingua.
+about-localization-title = Localizzazione del sito web
+about-sentence-collection-title = Raccolta di frasi
+about-sentence-collection-subtitle = Vengono raccolte delle frasi che verranno poi lette dalle persone ad alta voce.
+about-new-lang-title = Lancio di una nuova lingua
+about-new-lang-subtitle = Il sito Common Voice viene lanciato in questa lingua.
+about-voice-contrib-title = Contributi vocali
+about-voice-validation-subtitle = Altre persone hanno il compito di convalidare le registrazioni vocali.
+about-dataset-release-title = Rilascio del dataset
 about-speak = Parla
 about-speak-text = I collaboratori leggono e registrano un breve testo tratto da una banca dati di frasi donate.
 about-listen-queue = Coda di ascolto
@@ -518,6 +528,7 @@ about-nav-get-involved = Collabora
 
 ## How to validate
 
+about-playbook-how-validate-content-3 = Se pensi che la pronuncia <strong>renda impossibile la comprensione</strong> o se è presente un <strong>elevato rumore di sottofondo</strong> o se ci sono <strong>altre persone che parlano contemporaneamente</strong>, allora dovresti rifiutare la registrazione. <accuracyLink>Maggiori informazioni sui nostri criteri di convalida</accuracyLink>.
 
 ## How to access dataset
 
