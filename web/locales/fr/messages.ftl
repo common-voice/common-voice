@@ -577,6 +577,7 @@ about-playbook-how-access-dataset-content-2 = Si vous recherchez des outils pour
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Comment les décisions du projet sont-elles prises ?
 about-playbook-how-project-governance-content-2 = Notre gouvernance repose sur les piliers suivants :
 about-playbook-how-project-governance-content-3 = Confidentialité, sécurité et transparence.
 about-playbook-how-project-governance-content-4 = Participation communautaire et prise de décisions.
