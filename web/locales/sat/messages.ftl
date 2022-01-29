@@ -509,6 +509,7 @@ about-playbook-what-is-language = Common Voice ᱨᱮ ᱯᱟᱹᱨᱥᱤ ᱫᱚ 
 
 ## How do I add a language
 
+about-playbook-how-add-language = ᱤᱧ ᱫᱚ ᱢᱤᱫᱴᱟᱹᱝ ᱯᱟᱹᱨᱥᱤ ᱪᱮᱫ ᱞᱮᱠᱟ ᱛᱮ ᱥᱮᱞᱮᱫ ᱟᱹᱧ ?
 
 ## How does localization work
 
