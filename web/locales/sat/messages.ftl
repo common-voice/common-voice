@@ -463,7 +463,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Common Voice ᱫᱚ ᱪᱮᱫᱟᱜ?
-how-does-it-work-title-v2 = Common Voice ᱪᱮᱞᱠᱟ ᱠᱟᱹᱤ ᱮᱫᱟᱭ ?
+how-does-it-work-title-v2 = Common Voice ᱪᱮᱞᱠᱟ ᱠᱟᱹᱢᱤ ᱮᱫᱟᱭ ?
 how-does-it-work-text = ᱟᱞᱮ ᱥᱟᱰᱮ ᱨᱮᱭᱟᱜ ᱠᱷᱩᱞᱟᱹᱼᱥᱨᱚᱛ ᱰᱟᱴᱟᱥᱮᱴ ᱠᱚ ᱵᱷᱤᱰ ᱜᱚᱲᱚ ᱛᱮ ᱠᱚᱨᱟᱣᱮᱫᱼᱟ᱾ ᱟᱢᱟᱜ ᱥᱟᱰᱮ ᱫᱟᱱ ᱢᱮ, ᱮᱴᱟᱜ ᱦᱚᱲ ᱠᱚᱣᱟᱜ ᱠᱞᱤᱯ ᱠᱚ ᱢᱟᱱᱭᱚ ᱠᱚᱨᱟᱣ ᱢᱮ, ᱡᱷᱚᱛᱚ ᱦᱚᱲ ᱞᱟᱹᱜᱤᱫ ᱰᱟᱴᱟᱥᱮᱴ ᱵᱮᱥ ᱠᱚᱨᱟᱣ ᱢᱮ᱾
 
 ## How does it work section
@@ -499,10 +499,13 @@ about-nav-why-common-voice = ᱪᱮᱫᱟᱜ?
 about-nav-how-it-works = ᱪᱮᱠᱟᱛᱮ ?
 about-nav-partners = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤᱠᱚ
 about-nav-get-involved = ᱥᱟᱹᱢᱤᱞᱚᱜ ᱯᱮ
+about-nav-how-it-works-2 = Common Voice ᱪᱮᱞᱠᱟ ᱠᱟᱹᱢᱤ ᱮᱫᱟᱭ ?
+about-nav-playbook = ᱪᱮᱞᱠᱟ ᱵᱷᱟᱜᱽ ᱤᱫᱤᱭᱟ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice ᱨᱮ ᱯᱟᱹᱨᱥᱤ ᱫᱚ ᱪᱮᱫ ᱠᱟᱱᱟ?
 
 ## How do I add a language
 
@@ -518,12 +521,14 @@ about-nav-get-involved = ᱥᱟᱹᱢᱤᱞᱚᱜ ᱯᱮ
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = ᱥᱚᱥᱤᱭᱟᱹᱞ ᱢᱮᱰᱤᱭᱟ
 
 ## How to validate
 
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ᱤᱧ ᱫᱚ ᱪᱮᱞᱠᱟᱛᱮ ᱰᱟᱴᱟᱥᱮᱴ ᱟᱫᱮᱨ ᱟᱨ ᱵᱮᱵᱷᱟᱨ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱹᱧ?
 
 ## How are decisions made
 
