@@ -540,6 +540,7 @@ about-playbook-how-add-language-content-1 = Tout d’abord, vérifiez si votre l
 
 about-playbook-how-localize = Comment fonctionne la traduction du site ?
 about-playbook-how-localize-content-1 = La traduction du site Common Voice s’effectue sur <strong>Pontoon</strong>.
+about-playbook-how-localize-content-3 = La traduction s’effectue depuis l’anglais, mais vous pouvez voir des <strong>suggestions</strong> dans d’autres langues. Cliquez sur l’icône <strong>Profil</strong>, puis sur le lien <strong>Paramètres</strong> et ajoutez les langues que vous parlez. Dans le coin inférieur droit se trouve une liste de traductions appelées <strong>Locales</strong>. Les traductions sont publiées sur le site au bout de 24 h.
 about-playbook-how-localize-content-4 = Le site est prêt à être lancé lorsqu’il atteint 75 % d’achèvement.
 about-playbook-how-localize-content-5 = Regardez notre vidéo explicative pour vous aider
 
@@ -555,6 +556,7 @@ about-playbook-how-record-quality = Comment enregistrer un extrait vocal de haut
 about-playbook-how-record-content-2 = Évitez trop de bruit de fond - il devrait être facile de vous entendre.
 about-playbook-how-record-content-3 = Lisez attentivement la phrase - n’oubliez pas, ne modifiez pas ou n’ajoutez pas de mots.
 about-playbook-how-record-content-4 = Assurez-vous que la plateforme enregistre avant de commencer à parler et qu’elle ne s’arrête qu’une fois que vous avez terminé.
+about-playbook-how-record-content-5 = <accuracyLink>En savoir plus sur les critères de précision.</accuracyLink>
 
 ## How to grow language
 
