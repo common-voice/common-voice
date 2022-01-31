@@ -36,7 +36,6 @@ ba = baixkir
 bas = basaa
 be = bielorús
 bg = búlgar
-bm = bambara
 bn = bengalí
 br = bretó
 bs = bosnià
@@ -470,15 +469,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Per què Common Voice?
-about-subtitle = El projecte Common Voice forma part de la iniciativa de Mozilla per ajudar les màquines a aprendre com parlem les persones de debò. A més del conjunt de dades del Common Voice, també estem construint un motor de reconeixement de veu de codi obert anomenat Deep Speech.
-about-header-description =
-    Ambdós projectes formen part dels nostres esforços per reduir les desigualtats en el món de la veu digital. Les tecnologies de reconeixement de veu aporten una dimensió humana als nostres dispositius, però els desenvolupadors necessiten una gran quantitat de dades de veu per crear-les. Actualment, la majoria d'aquestes dades són cares i propietàries.
-    Volem que les dades de veu siguin lliures i públiques, i garantir que les dades representin la diversitat de la gent real. Junts podem fer que el reconeixement de veu sigui millor per a tothom.
-about-header-description-2 =
-    Aquest projecte és un esforç per a reduir les desigualtats en el món de la veu digital. Les tecnologies de reconeixement de veu aporten una dimensió humana als nostres dispositius, però els desenvolupadors necessiten una gran quantitat de dades de veu per crear-les. Actualment, la majoria d'aquestes dades són cares i propietàries.
-    Volem que les dades de veu siguin lliures i públiques, i garantir que les dades representin la diversitat de la gent real. Junts podem fer que el reconeixement de veu sigui millor per a tothom.
-how-does-it-work-title = Com funciona?
+how-does-it-work-title-v2 = Com funciona Common Voice?
 how-does-it-work-text = Estem creant de forma col·laborativa un conjunt de dades de veu obert. Doneu la vostra veu, valideu la precisió dels talls d'altres persones i feu que el conjunt de dades sigui millor per a tothom.
+
+## How does it work section
+
+about-language-req-subtitle = Algú demana que s'afegeixi una llengua.
+about-localization-title = Localització del lloc web
+about-localization-subtitle = El text del lloc web es tradueix a aquesta llengua.
+about-sentence-collection-title = Recollida de frases
+about-sentence-collection-subtitle = Es recullen frases perquè la gent les llegeixi en veu alta.
+about-new-lang-title = Llançament d'una nova llengua
+about-new-lang-subtitle = Es publica el lloc web de Common Voice en aquesta llengua.
+about-voice-contrib-title = Col·laboracions amb la veu
+about-voice-contrib-subtitle = La gent ve i col·labora enregistrant la seva veu.
+about-voice-validation-title = Validacions de les veus
+about-voice-validation-subtitle = Altres persones validen els talls de veu enregistrats.
+about-dataset-release-title = Publicació del conjunt de dades
+about-dataset-release-subtitle = Publiquem el conjunt de dades cada 3 mesos.
+about-subscribe-text = Voleu estar en contacte amb Common Voice?
 about-speak = Parla
 about-speak-text = Els col·laboradors enregistren talls de veu llegint textos que provenen d'un banc de frases donades.
 about-listen-queue = Cua d'escolta
@@ -505,10 +514,44 @@ about-get-involved = Col·laboreu-hi
 about-get-involved-text-2 =
     Voleu ajudar a millorar el Common Voice?
     Genial! Poseu-vos en contacte per correu electrònic o pels fòrums del <discourseLink>Discourse</discourseLink>, notifiqueu problemes en el <githubLink>GitHub</githubLink> o uniu-vos al nostre xat de la comunitat en el <matrixLink>Matrix</matrixLink>
+about-stay-in-touch = Com em puc mantenir en contacte?
+about-stay-in-touch-text-1 = <emailFragment>Registreu-vos</emailFragment> a la nostra llista de correu per a saber com podeu participar en campanyes, esdeveniments i funcions de disseny conjunt a Common Voice.
+about-stay-in-touch-text-2 = Podeu conèixer altres persones en les comunitats lingüístiques de Mozilla unint-vos a <discourseLink>Discourse</discourseLink> per a converses d'actualitat, o a <matrixLink>Matrix</matrixLink> per obtenir un consell ràpid.
 about-nav-why-common-voice = Per què?
 about-nav-how-it-works = Com?
 about-nav-partners = Socis
 about-nav-get-involved = Col·laboreu-hi
+about-nav-how-it-works-2 = Com funciona Common Voice?
+about-nav-playbook = Apreneu a participar-hi
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Què és una llengua a Common Voice?
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intel·ligència artificial
 mycroft-description =
