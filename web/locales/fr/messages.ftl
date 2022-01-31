@@ -553,6 +553,7 @@ about-playbook-how-add-sentences-content-4 = Les phrases qui ont été validées
 ## How to record quality
 
 about-playbook-how-record-quality = Comment enregistrer un extrait vocal de haute qualité ?
+about-playbook-how-record-content-1 = Parlez avec votre voix normale. Votre façon de parler est la bienvenue ici, nous voulons que votre accent soit tel qu’il est, et nous voulons votre volume, votre style et votre intonation habituels.
 about-playbook-how-record-content-2 = Évitez trop de bruit de fond - il devrait être facile de vous entendre.
 about-playbook-how-record-content-3 = Lisez attentivement la phrase - n’oubliez pas, ne modifiez pas ou n’ajoutez pas de mots.
 about-playbook-how-record-content-4 = Assurez-vous que la plateforme enregistre avant de commencer à parler et qu’elle ne s’arrête qu’une fois que vous avez terminé.
