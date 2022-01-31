@@ -472,6 +472,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Miért a Common Voice?
+about-header-description-v2 =
+    <p>A Common Voice egy nyilvánosan elérhető hangadatkészlet, amelyet a világ minden tájáról származó önkéntes közreműködők hangja alkot. Azok, akik hangalapú alkalmazásokat készítenek, az adatkészletet a gépi tanulási modellek betanításához használhatják.</p>
+    <p>Jelenleg a legtöbb hangadatkészlet vállalatok tulajdonában van, ami elfojtja az innovációt. A hangadatkészletek szintén felülreprezentálják a fehér, angolul beszélő férfiakat. Ez azt jelenti, hogy a hangalapú technológia egyáltalán nem működik sok nyelven, és ahol működik, előfordulhat, hogy nem mindenkinél teljesít egyformán jól. Ezen szeretnénk változtatni azáltal, hogy mindenhol mozgósítjuk az embereket, hogy megosszák a hangjukat.</p>
 how-does-it-work-title-v2 = Hogyan működik a Common Voice?
 how-does-it-work-text = Közösségi munkában gyűjtjük a hangok nyílt forráskódú készletét. Adja a hangját, ellenőrizze más emberek klipjeinek pontosságát, és tegye mindenki számára jobbá az adatkészletet.
 
