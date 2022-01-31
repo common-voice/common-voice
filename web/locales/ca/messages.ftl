@@ -574,9 +574,14 @@ about-playbook-how-grow-language-content-8 = <strong>Sigueu creatiu!</strong> La
 about-playbook-how-validate = Com sé si aprovar un tall de veu?
 about-playbook-how-validate-content-1 = Si podeu <strong>escoltar-los</strong> i <strong>entendre'ls</strong>, normalment és <strong>millor aprovar-los</strong>.
 about-playbook-how-validate-content-2 = <strong>No rebutgeu talls on el locutor «té un accent» diferent del vostre</strong>: això és important perquè el reconeixement de veu funcioni bé per a tothom.
+about-playbook-how-validate-content-3 = Si creieu que la pronúncia fa que sigui <strong>impossible d'entendre</strong>, o hi ha <strong>molt soroll de fons</strong> o hi ha <strong>altres persones que també parlen</strong>, aleshores hauríeu de rebutjar el tall. <accuracyLink>Vegeu més informació als criteris de precisió</accuracyLink>.
+about-playbook-how-validate-content-4 = Si 2 persones rebutgen un tall, es publicarà en un subconjunt diferent del conjunt de dades.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Com puc accedir i utilitzar el conjunt de dades?
+about-playbook-how-access-dataset-content-1 = Podeu anar a la <datasetsPage>pàgina de conjunts de dades</datasetsPage>, seleccionar la versió i les llengües que voleu i baixar-los! Els fitxers tenen <metadataLink>metadades associades</metadataLink>, com ara informació demogràfica i dades de validació. Haureu de proporcionar una adreça electrònica per a baixar el conjunt de dades.
+about-playbook-how-access-dataset-content-2 = Si esteu buscant eines per a crear models RAP, podeu connectar-vos amb altres persones de la comunitat <discourseLink>a Discourse</discourseLink>.
 
 ## How are decisions made
 
