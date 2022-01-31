@@ -603,6 +603,7 @@ about-playbook-how-access-dataset-content-2 = Ha eszközöket keres az ASR-model
 ## How are decisions made
 
 about-playbook-how-project-governance = Hogyan születnek a projektekkel kapcsolatos döntések?
+about-playbook-how-project-governance-content-1 = A Mozilla Common Voice-ot a világ minden tájáról érkező aktivisták, nyelvészek, adatelemzők, akadémikusok és szoftvermérnökök sokszínű közössége teszi lehetővé. A projektet a Mozilla Alapítvány kezeli.
 about-playbook-how-project-governance-content-2 = Az irányításunk ezekre a pillérekre épül:
 about-playbook-how-project-governance-content-3 = Adatvédelem, biztonság és átláthatóság.
 about-playbook-how-project-governance-content-4 = Közösségi részvétel és döntéshozatal.
