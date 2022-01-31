@@ -540,12 +540,14 @@ about-playbook-what-is-language-content-3 = Algunes llengües tenen una gran var
 about-playbook-how-add-language = Com puc afegir una llengua?
 about-playbook-how-add-language-content-1 = Primer, comproveu si la vostra llengua <languageLink>ja existeix</languageLink>. Si no és així, heu de <strong>traduir el lloc i recollir-ne frases</strong>.
 about-playbook-how-add-language-content-3 = <strong>Per a recollir frases</strong>: <scVideo>registreu-vos</scVideo> al <scLink>Sentence Collector</scLink>.
+about-playbook-how-add-language-content-4 = Podeu un <scLinkAdd>nombre petit</scLinkAdd> de frases aquí, o podeu fer <bulkImportDocsLink>importacions massives</bulkImportDocsLink> mitjançant una sol·licitud de Github. Recordeu que les frases han de ser <licenseLink>CC0 (o domini públic)</licenseLink>, o bé podeu escriure'n de pròpies. Vegeu més en la <scFragment>col·lecció de frases</scFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Com funciona la localització del lloc web?
 about-playbook-how-localize-content-1 = La traducció del lloc web de Common Voice es fa a <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Creeu un compte</pontoonAccountLink> si no en teniu cap. A continuació, trieu la vostra llengua <strong>(«Equip»)</strong> i, a continuació, trieu el projecte, <pontoonCvLink>Common Voice</pontoonCvLink>. Hi haurà fitxers per traduir. Feu clic a sobre d'un, després es mostren les paraules en anglès i un quadre per a traduir-les.
+about-playbook-how-localize-content-3 = La traducció és des de l'anglès, però podeu veure <strong>Suggeriments</strong> en altres llengües. Feu clic a la icona <strong>Perfil</strong>, després a l'enllaç <strong>Configuració</strong> i afegiu les llengües que parleu. A l'extrem inferior dret hi haurà una llista de traduccions anomenada <strong>Locales</strong>. Les traduccions es mostren al lloc web l'endemà.
 about-playbook-how-localize-content-4 = El lloc està a punt per ser publicat quan arriba al 75% de la finalització.
 about-playbook-how-localize-content-5 = Mireu el vídeo explicatiu per a ajudar-vos
 
