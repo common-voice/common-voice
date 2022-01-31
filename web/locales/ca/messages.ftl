@@ -469,6 +469,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Per què Common Voice?
+about-header-description-v2 =
+    <p>Common Voice és un conjunt de dades de veu disponible públicament, impulsat per les veus de col·laboradors voluntaris d'arreu del món. Les persones que vulguin crear aplicacions de veu poden utilitzar el conjunt de dades per entrenar models d'aprenentatge automàtic.</p>
+    <p>En l'actualitat, la majoria dels conjunts de dades de veu són propietat d'empreses, cosa que frena la innovació. Els conjunts de dades de veu també representen en excés els homes blancs de parla anglesa. Això vol dir que la tecnologia habilitada per veu no funciona gens per a moltes llengües i, on funciona, pot ser que no funcioni igual per a tothom. Volem canviar això mobilitzant gent d'arreu per a compartir la seva veu.</p>
 how-does-it-work-title-v2 = Com funciona Common Voice?
 how-does-it-work-text = Estem creant de forma col·laborativa un conjunt de dades de veu obert. Doneu la vostra veu, valideu la precisió dels talls d'altres persones i feu que el conjunt de dades sigui millor per a tothom.
 
@@ -542,10 +545,15 @@ about-playbook-how-add-language-content-1 = Primer, comproveu si la vostra lleng
 about-playbook-how-localize = Com funciona la localització del lloc web?
 about-playbook-how-localize-content-1 = La traducció del lloc web de Common Voice es fa a <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Creeu un compte</pontoonAccountLink> si no en teniu cap. A continuació, trieu la vostra llengua <strong>(«Equip»)</strong> i, a continuació, trieu el projecte, <pontoonCvLink>Common Voice</pontoonCvLink>. Hi haurà fitxers per traduir. Feu clic a sobre d'un, després es mostren les paraules en anglès i un quadre per a traduir-les.
+about-playbook-how-localize-content-4 = El lloc està a punt per ser publicat quan arriba al 75% de la finalització.
+about-playbook-how-localize-content-5 = Mireu el vídeo explicatiu per a ajudar-vos
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Com hi afegeixo frases?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> és una eina per a recopilar i validar frases de domini públic. Haureu de <scAccountLink>crear un compte</scAccountLink>. A continuació, afegiu la vostra llengua al <strong>perfil</strong>. Hi podeu <strong>afegir</strong> frases o <strong>revisar</strong> les frases afegides anteriorment.
+about-playbook-how-add-sentences-content-2 = Les frases han de ser revisades i acceptades per dues persones per a ser incloses a Common Voice. Creeu directrius per a la vostra llengua <languageGuidelinesLink>aquí</languageGuidelinesLink>. Les frases han de ser de <licenseLink>domini públic</licenseLink> i han de tenir menys de 15 paraules. Podeu demanar al propietari d'un text que el faci <waiverLink>CC0 mitjançant el nostre procés d'exempció</waiverLink> i ens l'enviï a commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Podeu utilitzar l'<scraperLink>Extractor de frases</scraperLink> per a aprofitar frases curtes de la Viquipèdia.
 about-playbook-how-add-sentences-content-4 = Les frases que s'han validat s'exporten el dimecres i estan disponibles després del següent llançament.
 
 ## How to record quality
@@ -585,6 +593,14 @@ about-playbook-how-access-dataset-content-2 = Si esteu buscant eines per a crear
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Com es prenen les decisions del projecte?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice és possible gràcies a una comunitat diversa d'activistes, lingüistes, científics de dades, acadèmics i enginyers de programari d'arreu del món. El projecte és gestionat per la Fundació Mozilla.
+about-playbook-how-project-governance-content-2 = La nostra governança es basa en els pilars de:
+about-playbook-how-project-governance-content-3 = Privadesa, seguretat i transparència.
+about-playbook-how-project-governance-content-4 = Participació comunitària i presa de decisions.
+about-playbook-how-project-governance-content-5 = Valor i reconeixement.
+about-playbook-how-project-governance-content-6 = Responsabilitat mútua.
+about-playbook-how-project-governance-content-7 = <governanceLink>Llegiu més sobre com ens governem</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intel·ligència artificial
 mycroft-description =
