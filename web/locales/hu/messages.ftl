@@ -581,9 +581,16 @@ about-playbook-how-grow-language-content-1 = A lehetőségek megteremtése, hogy
 about-playbook-how-grow-language-content-2 = Események
 about-playbook-how-grow-language-content-3 = Rendezvényeket szervezhet, hogy segítse az embereket. Könnyebb, mint gondolná. Megteheti online egy videokonferencia eszközzel, vagy személyesen is, ha az biztonságos. <eventTemplate>Nézze meg sablonjainkat és erőforrásainkat az események megtartásához</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Közösségi média
+about-playbook-how-grow-language-content-5 = Használhatja a közösségi médiát az üzenet eljuttatására. Osszon meg olyan bejegyzéseket, amelyek elmagyarázzák, hogy miért fontos ez, és lépjen kapcsolatba másokkal, akik olyan kérdésekről beszélnek, mint a nyelvi jogok, a hangalapú mesterséges intelligencia vagy a technológiai elfogultság. További tanácsokat talál a <campaignLink>közösségi kampányok futtatásához, és az újrafelhasználható tartalmakkal kapcsolatban</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnerségek és hálózatok
+about-playbook-how-grow-language-content-7 = Keressen másokat, akiket ez érdekel. Ezek lehetnek egyetemek, nyelviskolák, érdekképviseleti csoportok vagy adatelemzői közösségek. Vegye fel a kapcsolatot, és világosan magyarázza el, hogyan tudnak segíteni és miért. <outreachTemplates>Tekintse meg a tájékoztató e-mail-sablonjainkat</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Legyen kreatív!</strong> Nyelvi közössége egyedülálló lesz, és ez csak néhány módszer a kezdéshez.
 
 ## How to validate
 
+about-playbook-how-validate = Honnan tudhatom, hogy jóváhagyjak-e egy hangfelvételt?
+about-playbook-how-validate-content-1 = Ha <strong>hallja</strong> és <strong>megérti őket</strong>, akkor általában az a <strong>legjobb, ha jóváhagyja</strong>.
+about-playbook-how-validate-content-2 = <strong>Ne utasítson el olyan klipeket, melyben a beszélőnek Öntől eltérő akcentusa van</strong> – ez azért fontos, hogy a hangfelismerés mindenki számára jobban működjön.
 
 ## How to access dataset
 
