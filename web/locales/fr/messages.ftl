@@ -562,6 +562,7 @@ about-playbook-how-record-content-5 = <accuracyLink>En savoir plus sur les crit�
 ## How to grow language
 
 about-playbook-how-grow-language = Comment est-il possible de développer efficacement une langue sur Common Voice ?
+about-playbook-how-grow-language-content-1 = Permettre à une diversité de personnes de contribuer à Common Voice garantit que le jeu de données serve autant de personnes que possible. Nous avons créé des ressources et des modèles que vous pouvez utiliser.
 about-playbook-how-grow-language-content-2 = Évènements
 about-playbook-how-grow-language-content-4 = Réseaux sociaux
 about-playbook-how-grow-language-content-6 = Partenariats et réseaux
