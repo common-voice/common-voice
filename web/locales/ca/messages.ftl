@@ -545,12 +545,21 @@ about-playbook-how-localize-content-2 = <pontoonAccountLink>Creeu un compte</pon
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Com hi afegeixo frases?
+about-playbook-how-add-sentences-content-4 = Les frases que s'han validat s'exporten el dimecres i estan disponibles després del següent llançament.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Com enregistro un tall de veu d'alta qualitat?
+about-playbook-how-record-content-1 = Parleu amb la veu normal! Aquí, la vostra manera de parlar és benvinguda: volem el vostre accent tal com és, i volem el vostre volum, estil i entonació habituals.
+about-playbook-how-record-content-2 = Eviteu massa soroll de fons: hauria de ser fàcil d'escoltar-vos.
+about-playbook-how-record-content-3 = Llegiu atentament la frase: no ometeu, canvieu ni hi afegiu cap paraula.
+about-playbook-how-record-content-4 = Assegureu-vos que la plataforma estigui enregistrant abans de començar a parlar i que només s'atura quan hàgiu acabat.
+about-playbook-how-record-content-5 = <accuracyLink>Vegeu més informació sobre els criteris de precisió.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Com podem fer créixer una llengua de manera efectiva a Common Voice?
 
 ## How to validate
 
