@@ -563,12 +563,24 @@ about-playbook-how-add-sentences = Hogyan adhatok hozzá mondatokat?
 about-playbook-how-add-sentences-content-1 = A <strong>mondatgyűjtő</strong> egy eszköz, amely közkincsű mondatok gyűjtésére és ellenőrzésére szolgál. <scAccountLink>Létre kell hoznia egy fiókot</scAccountLink>. Majd adja hozzá a nyelvét a <strong>profiljában</strong>. <strong>Hozzáadhat</strong> mondatokat, vagy <strong>ellenőrizheti</strong> az előzőleg hozzáadottakat.
 about-playbook-how-add-sentences-content-2 = A mondatokat két embernek kell átnéznie és elfogadnia, hogy bekerüljenek a Common Voice-ba. <languageGuidelinesLink>Itt</languageGuidelinesLink> hozhat létre irányelveket az Ön nyelvéhez. A mondatoknak <licenseLink>közkincsnek</licenseLink>, és 15 szónál rövidebbnek kell lenniük. Megkérheti a szöveg tulajdonosát, hogy <waiverLink>CC0 alatt licencelje a lemondási folyamatunk használatával</waiverLink>, majd küldje el nekünk a commonvoice@mozilla.com címre.
 about-playbook-how-add-sentences-content-3 = Használhatja a <scraperLink>Mondatgyűjtőt</scraperLink>, hogy rövid mondatokat vegyen át a Wikipédiáról.
+about-playbook-how-add-sentences-content-4 = Az ellenőrzött mondatok szerdánként kerülnek exportálásra, és a következő kiadás után lesznek elérhetők.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Hogyan rögzíthetek jó minőségű hangfelvételt?
+about-playbook-how-record-content-1 = Beszéljen a normál hangján! Szívesen látjuk az Ön beszédmódját – a megszokott akcentust, hangerőt, stílust és intonációt szeretnénk.
+about-playbook-how-record-content-2 = Kerülje a túl sok háttérzajt – könnyen hallhatónak kell lennie.
+about-playbook-how-record-content-3 = Figyelmesen olvassa fel a mondatot – ne hagyjon ki, ne változtasson és ne adjon hozzá szavakat.
+about-playbook-how-record-content-4 = Mielőtt elkezdené beszélni, győződjön meg arról, hogy a platform rögzíti, és csak akkor áll le, ha befejezte.
+about-playbook-how-record-content-5 = <accuracyLink>További információ a pontossági feltételekről.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Hogyan fejleszthetünk hatékonyan egy nyelvet a Common Voice-ban?
+about-playbook-how-grow-language-content-1 = A lehetőségek megteremtése, hogy sokféle ember működjön közre a Common Voice-ban, biztosítja, hogy az adatkészlet a lehető legtöbb embert szolgálja ki. Olyan forrásokat és sablonokat hoztunk létre, amelyeket Ön is használhat!
+about-playbook-how-grow-language-content-2 = Események
+about-playbook-how-grow-language-content-3 = Rendezvényeket szervezhet, hogy segítse az embereket. Könnyebb, mint gondolná. Megteheti online egy videokonferencia eszközzel, vagy személyesen is, ha az biztonságos. <eventTemplate>Nézze meg sablonjainkat és erőforrásainkat az események megtartásához</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Közösségi média
 
 ## How to validate
 
