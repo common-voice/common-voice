@@ -565,11 +565,14 @@ about-playbook-how-grow-language = Comment est-il possible de développer effica
 about-playbook-how-grow-language-content-2 = Évènements
 about-playbook-how-grow-language-content-4 = Réseaux sociaux
 about-playbook-how-grow-language-content-6 = Partenariats et réseaux
+about-playbook-how-grow-language-content-7 = Trouvez d’autres personnes qui s’en soucient. Il pourrait s’agir d’universités, d’écoles de langues, de groupes de défense des droits ou de communautés scientifiques autour des données. Contactez-les et expliquez clairement comment ces structures peuvent aider et pourquoi. <reachTemplates>Consultez nos modèles d’e-mails de sensibilisation</reachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Faites preuve de créativité !</strong> Votre communauté linguistique sera unique, et ce ne sont là que quelques pistes pour commencer.
 
 ## How to validate
 
 about-playbook-how-validate = Comment savoir si un échantillon vocal doit être approuvé ?
+about-playbook-how-validate-content-1 = Si vous arrivez à <strong>les entendre</strong> et <strong>les comprendre</strong>, il est généralement <strong>préférable de les approuver</strong>.
+about-playbook-how-validate-content-2 = <strong>Ne rejetez pas les échantillons où le locuteur/la locutrice « a un accent » différent du vôtre</strong>. C’est important pour que la reconnaissance vocale fonctionne mieux pour tout le monde.
 about-playbook-how-validate-content-4 = Si un clip est rejeté par deux personnes, il est publié dans un sous-ensemble différent du jeu de données.
 
 ## How to access dataset
@@ -581,6 +584,7 @@ about-playbook-how-access-dataset-content-2 = Si vous recherchez des outils pour
 ## How are decisions made
 
 about-playbook-how-project-governance = Comment les décisions du projet sont-elles prises ?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice est rendu possible grâce à une communauté diversifiée de militant·e·s, linguistes, data scientists, universitaires et ingénieur·e·s logiciels du monde entier. Le projet est géré par la Fondation Mozilla.
 about-playbook-how-project-governance-content-2 = Notre gouvernance repose sur les piliers suivants :
 about-playbook-how-project-governance-content-3 = Confidentialité, sécurité et transparence.
 about-playbook-how-project-governance-content-4 = Participation communautaire et prise de décisions.
