@@ -528,12 +528,20 @@ about-nav-playbook = Apreneu a participar-hi
 ## What is a language
 
 about-playbook-what-is-language = Què és una llengua a Common Voice?
+about-playbook-what-is-language-content-1 = Hi ha moltes maneres de considerar què és una llengua. A efectes dels models de reconeixement de veu, Common Voice suggereix centrar-se en la «intel·ligibilitat mútua» o «els parlants d'aquesta llengua poden entendre's, entre ells, si ho intenten?»
+about-playbook-what-is-language-content-2 = Volem que els models de parla siguin millors per a entendre una àmplia gamma de parlants. Perquè això passi, un conjunt de dades de veu ha de representar moltes persones diferents.
+about-playbook-what-is-language-content-3 = Algunes llengües tenen una gran variació en gramàtica, vocabulari i pronunciació. Per aquest motiu, estem <ctaLink>introduint les «Variants»</ctaLink> el 2022. Això ofereix a les comunitats una manera de distingir les llengües en el conjunt de dades més general.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Com puc afegir una llengua?
+about-playbook-how-add-language-content-1 = Primer, comproveu si la vostra llengua <languageLink>ja existeix</languageLink>. Si no és així, heu de <strong>traduir el lloc i recollir-ne frases</strong>.
 
 ## How does localization work
 
+about-playbook-how-localize = Com funciona la localització del lloc web?
+about-playbook-how-localize-content-1 = La traducció del lloc web de Common Voice es fa a <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Creeu un compte</pontoonAccountLink> si no en teniu cap. A continuació, trieu la vostra llengua <strong>(«Equip»)</strong> i, a continuació, trieu el projecte, <pontoonCvLink>Common Voice</pontoonCvLink>. Hi haurà fitxers per traduir. Feu clic a sobre d'un, després es mostren les paraules en anglès i un quadre per a traduir-les.
 
 ## How to add sentences
 
