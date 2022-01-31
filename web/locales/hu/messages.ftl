@@ -591,9 +591,14 @@ about-playbook-how-grow-language-content-8 = <strong>Legyen kreatív!</strong> N
 about-playbook-how-validate = Honnan tudhatom, hogy jóváhagyjak-e egy hangfelvételt?
 about-playbook-how-validate-content-1 = Ha <strong>hallja</strong> és <strong>megérti őket</strong>, akkor általában az a <strong>legjobb, ha jóváhagyja</strong>.
 about-playbook-how-validate-content-2 = <strong>Ne utasítson el olyan klipeket, melyben a beszélőnek Öntől eltérő akcentusa van</strong> – ez azért fontos, hogy a hangfelismerés mindenki számára jobban működjön.
+about-playbook-how-validate-content-3 = Ha úgy gondolja, hogy a kiejtés <strong>nem érthető</strong>, vagy <strong>nagy a háttérzaj</strong>, vagy <strong>mások is beszélnek</strong>, akkor el kell utasítania a klipet. <accuracyLink>További információkat a pontossági kritériumainkban talál</accuracyLink>.
+about-playbook-how-validate-content-4 = Ha egy klipet 2 személy is elutasít, akkor az az adatkészlet másik részhalmazában kerül kiadásra.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Hogyan érhetem el és használhatom az adatkészletet?
+about-playbook-how-access-dataset-content-1 = Felkeresheti az <datasetsPage>adatkészletek oldalt</datasetsPage>, kiválaszthatja a kívánt verziót és nyelveket, és letöltheti. A fájlok <metadataLink>társított metaadatokat</metadataLink> tartalmaznak, például demográfiai információkat és érvényesítési adatokat. Az adatkészlet letöltéséhez meg kell adnia egy e-mail-címet.
+about-playbook-how-access-dataset-content-2 = Ha eszközöket keres az ASR-modellek felépítéséhez, akkor kapcsolatba léphet más emberekkel a közösségben a <discourseLink>Discourse-on</discourseLink>.
 
 ## How are decisions made
 
