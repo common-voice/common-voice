@@ -272,7 +272,7 @@ whats-public = Què és públic?
 email-not-public = No farem pública la vostra adreça electrònica.
 recordings-and-locale-public = El nombre d'enregistraments i les llengües en què heu col·laborat seran públics.
 username-optin-public = Podeu triar si voleu que el vostre nom d'usuari sigui públic o anònim.
-demographic-deidentified-clarity-2 = Les dades demogràfiques enviades opcionalment (per exemple, edat, gènere, llengua i variant) no es faran mai públiques en el vostre perfil i no s’enllaçaran amb el vostre compte en el conjunt de dades. De forma individual, els talls de veu s’associaran a les dades demogràfiques amb la finalitat d’anàlisis més precises.  Per exemple, un investigador pot voler orientar un model d’entrenament a un segment demogràfic específic.
+demographic-deidentified-clarity-2 = Les dades demogràfiques enviades opcionalment (per exemple, edat, gènere, llengua i accent) no es faran mai públiques en el vostre perfil i no s’enllaçaran amb el vostre compte en el conjunt de dades. De forma individual, els talls de veu s’associaran a les dades demogràfiques amb la finalitat d’anàlisis més precises.  Per exemple, un investigador pot voler orientar un model d’entrenament a un segment demogràfic específic.
 username-email-not-demographic = El vostre nom d'usuari i adreça electrònica no estaran associats amb les dades publicades.
 
 ## Speak & Listen Shortcuts
@@ -336,8 +336,8 @@ profile-form-language =
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
-    .label = Com descriuríeu la vostra variant?
-profile-form-custom-accent-placeholder-2 = Comenceu a escriure per a descriure la vostra variant
+    .label = Com descriuríeu el vostre accent?
+profile-form-custom-accent-placeholder-2 = Comenceu a escriure per a descriure el vostre accent
 profile-form-age =
     .label = Edat
 profile-form-gender-2 =
@@ -348,7 +348,7 @@ hidden = Amagat
 visible = Visible
 native-language =
     .label = Llengua materna
-profile-form-add-accent = Afegeix una nova variant personalitzada «{ $inputValue }»
+profile-form-add-accent = Afegeix un nou accent personalitzat «{ $inputValue }»
 profile-form-submit-save = Desa
 profile-form-submit-saved = S'ha desat
 male = Home
@@ -382,8 +382,8 @@ skip-submission-description = L'enviament de comentaris es desactivarà en fer c
 skip-submission-note = Nota: Igualment, haureu de seleccionar entre Parla o Escolta per a canviar el tipus de col·laboració.
 off = Desactivat
 on = Activat
-help-accent = Us cal ajuda sobre les variants?
-help-accent-explanation = La variant és la forma com pronuncieu les paraules. Es pot crear a partir dels llocs on heu viscut, quins altres idiomes parleu i molts altres factors. Podeu compartir aquí qualsevol informació que considereu rellevant.
+help-accent = Us cal ajuda sobre els accents?
+help-accent-explanation = L'accent és la forma com pronuncieu les paraules. Es pot crear a partir dels llocs on heu viscut, quines altres llengües parleu i molts altres factors. Podeu compartir aquí qualsevol informació que considereu rellevant.
 
 ## Profile - Email
 
@@ -539,6 +539,7 @@ about-playbook-what-is-language-content-3 = Algunes llengües tenen una gran var
 
 about-playbook-how-add-language = Com puc afegir una llengua?
 about-playbook-how-add-language-content-1 = Primer, comproveu si la vostra llengua <languageLink>ja existeix</languageLink>. Si no és així, heu de <strong>traduir el lloc i recollir-ne frases</strong>.
+about-playbook-how-add-language-content-2 = <strong>Per a traduir el lloc web</strong>: <translateVideo>registreu-vos</translateVideo> a <pontoonLink>Pontoon</pontoonLink>. Pontoon té moltes llengües, però si no en té la vostra, podeu <pontoonRequestLink>sol·licitar-la</pontoonRequestLink>. A continuació, demaneu a <repoLink>mitjançant GitHub</repoLink> que el projecte Common Voice estigui disponible per a la vostra llengua. Vegeu més a la <localizationFragment>traducció del lloc web</localizationFragment>.
 about-playbook-how-add-language-content-3 = <strong>Per a recollir frases</strong>: <scVideo>registreu-vos</scVideo> al <scLink>Sentence Collector</scLink>.
 about-playbook-how-add-language-content-4 = Podeu un <scLinkAdd>nombre petit</scLinkAdd> de frases aquí, o podeu fer <bulkImportDocsLink>importacions massives</bulkImportDocsLink> mitjançant una sol·licitud de Github. Recordeu que les frases han de ser <licenseLink>CC0 (o domini públic)</licenseLink>, o bé podeu escriure'n de pròpies. Vegeu més en la <scFragment>col·lecció de frases</scFragment>.
 
