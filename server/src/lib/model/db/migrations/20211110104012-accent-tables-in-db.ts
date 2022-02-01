@@ -251,10 +251,10 @@ export const up = async function (db: any): Promise<any> {
       id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
 
       locale_id INT NOT NULL,
-      accent_name VARCHAR(255) CHARSET utf8mb4 NOT NULL,
-      accent_token VARCHAR(255) CHARSET utf8mb4 DEFAULT NULL,
+      accent_name VARCHAR(191) CHARSET utf8mb4 NOT NULL,
+      accent_token VARCHAR(191) CHARSET utf8mb4 DEFAULT NULL,
       user_submitted BOOLEAN DEFAULT FALSE,
-      client_id CHAR(36),
+      client_id CHAR(15),
       approved BOOLEAN DEFAULT FALSE,
       created_at DATETIME DEFAULT NOW(),
 
