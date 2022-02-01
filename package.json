@@ -56,6 +56,7 @@
     "build-common": "cd common && yarn build && cd ..",
     "build-maint": "cd maintenance && yarn build && cd ..",
     "import-locales": "node scripts/import-locales",
+    "check-localization": "node scripts/check-for-unused-localization.js",
     "lint": "eslint .",
     "lint:common": "eslint ./common",
     "lint:server": "eslint ./server",
