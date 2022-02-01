@@ -6,7 +6,7 @@ import {
   withLocalization,
   WithLocalizationProps,
 } from '@fluent/react';
-import { LinkButton, LabeledSelect } from '../../ui/ui';
+import { LinkButton } from '../../ui/ui';
 import { ArrowRight } from '../../ui/icons';
 import URLS from '../../../urls';
 import { Locale } from '../../../stores/locale';
@@ -54,6 +54,8 @@ export default connect<PropsFromState, PropsFromDispatch>(
           <img src={robot} id="robot" alt="red robot" />
           <div id="intro-container--text-box">
             <Localized id="demo-welcome">
+              {/* Localized injects content into child tag */}
+              {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
               <h1 id="intro-container--text-box__text-header" />
             </Localized>
             <Localized id="demo-welcome-subheader">

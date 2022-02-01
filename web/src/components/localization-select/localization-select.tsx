@@ -8,7 +8,7 @@ import './localization-select.css';
 
 interface Props {
   locale?: string;
-  onLocaleChange?: (props: any) => any;
+  onLocaleChange?: (props: string) => void;
 }
 
 const LocalizationSelect = ({ locale, onLocaleChange }: Props) => {

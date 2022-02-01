@@ -10,7 +10,7 @@ import './localization-select.css';
 
 interface Props {
   locale?: string;
-  onLocaleChange: (props: any) => any;
+  onLocaleChange?: (props: string) => void;
 }
 
 function getLocaleWithName(locale: string) {
@@ -22,7 +22,7 @@ const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
   const initialSelectedItem = localWithName ? localWithName.code : LOCALES[0];
   const items = LOCALES_WITH_NAMES.map(locale => locale.code);
 
-  function onSelectedItemChange({ selectedItem }: any) {
+  function onSelectedItemChange({ selectedItem }: { selectedItem: string }) {
     if (selectedItem) {
       onLocaleChange(selectedItem);
     }
