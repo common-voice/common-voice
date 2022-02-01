@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import cx from 'classnames';
 import { LocaleLink } from '../locale-helpers';
 import { CheckIcon } from './icons';
+import VisuallyHidden from '../visually-hidden/visually-hidden';
 
 export const Avatar = ({
   className,
@@ -17,7 +18,7 @@ export const Avatar = ({
 }) => (
   <div className={`avatar-wrap ${className ? className : ''}`} style={style}>
     {url ? (
-      <img src={url} />
+      <img src={url} alt="" />
     ) : (
       <img
         className="mars-avatar"
@@ -33,7 +34,7 @@ export const Button = ({
   outline = false,
   rounded = false,
   ...props
-}) => (
+}: any) => (
   <button
     type="button"
     className={[
@@ -66,6 +67,7 @@ export const Checkbox = React.forwardRef(
     </span>
   )
 );
+Checkbox.displayName = 'Checkbox';
 
 export const LabeledCheckbox = React.forwardRef(
   ({ label, style, ...props }: any, ref) => (
@@ -75,13 +77,23 @@ export const LabeledCheckbox = React.forwardRef(
     </label>
   )
 );
+LabeledCheckbox.displayName = 'LabeledCheckbox';
 
 const LabeledFormControl = React.forwardRef(
   (
-    { className = '', component: Component, label, required, ...props }: any,
+    {
+      className = '',
+      component: Component,
+      button,
+      label,
+      required,
+      isLabelVisuallyHidden,
+      ...props
+    }: any,
     ref
   ) => {
     const child = <Component {...{ ref, required, ...props }} />;
+
     return (
       <label
         className={[
@@ -91,10 +103,14 @@ const LabeledFormControl = React.forwardRef(
           props.disabled ? 'disabled' : '',
         ].join(' ')}
         {...props}>
-        <span className="label">
-          {required && '*'}
-          {label}
-        </span>
+        {isLabelVisuallyHidden ? (
+          <VisuallyHidden>{label}</VisuallyHidden>
+        ) : (
+          <span className="label">
+            <span aria-hidden="true">{required && '*'}</span>
+            {label}
+          </span>
+        )}
         {Component == 'select' ? (
           <div className="wrapper with-down-arrow">{child}</div>
         ) : (
@@ -104,6 +120,7 @@ const LabeledFormControl = React.forwardRef(
     );
   }
 );
+LabeledFormControl.displayName = 'LabeledFormControl';
 
 export const LabeledInput = React.forwardRef(({ type, ...props }: any, ref) => (
   <LabeledFormControl
@@ -114,6 +131,7 @@ export const LabeledInput = React.forwardRef(({ type, ...props }: any, ref) => (
     {...props}
   />
 ));
+LabeledInput.displayName = 'LabeledInput';
 
 export const LabeledSelect = (props: any) => (
   <LabeledFormControl component="select" {...props} />
