@@ -1453,3 +1453,5 @@ sc-validation-no-abbreviations = A mondat nem tartalmazhat rövidítéseket
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Válasszon nyelvet/honosítást
