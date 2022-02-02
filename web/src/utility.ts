@@ -8,7 +8,7 @@ const SEARCH_REG_EXP = new RegExp('</?[^>]+(>|$)', 'g');
  */
 export function generateGUID(): string {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
-    var r = (Math.random() * 16) | 0,
+    const r = (Math.random() * 16) | 0,
       v = c == 'x' ? r : (r & 0x3) | 0x8;
     return v.toString(16);
   });
@@ -29,9 +29,9 @@ export function generateToken(length = 40) {
  * https://codegolf.stackexchange.com/
  *   questions/47322/how-to-count-the-syllables-in-a-word
  */
-let re = /[aiouy]+e*|e(?!d$|ly).|[td]ed|le$/gi;
+const re = /[aiouy]+e*|e(?!d$|ly).|[td]ed|le$/gi;
 export function countSyllables(text: string): number {
-  let matches = text.match(re);
+  const matches = text.match(re);
   return matches.length;
 }
 
@@ -84,9 +84,8 @@ export function replacePathLocale(pathname: string, locale: string) {
 
 export function getManageSubscriptionURL(account: UserClient) {
   const firstLanguage = account.locales[0];
-  return `https://www.mozilla.org/${
-    firstLanguage ? firstLanguage.locale + '/' : ''
-  }newsletter/existing/${account.basket_token}`;
+  return `https://www.mozilla.org/${firstLanguage ? firstLanguage.locale + '/' : ''
+    }newsletter/existing/${account.basket_token}`;
 }
 
 export const getAudioFormat = (() => {
@@ -125,6 +124,45 @@ export function byteToSize(bytes: number, getString: Function): string {
   return megabytes < 1
     ? Math.round(megabytes * 100) / 100 + ' ' + getString('size-megabyte')
     : megabytes > 1024
-    ? Math.round(megabytes / 1024) + ' ' + getString('size-gigabyte')
-    : Math.round(megabytes) + ' ' + getString('size-megabyte');
+      ? Math.round(megabytes / 1024) + ' ' + getString('size-gigabyte')
+      : Math.round(megabytes) + ' ' + getString('size-megabyte');
+}
+
+export function formatSeconds(totalSeconds: number, precise = false, locale?: string) {
+  const LOCALE = locale || 'en-US'
+  const seconds = totalSeconds % 60;
+  const minutes = Math.floor(totalSeconds / 60) % 60;
+  const hours = Math.floor(totalSeconds / 3600);
+  console.log("LOCALE", LOCALE)
+  if (hours >= 1000) {
+    if (precise) return `${hours.toLocaleString()}h`;
+    return (hours / 1000).toPrecision(2) + 'k';
+  }
+
+  const timeParts = [];
+
+  if (hours > 0) {
+    timeParts.push(hours.toLocaleString(LOCALE, {
+      style: 'unit',
+      unit: 'hour',
+      unitDisplay: 'narrow'
+    }))
+  }
+
+  if (hours < 10 && minutes > 0) {
+    timeParts.push(minutes.toLocaleString(LOCALE, {
+      style: 'unit',
+      unit: 'minute',
+      unitDisplay: 'narrow'
+    }))
+  }
+
+  if (hours == 0 && minutes < 10 && seconds > 0) {
+    timeParts.push(hours.toLocaleString(LOCALE, {
+      style: 'unit',
+      unit: 'second',
+      unitDisplay: 'narrow'
+    }))
+  }
+  return timeParts.join(' ') || '0';
 }
