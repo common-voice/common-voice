@@ -1421,3 +1421,5 @@ sc-validation-no-abbreviations = Sada njeměła skrotconki wopśimowaś
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Rěc/Lokalizaciju wubraś
