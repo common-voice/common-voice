@@ -228,7 +228,7 @@ export default function LeaderboardCard({
 
   return (
     <StatsCard
-      key="leaderboard"
+      id="stats-leaderboard"
       {...{ currentLocale }}
       className={'leaderboard-card ' + (showOverlay ? 'has-overlay' : '')}
       title="top-contributors"

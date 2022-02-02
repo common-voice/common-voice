@@ -41,7 +41,7 @@ export default function LeaderboardCard({
   const leaderboardRef = useRef(null);
   return (
     <StatsCard
-      key="leaderboard"
+      id="challenge-leaderboard"
       className="leaderboard-card"
       title={title}
       challenge={true}
