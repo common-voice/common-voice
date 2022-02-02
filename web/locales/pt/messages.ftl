@@ -1433,3 +1433,5 @@ sc-validation-no-abbreviations = A frase não deve conter abreviações
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Escolher idioma/localização
