@@ -1510,3 +1510,5 @@ sc-validation-no-abbreviations = Zin mag geen afkortingen bevatten
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Kies uw taal/localisatie
