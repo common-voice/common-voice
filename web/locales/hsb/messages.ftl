@@ -1421,3 +1421,5 @@ sc-validation-no-abbreviations = Sada njeměła skrótšenki wobsahować
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Rěč/Lokalizaciju wubrać
