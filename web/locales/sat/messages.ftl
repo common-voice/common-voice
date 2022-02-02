@@ -1373,3 +1373,5 @@ sc-validation-no-abbreviations = ᱟᱹᱭᱟᱹᱛ ᱨᱮ ᱠᱷᱟᱴᱚ ᱚ�
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = ᱯᱟᱹᱨᱥᱤ/ᱛᱚᱨᱡᱚᱢᱟ ᱵᱟᱪᱷᱟᱣ ᱢᱮ
