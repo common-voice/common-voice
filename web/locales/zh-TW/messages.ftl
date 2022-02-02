@@ -1409,3 +1409,5 @@ sc-validation-no-abbreviations = 句子不應包含縮寫
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = 選擇語言 / 語系

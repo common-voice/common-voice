@@ -1100,6 +1100,7 @@ sc-howto-review-subtitle = Βεβαιωθείτε ότι η πρόταση πλ�
 sc-howto-review-criteria-1 = Η πρόταση πρέπει να έχει σωστή ορθογραφία.
 sc-howto-review-criteria-2 = Η πρόταση πρέπει να είναι γραμματικά ορθή.
 sc-howto-review-criteria-4 = Εάν η πρόταση πληροί τα κριτήρια, κάντε κλικ στο κουμπί «Έγκριση».
+sc-howto-findpd-tips = Ακολουθούν μερικές συμβουλές για να βρείτε προτάσεις:
 
 ## MY SENTENCES
 

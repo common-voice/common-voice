@@ -36,9 +36,9 @@ ba = باشکیر
 bas = باسا
 be = بیلاڕووسی
 bg = بولگاری
-bm = بامبارا
 bn = بەنگالی
 br = بریتۆن
+bs = بۆسنی
 bxr = بوریاتی
 ca = کەتەلۆنی
 cak = کاکچیکیلی
@@ -90,6 +90,7 @@ kab = قەبیلی
 kbd = کاباردی
 ki = کیکوویوو
 kk = کازاخی
+km = خمێر
 kmr = کوردیی کرمانجی
 ko = کۆری
 kpv = کۆمی زۆریا
@@ -152,6 +153,7 @@ tg = تاجیکی
 th = تایلەندی
 ti = تیگرینیا
 tig = تیگری
+tk = تورکمانی
 tl = تاگالۆگی
 tr = تورکی
 tt = تەتەری
@@ -443,10 +445,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = بۆچی دەنگی گشتی؟
-about-subtitle = پڕۆژەی "دەنگی گشتی" بەشێکە لە هەوڵی مۆزیلا بۆ ئەوەی کە چۆنییەتی قسەکردنی مرۆڤ فێری ئامێرەکان بکات. جگە لە زانیاریسێتی "دەنگی گشتی" ئێمە خەریکین بزوێنەرێکی وتارناسیش بە ناوی DeepSpeech ساز دەکەین.
-about-header-description = هەردووی ئەم پڕۆژانە بەشێکن لە هەوڵەکانی ئێمە بۆ پڕکردنی بۆشاییەکانی وتاری دیجیتاڵ. تەکنۆلۆژیاکانی ناسینەوەی وتار بەشێکی مرۆڤی زیاد دەکەن لەسەر ئامێرەکانی ئێمە بەڵام گەشەپێدەران پێویستیان بە کۆمەڵێکی زۆر زانیاریی دەنگییە بۆ ئەوەی بەرهەمەکانیان ساز کەن. لەم کاتەدا، زۆربەی ئەم زانیارییە نرخی زۆر، گران و تیجارییە. ئێمە دەمانهەوێ کە زانیاریی دەنگ بە شێوەی خۆڕایی و ئازادانە لەبەردەستی هەموان بێت و زانیاریکەش پیشاندەری جۆراوجۆری کەسانی ڕاستەقینە بێت. پێکەوە دەتوانین تەکنۆلۆژیای ناسینەوەی وتار بۆ هەموان باشتر بکەین.
-how-does-it-work-title = چۆن ئیش دەکات؟
 how-does-it-work-text = ئێمە زانیاریسێتێکی کراوەی دەنگەکان کۆمەڵبەخش دەکەین. دەنگی خۆت ببەخشە، وردبەرەوە لە گرتە ئامادە کراوەکانی کەسانی تر و بیسەلمێنە و زانیاریسێتەکە بۆ هەموان باشتر بکە.
+
+## How does it work section
+
 about-speak = قسە بکە
 about-speak-text = بەشداران دەنگی خۆیان تۆماردەکەن دەکەن بە خوێندنەوەی ئەو ڕستانەی بەخشراون بە بانکی ڕستە ئامادەکراوەکان.
 about-listen-queue = ڕیزی بیستن
@@ -476,6 +478,34 @@ about-nav-why-common-voice = بۆچی؟
 about-nav-how-it-works = چۆن؟
 about-nav-partners = یارمەتیدەران
 about-nav-get-involved = بەشدار بە
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = ژیریی دەستکرد
 mycroft-description = Mycroft Ai یەکەمین یارمەتیدەی سەرچاوە کراوەی جیهانە. Mycroft لە هەموو جێگایەک ئیش دەکات، لە سەر کۆمپیوتەری ڕوومێز، لە سەیارە و لەسەر Raspberry Pi.
@@ -1093,8 +1123,6 @@ sc-review-form-source = سەرچاوە:{ $sentenceSource }
 sc-review-form-button-reject = پەسەندنەکردن
 sc-review-form-button-skip = تێپەڕاندن
 sc-review-form-button-approve = پەسەندکردن
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = دەتوانی تەختەکلیل بەکاربێنیت: Y بۆ پەسەندکردن، N بۆ پەسەندنەکردن، S بۆ تێپەڕاندن
 sc-review-form-button-submit =
     .submitText = پێداچوونەوە تەواو بکە
 # Variables:

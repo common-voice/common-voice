@@ -465,6 +465,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Perché Common Voice?
+about-header-description-v2 =
+    <p>Common Voice è un dataset pubblicamente disponibile, costituito dalle voci di collaboratori volontari di tutto il mondo. Coloro che vogliono realizzare applicazioni vocali possono utilizzare il dataset per addestrare i modelli di machine learning.</p>
+    <p>Attualmente, la maggior parte dei dataset è di proprietà aziendale e ciò soffoca l’innovazione. Inoltre, i dataset vocali vedono la presenza sproporzionata di contenuti letti da maschi bianchi di lingua inglese. Di conseguenza, la tecnologia vocale può non funzionare affatto per molte lingue e, laddove funziona, potrebbe non funzionare allo stesso modo per tutti. Vogliamo cambiare questa situazione spingendo le persone a condividere la propria voce.</p>
 how-does-it-work-title-v2 = Come funziona Common Voice?
 how-does-it-work-text = Stiamo realizzando un dataset vocale open source attraverso il crowdsourcing. Dona la tua voce, convalida le registrazioni inviate da altre persone, rendi il dataset migliore per tutti.
 
@@ -472,13 +475,18 @@ how-does-it-work-text = Stiamo realizzando un dataset vocale open source attrave
 
 about-language-req-subtitle = Qualcuno richiede l’aggiunta di una nuova lingua.
 about-localization-title = Localizzazione del sito web
+about-localization-subtitle = Il testo del sito web viene tradotto in quella lingua.
 about-sentence-collection-title = Raccolta di frasi
 about-sentence-collection-subtitle = Vengono raccolte delle frasi che verranno poi lette dalle persone ad alta voce.
 about-new-lang-title = Lancio di una nuova lingua
 about-new-lang-subtitle = Il sito Common Voice viene lanciato in questa lingua.
 about-voice-contrib-title = Contributi vocali
+about-voice-contrib-subtitle = Le persone contribuiscono con la propria voce.
+about-voice-validation-title = Convalida delle registrazioni
 about-voice-validation-subtitle = Altre persone hanno il compito di convalidare le registrazioni vocali.
 about-dataset-release-title = Rilascio del dataset
+about-dataset-release-subtitle = Rilasciamo il dataset ogni 3 mesi.
+about-subscribe-text = Vuoi rimanere aggiornato su Common Voice?
 about-speak = Parla
 about-speak-text = I collaboratori leggono e registrano un breve testo tratto da una banca dati di frasi donate.
 about-listen-queue = Coda di ascolto
@@ -502,6 +510,7 @@ about-get-involved = Collabora
 about-get-involved-text-2 =
     Vuoi aiutarci a migliorare Common Voice?
     Ottimo! Contattaci via email o sul forum <discourseLink>Discourse</discourseLink>, segnala problemi del sito attraverso <githubLink>GitHub</githubLink> o unisciti alla chat della comunità su <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Come posso rimanere aggiornato?
 about-nav-why-common-voice = Perché?
 about-nav-how-it-works = Come?
 about-nav-partners = Partner
@@ -528,10 +537,17 @@ about-nav-get-involved = Collabora
 
 ## How to validate
 
+about-playbook-how-validate = Come faccio a sapere quando approvare una registrazione?
+about-playbook-how-validate-content-1 = Se il contenuto è <strong>chiaramente udibile</strong> e <strong>comprensibile</strong>, in generale la registrazione <strong>è corretta</strong> ed è da <strong>approvare</strong>.
+about-playbook-how-validate-content-2 = <strong>Non rifiutare registrazioni in cui chi legge “ha un accento” diverso dal tuo</strong>: è un aspetto importante che consente al riconoscitore vocale di funzionare meglio per tutti.
 about-playbook-how-validate-content-3 = Se pensi che la pronuncia <strong>renda impossibile la comprensione</strong> o se è presente un <strong>elevato rumore di sottofondo</strong> o se ci sono <strong>altre persone che parlano contemporaneamente</strong>, allora dovresti rifiutare la registrazione. <accuracyLink>Maggiori informazioni sui nostri criteri di convalida</accuracyLink>.
+about-playbook-how-validate-content-4 = Se una registrazione viene rifiutata da due persone, viene inserita in un diverso sottoinsieme del dataset.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Come posso accedere e utilizzare il dataset?
+about-playbook-how-access-dataset-content-1 = Puoi andare alla <datasetsPage>pagina dei dataset</datasetsPage>, selezionare la versione e la lingua che ti interessa e scaricarlo. I file contengono dei <metadataLink>metadati associati</metadataLink>, tra cui le informazioni demografiche e i dati di convalida. È necessario fornire un indirizzo email per scaricare il dataset.
+about-playbook-how-access-dataset-content-2 = Se stai cercando strumenti per costruire modelli ASR, puoi metterti in contatto con altri utenti della comunità su <discourseLink>Discourse</discourseLink>.
 
 ## How are decisions made
 

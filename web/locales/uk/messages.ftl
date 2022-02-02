@@ -1542,3 +1542,5 @@ sc-validation-no-abbreviations = Речення не повинно містит
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Виберіть мову/локалізацію

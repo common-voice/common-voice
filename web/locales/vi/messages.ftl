@@ -1483,3 +1483,5 @@ sc-validation-no-abbreviations = Câu không được viết tắt
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Chọn ngôn ngữ/bản địa hóa

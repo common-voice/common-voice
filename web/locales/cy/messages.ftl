@@ -1538,3 +1538,5 @@ sc-validation-no-abbreviations = Dylai brawddeg ddim cynnwys byrfoddau
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Dewiswch iaith

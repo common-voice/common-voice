@@ -1520,3 +1520,5 @@ sc-validation-no-abbreviations = Sin mei gjin ôfkoartingen befetsje
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Kies jo taal/lokalisaasje
