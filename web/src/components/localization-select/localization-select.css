@@ -8,14 +8,14 @@
         height: 100%;
         position: absolute;
         background: url('./globe.svg') no-repeat;
-        background-position-x: left 13px;
+        background-position-x: 13px;
         background-position-y: center;
         background-size: 17px 16px;
         pointer-events: none;
         z-index: var(--top-z-index);
 
         [dir='rtl'] & {
-            background-position-x: right 13px;
+            background-position-x: calc(100% - 13px);
         }
     }
 
@@ -43,7 +43,6 @@
         align-items: center;
         justify-content: left;
         padding: 0.8px 40px;
-        min-width: 120px;
         height: var(--input-height);
         box-sizing: border-box;
         min-width: auto;
