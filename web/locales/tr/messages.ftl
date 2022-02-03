@@ -36,7 +36,6 @@ ba = Başkurtça
 bas = Basaa
 be = Belarusça
 bg = Bulgarca
-bm = Bambara
 bn = Bengalce
 br = Bretonca
 bs = Boşnakça
@@ -468,15 +467,12 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Neden Common Voice?
-about-subtitle = Common Voice, Mozilla'nın makinelere gerçek insanların nasıl konuştuğunu öğretme girişiminin bir parçasıdır. Common Voice veri kümesine ek olarak, Deep Speech adlı açık kaynaklı bir konuşma tanıma motoru da geliştiriyoruz.
-about-header-description =
-    Bu projelerin her ikisi de dijital konuşma ayrımını kapatma çabalarımızın bir parçası. Ses tanıma teknolojileri cihazlarımıza insani bir boyut getiriyor ancak geliştiricilerin bunları oluşturmak için çok büyük miktarda ses verisine ihtiyaçları var. Şu anda, bu verilerin çoğu pahalı ve tescilli.
-    Ses verilerini özgür ve herkese açık hale getirmek ve verilerin gerçek insanların çeşitliliğini temsil ettiğinden emin olmak istiyoruz. Birlikte ses tanımayı herkes için daha iyi hale getirebiliriz.
-about-header-description-2 =
-    Bu proje dijital konuşma ayrımını kapatma çabalarımızın bir parçası. Ses tanıma teknolojileri cihazlarımıza insani bir boyut getiriyor ancak geliştiricilerin bunları oluşturmak için çok büyük miktarda ses verisine ihtiyaçları var. Şu anda, bu verilerin çoğu pahalı ve tescilli.
-    Ses verilerini özgür ve herkese açık hale getirmek ve verilerin gerçek insanların çeşitliliğini temsil ettiğinden emin olmak istiyoruz. Birlikte ses tanımayı herkes için daha iyi hale getirebiliriz.
-how-does-it-work-title = Nasıl çalışıyor?
 how-does-it-work-text = Açık kaynaklı bir ses veri kümesi topluyoruz. Sesinizi bağışlayın, diğer kişilerin kayıtlarının doğruluğunu doğrulayın, veri kümesini herkes için daha iyi hale getirin.
+
+## How does it work section
+
+about-localization-title = Web Sitesi Yerelleştirme
+about-sentence-collection-title = Cümle Toplama
 about-speak = Konuş
 about-speak-text = Katkıda bulunanlar ses kayıtlarını bağışlanan cümle bankasından okuyarak kaydederler.
 about-listen-queue = Dinleme Kuyruğu
@@ -509,6 +505,34 @@ about-nav-why-common-voice = Neden ?
 about-nav-how-it-works = Nasıl ?
 about-nav-partners = İş ortakları
 about-nav-get-involved = Bize katılın
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Yapay zekâ
 mycroft-description =
