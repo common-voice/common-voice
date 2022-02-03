@@ -1426,3 +1426,6 @@ sc-validation-no-symbols = Sentence should not contain symbols
 sc-validation-no-abbreviations = Sentence should not contain abbreviations
 
 # [/SentenceCollector]
+
+localization-select =
+  .label = Choose language/localization

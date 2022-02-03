@@ -540,7 +540,7 @@ about-playbook-what-is-language-content-3 = Někotre rěče maja enormne rozdź�
 
 about-playbook-how-add-language = Kak móžu rěč přidać?
 about-playbook-how-add-language-content-1 = Přepruwujće najprjedy, hač waša rěč <languageLink>hižo eksistuje</languageLink>. Jeli nic, dyrbiće <strong>sydło překožować a sady zběrać</strong>.
-about-playbook-how-add-language-content-2 = <strong>Zo byšće sydło přełožował</strong> – <translateVideo>konfigurujće</translateVideo> na <pontoonLink>Pontoon</pontoonLink>. Pontoon ma wjele rěčow, ale waša rěč tam njeje, móžeće <pontoonRequestLink>ju požadać</pontoonRequestLink>. Prošće potom <repoLink>na GitHub</repoLink>, zo by so projekt Common Voice za swoju rěč k dispoziciji stajił. Hlejće dalše informacije wo <localizationFragment>přełožowanju sydła</localizationFragment>.
+about-playbook-how-add-language-content-2 = <strong>Zo byšće sydło přełožował</strong> – <translateVideo>konfigurujće</translateVideo> na <pontoonLink>Pontoon</pontoonLink>. Pontoon ma wjele rěčow, ale jeli waša rěč tam njeje, móžeće <pontoonRequestLink>ju požadać</pontoonRequestLink>. Prošće potom <repoLink>na GitHub</repoLink>, zo by so projekt Common Voice za swoju rěč k dispoziciji stajił. Hlejće dalše informacije wo <localizationFragment>přełožowanju sydła</localizationFragment>.
 about-playbook-how-add-language-content-3 = <strong>Zo byšće sady zběrał</strong> - <scVideo>konfigurujće</scVideo> <scLink>Sentence Collector</scLink>.
 
 ## How does localization work
@@ -1421,3 +1421,5 @@ sc-validation-no-abbreviations = Sada njeměła skrótšenki wobsahować
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Rěč/Lokalizaciju wubrać

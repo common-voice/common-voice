@@ -545,7 +545,7 @@ about-playbook-how-add-language = როგორ დავამატო ე�
 about-playbook-how-add-language-content-1 = ჯერ გადაამოწმეთ, <languageLink>უკვე არის თუ არა</languageLink> თქვენი ენა. თუ არაა, საჭირო იქნება <strong>საიტის თარგმნა და წინადადებების შეგროვება</strong>.
 about-playbook-how-add-language-content-2 = <strong>საიტის გადასათარგმნად</strong> – უნდა <translateVideo>გამოიყენოთ</translateVideo>  <pontoonLink>Pontoon</pontoonLink>. Pontoon-ზე ბევრი ენაა, მაგრამ თუ თქვენი არ იქნება, შეგიძლიათ <pontoonRequestLink>მოითხოვოთ</pontoonRequestLink> დამატება. შემდეგ განაცხადეთ <repoLink>GitHub-ზე</repoLink>, რომ გსურთ Common Voice ხელმისაწვდომი იყოს თქვენი ენისთვის. ვრცლად იხილეთ <localizationFragment>საიტის თარგმნა</localizationFragment>.
 about-playbook-how-add-language-content-3 = <strong>წინადადებების შესაგროვებლად</strong> – <scVideo>უნდა გამოიყენოთ</scVideo> <scLink>წინადადებების შემგროვებელი</scLink>.
-about-playbook-how-add-language-content-4 = მისი მეშვეობით შეგიძლიათ <scLinkAdd>მცირე ოდენობით</scLinkAdd> წინადადებების დამატება, ხოლო ბევრის <bulkImportDocsLink>ერთიანად შეტანისთვის</bulkImportDocsLink> უნდა განაცხადოთ Github-ზე. დაიხსომეთ, რომ წინადადებები აუცილებლად უნდა იყოს <licenseLink>CC0 (ანუ საყოველთაო საკუთრებაში)</licenseLink>, ანდაც თავად უნდა მოიფიქროთ. ვრცლად იხილეთ <scFragment>წინადადებების შემგროვებელი ხელსაწყო</scFragment>.
+about-playbook-how-add-language-content-4 = მისი მეშვეობით შეგიძლიათ <scLinkAdd>მცირე ოდენობით</scLinkAdd> წინადადებების დამატება, ხოლო ბევრის <bulkImportDocsLink>ერთიანად შეტანისთვის</bulkImportDocsLink> უნდა განაცხადოთ Github-ზე. დაიხსომეთ, რომ წინადადებები აუცილებლად უნდა იყოს <licenseLink>CC0 (ანუ საყოველთაო საკუთრებაში)</licenseLink>, ანდაც თავად უნდა შეადგინოთ. ვრცლად იხილეთ <scFragment>წინადადებების შემგროვებელი ხელსაწყო</scFragment>.
 
 ## How does localization work
 
@@ -581,7 +581,7 @@ about-playbook-how-grow-language-content-2 = ღონისძიებებ�
 about-playbook-how-grow-language-content-3 = შეგიძლიათ მოაწყოთ ღონისძიება მეტი მოხალისის მოსაწვევად. გაცილებით ადვილია, ვიდრე გგონიათ. შესაძლებელია როგორც ინტერნეტში, კონფერენციის დასაგეგმი პროგრამებით, ასევე პირადი შეხვედრებითაც, თუ უსაფრთხოა. <eventTemplate>გადახედეთ ჩვენს ნიმუშებსა და სასარგებლო მასალებს ღონისძიებების შესახებ</eventTemplate>.
 about-playbook-how-grow-language-content-4 = სოცქსელები
 about-playbook-how-grow-language-content-5 = შეგიძლია გამოიყენოთ სხვადასხვა სოციალური ქსელი ხმის მისაწვდენად მეტ ადამიანამდე. გააზიარეთ და ახსენით, რატომაა ეს საკითხი მნიშვნელოვანი, შეეხმიანეთ ხალხს და ესაუბრეთ ენის ციფრულად გადარჩენის, ხმოვანი ხელსაწყოების ან ტექსამყაროში არსებული უთანასწორობის შესახებ. იხილეთ რჩევები <campaignLink>სოციალური კამპანიის გატარებაზე, აგრეთვე სხვა გამოსადეგი მასალები</campaignLink>.
-about-playbook-how-grow-language-content-6 = თანამშრომლობა და ქსელის შექმნა
+about-playbook-how-grow-language-content-6 = თანამშრომლობა და კავშირების დამყარება
 about-playbook-how-grow-language-content-7 = მოიძიეთ სხვები, რომლებიც ასევე ზრუნავენ ამ საკითხებზე. ეს შეიძლება იყოს უნივერსიტეტები, ენის შემსწავლელი სკოლები, უფლებათადამცველი ჯგუფები ან მონაცემთა მეცნიერებისგან შექმნილი ერთობები. შეეხმიანეთ და ნათლად აუხსენით, როგორ და რატომ უნდა დაგეხმარონ. <outreachTemplates>იხილეთ ელფოსტის წერილის ნიმუშები ხმის მისაწვდენად</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>მიუდექით შემოქმედებითად და თავად მოიფიქრეთ!</strong> თითოეულ ენაზე მოსაუბრე საზოგადოება განსხვავებული და გამორჩეულია, გამოიყენეთ ეს თავისებურებები, მოცემული რჩევები მხოლოდ დასაწყებადაა.
 
@@ -596,7 +596,7 @@ about-playbook-how-validate-content-4 = თუ ჩანაწერს უა�
 ## How to access dataset
 
 about-playbook-how-access-dataset = როგორ გამოვიყენო მონაცემთა კრებული?
-about-playbook-how-access-dataset-content-1 = შეგიძლიათ გადახვიდეთ <datasetsPage>მონაცემთა კრებულის გვერდზე</datasetsPage>, აირჩიოთ ვერსია, მიუთითოთ სასურველი ენა (ენები) და ჩამოტვირთოთ! ფაილებს <metadataLink>დართული ექნება მონაცემები</metadataLink>, მათ შორის დემოგრაფიული ინფორმაცია და მოხალისეების შეფასებები. დაგჭირდებათ ელფოსტის შეყვანა, კრებულის ჩამოსატვირთად.
+about-playbook-how-access-dataset-content-1 = შეგიძლიათ გადახვიდეთ <datasetsPage>მონაცემთა კრებულის გვერდზე</datasetsPage>, აირჩიოთ ვერსია, მიუთითოთ სასურველი ენა (ენები) და ჩამოტვირთოთ! ხმოვან ფაილებს <metadataLink>დართული ექნება მონაცემები</metadataLink>, მათ შორის დემოგრაფიული ინფორმაცია და მოხალისეების შეფასებები. დაგჭირდებათ ელფოსტის შეყვანა, კრებულის ჩამოსატვირთად.
 about-playbook-how-access-dataset-content-2 = თუ ეძებთ ხელსაწყოებს ხმის ამომცნობი (ASR) მოდელის ასაგებად, შეგიძლიათ დაუკავშირდეთ ჩვენი ერთობის სხვა წევრებს <discourseLink>Discourse-ზე</discourseLink>.
 
 ## How are decisions made

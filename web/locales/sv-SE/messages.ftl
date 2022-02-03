@@ -1428,3 +1428,5 @@ sc-validation-no-abbreviations = Meningen ska inte innehålla förkortningar
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Välj språk/lokalisering

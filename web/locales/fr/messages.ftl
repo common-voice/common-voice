@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Oui, envoyez-moi des courriers électroniques. Je souhaite rester informé·e au sujet du projet Common Voice.
+yes-receive-emails = Oui, envoyez-moi des e-mails. Je souhaite rester informé·e au sujet du projet Common Voice.
 stayintouch = Chez Mozilla, nous rassemblons une communauté autour des technologies vocales. Nous aimerions rester en contact avec vous pour vous tenir au courant des nouveautés, des nouvelles sources de données et aussi pour découvrir comment vous utilisez ces données.
 privacy-info = Nous promettons de prendre soin de vos données. Apprenez-en davantage en consultant notre <privacyLink>Politique de confidentialité</privacyLink>.
 return-to-cv = Retourner vers Common Voice
@@ -480,7 +480,8 @@ about-language-req-subtitle = Quelqu’un demande l’ajout d’une langue.
 about-localization-title = Traduction du site web
 about-localization-subtitle = Le site web est traduit dans cette langue.
 about-sentence-collection-title = Collecte de phrases
-about-new-lang-title = Lancement d’une nouvelle langue
+about-sentence-collection-subtitle = Des phrases sont collectées pour être lues à haute voix.
+about-new-lang-title = Lancement de la nouvelle langue
 about-new-lang-subtitle = Nous lançons le site Common Voice dans cette langue.
 about-voice-contrib-title = Contribution vocale
 about-voice-contrib-subtitle = Des personnes contribuent avec leur voix.
@@ -539,6 +540,7 @@ about-playbook-how-add-language-content-1 = Tout d’abord, vérifiez si votre l
 
 about-playbook-how-localize = Comment fonctionne la traduction du site ?
 about-playbook-how-localize-content-1 = La traduction du site Common Voice s’effectue sur <strong>Pontoon</strong>.
+about-playbook-how-localize-content-3 = La traduction s’effectue depuis l’anglais, mais vous pouvez voir des <strong>suggestions</strong> dans d’autres langues. Cliquez sur l’icône <strong>Profil</strong>, puis sur le lien <strong>Paramètres</strong> et ajoutez les langues que vous parlez. Dans le coin inférieur droit se trouve une liste de traductions appelées <strong>Locales</strong>. Les traductions sont publiées sur le site au bout de 24 h.
 about-playbook-how-localize-content-4 = Le site est prêt à être lancé lorsqu’il atteint 75 % d’achèvement.
 about-playbook-how-localize-content-5 = Regardez notre vidéo explicative pour vous aider
 
@@ -551,21 +553,27 @@ about-playbook-how-add-sentences-content-4 = Les phrases qui ont été validées
 ## How to record quality
 
 about-playbook-how-record-quality = Comment enregistrer un extrait vocal de haute qualité ?
+about-playbook-how-record-content-1 = Parlez avec votre voix normale. Votre façon de parler est la bienvenue ici, nous voulons que votre accent soit tel qu’il est, et nous voulons votre volume, votre style et votre intonation habituels.
 about-playbook-how-record-content-2 = Évitez trop de bruit de fond - il devrait être facile de vous entendre.
 about-playbook-how-record-content-3 = Lisez attentivement la phrase - n’oubliez pas, ne modifiez pas ou n’ajoutez pas de mots.
 about-playbook-how-record-content-4 = Assurez-vous que la plateforme enregistre avant de commencer à parler et qu’elle ne s’arrête qu’une fois que vous avez terminé.
+about-playbook-how-record-content-5 = <accuracyLink>En savoir plus sur les critères de précision.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = Comment est-il possible de développer efficacement une langue sur Common Voice ?
+about-playbook-how-grow-language-content-1 = Permettre à une diversité de personnes de contribuer à Common Voice garantit que le jeu de données serve autant de personnes que possible. Nous avons créé des ressources et des modèles que vous pouvez utiliser.
 about-playbook-how-grow-language-content-2 = Évènements
 about-playbook-how-grow-language-content-4 = Réseaux sociaux
 about-playbook-how-grow-language-content-6 = Partenariats et réseaux
+about-playbook-how-grow-language-content-7 = Trouvez d’autres personnes qui s’en soucient. Il pourrait s’agir d’universités, d’écoles de langues, de groupes de défense des droits ou de communautés scientifiques autour des données. Contactez-les et expliquez clairement comment ces structures peuvent aider et pourquoi. <reachTemplates>Consultez nos modèles d’e-mails de sensibilisation</reachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Faites preuve de créativité !</strong> Votre communauté linguistique sera unique, et ce ne sont là que quelques pistes pour commencer.
 
 ## How to validate
 
 about-playbook-how-validate = Comment savoir si un échantillon vocal doit être approuvé ?
+about-playbook-how-validate-content-1 = Si vous arrivez à <strong>les entendre</strong> et <strong>les comprendre</strong>, il est généralement <strong>préférable de les approuver</strong>.
+about-playbook-how-validate-content-2 = <strong>Ne rejetez pas les échantillons où le locuteur/la locutrice « a un accent » différent du vôtre</strong>. C’est important pour que la reconnaissance vocale fonctionne mieux pour tout le monde.
 about-playbook-how-validate-content-4 = Si un clip est rejeté par deux personnes, il est publié dans un sous-ensemble différent du jeu de données.
 
 ## How to access dataset
@@ -576,6 +584,8 @@ about-playbook-how-access-dataset-content-2 = Si vous recherchez des outils pour
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Comment les décisions du projet sont-elles prises ?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice est rendu possible grâce à une communauté diversifiée de militant·e·s, linguistes, data scientists, universitaires et ingénieur·e·s logiciels du monde entier. Le projet est géré par la Fondation Mozilla.
 about-playbook-how-project-governance-content-2 = Notre gouvernance repose sur les piliers suivants :
 about-playbook-how-project-governance-content-3 = Confidentialité, sécurité et transparence.
 about-playbook-how-project-governance-content-4 = Participation communautaire et prise de décisions.

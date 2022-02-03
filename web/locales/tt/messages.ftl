@@ -337,6 +337,7 @@ profile-form-language =
     .label = Тел
 profile-form-accent =
     .label = Акцент
+profile-form-custom-accent-placeholder-2 = Акцентыгызны тасвирлау өчен яза башлагыз
 profile-form-age =
     .label = Яшь
 profile-form-gender-2 =
@@ -381,6 +382,7 @@ skip-submission-description = 'Җибәрү'гә баскач,  мәгълүма
 skip-submission-note = Искәрмә: Ярдәм итү төрен үзгәртү өчен сезгә Сөйләү яки Тыңлауны сайларга кирәк булачак.
 off = Сүнгән
 on = Кабынган
+help-accent = Акцент белән бәйле ярдәм кирәкме?
 
 ## Profile - Email
 
@@ -461,13 +463,24 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Нигә Common Voice?
+how-does-it-work-title-v2 = Common Voice ничек эшли?
 how-does-it-work-text = Без ачык аудиоязма тупланмасын төзибез. Тавышыгызны иганә итегез, башка кешеләр яздырган аудиоязмаларның төгәллеген тикшерегз, бу мәгълүмат тупланмасын һәркем өчен дә яхшыртыгыз.
 
 ## How does it work section
 
+about-language-req-subtitle = Кемдер тел өстәлүен сорый.
 about-localization-title = Вебсайтны тәрҗемә итү
 about-localization-subtitle = Вебсайт тексты бу телгә тәрҗемә ителә.
 about-sentence-collection-title = Җөмләләр тупланмасы
+about-sentence-collection-subtitle = Кешеләр кычкырып укысын өчен җөмләләр җыела.
+about-new-lang-title = Яңа телне эшкә кушу
+about-new-lang-subtitle = Без бу телдә Common Voice сайтын башлап җибәрәбез.
+about-voice-contrib-title = Тавышлап өлеш кертү
+about-voice-validation-title = Тавышларны тикшерү
+about-voice-validation-subtitle = Башка кешеләр бу тавыш клипларын тикшерәләр.
+about-dataset-release-title = Мәгълүмат тупланмасының чыгарылышы
+about-dataset-release-subtitle = Без мәгълүматлар тупланмасын 3 ай саен чыгарабыз.
+about-subscribe-text = Common Voice белән элемтәдә торырга телисезме?
 about-speak = Сөйләү
 about-speak-text = Катнашучылар, иганә ителгән җөмләләрне укып, аудиоязмалар булдыралар.
 about-listen-queue = Тыңлау чираты
@@ -499,10 +512,12 @@ about-nav-why-common-voice = Нигә?
 about-nav-how-it-works = Ничек?
 about-nav-partners = Партнёрлар
 about-nav-get-involved = Катнашу
+about-nav-how-it-works-2 = Common Voice ничек эшли?
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice-та тел нәрсә ул?
 
 ## How do I add a language
 
@@ -510,6 +525,7 @@ about-playbook-how-add-language = Телне ничек өсти алам?
 
 ## How does localization work
 
+about-playbook-how-localize = Сайт тәрҗемәсе ничек эшли?
 
 ## How to add sentences
 
@@ -517,6 +533,7 @@ about-playbook-how-add-sentences = Җөмләләрне өсти алам?
 
 ## How to record quality
 
+about-playbook-how-record-content-5 = <accuracyLink>Төгәллек критерийлары турында күбрәк белү.</accuracyLink>
 
 ## How to grow language
 
@@ -532,6 +549,9 @@ about-playbook-how-grow-language-content-6 = Партнёрлык һәм чел�
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = Хосусыйлык, хәвефсезлек һәм ачыклык.
+about-playbook-how-project-governance-content-5 = Кыйммәт һәм тану.
+about-playbook-how-project-governance-content-6 = Үзара җаваплылык.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Ясалма интеллект
 mycroft-description = Mycroft — дөньяда беренче ачык чыганак кодлы ассистент. Ул һәркайда да эшли ала — өстәл өсте компьютерында, автомобильдә яки Raspberry Pi'да.

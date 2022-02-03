@@ -472,6 +472,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Miért a Common Voice?
+about-header-description-v2 =
+    <p>A Common Voice egy nyilvánosan elérhető hangadatkészlet, amelyet a világ minden tájáról származó önkéntes közreműködők hangja alkot. Azok, akik hangalapú alkalmazásokat készítenek, az adatkészletet a gépi tanulási modellek betanításához használhatják.</p>
+    <p>Jelenleg a legtöbb hangadatkészlet vállalatok tulajdonában van, ami elfojtja az innovációt. A hangadatkészletek szintén felülreprezentálják a fehér, angolul beszélő férfiakat. Ez azt jelenti, hogy a hangalapú technológia egyáltalán nem működik sok nyelven, és ahol működik, előfordulhat, hogy nem mindenkinél teljesít egyformán jól. Ezen szeretnénk változtatni azáltal, hogy mindenhol mozgósítjuk az embereket, hogy megosszák a hangjukat.</p>
 how-does-it-work-title-v2 = Hogyan működik a Common Voice?
 how-does-it-work-text = Közösségi munkában gyűjtjük a hangok nyílt forráskódú készletét. Adja a hangját, ellenőrizze más emberek klipjeinek pontosságát, és tegye mindenki számára jobbá az adatkészletet.
 
@@ -543,6 +546,7 @@ about-playbook-how-add-language = Hogyan adhatok hozzá egy nyelvet?
 about-playbook-how-add-language-content-1 = Először ellenőrizze, hogy <languageLink>már létezik-e</languageLink>. Ha nem, akkor <strong>le kell fordítania a webhelyet, és össze kell gyűjtenie a mondatokat</strong>.
 about-playbook-how-add-language-content-2 = <strong>A webhely lefordításához</strong> <translateVideo>álltysa be</translateVideo> a <pontoonLink>Pontoonon</pontoonLink>. A Pontoon számos nyelvet tartalmaz, de ha nem rendelkezik az Önével, akkor <pontoonRequestLink>kérheti azt</pontoonRequestLink>. Ezután kérje a <repoLink>GitHubon</repoLink> keresztül, hogy tegyék elérhetővé a Common Voice projektet az adott nyelven. További információk a <localizationFragment>webhely fordításáról itt</localizationFragment>.
 about-playbook-how-add-language-content-3 = <strong>A mondatok gyűjtését</strong> <scVideo>állítsa be</scVideo> a <scLink>Mondatgyűjtőben</scLink>.
+about-playbook-how-add-language-content-4 = Itt <scLinkAdd>hozzáadhat kis számú</scLinkAdd> mondatot, vagy használhatja a <bulkImportDocsLink>tömeges importálást</bulkImportDocsLink> egy GitHub-kérés segítségével. Ne feledje hogy a mondatoknak <licenseLink>CC0 licencűnek (vagy közkincsnek)</licenseLink> kell lenniük, de írhat sajátokat is. További információkhoz lásd a <scFragment>mondatgyűjtőt</scFragment>.
 
 ## How does localization work
 
@@ -557,22 +561,49 @@ about-playbook-how-localize-content-5 = A segítséghez tekintse meg a magyaráz
 
 about-playbook-how-add-sentences = Hogyan adhatok hozzá mondatokat?
 about-playbook-how-add-sentences-content-1 = A <strong>mondatgyűjtő</strong> egy eszköz, amely közkincsű mondatok gyűjtésére és ellenőrzésére szolgál. <scAccountLink>Létre kell hoznia egy fiókot</scAccountLink>. Majd adja hozzá a nyelvét a <strong>profiljában</strong>. <strong>Hozzáadhat</strong> mondatokat, vagy <strong>ellenőrizheti</strong> az előzőleg hozzáadottakat.
+about-playbook-how-add-sentences-content-2 = A mondatokat két embernek kell átnéznie és elfogadnia, hogy bekerüljenek a Common Voice-ba. <languageGuidelinesLink>Itt</languageGuidelinesLink> hozhat létre irányelveket az Ön nyelvéhez. A mondatoknak <licenseLink>közkincsnek</licenseLink>, és 15 szónál rövidebbnek kell lenniük. Megkérheti a szöveg tulajdonosát, hogy <waiverLink>CC0 alatt licencelje a lemondási folyamatunk használatával</waiverLink>, majd küldje el nekünk a commonvoice@mozilla.com címre.
+about-playbook-how-add-sentences-content-3 = Használhatja a <scraperLink>Mondatgyűjtőt</scraperLink>, hogy rövid mondatokat vegyen át a Wikipédiáról.
+about-playbook-how-add-sentences-content-4 = Az ellenőrzött mondatok szerdánként kerülnek exportálásra, és a következő kiadás után lesznek elérhetők.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Hogyan rögzíthetek jó minőségű hangfelvételt?
+about-playbook-how-record-content-1 = Beszéljen a normál hangján! Szívesen látjuk az Ön beszédmódját – a megszokott akcentust, hangerőt, stílust és intonációt szeretnénk.
+about-playbook-how-record-content-2 = Kerülje a túl sok háttérzajt – könnyen hallhatónak kell lennie.
+about-playbook-how-record-content-3 = Figyelmesen olvassa fel a mondatot – ne hagyjon ki, ne változtasson és ne adjon hozzá szavakat.
+about-playbook-how-record-content-4 = Mielőtt elkezdené beszélni, győződjön meg arról, hogy a platform rögzíti, és csak akkor áll le, ha befejezte.
+about-playbook-how-record-content-5 = <accuracyLink>További információ a pontossági feltételekről.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Hogyan fejleszthetünk hatékonyan egy nyelvet a Common Voice-ban?
+about-playbook-how-grow-language-content-1 = A lehetőségek megteremtése, hogy sokféle ember működjön közre a Common Voice-ban, biztosítja, hogy az adatkészlet a lehető legtöbb embert szolgálja ki. Olyan forrásokat és sablonokat hoztunk létre, amelyeket Ön is használhat!
+about-playbook-how-grow-language-content-2 = Események
+about-playbook-how-grow-language-content-3 = Rendezvényeket szervezhet, hogy segítse az embereket. Könnyebb, mint gondolná. Megteheti online egy videokonferencia eszközzel, vagy személyesen is, ha az biztonságos. <eventTemplate>Nézze meg sablonjainkat és erőforrásainkat az események megtartásához</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Közösségi média
+about-playbook-how-grow-language-content-5 = Használhatja a közösségi médiát az üzenet eljuttatására. Osszon meg olyan bejegyzéseket, amelyek elmagyarázzák, hogy miért fontos ez, és lépjen kapcsolatba másokkal, akik olyan kérdésekről beszélnek, mint a nyelvi jogok, a hangalapú mesterséges intelligencia vagy a technológiai elfogultság. További tanácsokat talál a <campaignLink>közösségi kampányok futtatásához, és az újrafelhasználható tartalmakkal kapcsolatban</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnerségek és hálózatok
+about-playbook-how-grow-language-content-7 = Keressen másokat, akiket ez érdekel. Ezek lehetnek egyetemek, nyelviskolák, érdekképviseleti csoportok vagy adatelemzői közösségek. Vegye fel a kapcsolatot, és világosan magyarázza el, hogyan tudnak segíteni és miért. <outreachTemplates>Tekintse meg a tájékoztató e-mail-sablonjainkat</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Legyen kreatív!</strong> Nyelvi közössége egyedülálló lesz, és ez csak néhány módszer a kezdéshez.
 
 ## How to validate
 
+about-playbook-how-validate = Honnan tudhatom, hogy jóváhagyjak-e egy hangfelvételt?
+about-playbook-how-validate-content-1 = Ha <strong>hallja</strong> és <strong>megérti őket</strong>, akkor általában az a <strong>legjobb, ha jóváhagyja</strong>.
+about-playbook-how-validate-content-2 = <strong>Ne utasítson el olyan klipeket, melyben a beszélőnek Öntől eltérő akcentusa van</strong> – ez azért fontos, hogy a hangfelismerés mindenki számára jobban működjön.
+about-playbook-how-validate-content-3 = Ha úgy gondolja, hogy a kiejtés <strong>nem érthető</strong>, vagy <strong>nagy a háttérzaj</strong>, vagy <strong>mások is beszélnek</strong>, akkor el kell utasítania a klipet. <accuracyLink>További információkat a pontossági kritériumainkban talál</accuracyLink>.
+about-playbook-how-validate-content-4 = Ha egy klipet 2 személy is elutasít, akkor az az adatkészlet másik részhalmazában kerül kiadásra.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Hogyan érhetem el és használhatom az adatkészletet?
+about-playbook-how-access-dataset-content-1 = Felkeresheti az <datasetsPage>adatkészletek oldalt</datasetsPage>, kiválaszthatja a kívánt verziót és nyelveket, és letöltheti. A fájlok <metadataLink>társított metaadatokat</metadataLink> tartalmaznak, például demográfiai információkat és érvényesítési adatokat. Az adatkészlet letöltéséhez meg kell adnia egy e-mail-címet.
+about-playbook-how-access-dataset-content-2 = Ha eszközöket keres az ASR-modellek felépítéséhez, akkor kapcsolatba léphet más emberekkel a közösségben a <discourseLink>Discourse-on</discourseLink>.
 
 ## How are decisions made
 
 about-playbook-how-project-governance = Hogyan születnek a projektekkel kapcsolatos döntések?
+about-playbook-how-project-governance-content-1 = A Mozilla Common Voice-ot a világ minden tájáról érkező aktivisták, nyelvészek, adatelemzők, akadémikusok és szoftvermérnökök sokszínű közössége teszi lehetővé. A projektet a Mozilla Alapítvány kezeli.
 about-playbook-how-project-governance-content-2 = Az irányításunk ezekre a pillérekre épül:
 about-playbook-how-project-governance-content-3 = Adatvédelem, biztonság és átláthatóság.
 about-playbook-how-project-governance-content-4 = Közösségi részvétel és döntéshozatal.
@@ -1422,3 +1453,5 @@ sc-validation-no-abbreviations = A mondat nem tartalmazhat rövidítéseket
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Válasszon nyelvet/honosítást

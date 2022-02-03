@@ -539,28 +539,49 @@ about-playbook-what-is-language-content-3 = Někotare rěcy maju enormne rozdź�
 ## How do I add a language
 
 about-playbook-how-add-language = Kak mógu rěc pśidaś?
+about-playbook-how-add-language-content-1 = Pśeglědajśo nejpjerwjej, lěc waša rěc <languageLink>južo eksistěrujo</languageLink>. Jolic nic, musyśo <strong>sedło pśełožowaś a sady gromaźiś</strong>.
+about-playbook-how-add-language-content-2 = <strong>Aby sedło pśełožował</strong> – <translateVideo>konfigurěrujśo</translateVideo> na <pontoonLink>Pontoon</pontoonLink>. Pontoon ma wjele rěcow, ale jolic waša rěc tam njejo, móžośo <pontoonRequestLink>póžedanje na nju stajiś</pontoonRequestLink>. Pšosćo pón <repoLink>na GitHub</repoLink>, aby se projekt Common Voice za swóju rěc k dispoziciji stajił. Glejśo dalšne informacije wó <localizationFragment>pśełožowanju sedła</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Aby sady gromaźił</strong> - <scVideo>konfigurěrujśo</scVideo> <scLink>Sentence Collector</scLink>.
 
 ## How does localization work
 
+about-playbook-how-localize = Kak lokalizěrowanje sedłow funkcioněrujo?
+about-playbook-how-localize-content-1 = Pśełožowanje sedła Common Voice se na <strong>Pontoon</strong> wótměwa.
+about-playbook-how-localize-content-4 = Sedło jo gótowe za wózjawjenje, gaž jo pó 75 % dokóńcone.
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Kak mógu sady pśidaś?
+about-playbook-how-add-sentences-content-4 = Sady, kótarež su pśeglědane, se srjodu eksportěruju a su pó pśiducem wózjawjenju k dispoziciji.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Kak mógu głosowy klip we wusokej kwaliśe nagraś?
+about-playbook-how-record-content-3 = Cytajśo sadu kradosćiwje – njewuwostajśo, njezměnjajśo abo njepśidawajśo słowa.
+about-playbook-how-record-content-5 = <accuracyLink>Zgóńśo wěcej wó kriterijach dokradnosći.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Kak móžomy rěx na Common Voice statkownje rosć daś?
+about-playbook-how-grow-language-content-2 = Tšojenja
+about-playbook-how-grow-language-content-4 = Socialne medije
+about-playbook-how-grow-language-content-6 = Partnaŕstwa a seśi
 
 ## How to validate
 
+about-playbook-how-validate = Wótkul wěm, lěc mam głosowy klip pśizwóliś?
+about-playbook-how-validate-content-4 = Jolic klip se wót 2 wósobowu wótpokazujo, wózjawijo se w drugej źělnej sajźbje datoweje sajźby.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Kak mam pśistup k datowej sajźbje a kak mógu ju wužywaś?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Kak se wó projektach rozsuźuju?
+about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transparenca.
+about-playbook-how-project-governance-content-5 = Gódnota a pśipóznaśe.
+about-playbook-how-project-governance-content-6 = Mjazsobna rozpšawniska winowatosć.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kumštna inteligenca
 mycroft-description =
@@ -1109,6 +1130,7 @@ sc-logout-button = Wótzjawiś
 
 ## HOME
 
+sc-home-title = Witajśo k Common Voice Sentence Collector
 sc-home-collect-title = Sady gromaźiś
 sc-home-review-title = Sady pśeglědaś
 
@@ -1126,6 +1148,7 @@ sc-howto-review-criteria-1 = Sada musy pšawje napisana byś.
 sc-howto-review-criteria-2 = Sada musy gramatiski korektna byś.
 sc-howto-review-criteria-3 = Sada musy wugranjajobna byś.
 sc-howto-review-criteria-4 = Jolic sada kriterijam wótpowědujo, klikniśo na tłocašk „Pśizwóliś“.
+sc-howto-review-criteria-5 = Jolic sada kriterijam gorjejce njewótpowědujo, klikniśo na tłocašk „Wótpokazaś“. Jolic se wó saźe wěsty njejsćo, móžośo teke ju pśeskócyś a k pśiducej pśejś.
 sc-howto-review-criteria-6 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
 sc-howto-findpd-title = Zjawne sady namakaś
 sc-howto-findpd-subtitle = Pytajśo w interneśe za nimi
@@ -1164,6 +1187,10 @@ sc-stats-title = Statistika
 sc-stats-last-update = Slědna aktualizacija: { $lastUpdate }
 sc-stats-last-update-never = Slědna aktualizacija: nigdy
 sc-stats-updating = Aktualizěrujo se…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector jo gromaźił { $sentenceCount } sadow w { $languageCount } rěcach!
 
 ## ADD
 
@@ -1253,6 +1280,7 @@ sc-confirm-ready =
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = Njepśeglědane sady: { $countOfUnreviewed }. Jolic cośo, móžośo něnto teke swóje sady pśeglědowaś, nježli až je wótpósćełaśo.
 sc-confirm-button-text = Wobkšuśiś
+sc-confirm-uploading = Sady se nagrawaju. To móžo někotare minuty traś, wótwisujucy wót licby pśidanych sadow. Pšosym njezacynjajśo toś to websedło.
 
 ## LANGUAGE INFO
 
@@ -1337,6 +1365,7 @@ sc-criteria-item-1 = Sada musy pšawje napisana byś.
 sc-criteria-item-2 = Sada musy gramatiski korektna byś.
 sc-criteria-item-3 = Sada musy wugranjajobna byś.
 sc-criteria-item-4 = Jolic sada kriterijam wótpowědujo, klikniśo na tłocašk „Pśizwóliś“.
+sc-criteria-item-5-2 = Jolic sada kriterijam górjejce njewótpowědujo, klikniśo na tłocašk „Wótpokazaś“. Joli se wó saźe wěsty njejsćo, móžośo teke ju pśeskócyś a k pśiducej pśejś.
 sc-criteria-item-6 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
 
 ## REVIEW
@@ -1392,3 +1421,5 @@ sc-validation-no-abbreviations = Sada njeměła skrotconki wopśimowaś
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Rěc/Lokalizaciju wubraś
