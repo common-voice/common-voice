@@ -31,11 +31,11 @@
     .progress-circle {
         transform-origin: center;
         transform: rotate(-90deg);
-        stroke: currentColor;
+        stroke: currentcolor;
     }
 
     text {
-        fill: currentColor;
+        fill: currentcolor;
         font-weight: 600;
     }
 

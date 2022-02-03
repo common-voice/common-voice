@@ -97,7 +97,7 @@
 
 .challenge-title {
     font-weight: normal;
-    font-family: Zilla Slab;
+    font-family: 'Zilla Slab', sans-serif;
     font-size: 20px;
     line-height: 1.4;
 }
@@ -317,19 +317,10 @@
 
     @keyframes rotate {
         from {
-            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
         }
         to {
-            -webkit-transform: rotate(360deg);
-        }
-    }
-
-    @-moz-keyframes rotate {
-        from {
-            -moz-transform: rotate(0deg);
-        }
-        to {
-            -moz-transform: rotate(360deg);
+            transform: rotate(360deg);
         }
     }
 
@@ -456,11 +447,11 @@
             }
             &.star-points-2 {
                 mask-image: url('../awards/star.svg');
-                background: linear-gradient(to top, var(--warm-grey), #cccccc);
+                background: linear-gradient(to top, var(--warm-grey), #ccc);
             }
             &.star-points-3 {
                 mask-image: url('../awards/star.svg');
-                background: linear-gradient(to top, #cccccc, #e7e8ea);
+                background: linear-gradient(to top, #ccc, #e7e8ea);
             }
         }
         & .point {
@@ -524,7 +515,6 @@
         display: flex;
         background-color: var(--lighter-grey);
         border-bottom: 0;
-        display: flex;
         padding: 0 0 10px 20px;
         font-family: var(--base-font-family);
         font-size: 12px;
@@ -605,7 +595,7 @@
     &:hover {
         transition: 0.3s all;
     }
-    &:after {
+    &::after {
         content: '';
         position: absolute;
         width: 100%;
