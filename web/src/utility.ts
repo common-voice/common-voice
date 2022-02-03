@@ -1,3 +1,4 @@
+import '@formatjs/intl-numberformat/polyfill'; // polyfill Intl.NumberFormat
 import { UserClient } from 'common';
 import URLS from './urls';
 
@@ -84,8 +85,9 @@ export function replacePathLocale(pathname: string, locale: string) {
 
 export function getManageSubscriptionURL(account: UserClient) {
   const firstLanguage = account.locales[0];
-  return `https://www.mozilla.org/${firstLanguage ? firstLanguage.locale + '/' : ''
-    }newsletter/existing/${account.basket_token}`;
+  return `https://www.mozilla.org/${
+    firstLanguage ? firstLanguage.locale + '/' : ''
+  }newsletter/existing/${account.basket_token}`;
 }
 
 export const getAudioFormat = (() => {
@@ -124,45 +126,64 @@ export function byteToSize(bytes: number, getString: Function): string {
   return megabytes < 1
     ? Math.round(megabytes * 100) / 100 + ' ' + getString('size-megabyte')
     : megabytes > 1024
-      ? Math.round(megabytes / 1024) + ' ' + getString('size-gigabyte')
-      : Math.round(megabytes) + ' ' + getString('size-megabyte');
+    ? Math.round(megabytes / 1024) + ' ' + getString('size-gigabyte')
+    : Math.round(megabytes) + ' ' + getString('size-megabyte');
 }
 
-export function formatSeconds(totalSeconds: number, precise = false, locale?: string) {
-  const LOCALE = locale || 'en-US'
+export function formatSeconds(
+  totalSeconds: number,
+  precise = false,
+  locale?: string | string[]
+) {
+  const LOCALE = locale || []; //use default locale provided by environment if not provided
   const seconds = totalSeconds % 60;
   const minutes = Math.floor(totalSeconds / 60) % 60;
   const hours = Math.floor(totalSeconds / 3600);
-  console.log("LOCALE", LOCALE)
+
   if (hours >= 1000) {
-    if (precise) return `${hours.toLocaleString()}h`;
-    return (hours / 1000).toPrecision(2) + 'k';
+    if (precise) {
+      return hours.toLocaleString(LOCALE, {
+        style: 'unit',
+        unit: 'hour',
+        unitDisplay: 'narrow',
+      });
+    }
+    return hours.toLocaleString(LOCALE, {
+      notation: 'compact',
+      unitDisplay: 'short',
+    });
   }
 
   const timeParts = [];
 
   if (hours > 0) {
-    timeParts.push(hours.toLocaleString(LOCALE, {
-      style: 'unit',
-      unit: 'hour',
-      unitDisplay: 'narrow'
-    }))
+    timeParts.push(
+      hours.toLocaleString(LOCALE, {
+        style: 'unit',
+        unit: 'hour',
+        unitDisplay: 'narrow',
+      })
+    );
   }
 
   if (hours < 10 && minutes > 0) {
-    timeParts.push(minutes.toLocaleString(LOCALE, {
-      style: 'unit',
-      unit: 'minute',
-      unitDisplay: 'narrow'
-    }))
+    timeParts.push(
+      minutes.toLocaleString(LOCALE, {
+        style: 'unit',
+        unit: 'minute',
+        unitDisplay: 'narrow',
+      })
+    );
   }
 
   if (hours == 0 && minutes < 10 && seconds > 0) {
-    timeParts.push(hours.toLocaleString(LOCALE, {
-      style: 'unit',
-      unit: 'second',
-      unitDisplay: 'narrow'
-    }))
+    timeParts.push(
+      hours.toLocaleString(LOCALE, {
+        style: 'unit',
+        unit: 'second',
+        unitDisplay: 'narrow',
+      })
+    );
   }
   return timeParts.join(' ') || '0';
 }
