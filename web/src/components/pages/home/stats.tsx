@@ -21,6 +21,7 @@ import Plot, {
   TOTAL_LINE_MARGIN,
   Y_OFFSET,
 } from '../../plot/plot';
+import { formatSeconds } from '../../../utility';
 
 import './stats.css';
 
@@ -60,38 +61,13 @@ function StatsCard({
 
 interface PropsFromState {
   api: API;
+  userLocale: string;
 }
 
-const mapStateToProps = ({ api }: StateTree) => ({
+const mapStateToProps = ({ api, locale: userLocale }: StateTree) => ({
   api,
+  userLocale,
 });
-
-function formatSeconds(totalSeconds: number, precise = false) {
-  const seconds = totalSeconds % 60;
-  const minutes = Math.floor(totalSeconds / 60) % 60;
-  const hours = Math.floor(totalSeconds / 3600);
-
-  if (hours >= 1000) {
-    if (precise) return `${hours.toLocaleString()}h`;
-    return (hours / 1000).toPrecision(2) + 'k';
-  }
-
-  const timeParts = [];
-
-  if (hours > 0) {
-    timeParts.push(hours + 'h');
-  }
-
-  if (hours < 10 && minutes > 0) {
-    timeParts.push(minutes + 'm');
-  }
-
-  if (hours == 0 && minutes < 10 && seconds > 0) {
-    timeParts.push(seconds + 's');
-  }
-
-  return timeParts.join(' ') || '0';
-}
 
 // eslint-disable-next-line @typescript-eslint/no-namespace
 export namespace ClipsStats {
@@ -110,10 +86,12 @@ export namespace ClipsStats {
     data,
     labelId,
     attribute,
+    userLocale,
   }: {
     data: any[];
     labelId: string;
     attribute: Attribute;
+    userLocale: string;
   }) => (
     <div className="metric">
       <Localized id={labelId}>
@@ -123,11 +101,11 @@ export namespace ClipsStats {
         attribute={attribute}
         title={
           data.length > 0
-            ? formatSeconds(data[data.length - 1][attribute], true)
+            ? formatSeconds(data[data.length - 1][attribute], true, userLocale)
             : ''
         }>
         {data.length > 0
-          ? formatSeconds(data[data.length - 1][attribute])
+          ? formatSeconds(data[data.length - 1][attribute], false, userLocale)
           : '?'}
       </MetricValue>
     </div>
@@ -252,10 +230,10 @@ export namespace ClipsStats {
           </b>
           <div className="metrics">
             <MetricValue attribute="total">
-              {formatSeconds(total, true)}
+              {formatSeconds(total, true, this.props.userLocale)}
             </MetricValue>
             <MetricValue attribute="valid">
-              {formatSeconds(valid, true)}
+              {formatSeconds(valid, true, this.props.userLocale)}
             </MetricValue>
           </div>
         </>
@@ -272,8 +250,18 @@ export namespace ClipsStats {
         <StatsCard
           header={
             <div className="metrics">
-              <Metric data={data} labelId="hours-recorded" attribute="total" />
-              <Metric data={data} labelId="hours-validated" attribute="valid" />
+              <Metric
+                data={data}
+                labelId="hours-recorded"
+                attribute="total"
+                userLocale={this.props.userLocale}
+              />
+              <Metric
+                data={data}
+                labelId="hours-validated"
+                attribute="valid"
+                userLocale={this.props.userLocale}
+              />
             </div>
           }
           onLocaleChange={this.updateData}>
