@@ -214,7 +214,7 @@ export namespace ClipsStats {
     handleMouseOut = () => this.setState({ hoveredIndex: null });
 
     render() {
-      const { getString } = this.props;
+      const { getString, userLocale } = this.props;
       const { data, hoveredIndex } = this.state;
 
       const datum = data[hoveredIndex];
@@ -222,18 +222,18 @@ export namespace ClipsStats {
       const tooltipContents = datum ? (
         <>
           <b>
-            {new Date(date).toLocaleDateString([], {
+            {new Date(date).toLocaleDateString(userLocale, {
               day: 'numeric',
-              month: 'long',
+              month: 'short',
               year: 'numeric',
             })}
           </b>
           <div className="metrics">
             <MetricValue attribute="total">
-              {formatSeconds(total, true, this.props.userLocale)}
+              {formatSeconds(total, true, userLocale)}
             </MetricValue>
             <MetricValue attribute="valid">
-              {formatSeconds(valid, true, this.props.userLocale)}
+              {formatSeconds(valid, true, userLocale)}
             </MetricValue>
           </div>
         </>
