@@ -473,6 +473,10 @@ how-does-it-work-text = Açık kaynaklı bir ses veri kümesi topluyoruz. Sesini
 
 about-localization-title = Web Sitesi Yerelleştirme
 about-sentence-collection-title = Cümle Toplama
+about-voice-contrib-title = Ses Katkısı
+about-voice-contrib-subtitle = İnsanlar gelip sesleriyle katkıda bulunurlar.
+about-voice-validation-title = Ses Doğrulama
+about-voice-validation-subtitle = Diğer insanlar bu ses kayıtlarını doğrular.
 about-speak = Konuş
 about-speak-text = Katkıda bulunanlar ses kayıtlarını bağışlanan cümle bankasından okuyarak kaydederler.
 about-listen-queue = Dinleme Kuyruğu
@@ -505,16 +509,20 @@ about-nav-why-common-voice = Neden ?
 about-nav-how-it-works = Nasıl ?
 about-nav-partners = İş ortakları
 about-nav-get-involved = Bize katılın
+about-nav-how-it-works-2 = Common Voice nasıl çalışır?
+about-nav-playbook = Nasıl katılacağınızı öğrenin
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice'ta dil nedir?
 
 ## How do I add a language
 
 
 ## How does localization work
 
+about-playbook-how-localize-content-1 = Common Voice sitesinin çevirisi <strong>Pontoon</strong>'da yapılır.
 
 ## How to add sentences
 
@@ -524,6 +532,8 @@ about-nav-get-involved = Bize katılın
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Etkinlikler
+about-playbook-how-grow-language-content-4 = Sosyal medya
 
 ## How to validate
 
@@ -533,6 +543,12 @@ about-nav-get-involved = Bize katılın
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Proje kararları nasıl alınır?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice, dünyanın her yerinden çeşitli aktivistler, dilbilimciler, veri bilimcileri, akademisyenler ve yazılım mühendislerinden oluşan bir topluluğun katkılarıyla mümkün hale gelmiştir. Proje Mozilla Vakfı tarafından yönetilmektedir.
+about-playbook-how-project-governance-content-2 = Yönetişimimiz şu temeller üzerine kurulmuştur:
+about-playbook-how-project-governance-content-3 = Gizlilik, güvenlik ve şeffaflık.
+about-playbook-how-project-governance-content-6 = Karşılıklı hesap verebilirlik.
+about-playbook-how-project-governance-content-7 = <governanceLink>Nasıl yönetildiğimiz hakkında daha fazla bilgi edinin</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Yapay zekâ
 mycroft-description =
@@ -1364,3 +1380,5 @@ sc-validation-no-abbreviations = Cümle kısaltma içermemelidir
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Dil seçin
