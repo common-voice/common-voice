@@ -38,9 +38,9 @@ ba = Kibashkiri
 bas = Kibasaa
 be = Kibelarusi
 bg = Kibulgeria
-bm = Kibambara
 bn = Kibengali
 br = Kibretoni
+bs = Kibosnia
 bxr = Kiburyatia
 ca = Kikatalonia
 cak = Kikiiche
@@ -444,12 +444,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kwanini Common Voice?
-about-subtitle = Common Voice ni hatua ya Mozilla ya kusaidia kufunza mashine jinsi watu wanavyozungumza. Mbali na daftari la Common Voice, pia tunaunda injini ya utambuzi wa sauti ya chanzo wazi inayoitwa Deep Speech.
-about-header-description =
-    Miradi hii yote ni sehemu ya juhudi zetu za kupunguza mgawanyiko wa sauti ya kidigitali. Teknolojia za utambuzi wa sauti huleta mwelekeo wa kibinadamu kwenye vifaa vyetu, lakini watengenezaji programu wanahitaji idadi kubwa ya data ya sauti ili kuzijenga. Hivi sasa, data nyingi ni ghali na ya wamiliki.
-    Tunataka kufanya data ya sauti kupatikana kwa uhuru na kwa umma, na kuhakikisha data inawakilisha utofauti wa watu. Pamoja tunaweza kufanya utambuzi wa sauti kuwa bora kwa kila mtu.
-how-does-it-work-title = inafanyaje kazi
 how-does-it-work-text = Tunachangisha chanzo wazi la daftari la sauti. Toa sauti yako, halalisha usahihi wa vipande vya sauti vya watu wengine, fanya daftari liwe bora kwa kila mtu.
+
+## How does it work section
+
 about-speak = Zungumza
 about-speak-text = Wachangiaji hurekodi vipande vya sauti kwa kusoma kutoka kwa benki ya sentensi zilizotolewa.
 about-listen-queue = Foleni ya kusikiliza
@@ -481,6 +479,34 @@ about-nav-why-common-voice = Kwanini?
 about-nav-how-it-works = kivipi?
 about-nav-partners = Washiriki
 about-nav-get-involved = Jihusishe
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelijensia bandia
 mycroft-description =
@@ -930,3 +956,56 @@ contribution-varying-pronunciations-title = Matamshi tofauti
 contribution-varying-pronunciations-example-1-title = Kichwani alikuwa amevaa bereti.
 contribution-background-noise-title = Kelele za mandharinyuma
 see-more = <chevron></chevron>Angalia zaidi
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
