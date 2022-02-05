@@ -36,9 +36,9 @@ ba = Baxkir
 bas = Basaa
 be = Bielorrusu
 bg = Búlgaru
-bm = Bambara
 bn = Bengalín
 br = Bretón
+bs = Bosniu
 bxr = Buriatu
 ca = Catalán
 cak = Kaqchikel
@@ -447,12 +447,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ¿Por qué Common Voice?
-about-subtitle = Common Voice ye parte de la iniciativa de Mozilla p'ayudar a deprende-yos a máquines cómo falamos los humanos. Arriendes d'eso, tamién tamos creando Deep Speech que ye un motor de reconocencia de voz de códigu abiertu.
-about-header-description =
-    Dambos proyeutos son parte del nuesu esfuerciu d'amenorgar les desigualdaes nel mundu de la voz dixital. Les teunoloxíes de reconocencia de voz dan una dimensión humana a los preseos mas los desendolcadores precisen una cantidá escomanada de datos de voz pa creales. Anguaño, la mayoría d'esos datos son caros y privativos.
-    Queremos facer que los datos de voz seyan abiertos y públicos, y aseguranos de que representen la diversidá de la xente real. Xuntos podemos facer que la reconocencia de voz ameyore pa tol mundu.
-how-does-it-work-title = ¿Cómo funciona?
 how-does-it-work-text = Tamos faciendo n'andecha un conxuntu de datos de voz abiertu. Dona la to voz, valida la precisión de los clips d'otres persones y fai que'l conxuntu de datos seya'l meyor pa tol mundu.
+
+## How does it work section
+
 about-speak = Fala
 about-speak-text = Los collaboradores graben clips de voz lleendo les frases d'un bancu de testos donaos.
 about-listen-queue = Cola d'audición
@@ -485,6 +483,34 @@ about-nav-why-common-voice = ¿Por qué?
 about-nav-how-it-works = ¿Cómo?
 about-nav-partners = Socios
 about-nav-get-involved = Andecha
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelixencia artificial
 mycroft-description = Mycroft ye'l primer asistente de códigu abiertu del mundu y pue executase en cualesquier llugar (ordenador, coche o nuna Raspberry Pi).
@@ -582,8 +608,6 @@ subscribe = Soscribise
 get-started-speech = Introducción a la reconocencia de voz
 other-datasets = Otros conxuntos de datos de voz
 feedback-q = ¿Tienes comentarios?
-deepspeech-info = El conxuntu de datos de Common Voice complementa al motor de reconocencia de voz de códigu abiertu Deep Speech que pues usar pa crear aplicaciones que reconozan la voz. Llei la nuesa <githubLink>descripción xeneral en Github</githubLink> o xúnite al <discourseLink>Discourse de DeepSpeech</discourseLink> pa saber cómo entamar.
-common-voice-info-new = ¿Tienes entrugues tocante a Common Voice?¿idees, ameyores o comentarios tocante a una llingua n'especial? Xúnite al foru <discourseLink>Discourse</discourseLink> y fala con nós.
 data-other-librispeech-description = LibriSpeech ye un corpus de 1000 hores aproximadamente a 16Khz de llectura d'audiollibros n'inglés del proyeutu LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fízose a partir de los audios de charres y les sos trescripciones disponibles nel sitiu web TED.
@@ -859,6 +883,9 @@ why-delete-recordings =
     ¿Pues dicinos por qué quies desaniciar les tos grabaciones?
 profile-form-delete = Desaniciu del perfil
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = ¡Afayáivos, personal de { $company }!
@@ -906,3 +933,57 @@ demo-dashboard-card-body = Pa cada clip de voz donáu y validáu, los paneles de
 ## Validation criteria
 
 contribution-volume-title = Volume
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+sc-settings-title = Axustes
+
+# [/SentenceCollector]
+
