@@ -240,18 +240,18 @@ all-locales = Бөтенесе
 today = Бүген
 x-weeks-short =
     { $count ->
-        [one] атна
+        [one] Атна
        *[other] { $count } атна
     }
 x-months-short =
     { $count ->
-        [one] ай
-       *[other] { $count } ай
+        [one] Ай
+       *[other] { $count } Monate
     }
 x-years-short =
     { $count ->
-        [one] ел
-       *[other] ел
+        [one] Ел
+       *[other] { $count } ел
     }
 help-make-dataset = Безгә югары сыйфатлы, һәркемгә ачык мәгълүмат тупланмасын булдырырга ярдәм итегез
 sign-up-account = Аккаунт булдырыр өчен теркәлегез
