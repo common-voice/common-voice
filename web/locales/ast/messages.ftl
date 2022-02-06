@@ -941,9 +941,15 @@ contribution-volume-title = Volume
 
 ## HEADER/FOOTER
 
+sc-login-signup-button = Aniciar sesión / Rexistrase
+sc-logout-button = Zarrar la sesión
 
 ## HOME
 
+sc-home-title = Afáyate nel recoyedor de frases de Common Voice
+sc-home-intro = El recoyedor de frases ye parte de <commonVoiceLink>Common Voice</commonVoiceLink>. Permite que los collaboradores recueyan y validen les frases creaes pola comunidá. Tamién pues usar esta ferramienta pa importar y encuriosar un corpus públicu de tamañu mediu qu'atopares o creares. Toles frases tienen de ser de dominiu públicu. Les frases aprobaes espórtense cada selmana al depósitu de Common Voice y espublícense na páxina de Common Voice cada distribución nueva.
+sc-home-collect-title = Recoyer frases
+sc-home-collect-text = Ayúdanos pente la escritura o recoyida de frases de dominiu públicu.
 
 ## HOW-TO
 
