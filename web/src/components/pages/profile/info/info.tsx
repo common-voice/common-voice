@@ -7,6 +7,7 @@ import * as React from 'react';
 import Downshift from 'downshift';
 import { useCallback, useEffect, useState } from 'react';
 import { Redirect, RouteComponentProps, withRouter } from 'react-router';
+import { Tooltip } from 'react-tippy';
 import { useAction, useAPI } from '../../../../hooks/store-hooks';
 import { NATIVE_NAMES } from '../../../../services/localization';
 import { trackProfile } from '../../../../services/tracker';
@@ -31,8 +32,9 @@ import { Accent, UserAccentLocale } from 'common';
 
 import './info.css';
 
+// TODO: remove pick
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const pick = require('lodash.pick');
-const { Tooltip } = require('react-tippy');
 
 // Types for Downshift haven't caught up yet. Can be removed in the future
 const Input = LabeledInput as any;
@@ -92,14 +94,8 @@ function ProfilePage({
     sendEmails: false,
     privacyAgreed: false,
   });
-  const {
-    username,
-    visible,
-    age,
-    gender,
-    sendEmails,
-    privacyAgreed,
-  } = userFields;
+  const { username, visible, age, gender, sendEmails, privacyAgreed } =
+    userFields;
   const [userAccentLocales, setUserAccentLocales] = useState<UserAccentLocales>(
     []
   );
@@ -158,14 +154,14 @@ function ProfilePage({
     setUserAccentLocales(account ? account.locales : userAccentLocales);
   }, [user]);
 
-  const handleChangeFor = (field: string) => ({
-    target,
-  }: React.ChangeEvent<any>) => {
-    setUserFields({
-      ...userFields,
-      [field]: target.type == 'checkbox' ? target.checked : target.value,
-    });
-  };
+  const handleChangeFor =
+    (field: string) =>
+    ({ target }: React.ChangeEvent<HTMLInputElement>) => {
+      setUserFields({
+        ...userFields,
+        [field]: target.type == 'checkbox' ? target.checked : target.value,
+      });
+    };
 
   const getAutocompleteAccents = (locale: string) => {
     return accentsAll[locale]
@@ -296,6 +292,8 @@ function ProfilePage({
       )}
       {!user.account && (
         <Localized id="thanks-for-account">
+          {/* Localized injects content into child tag */}
+          {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
           <h2 />
         </Localized>
       )}
@@ -357,6 +355,7 @@ function ProfilePage({
             <Options>{GENDERS}</Options>
           </LabeledSelect>
         </Localized>
+
         {userAccentLocales.map(({ locale, accents }, i) => (
           <div className="accent-wrap" key={i}>
             <Localized id="profile-form-language" attrs={{ label: true }}>
@@ -446,8 +445,8 @@ function ProfilePage({
                         className={isOpen ? 'downshift-open' : ''}>
                         {options.map((item, index) => (
                           <li
+                            key={item.name}
                             {...getItemProps({
-                              key: item.name,
                               index,
                               item,
                               style: {
@@ -493,6 +492,7 @@ function ProfilePage({
           </div>
         ))}
       </div>
+
       <div className="add-language-section">
         {userAccentLocales.length > 0 ? (
           <div
@@ -544,8 +544,8 @@ function ProfilePage({
           <div className="signup-section">
             <Tooltip
               arrow
-              html={getString('change-email-setings')}
-              theme="grey-tooltip">
+              html={<>{getString('change-email-setings')}</>}
+              theme="dark">
               <Localized id="email-input" attrs={{ label: true }}>
                 <LabeledInput value={user.userClients[0].email} disabled />
               </Localized>
