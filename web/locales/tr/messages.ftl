@@ -36,7 +36,6 @@ ba = Başkurtça
 bas = Basaa
 be = Belarusça
 bg = Bulgarca
-bm = Bambara
 bn = Bengalce
 br = Bretonca
 bs = Boşnakça
@@ -468,15 +467,16 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Neden Common Voice?
-about-subtitle = Common Voice, Mozilla'nın makinelere gerçek insanların nasıl konuştuğunu öğretme girişiminin bir parçasıdır. Common Voice veri kümesine ek olarak, Deep Speech adlı açık kaynaklı bir konuşma tanıma motoru da geliştiriyoruz.
-about-header-description =
-    Bu projelerin her ikisi de dijital konuşma ayrımını kapatma çabalarımızın bir parçası. Ses tanıma teknolojileri cihazlarımıza insani bir boyut getiriyor ancak geliştiricilerin bunları oluşturmak için çok büyük miktarda ses verisine ihtiyaçları var. Şu anda, bu verilerin çoğu pahalı ve tescilli.
-    Ses verilerini özgür ve herkese açık hale getirmek ve verilerin gerçek insanların çeşitliliğini temsil ettiğinden emin olmak istiyoruz. Birlikte ses tanımayı herkes için daha iyi hale getirebiliriz.
-about-header-description-2 =
-    Bu proje dijital konuşma ayrımını kapatma çabalarımızın bir parçası. Ses tanıma teknolojileri cihazlarımıza insani bir boyut getiriyor ancak geliştiricilerin bunları oluşturmak için çok büyük miktarda ses verisine ihtiyaçları var. Şu anda, bu verilerin çoğu pahalı ve tescilli.
-    Ses verilerini özgür ve herkese açık hale getirmek ve verilerin gerçek insanların çeşitliliğini temsil ettiğinden emin olmak istiyoruz. Birlikte ses tanımayı herkes için daha iyi hale getirebiliriz.
-how-does-it-work-title = Nasıl çalışıyor?
 how-does-it-work-text = Açık kaynaklı bir ses veri kümesi topluyoruz. Sesinizi bağışlayın, diğer kişilerin kayıtlarının doğruluğunu doğrulayın, veri kümesini herkes için daha iyi hale getirin.
+
+## How does it work section
+
+about-localization-title = Web Sitesi Yerelleştirme
+about-sentence-collection-title = Cümle Toplama
+about-voice-contrib-title = Ses Katkısı
+about-voice-contrib-subtitle = İnsanlar gelip sesleriyle katkıda bulunurlar.
+about-voice-validation-title = Ses Doğrulama
+about-voice-validation-subtitle = Diğer insanlar bu ses kayıtlarını doğrular.
 about-speak = Konuş
 about-speak-text = Katkıda bulunanlar ses kayıtlarını bağışlanan cümle bankasından okuyarak kaydederler.
 about-listen-queue = Dinleme Kuyruğu
@@ -509,6 +509,46 @@ about-nav-why-common-voice = Neden ?
 about-nav-how-it-works = Nasıl ?
 about-nav-partners = İş ortakları
 about-nav-get-involved = Bize katılın
+about-nav-how-it-works-2 = Common Voice nasıl çalışır?
+about-nav-playbook = Nasıl katılacağınızı öğrenin
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Common Voice'ta dil nedir?
+
+## How do I add a language
+
+
+## How does localization work
+
+about-playbook-how-localize-content-1 = Common Voice sitesinin çevirisi <strong>Pontoon</strong>'da yapılır.
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = Etkinlikler
+about-playbook-how-grow-language-content-4 = Sosyal medya
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance = Proje kararları nasıl alınır?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice, dünyanın her yerinden çeşitli aktivistler, dilbilimciler, veri bilimcileri, akademisyenler ve yazılım mühendislerinden oluşan bir topluluğun katkılarıyla mümkün hale gelmiştir. Proje Mozilla Vakfı tarafından yönetilmektedir.
+about-playbook-how-project-governance-content-2 = Yönetişimimiz şu temeller üzerine kurulmuştur:
+about-playbook-how-project-governance-content-3 = Gizlilik, güvenlik ve şeffaflık.
+about-playbook-how-project-governance-content-6 = Karşılıklı hesap verebilirlik.
+about-playbook-how-project-governance-content-7 = <governanceLink>Nasıl yönetildiğimiz hakkında daha fazla bilgi edinin</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Yapay zekâ
 mycroft-description =
@@ -1340,3 +1380,5 @@ sc-validation-no-abbreviations = Cümle kısaltma içermemelidir
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Dil seçin

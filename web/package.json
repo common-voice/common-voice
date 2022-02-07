@@ -47,6 +47,7 @@
     "@peculiar/webcrypto": "^1.2.3",
     "@sentry/browser": "^5.10.2",
     "@testing-library/react": "^12.1.2",
+    "@testing-library/react-hooks": "^7.0.2",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.4.0",
     "@types/jest-axe": "^3.5.3",

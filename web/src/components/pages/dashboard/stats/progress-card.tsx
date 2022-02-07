@@ -16,7 +16,7 @@ import { CircleProgress, Fraction } from '../ui';
 
 import './progress-card.css';
 
-interface Props {
+export interface Props {
   type: 'speak' | 'listen';
   locale: string;
   personalCurrent?: number;
