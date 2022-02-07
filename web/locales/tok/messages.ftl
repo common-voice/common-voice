@@ -2,6 +2,7 @@
 
 yes-receive-emails = mi wile e ni: o pana e sona pi ilo Common Voice
 stayintouch = lon kulupu Mozilla la, mi mute li pali e ilo pi toki kalama. mi mute li wile e ni: sina pana e ijo sin, e sona sin, e kepeken sina pi ilo ni tawa mi mute.
+return-to-cv = o tawa ilo Common Voice
 submit-form-action = o pana
 loading = o awen...
 email-opt-in-info-title = o kama jo e lipu tan ilo Common Voice
@@ -15,7 +16,11 @@ not-available-abbreviation = ala
 
 ## Languages
 
+ab = toki Asuwa
+ar = toki Alapi
 az = toki Asepajan
+bs = toki Posan
+ca = toki Catala
 da = toki Tansi
 de = toki Tosi
 en = toki Inli
@@ -24,9 +29,19 @@ es = toki Epanja
 fi = toki Sumi
 fr = toki Kanse
 he = toki Iwisi
+hy-AM = toki Aja
+hyw = toki Aja Wesa
 ia = toki Intelinwa
 ie = toki Intelinwe
 it = toki Italija
+ja = toki Nijon
+ko = toki Anku, toki Soson
+mn = toki Monko
+nl = toki Netelan
+pl = toki Posuka
+pt = toki Potuke
+ru = toki Losi
+so = toki Somalija
 sv-SE = toki Sensa
 tl = toki Takalo
 tr = toki Tuki
@@ -47,13 +62,22 @@ languages = toki
 about = sona
 profile = lipu jan
 help = o pona e mi
+contact = o toki tawa jan lawa
+privacy = sona len
+terms = lawa kepeken
 faq = wile sona pi jan mute
 share-title = jan sin li ken pana e toki ona. o kama e jan sin!
+share-text = sina wile pana e sona toki tawa ilo la, o pana e toki uta sina lon lipu { $link }
+link-copied = sina kama jo e nimi nasin
+back-top = o tawa sewi
+logout = o weka tan ilo
 
 ## Home Page
 
 home-cta = o toki, o pana lon ilo ni!
+help-us-title = o pona e sitelen!
 no-clips-to-validate = toki ni li jo ala e kalama awen. wile la, o awen e kalama sina.
+vote-yes = pona
 vote-no = ala
 toggle-play-tooltip = o pilin e nena { shortcut-play-toggle } la, o kute. pilin sin la, o kute ala.
 speak-subtitle = o pana e toki uta sina
@@ -83,9 +107,11 @@ email-subscription-title = o kama jo e lipu sin
 
 ## Account Benefits
 
+benefits = pona tan ilo ni
 
 ## What's public
 
+username-optin-public = sina ken len e nimi sina. sina ken pana e nimi sina.
 
 ## Speak & Listen Shortcuts
 
@@ -95,12 +121,35 @@ email-subscription-title = o kama jo e lipu sin
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = o awen e kalama / o pini
+shortcut-rerecord-toggle-label = o kalama sin
+shortcut-discard-ongoing-recording = weka
+shortcut-discard-ongoing-recording-label = o weka e kalama ni
+shortcut-submit-label = o pana e kalama
+request-language-text = toki sina li lon ala lon ilo Common Voice?
+request-language-text-learn = o sona e nasin pana pi toki sin lon ni!
+request-language-button = o wile e toki sin
 
 ## ProjectStatus
 
+status-contribute = o pana e toki uta sina
+english = toki Inli
 
 ## ProfileForm
 
+profile-form-username =
+    .label = nimi
+profile-form-native-language =
+    .label = toki mama
+profile-form-language =
+    .label = toki
+hidden = len
+visible = len ala
+native-language =
+    .label = toki mama
+profile-form-add-accent = o pana e nasin kalama toki sin "{ $inputValue }"
+profile-form-submit-save = o awen e ni
+profile-form-submit-saved = ona li awen
 
 ## Profile - Email
 
