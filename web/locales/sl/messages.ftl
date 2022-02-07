@@ -445,6 +445,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Zakaj Common Voice?
+how-does-it-work-title-v2 = Kako Common Voice deluje?
 how-does-it-work-text = Ustvarjamo odprtokodni glasovni nabor podatkov. Prispevajte svoj glas in preverite točnost posnetkov drugih ljudi, da bo nabor podatkov boljši za vsakogar.
 
 ## How does it work section
@@ -515,6 +516,7 @@ about-playbook-how-grow-language-content-6 = Partnerstva in mreže
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = Zasebnost, varnost in preglednost.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Umetna inteligenca
 mycroft-description =
@@ -1032,6 +1034,11 @@ sc-login-err-try-again = Poskusite znova.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Jezika ni bilo mogoče odstraniti: jezika ni bilo mogoče najti
+sc-personal-err-remove = Jezika ni bilo mogoče odstraniti
 sc-personal-your-languages = Vaši jeziki:
 sc-personal-remove-button = odstrani
 
@@ -1040,6 +1047,10 @@ sc-personal-remove-button = odstrani
 
 ## REVIEW
 
+sc-review-loading = Nalaganje stavkov …
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Vir: { $sentenceSource }
 sc-review-form-button-reject = Zavrni
 sc-review-form-button-skip = Preskoči
 sc-review-form-button-approve = Odobri
@@ -1048,6 +1059,11 @@ sc-review-form-button-approve = Odobri
 
 sc-settings-title = Nastavitve
 sc-settings-ui-language = Jezik vmesnika
+sc-settings-show-all-button = Ponovno prikaži vse preskočene stavke
+sc-settings-failed = Nastavitev ni bilo mogoče spremeniti. Poskusite znova.
+sc-validation-no-numbers = Stavek ne sme vsebovati številk
+sc-validation-no-symbols = Stavek ne sme vsebovati simbolov
+sc-validation-no-abbreviations = Stavek ne sme vsebovati krajšav
 
 # [/SentenceCollector]
 
