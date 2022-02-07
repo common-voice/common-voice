@@ -227,10 +227,19 @@ about-no-votes = pona ala tan jan 2
 about-clip-graveyard = kalama awen weka
 about-clip-graveyard-text = lipu pi kalama weka li jo e kalama awen. kalama awen li ike lon lipu ni, li pana ala tawa kulupu kalama pi ilo Common Voice. sina ken kama jo e kalama weka.
 about-partners = jan poka, kulupu poka
+about-become-a-partner = o kama poka tawa ilo Common Voice
+about-get-involved = o kama, o pali
+about-stay-in-touch = mi sona e ijo sin kepeken nasin seme?
+about-nav-why-common-voice = tan seme?
+about-nav-how-it-works = nasin seme?
+about-nav-partners = jan poka, kulupu poka
+about-nav-get-involved = o kama, o pali
+about-nav-how-it-works-2 = ilo Common Voice li pali kepeken nasin seme?
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = toki li seme lon ilo Common Voice?
 
 ## How do I add a language
 
