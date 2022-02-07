@@ -21,13 +21,18 @@ de = toki Tosi
 en = toki Inli
 eo = toki Epelanto
 es = toki Epanja
+fi = toki Sumi
+fr = toki Kanse
 he = toki Iwisi
 ia = toki Intelinwa
 ie = toki Intelinwe
 it = toki Italija
 sv-SE = toki Sensa
+tl = toki Takalo
 tr = toki Tuki
+ug = toki Wiku
 ur = toki Utu
+vi = toki Wije
 zh-CN = toki Sonko
 zh-TW = toki Tawan
 
@@ -43,9 +48,24 @@ about = sona
 profile = lipu jan
 help = o pona e mi
 faq = wile sona pi jan mute
+share-title = jan sin li ken pana e toki ona. o kama e jan sin!
 
 ## Home Page
 
+home-cta = o toki, o pana lon ilo ni!
+all-locales = ale
+today = tenpo suno ni
+x-months-short =
+    { $count ->
+       *[other] mun { $count }
+    }
+x-years-short =
+    { $count ->
+       *[other] sike { $count }
+    }
+help-make-dataset = o pona e ni: mi mute li pali e sona mute pona.
+sign-up-account = o kama jo e lipu lawa
+email-subscription-title = o kama jo e lipu sin
 
 ## Account Benefits
 
