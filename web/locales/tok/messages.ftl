@@ -109,7 +109,6 @@ email-subscription-title = o kama jo e lipu sin
 
 ## Account Benefits
 
-benefits = pona tan ilo ni
 
 ## What's public
 
@@ -235,6 +234,7 @@ about-nav-how-it-works = nasin seme?
 about-nav-partners = jan poka, kulupu poka
 about-nav-get-involved = o kama, o pali
 about-nav-how-it-works-2 = ilo Common Voice li pali kepeken nasin seme?
+about-nav-playbook = o sona e nasin pi pana pona
 
 ## Community Playbook Content
 ## What is a language
@@ -243,18 +243,25 @@ about-playbook-what-is-language = toki li seme lon ilo Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = nasin seme la mi ken pana e toki sin?
 
 ## How does localization work
 
+about-playbook-how-localize-content-4 = lipu li pini 75% la, lipu li ken open.
+about-playbook-how-localize-content-5 = sina wile e pona la, o lukin e sitelen tawa ni
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = nasin seme la mi ken pana e sitelen?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = tenpo suli
+about-playbook-how-grow-language-content-4 = kulupu pi jan toki
+about-playbook-how-grow-language-content-6 = jan poka en kulupu
 
 ## How to validate
 
@@ -267,12 +274,22 @@ about-playbook-what-is-language = toki li seme lon ilo Common Voice?
 
 ## Glossary
 
+glossary = lipu nimi
+sentence-collection = kama jo sitelen
 
 ## Error pages
 
+error-code = pakala { $code }
 
 ## Data
 
+data-download-button = o kama jo e sona pi ilo Common Voice
+data-download-yes = wile
+data-download-deny = ala
+data-other-title = kulupu sona ante pi toki uta
+data-other-goto = tawa lipu { $name }
+dataset-date = tenpo
+license-mixed = wan
 
 ## Datasets Page
 
