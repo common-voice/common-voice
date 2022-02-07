@@ -159,22 +159,45 @@ goals = wile suli
 settings = nasin ilo
 profile-close = o pini
 why-demographic = ni li suli tan seme?
+accept-privacy = ni li pona: sina jo e sona mi, kepeken nasin tan <privacyLink>nasin sona</privacyLink> pi kulupu Mozilla
 accept-privacy-title = nasin sona pi ilo ni
 login-identity = nimi lon sina
 login-signup = o kama / o pali e lipu sin
 edit = o ante
+download-profile = o kama jo e sona mi
 
 ## Profile - Email
 
+browse-file-title = o pana e sitelen lukin
+connect-gravatar = o kepeken ilo Gravatar
+gravatar_not_found = ilo Gravatar sina li lon ala
+file_too_large = lipu sina li suli mute la, sina ken ala pana
 
 ## Profile - Email
 
+add-language = o pana e toki sin
 
 ## FAQ
 
+faq-title = wile sona tan jan mute
+faq-what-cv-q = ilo Common Voice li seme?
+faq-why-important-q = ni li suli tan seme?
+faq-how-get-q = nasin seme la mi kama jo e sona pi ilo Common Voice?
+faq-do-want-native-q = toki ni li toki mama mi ala. sina wile ala wile e toki uta mi?
+faq-why-different-speakers-q = tan seme la sina wile e jan toki mute?
+faq-why-my-lang-q = tan seme la toki mi li lon ala?
+faq-how-calc-hours-q = ilo Common Voice li nanpa e tenpo kalama kepeken nasin seme?
+faq-why-account-q = tan seme la mi o kama tawa ilo ni?
+faq-is-account-public-q = sona pi lipu mi li len ala len?
+faq-what-is-cv = ilo Common Voice li seme?
+faq-using-cv = o kepeken ilo Common Voice
+faq-search-for-answers =
+    .label = o alasa e sona
 
 ## ABOUT US
 
+about-title = ilo Common Voice li tan seme?
+how-does-it-work-title-v2 = ilo Common Voice li pali kepeken nasin seme?
 
 ## How does it work section
 
