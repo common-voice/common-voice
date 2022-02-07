@@ -209,6 +209,7 @@ about-is-it-valid-text = jan li pana e pona tawa kalama awen la, ona li pona.
 about-yes-votes = pona tan jan 2
 about-no-votes = pona ala tan jan 2
 about-clip-graveyard = kalama awen weka
+about-clip-graveyard-text = lipu pi kalama weka li jo e kalama awen. kalama awen li ike lon lipu ni, li pana ala tawa kulupu kalama pi ilo Common Voice. sina ken kama jo e kalama weka.
 about-partners = jan poka, kulupu poka
 
 ## Community Playbook Content
