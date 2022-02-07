@@ -150,6 +150,19 @@ native-language =
 profile-form-add-accent = o pana e nasin kalama toki sin "{ $inputValue }"
 profile-form-submit-save = o awen e ni
 profile-form-submit-saved = ona li awen
+male = mije
+female = meli
+why-profile-title = mi wile e lipu tan seme?
+dashboard = lipu suli
+build-profile = o pali e lipu sina
+goals = wile suli
+settings = nasin ilo
+profile-close = o pini
+why-demographic = ni li suli tan seme?
+accept-privacy-title = nasin sona pi ilo ni
+login-identity = nimi lon sina
+login-signup = o kama / o pali e lipu sin
+edit = o ante
 
 ## Profile - Email
 
