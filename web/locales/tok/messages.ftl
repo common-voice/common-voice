@@ -200,6 +200,8 @@ faq-do-want-native-q = toki ni li toki mama mi ala. sina wile ala wile e toki ut
 faq-why-different-speakers-q = tan seme la sina wile e jan toki mute?
 faq-why-my-lang-q = tan seme la toki mi li lon ala?
 faq-how-calc-hours-q = ilo Common Voice li nanpa e tenpo kalama kepeken nasin seme?
+faq-where-src-from-2-q = sitelen mama li tan seme?
+faq-why-not-ask-read-q = sina pana ala e toki tan lipu Wikipedia anu lipu ante tan seme?
 faq-why-account-q = tan seme la mi o kama tawa ilo ni?
 faq-is-account-public-q = sona pi lipu mi li len ala len?
 faq-what-is-cv = ilo Common Voice li seme?
@@ -214,6 +216,7 @@ how-does-it-work-title-v2 = ilo Common Voice li pali kepeken nasin seme?
 
 ## How does it work section
 
+about-localization-title = ante toki lipu
 about-speak = o toki
 about-listen-queue = kulupu kute
 about-listen = o kute
