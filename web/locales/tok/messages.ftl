@@ -338,12 +338,27 @@ request-language-title = wile pi toki sin
 request-language-form-language =
     .label = toki
 request-language-success-title = wile pi toki sin sina li pona. sina pona.
+select-language = o kepeken toki
+other-language = toki ante
 
 ## Languages Overview
 
+language-section-in-progress = pali toki li lon
+language-section-launched = open!
+languages-show-more = o lukin mute
+languages-show-less = o lukin lili
+language-total-progress = ale
+language-search-input =
+    .placeholder = o alasa
+sentences = sitelen
 
 ## Contribution
 
+action-click = o pilin
+action-tap = o pilin
+contribute = o pona
+listen = o kute
+skip = o weka
 
 ## Reporting
 
