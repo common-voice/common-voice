@@ -980,9 +980,18 @@ sc-logout-button = Odjava
 
 ## MY SENTENCES
 
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Prispevek: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Vir:  { $source }
+sc-my-delete = Izbriši izbrane stavke
+sc-my-deleting = Brisanje izbranih stavkov …
 
 ## REJECTED
 
+sc-rejected-title = Zavrnjeni stavki
 
 ## STATS
 
@@ -996,11 +1005,19 @@ sc-stats-updating = Posodabljanje …
 ## ADD
 
 sc-submit-err-select-lang = Izberite jezik.
+sc-submit-err-add-source = Prosimo, dodajte vir.
+sc-submit-err-confirm-pd = Prosimo, potrdite, da so ti stavki v javni domeni.
+sc-submit-title = Dodaj stavke
 sc-submit-select-language =
     .labelText = Izberi jezik
+sc-submit-add-sentences = Dodaj stavke <wikipediaLink>v javni domeni</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = En stavek na vrstico
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Dodaj jezik
+sc-add-err-unexpected = Strežnik je vrnil nepričakovan odgovor
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1010,6 +1027,8 @@ sc-submit-select-language =
 
 ## LOGIN
 
+sc-login-err-failed = Prijava ni uspela
+sc-login-err-try-again = Poskusite znova.
 
 ## PROFILE
 
