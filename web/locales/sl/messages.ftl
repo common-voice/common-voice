@@ -36,7 +36,6 @@ ba = baškirščina
 bas = basa
 be = beloruščina
 bg = bolgarščina
-bm = bambarščina
 bn = bengalščina
 br = bretonščina
 bs = bosanščina
@@ -446,9 +445,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Zakaj Common Voice?
-about-subtitle = Common Voice je del Mozilline pobude, ki pomaga učiti stroje, kako ljudje govorijo. Poleg nabora podatkov Common Voice gradimo tudi odprtokodni mehanizem za prepoznavanje govora, imenovan Deep Speech.
-how-does-it-work-title = Kako deluje
 how-does-it-work-text = Ustvarjamo odprtokodni glasovni nabor podatkov. Prispevajte svoj glas in preverite točnost posnetkov drugih ljudi, da bo nabor podatkov boljši za vsakogar.
+
+## How does it work section
+
 about-speak = Govori
 about-speak-text = Sodelujoči posnamejo glasovne posnetke iz nabora zbranih stavkov.
 about-listen-queue = Poslušaj – Čakalna vrsta
@@ -481,6 +481,40 @@ about-nav-why-common-voice = Zakaj?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partnerji
 about-nav-get-involved = Pridružite se
+about-nav-how-it-works-2 = Kako Common Voice deluje?
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Kaj je jezik za Common Voice?
+
+## How do I add a language
+
+about-playbook-how-add-language = Kako dodam jezik?
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = Dogodki
+about-playbook-how-grow-language-content-4 = Družbena omrežja
+about-playbook-how-grow-language-content-6 = Partnerstva in mreže
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Umetna inteligenca
 mycroft-description =
