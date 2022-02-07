@@ -388,19 +388,45 @@ report-grammar-or-spelling-detail = sitelen li pakala.
 report-different-language = toki ante
 report-different-language-detail = toki mi la, sitelen li kepeken toki ante.
 report-difficult-pronounce = kalama toki li ike
+report-difficult-pronounce-detail = sitelen li jo e toki pi kalama ike, e toki pi ike lukin
 report-offensive-speech = toki ike
 report-offensive-speech-detail = kalama awen li jo e toki ike.
+report-other-comment =
+    .placeholder = o toki
 success = pona
 report-success = sina pana e sona pakala.
 
 ## Goals
 
+days =
+    { $count ->
+       *[other] tenpo suno
+    }
 
 ## Dashboard
 
+your-languages = toki sina
+goal-reached = sina pini!
+clips-you-recorded = kalama awen sina
+clips-you-validated = kalama awen pi pona sina
+you = sina
+everyone = jan ale
+top-contributors = jan pana pi nanpa wan
+recorded-clips = kalama awen
+validated-clips = kalama awen pona
 
 ## Custom Goals
 
+both-speak-and-listen = tu
+both-speak-and-listen-long = tu (o toki, o kute)
+daily-goal = pini suli pi tenpo suno ale
+weekly-goal = pini suli pi tenpo esun ale
+easy-difficulty = pona
+average-difficulty = pona ala, ike ala
+difficult-difficulty = ike
+pro-difficulty = ike suli
+how-many-per-day = pona! tenpo suno wan la sina pali e kalama awen pi nanpa seme?
+how-many-a-week = pona! tenpo esun wan la sina pali e kalama awen pi nanpa seme?
 
 ## Profile Delete
 
