@@ -36,6 +36,7 @@ ie = toki Intelinwe
 it = toki Italija
 ja = toki Nijon
 ko = toki Anku, toki Soson
+mg = toki Malekasi
 mn = toki Monko
 nl = toki Netelan
 pl = toki Posuka
@@ -43,6 +44,7 @@ pt = toki Potuke
 ru = toki Losi
 so = toki Somalija
 sv-SE = toki Sensa
+te = toki Teluku
 tl = toki Takalo
 tr = toki Tuki
 ug = toki Wiku
@@ -152,11 +154,16 @@ profile-form-submit-save = o awen e ni
 profile-form-submit-saved = ona li awen
 male = mije
 female = meli
+# Gender
+other = ante
 why-profile-title = mi wile e lipu tan seme?
 dashboard = lipu suli
 build-profile = o pali e lipu sina
+avatar = sitelen sinpin
 goals = wile suli
 settings = nasin ilo
+edit-profile = o ante e lipu sina
+profile-create-success = pona, sina pali e lipu!
 profile-close = o pini
 why-demographic = ni li suli tan seme?
 accept-privacy = ni li pona: sina jo e sona mi, kepeken nasin tan <privacyLink>nasin sona</privacyLink> pi kulupu Mozilla
@@ -165,6 +172,9 @@ login-identity = nimi lon sina
 login-signup = o kama / o pali e lipu sin
 edit = o ante
 download-profile = o kama jo e sona mi
+off = ala
+on = wile
+help-accent = sina wile ala wile e pona tawa nasin kalama toki?
 
 ## Profile - Email
 
@@ -172,6 +182,8 @@ browse-file-title = o pana e sitelen lukin
 connect-gravatar = o kepeken ilo Gravatar
 gravatar_not_found = ilo Gravatar sina li lon ala
 file_too_large = lipu sina li suli mute la, sina ken ala pana
+avatar-uploaded = sina pana e sitelen sinpin
+max-file-size = suli ken li suli KB { $kb }
 
 ## Profile - Email
 
@@ -183,6 +195,7 @@ faq-title = wile sona tan jan mute
 faq-what-cv-q = ilo Common Voice li seme?
 faq-why-important-q = ni li suli tan seme?
 faq-how-get-q = nasin seme la mi kama jo e sona pi ilo Common Voice?
+faq-what-cv-and-deepspeech-q = ilo Common Voice en ilo Deep Speech la ante li seme?
 faq-do-want-native-q = toki ni li toki mama mi ala. sina wile ala wile e toki uta mi?
 faq-why-different-speakers-q = tan seme la sina wile e jan toki mute?
 faq-why-my-lang-q = tan seme la toki mi li lon ala?
