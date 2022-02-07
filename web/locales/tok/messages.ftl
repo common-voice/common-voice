@@ -201,6 +201,15 @@ how-does-it-work-title-v2 = ilo Common Voice li pali kepeken nasin seme?
 
 ## How does it work section
 
+about-speak = o toki
+about-listen-queue = kulupu kute
+about-listen = o kute
+about-is-it-valid = kalama awen li pona ala pona?
+about-is-it-valid-text = jan li pana e pona tawa kalama awen la, ona li pona.
+about-yes-votes = pona tan jan 2
+about-no-votes = pona ala tan jan 2
+about-clip-graveyard = kalama awen weka
+about-partners = jan poka, kulupu poka
 
 ## Community Playbook Content
 ## What is a language
