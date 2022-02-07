@@ -359,9 +359,39 @@ action-tap = o pilin
 contribute = o pona
 listen = o kute
 skip = o weka
+record-cta = o open e awen kalama
+record-platform-not-supported = ilo sina li ken ala kepeken ilo Common Voice
+record-no-mic-found = ilo kute li lon ala
+record-error-too-short = kalama awen li lili mute la, ona li pakala.
+record-error-too-long = kalama awen li suli mute la, ona li pakala.
+record-error-too-quiet = kalama pi toki uta li lili la, kalama awen li pakala.
+record-cancel = o weka e kalama awen sin
+record-three-more-instruction = o pini e tu wan taso!
+record-last-instruction = <recordIcon></recordIcon> wan taso li lon!
+record-abort-title = wan la, o pini e kalama awen anu seme?
+record-abort-submit = o pana e kalama awen
+record-abort-continue = o pini kalama
+speak-empty-state-cta = o pana e sitelen
+record-button-label = o awen e toki uta sina
+target-segment-add-voice = o pana e toki uta sina
+target-segment-learn-more = o kama sona
 
 ## Reporting
 
+report = o toki e pakala
+report-title = o pana e toki pakala
+report-ask = pakala seme li lon sitelen ni?
+report-offensive-language = toki ike
+report-offensive-language-detail = sitelen li jo e nimi ike.
+report-grammar-or-spelling = toki pakala
+report-grammar-or-spelling-detail = sitelen li pakala.
+report-different-language = toki ante
+report-different-language-detail = toki mi la, sitelen li kepeken toki ante.
+report-difficult-pronounce = kalama toki li ike
+report-offensive-speech = toki ike
+report-offensive-speech-detail = kalama awen li jo e toki ike.
+success = pona
+report-success = sina pana e sona pakala.
 
 ## Goals
 
