@@ -309,15 +309,35 @@ language = toki
 # File size in gigabytes
 size = suli
 number-of-voices = nanpa pi jan toki
+size-gigabyte = GB
+size-megabyte = MB
+download-language = o kama jo e toki { $language }
+go-discourse = o tawa lipu toki
+go-languages-page = o tawa lipu toki
+ready-to-validate = sina wile ala wile pona e kalama awen?
+more = o mute
+close = o pini
+download = o kama jo
 
 ## Download Modal
 
+download-title = kama jo sina li open
+download-no = mi wile ala e ni
 
 ## Contact Modal
 
+contact-form-name =
+    .label = nimi
+contact-form-message =
+    .label = toki
+contact-required = * la, o pana
 
 ## Request Language Modal
 
+request-language-title = wile pi toki sin
+request-language-form-language =
+    .label = toki
+request-language-success-title = wile pi toki sin sina li pona. sina pona.
 
 ## Languages Overview
 
