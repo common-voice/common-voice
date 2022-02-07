@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useEffect, useRef, useState } from 'react';
-import { useAction, useStickyState } from '../../hooks/store-hooks';
+import { useAction, useLocalStorageState } from '../../hooks/store-hooks';
 import { Notifications } from '../../stores/notifications';
 import { CrossIcon } from '../ui/icons';
 import { LinkButton } from '../ui/ui';
@@ -54,7 +54,7 @@ export default function NotificationBanner({
   const el = useRef(null);
   const storageKey =
     notification.kind == 'banner' && notification.bannerProps.storageKey;
-  const [hide, setHide] = useStickyState(false, storageKey);
+  const [hide, setHide] = useLocalStorageState(false, storageKey);
 
   function hideBanner(storageKey?: string) {
     setShow(false);

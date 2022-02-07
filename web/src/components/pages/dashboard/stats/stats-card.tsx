@@ -4,10 +4,14 @@ import { useState, useEffect } from 'react';
 import LanguageSelect, {
   ALL_LOCALES,
 } from '../../../language-select/language-select';
+import { useLocalStorageState } from '../../../../hooks/store-hooks';
 
 import './stats-card.css';
 
+const DEFAULT_LOCALE_OPTION = ALL_LOCALES;
+
 export default function StatsCard({
+  id,
   className,
   title,
   iconButtons,
@@ -17,20 +21,26 @@ export default function StatsCard({
   scrollable,
   currentLocale,
 }: {
+  id?: string;
   className?: string;
   title: string;
   iconButtons?: React.ReactNode;
   overlay?: React.ReactNode;
-  tabs?: { [label: string]: (props: { locale?: string }) => any };
+  tabs?: { [label: string]: (props: { locale?: string }) => any }; // eslint-disable-line @typescript-eslint/no-explicit-any
   challenge?: boolean;
   scrollable?: boolean;
   currentLocale?: string;
 }) {
-  const [locale, setLocale] = useState(ALL_LOCALES);
+  const [locale, setLocale] = useLocalStorageState(DEFAULT_LOCALE_OPTION, id);
   const [selectedTab, setSelectedTab] = useState(Object.keys(tabs)[0]);
-  useEffect(() => setLocale(currentLocale ? currentLocale : ALL_LOCALES), [
-    currentLocale,
-  ]);
+  const isDefaultOptionSelected = locale === DEFAULT_LOCALE_OPTION;
+
+  // handle site wide locale change
+  useEffect(() => {
+    if (isDefaultOptionSelected && currentLocale) {
+      setLocale(currentLocale);
+    }
+  }, [currentLocale]);
 
   return (
     <div
@@ -44,6 +54,8 @@ export default function StatsCard({
             <h2 className="challenge-title">{title}</h2>
           ) : (
             <Localized id={title}>
+              {/* Localized injects content into child component */}
+              {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
               <h2 />
             </Localized>
           )}
@@ -78,7 +90,9 @@ export default function StatsCard({
           )}
         </div>
         <div className="content">
-          {tabs[selectedTab]({ locale: locale == ALL_LOCALES ? null : locale })}
+          {tabs[selectedTab]({
+            locale: isDefaultOptionSelected ? null : locale,
+          })}
         </div>
       </div>
     </div>
