@@ -216,6 +216,10 @@ how-does-it-work-title-v2 = ilo Common Voice li pali kepeken nasin seme?
 ## How does it work section
 
 about-localization-title = ante toki lipu
+about-new-lang-title = pana pi toki sin
+about-voice-contrib-title = pana pi toki uta
+about-voice-validation-title = kute pi toki uta
+about-subscribe-text = sina wile ala wile sona e ijo sin tan ilo Common Voice?
 about-speak = o toki
 about-listen-queue = kulupu kute
 about-listen = o kute
@@ -290,9 +294,21 @@ data-other-title = kulupu sona ante pi toki uta
 data-other-goto = tawa lipu { $name }
 dataset-date = tenpo
 license-mixed = wan
+terms-agree = mi wile
+terms-disagree = mi wile ala
+review-aborted = sina pana ala. sina wile ala wile weka e kalama awen sina?
+review-submit-title = o kute, o pana
+review-recording = o kute
+review-rerecord = o awen e kalama sin
+review-cancel = o weka e ijo pana
+review-delete-recordings = o weka e kalama awen mi
 
 ## Datasets Page
 
+language = toki
+# File size in gigabytes
+size = suli
+number-of-voices = nanpa pi jan toki
 
 ## Download Modal
 
