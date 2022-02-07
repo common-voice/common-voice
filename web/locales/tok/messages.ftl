@@ -53,6 +53,20 @@ share-title = jan sin li ken pana e toki ona. o kama e jan sin!
 ## Home Page
 
 home-cta = o toki, o pana lon ilo ni!
+no-clips-to-validate = toki ni li jo ala e kalama awen. wile la, o awen e kalama sina.
+vote-no = ala
+toggle-play-tooltip = o pilin e nena { shortcut-play-toggle } la, o kute. pilin sin la, o kute ala.
+speak-subtitle = o pana e toki uta sina
+speak-goal-text = kalama awen
+listen-subtitle = o pona e toki uta
+listen-goal-text = kalama awen pona
+hours-recorded = kalama awen pi tenpo suli
+hours-validated = kalama pona pi tenpo suli
+voices-online = jan li lon lon tenpo suno ni
+todays-progress = sin pi tenpo suno ni
+help-reach-goal = o pona e wile ni: { $goal }
+read-terms-q = sina lukin ala lukin e lawa kepeken pi ilo ni?
+ready-to-record = sina wile ala wile pana e toki uta sina?
 all-locales = ale
 today = tenpo suno ni
 x-months-short =
