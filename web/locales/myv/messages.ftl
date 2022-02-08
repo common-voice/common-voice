@@ -36,7 +36,6 @@ ba = Печказонь кель
 bas = Басаань кель
 be = Беларузонь кель
 bg = Болгариянь кель
-bm = Бамбарань кель
 bn = Бенгалинь кель
 br = Бретононь кель
 bxr = Бурятонь кель
@@ -430,8 +429,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Мезекс «Common Voice»?
-about-subtitle = «Common Voice» те Мозиллань ушодксонзо пельксэзэ, конаньсэ тонавты машинат кортамо алкукс ломанень ладсо. Common Voice данной пурнавксто башка, минь тейтяно вайгелень содамо машина, лемезэ «Deep Speech» (эрзякс Домка Кортамо), сонзэ кодозо олясо -- весенень панжадо.
-how-does-it-work-title = Кода «Common Voice» тевесь моли?
+
+## How does it work section
+
 about-speak = Кортак
 about-speak-text = Лезксэнь максыцятне сёрмадыть эсь вайгельсэ клипть валрисьмень пурнавксонь ловнозь.
 about-listen-queue = Кунсоломань чипола
@@ -461,6 +461,34 @@ about-nav-why-common-voice = Мезекс ?
 about-nav-how-it-works = Кода ?
 about-nav-partners = Ялгат
 about-nav-get-involved = Кундамс вейсэнь тевс
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Шкинезь прев
 mycroft-description = Mycroft -- масторлангонь васенце вайгель марто лездыця, конань панжадо кодозо. Mycroft важоди эрьва косо -- компьюторсо, автомобильсэ или Raspberry Pi-сэ.
@@ -932,3 +960,60 @@ contribution-just-unsure-title = Ансяк Кавтолдат?
 contribution-just-unsure-description = Понгиндеряй истямо тев, конадо неть тевень ветямотнесэ арась кортамо, инескеть, каяк вайгелеть эсеть паро превсэ. Бути алкукс а арсеви тенть, кодамо вайгель каямс, лепштика «вакска ютамонь» повненть ды кундак сыця вайгелень сёрмадовксос.
 see-more = <chevron></chevron>Неемс седе ламо
 see-less = <chevron></chevron>Неемс седе аламо
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+sc-howto-review-criteria-1 = Валрисьменть валонзо эрявить сёрмадомс видестэ.
+sc-howto-review-criteria-2 = Валрисьмесэнть иляст уле грамматикань ильведевкст.
+sc-howto-review-criteria-3 = Валрисьмесь ёвтавикс улезэ.
+
+## MY SENTENCES
+
+sc-my-err-failed-delete = Кочказь валрисьметне эзть нардаво… Варчака одов!
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
