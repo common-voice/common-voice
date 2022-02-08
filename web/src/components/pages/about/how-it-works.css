@@ -58,8 +58,8 @@
                 overflow: visible;
                 display: block;
 
-                &:before,
-                &:after {
+                &::before,
+                &::after {
                     width: 50vw;
                     position: absolute;
                     height: 100%;
@@ -71,7 +71,7 @@
             .more-next-overlay {
                 left: calc(50vw - 1rem);
 
-                &:before {
+                &::before {
                     content: '';
                     background: linear-gradient(
                         270deg,
@@ -79,7 +79,7 @@
                         rgba(255, 255, 255, 0)
                     );
                 }
-                &:after {
+                &::after {
                     content: '';
                     background: url('./images/chevron-right.svg') no-repeat
                         right 10px center;
@@ -88,7 +88,7 @@
 
             .more-previous-overlay {
                 left: 0;
-                &:before {
+                &::before {
                     content: '';
                     background: linear-gradient(
                         90deg,
@@ -96,7 +96,7 @@
                         rgba(255, 255, 255, 0)
                     );
                 }
-                &:after {
+                &::after {
                     content: '';
                     background: url('./images/chevron-left.svg') no-repeat 10px
                         center;
@@ -134,7 +134,6 @@
         height: 65px;
         text-align: center;
         line-height: 65px;
-        background: white;
         position: absolute;
         left: -30px;
         top: 30px;
@@ -142,6 +141,7 @@
         color: #1570ef;
         font-weight: 600;
         background: url('./images/hex.svg') no-repeat;
+        background-color: white;
         background-size: contain;
         &.done {
             background-image: url('./images/hex-done.svg');

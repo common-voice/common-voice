@@ -39,7 +39,7 @@
         }
 
         &.active {
-            &:before {
+            &::before {
                 content: '';
                 position: absolute;
                 top: 0;
@@ -125,7 +125,7 @@
         .about-playbook-content {
             padding: 2rem;
             background: var(--lighter-grey);
-            box-shadow: 0px 4px 8px var(--darker-grey);
+            box-shadow: 0 4px 8px var(--darker-grey);
 
             @media (--sm-down) {
                 box-shadow: 0;

@@ -139,7 +139,7 @@
         min-width: auto;
         max-width: 200px;
         font-weight: normal;
-        color: #666666;
+        color: #666;
         background: #f9f9f8;
 
         &:disabled {
@@ -161,7 +161,7 @@
         }
 
         & path {
-            fill: #666666;
+            fill: #666;
         }
     }
 
