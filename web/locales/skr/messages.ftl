@@ -94,6 +94,10 @@ sv-SE = سویڈش
 sw = سواحلی
 ta = تامل
 te = تیلگو
+tg = تاجک
+th = تھائی
+ur = اردو
+uz = اُزبک
 
 # [/]
 
@@ -167,13 +171,34 @@ shortcut-rerecord-toggle = [1-5]
 
 ## ProjectStatus
 
+english = انگریزی
 
 ## ProfileForm
 
+profile-form-username =
+    .label = ورتݨ ناں
+profile-form-native-language =
+    .label = مقامی زبان
+profile-form-additional-language =
+    .label = وادھوں زبان
 profile-form-language =
     .label = زبان
 profile-form-accent =
     .label = لہجہ
+profile-form-age =
+    .label = عمر
+profile-form-gender-2 =
+    .label = جنس
+hidden = لکا ہویا
+visible = ظاہر
+native-language =
+    .label = مقامی زبان
+profile-form-submit-save = محفوظ
+profile-form-submit-saved = محفوظ تھیا
+male = مرد
+female = تریمت
+# Gender
+other = ٻیا
 
 ## Profile - Email
 
@@ -189,6 +214,10 @@ profile-form-accent =
 
 ## How does it work section
 
+about-listen = سݨو
+about-nav-why-common-voice = کیوں؟
+about-nav-how-it-works = کین٘ویں؟
+about-nav-get-involved = نال رلت کرو
 
 ## Community Playbook Content
 ## What is a language
@@ -220,24 +249,49 @@ profile-form-accent =
 
 ## Glossary
 
+localization = مقامیت
 
 ## Error pages
 
 
 ## Data
 
+data-download-yes = جیا
+data-download-deny = کو
+release-version = ورشن
+dataset-date = تریخ
+license = لائسنس: <licenseLink>{ $license }</licenseLink>
+terms-agree = میں متفق ہاں
 
 ## Datasets Page
 
+language = زبان
+# File size in gigabytes
+size = سائز
+cv-license = لائسنس
+size-gigabyte = جی بی
+size-megabyte = ایم بی
+more = ٻئے
+close = بند کرو
+download = ڈاؤن لوڈ
+dataset-version = ورشن
 
 ## Download Modal
 
 
 ## Contact Modal
 
+contact-form-name =
+    .label = ناں
+contact-form-message =
+    .label = سنیہا
+contact-required = *ضروری ہے
 
 ## Request Language Modal
 
+request-language-title = زبان ارداس
+request-language-form-language =
+    .label = زبان
 
 ## Languages Overview
 
