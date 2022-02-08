@@ -1,8 +1,9 @@
 import * as React from 'react';
 
-const Icon = (path: string, title = '') => ({ children, ...props }: any) => (
-  <img src={path} title={title} {...props} />
-);
+const Icon =
+  (path: string, title = '') =>
+  ({ children, ...props }: any) =>
+    <img src={path} title={title} {...props} />;
 
 let idCounter = 0;
 function uniqueIcon(component: (id: number, props: any) => React.ReactNode) {
@@ -346,7 +347,7 @@ export const HeartIcon = () => (
 
 export const CloseIcon = ({ black, ...props }: any) => {
   const RealIcon = Icon(require(`./icons/close${black ? '-black' : ''}.svg`));
-  return <RealIcon {...props} />;
+  return <RealIcon alt="" {...props} />;
 };
 
 export const CloudIcon = uniqueIcon(id => (
