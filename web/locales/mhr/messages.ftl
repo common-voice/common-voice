@@ -467,6 +467,8 @@ about-speak-text = Ушнышо-влак йӱкан клипым надырлы�
 about-listen-queue = Колышташлан черет
 about-listen = Колышташ
 about-is-it-valid = Тиде клипым чын возымо?
+about-yes-votes = ≥2 «туге»
+about-no-votes = ≥2 «уке»
 about-dataset-new = Common Voice датасет
 about-clip-graveyard = Клип шӱгар
 about-get-involved = Ушнаш
@@ -613,6 +615,7 @@ total-hours = Тергыме шагат
 ## Contribution
 
 action-tap = Темдал
+contribute = Надырлаш
 listen = Колышташ
 skip = Коден каяш
 clips-with-count-pluralized =
