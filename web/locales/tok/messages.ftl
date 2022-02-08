@@ -77,6 +77,7 @@ logout = o weka tan ilo
 ## Home Page
 
 home-cta = o toki, o pana lon ilo ni!
+show-wall-of-text = o lukin e toki mute
 help-us-title = o pona e sitelen!
 no-clips-to-validate = toki ni li jo ala e kalama awen. wile la, o awen e kalama sina.
 vote-yes = pona
@@ -95,6 +96,10 @@ read-terms-q = sina lukin ala lukin e lawa kepeken pi ilo ni?
 ready-to-record = sina wile ala wile pana e toki uta sina?
 all-locales = ale
 today = tenpo suno ni
+x-weeks-short =
+    { $count ->
+       *[other] esun { $count }
+    }
 x-months-short =
     { $count ->
        *[other] mun { $count }
@@ -109,9 +114,11 @@ email-subscription-title = o kama jo e lipu sin
 
 ## Account Benefits
 
+view-goals = sina ken lukin e mute pi pali sina, e wile pali sina, e wile pali kulupu.
 
 ## What's public
 
+whats-public = ale li ken lukin e seme?
 username-optin-public = sina ken len e nimi sina. sina ken pana e nimi sina.
 
 ## Speak & Listen Shortcuts
@@ -119,10 +126,12 @@ username-optin-public = sina ken len e nimi sina. sina ken pana e nimi sina.
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = o kalama / o pini
 
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = o awen e kalama / o pini
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = o kalama sin
 shortcut-discard-ongoing-recording = weka
 shortcut-discard-ongoing-recording-label = o weka e kalama ni
@@ -269,9 +278,11 @@ about-playbook-how-grow-language-content-6 = jan poka en kulupu
 
 ## How to validate
 
+about-playbook-how-validate-content-4 = kalama awen li weka tan jan 2 la, ilo li pana e ona tawa kulupu sona ante.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = mi lukin e sona ale pi ilo Common Voice kepeken nasin seme?
 
 ## How are decisions made
 
@@ -361,6 +372,8 @@ listen = o kute
 skip = o weka
 record-cta = o open e awen kalama
 record-platform-not-supported = ilo sina li ken ala kepeken ilo Common Voice
+record-platform-not-supported-desktop = lon ilo sona supa la, sina ken pana tan kama jo pi …
+record-must-allow-microphone = o wile e ken pi ilo kute sina.
 record-no-mic-found = ilo kute li lon ala
 record-error-too-short = kalama awen li lili mute la, ona li pakala.
 record-error-too-long = kalama awen li suli mute la, ona li pakala.
@@ -371,6 +384,11 @@ record-last-instruction = <recordIcon></recordIcon> wan taso li lon!
 record-abort-title = wan la, o pini e kalama awen anu seme?
 record-abort-submit = o pana e kalama awen
 record-abort-continue = o pini kalama
+record-abort-delete = o pini, o weka e kalama awen
+listen-again-instruction = sina pona! <playIcon></playIcon> sina ken la, o kute sin
+listen-3rd-time-instruction = tu li pini!
+listen-last-time-instruction = wan taso li lon!
+speak-empty-state = sitelen pi toki ni li lon ala. ni la sina ken ala kalama awen e ona.
 speak-empty-state-cta = o pana e sitelen
 record-button-label = o awen e toki uta sina
 target-segment-add-voice = o pana e toki uta sina
@@ -402,10 +420,15 @@ days =
     { $count ->
        *[other] tenpo suno
     }
+recordings =
+    { $count ->
+       *[other] kalama awen
+    }
 
 ## Dashboard
 
 your-languages = toki sina
+toward-next-goal = tawa pini suli sin
 goal-reached = sina pini!
 clips-you-recorded = kalama awen sina
 clips-you-validated = kalama awen pi pona sina
@@ -425,17 +448,41 @@ easy-difficulty = pona
 average-difficulty = pona ala, ike ala
 difficult-difficulty = ike
 pro-difficulty = ike suli
+cant-decide = sina wile anu seme?
 how-many-per-day = pona! tenpo suno wan la sina pali e kalama awen pi nanpa seme?
 how-many-a-week = pona! tenpo esun wan la sina pali e kalama awen pi nanpa seme?
+which-goal-type = sina wile toki, anu kute, anu ni tu?
+goal-interval-weekly = tenpo esun
+share-goal-type-speak = toki
+share-goal-type-listen = kute
+share-goal-type-both = toki en kute
+weekly-goal-created = sina pali e pini suli pi tenpo esun ale!
+daily-goal-created = sina pali e pini suli pi tenpo suno ale!
+share-goal = o pana e pini suli
 
 ## Profile Delete
 
+keep = o jo
+remove = o weka
+profile-form-delete = o weka e lipu jan
 
 ## Profile Download
 
+download-q = sina wile kama jo e sona sina anu seme?
+download-profile-title = lipu jan
+download-recordings-title = kalama awen
+download-size = suli
+download-selected = lawa
+download-request = o wile e kalama awen
+download-requests = wile pi kalama awen tan tenpo pini
+download-request-button = o kama jo
+download-request-assembling-description = lipu sina li kama kulupu. o lukin lon tenpo kama.
+download-request-refresh-button = o sin
+download-request-modal-title = nasin nimi pi kama jo
 
 ## Landing
 
+welcome-staff = kama pona tawa jan pi kulupu { $company }!
 
 ## DemoLayout
 
@@ -445,9 +492,12 @@ how-many-a-week = pona! tenpo esun wan la sina pali e kalama awen pi nanpa seme?
 
 ## Demo Account
 
+demo-account-sign-up = o kama jo e nimi nasin kama
 
 ## Demo Contribute
 
+demo-contribute-card-header = sina ken ala ken pana e kalama uta sina anu kute sina?
+demo-listen-subtitle = sina wile ala wile pana?
 
 ## Demo Dashboard
 
