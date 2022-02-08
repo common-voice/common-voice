@@ -697,6 +697,11 @@ validated-clips = Тергыме клип-влак
 
 ## Custom Goals
 
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] клип
+       *[other] клип
+    }
 share-goal-type-speak = Кутырышо
 share-goal-type-listen = Колыштмаш
 share-goal-type-both = Кутыраш да колышташ
@@ -738,6 +743,7 @@ download-request-title = { $created }
 
 ## DemoLayout
 
+demo-welcome = Common Voice-ыш пагален ӱжына
 
 ## Demo Datasets
 
@@ -753,6 +759,7 @@ demo-account = Аккаунт
 
 ## Demo Contribute
 
+demo-listen-subtitle = Надырлаш ямде улат?
 
 ## Demo Dashboard
 
@@ -768,6 +775,9 @@ contribution-criteria-nav = Висык
 
 ## HEADER/FOOTER
 
+sc-header-review = Ончен лекмаш
+sc-header-rejected = Ӧрдыжтарыме ойлончо-влак
+sc-header-my = Ойлончо-влакем
 sc-header-statistics = Иктешлымаш
 sc-header-profile = Профиль
 sc-footer-discourse = Каҥашымаш
@@ -789,6 +799,7 @@ sc-howto-review-title = Ойлончо-влакым ончен лек
 sc-howto-review-subtitle = Ойлончо нине висык-влаклан келшен толеш манын, ӱшане:
 sc-howto-review-criteria-1 = Ойлончо чын возымо лийшаш.
 sc-howto-review-criteria-2 = Ойлончо грамматике шотышто чын лийшаш.
+sc-howto-review-criteria-6 = Тыйын ончашлан ойлончо пытен гын, порылий, мыланна шукырак ойлончым погаш полшо!
 sc-howto-findpd-subtitle = Нуным интернетыште кычал
 
 ## MY SENTENCES
