@@ -446,6 +446,8 @@ about-title = Мезекс «Common Voice»?
 
 ## How does it work section
 
+about-language-req-subtitle = Кияк веши келень совавтомс
+about-sentence-collection-title = Валрисьмень пурнамо
 about-speak = Кортак
 about-speak-text = Лезксэнь максыцятне сёрмадыть эсь вайгельсэ клипть валрисьмень пурнавксонь ловнозь.
 about-listen-queue = Кунсоломань чипола
