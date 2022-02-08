@@ -466,10 +466,21 @@ easy-difficulty = pona
 average-difficulty = pona ala, ike ala
 difficult-difficulty = ike
 pro-difficulty = ike suli
+lose-goal-progress-warning = sina ante e pini suli sina la, ijo ale pi pini suli li weka tan ni.
+want-to-continue = sina wile ala wile pini?
+finish-editing = wan la, o pini e ante sina anu seme?
+lose-changes-warning = sina weka la, ante sina li weka
+build-custom-goal = o pali e pini suli sin
+set-a-goal = o pali e pini suli
 cant-decide = sina wile anu seme?
 how-many-per-day = pona! tenpo suno wan la sina pali e kalama awen pi nanpa seme?
 how-many-a-week = pona! tenpo esun wan la sina pali e kalama awen pi nanpa seme?
 which-goal-type = sina wile toki, anu kute, anu ni tu?
+n-clips-pluralized =
+    { NUMBER($count) ->
+       *[other] kalama awen { $count }
+    }
+confirm-goal = o wile e pini suli
 goal-interval-weekly = tenpo esun
 share-goal-type-speak = toki
 share-goal-type-listen = kute
@@ -491,6 +502,7 @@ download-profile-title = lipu jan
 download-recordings-title = kalama awen
 download-size = suli
 download-selected = lawa
+download-start = o kama jo e sona pi lipu jan
 download-request = o wile e kalama awen
 download-requests = wile pi kalama awen tan tenpo pini
 download-request-button = o kama jo
@@ -504,9 +516,12 @@ welcome-staff = kama pona tawa jan pi kulupu { $company }!
 
 ## DemoLayout
 
+demo-get-started = o open
+demo-welcome = kama pona tawa ilo Common Voice
 
 ## Demo Datasets
 
+demo-language-select-label = o lukin e toki
 
 ## Demo Account
 
@@ -530,12 +545,21 @@ demo-listen-subtitle = sina wile ala wile pana?
 
 ## HEADER/FOOTER
 
+sc-header-rejected = sitelen weka
+sc-header-my = sitelen mi
+sc-header-profile = lipu jan
+sc-footer-privacy = sona len
+sc-login-signup-button = o kama / o pali e lipu sin
 
 ## HOME
 
 
 ## HOW-TO
 
+sc-howto-title = nasin seme?
+sc-howto-addlang-title = o pana e toki sin
+sc-howto-addsen-title = o pana e sitelen sin
+sc-howto-review-title = o lukin e sitelen
 
 ## MY SENTENCES
 
