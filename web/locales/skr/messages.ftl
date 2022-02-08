@@ -62,6 +62,8 @@ gom = گوآن کونکانی
 ha = ہوسا
 he = عبرانی
 hi = ہندی
+hu = ہنگرین
+hy-AM = آرمینی
 id = انڈونیشی
 ig = اگبو
 is = آئی لینڈی
@@ -103,6 +105,8 @@ pa-IN = پنجابی
 pl = پولش
 ps = پشتو
 pt = پرتگیزی
+ro = رومانی
+ru = روسی
 shi = شلہا
 si = سنہالی
 sk = سلواک
@@ -116,6 +120,10 @@ ta = تامل
 te = تیلگو
 tg = تاجک
 th = تھائی
+tk = ترکمانی
+tl = ٹیگ لاگ
+tr = ترکی
+tt = تاتار
 ur = اردو
 uz = اُزبک
 
@@ -219,12 +227,18 @@ male = مرد
 female = تریمت
 # Gender
 other = ٻیا
+settings = ترتیباں
+profile-close = بند کرو
+accept-privacy-title = رازداری پالیسی
+off = بند
+on = چالو
 
 ## Profile - Email
 
 
 ## Profile - Email
 
+add-language = زبان شامل کرو
 
 ## FAQ
 
