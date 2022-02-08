@@ -649,18 +649,68 @@ days =
         [one] кече
        *[other] кече
     }
+recordings =
+    { $count ->
+        [one] возымаш
+       *[other] возымаш
+    }
+validations =
+    { $count ->
+        [one] чынлымаш
+       *[other] чынлымаш
+    }
 
 ## Dashboard
 
+your-languages = Йылме-влакет
+toward-next-goal = Вес шумлык деке
+goal-reached = Шумлык деке шумо
+clips-you-recorded = Тыйын возымо клип-влак
+clips-you-validated = Тыйын тергыме клип-влак
+todays-recorded-progress = Тачысе возымо клип-влакым йӱкаҥдымаште ончыко кайымаш
+todays-validated-progress = Тачысе клип-влакым йӱкаҥдымашым чынлымаште ончыко кайымаш
+stats = Иктешлымаш
+awards = Суаптар
+you = Тый
+everyone = Кеч-могай
 
 ## Custom Goals
 
+share-goal-type-speak = Кутырышо
+share-goal-type-listen = Колыштмаш
+share-goal-type-both = Кутыраш да колышташ
+weekly-goal-created = Кажне арнялан шумлыкет ышталтын
+daily-goal-created = Кежне кечылан шумлыкет ышталтын
+track-progress = Ончыко кайымашым тыште да шке иктешлымаш велыжыштет эскере.
+return-to-edit-goal = Кеч-могай жапыште шке шумлыкетым редактироватлаш манын, тышке пӧртыл.
+share-goal = Шке шумлык дене пайлалташ
 
 ## Profile Delete
 
+keep = Кучо
+remove = Кораҥдаш
+profile-form-delete = Профильым кораҥдаш
 
 ## Profile Download
 
+download-q = Тыйын данныйым тулен налаш кӱлеш?
+download-info = Мом тый тулен налнет ыле, мыланна каласкале:
+download-profile-title = Профиль
+download-profile-info = Вигак кучылташ лийше электрон почто адресым, пайдаланышын лӱмжым да демографий шотышто информацийым пурта
+download-profile-size = Икмыняр байт
+download-recordings-title = Возымаш-влак
+download-recordings-info = Mp3-файл-влакым да нунын дене кылдалтше ойлончо-влакым, кудым ямдылаш икмыняр жап кӱлын кертеш, пурта
+download-recordings-size = Тыглай мегабайт-влак
+download-recordings-unavailable = Вес йодмаш шукталтме годым, тый шке возымаш-влакетым йодын от керт.
+download-recently-requested = Тый шке возымаш кокла гыч у возымаш-влакым кажне { $days } кече йодын кертат.
+download-size = Кугыт
+download-selected = Ойырымо
+download-start = Профиль данныйым тулен налаш
+download-request = Возымаш-влакым йодаш
+download-requests = Ондакысе возымаш-влакым тулен налаш йодмаш-влак
+download-requests-info = Кунам тый шке возымаш-влакетым йодат, ме нуным ик але икмыняр ZIP-файлыш погена. Теве тыйын ондакысе йодмаш-влакет:
+download-request-button = Тулен налаш
+download-request-title = { $created }
 
 ## Landing
 
@@ -670,6 +720,12 @@ days =
 
 ## Demo Datasets
 
+card-button-next = Весе
+card-button-back = Шеҥгек
+demo-language-select-label = Йылме-влакым ончымаш
+demo-eofy-header = 2019 идалык мучаште лукмаш
+demo-eofy-sub_header = Тулен налашлан ямде йӱк датасет
+demo-account = Аккаунт
 
 ## Demo Account
 
@@ -682,6 +738,7 @@ days =
 
 ## Validation criteria
 
+contribution-criteria-nav = Висык
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -690,15 +747,38 @@ days =
 
 ## HEADER/FOOTER
 
+sc-header-statistics = Иктешлымаш
+sc-header-profile = Профиль
+sc-footer-discourse = Каҥашымаш
+sc-footer-privacy = Шолыплык
+sc-footer-terms = Келшык
+sc-footer-cookies = Куки
+sc-login-signup-button = Пурымаш / Регистрацийым эртымаш
+sc-logout-button = Системе гыч лекмаш
 
 ## HOME
 
+sc-home-collect-title = Ойлончо-влакым погаш
+sc-home-review-title = Ойлончо-влакым ончен лек
 
 ## HOW-TO
 
+sc-howto-addsen-title = У ойлончо-влакым ешаркале
+sc-howto-review-title = Ойлончо-влакым ончен лек
+sc-howto-review-subtitle = Ойлончо нине висык-влаклан келшен толеш манын, ӱшане:
+sc-howto-review-criteria-1 = Ойлончо чын возымо лийшаш.
+sc-howto-review-criteria-2 = Ойлончо грамматике шотышто чын лийшаш.
+sc-howto-findpd-subtitle = Нуным интернетыште кычал
 
 ## MY SENTENCES
 
+sc-my-title = Ойлончо-влакем
+sc-my-loading = Ойлончо-влакетым вераҥдымаш…
+sc-my-err-fetching = Ойлончо-влакетым лукмо годым йоҥылыш лийын. Порылий, угыч тӧчен ончо.
+sc-my-no-sentences = Ойлончым мумо огыл!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Важ: { $source }
 
 ## REJECTED
 
