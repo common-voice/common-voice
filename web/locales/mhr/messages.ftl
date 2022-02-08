@@ -268,27 +268,136 @@ x-years-short =
 help-make-dataset = Мыйланна сай чылалан кучылташ лийше почмо датасетым ышташ полшо
 sign-up-account = Аккаунтлан возалт
 email-subscription-title = электрон почто дене уэмдалтмаш-влаклан возалт
+email-subscription-title-new = Common Voice увер-аҥарлан, шумлык нерген ушештарымашлан да ончыко кайымын уэмдалтмашыжлан возалт
 
 ## Account Benefits
 
+benefits = Пайда
+rich-data = Лӱмдымӧ демографиян данныйым пуэн, тый тудым тӱрыснек тичмашым ышташ полшет. Савыктыме деч ончыч ме чыла демографиян данныйым лӱм деч посна ончыктена.
+improve-audio = Профиль информаций аудиоданныйым пален налмын чынлыкшым семда.
+keep-track = Шке ончыко кайымашым да икмыняр йылме дене лектышетым эскерен шого.
+compare-progress = Тыйын ончыко кайымашет уло тӱня мучко ушнышо-влак дене кузе таҥастаралтеш манын, ончо.
+view-goals = Шке ончыко кайымашетым проектын да тыйын шумлык дене таҥастарен ончо.
+join-newsletter = Кумылет уло гын, уэмдалтмашым да проект нерген у информацийым наледаш манын, мемнан колтедылмаш лӱмер деке ушно.
 
 ## What's public
 
+whats-public = Могай данныйым чылан кучылтын кертыт?
+email-not-public = Ме тыйын электрон почтым савыкташ огына тӱҥал.
+recordings-and-locale-public = Возымаш-влак чот да йылме-влак, кушко тый шке надыретым пуртет, чылалан койшо лийыт.
+username-optin-public = Тый шке пайдаланыше лӱметым чылалан койшым але лӱмдымым ыштен кертат.
+demographic-deidentified-clarity-2 = Пеш кӱлешанжак огыл демографиян данный (тыгай: ийгот, пӧръеҥ/ӱдырамаш, йылме да акцент) нигунам тыйын профильыштет чылалан койшо огеш лий да данный погышто тыйын аккаунтет дене кылдалташ огеш тӱҥал. Посна возыш-влак чынле шымлымаш шумлыклан кӧра демографиян данный дене кылдалтын кертыт — мутлан, шымлызе туныктымо модельым посна демографий ужашыш викташ шона.
+username-email-not-demographic = Пайдаланыше лӱмет да электрон почто адресет савыктыме данный дене кылдалтме огыт лий.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = к
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = м
+shortcut-play-toggle-label = Модыкташ/Шогалташ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = т
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = у
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = в
+shortcut-record-toggle-label = Возаш/Шогалташ
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Клипым угычын возаш
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Кызытсе возымашым чараш
+shortcut-submit = Return
+shortcut-submit-label = Клип-влакым колташ
+request-language-text = Common Voice-ышто шке йылмет эше от уж?
+request-language-text-learn = Кузе тудым тыште йодаш, пален нал!
+request-language-button = Йылмым йодаш
 
 ## ProjectStatus
 
+status-title = Проектын чумыр шотлыкшо: ончал, кузе ме ончыко каенна!
+status-contribute = Шке йӱкетым возо
+status-hours =
+    { $hours ->
+        [one] Кызытеш ик тергыме шагат!
+       *[other] Кызытеш { $hours } тергыме шагат!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Вес шумлык: { $goal }
+english = Англичан
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Пайдаланышын лӱмжӧ
+profile-form-native-language =
+    .label = Шочмо йылме
+profile-form-additional-language =
+    .label = Ешартыш йылме
+profile-form-language =
+    .label = Йылме
+profile-form-accent =
+    .label = Акцент
+profile-form-custom-accent-help-text =
+    .label = Кузе тый шке акцент нергенет каласкалет ыле?
+profile-form-custom-accent-placeholder-2 = Шке акцент нергенет каласкалаш манын, возаш тӱҥал
+profile-form-age =
+    .label = Ийгот
+profile-form-gender-2 =
+    .label = Пӧръеҥ/Ӱдырамаш
+leaderboard-visibility =
+    .label = Ончылъеҥ-влакын таблицышт коймаш
+hidden = Шылтыме
+visible = Койшо
+native-language =
+    .label = Шочмо йылме
+profile-form-add-accent = У акцентым ешараш "{ $inputValue }"
+profile-form-submit-save = Аралаш
+profile-form-submit-saved = Аралыме
+male = Пӧръеҥ
+female = Ӱдырамаш
+# Gender
+other = Весе
+why-profile-title = Молан профиль кӱлеш?
+why-profile-text = Шке нергенет икмыняр данныйым пуэн, Common Voice-ыш колтымо аудиоданный-влакым йӱкым пален налше движок-влаклан, кудо нине данныйым шке чынлыкыштым саемдаш кучылташ тӱҥалыт, утларак пайдалым ыштет.
+dashboard = Ӱзгар оҥа
+build-profile = Профильым ыштымаш
+avatar = Аватар
+goals = Шумлык
+settings = Келыштарымаш
+edit-profile = Профильым редактироватлаш
+profile-create-success = Сеҥымаш, профиль ышталтын!
+profile-close = Петыраш
+profile-explanation = Шке ончыко кайымашетым профильын полшымо дене эскере да ӥукан данныйлан чынрак лияш манын, мыланна полшо.
+thanks-for-account = Аккаунтетым чынлымылан тау, ынде айста профилетым ыштена.
+why-demographic = Молан тиде кӱлешан?
+why-demographic-explanation-2 = Пайдаланышын тыгай лӱмдымӧ данныйже: ийгот, пӧръеҥ/ӱдырамаш да акцент аудиоданныйым, кудо йӱкым пален налше движок-влакын чынлыкыштым кугемдаш кучылталтеш, саемдаш полша. Пайдаланыше лӱмет да электрон почто адресет нигунам тыйын пуэдыме данный дене кылдыме огеш лий, да тый логинетым чылалан койшым але лӱмдымым ыштен кертат.
+accept-privacy = Тиде информацийым <privacyLink>Шолыплык политикыште</privacyLink> кузе ямдылымым умылтарымыда дене мый келшем.
+accept-privacy-title = Шолыплык политике
+login-identity = Пурашлан идентификатор
+login-signup = Системыш пуро / Регистрацийым эрте
+edit = Редактироватлаш
+email-subscriptions = Электрон почтылан возалтмаш
+download-profile = Мыйын данныйым вераҥде
+contribution-experience = Шке пашатым акле
+skip-submission-feedback = Пашам аклымашым коден каяш
+skip-submission-description = "Колташ" полдышым темдалме деч вара пашам аклымаш коден каялтеш. 5 возымаш але колыштмаш деч вара тый надырым умбакыже пуртеден шоген кертат.
+skip-submission-note = Палемдымаш: тылат садыгак надыр тӱрлылыкым вашталташлан "Кутыраш" але "Колышташ" манме кокла гыч иктыжым ойырыман.
+off = Йӧрташ
+on = Чӱкташ
+help-accent = Акцент шотышто полыш кӱлеш?
+help-accent-explanation = Акцентет — тиде кузе тый мут-влакым кутырет. Тиде кушто илымет, могай йылме-влак дене мутланымет да моло амал деч шога. Тый тыште кеч-могай информаций дене, кудо тыйын шонымаште пашалан кӱлешан, пайлалт кертат.
 
 ## Profile - Email
 
