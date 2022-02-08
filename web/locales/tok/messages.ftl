@@ -340,6 +340,7 @@ about-playbook-how-grow-language-content-6 = jan poka en kulupu
 
 ## How to validate
 
+about-playbook-how-validate = nasin seme la mi sona e pona pi kalama toki?
 about-playbook-how-validate-content-4 = kalama awen li weka tan jan 2 la, ilo li pana e ona tawa kulupu sona ante.
 
 ## How to access dataset
@@ -348,10 +349,13 @@ about-playbook-how-access-dataset = mi lukin e sona ale pi ilo Common Voice kepe
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = awen pi sona len en pana pi sona ante.
+mycroft-title = ilo Mycroft Ai
 
 ## Glossary
 
 glossary = lipu nimi
+localization = ante toki
 sentence-collection = kama jo sitelen
 hours-recorded-explanation = nanpa tenpo pi kalama awen
 
