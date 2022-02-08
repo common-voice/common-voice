@@ -512,39 +512,143 @@ about-playbook-how-grow-language-content-4 = Социал медиа
 
 ## How are decisions made
 
+mycroft-title = Mycroft Ai
 
 ## Glossary
 
+glossary = Глоссарий
+localization = Локализаций
+sentence-collection = Ойлончо-влак пого
+sst = Ойлымым текстыш савырымаш (ОТС)
 
 ## Error pages
 
+error-code = Йоҥылыш { $code }
 
 ## Data
 
+data-download-button = Common Voice данныйым тулен налаш
+data-download-yes = Туге
+data-download-deny = Уке
+data-download-license = Лицензий: <licenseLink>CC-0</licenseLink>
+release-version = Версий
+dataset-date = Кече
+license = Лицензий: <licenseLink>{ $license }</licenseLink>
+license-mixed = Йӧре варыме
+terms-agree = Мый келшем
+terms-disagree = Мый ом келше
+review-recording = Ончен лекмаш
+review-rerecord = Угычын возымаш
+review-cancel = Колтымым чараш
+review-keep-recordings = Возымым арале
+review-delete-recordings = Мыйын возымым кораҥдаш
 
 ## Datasets Page
 
+language = Йылме
+# File size in gigabytes
+size = Кугыт
+cv-license = Лицензий
+audio-format = Аудиоформат
+number-of-voices = Йӱк-влак чот
+splits = Ужашлымаш
+email-to-download = Вераҥдашлан электрон почто адресым пурто
+size-gigabyte = ГБ
+size-megabyte = МБ
+validated-hours = Тергыме шагат
+recorded-hours = Возымо шагат
+subscribe = Возалташ
+data-other-ted-name = Тунемме корпус
+go-discourse = Каҥашымаш дек куснаш
+go-languages-page = Йылме велыжыш куснаш
+ready-to-validate = Ойлончо-влакын чын улмыжым тергаш полшаш ямде улат?
+more = Эше
+close = Петыраш
+download = Тулен налаш
+dataset-version = Версий
 
 ## Download Modal
 
+download-title = Тыйын вераҥдымаш тӱҥалын.
+download-form-email =
+    .label = Шке электрон почто адресетым пурто
+    .value = Тау, ме кылыште лийына.
+download-no = Уке, тау
 
 ## Contact Modal
 
+contact-title = Вашкыл формо
+contact-form-name =
+    .label = Лӱм
+contact-form-message =
+    .label = Увертыш
+contact-required = *кӱлеш
 
 ## Request Language Modal
 
+request-language-title = Йылме йодмаш
+request-language-form-language =
+    .label = Йылме
+select-language = Йылмым ойыро...
+other-language = Вес йылме
 
 ## Languages Overview
 
+language-section-launched = Колтымо
+languages-show-more = Шукырак ужаш
+languages-show-less = Шагалрак ужаш
+language-meter-in-progress = Ончыко кайымаш
+language-total-progress = Чыла
+language-search-input =
+    .placeholder = Кычалаш
+language-speakers = Ойлышо-влак
+localized = Кусарыме
+sentences = Ойлончо-влак
+total-hours = Тергыме шагат
 
 ## Contribution
 
+action-tap = Темдал
+listen = Колышташ
+skip = Коден каяш
+record-cta = Возаш тӱҥалаш
+record-no-mic-found = Микрофоным мумо огыл.
+record-error-too-short = Возымо утыжден кӱчык ыле.
+record-error-too-long = Возымо утыжден кужу ыле.
+record-error-too-quiet = Возымо утыжден шып ыле.
+record-cancel = Угычын возымым чараш
+record-three-more-instruction = Кумыт кодын!
+share-clip = Шке клип денет пайлалт
+clips-uploaded = Вераҥдыме клип-влак
+record-abort-submit = Клип-влакым колташ
+record-abort-continue = Возымым мучашлаш
+record-abort-delete = Лекташ да клип-влакым кораҥдаш
+record-button-label = Шке йӱкетым возо
+target-segment-add-voice = Шке йӱкетым ешаре
+target-segment-learn-more = Шукырак тунемаш
 
 ## Reporting
 
+report = Отчёт
+report-title = Отчётым колташ
+report-offensive-language = Шӱктарыме лексике
+report-grammar-or-spelling = Грамматике / орфографий шотышто йоҥылыш
+report-different-language = Вес йылме
+report-difficult-pronounce = Пелештен керташ неле
+report-offensive-speech = Шӱктарен кутырымаш
+report-other-comment =
+    .placeholder = Умылтарчык
+success = Сеҥымаш
+continue = Шуяш
+report-success = Отчёт эсен пуалтын
 
 ## Goals
 
+days =
+    { $count ->
+        [one] кече
+       *[other] кече
+    }
 
 ## Dashboard
 
