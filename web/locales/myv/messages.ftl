@@ -1170,6 +1170,18 @@ sc-criteria-title = Ванномань вешематне
 
 ## REVIEW
 
+sc-review-title = Ванномс валрисьметь
+sc-review-loading = Валрисьметне путовить…
+sc-review-select-language = Кочкак кель сонзэ ванномга.
+sc-review-no-sentences = Ванномс валрисьметь эзть лиядо. <addLink>Поладта нейке седе ламо валрисьметь!</addLink>
+sc-review-form-prompt =
+    .message = Алкукс туевлить? Вант, ваннозь валрисьметне апак совавто!
+sc-review-form-button-skip = Нолдамс вакска
+sc-review-form-button-approve = Кемекстамс
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = И
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = А
 sc-review-form-button-submit =
     .submitText = Прядомс ванноманть
 # Variables:
