@@ -438,31 +438,71 @@ faq-how-calc-hours-q = Кузе Common Voice шагатым шотлен лук�
 faq-where-src-from-2-q = Йӱкаҥдашлан текст кушеч налалтеш?
 faq-why-account-q = Молан мый регистрацийым эртышаш улам?
 faq-is-account-public-q = Аккаунтемын информацийже чылалан коеш мо?
+faq-how-privacy-q = Шке йӱкыштым надырлыше еҥ-влакым лӱмдымӧ улмыштым да шолыплыкыштым те кузе шуктеда?
+faq-what-is-cv = Мо тугай Common Voice?
+faq-using-cv = Common Voice-ым кучылтмаш
 
 ## ABOUT US
 
 
 ## How does it work section
 
+about-localization-title = Веб-сайтым кусарымаш
+about-sentence-collection-title = Ойлончо пого
+about-sentence-collection-subtitle = Ойлончо-влакым, нуным еҥ-влак йӱкын лудын кертышт манын, погымо.
+about-new-lang-title = У йылмым колтымаш
+about-new-lang-subtitle = Ме Common Voice сайтым тиде йылмылан пашаш колтена.
+about-voice-contrib-title = Йӱкым надырлымаш
+about-voice-contrib-subtitle = Еҥ-влак толыт да шке шонымашыштым ойлат.
+about-voice-validation-title = Йӱк-влакым тергымаш
+about-voice-validation-subtitle = Вес еҥ-влак нине йӱкан клип-влакым тергат.
+about-dataset-release-title = Датасетым лукмаш
+about-dataset-release-subtitle = Ме данный погым кажне 3 тылзыште савыктена.
+about-subscribe-text = Common Voice дене кылыште коднет?
+about-speak = Кутыраш
+about-speak-text = Ушнышо-влак йӱкан клипым надырлыме ойлончо пого гыч лудыт.
+about-listen-queue = Колышташлан черет
+about-listen = Колышташ
+about-is-it-valid = Тиде клипым чын возымо?
+about-dataset-new = Common Voice датасет
+about-clip-graveyard = Клип шӱгар
+about-get-involved = Ушнаш
+about-stay-in-touch = Кузе мылам кылыште кодаш?
+about-nav-why-common-voice = Молан?
+about-nav-how-it-works = Кузе?
+about-nav-get-involved = Ушнаш
+about-nav-how-it-works-2 = Кузе Common Voice пашам ышта?
+about-nav-playbook = Кузе ушнаш манын, пален нал
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice-ышто йылме мо тугай?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Кузе мылам йылмым ешараш?
 
 ## How does localization work
 
+about-playbook-how-localize = Кузе сайтын локализацийже ышта?
+about-playbook-how-localize-content-1 = Common Voice-ын сайтше <strong>Pontoon-ышто</strong> кусаралтеш.
+about-playbook-how-localize-content-4 = Сайт, кунам тудо 75%-лан тичмашлалтеш, пашаш колташ ямде лиеш.
+about-playbook-how-localize-content-5 = Полшаш манын, мемнан умылтарыме видеонам ончо
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Кузе мыланем ойлончо-влакым ешараш?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Кузе сай йӱкан клипым возаш?
+about-playbook-how-record-content-2 = Фонан йӱк-йӱан утыжден шуко лийшаш огыл — тыйын йӱкет сайын шоктышаш.
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Эртынчык-влак
+about-playbook-how-grow-language-content-4 = Социал медиа
 
 ## How to validate
 
