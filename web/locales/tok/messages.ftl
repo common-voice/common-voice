@@ -49,6 +49,7 @@ ru = toki Lusi
 so = toki Somalija
 sv-SE = toki Sensa
 te = toki Teluku
+tig = toki Tike
 tl = toki Takalo
 tr = toki Tuki
 ug = toki Wiku
@@ -86,6 +87,9 @@ logout = o weka tan ilo
 
 home-title = ilo Common Voice la kulupu Mozilla li wile pana e sona pi toki uta jan tawa ilo.
 home-cta = o toki, o pana lon ilo ni!
+wall-of-text-start =
+    kalama toki li suli, li jan. ilo li ken kute e kalama toki jan la ni li pona.
+    sona suli pi kalama toki mute li lon la, mi ken pali e ilo toki kalama.
 show-wall-of-text = o lukin e toki mute
 help-us-title = o pona e sitelen!
 no-clips-to-validate = toki ni li jo ala e kalama awen. wile la, o awen e kalama sina.
@@ -170,8 +174,6 @@ profile-form-username =
     .label = nimi
 profile-form-native-language =
     .label = toki mama
-profile-form-additional-language =
-    .label = toki sin
 profile-form-language =
     .label = toki
 profile-form-accent =
