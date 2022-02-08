@@ -7,3 +7,4 @@ get-involved-form-title = { $lang } اپ ڈیٹاں کیتے سائن اپ تھ�
 get-involved-email =
     .label = ای میل
 get-involved-submit = جمع کرواؤ
+get-involved-return-to-languages = زباناں تے واپس ون٘ڄو
