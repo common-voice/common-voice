@@ -3,6 +3,8 @@
 yes-receive-emails = mi wile e ni: o pana e sona pi ilo Common Voice
 stayintouch = lon kulupu Mozilla la, mi mute li pali e ilo pi toki kalama. mi mute li wile e ni: sina pana e ijo sin, e sona sin, e kepeken sina pi ilo ni tawa mi mute.
 return-to-cv = o tawa ilo Common Voice
+email-input =
+    .label = nimi pi poki lipu sina
 submit-form-action = o pana
 loading = o awen...
 email-opt-in-info-title = o kama jo e lipu tan ilo Common Voice
@@ -33,15 +35,17 @@ hy-AM = toki Aja
 hyw = toki Aja Wesa
 ia = toki Intelinwa
 ie = toki Intelinwe
+ig = toki Ipo
 it = toki Italija
 ja = toki Nijon
 ko = toki Anku, toki Soson
 mg = toki Malekasi
 mn = toki Monko
+mt = toki Mata
 nl = toki Netelan
 pl = toki Posuka
 pt = toki Potuke
-ru = toki Losi
+ru = toki Lusi
 so = toki Somalija
 sv-SE = toki Sensa
 te = toki Teluku
@@ -50,7 +54,9 @@ tr = toki Tuki
 ug = toki Wiku
 ur = toki Utu
 vi = toki Wije
+yue = toki Kantun
 zh-CN = toki Sonko
+zh-HK = toki Onkon
 zh-TW = toki Tawan
 
 # [/]
@@ -67,7 +73,9 @@ help = o pona e mi
 contact = o toki tawa jan lawa
 privacy = sona len
 terms = lawa kepeken
+cookies = ilo pi sona lipu sina
 faq = wile sona pi jan mute
+content-license-text = mi pana e ni kepeken nasin pana <licenseLink>Creative Commons</licenseLink>
 share-title = jan sin li ken pana e toki ona. o kama e jan sin!
 share-text = sina wile pana e sona toki tawa ilo la, o pana e toki uta sina lon lipu { $link }
 link-copied = sina kama jo e nimi nasin
@@ -76,6 +84,7 @@ logout = o weka tan ilo
 
 ## Home Page
 
+home-title = ilo Common Voice la kulupu Mozilla li wile pana e sona pi toki uta jan tawa ilo.
 home-cta = o toki, o pana lon ilo ni!
 show-wall-of-text = o lukin e toki mute
 help-us-title = o pona e sitelen!
@@ -84,6 +93,7 @@ vote-yes = pona
 vote-no = ala
 toggle-play-tooltip = o pilin e nena { shortcut-play-toggle } la, o kute. pilin sin la, o kute ala.
 speak-subtitle = o pana e toki uta sina
+speak-paragraph = awen pi kalama toki li suli mute tawa sona open mi. ni li musi tawa jan.
 speak-goal-text = kalama awen
 listen-subtitle = o pona e toki uta
 listen-goal-text = kalama awen pona
@@ -224,6 +234,7 @@ how-does-it-work-title-v2 = ilo Common Voice li pali kepeken nasin seme?
 
 ## How does it work section
 
+about-language-req-subtitle = jan li wile e toki lon ilo ni.
 about-localization-title = ante toki lipu
 about-new-lang-title = pana pi toki sin
 about-voice-contrib-title = pana pi toki uta
