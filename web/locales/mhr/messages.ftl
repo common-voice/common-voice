@@ -441,9 +441,12 @@ faq-is-account-public-q = Аккаунтемын информацийже чыл
 faq-how-privacy-q = Шке йӱкыштым надырлыше еҥ-влакым лӱмдымӧ улмыштым да шолыплыкыштым те кузе шуктеда?
 faq-what-is-cv = Мо тугай Common Voice?
 faq-using-cv = Common Voice-ым кучылтмаш
+faq-search-for-answers =
+    .label = Вашмутым кычалаш
 
 ## ABOUT US
 
+about-title = Молан Common Voice?
 
 ## How does it work section
 
@@ -537,6 +540,7 @@ license = Лицензий: <licenseLink>{ $license }</licenseLink>
 license-mixed = Йӧре варыме
 terms-agree = Мый келшем
 terms-disagree = Мый ом келше
+review-submit-title = Ончалаш да колташ
 review-recording = Ончен лекмаш
 review-rerecord = Угычын возымаш
 review-cancel = Колтымым чараш
@@ -611,6 +615,11 @@ total-hours = Тергыме шагат
 action-tap = Темдал
 listen = Колышташ
 skip = Коден каяш
+clips-with-count-pluralized =
+    { $count ->
+        [one] клип
+       *[other] клип
+    }
 record-cta = Возаш тӱҥалаш
 record-no-mic-found = Микрофоным мумо огыл.
 record-error-too-short = Возымо утыжден кӱчык ыле.
@@ -779,12 +788,17 @@ sc-my-no-sentences = Ойлончым мумо огыл!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Важ: { $source }
+sc-my-delete = Ойырымо ойлончо-влакым кораҥдаш
+sc-my-deleting = Ойырымо ойлончо-влакым кораҥдымаш…
 
 ## REJECTED
 
+sc-rejected-title = Ӧрдыжтарыме ойлончо-влак
+sc-rejected-none-found = Ӧрдыжтарыме ойлончым мумо огыл!
 
 ## STATS
 
+sc-stats-title = Иктешлымаш
 
 ## ADD
 
@@ -794,24 +808,160 @@ sc-my-source = Важ: { $source }
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Ойлончо-влакым ончыктымо огыл, тый чынак кайынет?
+sc-confirm-sentences-title = У ойлончо-влакым чынле
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Ойлончо-влакым мумо огыл.
+        [one] ойлончым мумо.
+       *[other] ойлончым мумо.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } тыйын ӧрдыжтарыме
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ик ойлончымат эше ончен лекме огыл.
+        [one] ойлончым ынде ончен лекме. Сай паша!
+       *[other] ойлончым ынде ончен лекме. Сай паша!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Колташлан ямде ойлончо уке!
+        [one] ойлончо колташлан ямде!
+       *[other] ойлончо колташлан ямде!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } ойлончым ончен лекме огыл. Шке ойлончо-влакетым, нуным колтымо деч ончыч, кызытак ончен лектын кертат.
+sc-confirm-button-text = Чынлаш
+sc-confirm-uploading = Ойлончо-влак вераҥдалтыт. Тиде, ешарыме ойлончо-влакын чотыштлан келшен, икмыняр минутым налын кертеш. Порылий, тиде веб-сайтым ит петыре.
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Тичмаш ойлончо уке.
+        [one] тичмаш ойлончо.
+       *[other] тичмаш ойлончо.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ончымаште ойлончо уке.
+        [one] ойлончо ончымаште.
+       *[other] ойлончо ончымаште.
+    }
+sc-lang-info-review-now = <reviewLink>Кызытак ончен лек!</reviewLink>
+sc-lang-info-add-more = <addLink>Шукырак ойлончым вигак кызыт ешаре!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Чынлыме ойлончо уке.
+        [one] чынлыме ойлончо.
+       *[other] чынлыме ойлончо.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ӧрдыжтарыме ойлончо уке.
+        [one] ӧрдыжтарыме ойлончо.
+       *[other] ӧрдыжтарыме ойлончо.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Пурымо годым йоҥылыш
+sc-login-err-try-again = Порылий, угыч тӧчен ончо.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профиль: { $username }
+sc-personal-err-lang-not-found = Йылмым кораҥден кертме огыл: йылмым мумо огыл
+sc-personal-err-remove = Йылмым кораҥден кертме огыл
+sc-personal-your-languages = Йылме-влакет:
+sc-personal-remove-button = кораҥдаш
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } тыйын ешарыме-влак
+sc-personal-not-added = Тый эше нимогай йылмым ешарен отыл.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Ончымашын висыкше
+sc-criteria-title = Ончымашын висыкше
+sc-criteria-make-sure = Ойлончо нине висык-влаклан келшен толеш манын, пален нал:
+sc-criteria-item-1 = Ойлончо чын возымо лийшаш.
+sc-criteria-item-2 = Ойлончо грамматике шотышто чын лийшаш.
+sc-criteria-item-3 = Ойлончо лудын кертме лийшаш.
+sc-criteria-item-4 = Ойлончо висык-влаклан келшен толеш гын, пурлаште &quot;Чынлаш&quot; манме полдышым темдал.
+sc-criteria-item-5-2 = Ойлончо висык-влаклан келшен огеш тол гын, шолаште &quot;Ӧрдыжтараш&quot; манме полдышым темдал. Тый ойлончо шотышто от ӱшане гын, тудым коден каен да весе деке куснен кертат.
+sc-criteria-item-6 = Тыйын ончашлан ойлончо пытен гын, порылий, мыланна шукырак ойлончым погаш полшо!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Тый ик йылмымат ойырен отыл. Порылий, йылме-влакым ойырашлан шке <profileLink>Профильышкет</profileLink> кусно.
+sc-review-title = Ойлончо-влакым ончен лек
+sc-review-loading = Ойлончо-влакым вераҥдымаш…
+sc-review-select-language = Порылий, ойлончо-влакым ончашлан йылмым ойыро.
+sc-review-no-sentences = Ончен лекташлан нимогай ойлончо уке. <addLink>Шукырак ойлончым вигак кызытак ешаркале!</addLink>
+sc-review-form-prompt =
+    .message = Ончен лекме ойлончо-влак ончыктымо огытыл манын, тый ӱшанет?
+sc-review-form-usage = Ойлончым чынлашлан парнятым пурлашке лупшал. Тудым ӧрдыжтарашлан парнятым шолашке лупшал. Тудым коден каяшлан парнятым кӱшкӧ лупшал. <strong>Шке шоныммутетым кодаш ит мондо!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Важ: { $sentenceSource }
+sc-review-form-button-reject = Ӧрдыжтараш
+sc-review-form-button-skip = Коден каяш
+sc-review-form-button-approve = Чынлаш
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Т
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = У
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = К
+sc-review-form-keyboard-usage-custom = Тый тыгак полдыш-влакым келыштарен кучылтын кертат: { sc-review-form-button-approve-shortcut } чынлашлан, { sc-review-form-button-reject-shortcut } ӧрдыжтарашлан, { sc-review-form-button-skip-shortcut } коден каяшлан
+sc-review-form-button-submit =
+    .submitText = Ончен лекмашым мучашлаш
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ончен лекме ойлончо уке.
+        [one] 1 ойлончым ончен лекме. Тау!
+       *[other] { $sentences } ойлончым ончен лекме. Тау!
+    }
+sc-review-form-review-failure = Ончен лекмашым арален кертме огыл. Порылий, варарак эше ик гана тӧчен ончо.
+sc-review-link = Ончен лекмаш
 
 ## SETTINGS
 
+sc-settings-title = Келыштарымаш
+sc-settings-ui-language = Интерфейс йылме
+sc-settings-language-translated-warning = Тиде йылмылан велыж-влак тӱрыснек огыл кусаралтын кертыт. Тый <pontoonLinkLink>Pontoon-ышто</pontoonLinkLink> кусараш полшен кертат.
+sc-settings-reset-skipped = Коден кайыме ойлончо-влакым кудалтымаш
+sc-settings-skipped-decription = Ончымо годым ондакрак тый ойлончо-влакым коден каенат. Коден кайыме ойлончо-влакым кудалтымаш чыла коден кайыме ойлончым угычын ончыктымашке наҥгая. Тиде йылме дечын огеш шого.
+sc-settings-show-all-button = Коден кайыме ойлончо-влакым угыч ончыкташ
+sc-settings-failed = Келыштарымашым вашталтен кертме огыл. Порылий, угыч тӧчен ончо.
+# VALIDATION
+sc-validation-number-of-words = Ойлончышто 1 гыч 14 мут марте лийшаш
+sc-validation-no-numbers = Ойлончышто цифр лийшаш огыл
+sc-validation-no-symbols = Ойлончышто ӱжвата лийшаш огыл
+sc-validation-no-abbreviations = Ойлончышто кӱчыкемдымаш лийшаш огыл
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Йылмым/локализацийым ойыро
