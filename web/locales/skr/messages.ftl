@@ -1,5 +1,9 @@
 ## General
 
+email-input =
+    .label = ای میل
+submit-form-action = جمع کرواؤ
+loading = لوڈ تھیندا پئے۔۔۔
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,6 +19,15 @@ arn = مپڈونگن
 as = آسامی
 ast = آسٹرین
 az = آزربائیجانی
+ba = باشکیر
+bas = باسا
+be = بیلاروسی
+bg = بلغاری
+bn = بنگالی
+br = بریٹون
+bs = بوسینی
+bxr = بریات
+ca = کٹالن
 
 # [/]
 
