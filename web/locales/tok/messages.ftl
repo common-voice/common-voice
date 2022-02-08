@@ -320,9 +320,12 @@ about-playbook-how-access-dataset = mi lukin e sona ale pi ilo Common Voice kepe
 
 glossary = lipu nimi
 sentence-collection = kama jo sitelen
+hours-recorded-explanation = nanpa tenpo pi kalama awen
 
 ## Error pages
 
+error-title-404 = mi ken ala alasa e lipu ni tawa sina
+error-title-503 = mi pakala. mi lon ala lon tenpo ni. nasin la mi sona ala.
 error-code = pakala { $code }
 
 ## Data
@@ -348,10 +351,15 @@ review-delete-recordings = o weka e kalama awen mi
 language = toki
 # File size in gigabytes
 size = suli
+validated-hr-total = nanpa tenpo pona
+overall-hr-total = nanpa tenpo
 number-of-voices = nanpa pi jan toki
 size-gigabyte = GB
 size-megabyte = MB
 download-language = o kama jo e toki { $language }
+validated-hours = nanpa tenpo pi kalama awen pona
+recorded-hours = nanpa tenpo pi kalama awen
+feedback-q = sina wile toki anu seme?
 go-discourse = o tawa lipu toki
 go-languages-page = o tawa lipu toki
 ready-to-validate = sina wile ala wile pona e kalama awen?
