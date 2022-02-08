@@ -145,6 +145,7 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = o kalama sin
 shortcut-discard-ongoing-recording = weka
 shortcut-discard-ongoing-recording-label = o weka e kalama ni
+shortcut-submit = o tawa sin
 shortcut-submit-label = o pana e kalama
 request-language-text = toki sina li lon ala lon ilo Common Voice?
 request-language-text-learn = o sona e nasin pana pi toki sin lon ni!
@@ -152,7 +153,15 @@ request-language-button = o wile e toki sin
 
 ## ProjectStatus
 
+status-title = o lukin e suli pi pali mi!
 status-contribute = o pana e toki uta sina
+status-hours =
+    { $hours ->
+       *[other] kalama pi tenpo suli { $hours } li pona!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = kama la mi wile e ona { $goal }
 english = toki Inli
 
 ## ProfileForm
@@ -161,8 +170,12 @@ profile-form-username =
     .label = nimi
 profile-form-native-language =
     .label = toki mama
+profile-form-additional-language =
+    .label = toki sin
 profile-form-language =
     .label = toki
+profile-form-accent =
+    .label = nasin kalama toki
 hidden = len
 visible = len ala
 native-language =
