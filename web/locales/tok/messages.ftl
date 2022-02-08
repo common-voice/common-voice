@@ -563,6 +563,8 @@ sc-howto-review-title = o lukin e sitelen
 
 ## MY SENTENCES
 
+sc-my-title = sitelen ale mi
+sc-my-no-sentences = sitelen ala a li lon!
 
 ## REJECTED
 
@@ -572,30 +574,73 @@ sc-howto-review-title = o lukin e sitelen
 
 ## ADD
 
+sc-submit-err-select-lang = o kepeken toki
+sc-submit-err-add-sentences = o pana e sitelen
+sc-submit-title = o pana e sitelen
+sc-submit-ph-one-per-line =
+    .placeholder = sitelen wan taso lon linja wan
+sc-submit-button =
+    .submitText = o pana
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = mi ken ala pana e toki
+sc-add-lang-sec-button = o pana e toki
+sc-add-err-submission = pakala li lon pana
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = sina pana ala e sitelen. sina wile ala wile weka?
+sc-confirm-sentences-title = o pona e sitelen sin
+sc-confirm-button-text = o wile
 
 ## LANGUAGE INFO
 
+sc-lang-info-review-now = <reviewLink>o lukin e sitelen!</reviewLink>
 
 ## LOGIN
 
+sc-login-err-try-again = o pali sin e ni
 
 ## PROFILE
 
+sc-personal-your-languages = toki sina:
+sc-personal-remove-button = o weka
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = sina pana e sitelen { $sentences }
+sc-personal-not-added = sina pana ala e toki.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = nasin pona
+sc-criteria-title = nasin pona
 
 ## REVIEW
 
+sc-review-title = o lukin e sitelen
+sc-review-loading = sitelen li kama…
+sc-review-select-language = o kepeken toki la, sina ken lukin e sitelen
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = sitelen li tan: { $sentenceSource }
+sc-review-form-button-reject = o weka
+sc-review-form-button-approve = o pona
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = p
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = w
+sc-review-form-button-submit =
+    .submitText = o pini e lukin
+sc-review-link = o lukin
 
 ## SETTINGS
 
+sc-settings-title = nasin ilo
+sc-settings-ui-language = toki pi ilo ni
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = o kepeken toki
