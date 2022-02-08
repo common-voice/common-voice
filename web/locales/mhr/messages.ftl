@@ -817,6 +817,7 @@ sc-my-deleting = Ойырымо ойлончо-влакым кораҥдымаш
 ## REJECTED
 
 sc-rejected-title = Ӧрдыжтарыме ойлончо-влак
+sc-rejected-err-fetching = Ӧрдыжтарыме ойлончо-влакым лукмо годым йоҥылыш лийын. Порылий, угыч тӧчен ончо.
 sc-rejected-none-found = Ӧрдыжтарыме ойлончым мумо огыл!
 
 ## STATS
@@ -825,9 +826,17 @@ sc-stats-title = Иктешлымаш
 
 ## ADD
 
+sc-submit-prompt =
+    .message = Ойлончо-влакым ончыктымо огыл, тый чынак кайынет?
+sc-submit-select-language =
+    .labelText = Йылмым ойыро
+sc-submit-button =
+    .submitText = Пуаш
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Йылмым ешарен кертме огыл
+sc-add-lang-sec-button = Йылмым ешараш
 
 ## ADD SENTENCES CONFIRMATION
 
