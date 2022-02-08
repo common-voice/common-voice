@@ -38,6 +38,7 @@ be = Беларузонь кель
 bg = Болгариянь кель
 bn = Бенгалинь кель
 br = Бретононь кель
+bs = Босниянь кель
 bxr = Бурятонь кель
 ca = Каталанонь кель
 cak = Какчикелень кель
@@ -382,6 +383,7 @@ skip-submission-note = Тешкстамга: тыненнк икеле ладс�
 off = Пекстамс
 on = Нолдамс
 help-accent = Эряви лезкс кортавксот муемга?
+help-accent-explanation = Кортавксот -- те кода валтнэсэ ёвтат. Сон ашти сень эйстэ, косо чачить-касыть, кодамо лия кельсэ кортат ды лиядо-мезде. Эсеть мелеть коряс, сёрмадыка тезэнь сень, конань арсят эрявикс.
 
 ## Profile - Email
 
@@ -443,6 +445,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Мезекс «Common Voice»?
+how-does-it-work-title-v2 = Кода Common Voice важоди?
 
 ## How does it work section
 
@@ -1106,21 +1109,94 @@ sc-confirm-button-text = Кемекстамс
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Весемезэ вейкеяк валрисьме арась.
+        [one] Весемезэ 1 валрисьме.
+       *[other] Весемезэ { $totalSentences } валрисьметь.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Вейкеяк валрисьме а ваннови.
+        [one] Ваннови 1 валрисьмине.
+       *[other] { $totalInReview } валрисьметь ванновить.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Вейкеяк валрисьме эзь лиядо тонеть ванномс.
+        [one] Тонеть лиядсь ванномс вейкине валрисьме.
+       *[other] Тонеть лиядсть ванномс { $unreviewedSentencesByYou } валрисьметь
+    }
+sc-lang-info-review-now = <reviewLink>Нейке ваннок!</reviewLink>
+sc-lang-info-add-more = <addLink>Нейке поладт седе ламо валрисьметь!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Вейкеяк кемекстазь валрисьме арась.
+        [one] 1 кемекстазь валрисьмине.
+       *[other] { $validatedSentences } кемекстазь валрисьметь.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Эзить соваво
+sc-login-err-try-again = Варчака одов!
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профилеть:{ $username }
+sc-personal-err-lang-not-found = Келесь эзь нардаво: келесь эзь муеве
+sc-personal-err-remove = Келесь эзь нардаво
+sc-personal-your-languages = Тонь кельтне
+sc-personal-remove-button = нардамс
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = Подаыть { $sentences }
+sc-personal-not-added = Зярс вейкеяк кель эзить поладо.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = Ванномань вешематне
+sc-criteria-title = Ванномань вешематне
 
 ## REVIEW
 
+sc-review-form-button-submit =
+    .submitText = Прядомс ванноманть
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Вейкеяк валрисьме апак ванно.
+        [one] 1 валрисьме ваннозь. Сюконятано!
+       *[other] { $sentences } валрисьметь ваннозь. Сюконятано!
+    }
+sc-review-form-review-failure = Ванномат а ванстови. Варчака мейле одов!
+sc-review-link = Ванномс
 
 ## SETTINGS
 
+sc-settings-title = Аравтомкат
+sc-settings-ui-language = Интерчамань кель
+sc-settings-language-translated-warning = Те кельсэнть лопатне, паряк, апак ютавто педе-пес. Ули мелеть, лездак ютавтома тевсэ <pontoonLinkLink>Pontoon-со</pontoonLinkLink>.
+sc-settings-show-all-button = Невтемс одов вакска нолдазь валрисьметнень
+sc-settings-failed = Аравтомкатне эзть полавтово. Варчака одов!
+# VALIDATION
+sc-validation-number-of-words = Валрисьметнесэ валтнэде улест 1–14.
+sc-validation-no-numbers = Валрисьметнесэ иляст уле цифрат.
+sc-validation-no-symbols = Валрисьметнесэ иляст уле символт.
+sc-validation-no-abbreviations = Валрисьметнесэ иляст уле киртянь валт-аббревиатурат.
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Кочкак кель/локализация
