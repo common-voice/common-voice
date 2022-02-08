@@ -351,6 +351,7 @@ about-playbook-how-access-dataset = mi lukin e sona ale pi ilo Common Voice kepe
 
 about-playbook-how-project-governance-content-3 = awen pi sona len en pana pi sona ante.
 mycroft-title = ilo Mycroft Ai
+mycroft-subtitle = ilo sona jan
 
 ## Glossary
 
@@ -358,6 +359,7 @@ glossary = lipu nimi
 localization = ante toki
 sentence-collection = kama jo sitelen
 hours-recorded-explanation = nanpa tenpo pi kalama awen
+sst = ilo kute
 
 ## Error pages
 
@@ -372,6 +374,7 @@ data-download-yes = wile
 data-download-deny = ala
 data-other-title = kulupu sona ante pi toki uta
 data-other-goto = tawa lipu { $name }
+release-version = nanpa
 dataset-date = tenpo
 license-mixed = mute
 terms-agree = mi wile
@@ -381,6 +384,7 @@ review-submit-title = o kute, o pana
 review-recording = o kute
 review-rerecord = o awen e kalama sin
 review-cancel = o weka e ijo pana
+review-keep-recordings = o awen e kalama
 review-delete-recordings = o weka e kalama awen mi
 
 ## Datasets Page
@@ -390,6 +394,8 @@ language = toki
 size = suli
 validated-hr-total = nanpa tenpo pona
 overall-hr-total = nanpa tenpo
+cv-license = lipu pi nasin pana
+audio-format = nasin awen kalama
 number-of-voices = nanpa pi jan toki
 size-gigabyte = GB
 size-megabyte = MB
