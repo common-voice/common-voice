@@ -370,6 +370,14 @@ action-tap = o pilin
 contribute = o pona
 listen = o kute
 skip = o weka
+clips-with-count-pluralized =
+    { $count ->
+       *[other] kalama awen
+    }
+contribute-more =
+    { $count ->
+       *[other] sina ken ala ken pali e kalama sin { $count }?
+    }
 record-cta = o open e awen kalama
 record-platform-not-supported = ilo sina li ken ala kepeken ilo Common Voice
 record-platform-not-supported-desktop = lon ilo sona supa la, sina ken pana tan kama jo pi …
@@ -381,6 +389,9 @@ record-error-too-quiet = kalama pi toki uta li lili la, kalama awen li pakala.
 record-cancel = o weka e kalama awen sin
 record-three-more-instruction = o pini e tu wan taso!
 record-last-instruction = <recordIcon></recordIcon> wan taso li lon!
+share-clip = o pana e kalama awen sina
+share-common-voice = o pana e ilo Common Voice
+clips-uploaded = kalama awen pana
 record-abort-title = wan la, o pini e kalama awen anu seme?
 record-abort-submit = o pana e kalama awen
 record-abort-continue = o pini kalama
@@ -388,9 +399,12 @@ record-abort-delete = o pini, o weka e kalama awen
 listen-again-instruction = sina pona! <playIcon></playIcon> sina ken la, o kute sin
 listen-3rd-time-instruction = tu li pini!
 listen-last-time-instruction = wan taso li lon!
+listen-empty-state = kalama awen pi toki ni li lon ala. ni la sina ken ala pona e ona.
 speak-empty-state = sitelen pi toki ni li lon ala. ni la sina ken ala kalama awen e ona.
 speak-empty-state-cta = o pana e sitelen
 record-button-label = o awen e toki uta sina
+share-title-new = <bold>o pona e ni:</bold> o kama e jan sin
+login-to-get-started = o kama la, sina open
 target-segment-add-voice = o pana e toki uta sina
 target-segment-learn-more = o kama sona
 
@@ -423,6 +437,10 @@ days =
 recordings =
     { $count ->
        *[other] kalama awen
+    }
+validations =
+    { $count ->
+       *[other] kalama awen pona
     }
 
 ## Dashboard
