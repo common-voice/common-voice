@@ -7,6 +7,7 @@ email-input =
     .label = nimi pi poki lipu sina
 submit-form-action = o pana
 loading = o awen...
+email-opt-in-info = mi wile kama jo e lipu ni: sona pi wile pali mi en sona pi pali mi en ijo sin pi ilo Common Voice.
 email-opt-in-info-title = o kama jo e lipu tan ilo Common Voice
 email-opt-in-info-sub-with-challenge = o kama jo e lipu ale ni: ijo pi wile sina, pali sin, en sona sin, en lipu sin pi ilo Common Voice.
 indicates-required = * la, o pana
@@ -140,10 +141,21 @@ username-optin-public = sina ken len e nimi sina. sina ken pana e nimi sina.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = w
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = k
 shortcut-play-toggle-label = o kalama / o pini
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = p
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = i
 
 ## Speak Shortcuts
 
