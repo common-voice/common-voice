@@ -447,7 +447,16 @@ about-title = Мезекс «Common Voice»?
 ## How does it work section
 
 about-language-req-subtitle = Кияк веши келень совавтомс
+about-localization-title = Сайтэнть локализациязо
+about-localization-subtitle = Сайтэнть сёрмакоцтозо-текстэзэ ютавтозь эрявикс кельс.
 about-sentence-collection-title = Валрисьмень пурнамо
+about-sentence-collection-subtitle = Валрисьметне пурнавить ломантненень ловновост марямга.
+about-new-lang-title = Од келень нолдамо
+about-new-lang-subtitle = Нолдатано Common Voice сайтэнть вана те кельсэнть.
+about-voice-contrib-title = Вайгельсёрмадовкссо лезкс
+about-voice-contrib-subtitle = Ломанть сыть ды максыть вайгельсэ лезкс.
+about-voice-validation-title = Вайгельсёрмадовксонь кемекстамо
+about-voice-validation-subtitle = Неть вайгельсёрмадовкстнэнь кемекстыть лия ломанть.
 about-speak = Кортак
 about-speak-text = Лезксэнь максыцятне сёрмадыть эсь вайгельсэ клипть валрисьмень пурнавксонь ловнозь.
 about-listen-queue = Кунсоломань чипола
@@ -477,34 +486,44 @@ about-nav-why-common-voice = Мезекс ?
 about-nav-how-it-works = Кода ?
 about-nav-partners = Ялгат
 about-nav-get-involved = Кундамс вейсэнь тевс
+about-nav-how-it-works-2 = Кода Common Voice-сэ важодить?
+about-nav-playbook = Ловнок кода совамс теицятнень юткс ды лездамс
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Келесь те мезе Common Voice-сэ?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Кода совавтомс кель?
 
 ## How does localization work
 
+about-playbook-how-localize = Кода сайтэнь локализациясь тееви?
+about-playbook-how-localize-content-5 = Ванык видеонок, паряк лезды чарькодемс
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Кода поладан валрисьметь?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = Соцмедия
 
 ## How to validate
 
+about-playbook-how-validate = Мезень коряс содави вайгельсёрмадксось кемекстамс -- а кемекстамс?
 
 ## How to access dataset
 
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Кода проектэнь коряс ве мельс самот теевить?
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Шкинезь прев
 mycroft-description = Mycroft -- масторлангонь васенце вайгель марто лездыця, конань панжадо кодозо. Mycroft важоди эрьва косо -- компьюторсо, автомобильсэ или Raspberry Pi-сэ.
@@ -984,18 +1003,51 @@ see-less = <chevron></chevron>Неемс седе аламо
 
 ## HEADER/FOOTER
 
+sc-header-home = Ушодома тарка
+sc-header-how-to = Кода
+sc-header-add = Поладомс
+sc-header-review = Ванномс
+sc-header-rejected = Кардазь валрисьметь
+sc-header-my = Эсень валрисьметне
+sc-header-statistics = Статистикась
+sc-header-profile = Профил
+sc-footer-translate = Ютавтык те лопанть
+sc-footer-cookies = Нумолонь кшить
+sc-login-signup-button = Совамс/Шкак совамо тарка
+sc-logout-button = Лисемс
 
 ## HOME
 
+sc-home-collect-title = Пурнак валрисьметь
+sc-home-review-title = Ваннок валрисьметь
 
 ## HOW-TO
 
+sc-howto-title = Кода
+sc-howto-addlang-title = Важодевкс келень поладома
+sc-howto-addsen-title = Поладт од валрисьметь
+sc-howto-cite-title = Кода теемс цитат
+sc-howto-review-title = Ванномс валрисьметь
+sc-howto-review-subtitle = Явт мель: валрисьменть ёнксонзо улест вадрят:
 sc-howto-review-criteria-1 = Валрисьменть валонзо эрявить сёрмадомс видестэ.
 sc-howto-review-criteria-2 = Валрисьмесэнть иляст уле грамматикань ильведевкст.
 sc-howto-review-criteria-3 = Валрисьмесь ёвтавикс улезэ.
+sc-howto-review-criteria-4 = Валрисьмесь топавтындерясынзе неть вешематнень, лепштыка «Кемекстамс» повненть.
+sc-howto-review-criteria-5 = А топавтындерясынзе валрисьмесь вере максозь вешематнень, лепштыка «ёртомс» повненть. Бути а содат мезе теемс, маштови ютамс вакска ды саемс сыця валрисьменть.
+sc-howto-findpd-subtitle = Вешнек инеалтымасто
 
 ## MY SENTENCES
 
+sc-my-title = Эсень валрисьметне
+sc-my-no-sentences = Вейкеяк валрисьме арась!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Совавтома: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Лисьмапря
+sc-my-delete = Нардамс кочказь валрисьметнень
+sc-my-deleting = Кочказь валрисьметнень нардамост моли...
 sc-my-err-failed-delete = Кочказь валрисьметне эзть нардаво… Варчака одов!
 
 ## REJECTED
@@ -1003,15 +1055,54 @@ sc-my-err-failed-delete = Кочказь валрисьметне эзть на�
 
 ## STATS
 
+sc-stats-title = Статистикась
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Меельце одкстомомась: { $lastUpdate }
+sc-stats-last-update-never = Меельце одкстомомась: зярдояк арасель
+sc-stats-updating = Одкстомомась моли...
 
 ## ADD
 
+sc-submit-err-select-lang = Кочкака кель.
+sc-submit-err-add-sentences = Поладт валрисьметь.
+sc-submit-err-add-source = Поладт лисьмапря, косто саезь.
+sc-submit-err-confirm-pd = Кемекстытя валрисьметнень весенень панжадо улемаст.
+sc-submit-prompt =
+    .message = Валрисьметне апак совавто, алкукс арсят лисемс тевтнень апак прядо?
+sc-submit-title = Поладомс валрисьметь
+sc-submit-select-language =
+    .labelText = Кочкамс кель
+sc-submit-add-sentences = Поладомс <wikipediaLink>весенень панжадо лисьмапрясто</wikipediaLink> валрисьметь
+sc-submit-ph-one-per-line =
+    .placeholder = Ве валрисьме чильксэзэнзэ/рядозонзо
+sc-submit-ph-read-how-to =
+    .placeholder = А чарькодиндерят кода мезе теемс -- ловныка минек «Кода» лопанть
+sc-submit-button =
+    .submitText = Совавтомс
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Келесь эзь поладово
+sc-add-lang-sec-label = Поладт кель, конаньс бажат лездамс
+sc-add-lang-sec-button = Поладомс кель
+sc-add-err-submission = Совавтомасо ильведевкс
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Ванномс од валрисьметнень
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Вейкеяк валрисьме эзь муеве.
+        [one] 1 валрисьме муевсь.
+       *[other] { $countOfSentences } валрисьметь муевсть.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } эзик кемекста
+sc-confirm-button-text = Кемекстамс
 
 ## LANGUAGE INFO
 
