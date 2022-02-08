@@ -504,6 +504,7 @@ about-playbook-how-add-language = Кода совавтомс кель?
 ## How does localization work
 
 about-playbook-how-localize = Кода сайтэнь локализациясь тееви?
+about-playbook-how-localize-content-4 = Сайтэсь анок нолдамс, зярдо сёрмакоцтонть-текстэнть ютавтомазо пачкоди 75% видьс.
 about-playbook-how-localize-content-5 = Ванык видеонок, паряк лезды чарькодемс
 
 ## How to add sentences
@@ -1015,12 +1016,14 @@ sc-header-my = Эсень валрисьметне
 sc-header-statistics = Статистикась
 sc-header-profile = Профил
 sc-footer-translate = Ютавтык те лопанть
+sc-footer-terms = Терминт
 sc-footer-cookies = Нумолонь кшить
 sc-login-signup-button = Совамс/Шкак совамо тарка
 sc-logout-button = Лисемс
 
 ## HOME
 
+sc-home-title = Инеськеть, сак седе малас, вана Common Voice-нь валрисьмень пурнамкась
 sc-home-collect-title = Пурнак валрисьметь
 sc-home-review-title = Ваннок валрисьметь
 
