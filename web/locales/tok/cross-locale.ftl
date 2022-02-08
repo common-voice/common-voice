@@ -3,6 +3,9 @@
 contribute = o pana e pona
 get-involved-button = o kama, o pali
 get-involved-title = o pana tawa { $lang }
+get-involved-text =
+    sina pona tan ni: sina wile pali lon toki { $lang }. mi pali suli e ni: toki ale li ken kama lon ilo.
+    mi pana e sona sin tawa kulupu jan pi toki ni. sina wile pali la, o pana e nimi pi poki lipu sina lon anpa.
 get-involved-form-title = o kama jo e sona sin pi toki { $lang }
 get-involved-email =
     .label = nimi pi poki lipu sina
