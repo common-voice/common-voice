@@ -564,6 +564,7 @@ splits = Ужашлымаш
 email-to-download = Вераҥдашлан электрон почто адресым пурто
 size-gigabyte = ГБ
 size-megabyte = МБ
+download-language = { $language } йылмым тулен налаш
 validated-hours = Тергыме шагат
 recorded-hours = Возымо шагат
 subscribe = Возалташ
@@ -582,6 +583,7 @@ download-title = Тыйын вераҥдымаш тӱҥалын.
 download-form-email =
     .label = Шке электрон почто адресетым пурто
     .value = Тау, ме кылыште лийына.
+download-back = Common Voice датасетыш пӧртылаш
 download-no = Уке, тау
 
 ## Contact Modal
@@ -603,6 +605,7 @@ other-language = Вес йылме
 
 ## Languages Overview
 
+language-section-in-progress = Ончыко кайымаште
 language-section-launched = Колтымо
 languages-show-more = Шукырак ужаш
 languages-show-less = Шагалрак ужаш
@@ -638,6 +641,7 @@ clips-uploaded = Вераҥдыме клип-влак
 record-abort-submit = Клип-влакым колташ
 record-abort-continue = Возымым мучашлаш
 record-abort-delete = Лекташ да клип-влакым кораҥдаш
+speak-empty-state-cta = Ойлончо-влакым надырлаш
 record-button-label = Шке йӱкетым возо
 target-segment-add-voice = Шке йӱкетым ешаре
 target-segment-learn-more = Шукырак тунемаш
@@ -688,6 +692,8 @@ stats = Иктешлымаш
 awards = Суаптар
 you = Тый
 everyone = Кеч-могай
+recorded-clips = Возымо клип-влак
+validated-clips = Тергыме клип-влак
 
 ## Custom Goals
 
