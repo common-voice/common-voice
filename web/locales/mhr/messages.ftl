@@ -189,6 +189,7 @@ speak = Кутыраш
 speak-now = Кызыт кутыро
 datasets = Датасет-влак
 languages = Йылме-влак
+about = Проект нерген
 profile = Профиль
 help = Полыш
 contact = Вашкыл
@@ -389,7 +390,7 @@ login-identity = Пурашлан идентификатор
 login-signup = Системыш пуро / Регистрацийым эрте
 edit = Редактироватлаш
 email-subscriptions = Электрон почтылан возалтмаш
-download-profile = Мыйын данныйым вераҥде
+download-profile = Мыйын данныйым вераҥдыза
 contribution-experience = Шке пашатым акле
 skip-submission-feedback = Пашам аклымашым коден каяш
 skip-submission-description = "Колташ" полдышым темдалме деч вара пашам аклымаш коден каялтеш. 5 возымаш але колыштмаш деч вара тый надырым умбакыже пуртеден шоген кертат.
@@ -447,6 +448,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Молан Common Voice?
+how-does-it-work-title-v2 = Кузе Common Voice пашам ышта?
 
 ## How does it work section
 
@@ -536,6 +538,7 @@ data-download-button = Common Voice данныйым тулен налаш
 data-download-yes = Туге
 data-download-deny = Уке
 data-download-license = Лицензий: <licenseLink>CC-0</licenseLink>
+data-other-download = Данныйым вераҥдымаш
 release-version = Версий
 dataset-date = Кече
 license = Лицензий: <licenseLink>{ $license }</licenseLink>
