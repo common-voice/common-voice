@@ -193,6 +193,13 @@ profile-form-language =
     .label = toki
 profile-form-accent =
     .label = nasin kalama toki
+profile-form-custom-accent-help-text =
+    .label = nasin kalama pi toki sina li seme?
+profile-form-custom-accent-placeholder-2 = o pana e sona pi nasin kalama sina
+profile-form-age =
+    .label = tenpo sike pi lon sina
+leaderboard-visibility =
+    .label = sina lon ala lon lipu pi jan pali suli?
 hidden = len
 visible = len ala
 native-language =
@@ -213,13 +220,15 @@ settings = nasin ilo
 edit-profile = o ante e lipu sina
 profile-create-success = pona, sina pali e lipu!
 profile-close = o pini
+thanks-for-account = sina pona e lipu sina. ni la o pali e lipu sina
 why-demographic = ni li suli tan seme?
 accept-privacy = ni li pona: sina jo e sona mi, kepeken nasin tan <privacyLink>nasin sona</privacyLink> pi kulupu Mozilla
 accept-privacy-title = nasin sona pi ilo ni
 login-identity = nimi lon sina
 login-signup = o kama / o pali e lipu sin
 edit = o ante
-download-profile = o kama jo e sona mi
+email-subscriptions = lipu wile pi poki lipu sina
+download-profile = o kama jo e sona mi e kalama mi
 off = ala
 on = wile
 help-accent = sina wile ala wile e pona tawa nasin kalama toki?
@@ -235,6 +244,8 @@ max-file-size = suli ken li suli KB { $kb }
 
 ## Profile - Email
 
+manage-subscriptions = o ante e wile pi lipu kama
+manage-email-subscriptions = o ante e wile pi lipu kama tawa poki lipu sina
 add-language = o pana e toki sin
 
 ## FAQ
@@ -243,7 +254,10 @@ faq-title = wile sona tan jan mute
 faq-what-cv-q = ilo Common Voice li seme?
 faq-why-important-q = ni li suli tan seme?
 faq-how-get-q = nasin seme la mi kama jo e sona pi ilo Common Voice?
+faq-when-release2-q = tenpo seme la sona pi ilo Common Voice li lon toki ante?
+faq-why-mission-q = kulupu Mozilla li pali e ilo Common Voice tan seme?
 faq-what-cv-and-deepspeech-q = ilo Common Voice en ilo Deep Speech la ante li seme?
+faq-is-goal-assistant-q = pali Common Voice la sina wile pali e ilo pali kute anu seme?
 faq-do-want-native-q = toki ni li toki mama mi ala. sina wile ala wile e toki uta mi?
 faq-why-different-speakers-q = tan seme la sina wile e jan toki mute?
 faq-why-my-lang-q = tan seme la toki mi li lon ala?
@@ -266,9 +280,11 @@ how-does-it-work-title-v2 = ilo Common Voice li pali kepeken nasin seme?
 
 about-language-req-subtitle = jan li wile e toki lon ilo ni.
 about-localization-title = ante toki lipu
+about-sentence-collection-title = kama jo pi toki sitelen
 about-new-lang-title = pana pi toki sin
 about-voice-contrib-title = pana pi toki uta
 about-voice-validation-title = kute pi toki uta
+about-dataset-release-title = pana pi kulupu kalama
 about-subscribe-text = sina wile ala wile sona e ijo sin tan ilo Common Voice?
 about-speak = o toki
 about-listen-queue = kulupu kute
@@ -277,6 +293,7 @@ about-is-it-valid = kalama awen li pona ala pona?
 about-is-it-valid-text = jan li pana e pona tawa kalama awen la, ona li pona.
 about-yes-votes = pona tan jan 2
 about-no-votes = pona ala tan jan 2
+about-dataset-new = kulupu sona Common Voice
 about-clip-graveyard = kalama awen weka
 about-clip-graveyard-text = lipu pi kalama weka li jo e kalama awen. kalama awen li ike lon lipu ni, li pana ala tawa kulupu kalama pi ilo Common Voice. sina ken kama jo e kalama weka.
 about-partners = jan poka, kulupu poka
@@ -301,6 +318,7 @@ about-playbook-how-add-language = nasin seme la mi ken pana e toki sin?
 
 ## How does localization work
 
+about-playbook-how-localize = nasin seme la jan li ante toki e lipu?
 about-playbook-how-localize-content-4 = lipu li pini 75% la, lipu li ken open.
 about-playbook-how-localize-content-5 = sina wile e pona la, o lukin e sitelen tawa ni
 
@@ -310,6 +328,9 @@ about-playbook-how-add-sentences = nasin seme la mi ken pana e sitelen?
 
 ## How to record quality
 
+about-playbook-how-record-quality = nasin seme la mi ken kalama pona?
+about-playbook-how-record-content-2 = o kalama ala e ijo ante. mi wile kute pona e sina.
+about-playbook-how-record-content-3 = o toki sama sitelen. o weka ala, o ante ala, o pana ala e nimi sin.
 
 ## How to grow language
 
