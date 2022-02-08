@@ -1,6 +1,6 @@
 .localization-select {
     position: relative;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif; /* stylelint-disable-line font-family-name-quotes */
 
     &::before {
         content: '';

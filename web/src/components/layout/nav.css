@@ -7,7 +7,6 @@ header {
     align-items: center;
     height: var(--header-height);
     box-sizing: border-box;
-    z-index: var(--top-z-index);
     transition: background-color var(--transition-duration) linear,
         box-shadow var(--transition-duration) linear;
     padding: var(--page-margin);
@@ -145,7 +144,7 @@ header {
     }
 
     & .divider {
-        padding: 0px;
+        padding: 0;
         margin: 1.5px 0;
         border-inline-end: 1px solid var(--darker-grey);
         border-top: 1px solid var(--darker-grey);

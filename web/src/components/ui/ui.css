@@ -228,7 +228,7 @@ button.card-action:focus.focus-visible path {
 
         &:disabled {
             color: var(--warm-grey);
-            cursor:  not-allowed;
+            cursor: not-allowed;
         }
     }
 

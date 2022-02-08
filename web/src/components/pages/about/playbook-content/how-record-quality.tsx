@@ -4,10 +4,8 @@ import { LocaleNavLink } from '../../../locale-helpers';
 import URLS from '../../../../urls';
 
 const HowRecordQuality = React.memo(() => {
-  const strong = <strong />;
-
   return (
-    <div className="record-quality-content">
+    <>
       <div>
         <Localized id="about-playbook-how-record-content-1">
           <p />
@@ -29,9 +27,10 @@ const HowRecordQuality = React.memo(() => {
           <p />
         </Localized>
       </div>
-      <img src={require('../images/playbook-group-illustration.jpg')} />
-    </div>
+    </>
   );
 });
+
+HowRecordQuality.displayName = 'HowRecordQuality';
 
 export default HowRecordQuality;

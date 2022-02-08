@@ -36,9 +36,9 @@ ba = Башҡорт
 bas = Басаса
 be = Беларусса
 bg = Болгарса
-bm = Бамбараса
 bn = Бенгалса
 br = Бретонса
+bs = Босния
 bxr = Бүрәтсә
 ca = Каталанса
 cak = Какчикелсә
@@ -67,6 +67,7 @@ fy-NL = Фризса
 ga-IE = Ирландса
 gl = Галисийса
 gn = Гуараниса
+gom = Конкани(Гоа)
 ha = Хауса
 he = Йәһүдсә
 hi = Һиндиса
@@ -78,6 +79,7 @@ hy-AM = Әрмәнсә
 hyw = Көнбайыш әрмәнсә
 ia = Интерлингва
 id = Индонезийса
+ig = Игбо
 is = Исландса
 it = Итальянса
 izh = Ижорса
@@ -86,7 +88,9 @@ ka = Грузинса
 kaa = Ҡараҡалпаҡса
 kab = Ҡабилсә
 kbd = Ҡабарҙыса
+ki = Кикуйю
 kk = Ҡаҙаҡса
+km = Кхмер
 kmr = Төньяҡ ҡурдса
 ko = Корейса
 kpv = Коми-зырянса
@@ -112,6 +116,7 @@ my = Бирмаса
 myv = Эрзянса
 nb-NO = Норвежсса(Боҡмал)
 ne-NP = Непалса
+nia = Ниас
 nl = Голландса
 nn-NO = Норвежса (Нюнорск)
 oc = Окситанса
@@ -121,6 +126,7 @@ pap-AW = Папьяменто
 pl = Полякса
 ps = Пахту
 pt = Португалса
+quc = Киче
 rm-sursilv = Романш Сурсельвса
 rm-vallader = Романш Валладырса
 ro = Румынса
@@ -143,6 +149,7 @@ ta = Тамилса
 te = Телугу
 tg = Таджикса
 th = Тайса
+tk = Төркмән
 tl = Тагалог
 tr = Төрөксә
 tt = Татарса
@@ -280,6 +287,9 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Яҙҙырыу/Туҡтатыу
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Тауышты яңынан яҙҙырыу
+shortcut-discard-ongoing-recording = ESC
+shortcut-submit = Enter
+shortcut-submit-label = Яҙыуҙы ебәрергә
 request-language-text = Әлегә үҙегеҙҙең телегеҙҙе Common Voice-та күрмәйһегеҙме?
 request-language-text-learn = Бында уны нисек һоратып алырға, белешегеҙ!
 request-language-button = Телде һорарға
@@ -306,6 +316,8 @@ profile-form-native-language =
     .label = Туған тел
 profile-form-additional-language =
     .label = Өҫтәлмә тел
+profile-form-language =
+    .label = Тел
 profile-form-accent =
     .label = Акцент
 profile-form-age =
@@ -429,12 +441,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Ни өсөн Common Voice?
-about-subtitle = Common Voice — Mozillaның машиналарҙы кеше кеүек һөйләшергә өйрәтеү инициативаларының береһе. Был йыйынтыҡтан тыш, беҙ  Deep Speech исемле асыҡ кодлы телмәр таныу системаһы өҫтәндә эшләйбеҙ, .
-about-header-description =
-    Был ике проект та цифрлы телмәрҙәге бушлыҡты тулыландырыу буйынса эштәребеҙҙең береһе булып тора. Телмәрҙе аңлау технологиялары беҙ ҡулланған ҡорамалдарға кешесә йөҙ бирә, әммә уның өсөн программистарға бик күп тауыш яҙмалары кәрәк. Ә әлеге ваҡытта был төр йыйынтыҡтар үтә лә ҡиммәт.
-    Ә беҙ инде был тауыш яҙмаларының ирекле, һәр кем өсөн асыҡ булыуын, йыйынтыҡтарҙа ысынбарлыҡтағы кешеләрҙең төрлөлөгөн күрһәтергә теләйбеҙ. Бергәләп, беҙ телмәр таныу технологияһын һәр кем яҡшыраҡ итә алабыҙ.
-how-does-it-work-title = Был нисек эшләй?
 how-does-it-work-text = Беҙ асыҡ аудиояҙма йыйынтығын төҙөйбөҙ. Тауышығыҙ менән ярҙам итегеҙ, башҡаларҙыҡын тикшерегеҙ, был йыйнтыҡты бөтәһе өсөн дә яҡшыртығыҙ.
+
+## How does it work section
+
 about-speak = Һөйләү
 about-speak-text = Ҡатнашыусылар ярҙам йөҙөнән йыйылған һөйләмдәрҙе уҡып, тауыш яҙмалары яҙҙыралар.
 about-listen-queue = Тыңлау сираты
@@ -462,6 +472,34 @@ about-nav-why-common-voice = Ни өсөн?
 about-nav-how-it-works = Нисек?
 about-nav-partners = Партнерҙар
 about-nav-get-involved = Ҡатнашыу
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Яһалма интеллект
 mycroft-description =
@@ -883,4 +921,57 @@ demo-dashboard-card-header = Шәхси мәғлүмәт панелдәре ай
 demo-dashboard-card-body = Һеҙ иғәнә иткән һәр бер тауыш, һәр тикшернән аудиояҙмағыҙ иҫәп яҙмағыҙ панелендә яңыртылып торасаҡ, һеҙ үҙ өлөшөгөҙҙө индергән һәр телдәге үҫешегеҙҙе сағылдырасаҡ. Эйе, һеҙ бер нисә телгә үҙ өлөшөгөҙҙө индерә алаһығыҙ.  Статистикағыҙҙы күҙәтеп барыр, иптәштәрегеҙ менән бергә нисек эшләүегеҙҙе күрер, көндәлек, аҙналыҡ маҡсаттарығыҙҙың  үтәлеүен ҡарар өсөн мәғлүмәт панелен ҡулланығыҙ.
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 

@@ -1,5 +1,5 @@
 .criteria #content {
-    border-top: 1px solid var(--light-grey)
+    border-top: 1px solid var(--light-grey);
 }
 
 .contribution-criteria {
@@ -10,7 +10,6 @@
 
     h1 {
         font-size: var(--font-size-xxl);
-        margin-bottom: 1rem;
         margin-bottom: 2rem;
     }
 
