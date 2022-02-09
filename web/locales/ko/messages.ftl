@@ -532,15 +532,32 @@ about-playbook-what-is-language-content-2 = 우리는 음성 모델이 다양한
 
 ## How do I add a language
 
+about-playbook-how-add-language = 언어는 어떻게 추가합니까?
+about-playbook-how-add-language-content-1 = 먼저, 사용하는 언어가 <languageLink>이미 존재하는지</languageLink> 확인하십시오. 그렇지 않은 경우 <strong>사이트를 번역하고 문장을 수집</strong>해야 합니다.
+about-playbook-how-add-language-content-2 = <strong>사이트를 번역하려면</strong> - <pontoonLink>Pontoon</pontoonLink>에서 <translateVideo>설정</translateVideo>을 받으세요. Pontoon에는 많은 언어가 있지만 언어가 없는 경우 <pontoonRequestLink>요청</pontoonRequestLink>할 수 있습니다. 그런 다음 <repoLink>GitHub</repoLink>을 통해 Common Voice 프로젝트를 해당 언어로 사용할 수 있도록 요청하세요. <localizationFragment>사이트 번역</localizationFragment>에 대해 자세히 알아보세요.
+about-playbook-how-add-language-content-3 = <strong>문장 수집하기</strong> - <scLink>문장 수집기</scLink>에서 <scVideo>설정</scVideo>을 선택하세요.
+about-playbook-how-add-language-content-4 = 여기에서 <scLinkAdd>작은 수의 문장을 추가</scLinkAdd>하거나 Github 요청을 통해 <bulkImportDocsLink>대량 가져오기</bulkImportDocsLink>를 수행할 수 있습니다. 문장은 <licenseLink>CC0(또는 공개 도메인)</licenseLink>이거나 직접 작성할 수 있음을 기억하세요. <scFragment>문장 모음</scFragment>에 대해 자세히 알아보십시오.
 
 ## How does localization work
 
+about-playbook-how-localize = 사이트 지역화는 어떻게 작동합니까?
+about-playbook-how-localize-content-1 = Common Voice 사이트의 번역은 <strong>Pontoon</strong>에서 이루어집니다.
+about-playbook-how-localize-content-2 = 계정이 없다면 <pontoonAccountLink>계정을 만드십시오</pontoonAccountLink>. 그런 다음 언어<strong>('팀')</strong>를 선택한 다음 <pontoonCvLink>Common Voice</pontoonCvLink> 프로젝트를 선택합니다. 번역할 파일이 있을 것입니다. 하나를 클릭하면 영어로 된 단어와 번역할 상자가 표시됩니다.
+about-playbook-how-localize-content-3 = 번역은 영어이지만 다른 언어로 <strong>제안</strong>을 볼 수 있습니다. <strong>프로필</strong> 아이콘을 클릭한 다음 <strong>설정</strong> 링크를 클릭하고 사용하는 언어를 추가합니다. 오른쪽 하단에 <strong>로케일</strong>이라는 번역 목록이 있습니다. 번역은 하루 후에 사이트에 표시됩니다.
+about-playbook-how-localize-content-4 = 사이트가 75% 완료되면 시작할 준비가 된 것입니다.
+about-playbook-how-localize-content-5 = 도움이 되는 비디오 설명을 시청하세요.
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = 문장은 어떻게 추가하나요?
+about-playbook-how-add-sentences-content-1 = <strong>문장 수집기</strong>는 공개 도메인 문장을 수집하고 검증하기 위한 도구입니다. <scAccountLink>계정을 만들어야 합니다</scAccountLink>. 그런 다음 <strong>프로필</strong>에 언어를 추가하세요. 문장을 <strong>추가</strong>하거나 이전에 추가한 문장을 <strong>검토</strong>할 수 있습니다.
+about-playbook-how-add-sentences-content-2 = Common Voice에 포함되려면 두 사람이 문장을 검토하고 수락해야 합니다. <languageGuidelinesLink>여기</languageGuidelinesLink>에서 귀하의 언어에 대한 지침을 만들 수 있습니다. 문장은 <licenseLink>공개</licenseLink>에 있어야 하며 15단어 미만이어야 합니다. 텍스트 소유자에게 <waiverLink>포기 절차를 사용하여 CC0</waiverLink>으로 만들고 commonvoice@mozilla.com으로 보내달라고 요청할 수 있습니다.
+about-playbook-how-add-sentences-content-3 = <scraperLink>문장 추출기</scraperLink>를 사용하여 Wikipedia의 짧은 문장을 활용할 수 있습니다.
+about-playbook-how-add-sentences-content-4 = 검증된 문장은 수요일에 내보내지며 다음 출시 이후에 사용할 수 있습니다.
 
 ## How to record quality
 
+about-playbook-how-record-quality = 고품질 음성 클립을 녹음하려면 어떻게 합니까?
 
 ## How to grow language
 
