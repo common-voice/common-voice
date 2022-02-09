@@ -318,8 +318,13 @@ profile-form-native-language =
     .label = lugha ya asili
 profile-form-additional-language =
     .label = Lugha ya ziada
+profile-form-language =
+    .label = Lugha
 profile-form-accent =
     .label = Lafudhi
+profile-form-custom-accent-help-text =
+    .label = Je, unaweza kuelezeaje lafudhi yako?
+profile-form-custom-accent-placeholder-2 = Anza kuandika ili kuelezea lafudhi yako
 profile-form-age =
     .label = Umri
 profile-form-gender-2 =
@@ -330,6 +335,7 @@ hidden = Imefichwa
 visible = inayoonekana
 native-language =
     .label = Lugha asili
+profile-form-add-accent = Ongeza lafudhi mpya maalum "{ $inputValue }"
 profile-form-submit-save = Hifadhi
 profile-form-submit-saved = Imehifadhiwa
 male = mwanaume
@@ -363,6 +369,7 @@ skip-submission-description = Wakati wa mchango, uwasilishaji wa maoni utarukwa 
 skip-submission-note = Kumbuka: Bado utahitaji kuchagua kati ya kuzungumza au kusikiliza ili ubadilishe aina ya uchangiaji.
 off = zima
 on = washa
+help-accent = Je, unahitaji usaidizi kuhusu lafudhi?
 
 ## Profile - Email
 
