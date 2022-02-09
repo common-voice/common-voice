@@ -137,6 +137,7 @@ sc = Kisadinia
 scn = Kisisilia
 si = Kisinhala
 sk = Kislovakia
+skr = Kisaraiki
 sl = Kislovenia
 so = Kisomali
 sq = Kialbania
@@ -148,6 +149,9 @@ ta = Kitamili
 te = Kitelugu
 tg = Kitajiki
 th = Kithai
+ti = Kitigirinya
+tig = Kitiga
+tk = Kiturumeni
 tl = Kitagalogi
 tr = Kituruki
 tt = Kitatari
@@ -196,6 +200,7 @@ logout = Toka
 ## Home Page
 
 home-title = Common Voice ni hatua ya Mozilla ya kusaidia kufunza mashine jinsi watu huzungumza.
+default-tagline = Mozilla Common Voice ni mradi wa kusaidia kufundisha mashine jinsi watu wanavyozungumza.
 home-cta = Zungumza, changia hapa!
 wall-of-text-start = Sauti ni asili na ni ya kibinadamu. Kwa sababu hiyo, tunavutiwa na kuunda teknolojia ya sauti itakayotumika na mashine zetu. Ili kuunda mifumo ya sauti, kiwango kikubwa sana cha data ya sauti kinahitajika.
 wall-of-text-more-mobile = Asilimia kubwa ya data inayotumika na makampuni makubwa haifikiki kwa urahisi na asilimia kubwa ya watu. Tunadhania kuwa hili ni pingamizi kwa uvumbuzi. Alimradi, tumeanzisha mradi wa Common Voice ili kusaidia kufanya (teknolojia ya) utambuzi wa sauti uwe wazi kwa watu wote.
@@ -455,6 +460,15 @@ how-does-it-work-text = Tunachangisha chanzo wazi la daftari la sauti. Toa sauti
 
 ## How does it work section
 
+about-localization-title = Ujanibishaji wa Tovuti
+about-sentence-collection-title = Mkusanyiko wa sentensi
+about-sentence-collection-subtitle = Sentensi hukusanywa ili watu wasome kwa sauti.
+about-new-lang-title = Uzinduzi wa Lugha Mpya
+about-new-lang-subtitle = Tunazindua tovuti ya Common Voice katika lugha hii.
+about-voice-contrib-title = Mchango wa Sauti
+about-voice-contrib-subtitle = Watu wanakuja na kuchangia sauti zao.
+about-voice-validation-title = Uthibitishaji wa Sauti
+about-dataset-release-title = Toleo la hifadhi data
 about-speak = Zungumza
 about-speak-text = Wachangiaji hurekodi vipande vya sauti kwa kusoma kutoka kwa benki ya sentensi zilizotolewa.
 about-listen-queue = Foleni ya kusikiliza
