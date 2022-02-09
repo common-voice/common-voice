@@ -871,13 +871,21 @@ download-request-metadata-link = Ойлончо текст
 
 ## Landing
 
+welcome-staff = { $company } пашаеҥ-влак дене саламлалтына!
+help-contribute = Common Voice-ышто профильым ыштен да шке йӱкетым надырлен, тый почмо тӱҥалтыш код дене тӱрлӧ датасетым ышташ полшен кертат.
+login-company = Пураш / { $company } электрон почто дене регистрацийым эрташ
+profile-not-required = Шке надырым пурташлан профиль лиймаш кӱлешанжак огыл, туге гынат, тиде пайдале, молан, ӱлнӧ ончо.
+read-more-about = «Мемнан нерген» велыжыште шукырак луд
 
 ## DemoLayout
 
+demo-get-started = Тӱҥалына мо?
 demo-welcome = Common Voice-ыш пагален ӱжына
+demo-welcome-subheader = Шукырак пален налнет да проектыш шке надыретым пуртынет?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice — тӱнямбалне чылалан кучылташ лийше ик эн кугу йӱк данный пого.
 card-button-next = Весе
 card-button-back = Шеҥгек
 demo-language-select-label = Йылме-влакым ончымаш
