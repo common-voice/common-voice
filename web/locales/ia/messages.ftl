@@ -145,6 +145,7 @@ scn = Siciliano
 shi = Shilha
 si = Sinhala
 sk = Slovaco
+skr = Saraiki
 sl = Sloveno
 so = Somalo
 sq = Albanese
@@ -160,6 +161,7 @@ ti = Tigrinya
 tig = Tigre
 tk = turkmeno
 tl = Tagalog
+tok = Toki Pona
 tr = Turco
 tt = Tataro
 tw = Twi
@@ -1226,10 +1228,6 @@ sc-rejected-none-found = Nulle phrases rejectate trovate!
 ## STATS
 
 sc-stats-title = Statistica
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Ultime actualisation: { $lastUpdate }
-sc-stats-last-update-never = Ultime actualisation: nunquam
 sc-stats-updating = Actualisation...
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
@@ -1322,6 +1320,8 @@ sc-confirm-uploading = Phrases va esser cargate. Isto pote prender plure minutas
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Total
+sc-lang-info-title-personal = Personal
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
