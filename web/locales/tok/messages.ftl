@@ -431,20 +431,26 @@ data-other-ted-name = kulupu sona TED-LIUM
 data-other-ted-description = kulupu sona TED-LIUM li pali tan toki kalama pi lipu TED, tan toki sitelen pi lipu TED.
 data-other-voxforge-description = ilo VoxForge li pali tawa ni: ona li kulupu e toki sitelen, kepeken ilo suli pona, kepeken ilo pi sona toki.
 data-other-tatoeba-description = kulupu sona Tatoeba li kulupu sitelen, li kulupu pi ante toki, li kulupu toki. ona li jo e toki Inli tan kulupu Tatoeba.
+your-feedback = sina sona e nasin pona pi kulupu kalama Common Voice la, o toki lon ilo Discourse
 go-discourse = o tawa lipu toki
 go-languages-page = o tawa lipu toki
 ready-to-validate = sina wile ala wile pona e kalama awen?
 more = o mute
 close = o pini
 download = o kama jo
+dataset-version = nanpa
 
 ## Download Modal
 
 download-title = kama jo sina li open
+download-form-email =
+    .label = o pana e nimi pi poki lipu sina
+    .value = sina pona. mi toki tawa sina.
 download-no = mi wile ala e ni
 
 ## Contact Modal
 
+contact-title = lipu toki
 contact-form-name =
     .label = nimi
 contact-form-message =
@@ -469,6 +475,8 @@ languages-show-less = o lukin lili
 language-total-progress = ale
 language-search-input =
     .placeholder = o alasa
+language-speakers = jan toki
+localized = ante toki
 sentences = sitelen
 
 ## Contribution
@@ -478,6 +486,7 @@ action-tap = o pilin
 contribute = o pona
 listen = o kute
 skip = o weka
+shortcuts = nena pali
 clips-with-count-pluralized =
     { $count ->
        *[other] kalama awen
@@ -489,6 +498,7 @@ contribute-more =
 record-cta = o open e awen kalama
 record-platform-not-supported = ilo sina li ken ala kepeken ilo Common Voice
 record-platform-not-supported-desktop = lon ilo sona supa la, sina ken pana tan kama jo pi …
+record-platform-not-supported-ios-non-safari = o kepeken ilo Safari lon ilo iOS la, ilo li ken kute e sina…
 record-must-allow-microphone = o wile e ken pi ilo kute sina.
 record-no-mic-found = ilo kute li lon ala
 record-error-too-short = kalama awen li lili mute la, ona li pakala.
@@ -645,6 +655,16 @@ demo-listen-subtitle = sina wile ala wile pana?
 
 ## Validation criteria
 
+contribution-criteria-page-title = nasin pona pi pana toki
+contribution-for-example = o lukin
+contribution-misreadings-title = pakala kalama
+contribution-misreadings-description-extended-list-4 = sina pini e kute ilo la, toki sina li weka.
+contribution-misreadings-description-extended-list-5 = sina toki e nimi lon tenpo mute.
+contribution-misreadings-example-1-title = mi la soweli ni li suwi.
+contribution-misreadings-example-2-title = soweli ni li suwi.
+contribution-misreadings-example-2-explanation = [o weka e nimi "mi la", e nimi "a"]
+contribution-misreadings-example-3-title = mi la soweli ni li suw-.
+contribution-varying-pronunciations-title = nasin pi kalama toki ante
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
