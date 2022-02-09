@@ -572,6 +572,7 @@ terms-agree = Мый келшем
 terms-disagree = Мый ом келше
 review-aborted = Вераҥдымашым кӱрлмӧ. Тый шке возыметым кораҥдынет?
 review-submit-title = Ончалаш да колташ
+review-submit-msg = Возыметлан тау!<lineBreak></lineBreak> Ынде шке клип-влакетым ончен лек да ӱлнӧ колто.
 review-recording = Ончен лекмаш
 review-rerecord = Угычын возымаш
 review-cancel = Колтымым чараш
@@ -584,13 +585,16 @@ language = Йылме
 # File size in gigabytes
 size = Кугыт
 validated-hr-total = Чыла чынлыме шагат
+overall-hr-total = Чыла чумыр шагат
 cv-license = Лицензий
 audio-format = Аудиоформат
 number-of-voices = Йӱк-влак чот
 splits = Ужашлымаш
 email-to-download = Вераҥдашлан электрон почто адресым пурто
+confirm-size = Мый <b>{ $size }</b> тулен налмым тӱҥалаш ямде улат
 size-gigabyte = ГБ
 size-megabyte = МБ
+confirm-no-identify = Тый Common Voice датасетыште ойлышо-влакын кӧ улмыштым пален налаш тӧчыдымӧ дене келшет.
 download-language = { $language } йылмым тулен налаш
 validated-hours = Тергыме шагат
 recorded-hours = Возымо шагат
@@ -663,8 +667,14 @@ clips-with-count-pluralized =
         [one] клип
        *[other] клип
     }
+contribute-more =
+    { $count ->
+        [one] Эше { $count } ышташ ямде улат?
+       *[other] Эше { $count } ышташ ямде улат?
+    }
 record-cta = Возаш тӱҥалаш
 record-platform-not-supported = Чаманыман, кызытсе жапыште тыйын платформо огеш кучылталт.
+record-platform-not-supported-desktop = Десктоп арверлаште шке надыретым пурташ манын, тидым тулен нал…
 record-platform-not-supported-ios-non-safari = iOS-ыште возымашым чӱкташлан Safari-ыште пашам шуйо.
 record-must-allow-microphone = Тый микрофоным кучылтын кертмым улат.
 record-no-mic-found = Микрофоным мумо огыл.
@@ -760,6 +770,7 @@ awards = Суаптар
 you = Тый
 everyone = Кеч-могай
 contribution-activity = Пуртымо надыр
+top-contributors = Ончылъеҥ-влак
 recorded-clips = Возымо клип-влак
 validated-clips = Тергыме клип-влак
 total-approved = Чыла чынлыме
@@ -912,6 +923,10 @@ demo-listen-subtitle = Надырлаш ямде улат?
 ## Validation criteria
 
 contribution-criteria-nav = Висык
+contribution-criteria-link = Надырлыме висыкым умылен налаш
+contribution-criteria-page-title = Надырлыме висык
+contribution-for-example = мутлан
+contribution-misreadings-title = Чын огыл лудмаш
 see-more = <chevron></chevron>Шукырак ужаш
 see-less = <chevron></chevron>Шагалрак ужаш
 
