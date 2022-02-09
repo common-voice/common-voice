@@ -519,20 +519,30 @@ about-playbook-how-validate = Йӱкан клипым чынлаш але уке
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Кузе датасетым налаш да кучылташ лиеш?
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = Шолыплык, лӱдыкшыдымылык да вошткоймаш.
+about-playbook-how-project-governance-content-5 = Кӱлешлык да пагалымаш.
+about-playbook-how-project-governance-content-6 = Ваш-ваш мутым кучымаш.
+about-playbook-how-project-governance-content-7 = <governanceLink>Кузе ме виктарена, шукырак пален нал</governanceLink>
 mycroft-title = Mycroft Ai
 
 ## Glossary
 
 glossary = Глоссарий
 localization = Локализаций
+localization-explanation = Тиде шуко кундемлан (йылмылан) мемнан контентым кусарымаш да келыштарымаш пашана.
 sentence-collection = Ойлончо-влак пого
+sentence-collection-explanation = Чылалан кучылташ лийше ойлончо-влакым погымаш але уым возымаш.
+hours-recorded-explanation = Кызытсе татлан мемнан погымо йӱкым возымо шагат чот.
 sst = Ойлымым текстыш савырымаш (ОТС)
+sst-explanation = Ойлымым текстыш савырыше технологий-влак (ОТС) йӱк данныйым текстыш савырат.
 
 ## Error pages
 
+error-title-404 = Ме тылат тиде велыжым муын кертын огынал
 error-code = Йоҥылыш { $code }
 
 ## Data
