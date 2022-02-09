@@ -661,6 +661,7 @@ clips-with-count-pluralized =
        *[other] клип
     }
 record-cta = Возаш тӱҥалаш
+record-platform-not-supported = Чаманыман, кызытсе жапыште тыйын платформо огеш кучылталт.
 record-no-mic-found = Микрофоным мумо огыл.
 record-error-too-short = Возымо утыжден кӱчык ыле.
 record-error-too-long = Возымо утыжден кужу ыле.
