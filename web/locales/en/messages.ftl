@@ -1214,11 +1214,8 @@ sc-rejected-none-found = No rejected sentences found!
 
 ## STATS
 sc-stats-title = Statistics
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Last Update: { $lastUpdate }
-sc-stats-last-update-never = Last Update: never
 sc-stats-updating = Updating…
+sc-stats-error = We could not fetch the stats. Please try again later.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1306,6 +1303,8 @@ sc-confirm-button-text = Confirm
 sc-confirm-uploading = Sentences are being uploaded. This can take several minutes depending on the number of sentences added. Please do not close this website.
 
 ## LANGUAGE INFO
+sc-lang-info-title-total = Total
+sc-lang-info-title-personal = Personal
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
