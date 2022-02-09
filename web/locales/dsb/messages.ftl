@@ -145,6 +145,7 @@ scn = Sicilianišćina
 shi = Tašelhitšćina
 si = Singalezišćina
 sk = Słowakšćina
+skr = Saraiki
 sl = Słowjeńšćina
 so = Somališćina
 sq = Albanšćina
@@ -160,6 +161,7 @@ ti = Tigrinja
 tig = Tigre
 tk = Turkmeńšćina
 tl = Tagalog
+tok = Toki Pona
 tr = Turkojšćina
 tt = Tataršćina
 tw = Twi
@@ -1182,10 +1184,6 @@ sc-rejected-none-found = Žedne wótpokazane sady namakane!
 ## STATS
 
 sc-stats-title = Statistika
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Slědna aktualizacija: { $lastUpdate }
-sc-stats-last-update-never = Slědna aktualizacija: nigdy
 sc-stats-updating = Aktualizěrujo se…
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
@@ -1284,6 +1282,8 @@ sc-confirm-uploading = Sady se nagrawaju. To móžo někotare minuty traś, wót
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Dogromady
+sc-lang-info-title-personal = Wósobinski
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
