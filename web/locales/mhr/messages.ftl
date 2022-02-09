@@ -505,6 +505,8 @@ about-playbook-how-add-sentences = Кузе мыланем ойлончо-вла
 
 about-playbook-how-record-quality = Кузе сай йӱкан клипым возаш?
 about-playbook-how-record-content-2 = Фонан йӱк-йӱан утыжден шуко лийшаш огыл — тыйын йӱкет сайын шоктышаш.
+about-playbook-how-record-content-3 = Ойлончым мучаш марте тӱткын лудын лек — мут-влакым коден ит кай, ит вашталте да ит ешаркале.
+about-playbook-how-record-content-5 = <accuracyLink>Чынлык висык нерген шукырак луд.</accuracyLink>
 
 ## How to grow language
 
@@ -513,6 +515,7 @@ about-playbook-how-grow-language-content-4 = Социал медиа
 
 ## How to validate
 
+about-playbook-how-validate = Йӱкан клипым чынлаш але уке, кузе пален налаш?
 
 ## How to access dataset
 
