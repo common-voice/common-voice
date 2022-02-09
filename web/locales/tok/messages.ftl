@@ -411,11 +411,17 @@ how-does-it-work-title-v2 = ilo Common Voice li pali kepeken nasin seme?
 
 about-language-req-subtitle = jan li wile e toki lon ilo ni.
 about-localization-title = ante toki lipu
+about-localization-subtitle = jan li ante toki e lipu ni tawa toki ante.
 about-sentence-collection-title = kama jo pi toki sitelen
+about-sentence-collection-subtitle = jan li kama jo e sitelen la, jan li toki uta e ona.
 about-new-lang-title = pana pi toki sin
+about-new-lang-subtitle = mi pana e ilo Common Voice pi toki ni.
 about-voice-contrib-title = pana pi toki uta
+about-voice-contrib-subtitle = jan li kama li pana e toki uta ona.
 about-voice-validation-title = kute pi toki uta
+about-voice-validation-subtitle = jan ante li kute e ona li toki e pona ona.
 about-dataset-release-title = pana pi kulupu kalama
+about-dataset-release-subtitle = tenpo mun 3 li pini la, mi pana sin e kulupu kalama.
 about-subscribe-text = sina wile ala wile sona e ijo sin tan ilo Common Voice?
 about-speak = o toki
 about-listen-queue = kulupu kute
