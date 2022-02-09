@@ -652,6 +652,7 @@ A el que lle pasa?
 A el tamén o coñeces?
 A el tanto lle tiña como tanto lle daba que os lugares fosen bonitos
 A el, aquel contacto parecíalle agradábel.
+A ela agardábaa unha vida sen preocupacións en tódolos aspectos.
 A ela atopámola e nin a buscabamos.
 A ela non, pero a min si.
 A ela, degradouna do seu rango e despoxouna de todas as súas posesións.
@@ -1131,6 +1132,7 @@ A nosa obriga é manter vivo o noso catálogo de sempre.
 A nosa pesada, malfadada andaina proseguiu.
 A nosa quenda para a vacina, cando é?
 A nosa resposta foi:
+A nosa viaxe de bodas farémola no coche ó Sur.
 A nosa vida está neste mundo.
 A nova chegoulle por sorpresa o propio sábado.
 A nova xeración é tan má coma a vella.
@@ -1451,6 +1453,7 @@ A sopa está lista.
 A sorte do fillo de familia, cadaleito prematuro cuberto de límpidas bágoas.
 A sucesión defírese, en todo ou en parte
 A sucursal aparecerá daquela no voso pensamento, o que é en realidade:
+A suor xuntábaselle na testa, as pernas levábano mecanicamente cara a adiante.
 A supresión do horario reducido
 A síntese de proteínas realízase en dous pasos: a transcrición e a tradución
 A súa Maxestade está satisfeita.
@@ -2231,6 +2234,7 @@ Agora vostede vive en Santiago.
 Agora vou marchar.
 Agora vouno desfrutar.
 Agora xa foi, Marica non chores!
+Agora xa lle podes devolver tódolos cartos que che prestou.
 Agora xa non comen, non.
 Agora xa non poderei morrer.
 Agora xa non ten volta atrás.
@@ -3696,6 +3700,7 @@ Axiña chegará o mozo co carro.
 Axiña comprendín o que desexaba.
 Axiña estivo todo o mundo ledo, todos abdicaron do mal xenio.
 Axiña redactei e enviei o anuncio.
+Axiña se cotizaron as súas obras en tódalas bolsas importantes de arte do mundo.
 Axiña se ergue outro, e di:
 Axiña todo se pon a andar;
 Axiña, a virxe enfaixada ergueuse e penetrou baixo a terra, cos dentes descubertos.
@@ -6485,6 +6490,7 @@ Deixa de facer trasnadas
 Deixa de mover o bate.
 Deixa en paz o teu irmán.
 Deixa en paz ós pobres rapaces.
+Deixa medra-lo pelo e non te afeites por nada do mundo.
 Deixa o neno.
 Deixa que a esperanza pereza, abandona no deserto a miña alegría, avancemos en coiros.
 Deixa que che bote un ollo ao outro lado do vagón.
@@ -6704,6 +6710,7 @@ Desaparecera aquel punto no peito.
 Desapareceu unha noite.
 Desbloquea o dezasete-A
 Descanso para ir ao baño.
+Descargou toda a furia no balón que lle apareceu diante dos pes.
 Descende o paro nos Quince
 Desconcertados por este desastre, abandonaron a aventura pola tarde.
 Desconectaches as liñas de transmisión?
@@ -6719,6 +6726,7 @@ Desculpen. Perdón.
 Descúlpenme mentres vou buscar á muller da casa.
 Descúlpenme un intre.
 Desde Seixo Branco vese a torre de Hércules.
+Desde alí enriba o panorama era unha gozada.
 Desde aí ves ben se ela vén?
 Desde ben cediño traballaba todo o día
 Desde cando es capaz de facelo?
@@ -6741,6 +6749,7 @@ Desde que el chegara á casa non gozaba dun minuto de paz;
 Desde que gabea xa non rouba.
 Desde que rompe as normas establecidas do xogo.
 Desde que te coñezo, non deixas de darme sorpresas
+Desde un principio valoraba as relacións claras, esperaba que ela o entendese.
 Desde xa, non esperes a mañá
 Desdéixanse no mesmo que nós nos desdeixamos.
 Dese xeito condenábaos a viviren coma proscritos, a mendigaren polos camiños.
@@ -7143,6 +7152,7 @@ Direicho de camiño.
 Dirixinme ao meu cuarto.
 Dirixir e representar a sociedade.
 Dirixiuse cara á porta con pasos diminutos, e abriuna.
+Dirixía a mirada cara ó reloxio.
 Dirás como queiras pero ese parece que ten unha leira en Toledo!
 Dirás que non lembras oír nada ó respecto −corrixiume−, pero sabíalo.
 Diría máis:
@@ -7584,6 +7594,7 @@ Déronnos un permiso
 Día de festa.
 Día de peche
 Día e noite, téñolle desexado o mal a ese empregado.
+Día tras día Miguel identificábase máis co seu novo mundo.
 Dígalles que poñan os espectrómetros no faiado e os calibren para raios gamma.
 Dígalles que se deteñan.
 Dígame o que é iso da ikebana.
@@ -7920,6 +7931,7 @@ E con ese sal cofei a carne, para conservala.
 E con este convencemento en mente, non podo evitar temelo e odialo.
 E con isto estariamos abrindo a posibilidade do aburrimento máis absoluto.
 E con quen falamos disto?
+E con todo isto un caso perdido.
 E concédeme o privilexio dun vello amigo de ir visitala de cando en vez?
 E conduciu aquela visita serodia ao seu consultorio mentres abaneaba a cabeza.
 E confiáronlle a vostede a investigación deste caso?
@@ -8200,6 +8212,7 @@ E iso que a Branca sempre a distinguín dos demais permitíndolle liberdades ext
 E iso que este é moi diferente ó alcaide de San Quintín.
 E iso que o outro fulano está igual de tolo...
 E iso que os dous, dixo ó cabo, remataban en cola de réptil.
+E iso que xa o lera no periódico con tódolos detalles.
 E iso tamén me chamou a atención.
 E iso é o destino cumprido.
 E iso é só o comezo.
@@ -9040,8 +9053,11 @@ Ela axeónllase nas lousas marróns.
 Ela aínda era fermosa e quente.
 Ela chamábao o "resplandor".
 Ela chiou, defendeuse, mordeume, rabuñoume coas unllas coma unha gata brava.
+Ela comprendeu.
+Ela críao.
 Ela detéstame.
 Ela deu un tiro na testa.
+Ela entendeu.
 Ela era Sar, a deusa do millo.
 Ela era fiel.
 Ela era moi nova e a súa cara era inocente e loura.
@@ -9059,6 +9075,7 @@ Ela negou coa cabeza.
 Ela non era dada a falar moito sobre ningún tema;
 Ela non lles tiña medo.
 Ela non é Olga.
+Ela prometeuno.
 Ela pódea traer.
 Ela pódenos axudar?
 Ela quedou na casa do monte Palatino.
@@ -9069,6 +9086,7 @@ Ela respondeu: temerá vostede logo que aquí lle chame meu pai?
 Ela respondeulle con arrogancia que o asunto non podía esperar.
 Ela respondeunas todas de maneira franca e satisfactoria, para eliminar calquera asomo de dúbida.
 Ela sabía o que quería. E tamén o que non quería.
+Ela sabíao.
 Ela seguía sentada, quieta.
 Ela si que sabe.
 Ela sinalou a guillotina cun xesto de significado arrepiante.
@@ -9583,6 +9601,7 @@ Entón non se moleste vostede en alcanzalas.
 Entón o da música xa está, a decoración, o vestiario.
 Entón o vello, temendo os golpes, respondeulle cun fío de voz:
 Entón oíuse a voz, moi tranquila:
+Entón pechamos tódalas fiestras e quedamos todo o día no dormitorio.
 Entón pedín inmediatamente permiso para adiantar as vacacións e partir sen demora.
 Entón preguntoume se quería tomar té ou café.
 Entón quéresme? —preguntou, apertándome fervente a man.
@@ -9795,6 +9814,7 @@ Era un sorriso estrañamente forzado.
 Era un vello da vila que levaba moitos meses encamado
 Era unha auténtica beleza −si, unha beleza consonte calquera canon do mundo.
 Era unha barcaza de lixo infeccioso.
+Era unha boa idea.
 Era unha broma!
 Era unha carta do seu compañeiro de billar.
 Era unha cidade mol, onde se festexaba ás cortesás no templo de Afrodita Hetera.
@@ -9820,6 +9840,7 @@ Era unha tose penosa.
 Era unha trampa.
 Era unha vaca que vivira moito.
 Era unha vivenda grande, pero cun aire vetusto, erixida á moda de outrora.
+Era vello demais para ela, pero rico demais para desfacerse del lixeiramente.
 Era verán, e el xacía espido, deitado riba da manta.
 Era verán, si que era verán
 Era viúva... que si, antes fun ben seria, e non nacín para facerme esqueleto!
@@ -9948,6 +9969,7 @@ Esa foi malísima.
 Esa gran cabeza parva non pode conter ningunha outra idea.
 Esa idea parte do descoñecemento.
 Esa idea volve darlle folgos.
+Esa irreprochabilidade só é cuestión de tempo, sabes.
 Esa mesma noite, durmín na casa dunha curmá.
 Esa noite case non durmo co susto
 Esa noite, a calor que ía na cidade quentou aínda máis os ánimos.
@@ -10105,6 +10127,7 @@ Eses nenos perecerán.
 Eses pequenos profetas farán vacilar o edificio da vosa Igrexa.
 Eses seis teñen baixo eles seiscentos, ós que corrompen tanto coma corromperon o tirano.
 Eses seiscentos teñen baixo a súa dependencia seis mil que educan na dignidade.
+Eses sesenta minutos de latín non lle servirían absolutamente para nada.
 Eses son asuntos de xustiza común
 Eses son os principais núcleos montañosos
 Eses só veñen aquí a levarse
@@ -10463,6 +10486,7 @@ Este ano non vou ir esquiar
 Este ano os xenerais da Ulla non van botar os Vivas!
 Este ano tamén
 Este ano vindes vós á nosa casa.
+Este asunto apartouno polo momento do posto de director xeral, como se pode comprender.
 Este aviso deberá aparecer en lugar visible xunto coa información orixinal.
 Este cativo ten sede. Hai que darlle de beber.
 Este cativo...
@@ -11460,6 +11484,7 @@ Falta moito para chegar?
 Falta o seu traxe e tamén a furgoneta.
 Falta que os empresarios da zona se predispoñan cara a internacionalización.
 Falta unha das pezas destas castañolas
+Faltaba pouco.
 Faltaban algunhas tellas.
 Faltan programas nos medios, campañas de alfabetización dixital.
 Faltoulle un chisquiño de efecto.
@@ -12409,6 +12434,7 @@ Hai tamén un grupo de cinco aldeas fermosamente espalladas polos outeiros
 Hai tan poucas diversións que non sexas pecaminosas!
 Hai tanto tempo que saímos.
 Hai tantos letrados como persoas acolle a nosa pequena abadía de Westminster.
+Hai tempo que me falta unha muller coma ti.
 Hai tempo que sabe vivir carretando a dor no seu colo...
 Hai tempo que todo isto me ten desganado…
 Hai tres minutos de desconto.
@@ -12779,6 +12805,7 @@ Incluído o meu.
 Inclínao para abaixo, mais cara un lado.
 Inclínome e espreito a cara da vella.
 Incomodábame e berráballe: «Sol, sol, sol, señorita é un sol.»
+Incompatibilidade de caracteres.
 Inconscientemente fixou a vista no cura
 Incorporación de débedas a sistemas de información crediticia.
 Incorporáronse ó seu séquito mulleres.
@@ -14813,6 +14840,7 @@ Nervioso? Por que?
 Nesa casa déitanse coas pitas!
 Nesa realidade, nunca desapareceu.
 Nesa época estabamos saíndo.
+Nese aspecto podes estar tranquila.
 Nese caso, "serei o primeiro en estar".
 Nese estado de debilidade, eu sabía –coma el– que eses dez días acabarían comigo...
 Nese instante el recobrou a capacidade de se mover; ergueuse e ollou o exterior.
@@ -15032,6 +15060,7 @@ No corpo político, o goberno é o medio e a felicidade pública o fin.
 No cotarelo que había ó leste, xuntáronse os indios armando un tremendo rebulicio.
 No céspede están só as sombras das nosas almas.
 No derradeiro intre atacaría a destro e sinistro...
+No divorcio a muller serviuse de tódolos truques, desde logo, para comprometelo.
 No do lado, o da dereita.
 No día de terror, a miña carne será nova.
 No encabezamento da carta puña: «Reservado».
@@ -15171,6 +15200,7 @@ Non caio máis!
 Non cala nin debaixo da auga
 Non cambia para nada".
 Non cambies nada dos últimos cinco anos.
+Non casou con ela.
 Non caïamos da burra nin á quinta que o explicou
 Non chamará, pensa que está aquí.
 Non chamedes a atención.
@@ -16885,6 +16915,7 @@ Nos seus textos chama a atención a meticulosidade, a corrección e a pulcritude
 Nos sitios importantes, a falta de espírito ten tódolos efectos da perversidade do corazón.
 Nos sólidos, as ondas mecánicas poden ter diversas formas
 Nos telediarios sae Rodrigo Rato cos últimos exemplares da pela, asinados e todo.
+Nos vinte anos de matrimonio, os últimos quince xa non funcionaban.
 Nos últimos meses tense falado abondo da economía de Ferrol e da súa área...
 Nosa, fálame sempre!
 Nota do señor cura párroco
@@ -19139,6 +19170,7 @@ Os mesmos ollos, igualiños.
 Os meus amigos compraron un coche novo
 Os meus amigos están aí arriba.
 Os meus días están contados, mais a cerna de meu é indestrutible.
+Os meus fillos fan a súa propia vida no seu propio piso.
 Os meus fillos foron a única cousa que fixen na vida.
 Os meus lanzadores de teas de araña.
 Os meus pais non eran ricos.
@@ -19567,6 +19599,7 @@ Para decidir a cuestión, votouse, e o elixido foi Ulises.
 Para desfacerse dela, bocexou sen parar.
 Para dicir todo, teño un rival...
 Para divertirse e procrear.
+Para el non existe a idade.
 Para el? Todo o que precise.
 Para ela non existían nin regras nin convencións.
 Para eles é unha verdadeira ofensa verme aquí escribindo estas poucas palabras.
@@ -20708,6 +20741,7 @@ Pompeia ofrecía soa o sacrificio.
 Pon a ferver a lume morno catro litros de auga fría.
 Pon a roupa a asollar
 Pon as fabas a amolecer antes de cociñalas.
+Pon cara de inaccesible e murmura palabras sen sentido.
 Pon o taboleiro mirando coa casa branca á túa dereita
 Pon os debuxos animados
 Pon os pratos no vertedoiro e pásalles unha auga
@@ -22172,6 +22206,7 @@ Residencia Vicente.
 Resistencia xeral e específica.
 Resistirán.
 Respectamos o ámbito da economía privada.
+Respira profundamente o aire fresco, inadvertido da primavera.
 Respira!
 Respiración artificial? Moi ben!
 Responda a isto
@@ -22813,6 +22848,7 @@ Sempre os houbo.
 Sempre penso na demostración que me fixo o facultativo no Instituto de Medicina Legal.
 Sempre que che pido axuda disme que non
 Sempre que se encontraba só, debuxaba gatos.
+Sempre quixen o mellor para todos, pódesme crer.
 Sempre repites o mesmo e nunca son quen de entendelo.
 Sempre saïamos tarde por culpa dela
 Sempre se pode deixar o coche no garaxe da casa e patear as rúas.
@@ -22970,6 +23006,7 @@ Sevilla
 Sexa como for, eu xa cumprín advertindo desta circunstancia.
 Sexa tan amable de agardar aquí unha folga —apuntou a nena—.
 Sexo, drogas e rock and roll
+Sexualmente séntese aínda moi activo e rapidamente excitable, como ela pode comprobar.
 Señor Gart. Por suposto!
 Señor Mario? Pode oírme?
 Señor alcalde, teño que falar con vostede.
@@ -23343,6 +23380,7 @@ Son temas moi fáciles de escoitar e que nos achegan o ambiente sudamericano.
 Son testemuña deste conto os moitos lugares do mar chamados "Paso da vaca".
 Son tolo por el.
 Son totalmente inocentes.
+Son un caso perdido.
 Son un científico e un filósofo.
 Son un completo traidor.
 Son un empregado normal con base de carbono, igual ca ti, Norma.
@@ -23374,6 +23412,7 @@ Soou como unha risa teatral.
 Soou rebelde e teimudo.
 Sopra forte, pero continuo.
 Sor María da Consolación non esperaba aquilo.
+Sorbía con gozo o café negro, sen leite, con moito azucre.
 Sorpréndeme ben!
 Sorpréndeme que non poña o chapeu e saia coas señoritas.
 Sorriu con dificultade.
@@ -23455,6 +23494,7 @@ Supuxeron que só a vida dos grandes homes podía interesarnos.
 Supón que Xulia pode responderlle porque padeceu algo semellante e furga na súa dor.
 Supón unha axuda enorme tanto persoalmente como para a promoción e venda de discos.
 Suspensión da licenza para equipos de limpeza
+Suspiraba a nai, o pai ameazaba.
 Suspirou aliviado.
 Suspirou cun aquel de morriña, mesmo de culpabilidade.
 Suxeita a carteira entre os xeonllos e pon o abrigo.
@@ -23930,6 +23970,7 @@ Tes unha cita importante?
 Tes unha moto.
 Tes unha pila pequena e unha peza de goma para illar o cable? Separar?
 Tes unha vontade de ferro.
+Tesme que crer que o divorcio me deixou frío, non me importou nada.
 Tesouro
 Teste que esforzar máis
 Teu curmán non para de subir fotos íntimas a internet.
@@ -24066,6 +24107,7 @@ Ti marcha de volta.
 Ti mesma repetíchelo insistentemente.
 Ti móveste á velocidade do son, eu podo facer flotar un bolígrafo no aire.
 Ti no meu carro á misa non vés!
+Ti non es amiga de lavar, nin de traballos parecidos.
 Ti non es máis que unha morea xigantesca de carne.
 Ti non es o único que tes problemas.
 Ti non facía-los anos en decembro?
@@ -24390,6 +24432,7 @@ Toma, colle un!
 Tomaban forma de libros e eran arranxados en bibliotecas.
 Tomade dúas pesetas.
 Tomado dun himno sobre a morte de Dionisos.
+Tomar algo quente, si, antes de que chegase ese rapaz, faríalle ben, iso calmaríaa.
 Tomareinos nesa orde.
 Tomas do lugar dos feitos… —dixo.
 Tombádevos! −sentinlle dicir−.
@@ -24698,6 +24741,7 @@ Un día menos de vida ou un escudo máis, é todo un.
 Un día ou así.
 Un día que viña do Senado, aborrecido, ela deulle de beber.
 Un día saíu da casa e foi á tenda para mercar cola de carpinteiro.
+Un día volveu aparecer Márgara.
 Un eléctrodo é un condutor que fai contacto cunha parte non metálica dun circuíto
 Un escravo de nome Siro, que servira na area, amosoulle as cousas descoñecidas.
 Un escritorio.
@@ -24763,6 +24807,7 @@ Un murmurio propagouse por toda a sala.
 Un médico!
 Un novo paso adiante
 Un novo predicador e unha nova doutrina chegaron a Xerusalén.
+Un noxo subíalle de vagar pola parede das costelas.
 Un octoxenario, ferido grave ao saír da vía o vehículo que guiaba
 Un ollo no peixe e outro no gato
 Un olor peculiar.
@@ -24916,6 +24961,7 @@ Unha habitación chea de cadáveres.
 Unha hamburguesa.
 Unha historia ben coñecida, especialmente noutros deportes.
 Unha historia tan extraordinaria non pode fallar pra atraer a atención universal.
+Unha hora de pasantía pouco importaba con certeza.
 Unha igualdade estúpida, carente de máis valor que o do equilibro fotográfico.
 Unha impresión fonda marcouse claramente sobor da almofada e mailo colchón.
 Unha intensa cor vermella tinguiu a faciana da señora.
@@ -25881,6 +25927,7 @@ Xa veremos...
 Xa verán que divertida.
 Xa verás como ese volve aparecer por aquí…
 Xa verás como todo vai ir ben.
+Xa verás como vas enfeitiza-la xente.
 Xa verás.
 Xa ves, meu amigo;
 Xa vexo que non che prestou o que che dixen.
@@ -27320,6 +27367,7 @@ xogando decote con lume, tiña que queimarse
 ¿Canta auga queres?
 ¿Canta dose de realismo é precisa para derrubar os soños de xuventude?
 ¿Cartos, euríbor?
+¿Casas comigo?
 ¿Como afectará este cambio á economía española?
 ¿Como podía el saber...?
 ¿Como podía permitir eses pensamentos cando se dispoñía a facer a visita?
@@ -27337,6 +27385,7 @@ xogando decote con lume, tiña que queimarse
 ¿E o seu maior defecto?
 ¿E que hai que decidir?
 ¿E quen veñen á Mesa de Programación?
+¿E se agora non foses á pasantía?
 ¿E se ela ten a idea de volver un día antes á casa?
 ¿E teño que ser eu, precisamente eu, quen pague as consecuencias?
 ¿E ti cres que me fai caso?
@@ -27734,6 +27783,7 @@ xogando decote con lume, tiña que queimarse
 É man de santo, xa o verás...
 É marabilloso buscar motivos para celebrar?
 É mellor calar que con burros falar
+É mellor calar.
 É mellor dicírllelo canto antes para que non sufran tanto.
 É mellor que durma un pouco.
 É mellor que sexan todas rosas, si.
