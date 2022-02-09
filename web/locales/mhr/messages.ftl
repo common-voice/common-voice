@@ -927,6 +927,20 @@ contribution-criteria-link = Надырлыме висыкым умылен на
 contribution-criteria-page-title = Надырлыме висык
 contribution-for-example = мутлан
 contribution-misreadings-title = Чын огыл лудмаш
+contribution-misreadings-description-extended-list-5 = Мутым лудашлан икмыняр тӧчымаш.
+contribution-misreadings-example-3-explanation = [Пытартыш мут деч ончыч возымаш кӱрлеш]
+contribution-misreadings-example-4-explanation = [Кӱлеш текст деч шукырак возымо]
+contribution-misreadings-example-5-title = Ме кофем йӱаш каена.
+contribution-misreadings-example-6-title = Ме кофем йӱаш лектына.
+contribution-misreadings-example-6-explanation = [“Ме” лийшаш]
+contribution-misreadings-example-7-title = Ме кофем йӱаш ямдылалтына.
+contribution-misreadings-example-7-explanation = [Тӱҥалтыш текстыште "а" буква уке]
+contribution-misreadings-example-8-title = Ошымшӱлыш воктеч чымыктен кайыш.
+contribution-misreadings-example-8-explanation = [Келшен толдымо контент]
+contribution-varying-pronunciations-title = Тӱрлын ойлымаш
+contribution-background-noise-title = Фонан йӱк-йӱан
+contribution-background-voices-title = Фонан йӱк-йӱан
+contribution-volume-title = Кугыт
 see-more = <chevron></chevron>Шукырак ужаш
 see-less = <chevron></chevron>Шагалрак ужаш
 
@@ -937,12 +951,16 @@ see-less = <chevron></chevron>Шагалрак ужаш
 
 ## HEADER/FOOTER
 
+sc-header-add = Ешараш
 sc-header-review = Ончен лекмаш
 sc-header-rejected = Ӧрдыжтарыме ойлончо-влак
 sc-header-my = Ойлончо-влакем
 sc-header-statistics = Иктешлымаш
 sc-header-profile = Профиль
 sc-footer-discourse = Каҥашымаш
+sc-footer-report-bugs = Йоҥылыш нерген шижтараш
+sc-footer-translate = Тиде велыжым кусараш
+sc-footer-report-copyright = Авторлык правам пудыртымо нерген шижтараш
 sc-footer-privacy = Шолыплык
 sc-footer-terms = Келшык
 sc-footer-cookies = Куки
@@ -956,6 +974,7 @@ sc-home-review-title = Ойлончо-влакым ончен лек
 
 ## HOW-TO
 
+sc-howto-addlang-title = Пашалан йылме-влакым ешарымаш
 sc-howto-addsen-title = У ойлончо-влакым ешаркале
 sc-howto-review-title = Ойлончо-влакым ончен лек
 sc-howto-review-subtitle = Ойлончо нине висык-влаклан келшен толеш манын, ӱшане:
