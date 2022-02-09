@@ -250,6 +250,7 @@ male = مرد
 female = تریمت
 # Gender
 other = ٻیا
+avatar = اواتار
 settings = ترتیباں
 profile-close = بند کرو
 accept-privacy-title = رازداری پالیسی
