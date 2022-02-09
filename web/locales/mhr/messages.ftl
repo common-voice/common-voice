@@ -771,7 +771,29 @@ create-custom-goal = Кучылтмо шумлыкым ышташ
 goal-type = Могай шумлыкым тый ыштынет?
 both-speak-and-listen = Когынек
 both-speak-and-listen-long = Когынек (кутыраш да колышташ)
+daily-goal = Кечыш шумлык
+weekly-goal = Арняш шумлык
+easy-difficulty = Куштылго
+average-difficulty = Кокла
+difficult-difficulty = Неле
 pro-difficulty = Про
+lose-goal-progress-warning = Шумлыкым вашталтен, тый кызытсе ончыко кайымашым йомдарен кертат.
+want-to-continue = Тый умбакыже шуйынет?
+finish-editing = Ондак редактированийым мучашлаш?
+lose-changes-warning = Тый кызыт кает гын, чыла вашталтымашетым йомдарет
+build-custom-goal = Шке шумлыкетым ыште
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Шке шумлык ден { $language } йылме дене { $hours } шагатыш шуаш полшо
+       *[other] Шке шумлык ден { $language } йылме дене { $hours } шагатыш шуаш полшо
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Шке шумлык ден йылме дене { $hours } шагатым Common Voice-лан погаш полшо
+       *[other] Шке шумлык ден йылме дене { $hours } шагатым Common Voice-лан погаш полшо
+    }
+set-a-goal = Шумлыкым шындаш
+cant-decide = Ыштен от керт?
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] клип
