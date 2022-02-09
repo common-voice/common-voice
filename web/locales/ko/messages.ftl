@@ -467,10 +467,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 왜 Common Voice 인가요?
+how-does-it-work-title-v2 = Common Voice는 어떻게 작동합니까?
 how-does-it-work-text = 오픈 소스 음성 데이터 세트를 크라우드 소싱하고 있습니다. 목소리를 기부하고, 다른 사람의 클립의 정확성을 검증하고, 모든 사람에게 더 나은 데이터 세트를 만드세요.
 
 ## How does it work section
 
+about-language-req-subtitle = 누군가 언어 추가를 요청합니다.
+about-localization-title = 웹사이트 지역화
+about-localization-subtitle = 웹사이트 텍스트는 해당 언어로 번역됩니다.
+about-sentence-collection-title = 문장 모음
+about-sentence-collection-subtitle = 사람들이 소리 내어 읽을 수 있도록 문장을 수집합니다.
+about-new-lang-title = 새로운 언어 출시
+about-new-lang-subtitle = 이 언어로된 Common Voice 사이트를 시작합니다.
+about-voice-contrib-title = 음성 기여
+about-voice-contrib-subtitle = 사람들이 와서 목소리를 기여합니다.
+about-voice-validation-title = 음성 확인
+about-voice-validation-subtitle = 다른 사람들이 해당 음성 클립을 확인합니다.
+about-dataset-release-title = 데이터세트 출시
+about-dataset-release-subtitle = 3개월마다 데이터 세트를 출시합니다.
+about-subscribe-text = Common Voice와 계속 연락하시겠습니까?
 about-speak = 말하기
 about-speak-text = 참가가 미리 기여된 문장의 저장고에서 글을 읽고 음성 클립을 녹음합니다.
 about-listen-queue = 듣기 대기열
@@ -498,14 +513,22 @@ about-get-involved-text-2 =
     Common Voice를 더 좋게 만들고 싶으신가요?
     이메일 또는 <discourseLink>Discourse</discourseLink> 포럼을 통해 연락하세요.
     <githubLink>GitHub</githubLink>를 통해 사이트 문제를 제출하거나, <matrixLink>Matrix</matrixLink> 커뮤니티 채팅에 참여하세요.
+about-stay-in-touch = 어떻게 연락을 유지합니까?
+about-stay-in-touch-text-1 = Common Voice의 캠페인, 이벤트 및 공동 디자인 기능에 참여하는 방법을 알아보려면 메일링 목록에 <emailFragment>가입</emailFragment>하십시오.
+about-stay-in-touch-text-2 = 주제별 대화를 위해 <discourseLink>Discourse</discourseLink>에 가입하거나 빠른 조언을 위해 <matrixLink>Matrix</matrixLink>에 가입하면 Mozilla 언어 커뮤니티에서 다른 사람들을 만날 수 있습니다.
 about-nav-why-common-voice = 왜?
 about-nav-how-it-works = 어떻게?
 about-nav-partners = 파트너
 about-nav-get-involved = 참여하기
+about-nav-how-it-works-2 = Common Voice는 어떻게 작동합니까?
+about-nav-playbook = 참여 방법 알아보기
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice의 언어는 무엇입니까?
+about-playbook-what-is-language-content-1 = 언어에 대해 생각하는 방법에는 여러 가지가 있습니다. 음성 인식 모델의 목적을 위해 Common Voice는 '상호 명료성' 또는 '이 언어를 사용하는 사람들이 노력하면 대부분 서로를 이해할 수 있습니까?'에 중점을 둘 것을 제안합니다.
+about-playbook-what-is-language-content-2 = 우리는 음성 모델이 다양한 화자를 더 잘 이해하기를 바랍니다. 이를 위해서는 음성 데이터 세트가 다양한 사람들을 대표해야 합니다.
 
 ## How do I add a language
 
