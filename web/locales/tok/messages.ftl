@@ -23,25 +23,70 @@ not-available-abbreviation = ala
 
 ab = toki Asuwa
 ace = toki Ase
+ady = toki Adekasa
+af = toki Apikan
+am = toki Amalinja
+an = toki Alakone
 ar = toki Alapi
+arn = toki Maputunkun
+as = toki Okonja
+ast = toki Atujanu
 az = toki Asepajan
+ba = toki Pakosa
+bas = toki Pasawa
+be = toki Pijelalukaja
+bg = toki Pokasi
+bn = toki Panla
+br = toki Peson
 bs = toki Posan
+bxr = toki Pulijata
 ca = toki Catala
+cak = toki Kakisike
+ckb = toki Solani
+cnh = toki Laton
+co = toki Kosu
+cs = toki Seki
+cv = toki Sepasula
+cy = toki Kinla
 da = toki Tansi
 de = toki Tosi
+dsb = toki Tonosesuki
+dv = toki Tipeki
+el = toki Elena
 en = toki Inli
 eo = toki Epelanto
 es = toki Epanja
+et = toki Esi
+eu = toki Esukala
+fa = toki Pasi
+ff = toki Pula
 fi = toki Sumi
+fo = toki Pelisu
 fr = toki Kanse
+fy-NL = toki Puke
+ga-IE = toki Ele
+gl = toki Kaleku
+gn = toki Apanjeke
+gom = toki Konki
+ha = toki Awasa
 he = toki Iwisi
+hi = toki Insi
+hr = toki Lowasi
+hsb = toki Konkosepusina
+ht = toki Awisi
+hu = toki Mosijo
 hy-AM = toki Aja
 hyw = toki Aja Wesa
 ia = toki Intelinwa
+id = toki Intonesija
 ie = toki Intelinwe
 ig = toki Ipo
+is = toki Isilenka
 it = toki Italija
+izh = toki Inkelon
 ja = toki Nijon
+ka = toki Katuli
+kaa = toki Kalakapa
 ko = toki Anku, toki Soson
 mg = toki Malekasi
 mn = toki Monko
@@ -664,7 +709,16 @@ contribution-misreadings-example-1-title = mi la soweli ni li suwi.
 contribution-misreadings-example-2-title = soweli ni li suwi.
 contribution-misreadings-example-2-explanation = [o weka e nimi "mi la", e nimi "a"]
 contribution-misreadings-example-3-title = mi la soweli ni li suw-.
+contribution-misreadings-example-3-explanation = [ona li pini ala e toki. taso, kute li pini]
+contribution-misreadings-example-4-title = mi la soweli ni li suwi a. pona.
+contribution-misreadings-example-4-explanation = [ona li toki e nimi sin]
 contribution-varying-pronunciations-title = nasin pi kalama toki ante
+contribution-varying-pronunciations-example-2-title = mi ke<strong>pe</strong>ken ilo suli.
+contribution-varying-pronunciations-example-2-explanation = [nimi kepeken la kalama "ke" wan li wawa]
+contribution-background-noise-title = kalama pi ijo ante
+contribution-background-noise-example-2-explanation = [sina ken ala kute e nimi ale]
+contribution-background-voices-title = toki pi jan ante
+contribution-volume-title = wawa kalama
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -673,11 +727,20 @@ contribution-varying-pronunciations-title = nasin pi kalama toki ante
 
 ## HEADER/FOOTER
 
+sc-header-add = o pana
+sc-header-review = o pona
 sc-header-rejected = sitelen weka
 sc-header-my = sitelen mi
+sc-header-statistics = nanpa pali
 sc-header-profile = lipu jan
+sc-footer-discourse = ilo Discourse
+sc-footer-report-bugs = o toki e pakala
+sc-footer-translate = o ante toki e lipu ni
 sc-footer-privacy = sona len
+sc-footer-terms = nasin kepeken
+sc-footer-cookies = ilo pi sona lipu sina
 sc-login-signup-button = o kama / o pali e lipu sin
+sc-logout-button = o weka tan ilo
 
 ## HOME
 
@@ -699,6 +762,7 @@ sc-my-no-sentences = sitelen ala a li lon!
 
 ## STATS
 
+sc-stats-updating = ilo li kama sin…
 
 ## ADD
 
@@ -754,11 +818,14 @@ sc-review-select-language = o kepeken toki la, sina ken lukin e sitelen
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = sitelen li tan: { $sentenceSource }
 sc-review-form-button-reject = o weka
+sc-review-form-button-skip = o weka
 sc-review-form-button-approve = o pona
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = p
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = w
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = w
 sc-review-form-button-submit =
     .submitText = o pini e lukin
 sc-review-link = o lukin
@@ -767,6 +834,8 @@ sc-review-link = o lukin
 
 sc-settings-title = nasin ilo
 sc-settings-ui-language = toki pi ilo ni
+sc-validation-no-numbers = nanpa o lon ala toki ni
+sc-validation-no-symbols = sitelen nasa o lon ala toki ni
 
 # [/SentenceCollector]
 
