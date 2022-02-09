@@ -697,8 +697,9 @@ record-button-label = Шке йӱкетым возо
 share-title-new = Шукырак йӱкым муаш <bold>мыланна полшо</bold>
 keep-track-profile = Профильыште шке ончыко кайымашетым эскере
 login-to-get-started = Тӱҥалаш манын, пуро але регистрацийым эрте
-target-segment-first-card = Мемнан икымше шумлык ужашыш тый шке надырет пуртет
-target-segment-generic-card = Тый шумлык ужашыш шке надырет пуртет
+target-segment-first-card = Мемнан икымше шумлык ужашыш тый шке надыретым пуртет
+target-segment-generic-card = Тый шумлык ужашыш шке надыретым пуртет
+target-segment-first-banner = { $locale } йылмылан Common Voice-ышто икымше шумлык ужашым ышташ полшо
 target-segment-add-voice = Шке йӱкетым ешаре
 target-segment-learn-more = Шукырак тунемаш
 
@@ -706,9 +707,13 @@ target-segment-learn-more = Шукырак тунемаш
 
 report = Отчёт
 report-title = Отчётым колташ
+report-ask = Тиде ойлончо дене тыйын могай нелылык лектын?
 report-offensive-language = Шӱктарыме лексике
+report-offensive-language-detail = Ойлончышто пагалыдымаш але шӱктарымаш ой уло.
 report-grammar-or-spelling = Грамматике / орфографий шотышто йоҥылыш
+report-grammar-or-spelling-detail = Ойлончышто грамматике але орфографий шотышто йоҥылыш уло.
 report-different-language = Вес йылме
+report-different-language-detail = Тудо мыйын мутланыме йылме деч ойыртемалтше йылме дене возымо.
 report-difficult-pronounce = Пелештен керташ неле
 report-offensive-speech = Шӱктарен кутырымаш
 report-other-comment =
