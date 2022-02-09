@@ -998,7 +998,9 @@ sc-howto-review-criteria-2 = Ойлончо грамматике шотышто 
 sc-howto-review-criteria-3 = Ойлончо йӱкаҥден кертме лийшаш.
 sc-howto-review-criteria-4 = Ойлончо висыклан келшен толеш гын, «Чынлаш» манме полдышым темдал.
 sc-howto-review-criteria-6 = Тыйын ончашлан ойлончо пытен гын, порылий, мыланна шукырак ойлончым погаш полшо!
+sc-howto-findpd-title = Чылалан кучылташ лийше улшо ойлончо-влакым кычалмаш
 sc-howto-findpd-subtitle = Нуным интернетыште кычал
+sc-howto-findpd-tips = Ойлончым кычалашлан теве икмыняр каҥаш:
 
 ## MY SENTENCES
 
@@ -1007,10 +1009,14 @@ sc-my-loading = Ойлончо-влакетым вераҥдымаш…
 sc-my-err-fetching = Ойлончо-влакетым лукмо годым йоҥылыш лийын. Порылий, угыч тӧчен ончо.
 sc-my-no-sentences = Ойлончым мумо огыл!
 # Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Колтымаш: { $batchId }
+# Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Важ: { $source }
 sc-my-delete = Ойырымо ойлончо-влакым кораҥдаш
 sc-my-deleting = Ойырымо ойлончо-влакым кораҥдымаш…
+sc-my-err-failed-delete = Ойырымо ойлончо-влакым кораҥден кертме огыл… Тӧчымашым уэштаре!
 
 ## REJECTED
 
@@ -1021,9 +1027,14 @@ sc-rejected-none-found = Ӧрдыжтарыме ойлончым мумо огы
 ## STATS
 
 sc-stats-title = Иктешлымаш
+sc-stats-updating = Уэмдымаш…
+sc-stats-error = Ме иктешлымашым налын кертын огынал. Порылий, варарак тӧчымашым уэштаре!
 
 ## ADD
 
+sc-submit-err-select-lang = Йылмым ойыро.
+sc-submit-err-add-sentences = Порылий, ойлончо-влакым ешаре.
+sc-submit-err-add-source = Порылий, важым ешаре.
 sc-submit-prompt =
     .message = Ойлончо-влакым ончыктымо огыл, тый чынак кайынет?
 sc-submit-select-language =
