@@ -825,6 +825,8 @@ share-n-weekly-contribution-goal = { $type }лан кажне арнян { $coun
 share-goal-type-speak = Кутырышо
 share-goal-type-listen = Колыштмаш
 share-goal-type-both = Кутыраш да колышташ
+# LINK will be replaced with the current URL
+goal-share-text = Мый кызыт гына #CommonVoice-ышто йӱкым надырлаш шке шумлыкем ыштышым — мый декем ушно да еҥ-влак гай ойлаш машине-влакым туныкташ полшо { $link }
 weekly-goal-created = Кажне арнялан шумлыкет ышталтын
 daily-goal-created = Кежне кечылан шумлыкет ышталтын
 track-progress = Ончыко кайымашым тыште да шке иктешлымаш велыжыштет эскере.
