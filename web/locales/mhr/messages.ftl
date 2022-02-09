@@ -650,6 +650,7 @@ total-hours = Тергыме шагат
 
 ## Contribution
 
+action-click = Темдал
 action-tap = Темдал
 contribute = Надырлаш
 listen = Колышташ
