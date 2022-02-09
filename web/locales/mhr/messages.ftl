@@ -636,11 +636,13 @@ record-error-too-long = Возымо утыжден кужу ыле.
 record-error-too-quiet = Возымо утыжден шып ыле.
 record-cancel = Угычын возымым чараш
 record-three-more-instruction = Кумыт кодын!
+record-last-instruction = <playIcon></playIcon>Пытартыш!
 share-clip = Шке клип денет пайлалт
 clips-uploaded = Вераҥдыме клип-влак
 record-abort-submit = Клип-влакым колташ
 record-abort-continue = Возымым мучашлаш
 record-abort-delete = Лекташ да клип-влакым кораҥдаш
+listen-last-time-instruction = <playIcon></playIcon>Пытартыш!
 speak-empty-state-cta = Ойлончо-влакым надырлаш
 record-button-label = Шке йӱкетым возо
 target-segment-add-voice = Шке йӱкетым ешаре
@@ -697,6 +699,7 @@ validated-clips = Тергыме клип-влак
 
 ## Custom Goals
 
+pro-difficulty = Про
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] клип
@@ -737,6 +740,7 @@ download-requests = Ондакысе возымаш-влакым тулен на
 download-requests-info = Кунам тый шке возымаш-влакетым йодат, ме нуным ик але икмыняр ZIP-файлыш погена. Теве тыйын ондакысе йодмаш-влакет:
 download-request-button = Тулен налаш
 download-request-title = { $created }
+download-request-link-text = Zip №{ $offset } / { $total }
 
 ## Landing
 
@@ -767,6 +771,8 @@ demo-listen-subtitle = Надырлаш ямде улат?
 ## Validation criteria
 
 contribution-criteria-nav = Висык
+see-more = <chevron></chevron>Шукырак ужаш
+see-less = <chevron></chevron>Шагалрак ужаш
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
