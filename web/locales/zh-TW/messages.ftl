@@ -145,6 +145,7 @@ scn = 西西里語
 shi = 施盧赫語
 si = 僧加羅語
 sk = 斯洛伐克語
+skr = 沙賴基語
 sl = 斯洛維尼亞語
 so = 索馬利語
 sq = 阿爾巴尼亞語
@@ -160,6 +161,7 @@ ti = 提格利尼亞語
 tig = 提格雷語
 tk = 土庫曼語
 tl = 塔加祿語（菲律賓）
+tok = 道本語
 tr = 土耳其語
 tt = 韃靼語
 tw = 特威語 (西非)
@@ -1197,10 +1199,6 @@ sc-rejected-none-found = 找不到被拒絕的句子！
 ## STATS
 
 sc-stats-title = 統計資訊
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = 最後更新：{ $lastUpdate }
-sc-stats-last-update-never = 最後更新：從未
 sc-stats-updating = 更新中…
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
