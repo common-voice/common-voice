@@ -1200,6 +1200,7 @@ sc-rejected-none-found = 找不到被拒絕的句子！
 
 sc-stats-title = 統計資訊
 sc-stats-updating = 更新中…
+sc-stats-error = 無法取得統計資訊，請稍後再試。
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1286,6 +1287,8 @@ sc-confirm-uploading = 正在上傳語句，視句子數量而定可能需要花
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = 總計
+sc-lang-info-title-personal = 個人
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
