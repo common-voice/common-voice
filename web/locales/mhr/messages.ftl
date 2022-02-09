@@ -794,11 +794,34 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Шумлыкым шындаш
 cant-decide = Ыштен от керт?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } шагатым ышташ шукташ лиеш
+       *[other] { $totalHours } шагатым ышташ шукташ лиеш
+    }Кӱлешлык{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } тылзе, тидлан:
+       *[other] { $periodMonths } тылзе, тидлан:
+    }Кӱлешлык{ NUMBER($people) ->
+        [one] { $people } еҥ воза
+       *[other] { $people } еҥ воза
+    }Кӱлешлык{ NUMBER($clipsPerDay) ->
+        [one] кечыште { $clipsPerDay } клип
+       *[other] кечыште { $clipsPerDay } клип
+    }
+how-many-per-day = Пеш сай! Кечыште мыняр клип?
+how-many-a-week = Пеш сай! Арняште мыняр клип?
+which-goal-type = Тый ойлынет, колыштнет але когынек?
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] клип
        *[other] клип
     }
+confirm-goal = Шумлыкым чынлаш
+goal-interval-weekly = Кажне арнян
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $type }лан кажне кечын { $count } клип шумлыкет дене пайлалт
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type }лан кажне арнян { $count } клип шумлыкет дене пайлалт
 share-goal-type-speak = Кутырышо
 share-goal-type-listen = Колыштмаш
 share-goal-type-both = Кутыраш да колышташ
