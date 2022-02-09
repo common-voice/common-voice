@@ -1047,11 +1047,23 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = Кушечын нине <wikipediaLink>чылалан кучылташ лийше</wikipediaLink> ойлончо-влак?
 sc-submit-button =
     .submitText = Пуаш
+sc-submit-guidelines = Порылий, <howToLink>темлымаш</howToLink> дене палыме лий.
 
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Йылмым ешарен кертме огыл
+sc-add-lang-sec-label = Йылмым, кудын вийдарымашке шке надыретым пуртынет, ешаре
 sc-add-lang-sec-button = Йылмым ешараш
+sc-add-err-unexpected = Сервер деч вучыдымо вашмут пӧртылталтын
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Шотлан толдымо ойлончо уке
+        [one] 1 шотлан толдымо ойлончо
+       *[other] { $sentences } шотлан толдымо ойлончо
+    }
+sc-add-lang-process-notice = Тыште тыйын йылмет уке гын, тудым <languageProcessLink>тиде процесс гоч</languageProcessLink> йодын кертат.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1091,6 +1103,7 @@ sc-confirm-uploading = Ойлончо-влак вераҥдалтыт. Тиде,
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Чыла
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
