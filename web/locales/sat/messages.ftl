@@ -145,6 +145,7 @@ scn = ᱥᱤᱠᱤᱞᱤᱭᱟᱹᱱ
 shi = ᱥᱤᱞᱦᱟ
 si = ᱥᱤᱸᱦᱟᱞᱟ
 sk = ᱥᱞᱚᱣᱟᱠ
+skr = ᱥᱟᱹᱨᱟᱭᱠᱤ
 sl = ᱥᱞᱚᱵᱷᱮᱱᱤᱭᱟᱹᱱ
 so = ᱥᱳᱢᱟᱞᱤ
 sq = ᱚᱞᱵᱮᱱᱤᱭᱟᱱ
@@ -160,6 +161,7 @@ ti = ᱴᱤᱜᱽᱨᱤᱭᱟᱱᱟ
 tig = Tigre
 tk = ᱴᱩᱨᱠᱮᱢᱤᱱ
 tl = ᱛᱟᱜᱟᱞᱚᱜᱽ
+tok = ᱴᱚᱠᱤ ᱯᱚᱝᱜᱟ
 tr = ᱛᱩᱨᱠᱤᱥ
 tt = ᱛᱟᱛᱟᱨ
 tw = ᱴᱣᱤ
@@ -471,7 +473,9 @@ how-does-it-work-text = ᱟᱞᱮ ᱥᱟᱰᱮ ᱨᱮᱭᱟᱜ ᱠᱷᱩᱞᱟ�
 about-language-req-subtitle = ᱢᱤᱫᱢᱟᱹᱝ ᱯᱟᱹᱨᱥᱤ ᱥᱮᱞᱮᱫ ᱞᱟᱹᱜᱤᱫ ᱡᱟᱦᱟᱸᱭ ᱠᱚ ᱠᱩᱠᱞᱤ ᱠᱟᱱᱟ ᱠᱚ ᱾
 about-localization-title = ᱣᱮᱵᱽᱥᱟᱭᱤᱴ ᱛᱚᱨᱡᱚᱢᱟ
 about-sentence-collection-title = ᱟᱹᱭᱟᱹᱛ ᱛᱩᱢᱟᱹᱞ
+about-new-lang-title = ᱱᱟᱶᱟ ᱯᱟᱹᱨᱥᱤ ᱩᱪᱷᱟᱹᱱ
 about-voice-contrib-title = ᱥᱟᱲᱮ ᱮᱱᱮᱢ ᱠᱚ ᱫᱮᱠᱷᱟᱣ ᱢᱮ
+about-dataset-release-title = ᱰᱟᱴᱟᱥᱮᱴ ᱚᱰᱚᱠ
 about-speak = ᱨᱚᱲ ᱢᱮ
 about-speak-text = ᱮᱱᱮᱢᱤᱭᱟᱹ ᱫᱟᱱ ᱠᱟᱫ ᱟᱭᱢᱟ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱫᱚ ᱯᱟᱲᱦᱟᱣ ᱠᱟᱛᱮ ᱥᱟᱰᱮ ᱠᱞᱤᱯ ᱠᱚ ᱨᱮᱠᱚᱰᱼᱟ᱾
 about-listen-queue = ᱟᱧᱡᱚᱢᱼᱫᱷᱟᱹᱲ
@@ -1139,10 +1143,6 @@ sc-rejected-none-found = ᱪᱮᱫ ᱵᱟᱹᱨᱜᱤᱞ ᱠᱟᱱ ᱟᱹᱭᱟ�
 ## STATS
 
 sc-stats-title = ᱥᱴᱟᱴᱤᱥᱴᱤᱠᱥ
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = ᱢᱟᱲᱟᱝ ᱦᱟᱹᱞᱤᱭᱟᱹᱠ:{ $lastUpdate }
-sc-stats-last-update-never = ᱢᱟᱲᱟᱝ ᱦᱟᱹᱞᱤᱭᱟᱹᱠ:ᱛᱤᱥ ᱦᱚᱸ ᱵᱟᱝ
 sc-stats-updating = ᱦᱟᱹᱞᱤᱭᱟᱼᱜ ᱠᱟᱱᱟ ...
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
@@ -1240,6 +1240,8 @@ sc-confirm-uploading = ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱫᱚ ᱞᱟᱫᱮ ᱦᱩᱭ �
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = ᱢᱳᱴ
+sc-lang-info-title-personal = ᱱᱚᱡᱚᱨ
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =

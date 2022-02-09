@@ -145,6 +145,7 @@ scn = Sicilien
 shi = Tachelhit/chleuh
 si = Sinhala
 sk = Slovaque
+skr = Saraiki
 sl = Slovène
 so = Somali
 sq = Albanais
@@ -160,6 +161,7 @@ ti = Tigrigna
 tig = Tigré
 tk = Turkmène
 tl = Tagalog
+tok = Toki Pona
 tr = Turc
 tt = Tatar
 tw = Twi
@@ -1200,10 +1202,6 @@ sc-rejected-none-found = Aucune phrase rejetée n’a été trouvée !
 ## STATS
 
 sc-stats-title = Statistiques
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Dernière mise à jour : { $lastUpdate }
-sc-stats-last-update-never = Dernière mise à jour : jamais
 sc-stats-updating = Mise à jour…
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
@@ -1423,3 +1421,5 @@ sc-validation-no-abbreviations = La phrase ne doit pas contenir d’abréviation
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Choisissez la langue/la localisation

@@ -1,0 +1,58 @@
+.add-language {
+    display: inline-block;
+    justify-content: center;
+    direction: ltr;
+    margin-inline-end: 1rem;
+
+    & :first-child {
+        margin-right: 25px;
+    }
+
+    & :nth-child(2) {
+        font-family: initial;
+        font-size: var(--font-size-lg);
+        color: var(--black);
+    }
+}
+
+.profile-info .form-fields .language-wrap {
+    border: 2px solid rgba(230, 229, 227, 0.6);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    display: block;
+    width: 100%;
+    position: relative;
+    padding-bottom: 0.5rem;
+
+    label {
+        width: 100%;
+    }
+
+    > label:last-child {
+        margin-bottom: 15px;
+    }
+
+    ul {
+        margin: -30px 0 30px;
+        position: absolute;
+        padding: 0;
+        background: white;
+        z-index: var(--override-z-index);
+        width: 100%;
+
+        li {
+            cursor: pointer;
+            list-style: none;
+            padding: 15px;
+            border-bottom: 1px solid var(--dark-grey);
+        }
+    }
+
+    .downshift-open {
+        border: 1px solid var(--light-grey);
+        box-sizing: border-box;
+        box-shadow: 0 2px 5px 0 var(--light-grey);
+        overflow: hidden;
+    }
+}

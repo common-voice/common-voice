@@ -75,7 +75,7 @@ function RecordingPill({
           <Tooltip
             arrow
             open={isPlaying || showSentenceTooltip}
-            theme="grey-tooltip"
+            theme="dark"
             title={clip.sentence.text}>
             <button
               className="play"
