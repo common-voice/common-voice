@@ -478,8 +478,11 @@ about-listen-queue-text = Йӱкан клип-влак колтымаш чере
 about-listen = Колышташ
 about-listen-text = Пайдаланыше-влак надырлыме клип-влакын чынлыкыштым — ойлышын ойлончым чын ойлымыжым — тергат.
 about-is-it-valid = Тиде клипым чын возымо?
+about-is-it-valid-text = Пайдаланышын клиплан йӱклымӧ деч вара, тудо «чын» манме семын палемдалтеш.
 about-yes-votes = ≥2 «туге»
+about-yes-votes-text = Common Voice датасетыш логалаш манын, йӱкан клипым кок посна пайдаланыше тергышаш.
 about-no-votes = ≥2 «уке»
+about-no-votes-text = Пайдаланыше йӱкан клипым ӧрдыжтара гын, тудо черетыш пӧртылеш. Угычын ӧрдыжтарыме деч вара, тудо клип шӱгарыш кусаралтеш.
 about-dataset-new = Common Voice датасет
 about-clip-graveyard = Клип шӱгар
 about-get-involved = Ушнаш
@@ -1065,6 +1068,7 @@ sc-add-err-failed =
         [one] 1 шотлан толдымо ойлончо
        *[other] { $sentences } шотлан толдымо ойлончо
     }
+sc-add-err-submission = Колтымаш йоҥылыш
 sc-add-lang-process-notice = Тыште тыйын йылмет уке гын, тудым <languageProcessLink>тиде процесс гоч</languageProcessLink> йодын кертат.
 
 ## ADD SENTENCES CONFIRMATION
