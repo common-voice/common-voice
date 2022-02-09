@@ -485,10 +485,13 @@ about-no-votes = ≥2 «уке»
 about-no-votes-text = Пайдаланыше йӱкан клипым ӧрдыжтара гын, тудо черетыш пӧртылеш. Угычын ӧрдыжтарыме деч вара, тудо клип шӱгарыш кусаралтеш.
 about-dataset-new = Common Voice датасет
 about-clip-graveyard = Клип шӱгар
+about-partners = Партнёр-влак
+about-become-a-partner = Партнёр лияш
 about-get-involved = Ушнаш
 about-stay-in-touch = Кузе мылам кылыште кодаш?
 about-nav-why-common-voice = Молан?
 about-nav-how-it-works = Кузе?
+about-nav-partners = Партнёр-влак
 about-nav-get-involved = Ушнаш
 about-nav-how-it-works-2 = Кузе Common Voice пашам ышта?
 about-nav-playbook = Кузе ушнаш манын, пален нал
@@ -526,6 +529,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Чынлык висык не
 about-playbook-how-grow-language = Common Voice-ышто кузе ме пайдалын йылмым вийдарен кертына?
 about-playbook-how-grow-language-content-2 = Эртынчык-влак
 about-playbook-how-grow-language-content-4 = Социал медиа
+about-playbook-how-grow-language-content-6 = Партнёрлык да вот-влак
 
 ## How to validate
 
