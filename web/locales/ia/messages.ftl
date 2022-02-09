@@ -1229,6 +1229,7 @@ sc-rejected-none-found = Nulle phrases rejectate trovate!
 
 sc-stats-title = Statistica
 sc-stats-updating = Actualisation...
+sc-stats-error = Impossibile reportar le statisticas. Retenta plus tarde.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
