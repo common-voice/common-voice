@@ -555,6 +555,7 @@ about-playbook-how-grow-language-content-6 = Συνεργασίες και δί�
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Πώς λαμβάνονται οι αποφάσεις για τα έργα;
 about-playbook-how-project-governance-content-3 = Απόρρητο, ασφάλεια και διαφάνεια.
 about-playbook-how-project-governance-content-5 = Αξία και αναγνώριση.
 about-playbook-how-project-governance-content-6 = Αμοιβαία ευθύνη.
@@ -1263,3 +1264,5 @@ sc-validation-no-abbreviations = Η πρόταση δεν πρέπει να πε
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Επιλογή γλώσσας/μετάφρασης
