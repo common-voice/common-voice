@@ -250,6 +250,8 @@ male = مرد
 female = تریمت
 # Gender
 other = ٻیا
+dashboard = ڈیش بورڈ
+build-profile = پروفائل بݨاؤ
 avatar = اواتار
 settings = ترتیباں
 profile-close = بند کرو
