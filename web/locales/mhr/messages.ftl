@@ -859,7 +859,15 @@ download-requests = Ондакысе возымаш-влакым тулен на
 download-requests-info = Кунам тый шке возымаш-влакетым йодат, ме нуным ик але икмыняр ZIP-файлыш погена. Теве тыйын ондакысе йодмаш-влакет:
 download-request-button = Тулен налаш
 download-request-title = { $created }
+download-request-description = { $clipCount } йӱкан клип, архивын чумыр кугытшо { $size }. Жап эрта: { $expires }.
+download-request-archive-single = Ик ZIP-файл, тышке пура:
+download-request-archive-multiple = { $archiveCount } ZIP-файллан ужашлаш, тышке пурат:
+download-request-assembling-description = Тыйын файл-влак погалтыт. Порылий, варарак терге.
+download-request-refresh-button = Уэмдаш
+download-request-modal-title = Тулен налашлан кылвер-влак
+download-request-modal-description = ZIP-файл-влакым тулен налашлан теве кылвер-влак.
 download-request-link-text = Zip №{ $offset } / { $total }
+download-request-metadata-link = Ойлончо текст
 
 ## Landing
 
