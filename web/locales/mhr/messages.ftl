@@ -838,6 +838,7 @@ n-clips-pluralized =
         [one] клип
        *[other] клип
     }
+help-share-goal = Мыланна шукырак йӱкым муаш полшо, шке шумлыкет дене пайлалт
 confirm-goal = Шумлыкым чынлаш
 goal-interval-weekly = Кажне арнян
 # $type is one of share-goal-type-*
@@ -920,9 +921,11 @@ demo-account = Аккаунт
 demo-account-card-header = Шке надыретым пурташлан аккаунт лиймаш кӱлешанжак огыл, туге гынат, тиде пайдале.
 demo-account-enter-email =
     .label = Регистрацийлан кылверым колташлан электрон почто адресым пурто
+demo-account-sign-up = Регистрацийлан кылверым колташ
 
 ## Demo Contribute
 
+demo-contribute-card-header = Шке йӱкетым ешараш але колышташ ямде улат?
 demo-listen-subtitle = Надырлаш ямде улат?
 
 ## Demo Dashboard
@@ -978,6 +981,7 @@ sc-logout-button = Системе гыч лекмаш
 ## HOME
 
 sc-home-collect-title = Ойлончо-влакым погаш
+sc-home-collect-text = Возен але чылалан кучылташ лийше ойлончо-влакым поген, мыланна полшо.
 sc-home-review-title = Ойлончо-влакым ончен лек
 
 ## HOW-TO
@@ -986,10 +990,13 @@ sc-howto-addlang-title = Пашалан йылме-влакым ешарымаш
 sc-howto-addlang-text = Системыш пурымек, профиль ужашыште тый йылме-влакым ойырен кертат.
 sc-howto-addsen-title = У ойлончо-влакым ешаркале
 sc-howto-cite-title = Кузе цитироватлаш
+sc-howto-cite-item-1 = Тый веб-сайтым ончыктен кертат, мутлан, «Common Voice — https://commonvoice.mozilla.org/»
 sc-howto-review-title = Ойлончо-влакым ончен лек
 sc-howto-review-subtitle = Ойлончо нине висык-влаклан келшен толеш манын, ӱшане:
 sc-howto-review-criteria-1 = Ойлончо чын возымо лийшаш.
 sc-howto-review-criteria-2 = Ойлончо грамматике шотышто чын лийшаш.
+sc-howto-review-criteria-3 = Ойлончо йӱкаҥден кертме лийшаш.
+sc-howto-review-criteria-4 = Ойлончо висыклан келшен толеш гын, «Чынлаш» манме полдышым темдал.
 sc-howto-review-criteria-6 = Тыйын ончашлан ойлончо пытен гын, порылий, мыланна шукырак ойлончым погаш полшо!
 sc-howto-findpd-subtitle = Нуным интернетыште кычал
 
