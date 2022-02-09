@@ -500,6 +500,7 @@ about-playbook-how-localize-content-5 = Полшаш манын, мемнан у
 ## How to add sentences
 
 about-playbook-how-add-sentences = Кузе мыланем ойлончо-влакым ешараш?
+about-playbook-how-add-sentences-content-3 = Википедий гыч кӱчык ойлончо-влакым кучылташлан тый <scraperLink>Ойлончо луктедылшым</scraperLink> кучылтын кертат.
 
 ## How to record quality
 
@@ -510,6 +511,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Чынлык висык не
 
 ## How to grow language
 
+about-playbook-how-grow-language = Common Voice-ышто кузе ме пайдалын йылмым вийдарен кертына?
 about-playbook-how-grow-language-content-2 = Эртынчык-влак
 about-playbook-how-grow-language-content-4 = Социал медиа
 
@@ -524,6 +526,7 @@ about-playbook-how-access-dataset = Кузе датасетым налаш да 
 ## How are decisions made
 
 about-playbook-how-project-governance-content-3 = Шолыплык, лӱдыкшыдымылык да вошткоймаш.
+about-playbook-how-project-governance-content-4 = Тӱшкан ушнымашыже да пунчалым лукмаш.
 about-playbook-how-project-governance-content-5 = Кӱлешлык да пагалымаш.
 about-playbook-how-project-governance-content-6 = Ваш-ваш мутым кучымаш.
 about-playbook-how-project-governance-content-7 = <governanceLink>Кузе ме виктарена, шукырак пален нал</governanceLink>
@@ -895,6 +898,9 @@ demo-account = Аккаунт
 
 ## Demo Account
 
+demo-account-card-header = Шке надыретым пурташлан аккаунт лиймаш кӱлешанжак огыл, туге гынат, тиде пайдале.
+demo-account-enter-email =
+    .label = Регистрацийлан кылверым колташлан электрон почто адресым пурто
 
 ## Demo Contribute
 
