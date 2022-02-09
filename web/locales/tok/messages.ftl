@@ -833,6 +833,7 @@ sc-howto-review-title = o lukin e sitelen
 ## MY SENTENCES
 
 sc-my-title = sitelen ale mi
+sc-my-loading = ilo li kama e sitelen sina...
 sc-my-no-sentences = sitelen ala a li lon!
 
 ## REJECTED
