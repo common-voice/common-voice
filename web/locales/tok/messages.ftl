@@ -2,6 +2,7 @@
 
 yes-receive-emails = mi wile e ni: o pana e sona pi ilo Common Voice
 stayintouch = lon kulupu Mozilla la, mi mute li pali e ilo pi toki kalama. mi mute li wile e ni: sina pana e ijo sin, e sona sin, e kepeken sina pi ilo ni tawa mi mute.
+privacy-info = awen pona pi sona sina li suli tawa mi. o kama sona e nasin lon lipu pi <privacyLink>nasin sona mi</privacyLink>
 return-to-cv = o tawa ilo Common Voice
 email-input =
     .label = nimi pi poki lipu sina
@@ -10,6 +11,7 @@ loading = o awen...
 email-opt-in-info = mi wile kama jo e lipu ni: sona pi wile pali mi en sona pi pali mi en ijo sin pi ilo Common Voice.
 email-opt-in-info-title = o kama jo e lipu tan ilo Common Voice
 email-opt-in-info-sub-with-challenge = o kama jo e lipu ale ni: ijo pi wile sina, pali sin, en sona sin, en lipu sin pi ilo Common Voice.
+email-opt-in-privacy-v2 = sina toki e wile lipu la, sina toki e ni: kulupu Mozilla li ken pali e ijo kepeken sona ni, lon <privacyLink>nasin sona</privacyLink> pi kulupu Mozilla.
 indicates-required = * la, o pana
 not-available-abbreviation = ala
 
@@ -20,6 +22,7 @@ not-available-abbreviation = ala
 ## Languages
 
 ab = toki Asuwa
+ace = toki Ase
 ar = toki Alapi
 az = toki Asepajan
 bs = toki Posan
@@ -90,6 +93,7 @@ logout = o weka tan ilo
 ## Home Page
 
 home-title = ilo Common Voice la kulupu Mozilla li wile pana e sona pi toki uta jan tawa ilo.
+default-tagline = ilo Common Voice pi kulupu Mozilla li wile pana e sona pi toki uta jan tawa ilo.
 home-cta = o toki, o pana lon ilo ni!
 wall-of-text-start =
     kalama toki li suli, li jan. ilo li ken kute e kalama toki jan la ni li pona.
@@ -132,11 +136,13 @@ email-subscription-title = o kama jo e lipu sin
 
 ## Account Benefits
 
+benefits = seme li pona
 view-goals = sina ken lukin e mute pi pali sina, e wile pali sina, e wile pali kulupu.
 
 ## What's public
 
 whats-public = ale li ken lukin e seme?
+email-not-public = mi pana lukin ala e nimi pi poki lipu sina.
 username-optin-public = sina ken len e nimi sina. sina ken pana e nimi sina.
 
 ## Speak & Listen Shortcuts
@@ -189,6 +195,8 @@ profile-form-username =
     .label = nimi
 profile-form-native-language =
     .label = toki mama
+profile-form-additional-language =
+    .label = toki sin
 profile-form-language =
     .label = toki
 profile-form-accent =
@@ -198,6 +206,8 @@ profile-form-custom-accent-help-text =
 profile-form-custom-accent-placeholder-2 = o pana e sona pi nasin kalama sina
 profile-form-age =
     .label = tenpo sike pi lon sina
+profile-form-gender-2 =
+    .label = kule kon
 leaderboard-visibility =
     .label = sina lon ala lon lipu pi jan pali suli?
 hidden = len
@@ -229,6 +239,7 @@ login-signup = o kama / o pali e lipu sin
 edit = o ante
 email-subscriptions = lipu wile pi poki lipu sina
 download-profile = o kama jo e sona mi e kalama mi
+contribution-experience = sona pi nasin pali
 off = ala
 on = wile
 help-accent = sina wile ala wile e pona tawa nasin kalama toki?
@@ -236,6 +247,7 @@ help-accent = sina wile ala wile e pona tawa nasin kalama toki?
 ## Profile - Email
 
 browse-file-title = o pana e sitelen lukin
+browse-file = o luka anu <browseWrap>o alasa</browseWrap>
 connect-gravatar = o kepeken ilo Gravatar
 gravatar_not_found = ilo Gravatar sina li lon ala
 file_too_large = lipu sina li suli mute la, sina ken ala pana
@@ -247,6 +259,7 @@ max-file-size = suli ken li suli KB { $kb }
 manage-subscriptions = o ante e wile pi lipu kama
 manage-email-subscriptions = o ante e wile pi lipu kama tawa poki lipu sina
 add-language = o pana e toki sin
+change-email-setings = o ante e poki lipu sina lon "nimi lon sina" lon "nasin ilo"
 
 ## FAQ
 
@@ -381,6 +394,7 @@ terms-agree = mi wile
 terms-disagree = mi wile ala
 review-aborted = sina pana ala. sina wile ala wile weka e kalama awen sina?
 review-submit-title = o kute, o pana
+review-submit-msg = sina pona!<lineBreak></lineBreak>anpa la o lukin, o pana e kalama toki sina.
 review-recording = o kute
 review-rerecord = o awen e kalama sin
 review-cancel = o weka e ijo pana
