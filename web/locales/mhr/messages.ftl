@@ -145,6 +145,7 @@ scn = Сицилий
 shi = Шилха
 si = Сингал
 sk = Словак
+skr = Сараики
 sl = Словен
 so = Сомали
 sq = Албан
@@ -160,6 +161,7 @@ ti = Тигринья
 tig = Тигре
 tk = Туркмен
 tl = Тагал
+tok = Токи Пона
 tr = Турко
 tt = Суас
 tw = Тви
@@ -975,7 +977,9 @@ sc-home-review-title = Ойлончо-влакым ончен лек
 ## HOW-TO
 
 sc-howto-addlang-title = Пашалан йылме-влакым ешарымаш
+sc-howto-addlang-text = Системыш пурымек, профиль ужашыште тый йылме-влакым ойырен кертат.
 sc-howto-addsen-title = У ойлончо-влакым ешаркале
+sc-howto-cite-title = Кузе цитироватлаш
 sc-howto-review-title = Ойлончо-влакым ончен лек
 sc-howto-review-subtitle = Ойлончо нине висык-влаклан келшен толеш манын, ӱшане:
 sc-howto-review-criteria-1 = Ойлончо чын возымо лийшаш.
