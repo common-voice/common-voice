@@ -31,13 +31,16 @@ export default function StatsCard({
   scrollable?: boolean;
   currentLocale?: string;
 }) {
-  const [locale, setLocale] = useLocalStorageState(DEFAULT_LOCALE_OPTION, id);
+  const [locale, setLocale] = useLocalStorageState(
+    DEFAULT_LOCALE_OPTION,
+    `${id}${currentLocale}`
+  );
   const [selectedTab, setSelectedTab] = useState(Object.keys(tabs)[0]);
   const isDefaultOptionSelected = locale === DEFAULT_LOCALE_OPTION;
 
-  // handle site wide locale change
+  // handle when changing language tab towards top of page
   useEffect(() => {
-    if (isDefaultOptionSelected && currentLocale) {
+    if (currentLocale) {
       setLocale(currentLocale);
     }
   }, [currentLocale]);
