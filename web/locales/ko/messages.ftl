@@ -1081,6 +1081,7 @@ sc-header-rejected = 거부된 문장
 sc-header-my = 내 문장
 sc-header-statistics = 통계
 sc-header-profile = 프로필
+sc-footer-discourse = Discourse
 sc-footer-report-bugs = 오류 신고
 sc-footer-translate = 이 페이지 번역
 sc-footer-report-copyright = 저작권 문제 신고
