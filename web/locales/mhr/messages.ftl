@@ -474,7 +474,9 @@ about-subscribe-text = Common Voice дене кылыште коднет?
 about-speak = Кутыраш
 about-speak-text = Ушнышо-влак йӱкан клипым надырлыме ойлончо пого гыч лудыт.
 about-listen-queue = Колышташлан черет
+about-listen-queue-text = Йӱкан клип-влак колтымаш черетыш, кудо нуным колышташлан ямдыла, логалыт.
 about-listen = Колышташ
+about-listen-text = Пайдаланыше-влак надырлыме клип-влакын чынлыкыштым — ойлышын ойлончым чын ойлымыжым — тергат.
 about-is-it-valid = Тиде клипым чын возымо?
 about-yes-votes = ≥2 «туге»
 about-no-votes = ≥2 «уке»
@@ -1104,6 +1106,7 @@ sc-confirm-uploading = Ойлончо-влак вераҥдалтыт. Тиде,
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Чыла
+sc-lang-info-title-personal = Шкен
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1119,6 +1122,14 @@ sc-lang-info-in-review =
         [0] Ончымаште ойлончо уке.
         [one] ойлончо ончымаште.
        *[other] ойлончо ончымаште.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Тергашлан ойлончо кодын огыл.
+        [one] Тергашлан 1 ойлончо кодын.
+       *[other] Тергашлан { $unreviewedSentencesByYou } ойлончо кодын.
     }
 sc-lang-info-review-now = <reviewLink>Кызытак ончен лек!</reviewLink>
 sc-lang-info-add-more = <addLink>Шукырак ойлончым вигак кызыт ешаре!</addLink>
