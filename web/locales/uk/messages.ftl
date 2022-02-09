@@ -145,6 +145,7 @@ scn = Сицилійська
 shi = Ташельхіт
 si = Сингальська
 sk = Словацька
+skr = Сараїкі
 sl = Словенська
 so = Сомалійська
 sq = Албанська
@@ -160,6 +161,7 @@ ti = Тигринья
 tig = Тиґре
 tk = Туркменська
 tl = Таґальська
+tok = Токі-пона
 tr = Турецька
 tt = Татарська
 tw = Чві
@@ -1295,11 +1297,8 @@ sc-rejected-none-found = Відхилених речень не знайдено
 ## STATS
 
 sc-stats-title = Статистика
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Востаннє оновлено: { $lastUpdate }
-sc-stats-last-update-never = Востаннє оновлено: ніколи
 sc-stats-updating = Оновлення…
+sc-stats-error = Ми не змогли отримати статистику. Будь ласка, спробуйте пізніше.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1398,6 +1397,8 @@ sc-confirm-uploading = Речення завантажуються. Це мож�
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Усього
+sc-lang-info-title-personal = Особиста
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
