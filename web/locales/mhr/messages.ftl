@@ -715,7 +715,9 @@ report-grammar-or-spelling-detail = Ойлончышто грамматике а
 report-different-language = Вес йылме
 report-different-language-detail = Тудо мыйын мутланыме йылме деч ойыртемалтше йылме дене возымо.
 report-difficult-pronounce = Пелештен керташ неле
+report-difficult-pronounce-detail = Тушто лудаш але ойлаш неле мут але ой уло.
 report-offensive-speech = Шӱктарен кутырымаш
+report-offensive-speech-detail = Клипыште пагалыдымаш але шӱктарымаш ой уло.
 report-other-comment =
     .placeholder = Умылтарчык
 success = Сеҥымаш
@@ -724,6 +726,7 @@ report-success = Отчёт эсен пуалтын
 
 ## Goals
 
+streaks = Корно-влак
 days =
     { $count ->
         [one] кече
@@ -753,11 +756,21 @@ stats = Иктешлымаш
 awards = Суаптар
 you = Тый
 everyone = Кеч-могай
+contribution-activity = Пуртымо надыр
 recorded-clips = Возымо клип-влак
 validated-clips = Тергыме клип-влак
+total-approved = Чыла чынлыме
+overall-accuracy = Чумыр чынлык
+set-visibility = Мыйын коймашым шындаш
+show-ranking = Мыйын рейтингым ончыкташ
 
 ## Custom Goals
 
+get-started-goals = Шумлык гыч тӱҥал
+create-custom-goal = Кучылтмо шумлыкым ышташ
+goal-type = Могай шумлыкым тый ыштынет?
+both-speak-and-listen = Когынек
+both-speak-and-listen-long = Когынек (кутыраш да колышташ)
 pro-difficulty = Про
 n-clips-pluralized =
     { NUMBER($count) ->
