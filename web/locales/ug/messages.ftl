@@ -443,6 +443,14 @@ how-does-it-work-text = بىز ئوچۇق مەنبەلىك ئاۋاز ئامبى
 
 ## How does it work section
 
+about-language-req-subtitle = بەزىلەر تىل قوشۇشنى تەلەپ قىلىدۇ.
+about-localization-title = تور بېكەتنى يەرلىكلەشتۈرۈش
+about-localization-subtitle = تور بېكەت تېكىستى شۇ تىلغا تەرجىمە قىلىنىدۇ.
+about-sentence-collection-title = جۈملە توپلىمى
+about-sentence-collection-subtitle = كىشىلەرنىڭ يۇقىرى ئاۋازدا ئوقۇشى ئۈچۈن جۈملىلەر توپلىنىدۇ.
+about-new-lang-title = يېڭى تىل قوزغىتىلدى
+about-new-lang-subtitle = بىز Common Voice نىڭ تور بېتىنى بۇ تىلدا قوزغىتىمىز.
+about-voice-contrib-title = ئاۋاز تۆھپىسى
 about-speak = سۆزلەڭ
 about-speak-text = تۆھپىكارلار ئىئانە قىلىنغان جۈملىلەرنى ئوقۇش ئارقىلىق ئاۋازلارنى خاتىرىلەيدۇ.
 about-listen-queue = ئاڭلاش-ئۆچرەت
