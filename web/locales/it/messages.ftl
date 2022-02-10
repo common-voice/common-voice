@@ -514,6 +514,7 @@ about-get-involved-text-2 =
     Ottimo! Contattaci via email o sul forum <discourseLink>Discourse</discourseLink>, segnala problemi del sito attraverso <githubLink>GitHub</githubLink> o unisciti alla chat della comunità su <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Come posso rimanere aggiornato?
 about-stay-in-touch-text-1 = <emailFragment>Iscriviti</emailFragment> alla nostra mailing list per scoprire come prendere parte a campagne, eventi e collaborare allo sviluppo di nuove funzioni per Common Voice.
+about-stay-in-touch-text-2 = Puoi incontrare altri collaboratori delle comunità linguistiche Mozilla in <discourseLink>Discourse</discourseLink> per discutere di argomenti specifici, oppure <matrixLink>Matrix</matrixLink> per ottenere rapidamente aiuto.
 about-nav-why-common-voice = Perché?
 about-nav-how-it-works = Come?
 about-nav-partners = Partner
