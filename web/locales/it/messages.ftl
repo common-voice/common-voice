@@ -513,6 +513,7 @@ about-get-involved-text-2 =
     Vuoi aiutarci a migliorare Common Voice?
     Ottimo! Contattaci via email o sul forum <discourseLink>Discourse</discourseLink>, segnala problemi del sito attraverso <githubLink>GitHub</githubLink> o unisciti alla chat della comunità su <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Come posso rimanere aggiornato?
+about-stay-in-touch-text-1 = <emailFragment>Iscriviti</emailFragment> alla nostra mailing list per scoprire come prendere parte a campagne, eventi e collaborare allo sviluppo di nuove funzioni per Common Voice.
 about-nav-why-common-voice = Perché?
 about-nav-how-it-works = Come?
 about-nav-partners = Partner
@@ -523,6 +524,7 @@ about-nav-playbook = Scopri come partecipare
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language-content-2 = Vogliamo modelli vocali che riescano a comprendere al meglio un’ampia gamma di interlocutori. Perché ciò accada, un dataset vocale deve includere molte persone diverse.
 
 ## How do I add a language
 
