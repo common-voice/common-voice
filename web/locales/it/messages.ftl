@@ -567,9 +567,14 @@ about-playbook-how-record-content-5 = <accuracyLink>Scopri di più sui criteri d
 ## How to grow language
 
 about-playbook-how-grow-language = Qual è il modo più efficace per far crescere una lingua su Common Voice?
+about-playbook-how-grow-language-content-1 = Creando opportunità che permettano a un gruppo variegato di persone di contribuire a Common Voice, si garantisce che il dataset possa essere utile al maggior numero possibile di utenti. Abbiamo creato risorse e modelli che puoi utilizzare a questo scopo.
 about-playbook-how-grow-language-content-2 = Eventi
 about-playbook-how-grow-language-content-3 = Puoi organizzare eventi per aiutare le persone a contribuire. È più facile di quanto pensi. Puoi farlo online con uno strumento di videoconferenza o di persona, se è sicuro. <eventTemplate>Consulta i nostri modelli e le nostre risorse per l’organizzazione di eventi</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Social media
+about-playbook-how-grow-language-content-5 = Potresti usare piattaforme di social media per diffondere il messaggio. Condividi post che spiegano la sua importanza e mettiti in contatto con altre persone per discutere di temi come diritti linguistici, intelligenza artificiale vocale o pregiudizi nella tecnologia. Vedi altri consigli su come <campaignLink>organizzare una campagna social e ottenere contenuti che puoi utilizzare come punto di partenza</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnership e connessioni
+about-playbook-how-grow-language-content-7 = Trova altri soggetti interessati a questi temi. Potrebbero essere università, istituti linguistici, gruppi di sostegno o comunità che si occupano di data science. Mettiti in contatto con loro e spiega chiaramente come e perché possono aiutarti. <outreachTemplates>Consulta i nostri modelli di email per sensibilizzare sull’argomento</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Libera la tua creatività!</strong> La tua comunità linguistica sarà diversa da tutte le altre, questi sono solo alcuni dei modi in cui puoi iniziare.
 
 ## How to validate
 
