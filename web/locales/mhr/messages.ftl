@@ -1002,9 +1002,14 @@ contribution-misreadings-example-7-explanation = [Тӱҥалтыш тексты�
 contribution-misreadings-example-8-title = Ошымшӱлыш воктеч чымыктен кайыш.
 contribution-misreadings-example-8-explanation = [Келшен толдымо контент]
 contribution-varying-pronunciations-title = Тӱрлын ойлымаш
+contribution-varying-pronunciations-example-1-title = Вуйыштыжо тудын берет ыле.
+contribution-varying-pronunciations-example-2-title = Тудын кидше нӧлтымӧ ыле.
 contribution-background-noise-title = Фонан йӱк-йӱан
+contribution-background-noise-example-2-explanation = [Текст ужашым колаш огеш лий]
 contribution-background-voices-title = Фонан йӱк-йӱан
 contribution-volume-title = Кугыт
+contribution-reader-effects-title = Лудмо эффект
+contribution-just-unsure-title = Чынак кокыте шонет?
 see-more = <chevron></chevron>Шукырак ужаш
 see-less = <chevron></chevron>Шагалрак ужаш
 
@@ -1015,6 +1020,8 @@ see-less = <chevron></chevron>Шагалрак ужаш
 
 ## HEADER/FOOTER
 
+sc-header-home = Тӱҥ велыжыш
+sc-header-how-to = Кузе ышташ
 sc-header-add = Ешараш
 sc-header-review = Ончен лекмаш
 sc-header-rejected = Ӧрдыжтарыме ойлончо-влак
@@ -1039,6 +1046,7 @@ sc-home-review-title = Ойлончо-влакым ончен лек
 
 ## HOW-TO
 
+sc-howto-title = Кузе ышташ
 sc-howto-addlang-title = Пашалан йылме-влакым ешарымаш
 sc-howto-addlang-text = Системыш пурымек, профиль ужашыште тый йылме-влакым ойырен кертат.
 sc-howto-addsen-title = У ойлончо-влакым ешаркале
