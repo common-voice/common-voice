@@ -895,30 +895,29 @@ export default class DB {
     const [variants] = await this.mysql.query(
       `
       SELECT name as lang, variant_token AS token, v.id AS variant_id, variant_name FROM variants v
-      LEFT JOIN locales ON a.locale_id = locales.id
-      `
+      LEFT JOIN locales ON v.locale_id = locales.id
+       ${locale ? 'WHERE locale_id = ?' : ''}
+      `,
+      locale ? [await getLocaleId(locale)] : []
     );
 
-    const mappedVariants = variants.reduce((acc: any, curr: any) => {
-      if (!acc[curr.token]) {
-        acc[curr.token] = [];
-      }
+    // return structured variants obj or empty {} if query is empty
+    const mappedVariants = variants
+      ? variants.reduce((acc: any, curr: any) => {
+          if (!acc[curr.token]) {
+            acc[curr.token] = [];
+          }
 
-      const variant = {
-        id: curr.variant_id,
-        token: curr.token,
-        name: curr.variant_name,
-      };
+          const variant = {
+            id: curr.variant_id,
+            token: curr.token,
+            name: curr.variant_name,
+          };
 
-      if (curr.variant_name === '') {
-        // Each language has a default variant placeholder for unspecified variants
-        acc[curr.lang].default = variant;
-      } else {
-        acc[curr.lang].preset[curr.variant_id] = variant;
-      }
-
-      return acc;
-    }, {});
+          acc[curr.token].push(variant);
+          return acc;
+        }, {})
+      : {};
 
     return mappedVariants;
   }
