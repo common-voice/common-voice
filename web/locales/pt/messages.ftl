@@ -161,6 +161,7 @@ ti = Tigrínia
 tig = Tigré
 tk = Turcomano
 tl = Filipino
+tok = Toki Pona
 tr = Turco
 tt = Tártaro
 tw = Twi
