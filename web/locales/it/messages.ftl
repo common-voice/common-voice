@@ -526,9 +526,12 @@ about-nav-playbook = Scopri come partecipare
 
 ## How do I add a language
 
+about-playbook-how-add-language = Come posso aggiungere una lingua?
+about-playbook-how-add-language-content-1 = Innanzitutto, controlla se la tua lingua <languageLink>esiste già</languageLink>. In caso contrario sarà necessario <strong>tradurre il sito e raccogliere frasi</strong>.
 
 ## How does localization work
 
+about-playbook-how-localize = Come funziona la localizzazione del sito?
 
 ## How to add sentences
 
