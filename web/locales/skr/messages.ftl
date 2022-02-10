@@ -422,24 +422,56 @@ other-language = ٻئی زبان
 language-section-in-progress = تھیندا پئے
 languages-show-more = ٻئے ݙیکھو
 languages-show-less = گھٹ ݙیکھو
+language-meter-in-progress = پیش رفت
+language-total-progress = کل
+language-search-input =
+    .placeholder = ڳولو
+language-speakers = ٻولݨ آلے
+localized = مقامی تھئے ہوئے
+sentences = جملے
 
 ## Contribution
 
+target-segment-add-voice = آپݨی آواز رلاؤ
+target-segment-learn-more = ٻیا سِکھو
 
 ## Reporting
 
+report = رپورٹ کرو
+report-title = رپورٹ جمع کرواؤ
+report-other-comment =
+    .placeholder = تبصرہ
+success = کامیابی
+continue = جاری
+report-success = رپورٹ کامیابی نال منظور تھئی
 
 ## Goals
 
+days =
+    { $count ->
+        [one] ݙیہاڑا
+       *[other] ݙیہاڑے
+    }
 
 ## Dashboard
 
 
 ## Custom Goals
 
+easy-difficulty = سوکھا
+average-difficulty = اوسط
+difficult-difficulty = اوکھا
+set-a-goal = مقصد مقرر کرو
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } کلپ
+       *[other] { $count } کلپاں
+    }
 
 ## Profile Delete
 
+keep = جاری رکھو
+remove = ہٹاؤ
 
 ## Profile Download
 
