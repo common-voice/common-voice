@@ -556,9 +556,11 @@ about-playbook-how-record-content-5 = <accuracyLink>Чынлык висык не
 ## How to grow language
 
 about-playbook-how-grow-language = Common Voice-ышто кузе ме пайдалын йылмым вийдарен кертына?
+about-playbook-how-grow-language-content-1 = Common Voice-ыш тӱрлӧ еҥлан ушнаш йӧным ыштымаш данный пого кузе-гынат шукырак еҥ-влак чотлан пайдале лиеш манын, ӱшандара. Ме тылат кучылташ лийше ресурс ден шаблон-влакым ыштенна.
 about-playbook-how-grow-language-content-2 = Эртынчык-влак
 about-playbook-how-grow-language-content-4 = Социал медиа
 about-playbook-how-grow-language-content-6 = Партнёрлык да вот-влак
+about-playbook-how-grow-language-content-8 = <strong>Усталыкым ончыкто!</strong> Тыйын йылме тӱшкат ойыртемалтше лиеш, да тиде пашам тӱҥалашлан икмыняр каҥаш гына.
 
 ## How to validate
 
