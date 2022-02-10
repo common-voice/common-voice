@@ -36,7 +36,6 @@ ba = باشقىرتچە
 bas = باساچە
 be = بېلورۇسچە
 bg = بۇلغارچە
-bm = بامباراچە
 bn = بېنگالچە
 br = بىرېتونچە
 bxr = بۇرياتچە
@@ -355,6 +354,7 @@ skip-submission-description = تۆھپىڭىز تاپشۇرۇش جەريانىد
 skip-submission-note = ئەسكەرتىش: سىز يەنىلا سۆزلەش ياكى ئاڭلاشنى تاللاپ تۆھپە قوشۇش ئۇسۇلىنى تاللىشىڭىز كېرەك.
 off = تاقاق
 on = ئوچۇق
+help-accent = تەلەپپۇزدا ئازراق ياردەم كېرەكمۇ؟
 
 ## Profile - Email
 
@@ -437,12 +437,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = نېمە ئۈچۈن Common Voice؟
-about-subtitle = Common Voice موزىللانىڭ ماشىنىلارغا كىشىلەرنىڭ قانداق سۆزلەيدىغىنىنى ئۆگىتىشتىكى تەشەببۇسىنىڭ بىر قىسمى. بۇنى ئىشلىتىپ بىز يەنە «Deep Speech» دەيدىغان ئوچۇق كودلۇق ئاۋاز تونۇش سىستېمىسى ياساۋاتىمىز.
-about-header-description =
-    بۇ ئىككى تۈر بىزنىڭ رەقەملىك سۆزلەش پەرقىنى تۈگىتىش تىرىشچانلىقىمىزنىڭ بىر قىسمى. ئاۋاز پەرقلەندۈرۈش تېخنىكىسى ئۈسكۈنىلىرىمىزگە جان ئېلىپ كېلىدۇ ، ئەمما ئاچقۇچىلار بۇلارنى ئەمەلگە ئاشۇرۇش ئۈچۈن غايەت زور بولغان ئاۋاز ئامبىرىغا موھتاج. ھازىر، بۇ خىلدىكى سانلىق مەلۇماتلارنىڭ كۆپىنچىسى باھاسى قىممەت ۋە ياكى باشقىلارنىڭ ئىگىدارچىلىقىدا.
-    بىز ئاۋازلىق سانلىق مەلۇماتلارنى ئەركىن ۋە پايدىلىنىشقا ئېچىۋېتىلگەن قىلماقچى ، ھەمدە سانلىق مەلۇماتلارنىڭ كۆپ خىلدىكى ھەقىقىي ئادەمگە ۋەكىللىك قىلىشىنى كاپالەتكە ئىگە قىلماقچى، بىز بىرلىكتە ئاۋاز تونۇتۇشنى تېخىمۇ ياخشى ئىمكانىيەتكە ئىگە قىلالايمىز.
-how-does-it-work-title = ئۇ قانداق ئىشلەيدۇ؟
 how-does-it-work-text = بىز ئوچۇق مەنبەلىك ئاۋاز ئامبىرى توپلاۋاتىمىز. ئاۋازىڭىزنى تەقدىم قىلىڭ، باشقىلارنىڭ ئاۋازىنىڭ توغرىلىقىنى دەلىللەڭ، ھەممەيلەن پايدىلىنىشى ئۈچۈن ئامبارنى تېخىمۇ ياخشىلاڭ.
+
+## How does it work section
+
 about-speak = سۆزلەڭ
 about-speak-text = تۆھپىكارلار ئىئانە قىلىنغان جۈملىلەرنى ئوقۇش ئارقىلىق ئاۋازلارنى خاتىرىلەيدۇ.
 about-listen-queue = ئاڭلاش-ئۆچرەت
@@ -476,6 +474,34 @@ about-nav-why-common-voice = نېمىشقا؟
 about-nav-how-it-works = قانداق؟
 about-nav-partners = ھەمكارلاشقۇچىلار
 about-nav-get-involved = قاتنىشىڭ
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = سۈنئىي ئەقلى ئىقتىدار
 mycroft-description =
@@ -575,8 +601,6 @@ subscribe = مۇشتەرى بولۇش
 get-started-speech = ئاۋاز تونۇتۇشنى باشلاڭ
 other-datasets = باشقا ئاۋاز مەلۇمات توپى
 feedback-q = تەكلىپ-پىكرىڭىز بارمۇ؟
-deepspeech-info = Common Voice سانلىق مەلۇمات ئامبىرى Mozilla نىڭ ئوچۇق مەنبەلىك ئاۋاز پەرقلەندۈرۈش ماتورى بولغان Deep Speech نى قوللايدىغان بولۇپ، بۇنى ئىشلىتىش ئارقىلىق ئاۋاز پەرقلەندۈرۈش پروگراممىلىرىنى قۇرالايسىز. قەيەردىن قول سېلىپ باشلاشنى بىلىش ئۈچۈن بىزنىڭ <githubLink>قىسقىچە تونۇشتۇرۇش  Github </githubLink>  نى ئوقۇڭ ياكى <discourseLink>DeepSpeech مۇنازىرىسىگە</discourseLink> قاتنىشىڭ.
-common-voice-info-new = Common Voice توغرىسىدا سوئاللىرىڭىز بارمۇ؟ مەلۇم بىر تىلنى ياخشىلاش ياكى تەكلىپىڭىز بارمۇ؟ <discourseLink> مۇنازىرە مۇنبىرى </discourseLink> ئارقىلىق بىزنى خەۋەرلەندۈرۈڭ.
 data-other-librispeech-description = LibriSpeech بولسا تەخمىنەن 1000 سائەت ئەتراپىدا LibriVox تۈرىدىكى ئاۋازلىق كىتابلاردىن تاللانغان 16Khz لىق ئىنگلىزچە ئوقۇشلۇق.
 data-other-ted-name = TED-LIUM  سۆزلۈكلەر توپلىمى
 data-other-ted-description = TED-LIUM سۆزلۈكلەر توپلىمى ئاۋازلىق سۆھبەتلەردىن ياسالغان بولۇپ ، ئۇلارنىڭ خاتىرىلىرى TED تور بېتىدە بار.
@@ -855,6 +879,9 @@ why-delete-recordings =
     نېمە ئۈچۈن ئۈن خاتىرىڭىزنى ئۆچۈرمەكچى بولۇپ قالغانلىقىڭىزنى بىزگە دەپ بېرەلەمسىز؟
 profile-form-delete = تەرجىمىھالنى ئۆچۈر
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = { $company } خىزمەتچىلىرىنى قارشى ئالىمىز!
@@ -900,4 +927,57 @@ demo-dashboard-card-header = شەخسىي باشقۇرۇش تاختىلىرى س
 demo-dashboard-card-body = ھەر بىر ھەدىيە قىلغان ئاۋاز، ھەر بىر دەلىللەنگەن ئاۋاز ئۈچۈن سىزنىڭ ھېسابات تاختىڭىزدا سىز تۆھپە قوشۇۋاتقان تىلدىكى ئەڭ يېڭى ئىلگىرىلەشىلىرىڭىزنى ئەكس ئەتتۈرۈپ بېرىدۇ. توغرا بىردىن كۆپ تۆھپە قوشالايسىز!<br/><br/> ھېسابات تاختىڭىز ئارقىلىق  ستاتىستىكا ئۇچۇرىڭىزنى ئىز قوغلاپ سىزنىڭ ئىجتىمائىي توپتىكى باشقىلار بىلەن سېلىشتۇرغاندا قايسى ئورۇندا ئىكەنلىكىڭىزنى كۆرۈڭ، شۇنداقلا كۈندىلىك ۋە ھەپتىلىك تۆھپە نىشانىڭىزنى بېكىتىڭ.
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
