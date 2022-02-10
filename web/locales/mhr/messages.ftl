@@ -528,6 +528,8 @@ about-playbook-what-is-language-content-3 = Южо йылме-влак грам�
 ## How do I add a language
 
 about-playbook-how-add-language = Кузе мылам йылмым ешараш?
+about-playbook-how-add-language-content-1 = Икымше, тыйын йылмет <languageLink>уло</languageLink> але уке, терге. Уке гын, тылат <strong>сайтым кусарыман да ойлончо-влакым погыман</strong>.
+about-playbook-how-add-language-content-3 = <strong>Ойлончо-влакым погашлан</strong> <scLink>Sentence Collector-ым</scLink> <scVideo>келыштаре</scVideo>.
 
 ## How does localization work
 
@@ -540,6 +542,7 @@ about-playbook-how-localize-content-5 = Полшаш манын, мемнан у
 
 about-playbook-how-add-sentences = Кузе мыланем ойлончо-влакым ешараш?
 about-playbook-how-add-sentences-content-3 = Википедий гыч кӱчык ойлончо-влакым кучылташлан тый <scraperLink>Ойлончо луктедылшым</scraperLink> кучылтын кертат.
+about-playbook-how-add-sentences-content-4 = Чынлыме ойлончо-влак кажне вӱргечын экспортироватлалтыт да вес лукмаш деч вара кучылташ лийме лийыт.
 
 ## How to record quality
 
