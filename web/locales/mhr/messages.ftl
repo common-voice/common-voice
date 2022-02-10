@@ -501,6 +501,7 @@ about-nav-playbook = Кузе ушнаш манын, пален нал
 ## What is a language
 
 about-playbook-what-is-language = Common Voice-ышто йылме мо тугай?
+about-playbook-what-is-language-content-1 = Йылме нерген шонаш шуко йӧн уло. Common Voice йӱкым пален налме модель шумлыклан «ваш рашлыклан» але «нине йылмым нумалше-влак, тӧчен ончат гын, ваш умылат мо?» манмылан тӱткылыкым ойыраш темла.
 
 ## How do I add a language
 
@@ -535,6 +536,7 @@ about-playbook-how-grow-language-content-6 = Партнёрлык да вот-в
 ## How to validate
 
 about-playbook-how-validate = Йӱкан клипым чынлаш але уке, кузе пален налаш?
+about-playbook-how-validate-content-2 = Тыйын дечын ойыртемалтше «акцент дене» ойлышын клипшым ит ӧрдыжтаре — йӱкым пален налмаш чылалан сайын ыштыже манын, тиде кӱлешан.
 
 ## How to access dataset
 
