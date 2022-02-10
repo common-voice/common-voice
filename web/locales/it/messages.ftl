@@ -145,6 +145,7 @@ scn = Siciliano
 shi = Shilha
 si = Singalese
 sk = Slovacco
+skr = Saraiki
 sl = Sloveno
 so = Somalo
 sq = Albanese
@@ -160,6 +161,7 @@ ti = Tigrino
 tig = Tigre
 tk = Turkmeno
 tl = Tagalog
+tok = Toki Pona
 tr = Turco
 tt = Tataro
 tw = Twi
@@ -515,6 +517,8 @@ about-nav-why-common-voice = Perché?
 about-nav-how-it-works = Come?
 about-nav-partners = Partner
 about-nav-get-involved = Collabora
+about-nav-how-it-works-2 = Come funziona Common Voice?
+about-nav-playbook = Scopri come partecipare
 
 ## Community Playbook Content
 ## What is a language
@@ -1159,10 +1163,6 @@ sc-rejected-none-found = Nessuna frase rifiutata trovata.
 ## STATS
 
 sc-stats-title = Statistiche
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Ultimo aggiornamento: { $lastUpdate }
-sc-stats-last-update-never = Ultimo aggiornamento: mai
 sc-stats-updating = Aggiornamento…
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
