@@ -532,15 +532,22 @@ about-playbook-how-add-language-content-1 = Innanzitutto, controlla se la tua li
 ## How does localization work
 
 about-playbook-how-localize = Come funziona la localizzazione del sito?
+about-playbook-how-localize-content-5 = Guarda il nostro video esplicativo
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Come posso aggiungere frasi?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Come posso ottenere una registrazione vocale di alta qualità?
+about-playbook-how-record-content-3 = Leggi la frase attentamente: non tralasciare, modificare o aggiungere parole.
+about-playbook-how-record-content-4 = Assicurati che la piattaforma stia registrando prima di iniziare a parlare e che si fermi solo quando hai finito.
+about-playbook-how-record-content-5 = <accuracyLink>Scopri di più sui criteri di convalida.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Qual è il modo più efficace per far crescere una lingua su Common Voice?
 
 ## How to validate
 
