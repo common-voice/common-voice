@@ -321,9 +321,12 @@ faq-search-for-answers =
 about-localization-title = ویب سائٹ دی مقامیت
 about-speak = ٻولو
 about-listen = سݨو
+about-partners = بھائیوال
+about-become-a-partner = بھائیوال بݨو
 about-get-involved = نال رلت کرو
 about-nav-why-common-voice = کیوں؟
 about-nav-how-it-works = کین٘ویں؟
+about-nav-partners = بھائیوال
 about-nav-get-involved = نال رلت کرو
 
 ## Community Playbook Content
@@ -344,6 +347,8 @@ about-nav-get-involved = نال رلت کرو
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = ایونٹ
+about-playbook-how-grow-language-content-4 = سماجی میڈیا
 
 ## How to validate
 
@@ -353,6 +358,8 @@ about-nav-get-involved = نال رلت کرو
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-6 = باہمی احتساب
+mycroft-subtitle = مصنوعی ذہانت
 
 ## Glossary
 
