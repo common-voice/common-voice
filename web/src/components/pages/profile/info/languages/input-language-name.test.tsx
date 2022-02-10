@@ -4,7 +4,7 @@ import { screen, RenderResult } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
 import { renderWithLocalization } from '../../../../../test/mock-localization';
-import { UserAccentLocale } from 'common';
+import { UserLanguage } from 'common';
 import { AccentsAll } from './languages';
 
 import InputLanguageName from './input-language-name';
@@ -39,8 +39,8 @@ const MOCK_ACCENTS_ALL = {
 } as AccentsAll;
 
 describe('InputLanguageName', () => {
-  let mockUserLanguages = [] as UserAccentLocale[];
-  let mockSetUserLanguage = null as (languages: UserAccentLocale[]) => void;
+  let mockUserLanguages = [] as UserLanguage[];
+  let mockSetUserLanguage = null as (languages: UserLanguage[]) => void;
 
   beforeEach(() => {
     mockUserLanguages = [{ locale: '', accents: [] }];
@@ -89,7 +89,7 @@ describe('InputLanguageName', () => {
           name: '',
         },
       ],
-    } as UserAccentLocale;
+    } as UserLanguage;
     expect(mockSetUserLanguage).toBeCalledWith([expectedLanguage]);
     expect(mockSetUserLanguage).toBeCalledTimes(1);
   });
@@ -113,7 +113,7 @@ describe('InputLanguageName', () => {
     const expectedUserLanguage = {
       locale: 'tl',
       accents: [],
-    } as UserAccentLocale;
+    } as UserLanguage;
     expect(mockSetUserLanguage).toBeCalledWith([expectedUserLanguage]);
   });
 
@@ -122,7 +122,7 @@ describe('InputLanguageName', () => {
       { locale: 'tl', accents: [] },
       { locale: 'en', accents: [] },
       { locale: 'fr', accents: [] },
-    ] as UserAccentLocale[];
+    ] as UserLanguage[];
     await renderWithLocalization(
       <InputLanguageName
         locale={'en'}
@@ -141,7 +141,7 @@ describe('InputLanguageName', () => {
     const expectedLanguages = [
       { locale: 'tl', accents: [] },
       { locale: 'fr', accents: [] },
-    ] as UserAccentLocale[];
+    ] as UserLanguage[];
     expect(mockSetUserLanguage).toBeCalledWith(expectedLanguages);
   });
 
@@ -149,7 +149,7 @@ describe('InputLanguageName', () => {
     const filledMockLanguages = [
       { locale: 'fr', accents: [] },
       { locale: 'en', accents: [] },
-    ] as UserAccentLocale[];
+    ] as UserLanguage[];
     await renderWithLocalization(
       <InputLanguageName
         locale={'en'}
@@ -165,9 +165,7 @@ describe('InputLanguageName', () => {
       screen.getByRole('option', { name: 'Français' })
     );
 
-    const expectedLanguages = [
-      { locale: 'fr', accents: [] },
-    ] as UserAccentLocale[];
+    const expectedLanguages = [{ locale: 'fr', accents: [] }] as UserLanguage[];
     expect(mockSetUserLanguage).toBeCalledWith(expectedLanguages);
   });
 });
