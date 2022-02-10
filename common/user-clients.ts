@@ -1,6 +1,6 @@
 import { CustomGoal } from './goals';
 import { Enrollment } from './challenge';
-import { UserLanguage } from './locale';
+import { UserLanguage } from './language';
 
 export type UserClient = {
   email?: string;
