@@ -497,6 +497,10 @@ about-clip-graveyard = Клип шӱгар
 about-clip-graveyard-text = Клип шӱгар Common Voice датасетыш пурыдымо клип-влак гыч шога. Данный пого семынак, клип шӱгарым тулен налаш лиеш.
 about-partners = Партнёр-влак
 about-become-a-partner = Партнёр лияш
+about-partnership =
+    Common Voice — пырля ыштыме проект, да ме, тӱҥалтыш почмо код дене эн кугу датасетым ышташ манын, мемнан тӱшкалан да партнёр-влакланна эҥертена.
+    
+    Проектым илышыш пурташ полшымылан ме нине еҥ ден организаций-влаклан тауштена:
 about-get-involved = Ушнаш
 about-stay-in-touch = Кузе мылам кылыште кодаш?
 about-nav-why-common-voice = Молан?
