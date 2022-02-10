@@ -502,7 +502,13 @@ about-partnership =
     
     Проектым илышыш пурташ полшымылан ме нине еҥ ден организаций-влаклан тауштена:
 about-get-involved = Ушнаш
+about-get-involved-text-2 =
+    Common Voice-ым эшеат сайракым ышташ полшынет?
+    Пеш сай! Мемнан дене электрон почто але форумысо <discourseLink>мутланымаш</discourseLink>
+    гоч кылдалт, сайт шотышто нелылык нерген <githubLink>GitHub</githubLink> гоч увертаре але
+    <matrixLink>Matrix</matrixLink> тӱшкан чатышкыже ушно.
 about-stay-in-touch = Кузе мылам кылыште кодаш?
+about-stay-in-touch-text-1 = Кузе Common Voice капанийлаш, тӱшкасомыллаш, пырля дизайн функцийлаш ушнаш манын, пален налашлан мемнан колтедылмашлан <emailFragment>возалт</emailFragment>.
 about-nav-why-common-voice = Молан?
 about-nav-how-it-works = Кузе?
 about-nav-partners = Партнёр-влак
