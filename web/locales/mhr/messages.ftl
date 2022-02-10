@@ -1129,6 +1129,14 @@ sc-add-lang-sec-label = Йылмым, кудын вийдарымашке шке
 sc-add-lang-sec-button = Йылмым ешараш
 sc-add-err-unexpected = Сервер деч вучыдымо вашмут пӧртылталтын
 # Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Пуымо ойлончо-влак. { $duplicates } ойлончо пачашлалтше семын ӧрдыжтаралтын.
+        [one] пуымо ойлончо. { $duplicates } ойлончо пачашлалтше семын ӧрдыжтаралтын.
+       *[other] пуымо ойлончо. { $duplicates } ойлончо пачашлалтше семын ӧрдыжтаралтын.
+    }
+# Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
