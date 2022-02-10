@@ -565,11 +565,14 @@ about-playbook-how-grow-language-content-8 = <strong>Усталыкым ончы
 ## How to validate
 
 about-playbook-how-validate = Йӱкан клипым чынлаш але уке, кузе пален налаш?
+about-playbook-how-validate-content-1 = Тый <strong>нуным колат</strong> да <strong>умылет</strong> гын, шукыж годым <strong>нуным чынлаш сайрак</strong>.
 about-playbook-how-validate-content-2 = Тыйын дечын ойыртемалтше «акцент дене» ойлышын клипшым ит ӧрдыжтаре — йӱкым пален налмаш чылалан сайын ыштыже манын, тиде кӱлешан.
+about-playbook-how-validate-content-4 = Клипым 2 еҥ ӧрдыжтара гын, тудо датасетын вес ужашыштыже лукталтеш.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Кузе датасетым налаш да кучылташ лиеш?
+about-playbook-how-access-dataset-content-2 = Тылат ASR модельым ышташ ӱзгар кӱлеш гын, тый <discourseLink>Discourse-ышто</discourseLink> тӱшкаш моло ушнышо-влак дене кылдалт кертат.
 
 ## How are decisions made
 
