@@ -504,11 +504,12 @@ about-partnership =
 about-get-involved = Ушнаш
 about-get-involved-text-2 =
     Common Voice-ым эшеат сайракым ышташ полшынет?
-    Пеш сай! Мемнан дене электрон почто але форумысо <discourseLink>мутланымаш</discourseLink>
+    Пеш сай! Мемнан дене электрон почто але форумысо <discourseLink>Discourse</discourseLink>
     гоч кылдалт, сайт шотышто нелылык нерген <githubLink>GitHub</githubLink> гоч увертаре але
     <matrixLink>Matrix</matrixLink> тӱшкан чатышкыже ушно.
 about-stay-in-touch = Кузе мылам кылыште кодаш?
 about-stay-in-touch-text-1 = Кузе Common Voice капанийлаш, тӱшкасомыллаш, пырля дизайн функцийлаш ушнаш манын, пален налашлан мемнан колтедылмашлан <emailFragment>возалт</emailFragment>.
+about-stay-in-touch-text-2 = Темым каҥашашлан <discourseLink>Discourse-ыш</discourseLink> але писе каҥашлан <matrixLink>Matrix</matrixLink> деке ушнен тый Mozilla-н йылме тӱшкалаш моло ушнышо-влак дене палыме лийын кертат.
 about-nav-why-common-voice = Молан?
 about-nav-how-it-works = Кузе?
 about-nav-partners = Партнёр-влак
