@@ -83,7 +83,7 @@ export function replacePathLocale(pathname: string, locale: string) {
 }
 
 export function getManageSubscriptionURL(account: UserClient) {
-  const firstLanguage = account.locales[0];
+  const [firstLanguage] = account.languages;
   return `https://www.mozilla.org/${
     firstLanguage ? firstLanguage.locale + '/' : ''
   }newsletter/existing/${account.basket_token}`;

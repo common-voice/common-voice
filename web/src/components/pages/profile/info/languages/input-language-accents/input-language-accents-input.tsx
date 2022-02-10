@@ -8,7 +8,7 @@ import Downshift from 'downshift';
 
 import { LabeledInput } from '../../../../../ui/ui';
 import { AccentsAll } from '../languages';
-import { UserAccentLocale } from 'common';
+import { UserLanguage } from 'common';
 
 import './input-language-accents.css';
 
@@ -38,8 +38,8 @@ function stateReducer(state: any, changes: any) {
 interface Props {
   locale: string;
   accentsAll: AccentsAll;
-  userLanguages: UserAccentLocale[];
-  setUserLanguages: (userLanguages: UserAccentLocale[]) => void;
+  userLanguages: UserLanguage[];
+  setUserLanguages: (userLanguages: UserLanguage[]) => void;
 }
 
 const InputLanguageAccentsInput = ({
@@ -67,7 +67,7 @@ const InputLanguageAccentsInput = ({
     const accentName = typeof accent === 'string' ? accent : accent.name;
     const accentId = typeof accent === 'string' ? null : accent.id;
 
-    const newLanguages = userLanguages.slice();
+    const newLanguages = userLanguages.slice() as UserLanguage[];
     const languageIndex = newLanguages.findIndex(language => {
       return language.locale === locale;
     });

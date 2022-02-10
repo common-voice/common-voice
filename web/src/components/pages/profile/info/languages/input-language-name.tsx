@@ -3,14 +3,14 @@ import { Localized } from '@fluent/react';
 
 import { LabeledSelect } from '../../../../ui/ui';
 import { NATIVE_NAMES } from '../../../../../services/localization';
-import { UserAccentLocale } from 'common';
+import { UserLanguage } from 'common';
 import { AccentsAll } from './languages';
 
 interface InputLanguageNameProps {
   locale: string;
   accentsAll: AccentsAll;
-  userLanguages: UserAccentLocale[];
-  setUserLanguages: (userLanguages: UserAccentLocale[]) => void;
+  userLanguages: UserLanguage[];
+  setUserLanguages: (userLanguages: UserLanguage[]) => void;
 }
 
 const InputLanguageName = ({
@@ -33,7 +33,7 @@ const InputLanguageName = ({
     newLanguages[languageIndex] = {
       locale: value,
       accents: accentsAll[value] ? [accentsAll[value]?.default] : [],
-    };
+    } as UserLanguage;
 
     if (!value) {
       newLanguages.splice(languageIndex, 1);

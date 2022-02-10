@@ -289,7 +289,7 @@ function downloadAsFile(filename: string, url: string) {
 export function getProfileInfo(account: UserClient) {
   return [
     ...Object.entries(pick(account, 'email', 'username', 'age', 'gender')),
-    ...account.locales.reduce((all, l, i) => {
+    ...account.languages.reduce((all, l, i) => {
       const localeLabel = 'language ' + (i + 1);
       const accents = l.accents
         .slice(1)

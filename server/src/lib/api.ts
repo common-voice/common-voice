@@ -218,7 +218,7 @@ export default class API {
     const enrollment = user.enrollment;
     const userClients: UserClientType[] = [
       { email, enrollment },
-      ...(await UserClient.findAllWithLocales({
+      ...(await UserClient.findAllWithLanguages({
         email,
         client_id,
       })),

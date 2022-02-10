@@ -5,7 +5,7 @@ import { Localized } from '@fluent/react';
 import { useAPI } from '../../../../../hooks/store-hooks';
 import { DownIcon } from '../../../../ui/icons';
 import { Button } from '../../../../ui/ui';
-import { Accent, UserAccentLocale } from 'common';
+import { Accent, UserLanguage } from 'common';
 import { useEffect } from 'react';
 
 import InputLanguageName from './input-language-name';
@@ -22,8 +22,8 @@ export type AccentsAll = {
 };
 
 interface Props {
-  userLanguages: UserAccentLocale[];
-  setUserLanguages: (userLanguages: UserAccentLocale[]) => void;
+  userLanguages: UserLanguage[];
+  setUserLanguages: (userLanguages: UserLanguage[]) => void;
   setAreLanguagesLoading: (value: boolean) => void;
 }
 

@@ -53,7 +53,7 @@ const TopBar = ({
     : 0;
 
   const locales = [''].concat(
-    (account ? account.locales : [])
+    (account ? account.languages : [])
       .map(({ locale }) => locale)
       .filter(l => isContributable(l))
   );
