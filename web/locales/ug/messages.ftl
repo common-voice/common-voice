@@ -451,6 +451,12 @@ about-sentence-collection-subtitle = كىشىلەرنىڭ يۇقىرى ئاۋا�
 about-new-lang-title = يېڭى تىل قوزغىتىلدى
 about-new-lang-subtitle = بىز Common Voice نىڭ تور بېتىنى بۇ تىلدا قوزغىتىمىز.
 about-voice-contrib-title = ئاۋاز تۆھپىسى
+about-voice-contrib-subtitle = كىشىلەر كېلىپ ئاۋازىنى قوشىدۇ.
+about-voice-validation-title = ئاۋاز دەلىللەش
+about-voice-validation-subtitle = باشقا كىشىلەر بۇ ئاۋازلارنى دەلىللەيدۇ.
+about-dataset-release-title = سانلىق مەلۇمات توپلىمى ئېلان قىلىندى
+about-dataset-release-subtitle = بىز سانلىق مەلۇمات توپلىمىنى ھەر 3 ئايدا بىر قېتىم تارقىتىمىز.
+about-subscribe-text = Common Voice بىلەن ئالاقە ساقلاشنى خالامسىز؟
 about-speak = سۆزلەڭ
 about-speak-text = تۆھپىكارلار ئىئانە قىلىنغان جۈملىلەرنى ئوقۇش ئارقىلىق ئاۋازلارنى خاتىرىلەيدۇ.
 about-listen-queue = ئاڭلاش-ئۆچرەت
@@ -480,26 +486,36 @@ about-get-involved-text-2 =
     ناھايىتى ياخشى، ئۇنداقتا ئېلخەت ياكى  <discourseLink>مۇنازىرە</discourseLink> 
     مۇنبىرى ئارقىلىق ئالاقىلىشىڭ، تور بەتتىكى مەسىلىلەرنى <githubLink>GitHub</githubLink> ياكى
      <matrixLink>Matrix</matrixLink> گە يوللاڭ.
+about-stay-in-touch = ئالاقىنى قانداق ساقلاپ قالىمەن؟
 about-nav-why-common-voice = نېمىشقا؟
 about-nav-how-it-works = قانداق؟
 about-nav-partners = ھەمكارلاشقۇچىلار
 about-nav-get-involved = قاتنىشىڭ
+about-nav-how-it-works-2 = Common Voice نىڭ خىزمەت پىرىنسىپى قانداق؟
+about-nav-playbook = قانداق قاتنىشىشنى ئۆگىنىۋېلىڭ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice دا قايسى تىل بار؟
 
 ## How do I add a language
 
+about-playbook-how-add-language = تىلنى قانداق قوشىمەن؟
 
 ## How does localization work
 
+about-playbook-how-localize = بېكەتنى يەرلىكلەشتۈرۈش قانداق ئىلىپ بېرىلىدۇ؟
+about-playbook-how-localize-content-5 = ياردەم قىلىش ئۈچۈن سىن چۈشەندۈرگۈچىمىزنى كۆرۈڭ
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = جۈملىلەرنى قانداق قوشىمەن؟
 
 ## How to record quality
 
+about-playbook-how-record-quality = قانداق قىلغاندا يۇقىرى سۈپەتلىك ئاۋازنى ئۈنگە ئالغىلى بولىدۇ؟
+about-playbook-how-record-content-1 = نورمال ئاۋازىڭىزدا سۆزلەڭ! بۇ يەردە سىزنىڭ ئەسلىدىكى سۆزلەش ئۇسۇلىڭىزنى قارشى ئالىمىز - تەلەپپۇزىڭىزنىڭ ئەسلىدىكىدەك بولىشىنى ئۈمۈد قىلىمىز ، ھەمدە ئادەتتىكى ئاۋاز چوڭلۇقى، ئۇسلۇبىڭىز ۋە ئىنتوناتسىيەرىڭىزنى ئۈمىد قىلىمىز.
 
 ## How to grow language
 
