@@ -894,6 +894,40 @@ export default class DB {
     )[0][0].count;
   }
 
+  async getVariants(client_id: string, locale?: string) {
+    const [variants] = await this.mysql.query(
+      `
+      SELECT name as lang, variant_token AS token, v.id AS variant_id, variant_name, v.user_submitted FROM variants v
+      LEFT JOIN locales ON a.locale_id = locales.id
+      `
+    );
+
+    const mappedVariants = variants.reduce((acc: any, curr: any) => {
+      if (!acc[curr.token]) {
+        acc[curr.token] = [];
+      }
+
+      const variant = {
+        id: curr.variant_id,
+        token: curr.token,
+        name: curr.variant_name,
+      };
+
+      if (curr.variant_name === '') {
+        // Each language has a default variant placeholder for unspecified variants
+        acc[curr.lang].default = variant;
+      } else if (curr.user_submitted) {
+        // Note: currently the query only shows the user values that they created
+        acc[curr.lang].userGenerated[curr.variant_id] = variant;
+      } else {
+        acc[curr.lang].preset[curr.variant_id] = variant;
+      }
+
+      return acc;
+    }, {});
+
+    return mappedVariants;
+  }
   async getAccents(client_id: string, locale?: string) {
     const [accents] = await this.mysql.query(
       `
