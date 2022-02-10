@@ -145,6 +145,7 @@ scn = Siciliano
 shi = Tachelhit
 si = Cingalês
 sk = Eslovaco
+skr = Saraiki
 sl = Esloveno
 so = Somali
 sq = Albanês
@@ -1210,11 +1211,8 @@ sc-rejected-none-found = Nenhuma frase rejeitada encontrada!
 ## STATS
 
 sc-stats-title = Estatisticas
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Última atualização: { $lastUpdate }
-sc-stats-last-update-never = Última atualização: nunca
 sc-stats-updating = Atualizando…
+sc-stats-error = Não foi possível buscar as estatísticas. Tente novamente mais tarde.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1306,6 +1304,8 @@ sc-confirm-uploading = As frases estão sendo enviadas. Isso pode demorar vário
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Total
+sc-lang-info-title-personal = Pessoal
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
