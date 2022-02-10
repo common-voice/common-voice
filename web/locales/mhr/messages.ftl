@@ -1116,8 +1116,10 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = Кушечын нине <wikipediaLink>чылалан кучылташ лийше</wikipediaLink> ойлончо-влак?
 sc-submit-ph-read-how-to =
     .placeholder = Кузе атрибутлаш от пале гын, мемнан полышым лудын лек
+sc-submit-confirm = Нине ойлончо-влак <wikipediaLink>калык поянлык</wikipediaLink> улыт манын, мый чынлем, да нуным вераҥдашлан мыйын кӧнымаш уло.
 sc-submit-button =
     .submitText = Пуаш
+sc-submit-filtered = Ойлончо-влак кӱштымашым шуктыдымылан кӧра ойырымо (порылий, тӧрлымӧ версийым у ойлончо семын колто):
 sc-submit-guidelines = Порылий, <howToLink>темлымаш</howToLink> дене палыме лий.
 
 ## ADD LANGUAGE
