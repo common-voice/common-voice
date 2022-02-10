@@ -491,7 +491,8 @@ export default class DB {
     id: string,
     auth_token?: string
   ): Promise<boolean> {
-    const guidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/;
+    const guidRegex =
+      /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/;
     const authRegex = /^\w{40}$/;
 
     if (!guidRegex.test(id) || (auth_token && !authRegex.test(auth_token))) {
@@ -826,9 +827,7 @@ export default class DB {
   }
 
   async findRequestedLanguageId(language: string): Promise<number | null> {
-    const [
-      [row],
-    ] = await this.mysql.query(
+    const [[row]] = await this.mysql.query(
       'SELECT * FROM requested_languages WHERE LOWER(language) = LOWER(?) LIMIT 1',
       [language]
     );
@@ -856,9 +855,7 @@ export default class DB {
   }
 
   async getUserClient(client_id: string) {
-    const [
-      [row],
-    ] = await this.mysql.query(
+    const [[row]] = await this.mysql.query(
       'SELECT * FROM user_clients WHERE client_id = ?',
       [client_id]
     );
@@ -897,7 +894,7 @@ export default class DB {
   async getVariants(client_id: string, locale?: string) {
     const [variants] = await this.mysql.query(
       `
-      SELECT name as lang, variant_token AS token, v.id AS variant_id, variant_name, v.user_submitted FROM variants v
+      SELECT name as lang, variant_token AS token, v.id AS variant_id, variant_name FROM variants v
       LEFT JOIN locales ON a.locale_id = locales.id
       `
     );
@@ -916,9 +913,6 @@ export default class DB {
       if (curr.variant_name === '') {
         // Each language has a default variant placeholder for unspecified variants
         acc[curr.lang].default = variant;
-      } else if (curr.user_submitted) {
-        // Note: currently the query only shows the user values that they created
-        acc[curr.lang].userGenerated[curr.variant_id] = variant;
       } else {
         acc[curr.lang].preset[curr.variant_id] = variant;
       }
