@@ -104,6 +104,8 @@ const TopBar = ({
                 path
               }>
               <Localized id={label}>
+                {/* Localized injects content into child tag */}
+                {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
                 <h2 />
               </Localized>
             </LocaleNavLink>

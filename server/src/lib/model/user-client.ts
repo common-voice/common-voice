@@ -63,8 +63,8 @@ const generateAccentToken = (accent: string) => {
   return accent
     .trim()
     .toLowerCase()
-    .replace(/[\.,;\?\!'"]/g, '')
-    .replace(/[\s-_\(\)\[\]\<\>`]/g, '-')
+    .replace(/[.,;?!'"]/g, '')
+    .replace(/[\s-_()[\]<>`]/g, '-')
     .replace(/(-)(?=\1)/g, '-');
 };
 
@@ -180,9 +180,7 @@ async function updateLocales(
           ]
         );
 
-        const [
-          [newAccent],
-        ] = await db.query(
+        const [[newAccent]] = await db.query(
           `SELECT id FROM accents WHERE locale_id = ? AND accent_name = ? AND user_submitted`,
           [localeId, accent.accent_name]
         );
@@ -399,7 +397,7 @@ const UserClient = {
     email: string,
     { client_id, locales, ...data }: UserClientType
   ): Promise<UserClientType> {
-    let [accountClientId, [clients]] = await Promise.all([
+    const [accountClientId, [clients]] = await Promise.all([
       UserClient.findClientId(email),
       email
         ? db.query(
@@ -409,9 +407,8 @@ const UserClient = {
         : [],
     ]);
 
-    if (!accountClientId) {
-      accountClientId = client_id;
-    }
+    const clientId = accountClientId || client_id;
+
     const clientIds = clients.map((c: any) => c.client_id).concat(client_id);
 
     const userData = await Promise.all(
@@ -425,20 +422,20 @@ const UserClient = {
       `
         UPDATE user_clients
         SET ${userData.join(', ')}
-        WHERE client_id = '${accountClientId}'
+        WHERE client_id = '${clientId}'
       `
     );
-    // the accountClientId can't be a placeholder value otherwise it'll
+    // the clientId can't be a placeholder value otherwise it'll
     // treat any ? in the username or email as a placeholder also and the query will break
     const updateDemographicsPromise = updateDemographics(
-      accountClientId,
+      clientId,
       data.age,
       data.gender
     );
     await Promise.all([
       updateDemographicsPromise,
-      this.claimContributions(accountClientId, clientIds),
-      locales && updateLocales(accountClientId, locales),
+      this.claimContributions(clientId, clientIds),
+      locales && updateLocales(clientId, locales),
     ]);
 
     if (
@@ -480,9 +477,7 @@ const UserClient = {
   },
 
   async updateSSO(old_email: string, email: string): Promise<boolean> {
-    const [
-      [row],
-    ] = await db.query(
+    const [[row]] = await db.query(
       'SELECT 1 FROM user_clients WHERE email = ? AND has_login',
       [email]
     );
@@ -580,11 +575,10 @@ const UserClient = {
    */
 
   async updateAvatarURL(email: string, url: string) {
-    const [
-      [origAvatar],
-    ] = await db.query('SELECT avatar_url FROM user_clients WHERE email = ?', [
-      email,
-    ]);
+    const [[origAvatar]] = await db.query(
+      'SELECT avatar_url FROM user_clients WHERE email = ?',
+      [email]
+    );
 
     await db.query('UPDATE user_clients SET avatar_url = ? WHERE email = ?', [
       url,
@@ -616,9 +610,7 @@ const UserClient = {
   },
 
   async findClientId(email: string): Promise<null | string> {
-    const [
-      [row],
-    ] = await db.query(
+    const [[row]] = await db.query(
       'SELECT client_id FROM user_clients WHERE email = ? AND has_login',
       [email]
     );

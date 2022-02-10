@@ -6,7 +6,7 @@ import {
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { CloudIcon, MicIcon, UserIcon, RedoIcon } from '../../../ui/icons';
-import { Button, LabeledCheckbox } from '../../../ui/ui';
+import { Button } from '../../../ui/ui';
 import './download.css';
 import API from '../../../../services/api';
 import { useAccount, useAPI } from '../../../../hooks/store-hooks';
@@ -14,6 +14,8 @@ import { TakeoutRequest, TakeoutState, UserClient, Accent } from 'common';
 import { byteToSize } from '../../../../utility';
 import Modal, { ModalProps } from '../../../modal/modal';
 
+// TODO: remove pick
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const pick = require('lodash.pick');
 
 // you can request a new takeout every 7 days
@@ -57,7 +59,6 @@ const Item = ({
   className = '',
   disabledReason = '',
   isDisabled = false,
-  children,
   ...props
 }: {
   icon: React.ReactNode;
@@ -69,7 +70,6 @@ const Item = ({
   className?: string;
   isDisabled?: boolean;
   disabledReason?: string;
-  children?: React.ReactNode;
 }) => {
   return (
     <div className={'download-item' + className} {...props}>
@@ -228,17 +228,26 @@ const LinkModal = ({
         {links.length && (
           <ul>
             {links[0].map((link: string, i: number) => (
-              <li>
+              <li key={i}>
                 <Localized
                   id="download-request-link-text"
                   vars={{ offset: i + 1, total: links[0].length }}>
-                  <a key={link} href={link} target="_blank" />
+                  {/* Localized injects content into child tag */}
+                  {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+                  <a key={link} href={link} target="_blank" rel="noreferrer" />
                 </Localized>
               </li>
             ))}
             <li>
               <Localized id="download-request-metadata-link">
-                <a key={links[1]} href={links[1]} target="_blank" />
+                {/* Localized injects content into child tag */}
+                {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+                <a
+                  key={links[1]}
+                  href={links[1]}
+                  target="_blank"
+                  rel="noreferrer"
+                />
               </Localized>
             </li>
           </ul>
@@ -310,7 +319,7 @@ function download(
   if (type === 'clips')
     api
       .requestTakeout()
-      .then((data: any) => forceTakeoutRefresh())
+      .then(() => forceTakeoutRefresh())
       .catch((err: any) => console.error(err));
 }
 

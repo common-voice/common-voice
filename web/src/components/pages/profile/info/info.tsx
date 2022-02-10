@@ -58,7 +58,7 @@ type UserAccentLocales = UserAccentLocale[];
 function ProfileInfo({
   getString,
   history,
-}: WithLocalizationProps & RouteComponentProps<any, any, any>) {
+}: WithLocalizationProps & RouteComponentProps) {
   const api = useAPI();
   const [locale, toLocaleRoute] = useLocale();
   const user = useTypedSelector(({ user }) => user);
