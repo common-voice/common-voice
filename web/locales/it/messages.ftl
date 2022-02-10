@@ -525,25 +525,41 @@ about-nav-playbook = Scopri come partecipare
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Che cos’è una lingua in Common Voice?
+about-playbook-what-is-language-content-1 = Ci sono molti modi per definire che cos’è una lingua. Nell’ambito dei modelli di riconoscimento vocale, Common Voice suggerisce di concentrarsi sulla “comprensibilità reciproca”, cioè “le persone che parlano questa lingua riescono a capirsi se provano a comunicare tra loro?”
 about-playbook-what-is-language-content-2 = Vogliamo modelli vocali che riescano a comprendere al meglio un’ampia gamma di interlocutori. Perché ciò accada, un dataset vocale deve includere molte persone diverse.
+about-playbook-what-is-language-content-3 = Alcune lingue hanno una variabilità enorme nella grammatica, nel vocabolario e nella pronuncia. Per questo motivo, nel 2022 <ctaLink>introdurremo le “varianti”</ctaLink>. Questo offrirà alle comunità un modo per distinguere le loro lingue all’interno di un dataset più ampio.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Come posso aggiungere una lingua?
 about-playbook-how-add-language-content-1 = Innanzitutto, controlla se la tua lingua <languageLink>esiste già</languageLink>. In caso contrario sarà necessario <strong>tradurre il sito e raccogliere frasi</strong>.
+about-playbook-how-add-language-content-2 = <strong>Per tradurre il sito</strong>: <translateVideo>configura</translateVideo> un account in <pontoonLink>Pontoon</pontoonLink>. Pontoon include già molte lingue, ma se la tua non è disponibile puoi <pontoonRequestLink>richiedere di aggiungerla</pontoonRequestLink>. Quindi chiedi <repoLink>tramite GitHub</repoLink> di rendere disponibile il progetto Common Voice per la tua lingua. Scopri di più sulla <localizationFragment>traduzione del sito</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Per raccogliere frasi</strong>: <scVideo>configura</scVideo> un profilo nel <scLink>Sentence Collector</scLink>.
+about-playbook-how-add-language-content-4 = Puoi <scLinkAdd>aggiungere un numero limitato</scLinkAdd> di frasi qui, oppure puoi eseguire <bulkImportDocsLink>importazioni in blocco</bulkImportDocsLink> tramite una richiesta Github. Ricorda che le frasi devono essere disponibili con licenza <licenseLink>CC0 (o di pubblico dominio)</licenseLink>, oppure puoi scriverle tu. Scopri di più sulla <scFragment>raccolta di frasi</scFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Come funziona la localizzazione del sito?
+about-playbook-how-localize-content-1 = La traduzione del sito di Common Voice avviene in <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Crea un account</pontoonAccountLink>, se non ne hai già uno. Quindi scegli il <strong>team</strong> della tua lingua e poi il progetto <pontoonCvLink>Common Voice</pontoonCvLink>. Ci saranno dei file da tradurre: facendo clic su uno di questi potrai visualizzare le parole in inglese e un campo di testo per tradurle.
+about-playbook-how-localize-content-3 = La traduzione è dall’inglese, ma puoi visualizzare <strong>suggerimenti</strong> in altre lingue. Fai clic sull’icona del <strong>profilo</strong>, quindi sul link delle <strong>impostazioni</strong> (“Settings”) e aggiungi le lingue che conosci. Nell’angolo in basso a destra ci sarà un elenco di traduzioni chiamato <strong>Locales</strong>. Le traduzioni vengono visualizzate sul sito il giorno successivo.
+about-playbook-how-localize-content-4 = Il sito è pronto per il lancio quando raggiunge il 75% di completamento.
 about-playbook-how-localize-content-5 = Guarda il nostro video esplicativo
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Come posso aggiungere frasi?
+about-playbook-how-add-sentences-content-1 = Il <strong>Sentence Collector</strong> è uno strumento per raccogliere e convalidare frasi di pubblico dominio. Dovrai <scAccountLink>creare un account</scAccountLink> e aggiungere la tua lingua al tuo <strong>profilo</strong>. Puoi <strong>aggiungere</strong> frasi o <strong>convalidare</strong> frasi aggiunte in precedenza.
+about-playbook-how-add-sentences-content-2 = Le frasi devono essere convalidate e accettate da due persone per essere incluse in Common Voice. Puoi creare delle linee guida per la tua lingua <languageGuidelinesLink>qui</languageGuidelinesLink>. Le frasi devono essere di <licenseLink>pubblico dominio</licenseLink> e avere meno di 15 parole. Puoi chiedere al proprietario di un testo di renderlo <waiverLink>CC0 utilizzando la nostra procedura di deroga</waiverLink> e inviarcelo a commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Puoi utilizzare il <scraperLink>Sentence extractor</scraperLink> per ottenere brevi frasi da Wikipedia.
+about-playbook-how-add-sentences-content-4 = Le frasi che sono state convalidate vengono esportate di mercoledì e sono disponibili a partire dalla versione successiva.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Come posso ottenere una registrazione vocale di alta qualità?
+about-playbook-how-record-content-1 = Parla con la tua voce normale. Il modo in cui parli è il benvenuto qui: vogliamo il tuo accento così com’è e vogliamo il tuo solito volume, stile e intonazione.
+about-playbook-how-record-content-2 = Evita un eccessivo rumore di fondo: dev’essere facile sentirti.
 about-playbook-how-record-content-3 = Leggi la frase attentamente: non tralasciare, modificare o aggiungere parole.
 about-playbook-how-record-content-4 = Assicurati che la piattaforma stia registrando prima di iniziare a parlare e che si fermi solo quando hai finito.
 about-playbook-how-record-content-5 = <accuracyLink>Scopri di più sui criteri di convalida.</accuracyLink>
