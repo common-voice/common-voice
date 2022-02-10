@@ -274,6 +274,10 @@ avatar = اواتار
 settings = ترتیباں
 profile-close = بند کرو
 accept-privacy-title = رازداری پالیسی
+login-identity = لاگ ان سُن٘ڄاݨ
+login-signup = لاگ ان/ سائن اپ
+edit = تبدیلی کرو
+download-profile = میݙا ڈیٹا ڈاؤن لوڈ کرو
 off = بند
 on = چالو
 
