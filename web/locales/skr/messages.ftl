@@ -194,6 +194,7 @@ logout = لاگ آؤٹ
 show-wall-of-text = ٻیا پڑھو
 vote-yes = جیا
 vote-no = کو
+todays-progress = اڄ دی ترقی
 all-locales = سارے
 today = اڄ
 x-weeks-short =
@@ -243,11 +244,16 @@ shortcut-vote-no = کو
 shortcut-record-toggle = ریکارڈ
 shortcut-record-toggle-label = ریکارڈ/رکو
 shortcut-rerecord-toggle = [1-5]
+shortcut-discard-ongoing-recording = اسکیپ
 shortcut-submit = واپس ون٘ڄو
 shortcut-submit-label = کلپ جمع کرواؤ
+request-language-button = زبان دی ارداس کرو
 
 ## ProjectStatus
 
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = اڳلا مقصد: { $goal }
 english = انگریزی
 
 ## ProfileForm
@@ -279,7 +285,9 @@ other = ٻیا
 dashboard = ڈیش بورڈ
 build-profile = پروفائل بݨاؤ
 avatar = اواتار
+goals = مقاصد
 settings = ترتیباں
+edit-profile = پروفائل وچ تبدیلی کرو
 profile-close = بند کرو
 accept-privacy-title = رازداری پالیسی
 login-identity = لاگ ان سُن٘ڄاݨ
