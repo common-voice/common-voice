@@ -548,6 +548,9 @@ about-playbook-how-record-content-5 = <accuracyLink>Scopri di più sui criteri d
 ## How to grow language
 
 about-playbook-how-grow-language = Qual è il modo più efficace per far crescere una lingua su Common Voice?
+about-playbook-how-grow-language-content-2 = Eventi
+about-playbook-how-grow-language-content-3 = Puoi organizzare eventi per aiutare le persone a contribuire. È più facile di quanto pensi. Puoi farlo online con uno strumento di videoconferenza o di persona, se è sicuro. <eventTemplate>Consulta i nostri modelli e le nostre risorse per l’organizzazione di eventi</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Social media
 
 ## How to validate
 
@@ -1174,6 +1177,7 @@ sc-rejected-none-found = Nessuna frase rifiutata trovata.
 
 sc-stats-title = Statistiche
 sc-stats-updating = Aggiornamento…
+sc-stats-error = Impossibile recuperare le statistiche. Riprova più tardi.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1265,6 +1269,8 @@ sc-confirm-uploading = Le frasi sono in fase di caricamento. Questa operazione p
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Totale
+sc-lang-info-title-personal = Personale
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1392,3 +1398,5 @@ sc-validation-no-abbreviations = La frase non deve contenere abbreviazioni
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Scegli lingua/localizzazione
