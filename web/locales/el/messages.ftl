@@ -145,6 +145,7 @@ scn = Σικελικά
 shi = Σίλα
 si = Σινχαλέζικα
 sk = Σλοβακικά
+skr = Σαραϊκά
 sl = Σλοβενικά
 so = Σομαλικά
 sq = Αλβανικά
@@ -160,6 +161,7 @@ ti = Τιγκρινιακά
 tig = Τίγκρε
 tk = Τουρκμενικά
 tl = Τάγκαλογκ
+tok = Τόκι Πόνα
 tr = Τουρκικά
 tt = Ταταρικά
 tw = Τουί
@@ -553,6 +555,7 @@ about-playbook-how-grow-language-content-6 = Συνεργασίες και δί�
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Πώς λαμβάνονται οι αποφάσεις για τα έργα;
 about-playbook-how-project-governance-content-3 = Απόρρητο, ασφάλεια και διαφάνεια.
 about-playbook-how-project-governance-content-5 = Αξία και αναγνώριση.
 about-playbook-how-project-governance-content-6 = Αμοιβαία ευθύνη.
@@ -1125,10 +1128,6 @@ sc-rejected-loading = Φόρτωση απορριφθεισών προτάσεω
 ## STATS
 
 sc-stats-title = Στατιστικά
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Τελευταία ενημέρωση: { $lastUpdate }
-sc-stats-last-update-never = Τελευταία ενημέρωση: ποτέ
 sc-stats-updating = Ενημέρωση…
 
 ## ADD
@@ -1180,6 +1179,7 @@ sc-confirm-button-text = Επιβεβαίωση
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Σύνολο
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1264,3 +1264,5 @@ sc-validation-no-abbreviations = Η πρόταση δεν πρέπει να πε
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Επιλογή γλώσσας/μετάφρασης

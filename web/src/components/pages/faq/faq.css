@@ -271,7 +271,7 @@
                 padding-inline-start: 24px;
                 padding-inline-end: 5px;
                 @media (--xs-down) {
-                    padding: 0px 5px 0 16px;
+                    padding: 0 5px 0 16px;
                 }
             }
 
@@ -382,7 +382,7 @@
                 margin-bottom: 30px;
 
                 @media (--sm-down) {
-                    margin-bottom: 0px;
+                    margin-bottom: 0;
                 }
 
                 & p {
@@ -434,7 +434,7 @@
                 width: 100%;
 
                 @media (--sm-down) {
-                    margin-bottom: 0px;
+                    margin-bottom: 0;
                 }
 
                 & p {
@@ -457,7 +457,7 @@
         }
 
         &:last-child {
-            padding-bottom: 0rem;
+            padding-bottom: 0;
         }
     }
 

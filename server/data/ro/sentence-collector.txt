@@ -5181,12 +5181,17 @@ Dar despre ce este vorba până la urmă?
 Dar dispunem de punctul de lansare necesar.
 Dar doresc să repet că problema este rezolvată.
 Dar e greu cu Bergodi.
+Dar el nu m-a ascultat.
 Dar era clar că acest lucru trebuie făcut.
 Dar este acesta un motiv de sărbătoare?
 Dar este vorba doar de bani?
+Dar eu am auzit-o.
 Dar eu am continuat, deși era destul de ciudată pentru ei alegerea mea.
+Dar eu am prins-o.
+Dar eu am salvat-o.
 Dar eu mă declar ferm împotriva acestei alegeri.
 Dar eu nu sunt un legislator lituanian!
+Dar eu nu te-am ascultat.
 Dar haideţi să clarificăm următorul aspect.
 Dar haideți să nu ne înșelăm.
 Dar investitorii privați au plecat în altă parte.
@@ -6487,6 +6492,7 @@ Ea funcţionează cu o independenţă absolută.
 Ea funcționează cu o independență absolută.
 Ea necesită acum o abordare integrată.
 Ea nu este microbistă, dar cunoaște opțiunea mea și mă înțelege.
+Ea nu m-a ascultat.
 Ea nu operează într-un vid juridic.
 Ea nu reprezintă o chestiune nouă.
 Ea poate conduce la moartea animalelor.
@@ -6579,7 +6585,9 @@ El coboară din mașină și dă actele, inclusiv ale șoferului, la control.
 El crede că dublarea nu este neapărat un dezavantaj pentru italieni.
 El mi-a spus odată că are o firmă de pază.
 El nu a explicat de ce karzai a renunțat la deplasare.
+El nu mi-a spus numele ei.
 El nu se încadrează în peisajul european.
+El nu te-a recunoscut.
 El reprezintă districtul treisprezece, care include cartierul Queens.
 El reprezintă începutul în materie de legislație.
 El s-a confruntat cu numeroase acuzaţii de părtinire.
@@ -6627,6 +6635,7 @@ Era slăbit și avea simptome de gripă.
 Era un parlament care nu avea nicio putere.
 Era un singur zid de protecție.
 Eram de partea lor sau de partea bancherilor?
+Eram doar un copil.
 Erau acolo şi copii, femei, refugiaţi?
 Erau epuizați, stresați, nemâncați.
 Erau înarmați, am crezut că s-a întâmplat ceva grav.
@@ -11384,6 +11393,7 @@ Spun un "nu” răspicat, atunci, acestui raport.
 Spune cu franchețe și cumpătare salvamontistul sportiv, fost vicecampion mondial la karate.
 Spune că e imposibil să întreprindă ceva.
 Spune tânăra cântăreață.
+Spune-mi, cine te-a trimis?
 Spunem că aceste probleme pot fi rezolvate.
 Spunem că vrem să ne facem datoria.
 Spuneţi că va exista o comunicare şi acţiuni.
@@ -12003,6 +12013,7 @@ Totodată, însă, suportă cele mai grave consecinţe.
 Totul a fost mereu foarte vag şi incoerent.
 Totul este bine când se sfârşeşte cu bine.
 Totul este la fel ca şi înainte.
+Totul s-a terminat.
 Totul se află pe lista de vot.
 Totul se reduce la birocraţie versus democraţie.
 Totul va continua ca și înainte.

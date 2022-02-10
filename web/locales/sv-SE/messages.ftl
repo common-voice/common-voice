@@ -145,6 +145,7 @@ scn = Sicilianska
 shi = Shilha
 si = Singalesiska
 sk = Slovakiska
+skr = Saraiki
 sl = Slovenska
 so = Somaliska
 sq = Albanska
@@ -160,6 +161,7 @@ ti = Tigrinska
 tig = Tigre
 tk = Turkmeniska
 tl = Tagalog
+tok = Toki Pona
 tr = Turkiska
 tt = Tatariska
 tw = Twi
@@ -1078,8 +1080,12 @@ contribution-criteria-page-description = Förstå vad du ska leta efter när du 
 contribution-for-example = till exempel
 contribution-misreadings-title = Felläsningar
 contribution-misreadings-description = När du lyssnar, kontrollera mycket noga att det som har spelats in är exakt det som har skrivits; avvisa om det är mindre fel.<br />Mycket vanliga fel inkluderar:
+contribution-misreadings-description-extended-list-1 = Saknar <strong>'En'</strong> eller <strong>'Den'</strong> i början av inspelningen.
 contribution-misreadings-description-extended-list-4 = Slutet på det sista ordet saknades eftersom inspelningen avbröts för snabbt.
 contribution-misreadings-description-extended-list-5 = Gör flera försök med att läsa ett ord.
+contribution-misreadings-example-1-title = De enorma dinosaurierna i Trias.
+contribution-misreadings-example-2-title = Den enorma dinosaurien i Trias.
+contribution-misreadings-example-2-explanation = [Ska vara "dinosaurier"]
 contribution-misreadings-example-3-explanation = [Inspelning avbruten före slutet av det sista ordet]
 contribution-misreadings-example-4-explanation = [Mer har spelats in än den obligatoriska texten]
 contribution-misreadings-example-8-explanation = [Felaktigt innehåll]
@@ -1205,11 +1211,8 @@ sc-rejected-none-found = Inga avvisade meningar hittades!
 ## STATS
 
 sc-stats-title = Statistik
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Senaste uppdatering: { $lastUpdate }
-sc-stats-last-update-never = Senaste uppdatering: aldrig
 sc-stats-updating = Uppdaterar…
+sc-stats-error = Vi kunde inte hämta statistiken. Vänligen försök igen senare.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1301,6 +1304,8 @@ sc-confirm-uploading = Meningar laddas upp. Detta kan ta flera minuter beroende 
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Totalt
+sc-lang-info-title-personal = Personlig
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =

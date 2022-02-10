@@ -539,6 +539,8 @@ about-playbook-how-grow-language-content-4 = 社交媒体
 ## How are decisions made
 
 about-playbook-how-project-governance-content-3 = 隐私、安全和透明度。
+about-playbook-how-project-governance-content-4 = 社区参与决策。
+about-playbook-how-project-governance-content-6 = 相互问责。
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智能
 mycroft-description = Mycroft 是全球第一个开源语音助手，不论是在桌面电脑、汽车、树莓派（Raspberry Pi）或是任何地方都能运行。
@@ -1343,3 +1345,5 @@ sc-validation-no-abbreviations = 句子不应包含缩写
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = 选择语言 / 语系

@@ -36,7 +36,6 @@ ba = باشقىرتچە
 bas = باساچە
 be = بېلورۇسچە
 bg = بۇلغارچە
-bm = بامباراچە
 bn = بېنگالچە
 br = بىرېتونچە
 bxr = بۇرياتچە
@@ -355,6 +354,8 @@ skip-submission-description = تۆھپىڭىز تاپشۇرۇش جەريانىد
 skip-submission-note = ئەسكەرتىش: سىز يەنىلا سۆزلەش ياكى ئاڭلاشنى تاللاپ تۆھپە قوشۇش ئۇسۇلىنى تاللىشىڭىز كېرەك.
 off = تاقاق
 on = ئوچۇق
+help-accent = تەلەپپۇزدا ئازراق ياردەم كېرەكمۇ؟
+help-accent-explanation = تەلەپپۇزىڭىز سىزنىڭ سۆزلەرنى قايسى يوسۇندا تەلەپپۇز قىلىش ئۇسۇلىڭىز. ئۇ سىز ياشىغان جاي ، سىز سۆزلەيدىغان باشقا تېللار قاتارلىق باشقا نۇرغۇن ئامىللارنىڭ تەسىىرگە ئۇچۇرغان بولىدۇ. بۇنىڭغا مۇناسىۋەتلىك دەپ قارىغان ئۇچۇرلارنى بۇ يەردە ئورتاقلىشالايسىز.
 
 ## Profile - Email
 
@@ -437,12 +438,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = نېمە ئۈچۈن Common Voice؟
-about-subtitle = Common Voice موزىللانىڭ ماشىنىلارغا كىشىلەرنىڭ قانداق سۆزلەيدىغىنىنى ئۆگىتىشتىكى تەشەببۇسىنىڭ بىر قىسمى. بۇنى ئىشلىتىپ بىز يەنە «Deep Speech» دەيدىغان ئوچۇق كودلۇق ئاۋاز تونۇش سىستېمىسى ياساۋاتىمىز.
-about-header-description =
-    بۇ ئىككى تۈر بىزنىڭ رەقەملىك سۆزلەش پەرقىنى تۈگىتىش تىرىشچانلىقىمىزنىڭ بىر قىسمى. ئاۋاز پەرقلەندۈرۈش تېخنىكىسى ئۈسكۈنىلىرىمىزگە جان ئېلىپ كېلىدۇ ، ئەمما ئاچقۇچىلار بۇلارنى ئەمەلگە ئاشۇرۇش ئۈچۈن غايەت زور بولغان ئاۋاز ئامبىرىغا موھتاج. ھازىر، بۇ خىلدىكى سانلىق مەلۇماتلارنىڭ كۆپىنچىسى باھاسى قىممەت ۋە ياكى باشقىلارنىڭ ئىگىدارچىلىقىدا.
-    بىز ئاۋازلىق سانلىق مەلۇماتلارنى ئەركىن ۋە پايدىلىنىشقا ئېچىۋېتىلگەن قىلماقچى ، ھەمدە سانلىق مەلۇماتلارنىڭ كۆپ خىلدىكى ھەقىقىي ئادەمگە ۋەكىللىك قىلىشىنى كاپالەتكە ئىگە قىلماقچى، بىز بىرلىكتە ئاۋاز تونۇتۇشنى تېخىمۇ ياخشى ئىمكانىيەتكە ئىگە قىلالايمىز.
-how-does-it-work-title = ئۇ قانداق ئىشلەيدۇ؟
+how-does-it-work-title-v2 = Common Voice نىڭ خىزمەت پىرىنسىپى قانداق؟
 how-does-it-work-text = بىز ئوچۇق مەنبەلىك ئاۋاز ئامبىرى توپلاۋاتىمىز. ئاۋازىڭىزنى تەقدىم قىلىڭ، باشقىلارنىڭ ئاۋازىنىڭ توغرىلىقىنى دەلىللەڭ، ھەممەيلەن پايدىلىنىشى ئۈچۈن ئامبارنى تېخىمۇ ياخشىلاڭ.
+
+## How does it work section
+
+about-language-req-subtitle = بەزىلەر تىل قوشۇشنى تەلەپ قىلىدۇ.
+about-localization-title = تور بېكەتنى يەرلىكلەشتۈرۈش
+about-localization-subtitle = تور بېكەت تېكىستى شۇ تىلغا تەرجىمە قىلىنىدۇ.
+about-sentence-collection-title = جۈملە توپلىمى
+about-sentence-collection-subtitle = كىشىلەرنىڭ يۇقىرى ئاۋازدا ئوقۇشى ئۈچۈن جۈملىلەر توپلىنىدۇ.
+about-new-lang-title = يېڭى تىل قوزغىتىلدى
+about-new-lang-subtitle = بىز Common Voice نىڭ تور بېتىنى بۇ تىلدا قوزغىتىمىز.
+about-voice-contrib-title = ئاۋاز تۆھپىسى
+about-voice-contrib-subtitle = كىشىلەر كېلىپ ئاۋازىنى قوشىدۇ.
+about-voice-validation-title = ئاۋاز دەلىللەش
+about-voice-validation-subtitle = باشقا كىشىلەر بۇ ئاۋازلارنى دەلىللەيدۇ.
+about-dataset-release-title = سانلىق مەلۇمات توپلىمى ئېلان قىلىندى
+about-dataset-release-subtitle = بىز سانلىق مەلۇمات توپلىمىنى ھەر 3 ئايدا بىر قېتىم تارقىتىمىز.
+about-subscribe-text = Common Voice بىلەن ئالاقە ساقلاشنى خالامسىز؟
 about-speak = سۆزلەڭ
 about-speak-text = تۆھپىكارلار ئىئانە قىلىنغان جۈملىلەرنى ئوقۇش ئارقىلىق ئاۋازلارنى خاتىرىلەيدۇ.
 about-listen-queue = ئاڭلاش-ئۆچرەت
@@ -472,10 +486,56 @@ about-get-involved-text-2 =
     ناھايىتى ياخشى، ئۇنداقتا ئېلخەت ياكى  <discourseLink>مۇنازىرە</discourseLink> 
     مۇنبىرى ئارقىلىق ئالاقىلىشىڭ، تور بەتتىكى مەسىلىلەرنى <githubLink>GitHub</githubLink> ياكى
      <matrixLink>Matrix</matrixLink> گە يوللاڭ.
+about-stay-in-touch = ئالاقىنى قانداق ساقلاپ قالىمەن؟
 about-nav-why-common-voice = نېمىشقا؟
 about-nav-how-it-works = قانداق؟
 about-nav-partners = ھەمكارلاشقۇچىلار
 about-nav-get-involved = قاتنىشىڭ
+about-nav-how-it-works-2 = Common Voice نىڭ خىزمەت پىرىنسىپى قانداق؟
+about-nav-playbook = قانداق قاتنىشىشنى ئۆگىنىۋېلىڭ
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Common Voice دا قايسى تىل بار؟
+
+## How do I add a language
+
+about-playbook-how-add-language = تىلنى قانداق قوشىمەن؟
+
+## How does localization work
+
+about-playbook-how-localize = بېكەتنى يەرلىكلەشتۈرۈش قانداق ئىلىپ بېرىلىدۇ؟
+about-playbook-how-localize-content-5 = ياردەم قىلىش ئۈچۈن سىن چۈشەندۈرگۈچىمىزنى كۆرۈڭ
+
+## How to add sentences
+
+about-playbook-how-add-sentences = جۈملىلەرنى قانداق قوشىمەن؟
+
+## How to record quality
+
+about-playbook-how-record-quality = قانداق قىلغاندا يۇقىرى سۈپەتلىك ئاۋازنى ئۈنگە ئالغىلى بولىدۇ؟
+about-playbook-how-record-content-1 = نورمال ئاۋازىڭىزدا سۆزلەڭ! بۇ يەردە سىزنىڭ ئەسلىدىكى سۆزلەش ئۇسۇلىڭىزنى قارشى ئالىمىز - تەلەپپۇزىڭىزنىڭ ئەسلىدىكىدەك بولىشىنى ئۈمۈد قىلىمىز ، ھەمدە ئادەتتىكى ئاۋاز چوڭلۇقى، ئۇسلۇبىڭىز ۋە ئىنتوناتسىيەرىڭىزنى ئۈمىد قىلىمىز.
+about-playbook-how-record-content-2 = شاۋقۇننىڭ بەك كۈچلۈك بولۇشىدىن ساقلىنىڭ -سىزنىڭ ئاۋازىڭىزنى ئاڭلاش ئاسان بولسۇن.
+about-playbook-how-record-content-3 = جۈملىنى ئەستايىدىل ئوقۇڭ - چۈشۈرۈپ قويماڭ ، ئۆزگەرتمەڭ ياكى سۆز قوشماڭ.
+about-playbook-how-record-content-5 = <accuracyLink> توغرىلىق ئۆلچىمىگە قاراڭ. </accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = قانداق قىلغاندا Common Voiceدا تىلنى ئۈنۈملۈك ئىلگىرلەتكىلى بولىدۇ؟
+about-playbook-how-grow-language-content-4 = ئىجتىمائىي تاراتقۇ
+about-playbook-how-grow-language-content-6 = ھەمكارلىق ۋە تور
+
+## How to validate
+
+about-playbook-how-validate = ئاۋازلىق  تەستىقلاش ياكى تەستىقلىماسلىقنى قانداق بىلىمەن؟
+
+## How to access dataset
+
+about-playbook-how-access-dataset = سانلىق مەلۇمات توپلىمىنى قانداق زىيارەت قىلىمەن ۋە ئىشلىتىمەن؟
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = سۈنئىي ئەقلى ئىقتىدار
 mycroft-description =
@@ -575,8 +635,6 @@ subscribe = مۇشتەرى بولۇش
 get-started-speech = ئاۋاز تونۇتۇشنى باشلاڭ
 other-datasets = باشقا ئاۋاز مەلۇمات توپى
 feedback-q = تەكلىپ-پىكرىڭىز بارمۇ؟
-deepspeech-info = Common Voice سانلىق مەلۇمات ئامبىرى Mozilla نىڭ ئوچۇق مەنبەلىك ئاۋاز پەرقلەندۈرۈش ماتورى بولغان Deep Speech نى قوللايدىغان بولۇپ، بۇنى ئىشلىتىش ئارقىلىق ئاۋاز پەرقلەندۈرۈش پروگراممىلىرىنى قۇرالايسىز. قەيەردىن قول سېلىپ باشلاشنى بىلىش ئۈچۈن بىزنىڭ <githubLink>قىسقىچە تونۇشتۇرۇش  Github </githubLink>  نى ئوقۇڭ ياكى <discourseLink>DeepSpeech مۇنازىرىسىگە</discourseLink> قاتنىشىڭ.
-common-voice-info-new = Common Voice توغرىسىدا سوئاللىرىڭىز بارمۇ؟ مەلۇم بىر تىلنى ياخشىلاش ياكى تەكلىپىڭىز بارمۇ؟ <discourseLink> مۇنازىرە مۇنبىرى </discourseLink> ئارقىلىق بىزنى خەۋەرلەندۈرۈڭ.
 data-other-librispeech-description = LibriSpeech بولسا تەخمىنەن 1000 سائەت ئەتراپىدا LibriVox تۈرىدىكى ئاۋازلىق كىتابلاردىن تاللانغان 16Khz لىق ئىنگلىزچە ئوقۇشلۇق.
 data-other-ted-name = TED-LIUM  سۆزلۈكلەر توپلىمى
 data-other-ted-description = TED-LIUM سۆزلۈكلەر توپلىمى ئاۋازلىق سۆھبەتلەردىن ياسالغان بولۇپ ، ئۇلارنىڭ خاتىرىلىرى TED تور بېتىدە بار.
@@ -855,6 +913,9 @@ why-delete-recordings =
     نېمە ئۈچۈن ئۈن خاتىرىڭىزنى ئۆچۈرمەكچى بولۇپ قالغانلىقىڭىزنى بىزگە دەپ بېرەلەمسىز؟
 profile-form-delete = تەرجىمىھالنى ئۆچۈر
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = { $company } خىزمەتچىلىرىنى قارشى ئالىمىز!
@@ -900,4 +961,57 @@ demo-dashboard-card-header = شەخسىي باشقۇرۇش تاختىلىرى س
 demo-dashboard-card-body = ھەر بىر ھەدىيە قىلغان ئاۋاز، ھەر بىر دەلىللەنگەن ئاۋاز ئۈچۈن سىزنىڭ ھېسابات تاختىڭىزدا سىز تۆھپە قوشۇۋاتقان تىلدىكى ئەڭ يېڭى ئىلگىرىلەشىلىرىڭىزنى ئەكس ئەتتۈرۈپ بېرىدۇ. توغرا بىردىن كۆپ تۆھپە قوشالايسىز!<br/><br/> ھېسابات تاختىڭىز ئارقىلىق  ستاتىستىكا ئۇچۇرىڭىزنى ئىز قوغلاپ سىزنىڭ ئىجتىمائىي توپتىكى باشقىلار بىلەن سېلىشتۇرغاندا قايسى ئورۇندا ئىكەنلىكىڭىزنى كۆرۈڭ، شۇنداقلا كۈندىلىك ۋە ھەپتىلىك تۆھپە نىشانىڭىزنى بېكىتىڭ.
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 

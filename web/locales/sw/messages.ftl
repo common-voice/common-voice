@@ -38,9 +38,9 @@ ba = Kibashkiri
 bas = Kibasaa
 be = Kibelarusi
 bg = Kibulgeria
-bm = Kibambara
 bn = Kibengali
 br = Kibretoni
+bs = Kibosnia
 bxr = Kiburyatia
 ca = Kikatalonia
 cak = Kikiiche
@@ -137,6 +137,7 @@ sc = Kisadinia
 scn = Kisisilia
 si = Kisinhala
 sk = Kislovakia
+skr = Kisaraiki
 sl = Kislovenia
 so = Kisomali
 sq = Kialbania
@@ -148,6 +149,9 @@ ta = Kitamili
 te = Kitelugu
 tg = Kitajiki
 th = Kithai
+ti = Kitigirinya
+tig = Kitiga
+tk = Kiturumeni
 tl = Kitagalogi
 tr = Kituruki
 tt = Kitatari
@@ -196,6 +200,7 @@ logout = Toka
 ## Home Page
 
 home-title = Common Voice ni hatua ya Mozilla ya kusaidia kufunza mashine jinsi watu huzungumza.
+default-tagline = Mozilla Common Voice ni mradi wa kusaidia kufundisha mashine jinsi watu wanavyozungumza.
 home-cta = Zungumza, changia hapa!
 wall-of-text-start = Sauti ni asili na ni ya kibinadamu. Kwa sababu hiyo, tunavutiwa na kuunda teknolojia ya sauti itakayotumika na mashine zetu. Ili kuunda mifumo ya sauti, kiwango kikubwa sana cha data ya sauti kinahitajika.
 wall-of-text-more-mobile = Asilimia kubwa ya data inayotumika na makampuni makubwa haifikiki kwa urahisi na asilimia kubwa ya watu. Tunadhania kuwa hili ni pingamizi kwa uvumbuzi. Alimradi, tumeanzisha mradi wa Common Voice ili kusaidia kufanya (teknolojia ya) utambuzi wa sauti uwe wazi kwa watu wote.
@@ -318,8 +323,13 @@ profile-form-native-language =
     .label = lugha ya asili
 profile-form-additional-language =
     .label = Lugha ya ziada
+profile-form-language =
+    .label = Lugha
 profile-form-accent =
     .label = Lafudhi
+profile-form-custom-accent-help-text =
+    .label = Je, unaweza kuelezeaje lafudhi yako?
+profile-form-custom-accent-placeholder-2 = Anza kuandika ili kuelezea lafudhi yako
 profile-form-age =
     .label = Umri
 profile-form-gender-2 =
@@ -330,6 +340,7 @@ hidden = Imefichwa
 visible = inayoonekana
 native-language =
     .label = Lugha asili
+profile-form-add-accent = Ongeza lafudhi mpya maalum "{ $inputValue }"
 profile-form-submit-save = Hifadhi
 profile-form-submit-saved = Imehifadhiwa
 male = mwanaume
@@ -363,6 +374,7 @@ skip-submission-description = Wakati wa mchango, uwasilishaji wa maoni utarukwa 
 skip-submission-note = Kumbuka: Bado utahitaji kuchagua kati ya kuzungumza au kusikiliza ili ubadilishe aina ya uchangiaji.
 off = zima
 on = washa
+help-accent = Je, unahitaji usaidizi kuhusu lafudhi?
 
 ## Profile - Email
 
@@ -444,12 +456,19 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kwanini Common Voice?
-about-subtitle = Common Voice ni hatua ya Mozilla ya kusaidia kufunza mashine jinsi watu wanavyozungumza. Mbali na daftari la Common Voice, pia tunaunda injini ya utambuzi wa sauti ya chanzo wazi inayoitwa Deep Speech.
-about-header-description =
-    Miradi hii yote ni sehemu ya juhudi zetu za kupunguza mgawanyiko wa sauti ya kidigitali. Teknolojia za utambuzi wa sauti huleta mwelekeo wa kibinadamu kwenye vifaa vyetu, lakini watengenezaji programu wanahitaji idadi kubwa ya data ya sauti ili kuzijenga. Hivi sasa, data nyingi ni ghali na ya wamiliki.
-    Tunataka kufanya data ya sauti kupatikana kwa uhuru na kwa umma, na kuhakikisha data inawakilisha utofauti wa watu. Pamoja tunaweza kufanya utambuzi wa sauti kuwa bora kwa kila mtu.
-how-does-it-work-title = inafanyaje kazi
 how-does-it-work-text = Tunachangisha chanzo wazi la daftari la sauti. Toa sauti yako, halalisha usahihi wa vipande vya sauti vya watu wengine, fanya daftari liwe bora kwa kila mtu.
+
+## How does it work section
+
+about-localization-title = Ujanibishaji wa Tovuti
+about-sentence-collection-title = Mkusanyiko wa sentensi
+about-sentence-collection-subtitle = Sentensi hukusanywa ili watu wasome kwa sauti.
+about-new-lang-title = Uzinduzi wa Lugha Mpya
+about-new-lang-subtitle = Tunazindua tovuti ya Common Voice katika lugha hii.
+about-voice-contrib-title = Mchango wa Sauti
+about-voice-contrib-subtitle = Watu wanakuja na kuchangia sauti zao.
+about-voice-validation-title = Uthibitishaji wa Sauti
+about-dataset-release-title = Toleo la hifadhi data
 about-speak = Zungumza
 about-speak-text = Wachangiaji hurekodi vipande vya sauti kwa kusoma kutoka kwa benki ya sentensi zilizotolewa.
 about-listen-queue = Foleni ya kusikiliza
@@ -481,6 +500,34 @@ about-nav-why-common-voice = Kwanini?
 about-nav-how-it-works = kivipi?
 about-nav-partners = Washiriki
 about-nav-get-involved = Jihusishe
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelijensia bandia
 mycroft-description =
@@ -930,3 +977,56 @@ contribution-varying-pronunciations-title = Matamshi tofauti
 contribution-varying-pronunciations-example-1-title = Kichwani alikuwa amevaa bereti.
 contribution-background-noise-title = Kelele za mandharinyuma
 see-more = <chevron></chevron>Angalia zaidi
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+

@@ -145,6 +145,7 @@ scn = Siciliano
 shi = Shilha
 si = Singalese
 sk = Slovacco
+skr = Saraiki
 sl = Sloveno
 so = Somalo
 sq = Albanese
@@ -160,6 +161,7 @@ ti = Tigrino
 tig = Tigre
 tk = Turkmeno
 tl = Tagalog
+tok = Toki Pona
 tr = Turco
 tt = Tataro
 tw = Twi
@@ -511,29 +513,47 @@ about-get-involved-text-2 =
     Vuoi aiutarci a migliorare Common Voice?
     Ottimo! Contattaci via email o sul forum <discourseLink>Discourse</discourseLink>, segnala problemi del sito attraverso <githubLink>GitHub</githubLink> o unisciti alla chat della comunità su <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Come posso rimanere aggiornato?
+about-stay-in-touch-text-1 = <emailFragment>Iscriviti</emailFragment> alla nostra mailing list per scoprire come prendere parte a campagne, eventi e collaborare allo sviluppo di nuove funzioni per Common Voice.
+about-stay-in-touch-text-2 = Puoi incontrare altri collaboratori delle comunità linguistiche Mozilla in <discourseLink>Discourse</discourseLink> per discutere di argomenti specifici, oppure <matrixLink>Matrix</matrixLink> per ottenere rapidamente aiuto.
 about-nav-why-common-voice = Perché?
 about-nav-how-it-works = Come?
 about-nav-partners = Partner
 about-nav-get-involved = Collabora
+about-nav-how-it-works-2 = Come funziona Common Voice?
+about-nav-playbook = Scopri come partecipare
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language-content-2 = Vogliamo modelli vocali che riescano a comprendere al meglio un’ampia gamma di interlocutori. Perché ciò accada, un dataset vocale deve includere molte persone diverse.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Come posso aggiungere una lingua?
+about-playbook-how-add-language-content-1 = Innanzitutto, controlla se la tua lingua <languageLink>esiste già</languageLink>. In caso contrario sarà necessario <strong>tradurre il sito e raccogliere frasi</strong>.
 
 ## How does localization work
 
+about-playbook-how-localize = Come funziona la localizzazione del sito?
+about-playbook-how-localize-content-5 = Guarda il nostro video esplicativo
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Come posso aggiungere frasi?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Come posso ottenere una registrazione vocale di alta qualità?
+about-playbook-how-record-content-3 = Leggi la frase attentamente: non tralasciare, modificare o aggiungere parole.
+about-playbook-how-record-content-4 = Assicurati che la piattaforma stia registrando prima di iniziare a parlare e che si fermi solo quando hai finito.
+about-playbook-how-record-content-5 = <accuracyLink>Scopri di più sui criteri di convalida.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Qual è il modo più efficace per far crescere una lingua su Common Voice?
+about-playbook-how-grow-language-content-2 = Eventi
+about-playbook-how-grow-language-content-3 = Puoi organizzare eventi per aiutare le persone a contribuire. È più facile di quanto pensi. Puoi farlo online con uno strumento di videoconferenza o di persona, se è sicuro. <eventTemplate>Consulta i nostri modelli e le nostre risorse per l’organizzazione di eventi</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Social media
 
 ## How to validate
 
@@ -1159,11 +1179,8 @@ sc-rejected-none-found = Nessuna frase rifiutata trovata.
 ## STATS
 
 sc-stats-title = Statistiche
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Ultimo aggiornamento: { $lastUpdate }
-sc-stats-last-update-never = Ultimo aggiornamento: mai
 sc-stats-updating = Aggiornamento…
+sc-stats-error = Impossibile recuperare le statistiche. Riprova più tardi.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1255,6 +1272,8 @@ sc-confirm-uploading = Le frasi sono in fase di caricamento. Questa operazione p
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Totale
+sc-lang-info-title-personal = Personale
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1382,3 +1401,5 @@ sc-validation-no-abbreviations = La frase non deve contenere abbreviazioni
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Scegli lingua/localizzazione

@@ -53,54 +53,6 @@
         flex-wrap: wrap;
         width: 99%;
 
-        &.multilingual {
-            .accent-wrap {
-                border-bottom: 2px solid rgba(230, 229, 227, 0.6);
-                margin-bottom: 2rem;
-                &:last-child {
-                    border-bottom: 0;
-                }
-            }
-        }
-
-        .accent-wrap {
-            display: block;
-            width: 100%;
-            position: relative;
-            padding-bottom: 0.5rem;
-
-            label {
-                width: 100%;
-            }
-
-            > label:last-child {
-                margin-bottom: 15px;
-            }
-
-            ul {
-                margin: -30px 0 30px;
-                position: absolute;
-                padding: 0;
-                background: white;
-                z-index: var(--override-z-index);
-                width: 100%;
-
-                li {
-                    cursor: pointer;
-                    list-style: none;
-                    padding: 15px;
-                    border-bottom: 1px solid var(--dark-grey);
-                }
-            }
-
-            .downshift-open {
-                border: 1px solid var(--light-grey);
-                box-sizing: border-box;
-                box-shadow: 0 2px 5px 0 var(--light-grey);
-                overflow: hidden;
-            }
-        }
-
         label {
             box-sizing: border-box;
             margin-bottom: 30px;
@@ -118,29 +70,6 @@
                     margin-inline-start: var(--profile-column-margin);
                 }
             }
-        }
-    }
-
-    .add-language-section {
-        .profile-toggle {
-            margin-top: 0;
-        }
-    }
-
-    .add-language {
-        display: inline-block;
-        justify-content: center;
-        direction: ltr;
-        margin-inline-end: 1rem;
-
-        & :first-child {
-            margin-right: 25px;
-        }
-
-        & :nth-child(2) {
-            font-family: initial;
-            font-size: var(--font-size-lg);
-            color: var(--black);
         }
     }
 
@@ -208,33 +137,5 @@
         margin: 0 auto;
         min-height: 57px;
         background: var(--black);
-    }
-}
-
-.selected-accent {
-    background: var(--light-grey);
-    border-radius: 15rem;
-    padding: 0.8rem 1.5rem;
-    margin-bottom: 1.5rem;
-    margin-inline-end: 1rem;
-    display: inline-block;
-    img {
-        cursor: pointer;
-        padding-inline-end: 1rem;
-    }
-}
-
-#accent-selection-menu {
-    max-height: 200px;
-    overflow-y: scroll;
-
-    .add-new-accent {
-        color: var(--blue);
-        font-weight: 600;
-
-        &:focus,
-        &:hover {
-            background: var(--light-grey);
-        }
     }
 }

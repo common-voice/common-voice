@@ -649,6 +649,7 @@ Alternativně by byla použitelná i obálková metoda.
 Alžběta měla velmi modré oči.
 Alžběta, to bylo první okouzlení.
 Amazonský deštný prales je taky nazývaný plícemi planety.
+Amen.
 Američtí vojáci natahují žiletkový drát u hranic s Mexikem.
 Amy Schumerová dokáže být velice vtipná.
 Analogová cesta
@@ -3915,6 +3916,7 @@ Například ty matice a funkce nedávají smysl.
 Například v prosinci fotovoltaika skoro nic nevyrábí.
 Například ve vzorcích pozadí nesmí být obličeje.
 Například vysvětlení jak používám wiki?
+Narození:
 Nasadíš si ho, když potkáš někoho neznámého.
 Naslouchejte svému tělu a zjistěte, v čem je skutečně chyba.
 Nastane-li kdy vůbec.
@@ -7615,6 +7617,7 @@ Už vím, v čem je problém a vím, jak ho napravit.
 Už čtyři dny jsem nespal.
 Užívej si svátky a v Novém roce se uvidíme ve škole.
 Užívejte si svých úspěchů a plánů.
+V září zemřel náš první president T. G. Masaryk.
 V Bangoru se přesedá.
 V Evropské unii bude česko aktivně prosazovat své národní zájmy ve všech evropských institucích.
 V Exeteru mne přepadla anglická neděle spojená s deštěm.
@@ -8024,6 +8027,7 @@ Vy už jdete domů?
 Vybírají si dárky za peníze, které pod stromeček dostali v obálkách.
 Vybírej správně!
 Vyběhne Fanka a Šefl.
+Vydzvihl jeho práci, kterou pro naší republiku a naší vlasť vykonal.
 Vydávala v té době asi čtyři časopisy a potřebovala do nich povídky od čtenářů.
 Vyděšené publikum se přitisklo k opěradlům.
 Vyhledal jsem si ho...
@@ -8097,6 +8101,7 @@ Vytřeštil na něj oči.
 Vyvinula nejhroznější moderní industrialism a přitom uchovala nejpůvodnější bukolický život.
 Vyvolená čísla
 Vyvolávání stejně nemělo moc smysl.
+Vyvrcholilo novou úplnou mobilisací všech příslušníků I. zálohy.
 Vyzkoušel jsem i pár místních červených vín.
 Vyzkoušení Velkého vytí jako uvítacího rituálu.
 Vyzkouším něco vytvořit.
@@ -8256,6 +8261,7 @@ Věř mi, prosím.
 Věřila byste, že si nebožtík mladý Rossum zahrál na Boha?
 Věřím tomu, už pro ty tvé velké černé oči!
 Věřím v Boha Otce všemohoucího, stvořitele nebe i země.
+Věřím v Ducha svatého
 Věříte v konec světa?
 Vřetánko je jednoduchý nástroj pro ruční přadení vlny.
 Však bývalo hůře ještě před nedávném.
@@ -8580,6 +8586,7 @@ Zelené a modré čtverce jsou správné detekce.
 Zelený kaprosaurus vylezl na strom.
 Země - ach Země!
 Země bude siná, tichá, němá.
+Zemřely:
 Zeptejte se strejdy Googla.
 Zeptejte se svého zubního lékaře na naši novou bělicí zubní pastu.
 Zhodnoťte dosažené výsledky a diskutujte možnosti budoucího vývoje.
@@ -8663,6 +8670,7 @@ Zoufat.
 Zplodil jsem tohle
 Zpočátku jen lehce, každým dnem však víc a víc.
 Zpočátku mě to mátlo.
+Zpoždění prace!
 Zpravidla jsou do něj zahrnovány faktory jako kvalita odevzdané práce.
 Zpupnost!
 Zpátky k technice
@@ -8748,6 +8756,7 @@ Zůstaňte na telefonu, abychom jej mohli zaměřit.
 a jako indikaci použijeme led diodu s rezistorem v sérii.
 a kterým se vždycky začíná.
 a použít k tomu nejrůznější součástky.
+a život věčný.
 ale pro začátek zvolíme složitější součástku
 and-or-invert
 ano, stal se zaměstnancem Civilizovaného průmyslu.
@@ -8776,8 +8785,10 @@ pwm
 přes základní elektronické součástky a řadu číslicových obvodů ttl řady sedumtisíc čtyřista
 přináší úvod do práce s programovatelnými logickými poli.
 společenství svatých
+svatou církev obecnou
 tak se v elektronice používá blikání světlem.
 totiž integrovaný obvod.
+trpěl pod Pontiem Pilatem, byl ukřižován, umřel, pohřben jest, sestoupil do pekel
 třetího dne vstal z mrtvých
 vstoupil do nebe, sedí po pravici Boha Otce všemohoucího
 vyrábí ho celá řada výrobců v nejrůznějších obměnách
@@ -8806,6 +8817,7 @@ xor
 Úkoly jsou zpravidla orientované do určité oblasti působnosti.
 Úloh jsem v tomto roce příliš nesplnil.
 Úmrtí je třeba věrohodně doložit.
+Úmrtí našeho prvního pana Presidenta: T. G. Masaryka
 Úplně dospod položil absorpční podložky.
 Úplně jako když někdo těžko dýchá.
 Úplně první návštěva mi změnila život a pohled na svět.
@@ -8824,6 +8836,7 @@ xor
 Čas srazu a společná jízdenka nebyly problém.
 Časem z toho vznikne projekt, článek, či něco úplně jiného.
 Časová jednotka okamžik.
+Časové přerušení záznamů není vinou konikáře, ale převratných událostí.
 Často cvičíval se.
 Času jste měl doopravdy hodně.
 Času poustevnického upotřebuje zatím rak velmi svědomitě k přípravám k novému zbojnictví.

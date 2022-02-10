@@ -36,7 +36,6 @@ ba = baszkirski
 bas = basaa
 be = białoruski
 bg = bułgarski
-bm = bambara
 bn = bengalski
 br = bretoński
 bs = bośniacki
@@ -146,6 +145,7 @@ scn = sycylijski
 shi = shilha
 si = syngaleski
 sk = słowacki
+skr = saraiki
 sl = słoweński
 so = somalijski
 sq = albański
@@ -161,6 +161,7 @@ ti = tigrinia
 tig = tigre
 tk = turkmeński
 tl = tagalski
+tok = toki pona
 tr = turecki
 tt = tatarski
 tw = twi
@@ -468,15 +469,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Dlaczego Common Voice?
-about-subtitle = Common Voice jest częścią inicjatywy Mozilli pomagającej w uczeniu maszyn mowy prawdziwych ludzi. Oprócz zbioru danych Common Voice tworzymy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
-about-header-description =
-    Oba te projekty są częścią naszych wysiłków na rzecz zniwelowania podziału cyfrowego. Technologie rozpoznawania głosu nadają naszym urządzeniom ludzki wymiar, ale deweloperzy do ich tworzenia potrzebują olbrzymiej ilości danych mowy. Obecnie większość takich danych jest kosztowna i zastrzeżona.
-    Chcemy, aby dane mowy były publicznie dostępne i upewnić się, że reprezentują różnorodność prawdziwych ludzi. Razem możemy ulepszyć rozpoznawanie głosu dla wszystkich.
-about-header-description-2 =
-    Ten projekt ma na celu zniwelowanie podziału cyfrowego. Technologie rozpoznawania głosu nadają naszym urządzeniom ludzki wymiar, ale deweloperzy do ich tworzenia potrzebują olbrzymiej ilości danych mowy. Obecnie większość takich danych jest kosztowna i zastrzeżona.
-    Chcemy, aby dane mowy były publicznie dostępne i upewnić się, że reprezentują różnorodność prawdziwych ludzi. Razem możemy ulepszyć rozpoznawanie głosu dla wszystkich.
-how-does-it-work-title = Jak to działa
 how-does-it-work-text = Wspólnie tworzymy zbiór danych mowy open source. Nagraj swój głos, sprawdź dokładność nagrań innych osób, ulepsz zbiór dla wszystkich.
+
+## How does it work section
+
 about-speak = Nagrywanie
 about-speak-text = Uczestnicy nagrywają swój głos czytając zdania z puli zebranych zdań.
 about-listen-queue = Kolejka do odsłuchania
@@ -509,6 +505,34 @@ about-nav-why-common-voice = Dlaczego?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partnerzy
 about-nav-get-involved = Dołącz do nas
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Sztuczna inteligencja
 mycroft-description =
@@ -1049,10 +1073,6 @@ sc-rejected-none-found = Nie odnaleziono odrzuconych zdań.
 ## STATS
 
 sc-stats-title = Statystyki
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Ostatnia aktualizacja: { $lastUpdate }
-sc-stats-last-update-never = Ostatnia aktualizacja: nigdy
 sc-stats-updating = Aktualizowanie…
 
 ## ADD

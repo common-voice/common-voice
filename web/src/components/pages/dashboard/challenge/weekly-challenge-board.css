@@ -3,6 +3,7 @@
     border-radius: 4px;
     border: 1.6px solid var(--light-grey);
 }
+
 .title-container {
     min-height: 142px;
     height: auto;
@@ -203,6 +204,15 @@ img.icon {
             display: block;
             width: 100%;
             overflow: hidden;
+            box-sizing: border-box;
+            text-align: left;
+
+            .avatar-wrap {
+                width: 48px;
+                height: 48px;
+                margin: 0 15px 0 0;
+                float: left;
+            }
         }
 
         .container {
@@ -297,17 +307,6 @@ img.icon {
             }
         }
 
-        .column {
-            box-sizing: border-box;
-            text-align: left;
-
-            .avatar-wrap {
-                width: 48px;
-                height: 48px;
-                margin: 0 15px 0 0;
-                float: left;
-            }
-        }
         .divider {
             display: none;
         }

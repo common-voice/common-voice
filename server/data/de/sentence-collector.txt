@@ -2186,6 +2186,7 @@ Aus technischer Sicht bietet das Betriebssystem eine eigene Treiberarchitektur.
 Aus unerfindlichen Gründen klemmt es immer genau dann.
 Aus ungelegten Eiern schlüpfen keine Hühner.
 Aus virologischer Sicht wäre das aber nicht korrekt.
+Aus welchem Holz sind Gitarre, Geige oder Kontrabass hergestellt?
 Aus welchem Turngau ist der denn entsprungen?
 Aus welcher Zotenparade sind die denn entsprungen?
 Aus welcher überaus seriösen Boulevardzeitung beziehen Sie Ihre Bildung?
@@ -3049,6 +3050,7 @@ Bisher kein einziges Mal.
 Bisher konnte keine Sicherheitslücke gefunden werden.
 Bisher waren alle Antworten korrekt.
 Bisher wurden alle Eisberge sicher umschifft.
+Bist du Holzbläser oder Blechbläser?
 Bist du auch ein Sandwich-Kind?
 Bist du auch sicher, dass dort keine Zivilisten eingesperrt sind?
 Bist du bereit für die nächste Runde?
@@ -3451,6 +3453,7 @@ Da fängt es schon an zu donnern.
 Da gab es einen Reddit-Post drüber.
 Da gehe ich mit.
 Da geht bestimmt noch etwas.
+Da geht der Mann durch die Decke.
 Da geht noch was.
 Da geht sie.
 Da gibt es eine Wucht.
@@ -5250,6 +5253,7 @@ Das ist doch nicht der Rede wert, geschenkt.
 Das ist doch nicht schlimm.
 Das ist doch nicht wörtlich gemeint!
 Das ist doch offensichtlich frei erfunden.
+Das ist doch purer Wahnsinn!
 Das ist doch reine Utopie.
 Das ist doch schon wieder nur Innovationstheater.
 Das ist doch viel witziger.
@@ -5274,10 +5278,12 @@ Das ist ein Wort, das man nicht anwenden darf.
 Das ist ein alter Menschheitstraum.
 Das ist ein altes Modell.
 Das ist ein beliebter Trick beim Videoschnitt.
+Das ist ein bischen mau.
 Das ist ein eindeutiges Lebenszeichen.
 Das ist ein freies Land, oder?
 Das ist ein ganz heißer.
 Das ist ein gut geeigneter Zeitpunkt, die Sache zu beenden.
+Das ist ein reetgedecktes Haus.
 Das ist ein richtiger Trend.
 Das ist ein schöner Mann.
 Das ist ein sehr behagliches Zimmer, es ist ziemlich geräumig und nicht zu teuer.
@@ -5748,6 +5754,7 @@ Das war der wärmste März seit Beginn der Wetteraufzeichnungen.
 Das war doch kein Zufall.
 Das war doch nicht ernst gemeint.
 Das war doch nicht nötig!
+Das war drüber.
 Das war eben ein sehr anregendes Gespräch mit Anne.
 Das war echt eine Bauchlandung, wie sie im Buche steht.
 Das war ein Abenteuer.
@@ -5756,6 +5763,7 @@ Das war ein Witz.
 Das war ein mieser, feiger Mord.
 Das war eine Flasche Bier zuviel gestern.
 Das war eine geile Party.
+Das war eine linke Nummer.
 Das war eine sehr schmerzhafte Angelegenheit, die ich künftig vermeiden will.
 Das war es dann wohl.
 Das war es für heute.
@@ -6511,6 +6519,7 @@ Der Chef moniert, dass die Putzfrau während der Arbeitszeit ständig die Toilet
 Der Chef parkt seinen Wagen seit Jahren im Halteverbot.
 Der Chefkoch wird schnell cholerisch, wenn man seine Speisen kritisiert.
 Der Clown betritt die Manege und alle beginnen zu Lachen.
+Der Clown jongliert fünf bunte Bälle.
 Der Coach sieht großes Potenzial in ihm.
 Der Code wird nicht mehr gepflegt.
 Der Code, den ich schreibe, dringt bis in meine Träume vor.
@@ -9524,6 +9533,7 @@ Dieser Winkel hängt von den Brechungsindizes der Faser und ihrer Umgebung ab.
 Dieser Winter wird hart für ungeimpfte Personen.
 Dieser hier ist dir persönlich gewidmet.
 Dieser junge Mann hier hat den Bullen des Fleisches wegen geschossen.
+Dieser kleine Couchtisch kostet eintausend Euro?
 Dieser neue Computer ist eine Workstation.
 Dieser tat sofort, was er sollte.
 Dieser verschwenderische Umgang hat nichts mit Nachhaltigkeit zu tun.
@@ -10416,6 +10426,7 @@ Ein Burgunder aus dem Jahr zweitausend, habe ich recht?
 Ein Bündel an Maßnahmen soll es richten.
 Ein Camcorder ist eine Videokamera mit eingebautem Videorekorder.
 Ein Cello ist eine Art Mittelding zwischen Violine und Kontrabass.
+Ein Clown segelt durch die Luft.
 Ein Computer ist nur so schlau, wie derjenige, der davor sitzt!
 Ein Computer verfügt über verschiedene Anschlüsse.
 Ein Danke sollte man nicht aufschieben.
@@ -12584,6 +12595,7 @@ Es zerstört einfach alles.
 Es zieht.
 Essen Sie gern Fisch?
 Essen macht Freude und Sport macht auch Freude.
+Essen verboten!
 Essen weiterhin in gut und böse einzuteilen, macht das Problem nur schlimmer.
 Essen zubereiten oder kochen liegt im Auge des Betrachters.
 Essensreste muss man nicht wegwerfen.
@@ -15338,6 +15350,7 @@ Hubertus bevorzugte es im Bus ganz hinten bei den coolen Kindern zu sitzen.
 Hubertus will vorne sitzen.
 Hubschrauber können auf der Stelle fliegen.
 Hubschrauber mit nur einem Rotor würden sich um sich selbst drehen.
+Hugo der Clown gibt euch eine Vorstellung.
 Hugo ist seiner Mutter wie aus dem Gesicht geschnitten.
 Hugo konnte den Fahrradfahrer im Rückspiegel sehen.
 Humanoide Roboter müssen fortwährend neue Entscheidungen treffen.
@@ -21433,6 +21446,7 @@ Manchmal werfen die Teenies auch ihre Tangas.
 Manchmal wiederhole ich mich inhaltlich.
 Manchmal wird Alibaba als das Amazon von China bezeichnet.
 Manchmal, wenn gerade keiner guckt, lösche ich heimlich meine Cookies.
+Manege frei für den dummen August!
 Manfred war bei den Fallschirmjägern.
 Mangels Empfang in der Felsspalte konnte sich der Kletterer keine Hilfe rufen.
 Mangels Freizeit muss die Tour etwas kürzer ausfallen als geplant.
@@ -21579,6 +21593,7 @@ Mein Bruder hat einen kleinen Schnurrbart, und mein Vater trägt einen Backenbar
 Mein Bruderherz holt mich vom Flughafen ab.
 Mein Buchregal ist überfüllt.
 Mein Chef hat mich dazu verdonnert, diesen Vortrag zu halten.
+Mein Clownsname ist dummer August.
 Mein Code ist selbsterklärend und bedarf daher keiner Kommentare.
 Mein Datenvolumen hat sich grade erneuert.
 Mein Drucker braucht ein Firmware Update.
@@ -24160,6 +24175,7 @@ Oh Mann, ist das warm hier!
 Oh Mann, jetzt drückt noch ein Billigsupermarkt auf den Markt.
 Oh doch!
 Oh doch, es ist weit mehr als das!
+Oh du lieber Augustin.
 Oh ja!
 Oh ja, Frischkäse mit Chili-Geschmack!
 Oh ja, das fetzt!
@@ -29706,6 +29722,7 @@ Warum mussten wir auch abseits der Fahrrinne fahren?
 Warum musstest du alles so kompliziert machen?
 Warum müssen ausgerechnet fünf Pubertierende das Zimmer neben uns haben?
 Warum müssen sie mit Luft befüllt werden?
+Warum nennt man den Gustav?
 Warum nicht lieber hier?
 Warum nimmst du nicht den hinter dir?
 Warum nur hat sich Gertrude ihrer wunderschönen Haarpracht entledigt?
@@ -30018,9 +30035,12 @@ Was ist das denn für eine Teppichhupe?
 Was ist das denn hier für eine Freakshow?
 Was ist das denn?
 Was ist das für ein Gerät?
+Was ist das für ein Geräusch?
+Was ist das für ein Instrument?
 Was ist das für ein Körbchen?
 Was ist das für ein Nonsens?
 Was ist das für ein Teil da auf der Fensterbank?
+Was ist das für ein Tier?
 Was ist das für eine Faltschachtel?
 Was ist das für eine Welt?
 Was ist das für eine gestörte Weltanschauung?
@@ -30032,6 +30052,7 @@ Was ist den hier los?
 Was ist denn Bananensoftware?
 Was ist denn das für ein unfairer Tausch?
 Was ist denn das für eine komische Gabel?
+Was ist denn ein "Schlafschaf"?
 Was ist denn ein Buttervogel?
 Was ist denn ein Gesslerhut?
 Was ist denn heute nur los?
@@ -30046,6 +30067,7 @@ Was ist der Sinn der Digitalisierung?
 Was ist der Sinn des Lebens?
 Was ist der Unterschied zwischen Lebkuchen und Pfefferkuchen?
 Was ist der Unterschied zwischen Mäusen und Ratten?
+Was ist der Unterschied zwischen Strümpfe und Socken?
 Was ist der Unterschied zwischen einem Beamten auf Widerruf und einem auf Probe?
 Was ist der Unterschied zwischen einem Vergehen und einem Verbrechen?
 Was ist der Unterschied zwischen kostenlos und umsonst?
@@ -30200,6 +30222,7 @@ Was piept hier so?
 Was quietscht die Tür denn schon wieder so?
 Was redest du da für einen Unsinn?
 Was redet ihr da für einen Käse?
+Was reimt sich auf Socken?
 Was rieche ich denn da für einen Stoff?
 Was riecht denn hier so lustig?
 Was riecht denn hier wieder so komisch?
@@ -30338,6 +30361,7 @@ Was weiß ich!
 Was weißt du schon, was ich alles kann?
 Was werden die Herren nun speisen?
 Was wiederum als Verschleißteil zählt, ist Auslegungssache.
+Was wiegt ein Cello ungefähr?
 Was will Anne eigentlich genau?
 Was will denn jetzt die Polizei hier?
 Was will diese Grinsebacke ständig von uns?
@@ -30687,6 +30711,7 @@ Welches Betriebssystem ist am wenigsten geschwätzig?
 Welches Brot hätten Sie gern?
 Welches Fach ist dein Lieblingsfach?
 Welches Format hat die Flag?
+Welches Instrument spielst du?
 Welches Isotop meinen Sie genau?
 Welches Kabel soll ich durchtrennen?
 Welches Land versteckt sich hinter dieser Flagge?
@@ -31330,6 +31355,7 @@ Wer ist der Lastenradhersteller?
 Wer ist der Typ mit dem Schwertfisch als Avatar?
 Wer ist der bedeutendste Komponist von Filmmusik der Gegenwart?
 Wer ist diese Jugend?
+Wer ist eigentlich Vicky?
 Wer ist eigentlich diese Agathe Bauer?
 Wer ist eigentlich dieser Ingo?
 Wer ist ihr Zahnarzt? Doktor Richter oder Doktor Friedrich?
@@ -31371,6 +31397,7 @@ Wer künstlich lacht, wirkt nicht authentisch.
 Wer lesen kann ist klar im Vorteil!
 Wer lesen kann, der hält auch die zwei Meter Abstand ein!
 Wer lesen kann, ist klar im Vorteil.
+Wer liebt hier wen?
 Wer liest schon die allgemeinen Geschäftsbedingungen?
 Wer lächerliche fünf Kilometer Arbeitsweg mit dem Auto zurücklegt, ist Teil des Problems.
 Wer lädt hier ständig seinen Sperrmüll ab?
@@ -31611,6 +31638,7 @@ Wessen Heim von Unwettern zerstört wird, der kann nur hoffen, dass eine Wahl be
 Wessen Lebensinhalt aus dem Verfolgen von Aktienkursen besteht, der ist zu bedauern.
 Wessen Magen hat hier gerade so laut geknurrt?
 Wessen Papierflieger fliegt am weitesten?
+Wessen Pappnase ist das hier?
 Westdeutsche kennen meistens nur Thomas Reiter und Alexander Gerst.
 Westerstede hat keine Anbindung an das Bahnnetz. Der nächste Bahnhof befindet sich in Ocholt.
 Westerstede ist die Kreisstadt des Landkreises Ammerland.
@@ -31796,6 +31824,7 @@ Wie heißt noch mal dieser Schiedsrichter mit der Glatze?
 Wie heißt nochmal das Bier was so schön im Bauchnabel prickelt?
 Wie heißt nochmal das gelb blaue Möbelgeschäft aus Schweden?
 Wie herum ging der Spruch noch mal?
+Wie hieß der nochmal?
 Wie hoch darf der Druck in einem Druckkochtopf steigen?
 Wie hoch fliegt eine Gewehrkugel, wenn man senkrecht in die Luft schießt?
 Wie hoch ist der Grundwasserpegel aktuell?
@@ -31805,6 +31834,7 @@ Wie hoch ist der aktuelle gesetzliche Mindestlohn?
 Wie hoch ist der höchste Gipfel des Gebirges?
 Wie hoch ist die Anzahl der Analphabeten?
 Wie hoch ist die Zahl der Infizierten?
+Wie hoch ist dieses Windrad?
 Wie hoch ist euer monatlicher Preis für den Strom?
 Wie hoch ist ihre jährliche Versicherungsprämie?
 Wie hoch schätzen Sie die monatlichen Kosten Ihres Autos ein?
@@ -31876,6 +31906,7 @@ Wie komme ich hier raus?
 Wie komme ich zum Bahnhof?
 Wie kommen all die Paparazzi hierher?
 Wie kommen die Löcher in den Käse?
+Wie kommen wir denn da herauf?
 Wie kommst du denn jetzt dadrauf?
 Wie kommt Kuhscheiße aufs Dach?
 Wie kommt ein Erdmännchen bitte an einen Schraubenzieher?
@@ -31955,12 +31986,14 @@ Wie langsam du auch läufst, du schlägst alle, die zu Hause bleiben!
 Wie laufen die Verhandlungen?
 Wie laut vibriert dein Handy bitte?
 Wie lauten die zehn Gebote?
+Wie lautet dein Lieblingslied?
 Wie lautet der Hersteller der Kaffeemaschine?
 Wie lautet der Name ihres Rechtsverdrehers?
 Wie lautet der Zwischenstand?
 Wie lautet die Bankleitzahl?
 Wie lautet die Vorwahl von Bottrop?
 Wie lautet die ideale Mischform aus Kapitalismus und Kommunismus?
+Wie lautet hierfür die lateinische Bezeichnung?
 Wie lautet ihr Kennzeichen?
 Wie lautet ihr vollständiger Name?
 Wie lief die Klausur?
@@ -32032,6 +32065,7 @@ Wie schließen wir den Beamer an?
 Wie schmeckt Ihnen der Fisch?
 Wie schmeckt der Sirup, den die Nachbarn aus dem Urlaub mitgebracht haben?
 Wie schmeckt die eigene Medizin?
+Wie schminkt man sich als Clown?
 Wie schnell darf man auf der Autobahn fahren?
 Wie schnell kann man das Marmeladenglas rotieren lassen, ohne dass es zerplatzt?
 Wie schnell kannst du zählen?
@@ -32232,6 +32266,7 @@ Wie war dein Tag?
 Wie war dein erstes Mal anal?
 Wie war deine Reise nach Indien?
 Wie war die Demonstration?
+Wie war die Zeit im "Hotel Null Sterne"?
 Wie war es dann gedacht?
 Wie war es für Teenies in den Sechzigern?
 Wie war es in der Schule?
@@ -32264,6 +32299,7 @@ Wie wird das Wetter in Dargun?
 Wie wird das Wetter morgen auf Insel Usedom?
 Wie wird der Herd angeschlossen?
 Wie wird dieses Wort geschrieben?
+Wie wird man Clown?
 Wie wird sich das Maschinenintelligenzzeitalter anfühlen?
 Wie wollen Sie den Wählern Ihren Wortbruch erklären?
 Wie wollen Sie mich erpressen?
@@ -32380,6 +32416,7 @@ Wieso ist gerade jetzt die Kamera beschlagen?
 Wieso ist schon wieder keiner anspielbar?
 Wieso ist sie nicht in ihrem Zimmer?
 Wieso ist sie trotzdem noch da?
+Wieso jault der Hund andauernd?
 Wieso kann der so schnell nachladen?
 Wieso kann die da einfach so durchmarschieren?
 Wieso kann eine einzelne Person dies im Alleingang durchboxen?
@@ -32507,6 +32544,7 @@ Willst du dich nicht mit raus setzen?
 Willst du dich wirklich mit der Rechtsabteilung eines Großkonzerns anlegen?
 Willst du die Erste sein?
 Willst du die Geschichte überhaupt hören?
+Willst du die Pudelmütze oder den Hut?
 Willst du die rote oder die blaue Pille?
 Willst du eine höfliche oder eine ehrliche Antwort?
 Willst du erst warten, bis das Wetter wieder schlecht wird?
@@ -32992,6 +33030,7 @@ Wirst du verfolgt?
 Wirtschaftsschwache Regionen versuchen es häufig mit Tourismus.
 Wisch das sofort vom Fußboden auf!
 Wissen Sie Ihre Festnetznummer noch aus dem Kopf?
+Wissen Sie da genaueres?
 Wissen Sie eigentlich, was genau den Hirntod ausmacht?
 Wissen Sie eigentlich, wie spät es ist?
 Wissen Sie eigentlich, wofür das Geld eingesetzt wird?
@@ -33026,6 +33065,7 @@ Wo Licht ist, ist auch Schatten.
 Wo Menschen sind, passieren Fehler.
 Wo Rauch ist, ist auch Feuer.
 Wo Software ist, stecken auch Fehler drinnen.
+Wo baut man am besten Windräder?
 Wo befinden befinden sich denn Ihre "Problemzonen"?
 Wo befinden sich Anschlüsse für Waschmaschine und Telefon?
 Wo befindet sich die Villa Kunterbunt?
@@ -33074,6 +33114,7 @@ Wo gibt es die verdiente Traube des Volkes zu erwerben?
 Wo habe ich denn den Schraubenzieher hingelegt?
 Wo habe ich denn mein Freistoßspray gelassen?
 Wo habe ich denn meine Zahnbürste hingelegt?
+Wo habe ich meine Mütze?
 Wo habe ich noch mal meinen Wagen abgestellt?
 Wo habe ich nur mein Portemonnaie hingelegt?
 Wo habe ich nur meine Geldbörse gelassen?
@@ -33129,6 +33170,7 @@ Wo ist hier das Wohlfahrtsbüro?
 Wo ist hier der Ausschalter?
 Wo ist hier die Flaniermeile?
 Wo ist mein Brieföffner?
+Wo ist mein Hut?
 Wo ist mein Nasenfahrrad?
 Wo ist mein gottverdammter Anwalt?
 Wo ist nur meine Käsereibe?
@@ -33187,6 +33229,7 @@ Wo soll ich klicken?
 Wo steckt dein Schnuller?
 Wo steckt denn nun die Knoblauchpresse?
 Wo steckt nun wieder die Frischhaltefolie?
+Wo steht das Zirkuszelt?
 Wo steht der Schnellzug nach Wien?
 Wo steht geschrieben, dass Soße für Fleisch braun sein muss?
 Wo steht, dass das nicht erlaubt ist?
@@ -33673,6 +33716,7 @@ Zimmer aufräumen?
 Zimmerlautstärke heißt, dass man die Musik in jedem Zimmer gut hören kann.
 Zimtzicken und Muttersöhnchen.
 Zimtzicken und Muttersöhne.
+Zirkus Roncalli kommt in die Stadt.
 Zitate sind nicht meine Stärke.
 Zitternd zeigt Zora Zach zum zankenden Zauberer.
 Zivilcourage sollte man von jedem einfordern.

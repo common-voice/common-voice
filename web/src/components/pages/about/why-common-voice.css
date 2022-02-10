@@ -130,9 +130,6 @@
         flex: 1;
         text-align: right;
 
-        @media (--md-up) {
-            /*margin: 4rem 0 0 3rem;*/
-        }
         @media (--md-down) {
             margin: 2rem 0 0 auto;
         }

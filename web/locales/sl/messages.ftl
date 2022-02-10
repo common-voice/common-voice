@@ -36,7 +36,6 @@ ba = baškirščina
 bas = basa
 be = beloruščina
 bg = bolgarščina
-bm = bambarščina
 bn = bengalščina
 br = bretonščina
 bs = bosanščina
@@ -446,9 +445,11 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Zakaj Common Voice?
-about-subtitle = Common Voice je del Mozilline pobude, ki pomaga učiti stroje, kako ljudje govorijo. Poleg nabora podatkov Common Voice gradimo tudi odprtokodni mehanizem za prepoznavanje govora, imenovan Deep Speech.
-how-does-it-work-title = Kako deluje
+how-does-it-work-title-v2 = Kako Common Voice deluje?
 how-does-it-work-text = Ustvarjamo odprtokodni glasovni nabor podatkov. Prispevajte svoj glas in preverite točnost posnetkov drugih ljudi, da bo nabor podatkov boljši za vsakogar.
+
+## How does it work section
+
 about-speak = Govori
 about-speak-text = Sodelujoči posnamejo glasovne posnetke iz nabora zbranih stavkov.
 about-listen-queue = Poslušaj – Čakalna vrsta
@@ -481,6 +482,41 @@ about-nav-why-common-voice = Zakaj?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partnerji
 about-nav-get-involved = Pridružite se
+about-nav-how-it-works-2 = Kako Common Voice deluje?
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Kaj je jezik za Common Voice?
+
+## How do I add a language
+
+about-playbook-how-add-language = Kako dodam jezik?
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = Dogodki
+about-playbook-how-grow-language-content-4 = Družbena omrežja
+about-playbook-how-grow-language-content-6 = Partnerstva in mreže
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance-content-3 = Zasebnost, varnost in preglednost.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Umetna inteligenca
 mycroft-description =
@@ -946,9 +982,18 @@ sc-logout-button = Odjava
 
 ## MY SENTENCES
 
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Prispevek: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Vir:  { $source }
+sc-my-delete = Izbriši izbrane stavke
+sc-my-deleting = Brisanje izbranih stavkov …
 
 ## REJECTED
 
+sc-rejected-title = Zavrnjeni stavki
 
 ## STATS
 
@@ -962,11 +1007,19 @@ sc-stats-updating = Posodabljanje …
 ## ADD
 
 sc-submit-err-select-lang = Izberite jezik.
+sc-submit-err-add-source = Prosimo, dodajte vir.
+sc-submit-err-confirm-pd = Prosimo, potrdite, da so ti stavki v javni domeni.
+sc-submit-title = Dodaj stavke
 sc-submit-select-language =
     .labelText = Izberi jezik
+sc-submit-add-sentences = Dodaj stavke <wikipediaLink>v javni domeni</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = En stavek na vrstico
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Dodaj jezik
+sc-add-err-unexpected = Strežnik je vrnil nepričakovan odgovor
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -976,9 +1029,16 @@ sc-submit-select-language =
 
 ## LOGIN
 
+sc-login-err-failed = Prijava ni uspela
+sc-login-err-try-again = Poskusite znova.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Jezika ni bilo mogoče odstraniti: jezika ni bilo mogoče najti
+sc-personal-err-remove = Jezika ni bilo mogoče odstraniti
 sc-personal-your-languages = Vaši jeziki:
 sc-personal-remove-button = odstrani
 
@@ -987,6 +1047,10 @@ sc-personal-remove-button = odstrani
 
 ## REVIEW
 
+sc-review-loading = Nalaganje stavkov …
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Vir: { $sentenceSource }
 sc-review-form-button-reject = Zavrni
 sc-review-form-button-skip = Preskoči
 sc-review-form-button-approve = Odobri
@@ -995,6 +1059,11 @@ sc-review-form-button-approve = Odobri
 
 sc-settings-title = Nastavitve
 sc-settings-ui-language = Jezik vmesnika
+sc-settings-show-all-button = Ponovno prikaži vse preskočene stavke
+sc-settings-failed = Nastavitev ni bilo mogoče spremeniti. Poskusite znova.
+sc-validation-no-numbers = Stavek ne sme vsebovati številk
+sc-validation-no-symbols = Stavek ne sme vsebovati simbolov
+sc-validation-no-abbreviations = Stavek ne sme vsebovati krajšav
 
 # [/SentenceCollector]
 

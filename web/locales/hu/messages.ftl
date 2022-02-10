@@ -145,6 +145,7 @@ scn = Szicíliai
 shi = Tachelhit
 si = Szingaléz
 sk = Szlovák
+skr = Saraiki
 sl = Szlovén
 so = Szomáli
 sq = Albán
@@ -160,6 +161,7 @@ ti = Tigrinya
 tig = Tigre
 tk = Türkmén
 tl = Tagalog
+tok = Toki pona
 tr = Török
 tt = Tatár
 tw = Twi
@@ -1230,11 +1232,8 @@ sc-rejected-none-found = Nem található elutasított mondat.
 ## STATS
 
 sc-stats-title = Statisztika
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Utolsó frissítés: { $lastUpdate }
-sc-stats-last-update-never = Utolsó frissítés: soha
 sc-stats-updating = Frissítés…
+sc-stats-error = A statisztikák lekérése nem sikerült. Próbálja újra később.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1326,6 +1325,8 @@ sc-confirm-uploading = A mondatok feltöltése folyamatban van. Ez a hozzáadott
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Összesen
+sc-lang-info-title-personal = Személyes
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =

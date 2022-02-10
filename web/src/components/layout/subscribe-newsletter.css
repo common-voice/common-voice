@@ -39,7 +39,7 @@
         width: 100%;
         padding: 15px;
         font-size: var(--font-size);
-        background: hsla(0, 0%, 100%, 0.1);
+        background: hsla(0deg, 0%, 100%, 0.1);
 
         &:focus {
             outline: none !important;
