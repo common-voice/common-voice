@@ -522,6 +522,7 @@ about-nav-playbook = Кузе ушнаш манын, пален нал
 
 about-playbook-what-is-language = Common Voice-ышто йылме мо тугай?
 about-playbook-what-is-language-content-1 = Йылме нерген шонаш шуко йӧн уло. Common Voice йӱкым пален налме модель шумлыклан «ваш рашлыклан» але «нине йылмым нумалше-влак, тӧчен ончат гын, ваш умылат мо?» манмылан тӱткылыкым ойыраш темла.
+about-playbook-what-is-language-content-2 = Ме кутырымо модель-влак ойлышо-влакым кумданрак умылышт манын шонена. Тидлан йӱк датасет шуко тӱрлӧ еҥым авалтышаш.
 
 ## How do I add a language
 
