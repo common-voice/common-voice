@@ -484,6 +484,7 @@ about-yes-votes-text = Common Voice датасетыш логалаш манын
 about-no-votes = ≥2 «уке»
 about-no-votes-text = Пайдаланыше йӱкан клипым ӧрдыжтара гын, тудо черетыш пӧртылеш. Угычын ӧрдыжтарыме деч вара, тудо клип шӱгарыш кусаралтеш.
 about-dataset-new = Common Voice датасет
+about-dataset-new-text = Common Voice данный пого шӱдӧ тӱжем дене йӱк тевык гыч шога, нуно ыштызе-влаклан йӱкым пален налше ӱзгарым ышташ полшат.
 about-clip-graveyard = Клип шӱгар
 about-partners = Партнёр-влак
 about-become-a-partner = Партнёр лияш
