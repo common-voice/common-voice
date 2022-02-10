@@ -535,6 +535,7 @@ about-playbook-how-add-language-content-3 = <strong>Ойлончо-влакым 
 
 about-playbook-how-localize = Кузе сайтын локализацийже ышта?
 about-playbook-how-localize-content-1 = Common Voice-ын сайтше <strong>Pontoon-ышто</strong> кусаралтеш.
+about-playbook-how-localize-content-2 = Аккаунтет уке гын, <pontoonAccountLink>тудым ыште</pontoonAccountLink>. Вара шке йылметым ойыро <strong>(«Команде»)</strong>, вара <pontoonCvLink>Common Voice</pontoonCvLink> проектым ойыро. Кусарашлан файл-влак лийыт. Иктыжым темдал, вара тудо англичан йылме дене мут-влакым да нуным кусарашлан аланым ончыкта.
 about-playbook-how-localize-content-4 = Сайт, кунам тудо 75%-лан тичмашлалтеш, пашаш колташ ямде лиеш.
 about-playbook-how-localize-content-5 = Полшаш манын, мемнан умылтарыме видеонам ончо
 
@@ -655,6 +656,7 @@ download-language = { $language } йылмым тулен налаш
 validated-hours = Тергыме шагат
 recorded-hours = Возымо шагат
 whats-inside = Common Voice данный кӧргыштӧ мо уло?
+want-dataset-update = Кунам ме Common Voice датасетын у версийжым луктына, уэмдымашым наледынет? Мемнан уверым колтедылмашлан возалт.
 subscribe = Возалташ
 get-started-speech = Ойлымым палыме гыч тӱҥал
 other-datasets = Моло йӱк датасет-влак
@@ -673,6 +675,7 @@ dataset-version = Версий
 ## Download Modal
 
 download-title = Тыйын вераҥдымаш тӱҥалын.
+download-helpus = Йӱк технологий йыр мыланна тӱшкам ышташ полшо, электрон почто дене кылыште лий.
 download-form-email =
     .label = Шке электрон почто адресетым пурто
     .value = Тау, ме кылыште лийына.
