@@ -293,12 +293,14 @@ accept-privacy-title = رازداری پالیسی
 login-identity = لاگ ان سُن٘ڄاݨ
 login-signup = لاگ ان/ سائن اپ
 edit = تبدیلی کرو
+email-subscriptions = ای میل سبسکرپشناں
 download-profile = میݙا ڈیٹا ڈاؤن لوڈ کرو
 off = بند
 on = چالو
 
 ## Profile - Email
 
+browse-file-title = تصویر فائل اپ لوڈ کرو
 
 ## Profile - Email
 
