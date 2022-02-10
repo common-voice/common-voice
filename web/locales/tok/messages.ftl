@@ -636,6 +636,7 @@ share-clip = o pana e kalama awen sina
 share-common-voice = o pana e ilo Common Voice
 clips-uploaded = kalama awen pana
 record-abort-title = wan la, o pini e kalama awen anu seme?
+record-abort-text = sina tawa la sina weka e pali sina
 record-abort-submit = o pana e kalama awen
 record-abort-continue = o pini kalama
 record-abort-delete = o pini, o weka e kalama awen
@@ -669,6 +670,7 @@ report-offensive-speech-detail = kalama awen li jo e toki ike.
 report-other-comment =
     .placeholder = o toki
 success = pona
+continue = o tawa
 report-success = sina pana e sona pakala.
 
 ## Goals
@@ -693,11 +695,15 @@ toward-next-goal = tawa pini suli sin
 goal-reached = sina pini!
 clips-you-recorded = kalama awen sina
 clips-you-validated = kalama awen pi pona sina
+stats = pali
+awards = ijo tan pali pona
 you = sina
 everyone = jan ale
 top-contributors = jan pana pi nanpa wan
 recorded-clips = kalama awen
 validated-clips = kalama awen pona
+set-visibility = len ala len
+show-ranking = o len ala e pali mute mi
 
 ## Custom Goals
 
@@ -745,6 +751,7 @@ profile-form-delete = o weka e lipu jan
 ## Profile Download
 
 download-q = sina wile kama jo e sona sina anu seme?
+download-info = sina wile kama jo e seme:
 download-profile-title = lipu jan
 download-recordings-title = kalama awen
 download-size = suli
@@ -753,6 +760,8 @@ download-start = o kama jo e sona pi lipu jan
 download-request = o wile e kalama awen
 download-requests = wile pi kalama awen tan tenpo pini
 download-request-button = o kama jo
+download-request-title = { $created }
+download-request-archive-single = poki lipu ZIP wan li jo e ni:
 download-request-assembling-description = lipu sina li kama kulupu. o lukin lon tenpo kama.
 download-request-refresh-button = o sin
 download-request-modal-title = nasin nimi pi kama jo
@@ -811,6 +820,8 @@ contribution-volume-title = wawa kalama
 
 ## HEADER/FOOTER
 
+sc-header-home = tawa lipu sinpin
+sc-header-how-to = nasin seme
 sc-header-add = o pana
 sc-header-review = o pona
 sc-header-rejected = sitelen weka
@@ -828,6 +839,8 @@ sc-logout-button = o weka tan ilo
 
 ## HOME
 
+sc-home-collect-title = o kulupu e sitelen
+sc-home-review-title = o pona e sitelen
 
 ## HOW-TO
 
