@@ -68,7 +68,9 @@ ht = ہیٹین
 hu = ہنگرین
 hy-AM = آرمینی
 hyw = آرمینی غربی
+ia = انٹرلنگوا
 id = انڈونیشی
+ie = انٹرلنگو
 ig = اگبو
 is = آئی لینڈی
 it = اٹالین
@@ -112,6 +114,8 @@ ne-NP = نیپالی
 nia = نیاس
 nl = ڈچ
 nn-NO = نارویجی نورسک
+nyn = رنیانکول
+oc = آكسيٹان
 or = اوڑیہ
 pa-IN = پنجابی
 pl = پولش
@@ -119,6 +123,9 @@ ps = پشتو
 pt = پرتگیزی
 ro = رومانی
 ru = روسی
+sah = ساکھا
+sat = سنتالی(اول چِکی)
+sc = سردینی
 shi = شلہا
 si = سنہالی
 sk = سلواک
@@ -149,6 +156,13 @@ ug = ییغور
 uk = یوکرائنی
 ur = اردو
 uz = اُزبک
+vi = ویت نامی
+vot = ووٹک
+yo = یور
+yue = یورْوبا
+zh-CN = چینی (چین)
+zh-HK = چینی (ہانگ کانگ)
+zh-TW = چینی (تائیواں)
 
 # [/]
 
@@ -164,10 +178,12 @@ contact = رابطہ
 privacy = رازداری
 terms = ٹرماں
 cookies = کوکیاں
+link-copied = لنک نقل تھی ڳیا
 logout = لاگ آؤٹ
 
 ## Home Page
 
+show-wall-of-text = ٻیا پڑھو
 vote-yes = جیا
 vote-no = کو
 all-locales = سارے
@@ -219,6 +235,8 @@ shortcut-vote-no = کو
 shortcut-record-toggle = ریکارڈ
 shortcut-record-toggle-label = ریکارڈ/رکو
 shortcut-rerecord-toggle = [1-5]
+shortcut-submit = واپس ون٘ڄو
+shortcut-submit-label = کلپ جمع کرواؤ
 
 ## ProjectStatus
 
