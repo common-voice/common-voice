@@ -367,15 +367,20 @@ localization = مقامیت
 
 ## Error pages
 
+error-code = خرابی { $code }
 
 ## Data
 
 data-download-yes = جیا
 data-download-deny = کو
+data-other-goto = { $name } تے ون٘ڄو
+data-other-download = ڈیٹا ڈاؤن لوڈ کرو
 release-version = ورشن
 dataset-date = تریخ
 license = لائسنس: <licenseLink>{ $license }</licenseLink>
+license-mixed = مکس تھئے
 terms-agree = میں متفق ہاں
+terms-disagree = میں راضی کائنی
 
 ## Datasets Page
 
@@ -385,6 +390,7 @@ size = سائز
 cv-license = لائسنس
 size-gigabyte = جی بی
 size-megabyte = ایم بی
+go-languages-page = زباناں ورقے تے ون٘ڄو
 more = ٻئے
 close = بند کرو
 download = ڈاؤن لوڈ
@@ -392,9 +398,11 @@ dataset-version = ورشن
 
 ## Download Modal
 
+download-no = کو، شکریہ
 
 ## Contact Modal
 
+contact-title = رابطہ فارم
 contact-form-name =
     .label = ناں
 contact-form-message =
@@ -406,9 +414,14 @@ contact-required = *ضروری ہے
 request-language-title = زبان ارداس
 request-language-form-language =
     .label = زبان
+select-language = زبان چݨو۔۔۔
+other-language = ٻئی زبان
 
 ## Languages Overview
 
+language-section-in-progress = تھیندا پئے
+languages-show-more = ٻئے ݙیکھو
+languages-show-less = گھٹ ݙیکھو
 
 ## Contribution
 
