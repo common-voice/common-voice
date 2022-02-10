@@ -301,6 +301,7 @@ on = چالو
 ## Profile - Email
 
 browse-file-title = تصویر فائل اپ لوڈ کرو
+avatar-uploaded = اواتار اپ لوڈ تھیا
 
 ## Profile - Email
 
@@ -308,13 +309,19 @@ add-language = زبان شامل کرو
 
 ## FAQ
 
+faq-why-important-q = ایہ اہم کیوں ہے؟
+faq-search-for-answers =
+    .label = جواباں دی ڳول
 
 ## ABOUT US
 
 
 ## How does it work section
 
+about-localization-title = ویب سائٹ دی مقامیت
+about-speak = ٻولو
 about-listen = سݨو
+about-get-involved = نال رلت کرو
 about-nav-why-common-voice = کیوں؟
 about-nav-how-it-works = کین٘ویں؟
 about-nav-get-involved = نال رلت کرو
