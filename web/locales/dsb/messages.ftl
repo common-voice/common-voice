@@ -1135,6 +1135,7 @@ sc-logout-button = Wótzjawiś
 sc-home-title = Witajśo k Common Voice Sentence Collector
 sc-home-collect-title = Sady gromaźiś
 sc-home-review-title = Sady pśeglědaś
+sc-home-review-text = Pomagajśo nam, korektnosć sadow pó směrnicach pśeglědowaś.
 
 ## HOW-TO
 
@@ -1185,6 +1186,7 @@ sc-rejected-none-found = Žedne wótpokazane sady namakane!
 
 sc-stats-title = Statistika
 sc-stats-updating = Aktualizěrujo se…
+sc-stats-error = Njejsmy mógli statistiku wótwołaś. Pšosym wopytajśo pózdźej hyšći raz.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
