@@ -450,7 +450,7 @@ faq-where-src-from-2-a =
     
     您可到此 <githubLink>GitHub 資料夾</githubLink>檢視我們的來源文本。
 faq-why-not-ask-read-q = 為什麼你們不讓人來念出各種語言的書本內容，或是維基百科條目？
-faq-why-not-ask-read-a = 為了讓 Common Voice 資料集能發會最大效益，我們決定只允許收錄以 Creative Commons (CC0) 授權條款提供使用的來源文本。會比較難找到使用 CC0 條款的來源文本，但可讓任何人都使用產出的語音資料，而不需受 Mozilla 的限制或授權。最終我們讓多語言資料集，為所有人（包含研究者、大學、創業公司、政府、社團組織、有興趣的人）發揮最大效益。
+faq-why-not-ask-read-a = 為了讓 Common Voice 資料集能發揮最大效益，我們決定只允許收錄以 Creative Commons (CC0) 授權條款提供使用的來源文本。會比較難找到使用 CC0 條款的來源文本，但可讓任何人都使用產出的語音資料，而不受 Mozilla 的限制或授權。我們的最終目標是希望讓多語言資料集，為所有人（包含研究者、大學、創業公司、政府、社團組織、有興趣的人）發揮最大效益。
 faq-why-account-q = 為什麼我要註冊帳號？
 faq-is-account-public-q = 我的帳號資料是公開的嗎？
 faq-how-privacy-q = 你們如何確保匿名性，以及貢獻語音的人的隱私？
