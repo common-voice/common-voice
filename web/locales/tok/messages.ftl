@@ -218,8 +218,13 @@ wall-of-text-more-desktop =
     sina ken pana e kalama toki sina. ni la mi ken pali e kulupu sona open li ken open e ona tawa jan ale.
     ni la jan li ken pali e ilo. o toki e linja nimi la ilo ken sona e toki pi jan lon. o lukin e toki pi jan ante la
     o pona e ona. ni li pona a!
+wall-of-text-second =
+    kulupu esun suli li kepeken e kulupu kalama suli li pana ala e ona tawa jan ante mute.
+    mi la ni li ken ala e sin. tan ni la mi open e pali Common Voice. ona la ilo li ken kute pona e kalama jan.
+    jan ale li ken kepeken ona.
 show-wall-of-text = o lukin e toki mute
 help-us-title = o pona e sitelen!
+help-us-explain = o kute e toki, o pana e sona ni: toki kalama li sama ala sama sitelen anpa?
 no-clips-to-validate = toki ni li jo ala e kalama awen. wile la, o awen e kalama sina.
 vote-yes = pona
 vote-no = ala
@@ -259,7 +264,9 @@ email-subscription-title-new = o kama jo e lipu ni: sona sin en pali sin en pini
 
 benefits = seme li pona
 rich-data = o pana e sona ni: jan pi toki sina li seme? mi pana e kulupu kalama la sona ni li ante: jan li ken ala jo e sona ni. mi weka e ona tan kulupu kalama.
+improve-audio = sona lipu li pona e kulupu kalama, e ilo kute: ona li kepeken kulupu kalama ni.
 keep-track = sina ken lukin e suli pi pali sina e ijo ante lon toki ale sina.
+compare-progress = sina ken sona e ni: pali sina la pali pi jan ante li seme?
 view-goals = sina ken lukin e mute pi pali sina, e wile pali sina, e wile pali kulupu.
 join-newsletter = sina ken kama jo e sona ni lon poki lipu sina: ilo ni la seme li sin?
 
@@ -269,6 +276,7 @@ whats-public = ale li ken lukin e seme?
 email-not-public = mi pana lukin ala e nimi pi poki lipu sina.
 recordings-and-locale-public = mi pana e nanpa pi kalama sina e toki sina.
 username-optin-public = sina ken len e nimi sina. sina ken pana e nimi sina.
+demographic-deidentified-clarity-2 = sina pana e tenpo sike pi lon sina, e kule kon sina, e toki sina, e nasin kalama toki sina, la mi pana ala e ona lon lipu sina. kulupu kalama la mi toki ala e ni: sona ni li tan sina. taso, mi pana e sona ni lon kalama sina, tan ni: ken la jan sona li wile pali e ilo kute ni: ona li kute pi pona mute e jan pi kulupu wan.
 username-email-not-demographic = nimi sina en nimi pi poki lipu sina li lon ala poka pi kalama sina.
 
 ## Speak & Listen Shortcuts
@@ -369,7 +377,6 @@ email-subscriptions = lipu wile pi poki lipu sina
 download-profile = o kama jo e sona mi e kalama mi
 contribution-experience = sona pi nasin pali
 skip-submission-feedback = mi pana e pali la o toki ala e toki lili ona tawa mi
-skip-submission-description = sina luka e nena "o pana" la mi toki ala e ni: pali sina li pona ala pona. sina ken pali e ijo sin 5.
 skip-submission-note = o sona e ni: sina wile ante e nasin pali la, o luka e nena "o toki" anu "o kute".
 off = ala
 on = wile
@@ -412,7 +419,9 @@ faq-is-goal-assistant-q = pali Common Voice la sina wile pali e ilo pali kute an
 faq-is-goal-assistant-a = pali Common Voice la mi wile ken e ni: jan ale li ken pali e ilo kute, e ilo pi sona jan, e ilo ale ni: ona li wile e toki uta mute. kalama ni la jan li ken pali e ilo pali kute, taso jan li ken pali e ijo mute ante.
 faq-do-want-native-q = toki ni li toki mama mi ala. sina wile ala wile e toki uta mi?
 faq-why-different-speakers-q = tan seme la sina wile e jan toki mute?
+faq-why-different-speakers-a = kulupu mute pi toki uta la toki mute li tan <articleLink>jan mije pi mani mute</articleLink>. nasin kalama toki li lon kulupu jan lili la, toki uta lon kulupu ni li mute ala. kin la ilo mute li kute pona ala e toki tan jan meli. ni la mi wile e nasa lon kulupu kalama mi!
 faq-why-my-lang-q = tan seme la toki mi li lon ala?
+faq-what-quality-q = sina wile e kalama pi pona kute seme?
 faq-why-10k-hours-q = sina wile e kalama pona pi tenpo suli 10000 lon toki wan tan seme?
 faq-why-10k-hours-a = ilo kute pi pona mute li wile e kalama pi mute ni.
 faq-how-calc-hours-q = ilo Common Voice li nanpa e tenpo kalama kepeken nasin seme?
@@ -451,10 +460,13 @@ about-speak-text = jan li toki uta e sitelen, li awen e ona.
 about-listen-queue = kulupu kute
 about-listen-queue-text = toki uta li kama tan kulupu. jan kute li kama jo e ona tan kulupu ni.
 about-listen = o kute
+about-listen-text = jan li kute e toki uta. ona li toki e ni: toki uta li sama ala sama toki sitelen?
 about-is-it-valid = kalama awen li pona ala pona?
 about-is-it-valid-text = jan li pana e pona tawa kalama awen la, ona li pona.
 about-yes-votes = pona tan jan 2
+about-yes-votes-text = jan tu li kute e kalama wan li toki e pona ona la, ona li kama lon kulupu kalama Common Voice.
 about-no-votes = pona ala tan jan 2
+about-no-votes-text = jan li kute e kalama li toki e ike la, ona li tawa sin tawa kulupu kute. jan ante li ni la, kalama li tawa kulupu pi kalama weka.
 about-dataset-new = kulupu sona Common Voice
 about-clip-graveyard = kalama awen weka
 about-clip-graveyard-text = lipu pi kalama weka li jo e kalama awen. kalama awen li ike lon lipu ni, li pana ala tawa kulupu kalama pi ilo Common Voice. sina ken kama jo e kalama weka.
@@ -488,6 +500,7 @@ about-playbook-how-localize-content-5 = sina wile e pona la, o lukin e sitelen t
 ## How to add sentences
 
 about-playbook-how-add-sentences = nasin seme la mi ken pana e sitelen?
+about-playbook-how-add-sentences-content-4 = toki li pona la, mi pana insa e ona lon tenpo suno nanpa tu wan pi tenpo suno. mi pana e ona lon ilo lon tenpo pi pana weka kalama.
 
 ## How to record quality
 
@@ -580,8 +593,10 @@ number-of-voices = nanpa pi jan toki
 splits = kulupu lili
 email-to-download = sina wile jo la o pana e nimi pi poki lipu sina
 why-email = <b>poki lipu mi li tan seme?</b> ken la kulupu kalama li kama ante lon tenpo kama. mi wile toki e ijo ante tawa sina.
+confirm-size = sina ken kama jo e kalama pi suli <b>{ $size }</b>.
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>sina wile e ni:</b> sina kama sona ala e ni: jan seme li pana e kalama lon kulupu kalama Common Voice
 download-language = o kama jo e { $language }
 validated-hours = nanpa tenpo pi kalama awen pona
 recorded-hours = nanpa tenpo pi kalama awen
