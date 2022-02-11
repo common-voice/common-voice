@@ -515,6 +515,7 @@ error-code = pakala { $code }
 data-download-button = o kama jo e sona pi ilo Common Voice
 data-download-yes = wile
 data-download-deny = ala
+data-subtitle = mi pali e kulupu sona pi toki uta. jan ale li ken kepeken ona tawa ni: ona li ken pali e ilo toki, e ilo kute.
 data-other-title = kulupu sona ante pi toki uta
 data-other-goto = tawa lipu { $name }
 data-bundle-button = o kama jo e poki kalama
