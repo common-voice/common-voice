@@ -261,6 +261,7 @@ benefits = seme li pona
 rich-data = o pana e sona ni: jan pi toki sina li seme? mi pana e kulupu kalama la sona ni li ante: jan li ken ala jo e sona ni. mi weka e ona tan kulupu kalama.
 keep-track = sina ken lukin e suli pi pali sina e ijo ante lon toki ale sina.
 view-goals = sina ken lukin e mute pi pali sina, e wile pali sina, e wile pali kulupu.
+join-newsletter = sina ken kama jo e sona ni lon poki lipu sina: ilo ni la seme li sin?
 
 ## What's public
 
@@ -268,6 +269,7 @@ whats-public = ale li ken lukin e seme?
 email-not-public = mi pana lukin ala e nimi pi poki lipu sina.
 recordings-and-locale-public = mi pana e nanpa pi kalama sina e toki sina.
 username-optin-public = sina ken len e nimi sina. sina ken pana e nimi sina.
+username-email-not-demographic = nimi sina en nimi pi poki lipu sina li lon ala poka pi kalama sina.
 
 ## Speak & Listen Shortcuts
 
@@ -367,6 +369,7 @@ email-subscriptions = lipu wile pi poki lipu sina
 download-profile = o kama jo e sona mi e kalama mi
 contribution-experience = sona pi nasin pali
 skip-submission-feedback = mi pana e pali la o toki ala e toki lili ona tawa mi
+skip-submission-description = sina luka e nena "o pana" la mi toki ala e ni: pali sina li pona ala pona. sina ken pali e ijo sin 5.
 skip-submission-note = o sona e ni: sina wile ante e nasin pali la, o luka e nena "o toki" anu "o kute".
 off = ala
 on = wile
@@ -1134,6 +1137,8 @@ sc-personal-not-added = sina pana ala e toki.
 
 sc-criteria-modal = nasin pona
 sc-criteria-title = nasin pona
+sc-criteria-item-1 = sitelen lili ale o pona nasin lon nimi ale pi toki ni.
+sc-criteria-item-2 = toki ni o kepeken nasin toki pona.
 sc-criteria-item-3 = toki ni o ken tawa kalama uta.
 
 ## REVIEW
