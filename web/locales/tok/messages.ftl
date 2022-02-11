@@ -247,7 +247,7 @@ x-years-short =
        *[other] sike { $count }
     }
 help-make-dataset = o pona e ni: mi mute li pali e sona mute pona.
-sign-up-account = o kama jo e lipu lawa
+sign-up-account = o kama jo e sijelo ilo
 email-subscription-title = o kama jo e lipu sin
 email-subscription-title-new = o kama jo e lipu ni: sona sin en pali sin en pini suli sina
 
@@ -800,10 +800,16 @@ demo-welcome-subheader = sina wile sona mute? sina wile pana tawa pali ni?
 
 ## Demo Datasets
 
+card-button-next = o kama
 demo-language-select-label = o lukin e toki
+demo-eofy-header = kulupu sona pana pi tenpo sike pini 2019
+demo-account = sijelo ilo
 
 ## Demo Account
 
+demo-account-card-header = sina jo anu jo ala e sijelo ilo la, sina ken pana. sina jo la, ni li pona mute.
+demo-account-enter-email =
+    .label = o pana e nimi pi poki lipu sina la mi pana e nimi nasin kama.
 demo-account-sign-up = o kama jo e nimi nasin kama
 
 ## Demo Contribute
@@ -835,6 +841,8 @@ contribution-background-noise-title = kalama pi ijo ante
 contribution-background-noise-example-2-explanation = [sina ken ala kute e nimi ale]
 contribution-background-voices-title = toki pi jan ante
 contribution-volume-title = wawa kalama
+see-more = <chevron></chevron> o lukin mute
+see-less = <chevron></chevron> o lukin lili
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -854,6 +862,7 @@ sc-header-profile = lipu jan
 sc-footer-discourse = ilo Discourse
 sc-footer-report-bugs = o toki e pakala
 sc-footer-translate = o ante toki e lipu ni
+sc-footer-report-copyright = o toki e ike pi sona ilo jan
 sc-footer-privacy = sona len
 sc-footer-terms = nasin kepeken
 sc-footer-cookies = ilo pi sona lipu sina
@@ -871,6 +880,7 @@ sc-howto-title = nasin seme?
 sc-howto-addlang-title = o pana e toki sin
 sc-howto-addsen-title = o pana e sitelen sin
 sc-howto-review-title = o lukin e sitelen
+sc-howto-findpd-tips-3 = mi ken ala jo e lipu tan kulupu Wikimedia. o pana ala e ona.
 
 ## MY SENTENCES
 
@@ -880,10 +890,16 @@ sc-my-no-sentences = sitelen ala a li lon!
 
 ## REJECTED
 
+sc-rejected-title = sitelen weka
+sc-rejected-loading = ilo li kama e sitelen weka…
+sc-rejected-err-fetching = mi pakala. mi ken ala kama e sitelen weka. o sin.
+sc-rejected-none-found = sitelen weka li lon ala.
 
 ## STATS
 
+sc-stats-title = nanpa pali
 sc-stats-updating = ilo li kama sin…
+sc-stats-error = mi ken ala kama e nanpa pali. o sin lon tenpo kama.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -893,16 +909,40 @@ sc-stats-summary = ilo Common Voice li jo e sitelen { $sentenceCount } lon toki 
 
 sc-submit-err-select-lang = o kepeken toki
 sc-submit-err-add-sentences = o pana e sitelen
+sc-submit-err-add-source = o pana e lipu mama.
+sc-submit-err-confirm-pd = o pona e ni: sitelen ni li tawa jan ale.
+sc-submit-prompt =
+    .message = sina pana ala e sitelen. sina wile ala wile weka?
 sc-submit-title = o pana e sitelen
+sc-submit-select-language =
+    .labelText = o kepeken toki
+sc-submit-add-sentences = o pana e <wikipediaLink>sitelen pi jan ale</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = sitelen wan taso lon linja wan
+sc-submit-from-where = <wikipediaLink>sitelen pi jan ale</wikipediaLink> li tan lipu seme?
 sc-submit-button =
     .submitText = o pana
 
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = mi ken ala pana e toki
+sc-add-lang-sec-label = o pana e toki pi wile pali sina.
 sc-add-lang-sec-button = o pana e toki
+sc-add-err-unexpected = lipu li pana e pakala. nasin la mi sona ala.
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] sina pana e sitelen. sitelen { $duplicates } li lon la, ona li weka.
+       *[other] sina pana e sitelen. sitelen { $duplicates } li lon la, ona li weka.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] sitelen { $sentences } li pakala.
+       *[other] sitelen { $sentences } li pakala.
+    }
 sc-add-err-submission = pakala li lon pana
 
 ## ADD SENTENCES CONFIRMATION
@@ -910,6 +950,9 @@ sc-add-err-submission = pakala li lon pana
 sc-confirm-are-you-sure =
     .message = sina pana ala e sitelen. sina wile ala wile weka?
 sc-confirm-sentences-title = o pona e sitelen sin
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = sina weka e sitelen { $countOfInvalidated }.
 sc-confirm-button-text = o wile
 
 ## LANGUAGE INFO
