@@ -336,6 +336,7 @@ about-nav-why-common-voice = کیوں؟
 about-nav-how-it-works = کین٘ویں؟
 about-nav-partners = بھائیوال
 about-nav-get-involved = نال رلت کرو
+about-nav-playbook = حصہ گھنݨ دا ݙا سکھو
 
 ## Community Playbook Content
 ## What is a language
