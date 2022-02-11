@@ -1090,6 +1090,7 @@ sc-logout-button = Αποσύνδεση
 
 ## HOME
 
+sc-home-title = Καλώς ορίσατε στη Συλλογή προτάσεων Common Voice
 sc-home-collect-title = Συλλογή προτάσεων
 sc-home-review-title = Έλεγχος προτάσεων
 
