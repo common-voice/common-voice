@@ -611,6 +611,7 @@ download-title = kama jo sina li open
 download-form-email =
     .label = o pana e nimi pi poki lipu sina
     .value = sina pona. mi toki tawa sina.
+download-back = o tawa kulupu sona Common Voice
 download-no = mi wile ala e ni
 
 ## Contact Modal
@@ -637,12 +638,14 @@ language-section-in-progress = pali toki li lon
 language-section-launched = open!
 languages-show-more = o lukin mute
 languages-show-less = o lukin lili
+language-meter-in-progress = pali suli
 language-total-progress = ale
 language-search-input =
     .placeholder = o alasa
 language-speakers = jan toki
 localized = ante toki
 sentences = sitelen
+total-hours = tenpo suli pona
 
 ## Contribution
 
@@ -895,7 +898,6 @@ contribution-misreadings-description-extended-list-4 = sina pini e kute ilo la, 
 contribution-misreadings-description-extended-list-5 = sina toki e nimi lon tenpo mute.
 contribution-misreadings-example-1-title = mi la soweli ni li suwi.
 contribution-misreadings-example-2-title = soweli ni li suwi.
-contribution-misreadings-example-2-explanation = [o weka e nimi "mi la", e nimi "a"]
 contribution-misreadings-example-3-title = mi la soweli ni li suw-.
 contribution-misreadings-example-3-explanation = [ona li pini ala e toki. taso, kute li pini]
 contribution-misreadings-example-4-title = mi la soweli ni li suwi a. pona.
@@ -948,6 +950,8 @@ sc-howto-title = nasin seme?
 sc-howto-addlang-title = o pana e toki sin
 sc-howto-addsen-title = o pana e sitelen sin
 sc-howto-review-title = o lukin e sitelen
+sc-howto-review-criteria-2 = toki ni o lon nasin.
+sc-howto-review-criteria-3 = toki ni o ken tawa kalama uta.
 sc-howto-review-criteria-6 = sitelen sin li lon ala la, o kama jo, o pana e ona sin!
 sc-howto-findpd-title = o alasa e sitelen pi jan ale
 sc-howto-findpd-subtitle = o alasa e ona kepeken ilo sona linja
