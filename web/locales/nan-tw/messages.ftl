@@ -450,47 +450,150 @@ faq-where-src-from-2-a =
     
     您可到此 <githubLink>GitHub 資料夾</githubLink>檢視我們的來源文本。
 faq-why-not-ask-read-q = 為什麼你們不讓人來念出各種語言的書本內容，或是維基百科條目？
-faq-why-not-ask-read-a = 為了讓 Common Voice 資料集能發會最大效益，我們決定只允許收錄以 Creative Commons (CC0) 授權條款提供使用的來源文本。會比較難找到使用 CC0 條款的來源文本，但可讓任何人都使用產出的語音資料，而不需受 Mozilla 的限制或授權。最終我們讓多語言資料集，為所有人（包含研究者、大學、創業公司、政府、社團組織、有興趣的人）發揮最大效益。
+faq-why-not-ask-read-a = 為了讓 Common Voice 資料集能發揮最大效益，我們決定只允許收錄以 Creative Commons (CC0) 授權條款提供使用的來源文本。會比較難找到使用 CC0 條款的來源文本，但可讓任何人都使用產出的語音資料，而不需受 Mozilla 的限制或授權。最終我們讓多語言資料集，為所有人（包含研究者、大學、創業公司、政府、社團組織、有興趣的人）發揮最大效益。
 faq-why-account-q = 為什麼我要註冊帳號？
 faq-is-account-public-q = 我的帳號資料是公開的嗎？
 faq-how-privacy-q = 你們如何確保匿名性，以及貢獻語音的人的隱私？
+faq-how-privacy-a = 資料集中所有的錄音片段都不會包含可識別出個人的資訊。若貢獻者提供個人相關資料，該資訊將在錄音片段被合併成資料集提供下載前去識別化，永遠不會公開在他們的個人資料頁面中公開。
+faq-what-determine-identity-q = 在 Common Voice 資料集中無法「確認發言者身分」是什麼意思？
+faq-what-determine-identity-a =
+    Common Voice 資料集是一份開放，可公開使用的資源。含有語音功能的應用程式可使用這份資料來訓練程式。為了保護貢獻者的安全，我們要求所有下載 Common Voice 資料集的人確保貢獻者的隱私安全。
+    
+    所有語音片段中的個人識別資料已經清除。當您下載資料集時，就代表您同意不會識別資料集當中的任何貢獻者。這代表您不得嘗試將資料集中的資訊，與貢獻者的個人資訊連結起來。但您可以將資料集中的不同資訊互相連結起來，用來訓練語音識別、說話者識別等功能，或其他應用程式。
 faq-what-is-cv = 啥物是 Common Voice？
 faq-using-cv = 使用 Common Voice
+faq-description = Common Voice 是 Mozilla 想讓機器學會真人說話方式的專案。
+faq-search-for-answers =
+    .label = 搜尋解答
 
 ## ABOUT US
 
+about-title = 為什麼會有 Common Voice？
+about-header-description-v2 =
+    <p>Common Voice 是一套由來自世界各地的社群貢獻志工所提供，可公開使用的語音資料集，想要打造語音應用程式的人可以使用此資料集來訓練機器學習模型。</p>
+    <p>目前大部分的語音資料集都由扼殺創新的大企業所擁有。各種語音資料集也過度加強了說英語的白人男性的語音比例。這代表語音技術根本無法用於某些語言，就算可以使用，也不見得對每個人都能有一樣好的效果。我們想要透過動員世界各角落人們主動分享語音的方式，來扭轉這個現象。</p>
+how-does-it-work-title-v2 = Common Voice 的原理是什麼？
+how-does-it-work-text = 我們集合眾人之力，打造開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證錄音片段是否正確，讓資料集能夠變得更好。
 
 ## How does it work section
 
+about-language-req-subtitle = 某人要求加入一種語言。
+about-localization-title = 網站在地化
+about-localization-subtitle = 到 Pontoon 完整翻譯該語言版本。
+about-sentence-collection-title = 收集語句
+about-sentence-collection-subtitle = 收集好能夠讓人錄音的語句。
+about-new-lang-title = 發布新語言
+about-new-lang-subtitle = 我們讓此語言版本的 Common Voice 網站上線。
+about-voice-contrib-title = 貢獻語音
+about-voice-contrib-subtitle = 有一群人會參與貢獻錄音。
+about-voice-validation-title = 驗證錄音
+about-voice-validation-subtitle = 有另一群人會參與驗證這些錄音片段。
+about-dataset-release-title = 發布資料集
+about-dataset-release-subtitle = 我們每 3 個月發布一次資料集。
+about-subscribe-text = 想要與 Common Voice 保持聯繫嗎？
 about-speak = 講話
+about-speak-text = 貢獻者透過讀出一系列由他人捐贈的語料庫句子，將語音片段錄音下來。
+about-listen-queue = 聆聽佇列
+about-listen-queue-text = 錄下的片段將進入佇列中排隊，準備接受聆聽確認。
+about-listen = 聆聽確認
+about-listen-text = 使用者確認錄音片段是否精準，並確認說話者是否正確讀出了句子。
+about-is-it-valid = 片段正確嗎？
+about-is-it-valid-text = 若使用者投下「正確」，就會標示為有效。
+about-yes-votes = ≥ 2 張「正確」票
+about-yes-votes-text = 必須經過兩位不同的使用者確認過，片段才會進入 Common Voice 資料集。
+about-no-votes = ≥ 2 張「不正確」票
+about-no-votes-text = 若使用者投下不正確，片段就會回到佇列重新排隊。若被退回第二次，片段就會就會被丟進回收桶。
+about-dataset-new = Common Voice 資料集
+about-dataset-new-text = Common Voice 資料集包含數十萬筆語音樣本，可幫助開發者打造語音識別工具。
+about-clip-graveyard = 片段回收桶
+about-clip-graveyard-text = 回收桶中包含無法進入 Common Voice 資料集的語音片段。與資料集一樣，回收桶內容也有提供下載。
+about-partners = 夥伴
+about-become-a-partner = 成為夥伴
+about-partnership =
+    Common Voice 是一套由眾人鼎力相助的專案。我們依賴由夥伴與貢獻者所組成的社群，來打有史以來最大的開放原始碼語音資料集。
+    
+    特別感謝下列人員與組織單位，協助本專案:
+about-get-involved = 參與我們
+about-get-involved-text-2 =
+    想要幫忙讓 Common Voice 變得更棒嗎？
+    沒問題！請寄 E-Mail 給我們，也可以到 <discourseLink>Discourse</discourseLink>
+    討論區留言、透過 <githubLink>GitHub</githubLink> 回報網站問題、
+    或是加入我們的 <matrixLink>Matrix</matrixLink> 社群聊天室。
+about-stay-in-touch = 我要如何與你們保持聯繫？
+about-stay-in-touch-text-1 = <emailFragment>訂閱</emailFragment>我們的郵件群組，瞭解可以參加哪些活動、並一同參與 Common Voice 的功能設計。
+about-stay-in-touch-text-2 = 您可以加入 <discourseLink>Discourse</discourseLink> 來認識 Mozilla 各語言社群的成員並進行對話，或是加入 <matrixLink>Matrix</matrixLink> 來獲得快速建議。
 about-nav-why-common-voice = 為啥物？
 about-nav-how-it-works = 安怎做？
+about-nav-partners = 夥伴
 about-nav-get-involved = 做伙參與
+about-nav-how-it-works-2 = Common Voice 的原理是什麼？
+about-nav-playbook = 了解如何參與
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice 如何列出語言？
+about-playbook-what-is-language-content-1 = 不同領域對語言有不同的定義。對語音識別模型來說，Common Voice 建議您著重於「相互理解性」，或是「使用這種語言的人嘗試理解對方的話，他們是否真能相互理解？」
+about-playbook-what-is-language-content-2 = 我們想讓語音模型能夠更加包容不同的說話者，所以我們希望語音資料集能夠反映出各種多樣化的聲音。
+about-playbook-what-is-language-content-3 = 某些語言有許多不同的文法、詞彙、發音差異。因此，我們自 2022 年起<ctaLink>引入了「變體」的概念</ctaLink>。讓各社群能夠在完整的資料集中更精準地分辨出各種語言。
 
 ## How do I add a language
 
+about-playbook-how-add-language = 要如何加入語言？
+about-playbook-how-add-language-content-1 = 首先請先確認您的語言是否<languageLink>已經存在</languageLink>。若還不存在的話，請<strong>將網站翻譯成您的語言，並且收集語句</strong>。
+about-playbook-how-add-language-content-2 = <translateVideo>使用</translateVideo> Pontoon</pontoonLink> <strong>來翻譯網站</strong>。Pontoon 上有許多語言，若沒有您想參與貢獻的語言，可以<pontoonRequestLink>要求加入新語言</pontoonRequestLink>。然後再到 <repoLink>GitHub</repoLink> 上面請 Common Voice 加入此專案。若需更多資訊請點擊了解<localizationFragment>網站翻譯流程</localizationFragment>。
+about-playbook-how-add-language-content-3 = <scVideo>使用</scVideo><scLink>Sentence Collector</scLink><strong>來收集句子</strong>。
+about-playbook-how-add-language-content-4 = 您可以在此<scLinkAdd>加入少量</scLinkAdd>的句子，或是透過 Github 發需求來<bulkImportDocsLink>批次大量匯入</bulkImportDocsLink>。請務必記得所有句子都必須使用 <licenseLink>CC0（或公眾領域）</licenseLink>授權條款，或是由您自行撰寫。若需更多資訊，請閱讀<scFragment>收集句子</scFragment>段落。
 
 ## How does localization work
 
+about-playbook-how-localize = 如何進行網站在地化？
+about-playbook-how-localize-content-1 = Common Voice 網站的翻譯在 <strong>Pontoon</strong> 進行。
+about-playbook-how-localize-content-2 = 若您還沒有的話，請先<pontoonAccountLink>註冊帳號</pontoonAccountLink>。然後選擇要加入的語言<strong>（「團隊」）</strong>，再選擇 <pontoonCvLink>Common Voice</pontoonCvLink> 專案。專案中就會有要翻譯的檔案。任選一個檔案，然後就會顯示每個字串的英文原文，以及輸入譯文的翻譯框。
+about-playbook-how-localize-content-3 = 原則上都是根據英文翻譯，但您可以參考其他語言的<strong>翻譯建議</strong>。可以點擊<strong>個人帳號大頭照</strong>圖示當中的<strong>Settings</strong>連結，加入您會使用的任何語言。點擊右下角的<strong>Locales</strong> 標籤會出現其他語系目前的翻譯內容供您參考。翻譯完成後的隔天我們就會將完成的譯文更新到網站上。
+about-playbook-how-localize-content-4 = 網站翻譯完成度達 75% 時，即可準備上線。
+about-playbook-how-localize-content-5 = 請看我們的說明影片
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = 要如何加入句子？
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> 是一套用來收集與驗證公眾領域語句的工具。您要先<scAccountLink>註冊帳號</scAccountLink>，然後將您使用的語言加到<strong>個人資料</strong>中，然後就可以<strong>新增</strong>句子或者<strong>審核</strong>先前新增的句子。
+about-playbook-how-add-sentences-content-2 = 每個句子都必須經過兩個人審核接受才會被加入 Common Voice。您可以<languageGuidelinesLink>在此</languageGuidelinesLink>建立您的語言的審核標準。句子的內容必須使用<licenseLink>公眾領域</licenseLink>授權條款，並且不超過 15 個字。您可以請文字內容的作者或著作權擁有者<waiverLink>以 CC0 條款拋棄著作權</waiverLink>，並且寄到 commonvoice@mozilla.com 給我們即可使用。
+about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 來從維基百科收集短句。
+about-playbook-how-add-sentences-content-4 = 每週三會匯出驗證完成的句子，並且在下次發行時一併發布。
 
 ## How to record quality
 
+about-playbook-how-record-quality = 要如何錄下高品質的語音片段？
+about-playbook-how-record-content-1 = 用最您最習慣的方式說話！不論您操哪種腔調，我們都希望您用最習慣的說話音量、方式、抑揚頓挫來錄音。
+about-playbook-how-record-content-2 = 避免太吵雜的背景噪音，應該要很容易就能聽到您的聲音。
+about-playbook-how-record-content-3 = 小心閱讀句子，別讀錯、改字或加減字。
+about-playbook-how-record-content-4 = 確定錄音開始了再說話，說完了再停止錄音。
+about-playbook-how-record-content-5 = <accuracyLink>看更多有關準確度的判斷標準。</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = 我們如何有效地在 Common Voice 發展一套語言？
+about-playbook-how-grow-language-content-1 = 讓廣泛的人們都有 Common Voice 的貢獻機會，能確保產出的資料集可被更多數人所用。我們已經預先建立了一些資源與範本供您使用！
+about-playbook-how-grow-language-content-2 = 活動
+about-playbook-how-grow-language-content-3 = 您可以辦活動，幫助人們參與貢獻。不論是透過線上的視訊會議舉辦，或是現場舉辦（安全的話），這件事絕對比您想得還容易。<eventTemplate>可點擊此處參考我們的活動範例與輔助資源</eventTemplate>。
+about-playbook-how-grow-language-content-4 = 社群網路
+about-playbook-how-grow-language-content-5 = 您可以使用社群媒體平台來散播訊息，分享貼文說明這件事為什麼重要，並且與其他討論語言權、語音 AI、科技偏見等議題的人聯繫。可參考這裡有關<campaignLink>舉辦社群活動的更多建議，以及許多您可以重複使用的內容</campaignLink>。
+about-playbook-how-grow-language-content-6 = 成為夥伴與合作網路的一員
+about-playbook-how-grow-language-content-7 = 尋找其他關注此議題的人，可能是大學、語言學校、倡議團體、資料科學社群的成員。可以聯繫他們，並且向他們解釋為什麼、要如何參與。<outreachTemplates>請點擊此處參考我們的聯絡郵件範本</outreachTemplates>。
+about-playbook-how-grow-language-content-8 = <strong>發揮創意！</strong>您的語言社群可以走出自己的風格，這幾點都只是一開始的小建議而已。
 
 ## How to validate
 
+about-playbook-how-validate = 是否接受錄音的標準是什麼？
+about-playbook-how-validate-content-1 = 只要您<strong>聽得到句子</strong>，也能<strong>聽懂句子</strong>，通常<strong>就可以通過</strong>。
+about-playbook-how-validate-content-2 = <strong>不要因為說話的人「講話有腔調」、「腔調跟您不同」就退回句子</strong>若要讓每個人都能容易使用語音識別，接受各種腔調相當重要。
+about-playbook-how-validate-content-3 = 若您覺得錄音片段中的<strong>發音無法理解</strong>、有<strong>太大的背景噪音</strong> 或是<strong>同時錄到其他人的聲音</strong>，那麼就該退回錄音片段。<accuracyLink>若需有關準確度判斷準則的相關資訊，請閱讀此文章</accuracyLink>。
+about-playbook-how-validate-content-4 = 若有兩個人退回了錄音片段，此片段就會放到獨立的子資料集中發布。
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = 要如何存取使用資料集？
 
 ## How are decisions made
 
@@ -506,8 +609,57 @@ about-nav-get-involved = 做伙參與
 
 ## Datasets Page
 
+datasets-positioning =
+    我們相信若有一組大型、可公開使用的語音資料集，可奠定以機器學習為基礎的語音技術的創新，與健康的商業競爭。
+    
+    Common Voice 的多語言資料集已經成為最大的公開語音資料集，但不是唯一的一套。
+    
+    您可於此頁面找到其他的開放原始碼語音資料集。隨 Common Voice 持續成長，我們也會於此處張貼更新資訊。
+language = 語言
+# File size in gigabytes
+size = 大小
+validated-hr-total = 總驗證時數
+overall-hr-total = 全體總時數
+cv-license = 授權條款
+audio-format = 音檔格式
+number-of-voices = 錄音人數
+splits = 分割
+email-to-download = 輸入 E-Mail 即可下載
+why-email = <b>為什麼需要 E-Mail?</b>未來我們可能會聯絡您，提供資料集的相關更新資訊。E-Mail 可作為我們聯絡您的方式。
+confirm-size = 請準備好下載 <b>{ $size }</b> 的檔案
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>您同意</b>不嘗試識別 Common Voice 資料集中，說話者的身分
+download-language = 下載 { $language } 資料集
+validated-hours = 已驗證時數
+recorded-hours = 已錄製時數
 whats-inside = Common Voice 資料集內底有啥物？
+dataset-description-hours =
+    資料集中的每筆資料包含一組獨特的 MP3 錄音檔與對應的文字檔案。資料集中包含 <b>{ $total }</b> 小時錄製完成的片段，當中也包含有許多不同年齡層、性別、口音等，能夠幫助訓練語音識別引擎的人口統計資料。
+    
+    資料集中目前包含 <b>{ $valid }</b> 小時 <b>{ $languages }</b> 種語言的已驗證資料，但我們希望能夠持續加入更多語音與語言。歡迎到我們的<languagesLink>語言頁面</languagesLink>要求更多語言，開始加入貢獻。
+want-dataset-update = 想要在新的 Common Voice 資料集推出時收到通知嗎？請訂閱我們的電子報。
+subscribe = 訂閱
+get-started-speech = 語音辨識新手入門
+other-datasets = 其他語音資料集
+feedback-q = 有意見要回饋嗎？
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ 是一套讓研究者開發最先進的 AI 對話模型的<docsLink>開放原始碼工具組</docsLink>。
+resource-deepspeech-info = Mozilla 的開放原始碼語音識別引擎 Deep Speech，可用來打造語音識別應用程式。您可閱讀我們的 <githubLink>Github 概觀</githubLink>或加入 <discourseLink>DeepSpeech Discourse</discourseLink> 了解如何入門。
+resource-coqui-info = <coquiLink>Coqui</coquiLink> 致力於開放語音技術。他們的專案包含使用深度學習技術的 STT 與 TTS 引擎。
+community-playbook = 社群企劃書
+resource-playbook-info = <playbookLink>尋找對整個 Common Voice 貢獻過程的有用指南</playbookLink>，不論是從在地化、資料集使用方式，以及如何與我們的社群聯繫的相關資訊。
+data-other-librispeech-description = LibriSpeech 是一套取自 LibriVox 計畫，約一千小時長度的 16Khz 英語有聲書的語料庫。
+data-other-ted-name = TED-LIUM 語料庫
+data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的語音對話及轉錄文字製作而成的語料庫。
+data-other-voxforge-description = VoxForge 被設計來收集轉錄的對話內容，以供自由與開放原始碼的語音辨識引擎使用。
+data-other-tatoeba-description = Tatoeba 是一套用來進行語言學習的大型資料庫，當中包含了各種句型、翻譯以及語音。這個下載項目包含了由其社群所錄下的英語語音。
 your-feedback = 你甘有任何會當予 Common Voice 資料集變甲愈好的想法？歡迎到 Discourse 共咱講
+go-discourse = 前往 Discourse
+missing-language = 沒在資料集中看到您的語言？請到語言頁面來要求加入新語言。
+go-languages-page = 前往語言頁面
+ready-to-validate = 準備好要幫助驗證句子了嗎？
+more = 更多
+close = 關閉
 
 ## Download Modal
 
