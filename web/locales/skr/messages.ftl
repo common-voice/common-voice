@@ -122,6 +122,7 @@ pa-IN = پنجابی
 pl = پولش
 ps = پشتو
 pt = پرتگیزی
+quc = کیچہ
 quy = چوچا چنکا
 rm-sursilv = رومانش سورسلوان
 rm-vallader = رومانش ویلڈر
@@ -181,13 +182,16 @@ speak = ٻولو
 speak-now = ہُݨ ٻولو
 datasets = ڈیٹا سیٹس
 languages = زباناں
+about = تعارف
 profile = پروفائل
 help = مدد
 contact = رابطہ
 privacy = رازداری
 terms = ٹرماں
 cookies = کوکیاں
+faq = عمومی سوالات
 link-copied = لنک نقل تھی ڳیا
+back-top = چوٹی تے واپس ون٘ڄو
 logout = لاگ آؤٹ
 
 ## Home Page
