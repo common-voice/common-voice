@@ -199,6 +199,7 @@ logout = لاگ آؤٹ
 show-wall-of-text = ٻیا پڑھو
 vote-yes = جیا
 vote-no = کو
+speak-goal-text = رکارڈ تھئے کلپ
 todays-progress = اڄ دی ترقی
 all-locales = سارے
 today = اڄ
@@ -287,6 +288,7 @@ male = مرد
 female = تریمت
 # Gender
 other = ٻیا
+why-profile-title = ہک پروفائل کیوں؟
 dashboard = ڈیش بورڈ
 build-profile = پروفائل بݨاؤ
 avatar = اواتار
@@ -307,6 +309,7 @@ on = چالو
 
 browse-file-title = تصویر فائل اپ لوڈ کرو
 avatar-uploaded = اواتار اپ لوڈ تھیا
+max-file-size = { $kb }کےبی ودھ کنوں ودھ
 
 ## Profile - Email
 
