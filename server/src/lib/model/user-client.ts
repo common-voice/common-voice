@@ -201,6 +201,124 @@ async function updateLanguages(clientId: string, languages: UserLanguage[]) {
   }
 }
 
+/**
+ * Updates variant entries for a given user
+ *
+ * @param clientId clientId as string
+ * @param locales array of UserVariantsLocales
+ * @returns void
+ */
+async function updateVariants(
+  clientId: string,
+  UserVariantLocale: UserVariantLocale[]
+) {
+  // get existing variants for users languages, if exists
+
+  // get (by filtering) variants passed in req, if exists
+  console.log('UserVariantLocale', UserVariantLocale);
+  console.log('clientId', clientId);
+
+  const [savedVariants]: [{ id: number; variant_id: number }[]] =
+    await db.query(
+      `
+      SELECT id, variant_id
+      FROM user_client_variants
+      WHERE client_id = ?
+      ORDER BY id
+    `,
+      [clientId]
+    );
+
+  const savedVariantIds = savedVariants.map(row => row.variant_id);
+  const requestVariantIds = UserVariantLocale.map(language => {
+    return language?.variants?.map(variant => variant.id);
+  });
+
+  type IdDifferences = {
+    idsToBeRemoved: number[];
+    idsToBeAdded: number[];
+  };
+
+  // find difference in two lists
+  const getDifferenceInIds = (
+    requestedIds: number[],
+    savedIds: number[]
+  ): IdDifferences => {
+    const idsToBeAdded: number[] = [];
+    const idsToBeRemoved: number[] = [];
+    // [1,2,3] // [2,3,4]
+    requestedIds.map(id => {
+      if (!savedIds.includes(id)) idsToBeAdded.push(id);
+    });
+    savedIds.map(id => {
+      if (!requestedIds.includes(id)) idsToBeRemoved.push(id);
+    });
+
+    return { idsToBeRemoved, idsToBeAdded };
+  };
+
+  console.log('savedVariants', savedVariantIds);
+  console.log('requestVariantIds', requestVariantIds);
+
+  console.log(getDifferenceInIds([2, 3, 4], [1, 2, 3]));
+  // if id is in existing, but not in req, delete from user_client_variants table
+  // if id is in req, but not in existing, create row in user_client_variants
+  // else skip
+
+  // const { localesToUpdate, localesToDelete } = await getLocalesDelta(
+  //   clientId,
+  //   UserVariantLocale
+  // );
+
+  // // If the user has removed locale/accent values, remove entry from db
+  // if (localesToDelete.length > 0) {
+  //   await db.query('DELETE FROM user_client_accents WHERE id IN (?)', [
+  //     localesToDelete.map(accent => accent.id),
+  //   ]);
+  // }
+
+  // // Of the entries in savedLocales that are not the same as the input locales array
+  // // create any accents that are newly user submitted
+  // const newAccents = await Promise.all(
+  //   localesToUpdate.map(async accent => {
+  //     const localeId = await getLocaleId(accent.locale);
+  //     let accentId = accent.accent_id;
+
+  //     // If no accent ID exists, create new accent entry
+  //     if (!accentId) {
+  //       await db.query(
+  //         `INSERT INTO accents (locale_id, accent_name, accent_token, user_submitted, client_id) values (?, ?, ?, ?, ?)
+  //             ON DUPLICATE KEY UPDATE locale_id = locale_id`,
+  //         [
+  //           localeId,
+  //           accent.accent_name,
+  //           generateAccentToken(accent.accent_name),
+  //           true,
+  //           clientId,
+  //         ]
+  //       );
+
+  //       const [[newAccent]] = await db.query(
+  //         `SELECT id FROM accents WHERE locale_id = ? AND accent_name = ? AND user_submitted`,
+  //         [localeId, accent.accent_name]
+  //       );
+
+  //       accentId = newAccent.id;
+  //     }
+
+  //     return [clientId, localeId, accentId];
+  //   })
+  // );
+
+  // // Finally, insert the new accent values into the user_client_accents table
+  // if (newAccents.length > 0) {
+  //   await db.query(
+  //     'INSERT INTO user_client_accents (client_id, locale_id, accent_id) VALUES ? ON DUPLICATE KEY UPDATE created_at = NOW()',
+  //     [newAccents]
+  //   );
+  // }
+}
+
 async function updateDemographics(
   clientId: string,
   age: string,
@@ -437,6 +555,7 @@ const UserClient = {
       updateDemographicsPromise,
       this.claimContributions(clientId, clientIds),
       languages && updateLanguages(clientId, languages),
+      languages && updateVariants(accountClientId, languages),
     ]);
 
     if (
