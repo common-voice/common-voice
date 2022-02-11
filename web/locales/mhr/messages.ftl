@@ -916,6 +916,12 @@ activity-needed-calculation-plural =
 how-many-per-day = Пеш сай! Кечыште мыняр клип?
 how-many-a-week = Пеш сай! Арняште мыняр клип?
 which-goal-type = Тый ойлынет, колыштнет але когынек?
+receiving-emails-info =
+    Кызытсе жаплан тый шумлык нерген шижтарымаш, мыйын
+    ончыко кайымаш да Common Voice нерген увертармаш дене электрон серышлам наледашлан келыштаралтынат
+not-receiving-emails-info =
+    Кызытсе жаплан тый шумлык нерген шижтарымаш, мыйын
+    ончыко кайымаш да Common Voice нерген увертармаш дене электрон серышлам наледашлан <bold>ОГЫЛ</bold> келыштаралтынат
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] клип
@@ -941,6 +947,7 @@ share-goal = Шке шумлык дене пайлалташ
 
 ## Profile Delete
 
+delete-q = Тый тыгак тыйын йӱкан возымаш-влакым кораҥдаш йоднет але нуным Common Voice датасетыште аралаш шонет?
 keep = Кучо
 remove = Кораҥдаш
 why-delete-recordings =
