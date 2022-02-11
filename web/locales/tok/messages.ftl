@@ -657,7 +657,11 @@ speak-empty-state = sitelen pi toki ni li lon ala. ni la sina ken ala kalama awe
 speak-empty-state-cta = o pana e sitelen
 record-button-label = o awen e toki uta sina
 share-title-new = <bold>o pona e ni:</bold> o kama e jan sin
+keep-track-profile = o sona e pana sina e pali sina kepeken lipu jan
 login-to-get-started = o kama la, sina open
+target-segment-first-card = sina pana tawa pali suli wan
+target-segment-generic-card = sina pana tawa pali suli
+target-segment-first-banner = o pona e pali suli nanpa wan pi ilo Common Voice lon { $locale }
 target-segment-add-voice = o pana e toki uta sina
 target-segment-learn-more = o kama sona
 
@@ -704,6 +708,8 @@ toward-next-goal = tawa pini suli sin
 goal-reached = sina pini!
 clips-you-recorded = kalama awen sina
 clips-you-validated = kalama awen pi pona sina
+todays-recorded-progress = kalama awen tan tenpo suno ni
+todays-validated-progress = kalama awen pona tan tenpo suno ni
 stats = pali
 awards = ijo tan pali pona
 you = sina
@@ -716,6 +722,7 @@ show-ranking = o len ala e pali mute mi
 
 ## Custom Goals
 
+goal-type = sina wile pali e seme?
 both-speak-and-listen = tu
 both-speak-and-listen-long = tu (o toki, o kute)
 daily-goal = pini suli pi tenpo suno ale
@@ -733,8 +740,22 @@ help-reach-hours-pluralized =
     { NUMBER($hours) ->
        *[other] o pona e ni: o pali e kalama awen pi tenpo { $hours } lon { $language } kepeken pini suli sina
     }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+       *[other] kepeken wile pali sina la, o pali e tenpo suli { $hours } lon ilo Common Voice, lon toki.
+    }
 set-a-goal = o pali e pini suli
 cant-decide = sina wile anu seme?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+       *[other] ﻿jan { $people }
+    }{ NUMBER($periodMonths) ->
+       *[other] li awen e kalama { $clipsPerDay } la,
+    }{ NUMBER($people) ->
+       *[other] ona li ken pali e tenpo suli { $totalHours }
+    }{ NUMBER($clipsPerDay) ->
+       *[other] lon tenpo mun { $periodMonths }.
+    }
 how-many-per-day = pona! tenpo suno wan la sina pali e kalama awen pi nanpa seme?
 how-many-a-week = pona! tenpo esun wan la sina pali e kalama awen pi nanpa seme?
 which-goal-type = sina wile toki, anu kute, anu ni tu?
