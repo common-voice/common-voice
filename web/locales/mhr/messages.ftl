@@ -546,6 +546,7 @@ about-playbook-how-localize-content-5 = Полшаш манын, мемнан у
 
 about-playbook-how-add-sentences = Кузе мыланем ойлончо-влакым ешараш?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> — чылалан кучылташ лийше ойлончо-влакым погашлан да тергашлан ӱзгар. Тылат <scAccountLink>аккаунтым ыштыман</scAccountLink>. Вара <strong>профильыштет</strong> шке йылмет ешаре. Тый ойлончо-влакым <strong>ешаркален</strong> але ондак ешарымым <strong>ончен лектын</strong> кертат.
+about-playbook-how-add-sentences-content-2 = Ойлончо-влакым Common Voice-ыш пурташлан кок еҥ ончен лекшаш. Тыште тый шке йылметлан темлымашым ыштет. Ойлончо-влакым чылан кучылтын кертшаш улыт да тушто 15 мут деч шагалрак лийшаш. Тый серышын озажым правам пуашлан меманан радам почеш CC0-ым ышташ йодын кертат, да мыланна серышым commonvoice@mozilla.com адрес дене колтен кертат.
 about-playbook-how-add-sentences-content-3 = Википедий гыч кӱчык ойлончо-влакым кучылташлан тый <scraperLink>Ойлончо луктедылшым</scraperLink> кучылтын кертат.
 about-playbook-how-add-sentences-content-4 = Чынлыме ойлончо-влак кажне вӱргечын экспортироватлалтыт да вес лукмаш деч вара кучылташ лийме лийыт.
 
@@ -632,6 +633,7 @@ dataset-date = Кече
 license = Лицензий: <licenseLink>{ $license }</licenseLink>
 license-mixed = Йӧре варыме
 data-download-singleword-title = Ик мут дене шумлык ужашым вераҥде
+data-download-singleword-callout-v2 = Тиде кучылтмо тӱрлылык дене виктаралтше ойлымо цифрым да «туге/уке» манмым пален налашлан данный дене ужаш.
 review-terms = Common Voice-ым кучылтын, тый мемнан <termsLink>Келшык</termsLink> да <privacyLink>Шолыплык нерген шижтарымаш</privacyLink> дене келшет.
 terms-agree = Мый келшем
 terms-disagree = Мый ом келше
