@@ -214,6 +214,10 @@ home-cta = o toki, o pana lon ilo ni!
 wall-of-text-start =
     kalama toki li suli, li jan. ilo li ken kute e kalama toki jan la ni li pona.
     sona suli pi kalama toki mute li lon la, mi ken pali e ilo toki kalama.
+wall-of-text-more-desktop =
+    sina ken pana e kalama toki sina. ni la mi ken pali e kulupu sona open li ken open e ona tawa jan ale.
+    ni la jan li ken pali e ilo. o toki e linja nimi la ilo ken sona e toki pi jan lon. o lukin e toki pi jan ante la
+    o pona e ona. ni li pona a!
 show-wall-of-text = o lukin e toki mute
 help-us-title = o pona e sitelen!
 no-clips-to-validate = toki ni li jo ala e kalama awen. wile la, o awen e kalama sina.
@@ -261,6 +265,7 @@ view-goals = sina ken lukin e mute pi pali sina, e wile pali sina, e wile pali k
 
 whats-public = ale li ken lukin e seme?
 email-not-public = mi pana lukin ala e nimi pi poki lipu sina.
+recordings-and-locale-public = mi pana e nanpa pi kalama sina e toki sina.
 username-optin-public = sina ken len e nimi sina. sina ken pana e nimi sina.
 
 ## Speak & Listen Shortcuts
@@ -340,6 +345,7 @@ female = meli
 # Gender
 other = ante
 why-profile-title = mi wile e lipu tan seme?
+why-profile-text = sina pana e sona sina la, kalama sina li kama pona mute tawa ilo kute. ona li kepeken sona ni la, ona li kama kute pi pona mute.
 dashboard = lipu suli
 build-profile = o pali e lipu sina
 avatar = sitelen sinpin
@@ -359,10 +365,12 @@ edit = o ante
 email-subscriptions = lipu wile pi poki lipu sina
 download-profile = o kama jo e sona mi e kalama mi
 contribution-experience = sona pi nasin pali
+skip-submission-feedback = mi pana e pali la o toki ala e toki lili ona tawa mi
 skip-submission-note = o sona e ni: sina wile ante e nasin pali la, o luka e nena "o toki" anu "o kute".
 off = ala
 on = wile
 help-accent = sina wile ala wile e pona tawa nasin kalama toki?
+help-accent-explanation = nasin kalama toki sina li ken kama ante tan ma mama sina, tan toki ante sina, tan ijo ante mute. o pana e sona ni: sina pilin e ni: ona li suli tawa sona pi nasin kalama sina.
 
 ## Profile - Email
 
@@ -378,6 +386,7 @@ max-file-size = suli ken li suli KB { $kb }
 
 manage-subscriptions = o ante e wile pi lipu kama
 manage-email-subscriptions = o ante e wile pi lipu kama tawa poki lipu sina
+email-already-used = sijelo ilo ante li kepeken nimi ni pi poki lipu
 add-language = o pana e toki sin
 change-email-setings = o ante e poki lipu sina lon "nimi lon sina" lon "nasin ilo"
 
@@ -399,6 +408,8 @@ faq-is-goal-assistant-q = pali Common Voice la sina wile pali e ilo pali kute an
 faq-do-want-native-q = toki ni li toki mama mi ala. sina wile ala wile e toki uta mi?
 faq-why-different-speakers-q = tan seme la sina wile e jan toki mute?
 faq-why-my-lang-q = tan seme la toki mi li lon ala?
+faq-why-10k-hours-q = sina wile e kalama pona pi tenpo suli 10000 lon toki wan tan seme?
+faq-why-10k-hours-a = ilo kute pi pona mute li wile e kalama pi mute ni.
 faq-how-calc-hours-q = ilo Common Voice li nanpa e tenpo kalama kepeken nasin seme?
 faq-where-src-from-2-q = sitelen mama li tan seme?
 faq-why-not-ask-read-q = sina pana ala e toki tan lipu Wikipedia anu lipu ante tan seme?
@@ -431,7 +442,9 @@ about-dataset-release-title = pana pi kulupu kalama
 about-dataset-release-subtitle = tenpo mun 3 li pini la, mi pana sin e kulupu kalama.
 about-subscribe-text = sina wile ala wile sona e ijo sin tan ilo Common Voice?
 about-speak = o toki
+about-speak-text = jan li toki uta e sitelen, li awen e ona.
 about-listen-queue = kulupu kute
+about-listen-queue-text = toki uta li kama tan kulupu. jan kute li kama jo e ona tan kulupu ni.
 about-listen = o kute
 about-is-it-valid = kalama awen li pona ala pona?
 about-is-it-valid-text = jan li pana e pona tawa kalama awen la, ona li pona.
@@ -463,6 +476,7 @@ about-playbook-how-add-language = nasin seme la mi ken pana e toki sin?
 ## How does localization work
 
 about-playbook-how-localize = nasin seme la jan li ante toki e lipu?
+about-playbook-how-localize-content-1 = ante toki pi pali Common Voice li lon <strong>ilo Pontoon</strong>.
 about-playbook-how-localize-content-4 = lipu li pini 75% la, lipu li ken open.
 about-playbook-how-localize-content-5 = sina wile e pona la, o lukin e sitelen tawa ni
 
@@ -504,6 +518,7 @@ localization = ante toki
 sentence-collection = kama jo sitelen
 hours-recorded-explanation = nanpa tenpo pi kalama awen
 sst = ilo kute
+sst-explanation = ilo ni li kute e toki jan, li sitelen e ona.
 
 ## Error pages
 
@@ -746,6 +761,16 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = o pali e pini suli
 cant-decide = sina wile anu seme?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+       *[other] jan { $people }
+    } { NUMBER($periodMonths) ->
+       *[other] li awen e kalama { $clipsPerDay } la,
+    } { NUMBER($people) ->
+       *[other] ona li ken pali e tenpo suli { $totalHours }
+    } { NUMBER($clipsPerDay) ->
+       *[other] lon tenpo mun { $periodMonths }.
+    }
 how-many-per-day = pona! tenpo suno wan la sina pali e kalama awen pi nanpa seme?
 how-many-a-week = pona! tenpo esun wan la sina pali e kalama awen pi nanpa seme?
 which-goal-type = sina wile toki, anu kute, anu ni tu?
