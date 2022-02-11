@@ -545,6 +545,7 @@ about-playbook-how-localize-content-5 = Полшаш манын, мемнан у
 ## How to add sentences
 
 about-playbook-how-add-sentences = Кузе мыланем ойлончо-влакым ешараш?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> — чылалан кучылташ лийше ойлончо-влакым погашлан да тергашлан ӱзгар. Тылат <scAccountLink>аккаунтым ыштыман</scAccountLink>. Вара <strong>профильыштет</strong> шке йылмет ешаре. Тый ойлончо-влакым <strong>ешаркален</strong> але ондак ешарымым <strong>ончен лектын</strong> кертат.
 about-playbook-how-add-sentences-content-3 = Википедий гыч кӱчык ойлончо-влакым кучылташлан тый <scraperLink>Ойлончо луктедылшым</scraperLink> кучылтын кертат.
 about-playbook-how-add-sentences-content-4 = Чынлыме ойлончо-влак кажне вӱргечын экспортироватлалтыт да вес лукмаш деч вара кучылташ лийме лийыт.
 
