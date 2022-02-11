@@ -405,6 +405,7 @@ skip-submission-note = Not: Ji bo guhertina cureya beşdariyê divê tu Axaftin�
 off = Girtî
 on = Vekirî
 help-accent = Ji bo aksanê ji te re alîkarî divê?
+help-accent-explanation = Devoka te awayê te yê bilêvkirina peyvan e. Ciyê tu lê dijî, zimanên din ku tu pê diaxivî û gelek faktorên din bandorê lê dikin, Tu dikarî wan zanyariyan li virê parve bikî ku li gorî fikra te têkildar in.
 
 ## Profile - Email
 
