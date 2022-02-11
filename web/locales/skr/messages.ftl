@@ -1,5 +1,6 @@
 ## General
 
+return-to-cv = Common Voice  تے واپس ون٘ڄو
 email-input =
     .label = ای میل
 submit-form-action = جمع کرواؤ
