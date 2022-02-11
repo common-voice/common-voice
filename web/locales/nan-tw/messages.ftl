@@ -594,18 +594,67 @@ about-playbook-how-validate-content-4 = 若有兩個人退回了錄音片段，�
 ## How to access dataset
 
 about-playbook-how-access-dataset = 要如何存取使用資料集？
+about-playbook-how-access-dataset-content-1 = 您可以到<datasetsPage>資料集頁面</datasetsPage>選擇需要的版本與語言內容，然後直接下載！檔案中也包含了人口統計資訊、驗證資料等<metadataLink>相關後設資料</metadataLink>。需要提供電子郵件地址給我們才可以下載資料集。
+about-playbook-how-access-dataset-content-2 = 若您在尋找能用來建立 ASR 模型的工具，歡迎到 <discourseLink>Discourse</discourseLink> 尋找社群成員。
 
 ## How are decisions made
 
+about-playbook-how-project-governance = 專案運作中如何進行決策？
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice 是由來自世界各地的社會運動家、語言學家、資料科學家、學者、軟體工程師所組成的多元化社群所共同打造的。本專案由 Mozilla Foundation 管理運作。
+about-playbook-how-project-governance-content-2 = 此專案的治理方式建築於下列項目上：
+about-playbook-how-project-governance-content-3 = 隱私權、安全性、透明度。
+about-playbook-how-project-governance-content-4 = 社群參與決策。
+about-playbook-how-project-governance-content-5 = 價值與重視。
+about-playbook-how-project-governance-content-6 = 相互問責。
+about-playbook-how-project-governance-content-7 = <governanceLink>更加了解我們如何治理本專案</governanceLink>
+mycroft-title = Mycroft Ai
+mycroft-subtitle = 人工智慧
+mycroft-description = Mycroft 是全球第一套的開放原始碼語音助理，不論是在電腦、車子、Raspberry Pi 或是任何地方都能運作。
+mycroft-secondary-description = 這是一套可以自由混搭、延伸、改進的開放原始碼軟體。Mycroft 可以用於科學專案，或企業軟體應用等各種情境中。
 
 ## Glossary
 
+glossary = 詞彙
+localization = 在地化
+localization-explanation = 這是我們為許多語系（語言）進行翻譯和調整內容的過程。
+sentence-collection = 語句集合
+sentence-collection-explanation = 收集公眾領域的語句，或使用公眾領域授權撰寫新的語句。
+hours-recorded-explanation = 到目前為止我們收集到的錄音時數。
+hours-validated-explanation = 每三位使用者當中，有兩位使用者投下「正確」的錄音時數。這也就是整個專案一萬小時目標的進度。
+sst = 語音轉文字（STT）
+sst-explanation = 語音轉文字（STT）技術可將語音資料轉為文字。
+de-identified = 去識別化
+de-identified-explanation = 在打包下載資料集時，貢獻者的個人資料會從其所貢獻的語音片段隱藏的過程。
 
 ## Error pages
 
+error-title-404 = 找不到您想要開啟的頁面
+error-content-404 = 也許從我們的<homepageLink>首頁</homepageLink>重新開始能幫到忙？若要詢問問題，可以加入<matrixLink>Matrix 社群聊天頻道</matrixLink>、關注 <githubLink>GitHub</githubLink> 上的網站問題回報，或到<discourseLink>我們的 Discourse 討論區</discourseLink>讓我們知道。
+error-title-503 = 發生了意外的停機時間
+error-content-503 = 網站將盡快恢復作業。請到我們的 <matrixLink>Matrix 社群聊天頻道</matrixLink>、<githubLink>GitHub</githubLink> 上的網站問題回報，或到 <discourseLink>Discourse 討論區</discourseLink>回報給我們，或取得最新資訊。
+error-code = 錯誤 { $code }
 
 ## Data
 
+data-download-button = 下載 Common Voice 資料
+data-download-yes = 好
+data-download-deny = 不要
+data-download-license = 授權條款: <licenseLink>CC-0</licenseLink>
+data-download-modal = 將會下載 <size>{ $size } GB</size> 的檔案，要繼續嗎？
+data-subtitle = 我們正在打造一套開放而可公開使用的語音資料集，讓每個人都可用來訓練應用程式中的語音功能。
+data-explanatory-text = 我們相信，大型而公開可用的語音資料集可以促進以機器學習為基礎技術的語音科技創新，與健康的商業競爭。這是一項全球性的努力，我們也邀請所有人參與。我們的目標是讓語音技術能夠更具包容性，反映出世界各地語音的多樣性。
+data-get-started = <speechBlogLink>語音辨識新手上路</speechBlogLink>
+data-other-title = 其他語音資料集…
+data-other-goto = 前往 { $name }
+data-other-download = 下載資料
+data-bundle-button = 下載資料集總組合
+data-bundle-description = Common Voice 資料，以及上面列出的所有其他語音資料集。
+release-version = 版本
+dataset-date = 日期
+license = 授權條款: <licenseLink>{ $license }</licenseLink>
+license-mixed = 混和
+data-download-singleword-title = 下載單字目標字串
+data-download-singleword-callout-v2 = 這是一個包含用來進行口述數字識別與是/否偵測的使用案例。
 
 ## Datasets Page
 
