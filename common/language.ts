@@ -6,9 +6,11 @@ export type Accent = {
   clientId?: string;
 };
 
-// an object storing all accent/locale
-// data for a user
-export type UserAccentLocale = {
+/*
+  an object storing all
+  accent/locale/variant data for a user
+*/
+export type UserLanguage = {
   locale: string;
   accents?: Accent[];
 };

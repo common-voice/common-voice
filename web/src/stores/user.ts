@@ -100,7 +100,7 @@ export namespace User {
     saveAccount:
       (data: UserClient) =>
       async (dispatch: Dispatch<UpdateAction>, getState: () => StateTree) => {
-        const { api, user } = getState();
+        const { api } = getState();
         dispatch({
           type: ActionType.UPDATE,
           state: { isFetchingAccount: true },

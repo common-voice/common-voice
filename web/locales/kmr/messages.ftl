@@ -36,9 +36,9 @@ ba = Başkirî
 bas = Basaayî
 be = Belarusî
 bg = Bulgarî
-bm = Bambarayî
 bn = Bengalî
 br = Bretonî
+bs = Bosnayî
 bxr = Buryatî
 ca = Katalanî
 cak = Kaqçîkelî
@@ -67,6 +67,7 @@ fy-NL = Frîsî
 ga-IE = Îrlandî
 gl = Galîsî
 gn = Guaranî
+gom = Goan Konkanî
 ha = Hawsayî
 he = Îbranî
 hi = Hindî
@@ -90,7 +91,9 @@ kab = Kabîlî
 kbd = Kabardiyanî
 ki = Kikuyu
 kk = Qazaxî
+km = Xmerî
 kmr = Kurdî (Kurmancî)
+knn = Konkanî (Devanagarî)
 ko = Koreyî
 kpv = Komî Ziryanî
 kw = Kornî
@@ -142,6 +145,7 @@ scn = Sicîlî
 shi = Shilha
 si = Sinhalayî
 sk = Slovakî
+skr = Saîrîkî
 sl = Slovenî
 so = Somalî
 sq = Albanî
@@ -157,6 +161,7 @@ ti = Tîgrînîya
 tig = Tîgrî
 tk = Tirkmenî
 tl = Tagalogî
+tok = Tokî Pona
 tr = Tirkî
 tt = Teterî
 tw = Twi
@@ -400,6 +405,7 @@ skip-submission-note = Not: Ji bo guhertina cureya beşdariyê divê tu Axaftin�
 off = Girtî
 on = Vekirî
 help-accent = Ji bo aksanê ji te re alîkarî divê?
+help-accent-explanation = Devoka te awayê te yê bilêvkirina peyvan e. Ciyê tu lê dijî, zimanên din ku tu pê diaxivî û gelek faktorên din bandorê lê dikin, Tu dikarî wan zanyariyan li virê parve bikî ku li gorî fikra te têkildar in.
 
 ## Profile - Email
 
@@ -467,12 +473,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Çima Common Voice?
-about-subtitle = Common Voice beşek ji insiyatîva Mozillayê ye û ew çawaniya axaftina mirovan fêrî makîneyan dike ji bo ku makîne jî mîna mirovan rast biaxivin. Ji bilî komdaneya Common Voiceê em motoreke nasîna axaftinê ya çavkanî vekirî jî bi navê Deep Speech ava dikin.
-about-header-description =
-    Ev her du proje jî parçeyên hewldana me ya ji bo rakirina cudakariya axaftina dîjîtal in. Teknolojiyên naskirina dengan aliyekî mirovane tînin nav amûrên me lê ji bo pêkanîna vê pêdiviya pêşvebiran bi gelek daneyên dengî heye. Niha piraniya van daneyan tên firotin û buha ne.
-    Em dixwazin daneyên dengî belaş bin û ji bo her kesî bin, her wisa em dixwazin dane curbucurbûna mirovan temsîl bikin. Em dikarin naskirina dengan ji bo her kesî çêtir bikin.
-how-does-it-work-title = Çawa dixebite?
 how-does-it-work-text = Em komdaneyeke dengan ya çavkanî vekirî berhev dikin. Dengê xwe bibexşîne, klîbên dengî yên kesên din kontrol bike, komdaneyê ji bo her kesî çêtir bike.
+
+## How does it work section
+
 about-speak = Bipeyive
 about-speak-text = Beşdar hevokên ji danegeha hevokên hatine bexişandin dixwînin û dengê xwe tomar dikin.
 about-listen-queue = Rêza Guhdarîkirinê
@@ -501,6 +505,34 @@ about-nav-why-common-voice = Çima ?
 about-nav-how-it-works = Çawa ?
 about-nav-partners = Hevkar
 about-nav-get-involved = Tev lê bibin
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Hişê Xwedestî (Artificial intelligence)
 mycroft-description =

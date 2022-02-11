@@ -1,14 +1,14 @@
 import * as React from 'react';
 
-import { UserAccentLocale } from 'common';
+import { UserLanguage } from 'common';
 import { CloseIcon } from '../../../../../ui/icons';
 import VisuallyHidden from '../../../../../visually-hidden/visually-hidden';
 
 interface Props {
   locale?: string;
   accents: Array<{ id: number; name: string }>;
-  userLanguages: UserAccentLocale[];
-  setUserLanguages: (userLanguages: UserAccentLocale[]) => void;
+  userLanguages: UserLanguage[];
+  setUserLanguages: (userLanguages: UserLanguage[]) => void;
 }
 
 const InputLanguageAccents = ({
@@ -22,7 +22,7 @@ const InputLanguageAccents = ({
   }
 
   const removeAccent = (locale: string, accentIndex: number) => {
-    const newLanguages = userLanguages.slice();
+    const newLanguages = userLanguages.slice() as UserLanguage[];
     const languageIndex = newLanguages.findIndex(language => {
       return language.locale === locale;
     });
