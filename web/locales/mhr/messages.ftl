@@ -1024,6 +1024,7 @@ demo-listen-subtitle = Надырлаш ямде улат?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Лӱмал увер оҥа тыйым шкендычын да тӱшкан ончыко кайымашыж нерген пален шогыкта.
 
 ## Validation criteria
 
@@ -1035,6 +1036,7 @@ contribution-for-example = мутлан
 contribution-misreadings-title = Чын огыл лудмаш
 contribution-misreadings-description-extended-list-1 = Возымаш тӱҥалтыште «A» буква але «The» уке.
 contribution-misreadings-description-extended-list-2 = Мут мучаште «s» буквам кодымо.
+contribution-misreadings-description-extended-list-3 = Кӱчыкемдымашым лудмаш, кудыжо чынже ден уке, мутлан «Ме» «Ме улына» олмеш але мӧҥгешла.
 contribution-misreadings-description-extended-list-4 = Возымашым утыжден писын пӱчмылан кӧра, пытартыш мутын мучашыже кодын.
 contribution-misreadings-description-extended-list-5 = Мутым лудашлан икмыняр тӧчымаш.
 contribution-misreadings-example-1-title = Триас пагытысе пеш кугу динозавр-влак.
