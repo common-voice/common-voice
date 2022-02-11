@@ -80,6 +80,7 @@ hyw = 西亞美尼亞語
 ia = 國際語
 id = 印尼語
 ie = 國際語（Interlingue）
+ig = 伊格柏語
 is = 冰島語
 it = 意大利語
 izh = 伊喬里亞語
@@ -98,23 +99,87 @@ kpv = 科米-齊良語
 kw = 康瓦爾語
 ky = 吉爾吉斯語
 lg = 盧干達語
+lij = 利古里亞語
+lt = 立陶宛語
+lv = 拉脫維亞語
+mai = 邁蒂利語
+mdf = 莫克沙語
+mg = 馬拉加西語
+mhr = 草原馬里語
+mk = 馬其頓語
+ml = 馬拉亞拉姆語
 mn = 蒙古語
+mni = 梅泰語
+mos = 莫西語
+mr = 馬拉提語
+mrj = 山地馬里語
 ms = 馬來語
+mt = 馬爾他語
+my = 緬甸語
+myv = 厄茲亞語
 nan-tw = 臺語
 nb-NO = 書面挪威語
+ne-NP = 尼泊爾語
+nia = 尼亞斯語
 nl = 荷蘭語
 nn-NO = 新挪威語
+nyn = 尼安科萊語
+oc = 奧西坦語
+or = 奧里亞語
+pa-IN = 旁遮普語
+pap-AW = 帕皮亞門托語（阿魯巴）
 pl = 波蘭語
+ps = 普什圖語
 pt = 葡萄牙語
+quc = 基切語
+quy = 克丘亞占卡語
+rm-sursilv = 羅曼蘇塞瓦語
+rm-vallader = 羅曼什瓦拉德語
 ro = 羅馬尼亞語
 ru = 露西亞語
+rw = 盧安達語
+sah = 薩哈語
+sat = Santali（Ol Chiki 字）
+sc = 薩丁尼亞語
+scn = 西西里語
+shi = 施盧赫語
+si = 僧加羅語
+sk = 斯洛伐克語
+skr = 沙賴基語
+sl = 斯洛維尼亞語
 so = 索馬利亞語
+sq = 阿爾巴尼亞語
+sr = 塞爾維亞語
 sv-SE = 瑞典語
+sw = 斯瓦希里語
+syr = 敘利亞語
+ta = 坦米爾語
+te = 泰盧固語
+tg = 塔吉克語
 th = 泰語
+ti = 提格利尼亞語
+tig = 提格雷語
+tk = 土庫曼語
+tl = 塔加祿語（菲律賓）
+tok = 道本語
 tr = 土耳其語
+tt = 韃靼語
+tw = 特威語 (西非)
+ty = 大溪地語
+uby = 尤比克語
+udm = 烏德莫特語
+ug = 維吾爾語
+uk = 烏克蘭語
+ur = 烏爾都語
+uz = 烏茲別克語
+vec = 威尼斯語
 vi = 越南語
+vot = 沃特語
+yi = 意第緒語
+yo = 約魯巴語 (奈及利亞)
 yue = 粵語
 zh-CN = 華語（中國）
+zh-HK = 廣東話（香港）
 zh-TW = 華語（台灣）
 
 # [/]
@@ -124,6 +189,7 @@ zh-TW = 華語（台灣）
 
 speak = 講話
 speak-now = 這馬就來講話
+datasets = 資料集
 languages = 語言
 about = 了解阮的計畫
 profile = 帳號資料
@@ -147,11 +213,31 @@ default-tagline = Mozilla Common Voice 是一套想讓機器學會真人說話�
 home-cta = 有話大聲說，在此獻聲！
 wall-of-text-start = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有大量的語音數據。
 wall-of-text-more-mobile = 大部分由大公司使用的資料，並未開放給大多數人使用。我們覺得這樣會阻礙創新，所以創立了想讓每個人都可以自由來進行語音識別的 Common Voice 專案。
+wall-of-text-more-desktop =
+    現在起，您可以將自己的聲音捐給我們，以幫助我們打造開放原始碼的語音資料庫，讓任何人都得以為裝置與網際網路打造創新的應用程式。<lineBreak></lineBreak>
+    只要朗讀一段文字，即可幫助機器了解人們如何說話，也可看看其他貢獻者的心血結晶來協助改善品質，就是這麼簡單！
+wall-of-text-first = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有大量的語音數據。
+wall-of-text-second = 各大公司使用的資料，通常並未開放給大眾使用。我們認為這樣會阻礙創新，所以創立了讓每個人都可以自由進行語音識別的 Common Voice 專案。
+show-wall-of-text = 了解更多
+help-us-title = 來共咱鬥檢查語句！
+help-us-explain = 按下播放按鈕，聽一聽，然後告訴我們: 他們正確說出下面的句子了嗎？
+no-clips-to-validate = 看來這個語言沒有任何片段可聽。請幫助我們錄下一些片段。
 vote-yes = 著
 vote-no = 毋著
+toggle-play-tooltip = 共 { shortcut-play-toggle } 揤落就會當切換放送模式
+speak-subtitle = 捐出你的聲音
+speak-paragraph = 共語音片段錄下來是打造咱的開放資料集中央真重要的部份，有的人講這真好耍。
+speak-goal-text = 筆已錄音片段
+listen-subtitle = 請幫助我們驗證其他人的錄音
+listen-paragraph = 驗證別人錄下的語音片段，對 Common Voice 的使命也很重要。請聆聽片段，並幫助我們打造高品質的開源語音資料。
 listen-goal-text = 个經過驗證的片節
+hours-recorded = 已錄音時數
+hours-validated = 已驗證時數
 voices-online = 目前線頂有的語音
 todays-progress = 今仔日的進度
+help-reach-goal = 幫助我們達成 { $goal } 筆的目標
+read-terms-q = 您閱讀過我們的使用條款了嗎？
+ready-to-record = 準備好捐出您的聲音了嗎？
 all-locales = 全部
 today = 今仔日
 x-weeks-short =
@@ -166,59 +252,220 @@ x-years-short =
     { $count ->
        *[other] { $count } 年
     }
+help-make-dataset = 共咱鬥相共打造高品質、會當公開使用的資料集
 sign-up-account = 開新口座
+email-subscription-title = 注文上新消息電子報
+email-subscription-title-new = 注文 Common Voice 電子報、目標提醒佮進度更新
 
 ## Account Benefits
 
 benefits = 好處
+rich-data = 提供一些人口統計資料後，可讓您送出的資料更加豐富。我們會在公開錄音檔前，將這些統計資料去識別化。
+improve-audio = 個人資料可幫助改善進行語言識別準確度訓練時的語音資料。
+keep-track = 紀錄您的進度，以及各種語言的統計指標。
+compare-progress = 看看您的進度與世界上其他地方的貢獻者相比如何？
+view-goals = 檢視您的個人與專案目標進度。
+join-newsletter = 也可加入我們的郵件群組，可收到專案進度更新與新資訊。
 
 ## What's public
 
 whats-public = 啥物款的資料是公開的？
 email-not-public = 阮袂共你的電子批公開。
+recordings-and-locale-public = 您貢獻的錄音數量，以及貢獻的語言將會是公開的。
+username-optin-public = 您可以讓使用者名稱公開或保持匿名。
+demographic-deidentified-clarity-2 = 選填的人口統計資料（例如年齡、性別、語言、腔調）不會在您的個人資料上公開，也不會在資料集中與您的帳號連結。每個錄音片段只會為了能做更準確的分析，而與您的人口統計資料連結。舉例來說，研究者可能想要對特定的人口分層做出更細的訓練模型。
+username-email-not-demographic = 您的使用者名稱與 E-Mail 不會跟公開發布的資料被關聯起來。
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = 播放/停止
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = 錄音/停止
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 重新錄製這个片節
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = 捨棄目前錄音
 shortcut-submit = 轉去
 shortcut-submit-label = 送出片節
 request-language-text = Common Voice 敢揣無你的語言？
+request-language-text-learn = 了解如何在此要求！
 request-language-button = 要求新的語言
 
 ## ProjectStatus
 
+status-title = 專案狀態: 看看我們做到哪兒了！
 status-contribute = 貢獻你的聲說
+status-hours =
+    { $hours ->
+       *[other] 目前已驗證 { $hours } 小時！
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = 下個目標: { $goal }
+english = 英語
 
 ## ProfileForm
 
+profile-form-username =
+    .label = 使用者名稱
+profile-form-native-language =
+    .label = 母語
+profile-form-additional-language =
+    .label = 其他語言
+profile-form-language =
+    .label = 語言
+profile-form-accent =
+    .label = 腔口
+profile-form-custom-accent-help-text =
+    .label = 您會如何描述您講話的腔調？
+profile-form-custom-accent-placeholder-2 = 打字輸入，描述您的腔調
+profile-form-age =
+    .label = 年齡
+profile-form-gender-2 =
+    .label = 性別
+leaderboard-visibility =
+    .label = 是否顯示於排行榜
+hidden = 隱藏
+visible = 可見
+native-language =
+    .label = 母語
+profile-form-add-accent = 新增自訂腔調「{ $inputValue }」
+profile-form-submit-save = 儲存
+profile-form-submit-saved = 已儲存
+male = 男性
+female = 女性
+# Gender
+other = 其他
+why-profile-title = 為什麼需要帳號？
+why-profile-text = 語音識別引擎將可使用您提供給我們的資訊，讓您送出給 Common Voice 的語音資料被更加善用，改善準確度。
+dashboard = 儀錶板
+build-profile = 建立個人資料
+avatar = 頭像
+goals = 目標
+settings = 設定
+edit-profile = 編輯帳號資料
+profile-create-success = 帳號建立成功！
+profile-close = 關閉
+profile-explanation = 保留您的專案紀錄，並幫助增加我們的語音資料準確度。
+thanks-for-account = 感謝您確認帳號資訊，接下來請提供您的基本資料。
+why-demographic = 這有什麼重要的？
+why-demographic-explanation-2 = 匿名化的使用者資料，如年齡、性別、腔調等，可幫助我們改善用來訓練語音識別引擎的語音資料。您的帳號與 E-Mail 不會與送出的資料相關聯，您也可以決定是否要公開您的帳號名稱或保持匿名。
+accept-privacy = 我同意你依照 Mozilla 的<privacyLink>隱私權保護政策</privacyLink>當中描述的方式處理這些資訊
+accept-privacy-title = 隱私權保護政策
+login-identity = 登入身分
 login-signup = 登入 / 開新口座
 edit = 編輯
+email-subscriptions = 電子郵件訂閱
+download-profile = 下載我的資料
+contribution-experience = 貢獻機會
+skip-submission-feedback = 跳過送出意見回饋
+skip-submission-description = 貢獻過程中，在點擊「送出」後將忽略意見回饋，直接進到下一組的五筆錄音或驗證。
+skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢獻類型。
 off = 關起來
 on = 拍開
+help-accent = 需要關於腔調的說明嗎？
+help-accent-explanation = 腔調就是您發音的方式，可能會受您生活的地方、您會說的其他語言以及其他許多因素影響。您可以在此分享任何您覺得有關的資訊。
 
 ## Profile - Email
 
 browse-file-title = 傳一張圖起去
+browse-file = 拖曳至此處，或<browseWrap>瀏覽</browseWrap>
+connect-gravatar = 連結 Gravatar
+gravatar_not_found = 找不到您電子郵件信箱的 Gravatar
+file_too_large = 選擇的檔案傷大
+avatar-uploaded = 已上傳大頭照
+max-file-size = 最大 { $kb }kb
 
 ## Profile - Email
 
+manage-subscriptions = 管理訂閱
+manage-email-subscriptions = 管理電子報訂閱項目
+email-already-used = 電子郵件地址已用於其他帳號
+add-language = 新增語言
+change-email-setings = 請到「設定」的「登入身分」修改 Email 地址
 
 ## FAQ
 
+faq-title = 常見問題
+faq-what-cv-q = 啥物是 Common Voice？
+faq-what-cv-a =
+    語音識別技術正在改變我們與機器互動的方式，但目前可用的系統都相當昂貴，並且是專有技術。Common Voice 是 Mozilla 打算讓語音識別技術變得更好、讓任何人都更能使用的計畫的一部分。Common Voice 也是一套收集了世界各地人們所捐贈的語音的資料庫，希望讓任何人都可以快速而簡單地訓練出可識別任何語音功能的應用程式。
+    
+    我們不只想收集被廣泛使用的語言的語音樣本，也想要收集較少人使用的語言的語音樣本。發布一套廣泛的語音資料集，可幫助開發者、創業家，以及各個社群來縮小彼此之間的鴻溝。除了 Common Voice 的資料集外，我們也在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
+faq-what-cv-a-2 =
+    語音識別技術正在改變我們與機器互動的方式，但目前可用的系統都相當昂貴，並且是專有技術。Mozilla Common Voice 是打算讓語音識別技術變得更好、讓任何人都更能使用的計畫。Common Voice 也是一套收集了世界各地人們所捐贈的語音的資料庫，希望讓任何人都可以快速而簡單地訓練出可識別任何語音功能的應用程式。
+    
+    我們不只想收集被廣泛使用的語言的語音樣本，也想要收集較少人使用的語言的語音樣本。發布一套廣泛的語音資料集，可幫助開發者、創業家，以及各個社群來縮小彼此之間的鴻溝。
+faq-why-important-q = 這有啥物重要的？
+faq-why-important-a =
+    說話通常是我們與其他人最自然的溝通方式，語音技術也讓電腦和行動裝置更方便使用。我們希望讓開發者們建置令人驚嘆的語音識別應用程式，例如即時翻譯機、有語音功能的數位助理等等。但現在用來建置這些軟體所需的語音資料，大部分都是昂貴且專有的，因而我們希望能提供 Common Voice 資料集給開發者進行創新，也讓他們能使用自己的語言來打造語音技術。
+    
+    為了讓語音識別技術能夠更加普遍，我們收集不論是有廣大使用者，或是較少使用者會說的語言（大部分商業語音識別服務對此類語言都缺少支援）的語音片段，並發布一組含多元語言與腔調的語音資料集，希望能提供給開發者、創業家、以及整個語音技術社群來跨越這個鴻溝。
+faq-how-get-q = 我愛安怎取得 Common Voice 資料？
+faq-how-get-a = 可到 <datasetLink>Common Voice 資料集頁面</datasetLink>下載，本資料集使用 <licenseLink>CC0</licenseLink> 授權。您也可以在該頁面中下載幾套其他的資料集。
+faq-when-release2-q = 你們什麼時候會發布其他語言的 Common Voice 資料？
+faq-when-release2-a = 多語言版本的 Common Voice 資料集，目前正交由社群進行清理與打包。若您想要幫助我們加入新語言到 Common Voice，請使用 <sentenceCollectorLink>語句收集工具</sentenceCollectorLink>來加入語句到資料集，並到 <pontoonLink>Mozilla Pontoon</pontoonLink> 來將網站翻譯成該語言。每種語言有超過 5000 句語句審核完成後，就會加入 Common Voice。
+faq-why-mission-q = 為什麼 Common Voice 也是 Mozilla 使命的一部分？
+faq-why-mission-a = Mozilla 致力於保持網路開放，讓任何人都可使用。為達到這個目標，我們要透過像 Common Voice 這樣的專案來協助網路上的創作者來得到威力。隨著採用語音技術的程式激增，我們相信這些程式應該平等地服務所有使用者。這代表打造與測試語音科技時，需要滿足更多語言、腔調、人口的需求。Common Voice 將會成為一套能夠幫助 Mozilla 與全球開發者們的公眾資源，並已用於專案開發當中。
+faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
+faq-what-cv-and-deepspeech-a = Common Voice 能夠與 Mozilla 的開放原始碼語音識別引擎 Deep Speech 互補。初版的 Deep Speech 發行於 2017 年 11 月，並持續發展。與 Common Voice 資料集一起，我們相信這套開放原始碼語音辨識技術應開放給所有人使用，也希望這些技術可讓開發者打造出一波創新產品與服務。
+faq-is-goal-assistant-q = Common Voice 的目標甘是欲打造語音助理？
+faq-is-goal-assistant-a = Common Voice 資料集的目標是希望予任何人攏會當打造語音辨識、講話人辨識、佮任何其他需要語音資料的應用。語音助理干焦是你會當提來打造的應用之一。
+faq-do-want-native-q = 我毋是母語者而且我講話有口音，恁甘閣欲挃我的聲音？
+faq-do-want-native-a = 是囉，而且阮特別想欲挃你的聲音！Common Voice 有一部分目標是盡可能收集各種口音，予每一個人攏有合用的語音辨識。這代表非母語人士的貢獻尤其重要。
+faq-why-different-speakers-q = 為啥物恁需要遮爾多會曉講各種語言的人？
+faq-why-different-speakers-a =
+    大多數的語音資料庫的語音來源偏重於某群特定人口，造成結果偏向於<articleLink>男性與中產階級</articleLink>。而在訓練資料集中，各種不同的口音與方言會與被邊緣化的人群相關連起來。許多機器也很難理解女性的聲音。
+    這就是為什麼我們的語音資料庫應該海納百川，收集各種語音！
+faq-why-my-lang-q = 為啥物猶閣無我的語言？
+faq-why-my-lang-new-a = Mozilla 不特別偏好哪種語言，然而 Common Voice 是一個純社群發起的專案，需要<multilangLink>幾個步驟才能新增語言</multilangLink>並開始收集語音片段。首先需要完成翻譯 Common Voice 網站，這樣社群成員才能用自己的語言進行貢獻。次之，我們需要大量的無版權語句，讓人們可以大聲說出來。當兩個條件都滿足後 Common Voice 即可「上線」，讓人們開始錄音，並驗證其他人所錄下的片段。若您想要協助準備讓新語言上限，歡迎到<sentenceCollectorLink>語句收集工具</sentenceCollectorLink>開始幫忙。
+faq-what-quality-q = 錄音品質要到什麼等級，才能用於資料集中？
+faq-what-quality-a = 我們希望 Common Voice 資料集能夠反映出語音轉文字引擎就算在野外也會聽到的聲音，所以我們希望能夠收集各種環境與錄音品質下的片段。除了各種說話者以外，若資料集中包含各種語音品質的片段，可讓語音轉文字引擎處理各種現實環境下的狀況，例如背景中有人在講話，或是有車輛的噪音。只要您的片段能讓人足夠聽得懂，即可收錄至資料集中。
+faq-why-10k-hours-q = 為什麼每個語言有一萬小時的音檔驗證目標？
+faq-why-10k-hours-a = 這是用來訓練語音轉文字系統所需的大約時數。
+faq-how-calc-hours-q = Common Voice 如何計算時數？
+faq-how-calc-hours-a = 我們透過估算每筆錄音的平均長度來計算時數，並乘以所有語言錄音數量來計算。
+faq-where-src-from-2-q = 這些來源文本出自何處？
+faq-where-src-from-2-a =
+    我們的來源文本來自貢獻者的原始貢獻，以及來自公眾領域的影片，例如 <italic>It’s a Wonderful Life</italic> 的對白腳本。
+    
+    您可到此 <githubLink>GitHub 資料夾</githubLink>檢視我們的來源文本。
+faq-why-not-ask-read-q = 為什麼你們不讓人來念出各種語言的書本內容，或是維基百科條目？
+faq-why-not-ask-read-a = 為了讓 Common Voice 資料集能發會最大效益，我們決定只允許收錄以 Creative Commons (CC0) 授權條款提供使用的來源文本。會比較難找到使用 CC0 條款的來源文本，但可讓任何人都使用產出的語音資料，而不需受 Mozilla 的限制或授權。最終我們讓多語言資料集，為所有人（包含研究者、大學、創業公司、政府、社團組織、有興趣的人）發揮最大效益。
+faq-why-account-q = 為什麼我要註冊帳號？
+faq-is-account-public-q = 我的帳號資料是公開的嗎？
+faq-how-privacy-q = 你們如何確保匿名性，以及貢獻語音的人的隱私？
+faq-what-is-cv = 啥物是 Common Voice？
+faq-using-cv = 使用 Common Voice
 
 ## ABOUT US
 
 
 ## How does it work section
 
+about-speak = 講話
+about-nav-why-common-voice = 為啥物？
+about-nav-how-it-works = 安怎做？
+about-nav-get-involved = 做伙參與
 
 ## Community Playbook Content
 ## What is a language
@@ -259,6 +506,8 @@ browse-file-title = 傳一張圖起去
 
 ## Datasets Page
 
+whats-inside = Common Voice 資料集內底有啥物？
+your-feedback = 你甘有任何會當予 Common Voice 資料集變甲愈好的想法？歡迎到 Discourse 共咱講
 
 ## Download Modal
 
@@ -274,15 +523,22 @@ browse-file-title = 傳一張圖起去
 
 ## Contribution
 
+record-error-too-short = 錄音傷短矣。
+record-error-too-long = 錄音傷長矣。
+record-error-too-quiet = 錄音傷細聲矣。
+review-instruction = 確認錄音內容，若有需要會當重錄
+record-button-label = 共你的聲音錄下來
 
 ## Reporting
 
+report-difficult-pronounce-detail = 這句話內底有真歹發音的文字抑是語詞。
 
 ## Goals
 
 
 ## Dashboard
 
+you = 你家己
 
 ## Custom Goals
 
@@ -646,9 +902,25 @@ sc-review-form-reviewed-message =
         [0] 未審核語句。
        *[other] 已審核 { $sentences } 句，感謝您！
     }
+sc-review-form-review-failure = 無法儲存審核結果，請稍候再試。
+sc-review-link = 審核
 
 ## SETTINGS
 
+sc-settings-title = 設定
+sc-settings-ui-language = 介面語言
+sc-settings-language-translated-warning = 此語言的頁面可能尚未完全翻譯完成。歡迎到 <pontoonLinkLink>Pontoon</pontoonLinkLink> 協助我們補充翻譯。
+sc-settings-reset-skipped = 重設略過的句子
+sc-settings-skipped-decription = 您先前在審核時跳過了一些句子。重設略過的句子將再次顯示所有這些被跳過的句子。此設定對所有語言都有效。
+sc-settings-show-all-button = 再次顯示略過的句子
+sc-settings-failed = 無法更改設定，請再試一次。
+# VALIDATION
+sc-validation-number-of-words = 句子須包含 1 到 14 個字
+sc-validation-no-numbers = 句子不應包含數字
+sc-validation-no-symbols = 句子不應包含標點符號
+sc-validation-no-abbreviations = 句子不應包含縮寫
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = 選擇語言 / 語系
