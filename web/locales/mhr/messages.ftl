@@ -685,6 +685,7 @@ data-other-voxforge-description = VoxForge почмо тӱҥалтыш код д
 data-other-tatoeba-description = Tatoeba — тиде йылмым тунеммаште кучылташлан кугу ойлончо, нуным кусарымаш да аудиовозыш-влак дене данный базе. Тиде вераҥдымаш тӱшкан возымо кутырымо англичан йылме гыч шога.
 your-feedback = Кузе Common Voice датасетым эшеат сайракым ышташ манын, тыйын шонымашет уло? Discourse-ышто мыланна шижтаре
 go-discourse = Каҥашымаш дек куснаш
+missing-language = Датасетыште шке йылмет от уж? Йылмым йодаш манын, мемнан «Йылме-влак» велыжыш кусно.
 go-languages-page = Йылме велыжыш куснаш
 ready-to-validate = Ойлончо-влакын чын улмыжым тергаш полшаш ямде улат?
 more = Эше
@@ -748,6 +749,8 @@ clips-with-count-pluralized =
         [one] клип
        *[other] клип
     }
+goal-help-recording = Тый Common Voice-лан мемнан кажне кечысе { $goalValue } возымаш дене шумлыкыш шуат полшышыч!
+goal-help-validation = Тый Common Voice-лан мемнан кажне кечысе { $goalValue } тергымаш дене шумлыкыш шуат полшышыч!
 contribute-more =
     { $count ->
         [one] Эше { $count } ышташ ямде улат?
@@ -857,6 +860,7 @@ validated-clips = Тергыме клип-влак
 total-approved = Чыла чынлыме
 overall-accuracy = Чумыр чынлык
 set-visibility = Мыйын коймашым шындаш
+visibility-overlay-note = Палемдымаш. «Койшо» манмым шындыме гын, тиде параметрым <profileLink>профиль велыжыште</profileLink> вашталташ лиеш
 show-ranking = Мыйын рейтингым ончыкташ
 
 ## Custom Goals
