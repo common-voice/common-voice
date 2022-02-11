@@ -384,8 +384,13 @@ change-email-setings = o ante e poki lipu sina lon "nimi lon sina" lon "nasin il
 
 faq-title = wile sona tan jan mute
 faq-what-cv-q = ilo Common Voice li seme?
+faq-what-cv-a-2 =
+    ilo kute li pona e kepeken ilo. taso, tenpo ni la ilo li kepeken mani mute, li len tan kulupu pali ona. ilo Common Voice li pona e ilo kute, li pana e ona tawa jan ale. ilo Common Voice li kulupu sona toki, li tan kalama jan. jan ale li ken pali e ilo kute ona tan ilo Common Voice, kepeken toki ale.
+    
+    mi kama jo e kalama toki tan toki ale. ni la mi kama jo e toki pi jan mute ala. mi kama jo e toki mute la, jan sona en jan mani en kulupu pona li ken pona e toki ona.
 faq-why-important-q = ni li suli tan seme?
 faq-how-get-q = nasin seme la mi kama jo e sona pi ilo Common Voice?
+faq-how-get-a = kulupu sona Common Voice li pana kepeken <licenseLink>lipu CC0</licenseLink>, lon <datasetLink>lipu pi kulupu sona</datasetLink>. sina ken kama jo e kulupu sona ante tan lipu ni.
 faq-when-release2-q = tenpo seme la sona pi ilo Common Voice li lon toki ante?
 faq-why-mission-q = kulupu Mozilla li pali e ilo Common Voice tan seme?
 faq-what-cv-and-deepspeech-q = ilo Common Voice en ilo Deep Speech la ante li seme?
