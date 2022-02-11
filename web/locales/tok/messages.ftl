@@ -812,9 +812,12 @@ demo-welcome-subheader = sina wile sona mute? sina wile pana tawa pali ni?
 ## Demo Datasets
 
 demo-language-select-card-header = kulupu sona Common Voice li suli nanpa wan pi ma ale lon toki mute, lon sona pi jan ale.
+demo-language-select-card-body = tan pana pi jan mute 259,000 lon toki mute 50 la, kulupu sona Common Voice li pona e pali pi ilo kute. ni la, ilo li pona tawa jan, tawa toki.
 card-button-next = o kama
+card-button-back = o tawa sin
 demo-language-select-label = o lukin e toki
 demo-eofy-header = kulupu sona pana pi tenpo sike pini 2019
+demo-eofy-sub_header = sina ken kama jo e kulupu sona toki
 demo-account = sijelo ilo
 
 ## Demo Account
@@ -892,13 +895,30 @@ sc-howto-title = nasin seme?
 sc-howto-addlang-title = o pana e toki sin
 sc-howto-addsen-title = o pana e sitelen sin
 sc-howto-review-title = o lukin e sitelen
+sc-howto-review-criteria-6 = sitelen sin li lon ala la, o kama jo, o pana e ona sin!
+sc-howto-findpd-title = o alasa e sitelen pi jan ale
+sc-howto-findpd-subtitle = o alasa e ona kepeken ilo sona linja
+sc-howto-findpd-tips = o sona e ni la, sina ken alasa e sitelen sin:
+sc-howto-findpd-tips-1 = o lukin e kulupu toki, e sitelen toki, e sitelen tawa musi, e ijo ale pi jan toki.
+sc-howto-findpd-tips-2 = toki pi jan lawa en lipu en lipu sona li pona. ale ni li lawa lili la, ona li pona lili.
 sc-howto-findpd-tips-3 = mi ken ala jo e lipu tan kulupu Wikimedia. o pana ala e ona.
+sc-howto-findpd-subtitle-2 = o toki tawa jan pi ma sina, tawa kulupu pi ma sina.
+sc-howto-findpd-partner-1 = kulupu mute li lon, li ken wile pana, li jo e sitelen mute mute tawa pana pi jan ale. o toki tawa tomo sona suli, tawa jan lawa, tawa jan pi sona open lon ilo Common Voice.
 
 ## MY SENTENCES
 
 sc-my-title = sitelen ale mi
 sc-my-loading = ilo li kama e sitelen sina...
 sc-my-no-sentences = sitelen ala a li lon!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = ijo pana: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = tan: { $source }
+sc-my-delete = o weka e sitelen jo
+sc-my-deleting = mi weka e sitelen jo…
+sc-my-err-failed-delete = mi pakala. mi ken ala weka e sitelen jo. o sin
 
 ## REJECTED
 
@@ -932,8 +952,11 @@ sc-submit-add-sentences = o pana e <wikipediaLink>sitelen pi jan ale</wikipediaL
 sc-submit-ph-one-per-line =
     .placeholder = sitelen wan taso lon linja wan
 sc-submit-from-where = <wikipediaLink>sitelen pi jan ale</wikipediaLink> li tan lipu seme?
+sc-submit-ph-read-how-to =
+    .placeholder = o lukin e lipu pona la, sina sona e nasin pana.
 sc-submit-button =
     .submitText = o pana
+sc-submit-guidelines = o lukin e <howToLink>lipu nasin pona</howToLink>.
 
 ## ADD LANGUAGE
 
@@ -963,20 +986,86 @@ sc-confirm-are-you-sure =
     .message = sina pana ala e sitelen. sina wile ala wile weka?
 sc-confirm-sentences-title = o pona e sitelen sin
 # Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] sitelen ala li lon.
+       *[other] sitelen { $countOfSentences } li lon.
+    }
+# Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = sina weka e sitelen { $countOfInvalidated }.
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] sitelen pona li lon ala.
+       *[other] sitelen { $countOfReviewed } li pona. sina pona!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] sitelen ala li pona tawa pana.
+       *[other] sitelen { $readyCount } li pona tawa pana!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = jan li lukin ala e sitelen { $countOfUnreviewed }. wile la, sina ken lukin e ona.
 sc-confirm-button-text = o wile
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = ale
+sc-lang-info-title-personal = ijo sina
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] sitelen ala.
+       *[other] sitelen ale { $totalSentences }.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] jan li lukin ala e sitelen.
+       *[other] jan li lukin e sitelen { $totalInReview }.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] sitelen ala li lon tawa sina.
+       *[other] sitelen { $unreviewedSentencesByYou } li lon tawa lukin sina.
+    }
 sc-lang-info-review-now = <reviewLink>o lukin e sitelen!</reviewLink>
+sc-lang-info-add-more = <addLink>o pana e sitelen sin!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] sitelen pona li lon ala.
+       *[other] sitelen pona { $validatedSentences } li lon.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] sitelen weka li lon ala.
+       *[other] sitelen weka { $rejectedSentences } li lon.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = kama sina li pakala
 sc-login-err-try-again = o pali sin e ni
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = lipu jan: { $username }
+sc-personal-err-lang-not-found = mi ken ala weka e toki tan ni: toki li lon ala
+sc-personal-err-remove = mi ken ala weka e toki
 sc-personal-your-languages = toki sina:
 sc-personal-remove-button = o weka
 # Variables:
