@@ -841,32 +841,190 @@ report-grammar-or-spelling = 文法 / 拼字錯誤
 report-grammar-or-spelling-detail = 這句話的文法或拼法有誤。
 report-different-language = 其他語言
 report-different-language-detail = 這句話是其他語言的句子。
+report-difficult-pronounce = 難以發音
 report-difficult-pronounce-detail = 這句話內底有真歹發音的文字抑是語詞。
+report-offensive-speech = 冒犯人的錄音片段
+report-offensive-speech-detail = 這個片段中有不尊重他人或冒犯性的語言。
+report-other-comment =
+    .placeholder = 附註
+success = 成功
+continue = 繼續
+report-success = 成功送出回報內容
 
 ## Goals
 
+streaks = 連續第
+days =
+    { $count ->
+       *[other] 天
+    }
+recordings =
+    { $count ->
+       *[other] 錄音
+    }
+validations =
+    { $count ->
+       *[other] 驗證
+    }
 
 ## Dashboard
 
+your-languages = 您的語言
+toward-next-goal = 距離下一個目標
+goal-reached = 達成目標
+clips-you-recorded = 您已錄音的片段
+clips-you-validated = 您已驗證的片段
+todays-recorded-progress = 本日 Common Voice 錄音片段進度
+todays-validated-progress = 本日 Common Voice 驗證片段進度
+stats = 統計
+awards = 成就
 you = 你家己
+everyone = 所有人
+contribution-activity = 貢獻紀錄
+top-contributors = 頂尖貢獻者
+recorded-clips = 錄製的片段
+validated-clips = 驗證的片段
+total-approved = 總批准數
+overall-accuracy = 總體準確度
+set-visibility = 設定是否於排行榜顯示我的帳號
+visibility-explainer = 此選項可用來設定是否要在排行榜上顯示您的資料。設為「隱藏」時，將不會顯示在排行榜上顯示您的照片、使用者名稱、貢獻進度。請注意調整設定後，需等 { $minutes } 分鐘，重新整理排行榜後才會生效。
+visibility-overlay-note = 設定為「可見」時，可於<profileLink>個人資料頁面</profileLink>調整此選項
+show-ranking = 顯示我的排名
 
 ## Custom Goals
 
+get-started-goals = 設定目標開始貢獻
+create-custom-goal = 自訂目標
+goal-type = 您想要達到怎樣的目標？
+both-speak-and-listen = 兩者
+both-speak-and-listen-long = 兩者（說與聽）
+daily-goal = 每日目標
+weekly-goal = 每週目標
+easy-difficulty = 簡單
+average-difficulty = 一般
+difficult-difficulty = 困難
+pro-difficulty = 專業
+lose-goal-progress-warning = 編輯目標後，可能會失去現有進度。
+want-to-continue = 你想要繼續嗎？
+finish-editing = 要先完成編輯嗎？
+lose-changes-warning = 現在離開將不會儲存變更
+build-custom-goal = 自訂目標
+help-reach-hours-pluralized =
+    幫助{ $language }達到{ NUMBER($hours) ->
+       *[other] { $hours } 小時
+    }的個人目標
+help-reach-hours-general-pluralized =
+    幫助 Common Voice 的任一種語言達到{ NUMBER($hours) ->
+       *[other] { $hours } 小時
+    }的個人目標
+set-a-goal = 設定目標
+cant-decide = 無法決定嗎？
+activity-needed-calculation-plural =
+    若有 { NUMBER($people) ->
+       *[other] { $people } 個人
+    }每天錄下 { NUMBER($clipsPerDay) ->
+       *[other] { $clipsPerDay } 個片段
+    }，就可以在 { NUMBER($periodMonths) ->
+       *[other] { $periodMonths } 個月
+    }內達成 { NUMBER($totalHours) ->
+       *[other] { $totalHours } 小時
+    }錄音片段的目標。
+how-many-per-day = 好的，每天要貢獻幾個片段？
+how-many-a-week = 好的，每週要貢獻幾個片段？
+which-goal-type = 想要錄音、聆聽確認，還是兩者都要？
+receiving-emails-info = 您已經設定要訂閱目標提醒、我的進度更新、Common Voice 相關最新消息的電子報。
+not-receiving-emails-info = 您目前設定<bold>不要</bold>收到諸如目標提醒、我的進度更新與 Common Voice 的相關電子報。
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } 個片段
+       *[other] { $count } 個片段
+    }
+help-share-goal = 分享您的目標，幫助我們找到更多人參與錄音
+confirm-goal = 確認目標
+goal-interval-weekly = 每週
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = 分享您的每日 { $type } 目標: { $count } 片段
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = 分享您的每週 { $type } 目標: { $count } 片段
+share-goal-type-speak = 說話
+share-goal-type-listen = 聆聽
+share-goal-type-both = 說話與聆聽
+# LINK will be replaced with the current URL
+goal-share-text = 我剛建立好要獻聲給 #CommonVoice 的目標 -- 也來與我一起幫忙，讓機器可以學會真人說話的方式。{ $link }
+weekly-goal-created = 已建立您的每週目標
+daily-goal-created = 已建立您的每日目標
+track-progress = 您可以在此或到進度頁面，追蹤進度。
+return-to-edit-goal = 您可以隨時回到這裡編輯目標。
+share-goal = 分享我的目標
 
 ## Profile Delete
 
+delete-q = 您想要一同刪除語音，或是要將語音保留在 Common Voice 資料集中？
+keep = 保留
+remove = 移除
+keep-info = 您的錄音將匿名保留在 Common Voice 資料集。刪除個人資料後，就無法再要求從資料集刪除
+remove-info = 我們將審核您從資料集中刪除錄音的請求。如果您的請求獲得批准，我們將會聯絡已下載資料集的使用者，並請他們也刪除您的錄音。
+why-delete-recordings =
+    學術界、小企業與語音識別愛好者會使用 Common Voice 的錄音片段來幫助訓練、發展語音模型等公共資源。
+    
+    能讓我們知道您為什麼想要刪除錄音片段嗎？
+profile-form-delete = 刪除帳號
 
 ## Profile Download
 
+download-q = 需要下載您的資料嗎？
+download-info = 告訴我們您要下載哪些資料：
+download-profile-title = 個人資料
+download-profile-info = 包括電子郵件地址、使用者名稱和人口統計資訊
+download-profile-size = 幾位元組而已
+download-recordings-title = 錄音片段
+download-recordings-info = 包含錄音 MP3 檔與相關聯的語句
+download-recordings-size = 通常幾 MB
+download-recordings-unavailable = 若已經有正在處理中的請求，不能再提出新的請求。
+download-recently-requested = 您可以每 { $days } 天要求一次新的錄音資料打包。
+download-size = 大小
+download-selected = 已選擇
+download-start = 開始下載
+download-request = 要求下載
+download-requests = 過去的下載請求
+download-requests-info = 我們會將您要求的錄音檔整理編纂成一個或多個 ZIP 壓縮檔。下列是您過去提出的要求：
+download-request-button = 下載
+download-request-title = { $created }
+download-request-description = { $clipCount } 個錄音片段，壓縮檔總大小 { $size }，於 { $expires } 失效。
+download-request-archive-single = 包含下列項目的單一 ZIP 壓縮檔
+download-request-archive-multiple = 包含下列項目的 { $archiveCount } 個 ZIP 分割壓縮檔
+download-request-assembling-description = 正在整理您的資料，請稍後再試。
+download-request-refresh-button = 重新整理
+download-request-modal-title = 下載鏈結
+download-request-modal-description = 下列是您的 ZIP 檔的下載鏈結。
+download-request-link-text = 第 { $offset } 個 ZIP 檔，共 { $total } 個
+download-request-metadata-link = 語句文字
+download-request-link-single = 您也可以將網址直接複製貼到想用的下載管理員。這些鏈結將於 12 小時候失效，但可隨時回到此頁面重新產生新鏈結。
 
 ## Landing
 
+welcome-staff = 歡迎 { $company } 的員工！
+help-contribute = 您可以透過註冊 Common Voice 資料並貢獻語音，來協助打造一套多樣化、開放原始碼的資料集。
+login-company = 登入 / 使用 { $company } 註冊
+profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助
+read-more-about = 到我們的「關於」頁面了解更多資訊
 
 ## DemoLayout
 
+demo-get-started = 開始入門
+demo-welcome = 歡迎來到 Common Voice
+demo-welcome-subheader = 有興趣了解更多資訊，並且參與貢獻此專案嗎？
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice 是全球最大規模的可公開使用、多語言語音資料集。
+demo-language-select-card-body = 感謝來自全球超過 25 萬 9 千人貢獻了超過 50 種語言，此資料可用來訓練有語音功能的應用程式，使其更能理解人類的聲音。
+card-button-next = 下一步
+card-button-back = 上一步
+demo-language-select-label = 瀏覽語言
+demo-eofy-header = 2019 年末發佈版
+demo-eofy-sub_header = 語音資料集，已可下載
+demo-account = 帳號
 
 ## Demo Account
 
