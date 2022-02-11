@@ -428,6 +428,7 @@ faq-why-important-q = Молан тиде кӱлешан?
 faq-how-get-q = Кузе мый Common Voice данныйым налын кертам?
 faq-how-get-a = Common Voice данный погым <datasetLink>мемнан данный пого велыж</datasetLink> гыч <licenseLink>CC0</licenseLink> лицензий почеш тулен налаш лиеш. Тыгак тудо велыж гыч тый чылалан кучылташ лийше икмыняр данный погым тулен налын кертат.
 faq-when-release2-q = Кузе тый Common Voice данныйым вес йылме дене савыктет?
+faq-when-release2-a = Шуко йылман Common Voice датасет версий кызытсе жапыште тӱшкан полшымыж дене иктыш ушалтеш да эрыкталтеш. Тый мыланна Common Voice-ым вес йылмыш кусараш полшынет гын, датасетыш у ойлончо-влакым ешарашлан <sentenceCollectorLink>Sentence Collection ӱзгарым</sentenceCollectorLink>, да шке веб-сайтшым кусарашлан Mozilla <pontoonLink>Pontoon-ым</pontoonLink> кучылт. 5000 чынлыме ойлончым погымеке, йӱкым пурташлан Common Voice-ыш у йылме ешаралтеш.
 faq-why-mission-q = Молан Common Voice Mozilla-н миссийжын ужашыже улеш?
 faq-what-cv-and-deepspeech-q = Common Voice да Deep Speech коклаште могай ойыртем?
 faq-is-goal-assistant-q = Common Voice-ын шумлыкшо йӱкан полышкалышым ышташ мо?
@@ -567,6 +568,7 @@ about-playbook-how-grow-language-content-2 = Эртынчык-влак
 about-playbook-how-grow-language-content-3 = Еҥ-влаклан шке надырыштым пурташлан тый тӱшкасомыл-влакым эртарен кертат. Тиде тыйын шонымет деч куштылгырак. Тый тидым онлайн видеоконференций ӱзгар дене але шке, тиде лӱдыкшӧ огыл гын, ыштен кертат. <eventTemplate>Мемнан шаблон да тӱшкасомылым эртарашлан ресурс-влак дене палыме лий</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Социал медиа
 about-playbook-how-grow-language-content-6 = Партнёрлык да вот-влак
+about-playbook-how-grow-language-content-7 = Весе-влакым, кӧлан чыла керек огыл, му. Тиде университет, йылме школ, шӱм шупшмо але данный-влак дене специалист тӱшка-влак лийын кертыт. Кузе да молан нуно полшен кертыт манын, кидет шуялте да рашын умылтаре. <outreachTemplates>Мемнан увер серыш шаблон-влакым ончал</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Усталыкым ончыкто!</strong> Тыйын йылме тӱшкат ойыртемалтше лиеш, да тиде пашам тӱҥалашлан икмыняр каҥаш гына.
 
 ## How to validate
