@@ -1028,15 +1028,34 @@ demo-account = 帳號
 
 ## Demo Account
 
+demo-account-card-header = 不需要註冊帳號即可貢獻，但如果有的話會更有幫助。
+demo-account-card-body = 我們在右邊簡單列出了有哪些益處，並說明會公開哪些資訊。請使用下方的鏈結來在您的裝置上註冊 Common Voice 帳號，開始參與我們。
+demo-account-enter-email =
+    .label = 請輸入電子郵件地址來發送註冊鏈結
+demo-account-sign-up = 寄註冊鏈結給我
 
 ## Demo Contribute
 
+demo-contribute-card-header = 準備好來參與錄音，或是把耳朵借給我們一用嗎？
+demo-contribute-card-body-v2 = 現在您知道更多 Common Voice 的資訊了，不來試試看嗎？請點擊麥克風圖示來大聲朗讀句子。<br/><br/>若您想要來審核其他人錄下的片段，請點擊播放圖示，即可幫助大家確認錄音內容是否與畫面上的文字相符。
+demo-listen-subtitle = 準備好參與貢獻了嗎？
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = 可讓您掌控個人與社群進度的個人儀錶板。
+demo-dashboard-card-body = 每當您錄下或驗證了一段語音，就會更新您的帳號儀錶板，來反映您在參與貢獻的各種語言當中的最新進度。沒錯，您可以參與不只一種語言！<br/><br/>您可以使用儀錶板來追蹤目前狀態、看看自己跟社群當中的其他人目前差距多少，並且設定每日或每週貢獻目標。
 
 ## Validation criteria
 
+contribution-criteria-nav = 準則
+contribution-criteria-link = 了解貢獻準則
+contribution-criteria-page-title = 貢獻準則
+contribution-criteria-page-description = 了解在聆聽語音片段時要注意什麼，並幫助您能錄下更多聲音！
+contribution-for-example = 舉例來說
+contribution-misreadings-title = 誤讀
+contribution-misreadings-description = 聆聽錄音時，仔細確認錄下的語音內容與畫面上顯示的文字完全相符，有任何一點錯誤就退回更正。<br />以下是常見的錯誤類型：
+contribution-misreadings-description-extended-list-1 = 錄音內容缺少了語尾助詞，例如<strong>「啦」</strong>或<strong>「了」</strong>。
+contribution-misreadings-description-extended-list-2 = 缺少<strong>「們」</strong>等量詞或複數型態錯誤。
 contribution-misreadings-description-extended-list-3 = 閱讀時略過或多了某些字。例如「錄音的注意事項」一句中，只唸出「錄音注意事項」（未唸出「的」字），或唸成「錄音時的注意事項」（多出「時」字）。
 contribution-misreadings-description-extended-list-4 = 因為太快按下停止錄音而導致句尾被截斷。
 contribution-misreadings-description-extended-list-5 = 錄音中多次嘗試念出某些文字。
@@ -1061,6 +1080,7 @@ contribution-varying-pronunciations-example-1-title = 主角戴了一頂法國�
 contribution-varying-pronunciations-example-1-explanation = （念為「主 ㄐㄩㄝˊ」或「主 ㄐㄧㄠˇ」、「ㄈㄚˇ國」或「ㄈㄚˋ國」皆可）
 contribution-varying-pronunciations-example-2-title = 只是一杯蜂蜜
 contribution-varying-pronunciations-example-2-explanation = （念成「ㄗˇ」是或「ㄓˇ」是，「ㄈㄥ」蜜或「ㄏㄨㄥ」蜜，基本上只是錄音者的口音發音習慣，不應視為錯誤）
+contribution-background-noise-title = 背景噪音
 contribution-background-noise-description = 我們希望機器模型能適應多樣化的背景噪音（甚至是很大的聲音），只要你仍然能聽見每一個字即可。錄到小聲的背景音樂也沒問題，但太大聲讓你無法聽出每一個字就不行。
 contribution-background-noise-description-extended = 除非你仍可完整聽到每一個字，否則請拒絕聽起來斷斷續續的錄音。
 contribution-background-noise-example-1-fixed-title = <strong>[噴嚏聲]</strong> 三疊紀的大 <strong>[咳嗽聲]</strong> 恐龍。
