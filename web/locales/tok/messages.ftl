@@ -254,6 +254,7 @@ email-subscription-title-new = o kama jo e lipu ni: sona sin en pali sin en pini
 ## Account Benefits
 
 benefits = seme li pona
+keep-track = sina ken lukin e suli pi pali sina e ijo ante lon toki ale sina.
 view-goals = sina ken lukin e mute pi pali sina, e wile pali sina, e wile pali kulupu.
 
 ## What's public
@@ -544,6 +545,7 @@ overall-hr-total = nanpa tenpo
 cv-license = lipu pi nasin pana
 audio-format = nasin awen kalama
 number-of-voices = nanpa pi jan toki
+splits = kulupu lili
 email-to-download = sina wile jo la o pana e nimi pi poki lipu sina
 why-email = <b>poki lipu mi li tan seme?</b> ken la kulupu kalama li kama ante lon tenpo kama. mi wile toki e ijo ante tawa sina.
 size-gigabyte = GB
@@ -745,8 +747,12 @@ goal-interval-weekly = tenpo esun
 share-goal-type-speak = toki
 share-goal-type-listen = kute
 share-goal-type-both = toki en kute
+# LINK will be replaced with the current URL
+goal-share-text = mi pali e wile pali ni: mi pana e toki uta mi tawa #CommonVoice. o kama, o pana e sona toki tawa ilo. { $link }
 weekly-goal-created = sina pali e pini suli pi tenpo esun ale!
 daily-goal-created = sina pali e pini suli pi tenpo suno ale!
+track-progress = o lukin e suli pi pali sina lon ni, lon lipu pali sina.
+return-to-edit-goal = o tawa ni la sina ken ante e wile pali sina.
 share-goal = o pana e pini suli
 
 ## Profile Delete
@@ -761,6 +767,8 @@ download-q = sina wile kama jo e sona sina anu seme?
 download-info = sina wile kama jo e seme:
 download-profile-title = lipu jan
 download-recordings-title = kalama awen
+download-recordings-unavailable = sina ken ala kama jo sin. sina kama jo e kalama awen sina lon tenpo ni.
+download-recently-requested = sina ken kama jo e kalama awen sina lon tenpo suno { $days } pini ale.
 download-size = suli
 download-selected = lawa
 download-start = o kama jo e sona pi lipu jan
@@ -769,18 +777,26 @@ download-requests = wile pi kalama awen tan tenpo pini
 download-request-button = o kama jo
 download-request-title = { $created }
 download-request-archive-single = poki lipu ZIP wan li jo e ni:
+download-request-archive-multiple = o kulupu lili e poki lipu ZIP { $archiveCount }. ona li jo e ni:
 download-request-assembling-description = lipu sina li kama kulupu. o lukin lon tenpo kama.
 download-request-refresh-button = o sin
 download-request-modal-title = nasin nimi pi kama jo
+download-request-modal-description = ni li nimi nasin pi poki lipu ZIP sina.
+download-request-link-text = poki lipu ZIP #{ $offset } tan { $total }
+download-request-metadata-link = nimi sitelen
 
 ## Landing
 
 welcome-staff = kama pona tawa jan pi kulupu { $company }!
+login-company = o kama kepeken poki lipu sina tan kulupu { $company }.
+profile-not-required = sina jo e lipu jan la ni li pona mute. taso, sina jo ala la ni li pona.
+read-more-about = o lukin lon lipu sona mi
 
 ## DemoLayout
 
 demo-get-started = o open
 demo-welcome = kama pona tawa ilo Common Voice
+demo-welcome-subheader = sina wile sona mute? sina wile pana tawa pali ni?
 
 ## Demo Datasets
 
