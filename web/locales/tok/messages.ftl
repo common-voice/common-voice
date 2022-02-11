@@ -1134,6 +1134,7 @@ sc-personal-not-added = sina pana ala e toki.
 
 sc-criteria-modal = nasin pona
 sc-criteria-title = nasin pona
+sc-criteria-item-3 = toki ni o ken tawa kalama uta.
 
 ## REVIEW
 
