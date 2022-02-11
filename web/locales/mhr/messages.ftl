@@ -749,6 +749,7 @@ action-tap = Темдал
 contribute = Надырлаш
 listen = Колышташ
 skip = Коден каяш
+shortcuts = Ярлык-влак
 clips-with-count-pluralized =
     { $count ->
         [one] клип
