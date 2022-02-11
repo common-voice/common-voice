@@ -39,6 +39,22 @@ const compileLanguages = (clientLanguages: any, row: any) => {
     }
   }
 
+  if (row.variant_id) {
+    const variant = {
+      name: row.accent_name,
+      id: row.accent_id,
+      token: row.accent_token,
+    };
+    if (result[row.locale]) {
+      result[row.locale].variants.push(variant);
+    } else {
+      result[row.locale] = {
+        locale: row.locale,
+        variants: [variant],
+      };
+    }
+  }
+
   return result;
 };
 
@@ -392,6 +408,9 @@ const UserClient = {
         LEFT JOIN user_client_accents user_accents ON u.client_id = user_accents.client_id
         LEFT JOIN accents ON user_accents.accent_id = accents.id
         LEFT JOIN locales ON accents.locale_id = locales.id
+        LEFT JOIN user_client_variants uv ON u.client_id = uv.client_id
+        LEFT JOIN variants v on uv.variant_id = v.id 
+
 
         -- TODO: This subquery is awkward, but safer until we simplify accent
         --       grouping.

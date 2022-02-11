@@ -21,4 +21,5 @@ export type UserLanguage = {
   locale: string;
   variant?: Variant;
   accents?: Accent[];
+  variants?: Variant[];
 };
