@@ -13,11 +13,11 @@ export const getDifferenceInIds = (
   const idsToBeAdded: number[] = [];
   const idsToBeRemoved: number[] = [];
 
-  requestedIds.map(id => {
+  requestedIds?.map(id => {
     if (!savedIds.includes(id)) idsToBeAdded.push(id);
   });
 
-  savedIds.map(id => {
+  savedIds?.map(id => {
     if (!requestedIds.includes(id)) idsToBeRemoved.push(id);
   });
 

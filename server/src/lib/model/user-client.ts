@@ -12,6 +12,7 @@ import {
   challengeTeamTokens,
   UserLanguage,
 } from 'common';
+import { getDifferenceInIds } from './db/utils/getDiff';
 
 const db = getMySQLInstance();
 
@@ -212,12 +213,7 @@ async function updateVariants(
   clientId: string,
   UserVariantLocale: UserVariantLocale[]
 ) {
-  // get existing variants for users languages, if exists
-
-  // get (by filtering) variants passed in req, if exists
-  console.log('UserVariantLocale', UserVariantLocale);
-  console.log('clientId', clientId);
-
+  // query all existing variants for user
   const [savedVariants]: [{ id: number; variant_id: number }[]] =
     await db.query(
       `
@@ -228,95 +224,47 @@ async function updateVariants(
     `,
       [clientId]
     );
+  // flatten request obj to get a list of all variant_ids
+  const requestedVariantIds = UserVariantLocale.map(language => {
+    return language?.variants?.map(variant => variant.id) ?? [];
+  }).reduce((allIds, cur) => {
+    return allIds.concat(cur);
+  }, []);
 
   const savedVariantIds = savedVariants.map(row => row.variant_id);
-  const requestVariantIds = UserVariantLocale.map(language => {
-    return language?.variants?.map(variant => variant.id);
-  });
 
-  type IdDifferences = {
-    idsToBeRemoved: number[];
-    idsToBeAdded: number[];
-  };
+  const { idsToBeAdded, idsToBeRemoved } = getDifferenceInIds(
+    requestedVariantIds,
+    savedVariantIds
+  );
 
-  // find difference in two lists
-  const getDifferenceInIds = (
-    requestedIds: number[],
-    savedIds: number[]
-  ): IdDifferences => {
-    const idsToBeAdded: number[] = [];
-    const idsToBeRemoved: number[] = [];
-    // [1,2,3] // [2,3,4]
-    requestedIds.map(id => {
-      if (!savedIds.includes(id)) idsToBeAdded.push(id);
+  //If the user has removed variants, remove entry from db
+  if (idsToBeRemoved.length > 0) {
+    await db.query(
+      'DELETE FROM user_client_variants WHERE variant_id IN (?) and client_id = ?',
+      [idsToBeRemoved, clientId]
+    );
+  }
+
+  if (idsToBeAdded.length > 0) {
+    //get all valid variant ids
+    const [validIds]: [{ id: number }[]] =
+      (await db.query(`SELECT id from variants where id in (?)`, [
+        idsToBeAdded,
+      ])) || [];
+
+    const flattenedValidIds = validIds.map(row => {
+      return row.id;
     });
-    savedIds.map(id => {
-      if (!requestedIds.includes(id)) idsToBeRemoved.push(id);
-    });
 
-    return { idsToBeRemoved, idsToBeAdded };
-  };
-
-  console.log('savedVariants', savedVariantIds);
-  console.log('requestVariantIds', requestVariantIds);
-
-  console.log(getDifferenceInIds([2, 3, 4], [1, 2, 3]));
-  // if id is in existing, but not in req, delete from user_client_variants table
-  // if id is in req, but not in existing, create row in user_client_variants
-  // else skip
-
-  // const { localesToUpdate, localesToDelete } = await getLocalesDelta(
-  //   clientId,
-  //   UserVariantLocale
-  // );
-
-  // // If the user has removed locale/accent values, remove entry from db
-  // if (localesToDelete.length > 0) {
-  //   await db.query('DELETE FROM user_client_accents WHERE id IN (?)', [
-  //     localesToDelete.map(accent => accent.id),
-  //   ]);
-  // }
-
-  // // Of the entries in savedLocales that are not the same as the input locales array
-  // // create any accents that are newly user submitted
-  // const newAccents = await Promise.all(
-  //   localesToUpdate.map(async accent => {
-  //     const localeId = await getLocaleId(accent.locale);
-  //     let accentId = accent.accent_id;
-
-  //     // If no accent ID exists, create new accent entry
-  //     if (!accentId) {
-  //       await db.query(
-  //         `INSERT INTO accents (locale_id, accent_name, accent_token, user_submitted, client_id) values (?, ?, ?, ?, ?)
-  //             ON DUPLICATE KEY UPDATE locale_id = locale_id`,
-  //         [
-  //           localeId,
-  //           accent.accent_name,
-  //           generateAccentToken(accent.accent_name),
-  //           true,
-  //           clientId,
-  //         ]
-  //       );
-
-  //       const [[newAccent]] = await db.query(
-  //         `SELECT id FROM accents WHERE locale_id = ? AND accent_name = ? AND user_submitted`,
-  //         [localeId, accent.accent_name]
-  //       );
-
-  //       accentId = newAccent.id;
-  //     }
-
-  //     return [clientId, localeId, accentId];
-  //   })
-  // );
-
-  // // Finally, insert the new accent values into the user_client_accents table
-  // if (newAccents.length > 0) {
-  //   await db.query(
-  //     'INSERT INTO user_client_accents (client_id, locale_id, accent_id) VALUES ? ON DUPLICATE KEY UPDATE created_at = NOW()',
-  //     [newAccents]
-  //   );
-  // }
+    if (flattenedValidIds.length > 0) {
+      const formattedIds = flattenedValidIds.map(id => [clientId, id]); //format array so query can insert multiple
+      await db.query(
+        'INSERT INTO user_client_variants (client_id, variant_id) VALUES ?',
+        [formattedIds]
+      );
+    }
+  }
 }
 
 async function updateDemographics(
