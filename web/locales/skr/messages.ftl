@@ -328,12 +328,15 @@ faq-search-for-answers =
 
 ## ABOUT US
 
+about-title = Common Voice کیوں؟
 
 ## How does it work section
 
 about-localization-title = ویب سائٹ دی مقامیت
+about-new-lang-title = نویں زبان لان٘چ
 about-speak = ٻولو
 about-listen = سݨو
+about-yes-votes = ≥٢ جیا ووٹ
 about-partners = بھائیوال
 about-become-a-partner = بھائیوال بݨو
 about-get-involved = نال رلت کرو
@@ -373,6 +376,7 @@ about-playbook-how-grow-language-content-4 = سماجی میڈیا
 ## How are decisions made
 
 about-playbook-how-project-governance-content-6 = باہمی احتساب
+mycroft-title = مائی کرافٹ آئی
 mycroft-subtitle = مصنوعی ذہانت
 
 ## Glossary
@@ -395,6 +399,7 @@ license = لائسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = مکس تھئے
 terms-agree = میں متفق ہاں
 terms-disagree = میں راضی کائنی
+review-cancel = جمع منسوخ کرو
 
 ## Datasets Page
 
@@ -412,6 +417,9 @@ dataset-version = ورشن
 
 ## Download Modal
 
+download-form-email =
+    .label = آپݨا ای میل درج کرو
+    .value = تہاݙا تھورا، اساں رابطہ کریسوں۔
 download-no = کو، شکریہ
 
 ## Contact Modal
@@ -434,6 +442,7 @@ other-language = ٻئی زبان
 ## Languages Overview
 
 language-section-in-progress = تھیندا پئے
+language-section-launched = لان٘چ تھی ڳیا
 languages-show-more = ٻئے ݙیکھو
 languages-show-less = گھٹ ݙیکھو
 language-meter-in-progress = پیش رفت
@@ -446,6 +455,17 @@ sentences = جملے
 
 ## Contribution
 
+action-click = کلک
+action-tap = انگل پھیرو
+contribute = حصہ پاؤ
+listen = سݨو
+skip = چھوڑو
+shortcuts = شارٹ کٹ
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> کلپ
+       *[other] <bold>{ $count }</bold> کلپ
+    }
 target-segment-add-voice = آپݨی آواز رلاؤ
 target-segment-learn-more = ٻیا سِکھو
 
@@ -469,6 +489,7 @@ days =
 
 ## Dashboard
 
+your-languages = تہاݙیاں زباناں
 
 ## Custom Goals
 
