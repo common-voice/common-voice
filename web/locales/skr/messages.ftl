@@ -199,6 +199,7 @@ logout = لاگ آؤٹ
 show-wall-of-text = ٻیا پڑھو
 vote-yes = جیا
 vote-no = کو
+speak-subtitle = آپݨی آواز دان کرو
 speak-goal-text = رکارڈ تھئے کلپ
 todays-progress = اڄ دی ترقی
 all-locales = سارے
@@ -218,12 +219,15 @@ x-years-short =
         [one] سال
        *[other] { $count } سال
     }
+sign-up-account = کھاتے کیتے سائن اپ تھیوو
+email-subscription-title = ای میل اپ ڈیٹاں کیتے سائن اپ تھیوو
 
 ## Account Benefits
 
 
 ## What's public
 
+whats-public = عوامی کیا ہے؟
 
 ## Speak & Listen Shortcuts
 
@@ -318,6 +322,7 @@ add-language = زبان شامل کرو
 ## FAQ
 
 faq-why-important-q = ایہ اہم کیوں ہے؟
+faq-why-my-lang-q = میݙی زبان اڄݨ تائیں کیوں شامل کائنی؟
 faq-search-for-answers =
     .label = جواباں دی ڳول
 
