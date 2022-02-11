@@ -562,6 +562,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Чынлык висык не
 about-playbook-how-grow-language = Common Voice-ышто кузе ме пайдалын йылмым вийдарен кертына?
 about-playbook-how-grow-language-content-1 = Common Voice-ыш тӱрлӧ еҥлан ушнаш йӧным ыштымаш данный пого кузе-гынат шукырак еҥ-влак чотлан пайдале лиеш манын, ӱшандара. Ме тылат кучылташ лийше ресурс ден шаблон-влакым ыштенна.
 about-playbook-how-grow-language-content-2 = Эртынчык-влак
+about-playbook-how-grow-language-content-3 = Еҥ-влаклан шке надырыштым пурташлан тый тӱшкасомыл-влакым эртарен кертат. Тиде тыйын шонымет деч куштылгырак. Тый тидым онлайн видеоконференций ӱзгар дене але шке, тиде лӱдыкшӧ огыл гын, ыштен кертат. <eventTemplate>Мемнан шаблон да тӱшкасомылым эртарашлан ресурс-влак дене палыме лий</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Социал медиа
 about-playbook-how-grow-language-content-6 = Партнёрлык да вот-влак
 about-playbook-how-grow-language-content-8 = <strong>Усталыкым ончыкто!</strong> Тыйын йылме тӱшкат ойыртемалтше лиеш, да тиде пашам тӱҥалашлан икмыняр каҥаш гына.
@@ -588,6 +589,10 @@ about-playbook-how-project-governance-content-5 = Кӱлешлык да пага
 about-playbook-how-project-governance-content-6 = Ваш-ваш мутым кучымаш.
 about-playbook-how-project-governance-content-7 = <governanceLink>Кузе ме виктарена, шукырак пален нал</governanceLink>
 mycroft-title = Mycroft Ai
+mycroft-description =
+    Mycroft — почмо тӱҥалтыш код дене тӱнямбалне икымше полышкалыше.
+    Mycroft кеч-кушто пашам ышта Mycroft — десктоп компьютерыште, автошто але Raspberry Pi-ште.
+mycroft-secondary-description = Тиде почмо тӱҥалтыш код дене программе вундо, тудым эрыкын вашталтылаш, кумдаҥдылаш але саемдылаш лиеш. Mycroft-ым кеч-кушто кучылташ лиеш: шанче проект гыч тӱҥалын, корпоратив программе вундо марте.
 
 ## Glossary
 
