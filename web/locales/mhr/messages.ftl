@@ -673,6 +673,7 @@ subscribe = Возалташ
 get-started-speech = Ойлымым палыме гыч тӱҥал
 other-datasets = Моло йӱк датасет-влак
 feedback-q = Шоныммут уло?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ — <docsLink>почмо тӱҥалтыш код дене</docsLink> кызытсе жаплан келшыше вашмутланыше AI модель-влакым ыштыше шанчыеҥ-влаклан ӱзгар пого.
 resource-deepspeech-info = Почмо тӱҥалтыш код дене Mozilla Deep Speech йӱкым пален налше механизмым йӱкым пален налше приложений-влакым ышташлан кучылташ лиеш. Кузе пашам тӱҥалаш манын, мемнан Github шергалмашым лудын лек але DeepSpeech каҥашымашыш ушно.
 community-playbook = Playbook тӱшка
 data-other-ted-name = Тунемме корпус
