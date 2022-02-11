@@ -576,11 +576,13 @@ about-playbook-how-grow-language-content-8 = <strong>Усталыкым ончы
 about-playbook-how-validate = Йӱкан клипым чынлаш але уке, кузе пален налаш?
 about-playbook-how-validate-content-1 = Тый <strong>нуным колат</strong> да <strong>умылет</strong> гын, шукыж годым <strong>нуным чынлаш сайрак</strong>.
 about-playbook-how-validate-content-2 = Тыйын дечын ойыртемалтше «акцент дене» ойлышын клипшым ит ӧрдыжтаре — йӱкым пален налмаш чылалан сайын ыштыже манын, тиде кӱлешан.
+about-playbook-how-validate-content-3 = Тыге ойлымым <strong>умылаш огеш лий</strong>, але <strong>шуко фонан йӱк-йӱан</strong>, але <strong>вес еҥ-влак кутырат</strong> гын, тылат клипым ӧрдыжтарыман. <accuracyLink>Мемнан чынлык висыклаште ешартыш информацийым ончо</accuracyLink>.
 about-playbook-how-validate-content-4 = Клипым 2 еҥ ӧрдыжтара гын, тудо датасетын вес ужашыштыже лукталтеш.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Кузе датасетым налаш да кучылташ лиеш?
+about-playbook-how-access-dataset-content-1 = Тый <datasetsPage>датасет велыжыш</datasetsPage> куснен, кӱлеш версийым да йылмым (йылме-влакым) ойырен да нуным тулен налын кертат! Файл-влак демографиян информаций да тергымаш данный дене <metadataLink>метаданный-влак дене кылдалтыныт</metadataLink>. Тылат датасетым тулен налашлан электрон почто адресым ончыктыман.
 about-playbook-how-access-dataset-content-2 = Тылат ASR модельым ышташ ӱзгар кӱлеш гын, тый <discourseLink>Discourse-ышто</discourseLink> тӱшкаш моло ушнышо-влак дене кылдалт кертат.
 
 ## How are decisions made
@@ -593,6 +595,7 @@ about-playbook-how-project-governance-content-5 = Кӱлешлык да пага
 about-playbook-how-project-governance-content-6 = Ваш-ваш мутым кучымаш.
 about-playbook-how-project-governance-content-7 = <governanceLink>Кузе ме виктарена, шукырак пален нал</governanceLink>
 mycroft-title = Mycroft Ai
+mycroft-subtitle = Пӱртӱслӧ огыл уш-акыл
 mycroft-description =
     Mycroft — почмо тӱҥалтыш код дене тӱнямбалне икымше полышкалыше.
     Mycroft кеч-кушто пашам ышта Mycroft — десктоп компьютерыште, автошто але Raspberry Pi-ште.
