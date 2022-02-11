@@ -529,7 +529,9 @@ about-playbook-what-is-language-content-3 = Южо йылме-влак грам�
 
 about-playbook-how-add-language = Кузе мылам йылмым ешараш?
 about-playbook-how-add-language-content-1 = Икымше, тыйын йылмет <languageLink>уло</languageLink> але уке, терге. Уке гын, тылат <strong>сайтым кусарыман да ойлончо-влакым погыман</strong>.
+about-playbook-how-add-language-content-2 = <strong>Сайтым кусараш</strong> манын, <pontoonLink>Pontoon-ым</pontoonLink> келыштарен <translateVideo>кучылт</translateVideo>. <pontoonLink>Pontoon-ышто</pontoonLink> шуко йылме уло, тыйын уке гын, тудым <pontoonRequestLink>йод</pontoonRequestLink>. Вара <repoLink>GitHub</repoLink> гоч Common Voice проектыште тиде йылмым кучылташ лиймым йод. <localizationFragment>Кусарымаш сайтыште</localizationFragment> шукырак ончо.
 about-playbook-how-add-language-content-3 = <strong>Ойлончо-влакым погашлан</strong> <scLink>Sentence Collector-ым</scLink> <scVideo>келыштаре</scVideo>.
+about-playbook-how-add-language-content-4 = Тый тышке <scLinkAdd>икмыняр ойлончым ешарен</scLinkAdd> кертат але Github йодмаш гоч <bulkImportDocsLink>тӱшка импортым</bulkImportDocsLink> шуктен кертат, Шарне, ойлончо-влак <licenseLink>CC0 (але калык поянлык)</licenseLink> лийшаш улыт, але тый шкеным возен кертат. <scFragment>Ойлончо пого</scFragment> нерген кумданрак.
 
 ## How does localization work
 
