@@ -249,6 +249,7 @@ x-years-short =
 help-make-dataset = o pona e ni: mi mute li pali e sona mute pona.
 sign-up-account = o kama jo e lipu lawa
 email-subscription-title = o kama jo e lipu sin
+email-subscription-title-new = o kama jo e lipu ni: sona sin en pali sin en pini suli sina
 
 ## Account Benefits
 
