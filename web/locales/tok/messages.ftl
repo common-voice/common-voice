@@ -811,6 +811,7 @@ demo-welcome-subheader = sina wile sona mute? sina wile pana tawa pali ni?
 
 ## Demo Datasets
 
+demo-language-select-card-header = kulupu sona Common Voice li suli nanpa wan pi ma ale lon toki mute, lon sona pi jan ale.
 card-button-next = o kama
 demo-language-select-label = o lukin e toki
 demo-eofy-header = kulupu sona pana pi tenpo sike pini 2019
