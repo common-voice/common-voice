@@ -655,9 +655,21 @@ license = 授權條款: <licenseLink>{ $license }</licenseLink>
 license-mixed = 混和
 data-download-singleword-title = 下載單字目標字串
 data-download-singleword-callout-v2 = 這是一個包含用來進行口述數字識別與是/否偵測的使用案例。
+review-terms = 使用 Common Voice，就代表您同意我們的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
+terms-agree = 我同意
+terms-disagree = 我不同意
+review-aborted = 上傳失敗，您要刪除錄音檔嗎？
+review-submit-title = 確認並送出
+review-submit-msg = 感謝您錄音！<lineBreak></lineBreak>接下來請在下方確認並送出錄音檔。
+review-recording = 確認
+review-rerecord = 重新錄音
+review-cancel = 取消送出
+review-keep-recordings = 保留錄音
+review-delete-recordings = 刪除我的錄音
 
 ## Datasets Page
 
+datasets-headline = 我們想建立一套開放原始碼、多重語言的語音資料集，讓任何人都可以用來開發語音相關應用。
 datasets-positioning =
     我們相信若有一組大型、可公開使用的語音資料集，可奠定以機器學習為基礎的語音技術的創新，與健康的商業競爭。
     
@@ -709,29 +721,126 @@ go-languages-page = 前往語言頁面
 ready-to-validate = 準備好要幫助驗證句子了嗎？
 more = 更多
 close = 關閉
+download = 下載
+dataset-version = 版本
 
 ## Download Modal
 
+download-title = 已開始下載。
+download-helpus = 請幫助我們打造一個使用語音技術的社群，並透過電子郵件保持聯繫。
+download-form-email =
+    .label = 輸入您的電子郵件地址
+    .value = 感謝！我們很快就會聯繫您。
+download-back = 回到 Common Voice 資料集
+download-no = 不要，謝謝
 
 ## Contact Modal
 
+contact-title = 聯絡表單
+contact-form-name =
+    .label = 姓名
+contact-form-message =
+    .label = 訊息
+contact-required = * 必填
 
 ## Request Language Modal
 
+request-language-title = 語言請求
+request-language-form-language =
+    .label = 語言
+request-language-success-title = 已收到新語言請求，感謝您。
+request-language-success-content = 我們將很快在您的語言於 Common Voice 上線時通知您更多資訊。
+select-language = 選擇一種語言…
+other-language = 其他語言
 
 ## Languages Overview
 
+language-section-in-progress = 準備中
+language-section-in-progress-new-description = 這些語言目前正由社群開發中，進度條展示每種語言<localizationGlossaryLink>網站在地化</localizationGlossaryLink>及<sentenceCollectionGlossaryLink>搜集語句</sentenceCollectionGlossaryLink>的狀況。
+language-section-launched = 已上線
+language-section-launched-description = 以下「已上線」的語言，代表網站已經成功<localizationGlossaryLink>在地化</localizationGlossaryLink>，且也已經<sentenceCollectionGlossaryLink>搜集了夠多句子</sentenceCollectionGlossaryLink>讓大家能用<speakLink>說話</speakLink>及<listenLink>聆聽</listenLink>的方式貢獻。
+languages-show-more = 檢視更多
+languages-show-less = 檢視更少
+language-meter-in-progress = 進度
+language-total-progress = 總計
+language-search-input =
+    .placeholder = 搜尋
+language-speakers = 使用者數
+localized = 已翻譯
+sentences = 句子
+total-hours = 已驗證時數
 
 ## Contribution
 
+action-click = 點擊
+action-tap = 點選
+contribute = 參與貢獻
+listen = 聆聽
+skip = 略過
+shortcuts = 捷徑
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> 個片段
+       *[other] <bold>{ $count }</bold> 個片段
+    }
+goal-help-recording = 您已幫助 Common Voice 完成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 錄音目標！
+goal-help-validation = 您已幫助 Common Voice 完成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 筆驗證目標！
+contribute-more = 準備好再作 { $count } 筆了嗎？
+record-cta = 開始錄音
+record-platform-not-supported = 很抱歉，目前暫不支援您的平台。
+record-platform-not-supported-desktop = 在桌上型電腦，您可以下載最新版的:
+record-platform-not-supported-ios-non-safari = 在 iOS 平台，請繼續前往 Safari 開啟錄音功能…
+record-must-allow-microphone = 您必須允許使用麥克風。
+record-no-mic-found = 找不到麥克風
 record-error-too-short = 錄音傷短矣。
 record-error-too-long = 錄音傷長矣。
 record-error-too-quiet = 錄音傷細聲矣。
+record-cancel = 取消重新錄音
+record-instruction = { $actionType } <recordIcon></recordIcon> 然後大聲說出句子
+record-stop-instruction = 完成後{ $actionType } <stopIcon></stopIcon>
+record-three-more-instruction = 還有三筆！
+record-again-instruction = 好！點擊<recordIcon></recordIcon>錄下下個片段
+record-again-instruction2 = 繼續加油，再錄一筆！<recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon>最後一筆了！
+review-tooltip = 在此確認或重錄片段
+share-clip = 分享您的錄音片段
+share-common-voice = 分享 Common Voice
 review-instruction = 確認錄音內容，若有需要會當重錄
+record-submit-tooltip = 準備好即可{ $actionType }送出
+clips-uploaded = 已上傳片段
+record-abort-title = 不先完成錄音嗎？
+record-abort-text = 如果要現在離開，會失去目前的進度
+record-abort-submit = 送出片段
+record-abort-continue = 完成錄音
+record-abort-delete = 結束並刪除片段
+listen-instruction = { $actionType }<playIcon></playIcon>，聽聽他們有準確地說出句子嗎？
+listen-again-instruction = 幹得好！<playIcon></playIcon>準備好就可以再聽一次
+listen-3rd-time-instruction = 完成兩筆了<playIcon></playIcon>，繼續保持！
+listen-last-time-instruction = <playIcon></playIcon>最後一筆了！
+listen-empty-state = 我們已經沒有這種語言的片段可以驗證了…
+speak-empty-state = 我們已經沒有這種語言的文字可以錄音了…
+speak-empty-state-cta = 貢獻語句
 record-button-label = 共你的聲音錄下來
+share-title-new = <bold>請幫助我們</bold>找到更多聲音
+keep-track-profile = 註冊帳號來追蹤個人貢獻進度
+login-to-get-started = 請登入或註冊，即可開始使用
+target-segment-first-card = 您正在朝我們的第一組目標段落數貢獻錄音
+target-segment-generic-card = 您正在朝目標段落數貢獻錄音
+target-segment-first-banner = 幫助 Common Voice 設定 { $locale } 的第一組目標段落數
+target-segment-add-voice = 加入您的聲音
+target-segment-learn-more = 了解更多
 
 ## Reporting
 
+report = 回報
+report-title = 回報問題
+report-ask = 這句話有什麼問題？
+report-offensive-language = 冒犯人的語言
+report-offensive-language-detail = 這句話當中有不尊重他人或冒犯性的語言。
+report-grammar-or-spelling = 文法 / 拼字錯誤
+report-grammar-or-spelling-detail = 這句話的文法或拼法有誤。
+report-different-language = 其他語言
+report-different-language-detail = 這句話是其他語言的句子。
 report-difficult-pronounce-detail = 這句話內底有真歹發音的文字抑是語詞。
 
 ## Goals
