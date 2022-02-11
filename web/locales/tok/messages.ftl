@@ -494,13 +494,17 @@ about-playbook-how-record-content-3 = o toki sama sitelen. o weka ala, o ante al
 
 ## How to grow language
 
+about-playbook-how-grow-language = seme la mi ken suli e toki lon ilo Common Voice?
 about-playbook-how-grow-language-content-2 = tenpo suli
 about-playbook-how-grow-language-content-4 = kulupu pi jan toki
 about-playbook-how-grow-language-content-6 = jan poka en kulupu
+about-playbook-how-grow-language-content-8 = <strong>o pali pona!</strong> kulupu pi toki sina o pona. nasin mute la sina ken open pali e ni.
 
 ## How to validate
 
 about-playbook-how-validate = nasin seme la mi sona e pona pi kalama toki?
+about-playbook-how-validate-content-1 = sina ken <strong>kute</strong> e ona, li ken <strong>sona</strong> e toki ona, <strong>o pona e ona</strong>.
+about-playbook-how-validate-content-2 = <strong>jan toki li kepeken e nasin kalama ante la, o weka ala e ona.</strong> nasin kalama mute la, ilo ken pali pona tawa jan ale.
 about-playbook-how-validate-content-4 = kalama awen li weka tan jan 2 la, ilo li pana e ona tawa kulupu sona ante.
 
 ## How to access dataset
@@ -510,6 +514,8 @@ about-playbook-how-access-dataset = mi lukin e sona ale pi ilo Common Voice kepe
 ## How are decisions made
 
 about-playbook-how-project-governance-content-3 = awen pi sona len en pana pi sona ante.
+about-playbook-how-project-governance-content-4 = pali kulupu en alasa pi wile pona.
+about-playbook-how-project-governance-content-7 = <governanceLink>o lukin e sona pi nasin lawa mi</governanceLink>
 mycroft-title = ilo Mycroft Ai
 mycroft-subtitle = ilo sona jan
 
@@ -517,6 +523,7 @@ mycroft-subtitle = ilo sona jan
 
 glossary = lipu nimi
 localization = ante toki
+localization-explanation = nasin ni la mi ante toki e ijo mi tawa toki ante mute.
 sentence-collection = kama jo sitelen
 hours-recorded-explanation = nanpa tenpo pi kalama awen
 sst = ilo kute
@@ -579,7 +586,9 @@ whats-inside = seme li lon kulupu kalama Common Voice?
 dataset-description-hours =
     ijo ale pi kulupu kalama Common Voice li jo e lipu kalama, e sitelen sama. kalama awen <b>{ $total }</b> mute li jo e sona jan. sona jan li tenpo sike lon ona, li kule ona, li nasin kalama toki ona. ale ni li ken pona e ilo kute.
     kulupu kalama li jo e kalama awen pona <b>{ $valid }</b> lon toki <b>{ $languages }</b>. taso, mi wile jo e toki sin lon tenpo ale. o lukin e <languagesLink>lipu toki</languagesLink> la, sina ken pana e toki sin, e pali.
+subscribe = o kama jo
 get-started-speech = o sona e ilo kute pi kalama toki
+other-datasets = kulupu sona ante pi kalama toki
 feedback-q = sina wile toki anu seme?
 resource-nemo-info = <githubLink>ilo NVIDIA NeMo</githubLink>™ li <docsLink>kulupu ilo suli</docsLink>. jan pi kulupu sona li kepeken ona la, ona li ken pali e ilo suli toki.
 community-playbook = lipu sona kulupu
@@ -736,14 +745,19 @@ stats = pali
 awards = ijo tan pali pona
 you = sina
 everyone = jan ale
+contribution-activity = pali
 top-contributors = jan pana pi nanpa wan
 recorded-clips = kalama awen
 validated-clips = kalama awen pona
+total-approved = mute pona
+overall-accuracy = pona ale
 set-visibility = len ala len
 show-ranking = o len ala e pali mute mi
 
 ## Custom Goals
 
+get-started-goals = o open e pali suli sina
+create-custom-goal = o pali e pali suli sin
 goal-type = sina wile pali e seme?
 both-speak-and-listen = tu
 both-speak-and-listen-long = tu (o toki, o kute)
@@ -785,8 +799,11 @@ n-clips-pluralized =
     { NUMBER($count) ->
        *[other] kalama awen { $count }
     }
+help-share-goal = o alasa e jan toki, o pana e pali suli sina
 confirm-goal = o wile e pini suli
 goal-interval-weekly = tenpo esun
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = o pana e pali suli pi kalama awen { $count } tawa { $type }
 share-goal-type-speak = toki
 share-goal-type-listen = kute
 share-goal-type-both = toki en kute
@@ -809,6 +826,7 @@ profile-form-delete = o weka e lipu jan
 download-q = sina wile kama jo e sona sina anu seme?
 download-info = sina wile kama jo e seme:
 download-profile-title = lipu jan
+download-profile-info = tenpo lili la nimi pi poki lipu en nimi jan en sona jan li lon
 download-recordings-title = kalama awen
 download-recordings-unavailable = sina ken ala kama jo sin. sina kama jo e kalama awen sina lon tenpo ni.
 download-recently-requested = sina ken kama jo e kalama awen sina lon tenpo suno { $days } pini ale.
@@ -890,6 +908,7 @@ contribution-background-noise-description = mi wile e ni: ilo pilin pi kama sona
 contribution-background-noise-example-2-explanation = [sina ken ala kute e nimi ale]
 contribution-background-voices-title = toki pi jan ante
 contribution-volume-title = wawa kalama
+contribution-just-unsure-title = sina sona ala anu seme?
 see-more = <chevron></chevron> o lukin mute
 see-less = <chevron></chevron> o lukin lili
 
