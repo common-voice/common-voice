@@ -415,6 +415,7 @@ faq-how-get-a = kulupu sona Common Voice li pana kepeken <licenseLink>lipu CC0</
 faq-when-release2-q = tenpo seme la sona pi ilo Common Voice li lon toki ante?
 faq-why-mission-q = kulupu Mozilla li pali e ilo Common Voice tan seme?
 faq-what-cv-and-deepspeech-q = ilo Common Voice en ilo Deep Speech la ante li seme?
+faq-what-cv-and-deepspeech-a = kulupu sona Common Voice li pona tawa kulupu Mozilla, tawa ilo kama Deep Speech. pali wan pi ilo Deep Speech li tan tenpo sike 2017 lon tenpo mun 11. kepeken kulupu sona Common Voice la, ilo kute pi jan ale li tawa jan ale, li pona jan ale. mi mute li wile e ni: jan sona li kepeken ilo ni, li pali e ilo pona mute.
 faq-is-goal-assistant-q = pali Common Voice la sina wile pali e ilo pali kute anu seme?
 faq-is-goal-assistant-a = pali Common Voice la mi wile ken e ni: jan ale li ken pali e ilo kute, e ilo pi sona jan, e ilo ale ni: ona li wile e toki uta mute. kalama ni la jan li ken pali e ilo pali kute, taso jan li ken pali e ijo mute ante.
 faq-do-want-native-q = toki ni li toki mama mi ala. sina wile ala wile e toki uta mi?
@@ -1156,6 +1157,7 @@ sc-criteria-title = nasin pona
 sc-criteria-item-1 = sitelen lili ale o pona nasin lon nimi ale pi toki ni.
 sc-criteria-item-2 = toki ni o kepeken nasin toki pona.
 sc-criteria-item-3 = toki ni o ken tawa kalama uta.
+sc-criteria-item-6 = sitelen sin li lon ala la, o kama jo, o pana e ona sin!
 
 ## REVIEW
 
