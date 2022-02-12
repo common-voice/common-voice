@@ -616,6 +616,7 @@ de-identified = Авторизаций кораҥдыме
 ## Error pages
 
 error-title-404 = Ме тылат тиде велыжым муын кертын огынал
+error-content-404 = Ала тылат мемнан <homepageLink>тӱҥ велыжна</homepageLink> полша? Йодышым пуашлан <matrixLink>Matrix тӱшкан чатше</matrixLink> дек ушно, сайт дене нелылыкым <githubLink>GitHub</githubLink> гоч эскере але мемнан <discourseLink>Discourse</discourseLink> форумыш пурен лек.
 error-title-503 = Мемнан вучыдымо яра шогымаш жап
 error-code = Йоҥылыш { $code }
 
