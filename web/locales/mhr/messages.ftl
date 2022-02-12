@@ -732,7 +732,9 @@ other-language = Вес йылме
 ## Languages Overview
 
 language-section-in-progress = Ончыко кайымаште
+language-section-in-progress-new-description = Нине йылме-влак кызытсе жапыште тӱшка дене ямдылалтыт, <localizationGlossaryLink>веб-сайт локализаций</localizationGlossaryLink> да <sentenceCollectionGlossaryLink>ойлончо-влакым погымо</sentenceCollectionGlossaryLink> шотышто кажне йылмын мыняр ончыко кайымыжым шуктымо нерген индикатор ончыкта.
 language-section-launched = Колтымо
+language-section-launched-description = Нине пашаш колтымо йылме-влаклан веб-сайт эсен <localizationGlossaryLink>кусаралтын</localizationGlossaryLink>, да «<speakLink>Кутыро</speakLink> да <listenLink>колышт</listenLink>» манме надырым эреак пуртен керташлан нунылан ситышын <sentenceCollectionGlossaryLink>ойлончым погымо</sentenceCollectionGlossaryLink>.
 languages-show-more = Шукырак ужаш
 languages-show-less = Шагалрак ужаш
 language-meter-in-progress = Ончыко кайымаш
