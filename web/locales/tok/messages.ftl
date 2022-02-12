@@ -569,6 +569,7 @@ dataset-date = tenpo
 license = lipu ken: <licenseLink>{ $license }</licenseLink>
 license-mixed = mute
 data-download-singleword-title = o kama jo e kalama pi nimi wan taso
+data-download-singleword-callout-v2 = nasin ni en kulupu sona ni li sona e nimi nanpa tan kalama toki sina. wile sona la, ona li sona e nimi ijo, e nimi ijo ala.
 terms-agree = mi wile
 terms-disagree = mi wile ala
 review-aborted = sina pana ala. sina wile ala wile weka e kalama awen sina?
