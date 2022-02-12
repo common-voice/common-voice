@@ -1038,6 +1038,7 @@ contribution-criteria-page-title = Надырлыме висык
 contribution-criteria-page-description = Йӱкан клип-влакым колыштмо годым молан тӱткышым ойыраш манын, умыло, да тыйын йӱкан возымаш-влакым поянракым ышташ полшо!
 contribution-for-example = мутлан
 contribution-misreadings-title = Чын огыл лудмаш
+contribution-misreadings-description = Колыштмо годым мом йӱкаҥдыме ыле лачшымак тидымак возымо лиймым пеш тӱткын тергыза; изирак йоҥылыш уло гынат, ӧрдыжтараш. <br />Пеш чӱчкыдӧ йоҥылышлан шотлалтыт:
 contribution-misreadings-description-extended-list-1 = Возымаш тӱҥалтыште «A» буква але «The» уке.
 contribution-misreadings-description-extended-list-2 = Мут мучаште «s» буквам кодымо.
 contribution-misreadings-description-extended-list-3 = Кӱчыкемдымашым лудмаш, кудыжо чынже ден уке, мутлан «Ме» «Ме улына» олмеш але мӧҥгешла.
