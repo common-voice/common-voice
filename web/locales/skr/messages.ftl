@@ -328,6 +328,8 @@ add-language = زبان شامل کرو
 
 faq-why-important-q = ایہ اہم کیوں ہے؟
 faq-why-my-lang-q = میݙی زبان اڄݨ تائیں کیوں شامل کائنی؟
+faq-what-is-cv = Common Voice کیا ہے؟
+faq-using-cv = کامن وائس ورتݨ
 faq-search-for-answers =
     .label = جواباں دی ڳول
 
@@ -338,6 +340,7 @@ about-title = Common Voice کیوں؟
 ## How does it work section
 
 about-localization-title = ویب سائٹ دی مقامیت
+about-sentence-collection-title = فقریاں دا مجموعہ
 about-new-lang-title = نویں زبان لان٘چ
 about-voice-validation-title = آواز تصدیق
 about-speak = ٻولو
