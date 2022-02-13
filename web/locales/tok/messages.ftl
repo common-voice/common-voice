@@ -214,10 +214,17 @@ home-cta = o toki, o pana lon ilo ni!
 wall-of-text-start =
     kalama toki li suli, li jan. ilo li ken kute e kalama toki jan la ni li pona.
     sona suli pi kalama toki mute li lon la, mi ken pali e ilo toki kalama.
+wall-of-text-more-mobile =
+    kulupu suli li kepeken sona la ona li pana ala e ni tawa jan ante mute.
+    mi la ni li awen e sin. tan ni la mi open e ilo Common Voice. ni la ilo li ken kute e kalama jan.
+    jan ale li ken kepeken ona.
 wall-of-text-more-desktop =
     sina ken pana e kalama toki sina. ni la mi ken pali e kulupu sona open li ken open e ona tawa jan ale.
     ni la jan li ken pali e ilo. o toki e linja nimi la ilo ken sona e toki pi jan lon. o lukin e toki pi jan ante la
     o pona e ona. ni li pona a!
+wall-of-text-first =
+    kalama toki li suli li jan. ilo ken kute e kalama toki jan la ni li pona tawa mi.
+    sona pi kalama toki suli mute li lon taso la mi ken pali e ni.
 wall-of-text-second =
     kulupu esun suli li kepeken e kulupu kalama suli li pana ala e ona tawa jan ante mute.
     mi la ni li ken ala e sin. tan ni la mi open e pali Common Voice. ona la ilo li ken kute pona e kalama jan.
@@ -432,6 +439,8 @@ faq-where-src-from-2-q = sitelen mama li tan seme?
 faq-why-not-ask-read-q = sina pana ala e toki tan lipu Wikipedia anu lipu ante tan seme?
 faq-why-account-q = tan seme la mi o kama tawa ilo ni?
 faq-is-account-public-q = sona pi lipu mi li len ala len?
+faq-how-privacy-q = jan li pana e kalama toki la jan ni li len kepeken nasin seme?
+faq-what-determine-identity-q = ni li seme: mi ken ala sona e jan toki pi kulupu sona Common Voice
 faq-what-is-cv = ilo Common Voice li seme?
 faq-using-cv = o kepeken ilo Common Voice
 faq-search-for-answers =
@@ -699,6 +708,7 @@ record-three-more-instruction = o pini e tu wan taso!
 record-last-instruction = <recordIcon></recordIcon> wan taso li lon!
 share-clip = o pana e kalama awen sina
 share-common-voice = o pana e ilo Common Voice
+review-instruction = wile la, o pona e kalama awen, o pali e kalama sin
 clips-uploaded = kalama awen pana
 record-abort-title = wan la, o pini e kalama awen anu seme?
 record-abort-text = sina tawa la sina weka e pali sina
