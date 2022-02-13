@@ -201,6 +201,10 @@ vote-yes = جیا
 vote-no = کو
 speak-subtitle = آپݨی آواز دان کرو
 speak-goal-text = رکارڈ تھئے کلپ
+listen-goal-text = کلپ تصدیق تھئے
+hours-recorded = گھنٹے رکارڈ تھئے
+hours-validated = گھنٹے تصدیق تھئے
+voices-online = ہݨ آن لائن آوازاں
 todays-progress = اڄ دی ترقی
 all-locales = سارے
 today = اڄ
@@ -224,6 +228,7 @@ email-subscription-title = ای میل اپ ڈیٹاں کیتے سائن اپ ت
 
 ## Account Benefits
 
+benefits = فائدے
 
 ## What's public
 
