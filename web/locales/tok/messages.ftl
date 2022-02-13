@@ -848,14 +848,14 @@ easy-difficulty = pona
 average-difficulty = pona ala, ike ala
 difficult-difficulty = ike
 pro-difficulty = ike suli
-lose-goal-progress-warning = sina ante e wile pali sina la, ijo ale pi pini suli li weka tan ni.
+lose-goal-progress-warning = sina ante e wile pali sina la, ijo ale pi wile pali li weka tan ni.
 want-to-continue = sina wile ala wile pini?
 finish-editing = wan la, o pini e ante sina anu seme?
 lose-changes-warning = sina weka la, ante sina li weka
 build-custom-goal = o wile pali sin
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
-       *[other] o pona e ni: o pali e kalama awen pi tenpo { $hours } lon { $language } kepeken pini suli sina
+       *[other] o pona e ni: o pali e kalama awen pi tenpo { $hours } lon { $language } kepeken wile pali sina
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
@@ -895,7 +895,7 @@ share-goal-type-both = toki en kute
 # LINK will be replaced with the current URL
 goal-share-text = mi pali e wile pali ni: mi pana e toki uta mi tawa #CommonVoice. o kama, o pana e sona toki tawa ilo. { $link }
 weekly-goal-created = sina pali e wile pali pi tenpo esun ale!
-daily-goal-created = sina pali e pini suli pi tenpo suno ale!
+daily-goal-created = sina pali e wile pali pi tenpo suno ale!
 track-progress = o lukin e suli pi pali sina lon ni, lon lipu pali sina.
 return-to-edit-goal = o tawa ni la sina ken ante e wile pali sina.
 share-goal = o pana e wile pali
