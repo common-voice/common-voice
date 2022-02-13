@@ -546,10 +546,14 @@ about-playbook-how-project-governance-content-1 = ilo Common Voice pi kulupu Moz
 about-playbook-how-project-governance-content-2 = lawa ilo li kama tan nasin ni:
 about-playbook-how-project-governance-content-3 = awen pi sona len en pana pi sona ante.
 about-playbook-how-project-governance-content-4 = pali kulupu en alasa pi wile pona.
+about-playbook-how-project-governance-content-5 = pona pi ante ni en sona pi ante ni.
 about-playbook-how-project-governance-content-6 = sona pali pi jan ale.
 about-playbook-how-project-governance-content-7 = <governanceLink>o lukin e sona pi nasin lawa mi</governanceLink>
 mycroft-title = ilo Mycroft Ai
 mycroft-subtitle = ilo sona jan
+mycroft-description =
+    ilo Mycroft li jan ilo toki open pi nanpa wan.
+    sina ken kepeken ilo Mycroft lon ale. ona li lon ilo sona li lon tomo tawa li lon ilo Raspberry Pi.
 
 ## Glossary
 
@@ -621,18 +625,22 @@ whats-inside = seme li lon kulupu kalama Common Voice?
 dataset-description-hours =
     ijo ale pi kulupu kalama Common Voice li jo e lipu kalama, e sitelen sama. kalama awen <b>{ $total }</b> mute li jo e sona jan. sona jan li tenpo sike lon ona, li kule ona, li nasin kalama toki ona. ale ni li ken pona e ilo kute.
     kulupu kalama li jo e kalama awen pona <b>{ $valid }</b> lon toki <b>{ $languages }</b>. taso, mi wile jo e toki sin lon tenpo ale. o lukin e <languagesLink>lipu toki</languagesLink> la, sina ken pana e toki sin, e pali.
+want-dataset-update = sina wile ala wile e ni: mi pali e nanpa sin pi kulupu sona Common Voice la, mi pana e lipu ni tawa sina.
 subscribe = o kama jo
 get-started-speech = o sona e ilo kute pi kalama toki
 other-datasets = kulupu sona ante pi kalama toki
 feedback-q = sina wile toki anu seme?
 resource-nemo-info = <githubLink>ilo NVIDIA NeMo</githubLink>™ li <docsLink>kulupu ilo suli</docsLink>. jan pi kulupu sona li kepeken ona la, ona li ken pali e ilo suli toki.
 community-playbook = lipu sona kulupu
+resource-playbook-info = <playbookLink>o kama jo e pona</playbookLink> pi pali Common Voice. ona li kulupu e sona pi kepeken pi ante toki e sona pi kama kulupu.
+data-other-librispeech-description = sijelo LibriSpeech li jo e kalama toki Inli pi tenpo suli 1000. ona li tan toki lipu pi pali LibriVox.
 data-other-ted-name = kulupu sona TED-LIUM
 data-other-ted-description = kulupu sona TED-LIUM li pali tan toki kalama pi lipu TED, tan toki sitelen pi lipu TED.
 data-other-voxforge-description = ilo VoxForge li pali tawa ni: ona li kulupu e toki sitelen, kepeken ilo suli pona, kepeken ilo pi sona toki.
 data-other-tatoeba-description = kulupu sona Tatoeba li kulupu sitelen, li kulupu pi ante toki, li kulupu toki. ona li jo e toki Inli tan kulupu Tatoeba.
 your-feedback = sina sona e nasin pona pi kulupu kalama Common Voice la, o toki lon ilo Discourse
 go-discourse = o tawa lipu toki
+missing-language = toki sina li lon ala kulupu sona la, sina ken pana e ona lon lipu toki.
 go-languages-page = o tawa lipu toki
 ready-to-validate = sina wile ala wile pona e kalama awen?
 more = o mute
