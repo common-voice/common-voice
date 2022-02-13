@@ -412,6 +412,8 @@ license = لائسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = مکس تھئے
 terms-agree = میں متفق ہاں
 terms-disagree = میں راضی کائنی
+review-recording = نظرثانی
+review-rerecord = ولدا ریکارڈ کرو
 review-cancel = جمع منسوخ کرو
 
 ## Datasets Page
@@ -489,6 +491,7 @@ clips-with-count-pluralized =
 record-cancel = ولدا رکارڈنگ منسوخ کرو
 share-clip = آپݨاں کلپ شیئر کرو
 share-common-voice = Common Voice شیئر کرو
+record-abort-submit = کلپ جمع کرواؤ
 target-segment-add-voice = آپݨی آواز رلاؤ
 target-segment-learn-more = ٻیا سِکھو
 
@@ -510,10 +513,22 @@ days =
         [one] ݙیہاڑا
        *[other] ݙیہاڑے
     }
+recordings =
+    { $count ->
+        [one] ریکارڈنگ
+       *[other] ریکارڈنگاں
+    }
+validations =
+    { $count ->
+        [one] تصدیق
+       *[other] تصدیقاں
+    }
 
 ## Dashboard
 
 your-languages = تہاݙیاں زباناں
+toward-next-goal = اڳلے مقصد آلے پاسے
+goal-reached = مقصد پورا تھیا
 stats = شماریات
 awards = ایوارڈ
 you = تساں
@@ -525,6 +540,7 @@ both-speak-and-listen = ݙون٘ہیں
 easy-difficulty = سوکھا
 average-difficulty = اوسط
 difficult-difficulty = اوکھا
+pro-difficulty = پرو
 set-a-goal = مقصد مقرر کرو
 n-clips-pluralized =
     { NUMBER($count) ->
