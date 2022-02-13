@@ -266,7 +266,7 @@ x-years-short =
 help-make-dataset = o pona e ni: mi mute li pali e sona mute pona.
 sign-up-account = o kama jo e sijelo ilo
 email-subscription-title = o kama jo e lipu sin
-email-subscription-title-new = o kama jo e lipu ni: sona sin en pali sin en pini suli sina
+email-subscription-title-new = o kama jo e lipu ni: sona sin en pali sin en wile pali sina
 
 ## Account Benefits
 
@@ -577,9 +577,12 @@ glossary = lipu nimi
 localization = ante toki
 localization-explanation = nasin ni la mi ante toki e ijo mi tawa toki ante mute.
 sentence-collection = kama jo sitelen
+sentence-collection-explanation = sitelen li kama tan lipu pi jan ale, tan jan sitelen pi jan ale.
 hours-recorded-explanation = nanpa tenpo pi kalama awen
+hours-validated-explanation = ni li nanpa pi kalama awen pona. kalama awen li pona tawa jan 2 (tan jan 3) la, ona li pona. ale ni la, sina ken sona e suli pi ilo ni, e pali tawa tenpo suli 10,000.
 sst = ilo kute
 sst-explanation = ilo ni li kute e toki jan, li sitelen e ona.
+de-identified = sona jan li weka
 
 ## Error pages
 
@@ -796,6 +799,7 @@ report-success = sina pana e sona pakala.
 
 ## Goals
 
+streaks = kulupu pali
 days =
     { $count ->
        *[other] tenpo suno
@@ -812,7 +816,7 @@ validations =
 ## Dashboard
 
 your-languages = toki sina
-toward-next-goal = tawa pini suli sin
+toward-next-goal = tawa wile pali sin
 goal-reached = sina pini!
 clips-you-recorded = kalama awen sina
 clips-you-validated = kalama awen pi pona sina
@@ -838,17 +842,17 @@ create-custom-goal = o pali e pali suli sin
 goal-type = sina wile pali e seme?
 both-speak-and-listen = tu
 both-speak-and-listen-long = tu (o toki, o kute)
-daily-goal = pini suli pi tenpo suno ale
-weekly-goal = pini suli pi tenpo esun ale
+daily-goal = wile pali pi tenpo suno ale
+weekly-goal = wile pali pi tenpo esun ale
 easy-difficulty = pona
 average-difficulty = pona ala, ike ala
 difficult-difficulty = ike
 pro-difficulty = ike suli
-lose-goal-progress-warning = sina ante e pini suli sina la, ijo ale pi pini suli li weka tan ni.
+lose-goal-progress-warning = sina ante e wile pali sina la, ijo ale pi pini suli li weka tan ni.
 want-to-continue = sina wile ala wile pini?
 finish-editing = wan la, o pini e ante sina anu seme?
 lose-changes-warning = sina weka la, ante sina li weka
-build-custom-goal = o pali e pini suli sin
+build-custom-goal = o wile pali sin
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
        *[other] o pona e ni: o pali e kalama awen pi tenpo { $hours } lon { $language } kepeken pini suli sina
@@ -857,7 +861,7 @@ help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
        *[other] kepeken wile pali sina la, o pali e tenpo suli { $hours } lon ilo Common Voice, lon toki.
     }
-set-a-goal = o pali e pini suli
+set-a-goal = o wile pali
 cant-decide = sina wile anu seme?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
@@ -873,30 +877,32 @@ how-many-per-day = pona! tenpo suno wan la sina pali e kalama awen pi nanpa seme
 how-many-a-week = pona! tenpo esun wan la sina pali e kalama awen pi nanpa seme?
 which-goal-type = sina wile toki, anu kute, anu ni tu?
 receiving-emails-info = sina kama jo e lipu ni: sona pi wile pali en sona pi pali mi en ijo sin pi ilo Common Voice.
+not-receiving-emails-info = sina kama jo <bold>ala</bold> e lipu ni: sona pi wile pali en sona pi pali mi en ijo sin pi ilo Common Voice.
 n-clips-pluralized =
     { NUMBER($count) ->
        *[other] kalama awen { $count }
     }
 help-share-goal = o alasa e jan toki, o pana e pali suli sina
-confirm-goal = o wile e pini suli
+confirm-goal = o pona e wile pali
 goal-interval-weekly = tenpo esun
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = o pana e pali suli pi kalama awen { $count } tawa { $type }
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = o pana e kalama awen sina { $count } pi tenpo pali, tan pali { $type }
+share-n-weekly-contribution-goal = o pana e kalama awen sina { $count } pi tenpo esun, tan pali { $type }
 share-goal-type-speak = toki
 share-goal-type-listen = kute
 share-goal-type-both = toki en kute
 # LINK will be replaced with the current URL
 goal-share-text = mi pali e wile pali ni: mi pana e toki uta mi tawa #CommonVoice. o kama, o pana e sona toki tawa ilo. { $link }
-weekly-goal-created = sina pali e pini suli pi tenpo esun ale!
+weekly-goal-created = sina pali e wile pali pi tenpo esun ale!
 daily-goal-created = sina pali e pini suli pi tenpo suno ale!
 track-progress = o lukin e suli pi pali sina lon ni, lon lipu pali sina.
 return-to-edit-goal = o tawa ni la sina ken ante e wile pali sina.
-share-goal = o pana e pini suli
+share-goal = o pana e wile pali
 
 ## Profile Delete
 
+delete-q = sina wile weka e kalama toki sina anu seme? ante la ona li awen lon kulupu sona Common Voice.
 keep = o jo
 remove = o weka
 keep-info = kalama awen len sina li lon kulupu sona Common Voice. sina weka e sijelo ilo la, sina ken ala weka e kalama awen sina tan kulupu sona Common voice.
@@ -920,6 +926,7 @@ download-selected = lawa
 download-start = o kama jo e sona pi lipu jan
 download-request = o wile e kalama awen
 download-requests = wile pi kalama awen tan tenpo pini
+download-requests-info = sina wile e kalama toki la mi pana e ona tawa poki lipu ZIP. sina kama jo e ona lon tenpo pini la, ona li lon:
 download-request-button = o kama jo
 download-request-title = { $created }
 download-request-description = kalama toki { $clipCount }. suli poki { $size }. ona li weka lon tenpo { $expires }.
@@ -970,9 +977,13 @@ demo-listen-subtitle = sina wile ala wile pana?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = lipu sina li pana e sona pi pali sina, li pana e sona pi pali kulupu.
+demo-dashboard-card-body = kalama awen pana en kalama awen pona la, lipu sina li sin, li pana e pali sina lon toki ale. sina ken pali lon toki mute! o kepeken lipu sina tawa ni: sina sona e pali sina. jan ante la sina sona e pali mute sina. sina ken pali e wile pali pi tenpo suno ale, e wile pali pi tenpo esun ale.
 
 ## Validation criteria
 
+contribution-criteria-nav = nasin pona
+contribution-criteria-link = o sona e nasin pona
 contribution-criteria-page-title = nasin pona pi pana toki
 contribution-criteria-page-description = o sona e nasin pi kalama toki pona. ni la o pona e kalama toki sina!
 contribution-for-example = o lukin
