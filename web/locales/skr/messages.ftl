@@ -400,6 +400,7 @@ error-code = خرابی { $code }
 
 ## Data
 
+data-download-button = کامن وائس ڈیٹا ڈاؤن لوڈ کرو
 data-download-yes = جیا
 data-download-deny = کو
 data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
