@@ -196,11 +196,13 @@ logout = لاگ آؤٹ
 
 ## Home Page
 
+home-cta = ٻولو تے اتھ حصہ پاؤ!
 show-wall-of-text = ٻیا پڑھو
 vote-yes = جیا
 vote-no = کو
 speak-subtitle = آپݨی آواز دان کرو
 speak-goal-text = رکارڈ تھئے کلپ
+listen-subtitle = آوازاں دی تصدیق کرݨ وچ ساݙی مدد کرو
 listen-goal-text = کلپ تصدیق تھئے
 hours-recorded = گھنٹے رکارڈ تھئے
 hours-validated = گھنٹے تصدیق تھئے
@@ -259,6 +261,7 @@ shortcut-vote-no = کو
 shortcut-record-toggle = ریکارڈ
 shortcut-record-toggle-label = ریکارڈ/رکو
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = کلپ ولدا ریکاڈ کرو
 shortcut-discard-ongoing-recording = اسکیپ
 shortcut-submit = واپس ون٘ڄو
 shortcut-submit-label = کلپ جمع کرواؤ
@@ -322,6 +325,8 @@ max-file-size = { $kb }کےبی ودھ کنوں ودھ
 
 ## Profile - Email
 
+manage-subscriptions = سبسکرپشناں منیج کرو
+manage-email-subscriptions = ای میل سبسکرپشناں منیج کرو
 add-language = زبان شامل کرو
 
 ## FAQ
