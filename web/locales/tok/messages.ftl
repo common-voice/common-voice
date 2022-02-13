@@ -1210,6 +1210,7 @@ sc-criteria-item-6 = sitelen sin li lon ala la, o kama jo, o pana e ona sin!
 
 ## REVIEW
 
+sc-review-lang-not-selected = sina kepeken ala toki. o lukin e lipu jan sina. o kepeken toki.
 sc-review-title = o lukin e sitelen
 sc-review-loading = sitelen li kama…
 sc-review-select-language = o kepeken toki la, sina ken lukin e sitelen
