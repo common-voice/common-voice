@@ -204,7 +204,7 @@ share-title = jan sin li ken pana e toki ona. o kama e jan sin!
 share-text = sina wile pana e sona toki tawa ilo la, o pana e toki uta sina lon lipu { $link }
 link-copied = sina kama jo e nimi nasin
 back-top = o tawa sewi
-logout = o weka tan ilo
+logout = o weka tan sijelo ilo
 
 ## Home Page
 
@@ -651,6 +651,7 @@ dataset-version = nanpa
 ## Download Modal
 
 download-title = kama jo sina li open
+download-helpus = o pali e pona tawa kulupu pi ilo kute. o toki kepeken poki lipu.
 download-form-email =
     .label = o pana e nimi pi poki lipu sina
     .value = sina pona. mi toki tawa sina.
@@ -672,12 +673,14 @@ request-language-title = wile pi toki sin
 request-language-form-language =
     .label = toki
 request-language-success-title = wile pi toki sin sina li pona. sina pona.
+request-language-success-content = mi toki tawa sina. tenpo lili la mi pana e sona pi toki ante sin.
 select-language = o kepeken toki
 other-language = toki ante
 
 ## Languages Overview
 
 language-section-in-progress = pali toki li lon
+language-section-in-progress-new-description = kulupu li suli e toki ni. linja ni li pana e sona pi suli toki lon <localizationGlossaryLink>lipu toki</localizationGlossaryLink>, lon <sentenceCollectionGlossaryLink>kulupu pi linja toki</sentenceCollectionGlossaryLink>.
 language-section-launched = open!
 languages-show-more = o lukin mute
 languages-show-less = o lukin lili
@@ -702,6 +705,8 @@ clips-with-count-pluralized =
     { $count ->
        *[other] kalama awen
     }
+goal-help-recording = tenpo suno ni la mi wile e kalama awen { $goalValue }. tan pali sina la ilo Common Voice li jo e ona <goalPercentage></goalPercentage>!
+goal-help-validation = tenpo suno ni la mi wile e kalama pona { $goalValue }. tan pali sina la ilo Common Voice li jo e ona <goalPercentage></goalPercentage>!
 contribute-more =
     { $count ->
        *[other] sina ken ala ken pali e kalama sin { $count }?
@@ -716,17 +721,24 @@ record-error-too-short = kalama awen li lili mute la, ona li pakala.
 record-error-too-long = kalama awen li suli mute la, ona li pakala.
 record-error-too-quiet = kalama pi toki uta li lili la, kalama awen li pakala.
 record-cancel = o weka e kalama awen sin
+record-instruction = o { $actionType } <recordIcon></recordIcon>, o toki e linja ni
+record-stop-instruction = sina pini la, o { $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = o pini e tu wan taso!
+record-again-instruction = pona a! ilo o <recordIcon></recordIcon> kute e kalama sin sina
+record-again-instruction2 = ni li suli a. ilo o kute <recordIcon></recordIcon> sin
 record-last-instruction = <recordIcon></recordIcon> wan taso li lon!
+review-tooltip = sina pali la o pona, o pali e kalama sin
 share-clip = o pana e kalama awen sina
 share-common-voice = o pana e ilo Common Voice
 review-instruction = wile la, o pona e kalama awen, o pali e kalama sin
+record-submit-tooltip = o { $actionType } la sina o pana.
 clips-uploaded = kalama awen pana
 record-abort-title = wan la, o pini e kalama awen anu seme?
 record-abort-text = sina tawa la sina weka e pali sina
 record-abort-submit = o pana e kalama awen
 record-abort-continue = o pini kalama
 record-abort-delete = o pini, o weka e kalama awen
+listen-instruction = o { $actionType } <playIcon></playIcon> ona li toki pona anu seme?
 listen-again-instruction = sina pona! <playIcon></playIcon> sina ken la, o kute sin
 listen-3rd-time-instruction = tu li pini!
 listen-last-time-instruction = wan taso li lon!
@@ -842,6 +854,7 @@ activity-needed-calculation-plural =
 how-many-per-day = pona! tenpo suno wan la sina pali e kalama awen pi nanpa seme?
 how-many-a-week = pona! tenpo esun wan la sina pali e kalama awen pi nanpa seme?
 which-goal-type = sina wile toki, anu kute, anu ni tu?
+receiving-emails-info = sina kama jo e lipu ni: sona pi wile pali en sona pi pali mi en ijo sin pi ilo Common Voice.
 n-clips-pluralized =
     { NUMBER($count) ->
        *[other] kalama awen { $count }
@@ -851,6 +864,8 @@ confirm-goal = o wile e pini suli
 goal-interval-weekly = tenpo esun
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = o pana e pali suli pi kalama awen { $count } tawa { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = o pana e kalama awen sina { $count } pi tenpo pali, tan pali { $type }
 share-goal-type-speak = toki
 share-goal-type-listen = kute
 share-goal-type-both = toki en kute
@@ -866,6 +881,8 @@ share-goal = o pana e pini suli
 
 keep = o jo
 remove = o weka
+keep-info = kalama awen len sina li lon kulupu sona Common Voice. sina weka e sijelo ilo la, sina ken ala weka e kalama awen sina tan kulupu sona Common voice.
+remove-info = mi lukin e ni: sina wile weka e kalama awen sina tan kulupu sona. ni li pona la, jan ante li jo e kalama awen sina la, mi toki e ni tawa ona: o weka e ona.
 profile-form-delete = o weka e lipu jan
 
 ## Profile Download
@@ -874,7 +891,10 @@ download-q = sina wile kama jo e sona sina anu seme?
 download-info = sina wile kama jo e seme:
 download-profile-title = lipu jan
 download-profile-info = tenpo lili la nimi pi poki lipu en nimi jan en sona jan li lon
+download-profile-size = suli lili Bytes
 download-recordings-title = kalama awen
+download-recordings-info = ona li jo e ilo MP3, e sitelen sama. ni la ona li kepeken tenpo suli tawa pona.
+download-recordings-size = suli Megabytes
 download-recordings-unavailable = sina ken ala kama jo sin. sina kama jo e kalama awen sina lon tenpo ni.
 download-recently-requested = sina ken kama jo e kalama awen sina lon tenpo suno { $days } pini ale.
 download-size = suli
@@ -884,6 +904,7 @@ download-request = o wile e kalama awen
 download-requests = wile pi kalama awen tan tenpo pini
 download-request-button = o kama jo
 download-request-title = { $created }
+download-request-description = kalama toki { $clipCount }. suli poki { $size }. ona li weka lon tenpo { $expires }.
 download-request-archive-single = poki lipu ZIP wan li jo e ni:
 download-request-archive-multiple = o kulupu lili e poki lipu ZIP { $archiveCount }. ona li jo e ni:
 download-request-assembling-description = lipu sina li kama kulupu. o lukin lon tenpo kama.
@@ -1057,6 +1078,7 @@ sc-submit-ph-read-how-to =
     .placeholder = o lukin e lipu pona la, sina sona e nasin pana.
 sc-submit-button =
     .submitText = o pana
+sc-submit-filtered = sitelen ni li weka tan ni: ona li pona ala. (o pona e sitelen la o pana e ona):
 sc-submit-guidelines = o lukin e <howToLink>lipu nasin pona</howToLink>.
 
 ## ADD LANGUAGE
@@ -1178,9 +1200,12 @@ sc-personal-not-added = sina pana ala e toki.
 
 sc-criteria-modal = nasin pona
 sc-criteria-title = nasin pona
+sc-criteria-make-sure = sitelen li pona tan ni:
 sc-criteria-item-1 = sitelen lili ale o pona nasin lon nimi ale pi toki ni.
 sc-criteria-item-2 = toki ni o kepeken nasin toki pona.
 sc-criteria-item-3 = toki ni o ken tawa kalama uta.
+sc-criteria-item-4 = sitelen li pona la, o pilin e nena &quot;o pona&quot; lon poka.
+sc-criteria-item-5-2 = sitelen li pona ala la, o pilin e nena &quot;o weka&quot; lon poka. sina sona ala la, o tawa sitelen sin.
 sc-criteria-item-6 = sitelen sin li lon ala la, o kama jo, o pana e ona sin!
 
 ## REVIEW
@@ -1188,6 +1213,8 @@ sc-criteria-item-6 = sitelen sin li lon ala la, o kama jo, o pana e ona sin!
 sc-review-title = o lukin e sitelen
 sc-review-loading = sitelen li kama…
 sc-review-select-language = o kepeken toki la, sina ken lukin e sitelen
+sc-review-form-prompt =
+    .message = sina lukin li pana ala e sitelen. sina wile ala wile pali e ni?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = sitelen li tan: { $sentenceSource }
