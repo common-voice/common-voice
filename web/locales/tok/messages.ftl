@@ -519,6 +519,7 @@ about-playbook-how-localize-content-5 = sina wile e pona la, o lukin e sitelen t
 ## How to add sentences
 
 about-playbook-how-add-sentences = nasin seme la mi ken pana e sitelen?
+about-playbook-how-add-sentences-content-3 = sina ken kepeken <scraperLink>ilo pi nimi tan</scraperLink>. ona la sina ken kama jo e sitelen tan lipu Wikipedia.
 about-playbook-how-add-sentences-content-4 = toki li pona la, mi pana insa e ona lon tenpo suno nanpa tu wan pi tenpo suno. mi pana e ona lon ilo lon tenpo pi pana weka kalama.
 
 ## How to record quality
@@ -526,6 +527,8 @@ about-playbook-how-add-sentences-content-4 = toki li pona la, mi pana insa e ona
 about-playbook-how-record-quality = nasin seme la mi ken kalama pona?
 about-playbook-how-record-content-2 = o kalama ala e ijo ante. mi wile kute pona e sina.
 about-playbook-how-record-content-3 = o toki sama sitelen. o weka ala, o ante ala, o pana ala e nimi sin.
+about-playbook-how-record-content-4 = o lukin e ni: ilo li kute ala kute? sina pini la ilo li pini ala pini?
+about-playbook-how-record-content-5 = <accuracyLink>sona sin pi pona toki</accuracyLink>
 
 ## How to grow language
 
@@ -1040,6 +1043,7 @@ sc-howto-findpd-partner-1 = kulupu mute li lon, li ken wile pana, li jo e sitele
 
 sc-my-title = sitelen ale mi
 sc-my-loading = ilo li kama e sitelen sina...
+sc-my-err-fetching = mi pakala. mi ken ala kama jo e sitelen sina. o sin.
 sc-my-no-sentences = sitelen ala a li lon!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -1111,6 +1115,7 @@ sc-add-err-failed =
        *[other] sitelen { $sentences } li pakala.
     }
 sc-add-err-submission = pakala li lon pana
+sc-add-lang-process-notice = toki sina lon ala ni la, sina ken wile e ona <languageProcessLink>kepeken nasin ni</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1143,6 +1148,7 @@ sc-confirm-ready =
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = jan li lukin ala e sitelen { $countOfUnreviewed }. wile la, sina ken lukin e ona.
 sc-confirm-button-text = o wile
+sc-confirm-uploading = mi kama jo e sitelen sina. nanpa sitelen la ni li ken kepeken tenpo suli, li ken kepeken tenpo lili. o pini ala e lipu ni.
 
 ## LANGUAGE INFO
 
@@ -1254,7 +1260,9 @@ sc-review-link = o lukin
 
 sc-settings-title = nasin ilo
 sc-settings-ui-language = toki pi ilo ni
+sc-settings-language-translated-warning = lipu li ken jo e wan pi ante toki ala. sina ken ante toki <pontoonLinkLink>lon ilo Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = mi sona ala lon tenpo pini la, o sin e sitelen ni
+sc-settings-skipped-decription = sina lukin e sitelen lon tenpo pini la, sina sona ala e ona. sina sin e sitelen pi sona ala la, sina ken lukin sin e ona. ni li lon toki ale.
 sc-settings-show-all-button = mi sona ala lon tenpo pini la, o sin e sitelen ni
 sc-settings-failed = mi ken ala ante e nasin ilo. o sin.
 # VALIDATION
