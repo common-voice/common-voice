@@ -306,6 +306,9 @@ shortcut-vote-no = i
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = k
 shortcut-record-toggle-label = o awen e kalama / o pini
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = o kalama sin
@@ -384,6 +387,7 @@ email-subscriptions = lipu wile pi poki lipu sina
 download-profile = o kama jo e sona mi e kalama mi
 contribution-experience = sona pi nasin pali
 skip-submission-feedback = mi pana e pali la o toki ala e toki lili ona tawa mi
+skip-submission-description = sina luka e nena "o pana" la mi toki ala e ni: pali sina li pona ala pona. sina ken pali e ijo sin luka.
 skip-submission-note = o sona e ni: sina wile ante e nasin pali la, o luka e nena "o toki" anu "o kute".
 off = ala
 on = wile
@@ -484,6 +488,9 @@ about-clip-graveyard = kalama weka
 about-clip-graveyard-text = lipu pi kalama weka li jo e kalama awen. kalama awen li ike lon lipu ni, li pana ala tawa kulupu kalama pi ilo Common Voice. sina ken kama jo e kalama weka.
 about-partners = jan poka, kulupu poka
 about-become-a-partner = o kama poka tawa ilo Common Voice
+about-partnership =
+    jan ale li ken kepeken ilo Common Voice. mi wile e pona pi kulupu mi tan ni: mi wile pali e kulupu sona suli nanpa wan.
+    mi wile e pona tawa jan ale ni, tawa kulupu ale ni, tan pona ona:
 about-get-involved = o kama, o pali
 about-stay-in-touch = mi sona e ijo sin kepeken nasin seme?
 about-nav-why-common-voice = tan seme?
@@ -525,6 +532,7 @@ about-playbook-how-record-content-3 = o toki sama sitelen. o weka ala, o ante al
 about-playbook-how-grow-language = seme la mi ken suli e toki lon ilo Common Voice?
 about-playbook-how-grow-language-content-2 = tenpo suli
 about-playbook-how-grow-language-content-4 = kulupu pi jan toki
+about-playbook-how-grow-language-content-5 = sina ken kepeken kulupu pi jan mute tawa toki pi ilo ni! o pana e toki pi nasin ilo. o toki tawa jan ante lon toki mute ni: pona toki en ilo kalama toki en nasin ike ilo. o lukin e <campaignLink>lipu pi kulupu toki pona</campaignLink>. ona li jo e toki la sina ken kepeken ona.
 about-playbook-how-grow-language-content-6 = jan poka en kulupu
 about-playbook-how-grow-language-content-8 = <strong>o pali pona!</strong> kulupu pi toki sina o pona. nasin mute la sina ken open pali e ni.
 
@@ -760,7 +768,7 @@ target-segment-learn-more = o kama sona
 report = o toki e pakala
 report-title = o pana e toki pakala
 report-ask = pakala seme li lon sitelen ni?
-report-offensive-language = toki ike
+report-offensive-language = toki jaki ike
 report-offensive-language-detail = sitelen li jo e nimi ike.
 report-grammar-or-spelling = toki pakala
 report-grammar-or-spelling-detail = sitelen li pakala.
@@ -768,7 +776,7 @@ report-different-language = toki ante
 report-different-language-detail = toki mi la, sitelen li kepeken toki ante.
 report-difficult-pronounce = kalama toki li ike
 report-difficult-pronounce-detail = sitelen li jo e toki pi kalama ike, e toki pi ike lukin
-report-offensive-speech = toki ike
+report-offensive-speech = toki jaki ike
 report-offensive-speech-detail = kalama awen li jo e toki ike.
 report-other-comment =
     .placeholder = o toki
@@ -1249,6 +1257,8 @@ sc-settings-ui-language = toki pi ilo ni
 sc-settings-reset-skipped = mi sona ala lon tenpo pini la, o sin e sitelen ni
 sc-settings-show-all-button = mi sona ala lon tenpo pini la, o sin e sitelen ni
 sc-settings-failed = mi ken ala ante e nasin ilo. o sin.
+# VALIDATION
+sc-validation-number-of-words = sitelen li ken jo e nimi wan anu mute. taso, ona li ken ala jo e nimi 15 anu mute.
 sc-validation-no-numbers = nanpa o lon ala toki ni
 sc-validation-no-symbols = sitelen nasa o lon ala toki ni
 sc-validation-no-abbreviations = o kepeken ala sitelen lili lon sitelen sina.
