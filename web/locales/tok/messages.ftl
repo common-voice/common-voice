@@ -379,6 +379,7 @@ profile-close = o pini
 profile-explanation = o lukin e pali suli sina lon lipu sina. o pana e sona sina kepeken kalama toki sina.
 thanks-for-account = sina pona e lipu sina. ni la o pali e lipu sina
 why-demographic = ni li suli tan seme?
+why-demographic-explanation-2 = sona ni li pona e ilo kute: tenpo sike lon en kule kon en nasin kalama toki. sina pana e ona la, nimi sina en nimi pi poki lipu sina li lon ala poka pi pali sina. sina ken len anu len ala e nimi sina.
 accept-privacy = ni li pona: sina jo e sona mi, kepeken nasin tan <privacyLink>nasin sona</privacyLink> pi kulupu Mozilla
 accept-privacy-title = nasin sona pi ilo ni
 login-identity = nimi lon sina
@@ -1056,10 +1057,12 @@ sc-howto-findpd-tips-2 = toki pi jan lawa en lipu en lipu sona li pona. ale ni l
 sc-howto-findpd-tips-3 = mi ken ala jo e lipu tan kulupu Wikimedia. o pana ala e ona.
 sc-howto-findpd-subtitle-2 = o toki tawa jan pi ma sina, tawa kulupu pi ma sina.
 sc-howto-findpd-partner-1 = kulupu mute li lon, li ken wile pana, li jo e sitelen mute mute tawa pana pi jan ale. o toki tawa tomo sona suli, tawa jan lawa, tawa jan pi sona open lon ilo Common Voice.
+sc-howto-findpd-partner-2 = jan pi sona toki mute li ken pona. o toki tawa tomo pi toki sona. ken la, ona li ken pana e sitelen tawa sina lon toki sina.
 
 ## MY SENTENCES
 
 sc-my-title = sitelen ale mi
+sc-my-description = lipu ni la sitelen ale sina li lon. suli la sina ken weka e sitelen kepeken poki lon poka sitelen. kama la o pilin e nena &quot;o weka e sitelen jo&quot; o weka e sitelen lon tenpo ni taso: ni li suli mute. ken la sitelen li open ala.
 sc-my-loading = ilo li kama e sitelen sina...
 sc-my-err-fetching = mi pakala. mi ken ala kama jo e sitelen sina. o sin.
 sc-my-no-sentences = sitelen ala a li lon!
@@ -1107,6 +1110,7 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = <wikipediaLink>sitelen pi jan ale</wikipediaLink> li tan lipu seme?
 sc-submit-ph-read-how-to =
     .placeholder = o lukin e lipu pona la, sina sona e nasin pana.
+sc-submit-confirm = ni li lon. sitelen ni li <wikipediaLink>open</wikipediaLink>. mi ken pana e ona.
 sc-submit-button =
     .submitText = o pana
 sc-submit-filtered = sitelen ni li weka tan ni: ona li pona ala. (o pona e sitelen la o pana e ona):
