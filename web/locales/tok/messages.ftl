@@ -541,8 +541,12 @@ about-playbook-how-access-dataset = mi lukin e sona ale pi ilo Common Voice kepe
 
 ## How are decisions made
 
+about-playbook-how-project-governance = nasin seme la ilo ni li ken ante?
+about-playbook-how-project-governance-content-1 = ilo Common Voice pi kulupu Mozilla li kama tan jan pali, tan jan toki, tan jan pi kulupu sona, tan jan sona, tan jan pi ilo sona. jan ale ni li tan ma ale. kulupu Mozilla Foundation li pona e ilo Common voice.
+about-playbook-how-project-governance-content-2 = lawa ilo li kama tan nasin ni:
 about-playbook-how-project-governance-content-3 = awen pi sona len en pana pi sona ante.
 about-playbook-how-project-governance-content-4 = pali kulupu en alasa pi wile pona.
+about-playbook-how-project-governance-content-6 = sona pali pi jan ale.
 about-playbook-how-project-governance-content-7 = <governanceLink>o lukin e sona pi nasin lawa mi</governanceLink>
 mycroft-title = ilo Mycroft Ai
 mycroft-subtitle = ilo sona jan
