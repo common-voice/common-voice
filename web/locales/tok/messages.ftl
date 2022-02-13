@@ -509,10 +509,12 @@ about-nav-playbook = o sona e nasin pi pana pona
 ## What is a language
 
 about-playbook-what-is-language = toki li seme lon ilo Common Voice?
+about-playbook-what-is-language-content-2 = mi wile e ni: ilo kute en ilo toki li pona, li sona e toki pi jan ale. tawa ni la, kulupu sona o jo e jan ale.
 
 ## How do I add a language
 
 about-playbook-how-add-language = nasin seme la mi ken pana e toki sin?
+about-playbook-how-add-language-content-1 = wan la, o lukin: toki sina li <languageLink>lon ala lon</languageLink>? ona li lon ala la, <strong>o ante toki e lipu, o kama jo e sitelen</strong>.
 about-playbook-how-add-language-content-3 = sina wile <strong>kama jo e sitelen</strong> la, o <scVideo>kepeken</scVideo> <scLink>ilo Sentence collector</scLink>.
 
 ## How does localization work
@@ -543,6 +545,7 @@ about-playbook-how-grow-language-content-2 = tenpo suli
 about-playbook-how-grow-language-content-4 = kulupu pi jan toki
 about-playbook-how-grow-language-content-5 = sina ken kepeken kulupu pi jan mute tawa toki pi ilo ni! o pana e toki pi nasin ilo. o toki tawa jan ante lon toki mute ni: pona toki en ilo kalama toki en nasin ike ilo. o lukin e <campaignLink>lipu pi kulupu toki pona</campaignLink>. ona li jo e toki la sina ken kepeken ona.
 about-playbook-how-grow-language-content-6 = jan poka en kulupu
+about-playbook-how-grow-language-content-7 = o alasa e jan wile! ona li lon tomo sona suli, li lon tomo sona toki, li lon kulupu pona, li lon kulupu pi kulupu sona. o toki tawa ona, o pana pona e sona pona. <outreachTemplates>o lukin e lipu pana</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>o pali pona!</strong> kulupu pi toki sina o pona. nasin mute la sina ken open pali e ni.
 
 ## How to validate
@@ -584,6 +587,7 @@ hours-validated-explanation = ni li nanpa pi kalama awen pona. kalama awen li po
 sst = ilo kute
 sst-explanation = ilo ni li kute e toki jan, li sitelen e ona.
 de-identified = sona jan li weka
+de-identified-explanation = ni li nasin weka pi sona jan tan kulupu sona Common Voice.
 
 ## Error pages
 
@@ -599,6 +603,7 @@ data-download-deny = ala
 data-download-license = lipu ken: <licenseLink>CC-0</licenseLink>
 data-download-modal = sina wile ala wile kama jo e poki pi <size>suli GB { $size }</size>?
 data-subtitle = mi pali e kulupu sona pi toki uta. jan ale li ken kepeken ona tawa ni: ona li ken pali e ilo toki, e ilo kute.
+data-get-started = <speechBlogLink>o open kepeken ilo kute!</speechBlogLink>
 data-other-title = kulupu sona ante pi toki uta
 data-other-goto = tawa lipu { $name }
 data-other-download = o kama jo e kalama
@@ -610,6 +615,7 @@ license = lipu ken: <licenseLink>{ $license }</licenseLink>
 license-mixed = mute
 data-download-singleword-title = o kama jo e kalama pi nimi wan taso
 data-download-singleword-callout-v2 = nasin ni en kulupu sona ni li sona e nimi nanpa tan kalama toki sina. wile sona la, ona li sona e nimi ijo, e nimi ijo ala.
+review-terms = sina kepeken ilo Common Voice la <termsLink>lawa kepeken</termsLink> en <privacyLink>nasin pi len sona</privacyLink> o pona tawa sina.
 terms-agree = mi wile
 terms-disagree = mi wile ala
 review-aborted = sina pana ala. sina wile ala wile weka e kalama awen sina?
@@ -1030,13 +1036,14 @@ sc-footer-report-bugs = o toki e pakala
 sc-footer-translate = o ante toki e lipu ni
 sc-footer-report-copyright = o toki e ike pi sona ilo jan
 sc-footer-privacy = sona len
-sc-footer-terms = nasin kepeken
+sc-footer-terms = lawa kepeken
 sc-footer-cookies = ilo pi sona lipu sina
 sc-login-signup-button = o kama / o pali e lipu sin
 sc-logout-button = o weka tan ilo
 
 ## HOME
 
+sc-home-title = kama pona tawa ilo Sentence Collector pi ilo Common Voice
 sc-home-collect-title = o kulupu e sitelen
 sc-home-review-title = o pona e sitelen
 
@@ -1044,6 +1051,7 @@ sc-home-review-title = o pona e sitelen
 
 sc-howto-title = nasin seme?
 sc-howto-addlang-title = o pana e toki sin
+sc-howto-addlang-text = sina kama kepeken sijelo ilo la, sina ken kepeken toki wile sina lon lipu jan.
 sc-howto-addsen-title = o pana e sitelen sin
 sc-howto-review-title = o lukin e sitelen
 sc-howto-review-criteria-2 = toki ni o lon nasin.
