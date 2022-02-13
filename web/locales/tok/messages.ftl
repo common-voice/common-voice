@@ -725,7 +725,7 @@ total-hours = tenpo suli pona
 
 action-click = o pilin
 action-tap = o pilin
-contribute = o pona
+contribute = o pana
 listen = o kute
 skip = mi sona ala
 shortcuts = nena pali
