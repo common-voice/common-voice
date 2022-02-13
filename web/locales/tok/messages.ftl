@@ -240,6 +240,7 @@ speak-subtitle = o pana e toki uta sina
 speak-paragraph = awen pi kalama toki li suli mute tawa sona open mi. ni li musi tawa jan.
 speak-goal-text = kalama awen
 listen-subtitle = o pona e toki uta
+listen-paragraph = sina lukin e pona pi kalama toki la ni li suli sama. kute la o pali e kulupu sona open pi kalama toki jan.
 listen-goal-text = kalama awen pona
 hours-recorded = kalama awen pi tenpo suli
 hours-validated = tenpo suli pi kalama pona
@@ -430,6 +431,7 @@ faq-what-cv-and-deepspeech-a = kulupu sona Common Voice li pona tawa kulupu Mozi
 faq-is-goal-assistant-q = pali Common Voice la sina wile pali e ilo pali kute anu seme?
 faq-is-goal-assistant-a = pali Common Voice la mi wile ken e ni: jan ale li ken pali e ilo kute, e ilo pi sona jan, e ilo ale ni: ona li wile e toki uta mute. kalama ni la jan li ken pali e ilo pali kute, taso jan li ken pali e ijo mute ante.
 faq-do-want-native-q = toki ni li toki mama mi ala. sina wile ala wile e toki uta mi?
+faq-do-want-native-a = mi wile mute e toki uta sina! pali Common Voice la mi wile e nasin kalama mute tan ni: ni la ilo kute li pona sama tawa jan ale. ni la, toki li toki mama sina ala la, pana sina pi toki uta li suli mute.
 faq-why-different-speakers-q = tan seme la sina wile e jan toki mute?
 faq-why-different-speakers-a = kulupu mute pi toki uta la toki mute li tan <articleLink>jan mije pi mani mute</articleLink>. nasin kalama toki li lon kulupu jan lili la, toki uta lon kulupu ni li mute ala. kin la ilo mute li kute pona ala e toki tan jan meli. ni la mi wile e nasa lon kulupu kalama mi!
 faq-why-my-lang-q = tan seme la toki mi li lon ala?
@@ -447,6 +449,7 @@ faq-how-privacy-q = jan li pana e kalama toki la jan ni li len kepeken nasin sem
 faq-what-determine-identity-q = ni li seme: mi ken ala sona e jan toki pi kulupu sona Common Voice
 faq-what-is-cv = ilo Common Voice li seme?
 faq-using-cv = o kepeken ilo Common Voice
+faq-description = ilo Common Voice la kulupu Mozilla li wile pana e sona pi toki uta jan tawa ilo.
 faq-search-for-answers =
     .label = o alasa e sona
 
@@ -454,6 +457,7 @@ faq-search-for-answers =
 
 about-title = ilo Common Voice li tan seme?
 how-does-it-work-title-v2 = ilo Common Voice li pali kepeken nasin seme?
+how-does-it-work-text = mi kulupu e kalama toki tan jan. o pana e kalama toki sina. o pona e kalama toki pi jan ante. o pona e kulupu sona.
 
 ## How does it work section
 
@@ -614,6 +618,7 @@ review-delete-recordings = o weka e kalama awen mi
 
 ## Datasets Page
 
+datasets-headline = mi pali e kulupu sona pi kalama toki. ona li open, li kepeken toki mute. jan ale li ken kepeken ona, li ken pona e ilo kute kepeken ona.
 language = toki
 # File size in gigabytes
 size = suli
@@ -642,6 +647,7 @@ get-started-speech = o sona e ilo kute pi kalama toki
 other-datasets = kulupu sona ante pi kalama toki
 feedback-q = sina wile toki anu seme?
 resource-nemo-info = <githubLink>ilo NVIDIA NeMo</githubLink>™ li <docsLink>kulupu ilo suli</docsLink>. jan pi kulupu sona li kepeken ona la, ona li ken pali e ilo suli toki.
+resource-coqui-info = <coquiLink>kulupu Coqiu</coquiLink> li pali e ijo tawa ilo open pi sona toki. pali ona li ilo kute, li ilo pi sitelen toki.
 community-playbook = lipu sona kulupu
 resource-playbook-info = <playbookLink>o kama jo e pona</playbookLink> pi pali Common Voice. ona li kulupu e sona pi kepeken pi ante toki e sona pi kama kulupu.
 data-other-librispeech-description = sijelo LibriSpeech li jo e kalama toki Inli pi tenpo suli 1000. ona li tan toki lipu pi pali LibriVox.
