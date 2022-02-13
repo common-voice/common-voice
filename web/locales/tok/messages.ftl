@@ -512,6 +512,7 @@ about-playbook-what-is-language = toki li seme lon ilo Common Voice?
 ## How do I add a language
 
 about-playbook-how-add-language = nasin seme la mi ken pana e toki sin?
+about-playbook-how-add-language-content-3 = sina wile <strong>kama jo e sitelen</strong> la, o <scVideo>kepeken</scVideo> <scLink>ilo Sentence collector</scLink>.
 
 ## How does localization work
 
