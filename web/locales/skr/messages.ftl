@@ -529,6 +529,7 @@ n-clips-pluralized =
     }
 share-goal-type-speak = ٻولݨ
 share-goal-type-listen = سݨݨ
+share-goal-type-both = ٻولݨ تے سݨݨ
 
 ## Profile Delete
 
@@ -537,6 +538,8 @@ remove = ہٹاؤ
 
 ## Profile Download
 
+download-recordings-title = ریکارڈنگز
+download-size = سائز
 
 ## Landing
 
