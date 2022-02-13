@@ -289,7 +289,7 @@ username-email-not-demographic = nimi sina en nimi pi poki lipu sina li lon ala 
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = w
+shortcut-skip = s
 
 ## Listen Shortcuts
 
@@ -699,7 +699,7 @@ action-click = o pilin
 action-tap = o pilin
 contribute = o pona
 listen = o kute
-skip = o weka
+skip = mi sona ala
 shortcuts = nena pali
 clips-with-count-pluralized =
     { $count ->
@@ -968,6 +968,7 @@ contribution-misreadings-example-3-explanation = [ona li pini ala e toki. taso, 
 contribution-misreadings-example-4-title = mi la soweli ni li suwi a. pona.
 contribution-misreadings-example-4-explanation = [ona li toki e nimi sin]
 contribution-varying-pronunciations-title = nasin pi kalama toki ante
+contribution-varying-pronunciations-description-extended = pilin sina la jan li toki e nimi pi sona ona ala la, o weka e ona. sina sona ala la, o pilin e nena "mi sona ala".
 contribution-varying-pronunciations-example-2-title = mi ke<strong>pe</strong>ken ilo suli.
 contribution-varying-pronunciations-example-2-explanation = [nimi kepeken la kalama "ke" wan li wawa]
 contribution-background-noise-title = kalama pi ijo ante
@@ -1214,13 +1215,14 @@ sc-review-lang-not-selected = sina kepeken ala toki. o lukin e lipu jan sina. o 
 sc-review-title = o lukin e sitelen
 sc-review-loading = sitelen li kama…
 sc-review-select-language = o kepeken toki la, sina ken lukin e sitelen
+sc-review-no-sentences = sitelen sin li lon ala. <addLink>o pana e sitelen sin lon tenpo ni!</addLink>
 sc-review-form-prompt =
     .message = sina lukin li pana ala e sitelen. sina wile ala wile pali e ni?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = sitelen li tan: { $sentenceSource }
 sc-review-form-button-reject = o weka
-sc-review-form-button-skip = o weka
+sc-review-form-button-skip = mi sona ala
 sc-review-form-button-approve = o pona
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = p
@@ -1230,14 +1232,26 @@ sc-review-form-button-reject-shortcut = w
 sc-review-form-button-skip-shortcut = w
 sc-review-form-button-submit =
     .submitText = o pini e lukin
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] sina lukin e sitelen ala.
+       *[other] sina lukin e sitelen { $sentences }. sina pona!
+    }
+sc-review-form-review-failure = mi ken ala awen e lukin. o pali sin e ni lon tenpo kama.
 sc-review-link = o lukin
 
 ## SETTINGS
 
 sc-settings-title = nasin ilo
 sc-settings-ui-language = toki pi ilo ni
+sc-settings-reset-skipped = mi sona ala lon tenpo pini la, o sin e sitelen ni
+sc-settings-show-all-button = mi sona ala lon tenpo pini la, o sin e sitelen ni
+sc-settings-failed = mi ken ala ante e nasin ilo. o sin.
 sc-validation-no-numbers = nanpa o lon ala toki ni
 sc-validation-no-symbols = sitelen nasa o lon ala toki ni
+sc-validation-no-abbreviations = o kepeken ala sitelen lili lon sitelen sina.
 
 # [/SentenceCollector]
 
