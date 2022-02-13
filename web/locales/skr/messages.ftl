@@ -339,9 +339,11 @@ about-title = Common Voice کیوں؟
 
 about-localization-title = ویب سائٹ دی مقامیت
 about-new-lang-title = نویں زبان لان٘چ
+about-voice-validation-title = آواز تصدیق
 about-speak = ٻولو
 about-listen = سݨو
 about-yes-votes = ≥٢ جیا ووٹ
+about-no-votes = ≥٢ ووٹ کائنی
 about-partners = بھائیوال
 about-become-a-partner = بھائیوال بݨو
 about-get-involved = نال رلت کرو
@@ -380,6 +382,7 @@ about-playbook-how-grow-language-content-4 = سماجی میڈیا
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-5 = قدر تے سُن٘ڄاݨ
 about-playbook-how-project-governance-content-6 = باہمی احتساب
 mycroft-title = مائی کرافٹ آئی
 mycroft-subtitle = مصنوعی ذہانت
@@ -396,6 +399,7 @@ error-code = خرابی { $code }
 
 data-download-yes = جیا
 data-download-deny = کو
+data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
 data-other-goto = { $name } تے ون٘ڄو
 data-other-download = ڈیٹا ڈاؤن لوڈ کرو
 release-version = ورشن
@@ -412,8 +416,14 @@ language = زبان
 # File size in gigabytes
 size = سائز
 cv-license = لائسنس
+splits = ٹکڑے
+email-to-download = ڈاؤن کرݨ کیتے ای میل درج کرو
 size-gigabyte = جی بی
 size-megabyte = ایم بی
+subscribe = سبسکرائب کرو
+get-started-speech = تقریر دی سُن٘ڄاݨ نال شروع کرو
+other-datasets = ٻئے وائس ڈیٹاسیٹس
+go-discourse = ڈسکورس تے ون٘ڄو
 go-languages-page = زباناں ورقے تے ون٘ڄو
 more = ٻئے
 close = بند کرو
@@ -457,6 +467,7 @@ language-search-input =
 language-speakers = ٻولݨ آلے
 localized = مقامی تھئے ہوئے
 sentences = جملے
+total-hours = کل گھنٹے
 
 ## Contribution
 
@@ -471,6 +482,9 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> کلپ
        *[other] <bold>{ $count }</bold> کلپ
     }
+record-cancel = ولدا رکارڈنگ منسوخ کرو
+share-clip = آپݨاں کلپ شیئر کرو
+share-common-voice = Common Voice شیئر کرو
 target-segment-add-voice = آپݨی آواز رلاؤ
 target-segment-learn-more = ٻیا سِکھو
 
@@ -486,6 +500,7 @@ report-success = رپورٹ کامیابی نال منظور تھئی
 
 ## Goals
 
+streaks = سٹریک
 days =
     { $count ->
         [one] ݙیہاڑا
@@ -495,9 +510,14 @@ days =
 ## Dashboard
 
 your-languages = تہاݙیاں زباناں
+stats = شماریات
+awards = ایوارڈ
+you = تساں
+everyone = ہرکوئی
 
 ## Custom Goals
 
+both-speak-and-listen = ݙون٘ہیں
 easy-difficulty = سوکھا
 average-difficulty = اوسط
 difficult-difficulty = اوکھا
@@ -507,6 +527,8 @@ n-clips-pluralized =
         [one] { $count } کلپ
        *[other] { $count } کلپاں
     }
+share-goal-type-speak = ٻولݨ
+share-goal-type-listen = سݨݨ
 
 ## Profile Delete
 
