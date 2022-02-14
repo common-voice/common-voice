@@ -225,10 +225,7 @@ async function updateLanguages(clientId: string, languages: UserLanguage[]) {
  * @param locales array of UserVariantsLocales
  * @returns void
  */
-async function updateVariants(
-  clientId: string,
-  UserVariantLocale: UserVariantLocale[]
-) {
+async function updateVariants(clientId: string, UserLanguage: UserLanguage[]) {
   // query all existing variants for user
   const [savedVariants]: [{ id: number; variant_id: number }[]] =
     await db.query(
@@ -241,7 +238,7 @@ async function updateVariants(
       [clientId]
     );
   // flatten request obj to get a list of all variant_ids
-  const requestedVariantIds = UserVariantLocale.map(language => {
+  const requestedVariantIds = UserLanguage.map(language => {
     return language?.variants?.map(variant => variant.id) ?? [];
   }).reduce((allIds, cur) => {
     return allIds.concat(cur);
