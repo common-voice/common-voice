@@ -4,22 +4,19 @@ export type IdDifferences = {
 };
 
 /**
- * Get the difference of two arrays
+ * Get the differences of numbers in two arrays
  */
 export const getDifferenceInIds = (
   requestedIds: number[],
   savedIds: number[]
 ): IdDifferences => {
-  const idsToBeAdded: number[] = [];
-  const idsToBeRemoved: number[] = [];
-
-  requestedIds?.map(id => {
-    if (!savedIds.includes(id)) idsToBeAdded.push(id);
+  const idsToBeAdded = requestedIds.map(id => {
+    if (!savedIds.includes(id)) return id;
   });
 
-  savedIds?.map(id => {
-    if (!requestedIds.includes(id)) idsToBeRemoved.push(id);
+  const idsToBeRemoved = savedIds.map(id => {
+    if (!requestedIds.includes(id)) return id;
   });
 
-  return { idsToBeRemoved, idsToBeAdded };
+  return { idsToBeAdded, idsToBeRemoved };
 };
