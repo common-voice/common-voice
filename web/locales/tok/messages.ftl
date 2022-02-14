@@ -1056,6 +1056,7 @@ sc-howto-title = nasin seme?
 sc-howto-addlang-title = o pana e toki sin
 sc-howto-addlang-text = sina kama kepeken sijelo ilo la, sina ken kepeken toki wile sina lon lipu jan.
 sc-howto-addsen-title = o pana e sitelen sin
+sc-howto-addsen-item-1 = sitelen ale sina o kepeken <wikipediaLink>nasin pana CC0</wikipediaLink>. sina pana e sitelen pi nasin pana ni ala la, o kepeken <cc0WaiverLink>nasin pana ante ni</cc0WaiverLink>. ni la sina ken pana e sitelen pi jan ale ala.
 sc-howto-addsen-item-2 = nanpa la, o pana ala e nanpa lon sitelen pana. ona li ken pakala e toki jan. lon toki ante la, nimi nanpa li ken ante. ni la, nanpa li ken nasa e kulupu sona.
 sc-howto-addsen-item-5 = sitelen pi toki ante. o kepeken ala sitelen pi toki ante. o lukin: sitelen lili “ж” li tan toki Losi. taso, ona li lon ala toki pona. tan ni la, o kepeken ala ona.
 sc-howto-cite-title = mi pana sona kepeken nasin seme?
