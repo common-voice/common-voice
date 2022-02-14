@@ -145,6 +145,7 @@ scn = Sisilieg
 shi = Shilha
 si = Sinhala
 sk = Slofaceg
+skr = Saraiki
 sl = Slofeneg
 so = Somali
 sq = Albaneg
@@ -160,6 +161,7 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmen
 tl = Tagalog
+tok = Toki Pona
 tr = Twrceg
 tt = Tartareg
 tw = Twi
@@ -1271,11 +1273,8 @@ sc-rejected-none-found = Heb ganfod unrhyw  frawddegau wedi'u gwrthod!
 ## STATS
 
 sc-stats-title = Ystadegau
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Diweddariad Diwethaf: { $lastUpdate }
-sc-stats-last-update-never = Diweddariad Diwethaf: erioed
 sc-stats-updating = Yn diweddaru…
+sc-stats-error = Nid oedd modd estyn yr ystadegau. Ceisiwch eto'n hwyrach.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1387,6 +1386,8 @@ sc-confirm-uploading = Mae brawddegau'n cael eu llwytho i fyny. Gall hyn gymryd 
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Cyfanswm
+sc-lang-info-title-personal = Personol
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =

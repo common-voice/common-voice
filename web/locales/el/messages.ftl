@@ -1090,12 +1090,14 @@ sc-logout-button = Αποσύνδεση
 
 ## HOME
 
+sc-home-title = Καλώς ορίσατε στη Συλλογή προτάσεων Common Voice
 sc-home-collect-title = Συλλογή προτάσεων
 sc-home-review-title = Έλεγχος προτάσεων
 
 ## HOW-TO
 
 sc-howto-title = Οδηγίες
+sc-howto-addlang-text = Μόλις συνδεθείτε, μπορείτε να επιλέξετε τις γλώσσες σας από την ενότητα «Προφίλ».
 sc-howto-addsen-title = Προσθήκη νέων προτάσεων
 sc-howto-cite-item-1 = Μπορείτε να συμπεριλάβετε τον ιστότοπο, π.χ. «Common Voice - https://commonvoice.mozilla.org/»
 sc-howto-review-title = Έλεγχος προτάσεων
@@ -1140,6 +1142,7 @@ sc-submit-prompt =
 sc-submit-title = Προσθήκη προτάσεων
 sc-submit-select-language =
     .labelText = Επιλογή γλώσσας
+sc-submit-add-sentences = Προσθήκη προτάσεων <wikipediaLink>δημόσιου τομέα</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Μία πρόταση ανά γραμμή
 sc-submit-button =
@@ -1180,6 +1183,7 @@ sc-confirm-button-text = Επιβεβαίωση
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Σύνολο
+sc-lang-info-title-personal = Προσωπικό
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1249,6 +1253,7 @@ sc-review-form-button-skip = Παράλειψη
 sc-review-form-button-approve = Έγκριση
 sc-review-form-button-submit =
     .submitText = Ολοκλήρωση ελέγχου
+sc-review-form-review-failure = Δεν ήταν δυνατή η αποθήκευση του ελέγχου. Παρακαλώ δοκιμάστε ξανά αργότερα.
 sc-review-link = Έλεγχος
 
 ## SETTINGS

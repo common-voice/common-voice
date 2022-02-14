@@ -26,7 +26,7 @@ import {
   LabeledSelect,
 } from '../../../ui/ui';
 import { isEnrolled } from '../../dashboard/challenge/constants';
-import { UserAccentLocale } from 'common';
+import { UserLanguage } from 'common';
 
 import ProfileInfoLanguages from './languages/languages';
 
@@ -53,12 +53,10 @@ const Options = withLocalization(
   )
 );
 
-type UserAccentLocales = UserAccentLocale[];
-
 function ProfileInfo({
   getString,
   history,
-}: WithLocalizationProps & RouteComponentProps<any, any, any>) {
+}: WithLocalizationProps & RouteComponentProps) {
   const api = useAPI();
   const [locale, toLocaleRoute] = useLocale();
   const user = useTypedSelector(({ user }) => user);
@@ -86,7 +84,7 @@ function ProfileInfo({
   const { username, visible, age, gender, sendEmails, privacyAgreed } =
     userFields;
   const [areLanguagesLoading, setAreLanguagesLoading] = useState(true);
-  const [userLanguages, setUserLanguages] = useState<UserAccentLocales>([]);
+  const [userLanguages, setUserLanguages] = useState<UserLanguage[]>([]);
   const [isSaving, setIsSaving] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [showDemographicInfo, setShowDemographicInfo] = useState(false);
@@ -119,19 +117,21 @@ function ProfileInfo({
       privacyAgreed: Boolean(account) || user.privacyAgreed,
     });
 
-    let userAccentLocales: UserAccentLocale[] = [];
-    if (!account) {
-      userAccentLocales = userClients.reduce(
-        (locales, u) => locales.concat(u.locales || []),
-        []
-      );
-      userAccentLocales = userAccentLocales.filter(
-        (l1, i) =>
-          i == userAccentLocales.findIndex(l2 => l2.locale == l1.locale)
-      );
+    if (account) {
+      setUserLanguages(account.languages);
+      return;
     }
 
-    setUserLanguages(account ? account.locales : userAccentLocales);
+    let userLanguages: UserLanguage[] = [];
+    userLanguages = userClients.reduce(
+      (languages, userClient) => languages.concat(userClient.languages || []),
+      []
+    );
+    userLanguages = userLanguages.filter(
+      (l1, i) => i == userLanguages.findIndex(l2 => l2.locale == l1.locale)
+    );
+
+    setUserLanguages(userLanguages);
   }, [user, areLanguagesLoading]);
 
   const handleChangeFor =
@@ -159,7 +159,7 @@ function ProfileInfo({
 
     const data = {
       ...pick(userFields, 'username', 'age', 'gender'),
-      locales: userLanguages.filter(l => l.locale),
+      languages: userLanguages.filter(l => l.locale),
       visible: JSON.parse(visible.toString()),
       client_id: user.userId,
       enrollment: user.userClients[0].enrollment || {

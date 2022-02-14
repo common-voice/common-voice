@@ -5,7 +5,7 @@ import { fireEvent, RenderResult } from '@testing-library/react';
 import { renderWithLocalization } from '../../../../../../test/mock-localization';
 
 import InputLanguageAccentsList from './input-language-accents-list';
-import { UserAccentLocale } from 'common';
+import { UserLanguage } from 'common';
 
 expect.extend(toHaveNoViolations);
 
@@ -22,7 +22,7 @@ const MOCK_ACCENTS = [
   },
 ];
 
-const MOCK_USER_LANGUAGES = [] as UserAccentLocale[];
+const MOCK_USER_LANGUAGES = [] as UserLanguage[];
 
 describe('InputLanguageAccentsList', () => {
   it('should render with no accessibility violations', async () => {
@@ -44,7 +44,7 @@ describe('InputLanguageAccentsList', () => {
         locale: 'en',
         accents: [{ name: 'England English' }, { name: 'Singaporean English' }],
       },
-    ] as UserAccentLocale[];
+    ] as UserLanguage[];
     const { getByText } = await renderWithLocalization(
       <InputLanguageAccentsList
         locale={'en'}
@@ -64,7 +64,7 @@ describe('InputLanguageAccentsList', () => {
         locale: 'en',
         accents: [{ name: 'England English' }, { name: 'Singaporean English' }],
       },
-    ] as UserAccentLocale[];
+    ] as UserLanguage[];
     const mockSetUserLanguage = jest.fn();
     const { getByText } = await renderWithLocalization(
       <InputLanguageAccentsList

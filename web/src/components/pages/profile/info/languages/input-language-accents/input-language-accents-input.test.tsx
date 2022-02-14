@@ -5,7 +5,7 @@ import userEvent from '@testing-library/user-event';
 
 import { renderWithLocalization } from '../../../../../../test/mock-localization';
 import { AccentsAll } from '../languages';
-import { UserAccentLocale } from 'common';
+import { UserLanguage } from 'common';
 
 import InputLanguageAccentsInput from './input-language-accents-input';
 
@@ -16,7 +16,7 @@ const MOCK_USER_LANGUAGES = [
     locale: 'en',
     accents: [],
   },
-] as UserAccentLocale[];
+] as UserLanguage[];
 
 const MOCK_ACCENTS_ALL = {
   en: {

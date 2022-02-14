@@ -35,7 +35,6 @@ az = אזרית
 ba = בשקירית
 be = בלארוסית
 bg = בולגרית
-bm = במברה
 bn = בנגלית
 br = ברטון
 bxr = בוריאטית
@@ -408,10 +407,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = למה Common Voice?
-about-header-description =
-    שני הפרוייקטים הללו הם חלק מהמאמצים שלנו לגשר על הפער בדיבור הדיגיטלי. טכנולוגיות זיהוי דיבור מספקות מימד אנושי למכשירים שלנו, אך מפתחים זקוקים לכמות עצומה של נתוני שמע על מנת לבנות אותם. נכון לעכשיו, רוב הנתונים הינם יקרים ובבעלות פרטית.
-    אנחנו מבקשים להפוך נתוני דיבור לזמינים באופן חופשי וציבורי, ולוודא כי הנתונים מייצגים את הגיוון האנושי האמיתי. יחד אנו יכולים להפוך את זיהוי הדיבור לטוב יותר עבור כולם.
-how-does-it-work-title = איך זה עובד?
+
+## How does it work section
+
 about-speak = דבר
 about-speak-text = מתנדבים מקליטים קטעי קול על ידי הקראה מתוך מאגר של משפטים שנתרמו.
 about-listen-queue = תור האזנה
@@ -427,6 +425,39 @@ about-nav-why-common-voice = למה?
 about-nav-how-it-works = איך?
 about-nav-partners = שותפים
 about-nav-get-involved = הצטרפות
+about-nav-how-it-works-2 = כיצד פועל Common Voice?
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+about-playbook-how-add-sentences = איך אני מוסיף משפטים?
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = אירועים
+about-playbook-how-grow-language-content-4 = מדיה חברתית
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance-content-3 = פרטיות, אבטחה ושקיפות.
 mycroft-subtitle = בינה מלאכותית
 
 ## Glossary
@@ -760,6 +791,7 @@ demo-listen-subtitle = מעניין אותך לתרום?
 ## Validation criteria
 
 contribution-misreadings-example-7-title = אנחנו יוצאים לשתות קפה.
+contribution-background-noise-example-2-explanation = [לא ניתן לשמוע חלק מהטקסט]
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -768,27 +800,59 @@ contribution-misreadings-example-7-title = אנחנו יוצאים לשתות ק
 
 ## HEADER/FOOTER
 
+sc-header-home = בית
+sc-header-add = הוספה
+sc-header-review = סקירה
+sc-header-rejected = משפטים שנדחו
+sc-header-my = המשפטים שלי
+sc-header-statistics = סטטיסטיקות
+sc-header-profile = פרופיל
+sc-footer-translate = תרגום עמוד זה
+sc-footer-report-copyright = דיווח על בעיות בזכויות יוצרים
+sc-footer-privacy = פרטיות
+sc-footer-cookies = עוגיות
 
 ## HOME
 
+sc-home-review-title = סקירת משפטים
 
 ## HOW-TO
 
+sc-howto-addsen-title = הוספת משפטים חדשים
+sc-howto-review-title = סקירת משפטים
 
 ## MY SENTENCES
 
+sc-my-title = המשפטים שלי
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = מקור: { $source }
+sc-my-delete = מחיקת משפטים נבחרים
 
 ## REJECTED
 
+sc-rejected-title = משפטים שנדחו
+sc-rejected-none-found = לא נמצאו משפטים שנדחו!
 
 ## STATS
 
+sc-stats-title = סטטיסטיקות
 
 ## ADD
 
+sc-submit-err-select-lang = נא לבחור שפה.
+sc-submit-err-add-sentences = נא להוסיף משפטים.
+sc-submit-err-add-source = נא להוסיף מקור.
+sc-submit-title = הוספת משפטים
+sc-submit-select-language =
+    .labelText = בחירת שפה
+sc-submit-button =
+    .submitText = שליחה
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = לא ניתן להוסיף שפה
+sc-add-lang-sec-button = הוספת שפה
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -798,18 +862,42 @@ contribution-misreadings-example-7-title = אנחנו יוצאים לשתות ק
 
 ## LOGIN
 
+sc-login-err-try-again = נא לנסות שוב.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = פרופיל: { $username }
+sc-personal-err-remove = לא ניתן להסיר את השפה
+sc-personal-your-languages = השפות שלך:
+sc-personal-remove-button = הסרה
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } נוספו על ידך
+sc-personal-not-added = עדיין לא הוספת שפות.
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-2 = המשפט חייב להיות נכון מבחינה דקדוקית.
 
 ## REVIEW
 
+sc-review-title = סקירת משפטים
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = מקור: { $sentenceSource }
+sc-review-form-button-reject = דחייה
+sc-review-form-button-skip = דילוג
+sc-review-form-button-approve = אישור
+sc-review-form-button-submit =
+    .submitText = סיום הסקירה
+sc-review-link = סקירה
 
 ## SETTINGS
 
+sc-settings-title = הגדרות
+sc-settings-ui-language = שפת ממשק
 
 # [/SentenceCollector]
 

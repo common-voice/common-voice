@@ -145,6 +145,7 @@ scn = Sicilian
 shi = Shilha
 si = Sinhala
 sk = Slovakia
+skr = Saraiki
 sl = Slovenia
 so = Somali
 sq = Albania
@@ -160,6 +161,7 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmen
 tl = Tagalog
+tok = Toki Pona
 tr = Thổ Nhĩ Kỳ
 tt = Tatar
 tw = Twi
@@ -1256,11 +1258,8 @@ sc-rejected-none-found = Không tìm thấy câu bị từ chối nào!
 ## STATS
 
 sc-stats-title = Thống kê
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Cập nhật lần cuối: { $lastUpdate }
-sc-stats-last-update-never = Cập nhật lần cuối: chưa một lần nào
 sc-stats-updating = Đang cập nhật...
+sc-stats-error = Chúng tôi không thể tải số liệu thống kê. Vui lòng thử lại sau.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1353,6 +1352,8 @@ sc-confirm-uploading = Các câu đang được tải lên. Quá trình này có
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Tổng
+sc-lang-info-title-personal = Cá nhân
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =

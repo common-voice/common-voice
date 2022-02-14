@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { UserAccentLocale } from 'common';
+import { UserLanguage } from 'common';
 import { AccentsAll } from '../languages';
 
 import InputLanguageAccentsInput from './input-language-accents-input';
@@ -10,8 +10,8 @@ interface Props {
   locale: string;
   accents: Array<{ id: number; name: string }>;
   accentsAll: AccentsAll;
-  userLanguages: UserAccentLocale[];
-  setUserLanguages: (userLanguages: UserAccentLocale[]) => void;
+  userLanguages: UserLanguage[];
+  setUserLanguages: (userLanguages: UserLanguage[]) => void;
 }
 
 function InputLanguageAccents({

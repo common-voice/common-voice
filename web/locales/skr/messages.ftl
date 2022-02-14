@@ -1,5 +1,6 @@
 ## General
 
+return-to-cv = Common Voice  تے واپس ون٘ڄو
 email-input =
     .label = ای میل
 submit-form-action = جمع کرواؤ
@@ -68,7 +69,9 @@ ht = ہیٹین
 hu = ہنگرین
 hy-AM = آرمینی
 hyw = آرمینی غربی
+ia = انٹرلنگوا
 id = انڈونیشی
+ie = انٹرلنگو
 ig = اگبو
 is = آئی لینڈی
 it = اٹالین
@@ -112,13 +115,24 @@ ne-NP = نیپالی
 nia = نیاس
 nl = ڈچ
 nn-NO = نارویجی نورسک
+nyn = رنیانکول
+oc = آكسيٹان
 or = اوڑیہ
 pa-IN = پنجابی
 pl = پولش
 ps = پشتو
 pt = پرتگیزی
+quc = کیچہ
+quy = چوچا چنکا
+rm-sursilv = رومانش سورسلوان
+rm-vallader = رومانش ویلڈر
 ro = رومانی
 ru = روسی
+rw = کنیا روانڈا
+sah = ساکھا
+sat = سنتالی(اول چِکی)
+sc = سردینی
+scn = سسلین
 shi = شلہا
 si = سنہالی
 sk = سلواک
@@ -149,6 +163,15 @@ ug = ییغور
 uk = یوکرائنی
 ur = اردو
 uz = اُزبک
+vec = ونیتی
+vi = ویت نامی
+vot = ووٹک
+yi = یدش
+yo = یور
+yue = یورْوبا
+zh-CN = چینی (چین)
+zh-HK = چینی (ہانگ کانگ)
+zh-TW = چینی (تائیواں)
 
 # [/]
 
@@ -157,19 +180,34 @@ uz = اُزبک
 
 speak = ٻولو
 speak-now = ہُݨ ٻولو
+datasets = ڈیٹا سیٹس
 languages = زباناں
+about = تعارف
 profile = پروفائل
 help = مدد
 contact = رابطہ
 privacy = رازداری
 terms = ٹرماں
 cookies = کوکیاں
+faq = عمومی سوالات
+link-copied = لنک نقل تھی ڳیا
+back-top = چوٹی تے واپس ون٘ڄو
 logout = لاگ آؤٹ
 
 ## Home Page
 
+home-cta = ٻولو تے اتھ حصہ پاؤ!
+show-wall-of-text = ٻیا پڑھو
 vote-yes = جیا
 vote-no = کو
+speak-subtitle = آپݨی آواز دان کرو
+speak-goal-text = رکارڈ تھئے کلپ
+listen-subtitle = آوازاں دی تصدیق کرݨ وچ ساݙی مدد کرو
+listen-goal-text = کلپ تصدیق تھئے
+hours-recorded = گھنٹے رکارڈ تھئے
+hours-validated = گھنٹے تصدیق تھئے
+voices-online = ہݨ آن لائن آوازاں
+todays-progress = اڄ دی ترقی
 all-locales = سارے
 today = اڄ
 x-weeks-short =
@@ -187,12 +225,16 @@ x-years-short =
         [one] سال
        *[other] { $count } سال
     }
+sign-up-account = کھاتے کیتے سائن اپ تھیوو
+email-subscription-title = ای میل اپ ڈیٹاں کیتے سائن اپ تھیوو
 
 ## Account Benefits
 
+benefits = فائدے
 
 ## What's public
 
+whats-public = عوامی کیا ہے؟
 
 ## Speak & Listen Shortcuts
 
@@ -219,9 +261,17 @@ shortcut-vote-no = کو
 shortcut-record-toggle = ریکارڈ
 shortcut-record-toggle-label = ریکارڈ/رکو
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = کلپ ولدا ریکاڈ کرو
+shortcut-discard-ongoing-recording = اسکیپ
+shortcut-submit = واپس ون٘ڄو
+shortcut-submit-label = کلپ جمع کرواؤ
+request-language-button = زبان دی ارداس کرو
 
 ## ProjectStatus
 
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = اڳلا مقصد: { $goal }
 english = انگریزی
 
 ## ProfileForm
@@ -250,34 +300,66 @@ male = مرد
 female = تریمت
 # Gender
 other = ٻیا
+why-profile-title = ہک پروفائل کیوں؟
 dashboard = ڈیش بورڈ
 build-profile = پروفائل بݨاؤ
 avatar = اواتار
+goals = مقاصد
 settings = ترتیباں
+edit-profile = پروفائل وچ تبدیلی کرو
 profile-close = بند کرو
 accept-privacy-title = رازداری پالیسی
+login-identity = لاگ ان سُن٘ڄاݨ
+login-signup = لاگ ان/ سائن اپ
+edit = تبدیلی کرو
+email-subscriptions = ای میل سبسکرپشناں
+download-profile = میݙا ڈیٹا ڈاؤن لوڈ کرو
 off = بند
 on = چالو
 
 ## Profile - Email
 
+browse-file-title = تصویر فائل اپ لوڈ کرو
+avatar-uploaded = اواتار اپ لوڈ تھیا
+max-file-size = { $kb }کےبی ودھ کنوں ودھ
 
 ## Profile - Email
 
+manage-subscriptions = سبسکرپشناں منیج کرو
+manage-email-subscriptions = ای میل سبسکرپشناں منیج کرو
 add-language = زبان شامل کرو
 
 ## FAQ
 
+faq-why-important-q = ایہ اہم کیوں ہے؟
+faq-why-my-lang-q = میݙی زبان اڄݨ تائیں کیوں شامل کائنی؟
+faq-what-is-cv = Common Voice کیا ہے؟
+faq-using-cv = کامن وائس ورتݨ
+faq-search-for-answers =
+    .label = جواباں دی ڳول
 
 ## ABOUT US
 
+about-title = Common Voice کیوں؟
 
 ## How does it work section
 
+about-localization-title = ویب سائٹ دی مقامیت
+about-sentence-collection-title = فقریاں دا مجموعہ
+about-new-lang-title = نویں زبان لان٘چ
+about-voice-validation-title = آواز تصدیق
+about-speak = ٻولو
 about-listen = سݨو
+about-yes-votes = ≥٢ جیا ووٹ
+about-no-votes = ≥٢ ووٹ کائنی
+about-partners = بھائیوال
+about-become-a-partner = بھائیوال بݨو
+about-get-involved = نال رلت کرو
 about-nav-why-common-voice = کیوں؟
 about-nav-how-it-works = کین٘ویں؟
+about-nav-partners = بھائیوال
 about-nav-get-involved = نال رلت کرو
+about-nav-playbook = حصہ گھنݨ دا ݙا سکھو
 
 ## Community Playbook Content
 ## What is a language
@@ -297,6 +379,8 @@ about-nav-get-involved = نال رلت کرو
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = ایونٹ
+about-playbook-how-grow-language-content-4 = سماجی میڈیا
 
 ## How to validate
 
@@ -306,6 +390,10 @@ about-nav-get-involved = نال رلت کرو
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-5 = قدر تے سُن٘ڄاݨ
+about-playbook-how-project-governance-content-6 = باہمی احتساب
+mycroft-title = مائی کرافٹ آئی
+mycroft-subtitle = مصنوعی ذہانت
 
 ## Glossary
 
@@ -313,15 +401,25 @@ localization = مقامیت
 
 ## Error pages
 
+error-code = خرابی { $code }
 
 ## Data
 
+data-download-button = کامن وائس ڈیٹا ڈاؤن لوڈ کرو
 data-download-yes = جیا
 data-download-deny = کو
+data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
+data-other-goto = { $name } تے ون٘ڄو
+data-other-download = ڈیٹا ڈاؤن لوڈ کرو
 release-version = ورشن
 dataset-date = تریخ
 license = لائسنس: <licenseLink>{ $license }</licenseLink>
+license-mixed = مکس تھئے
 terms-agree = میں متفق ہاں
+terms-disagree = میں راضی کائنی
+review-recording = نظرثانی
+review-rerecord = ولدا ریکارڈ کرو
+review-cancel = جمع منسوخ کرو
 
 ## Datasets Page
 
@@ -329,8 +427,15 @@ language = زبان
 # File size in gigabytes
 size = سائز
 cv-license = لائسنس
+splits = ٹکڑے
+email-to-download = ڈاؤن کرݨ کیتے ای میل درج کرو
 size-gigabyte = جی بی
 size-megabyte = ایم بی
+subscribe = سبسکرائب کرو
+get-started-speech = تقریر دی سُن٘ڄاݨ نال شروع کرو
+other-datasets = ٻئے وائس ڈیٹاسیٹس
+go-discourse = ڈسکورس تے ون٘ڄو
+go-languages-page = زباناں ورقے تے ون٘ڄو
 more = ٻئے
 close = بند کرو
 download = ڈاؤن لوڈ
@@ -338,9 +443,14 @@ dataset-version = ورشن
 
 ## Download Modal
 
+download-form-email =
+    .label = آپݨا ای میل درج کرو
+    .value = تہاݙا تھورا، اساں رابطہ کریسوں۔
+download-no = کو، شکریہ
 
 ## Contact Modal
 
+contact-title = رابطہ فارم
 contact-form-name =
     .label = ناں
 contact-form-message =
@@ -352,30 +462,109 @@ contact-required = *ضروری ہے
 request-language-title = زبان ارداس
 request-language-form-language =
     .label = زبان
+select-language = زبان چݨو۔۔۔
+other-language = ٻئی زبان
 
 ## Languages Overview
 
+language-section-in-progress = تھیندا پئے
+language-section-launched = لان٘چ تھی ڳیا
+languages-show-more = ٻئے ݙیکھو
+languages-show-less = گھٹ ݙیکھو
+language-meter-in-progress = پیش رفت
+language-total-progress = کل
+language-search-input =
+    .placeholder = ڳولو
+language-speakers = ٻولݨ آلے
+localized = مقامی تھئے ہوئے
+sentences = جملے
+total-hours = کل گھنٹے
 
 ## Contribution
 
+action-click = کلک
+action-tap = انگل پھیرو
+contribute = حصہ پاؤ
+listen = سݨو
+skip = چھوڑو
+shortcuts = شارٹ کٹ
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> کلپ
+       *[other] <bold>{ $count }</bold> کلپ
+    }
+record-cancel = ولدا رکارڈنگ منسوخ کرو
+share-clip = آپݨاں کلپ شیئر کرو
+share-common-voice = Common Voice شیئر کرو
+record-abort-submit = کلپ جمع کرواؤ
+target-segment-add-voice = آپݨی آواز رلاؤ
+target-segment-learn-more = ٻیا سِکھو
 
 ## Reporting
 
+report = رپورٹ کرو
+report-title = رپورٹ جمع کرواؤ
+report-other-comment =
+    .placeholder = تبصرہ
+success = کامیابی
+continue = جاری
+report-success = رپورٹ کامیابی نال منظور تھئی
 
 ## Goals
 
+streaks = سٹریک
+days =
+    { $count ->
+        [one] ݙیہاڑا
+       *[other] ݙیہاڑے
+    }
+recordings =
+    { $count ->
+        [one] ریکارڈنگ
+       *[other] ریکارڈنگاں
+    }
+validations =
+    { $count ->
+        [one] تصدیق
+       *[other] تصدیقاں
+    }
 
 ## Dashboard
 
+your-languages = تہاݙیاں زباناں
+toward-next-goal = اڳلے مقصد آلے پاسے
+goal-reached = مقصد پورا تھیا
+stats = شماریات
+awards = ایوارڈ
+you = تساں
+everyone = ہرکوئی
 
 ## Custom Goals
 
+both-speak-and-listen = ݙون٘ہیں
+easy-difficulty = سوکھا
+average-difficulty = اوسط
+difficult-difficulty = اوکھا
+pro-difficulty = پرو
+set-a-goal = مقصد مقرر کرو
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } کلپ
+       *[other] { $count } کلپاں
+    }
+share-goal-type-speak = ٻولݨ
+share-goal-type-listen = سݨݨ
+share-goal-type-both = ٻولݨ تے سݨݨ
 
 ## Profile Delete
 
+keep = جاری رکھو
+remove = ہٹاؤ
 
 ## Profile Download
 
+download-recordings-title = ریکارڈنگز
+download-size = سائز
 
 ## Landing
 

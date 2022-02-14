@@ -3,7 +3,7 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 import { act, waitFor, fireEvent, RenderResult } from '@testing-library/react';
 
 import { renderWithLocalization } from '../../../../../test/mock-localization';
-import { UserAccentLocale } from 'common';
+import { UserLanguage } from 'common';
 
 import ProfileInfoLanguages, { AccentsAll } from './languages';
 
@@ -14,7 +14,7 @@ const MOCK_USER_LANGUAGES = [
     locale: 'en',
     accents: [],
   },
-] as UserAccentLocale[];
+] as UserLanguage[];
 
 const MOCK_ACCENTS_ALL = {
   en: {
