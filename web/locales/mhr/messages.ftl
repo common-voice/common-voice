@@ -599,6 +599,7 @@ about-playbook-how-access-dataset-content-2 = Тылат ASR модельым ы
 ## How are decisions made
 
 about-playbook-how-project-governance = Кузе проект пунчал лукталтеш?
+about-playbook-how-project-governance-content-1 = Уло тӱня гыч тӱрлӧ-тӱрлӧ чолгаеҥ тӱшка, лингвист, данный дене специалист, шанчыеҥ да инженер-программист-влаклан кӧра Mozilla Common Voice лийын кертын. Проектым Mozilla Foundation виктара.
 about-playbook-how-project-governance-content-2 = Мемнан виктарымаш нине принцип ӱмбалан негызлалтын:
 about-playbook-how-project-governance-content-3 = Шолыплык, лӱдыкшыдымылык да вошткоймаш.
 about-playbook-how-project-governance-content-4 = Тӱшкан ушнымашыже да пунчалым лукмаш.
