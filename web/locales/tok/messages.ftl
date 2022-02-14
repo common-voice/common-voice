@@ -246,7 +246,7 @@ hours-recorded = tenpo suli kalama
 hours-validated = tenpo suli pi kalama pona
 voices-online = jan lon tenpo ni
 todays-progress = sin pi tenpo suno ni
-help-reach-goal = o pona e wile ni: { $goal }
+help-reach-goal = o pali e ijo { $goal }
 read-terms-q = sina lukin ala lukin e lawa kepeken pi ilo ni?
 ready-to-record = sina wile ala wile pana e toki uta sina?
 all-locales = ale
@@ -836,7 +836,7 @@ awards = ijo tan pali pona
 you = sina
 everyone = jan ale
 contribution-activity = pali
-top-contributors = jan pana pi nanpa wan
+top-contributors = jan pi pali suli
 recorded-clips = kalama awen
 validated-clips = kalama awen pona
 total-approved = mute pona
@@ -847,7 +847,7 @@ show-ranking = o len ala e pali mute mi
 ## Custom Goals
 
 get-started-goals = o open e pali suli sina
-create-custom-goal = o pali e pali suli sin
+create-custom-goal = o pali e wile pali sin
 goal-type = sina wile pali e seme?
 both-speak-and-listen = tu
 both-speak-and-listen-long = tu (o toki, o kute)
@@ -911,9 +911,9 @@ share-goal = o pana e wile pali
 
 ## Profile Delete
 
-delete-q = sina wile weka e kalama toki sina anu seme? ante la ona li awen lon kulupu sona Common Voice.
-keep = o weka ala
-remove = o weka
+delete-q = toki uta sina o weka ala weka tan kulupu kalama Common Voice?
+keep = ala
+remove = weka
 keep-info = kalama awen len sina li lon kulupu sona Common Voice. sina weka e sijelo ilo la, sina ken ala weka e kalama awen sina tan kulupu sona Common voice.
 remove-info = mi lukin e ni: sina wile weka e kalama awen sina tan kulupu sona. ni li pona la, jan ante li jo e kalama awen sina la, mi toki e ni tawa ona: o weka e ona.
 profile-form-delete = o weka e lipu jan
