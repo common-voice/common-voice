@@ -4,7 +4,6 @@ import Schema from './db/schema';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
 import { ChallengeToken, Sentence } from 'common';
-import { features } from 'common';
 import { TaxonomyToken, taxonomies } from 'common';
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
@@ -12,8 +11,6 @@ import { TaxonomyToken, taxonomies } from 'common';
 const SHUFFLE_SIZE = 500;
 
 const THREE_WEEKS = 3 * 7 * 24 * 60 * 60 * 1000;
-
-const PRIORITY_TAXONOMY = 'Benchmark';
 
 // Ref JIRA ticket OI-1300 - we want to exclude languages with fewer than 500k active global speakers
 // from the single sentence record limit, because they are unlikely to amass enough unique speakers
@@ -901,26 +898,26 @@ export default class DB {
       locale ? [await getLocaleId(locale)] : []
     );
 
-    // return structured variants obj or empty {} if query is empty
-    const mappedVariants = variants
-      ? variants.reduce((acc: any, curr: any) => {
-          if (!acc[curr.token]) {
-            acc[curr.token] = [];
-          }
+    if (!variants) return;
 
-          const variant = {
-            id: curr.variant_id,
-            token: curr.token,
-            name: curr.variant_name,
-          };
+    const mappedVariants = variants.reduce((acc: any, curr: any) => {
+      if (!acc[curr.lang]) {
+        acc[curr.lang] = [];
+      }
 
-          acc[curr.token].push(variant);
-          return acc;
-        }, {})
-      : {};
+      const variant = {
+        id: curr.variant_id,
+        token: curr.token,
+        name: curr.variant_name,
+      };
+
+      acc[curr.lang].push(variant);
+      return acc;
+    }, {});
 
     return mappedVariants;
   }
+
   async getAccents(client_id: string, locale?: string) {
     const [accents] = await this.mysql.query(
       `
