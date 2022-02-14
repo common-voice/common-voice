@@ -355,8 +355,8 @@ profile-form-gender-2 =
     .label = kule kon
 leaderboard-visibility =
     .label = sina wile ala wile lon lipu pi jan pali suli?
-hidden = len
-visible = wile ala
+hidden = wile ala
+visible = wile
 native-language =
     .label = toki mama
 profile-form-add-accent = o pana e nasin kalama toki sin "{ $inputValue }"
@@ -388,7 +388,7 @@ edit = o ante
 email-subscriptions = lipu wile pi poki lipu sina
 download-profile = o kama jo e sona mi e kalama mi
 contribution-experience = sona pi nasin pali
-skip-submission-feedback = mi pana e pali la o toki ala e toki lili ona tawa mi
+skip-submission-feedback = o toki ala e toki lili pi pali pona tawa mi
 skip-submission-description = sina luka e nena "o pana" la mi toki ala e ni: pali sina li pona ala pona. sina ken pali e ijo sin luka.
 skip-submission-note = o sona e ni: sina wile ante e nasin pali la, o luka e nena "o toki" anu "o kute".
 off = ala
@@ -399,7 +399,7 @@ help-accent-explanation = nasin kalama toki sina li ken kama ante tan ma mama si
 ## Profile - Email
 
 browse-file-title = o pana e sitelen lukin
-browse-file = o luka anu <browseWrap>o alasa</browseWrap>
+browse-file = o pana luka anu <browseWrap>o alasa</browseWrap>
 connect-gravatar = o kepeken ilo Gravatar
 gravatar_not_found = ilo Gravatar sina li lon ala
 file_too_large = lipu sina li suli mute la, sina ken ala pana
@@ -808,7 +808,7 @@ report-success = sina pana e sona pakala.
 
 ## Goals
 
-streaks = kulupu pali
+streaks = tenpo pi kulupu pali
 days =
     { $count ->
        *[other] tenpo suno
@@ -912,7 +912,7 @@ share-goal = o pana e wile pali
 ## Profile Delete
 
 delete-q = sina wile weka e kalama toki sina anu seme? ante la ona li awen lon kulupu sona Common Voice.
-keep = o jo
+keep = o weka ala
 remove = o weka
 keep-info = kalama awen len sina li lon kulupu sona Common Voice. sina weka e sijelo ilo la, sina ken ala weka e kalama awen sina tan kulupu sona Common voice.
 remove-info = mi lukin e ni: sina wile weka e kalama awen sina tan kulupu sona. ni li pona la, jan ante li jo e kalama awen sina la, mi toki e ni tawa ona: o weka e ona.
