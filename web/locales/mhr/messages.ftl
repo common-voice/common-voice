@@ -1138,6 +1138,7 @@ sc-howto-title = Кузе ышташ
 sc-howto-addlang-title = Пашалан йылме-влакым ешарымаш
 sc-howto-addlang-text = Системыш пурымек, профиль ужашыште тый йылме-влакым ойырен кертат.
 sc-howto-addsen-title = У ойлончо-влакым ешаркале
+sc-howto-addsen-item-1 = Тыйын чыла колтымо ойлончо <wikipediaLink>Калык поянлык (CC-0) лицензий</wikipediaLink> почеш лийшаш улыт. Калыкле лицензийдыме паша-влакым пурташ полшаш манын, произведенийлан, кушеч материалым авторлык права оза Common Voice-ыш пуртынеже гын, <cc0WaiverLink>надыр нерген келшымашын шаблонжым</cc0WaiverLink> ыштенна.
 sc-howto-addsen-item-6 = Йылме-влакын ешартыш кӱштымаш дене <validationRulesLink>тергашлан шке правилышт</validationRulesLink> лийын кертеш. Йылмылан посна тергымаш файл уке гын, ме англичан йылмын чумыр правилжым кучылтына.
 sc-howto-cite-title = Кузе цитироватлаш
 sc-howto-cite-item-1 = Тый веб-сайтым ончыктен кертат, мутлан, «Common Voice — https://commonvoice.mozilla.org/»
