@@ -229,7 +229,7 @@ wall-of-text-second =
     kulupu esun suli li kepeken e kulupu kalama suli li pana ala e ona tawa jan ante mute.
     mi la ni li ken ala e sin. tan ni la mi open e pali Common Voice. ona la ilo li ken kute pona e kalama jan.
     jan ale li ken kepeken ona.
-show-wall-of-text = o lukin e toki mute
+show-wall-of-text = o lukin mute
 help-us-title = o pona e sitelen!
 help-us-explain = o kute e toki, o pana e sona ni: toki kalama li sama ala sama sitelen anpa?
 no-clips-to-validate = toki ni li jo ala e kalama awen. wile la, o awen e kalama sina.
@@ -242,9 +242,9 @@ speak-goal-text = kalama awen
 listen-subtitle = o pona e toki uta
 listen-paragraph = sina lukin e pona pi kalama toki la ni li suli sama. kute la o pali e kulupu sona open pi kalama toki jan.
 listen-goal-text = kalama awen pona
-hours-recorded = kalama awen pi tenpo suli
+hours-recorded = tenpo suli kalama
 hours-validated = tenpo suli pi kalama pona
-voices-online = jan li lon lon tenpo suno ni
+voices-online = jan lon tenpo ni
 todays-progress = sin pi tenpo suno ni
 help-reach-goal = o pona e wile ni: { $goal }
 read-terms-q = sina lukin ala lukin e lawa kepeken pi ilo ni?
