@@ -10,13 +10,8 @@ export const getDifferenceInIds = (
   requestedIds: number[],
   savedIds: number[]
 ): IdDifferences => {
-  const idsToBeAdded = requestedIds.map(id => {
-    if (!savedIds.includes(id)) return id;
-  });
-
-  const idsToBeRemoved = savedIds.map(id => {
-    if (!requestedIds.includes(id)) return id;
-  });
+  const idsToBeAdded = requestedIds.filter(id => !savedIds.includes(id));
+  const idsToBeRemoved = savedIds.filter(id => !requestedIds.includes(id));
 
   return { idsToBeAdded, idsToBeRemoved };
 };
