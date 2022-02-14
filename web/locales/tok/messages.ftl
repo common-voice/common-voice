@@ -962,7 +962,7 @@ demo-welcome-subheader = sina wile sona mute? sina wile pana tawa pali ni?
 ## Demo Datasets
 
 demo-language-select-card-header = kulupu sona Common Voice li suli nanpa wan pi ma ale lon toki mute, lon sona pi jan ale.
-demo-language-select-card-body = tan pana pi jan mute 259,000 lon toki mute 50 la, kulupu sona Common Voice li pona e pali pi ilo kute. ni la, ilo li pona tawa jan, tawa toki.
+demo-language-select-card-body = tan pana pi jan mute 259000 lon toki mute 50 la, kulupu sona Common Voice li pona e pali pi ilo kute. ni la, ilo li pona tawa jan, tawa toki.
 card-button-next = o kama
 card-button-back = o tawa sin
 demo-language-select-label = o lukin e toki
