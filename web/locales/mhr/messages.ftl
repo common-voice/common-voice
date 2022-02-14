@@ -1096,6 +1096,7 @@ contribution-background-voices-example-1-explanation = Тый кает? <strong>
 contribution-volume-title = Кугыт
 contribution-reader-effects-title = Лудмо эффект
 contribution-just-unsure-title = Чынак кокыте шонет?
+contribution-just-unsure-description = Нине темлымашлан шаралтдыме иктаж-мо дене тӱкналтат гын, порылий, шке чын шонымаш почешет йӱклӧ. Тый чынак рашемалтын от керт гын, коден кайыме полдышым кучылт да вес возымаш дек кусно.
 see-more = <chevron></chevron>Шукырак ужаш
 see-less = <chevron></chevron>Шагалрак ужаш
 
