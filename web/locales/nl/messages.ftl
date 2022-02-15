@@ -145,6 +145,7 @@ scn = Siciliaans
 shi = Tashelhiyt (Shilha)
 si = Singalees
 sk = Slowaaks
+skr = Saraiki
 sl = Sloveens
 so = Somalisch
 sq = Albanees
@@ -160,6 +161,7 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmeens
 tl = Tagalog
+tok = Toki Pona
 tr = Turks
 tt = Tataars
 tw = Twi
@@ -1270,11 +1272,8 @@ sc-rejected-none-found = Geen afgewezen zinnen gevonden!
 ## STATS
 
 sc-stats-title = Statistieken
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Laatste update: { $lastUpdate }
-sc-stats-last-update-never = Laatste update: nooit
 sc-stats-updating = Bijwerken…
+sc-stats-error = We kunnen de statistieken niet ophalen. Probeer het later nog eens.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1372,6 +1371,8 @@ sc-confirm-uploading = Zinnen worden geüpload. Dit kan enkele minuten duren, af
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Totaal
+sc-lang-info-title-personal = Persoonlijk
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
