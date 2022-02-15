@@ -1098,6 +1098,7 @@ contribution-varying-pronunciations-example-1-explanation = [«Берет» му
 contribution-varying-pronunciations-example-2-title = Тудын кидше нӧлтымӧ ыле.
 contribution-varying-pronunciations-example-2-explanation = [Англичан йылмыште «Raised» эре ик мутлончо семын, а кокыт семын огыл, ойлалтеш]
 contribution-background-noise-title = Фонан йӱк-йӱан
+contribution-background-noise-description = Машине туныктымаш алгоритм-влак тӱрлӧ фонан йӱк-йӱаным сеҥен кертышт манын, ме шонена, тыгак ятыр кугу йӱк-влакат, тылат уло текстым колаш огыт мешае гын, налалтын кертыт. Шып фонан мурсем — ТУГЕ; ятыр кугу йӱк дене мурсем, кунам тый кажне мутым от кол — УКЕ.
 contribution-background-noise-description-extended = Возымаш кӱрлалтеш але йӱк-йӱанлан кӧра тый чыла текстым от кол гын, тудым ӧрдыжтаре.
 contribution-background-noise-example-1-fixed-title = <strong>[Тӱрвычмӧ]</strong> Триас пагытысе <strong>[кокырымо]</strong> пеш кугу динозавтр-влак.
 contribution-background-noise-example-2-fixed-title = Триас пагытысе <strong>[кокыра]</strong> пеш кугу динозавр.
