@@ -526,7 +526,6 @@ about-playbook-how-add-language = nasin seme la mi ken pana e toki sin?
 about-playbook-how-add-language-content-1 = wan la, o lukin: toki sina li <languageLink>lon ala lon</languageLink>? ona li lon ala la, <strong>o ante toki e lipu, o kama jo e sitelen</strong>.
 about-playbook-how-add-language-content-2 = <strong>sina wile ante toki e lipu ni la</strong> o <translateVideo>kepeken</translateVideo> <pontoonLink>ilo Pontoon</pontoonLink>. ilo Pontoon li jo e toki mute. ona li jo ala e toki sina la, <pontoonRequestLink>sina ken pana e toki sin</pontoonRequestLink>. o wile e ona lon <repoLink>lipu ni</repoLink>. ni la ilo Common Voice li ken kama e toki sina. o lukin e toki mute lon <localizationFragment>lipu ni</localizationFragment>.
 about-playbook-how-add-language-content-3 = sina wile <strong>kama jo e sitelen</strong> la, o <scVideo>kepeken</scVideo> <scLink>ilo Sentence collector</scLink>.
-about-playbook-how-add-language-content-4 = abc abc
 
 ## How does localization work
 
@@ -585,6 +584,7 @@ mycroft-subtitle = ilo sona jan
 mycroft-description =
     ilo Mycroft li jan ilo toki open pi nanpa wan.
     sina ken kepeken ilo Mycroft lon ale. ona li lon ilo sona li lon tomo tawa li lon ilo Raspberry Pi.
+mycroft-secondary-description = ni li lo open pi jan ale. jan ale li ken ante, li ken pona e ona. ilo Mycroft la, sina ken kepeken ona lon ijo ale!
 
 ## Glossary
 
@@ -603,6 +603,7 @@ de-identified-explanation = ni li nasin weka pi sona jan tan kulupu sona Common 
 ## Error pages
 
 error-title-404 = mi ken ala alasa e lipu ni tawa sina
+error-content-404 = ken la, o lukin e <homepageLink>lipu open mi</homepageLink>. sina wile e sona la, o kama tawa <matrixLink>ilo Matrix</matrixLink>, o lukin e lipu pakala lon <githubLink>ilo Github</githubLink>, o lukin e <discourseLink>ilo Discourse</discourseLink>.
 error-title-503 = mi pakala. mi lon ala lon tenpo ni. nasin la mi sona ala.
 error-code = pakala { $code }
 
@@ -851,6 +852,7 @@ validated-clips = kalama awen pona
 total-approved = mute pona
 overall-accuracy = pona ale
 set-visibility = len ala len
+visibility-explainer = nasin ni li ante e len lon lipu pi pali suli. sina len la jan ante li ken ala lukin e pali sina. ni la sitelen sina en nimi sina en pali sina li lon ala lipu pali. o lukin e ni: sina ante la lipu pali li ante lon tenpo kama { $minutes }.
 visibility-overlay-note = o lukin e ni: sina len ala la sina ken ante lon <profileLink>lipu jan</profileLink>
 show-ranking = o len ala e pali mute mi
 
@@ -926,6 +928,10 @@ keep = ala
 remove = weka
 keep-info = kalama awen len sina li lon kulupu sona Common Voice. sina weka e sijelo ilo la, sina ken ala weka e kalama awen sina tan kulupu sona Common voice.
 remove-info = mi lukin e ni: sina wile weka e kalama awen sina tan kulupu sona. ni li pona la, jan ante li jo e kalama awen sina la, mi toki e ni tawa ona: o weka e ona.
+why-delete-recordings =
+    jan sona en jan mani en jan pi ilo kute li kepeken ilo Common Voice, li pona e ona.
+    
+    sina ken ala ken pana e sona ni: sina wile weka e kalama awen sina tan seme?
 profile-form-delete = o weka e lipu jan
 
 ## Profile Download
