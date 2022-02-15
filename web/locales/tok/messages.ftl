@@ -499,6 +499,9 @@ about-partnership =
     jan ale li ken kepeken ilo Common Voice. mi wile e pona pi kulupu mi tan ni: mi wile pali e kulupu sona suli nanpa wan.
     mi wile e pona tawa jan ale ni, tawa kulupu ale ni, tan pona ona:
 about-get-involved = o kama, o pali
+about-get-involved-text-2 =
+    sina wile ala wile pona e ilo Common Voice?
+    wile la, o toki lon <discourseLink>ilo Discourse</discourseLink>, o pana e pakala lon <githubLink>ilo Github</githubLink>, o toki lon <matrixLink>ilo Matrix</matrixLink>.
 about-stay-in-touch = nasin seme la mi sona e ijo sin?
 about-stay-in-touch-text-2 = sina ken toki tawa jan pi kulupu toki Mozilla lon <discourseLink>ilo Discourse</discourseLink>, lon <matrixLink>ilo Matrix</matrixLink>.
 about-nav-why-common-voice = tan seme?
