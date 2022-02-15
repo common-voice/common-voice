@@ -1111,7 +1111,7 @@ contribution-background-voices-example-1-explanation = Que vens? <strong>[cridat
 contribution-volume-title = Volum
 contribution-volume-description = Habitualment hi ha variacions en el volum entre lectors. Rebutgeu un tall només si el volum és tan alt que l'enregistrament s'entretalla, o (més habitual) si és tan baix que no podeu sentir que s'hi diu sense la referència del text escrit.
 contribution-reader-effects-title = Efectes de lectura
-contribution-reader-effects-description = La majoria dels enregistraments són de gent que parla amb naturalitat. Podeu acceptar la gravació ocasional no estàndard on es cridi, xiuxiuegi o, òbviament, es faci amb veu dramatitzada. Rebutgeu els enregistraments cantats i els que utilitzin una veu sintetitzada per ordinador.
+contribution-reader-effects-description = La majoria dels enregistraments són de gent que parla amb naturalitat. Podeu acceptar la gravació ocasional no estàndard on es cridi, xiuxiuegi o, òbviament, es faci amb veu dramatitzada. Rebutgeu els enregistraments cantats, on s'usi una veu sintetitzada per ordinador o els que no tinguin una entonació correcta de la frase, especialment les interrogatives.
 contribution-just-unsure-title = Teniu dubtes?
 contribution-just-unsure-description = Si us trobeu amb alguna cosa que aquestes directrius no cobreixen, voteu segons el vostre criteri. Si realment no ho podeu decidir, feu servir el botó Omet i passeu a l'enregistrament següent.
 see-more = <chevron></chevron>Més
@@ -1308,6 +1308,8 @@ sc-confirm-uploading = Les frases s'estan pujant. Això pot trigar alguns minuts
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Total
+sc-lang-info-title-personal = Personal
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
