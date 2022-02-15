@@ -513,11 +513,13 @@ about-nav-playbook = o sona e nasin pi pana pona
 
 about-playbook-what-is-language = toki li seme lon ilo Common Voice?
 about-playbook-what-is-language-content-2 = mi wile e ni: ilo kute en ilo toki li pona, li sona e toki pi jan ale. tawa ni la, kulupu sona o jo e jan ale.
+about-playbook-what-is-language-content-3 = toki li ken jo e nasin toki ante mute, e nimi ante mute, e nasin kalama ante. ni la, lon tenpo sike 2022 la, ilo li kama jo e <ctaLink>ilo 'Variants'</ctaLink>. ni la, kulupu toki li ken ante pona e toki ona lon kulupu sona suli.
 
 ## How do I add a language
 
 about-playbook-how-add-language = nasin seme la mi ken pana e toki sin?
 about-playbook-how-add-language-content-1 = wan la, o lukin: toki sina li <languageLink>lon ala lon</languageLink>? ona li lon ala la, <strong>o ante toki e lipu, o kama jo e sitelen</strong>.
+about-playbook-how-add-language-content-2 = <strong>sina wile ante toki e lipu ni la</strong> o <translateVideo>kepeken</translateVideo> <pontoonLink>ilo Pontoon</pontoonLink>. ilo Pontoon li jo e toki mute. ona li jo ala e toki sina la, <pontoonRequestLink>sina ken pana e toki sin</pontoonRequestLink>. o wile e ona lon <repoLink>lipu ni</repoLink>. ni la ilo Common Voice li ken kama e toki sina. o lukin e toki mute lon <localizationFragment>lipu ni</localizationFragment>.
 about-playbook-how-add-language-content-3 = sina wile <strong>kama jo e sitelen</strong> la, o <scVideo>kepeken</scVideo> <scLink>ilo Sentence collector</scLink>.
 
 ## How does localization work
@@ -1061,10 +1063,12 @@ sc-howto-addsen-title = o pana e sitelen sin
 sc-howto-addsen-item-1 = sitelen ale sina o kepeken <wikipediaLink>nasin pana CC0</wikipediaLink>. sina pana e sitelen pi nasin pana ni ala la, o kepeken <cc0WaiverLink>nasin pana ante ni</cc0WaiverLink>. ni la sina ken pana e sitelen pi jan ale ala.
 sc-howto-addsen-item-2 = nanpa la, o pana ala e nanpa lon sitelen pana. ona li ken pakala e toki jan. lon toki ante la, nimi nanpa li ken ante. ni la, nanpa li ken nasa e kulupu sona.
 sc-howto-addsen-item-5 = sitelen pi toki ante. o kepeken ala sitelen pi toki ante. o lukin: sitelen lili “ж” li tan toki Losi. taso, ona li lon ala toki pona. tan ni la, o kepeken ala ona.
+sc-howto-addsen-item-6 = toki li ken jo e <validationRulesLink>nasin pona ante</validationRulesLink>. toki li jo ala e ona la, ona li kepeken nasin pona pi toki Inli.
 sc-howto-cite-title = mi pana sona kepeken nasin seme?
 sc-howto-cite-pre-1 = ni li suli: o pana e lipu pi sona sina. ni la, sina kama jo ike ala. jan ante li ken toki e <copyrightIssuesLink>ike pi sona sina</copyrightIssuesLink>. mi pana e nasin pana:
 sc-howto-cite-item-1 = sina ken pana e nimi nasin: "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = o kepeken nasin pi tomo sona, sama tomo sona Harvard: "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
+sc-howto-cite-item-3 = sitelen li lon ala kulupu lipu la, sina ken kepeken nasin pana pi tomo sona Harvard "Jess (2021) My Public licence poems"
 sc-howto-review-title = o lukin e sitelen
 sc-howto-review-subtitle = o lukin: sitelen li ni ala ni:
 sc-howto-review-criteria-1 = sitelen lili ale o pona nasin lon nimi ale pi toki ni.
