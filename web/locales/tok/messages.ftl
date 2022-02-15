@@ -1050,6 +1050,7 @@ sc-logout-button = o weka tan ilo
 sc-home-title = kama pona tawa ilo Sentence Collector pi ilo Common Voice
 sc-home-collect-title = o kulupu e sitelen
 sc-home-review-title = o pona e sitelen
+sc-home-review-text = o pona e ni: sitelen o pona kepeken nasin pi sitelen pona
 
 ## HOW-TO
 
