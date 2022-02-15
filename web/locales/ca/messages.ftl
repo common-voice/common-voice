@@ -145,6 +145,7 @@ scn = sicilià
 shi = chelha
 si = singalès
 sk = eslovac
+skr = seraiki
 sl = eslovè
 so = somali
 sq = albanès
@@ -160,6 +161,7 @@ ti = tigrinya
 tig = tigre
 tk = turcman
 tl = tagal
+tok = toki pona
 tr = turc
 tt = tàtar
 tw = twi
@@ -1213,11 +1215,8 @@ sc-rejected-none-found = No s'ha trobat cap frase rebutjada!
 ## STATS
 
 sc-stats-title = Estadístiques
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Última actualització: { $lastUpdate }
-sc-stats-last-update-never = Última actualització: mai
 sc-stats-updating = S'està actualitzant…
+sc-stats-error = No s'han pogut obtenir les estadístiques. Torneu a provar-ho més tard.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
