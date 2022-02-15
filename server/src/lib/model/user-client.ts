@@ -240,7 +240,6 @@ async function updateVariants(clientId: string, languages: UserLanguage[]) {
     requestedVariants.push(temp);
   });
 
-  if (requestedVariants && requestedVariants.length < 1) return;
   // query all existing variants for user
   const [savedVariants]: [{ variant_id: number }[]] = await db.query(
     `
