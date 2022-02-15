@@ -225,29 +225,37 @@ async function updateLanguages(clientId: string, languages: UserLanguage[]) {
  * @param locales array of UserVariantsLocales
  * @returns void
  */
-async function updateVariants(clientId: string, UserLanguage: UserLanguage[]) {
+async function updateVariants(clientId: string, languages: UserLanguage[]) {
+  // flatten request obj to get a list of all variant_ids
+  const requestedVariants: {
+    locale_token: string;
+    variant_id: number;
+  }[] = [];
+  languages.forEach(language => {
+    if (!language?.variant?.id) return;
+    const temp = {
+      locale_token: language.locale,
+      variant_id: language?.variant?.id,
+    };
+    requestedVariants.push(temp);
+  });
+
+  if (requestedVariants && requestedVariants.length < 1) return;
   // query all existing variants for user
-  const [savedVariants]: [{ id: number; variant_id: number }[]] =
-    await db.query(
-      `
-      SELECT id, variant_id
-      FROM user_client_variants
+  const [savedVariants]: [{ variant_id: number }[]] = await db.query(
+    `
+      SELECT variant_id
+      FROM user_client_variants ucv
       WHERE client_id = ?
       ORDER BY id
     `,
-      [clientId]
-    );
-  // flatten request obj to get a list of all variant_ids
-  const requestedVariantIds = UserLanguage.map(language => {
-    return language?.variants?.map(variant => variant.id) ?? [];
-  }).reduce((allIds, cur) => {
-    return allIds.concat(cur);
-  }, []);
+    [clientId]
+  );
 
   const savedVariantIds = savedVariants.map(row => row.variant_id);
 
   const { idsToBeAdded, idsToBeRemoved } = getDifferenceInIds(
-    requestedVariantIds,
+    requestedVariants.map((variant: any) => variant.variant_id),
     savedVariantIds
   );
 
@@ -261,19 +269,23 @@ async function updateVariants(clientId: string, UserLanguage: UserLanguage[]) {
 
   if (idsToBeAdded.length > 0) {
     //get all valid variant ids
-    const [validIds]: [{ id: number }[]] =
-      (await db.query(`SELECT id from variants where id in (?)`, [
-        idsToBeAdded,
-      ])) || [];
+    const [validIds]: [
+      { variant_id: number; locale_name: string; locale_id: number }[]
+    ] =
+      (await db.query(
+        `SELECT v.id as variant_id, l.name as locale_name, l.id as locale_id
+        FROM variants v JOIN locales l on v.locale_id = l.id where v.id in (?)`,
+        [idsToBeAdded]
+      )) || [];
 
-    const flattenedValidIds = validIds.map(row => {
-      return row.id;
-    });
-
-    if (flattenedValidIds.length > 0) {
-      const formattedIds = flattenedValidIds.map(id => [clientId, id]); //format array so query can insert multiple
+    if (validIds.length > 0) {
+      const formattedIds = validIds.map(variantRow => [
+        clientId,
+        variantRow.variant_id,
+        variantRow.locale_id,
+      ]); //format array so query can insert multiple
       await db.query(
-        'INSERT INTO user_client_variants (client_id, variant_id) VALUES ?',
+        'INSERT INTO user_client_variants (client_id, variant_id, locale_id) VALUES ?',
         [formattedIds]
       );
     }
@@ -519,7 +531,7 @@ const UserClient = {
       updateDemographicsPromise,
       this.claimContributions(clientId, clientIds),
       languages && updateLanguages(clientId, languages),
-      languages && updateVariants(accountClientId, languages),
+      languages && updateVariants(clientId, languages),
     ]);
 
     if (
