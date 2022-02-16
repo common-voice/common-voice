@@ -98,6 +98,7 @@ ko = Coreano
 kpv = Komi-Zyrian
 kw = Córnico
 ky = Quirguiz
+lb = Luxemburguês
 lg = Luganda
 lij = Liguriano
 lt = Lituano
@@ -1147,6 +1148,10 @@ sc-home-collect-title = Coletar frases
 sc-home-collect-text = Ajude-nos escrevendo ou coletando frases de domínio público.
 sc-home-review-title = Revisar frases
 sc-home-review-text = Ajude-nos revisando frases para ver se estão corretas, de acordo com as diretrizes.
+
+## GENERAL
+
+sc-languages-fetch-error = Falha ao buscar os idiomas disponíveis. Não é possível fazer contribuições no momento. Tente novamente mais tarde.
 
 ## HOW-TO
 
