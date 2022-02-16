@@ -98,6 +98,7 @@ ko = Coreano
 kpv = Komi-Zyrian
 kw = Cornico
 ky = Kirghiso
+lb = Lussemburghese
 lg = Luganda
 lij = Ligure
 lt = Lituano
@@ -1135,6 +1136,10 @@ sc-home-collect-title = Raccogli frasi
 sc-home-collect-text = Aiutaci scrivendo o raccogliendo frasi di pubblico dominio.
 sc-home-review-title = Convalida frasi
 sc-home-review-text = Aiutaci convalidando le frasi per verificare che aderiscano alle linee guida.
+
+## GENERAL
+
+sc-languages-fetch-error = Non è stato possibile recuperare le lingue disponibili. Al momento non è possibile contribuire. Riprova più tardi.
 
 ## HOW-TO
 
