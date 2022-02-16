@@ -258,6 +258,7 @@ async function updateVariants(clientId: string, languages: UserLanguage[]) {
     requestedVariants.map((variant: any) => variant.variant_id),
     savedVariantIds
   );
+  console.log('idsToBeAdded, idsToBeRemoved', requestedVariants);
 
   //If the user has removed variants, remove entry from db
   if (idsToBeRemoved.length > 0) {
@@ -364,8 +365,8 @@ const UserClient = {
         LEFT JOIN user_client_accents user_accents ON u.client_id = user_accents.client_id
         LEFT JOIN accents ON user_accents.accent_id = accents.id
         LEFT JOIN locales on accents.locale_id = locales.id
-        JOIN user_client_variants uv ON u.client_id = uv.client_id
-        JOIN variants v on uv.variant_id = v.id 
+        LEFT JOIN user_client_variants uv ON u.client_id = uv.client_id
+        LEFT JOIN variants v on uv.variant_id = v.id 
         -- TODO: This subquery is VERY awkward, but safer until we simplify
         --       accent grouping.
         CROSS JOIN
@@ -426,8 +427,8 @@ const UserClient = {
         LEFT JOIN user_client_accents user_accents ON u.client_id = user_accents.client_id
         LEFT JOIN accents ON user_accents.accent_id = accents.id
         LEFT JOIN locales ON accents.locale_id = locales.id
-        JOIN user_client_variants uv ON u.client_id = uv.client_id
-        JOIN variants v on uv.variant_id = v.id 
+        LEFT JOIN user_client_variants uv ON u.client_id = uv.client_id
+        LEFT JOIN variants v on uv.variant_id = v.id 
 
 
         -- TODO: This subquery is awkward, but safer until we simplify accent
