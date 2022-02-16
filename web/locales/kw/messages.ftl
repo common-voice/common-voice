@@ -172,6 +172,12 @@ ug = Uyghur
 uk = Ukraynek
 ur = Urdu
 uz = Uzbek
+vec = Venedek
+vi = Vietnamek
+vot = Votek
+yi = Yedhowek
+yo = Yoruba
+yue = Kantonek
 zh-CN = Chinek (China)
 zh-HK = Chinek (Hong Kong)
 zh-TW = Chinek (Taiwan)
@@ -197,16 +203,26 @@ share-title = Gweresowgh ni ow hwilas re erel dhe argevro aga lev!
 share-text = Gweresowgh ow tyski dhe jynnow kowsel kepar ha pobel gwir, argevrowgh agas lev orth { $link }
 link-copied = Kevren kopies
 back-top = Dehweles dhe benn an folen
+logout = Digelmi
 
 ## Home Page
 
 home-title = Common Voice yw ragdres gans Mozilla dhe weres dyski dhe jynnow fatel wra tus gwir kowsel.
-home-cta = Kowsowgh yn ughel, kevrowgh omma!
+default-tagline = Mozilla Common Voice yw ragdres dhe weres jynnow ow tyski fatel wra tus gwir kowsel.
+home-cta = Kewsewgh yn ughel, kevrewgh omma!
 wall-of-text-start = Naturel yw an lev, dhe dhenses yma'n lev. Henn yw prag yma hwans dhyn gwruthyl teknegieth lev rag agan jynnow. Mes rag gwruthyl systemow lev, res yw kuntel myns bras dres eghen a dhata lev.
 wall-of-text-more-mobile = Nyns yw brassa rann an data usys gans kowethyansow bras kavadow dhe'n brassa rann a dus. Ni a grys henna dhe lettya awenekter. Ytho yma lonchyes genen an ragdres Common Voice, towl dhe weres ow kul aswonvos lev ygor dhe bubonen.
 wall-of-text-more-desktop =
     Lemmyn ni a yll argevro agas lev dhe weres dhyn ow trehevel database pennfenten ygor a yll pubonen usya rag gwul towlennow awenek rag devisyow ha'n wias.<lineBreak></lineBreak>
     Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh an ober a gevriysi erel dhe wellhe aga hwalita. Mar sempel es henna yw!
+wall-of-text-first =
+    Naturel yw an lev, dhe dhenses yma'n lev. Henn yw prag yth on mar yntanys dhe wruthyl teknegieth lev devnydhyadow
+    rag agan jynnow. Mes dhe wruthyl kevreythyow lev, res yw dhe dhisplegyoryon kuntel myns fest bras
+    a dhata lev.
+wall-of-text-second =
+    Nyns yw brassa rann an data usys gans kowethyansow bras kavadow dhe'n brassa rann a dus. Ni a grys
+    henna dhe lettya awenekter. Ytho ni a lonchyas Common Voice, ragdres dhe weres ow kul aswonvos
+    lev ygor dhe bubonan.
 show-wall-of-text = Redya moy
 help-us-title = Gweresowgh dhyn ow kwirya lavarow!
 help-us-explain = Gweskowgh seni, goslowowgh ha leverowgh dhyn: a veu an lavar a-woles leverys yn ewn?
@@ -214,6 +230,7 @@ no-clips-to-validate = Yth hevel nag eus klyppys dhe woslowes orta y'n yeth ma. 
 vote-yes = Beu
 vote-no = Na veu
 toggle-play-tooltip = Gweskowgh war { shortcut-play-toggle } rag dalleth po hedhi an modh seni
+speak-subtitle = Kevri agas lev
 
 ## Account Benefits
 
