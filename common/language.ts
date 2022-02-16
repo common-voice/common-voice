@@ -6,7 +6,7 @@ export type Accent = {
   clientId?: string;
 };
 
-// a single variant object
+// single variant object
 export type Variant = {
   id: number;
   name: string;
