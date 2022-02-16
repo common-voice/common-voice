@@ -23,7 +23,7 @@ const db = getMySQLInstance();
 const compileLanguages = (clientLanguages: any, row: any) => {
   const result = clientLanguages || {};
 
-  if (row.accent_id && row.name) {
+  if (row.accent_id) {
     const accent = {
       name: row.accent_name,
       id: row.accent_id,
