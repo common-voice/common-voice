@@ -488,4 +488,8 @@ export default class API {
   getAccents(lang?: string) {
     return this.fetch(`${API_PATH}/language/accents${lang ? '/' + lang : ''}`);
   }
+
+  getVariants(lang?: string) {
+    return this.fetch(`${API_PATH}/language/variants${lang ? '/' + lang : ''}`);
+  }
 }

@@ -5,10 +5,11 @@ import { Localized } from '@fluent/react';
 import { useAPI } from '../../../../../hooks/store-hooks';
 import { DownIcon } from '../../../../ui/icons';
 import { Button } from '../../../../ui/ui';
-import { Accent, UserLanguage } from 'common';
+import { Accent, Variant, UserLanguage } from 'common';
 import { useEffect } from 'react';
 
 import InputLanguageName from './input-language-name';
+import InputLanguageVariant from './input-language-variant';
 import InputLanguageAccents from './input-language-accents/input-language-accents';
 
 import './languages.css';
@@ -19,6 +20,10 @@ export type AccentsAll = {
     userGenerated: { [id: string]: Accent };
     preset: { [id: string]: Accent };
   };
+};
+
+export type VariantsAll = {
+  [locale: string]: Array<Variant>;
 };
 
 interface Props {
@@ -36,8 +41,8 @@ function ProfileInfoLanguages({
 }: Props) {
   const api = useAPI();
   const [accentsAll, setAccentsAll] = useState<AccentsAll>({});
+  const [variantsAll, setVariantsAll] = useState<VariantsAll>({});
   const [showAccentInfo, setShowAccentInfo] = useState(false);
-  const [hasAccentDataLoaded, setHasAccentDataLoaded] = useState(false);
   const hasUserLanguages = userLanguages.length > 0;
   const hasNewEmptyLanguage =
     hasUserLanguages && !userLanguages[userLanguages.length - 1].locale;
@@ -54,9 +59,12 @@ function ProfileInfoLanguages({
       return;
     }
 
-    api.getAccents().then(accents => {
-      setAccentsAll(accents);
-      setHasAccentDataLoaded(true);
+    Promise.all([
+      api.getAccents().then(setAccentsAll),
+      api.getVariants().then(variants => {
+        setVariantsAll(variants as VariantsAll);
+      }),
+    ]).then(() => {
       setAreLanguagesLoading(false);
     });
   }, []);
@@ -75,6 +83,13 @@ function ProfileInfoLanguages({
             <InputLanguageName
               locale={locale}
               accentsAll={accentsAll}
+              userLanguages={userLanguages}
+              setUserLanguages={setUserLanguages}
+            />
+
+            <InputLanguageVariant
+              locale={locale}
+              variantsAll={variantsAll}
               userLanguages={userLanguages}
               setUserLanguages={setUserLanguages}
             />

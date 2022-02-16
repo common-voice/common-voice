@@ -27,10 +27,12 @@ jest.mock('./input-language-accents/input-language-accents', () => ({
 
 // mock api
 const mockGetAccents = jest.fn(() => Promise.resolve(MOCK_ACCENTS_ALL));
+const mockGetVariants = jest.fn(() => Promise.resolve(MOCK_VARIANTS_ALL));
 jest.mock('../../../../../hooks/store-hooks', () => ({
   useAPI: () => {
     return {
       getAccents: mockGetAccents,
+      getVariants: mockGetVariants,
     };
   },
 }));
