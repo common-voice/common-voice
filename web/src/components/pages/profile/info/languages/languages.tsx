@@ -44,6 +44,10 @@ function ProfileInfoLanguages({
   const [variantsAll, setVariantsAll] = useState<VariantsAll>({});
 
   const hasUserLanguages = userLanguages.length > 0;
+  const hasUserLanguagesWithVariants = userLanguages.some(language => {
+    const variants = variantsAll[language.locale];
+    return variants && variants.length > 0;
+  });
   const hasNewEmptyLanguage =
     hasUserLanguages && !userLanguages[userLanguages.length - 1].locale;
 
@@ -104,6 +108,14 @@ function ProfileInfoLanguages({
       </div>
 
       <div>
+        {hasUserLanguagesWithVariants && (
+          <ExpandableInformation summaryLocalizedId="help-variants">
+            <Localized id="help-variants-explanation">
+              <div />
+            </Localized>
+          </ExpandableInformation>
+        )}
+
         {hasUserLanguages && (
           <ExpandableInformation summaryLocalizedId="help-accent">
             <Localized id="help-accent-explanation">
