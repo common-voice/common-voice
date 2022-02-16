@@ -418,6 +418,7 @@ change-email-setings = o ante e poki lipu sina lon "nimi lon sina" lon "nasin il
 
 faq-title = wile sona tan jan mute
 faq-what-cv-q = ilo Common Voice li seme?
+faq-what-cv-a = kepeken ilo la ni li suli: ilo li ken kute e kalama toki jan. taso, nasin lon li esun li open ala. kulupu Mozilla li pali e ilo Common Voice. ni la jan ale li ken pali e ni: ilo li ken kute e kalama toki jan. ilo Common Voice li kulupu e sona tan jan mute. ni la toki ale lon tenpo kama la jan ale li ken kepeken e kalama toki ona lon ilo kute.
 faq-what-cv-a-2 =
     ilo kute li pona e kepeken ilo. taso, tenpo ni la ilo li kepeken mani mute, li len tan kulupu pali ona. ilo Common Voice li pona e ilo kute, li pana e ona tawa jan ale. ilo Common Voice li kulupu sona toki, li tan kalama jan. jan ale li ken pali e ilo kute ona tan ilo Common Voice, kepeken toki ale.
     
@@ -535,6 +536,8 @@ about-playbook-how-add-language-content-3 = sina wile <strong>kama jo e sitelen<
 
 about-playbook-how-localize = nasin seme la jan li ante toki e lipu?
 about-playbook-how-localize-content-1 = ante toki pi pali Common Voice li lon <strong>ilo Pontoon</strong>.
+about-playbook-how-localize-content-2 = sina jo ala e sijelo ilo la, <pontoonAccountLink>o pali e ona</pontoonAccountLink>. o kepeken toki <strong>(ni li kulupu sina)</strong>. o pali lon <pontoonCvLink>pali wan pi ilo Common Voice</pontoonCvLink>. ni la sina ken ante toki e lipu kama. o pilin e ona la, sina lukin e nimi pi toki Inli e poki sitelen pi ante toki.
+about-playbook-how-localize-content-3 = sina ante toki tan toki Inli. taso, sina ken lukin e <strong>ante toki</strong> pi toki ante. o pilin e nena <strong>lipu jan</strong> e nena <strong>nasin ilo</strong>. ni la o kepeken toki sina. anpa poka la kulupu pi toki ale (<strong>Locales</strong>) li lon. tenpo suno wan li pini la ante toki li lon lipu.
 about-playbook-how-localize-content-4 = lipu li pini 75% la, lipu li ken open.
 about-playbook-how-localize-content-5 = sina wile e pona la, o lukin e sitelen tawa ni
 
@@ -547,6 +550,7 @@ about-playbook-how-add-sentences-content-4 = toki li pona la, mi pana insa e ona
 ## How to record quality
 
 about-playbook-how-record-quality = nasin seme la mi ken kalama pona?
+about-playbook-how-record-content-1 = nasin toki pi tenpo ale la o kepeken e kalama ni a! nasin toki sina li pona tan ni: mi wile e nasin kalama sina e suli kalama sina.
 about-playbook-how-record-content-2 = o kalama ala e ijo ante. mi wile kute pona e sina.
 about-playbook-how-record-content-3 = o toki sama sitelen. o weka ala, o ante ala, o pana ala e nimi sin.
 about-playbook-how-record-content-4 = o lukin e ni: ilo li kute ala kute? sina pini la ilo li pini ala pini?
@@ -1018,6 +1022,10 @@ contribution-criteria-page-title = nasin pona pi pana toki
 contribution-criteria-page-description = o sona e nasin pi kalama toki pona. ni la o pona e kalama toki sina!
 contribution-for-example = o lukin
 contribution-misreadings-title = pakala kalama
+contribution-misreadings-description = sina kute la o lukin e ni: toki li sama sitelen anu seme? pakala lili anu pakala suli li lon la o weka e ona. <br />pakala ni li ken lon:
+contribution-misreadings-description-extended-list-1 = toki li weka e nimi tan sitelen open.
+contribution-misreadings-description-extended-list-2 = toki li weka e sitelen lili tan nimi sitelen.
+contribution-misreadings-description-extended-list-3 = toki li wan e nimi tu. nimi wan li lon ala sitelen.
 contribution-misreadings-description-extended-list-4 = sina pini e kute ilo la, toki sina li weka.
 contribution-misreadings-description-extended-list-5 = sina toki e nimi lon tenpo mute.
 contribution-misreadings-example-1-title = mi la soweli ni li suwi.
@@ -1026,6 +1034,8 @@ contribution-misreadings-example-3-title = mi la soweli ni li suw-.
 contribution-misreadings-example-3-explanation = [ona li pini ala e toki. taso, kute li pini]
 contribution-misreadings-example-4-title = mi la soweli ni li suwi a. pona.
 contribution-misreadings-example-4-explanation = [ona li toki e nimi sin]
+contribution-misreadings-example-7-title = mi pona e ike e pakala ali.
+contribution-misreadings-example-7-explanation = [nimi "ale" li lon sitelen la o toki e "ale" e "ali" ala]
 contribution-varying-pronunciations-title = nasin pi kalama toki ante
 contribution-varying-pronunciations-description-extended = pilin sina la jan li toki e nimi pi sona ona ala la, o weka e ona. sina sona ala la, o pilin e nena "mi sona ala".
 contribution-varying-pronunciations-example-2-title = mi ke<strong>pe</strong>ken ilo suli.
