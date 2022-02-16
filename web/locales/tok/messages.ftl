@@ -423,6 +423,10 @@ faq-what-cv-a-2 =
     
     mi kama jo e kalama toki tan toki ale. ni la mi kama jo e toki pi jan mute ala. mi kama jo e toki mute la, jan sona en jan mani en kulupu pona li ken pona e toki ona.
 faq-why-important-q = ni li suli tan seme?
+faq-why-important-a =
+    tenpo mute la toki li nasin pona. ona li ken e toki tawa jan ante. ilo pi kalama toki jan li pana e ken ni tawa ilo sona pi mi ale. mi mute li ken e jan pi pali ilo la ilo li kute pona e kalama toki jan. ni la ona li ken ante toki e toki lon tenpo li ken pana e pona kepeken toki. taso, ilo ni mute li esun li open ala. ilo Common Voice la jan ken pali kepeken ilo suli li ken pana e pona li ken pana e ilo lon toki ona.
+    
+    mi wile e ni: jan ale li ken kepeken e ilo kute. tan ni la mi kulupu e kalama toki jan. toki mute ni li suli li jo e jan toki mute. toki ante li jo e kulupu toki lili. ni la ilo mute li ken ala kepeken e ni. mi o pana e kulupu suli pi kalama toki jan. ni la jan pali en jan esun en kulupu toki mute li ken pona e ni.
 faq-how-get-q = nasin seme la mi kama jo e sona pi ilo Common Voice?
 faq-how-get-a = kulupu sona Common Voice li pana kepeken <licenseLink>lipu CC0</licenseLink>, lon <datasetLink>lipu pi kulupu sona</datasetLink>. sina ken kama jo e kulupu sona ante tan lipu ni.
 faq-when-release2-q = tenpo seme la sona pi ilo Common Voice li lon toki ante?
@@ -967,6 +971,7 @@ download-request-metadata-link = nimi sitelen
 ## Landing
 
 welcome-staff = kama pona tawa jan pi kulupu { $company }!
+help-contribute = sina jo e sijelo ilo pi ilo Common Voice, sina ken pona e ni: o pali e kulupu pi sona ante mute.
 login-company = o kama kepeken poki lipu sina tan kulupu { $company }.
 profile-not-required = sina jo e lipu jan la ni li pona mute. taso, sina jo ala la ni li pona.
 read-more-about = o lukin lon lipu sona mi
@@ -1294,6 +1299,7 @@ sc-review-select-language = o kepeken toki la, sina ken lukin e sitelen
 sc-review-no-sentences = sitelen sin li lon ala. <addLink>o pana e sitelen sin lon tenpo ni!</addLink>
 sc-review-form-prompt =
     .message = sina lukin li pana ala e sitelen. sina wile ala wile pali e ni?
+sc-review-form-usage = sina luka tawa poka pi sitelen pini la, sina pona e sitelen. sina luka tawa poka pi sitelen open la, sina ike e sitelen. sina luka tawa sewi la, sina weka e sitelen. o sona e ni: o pana e sona sina!
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = sitelen li tan: { $sentenceSource }
