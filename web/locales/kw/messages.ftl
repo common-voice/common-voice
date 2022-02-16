@@ -10,6 +10,10 @@ submit-form-action = Danvon
 loading = Ow karga...
 email-opt-in-info = Da via genev receva ebostow kepar ha kovheansow amkan, nowedhyansow ow avonsyans ha lytherow nowodhow a Common Voice.
 email-opt-in-info-title = Junya an rol-bost Common Voice
+email-opt-in-info-sub-with-challenge = Receva ebostow kepar ha kovheansow amkan ha chalenj, nowedhyansow avonsyans, ha lytherow nowodhow a Common Voice.
+email-opt-in-privacy-v2 = Dre dhewis receva ebostow yth esowgh ow leverel agas bos unver gans Mozilla ow handla an kedhlow ma dell yw displegys yn <privacyLink>Polici Privetter<privacyLink> Mozilla.
+indicates-required = * a dhelin skrifva a res
+not-available-abbreviation = Ankavadow
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,24 +21,40 @@ email-opt-in-info-title = Junya an rol-bost Common Voice
 
 ## Languages
 
+ab = Abkhaz
+ace = Acehnek
+ady = Adyghe
+af = Afrikaans
+am = Amharek
 an = Aragonek
 ar = Arabek
+arn = Mapudungun
 as = Asamek
 ast = Asturiek
 az = Azerbayjanek
+ba = Bashkir
+bas = Basaa
+be = Belarussek
+bg = Bulgarek
 bn = Bengalek
 br = Bretonek
+bs = Bosnek
 bxr = Buryat
 ca = Katalanek
+cak = Kaqchikel
+ckb = Kurdek Kresek
 cnh = Hakha Chin
+co = Korsek
 cs = Check
 cv = Chouvash
 cy = Kembrek
 da = Danek
 de = Almaynek
 dsb = Iselsorbek
+dv = Dhivehi
 el = Greka
 en = Sowsnek
+eo = Esperanto
 es = Spaynek
 et = Estonek
 fi = Finnek
@@ -208,6 +228,37 @@ faq-title = Govynnow menowgh
 ## ABOUT US
 
 
+## How does it work section
+
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
 ## Glossary
 
 
@@ -378,4 +429,60 @@ profile-form-delete = Dilea an profil
 
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
