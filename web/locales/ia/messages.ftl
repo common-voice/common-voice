@@ -98,6 +98,7 @@ ko = Coreano
 kpv = Komi-Zyriano
 kw = Cornico
 ky = Kirghiso
+lb = Luxemburgese
 lg = Luganda
 lij = Ligure
 lt = Lituano
@@ -1151,6 +1152,9 @@ sc-home-collect-title = Colliger phrases
 sc-home-collect-text = Adjuta nos a scriber o colliger Phrases de dominio public.
 sc-home-review-title = Revider phrases
 sc-home-review-text = Adjuta nos per revider phrases pro correctessa secundo le lineas guida.
+
+## GENERAL
+
 
 ## HOW-TO
 
