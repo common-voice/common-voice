@@ -231,6 +231,9 @@ vote-yes = Beu
 vote-no = Na veu
 toggle-play-tooltip = Gweskowgh war { shortcut-play-toggle } rag dalleth po hedhi an modh seni
 speak-subtitle = Kevri agas lev
+speak-paragraph = Rekordya temmigow lev yw rann gresel a dhrehevel agan sett data ygor, yma nebes ow leverel y vos an rann dhidhanus ynwedh.
+speak-goal-text = Temmigow rekordys
+listen-subtitle = Gweres dhyn ow tilysa levow
 
 ## Account Benefits
 
