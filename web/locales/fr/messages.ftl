@@ -98,6 +98,7 @@ ko = Coréen
 kpv = Komi-zyriène
 kw = Cornique
 ky = Kirghize
+lb = Luxembourgeois
 lg = Luganda
 lij = Ligure
 lt = Lituanien
@@ -1138,6 +1139,10 @@ sc-home-collect-text = Contribuez à écrire ou collecter des phrases du domaine
 sc-home-review-title = Vérifier les phrases
 sc-home-review-text = Contribuez en révisant les phrases pour qu’elles soient correctes conformément aux consignes.
 
+## GENERAL
+
+sc-languages-fetch-error = Nous n’avons pas réussi à récupérer les langues disponibles. Les contributions ne sont actuellement pas possibles. Veuillez réessayer plus tard.
+
 ## HOW-TO
 
 sc-howto-title = Comment faire ?
@@ -1203,6 +1208,7 @@ sc-rejected-none-found = Aucune phrase rejetée n’a été trouvée !
 
 sc-stats-title = Statistiques
 sc-stats-updating = Mise à jour…
+sc-stats-error = Nous n’avons pas pu récupérer les statistiques. Veuillez réessayer plus tard.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1294,6 +1300,7 @@ sc-confirm-uploading = Les phrases sont en cours d’envoi. Cela peut prendre pl
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Total
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
