@@ -23,12 +23,14 @@ export type AccentsAll = {
 
 interface Props {
   userLanguages: UserLanguage[];
+  areLanguagesLoading: boolean;
   setUserLanguages: (userLanguages: UserLanguage[]) => void;
   setAreLanguagesLoading: (value: boolean) => void;
 }
 
 function ProfileInfoLanguages({
   userLanguages,
+  areLanguagesLoading,
   setUserLanguages,
   setAreLanguagesLoading,
 }: Props) {
@@ -48,7 +50,7 @@ function ProfileInfoLanguages({
   };
 
   useEffect(() => {
-    if (hasAccentDataLoaded) {
+    if (!areLanguagesLoading) {
       return;
     }
 
@@ -59,7 +61,7 @@ function ProfileInfoLanguages({
     });
   }, []);
 
-  if (!hasAccentDataLoaded) {
+  if (areLanguagesLoading) {
     return null;
   }
 

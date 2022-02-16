@@ -270,6 +270,7 @@ function ProfileInfo({
       <ProfileInfoLanguages
         userLanguages={userLanguages}
         setUserLanguages={setUserLanguages}
+        areLanguagesLoading={areLanguagesLoading}
         setAreLanguagesLoading={setAreLanguagesLoading}
       />
 
