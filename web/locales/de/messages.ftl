@@ -98,6 +98,7 @@ ko = Koreanisch
 kpv = Komi-Syrjänisch
 kw = Cornish
 ky = Kirgisisch
+lb = Luxemburgisch
 lg = Luganda
 lij = Ligurisch
 lt = Litauisch
@@ -1153,6 +1154,10 @@ sc-home-collect-title = Sätze sammeln
 sc-home-collect-text = Helfen Sie uns, indem Sie gemeinfreie Sätze schreiben oder sammeln.
 sc-home-review-title = Sätze überprüfen
 sc-home-review-text = Helfen Sie uns, indem Sie Sätze gemäß den Richtlinien auf Richtigkeit überprüfen.
+
+## GENERAL
+
+sc-languages-fetch-error = Verfügbare Sprachen konnten nicht abgerufen werden. Beiträge sind derzeit nicht möglich. Bitte versuchen Sie es später erneut.
 
 ## HOW-TO
 
