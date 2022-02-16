@@ -437,7 +437,7 @@ faq-what-cv-and-deepspeech-q = ilo Common Voice en ilo Deep Speech la ante li se
 faq-what-cv-and-deepspeech-a = kulupu sona Common Voice li pona tawa kulupu Mozilla, tawa ilo kama Deep Speech. pali wan pi ilo Deep Speech li tan tenpo sike 2017 lon tenpo mun 11. kepeken kulupu sona Common Voice la, ilo kute pi jan ale li tawa jan ale, li pona jan ale. mi mute li wile e ni: jan sona li kepeken ilo ni, li pali e ilo pona mute.
 faq-is-goal-assistant-q = pali Common Voice la sina wile pali e ilo pali kute anu seme?
 faq-is-goal-assistant-a = pali Common Voice la mi wile ken e ni: jan ale li ken pali e ilo kute, e ilo pi sona jan, e ilo ale ni: ona li wile e toki uta mute. kalama ni la jan li ken pali e ilo pali kute, taso jan li ken pali e ijo mute ante.
-faq-do-want-native-q = toki ni li toki mama mi ala. sina wile ala wile e toki uta mi?
+faq-do-want-native-q = toki ni li toki mama mi ala. kalama mi pi toki ni li nasa. sina wile ala wile e toki uta mi?
 faq-do-want-native-a = mi wile mute e toki uta sina! pali Common Voice la mi wile e nasin kalama mute tan ni: ni la ilo kute li pona sama tawa jan ale. ni la, toki li toki mama sina ala la, pana sina pi toki uta li suli mute.
 faq-why-different-speakers-q = tan seme la sina wile e jan toki mute?
 faq-why-different-speakers-a = kulupu mute pi toki uta la toki mute li tan <articleLink>jan mije pi mani mute</articleLink>. nasin kalama toki li lon kulupu jan lili la, toki uta lon kulupu ni li mute ala. kin la ilo mute li kute pona ala e toki tan jan meli. ni la mi wile e nasa lon kulupu kalama mi!
@@ -1031,19 +1031,30 @@ contribution-misreadings-description-extended-list-4 = sina pini e kute ilo la, 
 contribution-misreadings-description-extended-list-5 = sina toki e nimi lon tenpo mute.
 contribution-misreadings-example-1-title = mi la soweli ni li suwi.
 contribution-misreadings-example-2-title = soweli ni li suwi.
+contribution-misreadings-example-2-explanation = [o weka ala e nimi "mi la"]
 contribution-misreadings-example-3-title = mi la soweli ni li suw-.
 contribution-misreadings-example-3-explanation = [ona li pini ala e toki. taso, kute li pini]
 contribution-misreadings-example-4-title = mi la soweli ni li suwi a. pona.
 contribution-misreadings-example-4-explanation = [ona li toki e nimi sin]
+contribution-misreadings-example-5-title = mi pona e ike e pakala ale.
+contribution-misreadings-example-6-title = mi pona e ike e pakalale.
+contribution-misreadings-example-6-explanation = [nimi "pakala ale" li sama nimi wan]
 contribution-misreadings-example-7-title = mi pona e ike e pakala ali.
 contribution-misreadings-example-7-explanation = [nimi "ale" li lon sitelen la o toki e "ale" e "ali" ala]
+contribution-misreadings-example-8-title = o kama pona lon tomo mi.
+contribution-misreadings-example-8-explanation = [sitelen en toki li ante]
 contribution-varying-pronunciations-title = nasin pi kalama toki ante
 contribution-varying-pronunciations-description-extended = pilin sina la jan li toki e nimi pi sona ona ala la, o weka e ona. sina sona ala la, o pilin e nena "mi sona ala".
+contribution-varying-pronunciations-example-1-title = mi moku e kili loje suwi.
+contribution-varying-pronunciations-example-1-explanation = [kalama la jan ken toki e nimi "kili" e nimi "loje" sama nimi "kiri" en nimi "roje"]
 contribution-varying-pronunciations-example-2-title = mi ke<strong>pe</strong>ken ilo suli.
 contribution-varying-pronunciations-example-2-explanation = [nimi kepeken la kalama "ke" wan li wawa]
 contribution-background-noise-title = kalama pi ijo ante
 contribution-background-noise-description = mi wile e ni: ilo pilin pi kama sona li ken kute e kalama mute. sina ken kute e toki ale la kalama suli li pona. kalama musi lon kalama toki li pona. kalama musi li suli la sina ken kute ala e nimi ale la ni li like.
+contribution-background-noise-example-1-fixed-title = <strong>[kalama]</strong> mi la soweli ni li <strong>[kalama]</strong> suwi a.
+contribution-background-noise-example-2-fixed-title = mi la sowe-<strong>[kalama]</strong> li suwi.
 contribution-background-noise-example-2-explanation = [sina ken ala kute e nimi ale]
+contribution-background-noise-example-3-fixed-title = <strong>[kalama pakala]</strong> la soweli ni <strong>[kalama pakala]</strong> li suwi.
 contribution-background-voices-title = toki pi jan ante
 contribution-volume-title = wawa kalama
 contribution-reader-effects-description = kalama mute la jan li kepeken kalama uta pi nasa ala. kalama li nasa lili la ni kin li ike ala. jan li ken kalama pi wawa mute li ken kalama pi wawa lili li ken kepeken kalama uta pi nasa lili. ale ni li pona. taso ni li ike: jan li kalama musi e nimi; kalama li tan uta jan ala li tan ilo. ni li lon la o weka e kalama ni.
@@ -1083,6 +1094,9 @@ sc-home-collect-title = o kulupu e sitelen
 sc-home-collect-text = o pana e sitelen pi kepeken open la sina pana e pona.
 sc-home-review-title = o pona e sitelen
 sc-home-review-text = o pona e ni: sitelen o pona kepeken nasin pi sitelen pona
+
+## GENERAL
+
 
 ## HOW-TO
 
