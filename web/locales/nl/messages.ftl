@@ -98,6 +98,7 @@ ko = Koreaans
 kpv = Zurjeens
 kw = Cornish
 ky = Kirgizisch
+lb = Luxemburgs
 lg = Luganda
 lij = Ligurisch
 lt = Litouws
@@ -1157,6 +1158,10 @@ sc-home-collect-title = Zinnen verzamelen
 sc-home-collect-text = Help ons door openbaar toegankelijke zinnen te schrijven of te verzamelen.
 sc-home-review-title = Zinnen beoordelen
 sc-home-review-text = Help ons door zinnen te controleren op juistheid volgens de richtlijnen.
+
+## GENERAL
+
+sc-languages-fetch-error = We kunnen de beschikbare talen niet ophalen. Bijdragen zijn momenteel niet mogelijk. Probeer het later opnieuw.
 
 ## HOW-TO
 
