@@ -678,6 +678,7 @@ get-started-speech = o sona e ilo kute pi kalama toki
 other-datasets = kulupu sona ante pi kalama toki
 feedback-q = sina wile toki anu seme?
 resource-nemo-info = <githubLink>ilo NVIDIA NeMo</githubLink>™ li <docsLink>kulupu ilo suli</docsLink>. jan pi kulupu sona li kepeken ona la, ona li ken pali e ilo suli toki.
+resource-deepspeech-info = ilo kute pi kalama toki li ken tan ilo kute open Deep Speech pi kulupu Mozilla. o lukin e <githubLink>sona pi lipu Github</githubLink>. anu la o tawa <discourseLink>ilo Discourse pi ilo kute DeepSpeech</discourseLink>. sina sona kepeken lon ni.
 resource-coqui-info = <coquiLink>kulupu Coqiu</coquiLink> li pali e ijo tawa ilo open pi sona toki. pali ona li ilo kute, li ilo pi sitelen toki.
 community-playbook = lipu sona kulupu
 resource-playbook-info = <playbookLink>o kama jo e pona</playbookLink> pi pali Common Voice. ona li kulupu e sona pi kepeken pi ante toki e sona pi kama kulupu.
@@ -1079,6 +1080,7 @@ sc-logout-button = o weka tan ilo
 
 sc-home-title = kama pona tawa ilo Sentence Collector pi ilo Common Voice
 sc-home-collect-title = o kulupu e sitelen
+sc-home-collect-text = o pana e sitelen pi kepeken open la sina pana e pona.
 sc-home-review-title = o pona e sitelen
 sc-home-review-text = o pona e ni: sitelen o pona kepeken nasin pi sitelen pona
 
@@ -1323,6 +1325,7 @@ sc-review-form-button-approve-shortcut = p
 sc-review-form-button-reject-shortcut = w
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = w
+sc-review-form-keyboard-usage-custom = sina ken kepeken e nena pi supa nena sina: sitelen li pona la, o kepeken nena { sc-review-form-button-approve-shortcut }. sitelen li pona ala la, o kepeken nena { sc-review-form-button-reject-shortcut }. sina sona ala la, o kepeken nena { sc-review-form-button-skip-shortcut }.
 sc-review-form-button-submit =
     .submitText = o pini e lukin
 # Variables:
