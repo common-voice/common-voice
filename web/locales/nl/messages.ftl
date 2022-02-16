@@ -98,6 +98,7 @@ ko = Koreaans
 kpv = Zurjeens
 kw = Cornish
 ky = Kirgizisch
+lb = Luxemburgs
 lg = Luganda
 lij = Ligurisch
 lt = Litouws
@@ -145,6 +146,7 @@ scn = Siciliaans
 shi = Tashelhiyt (Shilha)
 si = Singalees
 sk = Slowaaks
+skr = Saraiki
 sl = Sloveens
 so = Somalisch
 sq = Albanees
@@ -160,6 +162,7 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmeens
 tl = Tagalog
+tok = Toki Pona
 tr = Turks
 tt = Tataars
 tw = Twi
@@ -1156,6 +1159,10 @@ sc-home-collect-text = Help ons door openbaar toegankelijke zinnen te schrijven 
 sc-home-review-title = Zinnen beoordelen
 sc-home-review-text = Help ons door zinnen te controleren op juistheid volgens de richtlijnen.
 
+## GENERAL
+
+sc-languages-fetch-error = We kunnen de beschikbare talen niet ophalen. Bijdragen zijn momenteel niet mogelijk. Probeer het later opnieuw.
+
 ## HOW-TO
 
 sc-howto-title = Handleiding
@@ -1270,11 +1277,8 @@ sc-rejected-none-found = Geen afgewezen zinnen gevonden!
 ## STATS
 
 sc-stats-title = Statistieken
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Laatste update: { $lastUpdate }
-sc-stats-last-update-never = Laatste update: nooit
 sc-stats-updating = Bijwerken…
+sc-stats-error = We kunnen de statistieken niet ophalen. Probeer het later nog eens.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1372,6 +1376,8 @@ sc-confirm-uploading = Zinnen worden geüpload. Dit kan enkele minuten duren, af
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Totaal
+sc-lang-info-title-personal = Persoonlijk
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =

@@ -94,6 +94,7 @@ ko = Korean
 kpv = Komi-Zyrian
 kw = Cornish
 ky = Kyrgyz
+lb = Luxembourgish
 lg = Luganda
 lij = Ligurian
 lt = Lithuanian
@@ -338,6 +339,8 @@ profile-form-additional-language =
     .label = Additional Language
 profile-form-language =
     .label = Language
+profile-form-variant =
+    .label = Is your language in any of these variants?
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
@@ -395,6 +398,8 @@ off = Off
 on = On
 help-accent = Need some help with accent?
 help-accent-explanation = Your accent is the way you pronounce words. It can be shaped by where you have lived, which other languages you speak and lots of other factors. You can share any information you feel is relevant here.
+help-variants = Need some help with variants?
+help-variants-explanation = Variants are a specific form of a language - for example shared by those living in a geography or commmunity. Sometimes these are called dialects.
 
 ## Profile - Email
 browse-file-title = Upload an image file
@@ -1153,6 +1158,9 @@ sc-home-collect-title = Collect sentences
 sc-home-collect-text = Help us by writing or collecting Public Domain sentences.
 sc-home-review-title = Review sentences
 sc-home-review-text = Help us by reviewing sentences for correctness according to the guidelines.
+
+## GENERAL
+sc-languages-fetch-error = We failed to fetch available languages. Contributions are currently not possible. Please try again later.
 
 ## HOW-TO
 sc-howto-title = How to
