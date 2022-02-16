@@ -1045,6 +1045,7 @@ contribution-background-noise-description = mi wile e ni: ilo pilin pi kama sona
 contribution-background-noise-example-2-explanation = [sina ken ala kute e nimi ale]
 contribution-background-voices-title = toki pi jan ante
 contribution-volume-title = wawa kalama
+contribution-reader-effects-description = kalama mute la jan li kepeken kalama uta pi nasa ala. kalama li nasa lili la ni kin li ike ala. jan li ken kalama pi wawa mute li ken kalama pi wawa lili li ken kepeken kalama uta pi nasa lili. ale ni li pona. taso ni li ike: jan li kalama musi e nimi; kalama li tan uta jan ala li tan ilo. ni li lon la o weka e kalama ni.
 contribution-just-unsure-title = sina sona ala anu seme?
 see-more = <chevron></chevron> o lukin mute
 see-less = <chevron></chevron> o lukin lili
