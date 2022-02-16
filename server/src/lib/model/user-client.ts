@@ -494,7 +494,6 @@ const UserClient = {
       }),
       { languages: [] }
     );
-    // console.log('reduceLanguages(user);', reduceLanguages(user));
     return reduceLanguages(user);
   },
 
