@@ -486,8 +486,6 @@ export default class API {
   }
 
   getVariants(lang?: string) {
-    // TODO: implement this on server
-    // return this.fetch(`${API_PATH}/language/variants${lang ? '/' + lang : ''}`);
-    return Promise.resolve({});
+    return this.fetch(`${API_PATH}/language/variants${lang ? '/' + lang : ''}`);
   }
 }
