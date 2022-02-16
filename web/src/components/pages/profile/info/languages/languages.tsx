@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { Localized } from '@fluent/react';
 
 import { useAPI } from '../../../../../hooks/store-hooks';
-import { DownIcon } from '../../../../ui/icons';
 import { Button } from '../../../../ui/ui';
 import { Accent, Variant, UserLanguage } from 'common';
 import { useEffect } from 'react';
@@ -13,6 +12,7 @@ import InputLanguageVariant from './input-language-variant';
 import InputLanguageAccents from './input-language-accents/input-language-accents';
 
 import './languages.css';
+import ExpandableInformation from '../../../../expandable-information/expandable-information';
 
 export type AccentsAll = {
   [locale: string]: {
@@ -42,7 +42,7 @@ function ProfileInfoLanguages({
   const api = useAPI();
   const [accentsAll, setAccentsAll] = useState<AccentsAll>({});
   const [variantsAll, setVariantsAll] = useState<VariantsAll>({});
-  const [showAccentInfo, setShowAccentInfo] = useState(false);
+
   const hasUserLanguages = userLanguages.length > 0;
   const hasNewEmptyLanguage =
     hasUserLanguages && !userLanguages[userLanguages.length - 1].locale;
@@ -105,21 +105,11 @@ function ProfileInfoLanguages({
 
       <div>
         {hasUserLanguages && (
-          <div
-            className={'profile-toggle ' + (showAccentInfo ? 'expanded' : '')}>
-            <button
-              type="button"
-              onClick={() => setShowAccentInfo(!showAccentInfo)}>
-              <Localized id="help-accent">
-                <span />
-              </Localized>
-
-              <DownIcon />
-            </button>
+          <ExpandableInformation summaryLocalizedId="help-accent">
             <Localized id="help-accent-explanation">
-              <div className="explanation" />
+              <div />
             </Localized>
-          </div>
+          </ExpandableInformation>
         )}
 
         <Button
