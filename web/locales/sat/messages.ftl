@@ -518,9 +518,11 @@ about-playbook-how-add-language = ᱤᱧ ᱫᱚ ᱢᱤᱫᱴᱟᱹᱝ ᱯᱟᱹ�
 
 ## How does localization work
 
+about-playbook-how-localize = ᱥᱟᱭᱤᱴ ᱨᱮᱭᱟᱜ ᱛᱚᱨᱡᱚᱢᱟ ᱪᱮᱞᱠᱟᱛᱮ ᱠᱟᱹᱢᱤ ᱮᱫᱟᱭ ?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ᱤᱧ ᱫᱚ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱪᱮᱞᱠᱟᱛᱮ ᱥᱮᱞᱮᱫ ᱟᱹᱧ ?
 
 ## How to record quality
 
