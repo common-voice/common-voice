@@ -61,9 +61,7 @@ function ProfileInfoLanguages({
 
     Promise.all([
       api.getAccents().then(setAccentsAll),
-      api.getVariants().then(variants => {
-        setVariantsAll(variants as VariantsAll);
-      }),
+      api.getVariants().then(setVariantsAll),
     ]).then(() => {
       setAreLanguagesLoading(false);
     });
