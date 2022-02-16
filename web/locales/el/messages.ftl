@@ -98,6 +98,7 @@ ko = Κορεατικά
 kpv = Komi-Zyrian
 kw = Κορνουαλικά
 ky = Κιργιζικά
+lb = Λουξεμβουργιανά
 lg = Λουγκάντα
 lij = Λιγουριανά
 lt = Λιθουανικά
@@ -471,6 +472,7 @@ how-does-it-work-text = Δημιουργούμε με crowdsourcing ένα σύ�
 
 ## How does it work section
 
+about-language-req-subtitle = Κάποιος αιτείται την προσθήκη γλώσσας.
 about-localization-title = Μετάφραση ιστοτόπου
 about-sentence-collection-title = Συλλογή προτάσεων
 about-new-lang-title = Έναρξη νέας γλώσσας
@@ -1093,6 +1095,9 @@ sc-logout-button = Αποσύνδεση
 sc-home-title = Καλώς ορίσατε στη Συλλογή προτάσεων Common Voice
 sc-home-collect-title = Συλλογή προτάσεων
 sc-home-review-title = Έλεγχος προτάσεων
+
+## GENERAL
+
 
 ## HOW-TO
 
