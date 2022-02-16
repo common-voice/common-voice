@@ -1155,6 +1155,9 @@ sc-home-collect-text = Help us by writing or collecting Public Domain sentences.
 sc-home-review-title = Review sentences
 sc-home-review-text = Help us by reviewing sentences for correctness according to the guidelines.
 
+## GENERAL
+sc-languages-fetch-error = We failed to fetch available languages. Contributions are currently not possible. Please try again later.
+
 ## HOW-TO
 sc-howto-title = How to
 sc-howto-addlang-title = Adding languages to work with
