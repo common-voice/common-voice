@@ -23,7 +23,7 @@ const db = getMySQLInstance();
 const compileLanguages = (clientLanguages: any, row: any) => {
   const result = clientLanguages || {};
 
-  if (row.accent_id) {
+  if (row.accent_id && row.name) {
     const accent = {
       name: row.accent_name,
       id: row.accent_id,
@@ -41,16 +41,17 @@ const compileLanguages = (clientLanguages: any, row: any) => {
 
   if (row.variant_id) {
     const variant = {
-      name: row.accent_name,
-      id: row.accent_id,
-      token: row.accent_token,
+      id: row.variant_id,
+      name: row.variant_name,
+      token: row.variant_token,
     };
+
     if (result[row.locale]) {
-      result[row.locale].variants.push(variant);
+      result[row.locale].variant = variant;
     } else {
       result[row.locale] = {
         locale: row.locale,
-        variants: [variant],
+        variant: variant,
       };
     }
   }
@@ -353,6 +354,9 @@ const UserClient = {
           accents.id AS accent_id,
           accents.accent_name,
           accents.accent_token,
+          v.variant_name,
+          v.variant_token,
+          v.id as variant_id,
           locales.name AS locale,
           ages.age,
           genders.gender
@@ -360,6 +364,8 @@ const UserClient = {
         LEFT JOIN user_client_accents user_accents ON u.client_id = user_accents.client_id
         LEFT JOIN accents ON user_accents.accent_id = accents.id
         LEFT JOIN locales on accents.locale_id = locales.id
+        JOIN user_client_variants uv ON u.client_id = uv.client_id
+        JOIN variants v on uv.variant_id = v.id 
         -- TODO: This subquery is VERY awkward, but safer until we simplify
         --       accent grouping.
         CROSS JOIN
@@ -379,6 +385,7 @@ const UserClient = {
       `,
       [client_id, email]
     );
+
     const userObj = Object.values(
       rows.reduce((obj: { [client_id: string]: any }, row: any) => {
         const client = obj[row.client_id];
@@ -402,6 +409,9 @@ const UserClient = {
           accents.id AS accent_id,
           accents.accent_name,
           accents.accent_token,
+          v.variant_name,
+          v.variant_token,
+          v.id as variant_id,
           locales.name AS locale,
           ages.age,
           genders.gender,
@@ -416,8 +426,8 @@ const UserClient = {
         LEFT JOIN user_client_accents user_accents ON u.client_id = user_accents.client_id
         LEFT JOIN accents ON user_accents.accent_id = accents.id
         LEFT JOIN locales ON accents.locale_id = locales.id
-        LEFT JOIN user_client_variants uv ON u.client_id = uv.client_id
-        LEFT JOIN variants v on uv.variant_id = v.id 
+        JOIN user_client_variants uv ON u.client_id = uv.client_id
+        JOIN variants v on uv.variant_id = v.id 
 
 
         -- TODO: This subquery is awkward, but safer until we simplify accent
@@ -460,6 +470,7 @@ const UserClient = {
         ...pick(
           row,
           'accent',
+          'variant',
           'age',
           'email',
           'gender',
