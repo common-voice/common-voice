@@ -98,6 +98,7 @@ ko = Corëeg
 kpv = Komi-Zyrian
 kw = Cernyweg
 ky = Kyrgyz
+lb = Lwcsembwrgeg
 lg = Luganda
 lij = Ligurieg
 lt = Lithiuanieg
@@ -1208,6 +1209,10 @@ sc-home-collect-title = Casglu brawddegau
 sc-home-collect-text = Helpwch ni trwy ysgrifennu neu gasglu brawddegau o'r Parth Cyhoeddus.
 sc-home-review-title = Adolygu brawddegau
 sc-home-review-text = Helpwch ni trwy adolygu brawddegau i sicrhau eu cywirdeb yn unol â'r canllawiau.
+
+## GENERAL
+
+sc-languages-fetch-error = Methwyd ag estyn yr ieithoedd sydd ar gael. Nid yw'n bosibl cyfrannu ar hyn o bryd. Rhowch gynnig arni eto'n nes ymlaen.
 
 ## HOW-TO
 
