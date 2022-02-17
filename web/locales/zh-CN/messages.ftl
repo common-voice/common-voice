@@ -98,6 +98,7 @@ ko = 韩语
 kpv = 科米-齐良语
 kw = 康沃尔语
 ky = 吉尔吉斯语
+lb = 卢森堡语
 lg = 卢干达语
 lij = 利古里亚语
 lt = 立陶宛语
@@ -145,6 +146,7 @@ scn = 西西里语
 shi = 希尔哈语
 si = 僧伽罗语
 sk = 斯洛伐克语
+skr = 西莱基语
 sl = 斯洛文尼亚语
 so = 索马里语
 sq = 阿尔巴尼亚语
@@ -160,6 +162,7 @@ ti = 提格里尼亚语
 tig = 提格雷语
 tk = 土库曼语
 tl = 塔加洛语
+tok = 道本语
 tr = 土耳其语
 tt = 鞑靼语
 tw = 契维语
@@ -1069,6 +1072,9 @@ sc-home-collect-text = 帮助我们撰写或收集公有领域的句子。
 sc-home-review-title = 审核句子
 sc-home-review-text = 请按下列标准帮助我们审核句子是否正确。
 
+## GENERAL
+
+
 ## HOW-TO
 
 sc-howto-title = 如何做
@@ -1133,10 +1139,6 @@ sc-rejected-none-found = 找不到驳回的句子！
 ## STATS
 
 sc-stats-title = 统计数据
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = 最后更新：{ $lastUpdate }
-sc-stats-last-update-never = 最后更新：从未
 sc-stats-updating = 正在更新…
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
@@ -1224,6 +1226,8 @@ sc-confirm-uploading = 正在上传句子。根据句子数量而定可能需要
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = 总计
+sc-lang-info-title-personal = 个人
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =

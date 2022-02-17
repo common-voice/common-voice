@@ -98,6 +98,7 @@ ko = Koreanska
 kpv = Komi-syrjänska
 kw = Korniska
 ky = Kirgiziska
+lb = Luxemburgiska
 lg = Luganda
 lij = Liguriska
 lt = Litauiska
@@ -1146,6 +1147,10 @@ sc-home-collect-title = Samla meningar
 sc-home-collect-text = Hjälp oss genom att skriva eller samla meningar som är allmän egendom.
 sc-home-review-title = Granska meningar
 sc-home-review-text = Hjälp oss genom att granska meningar för korrekthet enligt riktlinjerna.
+
+## GENERAL
+
+sc-languages-fetch-error = Vi kunde inte hämta tillgängliga språk. Bidrag är för närvarande inte möjliga. Vänligen försök igen senare.
 
 ## HOW-TO
 

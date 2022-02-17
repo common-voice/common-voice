@@ -94,6 +94,7 @@ ko = Korean
 kpv = Komi-Zyrian
 kw = Cornish
 ky = Kyrgyz
+lb = Luxembourgish
 lg = Luganda
 lij = Ligurian
 lt = Lithuanian
@@ -1153,6 +1154,9 @@ sc-home-collect-title = Collect sentences
 sc-home-collect-text = Help us by writing or collecting Public Domain sentences.
 sc-home-review-title = Review sentences
 sc-home-review-text = Help us by reviewing sentences for correctness according to the guidelines.
+
+## GENERAL
+sc-languages-fetch-error = We failed to fetch available languages. Contributions are currently not possible. Please try again later.
 
 ## HOW-TO
 sc-howto-title = How to

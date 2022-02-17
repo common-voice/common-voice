@@ -18,25 +18,9 @@ function saveDataJSON(name, data) {
 
 async function fetchPontoonLanguages() {
   const { data } = await request({
-    uri: 'https://pontoon.mozilla.org/graphql',
-    method: 'POST',
+    uri: 'https://pontoon.mozilla.org/graphql?query={project(slug:%22common-voice%22){localizations{totalStrings,approvedStrings,locale{code,name,direction}}}}',
+    method: 'GET',
     json: true,
-    body: {
-      query: `{
-            project(slug: "common-voice") {
-              localizations {
-                totalStrings
-                approvedStrings
-                locale {
-                  code
-                  name
-                  direction
-                }
-              }
-            }
-          }`,
-      variables: null,
-    },
   });
   return data.project.localizations
     .map(({ totalStrings, approvedStrings, locale }) => ({

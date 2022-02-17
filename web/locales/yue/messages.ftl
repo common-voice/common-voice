@@ -36,7 +36,6 @@ ba = 巴什基爾語
 bas = 巴沙語
 be = 白羅斯語
 bg = 保加利亞語
-bm = 班巴拉語
 bn = 孟加拉語
 br = 不列塔尼語
 bxr = 布里亞特語
@@ -459,13 +458,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 點解要揀 Common Voice?
-about-subtitle = Common Voice 係 Mozilla 幫助教機器真人點樣講嘢嘅倡議嘅一部分。除咗 Common Voice 數據集之外，我哋仲建構緊一個名為Deep Speech嘅開源語音識別引擎。
-about-header-description = 呢兩個計劃都係我哋努力糾正電子語音落差嘅一部份。語音識別技術可以令我哋嘅電子裝置更加人性化，但係開發者需要十分大量嘅語音數據，先能夠打造出噉樣嘅系統。目前大部分語音數據都相當昂貴，而且受專有權限制。
-about-header-description-2 =
-    呢個計劃係想縮短數碼語音嘅技術分歧。語音識別科技可以令我哋嘅設備更加人性化，但係開發者要靠大量嘅語音資料先至可以建立到。目前可用嘅資料價格昂貴，又係專有技術。
-    我哋想令語音數據可以公開自由畀人使用，並且確保呢啲數據反映出我哋大衆嘅多樣性。合衆人之力，我哋可以幫大家將語音識別技術變得更好！
-how-does-it-work-title = 佢係點運作嘅？
 how-does-it-work-text = 我哋整緊一個開源嘅聲音資料集。一齊幫手，貢獻你嘅聲音，核實錄音嘅準確度，令資料集變得更加好。
+
+## How does it work section
+
 about-speak = 講
 about-speak-text = 貢獻者會錄低由句庫抽出嚟嘅句子。
 about-listen-queue = 聆聽隊列
@@ -497,6 +493,34 @@ about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點樣？
 about-nav-partners = 合作夥伴
 about-nav-get-involved = 參與
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智能
 mycroft-description = Mycroft 係全球第一套開放原始碼嘅語音助理，無論喺電腦、汽車、Raspberry Pi 定任何地方都用得到。
@@ -1014,6 +1038,7 @@ sc-logout-button = 登出
 ## HOME
 
 sc-home-title = 歡迎嚟到 Common Voice 句子收集器
+sc-home-intro = 語句收集工具係 <commonVoiceLink>Common Voice</commonVoiceLink> 嘅一部份。佢可以畀參與者收集社群提供嘅語句及判斷其正確與否。閣下亦可用此工具載入及整理喺公共區域中取得嘅中小型語料。所有語句必須來自公共領域。被核准嘅語句每個星期都會被導入至 Common Voice 嘅語音庫中，並喺每次 Common Voicew 網站部署個陣發佈到上面。
 sc-home-collect-title = 收集句子
 sc-home-collect-text = 幫我哋收集或者創作公共領域嘅句子
 sc-home-review-title = 審核句子
@@ -1032,6 +1057,10 @@ sc-howto-addsen-title = 添加新句子
 
 ## STATS
 
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice 句子收集器已經收集咗 { $languageCount } 門語言嘅 { $sentenceCount } 個句子喇！
 
 ## ADD
 
@@ -1059,8 +1088,6 @@ sc-howto-addsen-title = 添加新句子
 sc-review-form-button-reject = 否決
 sc-review-form-button-skip = 跳過
 sc-review-form-button-approve = 通過
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = 你都可以用鍵盤快捷掣：撳 Y 通過、N 否決、S 跳過
 sc-review-form-button-submit =
     .submitText = 完成審核
 sc-review-link = 審核

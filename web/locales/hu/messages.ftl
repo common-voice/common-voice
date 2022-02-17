@@ -98,6 +98,7 @@ ko = Koreai
 kpv = Komi-zürjén
 kw = Cornwalli
 ky = Kirgiz
+lb = Luxemburgi
 lg = Luganda
 lij = Ligur
 lt = Litván
@@ -1154,6 +1155,10 @@ sc-home-collect-title = Mondatok gyűjtése
 sc-home-collect-text = Segítsen nekünk közkincsű mondatok írásában vagy összegyűjtésében.
 sc-home-review-title = Mondatok ellenőrzése
 sc-home-review-text = Segítsen nekünk a mondatok az irányelvek szerinti helyességének ellenőrzésében.
+
+## GENERAL
+
+sc-languages-fetch-error = Nem sikerült lekérni az elérhető nyelveket. A közreműködés jelenleg nem lehetséges. Próbálja újra később.
 
 ## HOW-TO
 

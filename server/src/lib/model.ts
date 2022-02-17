@@ -104,23 +104,9 @@ const getAvgSecondsPerClip = (locale: string) =>
 
 function fetchLocalizedPercentagesByLocale() {
   return request({
-    uri: 'https://pontoon.mozilla.org/graphql',
-    method: 'POST',
+    uri: 'https://pontoon.mozilla.org/graphql?query={project(slug:%22common-voice%22){localizations{totalStrings,approvedStrings,locale{code}}}}',
+    method: 'GET',
     json: true,
-    body: {
-      query: `{
-            project(slug: "common-voice") {
-              localizations {
-                totalStrings
-                approvedStrings
-                locale {
-                  code
-                }
-              }
-            }
-          }`,
-      variables: null,
-    },
   }).then(({ data }: any) =>
     data.project.localizations.reduce(
       (obj: { [locale: string]: number }, l: any) => {
