@@ -1338,13 +1338,13 @@ sc-review-form-usage = sina luka tawa poka pi sitelen pini la, sina pona e sitel
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = sitelen li tan: { $sentenceSource }
-sc-review-form-button-reject = o weka
+sc-review-form-button-reject = o ike
 sc-review-form-button-skip = mi sona ala
 sc-review-form-button-approve = o pona
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = p
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
-sc-review-form-button-reject-shortcut = w
+sc-review-form-button-reject-shortcut = i
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = w
 sc-review-form-keyboard-usage-custom = sina ken kepeken e nena pi supa nena sina: sitelen li pona la, o kepeken nena { sc-review-form-button-approve-shortcut }. sitelen li pona ala la, o kepeken nena { sc-review-form-button-reject-shortcut }. sina sona ala la, o kepeken nena { sc-review-form-button-skip-shortcut }.
