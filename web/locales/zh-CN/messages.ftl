@@ -98,6 +98,7 @@ ko = 韩语
 kpv = 科米-齐良语
 kw = 康沃尔语
 ky = 吉尔吉斯语
+lb = 卢森堡语
 lg = 卢干达语
 lij = 利古里亚语
 lt = 立陶宛语
@@ -1070,6 +1071,9 @@ sc-home-collect-title = 收集句子
 sc-home-collect-text = 帮助我们撰写或收集公有领域的句子。
 sc-home-review-title = 审核句子
 sc-home-review-text = 请按下列标准帮助我们审核句子是否正确。
+
+## GENERAL
+
 
 ## HOW-TO
 
