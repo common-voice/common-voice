@@ -228,18 +228,14 @@ export default class API {
   fetchContributionActivity(
     from: 'you' | 'everyone',
     locale?: string
-  ): Promise<
-    {
-      date: string;
-      value: number;
-    }[]
-  > {
-    return this.fetch(
-      API_PATH +
-        (locale ? '/' + locale : '') +
-        '/contribution_activity?from=' +
-        from
-    );
+  ): Promise<{ date: string; value: number }[]> {
+    let endpoint = API_PATH;
+
+    if (locale) {
+      endpoint += `/${locale}`;
+    }
+
+    return this.fetch(`${endpoint}/contribution_activity?from=${from}`);
   }
 
   fetchUserClients(): Promise<UserClient[]> {

@@ -98,6 +98,7 @@ ko = 韓語
 kpv = 科米-齊良語
 kw = 康瓦爾語
 ky = 吉爾吉斯語
+lb = 盧森堡語
 lg = 盧干達語
 lij = 利古里亞語
 lt = 立陶宛語
@@ -1134,6 +1135,10 @@ sc-home-collect-title = 收集句子
 sc-home-collect-text = 透過撰寫或收集公眾領域的語句來幫助我們增加內容。
 sc-home-review-title = 審核句子
 sc-home-review-text = 幫助我們依照下列標準來審核語句是否正確。
+
+## GENERAL
+
+sc-languages-fetch-error = 可用語言取得失敗，目前暫時無法貢獻，請稍候再試。
 
 ## HOW-TO
 

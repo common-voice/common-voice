@@ -10,6 +10,10 @@ submit-form-action = Danvon
 loading = Ow karga...
 email-opt-in-info = Da via genev receva ebostow kepar ha kovheansow amkan, nowedhyansow ow avonsyans ha lytherow nowodhow a Common Voice.
 email-opt-in-info-title = Junya an rol-bost Common Voice
+email-opt-in-info-sub-with-challenge = Receva ebostow kepar ha kovheansow amkan ha chalenj, nowedhyansow avonsyans, ha lytherow nowodhow a Common Voice.
+email-opt-in-privacy-v2 = Dre dhewis receva ebostow yth esowgh ow leverel agas bos unver gans Mozilla ow handla an kedhlow ma dell yw displegys yn <privacyLink>Polici Privetter<privacyLink> Mozilla.
+indicates-required = * a dhelin skrifva a res
+not-available-abbreviation = Ankavadow
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,69 +21,163 @@ email-opt-in-info-title = Junya an rol-bost Common Voice
 
 ## Languages
 
+ab = Abkhaz
+ace = Acehnek
+ady = Adyghe
+af = Afrikaans
+am = Amharek
 an = Aragonek
 ar = Arabek
+arn = Mapudungun
 as = Asamek
 ast = Asturiek
 az = Azerbayjanek
+ba = Bashkir
+bas = Basaa
+be = Belarussek
+bg = Bulgarek
 bn = Bengalek
 br = Bretonek
+bs = Bosnek
 bxr = Buryat
 ca = Katalanek
+cak = Kaqchikel
+ckb = Kurdek Kresek
 cnh = Hakha Chin
+co = Korsek
 cs = Check
 cv = Chouvash
 cy = Kembrek
 da = Danek
 de = Almaynek
 dsb = Iselsorbek
+dv = Dhivehi
 el = Greka
 en = Sowsnek
+eo = Esperanto
 es = Spaynek
 et = Estonek
+eu = Baskek
+fa = Persek
+ff = Fulah
 fi = Finnek
 fo = Faroek
 fr = Frenkek
 fy-NL = Frisek
 ga-IE = Wordhenek
+gl = Galisek
+gn = Guarani
+ha = Hausa
 he = Ebrow
+hi = Hindi
+hr = Kroatek
 hsb = Ughelsorbek
+ht = Haitiek
 hu = Hongarek
+hy-AM = Armenyek
+hyw = Armenyek West
 ia = Interlingua
 id = Indonesek
+ie = Interlingue
+ig = Igbo
 is = Islondek
 it = Italek
+izh = Izhoriek
 ja = Japanek
 ka = Jorjek
+kaa = Karakalpak
 kab = Kabyle
+kbd = Kabardek
+ki = Kikuyu
 kk = Kazakh
+km = Khmer
+kmr = Kurdek Kurmanji
+knn = Konkani (Devanagari)
 ko = Koreek
 kpv = Komi-Zyrian
 kw = Kernowek
 ky = Kyrgyz
+lb = Luksembourgek
+lg = Luganda
+lij = Liguriek
+lt = Lithuaniek
+lv = Latviek
+mai = Maithili
+mdf = Moksha
+mg = Malagasy
+mhr = Mari an Pras
 mk = Makedonek
+ml = Malayalam
+mn = Mongoliek
+mni = Meetei Lon
+mos = Mossi
+mr = Marathi
+mrj = Mari an Breow
+ms = Malayek
+mt = Maltek
+my = Burmek
 myv = Erzya
+nan-tw = Taiwanek (Minnan)
 nb-NO = Norgaghek (Bokmål)
 ne-NP = Nepalek
+nia = Nias
 nl = Iseldiryek
 nn-NO = Norgaghek (Nynorsk)
+nyn = Nyankole
+oc = Oksitanek
 or = Odia
+pa-IN = Punjabi
+pap-AW = Papiamentu (Aruba)
 pl = Polonek
+ps = Pashto
+pt = Portyngalek
+quc = K'iche'
+quy = Quechua Chanka
+rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
 ro = Romaniek
 ru = Russek
+rw = Kinyarwanda
 sah = Sakha
+sat = Santali (Ol Chiki)
+sc = Sardiniek
+scn = Sisilyek
+shi = Shilha
+si = Sinhala
 sk = Slovakek
+skr = Saraiki
 sl = Slovenek
+so = Somali
 sq = Albaniek
 sr = Serbek
 sv-SE = Swedek
+sw = Swahili
+syr = Suriek
 ta = Tamil
 te = Telugu
+tg = Tajik
 th = Thai
+ti = Tigrinya
+tig = Tigre
+tk = Turkmenek
+tl = Tagalog
+tok = Toki Pona
 tr = Turkek
 tt = Tatar
+tw = Twi
+ty = Tahitiek
+uby = Ubykh
+udm = Udmurt
+ug = Uyghur
 uk = Ukraynek
+ur = Urdu
 uz = Uzbek
+vec = Venedek
+vi = Vietnamek
+vot = Votek
+yi = Yedhowek
+yo = Yoruba
+yue = Kantonek
 zh-CN = Chinek (China)
 zh-HK = Chinek (Hong Kong)
 zh-TW = Chinek (Taiwan)
@@ -105,16 +203,26 @@ share-title = Gweresowgh ni ow hwilas re erel dhe argevro aga lev!
 share-text = Gweresowgh ow tyski dhe jynnow kowsel kepar ha pobel gwir, argevrowgh agas lev orth { $link }
 link-copied = Kevren kopies
 back-top = Dehweles dhe benn an folen
+logout = Digelmi
 
 ## Home Page
 
 home-title = Common Voice yw ragdres gans Mozilla dhe weres dyski dhe jynnow fatel wra tus gwir kowsel.
-home-cta = Kowsowgh yn ughel, kevrowgh omma!
+default-tagline = Mozilla Common Voice yw ragdres dhe weres jynnow ow tyski fatel wra tus gwir kowsel.
+home-cta = Kewsewgh yn ughel, kevrewgh omma!
 wall-of-text-start = Naturel yw an lev, dhe dhenses yma'n lev. Henn yw prag yma hwans dhyn gwruthyl teknegieth lev rag agan jynnow. Mes rag gwruthyl systemow lev, res yw kuntel myns bras dres eghen a dhata lev.
 wall-of-text-more-mobile = Nyns yw brassa rann an data usys gans kowethyansow bras kavadow dhe'n brassa rann a dus. Ni a grys henna dhe lettya awenekter. Ytho yma lonchyes genen an ragdres Common Voice, towl dhe weres ow kul aswonvos lev ygor dhe bubonen.
 wall-of-text-more-desktop =
     Lemmyn ni a yll argevro agas lev dhe weres dhyn ow trehevel database pennfenten ygor a yll pubonen usya rag gwul towlennow awenek rag devisyow ha'n wias.<lineBreak></lineBreak>
     Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh an ober a gevriysi erel dhe wellhe aga hwalita. Mar sempel es henna yw!
+wall-of-text-first =
+    Naturel yw an lev, dhe dhenses yma'n lev. Henn yw prag yth on mar yntanys dhe wruthyl teknegieth lev devnydhyadow
+    rag agan jynnow. Mes dhe wruthyl kevreythyow lev, res yw dhe dhisplegyoryon kuntel myns fest bras
+    a dhata lev.
+wall-of-text-second =
+    Nyns yw brassa rann an data usys gans kowethyansow bras kavadow dhe'n brassa rann a dus. Ni a grys
+    henna dhe lettya awenekter. Ytho ni a lonchyas Common Voice, ragdres dhe weres ow kul aswonvos
+    lev ygor dhe bubonan.
 show-wall-of-text = Redya moy
 help-us-title = Gweresowgh dhyn ow kwirya lavarow!
 help-us-explain = Gweskowgh seni, goslowowgh ha leverowgh dhyn: a veu an lavar a-woles leverys yn ewn?
@@ -122,6 +230,10 @@ no-clips-to-validate = Yth hevel nag eus klyppys dhe woslowes orta y'n yeth ma. 
 vote-yes = Beu
 vote-no = Na veu
 toggle-play-tooltip = Gweskowgh war { shortcut-play-toggle } rag dalleth po hedhi an modh seni
+speak-subtitle = Kevri agas lev
+speak-paragraph = Rekordya temmigow lev yw rann gresel a dhrehevel agan sett data ygor, yma nebes ow leverel y vos an rann dhidhanus ynwedh.
+speak-goal-text = Temmigow rekordys
+listen-subtitle = Gweres dhyn ow tilysa levow
 
 ## Account Benefits
 
@@ -206,6 +318,37 @@ profile-explanation = Helerghowgh agas ober gans profil ha gweresowgh dhyn ow ku
 faq-title = Govynnow menowgh
 
 ## ABOUT US
+
+
+## How does it work section
+
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
 
 
 ## Glossary
@@ -378,4 +521,60 @@ profile-form-delete = Dilea an profil
 
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
