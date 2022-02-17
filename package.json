@@ -52,7 +52,7 @@
   },
   "scripts": {
     "clean": "rm -r node_modules && rm -r common/node_modules && rm -r server/node_modules && rm -r web/node_modules",
-    "build": "yarn build-common && concurrently \"cd server && yarn build\" \"cd web && yarn build\"",
+    "build": "yarn build-maint && yarn build-common && concurrently \"cd server && yarn build\" \"cd web && yarn build\"",
     "build-common": "cd common && yarn build && cd ..",
     "build-maint": "cd maintenance && yarn build && cd ..",
     "import-locales": "node scripts/import-locales",
