@@ -98,6 +98,7 @@ ko = Korejańšćina
 kpv = Komi-syrjeńšćina
 kw = Kornišćina
 ky = Kirgišćina
+lb = Luksemburgšćina
 lg = Luganda
 lij = Ligurišćina
 lt = Litawšćina
@@ -1136,6 +1137,9 @@ sc-home-title = Witajśo k Common Voice Sentence Collector
 sc-home-collect-title = Sady gromaźiś
 sc-home-review-title = Sady pśeglědaś
 sc-home-review-text = Pomagajśo nam, korektnosć sadow pó směrnicach pśeglědowaś.
+
+## GENERAL
+
 
 ## HOW-TO
 
