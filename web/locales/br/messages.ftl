@@ -36,9 +36,9 @@ ba = Bachkireg
 bas = Basaaeg
 be = Belaruseg
 bg = Bulgareg
-bm = Bambareg
 bn = Bengaleg
 br = Brezhoneg
+bs = Bosneg
 bxr = Bouriateg
 ca = Katalaneg
 cak = Kakchikeleg
@@ -465,10 +465,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Perak Common Voice?
-about-subtitle = Ul lodenn eus intrudu Mozilla evit sikour da gelenn d’ar mekanikoù penaos e komz an dud wirion eo Common Voice. E-kichen ar spletad roadennoù Common Voice e savomp ul lusker adanaoudegezh ar vouezh digor e darzh anvet Deep Speech.
-about-header-description = An daou raktres-se a zo ul lodenn eus hon strivoù evit gwellaat stad ar vouezh niverel. Teknologiezhioù adanaoudegezh ar vouezh a ro ur ment denel d’hon mekanikoù, met ezhomm a zo ur sammad bras-kenañ a roadennoù evit o sevel. Evit ar mare eo koustus ha perc’hennet ar roadennoù-se.
-how-does-it-work-title = Penaos ec’h a en-dro?
 how-does-it-work-text = Sevel a reomp un teskad roadennoù mouezhioù a-stroll. Roit ho mouezh, gwiriekait klipoù an dud all ha lakait ar spletad roadennoù da vezañ gwelloc’h evit an holl.
+
+## How does it work section
+
 about-speak = Komz
 about-speak-text = Ar gendaolerien a enroll klipoù mouezh en ul lenn e-touez un hollad a frazennoù roet.
 about-listen-queue = Roll gortoz
@@ -500,6 +500,34 @@ about-nav-why-common-voice = Perak?
 about-nav-how-it-works = Penaos?
 about-nav-partners = Kevelerien
 about-nav-get-involved = Kemer perzh
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Speredegezh kalvezadel
 mycroft-description =
@@ -978,6 +1006,9 @@ see-less = <chevron></chevron>Gwelet nebeutoc’h
 
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO
