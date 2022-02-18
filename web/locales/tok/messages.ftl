@@ -456,9 +456,11 @@ faq-where-src-from-2-a =
     sitelen mi li tan jan pana, li tan toki pi sitelen open, li tan sitelen tawa <italic>It's a Wonderful Life</italic>.
     sina ken lukin e sitelen lon <githubLink>lipu pi ilo GitHub</githubLink>.
 faq-why-not-ask-read-q = sina pana ala e toki tan lipu Wikipedia anu lipu ante tan seme?
+faq-why-not-ask-read-a = mi la, sitelen li open li kepeken nasin pana Creative Commons (CC0) la, ilo Common Voice li pona mute. kepeken nasin pana ni la, alasa sitelen li ken ike. taso, open la, jan ale li ken kepeken ilo Common Voice, kepeken ala wile pi kulupu Mozilla. mi la, ilo en kulupu sona Common Voice li pona tawa jan ale: jan sona en tomo sona en tomo esun en tomo lawa. jan ale li kama pona tan ilo.
 faq-why-account-q = tan seme la mi o kama tawa ilo ni?
 faq-is-account-public-q = sona pi lipu mi li len ala len?
 faq-how-privacy-q = jan li pana e kalama toki la jan ni li len kepeken nasin seme?
+faq-how-privacy-a = kalama awen pi kulupu sona li jo ala e sona jan. jan li pana e kalama e sona ona la, mi weka e sona tan kalama awen ona. kalama awen li lon ala lipu jan ona.
 faq-what-determine-identity-q = ni li seme: mi ken ala sona e jan toki pi kulupu sona Common Voice
 faq-what-is-cv = ilo Common Voice li seme?
 faq-using-cv = o kepeken ilo Common Voice
@@ -1110,6 +1112,7 @@ sc-home-review-text = o pona e ni: sitelen o pona kepeken nasin pi sitelen pona
 
 ## GENERAL
 
+sc-languages-fetch-error = mi ken ala kama jo e toki. sina ken ala pana. o sin lon tenpo kama.
 
 ## HOW-TO
 
