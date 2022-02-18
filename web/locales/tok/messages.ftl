@@ -446,11 +446,15 @@ faq-why-different-speakers-a = kulupu mute pi toki uta la toki mute li tan <arti
 faq-why-my-lang-q = tan seme la toki mi li lon ala?
 faq-why-my-lang-new-a = kulupu Mozilla li kepeken toki ale. ilo Common Voice li pona tawa toki ale, li wile e toki ale. taso, <multilangLink>pali pi toki sin li suli</multilangLink>. jan li wile pana e toki uta ona la, nanpa wan la, ona o ante toki e ilo Common Voice. nanpa tu la, ona o pana e sitelen pi jan ale tawa ilo Common Voice. sitelen ni li tawa toki uta. ni tu li pini la, toki sin li kama tawa ilo Common Voice. jan li ken kama, li ken pana e toki ona, li ken pona e toki pi jan ante. sina wile pona e pali pi toki sin la, o tawa <sentenceCollectorLink>lipu pi sitelen kulupu</sentenceCollectorLink>.
 faq-what-quality-q = sina wile e kalama pi pona kute seme?
+faq-what-quality-a = mi mute li wile e ni: kulupu sona Common Voice li sama kalama pi ma ale. ni la, kalama ante mute li pona. kalama awen pi pona ante li pona sama kalama toki pi jan mute. ni la, ilo li ken kute e toki sina lon tenpo mute, lon kalama monsi, lon kalama pi tomo tawa. sina ken kute e toki sina lon kalama awen la, ni li pona tawa kulupu sona.
 faq-why-10k-hours-q = sina wile e kalama pona pi tenpo suli 10000 lon toki wan tan seme?
 faq-why-10k-hours-a = ilo kute pi pona mute li wile e kalama pi mute ni.
 faq-how-calc-hours-q = ilo Common Voice li nanpa e tenpo kalama kepeken nasin seme?
 faq-how-calc-hours-a = mi sona e tenpo suli pi kalama awen kepeken nasin ni: mi sona e suli pona pi kalama awen ale. ni la, mi kepeken nanpa pi kalama awen tan toki ale. nanpa tu ni la mi suli e ona tu.
 faq-where-src-from-2-q = sitelen mama li tan seme?
+faq-where-src-from-2-a =
+    sitelen mi li tan jan pana, li tan toki pi sitelen open, li tan sitelen tawa <italic>It's a Wonderful Life</italic>.
+    sina ken lukin e sitelen lon <githubLink>lipu pi ilo GitHub</githubLink>.
 faq-why-not-ask-read-q = sina pana ala e toki tan lipu Wikipedia anu lipu ante tan seme?
 faq-why-account-q = tan seme la mi o kama tawa ilo ni?
 faq-is-account-public-q = sona pi lipu mi li len ala len?
