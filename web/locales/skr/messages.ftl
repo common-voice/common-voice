@@ -208,6 +208,9 @@ hours-recorded = گھنٹے رکارڈ تھئے
 hours-validated = گھنٹے تصدیق تھئے
 voices-online = ہݨ آن لائن آوازاں
 todays-progress = اڄ دی ترقی
+help-reach-goal = { $goal } گھنݨ کیتے ساݙی مدد کرو
+read-terms-q = بھلا تساں ساݙیاں شرطاں پڑھ گھدیاں ہن؟
+ready-to-record = آپݨی اواز دان کرݨ کیتے تیار ہو؟
 all-locales = سارے
 today = اڄ
 x-weeks-short =
@@ -596,6 +599,9 @@ download-size = سائز
 
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO
