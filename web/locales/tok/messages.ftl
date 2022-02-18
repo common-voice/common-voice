@@ -434,6 +434,7 @@ faq-how-get-a = kulupu sona Common Voice li pana kepeken <licenseLink>lipu CC0</
 faq-when-release2-q = tenpo seme la sona pi ilo Common Voice li lon toki ante?
 faq-when-release2-a = ilo Common Voice pi toki mute li kama pona. sina wile pana e toki sin tawa ilo Common Voice la, o lukin e <sentenceCollectorLink>ilo Sentence Collector</sentenceCollectorLink> tawa ni, e <pontoonLink>ilo pi ante toki Pontoon</pontoonLink> tawa ni. sina pana e sitelen 5 000 la, toki sin li kama tawa ilo Common Voice.
 faq-why-mission-q = kulupu Mozilla li pali e ilo Common Voice tan seme?
+faq-why-mission-a = kulupu Mozilla li wile e ni: kulupu lipu jan li open, li tawa jan ale. ni la, jan pi kulupu ni li kama pona tan ilo Common Voice, tan ilo ante. ilo kute en ilo kalama toki li kama suli la, ona o pona e jan ale. ni la, lon pali lon pona la, ilo Common Voice li pona e toki mute, li pona e nasin kalama e jan ante. ilo Common Voice li tawa jan ale. kulupu Mozilla li kepeken ni lon pali ona.
 faq-what-cv-and-deepspeech-q = ilo Common Voice en ilo Deep Speech la ante li seme?
 faq-what-cv-and-deepspeech-a = kulupu sona Common Voice li pona tawa kulupu Mozilla, tawa ilo kama Deep Speech. pali wan pi ilo Deep Speech li tan tenpo sike 2017 lon tenpo mun 11. kepeken kulupu sona Common Voice la, ilo kute pi jan ale li tawa jan ale, li pona jan ale. mi mute li wile e ni: jan sona li kepeken ilo ni, li pali e ilo pona mute.
 faq-is-goal-assistant-q = pali Common Voice la sina wile pali e ilo pali kute anu seme?
