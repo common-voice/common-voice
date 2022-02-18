@@ -1155,6 +1155,7 @@ sc-home-review-text = Adjuta nos per revider phrases pro correctessa secundo le 
 
 ## GENERAL
 
+sc-languages-fetch-error = Nos non pote recuperar linguas disponibile. Actualmente non es possibile contribuer. Retenta plus tarde.
 
 ## HOW-TO
 
