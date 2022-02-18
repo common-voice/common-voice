@@ -341,26 +341,17 @@ skip-submission-description = Endurgjöf er meðan raddgögn eru lögð fram, en
 skip-submission-note = Athugið: Maður verður samt að velja á milli tals eða hlustunar til að breyta tegund inntaks.
 off = Af
 on = Ǻ
-avatar-clip-title = Venslaðu rödd við notendamynd þína.
-change-your-avatar-clip = Viltu breyta raddsýninu þínu?
-recording-in-progress = Raddupptaka í vinnslu
-avatar-clip-recorded = Notendamynd þinni fylgir nú raddupptaka!
-record-voice-wave = TAKA UPP RADDBYLGJU
-retry-voice-wave-recording = REYNA AFTUR
-re-record = TAKA UPP AFTUR
-delete-voice = EYÐA
-recording-voice-wave = Í upptöku
-delete-voice-clip = eða · Eyða raddupptöku
-ready-to-upload = HLAÐA UPP
-avatar-clip-fact = Það er löngu staðfest staðreynd eða lesandi truflast við læsilegt efni vefsíðu þegar snið hennar er skoðað.
-recreate-voice = Taka upp raddbylgju aftur
-cancel-avatar-clip-recording = HÆTTA
-about-avatar-clip-recording = Taka upp raddsýni sem hluta prófílmyndar þinnar. Aðrir geta sveimað og hlustað á raddsýnið.
+
+## Profile - Email
+
 browse-file-title = Hlaða inn myndskrá
 browse-file = Dragðu og slepptu eða <browseWrap>flettu upp</browseWrap>
 connect-gravatar = Tengja við Gravatar
 gravatar_not_found = Enginn gravatar fannst fyrir netfangið þitt
 file_too_large = Myndin sem var valin er of stór
+
+## Profile - Email
+
 manage-subscriptions = Stjórna áskriftum
 manage-email-subscriptions = Umsjón með netfanga lista
 email-already-used = Netfang er þegar í notkun á öðrum reikningi
@@ -456,9 +447,9 @@ about-partnership =
     Við þökkum eftirfarandi aðilum og samtökum fyrir þeirra framlag til verkefnisins:
 about-get-involved = Taktu þátt
 about-get-involved-text-2 =
-    Viltu hjálpa að gera Samróm enn betri?¶
-    Frábært! Settu þig í samband með tölvupósti eða <discourseLink>Discourse</discourseLink>¶
-    spjallborðum, sendu inn vandamál sem koma upp á síðunni á <githubLink>GitHub</githubLink>,¶ 
+    Viltu hjálpa að gera Samróm enn betri?
+    Frábært! Settu þig í samband með tölvupósti eða <discourseLink>Discourse</discourseLink>
+    spjallborðum, sendu inn vandamál sem koma upp á síðunni á <githubLink>GitHub</githubLink>, 
     eða taktu þátt á <matrixLink>Matrix-rásinni</matrixLink> okkar.
 about-nav-why-common-voice = Af hverju?
 about-nav-how-it-works = Hvernig?
@@ -511,7 +502,6 @@ data-bundle-description = Gögn Samróms og öll gagnasöfnin að ofan.
 license = Leyfi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandað
 data-download-singleword-title = Hlaða niður markmiðum um einstaka orðhluta
-data-download-singleword-callout = Þetta er notendastýrður hluti sem inniheldur gögn til að auka viðurkenningu talaðs tölustafs, já / nei viðurkenningu og prófunargögn fyrir vakningarorð fyrir <fxLink>Firefox Voice</fxLink>.
 review-terms = Með notkun Samróms samþykkir þú <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> verkefnisins
 terms-agree = Ég samþykki
 terms-disagree = Ég samþykki ekki
@@ -561,8 +551,6 @@ subscribe = Gerast áskrifandi
 get-started-speech = Hefjast handa með raddgreiningu
 other-datasets = Aðrar málheildir
 feedback-q = Ertu með ábendingar?
-deepspeech-info = Samrómsgagnasafnið er hannað til þess að vinna með raddgreini Mozilla, Deep Speech, sem er aðgengilegur öllum, með honum getur þú hannað raddgreiningarforrit. Kynntu þér <githubLink>yfirlitið á Github</githubLink> eða taktu þátt á <discourseLink>DeepSpeech umræðuvefnum</discourseLink> til að læra um hvernig maður hefst handa.
-common-voice-info-new = Ertu með spurningar um Samróm? Hugmyndir að endurbætum eða endurgjöf um sérstök tungumál? Spjallaðu við okkur á  <discourseLink>Discource umræðuvefnum okkar</discourseLink> og láttu okkur vita.
 data-other-librispeech-description = LibriSpeech textasafnið geymir u.þ.b. 100 klst af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum af LibriVox verkefninu.
 data-other-ted-name = TED-LIUM textasafn
 data-other-ted-description = TED-LIUM textasafnið var þróað úr talsetningum og afritunum þeirra sem eru fáanlegar á TED vefnum.
@@ -800,10 +788,10 @@ how-many-per-day = Frábært! Hversu margar upptökur á dag?
 how-many-a-week = Frábært! Hversu margar upptökur á viku?
 which-goal-type = Viltu tala, hlusta eða hvort tveggja?
 receiving-emails-info =
-    Þú ert skráður til að fá tölvupósta á borð við áminningar um markmið,¶
+    Þú ert skráður til að fá tölvupósta á borð við áminningar um markmið,
     uppfærslur um árangur minn og fréttabréf um Samróm
 not-receiving-emails-info =
-    Þú ert sem stendur <bold>EKKI</bold> skráður til að tölvupósta á borð við áminningar um markmið,¶
+    Þú ert sem stendur <bold>EKKI</bold> skráður til að tölvupósta á borð við áminningar um markmið,
     uppfærslur um árangur minn og fréttabréf um Samróm
 n-clips-pluralized =
     { NUMBER($count) ->
@@ -838,6 +826,9 @@ remove-info = Við munum skoða beiðni þína um að eyða raddgögnum úr gagn
 why-delete-recordings = Upptökusafn Samróms er ætlað handa fræðafólki, litlum fyrirtækjum og áhugafólki um raddgreiningu, í því skyni að þjálfa verkfæri á borð við raddlíkön, aðgengileg og opin almenningi.
 profile-form-delete = Eyða prófíl
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Velkomin/n { $company }!
@@ -845,3 +836,21 @@ help-contribute = Þú getur hjálpað til við uppbyggingu fjölbreytts, opins 
 login-company = Innskrá / nýskrá með netfangi hjá { $company }
 profile-not-required = Prófíls er ekki krafist til að taka þátt en hann er gagnlegur þó
 read-more-about = Lestu meira á um síðuna okkar
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+

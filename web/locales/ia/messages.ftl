@@ -36,9 +36,9 @@ ba = Bashkir
 bas = Basaa
 be = Bielorusso
 bg = Bulgaro
-bm = Bambara
 bn = Bengali
 br = Breton
+bs = Bosniano
 bxr = Buriato
 ca = Catalano
 cak = Kaqchikel
@@ -67,6 +67,7 @@ fy-NL = Frison
 ga-IE = Irlandese
 gl = Galiciano
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Hebreo
 hi = Hindi
@@ -90,11 +91,14 @@ kab = Cabilo
 kbd = Kabardo
 ki = Kikuyu
 kk = Kazakh
+km = Khmer
 kmr = Kurdo Kurmanxhi
+knn = Konkani (Devanagari)
 ko = Coreano
 kpv = Komi-Zyriano
 kw = Cornico
 ky = Kirghiso
+lb = Luxemburgese
 lg = Luganda
 lij = Ligure
 lt = Lituano
@@ -106,6 +110,7 @@ mhr = Mari oriental
 mk = Macedone
 ml = Malayalam
 mn = Mongol
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Mari occidental
@@ -127,6 +132,8 @@ pap-AW = Papiamento (Aruba)
 pl = Polonese
 ps = Pashto
 pt = Portugese
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romancio vallader
 ro = Romaniano
@@ -139,6 +146,7 @@ scn = Siciliano
 shi = Shilha
 si = Sinhala
 sk = Slovaco
+skr = Saraiki
 sl = Sloveno
 so = Somalo
 sq = Albanese
@@ -150,7 +158,11 @@ ta = Tamil
 te = Telugu
 tg = Tajik
 th = Thai
+ti = Tigrinya
+tig = Tigre
+tk = turkmeno
 tl = Tagalog
+tok = Toki Pona
 tr = Turco
 tt = Tataro
 tw = Twi
@@ -322,8 +334,13 @@ profile-form-native-language =
     .label = Lingua native
 profile-form-additional-language =
     .label = Lingua additional
+profile-form-language =
+    .label = Lingua
 profile-form-accent =
     .label = Accento
+profile-form-custom-accent-help-text =
+    .label = Como volerea tu describer tu accento?
+profile-form-custom-accent-placeholder-2 = Initia a describer tu accento
 profile-form-age =
     .label = Etate
 profile-form-gender-2 =
@@ -334,6 +351,7 @@ hidden = Celate
 visible = Visibile
 native-language =
     .label = Lingua native
+profile-form-add-accent = Adde un nove accento personal "{ $inputValue }"
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvate
 male = Masculin
@@ -367,6 +385,8 @@ skip-submission-description = Le retroaction sur tu contributiones non essera mo
 skip-submission-note = Nota: tu debera ancora seliger inter parlar o ascoltar pro cambiar typo de contribution.
 off = Inactive
 on = Active
+help-accent = Besonia tu auxilio con le accento?
+help-accent-explanation = Tu accento es le maniera que tu pronuncia le vocabulos. Illo pote esser formate per ubi tu viveva, qual altere linguas tu parla e plure altere factores. Tu pote compartir ulle informationes que tu senti esser pertinente hic.
 
 ## Profile - Email
 
@@ -449,15 +469,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Proque Common Voice?
-about-subtitle = Common Voice es parte del initiativa de Mozilla pro adjutar a inseniar al machinas como parla le personas real. Ultra al collection de datos Common Voice, nos alsi produce un motor open-source de recognition de voce appellate Deep Speech.
-about-header-description =
-    Ambe iste projectos face parte de nostre effortios pro construer un ponte super le division digital vocal. Le technologias de recognition vocal apporta un dimension human a nostre apparatos, ma le disveloppatores require un enorme quantitate de datos vocal pro crear los. Actualmente, le major parte de ille datos es costose e proprietari.
-    Nos vole render le datos vocal liberemente e publicamente disponibile e assecurar que le datos representa le diversitate del personas real. Insimul nos pote render le recognition vocal melior pro totes.
-about-header-description-2 =
-    Iste projecto es un effortio pro construer un ponte super le division digital vocal. Le technologias de recognition vocal apporta un dimension human a nostre apparatos, ma le disveloppatores require un enorme quantitate de datos vocal pro crear los. Actualmente, le major parte de ille datos es costose e proprietari.
-    Nos vole render le datos vocal liberemente e publicamente disponibile e assecurar que le datos representa le diversitate del personas real. Insimul nos pote render le recognition vocal melior pro totes.
-how-does-it-work-title = Como functiona illo?
+about-header-description-v2 =
+    <p>Common Voice es un collection de datos vocal publicamente disponibile que existe gratias al voces de contributores voluntari de tote le mundo. Illes qui vole producer applicationes vocal pote usar le collection de datos pro trainar modellos a apprendimento automatic.</p>
+    <p>Al presente, le major parte de collectiones de datos vocal es le proprietate de grande companias, lo que suffoca le innovation. De plus, le voces de homines blanc e anglophone ha un representation disproportional. Isto significa que le technologia actionate per voce non functiona del toto pro multe linguas, e si functiona, non livra un qualitate equal pro totes. Nos vole cambiar isto mobilisante le gente de tote le mundo pro compartir lor voce.</p>
+how-does-it-work-title-v2 = Como functiona Common Voice?
 how-does-it-work-text = Nos face un grande collecta open-source de voces donate. Dona tu voce, valida le precision del retalios vocal del alteres, rende melior le collection de datos pro totes!
+
+## How does it work section
+
+about-language-req-subtitle = Qualcuno demanda le addition de un lingua.
+about-localization-title = Localisation del sitos Web
+about-localization-subtitle = Le texto del sito web es traducite in ille lingua.
+about-sentence-collection-title = Collection de phrases
+about-sentence-collection-subtitle = Phrases es colligite pro esser legite a alte voce.
+about-new-lang-title = Lanceamento de un nove lingua
+about-new-lang-subtitle = Nos lancea le sito de Common Voice in iste lingua.
+about-voice-contrib-title = Contribution vocal
+about-voice-contrib-subtitle = Le gente veni contribuer lor voces.
+about-voice-validation-title = Validation del voces
+about-voice-validation-subtitle = Altere personas valida iste retalios vocal.
+about-dataset-release-title = Publication del collection de daots
+about-dataset-release-subtitle = Nos publica le collection de datos cata tres menses.
+about-subscribe-text = Vole mantener te in contacto con Common Voice?
 about-speak = Parlar
 about-speak-text = Contributores registra retalios vocal legente ab un banca de phrases donate.
 about-listen-queue = Cauda pro le ascolta
@@ -486,10 +519,94 @@ about-get-involved-text-2 =
     Optimo! Contacta nos via e-mail o le foros de <discourseLink>Discourse</discourseLink>,
     signala problemas con le sito via <githubLink>GitHub</githubLink>,
     o junge te al conversation communitari sur <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Como me mantene io in contacto?
+about-stay-in-touch-text-1 = <emailFragment>Inscribe te</emailFragment> a nostre lista de diffusion pro apprender como participar in campanias e eventos e co-designar functiones sur Common Voice.
+about-stay-in-touch-text-2 = Tu pote incontrar altere personas in le communitates linguistic de Mozilla adherente a <discourseLink>Discourse</discourseLink> pro conversationes topical, o a <matrixLink>Matrix</matrixLink> pro consilios rapide.
 about-nav-why-common-voice = Proque?
 about-nav-how-it-works = Como ?
 about-nav-partners = Partners
 about-nav-get-involved = Collabora
+about-nav-how-it-works-2 = Como functiona Common Voice?
+about-nav-playbook = Apprende como participar
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Que es un lingua sur Common Voice?
+about-playbook-what-is-language-content-1 = Existe multe manieras de considerar lo que es un lingua. Pro le scopos del modellos de recognition vocal, Common Voice propone de concentrar se sur le ‘reciproc comprensibilitate’, o ‘pote le parlantes de iste lingua generalmente comprender se, le un le altere, si illes lo tenta?’
+about-playbook-what-is-language-content-2 = Nos vole que le modellos vocal sia melio comprensibile pro un grande varietate de parlantes. Pro que isto eveni, un collection de datos vocal debe representar plure differente personas.
+about-playbook-what-is-language-content-3 = Alcun linguas ha un enorme variation in grammatica, vocabulario e pronunciation. Pro iste ration, nos <ctaLink>introduce ‘Variantes’</ctaLink> in 2022. Isto da al communitates un maniera de distinguer lor linguas in le collection de datos general.
+
+## How do I add a language
+
+about-playbook-how-add-language = Como adde io un lingua?
+about-playbook-how-add-language-content-1 = Primo, verifica si tu lingua <languageLink>ja existe</languageLink>. Si non, tu debe <strong>traducer le sito e colliger phrases</strong>.
+about-playbook-how-add-language-content-2 = <strong>Pro traducer le sito</strong>, <translateVideo>crea un conto</translateVideo> sur <pontoonLink>Pontoon</pontoonLink>. Pontoon ha multe linguas, ma si non ha le tue, tu pote <pontoonRequestLink>requestar lo</pontoonRequestLink>. Alora demanda <repoLink>sur GitHub</repoLink> que le projecto Common Voice sia rendite disponibile pro le lingua. Lege plus sur <localizationFragment>le traduction del sito</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Pro colliger phrases</strong>, <scVideo>crea un conto</scVideo> sur <scLink>Sentence Collector</scLink>.
+about-playbook-how-add-language-content-4 = Tu pote <scLinkAdd>adder poc</scLinkAdd> phrases hic, o tu pote <bulkImportDocsLink>importar los in bloco</bulkImportDocsLink> via un requesta GitHub. Memora que le phrases debe esser con licentia <licenseLink>CC0 (o de dominio public)</licenseLink>, o tu pote scriber le tue proprie. Vide plus sur <scFragment>collection de phrases</scFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Como functiona le localisation del sito?
+about-playbook-how-localize-content-1 = Le traduction del sito de Common Voice eveni sur <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Crea un conto</pontoonAccountLink> si tu non ha un. Tunc, elige le <strong>(‘Team’)</strong> de tu lingua e pois elige le projecto, <t0/><pontoonCvLink>Common Voice</pontoonCvLink>. Illac il habera le files a traducer. Illac il habera le files a traducer. Clicca sur un, alora illo monstrara le parolas in anglese e un campo pro traducer los.
+about-playbook-how-localize-content-3 = Le traduction es ab le anglese, ma tu pote vider <strong>Suggestiones</strong> in altere linguas. Clicca le icone <strong>Profile</strong>, e pois le ligamine <strong>Settings</strong> e adde ulle lingua que tu parla. Al angulo inferior dextere il habera un lista de traductiones appellate <strong>Locales</strong>. Le traductiones es monstrate sur le sito depost un die.
+about-playbook-how-localize-content-4 = Le sito es preste a esser lanceate quando illo attinge le 75% de completamento.
+about-playbook-how-localize-content-5 = Specta nostre video explicative pro adjuta
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Como adde io phrases?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> es un instrumento pro colliger e validar phrases de dominio public. Tu <scAccountLink>debera crear un conto</scAccountLink>. E pois, adder tu lingua a tu <strong>Profilo</strong>. <s0/>Tu potera <strong>Adder</strong> phrases o <strong>Revider</strong> phrases previemente addite.
+about-playbook-how-add-sentences-content-2 = Le phrases debe esser revidite e acceptate per duo personas pro includer los in Common Voice. Que tu crea lineas guida pro tu lingua <languageGuidelinesLink>hic</languageGuidelinesLink>. Le phrases debe esser de <licenseLink>dominio public</licenseLink> e plus curte que 15 vocabulos. Tu pote demandar al proprietario de un texto de render lo <waiverLink>CC0, per nostre processo de exemption</waiverLink>, e inviar lo nos a <a0>commonvoice@mozilla.com</a0>
+about-playbook-how-add-sentences-content-3 = Tu pote usar le <scraperLink>Extractor de phrase</scraperLink> pro procurar te curte phrases ex Wikipedia.
+about-playbook-how-add-sentences-content-4 = Le phrases que ha essite validate es exportate le mercuridis, e es disponibile post le publication successive.
+
+## How to record quality
+
+about-playbook-how-record-quality = Como pote facer io un registration vocal de alte qualitate?
+about-playbook-how-record-content-1 = Parla con tu voce normal! Le maniera que tu parla es benvenite hic, nos vole tu accento como illo es, e nos vole tu usual volumine, stilo e intonation.
+about-playbook-how-record-content-2 = Evita troppo ruito de fundo, debe esser facile audir te.
+about-playbook-how-record-content-3 = Lege le phrase accuratemente, non perde, cambia o adde vocabulos.
+about-playbook-how-record-content-4 = Verifica que le platteforma es in registration ante que tu initia a parlar, e que illo solo cessa un vice tu ha finite.
+about-playbook-how-record-content-5 = <accuracyLink>Vide plus sur le criterios de precision.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Como pote nos in modo efficace facer crescer un lingua sur Common Voice?
+about-playbook-how-grow-language-content-1 = Crear opportunitates pro que diverse personas contribue a Common Voice, garanti que le collection de datos servi quante plus personas possibile. Nos ha create ressources e modellos que tu pote usar!
+about-playbook-how-grow-language-content-2 = Eventos
+about-playbook-how-grow-language-content-3 = Tu pote developpar eventos pro adjutar personas a collaborar. Il es plus facile que tu pensa. Tu pote facer lo online con un instrumento de video-conferentias, o in persona si illo es secur. <eventTemplate>Discoperi nostre modellos e ressources pro developpar eventos</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Medios social
+about-playbook-how-grow-language-content-5 = Tu pote usar platteformas de medios social pro diffunder le message. Comparti messages que explica perque illo es importante, e continge altere personas qui parla re problemas como derectos linguistic, voce intelligentia artificial del voce, o le prejudicios in le technologia. Vide altere consilios sur <campaignLink>developpar un campania social, includite le contento que tu pote re-usar</campaignLink>.
+about-playbook-how-grow-language-content-6 = Societates e retes
+about-playbook-how-grow-language-content-7 = Trova alteres qui cura. Que pote esser universitates, scholas de linguas, gruppos de propugnation o communitates de scientia de datos. Attinge les e explica clarmente como illes pote adjutar e perque. <outreachTemplates>Vide nostre e-mails modello de extension</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Sia creative!</strong> Tu communitate linguistic sera unic, e istos es solo alcun manieras pro comenciar.
+
+## How to validate
+
+about-playbook-how-validate = Como sape io si approbar un registration vocal?
+about-playbook-how-validate-content-1 = Si tu pote <strong>audir los</strong> e <strong>comprender los</strong>, il es usualmente <strong>melio approbar los</strong>.
+about-playbook-how-validate-content-2 = <strong>Non rejecta registrationes ubi le parlator ‘ha un accento’ que es differente de tu proprie</strong>, isto es importante pro que le recognition vocal functiona melio pro totes.
+about-playbook-how-validate-content-3 = Si tu pensa que le pronunciation rende <strong>impossibile a comprender</strong>, o il ha <strong>multe ruito de fundo</strong>, o il ha <strong>altere personas parlante alsi</strong>, alora tu deberea rejectar le registration. <accuracyLink>Vide altere informationes in nostre criterios de precision</accuracyLink>.
+about-playbook-how-validate-content-4 = Si un registration es rejectate per 2 personas, illo es publicate in un differente sub-ensemble del collection de datos.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Como accede e usa io le collection de datos?
+about-playbook-how-access-dataset-content-1 = Tu pote ir al <datasetsPage>pagina del collectiones de datos</datasetsPage>, eliger le version e lingua(s) que tu vole, e discargar lo! Le files ha <metadataLink>associate metadatos</metadataLink>, tal como informationes demographic e datos de validation. Tu debe fornir un adresse e-mail pro discargar le collection de datos.
+about-playbook-how-access-dataset-content-2 = Si tu cerca applicationes pro producer modellos ASR, tu pote connecter te a altere personas in le communitate <discourseLink>sur Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Como es prendite le decisiones del projecto?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice es rendite possibile per diverse communitate de activistas, linguistas, scientistas de datos, academicos e ingenieros de software, de tote le mundo. Le projecto es assistite per Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Nostre gestion es fundate super le columnas de:
+about-playbook-how-project-governance-content-3 = Confidentialitate, securitate e transparentia.
+about-playbook-how-project-governance-content-4 = Participation del communitate e prisas de decision.
+about-playbook-how-project-governance-content-5 = Valor e recognition.
+about-playbook-how-project-governance-content-6 = Reciproc responsabilitate.
+about-playbook-how-project-governance-content-7 = <governanceLink>Lege plus re como nos es gerite</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligentia artificial
 mycroft-description =
@@ -995,3 +1112,347 @@ contribution-just-unsure-title = Justo insecur?
 contribution-just-unsure-description = Si tu ha incontrate qualcosa que iste lineas guida non coperi, per favor vota in accordo a tu melior judicio. Si tu realmente non pote decider, usa le button saltar e va al sequente registration.
 see-more = <chevron></chevron>Vider plus
 see-less = <chevron></chevron>Vider minus
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Initio
+sc-header-how-to = Guidas
+sc-header-add = Adder
+sc-header-review = Revider
+sc-header-rejected = Phrases rejectate
+sc-header-my = Mi phrases
+sc-header-statistics = Statistica
+sc-header-profile = Profilo
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Reportar defectos
+sc-footer-translate = Traducer iste pagina
+sc-footer-report-copyright = Reporto problemas de derectos de autor
+sc-footer-privacy = Confidentialitate
+sc-footer-terms = Terminos
+sc-footer-cookies = Cookies
+sc-login-signup-button = Aperir session / Inscriber se
+sc-logout-button = Clauder le session
+
+## HOME
+
+sc-home-title = Benvenite in le Collector de phrases de Common Voice
+sc-home-intro =
+    Le Collector de phrases es parte de <commonVoiceLink>Common Voice</commonVoiceLink>.
+    Illo permitte a collaboratores de colliger e validar phrases create per le communitate.
+    Tu pote usar iste instrumento alsi pro importar e nettar corpus de dominio public de dimensiones micre o
+    medie que tu trovava o colligeva. Tote phrases debe esser esser de public dominio.
+    Le phrases approbate es exportate cata septimana al repositorio de Common Voice e es publicate
+    super le sito web de Common Voice, cata nove distribution.
+sc-home-collect-title = Colliger phrases
+sc-home-collect-text = Adjuta nos a scriber o colliger Phrases de dominio public.
+sc-home-review-title = Revider phrases
+sc-home-review-text = Adjuta nos per revider phrases pro correctessa secundo le lineas guida.
+
+## GENERAL
+
+
+## HOW-TO
+
+sc-howto-title = Guidas
+sc-howto-addlang-title = Addition de linguas a laborar
+sc-howto-addlang-text = Un vice connexe, tu pote eliger tu linguas ab le section profilo.
+sc-howto-addsen-title = Adder nove phrases
+sc-howto-addsen-item-1 =
+    Tote le phrases que tu invia debe esser de <wikipediaLink> licentia Dominio public (CC-0)</wikipediaLink>.
+    Pro supportar le inclusion de labor non sub licentia public, nos ha create un
+    <cc0WaiverLink>modello de accordo de collaborationes</cc0WaiverLink> pro functionar ubi le proprietario de derectos de autor 
+    desirarea contribuer le material a Common Voice.
+sc-howto-addsen-item-2 =
+    Numeros.. Il non debe haber ulle digitos in le texto fonte perque illos pote causar problemas.
+    quando on lege in alte voce. Le maniera que un numero es legite depende del contexto e pote introducer confusion in le collection de datos.
+    Per exemplo, le numero “2409” pote esser correctemente legite como ambe “vinti-quatro zero nove” e
+    “duo milles quatro cento nove”.
+sc-howto-addsen-item-3 =
+    Abbreviationes eAcronymos. Abbreviationes e acronymos como “USA” o “ICE” 
+    debe esser evitate in le texto fonte perque illos pote esser legite in un maniera que non coincide con lor orthographia.
+    In addition, on pote haber plure accurate lecturas pro un singule abbreviation.
+    Per exemplo, le acronymo “ICE” pote esser pronunciate “I-C-E” o como singule parola.
+sc-howto-addsen-item-4 = Punctuation. Symbolos special e punctuation deberea solo esser includite quando absolutemente necessari. Per exemplo, un apostropho es includite in vocabulos anglese como “don’t” e “we’re” e debe esser includite in le texto fonte, ma il es inverisimile que tu unquam besoniara de un symbolo special como “@” o “#.”
+sc-howto-addsen-item-5 = Litteras estranier. Le litteras debe esser valide in le lingua a parlar. Per exemplo, “ж” es un littera in le alphabeto russe ma jammais es usate in anglese e assi non deberea jammais apparer in ulle texto fonte anglese.
+sc-howto-addsen-item-6 = Le linguas pote haber lor <validationRulesLink>proprie regulas de validation</validationRulesLink> con altere requisitos. Si il non ha un specific validation file pro un lingua, nos usa le generic regulas del anglese.
+sc-howto-addsen-post-1 = Nos prefere phrases natural/conversational. Durante que le diversitate phonetic e differente vocabulos in phrases es importante, nos tenta render phrases a registrar le plus amusante possibile. Pro isto il esserea formidabile si tu pote tentar de mantener tu phrases le plus natural e involvente possibile.
+sc-howto-cite-title = Como citar
+sc-howto-cite-pre-1 = Il es importante que tu refere ubi tu trovava le licentia public pro impedir plagio e pro permitter de sequer ups sur <copyrightIssuesLink>problemas de derectos de autor</copyrightIssuesLink>. Ecce alcun manieras pro citar le labor.
+sc-howto-cite-item-1 = Tu pote includer le sito web, e.g "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Tu pote usar le stilo de citation academic, e.g stilo (de citation) harvard  "Mozilla (2021) Common Voice. Disponibile a https://commonvoice.mozilla.org/ (Accedite: le 15 de septembre 2021)"
+sc-howto-cite-item-3 = Pro texto con licentia public non disponibile online, tu pote usar le stilo de citation academic e.g stilo de citation harvard "Jess (2021) My Public licence poems"
+sc-howto-review-title = Revider phrases
+sc-howto-review-subtitle = Verifica que le phrase reuni le sequente criterios:
+sc-howto-review-criteria-1 = Le orthographia del phrase debe esser correcte.
+sc-howto-review-criteria-2 = Le phrase debe esser grammaticalmente correcte.
+sc-howto-review-criteria-3 = Le phrase debe esser pronunciabile.
+sc-howto-review-criteria-4 = Si le phrase reuni le criterios, clicca le button "Approbar".
+sc-howto-review-criteria-5 = Si le phrase non incontra le superior criterios, clicca le button "Rejectar". Si tu non es secur del phrase, tu pote alsi saltar lo e mover sur illo sequente.
+sc-howto-review-criteria-6 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger plus phrases!
+sc-howto-findpd-title = Trovar phrases existente de dominio public
+sc-howto-findpd-subtitle = Cercar los in internet
+sc-howto-findpd-text-2 = Rememora que nos besonia le permission pro publicar ille phrases, assi sempre assecura te que le texto pertine al <wikipediaLink>dominio public</wikipediaLink>. Si il non ha un indication explicite, continge le persona proprietario del texto e demanda si ille vole contribuer lor texto al dominio public. Si ille lo vole, adjuta le ir per le processo de <cc0WaiverLink>Accordo de collaborationes</cc0WaiverLink>. Si illes non vole contribuer le texto, alora non te es permittite usar ille texto.
+sc-howto-findpd-tips = Ecce alcun consilios utile pro trovar phrases:
+sc-howto-findpd-tips-1 = Le melior fontes pro recercar es podcasts, transcriptiones, scenarios de film e alco que pote continer conversationes del vita quotidian.
+sc-howto-findpd-tips-2 = Alsi deliberationes, libros e articulos governative es formidabile, totevia pois que le texto tende a esser un poco plus formal illos es de minor prioritate.
+sc-howto-findpd-tips-3 = Infortunatemente nos non pote ancora haber articulos de Wikimedia. Assi non copia-colla de illac.
+sc-howto-findpd-subtitle-2 = Partner con interprisas o le personas local
+sc-howto-findpd-partner-1 = Il ha multe public interprisas que poterea voler collaborar e jam ha multe textos que pote donar como dominio public. Attinge local universitates, governamentos e interprisas open-source pro parlar re le projecto e quere lor adjuta.
+sc-howto-findpd-partner-2 = Experte linguistas poter alsi adjutar, tenta de attinger local Universitates linguistic (ambe inseniantes e studentes) e vide si illes pote adjutar a colliger un diverse collection de phrases que appare diverse in tu lingua.
+
+## MY SENTENCES
+
+sc-my-title = Mi phrases
+sc-my-description = Iste pagina te da un summario de tote tu phrases inviate. Tu pote alsi si necessari deler phrases jam inviate, marcante le quadrato de selection proxime a illo, e cliccante sur &quot;Deler phrases seligite&quot; al fundo. Per favor solo remove phrases si absolutemente necessari, per exemplo si tu ha constatate postea que un phrase es protegite per derectos de autor.
+sc-my-loading = Cargamento de tu phrases…
+sc-my-err-fetching = Error recuperante tu phrases.
+sc-my-no-sentences = Nulle phrases trovate!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Invio: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Fonte: { $fonte }
+sc-my-delete = Deler phrases seligite
+sc-my-deleting = Deletion del phrases seligite
+sc-my-err-failed-delete = Impossibile deler phrases seligite… Retenta!
+
+## REJECTED
+
+sc-rejected-title = Phrases rejectate
+sc-rejected-loading = Cargamento phrases rejectate…
+sc-rejected-err-fetching = Error recuperante le phrases rejectate. Retenta.
+sc-rejected-none-found = Nulle phrases rejectate trovate!
+
+## STATS
+
+sc-stats-title = Statistica
+sc-stats-updating = Actualisation...
+sc-stats-error = Impossibile reportar le statisticas. Retenta plus tarde.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector ha colligite { $sentenceCount } phrases in { $languageCount } linguas!
+
+## ADD
+
+sc-submit-err-select-lang = Elige un lingua
+sc-submit-err-add-sentences = Adde phrases.
+sc-submit-err-add-source = Adde un fonte.
+sc-submit-err-confirm-pd = Confirma que iste phrases es de dominio public.
+sc-submit-prompt =
+    .message = Phrases non inviate, desira tu vermente exir?
+sc-submit-title = Adder phrases
+sc-submit-select-language =
+    .labelText = Elige le lingua
+sc-submit-add-sentences = Adder phrases de <wikipediaLink>dominio public</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Un singule phrase per linea
+sc-submit-from-where = Ex ubi es iste phrases de <wikipediaLink> dominio public</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Lege nostre Guida si insecur re como attribuer
+sc-submit-confirm = Io confirma que iste phrases es de <wikipediaLink>dominio public</wikipediaLink> e io ha permission pro cargar los.
+sc-submit-button =
+    .submitText = Inviar
+sc-submit-filtered = Phrases filtrate per falta de requisitos (invia le versiones corrigite como nove phrases):
+sc-submit-guidelines = Verifica le <howToLink>lineas guida</howToLink>.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Impossibile adder lingua
+sc-add-lang-sec-label = Adde un lingua con le qual tu vole contribuer
+sc-add-lang-sec-button = Adder un lingua
+sc-add-err-unexpected = Responsa inexpectate del servitor
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Phrases inviate. { $duplicates } phrases ha essite rejectate perque duplicate.
+        [one] Phrases inviate. { $duplicates } phrase ha essite rejectate perque duplicate.
+       *[other] Phrases inviate. { $duplicates } phrases ha essite rejectate perque duplicate.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Nulle phrase fallite
+        [one] 1 phrase fallite
+       *[other] { $sentences } phrases fallite
+    }
+sc-add-err-submission = Error de invio
+sc-add-lang-process-notice = Si tu lingua non es in le lista de presentation hic, tu pote requirer lo a transverso de <languageProcessLink>iste processo</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = Phrases non inviate, desira tu vermente exir?
+sc-confirm-sentences-title = Confirmar nove phrases
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Nulle phrases trovate.
+        [one] 1 phrase trovate.
+       *[other] { $countOfSentences } phrases trovate.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } rejectate per te
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Nulle phrase jam revidite.
+        [one] 1 phrase jam revidite. Formidabile labor!
+       *[other] { $countOfReviewed } phrases jam revidite.  Formidabile labor!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Nulle phrase preste pro le invio!
+        [one] 1 phrase preste pro le invio!
+       *[other] { $readyCount } phrases preste pro le invio!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } phrases es non revidite. Si tu vole, tu pote alsi revider tu phrases ora, ante inviar los.
+sc-confirm-button-text = Confirmar
+sc-confirm-uploading = Phrases va esser cargate. Isto pote prender plure minutas secundo le numero de phrases addite. Non claude iste sito web.
+
+## LANGUAGE INFO
+
+sc-lang-info-title-total = Total
+sc-lang-info-title-personal = Personal
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] N. total de phrases.
+        [one] 1 phrase total
+       *[other] { $totalSentences } phrases total.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Nulle phrases in revision.
+        [one] 1 phrase in revision.
+       *[other] { $totalInReview } phrases in revision.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Nulle phrases restate pro tu revision.
+        [one] 1 phrase restate pro tu revision.
+       *[other] { $unreviewedSentencesByYou } phrases restate pro tu revision.
+    }
+sc-lang-info-review-now = <reviewLink>Revide ora!</reviewLink>
+sc-lang-info-add-more = <addLink>Adde altere phrases ora!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Nulle phrases validate.
+        [one] 1 phrase validate.
+       *[other] { $validatedSentences } phrases validate.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Nulle phrases rejectate
+        [one] 1 phrase rejectate
+       *[other] { $rejectedSentences } phrases rejectate.
+    }
+
+## LOGIN
+
+sc-login-err-failed = Authentication fallite
+sc-login-err-try-again = Retenta.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profilo: { $username }
+sc-personal-err-lang-not-found = Impossibile remover le lingua: lingua non trovate
+sc-personal-err-remove = Impossibile remover le lingua
+sc-personal-your-languages = Tu linguas:
+sc-personal-remove-button = remover
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $phrases } addite per te
+sc-personal-not-added = Tu non ha addite ulle linguas totevia.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ Criterios de revision
+sc-criteria-title = Criterios de revision
+sc-criteria-make-sure = Verifica que le phrase satisface le sequente criterios:
+sc-criteria-item-1 = Le orthographia del phrase debe esser correcte.
+sc-criteria-item-2 = Le phrase debe esser grammaticalmente correcte.
+sc-criteria-item-3 = Le phrase debe esser pronunciabile.
+sc-criteria-item-4 = Si le phrase satisface le criterios, clicca le button &quot;Approbar&quot; a dextera.
+sc-criteria-item-5-2 = Si le phrase non satisface le criterios de supra, clicca le button &quot;Rejectar&quot; a sinistra. Si tu non es secur del phrase, tu pote alsi saltar lo e mover sur illo sequente.
+sc-criteria-item-6 = Si tu non es secur del phrase, tu pote alsi saltar lo e mover a illo sequente.
+
+## REVIEW
+
+sc-review-lang-not-selected = Tu non ha seligite ulle linguas. Va a tu <profileLink>Profilo</profileLink> pro eliger linguas.
+sc-review-title = Revider phrases
+sc-review-loading = Cargante phrases…
+sc-review-select-language = Elige un lingua pro revider le phrases.
+sc-review-no-sentences = Nulle phrases a revider. <addLink>Adde altere phrases ora!</addLink>
+sc-review-form-prompt =
+    .message = Le phrases revidite non es inviate! Es tu secur?
+sc-review-form-usage = Glissa a dextera pro approbar le phrase. Glissa a sinistra pro rejectar lo. <strong>Non oblida de inviar tu revision!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Fonte: { $sentenceSource }
+sc-review-form-button-reject = Rejectar
+sc-review-form-button-skip = Saltar
+sc-review-form-button-approve = Approbar
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Tu pote alsi usar le vias breve de claviero: { sc-review-form-button-approve-shortcut } pro approvar, { sc-review-form-button-reject-shortcut } pro rejectar, { sc-review-form-button-skip-shortcut } pro saltar
+sc-review-form-button-submit =
+    .submitText = Finir revision
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Nulle phrases revidite
+        [one] 1 phrase revidite. Gratias!
+       *[other] { $phrases } phrases revidite. Gratias!
+    }
+sc-review-form-review-failure = Impossibile salvar le revision. Retenta plus tarde.
+sc-review-link = Revider
+
+## SETTINGS
+
+sc-settings-title = Parametros
+sc-settings-ui-language = Lingua del interfacie:
+sc-settings-language-translated-warning = Le paginas pro iste lingua poterea non esser plenmente traducite. Tu pote adjutar con le traduction <pontoonLinkLink>sur Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = Remontar phrases saltate
+sc-settings-skipped-decription = Tu phrases previemente saltate durante le revision. Remontar phrases saltate de novo monstrara tote le phrases saltate. Isto es independente del lingua.
+sc-settings-show-all-button = Monstrar de novo tote le phrases saltate
+sc-settings-failed = Impossibile cambiar parametros. Retenta.
+# VALIDATION
+sc-validation-number-of-words = Phrase debe contine inter 1 e 14 (inclusive) vocabulos
+sc-validation-no-numbers = Phrase non debe continer numeros
+sc-validation-no-symbols = Phrase non debe continer symbolos
+sc-validation-no-abbreviations = Phrase non debe continer abbreviationes
+
+# [/SentenceCollector]
+
+localization-select =
+    .label = Eliger lingua/localisation

@@ -36,7 +36,6 @@ ba = Башкирский
 bas = Баса
 be = Белорусский
 bg = Болгарский
-bm = Бамбара
 bn = Бенгальский
 br = Бретонский
 bxr = Бурятский
@@ -79,6 +78,7 @@ hyw = Западноармянский
 ia = Интерлингва
 id = Индонезийский
 ie = Интерлингве
+ig = Игбо
 is = Исландский
 it = Итальянский
 izh = Ижорский
@@ -105,6 +105,7 @@ mhr = Лугово-восточный марийский
 mk = Македонский
 ml = Малаялам
 mn = Монгольский
+mni = Манипури
 mos = Мооре
 mr = Маратхи
 mrj = Горномарийский
@@ -126,6 +127,8 @@ pap-AW = Папьяменто (Аруба)
 pl = Польский
 ps = Пушту
 pt = Португальский
+quc = Киче
+quy = Аякучанский кечуа
 rm-sursilv = Романшский Сурсельвский
 rm-vallader = Романшский Валладер
 ro = Румынский
@@ -149,10 +152,14 @@ ta = Тамильский
 te = Телугу
 tg = Таджикский
 th = Тайский
+ti = Тигринья
+tig = Тигре
+tk = Туркменский
 tl = Тагальский
 tr = Турецкий
 tt = Татарский
 tw = Чви
+ty = Таитянский
 uby = Убыхский
 udm = Удмуртский
 ug = Уйгурский
@@ -324,8 +331,13 @@ profile-form-native-language =
     .label = Родной язык
 profile-form-additional-language =
     .label = Дополнительный язык
+profile-form-language =
+    .label = Язык
 profile-form-accent =
     .label = Акцент
+profile-form-custom-accent-help-text =
+    .label = Как бы вы описали свой акцент?
+profile-form-custom-accent-placeholder-2 = Начните печатать, чтобы описать свой акцент
 profile-form-age =
     .label = Возраст
 profile-form-gender-2 =
@@ -336,6 +348,7 @@ hidden = Скрытый
 visible = Видимый
 native-language =
     .label = Родной язык
+profile-form-add-accent = Добавить новый акцент "{ $inputValue }"
 profile-form-submit-save = Сохранить
 profile-form-submit-saved = Сохранено
 male = Мужской
@@ -369,6 +382,7 @@ skip-submission-description = Оценка работы с Common Voice буде
 skip-submission-note = Примечание: Вам по-прежнему нужно выбирать между записью и прослушиванием, чтобы изменить тип внесения вклада.
 off = Выкл.
 on = Вкл.
+help-accent = Нужна помощь с акцентом?
 
 ## Profile - Email
 
@@ -454,15 +468,14 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Почему Common Voice?
-about-subtitle = Common Voice — это часть инициативы Mozilla по обучению машин тому, как говорят реальные люди. Помимо набора данных Common Voice, мы также создаем движок распознавания речи Deep Speech с открытым исходным кодом.
-about-header-description =
-    Оба эти проекта являются частью наших усилий по заполнению пробела в цифровой речи. Технологии распознавания голоса вносят человеческое измерение в наши устройства, но разработчикам необходим огромный объем голосовых данных для их создания. В настоящее время, большая часть этих данных является дорогой и проприетарной.
-    Мы хотим, чтобы голосовые данные были свободными и общедоступными, и чтобы эти данные отражали разнообразие реальных людей. Вместе мы можем сделать распознавание голоса лучше для всех и каждого.
-about-header-description-2 =
-    Этот проект является попыткой заполнения пробела в цифровой речи. Технологии распознавания голоса вносят человеческое измерение в наши устройства, но разработчикам необходим огромный объем голосовых данных для их создания. В настоящее время, большая часть этих данных является дорогой и проприетарной.
-    Мы хотим, чтобы голосовые данные были свободными и общедоступными, и чтобы эти данные отражали разнообразие реальных людей. Вместе мы можем сделать распознавание голоса лучше для всех и каждого.
-how-does-it-work-title = Как это работает
 how-does-it-work-text = Мы создаём краудсорсинговый открытый голосовой набор. Помогите своим голосом, проверяйте точность записей других людей, делайте набор данных лучше для всех и каждого.
+
+## How does it work section
+
+about-localization-subtitle = Текст веб-сайта переведён на этот язык.
+about-sentence-collection-title = Коллекция предложений
+about-new-lang-title = Запуск нового языка
+about-voice-validation-title = Подтверждение голосов
 about-speak = Говорите
 about-speak-text = Участники делают голосовые записи, читая из банка пожертвованных предложений.
 about-listen-queue = Очередь прослушивания
@@ -493,6 +506,38 @@ about-nav-why-common-voice = Почему?
 about-nav-how-it-works = Как?
 about-nav-partners = Партнёры
 about-nav-get-involved = Принять участие
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+about-playbook-how-add-language = Как мне добавить язык?
+about-playbook-how-add-language-content-1 = Сначала убедитесь, <languageLink>не добавлен ли уже</languageLink> ваш язык. Если его ещё нет, вам надо <strong>перевести сайт и собрать предложения</strong>.
+
+## How does localization work
+
+about-playbook-how-localize = Как работает локализация сайта?
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Как мне добавить предложения?
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Искусственный интеллект
 mycroft-description =
@@ -584,8 +629,8 @@ validated-hours = Часов проверено
 recorded-hours = Часов записано
 whats-inside = Что находится внутри набора данных Common Voice?
 dataset-description-hours =
-    Каждая запись в наборе данных состоит из уникального MP3-аудио и соответствующего ему текстового файла. Многие из <b>{ $total }</b> записей в этом наборе данных также включают в себя демографические метаданные, такие как возраст, пол и акцент, которые могут помочь увеличить точность обучения движков распознавания речи.¶
-    ¶
+    Каждая запись в наборе данных состоит из уникального MP3-аудио и соответствующего ему текстового файла. Многие из <b>{ $total }</b> записей в этом наборе данных также включают в себя демографические метаданные, такие как возраст, пол и акцент, которые могут помочь увеличить точность обучения движков распознавания речи.
+    
     В настоящее время набор данных состоит из <b>{ $valid }</b> проверенных часов на <b>{ $languages }</b> языках, но мы постоянно добавляем новые голоса и языки. Загляните на нашу <languagesLink>страницу языков</languagesLink>, чтобы запросить язык или принять участие.
 want-dataset-update = Хотите получить сообщение о выпуске новой версии набора данных Common Voice? Подпишитесь на нашу новостную рассылку.
 subscribe = Подписаться
@@ -972,6 +1017,9 @@ contribution-misreadings-description-extended-list-5 = Несколько поп
 contribution-misreadings-example-2-title = Гигантский динозавр триасового периода.
 contribution-misreadings-example-3-title = Гигантские динозавры Триассо-.
 contribution-misreadings-example-4-title = Гигантские динозавры триаса. Да.
+contribution-misreadings-example-5-title = Мы выходим за кофе.
+contribution-misreadings-example-6-title = Мы идем за кофе.
+contribution-misreadings-example-7-title = Мы выходим за кофе
 contribution-misreadings-example-8-title = Мимо пронесся шмель.
 contribution-varying-pronunciations-title = Различное Произношение
 contribution-varying-pronunciations-description = Будьте осторожны, прежде чем отклонять клип на том основании, что читатель неправильно произнес слово, поставил ударение не в том месте или, по-видимому, проигнорировал знак вопроса. Во всем мире используется большое разнообразие произношений, некоторые из которых вы, возможно, не слышали в своем местном сообществе. Пожалуйста, не отвергайте тех, кто может говорить иначе, чем вы.
@@ -983,3 +1031,78 @@ contribution-just-unsure-title = Не уверены?
 contribution-just-unsure-description = Если вы столкнетесь с чем-то, что не охвачено этими рекомендациями, проголосуйте, исходя из вашего здравого смысла. Если вы действительно не можете решить, используйте кнопку пропуска и переходите к следующей записи.
 see-more = <chevron></chevron>Более подробно
 see-less = <chevron></chevron>Менее подробно
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-add = Добавить
+sc-header-rejected = Отклоненные предложения
+sc-header-my = Мои предложения
+sc-header-statistics = Статистика
+sc-header-profile = Профиль
+sc-footer-report-bugs = Сообщить об ошибках
+sc-footer-translate = Перевод этой страницы
+sc-footer-report-copyright = Сообщить о нарушениях авторских прав
+sc-footer-privacy = Конфиденциальность
+sc-footer-cookies = Куки
+sc-login-signup-button = Войти / Зарегистрироваться
+sc-logout-button = Выйти
+
+## HOME
+
+
+## HOW-TO
+
+sc-howto-cite-title = Как цитировать
+sc-howto-review-subtitle = Убедитесь, что предложение соответствует следующим критериям:
+sc-howto-review-criteria-1 = Предложение должно быть написано правильно.
+sc-howto-review-criteria-2 = Предложение должно быть грамматически правильным.
+sc-howto-review-criteria-3 = Предложение должно быть произносимым.
+sc-howto-review-criteria-4 = Если предложение соответствует критериям, щёлкните по кнопке «Утвердить».
+sc-howto-review-criteria-5 = Если предложение не соответствует вышеуказанным критериям, щёлкните по кнопке «Отклонить». Если вы не уверены в предложении, вы также можете пропустить его и перейти к следующему.
+sc-howto-review-criteria-6 = Если у вас закончились предложения для проверки, помогите нам собрать больше предложений!
+sc-howto-findpd-title = Поиск существующих предложений в общественном достоянии
+sc-howto-findpd-tips = Вот несколько советов по поиску предложений:
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+

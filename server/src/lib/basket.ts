@@ -49,12 +49,12 @@ async function syncToEmailProvider(data: any) {
   if (getConfig().CINCHY_ENABLED) {
     const cinchyParams = {
       MessageBody: JSON.stringify(data),
-      QueueUrl: getConfig().CINCHY_CONFIG.endpoint
-    }
+      QueueUrl: getConfig().CINCHY_CONFIG.endpoint.toString(),
+    };
 
     sqs.sendMessage(cinchyParams, (err, data) => {
       if (err) {
-        console.log("Cinchy SQS error:", err);
+        console.log('Cinchy SQS error:', err);
       }
     });
   } else {
@@ -179,8 +179,6 @@ async function syncFullAccount(currentUserStats: UserEmailStats) {
   syncToEmailProvider(data);
 }
 
-
-
 /*
  * Sync current account info to email provider if
  * there is updated data and it's been more than 5 minutes
@@ -192,7 +190,10 @@ export async function sync(client_id: string, firstSubscribe?: boolean) {
   // If no newsletter prefs exist, they don't get email triggers
   // If last update was within the past 5 minutes, do not send another sync to
   // prevent spamming endpoint
-  if (!currUserStats || (parseInt(currUserStats.mins_elapsed) <= 5 && !firstSubscribe)) {
+  if (
+    !currUserStats ||
+    (parseInt(currUserStats.mins_elapsed) <= 5 && !firstSubscribe)
+  ) {
     return;
   }
 

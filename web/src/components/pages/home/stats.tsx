@@ -7,6 +7,7 @@ import {
 import * as React from 'react';
 import { useState } from 'react';
 import { connect } from 'react-redux';
+import { Tooltip } from 'react-tippy';
 import API from '../../../services/api';
 import { trackHome } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
@@ -23,15 +24,9 @@ import Plot, {
 
 import './stats.css';
 
-const { Tooltip } = require('react-tippy');
-
 const PLOT_STROKE_WIDTH = 2;
 
 type Attribute = 'total' | 'valid';
-
-interface State {
-  locale: string;
-}
 
 function StatsCard({
   children,
@@ -71,37 +66,38 @@ const mapStateToProps = ({ api }: StateTree) => ({
   api,
 });
 
+function formatSeconds(totalSeconds: number, precise = false) {
+  const seconds = totalSeconds % 60;
+  const minutes = Math.floor(totalSeconds / 60) % 60;
+  const hours = Math.floor(totalSeconds / 3600);
+
+  if (hours >= 1000) {
+    if (precise) return `${hours.toLocaleString()}h`;
+    return (hours / 1000).toPrecision(2) + 'k';
+  }
+
+  const timeParts = [];
+
+  if (hours > 0) {
+    timeParts.push(hours + 'h');
+  }
+
+  if (hours < 10 && minutes > 0) {
+    timeParts.push(minutes + 'm');
+  }
+
+  if (hours == 0 && minutes < 10 && seconds > 0) {
+    timeParts.push(seconds + 's');
+  }
+
+  return timeParts.join(' ') || '0';
+}
+
+// eslint-disable-next-line @typescript-eslint/no-namespace
 export namespace ClipsStats {
   const DATA_LENGTH = 5;
   const TICK_COUNT = 7;
   const CIRCLE_RADIUS = 8;
-
-  function formatSeconds(totalSeconds: number, precise: boolean = false) {
-    const seconds = totalSeconds % 60;
-    const minutes = Math.floor(totalSeconds / 60) % 60;
-    const hours = Math.floor(totalSeconds / 3600);
-
-    if (precise) return `${hours.toLocaleString()}h`;
-    if (hours >= 1000) {
-      return (hours / 1000).toPrecision(2) + 'k';
-    }
-
-    const timeParts = [];
-
-    if (hours > 0) {
-      timeParts.push(hours + 'h');
-    }
-
-    if (hours < 10 && minutes > 0) {
-      timeParts.push(minutes + 'm');
-    }
-
-    if (hours == 0 && minutes < 10 && seconds > 0) {
-      timeParts.push(seconds + 's');
-    }
-
-    return timeParts.join(' ') || '0';
-  }
 
   const MetricValue = ({ attribute, title, children }: any) => (
     <div className={'metric-value ' + attribute} title={title}>
@@ -200,6 +196,8 @@ export namespace ClipsStats {
     }
   );
 
+  Path.displayName = 'Path';
+
   class BareRoot extends React.Component<
     WithLocalizationProps & PropsFromState
   > {
@@ -228,7 +226,9 @@ export namespace ClipsStats {
           Math.round((DATA_LENGTH * (event.clientX - left)) / width) - 1;
         this.setState({
           hoveredIndex:
-            hoveredIndex >= 0 && hoveredIndex < DATA_LENGTH ? hoveredIndex : null,
+            hoveredIndex >= 0 && hoveredIndex < DATA_LENGTH
+              ? hoveredIndex
+              : null,
         });
       }
     };
@@ -251,11 +251,22 @@ export namespace ClipsStats {
             })}
           </b>
           <div className="metrics">
-            <MetricValue attribute="total">{formatSeconds(total)}</MetricValue>
-            <MetricValue attribute="valid">{formatSeconds(valid)}</MetricValue>
+            <MetricValue attribute="total">
+              {formatSeconds(total, true)}
+            </MetricValue>
+            <MetricValue attribute="valid">
+              {formatSeconds(valid, true)}
+            </MetricValue>
           </div>
         </>
-      ) : null;
+      ) : (
+        <div />
+      );
+
+      const isTooltipOpen = Object.prototype.hasOwnProperty.call(
+        data,
+        hoveredIndex
+      );
 
       return (
         <StatsCard
@@ -270,8 +281,8 @@ export namespace ClipsStats {
             arrow={true}
             duration={0}
             html={tooltipContents}
-            open={Boolean(tooltipContents)}
-            theme="white"
+            open={isTooltipOpen}
+            theme="light"
             followCursor>
             <Plot
               data={data}
@@ -349,6 +360,8 @@ export const VoiceStats = connect<PropsFromState>(mapStateToProps)(
           header={
             <div>
               <Localized id="voices-online">
+                {/* Localized injects content into child tag */}
+                {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
                 <h3 />
               </Localized>
               <div className="online-voices">

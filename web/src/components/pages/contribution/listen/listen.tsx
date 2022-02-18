@@ -171,7 +171,6 @@ class ListenPage extends React.Component<Props, State> {
       console.warn(`A sessionStorage error occurred ${e.message}`);
     }
 
-
     if (showFirstContributionToast) {
       addAchievement(
         50,
@@ -230,16 +229,30 @@ class ListenPage extends React.Component<Props, State> {
   };
 
   private handleSkip = () => {
-    const { removeClip } = this.props;
+    const { removeClip, api } = this.props;
     const { clips } = this.state;
     this.stop();
+    api.skipClip(clips[this.getClipIndex()].id);
     removeClip(clips[this.getClipIndex()].id);
+
+    let replacementSet = [...clips];
+
+    // If there's more in the cache, replace current clip with the next one from cache
+    if (this.props.clips.length > SET_COUNT) {
+      replacementSet[this.getClipIndex()] = {
+        ...this.props.clips.slice(SET_COUNT)[0],
+        isValid: null,
+      };
+    } else {
+      // else, remove current clip and shift the remainder up
+      replacementSet = [
+        ...replacementSet.slice(0, this.getClipIndex()),
+        ...replacementSet.slice(this.getClipIndex() + 1),
+      ];
+    }
+
     this.setState({
-      clips: clips.map((clip, i) =>
-        this.getClipIndex() === i
-          ? { ...this.props.clips.slice(SET_COUNT)[0], isValid: null }
-          : clip
-      ),
+      clips: replacementSet,
       hasPlayed: false,
       hasPlayedSome: false,
     });

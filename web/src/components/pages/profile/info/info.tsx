@@ -6,10 +6,10 @@ import {
 import * as React from 'react';
 import { useCallback, useEffect, useState } from 'react';
 import { Redirect, RouteComponentProps, withRouter } from 'react-router';
+import { Tooltip } from 'react-tippy';
 import { useAction, useAPI } from '../../../../hooks/store-hooks';
-import { NATIVE_NAMES } from '../../../../services/localization';
 import { trackProfile } from '../../../../services/tracker';
-import { ACCENTS, AGES, GENDERS } from '../../../../stores/demographics';
+import { AGES, GENDERS } from '../../../../stores/demographics';
 import { Notifications } from '../../../../stores/notifications';
 import { useTypedSelector } from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
@@ -26,11 +26,15 @@ import {
   LabeledSelect,
 } from '../../../ui/ui';
 import { isEnrolled } from '../../dashboard/challenge/constants';
+import { UserLanguage } from 'common';
+
+import ProfileInfoLanguages from './languages/languages';
 
 import './info.css';
 
+// TODO: remove pick
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const pick = require('lodash.pick');
-const { Tooltip } = require('react-tippy');
 
 const Options = withLocalization(
   ({
@@ -49,12 +53,10 @@ const Options = withLocalization(
   )
 );
 
-type Locales = { locale: string; accent: string }[];
-
-function ProfilePage({
+function ProfileInfo({
   getString,
   history,
-}: WithLocalizationProps & RouteComponentProps<any, any, any>) {
+}: WithLocalizationProps & RouteComponentProps) {
   const api = useAPI();
   const [locale, toLocaleRoute] = useLocale();
   const user = useTypedSelector(({ user }) => user);
@@ -79,16 +81,10 @@ function ProfilePage({
     sendEmails: false,
     privacyAgreed: false,
   });
-  const {
-    username,
-    visible,
-    age,
-    gender,
-    sendEmails,
-    privacyAgreed,
-  } = userFields;
-  const [locales, setLocales] = useState<Locales>([]);
-  const [isInitialized, setIsInitialized] = useState(false);
+  const { username, visible, age, gender, sendEmails, privacyAgreed } =
+    userFields;
+  const [areLanguagesLoading, setAreLanguagesLoading] = useState(true);
+  const [userLanguages, setUserLanguages] = useState<UserLanguage[]>([]);
   const [isSaving, setIsSaving] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [showDemographicInfo, setShowDemographicInfo] = useState(false);
@@ -99,10 +95,9 @@ function ProfilePage({
     user?.userClients[0]?.enrollment || isEnrolled(account);
 
   useEffect(() => {
-    if (user.isFetchingAccount || isInitialized) {
+    if (user.isFetchingAccount || areLanguagesLoading) {
       return;
     }
-    setIsInitialized(true);
 
     if (!account && userClients.length == 0) {
       history.push('/');
@@ -122,27 +117,31 @@ function ProfilePage({
       privacyAgreed: Boolean(account) || user.privacyAgreed,
     });
 
-    let locales: Locales = [];
-    if (!account) {
-      locales = userClients.reduce(
-        (locales, u) => locales.concat(u.locales || []),
-        []
-      );
-      locales = locales.filter(
-        (l1, i) => i == locales.findIndex(l2 => l2.locale == l1.locale)
-      );
+    if (account) {
+      setUserLanguages(account.languages);
+      return;
     }
-    setLocales(account ? account.locales : locales);
-  }, [user]);
 
-  const handleChangeFor = (field: string) => ({
-    target,
-  }: React.ChangeEvent<any>) => {
-    setUserFields({
-      ...userFields,
-      [field]: target.type == 'checkbox' ? target.checked : target.value,
-    });
-  };
+    let userLanguages: UserLanguage[] = [];
+    userLanguages = userClients.reduce(
+      (languages, userClient) => languages.concat(userClient.languages || []),
+      []
+    );
+    userLanguages = userLanguages.filter(
+      (l1, i) => i == userLanguages.findIndex(l2 => l2.locale == l1.locale)
+    );
+
+    setUserLanguages(userLanguages);
+  }, [user, areLanguagesLoading]);
+
+  const handleChangeFor =
+    (field: string) =>
+    ({ target }: React.ChangeEvent<HTMLInputElement>) => {
+      setUserFields({
+        ...userFields,
+        [field]: target.type == 'checkbox' ? target.checked : target.value,
+      });
+    };
 
   const submit = useCallback(() => {
     if (!user.account) {
@@ -160,7 +159,7 @@ function ProfilePage({
 
     const data = {
       ...pick(userFields, 'username', 'age', 'gender'),
-      locales: locales.filter(l => l.locale),
+      languages: userLanguages.filter(l => l.locale),
       visible: JSON.parse(visible.toString()),
       client_id: user.userId,
       enrollment: user.userClients[0].enrollment || {
@@ -181,11 +180,7 @@ function ProfilePage({
         setIsSaving(false);
       },
     ]);
-  }, [api, getString, locale, locales, termsStatus, user, userFields]);
-
-  if (!isInitialized) {
-    return null;
-  }
+  }, [api, getString, locale, userLanguages, termsStatus, user, userFields]);
 
   if (!isSaving && isSubmitted && isEnrolledInChallenge) {
     return (
@@ -203,22 +198,24 @@ function ProfilePage({
 
   return (
     <div className="profile-info">
-      {termsStatus == 'show' && (
+      <h1>Profile</h1>
+
+      {termsStatus === 'show' && (
         <TermsModal onAgree={submit} onDisagree={() => setTermsStatus(null)} />
       )}
+
       {!user.account && (
         <Localized id="thanks-for-account">
-          <h2 />
+          <p />
         </Localized>
       )}
+
       <Localized id="why-profile-text">
         <p />
       </Localized>
 
       <div
-        className={
-          'demographic-info ' + (showDemographicInfo ? 'expanded' : '')
-        }>
+        className={'profile-toggle ' + (showDemographicInfo ? 'expanded' : '')}>
         <button
           type="button"
           onClick={() => setShowDemographicInfo(!showDemographicInfo)}>
@@ -268,72 +265,13 @@ function ProfilePage({
             <Options>{GENDERS}</Options>
           </LabeledSelect>
         </Localized>
-
-        {locales.map(({ locale, accent }, i) => (
-          <React.Fragment key={i}>
-            <Localized
-              id={
-                i == 0
-                  ? 'profile-form-native-language'
-                  : 'profile-form-additional-language'
-              }
-              attrs={{ label: true }}>
-              <LabeledSelect
-                value={locale}
-                onChange={({
-                  target: { value },
-                }: React.ChangeEvent<HTMLSelectElement>) => {
-                  const newLocales = locales.slice();
-                  newLocales[i] = { locale: value, accent: '' };
-                  if (!value) {
-                    newLocales.splice(i, 1);
-                  }
-                  setLocales(
-                    newLocales.filter(
-                      ({ locale }, i2) => i2 === i || locale !== value
-                    )
-                  );
-                }}>
-                <option value="" />
-                {Object.entries(NATIVE_NAMES).map(([locale, name]) => (
-                  <option key={locale} value={locale}>
-                    {name}
-                  </option>
-                ))}
-              </LabeledSelect>
-            </Localized>
-            <Localized id="profile-form-accent" attrs={{ label: true }}>
-              <LabeledSelect
-                value={accent}
-                onChange={({
-                  target: { value },
-                }: React.ChangeEvent<HTMLSelectElement>) => {
-                  const newLocales = locales.slice();
-                  newLocales[i].accent = value;
-                  setLocales(newLocales);
-                }}>
-                <option value="" />
-                {ACCENTS[locale] && <Options>{ACCENTS[locale]}</Options>}
-              </LabeledSelect>
-            </Localized>
-          </React.Fragment>
-        ))}
       </div>
 
-      <Button
-        className="add-language"
-        outline
-        onClick={() => {
-          if (locales.length && !locales[locales.length - 1].locale) {
-            return;
-          }
-          setLocales(locales.concat({ locale: '', accent: '' }));
-        }}>
-        <Localized id="add-language">
-          <span />
-        </Localized>
-        <span>+</span>
-      </Button>
+      <ProfileInfoLanguages
+        userLanguages={userLanguages}
+        setUserLanguages={setUserLanguages}
+        setAreLanguagesLoading={setAreLanguagesLoading}
+      />
 
       <Hr />
 
@@ -342,8 +280,8 @@ function ProfilePage({
           <div className="signup-section">
             <Tooltip
               arrow
-              html={getString('change-email-setings')}
-              theme="grey-tooltip">
+              html={<>{getString('change-email-setings')}</>}
+              theme="dark">
               <Localized id="email-input" attrs={{ label: true }}>
                 <LabeledInput value={user.userClients[0].email} disabled />
               </Localized>
@@ -365,41 +303,33 @@ function ProfilePage({
                 checked={sendEmails}
               />
 
+              <LabeledCheckbox
+                {...(user.account || isSubmitted ? { disabled: true } : {})}
+                label={
+                  <>
+                    <Localized id="accept-privacy-title">
+                      <strong />
+                    </Localized>
+                    <Localized
+                      id="accept-privacy"
+                      elems={{
+                        privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
+                      }}>
+                      <span />
+                    </Localized>
+                  </>
+                }
+                checked={privacyAgreed}
+                onChange={handleChangeFor('privacyAgreed')}
+              />
 
-
-                  <LabeledCheckbox
-                    {...(user.account || isSubmitted) ? {disabled: true} : {}}
-                    label={
-                      <>
-                        <Localized id="accept-privacy-title">
-                          <strong />
-                        </Localized>
-                        <Localized
-                          id="accept-privacy"
-                          elems={{
-                            privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
-                          }}>
-                          <span />
-                        </Localized>
-                      </>
-                    }
-                    checked={privacyAgreed}
-                    onChange={handleChangeFor('privacyAgreed')}
-                  />
-
-                  <Localized id="read-terms-q">
-                    <LocaleLink
-                      to={
-                        isEnrolledInChallenge
-                          ? URLS.CHALLENGE_TERMS
-                          : URLS.TERMS
-                      }
-                      className="terms"
-                      blank
-                    />
-                  </Localized>
-
-
+              <Localized id="read-terms-q">
+                <LocaleLink
+                  to={isEnrolledInChallenge ? URLS.CHALLENGE_TERMS : URLS.TERMS}
+                  className="terms"
+                  blank
+                />
+              </Localized>
             </div>
           </div>
 
@@ -411,7 +341,7 @@ function ProfilePage({
         <Button
           className="save"
           rounded
-          disabled={isSaving || !privacyAgreed}
+          disabled={isSaving || !privacyAgreed || areLanguagesLoading}
           onClick={submit}
         />
       </Localized>
@@ -419,4 +349,4 @@ function ProfilePage({
   );
 }
 
-export default withLocalization(withRouter(ProfilePage));
+export default withLocalization(withRouter(ProfileInfo));

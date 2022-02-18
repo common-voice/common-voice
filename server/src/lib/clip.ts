@@ -19,6 +19,13 @@ const Transcoder = require('stream-transcoder');
 const { Converter } = require('ffmpeg-stream');
 const { Readable } = require('stream');
 
+enum ERRORS {
+  MISSING_PARAM = 'MISSING_PARAM',
+  CLIP_NOT_FOUND = 'CLIP_NOT_FOUND',
+  SENTENCE_NOT_FOUND = 'SENTENCE_NOT_FOUND',
+  ALREADY_EXISTS = 'ALREADY_EXISTS',
+}
+
 /**
  * Clip - Responsibly for saving and serving clips.
  */
@@ -70,15 +77,26 @@ export default class Clip {
     return router;
   }
 
-
   /*
    * Helper function to send error message to client, and save to Sentry
    * defaults to save_clip_error
    */
-  clipSaveError(headers: any, response: Response, status: number, msg: string, customError?: string) {
-    const compiledError = customError ? `${customError} ${msg}` : `save_clip_error ${msg}`;
+  clipSaveError(
+    headers: any,
+    response: Response,
+    status: number,
+    msg: string,
+    fingerprint: string,
+    type: 'vote' | 'clip'
+  ) {
+    const compiledError = `save_${type}_error: ${fingerprint}: ${msg}`;
     response.status(status).send(compiledError);
-    Sentry.captureEvent({ request: { headers }, message: compiledError });
+
+    Sentry.withScope(scope => {
+      // group errors together based on their request and response
+      scope.setFingerprint([`save_${type}_error`, fingerprint]);
+      Sentry.captureEvent({ request: { headers }, message: compiledError });
+    });
   }
 
   serveClip = async ({ params }: Request, response: Response) => {
@@ -98,13 +116,27 @@ export default class Clip {
     const { isValid, challenge } = body;
 
     if (!id || !client_id) {
-      this.clipSaveError(headers, response, 400, `missing parameter: ${id ? 'client_id' : 'clip_id'}`, 'save_vote_error');
+      this.clipSaveError(
+        headers,
+        response,
+        400,
+        `missing parameter: ${id ? 'client_id' : 'clip_id'}`,
+        ERRORS.MISSING_PARAM,
+        'vote'
+      );
       return;
     }
 
     const clip = await this.model.db.findClip(id);
     if (!clip) {
-      this.clipSaveError(headers, response, 422, `clip not found: ${id}`, 'save_vote_error');
+      this.clipSaveError(
+        headers,
+        response,
+        422,
+        `clip not found: ${id}`,
+        ERRORS.CLIP_NOT_FOUND,
+        'vote'
+      );
       return;
     }
 
@@ -153,13 +185,27 @@ export default class Clip {
     const size = headers['content-length'];
 
     if (!sentenceId || !client_id) {
-      this.clipSaveError(headers, response, 400, `missing parameter: ${sentenceId ? 'client_id' : 'sentence_id'}`);
+      this.clipSaveError(
+        headers,
+        response,
+        400,
+        `missing parameter: ${sentenceId ? 'client_id' : 'sentence_id'}`,
+        ERRORS.MISSING_PARAM,
+        'clip'
+      );
       return;
     }
 
     const sentence = await this.model.db.findSentence(sentenceId);
     if (!sentence) {
-      this.clipSaveError(headers, response, 422, `sentence not found: ${sentenceId}`);
+      this.clipSaveError(
+        headers,
+        response,
+        422,
+        `sentence not found: ${sentenceId}`,
+        ERRORS.SENTENCE_NOT_FOUND,
+        'clip'
+      );
       return;
     }
 
@@ -170,7 +216,14 @@ export default class Clip {
     const metadata = `${clipFileName} (${size} bytes, ${format}) from ${source}`;
 
     if (await this.model.db.clipExists(client_id, sentenceId)) {
-      this.clipSaveError(headers, response, 204, `${clipFileName} already exists`);
+      this.clipSaveError(
+        headers,
+        response,
+        204,
+        `${clipFileName} already exists`,
+        ERRORS.ALREADY_EXISTS,
+        'clip'
+      );
       return;
     } else {
       // If the folder does not exist, we create it.
@@ -200,10 +253,17 @@ export default class Clip {
         .channels(1)
         .sampleRate(32000)
         .on('error', (error: string) => {
-          this.clipSaveError(headers, response, 500, `${error} for ${metadata}`);
+          this.clipSaveError(
+            headers,
+            response,
+            500,
+            `${error} for ${metadata}`,
+            `ffmpeg ${error}`,
+            'clip'
+          );
           return;
         })
-        .on('finish', async() => {
+        .on('finish', async () => {
           console.log(`clip written to s3 ${metadata}`);
 
           await this.model.saveClip({
@@ -215,7 +275,9 @@ export default class Clip {
           });
           await Awards.checkProgress(client_id, { id: sentence.locale_id });
 
-          await checkGoalsAfterContribution(client_id, { id: sentence.locale_id });
+          await checkGoalsAfterContribution(client_id, {
+            id: sentence.locale_id,
+          });
 
           Basket.sync(client_id).catch(e => console.error(e));
 
@@ -223,10 +285,10 @@ export default class Clip {
           const ret = challengeTokens.includes(challenge)
             ? {
                 filePrefix: filePrefix,
-                showFirstContributionToast: await earnBonus('first_contribution', [
-                  challenge,
-                  client_id,
-                ]),
+                showFirstContributionToast: await earnBonus(
+                  'first_contribution',
+                  [challenge, client_id]
+                ),
                 hasEarnedSessionToast: await hasEarnedBonus(
                   'invite_contribute_same_session',
                   client_id,
@@ -239,7 +301,9 @@ export default class Clip {
                   client_id,
                   challenge,
                 ]),
-                challengeEnded: await this.model.db.hasChallengeEnded(challenge),
+                challengeEnded: await this.model.db.hasChallengeEnded(
+                  challenge
+                ),
               }
             : { filePrefix };
           response.json(ret);
@@ -257,13 +321,15 @@ export default class Clip {
   };
 
   serveRandomClips = async (
-    { client_id, params, query }: Request,
+    request: Request,
     response: Response
   ): Promise<void> => {
+    const { client_id, params } = request;
+    const count = this.getCountFromQuery(request) || 1;
     const clips = await this.bucket.getRandomClips(
       client_id,
       params.locale,
-      parseInt(query.count, 10) || 1
+      count
     );
     response.json(clips);
   };
@@ -292,33 +358,56 @@ export default class Clip {
     response.json(await this.model.getVoicesStats(params.locale));
   };
 
-  serveClipLeaderboard = async (
-    { client_id, params, query }: Request,
-    response: Response
-  ) => {
-    response.json(
-      await getLeaderboard({
-        dashboard: 'stats',
-        type: 'clip',
-        client_id,
-        cursor: query.cursor ? JSON.parse(query.cursor) : null,
-        locale: params.locale,
-      })
-    );
+  serveClipLeaderboard = async (request: Request, response: Response) => {
+    const { client_id, params } = request;
+    const cursor = this.getCursorFromQuery(request);
+    const leaderboard = await getLeaderboard({
+      dashboard: 'stats',
+      type: 'clip',
+      client_id,
+      cursor,
+      locale: params.locale,
+    });
+    response.json(leaderboard);
   };
 
-  serveVoteLeaderboard = async (
-    { client_id, params, query }: Request,
-    response: Response
-  ) => {
-    response.json(
-      await getLeaderboard({
-        dashboard: 'stats',
-        type: 'vote',
-        client_id,
-        cursor: query.cursor ? JSON.parse(query.cursor) : null,
-        locale: params.locale,
-      })
-    );
+  serveVoteLeaderboard = async (request: Request, response: Response) => {
+    const { client_id, params } = request;
+    const cursor = this.getCursorFromQuery(request);
+    const leaderboard = await getLeaderboard({
+      dashboard: 'stats',
+      type: 'vote',
+      client_id,
+      cursor,
+      locale: params.locale,
+    });
+    response.json(leaderboard);
   };
+
+  private getCursorFromQuery(request: Request) {
+    const { cursor } = request.query;
+
+    if (!cursor || typeof cursor !== 'string') {
+      return null;
+    }
+
+    return JSON.parse(cursor);
+  }
+
+  private getCountFromQuery(request: Request) {
+    const { count } = request.query;
+
+    if (!count || typeof count !== 'string') {
+      return null;
+    }
+
+    const number = parseInt(count, 10);
+
+    // if invalid number return nothing
+    if (Number.isNaN(number)) {
+      return null;
+    }
+
+    return number;
+  }
 }

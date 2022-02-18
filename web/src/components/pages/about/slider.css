@@ -54,7 +54,7 @@
         box-sizing: border-box;
         height: max-content;
 
-        &:before {
+        &::before {
             content: '';
             background-image: url('./images/slider-dots.png');
             position: absolute;
@@ -64,7 +64,7 @@
             height: calc(100% + 5rem);
         }
 
-        &:after {
+        &::after {
             content: '';
             position: absolute;
             right: 100%;
@@ -84,7 +84,7 @@
             position: relative;
             z-index: var(--middle-z-index);
 
-            &:before {
+            &::before {
                 content: '';
                 float: left;
                 padding-top: 100%;
@@ -101,14 +101,14 @@
                 float: left;
                 border: none;
 
-                &:before,
-                &:after {
+                &::before,
+                &::after {
                     display: none;
                 }
             }
 
-            &:before,
-            &:after {
+            &::before,
+            &::after {
                 display: none;
             }
 

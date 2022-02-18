@@ -36,9 +36,9 @@ ba = Baschkirisch
 bas = Basaa
 be = Weißrussisch
 bg = Bulgarisch
-bm = Bambara
 bn = Bengali
 br = Bretonisch
+bs = Bosnisch
 bxr = Burjatisch
 ca = Katalanisch
 cak = Kaqchikel
@@ -67,6 +67,7 @@ fy-NL = Friesisch
 ga-IE = Irisch
 gl = Galizisch
 gn = Guarani
+gom = Goanisches Konkani
 ha = Hausa
 he = Hebräisch
 hi = Hindi
@@ -90,11 +91,14 @@ kab = Kabylisch
 kbd = Kabardinisch
 ki = Kikuyu
 kk = Kasachisch
+km = Khmer
 kmr = Kurmandschi Kurdisch
+knn = Konkani (Devanagari)
 ko = Koreanisch
 kpv = Komi-Syrjänisch
 kw = Cornish
 ky = Kirgisisch
+lb = Luxemburgisch
 lg = Luganda
 lij = Ligurisch
 lt = Litauisch
@@ -106,6 +110,7 @@ mhr = Wiesenmari
 mk = Mazedonisch
 ml = Malayalam
 mn = Mongolisch
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Bergmari
@@ -127,6 +132,8 @@ pap-AW = Papiamento (Aruba)
 pl = Polnisch
 ps = Paschtu
 pt = Portugiesisch
+quc = K’iche’
+quy = Quechua Chanka
 rm-sursilv = Surselvisch
 rm-vallader = Rätoromanisch Vallader
 ro = Rumänisch
@@ -139,6 +146,7 @@ scn = Sizilianisch
 shi = Taschelhit
 si = Singhalesisch
 sk = Slowakisch
+skr = Saraiki
 sl = Slowenisch
 so = Somali
 sq = Albanisch
@@ -150,7 +158,11 @@ ta = Tamil
 te = Telugu
 tg = Tadschikisch
 th = Thailändisch
+ti = Tigrinya
+tig = Tigre
+tk = Turkmenisch
 tl = Tagalog
+tok = Toki Pona
 tr = Türkisch
 tt = Tatarisch
 tw = Twi
@@ -322,18 +334,24 @@ profile-form-native-language =
     .label = Muttersprache
 profile-form-additional-language =
     .label = Zusätzliche Sprache
+profile-form-language =
+    .label = Sprache
 profile-form-accent =
     .label = Akzent
+profile-form-custom-accent-help-text =
+    .label = Wie würden Sie Ihren Akzent beschreiben?
+profile-form-custom-accent-placeholder-2 = Beginnen Sie mit der Eingabe, um Ihren Akzent zu beschreiben
 profile-form-age =
     .label = Alter
 profile-form-gender-2 =
     .label = Geschlecht
 leaderboard-visibility =
-    .label = Sichtbarkeit in der Rangliste
+    .label = Ranglistensichtbarkeit
 hidden = Versteckt
 visible = Sichtbar
 native-language =
     .label = Muttersprache
+profile-form-add-accent = Neuen benutzerdefinierten Akzent hinzufügen „{ $inputValue }“
 profile-form-submit-save = Speichern
 profile-form-submit-saved = Gespeichert
 male = Männlich
@@ -367,6 +385,8 @@ skip-submission-description = Beim Mitarbeiten wird nach dem Klick auf »Übermi
 skip-submission-note = Hinweis: Sie müssen sich weiterhin zwischen »Sprechen« und »Anhören« entscheiden, je nachdem wie Sie mitarbeiten möchten.
 off = Aus
 on = An
+help-accent = Brauchen Sie Hilfe beim Akzent?
+help-accent-explanation = Ihr Akzent ist die Art und Weise, wie Sie Wörter aussprechen. Er kann davon geprägt sein, wo Sie gelebt haben, welche anderen Sprachen Sie sprechen und von vielen anderen Faktoren. Sie können hier alle Informationen teilen, die Sie für relevant halten.
 
 ## Profile - Email
 
@@ -452,15 +472,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Warum Common Voice?
-about-subtitle = Common-Voice ist ein Teil von Mozillas Initiative, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen. Zusätzlich zum Common-Voice-Datensatz entwickeln wir auch eine quelloffene Spracherkennungs-Engine namens Deep Speech.
-about-header-description =
-    Beide Projekte sind Teil unserer Bemühungen, die Lücke, die digitale Sprache bedeutet, zu überbrücken. Spracherkennungstechnologien verleihen unseren Geräten eine menschliche Dimension, aber Entwickler benötigen eine riesige Menge an Sprachdaten, um sie zu erstellen. Derzeit sind die meisten dieser Daten teuer und proprietär.
-    Wir möchten Sprachdaten frei und öffentlich verfügbar machen und sicherstellen, dass die Daten die Vielfalt echter Menschen darstellen. Gemeinsam können wir die Spracherkennung für alle verbessern.
-about-header-description-2 =
-    Dieses Projekt ist ein Versuch, die Lücke, die digitale Sprache bedeutet, zu überbrücken. Spracherkennungstechnologien verleihen unseren Geräten eine menschliche Dimension, aber Entwickler benötigen eine riesige Menge an Sprachdaten, um sie zu erstellen. Derzeit sind die meisten dieser Daten teuer und proprietär.
-    Wir möchten Sprachdaten frei und öffentlich verfügbar machen und sicherstellen, dass die Daten die Vielfalt echter Menschen darstellen. Gemeinsam können wir die Spracherkennung für alle verbessern.
-how-does-it-work-title = Wie es funktioniert
+about-header-description-v2 =
+    <p>Common Voice ist ein öffentlich verfügbarer Sprachdatensatz, der durch Stimmen freiwilliger Mitwirkender auf der ganzen Welt geschaffen wird. Menschen, die Sprachanwendungen erstellen möchten, können den Datensatz verwenden, um Modelle für maschinelles Lernen zu trainieren.</p>
+    <p>Derzeit sind die meisten Sprachdatensätze im Besitz von Unternehmen, was Innovationen erstickt. Stimmdatensätze überrepräsentieren auch weiße, englischsprachige Männer. Das bedeutet, dass die sprachgesteuerte Technologie in vielen Sprachen überhaupt nicht funktioniert, und wo sie funktioniert, funktioniert sie möglicherweise nicht bei allen gleich gut. Wir möchten das ändern, indem wir Menschen überall mobilisieren, ihre Stimme zu teilen.</p>
+how-does-it-work-title-v2 = Wie funktioniert Common Voice?
 how-does-it-work-text = Wir crowdsourcen einen Open-Source-Datensatz von Stimmen. Spenden Sie Ihre Stimme, überprüfen Sie die Genauigkeit der Clips anderer Personen, und verbessern Sie den Datensatz für alle.
+
+## How does it work section
+
+about-language-req-subtitle = Jemand bittet darum, eine Sprache hinzuzufügen.
+about-localization-title = Website-Lokalisierung
+about-localization-subtitle = Der Text der Website wird in diese Sprache übersetzt.
+about-sentence-collection-title = Satz-Sammlung
+about-sentence-collection-subtitle = Sätze werden gesammelt, damit Menschen diese laut vorlesen können.
+about-new-lang-title = Veröffentlichung einer neuen Sprache
+about-new-lang-subtitle = Wir veröffentlichen die Common-Voice-Website in dieser Sprache.
+about-voice-contrib-title = Beitragen von Stimmen
+about-voice-contrib-subtitle = Menschen kommen und spenden ihre Stimme.
+about-voice-validation-title = Stimmenüberprüfung
+about-voice-validation-subtitle = Andere Leute validieren diese Sprachclips.
+about-dataset-release-title = Veröffentlichung des Datensatzes
+about-dataset-release-subtitle = Wir veröffentlichen den Datensatz alle drei Monate.
+about-subscribe-text = Möchten Sie mit Common Voice in Kontakt bleiben?
 about-speak = Sprechen
 about-speak-text = Mitwirkende zeichnen Sprachclips auf, indem sie aus einer Datenbank gespendeter Sätze lesen.
 about-listen-queue = Hör-Warteschlange
@@ -489,10 +522,94 @@ about-get-involved-text-2 =
     Großartig! Kontaktieren Sie uns per E-Mail oder über die<discourseLink>Discourse</discourseLink>-Foren,
     melden Sie Probleme mit der Website über <githubLink>GitHub</githubLink>
     oder besuchen Sie unseren Community-Chat auf <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Wie bleibe ich in Kontakt?
+about-stay-in-touch-text-1 = <emailFragment>Registrieren Sie sich bei unserer Mailingliste</emailFragment> an, um zu erfahren, wie Sie an Kampagnen, Veranstaltungen und Co-Design-Funktionen auf Common Voice teilnehmen können.
+about-stay-in-touch-text-2 = Sie können andere Menschen in den Mozilla-Sprachgemeinschaften treffen, indem Sie <discourseLink>Discourse</discourseLink> für aktuelle Gespräche oder <matrixLink>Matrix</matrixLink> für schnelle Ratschläge beitreten.
 about-nav-why-common-voice = Warum?
 about-nav-how-it-works = Wie?
 about-nav-partners = Partner
 about-nav-get-involved = Mitmachen
+about-nav-how-it-works-2 = Wie funktioniert Common Voice?
+about-nav-playbook = Erfahren Sie, wie Sie mitmachen können
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Was ist eine Sprache bei Common Voice?
+about-playbook-what-is-language-content-1 = Es gibt viele Möglichkeiten, sich Sprache vorzustellen. Für die Zwecke von Spracherkennungsmodellen schlägt Common Voice vor, sich auf „gegenseitige Verständlichkeit“ zu konzentrieren oder „können Sprecher dieser Sprache einander meistens verstehen, wenn sie es versuchen?“.
+about-playbook-what-is-language-content-2 = Wir wollen, dass Sprachmodelle besser in der Lage sind, eine Vielzahl von Sprechern zu verstehen. Damit dies geschieht, muss ein Sprachdatensatz viele verschiedene Personen repräsentieren.
+about-playbook-what-is-language-content-3 = Einige Sprachen haben enorme Unterschiede in Grammatik, Vokabular und Aussprache. Aus diesem Grund führen wir 2022 <ctaLink>„Varianten“</ctaLink> ein. Dies gibt Gemeinschaften eine Möglichkeit, ihre Sprachen innerhalb des größeren Datensatzes zu unterscheiden.
+
+## How do I add a language
+
+about-playbook-how-add-language = Wie füge ich eine Sprache hinzu?
+about-playbook-how-add-language-content-1 = Überprüfen Sie zunächst, ob Ihre Sprache <languageLink>bereits existiert</languageLink>. Wenn nicht, müssen Sie <strong>die Seite übersetzen und Sätze sammeln</strong>.
+about-playbook-how-add-language-content-2 = <strong>Um die Website zu übersetzen</strong> – <translateVideo>erstellen Sie ein Konto</translateVideo> auf <pontoonLink>Pontoon</pontoonLink>. Pontoon hat viele Sprachen, aber wenn Ihre noch fehlt können Sie sie <pontoonRequestLink>anfordern</pontoonRequestLink>. Dann bitten Sie <repoLink>über GitHub</repoLink>, das Common-Voice-Projekt für die Sprache verfügbar zu machen. Weitere Informationen finden Sie unter <localizationFragment>Website-Übersetzung</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Um Sätze zu sammeln</strong> – <scVideo>richten Sie</scVideo> den <scLink>Satzsammler</scLink> ein.
+about-playbook-how-add-language-content-4 = Sie können hier <scLinkAdd>eine kleine Anzahl</scLinkAdd> von Sätzen hinzufügen oder Sie können <bulkImportDocsLink>Massenimporte</bulkImportDocsLink> über eine Github-Anfrage durchführen. Denken Sie daran, dass Sätze <licenseLink>CC0 (oder gemeinfrei)</licenseLink> sein müssen; alternativ können Sie Ihre eigenen schreiben. Weitere Informationen finden Sie unter <scFragment>Satzsammlung</scFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Wie funktioniert die Lokalisierung der Website?
+about-playbook-how-localize-content-1 = Die Übersetzung der Common-Voice-Website erfolgt auf <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Erstellen Sie ein Konto</pontoonAccountLink>, falls Sie noch keines haben. Wählen Sie dann Ihre Sprache <strong>(„Team“)</strong> und dann das Projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Sie finden dort die zu übersetzenden Dateien. Klicken Sie auf eine, dann werden Wörter auf Englisch und ein Kästchen zum Übersetzen angezeigt.
+about-playbook-how-localize-content-3 = Die Übersetzung erfolgt aus dem Englischen, aber Sie können <strong>Vorschläge</strong> in anderen Sprachen sehen. Klicken Sie auf das Symbol <strong>Profil</strong>, dann auf den Link <strong>Einstellungen</strong> und fügen Sie alle Sprachen hinzu, die Sie sprechen. In der unteren rechten Ecke befindet sich eine Liste mit Übersetzungen namens <strong>Locales</strong>. Übersetzungen werden nach einem Tag auf der Website angezeigt.
+about-playbook-how-localize-content-4 = Die Website kann veröffentlicht werden, wenn sie zu 75 % fertiggestellt ist.
+about-playbook-how-localize-content-5 = Sehen Sie sich unser Erklärungsvideo zur Übersetzung an
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Wie füge ich Sätze hinzu?
+about-playbook-how-add-sentences-content-1 = <strong>Satzsammler</strong> ist ein Werkzeug zum Sammeln und Validieren gemeinfreier Sätze. Sie müssen <scAccountLink>ein Konto erstellen</scAccountLink>. Fügen Sie dann Ihre Sprache zu Ihrem <strong>Profil</strong> hinzu. Sie können Sätze <strong>hinzufügen</strong> oder zuvor hinzugefügte Sätze <strong>überprüfen</strong>.
+about-playbook-how-add-sentences-content-2 = Sätze müssen von zwei Personen überprüft und akzeptiert werden, um in Common Voice aufgenommen zu werden. Richtlinien für Ihre Sprache erstellen Sie <languageGuidelinesLink>hier</languageGuidelinesLink>. Sätze müssen <licenseLink>gemeinfrei</licenseLink> und kürzer als 15 Wörter sein. Sie können den Eigentümer eines Textes bitten, ihn mithilfe unserer Verzichtserklärung unter <waiverLink>CC0</waiverLink> zu stellen, und uns an commonvoice@mozilla.com senden.
+about-playbook-how-add-sentences-content-3 = Sie können den <scraperLink>Satzextraktor</scraperLink> verwenden, um kurze Sätze aus Wikipedia zu beziehen.
+about-playbook-how-add-sentences-content-4 = Sätze, die validiert wurden, werden mittwochs exportiert und sind nach der nächsten Veröffentlichung verfügbar.
+
+## How to record quality
+
+about-playbook-how-record-quality = Wie nehme ich einen Sprachclip in hoher Qualität auf?
+about-playbook-how-record-content-1 = Sprechen Sie mit Ihrer normalen Stimme! Ihre Art zu sprechen ist hier willkommen – wir wollen Ihren Akzent so wie er ist, und wir wollen Ihre übliche Lautstärke, Ihren Stil und Ihre Intonation.
+about-playbook-how-record-content-2 = Vermeiden Sie zu viele Hintergrundgeräusche – Sie sollten gut zu hören sein.
+about-playbook-how-record-content-3 = Lesen Sie den Satz sorgfältig durch – überspringen, ändern oder fügen Sie keine Wörter hinzu.
+about-playbook-how-record-content-4 = Stellen Sie sicher, dass die Plattform aufnimmt, bevor Sie sprechen, und dass sie erst aufhört, wenn Sie fertig sind.
+about-playbook-how-record-content-5 = <accuracyLink>Weitere Informationen zu Genauigkeitskriterien.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Wie können wir eine Sprache auf Common Voice effektiv wachsen lassen?
+about-playbook-how-grow-language-content-1 = Die Schaffung von Möglichkeiten für eine Vielzahl von Menschen, zu Common Voice beizutragen, sorgt dafür, dass der Datensatz so vielen Menschen wie möglich dient. Wir haben Ressourcen und Vorlagen erstellt, die Sie verwenden können!
+about-playbook-how-grow-language-content-2 = Veranstaltungen
+about-playbook-how-grow-language-content-3 = Sie können Veranstaltungen durchführen, um Menschen beim Mitwirken zu unterstützen. Es ist leichter, als Sie denkken. Sie könnten es online mit einem Videokonferenzwerkzeug tun, oder persönlich, wenn es sicher ist. <eventTemplate>Sehen Sie sich unsere Vorlagen und Ressourcen für laufende Veranstaltungen an.</eventTemplate>
+about-playbook-how-grow-language-content-4 = Soziale Medien
+about-playbook-how-grow-language-content-5 = Sie könnten Social-Media-Plattformen nutzen, um die Botschaft zu verbreiten. Teilen Sie Beiträge, die erklären, warum es wichtig ist, und treten Sie mit anderen in Kontakt, um über Themen wie Sprachrechte, Sprach-KI oder Voreingenommenheit in der Technik zu sprechen. Sehen Sie sich weitere Ratschläge zur <campaignLink>Durchführung einer sozialen Kampagne an, einschließlich Inhalten, die Sie wiederverwenden können</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnerschaften und Netzwerke
+about-playbook-how-grow-language-content-7 = Finden Sie andere, denen das Thema wichtig ist. Das könnten Universitäten, Sprachschulen, Interessenvertretungen oder datenwissenschaftliche Gemeinschaften sein. Stellen Sie den Kontakt her und erklären Sie, wie sie helfen können und warum. <outreachVorlagen>Hier finden Sie unsere Vorlagen zur Kontaktaufnahme.</outreachVorlagen>
+about-playbook-how-grow-language-content-8 = <strong>Werden Sie kreativ!</strong> Ihre Sprachgemeinschaft wird einzigartig sein, und dies sind nur einige Möglichkeiten, um loszulegen.
+
+## How to validate
+
+about-playbook-how-validate = Woher weiß ich, ob ich einen Sprachclip freischalten soll?
+about-playbook-how-validate-content-1 = Wenn Sie den Clip <strong>hören</strong> und <strong>verstehen</strong> konnten, ist es normalerweise <strong>am besten, ihn zu freizuschalten</strong>.
+about-playbook-how-validate-content-2 = <strong>Lehnen Sie keine Clips ab, in denen der Sprecher „einen anderen Akzent hat“ als Sie selbst</strong> – dies ist wichtig, damit die Spracherkennung für alle besser funktioniert.
+about-playbook-how-validate-content-3 = Wenn Sie der Meinung sind, dass die Aussprache den Cliü <strong>unverständlich</strong> macht, oder es <strong>viele Hintergrundgeräusche</strong> gibt oder <strong>andere Personen sprechen</strong>, dann sollten Sie den Clip ablehnen. <accuracyLink>Weitere Informationen finden Sie in unseren Genauigkeitskriterien</accuracyLink>.
+about-playbook-how-validate-content-4 = Wenn ein Clip von zwei Personen abgelehnt wird, wird er in einer anderen Teilmenge des Datensatzes veröffentlicht.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Wie kann ich auf den Datensatz zugreifen und ihn verwenden?
+about-playbook-how-access-dataset-content-1 = Sie können zur <datasetsPage>Datensatzseite</datasetsPage> gehen, die gewünschte Version und Sprache(n) auswählen und herunterladen! Die Dateien haben <metadataLink>zugeordnete Metadaten</metadataLink>, wie z.&thinsp;B. demografische Informationen und Validierungsdaten. Sie müssen eine E-Mail-Adresse angeben, um den Datensatz herunterzuladen.
+about-playbook-how-access-dataset-content-2 = Wenn Sie nach Werkzeugen zum Erstellen von ASR-Modellen suchen, können Sie sich mit anderen Personen in der Gemeinschaft <discourseLink>auf Discourse</discourseLink> verbinden.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Wie werden Projektentscheidungen getroffen?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice wird von einer vielfältigen Gemeinschaft von Aktivisten, Linguisten, Datenwissenschaftlern, Akademikern und Softwareentwicklern aus der ganzen Welt ermöglicht. Das Projekt wird von der Mozilla Foundation betreut.
+about-playbook-how-project-governance-content-2 = Die Führung unseres Projekts basiert auf den Säulen:
+about-playbook-how-project-governance-content-3 = Datenschutz, Sicherheit und Transparenz.
+about-playbook-how-project-governance-content-4 = Mitwirkung der Gemeinschaft und Entscheidungsfindung.
+about-playbook-how-project-governance-content-5 = Wert und Anerkennung.
+about-playbook-how-project-governance-content-6 = Gegenseitige Rechenschaftspflicht.
+about-playbook-how-project-governance-content-7 = <governanceLink>Lesen Sie mehr über unsere Führungsstruktur</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Künstliche Intelligenz
 mycroft-description =
@@ -768,7 +885,7 @@ clips-you-validated = Ihre überprüften Aufzeichnungen
 todays-recorded-progress = Heutiger Fortschritt bei aufgenommenen Aufzeichnungen auf Common Voice
 todays-validated-progress = Heutiger Fortschritt bei überprüften Aufzeichnungen auf Common Voice
 stats = Statistiken
-awards = Auszeichnungen
+awards = Preise
 you = Sie
 everyone = Alle
 contribution-activity = Aktivität der Mitwirkenden
@@ -999,3 +1116,392 @@ contribution-just-unsure-title = Nur unsicher?
 contribution-just-unsure-description = Wenn Sie auf etwas stoßen, das diese Richtlinien nicht abdecken, stimmen Sie bitte nach bestem Wissen und Gewissen ab. Wenn Sie sich wirklich nicht entscheiden können, verwenden Sie die Überspringen-Schaltfläche und fahren Sie mit der nächsten Aufnahme fort.
 see-more = <chevron></chevron>Mehr anzeigen
 see-less = <chevron></chevron>Weniger anzeigen
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Startseite
+sc-header-how-to = Anleitung
+sc-header-add = Hinzufügen
+sc-header-review = Bewertungen
+sc-header-rejected = Abgelehnte Sätze
+sc-header-my = Meine Sätze
+sc-header-statistics = Statistiken
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Fehler melden
+sc-footer-translate = Diese Seite übersetzen
+sc-footer-report-copyright = Urheberrechtsverletzung melden
+sc-footer-privacy = Datenschutz
+sc-footer-terms = Nutzungsbedingungen
+sc-footer-cookies = Cookies
+sc-login-signup-button = Anmelden / Registrieren
+sc-logout-button = Abmelden
+
+## HOME
+
+sc-home-title = Willkommen beim Common-Voice-Satzsammler
+sc-home-intro =
+    Der Satzsammler ist Teil von <commonVoiceLink>Common Voice</commonVoiceLink>.
+    Er ermöglicht Mitwirkenden, von der Gemeinschaft erstellte Sätze zu sammeln und zu validieren.
+    Sie können dieses Tool auch zum Importieren und Bereinigen kleiner bis mittlerer gemeinfreier Korpusse verwenden, die Sie gefunden oder gesammelt haben. Alle Sätze müssen gemeinfrei sein.
+    Genehmigte Sätze werden jede Woche in das Common-Voice-Repository exportiert und auf der Common-Voice-Website mit jeder neuen Version freigegeben.
+sc-home-collect-title = Sätze sammeln
+sc-home-collect-text = Helfen Sie uns, indem Sie gemeinfreie Sätze schreiben oder sammeln.
+sc-home-review-title = Sätze überprüfen
+sc-home-review-text = Helfen Sie uns, indem Sie Sätze gemäß den Richtlinien auf Richtigkeit überprüfen.
+
+## GENERAL
+
+sc-languages-fetch-error = Verfügbare Sprachen konnten nicht abgerufen werden. Beiträge sind derzeit nicht möglich. Bitte versuchen Sie es später erneut.
+
+## HOW-TO
+
+sc-howto-title = Anleitung
+sc-howto-addlang-title = Sprachen hinzufügen, mit denen gearbeitet wird
+sc-howto-addlang-text = Sobald Sie angemeldet sind, können Sie Ihre Sprachen im Abschnitt Profil auswählen.
+sc-howto-addsen-title = Neue Sätze hinzufügen
+sc-howto-addsen-item-1 =
+    Alle Sätze, die Sie einreichen, müssen unter der <wikipediaLink>Public Domain (CC-0)-Lizenz</wikipediaLink> stehen.
+    Um die Aufnahme von Arbeiten zu unterstützen, die nicht unter öffentlicher Lizenz stehen, haben wir eine
+    <cc0WaiverLink>Vorlage für Beiträge</cc0WaiverLink> für Werke erstellt, bei denen der Urheberrechtsinhaber sein Material zu Common Voice beitragen möchte.
+sc-howto-addsen-item-2 =
+    Zahlen. Der Quelltext sollte keine Ziffern enthalten, da diese Probleme verursachen können, wenn sie laut vorgelesen werden. Die Art und Weise, wie eine Zahl gelesen wird, hängt vom Kontext ab und kann zu Verwirrung im Datensatz führen.
+    Zum Beispiel könnte die Zahl „2409“ sowohl als „vierundzwanzig null neun“ als auch als „zweitausendvierhundertneun“ gelesen werden.
+sc-howto-addsen-item-3 =
+    Abkürzungen und Akronyme. Abkürzungen und Akronyme wie „USA“ oder „ICE“
+    sollten im Quelltext vermieden werden, da sie möglicherweise nicht mit ihrer Schreibweise übereinstimmen.
+    Darüber hinaus kann es mehrere genaue Leseformen für eine einzelne Abkürzung geben.
+    Zum Beispiel könnte das Akronym „ICE“ als „I-C-E“ oder als einzelnes Wort ausgesprochen werden.
+sc-howto-addsen-item-4 =
+    Interpunktion. Sonderzeichen und Satzzeichen sollten nur enthalten sein
+    wenn es unbedingt notwendig ist. Zum Beispiel ist ein Apostroph in englischen Wörtern wie 
+    „don’t“ und „we’re“ enthalten und sollte in den Quelltext aufgenommen werden, aber es ist unwahrscheinlich, dass Sie jemals ein Sonderzeichen wie „@“ oder „#“ benötigen.
+sc-howto-addsen-item-5 =
+    Ausländische Buchstaben. Die Buchstaben müssen in der Sprache gültig sein, in der sie gesprochen werden.
+    Zum Beispiel ist „ж“ ein Buchstabe im russischen Alphabet, wird aber nie auf Englisch verwendet und sollte es auch in keinem englischen Quelltext verwendet werden.
+sc-howto-addsen-item-6 =
+    Sprachen können ihre <validationRulesLink>eigenen Validierungsregeln</validationRulesLink>  
+    mit zusätzlichen Anforderungen haben. Wenn für eine Sprache keine spezifische Validierungsdatei vorhanden ist, verwenden wir die allgemeinen englischen Regeln.
+sc-howto-addsen-post-1 =
+    Wir bevorzugen natürliche/Konversationssätze.
+    Während phonetische Vielfalt und unterschiedliche Wörter in Sätzen wichtig sind, versuchen wir,
+    soll das Aufnehmen von Sätzen möglichst viel Spaß machen. Daher wäre es toll, wenn Sie versuchen könnten, Ihre Sätze möglichst natürlich/interessant zu halten.
+sc-howto-cite-title = Zitieren
+sc-howto-cite-pre-1 =
+    Es ist wichtig, dass Sie angeben, wo Sie die öffentliche Lizenz gefunden haben
+    um Plagiate zu vermeiden und Folgemaßnahmen zu <copyrightIssuesLink>Urheberrechtsproblemen</copyrightIssuesLink> zu ermöglichen.
+    Hier sind einige Möglichkeiten, wie Sie die Arbeit zitieren können.
+sc-howto-cite-item-1 = Sie könnten die Website angeben, z.&thinsp;B. „Common Voice – https://commonvoice.mozilla.org/“
+sc-howto-cite-item-2 =
+    Sie könnten den akademischen Zitierstil verwenden, z.B. den Harvard-Style
+    „Mozilla (2021) Common Voice. Abrufbar unter https://commonvoice.mozilla.org/ (Zugriff: 15. September 2021)“
+sc-howto-cite-item-3 =
+    Für Texte unter öffentlicher Lizenz, die nicht online verfügbar sind, können Sie den akademischen Zitierstil verwenden
+    z.&thinsp;B. Hardvard-Style „Jess (2021) Meine gemeinfreien Gedichte“
+sc-howto-review-title = Sätze überprüfen
+sc-howto-review-subtitle = Stellen Sie sicher, dass der Satz die folgenden Kriterien erfüllt:
+sc-howto-review-criteria-1 = Der Satz muss richtig geschrieben sein.
+sc-howto-review-criteria-2 = Der Satz muss grammatikalisch korrekt sein.
+sc-howto-review-criteria-3 = Der Satz muss aussprechbar sein.
+sc-howto-review-criteria-4 = Wenn der Satz die Kriterien erfüllt, klicken Sie auf die Schaltfläche "Genehmigen".
+sc-howto-review-criteria-5 =
+    Wenn der Satz die oben genannten Kriterien nicht erfüllt, klicken Sie auf die Schaltfläche „Ablehnen“.
+    Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
+sc-howto-review-criteria-6 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
+sc-howto-findpd-title = Gemeinfreie Sätze finden
+sc-howto-findpd-subtitle = Suchen Sie im Internet danach
+sc-howto-findpd-text-2 = Denken Sie daran, dass wir zur Veröffentlichung dieser Sätze eine Erlaubnis benötigen. Stellen Sie daher immer sicher, dass der Text <wikipediaLink>gemeinfrei</wikipediaLink> ist. Wenn es keinen ausdrücklichen Hinweis gibt, wenden Sie sich an die Person, der der Text gehört, und fragen Sie, ob sie ihren Text gemeinfrei veröffentlichen möchte. Wenn sie möchten, helfen Sie ihnen, die <cc0WaiverLink>Beitragsvereinbarung</cc0WaiverLink> auszufüllen. Wenn sie den Text nicht beitragen möchten, dürfen Sie diesen Text nicht verwenden.
+sc-howto-findpd-tips = Hier sind einige Tipps zum Finden von Sätzen:
+sc-howto-findpd-tips-1 =
+    Die besten Quellen, die Sie suchen können, sind Podcasts, Transkripte, Filmskripts und
+    alles, was Potenzial womöglich alltägliche Gespräche enthalten kann.
+sc-howto-findpd-tips-2 =
+    Regierungsverfahren, Bücher und Artikel sind aber auch hervorragend, da
+    diese Text ist aber eher formaler sind, sie sind weniger wichtig.
+sc-howto-findpd-tips-3 = Leider können wir noch keine Wikimedia-Artikel haben. Kopieren Sie also keine Artikel von dort.
+sc-howto-findpd-subtitle-2 = Arbeiten Sie mit lokalen Organisationen oder Einzelpersonen zusammen
+sc-howto-findpd-partner-1 =
+    Es gibt viele öffentliche Organisationen, die möglicherweise mit Ihnen zusammenarbeiten möchten
+    und die bereits viele Texte haben, die sie als gemeinfreie Inhalte spenden können. Wenden Sie sich an lokale Universitäten,
+    Regierungen und Open-Source-Organisationen, sprechen Sie über das Projekt und bitten Sie um ihre Hilfe.
+sc-howto-findpd-partner-2 =
+    Erfahrene Linguisten können auch helfen; versuchen Sie, linguistische
+    Universitäten (sowohl Lehrende als auch Studierende) in der Nähe zu erreichen und sehen Sie, ob sie helfen können, ein vielfältiges Angebot an
+    klangverschiedenen Sätze in Ihrer Sprache zu sammeln.
+
+## MY SENTENCES
+
+sc-my-title = Meine Sätze
+sc-my-description =
+    Auf dieser Seite erhalten Sie einen Überblick über alle Ihre eingereichten Sätze.
+    Sie können bei Bedarf auch bereits gesendete Sätze löschen, indem Sie das Kontrollkästchen daneben markieren
+    und auf „Ausgewählte Sätze löschen“ darunter klicken.
+    Bitte entfernen Sie Sätze nur, wenn es unbedingt notwendig ist,
+    zum Beispiel, wenn Sie nachträglich bemerkt haben, dass ein Satz urheberrechtlich geschützt ist.
+sc-my-loading = Ihre Sätze werden geladen…
+sc-my-err-fetching = Fehler beim Abrufen der Sätze. Bitte versuchen Sie es erneut.
+sc-my-no-sentences = Keine Sätze gefunden!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Einreichung: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Quelle: { $source }
+sc-my-delete = Ausgewählte Sätze löschen
+sc-my-deleting = Ausgewählte Sätze werden gelöscht…
+sc-my-err-failed-delete = Ausgewählte Sätze konnten nicht gelöscht werden... Bitte versuchen Sie es erneut!
+
+## REJECTED
+
+sc-rejected-title = Abgelehnte Sätze
+sc-rejected-loading = Abgelehnte Sätze werden geladen…
+sc-rejected-err-fetching = Fehler beim Abrufen der abgelehnten Sätze. Bitte versuchen Sie es erneut.
+sc-rejected-none-found = Keine abgelehnten Sätze gefunden!
+
+## STATS
+
+sc-stats-title = Statistiken
+sc-stats-updating = Wird aktualisiert…
+sc-stats-error = Die Statistiken konnten nicht abgerufen werden. Bitte versuchen Sie es später erneut.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Der Common-Voice-Satz-Sammler hat { $sentenceCount } Sätze in { $languageCount } Sprachen gesammelt!
+
+## ADD
+
+sc-submit-err-select-lang = Bitte wählen Sie eine Sprache aus.
+sc-submit-err-add-sentences = Bitte fügen Sie Sätze hinzu.
+sc-submit-err-add-source = Bitte fügen Sie eine Quelle hinzu.
+sc-submit-err-confirm-pd = Bitte bestätigen Sie, dass diese Sätze gemeinfrei sind.
+sc-submit-prompt =
+    .message = Sätze wurden nicht gesendet. Möchten Sie wirklich gehen?
+sc-submit-title = Sätze hinzufügen
+sc-submit-select-language =
+    .labelText = Sprache wählen
+sc-submit-add-sentences = <wikipediaLink>Gemeinfreie</wikipediaLink> Sätze hinzufügen
+sc-submit-ph-one-per-line =
+    .placeholder = Ein Satz pro Zeile
+sc-submit-from-where = Woher stammen die <wikipediaLink>gemeinfreien</wikipediaLink> Sätze?
+sc-submit-ph-read-how-to =
+    .placeholder = Lesen Sie unsere Anleitung, wenn Sie sich nicht sicher sind, wie Sie sie zuordnen sollen
+sc-submit-confirm =
+    Ich bestätige, dass diese Sätze <wikipediaLink>gemeinfrei</wikipediaLink> sind und
+    ich die Erlaubnis habe, sie hochzuladen.
+sc-submit-button =
+    .submitText = Absenden
+sc-submit-filtered = Gefilterte Sätze aufgrund fehlender Anforderungen (bitte feste Versionen als neue Sätze einreichen):
+sc-submit-guidelines = Bitte überprüfen Sie die <howToLink>Richtlinien</howToLink>.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Sprache konnte nicht hinzugefügt werden
+sc-add-lang-sec-label = Fügen Sie eine Sprache hinzu, zu der Sie beitragen möchten
+sc-add-lang-sec-button = Sprache hinzufügen
+sc-add-err-unexpected = Unerwartete Antwort vom Server zurückgegeben
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Übermittelte Sätze. { $duplicates } Sätze wurden als Duplikate zurückgewiesen.
+        [one] Übermittelte Sätze. { $duplicates } Satz wurden als Duplikat zurückgewiesen.
+       *[other] Übermittelte Sätze. { $duplicates } Sätze wurden als Duplikate zurückgewiesen.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Kein Satz fehlgeschlagen
+        [one] Ein Satz fehlgeschlagen
+       *[other] { $sentences } Sätze fehlgeschlagen
+    }
+sc-add-err-submission = Übermittlungsfehler
+sc-add-lang-process-notice = Wenn Ihre Sprache hier nicht aufgeführt ist, können Sie sie über <languageProcessLink>diesen Prozess</languageProcessLink> beantragen.
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = Sätze wurden nicht gesendet. Möchten Sie wirklich gehen?
+sc-confirm-sentences-title = Neue Sätze bestätigen
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Keine Sätze gefunden.
+        [one] Ein Satz gefunden.
+       *[other] { $countOfSentences } Sätze gefunden.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } wurde von Ihnen abgelehnt
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Bisher wurden keine Sätze überprüft.
+        [one] Bisher wurde ein Satz überprüft.
+       *[other] Bisher wurden { $countOfReviewed } Sätze überprüft. Gut gemacht!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Kein Satz bereit zur Übermittlung!
+        [one] Ein Satz bereit zur Übermittlung!
+       *[other] { $readyCount } Sätze bereit zur Übermittlung!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed =
+    { $countOfUnreviewed } Sätze wurden noch nicht überprüft.
+    Wenn Sie möchten, können Sie Ihre Sätze jetzt auch noch einmal überprüfen, bevor Sie sie absenden.
+sc-confirm-button-text = Bestätigen
+sc-confirm-uploading = Sätze werden hochgeladen. Dies kann je nach Anzahl der hinzugefügten Sätze mehrere Minuten dauern. Bitte schließen Sie diese Website nicht.
+
+## LANGUAGE INFO
+
+sc-lang-info-title-total = Summe
+sc-lang-info-title-personal = Persönlich
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Null vollständige insgesamt.
+        [one] Ein vollständiger Satz.
+       *[other] { $totalSentences } vollständige Sätze.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Kein Sätze warten auf Überprüfung.
+        [one] Ein Satz wartet auf Überprüfung.
+       *[other] { $totalInReview } Sätze warten auf Überprüfung.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Keine Sätze mehr zu überprüfen.
+        [one] Noch ein Satz zu überprüfen.
+       *[other] Noch { $unreviewedSentencesByYou } Sätze zu überprüfen.
+    }
+sc-lang-info-review-now = <reviewLink>Jetzt überprüfen!</reviewLink>
+sc-lang-info-add-more = <addLink>Fügen Sie jetzt weitere Sätze hinzu!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Keine validierten Sätze.
+        [one] Ein validierter Satz.
+       *[other] { $validatedSentences } validierte Sätze.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Keine abgelehnten Sätze.
+        [one] Ein abgelehnter Satz.
+       *[other] { $rejectedSentences } abgelehnten Sätze.
+    }
+
+## LOGIN
+
+sc-login-err-failed = Anmeldung fehlgeschlagen
+sc-login-err-try-again = Bitte versuchen Sie es erneut.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Sprache konnte nicht entfernt werden: Sprache nicht gefunden
+sc-personal-err-remove = Sprache konnte nicht entfernt werden
+sc-personal-your-languages = Ihre Sprachen:
+sc-personal-remove-button = Entfernen
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } von Ihnen hinzugefügt
+sc-personal-not-added = Sie haben noch keine Sprachen hinzugefügt.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ Überprüfungskriterien
+sc-criteria-title = Überprüfungskriterien
+sc-criteria-make-sure = Stellen Sie sicher, dass der Satz die folgenden Kriterien erfüllt:
+sc-criteria-item-1 = Der Satz muss richtig geschrieben sein.
+sc-criteria-item-2 = Der Satz muss grammatikalisch korrekt sein.
+sc-criteria-item-3 = Der Satz muss aussprechbar sein.
+sc-criteria-item-4 = Wenn der Satz die Kriterien erfüllt, klicken Sie auf die Schaltfläche „Genehmigen“ auf der rechten Seite.
+sc-criteria-item-5-2 =
+    Wenn der Satz die oben genannten Kriterien nicht erfüllt, klicken Sie auf die Schaltfläche „Ablehnen“ auf der linken Seite.
+    Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
+sc-criteria-item-6 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
+
+## REVIEW
+
+sc-review-lang-not-selected =
+    Sie haben keine Sprachen ausgewählt. Bitte öffnen Sie Ihr
+    <profileLink>Profil</profileLink>, um Sprachen auszuwählen.
+sc-review-title = Sätze überprüfen
+sc-review-loading = Sätze werden geladen...
+sc-review-select-language = Bitte wählen Sie eine Sprache aus, um Sätze zu überprüfen.
+sc-review-no-sentences =
+    Keine Sätze zu überprüfen.
+    <addLink>Fügen Sie jetzt weitere Sätze hinzu!</addLink>
+sc-review-form-prompt =
+    .message = Überprüfte Sätze nicht eingereicht, sind Sie sicher?
+sc-review-form-usage =
+    Wischen Sie nach rechts, um den Satz zu genehmigen. Wischen Sie nach links, um ihn abzulehnen.
+    Wischen Sie nach oben, um ihn zu überspringen. <strong>Vergessen Sie nicht, Ihre Bewertung zu übermitteln!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Quelle: { $sentenceSource }
+sc-review-form-button-reject = Ablehnen
+sc-review-form-button-skip = Überspringen
+sc-review-form-button-approve = Genehmigen
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = G
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = A
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = U
+sc-review-form-keyboard-usage-custom = Sie können auch Tastenkombinationen verwenden: { sc-review-form-button-approve-shortcut } zum Genehmigen, { sc-review-form-button-reject-shortcut } zum Ablehnen, { sc-review-form-button-skip-shortcut } zum Überspringen
+sc-review-form-button-submit =
+    .submitText = Bewertung abschließen
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Keine Sätze überprüft.
+        [one] Ein Satz überprüft. Vielen Dank!
+       *[other] { $sentences } Sätze überprüft. Vielen Dank!
+    }
+sc-review-form-review-failure = Bewertung konnte nicht gespeichert werden. Bitte versuchen Sie es später erneut.
+sc-review-link = Bewertungen
+
+## SETTINGS
+
+sc-settings-title = Einstellungen
+sc-settings-ui-language = Sprache der Benutzeroberfläche
+sc-settings-language-translated-warning = Die Seiten für diese Sprache sind möglicherweise nicht vollständig übersetzt. Sie können bei der Übersetzung <pontoonLinkLink>auf Pontoon</pontoonLinkLink> helfen.
+sc-settings-reset-skipped = Übersprungene Sätze zurücksetzen
+sc-settings-skipped-decription =
+    Sie haben Sätze beim Überprüfen zuvor übersprungen.
+    Das Zurücksetzen übersprungener Sätze wird alle übersprungenen Sätze wieder zeigen.
+    Das ist unabhängig von der Sprache.
+sc-settings-show-all-button = Alle übersprungenen Sätze wieder anzeigen
+sc-settings-failed = Einstellungen konnten nicht geändert werden. Bitte versuchen Sie es erneut.
+# VALIDATION
+sc-validation-number-of-words = Der Satz muss zwischen 1 und 14 (einschließlich) Wörtern enthalten
+sc-validation-no-numbers = Satz sollte keine Zahlen enthalten
+sc-validation-no-symbols = Satz sollte keine Symbole enthalten
+sc-validation-no-abbreviations = Satz sollte keine Abkürzungen enthalten
+
+# [/SentenceCollector]
+
+localization-select =
+    .label = Sprache/Lokalisierung auswählen

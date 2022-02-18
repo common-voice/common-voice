@@ -1,7 +1,7 @@
 ## General
 
-yes-receive-emails = Ja, stjoer my e-mailberjochten. Ik wol graach op 'e hichte bliuwe fan it projekt Common Voice.
-stayintouch = By Mozilla meitsje wy in mienskip rûnom spraaktechnology. Wy wolle graach yn kontakt bliuwe mei fernijingen, nije gegevensboarnen en om mear te hearren oer hoe't jo de gegevens brûke.
+yes-receive-emails = Ja, stjoer my e-mailberjochten. Ik wol graach op de hichte bliuwe fan it projekt Common Voice.
+stayintouch = By Mozilla meitsje wy in mienskip rûnom spraaktechnology. Wy wolle graach yn kontakt bliuwe mei fernijingen, nije gegevensboarnen en om mear te hearren oer hoe’t jo de gegevens brûke.
 privacy-info = Wy sizze jo ta dat wy jo ynformaasje mei omtinken behannelje. Mear ynfo dêr oer yn ús <privacyLink>Privacybelied</privacyLink>.
 return-to-cv = Werom nei Common Voice
 email-input =
@@ -36,9 +36,9 @@ ba = Bashkyrsk
 bas = Basaa
 be = Wit-Russysk
 bg = Bulgaarsk
-bm = Bambara
 bn = Bingaalsk
 br = Bretonsk
+bs = Bosnysk
 bxr = Burjatysk
 ca = Katalaansk
 cak = Kaqchikel
@@ -67,6 +67,7 @@ fy-NL = Frysk
 ga-IE = Iersk
 gl = Galisysk
 gn = Guaraní
+gom = Goaneesk Konkani
 ha = Hausa
 he = Hebriuwsk
 hi = Hindy
@@ -90,7 +91,9 @@ kab = Kabylysk
 kbd = Kabardysk
 ki = Kikuyu
 kk = Kazaksk
+km = Khmer
 kmr = Kurmanci
+knn = Konkani (Devanagari)
 ko = Koreaansk
 kpv = Kom-Zyrian
 kw = Kornish
@@ -106,6 +109,7 @@ mhr = Greide-Mari
 mk = Masedoanysk
 ml = Malayalam
 mn = Mongoalsk
+mni = Meetei Lono
 mos = More
 mr = Marathy
 mrj = Berch-Mari
@@ -127,6 +131,8 @@ pap-AW = Papiamintsk (Aruba)
 pl = Poalsk
 ps = Pashtu
 pt = Portugeesk
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Reto-Romaansk Surselvysk
 rm-vallader = Reto-Romaansk Fallader
 ro = Roemeensk
@@ -139,6 +145,7 @@ scn = Sisiliaansk
 shi = Tashelhiyt (Shilha)
 si = Singaleesk
 sk = Slowaaksk
+skr = Saraiki
 sl = Sloveensk
 so = Somalysk
 sq = Albaneesk
@@ -150,7 +157,11 @@ ta = Tamilsk
 te = Telugu
 tg = Tadzjyksk
 th = Taisk
+ti = Tigriniaansk
+tig = Tigre
+tk = Turkmeensk
 tl = Tagalog
+tok = Toki Pona
 tr = Turksk
 tt = Tatarsk
 tw = Twi
@@ -189,16 +200,16 @@ terms = Betingsten
 cookies = Cookies
 faq = FAQ
 content-license-text = Ynhâld beskikber ûnder in <licenseLink>Creative Commons-lisinsje</licenseLink>
-share-title = Help ús oaren te finen dy't harren stim donearje wolle!
-share-text = Help mei masinen te learen hoe't echte minsken prate, donearje jo stim op { $link }
+share-title = Help ús oaren te finen dy’t harren stim donearje wolle!
+share-text = Help mei masinen te learen hoe’t echte minsken prate, donearje jo stim op { $link }
 link-copied = Keppeling kopiearre
 back-top = Nei boppe
 logout = Ofmelde
 
 ## Home Page
 
-home-title = It projekt Common Voice is it inisjatyf fan Mozilla om masinen te learen hoe't echte minsken sprekke.
-default-tagline = Mozilla Common Voice is in inisjatyf om masinen te helpen learen hoe't echte minsken sprekke.
+home-title = It projekt Common Voice is it inisjatyf fan Mozilla om masinen te learen hoe’t echte minsken sprekke.
+default-tagline = Mozilla Common Voice is in inisjatyf om masinen te helpen learen hoe’t echte minsken sprekke.
 home-cta = Lit jo heare, doch hjir mei!
 wall-of-text-start =
     Spraak is natuerlik, spraak is minsklik. Dat is wêrom wy fassinearre binne mei it meitsjen fan brûkbere
@@ -209,12 +220,12 @@ wall-of-text-more-mobile =
     dat dat ynnovaasje behinderet. Dêrom hawwe wy it projekt Common Voice lansearre, in projekt om
     spraakwerkenning foar elkenien tagonklik te meitsjen.
 wall-of-text-more-desktop =
-    No kinne jo jo stim donearje om ús te helpen in iepen boarne stimdatabase te meitsjen dy't elkenien brûke kin
+    No kinne jo jo stim donearje om ús te helpen in iepen boarne stimdatabase te meitsjen dy’t elkenien brûke kin
     om ynnovative apps te meitsjen foar apparaten en it web.<lineBreak></lineBreak>
-    Lês in sin om masinen te learen hoe't echte minsken sprekke. Kontrolearje it wurk fan oare
+    Lês in sin om masinen te learen hoe’t echte minsken sprekke. Kontrolearje it wurk fan oare
     dielnimmers om de kwaliteit te ferbetterjen. Sa ienfâldich is it!
 wall-of-text-first = Stim is natuerlik, stim is minsklik. Dêrom binne wy entûsjast oer it meitsjen fan brûkbere stimtechnology foar ús masinen. Mar om stimsystemen te meitsjen, hawwe ûntwikkelers in ekstreem grutte hoemannichte stimgegevens nedich.
-wall-of-text-second = De measte gegevens dy't troch grutte bedriuwen brûkt wurde, binne foar de measte minsken net beskikber. Wy tinke dat dat ynnovaasje behinderet. Dêrom hawwe wy Common Voice start, in projekt dat helpt stimwerkenning foar elkenien iepen en tagonklik te meitsjen.
+wall-of-text-second = De measte gegevens dy’t troch grutte bedriuwen brûkt wurde, binne foar de measte minsken net beskikber. Wy tinke dat dat ynnovaasje behinderet. Dêrom hawwe wy Common Voice start, in projekt dat helpt stimwerkenning foar elkenien iepen en tagonklik te meitsjen.
 show-wall-of-text = Mear ynfo
 help-us-title = Help ús sinnen te falidearjen!
 help-us-explain = Klik op de ôfspylknop, harkje en fertel ús: wurdt de ûndersteande sin korrekt útsprutsen?
@@ -261,9 +272,9 @@ email-subscription-title-new = Registrearje foar nijsbrieven fan Common Voice, o
 
 benefits = Foardielen
 rich-data = Meitsje jo yntsjinne gegevens sa ryk mooglik troch wat anonime demografyske gegevens op te jaan. Alle demografyske gegevens wurde anonym makke eardat se publisearre wurde.
-improve-audio = Profylynformaasje ferbetteret de audiogegevens dy't brûkt wurde by it trainen fan de sekuerens fan spraakwerkenning.
+improve-audio = Profylynformaasje ferbetteret de audiogegevens dy’t brûkt wurde by it trainen fan de sekuerens fan spraakwerkenning.
 keep-track = Folgje jo foarútgong en metryske gegevens yn mear talen.
-compare-progress = Beskôgje hoe't jo foarútgong har ferhâldt ta dy fan oaren yn de wrâld.
+compare-progress = Beskôgje hoe’t jo foarútgong har ferhâldt ta dy fan oaren yn de wrâld.
 view-goals = Besjoch jo foarútgong tsjin persoanlike en projektdoelstellingen.
 join-newsletter = Meld jo opsjoneel oan foar ús mailinglist foar updates en nije ynformaasje oer it projekt.
 
@@ -307,12 +318,12 @@ shortcut-discard-ongoing-recording-label = Rinnende opname fuortsmite
 shortcut-submit = Tebek
 shortcut-submit-label = Fragminten yntsjinje
 request-language-text = Sjogge jo jo taal noch net op Common Voice?
-request-language-text-learn = Lês hjir hoe't jo it oanfreegje kinne!
+request-language-text-learn = Lês hjir hoe’t jo it oanfreegje kinne!
 request-language-button = In taal oanfreegje
 
 ## ProjectStatus
 
-status-title = Projektsteat: sjoch hoe fier wy't al binne!
+status-title = Projektsteat: sjoch hoe fier wy’t al binne!
 status-contribute = Draach by mei jo stim
 status-hours =
     { $hours ->
@@ -332,8 +343,13 @@ profile-form-native-language =
     .label = Memmetaal
 profile-form-additional-language =
     .label = Ekstra taal
+profile-form-language =
+    .label = Taal
 profile-form-accent =
     .label = Aksint
+profile-form-custom-accent-help-text =
+    .label = Hoe soene jo jo aksint omskriuwe?
+profile-form-custom-accent-placeholder-2 = Begjin mei typen om jo aksint te beskriuwen
 profile-form-age =
     .label = Leeftiid
 profile-form-gender-2 =
@@ -344,6 +360,7 @@ hidden = Ferstoppe
 visible = Sichtber
 native-language =
     .label = Memmetaal
+profile-form-add-accent = Nij oanpast aksint ‘{ $inputValue }’ tafoegje
 profile-form-submit-save = Bewarje
 profile-form-submit-saved = Bewarre
 male = Man
@@ -351,7 +368,7 @@ female = Frou
 # Gender
 other = Oars
 why-profile-title = Wêrom in profyl?
-why-profile-text = Troch wat ynformaasje oer josels te jaan, sille de troch jo by Common Voice yntsjinne audiogegevens better brûkber wêze foar spraakwerkenningsmasinen dy't dizze gegevens brûke om de presizens te ferbetterjen.
+why-profile-text = Troch wat ynformaasje oer josels te jaan, sille de troch jo by Common Voice yntsjinne audiogegevens better brûkber wêze foar spraakwerkenningsmasinen dy’t dizze gegevens brûke om de presizens te ferbetterjen.
 dashboard = Dashboerd
 build-profile = Profyl opbouwe
 avatar = Avatar
@@ -360,11 +377,11 @@ settings = Ynstellingen
 edit-profile = Profyl bewurkje
 profile-create-success = Profyl mei sukses oanmakke!
 profile-close = Slute
-profile-explanation = Hâld jo foarútgong yn 'e gaten mei in profyl en help om ús stimgegevens sekuerder te wêzen.
+profile-explanation = Hâld jo foarútgong yn de gaten mei in profyl en help om ús stimgegevens sekuerder te wêzen.
 thanks-for-account = Tank foar de befêstiging fan jo account, no meitsje wy jo profyl.
 why-demographic = Wêrom is dit wichtich?
-why-demographic-explanation-2 = Anonime brûkersgegevens lykas leeftyd, gender en aksint helpe de audiogegevens dy't foar it trainen fan de sekuerens fan spraakwerkenningsmasinen brûkt wurde te ferbetterjen. Jo brûkersnamme en e-mailadres sille nea mei jo yntsjinne gegevens keppele wurde, en jo kinne derfoar kieze jo brûkersnamme iepenbier of anonym te meitsjen.
-accept-privacy = Ik gean akkoart mei hoe't jo mei dizze gegevens omgean, lykas útlein yn Mozilla’s <privacyLink>Privacybelied</privacyLink>
+why-demographic-explanation-2 = Anonime brûkersgegevens lykas leeftyd, gender en aksint helpe de audiogegevens dy’t foar it trainen fan de sekuerens fan spraakwerkenningsmasinen brûkt wurde te ferbetterjen. Jo brûkersnamme en e-mailadres sille nea mei jo yntsjinne gegevens keppele wurde, en jo kinne derfoar kieze jo brûkersnamme iepenbier of anonym te meitsjen.
+accept-privacy = Ik gean akkoart mei hoe’t jo mei dizze gegevens omgean, lykas útlein yn Mozilla’s <privacyLink>Privacybelied</privacyLink>
 accept-privacy-title = Privacybelied
 login-identity = Oanmeldingsidentiteit
 login-signup = Oanmelde / Registrearje
@@ -377,6 +394,8 @@ skip-submission-description = Wylst it bydragen wurdt kommentaar oer ynstjoering
 skip-submission-note = Noat: jo moatte noch hieltyd in kar tusken Sprekke en Harkje meitsje om it type bydragen te wizigjen.
 off = Ut
 on = Oan
+help-accent = Help nedich mei aksint?
+help-accent-explanation = Jo aksint is de manier wêrop jo wurden útsprekke. It kin foarme wurde troch wêr’t jo wenne hawwe, hokker oare talen jo sprekke en tal fan oare faktoaren. Jo kinne hjir alle ynformaasje diele dy’t jo relevant fine.
 
 ## Profile - Email
 
@@ -410,9 +429,9 @@ faq-what-cv-a-2 =
     Wy sammelje net allinnich spraakfragminten yn de meast sprutsen talen, mar ek yn dy mei in lytser oantal sprekkers. Troch in ferskate gegevensset mei stimmen te publisearjen, krije ûntwikkelers, ûndernimmers en mienskippen de mooglikheid om dizze kleau sels oan te pakken.
 faq-why-important-q = Wêrom is it wichtich?
 faq-why-important-a =
-    Spraak is faaks de meast natuerlike manier om mei inoar te kommunisearjen en spraaktechnologyen bringe dat gemak nei ús kompjûters en mobile apparaten. Wy wolle ûntwikkelers de mooglikheid jaan geweldige spraakwerkenningstapassingen te bouwen, lykas realtime-oersetters en spraakstjoerde digitale assistinten. Mar op dit stuit binne de measte spraakgegevens dy't nedich binne om dit soarte fan tapassingen te bouwen djoer en ôfskerme. Wy hope dat de Common Voice-gegevensset ûntwikkelers biedt wat se nedich hawwe om te ynnovearjen en spraaktechnology beskikber te stellen yn harren eigen taal.
+    Spraak is faaks de meast natuerlike manier om mei inoar te kommunisearjen en spraaktechnologyen bringe dat gemak nei ús kompjûters en mobile apparaten. Wy wolle ûntwikkelers de mooglikheid jaan geweldige spraakwerkenningstapassingen te bouwen, lykas realtime-oersetters en spraakstjoerde digitale assistinten. Mar op dit stuit binne de measte spraakgegevens dy’t nedich binne om dit soarte fan tapassingen te bouwen djoer en ôfskerme. Wy hope dat de Common Voice-gegevensset ûntwikkelers biedt wat se nedich hawwe om te ynnovearjen en spraaktechnology beskikber te stellen yn harren eigen taal.
     
-    Om spraakwerkenning noch universeler te meitsjen, sammelje wy spraakfragminten yn faak sprutsen talen, krekt  sa as dy mei in lytsere populaasje fan sprekkers, dy't faak net stipe wurde troch kommersjele spraakwerkenningstsjinsten. Troch in ferskate gegevensset mei stimmen te publisearjen, kinne ûntwikkelers, ûndernimmers en folsleine spraakmienskippen sels dizze kleau oerbrêgje.
+    Om spraakwerkenning noch universeler te meitsjen, sammelje wy spraakfragminten yn faak sprutsen talen, krekt  sa as dy mei in lytsere populaasje fan sprekkers, dy’t faak net stipe wurde troch kommersjele spraakwerkenningstsjinsten. Troch in ferskate gegevensset mei stimmen te publisearjen, kinne ûntwikkelers, ûndernimmers en folsleine spraakmienskippen sels dizze kleau oerbrêgje.
 faq-how-get-q = Hoe kin ik de gegevens fan Common Voice krije?
 faq-how-get-a = De gegevensset fan Common Voice is beskikber foar downloaden ûnder de <licenseLink>CC0</licenseLink>-lisinsje op <datasetLink>ús side mei gegevenssets</datasetLink>. Jo kinne ek ferskate oare iepenbier beskikbere gegevenssets fan dyselde side downloade.
 faq-when-release2-q = Wannear wurdt Common Voice yn oare talen útjûn?
@@ -422,17 +441,17 @@ faq-why-mission-a = Mozilla wijt harren oan it foar elkenien iepen en tagonklik 
 faq-what-cv-and-deepspeech-q = Wat is it ferskil tusken Common Voice en Deep Speech?
 faq-what-cv-and-deepspeech-a = De Common Voice-gegevensset is in oanfolling op Mozilla’s opensource-spraakwerkenningsmasine Deep Speech. De earste ferzje fan Deep Speech waard útbrocht yn novimber 2017 en is sûnttiid troch evoluearre. Wy fine dat dizze iepenboarne-spraakwerkenningstechnology tegearre mei de Common Voice-gegevensset foar elkenien beskikber wêze moat. Us hoop is dat dizze technologyen ûntwikkelers de mooglikheid jaan in golf fan ynnovative produkten en tsjinsten te bouwen.
 faq-is-goal-assistant-q = Is it doel fan Common Voice om in spraakassistint te bouwen?
-faq-is-goal-assistant-a = It doel fan de Common Voice-gegevensset is om elkenien yn de wrâld de mooglikheid te jaan spraakwerkenning, sprekkerwerkenning of elk oar type tapassing te meitsjen wêrfoar spraakgegevens nedich binne. In spraakassistint is mar ien fan mear soarten fan tapassingen dy't jo mei help fan de gegevensset bouwe kinne.
+faq-is-goal-assistant-a = It doel fan de Common Voice-gegevensset is om elkenien yn de wrâld de mooglikheid te jaan spraakwerkenning, sprekkerwerkenning of elk oar type tapassing te meitsjen wêrfoar spraakgegevens nedich binne. In spraakassistint is mar ien fan mear soarten fan tapassingen dy’t jo mei help fan de gegevensset bouwe kinne.
 faq-do-want-native-q = Ik bin in net-memmetaalsprekker en ik sprek mei in aksint. Wolle jimme dochs myn stim?
 faq-do-want-native-a = Ja, wy wolle foaral jo stim! Underdiel fan it doel fan Common Voice is om safolle mooglik ferskate aksinten te sammeljen, sadat spraakwerkenningstsjinsten foar elkenien like goed wurkje. Dit betsjut dat donaasjes fan net-memmetaalsprekkers bysûnder wichtich binne.
 faq-why-different-speakers-q = Wêrom hawwe jimme sa folle ferskillende sprekkers per taal nedich?
 faq-why-different-speakers-a =
-    De measte spraakdatabases wurde traind mei in oerfertsjinwurdiging fan bepaalde demografyske groepen, wat liedt ta in foarkar foar <articleLink>manlik en út de middenklasse</articleLink>. Aksinten en dialekten dy't faak ûnderfertsjinwurdige binne yn trainingsgegevenssets wurde meastentiids yn ferbân brocht mei groepen minsken dy't al marzjinalisearre binne. In protte masinen hawwe it ek swier mei it begripen fan froulike stimmen.
+    De measte spraakdatabases wurde traind mei in oerfertsjinwurdiging fan bepaalde demografyske groepen, wat liedt ta in foarkar foar <articleLink>manlik en út de middenklasse</articleLink>. Aksinten en dialekten dy’t faak ûnderfertsjinwurdige binne yn trainingsgegevenssets wurde meastentiids yn ferbân brocht mei groepen minsken dy’t al marzjinalisearre binne. In protte masinen hawwe it ek swier mei it begripen fan froulike stimmen.
     Dit is de reden wêrom wy fariaasje yn ús spraakdatabase wolle!
 faq-why-my-lang-q = Wêrom sit myn taal der noch net by?
-faq-why-my-lang-new-a = Mozilla ferkiest net ien taal boppe de oare. Yn stee dêrfan is Common Voice in inisjatyf dat útslutend troch de mienskip oanstjoerd wurdt, mar it ferget <multilangLink>diverske stappen om in nije taal ta te foegjen</multilangLink> en mei it sammeljen fan spraakdonaasjes te begjinnen. Alderearst moat de Common Voice-website oerset wurde, sadat mienskipsleden tagong hawwe ta de ûnderfining fan de meiwurker yn harren eigen taal. Dêrnei hawwe wy in grutte samling auteursrjochtfrije sinnen nedich dy't minsken foarlêze kinne. Sa gau as oan beide easken foldien is, wurdt in taal ‘útbrocht’ op Common Voice, sadat minsken harren stim opnimme kinne en donaasjes fan oaren falidearje kinne. As jo in nije taal beskikber helpe meitsje wolle, gean dan nei 'us <sentenceCollectorLink>helpmiddel foar sinnensamling</sentenceCollectorLink> om te begjinnen.
+faq-why-my-lang-new-a = Mozilla ferkiest net ien taal boppe de oare. Yn stee dêrfan is Common Voice in inisjatyf dat útslutend troch de mienskip oanstjoerd wurdt, mar it ferget <multilangLink>diverske stappen om in nije taal ta te foegjen</multilangLink> en mei it sammeljen fan spraakdonaasjes te begjinnen. Alderearst moat de Common Voice-website oerset wurde, sadat mienskipsleden tagong hawwe ta de ûnderfining fan de meiwurker yn harren eigen taal. Dêrnei hawwe wy in grutte samling auteursrjochtfrije sinnen nedich dy’t minsken foarlêze kinne. Sa gau as oan beide easken foldien is, wurdt in taal ‘útbrocht’ op Common Voice, sadat minsken harren stim opnimme kinne en donaasjes fan oaren falidearje kinne. As jo in nije taal beskikber helpe meitsje wolle, gean dan nei 'us <sentenceCollectorLink>helpmiddel foar sinnensamling</sentenceCollectorLink> om te begjinnen.
 faq-what-quality-q = Hokker lûdskwaliteitsnivo is nedich foar in spraakfragmint om yn de gegevensset brûkt wurde te kinnen?
-faq-what-quality-a = Wy wolle dat de Common Voice-gegevensset de audiokwaliteit wjerspegelet dy't yn spraak-nei-tekst-engine yn it wyld hearre sil, dus wy binne op syk nei ôfwikseling. Neist in fariearre sprekkersmienskip leart in gegevensset mei ferskate audiokwaliteiten de spraak-nei-tekst-engine om ferskate libbensechte situaasjes oan te kinnen, fan achtergrûnlûd oant autolawaai. Sa lang jo spraakopname begryplik is, moat dizze goed genôch wêze foar de gegevensset.
+faq-what-quality-a = Wy wolle dat de Common Voice-gegevensset de audiokwaliteit wjerspegelet dy’t yn spraak-nei-tekst-engine yn it wyld hearre sil, dus wy binne op syk nei ôfwikseling. Neist in fariearre sprekkersmienskip leart in gegevensset mei ferskate audiokwaliteiten de spraak-nei-tekst-engine om ferskate libbensechte situaasjes oan te kinnen, fan achtergrûnlûd oant autolawaai. Sa lang jo spraakopname begryplik is, moat dizze goed genôch wêze foar de gegevensset.
 faq-why-10k-hours-q = Wêrom is de doelstelling foar lûdsopnamen 10.000 oeren per taal?
 faq-why-10k-hours-a = Dit is ûngefear it oantal nedige oeren om in operasjoneel spraak-nei-tekst-systeem te trainen.
 faq-how-calc-hours-q = Hoe berekkenet Common Voice de oeren?
@@ -443,50 +462,63 @@ faq-where-src-from-2-a =
     
     Jo kinne ús boarnesinnen besjen yn <githubLink>dizze GitHub-map</githubLink>.
 faq-why-not-ask-read-q = Wêrom freegje jimme net gewoan oan minsken om yn ferskillende talen út boeken of Wikipedia-artikelen te lêzen?
-faq-why-not-ask-read-a = Om de Common Voice-gegevensset sa nuttich mooglik te meitsjen, hawwe wy besletten om allinnich boarnetekst ta te stean dy't beskikber is ûnder in Creative Commons (CC0)-lisinsje. It gebrûk fan de CC0-standert betsjut dat it swierder is om boarnetekst te finen en te sammeljen, mar elkenien kin de resultearjende spraakgegevens brûke sûnder brûksbeheiningen of tastimming fan Mozilla. Uteinlik wolle wy de meartalige gegevensset sa nuttich mooglik meitsje foar elkenien, ynklusyf ûndersikers, universiteiten, start-ups, oerheden, sosjale doelgroepen en hobbyisten.
+faq-why-not-ask-read-a = Om de Common Voice-gegevensset sa nuttich mooglik te meitsjen, hawwe wy besletten om allinnich boarnetekst ta te stean dy’t beskikber is ûnder in Creative Commons (CC0)-lisinsje. It gebrûk fan de CC0-standert betsjut dat it swierder is om boarnetekst te finen en te sammeljen, mar elkenien kin de resultearjende spraakgegevens brûke sûnder brûksbeheiningen of tastimming fan Mozilla. Uteinlik wolle wy de meartalige gegevensset sa nuttich mooglik meitsje foar elkenien, ynklusyf ûndersikers, universiteiten, start-ups, oerheden, sosjale doelgroepen en hobbyisten.
 faq-why-account-q = Wêrom soe ik in account oanmeitsje?
 faq-is-account-public-q = Binne myn accountgegevens iepenbier?
-faq-how-privacy-q = Hoe garandearje jimme de anonimiteit en privacy fan de persoanen dy't harren stimmen donearre hawwe?
+faq-how-privacy-q = Hoe garandearje jimme de anonimiteit en privacy fan de persoanen dy’t harren stimmen donearre hawwe?
 faq-how-privacy-a = Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifiesearbere gegevens. Wannear in meiwurker demografyske gegevens fia syn of har profyl ferstrekt, wurdt dy ynformaasje út de spraakfragminten fuortsmiten eardat dizze yn de gegevensset bundele wurdt foar downloaden en wurdt dy ynformaasje nea iepenbier makke op syn of har profylside.
 faq-what-determine-identity-q = Wat betsjut it dat ik “de identiteit” fan sprekkers yn de gegevensset fan Common Voice net “bepale kin”?
 faq-what-determine-identity-a =
-    De Common Voice-gegevensset is in frij tagonklike en iepenbiere boarne dy't brûkt wurde kin om in breed skala oan spraakstjoerde tapassingen te trainen. Om de feilichheid fan ús meiwurkers te beskermen, freegje wy elkenien dy't de Common Voice-gegevensset downloadt om de privacy fan de meiwurkers te respektearjen.
+    De Common Voice-gegevensset is in frij tagonklike en iepenbiere boarne dy’t brûkt wurde kin om in breed skala oan spraakstjoerde tapassingen te trainen. Om de feilichheid fan ús meiwurkers te beskermen, freegje wy elkenien dy’t de Common Voice-gegevensset downloadt om de privacy fan de meiwurkers te respektearjen.
     
-    Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifisearbere gegevens. Wannear't jo de gegevensset downloade, geane jo dermei akkoart net te probearjen de identiteit fan in meiwurker te bepalen. Dat betsjut dat jo net probearje meie om gegevens yn de gegevensset oan de persoanlike ynformaasje fan in meiwurker te keppeljen. Jo meie de gegevensset echter wol brûke om spraakwerkenning, sprekkerwerkenning of oare tapassingen te trainen, bygelyks troch gegevens yn de gegevensset te keppeljen oan oare ynformaasje dy't al yn de gegevensset stiet.
+    Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifisearbere gegevens. Wannear’t jo de gegevensset downloade, geane jo dermei akkoart net te probearjen de identiteit fan in meiwurker te bepalen. Dat betsjut dat jo net probearje meie om gegevens yn de gegevensset oan de persoanlike ynformaasje fan in meiwurker te keppeljen. Jo meie de gegevensset echter wol brûke om spraakwerkenning, sprekkerwerkenning of oare tapassingen te trainen, bygelyks troch gegevens yn de gegevensset te keppeljen oan oare ynformaasje dy’t al yn de gegevensset stiet.
 faq-what-is-cv = Wat is Common Voice?
 faq-using-cv = Common Voice brûke
-faq-description = Common Voice is part fan in inisjatyf fan Mozilla om masinen te helpen learen hoe't echte minsken sprekke.
+faq-description = Common Voice is part fan in inisjatyf fan Mozilla om masinen te helpen learen hoe’t echte minsken sprekke.
 faq-search-for-answers =
     .label = Sykje nei antwurden
 
 ## ABOUT US
 
 about-title = Wêrom Common Voice?
-about-subtitle = Common Voice is part fan in inisjatyf fan Mozilla om masinen te helpen learen hoe't echte minsken sprekke. Yn oanfolling op de Common Voice-gegevensset bouwe wy ek in iepen boarne spraakwerkenningsmasine mei de namme Deep Speech.
-about-header-description =
-    Beide projekten meitsje diel út fan ús ynspanningen om de digitale spraakkleau te oerbrêgjen. Spraakwerkenningstechnologyen jouwe us apparaten in minsklike diminsje, mar ûntwikkelers hawwe in enoarme hoemannichte spraakgegevens nedich om se te bouwen. Op dit stuit binne de measte fan dy gegevens djoer en ôfskerme.
-    Wy wolle spraakgegevens fergees en frij beskikber meitsje en derfoar soargje dat de gegevens in ferskaat fan echte minsken fertsjinwurdigje. Tegearre kinne wy stimwerkenning foar elkenien better meitsje.
-about-header-description-2 =
-    Dit projekt is in ynspanning om de digitale spraakkleau te oerbrêgjen. Spraakwerkenningstechnologyen jouwe ús apparaten in minsklike diminsje, mar ûntwikkelers hawwe in enoarme hoemannichte spraakgegevens nedich om se te bouwen. Op dit stuit binne de measte fan dy gegevens djoer en ôfskerme.
-    Wy wolle spraakgegevens fergees en frij beskikber meitsje en derfoar soargje dat de gegevens in ferskaat fan echte minsken fertsjinwurdigje. Tegearre kinne wy stimwerkenning foar elkenien better meitsje.
-how-does-it-work-title = Hoe't it wurket
+about-header-description-v2 =
+    <p>Common Voice is in iepenbier beskikbere spraakgegevensset, mooglik makke troch de stimmen fan frijwillige donateurs fan oer de hiele wrâld. Minsken dy’t spraaktapassingen bouwe wolle, kinne de gegevensset brûke om masine learmodellen te trainen.</p>
+    <p>Op dit stuit binne de measte spraakgegevenssets eigendom fan bedriuwen, wat ynnovaasje tsjinhâldt. Spraakgegevenssets befetsje ek in oerfertsjinwurdiging fan wite, Ingelsktalige mannen. Dit betsjut dat spraakstjoerde technology foar in protte talen hielendal net wurket, en wêr’ it wol wurket, prestearret it mooglik net foar elkenien like goed. Wy wolle dat feroarje troch minsken oeral te mobilisearjen om harren stim te dielen.</p>
+how-does-it-work-title-v2 = Hoe wurket Common Voice?
 how-does-it-work-text = Wy crowdsource in iepen boarne stimgegevensset. Donearje jo stim, falidearje de sekuerens fan opnamen fan oaren en meitsje de gegevensset better foar elkenien.
+
+## How does it work section
+
+about-language-req-subtitle = Immen freget om in taal ta te foegjen.
+about-localization-title = Websitelokalisaasje
+about-localization-subtitle = De websitetekst wurdt yn dy taal oerset.
+about-sentence-collection-title = Sinnensamling
+about-sentence-collection-subtitle = Sinnen wurde sammele dy’t minsken hurdop foar lêze kinne.
+about-new-lang-title = Lansearring nije taal
+about-new-lang-subtitle = Wy lansearje de Common Voice-website yn dizze taal.
+about-voice-contrib-title = Spraakbydrage
+about-voice-contrib-subtitle = Minsken komme harren spraak bydrage.
+about-voice-validation-title = Spraakfalidaasje
+about-voice-validation-subtitle = Oaren falidearje dy spraakfragminten.
+about-dataset-release-title = Frijjefte gegevensset
+about-dataset-release-subtitle = Wy jouwe de gegevensset elke trije moannen frij.
+about-subscribe-text = Yn kontakt bliuwe mei Common Voice?
 about-speak = Sprek
 about-speak-text = Bydragers nimme spraakfragminten op troch te lêzen fan in databank mei donearre sinnen.
 about-listen-queue = Harkwachtrige
-about-listen-queue-text = Spraakfragminten wurde ynfierd yn in yntsjinningswachtrige dêr't se klearstean om belústere te wurden.
+about-listen-queue-text = Spraakfragminten wurde ynfierd yn in yntsjinningswachtrige dêr’t se klearstean om belústere te wurden.
 about-listen = Harkje
 about-listen-text = Brûkers falidearje de sekuerens fan donearre fragminten en kontrolearje oft de sprekker de sin korrekt lêst.
 about-is-it-valid = Is it fragmint jildich?
-about-is-it-valid-text = In spraakfragmint wurdt markearre as ‘jildich’ wannear't in brûker it in ja-stim jout.
+about-is-it-valid-text = In spraakfragmint wurdt markearre as ‘jildich’ wannear’t in brûker it in ja-stim jout.
 about-yes-votes = ≥ 2 Ja-stimmen
 about-yes-votes-text = Om opnommen te wurden yn de Common Voice-gegevensset moat in fragmint falidearre wurde troch twa ôfsûnderlike brûkers.
 about-no-votes = ≥ 2 Gjin stimmen
 about-no-votes-text = Wannear in brûker in spraakfragmint ôfwiist, keart dit fragmint werom nei de wachtrige. By in twadde ôfwizing wurdt it spraakfragmint ferpleatst nei it Fragmintetsjerkhôf.
 about-dataset-new = Common Voice-gegevensset
-about-dataset-new-text = De Common Voice-gegevensset befettet hûnderttûzenen spraakfragminten dy't ûntwikkelers helpe spraakwerkenningshelpmiddelen te bouwen.
+about-dataset-new-text = De Common Voice-gegevensset befettet hûnderttûzenen spraakfragminten dy’t ûntwikkelers helpe spraakwerkenningshelpmiddelen te bouwen.
 about-clip-graveyard = Fragmintetsjerkhôf
-about-clip-graveyard-text = It Fragmintetsjerkhôf bestiet ut stimfragminten dy't de Common Voice-gegevensset net helle hawwe. Krekt as de gegevensset kin it Fragmintetsjerkhôf download wurde.
+about-clip-graveyard-text = It Fragmintetsjerkhôf bestiet ut stimfragminten dy’t de Common Voice-gegevensset net helle hawwe. Krekt as de gegevensset kin it Fragmintetsjerkhôf download wurde.
 about-partners = Partners
 about-become-a-partner = Partner wurde
 about-partnership =
@@ -499,16 +531,100 @@ about-get-involved-text-2 =
     Geweldich! Nim kontakt op fia e-mail of op <discourseLink>Discourse</discourseLink>
     -forums, meld problemen mei de website fia <githubLink>GitHub</githubLink>, of doch
     mei mei de mienskipschat op <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Hoe hâld ik kontakt?
+about-stay-in-touch-text-1 = <emailFragment>Skriuw jo yn</emailFragment> foar ús e-maillist om te learen hoe’t jo dielnimme kinne oan kampanjes, eveneminten en mienskiplike ûntwerpfunksjes op Common Voice.
+about-stay-in-touch-text-2 = Jo kinne oaren yn de Mozilla-taalmienskippen moetsje troch lid te wurden fan <discourseLink>Discourse</discourseLink> foar aktuele petearen, of <matrixLink>Matrix</matrixLink> foar fluch advys.
 about-nav-why-common-voice = Wêrom?
 about-nav-how-it-works = Hoe?
 about-nav-partners = Partners
 about-nav-get-involved = Meiwurkje
+about-nav-how-it-works-2 = Hoe wurket Common Voice?
+about-nav-playbook = Lês hoe’t jo dielnimme kinne
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Wat is in taal op Common Voice?
+about-playbook-what-is-language-content-1 = Der binne in protte manieren om oer taal nei te tinken. Foar it doel fan spraakwerkenningsmodellen stelt Common Voice foar om te fokusjen op ‘ûnderlinge fersteanberens’, of ‘kinne sprekkers fan dizze taal inoar yn it algemien ferstean as se dat probearje?’
+about-playbook-what-is-language-content-2 = Wy wolle dat spraakmodellen better binne yn it ferstean fan in breed skala oan sprekkers. Om dit barre te litten, moat in spraakgegevensset in protte ferskate minsken fertsjinwurdigje.
+about-playbook-what-is-language-content-3 = Guon talen hawwe in enoarme fariaasje yn grammatika, wurdskat en útspraak. Om dizze reden <ctaLink>yntrodusearje wy ‘Farianten’</ctaLink> yn 2022. Dit jout mienskippen in manier om harren talen te ûnderskieden binnen de gruttere gegevensset.
+
+## How do I add a language
+
+about-playbook-how-add-language = Hoe foegje ik in taal ta?
+about-playbook-how-add-language-content-1 = Kontrolearje earst oft jo taal <languageLink>al bestiet</languageLink>. As dat net sa is, moatte jo <strong>de website oersette en sinnen sammelje</strong>.
+about-playbook-how-add-language-content-2 = <strong>Om de side oer te setten</strong> – soargje dat jo <translateVideo>ynsteld binne</translateVideo> op <pontoonLink>Pontoon</pontoonLink>. Pontoon befettet in protte talen, mar as dy fan jo der net by sit, kinne jo <pontoonRequestLink>dizze oanfreegje</pontoonRequestLink>. Freegje dan <repoLink>fia GitHub</repoLink> om it Common Voice-projekt beskikber te meitsjen foar de taal. Mear ynfo oer <localizationFragment>website-oersetting</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Om sinnen te sammeljen</strong> – <scVideo>stel</scVideo> <scLink>Sentence Collector</scLink> yn.
+about-playbook-how-add-language-content-4 = Jo kinne hjir <scLinkAdd>lytse oantallen</scLinkAdd> sinnen tafoegje, of jo kinne <bulkImportDocsLink>bulkymport</bulkImportDocsLink> dwaan fia in Github-fersyk. Unthâld dat sinnen <licenseLink>CC0 (of publyk domein)</licenseLink> wêze moatte, of jo kinne jo eigen sinnen skriuwe. Mear ynfo oer <scFragment>sinnensamling</scFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Hoe wurket websitelokalisaasje?
+about-playbook-how-localize-content-1 = De oersetting fan de Common Voice-website bart op <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Meitsje in account oan</pontoonAccountLink> as jo der noch gjin hawwe. Kies dêrnei jo taal <strong>(‘Team’)</strong> en kies dêrnei it projekt, <pontoonCvLink>Common Voice</pontoonCvLink>. Der sille bestannen wêze om oer te setten. Klik op ien derfan, dan toant Pontoon wurden yn it Ingelsk en in fek om se oer te setten.
+about-playbook-how-localize-content-3 = De oersetting is út it Ingelsk, mar jo kinne <strong>Suggestjes</strong> yn oare talen sjen. Klik op it piktogram <strong>Profyl</strong>, dêrnei op de keppeling <strong>Settings</strong> en foegje eventuele talen ta dy’t jo sprekke. Yn de rjochterbenedenhoeke stiet in list mei oersettingen neamd <strong>Locales</strong>. Oersettingen ferskine nei in dei op de website.
+about-playbook-how-localize-content-4 = De website kin lansearre wurde wannear’t 75% foltôge is.
+about-playbook-how-localize-content-5 = Besjoch ús fideo-útlis om te helpen
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Hoe foegje ik sinnen ta?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> is in helpmiddel foar it sammeljen en falidearjen fan sinnen yn it publike domein. Jo moatte <scAccountLink>in account oanmeitsje</scAccountLink>. Foegje dêrnei jo taal ta oan jo <strong>Profyl</strong>. Jo kinne sinnen <strong>Tafoegje</strong> of earder tafoege sinnen <strong>Beoardiele</strong>.
+about-playbook-how-add-sentences-content-2 = Sinnen moatte troch twa minsken beoardiele en akseptearre wurde om opnommen te wurden yn Common Voice. Jo meitsje <languageGuidelinesLink>hjir</languageGuidelinesLink> rjochtlinen foar jo taal. Sinnen moatte yn it <licenseLink>publike domein</licenseLink> stean en koarter wêze as 15 wurden. Jo kinne de eigener fan in tekst freegje om dizze <waiverLink>CC0 te meitsjen mei help fan ús ûntheffingsproses</waiverLink> en dizze nei ús stjoeren fia commonvoice@mozilla.com.
+about-playbook-how-add-sentences-content-3 = Jo kinne de <scraperLink>Sentence extractor</scraperLink> brûke om koarte sinnen út Wikipedia te brûken.
+about-playbook-how-add-sentences-content-4 = Falidearre sinnen wurde op woansdei eksportearre en binne nei de folgjende útjefte beskikber.
+
+## How to record quality
+
+about-playbook-how-record-quality = Hoe nim ik in spraakfragmint fan hege kwaliteit op?
+about-playbook-how-record-content-1 = Sprek mei jo normale stim! De manier wêrop jo sprekke is hjir wolkom – wy wolle jo aksint lykas it is, en wy wolle jo gebrûklike folume, styl en yntonaasje.
+about-playbook-how-record-content-2 = Mij te folle eftergrûnlûd – it moat maklik wêzen om jo te hearren.
+about-playbook-how-record-content-3 = Lês de sin oandachtich – mis of wizigje gjin wurden en foegje gjin wurden ta.
+about-playbook-how-record-content-4 = Soargje derfoar dat it platfoarm opnimt eardat jo begjinne te sprekken en dat it pas stoppet as jo klear binne.
+about-playbook-how-record-content-5 = <accuracyLink>Mear ynfo oer sekuerenskritearia.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Hoe kinne wy effektyf in taal groeie litte op Common Voice?
+about-playbook-how-grow-language-content-1 = It kreëarjen fan kânsen foar in ferskaat oan minsken om by te dragen oan Common Voice soarget derfoar dat de gegevensset safolle mooglik minsken betsjinnet. Wy hawwe helpboarnen en sjabloanen makke dy’t jo brûke kinne!
+about-playbook-how-grow-language-content-2 = Eveneminten
+about-playbook-how-grow-language-content-3 = Jo kinne eveneminten organisearje om minsken te helpen in bydrage te leverjen. It is makliker as jo tinke. Jo kinne it online dwaan mei in fideokonferinsjehelpmiddel, of persoanlik as dat feilich is. <eventTemplate>Besjoch ús sjabloanen en helpboarnen foar rinnende eveneminten</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Sosjale media
+about-playbook-how-grow-language-content-5 = Jo kinne sosjale mediaplatfoarms brûke om de boadskip nei bûten te bringen. Diel berjochten dy’t útlizze wêrom it wichtich is, en kom yn kontakt mei oare minsken dy’t prate oer saken as taalrjochten, spraak-AI of foaroardielen yn technology. Besjoch mear advys oer <campaignLink>it útfieren fan in sosjale kampanje, ynklusyf ynhâld dy’t jo  opnij brûke kinne</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnerskippen en netwurken
+about-playbook-how-grow-language-content-7 = Sykje oaren dy’t om taal jouwe. Dat kinne universiteiten, taalskoallen, belangegroepen of mienskippen foar gegevenswittenskippen wêze. Nim kontakt op en lis dúdlik út hoe’t de helpe kinne en wêrom. <outreachTemplates>Besjoch ús e-mailsjabloanen om kontakt op te nimmen</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Wês kreatyf!</strong> Jo taalmienskip sil unyk wêze, en dit binne mar in pear manieren om te begjinnen.
+
+## How to validate
+
+about-playbook-how-validate = Hoe wit ik oft ik in spraakfragmint goedkarre kin?
+about-playbook-how-validate-content-1 = As jo se <strong>hearre</strong> en <strong>ferstean kinne</strong>, is it meastentiids <strong>it beste om goed te karren</strong>.
+about-playbook-how-validate-content-2 = <strong>Wegerje gjin fragminten wêryn de sprekker ‘in aksint hat’ dat oars is as dat fan jo</strong> – dit is wichtich om derfoar te soargjen dat spraakwerkenning better wurket foar elkenien.
+about-playbook-how-validate-content-3 = As jo tinke dat de útspraak it <strong>ûnmooglik makket om te ferstean</strong>, of der is <strong>in protte eftergrûnlûd</strong>, of der <strong>prate ek oare minsken</strong>, dan moatte jo it fragmint ôfwize. <accuracyLink>Mear ynfo yn ús sekuerenskritearia</accuracyLink>.
+about-playbook-how-validate-content-4 = As in fragmint troch twa persoanen ôfwêzen is, wurdt dizze frijjûn yn in oare subset fan de gegevensset.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Hoe krij ik tagong ta en gebrûk ik de gegevensset?
+about-playbook-how-access-dataset-content-1 = Jo kinne nei de <datasetsPage>side mei gegevenssets</datasetsPage> gean, de winske ferzje en taal of talen selektearje en dizze downloade! De bestannen hawwe <metadataLink>assosjearre metadata</metadataLink>, lykas demografyske gegevens en falidaasjegegevens. Jo moatte in e-mailadres opjaan om de gegevensset te downloaden.
+about-playbook-how-access-dataset-content-2 = As jo sykje nei helpmiddelen om ASR-modellen te bouwen, kinne jo kontakt opnimme mei oare minsken yn de mienskip <discourseLink>op Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Hoe wurde projektbeslissingen nommen?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice wurdt mooglik makke troch in ferskate mienskip fan aktivisten, taalkundigen, gegevenswittenskippers, akademisy en software-engineers fan oer de hiele wrâld. It projekt wurdt beheard troch de Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Us bestjoer is basearre op de pylders fan:
+about-playbook-how-project-governance-content-3 = Privacy, feilichheid en transparânsje.
+about-playbook-how-project-governance-content-4 = Dielnimming fan en beslútfoarming troch de mienskip.
+about-playbook-how-project-governance-content-5 = Wearde en erkenning.
+about-playbook-how-project-governance-content-6 = Underlinge ferantwurdlikheid.
+about-playbook-how-project-governance-content-7 = <governanceLink>Mear ynfo oer hoe’t wy bestjoerd wurde</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence
 mycroft-description =
-    Mycroft is de earste iepen boarne assistint fan 'e wrâld.
+    Mycroft is de earste iepen boarne assistint fan de wrâld.
     Mycroft draait oeral – op in desktopkompjûter, yn in auto of op in Raspberry Pi.
-mycroft-secondary-description = Dit is opensourcesoftware dy't frij remikst wurde kin, útwreide en ferbettere. Mycroft mei brûkt wurde yn alles fan in wittenskiplik projekt oant in saaklike softwaretapassing.
+mycroft-secondary-description = Dit is opensourcesoftware dy’t frij remikst wurde kin, útwreide en ferbettere. Mycroft mei brûkt wurde yn alles fan in wittenskiplik projekt oant in saaklike softwaretapassing.
 
 ## Glossary
 
@@ -539,7 +655,7 @@ data-download-yes = Ja
 data-download-deny = Nee
 data-download-license = Lisinsje: <licenseLink>CC-0</licenseLink>
 data-download-modal = Jo stean op it punt in download te starten fan <size>{ $size }GB</size>, trochgean?
-data-subtitle = Wy meitsje in iepen en publyklik tagonklike dataset mei stimmen dy't elkenien brûke kin om mei stim oanstjoerde applikaasjes te trainen.
+data-subtitle = Wy meitsje in iepen en publyklik tagonklike dataset mei stimmen dy’t elkenien brûke kin om mei stim oanstjoerde applikaasjes te trainen.
 data-explanatory-text = Wy tinke dat grutte en iepenbiere stimgegevenssets foar ynnovaasje en sûne kommersjele kompetysje soargje yn spraaktechnology op basis fan masinelearen. Dit is in wrâldwide ynspanning, en wy nûgje elkenien út om diel te nimmen. Us doel is om te helpen der foar te soargjen dat spraaktechnology breder wurdt, wêrmei't it ferskaat oan stimmen oer de wrâld werjûn wurdt.
 data-get-started = <speechBlogLink>Start no mei spraakwerkenning</speechBlogLink>
 data-other-title = Oare stimgegevenssets…
@@ -567,7 +683,7 @@ review-delete-recordings = Myn opnamen fuortsmite
 
 ## Datasets Page
 
-datasets-headline = Wy bouwe in meartalige, iepen boarne gegevensset fan stimmen, dy't elkenien brûke kin om mei spraak oanstjoerde applikaasjes te trainen.
+datasets-headline = Wy bouwe in meartalige, iepen boarne gegevensset fan stimmen, dy’t elkenien brûke kin om mei spraak oanstjoerde applikaasjes te trainen.
 datasets-positioning =
     Wy leauwe dat grutte, iepenbiere spraakgegevenssets foar ynnovaasje en sûne kommersjele kompetysje yn it fjild fan automatisearre learende spraaktechnology soargje sil.
     
@@ -594,25 +710,25 @@ validated-hours = Falidearre oeren:
 recorded-hours = Opnommen oeren
 whats-inside = Wat is de ynhâld fan de Common Voice-gegevensset?
 dataset-description-hours =
-    Elk ûnderdiel yn de gegevensset bestiet út in unyk MP3-bestân en in byhearrend tekstbestân. In protte fan de <b>{ $total }</b> opnommen oeren yn de gegevensset befetsje ek demografyske metagegevens lykas leeftiid, geslacht en aksint, dy't de sekuerens fan spraakwerkenningsmasinen helpe kinne te trainen.
+    Elk ûnderdiel yn de gegevensset bestiet út in unyk MP3-bestân en in byhearrend tekstbestân. In protte fan de <b>{ $total }</b> opnommen oeren yn de gegevensset befetsje ek demografyske metagegevens lykas leeftiid, geslacht en aksint, dy’t de sekuerens fan spraakwerkenningsmasinen helpe kinne te trainen.
     
     De gegevensset bestiet op dit stuit út <b>{ $valid }</b> falidearre oeren yn <b>{ $languages }</b> talen, mar wy foegje trochgeand spraak en talen ta. Sjoch ris op ús <languagesLink>side Talen</languagesLink> om in taal oan te freegjen of in bydrage te leverjen.
-want-dataset-update = Wolle jo in berjocht wannear't wy in nije ferzje fan de Common Voice-gegevensset útbringe? Abonnearje jo dan op ús nijsbrief.
+want-dataset-update = Wolle jo in berjocht wannear’t wy in nije ferzje fan de Common Voice-gegevensset útbringe? Abonnearje jo dan op ús nijsbrief.
 subscribe = Abonnearje
-get-started-speech = Oan 'e gong mei spraakwerkenning
+get-started-speech = Begjinne mei spraakwerkenning
 other-datasets = Oare stimgegevensets
 feedback-q = Kommentaar?
-resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is in <docsLink>opensource-toolkit</docsLink> foar ûndersikers dy't state-of-the-art-AI-modellen foar konversaasjes ûntwikkelje.
-resource-deepspeech-info = Deep Speech, de iepenboarne-spraakwerkenningsmasine fan Mozilla, kin brûkt wurde om spraakwerkenningstapassingen te bouwen. Lês ús <githubLink>GitHub-oersicht</githubLink> of besykje it <discourseLink>DeepSpeech-foarum op Discourse</discourseLink> om te ûntdekken hoe't jo begjinne kinne.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is in <docsLink>opensource-toolkit</docsLink> foar ûndersikers dy’t state-of-the-art-AI-modellen foar konversaasjes ûntwikkelje.
+resource-deepspeech-info = Deep Speech, de iepenboarne-spraakwerkenningsmasine fan Mozilla, kin brûkt wurde om spraakwerkenningstapassingen te bouwen. Lês ús <githubLink>GitHub-oersicht</githubLink> of besykje it <discourseLink>DeepSpeech-foarum op Discourse</discourseLink> om te ûntdekken hoe’t jo begjinne kinne.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> is tawijd oan iepen spraaktechnology. Harren projekten omfetsje op deep learning basearre STT- en TTS-masinen.
 community-playbook = Mienskipsdraaiboek
-resource-playbook-info = <playbookLink>Untdek nuttige hantliedingen</playbookLink> oer it hiele Common Voice-trajekt, fan lokalisaasje ta gebrûk fan de dataset, krekt as hoe't jo kontakt meitsje kinne mei ús mienskip.
+resource-playbook-info = <playbookLink>Untdek nuttige hantliedingen</playbookLink> oer it hiele Common Voice-trajekt, fan lokalisaasje ta gebrûk fan de dataset, krekt as hoe’t jo kontakt meitsje kinne mei ús mienskip.
 data-other-librispeech-description = LibriSpeech is in korpus fan ûngefear 1.000 oeren lêzen Ingelske spraak yn 16Khz ôfkomstich fan lêzen audioboeken fan it LibriVox-projekt.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = De TED-LIUM-korpus is makke fan audiopetearen en harren ûndertitels beskikber op de TED-website.
 data-other-voxforge-description = VoxForge is opset om ûndertitele spraak te sammeljen foar gebrûk mei Free en Open Source Speech Recognition Engines.
 data-other-tatoeba-description = Tatoeba is in grutte database mei sinnen, oersettingen, en sprutsen audio foar gebrûk yn it oanlearen fan taal. Dizze download befettet al it sprutsen Ingelsk opnommen troch harren mienskip.
-your-feedback = Hawwe jo ideeën oer hoe't wy de Common Voice gegevensset better meitsje kinne? Lit it ús witte op Discourse.
+your-feedback = Hawwe jo ideeën oer hoe’t wy de Common Voice gegevensset better meitsje kinne? Lit it ús witte op Discourse.
 go-discourse = Gean nei Discourse
 missing-language = Sjogge jo jo taal net yn de gegevensset? Gean nei ús talenside om in taal oan te freegjen.
 go-languages-page = Gean nei talenside
@@ -625,7 +741,7 @@ dataset-version = Ferzje
 ## Download Modal
 
 download-title = Jo download is starten.
-download-helpus = Help ús in mienskip te bouwen rûnom spraaktechnology, bliuw op 'e hichte fia e-mail.
+download-helpus = Help ús in mienskip te bouwen rûnom spraaktechnology, bliuw op de hichte fia e-mail.
 download-form-email =
     .label = Fier jo e-mailadres yn
     .value = Tankewol, wy nimme kontakt op.
@@ -647,7 +763,7 @@ request-language-title = Taaloanfraach
 request-language-form-language =
     .label = Taal
 request-language-success-title = Taaloanfraach mei sukses yntsjinne, tank.
-request-language-success-content = Wy nimme ynkoarten kontakt op mei mear ynformaasje oer hoe't jo taal oan Common Voice tafoege wurde kin .
+request-language-success-content = Wy nimme ynkoarten kontakt op mei mear ynformaasje oer hoe’t jo taal oan Common Voice tafoege wurde kin .
 select-language = Selektearje in taal…
 other-language = Oare taal
 
@@ -712,11 +828,11 @@ record-abort-submit = Fragminten yntsjinje
 record-abort-continue = Opname foltôgje
 record-abort-delete = Ofslute en fragminten fuortsmite
 listen-instruction = { $actionType } <playIcon></playIcon> – is de sin dúdlik útsprutsen?
-listen-again-instruction = Goed wurk! <playIcon></playIcon> Harkje opnij wannear't jo klear binne
+listen-again-instruction = Goed wurk! <playIcon></playIcon> Harkje opnij wannear’t jo klear binne
 listen-3rd-time-instruction = 2 klear <playIcon></playIcon> , gean sa troch!
 listen-last-time-instruction = <playIcon></playIcon> De lêste!
-listen-empty-state = Wy hawwe yn dizze taal gjin te falidearjen fragminten mear...
-speak-empty-state = Wy hawwe yn dizze taal gjin op te nimmen sinnen mear...
+listen-empty-state = Wy hawwe yn dizze taal gjin te falidearjen fragminten mear…
+speak-empty-state = Wy hawwe yn dizze taal gjin op te nimmen sinnen mear…
 speak-empty-state-cta = Sinnen bydrage
 record-button-label = Nim jo stim op
 share-title-new = <bold>Help ús</bold> mear stimmen te finen
@@ -740,7 +856,7 @@ report-grammar-or-spelling-detail = De sin hat in grammatikale of staveringsflat
 report-different-language = Oare taal
 report-different-language-detail = It is skreaun yn in oare taal dan hokker ik sprek.
 report-difficult-pronounce = Swier om út te sprekken
-report-difficult-pronounce-detail = It befettet wurden of sinnen dy't hurd te lêzen of út te sprekken binne.
+report-difficult-pronounce-detail = It befettet wurden of sinnen dy’t hurd te lêzen of út te sprekken binne.
 report-offensive-speech = Beledigjende tekst
 report-offensive-speech-detail = De clip befettet respektleaze of beledigjende taal.
 report-other-comment =
@@ -837,7 +953,7 @@ activity-needed-calculation-plural =
        *[other] { $clipsPerDay } fragminten
     }op in dei opnimme
 how-many-per-day = Bjusterbaarlik! Hoefolle fragminten op in dei?
-how-many-a-week = Bjusterbaarlik! Hoefolle fragminten yn 'e wike?
+how-many-a-week = Bjusterbaarlik! Hoefolle fragminten yn ’e wike?
 which-goal-type = Wolle jo sprekke, harkje of beide?
 receiving-emails-info =
     Jo ûntfange op dit stuit e-mailberjochten, lykas omtinken oan doelen, fernijingen
@@ -861,7 +977,7 @@ share-goal-type-speak = Sprekke
 share-goal-type-listen = Harkje
 share-goal-type-both = Sprekke en harkje
 # LINK will be replaced with the current URL
-goal-share-text = Ik haw sakrekt in persoanlike doelstelling makke foar spraakdonaasje oan #CommonVoice –– doch mei my mei en help masinen te learen hoe't echte minsken sprekke { $link }
+goal-share-text = Ik haw sakrekt in persoanlike doelstelling makke foar spraakdonaasje oan #CommonVoice –– doch mei my mei en help masinen te learen hoe’t echte minsken sprekke { $link }
 weekly-goal-created = Jo wikedoel is oanmakke
 daily-goal-created = Jo deistige doel is oanmakke
 track-progress = Folgje jo deistige fuortgong hjir en op jo statistikenside.
@@ -874,7 +990,7 @@ delete-q = Wolle jo ek dat jo stimopnamen fuortsmiten wurde, of wolle jo dizze y
 keep = Behâlde
 remove = Fuortsmite
 keep-info = Jo anonime stimopnamen bliuwe yn de gegevensset fan Common Voice oanwêzich. Sa gau as jo jo profyl fuortsmite, kinne jo gjin fersyk mear yntsjinje om jo opnamen út de gegevensset fuort te smiten.
-remove-info = Wy sille jo fersyk om jo stimopnamen út de gegevensset fuort te smiten beoardiele. As jo fersyk goedkard wurdt, nimme wy kontakt op mei de partijen dy't de gegevensset download hawwe en freegje wy harren ek jo stimopnamen fuort te smiten.
+remove-info = Wy sille jo fersyk om jo stimopnamen út de gegevensset fuort te smiten beoardiele. As jo fersyk goedkard wurdt, nimme wy kontakt op mei de partijen dy’t de gegevensset download hawwe en freegje wy harren ek jo stimopnamen fuort te smiten.
 why-delete-recordings =
     Common Voice-opnamen wurde brûkt troch akademisy, lytse bedriuwen en leafhawwers fan spraakwerkenning om te helpen by it trainen en ûntwikkeljen fan frij beskikbere boarnen, lykas spraakmodellen.
     
@@ -898,7 +1014,7 @@ download-selected = Selektearre
 download-start = Download starte
 download-request = Download oanfreegje
 download-requests = Eardere downloadfersiken
-download-requests-info = Wannear't jo jo opnamen opfreegje, kompilearje wy dizze yn ien of mear ZIP-bestannen. Dit binne jo eardere fersiken:
+download-requests-info = Wannear’t jo jo opnamen opfreegje, kompilearje wy dizze yn ien of mear ZIP-bestannen. Dit binne jo eardere fersiken:
 download-request-button = Downloade
 download-request-title = { $created }
 download-request-description = { $clipCount } spraakfragminten, totale argyfgrutte { $size }. Ferrint { $expires }.
@@ -954,20 +1070,20 @@ demo-listen-subtitle = Klear om by te dragen?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Persoanlike dashboarden hâlde jo op de hichte fan jo yndividuele foarútgong en fan dy fan de mienskip.
-demo-dashboard-card-body = Foar elk donearre spraakfragmint en elk falidearre audiofragmint wurde jo accountdashboarden bywurke om jo lêste foarderingen wer te jaan yn elke taal wêroan jo bydrage. Ja, jo kinne oan mear as ien bydrage!<br/><br/>Brûk dashboarden om jo statistiken by te hâlden, te besjen hoe't jo it dogge neist oaren yn de mienskip en deistige of wyklikse bydragedoelen fêst te stellen.
+demo-dashboard-card-body = Foar elk donearre spraakfragmint en elk falidearre audiofragmint wurde jo accountdashboarden bywurke om jo lêste foarderingen wer te jaan yn elke taal wêroan jo bydrage. Ja, jo kinne oan mear as ien bydrage!<br/><br/>Brûk dashboarden om jo statistiken by te hâlden, te besjen hoe’t jo it dogge neist oaren yn de mienskip en deistige of wyklikse bydragedoelen fêst te stellen.
 
 ## Validation criteria
 
 contribution-criteria-nav = Kritearia
 contribution-criteria-link = Bydragekritearia begripe
 contribution-criteria-page-title = Bydragekritearia
-contribution-criteria-page-description = Ynformearje jo oer wêrop't jo by it harkjen fan fragminten lette moatte en hoe't jo jo eigen stimopnamen ferbetterje kinne!
+contribution-criteria-page-description = Ynformearje jo oer wêrop’t jo by it harkjen fan fragminten lette moatte en hoe’t jo jo eigen stimopnamen ferbetterje kinne!
 contribution-for-example = bygelyks
 contribution-misreadings-title = Lêsflaters
 contribution-misreadings-description = Kontrolearje wylst jo harkje soarchfuldich dat wat opnommen is ek krekt is wat der skreaun stiet; keur it ôf as der sels lytse flaters binne. <br />Faaks foarkommende flaters binne:
 contribution-misreadings-description-extended-list-1 = <strong>‘In’</strong> of <strong>‘De’</strong> ûntbrekt oan it begjin fan de opname.
 contribution-misreadings-description-extended-list-2 = Der ûntbrekt <strong>‘s’</strong> of <strong>‘en’</strong> oan it ein fan in wurd.
-contribution-misreadings-description-extended-list-3 = Gearfoegingen dy't der eins net binne, lykas ‘Sa’n’ yn stee fan ‘Sa ien’, of oarsom.
+contribution-misreadings-description-extended-list-3 = Gearfoegingen dy’t der eins net binne, lykas ‘Sa’n’ yn stee fan ‘Sa ien’, of oarsom.
 contribution-misreadings-description-extended-list-4 = It ein fan it lêste wurd ûntbrekt troch it te fluch ôfbrekken fan de opname.
 contribution-misreadings-description-extended-list-5 = Meardere besykjen om in wurd te lêzen.
 contribution-misreadings-example-1-title = De enoarme dinosaurussen fan it Trias.
@@ -978,36 +1094,432 @@ contribution-misreadings-example-3-explanation = [Opname ôfbrutsen foar it ein 
 contribution-misreadings-example-4-title = De enoarme dinosaurussen fan it Trias. Ja.
 contribution-misreadings-example-4-explanation = [Der is mear as de nedige tekst opnommen]
 contribution-misreadings-example-5-title = Ik haw kofje mei har dronken.
-contribution-misreadings-example-6-title = Ik haw kofje mei 'r dronken.
+contribution-misreadings-example-6-title = Ik haw kofje mei ’r dronken.
 contribution-misreadings-example-6-explanation = [Soe ‘har’ wêze moatte]
 contribution-misreadings-example-7-title = Ik haw in kofje mei har dronken.
 contribution-misreadings-example-7-explanation = [Der sit gjin ‘in’ yn de oarspronklike tekst]
 contribution-misreadings-example-8-title = De hommel fleach foarby.
 contribution-misreadings-example-8-explanation = [Net-oerienkommende ynhâld]
 contribution-varying-pronunciations-title = Utienrinnende útspraken
-contribution-varying-pronunciations-description = Wês foarsichtich eardat jo in fragmint ôfwize as in lêzer in wurd ferkeard útsprutsen hat, de klam op it ferkearde plak lein hat, of blykber in fraachteken negearre hat. Der is wrâldwiid in grut ferskaat oan útspraken yn gebrûk, guon fan dy hawwe jo miskien net heard yn jo lokale mienskip. Jou asjebleaft in marzje fan wurdearring foar dyjingen dy't oars kinne sprekke as jo.
+contribution-varying-pronunciations-description = Wês foarsichtich eardat jo in fragmint ôfwize as in lêzer in wurd ferkeard útsprutsen hat, de klam op it ferkearde plak lein hat, of blykber in fraachteken negearre hat. Der is wrâldwiid in grut ferskaat oan útspraken yn gebrûk, guon fan dy hawwe jo miskien net heard yn jo lokale mienskip. Jou asjebleaft in marzje fan wurdearring foar dyjingen dy’t oars kinne sprekke as jo.
 contribution-varying-pronunciations-description-extended = Mar as jo tinke dat de lêzer it wurd noch nea brûkt hat en ienfâldichwei in ferkeare ynskatting fan de útspraak docht, wiis it fragmint dan ôf. As jo net wis binne, brûk dan de knop Oerslaan.
 contribution-varying-pronunciations-example-1-title = Hy bestelde in poarsje satee.
 contribution-varying-pronunciations-example-1-explanation = [‘Satee’ is OK mei sawol de klemtoan op de earste as de twadde lettergreep]
 contribution-varying-pronunciations-example-2-title = Hy luts him we-rom.
 contribution-varying-pronunciations-example-2-explanation = [‘Werom’ wurdt faaks as ien lettergreep útsprutsen, net as twa]
 contribution-background-noise-title = Eftergrûnlûd
-contribution-background-noise-description = Wy wolle dat de masinelearende algoritmen in breed skala oan eftergrûnlûden ferwurkje kinne, en sels relatyf lûde lûden kinne akseptearre wurde, ûnder betingst dat se net berhinderje dat jo de hiele tekst hearre. Rêstige eftergrûnmuzyk is OK; muzyk dy't lûd genôch is om derfoar te soargjen dat jo net elk wurd ferstean kinne net.
+contribution-background-noise-description = Wy wolle dat de masinelearende algoritmen in breed skala oan eftergrûnlûden ferwurkje kinne, en sels relatyf lûde lûden kinne akseptearre wurde, ûnder betingst dat se net berhinderje dat jo de hiele tekst hearre. Rêstige eftergrûnmuzyk is OK; muzyk dy’t lûd genôch is om derfoar te soargjen dat jo net elk wurd ferstean kinne net.
 contribution-background-noise-description-extended = As de opname fersteurd wurdt of kreaket, wiis dizze dan ôf, útsein de hiele tekst noch hieltyd te ferstean is.
 contribution-background-noise-example-1-fixed-title = <strong>[Prúste]</strong> De enoarme dinosaurussen fan it <strong>[hoastje]</strong> Trias.
 contribution-background-noise-example-2-fixed-title = De enoarme dino <strong>[hoastje]</strong> it Trias.
 contribution-background-noise-example-2-explanation = [De tekst is foar in part net te hearren]
 contribution-background-noise-example-3-fixed-title = <strong>[Kreaklûden]</strong> enoarme dinosaurussen fan <strong>[kreakje]</strong> -ias.
 contribution-background-voices-title = Eftergrûnlûden
-contribution-background-voices-description = In rêstich rûzen op de eftergrûn is oké, mar wy wolle gjin ekstra stimmen dy't derfoar soargje kinne dat in masine-algoritme wurden identifisearret dy't net yn de skreaune tekst stean. As jo oare wurden dan dy fan de tekst hearre kinne, moat it fragmint ôfwiisd wurde. Meastentiids bart dit as de tv oanstiet of as der in petear yn de buert fierd wurdt.
+contribution-background-voices-description = In rêstich rûzen op de eftergrûn is oké, mar wy wolle gjin ekstra stimmen dy’t derfoar soargje kinne dat in masine-algoritme wurden identifisearret dy’t net yn de skreaune tekst stean. As jo oare wurden dan dy fan de tekst hearre kinne, moat it fragmint ôfwiisd wurde. Meastentiids bart dit as de tv oanstiet of as der in petear yn de buert fierd wurdt.
 contribution-background-voices-description-extended = As de opname weifalt of kreaket, wiis it fragmint dan ôf, útsein de hiele tekst noch hieltyd te ferstean is.
 contribution-background-voices-example-1-title = De enoarme dinosaurussen fan it Trias. <strong>[lêzen troch ien stim]</strong>
 contribution-background-voices-example-1-explanation = Komsto? <strong>[roppen troch in oar]</strong>
 contribution-volume-title = Folume
 contribution-volume-description = Der sille natuerlike fariaasjes yn folume tusken lêzers wêze. Wiis it fragmint allinnich ôf as it folume sa heech is dat de opname ûnderbrutsen wurdt, of (faker) as it sa leech is dat ûnfersteanber is wat der sein wurdt sûnder nei de skreaune tekst sjen te moatten.
 contribution-reader-effects-title = Lêzereffekten
-contribution-reader-effects-description = De measte opnamen binne fan minsken dy't mei harren natuerlike stim prate. Jo kinne sa no en dan in ôfwikende opname akseptearje dy't skreauwend of flústere wurdt of dúdlik ôflevere wurdt mei in ‘dramatyske’ stim. Wiis songen opnamen en opnamen mei in kompjûtergenerearre stim ôf.
+contribution-reader-effects-description = De measte opnamen binne fan minsken dy’t mei harren natuerlike stim prate. Jo kinne sa no en dan in ôfwikende opname akseptearje dy’t skreauwend of flústere wurdt of dúdlik ôflevere wurdt mei in ‘dramatyske’ stim. Wiis songen opnamen en opnamen mei in kompjûtergenerearre stim ôf.
 contribution-just-unsure-title = Gewoan ûnwis?
 contribution-just-unsure-description = As jo wat tsjinkomme dat net yn dizze rjochtlinen behannele wurdt, stim dan nei jo bêste oardiel. As jo echt net beslisse kinne, brûk dan de knop Oerslaan en gean troch nei de folgjende opname.
 see-more = <chevron></chevron>Mear toane
 see-less = <chevron></chevron>Minder toane
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Startside
+sc-header-how-to = Hantlieding
+sc-header-add = Tafoegje
+sc-header-review = Beoardiele
+sc-header-rejected = Ofwizen sinnen
+sc-header-my = Myn sinnen
+sc-header-statistics = Statistiken
+sc-header-profile = Profyl
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Bugs melde
+sc-footer-translate = Dizze side oersette
+sc-footer-report-copyright = Auteursrjochtproblemen melde
+sc-footer-privacy = Privacy
+sc-footer-terms = Betingsten
+sc-footer-cookies = Cookies
+sc-login-signup-button = Oanmelde/Registrearje
+sc-logout-button = Ofmelde
+
+## HOME
+
+sc-home-title = Wolkom by de Common Voice Sentence Collector
+sc-home-intro =
+    De Sentence Collector is ûnderdiel fan <commonVoiceLink>Common Voice</commonVoiceLink>.
+    Hjirmei kinne bydragers sinnen dy’t troch de mienskip makke binne sammelje en falidearje.
+    Jo kinne dit helpmiddel ek brûke om fûne of sammele lytse oant middelgrutte teksten yn it publike
+    domein te ymportearjen en op te skjinjen. Alle sinnen moatte iepenbier tagonklik wêze.
+    Goedkarre sinnen wurde elke wike eksportearre nei de Common Voice-repository en frijjûn
+    op de Common Voice-website by elke nije ymplemintaasje.
+sc-home-collect-title = Sinnen sammelje
+sc-home-collect-text = Help ús troch iepenbier tagonklike sinnen te skriuwen of te sammeljen.
+sc-home-review-title = Sinnen beoardiele
+sc-home-review-text = Help ús troch sinnen te kontrolearjen op krektens neffens de rjochtlinen.
+
+## HOW-TO
+
+sc-howto-title = Hantlieding
+sc-howto-addlang-title = Talen tafoegje om mei te wurkjen
+sc-howto-addlang-text = Neidat jo oanmeld binne, kinne jo jo talen selektearje yn de profylseksje.
+sc-howto-addsen-title = Nije sinnen tafoegje
+sc-howto-addsen-item-1 =
+    Alle sinnen dy’t jo yntsjinje, moatte ûnder de <wikipediaLink>Public Domain (CC-0)-lisinsje</wikipediaLink> falle.
+    Om de opname fan wurk dat net ûnder iepenbiere lisinsje falt te stypjen, hawwe wy in
+    <cc0WaiverLink>Sjabloan foar bydrageoerienkomst</cc0WaiverLink> makke foar wurken wêrfan de eigener fan it auteursrjocht
+    it materiaal graach bydrage wol oan Common Voice.
+sc-howto-addsen-item-2 =
+    Getallen. Der meie gjin sifers yn de boarnetekst stean, omdat dizze problemen feroarsaakje kinne
+    wannear’t se hurdop foarlêzen wurde. De manier wêrop in getal lêzen wurdt is ôfhinklik fan de kontekst en kin betizing yn de dataset feroarsaakje.
+    It getal ‘2409’ kin bygelyks sekuer lêzen wurde as sawol ‘fjouwerentweintich nul njoggen’ en
+    ‘twatûzen fjouwerhûndert njoggen’.
+sc-howto-addsen-item-3 =
+    Ofkoartingen en akronimen. Ofkoartingen en akronimen lykas ‘USA’ of ‘ICE’
+    moatte yn de boarnetekst mijd wurde, omdat se op in manier lêzen wurde kinne dy’t net gearfalt mei harren stavering.
+    Boppedat kinne der meardere sekuere lêsfoarmen wêze foar ien deselde ôfkoarting.
+    It akronym ‘ICE’ kin bygelyks útsprutsen wurde as ‘I-C-E’ of as ien inkeld wurd.
+sc-howto-addsen-item-4 =
+    Ynterpunksje. Spesjale symboalen en lêstekens meie allinnich opnommen wurde
+    wannear’t dit absolút needsaaklik is. Der is bygelyks in apostrof opnommen yn Fryske wurden as
+    ‘dy’t’ en dizze soe yn de boarnetekst opnommen wurde moatte, mar it is net wierskynlik dat jo
+    ea in spesjaal symboal lykas ‘@‘ of ‘#’ nedich hawwe.
+sc-howto-addsen-item-5 =
+    Bûtenlânske letters. Letters moatte jildich wêze yn de taal dy’t sprutsen wurdt.
+    ‘ж’ is bygelyks in letter yn it Russyske alfabet, mar wurdt nea yn it Frysk brûkt en soe dus ek nea
+    ferskine meie yn in Fryske boarnetekst.
+sc-howto-addsen-item-6 =
+    Talen kinne harren <validationRulesLink>eigen falidaasjeregels</validationRulesLink> hawwe
+    mei oanfoljende easken. As der gjin spesifyk falidaasjebestân foar in taal is,
+    dan wurde de algemiene Fryske regels brûkt.
+sc-howto-addsen-post-1 =
+    Wy jouwe de foarkar oan natuerlike/petearsinnen.
+    Hoewol fonetyske diversiteit en ferskate wurden yn sinnen wichtich binne, probearje wy it opnimmen fan
+    sinnen sa aardich mooglik te meitsjen. Dêrom soe it geweldich wêze as jo probearje jo sinnen
+    sa natuerlik/oantreklik mooglik te hâlden.
+sc-howto-cite-title = Sitearje
+sc-howto-cite-pre-1 =
+    It is wichtich dat jo fermelde wêr’t jo de iepenbiere lisinsje fûn hawwe
+    om plagiaat foar te kommen en om opfolging fan <copyrightIssuesLink>auteursrjochtproblemen</copyrightIssuesLink> mooglik te meitsjen.
+    Hjir binne in pear manieren wêrop jo it wurk sitearje kinne.
+sc-howto-cite-item-1 = Jo kinne de website opnimme, bygelyks ‘Common Voice - https://commonvoice.mozilla.org/’
+sc-howto-cite-item-2 =
+    Jo kinne in akademyske referinsjestyl brûke, bygelyks Harvard-styl
+    ‘Mozilla (2021) Common Voice. Beskikber op https://commonvoice.mozilla.org/ (Benadere: 15 septimber 2021)’
+sc-howto-cite-item-3 =
+    Foar iepenbiere lisinsjetekst dy’t net online beskikber is, kinne jo de akademyske referinsjestyl brûke,
+    byg. Harvard-styl ‘Jess (2021) Myn iepenbiere lisinsjegedichten’
+sc-howto-review-title = Sinnen beoardiele
+sc-howto-review-subtitle = Soargje derfoar dat de sin oan de folgjende kritearia foldocht:
+sc-howto-review-criteria-1 = De sin moat goed stavere wêze.
+sc-howto-review-criteria-2 = De sin moat grammatikaal korrekt wêze.
+sc-howto-review-criteria-3 = De sin moat út te sprekken wêze.
+sc-howto-review-criteria-4 = As de sin foldocht oan de kritearia, klik dan op de knop ‘Goedkarre’.
+sc-howto-review-criteria-5 =
+    As de sin net oan de boppesteande kritearia foldocht, klik dan op de knop ‘Ofwize’.
+    As jo net wis binne fan de sin, kinne jo dizze ek oerslaan en trochgean nei de folgjende.
+sc-howto-review-criteria-6 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
+sc-howto-findpd-title = Besteande sinnen fine yn it publike domein
+sc-howto-findpd-subtitle = Dernei sykje op it ynternet
+sc-howto-findpd-text-2 = Unthâld dat wy tastimming nedich hawwe om dy sinnen te publisearjen, dus soargje der altyd foar dat de tekst ta it <wikipediaLink>publike domein</wikipediaLink> heart. As dit net eksplisyt oanjûn is, nim dan kontakt op mei de persoan fan wa’t de tekst is en freegje oft se harren tekst bydrage wolle oan it Publike Domein. As se dat wolle, help se dan troch it proses fan de <cc0WaiverLink>Meiwurkersoerienkomst</cc0WaiverLink> te gean. As se de tekst net bydrage wolle, dan meie jo dy tekst net brûke.
+sc-howto-findpd-tips = Hjir binne inkelde tips om sinnen te finen:
+sc-howto-findpd-tips-1 =
+    De beste boarnen wêrnei jo sykje kinne binne podcasts, transkripsjes, filmscripts en
+    alles dat potinsjeel deistige petearen befetsje kinne.
+sc-howto-findpd-tips-2 =
+    Oerheidsprosedueren, boeken en artikelen binne echter ek geweldich, omdat
+    de tekst echter meastentiids wat formeler is, hawwe se minder prioriteit.
+sc-howto-findpd-tips-3 = Spitigernôch kinne wy noch gjin Wikimedia-artikelen hawwe. Dus kopiearje en plak neat út dy boarne.
+sc-howto-findpd-subtitle-2 = Wurkje gear mei lokale organisaasjes of persoanen
+sc-howto-findpd-partner-1 =
+    Der binne in protte publike organisaasjes dy’t miskien gearwurkje wolle
+    en al in protte teksten dy’t se as publyk domein donearje kinne hawwe. Nim kontakt op mei lokale universiteiten,
+    oerheden en opensource-organisaasjes om oer it projekt te praten en om harren help te freegjen.
+sc-howto-findpd-partner-2 =
+    Deskundige linguisten kinne ek helpe, probearje kontakt op te nimmen mei de lokale linguistyske
+    universiteiten (sawol dosinten as studinten) en sjoch oft se helpe kinne om in ferskate set fan
+    sinnen mei útienrinnende klanken yn jo taal te sammeljen.
+
+## MY SENTENCES
+
+sc-my-title = Myn sinnen
+sc-my-description =
+    Dizze side biedt jo in oersjoch fan al jo ynstjoerde sinnen.
+    Jo kinne wannear nedich ek al yntsjinne sinnen fuortsmite troch der in finkje neist te pleatsen
+    en ûnderoan op &quot;Selektearre sinnen fuortsmite&quot; te klikken.
+    Smyt sinnen allinnich fuort as dit absolút needsaaklik is,
+    bygelyks as jo efterôf opmerke dat in sin auteursrjochtlik beskerme is.
+sc-my-loading = Jo sinnen laden…
+sc-my-err-fetching = Flater by it opheljen fan jo sinnen. Probearje it opnij.
+sc-my-no-sentences = Gjin sinnen fûn!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Ynstjoering: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Boarne: { $source }
+sc-my-delete = Selektearre sinnen fuortsmite
+sc-my-deleting = Selektearre sinnen fuortsmite…
+sc-my-err-failed-delete = Kin selektearre sinnen net fuortsmite… Probearje it opnij!
+
+## REJECTED
+
+sc-rejected-title = Ofwizen sinnen
+sc-rejected-loading = Ofwizen sinnen lade…
+sc-rejected-err-fetching = Flater by it opheljen fan ôfwizen sinnen. Probearje it opnij.
+sc-rejected-none-found = Gjin ôfwizen sinnen fûn!
+
+## STATS
+
+sc-stats-title = Statistiken
+sc-stats-updating = Bywurkje…
+sc-stats-error = Wy kinne de statistiken net ophelje. Probearje it letter nochris.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary =
+    De Common Voice Sentence Collector hat { $sentenceCount }
+    sinnen yn { $languageCount } talen sammele!
+
+## ADD
+
+sc-submit-err-select-lang = Selektearje in taal.
+sc-submit-err-add-sentences = Foegje sinnen ta.
+sc-submit-err-add-source = Foegje in boarne ta.
+sc-submit-err-confirm-pd = Befêstigje dat dizze sinnen publyk domein binne.
+sc-submit-prompt =
+    .message = Sinnen net yntsjinne, binne jo wis dat jo ôfslute wolle?
+sc-submit-title = Sinnen tafoegje
+sc-submit-select-language =
+    .labelText = Taal selektearje
+sc-submit-add-sentences = <wikipediaLink>Publyk domein</wikipediaLink>-sinnen tafoegje
+sc-submit-ph-one-per-line =
+    .placeholder = Ien sin per rigel
+sc-submit-from-where = Wêr komme dizze <wikipediaLink>publyk domein</wikipediaLink>-sinnen wei?
+sc-submit-ph-read-how-to =
+    .placeholder = Lês ús hantlieding as jo net wis binne hoe’t jo taskriuwe moatte
+sc-submit-confirm =
+    Ik befêstigje dat dizze sinnen <wikipediaLink>publyk domein</wikipediaLink> binne en
+    ik tastimming haw om se op te laden.
+sc-submit-button =
+    .submitText = Yntsjinje
+sc-submit-filtered = Filtere sinnen fanwegen net foldwaan oan easken (tsjinje korrekte ferzjes yn as nije sinnen):
+sc-submit-guidelines = Rieplachtsje de <howToLink>rjochtlinen</howToLink>.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Kin taal net tafoegje
+sc-add-lang-sec-label = Foegje in taal ta dêr’t jo oan bydrage wolle
+sc-add-lang-sec-button = Taal tafoegje
+sc-add-err-unexpected = Unferwacht antwurd ûntfongen fan de server
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Yntsjinne sinnen. { $duplicates } sinnen binne ôfwiisd as duplikaten.
+        [one] Yntsjinne sinnen. { $duplicates } sin is ôfwiisd as duplikaat.
+       *[other] Yntsjinne sinnen. { $duplicates } sinnen binne ôfwiisd as duplikaten.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Gjin sin mislearre
+        [one] Ien sin mislearre
+       *[other] { $sentences } sinnen mislearre
+    }
+sc-add-err-submission = Yntsjinningsflater
+sc-add-lang-process-notice = As jo taal hjir net fermeld wurdt, kinne jo dizze oanfreegje fia <languageProcessLink>dit proses</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = Sinnen net yntsjinne, binne jo wis dat jo ôfslute wolle?
+sc-confirm-sentences-title = Nije sinnen befêstigje
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Gjin sinnen fûn.
+        [one] Ien sin fûn.
+       *[other] { $countOfSentences } sinnen fûn.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } troch jo ôfwiisd
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Gjin sin al beoardiele.
+        [one] Der is al ien sin beoardiele. Goed wurk!
+       *[other] Der binne al { $countOfReviewed } sinnen beoardiele. Goed wurk!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Gjin sin klear foar yntsjinning!
+        [one] Ien sin klear foar yntsjinning!
+       *[other] { $readyCount } sinnen klear foar yntsjinning!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed =
+    { $countOfUnreviewed } sinnen binne net beoardiele.
+    As jo wolle, kinne jo jo sinnen no ek beoardiele eardat jo se yntsjinje.
+sc-confirm-button-text = Befêstigje
+sc-confirm-uploading = Sinnen wurde oplaad. Dit kin inkelde minuten duorje, ôfhinklik fan it oantal tafoege sinnen. Slút dizze website net.
+
+## LANGUAGE INFO
+
+sc-lang-info-title-total = Totaal
+sc-lang-info-title-personal = Persoanlik
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Gjin totaal oantal sinnen.
+        [one] Totaal ien sin.
+       *[other] Totaal { $totalSentences } sinnen.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Gjin sinnen yn beoardieling.
+        [one] Ien sin yn beoardieling.
+       *[other] { $totalInReview } sinnen yn beoardieling.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Gjin sin dy’t jo noch beoardiele kinne.
+        [one] Ien sin dy’t jo noch beoardiele kinne.
+       *[other] { $unreviewedSentencesByYou } sinnen dy’t jo noch beoardiele kinne.
+    }
+sc-lang-info-review-now = <reviewLink>No beoardiele!</reviewLink>
+sc-lang-info-add-more = <addLink>No mear sinnen tafoegje!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Gjin falidearre sinnen.
+        [one] Ien falidearre sin.
+       *[other] { $validatedSentences } falidearre sinnen.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Gjin ôfwizen sinnen.
+        [one] Ien ôfwizen sin.
+       *[other] { $rejectedSentences } ôfwizen sinnen.
+    }
+
+## LOGIN
+
+sc-login-err-failed = Oanmelding mislearre
+sc-login-err-try-again = Probearje it opnij.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profyl: { $username }
+sc-personal-err-lang-not-found = Kin taal net fuortsmite: taal net fûn
+sc-personal-err-remove = Kin taal net fuortsmite
+sc-personal-your-languages = Jo talen:
+sc-personal-remove-button = fuortsmite
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sinnen } troch jo tafoege
+sc-personal-not-added = Jo hawwe noch gjin talen tafoege.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ Beoardielingskritearia
+sc-criteria-title = Beoardielingskritearia
+sc-criteria-make-sure = Soargje derfoar dat de sin oan de folgjende kritearia foldocht:
+sc-criteria-item-1 = De sin moat goed stavere wêze.
+sc-criteria-item-2 = De sin moat grammatikaal korrekt wêze.
+sc-criteria-item-3 = De sin moat út te sprekken wêze.
+sc-criteria-item-4 = As de sin oan de kritearia foldocht, klik dan op de knop &quot;Goedkarre&quot; oan de rjochterkant.
+sc-criteria-item-5-2 =
+    As de sin net oan de boppesteande kritearia foldocht, klik dan op de knop ‘Ofwize’ oan de linkerkant.
+    As jo net wis binne fan de sin, kinne jo dizze ek oerslaan en trochgean nei de folgjende.
+sc-criteria-item-6 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
+
+## REVIEW
+
+sc-review-lang-not-selected =
+    Jo hawwe gjin talen selektearre. Gean nei jo
+    <profileLink>Profyl</profileLink> om talen te selektearjen.
+sc-review-title = Sinnen beoardiele
+sc-review-loading = Sinnen lade…
+sc-review-select-language = Selektearje in taal om sinnen te beoardielen.
+sc-review-no-sentences =
+    Gjin sinnen om te beoardielen.
+    <addLink>Foegje no mear sinnen ta!</addLink>
+sc-review-form-prompt =
+    .message = Beoardiele sinnen net yntsjinne, binne jo wis?
+sc-review-form-usage =
+    Fei nei rjochts om de sin goed te karren. Fei nei links om dizze ôf te wizen.
+    Fei omheech om dizze oer te slaan. <strong>Ferjit net jo beoardieling yn te tsjinjen!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Boarne: { $sentenceSource }
+sc-review-form-button-reject = Ofwize
+sc-review-form-button-skip = Oerslaan
+sc-review-form-button-approve = Goedkarre
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = J
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = O
+sc-review-form-keyboard-usage-custom = Jo kinne ek fluchtoetsen brûke: { sc-review-form-button-approve-shortcut } om goed te karren, { sc-review-form-button-reject-shortcut } om ôf te karren, { sc-review-form-button-skip-shortcut } om oer te slaan
+sc-review-form-button-submit =
+    .submitText = Beoardieling foltôgje
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Gjin sinnen beoardiele.
+        [one] Ien sin beoardiele. Tank!
+       *[other] { $sentences } sinnen beoardiele. Tige tank!
+    }
+sc-review-form-review-failure = Beoardieling kin net bewarre wurde. Probearje it letter nochris.
+sc-review-link = Beoardiele
+
+## SETTINGS
+
+sc-settings-title = Ynstellingen
+sc-settings-ui-language = Ynterfacetaal
+sc-settings-language-translated-warning = De siden foar dizze taal binne mooglik net folslein oerset. Jo kinne helpe mei oersetten <pontoonLinkLink>op Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = Oerslagge sinnen opnij inisjalisearje
+sc-settings-skipped-decription =
+    Jo hawwe earder sinnen oerslagge wylst it beoardielen.
+    By it opnij inisjalisearjen fan oerslagge sinnen wurde alle oerslagge sinnen wer toand.
+    Dit stiet los fan de taal.
+sc-settings-show-all-button = Alle oerslagge sinnen opnij toane
+sc-settings-failed = Kin ynstellingen net wizigje. Probearje it opnij.
+# VALIDATION
+sc-validation-number-of-words = Sin moat tusken 1 en 14 (ynklusyf) wurden befetsje
+sc-validation-no-numbers = Sin mei gjin sifers befetsje
+sc-validation-no-symbols = Sin mei gjin symboalen befetsje
+sc-validation-no-abbreviations = Sin mei gjin ôfkoartingen befetsje
+
+# [/SentenceCollector]
+
+localization-select =
+    .label = Kies jo taal/lokalisaasje

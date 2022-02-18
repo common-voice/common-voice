@@ -78,6 +78,8 @@ hy-AM = Armena
 hyw = Okcidenta armena
 ia = Interlingvao
 id = Indonezia
+ie = interlingvao
+ig = Igba
 is = Islanda
 it = Itala
 izh = Iĵora
@@ -86,6 +88,7 @@ ka = Kartvela
 kaa = Karakalpaka
 kab = Kabila
 kbd = Kabarda
+ki = Kikuja
 kk = Kazaĥa
 kmr = Kurmanĉa kurda
 ko = Korea
@@ -103,6 +106,7 @@ mhr = Orientmaria
 mk = Makedona
 ml = Malajalama
 mn = Mongola
+mni = Manipura
 mos = Mosia
 mr = Marata
 mrj = Okcidentmaria
@@ -128,6 +132,7 @@ ro = Rumana
 ru = Rusa
 rw = Ruanda
 sah = Jakuta
+sat = Santala
 sc = Sarda
 scn = Sicilia
 shi = Ŝelha
@@ -478,7 +483,7 @@ about-nav-partners = Asociitoj
 about-nav-get-involved = Partopreni
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artefarita intelekto
-mycroft-description = Mycroft estas la unua malfermitkoda asistanto en la mondo.¶Mycroft funkcias ĉie: en komputilo, en aŭto aŭ en Raspberry Pi.
+mycroft-description = Mycroft estas la unua malfermitkoda asistanto en la mondo. Mycroft funkcias ĉie: en komputilo, en aŭto aŭ en Raspberry Pi.
 mycroft-secondary-description = Tiu ĉi estas malfermitkoda programo kiu povas estis libere rearanĝita, etendita kaj plibonigita. Mycroft povas esti uzata en io ajn, ĉu sciencia projekto ĉu entreprena sistemo.
 
 ## Glossary
@@ -573,8 +578,7 @@ subscribe = Aboni
 get-started-speech = Unua paŝoj en parolrekono
 other-datasets = Aliaj voĉaj datumaroj
 feedback-q = Ĉu vi ŝatus komenti?
-deepspeech-info = La datumaro de Common Voice iras kune kun la malfermitkoda parolrekonilo de Mozilla, Deep Speech, kiun vi povas uzi por konstrui parolkapablajn programojn. Vizitu nian <githubLink>superrigardon de Gihub</githubLink> aŭ aliĝu al <discourseLink>DeepSpeech Discourse</discourseLink> por scii kie kaj kiel komenci.
-common-voice-info-new = Ĉu vi havas demandojn rilate al Common Voice? Ĉu ideojn por plibonigoj aŭ komentoj pri specifa lingvo? Venu al nia <discourseLink>forumo de Discourse</discourseLink> kaj rakontu tion al ni.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ estas <docsLink>malfermitkoda ilaro</docsLink> por esploristoj kiuj disvolvas avangardajn konversacian AI-ajn modelojn.
 data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
 data-other-ted-name = Kolekto TED-LIUM
 data-other-ted-description = La kolekto TED-LIUM estis farita el prelegoj kaj ĝiaj transskriboj, disponeblaj en la retejo de TED.
@@ -853,6 +857,10 @@ why-delete-recordings =
     Ĉu vi povas diri al kial vi ŝatus forigi viajn voĉregistrojn?
 profile-form-delete = Forigi profilon
 
+## Profile Download
+
+download-size = Grando
+
 ## Landing
 
 welcome-staff = Estu bonvenaj, laboristoj de { $company }!
@@ -905,4 +913,61 @@ contribution-criteria-page-title = Kriterioj pri kontribuoj
 contribution-criteria-page-description = Lernu pri tio, kion vi devus serĉi kiam vi aŭdas voĉregistrojn kaj plibonigu viajn proprajn registraĵojn!
 contribution-for-example = ekzemple
 contribution-misreadings-title = Mislegoj
+contribution-misreadings-description-extended-list-1 = Mankas <strong>'A'</strong> aŭ <strong>'The'</strong> en la komenco de la registraĵo.
+contribution-varying-pronunciations-title = Malsamaj  prononcoj
+contribution-background-noise-description = Ni volas, ke la algoritmoj de maŝina lernado kapablu pritrakti diversajn fonajn bruojn, do eĉ sufiĉe laŭta bruo povas esti akceptita, nur se ĝi tute ne malebligas aŭdi la tutan tekston. Mallaŭta fona muziko estas en ordo, tamen muziko, pro kiu vi ne povas bone aŭdi ĉiun vorton, ne taŭgas.
+contribution-background-voices-title = Fonaj voĉoj
 contribution-volume-title = Laŭteco
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+

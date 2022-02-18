@@ -11,7 +11,7 @@
 
     .partner-description {
         display: flex;
-        padding: 8rem 0rem 5rem;
+        padding: 8rem 0 5rem;
 
         @media (--sm-down) {
             flex-direction: column;

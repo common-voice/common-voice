@@ -7,7 +7,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import { connect } from 'react-redux';
 import StateTree from '../../../stores/tree';
-import { ACCENTS, AGES } from '../../../stores/demographics';
+import { LEGACY_ACCENTS as ACCENTS, AGES } from '../../../stores/demographics';
 import {
   localeConnector,
   LocalePropsFromState,
@@ -35,8 +35,9 @@ import {
 import './dataset-info.css';
 import URLS from '../../../urls';
 import { byteToSize } from '../../../utility';
+import useSortedLocales from '../../../hooks/use-sorted-locales';
 
-export const CURRENT_RELEASE = 'cv-corpus-7.0-2021-07-21';
+export const CURRENT_RELEASE = 'cv-corpus-8.0-2022-01-19';
 const SEGMENT_RELEASE = 'cv-corpus-7.0-singleword';
 
 const DEFAULT_CATEGORY_COUNT = 2;
@@ -194,9 +195,13 @@ const DatasetCorpusDownload = ({
 
   const [locale, _] = useLocale();
   const [releaseStats, setReleaseStats] = React.useState(releases[releaseName]);
+  const [sortedLocales] = useSortedLocales(
+    Object.keys(releaseStats.locales),
+    getString
+  );
 
-  let bundleLocale = releaseStats.locales[locale] ? locale : 'en';
-  let localeStats = releaseStats.locales[bundleLocale];
+  const bundleLocale = releaseStats.locales[locale] ? locale : 'en';
+  const localeStats = releaseStats.locales[bundleLocale];
 
   const [bundleState, setBundleState] = React.useState(
     generateBundleState(bundleLocale, CURRENT_RELEASE, localeStats)
@@ -257,13 +262,11 @@ const DatasetCorpusDownload = ({
           name="bundleLocale"
           value={bundleState.bundleLocale}
           onChange={handleLangChange}>
-          {Object.keys(releaseStats.locales)
-            .sort()
-            .map(locale => (
-              <Localized key={locale} id={locale}>
-                <option value={locale} />
-              </Localized>
-            ))}
+          {sortedLocales.map(locale => (
+            <Localized key={locale} id={locale}>
+              <option value={locale} />
+            </Localized>
+          ))}
         </LabeledSelect>
 
         <ul className="facts">{renderStats(releaseStats, bundleState)}</ul>
@@ -346,7 +349,7 @@ const DownloadEmailPrompt = ({
     setFormState(prev => ({ ...prev, hideEmailForm: false }));
 
   const handleInputChange = async ({ target }: any) => {
-    let newState = {
+    const newState = {
       ...formState,
       [target.name]: target.type !== 'checkbox' ? target.value : target.checked,
     };

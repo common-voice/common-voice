@@ -5,10 +5,10 @@ stayintouch = 我们在 Mozilla 正围绕语音技术建立一个社区。 我�
 privacy-info = 我们承诺谨慎处理您的信息。阅读我们的<privacyLink>隐私声明</privacyLink>详细了解。
 return-to-cv = 返回 Common Voice
 email-input =
-    .label = 电子邮箱
+    .label = 邮箱
 submit-form-action = 提交
 loading = 加载中…
-email-opt-in-info = 我希望收到诸如目标提醒、我的进度更新与 Common Voice 的相关新闻通讯。
+email-opt-in-info = 我希望收到诸如目标提醒、我的进度更新等与 Common Voice 相关的新闻通讯。
 email-opt-in-info-title = 加入 Common Voice 邮件列表
 email-opt-in-info-sub-with-challenge = 接收诸如挑战、目标提醒、进度更新与 Common Voice 的相关新闻通讯。
 email-opt-in-privacy-v2 = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
@@ -36,9 +36,9 @@ ba = 巴什基尔语
 bas = 巴萨语
 be = 白俄罗斯语
 bg = 保加利亚语
-bm = 班巴拉语
 bn = 孟加拉语
 br = 布列塔尼语
+bs = 波斯尼亚语
 bxr = 布里亚特语
 ca = 加泰罗尼亚语
 cak = 喀克其奎语
@@ -67,6 +67,7 @@ fy-NL = 弗里西语
 ga-IE = 爱尔兰语
 gl = 加利西亚语
 gn = 瓜拉尼语
+gom = 孔卡尼语（果阿）
 ha = 豪萨语
 he = 希伯莱语
 hi = 印地语
@@ -90,11 +91,14 @@ kab = 卡拜尔语
 kbd = 卡巴尔达语
 ki = 基库尤语
 kk = 哈萨克语
+km = 高棉语
 kmr = 库尔曼吉库尔德语
+knn = 孔卡尼语（天城文）
 ko = 韩语
 kpv = 科米-齐良语
 kw = 康沃尔语
 ky = 吉尔吉斯语
+lb = 卢森堡语
 lg = 卢干达语
 lij = 利古里亚语
 lt = 立陶宛语
@@ -106,6 +110,7 @@ mhr = 草原马里语
 mk = 马其顿语
 ml = 马拉雅拉姆语
 mn = 蒙古语
+mni = 曼尼普尔语
 mos = 莫西语
 mr = 马拉地语
 mrj = 山地马里语
@@ -127,6 +132,8 @@ pap-AW = 帕皮亚门托语（阿鲁巴）
 pl = 波兰语
 ps = 普什图语
 pt = 葡萄牙语
+quc = 基切语
+quy = 克丘亚语（昌卡）
 rm-sursilv = 罗曼什语（苏斯勒万）
 rm-vallader = 罗曼什瓦勒德语
 ro = 罗马尼亚语
@@ -139,6 +146,7 @@ scn = 西西里语
 shi = 希尔哈语
 si = 僧伽罗语
 sk = 斯洛伐克语
+skr = 西莱基语
 sl = 斯洛文尼亚语
 so = 索马里语
 sq = 阿尔巴尼亚语
@@ -150,7 +158,11 @@ ta = 泰米尔语
 te = 泰卢固语
 tg = 塔吉克语
 th = 泰语
+ti = 提格里尼亚语
+tig = 提格雷语
+tk = 土库曼语
 tl = 塔加洛语
+tok = 道本语
 tr = 土耳其语
 tt = 鞑靼语
 tw = 契维语
@@ -202,11 +214,11 @@ default-tagline = Mozilla Common Voice 项目，旨在帮助教会机器真人�
 home-cta = 有话在此大声说！
 wall-of-text-start = 语音是自然的、有人性的。这也是为什么我们希望为机器建立可用的语音技术。但要创造一个语音系统，需要大量的语音数据。
 wall-of-text-more-mobile = 大部分由行业巨头持有的数据，并未开放给公众使用。我们认为这会扼杀创新，因而推出了 Common Voice 项目，让语音识别技术的大门对每个人开放。
-wall-of-text-more-desktop = 现在，您可以捐出一段声音，帮助我们建立一个开源的语音数据库，任何人都可以使用它来为设备和网络制作创新的应用程序。<lineBreak></lineBreak> 只要朗读一段文字，即可帮助机器了解人们如何说话。您也可以复查其他贡献者的工作以提高质量。就这么简单!
+wall-of-text-more-desktop = 现在，您可以捐出一段声音，帮助我们建立一个开源的语音数据库，任何人都可以使用它来为设备和网络制作创新的应用程序。<lineBreak></lineBreak> 只要朗读一段文字，即可帮助机器了解人们如何说话。您也可以审核其他贡献者的工作以提高质量。就这么简单!
 wall-of-text-first = 语音是自然的、有人性的。这也是为什么我们希望为机器建立可用的语音技术。但要创造一个语音系统，开发者需要大量的语音数据。
 wall-of-text-second = 大部分由行业巨头持有的数据，并未开放给公众使用。我们认为这会扼杀创新，因而推出了 Common Voice 项目，让语音识别技术的大门对每个人开放而无障碍。
 show-wall-of-text = 详细了解
-help-us-title = 帮助我们验证语句！
+help-us-title = 帮助我们验证句子！
 help-us-explain = 请点击播放，听一听，然后告诉我们：他们正确说出了下面的句子吗？
 no-clips-to-validate = 看来这个语言没有任何片段可听。请帮助我们录下一些片段。
 vote-yes = 是
@@ -240,8 +252,8 @@ x-years-short =
        *[other] { $count } 年
     }
 help-make-dataset = 帮助我们构建高质量、可公开使用的数据集
-sign-up-account = 注册账号
-email-subscription-title = 订阅邮件更新
+sign-up-account = 注册账户
+email-subscription-title = 订阅更新邮件
 email-subscription-title-new = 订阅 Common Voice 新闻通讯、目标提醒和进度更新
 
 ## Account Benefits
@@ -318,8 +330,13 @@ profile-form-native-language =
     .label = 母语
 profile-form-additional-language =
     .label = 附加语言
+profile-form-language =
+    .label = 语言
 profile-form-accent =
     .label = 口音
+profile-form-custom-accent-help-text =
+    .label = 您会如何描述您的口音？
+profile-form-custom-accent-placeholder-2 = 打字输入，描述您的口音
 profile-form-age =
     .label = 年龄
 profile-form-gender-2 =
@@ -330,6 +347,7 @@ hidden = 隐藏
 visible = 可见
 native-language =
     .label = 母语
+profile-form-add-accent = 添加新的自定义口音“{ $inputValue }”
 profile-form-submit-save = 保存
 profile-form-submit-saved = 已保存
 male = 男
@@ -363,6 +381,8 @@ skip-submission-description = 贡献期间，点击“提交”将跳过反馈�
 skip-submission-note = 注：您仍需选择“听”或“说”来切换贡献类型。
 off = 关
 on = 开
+help-accent = 需要口音方面的帮助？
+help-accent-explanation = 口音就是您发音的方式，通常受到您生活过的地方、会说的语言等诸多因素影响。您可以在此分享任何您认为有关的信息。
 
 ## Profile - Email
 
@@ -445,15 +465,13 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 为什么会有 Common Voice？
-about-subtitle = Common Voice 项目是 Mozilla 发起的倡议，旨在帮助教会机器真人的说话方式。除 Common Voice 数据集外，我们还在构建一个名为 Deep Speech 的开源语音识别引擎。
-about-header-description =
-    这两个项目都是我们努力弭平数字语音鸿沟的一部分。语音识别技术为我们的设备带来人性的维度，但开发者需要巨量的语音数据来构建它们。目前大部分语音数据都相当昂贵且为巨头专有。
-    我们希望能够自由公开地提供语音数据，并确保数据反映出人们实际的多样性。让我们一起为所有人把语音识别技术发展得更好吧！
-about-header-description-2 =
-    此项目是我们努力弭平数字语音鸿沟所做的努力。语音识别技术为我们的设备带来人性的维度，但开发者需要巨量的语音数据来构建它们。目前大部分语音数据都相当昂贵且为巨头专有。
-    我们希望自由公开地提供语音数据，并确保数据反映出人们实际的多样性。让我们一起为所有人把语音识别技术发展得更好吧！
-how-does-it-work-title = 原理是什么？
 how-does-it-work-text = 我们集众人之力，构建开源的语音数据集。欢迎捐出一段声音，或者帮助验证录音片段是否正确，让数据集能够变得更好。
+
+## How does it work section
+
+about-language-req-subtitle = 有人申请添加一门语言。
+about-localization-title = 网站本地化
+about-dataset-release-subtitle = 我们每 3 个月发布一次数据集。
 about-speak = 说话
 about-speak-text = 贡献者通过朗读一系列由他人捐赠的语句，将语音片段录制下来。
 about-listen-queue = 聆听队列
@@ -482,10 +500,50 @@ about-get-involved-text-2 =
     太好了！请发送电子邮件与我们联系，也可以到 <discourseLink>Discourse</discourseLink> 论坛留言、
     通过 <githubLink>GitHub</githubLink> 反馈网站问题、
     也可以加入我们的 <matrixLink>Matrix</matrixLink> 社区群组。
+about-stay-in-touch = 如何获取最新信息？
 about-nav-why-common-voice = 为什么？
 about-nav-how-it-works = 怎么做？
 about-nav-partners = 合作伙伴
 about-nav-get-involved = 参与进来
+about-nav-playbook = 了解如何参与
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+about-playbook-how-add-language = 如何添加语言？
+
+## How does localization work
+
+about-playbook-how-localize-content-1 = Common Voice 网站的翻译工作在 <strong>Pontoon</strong> 上进行。
+about-playbook-how-localize-content-4 = 网站本地化完成度达 75% 后即可上线。
+
+## How to add sentences
+
+
+## How to record quality
+
+about-playbook-how-record-quality = 如何录制高质量的语音片段？
+about-playbook-how-record-content-3 = 准确读出句子内容，不要漏词、改词或添词。
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = 活动
+about-playbook-how-grow-language-content-4 = 社交媒体
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance-content-3 = 隐私、安全和透明度。
+about-playbook-how-project-governance-content-4 = 社区参与决策。
+about-playbook-how-project-governance-content-6 = 相互问责。
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智能
 mycroft-description = Mycroft 是全球第一个开源语音助手，不论是在桌面电脑、汽车、树莓派（Raspberry Pi）或是任何地方都能运行。
@@ -538,9 +596,9 @@ review-terms = 使用 Common Voice 即代表您同意我们的<termsLink>条款<
 terms-agree = 我同意
 terms-disagree = 我不同意
 review-aborted = 上传中止。您要删除您的录音吗？
-review-submit-title = 复查并提交
-review-submit-msg = 感谢您的录制！<lineBreak></lineBreak>现在您可以复查并提交下面的片段。
-review-recording = 复查
+review-submit-title = 确认并提交
+review-submit-msg = 感谢您的录制！<lineBreak></lineBreak>现在您可以确认并提交下面的片段。
+review-recording = 确认
 review-rerecord = 重新录音
 review-cancel = 取消提交
 review-keep-recordings = 保留录音
@@ -597,7 +655,7 @@ your-feedback = 您有任何可以让 Common Voice 数据集变得更好的想�
 go-discourse = 前往 Discourse
 missing-language = 未在数据集中看到您的语言？请到语言页请求加入新语言。
 go-languages-page = 前往语言页
-ready-to-validate = 准备好帮助验证语句了吗？
+ready-to-validate = 准备好帮忙验证句子了吗？
 more = 更多
 close = 关闭
 download = 下载
@@ -637,7 +695,7 @@ other-language = 其他语言
 language-section-in-progress = 准备中
 language-section-in-progress-new-description = 这些语言当前处于社区发展中。其中的进度条反映了<localizationGlossaryLink>网站的本地化</localizationGlossaryLink>翻译进度，以及<sentenceCollectionGlossaryLink>语句</sentenceCollectionGlossaryLink>收集进度。
 language-section-launched = 已上线
-language-section-launched-description = 推出的语言代表网站已成功<localizationGlossaryLink>本地化</localizationGlossaryLink>，也收集了足够的<sentenceCollectionGlossaryLink>语句</sentenceCollectionGlossaryLink>，足以支持<speakLink>说话</speakLink>及<listenLink>聆听</listenLink>的贡献。
+language-section-launched-description = 推出的语言代表网站已成功<localizationGlossaryLink>本地化</localizationGlossaryLink>，也收集了足够多<sentenceCollectionGlossaryLink>句子</sentenceCollectionGlossaryLink>，足以支持<speakLink>说话</speakLink>及<listenLink>聆听</listenLink>的贡献。
 languages-show-more = 显示更多
 languages-show-less = 显示更少
 language-meter-in-progress = 进度
@@ -713,13 +771,13 @@ target-segment-learn-more = 详细了解
 
 report = 反馈
 report-title = 提交反馈
-report-ask = 该语句存在什么问题？
+report-ask = 这句话存在什么问题？
 report-offensive-language = 冒犯性的语言
 report-offensive-language-detail = 这句话有不尊重或冒犯性的语言。
 report-grammar-or-spelling = 语法 / 拼写错误
 report-grammar-or-spelling-detail = 这句话的语法或拼写有误。
 report-different-language = 其他语言
-report-different-language-detail = 这句话是其他语言的语句。
+report-different-language-detail = 这句话是其他语言的句子。
 report-difficult-pronounce = 难以发音
 report-difficult-pronounce-detail = 其中包含难以阅读或发音的单词或短语。
 report-offensive-speech = 冒犯性的录音片段
@@ -916,7 +974,7 @@ demo-account-sign-up = 发送注册链接
 ## Demo Contribute
 
 demo-contribute-card-header = 准备好录入您的声音或伸出耳朵倾听了吗？
-demo-contribute-card-body-v2 = 现在您对 Common Voice 有了更多的了解，为什么不来试一试呢？点击麦克风图标，开始大声朗读句子。<br/><br/>若您想复查其他人的语音贡献，请点击播放图标，以确认录音是否与屏幕上的语句相符。
+demo-contribute-card-body-v2 = 现在您对 Common Voice 有了更多的了解，为什么不来试一试呢？点击麦克风图标，开始大声朗读句子。<br/><br/>若您想审核其他人的语音贡献，请点击播放图标，以确认录音是否与屏幕上的语句相符。
 demo-listen-subtitle = 准备好作出贡献了吗？
 
 ## Demo Dashboard
@@ -979,3 +1037,317 @@ contribution-just-unsure-title = 仍有不解之处？
 contribution-just-unsure-description = 如果遇到了这些准则没有涵盖的内容，请根据您的最佳判断来投票。如果真的无法决定，请使用跳过按钮，继续下一个录音。
 see-more = <chevron></chevron>看更多
 see-less = <chevron></chevron>看更少
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = 主页
+sc-header-how-to = 如何做
+sc-header-add = 添加
+sc-header-review = 审核
+sc-header-rejected = 驳回的句子
+sc-header-my = 我的句子
+sc-header-statistics = 统计数据
+sc-header-profile = 个人资料
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = 报告缺陷（Bug）
+sc-footer-translate = 翻译此页面
+sc-footer-report-copyright = 报告版权问题
+sc-footer-privacy = 隐私
+sc-footer-terms = 使用条款
+sc-footer-cookies = Cookie
+sc-login-signup-button = 登录 / 注册
+sc-logout-button = 退出
+
+## HOME
+
+sc-home-title = 欢迎使用 Common Voice 语句收集工具
+sc-home-intro = 语句收集工具（Sentence Collector）是 <commonVoiceLink>Common Voice</commonVoiceLink> 项目的一部分。此工具让项目贡献者能够收集验证由社区成员提供的句子。您也可以使用此工具来导入、清理网上找到或收集的中小型公有领域语料库。所有句子都必须为公有领域内容，每周会将通过审核的句子导入到 Common Voice 的 repository，并在网站每次新部署时发布。
+sc-home-collect-title = 收集句子
+sc-home-collect-text = 帮助我们撰写或收集公有领域的句子。
+sc-home-review-title = 审核句子
+sc-home-review-text = 请按下列标准帮助我们审核句子是否正确。
+
+## GENERAL
+
+
+## HOW-TO
+
+sc-howto-title = 如何做
+sc-howto-addlang-title = 添加要贡献的语言
+sc-howto-addlang-text = 登录后，就可以在个人资料页选择您要贡献哪些语言的句子。
+sc-howto-addsen-title = 添加新句子
+sc-howto-addsen-item-1 = 您提交的所有句子皆须符合<wikipediaLink>公有领域（CC-0）许可协议</wikipediaLink>。为了让未使用公有协议的著作也可加入，我们为愿意将著作贡献给 Common Voice 的版权人准备了一份<cc0WaiverLink>贡献协议模板</cc0WaiverLink>。
+sc-howto-addsen-item-2 = 关于数字的问题：源文本中不应包含数字，因为朗读数字时可能会遇到问题，因为数字的读法取决于上下文，可能会在数据集中造成混乱。例如，“2409”可以读作“二四零九”，也可以读作“两千四百零九”。
+sc-howto-addsen-item-3 = 缩写和首字母缩略词。原始文本中应避免使用“USA”或“ICE”等缩写和首字母缩略词，因为它们的阅读方式可能与其拼写不一致。此外，一个缩写可能有多个正确读法。例如，首字母缩略词“ICE”可以读作“I-C-E”，也可读作一个单词。
+sc-howto-addsen-item-4 = 符号问题：源文本中尽量不要包含特殊符号和标点符号，除非确实有需要。例如，英文单词“don’t”和“we’re”中的撇号应予保留，但“@”和“#”之类的特殊符号一般不需要包含在源文本中。
+sc-howto-addsen-item-5 = 外国字母。字母或文字须符合各语言用法。例如，“ж”是俄语字母，但英文或中文不会用到，因此不应出现在原始文本中。
+sc-howto-addsen-item-6 = 各语言可能会有<validationRulesLink>自己的验证规则</validationRulesLink>及其他要求。若一语言没有特定的验证文件，我们将使用英语通用规则。
+sc-howto-addsen-post-1 = 我们更喜欢自然/对话式的句子。虽然语音多样性和句子中的不同词汇很重要，但我们努力让记录句子的过程尽可能的有趣。因此，如果您能尽量保持句子自然/吸引人，那就再好不过了。
+sc-howto-cite-title = 如何引用
+sc-howto-cite-pre-1 = 重要提醒：注明您找到的句子的来源出处可避免发生剽窃事件，也方便我们跟进处理<copyrightIssuesLink>版权问题</copyrightIssuesLink>。以下是几种引用作品的方式。
+sc-howto-cite-item-1 = 您可以包含网站，例如“Common Voice - https://commonvoice.mozilla.org/”
+sc-howto-cite-item-2 = 您也可以使用学术参考文献格式，例如哈佛格式：Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)
+sc-howto-cite-item-3 = 对于没有在线版本的公有领域文本，可以使用学术参考文献格式，例如哈佛格式“Jess (2021) My Public licence poems”
+sc-howto-review-title = 审核句子
+sc-howto-review-subtitle = 请确保句子符合以下标准：
+sc-howto-review-criteria-1 = 句子必须拼写正确。
+sc-howto-review-criteria-2 = 句子必须语法正确。
+sc-howto-review-criteria-3 = 句子必须说得出来。
+sc-howto-review-criteria-4 = 若句子符合上述标准，请点击“通过”按钮。
+sc-howto-review-criteria-5 = 若句子未达到上述条件，请点击“驳回”按钮。若您不确定句子是否可用，也可以略过，跳到下一句。
+sc-howto-review-criteria-6 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
+sc-howto-findpd-title = 在公有领域查找现有的句子
+sc-howto-findpd-subtitle = 在网上搜搜看
+sc-howto-findpd-text-2 = 请记住我们必须获得授权，才可发布这些句子。所以请始终确保提交的文本属于<wikipediaLink>公有领域</wikipediaLink>。若没有明确的标示，请联系文本的所有者，询问他们是否同意将文本以公有领域许可协议进行贡献。若同意，请协助他们完成<cc0WaiverLink>贡献协议</cc0WaiverLink>流程。若不同意，您就不能就使用这些文本。
+sc-howto-findpd-tips = 以下是收集句子的一些技巧：
+sc-howto-findpd-tips-1 = 您可以从博客，视频档案，电影剧本等含有日常对话的内容中获得最佳的句子资源。
+sc-howto-findpd-tips-2 = 政府资料、书籍和文章也是不错的资源，不过由于该类文本相对来讲更加正式，并不是最佳选择。
+sc-howto-findpd-tips-3 = 很遗憾，我们尚无权使用维基媒体基金会的文章，所以请勿从那里复制粘贴。
+sc-howto-findpd-subtitle-2 = 与当地组织或个人合作
+sc-howto-findpd-partner-1 = 许多公共组织有大量可以捐赠的公有领域文本，可以试着和它们合作。联系当地大学、政府机关和开源组织，讨论该项目并寻求他们的帮助。
+sc-howto-findpd-partner-2 = 如果您是专业的语言工作者，请尝试联系当地语言大学的教师和学生，了解他们是否可以协助收集该语言不同发音的形式
+
+## MY SENTENCES
+
+sc-my-title = 我的句子
+sc-my-description = 您可以在此页面概览所有已提交的句子。 有需要的话，也可以在此勾选句子，并点击底部的“删除选中的句子”进行删除。 请只在确有必要时（例如提交后才发现句子受版权保护）删除该句子。
+sc-my-loading = 正在加载您的句子...
+sc-my-err-fetching = 获取您的句子失败，请重试。
+sc-my-no-sentences = 找不到句子！
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = 提交于：{ $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = 来源：{ $source }
+sc-my-delete = 删除选中的句子
+sc-my-deleting = 正在删除选中的句子…
+sc-my-err-failed-delete = 所选句子删除失败…请重试！
+
+## REJECTED
+
+sc-rejected-title = 驳回的句子
+sc-rejected-loading = 正在加载驳回的句子…
+sc-rejected-err-fetching = 获取驳回的句子失败，请重试。
+sc-rejected-none-found = 找不到驳回的句子！
+
+## STATS
+
+sc-stats-title = 统计数据
+sc-stats-updating = 正在更新…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice 语句收集工具已收集了 { $languageCount } 种语言的 { $sentenceCount } 个句子！
+
+## ADD
+
+sc-submit-err-select-lang = 请选择语言。
+sc-submit-err-add-sentences = 请添加句子。
+sc-submit-err-add-source = 请添加来源。
+sc-submit-err-confirm-pd = 请确认这些句子来自于公有领域。
+sc-submit-prompt =
+    .message = 句子尚未提交，您确定要离开吗？
+sc-submit-title = 添加句子
+sc-submit-select-language =
+    .labelText = 选择语言
+sc-submit-add-sentences = 添加<wikipediaLink>公有领域（Public Domain）</wikipediaLink>的句子
+sc-submit-ph-one-per-line =
+    .placeholder = 每行一句
+sc-submit-from-where = 这些<wikipediaLink>公有领域（Public Domain）</wikipediaLink>的句子来自何处？
+sc-submit-ph-read-how-to =
+    .placeholder = 如果您不确定该如何贡献，请阅读我们的"How-to" 方法
+sc-submit-confirm = 我确认这些句子都是以 <wikipediaLink>公有领域条款</wikipediaLink>授权公开，并且我有权上传。
+sc-submit-button =
+    .submitText = 提交
+sc-submit-filtered = 由于不符合标准，被过滤的句子（请将更改后的版本以新句子重新送出）：
+sc-submit-guidelines = 请参考<howToLink>审核指南</howToLink>。
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = 无法添加语言
+sc-add-lang-sec-label = 添加您想要贡献的语言
+sc-add-lang-sec-button = 添加语言
+sc-add-err-unexpected = 返回意外的服务器响应
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] 已提交句子，没有被驳回的重复句子。
+       *[other] 已提交句子，有 { $duplicates } 句重复句子被驳回。
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] 没有失败的句子
+       *[other] { $sentences } 句提交失败
+    }
+sc-add-err-submission = 提交失败
+sc-add-lang-process-notice = 若此处未列出您的语言，您可以通过<languageProcessLink>此程序</languageProcessLink>申请添加。
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = 句子尚未提交，您确定要离开吗？
+sc-confirm-sentences-title = 确认新句子
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] 找不到句子。
+       *[other] 找到 { $countOfSentences } 句。
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = 您驳回了 { $countOfInvalidated } 句。
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] 未审核任何句子。
+       *[other] 您审核了 { $countOfReviewed } 句，干得漂亮！
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] 没有句子可以提交！
+       *[other] 已有 { $readyCount } 句准备好可以提交！
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = 还有 { $countOfUnreviewed } 句未审核。您也可以在提交前先审核您的句子。
+sc-confirm-button-text = 确认
+sc-confirm-uploading = 正在上传句子。根据句子数量而定可能需要几分钟。上传完成前请不要关闭本网站。
+
+## LANGUAGE INFO
+
+sc-lang-info-title-total = 总计
+sc-lang-info-title-personal = 个人
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] 没有句子。
+       *[other] 共 { $totalSentences } 句。
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] 没有审核中的句子。
+       *[other] { $totalInReview } 句审核中的句子。
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] 没有可供您审核的句子。
+       *[other] 剩余 { $unreviewedSentencesByYou } 句可供您审核的句子。
+    }
+sc-lang-info-review-now = <reviewLink>现在就审核！</reviewLink>
+sc-lang-info-add-more = <addLink>现在就添加更多句子</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] 没有验证过的句子。
+       *[other] { $validatedSentences } 句验证过的句子。
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] 没有被驳回的句子。
+       *[other] { $rejectedSentences } 句被驳回的句子。
+    }
+
+## LOGIN
+
+sc-login-err-failed = 登录失败
+sc-login-err-try-again = 请重试。
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = 个人资料：{ $username }
+sc-personal-err-lang-not-found = 无法移除语言：找不到语言
+sc-personal-err-remove = 无法移除语言
+sc-personal-your-languages = 您的语言：
+sc-personal-remove-button = 移除
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = 您添加了 { $sentences } 句
+sc-personal-not-added = 您尚未添加任何语言。
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ 审核标准
+sc-criteria-title = 审核标准
+sc-criteria-make-sure = 请确保句子符合以下标准：
+sc-criteria-item-1 = 句子必须拼写正确。
+sc-criteria-item-2 = 句子必须语法正确。
+sc-criteria-item-3 = 句子必须说得出来。
+sc-criteria-item-4 = 若句子符合上述标准，请点击右方的“通过”按钮。
+sc-criteria-item-5-2 = 若句子未达到上述条件，请点击“驳回”按钮。若您不确定句子是否可用，也可以略过，跳到下一句。
+sc-criteria-item-6 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
+
+## REVIEW
+
+sc-review-lang-not-selected = 您尚未选择任何语言，请到<profileLink>个人资料页</profileLink>选择要贡献的语言。
+sc-review-title = 审核句子
+sc-review-loading = 正在加载句子...
+sc-review-select-language = 请选择审核句子的语言。
+sc-review-no-sentences = 沒有需要审核的句子。<addLink>现在添加新句子！</addLink>
+sc-review-form-prompt =
+    .message = 尚未提交句子审核结果，确定吗？
+sc-review-form-usage = 向右滑通过句子、向左滑驳回、向上滑跳过。<strong>别忘记提交您的审核结果！</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = 来源：{ $sentenceSource }
+sc-review-form-button-reject = 驳回
+sc-review-form-button-skip = 跳过
+sc-review-form-button-approve = 通过
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = 您可以使用键盘快捷键：{ sc-review-form-button-approve-shortcut } 键 - 通过，{ sc-review-form-button-reject-shortcut } 键 - 驳回，{ sc-review-form-button-skip-shortcut } 键 - 跳过
+sc-review-form-button-submit =
+    .submitText = 完成审核
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] 未审核句子。
+       *[other] 已审核 { $sentences } 句，感谢您！
+    }
+sc-review-form-review-failure = 无法保存审核结果，请稍候重试。
+sc-review-link = 审核
+
+## SETTINGS
+
+sc-settings-title = 设置
+sc-settings-ui-language = 界面语言
+sc-settings-language-translated-warning = 此语言的页面似乎尚未完成翻译。欢迎到 <pontoonLinkLink>Pontoon</pontoonLinkLink> 协助我们补充翻译。
+sc-settings-reset-skipped = 重置跳过的句子
+sc-settings-skipped-decription = 您在之前的审核过程中有跳过句子。重置跳过的句子将显示您在所有语言跳过的句子。
+sc-settings-show-all-button = 再次显示跳过的句子
+sc-settings-failed = 无法更改设置，请重试。
+# VALIDATION
+sc-validation-number-of-words = 句子须包含 1 到 14 个字
+sc-validation-no-numbers = 句子不应包含数字
+sc-validation-no-symbols = 句子不应包含标点符号
+sc-validation-no-abbreviations = 句子不应包含缩写
+
+# [/SentenceCollector]
+
+localization-select =
+    .label = 选择语言 / 语系

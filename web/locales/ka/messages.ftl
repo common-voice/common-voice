@@ -36,9 +36,9 @@ ba = ბაშკირული
 bas = ბასა
 be = ბელარუსული
 bg = ბულგარული
-bm = ბამბარა
 bn = ბენგალური
 br = ბრეტონური
+bs = ბოსნიური
 bxr = ბურიატული
 ca = კატალანური
 cak = კაკჩიკელი
@@ -67,6 +67,7 @@ fy-NL = ფრიზული
 ga-IE = ირლანდიური
 gl = გალიციური
 gn = გუარანი
+gom = გოას კონკანი
 ha = ჰაუსა
 he = ებრაული
 hi = ჰინდი
@@ -79,6 +80,7 @@ hyw = დასავლეთ სომხური
 ia = ინტერლინგვა
 id = ინდონეზიური
 ie = ინტერლინგვა
+ig = იგბო
 is = ისლანდიური
 it = იტალიური
 izh = იჟორული
@@ -89,7 +91,9 @@ kab = კაბილური
 kbd = ყაბარდოული
 ki = კიკუიუ
 kk = ყაზახური
+km = ქმერული
 kmr = კურმანჯი
+knn = კონკანი (დევანაგარი)
 ko = კორეული
 kpv = კომი
 kw = კორნული
@@ -105,6 +109,7 @@ mhr = აღმოსავლეთ დაბლობის მარიულ
 mk = მაკედონური
 ml = მალაიალამური
 mn = მონღოლური
+mni = მეიტეილონი
 mos = მოსი
 mr = მარათული
 mrj = მთის მარიული
@@ -126,6 +131,8 @@ pap-AW = პაპიამენტო (არუბა)
 pl = პოლონური
 ps = პუშტუ
 pt = პორტუგალიური
+quc = კიჩე
+quy = კეჩუა ჩანკა
 rm-sursilv = რეტორომანული სურსილვანი
 rm-vallader = რეტორომანული ვალადერი
 ro = რუმინული
@@ -149,10 +156,14 @@ ta = ტამილური
 te = ტელუგუ
 tg = ტაჯიკური
 th = ტაილანდური
+ti = ტიგრინია
+tig = ტიგრინია
+tk = თურქმენული
 tl = ტაგალური
 tr = თურქული
 tt = თათრული
 tw = ჩვი
+ty = ტაიტური
 uby = უბიხური
 udm = უდმურტული
 ug = უიღურული
@@ -162,6 +173,7 @@ uz = უზბეკური
 vec = ვენეციური
 vi = ვიეტნამური
 vot = ვოტიკური
+yi = იდიში
 yo = იორუბა
 yue = კანტონური
 zh-CN = ჩინური (ჩინეთი)
@@ -321,8 +333,13 @@ profile-form-native-language =
     .label = მშობლიური ენა
 profile-form-additional-language =
     .label = დამატებითი ენა
+profile-form-language =
+    .label = ენა
 profile-form-accent =
     .label = აქცენტი
+profile-form-custom-accent-help-text =
+    .label = როგორ დაახასიათებდით თქვენი ლაპარაკის კილოს?
+profile-form-custom-accent-placeholder-2 = აკრეფა კილოს აღსაწერად
 profile-form-age =
     .label = ასაკი
 profile-form-gender-2 =
@@ -333,6 +350,7 @@ hidden = დამალული
 visible = ხილული
 native-language =
     .label = მშობლიური ენა
+profile-form-add-accent = დაამატეთ საკუთარი კილო „{ $inputValue }“
 profile-form-submit-save = შენახვა
 profile-form-submit-saved = შენახულია
 male = მამრობითი
@@ -366,6 +384,8 @@ skip-submission-description = წვლილის შეტანისას 
 skip-submission-note = შენიშვნა: ჩაწერა ან მოსმენა მაინც უნდა აირჩიოთ, შესატანი წვლილის სახეობის შესაცვლელად.
 off = გამორთ.
 on = ჩართ.
+help-accent = გესაჭიროებათ დახმარება კილოებთან დაკავშირებით?
+help-accent-explanation = კილო ეწოდება სიტყვების წარმოთქმის თავისებურებას. შეიძლება ჩამოყალიბდეს საცხოვრებელი ადგილის, რამდენიმე ენაზე საუბრისა და ბევრი სხვა მიზეზის გამო. აქ შეგიძლიათ გააზიაროთ ნებისმიერი სახის მონაცემი, რომელიც საჭიროდ მიგაჩნიათ.
 
 ## Profile - Email
 
@@ -408,7 +428,7 @@ faq-when-release2-q = როდის გამოუშვებთ Common Voic
 faq-when-release2-a = მრავალენოვანი ვერსია Common Voice-ის მონაცემთა კრებულის ამჟამად მუშავდება და იხვეწება ერთობის მხარდაჭერით. თუ გსურთ დაგვეხმაროთ Common Voice-ში სხვადასხვა ენების შემოსატანად, იხილეთ ჩვენი <sentenceCollectorLink>წინადადებების შესაგროვებელი ხელსაწყო</sentenceCollectorLink> ახალი წინადადებების კრებულში დასამატებლად და აგრეთვე Mozilla <pontoonLink>Pontoon</pontoonLink> თავად საიტის გადასათარგმნად. ახალი ენები Common Voice-ში ხმის ჩანაწერების გასაკეთებლად დაემატება მას შემდეგ, როცა 5000 დამოწმებული წინადადება შეგროვდება.
 faq-why-mission-q = Common Voice რატომაა Mozilla-ის მიზნის ნაწილი?
 faq-why-mission-a = Mozilla ერთგულია ინტერნეტის გახსნილობისა და საყოველთაო ხელმისაწვდომობის. ამისთვის, საჭიროა ვებშემმუშავებელთა მხარდაჭერა ისეთი პროექტებით, როგორიცაა Common Voice. ხმოვანი ტექნოლოგიების გავრცელებისა და ზრდის კვალდაკვალ, მიგვაჩნია რომ ისინი ყველა მომხმარებლისთვის თანაბრად უნდა იყოს ხელმისაწვდომი. რაც გულისხმობს, უფრო მეტი ენისა და აქცენტისთვის ნიმუშების მოგროვებას, ხმოვანი ხელსაწყოების ასაწყობად და გამოსაცდელად. Common Voice არის საყოველთაოდ ხელმისაწვდომი საშუალება და Mozilla-ს შემმუშავებელთა ერთობა მთელი მსოფლიოდან, უკვე იყენებს მას ჩვენს პროექტებშიც.
-faq-what-cv-and-deepspeech-q = რითი განსხვავდება Common Voice და Deep Speech ერთმანეთისგან?
+faq-what-cv-and-deepspeech-q = რით განსხვავდება Common Voice და Deep Speech ერთმანეთისგან?
 faq-what-cv-and-deepspeech-a = Common Voice მონაცემთა კრებული ჩაერთვება Mozilla-ს ღია წყაროს მქონე, ხმის ამომცნობ ძრავაში Deep Speech. პირველი ვერსია Deep Speech-ის გამოვიდა 2017 წლის ნოემბერში და მისი განვითარება დღემდე მიმდინარეობს. Common Voice-ის კრებულის საშუალებით, გვჯერა რომ ხმის ამოცნობის ტექნოლოგიები ხელმისაწვდომი გახდება ყველასთვის. ჩვენ ვიმედოვნებთ, რომ ეს უბიძგებს შემმუშავებლებს დანერგონ სიახლეები და შექმნან ახლებური სახის პროდუქტები და მომსახურებები.
 faq-is-goal-assistant-q = Common Voice-ის მიზანი ხმოვანი თანაშემწის შექმნაა?
 faq-is-goal-assistant-a = Common Voice-ის მიზანია, საშუალება მისცეს ყველას მთელ მსოფლიოში, შექმნან ხმის ამომცნობი, მოსაუბრის ამომცნობი ან ნებისმიერი სხვა სახის ხელსაწყოები, რომლებიც საჭიროებს ხმოვან მონაცემებს. ხმოვანი თანაშემწე უბრალოდ ერთ-ერთია იმ მრავალთაგან, რომელთა შემუშავებისთვისაც გამოსადეგია ეს კრებული.
@@ -451,15 +471,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = რატომ Common Voice?
-about-subtitle = Common Voice პროექტი არის Mozilla-ს წამოწყების ნაწილი, რომ შევასწავლოთ მანქანებს, თუ როგორ საუბრობენ ნამდვილი ადამიანები. გარდა Common Voice-ის მონაცემთა კრებულისა, ჩვენ ასევე ვმუშაობთ ღია წყაროს მქონე, ხმის ამომცნობ ძრავაზე, სახელწოდებით Deep Speech.
-about-header-description =
-    ორივე აღნიშნული პროექტი ჩვენი ძალისხმევის ნაწილია, ციფრულ ხმოვან სისტემებში არსებული სიცარიელეების ამოსავსებად. ხმის ამოცნობის საშუალებები ჩვენს მოწყობილობებს ხდის მეტად ადამიანურს, მაგრამ შემმუშავებლებს ესაჭიროებათ უზარმაზარი მოცულობის ხმოვანი მონაცემები, მათ შესაქმნელად. ამჟამად, ამგვარი მონაცემები უმეტესად ძვირია და კერძო საკუთრებას წარმოადგენს.
-    ჩვენ კი გვინდა, რომ ხმოვანი მონაცემები გავხადოთ თავისუფალი და საჯაროდ ხელმისაწვდომი, ამასთან უზრუნველვყოთ, რომ ეს მონაცემები სრულად მოიცავდეს ადამიანების მრავალფეროვნებას. ერთად ჩვენ შეგვიძლია გავხადოთ ხმის ამოცნობა უკეთესი ყველასთვის.
-about-header-description-2 =
-    აღნიშნული პროექტი ჩვენი ძალისხმევის ნაწილია, ციფრულ ხმოვან სისტემებში არსებული დანაკლისის ამოსავსებად. ხმის ამოცნობის საშუალებები ჩვენს მოწყობილობებს ხდის მეტად ადამიანურს, მაგრამ შემმუშავებლებს ესაჭიროებათ უზარმაზარი მოცულობის ხმოვანი მონაცემები, მათ შესაქმნელად. ამჟამად, ამგვარი მონაცემები უმეტესად ძვირია და კერძო საკუთრებას წარმოადგენს.
-    ჩვენ კი გვინდა, რომ ხმოვანი მონაცემები გავხადოთ თავისუფლი და საჯაროდ ხელმისაწვდომი, ამასთან უზრუნველვყოთ, რომ ეს მონაცემები სრულად მოიცავდეს ადამიანების მრავალფეროვნებას. ერთად, ჩვენ შევძლებთ გავაუმჯობესოთ ხმის ამოცნობის საშუალებები ყველასთვის.
-how-does-it-work-title = როგორ მუშაობს?
+about-header-description-v2 =
+    <p>Common Voice ხმოვანი ჩანაწერების საჯაროდ ხელმისაწვდომი კრებულია, რომელიც მუდმივად ივსება მოხალისეების შემწეობით, მთელი მსოფლიოდან. მათ, ვისაც სურს ხმოვანი პროგრამების შექმნა, ამ კრებულით შეუძლია დახვეწოს მანქანური სწავლების მოდელები.</p>
+    <p>აქამდე, ხმოვანი კრებულების უმეტესობა იმ კომპანიების ხელში იყო, რომლებიც აბრკოლებენ სიახლეების დანერგვას. ამასთან, კრებულებში სჭარბობს თეთრკანიანი, ინგლისურად მოლაპარაკე ხალხის ჩანაწერები. ეს კი ნიშნავს, რომ ხმოვანი პროგრამები, ვერ მუშაობს სხვადასხვა ენაზე, ხოლო რომლებზეც მუშაობს, არაა თანაბრად მორგებული თითოეულ ადამიანზე. ჩვენ გვსურს ამის შეცვლა ხალხის მოხმობით მთელი მსოფლიოდან, რომ შემოგვწირონ თავიანთი ხმის ჩანაწერები.</p>
+how-does-it-work-title-v2 = როგორ მუშაობს Common Voice?
 how-does-it-work-text = ჩვენ ვქმნით ხმის ჩანაწერების მონაცემთა კრებულს, მოხალისეების მასობრივი ჩართულობით. გაიღეთ თქვენი ხმა, შეამოწმეთ სხვების მიერ შექმნილი ჩანაწერების სიზუსტე, გააუმჯობესეთ მონაცემთა კრებულის ხარისხი ყველასთვის.
+
+## How does it work section
+
+about-language-req-subtitle = ვიღაც ითხოვს ენის დამატებას.
+about-localization-title = საიტის თარგმნა
+about-localization-subtitle = ვებსაიტზე ტექსტი ითარგმნება ამ ენაზე.
+about-sentence-collection-title = წინადადებების შეგროვება
+about-sentence-collection-subtitle = წინადადებები გროვდება ამოსაკითხად.
+about-new-lang-title = ახალი ენის გაშვება
+about-new-lang-subtitle = Common Voice საიტი გაეშვება ამ ენაზე.
+about-voice-contrib-title = ხმების შემოწირვა
+about-voice-contrib-subtitle = ხალხი შემოდის და შემოგვწირავს ჩანაწერებს.
+about-voice-validation-title = ჩანაწერის დამოწმება
+about-voice-validation-subtitle = სხვები ამოწმებენ ამ ჩანაწერებს.
+about-dataset-release-title = კრებულის გამოცემა
+about-dataset-release-subtitle = კრებული გამოდის სამ თვეში ერთხელ.
+about-subscribe-text = გსურთ, არ ჩამორჩეთ Common Voice-ის სიახლეებს?
 about-speak = წარმოთქმა
 about-speak-text = მოხალისეები აკეთებენ ხმოვან ჩანაწერებს, შემოწირულობით შეგროვებული წინადადებების წაკითხვით.
 about-listen-queue = მოსასმენი რიგი
@@ -488,10 +521,94 @@ about-get-involved-text-2 =
     მშვენიერია! შეგვეხმიანეთ ელფოსტით ან <discourseLink>Discourse-ით</discourseLink>
     ფორუმებზე, მოგვახსენეთ ხარვეზები <githubLink>GitHub-ზე</githubLink> ან შემოგვიერთდით
     <matrixLink>Matrix-ზე</matrixLink> საერთო მიმოწერაში.
+about-stay-in-touch = როგორ დავრჩე კავშირზე?
+about-stay-in-touch-text-1 = <emailFragment>გაწევრიანდით</emailFragment> ჩვენი ელფოსტის ჯგუფში და გაეცანით, როგორ შეგიძლიათ მიიღოთ მონაწილეობა კამპანიებში, ღონისძიებებსა და ახალი შესაძლებლობების დანერგვაში Common Voice-ისთვის.
+about-stay-in-touch-text-2 = შეგიძლიათ შეხვდეთ Mozilla-ს წარმომადგენლებს სხვადასხვა ენებიდან <discourseLink>Discourse-ზე</discourseLink> შემოერთებით, ცალკეულ საკითხზე სასაუბროდ ან <matrixLink>Matrix-ზე</matrixLink> შემოსვლით, სწრაფი რჩევების მისაღებად.
 about-nav-why-common-voice = რატომ?
 about-nav-how-it-works = როგორ?
 about-nav-partners = თანამშრომლობა
 about-nav-get-involved = შემოგვიერთდით
+about-nav-how-it-works-2 = როგორ მუშაობს Common Voice?
+about-nav-playbook = როგორ უნდა მიიღოთ მონაწილეობა
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = რას გულისხმობს „ენა“ Common Voice-ში?
+about-playbook-what-is-language-content-1 = მრავალი კუთხით შეიძლება განვიხილოთ ენა. ხმის ამომცნობი სისტემებისთვის კი, Common Voice გთავაზობთ „ურთიერთგაგების“ გათვალისწინებას, ანუ „ამ ენაზე მოლაპარაკეებს უნდა შეეძლოთ აზრი გამოიტანონ ერთმანეთის საუბრიდან“.
+about-playbook-what-is-language-content-2 = გვსურს, რომ ხმის მოდელებს უკეთ შეეძლოს სხვადასხვა ადამიანის გაგება. ამისთვის, კრებული უნდა შედგებოდეს მრავალი განსხვავებული ხმის ჩანაწერისგან.
+about-playbook-what-is-language-content-3 = ზოგ ენაში, შეიძლება იყოს უამრავი სახესხვაობაა გრამატიკაში, ლექსიკაში, ფონეტიკაში. ამიტომ, გადავწყვიტეთ <ctaLink>შემოგვეღო „ნაირსახეობები“</ctaLink> 2022 წელს. ეს, საზოგადოების თითოეულ ჯგუფს მისცემს საშუალებას, გამოარჩიოს თავისი სალაპარაკო ენა მთლიანი კრებულიდან.
+
+## How do I add a language
+
+about-playbook-how-add-language = როგორ დავამატო ენა?
+about-playbook-how-add-language-content-1 = ჯერ გადაამოწმეთ, <languageLink>უკვე არის თუ არა</languageLink> თქვენი ენა. თუ არაა, საჭირო იქნება <strong>საიტის თარგმნა და წინადადებების შეგროვება</strong>.
+about-playbook-how-add-language-content-2 = <strong>საიტის გადასათარგმნად</strong> – უნდა <translateVideo>გამოიყენოთ</translateVideo>  <pontoonLink>Pontoon</pontoonLink>. Pontoon-ზე ბევრი ენაა, მაგრამ თუ თქვენი არ იქნება, შეგიძლიათ <pontoonRequestLink>მოითხოვოთ</pontoonRequestLink> დამატება. შემდეგ განაცხადეთ <repoLink>GitHub-ზე</repoLink>, რომ გსურთ Common Voice ხელმისაწვდომი იყოს თქვენი ენისთვის. ვრცლად იხილეთ <localizationFragment>საიტის თარგმნა</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>წინადადებების შესაგროვებლად</strong> – <scVideo>უნდა გამოიყენოთ</scVideo> <scLink>წინადადებების შემგროვებელი</scLink>.
+about-playbook-how-add-language-content-4 = მისი მეშვეობით შეგიძლიათ <scLinkAdd>მცირე ოდენობით</scLinkAdd> წინადადებების დამატება, ხოლო ბევრის <bulkImportDocsLink>ერთიანად შეტანისთვის</bulkImportDocsLink> უნდა განაცხადოთ Github-ზე. დაიხსომეთ, რომ წინადადებები აუცილებლად უნდა იყოს <licenseLink>CC0 (ანუ საყოველთაო საკუთრებაში)</licenseLink>, ანდაც თავად უნდა შეადგინოთ. ვრცლად იხილეთ <scFragment>წინადადებების შემგროვებელი ხელსაწყო</scFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = როგორ უნდა ითარგმნოს საიტი?
+about-playbook-how-localize-content-1 = Common Voice-საიტის თარგმნისთვის გამოიყენება <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>შექმენით ანგარიში</pontoonAccountLink> თუ ჯერ არ გაქვთ. შემდეგ, აირჩიეთ თქვენი ენის <strong>(„Team“)</strong> და პროექტი <pontoonCvLink>Common Voice</pontoonCvLink>. იქ დაგხვდებათ გადასათარგმნი ფაილები. დაწკაპეთ ერთ-ერთს და გამოჩნდება ინგლისური ტექსტი, ქვემოთ კი ველი, სადაც ჩაწერთ თარგმანს.
+about-playbook-how-localize-content-3 = თარგმნა ინგლისურიდან ხდება, თუმცა შეგიძლიათ იხილოთ <strong>შემოთავაზებებიც</strong> სხვა ენებიდან. დაწკაპეთ <strong>Profile</strong> ხატულაზე, შემდეგ <strong>Settings</strong> ბმულზე და დაამატეთ სასურველი ენები. ქვედა მარჯვენა კუთხეში იხილავთ ენებიდან შემოთავაზებებს, რომელთაც აწერია <strong>Locales</strong>. თარგმანი საიტზე აისახება ერთ დღეში.
+about-playbook-how-localize-content-4 = საიტი მზად იქნება გასაშვებად, როცა თარგმნილი იქნება 75%.
+about-playbook-how-localize-content-5 = იხილეთ ვიდეო უკეთ გასაგებად
+
+## How to add sentences
+
+about-playbook-how-add-sentences = როგორ დავამატო წინადადებები?
+about-playbook-how-add-sentences-content-1 = <strong>წინადადებების შემგროვებელი</strong> არის ხელსაწყო, საყოველთაო საკუთრებაში არსებული წინადადებების დასამატებლად და შესამოწმებლად. დაგჭირდებათ <scAccountLink>ანგარიშის შექმნა</scAccountLink>. შემდეგ, მიუთითეთ თქვენი ენა <strong>პროფილიდან</strong>. შესაძლებელია წინადადებების <strong>დამატება</strong> ან უკვე დამატებულების <strong>შემოწმება</strong>.
+about-playbook-how-add-sentences-content-2 = წინადადებები უნდა შეამოწმოს და მიიღოს ორმა ადამიანმა, რომ Common Voice-ში მოხვდეს. სახელმძღვანელო წესები თქვენი ენისთვის შეგიძლიათ შექმნათ <languageGuidelinesLink>აქედან</languageGuidelinesLink>. წინადადებები უნდა იყოს <licenseLink>საყოველთაო საკუთრებაში</licenseLink> და შედგებოდეს არაუმეტეს 15 სიტყვისგან. შეგიძლიათ ავტორებს სთხოვოთ საკუთარი ნაწარმოები შემოგვწირონ <waiverLink>CC0-ლიცენზიით, საკუთრების უფლების დათმობით</waiverLink> და გვაცნობონ commonvoice@mozilla.com მისამართზე.
+about-playbook-how-add-sentences-content-3 = შეგიძლიათ გამოიყენოთ <scraperLink>წინადადებების ამომკრეფი</scraperLink> ხელსაწყო, მოკლე წინადადებების თავისუფალი ლიცენზიით მოსაპოვებლად ვიკიპედიიდან.
+about-playbook-how-add-sentences-content-4 = წინადადებები, რომლებიც გადამოწმდება და გადაიგზავნება ოთხშაბათისთვის, მოხვდება მომდევნო გამოშვებაში.
+
+## How to record quality
+
+about-playbook-how-record-quality = როგორ იქმნება სათანადო ხარისხის ჩანაწერი?
+about-playbook-how-record-content-1 = ილაპარაკეთ ბუნებრივად! თქვენი განსხვავებული საუბრის მანერა, მეტად მისასალმებელია აქ – გვსურს მივიღოთ თქვენი აქცენტი, ხმის სიმაღლე, მეტყველების თავსებურება ისე, როგორც არის.
+about-playbook-how-record-content-2 = აირიდეთ ზედმეტი ხმაური ფონზე – თქვენი ხმა გასაგები უნდა იყოს.
+about-playbook-how-record-content-3 = წაიკითხეთ წინადადება ყურადღებით – არ გამოგრჩეთ, არ შეცვალოთ და არ დაამატოთ სიტყვები ან ასოები.
+about-playbook-how-record-content-4 = დარწმუნდით, რომ თქვენი მოწყობილობა იწერს ხმას საუბრის დაწყებამდე და მხოლოდ დასრულების შემდეგ წყვეტს.
+about-playbook-how-record-content-5 = <accuracyLink>იხილეთ ვრცლად, წვლილის სწორად შეტანის შესახებ.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = როგორ შევუწყოთ ხელი ენის ზრდას Common Voice-ზე?
+about-playbook-how-grow-language-content-1 = პირობების შექმნა, განსხვავებული ხალხის მოსაზიდად მოხალისეობისთვის არის საწინდარი, რომ Common Voice იქნება მორგებული კიდევ უფრო მეტ ადამიანზე. ჩვენ გამზადებული გვაქვს მასალები და ნიმუშები, რომლებიც ამ საქმისთვის გამოგადგებათ!
+about-playbook-how-grow-language-content-2 = ღონისძიებები
+about-playbook-how-grow-language-content-3 = შეგიძლიათ მოაწყოთ ღონისძიება მეტი მოხალისის მოსაწვევად. გაცილებით ადვილია, ვიდრე გგონიათ. შესაძლებელია როგორც ინტერნეტში, კონფერენციის დასაგეგმი პროგრამებით, ასევე პირადი შეხვედრებითაც, თუ უსაფრთხოა. <eventTemplate>გადახედეთ ჩვენს ნიმუშებსა და სასარგებლო მასალებს ღონისძიებების შესახებ</eventTemplate>.
+about-playbook-how-grow-language-content-4 = სოცქსელები
+about-playbook-how-grow-language-content-5 = შეგიძლია გამოიყენოთ სხვადასხვა სოციალური ქსელი ხმის მისაწვდენად მეტ ადამიანამდე. გააზიარეთ და ახსენით, რატომაა ეს საკითხი მნიშვნელოვანი, შეეხმიანეთ ხალხს და ესაუბრეთ ენის ციფრულად გადარჩენის, ხმოვანი ხელსაწყოების ან ტექსამყაროში არსებული უთანასწორობის შესახებ. იხილეთ რჩევები <campaignLink>სოციალური კამპანიის გატარებაზე, აგრეთვე სხვა გამოსადეგი მასალები</campaignLink>.
+about-playbook-how-grow-language-content-6 = თანამშრომლობა და კავშირების დამყარება
+about-playbook-how-grow-language-content-7 = მოიძიეთ სხვები, რომლებიც ასევე ზრუნავენ ამ საკითხებზე. ეს შეიძლება იყოს უნივერსიტეტები, ენის შემსწავლელი სკოლები, უფლებათადამცველი ჯგუფები ან მონაცემთა მეცნიერებისგან შექმნილი ერთობები. შეეხმიანეთ და ნათლად აუხსენით, როგორ და რატომ უნდა დაგეხმარონ. <outreachTemplates>იხილეთ ელფოსტის წერილის ნიმუშები ხმის მისაწვდენად</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>მიუდექით შემოქმედებითად და თავად მოიფიქრეთ!</strong> თითოეულ ენაზე მოსაუბრე საზოგადოება განსხვავებული და გამორჩეულია, გამოიყენეთ ეს თავისებურებები, მოცემული რჩევები მხოლოდ დასაწყებადაა.
+
+## How to validate
+
+about-playbook-how-validate = როგორ გავიგო, მისაღებია თუ არა ხმოვანი ჩანაწერი?
+about-playbook-how-validate-content-1 = თუ <strong>გესმით მკაფიოდ</strong> და <strong>იგებთ შინაარსს</strong>, უმეტესად <strong>მისაღებია</strong>.
+about-playbook-how-validate-content-2 = <strong>არ უარყოთ ჩანაწერები, თუ მოსაუბრეს თქვენგან განსხვავებული „აქცენტი აქვს“</strong> – ეს მეტად მნიშვნელოვანია ხმის ამომცნობისთვის, რომ ყველას გაგება შეეძლოს.
+about-playbook-how-validate-content-3 = თუ მიგაჩნიათ, რომ გამოთქმის თავისუბერება <strong>შეუძლებელს ხდის აზრის გამოტანას</strong> ან <strong>მაღალი ხმაურია ფონზე</strong>, ანდაც <strong>სხვა ვინმეც ლაპარაკობს</strong>, მაშინ უნდა უარყოთ ჩანაწერი. <accuracyLink>იხილეთ ვრცლად, წვლილის სწორად შეტანის შესახებ</accuracyLink>.
+about-playbook-how-validate-content-4 = თუ ჩანაწერს უარყოფს 2 ადამიანი, გამოქვეყნებისას განთავსებული იქნება მონაცემთა კრებულის ცალკე ქვეჯგუფში.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = როგორ გამოვიყენო მონაცემთა კრებული?
+about-playbook-how-access-dataset-content-1 = შეგიძლიათ გადახვიდეთ <datasetsPage>მონაცემთა კრებულის გვერდზე</datasetsPage>, აირჩიოთ ვერსია, მიუთითოთ სასურველი ენა (ენები) და ჩამოტვირთოთ! ხმოვან ფაილებს <metadataLink>დართული ექნება მონაცემები</metadataLink>, მათ შორის დემოგრაფიული ინფორმაცია და მოხალისეების შეფასებები. დაგჭირდებათ ელფოსტის შეყვანა, კრებულის ჩამოსატვირთად.
+about-playbook-how-access-dataset-content-2 = თუ ეძებთ ხელსაწყოებს ხმის ამომცნობი (ASR) მოდელის ასაგებად, შეგიძლიათ დაუკავშირდეთ ჩვენი ერთობის სხვა წევრებს <discourseLink>Discourse-ზე</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = ვინ იღებს გადაწყვეტილებებს ამ პროექტში?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice შეიქმნა მრავალი განსხვავებული ხალხის ძალისხმევით, მათ შორის აქტივისტების, ენათმეცნიერების, მონაცემთა მეცნიერების, სწავლულებისა და პროგრამული უზრუნველყოფის სპეციალისტების მიერ, მთელი მსოფლიოდან. პროექტს ხელმძღვანელობს Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = ჩვენი მმართველობის დასაყრდენია:
+about-playbook-how-project-governance-content-3 = პირადულობა, უსაფრთხოება და გამჭვირვალობა.
+about-playbook-how-project-governance-content-4 = ხალხის ჩართულობა გადაწყვეტილებების მიღებაში.
+about-playbook-how-project-governance-content-5 = დაფასება და აღიარება.
+about-playbook-how-project-governance-content-6 = ურთიერთპასუხისმგებლობა.
+about-playbook-how-project-governance-content-7 = <governanceLink>იხილეთ ვრცლად, რას როგორ ვმართავთ</governanceLink>
 mycroft-title = Mycroft AI
 mycroft-subtitle = ხელოვნური ინტელექტი
 mycroft-description =
@@ -874,6 +991,7 @@ download-recordings-title = ჩანაწერები
 download-recordings-info = მოიცავს mp3-ფაილებს, თანმხლები წინადადებებით
 download-recordings-size = ჩვეულებრივ, მეგაბაიტები
 download-recordings-unavailable = არ შეგიძლიათ ჩანაწერების მოთხოვნა, როცა სხვა მოთხოვნა უკვე მუშავდება.
+download-recently-requested = საკუთარი ჩანაწერების ამოღება შეგიძლიათ მოითხოვოთ ყოველ { $days } დღეში.
 download-size = მოცულობა
 download-selected = არჩეული
 download-start = ჩამოტვირთვის დაწყება
@@ -974,14 +1092,14 @@ contribution-varying-pronunciations-example-2-title = დილით აუც�
 contribution-varying-pronunciations-example-2-explanation = [კითხვის დამადასტურებელი ნაწილაკი (ხომ ან არა), ყოველთვის მახვილის ქვეშაა, ქართულში]
 contribution-background-noise-title = ხმაური უკანა ფონზე
 contribution-background-noise-description = გვსურს, მანქანური სწავლების ალგორითმებს შეეძლოს მუშაობა სხვადასხვა ხმაურის ფონზე, დასაშვებია მეტად ხმამაღალი ხმაურიც, თუ ხელს არ უშლის წაკითხული ტექსტის გაგონებას. ხმადაბალი მუსიკა ფონზე, მისაღებია; ხოლო თუ მუსიკის მაღალი ხმოვანების გამო, სიტყვები აღარ გესმით, მაშინ - არა.
-contribution-background-noise-description-extended = როცა ჩანაწერი წყდება ან შრიალია, უარყავით თუ ტექსტის სრულად მოსმენა შეუძლებელია.
+contribution-background-noise-description-extended = როცა ჩანაწერი წყდება ან შრიალია, უარყავით, თუ ტექსტის სრულად მოსმენა შეუძლებელია.
 contribution-background-noise-example-1-fixed-title = <strong>[ცემინება]</strong> ახალი თავმჯდომარეც უკვე <strong>[ხველა]</strong> არჩეულია.
 contribution-background-noise-example-2-fixed-title = ახალი თავ <strong>[ხველა]</strong> უკვე არჩეულია.
 contribution-background-noise-example-2-explanation = [ტექსტის ნაწილი არ ისმის]
 contribution-background-noise-example-3-fixed-title = <strong>[შიშინი]</strong> თავმჯდომარეც უკვე <strong>[შხრიალი]</strong> -რჩეულია.
 contribution-background-voices-title = ლაპარაკი უკანა ფონზე
 contribution-background-voices-description = ხალხმრავალი ყაყანი შორიდან მისაღებია, მაგრამ დამატებითი ხმები არასასურველია, რომ მანქანურმა ალგორითმმა არ ამოიცნოს ის სიტყვები, რომლებიც ნაწერში არაა. თუ ტექსტში არარსებული სიტყვები ხმოვან ჩანაწერში მკაფიოდ ისმის, მაშინ უნდა უარყოთ. უმეტესად, ეს ეხება შემთხვევებს, როცა ტელევიზორია ჩართული ან იქვე ახლოს, ვინმე საუბრობს.
-contribution-background-voices-description-extended = როცა ჩანაწერი წყდება ან შრიალია, უარყავით თუ ტექსტის სრულად მოსმენა შეუძლებელია.
+contribution-background-voices-description-extended = როცა ჩანაწერი წყდება ან შრიალია, უარყავით, თუ ტექსტის სრულად მოსმენა შეუძლებელია.
 contribution-background-voices-example-1-title = ახალი თავმჯდომარეც უკვე არჩეულია. <strong>[კითხულობს ერთი ხმა]</strong>
 contribution-background-voices-example-1-explanation = მოდიხარ? <strong>[ეძახის მეორე]</strong>
 contribution-volume-title = ხმის სიმაღლე
@@ -992,3 +1110,395 @@ contribution-just-unsure-title = მაინც ეჭვი გეპარე
 contribution-just-unsure-description = თუ ისეთ საკითხს წააწყდით, რომელიც ამ მითითებებში არაა განხილული, გთხოვთ შეაფასოთ საკუთარი შეხედულებისამებრ, კეთილსინდისიერად. როცა ნამდვილად გაგიჭირდებათ გადაწყვეტილების მიღება, უბრალოდ გამოტოვეთ და სხვა ჩანაწერზე გადადით.
 see-more = <chevron></chevron>ვრცლად
 see-less = <chevron></chevron>შემოკლებულად
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = მთავარი
+sc-header-how-to = როგორ
+sc-header-add = დამატება
+sc-header-review = შემოწმება
+sc-header-rejected = უარყოფილი წინადადებები
+sc-header-my = ჩემი წინადადებები
+sc-header-statistics = სტატისტიკა
+sc-header-profile = პროფილი
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = ხარვეზის მოხსენება
+sc-footer-translate = ამ გვერდის თარგმნა
+sc-footer-report-copyright = საავტორო უფლებებზე მოხსენება
+sc-footer-privacy = პირადულობა
+sc-footer-terms = პირობები
+sc-footer-cookies = ფუნთუშები
+sc-login-signup-button = შესვლა / შექმნა
+sc-logout-button = გასვლა
+
+## HOME
+
+sc-home-title = მოგესალმებათ Common Voice – წინადადებების შემგროვებელი
+sc-home-intro =
+    წინადადებების შემგროვებელი, <commonVoiceLink>Common Voice-ის</commonVoiceLink> ნაწილია.
+    მისი მეშვეობით, გროვდება და მოწმდება, ერთობის მიერ შედგენილი წინადადებები.
+    ასევე, გამოსადეგია საყოველთაო საკუთრებაში არსებული მცირე ან საშუალო კორპუსის შემოსატანად,
+    თუ ამგვარი მოიპოვება ენისთვის. ყველა წინადადება აუცილებელია, საყოველთაო საკუთრებად მიიჩნეოდეს.
+    დამოწმებული წინადადები, ყოველკვირა გადადის Common Voice-საცავში და ქვეყნდება
+    Common Voice-ის ვებსაიტზე, ყოველი ახალი გაწყობისას.
+sc-home-collect-title = წინადადებების შეგროვება
+sc-home-collect-text = დაგვეხმარეთ წინადადებების დაწერაში ან საყოველთაო საკუთრებაში არსებულების მოპოვებაში.
+sc-home-review-title = წინადადებების შემოწმება
+sc-home-review-text = მოგვეხმარეთ წინადადებების გადამოწმებაში, სახელმძღვანელოს მიხედვით.
+
+## HOW-TO
+
+sc-howto-title = როგორ ხდება
+sc-howto-addlang-title = ენების დამატება სამუშაოდ
+sc-howto-addlang-text = შესვლისას, შეგეძლებათ აირჩიოთ ენა პროფილიდან.
+sc-howto-addsen-title = ახალი წინადადებების დამატება
+sc-howto-addsen-item-1 =
+    ყველა მოწოდებული წინადადება უნდა იყოს <wikipediaLink>საყოველთაო საკუთრებაში, ღია (CC-0) ლიცენზიით</wikipediaLink>.
+    განსხვავებული ლიცენზიის მქონე მასალების მისაღებად კი შევქმენით
+    <cc0WaiverLink>შემოწირულობის შესახებ შეთანხმების საბუთი</cc0WaiverLink> იმ შემთხვევებისთვის, როცა მესაკუთრეს
+    სურს თავისი ნამუშევარი შესწიროს Common Voice-ს.
+sc-howto-addsen-item-2 =
+    რიცხვები. ტექსტში არ უნდა ერიოს ციფრი, ვინაიდან დამატებით სიძნელეებს წარმოშობს
+    ამოკითხვისას. რიცხვების წარმოთქმა დამოკიდებულია კონტექსტზე და გაუგებრობას გამოიწვევს კრებულში.
+    მაგალითად, „2409“ შესაძლოა სწორად წაიკითხონ, როგორც „ორი-ოთხი-ნული-ცხრა“, ასევე
+    „ორი ათას ოთხას ცხრა”.
+sc-howto-addsen-item-3 =
+    შემოკლებანი. შემოკლებული სიტყვები, მაგალითად „აშშ“ ან „დღგ“
+    უნდა ავიცილოთ, ვინაიდან შეიძლება ისე წარმოთქვან, რომ არ შეესაბამებოდეს დადგენილ წესს.
+    ხშირად, დამკვიდრებულია ხოლმე ერთი სიტყვის სხვადასხვაგვარი გამოთქმა.
+    მაგალითად „დღგ” შეიძლება იყოს „დ-ღ-გ“ ან „დე-ღე-გე“.
+sc-howto-addsen-item-4 =
+    სასვენი ნიშნები. დამატებითი ნიშნები, მხოლოდ იმ შემთხვევაში უნდა დაერთოს, თუ აუცილებელია. მაგალითად, დეფისი ქართულში საჭიროა ხოლმე „და-ძმა“, „რაჭა-ლეჩხუმი“ და შესაძლოა, იყოს ტექსტში, მაგრამ არასდროს იქნება აუცილებელი
+    ისეთი განსხვავებული სიმბოლოების ჩართვა, როგორებიცაა „@“ ან „#“.
+sc-howto-addsen-item-5 =
+    უცხოენოვანი ასოები. მხოლოდ ის ასონიშნებია მისაღები, რომელთაც ამ ენაში იყენებენ.
+    მაგალითად, „Ω“ ბერძნული ანბანის ასოა და ქართულში არ გამოიყენება, ამიტომ
+    ვერც ვერასდროს აღმოჩნდება ქართულ ნაწერში.
+sc-howto-addsen-item-6 =
+    ენას, შესაძლოა ახლდეს <validationRulesLink>შემოწმების საკუთარი წესებიც</validationRulesLink>
+    დამატებით წინაპირობებთან ერთად. თუ ამგვარი რამ არ არსებობს ამ ენისთვის,
+    გამოყენებული იქნება ზოგადი, ინგლისურის წესები.
+sc-howto-addsen-post-1 =
+    უმჯობესია ბუნებრივი/სასაუბრო წინადადებები.
+    მართალია, ბგერითი შედგენილობისა და სიტყვების მრავალფეროვნება წინადადებებში მეტად მნიშვნელოვანია, თუმცა, ამასთან, ვცდილობთ
+    მათი ჩაწერა სახალისო იყოს. შესაბამისად, კარგი იქნება, თუ შეძლებთ, რომ
+    წინადადებები დარჩეს მეტად ბუნებრივი/მიმზიდველი წასაკითხად.
+sc-howto-cite-title = წყაროების დართვა
+sc-howto-cite-pre-1 =
+    მნიშვნელოვანია მიუთითოთ, საიდანაა მოპოვებული საჯარო ლიცენზიის
+    ტექსტი, სხვისი საკუთრების მითვისების ასარიდებლად და <copyrightIssuesLink>საავტორო უფლებების დასაცავად</copyrightIssuesLink>.
+    იხილეთ, რამდენიმე გზა ნამუშევრის წყაროების დასამოწმებლად.
+sc-howto-cite-item-1 = შეგიძლიათ მიუთითოთ ვებსაიტი, მაგალითად „Common Voice - https://commonvoice.mozilla.org/“
+sc-howto-cite-item-2 =
+    ან დაურთოთ აკადემიური წყაროს სახით, მაგ.
+    „Mozilla (2021) Common Voice. მისამართი https://commonvoice.mozilla.org/ (წვდომის თარიღი: 15 სექტემბერი 2021)“
+sc-howto-cite-item-3 =
+    საყოველთაო საკუთრების იმ ტექსტებისთვის, რომლებიც ინტერნეტში არ მოიპოვება, შეგიძლიათ აკადემიური სახით ჩაწერა
+    მაგ. „Jess (2021) ჩემი საჯარო ლიცენზიის პოემები“
+sc-howto-review-title = წინადადებების შემოწმება
+sc-howto-review-subtitle = დარწმუნდით, რომ წინადადება აკმაყოფილებს შემდეგ პირობებს:
+sc-howto-review-criteria-1 = მართლწერის თვალსაზრისით გამართულია.
+sc-howto-review-criteria-2 = გრამატიკულად სწორადაა შედგენილი.
+sc-howto-review-criteria-3 = მისი წარმოთქმა სიძნელეს არ წარმოადგენს.
+sc-howto-review-criteria-4 = თუ წინადადება აკმაყოფილებს პირობებს, დაწკაპეთ „მიღება".
+sc-howto-review-criteria-5 =
+    თუ ვერ აკმაყოფილებს ზემოაღნიშნულ პირობებს, დაწკაპეთ „უარყოფა“.
+    თუ გიჭირთ გადაწყვეტა, შეგიძლიათ გამოტოვოთ და სხვაზე გადახვიდეთ.
+sc-howto-review-criteria-6 = თუ ამოიწურება შესამოწმებელი წინადადებები, გთხოვთ დაგვეხმაროთ ახლის მოძიებასა და შეგროვებაში!
+sc-howto-findpd-title = საყოველთაო საკუთრებაში არსებული წინადადებების მოძიება
+sc-howto-findpd-subtitle = მოსაძიებლად, დაიხმარეთ ინტერნეტი
+sc-howto-findpd-text-2 = დაიხსომეთ, რომ ამ წინადადებების გამოსაქვეყნებლად გვესაჭიროება ნებართვა, ამიტომ ყოველთვის გადაამოწმეთ, მოცემული ტექსტი, არის თუ არა <wikipediaLink>საყოველთაო საკუთრება</wikipediaLink>. ნათლად თუ არაა სადმე მინიშნებული, შეეხმიანეთ მფლობელებს და ჰკითხეთ, ხომ არ შესწირავენ თავიანთ ნამუშევარს საყოველთაო საკუთრების სახით. თანხმობის შემთხვევაში, დაეხმარეთ <cc0WaiverLink>შემოწირულობის შეთანხმებით</cc0WaiverLink> სარგებლობაში. თუ უარზე იქნებიან, ვერ გამოიყენებთ მათ კუთვნილ მასალებს.
+sc-howto-findpd-tips = რამდენიმე რჩევა, წინადადებების მოსაძიებლად:
+sc-howto-findpd-tips-1 =
+    საუკეთესო წყაროა გადაცემები, პოდკასტები, სუბტიტრები
+    და ყველაფერი ის, რაც შეიძლება შეიცავდეს ყოველდღიურ საუბრებს.
+sc-howto-findpd-tips-2 =
+    სამთავრობო დადგენილებები, წიგნები და სტატიები, აგრეთვე გამოსადეგია, თუმცა
+    ვინაიდან, სამოხელეო ენა მეტად თავისებურია, ჯობია ამგვარი ტექსტი ნაკლები იყოს.
+sc-howto-findpd-tips-3 = სამწუხაროდ, ჯერ არ შეგვიძლია ვიკიმედიის გამოყენება. ამიტომ, გთხოვთ ნუ გადმოიტანთ იქიდან ტექსტებს.
+sc-howto-findpd-subtitle-2 = ითანამშრომლეთ ადგილობრივ დაწესებულებებთან და ხალხთან
+sc-howto-findpd-partner-1 =
+    ბევრი საჯარო დაწესებულებაა, რომელთაც შეიძლება სურდეს თანამშრომლობა
+    და ჰქონდეს დიდი ოდენობის ტექსტი შესაწირად, საყოველთაო საკუთრების სახით. შეეხმიანეთ ადგილობრივ უნივერსიტეტებს, სამთავრობო და ღია ორგანიზაციებს ამ პროექტზე სასაუბროდ და სთხოვეთ მხარდაჭერა.
+sc-howto-findpd-partner-2 =
+    ენის სპეციალისტებიც შეძლებენ დახმარებას, სცადეთ დაკავშირება ენათმეცნიერების
+    ადგილობრივ ინსტიტუტებთან (როგორც მასწავლებლებთან, ასევე სტუდენტებთან) და ჰკითხეთ, შეუძლიათ თუ არა, დაგეხმარონ სხვადასხვაგვარი ბგერითი შედგენილობის
+    წინადადებების მოძიებაში თქვენი ენისთვის.
+
+## MY SENTENCES
+
+sc-my-title = ჩემი წინადადებები
+sc-my-description =
+    ამ გვერდის მეშვეობით შეძლებთ გადახედოთ თქვენ მიერ შემოტანილ ყველა წინადადებას.
+    თუ დაგჭირდათ, შეგიძლიათ უკვე შეტანილი წინადადებებიც წაშალოთ, გვერდით არსებული მოსანიშნი უჯრით
+    და ქვემოთ, „შერჩეული წინადადებების წაშლაზე“ დაწკაპებით.
+    გთხოვთ, მხოლოდ იმ შემთხვევაში ამოშალოთ, როცა აუცილებელია იქნება,
+    მაგალითად, მას შემდეგ, რაც აღმოაჩენთ, რომ საავტორო უფლებებით დაცული ყოფილა.
+sc-my-loading = იტვირთება თქვენი წინადადებები…
+sc-my-err-fetching = შეცდომა, წინადადებების მიღებისას. გთხოვთ, კვლავ სცადოთ.
+sc-my-no-sentences = წინადადებები ვერ მოიძებნა!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = წარდგენილი: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = წყარო:  { $source }
+sc-my-delete = შერჩეული წინადადებების წაშლა
+sc-my-deleting = შერჩეული წინადადებები იშლება…
+sc-my-err-failed-delete = შერჩეული წინადადებების წაშლა ვერ მოხერხდა... გთხოვთ, კვლავ სცადოთ!
+
+## REJECTED
+
+sc-rejected-title = უარყოფილი წინადადებები
+sc-rejected-loading = იტვირთება უარყოფილი წინადადებები…
+sc-rejected-err-fetching = შეცდომა, უარყოფილი წინადადებების მიღებისას. გთხოვთ, კვლავ სცადოთ.
+sc-rejected-none-found = უარყოფილი წინადადებები ვერ მოიძებნა!
+
+## STATS
+
+sc-stats-title = სტატისტიკა
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = ბოლო განახლება: { $lastUpdate }
+sc-stats-last-update-never = ბოლო განახლება: არასდროს
+sc-stats-updating = ახლდება…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary =
+    Common Voice-ის წინადადებების შემგროვებელში თავმოყრილია
+    { $sentenceCount } წინადადება { $languageCount } ენაზე!
+
+## ADD
+
+sc-submit-err-select-lang = გთხოვთ, აირჩიოთ ენა.
+sc-submit-err-add-sentences = გთხოვთ, დაამატოთ წინადადებები.
+sc-submit-err-add-source = გთხოვთ, დაამატოთ წყარო.
+sc-submit-err-confirm-pd = გთხოვთ დაადასტუროთ, რომ ეს წინადადებები ნამდვილად საყოველთაო საკუთრებაშია.
+sc-submit-prompt =
+    .message = წინადადებები არ გადაგზავნილა, ნამდვილად გსურთ გამოსვლა?
+sc-submit-title = წინადადებების დამატება
+sc-submit-select-language =
+    .labelText = ენის არჩევა
+sc-submit-add-sentences = დაამატეთ <wikipediaLink>საყოველთაო საკუთრებაში</wikipediaLink> არსებული წინადადებები
+sc-submit-ph-one-per-line =
+    .placeholder = თითო წინადადება თითო ხაზზე
+sc-submit-from-where = საიდანაა აღებული <wikipediaLink>საყოველთაო საკუთრებაში არსებული</wikipediaLink> ეს წინადადებები?
+sc-submit-ph-read-how-to =
+    .placeholder = გაეცანით ჩვენს მითითებებს, თუ არ იცით, რა მონაცემები დაურთოთ
+sc-submit-confirm =
+    ვადასტურებ, რომ ეს წინადადებები <wikipediaLink>საყოველთაო საკუთრებაშია</wikipediaLink> და
+    მაქვს ნებართვა, მათი ატვირთვის.
+sc-submit-button =
+    .submitText = გაგზავნა
+sc-submit-filtered = შერჩეული წინადადებები მიუღებელია წანაპირობების დარღვევის გამო (გთხოვთ, წარადგინოთ გასწორების შემდეგ, ახალი წინადადებების სახით):
+sc-submit-guidelines = სასურველია, გადახედოთ <howToLink>მითითებებს</howToLink>.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = ენის დამატება ვერ მოხერხდა
+sc-add-lang-sec-label = დაამატეთ ენა, რომლისთვისაც გსურთ წვლილის შეტანა
+sc-add-lang-sec-button = ენის დამატება
+sc-add-err-unexpected = გაუთვალისწინებელი პასუხი სერვერიდან
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] წინადადებები წარდგენილია. განმეორების გამო, { $duplicates } მათგანია უარყოფილი.
+        [one] წინადადებები წარდგენილია. { $duplicates } მათგანი უარყოფილია, ვინაიდან განმეორებულია.
+       *[other] წინადადებები წარდგენილია. { $duplicates } მათგანი უარყოფილია, ვინაიდან განმეორებულია.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] გადაუგზავნელი წინადადებები არაა
+        [one] 1 წინადადება ვერ გადაიგზავნა
+       *[other] { $sentences } წინადადება ვერ გადაიგზავნა
+    }
+sc-add-err-submission = შეცდომა გაგზავნისას
+sc-add-lang-process-notice = თუ თქვენი ენა არაა ჩამონათვალში, შეგიძლიათ მოითხოვოთ <languageProcessLink>აქედან</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = წინადადებები არ გადაგზავნილა, ნამდვილად გსურთ გამოსვლა?
+sc-confirm-sentences-title = ახალი წინადადებების დამოწმება
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] წინადადებები არ მოიძებნა.
+        [one] 1 წინადადებაა ნაპოვნი.
+       *[other] { $countOfSentences } წინადადებაა ნაპოვნი.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } უარყოფილია თქვენ მიერ
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] წინადადებები ჯერ შეუმოწმებელია.
+        [one] 1 წინადადება უკვე შემოწმებულია. მშვენიერია!
+       *[other] { $countOfReviewed } უკვე შემოწმებულია. მშვენიერია!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] წინადადებები არაა მზად გასაგზავნად!
+        [one] 1 წინადადება მზადაა გასაგზავნად!
+       *[other] { $readyCount } წინადადება მზადაა გასაგზავნად!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed =
+    { $countOfUnreviewed } წინადადება შეუმოწმებელია.
+    თუ გსურთ, ახლავე შეგიძლიათ შეამოწმოთ თქვენი წინადადებები, გადაგზავნამდე.
+sc-confirm-button-text = დასტური
+sc-confirm-uploading = წინადადებები აიტვირთება. შესაძლოა, რამდენიმე წუთს გასტანოს, გამომდინარე მათი რაოდენობიდან. გთხოვთ, არ დახუროთ ვებსაიტი.
+
+## LANGUAGE INFO
+
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] წინადადებები არაა.
+        [one] სულ 1 წინადადება.
+       *[other] სულ { $totalSentences } წინადადება.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] წინადადებები არ მოწმდება.
+        [one] 1 წინადადება მოწმდება.
+       *[other] { $totalInReview } წინადადება მოწმდება.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] შესამოწმებელი წინადადებები აღარაა.
+        [one] 1 შესამოწმებელი წინადადებაა დარჩენილი.
+       *[other] { $unreviewedSentencesByYou } შესამოწმებელი წინადადებაა დარჩენილი.
+    }
+sc-lang-info-review-now = <reviewLink>შეამოწმეთ ახლავე!</reviewLink>
+sc-lang-info-add-more = <addLink>დაამატეთ წინადადებები ახლავე!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] შემოწმებული წინადადებები არაა.
+        [one] 1 წინადადებაა შემოწმებული.
+       *[other] { $validatedSentences } წინადადებაა შემოწმებული.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] უარყოფილი წინადადებები არაა.
+        [one] 1 წინადადებაა უარყოფილი.
+       *[other] { $rejectedSentences } წინადადებაა უარყოფილი.
+    }
+
+## LOGIN
+
+sc-login-err-failed = შესვლა ვერ მოხერხდა
+sc-login-err-try-again = გთხოვთ, სცადოთ ხელახლა.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = პროფილი: { $username }
+sc-personal-err-lang-not-found = ენის წაშლა ვერ მოხერხდა: ენა ვერ მოიძებნა
+sc-personal-err-remove = ენის წაშლა ვერ მოხერხდა
+sc-personal-your-languages = თქვენი ენები:
+sc-personal-remove-button = მოცილება
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } დამატებული თქვენ მიერ
+sc-personal-not-added = ჯერ არცერთი ენა არ დაგიმატებიათ.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ სწორად შემოწმების შესახებ
+sc-criteria-title = როგორ მოწმდება
+sc-criteria-make-sure = უნდა აკმაყოფილებდეს შემდეგ მოთხოვნებს:
+sc-criteria-item-1 = სწორადაა ამოკითხული.
+sc-criteria-item-2 = გრამატიკულად სწორადაა შედგენილი.
+sc-criteria-item-3 = მისი წარმოთქმა სიძნელეს არ წარმოადგენს.
+sc-criteria-item-4 = თუ წინადადება აკმაყოფილებს პირობებს, დაწკაპეთ „მიღება", ქვემოთ და მარჯვნივ.
+sc-criteria-item-5-2 =
+    თუ ვერ აკმაყოფილებს ზემოაღნიშნულ პირობებს, დაწკაპეთ „უარყოფა“ მარცხენა მხარეს.
+    თუ გიჭირთ გადაწყვეტა, შეგიძლიათ გამოტოვოთ და სხვაზე გადახვიდეთ.
+sc-criteria-item-6 = თუ ამოიწურება შესამოწმებელი წინადადებები, გთხოვთ დაგვეხმაროთ ახლის მოძიებასა და შეგროვებაში!
+
+## REVIEW
+
+sc-review-lang-not-selected =
+    ენა ჯერ არ აგირჩევიათ. გადადით თქვენს
+    <profileLink>პროფილზე</profileLink> ენის მისათითებლად.
+sc-review-title = წინადადებების შემოწმება
+sc-review-loading = იტვირთება წინადადებები…
+sc-review-select-language = გთხოვთ, აირჩიოთ ენა, წინადადებების შესამოწმებლად.
+sc-review-no-sentences =
+    შესამოწმებელი წინადადებები აღარაა.
+    <addLink>თავად დაამატეთ ახლავე!</addLink>
+sc-review-form-prompt =
+    .message = გადამოწმებული წინადადებები არ გაგზავნილა, დარწმუნებული ხართ?
+sc-review-form-usage =
+    გადასწიეთ მარჯვნივ წინადადების მისაღებად. გადასწიეთ მარცხნივ, უარსაყოფად.
+    ასწიეთ ზემოთ, გამოსატოვებლად. <strong>არ დაგავიწყდეთ გადამოწმებულების წარდგენა!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = წყარო: { $sentenceSource }
+sc-review-form-button-reject = უარყოფა
+sc-review-form-button-skip = გამოტოვება
+sc-review-form-button-approve = მიღება
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = დ
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = ა
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = ტ
+sc-review-form-keyboard-usage-custom = შეგიძლიათ ღილაკებიც გამოიყენოთ სამართავად: { sc-review-form-button-approve-shortcut } არის დასამოწმებლად, { sc-review-form-button-reject-shortcut } – უარსაყოფად და { sc-review-form-button-skip-shortcut } – გამოსატოვებლად.
+sc-review-form-button-submit =
+    .submitText = შემოწმების დასრულება
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] წინადადებები შეუმოწმებელია.
+        [one] 1 წინადადებაა შემოწმებული. გმადლობთ!
+       *[other] { $sentences } წინადადებაა შემოწმებული. გმადლობთ!
+    }
+sc-review-form-review-failure = შემოწმებული ვერ შეინახა. გთოხვთ, კვლავ სცადოთ.
+sc-review-link = შემოწმება
+
+## SETTINGS
+
+sc-settings-title = პარამეტრები
+sc-settings-ui-language = სამუშაო ენა
+sc-settings-language-translated-warning = გვერდები ამ ენისთვის, შესაძლოა სრულად არ იყოს თარგმნილი. წვლილის შესატანად, იხილეთ <pontoonLinkLink>Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = გამოტოვებული წინადადებების გადატვირთვა
+sc-settings-skipped-decription =
+    შემოწმებისას გამოტოვებული გაქვთ წინადადებები.
+    გამოტოვებული წინადადებების გადატვირთვით, ისინი კვლავ გამოჩნდება შესამოწმებლად.
+    იმოქმედებს ენისგან დამოუკიდებლად.
+sc-settings-show-all-button = კვლავ გამოჩნდეს ყველა გამოტოვებული წინადადება
+sc-settings-failed = პარამეტრების შეცვლა ვერ მოხერხდა. გთხოვთ, კვლავ სცადოთ.
+# VALIDATION
+sc-validation-number-of-words = წინადადება უნდა შეიცავდეს 1-იდან 14-ამდე (არაუმეტეს) სიტყვას
+sc-validation-no-numbers = წინადადება არ უნდა შეიცავდეს რიცხვებს
+sc-validation-no-symbols = წინადადება არ უნდა შეიცავდეს ნიშნებს
+sc-validation-no-abbreviations = წინადადება არ უნდა შეიცავდეს შემოკლებებს
+
+# [/SentenceCollector]
+

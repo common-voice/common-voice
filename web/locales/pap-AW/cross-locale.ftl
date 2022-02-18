@@ -3,7 +3,7 @@
 contribute = Contribui
 get-involved-button = Participa
 get-involved-title = Contribui na
-get-involved-text = Danki pa bo interes pa contribui na { $lang }. Nos ta trahando duro pa completa tur idioma pa lansamento y mantene ¶ e team na altura via e-mail.
+get-involved-text = Danki pa bo interes pa contribui na { $lang }. Nos ta trahando duro pa completa tur idioma pa lansamento y mantene  e team na altura via e-mail.
 get-involved-form-title = Suscribi na { $lang } pa keda na altura:
 get-involved-email =
     .label = E-mail

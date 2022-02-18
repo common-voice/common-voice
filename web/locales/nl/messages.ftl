@@ -36,9 +36,9 @@ ba = Basjkiers
 bas = Basaa
 be = Wit-Russisch
 bg = Bulgaars
-bm = Bambara
 bn = Bengaals
 br = Bretons
+bs = Bosnisch
 bxr = Boerjatisch
 ca = Catalaans
 cak = Kaqchikel
@@ -67,6 +67,7 @@ fy-NL = Fries
 ga-IE = Iers
 gl = Galicisch
 gn = Guaraní
+gom = Goanees Konkani
 ha = Hausa
 he = Hebreeuws
 hi = Hindi
@@ -90,11 +91,14 @@ kab = Kabylisch
 kbd = Kabardisch
 ki = Kikuyu
 kk = Kazachs
+km = Khmer
 kmr = Kurmanci
+knn = Konkani (Devanagari)
 ko = Koreaans
 kpv = Zurjeens
 kw = Cornish
 ky = Kirgizisch
+lb = Luxemburgs
 lg = Luganda
 lij = Ligurisch
 lt = Litouws
@@ -106,6 +110,7 @@ mhr = Weide-Mari
 mk = Macedonisch
 ml = Malayalam
 mn = Mongools
+mni = Meetei Lono
 mos = More
 mr = Marathi
 mrj = Berg-Mari
@@ -127,6 +132,8 @@ pap-AW = Papiaments (Aruba)
 pl = Pools
 ps = Pashtu
 pt = Portugees
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Reto-Romaans Surselvisch
 rm-vallader = Reto-Romaans Vallader
 ro = Roemeens
@@ -139,6 +146,7 @@ scn = Siciliaans
 shi = Tashelhiyt (Shilha)
 si = Singalees
 sk = Slowaaks
+skr = Saraiki
 sl = Sloveens
 so = Somalisch
 sq = Albanees
@@ -150,7 +158,11 @@ ta = Tamil
 te = Telugu
 tg = Tadzjieks
 th = Thai
+ti = Tigrinya
+tig = Tigre
+tk = Turkmeens
 tl = Tagalog
+tok = Toki Pona
 tr = Turks
 tt = Tataars
 tw = Twi
@@ -322,8 +334,13 @@ profile-form-native-language =
     .label = Moedertaal
 profile-form-additional-language =
     .label = Extra taal
+profile-form-language =
+    .label = Taal
 profile-form-accent =
     .label = Accent
+profile-form-custom-accent-help-text =
+    .label = Hoe zou u uw accent omschrijven?
+profile-form-custom-accent-placeholder-2 = Begin met typen om uw accent te beschrijven
 profile-form-age =
     .label = Leeftijd
 profile-form-gender-2 =
@@ -334,6 +351,7 @@ hidden = Verborgen
 visible = Zichtbaar
 native-language =
     .label = Moedertaal
+profile-form-add-accent = Nieuw aangepast accent ‘{ $inputValue }’ toevoegen
 profile-form-submit-save = Opslaan
 profile-form-submit-saved = Opgeslagen
 male = Mannelijk
@@ -367,6 +385,8 @@ skip-submission-description = Tijdens het bijdragen wordt feedback over inzendin
 skip-submission-note = Noot: u dient nog steeds een keuze tussen Spreken en Luisteren te maken om het type bijdragen te wijzigen.
 off = Uit
 on = Aan
+help-accent = Hulp nodig met accent?
+help-accent-explanation = Uw accent is de manier waarop u woorden uitspreekt. Het kan worden gevormd door waar u hebt gewoond, welke andere talen u spreekt en tal van andere factoren. U kunt hier alle informatie delen die u relevant vindt.
 
 ## Profile - Email
 
@@ -452,15 +472,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Waarom Common Voice?
-about-subtitle = Common Voice is onderdeel van een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken. In aanvulling op de Common Voice-gegevensset bouwen we ook een open source spraakherkenningsengine genaamd Deep Speech.
-about-header-description =
-    Beide projecten maken deel uit van onze inspanningen om de digitale spraakkloof te overbruggen. Spraakherkenningstechnologieën geven onze apparaten een menselijke dimensie, maar ontwikkelaars hebben een enorme hoeveelheid spraakgegevens nodig om ze te bouwen. Momenteel zijn de meeste van die gegevens duur en afgeschermd.
-    We willen spraakgegevens gratis en vrij beschikbaar maken en ervoor zorgen dat de gegevens de diversiteit van echte mensen vertegenwoordigen. Samen kunnen we stemherkenning voor iedereen beter maken.
-about-header-description-2 =
-    Dit project is een inspanning om de digitale spraakkloof te overbruggen. Spraakherkenningstechnologieën geven onze apparaten een menselijke dimensie, maar ontwikkelaars hebben een enorme hoeveelheid spraakgegevens nodig om ze te bouwen. Momenteel zijn de meeste van die gegevens duur en afgeschermd.
-    We willen spraakgegevens gratis en vrij beschikbaar maken en ervoor zorgen dat de gegevens de diversiteit van echte mensen vertegenwoordigen. Samen kunnen we stemherkenning voor iedereen beter maken.
-how-does-it-work-title = Hoe werkt het
+about-header-description-v2 =
+    <p>Common Voice is een openbaar beschikbare spraakgegevensset, mogelijk gemaakt door de stemmen van vrijwillige donateurs over de hele wereld. Mensen die spraaktoepassingen willen bouwen, kunnen de gegevensset gebruiken om machine learning-modellen te trainen.</p>
+    <p>Momenteel zijn de meeste spraakgegevenssets eigendom van bedrijven, wat innovatie verstikt. Spraakgegevenssets bevatten ook een oververtegenwoordiging van witte, Engelstalige mannen. Dit betekent dat spraakgestuurde technologie voor veel talen helemaal niet werkt, en waar het wel werkt, presteert het mogelijk niet voor iedereen even goed. We willen dat veranderen door mensen overal te mobiliseren om hun stem te delen.</p>
+how-does-it-work-title-v2 = Hoe werkt Common Voice?
 how-does-it-work-text = We crowdsourcen een open source stemgegevensset. Doneer uw stem, valideer de nauwkeurigheid van opnames van anderen, en maak de gegevensset beter voor iedereen.
+
+## How does it work section
+
+about-language-req-subtitle = Iemand vraagt om een taal toe te voegen.
+about-localization-title = Websitelocalisatie
+about-localization-subtitle = De websitetekst wordt in die taal vertaald.
+about-sentence-collection-title = Zinnenverzameling
+about-sentence-collection-subtitle = Zinnen worden verzameld die mensen hardop kunnen lezen.
+about-new-lang-title = Lancering nieuwe taal
+about-new-lang-subtitle = We lanceren de Common Voice-website in deze taal.
+about-voice-contrib-title = Spraakbijdrage
+about-voice-contrib-subtitle = Mensen komen hun spraak bijdragen.
+about-voice-validation-title = Spraakvalidatie
+about-voice-validation-subtitle = Anderen valideren die spraakfragmenten.
+about-dataset-release-title = Vrijgave gegevensset
+about-dataset-release-subtitle = We geven de gegevensset elke drie maanden vrij.
+about-subscribe-text = In contact blijven met Common Voice?
 about-speak = Spreken
 about-speak-text = Bijdragers nemen spraakfragmenten op door te lezen van een databank van gedoneerde zinnen.
 about-listen-queue = Luisterwachtrij
@@ -489,10 +522,94 @@ about-get-involved-text-2 =
     Geweldig! Neem contact op via e-mail of <discourseLink>Discourse</discourseLink>-
     forums, meld problemen met de website via <githubLink>GitHub</githubLink>, of doe
     mee met de gemeenschapschat op <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Hoe houd ik contact?
+about-stay-in-touch-text-1 = <emailFragment>Schrijf u in</emailFragment> voor onze e-maillijst om te leren hoe u kunt deelnemen aan campagnes, evenementen en gezamenlijke ontwerpfuncties op Common Voice.
+about-stay-in-touch-text-2 = U kunt anderen in de Mozilla-taalgemeenschappen ontmoeten door lid te worden van <discourseLink>Discourse</discourseLink> voor actuele gesprekken, of <matrixLink>Matrix</matrixLink> voor snel advies.
 about-nav-why-common-voice = Waarom?
 about-nav-how-it-works = Hoe?
 about-nav-partners = Partners
 about-nav-get-involved = Meedoen
+about-nav-how-it-works-2 = Hoe werkt Common Voice?
+about-nav-playbook = Lees hoe u kunt deelnemen
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Wat is een taal op Common Voice?
+about-playbook-what-is-language-content-1 = Er zijn veel manieren om over taal na te denken. Ten behoeve van spraakherkenningsmodellen stelt Common Voice voor om te focussen op ‘wederzijdse begrijpelijkheid’, of ‘kunnen sprekers van deze taal elkaar in het algemeen verstaan als ze dat proberen?’
+about-playbook-what-is-language-content-2 = We willen dat spraakmodellen beter zijn in het verstaan van een breed scala aan sprekers. Om dit te laten gebeuren, moet een spraakgegevensset veel verschillende mensen vertegenwoordigen.
+about-playbook-what-is-language-content-3 = Sommige talen hebben een enorme variatie in grammatica, woordenschat en uitspraak. Om deze reden <ctaLink>introduceren we ‘Varianten’</ctaLink> in 2022. Dit geeft gemeenschappen een manier om hun talen te onderscheiden binnen de grotere gegevensset.
+
+## How do I add a language
+
+about-playbook-how-add-language = Hoe voeg ik een taal toe?
+about-playbook-how-add-language-content-1 = Controleer eerst of uw taal <languageLink>al bestaat</languageLink>. Als dat niet het geval is, moet u <strong>de website vertalen en zinnen verzamelen</strong>.
+about-playbook-how-add-language-content-2 = <strong>Om de website te vertalen</strong> – zorg dat u <translateVideo>bent ingesteld</translateVideo> op <pontoonLink>Pontoon</pontoonLink>. Pontoon bevat veel talen, maar als de uwe er niet bij zit, kunt u <pontoonRequestLink>deze aanvragen</pontoonRequestLink>. Vraag vervolgens <repoLink>via GitHub</repoLink> om het Common Voice-project beschikbaar te maken voor de taal. Meer info over <localizationFragment>websitevertaling</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Om zinnen te verzamelen</strong> – <scVideo>stel</scVideo> <scLink>Sentence Collector</scLink> in.
+about-playbook-how-add-language-content-4 = U kunt hier <scLinkAdd>kleine aantallen</scLinkAdd> zinnen toevoegen, of u kunt <bulkImportDocsLink>bulkimport</bulkImportDocsLink> doen via een Github-verzoek. Onthoud dat zinnen <licenseLink>CC0 (of publiek domein)</licenseLink> moeten zijn, of u kunt uw eigen zinnen schrijven. Meer info over <scFragment>zinnenverzameling</scFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Hoe werkt websitelocalisatie?
+about-playbook-how-localize-content-1 = De vertaling van de Common Voice-website gebeurt op <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Maak een account aan</pontoonAccountLink> als u er nog geen heeft. Kies vervolgens uw taal <strong>(‘Team’)</strong> en kies vervolgens het project, <pontoonCvLink>Common Voice</pontoonCvLink>. Er zullen bestanden zijn om te vertalen. Klik op een ervan, dan toont Pontoon woorden in het Engels en een vak om ze te vertalen.
+about-playbook-how-localize-content-3 = De vertaling is uit het Engels, maar u kunt <strong>Suggesties</strong> in andere talen zien. Klik op het pictogram <strong>Profiel</strong>, vervolgens op de koppeling <strong>Settings</strong> en voeg eventuele talen toe die u spreekt. In de rechterbenedenhoek staat een lijst met vertalingen genaamd <strong>Locales</strong>. Vertalingen verschijnen na een dag op de website.
+about-playbook-how-localize-content-4 = De website kan worden gelanceerd wanneer 75% is voltooid.
+about-playbook-how-localize-content-5 = Bekijk onze video-uitleg om te helpen
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Hoe voeg ik zinnen toe?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> is een hulpmiddel voor het verzamelen en valideren van zinnen in het publieke domein. U moet <scAccountLink>een account aanmaken</scAccountLink>. Voeg vervolgens uw taal toe aan uw <strong>Profiel</strong>. U kunt zinnen <strong>Toevoegen</strong> of eerder toegevoegde zinnen <strong>Beoordelen</strong>.
+about-playbook-how-add-sentences-content-2 = Zinnen moeten door twee mensen worden beoordeeld en geaccepteerd om te worden opgenomen in Common Voice. U maakt <languageGuidelinesLink>hier</languageGuidelinesLink> richtlijnen voor uw taal. Zinnen moeten in het <licenseLink>publieke domein</licenseLink> staan en korter zijn dan 15 woorden. U kunt de eigenaar van een tekst vragen om deze <waiverLink>CC0 te maken met behulp van ons ontheffingsproces</waiverLink> en deze naar ons sturen op commonvoice@mozilla.com.
+about-playbook-how-add-sentences-content-3 = U kunt de <scraperLink>Sentence extractor</scraperLink> gebruiken om korte zinnen uit Wikipedia te gebruiken.
+about-playbook-how-add-sentences-content-4 = Gevalideerde zinnen worden op woensdag geëxporteerd en zijn na de volgende uitgave beschikbaar.
+
+## How to record quality
+
+about-playbook-how-record-quality = Hoe neem ik een spraakfragment van hoge kwaliteit op?
+about-playbook-how-record-content-1 = Spreek met uw normale stem! De manier waarop u spreekt is hier welkom – we willen uw accent zoals het is, en we willen uw gebruikelijke volume, stijl en intonatie.
+about-playbook-how-record-content-2 = Vermijd te veel achtergrondgeluid – het moet gemakkelijk zijn om u te horen.
+about-playbook-how-record-content-3 = Lees de zin aandachtig – mis of verander geen woorden en voeg geen woorden toe.
+about-playbook-how-record-content-4 = Zorg ervoor dat het platform opneemt voordat u begint te spreken en dat het pas stopt als u klaar bent.
+about-playbook-how-record-content-5 = <accuracyLink>Meer info over nauwkeurigheidscriteria.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Hoe kunnen we effectief een taal laten groeien op Common Voice?
+about-playbook-how-grow-language-content-1 = Het creëren van kansen voor een diversiteit aan mensen om bij te dragen aan Common Voice zorgt ervoor dat de gegevensset zoveel mogelijk mensen bedient. We hebben hulpbronnen en sjablonen gemaakt die u kunt gebruiken!
+about-playbook-how-grow-language-content-2 = Evenementen
+about-playbook-how-grow-language-content-3 = U kunt evenementen organiseren om mensen te helpen een bijdrage te leveren. Het is makkelijker dan u denkt. U kunt het online doen met een videoconferentiehulpmiddel, of persoonlijk als dat veilig is. <eventTemplate>Bekijk onze sjablonen en hulpbronnen voor lopende evenementen</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Sociale media
+about-playbook-how-grow-language-content-5 = U kunt sociale mediaplatforms gebruiken om de boodschap naar buiten te brengen. Deel berichten die uitleggen waarom het belangrijk is, en kom in contact met andere mensen die praten over zaken als taalrechten, spraak-AI of vooroordelen in technologie. Bekijk meer advies over <campaignLink>het uitvoeren van een sociale campagne, inclusief inhoud die u opnieuw kunt gebruiken</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnerschappen en netwerken
+about-playbook-how-grow-language-content-7 = Zoek anderen die om taal geven. Dat kunnen universiteiten, taalscholen, belangengroepen of gemeenschappen voor gegevenswetenschappen zijn. Neem contact op en leg duidelijk uit hoe ze kunnen helpen en waarom. <outreachTemplates>Bekijk onze e-mailsjablonen om contact op te nemen</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Wees creatief!</strong> Uw taalgemeenschap zal uniek zijn, en dit zijn slechts een paar manieren om te beginnen.
+
+## How to validate
+
+about-playbook-how-validate = Hoe weet ik of ik een spraakfragment kan goedkeuren?
+about-playbook-how-validate-content-1 = Als u ze <strong>kan horen</strong> en <strong>verstaan</strong>, is het meestal <strong>het beste om goed te keuren</strong>.
+about-playbook-how-validate-content-2 = <strong>Weiger geen fragmenten waarin de spreker ‘een accent heeft’ dat anders is dan het uwe</strong> – dit is belangrijk om ervoor te zorgen dat spraakherkenning beter werkt voor iedereen.
+about-playbook-how-validate-content-3 = Als u denkt dat de uitspraak het <strong>onmogelijk maakt om te verstaan</strong>, of er is <strong>veel achtergrondgeluid</strong>, of er <strong>praten ook andere mensen</strong>, dan moet u het fragment afwijzen. <accuracyLink>Meer info in onze nauwkeurigheidscriteria</accuracyLink>.
+about-playbook-how-validate-content-4 = Als een fragment door twee personen is afgewezen, wordt deze vrijgegeven in een andere subset van de gegevensset.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Hoe krijg ik toegang tot en gebruik ik de gegevensset?
+about-playbook-how-access-dataset-content-1 = U kunt naar de <datasetsPage>pagina met gegevenssets</datasetsPage> gaan, de gewenste versie en taal of talen selecteren en deze downloaden! De bestanden hebben <metadataLink>geassocieerde metadata</metadataLink>, zoals demografische gegevens en validatiegegevens. U moet een e-mailadres opgeven om de gegevensset te downloaden.
+about-playbook-how-access-dataset-content-2 = Als u op zoek bent naar hulpmiddelen om ASR-modellen te bouwen, kunt u contact opnemen met andere mensen in de gemeenschap <discourseLink>op Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Hoe worden projectbeslissingen genomen?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice wordt mogelijk gemaakt door een diverse gemeenschap van activisten, taalkundigen, gegevenswetenschappers, academici en software-engineers van over de hele wereld. Het project wordt beheerd door de Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Ons bestuur is gebaseerd op de pijlers van:
+about-playbook-how-project-governance-content-3 = Privacy, veiligheid en transparantie.
+about-playbook-how-project-governance-content-4 = Deelname van en besluitvorming door de gemeenschap.
+about-playbook-how-project-governance-content-5 = Waarde en erkenning.
+about-playbook-how-project-governance-content-6 = Wederzijdse verantwoordelijkheid.
+about-playbook-how-project-governance-content-7 = <governanceLink>Meer info over hoe we worden bestuurd</governanceLink>
 mycroft-title = Mycroft AI
 mycroft-subtitle = Kunstmatige intelligentie
 mycroft-description =
@@ -705,8 +822,8 @@ listen-instruction = { $actionType } <playIcon></playIcon> - is de zin duidelijk
 listen-again-instruction = Goed werk! <playIcon></playIcon> Luister opnieuw wanneer u klaar bent
 listen-3rd-time-instruction = 2 gedaan, ga zo door! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> De laatste!
-listen-empty-state = We hebben in deze taal geen te valideren fragmenten meer...
-speak-empty-state = We hebben in deze taal geen op te nemen zinnen meer...
+listen-empty-state = We hebben in deze taal geen te valideren fragmenten meer…
+speak-empty-state = We hebben in deze taal geen op te nemen zinnen meer…
 speak-empty-state-cta = Zinnen bijdragen
 record-button-label = Uw stem opnemen
 share-title-new = <bold>Help ons</bold> meer stemmen te vinden
@@ -1001,3 +1118,403 @@ contribution-just-unsure-title = Gewoon onzeker?
 contribution-just-unsure-description = Als u iets tegenkomt dat niet in deze richtlijnen wordt behandeld, stem dan naar uw beste oordeel. Als u echt niet kunt beslissen, gebruik dan de knop Overslaan en ga door naar de volgende opname.
 see-more = <chevron></chevron>Meer tonen
 see-less = <chevron></chevron>Minder tonen
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Startpagina
+sc-header-how-to = Handleiding
+sc-header-add = Toevoegen
+sc-header-review = Beoordelen
+sc-header-rejected = Afgewezen zinnen
+sc-header-my = Mijn zinnen
+sc-header-statistics = Statistieken
+sc-header-profile = Profiel
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Bugs melden
+sc-footer-translate = Deze pagina vertalen
+sc-footer-report-copyright = Auteursrechtproblemen melden
+sc-footer-privacy = Privacy
+sc-footer-terms = Voorwaarden
+sc-footer-cookies = Cookies
+sc-login-signup-button = Aanmelden/Registreren
+sc-logout-button = Afmelden
+
+## HOME
+
+sc-home-title = Welkom bij de Common Voice Sentence Collector
+sc-home-intro =
+    De Sentence Collector is onderdeel van <commonVoiceLink>Common Voice</commonVoiceLink>.
+    Hiermee kunnen bijdragers zinnen die door de gemeenschap zijn gemaakt verzamelen en valideren.
+    U kunt dit hulpmiddel ook gebruiken om gevonden of verzamelde kleine tot middelgrote teksten in het publieke
+    domein te importeren en op te schonen. Alle zinnen moeten openbaar toegankelijk zijn.
+    Goedgekeurde zinnen worden elke week geëxporteerd naar de Common Voice-repository en vrijgegeven
+    op de Common Voice-website bij elke nieuwe implementatie.
+sc-home-collect-title = Zinnen verzamelen
+sc-home-collect-text = Help ons door openbaar toegankelijke zinnen te schrijven of te verzamelen.
+sc-home-review-title = Zinnen beoordelen
+sc-home-review-text = Help ons door zinnen te controleren op juistheid volgens de richtlijnen.
+
+## GENERAL
+
+sc-languages-fetch-error = We kunnen de beschikbare talen niet ophalen. Bijdragen zijn momenteel niet mogelijk. Probeer het later opnieuw.
+
+## HOW-TO
+
+sc-howto-title = Handleiding
+sc-howto-addlang-title = Talen toevoegen om mee te werken
+sc-howto-addlang-text = Nadat u bent aangemeld, kunt u uw talen selecteren in de profielsectie.
+sc-howto-addsen-title = Nieuwe zinnen toevoegen
+sc-howto-addsen-item-1 =
+    Alle zinnen die u indient, moeten onder de <wikipediaLink>Public Domain (CC-0)-licentie</wikipediaLink> vallen.
+    Om de opname van werk dat niet onder openbare licentie valt te ondersteunen, hebben we een
+    <cc0WaiverLink>Sjabloon voor bijdrageovereenkomst</cc0WaiverLink> gemaakt voor werken waarvan de eigenaar van het auteursrecht
+    het materiaal graag wil bijdragen aan Common Voice.
+sc-howto-addsen-item-2 =
+    Getallen. Er mogen geen cijfers in de brontekst staan, omdat deze problemen kunnen veroorzaken
+    wanneer ze hardop worden voorgelezen. De manier waarop een getal wordt gelezen is afhankelijk van de context en kan verwarring in de dataset veroorzaken.
+    Het getal ‘2409’ kan bijvoorbeeld nauwkeurig worden gelezen als zowel ‘vierentwintig nul negen’ en
+    ‘tweeduizend vierhonderd negen’.
+sc-howto-addsen-item-3 =
+    Afkortingen en acroniemen. Afkortingen en acroniemen zoals ‘USA’ of ‘ICE’
+    moeten in de brontekst worden vermeden, omdat ze op een manier kunnen worden gelezen die niet samenvalt met hun spelling.
+    Bovendien kunnen er meerdere nauwkeurige leesvormen zijn voor een dezelfde afkorting.
+    Het acroniem ‘ICE’ kan bijvoorbeeld worden uitgesproken als ‘I-C-E’ of als een enkel woord.
+sc-howto-addsen-item-4 =
+    Interpunctie. Speciale symbolen en leestekens mogen alleen worden opgenomen
+    wanneer dit absoluut noodzakelijk is. Er is bijvoorbeeld een apostrof opgenomen in Nederlandse woorden als
+    ‘z’n’ en deze zou in de brontekst moeten worden opgenomen, maar het is onwaarschijnlijk dat u
+    ooit een speciaal symbool zoals ‘@‘ of ‘#’ nodig hebt.
+sc-howto-addsen-item-5 =
+    Buitenlandse letters. Letters moeten geldig zijn in de taal die wordt gesproken.
+    ‘ж’ is bijvoorbeeld een letter in het Russische alfabet, maar wordt nooit in het Nederlands gebruikt en zou dus ook nooit
+    mogen verschijnen in een Nederlandse brontekst.
+sc-howto-addsen-item-6 =
+    Talen kunnen hun <validationRulesLink>eigen validatieregels</validationRulesLink> hebben
+    met aanvullende eisen. Als er geen specifiek validatiebestand voor een taal is,
+    dan worden de algemene Nederlandse regels gebruikt.
+sc-howto-addsen-post-1 =
+    We geven de voorkeur aan natuurlijke/gesprekszinnen.
+    Hoewel fonetische diversiteit en verschillende woorden in zinnen belangrijk zijn, proberen we het opnemen van
+    zinnen zo leuk mogelijk te maken. Daarom zou het geweldig zijn als u probeert uw zinnen
+    zo natuurlijk/aantrekkelijk mogelijk te houden.
+sc-howto-cite-title = Citeren
+sc-howto-cite-pre-1 =
+    Het is belangrijk dat u vermeldt waar u de openbare licentie hebt gevonden
+    om plagiaat te voorkomen en om opvolging van <copyrightIssuesLink>auteursrechtproblemen</copyrightIssuesLink> mogelijk te maken.
+    Hier zijn een paar manieren waarop u het werk kunt citeren.
+sc-howto-cite-item-1 = U kunt de website opnemen, bijvoorbeeld ‘Common Voice - https://commonvoice.mozilla.org/’
+sc-howto-cite-item-2 =
+    U kunt een academische referentiestijl gebruiken, bijvoorbeeld Harvard-stijl
+    ‘Mozilla (2021) Common Voice. Beschikbaar op https://commonvoice.mozilla.org/ (Benaderd: 15 september 2021)’
+sc-howto-cite-item-3 =
+    Voor openbare licentietekst die niet online beschikbaar is, kunt u de academische referentiestijl gebruiken,
+    b.v. Harvard-stijl ‘Jess (2021) Mijn openbare licentiegedichten’
+sc-howto-review-title = Zinnen beoordelen
+sc-howto-review-subtitle = Zorg ervoor dat de zin aan de volgende criteria voldoet:
+sc-howto-review-criteria-1 = De zin moet correct gespeld zijn.
+sc-howto-review-criteria-2 = De zin moet grammaticaal correct zijn.
+sc-howto-review-criteria-3 = De zin moet uitspreekbaar zijn.
+sc-howto-review-criteria-4 = Als de zin aan de criteria voldoet, klik dan op de knop ‘Goedkeuren’.
+sc-howto-review-criteria-5 =
+    Als de zin niet aan de bovenstaande criteria voldoet, klik dan op de knop ‘Afwijzen’.
+    Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
+sc-howto-review-criteria-6 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
+sc-howto-findpd-title = Bestaande zinnen vinden in het publieke domein
+sc-howto-findpd-subtitle = Ernaar zoeken op het internet
+sc-howto-findpd-text-2 = Onthoud dat we toestemming nodig hebben om die zinnen te publiceren, dus zorg er altijd voor dat de tekst tot het <wikipediaLink>publieke domein</wikipediaLink> behoort. Als dit niet expliciet aangeduid is, neem dan contact op met de persoon van wie de tekst is en vraag of ze hun tekst willen bijdragen aan het Publieke Domein. Als ze dat willen, help ze dan door het proces van de <cc0WaiverLink>Medewerkersovereenkomst</cc0WaiverLink> te gaan. Als ze de tekst niet willen bijdragen, dan mag u die tekst niet gebruiken.
+sc-howto-findpd-tips = Hier zijn enkele tips om zinnen te vinden:
+sc-howto-findpd-tips-1 =
+    De beste bronnen waarnaar u kunt zoeken zijn podcasts, transcripties, filmscripts en
+    alles dat potentieel alledaagse gesprekken kan bevatten.
+sc-howto-findpd-tips-2 =
+    Overheidsprocedures, boeken en artikelen zijn echter ook geweldig, aangezien
+    de tekst echter meestal wat formeler is hebben ze minder prioriteit.
+sc-howto-findpd-tips-3 = Helaas kunnen we nog geen Wikimedia-artikelen hebben. Dus kopieer en plak niets uit die bron.
+sc-howto-findpd-subtitle-2 = Werk samen met lokale organisaties of personen
+sc-howto-findpd-partner-1 =
+    Er zijn veel publieke organisaties die misschien willen samenwerken
+    en al veel teksten die ze als publiek domein kunnen doneren hebben. Neem contact op met lokale universiteiten,
+    overheden en opensource-organisaties om over het project te praten en om hun hulp te vragen.
+sc-howto-findpd-partner-2 =
+    Deskundige linguïsten kunnen ook helpen, probeer contact op te nemen met de lokale linguïstische
+    universiteiten (zowel docenten als studenten) en kijk of ze kunnen helpen om een diverse set van
+    zinnen met uiteenlopende klanken in uw taal te verzamelen.
+
+## MY SENTENCES
+
+sc-my-title = Mijn zinnen
+sc-my-description =
+    Deze pagina biedt u een overzicht van al uw ingezonden zinnen.
+    U kunt indien nodig ook reeds ingediende zinnen verwijderen door er een vinkje naast te plaatsen
+    en onderaan op &quot;Geselecteerde zinnen verwijderen&quot; te klikken.
+    Verwijder zinnen alleen als dit absoluut noodzakelijk is,
+    bijvoorbeeld als u achteraf opmerkt dat een zin auteursrechtelijk beschermd is.
+sc-my-loading = Uw zinnen laden…
+sc-my-err-fetching = Fout bij het ophalen van uw zinnen. Probeer het opnieuw.
+sc-my-no-sentences = Geen zinnen gevonden!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Inzending: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Bron: { $source }
+sc-my-delete = Geselecteerde zinnen verwijderen
+sc-my-deleting = Geselecteerde zinnen verwijderen…
+sc-my-err-failed-delete = Kan geselecteerde zinnen niet verwijderen… Probeer het opnieuw!
+
+## REJECTED
+
+sc-rejected-title = Afgewezen zinnen
+sc-rejected-loading = Afgewezen zinnen laden…
+sc-rejected-err-fetching = Fout bij het ophalen van afgewezen zinnen. Probeer het opnieuw.
+sc-rejected-none-found = Geen afgewezen zinnen gevonden!
+
+## STATS
+
+sc-stats-title = Statistieken
+sc-stats-updating = Bijwerken…
+sc-stats-error = We kunnen de statistieken niet ophalen. Probeer het later nog eens.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary =
+    De Common Voice Sentence Collector heeft { $sentenceCount }
+    zinnen in { $languageCount } talen verzameld!
+
+## ADD
+
+sc-submit-err-select-lang = Selecteer een taal.
+sc-submit-err-add-sentences = Voeg zinnen toe.
+sc-submit-err-add-source = Voeg een bron toe.
+sc-submit-err-confirm-pd = Bevestig dat deze zinnen publiek domein zijn.
+sc-submit-prompt =
+    .message = Zinnen niet ingediend, weet u zeker dat u wilt afsluiten?
+sc-submit-title = Zinnen toevoegen
+sc-submit-select-language =
+    .labelText = Taal selecteren
+sc-submit-add-sentences = <wikipediaLink>Publiek domein</wikipediaLink>-zinnen toevoegen
+sc-submit-ph-one-per-line =
+    .placeholder = Eén zin per regel
+sc-submit-from-where = Waar komen deze <wikipediaLink>publiek domein</wikipediaLink>-zinnen vandaan?
+sc-submit-ph-read-how-to =
+    .placeholder = Lees onze handleiding als u niet zeker weet hoe u moet toeschrijven
+sc-submit-confirm =
+    Ik bevestig dat deze zinnen <wikipediaLink>publiek domein</wikipediaLink> zijn en
+    ik toestemming heb om ze te uploaden.
+sc-submit-button =
+    .submitText = Indienen
+sc-submit-filtered = Gefilterde zinnen vanwege niet voldoen aan eisen (dien correcte versies in als nieuwe zinnen):
+sc-submit-guidelines = Raadpleeg de <howToLink>richtlijnen</howToLink>.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Kan taal niet toevoegen
+sc-add-lang-sec-label = Voeg een taal toe waaraan u wilt bijdragen
+sc-add-lang-sec-button = Taal toevoegen
+sc-add-err-unexpected = Onverwacht antwoord ontvangen van server
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Ingediende zinnen. { $duplicates } zinnen zijn afgewezen als duplicaten.
+        [one] Ingediende zinnen. { $duplicates } zin is afgewezen als duplicaat.
+       *[other] Ingediende zinnen. { $duplicates } zinnen zijn afgewezen als duplicaten.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Geen zin mislukt
+        [one] Eén zin mislukt
+       *[other] { $sentences } zinnen mislukt
+    }
+sc-add-err-submission = Indieningsfout
+sc-add-lang-process-notice = Als uw taal hier niet wordt vermeld, kunt u deze aanvragen via <languageProcessLink>dit proces</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = Zinnen niet ingediend, weet u zeker dat u wilt afsluiten?
+sc-confirm-sentences-title = Nieuwe zinnen bevestigen
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Geen zinnen gevonden.
+        [one] Eén zin gevonden.
+       *[other] { $countOfSentences } zinnen gevonden.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } door u afgewezen
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Geen zin reeds beoordeeld.
+        [one] Er is reeds één zin beoordeeld. Goed werk!
+       *[other] Er zijn reeds { $countOfReviewed } zinnen beoordeeld. Goed werk!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Geen zin klaar voor indiening!
+        [one] Eén zin klaar voor indiening!
+       *[other] { $readyCount } zinnen klaar voor indiening!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed =
+    { $countOfUnreviewed } zinnen zijn niet beoordeeld.
+    Als u wilt, kunt u uw zinnen nu ook beoordelen voordat u ze indient.
+sc-confirm-button-text = Bevestigen
+sc-confirm-uploading = Zinnen worden geüpload. Dit kan enkele minuten duren, afhankelijk van het aantal toegevoegde zinnen. Sluit deze website niet.
+
+## LANGUAGE INFO
+
+sc-lang-info-title-total = Totaal
+sc-lang-info-title-personal = Persoonlijk
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Geen totaal aantal zinnen.
+        [one] Totaal één zin.
+       *[other] Totaal { $totalSentences } zinnen.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Geen zinnen in beoordeling.
+        [one] Eén zin in beoordeling.
+       *[other] { $totalInReview } zinnen in beoordeling.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Geen zin die u nog kunt beoordelen.
+        [one] Eén zin die u nog kunt beoordelen.
+       *[other] { $unreviewedSentencesByYou } zinnen die u nog kunt beoordelen.
+    }
+sc-lang-info-review-now = <reviewLink>Nu beoordelen!</reviewLink>
+sc-lang-info-add-more = <addLink>Nu meer zinnen toevoegen!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Geen gevalideerde zinnen.
+        [one] Eén gevalideerde zin.
+       *[other] { $validatedSentences } gevalideerde zinnen.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Geen afgewezen zinnen.
+        [one] Eén afgewezen zin.
+       *[other] { $rejectedSentences } afgewezen zinnen.
+    }
+
+## LOGIN
+
+sc-login-err-failed = Aanmelding mislukt
+sc-login-err-try-again = Probeer het opnieuw.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profiel: { $username }
+sc-personal-err-lang-not-found = Kan taal niet verwijderen: taal niet gevonden
+sc-personal-err-remove = Kan taal niet verwijderen
+sc-personal-your-languages = Uw talen:
+sc-personal-remove-button = verwijderen
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } door u toegevoegd
+sc-personal-not-added = U hebt nog geen talen toegevoegd.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ Beoordelingscriteria
+sc-criteria-title = Beoordelingscriteria
+sc-criteria-make-sure = Zorg ervoor dat de zin aan de volgende criteria voldoet:
+sc-criteria-item-1 = De zin moet correct gespeld zijn.
+sc-criteria-item-2 = De zin moet grammaticaal correct zijn.
+sc-criteria-item-3 = De zin moet uitspreekbaar zijn.
+sc-criteria-item-4 = Als de zin aan de criteria voldoet, klik dan op de knop &quot;Goedkeuren&quot; aan de rechterkant.
+sc-criteria-item-5-2 =
+    Als de zin niet aan de bovenstaande criteria voldoet, klik dan op de knop ‘Afwijzen’ aan de linkerkant.
+    Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
+sc-criteria-item-6 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
+
+## REVIEW
+
+sc-review-lang-not-selected =
+    U hebt geen talen geselecteerd. Ga naar uw
+    <profileLink>Profiel</profileLink> om talen te selecteren.
+sc-review-title = Zinnen beoordelen
+sc-review-loading = Zinnen laden…
+sc-review-select-language = Selecteer een taal om zinnen te beoordelen.
+sc-review-no-sentences =
+    Geen zinnen om te beoordelen.
+    <addLink>Voeg nu meer zinnen toe!</addLink>
+sc-review-form-prompt =
+    .message = Beoordeelde zinnen niet ingediend, weet u het zeker?
+sc-review-form-usage =
+    Veeg naar rechts om de zin goed te keuren. Veeg naar links om deze af te wijzen.
+    Veeg omhoog om deze over te slaan. <strong>Vergeet niet uw beoordeling in te dienen!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Bron: { $sentenceSource }
+sc-review-form-button-reject = Afwijzen
+sc-review-form-button-skip = Overslaan
+sc-review-form-button-approve = Goedkeuren
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = J
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = O
+sc-review-form-keyboard-usage-custom = U kunt ook sneltoetsen gebruiken: { sc-review-form-button-approve-shortcut } om goed te keuren, { sc-review-form-button-reject-shortcut } om af te keuren, { sc-review-form-button-skip-shortcut } om over te slaan
+sc-review-form-button-submit =
+    .submitText = Beoordeling voltooien
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Geen zinnen beoordeeld.
+        [one] Eén zin beoordeeld. Bedankt!
+       *[other] { $sentences } zinnen beoordeeld. Bedankt!
+    }
+sc-review-form-review-failure = Beoordeling kan niet worden opgeslagen. Probeer het later nog eens.
+sc-review-link = Beoordelen
+
+## SETTINGS
+
+sc-settings-title = Instellingen
+sc-settings-ui-language = Interfacetaal
+sc-settings-language-translated-warning = De pagina’s voor deze taal zijn mogelijk niet volledig vertaald. U kunt helpen met vertalen <pontoonLinkLink>op Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = Overgeslagen zinnen herinitialiseren
+sc-settings-skipped-decription =
+    U hebt eerder zinnen overgeslagen tijdens het beoordelen.
+    Bij het herinitialiseren van overgeslagen zinnen worden alle overgeslagen zinnen weer getoond.
+    Dit staat los van de taal.
+sc-settings-show-all-button = Alle overgeslagen zinnen opnieuw tonen
+sc-settings-failed = Kan instellingen niet wijzigen. Probeer het opnieuw.
+# VALIDATION
+sc-validation-number-of-words = Zin moet tussen 1 en 14 (inclusief) woorden bevatten
+sc-validation-no-numbers = Zin mag geen getallen bevatten
+sc-validation-no-symbols = Zin mag geen symbolen bevatten
+sc-validation-no-abbreviations = Zin mag geen afkortingen bevatten
+
+# [/SentenceCollector]
+
+localization-select =
+    .label = Kies uw taal/localisatie

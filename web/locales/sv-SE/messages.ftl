@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Ja, skicka mig e-postmeddelanden. Jag skulle vilja hålla mig informerad om projektet Common Voice.
-stayintouch = Vi hos Mozilla bygger en gemenskap kring röstteknik. Vi skulle vilja hålla kontakten med dig om uppdateringar, nya datakällor och höra mer om hur du använder dessa data.
+stayintouch = Vi på Mozilla bygger en gemenskap kring röstteknik. Vi skulle vilja hålla kontakten med dig om uppdateringar, nya datakällor och höra mer om hur du använder dessa data.
 privacy-info = Vi lovar att hantera din information med försiktighet. Läs mer i vår <privacyLink>sekretesspolicy</ privacyLink>.
 return-to-cv = Återgå till Common Voice
 email-input =
@@ -36,9 +36,9 @@ ba = Basjkiriska
 bas = Basaa
 be = Vitryska
 bg = Bulgariska
-bm = Bambara
 bn = Bengaliska
 br = Bretonska
+bs = Bosniska
 bxr = Buryat
 ca = Katalanska
 cak = Cakchiquel
@@ -67,6 +67,7 @@ fy-NL = Frisiska
 ga-IE = Irländska
 gl = Galiciska
 gn = Guarani
+gom = Goa-konkani
 ha = Hausa
 he = Hebreiska
 hi = Hindi
@@ -90,11 +91,14 @@ kab = Kabyliska
 kbd = Kabardinska
 ki = Kikuyu
 kk = Kazakstanska
+km = Khmer
 kmr = Kurmanji kurdiska
+knn = Konkani (devanagari)
 ko = Koreanska
 kpv = Komi-syrjänska
 kw = Korniska
 ky = Kirgiziska
+lb = Luxemburgiska
 lg = Luganda
 lij = Liguriska
 lt = Litauiska
@@ -106,6 +110,7 @@ mhr = Östmariska
 mk = Makedonska
 ml = Malayalam
 mn = Mongoliska
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Västmariska
@@ -127,6 +132,8 @@ pap-AW = Papiamento (Aruba)
 pl = Polska
 ps = Pashto
 pt = Portugisiska
+quc = Quiché
+quy = Quechua Chanka
 rm-sursilv = Rätoromanska
 rm-vallader = Rätoromanska Vallader
 ro = Rumänska
@@ -139,6 +146,7 @@ scn = Sicilianska
 shi = Shilha
 si = Singalesiska
 sk = Slovakiska
+skr = Saraiki
 sl = Slovenska
 so = Somaliska
 sq = Albanska
@@ -150,7 +158,11 @@ ta = Tamilska
 te = Telugu
 tg = Tadzjikiska
 th = Thailändska
+ti = Tigrinska
+tig = Tigre
+tk = Turkmeniska
 tl = Tagalog
+tok = Toki Pona
 tr = Turkiska
 tt = Tatariska
 tw = Twi
@@ -254,7 +266,7 @@ email-subscription-title-new = Registrera dig för Common Voice nyhetsbrev, mål
 
 benefits = Fördelar
 rich-data = Gör dina inskickade data så utförliga som möjligt genom att bidra med anonym demografi. Vi anonymiserar all demografisk data innan den blir publik.
-improve-audio = Profilinformation förbättrar ljuddatan som används för att göra träningen av röstigenkänning bättre.
+improve-audio = Profilinformation förbättrar ljuddata som används för att göra träningen av röstigenkänning bättre.
 keep-track = Håll reda på dina framsteg och mätvärden för flera språk.
 compare-progress = Se hur dina framsteg går mot andra som bidrar över hela världen.
 view-goals = Se dina personliga framsteg och projektmål.
@@ -264,7 +276,7 @@ join-newsletter = Du kan, om du vill, gå med i vår e-postlista för uppdaterin
 
 whats-public = Vad är offentligt?
 email-not-public = Vi kommer inte göra din e-post offentlig.
-recordings-and-locale-public = Antalet inspelningar och vilka språk du bidrar till kommer att vara offentligt.
+recordings-and-locale-public = Antalet inspelningar och vilka språk du bidrar till kommer att vara offentliga.
 username-optin-public = Du kan välja att göra ditt användarnamn offentligt eller anonymt.
 demographic-deidentified-clarity-2 = Valfritt inskickade demografiska data (t.ex. ålder, kön, språk och accent) kommer aldrig att offentliggöras i din profil och kommer inte att länkas till ditt konto i datamängden. Enskilda ljudklipp kommer att associeras med demografiska data i syfte att göra en mer exakt analys - till exempel kan en forskare inrikta sig på en träningsmodell till ett specifikt demografiskt segment.
 username-email-not-demographic = Ditt användarnamn och e-post kommer inte att kopplas till den publicerade datan.
@@ -325,8 +337,13 @@ profile-form-native-language =
     .label = Modersmål
 profile-form-additional-language =
     .label = Ytterligare språk
+profile-form-language =
+    .label = Språk
 profile-form-accent =
-    .label = Dialekt
+    .label = Accent
+profile-form-custom-accent-help-text =
+    .label = Hur skulle du beskriva din accent?
+profile-form-custom-accent-placeholder-2 = Börja skriva för att beskriva din accent
 profile-form-age =
     .label = Ålder
 profile-form-gender-2 =
@@ -337,6 +354,7 @@ hidden = Dold
 visible = Synlig
 native-language =
     .label = Modersmål
+profile-form-add-accent = Lägg till ny anpassad accent "{ $inputValue }"
 profile-form-submit-save = Spara
 profile-form-submit-saved = Sparad
 male = Man
@@ -370,6 +388,8 @@ skip-submission-description = Under inlämning av bidrag ignoreras återkoppling
 skip-submission-note = Notera: Du behöver fortfarande välja mellan att prata och lyssna för att ändra bidragstyp.
 off = Av
 on = På
+help-accent = Behöver du hjälp med accent?
+help-accent-explanation = Din accent är hur du uttalar ord. Det kan formas av var du har bott, vilka andra språk du talar och massor av andra faktorer. Du kan dela all information som du tycker är relevant här.
 
 ## Profile - Email
 
@@ -411,7 +431,7 @@ faq-why-important-a =
 faq-how-get-q = Hur kan jag hämta hem Common Voice-data?
 faq-how-get-a = Common Voice-datamängd finns tillgänglig för nedladdning under licensen <licenseLink>CC0</licenseLink> på <datasetLink>vår sida för datamängder</datasetLink>. Du kan också ladda ner flera andra publikt tillgängliga datamängder från samma sida.
 faq-when-release2-q = När kommer ni släppa Common Voice-data på andra språk?
-faq-when-release2-a = Flerspråkig version av Common Voice-datamängd genomgår för närvarande paketering och rengöring av gemenskapen. Om du vill hjälpa oss att ta med Common Voice till andra språk, gå till <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> för att lägga till nya meningar i datamängden och Mozilla <pontoonLink>Pontoon</pontoonLink> för att översätta webbplatsen. Nya språk läggs till i Common Voice när 5000 godkända meningar har samlats in.
+faq-when-release2-a = Flerspråkig version av Common Voice-datamängd genomgår för närvarande paketering och rengöring av gemenskapen. Om du vill hjälpa oss att ta med Common Voice till andra språk, gå till <sentenceCollectorLink>verktyg för meningsinsamling</sentenceCollectorLink> för att lägga till nya meningar i datamängden och Mozilla <pontoonLink>Pontoon</pontoonLink> för att översätta webbplatsen. Nya språk läggs till i Common Voice när 5000 godkända meningar har samlats in.
 faq-why-mission-q = Varför är Common Voice en del av Mozillas uppdrag?
 faq-why-mission-a = Mozilla är dedikerat till att hålla webben öppen och tillgänglig för alla. För att göra det behöver vi stärka webbskapare genom projekt som Common Voice. Eftersom röstteknologi växer utöver nischprogram, tycker vi att de måste vara tillgängliga för alla användare. Det innebär en investering i fler språk och anpassning efter fler accenter och större demografi när man bygger och testar röstteknik. Common Voice är en offentlig resurs tillgänglig för alla och Mozilla-team och utvecklare runt om i världen använder den redan i sina egna projekt.
 faq-what-cv-and-deepspeech-q = Vad är skillnaden mellan Common Voice och Deep Speech?
@@ -457,17 +477,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Varför Common Voice?
-about-subtitle = Common Voice är en del av Mozillas initiativ för att hjälpa till att lära maskiner hur riktiga människor talar. Förutom Common Voice-datamängd bygger vi också en taligenkänningsmotor med öppen källkod som heter Deep Speech.
-about-header-description =
-    Båda dessa projekt är en del av våra ansträngningar att överbrygga den digitala talklyftan. Röstigenkänningsteknik ger en mänsklig dimension till våra enheter, men utvecklare behöver en enorm mängd röstdata för att bygga dem. För närvarande är de flesta av dessa data dyra och proprietära.
-    Vi vill göra röstdata fritt och allmänt tillgängliga, och se till att uppgifterna representerar mångfalden av riktiga människor. Tillsammans kan vi göra röstigenkänning bättre för alla.
-about-header-description-2 =
-    Detta projekt är ett försök att överbrygga det digitala talets klyfta.
-    Röstigenkänningsteknologin tillför en mänsklig dimension åt våra apparater men för att det skall lyckas så behöver utvecklare enorma mängder av röstdata och för tillfället så är större delen av dessa data både dyr och belagd med patent.
-    Vi vill att röstdata skall vara gratis och tillgängligt för alla, inte minst  för att säkerställa att datan verkligen representerar mångfalden av verkliga människor.
-    Tillsammans kan vi göra röstigenkänning bättre för alla.
-how-does-it-work-title = Hur fungerar det
+about-header-description-v2 =
+    <p>Common Voice är en allmänt tillgänglig röstdatamängd, som drivs av röster från frivilliga bidragsgivare runt om i världen. Människor som vill bygga röstapplikationer kan använda datamängden för att träna maskininlärningsmodeller.</p>
+    <p>För närvarande ägs de flesta röstdatamängder av företag, vilket hämmar innovation. Röstdatamängder överrepresenterar också vita, engelsktalande män. Detta betyder att röstaktiverad teknik inte fungerar alls för många språk och där den fungerar kanske den inte fungerar lika bra för alla. Vi vill ändra på det genom att mobilisera människor överallt för att dela sin röst.</p>
+how-does-it-work-title-v2 = Hur fungerar Common Voice?
 how-does-it-work-text = Vi crowdsourcar en röstdatamängd med öppen källkod. Donera din röst, bekräfta noggrannheten i inspelningar från andra och gör datamängden bättre för alla.
+
+## How does it work section
+
+about-language-req-subtitle = Någon ber om att ett språk ska läggas till.
+about-localization-title = Webbplatsöversättning
+about-localization-subtitle = Webbplatsens text är översatt till det språket.
+about-sentence-collection-title = Insamling av meningar
+about-sentence-collection-subtitle = Meningar samlas in för att personer ska kunna läsa högt.
+about-new-lang-title = Ny språklansering
+about-new-lang-subtitle = Vi lanserar webbplatsen Common Voice på detta språk.
+about-voice-contrib-title = Röstbidrag
+about-voice-contrib-subtitle = Personer kommer och bidrar med sina röster.
+about-voice-validation-title = Röstvalidering
+about-voice-validation-subtitle = Andra personer validerar dessa röstklipp.
+about-dataset-release-title = Släpp av datamängder
+about-dataset-release-subtitle = Vi släpper datamängder var tredje månad.
+about-subscribe-text = Vill du hålla kontakten med Common Voice?
 about-speak = Tala
 about-speak-text = Bidragsgivare spelar in röstklipp genom att läsa från en bank med givna meningar.
 about-listen-queue = Lyssna-kö
@@ -496,10 +527,94 @@ about-get-involved-text-2 =
     Bra! Ta kontakt via e-post eller <discourseLink>Discourse</discourseLink>
     forum, skicka webbplatsfrågor via <githubLink>GitHub</githubLink> eller gå med i
     <matrixLink>Matrix</matrixLink> communitychatt.
+about-stay-in-touch = Hur håller jag kontakten?
+about-stay-in-touch-text-1 = <emailFragment>Anmäl dig</emailFragment> till vår e-postlista för att lära dig hur du kan ta del av kampanjer, evenemang och samarbetsdesignfunktioner på Common Voice.
+about-stay-in-touch-text-2 = Du kan träffa andra i Mozillas språkgemenskaper genom att gå med i <discourseLink>Discourse</discourseLink> för aktuella samtal eller <matrixLink>Matrix</matrixLink> för snabba råd.
 about-nav-why-common-voice = Varför ?
 about-nav-how-it-works = Hur ?
 about-nav-partners = Partners
 about-nav-get-involved = Engagera dig
+about-nav-how-it-works-2 = Hur fungerar Common Voice?
+about-nav-playbook = Lär dig hur du deltar
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Vad är ett språk på Common Voice?
+about-playbook-what-is-language-content-1 = Det finns många sätt att tänka på språk. För taligenkänningsmodeller föreslår Common Voice att man fokuserar på "ömsesidig förståelse", eller "kan talare av detta språk mestadels förstå varandra om de försöker?"
+about-playbook-what-is-language-content-2 = Vi vill att talmodeller ska bli bättre på att förstå en mängd olika talare. För att detta ska hända måste en röstdatamängd representera många olika personer.
+about-playbook-what-is-language-content-3 = Vissa språk har enorm variation i grammatik, ordförråd och uttal. Av denna anledning <ctaLink>introducerar vi "Varianter"</ctaLink> 2022. Detta ger gemenskaper ett sätt att särskilja sina språk inom den större datamängden.
+
+## How do I add a language
+
+about-playbook-how-add-language = Hur lägger jag till ett språk?
+about-playbook-how-add-language-content-1 = Kontrollera först om ditt språk <languageLink>redan finns</languageLink>. Om det inte gör det måste du <strong>översätta webbplatsen och samla meningar</strong>.
+about-playbook-how-add-language-content-2 = <strong>För att översätta webbplatsen</strong> - <translateVideo>konfigurera</translateVideo <pontoonLink>Pontoon</pontoonLink>. Pontoon har många språk, men om det inte har ditt kan du <pontoonRequestLink>begära det</pontoonRequestLink>. Be sedan <repoLink>via GitHub</repoLink> att få Common Voice-projektet tillgängligt för språket. Se mer om <localizationFragment>webbplatsöversättning</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>För att samla in meningar</strong> - <scVideo>konfigurera</scVideo> <scLink>meningsinsamlaren</scLink>.
+about-playbook-how-add-language-content-4 = Du kan <scLinkAdd>lägga till ett litet antal</scLinkAdd> meningar här eller så kan du göra <bulkImportDocsLink>massimport</bulkImportDocsLink> via en Github-förfrågan. Kom ihåg att meningar måste vara <licenseLink>CC0 (eller allmän egendom)</licenseLink> eller så kan du skriva din egen. Se mer om <scFragment>meningsinsamling</scFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Hur fungerar översättning av webbplatsen?
+about-playbook-how-localize-content-1 = Översättning av Common Voice-webbplatsen sker på <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Skapa ett konto</pontoonAccountLink> om du inte har ett. Välj sedan ditt språk <strong>(‘Team’)</strong> och välj sedan projektet, <pontoonCvLink>Common Voice</pontoonCvLink>. Det kommer att finnas filer att översätta. Klicka på en, så visas ord på engelska och en ruta för att översätta dem.
+about-playbook-how-localize-content-3 = Översättningen är från engelska, men du kan se <strong>Förslag</strong> på andra språk. Klicka på ikonen <strong>Profil</strong>, sedan på länken <strong>Inställningar</strong> och lägg till alla språk du talar. I det nedre högra hörnet finns en lista med översättningar som heter <strong>Språk</strong>. Översättningar visas på webbplatsen efter en dag.
+about-playbook-how-localize-content-4 = Webbplatsen är redo att lanseras när den är 75% klar.
+about-playbook-how-localize-content-5 = Se vår videoförklaring för att hjälpa dig
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Hur lägger jag till meningar?
+about-playbook-how-add-sentences-content-1 = <strong>Meningsinsamlaren</strong> är ett verktyg för att samla in och validera meningar som är allmän egendom. Du måste <scAccountLink>skapa ett konto</scAccountLink>. Lägg sedan till ditt språk i din <strong>profil</strong>. Du kan <strong>Lägga till</strong> meningar eller <strong>Granska</strong> tidigare tillagda meningar.
+about-playbook-how-add-sentences-content-2 = Meningar måste granskas och accepteras av två personer för att inkluderas i Common Voice. Du skapar riktlinjer för ditt språk <languageGuidelinesLink>här</languageGuidelinesLink>. Meningar måste vara <licenseLink>allmänna egendom</licenseLink> och kortare än 15 ord. Du kan be ägaren av en text att göra den till <waiverLink>CC0 med hjälp av vår dispensprocess</waiverLink> och skicka till oss på commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Du kan använda <scraperLink>Meningsutdragaren</scraperLink> för att utnyttja korta meningar från Wikipedia.
+about-playbook-how-add-sentences-content-4 = Meningar som har validerats exporteras på onsdagar och är tillgängliga efter nästa release.
+
+## How to record quality
+
+about-playbook-how-record-quality = Hur spelar jag in ett röstklipp med hög kvalitet?
+about-playbook-how-record-content-1 = Tala med din vanliga röst! Sättet du talar på är välkommet här - vi vill ha din accent som den är, och vi vill ha din vanliga volym, stil och intonation.
+about-playbook-how-record-content-2 = Undvik för mycket bakgrundsljud – det ska vara lätt att höra dig.
+about-playbook-how-record-content-3 = Läs meningen noga - missa inte, ändra eller lägg till ord.
+about-playbook-how-record-content-4 = Se till att plattformen spelar in innan du börjar prata och att den endast stannar när du är klar.
+about-playbook-how-record-content-5 = <accuracyLink>Se mer om noggrannhetskriterier.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Hur kan vi effektivt utveckla ett språk på Common Voice?
+about-playbook-how-grow-language-content-1 = Genom att skapa möjligheter för en mångfald människor att bidra till Common Voice säkerställer vi att datamängden betjänar så många människor som möjligt. Vi har skapat resurser och mallar som du kan använda!
+about-playbook-how-grow-language-content-2 = Evenemang
+about-playbook-how-grow-language-content-3 = Du kan anordna evenemang för att hjälpa människor att bidra. Det är lättare än du tror. Du kan göra det online med ett videokonferensverktyg eller personligen om det är säkert. <eventTemplate>Kolla in våra mallar och resurser för att köra evenemang</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Sociala medier
+about-playbook-how-grow-language-content-5 = Du kan använda sociala medier för att få ut budskapet. Dela inlägg som förklarar varför det är viktigt och ta kontakt med andra som pratar om frågor som språkrättigheter, röst-AI eller teknisk fördom. Se fler råd om att <campaignLink>köra en social kampanj, inklusive innehåll som du kan återanvända</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnerskap och nätverk
+about-playbook-how-grow-language-content-7 = Hitta andra som bryr sig. Det kan vara universitet, språkskolor, opinionsbildningsgrupper eller datavetenskapsgemenskaper. Nå ut och förklara tydligt hur de kan hjälpa och varför. <outreachTemplates>Se våra mallar för uppsökande e-postmeddelanden</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Var kreativ!</strong> Din språkgemenskap kommer att vara unik och det här är bara några sätt att komma igång.
+
+## How to validate
+
+about-playbook-how-validate = Hur vet jag om jag ska godkänna ett röstklipp?
+about-playbook-how-validate-content-1 = Om du kunde <strong>höra dem</strong> och <strong>förstå dem</strong> är det vanligtvis <strong>bäst att godkänna</strong>.
+about-playbook-how-validate-content-2 = <strong>Avvisa inte klipp där högtalaren "har en brytning" som skiljer sig från din egen</strong> - detta är viktigt för att röstigenkänning ska fungera bättre för alla.
+about-playbook-how-validate-content-3 = Om du tror att uttalet gör det <strong>omöjligt att förstå</strong> eller om det finns <strong>mycket bakgrundsljud</strong> eller om det finns <strong>andra människor som också talar</strong>, då ska du avvisa klippet. <accuracyLink>Se mer information i våra noggrannhetskriterier</accuracyLink>.
+about-playbook-how-validate-content-4 = Om ett klipp avvisas av två personer släpps det i en annan delmängd av datamängden.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Hur kommer jag åt och använder datamängden?
+about-playbook-how-access-dataset-content-1 = Du kan gå till <datasetsPage>datamängdsidan</datasetsPage>, välja version och språk du vill ha och ladda ner den! Filerna har <metadataLink>associerad metadata</metadataLink>, såsom demografisk information och valideringsdata. Du måste ange en e-postadress för att ladda ner datamängden.
+about-playbook-how-access-dataset-content-2 = Om du letar efter verktyg för att bygga ASR-modeller kan du ansluta till andra människor i communityn <discourseLink>på Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Hur fattas projektbeslut?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice är möjliggjord av en mångsidig gemenskap av aktivister, lingvister, datavetare, akademiker och mjukvaruingenjörer från hela världen. Projektet leds av Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Ledarskapet för vårt projekt bygger på pelarna:
+about-playbook-how-project-governance-content-3 = Sekretess, säkerhet och transparens.
+about-playbook-how-project-governance-content-4 = Gemenskapens deltagande och beslutsfattande.
+about-playbook-how-project-governance-content-5 = Värde och erkännande.
+about-playbook-how-project-governance-content-6 = Ömsesidigt ansvar.
+about-playbook-how-project-governance-content-7 = <governanceLink>Läs mer om hur vi styrs</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificiell intelligens
 mycroft-description =
@@ -602,6 +717,8 @@ feedback-q = Har du feedback?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ är en <docsLink>verktygslåda med öppen källkod</docsLink> för forskare som utvecklar toppmoderna AI-modeller för konversation.
 resource-deepspeech-info = Mozilla´s röstigenkänningsmotor 'Deep Speech', med öppen källkod, kan användas för att skapa röstigenkänningsapplikationer. Läs vår  <githubLink>Github överblick</githubLink> eller anslut dig till <discourseLink>DeepSpeech Discourse</discourseLink> för att lära dig hur du själv kommer igång.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> är dedikerat till att öppna upp teknologin för röstigenkänning. Deras projekt inkluderar STT- och TTS-baserade djupinlärningsmotorer.
+community-playbook = Riktlinjer för gemenskapen
+resource-playbook-info = <playbookLink>Hitta hjälpsam vägledning</playbookLink> om hela Common Voice-resan, från översättning till dataanvändning, samt hur du får kontakt med vår gemenskap.
 data-other-librispeech-description = LibriSpeech är ett korpus på cirka 1000 timmar av 16Khz inläst från engelska ljudböcker från LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM-korpuset gjordes av föredrag och deras transkriptioner tillgängliga från TED-webbplatsen.
@@ -891,6 +1008,7 @@ download-recordings-title = Inspelningar
 download-recordings-info = Inkluderar mp3-filer och relaterade meningar
 download-recordings-size = Typiskt megabyte
 download-recordings-unavailable = Du kan inte begära dina inspelningar medan en annan begäran redan pågår.
+download-recently-requested = Du kan begära en ny uttagning av dina inspelningar var { $days } dag.
 download-size = Storlek
 download-selected = Vald
 download-start = Starta nedladdning
@@ -963,15 +1081,362 @@ contribution-criteria-page-description = Förstå vad du ska leta efter när du 
 contribution-for-example = till exempel
 contribution-misreadings-title = Felläsningar
 contribution-misreadings-description = När du lyssnar, kontrollera mycket noga att det som har spelats in är exakt det som har skrivits; avvisa om det är mindre fel.<br />Mycket vanliga fel inkluderar:
+contribution-misreadings-description-extended-list-1 = Saknar <strong>'En'</strong> eller <strong>'Den'</strong> i början av inspelningen.
 contribution-misreadings-description-extended-list-4 = Slutet på det sista ordet saknades eftersom inspelningen avbröts för snabbt.
+contribution-misreadings-description-extended-list-5 = Gör flera försök med att läsa ett ord.
+contribution-misreadings-example-1-title = De enorma dinosaurierna i Trias.
+contribution-misreadings-example-2-title = Den enorma dinosaurien i Trias.
+contribution-misreadings-example-2-explanation = [Ska vara "dinosaurier"]
 contribution-misreadings-example-3-explanation = [Inspelning avbruten före slutet av det sista ordet]
 contribution-misreadings-example-4-explanation = [Mer har spelats in än den obligatoriska texten]
 contribution-misreadings-example-8-explanation = [Felaktigt innehåll]
 contribution-varying-pronunciations-title = Varierande uttal
+contribution-varying-pronunciations-description = Var försiktig innan du avvisar ett klipp med motiveringen att läsaren har uttalat ett ord fel, har lagt betoningen på fel ställe eller uppenbarligen har ignorerat ett frågetecken. Det finns en mängd olika uttal som används runt om i världen, av vilka du kanske inte har hört några i ditt område. Vänligen ge en marginal för uppskattning för dem som kanske talar annorlunda än du.
+contribution-varying-pronunciations-description-extended = Å andra sidan, om du tror att läsaren förmodligen aldrig har stött på ordet tidigare, och bara gör en felaktig gissning på uttalet, vänligen avvisa. Om du är osäker, använd knappen hoppa över.
 contribution-background-noise-title = Bakgrundsbrus
+contribution-background-noise-description = Vi vill att maskininlärningsalgoritmerna ska kunna hantera en mängd olika bakgrundsljud, och även relativt höga ljud kan accepteras förutsatt att de inte hindrar dig från att höra hela texten. Tyst bakgrundsmusik är OK; musik tillräckligt hög för att hindra dig från att höra vartenda ord är det inte.
+contribution-background-noise-description-extended = Om inspelningen stoppar eller sprakar, avvisa den om du inte fortfarande kan höra all text.
+contribution-background-noise-example-1-fixed-title = <strong>[Nysning]</strong> De gigantiska dinosaurierna i <strong>[hostning]</strong> trias.
+contribution-background-noise-example-2-fixed-title = Jätten dino <strong>[hostning]</strong> trias.
 contribution-background-noise-example-2-explanation = [Delar av texten kan inte höras]
+contribution-background-noise-example-3-fixed-title = <strong>[Knaster]</strong> gigantiska dinosaurierna i <strong>[knaster]</strong> -as.
 contribution-background-voices-title = Bakgrundsröster
+contribution-background-voices-description = Ett tyst tumult i bakgrunden är OK, men vi vill inte ha ytterligare röster som kan få en maskinalgoritm att identifiera ord som inte finns i den skrivna texten. Om du kan höra distinkta ord förutom de i texten, bör klippet avvisas. Vanligtvis händer detta där TV:n har lämnats på eller där det pågår en konversation i närheten.
+contribution-background-voices-description-extended = Om inspelningen går sönder eller har sprickor, avvisa om inte hela texten fortfarande kan höras.
+contribution-background-voices-example-1-title = De gigantiska dinosaurierna i trias. <strong>[läst av en röst]</strong>
+contribution-background-voices-example-1-explanation = Kommer du? <strong>[ropas av någon annan]</strong>
 contribution-volume-title = Volym
+contribution-volume-description = Det kommer att finnas naturliga variationer i volym mellan läsarna. Avvisa bara om volymen är så hög att inspelningen går sönder, eller (mer vanligt) om den är så låg att du inte kan höra vad som sägs utan hänvisning till den skrivna texten.
+contribution-reader-effects-title = Läsareffekter
+contribution-reader-effects-description = De flesta inspelningarna är av människor som pratar med sin naturliga röst. Du kan acceptera en och annan icke-standardinspelning som ropas, viskas eller uppenbarligen levereras med en "dramatisk" röst. Avvisa sjungna inspelningar och de som använder en datorsyntiserad röst.
 contribution-just-unsure-title = Osäker?
+contribution-just-unsure-description = Om du stöter på något som dessa riktlinjer inte täcker, vänligen rösta enligt ditt bästa omdöme. Om du verkligen inte kan bestämma dig, använd knappen hoppa över och gå vidare till nästa inspelning.
 see-more = <chevron></chevron>Se mer
 see-less = <chevron></chevron>Se mindre
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Hem
+sc-header-how-to = Hur man
+sc-header-add = Lägg till
+sc-header-review = Granska
+sc-header-rejected = Avvisade meningar
+sc-header-my = Mina meningar
+sc-header-statistics = Statistik
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Rapportera buggar
+sc-footer-translate = Översätt denna sida
+sc-footer-report-copyright = Rapportera upphovsrättsproblem
+sc-footer-privacy = Sekretess
+sc-footer-terms = Villkor
+sc-footer-cookies = Kakor
+sc-login-signup-button = Logga in / Registrera dig
+sc-logout-button = Logga ut
+
+## HOME
+
+sc-home-title = Välkommen till Common Voice meningssamlare
+sc-home-intro = Meningssamlaren är en del av <commonVoiceLink>Common Voice</commonVoiceLink>. Det tillåter bidragsgivare att samla in och validera meningar skapade av gemenskapen. Du kan också använda det här verktyget för att importera och städa upp små till medelstora offentliga korpus som du har hittat eller samlat in. Alla meningar måste vara allmän egendom. Godkända meningar exporteras varje vecka till Common Voice-förrådet och släpps på Common Voice-webbplatsen vid varje ny distribution.
+sc-home-collect-title = Samla meningar
+sc-home-collect-text = Hjälp oss genom att skriva eller samla meningar som är allmän egendom.
+sc-home-review-title = Granska meningar
+sc-home-review-text = Hjälp oss genom att granska meningar för korrekthet enligt riktlinjerna.
+
+## GENERAL
+
+sc-languages-fetch-error = Vi kunde inte hämta tillgängliga språk. Bidrag är för närvarande inte möjliga. Vänligen försök igen senare.
+
+## HOW-TO
+
+sc-howto-title = Hur man
+sc-howto-addlang-title = Lägga till språk att arbeta med
+sc-howto-addlang-text = När du är inloggad kan du välja dina språk från profilsektionen.
+sc-howto-addsen-title = Lägg till nya meningar
+sc-howto-addsen-item-1 = Alla meningar du skickar in måste vara under en <wikipediaLink>licens för offentlig egendom (CC-0)</wikipediaLink>. För att stödja inkluderingen av verk som inte är under offentlig licens har vi skapat en <cc0WaiverLink>mall för bidragsavtal</cc0WaiverLink> för verk där upphovsrättsinnehavaren vill bidra med materialet till Common Voice.
+sc-howto-addsen-item-2 = Tal. Det ska inte finnas några siffror i källtexten eftersom de kan orsaka problem vid högläsning. Hur ett nummer läses beror på sammanhanget och kan skapa förvirring i datamängden. Till exempel kan siffran "2409" korrekt läsas som både "tjugofyra noll nio" och "tvåtusenfyrahundranio".
+sc-howto-addsen-item-3 = Förkortningar och akronymer. Förkortningar och akronymer som "USA" eller "ICE" bör undvikas i källtexten eftersom de kan läsas på ett sätt som inte överensstämmer med deras stavning. Dessutom kan det finnas flera exakta avläsningar för en enda förkortning. Till exempel kan akronymen "ICE" uttalas "I-C-E" eller som ett enda ord.
+sc-howto-addsen-item-4 = Skiljetecken. Specialsymboler och skiljetecken bör endast inkluderas när det är absolut nödvändigt. En apostrof ingår till exempel i engelska ord som "inte" och "vi är" och bör inkluderas i källtexten, men det är osannolikt att du någonsin kommer att behöva en speciell symbol som "@" eller "#. ”
+sc-howto-addsen-item-5 = Utländska bokstäver. Bokstäver måste vara giltiga på det språk som talas. Till exempel är "ж" en bokstav i det ryska alfabetet men används aldrig på engelska och bör därför aldrig förekomma i någon engelsk källtext.
+sc-howto-addsen-item-6 = Språk kan ha sina <validationRulesLink>egna valideringsregler</validationRulesLink> med ytterligare krav. Om det inte finns någon specifik valideringsfil för ett språk använder vi de allmänna engelska reglerna.
+sc-howto-addsen-post-1 = Vi föredrar naturliga/konverserande meningar. Även om fonetisk mångfald och olika ord i meningar är viktigt, försöker vi göra det så roligt som möjligt att spela in meningar. Därför skulle det vara bra om du kunde försöka hålla dina meningar så naturliga/engagerande som möjligt.
+sc-howto-cite-title = Hur man citerar
+sc-howto-cite-pre-1 = Det är viktigt att du hänvisar till var du hittade den offentliga licensen för att undvika plagiat och för att möjliggöra uppföljning av <copyrightIssuesLink>upphovsrättsfrågor</copyrightIssuesLink>. Här är några sätt du kan citera verket på.
+sc-howto-cite-item-1 = Du kan inkludera webbplatsen, t.ex. "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Du kan använda akademisk referensstil, t.ex. Harvard-stil "Mozilla (2021) Common Voice. Tillgänglig på https://commonvoice.mozilla.org/ (Åtkommen: 15 september 2021)"
+sc-howto-cite-item-3 = För allmän egendomstext som inte är tillgänglig online kan du använda akademisk referensstil, t.ex. Harvard-stil "Jess (2021) My Public license poems"
+sc-howto-review-title = Granska meningar
+sc-howto-review-subtitle = Se till att meningen uppfyller följande kriterier:
+sc-howto-review-criteria-1 = Meningen måste vara rättstavad.
+sc-howto-review-criteria-2 = Meningen måste vara grammatiskt korrekt.
+sc-howto-review-criteria-3 = Meningen måste vara talbar.
+sc-howto-review-criteria-4 = Om meningen uppfyller kriterierna, klicka på knappen "Godkänn".
+sc-howto-review-criteria-5 = Om meningen inte uppfyller ovanstående kriterier, klicka på knappen "Avvisa". Om du är osäker på meningen kan du också hoppa över den och gå vidare till nästa.
+sc-howto-review-criteria-6 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
+sc-howto-findpd-title = Hitta befintliga meningar i det offentliga
+sc-howto-findpd-subtitle = Sök efter dem på Internet
+sc-howto-findpd-text-2 = Kom ihåg att vi behöver tillstånd för att publicera dessa meningar, så se alltid till att texten tillhör  <wikipediaLink>allmän egendom</wikipediaLink>. Om det inte finns någon uttrycklig indikation, kontakta personen som texten tillhör och fråga om de vill bidra med sin text. Om de vill, hjälp dem att gå igenom <cc0WaiverLink>bidragsavtalet</cc0WaiverLink>. Om de inte vill bidra med texten så får du inte använda den texten.
+sc-howto-findpd-tips = Här är några tips för att hitta meningar:
+sc-howto-findpd-tips-1 = De bästa källorna du kan leta efter är poddsändningar, transkriptioner, filmmanus och allt möjligt som kan innehålla vardagliga konversationer.
+sc-howto-findpd-tips-2 = Regeringsprocedurer, böcker och artiklar är också bra men eftersom texten tenderar att vara lite mer formell är de mindre prioriterade.
+sc-howto-findpd-tips-3 = Tyvärr kan vi inte ha Wikimedia-artiklar ännu. Så kopiera inte därifrån.
+sc-howto-findpd-subtitle-2 = Samarbeta med lokala organisationer eller individer
+sc-howto-findpd-partner-1 = Det finns många offentliga organisationer som kanske vill samarbeta och som redan har många texter de kan donera som allmän egendom. Nå ut till lokala universitet, regeringar och öppen källkodsorganisationer för att prata om projektet och be om deras hjälp.
+sc-howto-findpd-partner-2 = Expertlingvister kan också hjälpa till, försöka nå ut till lokala språkuniversitet (både lärare och studenter) och se om de kan hjälpa till att samla in en mångsidig uppsättning ljud-diverse meningar på ditt språk.
+
+## MY SENTENCES
+
+sc-my-title = Mina meningar
+sc-my-description = Den här sidan ger dig en översikt över alla dina inskickade meningar. Du kan också ta bort redan inskickade meningar om det behövs, genom att markera kryssrutan bredvid den och klicka på &quot;Ta bort valda meningar&quot; längst ner. Ta bara bort meningar om det är absolut nödvändigt, till exempel om du märkt att en mening är upphovsrättsskyddad.
+sc-my-loading = Laddar dina meningar…
+sc-my-err-fetching = Det gick inte att hämta dina meningar. Var god försök igen.
+sc-my-no-sentences = Inga meningar hittades!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Bidrag: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Källa: { $source }
+sc-my-delete = Ta bort markerade meningar
+sc-my-deleting = Tar bort markerade meningar…
+sc-my-err-failed-delete = Det gick inte att ta bort valda meningar… Försök igen!
+
+## REJECTED
+
+sc-rejected-title = Avvisade meningar
+sc-rejected-loading = Läser in avvisade meningar...
+sc-rejected-err-fetching = Fel vid hämtning av avvisade meningar. Var god försök igen.
+sc-rejected-none-found = Inga avvisade meningar hittades!
+
+## STATS
+
+sc-stats-title = Statistik
+sc-stats-updating = Uppdaterar…
+sc-stats-error = Vi kunde inte hämta statistiken. Vänligen försök igen senare.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice meningssamlare har samlat in { $sentenceCount } meningar på { $languageCount } språk!
+
+## ADD
+
+sc-submit-err-select-lang = Välj ett språk.
+sc-submit-err-add-sentences = Vänligen lägg till meningar.
+sc-submit-err-add-source = Vänligen lägg till en källa.
+sc-submit-err-confirm-pd = Vänligen bekräfta att dessa meningar är allmän egendom.
+sc-submit-prompt =
+    .message = Meningar har inte skickats in, är du säker på att du vill lämna?
+sc-submit-title = Lägg till meningar
+sc-submit-select-language =
+    .labelText = Välj språk
+sc-submit-add-sentences = Lägg till meningar som är <wikipediaLink>allmän egendom</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = En mening per rad
+sc-submit-from-where = Var kommer dessa <wikipediaLink>allmänna</wikipediaLink> meningar ifrån?
+sc-submit-ph-read-how-to =
+    .placeholder = Läs vår guide om du inte är säker på hur du ska tillskriva
+sc-submit-confirm = Jag bekräftar att dessa meningar är <wikipediaLink>allmän egendom</wikipediaLink> och jag har tillåtelse att ladda upp dem.
+sc-submit-button =
+    .submitText = Skicka in
+sc-submit-filtered = Filtrerade meningar på grund av bristande krav (vänligen skicka in fasta versioner som nya meningar):
+sc-submit-guidelines = Vänligen kontrollera <howToLink>riktlinjerna</howToLink>.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Det gick inte att lägga till språk
+sc-add-lang-sec-label = Lägg till ett språk du vill bidra till
+sc-add-lang-sec-button = Lägg till språk
+sc-add-err-unexpected = Oväntat svar returnerades från servern
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Inlämnade meningar. { $duplicates } meningar avvisades som dubbletter.
+        [one] Inlämnade meningar. { $duplicates } meningen avvisades som dubblett.
+       *[other] Inlämnade meningar. { $duplicates } meningar avvisades som dubbletter.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Inga meningar misslyckades
+        [one] 1 mening misslyckades
+       *[other] { $sentences } meningar misslyckades
+    }
+sc-add-err-submission = Överföringsfel
+sc-add-lang-process-notice = Om ditt språk inte finns med här kan du begära det genom <languageProcessLink>denna process</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = Meningar har inte skickats in, är du säker på att du vill lämna?
+sc-confirm-sentences-title = Bekräfta nya meningar
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Inga meningar hittades.
+        [one] 1 mening hittades.
+       *[other] { $countOfSentences } meningar hittades.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } avvisades av dig
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ingen mening har redan granskats.
+        [one] 1 mening har redan granskats. Bra jobbat!
+       *[other] { $countOfReviewed } meningar har redan granskats. Bra jobbat!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Ingen mening redo för inlämning!
+        [one] 1 mening redo för inlämning!
+       *[other] { $readyCount } meningar redo för inlämning!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } meningar är ogranskade. Om du vill kan du också granska dina meningar nu innan du skickar in dem.
+sc-confirm-button-text = Bekräfta
+sc-confirm-uploading = Meningar laddas upp. Detta kan ta flera minuter beroende på antalet tillagda meningar. Stäng inte denna webbplats.
+
+## LANGUAGE INFO
+
+sc-lang-info-title-total = Totalt
+sc-lang-info-title-personal = Personlig
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Inga meningar.
+        [one] 1 mening.
+       *[other] { $totalSentences } meningar.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Inga meningar under granskning.
+        [one] 1 mening under granskning.
+       *[other] { $totalInReview } meningar under granskning.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Inga meningar kvar för dig att granska.
+        [one] 1 mening kvar att granska.
+       *[other] { $unreviewedSentencesByYou } meningar kvar för dig att granska.
+    }
+sc-lang-info-review-now = <reviewLink>Granska nu!</reviewLink>
+sc-lang-info-add-more = <addLink>Lägg till fler meningar nu!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Inga validerade meningar.
+        [one] 1 validerad mening.
+       *[other] { $validatedSentences } validerade meningar.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Inga avvisade meningar.
+        [one] 1 avvisad mening.
+       *[other] { $rejectedSentences } avvisade meningar.
+    }
+
+## LOGIN
+
+sc-login-err-failed = Inloggningen misslyckades
+sc-login-err-try-again = Försök igen.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Det gick inte att ta bort språk: språk hittades inte
+sc-personal-err-remove = Det gick inte att ta bort språk
+sc-personal-your-languages = Dina språk:
+sc-personal-remove-button = ta bort
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } har lagts till av dig
+sc-personal-not-added = Du har inte lagt till några språk än.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ Granskningskriterier
+sc-criteria-title = Granskningskriterier
+sc-criteria-make-sure = Se till att meningen uppfyller följande kriterier:
+sc-criteria-item-1 = Meningen måste vara rättstavad.
+sc-criteria-item-2 = Meningen måste vara grammatiskt korrekt.
+sc-criteria-item-3 = Meningen måste vara talbar.
+sc-criteria-item-4 = Om meningen uppfyller kriterierna klickar du på knappen &quot;Godkänn&quot; knappen till höger.
+sc-criteria-item-5-2 = Om meningen inte uppfyller ovanstående kriterier klickar du på knappen &quot;Avvisa&quot; knappen till vänster. Om du är osäker på meningen kan du också hoppa över den och gå vidare till nästa.
+sc-criteria-item-6 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
+
+## REVIEW
+
+sc-review-lang-not-selected = Du har inte valt några språk. Gå till din <profileLink>Profil</profileLink> för att välja språk.
+sc-review-title = Granska meningar
+sc-review-loading = Laddar meningar…
+sc-review-select-language = Välj ett språk för att granska meningar.
+sc-review-no-sentences = Inga meningar att granska. <addLink>Lägg till fler meningar nu!</addLink>
+sc-review-form-prompt =
+    .message = Granskade meningar som inte har skickats in, är du säker?
+sc-review-form-usage = Svep åt höger för att godkänna meningen. Svep åt vänster för att avvisa den. Svep uppåt för att hoppa över den. <strong>Glöm inte att skicka in din granskning!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Källa: { $sentenceSource }
+sc-review-form-button-reject = Avvisa
+sc-review-form-button-skip = Hoppa över
+sc-review-form-button-approve = Godkänn
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = J
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = H
+sc-review-form-keyboard-usage-custom = Du kan också använda kortkommandon: { sc-review-form-button-approve-shortcut } för att godkänna, { sc-review-form-button-reject-shortcut } för att avvisa, { sc-review-form-button-skip-shortcut } för att hoppa över
+sc-review-form-button-submit =
+    .submitText = Avsluta granskning
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Inga meningar granskade.
+        [one] 1 mening granskad. Tack!
+       *[other] { $sentences } meningar granskade. Tack!
+    }
+sc-review-form-review-failure = Granskningen kunde inte sparas. Vänligen försök igen senare.
+sc-review-link = Granska
+
+## SETTINGS
+
+sc-settings-title = Inställningar
+sc-settings-ui-language = Gränssnittsspråk
+sc-settings-language-translated-warning = Sidorna för detta språk kanske inte är helt översatta. Du kan hjälpa till med översättning <pontoonLinkLink>på Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = Återställ överhoppade meningar
+sc-settings-skipped-decription = Du hoppade över meningar tidigare när du granskade. Om du återställer överhoppade meningar visas alla överhoppade meningar igen. Detta är oberoende av språket.
+sc-settings-show-all-button = Visa alla överhoppade meningar igen
+sc-settings-failed = Det gick inte att ändra inställningarna. Var god försök igen.
+# VALIDATION
+sc-validation-number-of-words = Meningen måste innehålla mellan 1 och 14 (inklusive) ord
+sc-validation-no-numbers = Meningen ska inte innehålla siffror
+sc-validation-no-symbols = Meningen bör inte innehålla symboler
+sc-validation-no-abbreviations = Meningen ska inte innehålla förkortningar
+
+# [/SentenceCollector]
+
+localization-select =
+    .label = Välj språk/lokalisering

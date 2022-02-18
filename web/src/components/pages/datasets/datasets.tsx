@@ -4,7 +4,6 @@ import URLS from '../../../urls';
 import { LocaleLink, useLocale } from '../../locale-helpers';
 import { PlayOutlineIcon } from '../../ui/icons';
 import DatasetInfo from './dataset-info';
-import Subscribe from './subscribe';
 
 import Resources from './resources';
 import './datasets.css';

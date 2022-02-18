@@ -422,7 +422,7 @@
         align-items: center;
 
         & .count {
-            &:before {
+            &::before {
                 content: '\00a0 ';
             }
 

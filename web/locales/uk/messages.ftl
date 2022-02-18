@@ -36,9 +36,9 @@ ba = Башкирська
 bas = Баса
 be = Білоруська
 bg = Болгарська
-bm = Бамбарська
 bn = Бенгальська
 br = Бретонська
+bs = Боснійська
 bxr = Бурятська
 ca = Каталонська
 cak = Какчикельська
@@ -67,6 +67,7 @@ fy-NL = Фризька
 ga-IE = Ірландська
 gl = Галісійська
 gn = Гуарані
+gom = Гоанська Конкані
 ha = Хауса
 he = Іврит
 hi = Гінді
@@ -90,11 +91,14 @@ kab = Кабільська
 kbd = Кабардіанська
 ki = Кікуйю
 kk = Казахська
+km = Кхмерська
 kmr = Курманджі курдська
+knn = Конкані (Деванаґарі)
 ko = Корейська
 kpv = Комі-зирянська
 kw = Корнська
 ky = Киргизька
+lb = Люксембурзька
 lg = Луганда
 lij = Лігурійська
 lt = Литовська
@@ -106,6 +110,7 @@ mhr = Луговомарійська
 mk = Македонська
 ml = Малаялам
 mn = Монгольська
+mni = Маніпурі
 mos = Мооре
 mr = Маратхі
 mrj = Гірськомарійська
@@ -127,6 +132,8 @@ pap-AW = Пап'яменто (Аруба)
 pl = Польська
 ps = Пушту
 pt = Португальська
+quc = Кіче
+quy = Кечуа
 rm-sursilv = Ретороманська сурсільванська
 rm-vallader = Ретороманська вальядерська
 ro = Румунська
@@ -139,6 +146,7 @@ scn = Сицилійська
 shi = Ташельхіт
 si = Сингальська
 sk = Словацька
+skr = Сараїкі
 sl = Словенська
 so = Сомалійська
 sq = Албанська
@@ -150,7 +158,11 @@ ta = Тамільська
 te = Телугу
 tg = Таджицька
 th = Тайська
+ti = Тигринья
+tig = Тиґре
+tk = Туркменська
 tl = Таґальська
+tok = Токі-пона
 tr = Турецька
 tt = Татарська
 tw = Чві
@@ -223,7 +235,7 @@ vote-yes = Так
 vote-no = Ні
 toggle-play-tooltip = Натисніть { shortcut-play-toggle } для перемикання режиму відтворення
 speak-subtitle = Запишіть свій голос
-speak-paragraph = Запис озвучених речень є невід'ємною частиною створення відкритої бази даних; дехто може вважати, що це ще й цікаве заняття.
+speak-paragraph = Озвучення речень — невіддільна частина створення відкритої бази даних; дехто може вважати, що це ще й цікаве заняття.
 speak-goal-text = Записано речень
 listen-subtitle = Допоможіть нам перевірити голосові записи
 listen-paragraph = Перевірка голосових записів є теж дуже важливим процесом проєкту Common Voice. Прослухайте записи, щоб допомогти нам створити якісну базу голосових даних.
@@ -336,8 +348,13 @@ profile-form-native-language =
     .label = Рідна мова
 profile-form-additional-language =
     .label = Додаткова мова
+profile-form-language =
+    .label = Мова
 profile-form-accent =
     .label = Акцент
+profile-form-custom-accent-help-text =
+    .label = Як би ви описали свій акцент?
+profile-form-custom-accent-placeholder-2 = Почніть вводити текст, щоб описати свій акцент
 profile-form-age =
     .label = Вік
 profile-form-gender-2 =
@@ -348,6 +365,7 @@ hidden = Приховано
 visible = Видимий
 native-language =
     .label = Рідна мова
+profile-form-add-accent = Додайте новий власний акцент «{ $inputValue }»
 profile-form-submit-save = Зберегти
 profile-form-submit-saved = Збережено
 male = Чоловічі
@@ -381,6 +399,8 @@ skip-submission-description = Після натискання кнопки "На
 skip-submission-note = Примітка: Вам все одно необхідно буде обрати між записом і прослуховуванням для зміни типу допомоги.
 off = Вимкнено
 on = Увімкнено
+help-accent = Потрібна допомога з акцентом?
+help-accent-explanation = Ваш акцент — це те, як ви вимовляєте слова. Він може залежати від того, де ви проживали, якими іншими мовами ви володієте та багатьма іншими факторами. Тут ви можете поділитися будь-якою інформацією, яку вважаєте необхідною.
 
 ## Profile - Email
 
@@ -402,7 +422,7 @@ change-email-setings = Змініть свою адресу електронно
 
 ## FAQ
 
-faq-title = Часті питання
+faq-title = Часті запитання
 faq-what-cv-q = Що таке Common Voice?
 faq-what-cv-a =
     Технологія розпізнавання голосу революціонізує спосіб взаємодії з машинами, але наявні тепер системи є комерційними й дорогими. Common Voice є частиною ініціативи Mozilla щодо поліпшення технологій розпізнавання голосу доступним для всіх. Common Voice - це велика база даних зібраних голосів, яка дозволяє будь-кому швидко та легко під'єднати до програми голосову підтримку будь-якою мовою.
@@ -450,7 +470,7 @@ faq-why-not-ask-read-q = Чому б не попросити людей чита
 faq-why-not-ask-read-a = Щоб зробити набір даних Common Voice максимально корисним, ми вирішили дозволити лише оригінальний текст, який доступний за ліцензією Creative Commons (CC0). Використання стандарту CC0 означає, що його складніше знаходити та збирати оригінальний текст, але дозволяє будь-кому користуватися отриманими голосовими даними без обмежень використання або дозволу Mozilla. Зрештою, ми хочемо зробити багатомовні дані максимально корисними для усіх, включаючи дослідників, університети, стартапи, уряди, організації соціального призначення та любителів.
 faq-why-account-q = Чому мені необхідно створити обліковий запис?
 faq-is-account-public-q = Чи є інформація про мій обліковий запис загальнодоступною?
-faq-how-privacy-q = Як ви забезпечуєте анонімність і конфіденційність людей, які додали свої голоси?
+faq-how-privacy-q = Як ви забезпечуєте анонімність і приватність людей, які додали свої голоси?
 faq-how-privacy-a = Усі голосові записи в наборі даних очищені від особистої ідентифікаційної інформації. Коли учасник надає демографічні дані через свій профіль, ця інформація видаляється з їхніх голосових записів до того, як вона буде додана для завантаження в набір даних, і ніколи не оприлюднюється на сторінці їхнього профілю.
 faq-what-determine-identity-q = Що означає, що я не можу “визначити особистість” спікерів в наборі даних Common Voice?
 faq-what-determine-identity-a =
@@ -466,15 +486,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Чому Common Voice?
-about-subtitle = Common Voice є частиною ініціативи Mozilla, яка допомагає навчати машини розуміти мову людей. Окрім набору даних Common Voice, ми також створюємо механізм розпізнавання мовлення з відкритим вихідним кодом, який називається Deep Speech.
-about-header-description =
-    Обидва ці проєкти є частиною наших зусиль для подолання нерівності в цифровому мовленні. Технології розпізнавання голосу дають можливість пристроям краще розуміти людей, але розробникам потрібна велика кількість голосових даних для їх створення. На сьогодні більшість цих записів є комерційними та дорогими.
-    Ми хочемо зробити голосові дані вільними та загальнодоступними, і переконатися, що вони представляють різноманітних та справжніх людей. Разом ми можемо поліпшити розпізнавання голосу для всіх.
-about-header-description-2 =
-    Цей проєкт — це спроба подолання розбіжностей в цифровому мовленні. Технології розпізнавання голосу дають більше людяності нашим пристроям, але розробникам потрібна велика кількість голосових даних для їх створення. На даний час більшість цих записів є комерційними та дорогими.
-    Ми хочемо зробити голосові дані вільними та загальнодоступними, і переконатися, що вони представляють різноманітних та реальних людей. Разом ми можемо поліпшити розпізнавання голосу для всіх.
-how-does-it-work-title = Як це працює?
+about-header-description-v2 =
+    <p>Common Voice — це загальнодоступний набір голосових даних, створений на основі голосів волонтерів з усього світу. Люди, які хочуть створювати голосові застосунки, можуть використовувати набір даних для тренування моделей машинного навчання.</p>
+    <p>Наразі більшість наборів голосових даних належать компаніям, що придушує інновації. Набори голосових даних також надмірно представляють білих англомовних чоловіків. Це означає, що технологія з підтримкою голосу взагалі не працює для багатьох мов, а там, де вона працює, вона може працювати не однаково добре для всіх. Ми хочемо змінити це, мобілізуючи людей усюди, щоб вони поділилися своїм голосом.</p>
+how-does-it-work-title-v2 = Як працює Common Voice?
 how-does-it-work-text = Ми створюємо краудсорсний відкритий набір голосових даних. Додайте свій голос, перевіряйте правильність записів інших людей, зробіть набір даних кращим для всіх.
+
+## How does it work section
+
+about-language-req-subtitle = Хтось просить додати мову.
+about-localization-title = Локалізація вебсайту
+about-localization-subtitle = Текст вебсайту перекладено цією мовою.
+about-sentence-collection-title = Збірка речень
+about-sentence-collection-subtitle = Речення збираються, щоб люди могли читати їх вголос.
+about-new-lang-title = Запуск нової мови
+about-new-lang-subtitle = Ми запускаємо сайт Common Voice цією мовою.
+about-voice-contrib-title = Голосовий внесок
+about-voice-contrib-subtitle = Люди приходять і надають свій голос.
+about-voice-validation-title = Перевірка голосу
+about-voice-validation-subtitle = Інші люди перевіряють ці голосові кліпи.
+about-dataset-release-title = Випуск набору даних
+about-dataset-release-subtitle = Ми випускаємо набір даних що 3 місяці.
+about-subscribe-text = Бажаєте залишатися на зв’язку з Common Voice?
 about-speak = Говорити
 about-speak-text = Співавтори записують голоси, читаючи з відкритої бази речень.
 about-listen-queue = Черга прослуховування
@@ -503,10 +536,94 @@ about-get-involved-text-2 =
     Чудово! Напишіть нам на е-пошту або на форумі <discourseLink>Discourse</discourseLink>,
     повідомляйте про проблеми з сайтом на <githubLink>GitHub</githubLink>,
     або приєднуйтеся до чату спільноти <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Як мені залишатися на зв’язку?
+about-stay-in-touch-text-1 = <emailFragment>Приєднуйтеся</emailFragment> до нашого списку розсилки, щоб дізнатися, як ви можете брати участь у кампаніях, подіях та спільній розробці можливостей на Common Voice.
+about-stay-in-touch-text-2 = Ви можете познайомитися з іншими в мовних спільнотах Mozilla, приєднавшись до <discourseLink>Discourse</discourseLink> для актуальних розмов або до <matrixLink>Matrix</matrixLink> для отримання швидких порад.
 about-nav-why-common-voice = Чому?
 about-nav-how-it-works = Як?
 about-nav-partners = Партнери
 about-nav-get-involved = Долучитися
+about-nav-how-it-works-2 = Як працює Common Voice?
+about-nav-playbook = Дізнайтеся, як взяти участь
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Що таке мова на Common Voice?
+about-playbook-what-is-language-content-1 = Існує багато способів пояснення мови. Для моделей розпізнавання мовлення Common Voice пропонує зосередитися на «взаємній зрозумілості», або «чи можуть носії цієї мови зрозуміти один одного, якщо спробують?»
+about-playbook-what-is-language-content-2 = Ми хочемо, щоб моделі мовлення краще розуміли різноманітне коло мовців. Для цього голосовий набір даних повинен представляти багато різних людей.
+about-playbook-what-is-language-content-3 = Деякі мови мають величезні варіації в граматиці, словниковому запасі та вимові. З цієї причини ми <ctaLink>впроваджуємо «Варіанти»</ctaLink> у 2022 році. Це дає спільнотам можливість розпізнавати свої мови за допомогою більшого набору даних.
+
+## How do I add a language
+
+about-playbook-how-add-language = Як додати мову?
+about-playbook-how-add-language-content-1 = Спочатку перевірте, чи <languageLink>додано вже вашу мову</languageLink>. Якщо ні, вам потрібно <strong>перекласти сайт і зібрати речення</strong>.
+about-playbook-how-add-language-content-2 = <strong>Щоб перекласти сайт</strong> — <translateVideo>зареєструйтесь</translateVideo> на <pontoonLink>Pontoon</pontoonLink>. Pontoon має багато мов, але якщо вашої немає, ви можете <pontoonRequestLink>попросити додати її</pontoonRequestLink>. Потім попросіть <repoLink>через GitHub</repoLink> зробити доступним проєкт Common Voice для цієї мови. Читайте більше про <localizationFragment>переклад сайту</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Для збору речень</strong> — <scVideo>зареєструйтеся</scVideo> на <scLink>Sentence Collector</scLink>.
+about-playbook-how-add-language-content-4 = Ви можете <scLinkAdd>додати невелику кількість</scLinkAdd> речень тут, або можете виконати <bulkImportDocsLink>масове імпортування</bulkImportDocsLink> за допомогою запиту Github. Пам’ятайте, що пропозиції мають бути ліцензовані <licenseLink>CC0 (або загальнодоступними)</licenseLink>, або ви можете написати власні. Докладніше про <scFragment>збір речень</scFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Як працює локалізація сайту?
+about-playbook-how-localize-content-1 = Переклад сайту Common Voice здійснюється на <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Створіть обліковий запис</pontoonAccountLink>, якщо у вас його немає. Потім виберіть свою мовну <strong>(‘Команду’)</strong>, а потім виберіть проєкт <pontoonCvLink>Common Voice</pontoonCvLink>. Там будуть файли для перекладу. Натисніть на один із них, тоді з’являться слова англійською мовою та поле для їхнього перекладу.
+about-playbook-how-localize-content-3 = Переклад виконується з англійської, але ви можете переглянути <strong>Пропозиції</strong> іншими мовами. Натисніть піктограму <strong>Профілю</strong>, потім посилання <strong>Налаштування</strong> і додайте будь-які мови, якими ви володієте. У нижньому правому куті буде список перекладів під назвою <strong>Locales</strong>. Переклади з'являються на сайті через один день.
+about-playbook-how-localize-content-4 = Сайт готовий до запуску, коли його буде перекладено на 75%.
+about-playbook-how-localize-content-5 = Перегляньте наше відеопояснення для довідки
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Як додати речення?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> — це засіб для збору та перевірки речень, які є суспільним надбанням. Вам <scAccountLink>потрібно створити обліковий запис</scAccountLink>. Потім додайте свою мову до свого <strong>профілю</strong>. Ви можете <strong>Додати</strong> речення або <strong>Переглянути</strong> раніше додані речення.
+about-playbook-how-add-sentences-content-2 = Речення повинні бути переглянуті та прийняті двома людьми, щоб бути включеними до Common Voice. Ви створюєте рекомендації для своєї мови <languageGuidelinesLink>тут</languageGuidelinesLink>. Речення мають бути <licenseLink>суспільним надбанням</licenseLink> і коротшими за 15 слів. Ви можете попросити власника тексту зробити його <waiverLink>CC0, використовуючи нашу процедуру відмови</waiverLink>, і надіслати нам на commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Ви можете використовувати <scraperLink>видобувач речень</scraperLink>, щоб додавати короткі речення з Вікіпедії.
+about-playbook-how-add-sentences-content-4 = Затверджені речення експортуються по середах і доступні після наступного випуску.
+
+## How to record quality
+
+about-playbook-how-record-quality = Як записати високоякісний голосовий кліп?
+about-playbook-how-record-content-1 = Говоріть звичайним голосом! Те, як ви говорите, тут вітається — ми хочемо, щоб ваш акцент був таким, яким він є, і ми хочемо вашої звичайної гучності, стилю та інтонації.
+about-playbook-how-record-content-2 = Уникайте надмірного фонового шуму — він має бути ледь чутним.
+about-playbook-how-record-content-3 = Уважно прочитайте речення — не пропускайте, не змінюйте і не додавайте слова.
+about-playbook-how-record-content-4 = Перш ніж почати говорити, переконайтеся, що платформа записує звук, і що запис припиняється лише після того, як ви завершите.
+about-playbook-how-record-content-5 = <accuracyLink>Докладніше про критерії точність.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Як ефективно розвивати мову на Common Voice?
+about-playbook-how-grow-language-content-1 = Створення можливостей для різноманітних людей зробити свій внесок у Common Voice гарантує, що набір даних обслуговуватиме якомога більше людей. Ми створили ресурси та шаблони, які ви можете використовувати!
+about-playbook-how-grow-language-content-2 = Події
+about-playbook-how-grow-language-content-3 = Ви можете проводити події, щоб допомогти людям зробити свій внесок. Це простіше, ніж ви думаєте. Ви можете зробити це онлайн за допомогою інструменту для відеоконференцій або особисто, якщо це безпечно. <eventTemplate>Перегляньте наші шаблони та ресурси для запуску подій</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Суспільні медіа
+about-playbook-how-grow-language-content-5 = Ви можете використовувати платформи суспільних мереж, щоб розповсюдити повідомлення. Поділіться дописами, які пояснюють, чому це важливо, і зв’яжіться з іншими людьми, які обговорюють такі проблеми, як мовні права, голосовий ШІ або упередженість у технологіях. Перегляньте додаткові поради щодо <campaignLink>проведення громадської кампанії, включно з вмістом, який можна повторно використовувати</campaignLink>.
+about-playbook-how-grow-language-content-6 = Партнерство та мережі
+about-playbook-how-grow-language-content-7 = Знайдіть інших не байдужих. Це можуть бути університети, мовні курси, групи захисту або спільноти data science. Зв’яжіться і чітко поясніть, як вони можуть допомогти й навіщо. <outreachTemplates>Перегляньте наші шаблони електронних листів</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Будьте вигадливі!</strong> Ваша мовна спільнота буде унікальною, і це лише кілька способів розпочати роботу.
+
+## How to validate
+
+about-playbook-how-validate = Як дізнатися, чи схвалити голосовий кліп?
+about-playbook-how-validate-content-1 = Якщо ви можете <strong>чути їх</strong> і <strong>розуміти</strong>, зазвичай <strong>краще їх схвалити</strong>.
+about-playbook-how-validate-content-2 = <strong>Не відхиляйте кліпи, у яких мовець «має акцент», який відрізняється від вашого</strong> — важливо, щоб розпізнавання голосу працювало краще для всіх.
+about-playbook-how-validate-content-3 = Якщо ви вважаєте, що через вимову його <strong>неможливо зрозуміти</strong>, або <strong>забагато фонового шуму</strong>, або <strong>чутно балачки інших людей</strong>, тоді слід відхилити кліп. <accuracyLink>Читайте більше інформації в наших критеріях точності</accuracyLink>.
+about-playbook-how-validate-content-4 = Якщо кліп відхилено 2 особами, він буде випущений в іншому піднаборі даних.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Як отримати доступ і використовувати набір даних?
+about-playbook-how-access-dataset-content-1 = Ви можете перейти на <datasetsPage>сторінку наборів даних</datasetsPage>, вибрати потрібну версію та мову(и) й завантажити їх! Файли мають <metadataLink>пов’язані метадані</metadataLink>, такі як демографічна інформація та дані перевірки. Вам потрібно буде вказати адресу електронної пошти, щоб завантажити набір даних.
+about-playbook-how-access-dataset-content-2 = Якщо ви шукаєте інструменти для створення моделей ASR, ви можете зв’язатися з іншими людьми в спільноті <discourseLink>на Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Як приймаються проєктні рішення?
+about-playbook-how-project-governance-content-1 = Існування Mozilla Common Voice можливе завдяки різноманітним спільнотам активістів, лінгвістів, науковців з даних, науковців та інженерів програмного забезпечення з усього світу. Розпорядником проєкту є Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Наше керування базується на таких основах:
+about-playbook-how-project-governance-content-3 = Приватність, безпека та прозорість.
+about-playbook-how-project-governance-content-4 = Участь спільноти та прийняття рішень.
+about-playbook-how-project-governance-content-5 = Цінність і визнання.
+about-playbook-how-project-governance-content-6 = Взаємовідповідальність.
+about-playbook-how-project-governance-content-7 = <governanceLink>Докладніше про керування</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Штучний інтелект
 mycroft-description =
@@ -577,7 +694,7 @@ datasets-positioning =
     
     Багатомовний набір даних Common Voice вже є найбільшим загальнодоступним набором голосів у своєму роді, але він не єдиний.
     
-    Розглядайте цю сторінку як опорний вузол для інших голосових наборів даних з відкритим вихідним кодом і, зі зростанням Common Voice, як домівку для наших оновлень.
+    Розглядайте цю сторінку опорним вузлом для інших відкритих голосових наборів даних, а зі зростанням Common Voice — домівкою для наших оновлень.
 language = Мова
 # File size in gigabytes
 size = Розмір
@@ -600,7 +717,7 @@ whats-inside = Що входить до набору даних Common Voice?
 dataset-description-hours =
     Кожен запис в наборі даних складається з унікального MP3 і відповідного текстового файлу. Більша частина з <b>{ $total }</b> годин записів у наборі даних включає демографічні метадані, такі як вік, стать та акцент, які допомагають підвищити точність розпізнавання мовлення.
     
-    База даних наразі складається з <b>{ $valid }</b> перевірених годин на <b>{ $languages }</b> мовах, але ми постійно додаємо більше голосів і мов. Ознайомтеся з нашою сторінкою <languagesLink>Мови</languagesLink>, щоб створити запит на нову мову або почати робити внески.
+    База даних наразі складається з <b>{ $valid }</b> перевірених годин <b>{ $languages }</b> мовами, але ми постійно додаємо більше голосів і мов. Перейдіть на сторінку <languagesLink>Мови</languagesLink>, щоб створити запит на нову мову або почати робити внески.
 want-dataset-update = Хочете бути в курсі нових випусків набору даних Common Voice? Підпишіться на нашу розсилку.
 subscribe = Підписатись
 get-started-speech = Початок роботи з розпізнаванням мови
@@ -1026,3 +1143,410 @@ contribution-just-unsure-title = Просто не впевнені?
 contribution-just-unsure-description = Якщо ви стикаєтесь із випадком, не описаним у цих настановах, просимо голосувати якнайоб'єктивніше. Якщо ви дійсно не можете визначитися, натисніть кнопку пропуску та переходьте до наступного запису.
 see-more = <chevron></chevron>Докладніше
 see-less = <chevron></chevron>Згорнути
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Домівка
+sc-header-how-to = Як
+sc-header-add = Додати
+sc-header-review = Перевірити
+sc-header-rejected = Відхилені речення
+sc-header-my = Мої речення
+sc-header-statistics = Статистика
+sc-header-profile = Профіль
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Повідомити про ваду
+sc-footer-translate = Перекласти цю сторінку
+sc-footer-report-copyright = Повідомте про проблеми з авторським правом
+sc-footer-privacy = Приватність
+sc-footer-terms = Умови
+sc-footer-cookies = Куки
+sc-login-signup-button = Увійти / Зареєструватися
+sc-logout-button = Вийти
+
+## HOME
+
+sc-home-title = Ласкаво просимо до Common Voice Sentence Collector
+sc-home-intro =
+    Sentence Collector — це частина <commonVoiceLink>Common Voice</commonVoiceLink>.
+    Тут учасники можуть збирати та перевіряти речення, створені спільнотою.
+    Ви також можете використовувати його для імпорту та очищення загальнодоступного корпусу малого
+    та середнього розміру, який ви знайшли або зібрали. Усі речення мають бути загальнодоступними.
+    Затверджені речення експортуються щотижня в репозиторій Common Voice і випускаються
+    на вебсайті Common Voice під час кожного нового розгортання.
+sc-home-collect-title = Запропонувати речення
+sc-home-collect-text = Допоможіть нам, написавши або зібравши речення суспільного надбання.
+sc-home-review-title = Перевірити речення
+sc-home-review-text = Допоможіть нам, перевіривши речення на правильність відповідно до настанов.
+
+## GENERAL
+
+sc-languages-fetch-error = Не вдалося отримати доступні мови. Наразі неможливо зробити внесок. Спробуйте пізніше.
+
+## HOW-TO
+
+sc-howto-title = Як
+sc-howto-addlang-title = Додавання мов для роботи
+sc-howto-addlang-text = Після входу ви можете вибрати свої мови в розділі профілю.
+sc-howto-addsen-title = Додайте нові речення
+sc-howto-addsen-item-1 =
+    Усі пропозиції, які ви надсилаєте, мають бути під ліцензією <wikipediaLink>Public Domain (CC-0)</wikipediaLink>.
+    Щоб підтримати включення робіт, не ліцензованих нею, ми створили
+    <cc0WaiverLink>Шаблон угоди про внески</cc0WaiverLink> для творів, які власники
+    авторських прав хотіли б додати до Common Voice.
+sc-howto-addsen-item-2 =
+    Числа. У вихідному тексті не повинно бути чисел, оскільки вони можуть викликати проблеми
+    під час читання вголос. Спосіб читання числа залежить від контексту і може створити плутанину в набір даних.
+    Наприклад, число «2409» можна було б точно прочитати як «двадцять чотири нуль дев’ять» і
+    «дві тисячі чотириста дев’ять».
+sc-howto-addsen-item-3 =
+    Скорочення та акроніми. Скорочень та акронімів, як-от «США» або «ICE»
+    слід уникати у вихідному тексті, оскільки вони можуть бути прочитані у спосіб, який не збігається з їх написанням.
+    Крім того, для однієї абревіатури може бути кілька точних прочитань.
+    Наприклад, абревіатура «ICE» може вимовлятися як «I-C-E» або як одне слово.
+sc-howto-addsen-item-4 =
+    Розділові знаки. Необхідно включати лише спеціальні символи та розділові знаки
+    коли вкрай необхідно. Наприклад, апостроф включається в англійські слова, як-от
+    «don’t» і «we’re» і повинні бути включені до вихідного тексту, але навряд чи вам
+    коли-небудь знадобиться спеціальний символ, як-от «@» або «#».
+sc-howto-addsen-item-5 =
+    Іноземні букви. Букви мають належати до мови, якою вимовляються.
+    Наприклад, «ж» — це літера кириличної абетки, але ніколи не використовується в англійській
+    мові, і тому ніколи не повинна з'являтися в жодному англійському вихідному тексті.
+sc-howto-addsen-item-6 =
+    Мови можуть мати свої <validationRulesLink>власні правила перевірки</validationRulesLink>
+    з додатковими вимогами. Якщо немає конкретного файлу перевірки для мови,
+    ми використовуємо загальні правила англійської мови.
+sc-howto-addsen-post-1 =
+    Ми надаємо перевагу природним/розмовним реченням.
+    Хоча фонетичне розмаїття і різні слова в реченнях є важливими, ми намагаємося зробити
+    запис речень якомога цікавішим. Тому було б чудово, якби ви спробували
+    робити свої речення максимально природними/захопливими.
+sc-howto-cite-title = Як цитувати
+sc-howto-cite-pre-1 =
+    Важливо вказати, де ви знайшли речення з громадською ліцензією, щоб уникнути плагіату та
+    уникнути можливих  <copyrightIssuesLink>проблем з авторським правом</copyrightIssuesLink>.
+    Ось кілька способів цитувати роботу.
+sc-howto-cite-item-1 = Ви можете включити вебсайт, наприклад «Common Voice — https://commonvoice.mozilla.org/»
+sc-howto-cite-item-2 =
+    Ви можете використовувати академічний стиль посилань, наприклад, гарвардський стиль
+    «Mozilla (2021) Common Voice. Доступно на https://commonvoice.mozilla.org/ (Доступно від: 15 вересня 2021 року)»
+sc-howto-cite-item-3 =
+    Для тексту з громадською ліцензією, недоступного в інтернеті, ви можете використовувати академічний стиль посилання
+    наприклад, гарвардський стиль «Jess (2021) My Public license poems»
+sc-howto-review-title = Перевірити речення
+sc-howto-review-subtitle = Переконайтеся, що речення відповідає таким критеріям:
+sc-howto-review-criteria-1 = Речення має бути написано правильно.
+sc-howto-review-criteria-2 = Речення має бути граматично правильним.
+sc-howto-review-criteria-3 = Речення має бути вимовним.
+sc-howto-review-criteria-4 = Якщо речення відповідає критеріям, натисніть кнопку «Затвердити».
+sc-howto-review-criteria-5 =
+    Якщо речення не відповідає наведеним критеріям, натисніть кнопку «Відхилити».
+    Якщо ви не впевнені щодо речення, ви також можете пропустити його та перейти до наступного.
+sc-howto-review-criteria-6 = Якщо у вас закінчилося речення для перегляду, допоможіть нам зібрати більше речень!
+sc-howto-findpd-title = Пошук наявних речень у суспільному надбанні
+sc-howto-findpd-subtitle = Шукайте їх в інтернеті
+sc-howto-findpd-text-2 = Пам’ятайте, що нам потрібен дозвіл на публікацію цих речень, тому завжди впевнюйтеся, що текст належить до <wikipediaLink>суспільного надбання</wikipediaLink>. Якщо про це чітко не зазначено, зв’яжіться з людиною, якій належить текст, і запитайте, чи хоче вона долучити свій текст до суспільного надбання. Якщо так, допоможіть їм пройти процедуру <cc0WaiverLink>Угоди про внески</cc0WaiverLink>. Якщо вони не хочуть додавати текст, вам заборонено використовувати цей текст.
+sc-howto-findpd-tips = Ось кілька порад щодо пошуку речень:
+sc-howto-findpd-tips-1 =
+    Найкращі джерела, які ви можете знайти, — це подкасти, стенограми, сценарії фільмів тощо
+    все, що потенційно може містити повсякденні розмови.
+sc-howto-findpd-tips-2 =
+    Урядові обговорення, книги та статті теж містять чудові тексти, але мають
+    схильність бути дещо формальнішими, вони мають нижчий пріоритет.
+sc-howto-findpd-tips-3 = На жаль, ми поки не можемо мати статті Вікімедіа. Тому не копіюйте тексти звідти.
+sc-howto-findpd-subtitle-2 = Співпраця з місцевими організаціями або приватними особами
+sc-howto-findpd-partner-1 =
+    Існує багато громадських організацій, які можуть прагнути до співпраці
+    і вже мають багато текстів, які вони можуть надати суспільним надбанням. Звертайтеся до місцевих університетів,
+    урядів та відкритих організації, щоб розповісти про проєкт та попросити їхньої допомоги.
+sc-howto-findpd-partner-2 =
+    Експерти-лінгвісти також можуть допомогти, спробуйте звернутися до місцевих лінгвістів
+    Університети (і викладачів, і студентів) і запитайте, чи можуть вони допомогти урізноманітнити набір
+    звучання речень вашою мовою.
+
+## MY SENTENCES
+
+sc-my-title = Мої речення
+sc-my-description =
+    На цій сторінці представлено огляд усіх надісланих речень.
+    Ви також можете видалити вже надіслані речення, якщо потрібно, поставивши прапорець біля них
+    і натиснувши кнопку &quot;Видалити вибрані речення&quot; внизу.
+    Будь ласка, видаляйте речення лише в разі крайньої потреби,
+    наприклад, якщо ви помітили, що речення захищено авторським правом.
+sc-my-loading = Завантаження ваших речень…
+sc-my-err-fetching = Помилка під час отримання ваших речень. Спробуйте ще раз.
+sc-my-no-sentences = Речень не знайдено!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Надсилання: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Джерело:  { $source }
+sc-my-delete = Видалити вибрані речення
+sc-my-deleting = Видалення вибраних речень…
+sc-my-err-failed-delete = Не вдалося видалити вибрані речення… Спробуйте ще раз!
+
+## REJECTED
+
+sc-rejected-title = Відхилені речення
+sc-rejected-loading = Завантаження відхилених речень…
+sc-rejected-err-fetching = Помилка під час отримання відхилених речень. Спробуйте ще раз.
+sc-rejected-none-found = Відхилених речень не знайдено!
+
+## STATS
+
+sc-stats-title = Статистика
+sc-stats-updating = Оновлення…
+sc-stats-error = Ми не змогли отримати статистику. Будь ласка, спробуйте пізніше.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector зібрав { $sentenceCount } речень { $languageCount } мовами!
+
+## ADD
+
+sc-submit-err-select-lang = Оберіть мову.
+sc-submit-err-add-sentences = Додайте речення.
+sc-submit-err-add-source = Додайте джерело.
+sc-submit-err-confirm-pd = Підтвердьте, що ці речення є суспільним надбанням.
+sc-submit-prompt =
+    .message = Речення не надіслано. Ви впевнені, що хочете вийти?
+sc-submit-title = Додайте речення
+sc-submit-select-language =
+    .labelText = Вибрати мову
+sc-submit-add-sentences = Додайте речення <wikipediaLink>суспільного надбання</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Одне речення на рядок
+sc-submit-from-where = Звідки ці речення <wikipediaLink> суспільного надбання</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Прочитайте наші настанови, якщо не знаєте, як його позначити
+sc-submit-confirm =
+    Я підтверджую, що ці речення є <wikipediaLink>суспільним надбанням</wikipediaLink>
+    і маю дозвіл на їх завантаження.
+sc-submit-button =
+    .submitText = Надіслати
+sc-submit-filtered = Відфільтровані речення через невиконання вимог (надайте виправлені версії у вигляді нових пропозицій):
+sc-submit-guidelines = Ознайомтеся з <howToLink>настановами</howToLink>.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Не вдалося додати мову
+sc-add-lang-sec-label = Додайте мову, до якої ви хочете зробити внесок
+sc-add-lang-sec-button = Додати мову
+sc-add-err-unexpected = Сервер повернув неочікувану відповідь
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Надіслані речення. Відхилено { $duplicates } речень, як повторюваних.
+        [one] Надіслані речення. Відхилено { $duplicates } речення, як повторюване.
+        [few] Надіслані речення. Відхилено { $duplicates } речення, як повторювані.
+       *[many] Надіслані речення. Відхилено { $duplicates } речень, як повторюваних.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Не вдалося додати речення
+        [one] Не вдалося додати 1 речення
+        [few] Не вдалося додати { $sentences } речення
+       *[many] Не вдалося додати { $sentences } речень
+    }
+sc-add-err-submission = Помилка надсилання
+sc-add-lang-process-notice = Якщо вашої мови тут немає, ви можете надіслати запит про її додавання через <languageProcessLink>цей процес</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = Речення не надіслано. Ви впевнені, що хочете вийти?
+sc-confirm-sentences-title = Підтвердьте нові речення
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Речень не знайдено
+        [one] Знайдено 1 речення.
+        [few] Знайдено { $countOfSentences } речення.
+       *[many] Знайдено { $countOfSentences } речень.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = Ви відхилили { $countOfInvalidated }
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ще не переглянуто жодного речення
+        [one] Уже переглянуто 1 речення. Чудова робота!
+        [few] Уже переглянуто { $countOfReviewed } речення. Чудова робота!
+       *[many] Уже переглянуто { $countOfReviewed } речень. Чудова робота!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Немає готових до надсилання речень!
+        [one] 1 речення готове до надсилання!
+        [few] { $readyCount } речення готові до надсилання!
+       *[many] { $readyCount } речень готові до надсилання!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } речень не перевірено. Якщо хочете, можете також перевірити свої речення перед їх поданням.
+sc-confirm-button-text = Підтвердити
+sc-confirm-uploading = Речення завантажуються. Це може тривати кілька хвилин залежно від кількості доданих речень. Не закривайте цей вебсайт.
+
+## LANGUAGE INFO
+
+sc-lang-info-title-total = Усього
+sc-lang-info-title-personal = Особиста
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Немає підсумку речень.
+        [one] Всього 1 речення.
+        [few] Всього { $totalSentences } речення.
+       *[many] Всього { $totalSentences } речень.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Немає не перевірених речень.
+        [one] 1 не перевірене речення.
+        [few] { $totalInReview } не перевірені речення.
+       *[many] { $totalInReview } не перевірених речень.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Не залишилося речень, які ви можете перевірити.
+        [one] Залишилося 1 речення, яке ви можете перевірити.
+        [few] Залишилося { $unreviewedSentencesByYou } речення, які ви можете перевірити.
+       *[many] Залишилося { $unreviewedSentencesByYou } речень, яке ви можете перевірити.
+    }
+sc-lang-info-review-now = <reviewLink>Перевірити зараз!</reviewLink>
+sc-lang-info-add-more = <addLink>Додайте більше речень зараз!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Немає перевірених речень.
+        [one] 1 перевірене речення.
+        [few] { $validatedSentences } перевірені речення.
+       *[many] { $validatedSentences } перевірених речень.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Немає відхилених речень.
+        [one] 1 відхилене речення.
+        [few] { $rejectedSentences } відхилені речення.
+       *[many] { $rejectedSentences } відхилених речень.
+    }
+
+## LOGIN
+
+sc-login-err-failed = Не вдалося увійти
+sc-login-err-try-again = Спробуйте ще раз.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профіль: { $username }
+sc-personal-err-lang-not-found = Не вдалося вилучити мову: мову не знайдено
+sc-personal-err-remove = Не вдалося вилучити мову
+sc-personal-your-languages = Ваші мови:
+sc-personal-remove-button = вилучити
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } додано вами
+sc-personal-not-added = Ви ще не додали жодної мови.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ Критерії перевірки
+sc-criteria-title = Критерії перевірки
+sc-criteria-make-sure = Переконайтеся, що речення відповідає таким критеріям:
+sc-criteria-item-1 = Речення має бути написано правильно.
+sc-criteria-item-2 = Речення має бути граматично правильним.
+sc-criteria-item-3 = Речення має бути вимовним.
+sc-criteria-item-4 = Якщо речення відповідає критеріям, натисніть кнопку &quot;Затвердити&quot; праворуч.
+sc-criteria-item-5-2 =
+    Якщо речення не відповідає наведеним критеріям, натисніть кнопку &quot;Відхилити&quot; ліворуч.
+    Якщо ви не впевнені щодо речення, ви також можете пропустити його та перейти до наступного.
+sc-criteria-item-6 = Якщо у вас закінчилося речення для перегляду, допоможіть нам зібрати більше речень!
+
+## REVIEW
+
+sc-review-lang-not-selected =
+    Ви не вибрали жодної мови. Перейдіть до свого
+    <profileLink>Профілю</profileLink>, щоб обрати мови.
+sc-review-title = Перевірити речення
+sc-review-loading = Завантаження речень…
+sc-review-select-language = Виберіть мову для перевірки речень.
+sc-review-no-sentences =
+    Немає речень для перевірки.
+    <addLink>Додайте ще речення зараз!</addLink>
+sc-review-form-prompt =
+    .message = Перевірені речення не надіслано, ви впевнені?
+sc-review-form-usage =
+    Проведіть пальцем вправо, щоб затвердити речення. Проведіть пальцем ліворуч, щоб відхилити.
+    Проведіть пальцем вгору, щоб пропустити. <strong>Не забудьте надіслати перевірку!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Джерело: { $sentenceSource }
+sc-review-form-button-reject = Відхилити
+sc-review-form-button-skip = Пропустити
+sc-review-form-button-approve = Затвердити
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Т
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = Н
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = П
+sc-review-form-keyboard-usage-custom = Ви також можете використовувати комбінації клавіш: { sc-review-form-button-approve-shortcut } для схвалення, { sc-review-form-button-reject-shortcut } для відхилення, { sc-review-form-button-skip-shortcut }, щоб пропустити
+sc-review-form-button-submit =
+    .submitText = Завершити перевірку
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Немає перевірених речень.
+        [one] Перевірено { $sentences } речення. Спасибі!
+        [few] Перевірено { $sentences } речення. Спасибі!
+       *[many] Перевірено { $sentences } речень. Спасибі!
+    }
+sc-review-form-review-failure = Не вдалося зберегти перевірку. Повторіть спробу пізніше.
+sc-review-link = Перевірити
+
+## SETTINGS
+
+sc-settings-title = Налаштування
+sc-settings-ui-language = Мова інтерфейсу
+sc-settings-language-translated-warning = Сторінки цією мовою можуть бути не повністю перекладені. Ви можете допомогти з перекладом <pontoonLinkLink>на Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = Скинути пропущені речення
+sc-settings-skipped-decription =
+    Ви раніше пропускали речення під час перегляду.
+    Скидання пропущених речень поверне усі пропущені речення.
+    Це не залежить від мови.
+sc-settings-show-all-button = Знову показати всі пропущені речення
+sc-settings-failed = Не вдалося змінити налаштування. Повторіть спробу.
+# VALIDATION
+sc-validation-number-of-words = Речення має містити від 1 до 14 (включно) слів
+sc-validation-no-numbers = Речення не повинно містити цифр
+sc-validation-no-symbols = Речення не повинно містити символів
+sc-validation-no-abbreviations = Речення не повинно містити скорочень
+
+# [/SentenceCollector]
+
+localization-select =
+    .label = Виберіть мову/локалізацію

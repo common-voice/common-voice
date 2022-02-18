@@ -36,9 +36,9 @@ ba = Башкорт
 bas = Басаа
 be = Беларус
 bg = Болгар
-bm = Бамбара
 bn = Бенгал
 br = Бретон
+bs = Босния
 bxr = Бурят
 ca = Каталан
 cak = Какчикел
@@ -67,6 +67,7 @@ fy-NL = Фриз
 ga-IE = Ирланд
 gl = Галисия
 gn = Гуарани
+gom = Конкани (Гоа)
 ha = Хауса
 he = Яһүд
 hi = Һинди
@@ -90,7 +91,9 @@ kab = Кабил
 kbd = Кабардин
 ki = Кикуйу
 kk = Казакъ
+km = Кхмер
 kmr = Курманҗи көрд
+knn = Конкани (Деванагари)
 ko = Корей
 kpv = Коми-зырян
 kw = Корн
@@ -106,6 +109,7 @@ mhr = Болын мари
 mk = Македон
 ml = Малаялам
 mn = Монгол
+mni = Манипури
 mos = Мосси
 mr = Маратһи
 mrj = Таулы мари
@@ -127,6 +131,8 @@ pap-AW = Папиаменто (Аруба)
 pl = Поляк
 ps = Пушту
 pt = Португал
+quc = Киче
+quy = Кечуа Чанка
 rm-sursilv = Романш сурсельв
 rm-vallader = Романш Валладер
 ro = Румын
@@ -150,6 +156,9 @@ ta = Тамил
 te = Телугу
 tg = Таҗик
 th = Тай
+ti = Тигринья
+tig = Тигре
+tk = Төрекмән
 tl = Тагалог
 tr = Төрек
 tt = Татар
@@ -231,18 +240,18 @@ all-locales = Бөтенесе
 today = Бүген
 x-weeks-short =
     { $count ->
-        [one] атна
+        [one] Атна
        *[other] { $count } атна
     }
 x-months-short =
     { $count ->
-        [one] ай
-       *[other] { $count } ай
+        [one] Ай
+       *[other] { $count } Monate
     }
 x-years-short =
     { $count ->
-        [one] ел
-       *[other] ел
+        [one] Ел
+       *[other] { $count } ел
     }
 help-make-dataset = Безгә югары сыйфатлы, һәркемгә ачык мәгълүмат тупланмасын булдырырга ярдәм итегез
 sign-up-account = Аккаунт булдырыр өчен теркәлегез
@@ -295,6 +304,7 @@ shortcut-record-toggle-label = Яздыру/Туктату
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Клипны янәдән яздыру
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Агымдагы яздырудан баш тарту
 shortcut-submit = Enter
 shortcut-submit-label = Клипларны җибәрү
 request-language-text = Common Voice'ка Сезнең телегез өстәлмәгәнме әле?
@@ -323,8 +333,11 @@ profile-form-native-language =
     .label = Туган тел
 profile-form-additional-language =
     .label = Өстәмә тел
+profile-form-language =
+    .label = Тел
 profile-form-accent =
     .label = Акцент
+profile-form-custom-accent-placeholder-2 = Акцентыгызны тасвирлау өчен яза башлагыз
 profile-form-age =
     .label = Яшь
 profile-form-gender-2 =
@@ -335,6 +348,7 @@ hidden = Яшерен
 visible = Күренә
 native-language =
     .label = Ана теле
+profile-form-add-accent = Яңа үзгә "{ $inputValue }" акцентын өстәү
 profile-form-submit-save = Саклау
 profile-form-submit-saved = Сакланды
 male = Ир-ат
@@ -368,6 +382,7 @@ skip-submission-description = 'Җибәрү'гә баскач,  мәгълүма
 skip-submission-note = Искәрмә: Ярдәм итү төрен үзгәртү өчен сезгә Сөйләү яки Тыңлауны сайларга кирәк булачак.
 off = Сүнгән
 on = Кабынган
+help-accent = Акцент белән бәйле ярдәм кирәкме?
 
 ## Profile - Email
 
@@ -395,6 +410,10 @@ faq-what-cv-a =
     Тавыш тану технологияләре безнең машиналар белән эш итү рәвешен тамырдан үзгәртә алыр иде, әмма әлегә кадәр эшләнгән системалар кыйммәт һәм проприетар. Common Voice — Mozilla'ның тавыш тану технологияләрен камилрәк һәм һәркем өчен дә ачык итүгә юнәлгән инициативасының бер өлеше. Common Voice ул — дөньяның һәр тарафында яшәүче кешеләр иганә иткән аудиоязмалар тупланмасы. Әлеге тупланма һәр тел өчен дә (бу тел өчен аудиоязмалар җитәрлек булса, әлбәттә) ул телдә сөйләгәнне «аңлаучы» программалар ясауны мөмкин итә.
     
     Аудиоязмаларны без сөйләшүчеләр саны зур булган телләрдә генә түгел, чагыштырмача әз кеше сөйләшкән телләрдә дә җыябыз. Төрле телләрдә булган аудиоязмалар тупланмасын нәшер итү программачыларга, эшмәкәрләргә һәм җәмгыятьләргә үз телләре өчен технологияләр булдыруны мөмкин итәчәк.
+faq-what-cv-a-2 =
+    Сөйләм тану технологияләре безнең машиналар белән эш итү рәвешен тамырдан үзгәртә алыр иде, әмма әлегә кадәр эшләнгән системалар кыйммәт һәм проприетар. Mozilla Common Voice — сөйләм тану технологияләрен камилрәк һәм һәркем өчен дә ачык итүгә юнәлгән инициатива. Common Voice ул — бик зур, дөньяның һәр тарафында яшәүче кешеләр иганә иткән аудиоязмалар тупланмасы. Әлеге тупланманы кулланып, һәркем тиз һәм җиңел генә һәр тел өчен дә ул телдә сөйләгәнне «аңлаучы» программалар булдыра ала.
+    
+    Аудиоязмаларны сөйләшүчеләр саны зур булган телләрдә генә түгел, чагыштырмача әз кеше сөйләшкән телләрдә дә җыябыз. Төрле телләрдә булган аудиоязмалар тупланмасын нәшер итү программачыларга, эшмәкәрләргә һәм җәмгыятьләргә үз телләре өчен технологияләр булдыруны мөмкин итәчәк.
 faq-why-important-q = Бу ни өчен мөһим?
 faq-why-important-a =
     Сөйләм — аралашуның иң табигый ысулы, һәм сөйләм технологияләре компьютер һәм мобиль җиһазлар белән дә сөйләм аша идарә итүне мөмкин итә. Безнең программачыларга синхрон тәрҗемәче яисә дигиталь ассистент кебек, сөйләм тану технологияләренә нигезләнгән гаҗәеп кушымталар булдырырга ярдәм итәсебез килә. Әмма әлегә мондый төр кушымталарны булдырырга кирәкле аудиомәгълүматның күпчелек өлеше кыйммәт һәм проприетар. Common Voice мәгълүмат тупланмасы җитештерүчеләргә инновацияләү өчен кирәкле мәгълүмат бирер һәм аларга үз туган телләре өчен дә сөйләм тану технологияләрен булдырырга ярдәм итәр дип өметләнәбез.
@@ -444,12 +463,24 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Нигә Common Voice?
-about-subtitle = Common Voice — Mozilla'ның җиһазларга чын кешеләр ничек сөйләшә икәнен өйрәтүгә багышланган инициативасының бер өлеше. Common Voice мәгълүмат тупланмасыннан тыш, без Deep Speech дип аталучы ачык кодлы сөйләм тану системасы өстендә дә эшлибез.
-about-header-description =
-    Бу проектның икесе дә — цифралаштырылган сөйләмдә булган тигезсезлекне төзәтүне максат итеп тоткан тырышлыкларыбызның бер өлеше. Сөйләм тану технологияләре электрон җиһазларыбызга кешечә бер йөз бирә, әмма аларны булдыру өчен, җитештерүчеләргә ифрат күп аудиоязмалар кирәк. Әлеге вакытта андый мәгълүматның күпчелек өлеше кыйммәт һәм проприетар.
-    Без аудиомәгълүматның ирекле һәм һәркем өчен дә ачык булуын, һәм кешеләрнең төрлелеген чагылдыруын телибез. Бергәләшеп без сөйләм тану технологияләрен һәркем өчен дә яхшырак итә алабыз.
-how-does-it-work-title = Ул ничек эшли?
+how-does-it-work-title-v2 = Common Voice ничек эшли?
 how-does-it-work-text = Без ачык аудиоязма тупланмасын төзибез. Тавышыгызны иганә итегез, башка кешеләр яздырган аудиоязмаларның төгәллеген тикшерегз, бу мәгълүмат тупланмасын һәркем өчен дә яхшыртыгыз.
+
+## How does it work section
+
+about-language-req-subtitle = Кемдер тел өстәлүен сорый.
+about-localization-title = Вебсайтны тәрҗемә итү
+about-localization-subtitle = Вебсайт тексты бу телгә тәрҗемә ителә.
+about-sentence-collection-title = Җөмләләр тупланмасы
+about-sentence-collection-subtitle = Кешеләр кычкырып укысын өчен җөмләләр җыела.
+about-new-lang-title = Яңа телне эшкә кушу
+about-new-lang-subtitle = Без бу телдә Common Voice сайтын башлап җибәрәбез.
+about-voice-contrib-title = Тавышлап өлеш кертү
+about-voice-validation-title = Тавышларны тикшерү
+about-voice-validation-subtitle = Башка кешеләр бу тавыш клипларын тикшерәләр.
+about-dataset-release-title = Мәгълүмат тупланмасының чыгарылышы
+about-dataset-release-subtitle = Без мәгълүматлар тупланмасын 3 ай саен чыгарабыз.
+about-subscribe-text = Common Voice белән элемтәдә торырга телисезме?
 about-speak = Сөйләү
 about-speak-text = Катнашучылар, иганә ителгән җөмләләрне укып, аудиоязмалар булдыралар.
 about-listen-queue = Тыңлау чираты
@@ -481,6 +512,46 @@ about-nav-why-common-voice = Нигә?
 about-nav-how-it-works = Ничек?
 about-nav-partners = Партнёрлар
 about-nav-get-involved = Катнашу
+about-nav-how-it-works-2 = Common Voice ничек эшли?
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Common Voice-та тел нәрсә ул?
+
+## How do I add a language
+
+about-playbook-how-add-language = Телне ничек өсти алам?
+
+## How does localization work
+
+about-playbook-how-localize = Сайт тәрҗемәсе ничек эшли?
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Җөмләләрне өсти алам?
+
+## How to record quality
+
+about-playbook-how-record-content-5 = <accuracyLink>Төгәллек критерийлары турында күбрәк белү.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = Вакыйгалар
+about-playbook-how-grow-language-content-4 = Социаль челтәр
+about-playbook-how-grow-language-content-6 = Партнёрлык һәм челтәрләр
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance-content-3 = Хосусыйлык, хәвефсезлек һәм ачыклык.
+about-playbook-how-project-governance-content-5 = Кыйммәт һәм тану.
+about-playbook-how-project-governance-content-6 = Үзара җаваплылык.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Ясалма интеллект
 mycroft-description = Mycroft — дөньяда беренче ачык чыганак кодлы ассистент. Ул һәркайда да эшли ала — өстәл өсте компьютерында, автомобильдә яки Raspberry Pi'да.
@@ -726,7 +797,7 @@ report-success = Шикаять җибәрелде
 
 ## Goals
 
-streaks = көн рәттән
+streaks = Көн рәттән
 days =
     { $count ->
         [one] Көн
@@ -786,10 +857,10 @@ finish-editing = Башта мөхәррирләүне тәмамларгамы?
 lose-changes-warning = Хәзер бу биттән китү үзгәртүләрегезнең югалуына китерәчәк.
 build-custom-goal = Шәхси бер максат булдыру
 help-reach-hours-pluralized =
-    Шәхси максат куеп, { $language }{ NUMBER($hours) ->
-        [one] { $hours } сәгать
-       *[other] { $hours } сәгать
-    }аудиоязма җыярга ярдәм итегез
+    { NUMBER($hours) ->
+        [one] Шәхси максат куеп, { $language } телендә { $hours } сәгать аудиоязма җыярга ярдәм итегез
+       *[other] Шәхси максат куеп, { $language } телендә { $hours } сәгать аудиоязма җыярга ярдәм итегез
+    }
 help-reach-hours-general-pluralized =
     Үзегезгә бер шәхси максат куеп, Common Voice'ка{ NUMBER($hours) ->
         [one] { $hours } сәгать
@@ -851,10 +922,21 @@ profile-form-delete = Профильне бетерү
 
 ## Profile Download
 
+download-q = Мәгълүматыгызны йөкләргә кирәкме?
 download-profile-title = Профиль
+download-profile-size = Берничә байт
+download-recordings-title = Язмалар
+download-recordings-size = Гадәттә мегабайт
+download-size = Үлчәм
 download-selected = Сайланган
+download-start = Профиль мәгълүматларын йөкләп алу
+download-request = Язмалар йөкләп алуга гариза бирү
+download-requests = Язмаларны йөкләп алуга элегрәк бирелгән гаризалар
 download-request-button = Йөкләп алу
 download-request-title = { $created }
+download-request-description = { $clipCount } аудиоязма, гомуми архив күләме: { $size }. Вакыты чыга: { $expires }.
+download-request-archive-single = Бердәнбер ZIP файл. Эчтәлеге:
+download-request-archive-multiple = { $archiveCount } ZIP файл. Эчтәлек:
 download-request-refresh-button = Яңарту
 download-request-modal-title = Сылтамаларны йөкләп алу
 download-request-link-text = Zip #{ $offset } / { $total }
@@ -919,3 +1001,185 @@ contribution-volume-title = Тавыш көче
 contribution-reader-effects-title = Укучы эффектлары
 see-more = <chevron></chevron>Күбрәк
 see-less = <chevron></chevron>Әзрәк
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Баш бит
+sc-header-how-to = Кулланма
+sc-header-add = Өстәү
+sc-header-review = Тикшерү
+sc-header-rejected = Кире кагылган җөмләләр
+sc-header-my = Минем җөмләләр
+sc-header-statistics = Статистика
+sc-header-profile = Профиль
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Хаталар турында хәбәр итү
+sc-footer-translate = Бу битне тәрҗемә итү
+sc-footer-privacy = Хосусыйлык
+sc-footer-terms = Шартлар
+sc-footer-cookies = Кукилар
+sc-login-signup-button = Керү / Теркәлү
+sc-logout-button = Чыгу
+
+## HOME
+
+sc-home-title = Common Voice җөмләләр җыючысына рәхим итегез
+sc-home-collect-title = Җөмләләр туплау
+sc-home-collect-text = Иҗтимагый милектәге җөмләләр язып яки җыеп, безгә ярдәм итегез.
+sc-home-review-title = Җөмләләрне тикшерү
+
+## HOW-TO
+
+sc-howto-title = Кулланма
+sc-howto-addsen-title = Яңа җөмләләр өстәү
+sc-howto-review-title = Җөмләләрне тикшерү
+sc-howto-findpd-title = Иҗтимагый милектәге җөмләләрне табу
+sc-howto-findpd-subtitle = Аларны интернетта эзләү
+
+## MY SENTENCES
+
+sc-my-title = Минем җөмләләр
+sc-my-loading = Җөмләләрегез йөкләнә…
+sc-my-no-sentences = Җөмләләр табылмады!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Җибәрү: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Чыганак:    { $source }
+sc-my-delete = Сайланган җөмләләрне бетерү
+sc-my-deleting = Сайланган җөмләләр бетерелә…
+
+## REJECTED
+
+sc-rejected-title = Кире кагылган җөмләләр
+sc-rejected-loading = Кире кагылган җөмләләр йөкләнә…
+sc-rejected-none-found = Кире кагылган җөмләләр табылмады!
+
+## STATS
+
+sc-stats-title = Статистика
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Соңгы яңарту: { $lastUpdate }
+sc-stats-last-update-never = Соңгы яңарту: һичкайчан
+sc-stats-updating = Яңартыла…
+
+## ADD
+
+sc-submit-err-select-lang = Зинһар, бер тел сайлагыз.
+sc-submit-err-add-sentences = Зинһар, җөмләләр өстәгез.
+sc-submit-err-add-source = Зинһар, чыганак өстәгез.
+sc-submit-title = Җөмләләр өстәү
+sc-submit-select-language =
+    .labelText = Телне сайлау
+sc-submit-add-sentences = <wikipediaLink>Иҗтимагый милектәге</wikipediaLink> җөмләләр өстәү
+sc-submit-button =
+    .submitText = Җибәрү
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Телне өстәп булмады
+sc-add-lang-sec-button = Тел өстәү
+sc-add-err-submission = Җибәрү хатасы
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-sentences-title = Яңа җөмләләрне раслау
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Җөмләләр табылмады.
+        [one] 1 җөмлә табылды.
+       *[other] { $countOfSentences } җөмлә табылды.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } җөмләне кире кактыгыз
+sc-confirm-button-text = Раслау
+
+## LANGUAGE INFO
+
+sc-lang-info-review-now = <reviewLink>Хәзер үк тикшерәм!</reviewLink>
+sc-lang-info-add-more = <addLink>Хәзер үк күбрәк җөмләләр өстим!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Тикшерелгән җөмләләр юк.
+        [one] 1 җөмлә тикшерелде.
+       *[other] { $validatedSentences } җөмлә тикшерелде.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Кире кагылган җөмләләр юк.
+        [one] 1 җөмлә кире кагылды.
+       *[other] { $rejectedSentences } җөмлә кире кагылды.
+    }
+
+## LOGIN
+
+sc-login-err-failed = Керү уңышсыз тәмамланды
+sc-login-err-try-again = Зинһар янәдән тырышып карагыз.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профиль: { $username }
+sc-personal-err-lang-not-found = Телне бетереп булмады: тел табылмады
+sc-personal-err-remove = Телне бетереп булмады
+sc-personal-your-languages = Сезнең телләрегез:
+sc-personal-remove-button = бетерү
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } җөмлә өстәгәнсез
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ Тикшерү критерийлары
+sc-criteria-title = Тикшерү критерийлары
+
+## REVIEW
+
+sc-review-title = Җөмләләрне тикшерү
+sc-review-loading = Җөмләләрне йөкләү…
+sc-review-select-language = Зинһар, җөмләләрне тикшерү өчен телне сайлагыз.
+sc-review-no-sentences = Тикшерү өчен җөмләләр юк. <addLink>Хәзер күбрәк җөмлә өстәгез!</addLink>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Чыганак: { $sentenceSource }
+sc-review-form-button-reject = Кире кагу
+sc-review-form-button-skip = Калдырып тору
+sc-review-form-button-approve = Раслау
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = Тикшерүне тәмамлау
+sc-review-form-review-failure = Тикшерүне саклап булмады. Зинһар соңрак янә тырышып карагыз.
+sc-review-link = Тикшерү
+
+## SETTINGS
+
+sc-settings-title = Көйләүләр
+sc-settings-ui-language = Интерфейс теле
+sc-settings-reset-skipped = Калдырып торган җөмләләрне үз хәлләренә кайтару
+sc-settings-failed = Көйләүләрне үзгәртеп булмады. Зинһар янәдән тырышып карагыз.
+sc-validation-no-numbers = Җөмләдә саннар булырга тиеш түгел
+sc-validation-no-symbols = Җөмләдә символлар булырга тиеш түгел
+sc-validation-no-abbreviations = Җөмләдә кыскартылмалар булырга тиеш түгел
+
+# [/SentenceCollector]
+

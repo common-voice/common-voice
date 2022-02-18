@@ -379,8 +379,8 @@ faq-what-cv-q = Me ne ne Common Voice?
 faq-what-cv-a = Fasahar Magana wani juyin-juya hali ne da zai sauya yadda muke ma'amala da na'ura, amma kimiyyar da muke da su yanzu suna da tsada kuma na neman kuɗi ne. Common voice na daga cikin Ayyukan sa kai na Mozilla don samar da fasahar murya mai inganci kuma sauƙaƙƙa ga kowa, Common Voice wani babban ma'ajiya ta tattara muryoyin da aka ba da gudun mowa kuma a ba ka damar horar da vurya ko sawa cikin manhajarka da kowanne yare
 faq-why-important-q = Me ya sa yake da muhimmanci?
 faq-why-important-a =
-    Magana shine mafi akalar hanyar da muke sadarwa tare da juna kuma fasahar murya suna kawo wannan dacewar ga kwamfutocinmu da na'uran hannu. Muna so mu ƙarfafa masu haɓakawa don gina aikace-aikacen gane murya mai ban mamaki kamar masu fassara na ainihi da mataimakan masu amfani da dijital. Amma a yanzu yawancin bayanan muryar da ake buƙata don gina waɗannan nau'ikan aikace-aikacen suna da tsada da mallakar ta. Muna fatan kundin bayanan gama gari zai ba masu haɓaka abin da suke buƙata don ƙirƙirawa da kuma samar da fasahar magana a cikin yarensu.¶
-    ¶
+    Magana shine mafi akalar hanyar da muke sadarwa tare da juna kuma fasahar murya suna kawo wannan dacewar ga kwamfutocinmu da na'uran hannu. Muna so mu ƙarfafa masu haɓakawa don gina aikace-aikacen gane murya mai ban mamaki kamar masu fassara na ainihi da mataimakan masu amfani da dijital. Amma a yanzu yawancin bayanan muryar da ake buƙata don gina waɗannan nau'ikan aikace-aikacen suna da tsada da mallakar ta. Muna fatan kundin bayanan gama gari zai ba masu haɓaka abin da suke buƙata don ƙirƙirawa da kuma samar da fasahar magana a cikin yarensu.
+    
     Don ƙara fahimtar murya har ma ta game duniya, muna tattara samfuran murya a cikin yarukan da ake magana da su da kuma waɗanda ke da ƙaramin yawan masu magana waɗanda yawancin lokuta ba sa samun kula daga sabis na fahimtar magana. Buga ɗakunan bayanai daban-daban na muryoyi zai ƙarfafa masu haɓakawa, 'yan kasuwa, da dukkanin al'ummomin magana don magance wannan ratar da kansu.
 faq-how-get-q = Ta yaya zan iya samun bayanan Common Voice ?
 faq-how-get-a = Ana samun kundin bayanan Common Voice don zazzagewa a ƙarƙashin lasisin <licenseLink> CC0 </licenseLink> akan <datasetLink> shafin Bayanai na Datasets ɗinmu </datasetLink>. Hakanan zaka iya zazzage wasu tarin bayanan da ake samu a fili daga wannan shafin.
@@ -396,7 +396,7 @@ faq-do-want-native-q = Ni ba dan asalin gida bane kuma ina magana da lafazi, har
 faq-do-want-native-a = Eh, muna son muryar ku musamman! Wani ɓangare na manufar Common Voice ita ce tattara lafazi daban-daban yadda ya yiwu don sabis ɗin gane murya suyi aiki daidai ga kowa. Wannan yana nufin gudummawa daga masu magana da ba 'yan ƙasa da suna da mahimmanci.
 faq-why-different-speakers-q = Me ya sa kuke bukatar masu magana da yawa a kowane harshe?
 faq-why-different-speakers-a =
-    Yawancin ɗakunan bayanan magana ana horar dasu tare da gabatar da ƙididdigar wasu alƙaluma wanda hakan ke haifar da son zuciya ga <articleLink> maza da masu matsakaitan matsayi </articleLink>. Takaddun lafazi da yarukan da basu da wakilci sosai a cikin bayanan bayanan horo galibi suna da alaƙa da rukunin mutane waɗanda aka riga aka ware su. Hakanan injina da yawa suna gwagwarmaya don fahimtar muryoyin mata.¶
+    Yawancin ɗakunan bayanan magana ana horar dasu tare da gabatar da ƙididdigar wasu alƙaluma wanda hakan ke haifar da son zuciya ga <articleLink> maza da masu matsakaitan matsayi </articleLink>. Takaddun lafazi da yarukan da basu da wakilci sosai a cikin bayanan bayanan horo galibi suna da alaƙa da rukunin mutane waɗanda aka riga aka ware su. Hakanan injina da yawa suna gwagwarmaya don fahimtar muryoyin mata.
     Wannan shine dalilin da ya sa a cikin bayanan muryarmu muke son iri-iri!
 faq-why-my-lang-q = Me ya sanya ba'a saka yarena ba har yanzu?
 faq-why-my-lang-new-a = Mozilla ba ta ɗauka ko fifita kowane yare akan wani. Madadin haka, Common Voice shiri ne kawai na al'umma, amma yana ɗaukar <multilangLink> matakai da yawa don ƙara sabon yare </multilangLink> kuma fara tattara gudummawar murya. Da farko, ana buƙatar fassara gidan yanar gizo na Voice Voice gama membobin al'umma zasu iya samun damar kwarewar mai bayarwa a cikin yarensu. Abu na gaba, muna buƙatar tarin jimloli mara izini don mutane su karanta a fili. Da zarar waɗannan abubuwan biyu sun gamsu an fara “harshe” a kan Muryar gama gari don mutane su fara yin rikodin muryar su da kuma inganta wasu gudummawar. Idan kanaso ka taimaka ka ƙaddamar da sabon yare, ka koma zuwa ga <sentenceCollectorLink> kayan aikin tattara jumla </sentenceCollectorLink> don farawa.
@@ -419,8 +419,8 @@ faq-how-privacy-q = Ta yaya kake tabbatar da rashin suna da sirrin mutanen da su
 faq-how-privacy-a = Duk shirye-shiryen muryoyi a cikin bayanan an goge bayanan ganowa da kaina. Lokacin da mai ba da gudummawa ya ba da bayanan alƙaluma ta hanyar bayanin su, ana bayyana bayanin daga shirye-shiryen muryar su kafin a haɗa su don zazzagewa a cikin bayanan kuma ba a taɓa sanar da su a shafin su na asali ba.
 faq-what-determine-identity-q = Me ake nufi da cewa ba zan iya “ƙayyade asalin” masu magana a cikin tsarin tattara bayanan Common Voice ba?
 faq-what-determine-identity-a =
-    Tasirin bayanan Common Voice a bayyane wuri ne kuma a bayyane wanda za'a iya amfani dashi don horar da nau'ikan aikace-aikacen da suka dace da magana. Don kare tsaron masu ba da gudummawarmu, muna tambayar duk wanda ya zazzage bayanan Common Voice don girmama sirrin masu bayar da gudummawa.¶
-    ¶
+    Tasirin bayanan Common Voice a bayyane wuri ne kuma a bayyane wanda za'a iya amfani dashi don horar da nau'ikan aikace-aikacen da suka dace da magana. Don kare tsaron masu ba da gudummawarmu, muna tambayar duk wanda ya zazzage bayanan Common Voice don girmama sirrin masu bayar da gudummawa.
+    
     Duk shirye-shiryen bidiyo a cikin bayanan an goge bayanan ganowa da kaina. Lokacin da kuka zazzage bayanan, kun yarda da ba ƙoƙari don tantance asalin kowane mai ba da gudummawa ba. Wannan yana nufin ba za ku iya ƙoƙarin haɗa bayanin a cikin dataset ɗin ba ga keɓaɓɓen bayanan mai bayarwa. Duk da haka, kuna iya amfani da bayanan don horar da fitowar magana, fitowar mai magana, ko wasu aikace-aikace, ta misali, danganta bayanai a cikin bayanan zuwa wasu bayanan da suke a wurin.
 faq-what-is-cv = Mene ne Common Voice?
 faq-using-cv = Amfani da Common Voice
@@ -433,7 +433,7 @@ faq-search-for-answers =
 about-title = Me yasa muke Common Voice?
 about-subtitle = Common Voice na daga cikin ƙudirin Mozilla don taimakawa koyar da injuna yadda ainihin mutane ke magana. Baya ga kundin bayanan Common Voice, muna kuma gina wani injin buɗe magana wanda ake kira Deep Speech.
 about-header-description =
-    Duk waɗannan ayyukan ɗayan ɓangare ne na ƙoƙarinmu don haɓaka rabe-raben magana na dijital. Fasahar gane murya tana kawo girman mutum zuwa ga na'urorinmu, amma masu haɓaka suna buƙatar adadi mai yawa na bayanan murya don gina su. A halin yanzu, yawancin waɗannan bayanan suna da tsada da kuma mallakar mallaka.¶
+    Duk waɗannan ayyukan ɗayan ɓangare ne na ƙoƙarinmu don haɓaka rabe-raben magana na dijital. Fasahar gane murya tana kawo girman mutum zuwa ga na'urorinmu, amma masu haɓaka suna buƙatar adadi mai yawa na bayanan murya don gina su. A halin yanzu, yawancin waɗannan bayanan suna da tsada da kuma mallakar mallaka.
     Muna son samar da bayanan murya kyauta kuma a bayyane, kuma tabbatar da cewa bayanan suna wakiltar bambancin mutane na ainihi. Tare za mu iya fahimtar murya da kyau ga kowa.
 how-does-it-work-title = Yaya ya ke aiki?
 how-does-it-work-text = Muna tura tarin bayanai na muryoyi-buɗe-tushe. Ba da gudummawa ga muryarka, tabbatar da daidaitattun shirye-shiryen bidiyo na wasu mutane, sanya dataset ɗin ta zama mafi kyau ga kowa da kowa.
@@ -456,14 +456,14 @@ about-clip-graveyard-text = Makabartar Clip ta ƙunshi shirye-shiryen bidiyo wa�
 about-partners = Abokan hulɗa
 about-become-a-partner = Zamo abokin hulɗa
 about-partnership =
-    Common Voice aiki ne na haɗin gwiwa, kuma mun dogara ne da ƙungiyar abokanmu da masu ba da gudummawa don gina babbar hanyar buɗe muryar bayanai ta murya koyaushe.¶
-    ¶
+    Common Voice aiki ne na haɗin gwiwa, kuma mun dogara ne da ƙungiyar abokanmu da masu ba da gudummawa don gina babbar hanyar buɗe muryar bayanai ta murya koyaushe.
+    
     Zamu so mu gode wa mutane da kungiyoyi masu zuwa don taimakon su da aikin:
 about-get-involved = Shiga a dama da kai
 about-get-involved-text-2 =
-    Muna son taimakawa don sanya Common Voice koda mafi kyau?¶
-    Da kyau! Samun tuntuɓar mu ta imel ko <discourseLink> Jawabi </discourseLink>¶
-    tattaunawa, gabatar da al'amuran yanar gizo ta <githubLink> GitHub </githubLink>, ko shiga cikin¶
+    Muna son taimakawa don sanya Common Voice koda mafi kyau?
+    Da kyau! Samun tuntuɓar mu ta imel ko <discourseLink> Jawabi </discourseLink>
+    tattaunawa, gabatar da al'amuran yanar gizo ta <githubLink> GitHub </githubLink>, ko shiga cikin
     <matrixLink> Matrix </matrixLink> tattaunawa ta gari.
 about-nav-why-common-voice = Me yasa?
 about-nav-how-it-works = Ta yaya?
@@ -472,7 +472,7 @@ about-nav-get-involved = Sami Shiga
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence
 mycroft-description =
-    Mycroft shine mataimaki na farko na buɗe tushen talla a duniya.¶
+    Mycroft shine mataimaki na farko na buɗe tushen talla a duniya.
     Mycroft yana gudana ko'ina - a kan kwamfutar tebur, a cikin mota, ko a kan Rasberi Pi.
 mycroft-secondary-description = Wannan kayan aiki ne na buɗewa wanda za'a iya haɗe su, a faɗaɗa su, kuma a inganta su. Ana iya amfani da Mycroft a cikin komai daga aikin kimiyya zuwa aikace-aikacen software na kamfani.
 
@@ -535,10 +535,10 @@ review-delete-recordings = Goge naɗe-naɗe na
 
 datasets-headline = Muna gina buɗaɗɗen tushe, tarin harsuna da yawa na muryoyin da kowa zai iya amfani da shi don horar da aikace-aikacen da suka dace da magana.
 datasets-positioning =
-    Mun yi imanin cewa babban, wadatattun bayanan bayanan murya za su haɓaka bidi'a da ingantacciyar gasa ta kasuwanci cikin fasahar magana ta hanyar ilmantarwa ta fasaha.¶
-    ¶
-    Bayanan Yaren Common voice ya riga ya kasance mafi girman tarin samfuran bayanan murya na fili a cikin nau'inta, amma ba shi kaɗai ba.¶
-    ¶
+    Mun yi imanin cewa babban, wadatattun bayanan bayanan murya za su haɓaka bidi'a da ingantacciyar gasa ta kasuwanci cikin fasahar magana ta hanyar ilmantarwa ta fasaha.
+    
+    Bayanan Yaren Common voice ya riga ya kasance mafi girman tarin samfuran bayanan murya na fili a cikin nau'inta, amma ba shi kaɗai ba.
+    
     Duba zuwa wannan shafin azaman matattarar bayanai na sauran bayanan muryar buɗe tushen bayanai kuma, yayin da Muryar gama gari ke ci gaba da haɓaka, gida don sabuntawar fitowar mu.
 language = Yare
 # File size in gigabytes
@@ -568,8 +568,6 @@ subscribe = Saka kanka
 get-started-speech = Fara da gane Managana (Speech Recognition)
 other-datasets = Sauran Bayanai(Dataset) na Muryoyi
 feedback-q = Kana da wani shawari?
-deepspeech-info = Tasirin bayanan gama gari ya cika injin buɗe muryar buɗe ido na Mozilla Deep Speech, wanda zaku iya amfani dashi don gina aikace-aikacen gane magana. Karanta mu <githubLink> Github overview </githubLink> ko shiga cikin <discourseLink> Bayanin DeepSpeech </discourseLink> don koyon yadda ake farawa.
-common-voice-info-new = Shin akwai tambayoyi game da Common Voice? Ra'ayoyi don ingantawa ko ra'ayoyi game da takamaiman yare? Kasance tare damu a dandalin mu na <discourseLink> Discourse forum </discourseLink> kuma bari mu sani.
 data-other-librispeech-description = LibriSpeech wata matattara ce ta kusan awanni 1000 na 16Khz karanta jawabin Ingilishi wanda aka samo daga karanta littattafan odiyo daga aikin LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM corpus an yi shi ne daga tattaunawar sauti da rubuce rubucensu da ke kan shafin yanar gizon TED.
@@ -843,6 +841,9 @@ why-delete-recordings =
     Za ka iya gaya mana me yasa ka ke son goge muryoyinka da aka ɗauka?
 profile-form-delete = Cire Bayananka
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Barka da zuwa { $company } ma'aikaci!
@@ -886,3 +887,6 @@ demo-listen-subtitle = Shirya don ba da gudummawa?
 
 demo-dashboard-card-header = Keɓaɓɓun maɓallan allo suna ba ku damar kasancewa tare da ci gaban mutum da al'umma.
 demo-dashboard-card-body = Ga ko wane shashin bidiyon da aka bayar, da dukkan muryar da aka inganta, Assusun dashboard ɗinka an sabunta domin yin tafiya daidai da cingaba a kowani yaren da ka bada gudumawa. Eh, zaka iya bada gudumawa fiye da ɗaya!<br/><br/> yi anfani da dashboard domin farawa, gani yaya kake yi in aka kwatanta da sauran am'uma, da shirya burinka na yau da kullum ko gudumawarka na mako-mako.
+
+## Validation criteria
+

@@ -14,7 +14,10 @@ xcuserdata/
 .DS_Store
 .vscode/
 ZZidea
-
+.env-local-docker
+docker-compose.override.yml
+yarn-error.log
+index.ts.bak
 
 # Nubis
 nubis/librarian-puppet.tar.gz

@@ -1,12 +1,12 @@
 .profile-info {
-    color: var(--near-black);
+    color: var(--black);
 
     & h2 {
         margin-bottom: 20px;
         font-weight: 600;
     }
 
-    & .demographic-info {
+    & .profile-toggle {
         border-inline-start: 2px solid var(--blue);
         margin: 30px 0;
         padding-inline-start: 12px;
@@ -51,52 +51,39 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        width: 99%;
 
-        & > * {
+        label {
             box-sizing: border-box;
             margin-bottom: 30px;
+            flex: 1 0 34%;
 
             @media (--sm-down) {
                 width: 100%;
+                flex: none;
             }
 
             @media (--md-up) {
                 width: calc(50% - (var(--profile-column-margin) / 2));
 
-                &:nth-child(2n + 1) {
-                    margin-inline-end: var(--profile-column-margin);
+                &:nth-of-type(even) {
+                    margin-inline-start: var(--profile-column-margin);
                 }
             }
         }
     }
 
-    & .add-language {
-        display: flex;
-        justify-content: center;
-        direction: ltr;
-
-        & :first-child {
-            margin-right: 25px;
-        }
-
-        & :nth-child(2) {
-            font-family: initial;
-            font-size: var(--font-size-lg);
-            color: var(--near-black);
-        }
-    }
-
-    & .signup-section {
+    .signup-section {
         display: flex;
 
         @media (--sm-down) {
             flex-direction: column;
 
-            & > * {
+            > * {
                 margin-top: 30px;
             }
 
-            & > :first-child {
+            > :first-child {
                 margin-top: 0;
             }
         }
@@ -149,5 +136,6 @@
     & .save {
         margin: 0 auto;
         min-height: 57px;
+        background: var(--black);
     }
 }

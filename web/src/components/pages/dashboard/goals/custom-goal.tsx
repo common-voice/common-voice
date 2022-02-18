@@ -272,12 +272,11 @@ export default function CustomGoal({
     if (nextIndex == STEPS.COMPLETED) {
       setTouchedStepIndex(STEPS.INTRO);
       await api.createGoal(dashboardLocale, state);
-      if (!account.locales.some(l => l.locale == dashboardLocale)) {
+      if (!account.languages.some(l => l.locale == dashboardLocale)) {
         await saveAccount({
           ...account,
-          locales: account.locales.concat({
+          languages: account.languages.concat({
             locale: dashboardLocale,
-            accent: '',
           }),
         });
       }

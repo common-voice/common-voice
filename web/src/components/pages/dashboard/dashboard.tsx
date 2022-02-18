@@ -53,7 +53,7 @@ const TopBar = ({
     : 0;
 
   const locales = [''].concat(
-    (account ? account.locales : [])
+    (account ? account.languages : [])
       .map(({ locale }) => locale)
       .filter(l => isContributable(l))
   );
@@ -104,6 +104,8 @@ const TopBar = ({
                 path
               }>
               <Localized id={label}>
+                {/* Localized injects content into child tag */}
+                {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
                 <h2 />
               </Localized>
             </LocaleNavLink>
@@ -271,7 +273,7 @@ export default function Dashboard() {
     if (!account) {
       try {
         sessionStorage.setItem('redirectURL', location.pathname);
-      } catch(e) {
+      } catch (e) {
         console.warn(`A sessionStorage error occurred ${e.message}`);
       }
 

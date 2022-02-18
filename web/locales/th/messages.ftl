@@ -36,7 +36,6 @@ ba = บัชคีร์
 bas = บาซ่า
 be = เบลารุส
 bg = บัลแกเรีย
-bm = บัมบารา
 bn = เบงกาลี
 br = เบรตัน
 bxr = บูเรียตียา
@@ -78,6 +77,8 @@ hy-AM = อาร์เมเนีย
 hyw = อาร์เมเนียตะวันตก
 ia = อินเทอร์ลิงกัว
 id = อินโดนีเซีย
+ie = อินเทอร์ลิงก์
+ig = อิกโบ
 is = ไอซ์แลนด์
 it = อิตาลี
 izh = อีโจรา
@@ -86,6 +87,7 @@ ka = จอร์เจีย
 kaa = คาราคัลพัก
 kab = คาบาล์ย
 kbd = คาบาเดียน
+ki = คิคูยู
 kk = คาซัค
 kmr = เคิร์ดเหนือ
 ko = เกาหลี
@@ -110,10 +112,13 @@ ms = มาเลย์
 mt = มอลตา
 my = พม่า
 myv = เอิร์สยา
+nan-tw = ชาวไต้หวัน (มินหนาน)
 nb-NO = นอร์เวย์บุคมอล
 ne-NP = เนปาล
+nia = เกาะนียัซ
 nl = ดัตช์
 nn-NO = นอร์เวย์ไนนอสก์
+nyn = เนียงโกเล่
 oc = อ็อกซิตัน
 or = โอเดีย
 pa-IN = ปัญจาบี
@@ -127,6 +132,7 @@ ro = โรมาเนีย
 ru = รัสเซีย
 rw = รวันดา
 sah = ซาฮา
+sat = สันทาลี (โอล ชิกิ)
 sc = ซาดิเนีย
 scn = ซิซิลี
 shi = ชิลฮา
@@ -143,9 +149,12 @@ ta = ทมิฬ
 te = เตลูกู
 tg = ทาจิก
 th = ไทย
+ti = ทีกรินยา
 tl = ตากาล็อก
 tr = ตุรกี
 tt = ตาตาร์
+tw = ทวี
+ty = ตาฮิติ
 uby = อูบึก
 udm = อุดมูร์ต
 ug = อุยกูร์
@@ -155,6 +164,8 @@ uz = อุซเบกิสถาน
 vec = เวนิส
 vi = เวียดนาม
 vot = โวต
+yi = ยิดดิช
+yo = โยรูบา
 yue = กวางตุ้ง
 zh-CN = จีน (จีน)
 zh-HK = จีน (ฮ่องกง)
@@ -320,6 +331,8 @@ profile-form-native-language =
     .label = ภาษาท้องถิ่น
 profile-form-additional-language =
     .label = ภาษาอื่นๆ
+profile-form-language =
+    .label = ภาษา
 profile-form-accent =
     .label = สำเนียง
 profile-form-age =
@@ -446,12 +459,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ทำไมต้องมี Common Voice?
-about-subtitle = Common Voice เป็นส่วนหนึ่งของการริเริ่มของ Mozilla เพื่อช่วยสอนเครื่องเกี่ยวกับการพูดของมนุษย์จริงๆ นอกเหนือจากชุดข้อมูล Common Voice แล้ว เรายังสร้างเครื่องมือรู้จำเสียงโอเพ่นซอร์สที่เรียกว่า Deep Speech
-about-header-description =
-    โครงการทั้งสองนี้เป็นส่วนหนึ่งของความพยายามของเราในการลดความเหลื่อมล้ำในเทคโนโลยีรู้จำเสียง เทคโนโลยีรู้จำเสียงนำความเป็นมนุษย์มาสู่อุปกรณ์ของเรา แต่นักพัฒนาต้องการข้อมูลเสียงจำนวนมากเพื่อสร้างมัน ปัจจุบันข้อมูลส่วนใหญ่มีราคาแพงและติดลิขสิทธิ์
-    เราต้องการให้ข้อมูลเสียงสามารถเปิดเผยต่อสาธารณะได้อย่างอิสระ และให้ข้อมูลแสดงถึงความหลากหลายของประชากรจริงๆ หากร่วมมือกัน พวกเราสามารถทำให้เทคโนโลยีรู้จำเสียงดีขึ้นสำหรับทุกคน
-how-does-it-work-title = ทำงานอย่างไร?
 how-does-it-work-text = เรากำลังระดมทรัพยากรชุดข้อมูลเปิดของเสียง ช่วยบริจาคเสียงของคุณ ช่วยตรวจสอบความถูกต้องของคลิปเสียงของคนอื่น เพื่อทำให้ชุดข้อมูลนี้ดีขึ้นสำหรับทุกคน
+
+## How does it work section
+
 about-speak = พูด
 about-speak-text = ผู้มีส่วนร่วมบันทึกคลิปเสียงโดยอ่านจากชุดประโยคที่ถูกบริจาค
 about-listen-queue = คิวการฟัง
@@ -484,6 +495,34 @@ about-nav-why-common-voice = ทำไม ?
 about-nav-how-it-works = อย่างไร ?
 about-nav-partners = ผู้มีส่วนร่วม
 about-nav-get-involved = มีส่วนร่วม
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = ปัญญาประดิษฐ์
 mycroft-description = Mycroft เป็นผู้ช่วยแบบโอเพนซอร์สแรกของโลกMycroft สามารถทำงานได้ทุกที่ ในคอมพิวเตอร์ตั่งโต๊ะ ในรถยนต์ หรือใน Raspberry Pi
@@ -581,8 +620,6 @@ subscribe = บอกรับ
 get-started-speech = เริ่มต้นกับการรู้จำเสียง
 other-datasets = ชุดข้อมูลเสียงอื่น ๆ
 feedback-q = มีข้อคิดเห็นหรือไม่?
-deepspeech-info = ชุดข้อมูล Common Voice ช่วยสนับสนุนเอ็นจิ้นการรู้จำเสียงโอเพ่นซอร์ส Deep Speech ของ Mozilla ซึ่งคุณสามารถใช้เพื่อสร้างแอปพลิเคชั่นรู้จำเสียง <githubLink>ภาพรวม Github ของเรา</githubLink> หรือเข้าร่วม <discourseLink>DeepSpeech </discourseLink> เพื่อเรียนรู้ว่าจะเริ่มใช้อย่างไร
-common-voice-info-new = คุณมีคำถามเกี่ยวกับ Common Voice หรือไม่? มีไอเดียสำหรับการปรับปรุงหรือข้อเสนอแนะเกี่ยวกับภาษาใดภาษาหนึ่ง? โปรดเข้าร่วมกับเราใน <discourseLink>ฟอรัมสนทนา</discourseLink> และแจ้งให้เราทราบ
 data-other-librispeech-description = LibriSpeech เป็นคลังข้อมูลเสียงพูดภาษาอังกฤษในรูปแบบ 16Khz ซึ่งมีความยาวประมาณ 1000 ชั่วโมงซึ่งได้จากการอ่านหนังสือเสียงจากโครงการ LibriVox
 data-other-ted-name = คลังข้อมูล TED-LIUM
 data-other-ted-description = คลังข้อมูล TED-LIUM สร้างจากเสียงพูดและการถอดความที่มีอยู่ในเว็บไซต์ TED
@@ -836,6 +873,25 @@ why-delete-recordings =
     คุณช่วยบอกให้เรารู้ได้ไหมว่าทำไมคุณถึงต้องการลบบันทึกเสียงของคุณ?
 profile-form-delete = ลบโปรไฟล์
 
+## Profile Download
+
+download-q = ต้องการดาวน์โหลดข้อมูลของคุณ?
+download-info = บอกเราว่าคุณต้องการดาวน์โหลดอะไร:
+download-profile-title = โปรไฟล์
+download-profile-info = มีอีเมล ชื่อผู้ใช้ และข้อมูลประชากร ใช้งานได้ทันที
+download-profile-size = ไม่กี่ไบต์
+download-recordings-title = เสียงที่อัด
+download-recordings-info = มีไฟล์เสียง mp3 และประโยคที่เกี่ยวข้อง อาจใช้เวลาสักพักในการเตรียมข้อมูล
+download-size = ขนาด
+download-selected = เลือกแล้ว
+download-start = ดาวน์โหลดข้อมูลโปรไฟล์
+download-request-button = ดาวน์โหลด
+download-request-archive-single = ไฟล์ ZIP เดียวที่มี
+download-request-refresh-button = เรียกใหม่
+download-request-modal-title = ดาวน์โหลดลิงก์
+download-request-modal-description = นี่คือลิงก์สำหรับดาวน์โหลดไฟล์ ZIP ของคุณ
+download-request-metadata-link = ข้อความประโยค
+
 ## Landing
 
 welcome-staff = ยินดีต้อนรับพนักงาน { $company }!
@@ -897,3 +953,176 @@ contribution-just-unsure-title = แค่ไม่แน่ใจ?
 contribution-just-unsure-description = หากคุณพบสิ่งที่หลักเกณฑ์เหล่านี้ไม่ครอบคลุม โปรดโหวตตามวิจารณญาณที่ดีที่สุดของคุณ หากคุณตัดสินใจไม่ได้จริง ๆ ให้ใช้ปุ่ม ข้าม และตรวจสอบเสียงถัดไป
 see-more = <chevron></chevron>ดูเพิ่ม
 see-less = <chevron></chevron>ดูน้อยลง
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = หน้าแรก
+sc-header-how-to = วิธีการ
+sc-header-add = เพิ่ม
+sc-header-review = ตรวจทาน
+sc-header-rejected = ประโยคที่ถูกปฏิเสธ
+sc-header-my = ประโยคของฉัน
+sc-header-statistics = สถิติ
+sc-header-profile = โปรไฟล์
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = รายงานข้อบกพร่อง
+sc-footer-translate = แปลหน้านี้
+sc-footer-report-copyright = รายงานปัญหาลิขสิทธิ์
+sc-footer-privacy = ความเป็นส่วนตัว
+sc-footer-terms = ข้อกำหนด
+sc-footer-cookies = คุกกี้
+sc-login-signup-button = เข้าสู่ระบบ / ลงทะเบียน
+sc-logout-button = ออกจากระบบ
+
+## HOME
+
+sc-home-title = ยินดีต้อนรับสู่เครื่องมือรวบรวมประโยค Common Voice
+sc-home-intro = เครื่องมือรวบรวมประโยคนี้เป็นส่วนหนึ่งของ <commonVoiceLink>Common Voice</commonVoiceLink> ซึ่งเปิดให้ผู้มีส่วนร่วมสามารถรวบรวมและตรวจสอบประโยคที่สร้างโดยชุมชน คุณสามารถใช้เครื่องมือนี้เพื่อนำเข้าและทำความสะอาดคลังข้อมูลสาธารณสมบัติขนาดเล็กถึงขนาดกลางที่คุณพบหรือรวบรวมได้ ประโยคทั้งหมดต้องเป็นสาธารณสมบัติ (Public Domain) เท่านั้น ประโยคที่ได้รับอนุมัติจะถูกส่งออกทุกสัปดาห์ไปยังที่เก็บ Common Voice และเผยแพร่บนเว็บไซต์ Common Voice ในการปรับใช้ใหม่ทุกครั้ง
+sc-home-collect-title = รวบรวมประโยค
+sc-home-collect-text = ช่วยเราโดยการเขียนหรือรวบรวมประโยคที่เป็นสาธารณสมบัติ
+sc-home-review-title = ตรวจทานประโยค
+sc-home-review-text = ช่วยเราโดยการตรวจทานประโยคสำหรับความถูกต้อง ตามแนวทางของเรา
+
+## HOW-TO
+
+sc-howto-title = วิธีการ
+sc-howto-addlang-text = เมื่อเข้าสู่ระบบแล้ว คุณสามารถเลือกภาษาของคุณได้ในโปรไฟล์
+sc-howto-addsen-title = เพิ่มประโยคใหม่
+sc-howto-addsen-item-1 = ประโยคทั้งหมดที่คุณส่งต้องอยู่ภายใต้สัญญาอนุญาต<wikipediaLink>สาธารณสมบัติ (CC-0)</wikipediaLink> เพื่อสนับสนุนการรวมงานที่ไม่ได้เป็นสาธารณสมบัติ เราได้สร้าง<cc0WaiverLink>แม่แบบข้อตกลงการบริจาค</cc0WaiverLink>สำหรับงานที่เจ้าของลิขสิทธิ์ต้องการบริจาคเนื้อหาให้กับ Common Voice
+sc-howto-addsen-item-2 = ตัวเลข ข้อความต้นฉบับไม่ควรมีตัวเลข เนื่องจากอาจทำให้เกิดปัญหาเมื่ออ่านออกเสียง วิธีอ่านตัวเลขแตกต่างกันตามบริบทและอาจทำให้เกิดความสับสนในชุดข้อมูลได้ ตัวอย่างเช่น ตัวเลข "2409" สามารถอ่านได้ทั้ง "สอง สี่ ศูนย์ เก้า" และ "สองพันสี่ร้อยเก้า"
+sc-howto-addsen-item-3 = ตัวย่อและคำย่อ ควรหลีกเลี่ยงตัวย่อและคำย่อ เช่น “กทม.” หรือ “รร.” ในข้อความต้นฉบับ เนื่องจากอาจอ่านในลักษณะที่ไม่ตรงกับตัวสะกด นอกจากนี้ อาจมีรูปแบบการอ่านคำย่อที่ถูกต้องหลายแบบ ตัวอย่างเช่น คำย่อ “รร.” สามารถออกเสียงได้ทั้ง “โรงเรียน” หรือ "โรงแรม"
+sc-howto-cite-title = วิธีอ้างอิง
+sc-howto-review-title = ตรวจทานประโยค
+sc-howto-review-subtitle = โปรดตรวจสอบว่าประโยคตรงตามเกณฑ์ต่อไปนี้:
+sc-howto-review-criteria-1 = ประโยคต้องสะกดถูกต้อง
+sc-howto-review-criteria-2 = ประโยคต้องถูกต้องตามหลักไวยากรณ์
+sc-howto-review-criteria-3 = ประโยคจะต้องอ่านออกเสียงได้
+sc-howto-review-criteria-4 = หากประโยคตรงตามเกณฑ์ ให้คลิกปุ่ม "อนุมัติ"
+sc-howto-review-criteria-5 = หากประโยคไม่ตรงตามเกณฑ์ข้างต้น ให้คลิกปุ่ม "ปฏิเสธ" หากคุณไม่แน่ใจ สามารถข้ามไปยังประโยคถัดไปได้
+sc-howto-review-criteria-6 = หากคุณไม่มีประโยคที่จะตรวจทาน โปรดช่วยเรารวบรวมประโยคเพิ่มเติม!
+sc-howto-findpd-title = ค้นหาประโยคที่มีอยู่แล้วในสาธารณสมบัติ
+sc-howto-findpd-subtitle = ค้นหาประโยคบนอินเทอร์เน็ต
+
+## MY SENTENCES
+
+sc-my-title = ประโยคของฉัน
+sc-my-loading = กำลังโหลดประโยคของคุณ...
+sc-my-no-sentences = ไม่พบประโยคที่ต้องการหา
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = ส่ง: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = ที่มา: { $source }
+sc-my-delete = ลบประโยคที่เลือก
+
+## REJECTED
+
+sc-rejected-title = ประโยคที่ถูกปฏิเสธ
+sc-rejected-loading = กำลังโหลดประโยคที่ถูกปฏิเสธ...
+sc-rejected-err-fetching = เกิดข้อผิดพลาดขณะดึงประโยคที่ถูกปฏิเสธ กรุณาลองอีกครั้ง
+sc-rejected-none-found = ไม่พบประโยคที่ถูกปฏิเสธ!
+
+## STATS
+
+sc-stats-title = สถิติ
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = อัปเดตล่าสุด: { $lastUpdate }
+sc-stats-last-update-never = อัปเดตล่าสุด: ไม่เคย
+sc-stats-updating = กำลังอัปเดต…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = เครื่องมือรวบรวมประโยค Common Voice ได้รวบรวมไปแล้ว { $sentenceCount } ประโยคใน { $languageCount } ภาษา!
+
+## ADD
+
+sc-submit-err-select-lang = โปรดเลือกภาษา
+sc-submit-err-add-sentences = กรุณาเพิ่มประโยค
+sc-submit-err-add-source = กรุณาเพิ่มแหล่งที่มา
+sc-submit-err-confirm-pd = โปรดยืนยันว่าประโยคที่กำลังจะส่งเป็นสาธารณสมบัติ
+sc-submit-prompt =
+    .message = ยังไม่ได้ส่งประโยค คุณต้องการออกหรือไม่?
+sc-submit-title = เพิ่มประโยค
+sc-submit-select-language =
+    .labelText = เลือกภาษา
+sc-submit-add-sentences = เพิ่มประโยค<wikipediaLink>สาธารณสมบัติ</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = หนึ่งประโยคต่อบรรทัด
+sc-submit-confirm = ฉันยืนยันว่าประโยคเหล่านี้เป็น<wikipediaLink>สาธารณสมบัติ</wikipediaLink>และฉันได้รับอนุญาตให้อัปโหลดได้
+sc-submit-button =
+    .submitText = ส่ง
+sc-submit-filtered = ประโยคที่ถูกกรองเนื่องจากไม่ผ่านข้อกำหนด (โปรดส่งรุ่นที่แก้ไขแล้วเป็นประโยคใหม่):
+sc-submit-guidelines = โปรดตรวจสอบ<howToLink>แนวทาง</howToLink>
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = เพิ่มภาษาไม่ได้
+sc-add-lang-sec-label = เพิ่มภาษาที่คุณต้องการมีส่วนร่วม
+sc-add-lang-sec-button = เพิ่มภาษา
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-button-text = ยืนยัน
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ เกณฑ์การตรวจทาน
+sc-criteria-title = เกณฑ์การตรวจทาน
+sc-criteria-make-sure = โปรดตรวจสอบว่าประโยคตรงตามเกณฑ์ต่อไปนี้:
+sc-criteria-item-1 = ประโยคต้องสะกดถูกต้อง
+sc-criteria-item-2 = ประโยคต้องถูกต้องตามหลักไวยากรณ์
+sc-criteria-item-3 = ประโยคจะต้องอ่านออกเสียงได้
+sc-criteria-item-4 = หากประโยคตรงตามเกณฑ์ ให้คลิกปุ่ม "อนุมัติ" ทางด้านขวา
+sc-criteria-item-5-2 = หากประโยคไม่ตรงตามเกณฑ์ข้างต้น ให้คลิกปุ่ม "ปฏิเสธ" ทางด้านซ้าย หากคุณไม่แน่ใจ สามารถข้ามไปยังประโยคถัดไปได้
+sc-criteria-item-6 = หากคุณไม่มีประโยคที่จะตรวจทาน โปรดช่วยเรารวบรวมประโยคเพิ่มเติม!
+
+## REVIEW
+
+sc-review-lang-not-selected = คุณยังไม่ได้เลือกภาษาใด ๆ โปรดไปที่<profileLink>โปรไฟล์</profileLink>ของคุณเพื่อเลือกภาษา
+sc-review-title = ตรวจทานประโยค
+sc-review-loading = กำลังโหลดประโยค...
+sc-review-select-language = โปรดเลือกภาษาเพื่อตรวจทานประโยค
+sc-review-no-sentences = ไม่มีประโยคให้ตรวจทาน <addLink>เพิ่มประโยคเลย!</addLink>
+sc-review-form-prompt =
+    .message = ประโยคที่ตรวจทานยังไม่ได้ส่ง คุณแน่ใจหรือไม่?
+sc-review-form-usage = ปัดไปทางขวาเพื่ออนุมัติประโยค ปัดไปทางซ้ายเพื่อปฏิเสธ ปัดขึ้นเพื่อข้าม <strong>อย่าลืมส่งการตรวจทานของคุณ!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = ที่มา: { $sentenceSource }
+sc-review-form-button-reject = ปฏิเสธ
+sc-review-form-button-skip = ข้าม
+sc-review-form-button-approve = อนุมัติ
+sc-review-form-button-submit =
+    .submitText = เสร็จสิ้นการตรวจสอบ
+sc-review-form-review-failure = ไม่สามารถบันทึกการตรวจทาน กรุณาลองใหม่อีกครั้งในภายหลัง
+sc-review-link = ตรวจทาน
+
+## SETTINGS
+
+sc-settings-title = การตั้งค่า
+sc-settings-ui-language = ภาษาอินเทอร์เฟซ
+sc-settings-language-translated-warning = หน้าสำหรับภาษานี้อาจยังไม่ได้รับการแปลอย่างสมบูรณ์ คุณสามารถช่วยแปลได้<pontoonLinkLink>บน Pontoon</pontoonLinkLink>
+sc-settings-show-all-button = แสดงประโยคที่ข้ามทั้งหมดอีกครั้ง
+sc-settings-failed = ไม่สามารถเปลี่ยนการตั้งค่า กรุณาลองอีกครั้ง
+sc-validation-no-numbers = ประโยคไม่ควรมีตัวเลข
+sc-validation-no-symbols = ประโยคไม่ควรมีสัญลักษณ์
+sc-validation-no-abbreviations = ประโยคไม่ควรมีตัวย่อ
+
+# [/SentenceCollector]
+

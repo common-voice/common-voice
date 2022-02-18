@@ -36,9 +36,9 @@ ba = baszkirski
 bas = basaa
 be = białoruski
 bg = bułgarski
-bm = bambara
 bn = bengalski
 br = bretoński
+bs = bośniacki
 bxr = buriacki
 ca = kataloński
 cak = kakczikel
@@ -67,6 +67,7 @@ fy-NL = fryzyjski
 ga-IE = irlandzki
 gl = galicyjski
 gn = guarani
+gom = goańskie konkani
 ha = hausa
 he = hebrajski
 hi = hindi
@@ -90,7 +91,9 @@ kab = kabylski
 kbd = kabardyjski
 ki = kikuju
 kk = kazachski
+km = khmerski
 kmr = kurmandżi
+knn = konkani (dewanagari)
 ko = koreański
 kpv = komi (zyriański)
 kw = kornijski
@@ -106,6 +109,7 @@ mhr = maryjski łąkowy
 mk = macedoński
 ml = malajalam
 mn = mongolski
+mni = meetei lon
 mos = mossi
 mr = marathi
 mrj = maryjski górski
@@ -127,6 +131,8 @@ pap-AW = papiamento (Aruba)
 pl = polski
 ps = paszto
 pt = portugalski
+quc = kicze
+quy = keczua chanka
 rm-sursilv = retoromański (sursilvan)
 rm-vallader = retoromański (vallader)
 ro = rumuński
@@ -139,6 +145,7 @@ scn = sycylijski
 shi = shilha
 si = syngaleski
 sk = słowacki
+skr = saraiki
 sl = słoweński
 so = somalijski
 sq = albański
@@ -150,7 +157,11 @@ ta = tamilski
 te = telugu
 tg = tadżycki
 th = tajski
+ti = tigrinia
+tig = tigre
+tk = turkmeński
 tl = tagalski
+tok = toki pona
 tr = turecki
 tt = tatarski
 tw = twi
@@ -326,6 +337,8 @@ profile-form-native-language =
     .label = Język ojczysty
 profile-form-additional-language =
     .label = Dodatkowy język
+profile-form-language =
+    .label = Język
 profile-form-accent =
     .label = Akcent
 profile-form-age =
@@ -456,15 +469,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Dlaczego Common Voice?
-about-subtitle = Common Voice jest częścią inicjatywy Mozilli pomagającej w uczeniu maszyn mowy prawdziwych ludzi. Oprócz zbioru danych Common Voice tworzymy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
-about-header-description =
-    Oba te projekty są częścią naszych wysiłków na rzecz zniwelowania podziału cyfrowego. Technologie rozpoznawania głosu nadają naszym urządzeniom ludzki wymiar, ale deweloperzy do ich tworzenia potrzebują olbrzymiej ilości danych mowy. Obecnie większość takich danych jest kosztowna i zastrzeżona.
-    Chcemy, aby dane mowy były publicznie dostępne i upewnić się, że reprezentują różnorodność prawdziwych ludzi. Razem możemy ulepszyć rozpoznawanie głosu dla wszystkich.
-about-header-description-2 =
-    Ten projekt ma na celu zniwelowanie podziału cyfrowego. Technologie rozpoznawania głosu nadają naszym urządzeniom ludzki wymiar, ale deweloperzy do ich tworzenia potrzebują olbrzymiej ilości danych mowy. Obecnie większość takich danych jest kosztowna i zastrzeżona.
-    Chcemy, aby dane mowy były publicznie dostępne i upewnić się, że reprezentują różnorodność prawdziwych ludzi. Razem możemy ulepszyć rozpoznawanie głosu dla wszystkich.
-how-does-it-work-title = Jak to działa
 how-does-it-work-text = Wspólnie tworzymy zbiór danych mowy open source. Nagraj swój głos, sprawdź dokładność nagrań innych osób, ulepsz zbiór dla wszystkich.
+
+## How does it work section
+
 about-speak = Nagrywanie
 about-speak-text = Uczestnicy nagrywają swój głos czytając zdania z puli zebranych zdań.
 about-listen-queue = Kolejka do odsłuchania
@@ -497,6 +505,34 @@ about-nav-why-common-voice = Dlaczego?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partnerzy
 about-nav-get-involved = Dołącz do nas
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Sztuczna inteligencja
 mycroft-description =
@@ -980,3 +1016,126 @@ demo-dashboard-card-body = Twój panel konta jest aktualizowany po każdym nagra
 
 see-more = <chevron></chevron>Więcej
 see-less = <chevron></chevron>Mniej
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Strona główna
+sc-header-how-to = Jak to zrobić
+sc-header-add = Dodaj
+sc-header-rejected = Odrzucone zdania
+sc-header-my = Moje zdania
+sc-header-statistics = Statystyki
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Zgłoś błędy
+sc-footer-translate = Przetłumacz tę stronę
+sc-footer-report-copyright = Zgłoś problemy z prawami autorskimi
+sc-footer-privacy = Prywatność
+sc-footer-terms = Warunki korzystania
+sc-footer-cookies = Ciasteczka
+sc-login-signup-button = Zaloguj się/zarejestruj
+sc-logout-button = Wyloguj się
+
+## HOME
+
+
+## HOW-TO
+
+sc-howto-title = Jak to zrobić
+sc-howto-addsen-title = Dodaj nowe zdania
+sc-howto-cite-title = Jak cytować
+
+## MY SENTENCES
+
+sc-my-title = Moje zdania
+sc-my-loading = Wczytywanie zdań…
+sc-my-err-fetching = Błąd podczas pobierania zdań. Proszę spróbować ponownie.
+sc-my-no-sentences = Nie odnaleziono żadnych zdań.
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Źródło:  { $source }
+sc-my-delete = Usuń zaznaczone zdania
+sc-my-deleting = Usuwanie zaznaczonych zdań…
+sc-my-err-failed-delete = Usunięcie zaznaczonych zdań się nie powiodło. Proszę spróbować ponownie.
+
+## REJECTED
+
+sc-rejected-title = Odrzucone zdania
+sc-rejected-loading = Wczytywanie odrzuconych zdań…
+sc-rejected-err-fetching = Błąd podczas pobierania odrzuconych zdań. Proszę spróbować ponownie.
+sc-rejected-none-found = Nie odnaleziono odrzuconych zdań.
+
+## STATS
+
+sc-stats-title = Statystyki
+sc-stats-updating = Aktualizowanie…
+
+## ADD
+
+sc-submit-err-select-lang = Wybierz język.
+sc-submit-err-add-sentences = Dodaj zdania.
+sc-submit-err-add-source = Dodaj źródło.
+sc-submit-title = Dodaj zdania
+sc-submit-select-language =
+    .labelText = Wybierz język
+sc-submit-button =
+    .submitText = Wyślij
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Nie można dodać języka
+sc-add-lang-sec-button = Dodaj język
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-button-text = Potwierdź
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+sc-login-err-failed = Zalogowanie się nie powiodło
+sc-login-err-try-again = Proszę spróbować ponownie.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Nie można usunąć języka: nie odnaleziono języka
+sc-personal-err-remove = Nie można usunąć języka
+sc-personal-your-languages = Twoje języki:
+sc-personal-remove-button = usuń
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+sc-review-loading = Wczytywanie zdań…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Źródło: { $sentenceSource }
+sc-review-form-button-reject = Odrzuć
+sc-review-form-button-skip = Pomiń
+sc-review-form-button-approve = Zatwierdź
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = T
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = P
+
+## SETTINGS
+
+sc-settings-title = Ustawienia
+sc-settings-ui-language = Język interfejsu
+
+# [/SentenceCollector]
+

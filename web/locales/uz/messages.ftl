@@ -36,9 +36,9 @@ ba = Boshqird
 bas = Basaa
 be = Belarus
 bg = Bolgar
-bm = Bambara
 bn = Bengal
 br = Breton
+bs = Bosniyalik
 bxr = Buryat
 ca = Katalan
 cak = Kaqchikel
@@ -67,6 +67,7 @@ fy-NL = Friz
 ga-IE = Irland
 gl = Galisiy
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Yahudiy
 hi = Hind
@@ -78,6 +79,8 @@ hy-AM = Arman
 hyw = Gʻarbiy arman
 ia = Interlingua
 id = Indonez
+ie = Interlingue
+ig = Igbo
 is = Island
 it = Italyan
 izh = Izhor
@@ -86,8 +89,11 @@ ka = Gruzin
 kaa = Qoraqalpoq
 kab = Kabili
 kbd = Kabardino
+ki = Kikuyu
 kk = Qozoq
+km = Xmer
 kmr = Kurmanji Kurdish
+knn = Konkani (Devanagari)
 ko = Koreyscha
 kpv = Komi-zıryan
 kw = Kornish
@@ -103,6 +109,7 @@ mhr = Lugo Mariy
 mk = Makedon
 ml = Malay
 mn = Mongol
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Mari
@@ -110,10 +117,13 @@ ms = Malay
 mt = Malta
 my = Birma
 myv = Erzyan
+nan-tw = Tayvanlik (Minnan)
 nb-NO = Norvegiya Bokmål
 ne-NP = Nepal
+nia = Nias
 nl = Golland
 nn-NO = Norvegiya Ninorsk
+nyn = Runyankole
 oc = Oksitan
 or = Odia
 pa-IN = Panjob
@@ -121,12 +131,15 @@ pap-AW = Papiamento (Aruba)
 pl = Polyak
 ps = Pushtu
 pt = Portugal
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Roman Sursilvan
 rm-vallader = Roman Vallader
 ro = Rumin
 ru = Rus
 rw = Ruanda
 sah = Yoqut
+sat = Santali (Ol Chiki)
 sc = Sardin
 scn = Sitsiliy
 shi = Shilha
@@ -143,9 +156,14 @@ ta = Tamil
 te = Telugu
 tg = Tojik
 th = Tay
+ti = Tigrinya
+tig = Tigre
+tk = Turkman
 tl = Tagal
 tr = Turk
 tt = Tatar
+tw = Tvi
+ty = Tahitian
 uby = Ubux
 udm = Udmurt
 ug = Uygʻur
@@ -155,6 +173,8 @@ uz = O‘zbek
 vec = Venetsiya
 vi = Vyetnam
 vot = Vot
+yi = Yiddish
+yo = Yoruba
 yue = Kanton
 zh-CN = Xitoy (Xitoy)
 zh-HK = Xitoy (Gongkong)
@@ -166,7 +186,7 @@ zh-TW = Xitoy (Tayvan)
 ## Layout
 
 speak = Oʻqish
-speak-now = O'qishni boshlash
+speak-now = O‘qishni boshlash
 datasets = Maʼlumotlar toʻplami
 languages = Tillar
 about = Biz haqimizda
@@ -187,6 +207,7 @@ logout = Chiqish
 ## Home Page
 
 home-title = Common Voice – Mozillaga tegishli loyiha boʻlib, sun’iy ongga insonlar qanday gapirishini o‘rgatadi.
+default-tagline = Mozilla Common Voice – bu mashinalarga haqiqiy odamlar qanday gapirishni oʻrgatish tashabbusi.
 home-cta = Oʻqing va hissa qoʻshing!
 wall-of-text-start = Ovoz — tabiiy va insoniy. Sun’iy ongga mos ovoz texnologiyasini ishlab chiqish esa juda quvonarli. Lekin bunday tizimlarni tuzish uchun o‘ta katta hajmdagi ovozli ma’lumotlar kerak bo’ladi.
 wall-of-text-more-mobile = Katta korporatsiyalar foydalanadigan maʼlumotlardan koʻpchilik odamlar foydalana olmaydi. Bizning fikrimizcha, bu innovatsion taraqqiyotni sekinlashtiradi. Shuning uchun biz Common Voice loyihasini ishga tushirdik.  Bu loyiha ovozni tanish xizmatini hamma uchun ochiq boʻlishini taʼminlaydi.
@@ -201,7 +222,7 @@ vote-yes = Ha
 vote-no = Yoʻq
 toggle-play-tooltip = Ijro rejimiga oʻtish uchun { shortcut-play-toggle } ustiga bosing
 speak-subtitle = Ovozingizni hadya qiling
-speak-paragraph = Ovoz yozish bizning ma’lumot jamlanmalarimizning ajralmas qismidir. Hato ba’zilar bu jarayonni juda qiziq ham deyishadi.
+speak-paragraph = Ovoz yozib olish ochiq maʼlumotlar toʻplamini yaratishning ajralmas qismidir. Baʼzilar buni qiziqarli qismi deb aytishadi.
 speak-goal-text = Yozilgan kliplar
 listen-subtitle = Ovozlarni saralashga yordam bering
 listen-paragraph = Qoʻshilgan ovozlarni tekshirish – Common Voice loyihasi uchun juda muhim. Ovozlarni tinglang va sifatli ochiq manbali ovoz maʼlumotlarini yaratishda yordam bering.
@@ -280,6 +301,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Yozib olish/Toʻxtatish
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Klipni qayta yozish
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Joriy yozishni bekor qilish
 shortcut-submit = Joʻnatish
 shortcut-submit-label = Ovozni yuborish
 request-language-text = Common Voice loyihasida ona tilingizni koʻrmayapsizmi?
@@ -308,8 +331,13 @@ profile-form-native-language =
     .label = Ona tili
 profile-form-additional-language =
     .label = Qoʻshimcha til
+profile-form-language =
+    .label = Til
 profile-form-accent =
-    .label = Lahja
+    .label = Sheva
+profile-form-custom-accent-help-text =
+    .label = Talaffuzingizga qanday taʼrif berasiz?
+profile-form-custom-accent-placeholder-2 = Talaffuzingizga taʼrif yozishni boshlang
 profile-form-age =
     .label = Yosh
 profile-form-gender-2 =
@@ -320,6 +348,7 @@ hidden = Yashirin
 visible = Oshkor
 native-language =
     .label = Ona tili
+profile-form-add-accent = Yangi boshqa "{ $inputValue }" talaffuzini qoʻshing
 profile-form-submit-save = Saqlash
 profile-form-submit-saved = Saqlandi
 male = Erkak
@@ -353,6 +382,8 @@ skip-submission-description = “Yuborish” tugmasini bosgan vaqtingizda qoʻsh
 skip-submission-note = Eslatma: Siz baribir “Oʻqish” yoki “Tinglash” boʻlimidan birini tanlashingizga toʻgʻri keladi.
 off = Oʻchiq
 on = Yoniq
+help-accent = Talaffuzga aloqador yordam kerakmi?
+help-accent-explanation = Talaffuzingiz – bu soʻzlarni talaffuz qilish usulingiz. Bu yashagan muhitingiz, boshqa tillarda gaplashishingiz va boshqa koʻplab omillarga bogʻliq. Bu yerdagi istagan maʼlumotingizni ulashishingiz mumkin.
 
 ## Profile - Email
 
@@ -395,7 +426,7 @@ faq-what-cv-and-deepspeech-q = Common Voice va Deep Speech orasida qanday farqla
 faq-what-cv-and-deepspeech-a = Common Voice ma'lumotlar bazasi Mozilla-ni ovoz manbaini aniqlash vositasi Deep Speech-ni to'ldiradi. Deep Speechning birinchi versiyasi 2017 yil noyabr oyida chiqarildi va shu paytdan beri rivojlanishda davom etmoqda. Common Voice ma'lumotlar bazasi bilan birgalikda ovozni aniqlash texnologiyasi hamma uchun mavjud bo'lishi kerak deb hisoblaymiz. Umid qilamizki, ushbu texnologiyalar ishlab chiquvchilarga innovatsion mahsulot va xizmatlarni yaratishga imkon beradi.
 faq-is-goal-assistant-q = Common Voiceʼning maqsadi ovozli yordamchi yaratishmi?
 faq-is-goal-assistant-a = Umumiy ovozli ma'lumotlar bazasining maqsadi dunyodagi har bir kishiga nutqni aniqlash, karnayni aniqlash yoki ovozli ma'lumotlarni talab qiladigan har qanday boshqa turdagi dasturlarni yaratishdir. Ovozli yordamchi - bu ma'lumotlar bazasini yaratishda foydalanishingiz mumkin bo'lgan ko'pgina ilovalardan biri.
-faq-do-want-native-q = Ushbu til mening ona tilim boʻlmaganligi uchun lahja bilan gapiraman. Mening ovozim sizlarga asqatadimi?
+faq-do-want-native-q = Ushbu til mening ona tilim boʻlmaganligi uchun talaffuzim yaxshi emas. Baribir ovozim kerak boʻladimi?
 faq-do-want-native-a = Ha, biz ayniqsa sizning ovozingizni xohlaymiz! Umumiy ovozning maqsadlaridan biri, ovozni aniqlash xizmatlari hamma uchun bir xil darajada ishlashi uchun iloji boricha ko'proq turli xil aksanlarni to'plashdir. Bu shuni anglatadiki, ona tilida so'zlashmagan kishilarning xayriyalari ayniqsa muhimdir.
 faq-why-different-speakers-q = Bitta tilda gaplasha oladigan shuncha insonlar sizlarga nima uchun kerak?
 faq-why-different-speakers-a =
@@ -434,12 +465,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Nima uchun Common Voice?
-about-subtitle = Common Voice - Mozilla tashabbusining bir qismi bo'lib, mashinalarga haqiqiy odamlar qanday gapirayotganini o'rgatishga yordam beradi. Common Voice ma'lumotlar bazasiga qo'shimcha ravishda, biz "Deep Speech" deb nomlangan ochiq manbali nutqni aniqlash tizimini yaratmoqdamiz.
-about-header-description =
-    Ushbu ikkala loyiha raqamli nutqlar o'rtasidagi tafovutni bartaraf etishga qaratilgan harakatlarimizning bir qismidir. Ovozni aniqlash texnologiyalari bizning qurilmalarimizga insoniy o'lchovlarni olib keladi, ammo ularni ishlab chiqish uchun ishlab chiquvchilar juda ko'p miqdordagi ovoz ma'lumotlariga muhtoj. Hozirgi vaqtda ushbu ma'lumotlarning ko'pi qimmat va mulkiy hisoblanadi.
-    Biz ovozli ma'lumotlarni bemalol va hammaga taqdim qilishni istaymiz va ma'lumotlar haqiqiy odamlarning xilma-xilligini aks ettirishiga ishonch hosil qilamiz. Birgalikda biz hamma uchun ovozni yaxshiroq aniqlashimiz mumkin.
-how-does-it-work-title = Bu qanday ishlaydi?
+how-does-it-work-title-v2 = Common Voice qanday ishlaydi?
 how-does-it-work-text = Ovozlarning ochiq manbali ma'lumotlar to'plamini jalb qilmoqdamiz. Ovozingizni bering, boshqalarning kliplari aniqligini tekshiring, ma'lumotlar bazasini hamma uchun yaxshilang.
+
+## How does it work section
+
+about-language-req-subtitle = Kimdir til qoʻshishni soʻraydi.
+about-localization-title = Sayt lokalizatsiyasi
+about-localization-subtitle = Sayt matni shu tilga tarjima qilinadi.
+about-sentence-collection-title = Jumlalar toʻplami
+about-sentence-collection-subtitle = Odamlar ovoz chiqarib oʻqishlari uchun jumlalar yigʻiladi.
+about-new-lang-title = Yangi tilni ishga tushirish
+about-new-lang-subtitle = Biz ushbu tilda Common Voice saytini ishga tushiramiz.
+about-voice-contrib-title = Ovozingiz bilan yordam qiling
+about-voice-contrib-subtitle = Odamlar kelib, oʻz ovozlari bilan yordam berishadi.
+about-voice-validation-title = Ovozni tekshirish
+about-voice-validation-subtitle = Boshqa odamlar bu ovozli kliplarni tasdiqlaydi.
+about-dataset-release-title = Maʼlumotlar toʻplami relizi
+about-dataset-release-subtitle = Biz maʼlumotlar toʻplamini har 3 oyda chiqaramiz.
+about-subscribe-text = Common Voice bilan aloqada boʻlishni xohlaysizmi?
 about-speak = Oʻqish
 about-speak-text = Ishtirokchilar maʼlumotlar omboridagi jumlalarni oʻqib, ovozli tasmaga yozishadi.
 about-listen-queue = Eshitish navbati
@@ -468,10 +512,49 @@ about-get-involved-text-2 =
     Ajoyib! Elektron pochta yoki <discourseLink> Muhokama </discourseLink> orqali bogʻlaning
     forumlarda qatnashish, sayt muammolarini <githubLink> GitHub </githubLink> orqali yuborish yoki qoʻshilish
     <matrixLink> Matrix </matrixLink> jamoaviy suhbat.
+about-stay-in-touch = Qanday qilib aloqada qolishim mumkin?
 about-nav-why-common-voice = Nega?
 about-nav-how-it-works = Qanday ?
 about-nav-partners = Hamkorlar
 about-nav-get-involved = Hissa qo‘shish
+about-nav-how-it-works-2 = Common Voice qanday ishlaydi?
+about-nav-playbook = Qanday ishtirok etishni oʻrganing
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Common Voiceda til nima?
+about-playbook-what-is-language-content-1 = Til haqida oʻylashning koʻplab usullari mavjud. Nutqni tanish modellarini yaratish maqsadida Common Voice “oʻzaro tushunarlilik” yoki yoki “bu tilda gaplashuvchilardan biri boshqasini tushunishi”ga eʼtibor qaratishni taklif qiladi.
+about-playbook-what-is-language-content-2 = Biz nutq modellarini turli xil soʻzlashuvchilarni yaxshiroq tushunishda yordam berishini xohlaymiz. Buning uchun juda koʻp odamlardan ovozli maʼlumotlar toʻplami kerak boʻladi.
+about-playbook-what-is-language-content-3 = Baʼzi tillar grammatika, lugʻat va talaffuzda juda katta farqqa ega. Shu sababli, biz 2022-yilda <ctaLink>“Variantlar”</ctaLinkni taqdim qilamiz. Bu hamjamiyatlarga kattaroq maʼlumotlar toʻplamida oʻz tillarini farqlash imkonini beradi.
+
+## How do I add a language
+
+about-playbook-how-add-language = Tilni qanday qoʻshishim mumkin?
+about-playbook-how-add-language-content-1 = Avval tilingiz <languageLink>allaqachon</languageLink> mavjudligini tekshiring. Yoʻq boʻlsa, <strong>saytni tarjima qilishingiz va jumlalarni toʻplashingiz</strong> kerak.
+about-playbook-how-add-language-content-2 = <strong>Saytni tarjima qilish</strong> uchun <pontoonLink>Pontoon</pontoonLink> saytida <translateVideo>sozlashingiz</translateVideo> kerak. Pontoonda juda koʻp tillar bor, u yerda ona tilingiz boʻlmasa, <pontoonRequestLink>soʻrov yuborishingiz mumkin</pontoonRequestLink>. Keyin <repoLink>GitHub</repoLink> orqali til uchun Common Voice loyihasini taqdim etishini soʻrang. <localizationFragment>sayt tarjimasi</localizationFragment> haqida batafsil.
+about-playbook-how-add-language-content-3 = <strong>Gaplarni toʻplash</strong> - <scLink>Jumlalarni yigʻgich</scLink>ni <scVideo>sozlang</scVideo>.
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Sunʼiy idrok
 mycroft-description =
@@ -571,8 +654,6 @@ subscribe = Obuna boʻlish
 get-started-speech = Common Voiceʼni qanday qilib shaxsiy dasturlarda ishlatish mumkin?
 other-datasets = Boshqa ovoz ma’lumotlari to‘plamlari
 feedback-q = Fikr-mulohazalaringizni bildirasizmi?
-deepspeech-info = Umumiy ovozli ma'lumotlar bazasi Mozilla-ning ovozni aniqlash vositalarini Deep Speech-ning ovozini aniqlash dasturini to'ldirishda ishlatadi. Qanday boshlashni o'rganish uchun bizning <githubLink> Github haqida umumiy ma'lumot </githubLink> -ni o'qing yoki <discourseLink> DeepSpeech Disourse </discourseLink> -ga qo'shiling.
-common-voice-info-new = Common Voice haqida savollaringiz bormi? Yaxshilash uchun g'oyalar yoki ma'lum bir til haqida fikrlar? Bizning <discourseLink> Diskurs forumimiz </discourseLink> -ga qo'shiling va bizga xabar bering.
 data-other-librispeech-description = LibriSpeech – LibriVox loyihasidagi ingliz tilida 16Khz 1000 soat atrofida o‘qilgan audiokitoblar jamlanmasi.
 data-other-ted-name = TED-LIUM to‘plami
 data-other-ted-description = TED-LIUM to‘plami TED saytida mavjud bo‘lgan audio suhbatlar va ularning transkripsiyasidan iborat.
@@ -687,7 +768,7 @@ listen-3rd-time-instruction = 2 ta tayyor, shunday ruhda davom eting!<playIcon><
 listen-last-time-instruction = <playIcon></playIcon>Oxirgisi!
 listen-empty-state = Ushbu tilda tasdiqlash uchun audio yozuvlar qolmadi...
 speak-empty-state = Ushbu tilda yozib olish uchun audio jumlalar qolmadi...
-speak-empty-state-cta = Gap taklif qilish
+speak-empty-state-cta = Jumla qo'shiish
 record-button-label = Ovozingizni yozing
 share-title-new = Yana ovoz yig‘ishimizda <bold>yordam bering</bold>
 keep-track-profile = O'zingizning profilingizda profilingizni kuzatib boring
@@ -781,15 +862,15 @@ finish-editing = Dastlab, tahrirni tugatib olasizmi?
 lose-changes-warning = Hozir chiqsangiz, hech narsa saqlanmaydi
 build-custom-goal = Shaxsiy maqsadni yarating
 help-reach-hours-pluralized =
-    Shaxsiy maqsadni belgilash orqali { $language } da { $hours } soat ishlashga yordam bering{ NUMBER($hours) ->
-        [one] bir soat
-       *[other] ikki soat
+    Oldingizga shaxsiy maqsadlar qoʻyish orqali { $language } tilida { $hours } soatli kontent yaratishga yordam bering{ NUMBER($hours) ->
+        [one] soat
+       *[other] soat
     }
 help-reach-hours-general-pluralized =
-    Common Voiceʼga ushbu tilda{ NUMBER($hours) ->
+    Common Voiceʼga ushbu tilda { NUMBER($hours) ->
         [one] { $hours } soatli
        *[other] { $hours } soatli
-    }maʼlumot yigʻishga shaxsiy maqsadlaringiz orqali yordam bering.
+    } maʼlumot yigʻishga shaxsiy maqsadlaringiz orqali yordam bering.
 set-a-goal = Maqsad qo'ying
 cant-decide = Qaror berolmaysizmi?
 activity-needed-calculation-plural =
@@ -851,6 +932,34 @@ why-delete-recordings =
     Yozuvlaringizni nega o'chirib tashlashni xohlashingizni bizga xabar qila olasizmi?
 profile-form-delete = Profilni o‘chirish
 
+## Profile Download
+
+download-q = Maʼlumotlaringizni yuklab olish kerakmi?
+download-info = Nimalarni yuklab olishni xohlashingizni bizga ayting:
+download-profile-title = Profil
+download-profile-size = Bir necha bayt
+download-recordings-title = Yozuvlar
+download-recordings-info = Mp3 va unga aloqador boshqa soʻzlar mavjud. Tayyorlash biroz vaqt olishi mumkin.
+download-recordings-size = Odatda megabayt
+download-recordings-unavailable = Boshqa soʻrovingiz amalga oshirilayotganda yozuvlaringizni soʻray olmaysiz.
+download-recently-requested = Har { $days } kunda yozuvlaringizni oʻchirishni soʻrashingiz mumkin.
+download-size = Hajmi
+download-selected = Tanlandi
+download-start = Profil maʼlumotlarini yuklab olish
+download-request = Yozuvlarni soʻrash
+download-requests = Oldingi yozuvlarni yuklab olishni soʻrash
+download-requests-info = Yozuvlaringizni soʻrasangiz, biz ularni bir yoki bir nechta ZIP fayllarga birlashtiramiz. Bu yerda oldingi soʻrovlaringiz:
+download-request-button = Yuklab olish
+download-request-title = { $created }
+download-request-description = { $clipCount } ta ovoli lavha, jami arxiv hajmi: { $size }. Muddati tugaydi: { $expires }.
+download-request-archive-single = Bitta ZIP faylda quyidagilar boʻladi
+download-request-assembling-description = Fayllaringiz yigʻilmoqda. Keyinroq yana tekshiring.
+download-request-refresh-button = Yangilash
+download-request-modal-title = Yuklab olish uchun havolalar
+download-request-modal-description = ZIP fayllarni yuklab olish uchun havolalar.
+download-request-metadata-link = Gap matni
+download-request-link-single = Shuningdek, siz toʻgʻridan-to'g'ri URL manzillarini sevimli yuklab olish menejeriga nusxalashingiz va joylashtirishingiz mumkin. Ularning amal qilish muddati 12 soatdan keyin tugaydi, lekin istalgan vaqtda yangilarini yaratish uchun ushbu sahifaga qaytishingiz mumkin.
+
 ## Landing
 
 welcome-staff = Xush kelibsiz { $company } xodimlari!
@@ -894,3 +1003,98 @@ demo-listen-subtitle = Hissa qoʻshishga tayyormisiz?
 
 demo-dashboard-card-header = Shaxsiy boshqaruv panellari sizni individual va jamoaning oʻsishi toʻgʻrisida xabardor qilib turadi.
 demo-dashboard-card-body = Xayriya qilingan va tasdiqlangan har bir audio tasma uchun akkauntingizdagi panellari boʻlimi yangilanadi, siz qo'shgan har bir tildagi so'nggi yutuqlaringizni koʻrsatadi. Ha, siz bir nechta tilga oʻz hissangizni qoʻshishingiz ham mumkin! <br/> <br/> Boshqaruv panelidan statistikangizni kuzatib borish, jamiyatdagilar bilan bir qatorda natijangizni koʻrish, kunlik yoki haftalik maqsadlarni belgilash uchun foydalaning.
+
+## Validation criteria
+
+contribution-for-example = masalan
+contribution-misreadings-title = Notoʻgʻri oʻqilgan
+contribution-misreadings-description = Tinglayotganda yozilgan matnning aynan yozib olingan ovoz bilan bir xilligini diqqat bilan tekshiring. Hatto kichik xatolar boʻlsa ham rad eting. <br />Juda keng tarqalgan xatolarga quyidagilar kiradi:
+contribution-misreadings-description-extended-list-1 = <strong>'A'</strong> harfi yoki audio yozuvning boshida <strong>'The'</strong> artikli qolib ketishi.
+contribution-misreadings-description-extended-list-2 = Soʻzning oxirida <strong>'s'</strong> qoʻshimchasi qolib ketishi.
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Bosh sahifa
+sc-header-how-to = Qanday
+sc-header-add = Qoʻshish
+sc-header-review = Tekshirish
+sc-header-rejected = Rad etilgan jumlalar
+sc-header-my = Mening jumlalarim
+sc-header-statistics = Statistika
+sc-header-profile = Profil
+sc-footer-report-bugs = Xatolar haqida xabar berish
+sc-footer-translate = Bu sahifani tarjima qilish
+sc-footer-report-copyright = Mualliflik huquqi bilan bogʻliq muammolar haqida xabar bering
+sc-footer-privacy = Maxfiylik
+sc-footer-terms = Shartlar
+sc-footer-cookies = Kukilar
+sc-login-signup-button = Kirish / Roʻyxatdan oʻtish
+sc-logout-button = Chiqish
+
+## HOME
+
+sc-home-title = Common Voice jumla yigʻgichga xush kelibsiz
+sc-home-collect-title = Jumlalarni yigʻish
+
+## HOW-TO
+
+sc-howto-title = Qanday
+sc-howto-addlang-text = Kirsangiz, profil qismidan tillarni tanlash mumkin.
+sc-howto-addsen-title = Yangi jumlalar qoʻshish
+sc-howto-cite-title = Qanday iqtibos keltirish mumkin
+sc-howto-review-criteria-3 = Jumlani gapirish mumkin boʻlishi kerak.
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Oxirgi yangilanish: { $lastUpdate }
+sc-stats-last-update-never = Oxirgi yangilanish: hech qachon
+
+## ADD
+
+sc-submit-select-language =
+    .labelText = Tilni tanlang
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+sc-personal-your-languages = Tillaringiz:
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+sc-settings-title = Sozlamalar
+sc-settings-ui-language = Interfeys tili
+sc-settings-language-translated-warning = Bu til uchun sahifalar tarjima qilinmagan boʻlishi mumkin. Tarjimaga <pontoonLinkLink> Pontoon</pontoonLinkLink> orqali yordam berishingiz mumkin.
+sc-settings-reset-skipped = Oʻtkazib yuborilgan jumlalarni tiklash
+
+# [/SentenceCollector]
+

@@ -6,14 +6,16 @@ import {
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { CloudIcon, MicIcon, UserIcon, RedoIcon } from '../../../ui/icons';
-import { Button, LabeledCheckbox } from '../../../ui/ui';
+import { Button } from '../../../ui/ui';
 import './download.css';
 import API from '../../../../services/api';
 import { useAccount, useAPI } from '../../../../hooks/store-hooks';
-import { TakeoutRequest, TakeoutState, UserClient } from 'common';
+import { TakeoutRequest, TakeoutState, UserClient, Accent } from 'common';
 import { byteToSize } from '../../../../utility';
 import Modal, { ModalProps } from '../../../modal/modal';
 
+// TODO: remove pick
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const pick = require('lodash.pick');
 
 // you can request a new takeout every 7 days
@@ -57,7 +59,6 @@ const Item = ({
   className = '',
   disabledReason = '',
   isDisabled = false,
-  children,
   ...props
 }: {
   icon: React.ReactNode;
@@ -69,7 +70,6 @@ const Item = ({
   className?: string;
   isDisabled?: boolean;
   disabledReason?: string;
-  children?: React.ReactNode;
 }) => {
   return (
     <div className={'download-item' + className} {...props}>
@@ -85,11 +85,7 @@ const Item = ({
       ) : (
         <Localized
           id={type === 'clips' ? 'download-request' : 'download-start'}>
-          <Button
-            rounded
-            className="download-button"
-            onClick={action}
-          />
+          <Button rounded className="download-button" onClick={action} />
         </Localized>
       )}
     </div>
@@ -232,17 +228,26 @@ const LinkModal = ({
         {links.length && (
           <ul>
             {links[0].map((link: string, i: number) => (
-              <li>
+              <li key={i}>
                 <Localized
                   id="download-request-link-text"
                   vars={{ offset: i + 1, total: links[0].length }}>
-                  <a key={link} href={link} target="_blank" />
+                  {/* Localized injects content into child tag */}
+                  {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+                  <a key={link} href={link} target="_blank" rel="noreferrer" />
                 </Localized>
               </li>
             ))}
             <li>
               <Localized id="download-request-metadata-link">
-                <a key={links[1]} href={links[1]} target="_blank" />
+                {/* Localized injects content into child tag */}
+                {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+                <a
+                  key={links[1]}
+                  href={links[1]}
+                  target="_blank"
+                  rel="noreferrer"
+                />
               </Localized>
             </li>
           </ul>
@@ -284,13 +289,18 @@ function downloadAsFile(filename: string, url: string) {
 export function getProfileInfo(account: UserClient) {
   return [
     ...Object.entries(pick(account, 'email', 'username', 'age', 'gender')),
-    ...account.locales.reduce((all, l, i) => {
+    ...account.languages.reduce((all, l, i) => {
       const localeLabel = 'language ' + (i + 1);
-      return [
+      const accents = l.accents
+        .slice(1)
+        .map((accent: Accent) => accent.name)
+        .join(', ');
+      const arr = [
         ...all,
         [localeLabel, l.locale],
-        [localeLabel + ' accent', l.accent],
+        [localeLabel + ' accent(s)', accents],
       ];
+      return arr;
     }, []),
   ]
     .map(([key, value]) => key + ': ' + value)
@@ -303,12 +313,13 @@ function download(
   type: 'profile' | 'clips',
   forceTakeoutRefresh: () => void
 ) {
-  if (type === 'profile') downloadTextAsFile('profile.txt', getProfileInfo(account));
+  if (type === 'profile')
+    downloadTextAsFile('profile.txt', getProfileInfo(account));
 
   if (type === 'clips')
     api
       .requestTakeout()
-      .then((data: any) => forceTakeoutRefresh())
+      .then(() => forceTakeoutRefresh())
       .catch((err: any) => console.error(err));
 }
 
@@ -340,12 +351,14 @@ function DownloadProfile(props: WithLocalizationProps) {
     );
 
     setHasRecentTakeout(
-      (takeouts || []).reduce(
-        (acc: boolean, t: TakeoutRequest) => {
-          return acc || serverDate.getTime() <= (new Date(t.requested_date).getTime() + REQUEST_LIMIT * 24 * 60 * 60 * 1000);
-        },
-        false
-      )
+      (takeouts || []).reduce((acc: boolean, t: TakeoutRequest) => {
+        return (
+          acc ||
+          serverDate.getTime() <=
+            new Date(t.requested_date).getTime() +
+              REQUEST_LIMIT * 24 * 60 * 60 * 1000
+        );
+      }, false)
     );
   }, [takeouts]);
 
@@ -368,26 +381,33 @@ function DownloadProfile(props: WithLocalizationProps) {
           title={getString('download-profile-title')}
           info={getString('download-profile-info')}
           size={getString('download-profile-size')}
-          type='profile'
+          type="profile"
           action={() => download(account, api, 'profile', forceTakeoutRefresh)}
         />
-        <Item
-          icon={<MicIcon />}
-          title={getString('download-recordings-title')}
-          info={getString('download-recordings-info')}
-          size={getString('download-recordings-size')}
-          type='clips'
-          action={() => download(account, api, 'clips', forceTakeoutRefresh)}
-          isDisabled={hasAnyPendingTakeout || hasRecentTakeout}
-          disabledReason={hasAnyPendingTakeout ? getString('download-recordings-unavailable') :
-            getString('download-recently-requested', { days: REQUEST_LIMIT }) }
-        />
+        {account.clips_count > 0 ? (
+          <Item
+            icon={<MicIcon />}
+            title={getString('download-recordings-title')}
+            info={getString('download-recordings-info')}
+            size={getString('download-recordings-size')}
+            type="clips"
+            action={() => download(account, api, 'clips', forceTakeoutRefresh)}
+            isDisabled={hasAnyPendingTakeout || hasRecentTakeout}
+            disabledReason={
+              hasAnyPendingTakeout
+                ? getString('download-recordings-unavailable')
+                : getString('download-recently-requested', {
+                    days: REQUEST_LIMIT,
+                  })
+            }
+          />
+        ) : null}
       </Section>
       {takeouts && takeouts.length > 0 && (
         <Section
           title={getString('download-requests')}
           info={getString('download-requests-info')}
-          id='requests'
+          id="requests"
           className="download-requests"
           key={takeoutRefresh}>
           {takeouts.map((request: TakeoutRequest) => (

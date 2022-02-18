@@ -14,8 +14,9 @@
     border-bottom: 1px solid #f9f9f9;
     box-sizing: border-box;
     position: relative;
+
     & h2 {
-        font-family: Zilla Slab;
+        font-family: 'Zilla Slab', sans-serif;
         font-size: 20px;
         line-height: 1.4;
     }

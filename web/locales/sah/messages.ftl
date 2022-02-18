@@ -9,7 +9,6 @@ email-input =
 submit-form-action = Ыыт
 loading = Хачайдааһын...
 email-opt-in-info = Санатыылары, саҥардыллыы туһунан биллэриилэри уонна сонуннары электроннай суругунан тутуохпун баҕарабын.
-email-opt-in-privacy = Сурук тутартан батыннаххына, Mozilla хайдах бу информацияны таҥастыыра <privacyLink>кистэлэҥи хааччыйыы политикатыгар<privacyLink> суруллубутун кытта сөбүлэһэргин биллэрэҕин,
 indicates-required = * Толорорго булгуччулаах
 not-available-abbreviation = Суох
 
@@ -59,7 +58,6 @@ ga-IE = Ирландскай тыл
 gl = Галисия тыла
 ha = Хауса тыла
 he = Иврит
-hi-IN = Хинди тыла
 hr = Хорваат тыла
 hsb = Үөһээ Лужица тыла
 hu = Венгер тыла
@@ -74,7 +72,6 @@ kab = Кабильскай тыл
 kk = Казах тыла
 ko = Кэриэй тыла
 kpv = Коми-зыряннар тыллара
-ku = Курды тыла
 kw = Корнскай тыл
 ky = Кыргыыс тыла
 lij = Лигурскай тыл
@@ -213,7 +210,6 @@ whats-public = Дьоҥҥо барытыгар көстөрө
 email-not-public = Эн email аадырыскын кимиэхэ да көрдөрбөппүт.
 recordings-and-locale-public = Төһөнү уонна ханнык тылынан доргуччу аахпытыҥ дьоҥҥо көстүөҕэ.
 username-optin-public = Кыттааччы аатын көстөр эбэтэр көстүбэт гыныаххын сөп.
-demographic-deidentified = Тус бэйэҥ тускунан дааннайдар (сааһыҥ, аҥардамыҥ, тылыҥ уонна акценыҥ) ааккар баайыллыахтара суоҕа уонна бэйэҥ бэлиэ-ааккын кытта ситимнэниэхтэрэ суоҕа.
 username-email-not-demographic = Эн бэлиэ-аатыҥ уонна email-ыҥ публикацияламмыт дааннайдарга баайыллыахтара суоҕа.
 
 ## Speak & Listen Shortcuts
@@ -271,8 +267,6 @@ profile-form-accent =
     .label = Акцент
 profile-form-age =
     .label = Сааһа
-profile-form-gender =
-    .label = Аҥардама (эр/дьахтар)
 leaderboard-visibility =
     .label = Лидердар таблицаларыгар көстөрө
 hidden = Көстүбэт
@@ -298,7 +292,6 @@ profile-close = Сап
 profile-explanation = Наблюдайте за прогрессом, пользуясь профилем, и помогайте улучшать точность наших голосовых данных.
 thanks-for-account = Аатыҥ бигэргэннэ, аны билигин профильгын толор.
 why-demographic = Бу туох суолталааҕый?
-why-demographic-explanation = Анонимные пользовательские данные такие, как возраст, пол и акцент помогут улучшить аудио-данные, используемые для тренировки точности движков распознавания речи. Ваше имя пользователя и адрес электронной почты никогда не будут связаны с предоставляемыми вами данными, и вы можете выбрать сделать ли ваш логин публичным или анонимным.
 accept-privacy = Mozilla <privacyLink>Бүк охсунуу бэлитикэтин</privacyLink> кытта сөбүлэһэбин
 login-identity = Киирэр идентификатор
 login-signup = Киирии / Бэлиэтэнии
@@ -311,11 +304,17 @@ skip-submission-description = Оценка работы с Common Voice буде
 skip-submission-note = Примечание: Вам по-прежнему нужно выбирать между записью и прослушиванием, чтобы изменить тип внесения вклада.
 off = Араар
 on = Холбоо
+
+## Profile - Email
+
 browse-file-title = Ойууну киллэр
 browse-file = Перетащите или <browseWrap>выберите файл</browseWrap>
 connect-gravatar = Gravatar холбооһун
 gravatar_not_found = Данный адрес эл. почты не зарегистрирован в gravatar
 file_too_large = Талбыт файлгыт аһара улахан размердаах
+
+## Profile - Email
+
 manage-subscriptions = Суруттарыыны салайыы
 manage-email-subscriptions = Электрон почтанан сурутуулары салайыы
 email-already-used = Email атын аккауҥҥа туттулла сылдьар
@@ -404,10 +403,8 @@ sst-explanation = Технология Speech-to-text (STT) преобразов
 de-identified = Обезличенный
 de-identified-explanation = Процесс, с помощью которого информация профиля участника убирается из пожертвованных им голосовых записей, когда они упаковываются для загрузки, как часть набора данных.
 
-## NotFound
+## Error pages
 
-notfound-title = Көстүбэтэ
-notfound-content = Тугу көрдүүргутүн өйдөөбөтүм.
 
 ## Data
 
@@ -467,16 +464,14 @@ validated-hours = Бигэргэммит чаас ахсаана
 recorded-hours = Суруллубут уһуна
 whats-inside = Common Voice дааннай наборын иһигэр туох баарый?
 dataset-description-hours =
-    Каждая запись в наборе данных состоит из уникального MP3-аудио и соответствующего ему текстового файла. Многие из <b>{ $total }</b> записей в этом наборе данных также включают в себя демографические метаданные, такие как возраст, пол и акцент, которые могут помочь увеличить точность обучения движков распознавания речи.¶
-    ¶
+    Каждая запись в наборе данных состоит из уникального MP3-аудио и соответствующего ему текстового файла. Многие из <b>{ $total }</b> записей в этом наборе данных также включают в себя демографические метаданные, такие как возраст, пол и акцент, которые могут помочь увеличить точность обучения движков распознавания речи.
+    
     В настоящее время набор данных состоит из <b>{ $valid }</b> проверенных часов на <b>{ $languages }</b> языках, но мы постоянно добавляем новые голоса и языки. Загляните на нашу <languagesLink>страницу языков</languagesLink>, чтобы запросить язык или принять участие.
 want-dataset-update = Common Voice сана дааннайдарын наборын туһунан билиэххин баҕараҕын? Биһиги сонуннарбытыгар суруттар.
 subscribe = Суруттар
 get-started-speech = Common Voice атын программаларга хайдах туттулларый
 other-datasets = Атын куолас дааннайын набордара
 feedback-q = Сыанабыл хаалларыы
-deepspeech-info = Common Voice дааннайын набора Mozilla Deep Speech диэн аһаҕас тылы өйдүүр движогу толорон биэрэр, ону эһиги бэйэҕит программаҕытыгар туттуоххутун сөп. Хайдах туттар туһунан, биһиги <githubLink>Github-пытыгар</githubLink> ааҕыҥ эбэтэр <discourseLink>Discource форум DeepSpeech разделыгар</discourseLink> киирэн көрүҥ.
-common-voice-info-new = У вас есть вопросы о Common Voice? Идеи по улучшению или отзывы о конкретном языке? Присоединяйтесь к нам на нашем <discourseLink>Discourse-форуме</discourseLink> и дайте нам знать.
 data-other-librispeech-description = LibriSpeech представляет собой собрание из примерно 1000 часов 16 кГц аудиозаписей английской речи, полученных из аудиокниг проекта LibriVox.
 data-other-ted-name = TED-LIUM Хомуур
 data-other-ted-description = TED-LIUM Хомуур диэн TED сайтка баар аудио кэпсэтиилэр уонна кинилэр транскрипцияларыттан оҥоһуллубут.
@@ -545,7 +540,6 @@ contribute = Кытын
 listen = Иһит
 skip = Көтүт
 shortcuts = Сочетаниялар
-clips-with-count = <bold>{ $count }</bold> клип
 goal-help-recording = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по записи в { $goalValue }!
 goal-help-validation = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по проверке в { $goalValue }!
 contribute-more =
@@ -556,7 +550,6 @@ contribute-more =
 record-cta = Суруттарыыны саҕалаа
 record-platform-not-supported = Нам жаль, в настоящее время ваша платформа не поддерживается.
 record-platform-not-supported-desktop = На настольных компьютерах, вы можете загрузить последний:
-record-platform-not-supported-ios = Пользователи <bold>iOS</bold> могут загрузить наше бесплатное приложение:
 record-must-allow-microphone = Микрофоҥҥа доступ биэриэххэ наада.
 record-no-mic-found = Микрофон булуллубата
 record-error-too-short = Суруттарыы наһаа кылгас.
@@ -582,7 +575,6 @@ listen-instruction = <playIcon></playIcon>{ $actionType } этии сөпкө ч
 listen-again-instruction = Туйгун үлэ! <playIcon></playIcon> Өссө истиҥ, бэлэм буоллаххытына
 listen-3rd-time-instruction = 2 бэлэм, салҕыы тур!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Бүтэһик!
-nothing-to-validate = Бу тылга тургутар туох да суох эбит. Хата, көмө буол, эбэн биэр.
 record-button-label = Саҥаҕын суруттар
 share-title-new = Саҥарар дьону буларга <bold>көмөлөс дуу</bold>
 
@@ -646,6 +638,27 @@ why-delete-recordings =
     Можем ли мы узнать, почему вы хотите удалить свои записи?
 profile-form-delete = Профиль соттор
 
+## Profile Download
+
+
 ## Landing
 
 profile-not-required = Профиль хайаан да ирдэммэт, ол гынан баран туһалаах
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+

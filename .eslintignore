@@ -1,0 +1,16 @@
+# don't ever lint node_modules
+node_modules
+
+# ignore some config files
+webpack.config.js
+postcss.config.js
+jest.config.js
+
+# built files
+common/index.ts
+common/js/
+maintenance/index.html
+server/js/
+server/upload/
+web/dist/
+web/index.html

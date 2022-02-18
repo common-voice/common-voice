@@ -79,6 +79,7 @@ hyw = Západní arménština
 ia = Interlingua
 id = Indonéština
 ie = Interlingue
+ig = Igboština
 is = Islandština
 it = Italština
 izh = Ižorština
@@ -147,10 +148,12 @@ ta = Tamilština
 te = Telugština
 tg = Tádžičtina
 th = Thajština
+tk = Turkmenština
 tl = Tagalština
 tr = Turečtina
 tt = Tatarština
 tw = Ťwiština
+ty = Tahitština
 uby = Ubychština
 udm = Udmurtština
 ug = Ujgurština
@@ -160,6 +163,7 @@ uz = Uzbečtina
 vec = Benátština
 vi = Vietnamština
 vot = Votština
+yi = Jidiš
 yo = Jorubština
 yue = Kantonština
 zh-CN = Čínština (Čína)
@@ -321,8 +325,13 @@ profile-form-native-language =
     .label = Mateřský jazyk
 profile-form-additional-language =
     .label = Další jazyk
+profile-form-language =
+    .label = Jazyk
 profile-form-accent =
     .label = Přízvuk
+profile-form-custom-accent-help-text =
+    .label = Jak byste popsali svůj přízvuk?
+profile-form-custom-accent-placeholder-2 = Popište svůj přízvuk
 profile-form-age =
     .label = Věk
 profile-form-gender-2 =
@@ -333,6 +342,7 @@ hidden = Skrytý
 visible = Viditelný
 native-language =
     .label = Rodný jazyk
+profile-form-add-accent = Přidat nový přízvuk „{ $inputValue }“
 profile-form-submit-save = Uložit
 profile-form-submit-saved = Uloženo
 male = Muž
@@ -366,6 +376,8 @@ skip-submission-description = Při přispívání bude po klepnutí na Odeslat p
 skip-submission-note = Poznámka: Pro změnu druhu vašich příspěvků budete stále muset zvolit mezi Mluvit a Poslouchat.
 off = Vypnuto
 on = Zapnuto
+help-accent = Potřebujete pomoc s přízvukem?
+help-accent-explanation = Váš přízvuk je způsob, jakým vyslovujete slova. Je utvářen tím, kde jste žili, jakými dalšími jazyky mluvíte a mnoha dalšími faktory. Zde můžete sdílet jakékoli informace, které považujete za relevantní.
 
 ## Profile - Email
 
@@ -886,6 +898,46 @@ profile-form-delete = Smazat profil
 download-q = Potřebujete stáhnout svá data?
 download-info = Řekněte nám, co chcete stáhnout:
 download-profile-title = Profil
+download-profile-info = Zahrnuje e-mail, uživatelské jméno a demografické informace, ihned k dispozici
+download-profile-size = Několik bajtů
+download-recordings-title = Nahrávky
+download-recordings-info = Obsahuje soubory MP3 a související věty, příprava může nějakou dobu trvat
+download-recordings-size = Obvykle megabajty
+download-recordings-unavailable = Nemůžete si vyžádat své nahrávky, pokud již probíhá jiný požadavek.
+download-recently-requested =
+    { $days ->
+        [one] Každý den můžete požádat o nové stažení svých nahrávek.
+        [few] Každé { $days } dny můžete požádat o nové stažení svých nahrávek.
+       *[other] Každých { $days } dní můžete požádat o nové stažení svých nahrávek.
+    }
+download-size = Velikost
+download-selected = Vybráno
+download-start = Stáhnout údaje v profilu
+download-request = Požádat o nahrávky
+download-requests = Minulé požadavky na stažení nahrávek
+download-requests-info = Když si vyžádáte své nahrávky, zkompilujeme je do jednoho nebo více souborů ZIP. Zde jsou vaše minulé požadavky:
+download-request-button = Stáhnout
+download-request-title = { $created }
+download-request-description =
+    { $clipCount ->
+        [one] Jedna hlasová nahrávka v archivu o velikosti { $size }. Vyprší { $expires }.
+        [few] { $clipCount } hlasové nahrávky v archivu o velikosti { $size }. Vyprší { $expires }.
+       *[other] { $clipCount } hlasových nahrávek v archivu o velikosti { $size }. Vyprší { $expires }.
+    }
+download-request-archive-single = Jeden soubor ZIP obsahující
+download-request-archive-multiple =
+    { $archiveCount ->
+        [one] Jeden soubor ZIP obsahující
+        [few] Rozděleno na { $archiveCount } soubory ZIP obsahující
+       *[other] Rozděleno na { $archiveCount } souborů ZIP obsahujících
+    }
+download-request-assembling-description = Vaše soubory se shromažďují. Zkuste to prosím později.
+download-request-refresh-button = Obnovit
+download-request-modal-title = Odkazy pro stažení
+download-request-modal-description = Zde jsou odkazy pro stažení vašich souborů ZIP.
+download-request-link-text = ZIP { $offset } z { $total }
+download-request-metadata-link = Text věty
+download-request-link-single = Můžete také zkopírovat a vložit adresy těchto odkazů do svého oblíbeného správce stahování. Jejich platnost vyprší za 12 hodin, ale kdykoli se můžete vrátit na tuto stránku a vygenerovat nové.
 
 ## Landing
 
@@ -933,12 +985,14 @@ demo-dashboard-card-body = Vaše nástěnka se aktualizuje s každou nově nahra
 
 ## Validation criteria
 
+contribution-criteria-nav = Kritéria
 contribution-criteria-link = Kritéria pro přispívání
 contribution-criteria-page-title = Kritéria pro přispívání
 contribution-criteria-page-description = Na co se zaměřit při poslechu hlasových nahrávek i při pořizování vlastních nahrávek.
 contribution-for-example = například
 contribution-misreadings-title = Přeřeknutí
 contribution-misreadings-description = Během poslechu dávejte bedlivě pozor, jestli nahrávka obsahuje přesně to, co je napsáno. Odmítněte nahrávku i pokud obsahuje jen drobnou chybu. <br />Mezi běžné chyby patří:
+contribution-misreadings-description-extended-list-1 = Chybějící krátká slova jako <strong>'V'</strong> nebo <strong>'Pro'</strong> na začátku nahrávky.
 contribution-misreadings-description-extended-list-4 = Chybějící část posledního slova kvůli předčasně ukončenému nahrávání.
 contribution-misreadings-description-extended-list-5 = Opakované přečtení téhož slova.
 contribution-varying-pronunciations-description = Speciální péči věnujte případnému zamítání nahrávek kvůli odlišně vyslovenému slovu, přízvuku nebo tónu věty. Ne každý vyslovuje stejně, jako vy, a v našem datasetu chceme zachytit výslovnost každého, pokud je správná.
@@ -958,3 +1012,56 @@ contribution-just-unsure-title = Jen si nejste jisti?
 contribution-just-unsure-description = Pokud narazíte v nahrávce na problém, který tu nezmiňujeme, hlasujte o nahrávce podle svého nejlepšího úsudku. Pokud se nemůžete rozhodnout, nahrávku přeskočte.
 see-more = <chevron></chevron> Zobrazit více
 see-less = <chevron></chevron> Zobrazit méně
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+

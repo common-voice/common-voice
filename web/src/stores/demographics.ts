@@ -1,4 +1,8 @@
-export const ACCENTS: any = {
+// Please note - this list is no longer the canonical list of
+// accents on the platform and will be removed in a future
+// dataset release. For more info, please see this Discourse
+// post: https://discourse.mozilla.org/t/89754
+export const LEGACY_ACCENTS: any = {
   br: {
     gwenedeg: 'Gwenedeg',
     kerneveg: 'Kerneveg',
@@ -12,7 +16,7 @@ export const ACCENTS: any = {
     northern: 'septentrional',
     valencian: 'valencià',
     learner_es: 'aprenent (recent, des del castellà)',
-    learner_other: 'aprenent (recent, des d\'altres llengües)',
+    learner_other: "aprenent (recent, des d'altres llengües)",
   },
   cy: {
     united_kingdom: 'Y Deyrnas Unedig Cymraeg',

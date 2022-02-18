@@ -3,6 +3,10 @@ import { UserClient } from 'common';
 import { generateGUID, generateToken } from '../utility';
 import StateTree from './tree';
 
+export const VISIBLE_FOR_NONE = 0;
+export const VISIBLE_FOR_ALL = 1;
+export const VISIBLE_FOR_TEAM = 2;
+
 export namespace User {
   export interface State {
     userId: string;
@@ -74,44 +78,42 @@ export namespace User {
       type: ActionType.TALLY_VERIFICATION,
     }),
 
-    refresh: () => async (
-      dispatch: Dispatch<UpdateAction>,
-      getState: () => StateTree
-    ) => {
-      const { api } = getState();
-      dispatch({
-        type: ActionType.UPDATE,
-        state: { isFetchingAccount: true },
-      });
-      const [account, userClients] = await Promise.all([
-        api.fetchAccount(),
-        api.fetchUserClients(),
-      ]);
-      dispatch({
-        type: ActionType.UPDATE,
-        state: { account, userClients, isFetchingAccount: false },
-      });
-      await actions.claimLocalUser(dispatch, getState);
-    },
+    refresh:
+      () =>
+      async (dispatch: Dispatch<UpdateAction>, getState: () => StateTree) => {
+        const { api } = getState();
+        dispatch({
+          type: ActionType.UPDATE,
+          state: { isFetchingAccount: true },
+        });
+        const [account, userClients] = await Promise.all([
+          api.fetchAccount(),
+          api.fetchUserClients(),
+        ]);
+        dispatch({
+          type: ActionType.UPDATE,
+          state: { account, userClients, isFetchingAccount: false },
+        });
+        await actions.claimLocalUser(dispatch, getState);
+      },
 
-    saveAccount: (data: UserClient) => async (
-      dispatch: Dispatch<UpdateAction>,
-      getState: () => StateTree
-    ) => {
-      const { api, user } = getState();
-      dispatch({
-        type: ActionType.UPDATE,
-        state: { isFetchingAccount: true },
-      });
-      dispatch({
-        type: ActionType.UPDATE,
-        state: {
-          account: await api.saveAccount(data),
-          isFetchingAccount: false,
-        },
-      });
-      await actions.claimLocalUser(dispatch, getState);
-    },
+    saveAccount:
+      (data: UserClient) =>
+      async (dispatch: Dispatch<UpdateAction>, getState: () => StateTree) => {
+        const { api } = getState();
+        dispatch({
+          type: ActionType.UPDATE,
+          state: { isFetchingAccount: true },
+        });
+        dispatch({
+          type: ActionType.UPDATE,
+          state: {
+            account: await api.saveAccount(data),
+            isFetchingAccount: false,
+          },
+        });
+        await actions.claimLocalUser(dispatch, getState);
+      },
 
     claimLocalUser: async (
       dispatch: Dispatch<UpdateAction>,

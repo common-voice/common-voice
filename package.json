@@ -4,19 +4,6 @@
   "license": "MPL-2.0",
   "repository": "mozilla/voice-web",
   "private": true,
-  "dependencies": {
-    "fluent-syntax": "^0.14.0",
-    "http-status-codes": "^1.4.0",
-    "request": "^2.88.0",
-    "request-promise-native": "^1.0.8"
-  },
-  "devDependencies": {
-    "concurrently": "^5.1.0",
-    "husky": "^4.2.1",
-    "prettier": "^2.1.1",
-    "pretty-quick": "^3.0.2",
-    "typescript": "4.0.2"
-  },
   "workspaces": [
     "common",
     "server",
@@ -24,32 +11,56 @@
     "maintenance"
   ],
   "engines": {
-    "node": ">=10.17.0"
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "@fluent/syntax": "^0.18.0",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "concurrently": "^5.1.0",
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^4.2.1",
+    "prettier": "^2.1.1",
+    "pretty-quick": "^3.0.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8",
+    "typescript": "4.0.2"
   },
   "resolutions": {
-    "event-stream": "^3.3.4",
-    "@types/react": "^16.9.19",
-    "minimist": "^1.2.3",
-    "serialize-javascript": "^3.1.0",
-    "dot-prop": "^4.2.1",
-    "node-notifier": "^8.0.1",
-    "y18n": "^4.0.1",
-    "netmask": "^2.0.1",
-    "is-svg": "^4.2.2",
-    "ssri": "^8.0.1",
-    "merge": "^2.1.1",
-    "underscore": "^1.12.1",
     "browserslist": "^4.16.5",
+    "dot-prop": "^4.2.1",
     "glob-parent": "^5.1.2",
-    "ws": "^7.4.6"
+    "is-svg": "^4.2.2",
+    "merge": "^2.1.1",
+    "minimist": "^1.2.3",
+    "netmask": "^2.0.1",
+    "node-notifier": "^8.0.1",
+    "pac-resolver": "5.0.0",
+    "serialize-javascript": "^3.1.0",
+    "ssh2": "^1.4.0",
+    "ssri": "^8.0.1",
+    "underscore": "^1.12.1",
+    "ws": "^7.4.6",
+    "y18n": "^4.0.1",
+    "yargs-parser": "18.1.2"
   },
   "scripts": {
-    "build": "yarn build-common && concurrently \"cd server && yarn build\" \"cd web && yarn build\"",
+    "clean": "rm -r node_modules && rm -r common/node_modules && rm -r server/node_modules && rm -r web/node_modules",
+    "build": "yarn build-maint && yarn build-common && concurrently \"cd server && yarn build\" \"cd web && yarn build\"",
     "build-common": "cd common && yarn build && cd ..",
     "build-maint": "cd maintenance && yarn build && cd ..",
     "import-locales": "node scripts/import-locales",
-    "lint": "prettier \"**/*.{ts,tsx}\"",
-    "prettier": "yarn lint --write",
+    "lint": "eslint .",
+    "lint:common": "eslint ./common",
+    "lint:server": "eslint ./server",
+    "lint:web": "cd web && yarn lint",
+    "prettier": "prettier \"**/*.{ts,tsx}\" --write",
     "start": "yarn build-common && concurrently -p \"[{name}]\" -n \"CO,BE,FE\" -c \"bgYellow.bold,bgBlue.bold,bgMagenta.bold,bgCyan.bold\" \"cd common && yarn dev\" \"cd server && yarn start\" \"cd web && yarn dev\"",
     "start:prod": "yarn build-common && node server/js/main.js",
     "start:maint": "cd maintenance && yarn dev",
@@ -59,5 +70,6 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "packageManager": "yarn@1.22.17"
 }

@@ -1,14 +1,14 @@
 ## General
 
-yes-receive-emails = بله ، برای من ایمیل ارسال کنید. من می خواهم در مورد پروژه صدای مشترک مطلع شوم.
+yes-receive-emails = بله، برایم رایانامه ارسال کنید. می‌خواهم در مورد پروژه‌ی صدای مشترک مطلع شوم.
 stayintouch = ما در موزیلا در حال ایجاد یک جامعه حول فن‌آوری صوتی هستیم. ما دوست داریم با به‌روزرسانی‌ها، منابع اطلاعات جدید در دسترس باشیم و بیشتر بدانیم که چگونه از این اطلاعات استفاده می‌کنید.
 privacy-info = ما قول می‌دهیم که اطلاعات شما را با دقت به کار ببریم. در <privacyLink>نکات حریم خصوصی</privacyLink> بیشتر مطالعه کنید.
 return-to-cv = بازگشت به آواهای مشترک
 email-input =
-    .label = ایمیل
+    .label = رایانامه
 submit-form-action = ارسال
 loading = در حال بارگیری...
-email-opt-in-info = من مایل به دریافت یادآوری هستم مانند هدف،‌ پیشرفت من و خبرنامه ها در مورد پروژه آواهای مشترک.
+email-opt-in-info = من مایل به دریافت رایانامه‌هایی مانند ياد‌آوری اهدافم، پیشرفت من و خبرنامه‌ها در مورد پروژه آواهای مشترک هستم.
 email-opt-in-info-title = به فهرست پستی الکترونیکی صدای مشترک بپیوندید
 email-opt-in-info-sub-with-challenge = دریافت پست الکترونیکی شامل چالش ها و یادآوری اهداف،‌ پیشرفت بروزرسانی و خبرنامه‌ها در خصوص صدای مشترک.
 email-opt-in-privacy-v2 = با انتخاب دریافت رایانامه‌ها، اعلام می‌کنید که با دسترسی موزیلا به این اطلاعات مطابق موارد <privacyLink> مقررات حریم خصوصی<privacyLink>  مشکلی ندارید.
@@ -72,6 +72,7 @@ he = عبری
 hi = هندی
 hr = کروات
 hsb = صربی، بالا
+ht = هائیتیایی
 hu = مجاری
 hy-AM = ارمنی
 hyw = ارمنی غربی
@@ -113,6 +114,7 @@ oc = Occitan
 or = Odia
 pa-IN = پنجابی
 pl = لهستانی
+ps = پشتو
 pt = پرتغالی
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
@@ -139,6 +141,7 @@ tr = ترکی
 tt = تاتاری
 uby = اوبیخی
 udm = اودمورت
+ug = اویغوری
 uk = اوکراینی
 ur = اردو
 uz = ازبکی
@@ -176,6 +179,7 @@ logout = خروج از سیستم
 ## Home Page
 
 home-title = آواهای مشترک، ابتکاری از Mozilla است تا به ماشین‌ها نحوهٔ صحبت کردن افراد واقعی را یاد دهند.
+default-tagline = پروژه آوای مشترک ابتکار موزیلا برای کمک به آموزش ابزارهای یادگیری ماشین است تا بدانند مردم واقعی چگونه صحبت می‌کنند.
 home-cta = حرف بزنید، از اینجا مشارکت کنید!
 wall-of-text-start = آوا طبیعی است، آوا انسانی است. دلیل هیجان ما برای ساخت فن‌آوری صوتی قابل استفاده برای ماشین‌ها این است. اما برای ایجاد سامانه‌های صوتی، مقدار زیادی از داده‌های صوتی مورد نیاز است.
 wall-of-text-more-mobile = اغلب داده‌های مورد استفادهٔ شرکت‌های بزرگ، برای بخش بزرگی از افراد در دسترس نیستند. ما فکر می‌کنیم این باعث از بین رفتن نوآوری‌ها خواهد شد. به همین خاطر ما پروژه آواهای مشترک را راه‌اندازی کردیم، پروژه‌ای برای کمک به دسترسی همه به ابزارهای تشخیص صدا.
@@ -243,6 +247,7 @@ whats-public = چه چیزی عمومی است؟
 email-not-public = ما رایانامه شما را برای عموم منتشر نخواهیم کرد.
 recordings-and-locale-public = تعداد ضبط‌ها و زبان‌هایی که به آن‌ها کمک می‌کنید، عمومی هستند.
 username-optin-public = شما می‌توانید نام کاربری خود را عمومی یا ناشناس انتخاب کنید.
+demographic-deidentified-clarity-2 = داده های جمعیتی ارسال شده به صورت اختیاری (مانند سن ، جنس ، زبان و لهجه) هرگز به صورت عمومی در نمایهٔ شما منتشر نمی‌شوند و در مجموعه داده با حساب شما پیوند نخواهند داشت. کلیپ‌های صوتی فردی به منظور تجزیه و تحلیل دقیق‌تر با داده‌های جمعیتی همراه خواهد بود - برای مثال، یک محقق ممکن است بخواهد فقط با یک مدل آموزشی مربوط به یک بخش جمعیتی خاص کار کند.
 username-email-not-demographic = نام کاربری و رایانامه شما با داده‌های منتشر شده ارتباط نخواهد داشت.
 
 ## Speak & Listen Shortcuts
@@ -271,7 +276,12 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = ضبط/توقف
 shortcut-rerecord-toggle = [۱-۵]
 shortcut-rerecord-toggle-label = ضبط مجدد کلیپ
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = لغو ضبط در حال انجام.
+shortcut-submit = بازگشت
+shortcut-submit-label = ارسال کلیپ‌ها
 request-language-text = زبان خود را در «آواهای مشترک» مشاهده نمی‌کنید؟
+request-language-text-learn = نحوه درخواست آن، در اینجا را بیاموزید!
 request-language-button = درخواست یک زبان
 
 ## ProjectStatus
@@ -296,8 +306,13 @@ profile-form-native-language =
     .label = زبان مادری
 profile-form-additional-language =
     .label = زبان دوم
+profile-form-language =
+    .label = زبان
 profile-form-accent =
     .label = لهجه
+profile-form-custom-accent-help-text =
+    .label = چه طور لهجه خود را توصیف می‌کنید؟
+profile-form-custom-accent-placeholder-2 = برای توصیف لهجه‌تان، شروع کنید به نوشتن
 profile-form-age =
     .label = سن
 profile-form-gender-2 =
@@ -308,6 +323,7 @@ hidden = پنهان
 visible = قابل مشاهده
 native-language =
     .label = زبان مادری
+profile-form-add-accent = افزودن لهجه سفارشی جدید «{ $inputValue }»
 profile-form-submit-save = ذخیره
 profile-form-submit-saved = ذخیره شد
 male = مرد
@@ -329,6 +345,7 @@ profile-close = بستن
 profile-explanation = پیشرفت‌های خود را با استفاده از یک نمایه پیگیری کنید و به دقت بیشتر داده‌های صوتی ما کمک کنید.
 thanks-for-account = با تشکر از تایید حساب خود، اکنون اجازه دهید نمایه شما را بسازیم.
 why-demographic = چرا این موضوع اهمیت دارد؟
+why-demographic-explanation-2 = داده‌هایی مانند سن، جنسیت و لهجه که به‌طور ناشناس جمع‌آوری می‌شوند، کمک می‌کند تا اطلاعات صوتی مورداستفاده برای آموزش دقت موتورهای تشخیص گفتار را بهبود بخشند. نام کاربری و ایمیل شما هرگز با داده‌های ارسال‌شده شما مرتبط نمی‌شود و شما می‌توانید انتخاب کنید که آیا نام کاربری شما عمومی یا ناشناس باشد.
 accept-privacy = مشکلی با استفاده از این اطلاعات با توجه به توضیحاتی که در <privacyLink> خط‌مشی رازداری موزیلا </ privacyLink> داده شده ندارم
 accept-privacy-title = سیاست حفظ حریم خصوصی
 login-identity = شناسه ورود
@@ -339,29 +356,24 @@ download-profile = دریافت داده‌های من
 contribution-experience = تجربه مشارکت
 skip-submission-feedback = پرش از ارسال بازخورد
 skip-submission-description = در حین مشارکت در تکمیل بازخورد، پس از کلیک کردن روی «ارسال» بازخورد حذف خواهد شد. مشارکت به طور مستقیم با مجموعه پنج‌تایی بعدی ضبط شده‌ها یا اعتبارسنجی ادامه خواهد یافت.
-skip-submission-note = توجه: هنوز لازم است بین گفتن یا شنیدن یکی را انتخاب کنید تا نوع مشارکت را تغییر دهید.
+skip-submission-note = توجه: هنوز برای تغییر نوع مشارکت لازم است بین گفتن یا شنیدن یکی را انتخاب کنید.
 off = خاموش
 on = روشن
-avatar-clip-title = به نمایه خود یک صدا اضافه کنید
-change-your-avatar-clip = می‌خواهید کلیپ صوتی خود را تغییر دهید؟
-recording-in-progress = ضبط صدا در حال انجام است
-avatar-clip-recorded = حالا آواتار شما شامل یک کلیپ صوتی است!
-record-voice-wave = موج صدای ضبط شده
-retry-voice-wave-recording = تلاش مجدد
-re-record = ضبط دوباره
-delete-voice = حذف
-recording-voice-wave = در حال ضبط کردن
-delete-voice-clip = یا کلیپ صوتی را حذف کنید
-ready-to-upload = بارگذاری
-avatar-clip-fact = این یک واقعیت اثبات شده است که خوانندگان با دیدن لایه های صفحات با محتوا خواندنی دچار سردرگمی می شوند.
-recreate-voice = ایجاد کردن مجدد موج صدا
-cancel-avatar-clip-recording = لغو
-about-avatar-clip-recording = ایجاد کردن یک برش به عنوان تصویر نمایه خود. دیگران قادر به شنیدن برش صدای شما خواهند بود.
+help-accent = برای لهجه نیاز به کمک دارید؟
+help-accent-explanation = لهجه شما نحوه تلفظ کلمات است. این می‌تواند بر اساس محل زندگی شما، زبان‌های دیگری که صحبت می‌کنید و بسیاری از عوامل دیگر شکل بگیرد. می‌توانید هر اطلاعاتی را که فکر می کنید مرتبط است در اینجا به اشتراک بگذارید.
+
+## Profile - Email
+
 browse-file-title = یک تصویر بارگذاری کنید
 browse-file = کشیدن و رها کردن یا <browseWrap>مرور</browseWrap>
 connect-gravatar = اتصال به Gravatar
 gravatar_not_found = هیچ گراواتاری برای ایمیل شما یافت نشد
 file_too_large = پرونده انتخاب شده خیلی بزرگ است
+avatar-uploaded = نمایه بارگذاری شد
+max-file-size = حداکثر { $kb } کیلوبایت
+
+## Profile - Email
+
 manage-subscriptions = مدیریت اشتراک‌ها
 manage-email-subscriptions = مدیریت اشتراک پست الکترونیکی
 email-already-used = ایمیل پیش از این برای حساب دیگری استفاده شده است
@@ -432,6 +444,9 @@ about-subtitle = آواهای مشترک بخشی از ابتکار موزیلا
 about-header-description =
     هردوی این پروژه‌ها بخشی از تلاش‌های ما برای ایجاد پل  طبقه‌بندی گفتار دیجیتال هستند. فناوری‌های تشخیص صدا بعد انسانی را به دستگاه‌های ما می‌آورند، ولی توسعه‌دهندگان به مقدار عظیمی از داده‌ صوتی برای ساخت آنها نیاز دارند. درحال حاضر، بیشتر آن داده‌ها پرخرج و اختصاصی هستند.
     ما می‌خواهیم داده‌های صوتی را آزاد و برای همگان دردسترس قرار دهیم، و مطمئن شویم داده‌ها گوناگونی افراد واقعی را دارا می باشند. باهمدیگر می‌توانیم تشخیص صدای بهتری برای همه بسازیم.
+about-header-description-2 =
+    این پروژه یک تلاش برای پر کردن شکاف گفتار دیجیتالی است. فناوری‌های تشخیص صدا ابعاد انسانی را برای دستگاه‌های ما به ارمغان می‌آورد ، اما توسعه دهندگان برای ساخت آن‌ها به حجم عظیمی از داده‌های صوتی نیاز دارند. در حال حاضر، اکثر این داده‌ها گران و اختصاصی هستند.
+    ما می‌خواهیم داده‌های صوتی را آزادانه و در دسترس عموم قرار دهیم و مطمئن شویم که داده‌ها نشان دهندهٔ تنوع افراد واقعی است. با هم می‌توانیم تشخیص صدا را برای همه بهتر کنیم.
 how-does-it-work-title = چگونه کار می‌کند؟
 how-does-it-work-text = ما مجموعه داده‌های متن‌باز را از صداها جمع آوری می‌کنیم. صدای خود را اهدا کنید، دقت برش های صوتی دیگران را اعتبارسنجی کنید، مجموعه داده‌های بهتری برای همه بسازید.
 about-speak = صحبت کن
@@ -563,8 +578,7 @@ subscribe = عضویت
 get-started-speech = شروع کار با تشخیص گفتار
 other-datasets = دیگر مجموعه‌های داده صوتی
 feedback-q = نظری دارید؟
-deepspeech-info = داده‌های آواهای مشترک از موتور بررسی عمیق تشخیص صدای متن باز موزیلا بهره می‌برد که این امکان را به شما برای ساختن یک برنامه تشخیص صدا می‌دهد. <githubLink> صفحه اطلاعات گیتهاب </githubLink> ما را برای ورود به <discourseLink>گفتمان گفت‌ و گفت عمیق</discourseLink> مطالعه کنید و یادبگیرید چگونه آغاز کنید.
-common-voice-info-new = سوالی دربارهٔ آواهای مشترک دارید؟ ایده‌هایی برای بهبودسازی یا بازخوردهایی در مورد یک زبان خاص چطور؟ به <discourseLink>انجمن Discourse</discourseLink> ما بپیوندید و ما را آگاه کنید.
+resource-nemo-info = <githubLink> NVIDIA NeMo </githubLink>™ یک <docsLink> مجموعه ابزار متن باز </docsLink> برای محققانی است که در حال توسعه مدل‌های هوش مصنوعی پیشرفته هستند..
 data-other-librispeech-description = LibriSpeech یک قسمت تقریبا ۱۰۰۰ ساعتی از صوت 16Khz است که به زبان انگلیسی خوانده می‌شود و از کتاب‌های صوتی خوانده‌شده از پروژه LibriVox گرفته‌شده است.
 data-other-ted-name = مجموعه نوشته‌های TED-LIUM
 data-other-ted-description = مجموعه نوشته‌های TED-LIUM از گفتگو‌های صوتی و رونوشت‌های آن‌ها که در وب سایت TED در دسترس هستند، ساخته شده است.
@@ -758,6 +772,7 @@ show-ranking = نمایش رده بندی من
 
 get-started-goals = با اهداف شروع کنید
 create-custom-goal = یک هدف سفارشی بسازید
+goal-type = چه نوع هدفی را می‌خواهید بسازید؟
 both-speak-and-listen = هردو
 both-speak-and-listen-long = هردو (صحبت و شنیدن)
 daily-goal = هدف روزانه
@@ -824,6 +839,34 @@ why-delete-recordings =
     آیا می‎توانید به ما اطلاع دهید که چرا تمایل به حذف ضبط‎های خود دارید؟
 profile-form-delete = حذف نمایه
 
+## Profile Download
+
+download-q = نیاز به بارگیری داده‌های خود دارید؟
+download-info = آنچه را که می‌خواهید بارگیری کنید، به ما بگویید:
+download-profile-title = نمایه
+download-profile-size = چند بایت
+download-recordings-title = ضبط شده‌ها
+download-recordings-info = شامل mp3ها و جملات مرتبط است، ممکن است آماده شدن کمی طول بکشد
+download-recordings-size = معمولاً چند مگابایت
+download-recordings-unavailable = مادامی که درخواست دیگری در حال انجام است، نمی‌توانید ضبط‌های خود را درخواست کنید.
+download-recently-requested = می‌توانید هر { $days } روز یکبار ضبط‌های خود را درخواست دهید.
+download-size = اندازه
+download-selected = انتخاب شده
+download-start = بارگیری داده‌های نمایه
+download-request = درخواست ضبط‌ها
+download-requests = درخواست‌های بارگیری ضبط‌های گذشته
+download-requests-info = هنگامی که ضبط‌های خود را درخواست می‌کنید، ما آن‌ها را در یک یا چند فایل ZIP جمع آوری می کنیم. در اینجا درخواست‌های قبلی شما آمده است:
+download-request-button = بارگیری
+download-request-title = { $created }
+download-request-description = { $clipCount } کلیپ صوتی، { $size } اندازهٔ کل بایگانی. در { $expires } منقضی می‌شود.
+download-request-archive-single = یک فایل فشرده ZIP شامل
+download-request-archive-multiple = تقسیم به { $archiveCount } فایل ZIP حاوی
+download-request-assembling-description = فایل های شما در حال گردآوری هستند. لطفاً بعداً دوباره بررسی کنید.
+download-request-refresh-button = نوسازی
+download-request-modal-title = پیوندهای بارگیری
+download-request-modal-description = در اینجا پیوندهایی برای دریافت پرونده‌های ZIP شما وجود دارد.
+download-request-link-text = ‫Zip شماره { $offset } از { $total }
+
 ## Landing
 
 welcome-staff = کارمند { $company } خوش آمدید‍!
@@ -834,21 +877,146 @@ read-more-about = در صفحه درباره ما بیشتر بخوانید
 
 ## DemoLayout
 
+demo-get-started = بیاید شروع کنیم
 demo-welcome = به آواهای مشترک خوش آمدید
+demo-welcome-subheader = آیا علاقه‌مند به یادگیری بیش‌تر و مشارکت در پروژه هستید؟
 
 ## Demo Datasets
 
+demo-language-select-card-header = آواهای مشترک بزرگ‌ترین مجموعه‌ی داده‌های صوتی چند زبانه و عمومی در جهان است.
 card-button-next = بعدی
 card-button-back = عقب
 demo-language-select-label = زبان‌های مرورگر
+demo-eofy-header = انتشار پایان سال 2019
+demo-eofy-sub_header = مجموعه‌ی داده‌های صوتی آماده‌ی بارگیری‌ست
+demo-account = حساب
 
 ## Demo Account
 
+demo-account-card-header = برای مشارکت نیازی به داشتن حساب نیست؛ اگرچه مفید است.
+demo-account-enter-email =
+    .label = رایانامه خود را جهت ارسال لینک ثبت نام وارد نمایید
 demo-account-sign-up = ارسال پیوند عضویت
 
 ## Demo Contribute
 
+demo-contribute-card-header = آماده هستید صدای خود را اضافه کنید یا گوش خود را قرض دهید؟
 demo-listen-subtitle = آماده مشارکت هستید؟
 
 ## Demo Dashboard
+
+demo-dashboard-card-header = داشبوردهای شخصی، شما را با پیشرفت فردی و جمعی به‌روز نگه می‌دارد.
+
+## Validation criteria
+
+contribution-criteria-nav = معیار
+contribution-criteria-link = با معیارهای مشارکت آشنا شوید
+contribution-criteria-page-title = معیارهای مشارکت
+contribution-criteria-page-description = بدانید که هنگام گوش‌دادن به کلیپ‌های صوتی دنبال چه چیزی باشید و ضبط‌های خود را نیز بهتر کنید!
+contribution-for-example = برای مثال
+contribution-misreadings-title = خوانش‌های نادرست
+contribution-misreadings-description = هنگام گوش دادن، با دقت بررسی کنید که آنچه ضبط شده دقیقاً همان چیزی است که نوشته شده. حتی در صورت وجود خطاهای جزئی نیز رد کنید. <br /> اشتباهات بسیار رایج عبارتند از:
+contribution-misreadings-description-extended-list-4 = از دست رفتن انتهای آخرین واژه با قطع خیلی سریع ضبط.
+contribution-misreadings-description-extended-list-5 = چندین بار تلاش برای خواندن یک واژه.
+contribution-misreadings-example-3-title = دایناسورهای غول پیکر دوره تریا-.
+contribution-misreadings-example-3-explanation = [ضبط قبل از پایان واژه آخر قطع شد]
+contribution-misreadings-example-4-title = دایناسورهای غول پیکر دوره تریاس. آره.
+contribution-misreadings-example-4-explanation = [چیزی بیشتر از متن مورد نیاز ضبط شده است.]
+contribution-misreadings-example-5-title = می‌رویم بیرون قهوه بخوریم.
+contribution-misreadings-example-6-title = میریم بیرون قهوه بخوریم.
+contribution-misreadings-example-6-explanation = [باید «می‌رویم» باشد.]
+contribution-misreadings-example-7-title = می‌رویم بیرون تا یک قهوه‌ بخوریم.
+contribution-misreadings-example-7-explanation = [در متن اصلی "یک" قبل از قهوه وجود ندارد]
+contribution-varying-pronunciations-title = تلفظ های متفاوت
+contribution-varying-pronunciations-description = قبل از رد یک کلیپ دقت کنید. به این دلیل که خواننده کلمه ای را اشتباه یا با لهجه‌ای متفاوت تلفظ کرده، فشار صدا را در جای اشتباه ادا کرده یا ظاهراً علامت سوال را نادیده گرفته صدا را رد نکنید. مراقب باشید. در سراسر جهان انواع مختلفی از تلفظ‌ها در حال استفاده است که ممکن است برخی از آنها را در جامعه محلی خود نشنیده باشید. لطفاً کسانی که ممکن است متفاوت از شما صحبت کنند را نیز در نظر بگیرید.
+contribution-varying-pronunciations-description-extended = از طرف دیگر، اگر فکر می‌کنید که خواننده احتمالاً قبلاً هرگز با این کلمه برخورد نکرده است و صرفاً در تلفظ آن حدس نادرستی می‌زند، لطفاً رد کنید. اگر مطمئن نیستید، از دکمه پرش استفاده کنید.
+contribution-background-noise-title = نویز پس‌زمینه
+contribution-background-noise-description = ما می‌خواهیم الگوریتم‌های یادگیری ماشینی بتوانند انواع نویز پس‌زمینه را مدیریت کنند و حتی با وجود نویزهای نسبتاً بلند باز هم گفتار را تشخیص دهند، مشروط بر اینکه مانع از شنیدن کل متن نشود. وجود موسیقی پس زمینه آرام اشکالی ندارد اما موسیقی نباید آنقدر بلند باشد که شما را از شنیدن تک تک کلمات گفتار باز دارد.
+contribution-background-noise-description-extended = اگر ضبط شکسته شد، یا صدای ترق تروق داشت، آن را رد کنید، مگر اینکه هنوز تمامیت متن به درستی قابل شنیدن باشد.
+contribution-background-noise-example-1-fixed-title = <strong>[عطسه]</strong> دایناسورهای غول پیکر <strong>[سرفه]</strong> دوران تریاسه.
+contribution-background-noise-example-2-fixed-title = دیناسور غول پیکر <strong>[سرفه]</strong> دوران تریاسه.
+contribution-background-noise-example-2-explanation = [بخشی از متن شنیده نمی‌شود]
+contribution-background-voices-title = صداهای پس زمینه
+contribution-background-voices-example-1-title = دایناسورهای غول پیکر تریاس. <strong> [با یک صدا خوانده شود] </strong>
+contribution-background-voices-example-1-explanation = داری می‌آیی؟ <strong> [صدا زده شده توسط دیگری] </strong>
+contribution-volume-title = بلندی صدا
+contribution-volume-description = تفاوت‌های طبیعی در حجم و بلندی صدا در بین خوانندگان وجود خواهد داشت. فقط در صورتی که صدا آنقدر زیاد باشد که ضبط خراب شود، یا اگر آنقدر کم باشد که نتوانید بدون نگاه کردن به متن نوشته شده آنچه گفته می شود بشنوید، رد کنید.
+contribution-reader-effects-title = جلوه‌های خواننده
+contribution-reader-effects-description = بیشتر ضبط‌ها مربوط به افرادی است که با صدای طبیعی خود صحبت می‌کنند. شما می‌توانید لحن‌های غیر استانداردی را که فریاد می زنند، زمزمه می کنند یا آشکارا با صدای "دراماتیک" ارائه می‌شود، بپذیرید. اما صداهای شبیه آواز و آنهایی را که از صدای ساخته شده توسط رایانه استفاده می‌کنند رد کنید.
+contribution-just-unsure-description = ‌اگر به چیزی برخورد کردید که این دستورالعمل ها پوشش نمی‌دهد، لطفاً طبق بهترین قضاوت خود رأی دهید. اگر واقعاً نمی‌توانید تصمیم بگیرید، از دکمه پرش استفاده کنید و به ضبط بعدی بروید.
+see-more = <chevron> </chevron> بیشتر ببینید
+see-less = <chevron> </chevron> کمتر ببینید
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = خانه
+sc-header-how-to = چگونه
+sc-header-add = افزودن
+sc-header-review = بازبینی
+sc-header-rejected = جملات رد شده
+sc-header-my = جملات من
+sc-header-statistics = آمار
+sc-header-profile = نمایه
+sc-footer-report-bugs = گزارش مشکلات
+sc-footer-translate = ترجمه این صفحه
+sc-footer-privacy = حریم خصوصی
+sc-footer-terms = شرایط
+sc-footer-cookies = کوکی‌ها
+sc-login-signup-button = ورود / ثبت‌نام
+sc-logout-button = خروج
+
+## HOME
+
+sc-home-collect-title = گردآوری جملات
+sc-home-collect-text = با نوشتن یا گردآوری جملاتی در مالکیت عمومی به ما کمک کنید
+sc-home-review-title = بازبینی جملات
+sc-home-review-text = با بررسی جملات برای درستی‌شان مطابق دستورالعمل‌ها به ما کمک کنید.
+
+## HOW-TO
+
+sc-howto-title = چگونه
+sc-howto-addsen-title = افزودن جمله‌های جدید
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 

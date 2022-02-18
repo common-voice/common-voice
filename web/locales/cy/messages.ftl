@@ -36,9 +36,9 @@ ba = Bashkirs
 bas = Basaa
 be = Belarusieg
 bg = Bwlgareg
-bm = Bambara
 bn = Bengaleg
 br = Llydaweg
+bs = Bosnieg
 bxr = Buryat
 ca = Catalaneg
 cak = Kaqchikel
@@ -67,6 +67,7 @@ fy-NL = Ffriseg
 ga-IE = Gwyddeleg
 gl = Galisieg
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Hebraeg
 hi = Hindi
@@ -90,11 +91,14 @@ kab = Kabyle
 kbd = Kabardieg
 ki = Kikuyu
 kk = Casac
+km = Khmer
 kmr = Cwrdeg Kurmanji
+knn = Konkani (Devanagari)
 ko = Corëeg
 kpv = Komi-Zyrian
 kw = Cernyweg
 ky = Kyrgyz
+lb = Lwcsembwrgeg
 lg = Luganda
 lij = Ligurieg
 lt = Lithiuanieg
@@ -106,6 +110,7 @@ mhr = Mari Dwyreiniol
 mk = Macedoneg
 ml = Malayalam
 mn = Mongolieg
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Mari Gorllewinol
@@ -127,6 +132,8 @@ pap-AW = Papiamento (Aruba)
 pl = Pwyleg
 ps = Pashto
 pt = Portiwgaleg
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 ro = Rwmaneg
@@ -139,6 +146,7 @@ scn = Sisilieg
 shi = Shilha
 si = Sinhala
 sk = Slofaceg
+skr = Saraiki
 sl = Slofeneg
 so = Somali
 sq = Albaneg
@@ -150,7 +158,11 @@ ta = Tamil
 te = Telugu
 tg = Tajik
 th = Thai
+ti = Tigrinya
+tig = Tigre
+tk = Turkmen
 tl = Tagalog
+tok = Toki Pona
 tr = Twrceg
 tt = Tartareg
 tw = Twi
@@ -340,8 +352,13 @@ profile-form-native-language =
     .label = Iaith Frodorol
 profile-form-additional-language =
     .label = Iaith Ychwanegol
+profile-form-language =
+    .label = Iaith
 profile-form-accent =
     .label = Acen
+profile-form-custom-accent-help-text =
+    .label = Sut fyddech chi'n disgrifio'ch acen?
+profile-form-custom-accent-placeholder-2 = Cychwynnwch deipio i ddisgrifio'ch acen
 profile-form-age =
     .label = Oed
 profile-form-gender-2 =
@@ -352,6 +369,7 @@ hidden = Cudd
 visible = Gweladwy
 native-language =
     .label = Mamiaith
+profile-form-add-accent = Ychwanegwch acen o fath newydd "{ $inputValue }"
 profile-form-submit-save = Cadw
 profile-form-submit-saved = Wedi'u Cadw
 male = Gwryw
@@ -385,6 +403,8 @@ skip-submission-description = Wrth gyflwyno cyfraniadau bydd adborth y cael ei h
 skip-submission-note = Sylw: Bydd dal rhaid i chi ddewis rhwng Siarad neu Gwrando i newid y math o gyfraniad.
 off = Diffodd
 on = Ymlaen
+help-accent = Angen cymorth gydag acen?
+help-accent-explanation = Eich acen yw'r ffordd rydych chi'n ynganu geiriau. Mae'n cael ei ffurfio gan ble rydych chi wedi byw, pa ieithoedd eraill rydych chi'n eu siarad a llawer o ffactorau eraill. Gallwch chi rannu unrhyw wybodaeth rydych chi'n teimlo sy'n berthnasol yma.
 
 ## Profile - Email
 
@@ -440,7 +460,7 @@ faq-why-my-lang-q = Pam nad yw fy iaith wedi'i chynnwys eto?
 faq-why-my-lang-new-a = Nid yw Mozilla yn dewis nac yn ffafrio unrhyw iaith o flaen un arall. Yn lle hynny, mae Common Voice yn fenter sy'n cael ei yrru dim ond gan y gymuned, ond mae'n cymryd <multilangLink> sawl cam i ychwanegu iaith newydd </multilangLink> a dechrau casglu cyfraniadau llais. Yn gyntaf, mae angen cyfieithu gwefan y Common Voice er mwyn i aelodau'r gymuned gael mynediad i brofiad cyfrannwr yn eu hiaith eu hunain. Nesaf, mae arnom angen casgliad mawr o frawddegau heb hawlfraint i bobl eu darllen allan. Unwaith y bydd y ddau ofyniad hynny wedi'u bodloni, caiff iaith ei "lansio" ar Common Voice i bobl ddechrau recordio eu llais a dilysu cyfraniadau pobl eraill. Os hoffech chi helpu lansio iaith newydd, ewch draw i'n <sentenceCollectorLink>teclyn casglu brawddegau</sentenceCollectorLink>i gychwyn arni.
 faq-what-quality-q = Pa lefel o ansawdd sain sydd ei angen ar gyfer clip llais i'w ddefnyddio yn y set ddata?
 faq-what-quality-a = Rydyn eisiau i set ddata Common Voice adlewyrchu ansawdd sain y bydd peiriant llais-i-destun yn ei glywed yn gyffredin, felly rydym yn chwilio am amrywiaeth. Yn ogystal â chymuned amrywiol o siaradwyr, bydd set ddata gydag ansawdd sain amrywiol yn dysgu'r peiriant llais-i-destun i drin gwahanol sefyllfaoedd o'r byd go iawn, o gefndir gyda siarad i sŵn ceir. Cyn belled â bod eich clip llais yn ddealladwy, dylai fod yn ddigon da i'r set ddata.
-faq-why-10k-hours-q = Pam mae 10,000 awr wedi'i ddilysu y targed ar gyfer casglu sain iaith ?
+faq-why-10k-hours-q = Pam mae 10,000 awr wedi'u dilysu y targed ar gyfer casglu sain iaith ?
 faq-why-10k-hours-a = Dyma'n fras y nifer o oriau sydd eu hangen i hyfforddi cynnyrch system llais i destun.
 faq-how-calc-hours-q = Sut mae Common Voice yn cyfrifo oriau?
 faq-how-calc-hours-a = Rydym yn cyfrifo oriau trwy amcangyfrif hyd cyfartalog pob cofnod, ac yna lluosi'r rhif hwnnw gyda chyfanswm nifer y recordiadau ar draws yr holl ieithoedd.
@@ -469,15 +489,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Pam Common Voice?
-about-subtitle = Mae Common Voice yn rhan o fenter Mozilla i helpu i ddysgu peiriannau sut mae pobl go iawn yn siarad. Yn ogystal â set ddata Common Voice, rydym hefyd yn adeiladu peiriant adnabod lleferydd cod agored o'r enw Deep Speech.
-about-header-description =
-    Mae'r ddau brosiect hyn yn rhan o'n hymdrechion i bontio'r rhaniad lleferydd digidol. Mae technolegau adnabod llais yn dod â dimensiwn dynol i'n dyfeisiau, ond mae angen llawer iawn o ddata llais ar ddatblygwyr i'w hadeiladu. Ar hyn o bryd, mae'r rhan fwyaf o'r data hwnnw'n ddrud ac yn berchnogol.
-    Rydym am sicrhau bod data llais ar gael yn rhwydd ac yn gyhoeddus, a sicrhau bod y data'n cynrychioli amrywiaeth pobl go iawn. Gyda'n gilydd gallwn wneud adnabod llais yn well i bawb.
-about-header-description-2 =
-    Mae'r project hwn yn ymdrech i bontio'r rhaniad lleferydd digidol. Mae technolegau adnabod llais yn dod â dimensiwn dynol i'n dyfeisiau, ond mae angen llawer iawn o ddata llais ar ddatblygwyr i'w hadeiladu. Ar hyn o bryd, mae'r rhan fwyaf o'r data hwnnw'n ddrud ac yn berchnogol.
-    Rydym am sicrhau bod data llais ar gael yn rhwydd ac yn gyhoeddus, a sicrhau bod y data'n cynrychioli amrywiaeth pobl go iawn. Gyda'n gilydd gallwn wneud adnabod llais yn well i bawb.
-how-does-it-work-title = Sut mae'n gweithio?
+about-header-description-v2 =
+    <p>Mae Common Voice yn set ddata llais sydd ar gael yn gyhoeddus, wedi'i phweru gan leisiau cyfranwyr gwirfoddol ledled y byd. Gall pobl sydd eisiau adeiladu rhaglenni llais ddefnyddio'r set ddata i hyfforddi modelau dysgu peirianyddol.</p>
+    <p>Ar hyn o bryd, cwmnïau sy’n berchen ar y rhan fwyaf o setiau data llais, sy’n rhwystro arloesedd. Mae setiau data llais hefyd yn gorgynrychioli gwrywod gwyn, Saesneg eu hiaith. Mae hyn yn golygu nad yw technoleg llais yn gweithio o gwbl ar gyfer llawer o ieithoedd a lle mae'n gweithio, efallai na fydd yn perfformio cystal i bawb. Rydyn ni eisiau newid hynny trwy annog pobl ym mhobman i rannu eu llais.</p>
+how-does-it-work-title-v2 = Sut mae Common Voice yn gweithio?
 how-does-it-work-text = Rydym yn torfoli set ddata cod agored o leisiau. Rhowch eich llais, dilyswch gywirdeb clipiau pobl eraill, gwnewch y set ddata yn well i bawb.
+
+## How does it work section
+
+about-language-req-subtitle = Mae rhywun yn gofyn i ychwanegu iaith.
+about-localization-title = Lleoleiddio'r Wefan
+about-localization-subtitle = Mae testun y wefan yn cael ei gyfieithu i'r iaith honno.
+about-sentence-collection-title = Casglu Brawddegau
+about-sentence-collection-subtitle = Mae brawddegau'n cael eu casglu i bobl eu darllen yn uchel.
+about-new-lang-title = Lansio Iaith Newydd
+about-new-lang-subtitle = Rydym yn lansio gwefan Common Voice yn yr iaith hon.
+about-voice-contrib-title = Cyfrannu Lleisiau
+about-voice-contrib-subtitle = Mae pobl yn dod i gyfrannu eu lleisiau.
+about-voice-validation-title = Dilysu Lleisiau
+about-voice-validation-subtitle = Mae pobl eraill yn dilysu'r clipiau llais hynny.
+about-dataset-release-title = Rhyddhau Setiau Data
+about-dataset-release-subtitle = Rydyn ni'n rhyddhau'r setiau data bob 3 mis.
+about-subscribe-text = Eisiau cadw mewn cysylltiad â Common Voice?
 about-speak = Siarad
 about-speak-text = Mae cyfranwyr yn recordio clipiau llais trwy ddarllen o gronfa o frawddegau a gyfrannwyd.
 about-listen-queue = Ciw Gwrando
@@ -506,10 +539,94 @@ about-get-involved-text-2 =
     Gwych! Cysylltwch trwy e-bost neu ar <discourseLink>Discource</discourseLink>,
     cyflwynwch adborth trwy <githubLink>GitHub</githubLink>, neu ymuno â ni
     ar lwyfan sgwrsio cymdeithasol <matrixLink>Matrix</matrixLink>
+about-stay-in-touch = Sut ydw i'n cadw mewn cysylltiad?
+about-stay-in-touch-text-1 = <emailFragment>Cofrestrwch</emailFragment> i'n rhestr bostio i wybod sut y gallwch chi gymryd rhan mewn ymgyrchoedd, digwyddiadau ac i gyd-ddylunio nodweddion ar Common Voice.
+about-stay-in-touch-text-2 = Gallwch gwrdd ag eraill yng nghymunedau iaith Mozilla drwy ymuno â <discourseLink>Discourse</discourseLink> am sgyrsiau amserol, neu <matrixLink>Matrix</matrixLink> am gyngor cyflym.
 about-nav-why-common-voice = Pam ?
 about-nav-how-it-works = Sut ?
 about-nav-partners = Partneriaid
 about-nav-get-involved = Ymunwch
+about-nav-how-it-works-2 = Sut mae Common Voice yn gweithio?
+about-nav-playbook = Dyma sut mae cymryd rhan
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Beth yw iaith ar Common Voice?
+about-playbook-what-is-language-content-1 = Mae yna lawer o ffyrdd i feddwl am iaith. At ddibenion modelau adnabod lleferydd, mae Common Voice yn awgrymu canolbwyntio ar ‘gyd-ddealltwriaeth’, neu ‘a all siaradwyr yr iaith hon ddeall ei gilydd os ydynt yn ceisio gwneud hynny?’
+about-playbook-what-is-language-content-2 = Rydym am i fodelau lleferydd fod yn well am ddeall ystod amrywiol o siaradwyr. Er mwyn i hyn ddigwydd, rhaid i set ddata llais gynrychioli llawer o wahanol bobl.
+about-playbook-what-is-language-content-3 = Mae rhai ieithoedd yn amrywio'n fawr o ran gramadeg, geirfa ac ynganiad. Am y rheswm hwn, rydym yn <ctaLink>yn cyflwyno ‘Amrywiadau’</ctaLink> yn 2022. Mae hyn yn rhoi ffordd i gymunedau wahaniaethu eu hieithoedd o fewn y set ddata fwy.
+
+## How do I add a language
+
+about-playbook-how-add-language = Sut mae modd i mi ychwanegu iaith?
+about-playbook-how-add-language-content-1 = Yn gyntaf, edrychwch i weld a yw eich iaith <languageLink>yn bodoli eisoes</languageLink>. Os nad ydyw, mae angen <strong>cyfieithu'r wefan a chasglu brawddegau</strong>.
+about-playbook-how-add-language-content-2 = <strong>I gyfieithu'r wefan</strong> - mae angen <translateVideo>eich gosod</translateVideo> ar <pontoonLink>Pontoon</pontoonLink>. Mae llawer o ieithoedd ar Pontoon, ond os nad yw eich un chi yno gallwch <pontoonRequestLink>ofyn iddi gael ei gosod yno</pontoonRequestLink>. Yna gofynnwch <repoLink>trwy GitHub</repoLink> i drefnu bod project Common Voice ar gael ar gyfer yr iaith. Mae rhagor i'w weld ar <localizationFragment>cyfieithu gwefan</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>I gasglu brawddegau</strong> - <scVideo>bydd angen i chi osod eich iaith</scVideo> ar y <scLink>Casglwr Brawddegau</scLink>.
+about-playbook-how-add-language-content-4 = Gallwch <scLinkAdd>ychwanegu niferoedd bach</scLinkAdd> o frawddegau yma, neu <bulkImportDocsLink>fewnforio swmp</bulkImportDocsLink> drwy gais Github. Cofiwch fod angen i frawddegau fod yn <licenseLink>CC0 (neu barth cyhoeddus)</licenseLink>, neu gallwch ysgrifennu rhai eich hun. Dyma ragor am <scFragment>gasglu brawddegau</scFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Sut mae lleoleiddio'r wefan?
+about-playbook-how-localize-content-1 = Mae cyfieithu gwefan Common Voice yn digwydd ar <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Crëwch gyfrif</pontoonAccountLink> os nad oes gennych un eisoes. Yna, dewiswch <strong>(‘Tîm’)</strong> eich iaith ac yna dewiswch y project, <pontoonCvLink>Common Voice</pontoonCvLink>. Bydd ffeiliau yno i'w cyfieithu. Cliciwch ar un, yna mae'n dangos y testun yn Saesneg a blwch i'r cyfieithu.
+about-playbook-how-localize-content-3 = Mae'r cyfieithiad o'r Saesneg, ond gallwch weld <strong>Awgrymiadau</strong> mewn ieithoedd eraill. Cliciwch yr eicon <strong>Profile</strong>, yna dolen <strong>Settings</strong> ac ychwanegwch unrhyw ieithoedd rydych chi'n eu siarad. Yn y gornel dde ar y gwaelod bydd rhestr o gyfieithiadau o'r enw <strong>Locales</strong>. Bydd y cyfieithiadau'n ymddangos ar y wefan ar y diwrnod canlynol.
+about-playbook-how-localize-content-4 = Mae'r wefan yn barod i'w lansio pan fydd 75% wedi'i gwblhau.
+about-playbook-how-localize-content-5 = Gwyliwch ein fideo esboniadol i'ch helpu
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Sut ydw i'n ychwanegu brawddegau?
+about-playbook-how-add-sentences-content-1 = Mae'r <strong>Casglwr Brawddegau </strong> yn offeryn ar gyfer casglu a dilysu brawddegau parth cyhoeddus. Bydd angen i chi <scAccountLink>greu cyfrif</scAccountLink>. Yna, ychwanegwch eich iaith at eich <strong>Proffil</strong>. Gallwch <strong>Ychwanegu</strong> brawddegau neu <strong>Adolygu</strong> brawddegau a ychwanegwyd yn flaenorol.
+about-playbook-how-add-sentences-content-2 = Rhaid i frawddegau gael eu hadolygu a'u derbyn gan ddau berson i'w cynnwys yn Common Voice. Rydych chi'n creu canllawiau ar gyfer eich iaith <languageGuidelinesLink>yma</languageGuidelinesLink>. Rhaid i frawddegau fod yn y <licenseLink>parth cyhoeddus</licenseLink> ac yn llai na 15 gair. Gallwch ofyn i berchennog neges destun ei wneud yn <waiverLink>CC0 gan ddefnyddio ein proses hepgor</waiverLink>, a'i anfon atom ar commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Gallwch ddefnyddio'r <scraperLink>Echdynnwr Brawddeg</scraperLink> i dynnu brawddegau byr o Wicipedia.
+about-playbook-how-add-sentences-content-4 = Mae brawddegau sydd wedi'u dilysu yn cael eu hallforio ar ddydd Mercher, a byddan nhw ar gael ar ôl y ryddhad nesaf.
+
+## How to record quality
+
+about-playbook-how-record-quality = Sut mae recordio clip llais o ansawdd uchel?
+about-playbook-how-record-content-1 = Siaradwch yn eich llais arferol! Mae croeso i’ch ffordd chi o siarad yma – rydyn ni eisiau’ch acen fel ag y mae, ac rydyn ni eisiau maint eich llais, arddull a thonyddiaeth arferol.
+about-playbook-how-record-content-2 = Osgowch gormod o sŵn cefndir - dylai fod yn hawdd eich clywed.
+about-playbook-how-record-content-3 = Darllenwch y frawddeg yn ofalus - peidiwch â cholli, newid nac ychwanegu geiriau.
+about-playbook-how-record-content-4 = Gwnewch yn siŵr bod y platfform yn recordio cyn i chi ddechrau siarad, a dim ond ar ôl i chi orffen y bydd yn stopio.
+about-playbook-how-record-content-5 = <accuracyLink>Gweld rhagor am gyfrannu'n effeithiol.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Sut gallwn ni fod yn effeithiol yn tyfu ein hiaith ar Common Voice?
+about-playbook-how-grow-language-content-1 = Mae creu cyfleoedd i amrywiaeth o bobl gyfrannu at Common Voice yn sicrhau bod y set ddata yn gwasanaethu cymaint o bobl â phosibl. Rydyn ni wedi creu adnoddau a thempledi y gallwch chi eu defnyddio!
+about-playbook-how-grow-language-content-2 = Digwyddiadau
+about-playbook-how-grow-language-content-3 = Gallwch gynnal digwyddiadau i helpu pobl i gyfrannu. Mae'n haws nag yr ydych chi'n ei feddwl. Fe allech chi ei wneud ar-lein gydag offer fideo-gynadledda, neu yn bersonol os yw'n ddiogel. <eventTemplate>Edrychwch ar ein templedi a'n hadnoddau ar gyfer rhedeg digwyddiadau</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Cyfryngau cymdeithasol
+about-playbook-how-grow-language-content-5 = Gallwch ddefnyddio llwyfannau cyfryngau cymdeithasol i ledu'r neges. Rhannwch negeseuon sy'n esbonio pam ei fod yn bwysig, a chysylltwch â phobl eraill i siarad am faterion fel hawliau iaith, dellusrwydd artiffisial llais neu ragfarn o fewn technoleg. Dyma ragor o gyngor ar gael ar sut i <campaignLink>gynnal ymgyrch gymdeithasol, gan gynnwys cynnwys y gallwch ei ailddefnyddio</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partneriaethau a rhwydweithiau
+about-playbook-how-grow-language-content-7 = Dewch o hyd i eraill sy'n frwdfrydig. Gall hynny fod yn brifysgolion, ysgolion iaith, grwpiau eiriolaeth neu gymunedau gwyddor data. Cysylltwch ac eglurwch yn glir sut y gallan nhw helpu a pham. <outreachTemplates>Edrychwch ar ein templedi e-byst chwilio am gymorth</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Byddwch yn greadigol!</strong> Bydd eich cymuned iaith yn unigryw - dyma rhai ffyrdd i ddechrau arni.
+
+## How to validate
+
+about-playbook-how-validate = Sut ydw i'n gwybod pryd i gymeradwyo clipiau llais?
+about-playbook-how-validate-content-1 = Os ydych chi'n gallu <strong>eu clywed</strong> a'u <strong>deall nhw</strong>, fel arfer <strong>mae'n well eu cymeradwyo</strong>.
+about-playbook-how-validate-content-2 = <strong>Peidiwch â gwrthod clipiau lle mae gan y siaradwr ‘acen’ sy’n wahanol i’ch un chi</strong> - mae hyn yn bwysig er mwyn i adnabod lleferydd weithio’n well i bawb.
+about-playbook-how-validate-content-3 = Os ydych chi'n meddwl bod yr ynganiad yn ei gwneud hi'n <strong>amhosib ei ddeall</strong>, neu os oes yna <strong>lawer o sŵn cefndir</strong>, neu os oes <strong>pobl eraill yn siarad hefyd</strong>, yna chi dylech chi wrthod y clip. <ccuracyLink>Rhagor o wybodaeth yn ein meini prawf cywirdeb</accuracyLink>.
+about-playbook-how-validate-content-4 = Os yw clip yn cael ei wrthod gan 2 berson, caiff ei ryddhau mewn is-set arall o'r set ddata.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Sut mae cael mynediad at a defnyddio'r set ddata?
+about-playbook-how-access-dataset-content-1 = Gallwch fynd i'r <datasetsPage>dudalen setiau data</datasetsPage>, dewis y fersiwn a'r iaith(ieithoedd) rydych chi eu heisiau, a'i llwytho i lawr! Mae gan y ffeiliau <metadataLink>metadata cysylltiedig</metadataLink>, megis gwybodaeth ddemograffig a data dilysu. Bydd angen i chi ddarparu cyfeiriad e-bost i lwytho'r set ddata i lawr.
+about-playbook-how-access-dataset-content-2 = Os ydych chi'n chwilio am offer i adeiladu modelau ASR, gallwch chi gysylltu â phobl eraill yn y gymuned <discourseLink>ar Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Sut mae penderfyniadau project yn cael eu gwneud?
+about-playbook-how-project-governance-content-1 = Mae Common Voice Mozilla yn bosibl oherwydd cymuned amrywiol o weithredwyr, ieithyddion, gwyddonwyr data, academyddion a pheirianwyr meddalwedd o bob rhan o'r byd. Mae'r project yn cael ei stiwardio gan y Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Mae ein llywodraethu wedi’i seilio ar:
+about-playbook-how-project-governance-content-3 = Breifatrwydd, diogelwch a thryloywder.
+about-playbook-how-project-governance-content-4 = Cyfranogiad a penderfyniadau cymunedol.
+about-playbook-how-project-governance-content-5 = Gwerth a chydnabyddiaeth.
+about-playbook-how-project-governance-content-6 = Atebolrwydd ar y cyd.
+about-playbook-how-project-governance-content-7 = <governanceLink>Darllenwch ragor am sut rydyn ni'n cael ein llywodraethu</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Deallusrwydd artiffisial
 mycroft-description =
@@ -1006,8 +1123,8 @@ demo-dashboard-card-body = Ar gyfer pob clip llais sy'n cael ei gyfrannu, a phob
 ## Validation criteria
 
 contribution-criteria-nav = Meini Prawf
-contribution-criteria-link = Deall y meini prawf cyfrannu
-contribution-criteria-page-title = Meini Prawf Cyfrannu
+contribution-criteria-link = Sut mae cyfrannu'n effeithiol
+contribution-criteria-page-title = Cyfrannu'n Effeithiol
 contribution-criteria-page-description = Deall beth i chwilio amdano wrth wrando ar glipiau llais ac i helpu i wneud eich recordiadau llais yn gyfoethocach!
 contribution-for-example = er enghraifft
 contribution-misreadings-title = Camddarllen
@@ -1058,3 +1175,374 @@ contribution-just-unsure-title = Dal Ddim yn Siŵr?
 contribution-just-unsure-description = Os dewch chi ar draws rhywbeth nad yw'r canllawiau hyn yn ei gynnwys, defnyddiwch eich synnwyr cyffredin. Os nad ydych yn gallu penderfynu go iawn, defnyddiwch y botwm hepgor a mynd ymlaen i'r recordiad nesaf.
 see-more = <chevron></chevron>Gweld rhagor
 see-less = <chevron></chevron>Gweld llai
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Cartref
+sc-header-how-to = Sut mae gwneud
+sc-header-add = Ychwanegu
+sc-header-review = Adolygu
+sc-header-rejected = Brawddegau wedi'u Gwrthod
+sc-header-my = Fy Mrawddegau i
+sc-header-statistics = Ystadegau
+sc-header-profile = Proffil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Adrodd ar Wallau
+sc-footer-translate = Cyfieithu'r dudalen hon
+sc-footer-report-copyright = Adrodd ar fater hawlfraint
+sc-footer-privacy = Preifatrwydd
+sc-footer-terms = Amodau
+sc-footer-cookies = Cwcis
+sc-login-signup-button = Mewngofnodi / Cofrestru
+sc-logout-button = Allgofnodi
+
+## HOME
+
+sc-home-title = Croeso i Gasglwr Brawddegau Common Voice
+sc-home-intro = Mae'r Casglwr Brawddegau yn rhan o </commonVoiceLink>Common Voice</commonVoiceLink>. Mae'n caniatáu i gyfranwyr gasglu a dilysu brawddegau a grëwyd gan y gymuned. Gallwch ddefnyddio'r teclyn hwn hefyd i fewnforio a glanhau corpws bach i ganolig yn y parth cyhoeddus rydych chi wedi'i ddarganfod neu ei gasglu. Rhaid i bob brawddeg fod yn rhai Parth Cyhoeddus. Mae brawddegau cymeradwy yn cael eu hallforio bob wythnos i storfan Common Voice ac yn cael eu rhyddhau i wefan Common Voice fesul sypynnau newydd.
+sc-home-collect-title = Casglu brawddegau
+sc-home-collect-text = Helpwch ni trwy ysgrifennu neu gasglu brawddegau o'r Parth Cyhoeddus.
+sc-home-review-title = Adolygu brawddegau
+sc-home-review-text = Helpwch ni trwy adolygu brawddegau i sicrhau eu cywirdeb yn unol â'r canllawiau.
+
+## GENERAL
+
+sc-languages-fetch-error = Methwyd ag estyn yr ieithoedd sydd ar gael. Nid yw'n bosibl cyfrannu ar hyn o bryd. Rhowch gynnig arni eto'n nes ymlaen.
+
+## HOW-TO
+
+sc-howto-title = Sut mae...
+sc-howto-addlang-title = Ychwanegu ieithoedd i weithio arnyn nhw
+sc-howto-addlang-text = Ar ôl mewngofnodi gallwch ddewis eich ieithoedd o'r adran proffil.
+sc-howto-addsen-title = Ychwanegu brawddegau newydd
+sc-howto-addsen-item-1 = Rhaid i'r holl frawddegau rydych yn eu cyflwyno fod o dan drwydded <wikipediaLink>Parth Cyhoeddus (CC-0)</wikipediaLink>. Er mwyn cefnogi cynnwys gwaith nad yw o dan drwydded gyhoeddus, rydym wedi creu <cc0WaiverLink>templed Cytundeb Cyfraniadau</cc0WaiverLink> ar gyfer gwaith lle hoffai perchennog yr hawlfraint gyfrannu'r deunydd i Common Voice.
+sc-howto-addsen-item-2 = Rhifau. Dylai fod dim digidau yn y testun ffynhonnell oherwydd maen nhw'n gallu achosi problemau wrth eu darllen yn uchel. Mae'r ffordd y mae rhif yn cael ei ddarllen yn dibynnu ar y cyd-destun a gall gyflwyno dryswch yn y set ddata. Er enghraifft, mae modd darllen y rhif “2409” yn gywir fel “dau pedwar dim naw” a “dwy fil pedwar cant a naw”.
+sc-howto-addsen-item-3 = Talfyriadau ac Acronymau. Mae'n bwysig osgoi byrfoddau ac acronymau fel “UDA” neu “S4C” yn y testun ffynhonnell oherwydd bod modd eu darllen mewn ffordd nad yw'n cyd-fynd â'u sillafu. Yn ogystal, gall fod nifer o ddarlleniadau cywir ar gyfer un talfyriad. Er enghraifft, mae modd ynganu'r acronym “S4C” yn “S4C” neu fel Sianel 4 Cymru.
+sc-howto-addsen-item-4 = Atalnodi. Dim ond pan fydd hynny'n hollol angenrheidiol y dylid cynnwys symbolau ac atalnodi arbennig. Er enghraifft, mae collnod yn cael ei gynnwys mewn geiriau Cymraeg fel “mae'r” a “wedi'u” ac mae angen ei gynnwys yn y testun ffynhonnell, ond mae'n annhebygol y bydd angen symbol arbennig fel “@” neu “#” arnoch chi.
+sc-howto-addsen-item-5 = Llythrennau estron. Rhaid i lythrennau fod yn ddilys yn yr iaith sy'n cael ei siarad. Er enghraifft, llythyren yn yr wyddor Rwsiaidd yw “ж” ond nid yw byth yn cael ei defnyddio yn Gymraeg ac felly dylai fyth ymddangos mewn unrhyw destun ffynhonnell Cymraeg.
+sc-howto-addsen-item-6 = Gall ieithoedd gael eu <validationRulesLink>rheolau dilysu</validationRulesLink> eu hunain gyda gofynion ychwanegol. Os nad oes ffeil ddilysu benodol ar gyfer iaith, rydym yn defnyddio'r rheolau Cymraeg generig.
+sc-howto-addsen-post-1 = Mae'n well gennym frawddegau naturiol/sgwrsiol. Er bod amrywiaeth ffonetig a geiriau gwahanol mewn brawddegau yn bwysig, rydym yn ceisio gwneud recordio brawddegau yn gymaint o hwyl â phosibl. Felly byddai'n wych pe gallech chi geisio cadw'ch brawddegau mor naturiol/diddorol â phosibl.
+sc-howto-cite-title = Sut i Ddyfynnu
+sc-howto-cite-pre-1 = Mae'n bwysig eich bod yn dweud ble y daethoch o hyd i'r drwydded gyhoeddus er mwyn osgoi llên-ladrad ac i ganiatáu ar gyfer y camau dilynol ar <copyrightIssuesLink>faterion hawlfraint</copyrightIssuesLink>. Dyma rai ffyrdd y gallwch chi ddyfynnu'r gwaith.
+sc-howto-cite-item-1 = Fe allech chi gynnwys y wefan, e.e. "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Fe allech chi ddefnyddio arddull cyfeirio Academaidd, e.e. arddull harvard "Mozilla (2021) Common Voice. Ar gael yn https://commonvoice.mozilla.org/ (Cyrchwyd: 15fed Medi 2021)"
+sc-howto-cite-item-3 = Ar gyfer testun trwydded gyhoeddus nad yw ar gael ar-lein, fe allech chi ddefnyddio arddull cyfeirio Academaidd e.e. arddull harvard "Jess (2021) Fy ngherddi trwydded gyhoeddus i"
+sc-howto-review-title = Adolygu Brawddegau
+sc-howto-review-subtitle = Gwnewch yn siŵr fod y frawddeg yn cwrdd â'r meini prawf canlynol:
+sc-howto-review-criteria-1 = Rhaid fod y frawddeg wedi ei sillafu'n gywir.
+sc-howto-review-criteria-2 = Rhaid i'r frawddeg fod yn ramadegol gywir.
+sc-howto-review-criteria-3 = Rhaid i'r frawddeg fod yn hawdd ei hynganu.
+sc-howto-review-criteria-4 = Os yw'r frawddeg yn cwrdd â'r meini prawf, cliciwch y botwm "Cymeradwyo".
+sc-howto-review-criteria-5 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf uchod, cliciwch y botwm "Gwrthod". Os ydych chi'n ansicr ynghylch y ddedfryd, gallwch hefyd ei hepgor a symud ymlaen i'r un nesaf.
+sc-howto-review-criteria-6 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu mwy o frawddegau!
+sc-howto-findpd-title = Dod o hyd i frawddegau Parth Cyhoeddus sy'n bodoli eisoes
+sc-howto-findpd-subtitle = Chwilio amdanyn nhw ar y rhyngrwyd
+sc-howto-findpd-text-2 = Cofiwch fod angen caniatâd arnom i gyhoeddi'r brawddegau hynny, felly gwnewch yn siŵr fod y testun yn perthyn i'r <wikipediaLink>parth cyhoeddus</wikipediaLink>. Os nad oes arwydd penodol, cysylltwch â'r person y mae'r testun yn perthyn iddi/iddo a gofyn a ydyn nhw am gyfrannu eu testun i'r Parth Cyhoeddus. Os ydyn nhw eisiau, helpwch nhw i fynd trwy'r broses <cc0WaiverLink>Cytundeb Cyfraniadau</cc0WaiverLink>. Os nad ydyn nhw am gyfrannu'r testun, yna chewch chi *DDIM* defnyddio'r testun hwnnw.
+sc-howto-findpd-tips = Dyma rai awgrymiadau wrth geisio dod o hyd i frawddegau:
+sc-howto-findpd-tips-1 = Y llefydd gorau i edrych amdanyn nhw yw podlediadau, trawsgrifiadau, sgriptiau ffilm ac unrhyw beth sydd â'r potensial i gynnwys sgyrsiau bob dydd.
+sc-howto-findpd-tips-2 = Mae trafodion llywodraeth, llyfrau ac erthyglau hefyd yn wych ond gan fod y testun yn tueddu i fod ychydig yn fwy ffurfiol maen nhw'n llai o flaenoriaeth.
+sc-howto-findpd-tips-3 = Yn anffodus, nid oes modd i ni ddefnyddio erthyglau Wikimedia eto. Felly peidiwch â chopïo a gludo oddi yno.
+sc-howto-findpd-subtitle-2 = Partneru gyda sefydliadau neu unigolion lleol
+sc-howto-findpd-partner-1 = Mae yna lawer o sefydliadau cyhoeddus a allai fod eisiau cydweithio ac sydd eisoes â llawer o destunau y gallan nhw eu rhoi fel parth cyhoeddus. Cysylltwch â'ch Prifysgolion, Llywodraethau a sefydliadau cod agored lleol i siarad am y project a gofyn am eu cymorth.
+sc-howto-findpd-partner-2 = Gall ieithyddion arbenigol hefyd helpu, felly ceisiwch gysylltu â Phrifysgolion sydd ag adrannau ieithyddol yn lleol (athrawon a myfyrwyr fel ei gilydd) a gweld a fyddan nhw'n gallu helpu i gasglu set amrywiol o frawddegau sain-amrywiol yn eich iaith.
+
+## MY SENTENCES
+
+sc-my-title = Fy Mrawddegau i
+sc-my-description = Mae'r dudalen hon yn rhoi trosolwg i chi o'r holl frawddegau rydych chi wedi'u cyflwyno. Gallwch hefyd ddileu brawddegau a gyflwynwyd eisoes os oes angen gwneud hynny trwy farcio'r blwch ticio wrth eu hymyl a chlicio ar &quot;Dileu'r brawddegau hyn&quot; ar y gwaelod. Peidiwch â dileu brawddegau oni bai bod hynny'n hollol angenrheidiol, er enghraifft, os ydych chi wedi sylwi wedyn bod brawddeg wedi'i diogelu gan hawlfraint.
+sc-my-loading = Yn llwytho'ch brawddegau...
+sc-my-err-fetching = Gwall wrth estyn eich brawddegau. Ceisiwch eto.
+sc-my-no-sentences = Heb ganfod unrhyw frawddegau!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Cyflwyniadau: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Ffynhonnell: { $source }
+sc-my-delete = Dileu'r brawddegau hyn
+sc-my-deleting = Yn dileu'r brawddegau hyn…
+sc-my-err-failed-delete = Wedi methu dileu'r brawddegau hyn... Rhowch gynnig arall arni!
+
+## REJECTED
+
+sc-rejected-title = Brawddegau wedi'u Gwrthod
+sc-rejected-loading = Yn llwytho'r brawddegau wedi'u gwrthod...
+sc-rejected-err-fetching = Gwall wrth estyn y brawddegau wedi'u gwrthod. Ceisiwch eto.
+sc-rejected-none-found = Heb ganfod unrhyw  frawddegau wedi'u gwrthod!
+
+## STATS
+
+sc-stats-title = Ystadegau
+sc-stats-updating = Yn diweddaru…
+sc-stats-error = Nid oedd modd estyn yr ystadegau. Ceisiwch eto'n hwyrach.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Mae'r Casglwr Brawddegau Common Voice wedi casglu { $sentenceCount } brawddeg mewn { $languageCount } iaith!
+
+## ADD
+
+sc-submit-err-select-lang = Dewiswch iaith.
+sc-submit-err-add-sentences = Ychwanegwch frawddegau.
+sc-submit-err-add-source = Ychwanegwch ffynhonnell.
+sc-submit-err-confirm-pd = Cadarnhewch fod y brawddegau hyn yn rhai parth cyhoeddus.
+sc-submit-prompt =
+    .message = Nid ydych wedi cyflwyno brawddegau, ydych chi'n siŵr eich bod chi eisiau  gadael?
+sc-submit-title = Ychwanegu Brawddegau
+sc-submit-select-language =
+    .labelText = Dewiswch Iaith
+sc-submit-add-sentences = Ychwanegwch frawddegau <wikipediaLink>parth cyhoeddus</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Un frawddeg i linell
+sc-submit-from-where = O ble daw'r brawddegau <wikipediaLink>parth cyhoeddus</wikipediaLink> hyn?
+sc-submit-ph-read-how-to =
+    .placeholder = Darllenwch ein Sut mae gwneud, os nad ydych yn siŵr sut i gyfeirio
+sc-submit-confirm = Rwy'n cadarnhau bod y brawddegau hyn yn rhai <wikipediaLink>parth cyhoeddus</wikipediaLink> ac mae gen i ganiatâd i'w llwytho i fyny.
+sc-submit-button =
+    .submitText = Cyflwyno
+sc-submit-filtered = Brawddegau wedi'u didoli oherwydd bod rhai gofynion wedi methu (cyflwynwch fersiynau cywir fel brawddegau newydd):
+sc-submit-guidelines = Darllenwch y <howToLink>canllawiau</howToLink>.
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Methu ychwanegu iaith
+sc-add-lang-sec-label = Ychwanegwch iaith rydych eisiau cyfrannu ati
+sc-add-lang-sec-button = Ychwanegu Iaith
+sc-add-err-unexpected = Dychwelwyd ymateb annisgwyl gan y gweinydd
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Brawddegau a gyflwynwyd. { $duplicates } brawddegau wedi'u gwrthod fel rhai dyblyg.
+        [zero] Brawddegau a gyflwynwyd. { $duplicates } brawddegau wedi'u gwrthod fel rhai dyblyg.
+        [one] Brawddegau a gyflwynwyd. { $duplicates } brawddeg wedi'i wrthod fel un dyblyg.
+        [two] Brawddegau a gyflwynwyd. { $duplicates } frawddeg wedi'u gwrthod fel rhai dyblyg.
+        [few] Brawddegau a gyflwynwyd. { $duplicates } brawddeg wedi'u gwrthod fel rhai dyblyg.
+        [many] Brawddegau a gyflwynwyd. { $duplicates } brawddeg wedi'u gwrthod fel rhai dyblyg.
+       *[other] Brawddegau a gyflwynwyd. { $duplicates } brawddeg wedi'u gwrthod fel rhai dyblyg.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Dim brawddeagau wedi methu
+        [zero] Dim brawddeagau wedi methu
+        [one] Methodd 1 brawddeg
+        [two] Methodd { $sentences } frawddeg
+        [few] Methodd { $sentences } brawddeg
+        [many] Methodd { $sentences } brawddeg
+       *[other] Methodd { $sentences } brawddeg
+    }
+sc-add-err-submission = Gwall Cyflwyno
+sc-add-lang-process-notice = Os nad yw'ch iaith wedi'i rhestru yma, gallwch ofyn amdani trwy'r <languageProcessLink>broses hon</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-are-you-sure =
+    .message = Nid ydych wedi cyflwyno brawddegau, a ydych chi'n siŵr eich bod chi eisiau gadael?
+sc-confirm-sentences-title = Cadarnhau'r Brawddegau Newydd
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Heb ganfod unrhyw frawddegau.
+        [zero] Heb ganfod unrhyw frawddegau.
+        [one] Wedi canfod 1 brawddeg
+        [two] Wedi canfod { $countOfSentences } frawddeg
+        [few] Wedi canfod { $countOfSentences } brawddeg
+        [many] Wedi canfod { $countOfSentences } brawddeg
+       *[other] Wedi canfod { $countOfSentences } brawddeg
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } wedi eu gwrthod gennych chi
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Dim brawddegau wedi'u hadolygu
+        [zero] Dim brawddegau wedi'u hadolygu
+        [one] 1 brawddeg wedi'i hadolygu. Da iawn!
+        [two] { $countOfReviewed } frawddeg wedi'u hadolygu. Da iawn!
+        [few] { $countOfReviewed } brawddeg wedi'u hadolygu. Da iawn!
+        [many] { $countOfReviewed } frawddeg wedi'u hadolygu. Da { $countOfReviewed } brawddeg wedi'u hadolygu. Da iawn!
+       *[other] { $countOfReviewed } frawddeg wedi'u hadolygu. Da { $countOfReviewed } brawddeg wedi'u hadolygu. Da iawn!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Dim brawddegau'n barod i'w cyflwyno!
+        [zero] Dim brawddegau'n barod i'w cyflwyno!
+        [one] 1 frawddeg yn barod i'w chyflwyno!
+        [two] { $readyCount } frawddeg yn barod i'w cyflwyno!
+        [few] { $readyCount } brawddeg yn barod i'w cyflwyno!
+        [many] { $readyCount } brawddeg yn barod i'w cyflwyno!
+       *[other] { $readyCount } brawddeg yn barod i'w cyflwyno!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = Mae yna { $countOfUnreviewed } brawddeg heb eu hadolygu. Mae modd i chi nawr i adolygu'ch brawddegau cyn eu cyflwyno.
+sc-confirm-button-text = Cadarnhau
+sc-confirm-uploading = Mae brawddegau'n cael eu llwytho i fyny. Gall hyn gymryd sawl munud yn dibynnu ar nifer y brawddegau sy'n cael eu hychwanegu. Peidiwch â chau'r wefan hon.
+
+## LANGUAGE INFO
+
+sc-lang-info-title-total = Cyfanswm
+sc-lang-info-title-personal = Personol
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Dim brawddegau
+        [zero] Dim brawddegau
+        [one] 1 frawddeg i gyd
+        [two] { $totalSentences } frawddeg i gyd
+        [few] { $totalSentences } brawddeg i gyd
+        [many] { $totalSentences } brawddeg i gyd
+       *[other] { $totalSentences } brawddeg i gyd
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Dim brawddegau'n cael eu hadolygu
+        [zero] Dim brawddegau'n cael eu hadolygu
+        [one] 1 frawddeg yn cael ei hadolygu
+        [two] { $totalInReview } frawddeg yn cael eu hadolygu
+        [few] { $totalInReview } brawddeg yn cael eu hadolygu
+        [many] { $totalInReview } brawddeg yn cael eu hadolygu
+       *[other] { $totalInReview } brawddeg yn cael eu hadolygu
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Does dim brawddegau ar ôl i chi eu hadolygu.
+        [zero] Does dim brawddegau ar ôl i chi eu hadolygu.
+        [one] Mae 1 frawddeg ar ôl i chi ei hadolygu.
+        [two] Mae { $unreviewedSentencesByYou } frawddeg ar ôl i chi eu hadolygu.
+        [few] Mae { $unreviewedSentencesByYou } brawddeg ar ôl i chi eu hadolygu.
+        [many] Mae { $unreviewedSentencesByYou } brawddeg ar ôl i chi eu hadolygu.
+       *[other] Mae { $unreviewedSentencesByYou } brawddeg ar ôl i chi eu hadolygu.
+    }
+sc-lang-info-review-now = <reviewLink>Adolygwch nawr!</reviewLink>
+sc-lang-info-add-more = <addLink>Ychwanegwch ragor o frawddegau nawr!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Dim brawddegau wedi'u dilysu.
+        [zero] Dim brawddegau wedi'u dilysu.
+        [one] 1 frawddeg wedi'i dilysu.
+        [two] { $validatedSentences } frawddeg wedi'u dilysu.
+        [few] { $validatedSentences } brawddeg wedi'u dilysu.
+        [many] { $validatedSentences } brawddeg wedi'u dilysu.
+       *[other] { $validatedSentences } brawddeg wedi'u dilysu.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Dim brawddegau wedi'u gwrthod.
+        [zero] Dim brawddegau wedi'u gwrthod.
+        [one] 1 frawddeg wedi'i gwrthod.
+        [two] { $rejectedSentences } frawddeg wedi'u gwrthod.
+        [few] { $rejectedSentences } brawddeg wedi'u gwrthod.
+        [many] { $rejectedSentences } brawddeg wedi'u gwrthod.
+       *[other] { $rejectedSentences } brawddeg wedi'u gwrthod.
+    }
+
+## LOGIN
+
+sc-login-err-failed = Methodd y mewngofnodi
+sc-login-err-try-again = Ceisiwch eto.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Proffil: { $username }
+sc-personal-err-lang-not-found = Methu dileu iaith: iaith heb ei chanfod
+sc-personal-err-remove = Methu dileu iaith
+sc-personal-your-languages = Eich ieithoedd:
+sc-personal-remove-button = tynnu
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } wedi'u hychwanegu gennych chi
+sc-personal-not-added = Nid ydych wedi ychwanegu unrhyw ieithoedd eto.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = Ⓘ Meini Prawf Adolygu
+sc-criteria-title = Meini Prawf Adolygu
+sc-criteria-make-sure = Sicrhewch fod y frawddeg yn cwrdd â'r meini prawf canlynol:
+sc-criteria-item-1 = Rhaid fod y frawddeg wedi ei sillafu'n gywir.
+sc-criteria-item-2 = Rhaid i'r frawddeg fod yn ramadegol gywir.
+sc-criteria-item-3 = Rhaid i'r frawddeg fod yn hawdd ei hynganu.
+sc-criteria-item-4 = Os yw'r frawddeg yn cwrdd â'r meini prawf, cliciwch y botwm "Cymeradwyo" ar y dde.
+sc-criteria-item-5-2 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf uchod, cliciwch y botwm "Gwrthod" ar y dde. Os nad ydych chi'n siŵr am y frawddeg hon, gallwch hefyd ei hepgor a symud ymlaen i'r un nesaf.
+sc-criteria-item-6 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu rhagor o frawddegau!
+
+## REVIEW
+
+sc-review-lang-not-selected = Nid ydych wedi dewis unrhyw ieithoedd. Ewch i'ch <profileLink>Proffil</profileLink> i ddewis ieithoedd.
+sc-review-title = Adolygu Brawddegau
+sc-review-loading = Yn llwytho brawddegau...
+sc-review-select-language = Dewiswch iaith i adolygu brawddegau ynddi.
+sc-review-no-sentences = Dim brawddegau i'w hadolygu. <addLink>Ychwanegwch ragor o frawddegau nawr!</addLink>
+sc-review-form-prompt =
+    .message = Brawddegau wedi'u hadolygu ond heb eu cyflwyno, ydych chi'n siŵr?
+sc-review-form-usage = Llusgwch i'r dde i gymeradwyo'r frawddeg. Llusgwch i'r chwith i'w gwrthod. Llusgwch i fyny i'w hepgor. <strong>Peidiwch ag anghofio i gyflwyno'ch adolygiad!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Ffynhonnell: { $sentenceSource }
+sc-review-form-button-reject = Gwrthod
+sc-review-form-button-skip = Hepgor
+sc-review-form-button-approve = Cymeradwyo
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = I
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = H
+sc-review-form-keyboard-usage-custom = Gallwch hefyd ddefnyddio Llwybrau Byr Bysellfwrdd: { sc-review-form-button-approve-shortcut } Cymeradwyo, { sc-review-form-button-reject-shortcut } Gwrthod, { sc-review-form-button-skip-shortcut } a Hepgor
+sc-review-form-button-submit =
+    .submitText = Gorffen Adolygu
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Dim brawddegau wedi'u hadolygu.
+        [zero] Dim brawddegau wedi'u hadolygu.
+        [one] 1 frawddeg wedi'i adolygu. Diolch yn fawr!
+        [two] { $sentences } frawddeg wedi'u hadolygu. Diolch yn fawr!
+        [few] { $sentences } brawddeg wedi'u hadolygu. Diolch yn fawr!
+        [many] { $sentences } brawddeg wedi'u hadolygu. Diolch yn fawr!
+       *[other] { $sentences } brawddeg wedi'u hadolygu. Diolch yn fawr!
+    }
+sc-review-form-review-failure = Nid oedd modd cadw'r adolygiad. Ceisiwch eto'n hwyrach.
+sc-review-link = Adolygu
+
+## SETTINGS
+
+sc-settings-title = Gosodiadau
+sc-settings-ui-language = Iaith y Rhyngwyneb
+sc-settings-language-translated-warning = Efallai na yw'r tudalennau ar gyfer yr iaith hon wedi'u cyfieithu yn llawn. Gallwch chi helpu gyda'u cyfieithu <pontoonLinkLink>ar Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = Ailosod brawddegau wedi'u hepgor
+sc-settings-skipped-decription = Yn y gorffennol, rydych wedi hepgor brawddegau wrth eu hadolygu. Bydd ailosod brawddegau wedi'u hepgor yn dangos pob brawddeg sydd wedi'i hepgor eto. Mae hyn yn annibynnol ar yr iaith.
+sc-settings-show-all-button = Dangos yr holl frawddegau wedi'u hepgor eto
+sc-settings-failed = Methu newid y gosodiadau. Ceisiwch eto.
+# VALIDATION
+sc-validation-number-of-words = Rhaid i'r frawddeg gynnwys rhwng 1 ac 14 gair (i gyd)
+sc-validation-no-numbers = Dylai brawddeg ddim cynnwys rhifau
+sc-validation-no-symbols = Dylai brawddeg ddim cynnwys symbolau
+sc-validation-no-abbreviations = Dylai brawddeg ddim cynnwys byrfoddau
+
+# [/SentenceCollector]
+
+localization-select =
+    .label = Dewiswch iaith

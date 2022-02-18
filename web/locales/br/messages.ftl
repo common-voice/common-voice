@@ -36,9 +36,9 @@ ba = Bachkireg
 bas = Basaaeg
 be = Belaruseg
 bg = Bulgareg
-bm = Bambareg
 bn = Bengaleg
 br = Brezhoneg
+bs = Bosneg
 bxr = Bouriateg
 ca = Katalaneg
 cak = Kakchikeleg
@@ -78,6 +78,8 @@ hy-AM = Armenianeg
 hyw = Armenianeg ar c’hornog
 ia = Interlingua
 id = Indonezeg
+ie = Interlingue
+ig = Igbo
 is = Islandeg
 it = Italianeg
 izh = Ijoreg
@@ -86,6 +88,7 @@ ka = Jorjieg
 kaa = Karakalpakeg
 kab = Kabileg
 kbd = Kabardeg
+ki = Kikuyu
 kk = Kazakheg
 kmr = Kurdeg Kurmanji
 ko = Koreaneg
@@ -110,11 +113,13 @@ ms = Malayeg
 mt = Malteg
 my = Birmaneg
 myv = Erzyeg
+nan-tw = Taiwaneg (Minnan)
 nb-NO = Norvegeg bokmål
 ne-NP = Nepaleg
 nia = Niaseg
 nl = Nederlandeg
 nn-NO = Norvegeg nynorsk
+nyn = Nyankole
 oc = Okitaneg
 or = Oriyeg
 pa-IN = Pandjabeg
@@ -122,12 +127,14 @@ pap-AW = Papiamento (Aruba)
 pl = Poloneg
 ps = Pachtoeg
 pt = Portugaleg
+quc = K'iche'
 rm-sursilv = Romañcheg ar sursilvan
 rm-vallader = Romañcheg ar vallader
 ro = Roumaneg
 ru = Rusianeg
 rw = Kinyarwanda
 sah = Yakouteg
+sat = Santali (Ol Chiki)
 sc = Sardinieg
 scn = Sikilianeg
 shi = Tacheliteg
@@ -144,10 +151,13 @@ ta = Tamileg
 te = Telougoueg
 tg = Tadjikeg
 th = Thailandeg
+ti = Tigrinya
+tig = Tigreeg
 tl = Tagalogeg
 tr = Turkeg
 tt = Tatareg
 tw = Twieg
+ty = Tahitianeg
 uby = Oubic’heg
 udm = Oudmourteg
 ug = Ouigoureg
@@ -157,6 +167,7 @@ uz = Ouzbekeg
 vec = Veneteg
 vi = Vietnameg
 vot = Voteg
+yi = Yiddish
 yo = Yoroubeg
 yue = Kantoneg
 zh-CN = Sinaeg (Sina)
@@ -190,6 +201,7 @@ logout = Digevreañ
 ## Home Page
 
 home-title = Ar raktres Common Voice a zo un intrudu eus Mozilla evit sikour ar mekanikoù da gompren penaos e komz an dud wirion.
+default-tagline = Mozilla Common Voice a zo un intrudu evit sikour ar mekanikoù da gompren penaos e komz an dud wirion.
 home-cta = Komzit, kemerit perzh amañ!
 wall-of-text-start = Naturel eo ar vouezh, denel eo ar vouezh. Setu aze perak e chomomp bamet pa grouomp un deknologiezh vouezh a c’hall bezañ implijet gant hor mekanikoù. Evit krouiñ reizhiadoù mouezh e ranker kaout ur pezh sammad a roadennoù mouezh avat.
 wall-of-text-more-mobile = Ar pep brasañ eus ar roadennoù a ra ar c’hompagnunezhioù bras ganto ne c’hallont ket bezañ implijet gant lodenn vrasañ an dud. Soñjal a ra deomp e voug ar grouüsted. Setu perak hon eus lañset ar raktres Common Voice, ur raktres a laka anaoudegezh ar vouezh da vezañ digor d’an holl.
@@ -292,6 +304,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Enrollañ/Paouez
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Adenrollañ ar c’hlip
+shortcut-discard-ongoing-recording = Achap
+shortcut-discard-ongoing-recording-label = Leuskel an enrolladenn vremanel
 shortcut-submit = Distreiñ
 shortcut-submit-label = Kas ar c’hlipoù
 request-language-text = Ne welit ket ho yezh e Common Voice evit ar mare?
@@ -395,6 +409,10 @@ faq-what-cv-a =
     Teknologiezhioù anaoudegezh ar vouezh a zo un dispac’h en doare da etrewezhiat gant ar mekanikoù, met ar reizhiadoù a zo diouto a zo ker ha perc’hennek. Common Voice a zo ul lodenn eus intrudu Mozilla evit lakaat anaoudegezh ar vouezh da vezañ gwelloc’h hag hegerzoc’h evit an holl. Un diaz roadennoù divent a vouezhioù roet evit gallout gourdonañ arloadoù mouezh en un doare eeun ha prim a c’hallfe bezañ implijet evit an holl yezhoù eo Common Voice.
     
     Ouzhpenn mouezhioù yezhoù bras a vez dastumet ganeomp, reoù ar yezhoù gant nebeut a gomzerien ivez. Embann ur spletad roadennoù liesseurt a roio gallout d’an diorroerien, d’an embregerien ha d’ar c’humuniezhioù. Ouzhpenn da-se e savomp ul lusker anaoudegezh ar vouezh digor e darzh anvet Deep Speech.
+faq-what-cv-a-2 =
+    Teknologiezhioù anaoudegezh ar vouezh a zo un dispac’h en doare da etrewezhiat gant ar mekanikoù, met ar reizhiadoù a zo diouto a zo ker ha perc’hennek. Mozilla Common Voice a zo un intrudu evit lakaat anaoudegezh ar vouezh da vezañ gwelloc’h hag hegerzoc’h evit an holl. Un diaz roadennoù divent a vouezhioù roet evit gallout gourdonañ arloadoù mouezh en un doare eeun ha prim a c’hallfe bezañ implijet evit an holl yezhoù eo Common Voice.
+    
+    Ouzhpenn mouezhioù yezhoù bras a vez dastumet ganeomp, reoù ar yezhoù gant nebeut a gomzerien ivez. Embann ur spletad roadennoù liesseurt a roio gallout d’an diorroerien, d’an embregerien ha d’ar c’humuniezhioù.
 faq-why-important-q = Abalamour da betra e vez a-bouez?
 faq-why-important-a =
     Ar gomz eo an doare naturelañ da zaremprediñ an eil gant ar re all, ha teknologiezhioù ar vouezh a zegas an aester-mañ d'ho urzhiataerioù ha d’ho pellgomzerioù. Fellout a ra deomp reiñ gallout d’an diorroerien evit ma c’hallfent sevel arloadoù anaoudegezh ar vouezh dreistordinal evel troerien en amzer gwirion pe skoazellerien elektronek. Evit ar mare, ar roadennoù mouezh goulennet gant an arloadoù-mañ a zo ker ha perc’hennek. Spi hon eus e tegaso Common Voice ar pezh o deus ezhomm d’an diorroerien evit nevezadenniñ ha lakaat teknologiezhioù ar yezh da vezañ implijadus en o yezh.
@@ -447,10 +465,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Perak Common Voice?
-about-subtitle = Ul lodenn eus intrudu Mozilla evit sikour da gelenn d’ar mekanikoù penaos e komz an dud wirion eo Common Voice. E-kichen ar spletad roadennoù Common Voice e savomp ul lusker adanaoudegezh ar vouezh digor e darzh anvet Deep Speech.
-about-header-description = An daou raktres-se a zo ul lodenn eus hon strivoù evit gwellaat stad ar vouezh niverel. Teknologiezhioù adanaoudegezh ar vouezh a ro ur ment denel d’hon mekanikoù, met ezhomm a zo ur sammad bras-kenañ a roadennoù evit o sevel. Evit ar mare eo koustus ha perc’hennet ar roadennoù-se.
-how-does-it-work-title = Penaos ec’h a en-dro?
 how-does-it-work-text = Sevel a reomp un teskad roadennoù mouezhioù a-stroll. Roit ho mouezh, gwiriekait klipoù an dud all ha lakait ar spletad roadennoù da vezañ gwelloc’h evit an holl.
+
+## How does it work section
+
 about-speak = Komz
 about-speak-text = Ar gendaolerien a enroll klipoù mouezh en ul lenn e-touez un hollad a frazennoù roet.
 about-listen-queue = Roll gortoz
@@ -482,6 +500,34 @@ about-nav-why-common-voice = Perak?
 about-nav-how-it-works = Penaos?
 about-nav-partners = Kevelerien
 about-nav-get-involved = Kemer perzh
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Speredegezh kalvezadel
 mycroft-description =
@@ -580,8 +626,6 @@ subscribe = Koumanantiñ
 get-started-speech = Kregiñ gant anaoudegezh ar vouezh
 other-datasets = Spletadoù roadennoù all
 feedback-q = Evezhiadennoù ho peus?
-deepspeech-info = Spletad roadennoù Common Voice a gloka lusker anaoudegezh digor e darzh Mozilla, Deep Speech e anv. Gallout a rit e implij evit sevel arloadoù anaoudegezh ar vouezh. Lennit hon <githubLink>alberz war Github</githubLink> pe kejit gant an <discourseLink>Discourse DeepSpeech</discourseLink> evit gouzout penaos kregiñ ganit.
-common-voice-info-new = Goulennoù hoc’h eus a-zivout Common Voice? Mennozhioù evit gwellaat pe alioù a-zivout ur yezh resis? Deuit ganeomp war ar <discourseLink>forom Discourse</discourseLink> ha lârit deomp.
 data-other-librispeech-description = LibriSpeech a zo anezhañ ur c’horpus a 1000 eurvezh skrid bennak lennet e saozneg (16 kHz) hag a zeu diwar levrioù son ar raktres LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Savet eo bet ar c’horpus TED-LIUM diwar divizoù komzet hag an treuzskrivadurioù anezho a c’haller kavout war lec’hienn TED.
@@ -885,6 +929,19 @@ why-delete-recordings =
     Ha gallout a rafec’h lavar deomp perak e fell deoc’h dilemel hoc’h enrolladennoù?
 profile-form-delete = Dilemel ar profil
 
+## Profile Download
+
+download-profile-title = Profil
+download-profile-size = Un nebeut bitoù
+download-recordings-title = Enrolladennoù
+download-size = Ment
+download-selected = Diuzet
+download-start = Pellgargañ roadennoù ar profil
+download-request-button = Pellgargañ
+download-request-title = { $created }
+download-request-refresh-button = Freskaat
+download-request-modal-title = Liammoù pellgargañ
+
 ## Landing
 
 welcome-staff = Donemat, implijad { $company }!
@@ -927,4 +984,71 @@ demo-listen-subtitle = Prest da gemer-perzh?
 demo-dashboard-card-body = Evit pep klip mouezh pourvezet ganeoc'h ha pep klip aodio gwirikaet, ho taolenn gont a vez hizivaet evit diskouez hoc'h araokadennoù evit pep yezh a sikourit. Ya, gellout a rit sikour gant meur a yezh!<br/><br/>Implijit an taolennoù da heuliañ ho stadegoù, evit gellout keñveriañ gant izili all ar gumuniezh, ha termeniñ palioù devezhiek pe sizhuniek.
 
 ## Validation criteria
+
+contribution-criteria-nav = Dezverkoù
+contribution-criteria-page-title = Dezverkoù ar c'hemer perzh
+contribution-for-example = da skouer
+contribution-misreadings-title = Fazioù lenn
+contribution-misreadings-example-6-explanation = [Rankout a rafe bezañ “Ni ’zo”]
+contribution-misreadings-example-7-title = Mont a reomp er-maez da bakañ ur banne kafe.
+contribution-volume-title = Live-son
+contribution-reader-effects-title = Efedoù al lenner
+contribution-just-unsure-title = Etre daou soñj?
+see-more = <chevron></chevron>Gwelet muioc’h
+see-less = <chevron></chevron>Gwelet nebeutoc’h
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 

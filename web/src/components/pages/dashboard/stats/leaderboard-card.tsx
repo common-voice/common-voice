@@ -1,8 +1,4 @@
-import {
-  Localized,
-  withLocalization,
-  WithLocalizationProps,
-} from '@fluent/react';
+import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { useRef, useState } from 'react';
 import { connect } from 'react-redux';
@@ -11,13 +7,16 @@ import API from '../../../../services/api';
 import { trackDashboard } from '../../../../services/tracker';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
-import { User } from '../../../../stores/user';
+import {
+  User,
+  VISIBLE_FOR_NONE,
+  VISIBLE_FOR_ALL,
+} from '../../../../stores/user';
 import URLS from '../../../../urls';
 import { LocaleLink, LocalizedGetAttribute } from '../../../locale-helpers';
 
 import {
   BookmarkIcon,
-  CheckIcon,
   CrossIcon,
   EyeIcon,
   EyeOffIcon,
@@ -28,7 +27,6 @@ import {
 } from '../../../ui/icons';
 import { Avatar, Toggle } from '../../../ui/ui';
 import StatsCard from './stats-card';
-import { isProduction } from '../../../../utility';
 
 import './leaderboard.css';
 
@@ -55,22 +53,6 @@ const FetchRow = (props: React.HTMLProps<HTMLButtonElement>) => (
       <div>...</div>
     </button>
   </li>
-);
-
-const RateColumn = withLocalization(
-  ({ getString, value }: { value: number } & WithLocalizationProps) => (
-    <div className="rate">
-      <div className="exact">
-        {value == null ? getString('not-available-abbreviation') : value}
-      </div>
-      <div className="rounded">
-        {value == null
-          ? getString('not-available-abbreviation')
-          : Math.round(value)}
-      </div>
-      <div className="percent">{'%'}</div>
-    </div>
-  )
 );
 
 interface State {
@@ -229,14 +211,6 @@ const Leaderboard = connect<PropsFromState>(
   { forwardRef: true }
 )(UnconnectedLeaderboard);
 
-const FilledCheckIcon = () => (
-  <div className="filled-check">
-    <CheckIcon />
-  </div>
-);
-
-const Percentage = () => <div className="percent">%</div>;
-
 export default function LeaderboardCard({
   currentLocale,
 }: {
@@ -250,15 +224,17 @@ export default function LeaderboardCard({
 
   const leaderboardRef = useRef(null);
 
+  const isAccountVisible = account?.visible === VISIBLE_FOR_ALL;
+
   return (
     <StatsCard
-      key="leaderboard"
+      id="stats-leaderboard"
       {...{ currentLocale }}
       className={'leaderboard-card ' + (showOverlay ? 'has-overlay' : '')}
       title="top-contributors"
       iconButtons={
         <div className="icon-buttons">
-          {Boolean(account?.visible) && (
+          {isAccountVisible && (
             <>
               <button
                 type="button"
@@ -276,7 +252,7 @@ export default function LeaderboardCard({
           )}
 
           <button type="button" onClick={() => setShowOverlay(true)}>
-            {account?.visible ? <EyeIcon /> : <EyeOffIcon />}
+            {isAccountVisible ? <EyeIcon /> : <EyeOffIcon />}
             <Localized id="set-visibility">
               <span className="text" />
             </Localized>
@@ -337,9 +313,12 @@ export default function LeaderboardCard({
             <Toggle
               offText="hidden"
               onText="visible"
-              defaultChecked={Boolean(account.visible)}
-              onChange={(event: any) => {
-                saveAccount({ visible: event.target.checked });
+              defaultChecked={isAccountVisible}
+              onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
+                const visible = event.target.checked
+                  ? VISIBLE_FOR_ALL
+                  : VISIBLE_FOR_NONE;
+                saveAccount({ ...account, visible });
               }}
             />
             <Localized id="visibility-explainer" vars={{ minutes: 20 }}>
@@ -359,7 +338,7 @@ export default function LeaderboardCard({
         )
       }
       tabs={{
-        'recorded-clips': ({ locale }) => (
+        'recorded-clips': ({ locale }: { locale: string }) => (
           <Leaderboard
             key={'c' + locale}
             locale={locale}
@@ -367,7 +346,7 @@ export default function LeaderboardCard({
             ref={leaderboardRef}
           />
         ),
-        'validated-clips': ({ locale }) => (
+        'validated-clips': ({ locale }: { locale: string }) => (
           <Leaderboard
             key={'v' + locale}
             locale={locale}

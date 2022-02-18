@@ -13,7 +13,7 @@
     margin: 0 auto 20px;
 }
 .onboarding-modal-title {
-    font-family: Zilla Slab;
+    font-family: 'Zilla Slab', sans-serif;
     font-size: 36px;
     margin: 0 auto;
 }
@@ -78,7 +78,6 @@
         display: flex;
         width: 100%;
         height: 100%;
-        display: flex;
         font-size: 1rem;
         border-radius: 1000px;
         border: 1px solid rgba(0, 0, 0, 0.1);

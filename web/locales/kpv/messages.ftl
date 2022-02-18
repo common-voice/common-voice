@@ -36,7 +36,6 @@ ba = Башкир кыв
 bas = Басса кыв
 be = Белорус кыв
 bg = Болгар кыв
-bm = Баман кыв
 bn = Бенгал кыв
 br = Брезон кыв
 bxr = Бурят кыв
@@ -85,6 +84,7 @@ ka = Грузин кыв
 kaa = Каракалпак кыв
 kab = Кабил кыв
 kbd = Кабарда кыв
+ki = Кикую кыв
 kk = Казах кыв
 kmr = Курманджи кыв
 ko = Корея кыв
@@ -95,36 +95,49 @@ lg = Луганда кыв
 lij = Лигур кыв
 lt = Литва кыв
 lv = Латыш кыв
+mai = Майтили кыв
 mdf = Мокша кыв
 mg = Малагаси кыв
 mhr = Видз мари кыв
 mk = Македон кыв
 ml = Малаялам кыв
 mn = Монгол кыв
+mos = Мосси кыв
+mr = Марати кыв
 mrj = Керӧс мари кыв
+ms = Малай кыв
 mt = Мальта кыв
 my = Бирма кыв
 myv = Эрзя кыв
+nan-tw = Тайван кыв (Миннан)
 nb-NO = Норвег (букмол) кыв
 ne-NP = Непал кыв
+nia = Ниас кыв
 nl = Нидерланд кыв
 nn-NO = Норвег (нюношк) кыв
+nyn = Ньянколе кыв
 oc = Окситан кыв
 or = Одиа кыв
 pa-IN = Панджаби кыв
+pap-AW = Папьяменто кыв (Аруба кыв)
 pl = Поляк кыв
+ps = Пушту кыв
 pt = Португал кыв
+quc = Киче кыв
 rm-sursilv = Сурселваса романш кыв
 rm-vallader = Романш кыв
 ro = Румын кыв
 ru = Роч кыв
 rw = Киньяруанда кыв
 sah = Саха кыв
+sat = Сантали кыв (Ол Чики)
 sc = Сардиниа кыв
 scn = Сицил кыв
+shi = Шиля кыв
 si = Сингал кыв
 sk = Словак кыв
 sl = Словен кыв
+so = Сомали кыв
 sq = Албан кыв
 sr = Серб кыв
 sv-SE = Швед кыв
@@ -134,17 +147,23 @@ ta = Тамил кыв
 te = Телугу кыв
 tg = Таджик кыв
 th = Тай кыв
+ti = Тигринья кыв
 tl = Тагалог кыв
 tr = Турок кыв
 tt = Тотара кыв
+tw = Чви кыв
+ty = Таити кыв
 uby = Убых кыв
 udm = Удмурт кыв
+ug = Уйгур кыв
 uk = Украина кыв
 ur = Урду кыв
 uz = Узбек кыв
 vec = Венет кыв
 vi = Виет кыв
 vot = Водь кыв
+yi = Идиш кыв
+yo = Йоруба кыв
 yue = Кантон кыв
 zh-CN = Китай кыв
 zh-HK = Китай (Гонконг) кыв
@@ -270,6 +289,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Гижны/Дугдыны
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Выльысь гижӧй клипсӧ
+shortcut-submit-label = Ыстыны клипъяссӧ
 request-language-text = Онӧ на аддзӧй ассьыныд кывнытӧ Common Voice-ын?
 request-language-button = Корны содтыны
 
@@ -295,6 +315,8 @@ profile-form-native-language =
     .label = Чужан кыв
 profile-form-additional-language =
     .label = Содтӧд кыв
+profile-form-language =
+    .label = Кыв
 profile-form-accent =
     .label = Сёрнитанног
 profile-form-age =
@@ -340,23 +362,17 @@ skip-submission-description = Донъялӧм лоӧ кольӧма-ӧтдор�
 skip-submission-note = Пасйӧд: Тіянлы ковмас бӧрйыны Сёрнитӧм либӧ Кывзӧм костын, медым вежны отсалан ногсӧ
 off = Кусӧдны
 on = Ӧзтыны
-avatar-clip-title = Шыӧдӧй ассьыныд аватарсӧ
-change-your-avatar-clip = Кӧсъянныд вежны шыӧдӧм клипсӧ?
-recording-in-progress = Гӧлӧсныд гижсьӧ
-avatar-clip-recorded = Аватарныд ӧні шыӧдӧм клипа!
-record-voice-wave = ГИЖНЫ ГӦЛӦС
-retry-voice-wave-recording = МӦДЫСЬ ВӦЧНЫ
-re-record = ВЫЛЬЫСЬ ГИЖНЫ
-delete-voice = ЧЫШКЫНЫ
-recording-voice-wave = Гижны
-delete-voice-clip = либӧ Чышкыны шыӧдӧм клипсӧ
-ready-to-upload = Пуктыны
-avatar-clip-fact = Тӧдса нин, мый лыддьысьысь кутас лыддьыны листбок вылын бур ногӧн лӧсьӧдӧм гижӧдсӧ сылысь макетсӧ видзӧдігӧн.
+
+## Profile - Email
+
 browse-file-title = Пыртны серпас файл
 browse-file = Кыскӧй да лэдзӧй либӧ <browseWrap>корсьӧй</browseWrap>
 connect-gravatar = Йитны Gravatar-кӧд
 gravatar_not_found = Тіян email-кӧд йитӧм gravatar абу
 file_too_large = Бӧрйӧм файл вывті ыджыд
+
+## Profile - Email
+
 manage-subscriptions = Вежлавны гижсьӧмъяс
 manage-email-subscriptions = Контролируйт электрон поштаын гижӧдъяс
 email-already-used = Тайӧ электрон пошта вылӧ вӧчӧма нин мӧд аккаунт.
@@ -379,21 +395,60 @@ faq-why-my-lang-q = Мыйла менам кыв абу на пыртӧма?
 faq-how-calc-hours-q = Кыдзи Common Voice лыддьысьӧ часъяс?
 faq-where-src-from-2-q = Кытысь воӧны оригинальнӧй текстъяс?
 faq-what-determine-identity-q = Мый сійӧ Common Voice?
+faq-what-is-cv = Мый сэтшӧмыс Common Voice?
+faq-description = Common Voice — тайӧ Mozilla'лӧн проект, коді отсалӧ велӧдны машинаяссӧ гӧгӧрвоны йӧзлысь сёрни.
 
 ## ABOUT US
 
-how-does-it-work-title = Кыдзи сійӧ уджалӧ?
+
+## How does it work section
+
+about-sentence-collection-title = Сёрникузя чукӧртчӧм
 about-speak = Сёрнит
 about-listen = Кывзы
+about-yes-votes = ≥2 «да»
+about-no-votes = ≥ 2 «абу»
+about-partners = Партнеръяс
 about-nav-why-common-voice = Мыйла?
 about-nav-how-it-works = Кыдз?
 about-nav-partners = Партнеръяс
+about-nav-get-involved = Пырӧдчыны
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+mycroft-title = Mycroft Ai
 
 ## Glossary
 
 glossary = Глоссарий
 localization = Локализируйтӧм
 sentence-collection = Сёрникузя чукӧртчӧм
+sst = Сёрнисянь-гижӧдӧдз (Speech-to-text, STT)
 de-identified = Де-идентифируйтӧма
 
 ## Error pages
@@ -409,6 +464,7 @@ data-get-started = Пондыны уджавны Сёрни Гӧгӧрвоан �
 data-other-title = Мукӧд аудио юӧръяс.
 data-other-goto = Мун { $name } вылӧ
 data-other-download = Босьт даннӧйяссӧ
+release-version = Версия
 license = Сёрнитчӧм: <licenseLink>{ $license }</licenseLink>
 license-mixed = Гудралӧм
 terms-agree = Сӧглас.
@@ -424,6 +480,7 @@ language = Кыв
 # File size in gigabytes
 size = Ыджда
 overall-hr-total = Ставнас часъяс
+cv-license = Лицензия
 size-gigabyte = ГБ
 size-megabyte = МБ
 data-other-ted-name = TED-LIUM корпус
@@ -479,6 +536,11 @@ contribute = Пырӧдчыны
 listen = Кывзыны
 skip = Вуджӧм
 shortcuts = Дженьдӧдӧм
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> клип
+       *[other] <bold>{ $count }</bold> клип
+    }
 contribute-more =
     { $count ->
         [one] Верманныд-ӧ вӧчны нӧшта { $count }?
@@ -507,6 +569,7 @@ listen-3rd-time-instruction = 2 вӧчӧма, водзӧ!<playIcon></playIcon>
 listen-last-time-instruction = Бӧръя!
 record-button-label = Гиж тэнад гор
 share-title-new = <bold>Отсав миянӧс</bold> аддзыны унджык горъяс
+target-segment-learn-more = Велӧд унджык
 
 ## Reporting
 
@@ -558,6 +621,12 @@ keep = Кольны
 remove = Чышкыны
 profile-form-delete = Чышкы ас листбок
 
+## Profile Download
+
+download-size = Ыджда
+download-request-title = { $created }
+download-request-link-text = Zip №{ $offset } / { $total }
+
 ## Landing
 
 welcome-staff = Виддза корам, { $company } уджалысьяс!
@@ -576,4 +645,72 @@ profile-not-required = Профиль вӧчӧм абу зэв колана, н�
 
 
 ## Demo Dashboard
+
+
+## Validation criteria
+
+see-more = <chevron></chevron>Аддзы унджык
+see-less = <chevron></chevron>Аддзы этшаджык
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-profile = Ас листбок
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+sc-submit-select-language =
+    .labelText = Бӧрйы кыв
+sc-submit-button =
+    .submitText = Гижӧдчыны
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Ас листбок: { $username }
+sc-personal-your-languages = Тіян кыв:
+sc-personal-remove-button = чышкыны
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 

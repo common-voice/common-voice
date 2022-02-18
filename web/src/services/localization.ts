@@ -1,5 +1,5 @@
-require('fluent-intl-polyfill');
-const { negotiateLanguages } = require('fluent-langneg');
+import 'intl-pluralrules'; // polyfill Intl.PluralRules
+const { negotiateLanguages } = require('@fluent/langneg');
 const locales = require('../../../locales/all.json') as string[];
 export const NATIVE_NAMES = require('../../../locales/native-names.json') as {
   [key: string]: string;
@@ -16,6 +16,14 @@ export const DEFAULT_LOCALE = 'en';
 export const LOCALES = isProduction()
   ? (translatedLocales as string[])
   : locales;
+export const LOCALES_WITH_NAMES = LOCALES.map(code => {
+  return {
+    code,
+    name: NATIVE_NAMES[code] || code,
+  };
+}).sort((localeA, localeB) => {
+  return localeA.name.localeCompare(localeB.name);
+});
 
 export function negotiateLocales(locales: ReadonlyArray<string>) {
   return negotiateLanguages(locales, LOCALES, {
@@ -25,7 +33,7 @@ export function negotiateLocales(locales: ReadonlyArray<string>) {
 
 // By implementing the sequence of FluentBundles as a generator, the cost of
 // parsing fallback resources is deferred to until they're needed.
-function* asBundleGenerator(
+export function* asBundleGenerator(
   localeMessages: string[][],
   messageOverwrites?: MessageOverwrites
 ) {

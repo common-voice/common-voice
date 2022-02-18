@@ -377,6 +377,10 @@ export default class DB {
           SELECT clip_id
           FROM reported_clips reported
           WHERE reported.clip_id = clips.id AND client_id = ?
+          UNION ALL
+          SELECT clip_id
+          FROM skipped_clips skipped
+          WHERE skipped.clip_id = clips.id AND client_id = ?
         )
         AND sentences.clips_count <= 15
         ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
@@ -385,7 +389,15 @@ export default class DB {
       ) t
       ORDER BY RAND()
       LIMIT ?`,
-      [locale_id, client_id, client_id, client_id, SHUFFLE_SIZE, count]
+      [
+        locale_id,
+        client_id,
+        client_id,
+        client_id,
+        client_id,
+        SHUFFLE_SIZE,
+        count,
+      ]
     );
     for (const clip of clips) {
       clip.voters = clip.voters ? clip.voters.split(',') : [];
@@ -436,6 +448,10 @@ export default class DB {
           SELECT clip_id
           FROM reported_clips reported
           WHERE reported.clip_id = clips.id AND client_id = ?
+          UNION ALL
+          SELECT clip_id
+          FROM skipped_clips skipped
+          WHERE skipped.clip_id = clips.id AND client_id = ?
         )
         GROUP BY original_sentence_id
         LIMIT ?
@@ -448,6 +464,7 @@ export default class DB {
         client_id,
         await getTermIds(segments),
         await getTermIds(segments),
+        client_id,
         client_id,
         client_id,
         client_id,
@@ -877,24 +894,56 @@ export default class DB {
     )[0][0].count;
   }
 
-  async saveAccents(client_id: string, accents: { [locale: string]: string }) {
-    await Promise.all(
-      Object.entries(accents).map(async ([locale, accent]) =>
-        this.mysql.query(
-          `
-        INSERT INTO user_client_accents (client_id, locale_id, accent) VALUES (?, ?, ?)
-          ON DUPLICATE KEY UPDATE accent = VALUES(accent)
+  async getAccents(client_id: string, locale?: string) {
+    const [accents] = await this.mysql.query(
+      `
+      SELECT name as lang, accent_token AS token, a.id AS accent_id, accent_name, a.user_submitted FROM accents a
+      LEFT JOIN locales ON a.locale_id = locales.id
+      WHERE (NOT user_submitted OR client_id = ?)
       `,
-          [client_id, await getLocaleId(locale), accent]
-        )
-      )
+      [client_id]
     );
+
+    const mappedAccents = accents.reduce((acc: any, curr: any) => {
+      if (!acc[curr.lang]) {
+        acc[curr.lang] = { userGenerated: {}, preset: {}, default: {} };
+      }
+
+      const accent = {
+        id: curr.accent_id,
+        token: curr.token,
+        name: curr.accent_name,
+      };
+
+      if (curr.accent_name === '') {
+        // Each language has a default accent placeholder for unspecified accents
+        acc[curr.lang].default = accent;
+      } else if (curr.user_submitted) {
+        // Note: currently the query only shows the user values that they created
+        acc[curr.lang].userGenerated[curr.accent_id] = accent;
+      } else {
+        acc[curr.lang].preset[curr.accent_id] = accent;
+      }
+
+      return acc;
+    }, {});
+
+    return mappedAccents;
   }
 
   async createSkippedSentence(id: string, client_id: string) {
     await this.mysql.query(
       `
         INSERT INTO skipped_sentences (sentence_id, client_id) VALUES (?, ?)
+      `,
+      [id, client_id]
+    );
+  }
+
+  async createSkippedClip(id: string, client_id: string) {
+    await this.mysql.query(
+      `
+        INSERT INTO skipped_clips (clip_id, client_id) VALUES (?, ?)
       `,
       [id, client_id]
     );
@@ -912,7 +961,7 @@ export default class DB {
   async insertDownloader(locale: string, email: string, dataset: string) {
     await this.mysql.query(
       `
-        INSERT IGNORE INTO downloaders (locale_id, email, dataset_id) VALUES (?, ?, (SELECT id FROM datasets WHERE release_dir = ? LIMIT 1))
+        INSERT INTO downloaders (locale_id, email, dataset_id) VALUES (?, ?, (SELECT id FROM datasets WHERE release_dir = ? LIMIT 1)) ON DUPLICATE KEY UPDATE created_at = NOW()
       `,
       [await getLocaleId(locale), email, dataset]
     );
@@ -1029,9 +1078,12 @@ export default class DB {
   }
 
   async clipExists(client_id: string, sentence_id: string) {
-    const [[row]] = await this.mysql.query(`
+    const [[row]] = await this.mysql.query(
+      `
       SELECT id FROM clips WHERE client_id = ? AND original_sentence_id = ?
-    `, [client_id, sentence_id]);
+    `,
+      [client_id, sentence_id]
+    );
 
     return !!row;
   }

@@ -25,8 +25,8 @@ html {
     top: 1.75rem;
     width: 40%;
     max-width: 32.875rem;
-    background: #ffffff;
-    box-shadow: 0px 1.5rem 3.375rem rgba(0, 0, 0, 0.05);
+    background: #fff;
+    box-shadow: 0 1.5rem 3.375rem rgba(0, 0, 0, 0.05);
     right: 50%;
     left: auto;
     border-radius: var(--kiosk-card-border-radius);
@@ -93,10 +93,10 @@ html {
         border-top-right-radius: var(--kiosk-card-border-radius);
         background: linear-gradient(
             270deg,
-            #ffffff 1.16%,
+            #fff 1.16%,
             rgba(255, 255, 255, 0.0001) 26.06%,
             rgba(255, 255, 255, 0.0001) 71.82%,
-            #ffffff 98.32%
+            #fff 98.32%
         );
     }
 }

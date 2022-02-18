@@ -66,7 +66,6 @@ export default class Bucket {
     }
   }
 
-
   /**
    * Check if given file exists
    */
@@ -127,6 +126,7 @@ export default class Bucket {
       } catch (e) {
         console.log(e.message);
         console.log(`aws error retrieving clip_id ${id}`);
+        await this.model.db.markInvalid(id.toString());
       }
     }
 
@@ -146,15 +146,25 @@ export default class Bucket {
     chunkIndex: number,
     paths: string[]
   ): Promise<S3.HeadObjectOutput> {
-    console.log('start takeout zipping', takeout.id);
     const destination = this.takeoutKey(takeout, chunkIndex);
+
+    console.log('start takeout zipping', destination);
+
     const bucket = getConfig().CLIP_BUCKET_NAME;
     const passThrough = new PassThrough();
 
     const s3pipe = s3Zip
-      .archive({ s3: this.s3, bucket }, '', paths, paths.map(path =>
-        `takeout_${takeout.id}_pt_${chunkIndex}/${ path.split('/').length > 1 ? path.split('/')[1] : path }`
-      ))
+      .archive(
+        { s3: this.s3, bucket },
+        '',
+        paths,
+        paths.map(
+          path =>
+            `takeout_${takeout.id}_pt_${chunkIndex}/${
+              path.split('/').length > 1 ? path.split('/')[1] : path
+            }`
+        )
+      )
       .pipe(passThrough);
 
     await this.s3
@@ -208,7 +218,7 @@ export default class Bucket {
     return clip ? this.getPublicUrl(clip.path) : null;
   }
 
-    /**
+  /**
    * Delete function for S3 used for removing old avatars
    */
   public async deletePath(path: string) {
@@ -219,5 +229,4 @@ export default class Bucket {
       })
       .promise();
   }
-
 }

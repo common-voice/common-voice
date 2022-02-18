@@ -247,7 +247,7 @@ class SpeakPage extends React.Component<Props, State> {
       reRecordIndex = 3;
     } else if (event.code === 'Digit5' || event.code === 'Numpad5') {
       reRecordIndex = 4;
-    } else if (event.key === "Esc" || event.key === "Escape") {
+    } else if (event.key === 'Esc' || event.key === 'Escape') {
       if (this.isRecording) {
         trackRecording('discard-ongoing', this.props.locale);
         await this.discardRecording();
@@ -406,6 +406,7 @@ class SpeakPage extends React.Component<Props, State> {
     await this.discardRecording();
     const current = this.getRecordingIndex();
     const id = this.state.clips[current]?.sentence?.id;
+    api.skipSentence(id);
     removeSentences([id]);
     this.setState(({ clips }) => {
       const newClips = [...clips];
@@ -417,7 +418,6 @@ class SpeakPage extends React.Component<Props, State> {
         error: null,
       };
     });
-    api.skipSentence(id);
   };
 
   private upload = (hasAgreed: boolean = false) => {
@@ -724,7 +724,10 @@ class SpeakPage extends React.Component<Props, State> {
                 onRerecord={() => this.rerecord(i)}>
                 {rerecordIndex === i && (
                   <Localized id="record-cancel">
-                    <TextButton onClick={this.cancelReRecord} className="text"/>
+                    <TextButton
+                      onClick={this.cancelReRecord}
+                      className="text"
+                    />
                   </Localized>
                 )}
               </RecordingPill>

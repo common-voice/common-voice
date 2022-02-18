@@ -22,7 +22,7 @@ import authRouter, { authMiddleware } from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
 import * as proxy from 'http-proxy-middleware';
 import { createTaskQueues, TaskQueues } from './lib/takeout';
-var HttpStatus = require('http-status-codes');
+const HttpStatus = require('http-status-codes');
 
 require('source-map-support').install();
 const contributableLocales = require('locales/contributable.json');
@@ -70,7 +70,7 @@ export default class Server {
     this.model = new Model();
     this.api = new API(this.model);
 
-    useRedis.then((ready) => {
+    useRedis.then(ready => {
       if (ready) {
         this.taskQueues = createTaskQueues(this.api.takeout);
         this.api.takeout.setQueue(this.taskQueues.dataTakeout);

@@ -169,6 +169,7 @@ logout = Аҭыҵра
 ## Home Page
 
 home-title = Common Voice ари Mozilla иаҵанакуа ауаа хаҭала рцәажәашьа амашьынақәа идзырҵо ԥшьгамҭоуп.
+default-tagline = Mozilla Common Voice ари иаҵанакуа ауаа хаҭала рцәажәашьа амашьынақәа идзырҵо ԥшьгамҭоуп.
 home-cta = Уҽалырхә, абжьы ҭаҩра!
 wall-of-text-start = Абжьы-ԥсабаратәуп, абжьы-уаҩбжьуп. Убри азоуп ҳмашьынақәа рзы иманшәалоу абызшәатә технологиа аԥҵара ҳзашьҭоу. Аха абжьы зхоу абызшәатә системақәа раԥҵаразы, иаҭахуп зымҽхак ҭбаау абызшәатә дыррақәа.
 wall-of-text-more-mobile = Акорпорациа дуқәа рхы иадырхәо адыррақәа реиҳарак ауаа рхы ирзархәом. Ари аҭагылазаашьа алагаламҭа ҿыцқәа рцәырҵра иаԥырхагоуп ҳәа ҳгәы иаанагоит. Убри азоуп абжьы адырразы ицхыраагӡахаша, зегьы рзы иаарту иманшәалоу Common Voice апрограмма заԥаҳҵаз.
@@ -188,9 +189,9 @@ speak-goal-text = Анҵамҭақәа абжьы рхарҵеит
 listen-subtitle = Уҳацхраа абжьқәа ргәаҭараҿы
 listen-paragraph = Изыцҵоу аҭаҩымҭақәа ргәаҭара даара акрызҵазкуа усуп Common Voice ахықәкы анагӡаразы. Аҭаҩымҭақәа урзыӡырҩны, зхаҭабзиара ҳараку, иаарту абыжьқәа раԥҵараҿы ацхыраара ҳауҭа.
 listen-goal-text = Анҵамҭақәа гәаҭан
-hours-recorded = Асааҭқәа абжьы рхарҵеит
-hours-validated = Асааҭқәа гәаҭан
-voices-online = Абыжьқәа Алабҿаба Абыржәы
+hours-recorded = Сааҭ Абжьы Ахарҵеит
+hours-validated = Сааҭ Гәаҭан
+voices-online = Онлаин Аҿы Абжьқәа
 todays-progress = Иахьатәи аԥхьаҿиара
 help-reach-goal = Уҳацхраа анагӡараҿы { $goal }
 read-terms-q = Ҳара ҳаиқәшаҳаҭра азҭо уаԥхьахьоума?
@@ -290,6 +291,8 @@ profile-form-accent =
     .label = Ацәажәашьа
 profile-form-age =
     .label = Ақәра
+profile-form-gender-2 =
+    .label = Акәал
 leaderboard-visibility =
     .label = Аԥхьагылатә-ӷәы Абара
 hidden = Иҵәаху
@@ -307,7 +310,7 @@ why-profile-text = Ухаҭаразы иҭоугыло адыррақәа, Commo
 dashboard = Апанель
 build-profile = Аҷыдахәра аԥҵара
 avatar = Аныԥшга
-goals = Ахқә.
+goals = Ахықәк.
 settings = Архиарақәа
 edit-profile = Аредакциа аҷыдахәра
 profile-create-success = Ишьахәуп, аҷыдахәра ҟалеит!
@@ -521,8 +524,6 @@ subscribe = Анапаҵаҩра
 get-started-speech = Ажәаҳәа аилкааразы аусура алагара
 other-datasets = Егьырҭ Абжьытә Дыррақәа Реизгақәа.
 feedback-q = Угәаанагара аныуҵа?
-deepspeech-info = Common Voice адыррақәа реизга, иаарту адыррақәа абжьы еилкаага программа DeepSpeech Mozilla аҟынтә иаагоу, ухатәы лагаламҭақәа рыҟаҵараан ухы иаурхәар улшоит.
-common-voice-info-new = Common Voice иазку азҵаарақәа умоума? Уҳалахәха, ҳара ҳфорум <discourseLink>Discourse </discourseLink> аҟны.
 data-other-librispeech-description = LibriSpeech шьақәгылоуп инықәырԥшны 1000 сааҭи 16Кгц иҟоу англыз бызшәала иҭаҩу аудионҵамҭақәа реизгақәеи, LibriVox апроект аҟнытәи иаагоу аудиошәыҟәқәеи рыла.
 data-other-ted-name = TED-LIUM аизганҵа
 data-other-ted-description = TED-LIUM аизга аԥҵан TED асаит аҟны ахархәара змоу аудио еиҿцәажәарақәеи урҭ рытранскрипциақәеи рыла.
@@ -617,7 +618,7 @@ record-last-instruction = <recordIcon></recordIcon> аҵыхәтәантәи!
 review-tooltip = Аклипқәа урҽеи, еиҭаныуҵа абра.
 share-clip = Унҵамҭа еиҩша
 share-common-voice = Common Voice еиҩша
-review-instruction = Ианаҭаху аамҭазы аклипқәа рҽеи, ихҩаал.
+review-instruction = Ианаҭаху аамҭазы аклипқәа рҽеины ихҩаала.
 record-submit-tooltip = { $actionType } анымазеихалак идәықәуҵа.
 clips-uploaded = Анҵамҭақәа ҭагалан
 record-abort-title = Раԥхьа ианҵаны уалгома?
@@ -678,12 +679,12 @@ validations =
 
 your-languages = Убызшәақәа
 toward-next-goal = Анаҩстәи ахықәкы.
-clips-you-recorded = Абжьы рхаурҵаз анҵамҭақәа
-clips-you-validated = Игәауҭаз анҵамҭақәа
+clips-you-recorded = Абжьы Зхауҵаз Анҵамҭақәа
+clips-you-validated = Игәауҭаз Анҵамҭақәа
 todays-recorded-progress = Common Voice аҟны иахьа анҵамҭақәа ҟаҵоуп.
 todays-validated-progress = Common Voice аҟны иахьа анҵамҭақәа гәаҭоуп.
-stats = Аҭгл.
-awards = Аҳмҭ.
+stats = Аста.
+awards = Аҳам.
 you = Уара
 everyone = Ахархәаҩцәа зегьы
 contribution-activity = Аусура аҽалархәра
@@ -751,6 +752,9 @@ remove-info = Адыррақәа реизга иагәылоу уара убжь
 why-delete-recordings = Common Voice анҵамҭақәа рхы иадырхәоит аҵарауаа, абизнес маҷ аҟны, иара убас абжьы еилкаагақәа зхәыцуа рзы абжьытә модельқәа рышьақәыргылараан зегьы еицырзеиԥшу аресурсқәа рырҿиареи абызшәа арҵара аус аҟны. Еилаҳкаар ҟалома уара уанҵамҭақәа рықәгара зыуҭахыу?
 profile-form-delete = Аҷыдахәра аныхтәуп
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Бзиала шәаабеит { $company } аусуҩцәа!
@@ -772,4 +776,61 @@ read-more-about = Нарҭбааны Иазкны ҳдаҟьаҿы
 
 
 ## Demo Dashboard
+
+
+## Validation criteria
+
+contribution-criteria-link = Аԥҟара аилкаара
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 

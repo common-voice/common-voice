@@ -1,19 +1,31 @@
 .about {
-    & #content {
+    #content {
         padding: 0;
     }
 
-    & #help-links {
+    #help-links {
         display: none;
     }
 
-    & footer {
+    footer {
         margin-top: 0;
     }
 
-    & .about-hero {
+    .about-hero {
         position: relative;
-        padding-left: 1rem;
+        padding-inline-start: 1rem;
+        padding-bottom: 2rem;
+
+        @media (--md-down) {
+            &.playbook {
+                padding: 0;
+            }
+        }
+
+        &.subscribe {
+            margin-top: 2rem;
+            padding: 0;
+        }
 
         &.why-common-voice,
         &.partners {
@@ -27,22 +39,6 @@
             margin-right: auto;
             margin-left: auto;
             min-height: 100%;
-        }
-
-        & .vertical-line {
-            width: 3px;
-            height: 100px;
-            background: linear-gradient(
-                to right,
-                var(--gradient-pink),
-                var(--gradient-purple)
-            );
-            margin: 0 auto;
-
-            @media (--sm-down) {
-                height: 50px;
-                margin-top: 30px;
-            }
         }
 
         .about-content {

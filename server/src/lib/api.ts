@@ -4,7 +4,7 @@ import * as bodyParser from 'body-parser';
 import { MD5 } from 'crypto-js';
 import { NextFunction, Request, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
-import { TakeoutRequest, UserClient as UserClientType } from 'common';
+import { UserClient as UserClientType } from 'common';
 import { authMiddleware } from '../auth-router';
 import { getConfig, CommonVoiceConfig } from '../config-helper';
 import Awards from './model/awards';
@@ -19,9 +19,8 @@ import Model from './model';
 import Prometheus from './prometheus';
 import { ClientParameterError } from './utility';
 import Challenge from './challenge';
-import { FeatureType, features } from 'common';
-import { TaxonomyToken, taxonomies } from 'common';
-import { getLocaleId } from './model/db';
+import { features } from 'common';
+import { taxonomies } from 'common';
 import Takeout from './takeout';
 
 const Transcoder = require('stream-transcoder');
@@ -97,8 +96,10 @@ export default class API {
     router.post('/user_client/takeout/request', this.requestTakeout);
     router.post('/user_client/takeout/:id/links', this.getTakeoutLinks);
 
+    router.get('/language/accents/:locale?', this.getAccents);
     router.get('/:locale/sentences', this.getRandomSentences);
     router.post('/skipped_sentences/:id', this.createSkippedSentence);
+    router.post('/skipped_clips/:id', this.createSkippedClip);
 
     router.use(
       '/:locale?/clips',
@@ -163,10 +164,11 @@ export default class API {
 
   getRandomSentences = async (request: Request, response: Response) => {
     const { client_id, params } = request;
+    const count = this.getCountQueryParam(request) || 1;
     const sentences = await this.model.findEligibleSentences(
       client_id,
       params.locale,
-      parseInt(request.query.count, 10) || 1
+      count
     );
 
     response.json(sentences);
@@ -193,6 +195,15 @@ export default class API {
     response.json({});
   };
 
+  createSkippedClip = async (request: Request, response: Response) => {
+    const {
+      client_id,
+      params: { id },
+    } = request;
+    await this.model.db.createSkippedClip(id, client_id);
+    response.json({});
+  };
+
   getLanguageStats = async (request: Request, response: Response) => {
     response.json(await this.model.getLanguageStats());
   };
@@ -207,7 +218,7 @@ export default class API {
     const enrollment = user.enrollment;
     const userClients: UserClientType[] = [
       { email, enrollment },
-      ...(await UserClient.findAllWithLocales({
+      ...(await UserClient.findAllWithLanguages({
         email,
         client_id,
       })),
@@ -506,5 +517,28 @@ export default class API {
   getServerDate = (request: Request, response: Response) => {
     // prevents contributors manipulating dates in client
     response.json(new Date());
-  }
+  };
+
+  getAccents = async ({ client_id, params }: Request, response: Response) => {
+    response.json(
+      await this.model.db.getAccents(client_id, params?.locale || null)
+    );
+  };
+
+  private getCountQueryParam = (request: Request) => {
+    const { count } = request.query;
+
+    if (typeof count !== 'string') {
+      return null;
+    }
+
+    const countNumberResult = parseInt(count, 10);
+
+    // handle if we don't have a number sent
+    if (Number.isNaN(countNumberResult)) {
+      return null;
+    }
+
+    return countNumberResult;
+  };
 }

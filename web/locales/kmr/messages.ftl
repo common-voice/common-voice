@@ -36,9 +36,9 @@ ba = Başkirî
 bas = Basaayî
 be = Belarusî
 bg = Bulgarî
-bm = Bambarayî
 bn = Bengalî
 br = Bretonî
+bs = Bosnayî
 bxr = Buryatî
 ca = Katalanî
 cak = Kaqçîkelî
@@ -67,6 +67,7 @@ fy-NL = Frîsî
 ga-IE = Îrlandî
 gl = Galîsî
 gn = Guaranî
+gom = Goan Konkanî
 ha = Hawsayî
 he = Îbranî
 hi = Hindî
@@ -78,6 +79,8 @@ hy-AM = Ermenkî
 hyw = Ermenkiya Rojavayî
 ia = Interlingua
 id = Indonezî
+ie = Interlingue
+ig = Igbo
 is = Îzlandî
 it = Îtalî
 izh = Îzhoriyanî
@@ -86,8 +89,11 @@ ka = Gurcî
 kaa = Karakalpakî
 kab = Kabîlî
 kbd = Kabardiyanî
+ki = Kikuyu
 kk = Qazaxî
+km = Xmerî
 kmr = Kurdî (Kurmancî)
+knn = Konkanî (Devanagarî)
 ko = Koreyî
 kpv = Komî Ziryanî
 kw = Kornî
@@ -96,39 +102,52 @@ lg = Lugandayî
 lij = Liguriyanî
 lt = Lîtwanî
 lv = Latviyayî
+mai = Maithili
 mdf = Mokşayî
 mg = Malagasî
 mhr = Meadow Marî
 mk = Makedonî
 ml = Malayalamî
 mn = Mongolî
+mni = Meetei Lon
 mos = Moreyî
+mr = Marathi
 mrj = Mariya Çiyayî
 ms = Malezî
 mt = Maltayî
 my = Burmayî
 myv = Erzayî
+nan-tw = Taywanî (Minnan)
 nb-NO = Norwecî (bokmål)
 ne-NP = Nepalî
+nia = Nias
 nl = Holendî
 nn-NO = Norwecî (nynorsk)
+nyn = Nyankole
 oc = Oksîtanî
 or = Odiayî
 pa-IN = Puncabî
+pap-AW = Papiamento (Aruba)
 pl = Polonî
 ps = Peştûyî
 pt = Portugalî
+quc = Kîçê
+quy = Quechua Chanka
 rm-sursilv = Sursilvaniya Romanşî
 rm-vallader = Valadera Romanşî
 ro = Romanî
 ru = Rûsî
 rw = Kînyariwandayî
 sah = Saxayî
+sat = Santali (Ol Chiki)
 sc = Sardînî
 scn = Sicîlî
+shi = Shilha
 si = Sinhalayî
 sk = Slovakî
+skr = Saîrîkî
 sl = Slovenî
+so = Somalî
 sq = Albanî
 sr = Sirbî
 sv-SE = Swêdî
@@ -138,17 +157,26 @@ ta = Tamîlî
 te = Telûgûyî
 tg = Tacikî
 th = Tayî
+ti = Tîgrînîya
+tig = Tîgrî
+tk = Tirkmenî
 tl = Tagalogî
+tok = Tokî Pona
 tr = Tirkî
 tt = Teterî
+tw = Twi
+ty = Tahitian
 uby = Ûbîxî
 udm = Udmurtî
+ug = Uyghurî
 uk = Ukraynî
 ur = Urdûyî
 uz = Ozbekî
 vec = Venedîkî
 vi = Viyetnamî
 vot = Votîkî
+yi = Yîdîş
+yo = Yoruba
 yue = Kantonî
 zh-CN = Çînî (Çîn)
 zh-HK = Çînî (Hong Kong)
@@ -181,6 +209,7 @@ logout = Derkeve
 ## Home Page
 
 home-title = Common Voice hewldaneke Mozillayê ye, ew çawaniya axaftina mirovan fêrî makîneyan dike ji bo ku makîne jî mîna mirovan rast biaxivin.
+default-tagline = Mozilla Common Voice hewldanek e û armanca wê ev e ku fêrî makenîneyan bike ka mirovên rastîn çawa diaxivin.
 home-cta = Biaxive, piştgiriyê bide!
 wall-of-text-start =
     Deng xwezayî ye, deng mirovî ye. Ji ber vê em bi hindê re eleqedar dibin ku ji bo makîneyên xwe teknolojiyên
@@ -292,7 +321,11 @@ shortcut-record-toggle = t
 shortcut-record-toggle-label = Tomar bike/Rawestîne
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Dîsa tomar bike
-request-language-text = Tu zimanê xwe li ser Common Voicê nabînî?¶
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Tomara tê kirin jê bibe
+shortcut-submit = Vegere
+shortcut-submit-label = Tomaran bişîne
+request-language-text = Tu zimanê xwe li ser Common Voicê nabînî?
 request-language-text-learn = Bizane bê tu çawa dikarî li vir daxwaz bikî!
 request-language-button = Zimanekî bixwaze
 
@@ -318,8 +351,13 @@ profile-form-native-language =
     .label = Zimanê zikmakî
 profile-form-additional-language =
     .label = Zimanê din
+profile-form-language =
+    .label = Ziman
 profile-form-accent =
     .label = Devok
+profile-form-custom-accent-help-text =
+    .label = Tu aksana xwe çawa pênase dikî?
+profile-form-custom-accent-placeholder-2 = Ji bo pênasekirina aksana xwe dest bi nivîsandinê bike
 profile-form-age =
     .label = Temen
 profile-form-gender-2 =
@@ -330,6 +368,7 @@ hidden = Veşartî
 visible = Xuya
 native-language =
     .label = Zimanê zikmakî
+profile-form-add-accent = Aksana "{ $inputValue }" lê zêde bike
 profile-form-submit-save = Tomar bike
 profile-form-submit-saved = Hat tomarkirin
 male = Mêr
@@ -365,26 +404,21 @@ skip-submission-description = Di dema şandina beşdariyê de piştî ku li 'Bi�
 skip-submission-note = Not: Ji bo guhertina cureya beşdariyê divê tu Axaftinê an Jî Guhdarîkirinê hilbijêrî.
 off = Girtî
 on = Vekirî
-avatar-clip-title = Avatarê xwe bipeyivîne
-change-your-avatar-clip = Tu dixwazî tomara dengê xwe biguherînî?
-recording-in-progress = Tomarkirina deng berdewam e
-avatar-clip-recorded = Avatara te êdî klîbeke dengî jî dihewîne!
-record-voice-wave = DENGÊ XWE TOMAR BIKE
-retry-voice-wave-recording = DÎSA BICERIBÎNE
-re-record = DÎSA TOMAR BIKE
-delete-voice = JÊ BIBE
-recording-voice-wave = Tê tomarkirin
-delete-voice-clip = an jî  klîba dengê jê bibe
-ready-to-upload = Lê bar bike
-avatar-clip-fact = Ev rastî ji berê ve tê zanîn ku gava xwînerek li raxistina rûpelekê dinêre, dê bal û dîqeta wî ji ber naveroka wê ya nivîskî ve bê pelişandin.
-recreate-voice = Dengê xwe dîsa tomar bike
-cancel-avatar-clip-recording = Betal bike
-about-avatar-clip-recording = Klîbeke dengî biafirîne û bike parçeyek ji profîla xwe. Dema ku hin kes bên profîla te ew ê karibin li vê klîbê guhdarî bikin.
+help-accent = Ji bo aksanê ji te re alîkarî divê?
+help-accent-explanation = Devoka te awayê te yê bilêvkirina peyvan e. Ciyê tu lê dijî, zimanên din ku tu pê diaxivî û gelek faktorên din bandorê lê dikin, Tu dikarî wan zanyariyan li virê parve bikî ku li gorî fikra te têkildar in.
+
+## Profile - Email
+
 browse-file-title = Dosyeya wêneyê bar bike
 browse-file = Biherikîne û bihêle an jî <browseWrap>Bibîne</browseWrap>
 connect-gravatar = Bi Gravatarê ve girêde
 gravatar_not_found = Ti gravatarên bi emaîla te ve girêdayî nehate dîtin
 file_too_large = Dosyeya hatiye bijartin pir mezin e
+avatar-uploaded = Avatar hat lêbarkirin
+max-file-size = herî zêde { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = Abonetiyan birêve bibe
 manage-email-subscriptions = Abonetiyên emaîlê birêve bibe
 email-already-used = Emaîl jixwe ji bo hesabeke din tê bikaranîn
@@ -439,12 +473,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Çima Common Voice?
-about-subtitle = Common Voice beşek ji insiyatîva Mozillayê ye û ew çawaniya axaftina mirovan fêrî makîneyan dike ji bo ku makîne jî mîna mirovan rast biaxivin. Ji bilî komdaneya Common Voiceê em motoreke nasîna axaftinê ya çavkanî vekirî jî bi navê Deep Speech ava dikin.
-about-header-description =
-    Ev her du proje jî parçeyên hewldana me ya ji bo rakirina cudakariya axaftina dîjîtal in. Teknolojiyên naskirina dengan aliyekî mirovane tînin nav amûrên me lê ji bo pêkanîna vê pêdiviya pêşvebiran bi gelek daneyên dengî heye. Niha piraniya van daneyan tên firotin û buha ne.
-    Em dixwazin daneyên dengî belaş bin û ji bo her kesî bin, her wisa em dixwazin dane curbucurbûna mirovan temsîl bikin. Em dikarin naskirina dengan ji bo her kesî çêtir bikin.
-how-does-it-work-title = Çawa dixebite?
 how-does-it-work-text = Em komdaneyeke dengan ya çavkanî vekirî berhev dikin. Dengê xwe bibexşîne, klîbên dengî yên kesên din kontrol bike, komdaneyê ji bo her kesî çêtir bike.
+
+## How does it work section
+
 about-speak = Bipeyive
 about-speak-text = Beşdar hevokên ji danegeha hevokên hatine bexişandin dixwînin û dengê xwe tomar dikin.
 about-listen-queue = Rêza Guhdarîkirinê
@@ -473,10 +505,38 @@ about-nav-why-common-voice = Çima ?
 about-nav-how-it-works = Çawa ?
 about-nav-partners = Hevkar
 about-nav-get-involved = Tev lê bibin
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Hişê Xwedestî (Artificial intelligence)
 mycroft-description =
-    Mycroft, yekem asîstana çavkanî vekirî ya cîhanê ye.¶
+    Mycroft, yekem asîstana çavkanî vekirî ya cîhanê ye.
     Mycroft dikare li her derê (li ser kombersê di otomobîlekê de, an jî li ser Raspberry Pi'yê) bixebite.
 mycroft-secondary-description = Ev, nermalava çavkanî vekirî ye ku dikare bi serbestî were sererastkirin, mezinkirin û baştirkirin.  Ji projeyek zanistî bigire heya sepaneke nermalava karsaziyê, Mycroft dikare di her sepanê de were bikaranîn.
 
@@ -556,7 +616,6 @@ subscribe = Bibe abone
 get-started-speech = Bi Nasîna Axaftinê Dest Pê Bike
 other-datasets = Komdaneyên din ên dengî
 feedback-q = Pêşniyara te heye?
-common-voice-info-new = Hin pirsên te li ser Common Voiceê heye? Fikrên te ji bo baştirkirinê hene an jî tu dixwazî li ser zimanekî taybet paşragihandinê bişînî? Li ser <discourseLink>Forûma Discourseê</discourseLink> ya me tevlî me bibe û hayê me jê çêke.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Danegeha TED-LIUM'ê ji danûstandinên dengî û transkrîpsiyonên wan ên li ser malpera TED'ê hatiye çêkirin.
 data-other-voxforge-description = VoxForge ji bo berhevkirina transkrîpsiyona xeberdanan bi Motorên Naskirina Xeberdanan yê Belaş-ji-bo-bikaranînê û Çavkanî-azad hatiye avakirin.
@@ -764,10 +823,10 @@ finish-editing = Pêşî sererastkirinê biqedîne?
 lose-changes-warning = Heke tu aniha derkevî ew ê hemû guhertin wenda bibin
 build-custom-goal = Hedefeke nû diyar bike
 help-reach-hours-pluralized =
-    Armanceke şexsî diyar bike ku em bi zimanê { language } bigihîjin{ NUMBER($hours) ->
-        [one] saetekê
-       *[other] { $hours } saetan
-    }.
+    { NUMBER($hours) ->
+        [one] Armanceke şexsî diyar bike ku em bi zimanê { $language } bigihîjin saetekê { $hours }.
+       *[other] Armanceke şexsî diyar bike ku em bi zimanê { $language } bigihîjin{ $hours } saetan.
+    }
 set-a-goal = Hedefekê diyar bike
 cant-decide = Tu nikarî biryarê bidî?
 how-many-per-day = Bijî! Rojane çend klîb?
@@ -810,6 +869,12 @@ why-delete-recordings =
     Tu dikarî ji me re bibêjî ku çima tu dixwazî tomarên te bêne jêbirin?
 profile-form-delete = Profîlê jê bibe
 
+## Profile Download
+
+download-request-refresh-button = Nû bike
+download-request-modal-title = Girêdankên jêbarkirinê
+download-request-modal-description = Girêdanka jêbarkirina pelên te yên ZIP li virê ye.
+
 ## Landing
 
 welcome-staff = Tîma { $company } hûn bi xêr hatin
@@ -851,3 +916,79 @@ demo-listen-subtitle = Tu ji bo beşdariyê amade yî?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Destgehên şexsî derbarê pêşveçûna te û pêşveçûna civakê de te agahdar dike.
+
+## Validation criteria
+
+see-more = <chevron></chevron>Zêdetir bibîne
+see-less = <chevron></chevron>Hindiktir bibîne
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Serûpel
+sc-header-how-to = Çawa çêdibe
+sc-header-add = Lê zêde bike
+sc-header-review = Nirxandin
+sc-header-rejected = Hevokên hatine redkirin
+sc-header-my = Hevokên min
+sc-header-statistics = Amar
+sc-header-profile = Profîl
+sc-footer-discourse = Gotûbêj
+sc-footer-report-bugs = Çewtiyê rapor bike
+sc-footer-translate = Vê rûpelê wergerîne
+sc-footer-report-copyright = Pirsgirêkên mafê telîfê rapor bike
+sc-footer-privacy = Nepenî
+sc-footer-terms = Merc
+sc-footer-cookies = Çerez
+sc-login-signup-button = Têketin / Tomarbûn
+sc-logout-button = Derketin
+
+## HOME
+
+sc-home-title = Bi xêr hatî Berhevkara Hevokan ya Common Voiceê
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+

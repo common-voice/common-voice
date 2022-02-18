@@ -32,9 +32,9 @@ ba = Bashkir
 bas = Basaa
 be = Belarusian
 bg = Bulgarian
-bm = Bambara
 bn = Bengali
 br = Breton
+bs = Bosnian
 bxr = Buryat
 ca = Catalan
 cak = Kaqchikel
@@ -63,6 +63,7 @@ fy-NL = Frisian
 ga-IE = Irish
 gl = Galician
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Hebrew
 hi = Hindi
@@ -86,11 +87,14 @@ kab = Kabyle
 kbd = Kabardian
 ki = Kikuyu
 kk = Kazakh
+km = Khmer
 kmr = Kurmanji Kurdish
+knn = Konkani (Devanagari)
 ko = Korean
 kpv = Komi-Zyrian
 kw = Cornish
 ky = Kyrgyz
+lb = Luxembourgish
 lg = Luganda
 lij = Ligurian
 lt = Lithuanian
@@ -102,6 +106,7 @@ mhr = Meadow Mari
 mk = Macedonian
 ml = Malayalam
 mn = Mongolian
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Hill Mari
@@ -115,7 +120,7 @@ ne-NP = Nepali
 nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
-nyn = Nyankole
+nyn = Runyankole
 oc = Occitan
 or = Odia
 pa-IN = Punjabi
@@ -123,6 +128,8 @@ pap-AW = Papiamento (Aruba)
 pl = Polish
 ps = Pashto
 pt = Portuguese
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 ro = Romanian
@@ -135,6 +142,7 @@ scn = Sicilian
 shi = Shilha
 si = Sinhala
 sk = Slovak
+skr = Saraiki
 sl = Slovenian
 so = Somali
 sq = Albanian
@@ -146,7 +154,11 @@ ta = Tamil
 te = Telugu
 tg = Tajik
 th = Thai
+ti = Tigrinya
+tig = Tigre
+tk = Turkmen
 tl = Tagalog
+tok = Toki Pona
 tr = Turkish
 tt = Tatar
 tw = Twi
@@ -325,8 +337,13 @@ profile-form-native-language =
     .label = Native Language
 profile-form-additional-language =
     .label = Additional Language
+profile-form-language =
+    .label = Language
 profile-form-accent =
     .label = Accent
+profile-form-custom-accent-help-text =
+  .label = How would you describe your accent?
+profile-form-custom-accent-placeholder-2 = Start typing to describe your accent
 profile-form-age =
     .label = Age
 profile-form-gender-2 =
@@ -337,8 +354,12 @@ hidden = Hidden
 visible = Visible
 native-language =
     .label = Native Language
+profile-form-add-accent = Add new custom accent "{ $inputValue }"
+
+
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
+
 male = Male
 female = Female
 # Gender
@@ -347,6 +368,7 @@ why-profile-title = Why a profile?
 why-profile-text =
   By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
   Recognition engines that use this data to improve their accuracy.
+
 dashboard = Dashboard
 build-profile = Build Profile
 avatar = Avatar
@@ -372,6 +394,8 @@ skip-submission-description = During contribution submission feedback will be sk
 skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
 off = Off
 on = On
+help-accent = Need some help with accent?
+help-accent-explanation = Your accent is the way you pronounce words. It can be shaped by where you have lived, which other languages you speak and lots of other factors. You can share any information you feel is relevant here.
 
 ## Profile - Email
 browse-file-title = Upload an image file
@@ -470,12 +494,28 @@ faq-search-for-answers =
 
 ## ABOUT US
 about-title = Why Common Voice?
-about-subtitle = Common Voice is part of Mozilla's initiative to help teach machines how real people speak. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
-about-header-description = Both of these projects are part of our efforts to bridge the digital speech divide. Voice recognition technologies bring a human dimension to our devices, but developers need an enormous amount of voice data to build them. Currently, most of that data is expensive and proprietary.
-about-header-description-2 = This project is an effort to bridge the digital speech divide. Voice recognition technologies bring a human dimension to our devices, but developers need an enormous amount of voice data to build them. Currently, most of that data is expensive and proprietary.
-    We want to make voice data freely and publicly available, and make sure the data represents the diversity of real people. Together we can make voice recognition better for everyone.
-how-does-it-work-title = How does it work?
+about-header-description-v2 = <p>Common Voice is a publicly available voice dataset, powered by the voices of volunteer contributors around the world. People who want to build voice applications can use the dataset to train machine learning models.</p>
+    <p>At present, most voice datasets are owned by companies, which stifles innovation. Voice datasets also over-represent white, English-speaking males. This means that voice-enabled technology doesn’t work at all for many languages, and where it does work, it may not perform equally well for everyone. We want to change that by mobilising people everywhere to share their voice.</p>
+
+how-does-it-work-title-v2 = How does Common Voice work?
 how-does-it-work-text = We’re crowdsourcing an open-source dataset of voices. Donate your voice, validate the accuracy of other people’s clips, make the dataset better for everyone.
+
+## How does it work section
+about-language-req-subtitle = Someone asks for a language to be added.
+about-localization-title = Website Localization
+about-localization-subtitle = The website text is translated into that language.
+about-sentence-collection-title = Sentence Collection
+about-sentence-collection-subtitle = Sentences are collected for people to read aloud.
+about-new-lang-title = New Language Launch
+about-new-lang-subtitle = We launch the Common Voice site in this language.
+about-voice-contrib-title = Voice Contribution
+about-voice-contrib-subtitle = People come and contribute their voices.
+about-voice-validation-title = Voice Validation
+about-voice-validation-subtitle = Other people validate those voice clips.
+about-dataset-release-title = Dataset Release
+about-dataset-release-subtitle = We release the dataset every 3 months.
+
+about-subscribe-text = Want to stay in touch with Common Voice?
 
 about-speak = Speak
 about-speak-text = Contributors record voice clips by reading from a bank of donated sentences.
@@ -505,10 +545,89 @@ about-get-involved-text-2 = Want to help make Common Voice even better?
     forums, submit site issues via <githubLink>GitHub</githubLink>, or join the
     <matrixLink>Matrix</matrixLink> community chat.
 
+about-stay-in-touch = How do I stay in touch?
+about-stay-in-touch-text-1 = <emailFragment>Sign up</emailFragment> to our mailing list to learn how you can take part in campaigns, events and co-design features on Common Voice.
+about-stay-in-touch-text-2 = You can meet others in the Mozilla language communities by joining <discourseLink>Discourse</discourseLink> for topical conversations, or <matrixLink>Matrix</matrixLink> for quick advice.
+
 about-nav-why-common-voice = Why ?
 about-nav-how-it-works = How ?
 about-nav-partners = Partners
 about-nav-get-involved = Get involved
+
+about-nav-how-it-works-2 = How does Common Voice work?
+about-nav-playbook = Learn how to take part
+
+## Community Playbook Content
+## What is a language
+about-playbook-what-is-language = What is a language on Common Voice?
+about-playbook-what-is-language-content-1 = There are lots of ways to think about language. For the purposes of speech recognition models, Common Voice suggests focussing on ‘mutual intelligibility’, or ‘can speakers of this language mostly understand one another if they try to?’
+about-playbook-what-is-language-content-2 = We want speech models to be better at understanding a diverse range of speakers. For this to happen, a voice dataset must represent lots of different people.
+about-playbook-what-is-language-content-3 = Some languages have enormous variation in grammar, vocabulary and pronunciation. For this reason, we are <ctaLink>introducing ‘Variants’</ctaLink> in 2022. This gives communities a way to distinguish their languages within the larger dataset.
+
+## How do I add a language
+about-playbook-how-add-language = How do I add a language?
+about-playbook-how-add-language-content-1 = First, check if your language <languageLink>already exists</languageLink>. If it doesn’t you need to <strong>translate the site and collect sentences</strong>.
+about-playbook-how-add-language-content-2 = <strong>To translate the site</strong> - get <translateVideo>set up</translateVideo> on <pontoonLink>Pontoon</pontoonLink>. Pontoon has lots of languages, but if it doesn’t have yours you can <pontoonRequestLink>request it</pontoonRequestLink>. Then ask <repoLink>via GitHub</repoLink> to have the Common Voice project made available for the language. See more on <localizationFragment>site translation</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>To collect sentences</strong> - <scVideo>set up</scVideo> on <scLink>Sentence Collector</scLink>.
+about-playbook-how-add-language-content-4 = You can <scLinkAdd>add small numbers</scLinkAdd> of sentences here, or you can do <bulkImportDocsLink>bulk imports</bulkImportDocsLink> via a Github request. Remember that sentences need to be <licenseLink>CC0 (or public domain)</licenseLink>, or you can write your own. See more on <scFragment>sentence collection</scFragment>.
+
+## How does localization work
+about-playbook-how-localize = How does site localization work?
+about-playbook-how-localize-content-1 = Translation of the Common Voice site happens on <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Create an account</pontoonAccountLink> if you don’t have one. Then, choose your language <strong>(‘Team’)</strong> and then choose the project, <pontoonCvLink>Common Voice</pontoonCvLink>. There will be files to translate. Click on one, then it shows words in English and a box to translate them.
+about-playbook-how-localize-content-3 = Translation is from English, but you can see <strong>Suggestions</strong> in other languages. Click the <strong>Profile</strong> icon, then <strong>Settings</strong> link and add any languages you speak. At the bottom right-hand corner will be a list of translations called <strong>Locales</strong>. Translations show on the site after one day.
+about-playbook-how-localize-content-4 = The site is ready to be launched when it reaches 75% completion.
+about-playbook-how-localize-content-5 = Watch our video explainer to help
+
+## How to add sentences
+about-playbook-how-add-sentences = How do I add sentences?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> is a tool for collecting and validating public domain sentences. You will <scAccountLink>need to create an account</scAccountLink>. Then, add your language to your <strong>Profile</strong>.  You can <strong>Add</strong> sentences or <strong>Review</strong> previously-added sentences.
+about-playbook-how-add-sentences-content-2 = Sentences must be reviewed and accepted by two people to be included in Common Voice. You create guidelines for your language <languageGuidelinesLink>here</languageGuidelinesLink>. Sentences must be in the <licenseLink>public domain</licenseLink> and shorter than 15 words. You can ask the owner of a text to make it <waiverLink>CC0 using our waiver process</waiverLink>, and send to us on commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = You can use the <scraperLink>Sentence extractor</scraperLink> to leverage short sentences from Wikipedia.
+about-playbook-how-add-sentences-content-4 = Sentences that have been validated are exported on Wednesdays, and are available after the next release.
+
+## How to record quality
+about-playbook-how-record-quality = How do I record a high quality voice clip?
+about-playbook-how-record-content-1 = Speak in your normal voice! The way you speak is welcome here - we want your accent as it is, and we want your usual volume, style and intonation.
+about-playbook-how-record-content-2 = Avoid too much background noise - it should be easy to hear you.
+about-playbook-how-record-content-3 = Read the sentence carefully - don’t miss, change or add words.
+about-playbook-how-record-content-4 = Make sure the platform is recording before you start speaking, and that it only stops once you’re finished.
+about-playbook-how-record-content-5 = <accuracyLink>See more on accuracy criteria.</accuracyLink>
+
+## How to grow language
+about-playbook-how-grow-language = How can we effectively grow a language on Common Voice?
+about-playbook-how-grow-language-content-1 = Creating opportunities for a diversity of people to contribute to Common Voice ensures the dataset serves as many people as possible. We’ve created resources and templates that you can use!
+about-playbook-how-grow-language-content-2 = Events
+about-playbook-how-grow-language-content-3 = You can run events to help people contribute. It’s easier than you think. You could do it online with a videoconferencing tool, or in person if it’s safe. <eventTemplate>Check out our templates and resources for running events</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Social media
+about-playbook-how-grow-language-content-5 = You could use social media platforms to get the message out. Share posts that explain why it matters, and get in touch with other people talking about issues like language rights, voice AI, or bias in tech. See more advice on <campaignLink>running a social campaign, including content you can re-use</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnerships and networks
+about-playbook-how-grow-language-content-7 = Find others who care. That could be universities, language schools, advocacy groups or data science communities. Reach out and explain clearly how they can help and why. <outreachTemplates>See our template outreach emails</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Get creative!</strong> Your language community will be unique, and these are just a few ways to get started.
+
+## How to validate
+about-playbook-how-validate = How do I know whether to approve a voice clip?
+about-playbook-how-validate-content-1 = If you could <strong>hear them</strong> and <strong>understand them</strong>, it’s usually <strong>best to approve</strong>.
+about-playbook-how-validate-content-2 = <strong>Do not reject clips where the speaker ‘has an accent’ that is different to your own</strong> - this is important for voice recognition to work better for everyone.
+about-playbook-how-validate-content-3 = If you think the pronunciation makes it <strong>impossible to understand</strong>, or there’s a <strong>lot of background noise</strong>, or there are <strong>other people speaking too</strong>, then you should reject the clip. <accuracyLink>See more information in our accuracy criteria</accuracyLink>.
+about-playbook-how-validate-content-4 = If a clip is rejected by 2 people, it is released in a different subset of the dataset.
+
+## How to access dataset
+about-playbook-how-access-dataset = How do I access and use the dataset?
+about-playbook-how-access-dataset-content-1 = You can go to the <datasetsPage>datasets page</datasetsPage>, select the version and language(s) you want, and download it! The files have <metadataLink>associated metadata</metadataLink>, such as demographic information and validation data. You’ll need to provide an email address to download the dataset.
+about-playbook-how-access-dataset-content-2 = If you’re looking for tools to build ASR models, you can connect to other people in the community <discourseLink>on Discourse</discourseLink>.
+
+
+## How are decisions made
+about-playbook-how-project-governance = How are project decisions made?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice is made possible by a diverse community of activists, linguists, data scientists, academics and software engineers from all over the world. The project is stewarded by the Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Our governance is founded on the pillars of:
+about-playbook-how-project-governance-content-3 = Privacy, security and transparency.
+about-playbook-how-project-governance-content-4 = Community participation and decision making.
+about-playbook-how-project-governance-content-5 = Value and recognition.
+about-playbook-how-project-governance-content-6 = Mutual accountability.
+about-playbook-how-project-governance-content-7 = <governanceLink>Read more about how we're governed</governanceLink>
+
 
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence
@@ -1005,3 +1124,313 @@ contribution-just-unsure-description = If you come across something that these g
 
 see-more = <chevron></chevron>See more
 see-less = <chevron></chevron>See less
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+## HEADER/FOOTER
+sc-header-home = Home
+sc-header-how-to = How-to
+sc-header-add = Add
+sc-header-review = Review
+sc-header-rejected = Rejected Sentences
+sc-header-my = My Sentences
+sc-header-statistics = Statistics
+sc-header-profile = Profile
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Report Bugs
+sc-footer-translate = Translate this page
+sc-footer-report-copyright = Report copyright issues
+sc-footer-privacy = Privacy
+sc-footer-terms = Terms
+sc-footer-cookies = Cookies
+sc-login-signup-button = Login / Signup
+sc-logout-button = Logout
+
+## HOME
+sc-home-title = Welcome to the Common Voice Sentence Collector
+sc-home-intro = The Sentence Collector is part of <commonVoiceLink>Common Voice</commonVoiceLink>. It allows contributors to collect and validate sentences created by the community. You can use this tool also to import and clean-up small-to-medium-sized public domain corpus you have found or collected. All sentences need to be Public Domain. Approved sentences are exported every week to the Common Voice repository and are released on the Common Voice website on every new deployment.
+sc-home-collect-title = Collect sentences
+sc-home-collect-text = Help us by writing or collecting Public Domain sentences.
+sc-home-review-title = Review sentences
+sc-home-review-text = Help us by reviewing sentences for correctness according to the guidelines.
+
+## GENERAL
+sc-languages-fetch-error = We failed to fetch available languages. Contributions are currently not possible. Please try again later.
+
+## HOW-TO
+sc-howto-title = How to
+sc-howto-addlang-title = Adding languages to work with
+sc-howto-addlang-text = Once logged in you can select your languages from the profile section.
+sc-howto-addsen-title = Add new sentences
+sc-howto-addsen-item-1 = All sentences you submit must be under <wikipediaLink>Public Domain (CC-0) license</wikipediaLink>. To support the inclusion of work not under public licence, we have created a <cc0WaiverLink>Contributions Agreement template</cc0WaiverLink> for works where the copyright owner would like to contribute the material to Common Voice.
+sc-howto-addsen-item-2 = Numbers. There should be no digits in the source text because they can cause problems when read aloud. The way a number is read depends on context and might introduce confusion in the dataset. For example, the number “2409” could be accurately read as both “twenty-four zero nine” and “two thousand four hundred nine”.
+sc-howto-addsen-item-3 = Abbreviations and Acronyms. Abbreviations and acronyms like “USA” or “ICE” should be avoided in the source text because they may be read in a way that does not coincide with their spelling. Additionally, there may be multiple accurate readings for a single abbreviation. For example, the acronym “ICE” could be pronounced “I-C-E” or as a single word.
+sc-howto-addsen-item-4 = Punctuation. Special symbols and punctuation should only be included when absolutely necessary. For example, an apostrophe is included in English words like “don’t” and “we’re” and should be included in the source text, but it’s unlikely you’ll ever need a special symbol like “@” or “#.”
+sc-howto-addsen-item-5 = Foreign letters. Letters must be valid in the language being spoken. For example, “ж” is a letter in the Russian alphabet but is never used in English and so should never appear in any English source text.
+sc-howto-addsen-item-6 = Languages can have their <validationRulesLink>own validation rules</validationRulesLink> with additional requirements. If there is no specific validation file for a language, we are using the generic English rules.
+sc-howto-addsen-post-1 = We prefer natural/conversational sentences. While phonetic diversity and different words in sentences is important, we are trying to make recording sentences as much fun as possible. Therefore it would be great if you could try to keep your sentences as natural/engaging as possible.
+sc-howto-cite-title = How to Cite
+sc-howto-cite-pre-1 = It's important that you reference where you found the public licence to avoid plagiarism and to allow for follow ups on <copyrightIssuesLink>copyright issues</copyrightIssuesLink>. Here are a few ways you can cite the work.
+sc-howto-cite-item-1 = You could include the website, e.g "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = You could use academic referencing style, e.g Harvard style "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
+sc-howto-cite-item-3 = For public domain text not available online, you could use academic referencing style e.g Harvard style "Jess (2021) My Public licence poems"
+sc-howto-review-title = Review Sentences
+sc-howto-review-subtitle = Make sure the sentence meets the following criteria:
+sc-howto-review-criteria-1 = The sentence must be spelled correctly.
+sc-howto-review-criteria-2 = The sentence must be grammatically correct.
+sc-howto-review-criteria-3 = The sentence must be speakable.
+sc-howto-review-criteria-4 = If the sentence meets the criteria, click the "Approve" button.
+sc-howto-review-criteria-5 = If the sentence does not meet the above criteria, click the "Reject" button. If you are unsure about the sentence, you may also skip it and move on to the next one.
+sc-howto-review-criteria-6 = If you run out of sentences to review, please help us collect more sentences!
+sc-howto-findpd-title = Finding existing sentences in the Public Domain
+sc-howto-findpd-subtitle = Search for them on the Internet
+sc-howto-findpd-text-2 = Remember that we need permission to publish those sentences, so always ensure that the text belongs to the <wikipediaLink>public domain</wikipediaLink>. If there is no explicit indication, reach out to the person that the text belongs to and ask if they want to contribute their text to the Public Domain. If they want to, help them go through the <cc0WaiverLink>Contributions Agreement</cc0WaiverLink> process. If they do not want to contribute the text, then you are not allowed to use that text.
+sc-howto-findpd-tips = Here are some tips to find sentences:
+sc-howto-findpd-tips-1 = The best sources you can look for are podcasts, transcripts, movie scripts and anything that potential can contain everyday conversations.
+sc-howto-findpd-tips-2 = Government proceedings, books and articles are also great however since the text tends to be a little more formal they are less of a priority.
+sc-howto-findpd-tips-3 = Unfortunately we can’t have Wikimedia articles yet. So do not copy paste from there.
+sc-howto-findpd-subtitle-2 = Partner with local organizations or individuals
+sc-howto-findpd-partner-1 = There are a lot of public organizations that might want to collaborate and already have a lot of texts they can donate as public domain. Reach out to local universities, Governments and open source organizations to talk about the project and ask for their help.
+sc-howto-findpd-partner-2 = Expert linguists can also help, try to reach out to local linguistic universities (both teachers and students) and see if they can help to gather a diverse set of sound-diverse sentences in your language.
+
+## MY SENTENCES
+sc-my-title = My Sentences
+sc-my-description = This page gives you an overview of all your submitted sentences. You may also delete already submitted sentences if needed, by marking the checkbox next to it and clicking on &quot;Delete selected sentences&quot; at the bottom. Please only remove sentences if absolutely necessary, for example if you noticed after the fact that a sentence is copyright protected.
+sc-my-loading = Loading your sentences…
+sc-my-err-fetching = Error while fetching your sentences. Please try again.
+sc-my-no-sentences = No sentences found!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Submission: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Source:  { $source }
+sc-my-delete = Delete selected sentences
+sc-my-deleting = Deleting selected sentences…
+sc-my-err-failed-delete = Failed to delete selected sentences… Please try again!
+
+## REJECTED
+sc-rejected-title = Rejected Sentences
+sc-rejected-loading = Loading rejected sentences…
+sc-rejected-err-fetching = Error while fetching rejected sentences. Please try again.
+sc-rejected-none-found = No rejected sentences found!
+
+## STATS
+sc-stats-title = Statistics
+sc-stats-updating = Updating…
+sc-stats-error = We could not fetch the stats. Please try again later.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = The Common Voice Sentence Collector has collected { $sentenceCount } sentences in { $languageCount } languages!
+
+## ADD
+sc-submit-err-select-lang = Please select a language.
+sc-submit-err-add-sentences = Please add sentences.
+sc-submit-err-add-source = Please add a source.
+sc-submit-err-confirm-pd = Please confirm that these sentences are public domain.
+sc-submit-prompt =
+    .message = Sentences not submitted, are you sure you want to leave?
+sc-submit-title = Add Sentences
+sc-submit-select-language =
+    .labelText = Select Language
+sc-submit-add-sentences = Add <wikipediaLink>public domain</wikipediaLink> sentences
+sc-submit-ph-one-per-line =
+    .placeholder = One sentence per line
+sc-submit-from-where = Where are these <wikipediaLink>public domain</wikipediaLink> sentences from?
+sc-submit-ph-read-how-to =
+    .placeholder = Read our How-to if unsure how to attribute
+sc-submit-confirm = I confirm that these sentences are <wikipediaLink>public domain</wikipediaLink> and I have permission to upload them.
+sc-submit-button =
+    .submitText = Submit
+sc-submit-filtered = Filtered sentences due to requirements failing (please submit fixed versions as new sentences):
+sc-submit-guidelines = Please check the <howToLink>guidelines</howToLink>.
+
+## ADD LANGUAGE
+sc-add-lang-could-not-add = Could not add language
+sc-add-lang-sec-label = Add a language you want to contribute to
+sc-add-lang-sec-button = Add Language
+sc-add-err-unexpected = Unexpected response returned from server
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    {$duplicates ->
+        [0] Submitted sentences. {$duplicates} sentences were rejected as duplicates.
+        [one] Submitted sentences. {$duplicates} sentence was rejected as duplicate.
+        *[other] Submitted sentences. {$duplicates} sentences were rejected as duplicates.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    {$sentences ->
+        [0] No sentences failed
+        [one] 1 sentence failed
+        *[other] {$sentences} sentences failed
+    }
+sc-add-err-submission = Submission Error
+sc-add-lang-process-notice = If your language is not listed here, you can request it through <languageProcessLink>this process</languageProcessLink>.
+
+## ADD SENTENCES CONFIRMATION
+sc-confirm-are-you-sure =
+    .message = Sentences not submitted, are you sure you want to leave?
+sc-confirm-sentences-title = Confirm New Sentences
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    {$countOfSentences ->
+        [0] No sentences found.
+        [one] 1 sentence found.
+        *[other] {$countOfSentences} sentences found.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } rejected by you
+sc-confirm-already-reviewed =
+    {$countOfReviewed ->
+        [0] No sentence is already reviewed.
+        [one] 1 sentence is already reviewed. Great job!
+        *[other] {$countOfReviewed} sentences are already reviewed. Great job!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    {$readyCount ->
+        [0] No sentence ready for submission!
+        [one] 1 sentence ready for submission!
+        *[other] {$readyCount} sentences ready for submission!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } sentences are unreviewed. If you want, you can also review your sentences now before submitting them.
+sc-confirm-button-text = Confirm
+sc-confirm-uploading = Sentences are being uploaded. This can take several minutes depending on the number of sentences added. Please do not close this website.
+
+## LANGUAGE INFO
+sc-lang-info-title-total = Total
+sc-lang-info-title-personal = Personal
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    {$totalSentences ->
+        [0] No total sentences.
+        [one] 1 total sentence.
+        *[other] {$totalSentences} total sentences.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    {$totalInReview ->
+        [0] No sentences in review.
+        [one] 1 sentence in review.
+        *[other] {$totalInReview} sentences in review.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    {$unreviewedSentencesByYou ->
+        [0] No sentences left for you to review.
+        [one] 1 sentence left for you to review.
+        *[other] {$unreviewedSentencesByYou} sentences left for you to review.
+    }
+sc-lang-info-review-now = <reviewLink>Review now!</reviewLink>
+sc-lang-info-add-more = <addLink>Add more sentences now!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    {$validatedSentences ->
+        [0] No validated sentences.
+        [one] 1 validated sentence.
+        *[other] {$validatedSentences} validated sentences.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    {$rejectedSentences ->
+        [0] No rejected sentences.
+        [one] 1 rejected sentence.
+        *[other] {$rejectedSentences} rejected sentences.
+    }
+
+## LOGIN
+sc-login-err-failed = Login failed
+sc-login-err-try-again = Please try again.
+
+## PROFILE
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profile: { $username }
+sc-personal-err-lang-not-found = Could not remove language: language not found
+sc-personal-err-remove = Could not remove language
+sc-personal-your-languages = Your languages:
+sc-personal-remove-button = remove
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } added by you
+sc-personal-not-added = You have not added any languages yet.
+
+## REVIEW CRITERIA
+sc-criteria-modal = ⓘ Review Criteria
+sc-criteria-title = Review Criteria
+sc-criteria-make-sure = Make sure the sentence meets the following criteria:
+sc-criteria-item-1 = The sentence must be spelled correctly.
+sc-criteria-item-2 = The sentence must be grammatically correct.
+sc-criteria-item-3 = The sentence must be speakable.
+sc-criteria-item-4 = If the sentence meets the criteria, click the &quot;Approve&quot; button on the right.
+sc-criteria-item-5-2 = If the sentence does not meet the above criteria, click the &quot;Reject&quot; button on the left. If you are unsure about the sentence, you may also skip it and move on to the next one.
+sc-criteria-item-6 = If you run out of sentences to review, please help us collect more sentences!
+
+## REVIEW
+sc-review-lang-not-selected = You have not selected any languages. Please go to your <profileLink>Profile</profileLink> to select languages.
+sc-review-title = Review Sentences
+sc-review-loading = Loading sentences…
+sc-review-select-language = Please select a language to review sentences.
+sc-review-no-sentences = No sentences to review. <addLink>Add more sentences now!</addLink>
+sc-review-form-prompt =
+    .message = Reviewed sentences not submitted, are sure?
+sc-review-form-usage = Swipe right to approve the sentence. Swipe left to reject it. Swipe up to skip it. <strong>Do not forget to submit your review!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Source: { $sentenceSource }
+sc-review-form-button-reject = Reject
+sc-review-form-button-skip = Skip
+sc-review-form-button-approve = Approve
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = You can also use Keyboard Shortcuts: { sc-review-form-button-approve-shortcut } to Approve, { sc-review-form-button-reject-shortcut } to Reject, { sc-review-form-button-skip-shortcut } to Skip
+sc-review-form-button-submit =
+    .submitText = Finish Review
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    {$sentences ->
+        [0] No sentences reviewed.
+        [one] 1 sentence reviewed. Thank you!
+        *[other] { $sentences } sentences reviewed. Thank you!
+    }
+sc-review-form-review-failure = Review could not be saved. Please try again later.
+sc-review-link = Review
+
+## SETTINGS
+sc-settings-title = Settings
+sc-settings-ui-language = Interface Language
+sc-settings-language-translated-warning = The pages for this language might not be fully translated. You can help out with translation <pontoonLinkLink>on Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = Reset skipped sentences
+sc-settings-skipped-decription = You previously skipped sentences while reviewing. Resetting skipped sentences will show all skipped sentences again. This is independent of the language.
+sc-settings-show-all-button = Show all skipped sentences again
+sc-settings-failed = Could not change settings. Please try again.
+
+# VALIDATION
+sc-validation-number-of-words = Sentence must contain between 1 and 14 (inclusive) words
+sc-validation-no-numbers = Sentence should not contain numbers
+sc-validation-no-symbols = Sentence should not contain symbols
+sc-validation-no-abbreviations = Sentence should not contain abbreviations
+
+# [/SentenceCollector]
+
+localization-select =
+  .label = Choose language/localization

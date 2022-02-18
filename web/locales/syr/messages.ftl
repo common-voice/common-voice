@@ -1,5 +1,9 @@
 ## General
 
+email-input =
+    .label = ܐܓܪܬܐ ܐܠܝܩܛܪܘܢܝܬܐ
+loading = ܡܛܥܢܬܐ ...
+not-available-abbreviation = ܠܐ ܡܬܬܥܒ݂ܕܢܐ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -24,7 +28,7 @@ syr = ܣܘܼܪܝܝܐ
 ## Layout
 
 speak = ܐܡܪ
-speak-now = ܐܡܪ ܗܕ݂ܝܼܐ
+speak-now = ܐܡܪ ܗܕܝܐ
 datasets = ܣܕܪ̈ܐ ܕܫܘܘܕ̈ܥܐ
 languages = ܠܫܢ̈ܐ
 about = ܡܢܝ ܝܘܚ
@@ -202,6 +206,9 @@ your-languages = ܠܫܢܘܟ݂ܘܢ
 
 keep = ܢܛܪ
 
+## Profile Download
+
+
 ## Landing
 
 
@@ -221,4 +228,57 @@ keep = ܢܛܪ
 
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
