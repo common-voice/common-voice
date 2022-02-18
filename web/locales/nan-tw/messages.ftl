@@ -796,7 +796,7 @@ record-error-too-short = 錄音傷短矣。
 record-error-too-long = 錄音傷長矣。
 record-error-too-quiet = 錄音傷細聲矣。
 record-cancel = 取消重新錄音
-record-instruction = { $actionType } <recordIcon></recordIcon> 然後大聲說出句子
+record-instruction = { $actionType } <recordIcon></recordIcon> 然後大聲說出句子（括弧僅為參考發音）
 record-stop-instruction = 完成後{ $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = 還有三筆！
 record-again-instruction = 好！點擊<recordIcon></recordIcon>錄下下個片段
@@ -1134,6 +1134,9 @@ sc-home-collect-title = 收集句子
 sc-home-collect-text = 透過撰寫或收集公眾領域的語句來幫助我們增加內容。
 sc-home-review-title = 審核句子
 sc-home-review-text = 幫助我們依照下列標準來審核語句是否正確。
+
+## GENERAL
+
 
 ## HOW-TO
 
