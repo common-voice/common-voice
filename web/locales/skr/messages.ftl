@@ -90,6 +90,7 @@ ko = کورین
 kpv = کومی زائریان
 kw = کورینی
 ky = کرغیز
+lb = لیسم برگی
 lg = لوگانڈا
 lij = لیگورین
 lt = لیتھونی
@@ -119,6 +120,7 @@ nyn = رنیانکول
 oc = آكسيٹان
 or = اوڑیہ
 pa-IN = پنجابی
+pap-AW = پاپانین (اروبا)
 pl = پولش
 ps = پشتو
 pt = پرتگیزی
@@ -198,6 +200,7 @@ logout = لاگ آؤٹ
 
 home-cta = ٻولو تے اتھ حصہ پاؤ!
 show-wall-of-text = ٻیا پڑھو
+help-us-title = جملیاں دی تصدیق کرݨ وچ ساݙی مدد کرو!
 vote-yes = جیا
 vote-no = کو
 speak-subtitle = آپݨی آواز دان کرو
@@ -239,6 +242,7 @@ benefits = فائدے
 ## What's public
 
 whats-public = عوامی کیا ہے؟
+email-not-public = اساں تہاݙی ای میل عوامی کائناں کریسوں
 
 ## Speak & Listen Shortcuts
 
@@ -267,6 +271,7 @@ shortcut-record-toggle-label = ریکارڈ/رکو
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = کلپ ولدا ریکاڈ کرو
 shortcut-discard-ongoing-recording = اسکیپ
+shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ کو ں مسترد کرو۔
 shortcut-submit = واپس ون٘ڄو
 shortcut-submit-label = کلپ جمع کرواؤ
 request-language-button = زبان دی ارداس کرو
@@ -313,18 +318,22 @@ goals = مقاصد
 settings = ترتیباں
 edit-profile = پروفائل وچ تبدیلی کرو
 profile-close = بند کرو
+why-demographic = ایہ اہم کیوں ہے؟
 accept-privacy-title = رازداری پالیسی
 login-identity = لاگ ان سُن٘ڄاݨ
 login-signup = لاگ ان/ سائن اپ
 edit = تبدیلی کرو
 email-subscriptions = ای میل سبسکرپشناں
 download-profile = میݙا ڈیٹا ڈاؤن لوڈ کرو
+contribution-experience = ونڳاراں دا تجربہ
 off = بند
 on = چالو
 
 ## Profile - Email
 
 browse-file-title = تصویر فائل اپ لوڈ کرو
+connect-gravatar = گراوتار نال کنکٹ کرو
+gravatar_not_found = تہاݙی ای میل کیتے کوئی گرواتار کائنی لبھیا
 avatar-uploaded = اواتار اپ لوڈ تھیا
 max-file-size = { $kb }کےبی ودھ کنوں ودھ
 
@@ -336,6 +345,7 @@ add-language = زبان شامل کرو
 
 ## FAQ
 
+faq-title = اکثر پچھے ون٘ڄݨ آلے سوالات
 faq-what-cv-q = Common Voice کیا ہے؟
 faq-why-important-q = ایہ اہم کیوں ہے؟
 faq-why-my-lang-q = میݙی زبان اڄݨ تائیں کیوں شامل کائنی؟
@@ -354,10 +364,13 @@ about-localization-title = ویب سائٹ دی مقامیت
 about-sentence-collection-title = فقریاں دا مجموعہ
 about-new-lang-title = نویں زبان لان٘چ
 about-voice-validation-title = آواز تصدیق
+about-dataset-release-title = ڈیٹا سیٹ ریلیز
 about-speak = ٻولو
 about-listen = سݨو
+about-is-it-valid = بھلا ایہ کلپ ٹھیک ہے؟
 about-yes-votes = ≥٢ جیا ووٹ
 about-no-votes = ≥٢ ووٹ کائنی
+about-dataset-new = Common Voice ڈیٹاسیٹ
 about-partners = بھائیوال
 about-become-a-partner = بھائیوال بݨو
 about-get-involved = نال رلت کرو
@@ -387,6 +400,7 @@ about-nav-playbook = حصہ گھنݨ دا ݙا سکھو
 
 about-playbook-how-grow-language-content-2 = ایونٹ
 about-playbook-how-grow-language-content-4 = سماجی میڈیا
+about-playbook-how-grow-language-content-6 = بھائیوالی تے نیٹ ورک
 
 ## How to validate
 
@@ -396,6 +410,7 @@ about-playbook-how-grow-language-content-4 = سماجی میڈیا
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = رازداری، حفاظت تے شفافیت۔
 about-playbook-how-project-governance-content-5 = قدر تے سُن٘ڄاݨ
 about-playbook-how-project-governance-content-6 = باہمی احتساب
 mycroft-title = مائی کرافٹ آئی
