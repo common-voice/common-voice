@@ -584,6 +584,7 @@ about-playbook-how-validate-content-4 = kalama awen li weka tan jan 2 la, ilo li
 ## How to access dataset
 
 about-playbook-how-access-dataset = mi lukin e sona ale pi ilo Common Voice kepeken nasin seme?
+about-playbook-how-access-dataset-content-2 = sina alasa e ilo pali pi ilo ASR la, o toki tawa jan ante kulupu <discourseLink>lon ilo Discourse</discourseLink>.
 
 ## How are decisions made
 
