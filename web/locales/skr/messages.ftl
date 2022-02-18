@@ -228,6 +228,7 @@ x-years-short =
         [one] سال
        *[other] { $count } سال
     }
+help-make-dataset = ودھائے معیار دا ، عوامی ڈیٹا سیٹ بݨاوݨ کیتے ساݙی مدد کرو
 sign-up-account = کھاتے کیتے سائن اپ تھیوو
 email-subscription-title = ای میل اپ ڈیٹاں کیتے سائن اپ تھیوو
 
@@ -272,6 +273,7 @@ request-language-button = زبان دی ارداس کرو
 
 ## ProjectStatus
 
+status-contribute = آپݨی اواز دا حصہ پاؤ
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = اڳلا مقصد: { $goal }
@@ -334,6 +336,7 @@ add-language = زبان شامل کرو
 
 ## FAQ
 
+faq-what-cv-q = Common Voice کیا ہے؟
 faq-why-important-q = ایہ اہم کیوں ہے؟
 faq-why-my-lang-q = میݙی زبان اڄݨ تائیں کیوں شامل کائنی؟
 faq-what-is-cv = Common Voice کیا ہے؟
