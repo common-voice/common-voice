@@ -274,6 +274,7 @@ shortcut-discard-ongoing-recording = اسکیپ
 shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ کو ں مسترد کرو۔
 shortcut-submit = واپس ون٘ڄو
 shortcut-submit-label = کلپ جمع کرواؤ
+request-language-text-learn = اتھاں درخواست ݙیوݨ دا ݙا سکھو!
 request-language-button = زبان دی ارداس کرو
 
 ## ProjectStatus
@@ -363,6 +364,7 @@ about-title = Common Voice کیوں؟
 about-localization-title = ویب سائٹ دی مقامیت
 about-sentence-collection-title = فقریاں دا مجموعہ
 about-new-lang-title = نویں زبان لان٘چ
+about-voice-contrib-title = اواز دیاں ونگاراں
 about-voice-validation-title = آواز تصدیق
 about-dataset-release-title = ڈیٹا سیٹ ریلیز
 about-speak = ٻولو
@@ -371,6 +373,7 @@ about-is-it-valid = بھلا ایہ کلپ ٹھیک ہے؟
 about-yes-votes = ≥٢ جیا ووٹ
 about-no-votes = ≥٢ ووٹ کائنی
 about-dataset-new = Common Voice ڈیٹاسیٹ
+about-clip-graveyard = کلپ غستان
 about-partners = بھائیوال
 about-become-a-partner = بھائیوال بݨو
 about-get-involved = نال رلت کرو
@@ -419,6 +422,7 @@ mycroft-subtitle = مصنوعی ذہانت
 ## Glossary
 
 localization = مقامیت
+sentence-collection = فقریاں دا مجموعہ
 
 ## Error pages
 
@@ -430,8 +434,10 @@ data-download-button = کامن وائس ڈیٹا ڈاؤن لوڈ کرو
 data-download-yes = جیا
 data-download-deny = کو
 data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
+data-other-title = ٻئے اواز ڈیٹاسیٹس۔۔۔
 data-other-goto = { $name } تے ون٘ڄو
 data-other-download = ڈیٹا ڈاؤن لوڈ کرو
+data-bundle-button = ڈیٹاسیٹ بنڈل ڈاؤن لوڈ کرو
 release-version = ورشن
 dataset-date = تریخ
 license = لائسنس: <licenseLink>{ $license }</licenseLink>
@@ -441,13 +447,17 @@ terms-disagree = میں راضی کائنی
 review-recording = نظرثانی
 review-rerecord = ولدا ریکارڈ کرو
 review-cancel = جمع منسوخ کرو
+review-keep-recordings = رکارڈنگ رکھو
+review-delete-recordings = میݙی رکارڈنگ مٹاؤ
 
 ## Datasets Page
 
 language = زبان
 # File size in gigabytes
 size = سائز
+overall-hr-total = کُل مجموعی گھنٹے
 cv-license = لائسنس
+audio-format = آڈیو فارمیٹ
 splits = ٹکڑے
 email-to-download = ڈاؤن کرݨ کیتے ای میل درج کرو
 size-gigabyte = جی بی
