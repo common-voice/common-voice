@@ -772,7 +772,7 @@ total-hours = 已驗證時數
 
 ## Contribution
 
-action-click = 點擊
+action-click = 揤
 action-tap = 點選
 contribute = 參與貢獻
 listen = 聆聽
@@ -796,10 +796,10 @@ record-error-too-short = 錄音傷短矣。
 record-error-too-long = 錄音傷長矣。
 record-error-too-quiet = 錄音傷細聲矣。
 record-cancel = 取消重新錄音
-record-instruction = { $actionType }<recordIcon></recordIcon>然後大聲說出句子（括弧僅為參考發音）
+record-instruction = { $actionType }<recordIcon></recordIcon>大聲共這句話讀出來！（羅馬字是參考用的爾）
 record-stop-instruction = 完成後{ $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = 還有三筆！
-record-again-instruction = 好！點擊<recordIcon></recordIcon>錄下下個片段
+record-again-instruction = 好！揤<recordIcon></recordIcon>錄下下個片段
 record-again-instruction2 = 繼續加油，再錄一筆！<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>最後一筆了！
 review-tooltip = 在此確認或重錄片段
