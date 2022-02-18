@@ -458,10 +458,14 @@ size = سائز
 overall-hr-total = کُل مجموعی گھنٹے
 cv-license = لائسنس
 audio-format = آڈیو فارمیٹ
+number-of-voices = اوازوں دی تعداد
 splits = ٹکڑے
 email-to-download = ڈاؤن کرݨ کیتے ای میل درج کرو
 size-gigabyte = جی بی
 size-megabyte = ایم بی
+download-language = { $language } ڈاؤن لوڈ کرو
+validated-hours = کل تصدیق تھئے گھنٹے
+recorded-hours = ریکارڈ تھئے گھنٹے
 subscribe = سبسکرائب کرو
 get-started-speech = تقریر دی سُن٘ڄاݨ نال شروع کرو
 other-datasets = ٻئے وائس ڈیٹاسیٹس
@@ -527,6 +531,7 @@ clips-with-count-pluralized =
 record-cancel = ولدا رکارڈنگ منسوخ کرو
 share-clip = آپݨاں کلپ شیئر کرو
 share-common-voice = Common Voice شیئر کرو
+clips-uploaded = اپ لوڈ تھئے کلپ
 record-abort-submit = کلپ جمع کرواؤ
 target-segment-add-voice = آپݨی آواز رلاؤ
 target-segment-learn-more = ٻیا سِکھو
@@ -573,29 +578,44 @@ everyone = ہرکوئی
 ## Custom Goals
 
 both-speak-and-listen = ݙون٘ہیں
+daily-goal = ݙین٘ہ وار مقصد
+weekly-goal = ہفتہ وار مقصد
 easy-difficulty = سوکھا
 average-difficulty = اوسط
 difficult-difficulty = اوکھا
 pro-difficulty = پرو
 set-a-goal = مقصد مقرر کرو
+cant-decide = بھلا فیصلہ نہوے کر سڳدے؟
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } کلپ
        *[other] { $count } کلپاں
     }
+confirm-goal = مقصد دی تصدیق کرو
+goal-interval-weekly = ہفتہ وار
 share-goal-type-speak = ٻولݨ
 share-goal-type-listen = سݨݨ
 share-goal-type-both = ٻولݨ تے سݨݨ
+share-goal = میݙا مقصد شیئر کرو
 
 ## Profile Delete
 
 keep = جاری رکھو
 remove = ہٹاؤ
+profile-form-delete = پرفائل مٹاؤ
 
 ## Profile Download
 
+download-q = آپݨا ڈیٹا ڈاؤن لوڈ کرݨ دی لوڑ ہے؟
 download-recordings-title = ریکارڈنگز
 download-size = سائز
+download-selected = چُݨا ہویا
+download-start = پروفائل ڈیٹا ڈاؤن لوڈ کرو
+download-request = ریکارڈنگ دی ارداس کرو
+download-request-button = ڈاؤن لوڈ
+download-request-title = { $created }
+download-request-refresh-button = تازہ کرو
+download-request-modal-title = لنک ڈاؤن لوڈ کرو
 
 ## Landing
 
@@ -605,6 +625,10 @@ download-size = سائز
 
 ## Demo Datasets
 
+card-button-next = اڳلا
+card-button-back = پچھوں
+demo-language-select-label = زباناں براؤز کرو
+demo-account = کھاتہ
 
 ## Demo Account
 
@@ -617,6 +641,12 @@ download-size = سائز
 
 ## Validation criteria
 
+contribution-criteria-nav = معیار
+contribution-for-example = مثال دے طور تے
+contribution-misreadings-title = غلط پڑھݨ
+contribution-volume-title = حجم
+see-more = <chevron></chevron> ٻیا ݙیکھو
+see-less = <chevron></chevron>گھٹ ݙیکھو
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -625,6 +655,22 @@ download-size = سائز
 
 ## HEADER/FOOTER
 
+sc-header-home = مُکھ پناں
+sc-header-how-to = کین٘ویں
+sc-header-add = شامل کرو
+sc-header-review = نظرثانی
+sc-header-rejected = مسترد تھئے جملے
+sc-header-my = میݙے جملے
+sc-header-statistics = شماریات
+sc-header-profile = پروفائل
+sc-footer-discourse = ڈسکورس
+sc-footer-report-bugs = بگ رپورٹ کرو
+sc-footer-translate = ایں ورقے دا ترجمہ کرو
+sc-footer-privacy = رازداری
+sc-footer-terms = شرطاں
+sc-footer-cookies = کوکیاں
+sc-login-signup-button = لاگ ان / سائن اپ
+sc-logout-button = لاگ آؤٹ
 
 ## HOME
 
