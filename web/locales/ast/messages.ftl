@@ -956,6 +956,7 @@ sc-home-collect-text = Ayúdanos pente la escritura o recoyida de frases de domi
 
 ## HOW-TO
 
+sc-howto-review-title = Revisión de frases
 
 ## MY SENTENCES
 
