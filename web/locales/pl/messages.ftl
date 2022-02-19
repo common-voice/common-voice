@@ -98,6 +98,7 @@ ko = koreański
 kpv = komi (zyriański)
 kw = kornijski
 ky = kirgiski
+lb = luksemburski
 lg = luganda
 lij = liguryjski
 lt = litewski
@@ -1042,6 +1043,9 @@ sc-login-signup-button = Zaloguj się/zarejestruj
 sc-logout-button = Wyloguj się
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO
