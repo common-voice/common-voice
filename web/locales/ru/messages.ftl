@@ -156,6 +156,7 @@ ti = Тигринья
 tig = Тигре
 tk = Туркменский
 tl = Тагальский
+tok = Токипона
 tr = Турецкий
 tt = Татарский
 tw = Чви
@@ -1053,6 +1054,9 @@ sc-login-signup-button = Войти / Зарегистрироваться
 sc-logout-button = Выйти
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO
