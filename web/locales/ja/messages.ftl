@@ -35,9 +35,9 @@ ba = バシキール語
 bas = バサ語
 be = ベラルーシ語
 bg = ブルガリア語
-bm = バンバラ語
 bn = ベンガル語
 br = ブルトン語
+bs = ボスニア語
 bxr = ブリヤート語
 ca = カタルーニャ語
 cak = カクチケル語
@@ -53,7 +53,7 @@ dsb = 低地ソルブ語
 dv = ディベヒ語
 el = ギリシャ語
 en = 英語
-eo = エスペラント語
+eo = エスペラント
 es = スペイン語
 et = エストニア語
 eu = バスク語
@@ -66,6 +66,7 @@ fy-NL = フリジア語
 ga-IE = アイルランド語
 gl = ガリシア語
 gn = グアラニー語
+gom = ゴア・コンカニ語
 ha = ハウサ語
 he = ヘブライ語
 hi = ヒンディー語
@@ -77,6 +78,8 @@ hy-AM = アルメニア語
 hyw = 西アルメニア語
 ia = インターリングア
 id = インドネシア語
+ie = インターリング
+ig = イボ語
 is = アイスランド語
 it = イタリア語
 izh = イングリア語
@@ -85,12 +88,16 @@ ka = ジョージア語
 kaa = カラカルパク語
 kab = カビル語
 kbd = カバルド語
+ki = キクユ語
 kk = カザフ語
+km = クメール語
 kmr = クルマンジークルド語
+knn = コンカニ語 （デーヴァナーガリー）
 ko = 韓国語
 kpv = コミ・ジリエーン語
 kw = コーンウォール語
 ky = キルギス語
+lb = ルクセンブルク語
 lg = ガンダ語
 lij = リグリア語
 lt = リトアニア語
@@ -102,6 +109,7 @@ mhr = 牧地マリ語
 mk = マケドニア語
 ml = マラヤーラム語
 mn = モンゴル語
+mni = マニプリ語
 mos = モシ語
 mr = マラーティー語
 mrj = 山地マリ語
@@ -116,6 +124,7 @@ nn-NO = ノルウェー語 (ニーノシュク)
 oc = オック語
 or = オリヤー語
 pa-IN = パンジャブ語
+pap-AW = パピアメント語 (アルバ)
 pl = ポーランド語
 ps = パシュトー語
 pt = ポルトガル語
@@ -142,6 +151,7 @@ te = テルグ語
 tg = タジク語
 th = タイ語
 tl = タガログ語
+tok = トキポナ
 tr = トルコ語
 tt = タタール語
 uby = ウビフ語
@@ -153,6 +163,7 @@ uz = ウズベク語
 vec = ベネチア語
 vi = ベトナム語
 vot = ヴォート語
+yi = イディッシュ語
 yue = 広東語
 zh-CN = 中国語 (中国)
 zh-HK = 中国語 (香港)
@@ -276,6 +287,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = 録音/停止
 shortcut-rerecord-toggle = [1〜5]
 shortcut-rerecord-toggle-label = 音声クリップを再録音
+shortcut-discard-ongoing-recording = ESC
+shortcut-submit = Return
 request-language-text = あなたの使っている言語は Common Voice にありますか？
 request-language-text-learn = リクエストする方法をここで学びましょう！
 request-language-button = 言語の追加をリクエスト
@@ -301,6 +314,8 @@ profile-form-native-language =
     .label = 母国語
 profile-form-additional-language =
     .label = 追加言語
+profile-form-language =
+    .label = 言語
 profile-form-accent =
     .label = 方言
 profile-form-age =
@@ -425,12 +440,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = なぜ Common Voice なのか？
-about-subtitle = Common Voice プロジェクトは、機械が人の話を理解できるようにするための Mozilla の新たな取り組みの一つです。Common Voice データセットに加えて、Deep Speech と呼ばれるオープンソースの音声認識エンジンも構築しています。
-about-header-description =
-    これらのプロジェクトはどちらも、デジタル音声の格差を解消する取り組みの一環です。音声認識技術は私たちのデバイスに人間的側面をもたらしますが、開発者はそれらを構築するために膨大な量の音声データを必要とします。現在、そのデータの大部分は高価で独占的なものです。
-    私たちは音声データを自由に、そして公に利用可能にし、そのデータが現実の人々の多様性を表していることを確かめたいのです。私たちと一緒に、すべての人のために音声認識を良くしていきましょう。
-how-does-it-work-title = 動作の仕組みは？
 how-does-it-work-text = 私たちは声のオープンソースデータセットをクラウドソーシングしています。あなたの声を寄付し、他の人々の音声クリップの正確さを検証し、誰にとっても良いデータセットにしましょう。
+
+## How does it work section
+
 about-speak = 話す
 about-speak-text = 貢献者が寄付された文章を読み上げて音声クリップを録音します。
 about-listen-queue = リッスンキュー
@@ -459,6 +472,34 @@ about-nav-why-common-voice = なぜ？
 about-nav-how-it-works = どうやって？
 about-nav-partners = パートナー
 about-nav-get-involved = 参加しよう
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工知能
 mycroft-description =
@@ -829,4 +870,60 @@ demo-account = アカウント
 
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
