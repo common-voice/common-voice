@@ -98,6 +98,7 @@ ko = Hàn
 kpv = Komi-Zyria
 kw = Cornwall
 ky = Kyrgyz
+lb = Luxembourgish
 lg = Luganda
 lij = Ligurian
 lt = Litva
@@ -1143,6 +1144,10 @@ sc-home-collect-title = Thu thập các câu
 sc-home-collect-text = Giúp chúng tôi bằng cách viết hoặc thu thập các câu thuộc phạm vi cộng đồng.
 sc-home-review-title = Đánh giá các câu
 sc-home-review-text = Giúp chúng tôi bằng cách đánh giá các câu cho đúng theo hướng dẫn.
+
+## GENERAL
+
+sc-languages-fetch-error = Chúng tôi không thể tìm nạp các ngôn ngữ có sẵn. Không thể thực hiện việc đóng góp. Vui lòng thử lại sau.
 
 ## HOW-TO
 
