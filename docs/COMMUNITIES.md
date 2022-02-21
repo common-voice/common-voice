@@ -21,7 +21,7 @@ Many language communities are self organising and have their contact channels on
   * [Telegram](https://t.me/voice_by)
 * Bengali (`bn`): 
   * [Matrix](https://app.element.io/#/room/#bn-common-voice:mozilla.org)
-  * [Discord](https://discord.gg/ZeuyjzKB)
+  * [Discord](https://discord.gg/uacmNh6KQj)
 * Catalan (`ca`):
   * [Telegram](https://t.me/softcatala_tecnologiesparla)
 * Czech (`cs`):
