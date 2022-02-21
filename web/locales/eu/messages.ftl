@@ -552,11 +552,11 @@ glossary = Glosarioa
 localization = Lokalizazioa
 localization-explanation = Gure edukia hainbat lokalera (hizkuntzara) itzultzeko eta moldatzeko prozesuari deritzo.
 sentence-collection = Esaldiak biltzea
-sentence-collection-explanation = jabetza publikoan dauden esaldiak biltzea edo zuzenean berriak idaztea eta berauok jabetza publikoan uztea.
+sentence-collection-explanation = Jabetza publikoan dauden esaldiak biltzea edo zuzenean berriak idaztea eta berauek jabetza publikoan uztea.
 hours-recorded-explanation = Orain arte bildu ditugun ahots grabazioen ordu kopurua.
 hours-validated-explanation = 2 edo 3 erabiltzailek "Bai" bezala bozkatu dituzten ahots grabazioen orduak. 10.000 orduko helburuarekiko aurrerabidea honen arabera kalkulatzen da.
 sst = Speech-to-text (STT)
-sst-explanation = hizketatik testura teknologiek (STT), ahots datuak testu bihurtzen dituzte.
+sst-explanation = Hizketatik testura teknologiek (STT), ahots datuak testu bihurtzen dituzte.
 de-identified = Des-identifikazioa
 de-identified-explanation = Datu-sorta deskargagarri uzteko paketatzen denean, egilearen profilaren informazioa berak grabatutako grabazioetatik ezkutatzeko prozesua.
 
