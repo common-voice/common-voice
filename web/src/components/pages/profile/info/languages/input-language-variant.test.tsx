@@ -49,7 +49,7 @@ describe('InputLanguageVariant', () => {
 
     // pick an option in the select box
     userEvent.selectOptions(
-      screen.getByLabelText('Is your language in any of these variants?'),
+      screen.getByLabelText('Which variant of Cymraeg do you speak?'),
       screen.getByRole('option', { name: 'North-Western Welsh' })
     );
 
@@ -68,20 +68,20 @@ describe('InputLanguageVariant', () => {
 
   it('should remove item if selecting empty option', async () => {
     const filledMockUserLanguages = [
-      { locale: 'en', accents: [] },
+      { locale: 'cy', accents: [] },
       {
-        locale: 'cy',
+        locale: 'pt',
         accents: [],
         variant: {
           id: 1,
-          name: 'North-Western Welsh',
-          token: 'cy-north',
+          name: 'Portuguese (Brasil)',
+          token: 'pt-BR',
         },
       },
     ] as UserLanguage[];
     await renderWithLocalization(
       <InputLanguageVariant
-        locale={'cy'}
+        locale={'pt'}
         variantsAll={MOCK_VARIANTS_ALL}
         userLanguages={filledMockUserLanguages}
         setUserLanguages={mockSetUserLanguage}
@@ -90,13 +90,13 @@ describe('InputLanguageVariant', () => {
 
     // pick empty option
     userEvent.selectOptions(
-      screen.getByLabelText('Is your language in any of these variants?'),
+      screen.getByLabelText('Which variant of Português do you speak?'),
       screen.getByRole('option', { name: '' })
     );
 
     const expectedLanguages = [
-      { locale: 'en', accents: [] },
-      { locale: 'cy', accents: [], variant: null },
+      { locale: 'cy', accents: [] },
+      { locale: 'pt', accents: [], variant: null },
     ] as UserLanguage[];
     expect(mockSetUserLanguage).toBeCalledWith(expectedLanguages);
   });

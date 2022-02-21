@@ -51,4 +51,8 @@ export const MOCK_VARIANTS_ALL = {
     { id: 2, token: 'cy-south', name: 'North-Eastern Welsh' },
     { id: 3, token: 'cy-patagon', name: 'Patagonian Welsh' },
   ],
+  pt: [
+    { id: 1, token: 'pt-BR', name: 'Portugese (Brasil)' },
+    { id: 2, token: 'pt-PT', name: 'Portugese (Portugal)' },
+  ],
 } as VariantsAll;

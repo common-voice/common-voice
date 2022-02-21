@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Localized } from '@fluent/react';
 
+import { NATIVE_NAMES } from '../../../../../services/localization';
 import { LabeledSelect } from '../../../../ui/ui';
 import { UserLanguage } from 'common';
 import { VariantsAll } from './languages';
@@ -77,9 +78,13 @@ const InputLanguageVariant = ({
   }
 
   const selectedValue = getUserLanguageVariant(userLanguages, locale);
+  const language = NATIVE_NAMES[locale];
 
   return (
-    <Localized id="profile-form-variant" attrs={{ label: true }}>
+    <Localized
+      id="profile-form-variant"
+      attrs={{ label: true }}
+      vars={{ language }}>
       <LabeledSelect value={selectedValue} onChange={handleChange}>
         <option value={DEFAULT_OPTION_VALUE} />
         {variants.map(({ id, name }) => (
