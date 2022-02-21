@@ -689,7 +689,7 @@ number-of-voices = Nombre de veus
 splits = Divisions
 email-to-download = Introduïu l'adreça electrònica per baixar
 why-email = <b>Per què una adreça electrònica?</ b> És una forma de contacte en cas que ens haguéssim de posar en contacte en un futur per canvis en el conjunt de dades.
-confirm-size = Estic preparat per iniciar una baixada de <b>{ $size }</ b>
+confirm-size = Estic preparat per a iniciar una baixada de <b>{ $size }</ b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Accepto</ b> no intentar determinar la identitat dels parlants del conjunt de dades del Common Voice
@@ -720,7 +720,7 @@ your-feedback = Teniu idees sobre com millorar el conjunt de dades del Common Vo
 go-discourse = Vés al Discourse
 missing-language = No veieu la vostra llengua al conjunt de dades? Per sol·licitar una llengua, aneu a la pàgina de llengües.
 go-languages-page = Vés a la pàgina de llengües
-ready-to-validate = Esteu preparat per validar frases?
+ready-to-validate = Esteu preparat per a validar frases?
 more = Més
 close = Tanca
 download = Baixa
@@ -789,8 +789,8 @@ goal-help-recording = Heu ajudat el Common Voice a assolir el <goalPercentage></
 goal-help-validation = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } validacions!
 contribute-more =
     { $count ->
-        [one] Preparat per fer-ne { $count } més?
-       *[other] Preparat per fer-ne { $count } més?
+        [one] Preparat per a fer-ne { $count } més?
+       *[other] Preparat per a fer-ne { $count } més?
     }
 record-cta = Enregistreu
 record-platform-not-supported = Malauradament, la vostra plataforma no és compatible actualment.
@@ -1150,6 +1150,9 @@ sc-home-collect-title = Recull frases
 sc-home-collect-text = Ajudeu-nos escrivint o recopilant frases de domini públic.
 sc-home-review-title = Revisa les frases
 sc-home-review-text = Ajudeu-nos revisant la correcció de les frases segons unes directrius.
+
+## GENERAL
+
 
 ## HOW-TO
 
