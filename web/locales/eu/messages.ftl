@@ -34,7 +34,6 @@ az = Azerbaijanera
 ba = Baxkirera
 be = Bielorrusiera
 bg = Bulgariera
-bm = Banbara
 bn = Bengaliera
 br = Bretoiera
 bxr = Buriatera
@@ -448,13 +447,15 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Zergatik Common Voice?
-about-subtitle = Common Voice Mozillaren ekimenaren parte da, makinei gizakiek benetan nola hitz egiten duten irakasten laguntzeko. Common Voice datu-sortaz gain, kode irekiko ahotsa ezagutzeko motorra ere sortzen ari gara, Deep Speech izenekoa.
-about-header-description = Bi proiektu hauek mundu digitalean hizkuntzaren arrakalaren aurka borrokatzeko egin ditugun ahaleginen emaitza dira. Ahotsa ezagutzeko teknologiek giza dimentsioa ematen diete gure gailuei, baina garatzaileek ahots-datu ugari behar dituzte horiek sortu ahal izateko. Gaur egun, datu horietako gehienak garestiak eta jabetza pribatukoak dira.
-about-header-description-2 =
-    Proiektu hau hizketa digitalaren arrakala ixteko ahalegina da. Ahotsa ezagutzeko teknologiek giza dimentsioa ematen diete gure gailuei, baina garatzaileek ahots-datu ugari behar dituzte horiek eraikitzeko. Gaur egun, datu horietako gehienak garestiak eta jabedunak dira. 
-    Ahots-datuak doan eta publikoki eskuragarri egotea nahi dugu, eta datuek benetako pertsonen aniztasuna adierazten dutela ziurtatu. Elkarrekin ahotsaren ezagutza guztiontzat hobea izatea lor dezakegu.
-how-does-it-work-title = Nola dabilen
 how-does-it-work-text = Ahotsen datu-sorta ireki bat sortzen ari gara denon artean. Eman zure ahotsa, balioztatu besteen grabazioen egokitasuna, egin datu-sorta hobea guztiontzat.
+
+## How does it work section
+
+about-sentence-collection-title = Esaldi bilketa
+about-voice-contrib-title = Ahotsen grabaketa
+about-voice-validation-title = Ahotsen balioztatzea
+about-dataset-release-title = Datu-sortaren argitalpena
+about-dataset-release-subtitle = Datu-sorta 3 hilero argitaratzen dugu.
 about-speak = Hitz egin
 about-speak-text = Parte hartzaileek beraien grabazioak egiten dituzte aurretik lagatako esaldi biltegi batetik esaldiak irakurriz.
 about-listen-queue = Entzuketa ilara
@@ -488,6 +489,34 @@ about-nav-why-common-voice = Zergatik?
 about-nav-how-it-works = Nola?
 about-nav-partners = Babesleak
 about-nav-get-involved = Parte hartu
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Adimen artifiziala
 mycroft-description =
@@ -986,6 +1015,9 @@ sc-home-collect-title = Bildu esaldiak
 sc-home-collect-text = Lagun gaitzazu jabetza publikoan dauden esaldiak idatziz edo bilduz.
 sc-home-review-title = Berrikusi esaldiak
 
+## GENERAL
+
+
 ## HOW-TO
 
 sc-howto-addsen-title = Gehitu esaldi berriak
@@ -1008,10 +1040,6 @@ sc-rejected-none-found = Ez da baztertutako esaldirik aurkitu!
 ## STATS
 
 sc-stats-title = Estatistikak
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Azken eguneratzea: { $lastUpdate }
-sc-stats-last-update-never = Azken eguneratzea: inoiz ez
 sc-stats-updating = Eguneratzen…
 
 ## ADD
