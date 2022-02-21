@@ -550,7 +550,7 @@ mycroft-secondary-description = Hau kode irekiko softwarea da eta nahieran nahas
 
 glossary = Glosarioa
 localization = Lokalizazioa
-localization-explanation = gure edukia hainbat lokaletara (hizkuntzatara) itzultzeko eta moldatzeko prozesuari deritzo.
+localization-explanation = Gure edukia hainbat lokalera (hizkuntzara) itzultzeko eta moldatzeko prozesuari deritzo.
 sentence-collection = Esaldiak biltzea
 sentence-collection-explanation = jabetza publikoan dauden esaldiak biltzea edo zuzenean berriak idaztea eta berauok jabetza publikoan uztea.
 hours-recorded-explanation = Orain arte bildu ditugun ahots grabazioen ordu kopurua.
@@ -586,6 +586,7 @@ dataset-date = Data
 license = Lizentzia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mistoa
 data-download-singleword-title = Deskargatu hitz bakarreko esparru zehatzeko atala
+data-download-singleword-callout-v2 = Erabilera kasu honek digituen eta bai / ez hitzen ahoskera ezagutzea du helburu.
 review-terms = Common Voice erabiltzean, bere <termsLink>erabilera baldintzak</termsLink> eta <privacyLink>pribatutasun-oharra</privacyLink> onartzen dituzu
 terms-agree = Onartzen dut
 terms-disagree = Ez dut onartzen
