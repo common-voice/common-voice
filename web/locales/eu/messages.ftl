@@ -451,9 +451,17 @@ how-does-it-work-text = Ahotsen datu-sorta ireki bat sortzen ari gara denon arte
 
 ## How does it work section
 
+about-language-req-subtitle = Norbaitek hizkuntza bat gehitzea eskatzen du.
+about-localization-title = Webgunearen lokalizazioa
+about-localization-subtitle = Webguneko testua hizkuntza horretara itzultzen da.
 about-sentence-collection-title = Esaldi bilketa
+about-sentence-collection-subtitle = Esaldiak biltzen dira jendeak altuan irakurtzeko.
+about-new-lang-title = Hizkuntza berria martxan
+about-new-lang-subtitle = Common Voice gunea hizkuntza honetan martxan jartzen dugu.
 about-voice-contrib-title = Ahotsen grabaketa
+about-voice-contrib-subtitle = Jendea dator eta bere ahotsarekin laguntzen du.
 about-voice-validation-title = Ahotsen balioztatzea
+about-voice-validation-subtitle = Beste jende batek ahots grabazio horiek balioztatzen ditu.
 about-dataset-release-title = Datu-sortaren argitalpena
 about-dataset-release-subtitle = Datu-sorta 3 hilero argitaratzen dugu.
 about-speak = Hitz egin
@@ -499,6 +507,7 @@ about-nav-get-involved = Parte hartu
 
 ## How does localization work
 
+about-playbook-how-localize-content-4 = Gunea martxan jartzeko prest dago % 75 egina dagoenean.
 
 ## How to add sentences
 
@@ -689,7 +698,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> grabazio
     }
 goal-help-recording = Common Voicek egunero { $goalValue } grabazio lortzea du helburu eta zuk helburuaren <goalPercentage></goalPercentage>a lortzen lagundu duzu!
-goal-help-validation = Common Voice lagundu duzu egunero { $goalValue } balidatzeko dugun helburuaren <goalPercentage></goalPercentage> lortzen!
+goal-help-validation = Common Voice lagundu duzu egunero { $goalValue } balioztatzeko dugun helburuaren <goalPercentage></goalPercentage> lortzen!
 contribute-more =
     { $count ->
         [one] { $count } gehiago egiteko prest?
