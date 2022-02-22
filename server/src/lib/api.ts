@@ -4,6 +4,10 @@ import * as bodyParser from 'body-parser';
 import { MD5 } from 'crypto-js';
 import { NextFunction, Request, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
+import { StatusCodes } from 'http-status-codes';
+import PromiseRouter from 'express-promise-router';
+const Transcoder = require('stream-transcoder');
+
 import { UserClient as UserClientType } from 'common';
 import { authMiddleware } from '../auth-router';
 import { getConfig, CommonVoiceConfig } from '../config-helper';
@@ -21,11 +25,6 @@ import Challenge from './challenge';
 import { taxonomies } from 'common';
 import Takeout from './takeout';
 import NotificationQueue, { uploadImage } from './queues/imageQueue';
-const Transcoder = require('stream-transcoder');
-import { StatusCodes } from 'http-status-codes';
-import { nextTick } from 'process';
-
-const PromiseRouter = require('express-promise-router');
 
 import validate, { jobSchema, sentenceSchema } from './validation';
 
@@ -250,7 +249,7 @@ export default class API {
   };
 
   saveAvatar = async (
-    { body, headers, params, user, client_id }: Request,
+    { body, params, user, client_id }: Request,
     response: Response
   ) => {
     let avatarURL;
@@ -362,7 +361,7 @@ export default class API {
       let path = await UserClient.getAvatarClipURL(user.emails[0].value);
       path = path[0][0].avatar_clip_url;
 
-      let avatarclip = await this.bucket.getAvatarClipsUrl(path);
+      const avatarclip = await this.bucket.getAvatarClipsUrl(path);
       response.json(avatarclip);
     } catch (err) {
       response.json(null);
@@ -440,10 +439,7 @@ export default class API {
     response.json({});
   };
 
-  insertDownloader = async (
-    { client_id, body }: Request,
-    response: Response
-  ) => {
+  insertDownloader = async ({ body }: Request, response: Response) => {
     await this.model.db.insertDownloader(body.locale, body.email, body.dataset);
     response.json({});
   };
@@ -451,7 +447,9 @@ export default class API {
   seenAwards = async ({ client_id, query }: Request, response: Response) => {
     await Awards.seen(
       client_id,
-      query.hasOwnProperty('notification') ? 'notification' : 'award'
+      Object.prototype.hasOwnProperty.call(query, 'notification')
+        ? 'notification'
+        : 'award'
     );
     response.json({});
   };

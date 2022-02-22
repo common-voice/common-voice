@@ -69,8 +69,11 @@ export const Checkbox = React.forwardRef(
 );
 Checkbox.displayName = 'Checkbox';
 
-export const LabeledCheckbox = React.forwardRef(
-  ({ label, required, style, ...props }: any, ref) => (
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const LabeledCheckbox = React.forwardRef((allProps: any, ref) => {
+  const { label, required, style, ...props } = allProps;
+
+  return (
     <label className="labeled-checkbox" style={style}>
       <Checkbox
         ref={ref}
@@ -83,60 +86,60 @@ export const LabeledCheckbox = React.forwardRef(
         {label}
       </span>
     </label>
-  )
-);
+  );
+});
 LabeledCheckbox.displayName = 'LabeledCheckbox';
 
-const LabeledFormControl = React.forwardRef(
-  (
-    {
-      className = '',
-      component: Component,
-      button,
-      label,
-      required,
-      isLabelVisuallyHidden,
-      ...props
-    }: any,
-    ref
-  ) => {
-    const child = (
-      <Component
-        ref={ref}
-        aria-required={required}
-        required={required}
-        {...props}
-      />
-    );
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const LabeledFormControl = React.forwardRef((allProps: any, ref) => {
+  const {
+    className = '',
+    component: Component,
+    label,
+    required,
+    disabled,
+    isLabelVisuallyHidden,
+    ...props
+  } = allProps;
 
-    return (
-      <label
-        className={[
-          'labeled-form-control',
-          'for-' + Component,
-          className,
-          props.disabled ? 'disabled' : '',
-        ].join(' ')}
-        {...props}>
-        {isLabelVisuallyHidden ? (
-          <VisuallyHidden>{label}</VisuallyHidden>
-        ) : (
-          <span className="label">
-            {required && <span aria-hidden="true">* </span>}
-            {label}
-          </span>
-        )}
-        {Component == 'select' ? (
-          <div className="wrapper with-down-arrow">{child}</div>
-        ) : (
-          child
-        )}
-      </label>
-    );
-  }
-);
+  const child = (
+    <Component
+      ref={ref}
+      aria-required={required}
+      required={required}
+      disabled={disabled}
+      {...props}
+    />
+  );
+
+  const labelClassName = cx(
+    'labeled-form-control',
+    'for-' + Component,
+    className,
+    { disabled }
+  );
+
+  return (
+    <label className={labelClassName} {...props}>
+      {isLabelVisuallyHidden ? (
+        <VisuallyHidden>{label}</VisuallyHidden>
+      ) : (
+        <span className="label">
+          {required && <span aria-hidden="true">* </span>}
+          {label}
+        </span>
+      )}
+      {Component == 'select' ? (
+        <div className="wrapper with-down-arrow">{child}</div>
+      ) : (
+        child
+      )}
+    </label>
+  );
+});
 LabeledFormControl.displayName = 'LabeledFormControl';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const LabeledInput = React.forwardRef(({ type, ...props }: any, ref) => (
   <LabeledFormControl
     component="input"
