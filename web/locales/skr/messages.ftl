@@ -318,6 +318,7 @@ avatar = اواتار
 goals = مقاصد
 settings = ترتیباں
 edit-profile = پروفائل وچ تبدیلی کرو
+profile-create-success = کامیابی، پروفائل خلقیج ڳئی!
 profile-close = بند کرو
 why-demographic = ایہ اہم کیوں ہے؟
 accept-privacy-title = رازداری پالیسی
@@ -327,6 +328,7 @@ edit = تبدیلی کرو
 email-subscriptions = ای میل سبسکرپشناں
 download-profile = میݙا ڈیٹا ڈاؤن لوڈ کرو
 contribution-experience = ونڳاراں دا تجربہ
+skip-submission-feedback = سب مشن فیڈبیک چھوڑ ݙیوو
 off = بند
 on = چالو
 
@@ -335,6 +337,7 @@ on = چالو
 browse-file-title = تصویر فائل اپ لوڈ کرو
 connect-gravatar = گراوتار نال کنکٹ کرو
 gravatar_not_found = تہاݙی ای میل کیتے کوئی گرواتار کائنی لبھیا
+file_too_large = چݨی ہوئی فائل ٻہوں وݙی ہے
 avatar-uploaded = اواتار اپ لوڈ تھیا
 max-file-size = { $kb }کےبی ودھ کنوں ودھ
 
@@ -350,6 +353,8 @@ faq-title = اکثر پچھے ون٘ڄݨ آلے سوالات
 faq-what-cv-q = Common Voice کیا ہے؟
 faq-why-important-q = ایہ اہم کیوں ہے؟
 faq-why-my-lang-q = میݙی زبان اڄݨ تائیں کیوں شامل کائنی؟
+faq-why-account-q = میں کھاتے کیتے سائن اپ کیوں تھیواں؟
+faq-is-account-public-q = بھلا میݙیاں کھاتہ معلومات عوامی ہن؟
 faq-what-is-cv = Common Voice کیا ہے؟
 faq-using-cv = کامن وائس ورتݨ
 faq-search-for-answers =
@@ -421,6 +426,7 @@ mycroft-subtitle = مصنوعی ذہانت
 
 ## Glossary
 
+glossary = فرہنگ
 localization = مقامیت
 sentence-collection = فقریاں دا مجموعہ
 
