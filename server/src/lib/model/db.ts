@@ -6,6 +6,8 @@ import VoteTable from './db/tables/vote-table';
 import { ChallengeToken, Sentence } from 'common';
 import { features } from 'common';
 import { TaxonomyToken, taxonomies } from 'common';
+import lazyCache from '../lazy-cache';
+const MINUTE = 1000 * 60;
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
@@ -157,6 +159,21 @@ export default class DB {
       `,
       [locales]
     );
+    return rows;
+  }
+
+  async getValidClips(languageId: number, limit: number): Promise<any> {
+    const [rows] = await this.mysql.query(
+      `
+        SELECT *
+        FROM clips c
+        LEFT JOIN sentences s ON s.id = c.original_sentence_id and c.locale_id = ?
+        WHERE c.is_valid is null
+        limit ?
+      `,
+      [languageId, limit]
+    );
+
     return rows;
   }
 
@@ -361,6 +378,15 @@ export default class DB {
     count: number,
     exemptFromSSRL?: boolean
   ): Promise<DBClipWithVoters[]> {
+    const cachedClips = await lazyCache(
+      `new-clips-per-language-${locale_id}`,
+      async () => {
+        return await this.getValidClips(locale_id, 1000);
+      },
+      MINUTE
+    )();
+    console.log('cache', cachedClips.length);
+
     const [clips] = await this.mysql.query(
       `
       SELECT *
@@ -491,7 +517,8 @@ export default class DB {
     id: string,
     auth_token?: string
   ): Promise<boolean> {
-    const guidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/;
+    const guidRegex =
+      /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/;
     const authRegex = /^\w{40}$/;
 
     if (!guidRegex.test(id) || (auth_token && !authRegex.test(auth_token))) {
@@ -826,9 +853,7 @@ export default class DB {
   }
 
   async findRequestedLanguageId(language: string): Promise<number | null> {
-    const [
-      [row],
-    ] = await this.mysql.query(
+    const [[row]] = await this.mysql.query(
       'SELECT * FROM requested_languages WHERE LOWER(language) = LOWER(?) LIMIT 1',
       [language]
     );
@@ -856,9 +881,7 @@ export default class DB {
   }
 
   async getUserClient(client_id: string) {
-    const [
-      [row],
-    ] = await this.mysql.query(
+    const [[row]] = await this.mysql.query(
       'SELECT * FROM user_clients WHERE client_id = ?',
       [client_id]
     );
