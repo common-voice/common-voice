@@ -145,6 +145,7 @@ scn = Sicilyaca
 shi = Şilha
 si = Seylanca
 sk = Slovakça
+skr = Saraiki
 sl = Slovakça
 so = Somalice
 sq = Arnavutça
@@ -160,6 +161,7 @@ ti = Tigrinya dili
 tig = Tigre
 tk = Türkmence
 tl = Tagalog
+tok = Toki Pona
 tr = Türkçe
 tt = Tatarca
 tw = Twi
@@ -543,20 +545,27 @@ about-playbook-how-add-language-content-4 = Buraya <scLinkAdd>az sayıda cümle 
 
 about-playbook-how-localize = Site yerelleştirmesi nasıl yapılır?
 about-playbook-how-localize-content-1 = Common Voice sitesinin çevirisi <strong>Pontoon</strong>'da yapılır.
+about-playbook-how-localize-content-4 = Çeviriler %75'e ulaştığında site sizin dilinizde açılmaya hazır olur.
 
 ## How to add sentences
 
+about-playbook-how-add-sentences-content-3 = Wikipedia'daki kısa cümlelerden yararlanmak için <scraperLink>Cümle çekici</scraperLink>'yi kullanabilirsiniz.
+about-playbook-how-add-sentences-content-4 = Doğrulanan cümleler çarşamba günleri dışa aktarılır ve bir sonraki sürümde kullanılabilir hale gelir.
 
 ## How to record quality
 
+about-playbook-how-record-content-5 = <accuracyLink>Doğruluk ölçütleri hakkında daha fazla bilgi edinin.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Common Voice'ta bir dili nasıl etkili bir şekilde geliştirebiliriz?
+about-playbook-how-grow-language-content-1 = Common Voice'a katkıda bulunmak amacıyla farklı insanlar için fırsatlar yaratmak, veri kümesinin mümkün olduğunca çok kişiye hizmet etmesini sağlar. Kullanabileceğiniz kaynaklar ve şablonlar oluşturduk.
 about-playbook-how-grow-language-content-2 = Etkinlikler
 about-playbook-how-grow-language-content-4 = Sosyal medya
 
 ## How to validate
 
+about-playbook-how-validate-content-4 = Bir kayıt 2 kişi tarafından reddedilirse veri kümesinin farklı bir alt kümesinde yayınlanır.
 
 ## How to access dataset
 
@@ -1114,6 +1123,9 @@ sc-home-collect-text = Kamu malı cümleleri yazarak veya toplayarak bize yardı
 sc-home-review-title = Cümleleri incele
 sc-home-review-text = Cümleleri yönergelere uygunluğu açısından gözden geçirerek bize yardımcı olun.
 
+## GENERAL
+
+
 ## HOW-TO
 
 sc-howto-title = Nasıl yapılır
@@ -1270,6 +1282,8 @@ sc-confirm-uploading = Cümleler karşıya yükleniyor. Bu, eklenen cümle sayı
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Toplam
+sc-lang-info-title-personal = Kişisel
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
