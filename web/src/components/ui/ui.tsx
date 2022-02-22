@@ -70,10 +70,18 @@ export const Checkbox = React.forwardRef(
 Checkbox.displayName = 'Checkbox';
 
 export const LabeledCheckbox = React.forwardRef(
-  ({ label, style, ...props }: any, ref) => (
+  ({ label, required, style, ...props }: any, ref) => (
     <label className="labeled-checkbox" style={style}>
-      <Checkbox ref={ref} {...props} />
-      <span className="label">{label}</span>
+      <Checkbox
+        ref={ref}
+        aria-required={required}
+        required={required}
+        {...props}
+      />
+      <span className="label">
+        {required && <span aria-hidden="true">* </span>}
+        {label}
+      </span>
     </label>
   )
 );
@@ -92,7 +100,14 @@ const LabeledFormControl = React.forwardRef(
     }: any,
     ref
   ) => {
-    const child = <Component {...{ ref, required, ...props }} />;
+    const child = (
+      <Component
+        ref={ref}
+        aria-required={required}
+        required={required}
+        {...props}
+      />
+    );
 
     return (
       <label
@@ -107,7 +122,7 @@ const LabeledFormControl = React.forwardRef(
           <VisuallyHidden>{label}</VisuallyHidden>
         ) : (
           <span className="label">
-            <span aria-hidden="true">{required && '*'}</span>
+            {required && <span aria-hidden="true">* </span>}
             {label}
           </span>
         )}
