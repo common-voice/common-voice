@@ -141,8 +141,8 @@
         color: #1570ef;
         font-weight: 600;
         background: url('./images/hex.svg') no-repeat;
-        background-color: white;
         background-size: contain;
+
         &.done {
             background-image: url('./images/hex-done.svg');
             color: transparent;
