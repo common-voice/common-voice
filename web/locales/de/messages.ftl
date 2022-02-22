@@ -336,6 +336,8 @@ profile-form-additional-language =
     .label = Zusätzliche Sprache
 profile-form-language =
     .label = Sprache
+profile-form-variant =
+    .label = Welche Variante von { $language } sprechen Sie?
 profile-form-accent =
     .label = Akzent
 profile-form-custom-accent-help-text =
@@ -387,6 +389,8 @@ off = Aus
 on = An
 help-accent = Brauchen Sie Hilfe beim Akzent?
 help-accent-explanation = Ihr Akzent ist die Art und Weise, wie Sie Wörter aussprechen. Er kann davon geprägt sein, wo Sie gelebt haben, welche anderen Sprachen Sie sprechen und von vielen anderen Faktoren. Sie können hier alle Informationen teilen, die Sie für relevant halten.
+help-variants = Benötigen Sie Hilfe zu den Varianten?
+help-variants-explanation = Varianten sind eine spezifische Form einer Sprache – die zum Beispiel von Menschen geteilt wird, die in einer Region oder Gemeinschaft leben. Manchmal werden diese auch Dialekte genannt.
 
 ## Profile - Email
 
