@@ -344,6 +344,8 @@ profile-form-additional-language =
     .label = Pśidatna rěc
 profile-form-language =
     .label = Rěc
+profile-form-variant =
+    .label = Kótaru wariantu rěcy { $language } powědaśo?
 profile-form-accent =
     .label = Akcent
 profile-form-custom-accent-help-text =
@@ -395,6 +397,8 @@ off = Wušaltowany
 on = Zašaltowany
 help-accent = Trjebaśo pomoc wó akcenśe?
 help-accent-explanation = Waš akcent jo nałog, kak słowa wugranjaśo. Jogo charakter wót togo wótwisujo, źož sćo był žywy, kótare druge rěcy powědaśo a wót wjele drugich faktorow. Móžośo wšykne informacije k wěsći daś, kótarež za relewantne  maśo.
+help-variants = Trjebaśo pomoc za warianty?
+help-variants-explanation = Warianty su specifiska forma rěcy - powědaju se na pśikład wót luźi, kótarež su we wěstem regionje abo zgromaźeństwje žywe. Wótergi wóne se dialekty pomjenjuju.
 
 ## Profile - Email
 
