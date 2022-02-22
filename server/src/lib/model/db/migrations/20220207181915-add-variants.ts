@@ -1,11 +1,3 @@
-const VARIANTS = [
-  { locale_name: 'en', name: 'South African English', token: 'en-ZA' },
-  { locale_name: 'en', name: 'Canadian English', token: 'en-CA' },
-  { locale_name: 'en', name: 'British English', token: 'en-GB' },
-  { locale_name: 'en', name: 'American English', token: 'en-US' },
-  { locale_name: 'cy', name: 'North-Western Welsh', token: 'cy-north' },
-];
-
 export const up = async function (db: any): Promise<any> {
   await db.runSql(
     `
@@ -40,27 +32,6 @@ export const up = async function (db: any): Promise<any> {
     )
     `
   );
-
-  const languageQuery = await db.runSql(
-    `SELECT id, name FROM locales where name is not null`
-  );
-  // {en: 1, fr: 2}
-  const mappedLanguages = languageQuery.reduce((obj: any, current: any) => {
-    obj[current.name] = current.id;
-    return obj;
-  }, {});
-  for (const row of VARIANTS) {
-    await db.runSql(
-      `INSERT INTO variants (locale_id, variant_token, variant_name) VALUES ( ${
-        mappedLanguages[row['locale_name']] +
-        ',"' +
-        row['token'] +
-        '","' +
-        row['name'] +
-        '"'
-      })`
-    );
-  }
 };
 
 export const down = async function (db: any): Promise<any> {
