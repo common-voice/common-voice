@@ -27,7 +27,7 @@ export const up = async function (db: any): Promise<any> {
         KEY client_id (client_id),
         KEY variant_id (variant_id),
         CONSTRAINT user_client_variants_ibfk_1 FOREIGN KEY (client_id) REFERENCES user_clients (client_id) ON DELETE CASCADE,
-        CONSTRAINT user_client_variants_ibfk_2 FOREIGN KEY (variant_id) REFERENCES variants (id),
+        CONSTRAINT user_client_variants_ibfk_2 FOREIGN KEY (variant_id) REFERENCES variants (id) ON DELETE CASCADE,
         CONSTRAINT variants_ibfk_4 FOREIGN KEY (locale_id) REFERENCES locales (id)
     )
     `
