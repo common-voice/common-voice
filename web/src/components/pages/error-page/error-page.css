@@ -1,31 +1,17 @@
-/* TODO replace this when we refactor #content styles */
-#content > div.error-page {
-    padding-bottom: 4em;
-    margin-bottom: -2rem;
-
-    @media (--md-up) {
-        margin-left: calc(-1 * var(--page-margin));
-        margin-right: calc(-1 * var(--page-margin));
-        padding-bottom: 8em;
-        max-width: initial;
-    }
-}
-
-#content .error-page-wrapper {
-    @media (--md-up) {
-        box-sizing: border-box;
-        padding: 0 var(--page-margin);
-    }
-}
-
 .error-page {
+    padding-bottom: 4em;
     background-image: url('./images/background-wave-error.svg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
+
+    @media (--md-up) {
+        padding-bottom: 8em;
+    }
 }
 
 .error-page-wrapper {
+    padding: 0 var(--page-margin);
     margin: 0 auto;
     max-width: var(--desktop-width);
 

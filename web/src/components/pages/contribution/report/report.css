@@ -50,7 +50,6 @@
     }
 
     & textarea {
-        box-sizing: border-box;
         border: 1.5px solid var(--light-grey);
         border-radius: 2px;
         padding: 10px;

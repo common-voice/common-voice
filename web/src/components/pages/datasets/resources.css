@@ -36,8 +36,6 @@
         }
 
         ul {
-            margin: 0;
-            padding: 0;
             list-style: none;
 
             @media (--md-down) {
@@ -194,7 +192,6 @@
 
         ul {
             margin: 0 0 30px;
-            padding: 0;
             list-style: none;
         }
 

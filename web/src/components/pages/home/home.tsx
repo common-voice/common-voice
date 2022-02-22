@@ -8,6 +8,7 @@ import { ContributableLocaleLock } from '../../locale-helpers';
 import { RecordLink } from '../../primary-buttons/primary-buttons';
 import RegisterSection from '../../register-section/register-section';
 import { LinkButton } from '../../ui/ui';
+import Page from '../../ui/page';
 import Hero from './hero';
 import { ClipsStats, VoiceStats } from './stats';
 
@@ -38,7 +39,7 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="home">
+    <Page className="home">
       <ContributableLocaleLock
         render={({ isContributable }: any) =>
           isContributable ? (
@@ -187,6 +188,6 @@ export default function HomePage() {
           </Localized>
         </RegisterSection>
       )}
-    </div>
+    </Page>
   );
 }

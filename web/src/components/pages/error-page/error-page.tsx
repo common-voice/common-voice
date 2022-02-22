@@ -8,11 +8,12 @@ import { GitHubLink, DiscourseLink, MatrixLink } from '../../shared/links';
 import { GithubIconCode, DiscourseIconCode, MatrixIcon } from '../../ui/icons';
 
 import RoundButton from '../../ui/round-button';
+import Page from '../../ui/page';
 import PageHeading from '../../ui/page-heading';
 import PageTextContent from '../../ui/page-text-content';
+import VisuallyHidden from '../../visually-hidden/visually-hidden';
 
 import './error-page.css';
-import VisuallyHidden from '../../visually-hidden/visually-hidden';
 
 const ErrorPage = ({
   errorCode,
@@ -26,7 +27,7 @@ const ErrorPage = ({
   }, []);
 
   return (
-    <div className="error-page">
+    <Page className="error-page">
       <div className="error-page-wrapper">
         <div className="error-page__content">
           <PageHeading>
@@ -74,7 +75,7 @@ const ErrorPage = ({
           <img src={require('./images/mars-sad.svg')} alt="" loading="lazy" />
         </div>
       </div>
-    </div>
+    </Page>
   );
 };
 

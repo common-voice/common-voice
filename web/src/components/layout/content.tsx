@@ -23,7 +23,7 @@ const SentryRoute = Sentry.withSentryRouting(Route);
 export default function Content({ location }: { location: any }) {
   const [locale, toLocaleRoute] = useLocale();
   return (
-    <div id="content">
+    <main id="content">
       <React.Suspense fallback={<Spinner />}>
         <Switch>
           <SentryRoute
@@ -173,6 +173,6 @@ export default function Content({ location }: { location: any }) {
           />
         </Switch>
       </React.Suspense>
-    </div>
+    </main>
   );
 }

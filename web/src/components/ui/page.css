@@ -1,0 +1,10 @@
+.page {
+    width: 100%;
+    min-height: 100%;
+}
+
+.page__wrapper {
+    padding: 0 var(--page-margin);
+    margin: 0 auto;
+    max-width: var(--desktop-width);
+}

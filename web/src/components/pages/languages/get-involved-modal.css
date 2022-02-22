@@ -1,6 +1,6 @@
 .ReactModal__Content .inner.get-involved-modal {
     max-height: 100vh;
-    box-sizing: border-box;
+
     max-width: 25rem;
     overflow-y: auto;
     text-align: start;

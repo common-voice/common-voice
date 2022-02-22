@@ -44,7 +44,7 @@
     .file-upload {
         position: relative;
         border: 3px dotted var(--light-grey);
-        box-sizing: border-box;
+
         width: 245px;
         height: 130px;
 
