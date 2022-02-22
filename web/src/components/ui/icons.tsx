@@ -207,21 +207,8 @@ export const ChevronLeft = () => (
 );
 
 export const ChevronDown = (props: any) => (
-  <svg width="13px" height="9px" viewBox="0 0 13 9" className={props.className}>
-    <title>icon / down-arrow-black</title>
-    <g
-      id="Symbols"
-      stroke="none"
-      strokeWidth="1"
-      fill="none"
-      fillRule="evenodd">
-      <g id="icon-/-down-arrow-black" fill="#000000">
-        <polygon
-          id="down-arrow-black"
-          points="11.7578125 0.75 12.5 1.5703125 6.25 8.25 0 1.5703125 0.7421875 0.75 6.25 6.609375"
-        />
-      </g>
-    </g>
+  <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" {...props}>
+    <polygon points="11.7578125 0.75 12.5 1.5703125 6.25 8.25 0 1.5703125 0.7421875 0.75 6.25 6.609375" />
   </svg>
 );
 
@@ -478,24 +465,6 @@ export const DiscourseIconCode = () => (
       clipRule="evenodd"
       d="M20 11.5C20 6.06975 14.0662 2.30981 9.15088 4.79256L9.14709 4.79447L9.14709 4.79447C5.52862 6.60292 3.95647 11.2139 5.79263 14.8491C5.91284 15.0871 5.93303 15.3632 5.84871 15.6162L4.58117 19.4188L8.3838 18.1513C8.63674 18.067 8.91289 18.0872 9.15088 18.2074C14.0075 20.6604 20.0139 16.8409 20 11.5026L20 11.5ZM22 11.4988C21.9992 4.61375 14.5263 -0.161513 8.25106 3.00641C3.78432 5.24011 1.77608 10.7956 3.82401 15.3657L2.05134 20.6837C1.93157 21.0431 2.02509 21.4392 2.29292 21.7071C2.56075 21.9749 2.95692 22.0684 3.31625 21.9486L8.63399 20.1761C14.7713 22.9322 22.0163 18.1596 22 11.4988Z"
     />
-  </svg>
-);
-
-export const DownIcon = () => (
-  <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1">
-    <g
-      id="Symbols"
-      stroke="none"
-      strokeWidth="1"
-      fill="none"
-      fillRule="evenodd">
-      <g id="icon-/-down-arrow-black" fill="#000000">
-        <polygon
-          id="down-arrow-black"
-          points="11.7578125 0.75 12.5 1.5703125 6.25 8.25 0 1.5703125 0.7421875 0.75 6.25 6.609375"
-        />
-      </g>
-    </g>
   </svg>
 );
 

@@ -4,56 +4,11 @@ import { RenderResult } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
 import { renderWithLocalization } from '../../../../../../test/mock-localization';
-import { AccentsAll } from '../languages';
-import { UserLanguage } from 'common';
+import { MOCK_USER_LANGUAGES, MOCK_ACCENTS_ALL } from '../mocks';
 
 import InputLanguageAccentsInput from './input-language-accents-input';
 
 expect.extend(toHaveNoViolations);
-
-const MOCK_USER_LANGUAGES = [
-  {
-    locale: 'en',
-    accents: [],
-  },
-] as UserLanguage[];
-
-const MOCK_ACCENTS_ALL = {
-  en: {
-    userGenerated: {},
-    preset: {
-      '1': {
-        id: 1,
-        token: 'england',
-        name: 'England English',
-      },
-      '2': {
-        id: 2,
-        token: 'singapore',
-        name: 'Singaporean English',
-      },
-      '3': {
-        id: 3,
-        token: 'filipino',
-        name: 'Filipino',
-      },
-    },
-    default: {
-      id: 18,
-      token: 'unspecified',
-      name: '',
-    },
-  },
-  'zh-TW': {
-    userGenerated: {},
-    preset: {},
-    default: {
-      id: 176,
-      token: 'unspecified',
-      name: '',
-    },
-  },
-} as AccentsAll;
 
 describe('InputLanguageAccentsInput', () => {
   // TODO: while this tests this is todo as there's accessibility work to fix this component

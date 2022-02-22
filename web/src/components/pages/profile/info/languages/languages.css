@@ -27,6 +27,14 @@
 
     label {
         width: 100%;
+
+        @media (--md-up) {
+            width: 100%;
+
+            &:nth-of-type(even) {
+                margin-inline-start: 0;
+            }
+        }
     }
 
     > label:last-child {

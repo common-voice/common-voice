@@ -3,15 +3,16 @@ import { useState } from 'react';
 import { Localized } from '@fluent/react';
 
 import { useAPI } from '../../../../../hooks/store-hooks';
-import { DownIcon } from '../../../../ui/icons';
 import { Button } from '../../../../ui/ui';
-import { Accent, UserLanguage } from 'common';
+import { Accent, Variant, UserLanguage } from 'common';
 import { useEffect } from 'react';
 
 import InputLanguageName from './input-language-name';
+import InputLanguageVariant from './input-language-variant';
 import InputLanguageAccents from './input-language-accents/input-language-accents';
 
 import './languages.css';
+import ExpandableInformation from '../../../../expandable-information/expandable-information';
 
 export type AccentsAll = {
   [locale: string]: {
@@ -21,22 +22,32 @@ export type AccentsAll = {
   };
 };
 
+export type VariantsAll = {
+  [locale: string]: Array<Variant>;
+};
+
 interface Props {
   userLanguages: UserLanguage[];
+  areLanguagesLoading: boolean;
   setUserLanguages: (userLanguages: UserLanguage[]) => void;
   setAreLanguagesLoading: (value: boolean) => void;
 }
 
 function ProfileInfoLanguages({
   userLanguages,
+  areLanguagesLoading,
   setUserLanguages,
   setAreLanguagesLoading,
 }: Props) {
   const api = useAPI();
   const [accentsAll, setAccentsAll] = useState<AccentsAll>({});
-  const [showAccentInfo, setShowAccentInfo] = useState(false);
-  const [hasAccentDataLoaded, setHasAccentDataLoaded] = useState(false);
+  const [variantsAll, setVariantsAll] = useState<VariantsAll>({});
+
   const hasUserLanguages = userLanguages.length > 0;
+  const hasUserLanguagesWithVariants = userLanguages.some(language => {
+    const variants = variantsAll[language.locale];
+    return variants && variants.length > 0;
+  });
   const hasNewEmptyLanguage =
     hasUserLanguages && !userLanguages[userLanguages.length - 1].locale;
 
@@ -48,18 +59,19 @@ function ProfileInfoLanguages({
   };
 
   useEffect(() => {
-    if (hasAccentDataLoaded) {
+    if (!areLanguagesLoading) {
       return;
     }
 
-    api.getAccents().then(accents => {
-      setAccentsAll(accents);
-      setHasAccentDataLoaded(true);
+    Promise.all([
+      api.getAccents().then(setAccentsAll),
+      api.getVariants().then(setVariantsAll),
+    ]).then(() => {
       setAreLanguagesLoading(false);
     });
   }, []);
 
-  if (!hasAccentDataLoaded) {
+  if (areLanguagesLoading) {
     return null;
   }
 
@@ -77,6 +89,13 @@ function ProfileInfoLanguages({
               setUserLanguages={setUserLanguages}
             />
 
+            <InputLanguageVariant
+              locale={locale}
+              variantsAll={variantsAll}
+              userLanguages={userLanguages}
+              setUserLanguages={setUserLanguages}
+            />
+
             <InputLanguageAccents
               locale={locale}
               accents={accents}
@@ -89,22 +108,20 @@ function ProfileInfoLanguages({
       </div>
 
       <div>
-        {hasUserLanguages && (
-          <div
-            className={'profile-toggle ' + (showAccentInfo ? 'expanded' : '')}>
-            <button
-              type="button"
-              onClick={() => setShowAccentInfo(!showAccentInfo)}>
-              <Localized id="help-accent">
-                <span />
-              </Localized>
-
-              <DownIcon />
-            </button>
-            <Localized id="help-accent-explanation">
-              <div className="explanation" />
+        {hasUserLanguagesWithVariants && (
+          <ExpandableInformation summaryLocalizedId="help-variants">
+            <Localized id="help-variants-explanation">
+              <div />
             </Localized>
-          </div>
+          </ExpandableInformation>
+        )}
+
+        {hasUserLanguages && (
+          <ExpandableInformation summaryLocalizedId="help-accent">
+            <Localized id="help-accent-explanation">
+              <div />
+            </Localized>
+          </ExpandableInformation>
         )}
 
         <Button

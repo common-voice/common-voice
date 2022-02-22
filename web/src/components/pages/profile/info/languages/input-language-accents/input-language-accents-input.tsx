@@ -83,7 +83,7 @@ const InputLanguageAccentsInput = ({
     // if this is new custom accent, input value will be string
     // otherwise it will be Accent
     newLanguages[languageIndex] = {
-      locale,
+      ...newLanguages[languageIndex],
       accents: (newLanguages[languageIndex].accents || []).concat({
         name: accentName,
         id: accentId,
