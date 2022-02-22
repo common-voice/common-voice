@@ -15,60 +15,70 @@ import VisuallyHidden from '../../visually-hidden/visually-hidden';
 
 import './error-page.css';
 
-const ErrorPage = ({
-  errorCode,
-  prevPath = '',
-}: {
-  errorCode: '404' | '503';
+interface Props {
+  children?: React.ReactNode;
+  errorCode: '404' | '503' | '500';
   prevPath: string;
-}) => {
+}
+
+const ErrorPage = ({ children, errorCode, prevPath = '' }: Props) => {
   useEffect(() => {
     trackError(errorCode, prevPath);
   }, []);
+
+  const headingLocalisationId =
+    errorCode === '500'
+      ? 'error-something-went-wrong'
+      : `error-title-${errorCode}`;
 
   return (
     <Page className="error-page">
       <div className="error-page-wrapper">
         <div className="error-page__content">
           <PageHeading>
-            <Localized id={`error-title-${errorCode}`} />
+            <Localized id={headingLocalisationId} />
           </PageHeading>
+
           <PageTextContent>
             <h2>
               <Localized id="error-code" vars={{ code: errorCode }} />
             </h2>
-            <Localized
-              id={`error-content-${errorCode}`}
-              elems={{
-                homepageLink: <LocaleLink to="" />,
-                matrixLink: <MatrixLink />,
-                githubLink: <GitHubLink />,
-                discourseLink: <DiscourseLink />,
-              }}>
-              <p />
-            </Localized>
-            <div className="error-page__buttons">
-              <RoundButton>
-                <DiscourseLink>
-                  <VisuallyHidden>Discourse</VisuallyHidden>
-                  <DiscourseIconCode />
-                </DiscourseLink>
-              </RoundButton>
+            {children || (
+              <React.Fragment>
+                <Localized
+                  id={`error-content-${errorCode}`}
+                  elems={{
+                    homepageLink: <LocaleLink to="" />,
+                    matrixLink: <MatrixLink />,
+                    githubLink: <GitHubLink />,
+                    discourseLink: <DiscourseLink />,
+                  }}>
+                  <p />
+                </Localized>
+                <div className="error-page__buttons">
+                  <RoundButton>
+                    <DiscourseLink>
+                      <VisuallyHidden>Discourse</VisuallyHidden>
+                      <DiscourseIconCode />
+                    </DiscourseLink>
+                  </RoundButton>
 
-              <RoundButton>
-                <GitHubLink>
-                  <VisuallyHidden>GitHub</VisuallyHidden>
-                  <GithubIconCode />
-                </GitHubLink>
-              </RoundButton>
+                  <RoundButton>
+                    <GitHubLink>
+                      <VisuallyHidden>GitHub</VisuallyHidden>
+                      <GithubIconCode />
+                    </GitHubLink>
+                  </RoundButton>
 
-              <RoundButton>
-                <MatrixLink>
-                  <VisuallyHidden>Matrix</VisuallyHidden>
-                  <MatrixIcon />
-                </MatrixLink>
-              </RoundButton>
-            </div>
+                  <RoundButton>
+                    <MatrixLink>
+                      <VisuallyHidden>Matrix</VisuallyHidden>
+                      <MatrixIcon />
+                    </MatrixLink>
+                  </RoundButton>
+                </div>
+              </React.Fragment>
+            )}
           </PageTextContent>
         </div>
         <div className="error-page__image">

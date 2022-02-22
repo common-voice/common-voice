@@ -88,6 +88,7 @@ export default class API {
 
     router.get('/language/accents/:locale?', this.getAccents);
     router.get('/language/variants/:locale?', this.getVariants);
+    router.post('/language/request', this.sendLanguageRequest);
 
     router.get(
       '/:locale/sentences',
@@ -503,5 +504,18 @@ export default class API {
     response.json(
       await this.model.db.getVariants(client_id, params?.locale || null)
     );
+  };
+
+  sendLanguageRequest = async (request: Request, response: Response) => {
+    const { email, languageInfo, languageLocale } = request.body;
+
+    if (languageInfo.length === 0 || email.length === 0) {
+      return response
+        .status(500)
+        .send('Incorrect body sent to /language/request');
+    }
+
+    // TODO: send actual email
+    response.json({ email, languageInfo, languageLocale });
   };
 }

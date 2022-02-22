@@ -30,9 +30,12 @@ export default Object.freeze({
   PRIVACY: '/privacy',
   TERMS: '/terms',
   CHALLENGE_TERMS: '/challenge-terms',
-  LANGUAGES: '/languages',
   ABOUT: '/about',
   CRITERIA: '/criteria',
+
+  LANGUAGES: '/languages',
+  LANGUAGE_REQUEST: '/language/request',
+  LANGUAGE_REQUEST_SUCCESS: '/language/request/success',
 
   DEMO,
   INTRO: DEMO,

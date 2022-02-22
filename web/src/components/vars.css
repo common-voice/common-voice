@@ -13,12 +13,13 @@
     --desert-storm: #f3f2f1;
     --warm-grey: #959595;
     --blue: #629ff4;
+    --dark-blue: #195ebf;
     --inactive-grey: #575757;
 
     --gradient-pink: #f89096;
     --gradient-purple: #b1b4e5;
 
-    --link-color: var(--blue);
+    --link-color: var(--dark-blue);
 
     --override-z-index: 4;
     --header-z-index: 3;

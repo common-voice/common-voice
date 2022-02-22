@@ -29,23 +29,24 @@ export const Avatar = ({
   </div>
 );
 
-export const Button = ({
-  className = '',
-  outline = false,
-  rounded = false,
-  ...props
-}: any) => (
-  <button
-    type="button"
-    className={[
-      'button',
-      outline ? 'outline' : '',
-      rounded ? 'rounded' : '',
-      className,
-    ].join(' ')}
-    {...props}
-  />
-);
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const Button = (allProps: any) => {
+  const {
+    className = '',
+    outline = false,
+    rounded = false,
+    isBig = false,
+    ...props
+  } = allProps;
+
+  return (
+    <button
+      type="button"
+      className={cx('button', { outline, rounded, isBig }, className)}
+      {...props}
+    />
+  );
+};
 
 export const CardAction = ({ className, ...props }: any) =>
   props.to ? (

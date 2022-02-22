@@ -5,7 +5,8 @@ import { Locale } from '../stores/locale';
 import StateTree, { useTypedSelector } from '../stores/tree';
 import { Localized } from '@fluent/react';
 
-export const contributableLocales = require('../../../locales/contributable.json') as string[];
+export const contributableLocales =
+  require('../../../locales/contributable.json') as string[];
 export const discourseLocales = require('../../../locales/discourse.json');
 
 export interface LocalePropsFromState {
@@ -34,6 +35,11 @@ export function useLocale(): [string, (path: string) => string] {
   const locale = useTypedSelector(({ locale }) => locale);
 
   return [locale, toLocaleRouteBuilder(locale)];
+}
+
+export function useToLocaleRoute(): (path: string) => string {
+  const [locale] = useLocale();
+  return toLocaleRouteBuilder(locale);
 }
 
 export function useLocalizedDiscourseURL() {

@@ -47,6 +47,14 @@
         height: auto;
     }
 
+    &.isBig {
+        font-size: 1.15em;
+
+        @media (--lg-up) {
+            padding: 1em 2em;
+        }
+    }
+
     &.outline {
         border-radius: 4px;
         border: solid 1px color-mod(var(--black) alpha(10%));
