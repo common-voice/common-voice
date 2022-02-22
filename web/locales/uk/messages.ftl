@@ -350,6 +350,8 @@ profile-form-additional-language =
     .label = Додаткова мова
 profile-form-language =
     .label = Мова
+profile-form-variant =
+    .label = Яким варіантом { $language } ви розмовляєте?
 profile-form-accent =
     .label = Акцент
 profile-form-custom-accent-help-text =
@@ -401,6 +403,8 @@ off = Вимкнено
 on = Увімкнено
 help-accent = Потрібна допомога з акцентом?
 help-accent-explanation = Ваш акцент — це те, як ви вимовляєте слова. Він може залежати від того, де ви проживали, якими іншими мовами ви володієте та багатьма іншими факторами. Тут ви можете поділитися будь-якою інформацією, яку вважаєте необхідною.
+help-variants = Потрібна допомога з варіантами?
+help-variants-explanation = Варіанти — це специфічна форма мови, якою, наприклад, спілкуються ті, хто живе в певній місцевості чи спільноті. Іноді їх називають діалектами.
 
 ## Profile - Email
 
