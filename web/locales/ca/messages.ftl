@@ -98,6 +98,7 @@ ko = coreà
 kpv = komi
 kw = còrnic
 ky = kirguís
+lb = luxemburguès
 lg = ganda
 lij = lígur
 lt = lituà
@@ -1153,6 +1154,7 @@ sc-home-review-text = Ajudeu-nos revisant la correcció de les frases segons une
 
 ## GENERAL
 
+sc-languages-fetch-error = No hem pogut obtenir les llengües disponibles. Actualment no es poden fer aportacions. Proveu-ho més tard.
 
 ## HOW-TO
 
