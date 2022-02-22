@@ -38,7 +38,7 @@
     border: 1px solid var(--near-black);
     outline: none;
     transition: all var(--transition-duration) linear;
-    background: var(--near-black);
+    background: var(--black);
     color: var(--white);
     width: 100%;
 
@@ -207,7 +207,7 @@ button.card-action:focus.focus-visible path {
         z-index: var(--middle-z-index);
         background: var(--white);
         font-size: var(--font-size-xs);
-        color: var(--warm-grey);
+        color: var(--near-black);
     }
 
     & input,
