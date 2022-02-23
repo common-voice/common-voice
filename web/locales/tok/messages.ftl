@@ -576,6 +576,7 @@ about-playbook-how-record-content-5 = <accuracyLink>sona sin pi pona toki</accur
 ## How to grow language
 
 about-playbook-how-grow-language = seme la mi ken suli e toki lon ilo Common Voice?
+about-playbook-how-grow-language-content-1 = jan mute li ken pana tawa ilo Common Voice la, kulupu sona li ken e wile pi jan mute. ni la mi pali e lipu sona tawa sina!
 about-playbook-how-grow-language-content-2 = tenpo suli
 about-playbook-how-grow-language-content-4 = kulupu pi jan toki
 about-playbook-how-grow-language-content-5 = sina ken kepeken kulupu pi jan mute tawa toki pi ilo ni! o pana e toki pi nasin ilo. o toki tawa jan ante lon toki mute ni: pona toki en ilo kalama toki en nasin ike ilo. o lukin e <campaignLink>lipu pi kulupu toki pona</campaignLink>. ona li jo e toki la sina ken kepeken ona.
