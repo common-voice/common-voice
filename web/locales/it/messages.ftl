@@ -334,6 +334,7 @@ profile-form-additional-language =
     .label = Altra lingua
 profile-form-language =
     .label = Lingua
+profile-form-variant-default-value = Nessuna variante selezionata
 profile-form-accent =
     .label = Accento
 profile-form-custom-accent-help-text =
@@ -385,6 +386,8 @@ off = Disattiva
 on = Attiva
 help-accent = Hai bisogno di aiuto con l’accento?
 help-accent-explanation = Il tuo accento è il modo in cui pronunci le parole. Può essere condizionato dal luogo in cui hai vissuto, da quali altre lingue parli e da molti altri fattori. Qui puoi condividere qualsiasi informazione che ritieni pertinente.
+help-variants = Hai bisogno di aiuto con le varianti?
+help-variants-explanation = Le varianti sono una forma specifica di una lingua, ad esempio condivisa da coloro che vivono in determinate aree geografiche o comunità. A volte queste varianti vengono chiamate dialetti.
 
 ## Profile - Email
 
