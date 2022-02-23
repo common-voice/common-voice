@@ -332,6 +332,8 @@ profile-form-additional-language =
     .label = Ngôn ngữ bổ sung
 profile-form-language =
     .label = Ngôn ngữ
+profile-form-variant =
+    .label = Bạn nói biến thể nào của { $language }?
 profile-form-accent =
     .label = Giọng vùng miền
 profile-form-custom-accent-help-text =
@@ -383,6 +385,8 @@ off = Tắt
 on = Bật
 help-accent = Cần một số trợ giúp về trọng âm?
 help-accent-explanation = Trọng âm của bạn là cách bạn phát âm các từ. Nó có thể được định hình bởi nơi bạn đã sống, bạn nói ngôn ngữ nào khác và rất nhiều yếu tố khác. Bạn có thể chia sẻ bất kỳ thông tin nào bạn cảm thấy có liên quan tại đây.
+help-variants = Cần một số trợ giúp với biến thể?
+help-variants-explanation = Biến thể là một dạng cụ thể của một ngôn ngữ - ví dụ như được chia sẻ bởi những người sống trong một khu vực địa lý hoặc cộng đồng. Đôi khi chúng được gọi là tiếng địa phương.
 
 ## Profile - Email
 
