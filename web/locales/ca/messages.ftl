@@ -390,6 +390,7 @@ on = Activat
 help-accent = Us cal ajuda sobre els accents?
 help-accent-explanation = L'accent és la forma com pronuncieu les paraules. Es pot crear a partir dels llocs on heu viscut, quines altres llengües parleu i molts altres factors. Podeu compartir aquí qualsevol informació que considereu rellevant.
 help-variants = Us cal ajuda amb les variants?
+help-variants-explanation = Les variants són formes específiques d'una llengua. Per exemple, compartides per persones que viuen en una zona geogràfica o comunitat. De vegades s'anomenen dialectes.
 
 ## Profile - Email
 
