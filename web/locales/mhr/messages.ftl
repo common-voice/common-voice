@@ -351,6 +351,8 @@ profile-form-additional-language =
     .label = Ешартыш йылме
 profile-form-language =
     .label = Йылме
+profile-form-variant =
+    .label = { $language } йылмын могай тӱрлылыкшӧ дене тый мутланет?
 profile-form-accent =
     .label = Акцент
 profile-form-custom-accent-help-text =
@@ -402,6 +404,7 @@ off = Йӧрташ
 on = Чӱкташ
 help-accent = Акцент шотышто полыш кӱлеш?
 help-accent-explanation = Акцентет — тиде кузе тый мут-влакым кутырет. Тиде кушто илымет, могай йылме-влак дене мутланымет да моло амал деч шога. Тый тыште кеч-могай информаций дене, кудо тыйын шонымаште пашалан кӱлешан, пайлалт кертат.
+help-variants = Тӱрлылык шотышто полыш кӱлеш?
 
 ## Profile - Email
 
