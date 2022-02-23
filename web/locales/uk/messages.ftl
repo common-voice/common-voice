@@ -352,6 +352,7 @@ profile-form-language =
     .label = Мова
 profile-form-variant =
     .label = Яким варіантом { $language } ви розмовляєте?
+profile-form-variant-default-value = Не вибрано жодного варіанта
 profile-form-accent =
     .label = Акцент
 profile-form-custom-accent-help-text =
