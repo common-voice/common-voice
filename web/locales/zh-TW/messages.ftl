@@ -334,6 +334,8 @@ profile-form-additional-language =
     .label = 其他語言
 profile-form-language =
     .label = 語言
+profile-form-variant =
+    .label = 您會說 { $language } 的哪種變體？
 profile-form-accent =
     .label = 腔調
 profile-form-custom-accent-help-text =
@@ -385,6 +387,8 @@ off = 關
 on = 開
 help-accent = 需要關於腔調的說明嗎？
 help-accent-explanation = 腔調就是您發音的方式，可能會受您生活的地方、您會說的其他語言以及其他許多因素影響。您可以在此分享任何您覺得有關的資訊。
+help-variants = 需要關於變體的相關說明嗎？
+help-variants-explanation = 變體是一種語言的特定格式，像是由居住在共同地區或社群的人才有的特定說話腔調。有時這也稱為「方言」。
 
 ## Profile - Email
 
