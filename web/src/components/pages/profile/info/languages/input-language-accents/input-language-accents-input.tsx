@@ -120,6 +120,12 @@ const InputLanguageAccentsInput = ({
           ) => {
             if (event.key === 'Enter') {
               const { value } = event.target as HTMLInputElement;
+
+              // don't submit blank values
+              if (value.trim().length === 0) {
+                return;
+              }
+
               selectItem(value, {
                 type: Downshift.stateChangeTypes.keyDownEnter,
               });
