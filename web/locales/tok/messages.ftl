@@ -1015,6 +1015,7 @@ demo-account = sijelo ilo
 ## Demo Account
 
 demo-account-card-header = sina jo anu jo ala e sijelo ilo la, sina ken pana. sina jo la, ni li pona mute.
+demo-account-card-body = sina wile sona e pona pi sijelo ilo la, o kepeken nasin nimi lon monsi. ni la sina ken pali e sijelo ilo pi ilo Common Voice.
 demo-account-enter-email =
     .label = o pana e nimi pi poki lipu sina la mi pana e nimi nasin kama.
 demo-account-sign-up = o kama jo e nimi nasin kama
@@ -1077,6 +1078,8 @@ contribution-background-voices-description-extended = kalama li pakala mute la, 
 contribution-background-voices-example-1-title = mi la soweli ni li suwi. <strong>[jan wan li toki]</strong>
 contribution-background-voices-example-1-explanation = sina li kama anu seme? <strong>[jan ante li toki]</strong>
 contribution-volume-title = wawa kalama
+contribution-volume-description = kalama suli jan li ken ante. kalama awen li pakala tan kalama suli la, o weka. kalama awen li pakala tan kalama lili la, o weka.
+contribution-reader-effects-title = nasin toki jan
 contribution-reader-effects-description = kalama mute la jan li kepeken kalama uta pi nasa ala. kalama li nasa lili la ni kin li ike ala. jan li ken kalama pi wawa mute li ken kalama pi wawa lili li ken kepeken kalama uta pi nasa lili. ale ni li pona. taso ni li ike: jan li kalama musi e nimi; kalama li tan uta jan ala li tan ilo. ni li lon la o weka e kalama ni.
 contribution-just-unsure-title = sina sona ala anu seme?
 see-more = <chevron></chevron> o lukin mute
