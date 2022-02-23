@@ -339,6 +339,8 @@ profile-form-additional-language =
     .label = Ytterligare språk
 profile-form-language =
     .label = Språk
+profile-form-variant =
+    .label = Vilken dialekt av { $language } talar du?
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
@@ -390,6 +392,8 @@ off = Av
 on = På
 help-accent = Behöver du hjälp med accent?
 help-accent-explanation = Din accent är hur du uttalar ord. Det kan formas av var du har bott, vilka andra språk du talar och massor av andra faktorer. Du kan dela all information som du tycker är relevant här.
+help-variants = Behöver du hjälp med dialekter?
+help-variants-explanation = Varianter är en specifik form av ett språk - till exempel delas av de som bor i ett visst geografiskt område eller ett visst samhälle. Ibland kallas dessa för dialekter.
 
 ## Profile - Email
 
