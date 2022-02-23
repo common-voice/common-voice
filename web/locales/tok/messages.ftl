@@ -1095,6 +1095,7 @@ contribution-volume-description = kalama suli jan li ken ante. kalama awen li pa
 contribution-reader-effects-title = nasin toki jan
 contribution-reader-effects-description = kalama mute la jan li kepeken kalama uta pi nasa ala. kalama li nasa lili la ni kin li ike ala. jan li ken kalama pi wawa mute li ken kalama pi wawa lili li ken kepeken kalama uta pi nasa lili. ale ni li pona. taso ni li ike: jan li kalama musi e nimi; kalama li tan uta jan ala li tan ilo. ni li lon la o weka e kalama ni.
 contribution-just-unsure-title = sina sona ala anu seme?
+contribution-just-unsure-description = lipu ni li jo ala e ijo la, o kepeken pilin pona sina. sina sona ala la, o kepeken nena 'o weka'.
 see-more = <chevron></chevron> o lukin mute
 see-less = <chevron></chevron> o lukin lili
 
