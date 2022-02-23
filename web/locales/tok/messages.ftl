@@ -345,6 +345,8 @@ profile-form-additional-language =
     .label = toki sin
 profile-form-language =
     .label = toki
+profile-form-variant =
+    .label = sina toki kepeken nasin seme pi { $language }?
 profile-form-accent =
     .label = nasin kalama toki
 profile-form-custom-accent-help-text =
@@ -394,8 +396,10 @@ skip-submission-description = sina luka e nena "o pana" la mi toki ala e ni: pal
 skip-submission-note = o sona e ni: sina wile ante e nasin pali la, o luka e nena "o toki" anu "o kute".
 off = ala
 on = wile
-help-accent = sina wile ala wile e pona tawa nasin kalama toki?
+help-accent = nasin kalama li seme lon ni?
 help-accent-explanation = nasin kalama toki sina li ken kama ante tan ma mama sina, tan toki ante sina, tan ijo ante mute. o pana e sona ni: sina pilin e ni: ona li suli tawa sona pi nasin kalama sina.
+help-variants = nasin toki li seme lon ni?
+help-variants-explanation = mi toki e nasin toki lon ni la mi toki e ni: jan mute pi ma seme anu kulupu seme li kepeken nasin toki ni. nasin toki sina li kama tan ma seme, tan kulupu seme?
 
 ## Profile - Email
 
@@ -1125,6 +1129,7 @@ sc-howto-addsen-item-1 = sitelen ale sina o kepeken <wikipediaLink>nasin pana CC
 sc-howto-addsen-item-2 = nanpa la, o pana ala e nanpa lon sitelen pana. ona li ken pakala e toki jan. lon toki ante la, nimi nanpa li ken ante. ni la, nanpa li ken nasa e kulupu sona.
 sc-howto-addsen-item-5 = sitelen pi toki ante. o kepeken ala sitelen pi toki ante. o lukin: sitelen lili “ж” li tan toki Losi. taso, ona li lon ala toki pona. tan ni la, o kepeken ala ona.
 sc-howto-addsen-item-6 = toki li ken jo e <validationRulesLink>nasin pona ante</validationRulesLink>. toki li jo ala e ona la, ona li kepeken nasin pona pi toki Inli.
+sc-howto-addsen-post-1 = mi wile e toki tan tenpo pona sina. kalama ante en nimi ante li pona la, musi pi awen kalama li pona nanpa wan. ni la, o lili e sitelen sina, o pona e sitelen sina.
 sc-howto-cite-title = mi pana sona kepeken nasin seme?
 sc-howto-cite-pre-1 = ni li suli: o pana e lipu pi sona sina. ni la, sina kama jo ike ala. jan ante li ken toki e <copyrightIssuesLink>ike pi sona sina</copyrightIssuesLink>. mi pana e nasin pana:
 sc-howto-cite-item-1 = sina ken pana e nimi nasin: "Common Voice - https://commonvoice.mozilla.org/"
