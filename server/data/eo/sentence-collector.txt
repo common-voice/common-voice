@@ -2237,6 +2237,7 @@ Antaŭ li kuŝis rulpaketo da paperaĵo.
 Antaŭ li kuŝis rulpaketo de paperaĵo.
 Antaŭ li staris la abatino, preskaŭ same pala, kiel li.
 Antaŭ li, sur tablo, kuŝis letero, kiun li ĵus tralegis la duan fojon.
+Antaŭ longa tempo ĉi tie ne estis urbo sed arbaro.
 Antaŭ longe, longe.
 Antaŭ longe.
 Antaŭ monato, mi legis en la novaĵo ke ekaperis kelkaj incendioj en Tasmanio.
@@ -2533,6 +2534,7 @@ Atendu, princo, la tuta opriĉnino sin mem formanĝos.
 Atendu, princo, ni ekvidos ankoraŭ, kiu venkos!
 Atendu, vi ekmemoros min post la morto, vi ambaŭ min ekmemoros!
 Atendu, ĝis kiam la larmoj sekiĝos, kaj, se vi deziras, mi vin svatos.
+Atendu. Mi venos tuj.
 Atente mi ekrigardis ŝian blankan kiel lakton vizaĝon.
 Atento de la kunveno atingis apogeon.
 Atentu Teo, vi malsekigos viajn ŝtrumpojn.
@@ -2799,6 +2801,7 @@ Baldaŭ du taĉmentoj ekmoviĝis en du malsamaj direktoj.
 Baldaŭ ekdormis ankaŭ la princo.
 Baldaŭ ekzistus nenia bruto, se neniu plu zorgus pri tio ĉi.
 Baldaŭ estas Halovino.
+Baldaŭ estos kristnasko.
 Baldaŭ estos tagmezo.
 Baldaŭ ili alproksimiĝis al muelejo.
 Baldaŭ ili alvenis al Grifo kuŝanta en la sunlumo kaj profunde dormanta.
@@ -2920,6 +2923,7 @@ Bedaŭrinde mankas al ni lando por financi ĝin
 Bedaŭrinde mi eraris.
 Bedaŭrinde mi malsanas, kaj mi ne havas la certajn datumojn.
 Bedaŭrinde mi ne povas diri detalojn pro sekurecaj kialoj.
+Bedaŭrinde mi ne scias.
 Bedaŭrinde mi neniom kapablas paroli aŭ verki en Esperanto.
 Bedaŭrinde mi scias nur malmulte pri li.
 Bedaŭrinde mi scias tute nenion pri programado aŭ la teknikaĵoj de ciferecaj valutoj.
@@ -3459,6 +3463,7 @@ Botelo por minerala akvo.
 Bovidon mi atendis, — infanon Dio sendis.
 Bovina lakto estas la plej bona fonto por kalcio, bezonata de la korpo.
 Bovino estas ina bovo.
+Bovoj muĝas multe.
 Brakumoj kaj kisoj vidiĝis surekrane.
 Brakumojn al ĉiuj!
 Brakumu min.
@@ -3792,6 +3797,7 @@ Dancas grandaj kaj malgrandaj!
 Danckanton!
 Dancu
 Dancu karulino!
+Dancu kun mi!
 Dancu!
 Dancu, dancu!
 Dancu.
@@ -4062,6 +4068,7 @@ De kien vi venas?
 De kio vi havas tian embarasan mienon?
 De kiom da tempo vi estas tie ĉi en nia urbo?
 De kiu flanko ni devas ellasi la ruĝan kokon?
+De kiu lando venas ĉi tiu bongustaĵo?
 De kiu li ekscius la veron, se ne de vi?
 De kiu, do?
 De kiuj venis la ĝisnunaj donacoj?
@@ -8669,6 +8676,7 @@ Estas mirinde ke tiu eksterordinare granda besto restis tiom longe nekonata de l
 Estas mirinde!
 Estas mirinde, kontraste al la plejmulto, esti sanega, frost-imuna kaj ĉevale eltenema.
 Estas mirinde.
+Estas monstro sub mia lito.
 Estas morto pro mil malkonsentoj.
 Estas motorbiciklo tie
 Estas multaj aferoj, kiujn mi devas fari nur por unu filmo.
@@ -8677,6 +8685,8 @@ Estas multaj aspektoj de tiu agado.
 Estas multaj de aliaj aferoj kiun ni volas unue fari, sed estas alia problemo.
 Estas multaj eblecoj partopreni.
 Estas multaj farendaj bataloj.
+Estas multaj fiŝoj en la maro.
+Estas multaj insektoj en la arbaro.
 Estas multaj interesaj lingvaj fenomenoj, kiuj ekzistas unu apud la alia.
 Estas multaj kialoj, pro kiuj ni ne prezentis ciferojn.
 Estas multaj komunumoj cele lingvokreistojn. Do, dependas de kie vi situas.
@@ -8873,6 +8883,7 @@ Estas via decido, ke vi manĝas viandon
 Estas via propra elekto.
 Estas videbla malgranda arbareto.
 Estas videble, ke pli ol unu fojon jam ili havis okazon mortigi homojn!
+Estas vintro en mia lando.
 Estas vorto, kiun oni ne devas uzi.
 Estas zombio en la lageto.
 Estas ĉiam la sama risko, kiam aktoro ekprenas potencon.
@@ -10494,6 +10505,7 @@ Granda ĝojado estis, pli granda ol dum Paskotagoj.
 Granda ŝanĝo, efektive.
 Granda, antikva horloĝo, staranta en angulo de la vestiblo, belsone sonorigis duonon post noktomezo.
 Grandaj arboj kun nudaj trunkoj kaj branĉriĉaj suproj leviĝis el la akvo.
+Grandaj fiŝoj manĝas malgrandajn fiŝojn.
 Grandaj reformoj ne bezonatas.
 Grandaj sonoriloj.
 Grandaj ŝtopiĝoj atendataj.
@@ -10657,6 +10669,7 @@ Ha, mi estas sufiĉe bone, mi supozas.
 Ha, mi havas energion, kaj ŝajnas, ke ĝi iom post iom elĉerpiĝas
 Ha, mi komencas kompreni.
 Ha, mi komprenas!
+Ha, mi komprenas.
 Ha, mi loĝas en la sudo de la lando.
 Ha, mi memoras nun.
 Ha, mi ne forgesis!
@@ -11354,6 +11367,7 @@ Ho, sinjoro Marston, mi parolis kun Malkomo hodiaŭ matene.
 Ho, sinjoro Marston, mi tiom senpacience atendis vian revenon!
 Ho, sinjoro Marston, rigardu, kia belega vidaĵo!
 Ho, sinjoro!
+Ho, strange!
 Ho, sur orgeno? Vi do ne lernas ĉe li ludis sur la fluto?
 Ho, tempoj!
 Ho, tiel baldaŭ!
@@ -13670,6 +13684,7 @@ Jen la listo de tiuj proponataj radikoj.
 Jen la longa herbaĵo murmuris ĉe ŝiaj piedoj.
 Jen la malsimilaj
 Jen la maniero, per kiu mi kutimas reguligi mian konton kun tiaj homoj!
+Jen la maŝino, per kiu vi povas segi la lignon.
 Jen la mistera...
 Jen la momento! Haa!
 Jen la nova...
@@ -16467,6 +16482,7 @@ Kamaradoj, ni vipu lin!
 Kamaradoj, ĉu ni ankaŭ fariĝis malpiuloj?
 Kamparanoj kultivas ĉi tie terpomojn.
 Kampoj estis kovritaj de herbaĉoj.
+Kanado estas apud Usono.
 Kanado faras la kontraŭon.
 Kanajlo kaj fripono, malkuraĝulo kaj fanfaronulo, mensoganto kaj ŝtelisto!
 Kanajlo!
@@ -16540,6 +16556,7 @@ Karaj samideanoj!
 Karega amiko!
 Karegaj gefrafoj!
 Karegaj gefratoj!
+Karesado de molaj bestoj feliĉigas min.
 Karese li levis Helenon kaj kisis ŝian frunton.
 Karlo Lia patrino lin vekis.
 Karlo aŭskultis en Heidelberg kelkajn kursojn pri natura scienco, biologio kaj psikologio.
@@ -17636,6 +17653,7 @@ Kiam mi vidis ŝin lastfoje?
 Kiam mi vin vokos, tuj enkuru kaj kaptu ilin.
 Kiam mi volis redoni la moneron, li diris, ke tiu mono estas la mia.
 Kiam mia vivo fariĝas pli trankvila denove
+Kiam miaj fungoj estos plenkreskaj, mi manĝos ilin.
 Kiam naskiĝis Karlo, rozkolora kaj sana, liaj gepatroj estis ankoraŭ tre junaj.
 Kiam ni adiaŭis, ni promesis rendevui ĉe nia hotelo tiuvespere.
 Kiam ni ambaŭ fariĝis pli aĝaj, Eminjo estis fraŭlino kaj mi estis simpla knabino.
@@ -18292,6 +18310,7 @@ Kiel okazis, ke ĝi estis tradukita kaj eldonita en la germana?
 Kiel okazos la publika voĉdonado?
 Kiel oni anoncis la naskiĝon al la gepatroj de S-ino Davis?
 Kiel oni aĉetas la terpecon?
+Kiel oni diras tion en via denaska lingvo?
 Kiel oni dividos la monon?
 Kiel oni donacu?
 Kiel oni elektas la temojn?
@@ -18637,6 +18656,7 @@ Kio estas emblemo?
 Kio estas en la kapo?
 Kio estas en la maro?
 Kio estas en la mezo de pomo?
+Kio estas en la ujo?
 Kio estas en lia mano?
 Kio estas en tiu suko?!
 Kio estas esperantismo?
@@ -19383,6 +19403,7 @@ Kion vi diras, via bojarina moŝto, kien do vi veturos?
 Kion vi diras?
 Kion vi diris tuj al mi?
 Kion vi diris?
+Kion vi donos al via fratino ĉi-kristnaske?
 Kion vi ekvidas?
 Kion vi elstarigus el via Esperanta spertaro?
 Kion vi esperas atingi per la kampanjo?
@@ -19684,6 +19705,7 @@ Kiu povas esti la unua paŝo sur ĉi tiu vojo?
 Kiu povas helpi min?
 Kiu povas helpi tiurilate?
 Kiu povas hodiaŭ rifuzi al vi tiun rajton?
+Kiu povas instrui tion al mi?
 Kiu povas kompreni lin!
 Kiu povas proponi kontribuon kaj kiel tion fari?
 Kiu povas scii tion?
@@ -22519,6 +22541,7 @@ La infanoj estas devigataj almozi kaj labori en okcidentaj landoj.
 La infanoj estas ĝenataj de la plendemo de sia parento.
 La infanoj estis tre atentemaj.
 La infanoj eĉ ŝatas tiun amuzan buŝgimnastikon.
+La infanoj kolektas dolĉaĵojn dum haloveno.
 La infanoj plenkreskis intertempe.
 La infanoj post la lerneja tago venas hejmen kaj tie trovas neniun.
 La infanoj sentis malinklinon foriri, sed ili sciis, ke ne konvenas malobei.
@@ -22982,6 +23005,7 @@ La krimulo lasis neniun spuron.
 La krimuloj pasigis ĝin de mano al mano, kaj trovis ĝin tre bela.
 La kristanoj kaj ties belulinoj estas portantoj de la forigenda demono.
 La kristanoj volis vivi.
+La kristnaska viro flugas per magiaj boacoj.
 La kritikoj ĉefe koncentriĝas je benzina ekonomieco, komforto kaj prilabora precizeco.
 La kriza situacio havas influon ankaŭ al la Esperanto-movado.
 La kromaj legotekstoj ne aperas en la libro.
@@ -23912,6 +23936,7 @@ La pasaĝeroj sidas trance, evidente tute trankvilaj pri la afero.
 La pasinto estas nerefutebla.
 La pasinto?
 La pasio al bonaj vinoj iĝis kvazaŭ rito, kvazaŭ tradicio.
+La pasto sentiĝas amuze al la mano.
 La pastoroj malkontentiĝis pro tio.
 La pastra vizaĝo ŝanĝiĝis.
 La pastro benas la aŭskultantaron, preĝas laŭtvoĉe, kaj poste ĉiuj kantas psalmon.
@@ -26031,6 +26056,7 @@ Laŭ mia scio tio neniam estis la kutimo.
 Laŭ mia scio, neniu ĝis nun faris ĉi tiun konjekton.
 Laŭ mia sperto, post nepreparita parolado oni ofte ne estas kontenta.
 Laŭ mia supozo, ĉiuj tri punktoj estas ege malcertaj.
+Laŭ mia vortaro tiu vorto estas evitinda, sed mi malkonsentas.
 Laŭ multaj manieroj ĝi estas objekto de konflikto.
 Laŭ multaj, la akvo nun havas malbonan odoron.
 Laŭ nia enketo, triono de la partoprenantoj nur skribe komunikis dum la tuta kongreso.
@@ -29675,6 +29701,7 @@ Mi donos ekzemplon.
 Mi donus multon por esti juna kaj havi nur kvindek jarojn.
 Mi donus multon por ĉeesti la intervidon.
 Mi dormas tre malbone, kaj tage mi ne havas energion.
+Mi dormemas, sed mi ankoraŭ ne volas dormi.
 Mi dormemas.
 Mi dormis la tutan nokton, ĉar mi tre bezonis ripozon.
 Mi dormis longe, kaj vekiĝanta mi sentis min tre bona.
@@ -31407,6 +31434,7 @@ Mi ne povas akcepti tion senproteste, li komentas.
 Mi ne povas ankaŭ citi atestantojn, ĉar mi ne havis apude ian ajn kuraciston.
 Mi ne povas bone paroli.
 Mi ne povas devigi miajn gepatrojn.
+Mi ne povas dormi bone, ĉar la lito estas tro malmola.
 Mi ne povas ekstari.
 Mi ne povas elparoli la nomon.
 Mi ne povas elteni tion.
@@ -31432,6 +31460,7 @@ Mi ne povas manĝi tiun manĝaĵon.
 Mi ne povas memori.
 Mi ne povas movi.
 Mi ne povas multe studi ĉar mi bezonas multe labori.
+Mi ne povas muzikumi, ĉar mia instrumento rompiĝis.
 Mi ne povas naĝi.
 Mi ne povas ne esti ravata.
 Mi ne povas ne ludi.
@@ -31623,6 +31652,7 @@ Mi ne tre ŝatas vojaĝi.
 Mi ne tro scivolemis.
 Mi ne trovis inter ili la opinion de flegistino, kiu ricevis ordonon prepari mortigilon.
 Mi ne trovis ligilon al tujmesaĝilo, kiun mi uzas.
+Mi ne trovis tiun vorton en la vortaro.
 Mi ne tuj trovas vin, ŝi redonis, klavumante ĉe sia komputilo.
 Mi ne tute konas ĉi tiun programon.
 Mi ne uzas Vindozon.
@@ -32133,6 +32163,7 @@ Mi povis vidi nenion.
 Mi povos fari ion ajn.
 Mi povos fari tion nur sub la stimulo de efektiva bezono.
 Mi povos moviĝi senprobleme.
+Mi povos paroli kun vi, kiam mia laboro finiĝos.
 Mi povos, en unu tago, fariĝi romanheroo kaj admiraĵo por ĉiuj fraŭlinoj de Eŭropo.
 Mi povus aĉeti bileton por sephora busvojaĝo, sed mi ne ŝatas vojaĝi tiel.
 Mi povus diri al vi pri via operacio, se vi volus.
@@ -32843,6 +32874,7 @@ Mi tre ŝatas diri tion!
 Mi tre ŝatas havi glavon.
 Mi tre ŝatas kanti renesancan muzikon.
 Mi tre ŝatas kiel la arboj dise simple sidas ĉi tie
+Mi tre ŝatas la fajfadon de birdoj.
 Mi tre ŝatas la filmindustrion, sed multaj homoj havas nerealajn revojn pri ĝi.
 Mi tre ŝatas la ideon perdiĝi en arbaro kun iu alia.
 Mi tre ŝatas la senton.
@@ -33178,6 +33210,7 @@ Mi volas helpi organizi kaj pluigi la ideojn de miaj kunlaborantoj.
 Mi volas helpi reklami Esperanton al anglaj parolantoj
 Mi volas ilin venki.
 Mi volas iom da!
+Mi volas iri al la maro por amuziĝi.
 Mi volas iri al mia frato.
 Mi volas karesi vin
 Mi volas ke homoj pli ofte trovu
@@ -33400,6 +33433,7 @@ Mi ŝatas arton.
 Mi ŝatas aŭdi de miaj spektantoj. Do dankon.
 Mi ŝatas aŭskulti muzikon.
 Mi ŝatas batalsportojn.
+Mi ŝatas bluajn kaj verdajn vestaĵojn.
 Mi ŝatas danci.
 Mi ŝatas foti.
 Mi ŝatas grimpi.
@@ -33423,6 +33457,7 @@ Mi ŝatas muzikon.
 Mi ŝatas palpi ilin kaj teni ilin enmane
 Mi ŝatas parki mian karavanon en loko kaj ne moviĝi.
 Mi ŝatas spekti filmojn.
+Mi ŝatas strangulojn.
 Mi ŝatas studi la Biblion.
 Mi ŝatas tion!
 Mi ŝatas tion.
@@ -33435,6 +33470,7 @@ Mi ŝatas vin, vi havas belan vizaĝon.
 Mi ŝatas vin.
 Mi ŝatas vojaĝi.
 Mi ŝatas ĉi tempon, ĝi estas mirinda...
+Mi ŝatas ĉiujn kolorojn.
 Mi ŝatas ĝin
 Mi ŝatasrenkonti novajn homojn.
 Mi ŝategas la mapojn kaj ne ankoraŭ havis tempon por zorgi pri tio.
@@ -33513,6 +33549,7 @@ Mia desegnaĵo progresas sufiĉe bone, laŭ mi; ĝi disvolvas sian propran vivon
 Mia devo estas, kolekti ĉiujn konvinkigajn objektojn, necesajn por la proceso de Haĝi-Stavros.
 Mia dika horloĝo montris la dek-unuan.
 Mia disko enhavas multajn kantojn, kiuj energiigas, sed ankaŭ pensigas.
+Mia domo estas blanka kun ruĝa tegmento.
 Mia domo estas ja tiel proksima!
 Mia domo tiel multe skuis, ke mi ŝovis min al pli sekura loko.
 Mia domo, la domo.
@@ -33557,6 +33594,7 @@ Mia filo; ne eliru.
 Mia filo? Ho ne!
 Mia fingro...
 Mia fino!
+Mia forno kapablas fandi kelkajn tipojn de ŝtono.
 Mia frato diris al Stefano, ke li amas lin pli, ol sin mem.
 Mia frato havas malgrandan liphararon kaj mia patro portas vangharojn.
 Mia frato kaj mia bofratino rebonigis ilian lignodomon.
@@ -33576,6 +33614,7 @@ Mia hipotezo troviĝas malvalida kaj la konkludo estas ke virinoj
 Mia hobio estas aventura.
 Mia hobio estas interesa.
 Mia hobio ne estas speciala.
+Mia hundo estas ege ĉarma, kiam ŝi dormas.
 Mia hundo multfoje haltas por pisi
 Mia imagpovo ne estas senfina.
 Mia imagpovo sufiĉas.
@@ -33722,6 +33761,7 @@ Mia tuta pasinteco estis kvieto, amo kaj amuziĝo.
 Mia tuta provizo da kompato aktiviĝis nome de li.
 Mia tuta vizaĝo... brulas!
 Mia unua fajro alkuras min!
+Mia vilaĝo troviĝas sur montopinto.
 Mia vivo simple estas freneza
 Mia vivo ĉiam estis simpla.
 Mia vivrestaĵo pasiĝis pleje en landoj laŭ malproksimaj de hejmo.
@@ -33765,6 +33805,7 @@ Miaj gepatroj jam leviĝis.
 Miaj gepatroj povis pagi nek por tiu ekstraĵo, nek por la aliaj.
 Miaj haroj ekstaris sur mia kapo kaj mi kredis, ke mi estas tuj mortonta.
 Miaj haroj hirtiĝas!
+Miaj haroj malpuras. Mi lavu ilin.
 Miaj hobioj estas aventuraj.
 Miaj hobioj estas ekscitigaj.
 Miaj hobioj estas interesaj.
@@ -34208,6 +34249,7 @@ Multaj tagoj pasis.
 Multaj televidaj stacioj tion celebris.
 Multaj tipoj en malgranda kvanto.
 Multaj urbanoj ne plu kapablas pagi la transporton kaj devas piediri al sia laborejo.
+Multaj uzantoj ne scias kiel bone uzi ĉi tiun ilon.
 Multaj uzinoj en la regiono dum mia infanaĝo estis lignoindustriaj.
 Multaj valoraj kreaĵoj literaturaj kaj muzikaj estas plenumitaj kun modera konsumado de vino.
 Multaj valoraj retpaĝoj pri esperantaj temoj estas kreitaj fare de izolaj esperantistoj, ofte maljunaj.
@@ -34855,6 +34897,7 @@ Ne povas esti!
 Ne povas ne veni.
 Ne povas ĉiu homo esti pap' en Romo.
 Ne povus temi pri la domo.
+Ne prenu miajn aferojn!
 Ne preterlasu vian feliĉon!
 Ne preterlasu ĝin.
 Ne preteru la okazon.
@@ -38036,6 +38079,7 @@ Nur unu boateto restis ĉe la ŝipflanko, tial ni enboatiĝis en ĝin.
 Nur unu dolaro monate sufiĉas
 Nur unu esprimo ŝajnis al mi miselektita: tiu pri makdonalda estonteco.
 Nur unu etaĝo restas! Nur unu.
+Nur unu homo povas malfermi ĉi tiun kofron.
 Nur unu jaron!
 Nur unu kvinono sukcesas loĝi unu jaron.
 Nur unu lian falsan kaj ofendan deklaron mi deziras dementi.
@@ -41604,6 +41648,7 @@ Ri do serĉas personojn, kiu volas aĉeti desegnaĵojn.
 Ri donas poenton al la plasta saketo.
 Ri esploris tro for.
 Ri estas feliĉa, ĉar nun li estas libera.
+Ri estas neduumulo.
 Ri faras liniojn.
 Ri forgesis kiel desegni kun ĝuo kaj libereco.
 Ri havas multe da oro, juveloj kaj aliaj altvaloraĵoj.
@@ -45185,6 +45230,8 @@ Sonas facile?
 Sonas tre interese!
 Sonas tro nebule.
 Sonis paroladoj pri Incertov, aliaj mortigitoj dum la Granda Teroro, de esperantistoj kaj neesperantistoj.
+Sonja estas la kreinto de Tokipono.
+Sonja venas el Kanado.
 Sonlibroj aŭ aŭdo-libroj lastatempe tre populariĝis en la mondo.
 Sonlibroj estas ankaŭ tre valoraj por tiuj, kiuj studas Esperanton.
 Sonorigu, sonorigu!
@@ -45613,6 +45660,7 @@ Supozu, pastro, ke malobeanto ne scias, ke tiu devo ekzistas.
 Supra Ligo futbala klubo.
 Supraĵe la libro povus aspekti kiel infanlibro.
 Supre de la bufedo estas du malgrandaj tirkestoj.
+Supre en la arbo estas blua birdo, kiu fajfas tre bele.
 Supre en la hejmo ĉiuj ŝatas ŝin, ĉi tie funde, neniu.
 Supre la duobla ĉeno dividiĝas ĝis du unuoblaj ĉenoj en la mezo.
 Supre por la defio?
@@ -46451,6 +46499,7 @@ Tempo estas kara.
 Tempo flugas rapide.
 Tempo frapi la librojn!
 Tempo koaguliĝas.
+Tempo moviĝas kiel akvo.
 Tempo pasas inter ekonomi-politika interveno kaj la efiko de tiu interveno.
 Tempo pasis rapide.
 Tempo, dum kiu germanoj povas pli bone studi sian fakon.
@@ -49356,6 +49405,7 @@ Tro alproksimiĝi?
 Tro artifikemaj ili estas, nenion oni povas de ili ekscii.
 Tro belas
 Tro da diversaj opinioj.
+Tro da sunlumo povas mortigi ĉi tiun planton.
 Tro da tempo pasis
 Tro forta estis kaj plu restas ilia elreviĝo.
 Tro frua ĝojo!
@@ -49954,6 +50004,7 @@ Ve al mi!
 Ve al nevendistoj!
 Ve al vi!
 Ve, fek al vi!
+Ve, tiu bruaĉo dolorigas miajn orelojn!
 Ve, tiu pensmaniero kolerigas min, ĉar ĝi malhelpas la ekaperon de novaj renkontiĝoj.
 Vea vivo de vidvino.
 Veganaj manĝaĵoj estas tre bongustaj kun nutra gisto.
@@ -51290,6 +51341,7 @@ Via patrino estis tre, tre malriĉa, tre malĝoja.
 Via patro aŭ via patrino ja povos legi ĝin al vi.
 Via patro tamen povus labori.
 Via paĝaro, kontraste, belegas.
+Via pentraĵo havas multajn belajn kolorojn.
 Via potenco vere superas ĉion.
 Via princa moŝto faru la honoron al mia malriĉa dometo kaj volu sidiĝi.
 Via princa moŝto penis por mi.
@@ -51600,6 +51652,7 @@ Zamenhof
 Zamenhof en la poemo.
 Zamenhof estas birdo...
 Zamenhof estas iom malfeliĉa eble li timas, ke ni manĝos lin
+Zamenhof estas la kreinto de Esperanto.
 Zamenhof estis pioniro.
 Zamenhof fakte kreis religion.
 Zamenhof faris mirindan laboron, kaj certe ŝajnas, ke nenio superos
@@ -51616,6 +51669,7 @@ Zamenhof opiniis mem ke li kreis perfektan lingvon en Esperanto.
 Zamenhof plurfoje estis kandidato por la Nobel-pacpremio.
 Zamenhof prezentis sian lingvoprojekton.
 Zamenhof tre bone komprenis, ke lia lingvo devas havi la eblecon evolui.
+Zamenhof venis el Bjalistoko.
 Zamenhof, en siaj plej fruaj jaroj, bazis sian celaron je la juda popolo.
 Zamenhof, prezentis sin per la kaŝnomo Doktoro Esperanto.
 Zamenhof-stile? aŭ vere savi la mondon?
@@ -55477,6 +55531,7 @@ zorgu
 Ĉi tiu homo kaj liaj kunuloj mem atakis la vilaĝanojn.
 Ĉi tiu idealo kaj tiaj portretoj restas belaj eterne kaj neŝanĝeble.
 Ĉi tiu ideologio de frateco baldaŭ disvastiĝis al ĉiuj aliaj prizonoj.
+Ĉi tiu ilo estas sufiĉe forta por rompi ŝtonojn.
 Ĉi tiu infano devas esti baptata!?
 Ĉi tiu kampanjo ekzistas por helpi apartan Esperantiston
 Ĉi tiu klaso estas la malriĉaj virinoj.
@@ -55484,6 +55539,7 @@ zorgu
 Ĉi tiu lasta do vagis migrante dum longa, longa tempo.
 Ĉi tiu leono aspektas kvazaŭ oni ĵus enŝovis bastonon en lian pugon
 Ĉi tiu libro taŭgas por komencintoj ankaŭ ĉar ĉiu ĉapitro estas sufiĉe mallonga.
+Ĉi tiu libro temas pri la diversaj plantoj troveblaj en ĉi tiu regiono.
 Ĉi tiu limŝtono en la historio de la homaro okazigas kun nova kalendaro.
 Ĉi tiu ludo estas aĉa
 Ĉi tiu mallevis la okulojn kaj silentis.
@@ -55510,6 +55566,7 @@ zorgu
 Ĉi tiu subita perdo, li diris iom timeme, estos por vi forta financa streĉiĝo.
 Ĉi tiu teamo estas delonga ĉampiono en Hungario, sed ĉu ĝi estas hungara?
 Ĉi tiu templo estas pli ora kaj belaspekta ol la antaŭaj
+Ĉi tiu urbo havas grandan fortan muron.
 Ĉi tiu verda planedaĉo estis kvazaŭ malliberejo por la giganta robotulo el Cibertrono.
 Ĉi tiu verko devas esti eldonata nun aŭ neniam.
 Ĉi tiu vestaro estis ankoraŭ pli riĉa kaj pli bela ol la du unuaj.
@@ -55521,6 +55578,7 @@ zorgu
 Ĉi tiuj cigaroj estas multe tro fortaj por via maljuna ĝardenisto.
 Ĉi tiuj dolĉaj vortoj atingis ŝian koron; ŝi mallevis la kapon kaj eksilentis.
 Ĉi tiuj du frazoj estas ambaŭ korektaj kaj naturaj.
+Ĉi tiuj insektoj reprodukas sin sen seksumado.
 Ĉi tiuj liaj vortoj, kvazaŭ tranĉilo, vundis la koron de l' bojarino.
 Ĉi tiuj pensoj kvazaŭ garbo da fulmoj trakuris la kapon de Marta.
 Ĉi tiuj sonoj tremige ŝin ekskuis kaj rapidege eligis ŝin el la ŝtona senmoveco.
@@ -55530,6 +55588,7 @@ zorgu
 Ĉi tiuj vortoj faris sur Aleĉjo impreson surdigan kaj rigidigan.
 Ĉi tiuj vortoj resonis en la fundo de l' koro de Ivano.
 Ĉi tiuj vortoj senkonscie elglitis el lia buŝo.
+Ĉi tiuj ŝtonoj povas fandiĝi, se ili iĝas ege varmaj.
 Ĉi tiuj “pagetoj” povus subteni kaj interligi nian komunumon.
 Ĉi tiun atestanton via Reĝa Moŝto devas ekzameni.
 Ĉi tiun domon li posedis.
@@ -56051,6 +56110,8 @@ zorgu
 Ĉiuj estis treege kortuŝitaj.
 Ĉiuj estis ĉarmitaj, escepte mi.
 Ĉiuj estraranoj estas tre sindonemaj, serenaj kaj kuraĝaj.
+Ĉiuj estu amikoj.
+Ĉiuj estu bonuloj.
 Ĉiuj faktoroj devus esti favoraj por la kurzo de la eŭro.
 Ĉiuj familianoj parolas Esperanton.
 Ĉiuj faris ĝin.
@@ -58342,6 +58403,8 @@ zorgu
 Ĉu ĉeestas iu ajn deziranta defendi la akuziton?
 Ĉu ĉi homedo da mensa dinamiko vere estas okdekjara?
 Ĉu ĉi tiu estas bona ideo?
+Ĉu ĉi tiu fungo estas venena?
+Ĉu ĉi tiu vorto troveblas en ReVo?
 Ĉu ĉi ĉio estas celo tro alta por esti atingita?
 Ĉu ĉi ĉio nur estas iluzio, kaj neniel realiĝos?
 Ĉu ĉio bonas? Ĉu vi bezonas mian helpon?
@@ -60616,6 +60679,7 @@ zorgu
 Ŝlosi kaj malŝlosi paĝojn.
 Ŝlosiloj!
 Ŝlosilojn li ĉiam kunhavis.
+Ŝmiru vian haŭton per sunkremo, kiam la suno brilas forte.
 Ŝoforo!
 Ŝoforo! Mi pagos por ŝi
 Ŝoforo, ĉu ni povas iri?

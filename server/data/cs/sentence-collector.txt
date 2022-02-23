@@ -149,6 +149,7 @@ A mlhy jsou tady tak husté, že i ptáci chodí pěšky.
 A mluví se svou květinou.
 A mnohý ten Čech byl hladem zmořený.
 A mohlo by to fungovat i rozumně rychle.
+A musím se ještě pochlubit.
 A máte pocit, že tam či onam někdo nepatří?
 A máte pravdu!
 A mé poselství je proto jasné.
@@ -469,6 +470,7 @@ Aha.
 Ahoj Martino, já jsem dělal rozpoznávání výrazu obličeje jen okrajově.
 Ahoj všem.
 Ahoj, ať víte, že to děláme dobře.
+Ahoj, dejte mi vědět, jestli je to přibližně správně.
 Ahoj, jak se máš?
 Ahoj, jmenuji se Petr Fuk a jsem autorem této věty.
 Ahoj, já jsem Markéta a mám rakovinu.
@@ -770,6 +772,7 @@ Ano, ti rebelové.
 Ano, tohle je ten třetí typ sousedů.
 Ano, zastřelil jsem vlka samopalem.
 Ano, úředníci.
+Api klíč pro knihovnu Akademie věd.
 Apoštolské Vyznání
 Arboristou bys být nechtěl?
 Arduino a EduShield
@@ -1011,6 +1014,7 @@ Budou, Alquiste.
 Budou, slečno Gloryová.
 Budoucnost není černobílá.
 Budu ještě potřeba?
+Budu ji zítra asi kolem oběda posílat na podpis.
 Budu ležet tady.
 Budu mít i nějaké fotky.
 Budu s tím počítat.
@@ -1144,6 +1148,7 @@ Během jednoho vyhodnocení klasifikátoru najde objekt kdekoliv v obraze.
 Během prvního adventního víkendu jsme přivítali téměř čtyřicet tisíc návštěvníků.
 Bělocerkevská.
 Bětko!
+Bětko, Petře, doufám, že jsem dopsal periodickou zprávu.
 Běžel támhle.
 Běžely pak matkám povídat, že je u lesa dav lidu.
 Běžte tam!
@@ -1450,6 +1455,7 @@ Dal byste Sullu do pitevny?
 Dal jim šrotu, koně lehly a veterinář musel zasáhnout.
 Dal jsem do novin inzerát.
 Dal jsem dohromady výsledky.
+Dal jsem tam jako kontaktní osobu Petra.
 Dal jsem to do jiného hrníčku.
 Dal jsem vám přece slovo.
 Dal mu jednu nebo několik?
@@ -1591,7 +1597,9 @@ Dobrý den, jen se pro jistotu zeptám, potkali jsme se?
 Dobrý den, já jsem v tomto vystupoval jen jako prostředník, tak asi nebudu potřeba.
 Dobrý den, já se zase omlouvám že přes svátky nekontroluju email.
 Dobrý den, mám problém přečíst vaši písemku.
+Dobrý den, můžete mi, prosím, poslat seznam studentů, kteří z projektu dostali stipendium?
 Dobrý den, můžu v úterý nebo ve středu.
+Dobrý den, nasdílel jsem vám na google docs periodickou zprávu.
 Dobrý den, naživo to asi bude lepší.
 Dobrý den, není to problém.
 Dobrý den, omlouvat se nemusíte, taky nemám nejčitelnější písmo.
@@ -1602,6 +1610,8 @@ Dobrý den, rád posudek napíšu.
 Dobrý den, s tím nemám žádný problém.
 Dobrý den, s tím projektem to není takový problém.
 Dobrý den, tady policie.
+Dobrý den, to není problém, ale úterý dopoledne nemůžu.
+Dobrý den, to není problém, doufám, že ještě dnes pošlu bližší instrukce.
 Dobrý den, to zvládneme.
 Dobrý den, v tom termínu bude obhajoba prezenční a blbě by se to kombinovalo.
 Dobrý den, vy jste majitel?
@@ -1690,6 +1700,8 @@ Doufám, že aspoň na běžky se bude dát o Vánocích jít.
 Doufám, že jo.
 Doufám, že jsem na vás někdy nezapomněl.
 Doufám, že jsem poslal to správné číslo.
+Doufám, že jsem tam workshop napsal správně.
+Doufám, že jsem to nevzal za špatněj konec.
 Doufám, že jsem to správně opravil.
 Doufám, že jste si to užili.
 Doufám, že nyní se vše vysvětlí.
@@ -1817,6 +1829,7 @@ Děkujeme za příspěvek!
 Děkuji pěkně.
 Děkuji za rozhovor.
 Děkuji za vyhledání těch letů.
+Děkuji, napsal jsem je do zprávy.
 Děkuji, nemám zájem a čas.
 Děkuju vám, Fany.
 Děkuju za posezení.
@@ -1923,6 +1936,7 @@ Flákni mi ještě!
 Forma na mýdlo.
 Formy zábavy jsou v Pchjongjangu docela omezené.
 Fosilní paliva jsou neobnovitelné zdroje energie.
+Fotku klidně zítra dodám.
 Fotky nějaké mám a někdy je snad pošlu.
 Fotografové, filmaři...
 Fotorezistor
@@ -2127,6 +2141,7 @@ Ideálně by to zvýraznění mělo být stejné jako v předchozí verzi.
 Ignác Beier z Velkých Heraltic.
 Igor říkal něco o měření v laboratoři na Masarykově univerzitě.
 Ihned se z toho utvoří mléčná hmota.
+Ilustrační obrázek snad taky.
 Ilustrační obrázek?
 Implementovať?
 Implementujte navržený systém a demonstrujte jeho funkčnost ve vhodné aplikaci.
@@ -2168,6 +2183,7 @@ Jak je to teda s pohybem?
 Jak je uklidňujete a uspáváte?
 Jak je vám teď?
 Jak jinak by to taky mělo být?
+Jak jsem přepočítávál pozice v obraze na pohledové vektory, už to celkem funguje.
 Jak jsem se předávkovala!
 Jak jsi se dostal ke své práci?
 Jak jste opatrní.
@@ -2487,6 +2503,7 @@ Je to vpodstatě jeho hlavní životní hobby.
 Je to vzácná návštěva.
 Je to víceméně rutina.
 Je to výstava anglického obchodu.
+Je to z jiné všesměrové kamery a ze snímků přibližně co pět metrů.
 Je to zcela prosté.
 Je to známý provokatér.
 Je to zvláštní způsob navazování vztahů.
@@ -2825,6 +2842,7 @@ Jsme v bezpečí.
 Jsou krásné vlasy, které tě jenom tíží?
 Jsou krásné oči, které zavíráš?
 Jsou blogy a weby.
+Jsou datové sady na kterých jsou pozice obličejů už dané.
 Jsou diskuzní fóra.
 Jsou dost k ničemu.
 Jsou hrozní!
@@ -2960,6 +2978,7 @@ Já tebe mám asi taky rád.
 Já tedy opravdu velmi doufám, že tohle není vaše!
 Já ti to řeknu jenom jednou.
 Já to mam všechno vyznačené v diáři.
+Já to mám podle rozpočtu, ještě není konec roku.
 Já to nedovolim!
 Já to nezahodím.
 Já to potřebuju!
@@ -3502,6 +3521,7 @@ Lucie odbíhá za scénu.
 Lucie zvedá sluchátko.
 Lucka přes všechna ta studia nemá na nic čas.
 Lukáši, koukám, že nemáš účet.
+Lukáši, nakonec dneska nemůžu, ale zprávu do projektu jsem už dopsal.
 Lukáši, omlouvám se, nějak nestíhám.
 Lukáši, promiň, ale už nestíhám reagovat.
 Lukáši, pár postřehů.
@@ -3591,6 +3611,7 @@ Mezi novostavbou a skladištěm benzínu uvádí majitel sousední zahrady Matě
 Mezi těmi našimi předky museli být andělé.
 Meziroční rozdíl v tržbách však podle něj nebude tak markantní jako letos.
 Mezitím připravíme louh.
+Michale, slajdy jsem ti dal na web.
 Mikroprocesor osumdesát osumdesát á
 Milostnej trojúhelník, a navíc jen o dvou úhlech.
 Milostpán se zejtra vrátí.
@@ -4002,6 +4023,7 @@ Můžeme se setkat také s termínem spalovna.
 Můžeme se tak klidně domluvit.
 Můžeme se vidět?
 Můžeme si to ve čtvrtek vyměnit a tu druhou půlku můžu hned opravit.
+Můžeme si zavolat teď.
 Můžeme to neutralizovat octem, ale napřed se tomu musíš poddat!
 Můžete ho najít zde.
 Můžete je krmit ananasy, slámou, čím chcete.
@@ -4075,6 +4097,7 @@ Na hlavě měla červený šátek na pokos vázaný.
 Na hrušni hruška.
 Na internetové nákupy už neslyší jen mladá generace.
 Na jabloni roste jablko.
+Na jedenáct nám naplánovali hromadné focení u musím odběhnout.
 Na jednoho účastníka.
 Na jednotlivých listech celé řádky začerněny, zaškrtány.
 Na jednu porci stačí lžíce tuku do rendlíku a osmahnout.
@@ -4246,6 +4269,7 @@ Naskenoval jsem problematické písemky a pro každého studenta jsem vytvořil 
 Naslouchejte svému tělu a zjistěte, v čem je skutečně chyba.
 Nastane-li kdy vůbec.
 Nastavovat profil ostří.
+Nastřelil jsem počet zahraničních účastníků na dva.
 Natahují ruce ke kyslíkovým maskám.
 Naučil jsem se programovat.
 Naučit číslicovou techniku, říkáte?
@@ -4578,6 +4602,7 @@ Nemám ponětí.
 Nemám rád poškozené věci.
 Nemám rád šmouly.
 Nemám s tím problém, klidně podepíšu.
+Nemám tam dát odkaz přímo na ten google?
 Nemám špatnou paměť a běžně si dobře pamatuji události.
 Nemáte nějakej návrh, jak vám ty peníze můžu poslat?
 Nemáte nějakou odloženou přítelkyni, který by mohla tohle chtít udělat?
@@ -4632,6 +4657,7 @@ Není to sexy.
 Není to tak docela pravda.
 Není to tak těžké a za den se dá většina z toho pochopit.
 Není to však nic světoborného.
+Není to z videa.
 Není tu pan lesní?
 Není tu.
 Není tvůj kmen tak starý jako všech ostatních ptáků?
@@ -5301,6 +5327,7 @@ Osobně teď pracuji na detekci obličeje, kterou tady umíme velmi dobře a ryc
 Osobně upíry zrovna moc nemusím, ale sem fakt sedli.
 Ostatní jsem zkontroloval.
 Ostatní mají prostě smůlu.
+Ostatní opravuju.
 Ostatní pacienti všemožně postávají a polehávají.
 Ostatní se protahují a chystají se na další bitku.
 Ostatní se přestávají svíjet a jen stojí v pozoru a oddechují.
@@ -5451,6 +5478,7 @@ Pavle, dívám se, že ses přihlásil na konzultaci, tak předpokládám, že j
 Pavle, ještě je jistá šance, že uděláme nějakou samostatnou online seanci.
 Pavle, já můžu v tu středu i čtvrtek.
 Pavle, já se připojím.
+Pavle, napsal jsem teď odpovědi na ty otázky.
 Pavle, opravil jsem link na svou přednášku a mělo by to být možná komplet.
 Pavle, přeposlat to dál klidně můžeš, ale chtěl jsem nejdřív otestovat vody u nás.
 Pavle, přes ten produkční klíč nic zatím nezpracoval.
@@ -5480,6 +5508,7 @@ Petra říkala, že už se dokonce i lyžuje.
 Petrolejky, olejové lampy, svíčky, louče...
 Petrovi spadla na zem karta.
 Petře, díky za přeposlání.
+Petře, nějak mi to uteklo, ale už posílám.
 Petře, trochu jsem u nás oběhl lidi.
 Petře, v pondělí kolem jedenácté můžu.
 Pečení vánočního cukroví je zažitá tradice.
@@ -5666,6 +5695,7 @@ Pojďte sem.
 Pokaždé se čelo čistým nebem zaskvívalo.
 Pokračuj ve čtení.
 Pokračujte volně vpřed, hlavně žádnou paniku.
+Pokud ale budete chtít i zpracovat celé nové snímky, musíte tváře detektovat.
 Pokud budete chtít a napíšete mi, můžete se ještě dnes zastavit.
 Pokud budete chtít, můžete si se mnou domluvit osobní schůzku.
 Pokud budete mít nějaké další dotazy, napište.
@@ -5757,6 +5787,7 @@ Pomohl jim k tomu hlavně rychlý růst příjmů, který trval po celý rok.
 Pomyslel jsem si, že je to opravdu vážné.
 Pomáhá vám to sestavit si model světa.
 Pomůže mi se zotavit, když jsem zraněný.
+Pondělí mám zatím celé volné.
 Ponechal jsem ho aspoň u sebe ve věži.
 Poněvadž nemohl neb nechtěl, stavěl Králík.
 Popis se týká pouze registrace pro Česko.
@@ -5809,6 +5840,7 @@ Posílám něco málo rozpoznávání výrazů obličeje.
 Posílám nějaké fotky z toho závodu a je tam i fotka jezera.
 Posílám nějaké otázky na detekci.
 Posílám pozdrav z letiště v Atlantě.
+Posílám rekonstrukci i s pozicema.
 Posílám ty slíbené obrázky a text.
 Posílám vám aspoň obrázek, jak takový anglický park vypadá.
 Posílám výsledky.
@@ -5843,6 +5875,7 @@ Potřebujeme jej ale i v dalších oblastech života.
 Potřebujeme posily.
 Potřebujeme sofistikované řešení, které by bylo navrženo speciálně pro nás.
 Potřebuješ pořádně umejt!
+Potřebuji to vyplnit do periodické zprávy.
 Potřebuju od tebe něco vědět.
 Potřebuju prostě vymýšlet věty.
 Potřásl jsem mu rukou, která byla tvrdá a pevná.
@@ -5959,6 +5992,7 @@ Pro mě osobně je tohle vysoce pozoruhodné.
 Pro nás jako spotřebitele to má jeden jasný důsledek.
 Pro opětovnou účast jsem již nesplňoval věkovou hranici.
 Pro projekt, který sám asi ani nevyužiju?
+Pro prvních dvacet snímků jsem přebral pozice, zbytek už na ně nekouká.
 Pro práci, slečno.
 Pro představu jsem zveřejnil ukázku své písemky.
 Pro slovo nakvašen!
@@ -6050,6 +6084,7 @@ Prostě ztracený čas.
 Prostě česká klasika.
 Prostě, ty peníze jsou na plátně vidět.
 Prosím Tě, kde je Nové Město nad Metují?
+Prosím o kontrolu.
 Prosím počkejte na zvukový signál.
 Prosím tě a žádám.
 Prosím tě, jak velký práh používáte?
@@ -6067,6 +6102,7 @@ Prosím, beze všeho.
 Prosím, dopřej mi tu chvíli klamu.
 Prosím, hodně to předělej.
 Prosím, jsem okamžitě připraven!
+Prosím, koukni na to.
 Prosím, má i typické chmýří blondýnek.
 Prosím, neničte.
 Prosím, o tom nemluvme!
@@ -6079,6 +6115,7 @@ Prosím, sedněte.
 Prosím, slečno, posaďte se.
 Prosím, tuhle větu tam nedávej.
 Prosím, zavolej mi, jak budeš moct.
+Prosím, zkontrolujte ji.
 Proti výpovědi Josefy Sajbrtové v příčině vlastnictví zdi.
 Proto by to měl někdo oživit.
 Proto existuje možnost registrace ochranné známky.
@@ -6344,6 +6381,7 @@ Přes Sedlo se potom nedá projet a ani přes Hanušovice to není žádná slá
 Přes prsa pak červenou podušku.
 Přes tucet luxusních vozů pokáleno holuby!
 Přes šedesát let trval nerovný zápas.
+Přesně to být určitě nemusí.
 Přestala by se hýbat.
 Přestaňte už!
 Přesto obchodní centra a supermarkety na svou chvíli slávy zatím čekají.
@@ -6552,7 +6590,10 @@ Rodiče, které pečují o děti, mají právo na pomoc státu.
 Rodičovství a rodina jsou pod ochranou zákona.
 Rohlíky došly.
 Rom, Prom a další
+Romane, Davide, už by měla být aktuální i stránka předmětu.
+Romane, dal jsem tam to pdf ze share pointu.
 Romane, neměl jsem teď moc času.
+Romane, přednášku jsem ti hodil na kazi a upravil jsem link.
 Romane, tak doufám, že se tento týden uvidíme.
 Romeo je nešťastně zamilován do dívky jménem Rosalina.
 Romeo pozře jed u Juliina těla.
@@ -6656,6 +6697,7 @@ S panímámou tam byla i dcera čtenářka.
 S pánem.
 S pár bagry rozjedou během pár týdnů primitivní důl a těží.
 S přítelkyní to různě skřípe.
+S tou segmentací to chápu, zkoušky přizpůsobím.
 S tím hodně souvisí následující kapitola.
 S tím nic nenaděláte.
 S tím stavěním tratě je to celkem jedno.
@@ -6956,6 +6998,7 @@ Stejně tak třeba na kole.
 Stejně tak vy vidíte jejich probíhající editace.
 Stejně tak závodní mise v autech.
 Stesk padne na srdce a není rady ani pomoci.
+Stipendia nejspíš tento měsíc vybereme.
 Sto dvacet dolarů ošacený kus, a před patnácti lety stál deset tisíc!
 Sto dvacet jedna.
 Stojí mě to soustředění a koncentrovanou snahu, ale jde to.
@@ -7018,6 +7061,7 @@ Sullo, to je hanebné.
 Sullo, ukažte se slečně Gloryové.
 Sullo, vy byste se nechala rozříznout?
 Sullo, vy jste děvče jako já, že?
+Super, já jsem to Boženě Karle Neotrkalové-Ťulpachové teď nasdílel a zrovna jí píšu.
 Supermarkety se tak pro jistotu zásobí větším množstvím šumivých vín a vaječných likérů.
 Suroviny jsou obyčejně krásnější a zajímavější.
 Sušené datle jsou dobré.
@@ -7183,6 +7227,7 @@ Tak se naštvi!
 Tak se pamatuj!
 Tak se to tady dělá.
 Tak si dá ještě jedno kafe.
+Tak si můžeme zavolat skoro kdykoliv.
 Tak si to zapiš za uši.
 Tak sis měl dát pozor.
 Tak sláva!
@@ -8279,7 +8324,11 @@ V pátek před odletem se ještě jedu podívat na Niagarské vodopády.
 V pátek se stavit můžeš.
 V předchozím kroku můžete zkusit místo filtrace použít třeba adaptivní prahování.
 V předehře přijíždí do továrny na roboty Helena Gloryová.
+V příloze ještě posílám skoro konečnou verzi příloh.
 V příloze máte lepší klasifikátor a ukázku výstupu.
+V příloze posílám ještě přílohy.
+V příloze posílám rekonstrukci z dat i s porovnáním s přesnou pozicí.
+V příloze posílám ukázku.
 V případě videa ale vzniká zajímavý paradox.
 V případě zájmu si může student kteroukoliv z těchto úloh zvolit a plnit.
 V příštím roce již nezaměstnanost nemá mnoho prostoru pro další pokles.
@@ -8316,6 +8365,7 @@ V té době se přistěhoval do Staré Boleslavi další dobrý šachista.
 V té době už byl vdovec.
 V těchto dvou případech tam budeme oba a budou obhajovat dva projekty současně.
 V Ústřední knihovně na Kapucínském náměstí číslo jedenáct.
+V úterý můžu až od jedné.
 V úterý?
 V Česku definujeme trošku jinak.
 V čem by nám bylo lépe?
@@ -9035,6 +9085,7 @@ Za co říkáte, že jsem vám dal po­chvalu?
 Za den to udělá překvapivě i několik hodin.
 Za druhé, můžeš smíchat jednu ku jedné benzin a dietní kolu.
 Za duhou hvězda skvělá.
+Za mě je to snad hotové.
 Za nic na světě, slečno.
 Za nimi jely vozy s věcmi.
 Za nějakou dobu se opět potkají...
@@ -9190,6 +9241,7 @@ Zdi nečiní majitel zahrady.
 Zdravotní sestra není skutečná.
 Zdravím všechny řešitele projektu.
 Zdravím, Roman včera určitě říkal něco o odevzdání projektu.
+Zdravím, bod jedna může být volitelný.
 Zdravím, díky za upozornění, asi jsem vás přeskočil.
 Zdravím, ještě bych doplnil:
 Zdravím, máme správcovský účet, ze kterého vidím všechy dokumenty.
@@ -9306,6 +9358,7 @@ Zní to zajímavě, že?
 Zněl jako zvon ve farním kostele.
 Zněl tu libý souzvuk rodinného štěstí.
 Zobrazovací obvod hrací kostky
+Zobrazuju si to v CloudCompare.
 Zoufat.
 Zplodil jsem tohle
 Zpočátku jen lehce, každým dnem však víc a víc.
@@ -9504,6 +9557,7 @@ zámečník Antonín Lorenc z Bílovce
 Času jste měl doopravdy hodně.
 Času poustevnického upotřebuje zatím rak velmi svědomitě k přípravám k novému zbojnictví.
 Čau Martine, jo to by bylo dobrý.
+Čau, potom, co jsem opravil pár chyb.
 Čau, problém trochu je, že moc dopředu neplánuju a řídím se i počasím.
 Čau. Píšu to rovnou do toho dokumentu.
 Čechy čeká nejbohatší nadílka v historii.

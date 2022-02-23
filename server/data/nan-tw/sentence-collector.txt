@@ -103,6 +103,7 @@
 一半過仔 （tsi̍t-puànn-kuè-á）
 一卡通 （it-khá-thong）
 一去不回頭 （it-khì p huê-thâu）
+一句話盤來盤去（Tsi̍t kù uē puânn lâi puânn khì）
 一句講就袂曉話 （tsi̍t-kū kóng tō bē-hiáu uē）
 一句講都袂曉話 （tsi̍t-kù kóng to bē-hiáu uē）
 一叫一應 （tsi̍t-kiò-tsi̍t-ìng）
@@ -207,6 +208,7 @@
 一目𥍉仔久 （tsi̍t-ba̍k-nih-á-kú）
 一直咧 （it-ti̍t leh）
 一眼分明 （it-gán hun-bîng）
+一碗飯來分我好無？（Tsi̍t uánn pn̄g lâi pun--guá hó--bô?）
 一禮拜 （tsi̍t-lé-pài）
 一空一隙 （tsi̍t-khang tsi̍t khiah）
 一空掠兩尾 （tsi̍t-khang lia̍h nn̄g-bué）
@@ -216,6 +218,7 @@
 一等 （it-tíng）
 一箍人 （tsi̍t-khoo-lâng）
 一箍拄天 （tsi̍t-khoo tú-thinn）
+一箍柴柴（Tsi̍t khoo tshâ-tshâ）
 一箍若天柱 （tsi̍t-khoo nā thinn-thiāu）
 一節課 （tsi̍t tsiat khò）
 一籠 （tsi̍t láng）
@@ -253,6 +256,8 @@
 一開始 （tsi̍t-khai-sí）
 一關過了又一關 （tsit-kuan kuè-liáu iū tsit-kuan）
 一陣人 （tsi̍t tīn lâng）
+一陣人佇遐嘻嘻嘩嘩，有夠吵！（Tsi̍t tīn lâng tī hia hi-hi-huā-huā, ū-kàu tshá!）
+一陣風吹過來，予人感覺誠秋凊（Tsi̍t tsūn hong tshue--kuè-lâi, hōo lâng kám-kak tsiânn tshiu-tshìn）
 一隻 （tsi̍t tsiah）
 一隻囝 （tsi̍t-tsiah-kiánn）
 一隻牛剝雙領皮 （tsi̍t-tsiah gû pak siang niá phuê）
@@ -284,6 +289,7 @@
 七仔 （tshit--á）
 七仔笑八仔 （tshit--á tshiò peh--á）
 七八除，內外扣 （tshit-peh-tû, lāi-guā khàu）
+七分酒透三分水上拄好（Tshit hun tsiú thàu sann hun tsuí siōng tú-hó）
 七創八創 （tshit-tshòng-peh-tshòng）
 七匼八笑 （tshit-khap-peh-tshiò）
 七十三，八十四 （tshit-tsa̍p-sann peh-tsa̍p-sì）
@@ -297,6 +303,7 @@
 七扣八除 （tshit-khàu-peh-tû）
 七拐八拐 （tshit-kuái-peh-kuái）
 七早八早 （tshit-tsá-peh-tsá | tshit-tsá-pueh-tsá）
+七早八早，你就想欲歇睏？（Tshit-tsá-peh-tsá, lí tō siūnn-beh hioh-khùn?）
 七曜 （tshit-iāu）
 七月半 （tshit-gue̍h-puànn）
 七月半鴨仔毋知死 （tshit gue̍h-puànn ah-á m̄-tsai-sí）
@@ -316,7 +323,6 @@
 七色圖 （tshit-sik-tôo）
 七葉蘭 （tshit-hio̍h-lân）
 七號仔 （tshit-hō-á）
-七號𥴊仔店 （tshit-hō kám-á-tiàm）
 七覆八笑 （tshit-phak-peh-tshiò）
 七訣八訣 （tshit-kuat-peh-kuat）
 七變八變 （tshit-pìnn-peh-pìnn）
@@ -327,6 +333,7 @@
 七顛八笑 （tshit-tian-peh-tshiò）
 七鬥八鬥 （tshit-tàu-peh-tàu）
 七點 （tshit-tiám）
+七點才坐桌，這陣去傷早（Tshit tiám tsiah tsē-toh, tsit-tsūn khì siunn tsá）
 丈姆 （tiūnn-ḿ）
 丈姆看囝婿，愈看愈可愛 （tiūnn-ḿ khuànn kiánn-sài, jú khuànn jú khó-ài）
 三K黨 （Sam-khe-tóng）
@@ -387,6 +394,7 @@
 三寶顏 （Sam-pó-gân）
 三寶顏市 （Sam-pó-gân-tshī）
 三尾牛 （Sann-bué-gû | Sam-bué-gû）
+三工傷趕啦，交袂出來（Sann kang siunn kuánn--lah, kau bē tshut--lâi）
 三年一閏，好歹照輪 （sann-nî tsi̍t jūn, hó-pháinn tsiàu-lûn）
 三年水流東，三年水流西 （sann-nî tsuí lâu tang, sann-nî tsuí lâu sai）
 三年的狗屎乾，提來做月半 （sann-nî ê káu-sái kuann, the̍h-lâi tsò gue̍h-puànn）
@@ -497,6 +505,7 @@
 上大代死煞 （siāng tuā tāi sí suah）
 上天無路，落地無步 （tsiūnn-thinn bô-lōo lo̍h-tē bô-pōo）
 上好是 （siōng-hó sī）
+上好莫拖到明仔載（Siōng hó mài thua kàu bîn-á-tsài）
 上媠 （siāng-suí | siōng-suí）
 上尉 （siōng-uì）
 上尾仔 （siōng-bué-á）
@@ -545,6 +554,8 @@
 下擺袂使 （ē-pái bē-sái）
 下早 （ē-tsá | ē-tsái）
 下早仔 （e-tsái-á）
+下早仔伊有來揣你（E-tsái-á i ū lâi tshuē--lí）
+下早仔的生理真好（E-tsái-á ê sing-lí tsin hó）
 下早市 （ē-tsái-tshī）
 下早頓 （e-tsái-tǹg）
 下早飯 （e-tsái-pn̄g）
@@ -562,6 +573,7 @@
 下晡時仔 （ē-poo-sî-á）
 下晡茶 （ē-poo-tê | e-poo-tê）
 下晡點心 （e-poo tiám-sim）
+下暗伊愛輪班（E-àm i ài lûn-pan）
 下暗做伙睏 （e-àm tsò-hué khùn）
 下暗頓 （e-àm-tǹg）
 下暗飯 （e-àm-pn̄g）
@@ -675,6 +687,7 @@
 主題曲（tsú-tê-khik | tsú-tuê-khik）
 丼巴斯（Tôm-pa-su）
 丼飯（tòng-pn̄g）
+久來就會趁大錢（Kú--lâi tō ē thàn tuā tsînn）
 久別 （kiú-pia̍t）
 久年百載 （kú nî pah tsài）
 久年萬代 （kú nî bān tāi）
@@ -756,6 +769,7 @@
 予人硩定矣（hōo-lâng teh-tiānn ah）
 予人請（hōo lâng tshiánn）
 予人起雞母皮（hōo lâng khí ke-bó-phuê）
+予人鼻著強欲擋袂牢（Hōo lâng phīnn-tio̍h kiōng-beh tòng bē tiâu）
 予人（hōo-lâng）
 予你焐（Hōo-lí-ù）
 予你熨（Hōo-lí-ut）
@@ -766,6 +780,7 @@
 予啦箍仔（hōo-la-khoo-á）
 予我請（hōo guá tshiánn）
 予我（hōo--guá）
+予烏墨𪐞開（Hōo oo-ba̍k tòo--khui）
 予焦啦（hōo ta--lah）
 予（hōo）
 事件視界召鏡（sū-kiānn-sī-kài tiàu-kiànn）
@@ -866,6 +881,7 @@
 亡命天涯 （bông-bīng thian-gâi）
 亡國奴 （bông-kok lôo）
 亢旱（khòng-huānn）
+交代我愛好好仔照顧你（Kau-tài guá ài hó-hó-á tsiàu-kòo--lí）
 交冬（kau-tang）
 交冷恂（ka-líng-sún）
 交割（kau-kuah）
@@ -887,10 +903,12 @@
 人來來去去 （lâng lâi-lâi-khì-khì）
 人來客去 （lâng lâi kheh khì）
 人公鼓 （jîn-kang-kóo）
+人共伊歹（Lâng kā i pháinn）
 人參 （jîn-som | lîn-som | jîn-sim | ji̋n-jín | gîn-som）
 人參榕 （jîn-sim tshîng）
 人命關天 （jîn bīng kuan thian）
 人咧做，天咧看 （lâng teh tsò thinn teh khuànn）
+人咧叫你，你嘛共人應一下（Lâng teh kiò--lí, lí mā kā lâng ìn--tsi̍t-ē）
 人喙上毒 （lâng tshuì siāng to̍k）
 人喙毒毒 （lâng tshuì to̍k-to̍k）
 人在人情在 （jîn tsāi jîn-tsîng tsāi）
@@ -947,6 +965,7 @@
 人聲沖沖滾 （lâng siann tshiâng-tshiâng-kún）
 人肉鹹鹹，袂食得
 人色 （lâng-sik）
+人若是無爽快，愛去予先生看（Lâng nā-sī bô sóng-khuài, ài khì hōo sian-sinn khuànn）
 人若無照天理，天就無照甲子 （lâng nā bô tsiàu thian-lí, thinn tō bô tsiàu kah-tsí）
 人講綴人講 （lâng kóng tuè-lâng kóng）
 人貧計短，馬瘦毛長 （jin pîn kè té, bé sán moo tn̂g）
@@ -977,11 +996,20 @@
 今仔日上媠氣（kin-á-ji̍t siōng súi-khùi）
 今仔日上對同（kin-á-ji̍t siōng tuì-tâng）
 今仔日上對筒（kin-á-ji̍t siōng tuì-tâng）
+今仔日天氣無好（Kin-á-ji̍t thinn-khì bô hó）
 今仔日天氣真好（kin-á-ji̍t thinn-khì tsin-hó）
+今仔日我無閒，別日才去揣你（Kin-á-ji̍t guá bô-îng, pa̍t-ji̍t tsiah khì tshuē--lí）
+今仔日推甲有夠飽的（Kin-á-ji̍t thui kah ū-kàu pá--ê）
+今仔日有人客欲來（Kin-á-ji̍t ū lâng-kheh beh lâi）
+今仔日水果敗價敗甲誠慘（Kin-á-ji̍t tsuí-kó pāi-kè pāi kah tsiânn tshám）
+今仔日的代誌（Kin-á-ji̍t ê tāi-tsì）
+今仔日的天氣（Kin-á-ji̍t ê thinn-khì）
 今仔日的我無極限（kin-á-ji̍t ê guá bô ki̍k-hān）
 今仔日（kia̋nn-ji̍t）
 今仔暗（kin-á-àm）
 今天（kin-thian）
+今年是一个好年冬（Kin-nî sī tsi̍t ê hó-nî-tang）
+今年頭水的柚仔真好食（Kin-nî thâu-tsuí ê iū-á tsin hó-tsia̍h）
 今式（tann-sik）
 今日上公道（kin-ji̍t siāng kong-tō | kin-li̍t siōng kong-tō）
 今日（kim-ji̍t | kīn-ji̍t）
@@ -1022,11 +1050,16 @@
 代替金（tāi-thè-kim）
 代溝（tāi-kau）
 代理（tāi-lí）
+代誌到今猶是無下落（Tāi-tsì kàu-tann iáu sī bô-hē-lo̍h）
+代誌哪會行到這款地步？（Tāi-tsì ná ē kiânn kàu tsit khuán tē-pōo?）
 代誌大條（tāi-tsì tuā-tiâu）
 代誌大碗（tāi-tsì tuā-uánn）
+代誌好勢矣未？（Tāi-tsì hó-sè--ah--buē?）
+代誌就按呢進行（Tāi-tsì tō án-ne tsìn-hîng）
 代誌歪臍（tāi-tsì uai-tsâi）
 代誌毋好（tāi-tsì m̄ hó）
 代誌現花（tāi-tsì hiàn hue）
+代誌都過去矣，莫閣提起矣（Tāi-tsì to kuè--khì-ah, mài koh thê-khí--ah）
 令和（Līng-hô）
 以撒（Í-sat）
 以毒攻毒（í-to̍k-kong-to̍k）
@@ -1039,12 +1072,146 @@
 企劃（khì-ue̍h）
 企業家（khì-gia̍p-ka）
 企業管理（khì-gia̍p kuán-lí）
+伊一定是頂世人燒好香（I it-tīng sī tíng-sì-lâng sio hó hiunn）
+伊三不五時就來阮兜行踏（I sam-put-gōo-sî tō lâi guán tau kiânn-ta̍h）
+伊上愛食炕肉（I siōng ài tsia̍h khòng-bah）
+伊下性命走，想欲趕著車幫（I hē-sènn-miā tsáu, siūnn-beh kuánn tio̍h tshia-pang）
+伊下早仔去予屜仔挾著尾二指（I e-tsái-á khì hōo thuah-á gia̍p-tio̍h bué-jī-tsáinn）
+伊下暗去食桌，無佇厝裡（I e-àm khì tsia̍h-toh, bô tī tshù--lí）
+伊予鐵釘仔劌著（I hōo thih-ting-á kuì--tio̍h）
+伊事業做了袂䆀（I sū-gia̍p tsò liáu bē-bái）
+伊人真好（I lâng tsin hó）
+伊今仔日的表現有淡薄仔失常（I kin-á-ji̍t ê piáu-hiān ū tām-po̍h-á sit-siông）
+伊今仔日穿甲花巴哩貓（I kin-á-ji̍t tshīng kah hue-pa-li-niau）
+伊以早咧教冊（I í-tsá teh kà-tsheh）
+伊佇內底，你共伊喊一下（I tī lāi-té, lí kā i hiàm--tsi̍t-ē）
+伊佇房間溫習功課，莫共伊吵（I tī pâng-king un-si̍p kong-khò, mài kā i tshá）
+伊佇生理場誠有名（I tī sing-lí-tiûnn tsiânn ū-miâ）
+伊做代誌認真，風評袂䆀（I tsò tāi-tsì jīn-tsin, hong-phîng bē-bái）
+伊做無三月日就予人辭頭路（I tsò bô sann gue̍h-ji̍t tō hōo lâng sî-thâu-lōo）
+伊做生理了錢，改途去食人的頭路（I tsò-sing-lí liáu-tsînn, kái-tôo khì tsia̍h lâng ê thâu-lōo）
+伊共公司的錢侵了了（I kā kong-si ê tsînn tshim liáu-liáu）
+伊共我拍，我用手共伊掰開（I kā guá phah, guá iōng tshiú kā i pué--khui）
+伊共餅貯入去盒仔底（I kā piánn té ji̍p-khì a̍p-á-té）
+伊出代誌彼時，我佇厝裡（I tshut-tāi-tsì hit-sî, guá tī tshù--lí）
+伊加我一輩（I ke guá tsi̍t puè）
+伊去廟裡拈香（I khì biō--lí liam-hiunn）
+伊咧騙你，你毋通中計（I teh phiàn--lí, lí m̄-thang tiòng-kè）
+伊哭甲目屎四淋垂（I khàu kah ba̍k-sái sì-lâm-suî）
+伊喘氣喘袂過（I tshuán-khuì tshuán bē kuè）
+伊嘛欲綴你去（I mā beh tuè lí khì）
+伊坐佇我的倒手爿（I tsē tī guá ê tò-tshiú-pîng）
+伊定定得罪人（I tiānn-tiānn tik-tsuē--lâng）
+伊對食這項真甘開（I tuì tsia̍h tsit hāng tsin kam khai）
+伊就毋還人矣（i tō m̄ hîng--lâng--ah）
+伊差一點仔就著獎矣，有夠無彩（I tsha tsi̍t-tiám-á tō tio̍h-tsióng--ah, ū-kàu bô-tshái）
+伊差不多五十歲彼跤兜（I tsha-put-to gōo-tsa̍p huè hit kha-tau）
+伊已經倒轉去下港矣（I í-king tò-tńg-khì ē-káng--ah）
+伊干焦好看頭爾爾，無啥物底蒂（I kan-na hó-khuànn-thâu niā-niā, bô siánn-mih té-tì）
+伊幾若工無看見影（I kuí-nā kang bô khuànn-kìnn iánn）
+伊彼个人就是無量，袂堪得看人好（I hit ê lâng tō sī bô-liōng, bē-kham-tit khuànn lâng hó）
+伊怨妒別人比伊較好額（I uàn-tòo pa̍t-lâng pí i khah hó-gia̍h）
+伊想欲買一組膨椅（I siūnn-beh bé tsi̍t tsoo phòng-í）
+伊愛激派頭就予伊去激，莫插伊（I ài kik-phài-thâu tō hōo i khì kik, mài tshap--i）
+伊才走無偌久（I tsiah tsáu bô-guā-kú）
+伊按呢共你剾洗，你敢袂艱苦？（I án-ne kā lí khau-sé, lí kám bē kan-khóo?）
+伊換鋪就睏袂去矣（I uānn-phoo tō khùn bē khì--ah）
+伊是一个大美人（I sī tsi̍t ê tuā bí-jîn）
+伊是一个普通人（I sī tsi̍t ê phóo-thong lâng）
+伊是一个無天良的人（I sī tsi̍t ê bô-thian-liông ê lâng）
+伊是一个真樂觀的人（I sī tsi̍t ê tsin lo̍k-kuan ê lâng）
+伊是二手，毋是頭手（I sī jī-tshiú, m̄ sī thâu-tshiú）
+伊是來亂的，咱莫管伊（I sī lâi luān--ê, lán mài kuán--i）
+伊是做塗水的（I sī tsò-thôo-tsuí--ê）
+伊是咧拍拳賣膏藥的（I sī teh phah-kûn bē koo-io̍h--ê）
+伊是我拄過上歹剃頭的人（I sī guá tú--kuè siōng pháinn-thì-thâu ê lâng）
+伊是我的家後（I sī guá ê ke-āu）
+伊是阮查埔人（I sī guán tsa-poo-lâng）
+伊是阮祧仔內的（I sī guán thiāu-á-lāi--ê）
+伊曝甲烏趖趖，若親像烏人咧（I pha̍k kah oo-sô-sô, ná-tshin-tshiūnn oo-lâng--leh）
+伊最近過了有較伸勻矣（I tsuè-kīn kuè liáu ū khah tshun-ûn--ah）
+伊有三間厝（I ū sann king tshù）
+伊有帶病，面色才會遐歹看（I ū tài-pēnn, bīn-sik tsiah ē hiah pháinn-khuànn）
+伊有誠濟內孫（I ū tsiânn tsē lāi-sun）
 伊未（i-bī）
 伊查跤也（i-tsa-kha-iá）
+伊欲買一刀紙（I beh bé tsi̍t to tsuá）
+伊欲過身的時陣（I beh kuè-sin ê sî-tsūn）
+伊毋但毋驚，閣敢佮人㧣（i m̄-nā m̄ kiann, koh kánn kah lâng tu）
+伊漢草真好（I hàn-tsháu tsin hó）
+伊烏白起厝，去侵著別人的地界（I oo-pe̍h khí-tshù, khì tshim tio̍h pa̍t-lâng ê tē-kài）
+伊無佮意你（I bô kah-ì--lí）
 伊無救矣（i bô-kiù--ah）
 伊無踏我个跤，我無咬伊个頭（i-bô ta̍h guá-ê kha, guá bô kā i-ê thâu）
 伊無踏我个跤，我無踏伊个頭（i bô ta̍h guá-ê kha, guá bô ta̍h i-ê thâu）
+伊煞無要無緊（I suah bô-iàu-bô-kín）
+伊猶未講煞，毋通僭話（I iáu-buē kóng-suah, m̄-thang tsiàm-uē）
+伊生做較幼骨（I senn-tsò khah iù-kut）
+伊生做遮爾臭老（I senn-tsò tsiah-nī tshàu-lāu）
+伊疼甲透暗睏袂去（I thiànn kah thàu-àm khùn bē khì）
+伊的人生坎坎坷坷（I ê jîn-sing khám-khám-khia̍t-khia̍t）
+伊的孝心予人真感動（I ê hàu-sim hōo lâng tsin kám-tōng）
+伊的家伙真沉底（I ê ke-hué tsin tîm-té）
+伊的工夫袂䆀（I ê kang-hu bē-bái）
+伊的思想真特別（I ê su-sióng tsin ti̍k-piat）
+伊的成績袂䆀（I ê sîng-tsik bē-bái）
+伊的文較古（I ê bûn khah kóo）
+伊的皮膚幼麵麵（I ê phuê-hu iù-mī-mī）
+伊的確是去寒著，今仔日才無來（I tik-khak sī khì kuânn--tio̍h, kin-á-ji̍t tsiah bô lâi）
+伊的腹腸誠狹（I ê pak-tn̂g tsiânn e̍h）
+伊的話母誠趣味（I ê uē-bó tsiânn tshù-bī）
+伊的面有一疧（I ê bīn ū tsi̍t khî）
+伊的面看著譀浡譀浡（I ê bīn khuànn-tio̍h hàm-phu̍h-hàm-phu̍h）
+伊的頭去挵著桌角（I ê thâu khì lòng-tio̍h toh-kak）
+伊的頭真大粒（I ê thâu tsin tuā lia̍p）
+伊的體格袂輸運動員咧（I ê thé-keh bē-su ūn-tōng-uân leh）
 伊的（i ê）
+伊看起來真落魄（I khuànn--khí-lâi tsin lo̍k-phik）
+伊真冇手（I tsin phànn-tshiú）
+伊真凍霜，連一屑仔物都毋甘予人（I tsin tàng-sng, liân tsi̍t-sut-á mih to m̄-kam hōo--lâng）
+伊真好鬥陣（I tsin hó tàu-tīn）
+伊真巴結，拄著艱難攏袂放棄（I tsin pa-kiat, tú-tio̍h kan-lân lóng bē hòng-khì）
+伊真愛抹指甲花（I tsin ài buah tsíng-kah-hue）
+伊真捷來阮兜（I tsin tsia̍p lâi guán tau）
+伊真有喙水（I tsin ū tshuì-suí）
+伊真有孝（I tsin iú-hàu）
+伊真有福氣，後生新婦攏誠有孝（I tsin ū hok-khì, hāu-senn sin-pū lóng tsiânn iú-hàu）
+伊真有風度，共對頭恭喜（I tsin ū hong-tōo, kā tuì-thâu kiong-hí）
+伊真正是鐵齒銅牙槽（I tsin-tsiànn sī thih-khí tâng-gê-tsô）
+伊真淺眠（I tsin tshián-bîn）
+伊真荏身，磕袂著就破病（I tsin lám-sin, khap-bē-tio̍h tō phuà-pēnn）
+伊第一擺煮的菜閣袂歹食（I tē-it pái tsú ê tshài koh bē pháinn-tsia̍h）
+伊苦勸逐家愛關心社會（I khóo-khǹg ta̍k-ke ài kuan-sim siā-huē）
+伊萬項代誌攏愛人鬥相共（I bān-hāng tāi-tsì lóng ài lâng tàu-sann-kāng）
+伊著第一名了後，變甲足臭屁（I tio̍h tē-it miâ liáu-āu, piàn kah tsiok tshàu-phuì）
+伊規年迵天攏佇國外（I kui-nî-thàng-thinn lóng tī kok-guā）
+伊規心欲考大學（I kui-sim beh khó tāi-ha̍k）
+伊規禮拜攏無去學校（I kui lé-pài lóng bô khì ha̍k-hāu）
+伊規身軀全鉎（I kui-sin-khu tsuân sian）
+伊計畫明年欲出國（I kè-uē mê-nî beh tshut-kok）
+伊誠愛畫圖，所以作品袂少（I tsiânn ài uē-tôo, sóo-í tsok-phín bē tsió）
+伊講欲中立，兩爿攏無愛參加（I kóng beh tiong-li̍p, nn̄g pîng lóng bô-ài tsham-ka）
+伊講的話有夠譀古（I kóng ê uē ū-kàu hàm-kóo）
+伊講過的話，一定會記得（I kóng--kuè ê uē, it-tīng ē-kì--tit）
+伊貸款納袂出來，厝就予人拍賣矣（I tāi-khuán la̍p bē tshut--lâi, tshù tō hōo lâng phah-bē--ah）
+伊足拍拚作穡，透暝透日攏毋歇睏（I tsiok phah-piànn tsoh-sit, thàu-mê thàu-ji̍t lóng m̄ hioh-khùn）
+伊蹛佇阮隔壁（I tuà tī guán keh-piah）
+伊身體欠安，才會無來上班（I sin-thé khiàm-an, tsiah ē bô lâi siōng-pan）
+伊車禍去挵著頭，傷著腦筋（I tshia-hō khì lòng-tio̍h thâu, siong-tio̍h náu-kin）
+伊較早是真出名的明星（I khah-tsá sī tsin tshut-miâ ê bîng-tshenn）
+伊較袂遐忝（I khah bē hiah thiám）
+伊逐工透早攏愛啉豆奶、食包仔（I ta̍k kang thàu-tsá lóng ài lim tāu-ling, tsia̍h pau-á）
+伊逐項代誌攏佯毋知（I ta̍k hāng tāi-tsì lóng tènn-m̄-tsai）
+伊遐爾無閒（I hiah-nī bô-îng）
+伊違反規定，去予主辦單位除名矣（I uî-huán kui-tīng, khì hōo tsú-pān tan-uī tû-miâ--ah）
+伊那來那媠（I ná lâi ná suí）
+伊酒干焦啉一點仔囝爾爾就醉矣（I tsiú kan-na lim tsi̍t-tiám-á-kiánn niā-niā tō tsuì--ah）
+伊閣咧起無空矣（I koh teh khí-bô-khang--ah）
+伊險予海湧𩛩去（I hiám hōo hái-íng kauh--khì）
+伊食菜，無食臊（I tsia̍h-tshài, bô tsia̍h-tsho）
+伊飼的雞仔攏著災死了了矣（I tshī ê ke-á lóng tio̍h-tse sí-liáu-liáu--ah）
+伊騎車跋倒（I khiâ tshia pua̍h-tó）
+伊𬦰山的時陣（I peh-suann ê sî-tsūn）
 伎倆（kī-lióng）
 伏羲（Hū-hi）
 伏面（ho̍k-bīn）
@@ -1111,11 +1278,25 @@
 作伙濺（tsò-hué-tsuānn）
 作十六歲（tsò-tsa̍p-la̍k-huè | tsò-tsa̍p-la̍k-hè）
 作息（tsok-sit）
+作穡人攏愛靠天公伯仔（Tsoh-sit-lâng lóng ài khò thinn-kong-peh--á）
 作穡（tsoh-sit）
 你个注文敢是兔仔？（Lí ê tsù-bûn kám-sī thòo-á?）
+你也買會落去！（Lí iā bé ē lo̍h--khì!）
 你佇佗位（lí tī tó-uī）
+你佗位無爽快，哪會咧流凊汗？（Lí tó-uī bô sóng-khuài, ná ē teh lâu tshìn-kuānn?）
+你來遮有啥物目的？（Lí lâi tsia ū siánn-mih bo̍k-tik?）
 你兄我弟（lí-hiann guá-tī）
+你先去添飯，我連鞭才捀湯出去（Lí sing khì thinn-pn̄g, guá liâm-mi tsiah phâng thng--tshut-khì）
+你共包仔提去熁燒一下（Lí kā pau-á the̍h-khì hannh-sio--tsi̍t-ē）
+你共我舞這齣的（Lí kā guá bú tsit tshut--ê）
+你共我記咧（Lí kā guá kì--leh）
+你出門在外，家己千萬愛細膩（Lí tshut-mn̂g tsāi guā, ka-kī tshian-bān ài sè-jī）
+你出門的時愛會記得紮雨幔（Lí tshut-mn̂g ê sî ài ē-kì-tit tsah hōo-mua）
 你到底予我看啥（lí tàu-té hōo guá khuànn siánn）
+你去共門開開（Lí khì kā mn̂g khui--khui）
+你去房間䀐看覓（Lí khì pâng-king siam khuànn-māi）
+你去捀茶來予人客啉（Lí khì phâng-tê lâi hōo lâng-kheh lim）
+你去摺衫好無？（Lí khì tsih-sann hó--bô?）
 你去死（Lí khì sí）
 你叫啥名（lí kiò siánn miâ）
 你咧創啥貨（lí leh tshòng siánn-huè）
@@ -1123,47 +1304,135 @@
 你咧大聲啥啦（lí leh tuā-siann siánn--lah）
 你咧講啥潲（lí leh kóng siánn siâu）
 你咧講啥（Lí teh kóng siánn）
+你哪會一个怐怐？（Lí ná ē tsi̍t ê khòo-khòo?）
+你哪會食甲規个面花巴哩貓？（Lí ná ē tsia̍h kah kui ê bīn hue-pa-li-niau?）
 你嘛卡好（lí-mā-khah-hó）
 你嘛會使（lí mā ē-sái）
 你嘛較拜託的（lí mā khah pài-thok--ê）
 你好（lí hó）
+你寒天出門毋穿外套（Lí kuânn-thinn tshut-mn̂g m̄ tshīng guā-thò）
+你寬寬仔來就好（Lí khuann-khuann-á lâi tō hó）
 你就好鬥陣（lí tō hó-tàu-tīn）
+你後擺來毋通閣紮等路矣（Lí āu-pái lâi m̄-thang koh tsah tán-lōo--ah）
 你徛佗位（lí khiā tó-uī）
+你恬恬莫講話（Lí tiām-tiām mài kóng-uē）
+你想的比我較周至（Lí siūnn--ê pí guá khah tsiu-tsì）
 你愛我（lí ài--guá）
+你愛準備六塊飯碗才有夠（Lí ài tsún-pī la̍k tè pn̄g-uánn tsiah ū-kàu）
+你愛知影變竅（Lí ài tsai-iánn piàn-khiàu）
 你我糖甘蜜甜（lí-guá-thn̂g-kam-bi̍t-tinn）
+你按呢做有淡薄仔袂和（Lí án-ne tsò ū tām-po̍h-á bē-hô）
+你按呢傷譀啦！（Lí án-ne siunn hàm--lah!）
+你按呢呿呿嗽（Lí án-ne khuh-khuh-sàu）
+你按呢放捒某囝敢著？（Lí án-ne pàng-sak bóo-kiánn kám tio̍h?）
+你按呢講無毋著（Lí án-ne kóng bô m̄-tio̍h）
 你按怎攏袂忝（lí án-tsuánn lóng-bē thiám）
+你捌伊無？（Lí bat i--bô?）
 你提轉去了後，就一項一項共伊讀出來
 你攏無歇睏喔（lí lóng bô hioh-khùn--ooh）
 你放屁（lí pàng-phuì）
 你敢攏無歇睏（lí-kám-lóng-bô-hioh-khùn）
 你敢是白癡的？（lí kám sī pe̍h-tshi--ê?）
+你敢有聽著彼件代誌的風聲？（Lí kám ū thiann-tio̍h hit kiānn tāi-tsì ê hong-siann?）
+你敢有零星通好找我？（Lí kám ū lân-san thang-hó tsāu--guá?）
+你敢有鼻著臭火焦味？（Lí kám-ū phīnn-tio̍h tshàu-hué-ta bī?）
 你敢欲（lí kánn beh?）
 你是啥人（Lí sī siáng | Lí sī siánn-lâng）
 你是啥物人（lí sī siánn-mih lâng）
+你是家己開業抑是予人倩？（Lí sī ka-kī khai-gia̍p iah-sī hōo lâng tshiànn?）
+你是按怎無來？（Lí sī án-tsuánn bô lâi?）
+你是教佗一科的？我教物理（Lí sī kà tó tsi̍t kho--ê? Guá kà bu̍t-lí）
+你是真正毋知，抑是假影毋知？（Lí sī tsin-tsiànn m̄ tsai, iah-sī ké-iánn m̄ tsai?）
 你有咧掠寶無（Lí ū leh lia̍h-pó--bô）
 你有咧無閒無（lí ū leh bô-îng--bô）
 你有夠害（Lí ū-kàu hāi）
+你有看著我的數單無？（Lí ū khuànn-tio̍h guá ê siàu-tuann--bô?）
 你欲信無我落人予你死（Lí beh sìn--bô? Guá làu-lâng hōo lí sí）
+你欲出門進前，愛會記得紮錢（Lí beh tshut-mn̂g tsìn-tsîng, ài ē-kì-tit tsah tsînn）
 你欲去佗位（lí beh khì tó-uī）
 你欲去佗（lí beh khì toh | tah）
+你欲啉咖啡抑是欲啉茶？（Lí beh lim ka-pi ia̍h-sī beh lim-tê?）
+你欲行對佗位去？（Lí beh kiânn tuì tó-uī--khì?）
 你死我活（lí sí guá ua̍h）
+你毋是去買物件（Lí m̄ sī khì bé mih-kiānn）
+你毋是彼種料（Lí m̄ sī hit tsióng liāu）
+你毋通佇遐空喙哺舌亂造話（Lí m̄-thang tī hia khang-tshuì-pōo-tsi̍h luān tsō-uē）
+你毋通傷晏轉來（Lí m̄-thang siunn uànn tńg--lâi）
+你毋通共序大人按呢應喙應舌（Lí m̄-thang kā sī-tuā-lâng án-ne ìn-tshuì-ìn-tsi̍h）
+你毋通囥佇心肝內（Lí m̄-thang khǹg tī sim-kuann-lāi）
+你毋通害人（Lí m̄-thang hāi--lâng）
+你毋通掛意，我會趕緊轉來（Lí m̄-thang kuà-ì, guá ē kuánn-kín tńg--lâi）
+你毋通跋筊跋了傷迷（Lí m̄-thang pua̍h-kiáu pua̍h liáu siunn bê）
+你毋通閣來膏膏纏（Lí m̄-thang koh lâi ko-ko-tînn）
 你溜我旋（lí liu guá suan）
+你無代無誌哪會腹肚疼？（Lí bô-tāi-bô-tsì ná ē pak-tóo thiànn?）
 你無講話，無人講你是啞口（lí bô kóng-uē, bô-lâng kóng lí sī é-káu）
+你猶有啥物代誌？（Lí iáu-ū siánn-mih tāi-tsì?）
+你生理欲做，衛生嘛愛講究（Lí sing-lí beh tsò, uē-sing mā ài káng-kiù）
 你的意見（lí ê ì-kiàn）
+你的物件落甲滿四界矣（Lí ê mi̍h-kiānn lak kah muá-sì-kè--ah）
+你的胭脂落色矣（Lí ê ian-tsi lak-sik--ah）
+你的銀角仔輾落去矣（Lí ê gîn-kak-á liàn--lo̍h-khì--ah）
+你看起來是遮爾仔媠（Lí khuànn--khí-lâi sī tsiah-nī-á suí）
 你真奇怪（lí tsin kî-kuài）
+你真好運呢！（Lí tsin hó-ūn--neh!）
+你真正是娶著一个好某（Lí tsin-tsiànn sī tshuā-tio̍h tsi̍t ê hó bóo）
 你真烏（lí tsin oo）
 你真無效（lÍ tsin bô-hāu）
+你穿按呢傷過影目啦（Lí tshīng án-ne siunn kuè iánn-ba̍k--lah）
+你緊來共我鬥跤手（Lí kín lâi kā guá tàu-kha-tshiú）
+你若去求伊，一定會碰壁（Lí nā khì kiû--i, it-tīng ē pōng-piah）
+你若有閒工，就來共我鬥相共（Lí nā ū îng-kang, tō lâi kā guá tàu-sann-kāng）
+你若欲出去，門紲手關起來（Lí nā beh tshut--khì, mn̂g suà-tshiú kuainn--khí-lâi）
+你若欲報數，就愛會記得討收據（Lí nā beh pò-siàu, tō ài ē-kì-tit thó siu-kì）
+你若閣背約，伊就毋佮你合作矣（Lí nā koh puē-iok, i tō m̄ kah lí ha̍p-tsok--ah）
+你莫佇遐戇想矣（Lí mài tī hia gōng-siūnn--ah）
+你莫佇邊仔咧插喙插舌（Lí mài tī pinn--á teh tshap-tshuì-tshap-tsi̍h）
+你莫共伊嚇（Lí mài kā i hánn）
+你莫共伊的衫搝牢牢啦！（Lí mài kā i ê sann khiú-tiâu-tiâu--lah!）
+你莫定定挖肚臍（Lí mài tiānn-tiānn óo tōo-tsâi）
+你莫對伊跤來手來（Lí mài tuì i kha-lâi-tshiú-lâi）
+你莫徛佇遮鎮地（Lí mài khiā tī tsia tìn tè）
+你莫怪伊（Lí mài kuài--i）
+你莫想講散凶人就好欺負（Lí mài siūnn-kóng sàn-hiong-lâng tō hó khi-hū）
+你莫烏白唬，我無遐好騙（Lí mài oo-pe̍h hóo, guá bô hiah hó phiàn）
+你莫看我無夠重（Lí mài khuànn guá bô-kàu-tāng）
+你莫遐爾嚴肅啦！（Lí mài hiah-nī giâm-siok--lah!）
+你莫遮爾枵饞，看著物件就欲食（Lí mài tsiah-nī iau-sâi, khuànn-tio̍h mih-kiānn tō beh tsia̍h）
+你莫閣佇遐咧眠夢矣（Lí mài koh tī hia teh bîn-bāng--ah）
+你莫閣哭矣！（Lí mài koh khàu--ah!）
+你莫閣學伊講話矣（Lí mài koh o̍h i kóng-uē--ah）
+你著愛攑雨傘去（Lí tio̍h-ài gia̍h hōo-suànn khì）
+你著細膩仔食（Lí tio̍h sè-jī-á tsia̍h）
+你著行正途（Lí tio̍h kiânn tsìng-tôo）
+你號做啥物名？（Lí hō-tsò siánn-mih miâ?）
 你袂䆀（lí bē-bái）
+你袂曉寫的題目就先勾起來（Lí bē-hiáu siá ê tê-bo̍k tō sing kau--khí-lâi）
+你話毋通烏白講（Lí uē m̄-thang oo-pe̍h-kóng）
 你誠緣投（lí tsiânn iân-tâu）
 你講咧（lí kóng--leh）
 你講啥（lí kóng siánn）
+你講啥？（Lí kóng siánn?）
+你講甲哩哩囉囉，我聽攏無！（Lí kóng kah li-li-lo-lo, guá thiann lóng bô!）
+你講話毋好遐大聲（Lí kóng-uē m̄ hó hiah tuā-siann）
 你足好鬥陣（lí tsiok hó tàu-tīn）
 你足媠（lí tsiok suí）
 你足戇（lí tsiok gōng）
 你足討厭（li tsiòk thó-ià）
+你轉踅的時陣著細膩（Lí tńg-se̍h ê sî-tsūn tio̍h sè-jī）
+你這个囡仔哪會遮爾仔狡怪！（Lí tsit ê gín-á ná ē tsiah-nī-á káu-kuài!）
+你這个意見真寶貴（Lí tsit ê ì-kiàn tsin pó-kuì）
+你這句廢話，有講若無講（Lí tsit kù huì-uē, ū kóng ná bô kóng）
+你這台車的烏油應該愛換矣（Lí tsit tâi tshia ê oo-iû ìng-kai ài uānn--ah）
+你這改的成績有淡薄仔退步（Lí tsit-kái ê sîng-tsik ū tām-po̍h-á thè-pōo）
 你這款病，是腹肚內有應聲蟲咧作怪
+你這間厝設計了真媠（Lí tsit king tshù siat-kè liáu tsin suí）
+你這馬咧做啥物穡頭？（Lí tsit-má teh tsò siánn-mih sit-thâu?）
 你這馬敢有閒（lí tsit-má kám ū-îng）
+你選佗一个？（Lí suán tó tsi̍t ê?）
 你都好鬥陣（lí to hó tàu-tīn）
+你閣小等一下（Lí koh sió-tán--tsi̍t-ē）
+你陪我去彼爿好無？（Lí puê guá khì hit-pîng hó--bô?）
 你鬼我閻羅（lí-kuí guá giâm-lô）
 你（lí）
 佬仔（láu-á）
@@ -1175,6 +1444,7 @@
 佮你無底代（kah-lí bô-tī-tāi）
 佮便的（kah piān--ê）
 佮天地仝歲壽（kah thinn-tē kāng huè-siū）
+佮平常時仔無仝款（Kah pîng-siông-sî-á bô kāng-khuán）
 佮意你（kah-ì lí）
 佮意的人（kah-ì ê lâng）
 佮柴柱（kap-tshâ-thiāu）
@@ -1199,6 +1469,7 @@
 使目箭（sái-ba̍k-tsìnn）
 使破爛（sái-phuà-nuā）
 使象的（sái-tshiūnn--ê）
+來喔！緊來看喔！（Lâi--ooh! Kín lâi khuànn--ooh!）
 來洗（lâi-sê）
 來若風去若窸倏（lâi ná hong, khì ná sī-suā）
 來若風去若絲線（lâi ná hong, khì ná si-suànn）
@@ -1215,6 +1486,7 @@
 便利商店（piān-lī-siong-tiàm）
 便利貼（piān-lī-tah）
 便品（piān-phín）
+便所臭薟薟（Piān-sóo tshàu-hiam-hiam）
 便所（piān-sóo）
 便拗椅（piān-áu-í）
 便插（piān-tshah）
@@ -1232,6 +1504,7 @@
 俄羅斯（Gô-lô-su）
 俄羅（Gô-lô）
 俗俗仔病（sio̍k-sio̍k-á-pēnn）
+俗價罔賣較袂蝕本（Siok-kè bóng bē khah bē si̍h-pún）
 俗價航空（sio̍k-kè hâng-khong）
 俗物仔（sio̍k-mih-á）
 俗物（sio̍k-mi̍h）
@@ -1378,8 +1651,16 @@
 做一喙（tsò tsi̍t-tshuì）
 做七（tsò-tshit）
 做予人（tsò--hōo-lâng）
+做人就愛捌道理（Tsò-lâng tō ài bat tō-lí）
+做人愛實在（Tsò-lâng ài si̍t-tsāi）
+做人愛知影伸勼，才袂傷食虧（Tsò-lâng ài tsai-iánn tshun-kiu, tsiah bē siunn tsia̍h-khui）
+做人愛較樸實咧，毋通傷虛華（Tsò-lâng ài khah phoh-si̍t--leh, m̄-thang siunn hi-hua）
+做人毋通傷厚面皮（Tsò-lâng m̄-thang siunn kāu-bīn-phuê）
+做人毋通傷自私（Tsò-lâng m̄-thang siunn tsū-su）
 做人矣（tsò--lâng-ah）
+做人若知足，日子就會較好過（Tsò-lâng nā ti-tsiok, ji̍t-tsí tō ē khah hó kuè）
 做人（tsò--lâng）
+做代誌嘛誠骨力（Tsò tāi-tsì mā tsiânn kut-la̍t）
 做代誌的板路（tsò tāi-tsì--ê pán-lōo）
 做件的（tsò-kiānn--ê | tsuè-kiānn--ê）
 做伙去死（tsò-hué-khì-sí）
@@ -1400,7 +1681,9 @@
 做山（tsò-suann）
 做岫（tsò-siū）
 做工仔人（tsò-kang-á-lâng）
+做工課做甲艱苦罪過，規氣莫做（Tsò khang-khuè tsò kah kan-khóo-tsē-kuà, kui-khì mài tsò）
 做工課（tsò-khang-khuè）
+做序大愛有序大的款（Tsò sī-tuā ài ū sī-tuā ê khuán）
 做徼兆（tsò-khiàu-tiāu | tsuè-khiàu-tiāu）
 做心酸的（tsò sim-sng--ê）
 做惡做毒，騎馬碌硞（tsò-ok tsò-to̍k, khiâ-bé lo̍k-kho̍k）
@@ -1456,7 +1739,6 @@
 偷走壘（thau-tsáu-luí）
 偷走班（thau-tsáu-pan）
 偷食袂瞞得喙齒，討翁袂瞞得鄉里
-偷𤆬（thau-tshuā）
 傀儡關（Ka-lé-kuan）
 傖傖（suâinn-suâinn）
 備課（pī-khò）
@@ -1533,6 +1815,7 @@
 元宵（Guân-siau）
 元掌（Guân-tsióng）
 元曲（Guân-khik）
+兄弟姊妹著愛仝心（Hiann-tī-tsí-muē tio̍h-ài kāng-sim）
 兄弟姊妹（hiann-tī-tsí-muē | hiann-tī-tsí-bē）
 兄弟若手足，某囝若衫褲
 兄弟（hiann-tī）
@@ -1553,6 +1836,7 @@
 先生媽（sian-senn-má）
 先生無佇館，學生起海反（sian-sinn bô tī kuán ha̍k-sing khí hái-huán）
 先生（sian-sinn | sian-senn | sin-senn）
+先規劃予好，才來執行（Sing kui-uē hōo hó, tsiah lâi tsip-hîng）
 先輩（sia̋n-pái | sian-puè）
 光光（kng-kng）
 光合作用（kng-ha̍p tsok-iōng）
@@ -1582,11 +1866,13 @@
 克制（khik-tsè）
 克里米亞半島（khik-lí-bí-à-puàn-tó）
 克里米亞（khik-lí-bí-à）
+免你家婆（Bián lí ke-pô）
 免削鉛筆（bián-siah-iân-pit）
 免問嘛知（bián-muī mā-tsai）
 免客氣（bián kheh-khì）
 免疫系統（bián-i̍k hē-thóng）
 免稅品（bián-suè-phín）
+免紩甲遐工夫，小釣一下就好矣（Bián thīnn kah hiah kang-hu, sió tiò--tsi̍t-ē tō hó--ah）
 免細膩（bián sè-jī）
 免講嘛知（bián kóng mā tsai）
 兒科（jî-kho | lî-kho）
@@ -1640,6 +1926,7 @@
 全世界我上佮意你（tsuân sè-kài guá siōng kah-ì--lí）
 全世界（tsuân-sè-kài）
 全你个詼諧（tsuân lí ê khue-hâi）
+全你的意見了了（Tsuân lí ê ì-kiàn--liáu-liáu）
 全員（tsuân-uân）
 全失日（tsuân-sit-ji̍t）
 全民健保（tsuân-bîn kiān-pó）
@@ -1661,6 +1948,7 @@
 兩光（lióng-kong）
 兩句半話（nn̄g-kù-puànn-uē）
 兩喙半舌（nn̄g-tshuì-puànn-tsi̍h）
+兩年間伊攏全勤（Nn̄g nî kan i lóng tsuân-khîn）
 兩步七仔（nn̄g pōo tshit-á）
 兩段倒斡（nn̄g-tuānn tò-uat）
 兩爿喙䫌（nn̄g-pîng tshuì-phé | nn̄g-pîng tshuì-phué）
@@ -1740,12 +2028,22 @@
 共人嗙（kā lâng phngh）
 共人欺負（kā lâng khi-hū）
 共伊燒死（kā i sio--sí）
+共伊講一句，按呢就袂直矣（Kā i kóng--tsi̍t-kù, án-ne tō bē-ti̍t--ah）
 共伴（kāng-phuānn）
+共你辦好勢矣（Kā lí pān hó-sè--ah）
 共工（Kiōng-kong）
 共彼个查某囡仔放開（kā hit ê tsa-bóo-gín-á pàng--khui）
+共彼條菜頭礤礤咧（Kā hit tiâu tshài-thâu tshuah-tshuah--leh）
 共我（kā guá）
+共死結敨開（Kā sí-kat tháu--khui）
+共烏枋的字拭拭咧（Kā oo-pang ê jī tshit-tshit--leh）
+共物件提落來遮（Kā mi̍h-kiānn the̍h lo̍h-lâi tsia）
 共產黨（kiōng-sán-tóng）
+共相片印佇杯仔頂（Kā siòng-phìnn ìn tī pue-á-tíng）
+共糞埽提去擲（Kā pùn-sò the̍h-khì tàn）
+共肉冰起來（Kā bah ping--khí-lâi）
 共融式遊具（kiōng-iông-sik iû-kū）
+共這幅圖釘佇這面壁（Kā tsit pak tôo tìng tī tsit bīn piah）
 共陣（kāng-tīn）
 兵仔伴（ping-á-phuānn）
 兵仔鳥（Ping-á-tsiáu）
@@ -1785,7 +2083,6 @@
 冬尾時天（tang-bué-sî-thinn）
 冬帽（tang-bō）
 冬瓜好看無好食（tang-kue hó-khuànn bô hó-tsiah）
-冬瓜山（Tang-kue-suann）
 冬瓜糖（tang-kue-thn̂g）
 冬節圓（tang-tseh-înn）
 冬節食圓（Tang-tseh tsia̍h înn）
@@ -1796,6 +2093,7 @@
 冰山一角（ping-suann-tsit-kak）
 冰島（Ping-tó）
 冰沙（ping-sua）
+冰箱害去矣（Ping-siunn hāi--khì--ah）
 冰箱（ping-siunn）
 冰糖（ping-thn̂g）
 冰角（ping-kak）
@@ -1842,6 +2140,7 @@
 出來盤撋早慢攏是愛還的（tshut-lâi puânn-nuá tsá-bān lóng sī ài hîng | huân--ê）
 出來矣（tshut--lâi--ah）
 出來講（tshut-lâi-kóng）
+出力共伊捻落去（Tshut-la̍t kā i liàm--lo̍h-khì）
 出去耍（tshut-khì sńg）
 出叫（tshut-kiò）
 出喙有話（tshut-tshuì ū-uē）
@@ -1853,6 +2152,7 @@
 出料（tshut-liāu）
 出日頭（tshut ji̍t-thâu）
 出日（tshut-ji̍t）
+出業頭路無半項（Tshut-gia̍p thâu-lōo bô-puànn-hāng）
 出櫥（tshut-tû）
 出水珠（tshut-tsuí-tsu）
 出水筒（tshut-tsuí-tâng）
@@ -1879,6 +2179,7 @@
 函送（hâm-sàng）
 刀仔 （to-á）
 刀仔喙，豆腐心 （to-á tshuì, tāu-hū sim）
+刀仔鈍去矣，提去磨磨咧（To-á tun--khì--ah, the̍h-khì buâ-buâ--leh）
 刀光劍影 （to-kong-kiàm-iánn）
 刀兵水火劫 （to ping tsuí-hué kiap）
 刀喙 （to-tshuì）
@@ -1886,6 +2187,7 @@
 刀斧手 （to-hú-siú）
 刀板仁豆 （to-pán jîn tāu）
 刀路深 （to-lōo tshim）
+分做兩份（Pun tsò nn̄g hūn）
 分單字（hun-tan-jī）
 分囝（hun-kiánn）
 分娩假（hun-bián-ká | hun-buán-ká）
@@ -1953,6 +2255,7 @@
 到南港的展覽館的官方網站（kàu Lâm-káng ê tián-lám-kuán ê kuann-hong bāng-tsām）
 到塊（kàu-tè）
 到尾（kàu-bué | kàu-bé）
+到時便看，才來決定欲按怎做（Kàu-sî piān-khuànn, tsiah lâi kuat-tīng beh án-tsuánn tsò）
 到矣（kàu--ah）
 到站（kàu-tsām）
 到籬顛倒（tò lî tian táu）
@@ -2006,6 +2309,7 @@
 前無救兵，後無糧草（tsîng bô kiù-ping āu bô niû-tsháu）
 前瞻計畫（tsiân-tsiam kè-uē）
 前線（tsiân-suànn）
+前輩講的話你愛加減仔聽（Tsiân-puè kóng ê uē lí ài ke-kiám-á thiann）
 剛果（Kong-kó）
 剝喙罨（pak tshuì-am）
 剩的（sīn--ê）
@@ -2070,6 +2374,7 @@
 力帝 （la̍t-tè）
 力調 （li̍k-tiāu）
 功夫學倒巡（kang-hu o̍h tò-sûn）
+功課寫好矣（Kong-khò siá hó--ah）
 功課（kong-khò）
 加了工（ke-liáu-kang）
 加加減減（ke-ke-kiám-kiám）
@@ -2139,6 +2444,7 @@
 勞里散（Lô-lí-sán）
 募款（bōo-khuán）
 勢位字（sè-uī-jī）
+勤儉才有底（Khîn-khiām tsiah ū-té）
 勥查某（khiàng tsa-bóo）
 勥跤查某（khiàng-kha tsa-bóo）
 勥（khiàng）
@@ -2299,7 +2605,6 @@
 半面相識（puànn-bīn siong-sik）
 半面（puànn-bīn）
 半響仔（puànn-hiáng-á）
-半𨑨迌（puànn-thit-thô）
 卌九日烏，出大日頭（siap káu ji̍t oo, tshut tuā ji̍t-thâu）
 卑南（Pi-lâm）
 卓榮泰（Toh Îng-thài）
@@ -2396,6 +2701,7 @@
 厚（kāu）
 厝內囝兒（tshù-lāi kiánn-jî）
 厝內坐監（tshù-lāi tsē-kann）
+厝內大細項代誌攏是伊咧發落（Tshù-lāi tuā-sè hāng tāi-tsì lóng-sī i teh huat-lo̍h）
 厝內龜（tshù-lāi-ku）
 厝尾頂（tshù-bué-tíng）
 厝瓦（tshù-hiā）
@@ -2408,6 +2714,7 @@
 厝鳥仔（Tshù-tsiáu-á）
 原仔（guân-á | uân-á）
 原來如此（guân-lâi jû-tshú）
+原來是一尾軟跤蝦（Guân-lâi sī tsi̍t bué nńg-kha-hê）
 原全（guân-tsuân）
 原初鳥（Guân-tshoo-tsiáu）
 原原照舊（guân-guân tsiàu-kū）
@@ -2445,12 +2752,14 @@
 去恁兜（khì lín tau）
 去死（khì-sí）
 去氧核糖核酸（khì-ióng-hu̍t-thn̂g-hu̍t-sng）
+去港仔邊買現流仔，鮮閣俗（Khì káng-á-pinn bé hiān-lâu-á, tshinn koh siok）
 去濕機（khì-sip-ki）
 去濕（khì-sip）
 去睏（khì-khùn）
 去老還少（khì-nóo-huân-siàu）
 去老還童（khì-nóo-huân-tông）
 去西方極樂世界（khì se-hong ki̍k-lo̍k sè-kài）
+去音樂館聽歌的滋味袂䆀（Khì im-ga̍k-kuán thiann kua ê tsu-bī bē-bái）
 去香港（khì hiong-káng | khì Hiong-kóng）
 去髮（khì-huat）
 參仔氣（sim-á-khuì | sam-á-khuì | som-á-khuì）
@@ -2488,6 +2797,7 @@
 反腹（píng-pak）
 反起反倒（huán-khí-huán-tó）
 反車魚（píng-tshia-hî）
+反過來洗這面（Píng--kuè-lâi sé tsit bīn）
 叔伯小妹（tsik-peh sió-muē）
 叔伯小弟（tsik-peh sió-tī）
 叔伯阿兄（tsik-peh a-hiann）
@@ -2513,6 +2823,7 @@
 古古怪怪（kóo-kóo-kuài-kuài）
 古坑（Kóo-khenn）
 古意（kóo-ì）
+古早人煎草藥仔（Kóo-tsá lâng tsuann tsháu-io̍h-á）
 古早味（kóo-tsá-bī）
 古清明（kóo-tshing-bîng）
 古田（Kóo-tshân）
@@ -2529,8 +2840,12 @@
 叨甪（lo-lut）
 叨語場（tho-gú-tiûnn）
 只會當靠這來趁食過日
+只要改過就好矣（Tsí-iàu kái-kò tō hó--ah）
+叫伊讀冊，伊也無心情（Kiò i tha̍k-tsheh, i iā bô sim-tsîng）
 叫天叫地（kiò thinn kiò tē）
 叫字（kiò-jī | kiò-lī）
+叫恁老爸趕緊轉來食暗啦（Kiò lín lāu-pē kuánn-kín tńg-lâi tsia̍h-àm--lah）
+叫我欲按怎收山？（Kiò guá beh án-tsuánn siu-suann?）
 叫電話（kiò tiān-uē）
 召南（Siāu-lâm）
 召日仔（tiàu-ji̍t-á）
@@ -2604,6 +2919,7 @@
 司法博物館（Su-huat Phok-bu̍t-kuán）
 吃錢檯仔（tsia̍h-tsînn tâi á）
 各人有各人个拍算（kok-lâng ū kok-lâng ê phah-sǹg）
+各人的物件愛顧予好（Kok-lâng ê mi̍h-kiānn ài kòo hōo hó）
 各人行各路（kok-lâng kiânn kok lōo）
 各個國家都有各個國家的國歌（）
 各馝（kok-pih）
@@ -2787,8 +3103,23 @@
 咬檳榔（kā pin-nn̂g）
 咬舌（kā-tsi̍h）
 咬齒根（kā-khí-kin | kā-khí-kun）
+咱來去外口烘肉（Lán lâi-khì guā-kháu hang bah）
+咱來去踅街，看有啥物通好買（Lán lâi-khì se̍h-ke, khuànn-ū siánn-mih thang-hó bé）
+咱來輸贏，看啥人講的較著（Lán lâi su-iânn, khuànn siánn-lâng kóng--ê khah tio̍h）
+咱做人著愛有志氣（Lán tsò-lâng tio̍h-ài ū tsì-khì）
+咱做代誌就愛較頂真咧！（Lán tsò tāi-tsì tō ài khah tíng-tsin--leh!）
+咱共伊鬥分伻淡薄仔（Lán kā i tàu pun-phenn--tām-po̍h-á）
+咱共灶跤清清咧（Lán kā tsàu-kha tshing-tshing--leh）
+咱千萬毋通拍歹感情（Lán tshian-bān m̄-thang phah-pháinn kám-tsîng）
 咱去菜市仔（lán khì tshài-tshī-á）
 咱國（lán-kok）
+咱愛認真拍拚，才會有出脫（Lán ài jīn-tsin phah-piànn, tsiah ē ū tshut-thuat）
+咱攏來讀冊（Lán lóng lâi tha̍k-tsheh）
+咱暫時袂當相見（Lán tsiām-sî bē-tàng sio-kìnn）
+咱莫插傷濟（Lán mài tshap siunn tsē）
+咱著愛想予開，較袂心悶（Lán tio̍h-ài siūnn hōo khui, khah bē sim-būn）
+咱讀冊就毋通讀對尻脊骿去（Lán tha̍k-tsheh tō m̄-thang tha̍k tuì kha-tsiah-phiann khì）
+咱這月日的生產目標（Lán tsit gue̍h-ji̍t ê sing-sán bo̍k-piau
 咸豐三，講到今（hâm-hong sann kóng kàu-tann）
 咻喝（hiu-huah）
 哀勒伯（Ai-li̍k-pik）
@@ -2820,11 +3151,14 @@
 哈馬星（Há-má-sing）
 哎喲有影會曉呢（aih--ió ū-iánn ē-hiáu--neh）
 員山仔（Înn-suann-á）
+員工受害，走去揣頭家抗議（Uân-kang siū-hāi, tsáu-khì tshuē thâu-ke khòng-gī）
 哥裕利亞（Ko-jū-lī-a）
 哨角隊（siàu-kak-tuī）
 哩囉（li-lo）
 哪吒（Lô-tshia）
 哪會按呢（ná ē án-ne | ná ē àn-ne | ná ē an-nē）
+哪會無愛去予先生看？（Ná ē bô ài khì hōo sian-sinn khuànn?）
+哪會空手轉來？（Ná ē khang-tshiú tńg--lâi?）
 哪有可能（ná-ū-khó-lîng）
 哪有（ná-ū）
 哭枵（khàu-iau）
@@ -2868,11 +3202,8 @@
 啄鼻仔花（tok-phīnn-á-hue）
 啄鼻（tok-phīnn）
 啉予焦（lim hōo ta）
-啉咖啡（lim ka-pi）
 啉燒酒（lim sio-tsiú）
 啉甲飽（lim-kah-pá）
-啉迵海（lim-thàng-hái）
-啉食𨑨（lim-tsia̍h-tshit）
 啊毋就按呢（ah m̄-tō án-ne）
 啊毋就（ah m̄-tō）
 問仙（muī-sian）
@@ -2887,9 +3218,11 @@
 啟智（khé-tì）
 啟露笠（khé-lōo-le̍h）
 啡啡子（pi-pi-á）
+啥人教你按呢做的？（Siánn-lâng kà lí án-ne tsò--ê?）
 啥潲（siánn-siâu | sánn-siâu）
 啥物代誌（siánn-mih tāi-tsì）
 啥物命，食甲竹塹餅（siánn-mi̍h miā tsia̍h kah Tik-tshàm piánn）
+啥物時陣欲開始動手？（Siánn-mih sî-tsūn beh khai-sí tāng-tshiú?）
 啥物時陣（siánn-mih sî-tsūn）
 啥物物件（siánn-mih mi̍h-kiānn）
 啥物碗糕（siánn-mih uánn-ko）
@@ -3052,6 +3385,7 @@
 嘐潲（hau-siâu）
 嘓仔槌（kho̍k-á-thuî）
 嘔落（áu-làu）
+嘛是一種畫圖的手法（Mā sī tsi̍t tsióng uē-tôo ê tshiú-huat）
 嘛有（mā ū）
 嘛閣敢（mā-koh-kánn）
 嘲皮（sau-phî）
@@ -3167,13 +3501,17 @@
 回頭是岸（huê-thâu sī gān | huê-thiô sī gān）
 囟帽（sìn-bō）
 囡仔tioh（gín-á tioh）
+囡仔人嘛看有（Gín-á-lâng mā khuànn-ū）
+囡仔人毋通傷揀食（Gín-á-lâng m̄-thang siunn kíng-tsia̍h）
 囡仔人起大人禍（gín-á-lâng khí tuā-lâng hō）
 囡仔人（gín-á-lâng）
 囡仔人，大人心肝（gín-á-lâng, tuā-lâng sim-kuann）
 囡仔仙，扮大仙（gín-á sian, pān tuā-sian）
 囡仔兄（gín-á-hiann）
 囡仔冊（gín-á-tsheh）
+囡仔出癖的時陣愛予伊加歇睏（Gín-á tshut-phiah ê sî-tsūn ài hōo i ke hioh-khùn）
 囡仔古（gín-á-kóo）
+囡仔大漢了後（Gín-á tuā-hàn liáu-āu）
 囡仔姊（gín-á-tsé）
 囡仔嬰（gín-á-enn）
 囡仔屎放未了（gín-á-sái pàng-buē-liáu）
@@ -3301,12 +3639,14 @@
 地下城（tē-hā-sîng | tē-hā-siânn）
 地下水（tē-hā-tsuí）
 地下鐵（tē-hā-thih）
+地動了後（Tē-tāng liáu-āu）
 地動尾（tē-tāng-bué）
 地味（tē-bī）
 地基主（tē-ki-tsú）
 地契（tē-khè）
 地文學（tē-bûn-ha̍k）
 地方創生（tē-hng tshòng-sing）
+地板藃起來矣（Tē-pán hiauh--khí-lâi--ah）
 地牛相觸（tē-gû sio-tak）
 地球儀（tē-kiû-gî）
 地球科學（tē-kiû kho-ha̍k）
@@ -3372,6 +3712,7 @@
 垃儳（lâ-sâm）
 垃圾水（lah-sap-tsuí）
 垃圾物仔（lap-sap mi̍h-á | lah-sap mi̍h-á）
+垃圾衫愛另外囥（Lah-sap sann ài līng-guā khǹg）
 垃圾話（lah-sap-uē）
 垃圾（lah-sap）
 垢潔鉎（káu-kueh-sian）
@@ -3568,6 +3909,7 @@
 外緣（guā-iân）
 外輪（guā-lián）
 外送（guā-sàng）
+外面當咧透風，你莫閣出去矣（Guā-bīn tng-teh thàu-hong, lí mài koh tshut--khì--ah）
 外頭家神（guā-thâu ke-sîn）
 多元性別（to-guân sìng-pia̍t）
 多元意見（to-guân ì-kiàn）
@@ -3577,9 +3919,11 @@
 多樣性（to-iūnn-sìng）
 多益（To-ik）
 多語言（to-gí-giân）
+多謝你！（To-siā--lí!）
 多謝恁的牽成（tō-siā lín ê khan-sîng）
 多頭（to-thâu）
 夜婆俠（Iā-pô-kiap）
+夜市仔有咧賣各種奇巧的物件（Iā-tshī-á ū leh bē kok-tsióng kî-khá ê mih-kiānn）
 夜店（iā-tiàm）
 夠本（kàu-pún）
 夢想（bāng-sióng）
@@ -3594,12 +3938,12 @@
 大人囡仔 （tuā-lâng gín-á）
 大人大種 （tuā-lâng tuā tsíng）
 大人齒 （tuā-lâng khí）
-大人𤆬囡仔去𨑨迌 （tuā-lâng tshuā gín-á khì tshit-thô）
 大份田仔底 （Tuā-hūn-tshân-á-té）
 大俗賣 （tuā-sio̍k-bē | tuā-sio̍k-buē）
 大倍司 （tua-beh-suh）
 大做大抐 （tuā tsò tuā lā）
 大傢伙 （tuā-ke-hué）
+大兄將伊滿腹的苦情講予我聽（Tuā-hiann tsiong i muá-pak ê khóo-tsîng kóng hōo guá thiann）
 大公大道 （tāi kong tāi tō）
 大刣 （tuā-thâi）
 大功業 （tuā-kong-gia̍p）
@@ -3684,6 +4028,7 @@
 大板筋 （tuā-pán-kin）
 大根 （tāi-kun）
 大格雞慢啼 （tuā-keh ke bān thî）
+大格雞慢啼（Tuā-keh ke bān thî）
 大極大，細極細 （tuā ki̍k tuā, sè ki̍k sè）
 大樹 （Tuā-tshiū | Tuā-tshiū）
 大樹好蔭影 （tuā-tshiū hó ìm-ńg）
@@ -3916,10 +4261,14 @@
 天晴（thinn-tsînn | thinn-tsênn）
 天暗啊（thinn-àm ah）
 天未光（thinn-bē-kuinn）
+天欲光矣（Thinn beh kng--ah）
 天欲光矣（thinn beh-kuinn-ah）
 天欲暗矣（thinn-beh-àm-ah）
 天欲變，一時間（thinn beh-piàn tsi̍t sî-kan）
 天殕殕光（thinn phú-phú kuinn）
+天氣冷矣，你就愛加疊一領衫（Thinn-khì líng--ah, lí tō ài ke tha̍h tsi̍t niá sann）
+天氣咧變誠緊（Thinn-khì teh piàn tsiânn kín）
+天氣遮寒，你哪會閣穿短䘼的？（Thinn-khì tsiah kuânn, lí ná ē koh tshīng té-ńg--ê?）
 天港（thian-káng | thinn-káng）
 天災人厄（thian-tsai jîn-eh）
 天災人禍（thian-tsai jîn-hō）
@@ -3956,6 +4305,7 @@
 天財票（thian-tsâi-phiò）
 天車（thian-tshia）
 天送埤（Thian-sàng-pi）
+天遐爾仔烏，等咧凡勢會落雨（Thinn hiah-nī-á oo, tán--leh huān-sè ē lo̍h-hōo）
 天邊海角（thinn-pinn hái-kak）
 天都烏一爿（thinn to oo tsi̍t-pîng）
 天頂白茫茫（thinn-tíng pe̍h-bông-bông）
@@ -3994,6 +4344,7 @@
 夯勢故（giâ-sè-kòo）
 夯勢頭（giâ-sè-thâu）
 夯枷（giâ-kê）
+夯椅仔來跂跤（Giâ í-á lâi kué kha）
 夯石碾（giâ-tsio̍h-lián）
 夯石輪（giâ-tsio̍h-lián）
 夯硬篙（giâ ngē-ko）
@@ -4040,6 +4391,7 @@
 契查某囝（khè-tsa-bóo-kiánn | khuè tsa-bóo-kiánn）
 契母（kheh-bú）
 奕包包仔（ī-pau-pau-á）
+奕牌仔我無趣味（Ī pâi-á guá bô tshù-bī）
 奕物仔（ī-mih-á）
 奕珠仔（ī tsu-á）
 奕者（ī-tsiá）
@@ -4084,7 +4436,9 @@
 好勢（hó-sè）
 好命（hó-miā）
 好啉（hó-lim）
+好啦！莫吵啦！（Hó--lah! Mài tshá--lah!）
 好天好時（hó-thinn hó-sî）
+好天的時阮欲來去𬦰山（Hó-thinn ê sî guán beh lâi-khì peh-suann）
 好天霆脆雷（hó-thinn tân tshè-luî）
 好尾梢（hó bué-sau）
 好市多（Hó-tshī-to）
@@ -4096,9 +4450,11 @@
 好心好行（hó-sim-hó-hīng）
 好心好行，無衫通穿（hó-sim hó-hīng bô-sann thang tshīng）
 好心好量（hó-sim-hó-liōng）
+好心的頭家！（Hó-sim ê thâu-ke!）
 好所在（hó-sóo-tsāi）
 好扭搦（hó-liú-la̍k）
 好料（hó-liāu）
+好歹命敢是註好好的？這真歹講（Hó-pháinn miā kám sī tsù-hó-hó--ê? Tse tsin pháinn-kóng）
 好歹粿著會甜，好歹查某著會生（hó-pháinn kué tio̍h ē tinn hó-pháinn tsa-bóo tio̍h ē senn）
 好死毋死（hó-sí m̄-sí）
 好物仔（hó-mih-á）
@@ -4107,6 +4463,7 @@
 好空（hó-khang）
 好笑神（hó-tshiò-sîn）
 好翁某（hó-ang-bóo）
+好膽莫走！（Hó-tánn mài tsáu!）
 好膽莫走（hó-tánn mài tsáu）
 好運（hó-ūn）
 好酒沉甕底（hó-tsiú tîm àng-té）
@@ -4121,7 +4478,6 @@
 好骨骼（hó-kut-keh）
 好鬥陣（hó-tàu-tīn）
 好魚好肉（hó-hî-hó-bah）
-好𤆬頭（hó-tshuā-thâu）
 好（hó）
 如此仔如此（jû-tshú-á-jû-tshú）
 如此如此（jû-tshú-jû-tshú）
@@ -4214,6 +4570,7 @@
 嬌蠻（kiau-bân）
 嬌頭（kiau-thâu）
 嬭枉（ne-óng）
+嬰仔愛坐奶母車（Enn-á ài tsē ling-bú-tshia）
 嬰仔潮（enn-á-tiâu）
 子 （tsí）
 子仔 （tsí-á）
@@ -4364,6 +4721,7 @@
 宰我（Tsáinn Ngóo）
 害去矣（hāi--khì--ah）
 害慘慘（hāi-tshám-tshám）
+害我十二生相變透透嘛變無撚（Hāi guá tsa̍p-jī senn-siùnn piàn-thàu-thàu mā piàn-bô-lián）
 害我毋知影愛講啥（hāi guá m̄-tsai-iánn ài kóng siánn）
 害我毋知欲講啥物（hāi guá m̄-tsai beh kóng siánn-mih）
 害扭扭（hāi-liú-liú）
@@ -4425,6 +4783,7 @@
 寢臺車（tshím-tâi-tshia）
 實作（si̍t-tsoh）
 實喉（tsa̍t-âu）
+實在看袂出講才二十歲爾爾（si̍t-tsāi khuànn bē tshut kóng tsiah jī-tsa̍p huè niā-niā）
 實在講（Si̍t-tsāi kóng）
 實境秀（si̍t-kiàⁿ-siù）
 實字（si̍t-jī）
@@ -4514,6 +4873,7 @@
 小可生理 （sió-khuá sing-lí）
 小吹 （sió-tshue）
 小喇叭 （sió-lat-pah）
+小姐，你的物件交落去矣！（Sió-tsiá, lí ê mih-kiānn ka-la̍uh--khì--ah!）
 小學 （sió-ha̍k）
 小寒 （sió-hân）
 小局 （sió-kio̍k）
@@ -4526,6 +4886,7 @@
 小惑星 （sió-hi̍k-tshenn | sió-hi̍k-tshinn）
 小所見，多奇怪 （siáu sóo-kiàn to kî-kuài）
 小所見，大所怪 （siáu sóo-kiàn tāi sóo-kuài）
+小掠一个大概仔（Sió lia̍h tsi̍t-ê tāi-khài-á）
 小政府主義 （sió-tsìng-hú tsú-gī）
 小數點 （sió-sòo-tiám）
 小暑 （sió-sí | siáu-sí）
@@ -4539,6 +4900,7 @@
 小生理 （sió-sing-lí）
 小確幸 （sió-khak-hīng）
 小等一下 （sió-tán--tsi̍t-ē）
+小等一下！（Sió-tán--tsi̍t-ē!）
 小聽候一下 （sió-thìng-hāu tsi̍t-ē）
 小腦 （sió-náu）
 小船袂堪得重載 （sió-tsûn bē-kham-tit tāng-tsāi）
@@ -4565,9 +4927,12 @@
 少囝化（tsió-kiánn-huà）
 少女時代（siàu-lí-sî-tāi | siàu-lú-sî-tāi）
 少年个（siàu-liân ê）
+少年人愛較有志氣咧（Siàu-liân-lâng ài khah ū tsì-khì--leh）
+少年人若有相意愛就好（Siàu-liân-lâng nā ū sio ì-ài tō hó）
 少年毋拍拚，食老老歹命（siàu-liân m̄ phah-piànn, tsia̍h-lāu lāu-pháinn-miā）
 少年毋捌代誌（siàu-liân m̄ bat tāi-tsì）
 少年熟骨（siàu-liân si̍k-kut）
+少年的，你著聽老歲仔苦勸（Siàu-liân--ê, lí tio̍h thiann lāu-huè-á khóo-khǹg）
 少年翁某（siàu-liân ang-bóo）
 少年老成（siàu-liân ló-sîng）
 少年衝碰（siàu-liân tshóng-pōng）
@@ -4590,6 +4955,7 @@
 尪仔先（ang-á-sian）
 尪仔卵（Ang-á-nn̄g）
 尪仔戲（ang-á-hì）
+尪仔頭袂䆀（Ang-á-thâu bē-bái）
 尪仔頭鏡（ang-á-thâu-kiànn）
 尪仔（ang-á）
 尪姨厝（ang-î-tshù）
@@ -4618,6 +4984,7 @@
 尻川（kha-tshng | kha-tshuinn）
 尻穿（kha-tshng）
 尻脊後（kha-tsiah-āu）
+尻脊骿揹一粒痀（Kha-tsiah-phiann phāinn tsi̍t lia̍p ku）
 尼姑做滿月（nî-koo tsò muá-gue̍h）
 尾仔指（bué-á-tsáinn）
 尾仔算來（bué-á sǹg--lâi）
@@ -4826,6 +5193,7 @@
 巴落（Pa-la̍uh）
 巷仔內个（hāng-á-lāi-ê）
 市仔（tshī-á）
+市場離遮真遠，愛行真久（Tshī-tiûnn lī tsia tsin hn̄g, ài kiânn tsin kú）
 市場（tshī-tiônn）
 市草䆀（tshī-tsháu bái）
 布尪仔（pòo-ang-á）
@@ -4846,6 +5214,7 @@
 帆厝（phâng-tshù）
 帆布袋仔（phâng-pòo-tē-á）
 希有（hi-iú）
+希望你會使成全我（Hi-bāng lí ē-sái sîng-tsuân--guá）
 帕仔巾（phè-á-kin）
 帕仔裝（phè-á-tsong）
 帕仔（phè-á）
@@ -4881,6 +5250,7 @@
 干於 （kan-î）
 干樂 （kan-lo̍k）
 干樂踅啊踅 （kan-lo̍k se̍h-ah-se̍h）
+干焦你才講會出來（Kan-na lí tsiah kóng ē tshut--lâi）
 干焦會 （kan-na ē）
 干焦會當 （kan-tann ē-tàng）
 干焦欲跋桮，毋甘點一枝香 （kan-ta beh pua̍h-pue, m̄-kam tiám tsi̍t-ki-hiunn）
@@ -4897,6 +5267,7 @@
 平差數逝（pêⁿ-chha sò͘-chōa）
 平常（pîng-siông | pîng-siâng）
 平平安安（pîng-pîng-an-an）
+平平路也會行甲跋跋倒？（Pênn-pênn lōo iā ē kiânn kah pua̍h-pua̍h--tó?）
 平平（pêⁿ-pêⁿ）
 平懸（pîng-khuân | pîng-kuân）
 平方公分（pîng-hong-kong-hun）
@@ -4917,6 +5288,7 @@
 平鼎仔（pênn-tiánn-á | pînn-tiánn-á）
 年仔（nî-á）
 年兜（nî-tau）
+年底欲到矣，咱愛準備過年矣（Nî-té beh kàu--ah, lán ài tsún-pī kuè-nî--ah）
 年底獎金（nî-té tsióng-kim）
 年拄年（nî-tú-nî）
 年獸（nî-siù）
@@ -4954,9 +5326,11 @@
 庇能（Pī-néeng）
 床底（tshn̂g-té）
 床頭拍，床尾和（tshn̂g-thâu phah tshn̂g-bué hô）
+序大人就會感覺較安慰（Sī-tuā-lâng tō ē kám-kak khah an-uì）
 序大圖（sī-tuā-tôo）
 序大無好樣，序細討和尚（sī-tuā bô hó iūnn, sī-sè thó huê-siūnn）
 序大（sī-tuā）
+序細若有孝（Sī-sè nā iú-hàu）
 底墜四（té-tuī-sù）
 底蒂（té-tì）
 底褲（té-khòo）
@@ -5033,7 +5407,6 @@
 引擎（iân-jín | ia̋n-jín）
 引磬（ín-khìng）
 引誘（ín-iú）
-引𤆬（ín-tshuā）
 弗素（hut-sòo）
 弦倍司（hiân-beh-suh）
 張七郎（Tiunn Tshit-lông）
@@ -5083,13 +5456,23 @@
 影銀行（iánn-gîn-hâng）
 影（iánn）
 役場（ia̍h-tiûnn）
+彼个人按怎叫都叫袂振動（Hit ê lâng án-tsuánn kiò to kiò bē tín-tāng）
+彼个貧惰骨（Hit ê pîn-tuānn-kut）
+彼个頭家娘對人客誠好禮（Hit ê thâu-ke-niû tuì lâng-kheh tsiânn hó-lé）
 彼久（hit-kú）
 彼字（hit jī）
+彼幾个竹雞仔佇巷仔口相拍（Hit kuí ê tik-ke-á tī hāng-á-kháu sio-phah）
+彼幾箱物件囥佇後斗就好矣（Hit kuí siunn mih-kiānn khǹg tī āu-táu tō hó--ah）
 彼時陣（hit sî-tsūn）
 彼暗（hit àm）
+彼欉花結子矣（Hit tsâng hue kiat-tsí--ah）
 彼當時（hit-tang-sî）
 彼當陣（hit-tang-tsūn）
+彼間冊店的冊真濟（Hit king tsheh-tiàm ê tsheh tsin tsē）
+彼陣我一个人蹛佇山頂（Hit-tsūn guá tsi̍t ê lâng tuà tī suann-tíng）
 彼陣（hit-tsūn）
+彼隻貓仔的爪仔真利（Hit tsiah niau-á ê jiáu-á tsin lāi）
+彼領洋裝看著真大範（Hit niá iûnn-tsong khuànn-tio̍h tsin tuā-pān）
 彼頭（hit thâu）
 往回（óng-huê | óng-hê）
 往診（óng-tsín）
@@ -5193,6 +5576,7 @@
 徹理（thiat-lí）
 徼兆（khiàu-tiāu）
 心之所在（sim-tsi-sóo-tsāi）
+心事無人知，我鬱甲足艱苦的（Sim-sū bô lâng tsai, guá ut kah tsiok kan-khóo--ê）
 心仔（sim-á）
 心內有數（sim-lāi iú sòo）
 心內知知（sim-lāi tsai-tsai）
@@ -5308,13 +5692,18 @@
 怪奇古（kuài-kî-kóo）
 怪奇（kuài-kî）
 怪跤（kuài-kha）
+恁兜是蹛佇佗位？（Lín tau sī tuà tī tó-uī?）
+恁兩个莫閣冤家矣啦！（Lín nn̄g ê mài koh uan-ke--ah--lah!）
 恁娘咧（lín-niâ--leh）
 恁娘的（lín-niâ--ê）
 恁娘蹺去（lín-niâ-khiau--khì）
 恁娘較好（lín niâ khah hó）
+恁後生今年考著佗一間大學？（Lín hāu-senn kin-nî khó-tio̍h tó tsi̍t king tāi-ha̍k?）
+恁攏共我恬恬！（Lín lóng kā guá tiām-tiām!）
 恁爸共你𢼌落去（lín-pē kā-lí pa--lueh）
 恁爸嘛是人（lín-pē mā-sī-lâng）
 恁爸（lín-pē）
+恁老母拄咧念你（Lín lāu-bú tú teh liām--lí）
 恁遮的（lín tsia--ê）
 恁阿母敢知影你佇遮發廢文（Lín a-bú kám tsai-iánn lí tī tsia huat huì-bûn）
 恆定性（hîng-tīng-sìng）
@@ -5353,6 +5742,7 @@
 惟（uî）
 惠安話（Hūi-uann-uē）
 惡人先投（ok-lâng sing tâu）
+惡人無膽（Ok-lâng bô-tánn）
 惡人自有惡人磨（ok-lâng tsū-iú ok-lâng buâ）
 惡厝（ok-tshù）
 惡嬌（ok-kiau）
@@ -5362,6 +5752,7 @@
 惡面相看（ok-bīn-sio-khuànn）
 惡馬惡人騎（ok-bé ok-lâng khiâ）
 惡馬惡人騎，胭脂馬拄著關老爺（ok-bé ok-lâng khiâ, ian-tsi-bé tú-tio̍h kuan ló-iâ）
+想予斟酌才做決定（Siūnn hōo tsim-tsiok tsiah tsò kuat-tīng）
 想你（siūnn lí）
 想倒轉來（siūnn tò-tuínn lâi）
 想像（siūnn-sióng | siūnn-tshiāng）
@@ -5372,6 +5763,8 @@
 想無（siūnn-bô）
 想看覓（siūnn khuànn-māi）
 想空想縫（siūnn-khang-siūnn-phāng）
+想著就愛笑（Siūnn-tio̍h tō ài tshiò）
+想袂到你竟然會曉歕鼓吹（Siūnn bē kàu lí kìng-jiân ē-hiáu pûn kóo-tshue）
 想袂到（siūnn-bē-kàu）
 想（siōnn）
 愈來愈嚴重（jú lâi jú giâm-tiōng | lú lâi lú giâm-tiōng）
@@ -5406,13 +5799,16 @@
 愛斯提（Ài-su-tê）
 愛新覺羅（Ài-sin-kak-lô）
 愛橐錢的洗衫機（ài lok-tsînn ê sé-sann-ki）
+愛比頂月日的量加重倍濟（Ài pí tíng gue̍h-ji̍t ê liōng ke tîng-puē tsē）
 愛滋病（ài-tsu-pēnn | ài-tsu-pīnn）
 愛爾蘭（Ài-nī-lân）
+愛睏就去睏（Ài-khùn tō khì khùn）
 愛睏（ài-khùn）
 愛知縣（Ài-ti-kuān）
 愛知（Ài-ti）
 愛紅（ài-âng）
 愛綴倯（ài-tuè-sông | ài-tè-sông）
+愛緊辦理交接的手續（Ài kín pān-lí kau-tsiap ê tshiú-sio̍k）
 愛而蘭（Ài-jî-lân）
 愛臺語（ài Tâi-gí）
 愛著較慘死（ài-tio̍h khah tshám sí）
@@ -5426,6 +5822,7 @@
 感冷（kám-líng）
 感恩（kám-un）
 感情威脅（kám-tsîng ui-hia̍p）
+感情的代誌是袂當勉強的（Kám-tsîng ê tāi-tsì sī bē-tàng bián-kióng--ê）
 感情綁票（kám-tsîng páng-phiò）
 感情要脅（kám-tsîng iau-hia̍p）
 感測鐵枝仔路（kám-tshik thih-ki-á-lōo）
@@ -5451,6 +5848,7 @@
 慚愧（tshâm-khuì）
 慢一跤步（bān tsi̍t kha-pōo）
 慢且是（bān-tshiánn-sī | bān-tshiánn-ī）
+慢且是，等伊來才閣講（Bān-tshiánn-sī, tán i lâi tsiah-koh kóng）
 慢走（bān-tsáu）
 慢趖（bān-sô）
 慢車（bān-tshia）
@@ -5466,6 +5864,7 @@
 憂結結（iu-kat-kat）
 憂鬱症（iu-ut-tsìng）
 憨呆鴨（gōng-tai-ah）
+憲兵行路真有精神（Hiàn-ping kiânn-lōo tsin ū tsing-sîn）
 應米（ìn-bí）
 懊嘟嘟（àu-tū-tū）
 懊嘟面（àu-tū-bīn）
@@ -5516,22 +5915,47 @@
 成甲無拍交落（sîng kah bô phah-ka-la̍uh）
 成聖人（tsiânn-siànn-lâng）
 成較那模仔印个（sîng kah ná bôo-á ìn ê）
+我下晡會共錢匯入去你的戶頭（Guá ē-poo ē kā tsînn huē ji̍p-khì lí ê hōo-thâu）
+我予滾水燙一下膨疱，足疼的（Guá hōo kún-tsuí thǹg tsi̍t-ē phòng-phā, tsiok thiànn--ê）
+我今仔日無的確會加班（Guá kin-á-ji̍t bô-tik-khak ē ka-pan）
+我伨你（Guá thīn--lí）
 我佇厝（guá tī tshù）
+我佮人講話（Guá kah lâng kóng-uē）
+我佮伊已經真久無來往矣（Guá kah i í-king tsin kú bô lâi-óng--ah）
+我佮伊無親（Guá kah i bô tshin）
 我佮你（guá kah lí | guá kap lí）
 我佮意你（guá kah-ì lí）
 我佮意你（guá kah-ì--lí）
+我佮阿珠仔咧扮公伙仔（Guá kah A-tsu--á teh pān-kong-hué-á）
+我來去共你講親情（Guá lâi-khì kā lí kóng-tshin-tsiânn）
+我來揀菜，揀好才予你洗（Guá lâi kíng-tshài, kíng-hó tsiah hōo lí sé）
+我來提碗共你貯飯（Guá lâi the̍h uánn kā lí té-pn̄g）
+我做工課做甲烏暗眩，足艱苦的（Guá tsò khang-khuè tsò kah oo-àm-hîn, tsiok kan-khóo--ê）
+我共你當做是上好的朋友（Guá kā lí tòng-tsò sī siōng hó ê pîng-iú）
 我共你講（guá kā lí kóng）
 我到底看著啥物（guá tàu-té khuànn-tio̍h siánn-mih）
 我到底看著啥（guá tàu-té khuànn-tio̍h siánn）
+我去予電梯門挾佇中央（Guá khì hōo tiān-thui mn̂g nge̍h tī tiong-ng）
 我去（guá khì）
+我叫是伊偌勇咧（Guá kiò-sī i guā ióng--leh）
 我台語講了真好（guá Tâi-gí kóng-liáu tsin hó）
+我同意你的看法（Guá tông-ì lí ê khuànn-huat）
 我咧欲袂赴矣（guá teh-beh bē-hù--ah | guá teh-bueh buē-hù--ah）
 我嘛是人（guá mā sī lâng）
 我嘛欲（guá mā beh）
+我囥佇桌頂的文件（Guá khǹg tī toh-tíng ê bûn-kiānn）
+我寒甲起雞母皮（Guá kuânn kah khí-ke-bó-phuê）
+我實在無法度分別（Guá si̍t-tsāi bô-huat-tōo hun-piat）
+我小可仔烘烘，可能欲感冒矣（Guá sió-khuá-á hang-hang, khó-lîng beh kám-mōo--ah）
+我已經輸甲貼底矣（Guá í-king su kah tah-té--ah）
 我干焦愛你（guá kan-na ài--lí）
+我強欲予遮的冊硩扁矣！（Guá kiōng-beh hōo tsia-ê tsheh teh-pínn--ah!）
 我強欲袂赴矣（Guá kiōng-beh bē-hù--ah）
+我後擺毋敢矣！（Guá āu-pái m̄ kánn--ah!）
 我恨你（guá hūn--lí）
 我想欲去便所（guá siūnn-beh khì piān-sóo）
+我想欲親身共你說謝（Guá siūnn-beh tshin-sin kā lí sueh-siā）
+我想講這个計畫已經是穩的矣（Guá siūnn-kóng tsit ê kè-uē í-king sī ún--ê--ah）
 我愛你（guá ài--lí）
 我愛台灣（guá ài Tâi-uân）
 我愛台語（guá ài Tâi-gí）
@@ -5539,50 +5963,92 @@
 我感覺袂歹用（guá-kám-kak buē pháinn-iōng）
 我感覺誠好用（guá kám-kak tsiânn hó-īng）
 我感覺（guá kám-kak）
+我手尾力無夠，捾袂起來（Guá tshiú-bué-la̍t bô-kàu, kuānn bē--khí-lâi）
+我才無愛卸祖公（Guá tsiah bô-ài sià-tsóo-kong）
+我承認這項代誌是我毋著（Guá sîng-jīn tsit hāng tāi-tsì sī guá m̄-tio̍h）
 我拄啉過（guá tú lim--kuè）
 我拄才啉過（guá tú-tsiah lim--kuè）
 我散赤閣頇顢，萬項代誌都袂曉
+我早就知影伊有問題（Guá tsá tō tsai-iánn i ū būn-tê）
+我早早就收擔矣！（Guá tsá-tsá tō siu-tànn--ah!）
 我昨昏去嘉義（Guá tsa-hng khì Ka-gī | Guá tsa-huinn khì Ka-gī）
+我昨暝做甲翻點（Guá tsa-mê tsò kah huan-tiám）
+我是做夜勤的，日時會當歇睏（Guá sī tsò iā-khîn--ê, ji̍t--sî ē-tàng hioh-khùn）
+我是凊彩講的（Guá sī tshìn-tshái kóng--ê）
 我是台灣人（guá sī Tâi-uân-lâng）
 我是啥人（guá sī siáng | guá sī siánn-lâng）
 我是緣投仔桑（guá sī iân-tâu-á sáng）
 我是香港人（Guá sī Hiong-káng-lâng）
+我替伊煩惱甲欲死（Guá thè i huân-ló kah beh-sí）
 我會曉講（guá ē-hiáu kóng）
 我會曉（guá ē-hiáu）
 我會驚（guá ē kiann）
-我欲來去𨑨迌（guá beh lâi-khì tshit-thô）
+我有寫批予伊（Guá ū siá phue hōo--i）
+我有接著你寄來的批（Guá ū tsiap-tio̍h lí kià--lâi ê phue）
 我欲來轉（Guá beh lâi tńg）
 我欲出海去看海翁（guá beh tshut-hái khì khuànn hái-ang）
+我欲出運矣（Guá beh tshut-ūn--ah）
 我欲去便所（guá beh khì piān-sóo）
 我欲去台灣結婚辦桌（guá beh khì Tâi-uân kiat-hun pān-toh）
 我欲去玩（Guá beh khì sńg）
+我欲去買雞卵（Guá beh khì bé ke-nn̄g）
 我欲去食中晝（guá beh khì tsia̍h tiong-tàu）
 我欲去食晝（guá beh khì tsia̍h-tàu）
-我欲去𨑨迌（Guá beh khì tshit-thô）
+我欲坐後幫車（Guá beh tsē āu-pang tshia）
 我欲學臺語（guá beh o̍h Tâi-gí）
+我欲準備落山矣（Guá beh tsún-pī lo̍h-suann--ah）
 我欲講的（guá beh kóng--ê）
+我欲趕去車頭，你先共我閘車（Guá beh kuánn-khì tshia-thâu, lí sing kā guá tsa̍h tshia）
 我欲（guá beh）
 我毋捌台語（guá m̄ bat tâi-gí | guá m̄ bat tâi-gú）
+我毋是好欺負的（Guá m̄ sī hó khi-hū--ê）
 我毋知呢（guá m̄ tsai--neh）
+我毋知水池仔的深淺（Guá m̄ tsai tsuí-tî-á ê tshim-tshián）
+我毋知發生啥物代誌（Guá m̄-tsai huat-sing siánn-mih tāi-tsì）
 我毋知（guá m̄ tsai）
+我比你較濟歲（Guá pí lí khah tsē huè）
 我沒咧驚（guá bô leh kiann）
 我沒錢（guá bô-tsînn）
+我無佮意伊做代誌的方式（Guá bô kah-ì i tsò tāi-tsì ê hong-sik）
 我無想欲予汝睏（guá bô siūnn-beh hōo lí khùn）
 我無想欲共你講（guá bô-siūnn beh kā-lí kóng）
 我無愛（guá bô ài）
+我無紮雨傘，佳哉落雨毛仔爾爾（Guá bô tsah hōo-suànn, ka-tsài lo̍h hōo-mn̂g-á niā-niā）
+我無膽，毋敢去（Guá bô-tánn, m̄-kánn khì）
 我無通食（guá bô-thang tsia̍h）
 我無錢啦（guá bô tsînn--lah）
 我無錢（guá bô tsînn）
+我猶未講煞，你先莫插話好無？（Guá iáu-buē kóng-suah, lí sing mài tshah-uē hó--bô?）
+我猶未食飯（Guá iáu-buē tsia̍h pn̄g）
+我用手欱著一隻蝶仔（Guá īng tshiú hap tio̍h tsi̍t tsiah ia̍h-á）
+我的冊借人矣（Guá ê tsheh tsioh--lâng--ah）
+我的口座猶閣有存款（Guá ê kháu-tsō iáu-koh ū tsûn-khuán）
+我的嚨喉㧎著一支魚刺（Guá ê nâ-âu khê-tio̍h tsi̍t-ki hî-tshì）
+我的房間內全花芳味（Guá ê pâng-king-lāi tsuân hue-phang-bī）
+我的手機仔害去矣（Guá ê tshiú-ki-á hāi--khì--ah）
+我的車票是拍往回的（Guá ê tshia-phiò sī phah óng-huê--ê）
+我的錢袋仔拍交落矣（Guá ê tsînn-tē-á phah-ka-la̍uh--ah）
+我相信你嘛有同感（Guá siong-sìn lí mā ū tông-kám）
 我看無（guá khuànn bô）
+我真有食福（Guá tsin ū tsia̍h-hok）
 我知影（guá tsai-iánn）
 我砰啊（guá-piàng-ah）
+我穩贏的啦！（Guá ún iânn--ê--lah!）
+我等你規半晡矣（Guá tán lí kui puànn-poo--ah）
 我聽攏無（guá thiann-lóng-bô）
 我聽無（guá thiann-bô）
+我行到半路就拄著伊矣（Guá kiânn kàu puànn-lōo tō tú-tio̍h i--ah）
 我衫攏穿上大領（guá sann lóng tshīng siōng tuā niá）
 我袂曉（guá bē-hiáu）
+我試看會當揣著伊無（Guá tshì-khuànn ē-tàng tshuē-tio̍h i--bô）
 我認為（guá jīn-uî）
 我足佮意你（guá tsiok kah-ì lí）
+我蹛這間公司五年矣（Guá tuà tsit king kong-si gōo nî--ah）
+我這領衫的內裡破去矣（Guá tsit niá sann ê lāi-lí phuà--khì--ah）
+我連鞭就轉來（Guá liâm-mi tō tńg--lâi）
 我遮（guá tsia）
+我頂伊的缺（Guá tíng i ê khueh）
+我顧佮你講話（Guá kòo kah lí kóng-uē）
 戒急用忍（kài-kip-iōng-jím）
 戒火草（kài-hué-tsháu | kài-hé-）
 戕仔（tshiâng-á）
@@ -5622,6 +6088,7 @@
 戽人客（hòo lâng-kheh）
 房貸（pâng-tāi）
 所以我講彼咧搵料咧？（Sóo-í guá kóng hit-ê ùn-liāu leh?）
+所以跤頭趺有一个空喙（Sóo-í kha-thâu-u ū tsi̍t ê khang-tshuì）
 所入不及所出（sóo-ji̍p put kip sóo tshut）
 所擺（sóo-pái）
 所羅門群島（Sóo-lô-bûn Kûn-tó）
@@ -5655,6 +6122,7 @@
 手機仔納錢（tshiú-ki-á la̍p-tsînn）
 手機仔電動（tshiú-ki-á-tiān-tōng）
 手段（tshiú-tuānn）
+手洗洗咧，好來拜公媽矣（Tshiú sé-sé--leh, hó lâi pài kong-má--ah）
 手燒（tshiú-sio）
 手神重（tshiú-sîn-tāng）
 手禁（tshiú-kìm）
@@ -5673,8 +6141,14 @@
 手霸（Tshiú-pà）
 手面台（tshiú-bīn-tâi）
 才 （tsha̋i）
+才想著物件袂記得提（Tsiah siūnn-tio̍h mih-kiānn bē-kì-tit the̍h）
 才拄 （tsiah-tú）
+才會娶著遮爾好的某（Tsiah ē tshuā-tio̍h tsiah-nī hó ê bóo）
+才會當佇社會上佮人徛起（Tsiah ē-tàng tī siā-huē-siōng kah lâng khiā-khí）
+才有通食穿（Tsiah ū thang tsia̍h-tshīng）
 才疏學淺 （tsâi soo ha̍k tshián）
+才袂予人看無目地（Tsiah bē hōo lâng khuànn-bô ba̍k-tē）
+才袂食虧（Tsiah bē tsia̍h-khui）
 才調 （tsâi-tiāu）
 扒飯（pe-pn̄g）
 打件（tánn-kiānn）
@@ -5806,6 +6280,7 @@
 拄拄仔好（tú-tú-á-hó）
 拄拄仔（tú-tú-á）
 拄拄好（tú-tú-hó）
+拄著考試逐家攏真緊張（Tú-tio̍h khó-tshì ta̍k-ke lóng tsin kín-tiunn）
 拄著（tú-tio̍h）
 拄開始（tú-khai-sí）
 拆單（thiah-tuann）
@@ -6005,9 +6480,13 @@
 指頭仔（tsíng-thâu-á）
 指頭拇公（tsíng-thâu-bú-kong）
 挈批的（khe̍h phue--ê）
+按呢做一日歇一日（Án-ne tsò tsi̍t ji̍t hioh tsi̍t ji̍t）
+按呢做較省事（Án-ne tsò khah síng-sū）
 按呢好無（án-ne hó--bô）
+按呢好！（Án-ne hó!）
 按呢就好（án-ne tō hó）
 按呢我毋就閣愛出去一逝（án-ne guá m̄-tō koh ài tshut-khì tsi̍t tsuā）
+按呢掠龜走鱉，是欲哪做會成？（Án-ne lia̍h-ku-tsáu-pih, sī beh ná tsò ē sîng?）
 按呢敢好（án-ne kám hó）
 按呢款（án-ne-khuán | án-ni-khuán）
 按呢爾爾（án-ne niā-niā）
@@ -6105,6 +6584,7 @@
 捽（sut）
 捾定（kuānn-tiānn）
 捾桶仔（kuānn-tháng-á）
+掀過來，後壁嘛會使寫（Hian--kuè-lâi, āu-piah mā ē-sái siá）
 掃塗跤的（sàu-thôo-kha--ê）
 掃帚星雨（sàu-tshiú-tshenn-hōo）
 掃路的（sàu-lōo--ê）
@@ -6226,7 +6706,10 @@
 提桌（the̍h-toh）
 提款片（thê-khuán-phìnn）
 提石頭鎮路（the̍h tsio̍h-thâu tìn-lōo）
+提筆來寫字（The̍h pit lâi siá-jī）
 提著（the̍h-tio̍h）
+提藥方去拆藥仔（The̍h io̍h-hng khì thiah io̍h-á）
+提袂落來（The̍h bē lo̍h--lâi）
 提走（the̍h-tsáu）
 提通來窒窗（the̍h tháng lâi that thang）
 插喙（tshap-tshuì）
@@ -6498,9 +6981,11 @@
 攄毛（lu moo）
 攄芋頭（lu ōo-thâu）
 攏做（lóng tsò）
+攏嘛是用急燒仔（Lóng mā sī iōng kip-sio-á）
 攏是（lóng sī）
 攏會使（lóng ē-sái | lóng ē-sài）
 攏有（lóng ū）
+攏無人知影（Lóng bô lâng tsai-iánn）
 攏熟矣（lóng si̍k--ah）
 攏總（lóng-tsóng）
 攏髮（lóng-huat）
@@ -6761,6 +7246,7 @@
 斜角線（tshua̍h-kak-suànn）
 斜逝（tshiâ-tsuā）
 斟酌（tsim-tsiok）
+斡咧做伊走（Uat--leh tsò i tsáu）
 斡正手（uat-tsiànn tshiú）
 斡正爿（uat-tsiànn-pîng）
 斤兩數（kin-niú-sòo | kun-niú-sòo）
@@ -6805,6 +7291,7 @@
 新營鐵道文化園區（Sin-iânn Thih-tō Bûn-huà Uân-khu）
 新生仔（sin-senn-á）
 新界（Sin-kài）
+新竹出產的貢丸真有名（Sin-tik tshut-sán ê kòng-uân tsin ū-miâ）
 新竹（Sin-tik）
 新羅（Sin-lô）
 新聞紙（sin-bûn tsuá）
@@ -6842,6 +7329,7 @@
 日冠（jit-kuan）
 日出申時（ji̍t-tshut sin-sî）
 日子未到，不是天道無報（ji̍t-tsí bī tò put sī thian tō bô pò）
+日子過了真清閒（ji̍t-tsí kuè liáu tsin tshing-îng）
 日子（ji̍t-tsí）
 日拆仔（ji̍t-thiah-á）
 日拆（ji̍t-thiah）
@@ -6849,6 +7337,7 @@
 日新月異（jı̍t-sin-gua̍t-ī）
 日時頭（ji̍t-sî-thâu）
 日曝（ji̍t-pha̍k）
+日月潭的景色袂䆀（Ji̍t-gua̍t-thâm ê kíng-sik bē-bái）
 日本摵仔麵（Ji̍t-pún tshi̍k-á-mī）
 日本文（Ji̍t-pún-bûn）
 日本料理（Ji̍t-pún liāu-lí）
@@ -6871,9 +7360,12 @@
 日落申（ji̍t-lo̍h-sin）
 日語（Li̍t-gír）
 日頭光探測器（ji̍t-thâu-kng thàm-tshik-khì）
+日頭咧欲落山矣（Ji̍t-thâu teh-beh lo̍h-suann--ah）
 日頭夯枷（ji̍t-thâu-giâ-kê）
+日頭對東爿出來（Ji̍t-thâu uì tang-pîng tshut--lâi）
 日頭擔架（ji̍t-thâu-tann-kè）
 日頭暗（ji̍t-thâu àm）
+日頭曝尻川矣閣毋起來（Ji̍t-thâu pha̍k kha-tshng--ah koh m̄ khí--lâi）
 日頭曝尻川（ji̍t-thâu pha̍k kha-tshuinn）
 日頭欲落山（ji̍t-thâu beh lo̍h-suann）
 日頭猛（ji̍t-thâu mé）
@@ -6890,8 +7382,10 @@
 早時仔（tsá-sî-á | tsái-sî-á）
 早時（tsá-sî）
 早晡（tsá-poo）
+早暗愛會記得疊衫（Tsá-àm ài ē-kì-tit tha̍h sann）
 早生貴子（tsá-senn-kuì-tsú）
 早自習（tsá-tsū-si̍p）
+早若知我就毋來矣（Tsá nā tsai guá tō m̄ lâi--ah）
 早起晡（tsá-khí-poo）
 早頓店（tsá-tǹg-tiàm）
 早頭（tsá-thâu）
@@ -6905,6 +7399,7 @@
 昂船洲（Gông-tsûn-tsiu）
 昊（hō）
 明仔後日（bîn-lo-āu-ji̍t | bîng á āu--ji̍t）
+明仔載無來翻草袂用得（Bîn-á-tsài bô lâi huan-tsháu bē-īng--tit）
 明仔載（miâ-á-tsài）
 明其（bîng-kî）
 明呼明唱（bîng-hoo-bîng-tshiàng）
@@ -6935,13 +7430,19 @@
 春夏秋冬（tshun hā tshiu tang）
 春酒（Tshun-tsiú）
 春陰（tshun-im）
+昨昏彼个案件辦了按怎？（Tsa-hng hit ê àn-kiānn pān liáu án-tsuánn?）
 昨昏（tsa-huinn）
+昨暗伊無轉來睏（Tsa-àm i bô tńg-lâi khùn）
+昨暗聽伊嗽規暝，我實在真毋甘（Tsa-àm thiann i sàu kui mê, guá si̍t-tsāi tsin m̄-kam）
 昭可力（tsiau-khó-li̍k）
 昭可洛（tsiau-khó-lo̍k）
+是你欲出國抑是伊欲出國？（Sī lí beh tshut-kok iah-sī i beh tshut-kok?）
 是咧發爐（sī leh huat-lôo?）
+是啥人提去的？（sī siánn-lâng the̍h--khì--ê?）
 是啥人（sī siánn-lâng | sī siáng）
 是啥物（sī siánn-mih）
 是年八節（sī nî peh-tsiat）
+是按怎好好仔人毋做，欲去學歹？（Sī án-tsuánn hó-hó-á-lâng m̄ tsò, beh khì o̍h pháinn?）
 是按會（sī-án-huē）
 是欲按怎活（sī beh àn-tsuánn ua̍h）
 是毋是（sī m̄ sī）
@@ -6961,6 +7462,7 @@
 時時刻刻（sî-sî-khik-khik）
 時時（sî-sî）
 時機kia̍t（sî-ki kia̍t）
+時機誠䆀（Sî-ki tsiânn bái）
 時站（sî-tsām）
 時行歌（sî-kiânn-kua）
 時行（sî-kiânn）
@@ -7009,6 +7511,7 @@
 暗崁（àm-khàm）
 暗意識（àm-ì-sik）
 暗時仔（àm-sî-á）
+暗時坐佇窗仔門邊（Àm-sî tsē tī thang-á-mn̂g-pinn）
 暗會（àm-huē）
 暗殺者（àm-sat-tsiá）
 暗毿（àm-sàm）
@@ -7026,6 +7529,7 @@
 暗號錢（àm-hō-tsînn）
 暗號（àm-hō）
 暗虹（àm-khīng）
+暗路毋通行（Àm-lōo m̄-thang kiânn）
 暗霞（àm-hâ）
 暗頓欲食啥（àm-tǹg beh tsia̍h siánn）
 暗頓食啥（àm-tǹg tsia̍h siánn）
@@ -7040,6 +7544,7 @@
 暢甲毋知人（thiòng-kah-m̄-tsai-lâng）
 暢頭（thiòng-thâu）
 暫慢（tsiām-bān）
+暫時來賣燒肉粽（Tsiām-sî lâi bē sio bah-tsàng）
 暫時莫佮我講話（tsiām-sî mài kah guá kóng-uē）
 暫節（tsiām-tsat）
 暴蘖（pok-ínn）
@@ -7119,11 +7624,15 @@
 有䆀無一好（ū bái bô tsi̍t hó）
 有一个人款（ū tsi̍t ê lâng khuán）
 有一个人範（ū tsi̍t-ê lâng-pān）
+有一个媠姑娘徛佇路邊等車（Ū tsi̍t ê suí koo-niû khiā tī lōo-pinn tán tshia）
 有一二步拭矣（ū-tsi̍t-nn̄g-pōo-tshit--ah）
+有一粒雞胿仔浮佇水面（Ū tsi̍t lia̍p ke-kui-á phû tī tsuí-bīn）
 有一頓，無兩頓（ū tsit-tǹg, bô nn̄g tǹg）
 有个無个（ū ê bô ê）
+有也好，無也好（Ū iā-hó, bô iā-hó）
 有二步七仔（ū--jī-pōo-tshit-á | ū--lī-pōo-tshit-á）
 有人佇咧無（ū lâng tī--leh--bô）
+有人咧揤電鈴（Ū lâng teh tshi̍h tiān-lîng）
 有人有份（ū-lâng-ū-hūn）
 有來有去（ū lâi ū khì）
 有來有往（ū lâi ū óng）
@@ -7150,6 +7659,7 @@
 有姑是姑丈，無姑野和尚（ū koo sī koo-tiūnn, bô-koo iá-huê-siūnn）
 有局（ū-kio̍k）
 有工就有夫（ū-kang tsiū-ū hu）
+有幾項菜？（Ū kuí hāng tshài?）
 有形體的（ū-hîng-thé--ê）
 有影有一隻（ū-iánn-ū-tsi̍t-tsiah）
 有影有跡（ū-iánn-ū-tsiah）
@@ -7176,23 +7686,31 @@
 有當著仔（ū-tang-tio̍h-á）
 有痕無影（ū-hûn bô-iánn）
 有的人（ū-ê-lâng）
+有的樹仔毋免落肥（Ū-ê tshiū-á m̄-bián lo̍h-puî）
+有的生理人賣物件會唬秤頭（Ū-ê sing-lí-lâng bē-mih-kiānn ē hóo-tshìn-thâu）
 有眼無珠（iú-gán-bû-tsu）
 有神論（iú-sîn-lūn）
 有空無榫（ū-khang-bô-sún）
+有穿內衫較會欶汗（Ū tshīng lāi-sann khah ē suh-kuānn）
 有站有節（ū-tsām-ū-tsat）
 有繐無捾（ū-sui-bô-kuānn）
 有羶有臊（ū hiàn ū tsho）
 有聲無影（ū-siann bô-iánn）
 有聽著無（ū thiann--tio̍h-bô）
 有肉片（ū-bah-phìnn）
+有要緊無？（Ū iàu-kín--bô?）
 有話囥袂牢（ū uē khǹg bē tiâu）
 有話講（ū uē kóng）
+有誠濟過去的代誌，我攏袂記得矣（Ū tsiânn tsē kuè-khì ê tāi-tsì, guá lóng bē-kì--tit--ah）
 有跤行無路（ū kha kiânn bô-lōo）
 有路無厝（ū-lōo-bô-tshù）
 有身孕（ū-sin-hūn）
 有較媠（ū khah suí）
+有這款可能（Ū tsit khuán khó-lîng）
 有這款的代誌，我攏毋知（ū tsit-khuán ê tāi-tsì, guá lóng m̄ tsai）
 有連線（ū-liân-suànn）
+有酒矸通賣無？（Ū tsiú-kan thang bē--bô?）
+有閒咱來去行行咧（ū-îng lán lâi-khì kiânn-kiânn--leh）
 有關著（iú-kuan-tio̍h）
 有頭有面（ū-thâu-ū-bīn）
 有風毋通駛盡帆（ū hong m̄-thang sái tsīn phâng）
@@ -7488,6 +8006,7 @@
 框起來（khong--khí-lâi）
 案下（àn-hā）
 案頭燈（àn-thâu-ting）
+桌仔予蟲蛀一空（Toh-á hōo thâng tsiù tsi̍t khang）
 桌仔耍（toh-á-sńg）
 桌奕（toh-ī）
 桌火（toh-hué）
@@ -7556,6 +8075,7 @@
 棺柴面（kuann-tshâ-bīn）
 棺柴頭（kuann-tshâ-thâu）
 椅並（í-phīng）
+椅仔排無好勢，看起來真亂（Í-á pâi bô hó-sè, khuànn--khí-lâi tsin luān）
 椅仔白sit-sit（í-á pe̍h sit-sit）
 椅各頭仔（í-koh-thâu-á）
 椅尻脊（í-kha-tsiah）
@@ -7623,6 +8143,7 @@
 樸仔籬（Phoh-á-lî）
 樹gūi（tshiū-guī）
 樹乳束仔（tshiū-ling-sok-á）
+樹仔予風吹甲東倒西歪（Tshiū-á hōo hong tshue kah tang-tó-sai-uai）
 樹仔尾（tshiū-á-bué）
 樹仔跤（tshiū-á-kha）
 樹奶印（tshiū-ling-ìn | tshiū-ni-ìn）
@@ -7647,6 +8168,8 @@
 樹蜚（tshiū-puī）
 樹趖（tshiū-sô）
 樹霜（tshiū-sng）
+樹頭徛予在，毋驚樹尾做風颱（Tshiū-thâu khiā hōo tsāi, m̄-kiann tshiū-bué tsò-hong-thai）
+樹頭有一隻粉鳥（Tshiū-thâu ū tsi̍t tsiah hún-tsiáu）
 樹龜（tshiū-ku）
 橈桮（giô-pue）
 橈骨（jiâu-kut）
@@ -7725,9 +8248,12 @@
 次級市場（tshù-kip-tshī-tiûnn）
 欣賞分析（him-sióng hun-sik）
 欱（hop）
+欲上崎矣，你著愛出力行（Beh tsiūnn-kiā--ah, lí tio̍h-ài tshut-la̍t kiânn）
 欲上班（beh siōng-pan）
+欲佇遮歇暗無？（Beh tī tsia hioh-àm--bô?）
 欲佗揣（beh tó tshuē）
 欲假若毋（beh ké ná m̄）
+欲做到當時才做會了？（Beh tsò kàu tang-sî tsiah tsò ē liáu?）
 欲去佗位（beh khì tó-uī）
 欲哭欲啼（beh-khàu-beh-thî）
 欲哭無目屎（beh-khàu-bô-ba̍k-sái）
@@ -7746,8 +8272,10 @@
 欲若毋（beh ná m̄）
 欲落雨（beh lo̍h-hōo）
 欲行無（beh kiânn--bô）
+欲起鼓矣（Beh khí-kóo--ah）
 欲閣（beh-koh）
 欲食毋討趁（beh-tsia̍h-m̄-thó-thàn）
+欲食進前愛閣乍一下（Beh tsia̍h tsìn-tsîng ài koh tsànn--tsi̍t-ē）
 欲（io̍k）
 欶一下仔大氣（suh tsi̍t-ē-á tuā-khuì）
 欶大氣（suh-tuā-khuì）
@@ -7776,7 +8304,6 @@
 歕雞胿（pûn-ke-kui）
 歕雪文泡（pûn sap-bûn-pho）
 歕鼓吹（pûn kóo-tshue）
-歕𥰔仔（pûn-phín-á）
 歡喜無（huann-hí--bô）
 歡喜甘願（huann-hí kam-guān）
 歡喜（huann-hí）
@@ -7846,6 +8373,7 @@
 歪頭菜（uai-thâu-tshài）
 歲月如流（suè-gua̍t-jû-lîu）
 歲頭有矣（huè-thâu ū ah）
+歲頭遐濟矣，閣遮爾歹性地（Huè-thâu hiah tsē--ah, koh tsiah-nī pháinn-sìng-tē）
 歸位（kuī-uī）
 歸正修善（kui-tsìng siu-siàn）
 歸罪（kui-tsuē）
@@ -7865,6 +8393,7 @@
 歹喙野斗（pháinn-tshuì iá-táu）
 歹喙鼻（pháinn-tshuì-phīnn）
 歹喙（pháinn-tshuì）
+歹囝串飼爸（Pháinn kiánn tshuàn tshī pē）
 歹囝串飼爸（pháinn-kiánn tshuàn tshī-pē）
 歹囝（pháinn-kiánn）
 歹天（phái-thinn | pháinn-thinn）
@@ -7991,6 +8520,7 @@
 毋成跤數（m̄-tsiânn kha-siàu）
 毋成錢（m̄-tsiânn tsînn）
 毋才著（m̄ tsiah-tio̍h）
+毋拄好落雨就用會著（M̄-tú-hó lo̍h-hōo tō īng ē tio̍h）
 毋拄好（m̄-tú-hó）
 毋捌一箍呼（m̄-bat tsi̍t-khoo honn）
 毋捌一箍芋仔番薯（m̄-bat tsi̍t-khoo ōo-á han-tsî）
@@ -8045,6 +8575,7 @@
 毋畏（m̄-uì）
 毋睏（m̄ khùn）
 毋知人（m̄-tsai-lâng）
+毋知伊到底咧想啥（M̄-tsai i tàu-té teh siūnn siánn ）
 毋知假知（m̄ tsai ké-tsai）
 毋知偌爾濟（m̄ tsai guā-nī tsē）
 毋知半項（m̄-tsai puànn-hāng）
@@ -8053,6 +8584,7 @@
 毋知天地（m̄ tsai thinn-tē）
 毋知好䆀（m̄ tsai hó-bái）
 毋知好歹（m̄ tsai hó-pháinn）
+毋知影伊的情形（M̄ tsai-iánn i ê tsîng-hîng）
 毋知死活（m̄ tsai sí-ua̍h）
 毋知死豬哥抑死豬母（mt-sai sí ti-ko ia̍h sí ti-bó）
 毋知民國幾年（m̄ tsai Bîn-kok kuí-nî）
@@ -8082,8 +8614,16 @@
 毋認輸（m̄ jīn-su）
 毋講是（m̄-kóng-sī）
 毋講理（m̄ kóng-lí）
+毋通予豆油滴落來（M̄-thang hōo tāu-iû tih--lo̍h-lâi）
+毋通佮人釘孤枝（M̄-thang kah lâng tìng-koo-ki）
+毋通去予伊抓著（M̄-thang khì hōo i jiàu--tio̍h）
 毋通問真恐怖（M̄-thang mn̄g tsin khióng-pòo）
+毋通定定食便藥仔（M̄-thang tiānn-tiānn tsia̍h piān-io̍h-á）
+毋通提糖仔共囡仔唌（M̄-thang the̍h thn̂g-á kā gín-á siânn）
+毋通講袂贏人就欲反桌（M̄-thang kóng bē iânn--lâng tō beh píng-toh）
+毋通食酒解憂愁（M̄-thang tsia̍h tsiú kái iu-tshiû）
 毋通（m̄-thang）
+毋過伊攏無共我回（M̄-koh i lóng bô kā guá huê）
 毋過心（m̄ kuè-sim）
 毋過意（m̄ kuè-ì）
 毋過（m̄-koh）
@@ -8103,6 +8643,7 @@
 母親節快樂（bú-tshin-tseh khuài-lo̍k）
 母親節（bú-tshin-tseh）
 母身獨身（bó-sin-to̍k-sin）
+每一擺來，你攏煮好料的（muí tsi̍t pái lâi, lí lóng tsú hó-liāu--ê）
 毒刺䖳（To̍k-tshì-thē）
 毒喙（to̍k-tshuì）
 毒死烏仔魚（to̍k-sí oo-á-hî）
@@ -8212,6 +8753,7 @@
 水沙連（Tsuí-sua-liân）
 水泉頭（tsuí-tsuânn-thâu）
 水洗（tsuí-sé）
+水浡出來矣！（Tsuí phū--tshut-lâi--ah!）
 水浸粿
 水浸粿（tsuí-tsìm-kué | tsuí-tsìm-ké）
 水湧（tsuí-íng）
@@ -8220,6 +8762,7 @@
 水溝（tsuí-kau）
 水溶液（tsuí-iông-i̍k）
 水滾卵（tsuí-kún-nn̄g）
+水滾矣（Tsuí kún--ah）
 水濁（tsuí-lô）
 水濂洞（tsuí-liâm-tōng）
 水濺仔（tsuí-tsuānn-á）
@@ -8285,6 +8828,7 @@
 求乞（kiû-khit）
 求刑（kîu-hîng）
 求化（kiû-huà）
+求平安就好，毋通閣想欲添福壽（Kiû pîng-an tō hó, m̄-thang koh siūnn-beh thiam hok-siū）
 求揣（kiû-tshuē）
 求神問佛（kiû-sîn-mn̄g-pu̍t）
 求贊（kiû-tsān）
@@ -8383,6 +8927,7 @@
 況且（hòng-tshiánn）
 泄尿个換滲屎个（tshuā-jiō ê uānn siàm-sái ê）
 泅來泅去（siû-lâi-siû-khì）
+泅水的時陣上驚跤糾筋（Siû-tsuí ê sî-tsūn siōng kiann kha kiù-kin）
 泅水箍仔（siû-tsuí-khoo-á）
 泉港（Tsûan-káng）
 泉空透水窟（tsuânn-khang thàu tsuí-khut）
@@ -8408,6 +8953,7 @@
 法蘭西（Huat-lân-se）
 法螺（huat-lê）
 法賣（huat-bē）
+法院的判決無公平，伊欲閣上訴（Huat-īnn ê phuànn-kuat bô kong-pênn, i beh koh siōng-sòo）
 泛綠（huàn-li̍k）
 泛音（huàn-im）
 泡（pho）
@@ -8446,7 +8992,6 @@
 洋蔥水雞（Iûnn-tshang-tsuí-ke）
 洋路灣（Iûnn-lōo-uan）
 洋面保險（iûnn-bīn pó-hiám）
-洋𥰔仔（iûnn-phín-á）
 洗手台仔（sé-tshiú-tâi-á）
 洗手熊（sé-tshiú-hîm）
 洗手膏（sé-tshiú-ko）
@@ -8578,6 +9123,7 @@
 海曙（Hái-sū）
 海棗（hái-tsó）
 海水倒激（hái-tsuí tó-kik）
+海水漲起來矣（Hái-tsuí tiòng--khí-lâi--ah）
 海沖（hái-tshiâng）
 海沙坪（hái-suann-phiânn）
 海沙埔（hái-sua-poo）
@@ -8987,6 +9533,7 @@
 灌風尪仔（kuàn-hong-ang-á）
 火刻（hé-khik）
 火加落（hué-ka-la̍uh）
+火化去矣（Hué hua--khì--ah）
 火化去矣（hué hua-khì ah）
 火化（hué-hua）
 火印（hé-ìn | hué-ìn）
@@ -9037,6 +9584,7 @@
 火龍火馬（hué liông hué-bé）
 灰指甲（hue-tsíng-kah）
 灰質（hue-tsit）
+灶跤的塗跤油肭肭（Tsàu-kha ê thôo-kha iû-leh-leh）
 灶頭（tsàu-thâu）
 炊斗（tshe-táu | tshue-táu）
 炊氣（tshue-khì）
@@ -9048,6 +9596,7 @@
 炎火（iām-hué）
 炎舞（iām-bú）
 炒肉（tshá-bah）
+炒菜鼎愛熱（Tshá tshài tiánn ài jia̍t）
 炒菜（tshá-tshài）
 炕番薯（khòng-han-tsî | tsû）
 炕肉飯（khòng-bah-pn̄g）
@@ -9147,6 +9696,7 @@
 烏頭狗（oo-thau-káu）
 烏頭鵠仔（oo-thâu-khok-á）
 烏骨仔（oo-kut-á）
+烏骨雞的市價比肉雞仔較好（Oo-kut-ke ê tshī-kè pí bah-ke-á khah hó）
 烏體輻射（oo-thé hok-siā）
 烏鬼仔洞（Oo-kuí-á-tōng）
 烏魯木齊（oo-lóo-bo̍k-tsè | oo-lóo-bo̍k-tsê）
@@ -9198,6 +9748,7 @@
 無仝款（bô kāng-khuán）
 無仝生張的（bô-kāng senn-tiunn--ê）
 無仝（bô-kāng）
+無代無誌你是按怎會去惹伊？（Bô-tāi-bô-tsì lí sī-án-tsuánn ē khì jiá--i?）
 無代無誌（bô-tāi-bô-tsì）
 無佇咧（bô tī--leh）
 無你个代（bô lí-ê tāi）
@@ -9254,12 +9805,15 @@
 無嫌著磨（bô hiâm tio̍h buâ）
 無存後步（bô-tshûn āu-pōo）
 無守本份（bô siú pún-hūn）
+無定著彼件代誌就是伊做的（Bô-tiānn-tio̍h hit kiānn tāi-tsì tō sī i tsò--ê）
 無定著時間（bô-tiānn-tio̍h sî-kan）
 無定著（bô-tiānn-tio̍h）
 無對同（bô tuì-tâng）
 無尾鳥鼠（bô-bué-niáu-tshí）
 無底代（bô tī-tāi）
+無張持公車煞走去（Bô-tiunn-tî kong-tshia suah tsáu--khì）
 無張無持（bô-tiunn-bô-tî）
+無彩你遐爾仔愛伊（Bô-tshái lí hiah-nī-á ài--i）
 無彩工（bô-tshái-kang）
 無影代（bô-iánn-tāi）
 無影槍揬死（bô-iánn tshiunn tu̍h-sí）
@@ -9277,6 +9831,7 @@
 無意無意（bô-ì bô-ì）
 無意神（bô-ì-sîn）
 無意識（bû-ì-sik）
+無愛挃的物件暫時囥佇間仔（Bô-ài ti̍h ê mih-kiānn tsiām-sî khǹg tī king-á）
 無愛閣再（bô ài koh-tsài）
 無成一个款（bô-sîng tsi̍t-ê khuán）
 無成體統（bô-sîng thé-thóng）
@@ -9325,6 +9880,8 @@
 無牌醫生（bô-pâi-i-sing）
 無牛駛馬（bô gû sái-bé）
 無牢（bô-tiâu）
+無疑悟你會出國讀冊（Bô-gî-ngōo lí ē tshut-kok tha̍k-tsheh）
+無疑悟猶是失敗（Bô-gî-ngōo iáu sī sit-pāi）
 無癮（bô giàn）
 無的確（bô-tik-khak）
 無目子（bô-ba̍k-tsí）
@@ -9335,6 +9892,7 @@
 無知證明（bô-tsai-tsìng-bîng）
 無知（bû-ti）
 無神論（bû-sîn-lūn）
+無禁無忌食百二（Bô-kìm-bô-khī tsia̍h pah-jī）
 無稽之談（bû-khe-tsi-tâm）
 無穩是（bô-ún-sī）
 無空暝日（bô-khang mê-ji̍t）
@@ -9350,8 +9908,10 @@
 無米閣拄著閏月（bô bí koh tú-tio̍h lūn-gue̍h | bô bí koh tú-tio̍h lūn-ge̍h）
 無精彩（bô-tsing-tshái）
 無精神（bô tsing-sîn）
+無細膩跋落去坑崁（Bô-sè-jī pua̍h lo̍h-khì khenn-khàm）
 無緣無故（bô-iân bô-kòo）
 無聲無說（bô-siann-bô-seh）
+無肉骨是欲按怎炕湯？（Bô bah-kut sī beh án-tsuánn khòng thng?）
 無自由單字元（bô-tsū-iû tan-jī-guân）
 無臭無潲（bô-tshàu-bô-siâu）
 無興趣（bô hìng-tshù）
@@ -9511,6 +10071,7 @@
 燃柴添火著（hiânn-tshâ-thinn-hué-to̍h）
 燃水（hiânn-tsuí）
 燃滾水（hiânn-kún-tsuí）
+燃燒水洗身軀（Hiânn sio-tsuí sé-sin-khu）
 燈仔花（ting-á-hue）
 燈徛u（ting-khiā-u）
 燈會（ting-huē）
@@ -9529,6 +10090,7 @@
 燒烙兄（sio-lō-hiann）
 燒烙包（sio-lō-pau）
 燒烙衫（sio-lō-sann）
+燒燒面焐人冷尻川（Sio-sio bīn ù lâng líng kha-tshng）
 燒片機仔（sio-phìnn-ki-á）
 燒狗（sio-káu）
 燒王船（sio ông-tsûn）
@@ -9542,9 +10104,11 @@
 燒褲（sio-khòo）
 燒跤怪獸（sio-kha kuài-siù）
 燒酒厝（sio-tsiú--tshù）
+燒酒我無路（Sio-tsiú guá bô-lōo）
 燒酒窟仔（sio-tsiú-khut-á）
 燒雞胿（sio-ke-kui）
 燒風球（sio-hong-kiû）
+燕仔飛來飛去咧做岫（Ìnn-á pue lâi pue khì teh tsò siū）
 燕巢區（Iàn-tsâu-khu）
 燕巢鄉（Iàn-tsâu-hiong）
 燕巢（iàn-tsâu）
@@ -9619,7 +10183,9 @@
 牛欄（gû-nuâ）
 牛母芝刺（gû-bó tsi tshì）
 牛湳池（Gû-làm-tî）
+牛牢內觸牛母（Gû-tiâu-lāi tak gû-bó）
 牛牢內觸牛母（gû-tiâu lāi tak gû-bó）
+牛犁耙，無半項會（Gû lê pē, bô-puànn-hāng ē）
 牛犅𨂿（gû-káng uâinn）
 牛瘦無力，人瘦白賊（gû sán bô-la̍t, lâng sán pe̍h-tsha̍t）
 牛皮糖蔥（gû-phuê-thn̂g-tshang）
@@ -9658,6 +10224,12 @@
 物仔霸仔（mi̍h-á-pà-á）
 物代（mih-tāi）
 物件到手就歹去（mi̍h-kiānn kàu-tshiú tio̍h phàinn--khì）
+物件原在囥佇遐，攏無徙位（Mi̍h-kiānn guân-tsāi khǹg tī hia, lóng bô suá-uī）
+物件有夠，免閣買矣（Mi̍h-kiānn ū-kàu, bián koh bé--ah）
+物件用了，愛囥蹛原位（Mi̍h-kiānn īng liáu, ài khǹg tuà guân-uī）
+物件碎去矣（Mi̍h-kiānn tshuì--khì--ah）
+物件若予伊提過手（Mih-kiānn nā hōo i the̍h kuè-tshiú）
+物件賣甲空空（Mi̍h-kiānn bē kah khang-khang）
 物流（bu̍t-liû）
 物理化學（bu̍t-lí huà-ha̍k）
 物理治療師（bu̍t-lí tī-liâu-su）
@@ -9930,9 +10502,12 @@
 生物多樣性（sing-bu̍t to-iūnn-sìng）
 生物科技（sing-bu̍t-kho-ki）
 生狂（tshenn-kông | tshinn-kông ​）
+生理做了有起色（Sing-lí tsò liáu ū khí-sik）
 生理性別（sing-lí sìng-pia̍t）
+生理歹做，無放數嘛袂使（Sing-lí pháinn tsò, bô pàng-siàu mā bē-sái）
 生理結構（sing-lí-kiat-kòo）
 生理興隆（sing-lí-hing-liông）
+生理花花仔（Sing-lí hue-hue--á）
 生瓜（sinn-kue）
 生甲袂䆀（senn kah bē bái）
 生瘡（senn-tshng）
@@ -9956,10 +10531,16 @@
 產前假（sán-tsîng-ká）
 產科（sán-kho）
 用喙限（īng tshuì-ān）
+用心拍拚做生理（Iōng-sim phah-piànn tsò-sing-lí）
 用心計較（iōng-sim-kè-kàu）
 用情份共人刁（iōng tsîng-hūn kā lâng tiau）
 用謀造計（īng bôo tsō kè）
+用鏨仔雕刻一尊佛像（Iōng tsām-á tiau-khik tsi̍t tsun hu̍t-siōng）
+用鐵枝共門拄咧（Iōng thih-ki kā mn̂g tú--leh）
+用風筒來灌風（Īng hong-tâng lâi kuàn-hong）
+用齒戳剔喙齒（Īng khí-thok thak tshuì-khí）
 用齒抿仔洗喙時，愛先捋齒膏（īng khí-bín-á sé-tshuì sî, ài sing lu̍t-khí-ko）
+用齒膏洗喙（Iōng khí-ko sé-tshuì）
 甪任（lut-jīm）
 甪奶（lut-lin | lut-ling | lut-ni）
 甪官（lut-kuann）
@@ -9969,6 +10550,7 @@
 甪鉎（lut sian | lu̍t sian）
 田中央（Tshân-tiong-ng）
 田僑仔（tshân-kiâu-á）
+田園厝宅全毀了了（Tshân-hn̂g tshù-the̍h tsuân huí-liáu-liáu）
 田園厝宅（tshân-hn̂g-tshù-the̍h）
 田墘（tshân-kînn）
 田嬰機（tshân-enn-ki）
@@ -9981,6 +10563,7 @@
 田心仔（Tshân-sim-á）
 田桮（tshân-pue）
 田椪花（tshân-phòng-hue）
+田比園較貴（Tshân pí hn̂g khah kuì）
 田洋仔（tshân-iûnn-á）
 田洋（tshân-iônn | tshân-iûnn）
 田無溝，水無流（tshân bô-kau, tsuí bô-lâu）
@@ -10152,6 +10735,7 @@
 痟（siáu）
 痠軟（suinn-nuí）
 痠骨輪疼骨節（sng kut-lûn thiànn kut tsat）
+痠骨輪，疼骨節（Sng kut-lûn, thiànn kut-tsat）
 痢疾（lī-tsi̍t | sé-kī-lì）
 瘟神（un-sîn）
 瘦卑巴（sán-pi-pa）
@@ -10278,6 +10862,7 @@
 百香果（pah-hiong-kó | pah-hiang-kó）
 百（peh | pik）
 皂隸（tsô-lē）
+的確的代誌才通講（Tik-khak ê tāi-tsì tsiah thang kóng）
 皇帝菜（hông-tè-tshài）
 皇帝跤兜（hông-tè kha-tau）
 皇帝酥（hông-tè-soo）
@@ -10400,6 +10985,7 @@
 相對反（sann-tuì-huán | sio-tuì-huán）
 相帶（sio-tuà）
 相意愛（sio-ì-ài）
+相扯一下無偌濟（Sio-tshé--tsi̍t-ē bô guā-tsē）
 相扯（sio-tshé）
 相扴（sio-ke̍h）
 相拄頭（sio-tú-thâu | sann-tú-thâu）
@@ -10432,6 +11018,7 @@
 相觸（sio-tak）
 相談（sio-tâm | siong-tâm）
 相諍喙（sio-tsènn-tshuì）
+相諍毋認輸，相輸毋捌贏（Sio-tsènn m̄ jīn-su, sio-su m̄ bat iânn）
 相趁相喊（sio-thàn sio hiàm | sio-thàn sio-hán）
 相逢（siong-hông）
 相閃身（sio-siám-sin）
@@ -10441,7 +11028,6 @@
 相食牚（sio-tsia̍h-thènn）
 相駁喙（sio poh tshuì）
 相駛（sann-sái）
-相𤆬走（sio-tshuā-tsáu）
 相（siunn）
 盹瞌睡（tuh-ka-tsē | tuh-ka-tsēr）
 盼仔（phàn-á）
@@ -10453,6 +11039,8 @@
 看事辦事（khuànn sū pān-sū）
 看人殕殕（khuànn lâng phú-phú）
 看仿（khuànn-hóng）
+看伊敢有咧讀冊（Khuànn i kám ū teh tha̍k-tsheh）
+看伊的面水，莫閣罰錢啦！（Khuànn i ê bīn-tsuí, mài koh hua̍t tsînn--lah!）
 看啥潲（khuànn siánn siâu）
 看啥（khuànn siánn）
 看天凊凊（khuànn thinn tshìn tshìn）
@@ -10473,6 +11061,7 @@
 看覓（khuànn-māi）
 看護（khàn-hōo）
 看貓仔無點（khuànn niau-á bô tiám）
+看起來仝款仔仝款（Khuànn--khí-lâi kāng-khuán-á-kāng-khuán）
 看起（khuànn-khí）
 看過（khuànn kuè）
 看開（khuànn-khui）
@@ -10510,6 +11099,7 @@
 真正足（tsin-tsiànn tsiok）
 真正（tsin-tsiànn）
 真歹勢（tsin-pháinn-sè）
+真歹勢，無張持共你挨著（Tsin pháinn-sè, bô-tiunn-tî kā lí e--tio̍h）
 真歹（tsin pháinn）
 真濟人（tsin tsē lâng）
 真濟（tsin tsē | tsin tsuē）
@@ -10535,6 +11125,7 @@
 真躼（tsin lò）
 真鬧熱（tsin nau-jiat）
 眠夢（bîn-bāng）
+眠床就愛換新的矣（Bîn-tshn̂g tō ài uānn sin--ê--ah）
 眠床底（bîn-tshn̂g-té）
 眠床枋（Bîn-tshn̂g-pang）
 眠腦（Bîn-náu）
@@ -10636,6 +11227,7 @@
 砧砧（tiam-tiam）
 砧鞋（tiam-ê | tiam-uê）
 砰去（piang-khì）
+破去矣！（Phuà--khì--ah!）
 破媌（phuà-bâ）
 破子仔（phò-tsí-á）
 破柴（phuà-tshâ）
@@ -10782,6 +11374,7 @@
 禪坐（siâm-tsē）
 禮拜日（lé-pài-ji̍t）
 禮拜時仔（lé-pài-sî-á）
+禮拜欲大摒掃，毋通走出去耍（Lé-pài beh tuā-piànn-sàu, m̄-thang tsáu tshut-khì sńg）
 禮拜（lé-pài）
 禮記（Lé-kì）
 禳（jiông）
@@ -10846,6 +11439,7 @@
 積聚（tsik-tsū）
 積體電路（tsik-thé tiān-lōo）
 穎豪（ínn-hô）
+穡頭欲對佗位落手才好？（Sit-thâu beh tuì tó-uī lo̍h-tshiú tsiah hó?）
 穢聞（uè-bûn | è-bûn）
 穩死（ún-sí）
 穩當（ún-tàng）
@@ -10861,6 +11455,7 @@
 空仔口（khang-á-kháu）
 空八仔褲（khòng-pat-á khòo）
 空八空空（khòng pat khòng khòng）
+空喙堅疕矣（Khang-tshuì kian-phí--ah）
 空嘴哺舌（khang-tshuì-pōo-tsi̍h）
 空拍機（khong-phah-ki）
 空服員（khong-ho̍k-uân）
@@ -10892,6 +11487,7 @@
 窒咧（that--leh）
 窒素（tsik-sòo）
 窒車（that-tshia）
+窗仔門關甲密喌喌（Thang-á-mn̂g kuainn kah ba̍t-tsiuh-tsiuh）
 窗仔（thang-á）
 窗兄（tshong-hing）
 窗崁（thang-khàm）
@@ -10914,6 +11510,7 @@
 競車（kīng-tshia）
 竹仔湖（Tik-á-ôo）
 竹仔箸毋敢夾人个香菇肉（tik-á-tī m̄ kánn ngeh lâng-ê hiunn-koo-bah）
+竹仔鬱予曲（Tik-á ut hōo khiau）
 竹塹（Tik-tsām | Tik-tshàm）
 竹安（Tik-an）
 竹崁（tik-khàm）
@@ -10963,8 +11560,10 @@
 筆鈍（pit-tun）
 筆電（pit-tiān）
 筆鼠（pit-tshú | tshí）
+等一下看毋是勢，你就緊走（Tán--tsi̍t-ē khuànn m̄-sī-sè, lí tō kín tsáu）
 等斡（tán-uat）
 等無人（tán bô lâng）
+等物僫到，等人快老（Tán mih oh kàu, tán lâng khuài lāu）
 等甲斑鴿吼（tán kah pan-kah háu）
 等號（tíng-hō）
 等袂赴（tán-bē-hù | tán-buē-hù）
@@ -10999,11 +11598,13 @@
 箍起來（khoo--khí-lâi）
 箍飛（khoo-pue）
 算會和（sǹg-ē-hô）
+算看偌濟錢（Sǹg khuànn guā-tsē tsînn）
 算袂和（sǹg-bē-hô）
 箠仔（tshuê-á）
 管仔精（kóng-á-tsiann）
 管仔粿（kóng-á-kué | kóng-á-ké）
 管伊天地幾斤重（kuán i thinn-tē kuí-kin-tāng）
+管待伊喔！叫伊家己想辦法（Kuán-thāi--i--ooh! Kiò i ka-kī siūnn pān-huat）
 管待（kuán-thāi）
 管球（kóng-kiû）
 管碧玲（Kuán Phek-lêng）
@@ -11105,6 +11706,7 @@
 糊瘰瘰，全食一支喙（hôo-luì-luì, tsuân tsia̍h tsi̍t-ki tshuì）
 糋圈仔（tsìnn-khian-á）
 糋塊（tsìnn-tè）
+糋好的芋仔糋（Tsìnn hó ê ōo-á-tsìnn）
 糋料（tsìnn-liāu）
 糋甜麭（tsìnn-tinn-pháng）
 糋蝦仔（tsìnn hê-á）
@@ -11112,6 +11714,7 @@
 糋路（tsìnn-lōo）
 糋選（tsìnn-suán）
 糋麭粉（tsìnn-pháng-hún）
+糖仔一人一粒，毋通相爭（Thn̂g-á tsi̍t lâng tsi̍t lia̍p, m̄-thang sio-tsenn）
 糖仔攕（thn̂g-á-tshiám）
 糖仔角（thn̂g-á-kak）
 糖含丸仔（thn̂g-kâm-uân-á）
@@ -11159,6 +11762,7 @@
 紅奶仔草（âng-ling-á-tsháu）
 紅妝二八年（âng-tsng jī pat liân）
 紅妝（hông-tsng）
+紅嬰仔肨奶肨奶（Âng-enn-á hàng-ling-hàng-ling ）
 紅孩兒（hông-hâi-jî）
 紅寶海星（Âng-pó-hái-tshenn）
 紅寶貓（Âng-pó-niau）
@@ -11223,6 +11827,7 @@
 紙字（tsuá-lī）
 紙屑仔（tsuá-sap-á）
 紙杯仔（tsuá-pue-á）
+紙澹去矣（Tsuá tâm--khì--ah）
 紙硩（tsuá-teh）
 紙票變厚（tsuá-phiò piàn-kāu）
 紙票變薄（tsuá-phiò piàn po̍h）
@@ -11234,6 +11839,9 @@
 素食者（sòo-si̍t tsiá）
 紡火犁（pháng-hué-lê）
 紡織機（pháng-tsit-ki）
+索仔小𫟂咧就會使（Soh-á sió hân--leh tō ē-sái）
+索仔愛拍死結才袂甪去（Soh-á ài phah sí-kat tsiah bē lut--khì）
+索仔拍結，敨袂開矣（Soh-á phah-kat, tháu bē khui--ah）
 索仔股（soh-á-kóo）
 索仔雲（soh-á-hûn）
 索取（sak-tshú）
@@ -11260,6 +11868,8 @@
 細本珠仔草（sè-pún tsu-á-tsháu）
 細本生理（sè-pún sing-lí）
 細漢个時（sè-hàn ê sî）
+細漢囡仔攏較驚生份（Sè-hàn gín-á lóng khah kiann-senn-hūn）
+細漢囡仔暗時難免會泄尿（Sè-hàn gín-á àm-sî lân-bián ē tshuā-jiō）
 細漢囡仔（sè-hàn gín-á）
 細漢的（suè-hàn--ê）
 細百（sè-pah）
@@ -11300,6 +11910,7 @@
 結屎（kiat-sái）
 結拜（kiat-pài）
 結束（kiat-sok）
+結果伊猶是雙跤踏雙船（Kiat-kó i iáu sī siang kha ta̍h siang tsûn）
 結紅綵（kat âng-tshái）
 結締織（kiat-tè-tsit）
 結蟲子（kiat-tâng-tsí）
@@ -11404,9 +12015,11 @@
 緊來旋（kín lâi suan）
 緊來買（kín-lâi bé | kín-lâi bué）
 緊分享（kín hun-hióng | kín hun-hiáng）
+緊去做代誌較要緊（Kín khì tsò tāi-tsì khah iàu-kín）
 緊去睏（kín khì khùn）
 緊大漢（kín tuā-hàn）
 緊急出口（kín-kip tshut-kháu）
+緊敲電話予警察（Kín khà-tiān-uē hōo kìng-tshat）
 緊旋（kín suan）
 緊球（kín-kiû）
 緊走啊（kín-tsáu--ah）
@@ -11470,8 +12083,10 @@
 總是按呢（tsóng--sī án-ne）
 總是（tsóng-sī）
 總書記（tsóng-su-kì）
+總有一工，我一定會成功（Tsóng-ū tsi̍t kang, guá it-tīng ē sîng-kong）
 總爺藝文中心（Tsóng-iâ Gē-bûn Tiong-sim）
 總督府（Tsóng-tok-hú）
+總算是兩百枝（Tsóng sǹg sī nn̄g-pah ki）
 總納（tsóng-la̍p）
 總舖（tsóng-phòo）
 總鋪（tsóng-phoo）
@@ -11653,6 +12268,7 @@
 耳空出油（hīnn-khang tshut-iû）
 耳空彈（hīnn-khang-tuānn）
 耳空生包皮（hīnn-khang senn pau-phuê）
+耳空輕的人，會定定予人煽動（Hīnn-khang-khin ê lâng, ē tiānn-tiānn hōo lâng siàn-tōng）
 耳空體溫計（hīnn-khang thé-un-kè | hī-khang thé-un-kè）
 耳脣（hīnn-tûn）
 耳蟲（hīnn-thâng）
@@ -11664,6 +12280,7 @@
 耽耳（tānn-hīnn | tānn-hī）
 耿爽（Kíng Sóng）
 聖佛無分大細身（siànn hu̍t bô-hun tuā-sè sin）
+聖拄聖（Siànn-tú-siànn）
 聖桮（siànn-pue）
 聖母院（Sìng-bó-īnn）
 聖潔石（Sìng-kiat-si̍k）
@@ -11693,6 +12310,8 @@
 職棒（tsit-pang）
 職能治療（tsit-lîng tī-liâu）
 聽你咧放屁（thiann lí leh pàng-phuì）
+聽你的腔口敢若是臺南人（Thiann lí ê khiunn-kháu kánn-ná sī Tâi-lâm-lâng）
+聽候鼎熱的時，愛趕緊下油落去（Thìng-hāu tiánn jia̍t ê sî, ài kuánn-kín hē iû lo̍h--khì）
 聽帶（thiann-tuâ）
 聽有（thiann-ū）
 聽某喙，大富貴（thiann bóo tshuì tuā hù-kuì）
@@ -11835,10 +12454,14 @@
 腹內肌（pak-lāi-ki）
 腹水（pak-tsuí）
 腹肌（pak-ki）
+腹肚做藥櫥（Pak-tóo tsò io̍h-tû）
 腹肚內澈澈鬼（pak-tóo lāi theh-theh kuí）
+腹肚內無半點墨水（Pak-tóo-lāi bô puànn tiám ba̍k-tsuí）
 腹肚內知知（pak-tóo lāi tsai-tsai）
 腹肚挺挺（pak-tóo thāinn thāinn）
 腹肚桶（pak-tóo-tháng）
+腹肚脹甲遮大个（Pak-tóo tiùnn kah tsiah tuā ê）
+腹肚脹起來（Pak-tóo tiòng--khí-lâi）
 腹肚（pak-tóo | pat-tóo | put-tóo）
 腹腸（pak-tn̂g）
 腹臍（pak-tsâi）
@@ -11856,6 +12479,7 @@
 膣屄毛（tsi-bai-moo）
 膣屄（tsi-bai）
 膨床（phòng-tshn̂g）
+膨椅予囡仔翸歹去矣（Phòng-í hōo gín-á phún-pháinn--khì--ah）
 膨皮（phòng-phuê | phòng-phê）
 膨紗針（phòng-se-tsiam）
 膨肚短命（phòng-tōo-té-miā）
@@ -11908,8 +12532,10 @@
 自由時報（Chū-iû Sî-pò）
 自由時報（Tsū-iû-sî-pò | Tsū-iû-sî-pōo）
 自由球（tsū-iû-kiû）
+自由的生活是人人攏想欲過的（Tsū-iû ê sing-ua̍h sī lâng-lâng lóng siūnn-beh kuè--ê）
 自由自在（tsū-iû-tsū-tsāi）
 自相矛盾（tsū-siong-mâu-tún）
+自細漢爸母就過身矣（Tsū sè-hàn pē-bú tō kuè-sin--ah）
 自細漢甲大漢（tsū sè-hàn kah tuā-hàn）
 自翕（tsū-hip）
 自肥（tsū-huî）
@@ -12002,8 +12628,10 @@
 舊品（kū-phín）
 舊囉囉（kū-lo-lo）
 舊套頭（kū-thò-thâu）
+舊年遮火燒山，樹仔攏燒了了矣（Kū-nî tsia hué-sio-suann, tshiū-á lóng sio-liáu-liáu--ah）
 舊把戲（kū-pá-hì）
 舊時（kū-sî）
+舊曆正月初九是天公生（Kū-li̍k tsiann-gue̍h tshe-káu sī Thinn-kong-senn）
 舊漚舊臭（kū-àu-kū-tshàu）
 舊營（kū-iânn）
 舊街仔（kū-ke-á | kū-kue-á）
@@ -12023,6 +12651,7 @@
 舟山（Tsiu-san）
 航空母艦（hâng-khong-bú-lām）
 舵公（tāi-kong）
+船仔歇佇橋跤（Tsûn-á hioh tī kiô-kha）
 船仔草（tsûn-á tsháu）
 船單（tsûn-tuann）
 船破海坐底（tsûn-phuà hái tsē té）
@@ -12036,6 +12665,7 @@
 色盲人（sik-mê-lâng）
 色盲（sik-mê）
 芋仔汁（ōo-á-tsiap）
+芋仔著愛鬆，才會好食（Ōo-á tio̍h-ài sang, tsiah ē hó-tsia̍h）
 芋仔角（ōo-á-kak）
 芋仔酥（ōo-á-soo）
 芋粿夢（Ōo-kué-bāng）
@@ -12051,6 +12681,7 @@
 花仔菜（hue-á-tshài）
 花嗄嗄（hue-sà-sà）
 花崗石（hua-kong-tsio̍h）
+花已經蔫去矣！（Hue í-king lian--khì-ah!）
 花巴哩貓（hue-pa-lí-niau）
 花施血解（hue-si-hiat-kái）
 花東縱谷平原（Hua-tong Tsiòng-kok Pîng-guân）
@@ -12071,6 +12702,7 @@
 花花挕挕（hue-hue-hìnn-hìnn）
 花花草草（hue-hue-tsháu-tsháu）
 花苓仔（hue-lîng-á）
+花莓一蕊一蕊攏開矣（Hue-m̂ tsi̍t-luí-tsi̍t-luí lóng khui--ah）
 花莓（hue-m̂）
 花蓮港（Hue-liân-káng）
 花蓮石雕節（Hua-liân Tsio̍h-tiau-tseh）
@@ -12095,6 +12727,9 @@
 若內弗（Jio̍k-luē-hut）
 若咧行灶跤（ná leh kiânn tsàu-kha）
 若拄著應聲蟲毋敢應的，你就用彼帖藥仔來治伊
+若是大色貨拆零星賣攏會蝕重（Nā-sī tuā-sik-huè thiah lân-san bē lóng ē si̍h-tāng）
+若是攏無人欲去，咱就抽鬮來決定（Nā-sī lóng bô-lâng beh khì, lán tō thiu-khau lâi kuat-tīng）
+若是肯奮鬥，一定會出頭（Nā-sī khíng hùn-tàu, it-tīng ē tshut-thâu）
 若是電話亭（nā-sī tiān-uē-tîng）
 若是（nā-sī）
 若有做孝男，就會攑孝杖（nā-ū tsò hàu-lâm tsiu-ē gia̍h hà-tn̄g）
@@ -12213,8 +12848,11 @@
 莊重（tsong-tiōng）
 莒光號（Kí-kong-hō）
 莫亂吼（mài luān háu）
+莫佇後壁講人的歹話（Mài tī āu-piah kóng lâng ê pháinn-uē）
 莫佇遐咧喙𪁎（mài tī hia leh tshuì-tshio）
+莫來共我纏跤絆手（Mài lâi kā guá tînn-kha-puànn-tshiú）
 莫假（mài-ké）
+莫共外人牽拖入來（Mài kā guā-lâng khan-thua--ji̍p-lâi）
 莫共我磕（mài kā guá kha̍p）
 莫去（mài khì）
 莫受氣（mài siū-khì）
@@ -12227,11 +12865,13 @@
 莫想遐濟（mài siōnn hiah tsē | mài siūnn hiah tsē | mài siūnn hiah tsuē）
 莫惹我（mài jiá guá）
 莫戇矣（mài gōng--ah）
+莫按呢挨來挨去，會跋倒（Mài án-ne e lâi e khì, ē pua̍h-tó）
 莫振動（mài tín-tāng）
 莫放袂記（mài pàng bē-kì）
 莫東樓（mài-tang-lâu）
 莫理頓（Bo̍h-lí-tǹg）
 莫耳（bo̍k-ní）
+莫規工憂頭結面（Mài kui kang iu-thâu-kat-bīn）
 莫講廢話（mài kóng huì-uē）
 莫講較清閒（mài-kóng khah tshing-îng）
 莫講較無代誌（mài-kóng khah bô tāi-tsì）
@@ -12239,9 +12879,11 @@
 莫講較規氣（mài-kóng khah kui-khì）
 莫閣唸矣（mài koh liām--ah）
 莫閣問（mài koh mn̄g）
+莫閣振動矣！（Mài koh tín-tāng--ah!）
 莫閣擋路（mài-koh tòng-lōo）
 莫閣講（mài koh kóng）
 莫閣踅踅唸（mài koh se̍h-se̍h-liām）
+莫食遐雄，對胃無好（Mài tsia̍h hiah hiông, tuì uī bô hó）
 莫（mài）
 莿桐巷（Tshì-tông-hāng）
 菁仔欉（tshenn-á-tsâng）
@@ -12253,6 +12895,7 @@
 菖（tshiang）
 菜園仔（tshài-huînn-á）
 菜寮（Tshài-liâu）
+菜已經熥好矣（Tshài í-king thn̄g hó--ah）
 菜市仔名（tshài-tshī-á-miâ）
 菜店mâ（tshài-tiàm-mâ）
 菜店彪（tshài-tiàm-piu）
@@ -12260,6 +12903,7 @@
 菜有一絪，草有一摠（tshài ū tsi̍t in, tsháu ū tsi̍t tsáng）
 菜格仔（tshài-keh-á）
 菜椒（tshài-tsio）
+菜煮甲臭火焦去（Tshài tsú kah tshàu-hué-ta--khì）
 菜球（tshài-kiû）
 菜瓜藤（tshài-kue-tîn）
 菜砧（tshài-tiam）
@@ -12310,6 +12954,7 @@
 萬聖節（Bān-sìng-tseh）
 萬萬不可（bān-bān put-khó）
 萬葉集（Bān-ia̍p-tsi̍p）
+萬項代著愛照步來（Bān-hāng tāi tio̍h-ài tsiàu-pōo-lâi）
 萱（suan）
 萵仔菜（ue-á-tshài | e-á-tshài | meh-á-tshài）
 萹蓄草（pián-thiok-tsháu）
@@ -12373,6 +13018,9 @@
 落跑殼（Làu-phâu-khak）
 落跑（làu-phâu）
 落錢聲（lak tsînn-siann）
+落雨了後，塗跤變甲澹漉漉（Lo̍h-hōo liáu-āu, thôo-kha piàn kah tâm-lok-lok）
+落雨天的時陣（Lo̍h-hōo-thinn ê sî-tsūn）
+落雨天莫出門較好（Lo̍h-hōo-thinn mài tshut-mn̂g khah hó）
 落雨毛仔（lo̍h hōo mn̂g á）
 落雨珠仔（lo̍h hōo tsu á）
 落雨白（lo̍h-hōo-pe̍h）
@@ -12390,10 +13038,12 @@
 葉菊蘭（Ia̍p Kiok-lân）
 葉酸（ia̍p-sng）
 葉門（Ia̍p-bûn）
+著來呢！（Tio̍h lâi--neh!）
 著光（to̍h-kng）
 著凊瘼（tio̍h-tshìn-mooh）
 著吊（tio̍h-tiàu）
 著啦（tio̍h--lah）
+著我的番矣（Tio̍h guá ê huan--ah）
 著是（tio̍h-sī）
 著時（tio̍h-sî）
 著毋著（tio̍h-m̄-tio̍h）
@@ -12555,6 +13205,7 @@
 藝術品（gē-su̍t-phín）
 藝術（gē-su̍t）
 藥丸咖啡（io̍h-uân-ka-pi）
+藥仔挽會行上要緊（Io̍h-á bán ē kiânn siōng iàu-kín）
 藥妝店（io̍h-tsng-tiàm）
 藥疽（io̍h-tshi）
 藥袋仔（io̍h-tē-á）
@@ -12607,6 +13258,7 @@
 虯翼病（khiû-si̍t-pēnn | khiû-si̍t-pīnn）
 虯閣澀（khiû-koh-siap）
 虯（khiû）
+虱目魚的幼刺仔誠濟（Sat-ba̍k-hî ê iù-tshì-á tsiânn tsē）
 虱目魚肚（sat-ba̍k-hî-tōo）
 虹仔（khîng-á）
 虹彩（khīng-tshái）
@@ -12705,6 +13357,7 @@
 蟲包（thâng-pau）
 蟲空（thâng-khang）
 蟲豸（thâng-thuā）
+蟳仔管較有肉（Tsîm-á-kóng khah ū bah）
 蟳味條（tsîm-bī-liâu）
 蟳味簽（tsîm-bī-tshiam）
 蟶呢（than--ni）
@@ -12746,6 +13399,7 @@
 行政院長（hîng-tsìng-īnn-tiúnn）
 行政院（hîng-tsìng-īnn）
 行敢若飛（kiânn-kánn-ná-pue | kiânn-kánn-ná-pe）
+行李請你小共我看一下（Hîng-lí tshiánn lí sió kā guá khuànn--tsi̍t-ē）
 行櫥（kiânn-tû）
 行毋知路（kiânn m̄-tsai-lōo）
 行毋著路（kiânn m̄-tio̍h lōo）
@@ -12795,6 +13449,7 @@
 表情文字（piáu-tsîng-bûn-jī）
 表情符號（piáu-tsîng-hû-hō）
 衫仔店（sann-á-tiàm）
+衫去滒著豆油（Sann khì kō-tio̍h tāu-iû）
 衫吊仔（sann-tiàu-á）
 衫弓仔（sann-king-á）
 衫架仔（sann-kè-á）
@@ -12810,6 +13465,7 @@
 袂䆀（bē-bái）
 袂上目（buē-tsiūnn-ba̍k）
 袂伨得（bē thīn tit）
+袂使利用職權做私人的代誌（Bē-sái lī-iōng tsit-khuân tsò su-jîn ê tāi-tsì）
 袂使哭（bē-sái khàu）
 袂使無（bē-sái bô）
 袂使笑（bē-sái tshiò）
@@ -12856,6 +13512,7 @@
 袂曉講話（bē-hiáu kóng-uē）
 袂曉踅鹿角（bē-hiáu se̍h lo̍k-kak）
 袂曉轉彎（buē-hiáu tńg-uan）
+袂曉轉踅一下！（Bē-hiáu tńg-se̍h--tsi̍t-ē!）
 袂曉通衰（bē-hiáu thang sue）
 袂曉駛船嫌溪彎（bē-hiáu sái-tsûn hiâm khe uan）
 袂曉駛船嫌溪狹（bē-hiáu sái-tsûn hiâm khe e̍h）
@@ -12891,6 +13548,7 @@
 袂見眾得（bē-kìnn-tsìng-tit）
 袂見笑（bē-kiàn-siàu | buē-kiàn-siàu）
 袂見袂笑（bē-kiàn-bē-siàu）
+袂講蓋好（Bē kóng kài hó）
 袂講袂呾（bē kóng bē tànn）
 袂變竅（bē-piàn-khiàu）
 袂赴市（bē-hù-tsī）
@@ -12952,6 +13610,7 @@
 褲袋（khòo-tē）
 褲襪仔（khòo bue̍h-á）
 褲跤全是鬼（khòo-kha tsuân-sī kuí）
+褲跤放放咧，褲才袂傷短（Khòo-kha pàng-pàng--leh, khòo tsiah bē siunn té）
 褸碎（luí-tshuì）
 褸褸碎碎（luí-luí-tshuì-tshuì）
 襉絨仔花（kíng-jiông-á-hue）
@@ -12975,7 +13634,10 @@
 西港仔（Sai-káng-á）
 西港（Sai-káng）
 西湖（Sai-ôo）
+西照日的厝較燒熱（Sai-tsiò-ji̍t ê tshù khah sio-jua̍h）
 西瓜倚大爿（si-kue uá tuā-pîng）
+西瓜愛到分才會甜（Si-kue ài kàu-hun tsiah ē tinn）
+西瓜著愛著時才會好食（Si-kue tio̍h-ài tio̍h-sî tsiah ē hó-tsia̍h）
 西瓜（se-kue）
 西米露（sai-bí-lōo）
 西藏自治區（Se-tsōng Tsū-tī-khu）
@@ -13008,6 +13670,7 @@
 見著錢著變點（kìnn-tio̍h tsînn tio̍h piàn-tiám）
 見講（kiàn kóng）
 見鬼司公白賊戲（kìnn kuí sai-kong pe̍h-tsha̍t hì）
+規公司的代誌攏是伊咧摠頭（Kui kong-si ê tāi-tsì lóng sī i teh tsáng-thâu）
 規半晡（kui puànn-poo）
 規嚾規黨（kui-uang-kui-tóng）
 規四界（kui-sì-kè）
@@ -13021,7 +13684,9 @@
 規腹火（kui-pak-hué | kui-pak-hé）
 規身軀汗（kui-sin-khu-kuānn）
 規身軀軟膏膏（kui-sin-khu nńg-kô-kô）
+規間厝恬靜無聲（Kui king tshù tiām-tsīng bô-siann）
 規陣（kui-tīn）
+規領衫皺襞襞（Kui niá sann jiâu-phé-phé）
 覓仔（ba̍h-á）
 覓搭覓搭（bā-tah bā-tah）
 覓雞仔（bā-kere-á）
@@ -13180,6 +13845,7 @@
 調色盤（tiâu-sik-puânn）
 調解委員會（tiâu-kái uí-uân-huē）
 談戀愛（tâm luân-ài）
+請逐家恬恬聽我講（Tshiánn ta̍k-ke tiām-tiām thiann guá kóng）
 請鬼醫病（tshiánn kuí i-pēnn）
 諍喙（tsènn-tshuì）
 諒必（liōng-pit | liāng-pit）
@@ -13194,6 +13860,7 @@
 諸島（tsu-tó）
 諸暨（Tsu-kì）
 諾（--hioh）
+諾，原來是按呢喔！（Hioh, guân-lâi sī án-ne--ooh!）
 謔人節（gio̍h-lâng-tseh）
 謗瀆（pòng-to̍k）
 講一个影，生一个囝（Kóng tsi̍t ê iánn, senn tsi̍t ê kiánn）
@@ -13202,7 +13869,9 @@
 講一改（kóng tsi̍t kái）
 講三十三天外（kóng sann-tsa̍p-sann thinn-guā）
 講三色話，食四面風（kóng sam sik uē, tsia̍h sì-bīn hong）
+講予伊知（Kóng hōo i tsai）
 講五四三的（kóng gōo-sì-sann--ê）
+講來講去，總講一句，是你毋著（Kóng lâi kóng khì, tsóng-kóng tsi̍t kù, sī lí m̄-tio̍h）
 講十三天外（kóng tsa̍p-sann thinn-guā）
 講千講萬（kóng tshing kóng bān）
 講古（káng-kóo）
@@ -13233,6 +13902,7 @@
 講話無照理路（kong-uē bô-tsiàu lí-lōo）
 講話無關後尾門（kóng-uē bô kuainn āu-bué-muî）
 講話袂畏寒（kóng-uē bē uì-kuânn）
+講起來話頭長啦！（Kóng--khí-lâi uē-thâu tn̂g--lah!）
 講風頭話（kóng hong-thâu-uē）
 謝長廷（Siā Tiông-tîng）
 謝雪紅（Siā Suat-hông）
@@ -13336,6 +14006,7 @@
 豸（thuā | tí | tsāi）
 豹頭（pà-thâu）
 貂帽（tiau-bō）
+貓仔上佮意臭臊的（Niau-á siōng kah-ì tshàu-tsho--ê）
 貓仔司奶（niau-á-sai-nai）
 貓仔奴（niau-á-lôo）
 貓仔枋（niau-á-pang）
@@ -13378,6 +14049,7 @@
 貴州省（Kuì-tsiu-síng）
 貴州（Kuì-tsiu）
 貴氣（kuì-khì）
+買一條袚鍊送伊（Bé tsi̍t tiâu phua̍h-liān sàng--i）
 買一送一（mái-it-sòng-it）
 買物（bé-bu̍t）
 買空（bé-khang）
@@ -13424,6 +14096,7 @@
 賣菜的（bē-tshài--ê | buē-tshài--ê）
 賣袂去（bē bē khì | buē buē khì）
 賣銅鑼（Bē-tâng-lô）
+賣雜細，搖玲瑯鼓（Bē tsa̍p-sè, iô lin-long-kóo）
 賤人（tsiān-jîn）
 賤（tsiān）
 質子（tsit-tsú）
@@ -13437,6 +14110,7 @@
 賽夏族（sài-hā-tso̍k）
 賽普勒斯（Sài-phóo-li̍k-su）
 贈與稅（tsīng-ú suè）
+贊聲喝好（Tsàn-siann huah hó）
 贊聲隊（tsàn-siann-tuī）
 贊聲（tsàn-siann）
 贔屭（pī-hí）
@@ -13549,6 +14223,7 @@
 趁七用十一（thàn tshit īng tsap-it）
 趁十一，開十七（thàn tsa̍p it, khai tsa̍p tshit）
 趁墟（thàn-hi | thàn-hu）
+趁有夠本就好收擔矣（Thàn ū-kàu-pún tō hó siu-tànn--ah）
 趁無夠用（thàn bô-kàu īng）
 趁錢予我開（thàn-tsînn hōo guá khai）
 趁食人（thàn-tsia̍h-lâng）
@@ -13628,6 +14303,7 @@
 跋落來（pua̍h lo̍h-lâi）
 跋落枕（pua̍h-lo̍h-tsím）
 跍便（khû-piān）
+跍咧食飯真歹看（Khû teh tsia̍h pn̄g tsin pháinn-khuànn）
 跑車碌路（pháu-tshia-li̍k-lōo）
 跑酷（pháu-khok）
 跑馬（pháu-má）
@@ -13655,6 +14331,7 @@
 跤手無清氣（kha-tshiú bô tshing-khì）
 跤手猛（kha-tshiú mé）
 跤手賤（kha-tshiú tsiān）
+跤手遮緊，隨予你搩幾若塊（Kha-tshiú tsiah kín, suî hōo lí kiat kuí-nā tè）
 跤手（kha-tshiú）
 跤指頭仔（kha-tsíng-thâu-á）
 跤指頭公（kha-tsíng-thâu kong）
@@ -13666,6 +14343,7 @@
 跤梢的（kha-sau--ê）
 跤梢（kha-sau）
 跤步手路（kha-pōo tshiú-lōo）
+跤步踏差啥人無？（Kha-pōo ta̍h-tsha siánn-lâng bô?）
 跤步踏差（kha-pōo-ta̍h-tsha）
 跤毛（kha-moo）
 跤焦手焦（kha ta tshiú ta）
@@ -13827,6 +14505,7 @@
 車頂面（tshia-tíng-bīn）
 車鼓陣（tshia-kóo-tīn）
 車鼓（tshia-kóo）
+軍中操練真辛苦（Kun-tiong tshau-liān tsin sin-khóo）
 軍事資料（kun-sū tsu-liāu）
 軍官鵰（Kun-kuann-tiau）
 軍帽（kun-bō）
@@ -13852,6 +14531,7 @@
 軸線（ti̍k-suànn）
 較低（khah kē）
 較公道閣佛仔（khah kong-tō koh hu̍t-á）
+較加嘛會感冒（Khah-ke mā ē kám-mōo）
 較大（khah-tōa）
 較好（khah-hó）
 較恬風（khah tiām-hong | khah tiām-huang）
@@ -13905,7 +14585,6 @@
 輸入法（su-ji̍p-hoat）
 輸甲貼貼（su-kah tah-tah）
 輸贏（su-iânn）
-輸送帶（khong-pé-á）
 輾仔鞋（lián-á-ê）
 輾天車（liàn-thian-tshia）
 輾床（liàn-tshn̂g）
@@ -13930,10 +14609,12 @@
 轎仔（kiau-á）
 辛丑年（sin-thiú-nî）
 辛丑（sin-thiú）
+辛勞咧咒懺無錢（Sin-lô teh tsiù-tshàm bô tsînn）
 辛勞（sin-lô）
 辛巴威（Sin-pa-ui）
 辛烷值（sin-uân-ti̍t）
 辛烷（sin-uân）
+辛苦囉！歇睏一下（Sin-khóo--looh! Hioh-khùn--tsi̍t-ē）
 辛苦病疼（sin-khóo pēnn-thiànn）
 辜振甫（Koo Tsín-hú）
 辟邪（phik-siâ）
@@ -13952,6 +14633,7 @@
 迎新送舊（ngiâ-sin-sàng-kū）
 迎神明（ngiâ-sîn-bîng）
 迎風面（ngiâ-hong-bīn）
+近來生活較快活（Kīn-lâi sing-ua̍h khah khuìnn-ua̍h）
 近爿的（kīn-pîng--ê）
 近端的（kīn-tuan--ê）
 迒境電商（hānn-kíng-tiān-siong）
@@ -13977,6 +14659,7 @@
 退潮（thè-tiâu）
 送中（sàng-tiong）
 送做堆（sàng-tsò-tui | sàng-tsuè-tui）
+送嫁較媠新娘（Sàng-kè khah suí sin-niû）
 送定（sàng-tiānn）
 送山頭（sàng-suann-thâu）
 送批員（sàng-phue-uân）
@@ -14004,11 +14687,18 @@
 透身大汗（thàu sin tuā-kuānn）
 透風（thàu-hong）
 透鬢鬍（thàu-pìn-hôo）
+逐个人攏誠佮意古錐的動物（Ta̍k ê lâng lóng tsiânn kah-ì kóo-tsui ê tōng-bu̍t）
+逐个佇遐排隊，是為著欲買票（Ta̍k ê tī hia pâi-tuī, sī uī-tio̍h beh bé phiò）
 逐家來學台語（ta̍k-ke lâi o̍h Tâi-gí）
+逐家來鬥卸貨（Ta̍k-ke lâi tàu sià-huè）
+逐家咧開講，講甲笑咍咍（Ta̍k-ke teh khai-káng, kóng kah tshiò-hai-hai）
 逐家好（ta̍k-ke-hó）
+逐家對伊的印象真好（Ta̍k-ke tuì i ê ìn-siōng tsin hó）
 逐家攏真歡喜（ta̍k-ke lóng tsin huann-hí）
 逐家落水平平沉（ta̍k-ke lo̍h-tsuí pênn-pênn tîm）
+逐家講笑爾爾（Ta̍k-ke kóng-tshiò niā-niā）
 逐工（ta̍k-kang）
+逐擺看著伊攏微微仔笑（Ta̍k-pái khuànn-tio̍h i lóng bî-bî-á tshiò）
 逐擺（ta̍k-pái）
 逐條路（ta̍k tiâu lōo）
 逐水草四界蹛（jiok-tsuí-tsháu-sì-kè-tuà）
@@ -14016,31 +14706,112 @@
 逐項逐款（ta̍k-hāng-ta̍k-khuán）
 逗點（tōo-tiám）
 這世人（tsit-sì-lâng）
+這个人看著戇直戇直（Tsit ê lâng khuànn-tio̍h gōng-ti̍t-gōng-ti̍t）
 這个偌濟錢（tsit-ê guā-tsē tsînn）
+這个六月冬稻仔誠飽穗（Tsit ê la̍k-gue̍h-tang tiū-á tsiânn pá-suī）
+這个囡仔號名未？（Tsit ê gín-á hō-miâ--buē?）
+這个囡仔誠精光（Tsit ê gín-á tsiânn tsing-kong）
 這个幾箍銀（tsit ê kuí khoo gîn）
+這个所在真暗毿，我心內膽膽（Tsit ê sóo-tsāi tsin àm-sàm, guá sim-lāi tám-tám）
+這个所在真閃風（Tsit ê sóo-tsāi tsin siám-hong）
+這个所在誠狹（Tsit ê sóo-tsāi tsiânn e̍h）
+這个時鐘走精去矣（Tsit ê sî-tsing tsáu-tsing--khì--ah）
+這个消息敢有確實？（Tsit ê siau-sit kám ū khak-si̍t?）
+這个湯頭的滋味袂䆀（Tsit ê thng-thâu ê tsu-bī bē-bái）
 這个物件（Tsit ê mi̍h-kiānn）
+這个禮物有合伊的意（Tsit ê lé-bu̍t ū ha̍h i ê ì）
+這个袂使，彼个毋通（Tsit ê bē-sái, hit ê m̄-thang）
+這个頭家猶真少年（Tsit ê thâu-ke iáu tsin siàu-liân）
 這久（tsit-kú）
+這件代誌你莫捒予我（Tsit kiānn tāi-tsì lí mài sak hōo--guá）
+這件代誌咱有需要參詳一下！（Tsit kiānn tāi-tsì lán ū su-iàu tsham-siông--tsi̍t-ē!）
+這件代誌我共伊回掉矣（Tsit kiānn tāi-tsì guá kā i huê-tiāu--ah）
+這件代誌會做得（Tsit kiānn tāi-tsì ē-tsò--tit）
+這件代誌欲按怎做據在你（Tsit kiānn tāi-tsì beh án-tsuánn tsò kì-tsāi--lí）
+這件代誌毋著的人是你（Tsit kiānn tāi-tsì m̄-tio̍h ê lâng sī lí）
+這件代誌的原因佮結果（Tsit kiānn tāi-tsì ê guân-in kah kiat-kó）
+這件代誌（Tsit kiānn tāi-tsì）
+這兩个皮包仔（Tsit nn̄g ê phuê-pau-á）
 這加問的（tse ke-mn̄g--ê）
+這包仔拄炊好，燒滾滾，趁燒緊食（Tse pau-á tú tshue hó, sio-kún-kún, thàn-sio kín tsia̍h）
+這台車已經載盡磅矣（Tsit tâi tshia í-king tsài tsīn-pōng--ah）
+這台車猶會使騎（Tsit tâi tshia iáu ē-sái khiâ）
+這塊尿苴仔誠臭尿薟（Tsit tè jiō-tsū-á tsiânn tshàu-jiō-hiam）
+這塊布的色緻真媠（Tsit tè pòo ê sik-tī tsin suí）
+這塊布的花草我誠佮意（Tsit tè pòo ê hue-tsháu guá tsiânn kah-ì）
+這塊玉仔干焦是中等的貨色（Tsit tè gi̍k-á kan-na sī tiong-tíng ê huè-sik）
+這塊盤仔有缺角（Tsit tè puânn-á ū khih-kak）
+這塊碗較深，會使貯較濟湯（Tsit tè uánn khah tshim, ē-sái té khah tsè thng）
 這字（tsit jī）
+這對雙生仔到底啥人是啥人（Tsit tuì siang-senn-á tàu-té siánn-lâng sī siánn-lâng）
+這尾魚仔煎了有赤（Tsit bué hî-á tsian liáu ū tshiah）
+這尾魚猶閣活咧！（Tsit bué hî iáu-koh ua̍h--leh!）
+這層代誌咱頂過已經講過矣！（Tsit tsân tāi-tsì lán tíng-kuè í-king kóng--kuè--ah!）
+這帖藥仔會用得去傷解鬱（Tsit thiap io̍h-á ē-īng-tit khì-siong-kái-ut）
 這我一定吉（Tse guá it-tīng kiat）
+這搭有一个大商場（Tsit-tah ū tsi̍t ê tuā siong-tiûnn）
+這搭無橋，愛蹽溪仔過去（Tsit-tah bô kiô, ài liâu khe-á kuè--khì）
+這擺我存死欲佮伊拚（Tsit pái guá tshûn-sí beh kah i piànn）
+這擺的機會是拄䢢拄䢢（Tsit pái ê ki-huē sī tú-tshiāng-tú-tshiāng）
+這支筆寫著㧎㧎（Tsit ki pit siá-tio̍h khê-khê）
 這改（tsit-kái）
 這斗掰著，著食到冬尾（tsit-táu pué tio̍h, tio̍h tsia̍h-kàu tang-bué）
 這斗（tsit-táu）
+這是咱這組的問題（Tse sī lán tsit tsoo ê būn-tê）
 這是啥物（tse sī siánn-mi̍h）
 這是阮兜（tse sī gún tau）
 這是（tse sī）
 這時（tsit-sî）
+這曷著講？（Tse a̍h-tio̍h kóng?）
+這本冊的內容真淺（Tsit pún tsheh ê luē-iông tsin tshián）
+這枝刀仔誠利（Tsit ki to-á tsiânn lāi）
+這枝柱仔傷細枝，接載袂牢（Tsit ki thiāu-á siunn sè ki, tsih-tsài bē tiâu）
+這條小路真歹行（Tsit tiâu sió-lōo tsin pháinn kiânn）
+這條山路真狹（Tsit tiâu suann-lōo tsin e̍h）
+這條歌你會曉唱無？（Tsit tiâu kua lí ē-hiáu tshiùnn--bô?）
+這條路傷狹，袂當相閃車（Tsit tiâu lōo siunn e̍h, bē-tàng sio-siám-tshia）
+這條路就變甲真歹行（Tsit tiâu lōo tō piàn kah tsin pháinn kiânn）
+這條路斜對東爿去（Tsit tiâu lōo tshua̍h tuì tang-pîng--khì）
+這條路透車頭（Tsit tiâu lōo thàu tshia-thâu）
+這欉樹仔有三尋大（Tsit tsâng tshiū-á ū sann siâm tuā）
 這款人（tsit khuán lâng）
+這款小事敢通去麻煩伊？（Tsit khuán sió-sū kám thang khì mâ-huân--i?）
+這款貴參參的物件（Tsit khuán kuì-som-som ê mi̍h-kiānn）
+這港水真大港（Tsit káng tsuí tsin tuā káng）
 這溪無魚別溪釣（tsit khe bô hî pa̍t khe tiò）
+這物件閣新新，真好脫手（Tse mih-kiānn koh sin-sin, tsin hó thuat-tshiú）
 這番（tsit huan）
+這種無情理的話（Tsit tsióng bô tsîng-lí ê uē）
+這種粗俗物仔，加買加了錢（Tsit tsióng tshoo-siok-mih-á, ke bé ke liáu-tsînn）
 這種跤數（tsit tsióng kha-siàu）
+這站仔真落衰（Tsit-tsām-á tsin lo̍h-sue）
 這站仔（tsit-tsām-á）
+這箱柑仔予恁去分（Tsit siunn kam-á hōo lín khì pun）
+這粒梨仔看著真飽水（Tsit lia̍p lâi-á khuànn-tio̍h tsin pá-tsuí）
+這粒蚶仔袂開喙，莫食較好（Tsit lia̍p ham-á bē khui-tshuì, mài tsia̍h khah hó）
+這聲代誌歹紡矣（Tsit-siann tāi-tsì pháinn pháng--ah）
+這藥仔抹落去，真緊就會退癀矣（Tse io̍h-á buah--lo̍h-khì, tsin kín tō ē thè-hông--ah）
 這跡（tsit jiah）
 這路尾（tsit lōo-bué）
+這通食無？（Tse thang tsia̍h--bô?）
+這間厝裝潢了袂䆀（Tsit king tshù tsong-hông liáu bē-bái）
+這間店的生理真交易（Tsit king tiàm ê sing-lí tsin ka-ia̍h）
+這間電影院的設備真周全（Tsit king tiān-iánn-īnn ê siat-pī tsin tsiu-tsuân）
+這項代誌我嘛無法度（Tsit hāng tāi-tsì guá mā bô huat-tōo）
+這項物件你欲挃無？（Tsit hāng mih-kiānn lí beh ti̍h--bô?）
+這項物件我感覺無啥物特別的（Tsit hāng mi̍h-kiānn guá kám-kak bô siánn-mih ti̍k-piat--ê）
+這領衫料無好，穿著繃繃（Tsit niá sann liāu bô hó, tshīng-tio̍h penn-penn）
+這領衫的線路車了有媠（Tsit niá sann ê suànn-lōo tshia liáu ū suí）
+這領衫穿起來傷縛（Tsit niá sann tshīng--khí-lâi siunn pa̍k）
 這首歌真好聽（tsit siú kua tsin hó-thiann）
 這馬幾點（tsit-má-kuí-tiám）
 這馬症頭已經誠嚴重矣
+這馬開始欲趁大錢囉！（Tsit-má khai-sí beh thàn tuā tsînn--looh!）
+這馬閣猶未消（Tsit-má koh iáu-buē siau）
 這馬（tsím）
+這鼎糜煮了傷泔（Tsit tiánn muê tsú liáu siunn ám）
+這鼎肉我滷規下晡，芳絳絳（Tsit tiánn bah guá lóo kui ē-poo, phang-kòng-kòng）
+這齣電影我若像捌看過（Tsit tshut tiān-iánn guá ná-tshiūnn bat khuànn--kuè）
 通世界（thong-sè-kài）
 通參考（thang tsham-khó）
 通告（thong-kò）
@@ -14061,6 +14832,7 @@
 速速（sok-sok）
 逢甲（Hông-kah）
 連假（liân-ká）
+連半个人影嘛無（Liân puànn ê lâng-iánn mā bô）
 連戰（Liân Tsiàn）
 連接空（liân-tsiap-khang）
 連接體（liân-tsiap-thé）
@@ -14070,8 +14842,10 @@
 連線電動（liân-suànn tiān-tōng）
 連線（liân-suànn）
 連續劇（liân-sio̍k-kio̍k）
+連胡蠅都飛袂入去（Liân hôo-sîn to pue bē ji̍p--khì）
 連鞭就來（liâm-mi tō-lâi）
 連鞭有連鞭無（liâm-mi ū liâm-mi bô）
+連鞭欲做風颱矣！（Liâm-mi beh tsò-hong-thai--ah!）
 連鞭，連鞭（liâm-pinn, liâm-pinn）
 進一步（tsìn-tsi̍t-pōo）
 進前（tsìn-tsîng）
@@ -14135,6 +14909,9 @@
 遏制（at-tsè | at-tsì）
 遏泔（at-ám）
 遏米糕（at bí-ko）
+遐傷細位，這跤櫃仔囥袂落去（Hia siunn sè-uī, tsit kha kuī-á khǹg bē lo̍h--khì）
+遐的數就準拄好矣（Hia-ê siàu tō tsún-tú-hó--ah）
+遐的果子予你食（Hia-ê kué-tsí hōo lí tsia̍h）
 道林紙（tō-lîm-tsuá）
 道理（tō-lí）
 道瓊工業指數（Tō-khîng kang-gia̍p-tsí-sòo）
@@ -14166,8 +14943,11 @@
 遨（ngôo）
 遮挪法（Tsia-ná-huat）
 遮是佗位（tsia sī tó-uī）
+遮是佗位？（Tsia sī tó-uī?）
 遮濟（tsiah tsē）
 遮爾（tsiah-nī）
+遮的花愛沃水（Tsia-ê hue ài ak-tsuí）
+遮的菜尾攏共包起來（Tsia-ê tshài-bué lóng kā pau--khí-lâi）
 遮的（tsua--ê）
 遮瞞（jia-muâ | lia-muâ）
 遮遮掩掩（jia-jia-iám-iám）
@@ -14190,6 +14970,7 @@
 遼寧省（Liâu-lîng-síng）
 避孕（pī-īn | pī-ūn）
 避走（phiah-tsáu）
+邀請伊來參加活動（Iau-tshiánn i lâi tsham-ka ua̍h-tāng）
 還在（huân-tsāi）
 邊仔人（pinn-á-lâng）
 邊仔墘人（pinn-á-kînn-lâng）
@@ -14221,6 +15002,7 @@
 郵船（iû-tsûn）
 郵輪（iû-lûn）
 郵送投票（iû-sàng tâu-phiò）
+都來到半中站矣（To lâi kàu puànn-tiong-tsām--ah）
 都市倯（too-tshī-sông）
 都市傳說（to-tshī-thuân-suat）
 都更（too-king）
@@ -14265,6 +15047,7 @@
 酸民（suan-bîn）
 酸牛奶膏（sng-gû-ling-ko）
 酸牛奶（sng-gû-ling）
+酸的物件我較無銷（Sng ê mih-kiānn guá khah bô-siau）
 酸糾糾（sng kiù kiù）
 酸素瓶（sng-sòo-pân）
 酸素矸（sng-sòo-kan）
@@ -14278,6 +15061,8 @@
 醋酸（tshòo-sng）
 醫學會（i-ha̍k-huē）
 醫師（i-su）
+醫生咧共伊挽喙齒（I-sing teh kā i bán tshuì-khí）
+醫生講伊這个病會好也袂斷根（I-sing kóng i tsit ê pēnn ē hó iā bē tn̄g-kin）
 醫療紀念館（i-liâu Kì-liām-kuán）
 醫館（i-kuán）
 醮（tsiàu）
@@ -14350,6 +15135,7 @@
 金金相（kim-kim siòng）
 金金看（kim-kim khuànn）
 金錢仔（kim-tsînn-á）
+金錢毋是萬能的（Kim-tsînn m̄ sī bān-lîng--ê）
 金錢薄荷（kim-tsînn po̍h-hô | kim-tsínn po̍k-hô）
 金門毋認同安，臺灣毋認唐山（Kim-mn̂g m̄-jīn Tâng-uann, Tâi-uân m̄-jīn Tn̂g-suann）
 金閃閃（kim-siám-siám）
@@ -14438,6 +15224,7 @@
 錢單（tsînn-tuann）
 錢大百，人落肉（tsînn tuā pah, lâng lo̍h bah）
 錢有力（tsînn ū-la̍t）
+錢有夠用就好（Tsînn ū-kàu īng tō hó）
 錢本（tsînn-pún）
 錢根（tsînn-kin）
 錢桮（tsînn-pue）
@@ -14448,6 +15235,7 @@
 錢無兩个袂霆（tsînn bô nn̄g-ê bē tân）
 錢無力（tsînn bô-la̍t）
 錢無好趁（tsînn bô-hó thàn）
+錢無經過我的手（Tsînn bô king-kuè guá ê tshiú）
 錢牢咧（tsînn tiâu--leh）
 錢票（tsînn-phiò）
 錢筒仔（tsînn-tâng-á）
@@ -14577,6 +15365,7 @@
 長頷龜龍（Tn̂g-ām-ku-liông）
 長髮（tiông-huat）
 長鬚狐（Tn̂g-tshiu-hôo）
+門傷重，愛瞪力才捒會開（Mn̂g siunn tāng, ài tènn-la̍t tsiah sak ē khui）
 門口埕發草（muî-kháu-tiânn huat-tsháu）
 門喙口（muî tshuì kháu）
 門將（mn̂g-tsiòng）
@@ -14625,6 +15414,7 @@
 開花滿天芳，結子才驚人（khui-hue muá-thinn phang, kiat-tsí tsiah kiann-lâng）
 開講室（khai-káng-sik）
 開講間（khai-káng-king）
+開錢若開水（Khai-tsînn ná khai tsuí）
 開關切仔（khai-kuan tshiat-á）
 開電火（khui tiān-hué）
 開頂車（khui-tíng-tshia）
@@ -14632,6 +15422,7 @@
 開（khai）
 閏秒（jūn-bió）
 閒仔話（îng-á-uē）
+閒閒無代誌，罔行嘛好（Îng îng bô tāi-tsì, bóng kiânn mā hó）
 間接稅（kàn-tsiap-suè | kàn-tsiap-sè）
 間斷（kàinn-tn̄g | kàn-tn̄g）
 間日的瘧疾（kàn-ji̍t ê gio̍k-tsi̍t）
@@ -14651,7 +15442,9 @@
 閣再（koh-tsài）
 閣愛閣怨慼（koh ài koh uàn-tsheh）
 閣有（koh ū）
+閣毋起來，你會袂赴（Koh m̄--khí-lâi, lí ē bē-hù）
 閣流喙瀾（koh lâu-tshuì-nuā）
+閣講嘛是無彩工（Koh kóng mā sī bô-tshái-kang）
 閣較（koh-khah）
 閣（koh）
 閩中語（Bân-tiong-gí | Bân-tiong-gú）
@@ -14694,16 +15487,28 @@
 關門（kuainn-mn̂g | kuinn-muî）
 關電火（kuainn tiān-hué | kuinn tiān-hué）
 闞（khàm）
+阮下晡佇學校相拄搪（Guán ē-poo tī ha̍k-hāu sio tú-tn̄g）
+阮先生生做真緣投（Guán sian-sinn senn-tsò tsin iân-tâu）
+阮兜是阮阿爸咧扞鼎灶（Guán tau sī guán a-pah teh huānn-tiánn-tsàu）
+阮兜的代誌我家己會處理（Guán tau ê tāi-tsì guá ka-kī ē tshú-lí）
 阮兜（guán-tau | gún-tau）
+阮兩个人相出路，無拄著（Guán nn̄g ê lâng sio-tshut-lōo, bô tú--tio̍h）
+阮囝今年二十出頭矣（Guán kiánn kin-nî jī-tsa̍p tshut-thâu--ah）
+阮囝嘛咧欲歇寒矣（Guán kiánn mā teh-beh hioh-kuânn--ah）
 阮太太（guán thài-thài）
+阮小弟的風吹牢佇樹仔頂（Guán sió-tī ê hong-tshue tiâu tī tshiū-á-tíng）
 阮最近欲畢業矣（guán tsuè-kīn beh pit-gia̍p--ah）
 阮會曉唸（guán | gún ē-hiáu liām）
 阮朋友（gún pîng-iú）
 阮爸（gún pâ）
+阮的圖書館有真濟藝文活動（Guán ê tôo-su-kuán ū tsin tsē gē-bûn ua̍h-tāng）
 阮祖公（gún tsóo-kong）
 阮翁（guán ang | gún ang）
 阮老爸（gún lāu-pē）
+阮這个庄頭的交通真無方便（Guán tsit ê tsng-thâu ê kau-thong tsin bô hong-piān）
+阮這間厝是欲租人做徛家的（Guán tsit king tshù sī beh tsoo lâng tsò khiā-ke--ê）
 阮阿公（gún a-kong）
+阮阿媽提豆粕去飼豬（Guán a-má the̍h tāu-phoh khì tshī ti）
 防彈少年團（hông-tān-siáu-liân-thuân）
 防曝膏（hông-pha̍k-ko）
 防曝（hông-pha̍k）
@@ -14713,6 +15518,7 @@
 阻卻違法事由（tsóo-khiok uî-huat sū-iû）
 阿修羅（A-siu-lô）
 阿公店（A-kong-tiàm）
+阿公透早就去壅田矣（A-kong thàu-tsá tō khì ìng tshân--ah）
 阿六仔（A-la̍k-á）
 阿勃仔（a-pu̍t-á）
 阿勇伯（A-ióng-peh）
@@ -14743,6 +15549,8 @@
 阿根廷（A-kin-tîng | A-kun-tîng）
 阿母惜的（a-bú-sioh--ê）
 阿母惜（a-bú-sioh）
+阿母氣甲袂講話，干焦直直捶心肝（A-bú khì kah bē kóng-uē, kan-na ti̍t-ti̍t tuî sim-kuann）
+阿母當咧曝棉襀被（A-bú tng-teh pha̍k mî-tsioh-phuē）
 阿母跤躼（a-bú-kha-lò）
 阿母（a-bú）
 阿沙不魯（a-sa-puh-luh）
@@ -14751,8 +15559,11 @@
 阿祖（a-tsóo）
 阿罩霧（A-tà-bū）
 阿美族（A-bí-tso̍k）
+阿美的目睭真大蕊（A-bí ê ba̍k-tsiu tsin tuā luí）
 阿舍囝（a-sià-kiánn）
 阿舍（a-siā）
+阿英仔真好笑神（A-ing--á tsin hó-tshiò-sîn）
+阿英仔誠歹命（A-ing--á tsiânn pháinn-miā）
 阿蓮（A-lian）
 阿西（a-se）
 阿輝伯（A-hui-peh）
@@ -14866,6 +15677,7 @@
 隘寮下（Ài-liâu-ē）
 隨个仔隨个（suî-ê-á-suî-ê）
 隨予白（suî-hōo-pe̍h）
+隨人的物件，隨人做記號（Suî lâng ê mi̍h-kiānn, suî lâng tsò kì-hō）
 隨來（suî-lâi）
 隨備（suî-pī）
 隨字讀（suî-jī-tha̍k）
@@ -14900,6 +15712,7 @@
 集點卡（tsi̍p-tiám-khá）
 雌雄眼（tshú hiông gán）
 雍正（Iong-tsìng）
+雖然恁是好朋友，嘛毋通傷靠俗（Sui-jiân lín sī hó pîng-iú, mā m̄-thang siunn khò-siok）
 雙人床（siang-jîn-tshn̂g）
 雙冠龍（siang-kuan-liông）
 雙刀草猴（Siang-to-tsháu-kâu）
@@ -14933,6 +15746,7 @@
 雜貨仔店（tsa̍p-huè-á-tiàm）
 雜頭（tsa̍p-thâu）
 雜魚（tsa̍p-hî | tsa̍p-hû）
+雞仔咯咯叫（Ke-á kok-kok-kiò）
 雞仔災（kue-á-tse | ke-á-tse）
 雞仔腸，鳥仔肚（ke-á tn̂g, tsiáu-á tōo）
 雞仔鴨仔講袂通（ke-á ah-á kóng bē-thong）
@@ -14942,6 +15756,7 @@
 雞卵糕（ke-nn̄g-ko）
 雞卵麭（ke-nńg-pháng）
 雞卵（kue-nňg | kere-nňg | kue-nuī | ke-nuī）
+雞去剁剁咧通好食（Ke khì tok-tok--leh thang-hó tsia̍h）
 雞啼（ke-thî）
 雞喌仔（ke-tsû-á）
 雞喙變鴨喙（ke-tshuì-piàn-ah-tshuì | kue-tshuì-piàn-ah-tshuì）
@@ -14956,7 +15771,6 @@
 雞核仔（ke-hu̍t-á | kue-hu̍t-á）
 雞核（ke-hu̍t）
 雞母狗仔（ke-bó káu-á）
-雞母𤆬（ke-bó tshuā）
 雞毛管仔（ke-moo-kóng-á）
 雞毛踢仔（ke-moo that á）
 雞油龜（kue-iû-ku | ke-iû-ku | kere-iû-ku）
@@ -14973,6 +15787,7 @@
 雞肉糋（ke-bah-tsìnn | kue-bah-tsìnn）
 雞肉角（ke-bah-kak）
 雞胗（kue-kiān）
+雞胘滷來食，滋味真好（Ke-kiān lóo lâi tsia̍h, tsu-bī tsin hó）
 雞胸肉（ke-hing-bah | kue-hing-bah）
 雞胿仙（ke-kui-sian | kue-kui-sian）
 雞胿球（ke-kui-kiû）
@@ -15016,6 +15831,7 @@
 雨神（hōo-sîn）
 雨站（hōo-tsām）
 雨笠（hōo-le̍h | hōo-lue̍h）
+雨落遮爾大，我看會做大水（Hōo lo̍h tsiah-nī tuā, guá khuànn ē tsò-tuā-tsuí）
 雨點仔（hōo-tiám-á）
 雪尪仔（seh-ang-á）
 雪帽（seh-bō）
@@ -15147,6 +15963,7 @@
 電視台（tiān-sī-tâi）
 電視捘仔（tiān-sī tsūn á）
 電解質（tiān-kái-tsit）
+電話的線路歹去矣（Tiān-uē ê suànn-lōo pháinn--khì--ah）
 電車頭（tiān-tshia-thâu）
 電車驛（tiān-tshia-ia̍h）
 電車（tiān-tshia）
@@ -15174,6 +15991,7 @@
 霜凍（sng-tàng）
 霜寒雪凍（sng kuânn seh tàng）
 霜庫逝（sng-khòo-tsuā）
+霜風一直對門縫貫入來（Sng-hong it-ti̍t tuì mn̂g-phāng kǹg--ji̍p-lâi）
 霞浦（Hâ-phóo）
 霧嗄嗄（bū-sà-sà）
 霧泡（bū-pho）
@@ -15216,6 +16034,7 @@
 青盲怨壁（tshenn-mê-uàn-piah）
 青盲雞啄著蟲（tshenn-mê ke tok tio̍h thâng | tshinn-mî kue tok tio̍h thâng）
 青盲（tshenn-mê）
+青翠的草埔，予人看著真爽快（Tshenn-tshuì ê tsháu-poo, hōo lâng khuànn-tio̍h tsin sóng-khuài）
 青色（tshenn-sik）
 青花仔菜（tshenn hue-á-tshài）
 青花菜（tshenn-hue-tshài）
@@ -15240,6 +16059,7 @@
 面冊（bīn-tsheh）
 面善（bīn-siān）
 面壁思過（bīn-piah su-kò）
+面巾搵予澹（Bīn-kin ùn hōo tâm）
 面帕（bīn-phè）
 面憂面皺（bīn-iu-bīn-jiâu）
 面憂面結（bīn-iu-bīn-kat）
@@ -15303,6 +16123,7 @@
 頁面（ia̍h bīn）
 頂一站仔（tíng-tsi̍t-tsām-á）
 頂個月（tíng-kè-gue̍h）
+頂冬的收成袂䆀（Tíng-tang ê siu-sîng bē-bái）
 頂半工（tíng-puànn-kang）
 頂半晝仔（tíng-puànn-tàu-á）
 頂半晡（tíng-puànn-poo）
@@ -15370,6 +16191,8 @@
 頭人（thâu-lâng）
 頭仔心（thâu-á-sim）
 頭仔興興，尾仔冷冷（thâu-á hìng-hìng bué-á líng-líng）
+頭前徛一枝電火柱仔（Thâu-tsîng khiā tsi̍t ki tiān-hué-thiāu-á）
+頭前是死路（Thâu-tsîng sī sí-lōo）
 頭前（thâu-tsîng）
 頭喙少（thâu-tshuì tsió）
 頭喙（thâu-tshuì）
@@ -15379,7 +16202,10 @@
 頭場（thâu-tiûnn）
 頭子（thâu-jí）
 頭家仔囝（thâu-ke-á-kiánn）
+頭家出去收數矣（Thâu-ke tshut-khì siu-siàu--ah）
 頭家媽（thâu-ke-má）
+頭家欲倩兩个辛勞（Thâu-ke beh tshiànn nn̄g ê sin-lô）
+頭家真器重伊（Thâu-ke tsin khì-tiōng--i）
 頭寸（thâu-tshùn）
 頭尾歲（thâu-bué-huè | thâu-bé-hè）
 頭尾（thâu-bué）
@@ -15406,9 +16232,11 @@
 頭殼衝煙（thâu-khak tshìng-ian）
 頭殼貯屎（thâu-khak té sái）
 頭殼（thâu-khak）
+頭毛無捋會聳聳（Thâu-mn̂g bô luah ē tshàng-tshàng）
 頭毛箍仔（thâu-moo khoo-á）
 頭毛精（thâu-mn̂g-tsing）
 頭毛聳聳（thâu-moo tshàng-tshàng）
+頭毛菜誠輕秤（Thâu-mn̂g-tshài tsiânn khin-tshìn）
 頭毛菜（thâu-moo-tshài）
 頭毛（thâu-mn̂g）
 頭燒耳熱（thâu-sio-hīnn-jua̍h）
@@ -15454,7 +16282,6 @@
 額度針（hia̍h-tōo-tsiam）
 額頭度針（hia̍h-thâu-tōo-tsiam）
 額頭骨（hia̍h-thâu-kut）
-額𩟗（hia̍h-tsiánn）
 額（hia̍h）
 顏回（Gân Huê）
 顏寬恆（Gân Khuan-hông）
@@ -15534,6 +16361,7 @@
 飛𥐵仔（hui-phiat-á）
 食中晝頓（tsia̍h-tiong-tàu-tuìnn）
 食中晝（tsia̍h tiong-tàu）
+食了傷脹（Tsia̍h liáu siunn tiùnn）
 食予死較贏死無食（tsia̍h hōo sí khah iânn sí bô tsia̍h）
 食予肥肥，激予槌槌（tsia̍h hōo puî-puî kik hōo thuî-thuî）
 食人一口，還人一斗（tsia̍h-lâng tsi̍t-kháu, hîng-lâng tsi̍t-táu）
@@ -15575,9 +16403,12 @@
 食無錢飯（tsia̍h-bô-tsînn-pn̄g | tsia̍h-bô-tsînn-puīnn）
 食爐（tsia̍h-lôo）
 食牢咧（tsia̍h tiâu leh）
+食物一定愛清氣，才有衛生（Si̍t-bu̍t it-tīng ài tshing-khì, tsiah ū uē-sing）
+食物仔到喙口才交落去（Tsia̍h-mi̍h-á kàu tshuì-kháu tsiah ka-la̍uh--khì）
 食物件（tsia̍h mi̍h-kiānn）
 食物橐仔（tsia̍h-mi̍h-lok-á）
 食狗蟻獸（tsia̍h-káu-hiā-siù）
+食甲老老老（Tsia̍h kah lāu-lāu-lāu）
 食甲飽（tsia̍h kah pá）
 食目（tsia̍h-ba̍k）
 食真飽（tsia̍h tsin pá）
@@ -15597,7 +16428,9 @@
 食菜食甲肚臍為界（tsia̍h-tshài tsia̍h kah tōo-tsâi uî-kài）
 食落去（tsia̍h--lo̍h-khì）
 食著羹（tsia̍h-tio̍h-kenn | tsia̍h-tio̍h-kinn）
+食薰對身體無好（Tsia̍h-hun tuì sin-thé bô hó）
 食薰（tsia̍h-hun）
+食藥仔愛配滾水（Tsia̍h io̍h-á ài phuè kún-tsuí）
 食藥仔（tsia̍h io̍h-á）
 食藥（tsia̍h io̍h）
 食蟻獸（tsia̍h-hiā-siù）
@@ -15633,6 +16466,7 @@
 飯丸仔（pn̄g-uân-á | puīnn-uân-á）
 飯匙銃（Pn̄g-sî-tshìng）
 飯匙鵝（puīnn-sî-gô | pn̄g-sî-gô）
+飯坩囥佇桌頂（Pn̄g-khann khǹg tī toh-tíng）
 飯焦（pn̄g-ta）
 飯煎（pn̄g-tsian）
 飯（huān | pn̄g）
@@ -15651,6 +16485,7 @@
 飽流（pá-lâu）
 餅幼仔（piánn-iù-á）
 餅碎（piánn-tshuì）
+餅袋仔愛封喙，餅才袂潤去（Piánn tē-á ài hong-tshuì, piánn tsiah bē jūn--khì）
 餅麩（piánn-hu）
 餅𩛩（piánn-kauh）
 養殖業（ióng-si̍t-gia̍p）
@@ -15734,8 +16569,8 @@
 騎湧（khiâ-íng）
 騎王爺馬（khiâ ông-iâ bé）
 騎虎容易下虎難（khiâ-hóo iông-ī hā hóo lân）
+騎車愛掛喙罨（Khiâ tshia ài kuà tshuì-am）
 騎車細膩（khiâ-tshia sè-jī）
-騎鐵馬𤆬你踅海岸（khiâ thih-bé tshuā lí se̍h hái-huānn）
 騎馬仔囊（khiâ-bé-á long）
 騎（gî | khî | khiâ）
 騙喙（phiàn-tshuì）
@@ -16069,6 +16904,7 @@
 麻園寮（Muâ-hn̂g-liâu）
 麻婆豆腐（muâ-pô-tāu-hū）
 麻少翁（muâ-siáu-ong）
+麻煩你斡對倒手爿去（Mâ-huân lí uat uì tò-tshiú-pîng--khì）
 麻糊（muâ-kôo）
 麻糍角（muâ-tsî-kak）
 麻芛（muâ-ínn）
@@ -16268,28 +17104,7 @@
 𡢃仔（kán-á）
 𡢃婢（kán-pī | kán-pi）
 𡢃（kán）
-𤆬我去（tshuā guá khì）
-𤆬歹（tshuā-pháinn）
-𤆬狗散步（tshuā káu sàn-pōo）
-𤆬班（tshuā-pan）
-𤆬路冊（tshuā-lōo-tsheh）
-𤆬路機（tshuā-lōo-ki）
-𤆬路狗（tshuā-lōo-káu）
-𤆬路（tshuā-lōo）
-𤆬頭（tshuā-thâu）
-𤆬（tshuā）
+𤶃仔發甲規面（Thiāu-á puh kah kui bīn）
 𧿬踏民主（thún-ta̍h bîn-tsú）
-𨑨迌仔（thit-thô-á | tshit-thô-á）
-𨑨迌印仔（tshit-thô-ìn-á）
-𨑨迌物仔店（tshit-thô-mih-á-tiàm）
-𨑨迌物仔（tshit-thô mih-á）
-𨑨迌物節（tshit-thô-mi̍h-tsiat）
-𨑨迌王（tshit-thô-ông）
-𨑨迌者（tshit-thô-tsiá）
-𨑨迌設施（tshit-thô | thit-thô siat-si）
-𨑨迌車（tshit-thô-tshia）
-𨑨迌銃（tshit-thô-tshìng）
-𨑨迌鎖匙（tshit-thô-só-sî）
-𨑨迌（tshit-thô | thit-thô）
 𪁎膏（tshio-ko）
 𪁎趒（tshio-tiô | tshio-tîo）

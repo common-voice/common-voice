@@ -1246,6 +1246,7 @@ Am Vortag hatte sie noch helle Momente.
 Am Wasserkraftwerk kam Hanno dann doch etwas ins Grübeln.
 Am Weihnachtsbaum hing eine bunte Lichterkette.
 Am Wochenende bin ich ein Mofa, halb Mensch, halb Sofa.
+Am Wochenende fühlte ich mich wieder antriebslos und verbrachte die Zeit vor dem Fernseher.
 Am Wochenende geben sich hier die Stars der Filmbranche die Klinke in die Hand.
 Am Wochenende ist das Angeln sein allerliebster Zeitvertreib.
 Am Wochenende können wieder Vögel gezählt werden.
@@ -3116,6 +3117,7 @@ Bitte hör dir deine eigene Aufnahme an, bevor du sie abschickst.
 Bitte ins Röhrchen blasen.
 Bitte kein Chilli drauf machen.
 Bitte keine Häschenwitze!
+Bitte keine Klammern vorlesen!
 Bitte keine derben Schimpfwörter.
 Bitte kommen!
 Bitte krümel nicht alles voll.
@@ -19766,6 +19768,7 @@ Keine Bewegung, sie handeln nur noch auf meine Anweisung!
 Keine Branche schreibt so komplizierte und lange Geschäftsbedingungen wie Geldinstitute.
 Keine Chance für den Torhüter!
 Keine Frau bringt heimlich, still und leise ein Kind zur Welt.
+Keine Klammern vorlesen!
 Keine Liebe ist auch keine Lösung.
 Keine Macht den Schildkröten!
 Keine Masseurin ist älter als fünfundzwanzig, versprochen!
@@ -19892,6 +19895,7 @@ Kiwi sind lecker.
 Kiwi werden in Neuseeland angebaut.
 Klagenfurt, oder in voller Länge Klagenfurt am Wörthersee genannt, ist die größte Stadt Kärntens.
 Klammern Sie sich nicht an diese eine Technologie.
+Klammern in den Sätzen werden nicht vorgelesen!
 Klamotten müsste ich auch mal wieder kaufen.
 Klamotten und Haare riechen nach Feuer.
 Klappe zu, Affe tot.
@@ -31135,6 +31139,7 @@ Wenn man sich unsicher ist, orientiert man sich an anderen.
 Wenn man sie biegt, darf man einen gewissen Biegeradius nicht unterschreiten.
 Wenn man sie ungleichmäßig anzieht, eiert das Rad hinterher.
 Wenn man sonst den ganzen Tag allein zu Hause hockt, ist es ein Erlebnis.
+Wenn man spricht, würde man gedachte Klammern auch nicht aussprechen.
 Wenn man ständig unterwegs ist, fehlt einem manchmal die Ruhe.
 Wenn man von der Ölindustrie verhätschelt wird, heisst es dann schön den Mund halten.
 Wenn man zum Beispiel jemanden sprechen hört, erreichen einen die Wellen mit Schallgeschwindigkeit.
