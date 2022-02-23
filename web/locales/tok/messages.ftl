@@ -1130,6 +1130,7 @@ sc-howto-addlang-text = sina kama kepeken sijelo ilo la, sina ken kepeken toki w
 sc-howto-addsen-title = o pana e sitelen sin
 sc-howto-addsen-item-1 = sitelen ale sina o kepeken <wikipediaLink>nasin pana CC0</wikipediaLink>. sina pana e sitelen pi nasin pana ni ala la, o kepeken <cc0WaiverLink>nasin pana ante ni</cc0WaiverLink>. ni la sina ken pana e sitelen pi jan ale ala.
 sc-howto-addsen-item-2 = nanpa la, o pana ala e nanpa lon sitelen pana. ona li ken pakala e toki jan. lon toki ante la, nimi nanpa li ken ante. ni la, nanpa li ken nasa e kulupu sona.
+sc-howto-addsen-item-4 = sitelen lili pini la, o kepeken ona lon tenpo lili. toki pona li kepeken ala ni lon insa nimi. sina wile kepeken sitelen lili pini la, ni li ken pona. taso, o kepeken lili ona.
 sc-howto-addsen-item-5 = sitelen pi toki ante. o kepeken ala sitelen pi toki ante. o lukin: sitelen lili “ж” li tan toki Losi. taso, ona li lon ala toki pona. tan ni la, o kepeken ala ona.
 sc-howto-addsen-item-6 = toki li ken jo e <validationRulesLink>nasin pona ante</validationRulesLink>. toki li jo ala e ona la, ona li kepeken nasin pona pi toki Inli.
 sc-howto-addsen-post-1 = mi wile e toki tan tenpo pona sina. kalama ante en nimi ante li pona la, musi pi awen kalama li pona nanpa wan. ni la, o lili e sitelen sina, o pona e sitelen sina.
