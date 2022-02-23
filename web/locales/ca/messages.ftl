@@ -336,6 +336,8 @@ profile-form-additional-language =
     .label = Llengua addicional
 profile-form-language =
     .label = Llengua
+profile-form-variant =
+    .label = Quina variant de { $language } parleu?
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
@@ -387,6 +389,7 @@ off = Desactivat
 on = Activat
 help-accent = Us cal ajuda sobre els accents?
 help-accent-explanation = L'accent és la forma com pronuncieu les paraules. Es pot crear a partir dels llocs on heu viscut, quines altres llengües parleu i molts altres factors. Podeu compartir aquí qualsevol informació que considereu rellevant.
+help-variants = Us cal ajuda amb les variants?
 
 ## Profile - Email
 
@@ -920,15 +923,15 @@ finish-editing = Voleu acabar d'editar?
 lose-changes-warning = Si ho deixeu ara, es perdran tots els canvis
 build-custom-goal = Crea un objectiu personalitzat
 help-reach-hours-pluralized =
-    Ajudeu a arribar a { NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } hores
-    }en { $language } amb un objectiu personal
+    { NUMBER($hours) ->
+        [one] Ajudeu a arribar a { $hours } hora en { $language } amb un objectiu personal
+       *[other] Ajudeu a arribar a { $hours } hores en { $language } amb un objectiu personal
+    }
 help-reach-hours-general-pluralized =
-    Ajudeu al Common Voice a arribar a{ NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } hores
-    }en una llengua amb un objectiu personal
+    { NUMBER($hours) ->
+        [one] Ajudeu al Common Voice a arribar a{ $hours } hora en una llengua amb un objectiu personal
+       *[other] Ajudeu al Common Voice a arribar a{ $hours } hores en una llengua amb un objectiu personal
+    }
 set-a-goal = Defineix un objectiu
 cant-decide = No sabeu què fer?
 activity-needed-calculation-plural =
