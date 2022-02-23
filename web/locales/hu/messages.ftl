@@ -344,6 +344,7 @@ profile-form-language =
     .label = Nyelv
 profile-form-variant =
     .label = A(z) { $language } melyik változatát beszéli?
+profile-form-variant-default-value = Nincs kiválasztva változat
 profile-form-accent =
     .label = Akcentus
 profile-form-custom-accent-help-text =
