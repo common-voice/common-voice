@@ -1,5 +1,9 @@
 import * as React from 'react';
-import { Localized } from '@fluent/react';
+import {
+  Localized,
+  withLocalization,
+  WithLocalizationProps,
+} from '@fluent/react';
 
 import { NATIVE_NAMES } from '../../../../../services/localization';
 import { LabeledSelect } from '../../../../ui/ui';
@@ -7,7 +11,6 @@ import { UserLanguage } from 'common';
 import { VariantsAll } from './languages';
 
 const DEFAULT_OPTION_VALUE = '';
-
 interface InputLanguageVariantProps {
   locale: string;
   variantsAll: VariantsAll;
@@ -15,25 +18,26 @@ interface InputLanguageVariantProps {
   setUserLanguages: (userLanguages: UserLanguage[]) => void;
 }
 
-function getUserLanguageVariant(userLanguages: UserLanguage[], locale: string) {
-  const userLanguage = userLanguages.find(language => {
-    return language.locale === locale;
-  });
-
-  if (!userLanguage?.variant) {
-    return DEFAULT_OPTION_VALUE;
-  }
-
-  return userLanguage.variant.id;
-}
-
 const InputLanguageVariant = ({
   locale,
   variantsAll,
   userLanguages,
   setUserLanguages,
-}: InputLanguageVariantProps) => {
+  getString: getLocalizedString,
+}: InputLanguageVariantProps & WithLocalizationProps) => {
   const variants = variantsAll[locale];
+
+  const getUserLanguageVariant = () => {
+    const userLanguage = userLanguages.find(language => {
+      return language.locale === locale;
+    });
+
+    if (!userLanguage?.variant) {
+      return DEFAULT_OPTION_VALUE;
+    }
+
+    return userLanguage.variant.id;
+  };
 
   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     event.preventDefault();
@@ -77,7 +81,7 @@ const InputLanguageVariant = ({
     return null;
   }
 
-  const selectedValue = getUserLanguageVariant(userLanguages, locale);
+  const selectedValue = getUserLanguageVariant();
   const language = NATIVE_NAMES[locale];
 
   return (
@@ -86,7 +90,9 @@ const InputLanguageVariant = ({
       attrs={{ label: true }}
       vars={{ language }}>
       <LabeledSelect value={selectedValue} onChange={handleChange}>
-        <option value={DEFAULT_OPTION_VALUE} />
+        <option value={DEFAULT_OPTION_VALUE}>
+          {getLocalizedString('profile-form-variant-default-value')}
+        </option>
         {variants.map(({ id, name }) => (
           <option key={id} value={id}>
             {name}
@@ -97,4 +103,4 @@ const InputLanguageVariant = ({
   );
 };
 
-export default InputLanguageVariant;
+export default withLocalization(InputLanguageVariant);

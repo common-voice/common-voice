@@ -341,6 +341,7 @@ profile-form-language =
     .label = Language
 profile-form-variant =
     .label = Which variant of { $language } do you speak?
+profile-form-variant-default-value = No variant selected
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =

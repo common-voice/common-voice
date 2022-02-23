@@ -66,7 +66,7 @@ describe('InputLanguageVariant', () => {
     expect(mockSetUserLanguage).toBeCalledTimes(1);
   });
 
-  it('should remove item if selecting empty option', async () => {
+  it('should remove item if selecting default option', async () => {
     const filledMockUserLanguages = [
       { locale: 'cy', accents: [] },
       {
@@ -88,10 +88,10 @@ describe('InputLanguageVariant', () => {
       />
     );
 
-    // pick empty option
+    // pick default option
     userEvent.selectOptions(
       screen.getByLabelText('Which variant of Português do you speak?'),
-      screen.getByRole('option', { name: '' })
+      screen.getByRole('option', { name: 'No variant selected' })
     );
 
     const expectedLanguages = [
