@@ -346,6 +346,7 @@ profile-form-language =
     .label = Rěč
 profile-form-variant =
     .label = Kotru wariantu rěče { $language } rěčiće?
+profile-form-variant-default-value = Žana warianta wubrana
 profile-form-accent =
     .label = Akcent
 profile-form-custom-accent-help-text =
