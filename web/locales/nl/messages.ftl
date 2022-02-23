@@ -336,6 +336,8 @@ profile-form-additional-language =
     .label = Extra taal
 profile-form-language =
     .label = Taal
+profile-form-variant =
+    .label = Welke variant van { $language } spreekt u?
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
@@ -387,6 +389,8 @@ off = Uit
 on = Aan
 help-accent = Hulp nodig met accent?
 help-accent-explanation = Uw accent is de manier waarop u woorden uitspreekt. Het kan worden gevormd door waar u hebt gewoond, welke andere talen u spreekt en tal van andere factoren. U kunt hier alle informatie delen die u relevant vindt.
+help-variants = Hulp nodig bij varianten?
+help-variants-explanation = Varianten zijn een specifieke vorm van een taal – bijvoorbeeld gesproken door mensen die in een gebied of gemeenschap wonen. Soms worden dit dialecten genoemd.
 
 ## Profile - Email
 
