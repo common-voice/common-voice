@@ -578,6 +578,7 @@ about-playbook-how-record-content-5 = <accuracyLink>sona sin pi pona toki</accur
 about-playbook-how-grow-language = seme la mi ken suli e toki lon ilo Common Voice?
 about-playbook-how-grow-language-content-1 = jan mute li ken pana tawa ilo Common Voice la, kulupu sona li ken e wile pi jan mute. ni la mi pali e lipu sona tawa sina!
 about-playbook-how-grow-language-content-2 = tenpo suli
+about-playbook-how-grow-language-content-3 = sina ken tenpo pali pi jan pana! ni li pona mute. sina ken kepeken ilo kulupu toki. ona li pona la, sina ken pali lon poka jan. <eventTemplate>o lukin e lipu sona pi tenpo pali</eventTemplate>.
 about-playbook-how-grow-language-content-4 = kulupu pi jan toki
 about-playbook-how-grow-language-content-5 = sina ken kepeken kulupu pi jan mute tawa toki pi ilo ni! o pana e toki pi nasin ilo. o toki tawa jan ante lon toki mute ni: pona toki en ilo kalama toki en nasin ike ilo. o lukin e <campaignLink>lipu pi kulupu toki pona</campaignLink>. ona li jo e toki la sina ken kepeken ona.
 about-playbook-how-grow-language-content-6 = jan poka en kulupu
@@ -589,6 +590,7 @@ about-playbook-how-grow-language-content-8 = <strong>o pali pona!</strong> kulup
 about-playbook-how-validate = nasin seme la mi sona e pona pi kalama toki?
 about-playbook-how-validate-content-1 = sina ken <strong>kute</strong> e ona, li ken <strong>sona</strong> e toki ona, <strong>o pona e ona</strong>.
 about-playbook-how-validate-content-2 = <strong>jan toki li kepeken e nasin kalama ante la, o weka ala e ona.</strong> nasin kalama mute la, ilo ken pali pona tawa jan ale.
+about-playbook-how-validate-content-3 = sina <strong>ken ala sona</strong> e toki tan nasin kalama, tan <strong>kalama monsi mute</strong>, tan <strong>toki pi jan ante</strong> la, o weka e kalama. <accuracyLink>o lukin e sona pi kalama pona</accuracyLink>.
 about-playbook-how-validate-content-4 = kalama awen li weka tan jan 2 la, ilo li pana e ona tawa kulupu sona ante.
 
 ## How to access dataset
