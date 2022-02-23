@@ -347,6 +347,7 @@ profile-form-language =
     .label = toki
 profile-form-variant =
     .label = sina toki kepeken nasin seme pi { $language }?
+profile-form-variant-default-value = sina kepeken ala nasin toki
 profile-form-accent =
     .label = nasin kalama toki
 profile-form-custom-accent-help-text =
@@ -596,6 +597,7 @@ about-playbook-how-validate-content-4 = kalama awen li weka tan jan 2 la, ilo li
 ## How to access dataset
 
 about-playbook-how-access-dataset = mi lukin e sona ale pi ilo Common Voice kepeken nasin seme?
+about-playbook-how-access-dataset-content-1 = sina tawa <datasetsPage>lipu pi kulupu sona</datasetsPage> la, sina ken kama jo e kulupu sona tan toki wile, tan nanpa wile. kulupu sona li jo e sona pi jan mute, e sona pona. sina o pana e nimi pi poki lipu sina la sina ken kama jo e kulupu sona.
 about-playbook-how-access-dataset-content-2 = sina alasa e ilo pali pi ilo ASR la, o toki tawa jan ante kulupu <discourseLink>lon ilo Discourse</discourseLink>.
 
 ## How are decisions made
@@ -634,6 +636,7 @@ de-identified-explanation = ni li nasin weka pi sona jan tan kulupu sona Common 
 error-title-404 = mi ken ala alasa e lipu ni tawa sina
 error-content-404 = ken la, o lukin e <homepageLink>lipu open mi</homepageLink>. sina wile e sona la, o kama tawa <matrixLink>ilo Matrix</matrixLink>, o lukin e lipu pakala lon <githubLink>ilo Github</githubLink>, o lukin e <discourseLink>ilo Discourse</discourseLink>.
 error-title-503 = mi pakala. mi lon ala lon tenpo ni. nasin la mi sona ala.
+error-content-503 = lipu li kama pona lon tenpo kama lili. sona sin la, o tawa <matrixLink>kulupu Matrix</matrixLink>. o tawa <githubLink>ilo Github</githubLink>. o tawa <discourseLink>ilo Discourse</discourseLink>. ale ni la sina ken pana e sona pakala. sina ken sona e pakala lipu.
 error-code = pakala { $code }
 
 ## Data
