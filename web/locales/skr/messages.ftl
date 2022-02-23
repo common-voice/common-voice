@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = جیا، میکوں ای میلاں بھیڄو۔ میں کامن وائس منصوبے بارے باخبر رہݨ چاہساں۔
 return-to-cv = Common Voice  تے واپس ون٘ڄو
 email-input =
     .label = ای میل
