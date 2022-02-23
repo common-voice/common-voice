@@ -562,6 +562,7 @@ about-playbook-how-localize-content-5 = sina wile e pona la, o lukin e sitelen t
 ## How to add sentences
 
 about-playbook-how-add-sentences = nasin seme la mi ken pana e sitelen?
+about-playbook-how-add-sentences-content-2 = jan tu o pona e sitelen la, sitelen li pana tawa kulupu sona Common Voice. sina pali e nasin pona pi toki sina <languageGuidelinesLink>lon lipu ni</languageGuidelinesLink>. sitelen <licenseLink>o tawa jan mute, o open</licenseLink>. sitelen o kepeken nimi 14 anu lili. o toki tawa jan sitelen la, ona li ken kepeken <waiverLink>lipu ni</waiverLink>, li ken pana e sitelen ona kepeken nasin open. ona li ken pana e lipu tawa poki lipu commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = sina ken kepeken <scraperLink>ilo pi nimi tan</scraperLink>. ona la sina ken kama jo e sitelen tan lipu Wikipedia.
 about-playbook-how-add-sentences-content-4 = toki li pona la, mi pana insa e ona lon tenpo suno nanpa tu wan pi tenpo suno. mi pana e ona lon ilo lon tenpo pi pana weka kalama.
 
@@ -997,6 +998,7 @@ download-request-modal-title = nasin nimi pi kama jo
 download-request-modal-description = ni li nimi nasin pi poki lipu ZIP sina.
 download-request-link-text = poki lipu ZIP #{ $offset } tan { $total }
 download-request-metadata-link = nimi sitelen
+download-request-link-single = sina ken pana e nimi nasin tawa ilo kama jo sina. nimi nasin li moli lon tenpo suli 12 pini. lon lipu ni la sina ken pali e nimi nasin sin lon tenpo ale.
 
 ## Landing
 
