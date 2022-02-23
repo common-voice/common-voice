@@ -466,6 +466,10 @@ faq-is-account-public-q = sona pi lipu mi li len ala len?
 faq-how-privacy-q = jan li pana e kalama toki la jan ni li len kepeken nasin seme?
 faq-how-privacy-a = kalama awen pi kulupu sona li jo ala e sona jan. jan li pana e kalama e sona ona la, mi weka e sona tan kalama awen ona. kalama awen li lon ala lipu jan ona.
 faq-what-determine-identity-q = ni li seme: mi ken ala sona e jan toki pi kulupu sona Common Voice
+faq-what-determine-identity-a =
+    kulupu sona pi ilo Common Voice li tawa jan ale. jan ale li ken kepeken ona, li ken pali e ilo kute e ilo toki kepeken ona. jan li kama jo e kulupu sona la, ona li ken ala sona e jan pi kulupu sona.
+    
+    kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina alasa ala sona e jan pi kulupu sona. ni la, sina ken ala kepeken kulupu sona tawa sona jan. ante la, sina ken pali e ilo kute, e ilo toki, e ilo ante kepeken kulupu sona pi ilo Common Voice.
 faq-what-is-cv = ilo Common Voice li seme?
 faq-using-cv = o kepeken ilo Common Voice
 faq-description = ilo Common Voice la kulupu Mozilla li wile pana e sona pi toki uta jan tawa ilo.
@@ -475,6 +479,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ilo Common Voice li tan seme?
+about-header-description-v2 = kulupu sona Common Voice li tawa jan ale. jan mute li pana e toki uta ona. jan ni li wile pali e ilo. tenpo ni la, kulupu mani li jo e kulupu sona mute. jan ale li ken ala kepeken ona la, jan li ken ala pali. kulupu sona li jo mute e toki uta pi jan Inli, e toki uta pi jan Kokasijan. ni la, ilo toki en ilo kute li ken ala tawa toki ante, li ken ala tawa jan ante. jan mute li pana e toki ona la, ni li ken ante.
 how-does-it-work-title-v2 = ilo Common Voice li pali kepeken nasin seme?
 how-does-it-work-text = mi kulupu e kalama toki tan jan. o pana e kalama toki sina. o pona e kalama toki pi jan ante. o pona e kulupu sona.
 
