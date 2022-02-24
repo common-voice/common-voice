@@ -554,7 +554,14 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> کلپ
     }
 record-cta = رکارڈنگ شروع کرو
+record-must-allow-microphone = مائیکروفون دی رسائی دی تہاݙی اجازت ضروری ہے۔
+record-no-mic-found = کوئی مائیکروفون کائنی لبھا۔
+record-error-too-short = ایہ رکاڈنگ ٻہوں چھوٹی ہائی۔
+record-error-too-long = ایہ رکاڈنگ ݙاڈھی لمبی ہائی۔
+record-error-too-quiet = ایہ رکاڈنگ ݙاڈھی چُپ ہائی۔
 record-cancel = ولدا رکارڈنگ منسوخ کرو
+record-instruction = { $actionType }<recordIcon></recordIcon> وت اُچی آواز نال جملہ پڑھو
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> جہڑے ویلے تھی ون٘ڄے
 record-last-instruction = <recordIcon></recordIcon> چھیکڑی!
 share-clip = آپݨاں کلپ شیئر کرو
 share-common-voice = Common Voice شیئر کرو
