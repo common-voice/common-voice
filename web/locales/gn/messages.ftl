@@ -93,6 +93,7 @@ ki = Kenia ñe’ẽ
 kk = Kazakh ñe’ẽ
 km = Ñe’ẽ Jemer
 kmr = Kurmanji Kurdish ñe’ẽ
+knn = Konkani (Devanagari)
 ko = Corea ñe’ẽ
 kpv = Komi-Zyrian ñe’ẽ
 kw = Cornish ñe’ẽ
