@@ -607,9 +607,14 @@ contribution-activity = حصے داری دی سرگرمی
 top-contributors = اہم معاونین
 recorded-clips = رکاڈ تھئے کلپ
 validated-clips = تصدیق تھئے کلپ
+total-approved = کل منظور تھئے
+overall-accuracy = مجموعی درستگی
+set-visibility = میݙی رویت مقرر کرو
+show-ranking = میݙی رینکنگ ݙکھاؤ
 
 ## Custom Goals
 
+get-started-goals = ہدفاں نال شروع کرو
 both-speak-and-listen = ݙون٘ہیں
 daily-goal = ݙین٘ہ وار مقصد
 weekly-goal = ہفتہ وار مقصد
@@ -640,6 +645,8 @@ profile-form-delete = پرفائل مٹاؤ
 ## Profile Download
 
 download-q = آپݨا ڈیٹا ڈاؤن لوڈ کرݨ دی لوڑ ہے؟
+download-profile-title = پروفائل
+download-profile-size = کجھ بائٹ
 download-recordings-title = ریکارڈنگز
 download-size = سائز
 download-selected = چُݨا ہویا
@@ -713,39 +720,79 @@ sc-logout-button = لاگ آؤٹ
 
 ## HOW-TO
 
+sc-howto-title = کین٘ویں
+sc-howto-addsen-title = نویں جملے شامل کرو
+sc-howto-cite-title = حوالہ ݙیوݨ دا طریقہ
 
 ## MY SENTENCES
 
+sc-my-title = میݙے جملے
+sc-my-no-sentences = کوئی جملے کائنی لبھے!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = جمع کرواݨ: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = ماخذ:  { $source }
+sc-my-delete = چُݨے جملے مٹاؤ
+sc-my-deleting = چُݨے جملے مٹیندا پئے۔۔۔
 
 ## REJECTED
 
+sc-rejected-title = مسترد تھئے جملے
 
 ## STATS
 
+sc-stats-title = شماریات
+sc-stats-updating = اپ ڈیٹ تھیندا پئے۔۔۔
 
 ## ADD
 
+sc-submit-title = جملے شامل کرو
+sc-submit-select-language =
+    .labelText = زبان چُݨو
+sc-submit-button =
+    .submitText = جمع کرواؤ
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = زبان شامل کرو
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = تصدیق
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = کل
+sc-lang-info-title-personal = ذاتی
 
 ## LOGIN
 
+sc-login-err-failed = لاگ ان وچ ناکامی
+sc-login-err-try-again = سوہݨا ولدا کوشش کرو۔
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = پروفائل: { $username }
+sc-personal-err-lang-not-found = زبان کائنی ہٹا سڳا: زبان کائنی لبھی
+sc-personal-err-remove = زبان کائنی ہٹا سڳا
+sc-personal-your-languages = تہاݙیاں زباناں:
+sc-personal-remove-button = ہٹاؤ
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = ماخذ: { $sentenceSource }
+sc-review-form-button-reject = مسترد کرو
+sc-review-form-button-skip = چھوڑو
+sc-review-form-button-approve = منظور کرو
 
 ## SETTINGS
 
