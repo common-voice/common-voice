@@ -793,9 +793,18 @@ sc-review-form-source = ماخذ: { $sentenceSource }
 sc-review-form-button-reject = مسترد کرو
 sc-review-form-button-skip = چھوڑو
 sc-review-form-button-approve = منظور کرو
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = جیا
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = کو
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = چھوڑو
+sc-review-link = نظرثانی
 
 ## SETTINGS
 
+sc-settings-title = ترتیباں
+sc-settings-ui-language = انٹرفیس زبان
 
 # [/SentenceCollector]
 
