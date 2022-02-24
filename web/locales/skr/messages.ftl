@@ -302,6 +302,8 @@ profile-form-age =
     .label = عمر
 profile-form-gender-2 =
     .label = جنس
+leaderboard-visibility =
+    .label = لیڈر بورڈ دی نمائش
 hidden = لکا ہویا
 visible = ظاہر
 native-language =
@@ -332,6 +334,7 @@ contribution-experience = ونڳاراں دا تجربہ
 skip-submission-feedback = سب مشن فیڈبیک چھوڑ ݙیوو
 off = بند
 on = چالو
+help-accent = لہجے وچ کجھ مدد دی لوڑ ہے؟
 
 ## Profile - Email
 
@@ -346,6 +349,7 @@ max-file-size = { $kb }کےبی ودھ کنوں ودھ
 
 manage-subscriptions = سبسکرپشناں منیج کرو
 manage-email-subscriptions = ای میل سبسکرپشناں منیج کرو
+email-already-used = ای میل پہلے ہی کہیں ٻئے کھاتے کیتے ورتی ہوئی ہے۔
 add-language = زبان شامل کرو
 
 ## FAQ
@@ -353,6 +357,7 @@ add-language = زبان شامل کرو
 faq-title = اکثر پچھے ون٘ڄݨ آلے سوالات
 faq-what-cv-q = Common Voice کیا ہے؟
 faq-why-important-q = ایہ اہم کیوں ہے؟
+faq-what-cv-and-deepspeech-q = کامن وائس تے ڈیپ سپیچ وچ کیا فرق ہے؟
 faq-why-my-lang-q = میݙی زبان اڄݨ تائیں کیوں شامل کائنی؟
 faq-why-account-q = میں کھاتے کیتے سائن اپ کیوں تھیواں؟
 faq-is-account-public-q = بھلا میݙیاں کھاتہ معلومات عوامی ہن؟
@@ -398,6 +403,7 @@ about-nav-playbook = حصہ گھنݨ دا ݙا سکھو
 
 ## How does localization work
 
+about-playbook-how-localize-content-5 = مدد کیتے ساݙے وڈیو تشریح ساز ݙیکھو
 
 ## How to add sentences
 
