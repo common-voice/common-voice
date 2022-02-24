@@ -36,9 +36,6 @@ import {
   challengeTokens,
 } from 'common';
 import API from '../../services/api';
-import NotificationBanner from './../notification-banner/notification-banner';
-import { Notifications } from '../../stores/notifications';
-
 interface PropsFromState {
   locale: Locale.State;
   user: User.State;
@@ -63,70 +60,6 @@ interface LayoutState {
   showWelcomeModal: boolean;
   featureStorageKey?: string;
 }
-
-const SegmentBanner = ({
-  locale,
-  featureStorageKey,
-}: {
-  locale: string;
-  featureStorageKey: string;
-}) => {
-  const notification: Notifications.Notification = {
-    id: 99,
-    kind: 'banner',
-    content: (
-      <>
-        <Localized
-          id="target-segment-first-banner"
-          vars={{ locale: NATIVE_NAMES[locale] }}
-        />
-      </>
-    ),
-    bannerProps: {
-      storageKey: featureStorageKey,
-      links: [
-        {
-          to: URLS.SPEAK,
-          className: 'cta',
-          persistAfterClick: true,
-          children: (
-            <>
-              <TargetIcon />
-              <Localized
-                key="target-segment-add-voice"
-                id="target-segment-add-voice">
-                <div />
-              </Localized>
-            </>
-          ),
-        },
-        {
-          href:
-            locale === 'es'
-              ? URLS.TARGET_SEGMENT_INFO_ES
-              : URLS.TARGET_SEGMENT_INFO,
-          blank: true,
-          persistAfterClick: true,
-          className: 'cta external',
-          children: (
-            <>
-              <ExternalLinkIcon />
-              <Localized
-                key="target-segment-learn-more"
-                id="target-segment-learn-more">
-                <div />
-              </Localized>
-            </>
-          ),
-        },
-      ],
-    },
-  };
-
-  return (
-    <NotificationBanner key="target-segment" notification={notification} />
-  );
-};
 
 class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private installApp: HTMLElement;
@@ -248,7 +181,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       featureStorageKey,
     } = this.state;
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
-
     const pathParts = location.pathname
       .replace(/(404|503)/g, 'error-page')
       .split('/');
