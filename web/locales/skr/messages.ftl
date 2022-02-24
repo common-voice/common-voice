@@ -407,6 +407,7 @@ about-playbook-how-localize-content-5 = مدد کیتے ساݙے وڈیو تشر
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = میں فقرے کین٘ویں شامل کر سڳداں؟
 
 ## How to record quality
 
@@ -422,10 +423,13 @@ about-playbook-how-grow-language-content-6 = بھائیوالی تے نیٹ ور
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = میں ڈیٹاسیٹ تے کین٘ویں پہنچ سڳداں تے کین٘ویں ورت سڳداں؟
 
 ## How are decisions made
 
+about-playbook-how-project-governance = منصوبہ فیصلے کین٘ویں تھیندے ہن؟
 about-playbook-how-project-governance-content-3 = رازداری، حفاظت تے شفافیت۔
+about-playbook-how-project-governance-content-4 = برادری دی شرکت تے فیصلہ سازی۔
 about-playbook-how-project-governance-content-5 = قدر تے سُن٘ڄاݨ
 about-playbook-how-project-governance-content-6 = باہمی احتساب
 mycroft-title = مائی کرافٹ آئی
@@ -457,6 +461,7 @@ license = لائسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = مکس تھئے
 terms-agree = میں متفق ہاں
 terms-disagree = میں راضی کائنی
+review-submit-title = جائزہ گھنو تے جمع کرواؤ
 review-recording = نظرثانی
 review-rerecord = ولدا ریکارڈ کرو
 review-cancel = جمع منسوخ کرو
@@ -482,6 +487,7 @@ recorded-hours = ریکارڈ تھئے گھنٹے
 subscribe = سبسکرائب کرو
 get-started-speech = تقریر دی سُن٘ڄاݨ نال شروع کرو
 other-datasets = ٻئے وائس ڈیٹاسیٹس
+feedback-q = فیڈبیک ݙیسو؟
 go-discourse = ڈسکورس تے ون٘ڄو
 go-languages-page = زباناں ورقے تے ون٘ڄو
 more = ٻئے
@@ -491,6 +497,7 @@ dataset-version = ورشن
 
 ## Download Modal
 
+download-title = تہاݙی ڈاؤن لوڈ شروع تھی ڳئی ہے۔
 download-form-email =
     .label = آپݨا ای میل درج کرو
     .value = تہاݙا تھورا، اساں رابطہ کریسوں۔
@@ -541,11 +548,17 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> کلپ
        *[other] <bold>{ $count }</bold> کلپ
     }
+record-cta = رکارڈنگ شروع کرو
 record-cancel = ولدا رکارڈنگ منسوخ کرو
+record-last-instruction = <recordIcon></recordIcon> چھیکڑی!
 share-clip = آپݨاں کلپ شیئر کرو
 share-common-voice = Common Voice شیئر کرو
 clips-uploaded = اپ لوڈ تھئے کلپ
 record-abort-submit = کلپ جمع کرواؤ
+record-abort-continue = ریکارڈنگ مکمل کرو
+listen-last-time-instruction = <playIcon></playIcon>چھیکڑی ہک!
+speak-empty-state-cta = فقرے پاؤ
+record-button-label = آپݨی آواز رکاڈ کرو
 target-segment-add-voice = آپݨی آواز رلاؤ
 target-segment-learn-more = ٻیا سِکھو
 
@@ -553,6 +566,9 @@ target-segment-learn-more = ٻیا سِکھو
 
 report = رپورٹ کرو
 report-title = رپورٹ جمع کرواؤ
+report-offensive-language = بزاری زبان
+report-different-language = مختلف زبان
+report-difficult-pronounce = تلفظ کرݨ اوکھا ہے
 report-other-comment =
     .placeholder = تبصرہ
 success = کامیابی
@@ -587,6 +603,10 @@ stats = شماریات
 awards = ایوارڈ
 you = تساں
 everyone = ہرکوئی
+contribution-activity = حصے داری دی سرگرمی
+top-contributors = اہم معاونین
+recorded-clips = رکاڈ تھئے کلپ
+validated-clips = تصدیق تھئے کلپ
 
 ## Custom Goals
 
