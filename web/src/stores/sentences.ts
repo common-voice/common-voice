@@ -10,7 +10,11 @@ const MIN_CACHE_COUNT = 5;
 // eslint-disable-next-line @typescript-eslint/no-namespace
 export namespace Sentences {
   export interface State {
-    [locale: string]: { sentences: Sentence[]; isLoading: boolean };
+    [locale: string]: {
+      sentences: Sentence[];
+      isLoading: boolean;
+      hasLoadingError: boolean;
+    };
   }
 
   const localeSentences = ({ locale, sentences }: StateTree) =>
@@ -18,6 +22,7 @@ export namespace Sentences {
 
   enum ActionType {
     REFILL = 'REFILL_SENTENCES',
+    REFILL_ERROR = 'REFILL_SENTENCES_ERROR',
     REMOVE = 'REMOVE_SENTENCES',
   }
 
@@ -25,18 +30,24 @@ export namespace Sentences {
     type: ActionType.REFILL;
     sentences: Sentence[];
   }
+  interface RefillErrorAction extends ReduxAction {
+    type: ActionType.REFILL_ERROR;
+  }
 
   interface RemoveAction extends ReduxAction {
     type: ActionType.REMOVE;
     sentenceIds: string[];
   }
 
-  export type Action = RefillAction | RemoveAction;
+  export type Action = RefillAction | RefillErrorAction | RemoveAction;
 
   export const actions = {
     refill:
       () =>
-      async (dispatch: Dispatch<RefillAction>, getState: () => StateTree) => {
+      async (
+        dispatch: Dispatch<RefillAction | RefillErrorAction>,
+        getState: () => StateTree
+      ) => {
         try {
           const state = getState();
 
@@ -60,13 +71,14 @@ export namespace Sentences {
           });
         } catch (err) {
           console.error('could not fetch sentences', err);
+          dispatch({ type: ActionType.REFILL_ERROR });
         }
       },
 
     remove:
       (sentenceIds: string[]) =>
       async (
-        dispatch: Dispatch<RemoveAction | RefillAction>,
+        dispatch: Dispatch<RemoveAction | RefillAction | RefillErrorAction>,
         getState: () => StateTree
       ) => {
         dispatch({ type: ActionType.REMOVE, sentenceIds });
@@ -79,7 +91,11 @@ export namespace Sentences {
     state: State = contributableLocales.reduce(
       (state, locale) => ({
         ...state,
-        [locale]: { sentences: [], isLoading: true },
+        [locale]: {
+          sentences: [],
+          isLoading: true,
+          hasLoadingError: false,
+        },
       }),
       {}
     ),
@@ -99,6 +115,17 @@ export namespace Sentences {
               action.sentences.filter(({ id }) => !sentenceIds.includes(id))
             ),
             isLoading: false,
+            hasLoadingError: false,
+          },
+        };
+
+      case ActionType.REFILL_ERROR:
+        return {
+          ...state,
+          [locale]: {
+            sentences: [],
+            isLoading: false,
+            hasLoadingError: true,
           },
         };
 
@@ -110,6 +137,7 @@ export namespace Sentences {
               s => !action.sentenceIds.includes(s.id)
             ),
             isLoading: false,
+            hasLoadingError: false,
           },
         };
 

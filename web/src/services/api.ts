@@ -101,11 +101,11 @@ export default class API {
     return this.getLocalePath() + '/clips';
   }
 
-  fetchRandomSentences(count = 1): Promise<Sentence[]> {
+  async fetchRandomSentences(count = 1): Promise<Sentence[]> {
     return this.fetch(`${this.getLocalePath()}/sentences?count=${count}`);
   }
 
-  fetchRandomClips(count = 1): Promise<Clip[]> {
+  async fetchRandomClips(count = 1): Promise<Clip[]> {
     return this.fetch(`${this.getClipPath()}?count=${count}`);
   }
 

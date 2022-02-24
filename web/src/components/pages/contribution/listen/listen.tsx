@@ -11,13 +11,11 @@ import URLS from '../../../../urls';
 import {
   CheckIcon,
   CrossIcon,
-  MicIcon,
   OldPlayIcon,
   ThumbsDownIcon,
   ThumbsUpIcon,
   VolumeIcon,
 } from '../../../ui/icons';
-import { LinkButton } from '../../../ui/ui';
 import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
@@ -25,10 +23,12 @@ import ContributionPage, {
 import { Notifications } from '../../../../stores/notifications';
 import { PlayButton } from '../../../primary-buttons/primary-buttons';
 import Pill from '../pill';
+import ListenErrorContent from './listen-error-content';
 
 import './listen.css';
 import { User } from '@sentry/types';
 import { RouteComponentProps, withRouter } from 'react-router';
+import { Spinner } from '../../../ui/ui';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
@@ -54,6 +54,7 @@ interface PropsFromState {
   api: API;
   clips: ClipType[];
   isLoading: boolean;
+  hasLoadingError: boolean;
   locale: Locale.State;
   showFirstContributionToast: boolean;
   hasEarnedSessionToast: boolean;
@@ -267,18 +268,17 @@ class ListenPage extends React.Component<Props, State> {
   private reset = () => this.setState(initialState);
 
   render() {
-    const {
-      clips,
-      hasPlayed,
-      hasPlayedSome,
-      isPlaying,
-      isSubmitted,
-    } = this.state;
+    const { isLoading, hasLoadingError } = this.props;
+    const { clips, hasPlayed, hasPlayedSome, isPlaying, isSubmitted } =
+      this.state;
     const clipIndex = this.getClipIndex();
     const activeClip = clips[clipIndex];
+    const isMissingClips = !isLoading && (clips.length === 0 || !activeClip);
+
     return (
       <>
         <div id="listen-page">
+          {isLoading && <Spinner delayMs={500} />}
           <audio
             {...(activeClip && { src: activeClip.audioSrc })}
             preload="auto"
@@ -288,26 +288,14 @@ class ListenPage extends React.Component<Props, State> {
           <ContributionPage
             activeIndex={clipIndex}
             demoMode={this.demoMode}
+            hasErrors={!isLoading && (isMissingClips || hasLoadingError)}
             errorContent={
-              !this.props.isLoading &&
-              (clips.length === 0 || !activeClip) && (
-                <div className="empty-container">
-                  <div className="error-card card-dimensions">
-                    <Localized id="listen-empty-state">
-                      <span />
-                    </Localized>
-                    <LinkButton
-                      rounded
-                      to={this.demoMode ? URLS.DEMO_SPEAK : URLS.SPEAK}
-                      className="record-instead">
-                      <MicIcon />{' '}
-                      <Localized id="record-button-label">
-                        <span />
-                      </Localized>
-                    </LinkButton>
-                  </div>
-                </div>
-              )
+              <ListenErrorContent
+                isLoading={isLoading}
+                hasLoadingError={hasLoadingError}
+                isMissingClips={isMissingClips}
+                isDemoMode={this.demoMode}
+              />
             }
             instruction={props =>
               activeClip &&
@@ -417,6 +405,7 @@ const mapStateToProps = (state: StateTree) => {
   const {
     clips,
     isLoading,
+    hasLoadingError,
     showFirstContributionToast,
     hasEarnedSessionToast,
     showFirstStreakToast,
@@ -426,6 +415,7 @@ const mapStateToProps = (state: StateTree) => {
   return {
     clips,
     isLoading,
+    hasLoadingError,
     showFirstContributionToast,
     hasEarnedSessionToast,
     showFirstStreakToast,

@@ -13,6 +13,7 @@ export namespace Clips {
     [locale: string]: {
       clips: Clip[];
       isLoading: boolean;
+      hasLoadingError: boolean;
       showFirstContributionToast: boolean;
       showFirstStreakToast: boolean;
       hasEarnedSessionToast: boolean;
@@ -28,11 +29,15 @@ export namespace Clips {
     REFILL_CACHE = 'REFILL_CLIPS_CACHE',
     REMOVE_CLIP = 'REMOVE_CLIP',
     LOAD = 'LOAD_CLIPS',
+    LOAD_ERROR = 'LOAD_CLIPS_ERROR',
     ACHIEVEMENT = 'ACHIEVEMENT',
   }
 
   interface LoadAction extends ReduxAction {
     type: ActionType.LOAD;
+  }
+  interface LoadErrorAction extends ReduxAction {
+    type: ActionType.LOAD_ERROR;
   }
 
   interface AchievementAction extends ReduxAction {
@@ -55,6 +60,7 @@ export namespace Clips {
 
   export type Action =
     | LoadAction
+    | LoadErrorAction
     | RefillCacheAction
     | RemoveClipAction
     | AchievementAction;
@@ -63,7 +69,7 @@ export namespace Clips {
     refillCache:
       () =>
       async (
-        dispatch: Dispatch<RefillCacheAction | LoadAction>,
+        dispatch: Dispatch<RefillCacheAction | LoadAction | LoadErrorAction>,
         getState: () => StateTree
       ) => {
         const state = getState();
@@ -79,6 +85,7 @@ export namespace Clips {
 
         try {
           dispatch({ type: ActionType.LOAD });
+
           const clips = await state.api.fetchRandomClips(
             MIN_CACHE_SIZE - localeClips(state).clips.length
           );
@@ -86,7 +93,7 @@ export namespace Clips {
           dispatch({
             type: ActionType.REFILL_CACHE,
             clips: clips.map(clip => {
-              let sentence = clip.sentence;
+              const sentence = clip.sentence;
               try {
                 sentence.text = decodeURIComponent(sentence.text);
               } catch (e) {
@@ -108,6 +115,7 @@ export namespace Clips {
           if (err instanceof XMLHttpRequest) {
             dispatch({ type: ActionType.REFILL_CACHE });
           } else {
+            dispatch({ type: ActionType.LOAD_ERROR });
             throw err;
           }
         }
@@ -161,6 +169,7 @@ export namespace Clips {
         [locale]: {
           clips: [],
           isLoading: false,
+          hasLoadingError: false,
           showFirstContributionToast: false,
           showFirstStreakToast: false,
           hasEarnedSessionToast: false,
@@ -182,6 +191,16 @@ export namespace Clips {
           },
         };
 
+      case ActionType.LOAD_ERROR:
+        return {
+          ...state,
+          [locale]: {
+            ...localeState,
+            isLoading: false,
+            hasLoadingError: true,
+          },
+        };
+
       case ActionType.REFILL_CACHE: {
         const clips = localeState
           ? action.clips
@@ -198,6 +217,7 @@ export namespace Clips {
           [locale]: {
             clips: filtered,
             isLoading: false,
+            hasLoadingError: false,
             hasEarnedSessionToast: false,
             showFirstContributionToast: false,
             showFirstStreakToast: false,
