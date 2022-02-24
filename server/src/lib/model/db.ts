@@ -8,6 +8,7 @@ import { features } from 'common';
 import { TaxonomyToken, taxonomies } from 'common';
 import lazyCache from '../lazy-cache';
 const MINUTE = 1000 * 60;
+const DAY = MINUTE * 60 * 24;
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
@@ -57,26 +58,33 @@ export const getParticipantSubquery = (
   `;
 };
 
-let localeIds: { [name: string]: number };
 let termIds: { [name: string]: number };
 
-export async function getLocaleId(locale: string): Promise<number> {
-  if (locale === 'overall') return null;
-
-  if (!localeIds) {
+const queryLocales = lazyCache(
+  `get-language-id-map}`,
+  async () => {
+    console.log('cache func being called');
     const [rows] = await getMySQLInstance().query(
       'SELECT id, name FROM locales'
     );
-    localeIds = rows.reduce(
+    const localeIds = rows.reduce(
       (obj: any, { id, name }: any) => ({
         ...obj,
         [name]: id,
       }),
       {}
     );
-  }
+    return localeIds;
+  },
+  DAY
+);
 
-  return localeIds[locale];
+export async function getLocaleId(locale: string): Promise<number> {
+  if (locale === 'overall') return null;
+
+  const languageIds = await queryLocales();
+
+  return languageIds[locale];
 }
 
 export async function getTermIds(term_names: string[]): Promise<number[]> {
@@ -161,14 +169,20 @@ export default class DB {
     );
     return rows;
   }
-
+  /**
+   * Get valid and random clips per language
+   * @param languageId
+   * @param limit
+   * @returns
+   */
   async getValidClips(languageId: number, limit: number): Promise<any> {
     const [rows] = await this.mysql.query(
       `
-        SELECT *
+        SELECT c.id as clip_id, c.path as path
         FROM clips c
         LEFT JOIN sentences s ON s.id = c.original_sentence_id and c.locale_id = ?
-        WHERE c.is_valid is null
+        WHERE c.is_valid IS NULL AND s.clips_count <= 15
+        ORDER BY rand()
         limit ?
       `,
       [languageId, limit]
@@ -378,14 +392,50 @@ export default class DB {
     count: number,
     exemptFromSSRL?: boolean
   ): Promise<DBClipWithVoters[]> {
+    // get caches clips for given language
     const cachedClips = await lazyCache(
       `new-clips-per-language-${locale_id}`,
       async () => {
-        return await this.getValidClips(locale_id, 1000);
+        return await this.getValidClips(locale_id, 10000);
       },
       MINUTE
     )();
-    console.log('cache', cachedClips.length);
+
+    //filter out user clips
+    const validUserClips = cachedClips.filter(
+      //get user clip submitted clip ids
+      (row: any) => row.client_id != client_id
+    );
+
+    const [submittedUserClipIds] = await this.mysql.query(
+      `
+      SELECT clip_id
+        FROM votes
+        WHERE client_id = ?
+        UNION ALL
+        SELECT clip_id
+        FROM reported_clips reported
+        WHERE client_id = ?
+        UNION ALL
+        SELECT clip_id
+        FROM skipped_clips skipped
+        WHERE client_id = ?
+      `,
+      [client_id, client_id, client_id]
+    );
+
+    const blockedIds = new Set(submittedUserClipIds.map((s: any) => s.clip_id));
+    // const clipIds = new Set(validUserClips.map((s: any) => s.id));
+
+    const shippableClipIds = new Set(
+      validUserClips.filter((x: any) => !blockedIds.has(x.clip_id))
+    );
+
+    console.log(shippableClipIds);
+
+    //filter out user voted clips
+    //filter out user reported clips
+    //filter out user skipped clips
 
     const [clips] = await this.mysql.query(
       `
@@ -398,15 +448,15 @@ export default class DB {
         AND NOT EXISTS(
           SELECT clip_id
           FROM votes
-          WHERE votes.clip_id = clips.id AND client_id = ?
+          WHERE client_id = ?
           UNION ALL
           SELECT clip_id
           FROM reported_clips reported
-          WHERE reported.clip_id = clips.id AND client_id = ?
+          WHERE client_id = ?
           UNION ALL
           SELECT clip_id
           FROM skipped_clips skipped
-          WHERE skipped.clip_id = clips.id AND client_id = ?
+          WHERE client_id = ?
         )
         AND sentences.clips_count <= 15
         ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
@@ -428,6 +478,7 @@ export default class DB {
     for (const clip of clips) {
       clip.voters = clip.voters ? clip.voters.split(',') : [];
     }
+    console.log('clips', clips);
     return clips as DBClipWithVoters[];
   }
 
