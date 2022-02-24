@@ -358,6 +358,7 @@ faq-title = اکثر پچھے ون٘ڄݨ آلے سوالات
 faq-what-cv-q = Common Voice کیا ہے؟
 faq-why-important-q = ایہ اہم کیوں ہے؟
 faq-what-cv-and-deepspeech-q = کامن وائس تے ڈیپ سپیچ وچ کیا فرق ہے؟
+faq-why-different-speakers-q = تہاکوں ہک زبان کیتے ٻہوں سارے مختلف آلاوݨ آلیاں دی لوڑ کیوں ہے؟
 faq-why-my-lang-q = میݙی زبان اڄݨ تائیں کیوں شامل کائنی؟
 faq-why-account-q = میں کھاتے کیتے سائن اپ کیوں تھیواں؟
 faq-is-account-public-q = بھلا میݙیاں کھاتہ معلومات عوامی ہن؟
@@ -369,6 +370,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Common Voice کیوں؟
+how-does-it-work-title-v2 = کامن وائس کین٘ویں کم کریندے؟
 
 ## How does it work section
 
