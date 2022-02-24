@@ -336,6 +336,7 @@ profile-form-language =
     .label = 語言
 profile-form-variant =
     .label = 您會說 { $language } 的哪種變體？
+profile-form-variant-default-value = 未選擇變體
 profile-form-accent =
     .label = 腔調
 profile-form-custom-accent-help-text =
