@@ -1,7 +1,7 @@
 import * as request from 'request-promise-native';
 import { LanguageStats, Sentence } from 'common';
 import DB from './model/db';
-import { DBClipWithVoters } from './model/db/tables/clip-table';
+import { DBClip } from './model/db/tables/clip-table';
 import lazyCache from './lazy-cache';
 
 const locales = require('locales/all.json') as string[];
@@ -135,7 +135,7 @@ export default class Model {
     client_id: string,
     locale: string,
     count: number
-  ): Promise<DBClipWithVoters[]> {
+  ): Promise<DBClip[]> {
     return this.db.findClipsNeedingValidation(
       client_id,
       locale,
