@@ -1,10 +1,12 @@
 import { getConfig } from '../../config-helper';
 import Mysql, { getMySQLInstance } from './db/mysql';
 import Schema from './db/schema';
-import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
+import ClipTable, { DBClip } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
-import { ChallengeToken, Sentence } from 'common';
-import { TaxonomyToken, taxonomies } from 'common';
+import { ChallengeToken, Sentence, TaxonomyToken, taxonomies } from 'common';
+import lazyCache from '../lazy-cache';
+const MINUTE = 1000 * 60;
+const DAY = MINUTE * 60 * 24;
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
@@ -52,26 +54,32 @@ export const getParticipantSubquery = (
   `;
 };
 
-let localeIds: { [name: string]: number };
 let termIds: { [name: string]: number };
 
-export async function getLocaleId(locale: string): Promise<number> {
-  if (locale === 'overall') return null;
-
-  if (!localeIds) {
+const getLanguageMap = lazyCache(
+  `get-language-id-map`,
+  async () => {
     const [rows] = await getMySQLInstance().query(
       'SELECT id, name FROM locales'
     );
-    localeIds = rows.reduce(
+    //{en: 1, fr:2, ...}
+    return rows.reduce(
       (obj: any, { id, name }: any) => ({
         ...obj,
         [name]: id,
       }),
       {}
     );
-  }
+  },
+  DAY
+);
 
-  return localeIds[locale];
+export async function getLocaleId(locale: string): Promise<number> {
+  if (locale === 'overall') return null;
+
+  const languageIds = await getLanguageMap();
+  //returns id
+  return languageIds[locale];
 }
 
 export async function getTermIds(term_names: string[]): Promise<number[]> {
@@ -154,6 +162,35 @@ export default class DB {
       `,
       [locales]
     );
+    return rows;
+  }
+  /**
+   * Get valid and random clips per language
+   * @param languageId
+   * @param limit
+   * @returns
+   */
+  async getClipsToBeValidated(
+    languageId: number,
+    limit: number
+  ): Promise<DBClip[]> {
+    const [rows] = await this.mysql.query(
+      `
+        SELECT c.id as id, 
+        c.path as path, 
+        s.has_valid_clip as has_valid_clip,
+        c.client_id as client_id, 
+        s.text as sentence,
+        c.original_sentence_id as original_sentence_id
+        FROM clips c
+        LEFT JOIN sentences s ON s.id = c.original_sentence_id and c.locale_id = ?
+        WHERE c.is_valid IS NULL AND s.clips_count <= 15
+        ORDER BY rand()
+        limit ?
+      `,
+      [languageId, limit]
+    );
+
     return rows;
   }
 
@@ -323,8 +360,8 @@ export default class DB {
     client_id: string,
     locale: string,
     count: number
-  ): Promise<DBClipWithVoters[]> {
-    let taxonomySentences: DBClipWithVoters[] = [];
+  ): Promise<DBClip[]> {
+    let taxonomySentences: DBClip[] = [];
     const locale_id = await getLocaleId(locale);
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale);
 
@@ -357,7 +394,56 @@ export default class DB {
     locale_id: number,
     count: number,
     exemptFromSSRL?: boolean
-  ): Promise<DBClipWithVoters[]> {
+  ): Promise<DBClip[]> {
+    // get cached clips for given language
+    const cachedClips: DBClip[] = await lazyCache(
+      `new-clips-per-language-${locale_id}`,
+      async () => {
+        return await this.getClipsToBeValidated(locale_id, 10000);
+      },
+      MINUTE
+    )();
+
+    //filter out users own clips
+    const validUserClips: DBClip[] = cachedClips.filter(
+      (row: DBClip) => row.client_id != client_id
+    );
+
+    // potentially cache-able
+    // get users previously interacted clip ids
+    const [submittedUserClipIds] = await this.mysql.query(
+      `
+      SELECT clip_id
+        FROM votes
+        WHERE client_id = ?
+        UNION ALL
+        SELECT clip_id
+        FROM reported_clips reported
+        WHERE client_id = ?
+        UNION ALL
+        SELECT clip_id
+        FROM skipped_clips skipped
+        WHERE client_id = ?
+      `,
+      [client_id, client_id, client_id]
+    );
+
+    //remove dups and store as a flat set
+    const skipClipIds: Set<number> = new Set(
+      submittedUserClipIds.map((row: { clip_id: number }) => row.clip_id)
+    );
+
+    //get clips that a user hasnt already seen
+    const validClips = new Set(
+      validUserClips.filter((clip: DBClip) => {
+        if (exemptFromSSRL) return !skipClipIds.has(clip.id);
+        //only return clips that have not been valiadated before
+        return !skipClipIds.has(clip.id) && clip.has_valid_clip === 0;
+      })
+    );
+
+    if (validClips.size > count) return Array.from(validClips);
+
     const [clips] = await this.mysql.query(
       `
       SELECT *
@@ -396,10 +482,8 @@ export default class DB {
         count,
       ]
     );
-    for (const clip of clips) {
-      clip.voters = clip.voters ? clip.voters.split(',') : [];
-    }
-    return clips as DBClipWithVoters[];
+
+    return clips as DBClip[];
   }
 
   async findClipsMatchingTaxonomy(
@@ -407,7 +491,7 @@ export default class DB {
     locale_id: number,
     count: number,
     segments: string[]
-  ): Promise<DBClipWithVoters[]> {
+  ): Promise<DBClip[]> {
     const [clips] = await this.mysql.query(
       `
       SELECT *
@@ -470,14 +554,13 @@ export default class DB {
       ]
     );
     for (const clip of clips) {
-      clip.voters = clip.voters ? clip.voters.split(',') : [];
       clip.taxonomy = {
         name: clip.term_name,
         source: clip.term_sentence_source,
       };
     }
 
-    return clips as DBClipWithVoters[];
+    return clips as DBClip[];
   }
 
   /**
