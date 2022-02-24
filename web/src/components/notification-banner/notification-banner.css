@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    z-index: var(--middle-z-index);
+    z-index: var(--top-z-index);
     background: var(--black);
     padding-top: 20px;
     padding-bottom: 20px;
@@ -23,7 +23,6 @@
     }
 
     .notification-text {
-        text-align: center;
         color: #f89096;
         margin: 0 1rem;
 
