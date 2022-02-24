@@ -458,15 +458,15 @@ export default class DB {
         AND NOT EXISTS(
           SELECT clip_id
           FROM votes
-          WHERE client_id = ?
+          WHERE votes.clip_id = clips.id AND client_id = ?
           UNION ALL
           SELECT clip_id
           FROM reported_clips reported
-          WHERE client_id = ?
+          WHERE reported.clip_id = clips.id AND client_id = ?
           UNION ALL
           SELECT clip_id
           FROM skipped_clips skipped
-          WHERE client_id = ?
+          WHERE skipped.clip_id = clips.id AND client_id = ?
         )
         AND sentences.clips_count <= 15
         ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
