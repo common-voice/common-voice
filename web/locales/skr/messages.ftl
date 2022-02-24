@@ -381,6 +381,7 @@ about-voice-contrib-title = اواز دیاں ونگاراں
 about-voice-validation-title = آواز تصدیق
 about-dataset-release-title = ڈیٹا سیٹ ریلیز
 about-speak = ٻولو
+about-listen-queue = سݨݨ دی قطار
 about-listen = سݨو
 about-is-it-valid = بھلا ایہ کلپ ٹھیک ہے؟
 about-yes-votes = ≥٢ جیا ووٹ
@@ -402,6 +403,7 @@ about-nav-playbook = حصہ گھنݨ دا ݙا سکھو
 
 ## How do I add a language
 
+about-playbook-how-add-language = میں زبان کین٘ویں شامل کرینداں؟
 
 ## How does localization work
 
@@ -475,6 +477,7 @@ review-delete-recordings = میݙی رکارڈنگ مٹاؤ
 language = زبان
 # File size in gigabytes
 size = سائز
+validated-hr-total = کل تصدیق تھئے گھنٹے
 overall-hr-total = کُل مجموعی گھنٹے
 cv-license = لائسنس
 audio-format = آڈیو فارمیٹ
