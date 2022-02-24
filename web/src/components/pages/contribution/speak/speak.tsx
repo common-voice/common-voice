@@ -131,6 +131,7 @@ interface PropsFromDispatch {
   addUploads: typeof Uploads.actions.add;
   addAchievement: typeof Notifications.actions.addAchievement;
   addNotification: typeof Notifications.actions.addPill;
+  loadSentences: typeof Sentences.actions.refill;
   removeSentences: typeof Sentences.actions.remove;
   tallyRecording: typeof User.actions.tallyRecording;
   refreshUser: typeof User.actions.refresh;
@@ -203,6 +204,9 @@ class SpeakPage extends React.Component<Props, State> {
   }
 
   componentDidMount() {
+    const { loadSentences } = this.props;
+    loadSentences();
+
     this.audio = new AudioWeb();
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
 
@@ -648,8 +652,8 @@ class SpeakPage extends React.Component<Props, State> {
             <Localized id="review-aborted">
               <Modal
                 buttons={{
-                  [getString('review-keep-recordings')]: this
-                    .toggleDiscardModal,
+                  [getString('review-keep-recordings')]:
+                    this.toggleDiscardModal,
                   [getString('review-delete-recordings')]: this.resetAndGoHome,
                 }}
               />
@@ -795,6 +799,7 @@ const mapDispatchToProps = {
   addNotification: Notifications.actions.addPill,
   addAchievement: Notifications.actions.addAchievement,
   addUploads: Uploads.actions.add,
+  loadSentences: Sentences.actions.refill,
   removeSentences: Sentences.actions.remove,
   tallyRecording: User.actions.tallyRecording,
   refreshUser: User.actions.refresh,

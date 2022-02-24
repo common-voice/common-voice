@@ -1,11 +1,13 @@
 import { Action as ReduxAction, Dispatch } from 'redux';
-const contributableLocales = require('../../../locales/contributable.json') as string[];
+const contributableLocales =
+  require('../../../locales/contributable.json') as string[];
 import StateTree from './tree';
 import { User } from './user';
 import { Clip } from 'common';
 
 const MIN_CACHE_SIZE = 10;
 
+// eslint-disable-next-line @typescript-eslint/no-namespace
 export namespace Clips {
   export interface State {
     [locale: string]: {
@@ -58,88 +60,97 @@ export namespace Clips {
     | AchievementAction;
 
   export const actions = {
-    refillCache: () => async (
-      dispatch: Dispatch<RefillCacheAction | LoadAction>,
-      getState: () => StateTree
-    ) => {
-      const state = getState();
-      if (localeClips(state).clips.length > MIN_CACHE_SIZE) {
-        return;
-      }
+    refillCache:
+      () =>
+      async (
+        dispatch: Dispatch<RefillCacheAction | LoadAction>,
+        getState: () => StateTree
+      ) => {
+        const state = getState();
 
-      try {
-        dispatch({ type: ActionType.LOAD });
-        const clips = await state.api.fetchRandomClips(
-          MIN_CACHE_SIZE - localeClips(state).clips.length
-        );
-
-        dispatch({
-          type: ActionType.REFILL_CACHE,
-          clips: clips.map(clip => {
-            let sentence = clip.sentence;
-            try {
-              sentence.text = decodeURIComponent(sentence.text);
-            } catch (e) {
-              if (e.name !== 'URIError') {
-                throw e;
-              }
-            }
-
-            return {
-              id: clip.id,
-              glob: clip.glob,
-              sentence,
-              audioSrc: clip.audioSrc,
-            };
-          }),
-        });
-        await Promise.all(clips.map(({ audioSrc }) => fetch(audioSrc)));
-      } catch (err) {
-        if (err instanceof XMLHttpRequest) {
-          dispatch({ type: ActionType.REFILL_CACHE });
-        } else {
-          throw err;
+        // don't load if no contributable locale
+        if (!contributableLocales.includes(state.locale)) {
+          return;
         }
-      }
-    },
 
-    vote: (isValid: boolean, clipId?: string) => async (
-      dispatch: Dispatch<Action | User.Action>,
-      getState: () => StateTree
-    ) => {
-      const state = getState();
-      const id = clipId;
+        if (localeClips(state).clips.length > MIN_CACHE_SIZE) {
+          return;
+        }
 
-      dispatch({ type: ActionType.REMOVE_CLIP, clipId: id });
-      const {
-        showFirstContributionToast,
-        hasEarnedSessionToast,
-        showFirstStreakToast,
-        challengeEnded,
-      } = await state.api.saveVote(id, isValid);
-      if (!state.user.account) {
-        dispatch(User.actions.tallyVerification());
-      }
-      if (state.user?.account?.enrollment?.challenge) {
-        dispatch({
-          type: ActionType.ACHIEVEMENT,
+        try {
+          dispatch({ type: ActionType.LOAD });
+          const clips = await state.api.fetchRandomClips(
+            MIN_CACHE_SIZE - localeClips(state).clips.length
+          );
+
+          dispatch({
+            type: ActionType.REFILL_CACHE,
+            clips: clips.map(clip => {
+              let sentence = clip.sentence;
+              try {
+                sentence.text = decodeURIComponent(sentence.text);
+              } catch (e) {
+                if (e.name !== 'URIError') {
+                  throw e;
+                }
+              }
+
+              return {
+                id: clip.id,
+                glob: clip.glob,
+                sentence,
+                audioSrc: clip.audioSrc,
+              };
+            }),
+          });
+          await Promise.all(clips.map(({ audioSrc }) => fetch(audioSrc)));
+        } catch (err) {
+          if (err instanceof XMLHttpRequest) {
+            dispatch({ type: ActionType.REFILL_CACHE });
+          } else {
+            throw err;
+          }
+        }
+      },
+
+    vote:
+      (isValid: boolean, clipId?: string) =>
+      async (
+        dispatch: Dispatch<Action | User.Action>,
+        getState: () => StateTree
+      ) => {
+        const state = getState();
+        const id = clipId;
+
+        dispatch({ type: ActionType.REMOVE_CLIP, clipId: id });
+        const {
           showFirstContributionToast,
           hasEarnedSessionToast,
           showFirstStreakToast,
           challengeEnded,
-        });
-      }
-      User.actions.refresh()(dispatch, getState);
-      actions.refillCache()(dispatch, getState);
-    },
+        } = await state.api.saveVote(id, isValid);
+        if (!state.user.account) {
+          dispatch(User.actions.tallyVerification());
+        }
+        if (state.user?.account?.enrollment?.challenge) {
+          dispatch({
+            type: ActionType.ACHIEVEMENT,
+            showFirstContributionToast,
+            hasEarnedSessionToast,
+            showFirstStreakToast,
+            challengeEnded,
+          });
+        }
+        User.actions.refresh()(dispatch, getState);
+        actions.refillCache()(dispatch, getState);
+      },
 
-    remove: (clipId: string) => async (
-      dispatch: Dispatch<Action>,
-      getState: () => StateTree
-    ) => {
-      dispatch({ type: ActionType.REMOVE_CLIP, clipId });
-      actions.refillCache()(dispatch, getState);
-    },
+    remove:
+      (clipId: string) =>
+      async (dispatch: Dispatch<Action>, getState: () => StateTree) => {
+        dispatch({ type: ActionType.REMOVE_CLIP, clipId });
+        actions.refillCache()(dispatch, getState);
+      },
   };
 
   export function reducer(

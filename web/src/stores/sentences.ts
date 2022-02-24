@@ -1,11 +1,13 @@
 import { Action as ReduxAction, Dispatch } from 'redux';
-const contributableLocales = require('../../../locales/contributable.json') as string[];
+const contributableLocales =
+  require('../../../locales/contributable.json') as string[];
 import StateTree from './tree';
 import { Sentence } from 'common';
 
 const CACHE_SET_COUNT = 25;
 const MIN_CACHE_COUNT = 5;
 
+// eslint-disable-next-line @typescript-eslint/no-namespace
 export namespace Sentences {
   export interface State {
     [locale: string]: { sentences: Sentence[]; isLoading: boolean };
@@ -32,37 +34,44 @@ export namespace Sentences {
   export type Action = RefillAction | RemoveAction;
 
   export const actions = {
-    refill: () => async (
-      dispatch: Dispatch<RefillAction>,
-      getState: () => StateTree
-    ) => {
-      try {
-        const state = getState();
-        if (
-          Object.keys(localeSentences(state).sentences).length >=
-          MIN_CACHE_COUNT
-        ) {
-          return;
-        }
-        const newSentences = await state.api.fetchRandomSentences(
-          CACHE_SET_COUNT
-        );
-        dispatch({
-          type: ActionType.REFILL,
-          sentences: newSentences,
-        });
-      } catch (err) {
-        console.error('could not fetch sentences', err);
-      }
-    },
+    refill:
+      () =>
+      async (dispatch: Dispatch<RefillAction>, getState: () => StateTree) => {
+        try {
+          const state = getState();
 
-    remove: (sentenceIds: string[]) => async (
-      dispatch: Dispatch<RemoveAction | RefillAction>,
-      getState: () => StateTree
-    ) => {
-      dispatch({ type: ActionType.REMOVE, sentenceIds });
-      actions.refill()(dispatch, getState);
-    },
+          // don't load if no contributable locale
+          if (!contributableLocales.includes(state.locale)) {
+            return;
+          }
+
+          if (
+            Object.keys(localeSentences(state).sentences).length >=
+            MIN_CACHE_COUNT
+          ) {
+            return;
+          }
+          const newSentences = await state.api.fetchRandomSentences(
+            CACHE_SET_COUNT
+          );
+          dispatch({
+            type: ActionType.REFILL,
+            sentences: newSentences,
+          });
+        } catch (err) {
+          console.error('could not fetch sentences', err);
+        }
+      },
+
+    remove:
+      (sentenceIds: string[]) =>
+      async (
+        dispatch: Dispatch<RemoveAction | RefillAction>,
+        getState: () => StateTree
+      ) => {
+        dispatch({ type: ActionType.REMOVE, sentenceIds });
+        actions.refill()(dispatch, getState);
+      },
   };
 
   export function reducer(

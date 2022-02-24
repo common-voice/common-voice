@@ -62,6 +62,7 @@ interface PropsFromState {
 }
 
 interface PropsFromDispatch {
+  loadClips: typeof Clips.actions.refillCache;
   removeClip: typeof Clips.actions.remove;
   vote: typeof Clips.actions.vote;
   addAchievement: typeof Notifications.actions.addAchievement;
@@ -107,6 +108,11 @@ class ListenPage extends React.Component<Props, State> {
     }
 
     return null;
+  }
+
+  componentDidMount(): void {
+    const { loadClips } = this.props;
+    loadClips();
   }
 
   componentWillUnmount() {
@@ -347,27 +353,30 @@ class ListenPage extends React.Component<Props, State> {
               </>
             }
             pills={clips.map(
-              ({ isValid }, i) => (props: ContributionPillProps) => {
-                const isVoted = isValid !== null;
-                const isActive = clipIndex === i;
-                return (
-                  <Pill
-                    className={isVoted ? (isValid ? 'valid' : 'invalid') : ''}
-                    onClick={null}
-                    status={isActive ? 'active' : isVoted ? 'done' : 'pending'}
-                    {...props}>
-                    {isActive ? (
-                      <VolumeIcon />
-                    ) : isVoted ? (
-                      isValid ? (
-                        <CheckIcon />
-                      ) : (
-                        <CrossIcon />
-                      )
-                    ) : null}
-                  </Pill>
-                );
-              }
+              ({ isValid }, i) =>
+                (props: ContributionPillProps) => {
+                  const isVoted = isValid !== null;
+                  const isActive = clipIndex === i;
+                  return (
+                    <Pill
+                      className={isVoted ? (isValid ? 'valid' : 'invalid') : ''}
+                      onClick={null}
+                      status={
+                        isActive ? 'active' : isVoted ? 'done' : 'pending'
+                      }
+                      {...props}>
+                      {isActive ? (
+                        <VolumeIcon />
+                      ) : isVoted ? (
+                        isValid ? (
+                          <CheckIcon />
+                        ) : (
+                          <CrossIcon />
+                        )
+                      ) : null}
+                    </Pill>
+                  );
+                }
             )}
             reportModalProps={{
               reasons: [
@@ -427,6 +436,7 @@ const mapStateToProps = (state: StateTree) => {
 };
 
 const mapDispatchToProps = {
+  loadClips: Clips.actions.refillCache,
   removeClip: Clips.actions.remove,
   vote: Clips.actions.vote,
   addAchievement: Notifications.actions.addAchievement,
