@@ -353,6 +353,7 @@ profile-form-language =
     .label = Йылме
 profile-form-variant =
     .label = { $language } йылмын могай тӱрлылыкшӧ дене тый мутланет?
+profile-form-variant-default-value = Тӱрлылыкым ойырымо огыл
 profile-form-accent =
     .label = Акцент
 profile-form-custom-accent-help-text =
