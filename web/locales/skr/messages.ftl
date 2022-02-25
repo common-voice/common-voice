@@ -472,6 +472,7 @@ de-identified = سُن٘ڄاݨ پھیرݨ
 ## Error pages
 
 error-title-404 = اساں تہاݙے کیتے او ورقہ کائنی لبھ سڳے
+error-title-503 = ساکوں ابڑغت ڈاؤن ٹائم دا سامھݨا ہے۔
 error-code = خرابی { $code }
 
 ## Data
@@ -510,6 +511,7 @@ audio-format = آڈیو فارمیٹ
 number-of-voices = اوازوں دی تعداد
 splits = ٹکڑے
 email-to-download = ڈاؤن کرݨ کیتے ای میل درج کرو
+confirm-size = تساں <b>{ $size }</b>  کوں ڈاؤن لوڈ شروع کرݨ کیتے  تیار ہو
 size-gigabyte = جی بی
 size-megabyte = ایم بی
 download-language = { $language } ڈاؤن لوڈ کرو
