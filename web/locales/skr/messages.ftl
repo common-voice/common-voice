@@ -741,6 +741,7 @@ download-request = ریکارڈنگ دی ارداس کرو
 download-requests = ماضی دیاں رکاڈنگ ڈاؤن لوڈ ارداساں
 download-request-button = ڈاؤن لوڈ
 download-request-title = { $created }
+download-request-archive-single = کلہی زپ فائل بشمول
 download-request-refresh-button = تازہ کرو
 download-request-modal-title = لنک ڈاؤن لوڈ کرو
 download-request-link-text = { $total } وچوں زپ ؀{ $offset }
@@ -762,6 +763,7 @@ demo-welcome = کامن وائس وچ ست بسم اللہ
 card-button-next = اڳلا
 card-button-back = پچھوں
 demo-language-select-label = زباناں براؤز کرو
+demo-eofy-header = 2019 سال چھیکڑی  ریلیز
 demo-eofy-sub_header = وائس ڈیٹاسیٹ، ڈاؤن لوڈ کیتے تیار
 demo-account = کھاتہ
 
@@ -785,6 +787,9 @@ contribution-criteria-link = ونگار دا معیار سمجھو
 contribution-criteria-page-title = ونگار دا معیار
 contribution-for-example = مثال دے طور تے
 contribution-misreadings-title = غلط پڑھݨ
+contribution-misreadings-example-5-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
+contribution-misreadings-example-7-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
+contribution-varying-pronunciations-title = بدلدا ہویا تلفظ
 contribution-background-noise-title = پس منظر دا شور
 contribution-background-voices-title = پس منظر دی آوازاں
 contribution-volume-title = حجم
@@ -853,9 +858,14 @@ sc-stats-updating = اپ ڈیٹ تھیندا پئے۔۔۔
 
 ## ADD
 
+sc-submit-err-select-lang = سوہݨا، ہک زبان چُݨو
+sc-submit-err-add-sentences = سوہݨا، جملے شامل کرو۔
+sc-submit-err-add-source = سوہݨا، ماخذ شامل کرو۔
 sc-submit-title = جملے شامل کرو
 sc-submit-select-language =
     .labelText = زبان چُݨو
+sc-submit-ph-one-per-line =
+    .placeholder = ہک جملہ فی سطر
 sc-submit-button =
     .submitText = جمع کرواؤ
 
@@ -908,6 +918,9 @@ sc-personal-remove-button = ہٹاؤ
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-1 = جملے دے ہجے درست ہووݨ ضروری ہن۔
+sc-criteria-item-2 = جملے دی گرائمر درست ہووݨ ضروری ہے۔
+sc-criteria-item-3 = جملہ الاوݨ دے قابل ہووݨ ضروری ہے۔
 
 ## REVIEW
 
@@ -929,6 +942,10 @@ sc-review-link = نظرثانی
 
 sc-settings-title = ترتیباں
 sc-settings-ui-language = انٹرفیس زبان
+sc-validation-no-numbers = جملے وچ عدد نئیں ہووݨے چاہیدے
+sc-validation-no-symbols = جملے وچ علامتاں نئیں ہووݨے چاہیدے
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = زبان/مقامیت سازی چݨو
