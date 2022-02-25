@@ -343,6 +343,8 @@ profile-form-additional-language =
     .label = Ñe’ẽ oĩvéva
 profile-form-language =
     .label = Ñe’ẽ
+profile-form-variant =
+    .label = ¿Mba’eichaguaite { $language } eñe’ẽ?
 profile-form-variant-default-value = Ndaipóri ambuegua poravopyre
 profile-form-accent =
     .label = Muanduhe
@@ -396,6 +398,7 @@ skip-submission-note = Jesarekorã: Tekotevẽta gueteri eiporavo Eñe’ẽ té
 off = Mboguepyre
 on = Hendypyre
 help-accent = ¿Eñepytyvõkasépa myanduhére?
+help-variants = ¿Eikotevẽ pytyvõ ñe’ẽ iñambuévape?
 
 ## Profile - Email
 
@@ -540,6 +543,8 @@ about-playbook-how-add-language = ¿Mba’éicha ambojuajúta ñe’ẽ?
 ## How does localization work
 
 about-playbook-how-localize = ¿Mba’éicha ojejapo ñe’ẽasa tendápe?
+about-playbook-how-localize-content-1 = Pe tenda Common Voice moñe’ẽasa ojejapo <strong>Pontoon</strong> ndive.
+about-playbook-how-localize-content-4 = Pe tenda ojehecha ñepyrũta ohupyty vove 75% ijejapo.
 about-playbook-how-localize-content-5 = Ehecha ore ta’ãngamýi myesakãha ne pytyvõtava
 
 ## How to add sentences
@@ -548,6 +553,7 @@ about-playbook-how-add-sentences = ¿Mba’éicha ambojuajúta ñe’ẽjuaju?
 
 ## How to record quality
 
+about-playbook-how-record-quality = ¿Mba'éicha añongatúta ñe’ẽ ryapu iporã hag̃uáicha?
 
 ## How to grow language
 
