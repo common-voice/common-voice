@@ -338,6 +338,7 @@ profile-form-language =
     .label = Idioma
 profile-form-variant =
     .label = Qual variante de { $language } você fala?
+profile-form-variant-default-value = Nenhuma variante selecionada
 profile-form-accent =
     .label = Sotaque
 profile-form-custom-accent-help-text =
