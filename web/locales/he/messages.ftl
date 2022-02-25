@@ -814,7 +814,11 @@ sc-footer-cookies = עוגיות
 
 ## HOME
 
+sc-home-collect-title = איסוף משפטים
 sc-home-review-title = סקירת משפטים
+
+## GENERAL
+
 
 ## HOW-TO
 
