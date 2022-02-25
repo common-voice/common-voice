@@ -6,6 +6,7 @@ email-input =
     .label = ای میل
 submit-form-action = جمع کرواؤ
 loading = لوڈ تھیندا پئے۔۔۔
+indicates-required = *ضروری خانے آلے پاسے اشارہ کریندے
 not-available-abbreviation = دستیاب کائنی
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -204,6 +205,7 @@ show-wall-of-text = ٻیا پڑھو
 help-us-title = جملیاں دی تصدیق کرݨ وچ ساݙی مدد کرو!
 vote-yes = جیا
 vote-no = کو
+toggle-play-tooltip = پلے موڈ کوں ٹوگل کرݨ کیتے { shortcut-play-toggle } دباؤ
 speak-subtitle = آپݨی آواز دان کرو
 speak-goal-text = رکارڈ تھئے کلپ
 listen-subtitle = آوازاں دی تصدیق کرݨ وچ ساݙی مدد کرو
