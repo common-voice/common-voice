@@ -386,8 +386,11 @@ how-does-it-work-title-v2 = کامن وائس کین٘ویں کم کریندے؟
 
 ## How does it work section
 
+about-language-req-subtitle = کوئی بندہ زبان شامل کرواوݨ کیتے آہدے۔
 about-localization-title = ویب سائٹ دی مقامیت
+about-localization-subtitle = ویب سائٹ عبارت اوں زبان وچ ترجمہ تھی ویندی ہے۔
 about-sentence-collection-title = فقریاں دا مجموعہ
+about-sentence-collection-subtitle = جملے لوکاں دے زور نال پڑھݨ کیتے کٹھے کیتے ویندن۔
 about-new-lang-title = نویں زبان لان٘چ
 about-new-lang-subtitle = اساں ایں زبان وچ کامن وائس سائٹ لان٘چ کریندے ہیں۔
 about-voice-contrib-title = اواز دیاں ونگاراں
@@ -395,6 +398,7 @@ about-voice-contrib-subtitle = لوک آندے ہن تے آپݨیاں آوازا
 about-voice-validation-title = آواز تصدیق
 about-voice-validation-subtitle = ٻئے لوک اُنہاں آواز کلپاں دی تصدیق کریندن۔
 about-dataset-release-title = ڈیٹا سیٹ ریلیز
+about-dataset-release-subtitle = اساں ہر ٣ مہینے بعد ڈیٹاسیٹ ریلیز کریندے ہیں۔
 about-speak = ٻولو
 about-listen-queue = سݨݨ دی قطار
 about-listen = سݨو
@@ -463,6 +467,7 @@ glossary = فرہنگ
 localization = مقامیت
 sentence-collection = فقریاں دا مجموعہ
 sst = (Speech-to-text (STT
+de-identified = سُن٘ڄاݨ پھیرݨ
 
 ## Error pages
 
