@@ -598,6 +598,7 @@ record-cancel = ولدا رکارڈنگ منسوخ کرو
 record-instruction = { $actionType }<recordIcon></recordIcon> وت اُچی آواز نال جملہ پڑھو
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> جہڑے ویلے تھی ون٘ڄے
 record-three-more-instruction = ترائے باقی ہن!
+record-again-instruction2 = کوشش جاری رکھو، ولدا رکارڈ کرو <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> چھیکڑی!
 share-clip = آپݨاں کلپ شیئر کرو
 share-common-voice = Common Voice شیئر کرو
@@ -675,6 +676,7 @@ show-ranking = میݙی رینکنگ ݙکھاؤ
 get-started-goals = ہدفاں نال شروع کرو
 create-custom-goal = ہک لوڑ موجب ہدف بݨاؤ
 both-speak-and-listen = ݙون٘ہیں
+both-speak-and-listen-long = ݙون٘ہیں (ٻولو تے سُݨو)
 daily-goal = ݙین٘ہ وار مقصد
 weekly-goal = ہفتہ وار مقصد
 easy-difficulty = سوکھا
@@ -697,6 +699,9 @@ goal-interval-weekly = ہفتہ وار
 share-goal-type-speak = ٻولݨ
 share-goal-type-listen = سݨݨ
 share-goal-type-both = ٻولݨ تے سݨݨ
+weekly-goal-created = تہاݙا ہفتہ وار مقصد بݨ ڳیا
+daily-goal-created = تہاݙا ݙین٘ہ وار مقصد بݨ ڳیا
+return-to-edit-goal = کہیں ویلے وی آپݨے مقصد وچ تبدیلی کرݨ کیتے اتھ واپس آؤ۔
 share-goal = میݙا مقصد شیئر کرو
 
 ## Profile Delete
@@ -711,6 +716,7 @@ download-q = آپݨا ڈیٹا ڈاؤن لوڈ کرݨ دی لوڑ ہے؟
 download-profile-title = پروفائل
 download-profile-size = کجھ بائٹ
 download-recordings-title = ریکارڈنگز
+download-recordings-size = عام طور تے میگا بائٹس
 download-size = سائز
 download-selected = چُݨا ہویا
 download-start = پروفائل ڈیٹا ڈاؤن لوڈ کرو
@@ -719,12 +725,19 @@ download-request-button = ڈاؤن لوڈ
 download-request-title = { $created }
 download-request-refresh-button = تازہ کرو
 download-request-modal-title = لنک ڈاؤن لوڈ کرو
+download-request-link-text = { $total } وچوں زپ ؀{ $offset }
+download-request-metadata-link = جملے دی عبارت
 
 ## Landing
 
+welcome-staff = { $company } عملہ کوں ست بسم اللہ !
+login-company = { $company } ای میل نال لاگ ان/ سائن اپ
+read-more-about = ساݙے تعارفی ورقہ تے ٻیا پڑھو
 
 ## DemoLayout
 
+demo-get-started = آؤ شروع کروں
+demo-welcome = کامن وائس وچ ست بسم اللہ
 
 ## Demo Datasets
 
