@@ -607,6 +607,7 @@ share-common-voice = Common Voice شیئر کرو
 record-submit-tooltip = { $actionType } جمع کراؤ ڄݙݨ تیار ہوون
 clips-uploaded = اپ لوڈ تھئے کلپ
 record-abort-title = پہلے رکاڈنگ مکمل کروں؟
+record-abort-text = ہݨ چھوڑݨ نال تہاݙی پیش رفت ضائع تھی ویسی
 record-abort-submit = کلپ جمع کرواؤ
 record-abort-continue = ریکارڈنگ مکمل کرو
 record-abort-delete = ٻاہر نکلو تے کلپ مٹاؤ
@@ -660,6 +661,8 @@ toward-next-goal = اڳلے مقصد آلے پاسے
 goal-reached = مقصد پورا تھیا
 clips-you-recorded = کلپ جہڑے تساں رکاڈ کیتن
 clips-you-validated = کلپ جہڑے تساں تصدیق کیتن
+todays-recorded-progress = رکاڈ تھئے کلپاں تے اڄ دی کامن وائس پیش رفت
+todays-validated-progress = تصدیق تھئے کلپاں تے اڄ دی کامن وائس پیش رفت
 stats = شماریات
 awards = ایوارڈ
 you = تساں
@@ -677,6 +680,7 @@ show-ranking = میݙی رینکنگ ݙکھاؤ
 
 get-started-goals = ہدفاں نال شروع کرو
 create-custom-goal = ہک لوڑ موجب ہدف بݨاؤ
+goal-type = تساں کہڑی قسم دا ہدف بݨاوݨ چاہندے ہو؟
 both-speak-and-listen = ݙون٘ہیں
 both-speak-and-listen-long = ݙون٘ہیں (ٻولو تے سُݨو)
 daily-goal = ݙین٘ہ وار مقصد
@@ -691,6 +695,8 @@ lose-changes-warning = ہݨ چھوڑݨ نال تہاݙیاں تبدیلیاں ض
 build-custom-goal = مرضی دا مقصد بݨاؤ
 set-a-goal = مقصد مقرر کرو
 cant-decide = بھلا فیصلہ نہوے کر سڳدے؟
+how-many-per-day = زبردست فی ݙین٘ہ کتی کلپ ہن؟
+how-many-a-week = زبردست! ہفتے وچ کتی کلپ ہن؟
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } کلپ
@@ -746,6 +752,7 @@ demo-welcome = کامن وائس وچ ست بسم اللہ
 card-button-next = اڳلا
 card-button-back = پچھوں
 demo-language-select-label = زباناں براؤز کرو
+demo-eofy-sub_header = وائس ڈیٹاسیٹ، ڈاؤن لوڈ کیتے تیار
 demo-account = کھاتہ
 
 ## Demo Account
@@ -844,10 +851,21 @@ sc-submit-button =
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = زبان شامل کائنی کر سڳا
 sc-add-lang-sec-button = زبان شامل کرو
+sc-add-err-submission = جمع کرواݨ وچ خرابی
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = نویں جملے دی تصدیق کرو
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] کوئی جملہ کائنی لبھا۔
+        [one] ١ جملہ لبھا۔
+       *[other] { $countOfSentences } جملے لبھے۔
+    }
 sc-confirm-button-text = تصدیق
 
 ## LANGUAGE INFO
