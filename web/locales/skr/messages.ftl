@@ -298,6 +298,9 @@ profile-form-language =
     .label = زبان
 profile-form-accent =
     .label = لہجہ
+profile-form-custom-accent-help-text =
+    .label = تساں آپݨے لہجے کوں کین٘ویں بیان کریسو؟
+profile-form-custom-accent-placeholder-2 = آپݨاں لہجہ بیان کرݨ کیتے ٹائپ کرݨ شروع کرو
 profile-form-age =
     .label = عمر
 profile-form-gender-2 =
@@ -308,6 +311,7 @@ hidden = لکا ہویا
 visible = ظاہر
 native-language =
     .label = مقامی زبان
+profile-form-add-accent = نواں مرضی دا لہجہ شامل کرو "{ $inputValue }"
 profile-form-submit-save = محفوظ
 profile-form-submit-saved = محفوظ تھیا
 male = مرد
@@ -351,6 +355,7 @@ manage-subscriptions = سبسکرپشناں منیج کرو
 manage-email-subscriptions = ای میل سبسکرپشناں منیج کرو
 email-already-used = ای میل پہلے ہی کہیں ٻئے کھاتے کیتے ورتی ہوئی ہے۔
 add-language = زبان شامل کرو
+change-email-setings = لاگ ان سُن٘ڄاݨ ہیٹھ ترتیباں واٹوں آپݨاں ای میل وٹاؤ
 
 ## FAQ
 
@@ -360,6 +365,8 @@ faq-why-important-q = ایہ اہم کیوں ہے؟
 faq-what-cv-and-deepspeech-q = کامن وائس تے ڈیپ سپیچ وچ کیا فرق ہے؟
 faq-why-different-speakers-q = تہاکوں ہک زبان کیتے ٻہوں سارے مختلف آلاوݨ آلیاں دی لوڑ کیوں ہے؟
 faq-why-my-lang-q = میݙی زبان اڄݨ تائیں کیوں شامل کائنی؟
+faq-how-calc-hours-q = کامن وائس گھنٹیاں دا حساب کتاب کین٘ویں کریندے؟
+faq-where-src-from-2-q = ماخذ عبارت کتھوں آندی ہے؟
 faq-why-account-q = میں کھاتے کیتے سائن اپ کیوں تھیواں؟
 faq-is-account-public-q = بھلا میݙیاں کھاتہ معلومات عوامی ہن؟
 faq-what-is-cv = Common Voice کیا ہے؟
@@ -395,11 +402,13 @@ about-nav-why-common-voice = کیوں؟
 about-nav-how-it-works = کین٘ویں؟
 about-nav-partners = بھائیوال
 about-nav-get-involved = نال رلت کرو
+about-nav-how-it-works-2 = کامن وائس کین٘ویں کم کریندے؟
 about-nav-playbook = حصہ گھنݨ دا ݙا سکھو
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = کامن وائس تے کہڑی زبان ہے؟
 
 ## How do I add a language
 
