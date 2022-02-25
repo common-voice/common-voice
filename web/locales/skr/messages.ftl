@@ -6,6 +6,7 @@ email-input =
     .label = ای میل
 submit-form-action = جمع کرواؤ
 loading = لوڈ تھیندا پئے۔۔۔
+email-opt-in-info-title = کامن وائس میلنگ تندیر وچ شامل تھیوو
 indicates-required = *ضروری خانے آلے پاسے اشارہ کریندے
 not-available-abbreviation = دستیاب کائنی
 
@@ -246,6 +247,7 @@ benefits = فائدے
 
 whats-public = عوامی کیا ہے؟
 email-not-public = اساں تہاݙی ای میل عوامی کائناں کریسوں
+username-optin-public = تساں آپݨاں ورتݨ ناں عوامی یا گمنام کرݨ چُݨ سڳدے ہو
 
 ## Speak & Listen Shortcuts
 
