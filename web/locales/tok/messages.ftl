@@ -549,6 +549,7 @@ about-playbook-how-add-language = nasin seme la mi ken pana e toki sin?
 about-playbook-how-add-language-content-1 = wan la, o lukin: toki sina li <languageLink>lon ala lon</languageLink>? ona li lon ala la, <strong>o ante toki e lipu, o kama jo e sitelen</strong>.
 about-playbook-how-add-language-content-2 = <strong>sina wile ante toki e lipu ni la</strong> o <translateVideo>kepeken</translateVideo> <pontoonLink>ilo Pontoon</pontoonLink>. ilo Pontoon li jo e toki mute. ona li jo ala e toki sina la, <pontoonRequestLink>sina ken pana e toki sin</pontoonRequestLink>. o wile e ona lon <repoLink>lipu ni</repoLink>. ni la ilo Common Voice li ken kama e toki sina. o lukin e toki mute lon <localizationFragment>lipu ni</localizationFragment>.
 about-playbook-how-add-language-content-3 = sina wile <strong>kama jo e sitelen</strong> la, o <scVideo>kepeken</scVideo> <scLink>ilo Sentence collector</scLink>.
+about-playbook-how-add-language-content-4 = sina ken pana e <scLinkAdd>sitelen pi mute ala</scLinkAdd>. ante la, sina ken <bulkImportDocsLink>pana e sitelen mute</bulkImportDocsLink> lon ilo Github. o sona e ni: sitelen o open, o tawa jan ale kepeken <licenseLink>nasin pana CC0</licenseLink>. ante la, o pali o pana e sitelen sina. o lukin e <scFragment>kulupu sitelen</scFragment>.
 
 ## How does localization work
 
@@ -562,6 +563,7 @@ about-playbook-how-localize-content-5 = sina wile e pona la, o lukin e sitelen t
 ## How to add sentences
 
 about-playbook-how-add-sentences = nasin seme la mi ken pana e sitelen?
+about-playbook-how-add-sentences-content-1 = <strong>ilo Sentence Collector</strong> li kama jo e sitelen, li pona e sitelen open. o pali e <scAccountLink>sijelo ilo</scAccountLink>. ni la, o pana e toki sina tawa <strong>lipu jan</strong> sina. sina ken <strong>pana</strong> e sitelen. sina ken <strong>pona</strong> e sitelen.
 about-playbook-how-add-sentences-content-2 = jan tu o pona e sitelen la, sitelen li pana tawa kulupu sona Common Voice. sina pali e nasin pona pi toki sina <languageGuidelinesLink>lon lipu ni</languageGuidelinesLink>. sitelen <licenseLink>o tawa jan mute, o open</licenseLink>. sitelen o kepeken nimi 14 anu lili. o toki tawa jan sitelen la, ona li ken kepeken <waiverLink>lipu ni</waiverLink>, li ken pana e sitelen ona kepeken nasin open. ona li ken pana e lipu tawa poki lipu commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = sina ken kepeken <scraperLink>ilo pi nimi tan</scraperLink>. ona la sina ken kama jo e sitelen tan lipu Wikipedia.
 about-playbook-how-add-sentences-content-4 = toki li pona la, mi pana insa e ona lon tenpo suno nanpa tu wan pi tenpo suno. mi pana e ona lon ilo lon tenpo pi pana weka kalama.
@@ -648,6 +650,7 @@ data-download-deny = ala
 data-download-license = lipu ken: <licenseLink>CC-0</licenseLink>
 data-download-modal = sina wile ala wile kama jo e poki pi <size>suli GB { $size }</size>?
 data-subtitle = mi pali e kulupu sona pi toki uta. jan ale li ken kepeken ona tawa ni: ona li ken pali e ilo toki, e ilo kute.
+data-explanatory-text = mi la kulupu sona suli en sona open li pona tawa pali ilo, tawa ilo kute, tawa ilo ale. pali ni li tawa ma ale la, jan ale li ken kama pali. mi wile e ni: ilo kute en ilo toki li tawa jan ale, li pona tawa jan ale, li pana e sona pi jan ale.
 data-get-started = <speechBlogLink>o open kepeken ilo kute!</speechBlogLink>
 data-other-title = kulupu sona ante pi toki uta
 data-other-goto = tawa lipu { $name }
