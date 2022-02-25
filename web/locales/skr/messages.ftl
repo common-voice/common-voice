@@ -748,9 +748,13 @@ demo-account = کھاتہ
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = سائن اپ لنک پٹھݨ کیتے ای میل درج کرو
+demo-account-sign-up = سائن اپ لنک پٹھو
 
 ## Demo Contribute
 
+demo-listen-subtitle = بھلا ونگار کیتے تیار ہو؟
 
 ## Demo Dashboard
 
@@ -758,9 +762,14 @@ demo-account = کھاتہ
 ## Validation criteria
 
 contribution-criteria-nav = معیار
+contribution-criteria-link = ونگار دا معیار سمجھو
+contribution-criteria-page-title = ونگار دا معیار
 contribution-for-example = مثال دے طور تے
 contribution-misreadings-title = غلط پڑھݨ
+contribution-background-noise-title = پس منظر دا شور
+contribution-background-voices-title = پس منظر دی آوازاں
 contribution-volume-title = حجم
+contribution-just-unsure-title = صرف غیر یقینی؟
 see-more = <chevron></chevron> ٻیا ݙیکھو
 see-less = <chevron></chevron>گھٹ ݙیکھو
 
@@ -790,6 +799,7 @@ sc-logout-button = لاگ آؤٹ
 
 ## HOME
 
+sc-home-collect-title = جملے کٹھے کرو
 
 ## GENERAL
 
