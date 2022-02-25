@@ -300,6 +300,9 @@ profile-form-additional-language =
     .label = وادھوں زبان
 profile-form-language =
     .label = زبان
+profile-form-variant =
+    .label = تساں { $language } دا کہڑا لہجہ الیندے ہو؟
+profile-form-variant-default-value = کوئی لہجہ کائنی چُݨیا
 profile-form-accent =
     .label = لہجہ
 profile-form-custom-accent-help-text =
@@ -697,6 +700,7 @@ set-a-goal = مقصد مقرر کرو
 cant-decide = بھلا فیصلہ نہوے کر سڳدے؟
 how-many-per-day = زبردست فی ݙین٘ہ کتی کلپ ہن؟
 how-many-a-week = زبردست! ہفتے وچ کتی کلپ ہن؟
+which-goal-type = بھلا تساں ٻولݨ، سُݨݨ چاہندے ہو یا ݙوہیں؟
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } کلپ
@@ -704,6 +708,10 @@ n-clips-pluralized =
     }
 confirm-goal = مقصد دی تصدیق کرو
 goal-interval-weekly = ہفتہ وار
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $type } کیتے ݙین٘ہوار مقصد آپݨے { $count } کلپ شیئر کرو
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type } کیتے ہفتہ وار مقصد آپݨے { $count } کلپ شیئر کرو
 share-goal-type-speak = ٻولݨ
 share-goal-type-listen = سݨݨ
 share-goal-type-both = ٻولݨ تے سݨݨ
@@ -721,6 +729,7 @@ profile-form-delete = پرفائل مٹاؤ
 ## Profile Download
 
 download-q = آپݨا ڈیٹا ڈاؤن لوڈ کرݨ دی لوڑ ہے؟
+download-info = ساکوں ݙسو جو تساں کیا ڈاؤن لوڈ کرݨ چاہندے ہو؟
 download-profile-title = پروفائل
 download-profile-size = کجھ بائٹ
 download-recordings-title = ریکارڈنگز
@@ -729,6 +738,7 @@ download-size = سائز
 download-selected = چُݨا ہویا
 download-start = پروفائل ڈیٹا ڈاؤن لوڈ کرو
 download-request = ریکارڈنگ دی ارداس کرو
+download-requests = ماضی دیاں رکاڈنگ ڈاؤن لوڈ ارداساں
 download-request-button = ڈاؤن لوڈ
 download-request-title = { $created }
 download-request-refresh-button = تازہ کرو
