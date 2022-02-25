@@ -364,6 +364,7 @@ change-email-setings = لاگ ان سُن٘ڄاݨ ہیٹھ ترتیباں واٹ
 faq-title = اکثر پچھے ون٘ڄݨ آلے سوالات
 faq-what-cv-q = Common Voice کیا ہے؟
 faq-why-important-q = ایہ اہم کیوں ہے؟
+faq-why-mission-q = موزلّا دی مہم دا کامن وائس حصہ کیوں ہے؟
 faq-what-cv-and-deepspeech-q = کامن وائس تے ڈیپ سپیچ وچ کیا فرق ہے؟
 faq-why-different-speakers-q = تہاکوں ہک زبان کیتے ٻہوں سارے مختلف آلاوݨ آلیاں دی لوڑ کیوں ہے؟
 faq-why-my-lang-q = میݙی زبان اڄݨ تائیں کیوں شامل کائنی؟
@@ -386,8 +387,11 @@ how-does-it-work-title-v2 = کامن وائس کین٘ویں کم کریندے؟
 about-localization-title = ویب سائٹ دی مقامیت
 about-sentence-collection-title = فقریاں دا مجموعہ
 about-new-lang-title = نویں زبان لان٘چ
+about-new-lang-subtitle = اساں ایں زبان وچ کامن وائس سائٹ لان٘چ کریندے ہیں۔
 about-voice-contrib-title = اواز دیاں ونگاراں
+about-voice-contrib-subtitle = لوک آندے ہن تے آپݨیاں آوازاں دان کریندن۔
 about-voice-validation-title = آواز تصدیق
+about-voice-validation-subtitle = ٻئے لوک اُنہاں آواز کلپاں دی تصدیق کریندن۔
 about-dataset-release-title = ڈیٹا سیٹ ریلیز
 about-speak = ٻولو
 about-listen-queue = سݨݨ دی قطار
@@ -504,6 +508,7 @@ size-megabyte = ایم بی
 download-language = { $language } ڈاؤن لوڈ کرو
 validated-hours = کل تصدیق تھئے گھنٹے
 recorded-hours = ریکارڈ تھئے گھنٹے
+whats-inside = کامن وائس ڈیٹاسیٹ دے اندر کیا ہے؟
 subscribe = سبسکرائب کرو
 get-started-speech = تقریر دی سُن٘ڄاݨ نال شروع کرو
 other-datasets = ٻئے وائس ڈیٹاسیٹس
@@ -571,6 +576,11 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> کلپ
        *[other] <bold>{ $count }</bold> کلپ
     }
+contribute-more =
+    { $count ->
+        [one] ٻیا { $count } کرݨ کیتے تیار ہو؟
+       *[other] ٻئے { $count } کرݨ کیتے تیار ہو؟
+    }
 record-cta = رکارڈنگ شروع کرو
 record-must-allow-microphone = مائیکروفون دی رسائی دی تہاݙی اجازت ضروری ہے۔
 record-no-mic-found = کوئی مائیکروفون کائنی لبھا۔
@@ -584,6 +594,7 @@ record-three-more-instruction = ترائے باقی ہن!
 record-last-instruction = <recordIcon></recordIcon> چھیکڑی!
 share-clip = آپݨاں کلپ شیئر کرو
 share-common-voice = Common Voice شیئر کرو
+record-submit-tooltip = { $actionType } جمع کراؤ ڄݙݨ تیار ہوون
 clips-uploaded = اپ لوڈ تھئے کلپ
 record-abort-title = پہلے رکاڈنگ مکمل کروں؟
 record-abort-submit = کلپ جمع کرواؤ
@@ -605,6 +616,8 @@ report-grammar-or-spelling = گرائمر / املا دی غلطی
 report-grammar-or-spelling-detail = ایں جملے وچ گرائمر یا املا دی غلطی ہے۔
 report-different-language = مختلف زبان
 report-difficult-pronounce = تلفظ کرݨ اوکھا ہے
+report-offensive-speech = کَوڑی تقریر
+report-offensive-speech-detail = کلپ وچ بے عزتی آلی یا توہین آمیز زبان ہے۔
 report-other-comment =
     .placeholder = تبصرہ
 success = کامیابی
