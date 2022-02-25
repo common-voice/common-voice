@@ -872,6 +872,14 @@ sc-confirm-button-text = تصدیق
 
 sc-lang-info-title-total = کل
 sc-lang-info-title-personal = ذاتی
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] کوئی کل جملے کائنی۔
+        [one] ١ کل جملہ
+       *[other] { $totalSentences } کل جملے۔
+    }
 
 ## LOGIN
 
