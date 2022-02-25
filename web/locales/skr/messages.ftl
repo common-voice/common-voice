@@ -416,6 +416,7 @@ about-playbook-how-add-language = میں زبان کین٘ویں شامل کری
 
 ## How does localization work
 
+about-playbook-how-localize = سائٹ مقامیت کین٘ویں کم کریندے؟
 about-playbook-how-localize-content-5 = مدد کیتے ساݙے وڈیو تشریح ساز ݙیکھو
 
 ## How to add sentences
@@ -453,9 +454,11 @@ mycroft-subtitle = مصنوعی ذہانت
 glossary = فرہنگ
 localization = مقامیت
 sentence-collection = فقریاں دا مجموعہ
+sst = (Speech-to-text (STT
 
 ## Error pages
 
+error-title-404 = اساں تہاݙے کیتے او ورقہ کائنی لبھ سڳے
 error-code = خرابی { $code }
 
 ## Data
@@ -472,6 +475,7 @@ release-version = ورشن
 dataset-date = تریخ
 license = لائسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = مکس تھئے
+data-download-singleword-title = ہک لفظی ہدف حصہ ڈاؤن لوڈ کرو
 terms-agree = میں متفق ہاں
 terms-disagree = میں راضی کائنی
 review-submit-title = جائزہ گھنو تے جمع کرواؤ
@@ -502,6 +506,8 @@ subscribe = سبسکرائب کرو
 get-started-speech = تقریر دی سُن٘ڄاݨ نال شروع کرو
 other-datasets = ٻئے وائس ڈیٹاسیٹس
 feedback-q = فیڈبیک ݙیسو؟
+community-playbook = برادری پلے بک
+data-other-ted-name = TED-LIUM Corpus
 go-discourse = ڈسکورس تے ون٘ڄو
 go-languages-page = زباناں ورقے تے ون٘ڄو
 more = ٻئے
@@ -515,6 +521,7 @@ download-title = تہاݙی ڈاؤن لوڈ شروع تھی ڳئی ہے۔
 download-form-email =
     .label = آپݨا ای میل درج کرو
     .value = تہاݙا تھورا، اساں رابطہ کریسوں۔
+download-back = کامن وائس ڈیٹاسیٹ تے واپس ون٘ڄو
 download-no = کو، شکریہ
 
 ## Contact Modal
@@ -571,15 +578,19 @@ record-error-too-quiet = ایہ رکاڈنگ ݙاڈھی چُپ ہائی۔
 record-cancel = ولدا رکارڈنگ منسوخ کرو
 record-instruction = { $actionType }<recordIcon></recordIcon> وت اُچی آواز نال جملہ پڑھو
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> جہڑے ویلے تھی ون٘ڄے
+record-three-more-instruction = ترائے باقی ہن!
 record-last-instruction = <recordIcon></recordIcon> چھیکڑی!
 share-clip = آپݨاں کلپ شیئر کرو
 share-common-voice = Common Voice شیئر کرو
 clips-uploaded = اپ لوڈ تھئے کلپ
+record-abort-title = پہلے رکاڈنگ مکمل کروں؟
 record-abort-submit = کلپ جمع کرواؤ
 record-abort-continue = ریکارڈنگ مکمل کرو
+record-abort-delete = ٻاہر نکلو تے کلپ مٹاؤ
 listen-last-time-instruction = <playIcon></playIcon>چھیکڑی ہک!
 speak-empty-state-cta = فقرے پاؤ
 record-button-label = آپݨی آواز رکاڈ کرو
+login-to-get-started = شروع کرݨ کیتے لاگ یا سائن اپ کرو
 target-segment-add-voice = آپݨی آواز رلاؤ
 target-segment-learn-more = ٻیا سِکھو
 
@@ -588,6 +599,8 @@ target-segment-learn-more = ٻیا سِکھو
 report = رپورٹ کرو
 report-title = رپورٹ جمع کرواؤ
 report-offensive-language = بزاری زبان
+report-grammar-or-spelling = گرائمر / املا دی غلطی
+report-grammar-or-spelling-detail = ایں جملے وچ گرائمر یا املا دی غلطی ہے۔
 report-different-language = مختلف زبان
 report-difficult-pronounce = تلفظ کرݨ اوکھا ہے
 report-other-comment =
