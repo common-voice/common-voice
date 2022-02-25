@@ -942,8 +942,11 @@ sc-review-link = نظرثانی
 
 sc-settings-title = ترتیباں
 sc-settings-ui-language = انٹرفیس زبان
+sc-settings-show-all-button = سارے چھوڑے ہوئے جملے ولدا ݙکھاؤ
+sc-settings-failed = ترتیباں کائنی وٹا سڳا۔ سوہݨا ولدا کوشش کرو۔
 sc-validation-no-numbers = جملے وچ عدد نئیں ہووݨے چاہیدے
 sc-validation-no-symbols = جملے وچ علامتاں نئیں ہووݨے چاہیدے
+sc-validation-no-abbreviations = جملے وچ مخففات نئیں ہووݨے چاہیدے
 
 # [/SentenceCollector]
 
