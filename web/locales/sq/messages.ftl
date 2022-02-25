@@ -470,6 +470,15 @@ about-language-req-subtitle = Dikush kërkon që të shtohet një gjuhë.
 about-localization-title = Përkthim Sajti
 about-localization-subtitle = Teksti i sajtit është përkthyer në atë gjuhë.
 about-sentence-collection-title = \Grumbullim Frazash
+about-sentence-collection-subtitle = Grumbullohen fraza që të lexohen nga njerëz.
+about-new-lang-subtitle = E japin sajtin Common Voice në këtë gjuhë.
+about-voice-contrib-title = Kontributi Zërash
+about-voice-contrib-subtitle = Njerëzit vijnë dhe kontribuojnë me zërat e tyre.
+about-voice-validation-title = Vlerësim i Zërave
+about-voice-validation-subtitle = Persona të tjerë vlerësojnë këto copëza zanore.
+about-dataset-release-title = Hedhje Në Qarkullim i Grupit të të Dhënave
+about-dataset-release-subtitle = Grupin e të dhënave e hedhim në qarkullim çdo 3 muaj.
+about-subscribe-text = Doni të mbani lidhjet me Common Voice?
 about-speak = Flisni
 about-speak-text = Kontribuesit incizojnë copëza zanore duke lexuar prej një fondi frazash të dhuruara.
 about-listen-queue = Radhë Dëgjimi
@@ -498,29 +507,39 @@ about-get-involved-text-2 =
     Bukur! Lidhuni përmes email-i ose forumesh <discourseLink>Discourse</discourseLink>,
     parashtroni probleme sajti përmes <githubLink>GitHub</githubLink>,
     ose merrni pjesë te biseda të bashkësisë, te <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Si të mbaj lidhjet?
 about-nav-why-common-voice = Pse?
 about-nav-how-it-works = Si?
 about-nav-partners = Partnerë
 about-nav-get-involved = Përfshihuni
+about-nav-how-it-works-2 = Si funksionon Common Voice work?
+about-nav-playbook = Mësoni si të merrni pjesë
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Ç’është një gjuhë në Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Si ta shtoj një gjuhë?
 
 ## How does localization work
 
+about-playbook-how-localize-content-4 = Sajti është gati për t’u hedhur në qarkullim kur mbërrin plotësim 75%.
+about-playbook-how-localize-content-5 = Për ndihmë, shihni videon tonë shpjeguese
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Si të shtoj fraza?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Veprimtari
+about-playbook-how-grow-language-content-4 = Media shoqërore
 
 ## How to validate
 
