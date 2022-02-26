@@ -678,6 +678,12 @@ review-delete-recordings = o weka e kalama awen mi
 ## Datasets Page
 
 datasets-headline = mi pali e kulupu sona pi kalama toki. ona li open, li kepeken toki mute. jan ale li ken kepeken ona, li ken pona e ilo kute kepeken ona.
+datasets-positioning =
+    mi la, kulupu sona open li pona tawa pali ilo, li pona tawa sona pi ilo kute mute.
+    
+    kulupu sona Common Voice li jo e toki mute. kulupu sona ante la, kulupu sona Common Voice li suli nanpa wan. taso, kulupu sona ante li lon.
+    
+    o lukin e lipu ni tawa sona ni: mi pana e sona pi kulupu sona ante. ilo Common Voice li kama suli la, mi pana e sin ona tawa lipu ni.
 language = toki
 # File size in gigabytes
 size = suli
@@ -1149,6 +1155,7 @@ sc-howto-addlang-text = sina kama kepeken sijelo ilo la, sina ken kepeken toki w
 sc-howto-addsen-title = o pana e sitelen sin
 sc-howto-addsen-item-1 = sitelen ale sina o kepeken <wikipediaLink>nasin pana CC0</wikipediaLink>. sina pana e sitelen pi nasin pana ni ala la, o kepeken <cc0WaiverLink>nasin pana ante ni</cc0WaiverLink>. ni la sina ken pana e sitelen pi jan ale ala.
 sc-howto-addsen-item-2 = nanpa la, o pana ala e nanpa lon sitelen pana. ona li ken pakala e toki jan. lon toki ante la, nimi nanpa li ken ante. ni la, nanpa li ken nasa e kulupu sona.
+sc-howto-addsen-item-3 = sitelen lili, nimi lili. toki pona la, o kepeken ala nimi lili. jan li kepeken sitelen ni: "msa". ni li sitelen "mi sona ala." taso, jan li lukin e "msa" lon ilo Common Voice la, ona li sona ala e ni: nasin seme la mi toki uta e ona? sitelen lili ale en nimi lili ale la, o kepeken ala ona. sina sona e nimi la, o kepeken nimi suli.
 sc-howto-addsen-item-4 = sitelen lili pini la, o kepeken ona lon tenpo lili. toki pona li kepeken ala ni lon insa nimi. sina wile kepeken sitelen lili pini la, ni li ken pona. taso, o kepeken lili ona.
 sc-howto-addsen-item-5 = sitelen pi toki ante. o kepeken ala sitelen pi toki ante. o lukin: sitelen lili “ж” li tan toki Losi. taso, ona li lon ala toki pona. tan ni la, o kepeken ala ona.
 sc-howto-addsen-item-6 = toki li ken jo e <validationRulesLink>nasin pona ante</validationRulesLink>. toki li jo ala e ona la, ona li kepeken nasin pona pi toki Inli.
