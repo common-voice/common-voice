@@ -369,8 +369,11 @@ change-email-setings = لاگ ان سُن٘ڄاݨ ہیٹھ ترتیباں واٹ
 faq-title = اکثر پچھے ون٘ڄݨ آلے سوالات
 faq-what-cv-q = Common Voice کیا ہے؟
 faq-why-important-q = ایہ اہم کیوں ہے؟
+faq-how-get-q = میں کامن وائس دا ڈیٹا کین٘ویں گھن سڳدا ہاں؟
+faq-when-release2-q = تساں ٻنھاں زباناں وچ کام ن وائس ڈیٹا کݙݨ ریلیز کریسو؟
 faq-why-mission-q = موزلّا دی مہم دا کامن وائس حصہ کیوں ہے؟
 faq-what-cv-and-deepspeech-q = کامن وائس تے ڈیپ سپیچ وچ کیا فرق ہے؟
+faq-is-goal-assistant-q = بھلا کامن وائس دا مقصد صوتی معاون بݨاوݨ ہے؟
 faq-why-different-speakers-q = تہاکوں ہک زبان کیتے ٻہوں سارے مختلف آلاوݨ آلیاں دی لوڑ کیوں ہے؟
 faq-why-my-lang-q = میݙی زبان اڄݨ تائیں کیوں شامل کائنی؟
 faq-how-calc-hours-q = کامن وائس گھنٹیاں دا حساب کتاب کین٘ویں کریندے؟
@@ -432,6 +435,7 @@ about-playbook-how-add-language = میں زبان کین٘ویں شامل کری
 ## How does localization work
 
 about-playbook-how-localize = سائٹ مقامیت کین٘ویں کم کریندے؟
+about-playbook-how-localize-content-4 = ایہ سائٹ جہڑے ویلے ٧٥٪  مکمل تھیندی ہے تاں لان٘چ تھیوݨ کیتے تیار ہوندی ہے۔
 about-playbook-how-localize-content-5 = مدد کیتے ساݙے وڈیو تشریح ساز ݙیکھو
 
 ## How to add sentences
@@ -529,6 +533,7 @@ community-playbook = برادری پلے بک
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = ڈسکورس تے ون٘ڄو
 go-languages-page = زباناں ورقے تے ون٘ڄو
+ready-to-validate = بھلا تساں جملیاں دی تصدیق کرݨ دی مدد کیتے تیار ہو؟
 more = ٻئے
 close = بند کرو
 download = ڈاؤن لوڈ
@@ -557,6 +562,7 @@ contact-required = *ضروری ہے
 request-language-title = زبان ارداس
 request-language-form-language =
     .label = زبان
+request-language-success-title = زبان دی ارداس کامیابی نال جمع تھی ڳئی، تہاݙا تھورا۔
 select-language = زبان چݨو۔۔۔
 other-language = ٻئی زبان
 
