@@ -1039,6 +1039,7 @@ demo-account-sign-up = o kama jo e nimi nasin kama
 ## Demo Contribute
 
 demo-contribute-card-header = sina ken ala ken pana e kalama uta sina anu kute sina?
+demo-contribute-card-body-v2 = sina sona e ilo Common Voice la, o kepeken ona! o pilin e ilo kute la o toki uta e sitelen.<br/><br/>sina wile pona e kalama pi jan ante la, o pilin e sitelen open. sina ni la, sina kute e ni: sitelen li sama ala sama kalama?
 demo-listen-subtitle = sina wile ala wile pana?
 
 ## Demo Dashboard
@@ -1130,6 +1131,7 @@ sc-logout-button = o weka tan ilo
 ## HOME
 
 sc-home-title = kama pona tawa ilo Sentence Collector pi ilo Common Voice
+sc-home-intro = ilo Sentence Collector li ilo pi <commonVoiceLink>ilo Common Voice</commonVoiceLink>. kepeken ona la jan li ken kama jo e sitelen, li ken pona e sitelen. ilo li ken jo e sitelen mute, li ken pana e ona tawa ilo Common Voice. taso, sitelen ale o tawa jan ale, o open. lon tenpo esun pini la mi pana e sitelen pona ale tawa lipu Common Voice.
 sc-home-collect-title = o kulupu e sitelen
 sc-home-collect-text = o pana e sitelen pi kepeken open la sina pana e pona.
 sc-home-review-title = o pona e sitelen
@@ -1166,6 +1168,7 @@ sc-howto-review-criteria-5 = sina lukin e pakala la o pilin e nena "o weka". sin
 sc-howto-review-criteria-6 = sitelen sin li lon ala la, o kama jo, o pana e ona sin!
 sc-howto-findpd-title = o alasa e sitelen pi jan ale
 sc-howto-findpd-subtitle = o alasa e ona kepeken ilo sona linja
+sc-howto-findpd-text-2 = o sona e ni: mi wile pana e sitelen ale la, mi wile e ken ni. ni la, sitelen <wikipediaLink>o open, o tawa jan ale</wikipediaLink>. sina sona ala e open sitelen la, o toki tawa jan pali pi sitelen ni. ona li ken pana e sitelen ona tawa jan ale. ni la, ona o tawa <cc0WaiverLink>lipu pi pana open</cc0WaiverLink>. ona li wile ala e ni la, sina ken ala pana e sitelen ni.
 sc-howto-findpd-tips = o sona e ni la, sina ken alasa e sitelen sin:
 sc-howto-findpd-tips-1 = o lukin e kulupu toki, e sitelen toki, e sitelen tawa musi, e ijo ale pi jan toki.
 sc-howto-findpd-tips-2 = toki pi jan lawa en lipu en lipu sona li pona. ale ni li lawa lili la, ona li pona lili.
