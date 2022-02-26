@@ -36,9 +36,9 @@ ba = Baskírska
 bas = Bassa
 be = Hvítrússneska
 bg = Búlgarska
-bm = Bambaríska
 bn = Bengalska
 br = Bretónska
+bs = Bosníska
 bxr = Búrjatíska
 ca = Katalónska
 cak = Kaqchikel
@@ -67,16 +67,20 @@ fy-NL = Frísneska
 ga-IE = Írska
 gl = Galisíska
 gn = Gvaraní
+gom = Goan Konkani
 ha = Hása
 he = Hebreska
 hi = Hindí
 hr = Króatíska
 hsb = Hásorbíska
+ht = Haítíska
 hu = Ungverska
 hy-AM = Armenska
 hyw = Vestur-armenska
 ia = Interlingua
 id = Indónesíska
+ie = Interlingue
+ig = Ígbó
 is = Íslenska
 it = Ítalska
 izh = Ingríska
@@ -85,34 +89,48 @@ ka = Georgíska
 kaa = Karakalpak
 kab = Kabýlska
 kbd = Kabardíska
+ki = Kikuyu
 kk = Kasakska
+km = Kmeríska
 kmr = Kurmanji-kúrdíska
+knn = Konkani (Devanagarí)
 ko = Kóreska
 kpv = Kómíska
 kw = Kornbreska
 ky = Kyrgíska
+lb = Lúxemborgíska
 lg = Luganda
 lij = Liguríska
 lt = Litháenska
 lv = Lettneska
+mai = Maithilíska
 mdf = Mokseska
 mg = Malagasíska
 mhr = Austur-mari
 mk = Makedónska
 ml = Malayalam
 mn = Mongólska
+mni = Meetei Lon
+mos = Mossi
+mr = Marathí
 mrj = Vestur-mari
+ms = Malaíska
 mt = Maltneska
 my = Búrmíska
 myv = Erzýska
+nan-tw = Taívanska (Minnan)
 nb-NO = Norska (bokmål)
 ne-NP = Nepalska
+nia = Nias
 nl = Hollenska
 nn-NO = Norska (nynorsk)
+nyn = Runyankole
 oc = Oksítanska
 or = Oríja
 pa-IN = Punjabi
+pap-AW = Papíamentó (Arúba)
 pl = Pólska
+ps = Pastó
 pt = Portúgalska
 rm-sursilv = Surilsvanrómanska
 rm-vallader = Valladerrómanska
@@ -145,6 +163,9 @@ uz = Úsbeska
 vec = Feneyska
 vi = Víetnamska
 vot = Votíska
+yi = Jiddíska
+yo = Jórúba
+yue = Kantónska
 zh-CN = Kínverska (Kína)
 zh-HK = Kínverska (Hong Kong)
 zh-TW = Kínverska (Taívan)
@@ -176,6 +197,7 @@ logout = Útskrá
 ## Home Page
 
 home-title = Samrómur er frumkvæði Mozilla til þess að kenna vélum hvernig alvöru fólk talar.
+default-tagline = Samrómur er verkefni á vegum Mozilla sem gengur út á það að kenna tölvum að skilja hvernig mannfólk talar.
 home-cta = Hækkið róminn, deilið hér!
 wall-of-text-start = Rödd er náttúruleg, rödd er mennsk. Þess vegna heillumst við af sköpun nothæfrar raddtækni handa vélunum okkar. En til þess að skapa raddkerfi þörfnumst við mýgrúts gagna.
 wall-of-text-more-mobile = Flest gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Samróm, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
@@ -271,6 +293,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Taka upp/Stöðva
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Taka upp aftur
+shortcut-discard-ongoing-recording = ESC
 request-language-text = Sérðu enn engan Samróm fyrir tungumálið þitt?
 request-language-button = Biðja um tungumál
 
@@ -417,12 +440,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Af hverju?
-about-subtitle = Samrómur er þáttur í framtaki Mozilla til að hjálpa vélum að skilja hvernig alvöru fólk talar. Fyrir utan Samróms gagnasettið, stendur Mozilla að opninni talgreiningar vél sem kallast Djúp Tal.
-about-header-description =
-    Bæði þessi verkefni eiga þátt í að brúa bil stafrænna radda. Raddkennslabúnaður bætir mannlegum þætti við tækin okkar, en gífurlegt magn radd gagna þarf til þess að búa þá til. Í dag er meiruhluti gagnanna kostnaðarsöm og í eigu einka aðila. 
-    Við viljum gera raddgögn ókeypis og aðgengileg öllum, svo gögnin endurspegli fjölbreytileika alvöru fólks. Saman getum við bætt gæði raddkennslabúnaðar fyrir alla.
-how-does-it-work-title = Hvernig virkar það?
 how-does-it-work-text = Við erum að "hópvirkja" öflun opins raddgagnasafns. Leggðu fram röddina þína, staðfestu nákvæmni hljóðbrota frá öðrum, gerðu gagnasafnið betra fyrir alla.
+
+## How does it work section
+
 about-speak = Tal
 about-speak-text = Þátttakendur taka upp lestur setninga sem fengnar er úr banka gefinna setninga.
 about-listen-queue = Hlustunarröð
@@ -455,6 +476,34 @@ about-nav-why-common-voice = Af hverju?
 about-nav-how-it-works = Hvernig?
 about-nav-partners = Samstarfsaðilar
 about-nav-get-involved = Taka þátt
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Gervigreind
 mycroft-description =
@@ -853,4 +902,60 @@ read-more-about = Lestu meira á um síðuna okkar
 
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
