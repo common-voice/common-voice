@@ -132,17 +132,23 @@ pap-AW = Papíamentó (Arúba)
 pl = Pólska
 ps = Pastó
 pt = Portúgalska
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Surilsvanrómanska
 rm-vallader = Valladerrómanska
 ro = Rúmverska
 ru = Rússneska
 rw = Rúandíska
 sah = Jakútíska
+sat = Santali (Ol Chiki)
 sc = Sardiníska
 scn = Sikileyska
+shi = Shilha
 si = Singalíska
 sk = Slóvaska
+skr = Saraiki
 sl = Slóvenska
+so = Sómalska
 sq = Albanska
 sr = Serbneska
 sv-SE = Sænska
@@ -152,11 +158,18 @@ ta = Tamílska
 te = Telúgú
 tg = Tadsíkíska
 th = Taílenska
+ti = Tigrinya
+tig = Tigre
+tk = Túrkmenska
 tl = Tagalog
+tok = Toki Pona
 tr = Tyrkneska
 tt = Tatarska
+tw = Twi
+ty = Tahítíska
 uby = Ubykh
 udm = Údmurtíska
+ug = Uyghúr
 uk = Úkraínska
 ur = Úrdú
 uz = Úsbeska
@@ -197,7 +210,7 @@ logout = Útskrá
 ## Home Page
 
 home-title = Samrómur er frumkvæði Mozilla til þess að kenna vélum hvernig alvöru fólk talar.
-default-tagline = Samrómur er verkefni á vegum Mozilla sem gengur út á það að kenna tölvum að skilja hvernig mannfólk talar.
+default-tagline = Samrómur (Common Voice) er verkefni á vegum Mozilla sem gengur út á það að kenna tölvum að skilja hvernig mannfólk talar.
 home-cta = Hækkið róminn, deilið hér!
 wall-of-text-start = Rödd er náttúruleg, rödd er mennsk. Þess vegna heillumst við af sköpun nothæfrar raddtækni handa vélunum okkar. En til þess að skapa raddkerfi þörfnumst við mýgrúts gagna.
 wall-of-text-more-mobile = Flest gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Samróm, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
@@ -294,6 +307,9 @@ shortcut-record-toggle-label = Taka upp/Stöðva
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Taka upp aftur
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Farga upptöku sem er í gangi
+shortcut-submit = Til baka
+shortcut-submit-label = Senda inn upptökur
 request-language-text = Sérðu enn engan Samróm fyrir tungumálið þitt?
 request-language-button = Biðja um tungumál
 
@@ -319,6 +335,8 @@ profile-form-native-language =
     .label = Móðurmál
 profile-form-additional-language =
     .label = Önnur mál
+profile-form-language =
+    .label = Tungumál
 profile-form-accent =
     .label = Hreimur
 profile-form-age =
@@ -372,6 +390,7 @@ browse-file = Dragðu og slepptu eða <browseWrap>flettu upp</browseWrap>
 connect-gravatar = Tengja við Gravatar
 gravatar_not_found = Enginn gravatar fannst fyrir netfangið þitt
 file_too_large = Myndin sem var valin er of stór
+max-file-size = { $kb }kb hámark
 
 ## Profile - Email
 
@@ -444,6 +463,8 @@ how-does-it-work-text = Við erum að "hópvirkja" öflun opins raddgagnasafns. 
 
 ## How does it work section
 
+about-localization-title = Staðfærsla vefsvæðis
+about-localization-subtitle = Texti vefsvæðisins er þýddur á það tungumál.
 about-speak = Tal
 about-speak-text = Þátttakendur taka upp lestur setninga sem fengnar er úr banka gefinna setninga.
 about-listen-queue = Hlustunarröð
@@ -486,6 +507,10 @@ about-nav-get-involved = Taka þátt
 
 ## How does localization work
 
+about-playbook-how-localize = Hvernig virkar staðfærsla vefsvæðis?
+about-playbook-how-localize-content-1 = Þýðing á Common Voice vefsvæðinu fer fram á <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Vefsvæðið telst er tilbúið til birtingar þegar það nær 75% fullþýddum strengjum.
+about-playbook-how-localize-content-5 = Horfðu á útskýringarmyndskeið okkar til glöggvunar
 
 ## How to add sentences
 
@@ -647,9 +672,9 @@ other-language = Annað tungumál
 ## Languages Overview
 
 language-section-in-progress = Í vinnslu
-language-section-in-progress-new-description = Þessi tungumál eru um þessar mundir í þróun hjá Samómssamfélaginu. Stikan sýnir hversu langt hvert tungmál er komið í <localizationGlossaryLink>vefsíðuþýðingu</localizationGlossaryLink> og <sentenceCollectionGlossaryLink>söfnun setninga</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = Þessi tungumál eru um þessar mundir í þróun hjá Samrómssamfélaginu. Framvindustikan sýnir hversu langt hvert tungmál er komið í <localizationGlossaryLink>þýðingu vefsvæðisins</localizationGlossaryLink> og í <sentenceCollectionGlossaryLink>söfnun setninga</sentenceCollectionGlossaryLink>.
 language-section-launched = Gangsett
-language-section-launched-description = Fyrir þessi tungumál hefur vefsíðan að fullu verið <localizationGlossaryLink>þýdd</localizationGlossaryLink>, og er komið með nóg af <sentenceCollectionGlossaryLink>söfnuðum setningum</sentenceCollectionGlossaryLink> til þess að leyfa áframhaldandi<speakLink>tals-</speakLink> og <listenLink>hlustunarframlög</listenLink>.
+language-section-launched-description = Fyrir þessi tungumál hefur vefsvæðið verið <localizationGlossaryLink>þýdd</localizationGlossaryLink> að fullu, og er komið með nóg af <sentenceCollectionGlossaryLink>söfnuðum setningum</sentenceCollectionGlossaryLink> til þess að leyfa áframhaldandi framlög fyrir <speakLink>tal-</speakLink> og <listenLink>hlustun</listenLink>.
 languages-show-more = Sjá meira
 languages-show-less = Sjá minna
 language-meter-in-progress = Framvinda
@@ -959,3 +984,5 @@ read-more-about = Lestu meira á um síðuna okkar
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Veldu tungumál/staðfærslu

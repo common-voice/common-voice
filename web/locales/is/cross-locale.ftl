@@ -1,8 +1,8 @@
 ## Languages
 
-contribute = Bæta
+contribute = Leggðu lið
 get-involved-button = Taka þátt
-get-involved-title = Bæta við { $lang }
+get-involved-title = Leggðu þitt af mörkum til { $lang }
 get-involved-text = Við þökkum áhugann við að bæta { $lang }'. Unnið er hart að því að koma hverju einasta tungumáli í kring og halda teymunum upplýstum með tölvupósti. Langi þig að taka þátt, vinsamlega skráðu netfang að neðan.
 get-involved-form-title = Skráðu þig fyrir uppfærslur um { $lang }'.
 get-involved-email =
