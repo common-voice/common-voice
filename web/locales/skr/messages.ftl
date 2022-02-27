@@ -556,6 +556,7 @@ download-language = { $language } ڈاؤن لوڈ کرو
 validated-hours = کل تصدیق تھئے گھنٹے
 recorded-hours = ریکارڈ تھئے گھنٹے
 whats-inside = کامن وائس ڈیٹاسیٹ دے اندر کیا ہے؟
+want-dataset-update = اساں کامن وائس ڈیٹاسیٹ دا نواں ورشن ریلیز کریندے ہیں تاں تساں اپ ڈیٹاں چاہندے ہو؟ ساݙا نیوزلیٹر سبسکرائب کرو۔
 subscribe = سبسکرائب کرو
 get-started-speech = تقریر دی سُن٘ڄاݨ نال شروع کرو
 other-datasets = ٻئے وائس ڈیٹاسیٹس
@@ -658,6 +659,8 @@ record-abort-submit = کلپ جمع کرواؤ
 record-abort-continue = ریکارڈنگ مکمل کرو
 record-abort-delete = ٻاہر نکلو تے کلپ مٹاؤ
 listen-last-time-instruction = <playIcon></playIcon>چھیکڑی ہک!
+listen-empty-state = ایں زبان وچ تصدیق کرݨ کیتے ساݙے کول کلپ مُک ڳئے ہن۔۔۔
+speak-empty-state = ایں زبان وچ رکاڈ کرݨ کیتے ساݙے کول جملے مُک ڳئے ہن۔۔۔
 speak-empty-state-cta = فقرے پاؤ
 record-button-label = آپݨی آواز رکاڈ کرو
 keep-track-profile = پروفائل واٹوں آپݨی پیش رفت تے نظر رکھو
@@ -679,6 +682,7 @@ report-grammar-or-spelling-detail = ایں جملے وچ گرائمر یا ام�
 report-different-language = مختلف زبان
 report-different-language-detail = ایہ میݙی زبان کنوں مختلف زبان لکھا ڳیا ہے۔
 report-difficult-pronounce = تلفظ کرݨ اوکھا ہے
+report-difficult-pronounce-detail = ایندے وچ اینجھے الفاظ  یا جملے ہن جنہاں کوں پڑھݨ یا تلفظ کرݨ اوکھا ہے۔
 report-offensive-speech = جارحانہ تقریر
 report-offensive-speech-detail = کلپ وچ بے عزتی آلی یا توہین آمیز زبان ہے۔
 report-other-comment =
@@ -755,6 +759,7 @@ n-clips-pluralized =
         [one] { $count } کلپ
        *[other] { $count } کلپاں
     }
+help-share-goal = ٻیاں آوازں لبھݨ وچ ساݙی مدد کرو، آپݨاں مقصد شیئر کرو
 confirm-goal = مقصد دی تصدیق کرو
 goal-interval-weekly = ہفتہ وار
 # $type is one of share-goal-type-*
@@ -849,10 +854,12 @@ contribution-misreadings-example-5-title = اساں کافی گھنݨ ٻاہر �
 contribution-misreadings-example-6-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-7-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-varying-pronunciations-title = بدلدا ہویا تلفظ
+contribution-varying-pronunciations-example-1-title = آپݨے سر تے اوں بیریٹ پاتا ہویا ہائی۔
 contribution-varying-pronunciations-example-2-title = اوندا ہتھ اُٹھا ہویا ہائی۔
 contribution-background-noise-title = پس منظر دا شور
 contribution-background-noise-example-1-fixed-title = <strong>[سنیز]<strong/>ٹریاسک دے دیوہیکل ڈاینا <strong>[کف]</strong>۔
 contribution-background-noise-example-2-fixed-title = ٹریاسک دے دیوہیکل ڈاینا <strong>[کف]</strong>۔
+contribution-background-noise-example-2-explanation = [عبارت دا حصہ کائنی سُݨ سڳیندا]
 contribution-background-voices-title = پس منظر دی آوازاں
 contribution-background-voices-example-1-title = ٹریاسک دے دیوہیکل ڈایناسور۔ <strong>[ہک آواز وچ پڑھا ڳیا]</strong>
 contribution-volume-title = حجم
