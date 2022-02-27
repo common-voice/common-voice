@@ -917,6 +917,7 @@ sc-howto-review-criteria-3 = جملہ الاوݨ دے قابل ہووݨ ضرور
 sc-howto-findpd-title = عوامی ڈومین وچ موجودہ جملے لبھݨ
 sc-howto-findpd-subtitle = انٹرنیٹ تے انہاں کوں ڳولو
 sc-howto-findpd-tips = جملے لبھݨ کیتے کجھ گُر ایہ ہن:
+sc-howto-findpd-subtitle-2 = مقامی تنظیماں یا افراداں نال بھائیوال
 
 ## MY SENTENCES
 
@@ -932,6 +933,7 @@ sc-my-submission = جمع کرواݨ: { $batchId }
 sc-my-source = ماخذ:  { $source }
 sc-my-delete = چُݨے جملے مٹاؤ
 sc-my-deleting = چُݨے جملے مٹیندا پئے۔۔۔
+sc-my-err-failed-delete = جملے مٹاوݨ وچ ناکامی تھئی۔۔۔ سوہݨا، ولدا کوشش کرو!
 
 ## REJECTED
 
@@ -960,6 +962,7 @@ sc-submit-select-language =
 sc-submit-add-sentences = <wikipediaLink>عوامی ڈومین</wikipediaLink> جملے شامل کرو
 sc-submit-ph-one-per-line =
     .placeholder = ہک جملہ فی سطر
+sc-submit-from-where = ایہ <wikipediaLink>عوامی ڈومین</wikipediaLink> جملے کتھوں دے ہن؟
 sc-submit-button =
     .submitText = جمع کرواؤ
 sc-submit-guidelines = سوہݨا <howToLink>رہنمائی ہدایات</howToLink> دی پڑتال کرو
@@ -996,6 +999,14 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } تہاݙے ولوں مسترد تھئے
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] جمع کرواوݨ کیتے کوئی جملہ تیار کائنی!
+        [one] جمع کرواوݨ کیتے ١ جملہ تیار ہے!
+       *[other] جمع کرواوݨ کیتے { $readyCount }  جملے تیار ہن!
+    }
 sc-confirm-button-text = تصدیق
 
 ## LANGUAGE INFO
