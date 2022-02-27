@@ -629,6 +629,8 @@ speak-empty-state-cta = فقرے پاؤ
 record-button-label = آپݨی آواز رکاڈ کرو
 keep-track-profile = پروفائل واٹوں آپݨی پیش رفت تے نظر رکھو
 login-to-get-started = شروع کرݨ کیتے لاگ یا سائن اپ کرو
+target-segment-first-card = تساں ساݙے پہلے ہدف ٹوٹے وچ حصہ پیندے پئے ہو
+target-segment-generic-card = تساں ہدف ٹوٹے وچ حصہ پیندے پئے ہو
 target-segment-add-voice = آپݨی آواز رلاؤ
 target-segment-learn-more = ٻیا سِکھو
 
@@ -637,6 +639,7 @@ target-segment-learn-more = ٻیا سِکھو
 report = رپورٹ کرو
 report-title = رپورٹ جمع کرواؤ
 report-offensive-language = بزاری زبان
+report-offensive-language-detail = جملے وچ بے عزتی آلی یا توہین آمیز زبان ہے۔
 report-grammar-or-spelling = گرائمر / املا دی غلطی
 report-grammar-or-spelling-detail = ایں جملے وچ گرائمر یا املا دی غلطی ہے۔
 report-different-language = مختلف زبان
@@ -728,6 +731,7 @@ share-goal-type-listen = سݨݨ
 share-goal-type-both = ٻولݨ تے سݨݨ
 weekly-goal-created = تہاݙا ہفتہ وار مقصد بݨ ڳیا
 daily-goal-created = تہاݙا ݙین٘ہ وار مقصد بݨ ڳیا
+track-progress = اتھ تے آپݨے شماریات ورقے تے پیش رفت دا کھُرا چاؤ۔
 return-to-edit-goal = کہیں ویلے وی آپݨے مقصد وچ تبدیلی کرݨ کیتے اتھ واپس آؤ۔
 share-goal = میݙا مقصد شیئر کرو
 
@@ -755,6 +759,7 @@ download-request-title = { $created }
 download-request-archive-single = کلہی زپ فائل بشمول
 download-request-refresh-button = تازہ کرو
 download-request-modal-title = لنک ڈاؤن لوڈ کرو
+download-request-modal-description = تہاݙیاں زپ فائلاں ڈاؤن لوڈ کرݨ کیتے اتھ لنک ہن۔
 download-request-link-text = { $total } وچوں زپ ؀{ $offset }
 download-request-metadata-link = جملے دی عبارت
 
@@ -786,6 +791,7 @@ demo-account-sign-up = سائن اپ لنک پٹھو
 
 ## Demo Contribute
 
+demo-contribute-card-header = آپݨی آواز شامل کرݨ یا آپݨاں کن ادھار ݙیوݨ کیتے تیار ہو؟
 demo-listen-subtitle = بھلا ونگار کیتے تیار ہو؟
 
 ## Demo Dashboard
@@ -798,7 +804,9 @@ contribution-criteria-link = ونگار دا معیار سمجھو
 contribution-criteria-page-title = ونگار دا معیار
 contribution-for-example = مثال دے طور تے
 contribution-misreadings-title = غلط پڑھݨ
+contribution-misreadings-description-extended-list-2 = لفظ دے چھیکڑ تے ہک <strong>'s'</strong> غائب ہے۔
 contribution-misreadings-example-5-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
+contribution-misreadings-example-6-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-7-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-varying-pronunciations-title = بدلدا ہویا تلفظ
 contribution-background-noise-title = پس منظر دا شور
