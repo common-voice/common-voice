@@ -466,6 +466,7 @@ about-playbook-how-add-sentences = میں فقرے کین٘ویں شامل کر 
 
 ## How to record quality
 
+about-playbook-how-record-quality = میں اعلیٰ معیار دا آواز کلپ کین٘ویں رکاڈ کراں؟
 
 ## How to grow language
 
@@ -902,6 +903,7 @@ sc-howto-review-subtitle = ایں ڳآلھ کوں یقینی بݨاؤ جو ای�
 sc-howto-review-criteria-1 = جملے دے ہجے درست ہووݨ ضروری ہن۔
 sc-howto-review-criteria-2 = جملے دی گرائمر درست ہووݨ ضروری ہے۔
 sc-howto-review-criteria-3 = جملہ الاوݨ دے قابل ہووݨ ضروری ہے۔
+sc-howto-findpd-title = عوامی ڈومین وچ موجودہ جملے لبھݨ
 sc-howto-findpd-subtitle = انٹرنیٹ تے انہاں کوں ڳولو
 sc-howto-findpd-tips = جملے لبھݨ کیتے کجھ گُر ایہ ہن:
 
@@ -944,6 +946,7 @@ sc-submit-prompt =
 sc-submit-title = جملے شامل کرو
 sc-submit-select-language =
     .labelText = زبان چُݨو
+sc-submit-add-sentences = <wikipediaLink>عوامی ڈومین</wikipediaLink> جملے شامل کرو
 sc-submit-ph-one-per-line =
     .placeholder = ہک جملہ فی سطر
 sc-submit-button =
@@ -996,6 +999,14 @@ sc-lang-info-total =
         [one] ١ کل جملہ
        *[other] { $totalSentences } کل جملے۔
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] نطرثانی وچ کوئی جملہ کائنی۔
+        [one] نظرثانی وچ ١ جملہ ۔
+       *[other] نظرثانی وچ{ $totalInReview } جملے۔
+    }
 sc-lang-info-review-now = <reviewLink>ہݨ جائزہ گھنو!</reviewLink>
 sc-lang-info-add-more = <addLink>ہݨ ٻئے جملے شامل کرو!</addLink>
 # Variables:
@@ -1039,6 +1050,7 @@ sc-criteria-item-3 = جملہ الاوݨ دے قابل ہووݨ ضروری ہے�
 
 sc-review-title = جملیاں دا جائزہ گھنو
 sc-review-loading = جملے لوڈ تھیندے پئے۔۔۔
+sc-review-select-language = جملیاں دا جائزہ گھنݨ کیتے زبان چُݨو، سوہݨا۔
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = ماخذ: { $sentenceSource }
