@@ -859,6 +859,7 @@ sc-howto-cite-title = حوالہ ݙیوݨ دا طریقہ
 
 sc-my-title = میݙے جملے
 sc-my-loading = تہاݙے جملے لوڈ تھیندے پئے ہن۔۔۔
+sc-my-err-fetching = تہاݙے جملے کڈھ آوݨ دے دوران غلطی تھئی۔ سوہݨا ولدا کوشش کرو۔
 sc-my-no-sentences = کوئی جملے کائنی لبھے!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -880,12 +881,14 @@ sc-rejected-none-found = کوئی مسترد تھیا جملہ کائنی لبھ
 
 sc-stats-title = شماریات
 sc-stats-updating = اپ ڈیٹ تھیندا پئے۔۔۔
+sc-stats-error = تساں شماریات نہوے گھن آ سڳے، سوہݨا ولدا بعد وچ کوشش کرو۔
 
 ## ADD
 
 sc-submit-err-select-lang = سوہݨا، ہک زبان چُݨو
 sc-submit-err-add-sentences = سوہݨا، جملے شامل کرو۔
 sc-submit-err-add-source = سوہݨا، ماخذ شامل کرو۔
+sc-submit-err-confirm-pd = سوہݨا تصدیق کرو جو ایہ جملے عوامی ڈومین دے ہن۔
 sc-submit-title = جملے شامل کرو
 sc-submit-select-language =
     .labelText = زبان چُݨو
@@ -897,7 +900,9 @@ sc-submit-button =
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = زبان شامل کائنی کر سڳا
+sc-add-lang-sec-label = جہڑی زبان وچ تساں حصہ پاوݨ چاہندے ہو شامل کرو
 sc-add-lang-sec-button = زبان شامل کرو
+sc-add-err-unexpected = سرور ولوں ابڑغت ولدا آیا جواب
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
