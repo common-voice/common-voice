@@ -1,6 +1,8 @@
 ## General
 
 yes-receive-emails = جیا، میکوں ای میلاں بھیڄو۔ میں کامن وائس منصوبے بارے باخبر رہݨ چاہساں۔
+stayintouch = موزلّا وچ اساں صوتی ٹیکنالوجی دے گرد ہک برادری اسریندے پئے ہیں۔ اساں اپ ڈیٹاں، نویں ڈیٹا ماخذ نال رابطے وچ راہوݨ پسند کریسوں تے ٻیا ڄاݨݨ پسند کریسوں جو تساں ایں ڈیٹا کوں کین٘ویں ورتیندے پئے ہو۔
+privacy-info = اساں وعدہ کریندے ہیں جو تہاݙی ڄاݨکاری دی بھال کریسوں ۔ ساݙے </privacyLink>رازداری نوٹس </privacyLink> وچ ٻیا پڑھو۔
 return-to-cv = Common Voice  تے واپس ون٘ڄو
 email-input =
     .label = ای میل
@@ -347,6 +349,7 @@ settings = ترتیباں
 edit-profile = پروفائل وچ تبدیلی کرو
 profile-create-success = کامیابی، پروفائل خلقیج ڳئی!
 profile-close = بند کرو
+thanks-for-account = تہاݙا کھاتیہ تصدیق کرݨ تے تھورا۔ ہݨ تساں آپݨی پروفائل بݨاؤ۔
 why-demographic = ایہ اہم کیوں ہے؟
 accept-privacy-title = رازداری پالیسی
 login-identity = لاگ ان سُن٘ڄاݨ
@@ -393,6 +396,7 @@ faq-why-different-speakers-q = تہاکوں ہک زبان کیتے ٻہوں سا
 faq-why-my-lang-q = میݙی زبان اڄݨ تائیں کیوں شامل کائنی؟
 faq-how-calc-hours-q = کامن وائس گھنٹیاں دا حساب کتاب کین٘ویں کریندے؟
 faq-where-src-from-2-q = ماخذ عبارت کتھوں آندی ہے؟
+faq-why-not-ask-read-q = تساں لوکاں کوں مختلف زباناں وچ کتاباں یا وکیپیڈیا دے مضمون پڑھݨ دا کیوں نہوے آہدے؟
 faq-why-account-q = میں کھاتے کیتے سائن اپ کیوں تھیواں؟
 faq-is-account-public-q = بھلا میݙیاں کھاتہ معلومات عوامی ہن؟
 faq-what-is-cv = Common Voice کیا ہے؟
