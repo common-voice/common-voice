@@ -243,6 +243,7 @@ email-subscription-title = ای میل اپ ڈیٹاں کیتے سائن اپ ت
 ## Account Benefits
 
 benefits = فائدے
+improve-audio = پروفائل ڄاݨکاری آڈیو ڈیٹا کوں چنگا بݨیندی ہےجہڑا صوتی سُن٘ڄاݨ درستی دی تربیت وچ ورتیندے۔
 keep-track = ڈھڳ زباناں وچ آپݨی پیش رفت تے پیمائش دا حساب رکھو۔
 view-goals = ذاتی تے منصوبہ ہدفاں بارے آپݨی پیش رفت ݙیکھو۔
 
@@ -250,6 +251,7 @@ view-goals = ذاتی تے منصوبہ ہدفاں بارے آپݨی پیش رف
 
 whats-public = عوامی کیا ہے؟
 email-not-public = اساں تہاݙی ای میل عوامی کائناں کریسوں
+recordings-and-locale-public = ریکاڈنگ دی تعداد تے جنہاں زباناں وچ تہاݙیاں ونڳاراں ہن، عوامی ہوسن۔
 username-optin-public = تساں آپݨاں ورتݨ ناں عوامی یا گمنام کرݨ چُݨ سڳدے ہو
 username-email-not-demographic = تہاݙا ورتݨ ناں تے ای میل شائع تھئے ڈیٹا نال منسلک کائناں تھیسن۔
 
@@ -291,6 +293,11 @@ request-language-button = زبان دی ارداس کرو
 
 status-title = مجموعی طور تے منصوبے دی صورت حال: ݙیکھو اساں کتی آڳئے ہیں!
 status-contribute = آپݨی اواز دا حصہ پاؤ
+status-hours =
+    { $hours ->
+        [one] ہݨ تائیں ہک گھنٹہ دی تصدیق تھئی!
+       *[other] ہݨ تائیں { $hours } گھنٹے دی تصدیق تھئی!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = اڳلا مقصد: { $goal }
@@ -357,6 +364,7 @@ help-variants = لہجیاں وچ کجھ مدد دی لوڑ ہے؟
 ## Profile - Email
 
 browse-file-title = تصویر فائل اپ لوڈ کرو
+browse-file = ڈریگ تے  ڈراپ کرو یا </browseWrap> براؤز کرو<browseWrap>
 connect-gravatar = گراوتار نال کنکٹ کرو
 gravatar_not_found = تہاݙی ای میل کیتے کوئی گرواتار کائنی لبھیا
 file_too_large = چݨی ہوئی فائل ٻہوں وݙی ہے
