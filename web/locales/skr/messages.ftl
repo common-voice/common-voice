@@ -809,6 +809,7 @@ contribution-misreadings-example-5-title = اساں کافی گھنݨ ٻاہر �
 contribution-misreadings-example-6-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-7-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-varying-pronunciations-title = بدلدا ہویا تلفظ
+contribution-varying-pronunciations-example-2-title = اوندا ہتھ اُٹھا ہویا ہائی۔
 contribution-background-noise-title = پس منظر دا شور
 contribution-background-voices-title = پس منظر دی آوازاں
 contribution-volume-title = حجم
@@ -834,6 +835,7 @@ sc-header-profile = پروفائل
 sc-footer-discourse = ڈسکورس
 sc-footer-report-bugs = بگ رپورٹ کرو
 sc-footer-translate = ایں ورقے دا ترجمہ کرو
+sc-footer-report-copyright = نقل حقوق مسئلیاں کوں رپورٹ کرو
 sc-footer-privacy = رازداری
 sc-footer-terms = شرطاں
 sc-footer-cookies = کوکیاں
@@ -856,6 +858,7 @@ sc-howto-cite-title = حوالہ ݙیوݨ دا طریقہ
 ## MY SENTENCES
 
 sc-my-title = میݙے جملے
+sc-my-loading = تہاݙے جملے لوڈ تھیندے پئے ہن۔۔۔
 sc-my-no-sentences = کوئی جملے کائنی لبھے!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -869,6 +872,8 @@ sc-my-deleting = چُݨے جملے مٹیندا پئے۔۔۔
 ## REJECTED
 
 sc-rejected-title = مسترد تھئے جملے
+sc-rejected-loading = مسترد تھئے جملے لوڈ تھیندے پئے ہن۔۔۔
+sc-rejected-err-fetching = مسترد جملے کڈھ آوݨ دے دوران غلطی تھئی۔ سوہݨا ولدا کوشش کرو۔
 
 ## STATS
 
