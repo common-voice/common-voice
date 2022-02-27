@@ -241,6 +241,7 @@ x-years-short =
 help-make-dataset = ودھائے معیار دا ، عوامی ڈیٹا سیٹ بݨاوݨ کیتے ساݙی مدد کرو
 sign-up-account = کھاتے کیتے سائن اپ تھیوو
 email-subscription-title = ای میل اپ ڈیٹاں کیتے سائن اپ تھیوو
+email-subscription-title-new = کامن وائس خبرنامہ، مقصد یاد دہانیاں تے پیش رفت اپ ڈیٹاں کیتے سائن اپ کرو
 
 ## Account Benefits
 
@@ -427,6 +428,7 @@ about-dataset-release-title = ڈیٹا سیٹ ریلیز
 about-dataset-release-subtitle = اساں ہر ٣ مہینے بعد ڈیٹاسیٹ ریلیز کریندے ہیں۔
 about-subscribe-text = بھلا کامن وائس نال رابطہ وچ رہݨ چاہسو؟
 about-speak = ٻولو
+about-speak-text = ونگارو دان تھئے جملیاں دے بینک توں پڑھ تے وائس کلپ رکاڈ کریندن۔
 about-listen-queue = سݨݨ دی قطار
 about-listen = سݨو
 about-is-it-valid = بھلا ایہ کلپ ٹھیک ہے؟
@@ -457,6 +459,7 @@ about-playbook-how-add-language = میں زبان کین٘ویں شامل کری
 ## How does localization work
 
 about-playbook-how-localize = سائٹ مقامیت کین٘ویں کم کریندے؟
+about-playbook-how-localize-content-1 = کامن وائس سائٹ دا ترجمہ <strong>پونٹُوں</strong> تے تھیندا ہے۔
 about-playbook-how-localize-content-4 = ایہ سائٹ جہڑے ویلے ٧٥٪  مکمل تھیندی ہے تاں لان٘چ تھیوݨ کیتے تیار ہوندی ہے۔
 about-playbook-how-localize-content-5 = مدد کیتے ساݙے وڈیو تشریح ساز ݙیکھو
 
@@ -467,6 +470,7 @@ about-playbook-how-add-sentences = میں فقرے کین٘ویں شامل کر 
 ## How to record quality
 
 about-playbook-how-record-quality = میں اعلیٰ معیار دا آواز کلپ کین٘ویں رکاڈ کراں؟
+about-playbook-how-record-content-3 = جملے احتیاط نال پڑھو ــ لفظ ودھاوݨ یا وٹاوݨ نہ بھُلو۔
 
 ## How to grow language
 
