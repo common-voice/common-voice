@@ -666,11 +666,13 @@ target-segment-learn-more = ٻیا سِکھو
 
 report = رپورٹ کرو
 report-title = رپورٹ جمع کرواؤ
+report-ask = ایں جملے وچ تساں کہڑے رولیاں دا سامھݨاں کریندے پئے ہو؟
 report-offensive-language = بزاری زبان
 report-offensive-language-detail = جملے وچ بے عزتی آلی یا توہین آمیز زبان ہے۔
 report-grammar-or-spelling = گرائمر / املا دی غلطی
 report-grammar-or-spelling-detail = ایں جملے وچ گرائمر یا املا دی غلطی ہے۔
 report-different-language = مختلف زبان
+report-different-language-detail = ایہ میݙی زبان کنوں مختلف زبان لکھا ڳیا ہے۔
 report-difficult-pronounce = تلفظ کرݨ اوکھا ہے
 report-offensive-speech = جارحانہ تقریر
 report-offensive-speech-detail = کلپ وچ بے عزتی آلی یا توہین آمیز زبان ہے۔
