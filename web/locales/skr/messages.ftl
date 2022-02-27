@@ -874,6 +874,7 @@ sc-my-deleting = چُݨے جملے مٹیندا پئے۔۔۔
 sc-rejected-title = مسترد تھئے جملے
 sc-rejected-loading = مسترد تھئے جملے لوڈ تھیندے پئے ہن۔۔۔
 sc-rejected-err-fetching = مسترد جملے کڈھ آوݨ دے دوران غلطی تھئی۔ سوہݨا ولدا کوشش کرو۔
+sc-rejected-none-found = کوئی مسترد تھیا جملہ کائنی لبھا!
 
 ## STATS
 
@@ -897,6 +898,14 @@ sc-submit-button =
 
 sc-add-lang-could-not-add = زبان شامل کائنی کر سڳا
 sc-add-lang-sec-button = زبان شامل کرو
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] کوئی جملہ ناکام کائنی تھیا
+        [one] ١ جملہ ناکام تھیا
+       *[other] { $sentences } جملے ناکام تھئے
+    }
 sc-add-err-submission = جمع کرواݨ وچ خرابی
 
 ## ADD SENTENCES CONFIRMATION
@@ -910,6 +919,9 @@ sc-confirm-sentences-found =
         [one] ١ جملہ لبھا۔
        *[other] { $countOfSentences } جملے لبھے۔
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } تہاݙے ولوں مسترد تھئے
 sc-confirm-button-text = تصدیق
 
 ## LANGUAGE INFO
@@ -923,6 +935,15 @@ sc-lang-info-total =
         [0] کوئی کل جملے کائنی۔
         [one] ١ کل جملہ
        *[other] { $totalSentences } کل جملے۔
+    }
+sc-lang-info-add-more = <addLink>ہݨ ٻئے جملے شامل کرو!</addLink>
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] کوئی جملہ مسترد کائنی تھیا۔
+        [one] ١ مسترد تھیا جملہ۔
+       *[other] { $rejectedSentences } مسترد تھئے جملے۔
     }
 
 ## LOGIN
@@ -939,6 +960,10 @@ sc-personal-err-lang-not-found = زبان کائنی ہٹا سڳا: زبان ک�
 sc-personal-err-remove = زبان کائنی ہٹا سڳا
 sc-personal-your-languages = تہاݙیاں زباناں:
 sc-personal-remove-button = ہٹاؤ
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } تہاݙی طرفوں شامل تھئے
+sc-personal-not-added = اڄݨ تائیں تساں کوئی زبان شامل کائنی کیتی۔
 
 ## REVIEW CRITERIA
 
@@ -948,6 +973,7 @@ sc-criteria-item-3 = جملہ الاوݨ دے قابل ہووݨ ضروری ہے�
 
 ## REVIEW
 
+sc-review-loading = جملے لوڈ تھیندے پئے۔۔۔
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = ماخذ: { $sentenceSource }
@@ -966,6 +992,7 @@ sc-review-link = نظرثانی
 
 sc-settings-title = ترتیباں
 sc-settings-ui-language = انٹرفیس زبان
+sc-settings-reset-skipped = چھوڑے ہوئے جملے ولدا ٹھیک کرو
 sc-settings-show-all-button = سارے چھوڑے ہوئے جملے ولدا ݙکھاؤ
 sc-settings-failed = ترتیباں کائنی وٹا سڳا۔ سوہݨا ولدا کوشش کرو۔
 sc-validation-no-numbers = جملے وچ عدد نئیں ہووݨے چاہیدے
