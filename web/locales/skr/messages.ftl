@@ -195,6 +195,7 @@ privacy = رازداری
 terms = ٹرماں
 cookies = کوکیاں
 faq = عمومی سوالات
+share-title = آپݨی آواز دان کرݨ آلے  لوکاں کوں لبھݨ کیتے ساݙی مدد کرو
 link-copied = لنک نقل تھی ڳیا
 back-top = چوٹی تے واپس ون٘ڄو
 logout = لاگ آؤٹ
@@ -242,12 +243,15 @@ email-subscription-title = ای میل اپ ڈیٹاں کیتے سائن اپ ت
 ## Account Benefits
 
 benefits = فائدے
+keep-track = ڈھڳ زباناں وچ آپݨی پیش رفت تے پیمائش دا حساب رکھو۔
+view-goals = ذاتی تے منصوبہ ہدفاں بارے آپݨی پیش رفت ݙیکھو۔
 
 ## What's public
 
 whats-public = عوامی کیا ہے؟
 email-not-public = اساں تہاݙی ای میل عوامی کائناں کریسوں
 username-optin-public = تساں آپݨاں ورتݨ ناں عوامی یا گمنام کرݨ چُݨ سڳدے ہو
+username-email-not-demographic = تہاݙا ورتݨ ناں تے ای میل شائع تھئے ڈیٹا نال منسلک کائناں تھیسن۔
 
 ## Speak & Listen Shortcuts
 
@@ -279,11 +283,13 @@ shortcut-discard-ongoing-recording = اسکیپ
 shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ کو ں مسترد کرو۔
 shortcut-submit = واپس ون٘ڄو
 shortcut-submit-label = کلپ جمع کرواؤ
+request-language-text = اڄݨ تائیں کامن وائس تے آپݨی زبان نہوے ݙیہدے پئے؟
 request-language-text-learn = اتھاں درخواست ݙیوݨ دا ݙا سکھو!
 request-language-button = زبان دی ارداس کرو
 
 ## ProjectStatus
 
+status-title = مجموعی طور تے منصوبے دی صورت حال: ݙیکھو اساں کتی آڳئے ہیں!
 status-contribute = آپݨی اواز دا حصہ پاؤ
 # Variables:
 # $goal - number of hours representing the next goal
@@ -346,6 +352,7 @@ skip-submission-feedback = سب مشن فیڈبیک چھوڑ ݙیوو
 off = بند
 on = چالو
 help-accent = لہجے وچ کجھ مدد دی لوڑ ہے؟
+help-variants = لہجیاں وچ کجھ مدد دی لوڑ ہے؟
 
 ## Profile - Email
 
