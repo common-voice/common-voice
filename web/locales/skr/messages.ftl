@@ -872,7 +872,10 @@ sc-logout-button = لاگ آؤٹ
 
 ## HOME
 
+sc-home-title = کامن وائس جملے کٹھے کرݨ آلے وچ ست بسم اللہ
 sc-home-collect-title = جملے کٹھے کرو
+sc-home-collect-text = عوامی ڈومین جملے کٹھے کرݨ یا لکھݨ وچ ساݙی مدد کرو۔
+sc-home-review-title = جملیاں دا جائزہ گھنو
 
 ## GENERAL
 
@@ -880,8 +883,16 @@ sc-home-collect-title = جملے کٹھے کرو
 ## HOW-TO
 
 sc-howto-title = کین٘ویں
+sc-howto-addlang-title = نال کم کرݨ کیتے زبان شامل کرݨ
 sc-howto-addsen-title = نویں جملے شامل کرو
 sc-howto-cite-title = حوالہ ݙیوݨ دا طریقہ
+sc-howto-review-title = جملیاں دا جائزہ گھنو
+sc-howto-review-subtitle = ایں ڳآلھ کوں یقینی بݨاؤ جو ایں معیار کوں پورا کریندن:
+sc-howto-review-criteria-1 = جملے دے ہجے درست ہووݨ ضروری ہن۔
+sc-howto-review-criteria-2 = جملے دی گرائمر درست ہووݨ ضروری ہے۔
+sc-howto-review-criteria-3 = جملہ الاوݨ دے قابل ہووݨ ضروری ہے۔
+sc-howto-findpd-subtitle = انٹرنیٹ تے انہاں کوں ڳولو
+sc-howto-findpd-tips = جملے لبھݨ کیتے کجھ گُر ایہ ہن:
 
 ## MY SENTENCES
 
@@ -924,6 +935,7 @@ sc-submit-ph-one-per-line =
     .placeholder = ہک جملہ فی سطر
 sc-submit-button =
     .submitText = جمع کرواؤ
+sc-submit-guidelines = سوہݨا <howToLink>رہنمائی ہدایات</howToLink> دی پڑتال کرو
 
 ## ADD LANGUAGE
 
@@ -943,6 +955,8 @@ sc-add-err-submission = جمع کرواݨ وچ خرابی
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = جملے جمع کائنی تھئے، بھلا تہاکوں پک ہے جو تساں چھوڑݨ چاہندے ہو؟
 sc-confirm-sentences-title = نویں جملے دی تصدیق کرو
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
@@ -969,6 +983,7 @@ sc-lang-info-total =
         [one] ١ کل جملہ
        *[other] { $totalSentences } کل جملے۔
     }
+sc-lang-info-review-now = <reviewLink>ہݨ جائزہ گھنو!</reviewLink>
 sc-lang-info-add-more = <addLink>ہݨ ٻئے جملے شامل کرو!</addLink>
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
@@ -1000,12 +1015,16 @@ sc-personal-not-added = اڄݨ تائیں تساں کوئی زبان شامل ک
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ نظرثانی  معیار
+sc-criteria-title = نظرثانی معیار
+sc-criteria-make-sure = ایں ڳالھ کوں یقینی بݨاؤ جو ایں معیار کوں پورا کریندن:
 sc-criteria-item-1 = جملے دے ہجے درست ہووݨ ضروری ہن۔
 sc-criteria-item-2 = جملے دی گرائمر درست ہووݨ ضروری ہے۔
 sc-criteria-item-3 = جملہ الاوݨ دے قابل ہووݨ ضروری ہے۔
 
 ## REVIEW
 
+sc-review-title = جملیاں دا جائزہ گھنو
 sc-review-loading = جملے لوڈ تھیندے پئے۔۔۔
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
@@ -1019,6 +1038,9 @@ sc-review-form-button-approve-shortcut = جیا
 sc-review-form-button-reject-shortcut = کو
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = چھوڑو
+sc-review-form-button-submit =
+    .submitText = جائزہ مکمل کرو
+sc-review-form-review-failure = جائزہ محفوظ کائنی تھی سڳا، سوہݨا ولدا بعد وچ کوشش کرو۔
 sc-review-link = نظرثانی
 
 ## SETTINGS
