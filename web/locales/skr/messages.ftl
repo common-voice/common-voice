@@ -11,6 +11,8 @@ loading = لوڈ تھیندا پئے۔۔۔
 email-opt-in-info-title = کامن وائس میلنگ تندیر وچ شامل تھیوو
 indicates-required = *ضروری خانے آلے پاسے اشارہ کریندے
 not-available-abbreviation = دستیاب کائنی
+banner-error-slow-1 = افسوس، کامن وائس مٹھا چلدا پئے۔ تہاݙا دلچسپی دا تھورا۔
+banner-error-slow-link = سٹیٹس ورقہ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -474,6 +476,7 @@ about-playbook-how-record-content-3 = جملے احتیاط نال پڑھو ــ
 
 ## How to grow language
 
+about-playbook-how-grow-language = اساں کامن وائس تے مؤثر انداز وچ زبان کین٘ویں ودھا سڳدے ہیںن٘
 about-playbook-how-grow-language-content-2 = ایونٹ
 about-playbook-how-grow-language-content-4 = سماجی میڈیا
 about-playbook-how-grow-language-content-6 = بھائیوالی تے نیٹ ورک
