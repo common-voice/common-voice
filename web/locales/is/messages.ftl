@@ -398,14 +398,16 @@ skip-submission-note = Athugaðu: Þú verður samt að velja á milli tals eða
 off = Af
 on = Ǻ
 help-accent = Þarftu hjálp með hreim?
+help-accent-explanation = Hreimurinn þinn er það hvernig þú berð fram orð. Hann getur mótast af því hvar þú hefur búið, hvaða önnur tungumál þú talar, ásamt mörgum öðrum þáttum. Þú getur deilt hér öllum þeim upplýsingum sem þér finnst eiga við.
 help-variants = Þarftu aðstoð við afbrigði?
+help-variants-explanation = Afbrigði eru ákveðin form tungumáls - til dæmis sameiginleg þeim sem búa á ákveðnu svæði eða tilheyra sérstökum samfélagshópi. Stundum er þetta kallað mállýskur.
 
 ## Profile - Email
 
 browse-file-title = Hlaða inn myndskrá
 browse-file = Dragðu og slepptu eða <browseWrap>flettu upp</browseWrap>
 connect-gravatar = Tengja við Gravatar
-gravatar_not_found = Enginn gravatar fannst fyrir tölvupóstfangið þitt
+gravatar_not_found = Engin gravatar-auðkennismynd fannst fyrir tölvupóstfangið þitt
 file_too_large = Valin skrá er of stór
 avatar-uploaded = Auðkennismynd send inn
 max-file-size = { $kb }kb hámark
@@ -416,7 +418,7 @@ manage-subscriptions = Sýsla með áskriftir
 manage-email-subscriptions = Sýsla með tölvupóstáskriftir
 email-already-used = Tölvupóstfangið er þegar notað fyrir annan reikning
 add-language = Bæta við tungumáli
-change-email-setings = Breyta tölvupóstfangi með því að nota stillingar undir Innskráningarauðkenni
+change-email-setings = Breyttu tölvupóstfangi með því að nota stillingar undir Innskráningarauðkenni
 
 ## FAQ
 
