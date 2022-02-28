@@ -337,8 +337,13 @@ profile-form-additional-language =
     .label = Önnur mál
 profile-form-language =
     .label = Tungumál
+profile-form-variant =
+    .label = Hvaða afbrigði af { $language } talar þú?
+profile-form-variant-default-value = Ekkert afbrigði valið
 profile-form-accent =
     .label = Hreimur
+profile-form-custom-accent-help-text =
+    .label = Hvernig myndir þú lýsa hreimnum þínum?
 profile-form-age =
     .label = Aldur
 profile-form-gender-2 =
@@ -465,6 +470,9 @@ how-does-it-work-text = Við erum að "hópvirkja" öflun opins raddgagnasafns. 
 
 about-localization-title = Staðfærsla vefsvæðis
 about-localization-subtitle = Texti vefsvæðisins er þýddur á það tungumál.
+about-sentence-collection-title = Söfnun setninga
+about-dataset-release-title = Útgáfa gagnasafns
+about-dataset-release-subtitle = Við gefum gagnasafnið út á 3ja mánaða fresti.
 about-speak = Tal
 about-speak-text = Þátttakendur taka upp lestur setninga sem fengnar er úr banka gefinna setninga.
 about-listen-queue = Hlustunarröð
@@ -520,6 +528,8 @@ about-playbook-how-localize-content-5 = Horfðu á útskýringarmyndskeið okkar
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Atburðir
+about-playbook-how-grow-language-content-4 = Samfélagsmiðlar
 
 ## How to validate
 
@@ -573,6 +583,8 @@ data-other-goto = Fara í { $name }
 data-other-download = Niðurhala gögnum
 data-bundle-button = Niðurhala gagnasafnapakka
 data-bundle-description = Gögn Samróms og öll gagnasöfnin að ofan.
+release-version = Útgáfa
+dataset-date = Dagsetning
 license = Leyfi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandað
 data-download-singleword-title = Hlaða niður markmiðum um einstaka orðhluta
@@ -902,6 +914,10 @@ profile-form-delete = Eyða prófíl
 
 ## Profile Download
 
+download-size = Stærð
+download-selected = Valið
+download-request-title = { $created }
+download-request-archive-single = Ein ZIP-safnskrá sem inniheldur
 
 ## Landing
 
