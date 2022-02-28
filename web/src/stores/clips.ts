@@ -146,12 +146,8 @@ export namespace Clips {
 
           dispatch({ type: ActionType.REFILL_CACHE, clips });
         } catch (err) {
-          if (err instanceof XMLHttpRequest) {
-            dispatch({ type: ActionType.REFILL_CACHE });
-          } else {
-            dispatch({ type: ActionType.LOAD_ERROR });
-            throw err;
-          }
+          dispatch({ type: ActionType.LOAD_ERROR });
+          throw err;
         }
       },
 
