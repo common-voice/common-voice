@@ -215,7 +215,7 @@ logout = Skrá út
 home-title = Samrómur (Common Voice) er verkefni á vegum Mozilla sem gengur út á það að kenna vélum að skilja hvernig mannfólk talar.
 default-tagline = Samrómur (Common Voice) er verkefni á vegum Mozilla sem gengur út á það að kenna vélum að skilja hvernig mannfólk talar.
 home-cta = Hækkaðu róminn, leggðu þitt af mörkum hér!
-wall-of-text-start = Rödd er náttúruleg, rödd er mennsk. Þess vegna heillumst við af sköpun nothæfrar raddtækni handa vélunum okkar. En til þess að skapa raddkerfi þörfnumst við mýgrúts gagna.
+wall-of-text-start = Rödd er náttúruleg, rödd er mennsk. Þess vegna heillumst við af nothæfri raddtækni handa vélunum okkar. En til þess að skapa raddkerfi þörfnumst við ótrúlega mikils magns gagna.
 wall-of-text-more-mobile = Flest þau gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Samróm, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
 wall-of-text-more-desktop =
     Hér geturðu deilt raddprufum sem hjálpar okkur að setja saman opinn raddgagnagrunn sem er aðgengilegur hverjum sem er til að nota í nýjungar fyrir tæki og vefinn.<lineBreak></lineBreak>
