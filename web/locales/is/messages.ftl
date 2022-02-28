@@ -202,15 +202,15 @@ cookies = Smákökur
 faq = Algengar spurningar
 content-license-text = Efni birt undir merkjum <licenseLink>Creative Commons</licenseLink>.
 share-title = Hjálpið til við að finna aðra til að deila raddprufum!
-share-text = Hjálpið að kenna vélum hvernig alvöru fólk talar, gefðu raddprufu á { $link }
+share-text = Hjálpaðu við að kenna vélum hvernig alvöru fólk talar, gefðu raddprufu á { $link }
 link-copied = Hlekkur afritaður
 back-top = Til baka
 logout = Útskrá
 
 ## Home Page
 
-home-title = Samrómur er frumkvæði Mozilla til þess að kenna vélum hvernig alvöru fólk talar.
-default-tagline = Samrómur (Common Voice) er verkefni á vegum Mozilla sem gengur út á það að kenna tölvum að skilja hvernig mannfólk talar.
+home-title = Samrómur (Common Voice) er verkefni á vegum Mozilla sem gengur út á það að kenna vélum að skilja hvernig mannfólk talar.
+default-tagline = Samrómur (Common Voice) er verkefni á vegum Mozilla sem gengur út á það að kenna vélum að skilja hvernig mannfólk talar.
 home-cta = Hækkið róminn, deilið hér!
 wall-of-text-start = Rödd er náttúruleg, rödd er mennsk. Þess vegna heillumst við af sköpun nothæfrar raddtækni handa vélunum okkar. En til þess að skapa raddkerfi þörfnumst við mýgrúts gagna.
 wall-of-text-more-mobile = Flest gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Samróm, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
@@ -457,7 +457,7 @@ faq-what-determine-identity-a =
     Persónulega einkennandi upplýsingar hafa verið fjarlægðar úr öllum raddhljóðbrotum í safninu. Þegar maður sækir gagnasafnið samþykkir maður að reyna ekki að bera kennsl á neinn raddgjafanna. Það þýðir að það má ekki reyna að tengja upptökur í gagnasafninu við einstaklinga sem hafa lagt til upptökur. Það má hins vegar nota gagnasafnið til að þjálfa raddgreina, málshafagreina og fleiri kerfi, t.d. með því að tengja saman upplýsingar innan gagnasafnsins.
 faq-what-is-cv = Hvað er Samrómur?
 faq-using-cv = Notkunn Samróms
-faq-description = Samrómur er verkefni á vegum Mozilla sem gengur út á það að fkenna tölvum að skilja hvernig mannfólk talar.
+faq-description = Samrómur (Common Voice) er hluti verkefnis á vegum Mozilla sem gengur út á það að kenna vélum að skilja hvernig mannfólk talar.
 faq-search-for-answers =
     .label = Leita af svörum
 
@@ -895,7 +895,7 @@ share-goal-type-speak = Talandi
 share-goal-type-listen = Hlustandi
 share-goal-type-both = Talandi og hlustandi
 # LINK will be replaced with the current URL
-goal-share-text = Ég var að setja mér það persónulega markmið að gefa #CommonVoice raddsýni mitt -- Sláist í för með mér og hjálpið að kenna vélum, hvernig hin almenna manneskja talar { $link }
+goal-share-text = Ég var að setja mér það persónulega markmið að gefa #CommonVoice raddsýni mitt -- vertu með og hjálpaðu við að kenna vélum hvernig raunverulegt fólk talar { $link }
 weekly-goal-created = Markmið viku hefur verið sett
 daily-goal-created = Markmið dags hefur verið sett
 track-progress = Rekja árangur sinn hér og á tölfræðisíðu sinni.
