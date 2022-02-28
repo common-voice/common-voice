@@ -9,11 +9,14 @@ email-input =
 submit-form-action = Senda inn
 loading = Hleður...
 email-opt-in-info = Ég vil gjarnan fá tölvupóst um markmiðsáminningar, framvindu mína og fréttabréf Samróms.
-email-opt-in-info-title = Skrá sig á póstlista Samróms.
-email-opt-in-info-sub-with-challenge = Fá tölvupóst á borð við áskoranir og áminningar um markmið, framvindu og fréttabréf Samróms.
+email-opt-in-info-title = Skráðu þig á póstlista Samróms
+email-opt-in-info-sub-with-challenge = Fáðu tölvupóst á borð við áskoranir og áminningar um markmið, framvindu og fréttabréf Samróms.
 email-opt-in-privacy-v2 = Með því að kjósa að fá tölvupóst frá okkur er samþykkt að Mozilla meðhöndli upplýsingar eins og útskýrt er í <privacyLink>persónuverndarstefnu Mozilla</privacyLink>.
 indicates-required = * táknar nauðsynlegan reit
 not-available-abbreviation = Á ekki við
+banner-error-slow-1 = Því miður gengur Common Voice vefurinn hægt fyrir sig í augnablikinu. Takk fyrir áhugann.
+banner-error-slow-2 = Við erum að fá mjög mikla umferð og erum nú að rannsaka málin.
+banner-error-slow-link = Stöðusíða
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -119,11 +122,11 @@ mt = Maltneska
 my = Búrmíska
 myv = Erzýska
 nan-tw = Taívanska (Minnan)
-nb-NO = Norska (bokmål)
+nb-NO = Norskt bókmál
 ne-NP = Nepalska
 nia = Nias
 nl = Hollenska
-nn-NO = Norska (nynorsk)
+nn-NO = Nýnorska
 nyn = Runyankole
 oc = Oksítanska
 or = Oríja
@@ -198,20 +201,20 @@ help = Hjálp
 contact = Hafa samband
 privacy = Persónuvernd
 terms = Skilmálar
-cookies = Smákökur
+cookies = Vefkökur
 faq = Algengar spurningar
-content-license-text = Efni birt undir merkjum <licenseLink>Creative Commons</licenseLink>.
-share-title = Hjálpið til við að finna aðra til að deila raddprufum!
+content-license-text = Efni birt undir merkjum <licenseLink>Creative Commons notkunarleyfis</licenseLink>.
+share-title = Hjálpaðu til við að finna aðra til að deila raddprufum!
 share-text = Hjálpaðu við að kenna vélum hvernig alvöru fólk talar, gefðu raddprufu á { $link }
-link-copied = Hlekkur afritaður
+link-copied = Tengill afritaður
 back-top = Til baka
-logout = Útskrá
+logout = Skrá út
 
 ## Home Page
 
 home-title = Samrómur (Common Voice) er verkefni á vegum Mozilla sem gengur út á það að kenna vélum að skilja hvernig mannfólk talar.
 default-tagline = Samrómur (Common Voice) er verkefni á vegum Mozilla sem gengur út á það að kenna vélum að skilja hvernig mannfólk talar.
-home-cta = Hækkið róminn, deilið hér!
+home-cta = Hækkaðu róminn, leggðu þitt af mörkum hér!
 wall-of-text-start = Rödd er náttúruleg, rödd er mennsk. Þess vegna heillumst við af sköpun nothæfrar raddtækni handa vélunum okkar. En til þess að skapa raddkerfi þörfnumst við mýgrúts gagna.
 wall-of-text-more-mobile = Flest þau gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Samróm, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
 wall-of-text-more-desktop =
@@ -937,15 +940,26 @@ download-selected = Valið
 download-start = Sækja notkunarsniðsgögn
 download-request = Óska eftir upptökum
 download-requests = Fyrri beiðnir um niðurhal á upptökum
+download-requests-info = Þegar þú biður um upptökurnar þínar tökum við þær saman í eina eða margar ZIP-safnskrár. Hér eru fyrri beiðnir þínar:
+download-request-button = Sækja
 download-request-title = { $created }
+download-request-description = { $clipCount } raddklippur, heildarstærð safnskrár { $size }. Rennur út { $expires }.
 download-request-archive-single = Ein ZIP-safnskrá sem inniheldur
+download-request-archive-multiple = Skipta upp í { $archiveCount } ZIP-safnskrár sem innihalda
+download-request-assembling-description = Verið er að setja saman skrárnar þínar. Athugaðu þetta aftur síðar.
+download-request-refresh-button = Endurlesa
+download-request-modal-title = Niðurhalstenglar
+download-request-modal-description = Hér eru tenglar til að sækja ZIP-safnskrárnar þínar.
+download-request-link-text = Zip-safnskrá #{ $offset } af { $total }
+download-request-metadata-link = Texti setningar
+download-request-link-single = Þú getur líka afritað og límt beinu vefslóðirnar inn í eftirlætis niðurhalsstjórann þinn. Þær munu renna út eftir 12 klukkustundir, en þú getur farið aftur á þessa síðu til að búa til nýja tengla hvenær sem er.
 
 ## Landing
 
 welcome-staff = Velkomin/n { $company }!
-help-contribute = Þú getur hjálpað til við uppbyggingu fjölbreytts, opins gagnasafns með því að búa til Samróms aðgang og gefa raddsýni.
+help-contribute = Þú getur hjálpað til við uppbyggingu fjölbreytts, opins gagnasafns með því að búa til Samróms-notkunarsnið og gefa raddsýni.
 login-company = Innskrá / nýskrá með netfangi hjá { $company }
-profile-not-required = Prófíls er ekki krafist til að taka þátt en hann er gagnlegur þó
+profile-not-required = Notkunarsniðs er ekki krafist til að taka þátt þótt það sé gagnlegt, sjáðu hvers vegna hér fyrir neðan.
 read-more-about = Lestu meira á um síðuna okkar
 
 ## DemoLayout
@@ -973,6 +987,8 @@ read-more-about = Lestu meira á um síðuna okkar
 
 ## HEADER/FOOTER
 
+sc-header-profile = Notkunarsnið
+sc-footer-cookies = Vefkökur
 
 ## HOME
 
@@ -982,6 +998,7 @@ read-more-about = Lestu meira á um síðuna okkar
 
 ## HOW-TO
 
+sc-howto-addlang-text = Þegar þú hefur skráð þig inn, geturðu valið tungumálin þín úr notkunarsniðshlutanum.
 
 ## MY SENTENCES
 
@@ -1009,12 +1026,24 @@ read-more-about = Lestu meira á um síðuna okkar
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Notkunarsnið: { $username }
+sc-personal-err-lang-not-found = Gat ekki fjarlægt tungumál: tungumál fannst ekki
+sc-personal-err-remove = Ekki tókst að fjarlægja tungumál
+sc-personal-your-languages = Tungumálin þín:
+sc-personal-remove-button = fjarlægja
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $setningum } bætt við af þér
+sc-personal-not-added = Þú hefur ennþá ekki bætt við neinum tungumálum.
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-lang-not-selected = Þú hefur ekki valið nein tungumál. Farðu í <profileLink>notkunarsniðið</profileLink> þitt til að velja tungumál.
 
 ## SETTINGS
 
