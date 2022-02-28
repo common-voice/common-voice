@@ -398,16 +398,17 @@ browse-file-title = Hlaða inn myndskrá
 browse-file = Dragðu og slepptu eða <browseWrap>flettu upp</browseWrap>
 connect-gravatar = Tengja við Gravatar
 gravatar_not_found = Enginn gravatar fannst fyrir tölvupóstfangið þitt
-file_too_large = Myndin sem var valin er of stór
+file_too_large = Valin skrá er of stór
+avatar-uploaded = Auðkennismynd send inn
 max-file-size = { $kb }kb hámark
 
 ## Profile - Email
 
-manage-subscriptions = Stjórna áskriftum
-manage-email-subscriptions = Umsjón með netfanga lista
-email-already-used = Netfang er þegar í notkun á öðrum reikningi
+manage-subscriptions = Sýsla með áskriftir
+manage-email-subscriptions = Sýsla með tölvupóstáskriftir
+email-already-used = Tölvupóstfangið er þegar notað fyrir annan reikning
 add-language = Bæta við tungumáli
-change-email-setings = Breyta netfangi með því að nota stillingar undir Innskráningarauðkenni
+change-email-setings = Breyta tölvupóstfangi með því að nota stillingar undir Innskráningarauðkenni
 
 ## FAQ
 
@@ -453,7 +454,7 @@ faq-why-not-ask-read-a = Til að gera Samrómsgagnasafnið eins nýtilegt og hæ
 faq-why-account-q = Af hverju ætti ég að skrá mig?
 faq-is-account-public-q = Verða mínar reikningsupplýsingar opinberar?
 faq-how-privacy-q = Hvernig tryggið þið nafnleysi og friðhelgi þeirra sem ljá Samróm röddina sína?
-faq-how-privacy-a = Persónulega einkennani gögn hafa verið fjarlægð úr öllum raddhljóðbrotum í safninu. Í þeim tilfellum sem raddgjafi hefur lagt til lýðfræðilega stika á síðuna þeirra, eru þær upplýsingar aftengar upptökum þeirra en fylgja öðrum lýðfræðigögnum í niðurhali á gagnasafninu. Þessar upplýsingar eru aldrei gerðar opinberar á síðu raddgjafans.
+faq-how-privacy-a = Persónulega einkennandi gögn hafa verið fjarlægð úr öllum raddhljóðbrotum í safninu. Í þeim tilfellum sem raddgjafi hefur lagt til lýðfræðileg gögn í gegnum notkunarsniðið sitt, eru þær upplýsingar aftengdar upptökum þeirra en fylgja öðrum lýðfræðigögnum í niðurhali á gagnasafninu. Þessar upplýsingar eru aldrei gerðar opinberar á notkunarsniðssíðu raddgjafans.
 faq-what-determine-identity-q = Hvað þýðir það að ég geti ekki "borið kennsl á" raddgjafa í Samómsgagnasafninu?
 faq-what-determine-identity-a =
     Samrómsgagnasafnið er opið og aðgengilegt almenning svo hægt sé að nota það til að þjálfa margs konar raddstýrð kerfi. Fyrir öryggi raddgjafanna biðjum við alla sem sækja Samrómsgagnasafnið til að virða friðhelgi einkalífs þeirra.
@@ -562,7 +563,7 @@ hours-validated-explanation = Fjöldi klukkutíma af yfirförnum hljóðbrotum s
 sst = Tal-í-texta (TÍT)
 sst-explanation = Tal-í-texta (TÍT) er tækni sem breytir raddupptökum í texta.
 de-identified = Einkennissneiðing
-de-identified-explanation = Það þegar tengsl prófílgagna þátttakanda við hljóðgögnin sem hann lagði til eru falin, áður en þau eru undirbúin til niðurhals sem hluti af málheild.
+de-identified-explanation = Ferlið þegar tengsl notkunarsniðsgagna þátttakanda eru rofin við hljóðgögnin sem hann lagði til, áður en þau eru undirbúin til niðurhals sem hluti af gagnasafni.
 
 ## Error pages
 
@@ -758,7 +759,7 @@ speak-empty-state = Við erum uppiskroppa með setningar til að taka upp á þe
 speak-empty-state-cta = Leggja til setningar
 record-button-label = Raddupptaka
 share-title-new = <bold>Leggið lið</bold> við að leita upp fleiri raddir
-keep-track-profile = Rekja framfarir sínar með prófíl
+keep-track-profile = Fylgstu með framförum þínum með notkunarsniði
 login-to-get-started = Innskráning eða nýskráning
 target-segment-first-card = Þú leggur af mörkum til okkar fyrsta hlutamarkmiðs
 target-segment-generic-card = Þú leggur af mörkum til hlutamarkmiðs
@@ -827,7 +828,7 @@ total-approved = Samtals samþykkt
 overall-accuracy = Almenn nákvæmni
 set-visibility = Stilla sýnanleika minn
 visibility-explainer = Með þessari stillingu er sýnileika topplistans stjórnað. Þegar valið er að fela hann, þá birtist árangur manni einum. Það veldur að mynd, notandanafn og árangur birtast ekki topplista. Athugið að endurhlaðning topplistans tekur ~{ $minutes } mín, á meðan breytingarnar öðlast gildi.
-visibility-overlay-note = Athugið: stillingunni ‚sýnilegt‘ má breyta á <profileLink>prófílsíðunni</profileLink>
+visibility-overlay-note = Athugaðu: Þegar stillt er á ‚Sýnilegt‘ , þessu má breyta á <profileLink>notkunarsniðssíðunni</profileLink>
 show-ranking = Birta í hvaða sæti ég er
 
 ## Custom Goals
@@ -908,11 +909,11 @@ share-goal = Deila markmiði sínu
 
 ## Profile Delete
 
-delete-q = Vilt þú fara fram á að þínum raddgögnum verði líka eytt, eða viltu frekar halda þeim í gagnasafni Samróms?
+delete-q = Vilt þú fara fram á að raddgögnum þínum verði líka eytt, eða viltu frekar halda þeim í gagnasafni Samróms?
 keep = Halda
 remove = Fjarlægja
-keep-info = Nafnlausu raddgögnin þín verða áfram í gagnasafni Samróms. Þegar prófíl hefur verið eytt þá er ekki lengur hægt að biðja um að raddgögn honum tengd verði fjarlægð úr gagnasafninu.
-remove-info = Við munum skoða beiðni þína um að eyða raddgögnum úr gagnasafninu. Ef beiðnin er samþykkt, þá verður haft samband við þá sem hafa halað niður gagnasafninu og þeir líka beðnir um að eyða út raddgögnunum þínum.
+keep-info = Nafnlausu raddgögnin þín verða áfram í gagnasafni Samróms. Þegar notkunarsniði hefur verið eytt þá er ekki lengur hægt að biðja um að raddgögn tengd því verði fjarlægð úr gagnasafninu.
+remove-info = Við munum skoða beiðni þína um að eyða raddgögnum úr gagnasafninu. Ef beiðnin er samþykkt, þá verður haft samband við þá sem hafa sótt gagnasafnið og þeir beðnir um að eyða einnig út raddgögnunum þínum.
 why-delete-recordings = Upptökusafn Samróms er ætlað handa fræðafólki, litlum fyrirtækjum og áhugafólki um raddgreiningu, í því skyni að þjálfa verkfæri á borð við raddlíkön, aðgengileg og opin almenningi.
 profile-form-delete = Eyða prófíl
 
