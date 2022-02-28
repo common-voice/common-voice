@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = o kama jo e lipu ale ni: ijo pi wile sina
 email-opt-in-privacy-v2 = sina toki e wile lipu la, sina toki e ni: kulupu Mozilla li ken pali e ijo kepeken sona ni, lon <privacyLink>nasin sona</privacyLink> pi kulupu Mozilla.
 indicates-required = * la, o pana
 not-available-abbreviation = ala
+banner-error-slow-1 = mi pakala. ilo Common Voice li pakala lili. sina pona tan wile kama sina.
+banner-error-slow-2 = jan mute li kama tawa ilo. mi alasa sona e pakala.
+banner-error-slow-link = ilo li pilin seme?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
