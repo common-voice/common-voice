@@ -59,32 +59,14 @@ I see rocks on the ground
 
 > On the Common Voice Platform contributors on the platform read out public domain sentences generated through sentence collection. Sentence collection is a crucial part in launching languages on Common Voice. To support the equitable participation of languages of Common Voice we have introduced [three new sentence collection requirements bands](https://discourse.mozilla.org/t/share-your-views-nuancing-sentence-collection-requirements-new-sentence-collection-bands/93134).
 
-**Language vitality based on Intergenerational Disruption Scale**
+**Sentence Requirement Band**
 
-<!--- What number out of 0-10 would you classify your language based on [Intergenerational Disruption Scale](https://en.wikipedia.org/wiki/Expanded_Graded_Intergenerational_Disruption_Scale) ?-->
+<!--- After reading the linked discourse post, please share with us the band the apply's most to your language ?-->
 
+- [ ] Band A
+- [ ] Band B
+- [ ] Band C
 
-**Digital Language vitality**
-
-<!--- Considering the population of speakers, how would you describe the following areas ?-->
-
-**Necessary skills (code, literacy)**
- 
-- [ ] High
-- [ ] Medium
-- [ ] Low
- 
-**Internet penetration**
- 
-- [ ] High
-- [ ] Medium
-- [ ] Low
- 
-**Public domain text available**
- 
-- [ ] High
-- [ ] Medium
-- [ ] Low
 
 ## Creating Language Community Channels
 
