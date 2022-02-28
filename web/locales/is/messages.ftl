@@ -914,13 +914,29 @@ keep = Halda
 remove = Fjarlægja
 keep-info = Nafnlausu raddgögnin þín verða áfram í gagnasafni Samróms. Þegar notkunarsniði hefur verið eytt þá er ekki lengur hægt að biðja um að raddgögn tengd því verði fjarlægð úr gagnasafninu.
 remove-info = Við munum skoða beiðni þína um að eyða raddgögnum úr gagnasafninu. Ef beiðnin er samþykkt, þá verður haft samband við þá sem hafa sótt gagnasafnið og þeir beðnir um að eyða einnig út raddgögnunum þínum.
-why-delete-recordings = Upptökusafn Samróms er ætlað handa fræðafólki, litlum fyrirtækjum og áhugafólki um raddgreiningu, í því skyni að þjálfa verkfæri á borð við raddlíkön, aðgengileg og opin almenningi.
-profile-form-delete = Eyða prófíl
+why-delete-recordings =
+    Upptökusafn Samróms er ætlað handa fræðafólki, litlum fyrirtækjum og áhugafólki um raddgreiningu, í því skyni að þjálfa og þróa verkfæri á borð við raddlíkön, aðgengileg og opin almenningi.
+    
+    Getur þú látið okkur vita hvers vegna þú vilt að upptökunum þínum verði eytt?
+profile-form-delete = Eyða notkunarsniði
 
 ## Profile Download
 
+download-q = Þarftu að sækja gögnin þín?
+download-info = Segðu okkur hvað þú vilt sækja:
+download-profile-title = Notkunarsnið
+download-profile-info = Inniheldur tölvupóstfang, notandanafn og lýðfræðilegar upplýsingar, fáanlegar strax
+download-profile-size = Nokkur bæti
+download-recordings-title = Upptökur
+download-recordings-info = Inniheldur mp3 og tengdar setningar, gæti tekið nokkurn tíma að undirbúa
+download-recordings-size = Venjulega megabæti
+download-recordings-unavailable = Þú getur ekki beðið um upptökurnar þínar á meðan önnur beiðni er þegar í vinnslu.
+download-recently-requested = Þú getur beðið um nýtt afrit af upptökunum þínum á { $days } daga fresti.
 download-size = Stærð
 download-selected = Valið
+download-start = Sækja notkunarsniðsgögn
+download-request = Óska eftir upptökum
+download-requests = Fyrri beiðnir um niðurhal á upptökum
 download-request-title = { $created }
 download-request-archive-single = Ein ZIP-safnskrá sem inniheldur
 
