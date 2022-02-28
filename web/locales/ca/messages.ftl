@@ -729,7 +729,7 @@ your-feedback = Teniu idees sobre com millorar el conjunt de dades del Common Vo
 go-discourse = Vés al Discourse
 missing-language = No veieu la vostra llengua al conjunt de dades? Per sol·licitar una llengua, aneu a la pàgina de llengües.
 go-languages-page = Vés a la pàgina de llengües
-ready-to-validate = Esteu preparat per a validar frases?
+ready-to-validate = Esteu a punt per a validar frases?
 more = Més
 close = Tanca
 download = Baixa
@@ -798,8 +798,8 @@ goal-help-recording = Heu ajudat el Common Voice a assolir el <goalPercentage></
 goal-help-validation = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } validacions!
 contribute-more =
     { $count ->
-        [one] Preparat per a fer-ne { $count } més?
-       *[other] Preparat per a fer-ne { $count } més?
+        [one] A punt per a fer-ne { $count } més?
+       *[other] A punt per a fer-ne { $count } més?
     }
 record-cta = Enregistreu
 record-platform-not-supported = Malauradament, la vostra plataforma no és compatible actualment.
@@ -1061,9 +1061,9 @@ demo-account-sign-up = Envia l'enllaç de registre
 
 ## Demo Contribute
 
-demo-contribute-card-header = Esteu preparat per a afegir la veu o parar l'orella?
+demo-contribute-card-header = Esteu a punt per a afegir la veu o parar l'orella?
 demo-contribute-card-body-v2 = Ara que ja sabeu una mica més sobre el Common Voice, per què no ho proveu? Feu clic en la icona del micròfon per a començar a llegir frases en veu alta. <br/><br/>Si preferiu revisar les contribucions de veu d'altres persones, feu clic en la icona de reproducció. D'aquesta manera ajudareu a confirmar si els enregistraments coincideixen amb les frases escrites en la pantalla.
-demo-listen-subtitle = Preparat per a col·laborar?
+demo-listen-subtitle = A punt per a col·laborar?
 
 ## Demo Dashboard
 
