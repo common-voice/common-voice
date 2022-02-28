@@ -193,7 +193,7 @@ speak-now = Talaðu núna
 datasets = Gagnasöfn
 languages = Tungumál
 about = Um okkur
-profile = Prófíll
+profile = Notkunarsnið
 help = Hjálp
 contact = Hafa samband
 privacy = Persónuvernd
@@ -213,12 +213,12 @@ home-title = Samrómur (Common Voice) er verkefni á vegum Mozilla sem gengur ú
 default-tagline = Samrómur (Common Voice) er verkefni á vegum Mozilla sem gengur út á það að kenna vélum að skilja hvernig mannfólk talar.
 home-cta = Hækkið róminn, deilið hér!
 wall-of-text-start = Rödd er náttúruleg, rödd er mennsk. Þess vegna heillumst við af sköpun nothæfrar raddtækni handa vélunum okkar. En til þess að skapa raddkerfi þörfnumst við mýgrúts gagna.
-wall-of-text-more-mobile = Flest gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Samróm, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
+wall-of-text-more-mobile = Flest þau gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Samróm, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
 wall-of-text-more-desktop =
     Hér geturðu deilt raddprufum sem hjálpar okkur að setja saman opinn raddgagnagrunn sem er aðgengilegur hverjum sem er til að nota í nýjungar fyrir tæki og vefinn.<lineBreak></lineBreak>
     Lesið inn setningar til að hjálpa vélum að læra hvernig fólk talar í raun og veru. Staðfestið framlög annarra til að bæta kerfið. Svo einfalt er það!
 wall-of-text-first = Að tjá sig með röddinni er okkur náttúrulegt, og nátengt mannlífinu. Þess vegna erum við svo spennt fyrir því að búa til nothæfa raddtækni fyrir tækin okkar. En til að þróa raddkerfi þarf gríðarlegt magn raddgagna.
-wall-of-text-second = Megnið af þeim raddgögnum sem stórfyrirtæki nota er ekki aðgengilegt, sem hindrar framþróun að okkar mati. Þess vegna efndum við til þessa verkefnis, Samróms, með því markmiði að stuðla að opinni raddgreiningartækni, sem allir geta notað.
+wall-of-text-second = Flest þau gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Samróm, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
 show-wall-of-text = Lesa meira
 help-us-title = Hjálpaðu okkur að meta setningar!
 help-us-explain = Veldu afspilun, hlustaðu og svaraðu: var setningin að neðan nákvæmlega sögð?
@@ -234,7 +234,7 @@ listen-paragraph = Að staðfesta aðsendar raddupptökur er jafn mikilvægt fyr
 listen-goal-text = Staðfestar raddupptökur
 hours-recorded = Klukkustundir hljóðritaðar
 hours-validated = Klukkustundir staðfestar
-voices-online = Raddir í loftinu
+voices-online = Raddir á netinu
 todays-progress = Árangur dagsins
 help-reach-goal = Hjálpaðu okkur að komast upp í { $goal }
 read-terms-q = Hefurðu lesið skilmálana?
@@ -265,7 +265,7 @@ email-subscription-title-new = Skrá sig á fréttabréf Samróms, áminningar u
 
 benefits = Kostir
 rich-data = Gerðu þau gögn sem þú leggur til nytsamlegri með því að bæta við nafnlausum lýðfræðilegum upplýsingum. Allar slíkar upplýsingar eru sneiddar persónueinkennandi atriðum fyrir opinbera útgáfu.
-improve-audio = Prófílgögn hjálpa til við að þjálfa nákvæmari raddgreiningu.
+improve-audio = Upplýsingar í notkunarsniði bæta hljóðgögnin sem notuð eru við að þjálfa nákvæmari raddgreiningu.
 keep-track = Fylgstu með eigin framvindu og tölur um þátttöku í mörgum tungumálum.
 compare-progress = Berðu saman framvindu þína við aðra þátttakendur víðsvegar um heiminn.
 view-goals = Skoðaðu hvernig miðast í átt að verkefnismarkmiðum og persónuleg markmiðum.
@@ -277,7 +277,7 @@ whats-public = Hvað er gert opinbert?
 email-not-public = Við munum ekki birta tölvupóstinn þinn opinberlega.
 recordings-and-locale-public = Það hversu margar upptökur þú hefur lagt til, og til hvaða tungumála, verður opinbert.
 username-optin-public = Þú getur kosið að vera ónafngreind(ur), eða komið fram opinberlega með þínu notandanafni.
-demographic-deidentified-clarity-2 = Valkvæð lýðfræðigögn (t.d. aldur, kyn, tungumál og hreimur) sem lögð eru fram verða aldrei gerð opinber á prófílnum þínum. Þau verða ekki tengd við aðganginn þinn í gagnapakkanum. Einstök raddsýni verða tengd lýðfræðilegum gönum í því skyni að fá nákvæmari greiningu - til dæmis gæti rannsakandi viljað miða þjálfunarlíkan að tilteknum lýðfræðilegum hluta.
+demographic-deidentified-clarity-2 = Valkvæð lýðfræðigögn (t.d. aldur, kyn, tungumál og hreimur) sem lögð eru fram verða aldrei gerð opinber í notkunarsniðinu þínu. Þau verða ekki tengd við aðganginn þinn í gagnasafninu. Einstök raddsýni verða tengd lýðfræðilegum gögnum í því skyni að fá nákvæmari greiningu - til dæmis gæti rannsakandi viljað miða þjálfunarlíkan við tiltekinn lýðfræðilegan hluta gagnasafnsins.
 username-email-not-demographic = Notandanafnið þitt og netfang verður ekki tengt gögnum útgáfunnar.
 
 ## Speak & Listen Shortcuts
@@ -330,7 +330,7 @@ english = Enska
 ## ProfileForm
 
 profile-form-username =
-    .label = Notendanafn
+    .label = Notandanafn
 profile-form-native-language =
     .label = Móðurmál
 profile-form-additional-language =
@@ -344,6 +344,7 @@ profile-form-accent =
     .label = Hreimur
 profile-form-custom-accent-help-text =
     .label = Hvernig myndir þú lýsa hreimnum þínum?
+profile-form-custom-accent-placeholder-2 = Skrifaðu til að lýsa hreimnum þínum
 profile-form-age =
     .label = Aldur
 profile-form-gender-2 =
@@ -354,13 +355,14 @@ hidden = Falið
 visible = Sýnilegt
 native-language =
     .label = Móðurmál
+profile-form-add-accent = Bæta við nýjum sérsniðnum hreim „{ $inputValue }“
 profile-form-submit-save = Vista
 profile-form-submit-saved = Vistað
 male = Karlkyns
 female = Kvenkyns
 # Gender
 other = Annað
-why-profile-title = Hvers vegna prófíl?
+why-profile-title = Hvers vegna notkunarsnið?
 why-profile-text = Með því að útvega einhverjar upplýsingar um sjálfan þig, þá verða hljóðgögnin sem þú sendir inn í Samróm gagnlegri í talgreiningarvélar sem nota þessi gögn til þess að bæta á nákvæmni.
 dashboard = Skjáborð
 build-profile = Búa til prófíl
