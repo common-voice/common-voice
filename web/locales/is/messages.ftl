@@ -269,21 +269,21 @@ email-subscription-title-new = Skráðu þig til að fá fréttabréf Samróms, 
 ## Account Benefits
 
 benefits = Kostir
-rich-data = Gerðu þau gögn sem þú leggur til nytsamlegri með því að bæta við nafnlausum lýðfræðilegum upplýsingum. Allar slíkar upplýsingar eru sneiddar persónueinkennandi atriðum fyrir opinbera útgáfu.
+rich-data = Gerðu þau gögn sem þú leggur til nytsamlegri með því að bæta við nafnlausum lýðfræðilegum upplýsingum. Allar slíkar upplýsingar eru hreinsaðar af persónuauðkennandi atriðum fyrir opinbera birtingu.
 improve-audio = Upplýsingar í notkunarsniði bæta hljóðgögnin sem notuð eru við að þjálfa nákvæmari raddgreiningu.
 keep-track = Fylgstu með eigin framvindu og tölur um þátttöku í mörgum tungumálum.
 compare-progress = Berðu saman framvindu þína við aðra þátttakendur víðsvegar um heiminn.
-view-goals = Skoðaðu hvernig miðast í átt að verkefnismarkmiðum og persónuleg markmiðum.
-join-newsletter = Hægt er að skrá sig á póstlistann okkar til að fá fréttir um verkefnið.
+view-goals = Skoðaðu framfarir þínar miðað við persónuleg markmið og markmið verkefnisins.
+join-newsletter = Hægt er einnig að skrá sig á tölvupóstlistann okkar til að fá uppfærslur og nýjar upplýsingar um verkefnið.
 
 ## What's public
 
 whats-public = Hvað er gert opinbert?
-email-not-public = Við munum ekki birta tölvupóstinn þinn opinberlega.
-recordings-and-locale-public = Það hversu margar upptökur þú hefur lagt til, og til hvaða tungumála, verður opinbert.
+email-not-public = Við munum ekki birta tölvupóstfangið þitt opinberlega.
+recordings-and-locale-public = Það hversu margar upptökur þú hefur lagt til og til hvaða tungumála, verður gert opinbert.
 username-optin-public = Þú getur kosið að vera ónafngreind(ur), eða komið fram opinberlega með þínu notandanafni.
 demographic-deidentified-clarity-2 = Valkvæð lýðfræðigögn (t.d. aldur, kyn, tungumál og hreimur) sem lögð eru fram verða aldrei gerð opinber í notkunarsniðinu þínu. Þau verða ekki tengd við aðganginn þinn í gagnasafninu. Einstök raddsýni verða tengd lýðfræðilegum gögnum í því skyni að fá nákvæmari greiningu - til dæmis gæti rannsakandi viljað miða þjálfunarlíkan við tiltekinn lýðfræðilegan hluta gagnasafnsins.
-username-email-not-demographic = Notandanafnið þitt og netfang verður ekki tengt gögnum útgáfunnar.
+username-email-not-demographic = Notandanafnið þitt og tölvupóstfang verða ekki tengd útgefnum gögnum.
 
 ## Speak & Listen Shortcuts
 
@@ -315,13 +315,14 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Farga upptöku sem er í gangi
 shortcut-submit = Til baka
 shortcut-submit-label = Senda inn upptökur
-request-language-text = Sérðu enn engan Samróm fyrir tungumálið þitt?
+request-language-text = Sérðu tungumálið þitt ekki í Samrómi?
+request-language-text-learn = Sjáðu hér hvernig á að biðja um það!
 request-language-button = Biðja um tungumál
 
 ## ProjectStatus
 
-status-title = Heildarstaða verks: sjáið hve langt við erum komin á leið!
-status-contribute = Deildu rödd þinni
+status-title = Heildarstaða verks: sjáðu hve langt við erum komin á leið!
+status-contribute = Leggðu til rödd þína
 status-hours =
     { $hours ->
         [one] Ein klukkustund staðfest enn sem komið er!
@@ -329,7 +330,7 @@ status-hours =
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Næsta markmið: { $goal }
+status-goal = Næstu markmið: { $goal }
 english = Enska
 
 ## ProfileForm
@@ -368,7 +369,9 @@ female = Kvenkyns
 # Gender
 other = Annað
 why-profile-title = Hvers vegna notkunarsnið?
-why-profile-text = Með því að útvega einhverjar upplýsingar um sjálfa/n þig, þá verða hljóðgögnin sem þú sendir inn í Samróm gagnlegri fyrir þær talgreiningarvélar sem nota þessi gögn til þess að bæta nákvæmni þeirra.
+why-profile-text =
+    Með því að veita ákveðnar upplýsingar um sjálfan þig, þá eykur þú á notagildi aðsendra gagna fyrir raddgreiningarvélarnar 
+    sem nýta sér þessi gögn til að bæta nákvæmni sína.
 dashboard = Stjórnborð
 build-profile = Búa til notkunarsnið
 avatar = Auðkennismynd
