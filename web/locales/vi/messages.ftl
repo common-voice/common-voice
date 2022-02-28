@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Nhận email như lời nhắc cho thử 
 email-opt-in-privacy-v2 = Bằng cách chọn nhận email, bạn tuyên bố rằng bạn đồng ý với việc Mozilla xử lý thông tin này như được giải thích trong <privacyLink>chính sách bảo mật</privacyLink> của Mozilla.
 indicates-required = * Trường được yêu cầu
 not-available-abbreviation = N/A
+banner-error-slow-1 = Rất tiếc, Common Voice đang chạy chậm. Cảm ơn vì sự quan tâm của bạn.
+banner-error-slow-2 = Chúng tôi đang nhận được rất nhiều lưu lượng truy cập và hiện đang điều tra các vấn đề.
+banner-error-slow-link = Trang trạng thái
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -334,6 +337,7 @@ profile-form-language =
     .label = Ngôn ngữ
 profile-form-variant =
     .label = Bạn nói biến thể nào của { $language }?
+profile-form-variant-default-value = Không có biến thể nào được chọn
 profile-form-accent =
     .label = Giọng vùng miền
 profile-form-custom-accent-help-text =
