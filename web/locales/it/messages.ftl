@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Ricevi email come promemoria di sfide e o
 email-opt-in-privacy-v2 = Scegliendo di ricevere le email, accetti che Mozilla utilizzi queste informazioni secondo quanto riportato nell’<privacyLink>informativa sulla privacy</privacyLink>.
 indicates-required = * indica un campo obbligatorio
 not-available-abbreviation = N.D.
+banner-error-slow-1 = Ci dispiace, il funzionamento di Common Voice è rallentato. Grazie per il tuo interesse.
+banner-error-slow-2 = Stiamo ricevendo molto traffico e stiamo attualmente analizzando il problema.
+banner-error-slow-link = Pagina di stato
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
