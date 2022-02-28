@@ -15,7 +15,7 @@ email-opt-in-privacy-v2 = En optar per rebre correus electrònics, accepteu que 
 indicates-required = * Indica un camp necessari
 not-available-abbreviation = N/D
 banner-error-slow-1 = Ens sap greu, el Common Voice està tardant a carregar-se, gràcies per l'interès.
-banner-error-slow-2 = La plataforma va molt carregada últimament, estem investigant els problemes i esperem que torne prompte.
+banner-error-slow-2 = La plataforma va molt carregada últimament, estem investigant els problemes i esperem solucionar-los aviat.
 banner-error-slow-link = Estat del projecte
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
