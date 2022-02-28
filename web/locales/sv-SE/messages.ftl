@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Få e-postmeddelanden som målpåminnelse
 email-opt-in-privacy-v2 = Genom att anmäla dig till att ta emot e-postmeddelanden godkänner du att du är okej med att Mozilla hanterar denna information, som förklaras i Mozillas <privacyLink>sekretesspolicy</privacyLink>.
 indicates-required = * Indikerar obligatoriska fält
 not-available-abbreviation = inte tillgänglig
+banner-error-slow-1 = Tyvärr, Common Voice går sakta. Tack för visat intresse.
+banner-error-slow-2 = Vi har mycket trafik och utreder just nu problemet.
+banner-error-slow-link = Statussida
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
