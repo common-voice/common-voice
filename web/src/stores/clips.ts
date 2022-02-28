@@ -5,6 +5,58 @@ import StateTree from './tree';
 import { User } from './user';
 import { Clip } from 'common';
 
+async function getCanPlayAudio(audioSrc: string) {
+  return new Promise(resolve => {
+    const audio = new Audio(audioSrc);
+
+    audio.addEventListener('error', () => {
+      resolve(false);
+    });
+
+    audio.addEventListener('canplay', () => {
+      resolve(true);
+    });
+
+    audio.load();
+  });
+}
+
+async function checkClipsForErrors(clips: Clip[]) {
+  return await Promise.all(
+    clips.map(async clip => {
+      let hasError = false;
+
+      try {
+        // can play clip
+        const canPlayAudio = await getCanPlayAudio(clip.audioSrc);
+        if (!canPlayAudio) {
+          throw new Error(`Couldn't play clip "${clip.audioSrc}"`);
+        }
+
+        // attempt to decode sentence
+        clip.sentence = {
+          ...clip.sentence,
+          text: decodeURIComponent(clip.sentence.text),
+        };
+      } catch (e) {
+        console.error('Clip error', e);
+        hasError = true;
+      }
+
+      return { hasError, clip };
+    })
+  );
+}
+
+async function removeClipsWithErrors(clips: Clip[]) {
+  const clipsWithErrors = await checkClipsForErrors(clips);
+
+  // filter out errored clips
+  return clipsWithErrors
+    .filter(clipWithErrors => !clipWithErrors.hasError)
+    .map(clipWithErrors => clipWithErrors.clip);
+}
+
 const MIN_CACHE_SIZE = 10;
 
 // eslint-disable-next-line @typescript-eslint/no-namespace
@@ -86,31 +138,13 @@ export namespace Clips {
         try {
           dispatch({ type: ActionType.LOAD });
 
-          const clips = await state.api.fetchRandomClips(
+          const randomClips = await state.api.fetchRandomClips(
             MIN_CACHE_SIZE - localeClips(state).clips.length
           );
 
-          dispatch({
-            type: ActionType.REFILL_CACHE,
-            clips: clips.map(clip => {
-              const sentence = clip.sentence;
-              try {
-                sentence.text = decodeURIComponent(sentence.text);
-              } catch (e) {
-                if (e.name !== 'URIError') {
-                  throw e;
-                }
-              }
+          const clips = await removeClipsWithErrors(randomClips);
 
-              return {
-                id: clip.id,
-                glob: clip.glob,
-                sentence,
-                audioSrc: clip.audioSrc,
-              };
-            }),
-          });
-          await Promise.all(clips.map(({ audioSrc }) => fetch(audioSrc)));
+          dispatch({ type: ActionType.REFILL_CACHE, clips });
         } catch (err) {
           if (err instanceof XMLHttpRequest) {
             dispatch({ type: ActionType.REFILL_CACHE });
