@@ -373,29 +373,31 @@ edit-profile = Breyta notkunarsniði
 profile-create-success = Gerð notkunarsniðs tókst!
 profile-close = Loka
 profile-explanation = Fylgstu með árangrinum á notkunarsniðinu þínu og hjálpaðu okkur að auka á nákvæmni raddgagnanna.
-thanks-for-account = Takk fyrir að staðfesta aðgang þinn, nú skaltu skapa þér prófíl.
+thanks-for-account = Takk fyrir að staðfesta aðganginn þinn, nú skulum við byggja upp notkunarsniðið þitt.
 why-demographic = Hvers vegna skiptir þetta máli?
-why-demographic-explanation-2 = Nafnlaus notendagögn um aldur, kyn og hreim hjálpa til við að bæta hljóðgögn sem notuð eru í því skyni að skilyrða talgreiningarvélar. Notendanöfn og tölvupóstföng verða aldrei vensluð þeim gögnum sem lögð hafa verið fram. Það er valkvætt hvort notendanafn sé opinberlega birt eða ósýnilegt.
-accept-privacy = Það er allt í lagi að meðhöndla þessar upplýsingar, líkt og útskýrt er í <privacyLink>friðhelgisstefnu</privacyLink> Mozilla.
+why-demographic-explanation-2 = Nafnlaus notendagögn eins og um aldur, kyn og hreim hjálpa til við að bæta hljóðgögnin sem notuð eru til að þjálfa talgreiningarvélar. Notendanöfn og tölvupóstföng verða aldrei tengd þeim gögnum sem lögð verða fram. Það er valkvætt hvort notandanafn birtist opinberlega eða sé ósýnilegt.
+accept-privacy = Mér finnst allt í lagi að þið meðhöndlið þessar upplýsingar eins og útskýrt er í <privacyLink>persónuverndarstefnu</privacyLink> Mozilla
 accept-privacy-title = Persónuverndarstefna
 login-identity = Innskráningarauðkenni
-login-signup = Innskrá / nýskrá
+login-signup = Skrá inn / Nýskrá
 edit = Breyta
-email-subscriptions = Tölvupóstáskrift
+email-subscriptions = Tölvupóstáskriftir
 download-profile = Sækja gögnin mín
-contribution-experience = Upplifun af framlagi
-skip-submission-feedback = Sleppa athugasemdum á framlag
-skip-submission-description = Endurgjöf er meðan raddgögn eru lögð fram, en þegar smellt er á 'Senda' lýkur athugasemdum. Framlagið mun halda áfram með næsta setti af 5 upptökum eða staðfestingum.
-skip-submission-note = Athugið: Maður verður samt að velja á milli tals eða hlustunar til að breyta tegund inntaks.
+contribution-experience = Reynsla af framlagi
+skip-submission-feedback = Sleppa umsögn varðandi framlag
+skip-submission-description = Við innsendingu framlags verður umsögn sleppt eftir að smellt hefur verið á 'Senda'. Framlag heldur beint áfram með næsta setti af 5 upptökum eða staðfestingum.
+skip-submission-note = Athugaðu: Þú verður samt að velja á milli tals eða hlustunar til að breyta tegund framlags.
 off = Af
 on = Ǻ
+help-accent = Þarftu hjálp með hreim?
+help-variants = Þarftu aðstoð við afbrigði?
 
 ## Profile - Email
 
 browse-file-title = Hlaða inn myndskrá
 browse-file = Dragðu og slepptu eða <browseWrap>flettu upp</browseWrap>
 connect-gravatar = Tengja við Gravatar
-gravatar_not_found = Enginn gravatar fannst fyrir netfangið þitt
+gravatar_not_found = Enginn gravatar fannst fyrir tölvupóstfangið þitt
 file_too_large = Myndin sem var valin er of stór
 max-file-size = { $kb }kb hámark
 
