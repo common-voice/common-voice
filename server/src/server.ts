@@ -2,8 +2,12 @@ import * as fs from 'fs';
 import * as http from 'http';
 import * as path from 'path';
 import * as express from 'express';
+import * as compression from 'compression';
+import { Request, Response } from 'express';
 import * as Sentry from '@sentry/node';
-import { NextFunction, Request, Response } from 'express';
+import { StatusCodes } from 'http-status-codes';
+import 'source-map-support/register';
+
 import { importLocales } from './lib/model/db/import-locales';
 import { importTargetSegments } from './lib/model/db/import-target-segments';
 import { scrubUserActivity } from './lib/model/db/scrub-user-activity';
@@ -17,21 +21,16 @@ import { redis, useRedis, redlock } from './lib/redis';
 import { APIError, ClientError, getElapsedSeconds } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
-import authRouter, { authMiddleware } from './auth-router';
+import authRouter from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
 import { createTaskQueues, TaskQueues } from './lib/takeout';
-import * as compression from 'compression';
-const HttpStatus = require('http-status-codes');
 
-require('source-map-support').install();
 const contributableLocales = require('locales/contributable.json');
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version';
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
 const MAINTENANCE_PATH = path.join(__dirname, '..', '..', 'maintenance');
-const RELEASE_VERSION = getConfig().RELEASE_VERSION;
-const ENVIRONMENT = getConfig().ENVIRONMENT;
-const PROD = getConfig().PROD;
+const { RELEASE_VERSION, ENVIRONMENT, PROD, SENTRY_DSN } = getConfig();
 const SECONDS_IN_A_YEAR = 365 * 24 * 60 * 60;
 
 const CSP_HEADER = [
@@ -112,7 +111,7 @@ export default class Server {
 
       app.use(express.static(MAINTENANCE_PATH, staticOptions));
 
-      app.use(/(.*)/, (request, response, next) => {
+      app.use(/(.*)/, (_request, response) => {
         response.sendFile('index.html', { root: MAINTENANCE_PATH });
       });
     } else {
@@ -122,7 +121,7 @@ export default class Server {
           const query = request.url.slice(request.path.length);
           const host = request.get('host');
           response.redirect(
-            HttpStatus.MOVED_PERMANENTLY,
+            StatusCodes.MOVED_PERMANENTLY,
             `https://${host}${request.path.slice(0, -1)}${query}`
           );
         } else {
@@ -155,27 +154,20 @@ export default class Server {
       // Enable Sentry error handling
       app.use(Sentry.Handlers.errorHandler());
 
-      app.use(
-        (
-          error: Error,
-          request: Request,
-          response: Response,
-          next: NextFunction
-        ) => {
-          console.log(error.message, error.stack);
-          const isAPIError = error instanceof APIError;
-          if (!isAPIError) {
-            console.error(request.url, error.message, error.stack);
-          }
-          response
-            .status(
-              error instanceof ClientError
-                ? HttpStatus.BAD_REQUEST
-                : HttpStatus.INTERNAL_SERVER_ERROR
-            )
-            .json({ message: isAPIError ? error.message : '' });
+      app.use((error: Error, request: Request, response: Response) => {
+        console.log(error.message, error.stack);
+        const isAPIError = error instanceof APIError;
+        if (!isAPIError) {
+          console.error(request.url, error.message, error.stack);
         }
-      );
+        response
+          .status(
+            error instanceof ClientError
+              ? StatusCodes.BAD_REQUEST
+              : StatusCodes.INTERNAL_SERVER_ERROR
+          )
+          .json({ message: isAPIError ? error.message : '' });
+      });
     }
   }
 
@@ -188,7 +180,7 @@ export default class Server {
     if (req.headers['x-forwarded-proto'] === 'http') {
       // Send to https please, always and forever
       res.redirect(
-        HttpStatus.PERMANENT_REDIRECT,
+        StatusCodes.PERMANENT_REDIRECT,
         'https://' + req.headers.host + req.url
       );
     } else {
@@ -200,6 +192,7 @@ export default class Server {
     const localesPath = path.join(FULL_CLIENT_PATH, 'locales');
     const crossLocaleMessages = fs
       .readdirSync(localesPath)
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       .reduce((obj: any, locale: string) => {
         const filePath = path.join(localesPath, locale, 'cross-locale.ftl');
         if (fs.existsSync(filePath)) {
@@ -228,7 +221,7 @@ export default class Server {
     );
     this.app.get(
       '/challenge-terms/:locale.html',
-      async ({ params: { locale } }, response) => {
+      async (_request, response) => {
         response.send(await fetchLegalDocument('challenge_terms', 'en'));
       }
     );
@@ -237,8 +230,10 @@ export default class Server {
   /**
    * Log application level messages in a common format.
    */
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   private print(...args: any[]) {
     args.unshift('APPLICATION --');
+    // eslint-disable-next-line prefer-spread
     console.log.apply(console, args);
   }
 
@@ -283,7 +278,7 @@ export default class Server {
    */
   listen(): void {
     // Begin handling requests before clip list is loaded.
-    let port = getConfig().SERVER_PORT;
+    const port = getConfig().SERVER_PORT;
     this.server = this.app.listen(port, () =>
       this.print(`listening at http://localhost:${port}`)
     );
