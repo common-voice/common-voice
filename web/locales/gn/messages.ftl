@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Emoñe’ẽ ne ñe’ẽvevépe marandu 
 email-opt-in-privacy-v2 = Emongurusúramo oñemog̃uahẽ hag̃ua ndéve marandu he’ise remoneĩha mba’éichapa Mozilla oiporu tapichakuéra kuaapyrã oñemyesãkáva <privacyLink>ko’ápe</privacyLink>.
 indicates-required = * He’ise remyenyhẽva’erã tenda’i jehairã.
 not-available-abbreviation = Ndaipóri
+banner-error-slow-link = Kuatiarogue Rekotee
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -539,6 +540,7 @@ about-playbook-what-is-language = ¿Mba’épa ñe’ẽ Common Voice ryepýpe?
 ## How do I add a language
 
 about-playbook-how-add-language = ¿Mba’éicha ambojuajúta ñe’ẽ?
+about-playbook-how-add-language-content-3 = <strong>Embyaty hag̃ua ñe’ẽjuaju</strong> - <scVideo>emboheko</scVideo> <scLink>Sentence Collector</scLink>-pe.
 
 ## How does localization work
 
