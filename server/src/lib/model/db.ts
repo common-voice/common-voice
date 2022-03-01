@@ -5,8 +5,7 @@ import ClipTable, { DBClip } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
 import { ChallengeToken, Sentence, TaxonomyToken, taxonomies } from 'common';
 import lazyCache from '../lazy-cache';
-const MINUTE = 1000 * 60;
-const DAY = MINUTE * 60 * 24;
+import { MINUTE, DAY } from '../constants/time';
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data

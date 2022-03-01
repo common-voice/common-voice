@@ -2,6 +2,7 @@ import { AllGoals } from 'common';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
 import { earnBonus } from './achievements';
+import { DAY } from '../constants/time';
 
 const STREAK_THRESHOLDS = [1, 3, 5, 10, 15];
 
@@ -14,17 +15,14 @@ function findGoal(goals: any[], type: string, threshold: number) {
   return goal ? goal.reached_at : null;
 }
 
-const ONE_DAY = 24 * 60 * 60 * 1000;
 const daysBetween = (date1: Date, date2: Date) =>
-  Math.floor((date1.getTime() - date2.getTime()) / ONE_DAY);
+  Math.floor((date1.getTime() - date2.getTime()) / DAY);
 
 const formatDate = (date: Date) =>
   date.toISOString().slice(0, 19).replace('T', ' ');
 
 async function hasComputedGoals(client_id: string) {
-  const [
-    [client],
-  ] = await db.query(
+  const [[client]] = await db.query(
     'SELECT has_computed_goals FROM user_clients WHERE client_id = ?',
     [client_id]
   );
@@ -243,17 +241,14 @@ export async function checkGoalsAfterContribution(
 
   const localeId =
     'name' in locale ? await getLocaleId(locale.name) : locale.id;
-  let [
-    [reachedGoals],
-    [[{ clips_count, votes_count }]],
-    [[streak]],
-  ] = await Promise.all([
-    db.query(
-      'SELECT * FROM reached_goals WHERE client_id = ? AND locale_id = ?',
-      [client_id, localeId]
-    ),
-    db.query(
-      `
+  let [[reachedGoals], [[{ clips_count, votes_count }]], [[streak]]] =
+    await Promise.all([
+      db.query(
+        'SELECT * FROM reached_goals WHERE client_id = ? AND locale_id = ?',
+        [client_id, localeId]
+      ),
+      db.query(
+        `
         SELECT
           (
            SELECT COUNT(*)
@@ -267,17 +262,17 @@ export async function checkGoalsAfterContribution(
            WHERE votes.client_id = :client_id AND clips.locale_id = :locale_id
           ) AS votes_count
       `,
-      { client_id, locale_id: localeId }
-    ),
-    db.query(
-      `
+        { client_id, locale_id: localeId }
+      ),
+      db.query(
+        `
         SELECT DATEDIFF(now(), last_activity_at) AS days_since
         FROM streaks
         WHERE client_id = ? AND locale_id = ?
       `,
-      [client_id, localeId]
-    ),
-  ]);
+        [client_id, localeId]
+      ),
+    ]);
 
   if (!streak) {
     await db.query(
@@ -324,11 +319,13 @@ export async function checkGoalsAfterContribution(
     const threshold = (type == 'streak' ? STREAK_THRESHOLDS : THRESHOLDS).find(
       t => t > maxCount
     );
-    const currentCount = ({
-      streak: streak_days,
-      clips: clips_count,
-      votes: votes_count,
-    } as any)[type];
+    const currentCount = (
+      {
+        streak: streak_days,
+        clips: clips_count,
+        votes: votes_count,
+      } as any
+    )[type];
 
     if (!threshold || currentCount < threshold) {
       continue;

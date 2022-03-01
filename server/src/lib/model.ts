@@ -3,7 +3,7 @@ import { LanguageStats, Sentence } from 'common';
 import DB from './model/db';
 import { DBClip } from './model/db/tables/clip-table';
 import lazyCache from './lazy-cache';
-
+import { MINUTE, DAY } from './constants/time';
 const locales = require('locales/all.json') as string[];
 const contributableLocales = require('locales/contributable.json') as string[];
 
@@ -120,8 +120,6 @@ function fetchLocalizedPercentagesByLocale() {
   );
 }
 
-const MINUTE = 1000 * 60;
-const DAY = MINUTE * 60 * 24;
 /**
  * The Model loads all clip and user data into memory for quick access.
  */
