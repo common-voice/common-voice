@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Bai, bidali e-postak niri. Common Voice proiektuari buruz informatuta egon nahi nuke.
-stayintouch = Mozillan hizkuntza teknologiaren inguruan komunitate bat eraikitzen ari gara. Zurekin harremanetan jarri nahiko genuke eguneraketen berri emateko, datu-iturri berriak eta datu hauek nola erabiltzen ari zaren.
+stayintouch = Mozillan hizkuntza teknologiaren inguruan komunitate bat eraikitzen ari gara. Zurekin harremanetan egon nahiko genuke eguneraketen berri emateko, datu-iturri berriak eta datu hauek nola erabiltzen ari zaren.
 privacy-info = Zure informazioa kontuz tratatuko dugula agintzen dizugu. Irakurri gehiago gure <privacyLink>pribatutasun oharpenean</privacyLink>.
 return-to-cv = Itzuli Common Voicera
 email-input =
@@ -34,7 +34,6 @@ az = Azerbaijanera
 ba = Baxkirera
 be = Bielorrusiera
 bg = Bulgariera
-bm = Banbara
 bn = Bengaliera
 br = Bretoiera
 bxr = Buriatera
@@ -448,13 +447,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Zergatik Common Voice?
-about-subtitle = Common Voice Mozillaren ekimenaren parte da, makinei gizakiek benetan nola hitz egiten duten irakasten laguntzeko. Common Voice datu-sortaz gain, kode irekiko ahotsa ezagutzeko motorra ere sortzen ari gara, Deep Speech izenekoa.
-about-header-description = Bi proiektu hauek mundu digitalean hizkuntzaren arrakalaren aurka borrokatzeko egin ditugun ahaleginen emaitza dira. Ahotsa ezagutzeko teknologiek giza dimentsioa ematen diete gure gailuei, baina garatzaileek ahots-datu ugari behar dituzte horiek sortu ahal izateko. Gaur egun, datu horietako gehienak garestiak eta jabetza pribatukoak dira.
-about-header-description-2 =
-    Proiektu hau hizketa digitalaren arrakala ixteko ahalegina da. Ahotsa ezagutzeko teknologiek giza dimentsioa ematen diete gure gailuei, baina garatzaileek ahots-datu ugari behar dituzte horiek eraikitzeko. Gaur egun, datu horietako gehienak garestiak eta jabedunak dira. 
-    Ahots-datuak doan eta publikoki eskuragarri egotea nahi dugu, eta datuek benetako pertsonen aniztasuna adierazten dutela ziurtatu. Elkarrekin ahotsaren ezagutza guztiontzat hobea izatea lor dezakegu.
-how-does-it-work-title = Nola dabilen
+how-does-it-work-title-v2 = Nola dabil Common Voice?
 how-does-it-work-text = Ahotsen datu-sorta ireki bat sortzen ari gara denon artean. Eman zure ahotsa, balioztatu besteen grabazioen egokitasuna, egin datu-sorta hobea guztiontzat.
+
+## How does it work section
+
+about-language-req-subtitle = Norbaitek hizkuntza bat gehitzea eskatzen du.
+about-localization-title = Webgunearen lokalizazioa
+about-localization-subtitle = Webguneko testua hizkuntza horretara itzultzen da.
+about-sentence-collection-title = Esaldi bilketa
+about-sentence-collection-subtitle = Esaldiak biltzen dira jendeak altuan irakurtzeko.
+about-new-lang-title = Hizkuntza berria martxan
+about-new-lang-subtitle = Common Voice gunea hizkuntza honetan martxan jartzen dugu.
+about-voice-contrib-title = Ahotsen grabaketa
+about-voice-contrib-subtitle = Jendea dator eta bere ahotsarekin laguntzen du.
+about-voice-validation-title = Ahotsen balioztatzea
+about-voice-validation-subtitle = Beste jende batek ahots grabazio horiek balioztatzen ditu.
+about-dataset-release-title = Datu-sortaren argitalpena
+about-dataset-release-subtitle = Datu-sorta 3 hilero argitaratzen dugu.
+about-subscribe-text = Common Voicekin harremanetan egon nahi duzu?
 about-speak = Hitz egin
 about-speak-text = Parte hartzaileek beraien grabazioak egiten dituzte aurretik lagatako esaldi biltegi batetik esaldiak irakurriz.
 about-listen-queue = Entzuketa ilara
@@ -484,10 +495,50 @@ about-get-involved-text-2 =
     <discourseLink>Discourse</discourseLink> foroak erabiliz,
     <githubLink>GitHub</githubLink>-en arazo baten berri eman,
     edo batu komunitateko <matrixLink>Matrix</matrixLink> txatera.
+about-stay-in-touch = Nola egon naiteke harremanetan?
 about-nav-why-common-voice = Zergatik?
 about-nav-how-it-works = Nola?
 about-nav-partners = Babesleak
 about-nav-get-involved = Parte hartu
+about-nav-how-it-works-2 = Nola dabil Common Voice?
+about-nav-playbook = Ikasi nola parte hartu
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Zer da hizkuntza bat Common Voicen?
+
+## How do I add a language
+
+about-playbook-how-add-language = Nola gehi dezaket hizkuntza bat?
+
+## How does localization work
+
+about-playbook-how-localize = Nola dabil gunearen lokalizazioa?
+about-playbook-how-localize-content-4 = Gunea martxan jartzeko prest dago % 75 egina dagoenean.
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Nola gehi ditzaket esaldiak?
+
+## How to record quality
+
+about-playbook-how-record-quality = Nola graba dezaket kalitate handiko ahots grabazio bat?
+
+## How to grow language
+
+
+## How to validate
+
+about-playbook-how-validate = Nola jakin ahots grabazio bat onartu behar ote dudan?
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Nola atzitu eta erabili dezaket datu-sorta?
+
+## How are decisions made
+
+about-playbook-how-project-governance = Nola hartzen dira proiektuko erabakiak?
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Adimen artifiziala
 mycroft-description =
@@ -499,13 +550,13 @@ mycroft-secondary-description = Hau kode irekiko softwarea da eta nahieran nahas
 
 glossary = Glosarioa
 localization = Lokalizazioa
-localization-explanation = gure edukia hainbat lokaletara (hizkuntzatara) itzultzeko eta moldatzeko prozesuari deritzo.
+localization-explanation = Gure edukia hainbat lokalera (hizkuntzara) itzultzeko eta moldatzeko prozesuari deritzo.
 sentence-collection = Esaldiak biltzea
-sentence-collection-explanation = jabetza publikoan dauden esaldiak biltzea edo zuzenean berriak idaztea eta berauok jabetza publikoan uztea.
+sentence-collection-explanation = Jabetza publikoan dauden esaldiak biltzea edo zuzenean berriak idaztea eta berauek jabetza publikoan uztea.
 hours-recorded-explanation = Orain arte bildu ditugun ahots grabazioen ordu kopurua.
 hours-validated-explanation = 2 edo 3 erabiltzailek "Bai" bezala bozkatu dituzten ahots grabazioen orduak. 10.000 orduko helburuarekiko aurrerabidea honen arabera kalkulatzen da.
 sst = Speech-to-text (STT)
-sst-explanation = hizketatik testura teknologiek (STT), ahots datuak testu bihurtzen dituzte.
+sst-explanation = Hizketatik testura teknologiek (STT), ahots datuak testu bihurtzen dituzte.
 de-identified = Des-identifikazioa
 de-identified-explanation = Datu-sorta deskargagarri uzteko paketatzen denean, egilearen profilaren informazioa berak grabatutako grabazioetatik ezkutatzeko prozesua.
 
@@ -535,6 +586,7 @@ dataset-date = Data
 license = Lizentzia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mistoa
 data-download-singleword-title = Deskargatu hitz bakarreko esparru zehatzeko atala
+data-download-singleword-callout-v2 = Erabilera kasu honek digituen eta bai / ez hitzen ahoskera ezagutzea du helburu.
 review-terms = Common Voice erabiltzean, bere <termsLink>erabilera baldintzak</termsLink> eta <privacyLink>pribatutasun-oharra</privacyLink> onartzen dituzu
 terms-agree = Onartzen dut
 terms-disagree = Ez dut onartzen
@@ -660,7 +712,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> grabazio
     }
 goal-help-recording = Common Voicek egunero { $goalValue } grabazio lortzea du helburu eta zuk helburuaren <goalPercentage></goalPercentage>a lortzen lagundu duzu!
-goal-help-validation = Common Voice lagundu duzu egunero { $goalValue } balidatzeko dugun helburuaren <goalPercentage></goalPercentage> lortzen!
+goal-help-validation = Common Voice lagundu duzu egunero { $goalValue } balioztatzeko dugun helburuaren <goalPercentage></goalPercentage> lortzen!
 contribute-more =
     { $count ->
         [one] { $count } gehiago egiteko prest?
@@ -986,6 +1038,9 @@ sc-home-collect-title = Bildu esaldiak
 sc-home-collect-text = Lagun gaitzazu jabetza publikoan dauden esaldiak idatziz edo bilduz.
 sc-home-review-title = Berrikusi esaldiak
 
+## GENERAL
+
+
 ## HOW-TO
 
 sc-howto-addsen-title = Gehitu esaldi berriak
@@ -1008,10 +1063,6 @@ sc-rejected-none-found = Ez da baztertutako esaldirik aurkitu!
 ## STATS
 
 sc-stats-title = Estatistikak
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Azken eguneratzea: { $lastUpdate }
-sc-stats-last-update-never = Azken eguneratzea: inoiz ez
 sc-stats-updating = Eguneratzen…
 
 ## ADD

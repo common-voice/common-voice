@@ -476,6 +476,8 @@ about-localization-title = ᱣᱮᱵᱽᱥᱟᱭᱤᱴ ᱛᱚᱨᱡᱚᱢᱟ
 about-sentence-collection-title = ᱟᱹᱭᱟᱹᱛ ᱛᱩᱢᱟᱹᱞ
 about-new-lang-title = ᱱᱟᱶᱟ ᱯᱟᱹᱨᱥᱤ ᱩᱪᱷᱟᱹᱱ
 about-voice-contrib-title = ᱥᱟᱲᱮ ᱮᱱᱮᱢ ᱠᱚ ᱫᱮᱠᱷᱟᱣ ᱢᱮ
+about-voice-validation-title = ᱥᱟᱰᱮ ᱯᱩᱥᱴᱟᱹᱣ
+about-voice-validation-subtitle = ᱮᱴᱟᱜ ᱦᱚᱲ ᱚᱱᱟ ᱥᱟᱰᱮ ᱠᱚ ᱯᱩᱥᱴᱟᱹᱣ ᱪᱷᱚᱭᱟ ᱾
 about-dataset-release-title = ᱰᱟᱴᱟᱥᱮᱴ ᱚᱰᱚᱠ
 about-speak = ᱨᱚᱲ ᱢᱮ
 about-speak-text = ᱮᱱᱮᱢᱤᱭᱟᱹ ᱫᱟᱱ ᱠᱟᱫ ᱟᱭᱢᱟ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱫᱚ ᱯᱟᱲᱦᱟᱣ ᱠᱟᱛᱮ ᱥᱟᱰᱮ ᱠᱞᱤᱯ ᱠᱚ ᱨᱮᱠᱚᱰᱼᱟ᱾
@@ -1362,7 +1364,7 @@ sc-review-form-reviewed-message =
         [two] { $sentences } ᱟᱹᱭᱟᱹᱛ ᱠᱤᱱ ᱧᱮᱧᱮᱞ ᱠᱟᱱᱟ᱾ ᱥᱟᱨᱦᱟᱣ!
        *[other] { $sentences } ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱧᱮᱧᱮᱞ ᱠᱟᱱᱟ᱾ ᱥᱟᱨᱦᱟᱣ!
     }
-sc-review-form-review-failure = ᱧᱮᱧᱮᱞ ᱥᱟᱸᱪᱟᱣ ᱵᱟᱝ ᱜᱟᱱ ᱞᱮᱱᱟ᱾ ᱫᱟᱭᱟᱠᱟᱛᱮ ᱛᱟᱭᱚᱢ ᱛᱮ ᱪᱮᱥᱴᱟᱭ ᱢᱮ᱾
+sc-review-form-review-failure = ᱧᱮᱧᱮᱞ ᱥᱟᱧᱪᱟᱣ ᱵᱟᱝ ᱜᱟᱱ ᱞᱮᱱᱟ᱾ ᱫᱟᱭᱟᱠᱟᱛᱮ ᱛᱟᱭᱚᱢ ᱛᱮ ᱪᱮᱥᱴᱟᱭ ᱢᱮ᱾
 sc-review-link = ᱧᱮᱞ ᱫᱚᱦᱲᱟ
 
 ## SETTINGS

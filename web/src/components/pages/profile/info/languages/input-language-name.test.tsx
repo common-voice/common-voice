@@ -5,38 +5,11 @@ import userEvent from '@testing-library/user-event';
 
 import { renderWithLocalization } from '../../../../../test/mock-localization';
 import { UserLanguage } from 'common';
-import { AccentsAll } from './languages';
+import { MOCK_ACCENTS_ALL } from './mocks';
 
 import InputLanguageName from './input-language-name';
 
 expect.extend(toHaveNoViolations);
-
-const MOCK_ACCENTS_ALL = {
-  en: {
-    userGenerated: {},
-    preset: {
-      '13': {
-        id: 13,
-        token: 'singapore',
-        name: 'Singaporean English',
-      },
-    },
-    default: {
-      id: 18,
-      token: 'unspecified',
-      name: '',
-    },
-  },
-  'zh-TW': {
-    userGenerated: {},
-    preset: {},
-    default: {
-      id: 176,
-      token: 'unspecified',
-      name: '',
-    },
-  },
-} as AccentsAll;
 
 describe('InputLanguageName', () => {
   let mockUserLanguages = [] as UserLanguage[];

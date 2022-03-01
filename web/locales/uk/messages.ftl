@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Отримувати такі листи,
 email-opt-in-privacy-v2 = Погоджуючись отримувати листи, ви заявляєте, що згодні з тим, як Mozilla обробляє цю інформацію, згідно з <privacyLink>Політикою приватності</privacyLink> Mozilla.
 indicates-required = * поля, обов'язкові для заповнення
 not-available-abbreviation = Недоступно
+banner-error-slow-1 = На жаль, Common Voice працює повільно. Дякуємо за зацікавленість.
+banner-error-slow-2 = Наш сервіс перевантажено вебтрафіком. Ми досліджуємо проблему.
+banner-error-slow-link = Сторінка стану
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -350,6 +353,9 @@ profile-form-additional-language =
     .label = Додаткова мова
 profile-form-language =
     .label = Мова
+profile-form-variant =
+    .label = Яким варіантом { $language } ви розмовляєте?
+profile-form-variant-default-value = Не вибрано жодного варіанта
 profile-form-accent =
     .label = Акцент
 profile-form-custom-accent-help-text =
@@ -401,6 +407,8 @@ off = Вимкнено
 on = Увімкнено
 help-accent = Потрібна допомога з акцентом?
 help-accent-explanation = Ваш акцент — це те, як ви вимовляєте слова. Він може залежати від того, де ви проживали, якими іншими мовами ви володієте та багатьма іншими факторами. Тут ви можете поділитися будь-якою інформацією, яку вважаєте необхідною.
+help-variants = Потрібна допомога з варіантами?
+help-variants-explanation = Варіанти — це специфічна форма мови, якою, наприклад, спілкуються ті, хто живе в певній місцевості чи спільноті. Іноді їх називають діалектами.
 
 ## Profile - Email
 

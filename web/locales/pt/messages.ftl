@@ -336,6 +336,9 @@ profile-form-additional-language =
     .label = Idioma adicional
 profile-form-language =
     .label = Idioma
+profile-form-variant =
+    .label = Qual variante de { $language } você fala?
+profile-form-variant-default-value = Nenhuma variante selecionada
 profile-form-accent =
     .label = Sotaque
 profile-form-custom-accent-help-text =
@@ -387,6 +390,8 @@ off = Desligar
 on = Ligar
 help-accent = Precisa de ajuda com sotaque?
 help-accent-explanation = Seu sotaque é a maneira como você pronuncia as palavras. Ele pode ser moldado de acordo com o local onde você viveu, os outros idiomas que você fala e muitos outros fatores. Você pode compartilhar qualquer informação que considere relevante aqui.
+help-variants = Precisa de ajuda com variantes?
+help-variants-explanation = Variante é uma forma específica de um idioma. Por exemplo, compartilhada por quem vive em uma área geográfica ou comunidade. Às vezes, é chamada de dialeto.
 
 ## Profile - Email
 

@@ -192,6 +192,7 @@ Aku harus pergi ke toilet.
 Aku harus pergi tidur.
 Aku haus.
 Aku hendak bertanya kepadamu hal yang sama.
+Aku ingat dengan jelas hari itu.
 Aku ingat pernah mendengar cerita yang sangat mirip dengan itu.
 Aku ingin begini, aku ingin begitu, ingin banyak sekali.
 Aku ingin kalian bertemu dengan Tom.
@@ -360,6 +361,7 @@ Aku telah berusaha untuk menghiburnya, tapi dia tak melakukan apa-apa tapi malah
 Aku telah menduga bahwa dia berbohong, tapi itu tidak membuatku terkejut.
 Aku telah menunda kencanku karena harus kerja lembur.
 Aku terjebak dalam kemacetan lalu lintas.
+Aku terkadang khawatir apakah akan ada kesulitan yang muncul.
 Aku terkejut karena halilintar yang tiba-tiba.
 Aku terlalu gemuk.
 Aku tidak akan diam.
@@ -663,6 +665,7 @@ Apakah Tom suka berenang?
 Apakah Tom tahu berapa banyak yang kamu keluarkan untuk itu?
 Apakah ada area bebas rokok?
 Apakah ada kamar yang tersedia untuk malam ini?
+Apakah ada mitologi Yunani yang Anda ketahui?
 Apakah ada orang yang bisa melafalkan kalimat ini?
 Apakah ada perbedaan?
 Apakah ada pertanyaan?
@@ -714,6 +717,7 @@ Apakah kamu gila?
 Apakah kamu ingat apa yang dia katakan?
 Apakah kamu juga punya ini dengan warna yang lain?
 Apakah kamu marah pada apa yang aku katakan?
+Apakah kamu mau menggantikan aku piket besok...?
 Apakah kamu mau menunggu lima tahun lagi..?
 Apakah kamu mau minuman?
 Apakah kamu melihat Tom?
@@ -762,6 +766,7 @@ Apakah kamu tahu kabuki?
 Apakah kamu tahu siapa duta besar Inggris untuk Jepang?
 Apakah kamu tahu tentang keluargamu sendiri?
 Apakah kamu tidak ingat pertanyaannya?
+Apakah kamu tidak ingin seperti dia..?
 Apakah kamu tidak malu kalau dilihat orang?
 Apakah kamu tidak merasa dingin.
 Apakah kamu tidak tahu kalau tidak sopan untuk menanyakan usia kepada perempuan?
@@ -935,6 +940,7 @@ Banyak anak belum tentu banyak rezeki.
 Banyak anak yang nakal di era sekarang.
 Banyak buku tersusun di rak buku.
 Banyak bunga mekar saat musim semi.
+Banyak dari lagu religi di Ladino yang merupakan terjemahan dari bahasa Ibrani.
 Banyak muda-mudi yang merilis masa dewasanya tanpa jalan keluar.
 Banyak orang berbaris di belakang saya.
 Banyak orang datang ke pesta.
@@ -1537,6 +1543,7 @@ Dia datang walau tak ditunggu.
 Dia delapan tahun.
 Dia di rumah, tapi tidak ada yang melihatnya.
 Dia di sini!
+Dia diduga membunuhnya karena membela diri.
 Dia dikuburkan di kota kelahirannya.
 Dia dinikahi oleh lelaki yang kaya-raya.
 Dia dipaksa untuk menandatangani dokumen.
@@ -1740,6 +1747,7 @@ Dia selalu telat ke kelas.
 Dia selalu tersesat di mana pun dia pergi.
 Dia sengaja menginjak kaki saya di kereta.
 Dia seorang dokter.
+Dia seorang yang mudah diajari.
 Dia seperti ayah bagi saya.
 Dia seperti seorang ayah bagiku.
 Dia sepertinya dalam masalah.
@@ -1967,6 +1975,7 @@ Hari Sabtu tidak perlu pergi ke kantor.
 Hari ini Safira memakai baju berwarna biru
 Hari ini ada pelajaran dari pagi sampai sore.
 Hari ini aku tidak masuk kerja.
+Hari ini bapak presiden mengunjungi kobran gempa di Lombok.
 Hari ini berawan dan kemungkinan hujan, jadi kita lebih baik tidak pergi berselancar.
 Hari ini cuacanya bagus.
 Hari ini cuacanya buruk.
@@ -2366,6 +2375,7 @@ Janganlah menangis sebelum engkau terluka.
 Janganlah menangis.
 Janji adalah janji.
 Jauh dimata dekat dihati.
+Jauhkah Paris?
 Jawab pertanyaan saya. Apakah kamu melihatnya di sana?
 Jawaban anda tidak masuk akal.
 Jawaban pertanyaan ini ada tiga buah.
@@ -2377,6 +2387,7 @@ Jendela itu sulit ditutup.
 Jendela sudah ditutup.
 Jendela terbuka.
 Jenis musik apa yang kamu suka?
+Jenis seni apa yang menjadi favorit Anda?
 Jepang adalah negara yang sempit.
 Jepang dan luar negeri bahasanya berbeda.
 Jepang dikelilingi laut.
@@ -2539,6 +2550,7 @@ Kami memakan pai yang sangat enak.
 Kami memancing dari waktu ke waktu.
 Kami membandingkan pekerjaan dia dengan pekerjaan dia.
 Kami membuat keputusan bersama.
+Kami membuat sebuah kesepakatan.
 Kami memelihara kuda-kuda kami secara bergantian.
 Kami memiliki beberapa berita yang menyemangatkan.
 Kami memiliki pasokan produk yang cukup untuk memenuhi permintaan lokal.
@@ -2785,6 +2797,7 @@ Kata-kataku memicu kemarahannya.
 Katakan padanya untuk tidak ikut campur.
 Katamu kau bisa, nyatanya sampai sekarang belum selesai.
 Katanya berpendapat dijamin kemerdekaannya, nyatanya tidak.
+Katanya kamu sedang tidak enak badan ya...?
 Kau akan mati.
 Kau akan melupakanku suatu hari nanti.
 Kau akan menjadi lebih kuat bila kamu latihan.
@@ -3364,6 +3377,7 @@ Mereka mengatakan bahwa dia adalah musisi ketika masih muda.
 Mereka menghadirinya.
 Mereka menikah enam bulan yang lalu.
 Mereka menyelesaikan proyek itu sesuai dengan jadwal.
+Mereka mulai memproduksi mesin itu dalam jumlah banyak.
 Mereka pergi ke Medan.
 Mereka pergi lebih awal.
 Mereka pulang lebih awal.
@@ -3577,6 +3591,7 @@ Pada pagi hari saya bangun dan mencuci muka.
 Pada pagi saya tiba di sana, saya berjalan-jalan dalam hutan Oak
 Pada pukul berapa kamu bangun pagi ini?
 Pada setiap lelaki melekat kehormatannya.
+Pada tiap laki-laki, terdapat banyak kelemahan untuk dikoreksi.
 Pada umumnya, laki-laki berlari lebih cepat daripada perempuan.
 Pada umumnya, sejarah akan terulang kembali.
 Padi menunduk.
@@ -3684,6 +3699,7 @@ Para ilmuwan memperdebatkan teorinya tentang kepunahan dinosaurus.
 Para murid berbaris lurus di koridor.
 Para murid memberikan selamat dengan hormat pada ulang tahun Dr. Baker.
 Para murid telah berkumpul di depan sekolah.
+Para penduduk dari kota itu telah dibinasakan.
 Para pengendara harus mematuhi peraturan lalu-lintas.
 Para pengendara harus memperhatikan rambu lalu lintas.
 Para sopir itu mulai berdebat siapa yang salah dalam kecelakaan itu.
@@ -3700,6 +3716,7 @@ Pedro mempunyai motor dan dia suka mengendarainya.
 Pegang tali itu.
 Pegawai bank di loket kebanyakan wanita.
 Pekerjaan hari ini sangat melelahkan.
+Pekerjaan itu memerlukan banyak tenaga.
 Pekerjaan itu saya kerjakan sendiri.
 Pekerjaan rumah semuanya sudah selesai.
 Pekerjaan rumah sudah selesai kira-kira separuh.
@@ -4170,6 +4187,7 @@ Saya ingat nomor yang tertulis di formulir.
 Saya ingat salah satu teman saya yang berasal dari Zimbabwe.
 Saya ingin Anda mempertimbangkan kembali keputusan Anda.
 Saya ingin belajar di luar negeri.
+Saya ingin berbicara dengan Anda tentang apa yang kemarin terjadi di sekolah.
 Saya ingin dia ada di kantorku.
 Saya ingin ini dan itu.
 Saya ingin jalan-jalan ke semua tempat di Jepang.
@@ -4873,6 +4891,7 @@ Sebaiknya kita di rumah dan menonton televisi.
 Sebaiknya kita jangan membicarakan ini lagi.
 Sebelah matanya buta.
 Sebelah timur kota ini semuanya hutan.
+Sebelum berangkat sekolah saya selalu mencium tangan Ibu.
 Sebelum keluar rumah, saya memeriksa barang saya.
 Sebelum makan nasi, saya mencuci tangan.
 Sebelum mask ketuk pintu dahulu
@@ -4890,6 +4909,7 @@ Sebotol anggur putih dingin.
 Sebuah artikel tentang sekolah kita muncul di koran.
 Sebuah tempat untuk segala sesuatu dan segala sesuatu berada pada tempatnya.
 Sebutan akrab untuk Soekarno adalah Bung Karno.
+Secara umum, karya-karyanya tidak baik dan juga tidak buruk.
 Secara umum, wanita hidup sepuluh tahun lebih lama dibanding laki-laki.
 Sedang asik menyusuri jalan gelap ini tiba-tiba seorang kakek meneriakki kami.
 Sedang turun hujan.
@@ -4978,6 +4998,7 @@ Semua binatang menyukai sarangnya.
 Semua dapat di kabulkan dengan kantong ajaib.
 Semua datang kecuali Jim.
 Semua ini membosankan.
+Semua ini sangat menganggu.
 Semua jalan berakhir di Roma.
 Semua kamus mengandung kesalahan.
 Semua kota besar menghadapi masalah lalu lintas.
@@ -5292,6 +5313,7 @@ Tatoeba: Karena bahasa bukanlah sekedar kumpulan kata-kata.
 Tekadnya dalam menggapai mimpi patut diacungi jempol.
 Teks ini harus diterjemahkan ke bahasa Belarus.
 Teks itu harus diterjemahkan ke bahasa Belarus.
+Teleponnya rusak.
 Televisi ada di sebelah piano.
 Televisi menyala sepanjang malam.
 Televisi tidak baik untuk mata.
@@ -5426,6 +5448,7 @@ Tinggalkan aku sendiri.
 Tinggalkan buku di tempat asalnya.
 Tinggalkan sendiri, bayi itu mulai menangis.
 Tinggalkan sendiri, gadis kecil itu mulai menangis.
+Tiriza adalah nama dari portugal
 Tiup semua lilin diatas kue ulang tahun dalam sekali tiup.
 Toilet ada di lantai dua.
 Toilet ada di sebelah kiri koridor.
@@ -5488,6 +5511,7 @@ Tom berharap dia memiliki waktu yang lebih panjang.
 Tom berhenti sekolah.
 Tom berjalan dengan pelan.
 Tom berjalan di sepanjang tepi pantai.
+Tom berjalan menuju pintu masuk.
 Tom berjani padaku bahwa dia tidak akan pernah kembali kemari lagi.
 Tom berjanji menyimpannya untuk dirinya sendiri.
 Tom berjanji padaku bahwa dia akan melakukannya.
@@ -5747,6 +5771,7 @@ Tom terlihat seperti sedang sedih.
 Tom terlihat terkejut.
 Tom terlihat tidak tertarik.
 Tom terluka parah saat kecelakaan lalu-lintas.
+Tom terus berbicara.
 Tom tidak akan membiarkanmu pergi.
 Tom tidak akan pernah berkencan dengan seseorang seperti Mary.
 Tom tidak akan pernah memaafkan kita jika kita melakukan itu.

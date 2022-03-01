@@ -533,6 +533,7 @@ about-playbook-how-add-language-content-1 = Αρχικά, ελέγξτε εάν 
 
 about-playbook-how-localize = Πώς λειτουργεί η μετάφραση του ιστοτόπου;
 about-playbook-how-localize-content-1 = Η μετάφραση του ιστοτόπου του Common Voice γίνεται στο <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Ο ιστότοπος είναι έτοιμος για κυκλοφορία όταν ολοκληρωθεί κατά 75%.
 about-playbook-how-localize-content-5 = Δείτε το ενημερωτικό βίντεο για βοήθεια
 
 ## How to add sentences
@@ -561,6 +562,7 @@ about-playbook-how-project-governance = Πώς λαμβάνονται οι απ�
 about-playbook-how-project-governance-content-3 = Απόρρητο, ασφάλεια και διαφάνεια.
 about-playbook-how-project-governance-content-5 = Αξία και αναγνώριση.
 about-playbook-how-project-governance-content-6 = Αμοιβαία ευθύνη.
+about-playbook-how-project-governance-content-7 = <governanceLink>Διαβάστε περισσότερα σχετικά με τον τρόπο διακυβέρνησής μας</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Τεχνητή νοημοσύνη
 mycroft-description = Ο Mycroft είναι ο πρώτος βοηθός ανοιχτού κώδικα στον κόσμο. Ο Mycroft λειτουργεί οπουδήποτε - σε επιτραπέζιο υπολογιστή, σε ένα αυτοκίνητο ή στο Raspberry Pi.
@@ -1110,6 +1112,7 @@ sc-howto-review-subtitle = Βεβαιωθείτε ότι η πρόταση πλ�
 sc-howto-review-criteria-1 = Η πρόταση πρέπει να έχει σωστή ορθογραφία.
 sc-howto-review-criteria-2 = Η πρόταση πρέπει να είναι γραμματικά ορθή.
 sc-howto-review-criteria-4 = Εάν η πρόταση πληροί τα κριτήρια, κάντε κλικ στο κουμπί «Έγκριση».
+sc-howto-findpd-subtitle = Αναζητήστε τες στο διαδίκτυο
 sc-howto-findpd-tips = Ακολουθούν μερικές συμβουλές για να βρείτε προτάσεις:
 
 ## MY SENTENCES
@@ -1131,6 +1134,7 @@ sc-my-err-failed-delete = Αποτυχία διαγραφής επιλεγμέν
 
 sc-rejected-title = Απορριφθείσες προτάσεις
 sc-rejected-loading = Φόρτωση απορριφθεισών προτάσεων…
+sc-rejected-err-fetching = Σφάλμα ανάκτησης απορριφθεισών προτάσεων. Παρακαλώ δοκιμάστε ξανά.
 
 ## STATS
 

@@ -83,7 +83,7 @@ const InputLanguageAccentsInput = ({
     // if this is new custom accent, input value will be string
     // otherwise it will be Accent
     newLanguages[languageIndex] = {
-      locale,
+      ...newLanguages[languageIndex],
       accents: (newLanguages[languageIndex].accents || []).concat({
         name: accentName,
         id: accentId,
@@ -120,6 +120,12 @@ const InputLanguageAccentsInput = ({
           ) => {
             if (event.key === 'Enter') {
               const { value } = event.target as HTMLInputElement;
+
+              // don't submit blank values
+              if (value.trim().length === 0) {
+                return;
+              }
+
               selectItem(value, {
                 type: Downshift.stateChangeTypes.keyDownEnter,
               });
