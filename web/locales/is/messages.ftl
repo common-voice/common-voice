@@ -507,19 +507,19 @@ about-clip-graveyard-text = Hljóðbrotagrafreiturinn samanstendur af raddhljó�
 about-partners = Samstarfsaðilar
 about-become-a-partner = Skráðu þig sem samstarfsaðila
 about-partnership =
-    Samrómur er samstarfsverkefni, og við erum háð samfélaginu okkar af samstarfsaðilum og almeningi sem leggur sitt að mörkum til þess að byggja stærsta opna raddgagnasafn sem fyrirfinnst.
+    Samrómur er samstarfsverkefni, og við erum háð samstarfsaðilum okkar og almennum sjálfboðaliðum sem leggja sitt að mörkum til þess að byggja stærsta opna raddgagnasafn sem fyrirfinnst í heiminum.
     
     Við þökkum eftirfarandi aðilum og samtökum fyrir þeirra framlag til verkefnisins:
 about-get-involved = Taktu þátt
 about-get-involved-text-2 =
     Viltu hjálpa að gera Samróm enn betri?
-    Frábært! Settu þig í samband með tölvupósti eða <discourseLink>Discourse</discourseLink>
-    spjallborðum, sendu inn vandamál sem koma upp á síðunni á <githubLink>GitHub</githubLink>, 
+    Frábært! Settu þig í samband með tölvupósti eða á <discourseLink>Discourse</discourseLink>
+    spjallborðum, sendu inn vandamál sem upp koma á <githubLink>GitHub</githubLink>-síðunni, 
     eða taktu þátt á <matrixLink>Matrix-rásinni</matrixLink> okkar.
 about-nav-why-common-voice = Af hverju?
 about-nav-how-it-works = Hvernig?
 about-nav-partners = Samstarfsaðilar
-about-nav-get-involved = Taka þátt
+about-nav-get-involved = Taktu þátt
 
 ## Community Playbook Content
 ## What is a language
@@ -557,7 +557,7 @@ about-playbook-how-grow-language-content-4 = Samfélagsmiðlar
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Gervigreind
 mycroft-description =
-    Mycroft er heimsins fyrsta raddhjálpari sem keyrir á opnum hugbúnaði.
+    Mycroft er heimsins fyrsti raddhjálpari sem keyrir á opnum hugbúnaði.
     Mycroft keyrir á hverju sem er - borðtölvu, innbyggðri tölvu í bíl eða jafnvel á Raspbery Pi.
 mycroft-secondary-description = Þetta er opinn hugbúnaður sem má breyta, bæta við og þróa að vild. Mycroft má nota við rannsóknir, fyrirtækjalausnir og allt þar á milli.
 
@@ -566,14 +566,14 @@ mycroft-secondary-description = Þetta er opinn hugbúnaður sem má breyta, bæ
 glossary = Orðaskýringar
 localization = Staðfærsla
 localization-explanation = Þetta er ferlið okkar í þýðingu og aðlögun á efni verkefnisins fyrir fjölda tungumála.
-sentence-collection = Setningaforði
-sentence-collection-explanation = Söfnun á almennum setningum eða að skrifa nýjar fyrir almenning.
+sentence-collection = Söfnun setninga
+sentence-collection-explanation = Söfnun á almennum setningum eða að skrifa nýjar fyrir almenningseigu.
 hours-recorded-explanation = Fjöldi klukkutíma af raddupptökum sem við höfum safnað nú þegar.
-hours-validated-explanation = Fjöldi klukkutíma af yfirförnum hljóðbrotum sem hafa verið yfirfarnir og fengið "já" atkvæði frá tveim af hverjum þrem notendum. Þessir klukkutímar telja upp í 10 þúsund klukkutíma markmiðið.
-sst = Tal-í-texta (TÍT)
-sst-explanation = Tal-í-texta (TÍT) er tækni sem breytir raddupptökum í texta.
-de-identified = Einkennissneiðing
-de-identified-explanation = Ferlið þegar tengsl notkunarsniðsgagna þátttakanda eru rofin við hljóðgögnin sem hann lagði til, áður en þau eru undirbúin til niðurhals sem hluti af gagnasafni.
+hours-validated-explanation = Fjöldi klukkutíma af yfirförnum hljóðbrotum sem hafa verið yfirfarnir og fengið "Já"-atkvæði frá tveimur af hverjum þremur notendum. Þessir klukkutímar telja upp í 10 þúsund klukkutíma markmiðið.
+sst = Tal-í-texta (TÍT - STT)
+sst-explanation = Tal-í-texta (TÍT - enska STT) er tækni sem breytir raddupptökum í texta.
+de-identified = Auðkennahreinsun
+de-identified-explanation = Ferlið þegar tengsl notkunarsniðsgagna þátttakanda eru rofin við hljóðgögnin sem lögð hafa verið fram, áður en þau eru undirbúin til niðurhals sem hluti af gagnasafni.
 
 ## Error pages
 
