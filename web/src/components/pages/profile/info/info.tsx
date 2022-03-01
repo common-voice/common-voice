@@ -7,6 +7,8 @@ import * as React from 'react';
 import { useCallback, useEffect, useState } from 'react';
 import { Redirect, RouteComponentProps, withRouter } from 'react-router';
 import { Tooltip } from 'react-tippy';
+import pick from 'lodash.pick';
+
 import { useAction, useAPI } from '../../../../hooks/store-hooks';
 import { trackProfile } from '../../../../services/tracker';
 import { AGES, GENDERS } from '../../../../stores/demographics';
@@ -31,10 +33,6 @@ import ProfileInfoLanguages from './languages/languages';
 
 import './info.css';
 import ExpandableInformation from '../../../expandable-information/expandable-information';
-
-// TODO: remove pick
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const pick = require('lodash.pick');
 
 const Options = withLocalization(
   ({

@@ -5,6 +5,8 @@ import {
 } from '@fluent/react';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
+import pick from 'lodash.pick';
+
 import { CloudIcon, MicIcon, UserIcon, RedoIcon } from '../../../ui/icons';
 import { Button } from '../../../ui/ui';
 import './download.css';
@@ -13,10 +15,6 @@ import { useAccount, useAPI } from '../../../../hooks/store-hooks';
 import { TakeoutRequest, TakeoutState, UserClient, Accent } from 'common';
 import { byteToSize } from '../../../../utility';
 import Modal, { ModalProps } from '../../../modal/modal';
-
-// TODO: remove pick
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const pick = require('lodash.pick');
 
 // you can request a new takeout every 7 days
 const REQUEST_LIMIT = 7;
