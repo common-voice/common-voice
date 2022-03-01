@@ -15,6 +15,8 @@ email-opt-in-privacy-v2 = Погоджуючись отримувати лист
 indicates-required = * поля, обов'язкові для заповнення
 not-available-abbreviation = Недоступно
 banner-error-slow-1 = На жаль, Common Voice працює повільно. Дякуємо за зацікавленість.
+banner-error-slow-2 = Наш сервіс перевантажено вебтрафіком. Ми досліджуємо проблему.
+banner-error-slow-link = Сторінка стану
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
