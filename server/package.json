@@ -19,7 +19,6 @@
     "@types/node": "^12.0.12",
     "@types/redlock": "^3.0.4",
     "@types/request-promise-native": "^1.0.16",
-    "@types/universal-analytics": "^0.4.3",
     "aws-sdk": "^2.1010.0",
     "body-parser": "^1.19.0",
     "bull": "^3.22.6",
@@ -58,8 +57,7 @@
     "request-promise-native": "^1.0.8",
     "s3-zip": "^3.2.0",
     "stream-transcoder": "0.0.5",
-    "ts-node": "^8.6.2",
-    "universal-analytics": "^0.4.20"
+    "ts-node": "^8.6.2"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.2",

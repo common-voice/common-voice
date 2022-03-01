@@ -12,7 +12,6 @@ import {
   getFullClipLeaderboard,
   getFullVoteLeaderboard,
 } from './lib/model/leaderboard';
-import { trackPageView } from './lib/analytics';
 import API from './lib/api';
 import { redis, useRedis, redlock } from './lib/redis';
 import { APIError, ClientError, getElapsedSeconds } from './lib/utility';
