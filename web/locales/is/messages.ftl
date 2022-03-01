@@ -619,27 +619,27 @@ review-delete-recordings = Eyða upptökum
 
 datasets-headline = Við erum að byggja opið og aðgengilegt, fjöltyngt gagnasafn með röddum sem hver sem er getur notað til þess að þjálfa raddstýrð forrit.
 datasets-positioning =
-    Við trúum því að að stór gagnasett sem eru opin almenningi muni styðja við nýsköpun og stuðla að heilbrigðri markaðssamkeppni innan tæknigeirans á sviði máltæknilausna.
+    Við trúum því að að stór gagnasöfn sem séu opin almenningi muni styðja við nýsköpun og stuðla að heilbrigðri markaðssamkeppni innan tæknigeirans á sviði máltæknilausna.
     
-    Samrómsgagnasafnið er nú þegar stærsta opna radd gagnasafnið sinnar tegundar, en það er ekki það eina.
+    Samrómsgagnasafnið er nú þegar stærsta opna raddgagnasafnið sinnar tegundar, en það er ekki það eina.
     
-    Þú getur litið til þessarar síðu sem miðlægrar upplýsingasíðu fyrir önnur opin raddgagnasöfn og, samhliða því sem Samrómur vex, sem heimasíðu fyrir okkar uppfærslur.
+    Þú getur litið á þessa síðu sem miðlæga upplýsingasíðu fyrir önnur opin raddgagnasöfn og - samhliða því sem Samrómur vex - sem heimasíðu okkar fyrir fréttir af uppfærslum og útgáfum.
 language = Tungumál
 # File size in gigabytes
 size = Stærð
 validated-hr-total = Staðfestar klst.
 overall-hr-total = Heildarfjöldi klst.
-cv-license = Leyfi
+cv-license = Notkunarleyfi
 audio-format = Hljóðsnið
 number-of-voices = Fjöldi radda
 splits = Skiptingar
-email-to-download = Sláðu inn tölvupóst til að hala niður
-why-email = <b>Af hverju tölvupóst?</b> Við gætum þurft að hafa samband við þig síðar vegna breytinga á málheildinni, og tölvupóstur veitir okkur leið til þess.
-confirm-size = Þú getur nú hafið niðurhal að stærð <b>{ $size }</b>.
+email-to-download = Settu inn tölvupóstfang til að sækja
+why-email = <b>Af hverju tölvupóstfang?</b> Við gætum þurft að hafa samband við þig síðar vegna breytinga á málheildinni, tölvupóstur gefur okkur leið til þess.
+confirm-size = Þú getur nú hafið niðurhal með stærðina <b>{ $size }</b>.
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Þú samþykkir</b> að þú munir ekki reyna að bera kennsl á mælendur í málheild Samóms.
-download-language = Hala niður { $language }
+download-language = Sækja { $language }
 validated-hours = Staðfestar klukkustundir
 recorded-hours = Uppteknar klukkustundir
 whats-inside = Hvað er í málheild Samróms?
