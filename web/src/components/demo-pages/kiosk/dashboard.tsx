@@ -33,8 +33,9 @@ const getDashboardComponents = (): PageContentType => {
         </nav>
         <img
           src={require(onStats
-            ? './assets/stats-screenshot.svg'
-            : './assets/goals-screenshot.svg')}
+            ? './assets/stats-screenshot.png'
+            : './assets/goals-screenshot.png')}
+          alt=""
         />
       </div>
     );
