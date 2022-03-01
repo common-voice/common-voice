@@ -475,6 +475,7 @@ how-does-it-work-text = 我们集众人之力，构建开源的语音数据集�
 
 about-language-req-subtitle = 有人申请添加一门语言。
 about-localization-title = 网站本地化
+about-dataset-release-title = 发布数据集
 about-dataset-release-subtitle = 我们每 3 个月发布一次数据集。
 about-speak = 说话
 about-speak-text = 贡献者通过朗读一系列由他人捐赠的语句，将语音片段录制下来。
