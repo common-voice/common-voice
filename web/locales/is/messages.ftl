@@ -744,16 +744,16 @@ record-error-too-long = Upptakan var of löng.
 record-error-too-quiet = Ekki heyrðist nógu vel í upptökunni.
 record-cancel = Hætta við að endurtaka upptöku
 record-instruction = { $actionType }<recordIcon></recordIcon> og lestu svo setninguna upphátt
-record-stop-instruction = { $actionType }<stopIcon></stopIcon> stöðva upptöku
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> þegar því er lokið
 record-three-more-instruction = Þrjár eftir!
 record-again-instruction = Snilld! <recordIcon></recordIcon> Taktu upp næstu
 record-again-instruction2 = Þetta gengur vel, taktu upp aftur <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Síðasta!
-review-tooltip = Yfirfara og endurtaka upptökur hér jafnóðum
-share-clip = Deila upptöku
+review-tooltip = Yfirfarðu og endurtaktu upptökur hér jafnóðum
+share-clip = Deildu upptökunni þinni
 share-common-voice = Deila Samrómi
-review-instruction = Yfirfara og endurtaka upptöku ef þörf krefur
-record-submit-tooltip = { $actionType } senda inn þegar hægt er
+review-instruction = Yfirfarðu og endurtaktu upptöku ef þörf krefur
+record-submit-tooltip = { $actionType } sendu inn þegar er tilbúið
 clips-uploaded = Upptökur sendar inn
 record-abort-title = Stöðva upptöku fyrst?
 record-abort-text = Ef þú hættir núna glatast það sem komið er
@@ -767,40 +767,40 @@ listen-last-time-instruction = <playIcon></playIcon> Síðasta!
 listen-empty-state = Við erum uppiskroppa með upptökur til að staðfesta á þessu tungumáli...
 speak-empty-state = Við erum uppiskroppa með setningar til að taka upp á þessu máli...
 speak-empty-state-cta = Leggja til setningar
-record-button-label = Raddupptaka
-share-title-new = <bold>Leggið lið</bold> við að leita upp fleiri raddir
+record-button-label = Taktu upp röddina þína
+share-title-new = <bold>Leggðu lið</bold> við að finna fleiri raddir
 keep-track-profile = Fylgstu með framförum þínum með notkunarsniði
 login-to-get-started = Innskráning eða nýskráning
 target-segment-first-card = Þú leggur af mörkum til okkar fyrsta hlutamarkmiðs
 target-segment-generic-card = Þú leggur af mörkum til hlutamarkmiðs
-target-segment-first-banner = Hjálpa til við að klára fyrsta hlutamarkmið Samróms í { $locale }
-target-segment-add-voice = Bæta rödd sinni
-target-segment-learn-more = Læra meira
+target-segment-first-banner = Hjálpaðu til við að klára fyrsta hlutamarkmið Samróms í { $locale }
+target-segment-add-voice = Bættu við röddinni þinni
+target-segment-learn-more = Fræðast meira
 
 ## Reporting
 
-report = Tilkynna
-report-title = Setja inn skýrslu
-report-ask = Á hvaða vandamál er rekist í þessari setningu?
+report = Skýrsla
+report-title = Senda inn skýrslu
+report-ask = Á hvaða vandamál hefurðu rekist í þessari setningu?
 report-offensive-language = Móðgandi málfar
 report-offensive-language-detail = Í setningunni er ókurteisislegt eða móðgandi málfar.
-report-grammar-or-spelling = Málfræðileg / stafsetningarvilla
+report-grammar-or-spelling = Málfræði- / stafsetningarvilla
 report-grammar-or-spelling-detail = Í setningunni er málfræði- eða stafsetningarvilla.
 report-different-language = Annað tungumál
 report-different-language-detail = Það er ritað á öðru tungumáli en ég er að tala.
 report-difficult-pronounce = Erfitt að bera fram
 report-difficult-pronounce-detail = Það inniheldur orð eða frasa sem er erfitt að lesa að bera fram.
-report-offensive-speech = Móðgandi málfar
+report-offensive-speech = Móðgandi talmál
 report-offensive-speech-detail = Hljóðbútur inniheldur ókurteisislegt eða móðgandi málfar.
 report-other-comment =
     .placeholder = Athugasemd
 success = Árangur
 continue = Halda áfram
-report-success = Skýrsla samþykkt með góðum árangri
+report-success = Sending á skýrslu tókst
 
 ## Goals
 
-streaks = Sigurganga
+streaks = Lotur
 days =
     { $count ->
         [one] Dagur
@@ -819,12 +819,12 @@ validations =
 
 ## Dashboard
 
-your-languages = Þín tungumál
+your-languages = Tungumálin þín
 toward-next-goal = Að næsta markmiði
 goal-reached = Markmiði náð
 clips-you-recorded = Upptökur sem þú hefur skráð
 clips-you-validated = Upptökur sem þú hefur samþykkt
-todays-recorded-progress = Framför dagsins í að skrá gögn í Samróm
+todays-recorded-progress = Framvinda dagsins við að skrá gögn í Samróm
 todays-validated-progress = Framför dagsins í að samþykkja gögn í Samróm
 stats = Tölfræði
 awards = Verðlaun
