@@ -1,4 +1,4 @@
-import pick from 'lodash.pick';
+import pick = require('lodash.pick');
 
 import { UserClient as UserClientType } from 'common';
 import Awards from './awards';
