@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Recipe e-mails como rememorationes de def
 email-opt-in-privacy-v2 = Si tu opta pro reciper e-mails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>politica de confidentialitate</privacyLink>.
 indicates-required = * indica un campo obligatori
 not-available-abbreviation = N/D
+banner-error-slow-link = Pagina de stato
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
