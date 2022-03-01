@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = 接收诸如挑战、目标提醒、进�
 email-opt-in-privacy-v2 = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
 indicates-required = * 表示必填字段
 not-available-abbreviation = 不可用
+banner-error-slow-1 = 感谢您使用 Common Voice，很抱歉网站当前运行缓慢。
+banner-error-slow-2 = 网站受到大流量访问冲击，我们正在调查处理相关问题。
 banner-error-slow-link = 状态页面
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
