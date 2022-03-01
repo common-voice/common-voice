@@ -460,12 +460,12 @@ faq-where-src-from-2-a =
     
     Hægt er að sjá allar lestarsetningarnar <githubLink>á GitHub</githubLink>.
 faq-why-not-ask-read-q = Hvers vegna biðjið þið ekki fólk að lesa úr bókum eða greinum af Wikipedia á ólíkum tungumálum?
-faq-why-not-ask-read-a = Til að gera Samrómsgagnasafnið eins nýtilegt og hægt er höfum við ákveðið að leyfa aðeins lestrarsetningar sem falla undir leyfið Creative Commons (CC0). Það gerir það erfiðara að finna lestrarsetningar til að nota, en gerir okkur kleyft að gefa út raddupptökurnar undir sama leyfi sem þýðir að hver sem er getur notað það í hvaða tilgangi sem er án afskipta. Á endanum er það markmiðið hjá okkur, að hafa fjöltungugagnasafn sem nýtist eins mörgum og mögulegt er, þ.á.m. vísindamönnum, háskólum, sprotafyrirtækjum, ríkisstjórnum, félagsstofnunum og áhugafólki.
+faq-why-not-ask-read-a = Til að gera Samrómsgagnasafnið eins nýtilegt og hægt er höfum við ákveðið að leyfa aðeins lestrarsetningar sem falla undir Creative Commons (CC0) notkunarleyfi. Þetta gerir það mun erfiðara að finna og safna lestrarsetningum, en gerir okkur aftur á móti kleift að gefa út raddupptökurnar með sama notkunarleyfi, sem þýðir að hver sem er getur notað þær án nokkurra takmarkana eða heimildar frá Mozilla. Á endanum er það markmiðið hjá okkur, að hafa fjöltyngt gagnasafn sem nýtist eins mörgum og mögulegt er, þ.á.m. vísindamönnum, háskólum, sprotafyrirtækjum, ríkisstjórnum, félagsstofnunum og áhugafólki.
 faq-why-account-q = Af hverju ætti ég að skrá mig?
-faq-is-account-public-q = Verða mínar reikningsupplýsingar opinberar?
+faq-is-account-public-q = Verða upplýsingar af reikningnum mínum opinberar?
 faq-how-privacy-q = Hvernig tryggið þið nafnleysi og friðhelgi þeirra sem ljá Samróm röddina sína?
 faq-how-privacy-a = Persónulega einkennandi gögn hafa verið fjarlægð úr öllum raddhljóðbrotum í safninu. Í þeim tilfellum sem raddgjafi hefur lagt til lýðfræðileg gögn í gegnum notkunarsniðið sitt, eru þær upplýsingar aftengdar upptökum þeirra en fylgja öðrum lýðfræðigögnum í niðurhali á gagnasafninu. Þessar upplýsingar eru aldrei gerðar opinberar á notkunarsniðssíðu raddgjafans.
-faq-what-determine-identity-q = Hvað þýðir það að ég geti ekki "borið kennsl á" raddgjafa í Samómsgagnasafninu?
+faq-what-determine-identity-q = Hvað þýðir það að ég geti ekki "borið kennsl á" raddgjafa í Samóms-gagnasafninu?
 faq-what-determine-identity-a =
     Samrómsgagnasafnið er opið og aðgengilegt almenning svo hægt sé að nota það til að þjálfa margs konar raddstýrð kerfi. Fyrir öryggi raddgjafanna biðjum við alla sem sækja Samrómsgagnasafnið til að virða friðhelgi einkalífs þeirra.
     
