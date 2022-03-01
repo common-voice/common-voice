@@ -1,4 +1,5 @@
-import pick = require('lodash.pick');
+import pick from 'lodash.pick';
+
 import { UserClient as UserClientType } from 'common';
 import Awards from './awards';
 import CustomGoal from './custom-goal';
