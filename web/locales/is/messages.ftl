@@ -644,19 +644,19 @@ validated-hours = Staðfestar klukkustundir
 recorded-hours = Uppteknar klukkustundir
 whats-inside = Hvað er í málheild Samróms?
 dataset-description-hours =
-    Hver færsla í gagnasafninu samanstendur af einstöku MP3 hljóðbroti og samsavarandi textaskrá. Mikill fjöldi þeirra <b>{ $total }</b> klukkustunda sem hefur verið safnað innihalda einnig lýðfræðilegar stika eins og aldur, kyn og hreim sem getur aðstoðað við að gera raddgervilinn nákvæmari.
+    Hver færsla í gagnasafninu samanstendur af einstöku MP3-hljóðbroti og samsvarandi textaskrá. Mikill fjöldi þeirra <b>{ $total }</b> klukkustunda sem hefur verið safnað innihalda einnig lýðfræðileg lýsigögn eins og aldur, kyn og hreim sem getur hjálpað við að gera raddgervla nákvæmari.
     
-    Gagnasafnið samanstendur af <b>{ $valid }</b> staðfestum klukkustundum af hljóðbortum á <b>{ $languages }</b> tungumálum, en við erum alltaf að bæta við fleiri röddum og tungumálum. Farðu inn á <languagesLink>Tungumál</languagesLink> til að senda inn beðni um nýtt tungumál eða til að leggja þína rödd að mörkum.
-want-dataset-update = Viltu fá skilaboð þegar nýjar útgáfur af Samrómsgagnasafninu er gefið út? Skráðu þig á póstlistann.
+    Gagnasafnið samanstendur af <b>{ $valid }</b> staðfestum klukkustundum af hljóðbrotum á <b>{ $languages }</b> tungumálum, en við erum alltaf að bæta við fleiri röddum og tungumálum. Farðu inn á <languagesLink>Tungumál</languagesLink> til að senda inn beiðni um nýtt tungumál eða til að leggja þína rödd af mörkum.
+want-dataset-update = Viltu fá skilaboð þegar nýjar útgáfur af Samrómsgagnasafninu eru gefnar út? Skráðu þig á póstlistann.
 subscribe = Gerast áskrifandi
 get-started-speech = Hefjast handa með raddgreiningu
 other-datasets = Aðrar málheildir
 feedback-q = Ertu með ábendingar?
-data-other-librispeech-description = LibriSpeech textasafnið geymir u.þ.b. 100 klst af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum af LibriVox verkefninu.
+data-other-librispeech-description = LibriSpeech-textasafnið geymir u.þ.b. 100 klst. af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum úr LibriVox-verkefninu.
 data-other-ted-name = TED-LIUM textasafn
 data-other-ted-description = TED-LIUM textasafnið var þróað úr talsetningum og afritunum þeirra sem eru fáanlegar á TED vefnum.
 data-other-voxforge-description = VoxForge var sett upp til að safna umrituðum hljóðupptökum sem nota má í opnum og frjálsum raddgreiningarhugbúnaði.
-data-other-tatoeba-description = Tatoeba er stór gagnagrunnur af setningum, þýðingum og raddupptökum tilætlað í tungumálanám. Þetta niðurhal inniheldur raddupptökur á ensku gerðar af samfélaginu kringum verkefnið.
+data-other-tatoeba-description = Tatoeba er stór gagnagrunnur af setningum, þýðingum og raddupptökum ætluðum fyrir tungumálanám. Þessi niðurhalspakki inniheldur raddupptökur á ensku gerðar af samfélaginu kringum verkefnið.
 your-feedback = Ertu með hugmyndir um hvernig mætti bæta Samróms-gagnasafnið? Láttu okkur vita á Discourse
 go-discourse = Fara á Discourse
 missing-language = Sérðu ekki tungumálið þitt í gagnasafninu? Biddu um að því verði bætt við á Tungumála síðunni.
