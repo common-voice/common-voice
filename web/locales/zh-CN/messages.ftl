@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = 接收诸如挑战、目标提醒、进�
 email-opt-in-privacy-v2 = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
 indicates-required = * 表示必填字段
 not-available-abbreviation = 不可用
+banner-error-slow-link = 状态页面
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -332,6 +333,9 @@ profile-form-additional-language =
     .label = 附加语言
 profile-form-language =
     .label = 语言
+profile-form-variant =
+    .label = 您会说 { $language } 的哪种变体？
+profile-form-variant-default-value = 未选择变体
 profile-form-accent =
     .label = 口音
 profile-form-custom-accent-help-text =
