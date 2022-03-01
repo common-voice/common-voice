@@ -474,12 +474,12 @@ faq-what-is-cv = Hvað er Samrómur?
 faq-using-cv = Notkunn Samróms
 faq-description = Samrómur (Common Voice) er hluti verkefnis á vegum Mozilla sem gengur út á það að kenna vélum að skilja hvernig mannfólk talar.
 faq-search-for-answers =
-    .label = Leita af svörum
+    .label = Leita að svörum
 
 ## ABOUT US
 
-about-title = Af hverju?
-how-does-it-work-text = Við erum að "hópvirkja" öflun opins raddgagnasafns. Leggðu fram röddina þína, staðfestu nákvæmni hljóðbrota frá öðrum, gerðu gagnasafnið betra fyrir alla.
+about-title = Af hverju Samrómur?
+how-does-it-work-text = Við erum að "hópefla" vinnslu opins raddgagnasafns. Leggðu fram röddina þína, staðfestu nákvæmni hljóðbrota frá öðrum, gerðu gagnasafnið betra fyrir alla.
 
 ## How does it work section
 
@@ -488,20 +488,20 @@ about-localization-subtitle = Texti vefsvæðisins er þýddur á það tungumá
 about-sentence-collection-title = Söfnun setninga
 about-dataset-release-title = Útgáfa gagnasafns
 about-dataset-release-subtitle = Við gefum gagnasafnið út á 3ja mánaða fresti.
-about-speak = Tal
+about-speak = Tala
 about-speak-text = Þátttakendur taka upp lestur setninga sem fengnar er úr banka gefinna setninga.
 about-listen-queue = Hlustunarröð
-about-listen-queue-text = Þegar hljóðbrot kemur inn þá fer það í stafla og er undirbúið fyrir hlustun.
+about-listen-queue-text = Þegar hljóðbrot kemur inn þá fer það í innsendingarbiðröð þar sem það er undirbúið fyrir hlustun.
 about-listen = Hlusta
-about-listen-text = Notendur staðfesta nákvæmnina af gefnum hljóðbrotum og athuga hvort mælandinn hafi sagt setninguna rétt.
-about-is-it-valid = Er þetta hljóðbrot gilt?
-about-is-it-valid-text = Hljóðbrot er merkt "staðfest" þegar notandi gefur því Já atkvæði.
-about-yes-votes = ≥ 2 Já atkvæði
-about-yes-votes-text = Til þess að komast inn í Samrómsgagnasafnið, þá þarf hljóðbrot að vera yfirfarið af tveim einstaklingum.
-about-no-votes = ≥ 2 Nei atkvæði
-about-no-votes-text = Þegar notandi hafnar hljóð&shy;broti þá fer það aftur í Röðina. Ef því er hafnað í annað sinn, þá fer hljóð&shy;brotið í Hljóð&shy;brota&shy;graf&shy;reitinn.
-about-dataset-new = Samrómsgagnasafnið
-about-dataset-new-text = Samsrómsgagnasafnið samanstendur af hundruðum þúsunda raddhljóðbrota sem hjálpa þróunaraðilum að smíða raddgreina.
+about-listen-text = Notendur staðfesta nákvæmnina í gefnum hljóðbrotum og athuga hvort mælandinn hafi sagt setninguna rétt.
+about-is-it-valid = Er hljóðbrotið gilt?
+about-is-it-valid-text = Hljóðbrot er merkt sem "staðfest" þegar notandi gefur því Já-atkvæði.
+about-yes-votes = ≥ 2 Já-atkvæði
+about-yes-votes-text = Til þess að komast inn í Samróms-gagnasafnið, þá þarf hljóðbrot að vera yfirfarið af tveimur einstaklingum.
+about-no-votes = ≥ 2 Nei-atkvæði
+about-no-votes-text = Þegar notandi hafnar hljóðbroti þá fer það aftur í biðröðina. Ef því er hafnað í annað sinn, þá fer hljóðbrotið í hljóðbrotagrafreitinn.
+about-dataset-new = Samróms-gagnasafnið
+about-dataset-new-text = Samróms-gagnasafnið samanstendur af hundruðum þúsunda raddhljóðbrota sem hjálpa þróunaraðilum að smíða raddgreiningartól.
 about-clip-graveyard = Hljóðbrotagrafreitur
 about-clip-graveyard-text = Hljóð&shy;brota&shy;graf&shy;reiturinn saman&shy;stendur af radd&shy;hljóð&shy;brotum sem gátu ekki orðið hluti af Samróms&shy;gagna&shy;safninu. Rétt eins og gagna&shy;safnið er Hljóð&shy;brota&shy;graf&shy;reiturinn aðgengi&shy;legur til niðurhals.
 about-partners = Samstarfsaðilar
