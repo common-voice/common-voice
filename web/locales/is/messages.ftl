@@ -824,8 +824,8 @@ toward-next-goal = Að næsta markmiði
 goal-reached = Markmiði náð
 clips-you-recorded = Upptökur sem þú hefur skráð
 clips-you-validated = Upptökur sem þú hefur samþykkt
-todays-recorded-progress = Framvinda dagsins við að skrá gögn í Samróm
-todays-validated-progress = Framför dagsins í að samþykkja gögn í Samróm
+todays-recorded-progress = Framvinda dagsins við að skrá upptökur í Samróm
+todays-validated-progress = Framvinda dagsins við að samþykkja upptökur í Samróm
 stats = Tölfræði
 awards = Verðlaun
 you = Þú
@@ -856,20 +856,20 @@ difficult-difficulty = Erffitt
 pro-difficulty = Að atvinnu
 lose-goal-progress-warning = Með því að breyta markmiði, geturðu tapað þeim árangri sem þú hefur þá náð.
 want-to-continue = Viltu halda áfram?
-finish-editing = Ljúka ritvinnslu áður?
-lose-changes-warning = Ef hætt er að svo stöddu, þá glatast allar breytingar þínar til þessa
+finish-editing = Ljúka breytingum fyrst?
+lose-changes-warning = Ef hætt er núna, þá glatast allar breytingarnar þínar
 build-custom-goal = Setja sér einstaklingsmiðað markmið
 help-reach-hours-pluralized =
-    Hjálpa að ná{ NUMBER($hours) ->
-        [one] { $hours } tíma
-       *[other] { $hours } tímum
-    }á { $language } með persónulegu markmiði.
+    { NUMBER($hours) ->
+        [one] Hjálpa við að ná { $hours } klukkutíma í { $language } með persónulegu markmiði.
+       *[other] Hjálpa við að ná { $hours } klukkutímum í { $language } með persónulegu markmiði.
+    }
 help-reach-hours-general-pluralized =
-    Hjálpa Samrómi ná{ NUMBER($hours) ->
-        [one] { $hours } tíma
-       *[other] { $hours } tímum
-    }á tungumáli með persónulegu markmiði.
-set-a-goal = Setja sér markmið
+    { NUMBER($hours) ->
+        [one] Hjálpa Samrómi við að ná { $hours } klukkutíma í tungumáli með persónulegu markmiði.
+       *[other] Hjálpa Samrómi við að ná { $hours } klukkutímum í tungumáli með persónulegu markmiði.
+    }
+set-a-goal = Setja markmið
 cant-decide = Getur þú ekki ákveðið þig?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
