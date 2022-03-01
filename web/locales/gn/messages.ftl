@@ -558,9 +558,11 @@ about-playbook-how-add-sentences-content-3 = Eipurukuaa <scraperLink>Sentence ex
 
 about-playbook-how-record-quality = ¿Mba'éicha añongatúta ñe’ẽ ryapu iporã hag̃uáicha?
 about-playbook-how-record-content-2 = Emboyke tyapu vai tapykuegua; ndahasyiva’erã ehendu hag̃ua.
+about-playbook-how-record-content-5 = <accuracyLink>Ehechave je’epyre rehegua.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = ¿Mba’éicha oñakarapu’ãkuaa peteĩ ñe’ẽ Common Voice ndive?
 about-playbook-how-grow-language-content-2 = Tembiaporã
 about-playbook-how-grow-language-content-4 = Ava ñandutieta
 about-playbook-how-grow-language-content-6 = Ñemboaty ha ñandutieta
