@@ -1,5 +1,5 @@
 import { SHA256 } from 'crypto-js';
-import omit from 'lodash.omit';
+import omit = require('lodash.omit');
 
 import { getLocaleId, getParticipantSubquery } from './db';
 import { getConfig } from '../../config-helper';

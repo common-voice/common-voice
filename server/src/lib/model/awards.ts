@@ -1,4 +1,4 @@
-import pick from 'lodash.pick';
+import pick = require('lodash.pick');
 
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
