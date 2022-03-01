@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Dóstańće mejlki, kaž na přikład wu�
 email-opt-in-privacy-v2 = Jeli chceće e-mejlki dóstać, dyrbiće do wobchadźenja Mozilla z tymi informacijemi zwolić, kotrež so w <privacyLink>prawidłach priwatnosće</privacyLink> Mozilla rozjasnjeja.
 indicates-required = * Woznamjenja trěbne polo
 not-available-abbreviation = Ničo k dispoziciji
+banner-error-slow-1 = Bohužel Common Voice pomału běži. Dźakujemy so za waš zajim.
+banner-error-slow-2 = Dóstawamy wjele wobchada a přepytujemy tuchwilu problemy.
+banner-error-slow-link = Statusowa strona
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -344,6 +347,9 @@ profile-form-additional-language =
     .label = Přidatna rěč
 profile-form-language =
     .label = Rěč
+profile-form-variant =
+    .label = Kotru wariantu rěče { $language } rěčiće?
+profile-form-variant-default-value = Žana warianta wubrana
 profile-form-accent =
     .label = Akcent
 profile-form-custom-accent-help-text =
@@ -395,6 +401,8 @@ off = Wupinjeny
 on = Zapinjeny
 help-accent = Trjebaće pomoc wo akcenće?
 help-accent-explanation = Waš akcent je wašnje, kak słowa wurěkujeće. Jeho charakter wot toho wotwisuje, hdźež sće žiwy był, kotre druhe rěče rěčiće a wot wjele druhich faktorow. Móžeće wšě informacije zdźělić, kotrež za relewantne  maće.
+help-variants = Trjebaće pomoc za warianty?
+help-variants-explanation = Warianty su specifiska forma rěče - rěča so na přikład wot ludźi, kotřiž su we wěstym regionje abo zhromadźenstwje žiwi. Druhdy wone so dialekty mjenuja.
 
 ## Profile - Email
 

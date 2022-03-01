@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Få e-postmeddelanden som målpåminnelse
 email-opt-in-privacy-v2 = Genom att anmäla dig till att ta emot e-postmeddelanden godkänner du att du är okej med att Mozilla hanterar denna information, som förklaras i Mozillas <privacyLink>sekretesspolicy</privacyLink>.
 indicates-required = * Indikerar obligatoriska fält
 not-available-abbreviation = inte tillgänglig
+banner-error-slow-1 = Tyvärr, Common Voice går sakta. Tack för visat intresse.
+banner-error-slow-2 = Vi har mycket trafik och utreder just nu problemet.
+banner-error-slow-link = Statussida
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -339,6 +342,9 @@ profile-form-additional-language =
     .label = Ytterligare språk
 profile-form-language =
     .label = Språk
+profile-form-variant =
+    .label = Vilken dialekt av { $language } talar du?
+profile-form-variant-default-value = Ingen dialekt har valts
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
@@ -390,6 +396,8 @@ off = Av
 on = På
 help-accent = Behöver du hjälp med accent?
 help-accent-explanation = Din accent är hur du uttalar ord. Det kan formas av var du har bott, vilka andra språk du talar och massor av andra faktorer. Du kan dela all information som du tycker är relevant här.
+help-variants = Behöver du hjälp med dialekter?
+help-variants-explanation = Varianter är en specifik form av ett språk - till exempel delas av de som bor i ett visst geografiskt område eller ett visst samhälle. Ibland kallas dessa för dialekter.
 
 ## Profile - Email
 

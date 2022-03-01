@@ -98,6 +98,7 @@ ko = კორეული
 kpv = კომი
 kw = კორნული
 ky = ყირგიზული
+lb = ლუქსემბურგული
 lg = ლუგანდა
 lij = ლიგურული
 lt = ლიტვური
@@ -145,6 +146,7 @@ scn = სიცილიური
 shi = შილჰა
 si = სინჰალური
 sk = სლოვაკური
+skr = სარაიკი
 sl = სლოვენური
 so = სომალური
 sq = ალბანური
@@ -160,6 +162,7 @@ ti = ტიგრინია
 tig = ტიგრინია
 tk = თურქმენული
 tl = ტაგალური
+tok = ტოკიპონა
 tr = თურქული
 tt = თათრული
 tw = ჩვი
@@ -335,6 +338,9 @@ profile-form-additional-language =
     .label = დამატებითი ენა
 profile-form-language =
     .label = ენა
+profile-form-variant =
+    .label = რომელი ნაირსახეობის { $language } არის თქვენი მეტყველებისთვის დამახასიათებელი?
+profile-form-variant-default-value = სახეობა არაა მითითებული
 profile-form-accent =
     .label = აქცენტი
 profile-form-custom-accent-help-text =
@@ -379,13 +385,15 @@ edit = ჩასწორება
 email-subscriptions = გამოწერები ელფოსტით
 download-profile = პროფილის მონაცემების ჩამოტვირთვა
 contribution-experience = წვლილის შეტანა მოხერხებულად
-skip-submission-feedback = ნამუშევრის შეფასების გათიშვა
+skip-submission-feedback = ნამუშევრის შეფასების გამოტოვება
 skip-submission-description = წვლილის შეტანისას შესაბამის ღილაკზე დაჭერის შემდგომ, აღარ გამოჩნდება შეფასება. პირდაპირ შეძლებთ განაგრძოთ მომდევნო 5 ჩანაწერის გაკეთება ან შემოწმება.
 skip-submission-note = შენიშვნა: ჩაწერა ან მოსმენა მაინც უნდა აირჩიოთ, შესატანი წვლილის სახეობის შესაცვლელად.
 off = გამორთ.
 on = ჩართ.
-help-accent = გესაჭიროებათ დახმარება კილოებთან დაკავშირებით?
+help-accent = გსურთ უკეთ გაიგოთ, რას გულისხმობს კილო?
 help-accent-explanation = კილო ეწოდება სიტყვების წარმოთქმის თავისებურებას. შეიძლება ჩამოყალიბდეს საცხოვრებელი ადგილის, რამდენიმე ენაზე საუბრისა და ბევრი სხვა მიზეზის გამო. აქ შეგიძლიათ გააზიაროთ ნებისმიერი სახის მონაცემი, რომელიც საჭიროდ მიგაჩნიათ.
+help-variants = გსურთ უკეთ გაიგოთ, რას გულისხმობს ნაირსახეობა?
+help-variants-explanation = ნაირსახეობა ენის კუთხური ფორმებია – ამა თუ იმ რეგიონში მცხოვრებთათვის დამახასიათებელი. აგრეთვე, უწოდებენ დიალექტებს.
 
 ## Profile - Email
 
@@ -537,7 +545,7 @@ about-nav-playbook = როგორ უნდა მიიღოთ მონ�
 about-playbook-what-is-language = რას გულისხმობს „ენა“ Common Voice-ში?
 about-playbook-what-is-language-content-1 = მრავალი კუთხით შეიძლება განვიხილოთ ენა. ხმის ამომცნობი სისტემებისთვის კი, Common Voice გთავაზობთ „ურთიერთგაგების“ გათვალისწინებას, ანუ „ამ ენაზე მოლაპარაკეებს უნდა შეეძლოთ აზრი გამოიტანონ ერთმანეთის საუბრიდან“.
 about-playbook-what-is-language-content-2 = გვსურს, რომ ხმის მოდელებს უკეთ შეეძლოს სხვადასხვა ადამიანის გაგება. ამისთვის, კრებული უნდა შედგებოდეს მრავალი განსხვავებული ხმის ჩანაწერისგან.
-about-playbook-what-is-language-content-3 = ზოგ ენაში, შეიძლება იყოს უამრავი სახესხვაობაა გრამატიკაში, ლექსიკაში, ფონეტიკაში. ამიტომ, გადავწყვიტეთ <ctaLink>შემოგვეღო „ნაირსახეობები“</ctaLink> 2022 წელს. ეს, საზოგადოების თითოეულ ჯგუფს მისცემს საშუალებას, გამოარჩიოს თავისი სალაპარაკო ენა მთლიანი კრებულიდან.
+about-playbook-what-is-language-content-3 = ზოგ ენაში, შეიძლება იყოს უამრავი სახესხვაობა გრამატიკაში, ლექსიკაში, ფონეტიკაში. ამიტომ, გადავწყვიტეთ <ctaLink>შემოგვეღო „ნაირსახეობები“</ctaLink> 2022 წელს. ეს, საზოგადოების თითოეულ ჯგუფს მისცემს საშუალებას, გამოარჩიოს თავისი სალაპარაკო ენა მთლიანი კრებულიდან.
 
 ## How do I add a language
 
@@ -1151,6 +1159,10 @@ sc-home-collect-text = დაგვეხმარეთ წინადად�
 sc-home-review-title = წინადადებების შემოწმება
 sc-home-review-text = მოგვეხმარეთ წინადადებების გადამოწმებაში, სახელმძღვანელოს მიხედვით.
 
+## GENERAL
+
+sc-languages-fetch-error = ხელმისაწვდომი ენები ვერ მოინახა. წვლილის შეტანა დროებით შეზღუდულია. გთხოვთ სცადოთ მოგვიანებით.
+
 ## HOW-TO
 
 sc-howto-title = როგორ ხდება
@@ -1262,11 +1274,8 @@ sc-rejected-none-found = უარყოფილი წინადადებ
 ## STATS
 
 sc-stats-title = სტატისტიკა
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = ბოლო განახლება: { $lastUpdate }
-sc-stats-last-update-never = ბოლო განახლება: არასდროს
 sc-stats-updating = ახლდება…
+sc-stats-error = მონაცემების მიღება ვერ მოხერხდა. გთხოვთ სცადოთ მოგვიანებით.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1364,6 +1373,8 @@ sc-confirm-uploading = წინადადებები აიტვირ�
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = სულ
+sc-lang-info-title-personal = პირადი
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1479,7 +1490,7 @@ sc-review-form-reviewed-message =
         [one] 1 წინადადებაა შემოწმებული. გმადლობთ!
        *[other] { $sentences } წინადადებაა შემოწმებული. გმადლობთ!
     }
-sc-review-form-review-failure = შემოწმებული ვერ შეინახა. გთოხვთ, კვლავ სცადოთ.
+sc-review-form-review-failure = შემოწმებული ვერ შეინახა. გთხოვთ სცადოთ მოგვიანებით.
 sc-review-link = შემოწმება
 
 ## SETTINGS
@@ -1502,3 +1513,5 @@ sc-validation-no-abbreviations = წინადადება არ უნდ
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = აირჩიეთ ენა/არე

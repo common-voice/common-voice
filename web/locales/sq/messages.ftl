@@ -36,9 +36,9 @@ ba = Bashkire
 bas = Basa
 be = Bjelloruse
 bg = Bullgarisht
-bm = Bambareze
 bn = Bengalisht
 br = Bretonisht
+bs = Boshnjake
 bxr = Buriat
 ca = Katalane
 cak = Kakshikel
@@ -90,11 +90,13 @@ kab = Kabile
 kbd = Kabardiane
 ki = Kikuju
 kk = Kazake
+km = Khmere
 kmr = Kurde Kurmanxhi
 ko = Koreane
 kpv = Komi-Zyrian
 kw = Kornike
 ky = Kirgize
+lb = Luksemburgase
 lg = Luganda
 lij = Ligure
 lt = Lituanisht
@@ -133,6 +135,7 @@ scn = Siciliane
 si = Sinhala
 sk = Sllovakisht
 sl = Sllovenisht
+so = Somaleze
 sq = Shqip
 sr = Serbisht
 sv-SE = Suedisht
@@ -142,6 +145,9 @@ ta = Tamileze
 te = Telugu
 tg = Taxhike
 th = Tajlandisht
+ti = Tigrinjeze
+tig = Tigreze
+tk = Turkmene
 tl = Tagalogase
 tr = Turqisht
 tt = Tatare
@@ -317,6 +323,9 @@ profile-form-additional-language =
     .label = Gjuhë Shtesë
 profile-form-language =
     .label = Gjuhë
+profile-form-variant =
+    .label = Cilin variant të { $language } flisni?
+profile-form-variant-default-value = S’u përzgjodh variant
 profile-form-accent =
     .label = Theks
 profile-form-custom-accent-help-text =
@@ -368,6 +377,8 @@ off = Off
 on = On
 help-accent = Ju duhet ca ndihmë me thekset?
 help-accent-explanation = Theksi është mënyra se si shqiptoni fjalët. Mund të formohet nga ku keni jetuar, cilat gjuhë të tjera flisni dhe plot faktorë të tjerë. Këtu mund të jepni çfarëdo hollësie që mendoni se ka vend.
+help-variants = Ju duhet ca ndihmë me variantet?
+help-variants-explanation = Variantet një formë specifike për një gjuhë - për shembull të përbashkët për ata që banojnë në një vend, ose në një bashkësi. Ndonjëherë këta quhen dialekte.
 
 ## Profile - Email
 
@@ -450,15 +461,24 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Ç’duhet Common Voice?
-about-subtitle = Common Voice është pjesë e nismës së Mozilla-s për të ndihmuar që makinat të mësojnë se si flasin njerëzit realë. Përveç grupeve të të dhënave Common Voice, po krijojmë edhe një motor kuptimi të folure, me burim të hapët, të quajtur Deep Speech.
-about-header-description =
-    Që të dy këta projekte janë pjesë e përpjekjeve tona për të mbushur hendekun në të folurën digitale. Teknologjitë për kuptimin e të folurës sjellin një përmasë njerëzore te pajisjet tona, por për t’i krijuar ato zhvilluesve u duhen sasi të stërmëdha të dhënash zanore. Hëpërhë, shumica e këtyre të dhënave janë të shtrenjta dhe pronësore.
-    Duam t’i bëjmë të dhënat zanore të përdorshme lirisht dhe publikisht, dhe të bëjmë të mundur që të dhënat përfaqësojnë larminë e njerëzve realë. Tok, mund ta bëjmë kuptimin e të folurës më të mirë për këdo.
-about-header-description-2 =
-    Ky projekt është një përpjekje për të mbushur hendekun në të folurën dixhitale. Teknologjitë për kuptimin e të folurës sjellin një përmasë njerëzore te pajisjet tona, por për t’i krijuar ato zhvilluesve u duhen sasi të stërmëdha të dhënash zanore. Hëpërhë, shumica e këtyre të dhënave janë të shtrenjta dhe pronësore.
-    Duam t’i bëjmë të dhënat zanore të përdorshme lirisht dhe publikisht, dhe të bëjmë të mundur që të dhënat përfaqësojnë larminë e njerëzve realë. Tok, mund ta bëjmë kuptimin e të folurës më të mirë për këdo.
-how-does-it-work-title = Si funksionon?
+how-does-it-work-title-v2 = Si funksionon Common Voice work?
 how-does-it-work-text = Po krijojmë, me ndihmën e publikut, një grup të dhënash zanore me burim të hapur. Dhuroni zërin tuaj, vlerësoni përpikërinë e copëzave të incizuara nga persona të tjerë, bëjeni grupin e të dhënave më të mirë për këdo.
+
+## How does it work section
+
+about-language-req-subtitle = Dikush kërkon që të shtohet një gjuhë.
+about-localization-title = Përkthim Sajti
+about-localization-subtitle = Teksti i sajtit është përkthyer në atë gjuhë.
+about-sentence-collection-title = \Grumbullim Frazash
+about-sentence-collection-subtitle = Grumbullohen fraza që të lexohen nga njerëz.
+about-new-lang-subtitle = E japin sajtin Common Voice në këtë gjuhë.
+about-voice-contrib-title = Kontributi Zërash
+about-voice-contrib-subtitle = Njerëzit vijnë dhe kontribuojnë me zërat e tyre.
+about-voice-validation-title = Vlerësim i Zërave
+about-voice-validation-subtitle = Persona të tjerë vlerësojnë këto copëza zanore.
+about-dataset-release-title = Hedhje Në Qarkullim i Grupit të të Dhënave
+about-dataset-release-subtitle = Grupin e të dhënave e hedhim në qarkullim çdo 3 muaj.
+about-subscribe-text = Doni të mbani lidhjet me Common Voice?
 about-speak = Flisni
 about-speak-text = Kontribuesit incizojnë copëza zanore duke lexuar prej një fondi frazash të dhuruara.
 about-listen-queue = Radhë Dëgjimi
@@ -487,10 +507,48 @@ about-get-involved-text-2 =
     Bukur! Lidhuni përmes email-i ose forumesh <discourseLink>Discourse</discourseLink>,
     parashtroni probleme sajti përmes <githubLink>GitHub</githubLink>,
     ose merrni pjesë te biseda të bashkësisë, te <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Si të mbaj lidhjet?
 about-nav-why-common-voice = Pse?
 about-nav-how-it-works = Si?
 about-nav-partners = Partnerë
 about-nav-get-involved = Përfshihuni
+about-nav-how-it-works-2 = Si funksionon Common Voice work?
+about-nav-playbook = Mësoni si të merrni pjesë
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Ç’është një gjuhë në Common Voice?
+
+## How do I add a language
+
+about-playbook-how-add-language = Si ta shtoj një gjuhë?
+
+## How does localization work
+
+about-playbook-how-localize-content-4 = Sajti është gati për t’u hedhur në qarkullim kur mbërrin plotësim 75%.
+about-playbook-how-localize-content-5 = Për ndihmë, shihni videon tonë shpjeguese
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Si të shtoj fraza?
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = Veprimtari
+about-playbook-how-grow-language-content-4 = Media shoqërore
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Inteligjencë Artificiale
 mycroft-description =
@@ -1026,6 +1084,9 @@ sc-home-collect-text = Ndihmonani duke shkruar dhe mbledhur togfjalësha nën P�
 sc-home-review-title = Shqyrtoni togfjalësha
 sc-home-review-text = Ndihmonani duke shqyrtuar se togfjalëshat janë në pajtim me udhëzimet.
 
+## GENERAL
+
+
 ## HOW-TO
 
 sc-howto-title = Si të
@@ -1074,10 +1135,6 @@ sc-rejected-none-found = S’u gjetën togfjalësha të hedhur poshtë!
 ## STATS
 
 sc-stats-title = Statistika
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Përditësimi i Fundit Më: { $lastUpdate }
-sc-stats-last-update-never = Përditësimi i Fundit: kurrë
 sc-stats-updating = Po përditësohet…
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
@@ -1260,8 +1317,6 @@ sc-review-form-source = Burim: { $sentenceSource }
 sc-review-form-button-reject = Hidhe poshtë
 sc-review-form-button-skip = Anashkaloje
 sc-review-form-button-approve = Miratoje
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Mund të përdorni edhe Shkurtore Tastiere: Y për Miratim, N për Hedhje Poshtë, S për Anashkalim
 sc-review-form-button-submit =
     .submitText = Përfundojeni Shqyrtimin
 # Variables:

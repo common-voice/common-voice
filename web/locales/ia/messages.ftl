@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Recipe e-mails como rememorationes de def
 email-opt-in-privacy-v2 = Si tu opta pro reciper e-mails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>politica de confidentialitate</privacyLink>.
 indicates-required = * indica un campo obligatori
 not-available-abbreviation = N/D
+banner-error-slow-link = Pagina de stato
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -336,6 +337,7 @@ profile-form-additional-language =
     .label = Lingua additional
 profile-form-language =
     .label = Lingua
+profile-form-variant-default-value = Nulle variante seligite
 profile-form-accent =
     .label = Accento
 profile-form-custom-accent-help-text =
@@ -1155,6 +1157,7 @@ sc-home-review-text = Adjuta nos per revider phrases pro correctessa secundo le 
 
 ## GENERAL
 
+sc-languages-fetch-error = Nos non pote recuperar linguas disponibile. Actualmente non es possibile contribuer. Retenta plus tarde.
 
 ## HOW-TO
 

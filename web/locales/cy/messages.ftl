@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Derbyn e-byst sy'n cynnwys atgoffwr her a
 email-opt-in-privacy-v2 = Drwy ddewis derbyn e-byst rydych yn datgan eich bod yn fodlon gyda Mozilla'n trin y manylion hyn fel sy'n cael ei esbonio ym <privacyLink>Mholisi Preifatrwydd<privacyLink> Mozilla.
 indicates-required = Mae * yn dynodi maes angenrheidiol
 not-available-abbreviation = Dim Ar Gael
+banner-error-slow-1 = Ymddiheuriadau, mae Common Voice yn rhedeg yn araf. Diolch am eich cefnogaeth.
+banner-error-slow-2 = Rydym yn derbyn llawer o draffig ac ar hyn o bryd yn ymchwilio i'r materion.
+banner-error-slow-link = Tudalen Statws
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -354,6 +357,9 @@ profile-form-additional-language =
     .label = Iaith Ychwanegol
 profile-form-language =
     .label = Iaith
+profile-form-variant =
+    .label = Pa amrywiad { $language } ydych chi'n siarad?
+profile-form-variant-default-value = Dim amrywiad wedi'i ddewis
 profile-form-accent =
     .label = Acen
 profile-form-custom-accent-help-text =
@@ -405,6 +411,8 @@ off = Diffodd
 on = Ymlaen
 help-accent = Angen cymorth gydag acen?
 help-accent-explanation = Eich acen yw'r ffordd rydych chi'n ynganu geiriau. Mae'n cael ei ffurfio gan ble rydych chi wedi byw, pa ieithoedd eraill rydych chi'n eu siarad a llawer o ffactorau eraill. Gallwch chi rannu unrhyw wybodaeth rydych chi'n teimlo sy'n berthnasol yma.
+help-variants = Angen cymorth gydag amrywiadau?
+help-variants-explanation = Mae amrywiadau yn ffurf benodol ar iaith - er enghraifft sy'n cael eu rhannu gan y rhai sy'n byw mewn ardal ddaearyddol neu gymuned. Weithiau mae'r rhain yn cael eu galw'n dafodieithoedd.
 
 ## Profile - Email
 

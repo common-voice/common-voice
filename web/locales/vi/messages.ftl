@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Nhận email như lời nhắc cho thử 
 email-opt-in-privacy-v2 = Bằng cách chọn nhận email, bạn tuyên bố rằng bạn đồng ý với việc Mozilla xử lý thông tin này như được giải thích trong <privacyLink>chính sách bảo mật</privacyLink> của Mozilla.
 indicates-required = * Trường được yêu cầu
 not-available-abbreviation = N/A
+banner-error-slow-1 = Rất tiếc, Common Voice đang chạy chậm. Cảm ơn vì sự quan tâm của bạn.
+banner-error-slow-2 = Chúng tôi đang nhận được rất nhiều lưu lượng truy cập và hiện đang điều tra các vấn đề.
+banner-error-slow-link = Trang trạng thái
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -98,6 +101,7 @@ ko = Hàn
 kpv = Komi-Zyria
 kw = Cornwall
 ky = Kyrgyz
+lb = Luxembourgish
 lg = Luganda
 lij = Ligurian
 lt = Litva
@@ -331,6 +335,9 @@ profile-form-additional-language =
     .label = Ngôn ngữ bổ sung
 profile-form-language =
     .label = Ngôn ngữ
+profile-form-variant =
+    .label = Bạn nói biến thể nào của { $language }?
+profile-form-variant-default-value = Không có biến thể nào được chọn
 profile-form-accent =
     .label = Giọng vùng miền
 profile-form-custom-accent-help-text =
@@ -382,6 +389,8 @@ off = Tắt
 on = Bật
 help-accent = Cần một số trợ giúp về trọng âm?
 help-accent-explanation = Trọng âm của bạn là cách bạn phát âm các từ. Nó có thể được định hình bởi nơi bạn đã sống, bạn nói ngôn ngữ nào khác và rất nhiều yếu tố khác. Bạn có thể chia sẻ bất kỳ thông tin nào bạn cảm thấy có liên quan tại đây.
+help-variants = Cần một số trợ giúp với biến thể?
+help-variants-explanation = Biến thể là một dạng cụ thể của một ngôn ngữ - ví dụ như được chia sẻ bởi những người sống trong một khu vực địa lý hoặc cộng đồng. Đôi khi chúng được gọi là tiếng địa phương.
 
 ## Profile - Email
 
@@ -1143,6 +1152,10 @@ sc-home-collect-title = Thu thập các câu
 sc-home-collect-text = Giúp chúng tôi bằng cách viết hoặc thu thập các câu thuộc phạm vi cộng đồng.
 sc-home-review-title = Đánh giá các câu
 sc-home-review-text = Giúp chúng tôi bằng cách đánh giá các câu cho đúng theo hướng dẫn.
+
+## GENERAL
+
+sc-languages-fetch-error = Chúng tôi không thể tìm nạp các ngôn ngữ có sẵn. Không thể thực hiện việc đóng góp. Vui lòng thử lại sau.
 
 ## HOW-TO
 

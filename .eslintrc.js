@@ -34,6 +34,9 @@ module.exports = {
 
     // warn us if we're using @ts-ignore etc..
     '@typescript-eslint/ban-ts-comment': 'warn',
+
+    // Old code uses any a lot, just show a warn instead
+    '@typescript-eslint/no-explicit-any': 'warn',
   },
   settings: {
     react: {

@@ -67,6 +67,7 @@ fy-NL = Frisón ñe’ẽ
 ga-IE = Irlanda ñe’ẽ
 gl = Galicia ñe’ẽ
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa ñe’ẽ
 he = Hebreo ñe’ẽ
 hi = Hindi ñe’ẽ
@@ -92,10 +93,12 @@ ki = Kenia ñe’ẽ
 kk = Kazakh ñe’ẽ
 km = Ñe’ẽ Jemer
 kmr = Kurmanji Kurdish ñe’ẽ
+knn = Konkani (Devanagari)
 ko = Corea ñe’ẽ
 kpv = Komi-Zyrian ñe’ẽ
 kw = Cornish ñe’ẽ
 ky = Kyrgyz ñe’ẽ
+lb = Luxemburgo-gua
 lg = Luganda ñe’ẽ
 lij = Ligurian ñe’ẽ
 lt = Lituano ñe’ẽ
@@ -143,6 +146,7 @@ scn = Sicilia ñe’ẽ
 shi = Shilha
 si = Sinhala ñe’ẽ
 sk = Eslovaquia ñe’ẽ
+skr = Saraiki
 sl = Eslovenia ñe’ẽ
 so = Somalia ñe’ẽ
 sq = Albania ñe’ẽ
@@ -158,6 +162,7 @@ ti = Etiopía ñe’ẽ
 tig = Jaguarete
 tk = Turkmenistán-gua
 tl = Tagalo ñe’ẽ
+tok = Toki Pona
 tr = Turquía ñe’ẽ
 tt = Tátaro ñe’ẽ
 tw = Twi
@@ -338,6 +343,9 @@ profile-form-additional-language =
     .label = Ñe’ẽ oĩvéva
 profile-form-language =
     .label = Ñe’ẽ
+profile-form-variant =
+    .label = ¿Mba’eichaguaite { $language } eñe’ẽ?
+profile-form-variant-default-value = Ndaipóri ambuegua poravopyre
 profile-form-accent =
     .label = Muanduhe
 profile-form-custom-accent-help-text =
@@ -390,6 +398,7 @@ skip-submission-note = Jesarekorã: Tekotevẽta gueteri eiporavo Eñe’ẽ té
 off = Mboguepyre
 on = Hendypyre
 help-accent = ¿Eñepytyvõkasépa myanduhére?
+help-variants = ¿Eikotevẽ pytyvõ ñe’ẽ iñambuévape?
 
 ## Profile - Email
 
@@ -534,6 +543,8 @@ about-playbook-how-add-language = ¿Mba’éicha ambojuajúta ñe’ẽ?
 ## How does localization work
 
 about-playbook-how-localize = ¿Mba’éicha ojejapo ñe’ẽasa tendápe?
+about-playbook-how-localize-content-1 = Pe tenda Common Voice moñe’ẽasa ojejapo <strong>Pontoon</strong> ndive.
+about-playbook-how-localize-content-4 = Pe tenda ojehecha ñepyrũta ohupyty vove 75% ijejapo.
 about-playbook-how-localize-content-5 = Ehecha ore ta’ãngamýi myesakãha ne pytyvõtava
 
 ## How to add sentences
@@ -542,6 +553,7 @@ about-playbook-how-add-sentences = ¿Mba’éicha ambojuajúta ñe’ẽjuaju?
 
 ## How to record quality
 
+about-playbook-how-record-quality = ¿Mba'éicha añongatúta ñe’ẽ ryapu iporã hag̃uáicha?
 
 ## How to grow language
 
@@ -1104,6 +1116,9 @@ sc-home-collect-text = Orepytyvõ ehaívo térã embyatývo ñe’ẽjuaju opava
 sc-home-review-title = Ehechajey ñe’ẽjuaju
 sc-home-review-text = Orepytyvõ rohechajeývo ñe’ẽjuaju oĩporãpa he’iháicha tekoguatarãme.
 
+## GENERAL
+
+
 ## HOW-TO
 
 sc-howto-title = Mba’éichapa
@@ -1155,10 +1170,6 @@ sc-rejected-none-found = ¡Ndojejuhúi ñe’ẽrysýi mboykepyre!
 ## STATS
 
 sc-stats-title = Papapy’atygua
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Ñembohekopyahu: { $lastUpdate }
-sc-stats-last-update-never = Ñembohekopyahu: araka’eve
 sc-stats-updating = Hekopyahuhína…
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
@@ -1242,6 +1253,8 @@ sc-confirm-button-text = Moneĩ
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Opavavete
+sc-lang-info-title-personal = Avamba’e
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1368,3 +1381,5 @@ sc-validation-no-abbreviations = Pe ñe’ẽjoaju ndorekoiva’erã ñe’ẽmb
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Eiporavo ñe’ẽ/moñe’ẽasa

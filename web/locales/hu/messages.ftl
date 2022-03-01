@@ -342,6 +342,9 @@ profile-form-additional-language =
     .label = További nyelv
 profile-form-language =
     .label = Nyelv
+profile-form-variant =
+    .label = A(z) { $language } melyik változatát beszéli?
+profile-form-variant-default-value = Nincs kiválasztva változat
 profile-form-accent =
     .label = Akcentus
 profile-form-custom-accent-help-text =
@@ -393,6 +396,8 @@ off = Ki
 on = Be
 help-accent = Segítségre van szüksége az akcentussal kapcsolatban?
 help-accent-explanation = Az akcentusa az, ahogy a szavakat kiejti. Alakíthatja hogy hol élt, milyen más nyelveket beszél, és sok egyéb tényező. Itt megoszthat minden olyan információt, amelyet relevánsnak érez.
+help-variants = Segítségre van szüksége a változatokkal kapcsolatban?
+help-variants-explanation = A változatok egy nyelv sajátos formáját jelentik – például egy adott földrajzi területen vagy közösségben élők közös nyelvi formáját. Néha ezeket dialektusoknak nevezik.
 
 ## Profile - Email
 

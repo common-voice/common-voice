@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = 訂閱諸如挑戰、目標提醒、進�
 email-opt-in-privacy-v2 = 若同意接收郵件，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述的方式處理這些資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
+banner-error-slow-1 = 感謝您使用 Common Voice，很抱歉目前運作有點慢。
+banner-error-slow-2 = 我們收到大量連線流量，目前正在調查處理相關問題。
+banner-error-slow-link = 狀態頁面
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -334,6 +337,9 @@ profile-form-additional-language =
     .label = 其他語言
 profile-form-language =
     .label = 語言
+profile-form-variant =
+    .label = 您會說 { $language } 的哪種變體？
+profile-form-variant-default-value = 未選擇變體
 profile-form-accent =
     .label = 腔調
 profile-form-custom-accent-help-text =
@@ -385,6 +391,8 @@ off = 關
 on = 開
 help-accent = 需要關於腔調的說明嗎？
 help-accent-explanation = 腔調就是您發音的方式，可能會受您生活的地方、您會說的其他語言以及其他許多因素影響。您可以在此分享任何您覺得有關的資訊。
+help-variants = 需要關於變體的相關說明嗎？
+help-variants-explanation = 變體是一種語言的特定格式，像是由居住在共同地區或社群的人才有的特定說話腔調。有時這也稱為「方言」。
 
 ## Profile - Email
 

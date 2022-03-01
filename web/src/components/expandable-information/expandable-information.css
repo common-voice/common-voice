@@ -1,0 +1,37 @@
+.expandable-information {
+    margin: 2em 0;
+    padding-inline-start: 0.75em;
+    border-inline-start: 2px solid var(--blue);
+}
+
+.expandable-information__summary {
+    font-family: var(--base-font-family);
+    font-size: var(--font-size);
+    font-weight: 600;
+    color: var(--blue);
+    cursor: pointer;
+
+    /* hide small arrow thats default for summary element */
+    list-style: none;
+    &::marker {
+        display: none;
+    }
+}
+
+.expandable-information__summary__arrow {
+    margin-inline-start: 0.5em;
+    transition: transform var(--easing) var(--transition-duration);
+
+    & polygon {
+        fill: var(--blue);
+    }
+
+    /* when the details element is open */
+    .expandable-information[open] & {
+        transform: rotate(180deg);
+    }
+}
+
+.expandable-information__text {
+    margin-top: 10px;
+}

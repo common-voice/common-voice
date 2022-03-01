@@ -1,8 +1,9 @@
 .selected-accent {
-    display: inline-block;
-    padding-right: 1.5rem;
-    margin-bottom: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    padding-inline-start: 1.5rem;
     margin-inline-end: 1rem;
+    margin-bottom: 1.5rem;
     background: var(--light-grey);
     border-radius: 15rem;
 }
@@ -10,7 +11,7 @@
 .selected-accent--button {
     border: none;
     padding: 0.8rem 1.5rem;
-    padding-inline-end: 1rem;
+    padding-inline-start: 1rem;
 }
 
 #accent-selection-menu {

@@ -450,6 +450,9 @@ class ContributionPage extends React.Component<Props, State> {
                     const isActive = i === activeSentenceIndex;
                     return (
                       <div
+                        // don't let Chrome auto-translate
+                        // https://html.spec.whatwg.org/multipage/dom.html#the-translate-attribute
+                        translate="no"
                         key={sentence ? sentence.text : i}
                         className={
                           'card card-dimensions ' + (isActive ? '' : 'inactive')

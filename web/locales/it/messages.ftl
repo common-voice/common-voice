@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Ricevi email come promemoria di sfide e o
 email-opt-in-privacy-v2 = Scegliendo di ricevere le email, accetti che Mozilla utilizzi queste informazioni secondo quanto riportato nell’<privacyLink>informativa sulla privacy</privacyLink>.
 indicates-required = * indica un campo obbligatorio
 not-available-abbreviation = N.D.
+banner-error-slow-1 = Ci dispiace, il funzionamento di Common Voice è rallentato. Grazie per il tuo interesse.
+banner-error-slow-2 = Stiamo ricevendo molto traffico e stiamo attualmente analizzando il problema.
+banner-error-slow-link = Pagina di stato
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -334,6 +337,9 @@ profile-form-additional-language =
     .label = Altra lingua
 profile-form-language =
     .label = Lingua
+profile-form-variant =
+    .label = Quale variante della lingua { $language } parli?
+profile-form-variant-default-value = Nessuna variante selezionata
 profile-form-accent =
     .label = Accento
 profile-form-custom-accent-help-text =
@@ -385,6 +391,8 @@ off = Disattiva
 on = Attiva
 help-accent = Hai bisogno di aiuto con l’accento?
 help-accent-explanation = Il tuo accento è il modo in cui pronunci le parole. Può essere condizionato dal luogo in cui hai vissuto, da quali altre lingue parli e da molti altri fattori. Qui puoi condividere qualsiasi informazione che ritieni pertinente.
+help-variants = Hai bisogno di aiuto con le varianti?
+help-variants-explanation = Le varianti sono una forma specifica di una lingua, ad esempio condivisa da coloro che vivono in determinate aree geografiche o comunità. A volte queste varianti vengono chiamate dialetti.
 
 ## Profile - Email
 

@@ -15,7 +15,7 @@ email-opt-in-privacy-v2 = En optar per rebre correus electrònics, accepteu que 
 indicates-required = * Indica un camp necessari
 not-available-abbreviation = N/D
 banner-error-slow-1 = Ens sap greu, el Common Voice està tardant a carregar-se, gràcies per l'interès.
-banner-error-slow-2 = La plataforma va molt carregada últimament, estem investigant els problemes i esperem que torne prompte.
+banner-error-slow-2 = La plataforma va molt carregada últimament, estem investigant els problemes i esperem solucionar-los aviat.
 banner-error-slow-link = Estat del projecte
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -101,6 +101,7 @@ ko = coreà
 kpv = komi
 kw = còrnic
 ky = kirguís
+lb = luxemburguès
 lg = ganda
 lij = lígur
 lt = lituà
@@ -338,6 +339,9 @@ profile-form-additional-language =
     .label = Llengua addicional
 profile-form-language =
     .label = Llengua
+profile-form-variant =
+    .label = Quina variant de { $language } parleu?
+profile-form-variant-default-value = No hi ha cap variant seleccionada
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
@@ -389,6 +393,8 @@ off = Desactivat
 on = Activat
 help-accent = Us cal ajuda sobre els accents?
 help-accent-explanation = L'accent és la forma com pronuncieu les paraules. Es pot crear a partir dels llocs on heu viscut, quines altres llengües parleu i molts altres factors. Podeu compartir aquí qualsevol informació que considereu rellevant.
+help-variants = Us cal ajuda amb les variants?
+help-variants-explanation = Les variants són formes específiques d'una llengua. Per exemple, compartides per persones que viuen en una zona geogràfica o comunitat. De vegades s'anomenen dialectes.
 
 ## Profile - Email
 
@@ -692,7 +698,7 @@ number-of-voices = Nombre de veus
 splits = Divisions
 email-to-download = Introduïu l'adreça electrònica per baixar
 why-email = <b>Per què una adreça electrònica?</ b> És una forma de contacte en cas que ens haguéssim de posar en contacte en un futur per canvis en el conjunt de dades.
-confirm-size = Estic preparat per iniciar una baixada de <b>{ $size }</ b>
+confirm-size = Estic preparat per a iniciar una baixada de <b>{ $size }</ b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Accepto</ b> no intentar determinar la identitat dels parlants del conjunt de dades del Common Voice
@@ -723,7 +729,7 @@ your-feedback = Teniu idees sobre com millorar el conjunt de dades del Common Vo
 go-discourse = Vés al Discourse
 missing-language = No veieu la vostra llengua al conjunt de dades? Per sol·licitar una llengua, aneu a la pàgina de llengües.
 go-languages-page = Vés a la pàgina de llengües
-ready-to-validate = Esteu preparat per validar frases?
+ready-to-validate = Esteu a punt per a validar frases?
 more = Més
 close = Tanca
 download = Baixa
@@ -792,8 +798,8 @@ goal-help-recording = Heu ajudat el Common Voice a assolir el <goalPercentage></
 goal-help-validation = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } validacions!
 contribute-more =
     { $count ->
-        [one] Preparat per fer-ne { $count } més?
-       *[other] Preparat per fer-ne { $count } més?
+        [one] A punt per a fer-ne { $count } més?
+       *[other] A punt per a fer-ne { $count } més?
     }
 record-cta = Enregistreu
 record-platform-not-supported = Malauradament, la vostra plataforma no és compatible actualment.
@@ -922,15 +928,15 @@ finish-editing = Voleu acabar d'editar?
 lose-changes-warning = Si ho deixeu ara, es perdran tots els canvis
 build-custom-goal = Crea un objectiu personalitzat
 help-reach-hours-pluralized =
-    Ajudeu a arribar a { NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } hores
-    }en { $language } amb un objectiu personal
+    { NUMBER($hours) ->
+        [one] Ajudeu a arribar a { $hours } hora en { $language } amb un objectiu personal
+       *[other] Ajudeu a arribar a { $hours } hores en { $language } amb un objectiu personal
+    }
 help-reach-hours-general-pluralized =
-    Ajudeu al Common Voice a arribar a{ NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } hores
-    }en una llengua amb un objectiu personal
+    { NUMBER($hours) ->
+        [one] Ajudeu al Common Voice a arribar a{ $hours } hora en una llengua amb un objectiu personal
+       *[other] Ajudeu al Common Voice a arribar a{ $hours } hores en una llengua amb un objectiu personal
+    }
 set-a-goal = Defineix un objectiu
 cant-decide = No sabeu què fer?
 activity-needed-calculation-plural =
@@ -1055,9 +1061,9 @@ demo-account-sign-up = Envia l'enllaç de registre
 
 ## Demo Contribute
 
-demo-contribute-card-header = Esteu preparat per a afegir la veu o parar l'orella?
+demo-contribute-card-header = Esteu a punt per a afegir la veu o parar l'orella?
 demo-contribute-card-body-v2 = Ara que ja sabeu una mica més sobre el Common Voice, per què no ho proveu? Feu clic en la icona del micròfon per a començar a llegir frases en veu alta. <br/><br/>Si preferiu revisar les contribucions de veu d'altres persones, feu clic en la icona de reproducció. D'aquesta manera ajudareu a confirmar si els enregistraments coincideixen amb les frases escrites en la pantalla.
-demo-listen-subtitle = Preparat per a col·laborar?
+demo-listen-subtitle = A punt per a col·laborar?
 
 ## Demo Dashboard
 
@@ -1153,6 +1159,10 @@ sc-home-collect-title = Recull frases
 sc-home-collect-text = Ajudeu-nos escrivint o recopilant frases de domini públic.
 sc-home-review-title = Revisa les frases
 sc-home-review-text = Ajudeu-nos revisant la correcció de les frases segons unes directrius.
+
+## GENERAL
+
+sc-languages-fetch-error = No hem pogut obtenir les llengües disponibles. Actualment no es poden fer aportacions. Proveu-ho més tard.
 
 ## HOW-TO
 

@@ -46,6 +46,7 @@
         @media (--md-down) {
             padding: 70px 0;
             background: url('images/intro-bg-md.svg');
+            background-color: #3b3b3b; /* fallback if image hasnt loaded */
             background-size: cover;
 
             h1,

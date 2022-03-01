@@ -1,19 +1,22 @@
 ## General
 
-yes-receive-emails = Já, sendið mér tölvupóst. Ég vil fylgjast með Samrómi.
+yes-receive-emails = Já, sendið mér tölvupóst. Ég vil fylgjast með Samrómsverkefninu Common Voice.
 stayintouch = Við hjá Mozilla erum að setja á laggirnar raddtæknisamfélag. Við viljum vera í sambandi varðandi uppfærslur, nýjar gagnaveitur og til að fá að heyra meira um hvernig þessi gögn eru nýtt.
-privacy-info = Við heitum því að meðhöndla upplýsingarnar þínar af varkárni. Nánar í <privacyLink>Tilkynningu um persónuvernd</privacyLink>.
+privacy-info = Við lofum að fara varlega með upplýsingarnar þínar. Lestu meira um þetta í <privacyLink>persónuverndartilkynningu</privacyLink> okkar.
 return-to-cv = Til baka í Samróm
 email-input =
     .label = Tölvupóstur
 submit-form-action = Senda inn
 loading = Hleður...
 email-opt-in-info = Ég vil gjarnan fá tölvupóst um markmiðsáminningar, framvindu mína og fréttabréf Samróms.
-email-opt-in-info-title = Skrá sig á póstlista Samróms.
-email-opt-in-info-sub-with-challenge = Fá tölvupóst á borð við áskoranir og áminningar um markmið, framvindu og fréttabréf Samróms.
+email-opt-in-info-title = Skráðu þig á póstlista Samróms
+email-opt-in-info-sub-with-challenge = Fáðu tölvupóst á borð við áskoranir og áminningar um markmið, framvindu og fréttabréf Samróms.
 email-opt-in-privacy-v2 = Með því að kjósa að fá tölvupóst frá okkur er samþykkt að Mozilla meðhöndli upplýsingar eins og útskýrt er í <privacyLink>persónuverndarstefnu Mozilla</privacyLink>.
 indicates-required = * táknar nauðsynlegan reit
 not-available-abbreviation = Á ekki við
+banner-error-slow-1 = Því miður gengur Common Voice vefurinn hægt fyrir sig í augnablikinu. Takk fyrir áhugann.
+banner-error-slow-2 = Við erum að fá mjög mikla umferð og erum nú að rannsaka málin.
+banner-error-slow-link = Stöðusíða
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,9 +39,9 @@ ba = Baskírska
 bas = Bassa
 be = Hvítrússneska
 bg = Búlgarska
-bm = Bambaríska
 bn = Bengalska
 br = Bretónska
+bs = Bosníska
 bxr = Búrjatíska
 ca = Katalónska
 cak = Kaqchikel
@@ -67,16 +70,20 @@ fy-NL = Frísneska
 ga-IE = Írska
 gl = Galisíska
 gn = Gvaraní
+gom = Goan Konkani
 ha = Hása
 he = Hebreska
 hi = Hindí
 hr = Króatíska
 hsb = Hásorbíska
+ht = Haítíska
 hu = Ungverska
 hy-AM = Armenska
 hyw = Vestur-armenska
 ia = Interlingua
 id = Indónesíska
+ie = Interlingue
+ig = Ígbó
 is = Íslenska
 it = Ítalska
 izh = Ingríska
@@ -85,46 +92,66 @@ ka = Georgíska
 kaa = Karakalpak
 kab = Kabýlska
 kbd = Kabardíska
+ki = Kikuyu
 kk = Kasakska
+km = Kmeríska
 kmr = Kurmanji-kúrdíska
+knn = Konkani (Devanagarí)
 ko = Kóreska
 kpv = Kómíska
 kw = Kornbreska
 ky = Kyrgíska
+lb = Lúxemborgíska
 lg = Luganda
 lij = Liguríska
 lt = Litháenska
 lv = Lettneska
+mai = Maithilíska
 mdf = Mokseska
 mg = Malagasíska
 mhr = Austur-mari
 mk = Makedónska
 ml = Malayalam
 mn = Mongólska
+mni = Meetei Lon
+mos = Mossi
+mr = Marathí
 mrj = Vestur-mari
+ms = Malaíska
 mt = Maltneska
 my = Búrmíska
 myv = Erzýska
-nb-NO = Norska (bokmål)
+nan-tw = Taívanska (Minnan)
+nb-NO = Norskt bókmál
 ne-NP = Nepalska
+nia = Nias
 nl = Hollenska
-nn-NO = Norska (nynorsk)
+nn-NO = Nýnorska
+nyn = Runyankole
 oc = Oksítanska
 or = Oríja
 pa-IN = Punjabi
+pap-AW = Papíamentó (Arúba)
 pl = Pólska
+ps = Pastó
 pt = Portúgalska
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Surilsvanrómanska
 rm-vallader = Valladerrómanska
 ro = Rúmverska
 ru = Rússneska
 rw = Rúandíska
 sah = Jakútíska
+sat = Santali (Ol Chiki)
 sc = Sardiníska
 scn = Sikileyska
+shi = Shilha
 si = Singalíska
 sk = Slóvaska
+skr = Saraiki
 sl = Slóvenska
+so = Sómalska
 sq = Albanska
 sr = Serbneska
 sv-SE = Sænska
@@ -134,17 +161,27 @@ ta = Tamílska
 te = Telúgú
 tg = Tadsíkíska
 th = Taílenska
+ti = Tigrinya
+tig = Tigre
+tk = Túrkmenska
 tl = Tagalog
+tok = Toki Pona
 tr = Tyrkneska
 tt = Tatarska
+tw = Twi
+ty = Tahítíska
 uby = Ubykh
 udm = Údmurtíska
+ug = Uyghúr
 uk = Úkraínska
 ur = Úrdú
 uz = Úsbeska
 vec = Feneyska
 vi = Víetnamska
 vot = Votíska
+yi = Jiddíska
+yo = Jórúba
+yue = Kantónska
 zh-CN = Kínverska (Kína)
 zh-HK = Kínverska (Hong Kong)
 zh-TW = Kínverska (Taívan)
@@ -159,47 +196,50 @@ speak-now = Talaðu núna
 datasets = Gagnasöfn
 languages = Tungumál
 about = Um okkur
-profile = Prófíll
+profile = Notkunarsnið
 help = Hjálp
 contact = Hafa samband
 privacy = Persónuvernd
 terms = Skilmálar
-cookies = Smákökur
+cookies = Vefkökur
 faq = Algengar spurningar
-content-license-text = Efni birt undir merkjum <licenseLink>Creative Commons</licenseLink>.
-share-title = Hjálpið til við að finna aðra til að deila raddprufum!
-share-text = Hjálpið að kenna vélum hvernig alvöru fólk talar, gefðu raddprufu á { $link }
-link-copied = Hlekkur afritaður
+content-license-text = Efni birt undir merkjum <licenseLink>Creative Commons notkunarleyfis</licenseLink>.
+share-title = Hjálpaðu til við að finna aðra til að deila raddprufum!
+share-text = Hjálpaðu við að kenna vélum hvernig alvöru fólk talar, gefðu raddprufu á { $link }
+link-copied = Tengill afritaður
 back-top = Til baka
-logout = Útskrá
+logout = Skrá út
 
 ## Home Page
 
-home-title = Samrómur er frumkvæði Mozilla til þess að kenna vélum hvernig alvöru fólk talar.
-home-cta = Hækkið róminn, deilið hér!
-wall-of-text-start = Rödd er náttúruleg, rödd er mennsk. Þess vegna heillumst við af sköpun nothæfrar raddtækni handa vélunum okkar. En til þess að skapa raddkerfi þörfnumst við mýgrúts gagna.
-wall-of-text-more-mobile = Flest gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Samróm, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
+home-title = Samrómur (Common Voice) er verkefni á vegum Mozilla sem gengur út á það að kenna vélum að skilja hvernig mannfólk talar.
+default-tagline = Samrómur (Common Voice) er verkefni á vegum Mozilla sem gengur út á það að kenna vélum að skilja hvernig mannfólk talar.
+home-cta = Hækkaðu róminn, leggðu þitt af mörkum hér!
+wall-of-text-start = Rödd er náttúruleg, rödd er mennsk. Þess vegna heillumst við af nothæfri raddtækni handa vélunum okkar. En til þess að skapa raddkerfi þörfnumst við ótrúlega mikils magns gagna.
+wall-of-text-more-mobile = Flest þau gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Samróm, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
 wall-of-text-more-desktop =
-    Hér geturðu deilt raddprufum sem hjálpar okkur að setja saman opinn raddgagnagrunn sem er aðgengilegur hverjum sem er til að nota í nýjungar fyrir tæki og vefinn.<lineBreak></lineBreak>
-    Lesið inn setningar til að hjálpa vélum að læra hvernig fólk talar í raun og veru. Staðfestið framlög annarra til að bæta kerfið. Svo einfalt er það!
+    Hér geturðu deilt raddprufum sem hjálpar okkur að setja saman opinn raddgagnagrunn sem er 
+    aðgengilegur hverjum sem er til nýtingar í nýjungar fyrir tæki og vefinn.
+    Lestu inn setningar til að hjálpa vélum að læra hvernig fólk talar í raun og veru. Staðfestu framlög 
+    annarra til að bæta gæðin. Svo einfalt er það!
 wall-of-text-first = Að tjá sig með röddinni er okkur náttúrulegt, og nátengt mannlífinu. Þess vegna erum við svo spennt fyrir því að búa til nothæfa raddtækni fyrir tækin okkar. En til að þróa raddkerfi þarf gríðarlegt magn raddgagna.
-wall-of-text-second = Megnið af þeim raddgögnum sem stórfyrirtæki nota er ekki aðgengilegt, sem hindrar framþróun að okkar mati. Þess vegna efndum við til þessa verkefnis, Samróms, með því markmiði að stuðla að opinni raddgreiningartækni, sem allir geta notað.
+wall-of-text-second = Flest þau gögn sem stórfyrirtæki nota eru ekki aðgengileg almenningi. Að okkar mati heldur það aftur af nýsköpun. Fyrir vikið höfum við sett á laggirnar Samróm, verkefni til að gera raddgreiningu aðgengilega og frjálsa öllum.
 show-wall-of-text = Lesa meira
 help-us-title = Hjálpaðu okkur að meta setningar!
-help-us-explain = Veldu afspilun, hlustaðu og svaraðu: var setningin að neðan nákvæmlega sögð?
+help-us-explain = Veldu afspilun, hlustaðu og svaraðu: hversu nákvæmlega var setningin hér að neðan töluð?
 no-clips-to-validate = Svo virðist sem engar hljóðskrár séu til staðar á þessu tungumáli. Hjálpaðu okkur að stytta biðröðina með því að taka upp dæmi núna.
 vote-yes = Já
 vote-no = Nei
-toggle-play-tooltip = Veldu { shortcut-play-toggle } til þess að skipta um afspilunarham
+toggle-play-tooltip = Veldu { shortcut-play-toggle } til þess að víxla afspilunarham af eða á
 speak-subtitle = Gefðu raddsýnishorn
-speak-paragraph = Hljóðritun raddgagna er órofa partur af þróun gagnapakkans okkar; sumir myndu líka segja að það væri skemmtilegi parturinn.
+speak-paragraph = Hljóðritun raddgagna er órofa hluti af þróun gagnasafnsins okkar; sumir myndu líka segja að það væri skemmtilegi hlutinn.
 speak-goal-text = Raddupptökur
-listen-subtitle = Hjálpið okkur að staðfesta raddir
+listen-subtitle = Hjálpaðu okkur að staðfesta raddir
 listen-paragraph = Að staðfesta aðsendar raddupptökur er jafn mikilvægt fyrir Samróm og upptökurnar sjálfar. Hlustið og hjálpið til við að þróa hágæða opinn raddbúnað.
 listen-goal-text = Staðfestar raddupptökur
 hours-recorded = Klukkustundir hljóðritaðar
 hours-validated = Klukkustundir staðfestar
-voices-online = Raddir í loftinu
+voices-online = Raddir á netinu
 todays-progress = Árangur dagsins
 help-reach-goal = Hjálpaðu okkur að komast upp í { $goal }
 read-terms-q = Hefurðu lesið skilmálana?
@@ -221,29 +261,29 @@ x-years-short =
         [one] ár
        *[other] { $count }ár
     }
-help-make-dataset = Hjálpaðu okkur að byggja upp hágæða gagnasafn handa almenningi.
-sign-up-account = Búa til aðgang
-email-subscription-title = skráðu þig fyrir fréttum með tölvupósti
-email-subscription-title-new = Skrá sig á fréttabréf Samróms, áminningar um markmið og framvindu uppfærslna
+help-make-dataset = Hjálpaðu okkur að byggja upp opið hágæða gagnasafn handa almenningi.
+sign-up-account = Skráðu þig fyrir reikningi
+email-subscription-title = skráðu þig fyrir fréttum í tölvupósti
+email-subscription-title-new = Skráðu þig til að fá fréttabréf Samróms, áminningar um markmið og upplýsingar um framvindu
 
 ## Account Benefits
 
 benefits = Kostir
-rich-data = Gerðu þau gögn sem þú leggur til nytsamlegri með því að bæta við nafnlausum lýðfræðilegum upplýsingum. Allar slíkar upplýsingar eru sneiddar persónueinkennandi atriðum fyrir opinbera útgáfu.
-improve-audio = Prófílgögn hjálpa til við að þjálfa nákvæmari raddgreiningu.
+rich-data = Gerðu þau gögn sem þú leggur til nytsamlegri með því að bæta við nafnlausum lýðfræðilegum upplýsingum. Allar slíkar upplýsingar eru hreinsaðar af persónuauðkennandi atriðum fyrir opinbera birtingu.
+improve-audio = Upplýsingar í notkunarsniði bæta hljóðgögnin sem notuð eru við að þjálfa nákvæmari raddgreiningu.
 keep-track = Fylgstu með eigin framvindu og tölur um þátttöku í mörgum tungumálum.
 compare-progress = Berðu saman framvindu þína við aðra þátttakendur víðsvegar um heiminn.
-view-goals = Skoðaðu hvernig miðast í átt að verkefnismarkmiðum og persónuleg markmiðum.
-join-newsletter = Hægt er að skrá sig á póstlistann okkar til að fá fréttir um verkefnið.
+view-goals = Skoðaðu framfarir þínar miðað við persónuleg markmið og markmið verkefnisins.
+join-newsletter = Hægt er einnig að skrá sig á tölvupóstlistann okkar til að fá uppfærslur og nýjar upplýsingar um verkefnið.
 
 ## What's public
 
 whats-public = Hvað er gert opinbert?
-email-not-public = Við munum ekki birta tölvupóstinn þinn opinberlega.
-recordings-and-locale-public = Það hversu margar upptökur þú hefur lagt til, og til hvaða tungumála, verður opinbert.
+email-not-public = Við munum ekki birta tölvupóstfangið þitt opinberlega.
+recordings-and-locale-public = Það hversu margar upptökur þú hefur lagt til og til hvaða tungumála, verður gert opinbert.
 username-optin-public = Þú getur kosið að vera ónafngreind(ur), eða komið fram opinberlega með þínu notandanafni.
-demographic-deidentified-clarity-2 = Valkvæð lýðfræðigögn (t.d. aldur, kyn, tungumál og hreimur) sem lögð eru fram verða aldrei gerð opinber á prófílnum þínum. Þau verða ekki tengd við aðganginn þinn í gagnapakkanum. Einstök raddsýni verða tengd lýðfræðilegum gönum í því skyni að fá nákvæmari greiningu - til dæmis gæti rannsakandi viljað miða þjálfunarlíkan að tilteknum lýðfræðilegum hluta.
-username-email-not-demographic = Notandanafnið þitt og netfang verður ekki tengt gögnum útgáfunnar.
+demographic-deidentified-clarity-2 = Valkvæð lýðfræðigögn (t.d. aldur, kyn, tungumál og hreimur) sem lögð eru fram verða aldrei gerð opinber í notkunarsniðinu þínu. Þau verða ekki tengd við aðganginn þinn í gagnasafninu. Einstök raddsýni verða tengd lýðfræðilegum gögnum í því skyni að fá nákvæmari greiningu - til dæmis gæti rannsakandi viljað miða þjálfunarlíkan við tiltekinn lýðfræðilegan hluta gagnasafnsins.
+username-email-not-demographic = Notandanafnið þitt og tölvupóstfang verða ekki tengd útgefnum gögnum.
 
 ## Speak & Listen Shortcuts
 
@@ -271,13 +311,18 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Taka upp/Stöðva
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Taka upp aftur
-request-language-text = Sérðu enn engan Samróm fyrir tungumálið þitt?
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Farga upptöku sem er í gangi
+shortcut-submit = Til baka
+shortcut-submit-label = Senda inn upptökur
+request-language-text = Sérðu tungumálið þitt ekki í Samrómi?
+request-language-text-learn = Sjáðu hér hvernig á að biðja um það!
 request-language-button = Biðja um tungumál
 
 ## ProjectStatus
 
-status-title = Heildarstaða verks: sjáið hve langt við erum komin á leið!
-status-contribute = Deildu rödd þinni
+status-title = Heildarstaða verks: sjáðu hve langt við erum komin á leið!
+status-contribute = Leggðu til rödd þína
 status-hours =
     { $hours ->
         [one] Ein klukkustund staðfest enn sem komið er!
@@ -285,19 +330,27 @@ status-hours =
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Næsta markmið: { $goal }
+status-goal = Næstu markmið: { $goal }
 english = Enska
 
 ## ProfileForm
 
 profile-form-username =
-    .label = Notendanafn
+    .label = Notandanafn
 profile-form-native-language =
     .label = Móðurmál
 profile-form-additional-language =
     .label = Önnur mál
+profile-form-language =
+    .label = Tungumál
+profile-form-variant =
+    .label = Hvaða afbrigði af { $language } talar þú?
+profile-form-variant-default-value = Ekkert afbrigði valið
 profile-form-accent =
     .label = Hreimur
+profile-form-custom-accent-help-text =
+    .label = Hvernig myndir þú lýsa hreimnum þínum?
+profile-form-custom-accent-placeholder-2 = Skrifaðu til að lýsa hreimnum þínum
 profile-form-age =
     .label = Aldur
 profile-form-gender-2 =
@@ -308,69 +361,78 @@ hidden = Falið
 visible = Sýnilegt
 native-language =
     .label = Móðurmál
+profile-form-add-accent = Bæta við nýjum sérsniðnum hreimi „{ $inputValue }“
 profile-form-submit-save = Vista
 profile-form-submit-saved = Vistað
 male = Karlkyns
 female = Kvenkyns
 # Gender
 other = Annað
-why-profile-title = Hvers vegna prófíl?
-why-profile-text = Með því að útvega einhverjar upplýsingar um sjálfan þig, þá verða hljóðgögnin sem þú sendir inn í Samróm gagnlegri í talgreiningarvélar sem nota þessi gögn til þess að bæta á nákvæmni.
-dashboard = Skjáborð
-build-profile = Búa til prófíl
-avatar = Prófílmynd
+why-profile-title = Hvers vegna notkunarsnið?
+why-profile-text =
+    Með því að veita ákveðnar upplýsingar um sjálfan þig, þá eykur þú á notagildi aðsendra gagna fyrir raddgreiningarvélarnar 
+    sem nýta sér þessi gögn til að bæta nákvæmni sína.
+dashboard = Stjórnborð
+build-profile = Búa til notkunarsnið
+avatar = Auðkennismynd
 goals = Markmið
 settings = Stillingar
-edit-profile = Breyta prófíl
-profile-create-success = Gerð prófíls tókst!
+edit-profile = Breyta notkunarsniði
+profile-create-success = Gerð notkunarsniðs tókst!
 profile-close = Loka
-profile-explanation = Fylgstu með árangrinum á prófílnum þínum og hjálpaðu okkur að auka á heilindi raddgagnanna.
-thanks-for-account = Takk fyrir að staðfesta aðgang þinn, nú skaltu skapa þér prófíl.
+profile-explanation = Fylgstu með árangrinum á notkunarsniðinu þínu og hjálpaðu okkur að auka á nákvæmni raddgagnanna.
+thanks-for-account = Takk fyrir að staðfesta aðganginn þinn, nú skulum við byggja upp notkunarsniðið þitt.
 why-demographic = Hvers vegna skiptir þetta máli?
-why-demographic-explanation-2 = Nafnlaus notendagögn um aldur, kyn og hreim hjálpa til við að bæta hljóðgögn sem notuð eru í því skyni að skilyrða talgreiningarvélar. Notendanöfn og tölvupóstföng verða aldrei vensluð þeim gögnum sem lögð hafa verið fram. Það er valkvætt hvort notendanafn sé opinberlega birt eða ósýnilegt.
-accept-privacy = Það er allt í lagi að meðhöndla þessar upplýsingar, líkt og útskýrt er í <privacyLink>friðhelgisstefnu</privacyLink> Mozilla.
+why-demographic-explanation-2 = Nafnlaus notendagögn eins og um aldur, kyn og hreim hjálpa til við að bæta hljóðgögnin sem notuð eru til að þjálfa talgreiningarvélar. Notendanöfn og tölvupóstföng verða aldrei tengd þeim gögnum sem lögð verða fram. Það er valkvætt hvort notandanafn birtist opinberlega eða sé ósýnilegt.
+accept-privacy = Mér finnst allt í lagi að þið meðhöndlið þessar upplýsingar eins og útskýrt er í <privacyLink>persónuverndarstefnu</privacyLink> Mozilla
 accept-privacy-title = Persónuverndarstefna
 login-identity = Innskráningarauðkenni
-login-signup = Innskrá / nýskrá
+login-signup = Skrá inn / Nýskrá
 edit = Breyta
-email-subscriptions = Tölvupóstáskrift
+email-subscriptions = Tölvupóstáskriftir
 download-profile = Sækja gögnin mín
-contribution-experience = Upplifun af framlagi
-skip-submission-feedback = Sleppa athugasemdum á framlag
-skip-submission-description = Endurgjöf er meðan raddgögn eru lögð fram, en þegar smellt er á 'Senda' lýkur athugasemdum. Framlagið mun halda áfram með næsta setti af 5 upptökum eða staðfestingum.
-skip-submission-note = Athugið: Maður verður samt að velja á milli tals eða hlustunar til að breyta tegund inntaks.
+contribution-experience = Reynsla af framlagi
+skip-submission-feedback = Sleppa umsögn varðandi framlag
+skip-submission-description = Við innsendingu framlags verður umsögn sleppt eftir að smellt hefur verið á 'Senda'. Framlag heldur beint áfram með næsta setti af 5 upptökum eða staðfestingum.
+skip-submission-note = Athugaðu: Þú verður samt að velja á milli tals eða hlustunar til að breyta tegund framlags.
 off = Af
 on = Ǻ
+help-accent = Þarftu hjálp með hreim?
+help-accent-explanation = Hreimurinn þinn er það hvernig þú berð fram orð. Hann getur mótast af því hvar þú hefur búið, hvaða önnur tungumál þú talar, ásamt mörgum öðrum þáttum. Þú getur deilt hér öllum þeim upplýsingum sem þér finnst eiga við.
+help-variants = Þarftu aðstoð við afbrigði?
+help-variants-explanation = Afbrigði eru ákveðin form tungumáls - til dæmis sameiginleg þeim sem búa á ákveðnu svæði eða tilheyra sérstökum samfélagshópi. Stundum er þetta kallað mállýskur.
 
 ## Profile - Email
 
 browse-file-title = Hlaða inn myndskrá
 browse-file = Dragðu og slepptu eða <browseWrap>flettu upp</browseWrap>
 connect-gravatar = Tengja við Gravatar
-gravatar_not_found = Enginn gravatar fannst fyrir netfangið þitt
-file_too_large = Myndin sem var valin er of stór
+gravatar_not_found = Engin gravatar-auðkennismynd fannst fyrir tölvupóstfangið þitt
+file_too_large = Valin skrá er of stór
+avatar-uploaded = Auðkennismynd send inn
+max-file-size = { $kb }kb hámark
 
 ## Profile - Email
 
-manage-subscriptions = Stjórna áskriftum
-manage-email-subscriptions = Umsjón með netfanga lista
-email-already-used = Netfang er þegar í notkun á öðrum reikningi
+manage-subscriptions = Sýsla með áskriftir
+manage-email-subscriptions = Sýsla með tölvupóstáskriftir
+email-already-used = Tölvupóstfangið er þegar notað fyrir annan reikning
 add-language = Bæta við tungumáli
-change-email-setings = Breyta netfangi með því að nota stillingar undir Innskráningarauðkenni
+change-email-setings = Breyttu tölvupóstfangi með því að nota stillingar undir Innskráningarauðkenni
 
 ## FAQ
 
 faq-title = Algengar spurningar
 faq-what-cv-q = Hvað er Samrómur?
-faq-what-cv-a =
-    Raddgreiningartækni er að umbylta samskiptum okkar við vélar, en þau kerfi sem eru í boði eru sem stendur kostnaðarsamur séreignarhugbúnaður. Samrómur er hluti af frumkvæði Mozilla til að bæta raddgreiningartækni og gera hana enn aðgengilegri öllum. Samrómur er umfangsmikill gagnagrunnur sem nær um allan hnöttinn, en hann samanstendur af raddsýnum sem fólk leggur verkefninu til og gerir hverjum manni hæglega kleift að þjálfa og skilyrða raddstýrðan hugbúnað með hvaða tungumáli sem er. 
-    
-    Við söfnum ekki einungis raddsýnum af útbreiddum málum heldur einnig þeim sem hafa fámennari mælendahópa. Með útgáfu fjölbreyttra gagna mun Samrómur styrkja þróendur, frumkvöðla og samfélög til að brúa bilið sjálf. Til viðbótar við Samróms-gagnasafnið er einnig unnið undir frjálsu hugbúnaðarleyfi að raddgreiningartækinu Deep Speech.
+faq-what-cv-a = Raddgreiningartækni er að umbylta samskiptum okkar við vélar, en í augnablikinu eru þau kerfi sem standa til boða eru oftast kostnaðarsamur séreignarhugbúnaður. Samrómur er hluti af frumkvæði Mozilla til að bæta raddgreiningartækni og gera hana enn aðgengilegri öllum. Samrómur er alþjóðlegur gagnagrunnur sem samanstendur af raddsýnum sem fólk leggur verkefninu til og gerir hverjum sem er hæglega kleift að þjálfa og skilyrða raddstýrðan hugbúnað á hvaða tungumáli sem er.
 faq-why-important-q = Hvers vegna er þetta mikilvægt?
-faq-why-important-a = Ein af okkar allra náttúrulegustu leiðum til þess að tjá okkur og eiga samskipti er með tali og tækniframfarir eru að gera okkur kleift að eiga slík samskipti við tölvurnar okkar, síma og önnur tæki. Við viljum efla þróunaraðila til þess að gera frábærar máltæknilausnir eins og textaþýðingar í rauntíma og raddstýrð aðstoðartæki. En til þess þarf góð og nothæf gagnasett, og því miður eru núverandi aðgengileg gagnasett kostnaðarsöm og háð notkunarskilmálum. Okkar von er að gagnasettið á Samrómi muni gefa þróunaraðilum það sem þeir þurfa til þess að búa til nýjungar og gera máltæknilausnir aðgengilegar á öllum tungumálum.
+faq-why-important-a =
+    Ein af okkar allra náttúrulegustu leiðum til þess að tjá okkur og eiga samskipti er með tali og tækniframfarir eru að gera okkur kleift að eiga slík samskipti við tölvurnar okkar, síma og önnur tæki. Við viljum efla þróunaraðila til þess að gera frábærar máltæknilausnir eins og textaþýðingar í rauntíma og raddstýrð aðstoðartæki. En til þess þarf góð og nothæf gagnasöfn, og því miður eru fyrirliggjandi gagnasöfn oft kostnaðarsöm og háð notkunarskilmálum séreignarhugbúnaðar. Við vonumst eftir að gagnasafnið á Samrómi muni gefa þróunaraðilum það sem þeir þurfa til nýsköpunar og gera máltæknilausnir aðgengilegar á öllum tungumálum.
+    
+    Til að gera talgreiningu aðgengilega sem víðast, erum við að safna raddbútum á fjölmörgum útbreiddum tungumálum auk ýmissa mála sem fáir hafa að móðurmáli og eiga þar með undir högg að sækja varðandi framboð í viðskiptareknum raddtækniþjónustum. Útgáfa á fjölbreyttum raddgagnasöfnum mun styrkja forritara, frumkvöðla og heilu málsamfélögin í að fylla sjálf inn í þær eyður sem kunna að vera til staðar.
 faq-how-get-q = Hvernig get ég nálgast gögn Samróms?
-faq-how-get-a = Gögn Samróms verður hægt að niðurhala með <licenseLink>CC0-leyfi</licenseLink> á <datasetLink>gagnasafnasíðunni okkar</datasetLink>. Einnig verður hægt að niðurhala nokkur önnur gagnasöfn á síðunni sem opin eru almenningi.
-faq-when-release2-q = Hvenær verða raddgögn Samróms í boði á öðrum tungumálum?
+faq-how-get-a = Gagnasöfn Samróms er hægt að sækja með <licenseLink>CC0-notkunarleyfi</licenseLink> á <datasetLink>gagnasafnasíðunni okkar</datasetLink>. Einnig er hægt að sækja nokkur önnur opinber gagnasöfn á þessari sömu síðu.
+faq-when-release2-q = Hvenær verða raddgögn Samróms í boði fyrir önnur tungumál?
 faq-when-release2-a = Fjöltunguútgáfu gagnapakka Samróms er verið að klára og snurfusa í samfélagsverkefni. Ef þú vilt hjálpa okkur að koma Samrómi yfir á ný tungumál, farðu þá og skoðaðu <sentenceCollectorLink>Setningasöfnunartólið</sentenceCollectorLink> til að fjölga setningum í gagnapakkanum og Mozilla <pontoonLink>Pontoon</pontoonLink> til að þýða vefsíðuna sjálfa. Nýjum tungumálum er bætt við Samróm fyrir raddframlag þegar 5000 samþykktum setningum hefur verið safnað.
 faq-why-mission-q = Hví er Samrómur eitt af markmiðum Mozilla?
 faq-why-mission-a = Mozilla hefur tileinkað sér að tryggja það að vefurinn sé öllum opinn og aðgengilegur. Til þess þarf að virkja vefsmiði með verkefnum á borð við Samróm. Líkt og raddbúnaðartæknin þróast umfram sértæk forrit, trúum við að hún verði að þjóna öllum notendum jafnt. Það þýðir að fjölga tungumálum, framburðarsýnum og lýðfræðiupplýsingum þegar raddbúnaðurinn er þróaður og prófaður. Samrómur verður opinn grunnur sem mun gagnast öllum en Mozilla teymi og forritarar úti um allan heim eru þegar byrjaðir að nota hann fyrir sín verkefni.
@@ -402,7 +464,7 @@ faq-why-not-ask-read-a = Til að gera Samrómsgagnasafnið eins nýtilegt og hæ
 faq-why-account-q = Af hverju ætti ég að skrá mig?
 faq-is-account-public-q = Verða mínar reikningsupplýsingar opinberar?
 faq-how-privacy-q = Hvernig tryggið þið nafnleysi og friðhelgi þeirra sem ljá Samróm röddina sína?
-faq-how-privacy-a = Persónulega einkennani gögn hafa verið fjarlægð úr öllum raddhljóðbrotum í safninu. Í þeim tilfellum sem raddgjafi hefur lagt til lýðfræðilega stika á síðuna þeirra, eru þær upplýsingar aftengar upptökum þeirra en fylgja öðrum lýðfræðigögnum í niðurhali á gagnasafninu. Þessar upplýsingar eru aldrei gerðar opinberar á síðu raddgjafans.
+faq-how-privacy-a = Persónulega einkennandi gögn hafa verið fjarlægð úr öllum raddhljóðbrotum í safninu. Í þeim tilfellum sem raddgjafi hefur lagt til lýðfræðileg gögn í gegnum notkunarsniðið sitt, eru þær upplýsingar aftengdar upptökum þeirra en fylgja öðrum lýðfræðigögnum í niðurhali á gagnasafninu. Þessar upplýsingar eru aldrei gerðar opinberar á notkunarsniðssíðu raddgjafans.
 faq-what-determine-identity-q = Hvað þýðir það að ég geti ekki "borið kennsl á" raddgjafa í Samómsgagnasafninu?
 faq-what-determine-identity-a =
     Samrómsgagnasafnið er opið og aðgengilegt almenning svo hægt sé að nota það til að þjálfa margs konar raddstýrð kerfi. Fyrir öryggi raddgjafanna biðjum við alla sem sækja Samrómsgagnasafnið til að virða friðhelgi einkalífs þeirra.
@@ -410,19 +472,22 @@ faq-what-determine-identity-a =
     Persónulega einkennandi upplýsingar hafa verið fjarlægðar úr öllum raddhljóðbrotum í safninu. Þegar maður sækir gagnasafnið samþykkir maður að reyna ekki að bera kennsl á neinn raddgjafanna. Það þýðir að það má ekki reyna að tengja upptökur í gagnasafninu við einstaklinga sem hafa lagt til upptökur. Það má hins vegar nota gagnasafnið til að þjálfa raddgreina, málshafagreina og fleiri kerfi, t.d. með því að tengja saman upplýsingar innan gagnasafnsins.
 faq-what-is-cv = Hvað er Samrómur?
 faq-using-cv = Notkunn Samróms
-faq-description = Samrómur er verkefni á vegum Mozilla sem gengur út á það að fkenna tölvum að skilja hvernig mannfólk talar.
+faq-description = Samrómur (Common Voice) er hluti verkefnis á vegum Mozilla sem gengur út á það að kenna vélum að skilja hvernig mannfólk talar.
 faq-search-for-answers =
     .label = Leita af svörum
 
 ## ABOUT US
 
 about-title = Af hverju?
-about-subtitle = Samrómur er þáttur í framtaki Mozilla til að hjálpa vélum að skilja hvernig alvöru fólk talar. Fyrir utan Samróms gagnasettið, stendur Mozilla að opninni talgreiningar vél sem kallast Djúp Tal.
-about-header-description =
-    Bæði þessi verkefni eiga þátt í að brúa bil stafrænna radda. Raddkennslabúnaður bætir mannlegum þætti við tækin okkar, en gífurlegt magn radd gagna þarf til þess að búa þá til. Í dag er meiruhluti gagnanna kostnaðarsöm og í eigu einka aðila. 
-    Við viljum gera raddgögn ókeypis og aðgengileg öllum, svo gögnin endurspegli fjölbreytileika alvöru fólks. Saman getum við bætt gæði raddkennslabúnaðar fyrir alla.
-how-does-it-work-title = Hvernig virkar það?
 how-does-it-work-text = Við erum að "hópvirkja" öflun opins raddgagnasafns. Leggðu fram röddina þína, staðfestu nákvæmni hljóðbrota frá öðrum, gerðu gagnasafnið betra fyrir alla.
+
+## How does it work section
+
+about-localization-title = Staðfærsla vefsvæðis
+about-localization-subtitle = Texti vefsvæðisins er þýddur á það tungumál.
+about-sentence-collection-title = Söfnun setninga
+about-dataset-release-title = Útgáfa gagnasafns
+about-dataset-release-subtitle = Við gefum gagnasafnið út á 3ja mánaða fresti.
 about-speak = Tal
 about-speak-text = Þátttakendur taka upp lestur setninga sem fengnar er úr banka gefinna setninga.
 about-listen-queue = Hlustunarröð
@@ -455,6 +520,40 @@ about-nav-why-common-voice = Af hverju?
 about-nav-how-it-works = Hvernig?
 about-nav-partners = Samstarfsaðilar
 about-nav-get-involved = Taka þátt
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+about-playbook-how-localize = Hvernig virkar staðfærsla vefsvæðis?
+about-playbook-how-localize-content-1 = Þýðing á Common Voice vefsvæðinu fer fram á <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Vefsvæðið telst er tilbúið til birtingar þegar það nær 75% fullþýddum strengjum.
+about-playbook-how-localize-content-5 = Horfðu á útskýringarmyndskeið okkar til glöggvunar
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = Atburðir
+about-playbook-how-grow-language-content-4 = Samfélagsmiðlar
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Gervigreind
 mycroft-description =
@@ -474,7 +573,7 @@ hours-validated-explanation = Fjöldi klukkutíma af yfirförnum hljóðbrotum s
 sst = Tal-í-texta (TÍT)
 sst-explanation = Tal-í-texta (TÍT) er tækni sem breytir raddupptökum í texta.
 de-identified = Einkennissneiðing
-de-identified-explanation = Það þegar tengsl prófílgagna þátttakanda við hljóðgögnin sem hann lagði til eru falin, áður en þau eru undirbúin til niðurhals sem hluti af málheild.
+de-identified-explanation = Ferlið þegar tengsl notkunarsniðsgagna þátttakanda eru rofin við hljóðgögnin sem hann lagði til, áður en þau eru undirbúin til niðurhals sem hluti af gagnasafni.
 
 ## Error pages
 
@@ -499,6 +598,8 @@ data-other-goto = Fara í { $name }
 data-other-download = Niðurhala gögnum
 data-bundle-button = Niðurhala gagnasafnapakka
 data-bundle-description = Gögn Samróms og öll gagnasöfnin að ofan.
+release-version = Útgáfa
+dataset-date = Dagsetning
 license = Leyfi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandað
 data-download-singleword-title = Hlaða niður markmiðum um einstaka orðhluta
@@ -598,9 +699,9 @@ other-language = Annað tungumál
 ## Languages Overview
 
 language-section-in-progress = Í vinnslu
-language-section-in-progress-new-description = Þessi tungumál eru um þessar mundir í þróun hjá Samómssamfélaginu. Stikan sýnir hversu langt hvert tungmál er komið í <localizationGlossaryLink>vefsíðuþýðingu</localizationGlossaryLink> og <sentenceCollectionGlossaryLink>söfnun setninga</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = Þessi tungumál eru um þessar mundir í þróun hjá Samrómssamfélaginu. Framvindustikan sýnir hversu langt hvert tungmál er komið í <localizationGlossaryLink>þýðingu vefsvæðisins</localizationGlossaryLink> og í <sentenceCollectionGlossaryLink>söfnun setninga</sentenceCollectionGlossaryLink>.
 language-section-launched = Gangsett
-language-section-launched-description = Fyrir þessi tungumál hefur vefsíðan að fullu verið <localizationGlossaryLink>þýdd</localizationGlossaryLink>, og er komið með nóg af <sentenceCollectionGlossaryLink>söfnuðum setningum</sentenceCollectionGlossaryLink> til þess að leyfa áframhaldandi<speakLink>tals-</speakLink> og <listenLink>hlustunarframlög</listenLink>.
+language-section-launched-description = Fyrir þessi tungumál hefur vefsvæðið verið <localizationGlossaryLink>þýdd</localizationGlossaryLink> að fullu, og er komið með nóg af <sentenceCollectionGlossaryLink>söfnuðum setningum</sentenceCollectionGlossaryLink> til þess að leyfa áframhaldandi framlög fyrir <speakLink>tal-</speakLink> og <listenLink>hlustun</listenLink>.
 languages-show-more = Sjá meira
 languages-show-less = Sjá minna
 language-meter-in-progress = Framvinda
@@ -668,7 +769,7 @@ speak-empty-state = Við erum uppiskroppa með setningar til að taka upp á þe
 speak-empty-state-cta = Leggja til setningar
 record-button-label = Raddupptaka
 share-title-new = <bold>Leggið lið</bold> við að leita upp fleiri raddir
-keep-track-profile = Rekja framfarir sínar með prófíl
+keep-track-profile = Fylgstu með framförum þínum með notkunarsniði
 login-to-get-started = Innskráning eða nýskráning
 target-segment-first-card = Þú leggur af mörkum til okkar fyrsta hlutamarkmiðs
 target-segment-generic-card = Þú leggur af mörkum til hlutamarkmiðs
@@ -737,7 +838,7 @@ total-approved = Samtals samþykkt
 overall-accuracy = Almenn nákvæmni
 set-visibility = Stilla sýnanleika minn
 visibility-explainer = Með þessari stillingu er sýnileika topplistans stjórnað. Þegar valið er að fela hann, þá birtist árangur manni einum. Það veldur að mynd, notandanafn og árangur birtast ekki topplista. Athugið að endurhlaðning topplistans tekur ~{ $minutes } mín, á meðan breytingarnar öðlast gildi.
-visibility-overlay-note = Athugið: stillingunni ‚sýnilegt‘ má breyta á <profileLink>prófílsíðunni</profileLink>
+visibility-overlay-note = Athugaðu: Þegar stillt er á ‚Sýnilegt‘ , þessu má breyta á <profileLink>notkunarsniðssíðunni</profileLink>
 show-ranking = Birta í hvaða sæti ég er
 
 ## Custom Goals
@@ -809,7 +910,7 @@ share-goal-type-speak = Talandi
 share-goal-type-listen = Hlustandi
 share-goal-type-both = Talandi og hlustandi
 # LINK will be replaced with the current URL
-goal-share-text = Ég var að setja mér það persónulega markmið að gefa #CommonVoice raddsýni mitt -- Sláist í för með mér og hjálpið að kenna vélum, hvernig hin almenna manneskja talar { $link }
+goal-share-text = Ég var að setja mér það persónulega markmið að gefa #CommonVoice raddsýni mitt -- vertu með og hjálpaðu við að kenna vélum hvernig raunverulegt fólk talar { $link }
 weekly-goal-created = Markmið viku hefur verið sett
 daily-goal-created = Markmið dags hefur verið sett
 track-progress = Rekja árangur sinn hér og á tölfræðisíðu sinni.
@@ -818,23 +919,54 @@ share-goal = Deila markmiði sínu
 
 ## Profile Delete
 
-delete-q = Vilt þú fara fram á að þínum raddgögnum verði líka eytt, eða viltu frekar halda þeim í gagnasafni Samróms?
+delete-q = Vilt þú fara fram á að raddgögnum þínum verði líka eytt, eða viltu frekar halda þeim í gagnasafni Samróms?
 keep = Halda
 remove = Fjarlægja
-keep-info = Nafnlausu raddgögnin þín verða áfram í gagnasafni Samróms. Þegar prófíl hefur verið eytt þá er ekki lengur hægt að biðja um að raddgögn honum tengd verði fjarlægð úr gagnasafninu.
-remove-info = Við munum skoða beiðni þína um að eyða raddgögnum úr gagnasafninu. Ef beiðnin er samþykkt, þá verður haft samband við þá sem hafa halað niður gagnasafninu og þeir líka beðnir um að eyða út raddgögnunum þínum.
-why-delete-recordings = Upptökusafn Samróms er ætlað handa fræðafólki, litlum fyrirtækjum og áhugafólki um raddgreiningu, í því skyni að þjálfa verkfæri á borð við raddlíkön, aðgengileg og opin almenningi.
-profile-form-delete = Eyða prófíl
+keep-info = Nafnlausu raddgögnin þín verða áfram í gagnasafni Samróms. Þegar notkunarsniði hefur verið eytt þá er ekki lengur hægt að biðja um að raddgögn tengd því verði fjarlægð úr gagnasafninu.
+remove-info = Við munum skoða beiðni þína um að eyða raddgögnum úr gagnasafninu. Ef beiðnin er samþykkt, þá verður haft samband við þá sem hafa sótt gagnasafnið og þeir beðnir um að eyða einnig út raddgögnunum þínum.
+why-delete-recordings =
+    Upptökusafn Samróms er ætlað handa fræðafólki, litlum fyrirtækjum og áhugafólki um raddgreiningu, í því skyni að þjálfa og þróa verkfæri á borð við raddlíkön, aðgengileg og opin almenningi.
+    
+    Getur þú látið okkur vita hvers vegna þú vilt að upptökunum þínum verði eytt?
+profile-form-delete = Eyða notkunarsniði
 
 ## Profile Download
 
+download-q = Þarftu að sækja gögnin þín?
+download-info = Segðu okkur hvað þú vilt sækja:
+download-profile-title = Notkunarsnið
+download-profile-info = Inniheldur tölvupóstfang, notandanafn og lýðfræðilegar upplýsingar, fáanlegar strax
+download-profile-size = Nokkur bæti
+download-recordings-title = Upptökur
+download-recordings-info = Inniheldur mp3 og tengdar setningar, gæti tekið nokkurn tíma að undirbúa
+download-recordings-size = Venjulega megabæti
+download-recordings-unavailable = Þú getur ekki beðið um upptökurnar þínar á meðan önnur beiðni er þegar í vinnslu.
+download-recently-requested = Þú getur beðið um nýtt afrit af upptökunum þínum á { $days } daga fresti.
+download-size = Stærð
+download-selected = Valið
+download-start = Sækja notkunarsniðsgögn
+download-request = Óska eftir upptökum
+download-requests = Fyrri beiðnir um niðurhal á upptökum
+download-requests-info = Þegar þú biður um upptökurnar þínar tökum við þær saman í eina eða margar ZIP-safnskrár. Hér eru fyrri beiðnir þínar:
+download-request-button = Sækja
+download-request-title = { $created }
+download-request-description = { $clipCount } raddklippur, heildarstærð safnskrár { $size }. Rennur út { $expires }.
+download-request-archive-single = Ein ZIP-safnskrá sem inniheldur
+download-request-archive-multiple = Skipta upp í { $archiveCount } ZIP-safnskrár sem innihalda
+download-request-assembling-description = Verið er að setja saman skrárnar þínar. Athugaðu þetta aftur síðar.
+download-request-refresh-button = Endurlesa
+download-request-modal-title = Niðurhalstenglar
+download-request-modal-description = Hér eru tenglar til að sækja ZIP-safnskrárnar þínar.
+download-request-link-text = Zip-safnskrá #{ $offset } af { $total }
+download-request-metadata-link = Texti setningar
+download-request-link-single = Þú getur líka afritað og límt beinu vefslóðirnar inn í eftirlætis niðurhalsstjórann þinn. Þær munu renna út eftir 12 klukkustundir, en þú getur farið aftur á þessa síðu til að búa til nýja tengla hvenær sem er.
 
 ## Landing
 
 welcome-staff = Velkomin/n { $company }!
-help-contribute = Þú getur hjálpað til við uppbyggingu fjölbreytts, opins gagnasafns með því að búa til Samróms aðgang og gefa raddsýni.
+help-contribute = Þú getur hjálpað til við uppbyggingu fjölbreytts, opins gagnasafns með því að búa til Samróms-notkunarsnið og gefa raddsýni.
 login-company = Innskrá / nýskrá með netfangi hjá { $company }
-profile-not-required = Prófíls er ekki krafist til að taka þátt en hann er gagnlegur þó
+profile-not-required = Notkunarsniðs er ekki krafist til að taka þátt þótt það sé gagnlegt, sjáðu hvers vegna hér fyrir neðan.
 read-more-about = Lestu meira á um síðuna okkar
 
 ## DemoLayout
@@ -854,3 +986,76 @@ read-more-about = Lestu meira á um síðuna okkar
 
 ## Validation criteria
 
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-profile = Notkunarsnið
+sc-footer-cookies = Vefkökur
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+sc-howto-addlang-text = Þegar þú hefur skráð þig inn, geturðu valið tungumálin þín úr notkunarsniðshlutanum.
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Notkunarsnið: { $username }
+sc-personal-err-lang-not-found = Gat ekki fjarlægt tungumál: tungumál fannst ekki
+sc-personal-err-remove = Ekki tókst að fjarlægja tungumál
+sc-personal-your-languages = Tungumálin þín:
+sc-personal-remove-button = fjarlægja
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $setningum } bætt við af þér
+sc-personal-not-added = Þú hefur ennþá ekki bætt við neinum tungumálum.
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+sc-review-lang-not-selected = Þú hefur ekki valið nein tungumál. Farðu í <profileLink>notkunarsniðið</profileLink> þitt til að velja tungumál.
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
+localization-select =
+    .label = Veldu tungumál/staðfærslu

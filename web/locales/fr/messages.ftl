@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Recevez des courriels tels que des défis
 email-opt-in-privacy-v2 = En acceptant de recevoir des courriels, vous indiquez accepter que Mozilla gère ces informations, conformément à la <privacyLink>politique de confidentialité</privacyLink> de Mozilla.
 indicates-required = * indique un champ obligatoire
 not-available-abbreviation = Non disponible
+banner-error-slow-link = Page d’état
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]

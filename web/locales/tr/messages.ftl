@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Hedef hatırlatmaları, ilerleme durumu v
 email-opt-in-privacy-v2 = E-posta almayı tercih ettiğinizde bu bilgileri Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanmasını kabul etmiş oluyorsunuz.
 indicates-required = * Gerekli alanları gösterir
 not-available-abbreviation = Yok
+banner-error-slow-link = Durum Sayfası
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -98,6 +99,7 @@ ko = Korece
 kpv = Komi Zıryan
 kw = Kernevekçe
 ky = Kırgızca
+lb = Lüksemburgca
 lg = Luganda
 lij = Liguryanca
 lt = Litvanca
@@ -145,6 +147,7 @@ scn = Sicilyaca
 shi = Şilha
 si = Seylanca
 sk = Slovakça
+skr = Saraiki
 sl = Slovakça
 so = Somalice
 sq = Arnavutça
@@ -160,6 +163,7 @@ ti = Tigrinya dili
 tig = Tigre
 tk = Türkmence
 tl = Tagalog
+tok = Toki Pona
 tr = Türkçe
 tt = Tatarca
 tw = Twi
@@ -333,6 +337,9 @@ profile-form-additional-language =
     .label = Ek dil
 profile-form-language =
     .label = Dil
+profile-form-variant =
+    .label = Hangi { $language } türevini konuşuyorsunuz?
+profile-form-variant-default-value = Türev seçilmedi
 profile-form-accent =
     .label = Aksan
 profile-form-custom-accent-help-text =
@@ -384,6 +391,7 @@ off = Kapalı
 on = Açık
 help-accent = Aksan konusunda yardıma mı ihtiyacınız var?
 help-accent-explanation = Aksanınız kelimeleri telaffuz etme şeklinizdir. Yaşadığınız yer, konuştuğunuz diğer diller ve daha birçok faktör aksanınızı etkileyebilir. İlgili olduğunu düşündüğünüz bilgileri burada paylaşabilirsiniz.
+help-variants = Türevlerle ilgili yardıma mı ihtiyacınız var?
 
 ## Profile - Email
 
@@ -467,6 +475,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Neden Common Voice?
+about-header-description-v2 =
+    <p>Common Voice, dünyanın dört bir yanındaki gönüllülerin sesleriyle büyüyen, herkese açık bir ses veri kümesi. Ses uygulamaları oluşturmak isteyen kişiler makine öğrenimi modellerini eğitmek için bu veri kümesini kullanabilir.</p>
+    <p>Şu anda çoğu ses veri kümesinin sahibi şirketler. Bu da yenilikleri engelliyor. Ayrıca ses veri kümeleri İngilizce konuşan beyaz erkekleri fazlasıyla temsil ediyor. Ancak ses teknolojileri birçok dilde hiç çalışmıyor ve çalıştığı zaman da herkes için eşit performans göstermeyebiliyor. İnsanları seslerini paylaşmaları için harekete geçirerek bunu değiştirmek istiyoruz.</p>
 how-does-it-work-title-v2 = Common Voice nasıl çalışır?
 how-does-it-work-text = Açık kaynaklı bir ses veri kümesi topluyoruz. Sesinizi bağışlayın, diğer kişilerin kayıtlarının doğruluğunu doğrulayın, veri kümesini herkes için daha iyi hale getirin.
 
@@ -543,23 +554,36 @@ about-playbook-how-add-language-content-4 = Buraya <scLinkAdd>az sayıda cümle 
 
 about-playbook-how-localize = Site yerelleştirmesi nasıl yapılır?
 about-playbook-how-localize-content-1 = Common Voice sitesinin çevirisi <strong>Pontoon</strong>'da yapılır.
+about-playbook-how-localize-content-4 = Çeviriler %75'e ulaştığında site sizin dilinizde açılmaya hazır olur.
+about-playbook-how-localize-content-5 = Açıklayıcı videomuzu izleyin
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Nasıl cümle ekleyebilirim?
+about-playbook-how-add-sentences-content-3 = Wikipedia'daki kısa cümlelerden yararlanmak için <scraperLink>Cümle çekici</scraperLink>'yi kullanabilirsiniz.
+about-playbook-how-add-sentences-content-4 = Doğrulanan cümleler çarşamba günleri dışa aktarılır ve bir sonraki sürümde kullanılabilir hale gelir.
 
 ## How to record quality
 
+about-playbook-how-record-content-5 = <accuracyLink>Doğruluk ölçütleri hakkında daha fazla bilgi edinin.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Common Voice'ta bir dili nasıl etkili bir şekilde geliştirebiliriz?
+about-playbook-how-grow-language-content-1 = Common Voice'a katkıda bulunmak amacıyla farklı insanlar için fırsatlar yaratmak, veri kümesinin mümkün olduğunca çok kişiye hizmet etmesini sağlar. Kullanabileceğiniz kaynaklar ve şablonlar oluşturduk.
 about-playbook-how-grow-language-content-2 = Etkinlikler
 about-playbook-how-grow-language-content-4 = Sosyal medya
+about-playbook-how-grow-language-content-6 = Ortaklıklar ve ağlar
 
 ## How to validate
 
+about-playbook-how-validate-content-4 = Bir kayıt 2 kişi tarafından reddedilirse veri kümesinin farklı bir alt kümesinde yayınlanır.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Veri kümesine nasıl erişebilir ve veri kümesini nasıl kullanabilirim?
+about-playbook-how-access-dataset-content-1 = <datasetsPage>Veri kümeleri sayfasına</datasetsPage> gidip istediğiniz sürümü ve dilleri seçerek indirebilirsiniz. Dosyalar, demografik bilgiler ve doğrulama verileri gibi <metadataLink>ilişkili meta verilere</metadataLink> sahiptir. Veri kümesini indirmek için bir e-posta adresi vermeniz gerekir.
+about-playbook-how-access-dataset-content-2 = Otomatik ses algılama (ASR) modelleri oluşturma araçları arıyorsanız topluluktaki diğer insanlarla <discourseLink>Discourse</discourseLink> üzerinden iletişim kurabilirsiniz.
 
 ## How are decisions made
 
@@ -1114,6 +1138,9 @@ sc-home-collect-text = Kamu malı cümleleri yazarak veya toplayarak bize yardı
 sc-home-review-title = Cümleleri incele
 sc-home-review-text = Cümleleri yönergelere uygunluğu açısından gözden geçirerek bize yardımcı olun.
 
+## GENERAL
+
+
 ## HOW-TO
 
 sc-howto-title = Nasıl yapılır
@@ -1179,6 +1206,7 @@ sc-rejected-none-found = Reddedilen cümle bulunamadı.
 
 sc-stats-title = İstatistikler
 sc-stats-updating = Güncelleniyor…
+sc-stats-error = İstatistikleri getiremedik. Lütfen daha sonra tekrar deneyin.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1270,6 +1298,8 @@ sc-confirm-uploading = Cümleler karşıya yükleniyor. Bu, eklenen cümle sayı
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Toplam
+sc-lang-info-title-personal = Kişisel
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =

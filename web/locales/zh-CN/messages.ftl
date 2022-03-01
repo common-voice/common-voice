@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = 接收诸如挑战、目标提醒、进�
 email-opt-in-privacy-v2 = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
 indicates-required = * 表示必填字段
 not-available-abbreviation = 不可用
+banner-error-slow-1 = 感谢您使用 Common Voice，很抱歉网站当前运行缓慢。
+banner-error-slow-2 = 网站受到大流量访问冲击，我们正在调查处理相关问题。
+banner-error-slow-link = 状态页面
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -332,6 +335,9 @@ profile-form-additional-language =
     .label = 附加语言
 profile-form-language =
     .label = 语言
+profile-form-variant =
+    .label = 您会说 { $language } 的哪种变体？
+profile-form-variant-default-value = 未选择变体
 profile-form-accent =
     .label = 口音
 profile-form-custom-accent-help-text =
@@ -471,6 +477,7 @@ how-does-it-work-text = 我们集众人之力，构建开源的语音数据集�
 
 about-language-req-subtitle = 有人申请添加一门语言。
 about-localization-title = 网站本地化
+about-dataset-release-title = 发布数据集
 about-dataset-release-subtitle = 我们每 3 个月发布一次数据集。
 about-speak = 说话
 about-speak-text = 贡献者通过朗读一系列由他人捐赠的语句，将语音片段录制下来。
