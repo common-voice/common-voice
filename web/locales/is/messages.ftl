@@ -479,15 +479,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Af hverju Samrómur?
+about-header-description-v2 =
+    <p>Common Voice er almennt aðgengilegt raddgagnasafn, knúið áfram af röddum sjálfboðaliða um allan heim. Fólk sem vill smíða raddforrit getur notað gagnasafnið til að þjálfa vélanámslíkön.</p>
+    <p>Sem stendur eru flest raddgagnasett í eigu fyrirtækja, sem heftir nýsköpun. Raddgagnasöfn samanstanda einnig of mikið af röddum hvítra, enskumælandi karlmanna. Þetta þýðir að raddtækni virkar alls ekki fyrir mörg tungumál og þar sem hún virkar getur verið að hún skili sér ekki jafn vel fyrir alla. Við viljum breyta því með því að virkja fólk alls staðar til að deila röddinni sinni.</p>
+how-does-it-work-title-v2 = Hvernig virkar Samrómur?
 how-does-it-work-text = Við erum að "hópefla" vinnslu opins raddgagnasafns. Leggðu fram röddina þína, staðfestu nákvæmni hljóðbrota frá öðrum, gerðu gagnasafnið betra fyrir alla.
 
 ## How does it work section
 
+about-language-req-subtitle = Einhver biður um að tungumáli sé bætt við.
 about-localization-title = Staðfærsla vefsvæðis
 about-localization-subtitle = Texti vefsvæðisins er þýddur á það tungumál.
 about-sentence-collection-title = Söfnun setninga
+about-sentence-collection-subtitle = Setningum er safnað fyrir fólk til að lesa upp.
+about-new-lang-title = Nýtt tungumál kynnt til sögunnar
+about-new-lang-subtitle = Við opnum vefsvæði Samróms á þessu tungumáli.
+about-voice-contrib-title = Framlög radda
+about-voice-contrib-subtitle = Fólk kemur og leggur raddir sínar af mörkum.
+about-voice-validation-title = Staðfesting á röddum
+about-voice-validation-subtitle = Annað fólk staðfestir þessar raddupptökur.
 about-dataset-release-title = Útgáfa gagnasafns
 about-dataset-release-subtitle = Við gefum gagnasafnið út á 3ja mánaða fresti.
+about-subscribe-text = Viltu vera í sambandi við Samróm?
 about-speak = Tala
 about-speak-text = Þátttakendur taka upp lestur setninga sem fengnar er úr banka gefinna setninga.
 about-listen-queue = Hlustunarröð
@@ -516,17 +529,24 @@ about-get-involved-text-2 =
     Frábært! Settu þig í samband með tölvupósti eða á <discourseLink>Discourse</discourseLink>
     spjallborðum, sendu inn vandamál sem upp koma á <githubLink>GitHub</githubLink>-síðunni, 
     eða taktu þátt á <matrixLink>Matrix-rásinni</matrixLink> okkar.
+about-stay-in-touch = Hvernig get ég verið í sambandi?
+about-stay-in-touch-text-1 = <emailFragment>Skráðu þig</emailFragment> á póstlistann okkar til að vita betur hvernig þú getur tekið þátt í herferðum, viðburðum og samstarfi við hönnun eiginleika í Samrómi.
+about-stay-in-touch-text-2 = Þú getur hitt aðra í Mozilla tungumálasamfélögunum með því að taka þátt í <discourseLink>Discourse</discourseLink> fyrir málefnaleg samtöl, eða á <matrixLink>Matrix</matrixLink> til að fá skjótar ábendingar.
 about-nav-why-common-voice = Af hverju?
 about-nav-how-it-works = Hvernig?
 about-nav-partners = Samstarfsaðilar
 about-nav-get-involved = Taktu þátt
+about-nav-how-it-works-2 = Hvernig virkar Samrómur?
+about-nav-playbook = Lærðu hvernig hægt er að taka þátt
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Hvað er tungumál í Samrómi?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Hvernig bæti ég við tungumáli?
 
 ## How does localization work
 
@@ -537,6 +557,7 @@ about-playbook-how-localize-content-5 = Horfðu á útskýringarmyndskeið okkar
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Hvernig bæti ég við setningum?
 
 ## How to record quality
 
