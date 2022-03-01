@@ -550,6 +550,7 @@ about-playbook-what-is-language-content-3 = Sum tungumál hafa gríðarlegan bre
 ## How do I add a language
 
 about-playbook-how-add-language = Hvernig bæti ég við tungumáli?
+about-playbook-how-add-language-content-1 = Athugaðu fyrst hvort tungumálið þitt <languageLink>er þegar til staðar</languageLink>. Ef það gerir það ekki, þarf að <strong>þýða vefsvæðið og safna setningum</strong>.
 
 ## How does localization work
 
@@ -568,17 +569,28 @@ about-playbook-how-record-quality = Hvernig tek ég upp hágæða raddsýni?
 
 ## How to grow language
 
+about-playbook-how-grow-language = Hvernig getum við á áhrifaríkan hátt látið tungumál vaxa á Samrómi?
 about-playbook-how-grow-language-content-2 = Atburðir
 about-playbook-how-grow-language-content-4 = Samfélagsmiðlar
 
 ## How to validate
 
+about-playbook-how-validate = Hvernig veit ég hvort ég á að samþykkja raddsýni?
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Hvernig fæ ég aðgang að og nota gagnasafnið?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Hvernig eru ákvarðanir varðandi verkefnið teknar?
+about-playbook-how-project-governance-content-1 = Samrómsverkefnið Mozilla Common Voice er gert mögulegt af fjölbreyttu samfélagi aðgerðarsinna, málvísindamanna, gagnafræðinga, fræðimanna og hugbúnaðarverkfræðinga frá öllum heimshornum. Verkefninu er stýrt af Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Stjórnarhættir okkar eru byggðir á eftirfarandi stoðum:
+about-playbook-how-project-governance-content-3 = Persónuvernd, öryggi og gagnsæi.
+about-playbook-how-project-governance-content-4 = Virkni þátttakenda og ákvarðanatöku.
+about-playbook-how-project-governance-content-5 = Mati að verðleikum og viðurkenningu.
+about-playbook-how-project-governance-content-6 = Gagnkvæm ábyrgð.
+about-playbook-how-project-governance-content-7 = <governanceLink>Lestu meira um hvernig okkur er stjórnað</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Gervigreind
 mycroft-description =
