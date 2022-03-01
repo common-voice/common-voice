@@ -873,27 +873,27 @@ set-a-goal = Setja markmið
 cant-decide = Getur þú ekki ákveðið þig?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] { $totalHours } klukkutími
-       *[other] { $totalHours } klukkutímar
-    }eru í{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } mánuði
-       *[other] { $periodMonths } mánuðum
-    }innan seilingar, þegar{ NUMBER($people) ->
-        [one] { $people } manneskja
-       *[other] { $people } manneskjur
-    }taka upp{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } upptöku
-       *[other] { $clipsPerDay } upptökur
-    }dag hvern.
+        [one] { $totalHours } klukkutími er mögulegur á örlítið meira en
+       *[other] { $totalHours } klukkutímar eru mögulegir á örlítið meira en
+    }{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } mánuði, ef
+       *[other] { $periodMonths } mánuðum, ef
+    }{ NUMBER($people) ->
+        [one] { $people } manneskja tekur upp
+       *[other] { $people } manneskjur taka upp
+    }{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } upptöku á dag.
+       *[other] { $clipsPerDay } upptökur á dag.
+    }
 how-many-per-day = Frábært! Hversu margar upptökur á dag?
 how-many-a-week = Frábært! Hversu margar upptökur á viku?
 which-goal-type = Viltu tala, hlusta eða hvort tveggja?
 receiving-emails-info =
     Þú ert skráður til að fá tölvupósta á borð við áminningar um markmið,
-    uppfærslur um árangur minn og fréttabréf um Samróm
+    uppfærslur um árangur þinn og fréttabréf um Samróm
 not-receiving-emails-info =
     Þú ert sem stendur <bold>EKKI</bold> skráður til að tölvupósta á borð við áminningar um markmið,
-    uppfærslur um árangur minn og fréttabréf um Samróm
+    uppfærslur um árangur þinn og fréttabréf um Samróm
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } hljóðupptaka
