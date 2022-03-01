@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Отримувати такі листи,
 email-opt-in-privacy-v2 = Погоджуючись отримувати листи, ви заявляєте, що згодні з тим, як Mozilla обробляє цю інформацію, згідно з <privacyLink>Політикою приватності</privacyLink> Mozilla.
 indicates-required = * поля, обов'язкові для заповнення
 not-available-abbreviation = Недоступно
+banner-error-slow-1 = На жаль, Common Voice працює повільно. Дякуємо за зацікавленість.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
