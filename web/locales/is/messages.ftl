@@ -451,15 +451,15 @@ faq-why-my-lang-new-a = Mozilla setur ekkert eitt tungumál framar öðrum. Verk
 faq-what-quality-q = Hversu góð þurfa hljóðgæðin að vera til að upptaka verði notuð í gagnasafninu?
 faq-what-quality-a = Við viljum að Samrómsgagnasafnið endurspegli hljóðgæðin sem raddgreinir gæti lent í við daglega notkun, svo við vonumst eftir upptökum bæði í góðu og slæmu ástandi. Með fjölbreytilegan hóp raddgjafa og upptökur í mismunandi gæðum getum við kennt raddgreinum að ráða við ýmsar raunverulegar aðstæður, t.d. þar sem aðrar samræður er í bakgrunni eða þar sem heyrist í bílvél. Svo lengi sem hægt er að greina talið í upptökunni ætti það að duga fyrir gagnasafnið.
 faq-why-10k-hours-q = Hvers vegna er markmiðið að ná 10.000 klst. af upptökum á hvert tungumál?
-faq-why-10k-hours-a = Þetta er u.þ.b. sá fjöldi klukkustunda sem þarf til að þjálfa markaðshæfan raddgreini.
+faq-why-10k-hours-a = Þetta er u.þ.b. sá fjöldi klukkustunda sem þarf til að þjálfa vinnsluhæfan raddgreini.
 faq-how-calc-hours-q = Hvernig reiknar Samrómur þessa klukkutíma?
 faq-how-calc-hours-a = Við teljum klukkustundirnar með því að áætla meðallengd hverrar upptöku og mörgföldum svo þá tölu með heildarfjölda upptaka í öllum tungumálum.
 faq-where-src-from-2-q = Hvaðan kemur lestextinn?
 faq-where-src-from-2-a =
-    Lestrartextinn samanstendur af frumsömdum framlögum frá einstaklingum og frá kvikmyndahandritum í almenningseign eins og <italic>It’s a Wonderful Life</italic>.
+    Lestrartextinn samanstendur af frumsömdum framlögum frá einstaklingum og úr kvikmyndahandritum í almenningseigu á borð við <italic>It’s a Wonderful Life</italic>.
     
-    Hægt er að sjá allar lestarsetningar <githubLink>á GitHub</githubLink>.
-faq-why-not-ask-read-q = Hvers vegna biðjið þið ekki fólk að lesa úr bókum eða greinum af Wikipedia í ólíkum tungumálum?
+    Hægt er að sjá allar lestarsetningarnar <githubLink>á GitHub</githubLink>.
+faq-why-not-ask-read-q = Hvers vegna biðjið þið ekki fólk að lesa úr bókum eða greinum af Wikipedia á ólíkum tungumálum?
 faq-why-not-ask-read-a = Til að gera Samrómsgagnasafnið eins nýtilegt og hægt er höfum við ákveðið að leyfa aðeins lestrarsetningar sem falla undir leyfið Creative Commons (CC0). Það gerir það erfiðara að finna lestrarsetningar til að nota, en gerir okkur kleyft að gefa út raddupptökurnar undir sama leyfi sem þýðir að hver sem er getur notað það í hvaða tilgangi sem er án afskipta. Á endanum er það markmiðið hjá okkur, að hafa fjöltungugagnasafn sem nýtist eins mörgum og mögulegt er, þ.á.m. vísindamönnum, háskólum, sprotafyrirtækjum, ríkisstjórnum, félagsstofnunum og áhugafólki.
 faq-why-account-q = Af hverju ætti ég að skrá mig?
 faq-is-account-public-q = Verða mínar reikningsupplýsingar opinberar?
