@@ -545,6 +545,7 @@ about-nav-playbook = Lærðu hvernig hægt er að taka þátt
 about-playbook-what-is-language = Hvað er tungumál í Samrómi?
 about-playbook-what-is-language-content-1 = Það eru margar leiðir til að hugsa um tungumál. Hvað varðar talgreiningarlíkön leggur Samrómur til að áhersla sé lögð á „gagnkvæman skiljanleika“, eða „getur fólk sem talar þetta tungumál að mestu skilið hvert annað ef þau reyna það?“
 about-playbook-what-is-language-content-2 = Við viljum að tallíkön verði betri í að skilja fjölbreytt úrval talenda. Til að þetta geti gerst verður raddgagnassafn að standa fyrir fjölmarga mismunandi aðila.
+about-playbook-what-is-language-content-3 = Sum tungumál hafa gríðarlegan breytileika í málfræði, orðaforða og framburði. Af þessum sökum erum við árið 2022 að <ctaLink>kynna hugtakið „Afbrigði“</ctaLink>. Þetta gefur samfélagshópum leið til að greina tungumál sín í stærri gagnasöfnum.
 
 ## How do I add a language
 
@@ -563,6 +564,7 @@ about-playbook-how-add-sentences = Hvernig bæti ég við setningum?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Hvernig tek ég upp hágæða raddsýni?
 
 ## How to grow language
 
