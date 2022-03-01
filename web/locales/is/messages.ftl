@@ -602,14 +602,14 @@ release-version = Útgáfa
 dataset-date = Dagsetning
 license = Notkunarleyfi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandað
-data-download-singleword-title = Hlaða niður markmiðum um einstaka orðhluta
+data-download-singleword-title = Sækja 'Eins orðs markhluta' (Single Word Target Segment)
 review-terms = Með notkun Samróms samþykkir þú <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> verkefnisins
 terms-agree = Ég samþykki
 terms-disagree = Ég samþykki ekki
 review-aborted = Hætt var við að senda inn. Viltu eyða því sem þú tókst upp?
-review-submit-title = Fara yfir & senda inn
-review-submit-msg = Takk fyrir upptökuna!<lineBreak></lineBreak>Vinsamlegast farðu yfir og sendu svo upptökuna inn hér fyrir neðan.
-review-recording = Yfirferð
+review-submit-title = Yfirfara og senda inn
+review-submit-msg = Takk fyrir upptökuna!<lineBreak></lineBreak>Ný skaltu yfirfara og senda svo inn upptökurnar þínar hér fyrir neðan.
+review-recording = Yfirfara
 review-rerecord = Endurtaka upptöku
 review-cancel = Hætta við að senda inn
 review-keep-recordings = Geyma upptökur
@@ -617,7 +617,7 @@ review-delete-recordings = Eyða upptökum
 
 ## Datasets Page
 
-datasets-headline = Við erum að byggja opið og aðgengilegt, fjöltyngt gagnasafn af röddum sem hver sem er getur notað til þess að þjálfa raddstýrð forrit.
+datasets-headline = Við erum að byggja opið og aðgengilegt, fjöltyngt gagnasafn með röddum sem hver sem er getur notað til þess að þjálfa raddstýrð forrit.
 datasets-positioning =
     Við trúum því að að stór gagnasett sem eru opin almenningi muni styðja við nýsköpun og stuðla að heilbrigðri markaðssamkeppni innan tæknigeirans á sviði máltæknilausna.
     
