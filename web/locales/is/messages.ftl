@@ -1,8 +1,8 @@
 ## General
 
-yes-receive-emails = Já, sendið mér tölvupóst. Ég vil fylgjast með Samrómi.
+yes-receive-emails = Já, sendið mér tölvupóst. Ég vil fylgjast með Samrómsverkefninu Common Voice.
 stayintouch = Við hjá Mozilla erum að setja á laggirnar raddtæknisamfélag. Við viljum vera í sambandi varðandi uppfærslur, nýjar gagnaveitur og til að fá að heyra meira um hvernig þessi gögn eru nýtt.
-privacy-info = Við heitum því að meðhöndla upplýsingarnar þínar af varkárni. Nánar í <privacyLink>Tilkynningu um persónuvernd</privacyLink>.
+privacy-info = Við lofum að fara varlega með upplýsingarnar þínar. Lestu meira um þetta í <privacyLink>persónuverndartilkynningu</privacyLink> okkar.
 return-to-cv = Til baka í Samróm
 email-input =
     .label = Tölvupóstur
@@ -361,7 +361,7 @@ hidden = Falið
 visible = Sýnilegt
 native-language =
     .label = Móðurmál
-profile-form-add-accent = Bæta við nýjum sérsniðnum hreim „{ $inputValue }“
+profile-form-add-accent = Bæta við nýjum sérsniðnum hreimi „{ $inputValue }“
 profile-form-submit-save = Vista
 profile-form-submit-saved = Vistað
 male = Karlkyns
@@ -424,10 +424,7 @@ change-email-setings = Breyttu tölvupóstfangi með því að nota stillingar u
 
 faq-title = Algengar spurningar
 faq-what-cv-q = Hvað er Samrómur?
-faq-what-cv-a =
-    Raddgreiningartækni er að umbylta samskiptum okkar við vélar, en þau kerfi sem eru í boði eru sem stendur kostnaðarsamur séreignarhugbúnaður. Samrómur er hluti af frumkvæði Mozilla til að bæta raddgreiningartækni og gera hana enn aðgengilegri öllum. Samrómur er umfangsmikill gagnagrunnur sem nær um allan hnöttinn, en hann samanstendur af raddsýnum sem fólk leggur verkefninu til og gerir hverjum manni hæglega kleift að þjálfa og skilyrða raddstýrðan hugbúnað með hvaða tungumáli sem er. 
-    
-    Við söfnum ekki einungis raddsýnum af útbreiddum málum heldur einnig þeim sem hafa fámennari mælendahópa. Með útgáfu fjölbreyttra gagna mun Samrómur styrkja þróendur, frumkvöðla og samfélög til að brúa bilið sjálf. Til viðbótar við Samróms-gagnasafnið er einnig unnið undir frjálsu hugbúnaðarleyfi að raddgreiningartækinu Deep Speech.
+faq-what-cv-a = Raddgreiningartækni er að umbylta samskiptum okkar við vélar, en í augnablikinu eru þau kerfi sem standa til boða eru oftast kostnaðarsamur séreignarhugbúnaður. Samrómur er hluti af frumkvæði Mozilla til að bæta raddgreiningartækni og gera hana enn aðgengilegri öllum. Samrómur er alþjóðlegur gagnagrunnur sem samanstendur af raddsýnum sem fólk leggur verkefninu til og gerir hverjum sem er hæglega kleift að þjálfa og skilyrða raddstýrðan hugbúnað á hvaða tungumáli sem er.
 faq-why-important-q = Hvers vegna er þetta mikilvægt?
 faq-why-important-a = Ein af okkar allra náttúrulegustu leiðum til þess að tjá okkur og eiga samskipti er með tali og tækniframfarir eru að gera okkur kleift að eiga slík samskipti við tölvurnar okkar, síma og önnur tæki. Við viljum efla þróunaraðila til þess að gera frábærar máltæknilausnir eins og textaþýðingar í rauntíma og raddstýrð aðstoðartæki. En til þess þarf góð og nothæf gagnasett, og því miður eru núverandi aðgengileg gagnasett kostnaðarsöm og háð notkunarskilmálum. Okkar von er að gagnasettið á Samrómi muni gefa þróunaraðilum það sem þeir þurfa til þess að búa til nýjungar og gera máltæknilausnir aðgengilegar á öllum tungumálum.
 faq-how-get-q = Hvernig get ég nálgast gögn Samróms?
