@@ -433,7 +433,7 @@ faq-why-important-a =
 faq-how-get-q = Hvernig get ég nálgast gögn Samróms?
 faq-how-get-a = Gagnasöfn Samróms er hægt að sækja með <licenseLink>CC0-notkunarleyfi</licenseLink> á <datasetLink>gagnasafnasíðunni okkar</datasetLink>. Einnig er hægt að sækja nokkur önnur opinber gagnasöfn á þessari sömu síðu.
 faq-when-release2-q = Hvenær verða raddgögn Samróms í boði fyrir önnur tungumál?
-faq-when-release2-a = Fjöltyngda útgáfu gagnasafns Samróms er samfælagið í samstarfi um að klára og snurfusa fyrir ýmsa notkun. Ef þú vilt hjálpa okkur að koma Samrómi yfir á ný tungumál, farðu þá og skoðaðu <sentenceCollectorLink>setningasöfnunarverkfærið</sentenceCollectorLink> til að fjölga setningum í gagnasafninu, og eins ættirðu að líta á <pontoonLink>Pontoon</pontoonLink> þýðingasetur Mozilla til að þýða sjálft vefsvæðið. Nýjum tungumálum er bætt sem raddframlagi við Samróm þegar 5000 samþykktum setningum hefur verið safnað.
+faq-when-release2-a = Fjöltyngda útgáfu gagnasafns Samróms er samfélagið í samstarfi um að klára og snurfusa fyrir ýmsa notkun. Ef þú vilt hjálpa okkur að koma Samrómi yfir á ný tungumál, farðu þá og skoðaðu <sentenceCollectorLink>setningasöfnunarverkfærið</sentenceCollectorLink> til að fjölga setningum í gagnasafninu, og eins ættirðu að líta á <pontoonLink>Pontoon</pontoonLink> þýðingasetur Mozilla til að þýða sjálft vefsvæðið. Nýjum tungumálum er bætt sem raddframlagi við Samróm þegar 5000 samþykktum setningum hefur verið safnað.
 faq-why-mission-q = Hvers vegna er Samrómur eitt af markmiðum Mozilla?
 faq-why-mission-a = Mozilla reynir eftir fremsta megni að tryggja það að veraldarvefurinn sé öllum opinn og aðgengilegur. Til að það gangi upp þarf að virkja vefhönnuði í gegnum verkefni á borð við Samróm. Á meðan raddbúnaðartæknin þróast umfram sértæk forrit, trúum við því að hún þurfi að þjóna öllum notendum jafnt. Það þýðir að fjölga þarf tungumálum, framburðarsýnum og lýðfræðiupplýsingum þegar raddbúnaðurinn er þróaður og prófaður. Samrómur er opinn grunnur sem mun gagnast öllum, en Mozilla-teymi og forritarar úti um allan heim eru þegar byrjaðir að nota hann fyrir sín verkefni.
 faq-what-cv-and-deepspeech-q = Hver er munurinn á Samrómi og Deep Speech?
@@ -465,13 +465,13 @@ faq-why-account-q = Af hverju ætti ég að skrá mig?
 faq-is-account-public-q = Verða upplýsingar af reikningnum mínum opinberar?
 faq-how-privacy-q = Hvernig tryggið þið nafnleysi og friðhelgi þeirra sem ljá Samróm röddina sína?
 faq-how-privacy-a = Persónulega einkennandi gögn hafa verið fjarlægð úr öllum raddhljóðbrotum í safninu. Í þeim tilfellum sem raddgjafi hefur lagt til lýðfræðileg gögn í gegnum notkunarsniðið sitt, eru þær upplýsingar aftengdar upptökum þeirra en fylgja öðrum lýðfræðigögnum í niðurhali á gagnasafninu. Þessar upplýsingar eru aldrei gerðar opinberar á notkunarsniðssíðu raddgjafans.
-faq-what-determine-identity-q = Hvað þýðir það að ég geti ekki "borið kennsl á" raddgjafa í Samóms-gagnasafninu?
+faq-what-determine-identity-q = Hvað þýðir það að ég geti ekki "borið kennsl á" raddgjafa í Samróms-gagnasafninu?
 faq-what-determine-identity-a =
     Samrómsgagnasafnið er opið og aðgengilegt almenning svo hægt sé að nota það til að þjálfa margs konar raddstýrð kerfi. Fyrir öryggi raddgjafanna biðjum við alla sem sækja Samrómsgagnasafnið til að virða friðhelgi einkalífs þeirra.
     
     Persónulega einkennandi upplýsingar hafa verið fjarlægðar úr öllum raddhljóðbrotum í safninu. Þegar maður sækir gagnasafnið samþykkir maður að reyna ekki að bera kennsl á neinn raddgjafanna. Það þýðir að það má ekki reyna að tengja upptökur í gagnasafninu við einstaklinga sem hafa lagt til upptökur. Það má hins vegar nota gagnasafnið til að þjálfa raddgreina, málshafagreina og fleiri kerfi, t.d. með því að tengja saman upplýsingar innan gagnasafnsins.
 faq-what-is-cv = Hvað er Samrómur?
-faq-using-cv = Notkunn Samróms
+faq-using-cv = Notkun Samróms
 faq-description = Samrómur (Common Voice) er hluti verkefnis á vegum Mozilla sem gengur út á það að kenna vélum að skilja hvernig mannfólk talar.
 faq-search-for-answers =
     .label = Leita að svörum
@@ -638,7 +638,7 @@ why-email = <b>Af hverju tölvupóstfang?</b> Við gætum þurft að hafa samban
 confirm-size = Þú getur nú hafið niðurhal með stærðina <b>{ $size }</b>.
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Þú samþykkir</b> að þú munir ekki reyna að bera kennsl á mælendur í málheild Samóms.
+confirm-no-identify = <b>Þú samþykkir</b> að þú munir ekki reyna að bera kennsl á mælendur í málheild Samróms.
 download-language = Sækja { $language }
 validated-hours = Staðfestar klukkustundir
 recorded-hours = Uppteknar klukkustundir
@@ -899,7 +899,7 @@ n-clips-pluralized =
         [one] { $count } hljóðupptaka
        *[other] { $count } hljóðupptökur
     }
-help-share-goal = Hjálpið okkur að finna fleiri raddir, deilið markmiðum ykkar með
+help-share-goal = Hjálpaðu okkur að finna fleiri raddir, deildu markmiðum þínum
 confirm-goal = Staðfesta markmið
 goal-interval-weekly = Vikulega
 # $type is one of share-goal-type-*
@@ -911,11 +911,11 @@ share-goal-type-listen = Hlustandi
 share-goal-type-both = Talandi og hlustandi
 # LINK will be replaced with the current URL
 goal-share-text = Ég var að setja mér það persónulega markmið að gefa #CommonVoice raddsýni mitt -- vertu með og hjálpaðu við að kenna vélum hvernig raunverulegt fólk talar { $link }
-weekly-goal-created = Markmið viku hefur verið sett
-daily-goal-created = Markmið dags hefur verið sett
-track-progress = Rekja árangur sinn hér og á tölfræðisíðu sinni.
-return-to-edit-goal = Hér má breyta markmiði sínu hvenær sem er.
-share-goal = Deila markmiði sínu
+weekly-goal-created = Vikulega markmiðið þitt hefur verið útbúið
+daily-goal-created = Daglegt markmið þitt hefur verið útbúið
+track-progress = Fylgstu með árangi þínum hér og á tölfræðisíðunni þinni.
+return-to-edit-goal = Komdu aftur hingað til að breyta markmiði þínu hvenær sem er.
+share-goal = Deila markmiði mínu
 
 ## Profile Delete
 
@@ -967,7 +967,7 @@ welcome-staff = Velkomin/n { $company }!
 help-contribute = Þú getur hjálpað til við uppbyggingu fjölbreytts, opins gagnasafns með því að búa til Samróms-notkunarsnið og gefa raddsýni.
 login-company = Innskrá / nýskrá með netfangi hjá { $company }
 profile-not-required = Notkunarsniðs er ekki krafist til að taka þátt þótt það sé gagnlegt, sjáðu hvers vegna hér fyrir neðan.
-read-more-about = Lestu meira á um síðuna okkar
+read-more-about = Lestu meira á síðunni okkar um verkefnið
 
 ## DemoLayout
 
