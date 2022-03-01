@@ -578,29 +578,29 @@ de-identified-explanation = Ferlið þegar tengsl notkunarsniðsgagna þátttaka
 ## Error pages
 
 error-title-404 = Við fundum þá síðu ekki handa þér
-error-content-404 = Kannski getur <homepageLink>heimasíðan</homepageLink> okkar hjálpað? Til að spyrja spurningar, skráðu þig vinsamlegast í <matrixLink>Matrix</matrixLink> samfélagsspjallið, fylgstu með vandamálum síðunnar í gegnum <githubLink>GitHub</githubLink> eða heimsæktu <discourseLink>Discourse</discourseLink> spjallborðin.
+error-content-404 = Kannski getur <homepageLink>heimasíðan</homepageLink> okkar hjálpað? Til að spyrja spurninga skaltu endilega skrá þig á <matrixLink>Matrix</matrixLink> samfélagsspjallið, þú getur fylgst með vandamálum vefsvæðisins í gegnum <githubLink>GitHub</githubLink> eða kíkt á <discourseLink>Discourse</discourseLink> spjallborðin.
 error-title-503 = Við erum að upplifa óvæntan niðurtíma
-error-content-503 = Öryggisafrit síðu verður tekið eins fljótt og auðið er. Fyrir nýjustu upplýsingar, skráðu þig á <matrixLink>Matrix</matrixLink> samfélagsspjallið eða heimsæktu <githubLink>GitHub</githubLink> eða <discourseLink>Discourse</discourseLink> spjallborðin okkar til að senda inn og fylgjast með vandamálatengdri upplifun af vefsíðunni.
+error-content-503 = Vefsvæðið mun komast aftur í lag eins fljótt og auðið er. Fyrir nýjustu upplýsingar, skaltu skrá þig á <matrixLink>Matrix</matrixLink>-samfélagsspjallið eða heimsæktu <githubLink>GitHub</githubLink> eða <discourseLink>Discourse</discourseLink>-spjallborðin okkar til að senda inn og fylgjast með virkni vefsvæðisins.
 error-code = Villa { $code }
 
 ## Data
 
-data-download-button = Niðurhala gögnum úr Samrómi.
+data-download-button = Sækja gögn úr Samrómi
 data-download-yes = Já
 data-download-deny = Nei
-data-download-license = Leyfi: <licenseLink>CC-0</licenseLink>
-data-download-modal = Þú ert í þann mund að niðurhala <size>{ $size }GB</size>, halda áfram?
+data-download-license = Notkunarleyfi: <licenseLink>CC-0</licenseLink>
+data-download-modal = Þú ert í þann mund að fara að sækja <size>{ $size }GB</size>, viltu halda áfram?
 data-subtitle = Við erum að þróa opið gagnasafn fyrir almenning úr raddgögnum sem allir geta notað til að þjálfa raddstýrð forrit.
 data-explanatory-text = Við trúum að stór raddgagnasöfn sem eru aðgengileg almenningi hvetji til nýsköpunar og heilbrigðrar samkeppni í raddbúnaði sem byggir á vélagreind. Þetta er alþjóðlegt átak og öllum er boðið að taka þátt. Okkar markmið er að stuðla að alhliða raddtækni, sem endurspeglar fjölbreytileika raddsýnanna sem eru fengin alls staðar úr heiminum.
 data-get-started = <speechBlogLink>Byrjaðu að raddgreina</speechBlogLink>
 data-other-title = Önnur raddgagnasöfn...
 data-other-goto = Fara í { $name }
-data-other-download = Niðurhala gögnum
-data-bundle-button = Niðurhala gagnasafnapakka
-data-bundle-description = Gögn Samróms og öll gagnasöfnin að ofan.
+data-other-download = Sækja gögn
+data-bundle-button = Sækja gagnasafnapakka
+data-bundle-description = Gögn Samróms ásamt öllum öðrum raddgagnasöfnum hér að ofan.
 release-version = Útgáfa
 dataset-date = Dagsetning
-license = Leyfi: <licenseLink>{ $license }</licenseLink>
+license = Notkunarleyfi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandað
 data-download-singleword-title = Hlaða niður markmiðum um einstaka orðhluta
 review-terms = Með notkun Samróms samþykkir þú <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> verkefnisins
