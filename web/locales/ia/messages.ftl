@@ -337,6 +337,7 @@ profile-form-additional-language =
     .label = Lingua additional
 profile-form-language =
     .label = Lingua
+profile-form-variant-default-value = Nulle variante seligite
 profile-form-accent =
     .label = Accento
 profile-form-custom-accent-help-text =
