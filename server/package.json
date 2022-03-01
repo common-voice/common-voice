@@ -37,7 +37,6 @@
     "express-promise-router": "^3.0.1",
     "express-session": "^1.16.2",
     "ffmpeg-stream": "^0.7.0",
-    "http-proxy-middleware": "^0.20.0",
     "http-status-codes": "^1.4.0",
     "ioredis": "^4.14.0",
     "js-md5": "^0.7.3",
