@@ -659,22 +659,22 @@ data-other-voxforge-description = VoxForge var sett upp til að safna umrituðum
 data-other-tatoeba-description = Tatoeba er stór gagnagrunnur af setningum, þýðingum og raddupptökum ætluðum fyrir tungumálanám. Þessi niðurhalspakki inniheldur raddupptökur á ensku gerðar af samfélaginu kringum verkefnið.
 your-feedback = Ertu með hugmyndir um hvernig mætti bæta Samróms-gagnasafnið? Láttu okkur vita á Discourse
 go-discourse = Fara á Discourse
-missing-language = Sérðu ekki tungumálið þitt í gagnasafninu? Biddu um að því verði bætt við á Tungumála síðunni.
+missing-language = Sérðu ekki tungumálið þitt í gagnasafninu? Til að biðja um að því verði bætt við skaltu fara á tungumálasíðuna.
 go-languages-page = Fara á tungumálasíðu
 ready-to-validate = Tilbúin(n) til að hjálpa okkur að staðfesta setningar?
 more = Meira
 close = Loka
-download = Niðurhala
+download = Sækja
 dataset-version = Útgáfa
 
 ## Download Modal
 
 download-title = Niðurhalið þitt er farið í gang.
-download-helpus = Hjálpaðu okkur að byggja upp samfélag kringum raddstýringartækni með því að vera í tölvupóstssambandi.
+download-helpus = Hjálpaðu okkur að byggja upp samfélag kringum raddstýringartækni, vertu í tölvupóstssambandi.
 download-form-email =
-    .label = Skrá tölvupóst
+    .label = Skráðu tölvupóstfangið þitt
     .value = Þakka þér fyrir, við verðum í bandi.
-download-back = Aftur í gagnasöfn Sameiginlegrar raddar
+download-back = Til baka í gagnasöfn Samróms
 download-no = Nei takk
 
 ## Contact Modal
@@ -691,9 +691,9 @@ contact-required = *nauðsynlegt
 request-language-title = Beiðni um tungumál
 request-language-form-language =
     .label = Tungumál
-request-language-success-title = Tungumálabeiðni tókst að senda inn. Takk fyrir.
+request-language-success-title = Tókst að senda inn beiðni um tungumál. Takk fyrir.
 request-language-success-content = Við munum vera í sambandi fljótlega til að útskýra betur hvernig hægt er að bæta þínu tungumáli við Samróm.
-select-language = Velja tungumál...
+select-language = Veldu tungumál...
 other-language = Annað tungumál
 
 ## Languages Overview
@@ -707,7 +707,7 @@ languages-show-less = Sjá minna
 language-meter-in-progress = Framvinda
 language-total-progress = Samtals
 language-search-input =
-    .placeholder = Leit
+    .placeholder = Leita
 language-speakers = Talendur
 localized = Þýtt
 sentences = Setningar
@@ -716,7 +716,7 @@ total-hours = Staðfestar klst
 ## Contribution
 
 action-click = Smella
-action-tap = Snerta
+action-tap = Ýta
 contribute = Leggðu lið
 listen = Hlusta
 skip = Fara í næstu
@@ -726,17 +726,17 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> upptaka
        *[other] <bold>{ $count }</bold> upptökur
     }
-goal-help-recording = Þú hefur hjálpað Samrómi að ná <goalPercentage></goalPercentage> af daglegu { $goalValue } upptöku markmiði!
-goal-help-validation = Með þinni hjálp erum við búin að staðfesta <goalPercentage></goalPercentage> af þeim setningum sem við ætlum okkur að klára í dag! ({ $goalValue } af heildinni á dag)
+goal-help-recording = Þú hefur hjálpað Samrómi að ná  <goalPercentage></goalPercentage> af markmiði okkar um { $goalValue } upptökur á dag!
+goal-help-validation = Með þinni hjálp erum við búin að staðfesta <goalPercentage></goalPercentage> af þeim { $goalValue } setningum sem við ætlum okkur að klára í dag!
 contribute-more =
     { $count ->
         [one] Til í að gera { $count } í viðbót?
        *[other] Til í að gera { $count } í viðbót?
     }
 record-cta = Hefja upptöku
-record-platform-not-supported = Því miður er ekki stuðningur við tölvukerfið þitt að svo stöddu.
-record-platform-not-supported-desktop = Á borðtölvum er hægt að niðurhala nýjasta:
-record-platform-not-supported-ios-non-safari = Í iOS haltu vinsamlega áfram með Safari til að virkja upptöku...
+record-platform-not-supported = Því miður er ekki stuðningur við stýrikerfið þitt að svo stöddu.
+record-platform-not-supported-desktop = Á vinnutölvum geturðu lagt þitt af mörkum með því að sækja...
+record-platform-not-supported-ios-non-safari = Á iOS ættirðu að halda áfram með Safari til að virkja upptöku...
 record-must-allow-microphone = Þú þarft að leyfa aðgang að hljóðnemanum.
 record-no-mic-found = Hljóðnemi fannst ekki.
 record-error-too-short = Upptakan var of stutt.
