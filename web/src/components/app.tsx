@@ -46,7 +46,7 @@ import {
 } from './locale-helpers';
 import { Flags } from '../stores/flags';
 import { ReactLocalization, LocalizationProvider } from '@fluent/react';
-import ErrorSlowBanner from './error-slow-banner/error-slow-banner';
+// import ErrorSlowBanner from './error-slow-banner/error-slow-banner';
 const rtlLocales = require('../../../locales/rtl.json');
 const ListenPage = React.lazy(
   () => import('./pages/contribution/listen/listen')
@@ -247,7 +247,7 @@ let LocalizedPage: any = class extends React.Component<
                 )}
             </div>
 
-            <ErrorSlowBanner />
+            {/* <ErrorSlowBanner /> */}
 
             <Switch>
               {[
