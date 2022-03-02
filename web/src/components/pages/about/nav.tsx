@@ -1,10 +1,10 @@
 import * as React from 'react';
+import throttle from 'lodash.throttle';
+
 import cx from 'classnames';
 import { SECTIONS } from './constants';
 import { Localized } from '@fluent/react';
 import { FlagIcon, LayersIcon, BookmarkIcon, HeartIcon } from '../../ui/icons';
-
-const throttle = require('lodash.throttle');
 
 import './nav.css';
 

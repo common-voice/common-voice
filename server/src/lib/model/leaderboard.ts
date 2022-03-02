@@ -1,5 +1,6 @@
 import { SHA256 } from 'crypto-js';
 import omit = require('lodash.omit');
+
 import { getLocaleId, getParticipantSubquery } from './db';
 import { getConfig } from '../../config-helper';
 import lazyCache from '../lazy-cache';

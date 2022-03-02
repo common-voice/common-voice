@@ -1,5 +1,5 @@
-var throttle = require('lodash.throttle');
 import { useState, useEffect } from 'react';
+import throttle from 'lodash.throttle';
 
 type SectionMap = {
   [key: string]: number;

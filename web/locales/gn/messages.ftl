@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Emoñe’ẽ ne ñe’ẽvevépe marandu 
 email-opt-in-privacy-v2 = Emongurusúramo oñemog̃uahẽ hag̃ua ndéve marandu he’ise remoneĩha mba’éichapa Mozilla oiporu tapichakuéra kuaapyrã oñemyesãkáva <privacyLink>ko’ápe</privacyLink>.
 indicates-required = * He’ise remyenyhẽva’erã tenda’i jehairã.
 not-available-abbreviation = Ndaipóri
+banner-error-slow-1 = Rombyasy, Common Voice omba’apo mbeguekatu. Aguyje remomba’ére.
+banner-error-slow-2 = Og̃uahẽ oréve heta mba’e ha ko’ága rohapykuehohína umi apañuãi.
+banner-error-slow-link = Kuatiarogue Rekotee
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -524,6 +527,7 @@ about-get-involved-text-2 =
     Iporãiténe upéva! Eñe’ẽ orendive ne ñe’ẽveve rupive térã <discourseLink>Ñomongetaguasu</discourseLink>
     renda rupive, orekuaaukamína avei oĩramo apañuãi ñanduti rendápe ko’ápe:<githubLink>GitHub</githubLink> térã eikemi <matrixLink>Atyrusu</matrixLink>ñemongeta rendápe.
 about-stay-in-touch = ¿Mba’éicha aiméta ñe’ẽme?
+about-stay-in-touch-text-1 = <emailFragment>Eñemboheraguapy</emailFragment> ore ñandutiveve rysýipe eikuaa hag̃ua mba’éichapa eikéta jekuaauka, tembiaporã ha tembiapoite Common Voice moha’ãngajeýpe.
 about-nav-why-common-voice = ¿Mba’ére?
 about-nav-how-it-works = ¿Mba’e?
 about-nav-partners = Irũnguéra
@@ -539,6 +543,8 @@ about-playbook-what-is-language = ¿Mba’épa ñe’ẽ Common Voice ryepýpe?
 ## How do I add a language
 
 about-playbook-how-add-language = ¿Mba’éicha ambojuajúta ñe’ẽ?
+about-playbook-how-add-language-content-1 = Ñepyrũrã, ehechajey ne ñe’ẽ <languageLink>oĩmapa</languageLink>. Ndapeichairamo, <strong>omoñe’ẽasava’erã pe tenda ha ombyaty ñe’ẽjuaju</strong>.
+about-playbook-how-add-language-content-3 = <strong>Embyaty hag̃ua ñe’ẽjuaju</strong> - <scVideo>emboheko</scVideo> <scLink>Sentence Collector</scLink>-pe.
 
 ## How does localization work
 
@@ -550,20 +556,29 @@ about-playbook-how-localize-content-5 = Ehecha ore ta’ãngamýi myesakãha ne 
 ## How to add sentences
 
 about-playbook-how-add-sentences = ¿Mba’éicha ambojuajúta ñe’ẽjuaju?
+about-playbook-how-add-sentences-content-3 = Eipurukuaa <scraperLink>Sentence extractor</scraperLink> ehecha hag̃ua ñe’ẽjuaju mbykýva Wikipedia rupive.
+about-playbook-how-add-sentences-content-4 = Umi ñe’ẽjuaju oñemoneĩva’ekue oñemondo ararundy jave ha eipurukuaa oñeguenohẽ rire tembiapo ipyahúva.
 
 ## How to record quality
 
 about-playbook-how-record-quality = ¿Mba'éicha añongatúta ñe’ẽ ryapu iporã hag̃uáicha?
+about-playbook-how-record-content-2 = Emboyke tyapu vai tapykuegua; ndahasyiva’erã ehendu hag̃ua.
+about-playbook-how-record-content-3 = Emoñe’ẽ ñe’ẽjoaju hekópe: ani ekañy, emoambue térã embojuaju ñe’ẽ.
+about-playbook-how-record-content-5 = <accuracyLink>Ehechave je’epyre rehegua.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = ¿Mba’éicha oñakarapu’ãkuaa peteĩ ñe’ẽ Common Voice ndive?
 about-playbook-how-grow-language-content-2 = Tembiaporã
 about-playbook-how-grow-language-content-4 = Ava ñandutieta
 about-playbook-how-grow-language-content-6 = Ñemboaty ha ñandutieta
+about-playbook-how-grow-language-content-8 = <strong>¡Emoheñóike!</strong> Nde rekoha ñe’ẽ reheguáva ha’eñóta ha ko’áva ha’e mba’éichapa eñepyrũkuaa.
 
 ## How to validate
 
 about-playbook-how-validate = ¿Mba’éicha aikuaáta amoneĩtaha ñe’ẽayvu jekutu?
+about-playbook-how-validate-content-1 = Ikatúramo <strong>ehendu<strong> ha </strong>eikumby</strong>, hetavejey ha’e <strong>iporãvéta emoneĩrõ</strong>.
+about-playbook-how-validate-content-4 = Mokõi tapicha omboykérõ jekutu, ojehecháta peteĩ tenda’i iñambuéva mba’ekuaarã atýgui.
 
 ## How to access dataset
 
@@ -577,6 +592,7 @@ about-playbook-how-project-governance-content-3 = Tekoñemi, tekorosã ha tekosa
 about-playbook-how-project-governance-content-4 = Tekohápe jeike ha mba'e tapépa ojejapyhy.
 about-playbook-how-project-governance-content-5 = Tepykue ha jehechakuaa.
 about-playbook-how-project-governance-content-6 = Jepapapy mokõiveguáva.
+about-playbook-how-project-governance-content-7 = <governanceLink>Emoñe’ẽve mba’éichapa roñemongu’e</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Tembiporu Ikatupyrýva
 mycroft-description =
@@ -1171,6 +1187,7 @@ sc-rejected-none-found = ¡Ndojejuhúi ñe’ẽrysýi mboykepyre!
 
 sc-stats-title = Papapy’atygua
 sc-stats-updating = Hekopyahuhína…
+sc-stats-error = Ndaikatúi rogueru papapy’atygua. Eha’ãjey ag̃amieve.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent

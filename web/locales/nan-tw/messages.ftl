@@ -2,8 +2,8 @@
 
 yes-receive-emails = 好，請寄批予我。我想欲知影 Common Voice 專案的資訊。
 stayintouch = 阮 Mozilla 的共伴，當咧起造一个佮話音技術有關的社群。阮想欲隨時綴著新的技術、新的資料源頭，嘛想欲知影你會按怎來使用遮的資料。
-privacy-info = 阮保證阮會細膩處理你的資料。另外，請參看阮的<privacyLink>隱私權公告</privacyLink>。
-return-to-cv = 轉去 Common Voice
+privacy-info = 阮保證會細膩處理你的資料。另外，嘛會當看阮的<privacyLink>隱私權公告</privacyLink>。
+return-to-cv = 返去 Common Voice
 email-input =
     .label = 電子批的住址
 submit-form-action = 提交
@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = 來定電子批，比論講挑戰、目�
 email-opt-in-privacy-v2 = 若欲收電子批，就表示你同意 Mozilla 照<privacyLink>隱私權保護政策</privacyLink>所說明的方式來處理遮的資訊。
 indicates-required = * 表示彼个欄位必須愛寫
 not-available-abbreviation = 無適用
+banner-error-slow-1 = 感謝您使用 Common Voice，很抱歉目前網站有點慢。
+banner-error-slow-2 = 我們收到大量連線流量，目前正在分析相關問題。
+banner-error-slow-link = 狀態頁面
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -98,6 +101,7 @@ ko = 韓語
 kpv = 科米-齊良語
 kw = 康瓦爾語
 ky = 吉爾吉斯語
+lb = 盧森堡語
 lg = 盧干達語
 lij = 利古里亞語
 lt = 立陶宛語
@@ -333,6 +337,9 @@ profile-form-additional-language =
     .label = 其他語言
 profile-form-language =
     .label = 語言
+profile-form-variant =
+    .label = 您會說 { $language } 的哪種變體？
+profile-form-variant-default-value = 未選擇變體
 profile-form-accent =
     .label = 腔口
 profile-form-custom-accent-help-text =
@@ -384,6 +391,8 @@ off = 關起來
 on = 拍開
 help-accent = 需要關於腔調的說明嗎？
 help-accent-explanation = 腔調就是您發音的方式，可能會受您生活的地方、您會說的其他語言以及其他許多因素影響。您可以在此分享任何您覺得有關的資訊。
+help-variants = 需要關於變體的相關說明嗎？
+help-variants-explanation = 變體是一種語言的特定格式，像是居住在共同地區或社群的人才有的特定說話腔調。有時這也稱為「方言」。
 
 ## Profile - Email
 
@@ -1137,6 +1146,7 @@ sc-home-review-text = 幫助我們依照下列標準來審核語句是否正確�
 
 ## GENERAL
 
+sc-languages-fetch-error = 取得可用語言失敗，目前暫時無法貢獻，請稍候再試。
 
 ## HOW-TO
 
