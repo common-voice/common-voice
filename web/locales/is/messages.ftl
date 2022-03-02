@@ -557,6 +557,7 @@ about-playbook-how-add-language = Hvernig bæti ég við tungumáli?
 about-playbook-how-add-language-content-1 = Athugaðu fyrst hvort tungumálið þitt <languageLink>er þegar til staðar</languageLink>. Ef það gerir það ekki, þarf að <strong>þýða vefsvæðið og safna setningum</strong>.
 about-playbook-how-add-language-content-2 = <strong>Til að þýða vefsvæðið</strong> skaltu <translateVideo>setja upp aðgang</translateVideo> fyrir þig á <pontoonLink>Pontoon</pontoonLink>. Pontoon er með fullt af tungumálum, en ef þitt er ekki sjáanlegt geturðu <pontoonRequestLink>beðið um að það sé virkjað</pontoonRequestLink>. Sendu síðan <repoLink>beiðni í gegnum GitHub</repoLink> um að Common Voice verkefnið verði aðgengilegt fyrir það tungumál. Skoðaðu nánari upplýsingar um <localizationFragment>þýðingar vefsvæðisins</localizationFragment>.
 about-playbook-how-add-language-content-3 = <strong>Til að safna setningum</strong> - <scVideo>skaltu setja upp nauðsynlegar upplýsingar</scVideo> á <scLink>Söfnun setninga</scLink>.
+about-playbook-how-add-language-content-4 = Þú getur <scLinkAdd>bætt við litlum fjölda</scLinkAdd> setninga hér, eða þú getur framkvæmt <bulkImportDocsLink>magninnflutning</bulkImportDocsLink> með Github-beiðni. Mundu að setningar þurfa að vera með <licenseLink>CC0 notkunarleyfi (eða almenningseign)</licenseLink>, eða að þú getur skrifað þínar eigin. Sjáðu nánari upplýsingar um <scFragment>setningasafnið</scFragment>.
 
 ## How does localization work
 
@@ -702,6 +703,8 @@ subscribe = Gerast áskrifandi
 get-started-speech = Hefjast handa með raddgreiningu
 other-datasets = Aðrar málheildir
 feedback-q = Ertu með ábendingar?
+resource-deepspeech-info = Með hinum opna og frjálsa raddgreini Mozilla, Deep Speech, er hægt að hanna raddgreiningarforrit. Kynntu þér <githubLink>yfirlitið á Github</githubLink> eða taktu þátt á <discourseLink>DeepSpeech umræðuvefnum</discourseLink> til að læra um hvernig maður hefst handa.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> er tileinkað opinni taltækni. Meðal verkefna þeirra eru STT og TTS-vélar sem byggja á djúpnámi.
 data-other-librispeech-description = LibriSpeech-textasafnið geymir u.þ.b. 100 klst. af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum úr LibriVox-verkefninu.
 data-other-ted-name = TED-LIUM textasafn
 data-other-ted-description = TED-LIUM textasafnið var þróað úr talsetningum og afritunum þeirra sem eru fáanlegar á TED vefnum.
@@ -1049,6 +1052,7 @@ demo-listen-subtitle = Tilbúin/n til að leggja þitt af mörkum?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Persónuleg stjórnborð halda þér upplýstum með framvindu einstaklinga og samfélagsins.
 
 ## Validation criteria
 
