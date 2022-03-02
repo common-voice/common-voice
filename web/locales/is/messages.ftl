@@ -571,6 +571,7 @@ about-playbook-how-localize-content-5 = Horfðu á útskýringarmyndskeið okkar
 ## How to add sentences
 
 about-playbook-how-add-sentences = Hvernig bæti ég við setningum?
+about-playbook-how-add-sentences-content-1 = <strong>Setningasafnarinn</strong> er tól til að safna og staðfesta setningar. Þú munt þurfa að <scAccountLink>búa til aðgangsreikning</scAccountLink> til að geta notað það. Síðan skaltu bæta tungumálinu þínu við <strong>notkunarsniðið</strong> þitt. Þú getur <strong>bætt við</strong> setningum eða <strong>yfirfarið</strong> setningar sem áður hefur verið safnað.
 about-playbook-how-add-sentences-content-2 = Setningar þurfa yfirferð og samþykki af hálfu tveggja aðila til að vera með í Samrómi. Þú getur búið til leiðbeiningar fyrir tungumálið þitt <languageGuidelinesLink>hér</languageGuidelinesLink>. Setningar verða að vera í <licenseLink>almenningseigu</licenseLink> og vera styttri en 15 orð. Þú getur beðið eiganda texta um að gefa hann út með <waiverLink>CC0 notkunarleyfi með því að nota afsalsferli okkar</waiverLink> og senda okkur á commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Þú getur notað <scraperLink>setningaútdrátt</scraperLink> til að nýta stuttar setningar af Wikipedia.
 about-playbook-how-add-sentences-content-4 = Setningar sem hafa verið staðfestar eru fluttar út á miðvikudögum og eru tiltækar eftir næstu útgáfu.
