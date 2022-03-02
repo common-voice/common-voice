@@ -1099,7 +1099,17 @@ sc-home-review-title = Yfirfara setningar
 ## HOW-TO
 
 sc-howto-title = Leiðbeiningar
+sc-howto-addlang-title = Bæta við tungumálum til að vinna með
 sc-howto-addlang-text = Þegar þú hefur skráð þig inn, geturðu valið tungumálin þín úr notkunarsniðshlutanum.
+sc-howto-addsen-title = Bæta við nýjum setningum
+sc-howto-cite-title = Hvernig á að gera tilvitnanir
+sc-howto-review-title = Yfirfara setningar
+sc-howto-review-subtitle = Gakktu úr skugga um að setningin uppfylli eftirfarandi skilyrði:
+sc-howto-review-criteria-1 = Setningin verður að vera rétt stafsett.
+sc-howto-review-criteria-2 = Setningin verður að vera málfræðilega rétt.
+sc-howto-review-criteria-3 = Setningin verður að vera lesanleg.
+sc-howto-review-criteria-4 = Ef setningin uppfyllir skilyrðin skaltu smella á „Samþykkja“-hnappinn.
+sc-howto-review-criteria-5 = Ef setningin uppfyllir ekki ofangreind skilyrði skaltu smella á „Hafna“ hnappinn. Ef þú ert ekki viss um setninguna geturðu líka sleppt henni og farið yfir í þá næstu.
 
 ## MY SENTENCES
 
@@ -1136,6 +1146,9 @@ sc-submit-err-select-lang = Veldu tungumál.
 sc-submit-err-add-sentences = Bættu við setningum.
 sc-submit-err-add-source = Bættu við heimild.
 sc-submit-err-confirm-pd = Staðfestu að þessar setningar séu í almenningseigu.
+sc-submit-title = Bæta við setningum
+sc-submit-select-language =
+    .labelText = Veldu tungumál
 
 ## ADD LANGUAGE
 
