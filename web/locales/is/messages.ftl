@@ -1045,6 +1045,7 @@ demo-account-sign-up = Senda skráningartengil
 ## Demo Contribute
 
 demo-contribute-card-header = Tilbúin/n til að bæta við rödd þinni eða ljá okkur eyra?
+demo-listen-subtitle = Tilbúin/n til að leggja þitt af mörkum?
 
 ## Demo Dashboard
 
@@ -1052,6 +1053,15 @@ demo-contribute-card-header = Tilbúin/n til að bæta við rödd þinni eða lj
 ## Validation criteria
 
 contribution-criteria-nav = Viðmið
+contribution-criteria-link = Skilja framlagsviðmið
+contribution-criteria-page-title = Framlagsviðmið
+contribution-for-example = til dæmis
+contribution-misreadings-title = Mislestur
+contribution-background-noise-title = Bakgrunnshávaði
+contribution-background-voices-title = Bakgrunnsraddir
+contribution-volume-title = Hljóðstyrkur
+see-more = <chevron></chevron>Sjá meira
+see-less = <chevron></chevron>Sjá minna
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1060,21 +1070,41 @@ contribution-criteria-nav = Viðmið
 
 ## HEADER/FOOTER
 
+sc-header-home = Upphafssíða
+sc-header-how-to = Leiðbeiningar
+sc-header-add = Bæta við
+sc-header-review = Yfirfara
+sc-header-rejected = Hafnaðar setningar
+sc-header-my = Setningarnar mínar
+sc-header-statistics = Tölfræði
 sc-header-profile = Notkunarsnið
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Tilkynna galla
+sc-footer-translate = Þýða þessa síðu
+sc-footer-report-copyright = Tilkynna vandamál varðandi höfundarrétt
+sc-footer-privacy = Persónuvernd
+sc-footer-terms = Skilmálar
 sc-footer-cookies = Vefkökur
+sc-login-signup-button = Skrá inn / Nýskrá
+sc-logout-button = Skrá út
 
 ## HOME
 
+sc-home-collect-title = Safna setningum
+sc-home-review-title = Yfirfara setningar
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = Leiðbeiningar
 sc-howto-addlang-text = Þegar þú hefur skráð þig inn, geturðu valið tungumálin þín úr notkunarsniðshlutanum.
 
 ## MY SENTENCES
 
+sc-my-title = Setningarnar mínar
+sc-my-loading = Hleð inn setningunum þínum...
 
 ## REJECTED
 
