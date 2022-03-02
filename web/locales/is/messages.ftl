@@ -556,6 +556,7 @@ about-playbook-what-is-language-content-3 = Sum tungumál hafa gríðarlegan bre
 about-playbook-how-add-language = Hvernig bæti ég við tungumáli?
 about-playbook-how-add-language-content-1 = Athugaðu fyrst hvort tungumálið þitt <languageLink>er þegar til staðar</languageLink>. Ef það gerir það ekki, þarf að <strong>þýða vefsvæðið og safna setningum</strong>.
 about-playbook-how-add-language-content-2 = <strong>Til að þýða vefsvæðið</strong> skaltu <translateVideo>setja upp aðgang</translateVideo> fyrir þig á <pontoonLink>Pontoon</pontoonLink>. Pontoon er með fullt af tungumálum, en ef þitt er ekki sjáanlegt geturðu <pontoonRequestLink>beðið um að það sé virkjað</pontoonRequestLink>. Sendu síðan <repoLink>beiðni í gegnum GitHub</repoLink> um að Common Voice verkefnið verði aðgengilegt fyrir það tungumál. Skoðaðu nánari upplýsingar um <localizationFragment>þýðingar vefsvæðisins</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Til að safna setningum</strong> - <scVideo>skaltu setja upp nauðsynlegar upplýsingar</scVideo> á <scLink>Söfnun setninga</scLink>.
 
 ## How does localization work
 
@@ -567,16 +568,23 @@ about-playbook-how-localize-content-5 = Horfðu á útskýringarmyndskeið okkar
 ## How to add sentences
 
 about-playbook-how-add-sentences = Hvernig bæti ég við setningum?
+about-playbook-how-add-sentences-content-4 = Setningar sem hafa verið staðfestar eru fluttar út á miðvikudögum og eru tiltækar eftir næstu útgáfu.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Hvernig tek ég upp hágæða raddsýni?
+about-playbook-how-record-content-1 = Talaðu með þinni venjulegu rödd! Þinn háttur við að tala er velkominn hér - við viljum fá hreiminn þinn eins og hann er og við viljum hafa hljóðstyrk þinn, stíl og hljómfall sem eðlilegast.
+about-playbook-how-record-content-2 = Forðastu of mikil bakgrunnshljóð - það þarf að vera auðvelt að heyra í þér.
+about-playbook-how-record-content-3 = Lestu setninguna vandlega - ekki missa af, breyta eða bæta við orðum.
+about-playbook-how-record-content-4 = Gakktu úr skugga um að stýrikerfið og forritið sé að taka upp hljóðið áður en þú byrjar að tala og að upptakan hætti ekki fyrr en þú hefur lokið upplestrinum.
+about-playbook-how-record-content-5 = <accuracyLink>Sjá nánar um nákvæmnisviðmið.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = Hvernig getum við á áhrifaríkan hátt látið tungumál vaxa á Samrómi?
 about-playbook-how-grow-language-content-2 = Atburðir
 about-playbook-how-grow-language-content-4 = Samfélagsmiðlar
+about-playbook-how-grow-language-content-6 = Samstarf og tengslanet
 
 ## How to validate
 
@@ -1013,21 +1021,37 @@ read-more-about = Lestu meira á síðunni okkar um verkefnið
 
 ## DemoLayout
 
+demo-get-started = Byrjum á þessu
+demo-welcome = Velkomin í Samróm - Common Voice
+demo-welcome-subheader = Hefur þú áhuga á að læra meira og leggja verkefninu lið?
 
 ## Demo Datasets
 
+demo-language-select-card-body = Þökk sé framlagi frá yfir 259 þúsund manns á yfir 50 tungumálum, þá eru þessi gögn notuð til að þjálfa talvirk forrit til að bregðast betur við mannlegum röddum.
+card-button-next = Næsta
+card-button-back = Til baka
+demo-language-select-label = Skoða tungumál
+demo-eofy-header = 2019 útgáfa um áramót
+demo-eofy-sub_header = Raddgagnasafn, tilbúið til niðurhals
+demo-account = Reikningur
 
 ## Demo Account
 
+demo-account-card-header = Ekki krafist skráðs aðgangs til að taka þátt, þótt það sé gagnlegt.
+demo-account-enter-email =
+    .label = Settu inn tölvupóstfang til að senda skráningartengil
+demo-account-sign-up = Senda skráningartengil
 
 ## Demo Contribute
 
+demo-contribute-card-header = Tilbúin/n til að bæta við rödd þinni eða ljá okkur eyra?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-criteria-nav = Viðmið
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
