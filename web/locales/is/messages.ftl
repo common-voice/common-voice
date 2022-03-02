@@ -1318,9 +1318,31 @@ sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Þú getur líka notað flýtilykla: { sc-review-form-button-approve-shortcut } til að samþykkja, { sc-review-form-button-reject-shortcut } til að hafna, { sc-review-form-button-skip-shortcut } til að sleppa
 sc-review-form-button-submit =
     .submitText = Ljúka yfirferð
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Engar setningar yfirfarnar.
+        [one] 1 setning yfirfarin. Þakka þér fyrir!
+       *[other] { $setningar } setningar yfirfarnar. Þakka þér fyrir!
+    }
+sc-review-form-review-failure = Ekki tókst að vista yfirferðina. Reyndu aftur síðar.
+sc-review-link = Yfirfara
 
 ## SETTINGS
 
+sc-settings-title = Stillingar
+sc-settings-ui-language = Tungumál viðmóts
+sc-settings-language-translated-warning = Ekki er víst að síðurnar fyrir þetta tungumál séu fullþýddar. Þú getur hjálpað til við þýðingar <pontoonLinkLink>á Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = Endurstilla setningar sem var sleppt
+sc-settings-skipped-decription = Þú slepptir áður setningum við yfirferð. Með því að endurstilla þær setningar sem var sleppt, munu þær verða birtar aftur. Þetta er alveg óháð tungumáli.
+sc-settings-show-all-button = Birta aftur allar setningar sem var sleppt
+sc-settings-failed = Gat ekki breytt stillingum. Reyndu aftur.
+# VALIDATION
+sc-validation-number-of-words = Setning verður að innihalda á milli 1 og 14 orð
+sc-validation-no-numbers = Setning ætti ekki að innihalda tölustafi
+sc-validation-no-symbols = Setning ætti ekki að innihalda tákn
+sc-validation-no-abbreviations = Setning ætti ekki að innihalda skammstafanir
 
 # [/SentenceCollector]
 
