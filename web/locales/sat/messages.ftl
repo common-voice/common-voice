@@ -352,6 +352,7 @@ profile-form-language =
     .label = ᱯᱟᱹᱨᱥᱤ
 profile-form-variant =
     .label = { $language } ᱨᱮᱭᱟᱜ ᱚᱠᱟ ᱵᱟᱞ ᱮᱢ ᱢᱮᱱᱮᱫᱼᱟ ?
+profile-form-variant-default-value = ᱪᱮᱫ ᱯᱨᱚᱠᱟᱨ ᱢᱟᱸ ᱛᱚ ᱵᱟᱝ ᱵᱟᱪᱷᱟᱣ ᱠᱟᱱᱟ
 profile-form-accent =
     .label = ᱮᱥᱮᱸᱱᱴ
 profile-form-custom-accent-help-text =
@@ -403,6 +404,7 @@ off = ᱵᱚᱸᱫ
 on = ᱪᱟᱹᱞᱩ
 help-accent = ᱮᱥᱮᱸᱴ ᱥᱟᱞᱟᱜ ᱜᱚᱲᱚ ᱫᱚᱨᱠᱟᱨ ᱠᱟᱱᱟ ᱥᱮ?
 help-accent-explanation = ᱟᱢᱟᱜ ᱮᱥᱮᱸᱴ ᱫᱚ ᱚᱱᱟ ᱠᱟᱱᱟ ᱡᱟᱦᱟᱸ ᱛᱮ ᱟᱢ ᱟᱹᱲᱟᱹ ᱠᱚ ᱢᱮᱱᱟᱢ᱾ ᱱᱚᱶᱟ ᱫᱚ ᱟᱢ ᱚᱠᱟᱨᱮ ᱛᱟᱦᱮᱸᱱ ᱠᱟᱱᱟᱢ, ᱚᱠᱟ ᱮᱴᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱟᱢ ᱨᱚᱯᱚᱲ ᱠᱟᱱᱟᱢ ᱚᱱᱟ ᱪᱮᱛᱟᱱ ᱨᱮ ᱱᱤᱨᱵᱷᱚᱨᱟᱭ᱾ ᱟᱢ ᱟᱨ ᱪᱮᱫ ᱠᱚ ᱵᱤᱵᱨᱚᱬ ᱠᱚ ᱦᱚᱸ ᱱᱚᱶᱟ ᱨᱮ ᱟᱢ ᱦᱤᱥᱟᱹᱵ ᱛᱮ ᱥᱮᱞᱮᱫ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ᱾
+help-variants = ᱯᱨᱚᱠᱟᱨ ᱠᱚ ᱥᱟᱞᱟᱜ ᱜᱚᱲᱚ ᱫᱚᱨᱠᱟᱨ ᱠᱟᱱᱟ ᱥᱮ?
 
 ## Profile - Email
 
