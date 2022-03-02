@@ -572,6 +572,7 @@ about-playbook-how-grow-language-content-6 = Ñemboaty ha ñandutieta
 ## How to validate
 
 about-playbook-how-validate = ¿Mba’éicha aikuaáta amoneĩtaha ñe’ẽayvu jekutu?
+about-playbook-how-validate-content-1 = Ikatúramo <strong>ehendu<strong> ha </strong>eikumby</strong>, hetavejey ha’e <strong>iporãvéta emoneĩrõ</strong>.
 about-playbook-how-validate-content-4 = Mokõi tapicha omboykérõ jekutu, ojehecháta peteĩ tenda’i iñambuéva mba’ekuaarã atýgui.
 
 ## How to access dataset
