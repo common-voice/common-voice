@@ -1141,7 +1141,7 @@ sc-logout-button = o weka tan ilo
 
 sc-home-title = kama pona tawa ilo Sentence Collector pi ilo Common Voice
 sc-home-intro = ilo Sentence Collector li ilo pi <commonVoiceLink>ilo Common Voice</commonVoiceLink>. kepeken ona la jan li ken kama jo e sitelen, li ken pona e sitelen. ilo li ken jo e sitelen mute, li ken pana e ona tawa ilo Common Voice. taso, sitelen ale o tawa jan ale, o open. lon tenpo esun pini la mi pana e sitelen pona ale tawa lipu Common Voice.
-sc-home-collect-title = o kulupu e sitelen
+sc-home-collect-title = o pana e sitelen
 sc-home-collect-text = o pana e sitelen pi kepeken open la sina pana e pona.
 sc-home-review-title = o pona e sitelen
 sc-home-review-text = o pona e ni: sitelen o pona kepeken nasin pi sitelen pona
