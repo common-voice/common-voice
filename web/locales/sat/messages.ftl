@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = ᱜᱚᱞ ᱨᱤᱢᱟᱭᱮᱱᱰᱚᱨ 
 email-opt-in-privacy-v2 = ᱟᱢ ᱤᱢᱮᱞ ᱞᱟᱹᱜᱤᱫ ᱦᱮᱥᱤᱭᱟᱹᱨ ᱠᱟᱛᱮ ᱟᱢ ᱢᱮᱱᱚᱜ ᱠᱟᱱᱟᱢ ᱡᱮ ᱟᱢ Mozilla ᱥᱟᱶ ᱴᱷᱤᱠ ᱨᱮ ᱢᱮᱱᱟᱢᱟ ᱡᱮᱞᱠᱟ <privacyLink>ᱯᱨᱟᱭᱣᱮᱥᱭ ᱯᱚᱞᱤᱥᱭ</privacyLink> ᱨᱮ ᱢᱮᱱ ᱠᱟᱱᱟ ᱾
 indicates-required = * ᱞᱟᱹᱠᱛᱤ ᱠᱟᱱ ᱡᱟᱭᱜᱟ ᱠᱟᱱᱟ
 not-available-abbreviation = N/A
+banner-error-slow-1 = ᱤᱠᱟᱹ , Common Voice ᱫᱚ ᱵᱟᱹᱭᱼᱵᱟᱹᱭ ᱛᱮ ᱫᱟᱹᱲᱮᱫᱟᱭ ᱾ ᱟᱢᱟᱜ ᱢᱚᱱᱮ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱨᱦᱟᱣ ᱾
+banner-error-slow-2 = ᱟᱞᱮ ᱱᱤᱛᱚᱜ ᱟᱹᱰᱤᱜᱟᱱ ᱴᱨᱟᱯᱷᱤᱠ ᱞᱮ ᱧᱟᱢ ᱮᱫᱟ ᱟᱨ ᱰᱤᱜᱟᱹᱣ ᱠᱚ ᱞᱮ ᱧᱮᱞ ᱯᱚᱨᱚᱠ ᱮᱫᱟ ᱾
+banner-error-slow-link = ᱮᱛᱦᱚᱵ ᱥᱟᱦᱴᱟ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
