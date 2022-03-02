@@ -1242,7 +1242,7 @@ sc-submit-confirm = ni li lon. sitelen ni li <wikipediaLink>open</wikipediaLink>
 sc-submit-button =
     .submitText = o pana
 sc-submit-filtered = sitelen ni li weka tan ni: ona li pona ala. (o pona e sitelen la o pana e ona):
-sc-submit-guidelines = o lukin e <howToLink>lipu nasin pona</howToLink>.
+sc-submit-guidelines = o lukin e <howToLink>lipu pi nasin pona</howToLink>.
 
 ## ADD LANGUAGE
 
@@ -1303,7 +1303,7 @@ sc-confirm-uploading = mi kama jo e sitelen sina. nanpa sitelen la ni li ken kep
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = ale
-sc-lang-info-title-personal = ijo sina
+sc-lang-info-title-personal = sitelen sina
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
