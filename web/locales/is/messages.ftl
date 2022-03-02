@@ -1105,9 +1105,21 @@ sc-howto-addlang-text = Þegar þú hefur skráð þig inn, geturðu valið tung
 
 sc-my-title = Setningarnar mínar
 sc-my-loading = Hleð inn setningunum þínum...
+sc-my-err-fetching = Villa við að sækja setningarnar þínar. Reyndu aftur.
+sc-my-no-sentences = Engar setningar fundust!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Innsending: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Heimild: { $source }
+sc-my-delete = Eyða völdum setningum
+sc-my-deleting = Eyði völdum setningum…
+sc-my-err-failed-delete = Mistókst að eyða völdum setningum... Reyndu endilega aftur!
 
 ## REJECTED
 
+sc-rejected-title = Hafnaðar setningar
 
 ## STATS
 
