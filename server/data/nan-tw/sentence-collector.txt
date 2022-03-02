@@ -603,7 +603,6 @@
 不孝有三，無後為大 （put-hàu iú sann bô hiō uī tāi）
 不平之鳴 （put-pîng-tsi-bîng）
 不得不 （put-tit-put）
-不得開曲 （put-titkhai-khiau）
 不情不願 （put-tsîng-put-guān）
 不成蒜 （put-sîng-suàn）
 不接一 （put-tsiap-it）
@@ -767,6 +766,7 @@
 予人欺負（hōo lāng khi-hū）
 予人看現現（hōo lâng khuànn-hiān-hiān）
 予人硩定矣（hōo-lâng teh-tiānn ah）
+予人聽著心肝頭袂爽快（Hōo lâng thiann tio̍h sim-kuann-thâu bē sóng-khuài）
 予人請（hōo lâng tshiánn）
 予人起雞母皮（hōo lâng khí ke-bó-phuê）
 予人鼻著強欲擋袂牢（Hōo lâng phīnn-tio̍h kiōng-beh tòng bē tiâu）
@@ -1099,11 +1099,13 @@
 伊咧騙你，你毋通中計（I teh phiàn--lí, lí m̄-thang tiòng-kè）
 伊哭甲目屎四淋垂（I khàu kah ba̍k-sái sì-lâm-suî）
 伊喘氣喘袂過（I tshuán-khuì tshuán bē kuè）
+伊嘛是蹽落去（i mā sī liâu--lo̍h-khì）
 伊嘛欲綴你去（I mā beh tuè lí khì）
 伊坐佇我的倒手爿（I tsē tī guá ê tò-tshiú-pîng）
 伊定定得罪人（I tiānn-tiānn tik-tsuē--lâng）
 伊對食這項真甘開（I tuì tsia̍h tsit hāng tsin kam khai）
 伊就毋還人矣（i tō m̄ hîng--lâng--ah）
+伊就閣開始咧覕喙矣（i tō koh khai-sí teh bih-tshuì--ah）
 伊差一點仔就著獎矣，有夠無彩（I tsha tsi̍t-tiám-á tō tio̍h-tsióng--ah, ū-kàu bô-tshái）
 伊差不多五十歲彼跤兜（I tsha-put-to gōo-tsa̍p huè hit kha-tau）
 伊已經倒轉去下港矣（I í-king tò-tńg-khì ē-káng--ah）
@@ -1192,6 +1194,7 @@
 伊誠愛畫圖，所以作品袂少（I tsiânn ài uē-tôo, sóo-í tsok-phín bē tsió）
 伊講欲中立，兩爿攏無愛參加（I kóng beh tiong-li̍p, nn̄g pîng lóng bô-ài tsham-ka）
 伊講的話有夠譀古（I kóng ê uē ū-kàu hàm-kóo）
+伊講話誠歹聲嗽（I kóng-uē tsiânn pháinn-siann-sàu）
 伊講過的話，一定會記得（I kóng--kuè ê uē, it-tīng ē-kì--tit）
 伊貸款納袂出來，厝就予人拍賣矣（I tāi-khuán la̍p bē tshut--lâi, tshù tō hōo lâng phah-bē--ah）
 伊足拍拚作穡，透暝透日攏毋歇睏（I tsiok phah-piànn tsoh-sit, thàu-mê thàu-ji̍t lóng m̄ hioh-khùn）
@@ -1311,6 +1314,7 @@
 你嘛較拜託的（lí mā khah pài-thok--ê）
 你好（lí hó）
 你寒天出門毋穿外套（Lí kuânn-thinn tshut-mn̂g m̄ tshīng guā-thò）
+你實在有夠散形（Lí si̍t-tsāi ū-kàu suànn-hîng）
 你寬寬仔來就好（Lí khuann-khuann-á lâi tō hó）
 你就好鬥陣（lí tō hó-tàu-tīn）
 你後擺來毋通閣紮等路矣（Lí āu-pái lâi m̄-thang koh tsah tán-lōo--ah）
@@ -1341,6 +1345,7 @@
 你是啥物人（lí sī siánn-mih lâng）
 你是家己開業抑是予人倩？（Lí sī ka-kī khai-gia̍p iah-sī hōo lâng tshiànn?）
 你是按怎無來？（Lí sī án-tsuánn bô lâi?）
+你是按怎逐擺攏會袂記得（Lí sī-án-tsuánn ta̍k pái lóng ē bē-kì--tit）
 你是教佗一科的？我教物理（Lí sī kà tó tsi̍t kho--ê? Guá kà bu̍t-lí）
 你是真正毋知，抑是假影毋知？（Lí sī tsin-tsiànn m̄ tsai, iah-sī ké-iánn m̄ tsai?）
 你有咧掠寶無（Lí ū leh lia̍h-pó--bô）
@@ -1420,6 +1425,7 @@
 你足戇（lí tsiok gōng）
 你足討厭（li tsiòk thó-ià）
 你轉踅的時陣著細膩（Lí tńg-se̍h ê sî-tsūn tio̍h sè-jī）
+你這个人予人看現現矣（Lí tsit ê lâng hōo lâng khuànn-hiān-hiān--ah）
 你這个囡仔哪會遮爾仔狡怪！（Lí tsit ê gín-á ná ē tsiah-nī-á káu-kuài!）
 你這个意見真寶貴（Lí tsit ê ì-kiàn tsin pó-kuì）
 你這句廢話，有講若無講（Lí tsit kù huì-uē, ū kóng ná bô kóng）
@@ -1726,6 +1732,7 @@
 健保卡（kiān-pó-khah | kiān-pó-khá）
 健保署（kiān-pó-sú）
 健康中心（kiān-khong tiong-sim）
+健康路（Kiān-khong-lōo | Kiān-khong-lō͘）
 健忘症（kiān-bōng-tsìng）
 偵測器（tsing-tshik-khì）
 偷來黯去（thau-lâi-ám-khì）
@@ -1740,6 +1747,7 @@
 偷走班（thau-tsáu-pan）
 偷食袂瞞得喙齒，討翁袂瞞得鄉里
 傀儡關（Ka-lé-kuan）
+傅厝（Hū-tshù | Hū-chhù）
 傖傖（suâinn-suâinn）
 備課（pī-khò）
 催淚彈（tshui-luī-tuânn）
@@ -2130,8 +2138,15 @@
 凡勢 （huān-sè | huān-sì）
 凡若是 （huân-nā-sī）
 凰鳳（hông-hōng）
+凱旋中華（Khái-suân Tiong-huâ）
+凱旋二聖（Khái-suân Jī-sìng | Khái-soân Jī-sèng）
+凱旋公園（Khái-suân Kong-hn̂g | Khái-soân Kong-hn̂g）
+凱旋武昌（Khái-suân Bú-tshiong | Khái-soân Bú-chhiong）
+凱旋瑞田（Khái-suân Suī-tiân）
 凱旋門（Khái-suân-mn̂g）
+凱旋（Khái-suân）
 凱道（Khái-tō）
+凱達格蘭大道（Ke-ta-ga-lán-Tāi-tō | Ke-ta-ga-lán_Tāi-tō）
 凱達格蘭（khái-ta̍t-keh-lân）
 凶拳毋拍笑面（hiong-kûn m̄-phah tshiò-bīn）
 凹一窟（naih tsi̍t khut）
@@ -2430,6 +2445,8 @@
 動天覆地（tāng-thinn-hok-tē）
 動漫（tōng-bān）
 動物伴（tōng-bu̍t-phuānn）
+動物園南（Tōng-bu̍t-hn̂g Lâm | Tōng-bu̍t-hn̂g-lâm）
+動物園（Tōng-bu̍t-hn̂g）
 動物性膠質（tōng-bu̍t-sìng ka-tsit）
 動車（tōng-tshia）
 動輪車（tōng-lián-tshia）
@@ -2437,6 +2454,8 @@
 動鏈車（tōng-lián-tshia）
 動黏沙（tōng-liâm-sua）
 勘查人員（khàm-tsa jîn-uân）
+勝利國小（Sìng-lī-kok-sió）
+勝興（Sìng-hing | Sèng-heng）
 勞力士（Lô-li̍k-sū）
 勞力（lóo-la̍t）
 勞動基準法（Lô-tōng-ki-tsún-huat）
@@ -2640,6 +2659,9 @@
 南迴歸線（lâm-huê-kui-suànn | Lâm-huê-kui-suànn）
 南部人（lâm-pōo-lâng）
 博孑（phok-khiat）
+博愛特區（Phok-ài-ti̍k-khu）
+博愛路（Phok-ài-lōo | Phok-ài-lō͘）
+博物館（Phok-bu̍t-kuán | Phok-bu̍t-koán）
 占便宜（tsiàm pân-gî）
 占買加（Tsiam-mái-ka）
 占買甲（Tsiam-mái-kah）
@@ -2947,7 +2969,6 @@
 吊䘥仔（tiàu-kah-á）
 吊媠的（tiàu-suí--ê）
 吊孤槓（tiàu koo-kńg）
-吊懸低（tiàu-kôan-kē）
 吊樹猴（tiàu-tshiū-kâu）
 吊燈（tiàu-ting）
 吊猴（tiàu-kâu）
@@ -3108,6 +3129,7 @@
 咱來輸贏，看啥人講的較著（Lán lâi su-iânn, khuànn siánn-lâng kóng--ê khah tio̍h）
 咱做人著愛有志氣（Lán tsò-lâng tio̍h-ài ū tsì-khì）
 咱做代誌就愛較頂真咧！（Lán tsò tāi-tsì tō ài khah tíng-tsin--leh!）
+咱做代誌的時陣（Lán tsò tāi-tsì ê sî-tsūn）
 咱共伊鬥分伻淡薄仔（Lán kā i tàu pun-phenn--tām-po̍h-á）
 咱共灶跤清清咧（Lán kā tsàu-kha tshing-tshing--leh）
 咱千萬毋通拍歹感情（Lán tshian-bān m̄-thang phah-pháinn kám-tsîng）
@@ -3118,6 +3140,7 @@
 咱暫時袂當相見（Lán tsiām-sî bē-tàng sio-kìnn）
 咱莫插傷濟（Lán mài tshap siunn tsē）
 咱著愛想予開，較袂心悶（Lán tio̍h-ài siūnn hōo khui, khah bē sim-būn）
+咱著愛綴會著社會的改變（Lán tio̍h-ài tuè ē tio̍h siā-huē ê kái-piàn）
 咱讀冊就毋通讀對尻脊骿去（Lán tha̍k-tsheh tō m̄-thang tha̍k tuì kha-tsiah-phiann khì）
 咱這月日的生產目標（Lán tsit gue̍h-ji̍t ê sing-sán bo̍k-piau
 咸豐三，講到今（hâm-hong sann kóng kàu-tann）
@@ -3192,6 +3215,7 @@
 唔口仔（onn-káu-á）
 唔口（onn-káu）
 唚一下（tsim--tsi̍t-ē）
+唭哩岸（Ki-lí-gān）
 唭哩岸（Kì-lí-gān）
 唯恐天下不亂（uî-khióng thian-hā put-luān）
 唱機（tshiùnn-ki）
@@ -3207,7 +3231,6 @@
 啊毋就按呢（ah m̄-tō án-ne）
 啊毋就（ah m̄-tō）
 問仙（muī-sian）
-問到ㄧ隻平（）
 問徒（būn-tôo）
 問甲一支柄（mn̄g kah tsi̍t ki pènn）
 問號（mn̄g-hō）
@@ -3230,6 +3253,9 @@
 啥（sánn）
 啪啦拳（Pha-la-kheng）
 喀痰藥（khe̍nnh-thâm-io̍h）
+善化區（Siān-hoà-khu）
+善化（Siān-huà | Siān-hòa）
+善導寺（Siān-tō-sī）
 善的掠來縛，惡的放伊去
 善緣（siān-iân）
 喇嘛（lah-mah）
@@ -3350,6 +3376,7 @@
 喬人（khiâu-lâng）
 喬木（kiâu-bo̍k）
 喬治亞（Kiâu-tī-a）
+喬治商職（Kiâu-tī Siong-tsit | Kiâu-tī Siong-chit）
 喬酷（khiâu-khok）
 單人床（tan-jîn-tshn̂g）
 單元操作（tan-guân tshau-tsok）
@@ -3542,8 +3569,11 @@
 圈仔糋（khian-á-tsìnn）
 國中生（kok-tiong-sing）
 國中（kok-tiong）
+國北教大實小（Kok-pak Kàu-tāi Si̍t-sió）
 國姓埔（Kok-sìng-poo）
 國姓爺（Kok-sìng-iâ）
+國姓鄉（Kok-sèng-hiong）
+國姓（Kok-sìng | Kok-sèng）
 國姓（Kok-sìng）
 國字殼（kok-jī-khak）
 國字面（kok-jī-bīn）
@@ -3562,12 +3592,29 @@
 國泰民安（kok thài bîn an）
 國泰病院（Kok-thài-pēnn-īnn）
 國泰（kok-thài）
+國父紀念館（Kok-hū Kì-liām-kuán）
 國破家亡（kok-phò-ka-bông）
 國立中山大學（Kok-li̍p Tiong-san-tāi-ha̍k）
+國立中正大學（Kok-li̍p-tiong-tsìng-tāi-ha̍k）
 國立公園（kok-li̍p kong-hn̂g）
+國立成功大學（Kok-li̍p Sêng-kong Tāi-ha̍k）
+國立政治大學（Kok-li̍p Chèng-tī Tāi-ha̍k）
+國立東華大學（Kok-li̍p-tong-huâ-tāi-ha̍k | Kok-li̍p Tong-hôa Tāi-ha̍k）
+國立臺中教育大學（Kok-li̍p-tâi-tiong-kàu-io̍k-tāi-ha̍k）
+國立臺北商業大學（Kok-li̍p-tâi-pak-siong-gia̍p-tāi-ha̍k）
+國立臺北大學（Kok-li̍p-tâi-pak-tāi-ha̍k）
+國立臺北教育大學（Kok-li̍p Tâi-pak Kàu-io̍k Tāi-ha̍k）
+國立臺北藝術大學（Kok-li̍p Tâi-pak Gē-su̍t Tāi-ha̍k）
 國立臺灣史前文化博物館（Kok-li̍p Tâi-uân Sú-tsiân Bûn-huà Phok-bu̍t-kuán）
+國立臺灣大學（Kok-li̍p-tâi-uân-tāi-ha̍k | Kok-li̍p Tâi-oân Tāi-ha̍k）
 國立臺灣文學館（Kok-li̍p Tâi-uân Bûn-ha̍k-kuán）
 國立臺灣歷史博物館（Kok-li̍p Tâi-uân Li̍k-sú Phok-bu̍t-kuán）
+國立臺灣海洋大學（Kok-li̍p-hái-iûnn-tāi-ha̍k）
+國立臺灣科技大學（Kok-li̍p-tâi-uân-kho-ki-tāi-ha̍k）
+國立雲林科技大學（Kok-li̍p Hûn-lîm Kho-ki Tāi-ha̍k）
+國立高雄大學（Kok-li̍p Ko-hiông Tāi-ha̍k）
+國立高雄科技大學第一校區（Kok-li̍p Ko-hiông Kho-ki Tāi-ha̍k Tē-it Hāu-khu）
+國華路口（Kok-huâ Lōo-kháu | Kok-hôa Lō͘-kháu）
 國語（kok-gí）
 國賊（kok-tsha̍t | kok-tsi̍k）
 國際期刊（kok-tsè kî-khan）
@@ -3585,9 +3632,11 @@
 園（huînn | uân）
 圓周率（înn-tsiu-lu̍t）
 圓山仔（Înn-suann-á）
+圓山大橋（Înn-suann-tuā-kiô）
 圓栱館（uân-kong-kuán）
 圓球內妖怪（Înn-kiû-lāi-iau-kuài）
 圓球妖怪（Înn-kiû-iau-kuài）
+圓環（Înn-khuân | Îⁿ-khoân）
 圓篷（uân-phâng）
 圓舞曲（uân-bú-khik）
 圓領（înn-niá | uân-niá）
@@ -3733,18 +3782,27 @@
 埔直（poo-ti̍t）
 埔蛯（poo-láu）
 埔鹽（poo-iâm）
+埤仔墘（Pi-á-kînn | Pi-á-kîⁿ）
+埤仔跤（Pi-á-kha）
 埤塘（pi-tn̂g）
+埤尾（Pi-bué | Pi-bóe）
+埤腹（Pi-pak）
+埤頭鄉（Pi-thâu-hiong）
+埤頭（Pi-thâu）
 執死訣（tsip-sí-kuat）
 執迷不悟（tsip-bê put-ngōo）
 培地茅（puē-tē-mâu）
 培根（pē-kng）
 基岩（ki-gâm）
 基極（ki-ki̍k）
+基河路（Ke-hô-lōo | Ke-hô-lō͘）
 基瑙斯（Ki-lóo-su）
 基督徒（ki-tok-tôo）
 基督教徒（Ki-tok-kàu-tôo）
 基督教青年會（Ki-tok-kàu tshing-liân-huē）
 基線（ki-suànn）
+基隆市（Ke-lâng-tshī | Ke-lâng-chhī）
+基隆河（Ke-lâng-hô）
 堅凍（kian-tàng）
 堅固質（kian-kòo-tsit）
 堅果（kian-kó）
@@ -3754,10 +3812,12 @@
 堆山堆海（tui suann tui hái）
 堆山積海（tui-suann tsik-hái）
 堆高仔（tui-ko-á）
+堉琪橋（Io̍k-kî-kiô）
 堡包（pó-pau）
 堤防（thê-hông）
 堪袂去（kham-bē-khì）
 堪該（kham-kai）
+堰堤（Ián-thê）
 報你焐（Pò-lí-ù）
 報你熨（Pò-lí-ut）
 報復性消費（pò-ho̍k-sìng siau-huì）
@@ -3776,11 +3836,13 @@
 塑膠筍（sok-ka-sún）
 塑膠罐仔（sok-ka-kuàn-á）
 塑膠車（sok-ka-tshia）
+塔城街（Thah-siânn-kue | Thah-siâⁿ-koe）
 塔志克（Thah-tsì-khik）
 塔羅牌（Thah-lô-pâi）
 塗吸（thôo-khip）
 塗味（thôo-bī）
 塗埆（thôo-kak）
+塗城（Thôo-siânn）
 塗堆（thôo-tui）
 塗堛（thôo-phue̍h | thôo-phe̍h）
 塗塗塗（thôo-thôo-thôo）
@@ -4454,6 +4516,7 @@
 好所在（hó-sóo-tsāi）
 好扭搦（hó-liú-la̍k）
 好料（hó-liāu）
+好朋友著愛破腹相見（Hó pîng-iú tio̍h-ài phuà-pak sann-kìnn）
 好歹命敢是註好好的？這真歹講（Hó-pháinn miā kám sī tsù-hó-hó--ê? Tse tsin pháinn-kóng）
 好歹粿著會甜，好歹查某著會生（hó-pháinn kué tio̍h ē tinn hó-pháinn tsa-bóo tio̍h ē senn）
 好死毋死（hó-sí m̄-sí）
@@ -4526,6 +4589,7 @@
 娶某（tshuā-bóo）
 娶查某（tshuā-tsa-bóo）
 娶牽手（tshuā-khan-tshiú）
+婆婆橋（Pô-pô-kiô）
 婉勸（uán-khuàn）
 婊仔（piáu-á）
 婊子囝（piáu-á-kiánn）
@@ -4554,8 +4618,10 @@
 媽姨厝（má-î-tshù）
 媽宮（Má-king）
 媽當奴（Má-tong-lôo）
+媽祖坑（Má-tsóo-khinn | Má-chó͘-khiⁿ）
 媽祖宮起毋著面，痟的出袂盡
 媽祖星（Má-tsóo-tshenn | Má-tsóo-tshinn）
+媽祖田（Má-tsóo-tshân | Má-chó͘-chhân）
 媽祖田（Má-tsóo-tshân）
 媽祖魚（Má-tsóo-hî）
 嫁翁（kè-ang）
@@ -4765,6 +4831,7 @@
 寄錢（kià-tsînn）
 寄養家庭（kì-iáng ka-tîng）
 密喙（ba̍t-tshuì）
+密婆坑（Bi̍t-pô-khinn | Bi̍t-pô-khiⁿ）
 密婆（bi̍t-pô）
 密接（bi̍t-tsiap）
 密碼貨幣（bi̍t-bé huè-pè）
@@ -4772,8 +4839,19 @@
 密箍銀現金（Bi̍t-khoo-gîn Hiān-kim）
 密箍銀（bi̍t-khoo-gîn）
 密號（bi̍t-hō）
+富久巷仔口（Hù-kiú Hāng-á-kháu）
+富來橋（Hù-lâi-kiô）
 富士山（Hù-sū-suann）
+富寮里（Hù-liâu-lí）
+富岡（Hù-kong）
+富源溪（Hù-goân-khe）
+富源（Hù-guân | Hù-goân）
 富貴角（Hù-kuì-kak）
+富里鄉（Hù-lí-hiong）
+富里（Hù-lí）
+富陽生態公園（Hù-iông Sing-thài Kong-hn̂g | Hù-iông Seng-thài Kong-hn̂g）
+富陽街口（Hù-iông Kue-kháu | Hù-iông Koe-kháu）
+富陽街（Hù-iông-ke）
 富陽（Hù-iông）
 寒人个時（kuânn--lâng-ê sî）
 寒帽（kuânn-bō）
@@ -4783,6 +4861,7 @@
 寢臺車（tshím-tâi-tshia）
 實作（si̍t-tsoh）
 實喉（tsa̍t-âu）
+實在有夠脫線（si̍t-tsāi ū-kàu thuat-suànn）
 實在看袂出講才二十歲爾爾（si̍t-tsāi khuànn bē tshut kóng tsiah jī-tsa̍p huè niā-niā）
 實在講（Si̍t-tsāi kóng）
 實境秀（si̍t-kiàⁿ-siù）
@@ -4831,8 +4910,12 @@
 將才（tsiòng-tsâi）
 將時（tsiàng-sî）
 將樂（Tsiong-lo̍k）
+將澳國中（Tsiong-òo-kok-tiong | Chiong-ò͘-kok-tiong）
 將盡（tsiong-tsīn | tsiang-tsīn）
+將軍區（Chiong-kun-khu）
+將軍國小（Tsiong-kun-kok-sió | Chiong-kun-kok-sió）
 將軍帳（tsiong-kun-tiùnn）
+將軍廟（Tsiong-kun-biō | Chiong-kun-biō）
 將軍澳（Tsiang-kun-ò | Tsiong-kun-ò）
 將軍無佇得，小鬼拍獵（tsiong-kun bô tī tit sió-kuí phah-la̍h）
 將軍莊（Tsiong-kun-tsng）
@@ -5129,13 +5212,21 @@
 崁跤（khàm-kha）
 崁面（khàm-bīn）
 崁頭鴨（Khàm-thâu-ah）
+崇實路（Tsông-si̍t-lōo | Chông-si̍t-lō͘）
+崇德街（Tsông-tik-kue | Chông-tek-koe）
+崇德（Tsông-tik | Chông-tek）
 崎崙（kiā-lūn）
 崎路（kiā-lōo）
+崑崙里（Khun-lūn-lí）
+崙仔頂（Lūn-á-tíng | Lūn-á-téng）
 崙仔頂（lūn-á-tíng）
+崙子尾（Lûn-á-bé）
+崙背鄉（Lūn-puè-hiong | Lūn-poè-hiong）
 崩去（pang--khì | pang--khìr | pang--khù）
 崩坪（pang-phiânn）
 崩山（Pang-suann）
 崩心（pang-sim）
+崩溪（Pang-khue | Pang-khoe）
 崩疶（pang-tshuah）
 嵊州（Sīng-tsiu）
 嵊泗（Sī͘ng-sù）
@@ -5251,6 +5342,7 @@
 干樂 （kan-lo̍k）
 干樂踅啊踅 （kan-lo̍k se̍h-ah-se̍h）
 干焦你才講會出來（Kan-na lí tsiah kóng ē tshut--lâi）
+干焦共伊講兩句仔（Kan-na kā i kóng--nn̄g-kù-á）
 干焦會 （kan-na ē）
 干焦會當 （kan-tann ē-tàng）
 干焦欲跋桮，毋甘點一枝香 （kan-ta beh pua̍h-pue, m̄-kam tiám tsi̍t-ki-hiunn）
@@ -5346,9 +5438,14 @@
 座右銘（tsō-iū-bîng）
 庵古坑（Am-kóo-khenn）
 庶民（sù-bîn）
+康定路口（Khong-tīng Lōo-kháu | Khong-tēng Lō͘-kháu）
+康定路（Khong-tīng-lōo | Khong-tēng-lō͘）
+康樂公園（Khong-lo̍k Kong-hn̂g）
+康樂（Khong-lo̍k）
 康熙（Khong-hi）
 康（khong）
 庸夫俗子（iông-hu-sio̍k-tsú）
+廈門街（Ē-mn̂g-kue | Ē-mn̂g-koe）
 廈門（Ē-mn̂g）
 廕化（ìm-hua）
 廕火（ìm-hué | ìm-hé | ìm-hér）
@@ -5439,11 +5536,13 @@
 彩色紙（tshái-sik-tsuá）
 彩色鉛筆（tshái-sik iân-pit）
 彩色馬（Tshái-sik-bé）
+彩虹橋（Chhái-khēng-kiô）
 彩雲（tshái-hûn）
 彩霞（tshái-hê）
 彪婆仔（piu-pô-á）
 彪溜siu（piu-liu-siu）
 彭佳嶼（phênn-ka-sū）
+彭山磅空（Phînn-suann Pōng-khang | Phîⁿ-soaⁿ Pōng-khang）
 彭明敏（Phênn Bîng-bín）
 彭清靠（Phênn Tshing-khò）
 彰化（Tsiang-huà）
@@ -5473,6 +5572,7 @@
 彼陣（hit-tsūn）
 彼隻貓仔的爪仔真利（Hit tsiah niau-á ê jiáu-á tsin lāi）
 彼領洋裝看著真大範（Hit niá iûnn-tsong khuànn-tio̍h tsin tuā-pān）
+彼領衫去沐著坱埃（Hit niá sann khì bak-tio̍h ing-ia）
 彼頭（hit thâu）
 往回（óng-huê | óng-hê）
 往診（óng-tsín）
@@ -5551,12 +5651,21 @@
 從今以後（tsiông kim í-hiō | tsiông kim í-āu）
 從到今（tsîng-kàu-tann）
 從細漢甲大漢（tsîng sè-hàn kah tuā-hàn）
+御園村（Gū-hn̂g-tshun | Gū-hn̂g-chhun）
 御（gū）
 復倒轉（ho̍k-tò-tńg）
+復北地下道（Ho̍k-pak-tē-hā-tō）
 復振（ho̍k-tsín）
 復活節（ho̍k-hua̍t-tsiat）
 復活（ho̍k-hua̍t）
 復育（ho̍k-io̍k）
+復興公園（Ho̍k-hing Kong-hn̂g | Ho̍k-heng Kong-hn̂g）
+復興北路（Ho̍k-hing-pak-lōo | Ho̍k-heng-pak-lō͘）
+復興區（Ho̍k-heng-khu）
+復興南路口（Ho̍k-hing Lâm-lōo-kháu | Ho̍k-heng Lâm-lō͘-kháu）
+復興崗（Ho̍k-hing-kong）
+復興橋（Ho̍k-heng-kiô）
+復興路（Ho̍k-hing-lōo | Ho̍k-heng-lō͘）
 微分（bî-hun）
 微創（bî-tshòng）
 微微仔光（bî-bî-á-kng）
@@ -5740,7 +5849,9 @@
 惜花連盆，疼囝連孫（Sioh hue liân phûn, thiànn kiánn liân sun）
 惜面頂皮（sioh-bīn-tíng-phuê）
 惟（uî）
+惠安街（Huī-an-kue | Hūi-an-koe）
 惠安話（Hūi-uann-uē）
+惠蓀林場（Huī-sun Lîm-tiûnn | Hūi-sun Lîm-tiûⁿ）
 惡人先投（ok-lâng sing tâu）
 惡人無膽（Ok-lâng bô-tánn）
 惡人自有惡人磨（ok-lâng tsū-iú ok-lâng buâ）
@@ -5760,6 +5871,7 @@
 想攏無（siūnn-lóng-bô）
 想欲吼（siūnn-beh háu）
 想欲（siūnn-beh | siūnn-bueh）
+想法佮阮往過攏無仝（siūnn-huat kah guán íng-kuè lóng bô-kāng）
 想無（siūnn-bô）
 想看覓（siūnn khuànn-māi）
 想空想縫（siūnn-khang-siūnn-phāng）
@@ -5789,6 +5901,10 @@
 愛人撫撫（ài lâng hu-hu）
 愛台語（ài-tâi-gí）
 愛哭妃仔（ài-khàu hui-á）
+愛國東路口（Ài-kok Tang-lōo | Ài-kok Tang-lō͘）
+愛國東路（Ài-kok Tang-lōo | Ài-kok Tang-lō͘）
+愛國西路（Ài-kok Se-lōo | Ài-kok Se-lō͘）
+愛國金山路口（Ài-kok Kim-san Lōo-kháu | Ài-kok Kim-san Lō͘-kháu）
 愛媛縣（Ài-uān-kuān）
 愛媛（Ài-uān）
 愛媠（ài-suí）
@@ -5800,6 +5916,7 @@
 愛新覺羅（Ài-sin-kak-lô）
 愛橐錢的洗衫機（ài lok-tsînn ê sé-sann-ki）
 愛比頂月日的量加重倍濟（Ài pí tíng gue̍h-ji̍t ê liōng ke tîng-puē tsē）
+愛河（Ài-hô）
 愛滋病（ài-tsu-pēnn | ài-tsu-pīnn）
 愛爾蘭（Ài-nī-lân）
 愛睏就去睏（Ài-khùn tō khì khùn）
@@ -6591,6 +6708,7 @@
 授信（siū-sìn）
 掌上壓（tsiáng-siōng-ap）
 掌上明珠（tsióng-siōng-bîn-tsu）
+掌溪（Pat-tsiáng-khe | Pat-chiáng-khe）
 排尿（pâi-jiō | pâi-liō）
 排插（pâi-tshah）
 排有生相（pâi ū senn-siùnn）
@@ -7162,6 +7280,8 @@
 散雪（suànn-seh）
 散食人（sàn-tsia̍h-lâng）
 散食（sàn-tsia̍h）
+敦化北路（Tun-huà Pak-lōo | Tun-hòa-Pak-lō͘）
+敦化和平路口（Tun-huà Hô-pîng Lōo-kháu | Tun-hòa Hô-pêng Lō͘-kháu）
 敧一爿（khi tsi̍t pîng）
 敧敧（khi-khi）
 敨喙罨（tháu tshuì-am）
@@ -7262,41 +7382,110 @@
 新創公司（sin-tshòng-kong-si）
 新創的（sin-tshòng--ê）
 新劇（sin-kio̍k）
+新化區（Sin-hoà-khu）
+新北大都會公園（Sin-pak-tuā-too-huē-kong-hn̂g）
+新北市政府（Sin-pak-tshī-tsìng-hú | Sin-pak-chhī-chèng-hú）
+新北市（Sin-pak-tshī | Sin-pak-chhī）
+新北投（Sin-Pak-tâu）
+新北產業園區（Sin-pak Sán-gia̍p Hn̂g-khu）
 新南向（sin lâm-hiòng）
 新厝仔（Sin-tshù-á）
+新厝內（Sin-tshù-lāi | Sin-chhù-lāi）
 新厝莊（Sin-tshù-tsng）
+新厝（Sin-tshù | Sin-chhù）
 新厝（sin-tshù）
+新和國小（Sin-hô Kok-sió）
+新園鄉（Sin-hn̂g-hiong）
+新城鄉（Sin-siâⁿ-hiong）
 新城（Sin-siânn）
+新埔國中（Sin-poo Kok-tiong | Sin-po͘ Kok-tiong）
+新埔民生（Sin-poo Bîn-sing）
+新埔鎮（Sin-po͘-tìn）
+新埔（Sin-poo | Sin-po͘）
+新埤鄉（Sin-pi-hiong）
 新埤頭（Sin-pi-thâu）
+新埤（Sin-pi）
 新堀江（Sin-khut-kang）
+新塘（Sin-tn̂g）
+新大港（Sin-tuā-káng）
 新娘撐（sin-niû-thènn）
 新娘衫（sin-niû-sann）
 新婦仔相（sin-pū-á siòng）
 新婦仔神（sin-pū-á sîn）
 新婦仔體（sin-pū-á thé）
+新安路（Sin-an-lō͘）
+新安（Sin-an）
 新宿（Sin-siok | Sin-sok）
 新尪仔（sin-ang-á）
+新屋區（Sin-ok-khu）
 新屎礐仔三日新（sin sái-ha̍k-á sann-ji̍t-sin）
+新左營（Sin-tsó-iânn | Sin-chó-iâⁿ）
+新市一路（Sin-tshī-it-lōo）
+新市區（Sin-chhī-khu）
+新市橋（Sin-chhī-kiô）
+新市（Sin-tshī | Sin-chhī）
 新年快樂（）
 新年（sin-nî）
 新幹線（Sin-kàn-suànn）
+新庄仔（Sin-tsng-á | Sin-chng-á）
 新庄仔（Sin-tsng-á）
+新庄子（Sin-tsng-á）
+新店仔（Sin-tiàm-á）
+新店區公所（Sin-tiàm Khu-kong-sóo）
+新店區（Sin-tiàm-khu）
+新店溪（Sin-tiàm-khue | Sin-tiàm-khoe）
+新店磅空（Sin-tiàm Pōng-khang）
+新店路（Sin-tiàm-lōo | Sin-tiàm-lō͘）
+新店高中（Sin-tiàm-ko-tiong）
+新店（Sin-tiàm）
+新府路（Sin-hú-lōo | Sin-hú-lō͘）
+新廍邊（Sin-phōo-pinn | Sin-phō͘-piⁿ）
+新廍（Sin-phōo | Sin-phō͘）
+新新公園（Sin-sin Kong-hn̂g）
 新新婦，洗灶額，新長工，洗犁壁（sin sin-pū sé tsàu-hia̍h sin tn̂g-kang sé lê-piah）
 新昌（Sin-tshiong）
+新樹路（Sin-tshiū-lōo | Sin-chhiū-lō͘）
 新正年頭（sin-tsiann nî-thâu）
 新正（sin-tsiann）
+新民國小（Sin-bîn Kok-sió）
 新港糖仔（Sin-káng thn̂g-á）
+新港鄉（Sin-káng-hiong）
 新港飴（Sin-káng-î）
 新港（Sin-káng）
+新烏日（Sin-oo-ji̍t | Sin-o͘-ji̍t）
+新營區（Sin-iâⁿ-khu）
 新營鐵道文化園區（Sin-iânn Thih-tō Bûn-huà Uân-khu）
+新營（Sin-iânn | Sin-iâⁿ）
 新生仔（sin-senn-á）
+新生公園（Sin-sing Kong-hn̂g | Sin-seng Kong-hn̂g）
+新生國小（Sin-sing Kok-sió | Sin-seng Kok-sió）
+新生地（Sin-sing-tuē | Sin-seng-tōe）
+新生村（Sin-sing-tshun | Sin-seng-chhun）
+新生高架道路（Sin-sing Ko-kà Tō-lōo | Sin-seng Ko-kà Tō-lō͘）
 新界（Sin-kài）
+新社區（Sin-siā-khu）
+新社（Sin-siā）
 新竹出產的貢丸真有名（Sin-tik tshut-sán ê kòng-uân tsin ū-miâ）
+新竹市（Sin-tik-tshī | Sin-tek-chhī）
+新竹縣（Sin-tik-kuān | Sin-tek-koān）
+新竹（Sin-tik | Sin-tek）
 新竹（Sin-tik）
 新羅（Sin-lô）
 新聞紙（sin-bûn tsuá）
+新興區（Sin-heng-khu）
+新興（Sin-hing | Sin-heng）
+新莊副都心（Sin-tsng Hù-too-sim）
+新莊區（Sin-tsng-khu | Sin-chng-khu）
+新莊（Sin-tsng）
+新街溪（Sin-ke-khe）
+新街（Sin-ke）
+新豐國中（Sin-hong-kok-tiong）
+新豐國小（Sin-hong-kok-sió）
+新豐鄉（Sin-hong-hiong）
+新豐（Sin-hong）
 新起事業（sin-khí-sū-gia̍p）
 新郎公（sin-niôo-kang）
+新里族（Sin-lí-tso̍k | Sin-lí-cho̍k）
 新金山（sin-kim-san）
 斷半仙（tn̄g puànn sián）
 斷半紗縒（tn̄g puànn-se-tsua̍h）
@@ -7407,6 +7596,7 @@
 明天（bîng-thian）
 明年（muâ-nî）
 明後日（bîn-āu-ji̍t）
+明明知影代誌真嚴重（Bîng-bîng tsai-iánn tāi-tsì tsin giâm-tiōng）
 明明知影（bîng-bîng tsai-iánn）
 明星（bîng-tshenn | bîng-sing）
 明治維新（Bîng-tī î-sin）
@@ -7484,10 +7674,35 @@
 普通話（phóo-thong-uē）
 普通（phóo-thong）
 普陀（Phóo-tô）
+景中街（Kíng-tiong-ke | Kéng-tiong-ke）
+景安（Kíng-an）
 景寧（Kíng-lîng）
+景尾女中（Kíng-bé Lú-tiong | Kéng-bé Lú-tiong）
+景尾溪（Kíng-bé-khue | Kéng-bé-khoe）
+景尾街（Kíng-bé-kue | Kéng-bé-koe）
+景尾運動公園（Kíng-bé-ūn-tōng-kong-hn̂g | Kéng-bé Ūn-tōng Kong-hn̂g）
+景尾（Kíng-bé | Kéng-bé）
+景山溪（Kíng-suann-khe | Kéng-soaⁿ-khe）
 景差（Kíng Tsho）
+景平（Kíng-pîng）
+景後街（Kíng-āu-ke | Kéng-āu-ke）
+景文街（Kíng-bûn-kue | Kéng-bûn-koe）
+景明街（Kíng-bîng-kue | Kéng-bêng-koe）
 景氣䆀（kíng-khì bái）
+景福街（Kíng-hok-kue | Kéng-hok-koe）
+景福門（Kíng-hok-mn̂g | Kéng-hok-mn̂g）
+景美國小（Kíng-bé-kok-sió）
+景美橋（Kíng-bé-kiâu | Kéng-bé-kiô）
+景美溪橋（Kíng-bé-khe-kiâu）
+景美（Kíng-bí | Kéng-bí）
+景興國中（Kíng-hing Kok-tiong | Kéng-heng Kok-tiong）
 景興國小（Kíng-hing Kok-sió）
+景興路（Kíng-hing-lōo | Kéng-heng-lō͘）
+景華公園（Kíng-huâ Kong-hn̂g | Kéng-hôa Kong-hn̂g）
+景華街（Kíng-huâ-kue | Kéng-hôa-koe）
+景豐公園（Kíng-hong Kong-hn̂g | Kéng-hong Kong-hn̂g）
+景豐街（Kíng-hong-kue | Kéng-hong-koe）
+景隆街（Kíng-liông-ke | Kéng-liông-ke）
 景（kíng）
 晴空塔（Tsîng-khong-thah）
 晶珠（tsing-tsu）
@@ -7501,11 +7716,13 @@
 暉（hui）
 暑味著（sú-bī-to̍h）
 暖帽（luán-bō）
+暖暖區（Loán-loán-khu）
 暖身（luán-sin）
 暗中創空（àm-tiong tshòng-khang）
 暗作期（àm-tsoh-kî）
 暗光星（àm-kong-tshenn | àm-kong-tshinn）
 暗光鳥（àm-kong-tsiáu）
+暗坑下（Àm-khenn-hā | Àm-kheⁿ-hā）
 暗報（àm-pò）
 暗安台灣（àm-an Tâi-uân）
 暗崁（àm-khàm）
@@ -7573,6 +7790,7 @@
 曹族（Tsô-tso̍k）
 曹風（Tsô-hong）
 曼波魚（bàn-boh-hî | bàn-boh-hû）
+曾文溪（Tsang-bûn-khe | Chang-bûn-khe）
 曾柏元（Tsan Pik-guân）
 替人食罪（thè-lâng tsia̍h-tsuē）
 替代役（thè-tāi-ik | thè-tai-ik）
@@ -7729,11 +7947,16 @@
 朗讀比賽（lóng-tho̍k pí-sài）
 朗讀稿（lóng-tho̍k-kó）
 望其項背（bāng-kî-hāng-puē）
+望安國中（Bāng-an-kok-sió）
+望安國小（Bāng-an-kok-sió）
+望安鄉（Bāng-oaⁿ-hiong）
+望星橋（Bāng-chheⁿ-kiô）
 望春風（Bāng Tshun-hong）
 望月占星（bāng-gue̍h-tsiam-tshenn）
 望眼鏡（bōng-gán-kiànn）
 望財貓（Bōng-tsâi-niau）
 朝帽（tiâu-bō）
+朝籟橋（Tiâu-lāi-kiô）
 朝聖地（tiâu-sìng-tē）
 朝鮮日本時代（Tiâu-sián Ji̍t-pún sî-tāi）
 朝鮮王朝（Tiâu-sián ông-tiâu）
@@ -7994,13 +8217,26 @@
 格仔粿（keh-á-kér | keh-á-ké | keh-á-kué）
 格仔膨餅（keh-á-phòng-piánn）
 格仔餅（keh-á-piáⁿ | keh-á-piánn）
+格致路（Keh-tì-lōo | Keh-tì-lō͘）
 栽仔（tsai-á）
+桂林路（Kuì-lîm-lōo | Kùi-lîm-lō͘）
+桂竹仔林（Kuì-tik-á-nâ | Kùi-tek-á-nâ）
+桂竹林（Kuì-tik-nâ | Kùi-tek-nâ）
 桃仔園（Thô-á-huînn）
 桃仔色（thô-á-sik）
+桃園區（Thô-hn̂g-khu）
 桃園國際機場（thô-hn̂g kok-tsè ki-tiûnn）
+桃園市（Thô-hn̂g-tshī | Thô-hn̂g-chhī）
 桃園捷運（Thô-hn̂g tsia̍t-ūn）
+桃園環線（Thô-hn̂g Khuân-suànn | Thô-hn̂g Khoân-sòaⁿ）
+桃園體育園區（Thô-hn̂g Thé-io̍k Hn̂g-khu）
+桃園（Thô-hn̂g）
 桃志其（Thô-tsì-kî）
+桃源區（Thô-goân-khu）
+桃源國中（Thô-guân Kok-tiong | Thô-goân Kok-tiong）
+桃源街（Thô-guân-kue | Thô-goân-koe）
 桃源部落（Thô-guân Pōo-lo̍k）
+桃花心木道（Thô-hue-sim-bo̍k-tō | Thô-hoe-sim-bo̍k-tō）
 桄榔子（kong lông tsú）
 框箍（khong-khoo）
 框起來（khong--khí-lâi）
@@ -8032,18 +8268,26 @@
 桶呿（tháng-khuh）
 梁許春菊（Niû Khóo Tshun-kiok）
 梅仔坑（Muê-á-khenn | Muî-á-khenn）
+梅仔林（Muî-á-nâ | Mûi-á-nâ）
 梅仔粉番薯條（muî-á-hún-han-tsî-tiâu）
+梅仔跤（Muî-á-kha | Mûi-á-kha）
 梅列（Mûi-lia̍t）
 梅子雞（muê-á-ke | kue）
+梅山鄉（Mûi-san-hiong）
 梅毒（muî-to̍k）
 梅納反應（muî-la̍p huán-ìng）
+梓官區（Chú-koaⁿ-khu）
 梓官（Tsú-kuann）
 梓（tsú）
 梗枋（Ngē-pang）
 梘尾（Kíng-bué | Kíng-bé）
+梘尾（Kíng-bé）
 條仔線（tiâu-á-suànn）
 條直（tiâu-ti̍t）
 條碼（tiâu-bé）
+梧棲區（Gô͘-chhe-khu）
+梨山國中小（Lê-san Kok-tiong-sió）
+梨山（Lê-san）
 梯度（thui-tōo）
 械客（hāi-kheh）
 械鬥（hāi-tòo）
@@ -8086,18 +8330,25 @@
 椒江（Tsiau-kang）
 椰丁（iâ-ting）
 椰卵樹（Iâ-nn̄g-tshiū）
+椰城公園（Iâ-siânn-kong-hn̂g）
 椰子汁（iâ-tsí-tsiap）
 椰林大路（iâ-lîm-tuā-lōo）
+椰林大道（Iâ-nâ Tuā-tô | Iâ-nâ Tōa-tō）
 椰林大道（iâ-lîm-tāi-tō）
+椰油村（Iâ-iû-tshun）
 楊基先（Iûnn Ki-sian）
 楊桃汁（iûnn-tô-tsap | iûnn-tô-tsiap）
 楊桃湯（iûnn-tô-thng）
+楊梅區（Iûⁿ-mûi-khu）
 楊梅壢（Iûnn-muî-li̍k）
+楊梅（Iûnn-muî | Iûⁿ-mûi）
 楊秋興（Iûnn Tshiu-heng）
 楊英（Iûnn Eng）
 楊逵文學紀念館（Iûnn Kuî Bûn-ha̍k Kì-liām-kuán）
 楊金虎（Iûnn Kim-hóo）
 楓仔葉（png-á-hio̍h）
+楓林橋（Png-lîm-kiô）
+楓香道（Hong-hiong-tō）
 楔暗烏（sueh-àm-oo | seh-àm-oo）
 楗地牚身（kīng-tē-thénn-sin）
 楗錢（kāinn-tsînn）
@@ -8105,6 +8356,8 @@
 楞山（gông-suann）
 楠仔坑加工區（Lâm-á-khenn Ka-kang-khu）
 楠仔坑（Làm-á-khenn | Lâm-á-khenn）
+楠仔坑（Lâm-á-khenn | Lâm-á-kheⁿ）
+楠西區（Lâm-se-khu）
 楦動（hùn-tōng）
 楦（hùn）
 業命（gia̍p-miā）
@@ -8616,6 +8869,7 @@
 毋講理（m̄ kóng-lí）
 毋通予豆油滴落來（M̄-thang hōo tāu-iû tih--lo̍h-lâi）
 毋通佮人釘孤枝（M̄-thang kah lâng tìng-koo-ki）
+毋通傷古板（M̄-thang siunn kóo-pán）
 毋通去予伊抓著（M̄-thang khì hōo i jiàu--tio̍h）
 毋通問真恐怖（M̄-thang mn̄g tsin khióng-pòo）
 毋通定定食便藥仔（M̄-thang tiānn-tiānn tsia̍h piān-io̍h-á）
@@ -8980,9 +9234,17 @@
 泰國拳（Thài-kok-kûn）
 泰國月娘蝦餅（Thài-kok gue̍h-niû hê-piánn）
 泰國蝦（Thài-kok-hê）
+泰安鄉（Thài-an-hiong）
+泰安（Thài-an）
 泰寧（Thài-lîng）
+泰山區（Thài-san-khu）
+泰山貴和（Thài-san Kuì-hô）
+泰山（Thài-san）
 泰拳（Thài-kûn）
+泰武鄉（Thài-bú-hiong）
 泰武（Thài-Bú）
+泰雅渡假村（Thài-ngá Tōo-ká-tshuan | Thài-ngá Tō͘-ká-chhoan）
+泰順街（Thài-sūn-kue | Thài-sūn-koe）
 泰順（Thài-sūn）
 泳褲（íng-khòo）
 洋仔灣（Iûnn-á-uan）
@@ -9079,6 +9341,7 @@
 浡丁（phu̍h-ting）
 浡（phū）
 浣熊（uān-hîm）
+浦城街（Phóo-siânn-kue | Phó͘-siâⁿ-koe）
 浦城（Phóo-siânn）
 浦江（Phóo-kang）
 浪毒（lōng-to̍k）
@@ -9089,7 +9352,9 @@
 浮水印（phû-tsuí-ìn）
 浮水沬（phû-tsuí-bī）
 浮沬（phû-bī）
+浮洲仔（Phû-tsiu-á | Phû-chiu-á）
 浮洲仔（Phû-tsiu-á）
+浮洲橋（Phû-tsiu-kiô | Phû-chiu-kiô）
 浮洲（Phû-tsiu）
 浮球（phû-kiû）
 浮空（phû-khang）
@@ -9112,6 +9377,9 @@
 海墘（hái-kînn）
 海婆仔（hái-pô-á）
 海寧（Hái-lî͘ng）
+海尾（Hái-bé）
+海山高中（Hái-suann Ko-tiong | Hái-soaⁿ Ko-tiong）
+海山（Hái-san）
 海岸線（hái-huānn-suànn）
 海岸（hái-huānn）
 海峽兩岸（Hái-kiap Lióng-gān）
@@ -9138,6 +9406,8 @@
 海產煎餅（hái-sán-tsian-piánn）
 海砂厝（hái-sua-tshù）
 海碗（hái-uánn）
+海端鄉（Hái-toan-hiong）
+海端（Hái-tuan | Hái-toan）
 海結仔頭（hái-kat-á-thâu）
 海綿質（hái-mî-tsit）
 海肚（hái-tóo）
@@ -9203,12 +9473,30 @@
 淋巴管（lîm-pa-kńg）
 淒哀（tshe-ai）
 淚腺（luī-suànn）
+淡文湖（Tām-bûn-ôo | Tâm-bûn-ôo | Tām-bûn-ô͘ | Tâm-bûn-ô͘）
+淡水區（Tām-chúi-khu）
+淡水河（Tām-tsuí-hô | Tām-chúi-hô）
+淡水漁人碼頭（Tām-tsuí Hî-jîn Bé-thâu）
+淡水行政中心（Tām-tsuí Hîng-tsìng Tiong-sim）
+淡水（Tām-tsuí）
+淡江大學蘭陽校區（Tām-kang Tāi-ha̍k Lân-iông Hāu-khu）
 淡江大學（Tām-kang Tāi-ha̍k）
+淡江大橋（Tām-kang Tuā-kiô | Tām-kang Tōa-kiô）
+淡海新市鎮（Tām-hái Sin-tshī-tìn）
+淡金公路（Tām-kim Kong-lōo | Tām-kim Kong-lō͘）
+淡金北新（Tām-kim Pak-sin）
+淡金鄧公（Tām-kim Tīng-kong）
+淨律寺（Tsīng-lu̍t-sī | Chēng-lu̍t-sī）
 淨灘（tsīng-than）
 淨空排放（tsīng-khòng pâi-hòng）
 淨空排除（tsīng-khòng pâi-tû）
 淨零排放（tsīng-lîng pâi-hòng）
+深丘（Tshim-khiu | Chhim-Khiu）
+深南路（Tshim-lâm-lōo | Chhim-lâm-lō͘）
 深圳（Tshim-tsùn）
+深坑區（Chhim-kheⁿ-khu）
+深坑口（Tshim-khenn-kháu | Chhim-kheⁿ-kháu）
+深坑（Tshim-khenn | Chhim-kheⁿ）
 深學習（tshim-ha̍k-si̍p）
 深層學習（tshim-tsân-ha̍k-si̍p）
 深山林內（tshim-suann nâ-lāi）
@@ -9241,10 +9529,17 @@
 清氣tamtam（tshing-khì tam-tam）
 清氣溜溜（tshing-khì liu-liu）
 清氣（tshing-khì）
+清水區（Chheng-chúi-khu）
+清水國小（Tshing-tsuí-kok-sió | Chheng-chúi Kok-sió）
 清水湖（Tshing-tsuí-ôo）
 清水溝（Tshing-tsuí-kau）
+清水溪（Tshing-tsuí-khe | Chheng-chúi-khe）
 清水煮白米（tshing-tsuí tsí peh-bí）
+清水（Tshing-tsuí | Chheng-chúi）
+清流部落（Tshing-liû Pōo-lo̍k | Chheng-liû Pō͘-lo̍k）
+清流（Tshing-liû | Chheng-liû）
 清清白白（tshing-tshing-pe̍h-pe̍h | tshing-tshing-pi̍k-pi̍k）
+清溪橋（Chheng-khe-kiô）
 清潔隊員（tshing-kiat tuī-uân）
 清潔隊（tshing-kiat-tuī）
 清華大學（Tshing-huâ Tāi-ha̍k）
@@ -9256,12 +9551,20 @@
 減縮（kiám-sok）
 減（kiám）
 渡船場（tōo-tsûn-tiûnn）
+渡船巷（Tōo-tsûn-hāng | Tō͘-chûn-hāng）
+渡船頭（Tōo-tsûn-thâu | Tō͘-chûn-thâu）
 渡船頭（tōo-tsûn-thâu）
 測試（tshik-tshì）
 測速翕相（tsiân-hong ū tshik-sok hip-siōng）
+港仔喙國小（Káng-á-tshuì Kok-sió | Káng-á-chúi Kok-sió）
+港仔喙（Káng-á-tshuì | Káng-á-chhùi）
 港仔喙（Káng-á-tshuì）
 港仔墘（Káng-á-kînn）
+港口（Káng-kháu）
 港口（káng-kháu）
+港墘路（Káng-kînn-lōo | Káng-kîⁿ-lō͘）
+港墘（Káng-kînn | Káng-kîⁿ）
+港尾溝（Káng-bé-kau）
 港闊水深（káng khuah tsuí tshim）
 游泳箍仔（iû-íng-khoo-á）
 游泳衫（iû-íng-sann）
@@ -9272,9 +9575,18 @@
 湊坎（tshàu-khám）
 湊巧（tsháu-khiáu）
 湊拄坎（tshàu-tú-khám）
+湖仔內（Ôo-á-lāi | Ô͘-á-lāi）
 湖仔內（Ôo-á-lāi）
+湖內區（Ô͘-lāi-khu）
 湖內（Ôo-lāi）
+湖口街（Ôo-kháu-kue | Ô͘-kháu-koe）
+湖口鄉（Ôo-kháu-hiong | Ô͘-kháu-hiong）
+湖口（Ôo-kháu | Ô͘-kháu）
 湖州（Ôo-tsiu）
+湖底（Hôo-té）
+湖田橋（Ô͘-chhân-kiô）
+湖西國中（Ôo-se-kok-tiong）
+湖西鄉（Ô͘-sai-hiong）
 湖里（Ôo-lí）
 湠叢（thuànn-tsâng）
 湠生性金融商品（thuànn-sing-sìng kim-iông-siong-phín）
@@ -9288,11 +9600,13 @@
 湳仔溝（Làm-á-kau）
 湳仔（Làm-á）
 湳地（làm-tē）
+湳坑仔（Lâm-khinn-á | Lâm-khiⁿ-á）
 湳塗（làm-thôo | lòm-thôo）
 湳流（làm-lâu）
 湳溝糜（làm-kau-muê）
 湳田仔（làm-tshân-á）
 湳田（làm-tshân）
+湳雅（Lâm-ngá）
 準做（tsún-tsò）
 準惑星（tsún-hi̍k-tshenn | tsún-hi̍k-tshinn）
 準拄好（tsún-tú-hó）
@@ -9615,13 +9929,17 @@
 為著將來（uī-tio̍h tsiong-lâi）
 為非作歹（uî-hui-tsok-tái）
 為非糝做（uî-hui-sám-tsò）
+烈嶼鄉（Lia̍t-sū-hiong）
 烌（hu）
 烏仁對白仁（oo-jîn tuì pe̍h-jîn）
 烏仔目草（oo-á-ba̍k-tsháu）
+烏來區（U-lai-khu）
 烏咖啡（oo-ka-pi）
 烏喙牛尻川（oo-tshuì gû kha-tshng）
+烏坵鄉（Oo-khiu-hiong | O͘-khiu-hiong）
 烏塌（oo-lap）
 烏塗仔糜（oo-thôo-á-muê）
+烏塗磅空（Oo-thôo Pōng-khang | O͘-thô͘ Pōng-khang）
 烏壘烏（oo-luí-oo）
 烏壟麵（u-lóng-mī）
 烏壟（u-lóng）
@@ -9629,9 +9947,13 @@
 烏子仔草（oo tsí-á tsháu）
 烏尾仔（oo-bué-á | oo-bé-á | oo-bér-á）
 烏屎（oo-sái）
+烏山頭（Oo-suann-thâu）
 烏山（Oo-suann）
 烏干達（Oo-kan-ta̍t）
 烏影銀行（oo-iánn-gîn-hâng）
+烏日區（O͘-ji̍t-khu）
+烏日國小（Oo-ji̍t-kok-sió）
+烏日（Oo-ji̍t | O͘-ji̍t）
 烏昏面（oo-hng-bīn）
 烏昏（oo-hng）
 烏暗時代（oo-àm sî-tāi）
@@ -9645,6 +9967,7 @@
 烏李仔菜（oo-lí-á-tshài）
 烏格（oo-keh）
 烏洞（oo-tōng）
+烏溪（Oo-khe | O͘-khe）
 烏焦瘦（oo-ta-sán）
 烏焦蛇（oo-ta-tsuâ）
 烏片（oo-phìnn）
@@ -9809,6 +10132,7 @@
 無定著時間（bô-tiānn-tio̍h sî-kan）
 無定著（bô-tiānn-tio̍h）
 無對同（bô tuì-tâng）
+無尾坑（Bô-bé-khinn | Bô-bé-khiⁿ）
 無尾鳥鼠（bô-bué-niáu-tshí）
 無底代（bô tī-tāi）
 無張持公車煞走去（Bô-tiunn-tî kong-tshia suah tsáu--khì）
@@ -9968,6 +10292,7 @@
 焦柴花（ta-tshâ-hue）
 焦氣機（ta-khì-ki）
 焦水期（ta-tsuí-kî）
+焦溪仔（Ta-khue-á | Ta-khoe-á）
 焦溪（Ta-khe）
 焦澀（ta-siap）
 焦燥地（ta-sò tē）
@@ -10272,6 +10597,10 @@
 犀牛照角（sai-gû tsiò kak）
 犀牛鳥（sai-gû-tsiáu）
 犀角金龜（sai-kak-kim-ku）
+犁和生態公園（Luê-hô Sing-thài Kong-hn̂g | Lôe-hô Seng-thài Kong-hn̂g）
+犁園寮（Lê-hn̂g-liâu）
+犁忠市場（Luê-tiong Tshī-tiûnn | Lôe-tiong Chhī-tiûⁿ）
+犁頭山（Lê-thâu-suann）
 犁頭店（Lê-thâu-tiàm）
 犁頭戴鼎（lê-thâu tì-tiánn）
 犁頭族（lê-thâu-tso̍k）
@@ -10427,6 +10756,7 @@
 理科太太（Lí-kho-thài-thài）
 理路（lí-lōo）
 理（lí）
+琉球鄉（Liû-khiû-hiong）
 琉球（Liû-khiû）
 瑜伽（jû-ka）
 瑞穗（Sūi-hūi）
@@ -10593,6 +10923,7 @@
 畚箕仔（pùn-ki-á）
 畚箕佮春𣛮（pùn-ki kah tshun-siānn）
 畚箕港（Pùn-ki-káng）
+畚箕湖（Pùn-ki-ôo | Pùn-ki-ô͘）
 畚箕（pùn-ki）
 畜試所（thik-tshì-sóo）
 畢業典禮（pit-gia̍p tián-lé）
@@ -10601,6 +10932,10 @@
 略仔有（lio̍h-á ū）
 畦（hê）
 番pì-pà
+番仔公館（Huan-á Kong-kuán | Hoan-á Kong-koán）
+番仔園（Huan-á-hn̂g | Hoan-á-hn̂g）
+番仔坑（Hoan-á-kheⁿ）
+番仔墩（Huan-á-tun | Hoan-á-tun）
 番仔挖（Huan-á-uat）
 番仔掃帚（huan-á sàu-tshiú）
 番仔樓（huan-á-lâu）
@@ -10616,8 +10951,12 @@
 番仔路（Huan-á-lōo）
 番仔過年（huan-á kuè-nî）
 番地（huan-tē）
+番婆厝（Huan-pô-tshù | Hoan-pô-chhù）
+番子井（Huan-á-tsíng）
+番子湖（Huan-á-hôo）
 番界（huan-kài）
 番番（huan-huan）
+番社（Huan-siā | Hoan-siā）
 番社（Huan-siā）
 番薑（huan-kiunn）
 番薯丸（han-tsî-uân）
@@ -10632,6 +10971,7 @@
 番薯葉仔（han-tsî-hio̍h-á | han-tsû-hio̍h-á）
 番薯葉（han-tsî-hio̍h | han-tsû-hio̍h）
 番貨（huan-huè）
+番路鄉（Hoan-lō͘-hiong）
 番路（Huan-lōo）
 番麥殼（huan-be̍h khak）
 番麥洘湯（huan-be̍h-khó-thng）
@@ -11086,6 +11426,7 @@
 真實世界（tsin-si̍t sè-kài）
 真實在（tsin si̍t-tsāi）
 真忝（tsin-thiám）
+真愛碼頭（Tsin-ài Bé-thâu）
 真抑是假（tsin ia̍h-sī ké）
 真拄真，實拄實（tsin tú tsin, si̍t tú si̍t）
 真拄真，現拄現（tsin tú tsin, hiàn tú hiàn）
@@ -11111,6 +11452,7 @@
 真珠看做鳥鼠屎（tsin-tsu khuànn tsò niáu-tshí-sái）
 真珠筍（tsin-tsu-sún）
 真珠龜（Tsin-tsu-ku）
+真理大學（Tsin-lí Tāi-ha̍k | Chin-lí Tāi-ha̍k）
 真的抑假的（tsin--ê ia̍h ké--ê）
 真真正正（tsin tsin tsiànn tsiànn）
 真空低溫烹調法（tsin-khong-kē-un-phing-tiāu-huat）
@@ -11240,6 +11582,7 @@
 破船鎮港口（phuà-tsûn tìn káng-kháu）
 破蚵（phuà-ô）
 破蛋（phuà-tuann）
+破車埔（Phòo-tshia-poo | Phò-chhia-po͘）
 破風（phuà-hong）
 破麻（phuà muâ）
 破鼎（phuà-tiánn）
@@ -11331,15 +11674,21 @@
 祖公仔屎（tsóo-kong-á-sái）
 祖公太媽（tsóo-kong thài-má）
 祖公祖媽（tsóo-kong tsóo-má）
+祖眉坑（Tsóo-bî-khinn | Chó͘-bî-khiⁿ）
 祝你生日快樂（tsiok-lí senn-ji̍t khuài-lo̍k）
+祝山（Tsiok-suann | Chiok-soaⁿ）
+神仙島（Sîn-sian-tó）
 神奇寶貝球（sîn-kî-pó-puè-kiû）
 神奇寶貝（Sîn-kî-pó-puè）
 神宮（sîn-kiong）
 神尊（sîn-tsun）
+神岡區（Sin-kóng-khu）
 神岡（Sin-gong | Sîn-góng | Sin-kóng | Sîn-kóng）
 神廣（Sîn-kóng）
 神明倚駕（sîn-bîng uá-kà）
+神木（Sîn-bo̍k）
 神爽（sîn-sóng）
+神田町（Sîn-tshân-ting | Sîn-chhân-teng）
 神社（sîn-siā）
 神經大條（sîn-king tuā tiâu）
 神經疼（Sîn-king thiànn）
@@ -11381,7 +11730,6 @@
 禽流感（khîm-liû-kám）
 禽胸肉（khîm-hing-bah）
 禽胸（khîm-hing）
-禿額（thut-hia̍）
 禿髮（thut-huat）
 秀嶼（Siù-sū）
 秀才秀才騎馬弄弄來（siù-tsâi siù-tsâi khiâ bé lōng-lōng-lâi）
@@ -11546,8 +11894,10 @@
 笨港（Pùn-káng | Pūn-káng）
 笨跤笨手（pūn-kha-pūn-tshiú）
 第一工（tē-it kang）
+第一廣場（Tē-it Kóng-tiûnn | Tē-it Kóng-tiûⁿ）
 第一步（tē-it-pōo）
 第一等（tē-it tíng）
+第一運動埕（Tē-it Ūn-tōng-tiânn | Tē-it Ūn-tōng-tiâⁿ）
 第三指（tē-sann-tsáinn）
 第三逝（tē sann tsuā）
 第二指（tē-jī-tsáinn）
@@ -11660,6 +12010,7 @@
 粉圓奶茶（hún-înn ling-tê）
 粉圓牛奶茶（hún-înn gû-ling-tê）
 粉圓茶奶（hún-înn tê-ling）
+粉寮（Hún-liâu）
 粉底（hún-té）
 粉粒奶茶（hún-lia̍p-ni-tê | hún-lia̍p-ling-tê）
 粉紅色（hún-âng-sik）
@@ -11678,6 +12029,7 @@
 粗健（tshoo-kiānn）
 粗劣（tshoo-lua̍t）
 粗喙（tshoo-tshuì）
+粗坑（Tshoo-khenn | Chhoo-kheⁿ | Tshoo-khinn | Chho͘-khiⁿ）
 粗夫俗子（tshoo-hu-sio̍k-tsú）
 粗殘（tshoo-tshân）
 粗煏煏（tshoo-piak-piak）
@@ -11821,6 +12173,7 @@
 紐芝蘭（Liú-tsi-lân）
 純度（sûn-tōo）
 紗仔衫（se-á-sann）
+紗帽橋（Se-bō-kiô）
 紙仔星（tsuá-á-tshenn | tsuá-á-tshinn）
 紙天星（tsuá-thinn-tshenn | tsuá-thinn-tshinn）
 紙夾仔（tsuá-kiap-á）
@@ -11895,6 +12248,8 @@
 紲落來（suà--lo̍h-lâi）
 紲落去（suà--luè-khì）
 紲鬃（suà-tsang）
+紹興北街（Siāu-hing Pak-kue | Siāu-heng Pak-koe）
+紹興南街（Siāu-hing Lâm-kue | Siāu-heng Lâm-koe）
 紹（siāu）
 紺色高麗菜（khóng-sik ko-lê-tshài）
 終仔（tsiong-á）
@@ -11930,6 +12285,7 @@
 絞豆仔（ká tāu-á）
 絡繹不絕（lo̍k-i̍k-put-tsua̍t）
 絨帽（jiông-bō）
+統埔（Thóng-poo | Thóng-po͘）
 統媒（thóng-muî）
 統計學（thóng-kè ha̍k）
 絲包（si-pau）
@@ -12256,6 +12612,8 @@
 耍（sńg）
 耕者有其田（King-tsiá iú kî tiân）
 耕耘（king-ûn）
+耕莘文教院（King-sin Bûn-kàu-īnn | Keng-sin Bûn-kàu-īⁿ）
+耙形（Pê-hîng | Pê-hêng）
 耳仔度針（hīnn-á-tōo-tsiam）
 耳仔機（hīnn-á-ki）
 耳仔訪（hīnn-á-hóng）
@@ -12797,6 +13155,7 @@
 茼蒿（tâng-o）
 荀子（Sûn-tsú）
 草丑仔魚（tsháu-thiúnn-á-hî）
+草人坑（Tsháu-lâng-khenn | Chháu-lâng-kheⁿ）
 草仔埔（tsháu-á-poo）
 草仔枝會經倒人（tsháu-á ki ē kenn-tó lâng）
 草仔色（tsháu-á-sik）
@@ -12809,6 +13168,11 @@
 草地鑼鼓，一冬一冬慘（tsháu-tē lô-kóo, tsi̍t-tang tsi̍t-tang tshám）
 草坪（tsháu-pînn）
 草埔仔（tsháu-poo-á）
+草埔後社（Tsháu-poo Āu-siā | Chháu-po͘ Āu-siā）
+草埔（Tsháu-poo | Chháu-po͘）
+草屯農會倉庫（Tsháu-tùn Lông-huē Tshng-khòo | Chháu-tùn Lông-hōe Chhng-khò͘）
+草屯鎮（Chháu-tūn-tìn）
+草屯（Tsháu-tùn | Chháu-tùn）
 草山（Tsháu-suann）
 草橄仔（tshó-kan-á）
 草橄欖油（tshó-kan-ná-iû）
@@ -12817,8 +13181,10 @@
 草疕仔（tsháu-phí-á）
 草箍（tshó-khoo）
 草索拖俺公，草索拖俺爸（tsháu-soh thua án-kong, tsháu-soh thua án pē）
+草花汴（Tsháu-hue-piān | Chháu-hoe-piān）
 草莓（tshì-pho）
 草蜞（tsháu-khî）
+草衙（Tsháu-gê）
 草豹（tsháu pà）
 草踏（tsháu-ta̍h）
 草銃（tsháu-tshìng）
@@ -12836,6 +13202,7 @@
 荔城（Nāi-siânn）
 荔枝角（lāi-tsi-kak | nāi-tsi-kak | nǎi-tsi-kak）
 荔鏡記（Nāi-kìng-kì）
+荖濃溪（Lāu-lông-khe）
 荷爾蒙（ho͘-lú-bóng | hô-ní-bông）
 荷蘭水（Hô-lân-tsuí）
 荷蘭煎餅（Hô-lân-tsian-piánn）
@@ -12845,8 +13212,13 @@
 荷蘭豬（hô-lân-ti）
 荷里聿（Hô-lí-u̍t）
 莆田（Phôo-tiân | Phôo-tshân）
+莊敬路（Tsong-kìng-lōo | Chong-kèng-lō͘）
 莊重（tsong-tiōng）
+莊頂路橋（Chng-téng-lō͘-kiô）
+莊頂路（Chng-téng-lō͘）
 莒光號（Kí-kong-hō）
+莒光路（Kú-kong-lōo | Kú-kong-lō͘）
+莒光鄉（Kí-kong-hiong）
 莫亂吼（mài luān háu）
 莫佇後壁講人的歹話（Mài tī āu-piah kóng lâng ê pháinn-uē）
 莫佇遐咧喙𪁎（mài tī hia leh tshuì-tshio）
@@ -12885,9 +13257,15 @@
 莫閣踅踅唸（mài koh se̍h-se̍h-liām）
 莫食遐雄，對胃無好（Mài tsia̍h hiah hiông, tuì uī bô hó）
 莫（mài）
+莿仔埒（Kíng-á-phû | Keng-á-phû）
 莿桐巷（Tshì-tông-hāng）
+莿桐鄉（Chhì-tông-hiong）
 菁仔欉（tshenn-á-tsâng）
 菁桐坑（Tshinn-tông-khinn | Tshenn-tông-khenn）
+菁桐（Tshing-tông | Chheng-tông）
+菁礐橋（Chhiⁿ-ha̍k-kiô）
+菁礐溪（Chhiⁿ-ha̍k-khe）
+菅蓁林（Kuann-tsin-nâ）
 菇囝（koo-kiánn）
 菇油膏（koo-iû-ko）
 菇（koo）
@@ -12935,8 +13313,15 @@
 菠薐仔（pue-lîng-á）
 菠薐菜（pue-lîng-tshài）
 菩提（phô͘-thê）
+華中橋（Huâ-tiong-kiô | Hôa-tiong-kiô）
+華僑高中（Huâ-kiâu Ko-tiong | Hôa-kiâu Ko-tiong）
 華安（Hûa-an）
+華山公園（Huâ-san Kong-hn̂g | Hôa-san Kong-hn̂g）
+華山文創園區（Huâ-san Bûn-tshòng Hn̂g-khu | Hôa-san Bûn-chhòng Hn̂g-khu）
+華山（Huâ-san | Hôa-san）
 華文（Huâ-bûn）
+華江橋（Huâ-kang-tuā-kiô）
+華翠大橋（Huâ-tshuì-kiô）
 菱角喙（lîng-kak-tshuì）
 菱角龍（Lîng-kak-liông）
 萬丈深坑（bān-tn̄g-tshim-khenn | bān-tn̄g-tshim-khinn）
@@ -13268,6 +13653,7 @@
 虼蠐（ka-tsê）
 蚊蟀（Báng-sut）
 蚩尤（Tshi-iû）
+蚵仔寮（Ô-á-liâu）
 蚵仔菇（ô-á-koo）
 蚵炱（ô-te）
 蚶仔餅（ham-á-piánn）
@@ -13771,8 +14157,10 @@
 設計師（siat-kè-su）
 許世楷（Khóo Sè-khái | Khóo Sìn-liông）
 許信良（Khóo Sìn-liông）
+許厝前（Khóo-tshù-tsîng | Khó͘-chhù-chêng）
 許國輝（Khóo Kok-hui）
 許崑源（Khóo Khun-guân）
+許昌街（Hí-tshiong-kue | Hí-chhiong-koe）
 許董的（Khóo-táng--ê）
 許藏春故居（Khóo Tsông-tshun Kòo-ku）
 許（khóo）
@@ -13781,6 +14169,7 @@
 註解（tsù-kái）
 詐欺犯（tsà-khi-huān）
 詐騙集團（tsà-phiàn tsi̍p-thuân）
+詔安厝（Tsiàu-an-tshù | Chiàu-an-chhù）
 詔安（Tsiàu-an）
 評判先生（phîng-phuànn sin-senn）
 評審老師（phîng-sím lāu-su）
@@ -13978,9 +14367,12 @@
 豔麗（iām-lē）
 豚骨（thûn-kut）
 象夫（tshiūnn-hu）
+象山公園（Tshiūnn-suann Kong-hn̂g | Chhiūⁿ-soaⁿ Kong-hn̂g）
 象山（Siōng-san）
+象山（Tshiūnn-suann）
 象徵（siōng-tsing）
 象桮（sīn-pue | siōnn-pue | siūnn-pue）
+象頭埔（Tshiūnn-thâu-poo | Chhiūⁿ-thâu-po͘）
 象鼻湖（Tshiūnn-phīnn-ôo）
 豪（hô）
 豬仔過槽芳（ti-á kuè-tsô phang）
@@ -14032,6 +14424,7 @@
 負電（hū-tiān）
 財團法人（tsâi-thuân-huat-jîn）
 財產證明（tsâi-sán tsìng-bîng）
+貢寮區（Kòng-liâu-khu）
 貧惰包（pīn-tuānn-pau）
 貧惰河馬（pîn-tuānn-hô-bé）
 貧惰骨（pîn-tuānn-kut）
@@ -14049,6 +14442,7 @@
 貴州省（Kuì-tsiu-síng）
 貴州（Kuì-tsiu）
 貴氣（kuì-khì）
+貴興路（Kuì-hing-lōo | Kùi-heng-lō͘）
 買一條袚鍊送伊（Bé tsi̍t tiâu phua̍h-liān sàng--i）
 買一送一（mái-it-sòng-it）
 買物（bé-bu̍t）
@@ -14526,6 +14920,7 @@
 軟膠果（nńg-ka-kó）
 軟茈（nńg-tsiánn）
 軟針（nńg-tsiam）
+軟體園區（Nńg-thé Hn̂g-khu）
 軟（nńg）
 軸心國（ti̍k-sim-kok）
 軸線（ti̍k-suànn）
@@ -14644,6 +15039,7 @@
 返（huán）
 迴廊（huê-lông）
 迴腸（huê-tn̂g）
+迴龍（Huê-liông）
 迵光（thàng-kng）
 迵天芳（Thàng-thinn-phang）
 迵海（thàng-hái）
@@ -14654,6 +15050,7 @@
 迷魂水雞（Bê-hûn-tsuí-ke）
 迷魂肚胿（Bê-hûn-tōo-kui）
 迷（bê）
+追分（Tui-hun）
 追揣（tui-tshuē | tui-tshē）
 退保（thè-pó）
 退潮（thè-tiâu）
@@ -14804,6 +15201,7 @@
 這領衫的線路車了有媠（Tsit niá sann ê suànn-lōo tshia liáu ū suí）
 這領衫穿起來傷縛（Tsit niá sann tshīng--khí-lâi siunn pa̍k）
 這首歌真好聽（tsit siú kua tsin hó-thiann）
+這馬下勻的少年人（Tsit-má ē-ûn ê siàu-liân-lâng）
 這馬幾點（tsit-má-kuí-tiám）
 這馬症頭已經誠嚴重矣
 這馬開始欲趁大錢囉！（Tsit-má khai-sí beh thàn tuā tsînn--looh!）
@@ -14813,6 +15211,7 @@
 這鼎肉我滷規下晡，芳絳絳（Tsit tiánn bah guá lóo kui ē-poo, phang-kòng-kòng）
 這齣電影我若像捌看過（Tsit tshut tiān-iánn guá ná-tshiūnn bat khuànn--kuè）
 通世界（thong-sè-kài）
+通北街（Thong-pak-ke）
 通參考（thang tsham-khó）
 通告（thong-kò）
 通懷仔（thong-kuî-á）
@@ -14825,17 +15224,22 @@
 通貨膨脹（thong-hònn phòng-tiòng | thong-huè phòng-tiùnng）
 通起來（thong--khí--lâi）
 通身軀（thong-sin-khu）
+通霄鎮（Thong-siau-tìn）
+通霄（Thong-siau）
 通鼓（thong-kóo）
 通（thong）
 逛夜市（se̍h iā-tshī）
 速緊（sok-kín）
 速速（sok-sok）
+造橋鄉（Chō-kiô-hiong）
+造橋（Tsō-kiô | Chō-kiô）
 逢甲（Hông-kah）
 連假（liân-ká）
 連半个人影嘛無（Liân puànn ê lâng-iánn mā bô）
 連戰（Liân Tsiàn）
 連接空（liân-tsiap-khang）
 連接體（liân-tsiap-thé）
+連江縣（Liân-kang-kuān | Liân-kang-koān）
 連江（Liân-kang）
 連看覓（liân-khuànn-māi）
 連紲比價（liân-suà-pí-kè）
@@ -14849,9 +15253,12 @@
 連鞭，連鞭（liâm-pinn, liâm-pinn）
 進一步（tsìn-tsi̍t-pōo）
 進前（tsìn-tsîng）
+進安公園（Tsìn-an Kong-hn̂g | Chìn-an Kong-hn̂g）
 進擊之巨人（Tsìn-kik tsi Kī-jîn）
 進擊的巨人（Tsìn-kik ê Kī-jîn）
 進無步，退無路（tsìn bô-pōo, thè bô-lōo）
+逸仙國小（I̍t-sian-kok-sió）
+逸仙路（I̍t-sian-lōo | I̍t-sian-lō͘）
 逾越節（Jû-ua̍t-tseh）
 遂昌（Sūi-tshiong）
 遊學仙（iû-o̍h-sian）
@@ -14945,6 +15352,7 @@
 遮是佗位（tsia sī tó-uī）
 遮是佗位？（Tsia sī tó-uī?）
 遮濟（tsiah tsē）
+遮爾重要的物件竟然無紮（Tsiah-nī tiōng-iàu ê mih-kiānn kìng-jiân bô tsah）
 遮爾（tsiah-nī）
 遮的花愛沃水（Tsia-ê hue ài ak-tsuí）
 遮的菜尾攏共包起來（Tsia-ê tshài-bué lóng kā pau--khí-lâi）
@@ -14998,6 +15406,7 @@
 郭雨新（Kueh Ú-sin）
 郭（kueh）
 郵寄選票（iû-kià suán-phiò）
+郵局前（Iû-kio̍k-tsîng | Iû-kio̍k-chêng）
 郵政劃撥（iû-tsìng ue̍h-puah）
 郵船（iû-tsûn）
 郵輪（iû-lûn）
@@ -15011,6 +15420,8 @@
 鄉愿（hiong-guān）
 鄉村（hing-tshun）
 鄉親父老（hiong-tshin-hū-ló）
+鄉長厝（Hiong-tiúnn-tshù | Hiong-tiuⁿ-chhù）
+鄉雲里（Hiong-ûn-lí）
 鄘風（Iông-hong）
 鄙厘怯屎（pí-lî-khiap-sái）
 鄙厘（phí-lî）
@@ -15089,6 +15500,7 @@
 野狼仔一二五（iá-lông-á it-jī-ngóo | iá-lông-á it-lī-ngóo）
 野球場（iá-kiû-tiûnn）
 野蓮（iá-liân）
+野銀村（Iá-gîn-tshun）
 量其約仔（liōng-kî-iok-á | liāng-kî-iok-á）
 量其約（liāng-kî-iak）
 量大小（liāng-tāi-siáu | liōng-tāi-siáu）
@@ -15390,14 +15802,17 @@
 閃離開（siám lî-khui）
 閉思（pì-sù）
 開仔（khui-á）
+開元國小（Khui-guân-kok-sió）
 開刀房（khui-to-pâng）
 開刀（khui-to）
+開南中學（Khai-lâm Tiong-ha̍k）
 開向（khui-hiàng）
 開喙蚶，粒粒臭（khui-tshuì ham, lia̍p-lia̍p tshàu）
 開喙豆（khui-tshuì-tāu）
 開山王廟（Khai-san-ông-biō）
 開山王（Khai-san-ông）
 開山神社（Khai-san Sîn-siā）
+開平餐飲學校（Khai-pîng Tshan-ím Ha̍k-hāu | Khai-pêng Chhan-ím Ha̍k-hāu）
 開張大吉（khai-tiong-tāi-kiat）
 開放原始碼（khai-hòng guân-sí-bé）
 開放資料（khai-hòng-tsu-liāu）
@@ -15445,6 +15860,7 @@
 閣毋起來，你會袂赴（Koh m̄--khí-lâi, lí ē bē-hù）
 閣流喙瀾（koh lâu-tshuì-nuā）
 閣講嘛是無彩工（Koh kóng mā sī bô-tshái-kang）
+閣講嘛無效矣（Koh kóng mā bô-hāu--ah）
 閣較（koh-khah）
 閣（koh）
 閩中語（Bân-tiong-gí | Bân-tiong-gú）
@@ -15608,6 +16024,7 @@
 陳俊秀（Tân Tsùn-siù）
 陳元光（Tân Guân-kong）
 陳凰鳳（Tân Hông-hōng）
+陳厝（Tân-tshù | Tân-chhù）
 陳問言（Tân Būn-giân）
 陳啟川（Tân Khé-tshuan）
 陳嘉樺（Tân Ka-hûa）
@@ -15626,6 +16043,7 @@
 陳日君（Tân Ji̍t-kun）
 陳明文（Tân Bîng-bûn）
 陳時中（Tân Sî-tiong）
+陳有蘭溪（Tân-iú-lân-khe）
 陳柏惟（Tân Pek-ûi）
 陳柔縉（Tân Jiû-chìn）
 陳查某（Tân tsa-bóo）
@@ -15656,8 +16074,12 @@
 陸提（lio̍k-thê）
 陸龜（lio̍k-ku）
 陽仔目（iông-á-ba̍k）
+陽光峇里（Iông-kong Pa-lí）
 陽字（iông-jī）
+陽明山（Iông-bîng-suaⁿ）
+陽金公路（Iông-kim Kong-lōo | Iông-kim Kong-lō͘）
 陽電（iông-tiān）
+隆田（Liông-tiân）
 階乘（kai-sîng）
 隔冬（keh-tang）
 隔壁位（keh-piah-uī）
@@ -15709,6 +16131,8 @@
 集倚（tsi̍p-uá）
 集線器（tsi̍p-suànn-khì）
 集美（Tsi̍p-bí）
+集集鎮（Chi̍p-chi̍p-tìn）
+集集（Tsi̍p-tsi̍p | Chi̍p-chi̍p）
 集點卡（tsi̍p-tiám-khá）
 雌雄眼（tshú hiông gán）
 雍正（Iong-tsìng）
@@ -15834,6 +16258,7 @@
 雨落遮爾大，我看會做大水（Hōo lo̍h tsiah-nī tuā, guá khuànn ē tsò-tuā-tsuí）
 雨點仔（hōo-tiám-á）
 雪尪仔（seh-ang-á）
+雪山磅空（Suat-suann Pōng-khang | Soat-soaⁿ Pōng-khang）
 雪帽（seh-bō）
 雪文戲（sap-bûn-hì）
 雪文沫（sap-bûn-phue̍h | sap-muî-phe̍h | sap-muî-phe̍rh）
@@ -15845,7 +16270,10 @@
 雪花（seh-hue）
 雪車犬（suat-tshia-khián）
 雲吞（hûn-thun）
+雲和街（Ûn-hô-kue | Ûn-hô-koe）
 雲和（Hûn-hô）
+雲林縣（Hûn-lîm-kuān | Hûn-lîm-koān）
+雲林（Hûn-lîm）
 雲湧（hûn-íng）
 雲石（hûn-tsio̍h）
 雲端發票（hûn-tuan huat-phiò）
@@ -16123,21 +16551,41 @@
 頁面（ia̍h bīn）
 頂一站仔（tíng-tsi̍t-tsām-á）
 頂個月（tíng-kè-gue̍h）
+頂公館（Tíng-kong-kuán | Téng-kong-koán）
 頂冬的收成袂䆀（Tíng-tang ê siu-sîng bē-bái）
 頂半工（tíng-puànn-kang）
 頂半晝仔（tíng-puànn-tàu-á）
 頂半晡（tíng-puànn-poo）
+頂南埔（Tíng-lâm-poo | Téng-lâm-po͘）
+頂厝庄仔（Tíng-tshù-tsng-á | Téng-chhù-chng-á）
 頂司管下司，鋤頭管畚箕（tíng-si kuán ē-si, tî-thâu kuán pùn-ki）
 頂回（tíng-huê）
+頂園仔（Tíng-hn̂g-á | Téng-hn̂g-á）
+頂埔國小（Tíng-poo Kok-sió | Téng-po͘ Kok-sió）
+頂埔（Tíng-poo | Téng-po͘）
+頂埤（Tíng-pi | Téng-pi）
+頂塊廖（Tíng-tè-liāu | Téng-tè-liāu）
+頂塊黃（Tíng-tè-n̂g | Téng-tè-n̂g）
+頂塔悠（Tíng-ta̍h-iu | Téng-tah-iu）
 頂大靜脈（tíng-tuā-tsīng-me̍h）
+頂好市場（Tíng-hó Tshī-tiûnn | Téng-hó Chhī-tiûⁿ）
 頂客族（tíng-kheh-tso̍k）
+頂寮（Tíng-liâu | Téng-liâu）
+頂崙尾（Tíng-lūn-bé | Téng-lūn-bé）
 頂幫（tíng-pang）
+頂店（Tíng-tiàm | Téng-tiàm）
 頂手鬥下手（tíng-tshiú tàu ē-tshiú）
 頂改（tíng-kái）
+頂朥胥（Tíng-lau-su）
+頂東勢（Tíng-tang-sè | Téng-tang-sè）
 頂氣接袂著下氣（tíng khuì tsiap bē tio̍h ē khuì）
 頂沿（tíng-iân）
 頂流（tíng-liû）
 頂港有名聲，下港有出名（tíng-káng ū miâ-siann, ē-káng ū tshut-miâ）
+頂湖（Tíng-hó | Tíng-hôo）
+頂溪墘（Tíng-khue-kînn | Téng-khoe-kîⁿ）
+頂溪洲（Tíng-khue-tsiu | Téng-khoe-chiu）
+頂溪（Tíng-khue）
 頂爿（tíng-pîng）
 頂皮組織（tíng-phûe-tsoo-tsit）
 頂看（tíng-khuànn）
@@ -16151,6 +16599,7 @@
 頂重下輕（tíng-tāng-ē-khin）
 頂頂下下（tíng-tíng-ē-ē）
 頂頂個月（tíng-tíng-kò-gue̍h）
+順天國中（Sūn-thian Kok-tiong）
 順序（sūn-sī | sūn-sū）
 順昌（Sūn-tshiong）
 順桮（sīn-pue）
@@ -16519,23 +16968,30 @@
 馬偕醫學院（Má-kai I-ha̍k-īnn）
 馬克杯（má-khik-pue）
 馬公厝（bé-kong-tshù）
+馬公市（Má-keng-chhī）
 馬其頓（Má-kî-tùn）
 馬加智（Má-ka-tì）
 馬卡朗（ma-khá-lóng）
+馬卡道（Ma-ká-táu）
 馬卡龍（bé-kha̍h-liông）
 馬卵（bé-nn̄g）
 馬大安（Ma-tá-án | Má-tāi-an）
+馬太鞍溪（Má-tāi-an-khe）
 馬太鞍（Má-tāi-an | Ma-tá-án）
 馬尼拉（má-nî-la）
 馬尾區（Má-bué-khu）
 馬尾（Má-bué）
+馬明潭（Má-bîng-thâm | Má-bêng-thâm）
 馬查蘭（Má-tsa-lân | Má-tshâ-lân）
+馬槽橋（Bé-chô-kiô）
 馬武窟（Má-bú-khut）
+馬港（Má-káng）
 馬狗琴（bé-káu-khîm）
 馬花糋（bé-hue-tsìnn）
 馬英九（Bé-á Ing-káu | Má Ing-káu | Má Ing-kiú）
 馬茶花（bé-tê-hue）
 馬草（bé-tsháu）
+馬賽（Má-sài）
 馬賽（má-sài）
 馬走標（bé-tsáu-pio）
 馬蹄糋（bé-tê-tsìnn | bé-tuê-tsìnn）
@@ -16626,24 +17082,33 @@
 髖（khuan）
 高句麗（Ko-kù-lê）
 高品質（ko-phín-tsit）
+高園（Ko-hn̂g）
 高地防禦基地（ko-tē hông-gī ki-tē）
 高坎（ko-khám）
+高屏溪（Ko-pîn-khe）
 高山茶（ko-suann-tê）
 高崎（Ko-kiā）
 高成炎（Ko Sêng-iām）
 高明（ko-bîng）
 高根（ko-kun）
 高樹跤（Ko-tshiū-kha）
+高樹鄉（Ko-chhiū-hiong）
 高樹（Ko-tshiū）
 高等（ko-tíng）
 高級衛生紙（ko-kip-uī-sing-tsuá）
 高血油（ko hueh-iû | ko-hiat-iû）
 高速公路（ko-sok-kong-lōo）
 高金素梅（Ko Kim Sòo-mûi）
+高鐵桃園站（Ko-thih Thô-hn̂g-tsām）
 高鐵站（ko-thih-tsām）
+高鐵臺中站（Ko-thih Tâi-tiong-tsām）
 高長大漢（ko-tshiâng tuā-hàn）
+高雄國際機場（Ko-hiông Kok-tsè Ki-tiûnn）
 高雄展覽館（Ko-hiông Tián-lám-kuán）
+高雄市（Ko-hiông-tshī | Ko-hiông-chhī）
+高雄車站（Ko-hiông Tshia-tsām）
 高雄（Ko-hiông）
+高麗坑（Ko-lê-khinn | Ko-lê-khiⁿ）
 高黐麵粉（ko-thi mī-hún）
 髡毛（khun-moo | khun-mn̂g）
 髡髮（khun-huat）
@@ -16712,6 +17177,7 @@
 魚櫥仔（hî-tû-á）
 魚池仔（hî-tî-á）
 魚池箱（hi-ti-siunn）
+魚池鄉（Hî-tî-hiong）
 魚狗（hî-káu）
 魚粿（hî-kué）
 魚糋（hî-tsìnn）
@@ -16778,6 +17244,7 @@
 鳥仔籠（tsiáu-á-lam | tsiáu-á-lang | tsiáu-á-lâng）
 鳥仔（tsiáu-á）
 鳥岫（tsiáu-á-siū）
+鳥松區（Chiáu-chhêng-khu）
 鳥松跤（Tsiáu-tshîng-kha）
 鳥鵤（tsiáu-kak）
 鳥鼠仔刺（niáu-tshí-á-tshì）
@@ -16864,19 +17331,29 @@
 鹿仔草庄（Lo̍k-á-tsháu-tsng）
 鹿兒島（lo̍k-jî-tó）
 鹿城（Lo̍k-siânn）
+鹿寮溪（Lo̍k-liâu-khe）
 鹿寮（Lo̍k-liâu）
+鹿港鎮（Lo̍k-káng-tìn）
 鹿滿（Lo̍k-buán）
 鹿耳門（Lo̍k-ní-mn̂g）
+鹿草鄉（Lo̍k-chháu-hiong）
 鹿草（Lo̍k-tsháu）
 鹿角仙（lo̍k-kak-sian）
+鹿角坑溪（Lo̍k-kak-khinn-khue | Lo̍k-kak-khiⁿ-khoe）
 鹿角龜（lo̍k-kak-ku）
+鹿谷鄉（Lo̍k-kok-hiong）
+鹿野溪（Lo̍k-iá-khe）
+鹿野鄉（Lo̍k-iá-hiong）
 鹿野鼢鼠（Lo̍k-iá bùn-tshí | Lo̍k-iá bùn-tshú）
+鹿野（Lo̍k-iá）
 鹿頸（lo̍k-kíng）
+鹿麻產（Lo̍k-muâ-sán | Lo̍k-Môa-sán）
 鹿麻產（Lo̍k-muâ-sán）
 麋鹿（bî-lo̍k）
 麒麟鹿（kî-lîn-lo̍k）
 麗水（Lē-tsúi）
 麥仔角（be̍h-á-kak）
+麥寮鄉（Be̍h-liâu-hiong）
 麥寮（Be̍h-liâu）
 麥田（be̍h-tshân）
 麥當勞（Be̍h-tang-lô | Be̍h-tng-lô | Be̍h-tong-lô | Bi̍k-tong-lô）
@@ -16911,6 +17388,7 @@
 麻荖漏（Muâ-láu-lāu）
 麻薟鍋（bâ-hiam-ko）
 麻薩諸塞（Muâ-sat-tsu-sài）
+麻豆區（Moâ-tāu-khu）
 麻辣（bâ-lua̍h）
 麻醉科（bâ-tsuì-kho）
 麻醬麵（muâ-tsiùnn-mī）
@@ -16918,6 +17396,7 @@
 黃伯勞（n̂g-pik-lô）
 黃俊哲（N̂g tsùn-tiat）
 黃信介（N̂g Sìn-kài）
+黃厝（N̂g-tshù | N̂g-chhù）
 黃喙鶯仔（n̂g-tshuì ing-á | uînn-tshuì ing-á）
 黃國昌（N̂g Kok-tshiong）
 黃威廷（Uînn-ui-tîng）
@@ -16928,6 +17407,7 @@
 黃捷（N̂g Tsia̍p）
 黃昏个日頭（hông-hun ê ji̍t-thâu）
 黃梅時節（n̂g-muî sî-tseh）
+黃溪堀（N̂g-khe-khut）
 黃牛票（n̂g-gû-phiò）
 黃疸（n̂g-thán）
 黃磚鼠（N̂g-tsng-tshí）
