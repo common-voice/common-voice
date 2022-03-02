@@ -389,6 +389,7 @@ off = Inactive
 on = Active
 help-accent = Besonia tu auxilio con le accento?
 help-accent-explanation = Tu accento es le maniera que tu pronuncia le vocabulos. Illo pote esser formate per ubi tu viveva, qual altere linguas tu parla e plure altere factores. Tu pote compartir ulle informationes que tu senti esser pertinente hic.
+help-variants = Besonia tu de auxilio con le variantes?
 
 ## Profile - Email
 
