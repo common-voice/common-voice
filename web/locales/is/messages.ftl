@@ -1146,15 +1146,50 @@ sc-submit-err-select-lang = Veldu tungumál.
 sc-submit-err-add-sentences = Bættu við setningum.
 sc-submit-err-add-source = Bættu við heimild.
 sc-submit-err-confirm-pd = Staðfestu að þessar setningar séu í almenningseigu.
+sc-submit-prompt =
+    .message = Setningar vori ekki sendar inn, ertu viss um að þú viljir fara?
 sc-submit-title = Bæta við setningum
 sc-submit-select-language =
     .labelText = Veldu tungumál
+sc-submit-add-sentences = Bættu við setningum <wikipediaLink>í almenningseigu</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Ein setning í hverri línu
+sc-submit-from-where = Hvaðan eru þessar setningar <wikipediaLink>í almenningseigu</wikipediaLink>?
+sc-submit-confirm = Ég staðfesti að þessar setningar eru <wikipediaLink>í almenningseigu</wikipediaLink> og að ég hef leyfi til að senda þær inn.
+sc-submit-button =
+    .submitText = Senda inn
+sc-submit-guidelines = Athugaðu <howToLink>leiðbeiningarnar</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Gat ekki bætt við tungumáli
+sc-add-lang-sec-label = Bættu við tungumáli þar sem þú vilt leggja þitt af mörkum
+sc-add-lang-sec-button = Bæta við tungumáli
+sc-add-err-unexpected = Óvænt svar barst frá netþjóni
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Innsendar setningar. { $duplicates } setningum var hafnað sem tvítekningum.
+        [one] Innsendar setningar. { $duplicates } setningu var hafnað sem tvítekningu.
+       *[other] Innsendar setningar. { $duplicates } setningum var hafnað sem tvítekningum.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Engar setningar mistókust
+        [one] 1 setning mistókst
+       *[other] { $setningar } setningar mistókust
+    }
+sc-add-err-submission = Villa í innsendingu
+sc-add-lang-process-notice = Ef tungumálið þitt er ekki skráð hér, þá geturðu beðið um það í gegnum <languageProcessLink>þetta ferli</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Setningar vori ekki sendar inn, ertu viss um að þú viljir fara?
+sc-confirm-sentences-title = Staðfestu nýjar setningar
 
 ## LANGUAGE INFO
 
