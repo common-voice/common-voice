@@ -1190,12 +1190,63 @@ sc-add-lang-process-notice = Ef tungumálið þitt er ekki skráð hér, þá ge
 sc-confirm-are-you-sure =
     .message = Setningar vori ekki sendar inn, ertu viss um að þú viljir fara?
 sc-confirm-sentences-title = Staðfestu nýjar setningar
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Engar setningar fundust.
+        [one] 1 setning fannst.
+       *[other] { $countOfSentences } setningar fundust.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } hafnað af þér
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Engar setningar hafa verið yfirfarnar.
+        [one] 1 setning hefur þegar verið yfirfarin. Frábært starf!
+       *[other] { $countOfReviewed } setningar hafa þegar verið yfirfarnar. Vel gert!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Engar setningar tilbúnar til innsendingar!
+        [one] 1 setning tilbúin til innsendingar!
+       *[other] { $readyCount } setningar tilbúnar til innsendingar!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } setningar eru ekki yfirfarnar. Ef þú vilt geturðu einnig farið yfir setningarnar þínar núna áður en þú sendir þær inn.
+sc-confirm-button-text = Staðfesta
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Samtals
+sc-lang-info-title-personal = Persónulegt
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Engar setningar.
+        [one] 1 setning alls.
+       *[other] { $totalSentences } setningar alls.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Engar setningar í yfirferð.
+        [one] 1 setning í yfirferð.
+       *[other] { $totalInReview } setningar í yfirferð.
+    }
+sc-lang-info-review-now = <reviewLink>Farðu yfir núna!</reviewLink>
+sc-lang-info-add-more = <addLink>Bættu við fleiri setningum núna!</addLink>
 
 ## LOGIN
 
+sc-login-err-failed = Innskráning mistókst
+sc-login-err-try-again = Vinsamlegast reyndu aftur.
 
 ## PROFILE
 
@@ -1213,6 +1264,12 @@ sc-personal-not-added = Þú hefur ennþá ekki bætt við neinum tungumálum.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Viðmið yfirferðar
+sc-criteria-title = Viðmið yfirferðar
+sc-criteria-make-sure = Gakktu úr skugga um að setningin uppfylli eftirfarandi skilyrði:
+sc-criteria-item-1 = Setningin verður að vera rétt stafsett.
+sc-criteria-item-2 = Setningin verður að vera málfræðilega rétt.
+sc-criteria-item-3 = Setningin verður að vera lesanleg.
 
 ## REVIEW
 
