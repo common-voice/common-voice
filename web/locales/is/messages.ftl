@@ -1120,12 +1120,22 @@ sc-my-err-failed-delete = Mistókst að eyða völdum setningum... Reyndu endile
 ## REJECTED
 
 sc-rejected-title = Hafnaðar setningar
+sc-rejected-loading = Hleð inn höfnuðum setningum...
+sc-rejected-err-fetching = Villa við að sækja setningar sem hefur verið hafnað. Reyndu aftur.
+sc-rejected-none-found = Engar hafnaðar setningar fundust!
 
 ## STATS
 
+sc-stats-title = Tölfræði
+sc-stats-updating = Uppfæri…
+sc-stats-error = Við gátum ekki sótt tölfræðina. Reyndu aftur síðar.
 
 ## ADD
 
+sc-submit-err-select-lang = Veldu tungumál.
+sc-submit-err-add-sentences = Bættu við setningum.
+sc-submit-err-add-source = Bættu við heimild.
+sc-submit-err-confirm-pd = Staðfestu að þessar setningar séu í almenningseigu.
 
 ## ADD LANGUAGE
 
