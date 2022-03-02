@@ -1219,6 +1219,7 @@ sc-confirm-ready =
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } setningar eru ekki yfirfarnar. Ef þú vilt geturðu einnig farið yfir setningarnar þínar núna áður en þú sendir þær inn.
 sc-confirm-button-text = Staðfesta
+sc-confirm-uploading = Verið er að senda inn setningar. Þetta getur tekið nokkrar mínútur eftir fjölda þeirra setninga sem bætt er við. Ekki loka þessum vef á meðan.
 
 ## LANGUAGE INFO
 
@@ -1240,8 +1241,32 @@ sc-lang-info-in-review =
         [one] 1 setning í yfirferð.
        *[other] { $totalInReview } setningar í yfirferð.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Engar setningar eftir sem þú getur farið yfir.
+        [one] 1 setning eftir sem þú getur farið yfir.
+       *[other] { $unreviewedSentencesByYou } setningar eftir sem þú getur farið yfir.
+    }
 sc-lang-info-review-now = <reviewLink>Farðu yfir núna!</reviewLink>
 sc-lang-info-add-more = <addLink>Bættu við fleiri setningum núna!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Engar fullgiltar setningar.
+        [one] 1 fullgilt setning.
+       *[other] { $validatedSentences } fullgiltar setningar.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Engum setningum hafnað.
+        [one] 1 setningu hafnað.
+       *[other] { $rejectedSentences } setningum hafnað.
+    }
 
 ## LOGIN
 
@@ -1270,10 +1295,29 @@ sc-criteria-make-sure = Gakktu úr skugga um að setningin uppfylli eftirfarandi
 sc-criteria-item-1 = Setningin verður að vera rétt stafsett.
 sc-criteria-item-2 = Setningin verður að vera málfræðilega rétt.
 sc-criteria-item-3 = Setningin verður að vera lesanleg.
+sc-criteria-item-4 = Ef setningin uppfyllir skilyrðin, skaltu smella á &quot;Samþykkja&quot;-hnappinn hér til hægri.
+sc-criteria-item-5-2 = Ef setningin uppfyllir ekki ofangreind skilyrði skaltu smella á &quot;Hafna&quot; hnappinn hér til vinstri. Ef þú ert ekki viss um setninguna geturðu líka sleppt henni og farið yfir í þá næstu.
 
 ## REVIEW
 
 sc-review-lang-not-selected = Þú hefur ekki valið nein tungumál. Farðu í <profileLink>notkunarsniðið</profileLink> þitt til að velja tungumál.
+sc-review-title = Yfirfara setningar
+sc-review-loading = Hleð inn setningum...
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Heimild: { $sentenceSource }
+sc-review-form-button-reject = Hafna
+sc-review-form-button-skip = Sleppa
+sc-review-form-button-approve = Samþykkja
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Þú getur líka notað flýtilykla: { sc-review-form-button-approve-shortcut } til að samþykkja, { sc-review-form-button-reject-shortcut } til að hafna, { sc-review-form-button-skip-shortcut } til að sleppa
+sc-review-form-button-submit =
+    .submitText = Ljúka yfirferð
 
 ## SETTINGS
 
