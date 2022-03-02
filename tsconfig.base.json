@@ -2,6 +2,7 @@
   "compilerOptions": {
     "noImplicitAny": true,
     "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
     "lib": ["es2017", "dom", "esnext.asynciterable"]
   }
 }

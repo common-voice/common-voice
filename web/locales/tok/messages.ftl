@@ -1382,7 +1382,7 @@ sc-review-select-language = o kepeken toki la, sina ken lukin e sitelen
 sc-review-no-sentences = sitelen sin li lon ala. <addLink>o pana e sitelen sin lon tenpo ni!</addLink>
 sc-review-form-prompt =
     .message = sina lukin li pana ala e sitelen. sina wile ala wile pali e ni?
-sc-review-form-usage = sina luka tawa poka pi sitelen pini la, sina pona e sitelen. sina luka tawa poka pi sitelen open la, sina ike e sitelen. sina luka tawa sewi la, sina weka e sitelen. o sona e ni: o pana e sona sina!
+sc-review-form-usage = sina luka tawa poka pi sitelen pini (→) la, sina pona e sitelen. sina luka tawa poka pi sitelen open (←) la, sina ike e sitelen. sina luka tawa sewi (↑) la, sina weka e sitelen. o sona e ni: o pana e sona sina!
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = sitelen li tan: { $sentenceSource }
