@@ -594,6 +594,10 @@ about-playbook-how-grow-language-content-6 = Samstarf og tengslanet
 ## How to validate
 
 about-playbook-how-validate = Hvernig veit ég hvort ég á að samþykkja raddsýni?
+about-playbook-how-validate-content-1 = Ef þú gast <strong>heyrt þær</strong> og <strong>skilið þær</strong>, er venjulega <strong>best að samþykkja</strong>.
+about-playbook-how-validate-content-2 = <strong>Ekki hafna hljóðsýnum þar sem mælandinn „hefur hreim“ sem er annar en þinn eigin</strong> - þetta er mikilvægt til að raddgreining virki betur fyrir alla.
+about-playbook-how-validate-content-3 = Ef þú heldur að framburðurinn geri að verkum að <strong>ómögulegt sé að skilja</strong> þetta, að þarna séu <strong>of mikil bakgrunnshljóð</strong>, eða þarna séu <strong>aðrir sem tala á sama tíma</strong>, þá ertu ætti að hafna raddsýninu. <accuracyLink>Sjáðu frekari upplýsingar í nákvæmnisviðmiðunum okkar</accuracyLink>.
+about-playbook-how-validate-content-4 = Ef hljóðsýni er hafnað af tveimur aðilum, er það gefið út í öðru undirmengi gagnasafnsins.
 
 ## How to access dataset
 
@@ -1118,6 +1122,8 @@ sc-howto-review-criteria-2 = Setningin verður að vera málfræðilega rétt.
 sc-howto-review-criteria-3 = Setningin verður að vera lesanleg.
 sc-howto-review-criteria-4 = Ef setningin uppfyllir skilyrðin skaltu smella á „Samþykkja“-hnappinn.
 sc-howto-review-criteria-5 = Ef setningin uppfyllir ekki ofangreind skilyrði skaltu smella á „Hafna“ hnappinn. Ef þú ert ekki viss um setninguna geturðu líka sleppt henni og farið yfir í þá næstu.
+sc-howto-findpd-title = Að finna fyrirliggjandi setningar í almenningseign
+sc-howto-findpd-subtitle = Leitaðu að þeim á internetinu
 
 ## MY SENTENCES
 
