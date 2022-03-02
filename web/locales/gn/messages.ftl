@@ -572,6 +572,7 @@ about-playbook-how-grow-language-content-6 = Ñemboaty ha ñandutieta
 ## How to validate
 
 about-playbook-how-validate = ¿Mba’éicha aikuaáta amoneĩtaha ñe’ẽayvu jekutu?
+about-playbook-how-validate-content-4 = Mokõi tapicha omboykérõ jekutu, ojehecháta peteĩ tenda’i iñambuéva mba’ekuaarã atýgui.
 
 ## How to access dataset
 
@@ -585,6 +586,7 @@ about-playbook-how-project-governance-content-3 = Tekoñemi, tekorosã ha tekosa
 about-playbook-how-project-governance-content-4 = Tekohápe jeike ha mba'e tapépa ojejapyhy.
 about-playbook-how-project-governance-content-5 = Tepykue ha jehechakuaa.
 about-playbook-how-project-governance-content-6 = Jepapapy mokõiveguáva.
+about-playbook-how-project-governance-content-7 = <governanceLink>Emoñe’ẽve mba’éichapa roñemongu’e</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Tembiporu Ikatupyrýva
 mycroft-description =
