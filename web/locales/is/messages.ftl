@@ -563,12 +563,16 @@ about-playbook-how-add-language-content-4 = Þú getur <scLinkAdd>bætt við lit
 
 about-playbook-how-localize = Hvernig virkar staðfærsla vefsvæðis?
 about-playbook-how-localize-content-1 = Þýðing á Common Voice vefsvæðinu fer fram á <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Búðu til reikning</pontoonAccountLink> ef þú ert ekki með slíkan aðgang. Veldu síðan tungumálið þitt <strong>(‘Team’)</strong> og síðan verkefnið <pontoonCvLink>Common Voice</pontoonCvLink>. Þar eru skrár til að þýða. Smelltu á eina þeirra, þá birtist reitur með orðum á ensku og öðrum reit til að þýða þau.
+about-playbook-how-localize-content-3 = Þýtt er úr ensku, en þú getur séð <strong>tillögur</strong> á öðrum tungumálum. Smelltu á <strong>auðkennistákn notandans</strong> og síðan á tengilinn <strong>Stillingar</strong> þar sem þú getur bætt við öðrum tungumálum sem þú talar. Neðst í hægra horninu verður listi yfir þýðingar á öðrum tungumálum sem kallast <strong>Staðfærslur/Locales</strong>. Þýðingar munu birtast á vefsvæðinu eftir einn dag.
 about-playbook-how-localize-content-4 = Vefsvæðið telst er tilbúið til birtingar þegar það nær 75% fullþýddum strengjum.
 about-playbook-how-localize-content-5 = Horfðu á útskýringarmyndskeið okkar til glöggvunar
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Hvernig bæti ég við setningum?
+about-playbook-how-add-sentences-content-2 = Setningar þurfa yfirferð og samþykki af hálfu tveggja aðila til að vera með í Samrómi. Þú getur búið til leiðbeiningar fyrir tungumálið þitt <languageGuidelinesLink>hér</languageGuidelinesLink>. Setningar verða að vera í <licenseLink>almenningseigu</licenseLink> og vera styttri en 15 orð. Þú getur beðið eiganda texta um að gefa hann út með <waiverLink>CC0 notkunarleyfi með því að nota afsalsferli okkar</waiverLink> og senda okkur á commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Þú getur notað <scraperLink>setningaútdrátt</scraperLink> til að nýta stuttar setningar af Wikipedia.
 about-playbook-how-add-sentences-content-4 = Setningar sem hafa verið staðfestar eru fluttar út á miðvikudögum og eru tiltækar eftir næstu útgáfu.
 
 ## How to record quality
