@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Λάβετε email, όπως υπενθυ
 email-opt-in-privacy-v2 = Επιλέγοντας να λαμβάνετε email, δηλώνετε ότι συμφωνείτε με τον χειρισμό αυτών των δεδομένων από τη Mozilla, όπως εξηγεί η <privacyLink>Πολιτική απορρήτου</privacyLink>.
 indicates-required = * Υποχρεωτικό πεδίο
 not-available-abbreviation = Μ/Δ
+banner-error-slow-link = Σελίδα κατάστασης
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
