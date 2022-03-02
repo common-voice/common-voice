@@ -425,6 +425,10 @@ change-email-setings = Breyttu tölvupóstfangi með því að nota stillingar u
 faq-title = Algengar spurningar
 faq-what-cv-q = Hvað er Samrómur?
 faq-what-cv-a = Raddgreiningartækni er að umbylta samskiptum okkar við vélar, en í augnablikinu eru þau kerfi sem standa til boða eru oftast kostnaðarsamur séreignarhugbúnaður. Samrómur er hluti af frumkvæði Mozilla til að bæta raddgreiningartækni og gera hana enn aðgengilegri öllum. Samrómur er alþjóðlegur gagnagrunnur sem samanstendur af raddsýnum sem fólk leggur verkefninu til og gerir hverjum sem er hæglega kleift að þjálfa og skilyrða raddstýrðan hugbúnað á hvaða tungumáli sem er.
+faq-what-cv-a-2 =
+    Raddgreiningartækni er að umbylta samskiptum okkar við vélar, en þau kerfi sem eru í boði eru sem stendur kostnaðarsamur séreignarhugbúnaður. Samrómur er hluti af frumkvæði Mozilla til að bæta raddgreiningartækni og gera hana enn aðgengilegri öllum. Samrómur er umfangsmikill gagnagrunnur sem nær um allan hnöttinn, en hann samanstendur af raddsýnum sem fólk leggur verkefninu til og gerir hverjum manni hæglega kleift að þjálfa og skilyrða raddstýrðan hugbúnað með hvaða tungumáli sem er. 
+    
+    Við söfnum ekki einungis raddsýnum af útbreiddum málum heldur einnig þeim sem hafa fámennari mælendahópa. Með útgáfu fjölbreyttra gagna mun Samrómur styrkja þróendur, frumkvöðla og samfélög til að brúa bilið sjálf.
 faq-why-important-q = Hvers vegna er þetta mikilvægt?
 faq-why-important-a =
     Ein af okkar allra náttúrulegustu leiðum til þess að tjá okkur og eiga samskipti er með tali og tækniframfarir eru að gera okkur kleift að eiga slík samskipti við tölvurnar okkar, síma og önnur tæki. Við viljum efla þróunaraðila til þess að gera frábærar máltæknilausnir eins og textaþýðingar í rauntíma og raddstýrð aðstoðartæki. En til þess þarf góð og nothæf gagnasöfn, og því miður eru fyrirliggjandi gagnasöfn oft kostnaðarsöm og háð notkunarskilmálum séreignarhugbúnaðar. Við vonumst eftir að gagnasafnið á Samrómi muni gefa þróunaraðilum það sem þeir þurfa til nýsköpunar og gera máltæknilausnir aðgengilegar á öllum tungumálum.
@@ -551,6 +555,7 @@ about-playbook-what-is-language-content-3 = Sum tungumál hafa gríðarlegan bre
 
 about-playbook-how-add-language = Hvernig bæti ég við tungumáli?
 about-playbook-how-add-language-content-1 = Athugaðu fyrst hvort tungumálið þitt <languageLink>er þegar til staðar</languageLink>. Ef það gerir það ekki, þarf að <strong>þýða vefsvæðið og safna setningum</strong>.
+about-playbook-how-add-language-content-2 = <strong>Til að þýða vefsvæðið</strong> skaltu <translateVideo>setja upp aðgang</translateVideo> fyrir þig á <pontoonLink>Pontoon</pontoonLink>. Pontoon er með fullt af tungumálum, en ef þitt er ekki sjáanlegt geturðu <pontoonRequestLink>beðið um að það sé virkjað</pontoonRequestLink>. Sendu síðan <repoLink>beiðni í gegnum GitHub</repoLink> um að Common Voice verkefnið verði aðgengilegt fyrir það tungumál. Skoðaðu nánari upplýsingar um <localizationFragment>þýðingar vefsvæðisins</localizationFragment>.
 
 ## How does localization work
 
