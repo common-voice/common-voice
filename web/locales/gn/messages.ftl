@@ -1179,6 +1179,7 @@ sc-rejected-none-found = ¡Ndojejuhúi ñe’ẽrysýi mboykepyre!
 
 sc-stats-title = Papapy’atygua
 sc-stats-updating = Hekopyahuhína…
+sc-stats-error = Ndaikatúi rogueru papapy’atygua. Eha’ãjey ag̃amieve.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
