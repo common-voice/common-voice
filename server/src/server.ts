@@ -24,32 +24,18 @@ import { getConfig } from './config-helper';
 import authRouter from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
 import { createTaskQueues, TaskQueues } from './lib/takeout';
+import getCSPHeaderValue from './csp-header-value';
 
 const contributableLocales = require('locales/contributable.json');
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version';
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
 const MAINTENANCE_PATH = path.join(__dirname, '..', '..', 'maintenance');
-const { RELEASE_VERSION, ENVIRONMENT, PROD, SENTRY_DSN } = getConfig();
+const { RELEASE_VERSION, ENVIRONMENT, SENTRY_DSN, PROD } = getConfig();
+const CSP_HEADER_VALUE = getCSPHeaderValue();
 const SECONDS_IN_A_YEAR = 365 * 24 * 60 * 60;
 
-const CSP_HEADER = [
-  `default-src 'none'`,
-  `child-src 'self' blob:`,
-  `style-src 'self' https://fonts.googleapis.com 'unsafe-inline'`,
-  `img-src 'self' www.google-analytics.com www.gstatic.com https://www.gstatic.com https://*.amazonaws.com https://*.amazon.com https://gravatar.com https://*.mozilla.org https://*.allizom.org data:`,
-  `media-src data: blob: https://*.amazonaws.com https://*.amazon.com`,
-  // Note: we allow unsafe-eval locally for certain webpack functionality.
-  `script-src 'self' 'unsafe-eval' 'sha256-fIDn5zeMOTMBReM1WNoqqk2MBYTlHZDfCh+vsl1KomQ=' 'sha256-Hul+6x+TsK84TeEjS1fwBMfUYPvUBBsSivv6wIfKY9s=' https://www.google-analytics.com https://pontoon.mozilla.org https://sentry.prod.mozaws.net`,
-  `font-src 'self' https://fonts.gstatic.com`,
-  `connect-src 'self' blob: https://pontoon.mozilla.org/graphql https://*.amazonaws.com https://*.amazon.com https://www.gstatic.com https://www.google-analytics.com https://sentry.prod.mozaws.net https://basket.mozilla.org https://basket-dev.allizom.org https://rs.fullstory.com https://edge.fullstory.com`,
-].join(';');
-
-Sentry.init({
-  dsn: getConfig().SENTRY_DSN,
-  release: RELEASE_VERSION,
-});
-
+Sentry.init({ dsn: SENTRY_DSN, release: RELEASE_VERSION });
 export default class Server {
   app: express.Application;
   server: http.Server;
@@ -88,7 +74,7 @@ export default class Server {
         // security-centric headers
         response.removeHeader('x-powered-by');
         response.set('X-Production', PROD ? 'On' : 'Off');
-        response.set('Content-Security-Policy', CSP_HEADER);
+        response.set('Content-Security-Policy', CSP_HEADER_VALUE);
         response.set('X-Content-Type-Options', 'nosniff');
         response.set('X-XSS-Protection', '1; mode=block');
         response.set('X-Frame-Options', 'DENY');
