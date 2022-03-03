@@ -1160,6 +1160,10 @@ sc-rejected-none-found = Engar hafnaðar setningar fundust!
 sc-stats-title = Tölfræði
 sc-stats-updating = Uppfæri…
 sc-stats-error = Við gátum ekki sótt tölfræðina. Reyndu aftur síðar.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Setningasafnari Samróms hefur safnað { $sentenceCount } setningum á { $languageCount } tungumálum!
 
 ## ADD
 
@@ -1176,6 +1180,8 @@ sc-submit-add-sentences = Bættu við setningum <wikipediaLink>í almenningseigu
 sc-submit-ph-one-per-line =
     .placeholder = Ein setning í hverri línu
 sc-submit-from-where = Hvaðan eru þessar setningar <wikipediaLink>í almenningseigu</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Lestu leiðbeiningar okkar ef þú ert ekki viss um hvernig á að tileinka
 sc-submit-confirm = Ég staðfesti að þessar setningar eru <wikipediaLink>í almenningseigu</wikipediaLink> og að ég hef leyfi til að senda þær inn.
 sc-submit-button =
     .submitText = Senda inn
@@ -1318,6 +1324,7 @@ sc-criteria-item-2 = Setningin verður að vera málfræðilega rétt.
 sc-criteria-item-3 = Setningin verður að vera lesanleg.
 sc-criteria-item-4 = Ef setningin uppfyllir skilyrðin, skaltu smella á &quot;Samþykkja&quot;-hnappinn hér til hægri.
 sc-criteria-item-5-2 = Ef setningin uppfyllir ekki ofangreind skilyrði skaltu smella á &quot;Hafna&quot; hnappinn hér til vinstri. Ef þú ert ekki viss um setninguna geturðu líka sleppt henni og farið yfir í þá næstu.
+sc-criteria-item-6 = Ef þú lýkur við að skoða allar tiltækar setningar, þá geturðu hjálpað okkur að safna fleiri setningum!
 
 ## REVIEW
 
