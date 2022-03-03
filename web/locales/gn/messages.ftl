@@ -1275,6 +1275,7 @@ sc-confirm-ready =
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } ñe’ẽjuaju ojehechajey’ỹva. Eipotáramo, avei ehechajeykuaa ne ñe’ẽjuajukuéra eguerahauka mboyve.
 sc-confirm-button-text = Moneĩ
+sc-confirm-uploading = Pehupihína ñe’ẽjuaju. Kóva ipukukuaa heta aravo’i embokuajúramo ñe’ẽjuaju rysýi. Aníkena emboty ko ñanduti renda.
 
 ## LANGUAGE INFO
 
