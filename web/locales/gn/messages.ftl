@@ -1223,6 +1223,14 @@ sc-add-lang-sec-label = Embojuaju peteĩ ñe’ẽ eipytyvõsévape
 sc-add-lang-sec-button = Embojuaju Ñe’ẽ
 sc-add-err-unexpected = Oujey ñembohovái eha’arõ’ỹva mohendahavusúgui
 # Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Ñe’ẽjuaju mondopyre. Ko’ã ñe’ẽjuaju { $duplicates } oñmboyke ikõi rupi.
+        [one] Ñe’ẽjuaju mondopyre. Ko’ã ñe’ẽjuaju { $duplicates } oñmboyke ikõi rupi.
+       *[other] Ñe’ẽjuaju mondopyre. Ko’ã ñe’ẽjuaju { $duplicates } oñmboyke ikõi rupi.
+    }
+# Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
