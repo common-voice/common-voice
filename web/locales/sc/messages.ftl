@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Ais a retzire messàgios che a apuntos de
 email-opt-in-privacy-v2 = Seberende de retzire lìteras a s'indiritzu de posta eletrònica atzetas chi Mozilla impitet custas informatziones comente ispiegadu in sa <privacyLink>Polìtica de riservadesa</privacyLink> sua.
 indicates-required = * Indicat unu campu rechèdidu
 not-available-abbreviation = No est a disponimentu
+banner-error-slow-link = Istadu de sa pàgina
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,7 +37,6 @@ ba = Baschiru
 bas = Basaa
 be = Bielorussu
 bg = Bùlgaru
-bm = Bambara
 bn = Bengalesu
 br = Brètone
 bxr = Buriat
@@ -332,8 +332,14 @@ profile-form-native-language =
     .label = Limba mama
 profile-form-additional-language =
     .label = Limba additzionale
+profile-form-variant =
+    .label = Cale variedade de { $language } faeddas?
+profile-form-variant-default-value = Nissuna variedade seletzionada
 profile-form-accent =
     .label = Atzentu
+profile-form-custom-accent-help-text =
+    .label = Comente descries s'atzentu tuo?
+profile-form-custom-accent-placeholder-2 = Cumintza a iscrìere pro descrìere s'atzentu tuo
 profile-form-age =
     .label = Edade
 profile-form-gender-2 =
@@ -344,6 +350,7 @@ hidden = Cuadu
 visible = Visìbile
 native-language =
     .label = Limba materna
+profile-form-add-accent = Agiunghe s'atzentu personalizadu nou "{ $inputValue }"
 profile-form-submit-save = Sarva
 profile-form-submit-saved = Sarvadu
 male = Mascru
@@ -377,6 +384,8 @@ skip-submission-description = S'imbiu de cummentos at a èssere disativadu cando
 skip-submission-note = Nota: in cada manera, as a dèpere seberare intre Chistiona o Ascurta pro modificare sa genia de cuntributu.
 off = Disativadu
 on = Ativu
+help-accent = Ti serbit agiudu cun s'atzentu?
+help-variants = Ti serbit agiudu cun is variedades?
 
 ## Profile - Email
 
@@ -460,13 +469,21 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Pro ite Common Voice?
-about-subtitle = Common Voice est parte de s'initziativa de Mozilla pro agiudare a imparare a is màchinas comente chistionat sa gente reale. In prus de su pachete de datos de Common Voice, semus costruende fintzas unu motore de reconnoschimentu de boghe cun lissèntzia de còdighe abertu tzerriadu Deep Speech.
-about-header-description = Ambos custos progetos sunt parte de is isfortzos nostros pro minimare su divàriu in s'àmbitu de su reconnoschimentu vocale. Is tecnologias de reconnoschimentu vocale batint una dimensione umana a is dispositivos nostros, ma is isvilupadores tenent bisòngiu de unu muntone de datos vocales pro ddas isvilupare. In dies de oe sa parte manna de custos datos est costosa e propietària.
-about-header-description-2 =
-    Custu progetu punnat a minimare su divàriu in s'àmbitu de su reconnoschimentu vocale. Is tecnologias de reconnoschimentu vocale batint una dimensione umana a is dispositivos nostros, ma is isvilupadores tenent bisòngiu de unu muntone de datos vocales pro ddas isvilupare. In dies de oe sa parte manna de custos datos est costosa e propietària.
-    Bolimus fàghere in manera chi is datos vocales siant a disponimentu in manera lìbera e pùblica, e chi rapresentent sa diversidade de sa gente reale. Paris podimus megiorare su reconnoschimentu vocale pro totus.
-how-does-it-work-title = Comente funtzionat?
+how-does-it-work-title-v2 = Comente funtzionat Common Voice?
 how-does-it-work-text = Semus creende in manera collaborativa unu pachete de datos cun lissèntzia de còdighe abertu. Dona sa boghe tua, verìfica is registratziones fatas de àteras persones, faghe chi su pachete de datos siat mègius pro totus.
+
+## How does it work section
+
+about-language-req-subtitle = Una persone preguntat s'agiunta de una lìngua.
+about-localization-title = Localizatzione de su situ web
+about-localization-subtitle = Su testu de su situ web est tradùsidu a cussa lìngua.
+about-sentence-collection-title = Regorta de fràsias
+about-sentence-collection-subtitle = Si regollent fràsias chi sa gente potzat lèghere a boghe arta.
+about-voice-contrib-title = Contributu de boghe
+about-voice-contrib-subtitle = Sa gente s'acostat e dona unu contributu cun sa boghe sua.
+about-dataset-release-title = Publicatzione de su pachete de datos
+about-dataset-release-subtitle = Publicamus pachetes de datos onni 3 meses.
+about-subscribe-text = Boles abarrare in cuntatu cun Common Voice?
 about-speak = Chistiona
 about-speak-text = Is partetzipantes registrant boghes tràmite sa letura de unu bancu de frases donadas.
 about-listen-queue = Coa de iscurtu
@@ -495,10 +512,43 @@ about-get-involved-text-2 =
     Bene meda! Cuntata·nos impitende sa posta eletrònica o is fòrums de <discourseLink>Discourse</discourseLink>, sinnala is problemas de su situ
      pro mèdiu de <githubLink>GitHub</githubLink>, o aderi a
      sa tzarrada de sa comunidade in <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Comente fatzo a abarrare in cuntatu?
 about-nav-why-common-voice = Pro ite?
 about-nav-how-it-works = Comente?
 about-nav-partners = Sòtzios
 about-nav-get-involved = Ìmplica·ti
+about-nav-how-it-works-2 = Comente funtzionat Common Voice?
+about-nav-playbook = Impara a nde fàghere parte
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Ite est una lìngua in Common Voice?
+
+## How do I add a language
+
+about-playbook-how-add-language = Comente fatzo a agiùnghere una lìngua?
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intellighèntzia artifitziale
 mycroft-description =
@@ -1010,3 +1060,59 @@ contribution-just-unsure-title = Tenes dudas?
 contribution-just-unsure-description = Si agatas calicuna cosa chi custas lìnias ghia non previdint vota sighende su giudìtziu tuo. Si a beru non renesses a detzìdere, duncas imprea su butone pro brincare e bae a sa registratzione imbeniente.
 see-more = <chevron></chevron>Càstia de prus
 see-less = <chevron></chevron>Càstia prus pagu
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
