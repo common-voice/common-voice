@@ -588,6 +588,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Sjá nánar um nákvæmnisvi
 ## How to grow language
 
 about-playbook-how-grow-language = Hvernig getum við á áhrifaríkan hátt látið tungumál vaxa á Samrómi?
+about-playbook-how-grow-language-content-1 = Að skapa tækifæri fyrir fjölbreytilegt fólk til að leggja sitt af mörkum til Common Voice tryggir að gagnasafnið þjónar eins mörgum og mögulegt er. Við höfum búið til ýmis tilföng og sniðmát sem þú getur notað!
 about-playbook-how-grow-language-content-2 = Atburðir
 about-playbook-how-grow-language-content-4 = Samfélagsmiðlar
 about-playbook-how-grow-language-content-6 = Samstarf og tengslanet
