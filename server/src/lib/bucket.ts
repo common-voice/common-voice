@@ -24,8 +24,7 @@ export default class Bucket {
   /**
    * Fetch a public url for the resource.
    */
-  public getPublicUrl(key: string, bucketType?: string, cdn?: boolean) {
-    // @TODO: add CDN handling back in
+  public getPublicUrl(key: string, bucketType?: string) {
     return this.s3.getSignedUrl('getObject', {
       Bucket:
         bucketType === 'dataset'
