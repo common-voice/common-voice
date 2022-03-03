@@ -1157,6 +1157,7 @@ sc-howto-review-criteria-6 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃u
 sc-howto-findpd-title = Ejuhúta ñe’ẽjuaju oĩva opavave oipurukuaahápe
 sc-howto-findpd-subtitle = Ehekava’erã ñandutípe
 sc-howto-findpd-tips = Ko’ág̃a oñeñemoñe’ẽta ejuhukuaa hag̃ua ñe’ẽrysýi:
+sc-howto-findpd-tips-1 = Iporãvéva teñoiha ehekakuaáva ha’e umi podcasts, ayvuhai, ta’ãngamýi rape’apo ha oimeraẽva mba’e oguerekóva ipype ñomongeta syryrýva.
 sc-howto-findpd-tips-2 = Umi tetã rekuái rembiapotee, arandukakuéra ha jehaipyre avei iporãiterei; upéicharamo jepe, pe moñe’ẽrã hekokatumieve, sa’ive ojehecharamo.
 sc-howto-findpd-tips-3 = Rombyasy, ndoroguerekói Wikimedia mba’eñemurã. Upévare ani embokuatia ha emboja upe guive.
 sc-howto-findpd-subtitle-2 = Eñemoirũ atyguasu térã tapicha tendaguávare
