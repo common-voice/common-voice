@@ -30,6 +30,7 @@ export type CommonVoiceConfig = {
   RELEASE_VERSION?: string;
   SECRET: string;
   S3_CONFIG: S3.Types.ClientConfiguration;
+  S3_LOCAL_DEVELOPMENT_ENDPOINT?: string;
   CINCHY_CONFIG: S3.Types.ClientConfiguration;
   CINCHY_ENABLED: boolean;
   SSM_ENABLED: boolean;

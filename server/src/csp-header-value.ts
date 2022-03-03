@@ -48,7 +48,7 @@ const SOURCES = {
 };
 
 function getCSPHeaderValue() {
-  const { PROD } = getConfig();
+  const { PROD, S3_LOCAL_DEVELOPMENT_ENDPOINT } = getConfig();
 
   /*
     default to production mode to make sure we
@@ -59,6 +59,10 @@ function getCSPHeaderValue() {
     // we allow unsafe-eval, unsafe-inline locally for certain webpack functionality
     SOURCES['style-src'].push("'unsafe-inline'");
     SOURCES['script-src'].push("'unsafe-eval'");
+
+    // add s3proxy to allowed sources in development
+    SOURCES['connect-src'].push(S3_LOCAL_DEVELOPMENT_ENDPOINT);
+    SOURCES['media-src'].push(S3_LOCAL_DEVELOPMENT_ENDPOINT);
   }
 
   return Object.entries(SOURCES)

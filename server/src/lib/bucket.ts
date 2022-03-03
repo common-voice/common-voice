@@ -25,27 +25,44 @@ export default class Bucket {
    * Fetch a public url for the resource.
    */
   public getPublicUrl(key: string, bucketType?: string) {
-    return this.s3.getSignedUrl('getObject', {
-      Bucket:
-        bucketType === 'dataset'
-          ? getConfig().DATASET_BUCKET_NAME
-          : getConfig().CLIP_BUCKET_NAME,
+    const {
+      ENVIRONMENT,
+      DATASET_BUCKET_NAME,
+      CLIP_BUCKET_NAME,
+      S3_CONFIG,
+      S3_LOCAL_DEVELOPMENT_ENDPOINT,
+    } = getConfig();
+
+    const url = this.s3.getSignedUrl('getObject', {
+      Bucket: bucketType === 'dataset' ? DATASET_BUCKET_NAME : CLIP_BUCKET_NAME,
       Key: key,
       Expires: 60 * 60 * 12,
     });
+
+    if (ENVIRONMENT === 'local') {
+      // allow us to access s3proxy files correctly in development
+      url.replace(S3_CONFIG.endpoint.toString(), S3_LOCAL_DEVELOPMENT_ENDPOINT);
+    }
+
+    return url;
   }
 
   /**
    * Construct the public URL for a resource that needs no token
    */
   public getUnsignedUrl(bucket: string, key: string) {
-    return getConfig().ENVIRONMENT === 'local'
-      ? `${getConfig().S3_CONFIG.endpoint}/${
-          getConfig().CLIP_BUCKET_NAME
-        }/${key}`
-      : `https://${bucket}.s3.dualstack.${
-          getConfig().BUCKET_LOCATION
-        }.amazonaws.com/${key}`;
+    const {
+      ENVIRONMENT,
+      S3_LOCAL_DEVELOPMENT_ENDPOINT,
+      CLIP_BUCKET_NAME,
+      BUCKET_LOCATION,
+    } = getConfig();
+
+    if (ENVIRONMENT === 'local') {
+      return `${S3_LOCAL_DEVELOPMENT_ENDPOINT}/${CLIP_BUCKET_NAME}/${key}`;
+    }
+
+    return `https://${bucket}.s3.dualstack.${BUCKET_LOCATION}.amazonaws.com/${key}`;
   }
 
   /**
