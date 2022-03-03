@@ -664,6 +664,7 @@ dataset-date = Dagsetning
 license = Notkunarleyfi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandað
 data-download-singleword-title = Sækja 'Eins orðs markhluta' (Single Word Target Segment)
+data-download-singleword-callout-v2 = Þetta er notkunartilvikadrifinn hluti sem inniheldur gögn til að knýja greiningu talaðra tölustafa og já/nei greiningu.
 review-terms = Með notkun Samróms samþykkir þú <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> verkefnisins
 terms-agree = Ég samþykki
 terms-disagree = Ég samþykki ekki
