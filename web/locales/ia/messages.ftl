@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = Recipe e-mails como rememorationes de def
 email-opt-in-privacy-v2 = Si tu opta pro reciper e-mails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>politica de confidentialitate</privacyLink>.
 indicates-required = * indica un campo obligatori
 not-available-abbreviation = N/D
+banner-error-slow-1 = Desolate, Common Voice es exequite lentemente. Gratias pro tu interesse.
+banner-error-slow-2 = Nos recipe multe traffico e actualmente nos investiga le problemas.
 banner-error-slow-link = Pagina de stato
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -337,6 +339,8 @@ profile-form-additional-language =
     .label = Lingua additional
 profile-form-language =
     .label = Lingua
+profile-form-variant =
+    .label = Que variante de { $lingua } parla tu?
 profile-form-variant-default-value = Nulle variante seligite
 profile-form-accent =
     .label = Accento
@@ -390,6 +394,7 @@ on = Active
 help-accent = Besonia tu auxilio con le accento?
 help-accent-explanation = Tu accento es le maniera que tu pronuncia le vocabulos. Illo pote esser formate per ubi tu viveva, qual altere linguas tu parla e plure altere factores. Tu pote compartir ulle informationes que tu senti esser pertinente hic.
 help-variants = Besonia tu de auxilio con le variantes?
+help-variants-explanation = Le variantes es un forma specific de un lingua, per exemplo compartite per illes vivente in un area geographic o communitate. Aliquando illos es appellate dialectos.
 
 ## Profile - Email
 
