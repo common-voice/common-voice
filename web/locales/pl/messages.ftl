@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Otrzymuj wiadomości e-mail, takie jak pr
 email-opt-in-privacy-v2 = Wybierając otrzymywanie wiadomości wyrażasz zgodę na wykorzystywanie tych danych przez Mozillę w sposób opisany w <privacyLink>zasadach ochrony prywatności</privacyLink>.
 indicates-required = * wskazuje pole obowiązkowe
 not-available-abbreviation = Niedostępne
+banner-error-slow-1 = Przepraszamy, Common Voice działa wolno. Dziękujemy za zainteresowanie.
+banner-error-slow-2 = Odbieramy duży ruch i obecnie badamy problemy.
+banner-error-slow-link = Strona stanu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
