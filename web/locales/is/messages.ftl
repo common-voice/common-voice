@@ -714,8 +714,11 @@ subscribe = Gerast áskrifandi
 get-started-speech = Hefjast handa með raddgreiningu
 other-datasets = Aðrar málheildir
 feedback-q = Ertu með ábendingar?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er <docsLink>verkfærasett með opinn grunnkóða</docsLink> fyrir vísindamenn sem hanna háþróuð gervigreindarlíkön fyrir samtöl.
 resource-deepspeech-info = Með hinum opna og frjálsa raddgreini Mozilla, Deep Speech, er hægt að hanna raddgreiningarforrit. Kynntu þér <githubLink>yfirlitið á Github</githubLink> eða taktu þátt á <discourseLink>DeepSpeech umræðuvefnum</discourseLink> til að læra um hvernig maður hefst handa.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> er tileinkað opinni taltækni. Meðal verkefna þeirra eru STT og TTS-vélar sem byggja á djúpnámi.
+community-playbook = Community Playbook
+resource-playbook-info = <playbookLink>Finndu gagnlegar leiðbeiningar</playbookLink> um allar hliðar Samróms - Common Voice, allt frá staðfærslu til notkunar gagnasafna, svo og um hvernig hægt sé að tengjast samfélaginu okkar.
 data-other-librispeech-description = LibriSpeech-textasafnið geymir u.þ.b. 100 klst. af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum úr LibriVox-verkefninu.
 data-other-ted-name = TED-LIUM textasafn
 data-other-ted-description = TED-LIUM textasafnið var þróað úr talsetningum og afritunum þeirra sem eru fáanlegar á TED vefnum.
@@ -1041,6 +1044,7 @@ demo-welcome-subheader = Hefur þú áhuga á að læra meira og leggja verkefni
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice er heimsins stærsta opinberlega aðgengilega raddgagnasafn á mörgum tungumálum.
 demo-language-select-card-body = Þökk sé framlagi frá yfir 259 þúsund manns á yfir 50 tungumálum, þá eru þessi gögn notuð til að þjálfa talvirk forrit til að bregðast betur við mannlegum röddum.
 card-button-next = Næsta
 card-button-back = Til baka
