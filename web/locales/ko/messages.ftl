@@ -36,9 +36,9 @@ ba = 바시키르어
 bas = 바사어
 be = 벨로루시어
 bg = 불가리아어
-bm = 밤바라어
 bn = 벵골어
 br = 브르타뉴어
+bs = 보스니아어
 bxr = 부랴트어
 ca = 카탈로니아어
 cak = 마야어
@@ -67,6 +67,7 @@ fy-NL = 프리지아어
 ga-IE = 아일랜드어
 gl = 갈리시아어
 gn = 과라니어
+gom = 고안 콘칸어
 ha = 하우사어
 he = 히브리어
 hi = 힌디어
@@ -90,7 +91,9 @@ kab = 커바일어
 kbd = 카바르다어
 ki = 키쿠유어
 kk = 카자흐스탄어
+km = 크메르어
 kmr = 쿠르만지 쿠르드어
+knn = 콘칸어(데바나가리)
 ko = 한국어
 kpv = 코미지리안어
 kw = 콘월어
@@ -129,6 +132,7 @@ pl = 폴란드어
 ps = 파슈토어
 pt = 포르투갈어
 quc = 키체어
+quy = 케추아 찬카
 rm-sursilv = 로만슈 수르실반어
 rm-vallader = 로만슈 발라데르어
 ro = 루마니아어
@@ -463,15 +467,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 왜 Common Voice 인가요?
-about-subtitle = Common Voice는 실제로 사람이 어떻게 말하는지를 기계에게 교육시키기 위한 Mozilla의 시작 활동의 일부입니다. Common Voice 뿐만 아니라 우리는 Deep Speech라는 오픈 소스 음성 인식 엔진을 만들고 있습니다.
-about-header-description =
-    이 두 프로젝트는 디지털 음성 격차를 해소하려는 노력의 일환입니다. 음성 인식 기술은 우리의 기기에 인간과 같은 능력을 가져다 주지만 개발자는 이를 구축하기 위해 엄청난 양의 음성 데이터가 필요합니다. 현재 이 데이터의 대부분은 비싸고 독점되어 있습니다.
-    우리는 음성 데이터를 자유롭고 공개적으로 이용할 수 있게 하고 데이터가 실제 사람들의 다양성을 나타내는 지 확인하고 싶습니다. 함께하면 우리는 모두를 위한 음성 인식기술을 만들 수 있습니다.
-about-header-description-2 =
-    이 프로젝트는 디지털 음성 격차를 해소하기 위한 노력의 일환입니다. 음성 인식 기술은 우리의 기기에 인간과 같은 능력을 가져다 주지만 개발자는 이를 구축하기 위해 엄청난 양의 음성 데이터가 필요합니다. 현재 이 데이터의 대부분은 비싸고 독점되어 있습니다.
-    우리는 음성 데이터를 자유롭고 공개적으로 이용할 수 있게 하고 데이터가 실제 사람들의 다양성을 나타내는 지 확인하고 싶습니다. 함께하면 우리는 모두를 위한 음성 인식기술을 만들 수 있습니다.
-how-does-it-work-title = 어떻게 작동하나요?
+how-does-it-work-title-v2 = Common Voice는 어떻게 작동합니까?
 how-does-it-work-text = 오픈 소스 음성 데이터 세트를 크라우드 소싱하고 있습니다. 목소리를 기부하고, 다른 사람의 클립의 정확성을 검증하고, 모든 사람에게 더 나은 데이터 세트를 만드세요.
+
+## How does it work section
+
+about-language-req-subtitle = 누군가 언어 추가를 요청합니다.
+about-localization-title = 웹사이트 지역화
+about-localization-subtitle = 웹사이트 텍스트는 해당 언어로 번역됩니다.
+about-sentence-collection-title = 문장 모음
+about-sentence-collection-subtitle = 사람들이 소리 내어 읽을 수 있도록 문장을 수집합니다.
+about-new-lang-title = 새로운 언어 출시
+about-new-lang-subtitle = 이 언어로된 Common Voice 사이트를 시작합니다.
+about-voice-contrib-title = 음성 기여
+about-voice-contrib-subtitle = 사람들이 와서 목소리를 기여합니다.
+about-voice-validation-title = 음성 확인
+about-voice-validation-subtitle = 다른 사람들이 해당 음성 클립을 확인합니다.
+about-dataset-release-title = 데이터세트 출시
+about-dataset-release-subtitle = 3개월마다 데이터 세트를 출시합니다.
+about-subscribe-text = Common Voice와 계속 연락하시겠습니까?
 about-speak = 말하기
 about-speak-text = 참가가 미리 기여된 문장의 저장고에서 글을 읽고 음성 클립을 녹음합니다.
 about-listen-queue = 듣기 대기열
@@ -499,10 +513,63 @@ about-get-involved-text-2 =
     Common Voice를 더 좋게 만들고 싶으신가요?
     이메일 또는 <discourseLink>Discourse</discourseLink> 포럼을 통해 연락하세요.
     <githubLink>GitHub</githubLink>를 통해 사이트 문제를 제출하거나, <matrixLink>Matrix</matrixLink> 커뮤니티 채팅에 참여하세요.
+about-stay-in-touch = 어떻게 연락을 유지합니까?
+about-stay-in-touch-text-1 = Common Voice의 캠페인, 이벤트 및 공동 디자인 기능에 참여하는 방법을 알아보려면 메일링 목록에 <emailFragment>가입</emailFragment>하십시오.
+about-stay-in-touch-text-2 = 주제별 대화를 위해 <discourseLink>Discourse</discourseLink>에 가입하거나 빠른 조언을 위해 <matrixLink>Matrix</matrixLink>에 가입하면 Mozilla 언어 커뮤니티에서 다른 사람들을 만날 수 있습니다.
 about-nav-why-common-voice = 왜?
 about-nav-how-it-works = 어떻게?
 about-nav-partners = 파트너
 about-nav-get-involved = 참여하기
+about-nav-how-it-works-2 = Common Voice는 어떻게 작동합니까?
+about-nav-playbook = 참여 방법 알아보기
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Common Voice의 언어는 무엇입니까?
+about-playbook-what-is-language-content-1 = 언어에 대해 생각하는 방법에는 여러 가지가 있습니다. 음성 인식 모델의 목적을 위해 Common Voice는 '상호 명료성' 또는 '이 언어를 사용하는 사람들이 노력하면 대부분 서로를 이해할 수 있습니까?'에 중점을 둘 것을 제안합니다.
+about-playbook-what-is-language-content-2 = 우리는 음성 모델이 다양한 화자를 더 잘 이해하기를 바랍니다. 이를 위해서는 음성 데이터 세트가 다양한 사람들을 대표해야 합니다.
+
+## How do I add a language
+
+about-playbook-how-add-language = 언어는 어떻게 추가합니까?
+about-playbook-how-add-language-content-1 = 먼저, 사용하는 언어가 <languageLink>이미 존재하는지</languageLink> 확인하십시오. 그렇지 않은 경우 <strong>사이트를 번역하고 문장을 수집</strong>해야 합니다.
+about-playbook-how-add-language-content-2 = <strong>사이트를 번역하려면</strong> - <pontoonLink>Pontoon</pontoonLink>에서 <translateVideo>설정</translateVideo>을 받으세요. Pontoon에는 많은 언어가 있지만 언어가 없는 경우 <pontoonRequestLink>요청</pontoonRequestLink>할 수 있습니다. 그런 다음 <repoLink>GitHub</repoLink>을 통해 Common Voice 프로젝트를 해당 언어로 사용할 수 있도록 요청하세요. <localizationFragment>사이트 번역</localizationFragment>에 대해 자세히 알아보세요.
+about-playbook-how-add-language-content-3 = <strong>문장 수집하기</strong> - <scLink>문장 수집기</scLink>에서 <scVideo>설정</scVideo>을 선택하세요.
+about-playbook-how-add-language-content-4 = 여기에서 <scLinkAdd>작은 수의 문장을 추가</scLinkAdd>하거나 Github 요청을 통해 <bulkImportDocsLink>대량 가져오기</bulkImportDocsLink>를 수행할 수 있습니다. 문장은 <licenseLink>CC0(또는 공개 도메인)</licenseLink>이거나 직접 작성할 수 있음을 기억하세요. <scFragment>문장 모음</scFragment>에 대해 자세히 알아보십시오.
+
+## How does localization work
+
+about-playbook-how-localize = 사이트 지역화는 어떻게 작동합니까?
+about-playbook-how-localize-content-1 = Common Voice 사이트의 번역은 <strong>Pontoon</strong>에서 이루어집니다.
+about-playbook-how-localize-content-2 = 계정이 없다면 <pontoonAccountLink>계정을 만드십시오</pontoonAccountLink>. 그런 다음 언어<strong>('팀')</strong>를 선택한 다음 <pontoonCvLink>Common Voice</pontoonCvLink> 프로젝트를 선택합니다. 번역할 파일이 있을 것입니다. 하나를 클릭하면 영어로 된 단어와 번역할 상자가 표시됩니다.
+about-playbook-how-localize-content-3 = 번역은 영어이지만 다른 언어로 <strong>제안</strong>을 볼 수 있습니다. <strong>프로필</strong> 아이콘을 클릭한 다음 <strong>설정</strong> 링크를 클릭하고 사용하는 언어를 추가합니다. 오른쪽 하단에 <strong>로케일</strong>이라는 번역 목록이 있습니다. 번역은 하루 후에 사이트에 표시됩니다.
+about-playbook-how-localize-content-4 = 사이트가 75% 완료되면 시작할 준비가 된 것입니다.
+about-playbook-how-localize-content-5 = 도움이 되는 비디오 설명을 시청하세요.
+
+## How to add sentences
+
+about-playbook-how-add-sentences = 문장은 어떻게 추가하나요?
+about-playbook-how-add-sentences-content-1 = <strong>문장 수집기</strong>는 공개 도메인 문장을 수집하고 검증하기 위한 도구입니다. <scAccountLink>계정을 만들어야 합니다</scAccountLink>. 그런 다음 <strong>프로필</strong>에 언어를 추가하세요. 문장을 <strong>추가</strong>하거나 이전에 추가한 문장을 <strong>검토</strong>할 수 있습니다.
+about-playbook-how-add-sentences-content-2 = Common Voice에 포함되려면 두 사람이 문장을 검토하고 수락해야 합니다. <languageGuidelinesLink>여기</languageGuidelinesLink>에서 귀하의 언어에 대한 지침을 만들 수 있습니다. 문장은 <licenseLink>공개</licenseLink>에 있어야 하며 15단어 미만이어야 합니다. 텍스트 소유자에게 <waiverLink>포기 절차를 사용하여 CC0</waiverLink>으로 만들고 commonvoice@mozilla.com으로 보내달라고 요청할 수 있습니다.
+about-playbook-how-add-sentences-content-3 = <scraperLink>문장 추출기</scraperLink>를 사용하여 Wikipedia의 짧은 문장을 활용할 수 있습니다.
+about-playbook-how-add-sentences-content-4 = 검증된 문장은 수요일에 내보내지며 다음 출시 이후에 사용할 수 있습니다.
+
+## How to record quality
+
+about-playbook-how-record-quality = 고품질 음성 클립을 녹음하려면 어떻게 합니까?
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 인공 지능
 mycroft-description =
@@ -1014,6 +1081,7 @@ sc-header-rejected = 거부된 문장
 sc-header-my = 내 문장
 sc-header-statistics = 통계
 sc-header-profile = 프로필
+sc-footer-discourse = Discourse
 sc-footer-report-bugs = 오류 신고
 sc-footer-translate = 이 페이지 번역
 sc-footer-report-copyright = 저작권 문제 신고

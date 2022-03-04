@@ -36,9 +36,9 @@ ba = Boshqird
 bas = Basaa
 be = Belarus
 bg = Bolgar
-bm = Bambara
 bn = Bengal
 br = Breton
+bs = Bosniyalik
 bxr = Buryat
 ca = Katalan
 cak = Kaqchikel
@@ -67,6 +67,7 @@ fy-NL = Friz
 ga-IE = Irland
 gl = Galisiy
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Yahudiy
 hi = Hind
@@ -90,7 +91,9 @@ kab = Kabili
 kbd = Kabardino
 ki = Kikuyu
 kk = Qozoq
+km = Xmer
 kmr = Kurmanji Kurdish
+knn = Konkani (Devanagari)
 ko = Koreyscha
 kpv = Komi-zıryan
 kw = Kornish
@@ -462,12 +465,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Nima uchun Common Voice?
-about-subtitle = Common Voice - Mozilla tashabbusining bir qismi bo'lib, mashinalarga haqiqiy odamlar qanday gapirayotganini o'rgatishga yordam beradi. Common Voice ma'lumotlar bazasiga qo'shimcha ravishda, biz "Deep Speech" deb nomlangan ochiq manbali nutqni aniqlash tizimini yaratmoqdamiz.
-about-header-description =
-    Ushbu ikkala loyiha raqamli nutqlar o'rtasidagi tafovutni bartaraf etishga qaratilgan harakatlarimizning bir qismidir. Ovozni aniqlash texnologiyalari bizning qurilmalarimizga insoniy o'lchovlarni olib keladi, ammo ularni ishlab chiqish uchun ishlab chiquvchilar juda ko'p miqdordagi ovoz ma'lumotlariga muhtoj. Hozirgi vaqtda ushbu ma'lumotlarning ko'pi qimmat va mulkiy hisoblanadi.
-    Biz ovozli ma'lumotlarni bemalol va hammaga taqdim qilishni istaymiz va ma'lumotlar haqiqiy odamlarning xilma-xilligini aks ettirishiga ishonch hosil qilamiz. Birgalikda biz hamma uchun ovozni yaxshiroq aniqlashimiz mumkin.
-how-does-it-work-title = Bu qanday ishlaydi?
+how-does-it-work-title-v2 = Common Voice qanday ishlaydi?
 how-does-it-work-text = Ovozlarning ochiq manbali ma'lumotlar to'plamini jalb qilmoqdamiz. Ovozingizni bering, boshqalarning kliplari aniqligini tekshiring, ma'lumotlar bazasini hamma uchun yaxshilang.
+
+## How does it work section
+
+about-language-req-subtitle = Kimdir til qoʻshishni soʻraydi.
+about-localization-title = Sayt lokalizatsiyasi
+about-localization-subtitle = Sayt matni shu tilga tarjima qilinadi.
+about-sentence-collection-title = Jumlalar toʻplami
+about-sentence-collection-subtitle = Odamlar ovoz chiqarib oʻqishlari uchun jumlalar yigʻiladi.
+about-new-lang-title = Yangi tilni ishga tushirish
+about-new-lang-subtitle = Biz ushbu tilda Common Voice saytini ishga tushiramiz.
+about-voice-contrib-title = Ovozingiz bilan yordam qiling
+about-voice-contrib-subtitle = Odamlar kelib, oʻz ovozlari bilan yordam berishadi.
+about-voice-validation-title = Ovozni tekshirish
+about-voice-validation-subtitle = Boshqa odamlar bu ovozli kliplarni tasdiqlaydi.
+about-dataset-release-title = Maʼlumotlar toʻplami relizi
+about-dataset-release-subtitle = Biz maʼlumotlar toʻplamini har 3 oyda chiqaramiz.
+about-subscribe-text = Common Voice bilan aloqada boʻlishni xohlaysizmi?
 about-speak = Oʻqish
 about-speak-text = Ishtirokchilar maʼlumotlar omboridagi jumlalarni oʻqib, ovozli tasmaga yozishadi.
 about-listen-queue = Eshitish navbati
@@ -496,10 +512,49 @@ about-get-involved-text-2 =
     Ajoyib! Elektron pochta yoki <discourseLink> Muhokama </discourseLink> orqali bogʻlaning
     forumlarda qatnashish, sayt muammolarini <githubLink> GitHub </githubLink> orqali yuborish yoki qoʻshilish
     <matrixLink> Matrix </matrixLink> jamoaviy suhbat.
+about-stay-in-touch = Qanday qilib aloqada qolishim mumkin?
 about-nav-why-common-voice = Nega?
 about-nav-how-it-works = Qanday ?
 about-nav-partners = Hamkorlar
 about-nav-get-involved = Hissa qo‘shish
+about-nav-how-it-works-2 = Common Voice qanday ishlaydi?
+about-nav-playbook = Qanday ishtirok etishni oʻrganing
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Common Voiceda til nima?
+about-playbook-what-is-language-content-1 = Til haqida oʻylashning koʻplab usullari mavjud. Nutqni tanish modellarini yaratish maqsadida Common Voice “oʻzaro tushunarlilik” yoki yoki “bu tilda gaplashuvchilardan biri boshqasini tushunishi”ga eʼtibor qaratishni taklif qiladi.
+about-playbook-what-is-language-content-2 = Biz nutq modellarini turli xil soʻzlashuvchilarni yaxshiroq tushunishda yordam berishini xohlaymiz. Buning uchun juda koʻp odamlardan ovozli maʼlumotlar toʻplami kerak boʻladi.
+about-playbook-what-is-language-content-3 = Baʼzi tillar grammatika, lugʻat va talaffuzda juda katta farqqa ega. Shu sababli, biz 2022-yilda <ctaLink>“Variantlar”</ctaLinkni taqdim qilamiz. Bu hamjamiyatlarga kattaroq maʼlumotlar toʻplamida oʻz tillarini farqlash imkonini beradi.
+
+## How do I add a language
+
+about-playbook-how-add-language = Tilni qanday qoʻshishim mumkin?
+about-playbook-how-add-language-content-1 = Avval tilingiz <languageLink>allaqachon</languageLink> mavjudligini tekshiring. Yoʻq boʻlsa, <strong>saytni tarjima qilishingiz va jumlalarni toʻplashingiz</strong> kerak.
+about-playbook-how-add-language-content-2 = <strong>Saytni tarjima qilish</strong> uchun <pontoonLink>Pontoon</pontoonLink> saytida <translateVideo>sozlashingiz</translateVideo> kerak. Pontoonda juda koʻp tillar bor, u yerda ona tilingiz boʻlmasa, <pontoonRequestLink>soʻrov yuborishingiz mumkin</pontoonRequestLink>. Keyin <repoLink>GitHub</repoLink> orqali til uchun Common Voice loyihasini taqdim etishini soʻrang. <localizationFragment>sayt tarjimasi</localizationFragment> haqida batafsil.
+about-playbook-how-add-language-content-3 = <strong>Gaplarni toʻplash</strong> - <scLink>Jumlalarni yigʻgich</scLink>ni <scVideo>sozlang</scVideo>.
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Sunʼiy idrok
 mycroft-description =
@@ -713,7 +768,7 @@ listen-3rd-time-instruction = 2 ta tayyor, shunday ruhda davom eting!<playIcon><
 listen-last-time-instruction = <playIcon></playIcon>Oxirgisi!
 listen-empty-state = Ushbu tilda tasdiqlash uchun audio yozuvlar qolmadi...
 speak-empty-state = Ushbu tilda yozib olish uchun audio jumlalar qolmadi...
-speak-empty-state-cta = Gap taklif qilish
+speak-empty-state-cta = Jumla qo'shiish
 record-button-label = Ovozingizni yozing
 share-title-new = Yana ovoz yig‘ishimizda <bold>yordam bering</bold>
 keep-track-profile = O'zingizning profilingizda profilingizni kuzatib boring
@@ -903,6 +958,7 @@ download-request-refresh-button = Yangilash
 download-request-modal-title = Yuklab olish uchun havolalar
 download-request-modal-description = ZIP fayllarni yuklab olish uchun havolalar.
 download-request-metadata-link = Gap matni
+download-request-link-single = Shuningdek, siz toʻgʻridan-to'g'ri URL manzillarini sevimli yuklab olish menejeriga nusxalashingiz va joylashtirishingiz mumkin. Ularning amal qilish muddati 12 soatdan keyin tugaydi, lekin istalgan vaqtda yangilarini yaratish uchun ushbu sahifaga qaytishingiz mumkin.
 
 ## Landing
 
@@ -963,14 +1019,35 @@ contribution-misreadings-description-extended-list-2 = Soʻzning oxirida <strong
 
 ## HEADER/FOOTER
 
+sc-header-home = Bosh sahifa
+sc-header-how-to = Qanday
+sc-header-add = Qoʻshish
+sc-header-review = Tekshirish
+sc-header-rejected = Rad etilgan jumlalar
+sc-header-my = Mening jumlalarim
+sc-header-statistics = Statistika
+sc-header-profile = Profil
+sc-footer-report-bugs = Xatolar haqida xabar berish
+sc-footer-translate = Bu sahifani tarjima qilish
+sc-footer-report-copyright = Mualliflik huquqi bilan bogʻliq muammolar haqida xabar bering
+sc-footer-privacy = Maxfiylik
+sc-footer-terms = Shartlar
 sc-footer-cookies = Kukilar
+sc-login-signup-button = Kirish / Roʻyxatdan oʻtish
 sc-logout-button = Chiqish
 
 ## HOME
 
+sc-home-title = Common Voice jumla yigʻgichga xush kelibsiz
+sc-home-collect-title = Jumlalarni yigʻish
 
 ## HOW-TO
 
+sc-howto-title = Qanday
+sc-howto-addlang-text = Kirsangiz, profil qismidan tillarni tanlash mumkin.
+sc-howto-addsen-title = Yangi jumlalar qoʻshish
+sc-howto-cite-title = Qanday iqtibos keltirish mumkin
+sc-howto-review-criteria-3 = Jumlani gapirish mumkin boʻlishi kerak.
 
 ## MY SENTENCES
 
@@ -980,6 +1057,10 @@ sc-logout-button = Chiqish
 
 ## STATS
 
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Oxirgi yangilanish: { $lastUpdate }
+sc-stats-last-update-never = Oxirgi yangilanish: hech qachon
 
 ## ADD
 
@@ -1000,6 +1081,7 @@ sc-submit-select-language =
 
 ## PROFILE
 
+sc-personal-your-languages = Tillaringiz:
 
 ## REVIEW CRITERIA
 
@@ -1009,6 +1091,10 @@ sc-submit-select-language =
 
 ## SETTINGS
 
+sc-settings-title = Sozlamalar
+sc-settings-ui-language = Interfeys tili
+sc-settings-language-translated-warning = Bu til uchun sahifalar tarjima qilinmagan boʻlishi mumkin. Tarjimaga <pontoonLinkLink> Pontoon</pontoonLinkLink> orqali yordam berishingiz mumkin.
+sc-settings-reset-skipped = Oʻtkazib yuborilgan jumlalarni tiklash
 
 # [/SentenceCollector]
 

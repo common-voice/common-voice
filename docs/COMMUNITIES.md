@@ -1,7 +1,18 @@
+# Community Participation Guidelines 
+
+The Mozilla Project welcomes contributions from everyone who shares our goals and wants to contribute in a healthy and constructive manner within our community. As such, we have adopted this code of conduct and require all those who participate to agree and adhere to these Community Participation Guidelines in order to help us create a safe and positive community experience for all. Please read the community participation guidelines on [https://www.mozilla.org/about/governance/policies/participation/](https://www.mozilla.org/about/governance/policies/participation/)
+
+
+# Why was the list created ? 
+
 Many language communities are self organising and have their contact channels on diverse systems. It would be cool to keep a list of them so that when someone wants to get in contact they know where to go. Here are a couple to start with:
 
+
+## Channels 
+
 * General:
-  * Common Voice on [Matrix](https://app.element.io/#/room/#common-voice:mozilla.org)  (official)
+  * Common Voice on [Matrix](https://app.element.io/#/room/#common-voice:mozilla.org) [official]
+  * Common Voice on [Discourse](https://discourse.mozilla.org/t/about-common-voice-readme-first/17218) [Offical] learn more about how you can request a language specific sub-discourse thread on our readme. 
   * Common Voice on [Telegram](https://web.telegram.org/#/im?p=@mozilla_common_voice)
 * Bashqort (`ba`):
   *  [Telegram](https://t.me/bashkort_voice)
@@ -10,10 +21,12 @@ Many language communities are self organising and have their contact channels on
   * [Telegram](https://t.me/voice_by)
 * Bengali (`bn`): 
   * [Matrix](https://app.element.io/#/room/#bn-common-voice:mozilla.org)
+  * [Discord](https://discord.gg/uacmNh6KQj)
 * Catalan (`ca`):
   * [Telegram](https://t.me/softcatala_tecnologiesparla)
+  * [Element](https://matrix.to/#/#cvcatala:matrix.org)
 * Czech (`cs`):
-  * [Telegram](http://t.me/MozillaCZ)
+  * [Matrix](https://matrix.to/#/#common-voice-czech:mozilla.org)
 * Dhivehi (`dv`):
    * [Web](https://dhivehi.ai/)
    * [Discord](https://discord.com/invite/5ZdTHsN8Mn)
@@ -43,3 +56,5 @@ Many language communities are self organising and have their contact channels on
   * [Discourse](https://discourse.mozilla.org/c/voice/tr/610)  
 * Uzbek (`uz`):
   * [Telegram](https://t.me/joinchat/lz2WlEvxlSQ1YzJi) 
+
+

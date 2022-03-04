@@ -22,7 +22,8 @@ import authRouter, { authMiddleware } from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
 import * as proxy from 'http-proxy-middleware';
 import { createTaskQueues, TaskQueues } from './lib/takeout';
-var HttpStatus = require('http-status-codes');
+import * as compression from 'compression';
+const HttpStatus = require('http-status-codes');
 
 require('source-map-support').install();
 const contributableLocales = require('locales/contributable.json');
@@ -88,6 +89,7 @@ export default class Server {
         response.set('X-Environment', ENVIRONMENT);
 
         // security-centric headers
+        response.removeHeader('x-powered-by');
         response.set('X-Production', PROD ? 'On' : 'Off');
         response.set('Content-Security-Policy', CSP_HEADER);
         response.set('X-Content-Type-Options', 'nosniff');
@@ -102,7 +104,7 @@ export default class Server {
 
     // Enable Sentry request handler
     app.use(Sentry.Handlers.requestHandler());
-
+    app.use(compression());
     if (PROD) {
       app.use(this.ensureSSL);
     }

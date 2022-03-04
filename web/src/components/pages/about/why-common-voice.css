@@ -1,16 +1,4 @@
 .about {
-    .why-common-voice {
-        &:after {
-            content: '';
-            position: absolute;
-            top: 100%;
-            left: -1rem;
-            width: calc(100% + 1rem);
-            height: 7.5vw;
-            background-color: #f9f9f7;
-        }
-    }
-
     & .wave-top {
         position: absolute;
         top: -2px;
@@ -142,9 +130,6 @@
         flex: 1;
         text-align: right;
 
-        @media (--md-up) {
-            /*margin: 4rem 0 0 3rem;*/
-        }
         @media (--md-down) {
             margin: 2rem 0 0 auto;
         }

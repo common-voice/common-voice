@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = 接收诸如挑战、目标提醒、进�
 email-opt-in-privacy-v2 = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
 indicates-required = * 表示必填字段
 not-available-abbreviation = 不可用
+banner-error-slow-1 = 感谢您使用 Common Voice，很抱歉网站当前运行缓慢。
+banner-error-slow-2 = 网站受到大流量访问冲击，我们正在调查处理相关问题。
+banner-error-slow-link = 状态页面
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,7 +39,6 @@ ba = 巴什基尔语
 bas = 巴萨语
 be = 白俄罗斯语
 bg = 保加利亚语
-bm = 班巴拉语
 bn = 孟加拉语
 br = 布列塔尼语
 bs = 波斯尼亚语
@@ -68,6 +70,7 @@ fy-NL = 弗里西语
 ga-IE = 爱尔兰语
 gl = 加利西亚语
 gn = 瓜拉尼语
+gom = 孔卡尼语（果阿）
 ha = 豪萨语
 he = 希伯莱语
 hi = 印地语
@@ -93,10 +96,12 @@ ki = 基库尤语
 kk = 哈萨克语
 km = 高棉语
 kmr = 库尔曼吉库尔德语
+knn = 孔卡尼语（天城文）
 ko = 韩语
 kpv = 科米-齐良语
 kw = 康沃尔语
 ky = 吉尔吉斯语
+lb = 卢森堡语
 lg = 卢干达语
 lij = 利古里亚语
 lt = 立陶宛语
@@ -144,6 +149,7 @@ scn = 西西里语
 shi = 希尔哈语
 si = 僧伽罗语
 sk = 斯洛伐克语
+skr = 西莱基语
 sl = 斯洛文尼亚语
 so = 索马里语
 sq = 阿尔巴尼亚语
@@ -159,6 +165,7 @@ ti = 提格里尼亚语
 tig = 提格雷语
 tk = 土库曼语
 tl = 塔加洛语
+tok = 道本语
 tr = 土耳其语
 tt = 鞑靼语
 tw = 契维语
@@ -328,6 +335,9 @@ profile-form-additional-language =
     .label = 附加语言
 profile-form-language =
     .label = 语言
+profile-form-variant =
+    .label = 您会说 { $language } 的哪种变体？
+profile-form-variant-default-value = 未选择变体
 profile-form-accent =
     .label = 口音
 profile-form-custom-accent-help-text =
@@ -379,6 +389,7 @@ off = 关
 on = 开
 help-accent = 需要口音方面的帮助？
 help-accent-explanation = 口音就是您发音的方式，通常受到您生活过的地方、会说的语言等诸多因素影响。您可以在此分享任何您认为有关的信息。
+help-variants-explanation = 变体是一种语言的特定形式 - 例如在某片区域内人们的说话方式被称为一种变体。有时称其为方言。
 
 ## Profile - Email
 
@@ -461,15 +472,22 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 为什么会有 Common Voice？
-about-subtitle = Common Voice 项目是 Mozilla 发起的倡议，旨在帮助教会机器真人的说话方式。除 Common Voice 数据集外，我们还在构建一个名为 Deep Speech 的开源语音识别引擎。
-about-header-description =
-    这两个项目都是我们努力弭平数字语音鸿沟的一部分。语音识别技术为我们的设备带来人性的维度，但开发者需要巨量的语音数据来构建它们。目前大部分语音数据都相当昂贵且为巨头专有。
-    我们希望能够自由公开地提供语音数据，并确保数据反映出人们实际的多样性。让我们一起为所有人把语音识别技术发展得更好吧！
-about-header-description-2 =
-    此项目是我们努力弭平数字语音鸿沟所做的努力。语音识别技术为我们的设备带来人性的维度，但开发者需要巨量的语音数据来构建它们。目前大部分语音数据都相当昂贵且为巨头专有。
-    我们希望自由公开地提供语音数据，并确保数据反映出人们实际的多样性。让我们一起为所有人把语音识别技术发展得更好吧！
-how-does-it-work-title = 原理是什么？
 how-does-it-work-text = 我们集众人之力，构建开源的语音数据集。欢迎捐出一段声音，或者帮助验证录音片段是否正确，让数据集能够变得更好。
+
+## How does it work section
+
+about-language-req-subtitle = 有人申请添加一门语言。
+about-localization-title = 网站本地化
+about-localization-subtitle = 将网站文本完全本地化。
+about-sentence-collection-title = 收集语句
+about-sentence-collection-subtitle = 收集语句，供人们进行录音。
+about-new-lang-subtitle = 我们上线此语言版本的 Common Voice 网站。
+about-voice-contrib-title = 贡献录音
+about-voice-contrib-subtitle = 有一群人参与贡献录音。
+about-voice-validation-title = 验证录音
+about-voice-validation-subtitle = 另一群人参与验证这些录音片段。
+about-dataset-release-title = 发布数据集
+about-dataset-release-subtitle = 我们每 3 个月发布一次数据集。
 about-speak = 说话
 about-speak-text = 贡献者通过朗读一系列由他人捐赠的语句，将语音片段录制下来。
 about-listen-queue = 聆听队列
@@ -498,10 +516,54 @@ about-get-involved-text-2 =
     太好了！请发送电子邮件与我们联系，也可以到 <discourseLink>Discourse</discourseLink> 论坛留言、
     通过 <githubLink>GitHub</githubLink> 反馈网站问题、
     也可以加入我们的 <matrixLink>Matrix</matrixLink> 社区群组。
+about-stay-in-touch = 如何获取最新信息？
 about-nav-why-common-voice = 为什么？
 about-nav-how-it-works = 怎么做？
 about-nav-partners = 合作伙伴
 about-nav-get-involved = 参与进来
+about-nav-playbook = 了解如何参与
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+about-playbook-how-add-language = 如何添加语言？
+
+## How does localization work
+
+about-playbook-how-localize = 如何进行网站本地化？
+about-playbook-how-localize-content-1 = Common Voice 网站的翻译工作在 <strong>Pontoon</strong> 上进行。
+about-playbook-how-localize-content-4 = 网站本地化完成度达 75% 后即可上线。
+about-playbook-how-localize-content-5 = 观看我们的帮助视频
+
+## How to add sentences
+
+
+## How to record quality
+
+about-playbook-how-record-quality = 如何录制高质量的语音片段？
+about-playbook-how-record-content-3 = 准确读出句子内容，不要漏词、改词或添词。
+
+## How to grow language
+
+about-playbook-how-grow-language = 如何有效推进 Common Voice 上的语言项目？
+about-playbook-how-grow-language-content-2 = 活动
+about-playbook-how-grow-language-content-4 = 社交媒体
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance-content-3 = 隐私、安全和透明度。
+about-playbook-how-project-governance-content-4 = 社区参与决策。
+about-playbook-how-project-governance-content-6 = 相互问责。
+about-playbook-how-project-governance-content-7 = <governanceLink>详细了解我们如何管理此项目</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智能
 mycroft-description = Mycroft 是全球第一个开源语音助手，不论是在桌面电脑、汽车、树莓派（Raspberry Pi）或是任何地方都能运行。
@@ -1030,6 +1092,9 @@ sc-home-collect-text = 帮助我们撰写或收集公有领域的句子。
 sc-home-review-title = 审核句子
 sc-home-review-text = 请按下列标准帮助我们审核句子是否正确。
 
+## GENERAL
+
+
 ## HOW-TO
 
 sc-howto-title = 如何做
@@ -1094,11 +1159,8 @@ sc-rejected-none-found = 找不到驳回的句子！
 ## STATS
 
 sc-stats-title = 统计数据
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = 最后更新：{ $lastUpdate }
-sc-stats-last-update-never = 最后更新：从未
 sc-stats-updating = 正在更新…
+sc-stats-error = 获取不到统计信息，请稍后再试。
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1185,6 +1247,8 @@ sc-confirm-uploading = 正在上传句子。根据句子数量而定可能需要
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = 总计
+sc-lang-info-title-personal = 个人
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1270,8 +1334,13 @@ sc-review-form-source = 来源：{ $sentenceSource }
 sc-review-form-button-reject = 驳回
 sc-review-form-button-skip = 跳过
 sc-review-form-button-approve = 通过
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = 您还可以使用快捷键：按 Y 通过、按 N 驳回、按 S 跳过
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = 您可以使用键盘快捷键：{ sc-review-form-button-approve-shortcut } 键 - 通过，{ sc-review-form-button-reject-shortcut } 键 - 驳回，{ sc-review-form-button-skip-shortcut } 键 - 跳过
 sc-review-form-button-submit =
     .submitText = 完成审核
 # Variables:
@@ -1301,3 +1370,5 @@ sc-validation-no-abbreviations = 句子不应包含缩写
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = 选择语言 / 语系

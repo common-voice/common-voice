@@ -303,6 +303,7 @@ Andra skolbibliotekarier uttryckte att de saknade kunskaper inom dessa områden 
 Andra stycket gäller dock bara om dokumentationen förs för varje omsorgsmottagare för sig.
 Andra stycket reglerar ytterligare formkrav.
 Andra trängde sig fram.
+Andra tycker inte om oss så mycket.
 Anhängare menar att Sahlin var mycket betydelsefull för rollspelandet i landet.
 Anita ler när hon presenterar en ny sorts flytande tvål.
 Anledningen till detta var att behandlingen inte varit begränsad till regionens egen verksamhet.
@@ -5718,6 +5719,7 @@ Då får jag passa på att önska er alla en riktigt trevlig helg!
 Då får jag väl vara självisk.
 Då får vi gå en rond mot dem igen, helt enkelt.
 Då får vi göra något åt det
+Då förklarar vi detta kommunfullmäktigemöte öppnat
 Då först var det slut med larverna.
 Då förstod Jarro.
 Då förstod han äntligen!
@@ -6873,6 +6875,7 @@ Finlands försvarsminister välkomnar det israeliska initiativet.
 Finns den här i någon annan färg än rosa?
 Finns den i sammet, helst grönt?
 Finns den i större storlek?
+Finns den på riktigt?
 Finns det en hemlighet i pappas liv?
 Finns det giltig ursäkt?
 Finns det inga skepp med blommiga segel?
@@ -17524,6 +17527,7 @@ Om inte Iris kommer nu missar hon middagen.
 Om inte detta är den riktiga flugan, vet jag inte vad en fluga är.
 Om inte din kvinnliga instinkt sagt dig något, så har väl Bengt Bengtsson?
 Om inte mor vore uppe, kunde hon hinna klä sig under tiden.
+Om inte vi åker till sjön imorgon gör jag det på egen hand.
 Om inte, har projektet misslyckats.
 Om jag anföll en älg, skulle han genast slå ihjäl mig.
 Om jag bestämde så skulle du få den.
@@ -18607,6 +18611,7 @@ Ser ni inte, att det är ett högt slott av sten?
 Ser ni på hans vänstra fot?
 Ser till att ägarna inte gillar vapen eller har aggressiva hundar.
 Ser ut som att webbplatsen ligger nere.
+Serpentinerna blir för mycket om vi har de på bordet också.
 Serpentinerna kan vara i vilka färger som helst, utom blå.
 Servitutsfrågan visade sig inte vara så enkel som det först verkade.
 Ses i morgon.
@@ -19057,6 +19062,7 @@ Snyggt med rutmönstret på flanken där.
 Snälla Eva, sade jag tydligt, har du frågat Magnhild?
 Snälla magistern, förlåt mig!
 Snälla, inte det.
+Snälla, prata om annat än vädret.
 Snälla, skrik inte.
 Snälla, skåla inte för mig.
 Snällhet är underskattat.
@@ -20110,6 +20116,7 @@ Titta, en citronfjäril!
 Tja, det beror på vem du lyssnar på.
 Tja, det ser redan illa ut.
 Tja, du vet.
+Tjalla inte på dina syskon
 Tjejerna flyr ju från dig.
 Tjejerna mot killarna.
 Tjugofyra skilling fick jag i dagspenning och maten skulle jag hålla mig själv.
@@ -20266,6 +20273,7 @@ Tvärtom, det nya landet borde helt frikostigt stå öppet för hela världen.
 Tvättbryggorna fördes upp på land och landsvägsbroarna förstärktes.
 Två av anläggningarna ägs av staten medan två hyrs av privata fastighetsägare.
 Två av myndigheterna hanterar även säkerhetsskyddsklassificerade uppgifter.
+Två dagar är nog, för sedan orkar de inte mer.
 Två euro innefattar flyg, två nätter på trestjärnigt hotell.
 Två gamla män fanns i ekan.
 Två gin och tonic, tack!

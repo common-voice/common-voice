@@ -181,8 +181,8 @@ zh-TW = ሲኒ (ታይዋን)
 
 ## Layout
 
-speak = ታሃገ
-speak-now = ኣዜ ታሃገ
+speak = ታሃገው
+speak-now = ኣዜ ታሃገው
 datasets = መጅሙዓት በያናት
 languages = ሉቃት
 profile = ናይ ኖስ መለፍ
@@ -219,7 +219,7 @@ hours-recorded = ላትሰጀለያ ሳዓት
 hours-validated = ላትሓቀቀያ ሳዓት
 voices-online = ኣዘ ዲብ ኸጥ ላህሌት ኣስዋት
 todays-progress = ናይ ዮም ትቅዱም
-help-reach-goal = ሳኣደና ደብ { $goal } አገል ኔብጻሕ
+help-reach-goal = ስደውና ኣስክ { $goal } አገል ኔብጻሕ
 read-terms-q = ሹሩጥና ቃራአኩምማ?
 ready-to-record = አብ ሶትኩም ግል ትሳህሞ ዱሉያም ህሌኹም?
 all-locales = ኩሉ
@@ -1173,8 +1173,6 @@ sc-review-form-source = መስድር: { $sentenceSource }
 sc-review-form-button-reject = ርፈድ
 sc-review-form-button-skip = ሕለፍ
 sc-review-form-button-approve = ዋፍቅ
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = እለን ናይ Keyboard Shortcuts እገል ቲደው ትቃድሩ: 'Y' ግል ሙዋፍቀት, 'N' ግል ረፍደ, 'S' ግል ሓለፎት
 sc-review-form-button-submit =
     .submitText = ሙራጅዓት ኣኽልሶ
 # Variables:

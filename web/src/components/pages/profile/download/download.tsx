@@ -5,16 +5,16 @@ import {
 } from '@fluent/react';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
+import pick from 'lodash.pick';
+
 import { CloudIcon, MicIcon, UserIcon, RedoIcon } from '../../../ui/icons';
-import { Button, LabeledCheckbox } from '../../../ui/ui';
+import { Button } from '../../../ui/ui';
 import './download.css';
 import API from '../../../../services/api';
 import { useAccount, useAPI } from '../../../../hooks/store-hooks';
 import { TakeoutRequest, TakeoutState, UserClient, Accent } from 'common';
 import { byteToSize } from '../../../../utility';
 import Modal, { ModalProps } from '../../../modal/modal';
-
-const pick = require('lodash.pick');
 
 // you can request a new takeout every 7 days
 const REQUEST_LIMIT = 7;
@@ -57,7 +57,6 @@ const Item = ({
   className = '',
   disabledReason = '',
   isDisabled = false,
-  children,
   ...props
 }: {
   icon: React.ReactNode;
@@ -69,7 +68,6 @@ const Item = ({
   className?: string;
   isDisabled?: boolean;
   disabledReason?: string;
-  children?: React.ReactNode;
 }) => {
   return (
     <div className={'download-item' + className} {...props}>
@@ -228,17 +226,26 @@ const LinkModal = ({
         {links.length && (
           <ul>
             {links[0].map((link: string, i: number) => (
-              <li>
+              <li key={i}>
                 <Localized
                   id="download-request-link-text"
                   vars={{ offset: i + 1, total: links[0].length }}>
-                  <a key={link} href={link} target="_blank" />
+                  {/* Localized injects content into child tag */}
+                  {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+                  <a key={link} href={link} target="_blank" rel="noreferrer" />
                 </Localized>
               </li>
             ))}
             <li>
               <Localized id="download-request-metadata-link">
-                <a key={links[1]} href={links[1]} target="_blank" />
+                {/* Localized injects content into child tag */}
+                {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+                <a
+                  key={links[1]}
+                  href={links[1]}
+                  target="_blank"
+                  rel="noreferrer"
+                />
               </Localized>
             </li>
           </ul>
@@ -280,7 +287,7 @@ function downloadAsFile(filename: string, url: string) {
 export function getProfileInfo(account: UserClient) {
   return [
     ...Object.entries(pick(account, 'email', 'username', 'age', 'gender')),
-    ...account.locales.reduce((all, l, i) => {
+    ...account.languages.reduce((all, l, i) => {
       const localeLabel = 'language ' + (i + 1);
       const accents = l.accents
         .slice(1)
@@ -310,7 +317,7 @@ function download(
   if (type === 'clips')
     api
       .requestTakeout()
-      .then((data: any) => forceTakeoutRefresh())
+      .then(() => forceTakeoutRefresh())
       .catch((err: any) => console.error(err));
 }
 

@@ -1,8 +1,9 @@
 import * as React from 'react';
 
-const Icon = (path: string, title = '') => ({ children, ...props }: any) => (
-  <img src={path} title={title} {...props} />
-);
+const Icon =
+  (path: string, title = '') =>
+  ({ children, ...props }: any) =>
+    <img src={path} title={title} {...props} />;
 
 let idCounter = 0;
 function uniqueIcon(component: (id: number, props: any) => React.ReactNode) {
@@ -206,21 +207,8 @@ export const ChevronLeft = () => (
 );
 
 export const ChevronDown = (props: any) => (
-  <svg width="13px" height="9px" viewBox="0 0 13 9" className={props.className}>
-    <title>icon / down-arrow-black</title>
-    <g
-      id="Symbols"
-      stroke="none"
-      strokeWidth="1"
-      fill="none"
-      fillRule="evenodd">
-      <g id="icon-/-down-arrow-black" fill="#000000">
-        <polygon
-          id="down-arrow-black"
-          points="11.7578125 0.75 12.5 1.5703125 6.25 8.25 0 1.5703125 0.7421875 0.75 6.25 6.609375"
-        />
-      </g>
-    </g>
+  <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" {...props}>
+    <polygon points="11.7578125 0.75 12.5 1.5703125 6.25 8.25 0 1.5703125 0.7421875 0.75 6.25 6.609375" />
   </svg>
 );
 
@@ -346,7 +334,7 @@ export const HeartIcon = () => (
 
 export const CloseIcon = ({ black, ...props }: any) => {
   const RealIcon = Icon(require(`./icons/close${black ? '-black' : ''}.svg`));
-  return <RealIcon {...props} />;
+  return <RealIcon alt="" {...props} />;
 };
 
 export const CloudIcon = uniqueIcon(id => (
@@ -410,6 +398,26 @@ export const ContactIconCode = () => (
   </svg>
 );
 
+export const MailIcon = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M4 5C3.45228 5 3 5.45228 3 6V18C3 18.5477 3.45228 19 4 19H20C20.5477 19 21 18.5477 21 18V6C21 5.45228 20.5477 5 20 5H4ZM1 6C1 4.34772 2.34772 3 4 3H20C21.6523 3 23 4.34772 23 6V18C23 19.6523 21.6523 21 20 21H4C2.34772 21 1 19.6523 1 18V6Z"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M1.18085 5.4265C1.49757 4.97405 2.1211 4.86402 2.57355 5.18073L12.0001 11.7793L21.4266 5.18073C21.8791 4.86402 22.5026 4.97405 22.8193 5.4265C23.136 5.87895 23.026 6.50248 22.5735 6.8192L12.5735 13.8192C12.2292 14.0602 11.7709 14.0602 11.4266 13.8192L1.42662 6.8192C0.974174 6.50248 0.864139 5.87895 1.18085 5.4265Z"
+    />
+  </svg>
+);
+
 export const CrossIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>
@@ -457,24 +465,6 @@ export const DiscourseIconCode = () => (
       clipRule="evenodd"
       d="M20 11.5C20 6.06975 14.0662 2.30981 9.15088 4.79256L9.14709 4.79447L9.14709 4.79447C5.52862 6.60292 3.95647 11.2139 5.79263 14.8491C5.91284 15.0871 5.93303 15.3632 5.84871 15.6162L4.58117 19.4188L8.3838 18.1513C8.63674 18.067 8.91289 18.0872 9.15088 18.2074C14.0075 20.6604 20.0139 16.8409 20 11.5026L20 11.5ZM22 11.4988C21.9992 4.61375 14.5263 -0.161513 8.25106 3.00641C3.78432 5.24011 1.77608 10.7956 3.82401 15.3657L2.05134 20.6837C1.93157 21.0431 2.02509 21.4392 2.29292 21.7071C2.56075 21.9749 2.95692 22.0684 3.31625 21.9486L8.63399 20.1761C14.7713 22.9322 22.0163 18.1596 22 11.4988Z"
     />
-  </svg>
-);
-
-export const DownIcon = () => (
-  <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1">
-    <g
-      id="Symbols"
-      stroke="none"
-      strokeWidth="1"
-      fill="none"
-      fillRule="evenodd">
-      <g id="icon-/-down-arrow-black" fill="#000000">
-        <polygon
-          id="down-arrow-black"
-          points="11.7578125 0.75 12.5 1.5703125 6.25 8.25 0 1.5703125 0.7421875 0.75 6.25 6.609375"
-        />
-      </g>
-    </g>
   </svg>
 );
 
@@ -959,6 +949,31 @@ export const TargetIcon = () => (
     <path d="M11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C15.9706 20 20 15.9706 20 11C20 6.02944 15.9706 2 11 2ZM0 11C0 4.92487 4.92487 0 11 0C17.0751 0 22 4.92487 22 11C22 17.0751 17.0751 22 11 22C4.92487 22 0 17.0751 0 11Z" />
     <path d="M11 6C8.23858 6 6 8.23858 6 11C6 13.7614 8.23858 16 11 16C13.7614 16 16 13.7614 16 11C16 8.23858 13.7614 6 11 6ZM4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11Z" />
     <path d="M11 10C10.4477 10 10 10.4477 10 11C10 11.5523 10.4477 12 11 12C11.5523 12 12 11.5523 12 11C12 10.4477 11.5523 10 11 10ZM8 11C8 9.34315 9.34315 8 11 8C12.6569 8 14 9.34315 14 11C14 12.6569 12.6569 14 11 14C9.34315 14 8 12.6569 8 11Z" />
+  </svg>
+);
+
+export const HexIcon = () => (
+  <svg
+    width="62"
+    height="68"
+    viewBox="0 0 62 68"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path d="M61 50.6443L31 67.1924L1 50.6443V17.5481L31 1L61 17.5481V50.6443Z" />
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M61 50.6443L31 67.1924L1 50.6443V17.5481L31 1L61 17.5481V50.6443Z"
+      stroke="black"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      opacity="0.5"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M54.816 45.6799L30.9998 58.6809L7.1836 45.6799L1.5 50.371L30.9998 66.6714L60.6599 50.371L54.816 45.6799Z"
+    />
   </svg>
 );
 

@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Ja, skicka mig e-postmeddelanden. Jag skulle vilja hålla mig informerad om projektet Common Voice.
-stayintouch = Vi hos Mozilla bygger en gemenskap kring röstteknik. Vi skulle vilja hålla kontakten med dig om uppdateringar, nya datakällor och höra mer om hur du använder dessa data.
+stayintouch = Vi på Mozilla bygger en gemenskap kring röstteknik. Vi skulle vilja hålla kontakten med dig om uppdateringar, nya datakällor och höra mer om hur du använder dessa data.
 privacy-info = Vi lovar att hantera din information med försiktighet. Läs mer i vår <privacyLink>sekretesspolicy</ privacyLink>.
 return-to-cv = Återgå till Common Voice
 email-input =
@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Få e-postmeddelanden som målpåminnelse
 email-opt-in-privacy-v2 = Genom att anmäla dig till att ta emot e-postmeddelanden godkänner du att du är okej med att Mozilla hanterar denna information, som förklaras i Mozillas <privacyLink>sekretesspolicy</privacyLink>.
 indicates-required = * Indikerar obligatoriska fält
 not-available-abbreviation = inte tillgänglig
+banner-error-slow-1 = Tyvärr, Common Voice går sakta. Tack för visat intresse.
+banner-error-slow-2 = Vi har mycket trafik och utreder just nu problemet.
+banner-error-slow-link = Statussida
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,7 +39,6 @@ ba = Basjkiriska
 bas = Basaa
 be = Vitryska
 bg = Bulgariska
-bm = Bambara
 bn = Bengaliska
 br = Bretonska
 bs = Bosniska
@@ -68,6 +70,7 @@ fy-NL = Frisiska
 ga-IE = Irländska
 gl = Galiciska
 gn = Guarani
+gom = Goa-konkani
 ha = Hausa
 he = Hebreiska
 hi = Hindi
@@ -93,10 +96,12 @@ ki = Kikuyu
 kk = Kazakstanska
 km = Khmer
 kmr = Kurmanji kurdiska
+knn = Konkani (devanagari)
 ko = Koreanska
 kpv = Komi-syrjänska
 kw = Korniska
 ky = Kirgiziska
+lb = Luxemburgiska
 lg = Luganda
 lij = Liguriska
 lt = Litauiska
@@ -144,6 +149,7 @@ scn = Sicilianska
 shi = Shilha
 si = Singalesiska
 sk = Slovakiska
+skr = Saraiki
 sl = Slovenska
 so = Somaliska
 sq = Albanska
@@ -159,6 +165,7 @@ ti = Tigrinska
 tig = Tigre
 tk = Turkmeniska
 tl = Tagalog
+tok = Toki Pona
 tr = Turkiska
 tt = Tatariska
 tw = Twi
@@ -262,7 +269,7 @@ email-subscription-title-new = Registrera dig för Common Voice nyhetsbrev, mål
 
 benefits = Fördelar
 rich-data = Gör dina inskickade data så utförliga som möjligt genom att bidra med anonym demografi. Vi anonymiserar all demografisk data innan den blir publik.
-improve-audio = Profilinformation förbättrar ljuddatan som används för att göra träningen av röstigenkänning bättre.
+improve-audio = Profilinformation förbättrar ljuddata som används för att göra träningen av röstigenkänning bättre.
 keep-track = Håll reda på dina framsteg och mätvärden för flera språk.
 compare-progress = Se hur dina framsteg går mot andra som bidrar över hela världen.
 view-goals = Se dina personliga framsteg och projektmål.
@@ -272,7 +279,7 @@ join-newsletter = Du kan, om du vill, gå med i vår e-postlista för uppdaterin
 
 whats-public = Vad är offentligt?
 email-not-public = Vi kommer inte göra din e-post offentlig.
-recordings-and-locale-public = Antalet inspelningar och vilka språk du bidrar till kommer att vara offentligt.
+recordings-and-locale-public = Antalet inspelningar och vilka språk du bidrar till kommer att vara offentliga.
 username-optin-public = Du kan välja att göra ditt användarnamn offentligt eller anonymt.
 demographic-deidentified-clarity-2 = Valfritt inskickade demografiska data (t.ex. ålder, kön, språk och accent) kommer aldrig att offentliggöras i din profil och kommer inte att länkas till ditt konto i datamängden. Enskilda ljudklipp kommer att associeras med demografiska data i syfte att göra en mer exakt analys - till exempel kan en forskare inrikta sig på en träningsmodell till ett specifikt demografiskt segment.
 username-email-not-demographic = Ditt användarnamn och e-post kommer inte att kopplas till den publicerade datan.
@@ -335,6 +342,9 @@ profile-form-additional-language =
     .label = Ytterligare språk
 profile-form-language =
     .label = Språk
+profile-form-variant =
+    .label = Vilken dialekt av { $language } talar du?
+profile-form-variant-default-value = Ingen dialekt har valts
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
@@ -386,6 +396,8 @@ off = Av
 on = På
 help-accent = Behöver du hjälp med accent?
 help-accent-explanation = Din accent är hur du uttalar ord. Det kan formas av var du har bott, vilka andra språk du talar och massor av andra faktorer. Du kan dela all information som du tycker är relevant här.
+help-variants = Behöver du hjälp med dialekter?
+help-variants-explanation = Varianter är en specifik form av ett språk - till exempel delas av de som bor i ett visst geografiskt område eller ett visst samhälle. Ibland kallas dessa för dialekter.
 
 ## Profile - Email
 
@@ -427,7 +439,7 @@ faq-why-important-a =
 faq-how-get-q = Hur kan jag hämta hem Common Voice-data?
 faq-how-get-a = Common Voice-datamängd finns tillgänglig för nedladdning under licensen <licenseLink>CC0</licenseLink> på <datasetLink>vår sida för datamängder</datasetLink>. Du kan också ladda ner flera andra publikt tillgängliga datamängder från samma sida.
 faq-when-release2-q = När kommer ni släppa Common Voice-data på andra språk?
-faq-when-release2-a = Flerspråkig version av Common Voice-datamängd genomgår för närvarande paketering och rengöring av gemenskapen. Om du vill hjälpa oss att ta med Common Voice till andra språk, gå till <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> för att lägga till nya meningar i datamängden och Mozilla <pontoonLink>Pontoon</pontoonLink> för att översätta webbplatsen. Nya språk läggs till i Common Voice när 5000 godkända meningar har samlats in.
+faq-when-release2-a = Flerspråkig version av Common Voice-datamängd genomgår för närvarande paketering och rengöring av gemenskapen. Om du vill hjälpa oss att ta med Common Voice till andra språk, gå till <sentenceCollectorLink>verktyg för meningsinsamling</sentenceCollectorLink> för att lägga till nya meningar i datamängden och Mozilla <pontoonLink>Pontoon</pontoonLink> för att översätta webbplatsen. Nya språk läggs till i Common Voice när 5000 godkända meningar har samlats in.
 faq-why-mission-q = Varför är Common Voice en del av Mozillas uppdrag?
 faq-why-mission-a = Mozilla är dedikerat till att hålla webben öppen och tillgänglig för alla. För att göra det behöver vi stärka webbskapare genom projekt som Common Voice. Eftersom röstteknologi växer utöver nischprogram, tycker vi att de måste vara tillgängliga för alla användare. Det innebär en investering i fler språk och anpassning efter fler accenter och större demografi när man bygger och testar röstteknik. Common Voice är en offentlig resurs tillgänglig för alla och Mozilla-team och utvecklare runt om i världen använder den redan i sina egna projekt.
 faq-what-cv-and-deepspeech-q = Vad är skillnaden mellan Common Voice och Deep Speech?
@@ -473,17 +485,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Varför Common Voice?
-about-subtitle = Common Voice är en del av Mozillas initiativ för att hjälpa till att lära maskiner hur riktiga människor talar. Förutom Common Voice-datamängd bygger vi också en taligenkänningsmotor med öppen källkod som heter Deep Speech.
-about-header-description =
-    Båda dessa projekt är en del av våra ansträngningar att överbrygga den digitala talklyftan. Röstigenkänningsteknik ger en mänsklig dimension till våra enheter, men utvecklare behöver en enorm mängd röstdata för att bygga dem. För närvarande är de flesta av dessa data dyra och proprietära.
-    Vi vill göra röstdata fritt och allmänt tillgängliga, och se till att uppgifterna representerar mångfalden av riktiga människor. Tillsammans kan vi göra röstigenkänning bättre för alla.
-about-header-description-2 =
-    Detta projekt är ett försök att överbrygga det digitala talets klyfta.
-    Röstigenkänningsteknologin tillför en mänsklig dimension åt våra apparater men för att det skall lyckas så behöver utvecklare enorma mängder av röstdata och för tillfället så är större delen av dessa data både dyr och belagd med patent.
-    Vi vill att röstdata skall vara gratis och tillgängligt för alla, inte minst  för att säkerställa att datan verkligen representerar mångfalden av verkliga människor.
-    Tillsammans kan vi göra röstigenkänning bättre för alla.
-how-does-it-work-title = Hur fungerar det
+about-header-description-v2 =
+    <p>Common Voice är en allmänt tillgänglig röstdatamängd, som drivs av röster från frivilliga bidragsgivare runt om i världen. Människor som vill bygga röstapplikationer kan använda datamängden för att träna maskininlärningsmodeller.</p>
+    <p>För närvarande ägs de flesta röstdatamängder av företag, vilket hämmar innovation. Röstdatamängder överrepresenterar också vita, engelsktalande män. Detta betyder att röstaktiverad teknik inte fungerar alls för många språk och där den fungerar kanske den inte fungerar lika bra för alla. Vi vill ändra på det genom att mobilisera människor överallt för att dela sin röst.</p>
+how-does-it-work-title-v2 = Hur fungerar Common Voice?
 how-does-it-work-text = Vi crowdsourcar en röstdatamängd med öppen källkod. Donera din röst, bekräfta noggrannheten i inspelningar från andra och gör datamängden bättre för alla.
+
+## How does it work section
+
+about-language-req-subtitle = Någon ber om att ett språk ska läggas till.
+about-localization-title = Webbplatsöversättning
+about-localization-subtitle = Webbplatsens text är översatt till det språket.
+about-sentence-collection-title = Insamling av meningar
+about-sentence-collection-subtitle = Meningar samlas in för att personer ska kunna läsa högt.
+about-new-lang-title = Ny språklansering
+about-new-lang-subtitle = Vi lanserar webbplatsen Common Voice på detta språk.
+about-voice-contrib-title = Röstbidrag
+about-voice-contrib-subtitle = Personer kommer och bidrar med sina röster.
+about-voice-validation-title = Röstvalidering
+about-voice-validation-subtitle = Andra personer validerar dessa röstklipp.
+about-dataset-release-title = Släpp av datamängder
+about-dataset-release-subtitle = Vi släpper datamängder var tredje månad.
+about-subscribe-text = Vill du hålla kontakten med Common Voice?
 about-speak = Tala
 about-speak-text = Bidragsgivare spelar in röstklipp genom att läsa från en bank med givna meningar.
 about-listen-queue = Lyssna-kö
@@ -512,10 +535,94 @@ about-get-involved-text-2 =
     Bra! Ta kontakt via e-post eller <discourseLink>Discourse</discourseLink>
     forum, skicka webbplatsfrågor via <githubLink>GitHub</githubLink> eller gå med i
     <matrixLink>Matrix</matrixLink> communitychatt.
+about-stay-in-touch = Hur håller jag kontakten?
+about-stay-in-touch-text-1 = <emailFragment>Anmäl dig</emailFragment> till vår e-postlista för att lära dig hur du kan ta del av kampanjer, evenemang och samarbetsdesignfunktioner på Common Voice.
+about-stay-in-touch-text-2 = Du kan träffa andra i Mozillas språkgemenskaper genom att gå med i <discourseLink>Discourse</discourseLink> för aktuella samtal eller <matrixLink>Matrix</matrixLink> för snabba råd.
 about-nav-why-common-voice = Varför ?
 about-nav-how-it-works = Hur ?
 about-nav-partners = Partners
 about-nav-get-involved = Engagera dig
+about-nav-how-it-works-2 = Hur fungerar Common Voice?
+about-nav-playbook = Lär dig hur du deltar
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Vad är ett språk på Common Voice?
+about-playbook-what-is-language-content-1 = Det finns många sätt att tänka på språk. För taligenkänningsmodeller föreslår Common Voice att man fokuserar på "ömsesidig förståelse", eller "kan talare av detta språk mestadels förstå varandra om de försöker?"
+about-playbook-what-is-language-content-2 = Vi vill att talmodeller ska bli bättre på att förstå en mängd olika talare. För att detta ska hända måste en röstdatamängd representera många olika personer.
+about-playbook-what-is-language-content-3 = Vissa språk har enorm variation i grammatik, ordförråd och uttal. Av denna anledning <ctaLink>introducerar vi "Varianter"</ctaLink> 2022. Detta ger gemenskaper ett sätt att särskilja sina språk inom den större datamängden.
+
+## How do I add a language
+
+about-playbook-how-add-language = Hur lägger jag till ett språk?
+about-playbook-how-add-language-content-1 = Kontrollera först om ditt språk <languageLink>redan finns</languageLink>. Om det inte gör det måste du <strong>översätta webbplatsen och samla meningar</strong>.
+about-playbook-how-add-language-content-2 = <strong>För att översätta webbplatsen</strong> - <translateVideo>konfigurera</translateVideo <pontoonLink>Pontoon</pontoonLink>. Pontoon har många språk, men om det inte har ditt kan du <pontoonRequestLink>begära det</pontoonRequestLink>. Be sedan <repoLink>via GitHub</repoLink> att få Common Voice-projektet tillgängligt för språket. Se mer om <localizationFragment>webbplatsöversättning</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>För att samla in meningar</strong> - <scVideo>konfigurera</scVideo> <scLink>meningsinsamlaren</scLink>.
+about-playbook-how-add-language-content-4 = Du kan <scLinkAdd>lägga till ett litet antal</scLinkAdd> meningar här eller så kan du göra <bulkImportDocsLink>massimport</bulkImportDocsLink> via en Github-förfrågan. Kom ihåg att meningar måste vara <licenseLink>CC0 (eller allmän egendom)</licenseLink> eller så kan du skriva din egen. Se mer om <scFragment>meningsinsamling</scFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Hur fungerar översättning av webbplatsen?
+about-playbook-how-localize-content-1 = Översättning av Common Voice-webbplatsen sker på <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Skapa ett konto</pontoonAccountLink> om du inte har ett. Välj sedan ditt språk <strong>(‘Team’)</strong> och välj sedan projektet, <pontoonCvLink>Common Voice</pontoonCvLink>. Det kommer att finnas filer att översätta. Klicka på en, så visas ord på engelska och en ruta för att översätta dem.
+about-playbook-how-localize-content-3 = Översättningen är från engelska, men du kan se <strong>Förslag</strong> på andra språk. Klicka på ikonen <strong>Profil</strong>, sedan på länken <strong>Inställningar</strong> och lägg till alla språk du talar. I det nedre högra hörnet finns en lista med översättningar som heter <strong>Språk</strong>. Översättningar visas på webbplatsen efter en dag.
+about-playbook-how-localize-content-4 = Webbplatsen är redo att lanseras när den är 75% klar.
+about-playbook-how-localize-content-5 = Se vår videoförklaring för att hjälpa dig
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Hur lägger jag till meningar?
+about-playbook-how-add-sentences-content-1 = <strong>Meningsinsamlaren</strong> är ett verktyg för att samla in och validera meningar som är allmän egendom. Du måste <scAccountLink>skapa ett konto</scAccountLink>. Lägg sedan till ditt språk i din <strong>profil</strong>. Du kan <strong>Lägga till</strong> meningar eller <strong>Granska</strong> tidigare tillagda meningar.
+about-playbook-how-add-sentences-content-2 = Meningar måste granskas och accepteras av två personer för att inkluderas i Common Voice. Du skapar riktlinjer för ditt språk <languageGuidelinesLink>här</languageGuidelinesLink>. Meningar måste vara <licenseLink>allmänna egendom</licenseLink> och kortare än 15 ord. Du kan be ägaren av en text att göra den till <waiverLink>CC0 med hjälp av vår dispensprocess</waiverLink> och skicka till oss på commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Du kan använda <scraperLink>Meningsutdragaren</scraperLink> för att utnyttja korta meningar från Wikipedia.
+about-playbook-how-add-sentences-content-4 = Meningar som har validerats exporteras på onsdagar och är tillgängliga efter nästa release.
+
+## How to record quality
+
+about-playbook-how-record-quality = Hur spelar jag in ett röstklipp med hög kvalitet?
+about-playbook-how-record-content-1 = Tala med din vanliga röst! Sättet du talar på är välkommet här - vi vill ha din accent som den är, och vi vill ha din vanliga volym, stil och intonation.
+about-playbook-how-record-content-2 = Undvik för mycket bakgrundsljud – det ska vara lätt att höra dig.
+about-playbook-how-record-content-3 = Läs meningen noga - missa inte, ändra eller lägg till ord.
+about-playbook-how-record-content-4 = Se till att plattformen spelar in innan du börjar prata och att den endast stannar när du är klar.
+about-playbook-how-record-content-5 = <accuracyLink>Se mer om noggrannhetskriterier.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Hur kan vi effektivt utveckla ett språk på Common Voice?
+about-playbook-how-grow-language-content-1 = Genom att skapa möjligheter för en mångfald människor att bidra till Common Voice säkerställer vi att datamängden betjänar så många människor som möjligt. Vi har skapat resurser och mallar som du kan använda!
+about-playbook-how-grow-language-content-2 = Evenemang
+about-playbook-how-grow-language-content-3 = Du kan anordna evenemang för att hjälpa människor att bidra. Det är lättare än du tror. Du kan göra det online med ett videokonferensverktyg eller personligen om det är säkert. <eventTemplate>Kolla in våra mallar och resurser för att köra evenemang</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Sociala medier
+about-playbook-how-grow-language-content-5 = Du kan använda sociala medier för att få ut budskapet. Dela inlägg som förklarar varför det är viktigt och ta kontakt med andra som pratar om frågor som språkrättigheter, röst-AI eller teknisk fördom. Se fler råd om att <campaignLink>köra en social kampanj, inklusive innehåll som du kan återanvända</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnerskap och nätverk
+about-playbook-how-grow-language-content-7 = Hitta andra som bryr sig. Det kan vara universitet, språkskolor, opinionsbildningsgrupper eller datavetenskapsgemenskaper. Nå ut och förklara tydligt hur de kan hjälpa och varför. <outreachTemplates>Se våra mallar för uppsökande e-postmeddelanden</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Var kreativ!</strong> Din språkgemenskap kommer att vara unik och det här är bara några sätt att komma igång.
+
+## How to validate
+
+about-playbook-how-validate = Hur vet jag om jag ska godkänna ett röstklipp?
+about-playbook-how-validate-content-1 = Om du kunde <strong>höra dem</strong> och <strong>förstå dem</strong> är det vanligtvis <strong>bäst att godkänna</strong>.
+about-playbook-how-validate-content-2 = <strong>Avvisa inte klipp där högtalaren "har en brytning" som skiljer sig från din egen</strong> - detta är viktigt för att röstigenkänning ska fungera bättre för alla.
+about-playbook-how-validate-content-3 = Om du tror att uttalet gör det <strong>omöjligt att förstå</strong> eller om det finns <strong>mycket bakgrundsljud</strong> eller om det finns <strong>andra människor som också talar</strong>, då ska du avvisa klippet. <accuracyLink>Se mer information i våra noggrannhetskriterier</accuracyLink>.
+about-playbook-how-validate-content-4 = Om ett klipp avvisas av två personer släpps det i en annan delmängd av datamängden.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Hur kommer jag åt och använder datamängden?
+about-playbook-how-access-dataset-content-1 = Du kan gå till <datasetsPage>datamängdsidan</datasetsPage>, välja version och språk du vill ha och ladda ner den! Filerna har <metadataLink>associerad metadata</metadataLink>, såsom demografisk information och valideringsdata. Du måste ange en e-postadress för att ladda ner datamängden.
+about-playbook-how-access-dataset-content-2 = Om du letar efter verktyg för att bygga ASR-modeller kan du ansluta till andra människor i communityn <discourseLink>på Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Hur fattas projektbeslut?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice är möjliggjord av en mångsidig gemenskap av aktivister, lingvister, datavetare, akademiker och mjukvaruingenjörer från hela världen. Projektet leds av Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Ledarskapet för vårt projekt bygger på pelarna:
+about-playbook-how-project-governance-content-3 = Sekretess, säkerhet och transparens.
+about-playbook-how-project-governance-content-4 = Gemenskapens deltagande och beslutsfattande.
+about-playbook-how-project-governance-content-5 = Värde och erkännande.
+about-playbook-how-project-governance-content-6 = Ömsesidigt ansvar.
+about-playbook-how-project-governance-content-7 = <governanceLink>Läs mer om hur vi styrs</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificiell intelligens
 mycroft-description =
@@ -982,8 +1089,12 @@ contribution-criteria-page-description = Förstå vad du ska leta efter när du 
 contribution-for-example = till exempel
 contribution-misreadings-title = Felläsningar
 contribution-misreadings-description = När du lyssnar, kontrollera mycket noga att det som har spelats in är exakt det som har skrivits; avvisa om det är mindre fel.<br />Mycket vanliga fel inkluderar:
+contribution-misreadings-description-extended-list-1 = Saknar <strong>'En'</strong> eller <strong>'Den'</strong> i början av inspelningen.
 contribution-misreadings-description-extended-list-4 = Slutet på det sista ordet saknades eftersom inspelningen avbröts för snabbt.
 contribution-misreadings-description-extended-list-5 = Gör flera försök med att läsa ett ord.
+contribution-misreadings-example-1-title = De enorma dinosaurierna i Trias.
+contribution-misreadings-example-2-title = Den enorma dinosaurien i Trias.
+contribution-misreadings-example-2-explanation = [Ska vara "dinosaurier"]
 contribution-misreadings-example-3-explanation = [Inspelning avbruten före slutet av det sista ordet]
 contribution-misreadings-example-4-explanation = [Mer har spelats in än den obligatoriska texten]
 contribution-misreadings-example-8-explanation = [Felaktigt innehåll]
@@ -1044,6 +1155,10 @@ sc-home-collect-title = Samla meningar
 sc-home-collect-text = Hjälp oss genom att skriva eller samla meningar som är allmän egendom.
 sc-home-review-title = Granska meningar
 sc-home-review-text = Hjälp oss genom att granska meningar för korrekthet enligt riktlinjerna.
+
+## GENERAL
+
+sc-languages-fetch-error = Vi kunde inte hämta tillgängliga språk. Bidrag är för närvarande inte möjliga. Vänligen försök igen senare.
 
 ## HOW-TO
 
@@ -1109,11 +1224,8 @@ sc-rejected-none-found = Inga avvisade meningar hittades!
 ## STATS
 
 sc-stats-title = Statistik
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Senaste uppdatering: { $lastUpdate }
-sc-stats-last-update-never = Senaste uppdatering: aldrig
 sc-stats-updating = Uppdaterar…
+sc-stats-error = Vi kunde inte hämta statistiken. Vänligen försök igen senare.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1205,6 +1317,8 @@ sc-confirm-uploading = Meningar laddas upp. Detta kan ta flera minuter beroende 
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Totalt
+sc-lang-info-title-personal = Personlig
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1295,8 +1409,13 @@ sc-review-form-source = Källa: { $sentenceSource }
 sc-review-form-button-reject = Avvisa
 sc-review-form-button-skip = Hoppa över
 sc-review-form-button-approve = Godkänn
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Du kan också använda tangentbordsgenvägar: Y för att godkänna, N för att avvisa, S för att hoppa över
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = J
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = H
+sc-review-form-keyboard-usage-custom = Du kan också använda kortkommandon: { sc-review-form-button-approve-shortcut } för att godkänna, { sc-review-form-button-reject-shortcut } för att avvisa, { sc-review-form-button-skip-shortcut } för att hoppa över
 sc-review-form-button-submit =
     .submitText = Avsluta granskning
 # Variables:
@@ -1327,3 +1446,5 @@ sc-validation-no-abbreviations = Meningen ska inte innehålla förkortningar
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Välj språk/lokalisering

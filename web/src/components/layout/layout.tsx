@@ -2,7 +2,7 @@ import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, Redirect, withRouter } from 'react-router';
-import { LOCALES, NATIVE_NAMES } from '../../services/localization';
+import { NATIVE_NAMES } from '../../services/localization';
 import { trackGlobal, getTrackClass } from '../../services/tracker';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
@@ -19,32 +19,23 @@ import {
   TargetIcon,
   ExternalLinkIcon,
 } from '../ui/icons';
-import { Avatar, LabeledSelect, LinkButton } from '../ui/ui';
+import { Avatar, LinkButton } from '../ui/ui';
 import Content from './content';
 import Footer from './footer';
-import LocalizationSelect from './localization-select';
+import LocalizationSelect from '../localization-select/localization-select';
+import LocalizationSelectComplex from '../localization-select/localization-select-complex';
 import Logo from './logo';
 import Nav from './nav';
 import UserMenu from './user-menu';
-import * as cx from 'classnames';
+import cx from 'classnames';
 import WelcomeModal from '../welcome-modal/welcome-modal';
 import {
   ChallengeTeamToken,
   challengeTeamTokens,
   ChallengeToken,
   challengeTokens,
-  FeatureType,
-  features,
 } from 'common';
 import API from '../../services/api';
-import NotificationBanner from './../notification-banner/notification-banner';
-import { Notifications } from '../../stores/notifications';
-
-export const LOCALES_WITH_NAMES = LOCALES.map(code => [
-  code,
-  NATIVE_NAMES[code] || code,
-]).sort((l1, l2) => l1[1].localeCompare(l2[1]));
-
 interface PropsFromState {
   locale: Locale.State;
   user: User.State;
@@ -69,70 +60,6 @@ interface LayoutState {
   showWelcomeModal: boolean;
   featureStorageKey?: string;
 }
-
-const SegmentBanner = ({
-  locale,
-  featureStorageKey,
-}: {
-  locale: string;
-  featureStorageKey: string;
-}) => {
-  const notification: Notifications.Notification = {
-    id: 99,
-    kind: 'banner',
-    content: (
-      <>
-        <Localized
-          id="target-segment-first-banner"
-          vars={{ locale: NATIVE_NAMES[locale] }}
-        />
-      </>
-    ),
-    bannerProps: {
-      storageKey: featureStorageKey,
-      links: [
-        {
-          to: URLS.SPEAK,
-          className: 'cta',
-          persistAfterClick: true,
-          children: (
-            <>
-              <TargetIcon />
-              <Localized
-                key="target-segment-add-voice"
-                id="target-segment-add-voice">
-                <div />
-              </Localized>
-            </>
-          ),
-        },
-        {
-          href:
-            locale === 'es'
-              ? URLS.TARGET_SEGMENT_INFO_ES
-              : URLS.TARGET_SEGMENT_INFO,
-          blank: true,
-          persistAfterClick: true,
-          className: 'cta external',
-          children: (
-            <>
-              <ExternalLinkIcon />
-              <Localized
-                key="target-segment-learn-more"
-                id="target-segment-learn-more">
-                <div />
-              </Localized>
-            </>
-          ),
-        },
-      ],
-    },
-  };
-
-  return (
-    <NotificationBanner key="target-segment" notification={notification} />
-  );
-};
 
 class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private installApp: HTMLElement;
@@ -188,8 +115,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
   private visitHash() {
     if (location.hash) {
+      const hash = location.hash.split('?')[0];
       setTimeout(() => {
-        const node = document.querySelector(location.hash);
+        const node = document.querySelector(hash);
         node && node.scrollIntoView();
       }, 100);
     }
@@ -206,7 +134,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     this.setState({ isMenuVisible: !this.state.isMenuVisible });
   };
 
-  private selectLocale = async (locale: string) => {
+  private handleLocaleChange = async (locale: string) => {
     const { setLocale, history } = this.props;
     trackGlobal('change-language', locale);
     history.push(replacePathLocale(history.location.pathname, locale));
@@ -253,7 +181,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       featureStorageKey,
     } = this.state;
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
-
     const pathParts = location.pathname
       .replace(/(404|503)/g, 'error-page')
       .split('/');
@@ -291,13 +218,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                 <LinkButton className="login" href="/login" rounded outline />
               </Localized>
             )}
-            {LOCALES.length > 1 && (
-              <LocalizationSelect
-                locale={locale}
-                locales={LOCALES_WITH_NAMES}
-                onChange={this.selectLocale}
-              />
-            )}
+            <LocalizationSelectComplex
+              locale={locale}
+              onLocaleChange={this.handleLocaleChange}
+            />
             <button
               id="hamburger-menu"
               onClick={this.toggleMenu}
@@ -334,20 +258,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           className={this.state.isMenuVisible ? 'active' : ''}>
           <Nav>
             <div className="user-nav">
-              {LOCALES.length > 1 && (
-                <LabeledSelect
-                  className="localization-select"
-                  value={locale}
-                  onChange={(event: any) =>
-                    this.selectLocale(event.target.value)
-                  }>
-                  {LOCALES_WITH_NAMES.map(([code, name]) => (
-                    <option key={code} value={code}>
-                      {name}
-                    </option>
-                  ))}
-                </LabeledSelect>
-              )}
+              <LocalizationSelect
+                locale={locale}
+                onLocaleChange={this.handleLocaleChange}
+              />
 
               {user.account && (
                 <div>

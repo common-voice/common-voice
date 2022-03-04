@@ -1,36 +1,23 @@
 import * as React from 'react';
-import { connect } from 'react-redux';
-import API from '../../../../services/api';
-import StateTree from '../../../../stores/tree';
+import { useEffect, useState } from 'react';
+
 import { BarPlot } from '../../../plot/plot';
+import { useAPI } from '../../../../hooks/store-hooks';
 
-interface PropsFromState {
-  api: API;
-}
-
-interface Props extends PropsFromState {
+interface Props {
   locale: string;
   from: 'you' | 'everyone';
 }
 
-interface State {
-  data: any[];
-}
+const ContributionActivity = ({ from, locale }: Props) => {
+  const api = useAPI();
+  const [barPlotData, setBarPlotData] = useState([]);
 
-class ContributionActivity extends React.Component<Props> {
-  state: State = { data: [] };
+  useEffect(() => {
+    api.fetchContributionActivity(from, locale).then(setBarPlotData);
+  }, [from, locale]);
 
-  async componentDidMount() {
-    const { api, from, locale } = this.props;
-    await this.setState({
-      data: await api.fetchContributionActivity(from, locale),
-    });
-  }
-  render() {
-    return <BarPlot data={this.state.data} />;
-  }
-}
+  return <BarPlot data={barPlotData} />;
+};
 
-export default connect<PropsFromState>(({ api }: StateTree) => ({ api }))(
-  ContributionActivity
-);
+export default ContributionActivity;

@@ -5,7 +5,7 @@ import {
   DatasetsDescription,
   CURRENT_RELEASE,
 } from '../../pages/datasets/dataset-info';
-import Subscribe from '../../pages/datasets/subscribe';
+import Subscribe from '../../email-subscribe-block/subscribe';
 import {
   Localized,
   withLocalization,
@@ -46,7 +46,7 @@ const getDatasetsComponents = (): PageContentType => {
             <DatasetsDescription {...{ releaseName: CURRENT_RELEASE }} />
           </div>
         </div>
-        <Subscribe demoMode={true} />
+        <Subscribe subscribeText="want-dataset-update" demoMode={true} />
       </div>
     );
   };

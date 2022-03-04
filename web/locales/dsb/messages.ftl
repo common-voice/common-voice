@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Dostańśo mejlki, ako na pśikład wupom
 email-opt-in-privacy-v2 = Jolic cośo mejlki dostaś, musyśo do wobchadanja Mozilla z tymi informacijami zwóliś, kótarež se w <privacyLink>pšawidłach priwatnosći</privacyLink> Mozilla rozjasnjuju.
 indicates-required = * Wóznamjenijo trěbne pólo
 not-available-abbreviation = Nic k dispoziciji
+banner-error-slow-1 = Bóžko Common Voice pómału běžy. Źěkujomy se za waš zajm.
+banner-error-slow-2 = Dostawamy wjele wobchada a pśepytujomy tuchylu problemy.
+banner-error-slow-link = Statusowy bok
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,7 +39,6 @@ ba = Baškiršćina
 bas = Basašćina
 be = Běłorušćina
 bg = Bułgaršćina
-bm = Bambaršćina, Bambara
 bn = Bengalšćina
 br = Bretońšćina
 bs = Bosnišćina
@@ -68,6 +70,7 @@ fy-NL = Frizišćina
 ga-IE = Iršćina
 gl = Galicišćina
 gn = Guaranšćina, Guarani
+gom = Goaska konkanišćina
 ha = Hausa
 he = Hebrejšćina
 hi = Hindišćina
@@ -93,10 +96,12 @@ ki = Kikujušćina
 kk = Kazachšćina
 km = Khmer
 kmr = Kurmanźiska kurdišćina
+knn = Konkanišćina (dewanagari)
 ko = Korejańšćina
 kpv = Komi-syrjeńšćina
 kw = Kornišćina
 ky = Kirgišćina
+lb = Luksemburgšćina
 lg = Luganda
 lij = Ligurišćina
 lt = Litawšćina
@@ -144,6 +149,7 @@ scn = Sicilianišćina
 shi = Tašelhitšćina
 si = Singalezišćina
 sk = Słowakšćina
+skr = Saraiki
 sl = Słowjeńšćina
 so = Somališćina
 sq = Albanšćina
@@ -159,6 +165,7 @@ ti = Tigrinja
 tig = Tigre
 tk = Turkmeńšćina
 tl = Tagalog
+tok = Toki Pona
 tr = Turkojšćina
 tt = Tataršćina
 tw = Twi
@@ -340,6 +347,9 @@ profile-form-additional-language =
     .label = Pśidatna rěc
 profile-form-language =
     .label = Rěc
+profile-form-variant =
+    .label = Kótaru wariantu rěcy { $language } powědaśo?
+profile-form-variant-default-value = Žedna warianta wubrana
 profile-form-accent =
     .label = Akcent
 profile-form-custom-accent-help-text =
@@ -390,6 +400,9 @@ skip-submission-note = glědajśo: Musyśo hyšći mjazy Powědaś abo Słuchaś
 off = Wušaltowany
 on = Zašaltowany
 help-accent = Trjebaśo pomoc wó akcenśe?
+help-accent-explanation = Waš akcent jo nałog, kak słowa wugranjaśo. Jogo charakter wót togo wótwisujo, źož sćo był žywy, kótare druge rěcy powědaśo a wót wjele drugich faktorow. Móžośo wšykne informacije k wěsći daś, kótarež za relewantne  maśo.
+help-variants = Trjebaśo pomoc za warianty?
+help-variants-explanation = Warianty su specifiska forma rěcy - powědaju se na pśikład wót luźi, kótarež su we wěstem regionje abo zgromaźeństwje žywe. Wótergi wóne se dialekty pomjenjuju.
 
 ## Profile - Email
 
@@ -472,15 +485,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Cogodla Common Voice?
-about-subtitle = Common Voice jo źěl iniciatiwy Mozilla, kótaraž ma mašiny wucyś, kak napšawdne luźe powědaju. Mimo datoweje sajźby Common Voice, wuwijamy program za powědańske spóznaśe wótwórjonego žrědła z mjenim Deep Speech.
-about-header-description =
-    Wobej projekta stej źěl našych procowanjow, aby prozny flak digitalnego powědanja pśemósćiłej. Technologije głosowego spóznaśa cłowjesku dimensiju na naše rědy pśinjasu, ale wuwijarje trjebaju wjelgickan wjele głosowych datow, aby se napórali. Tuchylu jo nejwěcej z toś tych datow droge a proprietarne.
-    Comy głosowe daty dermotnje a zjawnje k dispoziciji stajiś a zawěsćiś, až daty wšakorakosć napšawdnych luźi wótbłyšćuju. Gromaźe móžomy głosowe spóznaśe za kuždego pólěpšyś.
-about-header-description-2 =
-    Toś ten projekt jo procowanje, aby prozny flak digitalnego powědanja pśemósćiłej. Technologije głosowego spóznaśa cłowjesku dimensiju na naše rědy pśinjasu, ale wuwijarje trjebaju wjelgickan wjele głosowych datow, aby se napórali. Tuchylu jo nejwěcej z toś tych datow droge a proprietarne.
-    Comy głosowe daty dermotnje a zjawnje k dispoziciji stajiś a zawěsćiś, až daty wšakorakosć napšawdnych luźi wótbłyšćuju. Gromaźe móžomy głosowe spóznaśe za kuždego pólěpšyś.
-how-does-it-work-title = Kak to funkcioněrujo
+how-does-it-work-title-v2 = Kak Common Voice funkcioněrujo?
 how-does-it-work-text = Wuměstnjamy datowu sajźbu głosow wótwórjonego žrědła do dobrowólnikow. Pósććo swój głos, pśeglědujśo dokradnosć klipy drugich wósobow, pólěpšćo datowu sajźbu za kuždego.
+
+## How does it work section
+
+about-language-req-subtitle = Něchten wó pśidawanje rěcy pšosy.
+about-localization-title = Lokalizacija websedłow
+about-localization-subtitle = Tekst websedła jo do teje rěcy pśełožony.
+about-sentence-collection-title = Zběrka sadow
+about-sentence-collection-subtitle = Sady se gramaźe, aby luźe je głosnje cytali.
+about-new-lang-title = Wózjawjenje noweje rěcy
+about-new-lang-subtitle = Wózjawjamy sedło Common Voice w toś tej rěcy.
+about-voice-contrib-title = Pśinosowanje ku głosam
+about-voice-contrib-subtitle = Luźe pśidu a pósćiwaju swóje głosy.
+about-voice-validation-title = Pśeglědanje głosow
+about-voice-validation-subtitle = Druge luźe toś te głosowe klipy pśeglěduju.
+about-dataset-release-title = Wózjawjenje datoweje sajźby
+about-dataset-release-subtitle = Wózjawjamy datowu sajźbu kužde 3 mjasece.
+about-subscribe-text = Cośo z Common Voice w zwisku wóstaś?
 about-speak = Powědaś
 about-speak-text = Sobustatkujuce cytaju z datoweje banki sadow a nagrawaju głosowe klipy.
 about-listen-queue = Słuchowy cakański rěd
@@ -507,10 +530,69 @@ about-get-involved = Cyńśo sobu
 about-get-involved-text-2 =
     Cośo pomagaś, Common Voice pólěpšyś?
     Wjelicnje! Stajśo se z nami pśez e-mail abo we forumach <discourseLink>Discourse</discourseLink>  do zwiska, sćelśo sedłowe problemy pśez <githubLink>Github</githubLink> abo woglědajśo se k nam w chaśe zgromaźeństwa <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Kak mógu w zwisku wóstaś?
+about-stay-in-touch-text-1 = <emailFragment>Registrěrujśo se</emailFragment> za našu rozesćełańsku lisćinu, aby zgónił, kak móžośo se na kampanjach, tšojenjach a kodesignych funkcijach na Common Voice wobźěliś.
+about-stay-in-touch-text-2 = Pśzamkniśo se <discourseLink>Discourse</discourseLink> za temowe rozgrona abo <matrixLink>Matrix</matrixLink> za malsnu radu, aby se z drugimi luźami w rěcnych zgromaźeństwach Mozilla zmakał.
 about-nav-why-common-voice = Cogodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnarje
 about-nav-get-involved = Cyńśo sobu
+about-nav-how-it-works-2 = Kak Common Voice funkcioněrujo?
+about-nav-playbook = Zgóńśo, kak móžośo se wobźěliś
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Co jo rěc na Common Voice?
+about-playbook-what-is-language-content-2 = Comy, až rěcne modele lěpjej mógu, wjele rozdźělnych powědarjow rozměś. Aby to jo móžne, musy datowa sajźba wjele rozdźělnych luźi reprezentěrowaś.
+about-playbook-what-is-language-content-3 = Někotare rěcy maju enormne rozdźělne w gramatice, wokabularje a wugronje. Togodla buźomy w lěśe 2022 <ctaLink>„warianty“ zawjedowaś</ctaLink. To zgromaźeństwam móžnosć dawa, swóje rěcy we wětšej datowej sajźbje rozeznawaś.
+
+## How do I add a language
+
+about-playbook-how-add-language = Kak mógu rěc pśidaś?
+about-playbook-how-add-language-content-1 = Pśeglědajśo nejpjerwjej, lěc waša rěc <languageLink>južo eksistěrujo</languageLink>. Jolic nic, musyśo <strong>sedło pśełožowaś a sady gromaźiś</strong>.
+about-playbook-how-add-language-content-2 = <strong>Aby sedło pśełožował</strong> – <translateVideo>konfigurěrujśo</translateVideo> na <pontoonLink>Pontoon</pontoonLink>. Pontoon ma wjele rěcow, ale jolic waša rěc tam njejo, móžośo <pontoonRequestLink>póžedanje na nju stajiś</pontoonRequestLink>. Pšosćo pón <repoLink>na GitHub</repoLink>, aby se projekt Common Voice za swóju rěc k dispoziciji stajił. Glejśo dalšne informacije wó <localizationFragment>pśełožowanju sedła</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Aby sady gromaźił</strong> - <scVideo>konfigurěrujśo</scVideo> <scLink>Sentence Collector</scLink>.
+
+## How does localization work
+
+about-playbook-how-localize = Kak lokalizěrowanje sedłow funkcioněrujo?
+about-playbook-how-localize-content-1 = Pśełožowanje sedła Common Voice se na <strong>Pontoon</strong> wótměwa.
+about-playbook-how-localize-content-4 = Sedło jo gótowe za wózjawjenje, gaž jo pó 75 % dokóńcone.
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Kak mógu sady pśidaś?
+about-playbook-how-add-sentences-content-4 = Sady, kótarež su pśeglědane, se srjodu eksportěruju a su pó pśiducem wózjawjenju k dispoziciji.
+
+## How to record quality
+
+about-playbook-how-record-quality = Kak mógu głosowy klip we wusokej kwaliśe nagraś?
+about-playbook-how-record-content-3 = Cytajśo sadu kradosćiwje – njewuwostajśo, njezměnjajśo abo njepśidawajśo słowa.
+about-playbook-how-record-content-5 = <accuracyLink>Zgóńśo wěcej wó kriterijach dokradnosći.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Kak móžomy rěx na Common Voice statkownje rosć daś?
+about-playbook-how-grow-language-content-2 = Tšojenja
+about-playbook-how-grow-language-content-4 = Socialne medije
+about-playbook-how-grow-language-content-6 = Partnaŕstwa a seśi
+
+## How to validate
+
+about-playbook-how-validate = Wótkul wěm, lěc mam głosowy klip pśizwóliś?
+about-playbook-how-validate-content-4 = Jolic klip se wót 2 wósobowu wótpokazujo, wózjawijo se w drugej źělnej sajźbje datoweje sajźby.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Kak mam pśistup k datowej sajźbje a kak mógu ju wužywaś?
+
+## How are decisions made
+
+about-playbook-how-project-governance = Kak se wó projektach rozsuźuju?
+about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transparenca.
+about-playbook-how-project-governance-content-5 = Gódnota a pśipóznaśe.
+about-playbook-how-project-governance-content-6 = Mjazsobna rozpšawniska winowatosć.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kumštna inteligenca
 mycroft-description =
@@ -1059,8 +1141,13 @@ sc-logout-button = Wótzjawiś
 
 ## HOME
 
+sc-home-title = Witajśo k Common Voice Sentence Collector
 sc-home-collect-title = Sady gromaźiś
 sc-home-review-title = Sady pśeglědaś
+sc-home-review-text = Pomagajśo nam, korektnosć sadow pó směrnicach pśeglědowaś.
+
+## GENERAL
+
 
 ## HOW-TO
 
@@ -1076,6 +1163,7 @@ sc-howto-review-criteria-1 = Sada musy pšawje napisana byś.
 sc-howto-review-criteria-2 = Sada musy gramatiski korektna byś.
 sc-howto-review-criteria-3 = Sada musy wugranjajobna byś.
 sc-howto-review-criteria-4 = Jolic sada kriterijam wótpowědujo, klikniśo na tłocašk „Pśizwóliś“.
+sc-howto-review-criteria-5 = Jolic sada kriterijam gorjejce njewótpowědujo, klikniśo na tłocašk „Wótpokazaś“. Jolic se wó saźe wěsty njejsćo, móžośo teke ju pśeskócyś a k pśiducej pśejś.
 sc-howto-review-criteria-6 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
 sc-howto-findpd-title = Zjawne sady namakaś
 sc-howto-findpd-subtitle = Pytajśo w interneśe za nimi
@@ -1109,11 +1197,12 @@ sc-rejected-none-found = Žedne wótpokazane sady namakane!
 ## STATS
 
 sc-stats-title = Statistika
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Slědna aktualizacija: { $lastUpdate }
-sc-stats-last-update-never = Slědna aktualizacija: nigdy
 sc-stats-updating = Aktualizěrujo se…
+sc-stats-error = Njejsmy mógli statistiku wótwołaś. Pšosym wopytajśo pózdźej hyšći raz.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector jo gromaźił { $sentenceCount } sadow w { $languageCount } rěcach!
 
 ## ADD
 
@@ -1203,9 +1292,12 @@ sc-confirm-ready =
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = Njepśeglědane sady: { $countOfUnreviewed }. Jolic cośo, móžośo něnto teke swóje sady pśeglědowaś, nježli až je wótpósćełaśo.
 sc-confirm-button-text = Wobkšuśiś
+sc-confirm-uploading = Sady se nagrawaju. To móžo někotare minuty traś, wótwisujucy wót licby pśidanych sadow. Pšosym njezacynjajśo toś to websedło.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Dogromady
+sc-lang-info-title-personal = Wósobinski
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1287,6 +1379,7 @@ sc-criteria-item-1 = Sada musy pšawje napisana byś.
 sc-criteria-item-2 = Sada musy gramatiski korektna byś.
 sc-criteria-item-3 = Sada musy wugranjajobna byś.
 sc-criteria-item-4 = Jolic sada kriterijam wótpowědujo, klikniśo na tłocašk „Pśizwóliś“.
+sc-criteria-item-5-2 = Jolic sada kriterijam górjejce njewótpowědujo, klikniśo na tłocašk „Wótpokazaś“. Joli se wó saźe wěsty njejsćo, móžośo teke ju pśeskócyś a k pśiducej pśejś.
 sc-criteria-item-6 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
 
 ## REVIEW
@@ -1304,8 +1397,13 @@ sc-review-form-source = Žrědło: { $sentenceSource }
 sc-review-form-button-reject = Wótpokazaś
 sc-review-form-button-skip = Pśeskócyś
 sc-review-form-button-approve = Pśizwóliś
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Móžośo teke tastowe skrotconki wužywaś: Y za pśizwólenje, N za wótpokazanje, S za pśeskócenje
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = P
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = W
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Móžośo teke tastowe skrotconki wužywaś: { sc-review-form-button-approve-shortcut }, abo pśizwólił, { sc-review-form-button-reject-shortcut }, aby wótpokazał, { sc-review-form-button-skip-shortcut }, aby pśeskócył
 sc-review-form-button-submit =
     .submitText = Pógódnośenje dokóńcyś
 # Variables:
@@ -1325,6 +1423,7 @@ sc-review-link = Pógódnośiś
 
 sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěc wužywaŕskego pówjercha
+sc-settings-language-translated-warning = Boki za toś tu rěc njejsu snaź dopołnje pśełožone. Móžośo z pśełožowanim <pontoonLinkLink>na Pontoon</pontoonLinkLink> wupomogaś.
 sc-settings-reset-skipped = Pśeskócone sady slědk stajiś
 sc-settings-show-all-button = Wšykne pśeskócone sady hyšći raz pokazaś
 sc-settings-failed = Nastajenja njedaju se změniś. Pšosym wopytajśo hyšći raz.
@@ -1336,3 +1435,5 @@ sc-validation-no-abbreviations = Sada njeměła skrotconki wopśimowaś
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Rěc/Lokalizaciju wubraś

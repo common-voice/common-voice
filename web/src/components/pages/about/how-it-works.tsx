@@ -1,255 +1,90 @@
 import * as React from 'react';
-import * as cx from 'classnames';
+import { useRef } from 'react';
 import { Localized } from '@fluent/react';
+import useIsVisible from '../../../hooks/use-is-visible';
+import { CheckIcon, HexIcon } from '../../ui/icons';
 
 import './how-it-works.css';
 
-const CHART_NODE_REQUIRED_COUNT = 4;
-const CHART_NODE_BLOCK_WITHOUT_OPTIONS_COUNT = 2;
+type HowItWorksType = {
+  title: string;
+  subtitle: string;
+};
 
-const FLOWCHART: any[] = [
-  [['01', 'microphone.png', 'about-speak']],
-  [
-    [
-      '02',
-      'time.png',
-      'about-listen-queue',
-      {
-        children: (
-          <>
-            <img
-              src={require('./images/connecting-arrow.png')}
-              className="connecting-arrow left desktop"
-              alt=""
-            />
-
-            <img
-              src={require('./images/connecting-arrow.png')}
-              className="connecting-arrow right desktop"
-              alt=""
-            />
-
-            <img
-              src={require('./images/connecting-arrow-mobile.png')}
-              className="connecting-arrow left mobile"
-              alt=""
-            />
-
-            <img
-              src={require('./images/connecting-arrow-mobile.png')}
-              className="connecting-arrow right mobile"
-              alt=""
-            />
-
-            <img
-              src={require('./images/center-arrow.png')}
-              className="center-arrow"
-              alt=""
-            />
-
-            <img
-              src={require('./images/center-arrow-mobile.png')}
-              className="center-arrow mobile"
-              alt=""
-            />
-          </>
-        ),
-      },
-    ],
-  ],
-  [['03', 'headset.png', 'about-listen']],
-  [
-    [
-      '04',
-      'duotone.png',
-      'about-is-it-valid',
-      {
-        className: 'spaced-below',
-        children: (
-          <>
-            <img
-              src={require('./images/forked-arrow.png')}
-              className="center-arrow"
-              alt=""
-            />
-
-            <img
-              src={require('./images/forked-arrow-mobile.png')}
-              className="center-arrow mobile"
-              alt=""
-            />
-          </>
-        ),
-      },
-    ],
-  ],
-  [
-    [
-      '5.1',
-      'yes.png',
-      'about-yes-votes',
-      { className: 'after-fork inside-fork' },
-    ],
-    [
-      '5.2',
-      'cancel.png',
-      'about-no-votes',
-      { className: 'after-fork inside-fork' },
-    ],
-    { className: 'top' },
-  ],
-  [
-    [
-      '6.1',
-      'brain.png',
-      'about-dataset-new',
-      {
-        className: 'inside-fork',
-        children: (
-          <>
-            <img
-              src={require('./images/arrow-closer.png')}
-              className="center-arrow"
-              alt=""
-            />
-
-            <img
-              src={require('./images/center-arrow-mobile.png')}
-              className="center-arrow mobile"
-              alt=""
-            />
-          </>
-        ),
-      },
-    ],
-    [
-      '6.2',
-      'rip.png',
-      'about-clip-graveyard',
-      {
-        className: 'inside-fork',
-        children: (
-          <>
-            <img
-              src={require('./images/arrow-closer.png')}
-              className="center-arrow"
-              alt=""
-            />
-
-            <img
-              src={require('./images/center-arrow-mobile.png')}
-              className="center-arrow mobile"
-              alt=""
-            />
-          </>
-        ),
-      },
-    ],
-    { className: 'bottom' },
-  ],
+const howItWorksContent: HowItWorksType[] = [
+  {
+    title: 'request-language-title',
+    subtitle: 'about-language-req-subtitle',
+  },
+  {
+    title: 'about-localization-title',
+    subtitle: 'about-localization-subtitle',
+  },
+  {
+    title: 'about-sentence-collection-title',
+    subtitle: 'about-sentence-collection-subtitle',
+  },
+  {
+    title: 'about-new-lang-title',
+    subtitle: 'about-new-lang-subtitle',
+  },
+  {
+    title: 'about-voice-contrib-title',
+    subtitle: 'about-voice-contrib-subtitle',
+  },
+  {
+    title: 'about-voice-validation-title',
+    subtitle: 'about-voice-validation-subtitle',
+  },
+  {
+    title: 'about-dataset-release-title',
+    subtitle: 'about-dataset-release-subtitle',
+  },
 ];
 
-interface ChartNodeProps {
-  chartNode: any[];
-}
+const HowItWorks = React.memo(() => {
+  const firstRef = useRef();
+  const lastRef = useRef();
+  const firstVisible = useIsVisible(firstRef);
+  const lastVisible = useIsVisible(lastRef);
 
-const ChartNode: React.ComponentType<ChartNodeProps> = React.memo(
-  ({ chartNode }: ChartNodeProps) => {
-    const [id, icon, key, { className, children, ...props }] = chartNode;
-
-    return (
-      <div className={cx('flowchart-block', className)} {...props}>
-        <div className="number">{id}</div>
-
-        {icon && (
-          <img
-            className="icon"
-            src={require(`./images/flowchart-icons/${icon}`)}
-            alt=""
-          />
-        )}
-
-        <Localized id={key}>
-          <h2 className="title" />
-        </Localized>
-
-        <Localized id={`${key}-text`}>
-          <div className="description" />
-        </Localized>
-
-        {children || (
-          <>
-            <img
-              src={require('./images/center-arrow.png')}
-              className="center-arrow"
-              alt=""
-            />
-
-            <img
-              src={require('./images/center-arrow-mobile.png')}
-              className="center-arrow mobile"
-              alt=""
-            />
-          </>
-        )}
-      </div>
-    );
-  }
-);
-
-const HowItWorks: React.ComponentType = React.memo(() => {
   return (
-    <div className="about-content">
-      <div className="about-container no-padding-xs">
-        <div className="vertical-line" />
-
-        <div className="flowchart">
-          <Localized id="how-does-it-work-title">
-            <h1 />
-          </Localized>
-
-          <Localized id="how-does-it-work-text">
-            <h4 />
-          </Localized>
-
-          {FLOWCHART.map(f => {
-            const chartNodes = f.map((chartNode: any[]) =>
-              chartNode.length === CHART_NODE_REQUIRED_COUNT ||
-              !Array.isArray(chartNode)
-                ? chartNode
-                : [...chartNode, {}]
-            );
-
-            return chartNodes.length == CHART_NODE_BLOCK_WITHOUT_OPTIONS_COUNT
-              ? [...chartNodes, {}]
-              : chartNodes;
-          }).map((chartNodes: any[], index: number) => {
-            if (chartNodes.length === 1) {
-              return (
-                <ChartNode
-                  key={`chart-node-${index}`}
-                  chartNode={chartNodes[0]}
-                />
-              );
-            }
-
-            const { className, ...props } = chartNodes.pop();
-
-            return (
+    <div className="how-it-works-container">
+      <div className="how-it-works-intro">
+        <Localized id="how-does-it-work-title-v2">
+          <h2 />
+        </Localized>
+        <Localized id="how-does-it-work-text">
+          <p />
+        </Localized>
+      </div>
+      <div className="how-it-works-content">
+        {lastVisible && <div className="more-previous-overlay"></div>}
+        {firstVisible && <div className="more-next-overlay"></div>}
+        {howItWorksContent.map((howBlock: HowItWorksType, i: number) => {
+          const ref =
+            i === 0
+              ? firstRef
+              : i === howItWorksContent.length - 1
+              ? lastRef
+              : null;
+          return (
+            <div className="how-it-works-block" key={i} ref={ref}>
               <div
-                key={`chart-node-block-${index}`}
-                className={cx('fork-group', className)}
-                {...props}>
-                {chartNodes.map((chartNode: any[], index: number) => (
-                  <ChartNode
-                    key={`chart-node-${index}`}
-                    chartNode={chartNode}
-                  />
-                ))}
+                className={`how-it-works-icon ${
+                  i + 1 === howItWorksContent.length ? 'done' : ''
+                }`}>
+                {i + 1}
               </div>
-            );
-          })}
-        </div>
+              <Localized id={howBlock.title}>
+                <h3 />
+              </Localized>
+              <Localized id={howBlock.subtitle}>
+                <p />
+              </Localized>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

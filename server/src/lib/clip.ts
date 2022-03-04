@@ -321,13 +321,15 @@ export default class Clip {
   };
 
   serveRandomClips = async (
-    { client_id, params, query }: Request,
+    request: Request,
     response: Response
   ): Promise<void> => {
+    const { client_id, params } = request;
+    const count = this.getCountFromQuery(request) || 1;
     const clips = await this.bucket.getRandomClips(
       client_id,
       params.locale,
-      parseInt(query.count, 10) || 1
+      count
     );
     response.json(clips);
   };
@@ -356,33 +358,56 @@ export default class Clip {
     response.json(await this.model.getVoicesStats(params.locale));
   };
 
-  serveClipLeaderboard = async (
-    { client_id, params, query }: Request,
-    response: Response
-  ) => {
-    response.json(
-      await getLeaderboard({
-        dashboard: 'stats',
-        type: 'clip',
-        client_id,
-        cursor: query.cursor ? JSON.parse(query.cursor) : null,
-        locale: params.locale,
-      })
-    );
+  serveClipLeaderboard = async (request: Request, response: Response) => {
+    const { client_id, params } = request;
+    const cursor = this.getCursorFromQuery(request);
+    const leaderboard = await getLeaderboard({
+      dashboard: 'stats',
+      type: 'clip',
+      client_id,
+      cursor,
+      locale: params.locale,
+    });
+    response.json(leaderboard);
   };
 
-  serveVoteLeaderboard = async (
-    { client_id, params, query }: Request,
-    response: Response
-  ) => {
-    response.json(
-      await getLeaderboard({
-        dashboard: 'stats',
-        type: 'vote',
-        client_id,
-        cursor: query.cursor ? JSON.parse(query.cursor) : null,
-        locale: params.locale,
-      })
-    );
+  serveVoteLeaderboard = async (request: Request, response: Response) => {
+    const { client_id, params } = request;
+    const cursor = this.getCursorFromQuery(request);
+    const leaderboard = await getLeaderboard({
+      dashboard: 'stats',
+      type: 'vote',
+      client_id,
+      cursor,
+      locale: params.locale,
+    });
+    response.json(leaderboard);
   };
+
+  private getCursorFromQuery(request: Request) {
+    const { cursor } = request.query;
+
+    if (!cursor || typeof cursor !== 'string') {
+      return null;
+    }
+
+    return JSON.parse(cursor);
+  }
+
+  private getCountFromQuery(request: Request) {
+    const { count } = request.query;
+
+    if (!count || typeof count !== 'string') {
+      return null;
+    }
+
+    const number = parseInt(count, 10);
+
+    // if invalid number return nothing
+    if (Number.isNaN(number)) {
+      return null;
+    }
+
+    return number;
+  }
 }

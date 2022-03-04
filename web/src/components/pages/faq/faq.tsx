@@ -1,6 +1,8 @@
 import * as React from 'react';
+import throttle from 'lodash.throttle';
+
 import { useState } from 'react';
-import * as cx from 'classnames';
+import cx from 'classnames';
 import { isMobileResolution } from '../../../utility';
 import { LocalizedGetAttribute } from '../../locale-helpers';
 import { SearchIconCode, ChevronDown } from '../../ui/icons';
@@ -11,8 +13,6 @@ import {
   withLocalization,
   WithLocalizationProps,
 } from '@fluent/react';
-
-const throttle = require('lodash.throttle');
 
 import './faq.css';
 

@@ -1,287 +1,167 @@
 .about {
-    .how-it-works {
-        padding-right: 1rem;
-        box-sizing: border-box;
-        border: none;
-
-        @media (--sm-down) {
-            left: 0;
-            width: 100%;
-
-            & .about-container {
-                left: 0;
-                width: 100%;
-            }
-        }
-    }
-
-    .flowchart {
-        display: flex;
-        flex-direction: column;
-
-        @media (--sm-down) {
-            padding: 0 0 2rem;
-        }
-
-        & h1 {
-            font-size: 3rem;
-            text-align: center;
-            margin-top: 2rem;
-            font-weight: normal;
-
-            @media (--sm-down) {
-                font-size: var(--font-size-xxl);
-                margin-top: 1rem;
-            }
-        }
-
-        & h4 {
-            font-size: var(--font-size-lg);
-            text-align: center;
-            font-weight: normal;
-            font-family: var(--base-font-family);
-            max-width: 700px;
-            margin: 0.75rem auto;
-            margin-bottom: 10px;
-
-            @media (--sm-down) {
-                font-size: var(--font-size);
-            }
-        }
-    }
-
-    .flowchart-block {
-        background: #f9f9f8;
-        width: 100%;
-        max-width: 390px;
+    .how-it-works-intro {
+        max-width: 80rem;
         margin: 0 auto;
-        padding: 2.5rem 4rem;
-        border-radius: 10px;
-        box-sizing: border-box;
-        position: relative;
-        margin-top: 50px;
+        text-align: center;
+        padding: 2rem 4rem;
 
-        min-height: 210px;
-
-        &.inside-fork {
-            margin: 0 50px 50px;
+        h2 {
+            font-size: 3rem;
+            margin: 3rem 0 1rem;
         }
 
-        &.after-fork {
-            margin-top: 80px;
+        p {
+            font-size: 1.4rem;
+            font-weight: 300;
+            max-width: 40rem;
+            margin: 0 auto 3rem;
         }
 
-        &.spaced-below {
-            @media (--sm-down) {
-                padding-bottom: 3.5rem;
+        @media (--md-down) {
+            padding: 0 2rem;
 
-                & .center-arrow {
-                    top: 85%;
-                }
+            p {
+                margin-bottom: 1rem;
             }
         }
+    }
 
-        & .number {
+    .how-it-works-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 80rem;
+        margin: 0 auto;
+        position: relative;
+
+        .more-next-overlay,
+        .more-previous-overlay {
             display: none;
         }
 
-        & .title {
-            font-family: var(--strong-font-family);
-            font-size: var(--font-size-lg);
-            font-weight: bold;
+        @media (--md-down) {
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            max-width: none;
+            padding-top: 1rem;
+
+            .more-next-overlay,
+            .more-previous-overlay {
+                width: 0;
+                position: sticky;
+                z-index: 1;
+                top: 0;
+                bottom: auto;
+                overflow: visible;
+                display: block;
+
+                &::before,
+                &::after {
+                    width: 50vw;
+                    position: absolute;
+                    height: 100%;
+                    top: 0;
+                    bottom: 0;
+                }
+            }
+
+            .more-next-overlay {
+                left: calc(50vw - 1rem);
+
+                &::before {
+                    content: '';
+                    background: linear-gradient(
+                        270deg,
+                        #fff,
+                        rgba(255, 255, 255, 0)
+                    );
+                }
+                &::after {
+                    content: '';
+                    background: url('./images/chevron-right.svg') no-repeat
+                        right 10px center;
+                }
+            }
+
+            .more-previous-overlay {
+                left: 0;
+                &::before {
+                    content: '';
+                    background: linear-gradient(
+                        90deg,
+                        #fff,
+                        rgba(255, 255, 255, 0)
+                    );
+                }
+                &::after {
+                    content: '';
+                    background: url('./images/chevron-left.svg') no-repeat 10px
+                        center;
+                }
+            }
+        }
+    }
+
+    .how-it-works-block {
+        width: 15rem;
+        min-height: 6rem;
+        margin: 1rem 2rem;
+        padding: 2rem;
+        padding-inline-start: 3rem;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        position: relative;
+        background: var(--lighter-grey);
+
+        h3 {
             margin-bottom: 1rem;
         }
 
-        & .description {
-            font-size: var(--font-size);
-            font-family: var(--base-font-family);
-        }
-
-        & .icon {
-            position: absolute;
-            left: 0;
-            top: 1rem;
-            transform: translateX(-50%);
-        }
-
-        & .center-arrow {
-            position: absolute;
-            top: 95%;
-            width: 100%;
-            left: 0;
-
-            &.mobile {
-                display: none;
-            }
-
-            @media (--sm-down) {
-                display: none;
-
-                &.mobile {
-                    display: block;
-                }
-            }
-        }
-
-        @media (--sm-down) {
-            width: 114px;
-            text-align: center;
-            padding: 1rem 0.75rem;
-            border-radius: 0;
-            margin-top: 0;
-
-            & .description {
-                display: none;
-            }
-
-            & .number {
-                display: block;
-                margin: 0 auto 1.5rem;
-                text-align: center;
-                font-size: var(--font-size-xs);
-                color: var(--warm-grey);
-            }
-
-            & .title {
-                font-size: 14px;
-                font-family: var(--base-font-family);
-                font-weight: 400;
-            }
-
-            .icon {
-                position: relative;
-                top: 0;
-                transform: none;
-                margin-bottom: 1.25rem;
-            }
-
-            &:first-of-type {
-                border-top-left-radius: 80px 30%;
-                border-top-right-radius: 80px 30%;
-                margin-top: 50px;
-                padding-top: 60px;
-            }
+        @media (--md-down) {
+            width: 12rem;
+            padding: 3rem 1.5rem 2rem;
+            padding-inline-start: 1.5rem;
+            margin: 2rem 0.5rem 1.25rem;
+            flex-shrink: 0;
         }
     }
 
-    & .connecting-arrow {
-        &.desktop {
-            position: absolute;
-            top: 83px;
-
-            @media (--sm-down) {
-                display: none;
-            }
-
-            &.left {
-                right: calc(100% + 1rem);
-            }
-
-            &.right {
-                left: calc(100% + 1rem);
-                transform: scaleX(-1);
-            }
+    .how-it-works-icon {
+        width: 60px;
+        height: 65px;
+        text-align: center;
+        line-height: 65px;
+        position: absolute;
+        left: -30px;
+        top: 30px;
+        font-size: 1.6rem;
+        color: #1570ef;
+        font-weight: 600;
+        background: url('./images/hex.svg') no-repeat;
+        background-color: white;
+        background-size: contain;
+        &.done {
+            background-image: url('./images/hex-done.svg');
+            color: transparent;
         }
 
-        &.mobile {
-            position: absolute;
-            top: 90px;
-            z-index: var(--top-z-index);
-
-            @media (--md-up) {
-                display: none;
-            }
-
-            &.left {
-                right: calc(100% - 0.3rem);
-            }
-
-            &.right {
-                left: calc(100% - 0.3rem);
-                transform: scaleX(-1);
-            }
+        @media (--md-down) {
+            left: 30px;
+            top: -30px;
         }
     }
+}
 
-    & .fork-group {
-        flex-direction: row;
-        display: flex;
-        justify-content: center;
+[dir='rtl'] .about {
+    .how-it-works-icon {
+        right: -30px;
 
-        @media (--sm-down) {
-            & .inside-fork {
-                width: 115px;
-                padding-top: 1rem;
-            }
-        }
-        &.top {
-            @media (--sm-down) {
-                position: relative;
-                &:before {
-                    content: '';
-                    position: absolute;
-                    background-image: url('./images/fork-bg.png');
-                    background-repeat: no-repeat;
-                    width: 286px;
-                    height: 356px;
-                    top: -112px;
-                    background-size: contain;
-                    z-index: -1;
-                }
-
-                & .inside-fork {
-                    margin: 40px 27px;
-                    border-top-left-radius: 80px 30%;
-                    border-top-right-radius: 80px 0;
-                    padding-top: 30px;
-                    position: relative;
-                    margin-bottom: 0;
-                    background: none;
-
-                    &:nth-child(even) {
-                        margin-right: 0;
-                        border-top-right-radius: 80px 30%;
-                        border-top-left-radius: 80px 0;
-                    }
-
-                    &:nth-child(odd) {
-                        margin-left: 0;
-                    }
-                }
-
-                & .after-fork {
-                    margin-top: 0;
-                }
-            }
-        }
-
-        &.bottom {
-            @media (--sm-down) {
-                & .inside-fork {
-                    margin: 0px 28px;
-                    border-radius: 0;
-                    border-bottom-left-radius: 80px 30%;
-                    border-bottom-right-radius: 80px 30%;
-                    padding-bottom: 20px;
-                    position: relative;
-
-                    & .center-arrow {
-                        display: none;
-                    }
-
-                    &:nth-child(odd) {
-                        margin-left: 0;
-                    }
-
-                    &:nth-child(even) {
-                        margin-right: 0;
-                    }
-                }
-
-                & .after-fork {
-                    margin-top: 0;
-                }
-            }
+        @media (--md-down) {
+            right: 30;
+            top: -30px;
         }
     }
 }

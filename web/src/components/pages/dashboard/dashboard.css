@@ -120,7 +120,7 @@
         }
 
         & * {
-            align-self:  end;
+            align-self: end;
             margin-inline-end: 33px;
             padding-bottom: 13.5px;
             font-size: 14px;
@@ -168,8 +168,8 @@
             width: 0;
             appearance: none;
             font-family: var(--base-font-family);
-            background-size: 10px;
             background: url('/img/down-arrow.svg') no-repeat top 5px right 5px;
+            background-size: 10px;
 
             @media (--md-down) {
                 width: initial;

@@ -228,7 +228,7 @@ button.card-action:focus.focus-visible path {
 
         &:disabled {
             color: var(--warm-grey);
-            cursor:  not-allowed;
+            cursor: not-allowed;
         }
     }
 
@@ -265,6 +265,8 @@ button.card-action:focus.focus-visible path {
 }
 
 .spinner {
+    pointer-events: none;
+    z-index: var(--middle-z-index);
     position: absolute;
     left: 0;
     right: 0;
@@ -275,6 +277,7 @@ button.card-action:focus.focus-visible path {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    animation: spinner-fade-in 0.5s ease-in forwards;
 
     & span {
         border-radius: 50%;
@@ -291,6 +294,15 @@ button.card-action:focus.focus-visible path {
         background-color: var(--black);
         opacity: 1;
         transition: opacity var(--transition-duration) linear;
+    }
+}
+
+@keyframes spinner-fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
 

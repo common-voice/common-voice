@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Otrzymuj wiadomości e-mail, takie jak pr
 email-opt-in-privacy-v2 = Wybierając otrzymywanie wiadomości wyrażasz zgodę na wykorzystywanie tych danych przez Mozillę w sposób opisany w <privacyLink>zasadach ochrony prywatności</privacyLink>.
 indicates-required = * wskazuje pole obowiązkowe
 not-available-abbreviation = Niedostępne
+banner-error-slow-1 = Przepraszamy, Common Voice działa wolno. Dziękujemy za zainteresowanie.
+banner-error-slow-2 = Odbieramy duży ruch i obecnie badamy problemy.
+banner-error-slow-link = Strona stanu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,7 +39,6 @@ ba = baszkirski
 bas = basaa
 be = białoruski
 bg = bułgarski
-bm = bambara
 bn = bengalski
 br = bretoński
 bs = bośniacki
@@ -68,6 +70,7 @@ fy-NL = fryzyjski
 ga-IE = irlandzki
 gl = galicyjski
 gn = guarani
+gom = goańskie konkani
 ha = hausa
 he = hebrajski
 hi = hindi
@@ -93,10 +96,12 @@ ki = kikuju
 kk = kazachski
 km = khmerski
 kmr = kurmandżi
+knn = konkani (dewanagari)
 ko = koreański
 kpv = komi (zyriański)
 kw = kornijski
 ky = kirgiski
+lb = luksemburski
 lg = luganda
 lij = liguryjski
 lt = litewski
@@ -144,6 +149,7 @@ scn = sycylijski
 shi = shilha
 si = syngaleski
 sk = słowacki
+skr = saraiki
 sl = słoweński
 so = somalijski
 sq = albański
@@ -159,6 +165,7 @@ ti = tigrinia
 tig = tigre
 tk = turkmeński
 tl = tagalski
+tok = toki pona
 tr = turecki
 tt = tatarski
 tw = twi
@@ -466,15 +473,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Dlaczego Common Voice?
-about-subtitle = Common Voice jest częścią inicjatywy Mozilli pomagającej w uczeniu maszyn mowy prawdziwych ludzi. Oprócz zbioru danych Common Voice tworzymy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
-about-header-description =
-    Oba te projekty są częścią naszych wysiłków na rzecz zniwelowania podziału cyfrowego. Technologie rozpoznawania głosu nadają naszym urządzeniom ludzki wymiar, ale deweloperzy do ich tworzenia potrzebują olbrzymiej ilości danych mowy. Obecnie większość takich danych jest kosztowna i zastrzeżona.
-    Chcemy, aby dane mowy były publicznie dostępne i upewnić się, że reprezentują różnorodność prawdziwych ludzi. Razem możemy ulepszyć rozpoznawanie głosu dla wszystkich.
-about-header-description-2 =
-    Ten projekt ma na celu zniwelowanie podziału cyfrowego. Technologie rozpoznawania głosu nadają naszym urządzeniom ludzki wymiar, ale deweloperzy do ich tworzenia potrzebują olbrzymiej ilości danych mowy. Obecnie większość takich danych jest kosztowna i zastrzeżona.
-    Chcemy, aby dane mowy były publicznie dostępne i upewnić się, że reprezentują różnorodność prawdziwych ludzi. Razem możemy ulepszyć rozpoznawanie głosu dla wszystkich.
-how-does-it-work-title = Jak to działa
 how-does-it-work-text = Wspólnie tworzymy zbiór danych mowy open source. Nagraj swój głos, sprawdź dokładność nagrań innych osób, ulepsz zbiór dla wszystkich.
+
+## How does it work section
+
 about-speak = Nagrywanie
 about-speak-text = Uczestnicy nagrywają swój głos czytając zdania z puli zebranych zdań.
 about-listen-queue = Kolejka do odsłuchania
@@ -507,6 +509,34 @@ about-nav-why-common-voice = Dlaczego?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partnerzy
 about-nav-get-involved = Dołącz do nas
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Sztuczna inteligencja
 mycroft-description =
@@ -1018,6 +1048,9 @@ sc-logout-button = Wyloguj się
 ## HOME
 
 
+## GENERAL
+
+
 ## HOW-TO
 
 sc-howto-title = Jak to zrobić
@@ -1047,10 +1080,6 @@ sc-rejected-none-found = Nie odnaleziono odrzuconych zdań.
 ## STATS
 
 sc-stats-title = Statystyki
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Ostatnia aktualizacja: { $lastUpdate }
-sc-stats-last-update-never = Ostatnia aktualizacja: nigdy
 sc-stats-updating = Aktualizowanie…
 
 ## ADD
@@ -1089,6 +1118,7 @@ sc-profile-title = Profil: { $username }
 sc-personal-err-lang-not-found = Nie można usunąć języka: nie odnaleziono języka
 sc-personal-err-remove = Nie można usunąć języka
 sc-personal-your-languages = Twoje języki:
+sc-personal-remove-button = usuń
 
 ## REVIEW CRITERIA
 
@@ -1102,6 +1132,12 @@ sc-review-form-source = Źródło: { $sentenceSource }
 sc-review-form-button-reject = Odrzuć
 sc-review-form-button-skip = Pomiń
 sc-review-form-button-approve = Zatwierdź
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = T
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = P
 
 ## SETTINGS
 

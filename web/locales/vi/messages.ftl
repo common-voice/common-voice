@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Nhận email như lời nhắc cho thử 
 email-opt-in-privacy-v2 = Bằng cách chọn nhận email, bạn tuyên bố rằng bạn đồng ý với việc Mozilla xử lý thông tin này như được giải thích trong <privacyLink>chính sách bảo mật</privacyLink> của Mozilla.
 indicates-required = * Trường được yêu cầu
 not-available-abbreviation = N/A
+banner-error-slow-1 = Rất tiếc, Common Voice đang chạy chậm. Cảm ơn vì sự quan tâm của bạn.
+banner-error-slow-2 = Chúng tôi đang nhận được rất nhiều lưu lượng truy cập và hiện đang điều tra các vấn đề.
+banner-error-slow-link = Trang trạng thái
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,7 +39,6 @@ ba = Bashkir
 bas = Basaa
 be = Belarut
 bg = Bulgaria
-bm = Bambara
 bn = Bengal
 br = Breton
 bs = Bosnian
@@ -68,6 +70,7 @@ fy-NL = Frisia
 ga-IE = Ireland
 gl = Galicia
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Do Thái
 hi = Hindi
@@ -93,10 +96,12 @@ ki = Kikuyu
 kk = Kazakh
 km = Khmer
 kmr = Tiếng Kurmanji
+knn = Konkani (Devanagari)
 ko = Hàn
 kpv = Komi-Zyria
 kw = Cornwall
 ky = Kyrgyz
+lb = Luxembourgish
 lg = Luganda
 lij = Ligurian
 lt = Litva
@@ -144,6 +149,7 @@ scn = Sicilian
 shi = Shilha
 si = Sinhala
 sk = Slovakia
+skr = Saraiki
 sl = Slovenia
 so = Somali
 sq = Albania
@@ -159,6 +165,7 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmen
 tl = Tagalog
+tok = Toki Pona
 tr = Thổ Nhĩ Kỳ
 tt = Tatar
 tw = Twi
@@ -216,16 +223,16 @@ wall-of-text-second = Phần lớn các dữ liệu được sử dụng bởi c
 show-wall-of-text = Xem thêm
 help-us-title = Giúp chúng tôi xác thực các câu!
 help-us-explain = Nhấn Chơi, nghe và cho chúng tôi biết: họ có nói chính xác câu bên dưới không?
-no-clips-to-validate = Có vẻ như không có clip nào để nghe của ngôn ngữ này. Giúp chúng tôi điền nó vào danh sách bằng cách ghi âm lại một số câu ngay bây giờ.
+no-clips-to-validate = Có vẻ như không có đoạn thoại nào để nghe của ngôn ngữ này. Giúp chúng tôi điền nó vào danh sách bằng cách ghi âm lại một số câu ngay bây giờ.
 vote-yes = Có
 vote-no = Không
 toggle-play-tooltip = Nhấn { shortcut-play-toggle } để chuyển chế độ phát
 speak-subtitle = Đóng góp giọng nói của bạn
 speak-paragraph = Ghi âm giọng nói là một phần không thể thiếu trong việc xây dựng nguồn dữ liệu mở của chúng tôi; một số người nói đây cũng là phần thú vị.
-speak-goal-text = Clip đã ghi lại
+speak-goal-text = Đoạn thoại đã ghi lại
 listen-subtitle = Giúp chúng tôi xác thực giọng nói
-listen-paragraph = Việc xác thực các clip được đóng góp cũng quan trọng không kém đối với nhiệm vụ Common Voice. Hãy lắng nghe và giúp chúng tôi tạo dữ liệu giọng nói nguồn mở thật chất lượng.
-listen-goal-text = Clip đã xác thực
+listen-paragraph = Việc xác thực các đoạn thoại được đóng góp cũng quan trọng không kém đối với nhiệm vụ Common Voice. Hãy lắng nghe và giúp chúng tôi tạo dữ liệu giọng nói nguồn mở thật chất lượng.
+listen-goal-text = Đoạn thoại đã xác thực
 hours-recorded = Số giờ đã ghi lại
 hours-validated = Số giờ đã xác thực
 voices-online = Tiếng nói trực tuyến bây giờ
@@ -268,7 +275,7 @@ whats-public = Có gì được công khai?
 email-not-public = Chúng tôi sẽ không công khai email của bạn.
 recordings-and-locale-public = Số lượng bản ghi và ngôn ngữ bạn đóng góp sẽ được công khai.
 username-optin-public = Bạn có thể chọn đặt tên người dùng của mình ở chế độ công khai hoặc ẩn danh.
-demographic-deidentified-clarity-2 = Dữ liệu nhân khẩu học được gửi tùy chọn (ví dụ: tuổi, giới tính, ngôn ngữ và giọng nói) sẽ không bao giờ được công khai trên hồ sơ của bạn và sẽ không được liên kết với tài khoản của bạn trong bộ dữ liệu. Các clip âm thanh riêng lẻ sẽ được liên kết với dữ liệu nhân khẩu học nhằm mục đích phân tích chính xác hơn - ví dụ: nhà nghiên cứu có thể muốn nhắm mục tiêu mô hình đào tạo đến một phân khúc nhân khẩu học cụ thể.
+demographic-deidentified-clarity-2 = Dữ liệu nhân khẩu học được gửi tùy chọn (ví dụ: tuổi, giới tính, ngôn ngữ và giọng nói) sẽ không bao giờ được công khai trên hồ sơ của bạn và sẽ không được liên kết với tài khoản của bạn trong bộ dữ liệu. Các đoạn thoại âm thanh riêng lẻ sẽ được liên kết với dữ liệu nhân khẩu học nhằm mục đích phân tích chính xác hơn - ví dụ: nhà nghiên cứu có thể muốn nhắm mục tiêu mô hình đào tạo đến một phân khúc nhân khẩu học cụ thể.
 username-email-not-demographic = Tên người dùng và email của bạn sẽ không được liên kết với dữ liệu được công bố.
 
 ## Speak & Listen Shortcuts
@@ -296,11 +303,11 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Ghi/Dừng
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Clip ghi lại
+shortcut-rerecord-toggle-label = Đoạn thoại được ghi lại
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Hủy ghi âm đang diễn ra
 shortcut-submit = Quay lại
-shortcut-submit-label = Gửi clip
+shortcut-submit-label = Gửi đoạn thoại
 request-language-text = Chưa thấy ngôn ngữ của mình trên Common Voice?
 request-language-text-learn = Tìm hiểu cách yêu cầu nó ở đây!
 request-language-button = Yêu cầu ngôn ngữ
@@ -328,6 +335,9 @@ profile-form-additional-language =
     .label = Ngôn ngữ bổ sung
 profile-form-language =
     .label = Ngôn ngữ
+profile-form-variant =
+    .label = Bạn nói biến thể nào của { $language }?
+profile-form-variant-default-value = Không có biến thể nào được chọn
 profile-form-accent =
     .label = Giọng vùng miền
 profile-form-custom-accent-help-text =
@@ -379,6 +389,8 @@ off = Tắt
 on = Bật
 help-accent = Cần một số trợ giúp về trọng âm?
 help-accent-explanation = Trọng âm của bạn là cách bạn phát âm các từ. Nó có thể được định hình bởi nơi bạn đã sống, bạn nói ngôn ngữ nào khác và rất nhiều yếu tố khác. Bạn có thể chia sẻ bất kỳ thông tin nào bạn cảm thấy có liên quan tại đây.
+help-variants = Cần một số trợ giúp với biến thể?
+help-variants-explanation = Biến thể là một dạng cụ thể của một ngôn ngữ - ví dụ như được chia sẻ bởi những người sống trong một khu vực địa lý hoặc cộng đồng. Đôi khi chúng được gọi là tiếng địa phương.
 
 ## Profile - Email
 
@@ -433,8 +445,8 @@ faq-why-different-speakers-a =
     Đây là lý do tại sao chúng tôi muốn thay đổi trong cơ sở dữ liệu lời nói của chúng tôi!
 faq-why-my-lang-q = Tại sao ngôn ngữ của tôi chưa được đưa vào?
 faq-why-my-lang-new-a = Mozilla không chọn hay ưu tiên bất kỳ ngôn ngữ nào hơn ngôn ngữ khác. Thay vào đó, Common Voice là một sáng kiến hoàn toàn dựa vào cộng đồng, nhưng cần có <multilangLink>một vài bước để thêm một ngôn ngữ mới</multilangLink> và bắt đầu thu thập giọng nói. Đầu tiên, trang web Common Voice cần được dịch để các thành viên cộng đồng có thể truy cập vào trải nghiệm của người đóng góp bằng ngôn ngữ của họ. Tiếp theo, chúng tôi cần một bộ lớn các câu không có bản quyền để mọi người đọc thành tiếng. Khi cả hai yêu cầu đó được thỏa mãn, một ngôn ngữ sẽ ra mắt trên nền tảng Common Voice để mọi người bắt đầu ghi âm giọng nói của mình và xác thực các đóng góp của người khác. Nếu bạn muốn giúp khởi chạy một ngôn ngữ mới, hãy đến <sentenceCollectorLink>công cụ thu thập câu</sentenceCollectorLink> của chúng tôi để bắt đầu.
-faq-what-quality-q = Mức chất lượng âm thanh nào được yêu cầu cho một clip thoại được sử dụng trong bộ dữ liệu?
-faq-what-quality-a = Chúng tôi muốn bộ dữ liệu Common Voice phản ánh chất lượng âm thanh mà một công cụ chuyển lời nói thành văn bản sẽ nghe thấy trong tự nhiên, vì vậy chúng tôi đang tìm kiếm sự đa dạng. Ngoài cộng đồng người nói đa dạng, bộ dữ liệu với chất lượng âm thanh khác nhau sẽ nghiên cứu cho công cụ chuyển lời nói thành văn bản để xử lý các tình huống thực tế khác nhau, từ nói chuyện nền tảng đến tiếng ồn xe hơi. Miễn là clip thoại của bạn dễ hiểu, nó sẽ đủ tốt cho bộ dữ liệu.
+faq-what-quality-q = Mức chất lượng âm thanh nào được yêu cầu cho một đoạn thoại được sử dụng trong bộ dữ liệu?
+faq-what-quality-a = Chúng tôi muốn bộ dữ liệu Common Voice phản ánh chất lượng âm thanh mà một công cụ chuyển lời nói thành văn bản sẽ nghe thấy trong tự nhiên, vì vậy chúng tôi đang tìm kiếm sự đa dạng. Ngoài cộng đồng người nói đa dạng, bộ dữ liệu với chất lượng âm thanh khác nhau sẽ nghiên cứu cho công cụ chuyển lời nói thành văn bản để xử lý các tình huống thực tế khác nhau, từ nói chuyện nền tảng đến tiếng ồn xe hơi. Miễn là đoạn thoại của bạn dễ hiểu, nó sẽ đủ tốt cho bộ dữ liệu.
 faq-why-10k-hours-q = Tại sao 10.000 giờ được xác thực là mục tiêu cho mỗi ngôn ngữ để thu âm thanh?
 faq-why-10k-hours-a = Đây là số giờ cần thiết để đào tạo sản xuất hệ thống chuyển giọng nói thành văn bản.
 faq-how-calc-hours-q = Làm thế nào để Common Voice tính toán giờ?
@@ -449,12 +461,12 @@ faq-why-not-ask-read-a = Để làm cho bộ dữ liệu Common Voice trở nên
 faq-why-account-q = Tại sao tôi nên đăng ký tài khoản?
 faq-is-account-public-q = Thông tin tài khoản của tôi có công khai không?
 faq-how-privacy-q = Làm thế nào để bạn đảm bảo ẩn danh và quyền riêng tư của những người đã góp tiếng nói của họ?
-faq-how-privacy-a = Tất cả các clip thoại trong bộ dữ liệu được kiểm tra thông tin nhận dạng cá nhân. Khi người đóng góp cung cấp dữ liệu nhân khẩu học thông qua hồ sơ của họ, thông tin đó sẽ được nhận dạng từ các clip thoại của họ trước khi được gói để tải xuống trong tập dữ liệu và không bao giờ được công khai trên trang hồ sơ của họ.
+faq-how-privacy-a = Tất cả các đoạn thoại trong bộ dữ liệu được kiểm tra thông tin nhận dạng cá nhân. Khi người đóng góp cung cấp dữ liệu nhân khẩu học thông qua hồ sơ của họ, thông tin đó sẽ được nhận dạng từ các đoạn thoại của họ trước khi được gói để tải xuống trong tập dữ liệu và không bao giờ được công khai trên trang hồ sơ của họ.
 faq-what-determine-identity-q = Điều đó có nghĩa là gì khi tôi có thể xác định danh tính của những người nói trong bộ dữ liệu Common Voice?
 faq-what-determine-identity-a =
     Bộ dữ liệu Common Voice là một tài nguyên mở và công khai có thể được sử dụng để đào tạo nhiều ứng dụng hỗ trợ giọng nói. Để bảo vệ tính bảo mật của những người đóng góp, chúng tôi yêu cầu mọi người tải xuống tập dữ liệu Common Voice phải tôn trọng quyền riêng tư của cộng tác viên.
     
-    Tất cả các clip thoại trong bộ dữ liệu được kiểm tra thông tin nhận dạng cá nhân. Khi bạn tải xuống tập dữ liệu, bạn đồng ý không cố gắng xác định danh tính của bất kỳ người đóng góp nào. Điều đó có nghĩa là bạn không thể cố gắng liên kết thông tin trong bộ dữ liệu với thông tin cá nhân của cộng tác viên. Tuy nhiên, bạn có thể sử dụng tập dữ liệu để huấn luyện nhận dạng giọng nói, nhận dạng người nói hoặc các ứng dụng khác, ví dụ, bằng cách liên kết thông tin trong tập dữ liệu với thông tin khác đã có trong tập dữ liệu.
+    Tất cả các đoạn thoại trong bộ dữ liệu được kiểm tra thông tin nhận dạng cá nhân. Khi bạn tải xuống tập dữ liệu, bạn đồng ý không cố gắng xác định danh tính của bất kỳ người đóng góp nào. Điều đó có nghĩa là bạn không thể cố gắng liên kết thông tin trong bộ dữ liệu với thông tin cá nhân của cộng tác viên. Tuy nhiên, bạn có thể sử dụng tập dữ liệu để huấn luyện nhận dạng giọng nói, nhận dạng người nói hoặc các ứng dụng khác, ví dụ, bằng cách liên kết thông tin trong tập dữ liệu với thông tin khác đã có trong tập dữ liệu.
 faq-what-is-cv = Common Voice là gì?
 faq-using-cv = Sử dụng Common Voice
 faq-description = Common Voice là một phần trong sáng kiến của Mozilla nhằm giúp đào tạo cho máy móc cách người thật nói.
@@ -464,31 +476,44 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Tại sao là Common Voice?
-about-subtitle = Common Voice là một phần trong sáng kiến của Mozilla nhằm giúp đào tạo cho máy móc cách người thật nói. Ngoài bộ dữ liệu Common Voice, chúng tôi còn xây dựng một công cụ nhận dạng giọng nói nguồn mở có tên Deep Speech.
-about-header-description =
-    Cả hai dự án này là một phần trong những nỗ lực của chúng tôi để thu hẹp sự phân chia lời nói kỹ thuật số. Các công nghệ nhận dạng giọng nói mang lại kích thước con người cho các thiết bị của chúng tôi, nhưng các nhà phát triển cần một lượng dữ liệu giọng nói khổng lồ để xây dựng chúng. Hiện nay, hầu hết các dữ liệu đó là đắt tiền và độc quyền.
-    Chúng tôi muốn cung cấp dữ liệu giọng nói một cách tự do và công khai và đảm bảo dữ liệu thể hiện sự đa dạng của người thực. Cùng nhau chúng ta có thể làm cho nhận dạng giọng nói tốt hơn cho mọi người.
-about-header-description-2 =
-    Dự án này là một nỗ lực để thu hẹp khoảng cách giữa giọng nói kỹ thuật số. Các công nghệ nhận dạng giọng nói mang lại kích thước con người cho các thiết bị của chúng tôi, nhưng các nhà phát triển cần một lượng dữ liệu giọng nói khổng lồ để xây dựng chúng. Hiện nay, hầu hết các dữ liệu đó là đắt tiền và độc quyền.
-    Chúng tôi muốn cung cấp dữ liệu giọng nói một cách tự do và công khai và đảm bảo dữ liệu thể hiện sự đa dạng của người thực. Cùng nhau chúng ta có thể làm cho nhận dạng giọng nói tốt hơn cho mọi người.
-how-does-it-work-title = Nó hoạt động như thế nào
-how-does-it-work-text = Chúng tôi có thể cung cấp một bộ dữ liệu nguồn mở của các giọng nói. Quyên góp giọng nói của bạn, xác thực tính chính xác clip của người khác, làm cho bộ dữ liệu tốt hơn cho mọi người.
+about-header-description-v2 =
+    <p>Common Voice là tập dữ liệu giọng nói có sẵn công khai, được cung cấp bởi tiếng nói của những người đóng góp tình nguyện trên khắp thế giới. Những người muốn tạo ứng dụng thoại có thể sử dụng tập dữ liệu để đào tạo các mô hình học máy.</p>
+    <p>Hiện tại, hầu hết các tập dữ liệu thoại đều do các công ty sở hữu, điều này cản trở sự đổi mới. Bộ dữ liệu giọng nói cũng đại diện quá mức cho nam giới da trắng, nói tiếng Anh. Điều này có nghĩa là công nghệ hỗ trợ giọng nói hoàn toàn không hoạt động với nhiều ngôn ngữ và nếu nó hoạt động, nó có thể không hoạt động tốt như nhau đối với tất cả mọi người. Chúng tôi muốn thay đổi điều đó bằng cách huy động mọi người ở khắp mọi nơi chia sẻ tiếng nói của họ.</p>
+how-does-it-work-title-v2 = Common Voice hoạt động như thế nào?
+how-does-it-work-text = Chúng tôi có thể cung cấp một bộ dữ liệu nguồn mở của các giọng nói. Quyên góp giọng nói của bạn, xác thực tính chính xác đoạn thoại của người khác, làm cho bộ dữ liệu tốt hơn cho mọi người.
+
+## How does it work section
+
+about-language-req-subtitle = Ai đó yêu cầu một ngôn ngữ được thêm vào.
+about-localization-title = Bản địa hóa trang web
+about-localization-subtitle = Văn bản trang web được dịch sang ngôn ngữ đó.
+about-sentence-collection-title = Bộ sưu tập câu
+about-sentence-collection-subtitle = Các câu được thu thập để mọi người đọc thành tiếng.
+about-new-lang-title = Ra mắt ngôn ngữ mới
+about-new-lang-subtitle = Chúng tôi khởi chạy trang web Common Voice bằng ngôn ngữ này.
+about-voice-contrib-title = Đóng góp bằng giọng nói
+about-voice-contrib-subtitle = Mọi người đến và đóng góp tiếng nói của mình.
+about-voice-validation-title = Xác thực giọng nói
+about-voice-validation-subtitle = Những người khác xác nhận các đoạn thoại đó.
+about-dataset-release-title = Tập dữ liệu phát hành
+about-dataset-release-subtitle = Chúng tôi phát hành tập dữ liệu 3 tháng một lần.
+about-subscribe-text = Bạn muốn giữ liên lạc với Common Voice?
 about-speak = Nói
-about-speak-text = Người đóng góp ghi lại clip bằng giọng nói bằng cách đọc từ ngân hàng các câu được tặng.
+about-speak-text = Người đóng góp ghi lại đoạn thoại bằng giọng nói bằng cách đọc từ ngân hàng các câu được tặng.
 about-listen-queue = Nghe-Xếp hàng
-about-listen-queue-text = Các clip thoại được nhập vào hàng đợi gửi để sẵn sàng nghe.
+about-listen-queue-text = Các đoạn thoại được nhập vào hàng đợi gửi để sẵn sàng nghe.
 about-listen = Nghe
-about-listen-text = Người dùng xác nhận tính chính xác của các clip được tặng, kiểm tra xem người nói có đọc câu đúng không.
-about-is-it-valid = Clip có hợp lệ không?
-about-is-it-valid-text = Một clip thoại được đánh dấu là "hợp lệ" khi người dùng cho nó một phiếu bầu Có.
+about-listen-text = Người dùng xác nhận tính chính xác của các đoạn thoại được tặng, kiểm tra xem người nói có đọc câu đúng không.
+about-is-it-valid = Đoạn thoại có hợp lệ không?
+about-is-it-valid-text = Một đoạn thoại được đánh dấu là "hợp lệ" khi người dùng cho nó một phiếu bầu Có.
 about-yes-votes = ≥2 phiếu bầu đồng ý
-about-yes-votes-text = Để đưa nó vào bộ dữ liệu Common Voice, một clip thoại phải được xác thực bởi hai người dùng riêng biệt.
+about-yes-votes-text = Để đưa nó vào bộ dữ liệu Common Voice, một đoạn thoại phải được xác thực bởi hai người dùng riêng biệt.
 about-no-votes = ≥ 2 phiếu bầu không đồng ý
-about-no-votes-text = Khi người dùng từ chối clip thoại, nó sẽ trở về hàng đợi. Nếu bị từ chối lần thứ hai, clip thoại sẽ được chuyển sang clip không hợp lệ.
+about-no-votes-text = Khi người dùng từ chối đoạn thoại, nó sẽ trở về hàng đợi. Nếu bị từ chối lần thứ hai, đoạn thoại sẽ được chuyển sang đoạn thoại không hợp lệ.
 about-dataset-new = Bộ dữ liệu Common Voice
 about-dataset-new-text = Bộ dữ liệu Common Voice chứa hàng trăm ngàn mẫu giọng nói giúp các nhà phát triển xây dựng các công cụ nhận dạng giọng nói.
-about-clip-graveyard = Clip không hợp lệ
-about-clip-graveyard-text = Clip không hợp lệ bao gồm các clip thoại không được đưa vào bộ dữ liệu Common Voice. Giống như tập dữ liệu, clip không hợp lệ có sẵn để tải xuống.
+about-clip-graveyard = Đoạn thoại không hợp lệ
+about-clip-graveyard-text = Đoạn thoại không hợp lệ bao gồm các đoạn thoại không được đưa vào bộ dữ liệu Common Voice. Giống như tập dữ liệu, đoạn thoại không hợp lệ có sẵn để tải xuống.
 about-partners = Đối tác
 about-become-a-partner = Trở thành một đối tác
 about-partnership =
@@ -501,10 +526,94 @@ about-get-involved-text-2 =
     Tuyệt quá! Hãy liên lạc qua email hoặc diễn đàn <discourseLink>Discourse</discourseLink>,
     gửi các vấn đề về trang web thông qua <githubLink>GitHub</githubLink>,
     hoặc tham gia trò chuyện cộng đồng trên <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Làm cách nào để giữ liên lạc?
+about-stay-in-touch-text-1 = <emailFragment>Đăng ký</emailFragment> vào danh sách gửi thư của chúng tôi để tìm hiểu cách bạn có thể tham gia vào các chiến dịch, sự kiện và các tính năng đồng thiết kế trên Common Voice.
+about-stay-in-touch-text-2 = Bạn có thể gặp gỡ những người khác trong cộng đồng ngôn ngữ Mozilla bằng cách tham gia <discourseLink>Discourse</discourseLink> để trò chuyện theo chủ đề hoặc <matrixLink>Matrix</matrixLink> để được tư vấn nhanh.
 about-nav-why-common-voice = Tại sao ?
 about-nav-how-it-works = Làm thế nào ?
 about-nav-partners = Đối tác
 about-nav-get-involved = Tham gia đóng góp
+about-nav-how-it-works-2 = Common Voice hoạt động như thế nào?
+about-nav-playbook = Tìm hiểu cách tham gia
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Ngôn ngữ trên Common Voice là gì?
+about-playbook-what-is-language-content-1 = Có rất nhiều cách để suy nghĩ về ngôn ngữ. Đối với mục đích của các mô hình nhận dạng giọng nói, Common Voice đề xuất tập trung vào "khả năng hiểu rõ lẫn nhau" hoặc "những người nói ngôn ngữ này có thể hầu hết hiểu nhau nếu họ cố gắng?"
+about-playbook-what-is-language-content-2 = Chúng tôi muốn các mô hình bài phát biểu hiểu rõ hơn về nhiều loại diễn giả khác nhau. Để điều này xảy ra, một tập dữ liệu thoại phải đại diện cho nhiều người khác nhau.
+about-playbook-what-is-language-content-3 = Một số ngôn ngữ có sự biến đổi rất lớn về ngữ pháp, từ vựng và cách phát âm. Vì lý do này, chúng tôi <ctaLink>sẽ giới thiệu 'Variants'</ctaLink> vào năm 2022. Điều này mang lại cho cộng đồng một cách để phân biệt ngôn ngữ của họ trong tập dữ liệu lớn hơn.
+
+## How do I add a language
+
+about-playbook-how-add-language = Làm cách nào để thêm ngôn ngữ?
+about-playbook-how-add-language-content-1 = Trước tiên, hãy kiểm tra xem ngôn ngữ của bạn <languageLink>đã tồn tại chưa</languageLink>. Nếu không, bạn cần phải <strong>dịch trang web và thu thập các câu</strong>.
+about-playbook-how-add-language-content-2 = <strong>Để dịch trang web</strong> - <translateVideo>hãy thiết lập</translateVideo> trên <pontoonLink>Pontoon</pontoonLink>. Pontoon có rất nhiều ngôn ngữ, nhưng nếu nó không có ngôn ngữ của bạn, bạn có thể <pontoonRequestLink>yêu cầu nó</pontoonRequestLink>. Sau đó, yêu cầu <repoLink>qua GitHub</repoLink> để cung cấp dự án Common Voice cho ngôn ngữ. Xem thêm về <localizationFragment>bản dịch trang web</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Để thu thập câu</strong> - <scVideo>hãy thiết lập</scVideo> trên <scLink>trình thu thập câu</scLink>.
+about-playbook-how-add-language-content-4 = Bạn có thể <scLinkAdd>thêm số lượng nhỏ</scLinkAdd> các câu tại đây hoặc bạn có thể thực hiện <bulkImportDocsLink>nhập hàng loạt</bulkImportDocsLink> thông qua yêu cầu Github. Hãy nhớ rằng các câu cần phải là <licenseLink>CC0 (hoặc miền công cộng)</licenseLink>, hoặc bạn có thể viết câu của riêng mình. Xem thêm về <scFragment>bộ sưu tập câu</scFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Bản địa hóa trang web hoạt động như thế nào?
+about-playbook-how-localize-content-1 = Bản dịch của trang web Common Voice ở trên <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Tạo tài khoản</pontoonAccountLink> nếu bạn chưa có. Sau đó, chọn ngôn ngữ của <strong>(‘Nhóm’)</strong> bạn rồi chọn dự án, <pontoonCvLink>Common Voice</pontoonCvLink>. Sẽ có các tập tin để dịch. Nhấp vào một từ, sau đó nó hiển thị các từ bằng tiếng Anh và một hộp để dịch chúng.
+about-playbook-how-localize-content-3 = Bản dịch từ tiếng Anh nhưng bạn có thể xem <strong>đề xuất</strong> bằng các ngôn ngữ khác. Nhấp vào biểu tượng <strong>Hồ sơ</strong>, sau đó nhấp vào liên kết <strong>Cài đặt</strong> và thêm bất kỳ ngôn ngữ nào bạn nói. Ở góc dưới cùng bên phải sẽ là danh sách các bản dịch được gọi là <strong>Ngôn ngữ</strong>. Bản dịch sẽ hiển thị trên trang web sau một ngày.
+about-playbook-how-localize-content-4 = Trang web đã sẵn sàng để khởi chạy khi hoàn thành 75%.
+about-playbook-how-localize-content-5 = Xem giải thích bằng video của chúng tôi để giúp đỡ
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Làm cách nào để thêm câu?
+about-playbook-how-add-sentences-content-1 = <strong>Công cụ thu thập câu</strong> là một công cụ để thu thập và xác thực các câu trong miền công cộng. Bạn sẽ <scAccountLink>cần tạo một tài khoản</scAccountLink>. Sau đó, thêm ngôn ngữ của bạn vào <strong>Hồ sơ</strong> của bạn. Bạn có thể <strong>thêm</strong> câu hoặc <strong>xem lại</strong> các câu đã thêm trước đó.
+about-playbook-how-add-sentences-content-2 = Các câu phải được hai người xem xét và chấp nhận mới được đưa vào Common Voice. Bạn tạo nguyên tắc cho ngôn ngữ của mình <languageGuidelinesLink>tại đây</languageGuidelinesLink>. Các câu phải nằm trong <licenseLink>miền công khai</licenseLink> và ngắn hơn 15 từ. Bạn có thể yêu cầu chủ sở hữu của văn bản đặt nó thành <waiverLink>CC0 sử dụng quy trình từ bỏ của chúng tôi</waiverLink> và gửi cho chúng tôi theo địa chỉ commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Bạn có thể sử dụng <scraperLink>công cụ trích xuất câu</scraperLink> để tận dụng các câu ngắn từ Wikipedia.
+about-playbook-how-add-sentences-content-4 = Các câu đã được xác thực sẽ được xuất vào các ngày Thứ Tư và có sẵn sau bản phát hành tiếp theo.
+
+## How to record quality
+
+about-playbook-how-record-quality = Làm cách nào để ghi một đoạn thoại chất lượng cao?
+about-playbook-how-record-content-1 = Nói bằng giọng bình thường của bạn! Cách bạn nói được hoan nghênh ở đây - chúng tôi muốn giọng của bạn như nó vốn có, và chúng tôi muốn âm lượng, phong cách và ngữ điệu thông thường của bạn.
+about-playbook-how-record-content-2 = Tránh quá nhiều tiếng ồn xung quanh - bạn phải dễ dàng nghe thấy.
+about-playbook-how-record-content-3 = Đọc kỹ câu - đừng bỏ sót, thay đổi hoặc thêm từ.
+about-playbook-how-record-content-4 = Đảm bảo rằng nền tảng đang ghi âm trước khi bạn bắt đầu nói và nó chỉ dừng lại sau khi bạn kết thúc.
+about-playbook-how-record-content-5 = <accuracyLink>Xem thêm về tiêu chí độ chính xác.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Làm cách nào chúng ta có thể phát triển một ngôn ngữ trên Common Voice một cách hiệu quả?
+about-playbook-how-grow-language-content-1 = Tạo cơ hội cho nhiều người đóng góp cho Common Voice đảm bảo tập dữ liệu phục vụ nhiều người nhất có thể. Chúng tôi đã tạo các tài nguyên và mẫu mà bạn có thể sử dụng!
+about-playbook-how-grow-language-content-2 = Sự kiện
+about-playbook-how-grow-language-content-3 = Bạn có thể tổ chức các sự kiện để giúp mọi người đóng góp. Nó dễ dàng hơn bạn nghĩ. Bạn có thể thực hiện trực tuyến bằng công cụ hội nghị truyền hình hoặc trực tiếp nếu an toàn. <eventTemplate>Kiểm tra các mẫu và tài nguyên của chúng tôi để chạy các sự kiện</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Truyền thông xã hội
+about-playbook-how-grow-language-content-5 = Bạn có thể sử dụng các nền tảng mạng xã hội để truyền tải thông điệp. Chia sẻ các bài đăng giải thích tại sao điều đó lại quan trọng và liên hệ với những người khác nói về các vấn đề như quyền ngôn ngữ, AI giọng nói hoặc thành kiến trong công nghệ. Xem thêm lời khuyên về <campaignLink>chạy chiến dịch xã hội, bao gồm nội dung bạn có thể sử dụng lại</campaignLink>.
+about-playbook-how-grow-language-content-6 = Quan hệ đối tác và mạng lưới
+about-playbook-how-grow-language-content-7 = Tìm những người khác quan tâm. Đó có thể là các trường đại học, trường ngôn ngữ, nhóm vận động hoặc cộng đồng khoa học dữ liệu. Hãy liên hệ và giải thích rõ ràng họ có thể trợ giúp như thế nào và tại sao. <outreachTemplates>Xem các mẫu email tiếp cận của chúng tôi</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Hãy sáng tạo!</strong> Cộng đồng ngôn ngữ của bạn sẽ là duy nhất và đây chỉ là một số cách để bắt đầu.
+
+## How to validate
+
+about-playbook-how-validate = Làm cách nào để biết có phê duyệt đoạn lồng tiếng hay không?
+about-playbook-how-validate-content-1 = Nếu bạn có thể <strong>nghe thấy chúng</strong> và <strong>hiểu chúng</strong>, thì thông thường <strong>tốt nhất là nên chấp thuận</strong>.
+about-playbook-how-validate-content-2 = <strong>Không từ chối các đoạn thoại mà người nói 'có giọng' khác với giọng của bạn</strong> - điều này rất quan trọng để nhận dạng giọng nói hoạt động tốt hơn cho mọi người.
+about-playbook-how-validate-content-3 = Nếu bạn cho rằng cách phát âm khiến bạn <strong>không thể hiểu được</strong> hoặc có <strong>nhiều tiếng ồn xung quanh</strong> hoặc <strong>có người khác cũng đang nói</strong>, thì bạn nên từ chối đoạn thoại. <accuracyLink>Xem thêm thông tin trong tiêu chí độ chính xác của chúng tôi</accuracyLink>.
+about-playbook-how-validate-content-4 = Nếu một đoạn thoại bị từ chối bởi 2 người, đoạn thoại đó sẽ được phát hành trong một tập con khác của tập dữ liệu.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Làm cách nào để truy cập và sử dụng tập dữ liệu?
+about-playbook-how-access-dataset-content-1 = Bạn có thể truy cập <datasetsPage>trang bộ dữ liệu</datasetsPage>, chọn phiên bản và (các) ngôn ngữ bạn muốn và tải xuống! Các tập tin có <metadataLink>siêu dữ liệu được liên kết</metadataLink>, chẳng hạn như thông tin nhân khẩu học và dữ liệu xác thực. Bạn sẽ cần cung cấp địa chỉ email để tải xuống tập dữ liệu.
+about-playbook-how-access-dataset-content-2 = Nếu bạn đang tìm kiếm các công cụ để xây dựng mô hình ASR, bạn có thể kết nối với những người khác trong cộng đồng <discourseLink>trên Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Các quyết định của dự án được thực hiện như thế nào?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice được tạo ra bởi một cộng đồng đa dạng gồm các nhà hoạt động, nhà ngôn ngữ học, nhà khoa học dữ liệu, học giả và kỹ sư phần mềm từ khắp nơi trên thế giới. Dự án được quản lý bởi Tổ chức Mozilla.
+about-playbook-how-project-governance-content-2 = Quản trị của chúng tôi được thành lập dựa trên các trụ cột:
+about-playbook-how-project-governance-content-3 = Quyền riêng tư, bảo mật và minh bạch.
+about-playbook-how-project-governance-content-4 = Sự tham gia của cộng đồng và ra quyết định.
+about-playbook-how-project-governance-content-5 = Giá trị và sự công nhận.
+about-playbook-how-project-governance-content-6 = Trách nhiệm giải trình.
+about-playbook-how-project-governance-content-7 = <governanceLink>Đọc thêm về cách chúng tôi quản lý</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Trí tuệ nhân tạo
 mycroft-description =
@@ -524,7 +633,7 @@ hours-validated-explanation = Số giờ ghi âm giọng nói đã được xác
 sst = Nhận dạng giọng nói (STT)
 sst-explanation = Công nghệ Nhận dạng giọng nói (STT) chuyển đổi dữ liệu giọng nói thành văn bản.
 de-identified = Không xác định
-de-identified-explanation = Quá trình mà một người đóng góp thông tin hồ sơ cá nhân bị che khuất khỏi các clip thoại được tặng của họ khi được đóng gói để tải xuống như một phần của bộ dữ liệu.
+de-identified-explanation = Quá trình mà một người đóng góp thông tin hồ sơ cá nhân bị che khuất khỏi các đoạn thoại được tặng của họ khi được đóng gói để tải xuống như một phần của bộ dữ liệu.
 
 ## Error pages
 
@@ -560,7 +669,7 @@ terms-agree = Tôi đồng ý
 terms-disagree = Tôi không đồng ý
 review-aborted = Bản tải lên bị hủy bỏ. Bạn có muốn xóa bản ghi âm của mình không?
 review-submit-title = Đánh giá & Gửi
-review-submit-msg = Cảm ơn bạn đã ghi âm!<lineBreak></lineBreak>Bây giờ hãy xem lại và gửi các clip của bạn bên dưới.
+review-submit-msg = Cảm ơn bạn đã ghi âm!<lineBreak></lineBreak>Bây giờ hãy xem lại và gửi các đoạn thoại của bạn bên dưới.
 review-recording = Xem lại
 review-rerecord = Ghi lại
 review-cancel = Hủy gửi
@@ -680,7 +789,7 @@ skip = Bỏ qua
 shortcuts = Phím tắt
 clips-with-count-pluralized =
     { $count ->
-       *[other] <bold>{ $count }</bold> clip
+       *[other] <bold>{ $count }</bold> đoạn thoại
     }
 goal-help-recording = Bạn đã giúp cho Common Voice đạt được <goalPercentage></goalPercentage> trong số { $goalValue } mục tiêu ghi âm hàng ngày của chúng tôi!
 goal-help-validation = Bạn đã giúp cho Common Voice đạt được <goalPercentage></goalPercentage> trong số { $goalValue } mục tiêu xác thực hàng ngày của chúng tôi!
@@ -701,25 +810,25 @@ record-cancel = Hủy ghi lại
 record-instruction = { $actionType }<recordIcon></recordIcon> sau đó đọc to câu
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> khi hoàn thành
 record-three-more-instruction = Còn lại ba câu!
-record-again-instruction = Tuyệt!<recordIcon></recordIcon> Ghi âm clip tiếp theo của bạn
+record-again-instruction = Tuyệt!<recordIcon></recordIcon> Ghi âm đoạn thoại tiếp theo của bạn
 record-again-instruction2 = Hãy tiếp tục! Ghi âm lại <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Cái cuối cùng!
-review-tooltip = Xem lại và ghi âm lại các clip ở đây khi bạn tiếp tục
-share-clip = Chia sẻ giọng nói của bạn
+review-tooltip = Xem lại và ghi âm lại các đoạn thoại ở đây khi bạn tiếp tục
+share-clip = Chia sẻ đoạn thoại của bạn
 share-common-voice = Chia sẻ Common Voice
-review-instruction = Xem lại & quay lại clip nếu cần
+review-instruction = Xem & ghi lại đoạn thoại nếu cần
 record-submit-tooltip = { $actionType } gửi khi sẵn sàng
-clips-uploaded = Đã tải clip lên
+clips-uploaded = Đã tải đoạn thoại lên
 record-abort-title = Kết thúc ghi âm trước?
 record-abort-text = Bạn sẽ mất tiến độ nếu bây giờ bạn rời khỏi
-record-abort-submit = Gửi clip
+record-abort-submit = Gửi đoạn thoại
 record-abort-continue = Kết thúc ghi âm
-record-abort-delete = Thoát & Xóa clip
+record-abort-delete = Thoát & xóa đoạn thoại
 listen-instruction = { $actionType }<playIcon></playIcon> họ có nói chính xác câu đó không?
 listen-again-instruction = Làm tốt lắm!<playIcon></playIcon> Nghe lại khi bạn đã sẵn sàng
 listen-3rd-time-instruction = 2 cái đã xong, cố gắng lên!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Cái cuối cùng!
-listen-empty-state = Chúng tôi đã hết clip để xác thực bằng ngôn ngữ này...
+listen-empty-state = Chúng tôi đã hết đoạn thoại để xác thực bằng ngôn ngữ này...
 speak-empty-state = Chúng tôi đã hết câu để ghi lại bằng ngôn ngữ này...
 speak-empty-state-cta = Đóng góp câu
 record-button-label = Ghi âm giọng nói của bạn
@@ -746,7 +855,7 @@ report-different-language-detail = Nó được viết bằng một ngôn ngữ 
 report-difficult-pronounce = Khó phát âm
 report-difficult-pronounce-detail = Nó chứa các từ hoặc cụm từ khó đọc hoặc phát âm.
 report-offensive-speech = Lời nói xúc phạm
-report-offensive-speech-detail = Đoạn clip có ngôn từ thiếu tôn trọng hoặc gây khó chịu.
+report-offensive-speech-detail = Đoạn thoại có ngôn từ thiếu tôn trọng hoặc gây khó chịu.
 report-other-comment =
     .placeholder = Bình luận
 success = Thành công
@@ -774,18 +883,18 @@ validations =
 your-languages = Ngôn ngữ của bạn
 toward-next-goal = Hướng tới mục tiêu tiếp theo
 goal-reached = Đã đạt được mục tiêu
-clips-you-recorded = Clip bạn đã ghi
-clips-you-validated = Clip bạn đã xác thực
-todays-recorded-progress = Tiến trình giọng nói chung hôm nay trên các clip được ghi lại
-todays-validated-progress = Tiến trình giọng nói chung hôm nay trên các clip được xác thực
+clips-you-recorded = Đoạn thoại bạn đã ghi
+clips-you-validated = Đoạn thoại bạn đã xác thực
+todays-recorded-progress = Tiến trình giọng nói chung hôm nay trên các đoạn thoại được ghi lại
+todays-validated-progress = Tiến trình giọng nói chung hôm nay trên các đoạn thoại được xác thực
 stats = Thống kê
 awards = Giải thưởng
 you = Bạn
 everyone = Mọi người
 contribution-activity = Hoạt động đóng góp
 top-contributors = Những người đóng góp hàng đầu
-recorded-clips = Clip đã ghi
-validated-clips = Clip đã xác thực
+recorded-clips = Đoạn thoại đã ghi
+validated-clips = Đoạn thoại đã xác thực
 total-approved = Tổng số được chấp nhận
 overall-accuracy = Độ chính xác tổng thể
 set-visibility = Hiển thị tôi trong bảng xếp hạng
@@ -823,16 +932,16 @@ set-a-goal = Đặt một mục tiêu
 cant-decide = Không thể quyết định?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-       *[other] { $totalHours } giờ
-    } có thể đạt được chỉ trong hơn { NUMBER($periodMonths) ->
-       *[other] { $periodMonths } tháng
-    } nếu { NUMBER($people) ->
-       *[other] { $people } người
-    } ghi { NUMBER($clipsPerDay) ->
-       *[other] { $clipsPerDay } clip
-    } một ngày.
-how-many-per-day = Tuyệt quá! Có bao nhiêu clip mỗi ngày?
-how-many-a-week = Tuyệt quá! Có bao nhiêu clip một tuần?
+       *[other] { $totalHours } giờ có thể đạt được chỉ trong hơn
+    } { NUMBER($periodMonths) ->
+       *[other] { $periodMonths } tháng nếu
+    } { NUMBER($people) ->
+       *[other] { $people } người ghi
+    } { NUMBER($clipsPerDay) ->
+       *[other] { $clipsPerDay } đoạn thoại một ngày.
+    }
+how-many-per-day = Tuyệt quá! Có bao nhiêu đoạn thoại mỗi ngày?
+how-many-a-week = Tuyệt quá! Có bao nhiêu đoạn thoại một tuần?
 which-goal-type = Bạn có muốn nói, nghe hay cả hai?
 receiving-emails-info =
     Bạn hiện đang được thiết lập để nhận email như lời nhắc mục tiêu, 
@@ -840,15 +949,15 @@ receiving-emails-info =
 not-receiving-emails-info = Hiện tại bạn đang được đặt thành <bold>KHÔNG</bold> nhận email như lời nhắc mục tiêu, cập nhật của tôi tiến độ và bản tin về Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
-       *[other] { $count } clip
+       *[other] { $count } đoạn thoại
     }
 help-share-goal = Hãy giúp chúng tôi tìm thêm tiếng nói, chia sẻ mục tiêu của bạn
 confirm-goal = Xác nhận mục tiêu
 goal-interval-weekly = Hàng tuần
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Chia sẻ { $count } clip mục tiêu hàng ngày của bạn cho { $type }
+share-n-daily-contribution-goal = Chia sẻ mục tiêu { $count } đoạn thoại hàng ngày của bạn cho { $type }
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Chia sẻ { $count } clip mục tiêu hàng tuần của bạn cho { $type }
+share-n-weekly-contribution-goal = Chia sẻ mục tiêu { $count } đoạn thoại hàng tuần của bạn cho { $type }
 share-goal-type-speak = Nói
 share-goal-type-listen = Nghe
 share-goal-type-both = Nói và nghe
@@ -977,7 +1086,7 @@ contribution-misreadings-example-7-explanation = [Không có ‘một’ trong v
 contribution-misreadings-example-8-title = Bumblebee đã tăn tốc.
 contribution-misreadings-example-8-explanation = [Nội dung không khớp]
 contribution-varying-pronunciations-title = Thay đổi cách phát âm
-contribution-varying-pronunciations-description = Hãy thận trọng trước khi từ chối một clip cho rằng người đọc đã phát âm sai một từ, đặt trọng âm không đúng chỗ hoặc rõ ràng đã bỏ qua một dấu chấm hỏi. Có rất nhiều cách phát âm được sử dụng trên khắp thế giới, một số cách phát âm có thể bạn chưa nghe thấy trong cộng đồng địa phương của mình. Vui lòng đánh giá cao những người có thể nói khác với bạn.
+contribution-varying-pronunciations-description = Hãy thận trọng trước khi từ chối một đoạn thoại cho rằng người đọc đã phát âm sai một từ, đặt trọng âm không đúng chỗ hoặc rõ ràng đã bỏ qua một dấu chấm hỏi. Có rất nhiều cách phát âm được sử dụng trên khắp thế giới, một số cách phát âm có thể bạn chưa nghe thấy trong cộng đồng địa phương của mình. Vui lòng đánh giá cao những người có thể nói khác với bạn.
 contribution-varying-pronunciations-description-extended = Mặt khác, nếu bạn nghĩ rằng người đọc có thể chưa bao giờ gặp từ này trước đây và chỉ đơn giản là đoán sai cách phát âm, vui lòng từ chối. Nếu bạn không chắc chắn, hãy sử dụng nút bỏ qua.
 contribution-varying-pronunciations-example-1-title = On his head he wore a beret.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ đều được cho dù với trọng âm ở âm tiết đầu tiên (Anh) hay thứ hai (Mỹ)]
@@ -991,7 +1100,7 @@ contribution-background-noise-example-2-fixed-title = Những con khủng long k
 contribution-background-noise-example-2-explanation = [Không thể nghe thấy một phần của văn bản]
 contribution-background-noise-example-3-fixed-title = <strong>[Tiếng lốp bốp]</strong> con khủng long khổng lồ của <strong>[tiếng lốp bốp]</strong> -riassic.
 contribution-background-voices-title = Giọng nền
-contribution-background-voices-description = Tiếng huyên náo trong nền yên tĩnh là được, nhưng chúng tôi không muốn có thêm giọng nói có thể khiến thuật toán máy xác định các từ không có trong văn bản. Nếu bạn có thể nghe thấy những từ khác biệt với những từ trong văn bản, clip đó nên bị từ chối. Thông thường, điều này xảy ra khi TV đã được bật hoặc nơi có cuộc trò chuyện đang diễn ra gần đó.
+contribution-background-voices-description = Tiếng huyên náo trong nền yên tĩnh là được, nhưng chúng tôi không muốn có thêm giọng nói có thể khiến thuật toán máy xác định các từ không có trong văn bản. Nếu bạn có thể nghe thấy những từ khác biệt với những từ trong văn bản, đoạn thoại đó nên bị từ chối. Thông thường, điều này xảy ra khi TV đã được bật hoặc nơi có cuộc trò chuyện đang diễn ra gần đó.
 contribution-background-voices-description-extended = Nếu đoạn ghi âm bị vỡ hoặc có tiếng rè, hãy từ chối trừ khi vẫn có thể nghe được toàn bộ nội dung.
 contribution-background-voices-example-1-title = Những con khủng long khổng lồ của kỷ Trias. <strong>[đọc bằng một giọng nói]</strong>
 contribution-background-voices-example-1-explanation = Bạn có đến không? <strong>[được gọi bởi người khác]</strong>
@@ -1043,6 +1152,10 @@ sc-home-collect-title = Thu thập các câu
 sc-home-collect-text = Giúp chúng tôi bằng cách viết hoặc thu thập các câu thuộc phạm vi cộng đồng.
 sc-home-review-title = Đánh giá các câu
 sc-home-review-text = Giúp chúng tôi bằng cách đánh giá các câu cho đúng theo hướng dẫn.
+
+## GENERAL
+
+sc-languages-fetch-error = Chúng tôi không thể tìm nạp các ngôn ngữ có sẵn. Không thể thực hiện việc đóng góp. Vui lòng thử lại sau.
 
 ## HOW-TO
 
@@ -1158,11 +1271,8 @@ sc-rejected-none-found = Không tìm thấy câu bị từ chối nào!
 ## STATS
 
 sc-stats-title = Thống kê
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Cập nhật lần cuối: { $lastUpdate }
-sc-stats-last-update-never = Cập nhật lần cuối: chưa một lần nào
 sc-stats-updating = Đang cập nhật...
+sc-stats-error = Chúng tôi không thể tải số liệu thống kê. Vui lòng thử lại sau.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1255,6 +1365,8 @@ sc-confirm-uploading = Các câu đang được tải lên. Quá trình này có
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Tổng
+sc-lang-info-title-personal = Cá nhân
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1346,8 +1458,13 @@ sc-review-form-source = Nguồn: { $sentenceSource }
 sc-review-form-button-reject = Từ chối
 sc-review-form-button-skip = Bỏ qua
 sc-review-form-button-approve = Phê duyệt
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Bạn cũng có thể sử dụng phím tắt: Y để phê duyệt, N để từ chối, S để bỏ qua
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Bạn cũng có thể sử dụng phím tắt bàn phím: { sc-review-form-button-approve-shortcut } để Phê duyệt, { sc-review-form-button-reject-shortcut } để Từ chối, { sc-review-form-button-skip-shortcut } để Bỏ qua
 sc-review-form-button-submit =
     .submitText = Kết thúc đánh giá
 # Variables:
@@ -1380,3 +1497,5 @@ sc-validation-no-abbreviations = Câu không được viết tắt
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Chọn ngôn ngữ/bản địa hóa

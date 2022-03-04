@@ -55,6 +55,7 @@ html {
 
 #robot {
     margin: 1.875rem auto;
+
     /* fixed height enables the full page layout to render first before the image loads into view */
     height: 32.8rem;
 }

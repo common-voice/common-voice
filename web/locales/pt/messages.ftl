@@ -7,13 +7,16 @@ return-to-cv = Voltar para o Common Voice
 email-input =
     .label = Email
 submit-form-action = Enviar
-loading = Carregando…
+loading = Carga em andamento…
 email-opt-in-info = Quero receber emails, tais como lembretes de metas, atualizações sobre meu progresso e boletins informativos sobre o Common Voice.
 email-opt-in-info-title = Participe da lista de discussão do Common Voice
 email-opt-in-info-sub-with-challenge = Receba emails, tais como lembretes de objetivos e desafios, atualizações de progresso e boletins informativos sobre o Common Voice.
 email-opt-in-privacy-v2 = Ao optar por receber emails, você declara que concorda com a Mozilla lidar com essas informações, conforme explicado na <privacyLink>Política de privacidade</privacyLink> da Mozilla.
 indicates-required = * Indica campo obrigatório
 not-available-abbreviation = Não disponível
+banner-error-slow-1 = Desculpe, o Common Voice está lento. Obrigado pelo seu interesse.
+banner-error-slow-2 = Estamos recebendo muito tráfego no momento, estamos investigando problemas.
+banner-error-slow-link = Página de status
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,7 +39,6 @@ ba = Basquir
 bas = Basa
 be = Bielorrusso
 bg = Búlgaro
-bm = Bambara
 bn = Bengalês
 br = Bretão
 bs = Bósnio
@@ -68,6 +70,7 @@ fy-NL = Frisão
 ga-IE = Irlandês
 gl = Galego
 gn = Guarani
+gom = Konkani de Goa
 ha = Hauçá
 he = Hebraico
 hi = Hindi
@@ -80,6 +83,7 @@ hyw = Armênio ocidental
 ia = Interlíngua
 id = Indonésio
 ie = Interlíngua
+ig = Igbo
 is = Islandês
 it = Italiano
 izh = Ijoriano
@@ -88,13 +92,16 @@ ka = Georgiano
 kaa = Caracalpaque
 kab = Kabyle
 kbd = Kabardiano
+ki = Kikuyu
 kk = Cazaque
 km = Khmer
 kmr = Curdo do norte
+knn = Konkani (Devanagari)
 ko = Coreano
 kpv = Komi-Zyrian
 kw = Córnico
 ky = Quirguiz
+lb = Luxemburguês
 lg = Luganda
 lij = Liguriano
 lt = Lituano
@@ -106,6 +113,7 @@ mhr = Meadow Mari
 mk = Macedônio
 ml = Malaiala
 mn = Mongol
+mni = Meitei-lon
 mos = Moré
 mr = Marata
 mrj = Hill Mari
@@ -113,6 +121,7 @@ ms = Malaio
 mt = Maltês
 my = Birmanês
 myv = Erzya
+nan-tw = Taiwanês (Minnan)
 nb-NO = Norueguês (Bokmål)
 ne-NP = Nepalês
 nia = Nias
@@ -126,6 +135,8 @@ pap-AW = Papiamento (Aruba)
 pl = Polonês
 ps = Pachto
 pt = Português
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romanche (Sursilvan)
 rm-vallader = Romanche (Vallader)
 ro = Romeno
@@ -138,6 +149,7 @@ scn = Siciliano
 shi = Tachelhit
 si = Cingalês
 sk = Eslovaco
+skr = Saraiki
 sl = Esloveno
 so = Somali
 sq = Albanês
@@ -149,8 +161,11 @@ ta = Tâmil
 te = Telugo
 tg = Tajique
 th = Tailandês
+ti = Tigrínia
+tig = Tigré
 tk = Turcomano
 tl = Filipino
+tok = Toki Pona
 tr = Turco
 tt = Tártaro
 tw = Twi
@@ -324,6 +339,9 @@ profile-form-additional-language =
     .label = Idioma adicional
 profile-form-language =
     .label = Idioma
+profile-form-variant =
+    .label = Qual variante de { $language } você fala?
+profile-form-variant-default-value = Nenhuma variante selecionada
 profile-form-accent =
     .label = Sotaque
 profile-form-custom-accent-help-text =
@@ -374,6 +392,9 @@ skip-submission-note = Nota: você ainda precisará escolher entre Falar ou Ouvi
 off = Desligar
 on = Ligar
 help-accent = Precisa de ajuda com sotaque?
+help-accent-explanation = Seu sotaque é a maneira como você pronuncia as palavras. Ele pode ser moldado de acordo com o local onde você viveu, os outros idiomas que você fala e muitos outros fatores. Você pode compartilhar qualquer informação que considere relevante aqui.
+help-variants = Precisa de ajuda com variantes?
+help-variants-explanation = Variante é uma forma específica de um idioma. Por exemplo, compartilhada por quem vive em uma área geográfica ou comunidade. Às vezes, é chamada de dialeto.
 
 ## Profile - Email
 
@@ -459,15 +480,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Por que o Common Voice?
-about-subtitle = O Common Voice faz parte da iniciativa da Mozilla de ajudar a ensinar às máquinas como pessoas de verdade falam. Em paralelo ao conjunto de dados do Common Voice, estamos construindo também um mecanismo de reconhecimento de voz de código aberto chamado Deep Speech.
-about-header-description =
-    Ambos os projetos fazem parte de nossos esforços de conciliar a desunião da fala digital. Tecnologias de reconhecimento de voz dão uma dimensão humana a nossos dispositivos, mas os desenvolvedores precisam de uma enorme quantidade de dados de voz para construí-las. Atualmente, a maioria dos dados é cara e proprietária.
-    Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de assegurar que os dados representem a diversidade de pessoas reais. Juntos podemos tornar o reconhecimento de voz melhor para todos.
-about-header-description-2 =
-    Este projeto é um esforço de conciliar a desunião da fala digital. Tecnologias de reconhecimento de voz dão uma dimensão humana a nossos dispositivos, mas os desenvolvedores precisam de uma enorme quantidade de dados de voz para construí-las. Atualmente, a maioria dos dados é cara e proprietária.
-    Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de assegurar que os dados representem a diversidade de pessoas reais. Juntos podemos tornar o reconhecimento de voz melhor para todos.
-how-does-it-work-title = Como funciona
+about-header-description-v2 =
+    <p>O Common Voice é um conjunto de dados de voz disponível publicamente, alimentado pelas vozes de colaboradores voluntários do mundo todo. As pessoas que querem criar aplicativos de voz podem usar o conjunto de dados para treinar modelos de aprendizado de máquina.</p>
+    <p>Atualmente, a maioria dos conjuntos de dados de voz pertence a empresas, o que reprime a inovação. Esses conjuntos de dados de voz também representam demais homens brancos falantes de inglês. Significa que a tecnologia habilitada para voz simplesmente não funciona em muitos idiomas e, onde funciona, pode não desempenhar igualmente bem para todos. Queremos mudar isso, mobilizando pessoas em todos os lugares para compartilhar suas vozes.</p>
+how-does-it-work-title-v2 = Como funciona o Common Voice?
 how-does-it-work-text = Estamos colhendo um conjunto de dados de voz de código aberto através de colaboração pública. Doe sua voz, valide a correção dos clipes de outras pessoas, torne o conjunto de dados melhor para todos.
+
+## How does it work section
+
+about-language-req-subtitle = Alguém pede que um idioma seja adicionado.
+about-localization-title = Tradução do site
+about-localization-subtitle = O texto do site é traduzido para esse idioma.
+about-sentence-collection-title = Coleta de frases
+about-sentence-collection-subtitle = Frases são coletadas para que as pessoas leiam em voz alta.
+about-new-lang-title = Lançamento de novo idioma
+about-new-lang-subtitle = Lançamos o site do Common Voice neste idioma.
+about-voice-contrib-title = Contribuição de voz
+about-voice-contrib-subtitle = Pessoas vêm e contribuem com suas vozes.
+about-voice-validation-title = Validação de voz
+about-voice-validation-subtitle = Outras pessoas validam esses clipes de voz.
+about-dataset-release-title = Lançamento do conjunto de dados
+about-dataset-release-subtitle = Lançamos o conjunto de dados a cada 3 meses.
+about-subscribe-text = Quer ficar em contato com o Common Voice?
 about-speak = Falar
 about-speak-text = Os colaboradores gravam clipes de voz lendo a partir de um banco de frases doadas.
 about-listen-queue = Fila de audição
@@ -496,10 +530,94 @@ about-get-involved-text-2 =
     Fantástico! Entre em contato via email ou nos fóruns do <discourseLink>Discourse</discourseLink>,
     relate problemas no site via <githubLink>GitHub</githubLink>,
     ou participe de conversas da comunidade no <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Como ficar em contato?
+about-stay-in-touch-text-1 = <emailFragment>Inscreva-se</emailFragment> em nossa lista de emails para saber como você pode participar de campanhas, eventos e recursos de design cooperativo no Common Voice.
+about-stay-in-touch-text-2 = Você pode conhecer outras pessoas nas comunidades de idioma da Mozilla, juntando-se ao <discourseLink>Discourse</discourseLink> para conversas sobre tópicos, ou ao <matrixLink>Matrix</matrixLink> para aconselhamento rápido.
 about-nav-why-common-voice = Por quê?
 about-nav-how-it-works = Como?
 about-nav-partners = Parceiros
 about-nav-get-involved = Envolva-se
+about-nav-how-it-works-2 = Como funciona o Common Voice?
+about-nav-playbook = Saiba como participar
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = O que é um idioma no Common Voice?
+about-playbook-what-is-language-content-1 = Há muitas formas de pensar sobre idioma. Para fins de modelos de reconhecimento de fala, o Common Voice sugere focar na 'inteligibilidade mútua', ou 'a maioria dos falantes desse idioma consegue se entender, se tentar?'
+about-playbook-what-is-language-content-2 = Queremos que os modelos de fala sejam melhores para entender uma gama diversificada de falantes. Para que isso aconteça, um conjunto de dados de voz deve representar muitas pessoas diferentes.
+about-playbook-what-is-language-content-3 = Alguns idiomas têm uma enorme variação de gramática, vocabulário e pronúncia. Por esse motivo, <ctaLink>lançamos ‘Variantes’</ctaLink> em 2022. Isso oferece às comunidades uma forma de distinguir seus idiomas no conjunto de dados mais amplo.
+
+## How do I add a language
+
+about-playbook-how-add-language = Como adicionar um idioma?
+about-playbook-how-add-language-content-1 = Primeiro, verifique se seu idioma <languageLink>já existe</languageLink>. Se não existir, você precisa <strong>traduzir o site e coletar frases</strong>.
+about-playbook-how-add-language-content-2 = <strong>Para traduzir o site</strong>, <translateVideo>cadastre-se</translateVideo>  no <pontoonLink>Pontoon</pontoonLink>. O Pontoon tem muitos idiomas, mas se não tiver o seu, você pode <pontoonRequestLink>solicitar</pontoonRequestLink>. Depois peça <repoLink>via GitHub</repoLink> para disponibilizar o projeto Common Voice no idioma. Saiba mais sobre <localizationFragment>tradução do site</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Para coletar frases</strong>, <scVideo>cadastre-se</scVideo> no <scLink>Coletor de frases</scLink>.
+about-playbook-how-add-language-content-4 = Você pode <scLinkAdd>adicionar pequenas quantidades</scLinkAdd> de frases aqui, ou pode fazer <bulkImportDocsLink>importação em massa</bulkImportDocsLink> por meio de uma requisição do Github. Lembre que as frases precisam ser <licenseLink>CC0 (ou de domínio público)</licenseLink>, ou você pode escrever suas próprias. Saiba mais sobre <scFragment>coleta de frases</scFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Como funciona a tradução do site?
+about-playbook-how-localize-content-1 = A tradução do site Common Voice é feita no <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Crie uma conta</pontoonAccountLink> se ainda não tiver. Depois escolha seu idioma <strong>(‘Equipe’)</strong> e escolha o projeto, <pontoonCvLink>Common Voice</pontoonCvLink>. Haverá arquivos a ser traduzidos. Clique em um deles, então aparecem palavras em inglês e um campo para traduzir.
+about-playbook-how-localize-content-3 = A tradução é a partir do inglês, mas você pode ver <strong>sugestões</strong> em outros idiomas. Clique no ícone de <strong>perfil</strong>, depois no link <strong>Settings</strong> (configurações) e adicione os idiomas que você fala. No canto inferior direito há uma lista de traduções chamada <strong>Locales</strong>. As traduções aparecem no site após um dia.
+about-playbook-how-localize-content-4 = O site fica pronto para ser lançado quando atingir 75% de conclusão.
+about-playbook-how-localize-content-5 = Assista ao nosso vídeo explicativo
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Como adicionar frases?
+about-playbook-how-add-sentences-content-1 = O <strong>coletor de frases</strong> é uma ferramenta para coletar e validar frases de domínio público. Você <scAccountLink>precisa criar uma conta</scAccountLink>. Depois adicione seu idioma ao seu <strong>perfil</strong>. Você pode <strong>adicionar</strong> frases ou <strong>revisar</strong> frases adicionadas anteriormente.
+about-playbook-how-add-sentences-content-2 = As frases devem ser revisadas e aceitas por duas pessoas para ser incluídas no Common Voice. Você cria diretrizes para seu idioma <languageGuidelinesLink>aqui</languageGuidelinesLink>. As frases devem ser de <licenseLink>domínio público</licenseLink> e ter menos de 15 palavras. Você pode pedir ao proprietário de um texto para torná-lo <waiverLink>CC0 (domínio público) usando nosso processo de renúncia de direitos</waiverLink> e nos enviar em commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Você pode usar o <scraperLink>extrator de frases</scraperLink> para aproveitar frases curtas do Wikipedia.
+about-playbook-how-add-sentences-content-4 = Frases validadas são exportadas às quartas-feiras e ficam disponíveis após o próximo lançamento.
+
+## How to record quality
+
+about-playbook-how-record-quality = Como gravar um clipe de voz de alta qualidade?
+about-playbook-how-record-content-1 = Fale com sua voz normal! A maneira como você fala é bem-vinda aqui. Queremos seu sotaque como ele é, e queremos seu volume, estilo e entonação habituais.
+about-playbook-how-record-content-2 = Evite muito ruído de fundo. Deve ser fácil ouvir você.
+about-playbook-how-record-content-3 = Leia a frase com atenção. Não descarte, altere ou adicione palavras.
+about-playbook-how-record-content-4 = Certifique-se de que a plataforma esteja gravando antes de começar a falar e que ela só pare quando você terminar.
+about-playbook-how-record-content-5 = <accuracyLink>Saiba mais sobre critérios de precisão.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Como podemos efetivamente fazer crescer um idioma no Common Voice?
+about-playbook-how-grow-language-content-1 = Criar oportunidades para que uma diversidade de pessoas contribua com o Common Voice garante que o conjunto de dados atenda ao maior número possível de pessoas. Criamos recursos e modelos que você pode usar!
+about-playbook-how-grow-language-content-2 = Eventos
+about-playbook-how-grow-language-content-3 = Você pode realizar eventos para ajudar as pessoas a contribuir. É mais fácil do que você imagina. Você pode fazer isso online com uma ferramenta de videoconferência, ou pessoalmente se for seguro. <eventTemplate>Confira nossos modelos e recursos para a realização de eventos</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Mídia social
+about-playbook-how-grow-language-content-5 = Você pode usar plataformas de mídia social para divulgar a mensagem. Compartilhe publicações que explicam por que isso é importante e entre em contato com outras pessoas para falar sobre questões como direitos de idioma, inteligência artificial de voz ou preconceito em tecnologia. Veja mais conselhos sobre <campaignLink>como realizar uma campanha em mídias sociais, incluindo conteúdo que você pode reutilizar</campaignLink>.
+about-playbook-how-grow-language-content-6 = Parcerias e redes
+about-playbook-how-grow-language-content-7 = Encontre outras pessoas que se importam. Pode ser em universidades, escolas de idiomas, grupos de defesa ou comunidades de ciência de dados. Entre em contato e explique com clareza como eles podem ajudar e por quê. <outreachTemplates>Veja nossos modelos de email de divulgação</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Seja criativo!</strong> Sua comunidade de idioma será única. Essas são apenas algumas maneiras de começar.
+
+## How to validate
+
+about-playbook-how-validate = Como posso saber se devo aprovar um clipe de voz?
+about-playbook-how-validate-content-1 = Se você conseguiu <strong>ouvir</strong> e <strong>entender</strong>, geralmente é <strong>melhor aprovar</strong>.
+about-playbook-how-validate-content-2 = <strong>Não rejeite clipes em que o locutor ‘tem um sotaque’ diferente do seu</strong>. Isso é importante para que o reconhecimento de voz funcione melhor para todos.
+about-playbook-how-validate-content-3 = Se você acha que a pronúncia torna <strong>impossível entender</strong>, ou há <strong>muito ruído de fundo</strong>, ou há <strong>outras pessoas falando também</strong>, então você deve rejeitar o clipe. <accuracyLink>Veja mais informações em nossos critérios de precisão</accuracyLink>.
+about-playbook-how-validate-content-4 = Se um clipe for rejeitado por 2 pessoas, ele é lançado em um subconjunto diferente do conjunto de dados.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Como acessar e usar o conjunto de dados?
+about-playbook-how-access-dataset-content-1 = Você pode acessar a <datasetsPage>página de conjuntos de dados</datasetsPage>, selecionar a versão e o(s) idioma(s) que quer e baixar! Os arquivos têm <metadataLink>metadados associados</metadataLink>, como informações demográficas e dados de validação. Você precisa fornecer um endereço de email para baixar um conjunto de dados.
+about-playbook-how-access-dataset-content-2 = Se você está procurando ferramentas para construir modelos de reconhecimento automático de voz, pode se conectar com outras pessoas na comunidade, <discourseLink>no Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Como são tomadas as decisões do projeto?
+about-playbook-how-project-governance-content-1 = O Mozilla Common Voice é possível graças a uma comunidade diversificada de ativistas, linguistas, cientistas de dados, acadêmicos e engenheiros de software do mundo todo. O projeto é administrado pela Fundação Mozilla.
+about-playbook-how-project-governance-content-2 = Nossa governança está alicerçada nos pilares de:
+about-playbook-how-project-governance-content-3 = Privacidade, segurança e transparência.
+about-playbook-how-project-governance-content-4 = Participação e tomada de decisões da comunidade.
+about-playbook-how-project-governance-content-5 = Valorização e reconhecimento.
+about-playbook-how-project-governance-content-6 = Responsabilidade mútua.
+about-playbook-how-project-governance-content-7 = <governanceLink>Mais informações sobre nossos critérios de gerenciamento do projeto</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Inteligência artificial
 mycroft-description =
@@ -691,7 +809,7 @@ record-error-too-short = A gravação foi muito curta.
 record-error-too-long = A gravação foi muito longa
 record-error-too-quiet = A gravação ficou com volume muito baixa.
 record-cancel = Cancelar regravação
-record-instruction = { $actionType }<recordIcon></recordIcon>e então leia a sentença em voz alta
+record-instruction = { $actionType }<recordIcon></recordIcon> depois leia a frase em voz alta
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> quando terminar
 record-three-more-instruction = No três, vai!
 record-again-instruction = Ótimo! <recordIcon></recordIcon> Grave a próxima frase
@@ -708,7 +826,7 @@ record-abort-text = Se parar agora vai perder todo o seu progresso
 record-abort-submit = Enviar frases
 record-abort-continue = Finalizar gravação
 record-abort-delete = Sair e excluir frases
-listen-instruction = { $actionType } <playIcon></playIcon> as sentenças foram pronunciadas com precisão?
+listen-instruction = { $actionType }<playIcon></playIcon> a frase foi pronunciada com precisão?
 listen-again-instruction = Bom trabalho! <playIcon></playIcon> Ouça novamente quando estiver pronto
 listen-3rd-time-instruction = 2 prontas <playIcon></playIcon> , continue assim!
 listen-last-time-instruction = <playIcon></playIcon> Última!
@@ -885,6 +1003,7 @@ download-recordings-title = Gravações
 download-recordings-info = Inclui arquivos mp3 e frases relacionadas
 download-recordings-size = Normalmente megabytes
 download-recordings-unavailable = Você não pode solicitar suas gravações enquanto outra solicitação já estiver em andamento.
+download-recently-requested = Você pode solicitar uma nova remoção de suas gravações a cada { $days } dias.
 download-size = Tamanho
 download-selected = Selecionado
 download-start = Iniciar download
@@ -1032,10 +1151,15 @@ sc-logout-button = Sair
 ## HOME
 
 sc-home-title = Boas-vindas ao coletor de frases do Common Voice
+sc-home-intro = O coletor de frases faz parte do <commonVoiceLink>Common Voice</commonVoiceLink>. Ele permite que colaboradores coletem e validem frases criadas pela comunidade. Você também pode usar esta ferramenta para importar e limpar frases de domínio público de pequeno a médio porte que você encontrou ou coletou. Todas as frases precisam ser de domínio público. Frases aprovadas são exportadas toda semana para o repositório do Common Voice e lançadas no site do Common Voice em cada nova implantação.
 sc-home-collect-title = Coletar frases
 sc-home-collect-text = Ajude-nos escrevendo ou coletando frases de domínio público.
 sc-home-review-title = Revisar frases
 sc-home-review-text = Ajude-nos revisando frases para ver se estão corretas, de acordo com as diretrizes.
+
+## GENERAL
+
+sc-languages-fetch-error = Falha ao buscar os idiomas disponíveis. Não é possível fazer contribuições no momento. Tente novamente mais tarde.
 
 ## HOW-TO
 
@@ -1043,9 +1167,20 @@ sc-howto-title = Como
 sc-howto-addlang-title = Adicionando idiomas para trabalhar
 sc-howto-addlang-text = Após entrar, você pode selecionar seus idiomas na seção de perfil.
 sc-howto-addsen-title = Adicionar novas frases
+sc-howto-addsen-item-1 = Todas as frases que você enviar devem estar sob licença de <wikipediaLink>Domínio Público (CC-0)</wikipediaLink>. Para apoiar a inclusão de trabalhos que não estejam sob licença pública, criamos um <cc0WaiverLink>modelo de contrato de contribuição</cc0WaiverLink> para trabalhos em que o proprietário dos direitos autorais quer contribuir com material para o Common Voice.
+sc-howto-addsen-item-2 = Números. Não deve haver dígitos no texto de origem, pois podem causar problemas ao ser lidos em voz alta. A maneira como um número é lido depende do contexto e pode causar confusão no conjunto de dados. Por exemplo, o número “2409” pode ser lido com precisão como “vinte e quatro zero nove” e também como “dois mil quatrocentos e nove”.
+sc-howto-addsen-item-3 = Abreviações e acrônimos. Abreviações e siglas como “EUA“ ou “NF“ devem ser evitadas no texto de origem, pois podem ser lidas de forma que não coincida com sua grafia. Além disso, pode haver várias leituras corretas para uma mesma abreviação. Por exemplo, a sigla “NF“ pode ser pronunciada “N-F“ ou como “nota fiscal“.
+sc-howto-addsen-item-4 = Pontuação. Símbolos especiais e pontuação só devem ser incluídos quando absolutamente necessário. Por exemplo, um apóstrofo é incluído em palavras em inglês como “don't“ e “we're“, ou em português como “d'água“, e deve ser incluído no texto de origem, mas é improvável que você precise de um símbolo especial como “@“ ou “#“.
+sc-howto-addsen-item-5 = Letras estrangeiras. Letras devem ser válidas no idioma falado. Por exemplo, “ж” é uma letra do alfabeto russo, mas nunca é usada em inglês, portanto nunca deve aparecer em nenhum texto de origem em inglês.
+sc-howto-addsen-item-6 = Idiomas podem ter suas próprias <validationRulesLink>regras de validação</validationRulesLink> com requisitos adicionais. Se não houver nenhum arquivo de validação específico de um idioma, usamos as regras genéricas do inglês.
+sc-howto-addsen-post-1 = Preferimos frases naturais/coloquiais. Embora seja importante frases com diversidade fonética e palavras diferentes, estamos tentando tornar a gravação de frases o mais divertido possível. Portanto, seria ótimo se você puder tentar manter suas frases o mais natural/envolvente possível.
 sc-howto-cite-title = Como citar
+sc-howto-cite-pre-1 = É importante que você mencione onde encontrou a licença pública para evitar plágio e permitir a investigação de <copyrightIssuesLink>problemas de direitos autorais</copyrightIssuesLink>. Aqui estão algumas formas de citar o trabalho.
 sc-howto-cite-item-1 = Você pode incluir o site, por exemplo, "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Você pode usar estilo de referência acadêmica, por exemplo, estilo Harvard "Mozilla (2021) Common Voice. Disponível em https://commonvoice.mozilla.org/ (acessado em 15 de setembro de 2021)"
+sc-howto-cite-item-3 = Para texto de domínio público não disponível online, você pode usar o estilo de referência acadêmica, por exemplo, estilo Harvard "Jess (2021) My Public licence poems"
 sc-howto-review-title = Revisar frases
+sc-howto-review-subtitle = Assegure que a frase atende aos seguintes critérios:
 sc-howto-review-criteria-1 = A frase deve ser escrita corretamente.
 sc-howto-review-criteria-2 = A frase deve estar gramaticalmente correta.
 sc-howto-review-criteria-3 = Deve ser possível pronunciar a frase.
@@ -1054,11 +1189,19 @@ sc-howto-review-criteria-5 = Se a frase não atender aos critérios acima, cliqu
 sc-howto-review-criteria-6 = Se você ficar sem frases para revisar, ajude-nos a coletar mais frases!
 sc-howto-findpd-title = Encontrando frases existentes em domínio público
 sc-howto-findpd-subtitle = Procurar na internet
+sc-howto-findpd-text-2 = Lembre que precisamos de permissão para publicar essas frases, portanto sempre verifique se o texto pertence ao <wikipediaLink>domínio público</wikipediaLink>. Se não houver indicação explícita, entre em contato com a pessoa a quem o texto pertence e pergunte se ela quer contribuir com seu texto para o domínio público. Se ela quiser, dê uma ajuda no processo do <cc0WaiverLink>Contrato de Contribuições</cc0WaiverLink>. Caso ela não queira contribuir com o texto, você não tem permissão de usar tal texto.
 sc-howto-findpd-tips = Veja algumas dicas de como encontrar frases:
+sc-howto-findpd-tips-1 = As melhores fontes onde que você pode procurar são podcasts, transcrições, roteiros de filmes e qualquer coisa que possa conter conversas cotidianas.
+sc-howto-findpd-tips-2 = Procedimentos governamentais, livros e artigos também são ótimos, mas como o texto tende a ser um pouco mais formal, tem menor prioridade.
+sc-howto-findpd-tips-3 = Infelizmente ainda não podemos ter artigos da Wikimedia. Então não copie e cole de lá.
+sc-howto-findpd-subtitle-2 = Faça parcerias com organizações ou indivíduos locais
+sc-howto-findpd-partner-1 = Existem muitas organizações públicas que podem querer colaborar e já têm muitos textos que podem doar como domínio público. Entre em contato com universidades locais, governos e organizações de código aberto para conversar sobre o projeto e pedir ajuda.
+sc-howto-findpd-partner-2 = Linguistas especialistas também podem ajudar. Tente entrar em contato com universidades locais de línguas (professores e alunos) e veja se eles podem ajudar a reunir um conjunto diversificado de frases com sons diferentes em seu idioma.
 
 ## MY SENTENCES
 
 sc-my-title = Minhas frases
+sc-my-description = Esta página fornece uma visão geral de todas as suas frases enviadas. Você também pode excluir frases já enviadas, se necessário, marcando a caixa de seleção ao lado e clicando em &quot;Excluir frases selecionadas&quot; no final. Somente remova frases se for absolutamente necessário, por exemplo, se você só perceber depois o fato de que uma frase é protegida por direitos autorais.
 sc-my-loading = Carregando suas frases…
 sc-my-err-fetching = Erro ao buscar suas frases. Tente novamente.
 sc-my-no-sentences = Nenhuma frase encontrada!
@@ -1082,11 +1225,12 @@ sc-rejected-none-found = Nenhuma frase rejeitada encontrada!
 ## STATS
 
 sc-stats-title = Estatisticas
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Última atualização: { $lastUpdate }
-sc-stats-last-update-never = Última atualização: nunca
 sc-stats-updating = Atualizando…
+sc-stats-error = Não foi possível buscar as estatísticas. Tente novamente mais tarde.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = O coletor de frases do Common Voice coletou { $sentenceCount } frases em { $languageCount } idiomas!
 
 ## ADD
 
@@ -1103,8 +1247,13 @@ sc-submit-add-sentences = Adicionar frases de <wikipediaLink>domínio público</
 sc-submit-ph-one-per-line =
     .placeholder = Uma frase por linha
 sc-submit-from-where = De onde são essas frases de <wikipediaLink>domínio público</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Leia nosso guia de como fazer, caso não tenha certeza de como atribuir
+sc-submit-confirm = Confirmo que estas frases são de <wikipediaLink>domínio público</wikipediaLink> e tenho permissão para enviar.
 sc-submit-button =
     .submitText = Enviar
+sc-submit-filtered = Frases filtradas devido a falhas nos requisitos (favor enviar versões corrigidas como novas frases):
+sc-submit-guidelines = Verifique as <howToLink>diretrizes</howToLink>.
 
 ## ADD LANGUAGE
 
@@ -1112,10 +1261,29 @@ sc-add-lang-could-not-add = Não foi possível adicionar idioma
 sc-add-lang-sec-label = Adicionar um idioma em que você quer contribuir
 sc-add-lang-sec-button = Adicionar idioma
 sc-add-err-unexpected = Resposta não esperada retornada do servidor
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Frases enviadas. Nenhuma frase foi rejeitada como duplicata.
+        [one] Frases enviadas. { $duplicates } frase foi rejeitada como duplicata.
+       *[other] Frases enviadas. { $duplicates } frases foram rejeitadas como duplicatas.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Nenhuma frase falhou
+        [one] 1 frase falhou
+       *[other] { $sentences } frases falharam
+    }
 sc-add-err-submission = Erro de envio
+sc-add-lang-process-notice = Se o seu idioma não estiver listado aqui, você pode solicitar através <languageProcessLink>deste processo</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Frases não enviadas, tem certeza que quer sair?
 sc-confirm-sentences-title = Confirmar novas frases
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
@@ -1134,10 +1302,66 @@ sc-confirm-already-reviewed =
         [one] 1 frase já foi revisada. Bom trabalho!
        *[other] { $countOfReviewed } frases já foram revisadas. Bom trabalho!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Nenhuma frase pronta para ser enviada!
+        [one] 1 frase pronta para ser enviada!
+       *[other] { $readyCount } frases prontas para ser enviadas!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } frases não foram revisadas. Se quiser, você também pode revisar suas frases agora, antes de enviar.
 sc-confirm-button-text = Confirmar
+sc-confirm-uploading = As frases estão sendo enviadas. Isso pode demorar vários minutos, dependendo do número de frases adicionadas. Não feche este site.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Total
+sc-lang-info-title-personal = Pessoal
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Nenhuma frase no total.
+        [one] 1 frase no total.
+       *[other] { $totalSentences } frase no total.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Nenhuma frase em revisão.
+        [one] 1 frase em revisão.
+       *[other] { $totalInReview } frases em revisão.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Nenhuma frase restante para você revisar.
+        [one] 1 frase restante para você revisar.
+       *[other] { $unreviewedSentencesByYou } frases restantes para você revisar.
+    }
+sc-lang-info-review-now = <reviewLink>Revise agora!</reviewLink>
+sc-lang-info-add-more = <addLink>Adicione mais frases agora!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Nenhuma frase validada.
+        [one] 1 frase validada.
+       *[other] { $validatedSentences } frases validadas.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Nenhuma frase rejeitada.
+        [one] 1 frase rejeitada.
+       *[other] { $rejectedSentences } frases rejeitadas.
+    }
 
 ## LOGIN
 
@@ -1162,22 +1386,58 @@ sc-personal-not-added = Você ainda não adicionou nenhum idioma.
 
 sc-criteria-modal = ⓘ Critérios de revisão
 sc-criteria-title = Critérios de revisão
+sc-criteria-make-sure = Assegure que a frase atende aos seguintes critérios:
+sc-criteria-item-1 = A frase deve ser escrita corretamente.
+sc-criteria-item-2 = A frase deve estar gramaticalmente correta.
+sc-criteria-item-3 = Deve ser possível pronunciar a frase.
+sc-criteria-item-4 = Se a frase atender aos critérios, clique no botão &quot;Aprovar&quot; à direita.
+sc-criteria-item-5-2 = Se a frase não atender aos critérios acima, clique no botão &quot;Rejeitar&quot; à esquerda. Se não tiver certeza sobre a frase, você também pode pular e passar para a próxima.
+sc-criteria-item-6 = Se você não tiver mais frases para revisar, ajude-nos a coletar mais frases!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Você não selecionou nenhum idioma. Vá em seu <profileLink>Perfil</profileLink> para selecionar idiomas.
 sc-review-title = Revisar frases
 sc-review-loading = Carregando frases…
 sc-review-select-language = Selecione um idioma para revisar frases.
+sc-review-no-sentences = Nenhuma frase para revisar. <addLink>Adicione mais frases agora!</addLink>
+sc-review-form-prompt =
+    .message = Frases revisadas não foram enviadas, tem certeza?
+sc-review-form-usage = Deslize para direita para aprovar a frase. Deslize para esquerda para rejeitar. Deslize para cima para pular. <strong>Não esqueça de enviar sua revisão!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Origem: { $sentenceSource }
 sc-review-form-button-reject = Rejeitar
 sc-review-form-button-skip = Pular
 sc-review-form-button-approve = Aprovar
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = S
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = P
+sc-review-form-keyboard-usage-custom = Você também pode usar atalhos de teclado: { sc-review-form-button-approve-shortcut } para aprovar, { sc-review-form-button-reject-shortcut } para rejeitar, { sc-review-form-button-skip-shortcut } para pular
+sc-review-form-button-submit =
+    .submitText = Concluir revisão
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Nenhuma frase revisada.
+        [one] 1 frase revisada. Obrigado!
+       *[other] { $sentences } frases revisadas. Obrigado!
+    }
+sc-review-form-review-failure = A revisão não pôde ser salva. Tente novamente mais tarde.
 sc-review-link = Revisão
 
 ## SETTINGS
 
 sc-settings-title = Configurações
 sc-settings-ui-language = Idioma da interface
+sc-settings-language-translated-warning = As páginas deste idioma podem não estar totalmente traduzidas. Você pode ajudar na tradução no <pontoonLinkLink>Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Redefinir frases ignoradas
+sc-settings-skipped-decription = Anteriormente, você pulou frases durante a revisão. A redefinição de frases ignoradas faz com que todas elas sejam exibidas novamente. Isso independente do idioma.
+sc-settings-show-all-button = Mostrar novamente todas as frases ignoradas
 sc-settings-failed = Não foi possível alterar as configurações. Tente novamente.
 # VALIDATION
 sc-validation-number-of-words = A frase deve conter de 1 a 14 palavras
@@ -1187,3 +1447,5 @@ sc-validation-no-abbreviations = A frase não deve conter abreviações
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Escolher idioma/localização

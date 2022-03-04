@@ -1,10 +1,12 @@
 .banner {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    z-index: var(--middle-z-index);
+    width: 100%;
+    z-index: var(--header-z-index);
     background: var(--black);
     padding-top: 20px;
     padding-bottom: 20px;
@@ -12,18 +14,12 @@
     padding-inline-end: 50px;
 
     @media (--md-down) {
-        position: sticky;
-        top: var(--header-height);
-    }
-
-    @media (--sm-down) {
         position: fixed;
         top: auto;
         bottom: 0;
     }
 
     .notification-text {
-        text-align: center;
         color: #f89096;
         margin: 0 1rem;
 
@@ -32,6 +28,7 @@
         }
 
         @media (--md-down) {
+            font-size: 1.15rem;
             width: 100%;
         }
 
@@ -41,7 +38,7 @@
     }
 
     .cta {
-        border: 2px solid hsla(0, 0%, 100%, 0.5);
+        border: 2px solid hsla(0deg, 0%, 100%, 0.5);
         border-radius: 30px;
         align-items: center;
         justify-content: center;
@@ -93,8 +90,14 @@
     .close {
         border: none;
         position: absolute;
-        right: 2rem;
+        right: 0;
         left: auto;
+        padding: 2em;
+
+        @media (--md-down) {
+            top: 1em;
+            padding: 1em;
+        }
 
         path {
             fill: var(--white);
@@ -104,53 +107,11 @@
             width: 22px;
             height: 22px;
             margin: 0 0.5rem;
-
-            @media (--md-down) {
-                width: 18px;
-                height: 18px;
-            }
-
-            @media (--sm-down) {
-                width: 14px;
-                height: 14px;
-            }
-        }
-
-        @media (--md-down) {
-            font-size: 80%;
-            padding-top: 0;
-            padding-bottom: 0;
-        }
-
-        @media (--sm-down) {
-            font-size: 65%;
-            margin-inline-start: 0.5rem;
-            height: 2.5rem;
-        }
-    }
-
-    .close {
-        border: none;
-        position: absolute;
-        right: 2rem;
-        left: auto;
-
-        path {
-            fill: var(--white);
-        }
-
-        @media (--sm-down) {
-            right: 0.75rem;
-            top: 2rem;
         }
 
         [dir='rtl'] & {
-            left: 2rem;
+            left: 0;
             right: auto;
-            @media (--sm-down) {
-                left: 0.75rem;
-                right: auto;
-            }
         }
     }
 }

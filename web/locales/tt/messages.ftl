@@ -36,7 +36,6 @@ ba = Башкорт
 bas = Басаа
 be = Беларус
 bg = Болгар
-bm = Бамбара
 bn = Бенгал
 br = Бретон
 bs = Босния
@@ -68,6 +67,7 @@ fy-NL = Фриз
 ga-IE = Ирланд
 gl = Галисия
 gn = Гуарани
+gom = Конкани (Гоа)
 ha = Хауса
 he = Яһүд
 hi = Һинди
@@ -93,6 +93,7 @@ ki = Кикуйу
 kk = Казакъ
 km = Кхмер
 kmr = Курманҗи көрд
+knn = Конкани (Деванагари)
 ko = Корей
 kpv = Коми-зырян
 kw = Корн
@@ -239,18 +240,18 @@ all-locales = Бөтенесе
 today = Бүген
 x-weeks-short =
     { $count ->
-        [one] атна
+        [one] Атна
        *[other] { $count } атна
     }
 x-months-short =
     { $count ->
-        [one] ай
-       *[other] { $count } ай
+        [one] Ай
+       *[other] { $count } Monate
     }
 x-years-short =
     { $count ->
-        [one] ел
-       *[other] ел
+        [one] Ел
+       *[other] { $count } ел
     }
 help-make-dataset = Безгә югары сыйфатлы, һәркемгә ачык мәгълүмат тупланмасын булдырырга ярдәм итегез
 sign-up-account = Аккаунт булдырыр өчен теркәлегез
@@ -336,6 +337,7 @@ profile-form-language =
     .label = Тел
 profile-form-accent =
     .label = Акцент
+profile-form-custom-accent-placeholder-2 = Акцентыгызны тасвирлау өчен яза башлагыз
 profile-form-age =
     .label = Яшь
 profile-form-gender-2 =
@@ -380,6 +382,7 @@ skip-submission-description = 'Җибәрү'гә баскач,  мәгълүма
 skip-submission-note = Искәрмә: Ярдәм итү төрен үзгәртү өчен сезгә Сөйләү яки Тыңлауны сайларга кирәк булачак.
 off = Сүнгән
 on = Кабынган
+help-accent = Акцент белән бәйле ярдәм кирәкме?
 
 ## Profile - Email
 
@@ -460,15 +463,24 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Нигә Common Voice?
-about-subtitle = Common Voice — Mozilla'ның җиһазларга чын кешеләр ничек сөйләшә икәнен өйрәтүгә багышланган инициативасының бер өлеше. Common Voice мәгълүмат тупланмасыннан тыш, без Deep Speech дип аталучы ачык кодлы сөйләм тану системасы өстендә дә эшлибез.
-about-header-description =
-    Бу проектның икесе дә — цифралаштырылган сөйләмдә булган тигезсезлекне төзәтүне максат итеп тоткан тырышлыкларыбызның бер өлеше. Сөйләм тану технологияләре электрон җиһазларыбызга кешечә бер йөз бирә, әмма аларны булдыру өчен, җитештерүчеләргә ифрат күп аудиоязмалар кирәк. Әлеге вакытта андый мәгълүматның күпчелек өлеше кыйммәт һәм проприетар.
-    Без аудиомәгълүматның ирекле һәм һәркем өчен дә ачык булуын, һәм кешеләрнең төрлелеген чагылдыруын телибез. Бергәләшеп без сөйләм тану технологияләрен һәркем өчен дә яхшырак итә алабыз.
-about-header-description-2 =
-    Бу проект — цифралаштырылган сөйләмдә булган тигезсезлекне төзәтүне максат итеп тоткан тырышлыгыбыз. Сөйләм тану технологияләре электрон җиһазларыбызга кешечә бер йөз бирә, әмма аларны булдыру өчен, җитештерүчеләргә ифрат күп аудиоязмалар кирәк. Әлеге вакытта андый мәгълүматның күпчелек өлеше кыйммәт һәм проприетар.
-    Без аудиомәгълүматның ирекле һәм һәркем өчен дә ачык булуын, һәм кешеләрнең төрлелеген чагылдыруын телибез. Бергәләшеп без сөйләм тану технологияләрен һәркем өчен дә яхшырак итә алабыз.
-how-does-it-work-title = Ул ничек эшли?
+how-does-it-work-title-v2 = Common Voice ничек эшли?
 how-does-it-work-text = Без ачык аудиоязма тупланмасын төзибез. Тавышыгызны иганә итегез, башка кешеләр яздырган аудиоязмаларның төгәллеген тикшерегз, бу мәгълүмат тупланмасын һәркем өчен дә яхшыртыгыз.
+
+## How does it work section
+
+about-language-req-subtitle = Кемдер тел өстәлүен сорый.
+about-localization-title = Вебсайтны тәрҗемә итү
+about-localization-subtitle = Вебсайт тексты бу телгә тәрҗемә ителә.
+about-sentence-collection-title = Җөмләләр тупланмасы
+about-sentence-collection-subtitle = Кешеләр кычкырып укысын өчен җөмләләр җыела.
+about-new-lang-title = Яңа телне эшкә кушу
+about-new-lang-subtitle = Без бу телдә Common Voice сайтын башлап җибәрәбез.
+about-voice-contrib-title = Тавышлап өлеш кертү
+about-voice-validation-title = Тавышларны тикшерү
+about-voice-validation-subtitle = Башка кешеләр бу тавыш клипларын тикшерәләр.
+about-dataset-release-title = Мәгълүмат тупланмасының чыгарылышы
+about-dataset-release-subtitle = Без мәгълүматлар тупланмасын 3 ай саен чыгарабыз.
+about-subscribe-text = Common Voice белән элемтәдә торырга телисезме?
 about-speak = Сөйләү
 about-speak-text = Катнашучылар, иганә ителгән җөмләләрне укып, аудиоязмалар булдыралар.
 about-listen-queue = Тыңлау чираты
@@ -500,6 +512,46 @@ about-nav-why-common-voice = Нигә?
 about-nav-how-it-works = Ничек?
 about-nav-partners = Партнёрлар
 about-nav-get-involved = Катнашу
+about-nav-how-it-works-2 = Common Voice ничек эшли?
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Common Voice-та тел нәрсә ул?
+
+## How do I add a language
+
+about-playbook-how-add-language = Телне ничек өсти алам?
+
+## How does localization work
+
+about-playbook-how-localize = Сайт тәрҗемәсе ничек эшли?
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Җөмләләрне өсти алам?
+
+## How to record quality
+
+about-playbook-how-record-content-5 = <accuracyLink>Төгәллек критерийлары турында күбрәк белү.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = Вакыйгалар
+about-playbook-how-grow-language-content-4 = Социаль челтәр
+about-playbook-how-grow-language-content-6 = Партнёрлык һәм челтәрләр
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance-content-3 = Хосусыйлык, хәвефсезлек һәм ачыклык.
+about-playbook-how-project-governance-content-5 = Кыйммәт һәм тану.
+about-playbook-how-project-governance-content-6 = Үзара җаваплылык.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Ясалма интеллект
 mycroft-description = Mycroft — дөньяда беренче ачык чыганак кодлы ассистент. Ул һәркайда да эшли ала — өстәл өсте компьютерында, автомобильдә яки Raspberry Pi'да.
@@ -745,7 +797,7 @@ report-success = Шикаять җибәрелде
 
 ## Goals
 
-streaks = көн рәттән
+streaks = Көн рәттән
 days =
     { $count ->
         [one] Көн
@@ -1108,6 +1160,12 @@ sc-review-form-source = Чыганак: { $sentenceSource }
 sc-review-form-button-reject = Кире кагу
 sc-review-form-button-skip = Калдырып тору
 sc-review-form-button-approve = Раслау
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = Тикшерүне тәмамлау
 sc-review-form-review-failure = Тикшерүне саклап булмады. Зинһар соңрак янә тырышып карагыз.

@@ -36,9 +36,9 @@ ba = Печказонь кель
 bas = Басаань кель
 be = Беларузонь кель
 bg = Болгариянь кель
-bm = Бамбарань кель
 bn = Бенгалинь кель
 br = Бретононь кель
+bs = Босниянь кель
 bxr = Бурятонь кель
 ca = Каталанонь кель
 cak = Какчикелень кель
@@ -67,6 +67,7 @@ fy-NL = Фризинь кель
 ga-IE = Ирляндиянь кель
 gl = Галициянь кель
 gn = Гуаранинь кель
+gom = Конканинь кель
 ha = Хаузань кель
 he = Ивритэнь кель
 hi = Хиндинь кель
@@ -90,7 +91,9 @@ kab = Кабилень кель
 kbd = Карбардонь кель
 ki = Кикуюнь кель
 kk = Казахонь кель
+km = Кхмерэнь кель
 kmr = Курманджинь курдань кель
+knn = Конканинь (девангаринь) кель
 ko = Кореань кель
 kpv = Коми-зирянонь кель
 kw = Корнинь кель
@@ -106,6 +109,7 @@ mhr = Лугамаринь кель
 mk = Македониянь кель
 ml = Малаяламонь кель
 mn = Монголонь кель
+mni = Манипуринь кель
 mos = Моссинь кель
 mr = Маратинь кель
 mrj = Пандомаринь кель
@@ -128,6 +132,7 @@ pl = Полшань кель
 ps = Паштонь кель
 pt = Португалонь кель
 quc = Кичень кель
+quy = Кечуа Чанка кель
 rm-sursilv = Сурсилванонь романшонь кель
 rm-vallader = Романш Валладерэнь кель
 ro = Руменэнь кель
@@ -152,6 +157,8 @@ te = Телугунь кель
 tg = Таджикень кель
 th = Таень кель
 ti = Тигриньянь кель
+tig = Тигрень кель
+tk = Туркменэнь кель
 tl = Тагалогонь кель
 tr = Туркань кель
 tt = Татаронь кель
@@ -324,8 +331,13 @@ profile-form-native-language =
     .label = Тиринь кель
 profile-form-additional-language =
     .label = Лия кель
+profile-form-language =
+    .label = Кель
 profile-form-accent =
     .label = Кортавкс
+profile-form-custom-accent-help-text =
+    .label = Кодамо валсо ёвтавлить кортавксот ёнкстнэнь?
+profile-form-custom-accent-placeholder-2 = Ушодт сёрмадомо кортавксот ёнксонзо ёвтамга
 profile-form-age =
     .label = Иеть
 profile-form-gender-2 =
@@ -336,6 +348,7 @@ hidden = Кекшезь
 visible = Неявикс
 native-language =
     .label = Тиринь кель
+profile-form-add-accent = Совавтт од кортавкс "{ $inputValue }"
 profile-form-submit-save = Ванстомс
 profile-form-submit-saved = Ванстозь
 male = Цёра
@@ -369,6 +382,8 @@ skip-submission-description = "Кучомс" повонь лепштямодо �
 skip-submission-note = Тешкстамга: тыненнк икеле ладсо сави кочкамс сёрмадома ды кунсолома ютксо, путовксонь типень полавтомга.
 off = Пекстамс
 on = Нолдамс
+help-accent = Эряви лезкс кортавксот муемга?
+help-accent-explanation = Кортавксот -- те кода валтнэсэ ёвтат. Сон ашти сень эйстэ, косо чачить-касыть, кодамо лия кельсэ кортат ды лиядо-мезде. Эсеть мелеть коряс, сёрмадыка тезэнь сень, конань арсят эрявикс.
 
 ## Profile - Email
 
@@ -430,8 +445,21 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Мезекс «Common Voice»?
-about-subtitle = «Common Voice» те Мозиллань ушодксонзо пельксэзэ, конаньсэ тонавты машинат кортамо алкукс ломанень ладсо. Common Voice данной пурнавксто башка, минь тейтяно вайгелень содамо машина, лемезэ «Deep Speech» (эрзякс Домка Кортамо), сонзэ кодозо олясо -- весенень панжадо.
-how-does-it-work-title = Кода «Common Voice» тевесь моли?
+how-does-it-work-title-v2 = Кода Common Voice важоди?
+
+## How does it work section
+
+about-language-req-subtitle = Кияк веши келень совавтомс
+about-localization-title = Сайтэнть локализациязо
+about-localization-subtitle = Сайтэнть сёрмакоцтозо-текстэзэ ютавтозь эрявикс кельс.
+about-sentence-collection-title = Валрисьмень пурнамо
+about-sentence-collection-subtitle = Валрисьметне пурнавить ломантненень ловновост марямга.
+about-new-lang-title = Од келень нолдамо
+about-new-lang-subtitle = Нолдатано Common Voice сайтэнть вана те кельсэнть.
+about-voice-contrib-title = Вайгельсёрмадовкссо лезкс
+about-voice-contrib-subtitle = Ломанть сыть ды максыть вайгельсэ лезкс.
+about-voice-validation-title = Вайгельсёрмадовксонь кемекстамо
+about-voice-validation-subtitle = Неть вайгельсёрмадовкстнэнь кемекстыть лия ломанть.
 about-speak = Кортак
 about-speak-text = Лезксэнь максыцятне сёрмадыть эсь вайгельсэ клипть валрисьмень пурнавксонь ловнозь.
 about-listen-queue = Кунсоломань чипола
@@ -461,6 +489,45 @@ about-nav-why-common-voice = Мезекс ?
 about-nav-how-it-works = Кода ?
 about-nav-partners = Ялгат
 about-nav-get-involved = Кундамс вейсэнь тевс
+about-nav-how-it-works-2 = Кода Common Voice-сэ важодить?
+about-nav-playbook = Ловнок кода совамс теицятнень юткс ды лездамс
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Келесь те мезе Common Voice-сэ?
+
+## How do I add a language
+
+about-playbook-how-add-language = Кода совавтомс кель?
+
+## How does localization work
+
+about-playbook-how-localize = Кода сайтэнь локализациясь тееви?
+about-playbook-how-localize-content-4 = Сайтэсь анок нолдамс, зярдо сёрмакоцтонть-текстэнть ютавтомазо пачкоди 75% видьс.
+about-playbook-how-localize-content-5 = Ванык видеонок, паряк лезды чарькодемс
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Кода поладан валрисьметь?
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-4 = Соцмедия
+
+## How to validate
+
+about-playbook-how-validate = Мезень коряс содави вайгельсёрмадксось кемекстамс -- а кемекстамс?
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance = Кода проектэнь коряс ве мельс самот теевить?
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Шкинезь прев
 mycroft-description = Mycroft -- масторлангонь васенце вайгель марто лездыця, конань панжадо кодозо. Mycroft важоди эрьва косо -- компьюторсо, автомобильсэ или Raspberry Pi-сэ.
@@ -932,3 +999,220 @@ contribution-just-unsure-title = Ансяк Кавтолдат?
 contribution-just-unsure-description = Понгиндеряй истямо тев, конадо неть тевень ветямотнесэ арась кортамо, инескеть, каяк вайгелеть эсеть паро превсэ. Бути алкукс а арсеви тенть, кодамо вайгель каямс, лепштика «вакска ютамонь» повненть ды кундак сыця вайгелень сёрмадовксос.
 see-more = <chevron></chevron>Неемс седе ламо
 see-less = <chevron></chevron>Неемс седе аламо
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-home = Ушодома тарка
+sc-header-how-to = Кода
+sc-header-add = Поладомс
+sc-header-review = Ванномс
+sc-header-rejected = Кардазь валрисьметь
+sc-header-my = Эсень валрисьметне
+sc-header-statistics = Статистикась
+sc-header-profile = Профил
+sc-footer-translate = Ютавтык те лопанть
+sc-footer-terms = Терминт
+sc-footer-cookies = Нумолонь кшить
+sc-login-signup-button = Совамс/Шкак совамо тарка
+sc-logout-button = Лисемс
+
+## HOME
+
+sc-home-title = Инеськеть, сак седе малас, вана Common Voice-нь валрисьмень пурнамкась
+sc-home-collect-title = Пурнак валрисьметь
+sc-home-review-title = Ваннок валрисьметь
+
+## HOW-TO
+
+sc-howto-title = Кода
+sc-howto-addlang-title = Важодевкс келень поладома
+sc-howto-addsen-title = Поладт од валрисьметь
+sc-howto-addsen-item-5 = Лия келень тешкскеть-букват. Келесь сёрмадови ансяк эсензэ тешкскетнесэ. Саемгакс, “ǯ” буквась вастневи сколт саамонь альфавитсэ, ансяк зярдояк сон а нолдави тевс эрзянь келень сёрмасо; илязо вастневеяк эрзянь келень лисьмапрянь тексттнэсэ.
+sc-howto-cite-title = Кода теемс цитат
+sc-howto-review-title = Ванномс валрисьметь
+sc-howto-review-subtitle = Явт мель: валрисьменть ёнксонзо улест вадрят:
+sc-howto-review-criteria-1 = Валрисьменть валонзо эрявить сёрмадомс видестэ.
+sc-howto-review-criteria-2 = Валрисьмесэнть иляст уле грамматикань ильведевкст.
+sc-howto-review-criteria-3 = Валрисьмесь ёвтавикс улезэ.
+sc-howto-review-criteria-4 = Валрисьмесь топавтындерясынзе неть вешематнень, лепштыка «Кемекстамс» повненть.
+sc-howto-review-criteria-5 = А топавтындерясынзе валрисьмесь вере максозь вешематнень, лепштыка «ёртомс» повненть. Бути а содат мезе теемс, маштови ютамс вакска ды саемс сыця валрисьменть.
+sc-howto-findpd-subtitle = Вешнек инеалтымасто
+
+## MY SENTENCES
+
+sc-my-title = Эсень валрисьметне
+sc-my-no-sentences = Вейкеяк валрисьме арась!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Совавтома: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Лисьмапря
+sc-my-delete = Нардамс кочказь валрисьметнень
+sc-my-deleting = Кочказь валрисьметнень нардамост моли...
+sc-my-err-failed-delete = Кочказь валрисьметне эзть нардаво… Варчака одов!
+
+## REJECTED
+
+
+## STATS
+
+sc-stats-title = Статистикась
+# Variables:
+#   $lastUpdate (Date) - Localized date of last statistics update
+sc-stats-last-update = Меельце одкстомомась: { $lastUpdate }
+sc-stats-last-update-never = Меельце одкстомомась: зярдояк арасель
+sc-stats-updating = Одкстомомась моли...
+
+## ADD
+
+sc-submit-err-select-lang = Кочкака кель.
+sc-submit-err-add-sentences = Поладт валрисьметь.
+sc-submit-err-add-source = Поладт лисьмапря, косто саезь.
+sc-submit-err-confirm-pd = Кемекстытя валрисьметнень весенень панжадо улемаст.
+sc-submit-prompt =
+    .message = Валрисьметне апак совавто, алкукс арсят лисемс тевтнень апак прядо?
+sc-submit-title = Поладомс валрисьметь
+sc-submit-select-language =
+    .labelText = Кочкамс кель
+sc-submit-add-sentences = Поладомс <wikipediaLink>весенень панжадо лисьмапрясто</wikipediaLink> валрисьметь
+sc-submit-ph-one-per-line =
+    .placeholder = Ве валрисьме чильксэзэнзэ/рядозонзо
+sc-submit-ph-read-how-to =
+    .placeholder = А чарькодиндерят кода мезе теемс -- ловныка минек «Кода» лопанть
+sc-submit-button =
+    .submitText = Совавтомс
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Келесь эзь поладово
+sc-add-lang-sec-label = Поладт кель, конаньс бажат лездамс
+sc-add-lang-sec-button = Поладомс кель
+sc-add-err-submission = Совавтомасо ильведевкс
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-sentences-title = Ванномс од валрисьметнень
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Вейкеяк валрисьме эзь муеве.
+        [one] 1 валрисьме муевсь.
+       *[other] { $countOfSentences } валрисьметь муевсть.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } эзик кемекста
+sc-confirm-button-text = Кемекстамс
+
+## LANGUAGE INFO
+
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Весемезэ вейкеяк валрисьме арась.
+        [one] Весемезэ 1 валрисьме.
+       *[other] Весемезэ { $totalSentences } валрисьметь.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Вейкеяк валрисьме а ваннови.
+        [one] Ваннови 1 валрисьмине.
+       *[other] { $totalInReview } валрисьметь ванновить.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Вейкеяк валрисьме эзь лиядо тонеть ванномс.
+        [one] Тонеть лиядсь ванномс вейкине валрисьме.
+       *[other] Тонеть лиядсть ванномс { $unreviewedSentencesByYou } валрисьметь
+    }
+sc-lang-info-review-now = <reviewLink>Нейке ваннок!</reviewLink>
+sc-lang-info-add-more = <addLink>Нейке поладт седе ламо валрисьметь!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Вейкеяк кемекстазь валрисьме арась.
+        [one] 1 кемекстазь валрисьмине.
+       *[other] { $validatedSentences } кемекстазь валрисьметь.
+    }
+
+## LOGIN
+
+sc-login-err-failed = Эзить соваво
+sc-login-err-try-again = Варчака одов!
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профилеть:{ $username }
+sc-personal-err-lang-not-found = Келесь эзь нардаво: келесь эзь муеве
+sc-personal-err-remove = Келесь эзь нардаво
+sc-personal-your-languages = Тонь кельтне
+sc-personal-remove-button = нардамс
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = Подаыть { $sentences }
+sc-personal-not-added = Зярс вейкеяк кель эзить поладо.
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = Ванномань вешематне
+sc-criteria-title = Ванномань вешематне
+
+## REVIEW
+
+sc-review-title = Ванномс валрисьметь
+sc-review-loading = Валрисьметне путовить…
+sc-review-select-language = Кочкак кель сонзэ ванномга.
+sc-review-no-sentences = Ванномс валрисьметь эзть лиядо. <addLink>Поладта нейке седе ламо валрисьметь!</addLink>
+sc-review-form-prompt =
+    .message = Алкукс туевлить? Вант, ваннозь валрисьметне апак совавто!
+sc-review-form-button-skip = Нолдамс вакска
+sc-review-form-button-approve = Кемекстамс
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = И
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = А
+sc-review-form-button-submit =
+    .submitText = Прядомс ванноманть
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Вейкеяк валрисьме апак ванно.
+        [one] 1 валрисьме ваннозь. Сюконятано!
+       *[other] { $sentences } валрисьметь ваннозь. Сюконятано!
+    }
+sc-review-form-review-failure = Ванномат а ванстови. Варчака мейле одов!
+sc-review-link = Ванномс
+
+## SETTINGS
+
+sc-settings-title = Аравтомкат
+sc-settings-ui-language = Интерчамань кель
+sc-settings-language-translated-warning = Те кельсэнть лопатне, паряк, апак ютавто педе-пес. Ули мелеть, лездак ютавтома тевсэ <pontoonLinkLink>Pontoon-со</pontoonLinkLink>.
+sc-settings-show-all-button = Невтемс одов вакска нолдазь валрисьметнень
+sc-settings-failed = Аравтомкатне эзть полавтово. Варчака одов!
+# VALIDATION
+sc-validation-number-of-words = Валрисьметнесэ валтнэде улест 1–14.
+sc-validation-no-numbers = Валрисьметнесэ иляст уле цифрат.
+sc-validation-no-symbols = Валрисьметнесэ иляст уле символт.
+sc-validation-no-abbreviations = Валрисьметнесэ иляст уле киртянь валт-аббревиатурат.
+
+# [/SentenceCollector]
+
+localization-select =
+    .label = Кочкак кель/локализация

@@ -57,7 +57,7 @@ body,
     margin: 0;
     width: 100%;
     height: 100vh;
-    max-height:  100%;
+    max-height: 100%;
 }
 
 h1,
@@ -142,8 +142,8 @@ button {
 }
 
 /* Icon font element. */
-[data-icon]:before {
-    font-family: Icons;
+[data-icon]::before {
+    font-family: Icons; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
     font-size: 200%;
     content: attr(data-icon);
     speak: none;
@@ -312,8 +312,7 @@ button {
 
     & input {
         margin: 0.1rem 0.3rem 0.1rem 0.1rem;
-        /* mobile Safari needs this */
-        width: 100%;
+        width: 100%; /* mobile Safari needs this */
         max-width: 0.8rem;
         height: 0.8rem;
     }
@@ -346,17 +345,6 @@ a.small,
 }
 
 .tippy-popper {
-    & .tippy-tooltip.grey-tooltip-theme {
-        color: var(--black);
-        letter-spacing: initial;
-        background: var(--darker-grey);
-        font-style: normal;
-
-        & .arrow-regular {
-            border-top-color: var(--darker-grey) !important;
-        }
-    }
-
     & .tippy-tooltip {
         border-radius: 20px;
         padding: 9px 25px;

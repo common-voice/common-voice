@@ -2,18 +2,19 @@
 
 yes-receive-emails = Ναι, επιθυμώ να λαμβάνω email και να ενημερώνομαι για το έργο Common Voice.
 stayintouch = Στη Mozilla, χτίζουμε μια κοινότητα γύρω από τη φωνητική τεχνολογία. Θα θέλαμε να επικοινωνούμε μαζί σας για ενημερώσεις, νέες πηγές δεδομένων και για να μαθαίνουμε πώς χρησιμοποιείτε αυτά τα δεδομένα.
-privacy-info = Υποσχόμαστε να χειριστούμε τις πληροφορίες σας με προσοχή. Διαβάστε περισσότερα στη <privacyLink>σημείωση απορρήτου</privacyLink>.
+privacy-info = Υποσχόμαστε να χειριστούμε τα στοιχεία σας με προσοχή. Διαβάστε περισσότερα στη <privacyLink>Σημείωση απορρήτου</privacyLink>.
 return-to-cv = Επιστροφή στο Common Voice
 email-input =
     .label = Email
 submit-form-action = Υποβολή
 loading = Φόρτωση…
 email-opt-in-info = Θα ήθελα να λαμβάνω email, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
-email-opt-in-info-title = Εγγραφείτε στη λίστα αλληλογραφίας του Common Voice
+email-opt-in-info-title = Εγγραφή στη λίστα αλληλογραφίας Common Voice
 email-opt-in-info-sub-with-challenge = Λάβετε email, όπως υπενθυμίσεις στόχων και προκλήσεων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
-email-opt-in-privacy-v2 = Επιλέγοντας να λαμβάνετε email, δηλώνετε ότι συμφωνείτε με το χειρισμό αυτών των πληροφοριών από τη Mozilla, όπως εξηγεί η <privacyLink>πολιτική απορρήτου</privacyLink>.
+email-opt-in-privacy-v2 = Επιλέγοντας να λαμβάνετε email, δηλώνετε ότι συμφωνείτε με τον χειρισμό αυτών των δεδομένων από τη Mozilla, όπως εξηγεί η <privacyLink>Πολιτική απορρήτου</privacyLink>.
 indicates-required = * Υποχρεωτικό πεδίο
 not-available-abbreviation = Μ/Δ
+banner-error-slow-link = Σελίδα κατάστασης
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,7 +37,6 @@ ba = Μπασκίρ
 bas = Μπασάα
 be = Λευκορωσικά
 bg = Βουλγαρικά
-bm = Μπαμπάρα
 bn = Μπενγκάλι
 br = Βρετονικά
 bs = Βοσνιακά
@@ -68,6 +68,7 @@ fy-NL = Φριζιακά
 ga-IE = Ιρλανδικά
 gl = Γαλικικά
 gn = Γκουαρανί
+gom = Κονκανικά (Γκόα)
 ha = Χάουσα
 he = Εβραϊκά
 hi = Χίντι
@@ -93,10 +94,12 @@ ki = Κικούγιου
 kk = Καζακικά
 km = Χμερ
 kmr = Κουρμάντζι Κουρδικά
+knn = Κονκανικά (Ντεβανάγκαρι)
 ko = Κορεατικά
 kpv = Komi-Zyrian
 kw = Κορνουαλικά
 ky = Κιργιζικά
+lb = Λουξεμβουργιανά
 lg = Λουγκάντα
 lij = Λιγουριανά
 lt = Λιθουανικά
@@ -144,6 +147,7 @@ scn = Σικελικά
 shi = Σίλα
 si = Σινχαλέζικα
 sk = Σλοβακικά
+skr = Σαραϊκά
 sl = Σλοβενικά
 so = Σομαλικά
 sq = Αλβανικά
@@ -159,6 +163,7 @@ ti = Τιγκρινιακά
 tig = Τίγκρε
 tk = Τουρκμενικά
 tl = Τάγκαλογκ
+tok = Τόκι Πόνα
 tr = Τουρκικά
 tt = Ταταρικά
 tw = Τουί
@@ -194,7 +199,7 @@ help = Βοήθεια
 contact = Επικοινωνία
 privacy = Απόρρητο
 terms = Όροι
-cookies = Cookie
+cookies = Cookies
 faq = Συχνές ερωτήσεις
 content-license-text = Το περιεχόμενο διατίθεται υπό την <licenseLink>άδεια Creative Commons</licenseLink>
 share-title = Βοηθήστε μας να βρούμε και άλλους που θα συνεισφέρουν τη φωνή τους!
@@ -221,20 +226,20 @@ help-us-explain = Πατήστε το κουμπί αναπαραγωγής, α�
 no-clips-to-validate = Φαίνεται ότι δεν υπάρχει κανέναν κλιπ για ακρόαση σε αυτή τη γλώσσα. Βοηθήστε μας να συμπληρώσουμε τη σειρά ηχογραφώντας μερικά τώρα.
 vote-yes = Ναι
 vote-no = Όχι
-toggle-play-tooltip = Πατήστε το πλήκτρο { shortcut-play-toggle } για εναλλαγή της κατάστασης αναπαραγωγής
+toggle-play-tooltip = Πατήστε το { shortcut-play-toggle } για αναπαραγωγή/παύση
 speak-subtitle = Δωρίστε τη φωνή σας
 speak-paragraph = Η ηχογράφηση αποσπασμάτων φωνής είναι αναπόσπαστο μέρος της ανάπτυξης του ανοικτού συνόλου δεδομένων· πολλοί λένε ότι είναι το πιο διασκεδαστικό κομμάτι.
-speak-goal-text = Ηχογραφημένα κλιπ
+speak-goal-text = Ηχογραφήσεις
 listen-subtitle = Βοηθήστε μας να επικυρώσουμε φωνές
 listen-paragraph = Η επαλήθευση δωρισμένων αποσπασμάτων είναι εξίσου σημαντική για την αποστολή του Common Voice. Ακούστε και βοηθήστε μας να δημιουργήσουμε ποιοτικά δεδομένα φωνής ανοικτού κώδικα.
-listen-goal-text = Επικυρωμένα κλιπ
+listen-goal-text = Επικυρώσεις
 hours-recorded = Ώρες ηχογράφησης
 hours-validated = Ώρες επαλήθευσης
 voices-online = Φωνές σε σύνδεση
 todays-progress = Σημερινή πρόοδος
 help-reach-goal = Βοηθήστε μας να φτάσουμε στα { $goal }
 read-terms-q = Έχετε διαβάσει τους όρους;
-ready-to-record = Έτοιμοι να δωρίσετε τη φωνή σας;
+ready-to-record = Θέλετε να δωρίσετε τη φωνή σας;
 all-locales = Όλα
 today = Σήμερα
 x-weeks-short =
@@ -244,18 +249,16 @@ x-weeks-short =
     }
 x-months-short =
     { $count ->
-        [one] { $count } μήνας
        *[other] { $count } μήνες
     }
 x-years-short =
     { $count ->
-        [one] { $count } έτος
        *[other] { $count } έτη
     }
 help-make-dataset = Βοηθήστε μας να συλλέξουμε υψηλής ποιότητας, δημόσια δεδομένα
 sign-up-account = Δημιουργία λογαριασμού
 email-subscription-title = Εγγραφή για ενημερώσεις μέσω email
-email-subscription-title-new = Εγγραφείτε σε ενημερωτικά δελτία για το Common Voice, για υπενθυμίσεις στόχων και ενημερώσεις προόδου
+email-subscription-title-new = Εγγραφείτε για ενημερωτικά δελτία του Common Voice, για υπενθυμίσεις στόχων και ενημερώσεις προόδου
 
 ## Account Benefits
 
@@ -274,7 +277,7 @@ email-not-public = Δεν θα δημοσιοποιήσουμε το email σα�
 recordings-and-locale-public = Ο αριθμός των ηχογραφήσεων και οι γλώσσες που συνεισφέρετε θα είναι δημόσια.
 username-optin-public = Μπορείτε να κάνετε το όνομα χρήστη σας δημόσιο ή ανώνυμο.
 demographic-deidentified-clarity-2 = Προαιρετικά υποβληθέντα δημογραφικά δεδομένα (π.χ. ηλικία, φύλο, γλώσσα και προφορά) δεν θα δημοσιοποιούνται ποτέ στο προφίλ σας και δεν θα συνδεθούν με το λογαριασμό σας στο σύνολο δεδομένων. Τα μεμονωμένα ηχητικά κλιπ θα συσχετιστούν με δημογραφικά δεδομένα με σκοπό την ακριβέστερη ανάλυση - για παράδειγμα, ένας ερευνητής μπορεί να θέλει να στοχεύσει ένα εκπαιδευτικό μοντέλο σε ένα συγκεκριμένο δημογραφικό τμήμα.
-username-email-not-demographic = Το όνομα χρήστη και το email σας δεν θα συσχετιστούν τα δημοσιευμένα δεδομένα.
+username-email-not-demographic = Το όνομα χρήστη και το email σας δεν θα συσχετιστούν με τα δημοσιευμένα δεδομένα.
 
 ## Speak & Listen Shortcuts
 
@@ -344,9 +347,9 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Φύλο
 leaderboard-visibility =
-    .label = Ορατότητα πίνακα αρχηγών
-hidden = Κρυφός
-visible = Ορατός
+    .label = Ορατότητα στην κατάταξη
+hidden = Απόκρυψη
+visible = Εμφάνιση
 native-language =
     .label = Μητρική γλώσσα
 profile-form-add-accent = Προσθήκη νέας προσαρμοσμένης προφοράς «{ $inputValue }»
@@ -359,7 +362,7 @@ other = Άλλο
 why-profile-title = Γιατί να δημιουργήσετε προφίλ;
 why-profile-text = Παρέχοντας πληροφορίες για τον εαυτό σας, αυξάνετε τη χρησιμότητα των ηχητικών δεδομένων που υποβάλλετε στο Common Voice. Οι μηχανές αναγνώρισης ομιλίας χρησιμοποιούν αυτά τα δεδομένα για να αυξήσουν την ακρίβειά τους.
 dashboard = Πίνακας
-build-profile = Ανάπτυξη προφίλ
+build-profile = Δημιουργία προφίλ
 avatar = Εικόνα χρήστη
 goals = Στόχοι
 settings = Ρυθμίσεις
@@ -367,33 +370,33 @@ edit-profile = Επεξεργασία προφίλ
 profile-create-success = Επιτυχής δημιουργία προφίλ!
 profile-close = Κλείσιμο
 profile-explanation = Παρακολουθήστε την πρόοδό σας με ένα προφίλ και βοηθήστε τα δεδομένα φωνής μας να γίνουν πιο ακριβή.
-thanks-for-account = Ευχαριστούμε που επιβεβαιώσατε το λογαριασμό σας, ας δημιουργήσουμε τώρα το προφίλ σας.
+thanks-for-account = Ευχαριστούμε για την επιβεβαίωση του λογαριασμού σας, σειρά έχει η δημιουργία του προφίλ σας.
 why-demographic = Γιατί έχει σημασία αυτό;
-why-demographic-explanation-2 = Ανώνυμα δεδομένα χρήστη, όπως η ηλικία, το φύλο και η προφορά, βελτιώνουν τα δεδομένα ήχου που χρησιμοποιούνται για την εκπαίδευση της ακρίβειας των μηχανισμών αναγνώρισης ομιλίας. Το όνομα χρήστη και το email σας δεν θα συσχετιστούν ποτέ με τα υποβληθέντα δεδομένα και μπορείτε να επιλέξετε αν θα κάνετε το όνομα χρήστη σας δημόσιο ή ανώνυμο.
-accept-privacy = Αποδέχομαι τη διαχείριση αυτών των πληροφοριών, όπως εξηγείται στην <privacyLink>πολιτική απορρήτου</ privacyLink> της Mozilla
-accept-privacy-title = Πολιτική Απορρήτου
+why-demographic-explanation-2 = Τα ανώνυμα δεδομένα χρήστη, όπως η ηλικία, το φύλο και η προφορά, μάς βοηθούν να βελτιώσουμε τα δεδομένα ήχου που χρησιμοποιούνται για την εκπαίδευση των μηχανών αναγνώρισης ομιλίας. Το όνομα χρήστη και το email σας δεν θα συσχετιστούν ποτέ με τα υποβληθέντα δεδομένα, ενώ μπορείτε επίσης να επιλέξετε αν το όνομα χρήστη σας θα είναι δημόσιο ή ιδιωτικό.
+accept-privacy = Συμφωνώ με την επεξεργασία αυτών των δεδομένων, όπως εξηγεί η <privacyLink>Πολιτική απορρήτου</privacyLink> της Mozilla
+accept-privacy-title = Πολιτική απορρήτου
 login-identity = Ταυτότητα σύνδεσης
 login-signup = Σύνδεση/Εγγραφή
 edit = Επεξεργασία
 email-subscriptions = Συνδρομές email
-download-profile = Λήψη των δεδομένων μου
+download-profile = Λήψη δεδομένων
 contribution-experience = Εμπειρία συνεισφορών
-skip-submission-feedback = Παράκαμψη σχολίων υποβολής
-skip-submission-description = Κατά την υποβολή της συνεισφοράς, θα γίνει παράλειψη των σχολίων αφού κάνετε κλικ στο «Υποβολή». Η συνεισφορά θα συνεχίσει απευθείας με το επόμενο σετ 5 ηχογραφήσεων ή επαληθεύσεων.
-skip-submission-note = Σημείωση: Θα πρέπει ακόμα να επιλέξετε ανάμεσα σε Ομιλία ή Ακρόαση για να αλλάξετε τον τύπο συνεισφοράς.
-off = Ανενεργό
-on = Ενεργό
+skip-submission-feedback = Παράλειψη υποβολής σχολίων
+skip-submission-description = Κατά τη διάρκεια της συνεισφοράς, κάνοντας κλικ στο «Υποβολή», θα συνεχίσετε στο επόμενο σετ 5 ηχογραφήσεων ή επικυρώσεων, χωρίς να εμφανιστεί το αίτημα για υποβολή σχολίων.
+skip-submission-note = Σημείωση: Θα πρέπει να επιλέγετε ανάμεσα σε «Ομιλία» ή «Ακρόαση» για να αλλάξετε τον τύπο συνεισφοράς.
+off = Όχι
+on = Ναι
 help-accent = Χρειάζεστε βοήθεια με την προφορά;
 
 ## Profile - Email
 
-browse-file-title = Μεταφόρτωση αρχείου εικόνας
-browse-file = Σύρετε και εναποθέστε ή <browseWrap>περιήγηση</browseWrap>
+browse-file-title = Αρχείο εικόνας
+browse-file = Εναπόθεση εικόνας ή <browseWrap>περιήγηση</browseWrap>
 connect-gravatar = Σύνδεση με Gravatar
 gravatar_not_found = Δεν βρέθηκε gravatar για το email σας
 file_too_large = Το επιλεγμένο αρχείο είναι πολύ μεγάλο
 avatar-uploaded = Μεταφορτώθηκε το avatar
-max-file-size = { $kb }kb μέγιστο
+max-file-size = έως { $kb }KB
 
 ## Profile - Email
 
@@ -401,7 +404,7 @@ manage-subscriptions = Διαχείριση συνδρομών
 manage-email-subscriptions = Διαχείριση συνδρομών email
 email-already-used = Το email χρησιμοποιείται ήδη για διαφορετικό λογαριασμό
 add-language = Προσθήκη γλώσσας
-change-email-setings = Αλλάξτε το email σας μέσω των ρυθμίσεων, στην Ταυτότητα σύνδεσης
+change-email-setings = Αλλάξτε το email σας στις Ρυθμίσεις > Ταυτότητα σύνδεσης
 
 ## FAQ
 
@@ -465,12 +468,22 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Γιατί το Common Voice;
-about-subtitle = Το Common Voice είναι μέρος της πρωτοβουλίας της Mozilla για να διδάξει τις μηχανές πώς μιλάνε οι πραγματικοί άνθρωποι. Εκτός από το σύνολο δεδομένων Common Voice, χτίζουμε επίσης μια μηχανή αναγνώρισης ομιλίας ανοιχτού κώδικα που ονομάζεται Deep Speech.
-about-header-description =
-    Και τα δύο αυτά έργα αποτελούν μέρος των προσπαθειών μας να γεφυρωθούν τα κενά του ψηφιακού λόγου. Οι τεχνολογίες αναγνώρισης φωνής φέρνουν μια ανθρώπινη διάσταση στις συσκευές μας, αλλά οι προγραμματιστές χρειάζονται ένα τεράστιο όγκο δεδομένων φωνής για να τα κατασκευάσουν. Επί του παρόντος, τα περισσότερα από αυτά τα δεδομένα είναι ακριβά και ιδιοταγή.
-    Θέλουμε να επιτρέψουμε την ελεύθερη και δημόσια διάθεση των φωνητικών δεδομένων και να διασφαλίσουμε ότι τα δεδομένα αντιπροσωπεύουν την ποικιλομορφία της ανθρωπότητας. Μαζί μπορούμε να κάνουμε την φωνητική αναγνώριση καλύτερη για όλους.
-how-does-it-work-title = Πώς λειτουργεί;
+how-does-it-work-title-v2 = Πώς λειτουργεί το Common Voice;
 how-does-it-work-text = Δημιουργούμε με crowdsourcing ένα σύνολο φωνητικών δεδομένων ανοικτού κώδικα. Συνεισφέρετε τη φωνή σας, επικυρώστε την ακρίβεια των κλιπ άλλων χρηστών, κάντε το σύνολο δεδομένων καλύτερο για όλους.
+
+## How does it work section
+
+about-language-req-subtitle = Κάποιος αιτείται την προσθήκη γλώσσας.
+about-localization-title = Μετάφραση ιστοτόπου
+about-sentence-collection-title = Συλλογή προτάσεων
+about-new-lang-title = Έναρξη νέας γλώσσας
+about-voice-contrib-title = Συνεισφορά φωνής
+about-voice-contrib-subtitle = Ο κόσμος έρχεται και συνεισφέρει τις φωνές του.
+about-voice-validation-title = Επικύρωση φωνής
+about-voice-validation-subtitle = Άλλα άτομα επικυρώνουν αυτά τα αποσπάσματα.
+about-dataset-release-title = Έκδοση συνόλου δεδομένων
+about-dataset-release-subtitle = Δημοσιεύουμε το σύνολο δεδομένων κάθε 3 μήνες.
+about-subscribe-text = Θέλετε να ενημερώνεστε για το Common Voice;
 about-speak = Ομιλία
 about-speak-text = Οι συνεισφέροντες καταγράφουν φωνητικά κλιπ διαβάζοντας προτάσεις από ένα σύνολο που έχει δωρήσει η κοινότητα.
 about-listen-queue = Ουρά-Ακρόασης
@@ -499,10 +512,58 @@ about-get-involved-text-2 =
     Τέλεια! Επικοινωνήστε μέσω email ή στο <discourseLink>Discourse</discourseLink> φόρουμ,
     αναφέρετε ζητήματα της ιστοσελίδας μέσω του <githubLink>GitHub</githubLink>,
     ή βρείτε μας στην κοινότητα μας στο <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Πώς μπορώ να ενημερώνομαι;
 about-nav-why-common-voice = Γιατί;
 about-nav-how-it-works = Πώς;
 about-nav-partners = Συνεργάτες
 about-nav-get-involved = Συμμετοχή
+about-nav-how-it-works-2 = Πώς λειτουργεί το Common Voice;
+about-nav-playbook = Μάθετε πώς να λάβετε μέρος
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Τι είναι μια γλώσσα του Common Voice;
+
+## How do I add a language
+
+about-playbook-how-add-language = Πώς προσθέτω μια γλώσσα;
+about-playbook-how-add-language-content-1 = Αρχικά, ελέγξτε εάν η γλώσσα σας <languageLink>υπάρχει ήδη</languageLink>. Εάν δεν υπάρχει, θα πρέπει να <strong>μεταφράσετε τον ιστότοπο και να συγκεντρώσετε προτάσεις</strong>.
+
+## How does localization work
+
+about-playbook-how-localize = Πώς λειτουργεί η μετάφραση του ιστοτόπου;
+about-playbook-how-localize-content-1 = Η μετάφραση του ιστοτόπου του Common Voice γίνεται στο <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Ο ιστότοπος είναι έτοιμος για κυκλοφορία όταν ολοκληρωθεί κατά 75%.
+about-playbook-how-localize-content-5 = Δείτε το ενημερωτικό βίντεο για βοήθεια
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Πώς προσθέτω προτάσεις;
+
+## How to record quality
+
+about-playbook-how-record-content-5 = <accuracyLink>Δείτε περισσότερα σχετικά με τα κριτήρια ακρίβειας.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = Εκδηλώσεις
+about-playbook-how-grow-language-content-4 = Κοινωνικά δίκτυα
+about-playbook-how-grow-language-content-6 = Συνεργασίες και δίκτυα
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance = Πώς λαμβάνονται οι αποφάσεις για τα έργα;
+about-playbook-how-project-governance-content-3 = Απόρρητο, ασφάλεια και διαφάνεια.
+about-playbook-how-project-governance-content-5 = Αξία και αναγνώριση.
+about-playbook-how-project-governance-content-6 = Αμοιβαία ευθύνη.
+about-playbook-how-project-governance-content-7 = <governanceLink>Διαβάστε περισσότερα σχετικά με τον τρόπο διακυβέρνησής μας</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Τεχνητή νοημοσύνη
 mycroft-description = Ο Mycroft είναι ο πρώτος βοηθός ανοιχτού κώδικα στον κόσμο. Ο Mycroft λειτουργεί οπουδήποτε - σε επιτραπέζιο υπολογιστή, σε ένα αυτοκίνητο ή στο Raspberry Pi.
@@ -511,7 +572,7 @@ mycroft-secondary-description = Πρόκειται για λογισμικό α�
 ## Glossary
 
 glossary = Γλωσσάριο
-localization = Μετάφραση
+localization = Τοπικοποίηση
 localization-explanation = Αυτή είναι η διαδικασία μας για τη μετάφραση και την προσαρμογή του περιεχομένου μας σε πολλές γλώσσες.
 sentence-collection = Συλλογή προτάσεων
 sentence-collection-explanation = Η συλλογή προτάσεων από το δημόσιο τομέα, ή η εγγραφή νέων από το δημόσιο τομέα.
@@ -527,7 +588,7 @@ de-identified-explanation = Η διαδικασία κατά την οποία �
 error-title-404 = Δεν ήταν δυνατή η εύρεση αυτής της σελίδας
 error-content-404 = Ίσως σας βοηθήσει η <homepageLink>αρχική μας σελίδα</homepageLink>; Για να θέσετε μια ερώτηση, παρακαλούμε γίνετε μέλος της <matrixLink>συνομιλίας της κοινότητας Matrix</matrixLink>, παρακολουθήστε τα ζητήματα της σελίδας μέσω του <githubLink>GitHub</githubLink> ή επισκεφτείτε το <discourseLink>φόρουμ στο Discourse</discourseLink>.
 error-title-503 = Αντιμετωπίζουμε μη αναμενόμενο χρόνο διακοπής λειτουργίας
-error-content-503 = Η ιστοσελίδα θα επανέλθει το συντομότερο δυνατό. Για τις πιο πρόσφατες πληροφορίες, παρακαλούμε γίνετε μέλος της <matrixLink>της κοινότητας μας στο Matrix</matrixLink>, επισκεφθείτε το <githubLink>GitHub</githubLink> ή το <discourseLink>φόρουμ μας στο Discourse</discourseLink> για να υποβάλετε και να παρακολουθείτε ζητήματα σχετικά με την ιστοσελίδα.
+error-content-503 = Ο ιστότοπος θα επανέλθει το συντομότερο δυνατό. Για τις πιο πρόσφατες πληροφορίες, παρακαλούμε γίνετε μέλος της <matrixLink>της κοινότητάς μας στο Matrix</matrixLink>, επισκεφθείτε το <githubLink>GitHub</githubLink> ή το <discourseLink>φόρουμ μας στο Discourse</discourseLink> για να υποβάλλετε και να παρακολουθείτε ζητήματα σχετικά με τον ιστότοπο.
 error-code = Σφάλμα { $code }
 
 ## Data
@@ -550,7 +611,7 @@ dataset-date = Ημερομηνία
 license = Άδεια χρήσης: <licenseLink>{ $license }</licenseLink>
 license-mixed = Μεικτό
 data-download-singleword-title = Λήψη τμήματος μεμονωμένης λέξης
-data-download-singleword-callout-v2 = Αυτό το τμήμα ορίζεται ανάλογα τη χρήση και περιέχει δεδομένα για την υποστήριξη αναγνώρισης ψηφίων και την ανίχνευση "ναι"/"όχι".
+data-download-singleword-callout-v2 = Αυτό το τμήμα ορίζεται ανάλογα με τη χρήση και περιέχει δεδομένα για την υποστήριξη αναγνώρισης ψηφίων και την ανίχνευση «ναι»/«όχι».
 review-terms = Εάν χρησιμοποιείτε το Common Voice, συμφωνείτε με τους <termsLink>Όρους</termsLink> και τη <privacyLink>Σημείωση απορρήτου</privacyLink>
 terms-agree = Συμφωνώ
 terms-disagree = Δεν συμφωνώ
@@ -580,9 +641,9 @@ overall-hr-total = Συνολικές ώρες
 cv-license = Άδεια
 audio-format = Μορφή ήχου
 number-of-voices = Αριθμός φωνών
-splits = Μερίδια
-email-to-download = Εισάγετε email για λήψη
-why-email = <b>Γιατί χρειάζεστε το email μου;</b> Ενδέχεται να χρειαστεί να επικοινωνήσουμε μαζί σας στο μέλλον σχετικά με αλλαγές στο σύνολο δεδομένων και μια διεύθυνση email μάς βοηθά να το κάνουμε.
+splits = Τμήματα
+email-to-download = Εισαγωγή email για λήψη
+why-email = <b>Γιατί χρειάζεστε το email μου;</b> Για την περίπτωση που θα χρειαστεί να επικοινωνήσουμε μαζί σας σχετικά με αλλαγές στο σύνολο δεδομένων.
 confirm-size = Πρόκειται να αρχίσετε μια λήψη <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -595,7 +656,7 @@ dataset-description-hours =
     Κάθε καταχώρηση στο σύνολο δεδομένων αποτελείται από ένα μοναδικό αρχείο MP3 και το αντίστοιχο αρχείο κειμένου. Πολλές από τις <b>{ $total }</b> ώρες ηχογράφησης στο σύνολο δεδομένων περιλαμβάνουν επίσης δημογραφικά μεταδεδομένα, όπως ηλικία, φύλο και προφορά, τα οποία μπορούν να βοηθήσουν στην εκπαίδευση των μηχανών αναγνώρισης ομιλίας ως προς την ακρίβεια.
     
     Αυτή τη στιγμή, αυτό το σύνολο δεδομένων αποτελείται από <b>{ $valid }</b> επικυρωμένες ώρες σε <b>{ $languages }</b> γλώσσες, αλλά προσθέτουμε συνεχώς περισσότερες φωνές και γλώσσες. Δείτε τη <languagesLink>σελίδα γλωσσών</languagesLink> μας για να ζητήσετε μια νέα γλώσσα ή για να ξεκινήσετε τη συνεισφορά σας.
-want-dataset-update = Θέλετε να ενημερώνεστε όταν εκδίδουμε μια νέα έκδοση του συνόλου δεδομένων του Common Voice; Εγγραφείτε στο newsletter μας.
+want-dataset-update = Μάθετε για νέες εκδόσεις του συνόλου δεδομένων Common Voice στο ενημερωτικό μας δελτίο.
 subscribe = Εγγραφή
 get-started-speech = Ξεκινήστε με την αναγνώριση ομιλίας
 other-datasets = Άλλα σύνολα δεδομένων φωνής
@@ -613,7 +674,7 @@ your-feedback = Έχετε ιδέες για το πώς να κάνουμε τ�
 go-discourse = Μετάβαση στο Discourse
 missing-language = Δεν βλέπετε τη γλώσσα σας στο σύνολο δεδομένων; Για να ζητήσετε μια γλώσσα, μεταβείτε στη σελίδα «Γλώσσες» μας.
 go-languages-page = Μετάβαση στη σελίδα γλωσσών
-ready-to-validate = Είστε έτοιμοι να βοηθήσετε στην επαλήθευση προτάσεων;
+ready-to-validate = Θέλετε να κάνετε επικύρωση προτάσεων;
 more = Περισσότερα
 close = Κλείσιμο
 download = Λήψη
@@ -624,8 +685,8 @@ dataset-version = Έκδοση
 download-title = Η λήψη σας ξεκίνησε.
 download-helpus = Βοηθήστε μας να δημιουργήσουμε μία κοινότητα γύρω από τη φωνητική τεχνολογία, θα διατηρήσουμε επαφή μέσω ηλεκτρονικού ταχυδρομίου.
 download-form-email =
-    .label = Εισάγετε το email σας
-    .value = Ευχαριστούμε, θα σας ενημερώνουμε
+    .label = Εισαγάγετε το email σας
+    .value = Ευχαριστούμε, θα σας ενημερώνουμε.
 download-back = Επιστροφή στα σύνολα δεδομένων Common Voice
 download-no = Όχι, ευχαριστώ
 
@@ -685,7 +746,7 @@ contribute-more =
         [one] Έτοιμοι να κάνετε { $count } ακόμη;
        *[other] Έτοιμοι να κάνετε { $count } ακόμη;
     }
-record-cta = Έναρξη ηχογράφησης
+record-cta = Έναρξη εγγραφής
 record-platform-not-supported = Λυπούμαστε, αλλά η πλατφόρμα σας δεν υποστηρίζεται ακόμη.
 record-platform-not-supported-desktop = Σε υπολογιστές, μπορείτε να συνεισφέρετε κάνοντας λήψη…
 record-platform-not-supported-ios-non-safari = Στο iOS παρακαλούμε συνεχίστε με το Safari για ενεργοποίησης ηχογράφησης…
@@ -705,14 +766,14 @@ review-tooltip = Ελέγξτε και ηχογραφήστε ξανά τα ηχ
 share-clip = Κοινοποίηση του κλιπ σας
 share-common-voice = Κοινοποίηση του Common Voice
 review-instruction = Ελέγξτε και ηχογραφήστε ξανά τα ηχητικά κλιπ, εφόσον χρειάζεται
-record-submit-tooltip = Υποβολή όταν είστε έτοιμοι
-clips-uploaded = Μεταφορτώθηκαν κλιπς
+record-submit-tooltip = { $actionType } στο «Υποβολή» όταν τελειώσετε
+clips-uploaded = Μεταφορτώθηκαν κλιπ
 record-abort-title = Να ολοκληρωθεί πρώτα η ηχογράφηση;
 record-abort-text = Αν αποχωρήσετε τώρα, θα χάσετε την πρόοδό σας
 record-abort-submit = Υποβολή κλιπ
 record-abort-continue = Λήξη ηχογράφησης
 record-abort-delete = Έξοδος & διαγραφή κλιπ
-listen-instruction = Εκφώνησαν σωστά την πρόταση;
+listen-instruction = { $actionType } στο <playIcon></playIcon> Εκφώνησε σωστά την πρόταση:
 listen-again-instruction = Εξαιρετική δουλειά! <playIcon></playIcon> Ακούστε ξανά όταν είστε έτοιμος
 listen-3rd-time-instruction = Έφυγαν 2, συνεχίστε! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Τελευταίο!
@@ -776,27 +837,27 @@ toward-next-goal = Προς τον επόμενο στόχο
 goal-reached = Ο στόχος επιτεύχθηκε
 clips-you-recorded = Ηχογραφημένα κλιπ
 clips-you-validated = Επικυρωμένα κλιπ
-todays-recorded-progress = Σημερινή πρόοδος του Common Voice (ηχογραφημένα κλιπ)
-todays-validated-progress = Σημερινή πρόοδος του Common Voice (επικυρωμένα κλιπ)
+todays-recorded-progress = Σημερινή πρόοδος ηχογραφήσεων στο Common Voice
+todays-validated-progress = Σημερινή πρόοδος επικυρώσεων στο Common Voice
 stats = Στατιστικά
 awards = Βραβεία
 you = Εσείς
 everyone = Όλοι
 contribution-activity = Δραστηριότητα συνεισφορών
 top-contributors = Κορυφαίοι εθελοντές
-recorded-clips = Ηχογραφημένα κλιπ
-validated-clips = Επικυρωμένα κλιπ
+recorded-clips = Ηχογραφήσεις
+validated-clips = Επικυρώσεις
 total-approved = Σύνολο εγκεκριμένων
 overall-accuracy = Συνολική ακρίβεια
-set-visibility = Ορισμός ορατότητας
-visibility-explainer = Αυτή η ρύθμιση ελέγχει την ορατότητα του leaderboard σας. Εάν είναι κρυμμένη, η πρόοδός σας θα είναι ιδιωτική. Αυτό σημαίνει ότι η εικόνα, το όνομα χρήστη και η πρόοδός σας δεν θα εμφανίζονται στον πίνακα. Σημειώστε ότι η ανανέωση του leaderboard διαρκεί ~ { $minutes } λεπτά.
-visibility-overlay-note = Σημείωση: Όταν έχει οριστεί σε 'Ορατό', αυτή η ρύθμιση μπορεί να αλλάξει από τη <profileLink>Σελίδα προφίλ</profileLink>
+set-visibility = Ορατότητα
+visibility-explainer = Αυτή η ρύθμιση ελέγχει την ορατότητά σας στην κατάταξη. Αν επιλέξετε «Απόκρυψη», η πρόοδός σας θα είναι ιδιωτική. Αυτό σημαίνει ότι η εικόνα, το όνομα χρήστη και η πρόοδός σας σας δεν θα εμφανίζονται στην κατάταξη. Σημειώστε ότι η ανανέωση της κατάταξης διαρκεί ~{ $minutes } λεπτά.
+visibility-overlay-note = Σημείωση: Αν έχετε επιλέξει «Εμφάνιση», μπορείτε να αλλάξετε αυτήν τη ρύθμιση στη <profileLink>σελίδα «Προφίλ»</profileLink>
 show-ranking = Εμφάνιση κατάταξης
 
 ## Custom Goals
 
 get-started-goals = Ξεκινήστε με στόχους
-create-custom-goal = Δημιουργία προσαρμοσμένου στόχου
+create-custom-goal = Δημιουργία στόχου
 goal-type = Τι είδους στόχο θέλετε να δημιουργήσετε;
 both-speak-and-listen = Και τα δυο
 both-speak-and-listen-long = Και τα δύο (Μιλήστε και Ακούστε)
@@ -805,7 +866,7 @@ weekly-goal = Εβδομαδιαίος στόχος
 easy-difficulty = Εύκολο
 average-difficulty = Μέτριο
 difficult-difficulty = Δύσκολο
-pro-difficulty = Επαγγ.
+pro-difficulty = Επαγγελματικό
 lose-goal-progress-warning = Με την επεξεργασία του στόχου σας, ενδέχεται να χάσετε την υπάρχουσα πρόοδό σας.
 want-to-continue = Θέλετε να συνεχίσετε;
 finish-editing = Να ολοκληρωθεί πρώτα η επεξεργασία;
@@ -817,38 +878,38 @@ help-reach-hours-pluralized =
        *[other] { $hours } ώρες
     } στα { $language } με ένα προσωπικό στόχο
 help-reach-hours-general-pluralized =
-    Βοηθήστε το Common Voice να φτάσει την/τις { NUMBER($hours) ->
-        [one] { $hours } ώρα
-       *[other] { $hours } ώρες
-    }σε μια γλώσσα με ένα προσωπικό ρεκόρ
+    { NUMBER($hours) ->
+        [one] Βοηθήστε το Common Voice να φτάσει τη { $hours } ώρα σε μια γλώσσα με έναν προσωπικό στόχο
+       *[other] Βοηθήστε το Common Voice να φτάσει τις { $hours } ώρες σε μια γλώσσα με έναν προσωπικό στόχο
+    }
 set-a-goal = Ορισμός στόχου
 cant-decide = Δεν μπορείτε να αποφασίσετε;
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] { $totalHours } ώρα
-       *[other] { $totalHours } ώρες
-    }μπορεί(ούν) να επιτευχθεί(ούν) σε λίγο περισσότερο από{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } μήνα
-       *[other] { $periodMonths } μήνες
-    }αν{ NUMBER($people) ->
-        [one] { $people } άτομο
-       *[other] { $people } άτομα
-    }καταγράφει(ουν){ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } κλιπ
-       *[other] { $clipsPerDay } κλιπ
-    }κάθε μέρα.
-how-many-per-day = Εξαιρετικά! Πόσα κλιπ την ημέρα;
-how-many-a-week = Εξαιρετικά! Πόσα κλιπ την εβδομάδα;
+        [one] { $totalHours } ώρα είναι επιτεύξιμη σε λίγο περισσότερο από
+       *[other] { $totalHours } ώρες είναι επιτεύξιμες σε λίγο περισσότερο από
+    } { NUMBER($periodMonths) ->
+        [one] { $periodMonths } μήνα εάν
+       *[other] { $periodMonths } μήνες εάν
+    } { NUMBER($people) ->
+        [one] { $people } άτομο καταγράφει
+       *[other] { $people } άτομα καταγράφουν
+    } { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } απόσπασμα την ημέρα.
+       *[other] { $clipsPerDay } αποσπάσματα την ημέρα.
+    }
+how-many-per-day = Τέλεια! Πόσα αποσπάσματα την ημέρα;
+how-many-a-week = Τέλεια! Πόσα αποσπάσματα την εβδομάδα;
 which-goal-type = Θέλετε να μιλήσετε, να ακούσετε ή και τα δύο;
 receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, θα λαμβάνετε email, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 not-receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, <bold>ΔΕΝ</bold> θα λαμβάνετε email, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] { $count } κλιπ
-       *[other] { $count } κλιπ
+        [one] { $count } απόσπασμα
+       *[other] { $count } αποσπάσματα
     }
 help-share-goal = Βοηθήστε μας να βρείτε περισσότερες φωνές, μοιραστείτε το στόχο σας
-confirm-goal = Επιβεβαίωση στόχου
+confirm-goal = Επιβεβαίωση
 goal-interval-weekly = Εβδομαδιαία
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Μοιραστείτε τον ημερήσιο στόχο σας { $count } κλιπ για { $type }
@@ -867,11 +928,11 @@ share-goal = Κοινή χρήση του στόχου μου
 
 ## Profile Delete
 
-delete-q = Θα θέλατε να ζητήσετε τη διαγραφή των ηχογραφήσεων φωνής σας, ή προτιμάτε να τις αφήσετε στο σύνολο δεδομένων του Common Voice;
+delete-q = Θέλετε να διαγραφούν οι ηχογραφήσεις σας ή προτιμάτε να παραμείνουν στο σύνολο δεδομένων του Common Voice;
 keep = Διατήρηση
 remove = Αφαίρεση
-keep-info = Ο ανώνυμες ηχογραφήσεις φωνής θα παραμείνουν στο σύνολο δεδομένων του Common Voice. Μόλις διαγράψετε το προφίλ σας, δεν θα μπορείτε πλέον να υποβάλετε ένα αίτημα για να αφαιρέσουμε τις ηχογραφήσεις σας από το σύνολο δεδομένων
-remove-info = Θα αξιολογήσουμε το αίτημά σας για αφαίρεση των ηχογραφήσεων φωνής από το σύνολο δεδομένων. Αν το αίτημά σας εγκριθεί, θα επικοινωνήσουμε και με όσους έχουν κάνει λήψη του συνόλου δεδομένων και θα απαιτήσουμε να αφαιρέσουν τις ηχογραφήσεις φωνής σας.
+keep-info = Ο ανώνυμες ηχογραφήσεις σας θα παραμείνουν στο σύνολο δεδομένων του Common Voice. Μόλις διαγράψετε το προφίλ σας, δεν θα μπορείτε πλέον να αιτηθείτε τη διαγραφή τους από το σύνολο δεδομένων.
+remove-info = Θα εξετάσουμε το αίτημά σας για αφαίρεση των ηχογραφήσεών σας από το σύνολο δεδομένων. Αν εγκριθεί το αίτημά σας, θα επικοινωνήσουμε με όσους έχουν κάνει λήψη του συνόλου δεδομένων και θα ζητήσουμε να αφαιρέσουν τις ηχογραφήσεις σας.
 why-delete-recordings =
     Οι ηχογραφήσεις του Common Voice χρησιμοποιούνται από ακαδημαϊκούς, μικρές επιχειρήσεις και λάτρεις της αναγνώρισης φωνής για την εκπαίδευση και την ανάπτυξη δημόσιων πόρων, όπως φωνητικά μοντέλα.
     
@@ -939,14 +1000,14 @@ demo-account = Λογαριασμός
 demo-account-card-header = Δεν απαιτείται λογαριασμός για να συνεισφέρετε, αν και θα ήταν χρήσιμο.
 demo-account-card-body = Στα δεξιά περιγράφουμε τα οφέλη και διευκρινίζουμε ποιες πληροφορίες δημοσιοποιούμε. Με χρήση των παρακάτω συνδέσμων, ξεκινήστε με έναν λογαριασμό Common Voice στη συσκευή σας.
 demo-account-enter-email =
-    .label = Εισάγετε το email σας για να λάβετε έναν σύνδεσμο εγγραφής
+    .label = Εισαγάγετε email για αποστολή συνδέσμου εγγραφής
 demo-account-sign-up = Αποστολή συνδέσμου εγγραφής
 
 ## Demo Contribute
 
-demo-contribute-card-header = Είστε έτοιμοι να προσθέσετε τη φωνή σας ή να δανείσετε την ακοή σας;
+demo-contribute-card-header = Θέλετε να προσθέσετε τη φωνή σας ή να δανείσετε την ακοή σας;
 demo-contribute-card-body-v2 = Τώρα που γνωρίζετε λίγο περισσότερα για το Common Voice, γιατί δεν το δοκιμάζετε; Κάντε κλικ στο εικονίδιο του μικροφώνου για να ξεκινήσετε να διαβάζετε προτάσεις δυνατά. <br/><br/>Εάν προτιμάτε να ασχοληθείτε με τον έλεγχο φωνητικών συνεισφορών άλλων ατόμων, κάντε κλικ στο εικονίδιο αναπαραγωγής. Θα μας βοηθήσετε να επιβεβαιώσουμε ότι οι ηχογραφήσεις αντιστοιχούν στις προτάσεις που εμφανίζονται στην οθόνη.
-demo-listen-subtitle = Είστε έτοιμοι να συνεισφέρετε;
+demo-listen-subtitle = Θέλετε να συνεισφέρετε;
 
 ## Demo Dashboard
 
@@ -964,7 +1025,7 @@ contribution-misreadings-title = Λάθη στην ανάγνωση
 contribution-misreadings-description = Κατά την ακρόαση, ελέγξτε πολύ προσεκτικά ότι αυτό που έχει ηχογραφηθεί είναι ακριβώς αυτό που έχει γραφτεί· απορρίψτε εάν υπάρχουν ακόμη και μικρά σφάλματα.<br />Τα πιο συνηθισμένα λάθη περιλαμβάνουν:
 contribution-misreadings-description-extended-list-1 = Απουσία <strong>αόριστων</strong> ή <strong>οριστικών</strong> άρθρων στην αρχή της ηχογράφησης.
 contribution-misreadings-description-extended-list-2 = Απουσία της <strong>κατάληξης</strong> σε μια λέξη.
-contribution-misreadings-description-extended-list-3 = Ανάγνωση εκθλίψεων που δεν υπάρχουν στο κείμενο, όπως «Μ' αρέσει» αντί για «Μου αρέσει», ή το αντίστροφο.
+contribution-misreadings-description-extended-list-3 = Ανάγνωση εκθλίψεων που δεν υπάρχουν στο κείμενο, όπως «Μ' αρέσει» αντί για «Μου αρέσει» ή το αντίστροφο.
 contribution-misreadings-description-extended-list-4 = Απουσία του τέλους της τελευταίας λέξης λόγω πρόωρης διακοπής της ηχογράφησης.
 contribution-misreadings-description-extended-list-5 = Πολλές προσπάθειες για την ανάγνωση μιας λέξης.
 contribution-misreadings-example-1-title = Οι γιγάντιοι δεινόσαυροι του Τριαδικού.
@@ -1034,11 +1095,17 @@ sc-logout-button = Αποσύνδεση
 
 ## HOME
 
+sc-home-title = Καλώς ορίσατε στη Συλλογή προτάσεων Common Voice
+sc-home-collect-title = Συλλογή προτάσεων
 sc-home-review-title = Έλεγχος προτάσεων
+
+## GENERAL
+
 
 ## HOW-TO
 
 sc-howto-title = Οδηγίες
+sc-howto-addlang-text = Μόλις συνδεθείτε, μπορείτε να επιλέξετε τις γλώσσες σας από την ενότητα «Προφίλ».
 sc-howto-addsen-title = Προσθήκη νέων προτάσεων
 sc-howto-cite-item-1 = Μπορείτε να συμπεριλάβετε τον ιστότοπο, π.χ. «Common Voice - https://commonvoice.mozilla.org/»
 sc-howto-review-title = Έλεγχος προτάσεων
@@ -1046,6 +1113,8 @@ sc-howto-review-subtitle = Βεβαιωθείτε ότι η πρόταση πλ�
 sc-howto-review-criteria-1 = Η πρόταση πρέπει να έχει σωστή ορθογραφία.
 sc-howto-review-criteria-2 = Η πρόταση πρέπει να είναι γραμματικά ορθή.
 sc-howto-review-criteria-4 = Εάν η πρόταση πληροί τα κριτήρια, κάντε κλικ στο κουμπί «Έγκριση».
+sc-howto-findpd-subtitle = Αναζητήστε τες στο διαδίκτυο
+sc-howto-findpd-tips = Ακολουθούν μερικές συμβουλές για να βρείτε προτάσεις:
 
 ## MY SENTENCES
 
@@ -1066,14 +1135,11 @@ sc-my-err-failed-delete = Αποτυχία διαγραφής επιλεγμέν
 
 sc-rejected-title = Απορριφθείσες προτάσεις
 sc-rejected-loading = Φόρτωση απορριφθεισών προτάσεων…
+sc-rejected-err-fetching = Σφάλμα ανάκτησης απορριφθεισών προτάσεων. Παρακαλώ δοκιμάστε ξανά.
 
 ## STATS
 
 sc-stats-title = Στατιστικά
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Τελευταία ενημέρωση: { $lastUpdate }
-sc-stats-last-update-never = Τελευταία ενημέρωση: ποτέ
 sc-stats-updating = Ενημέρωση…
 
 ## ADD
@@ -1086,6 +1152,7 @@ sc-submit-prompt =
 sc-submit-title = Προσθήκη προτάσεων
 sc-submit-select-language =
     .labelText = Επιλογή γλώσσας
+sc-submit-add-sentences = Προσθήκη προτάσεων <wikipediaLink>δημόσιου τομέα</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Μία πρόταση ανά γραμμή
 sc-submit-button =
@@ -1095,6 +1162,7 @@ sc-submit-guidelines = Παρακαλούμε ελέγξτε τις <howToLink>�
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Αδυναμία προσθήκης γλώσσας
+sc-add-lang-sec-label = Προσθέστε μια γλώσσα στην οποία θέλετε να συνεισφέρετε
 sc-add-lang-sec-button = Προσθήκη γλώσσας
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
@@ -1124,6 +1192,8 @@ sc-confirm-button-text = Επιβεβαίωση
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Σύνολο
+sc-lang-info-title-personal = Προσωπικό
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1191,10 +1261,9 @@ sc-review-form-source = Πηγή: { $sentenceSource }
 sc-review-form-button-reject = Απόρριψη
 sc-review-form-button-skip = Παράλειψη
 sc-review-form-button-approve = Έγκριση
-# Keyboard shortcut keys are currently not localizeable, please use Y/N/S for now
-sc-review-form-keyboard-usage = Μπορείτε επίσης να χρησιμοποιήσετε συντομεύσεις πληκτρολογίου: Y για έγκριση, N για απόρριψη, S για παράλειψη
 sc-review-form-button-submit =
     .submitText = Ολοκλήρωση ελέγχου
+sc-review-form-review-failure = Δεν ήταν δυνατή η αποθήκευση του ελέγχου. Παρακαλώ δοκιμάστε ξανά αργότερα.
 sc-review-link = Έλεγχος
 
 ## SETTINGS
@@ -1210,3 +1279,5 @@ sc-validation-no-abbreviations = Η πρόταση δεν πρέπει να πε
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Επιλογή γλώσσας/μετάφρασης
