@@ -435,7 +435,7 @@ faq-why-important-a =
     
     Til að gera talgreiningu aðgengilega sem víðast, erum við að safna raddbútum á fjölmörgum útbreiddum tungumálum auk ýmissa mála sem fáir hafa að móðurmáli og eiga þar með undir högg að sækja varðandi framboð í viðskiptareknum raddtækniþjónustum. Útgáfa á fjölbreyttum raddgagnasöfnum mun styrkja forritara, frumkvöðla og heilu málsamfélögin í að fylla sjálf inn í þær eyður sem kunna að vera til staðar.
 faq-how-get-q = Hvernig get ég nálgast gögn Samróms?
-faq-how-get-a = Gagnasöfn Samróms er hægt að sækja með <licenseLink>CC0-notkunarleyfi</licenseLink> á <datasetLink>gagnasafnasíðunni okkar</datasetLink>. Einnig er hægt að sækja nokkur önnur opinber gagnasöfn á þessari sömu síðu.
+faq-how-get-a = Gagnasafn Samróms er hægt að sækja með <licenseLink>CC0-notkunarleyfi</licenseLink> á <datasetLink>gagnasafnasíðunni okkar</datasetLink>. Einnig er hægt að sækja nokkur önnur opinber gagnasöfn á þessari sömu síðu.
 faq-when-release2-q = Hvenær verða raddgögn Samróms í boði fyrir önnur tungumál?
 faq-when-release2-a = Fjöltyngda útgáfu gagnasafns Samróms er samfélagið í samstarfi um að klára og snurfusa fyrir ýmsa notkun. Ef þú vilt hjálpa okkur að koma Samrómi yfir á ný tungumál, farðu þá og skoðaðu <sentenceCollectorLink>setningasöfnunarverkfærið</sentenceCollectorLink> til að fjölga setningum í gagnasafninu, og eins ættirðu að líta á <pontoonLink>Pontoon</pontoonLink> þýðingasetur Mozilla til að þýða sjálft vefsvæðið. Nýjum tungumálum er bætt sem raddframlagi við Samróm þegar 5000 samþykktum setningum hefur verið safnað.
 faq-why-mission-q = Hvers vegna er Samrómur eitt af markmiðum Mozilla?
@@ -609,6 +609,7 @@ about-playbook-how-validate-content-4 = Ef hljóðsýni er hafnað af tveimur a�
 
 about-playbook-how-access-dataset = Hvernig fæ ég aðgang að og nota gagnasafnið?
 about-playbook-how-access-dataset-content-1 = Þú getur farið á <datasetsPage>síðuna með gagnasöfnunum</datasetsPage>, valið útgáfuna og tungumálið sem þú vilt og hlaðið því inn á tölvuna þína! Skrárnar eru með <metadataLink>tengd lýsigögn</metadataLink> á borð við lýðfræðilegar upplýsingar og sannvottunargögn. Þú þarft að gefa upp tölvupóstfang til að sækja gagnasafnið.
+about-playbook-how-access-dataset-content-2 = Ef þú ert að leita að verkfærum til að smíða ASR-líkön geturðu haft samband við annað fólk í samfélaginu <discourseLink>á Discourse-spjallinu</discourseLink>.
 
 ## How are decisions made
 
@@ -708,7 +709,7 @@ size-megabyte = MB
 confirm-no-identify = <b>Þú samþykkir</b> að þú munir ekki reyna að bera kennsl á mælendur í málheild Samróms.
 download-language = Sækja { $language }
 validated-hours = Staðfestar klukkustundir
-recorded-hours = Uppteknar klukkustundir
+recorded-hours = Klukkustundir af upptökum
 whats-inside = Hvað er í málheild Samróms?
 dataset-description-hours =
     Hver færsla í gagnasafninu samanstendur af einstöku MP3-hljóðbroti og samsvarandi textaskrá. Mikill fjöldi þeirra <b>{ $total }</b> klukkustunda sem hefur verið safnað innihalda einnig lýðfræðileg lýsigögn eins og aldur, kyn og hreim sem getur hjálpað við að gera raddgervla nákvæmari.
