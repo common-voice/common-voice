@@ -1331,6 +1331,7 @@ sc-criteria-item-6 = Ef þú lýkur við að skoða allar tiltækar setningar, �
 sc-review-lang-not-selected = Þú hefur ekki valið nein tungumál. Farðu í <profileLink>notkunarsniðið</profileLink> þitt til að velja tungumál.
 sc-review-title = Yfirfara setningar
 sc-review-loading = Hleð inn setningum...
+sc-review-select-language = Veldu tungumál til að yfirfara setningar á.
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Heimild: { $sentenceSource }
