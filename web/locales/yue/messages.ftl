@@ -522,6 +522,7 @@ about-nav-get-involved = 參與
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = 私隱、安全同透明度。
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智能
 mycroft-description = Mycroft 係全球第一套開放原始碼嘅語音助理，無論喺電腦、汽車、Raspberry Pi 定任何地方都用得到。
