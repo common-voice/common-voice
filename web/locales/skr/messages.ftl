@@ -661,6 +661,7 @@ record-abort-text = ہݨ چھوڑݨ نال تہاݙی پیش رفت ضائع ت�
 record-abort-submit = کلپ جمع کرواؤ
 record-abort-continue = ریکارڈنگ مکمل کرو
 record-abort-delete = ٻاہر نکلو تے کلپ مٹاؤ
+listen-instruction = { $actionType }<playIcon></playIcon> بھلا انہاں  جملہ درستی نال الایا؟
 listen-last-time-instruction = <playIcon></playIcon>چھیکڑی ہک!
 listen-empty-state = ایں زبان وچ تصدیق کرݨ کیتے ساݙے کول کلپ مُک ڳئے ہن۔۔۔
 speak-empty-state = ایں زبان وچ رکاڈ کرݨ کیتے ساݙے کول جملے مُک ڳئے ہن۔۔۔
@@ -800,6 +801,7 @@ download-requests = ماضی دیاں رکاڈنگ ڈاؤن لوڈ ارداسا�
 download-request-button = ڈاؤن لوڈ
 download-request-title = { $created }
 download-request-archive-single = کلہی زپ فائل بشمول
+download-request-assembling-description = تہاݙیاں فائلاں جُڑدیاں پیاں ہن۔ سوہݨا، ولدا بعد وچ پڑتال کرو۔
 download-request-refresh-button = تازہ کرو
 download-request-modal-title = لنک ڈاؤن لوڈ کرو
 download-request-modal-description = تہاݙیاں زپ فائلاں ڈاؤن لوڈ کرݨ کیتے اتھ لنک ہن۔
@@ -816,6 +818,7 @@ read-more-about = ساݙے تعارفی ورقہ تے ٻیا پڑھو
 
 demo-get-started = آؤ شروع کروں
 demo-welcome = کامن وائس وچ ست بسم اللہ
+demo-welcome-subheader = بھلا تساں ٻیا ڄاݨݨ تے ایں منصوبے وچ حصہ پاوݨ وچ دلچسپی رکھدے ہو؟
 
 ## Demo Datasets
 
@@ -839,6 +842,7 @@ demo-listen-subtitle = بھلا ونگار کیتے تیار ہو؟
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = ذاتی ڈیش بورڈ تہاکوں انفرادی تے اجتماعی پیشرفت بارے آگاہی ݙیندن۔
 
 ## Validation criteria
 
@@ -856,6 +860,7 @@ contribution-misreadings-example-4-title = ٹریاسک دے دیوہیکل ڈا
 contribution-misreadings-example-5-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-6-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-7-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
+contribution-misreadings-example-8-explanation = [غیر مماثل مواد]
 contribution-varying-pronunciations-title = بدلدا ہویا تلفظ
 contribution-varying-pronunciations-example-1-title = آپݨے سر تے اوں بیریٹ پاتا ہویا ہائی۔
 contribution-varying-pronunciations-example-2-title = اوندا ہتھ اُٹھا ہویا ہائی۔
