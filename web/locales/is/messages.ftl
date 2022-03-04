@@ -608,6 +608,7 @@ about-playbook-how-validate-content-4 = Ef hljóðsýni er hafnað af tveimur a�
 ## How to access dataset
 
 about-playbook-how-access-dataset = Hvernig fæ ég aðgang að og nota gagnasafnið?
+about-playbook-how-access-dataset-content-1 = Þú getur farið á <datasetsPage>síðuna með gagnasöfnunum</datasetsPage>, valið útgáfuna og tungumálið sem þú vilt og hlaðið því inn á tölvuna þína! Skrárnar eru með <metadataLink>tengd lýsigögn</metadataLink> á borð við lýðfræðilegar upplýsingar og sannvottunargögn. Þú þarft að gefa upp tölvupóstfang til að sækja gagnasafnið.
 
 ## How are decisions made
 
