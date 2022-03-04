@@ -772,7 +772,7 @@ language-section-launched-description = toki ni la, lipu ni li <localizationGlos
 languages-show-more = o lukin mute
 languages-show-less = o lukin lili
 language-meter-in-progress = pali suli
-language-total-progress = ale
+language-total-progress = sitelen pi jan ale
 language-search-input =
     .placeholder = o alasa
 language-speakers = jan toki
@@ -1119,7 +1119,7 @@ see-less = <chevron></chevron> o lukin lili
 
 ## HEADER/FOOTER
 
-sc-header-home = tawa lipu sinpin
+sc-header-home = lipu sinpin
 sc-header-how-to = nasin seme
 sc-header-add = o pana
 sc-header-review = o pona
@@ -1214,7 +1214,7 @@ sc-rejected-none-found = sitelen weka li lon ala.
 ## STATS
 
 sc-stats-title = nanpa pali
-sc-stats-updating = ilo li kama sin…
+sc-stats-updating = ilo li sin e sona…
 sc-stats-error = mi ken ala kama e nanpa pali. o sin lon tenpo kama.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
@@ -1223,7 +1223,7 @@ sc-stats-summary = ilo Common Voice li jo e sitelen { $sentenceCount } lon toki 
 
 ## ADD
 
-sc-submit-err-select-lang = o kepeken toki
+sc-submit-err-select-lang = sina kepeken toki seme?
 sc-submit-err-add-sentences = o pana e sitelen
 sc-submit-err-add-source = o pana e lipu mama.
 sc-submit-err-confirm-pd = o pona e ni: sitelen ni li tawa jan ale.
@@ -1231,7 +1231,7 @@ sc-submit-prompt =
     .message = sina pana ala e sitelen. sina wile ala wile weka?
 sc-submit-title = o pana e sitelen
 sc-submit-select-language =
-    .labelText = o kepeken toki
+    .labelText = sitelen ni li lon toki seme?
 sc-submit-add-sentences = o pana e <wikipediaLink>sitelen pi jan ale</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = sitelen wan taso lon linja wan
