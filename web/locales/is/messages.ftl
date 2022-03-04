@@ -441,9 +441,9 @@ faq-when-release2-a = Fjöltyngda útgáfu gagnasafns Samróms er samfélagið �
 faq-why-mission-q = Hvers vegna er Samrómur eitt af markmiðum Mozilla?
 faq-why-mission-a = Mozilla reynir eftir fremsta megni að tryggja það að veraldarvefurinn sé öllum opinn og aðgengilegur. Til að það gangi upp þarf að virkja vefhönnuði í gegnum verkefni á borð við Samróm. Á meðan raddbúnaðartæknin þróast umfram sértæk forrit, trúum við því að hún þurfi að þjóna öllum notendum jafnt. Það þýðir að fjölga þarf tungumálum, framburðarsýnum og lýðfræðiupplýsingum þegar raddbúnaðurinn er þróaður og prófaður. Samrómur er opinn grunnur sem mun gagnast öllum, en Mozilla-teymi og forritarar úti um allan heim eru þegar byrjaðir að nota hann fyrir sín verkefni.
 faq-what-cv-and-deepspeech-q = Hver er munurinn á Samrómi og Deep Speech?
-faq-what-cv-and-deepspeech-a = Samrómsgagnasafnið er hannað til þess að vinna með raddgreini Mozilla, Deep Speech, sem er aðgengilegur öllum. Fyrsta útgáfan af Deep Speech var gefin út í nóvember árið 2017 og er í stöðugri þróun. Líkt og Samrómsgagnasafnið, finnst okkur að þessi raddgreiningartækni ætti að vera aðgengileg öllum. Það er okkar von að þessi tól muni gera hugbúnaðarhönnuðum kleift að skapa og þróa nýjar lausnir, vörur og þjónustur á sviði raddgreiningar.
+faq-what-cv-and-deepspeech-a = Gagnasafn Samróms er hannað til þess að vinna með raddgreini Mozilla, Deep Speech, sem er aðgengilegur öllum. Fyrsta útgáfan af Deep Speech var gefin út í nóvember árið 2017 og er í stöðugri þróun. Líkt og Samrómsgagnasafnið, finnst okkur að þessi raddgreiningartækni ætti að vera aðgengileg öllum. Það er okkar von að þessi tól muni gera hugbúnaðarhönnuðum kleift að skapa og þróa nýjar lausnir, vörur og þjónustur á sviði raddgreiningar.
 faq-is-goal-assistant-q = Er það markmið Samróms að búa til raddstýrð aðstoðartæki?
-faq-is-goal-assistant-a = Markmiðið með Samrómsgagnasafninu eru að gera hverjum sem er kleift að smíða raddgreini, talgervil eða annars konar hugbúnað sem þarfnast raddgagna. Raddstýrð aðstoðartæki er bara ein af mörgum mögulegum útfærslum sem hægt væri að búa til.
+faq-is-goal-assistant-a = Markmiðið með gagnasafni Samróms er að gera hverjum sem er kleift að smíða raddgreini, talgervil eða annars konar hugbúnað sem þarfnast raddgagna. Raddstýrð aðstoðartæki er bara ein af mörgum mögulegum útfærslum sem hægt væri að búa til.
 faq-do-want-native-q = Ég á ekki þetta tungumál að móðurmáli og tala það með hreim; er samt áhugi fyrir því að ég leggi til raddupptökur?
 faq-do-want-native-a = Já, við viljum endilega fá þína rödd! Hluti af stefnu Samróms er að safna saman eins mörgum mismunandi hreimum og hægt er til þess að raddstýrðar þjónustur virki jafn vel fyrir alla. Það gerir það að verkum að raddframlög frá einstaklingum með annað móðurmál eru sérstaklega mikilvæg.
 faq-why-different-speakers-q = Hvers vegna þarf svona marga mismunandi talendur fyrir hvert tungumál?
@@ -453,7 +453,7 @@ faq-why-different-speakers-a =
 faq-why-my-lang-q = Af hverju er mitt tungumál ekki enn hluti af verkefninu?
 faq-why-my-lang-new-a = Mozilla setur ekkert eitt tungumál framar öðrum. Verkefnið Samrómur er algjörlega keyrt áfram af samfélaginu, en það eru <multilangLink>nokkur skref sem þarf að fylgja til að bæta nýju tungumáli við</multilangLink> og geta byrjað að safna raddgjöfum. Fyrst þarf vefsvæði Samróms að vera þýtt svo meðlimir samfélagsins geti haft aðgang að verkfærum Samróms á sínu eigin tungumáli. Næst þarf nægilegt safn af setningum sem leyfi liggur fyrir að nota til upplesturs. Þegar þessar forkröfur eru uppfylltar er tungumálið "gefið út" á Samrómi fyrir fólk að byrja að taka upp raddhljóðbrot og staðfesta hljóðbrot annarra. Ef þú vilt hjálpa til við að bæta við nýju tungumáli, skaltu skoða á <sentenceCollectorLink>setningasöfnunarverkfærið</sentenceCollectorLink> okkar.
 faq-what-quality-q = Hversu góð þurfa hljóðgæðin að vera til að upptaka verði notuð í gagnasafninu?
-faq-what-quality-a = Við viljum að Samrómsgagnasafnið endurspegli hljóðgæðin sem raddgreinir gæti lent í við daglega notkun, svo við vonumst eftir upptökum bæði í góðu og slæmu ástandi. Með fjölbreytilegan hóp raddgjafa og upptökur í mismunandi gæðum getum við kennt raddgreinum að ráða við ýmsar raunverulegar aðstæður, t.d. þar sem aðrar samræður er í bakgrunni eða þar sem heyrist í bílvél. Svo lengi sem hægt er að greina talið í upptökunni ætti það að duga fyrir gagnasafnið.
+faq-what-quality-a = Við viljum að gagnasafn Samróms endurspegli hljóðgæðin sem raddgreinir gæti lent í við daglega notkun, svo við vonumst eftir upptökum bæði í góðu og slæmu ástandi. Með fjölbreytilegan hóp raddgjafa og upptökur í mismunandi gæðum getum við kennt raddgreinum að ráða við ýmsar raunverulegar aðstæður, t.d. þar sem aðrar samræður er í bakgrunni eða þar sem heyrist í bílvél. Svo lengi sem hægt er að greina talið í upptökunni ætti það að duga fyrir gagnasafnið.
 faq-why-10k-hours-q = Hvers vegna er markmiðið að ná 10.000 klst. af upptökum á hvert tungumál?
 faq-why-10k-hours-a = Þetta er u.þ.b. sá fjöldi klukkustunda sem þarf til að þjálfa vinnsluhæfan raddgreini.
 faq-how-calc-hours-q = Hvernig reiknar Samrómur þessa klukkutíma?
@@ -464,14 +464,14 @@ faq-where-src-from-2-a =
     
     Hægt er að sjá allar lestarsetningarnar <githubLink>á GitHub</githubLink>.
 faq-why-not-ask-read-q = Hvers vegna biðjið þið ekki fólk að lesa úr bókum eða greinum af Wikipedia á ólíkum tungumálum?
-faq-why-not-ask-read-a = Til að gera Samrómsgagnasafnið eins nýtilegt og hægt er höfum við ákveðið að leyfa aðeins lestrarsetningar sem falla undir Creative Commons (CC0) notkunarleyfi. Þetta gerir það mun erfiðara að finna og safna lestrarsetningum, en gerir okkur aftur á móti kleift að gefa út raddupptökurnar með sama notkunarleyfi, sem þýðir að hver sem er getur notað þær án nokkurra takmarkana eða heimildar frá Mozilla. Á endanum er það markmiðið hjá okkur, að hafa fjöltyngt gagnasafn sem nýtist eins mörgum og mögulegt er, þ.á.m. vísindamönnum, háskólum, sprotafyrirtækjum, ríkisstjórnum, félagsstofnunum og áhugafólki.
+faq-why-not-ask-read-a = Til að gera gagnasafn Samróms eins nýtilegt og hægt er höfum við ákveðið að leyfa aðeins lestrarsetningar sem falla undir Creative Commons (CC0) notkunarleyfi. Þetta gerir það mun erfiðara að finna og safna lestrarsetningum, en gerir okkur aftur á móti kleift að gefa út raddupptökurnar með sama notkunarleyfi, sem þýðir að hver sem er getur notað þær án nokkurra takmarkana eða heimildar frá Mozilla. Á endanum er það markmiðið hjá okkur, að hafa fjöltyngt gagnasafn sem nýtist eins mörgum og mögulegt er, þ.á.m. vísindamönnum, háskólum, sprotafyrirtækjum, ríkisstjórnum, félagsstofnunum og áhugafólki.
 faq-why-account-q = Af hverju ætti ég að skrá mig?
 faq-is-account-public-q = Verða upplýsingar af reikningnum mínum opinberar?
 faq-how-privacy-q = Hvernig tryggið þið nafnleysi og friðhelgi þeirra sem ljá Samróm röddina sína?
 faq-how-privacy-a = Persónulega einkennandi gögn hafa verið fjarlægð úr öllum raddhljóðbrotum í safninu. Í þeim tilfellum sem raddgjafi hefur lagt til lýðfræðileg gögn í gegnum notkunarsniðið sitt, eru þær upplýsingar aftengdar upptökum þeirra en fylgja öðrum lýðfræðigögnum í niðurhali á gagnasafninu. Þessar upplýsingar eru aldrei gerðar opinberar á notkunarsniðssíðu raddgjafans.
-faq-what-determine-identity-q = Hvað þýðir það að ég geti ekki "borið kennsl á" raddgjafa í Samróms-gagnasafninu?
+faq-what-determine-identity-q = Hvað þýðir það að ég geti ekki "borið kennsl á" raddgjafa í gagnasafni Samróms?
 faq-what-determine-identity-a =
-    Samrómsgagnasafnið er opið og aðgengilegt almenning svo hægt sé að nota það til að þjálfa margs konar raddstýrð kerfi. Fyrir öryggi raddgjafanna biðjum við alla sem sækja Samrómsgagnasafnið til að virða friðhelgi einkalífs þeirra.
+    Gagnasafn Samróms er opið og aðgengilegt almenning svo hægt sé að nota það til að þjálfa margs konar raddstýrð kerfi. Fyrir öryggi raddgjafanna biðjum við alla sem sækja Samrómsgagnasafnið til að virða friðhelgi einkalífs þeirra.
     
     Persónulega einkennandi upplýsingar hafa verið fjarlægðar úr öllum raddhljóðbrotum í safninu. Þegar maður sækir gagnasafnið samþykkir maður að reyna ekki að bera kennsl á neinn raddgjafanna. Það þýðir að það má ekki reyna að tengja upptökur í gagnasafninu við einstaklinga sem hafa lagt til upptökur. Það má hins vegar nota gagnasafnið til að þjálfa raddgreina, málshafagreina og fleiri kerfi, t.d. með því að tengja saman upplýsingar innan gagnasafnsins.
 faq-what-is-cv = Hvað er Samrómur?
@@ -484,7 +484,7 @@ faq-search-for-answers =
 
 about-title = Af hverju Samrómur?
 about-header-description-v2 =
-    <p>Common Voice er almennt aðgengilegt raddgagnasafn, knúið áfram af röddum sjálfboðaliða um allan heim. Fólk sem vill smíða raddforrit getur notað gagnasafnið til að þjálfa vélanámslíkön.</p>
+    <p>Samrómur eða Common Voice er almennt aðgengilegt raddgagnasafn, knúið áfram af röddum sjálfboðaliða um allan heim. Fólk sem vill smíða raddforrit getur notað gagnasafnið til að þjálfa vélanámslíkön.</p>
     <p>Sem stendur eru flest raddgagnasett í eigu fyrirtækja, sem heftir nýsköpun. Raddgagnasöfn samanstanda einnig of mikið af röddum hvítra, enskumælandi karlmanna. Þetta þýðir að raddtækni virkar alls ekki fyrir mörg tungumál og þar sem hún virkar getur verið að hún skili sér ekki jafn vel fyrir alla. Við viljum breyta því með því að virkja fólk alls staðar til að deila röddinni sinni.</p>
 how-does-it-work-title-v2 = Hvernig virkar Samrómur?
 how-does-it-work-text = Við erum að "hópefla" vinnslu opins raddgagnasafns. Leggðu fram röddina þína, staðfestu nákvæmni hljóðbrota frá öðrum, gerðu gagnasafnið betra fyrir alla.
@@ -517,8 +517,8 @@ about-yes-votes = ≥ 2 Já-atkvæði
 about-yes-votes-text = Til þess að komast inn í Samróms-gagnasafnið, þá þarf hljóðbrot að vera yfirfarið af tveimur einstaklingum.
 about-no-votes = ≥ 2 Nei-atkvæði
 about-no-votes-text = Þegar notandi hafnar hljóðbroti þá fer það aftur í biðröðina. Ef því er hafnað í annað sinn, þá fer hljóðbrotið í hljóðbrotagrafreitinn.
-about-dataset-new = Samróms-gagnasafnið
-about-dataset-new-text = Samróms-gagnasafnið samanstendur af hundruðum þúsunda raddhljóðbrota sem hjálpa þróunaraðilum að smíða raddgreiningartól.
+about-dataset-new = Gagnasafn Samróms
+about-dataset-new-text = Gagnasafn Samróms samanstendur af hundruðum þúsunda raddhljóðbrota sem hjálpa þróunaraðilum að smíða raddgreiningartól.
 about-clip-graveyard = Hljóðbrotagrafreitur
 about-clip-graveyard-text = Hljóðbrotagrafreiturinn samanstendur af raddhljóðbrotum sem gátu ekki orðið hluti af Samrómsgagnasafninu. Rétt eins og gagnasafnið sjálft, er hægt að sækja hljóðbrotagrafreitinn.
 about-partners = Samstarfsaðilar
@@ -706,11 +706,11 @@ why-email = <b>Af hverju tölvupóstfang?</b> Við gætum þurft að hafa samban
 confirm-size = Þú getur nú hafið niðurhal með stærðina <b>{ $size }</b>.
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Þú samþykkir</b> að þú munir ekki reyna að bera kennsl á mælendur í málheild Samróms.
+confirm-no-identify = <b>Þú samþykkir</b> að þú munir ekki reyna að bera kennsl á mælendur í gagnasafni Samróms.
 download-language = Sækja { $language }
 validated-hours = Staðfestar klukkustundir
 recorded-hours = Klukkustundir af upptökum
-whats-inside = Hvað er í málheild Samróms?
+whats-inside = Hvað er í gagnasafni (málheild) Samróms?
 dataset-description-hours =
     Hver færsla í gagnasafninu samanstendur af einstöku MP3-hljóðbroti og samsvarandi textaskrá. Mikill fjöldi þeirra <b>{ $total }</b> klukkustunda sem hefur verið safnað innihalda einnig lýðfræðileg lýsigögn eins og aldur, kyn og hreim sem getur hjálpað við að gera raddgervla nákvæmari.
     
@@ -718,7 +718,7 @@ dataset-description-hours =
 want-dataset-update = Viltu fá skilaboð þegar nýjar útgáfur af Samrómsgagnasafninu eru gefnar út? Skráðu þig á póstlistann.
 subscribe = Gerast áskrifandi
 get-started-speech = Hefjast handa með raddgreiningu
-other-datasets = Aðrar málheildir
+other-datasets = Önnur raddgagnasöfn
 feedback-q = Ertu með ábendingar?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er <docsLink>verkfærasett með opinn grunnkóða</docsLink> fyrir vísindamenn sem hanna háþróuð gervigreindarlíkön fyrir samtöl.
 resource-deepspeech-info = Með hinum opna og frjálsa raddgreini Mozilla, Deep Speech, er hægt að hanna raddgreiningarforrit. Kynntu þér <githubLink>yfirlitið á Github</githubLink> eða taktu þátt á <discourseLink>DeepSpeech umræðuvefnum</discourseLink> til að læra um hvernig maður hefst handa.
