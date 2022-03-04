@@ -89,6 +89,7 @@ kab = 卡拜列語
 kbd = 卡巴爾達語
 ki = 基庫尤語
 kk = 哈薩克語
+km = 高棉語
 kmr = 庫爾德語（北）
 ko = 韓語
 kpv = 科密語
@@ -729,7 +730,7 @@ listen-instruction = { $actionType }<playIcon></playIcon>佢地講得準唔準�
 listen-again-instruction = 好嘢！<playIcon></playIcon> 準備好就可以再聽多次
 listen-3rd-time-instruction = 完成兩筆喇 <playIcon></playIcon>，繼續加油！
 listen-last-time-instruction = <playIcon></playIcon> 最後一個！
-listen-empty-state = 呢個語言可以驗證嘅錄音已經驗晒啦⋯⋯
+listen-empty-state = 呢個語言嘅錄音都已經驗晒啦⋯⋯
 speak-empty-state = 呢個語言可以錄嘅句子已經錄晒啦⋯⋯
 speak-empty-state-cta = 貢獻句子
 record-button-label = 錄低你把聲
@@ -1042,6 +1043,9 @@ sc-home-intro = 語句收集工具係 <commonVoiceLink>Common Voice</commonVoice
 sc-home-collect-title = 收集句子
 sc-home-collect-text = 幫我哋收集或者創作公共領域嘅句子
 sc-home-review-title = 審核句子
+
+## GENERAL
+
 
 ## HOW-TO
 

@@ -8,12 +8,9 @@ export type DBClip = {
   path: string;
   sentence: string;
   original_sentence_id: string;
+  has_valid_clip?: number;
   taxonomy?: TaxonomyType;
 };
-
-export interface DBClipWithVoters extends DBClip {
-  voters: string[];
-}
 
 export default class ClipsTable extends Table {
   constructor(mysql: Mysql) {

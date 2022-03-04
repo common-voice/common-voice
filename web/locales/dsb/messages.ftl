@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Dostańśo mejlki, ako na pśikład wupom
 email-opt-in-privacy-v2 = Jolic cośo mejlki dostaś, musyśo do wobchadanja Mozilla z tymi informacijami zwóliś, kótarež se w <privacyLink>pšawidłach priwatnosći</privacyLink> Mozilla rozjasnjuju.
 indicates-required = * Wóznamjenijo trěbne pólo
 not-available-abbreviation = Nic k dispoziciji
+banner-error-slow-1 = Bóžko Common Voice pómału běžy. Źěkujomy se za waš zajm.
+banner-error-slow-2 = Dostawamy wjele wobchada a pśepytujomy tuchylu problemy.
+banner-error-slow-link = Statusowy bok
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]

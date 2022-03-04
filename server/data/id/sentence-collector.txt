@@ -154,6 +154,7 @@ Aku berikan kamu kataku.
 Aku berjalan-jalan di taman.
 Aku berpikir maka aku ada.
 Aku bersyukur kamu dapat melakukannya, Tom.
+Aku bertanya padanya mengenai kecelakaan itu.
 Aku bertanya sendiri jalan mana yang paling singkat.
 Aku bertemu Mary kemarin.
 Aku bertemu dengannya di jalan.
@@ -344,6 +345,7 @@ Aku suka uang, tapi uang suka habis.
 Aku sulit menyakinkan dirinya tentang bahaya merokok.
 Aku tahu apa yang Tom lihat.
 Aku tahu bahwa kau masih memikirkanku.
+Aku tahu bahwa kau memiliki masalah ketika kau masih kecil.
 Aku tahu dia marah, tapi aku tidak berfikir bahwa dia semarah itu.
 Aku tahu kalau kamu yang telah melakukannya.
 Aku tahu kamu berbohong kapan hari.
@@ -371,12 +373,14 @@ Aku tidak bercanda.
 Aku tidak bermaksud menyakitimu.
 Aku tidak bersalah!
 Aku tidak bisa membaca pikiranmu.
+Aku tidak bisa membujuk Tom.
 Aku tidak bisa mengatakan itu.
 Aku tidak bisa mengingat namanya.
 Aku tidak bisa menjawab semua pertanyaanmu.
 Aku tidak bisa pergi nanti malam karena harus membantu ibuku memasak.
 Aku tidak bisa tawar menawar dengan kemacetan yang parah seperti ini.
 Aku tidak bisa tidur nyenyak karena diluar berisik.
+Aku tidak boleh menyerah sekarang.
 Aku tidak dapat hidup tanpa kamu.
 Aku tidak dapat membayangkan hidup tanpa kamu.
 Aku tidak ingin bekerja dalam kondisi ini.
@@ -442,6 +446,7 @@ Anak-anak suka menonton televisi.
 Anak-anak yang ada di sini adalah murid-murid satu sekolah.
 Anaknya ingin menjadi pengacara.
 Ancaman, Hambatan, Gangguan, dan Tantangan.
+Anda adalah seorang pemain tenis.
 Anda akan jadi lebih pandai berbahasa Jepang sedikit demi sedikit kalau belajar.
 Anda benar, tapi cara anda salah.
 Anda berada dalam kondisi yang lebih baik daripada aku.
@@ -470,6 +475,7 @@ Anda selalu makan siang di mana.
 Anda seperti kenalan saya. Apakah saya mengenal anda?
 Anda sudah makan.
 Anda terlalu muda untuk menikah.
+Anda terlihat sangat pucat. Apakah Anda baik-baik saja?
 Anda tidak boleh masuk.
 Anda tidak boleh merokok di ruangan ini.
 Anda tidak harus datang besok.
@@ -504,6 +510,7 @@ Apa acara televisi kesukaanmu?
 Apa ada biaya pengiriman?
 Apa ada kucing di atas meja?
 Apa ada mesin cuci di dalam rumahnya?
+Apa ada yang kamu sembunyikan?
 Apa angka favoritmu?
 Apa arti kata "get" dalam kalimat ini?
 Apa cara terbaik melakukan itu?
@@ -638,6 +645,7 @@ Apakah Anda mau kopi.
 Apakah Anda mau kuenya satu.
 Apakah Anda mau makan di sini?
 Apakah Anda membeli sesuatu untuk dimakan?
+Apakah Anda mengetahui rumah makan masakan Korea yang enak?
 Apakah Anda merasa bersalah?
 Apakah Anda percaya pada Tuhan?
 Apakah Anda pernah ke Amerika?
@@ -966,6 +974,7 @@ Bayar pajak? Nggak salah tuh?
 Bayi itu belum bisa berjalan.
 Bayi itu tidur sangat lelap di pelukan ibunya.
 Beberapa hari lalu kami menerima telepon dari pria yang istrinya akan melahirkan.
+Beberapa kali mesin penjual otomatis itu tidak memberikan kembalian.
 Beberapa murid datang ke perpustakaan.
 Beberapa orang berpikir makan dirumah lebih baik bagimu daripada makan diluar.
 Beberapa orang tidak pernah menjadi dewasa.
@@ -1337,6 +1346,7 @@ Di Australia sedang musim dingin.
 Di Jepang arak boleh diminum dari umur dua puluh tahun.
 Di Jepang bisa mengendarai mobil mulai umur delapan belas tahun.
 Di Jepang musim semi anginnya kencang.
+Di Jepang, pada musim panas cuacanya sangat panas.
 Di Surabaya saya dilahirkan.
 Di Swis, musim semi datang pada bulan Mei.
 Di atas meja ada asbak.
@@ -1560,6 +1570,7 @@ Dia gugup sebelum ujian masuk.
 Dia harus datang kerumahmu setelah satu jam.
 Dia harus ikhlas menerima kehilangan ibunya.
 Dia harus membeli sebuah mobil bekas.
+Dia hidup dengan bahagia.
 Dia hidup di pedesaan.
 Dia homo.
 Dia ingin membeli buku tersebut.
@@ -1784,6 +1795,7 @@ Dia terlihat bosan saat kami bercinta.
 Dia terlihat lelah malam ini.
 Dia terpeleset saat sedang menyeberang jalan.
 Dia terpilih menjadi anggota tim.
+Dia terserang demam tinggi.
 Dia tertidur lelap.
 Dia tetap tidak mau mengakui kesalahannya.
 Dia tiba di sini tadi malam.
@@ -2817,6 +2829,7 @@ Kebanyakan film Hollywood berakhir dengan bahagia.
 Kebanyakan orang Jepang minum air kran.
 Kebanyakan turis yang datang berasal dari Republik Rakyat Tiongkok.
 Keberatan anda telah dicatat.
+Kebijaksanaan itu lebih baik ketimbang harta benda.
 Kebisingan dari jalanan yang padat membuatku terjaga sepanjang malam.
 Kecelakaan itu mengakibatkan kemacetan.
 Kecelakaan pesawat itu menewaskan banyak korban jiwa
@@ -2921,6 +2934,7 @@ Kenapa dia begitu khawatir ya?
 Kenapa kami bisa akrab walau beda kelas?
 Kenapa kamu lama sekali
 Kenapa kamu masih di sini?
+Kenapa kau datang ke Jepang?
 Kenapa orang selalu terlalu sinis.
 Kenapa saya harus keluar?
 Kenapa tidak dicoba?
@@ -3497,6 +3511,7 @@ Nampaknya hujan.
 Namun jika Anda pulang sendirian, lebih baik Anda jangan berjalan melewati gang ini
 Namun sekarang saya tinggal di Tokyo.
 Namun, akhirnya apa yang kamu lakukan?
+Nancy adalah perempuan yang sulit untuk aku dekati.
 Nancy takut anjing.
 Nancy tersenyum bahagia.
 Nanti mari kita makan siang bersama-sama.
@@ -3964,6 +3979,7 @@ Saat kamu memakai jas, biar aku yang membawa tasmu.
 Saat libur musim panas tahun ini saya pergi ke laut dan mendaki gunung.
 Saat libur musim panas, saya bermain tenis dan berenang.
 Sabang adalah kota paling barat di Indonesia.
+Saeb sangat menyegani Horace.
 Salah satu hobiku membuat bunga palsu.
 Salah satu hobiku mengumpulkan perangko lama.
 Salah satu hobiku musik klasik.
@@ -4432,6 +4448,7 @@ Saya mendapat gelas imut dari teman saya.
 Saya mendapat sapu tangan kuning pada hari ulang tahun.
 Saya mendapatkan pekerjaan ini dengan bantuan guru saya.
 Saya mendengar anda, tapi saya tidak dapat melihat anda.
+Saya mendengar bahwa Tom berencana pindah ke Boston.
 Saya mendengar berita di radio.
 Saya mendengar berita itu di radio.
 Saya mendengar cerita menarik dari Pak Hayashi.
@@ -4932,6 +4949,7 @@ Sejumlah orang meninggal dalam kecelakaan lalu-lintas.
 Sekarang Pak Kobayashi sedang membaca buku di perpustakaan.
 Sekarang aku bebas.
 Sekarang berat saya empat puluh lima kilogram.
+Sekarang bukanlah waktu yang tepat.
 Sekarang hampir jam tiga.
 Sekarang ini pertandingan dimulai.
 Sekarang ini saya sedang makan malam.
@@ -5340,6 +5358,7 @@ Terima kasih atas kedatangannya.
 Terima kasih atas kerja kerasmu.
 Terima kasih atas segalanya.
 Terima kasih banyak.
+Terima kasih telah bertanya, keluargaku sedang dalam keadaan yang sangat baik.
 Terima kasih untuk jawaban Anda.
 Terima kasih untuk pertolongan Anda.
 Terima kasih!
@@ -5412,6 +5431,7 @@ Tidak boleh menggunakan ponsel di rumah sakit.
 Tidak boleh merokok di kamar ini.
 Tidak dapat dipungkiri keberaniannya patut dikagumi.
 Tidak diperbolehkan merokok di ruangan ini.
+Tidak lama lagi pepohonan akan menjadi gundul.
 Tidak masalah!
 Tidak memerlukan waktu lama.
 Tidak mudah baginya untuk belajar bahasa Inggris.
@@ -5467,6 +5487,7 @@ Tolong berikan saya bantal dan selimut.
 Tolong berikan saya kartu kreditmu.
 Tolong berikan selembar kertas.
 Tolong beritahu cara penulisan nama Anda.
+Tolong beritahu saya nama dan nomor penerbangan Anda.
 Tolong bertanya lewat telepon kalau tidak tahu jalan.
 Tolong buka jendela di sana.
 Tolong ceritakan. Saya akan benar-benar mendengarkan.

@@ -1,4 +1,5 @@
 import pick = require('lodash.pick');
+
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
 import CustomGoal from './custom-goal';

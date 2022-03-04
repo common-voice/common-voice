@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = 接收诸如挑战、目标提醒、进�
 email-opt-in-privacy-v2 = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
 indicates-required = * 表示必填字段
 not-available-abbreviation = 不可用
+banner-error-slow-1 = 感谢您使用 Common Voice，很抱歉网站当前运行缓慢。
+banner-error-slow-2 = 网站受到大流量访问冲击，我们正在调查处理相关问题。
+banner-error-slow-link = 状态页面
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -332,6 +335,9 @@ profile-form-additional-language =
     .label = 附加语言
 profile-form-language =
     .label = 语言
+profile-form-variant =
+    .label = 您会说 { $language } 的哪种变体？
+profile-form-variant-default-value = 未选择变体
 profile-form-accent =
     .label = 口音
 profile-form-custom-accent-help-text =
@@ -383,6 +389,7 @@ off = 关
 on = 开
 help-accent = 需要口音方面的帮助？
 help-accent-explanation = 口音就是您发音的方式，通常受到您生活过的地方、会说的语言等诸多因素影响。您可以在此分享任何您认为有关的信息。
+help-variants-explanation = 变体是一种语言的特定形式 - 例如在某片区域内人们的说话方式被称为一种变体。有时称其为方言。
 
 ## Profile - Email
 
@@ -471,6 +478,15 @@ how-does-it-work-text = 我们集众人之力，构建开源的语音数据集�
 
 about-language-req-subtitle = 有人申请添加一门语言。
 about-localization-title = 网站本地化
+about-localization-subtitle = 将网站文本完全本地化。
+about-sentence-collection-title = 收集语句
+about-sentence-collection-subtitle = 收集语句，供人们进行录音。
+about-new-lang-subtitle = 我们上线此语言版本的 Common Voice 网站。
+about-voice-contrib-title = 贡献录音
+about-voice-contrib-subtitle = 有一群人参与贡献录音。
+about-voice-validation-title = 验证录音
+about-voice-validation-subtitle = 另一群人参与验证这些录音片段。
+about-dataset-release-title = 发布数据集
 about-dataset-release-subtitle = 我们每 3 个月发布一次数据集。
 about-speak = 说话
 about-speak-text = 贡献者通过朗读一系列由他人捐赠的语句，将语音片段录制下来。
@@ -517,8 +533,10 @@ about-playbook-how-add-language = 如何添加语言？
 
 ## How does localization work
 
+about-playbook-how-localize = 如何进行网站本地化？
 about-playbook-how-localize-content-1 = Common Voice 网站的翻译工作在 <strong>Pontoon</strong> 上进行。
 about-playbook-how-localize-content-4 = 网站本地化完成度达 75% 后即可上线。
+about-playbook-how-localize-content-5 = 观看我们的帮助视频
 
 ## How to add sentences
 
@@ -530,6 +548,7 @@ about-playbook-how-record-content-3 = 准确读出句子内容，不要漏词、
 
 ## How to grow language
 
+about-playbook-how-grow-language = 如何有效推进 Common Voice 上的语言项目？
 about-playbook-how-grow-language-content-2 = 活动
 about-playbook-how-grow-language-content-4 = 社交媒体
 
@@ -544,6 +563,7 @@ about-playbook-how-grow-language-content-4 = 社交媒体
 about-playbook-how-project-governance-content-3 = 隐私、安全和透明度。
 about-playbook-how-project-governance-content-4 = 社区参与决策。
 about-playbook-how-project-governance-content-6 = 相互问责。
+about-playbook-how-project-governance-content-7 = <governanceLink>详细了解我们如何管理此项目</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智能
 mycroft-description = Mycroft 是全球第一个开源语音助手，不论是在桌面电脑、汽车、树莓派（Raspberry Pi）或是任何地方都能运行。
@@ -1140,6 +1160,7 @@ sc-rejected-none-found = 找不到驳回的句子！
 
 sc-stats-title = 统计数据
 sc-stats-updating = 正在更新…
+sc-stats-error = 获取不到统计信息，请稍后再试。
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent

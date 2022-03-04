@@ -2,8 +2,9 @@ import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { Redirect } from 'react-router';
 import { Link } from 'react-router-dom';
-import { pick } from 'lodash';
 import BalanceText from 'react-balance-text';
+import pick from 'lodash.pick';
+
 import Modal, { ModalProps } from '../modal/modal';
 import { Button, Checkbox } from '../ui/ui';
 import { trackChallenge } from '../../services/tracker';

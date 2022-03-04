@@ -24,6 +24,7 @@ Many language communities are self organising and have their contact channels on
   * [Discord](https://discord.gg/uacmNh6KQj)
 * Catalan (`ca`):
   * [Telegram](https://t.me/softcatala_tecnologiesparla)
+  * [Element](https://matrix.to/#/#cvcatala:matrix.org)
 * Czech (`cs`):
   * [Matrix](https://matrix.to/#/#common-voice-czech:mozilla.org)
 * Dhivehi (`dv`):

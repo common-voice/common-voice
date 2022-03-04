@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Ontvang e-mailberichten zoals herinnering
 email-opt-in-privacy-v2 = Door u in te schrijven voor het ontvangen van e-mailberichten, verklaart u dat u akkoord gaat met het verwerken van deze informatie door Mozilla in overeenstemming met Mozilla’s <privacyLink>Privacybeleid</privacyLink>.
 indicates-required = * Geeft verplicht veld aan
 not-available-abbreviation = NB
+banner-error-slow-1 = Sorry, Common Voice werkt langzaam. Bedankt voor uw interesse.
+banner-error-slow-2 = We ontvangen veel verkeer en zijn momenteel de problemen aan het onderzoeken.
+banner-error-slow-link = Statuspagina
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -338,6 +341,7 @@ profile-form-language =
     .label = Taal
 profile-form-variant =
     .label = Welke variant van { $language } spreekt u?
+profile-form-variant-default-value = Geen variant geselecteerd
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
