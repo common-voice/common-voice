@@ -667,6 +667,7 @@ listen-empty-state = ایں زبان وچ تصدیق کرݨ کیتے ساݙے ک
 speak-empty-state = ایں زبان وچ رکاڈ کرݨ کیتے ساݙے کول جملے مُک ڳئے ہن۔۔۔
 speak-empty-state-cta = فقرے پاؤ
 record-button-label = آپݨی آواز رکاڈ کرو
+share-title-new = <bold> ساݙی مدد کرو</bold> ٻیاں آوازاں لبھو
 keep-track-profile = پروفائل واٹوں آپݨی پیش رفت تے نظر رکھو
 login-to-get-started = شروع کرݨ کیتے لاگ یا سائن اپ کرو
 target-segment-first-card = تساں ساݙے پہلے ہدف ٹوٹے وچ حصہ پیندے پئے ہو
