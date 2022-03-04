@@ -1062,6 +1062,7 @@ demo-account = Reikningur
 ## Demo Account
 
 demo-account-card-header = Ekki krafist skráðs aðgangs til að taka þátt, þótt það sé gagnlegt.
+demo-account-card-body = Til hægri útlistum við kostina og skýrum hvaða upplýsingar við birtum opinberlega. Notaðu tenglana hér að neðan til að byrja með Samróms-reikning á þínu eigin tæki.
 demo-account-enter-email =
     .label = Settu inn tölvupóstfang til að senda skráningartengil
 demo-account-sign-up = Senda skráningartengil
