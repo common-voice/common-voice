@@ -1345,10 +1345,10 @@ sc-lang-info-validated =
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Žedne wótpokazane sady.
-        [one] { $validatedSentences } wótpokazana sada.
-        [two] { $validatedSentences } wótpokazanej saźe.
-        [few] { $validatedSentences } wótpokazane sady.
-       *[other] { $validatedSentences } wótpokazanych sadow.
+        [one] { $rejectedSentences } wótpokazana sada.
+        [two] { $rejectedSentences } wótpokazanej saźe.
+        [few] { $rejectedSentences } wótpokazane sady.
+       *[other] { $rejectedSentences } wótpokazanych sadow.
     }
 
 ## LOGIN
