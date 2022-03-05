@@ -486,6 +486,7 @@ about-playbook-how-grow-language-content-6 = بھائیوالی تے نیٹ ور
 
 ## How to validate
 
+about-playbook-how-validate = میکوں کین٘ویں پتہ لڳسی جو صَوتی کلپ کوں منظور کرݨے یا کائناں؟
 
 ## How to access dataset
 
@@ -665,6 +666,8 @@ record-abort-submit = کلپ جمع کرواؤ
 record-abort-continue = ریکارڈنگ مکمل کرو
 record-abort-delete = ٻاہر نکلو تے کلپ مٹاؤ
 listen-instruction = { $actionType }<playIcon></playIcon> بھلا انہاں  جملہ درستی نال الایا؟
+listen-again-instruction = سوہݨا کم!<playIcon></playIcon> تساں تیار ہوو تاں ولدا سݨو
+listen-3rd-time-instruction = ٢ تھی ڳئے۔  شاباش جاری رکھو!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>چھیکڑی ہک!
 listen-empty-state = ایں زبان وچ تصدیق کرݨ کیتے ساݙے کول کلپ مُک ڳئے ہن۔۔۔
 speak-empty-state = ایں زبان وچ رکاڈ کرݨ کیتے ساݙے کول جملے مُک ڳئے ہن۔۔۔
@@ -856,6 +859,7 @@ contribution-criteria-page-title = ونگار دا معیار
 contribution-for-example = مثال دے طور تے
 contribution-misreadings-title = غلط پڑھݨ
 contribution-misreadings-description-extended-list-2 = لفظ دے چھیکڑ تے ہک <strong>'s'</strong> غائب ہے۔
+contribution-misreadings-description-extended-list-5 = ہک لفظ پڑھݨ کیتے ٻہوں واری کوشش تھیندی پئی ہے۔
 contribution-misreadings-example-1-title = ٹریاسک دے دیوہیکل ڈایناسور۔
 contribution-misreadings-example-2-title = ٹریاسک دا دیوہیکل ڈایناسور۔
 contribution-misreadings-example-2-explanation = [ 'ڈایناسور' ہووݨا چاہیدا ہے]
@@ -864,6 +868,7 @@ contribution-misreadings-example-4-title = ٹریاسک دے دیوہیکل ڈا
 contribution-misreadings-example-5-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-6-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-7-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
+contribution-misreadings-example-8-title = بھون٘را تکھے تکھے اڳوں تے چلا ڳیا۔
 contribution-misreadings-example-8-explanation = [غیر مماثل مواد]
 contribution-varying-pronunciations-title = بدلدا ہویا تلفظ
 contribution-varying-pronunciations-example-1-title = آپݨے سر تے اوں بیریٹ پاتا ہویا ہائی۔
