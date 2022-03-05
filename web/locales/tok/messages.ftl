@@ -238,7 +238,7 @@ help-us-title = o pona e sitelen!
 help-us-explain = o kute e toki, o pana e sona ni: toki kalama li sama ala sama sitelen anpa?
 no-clips-to-validate = toki ni li jo ala e kalama awen. wile la, o awen e kalama sina.
 vote-yes = pona
-vote-no = ala
+vote-no = ike
 toggle-play-tooltip = o luka e nena { shortcut-play-toggle } la, o kute. luka sin la, o kute ala.
 speak-subtitle = o pana e toki uta sina
 speak-paragraph = awen pi kalama toki li suli mute tawa sona open mi. ni li musi tawa jan.
@@ -250,7 +250,7 @@ hours-recorded = tenpo suli kalama
 hours-validated = tenpo suli pi kalama pona
 voices-online = jan lon tenpo ni
 todays-progress = sin pi tenpo suno ni
-help-reach-goal = o pali e ijo { $goal }
+help-reach-goal = o pali tawa ni: ijo li { $goal }
 read-terms-q = sina lukin ala lukin e lawa kepeken pi ilo ni?
 ready-to-record = sina wile ala wile pana e toki uta sina?
 all-locales = ale
@@ -786,7 +786,7 @@ action-click = pilin
 action-tap = pilin
 contribute = o pana
 listen = o kute
-skip = mi sona ala
+skip = mi sona ala, o lukin e toki ante
 shortcuts = nena pali
 clips-with-count-pluralized =
     { $count ->
@@ -921,7 +921,7 @@ want-to-continue = sina wile ala wile pini?
 finish-editing = ante sina li pini ala. o awen pali anu seme?
 lose-changes-warning = sina weka la, ante sina li weka
 build-custom-goal = o wile pali sin
-help-reach-hours-pluralized = wile mi la kalama pi tenpo suli { $hours } o lon toki { $language }. tawa ni la o pana e wile pali sina!
+help-reach-hours-pluralized = wile mi la kalama pi tenpo suli { $hours } o lon { $language }. tawa ni la o pana e wile pali sina!
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
        *[other] kepeken wile pali sina la, o pali e tenpo suli { $hours } lon ilo Common Voice, lon toki.
