@@ -921,10 +921,7 @@ want-to-continue = sina wile ala wile pini?
 finish-editing = ante sina li pini ala. o awen pali anu seme?
 lose-changes-warning = sina weka la, ante sina li weka
 build-custom-goal = o wile pali sin
-help-reach-hours-pluralized =
-    { NUMBER($hours) ->
-       *[other] o pona e ni: o pali e kalama awen pi tenpo { $hours } lon { $language } kepeken wile pali sina
-    }
+help-reach-hours-pluralized = wile mi la kalama pi tenpo suli { $hours } o lon toki { $language }. tawa ni la o pana e wile pali sina!
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
        *[other] kepeken wile pali sina la, o pali e tenpo suli { $hours } lon ilo Common Voice, lon toki.
