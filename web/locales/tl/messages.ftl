@@ -575,6 +575,7 @@ days =
 
 ## Dashboard
 
+stats = Stats
 awards = Mga Pagkilala
 you = Ikaw
 everyone = Lahat
@@ -604,6 +605,11 @@ profile-form-delete = Burahin ang Profile
 
 ## Profile Download
 
+download-size = Laki
+download-selected = Pinili
+download-request-button = i-Download
+download-request-title = { $created }
+download-request-link-text = Zip #{ $offset } of { $total }
 
 ## Landing
 
@@ -631,6 +637,7 @@ card-button-back = Balik
 
 ## Validation criteria
 
+contribution-for-example = halimbawa
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -639,6 +646,7 @@ card-button-back = Balik
 
 ## HEADER/FOOTER
 
+sc-footer-cookies = Mga Cookie
 
 ## HOME
 
@@ -648,9 +656,17 @@ card-button-back = Balik
 
 ## HOW-TO
 
+sc-howto-title = Paano
 
 ## MY SENTENCES
 
+sc-my-no-sentences = Walang nakitang mga pangungusap!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Submission: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Source:  { $source }
 
 ## REJECTED
 
@@ -660,6 +676,9 @@ card-button-back = Balik
 
 ## ADD
 
+sc-submit-title = Magdagdag ng mga Pangungusap
+sc-submit-select-language =
+    .labelText = Pumili ng Wika
 
 ## ADD LANGUAGE
 
@@ -681,6 +700,12 @@ card-button-back = Balik
 
 ## REVIEW
 
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 
 ## SETTINGS
 
