@@ -796,7 +796,7 @@ goal-help-recording = tenpo suno ni la mi wile e kalama awen { $goalValue }. tan
 goal-help-validation = tenpo suno ni la mi wile e kalama pona { $goalValue }. tan pali sina la ilo Common Voice li jo e ona <goalPercentage></goalPercentage>!
 contribute-more =
     { $count ->
-       *[other] sina ken ala ken pali e kalama sin { $count }?
+       *[other] sina wile ala wile pali lon kalama { $count } sin?
     }
 record-cta = o open e awen kalama
 record-platform-not-supported = ilo sina li ken ala kepeken ilo Common Voice
@@ -905,7 +905,7 @@ show-ranking = o len ala e pali mute mi
 
 ## Custom Goals
 
-get-started-goals = o open e pali suli sina
+get-started-goals = o pana e wile pali sina
 create-custom-goal = o pali e wile pali sin
 goal-type = sina wile pali e seme?
 both-speak-and-listen = tu
