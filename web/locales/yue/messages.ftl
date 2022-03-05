@@ -377,6 +377,8 @@ skip-submission-description = 貢獻期間，單擊「提交」可略過提供�
 skip-submission-note = 注意：你仲需要揀「講」或「聽」嚟轉換貢獻模式。
 off = 閂
 on = 開
+help-accent = 需要口音方面嘅更多定義？
+help-accent-explanation = 口音係指你對一個詞彙發音嘅方式。口音通常受成長地、講開嘅其它語言以及其它因素影響而成。你可以喺呢度寫低有關詳情。
 
 ## Profile - Email
 
@@ -620,7 +622,11 @@ subscribe = 訂閲
 get-started-speech = 語音識辨新手入門
 other-datasets = 其他語音數據集
 feedback-q = 有意見反饋？
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ 係一套可以畀研究者開發最先進嘅對話式 AI 模型嘅<docsLink>開源工具包</docsLink>。
 resource-deepspeech-info = Mozilla 嘅開放原始碼語音識別引擎 Deep Speech，可以用來打造語音識別應用程式。您可以睇下我哋嘅 <githubLink>Github 概觀</githubLink>或者加入 <discourseLink>DeepSpeech Discourse</discourseLink> 了解點樣入門。
+resource-coqui-info = <coquiLink>Coqui</coquiLink> 致力於開放語音技術。佢哋嘅專案包含使用深度學習技術嘅 STT 與 TTS 引擎。
+community-playbook = 社群手冊
+resource-playbook-info = 無論係在地化、數據使用，定係社群交際方面嘅資訊，都可以喺使用 Common Voice 嘅過程中，隨時<playbookLink>造訪實用指南</playbookLink>獲取。
 data-other-librispeech-description = LibriSpeech 係一個從LibriVox計劃入面，攞到大概一千個鐘嘅16Khz 英語有聲書錄音嘅語料庫。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫係由 TED 網站上提供嘅講座對話語音同埋演講文字抄稿一齊製成嘅語料庫。
@@ -1044,6 +1050,7 @@ sc-home-intro = 語句收集工具係 <commonVoiceLink>Common Voice</commonVoice
 sc-home-collect-title = 收集句子
 sc-home-collect-text = 幫我哋收集或者創作公共領域嘅句子
 sc-home-review-title = 審核句子
+sc-home-review-text = 幫助我哋審核啲語句，以確保其準確並符合要求。
 
 ## GENERAL
 
@@ -1052,7 +1059,9 @@ sc-home-review-title = 審核句子
 
 sc-howto-title = 點樣
 sc-howto-addlang-title = 增加使用語言
+sc-howto-addlang-text = 登入後，你可以喺個人資料中揀自己嘅語言。
 sc-howto-addsen-title = 添加新句子
+sc-howto-addsen-item-1 = 所有語句必須符合<wikipediaLink>公共領域 (CC-0) 許可證</wikipediaLink>嘅規範。對於包含非公共領域牌照規範嘅內容，我哋會以<cc0WaiverLink>貢獻者協議模板</cc0WaiverLink>嚟接受由版權持有者貢獻嘅內容。
 
 ## MY SENTENCES
 
