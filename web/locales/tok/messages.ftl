@@ -782,8 +782,8 @@ total-hours = tenpo suli pona
 
 ## Contribution
 
-action-click = o pilin
-action-tap = o pilin
+action-click = pilin
+action-tap = pilin
 contribute = o pana
 listen = o kute
 skip = mi sona ala
@@ -818,9 +818,9 @@ review-tooltip = sina pali la o pona, o pali e kalama sin
 share-clip = o pana e kalama awen sina
 share-common-voice = o pana e ilo Common Voice
 review-instruction = wile la, o pona e kalama awen, o pali e kalama sin
-record-submit-tooltip = o { $actionType } la sina o pana.
+record-submit-tooltip = sina pini la o pana e pali kepeken ni.
 clips-uploaded = kalama awen pana
-record-abort-title = wan la, o pini e kalama awen anu seme?
+record-abort-title = pali kalama li pini ala. o awen pali anu seme?
 record-abort-text = sina tawa la sina weka e pali sina
 record-abort-submit = o pana e kalama awen
 record-abort-continue = o pini kalama
@@ -918,7 +918,7 @@ difficult-difficulty = ike
 pro-difficulty = ike suli
 lose-goal-progress-warning = sina ante e wile pali sina la, ijo ale pi wile pali li weka tan ni.
 want-to-continue = sina wile ala wile pini?
-finish-editing = wan la, o pini e ante sina anu seme?
+finish-editing = ante sina li pini ala. o awen pali anu seme?
 lose-changes-warning = sina weka la, ante sina li weka
 build-custom-goal = o wile pali sin
 help-reach-hours-pluralized =
