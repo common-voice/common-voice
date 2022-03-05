@@ -236,7 +236,7 @@ wall-of-text-second =
 show-wall-of-text = o lukin mute
 help-us-title = o pona e sitelen!
 help-us-explain = o kute e toki, o pana e sona ni: toki kalama li sama ala sama sitelen anpa?
-no-clips-to-validate = toki ni li jo ala e kalama awen. wile la, o awen e kalama sina.
+no-clips-to-validate = toki ni la kalama ante ala li li wile e kute. sina wile la, o pona e ni o pana e kalama sin sina.
 vote-yes = pona
 vote-no = ike
 toggle-play-tooltip = o luka e nena { shortcut-play-toggle } la, o kute. luka sin la, o kute ala.
@@ -509,7 +509,7 @@ about-listen-queue = kulupu kute
 about-listen-queue-text = toki uta li kama tan kulupu. jan kute li kama jo e ona tan kulupu ni.
 about-listen = o kute
 about-listen-text = jan li kute e toki uta. ona li toki e ni: toki uta li sama ala sama toki sitelen?
-about-is-it-valid = kalama awen li pona ala pona?
+about-is-it-valid = kalama ni li pona ala pona?
 about-is-it-valid-text = jan li pana e pona tawa kalama awen la, ona li pona.
 about-yes-votes = pona tan jan 2
 about-yes-votes-text = jan tu li kute e kalama wan li toki e pona ona la, ona li kama lon kulupu kalama Common Voice.
@@ -676,7 +676,7 @@ review-recording = o kute
 review-rerecord = o awen e kalama sin
 review-cancel = o weka e ijo pana
 review-keep-recordings = o awen e kalama
-review-delete-recordings = o weka e kalama awen mi
+review-delete-recordings = o weka e kalama ale mi
 
 ## Datasets Page
 
@@ -790,7 +790,7 @@ skip = mi sona ala, o lukin e toki ante
 shortcuts = nena pali
 clips-with-count-pluralized =
     { $count ->
-       *[other] kalama awen
+       *[other] kalama <bold>{ $count }</bold>
     }
 goal-help-recording = tenpo suno ni la mi wile e kalama { $goalValue }. tan pali sina la ilo Common Voice li jo e ni <goalPercentage></goalPercentage>!
 goal-help-validation = tenpo suno ni la mi wile e pona kalama { $goalValue }. tan pali sina la ilo Common Voice li jo e ni <goalPercentage></goalPercentage>!
@@ -804,8 +804,8 @@ record-platform-not-supported-desktop = lon ilo sona supa la, sina ken pana tan 
 record-platform-not-supported-ios-non-safari = o kepeken ilo Safari lon ilo iOS la, ilo li ken kute e sina…
 record-must-allow-microphone = o wile e ken pi ilo kute sina.
 record-no-mic-found = ilo kute li lon ala
-record-error-too-short = kalama awen li lili mute la, ona li pakala.
-record-error-too-long = kalama awen li suli mute la, ona li pakala.
+record-error-too-short = pakala la kalama li tenpo lili ike.
+record-error-too-long = pakala la kalama li tenpo suli ike.
 record-error-too-quiet = kalama pi toki uta li lili la, kalama awen li pakala.
 record-cancel = o weka e kalama awen sin
 record-instruction = o { $actionType } e <recordIcon></recordIcon>, o kalama e toki ni
@@ -819,7 +819,7 @@ share-clip = o pana e kalama awen sina
 share-common-voice = o pana e ilo Common Voice
 review-instruction = wile la, o pona e kalama awen, o pali e kalama sin
 record-submit-tooltip = sina pini la o pana e pali kepeken ni.
-clips-uploaded = sina pana e kalama awen
+clips-uploaded = sina pana e kalama
 record-abort-title = pali kalama li pini ala. o awen pali anu seme?
 record-abort-text = sina tawa la sina weka e pali sina
 record-abort-submit = o pana e pali
