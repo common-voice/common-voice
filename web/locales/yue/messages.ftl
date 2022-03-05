@@ -1062,6 +1062,8 @@ sc-howto-addlang-title = 增加使用語言
 sc-howto-addlang-text = 登入後，你可以喺個人資料中揀自己嘅語言。
 sc-howto-addsen-title = 添加新句子
 sc-howto-addsen-item-1 = 所有語句必須符合<wikipediaLink>公共領域 (CC-0) 許可證</wikipediaLink>嘅規範。對於包含非公共領域牌照規範嘅內容，我哋會以<cc0WaiverLink>貢獻者協議模板</cc0WaiverLink>嚟接受由版權持有者貢獻嘅內容。
+sc-howto-cite-title = 點樣引用
+sc-howto-review-title = 審核句子
 
 ## MY SENTENCES
 
@@ -1099,6 +1101,8 @@ sc-stats-summary = Common Voice 句子收集器已經收集咗 { $languageCount 
 
 ## REVIEW
 
+sc-review-title = 審核句子
+sc-review-loading = 加載緊句子……
 sc-review-form-button-reject = 否決
 sc-review-form-button-skip = 跳過
 sc-review-form-button-approve = 通過
