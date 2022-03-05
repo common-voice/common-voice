@@ -396,8 +396,8 @@ email-subscriptions = lipu wile pi poki lipu sina
 download-profile = o kama jo e sona mi e kalama mi
 contribution-experience = nasin pali
 skip-submission-feedback = sina pali la ilo o toki ala toki e toki lili pi pali pona tawa sina?
-skip-submission-description = sina luka e nena "o pana" la ilo li ken toki ala e ni: pali sina li pona ala pona. ilo li pana taso e pali sin luka.
-skip-submission-note = o sona e ni: sina wile ante e nasin pali la, o luka e nena "o toki" anu "o kute".
+skip-submission-description = ni la sina luka e nena "o pana" la ilo li toki ala e ni: pali sina li pona ala pona. ilo li pana taso e pali sin luka.
+skip-submission-note = o sona e ni: awen la, sina wile ante e nasin pali la, sina o luka e nena "o toki" anu "o kute".
 off = toki
 on = toki ala
 help-accent = nasin kalama li seme lon ni?
@@ -983,14 +983,14 @@ profile-form-delete = o weka e lipu jan
 
 ## Profile Download
 
-download-q = sina wile kama jo e sona sina anu seme?
-download-info = sina wile kama jo e seme:
+download-q = sina wile kama jo e sona sina e pali sina la:
+download-info = sina wile kama jo e seme?
 download-profile-title = lipu jan
 download-profile-info = tenpo lili la nimi pi poki lipu en nimi jan en sona jan li lon
-download-profile-size = suli lili Bytes
+download-profile-size = ni li lili sama suli Byte mute
 download-recordings-title = kalama awen
 download-recordings-info = ona li jo e ilo MP3, e sitelen sama. ni la ona li kepeken tenpo suli tawa pona.
-download-recordings-size = suli Megabytes
+download-recordings-size = ni li suli sama suli Megabyte mute
 download-recordings-unavailable = sina ken ala kama jo sin. sina kama jo e kalama awen sina lon tenpo ni.
 download-recently-requested = sina ken kama jo e kalama awen sina lon tenpo suno { $days } pini ale.
 download-size = suli
