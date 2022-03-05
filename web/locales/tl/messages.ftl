@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Tumanggap ng mga email tulad ng mga paala
 email-opt-in-privacy-v2 = Sa pamamagitan ng pagpiling pagtanggap ng mga email ikaw ay pumapayag na ibigay ang impormasyong ito sa Mozilla tulad ng nakalahad sa Mozilla's <privacyLink>Patakaran sa Pagkapribado</privacyLink/>.
 indicates-required = *Kailangang punuan
 not-available-abbreviation = N/A
+banner-error-slow-link = Status Page
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,9 +37,9 @@ ba = Bashkirs
 bas = Basaa
 be = Belarusian
 bg = Bulgarian
-bm = Bambara
 bn = Bengali
 br = Breton
+bs = Bosnian
 bxr = Buryat
 ca = Catalan
 cak = Kaqchikel
@@ -67,6 +68,7 @@ fy-NL = Frisian
 ga-IE = Irish
 gl = Galician
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Hebreyo
 hi = Hindi
@@ -78,6 +80,8 @@ hy-AM = Armenian
 hyw = Armenian Western
 ia = Interlingua
 id = Indonesian
+ie = Interlingue
+ig = Igbo
 is = Icelandic
 it = Italian
 izh = Izhorian
@@ -86,12 +90,16 @@ ka = Georgian
 kaa = Karakalpak
 kab = Kabyle
 kbd = Kabardian
+ki = Kikuyu
 kk = Kazakh
+km = Khmer
 kmr = Kurmanji Kurdish
+knn = Konkani (Devanagari)
 ko = Korean
 kpv = Komi-Zyrian
 kw = Cornish
 ky = Kyrgyz
+lb = Luxembourgish
 lg = Luganda
 lij = Ligurian
 lt = Lithuanian
@@ -103,6 +111,7 @@ mhr = Meadow Mari
 mk = Macedonian
 ml = Malayalam
 mn = Mongolian
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Hill Mari
@@ -110,10 +119,13 @@ ms = Malay
 mt = Maltese
 my = Burmese
 myv = Erzya
+nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
 ne-NP = Nepali
+nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
+nyn = Runyankole
 oc = Occitan
 or = Odia
 pa-IN = Punjabi
@@ -121,17 +133,21 @@ pap-AW = Papiamento (Aruba)
 pl = Polish
 ps = Pashto
 pt = Portuguese
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 ro = Romanian
 ru = Russian
 rw = Kinyarwanda
 sah = Sakha
+sat = Santali (Ol Chiki)
 sc = Sardinian
 scn = Sicilian
 shi = Shilha
 si = Sinhala
 sk = Slovak
+skr = Saraiki
 sl = Slovenian
 so = Somali
 sq = Albanian
@@ -143,9 +159,15 @@ ta = Tamil
 te = Telugu
 tg = Tajik
 th = Thai
+ti = Tigrinya
+tig = Tigre
+tk = Turkmen
 tl = Tagalog
+tok = Toki Pona
 tr = Turkish
 tt = Tatar
+tw = Twi
+ty = Tahitian
 uby = Ubykh
 udm = Udmurt
 ug = Uyghur
@@ -155,6 +177,8 @@ uz = Uzbek
 vec = Venetian
 vi = Vietnamese
 vot = Votic
+yi = Yiddish
+yo = Yoruba
 yue = Cantonese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
@@ -270,6 +294,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Record/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-record clip
+shortcut-discard-ongoing-recording = ESC
 request-language-text = Hindi mo pa nakikita ang iyong wika sa Common Voice?
 request-language-text-learn = Alamin kung paano mag-request dito!
 request-language-button = Humiling ng Wika
@@ -291,6 +316,8 @@ profile-form-native-language =
     .label = Katutubong Wika
 profile-form-additional-language =
     .label = Karagdagang Wika
+profile-form-language =
+    .label = Wika
 profile-form-accent =
     .label = Punto
 profile-form-age =
@@ -376,7 +403,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Bakit Common Voice?
-how-does-it-work-title = Paano ito gumagana?
+
+## How does it work section
+
 about-speak = Magsalita
 about-listen-queue = Listen-Queue
 about-listen = Makinig
@@ -389,6 +418,34 @@ about-nav-why-common-voice = Bakit?
 about-nav-how-it-works = Paano?
 about-nav-partners = Mga Katulong
 about-nav-get-involved = Makibahagi
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence
 
@@ -563,4 +620,60 @@ card-button-back = Balik
 
 
 ## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
