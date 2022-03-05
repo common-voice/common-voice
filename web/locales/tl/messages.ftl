@@ -425,18 +425,23 @@ about-nav-get-involved = Makibahagi
 
 ## How do I add a language
 
+about-playbook-how-add-language = Paano magdagdag ng wika?
 
 ## How does localization work
 
+about-playbook-how-localize = Paano gumagana ang localization?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Paano magdagdag ng pangungusap?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Mga Kaganapan
+about-playbook-how-grow-language-content-4 = Social media
 
 ## How to validate
 
@@ -478,6 +483,7 @@ terms-disagree = Hindi ako sumasang-ayon
 review-recording = Suriin
 review-rerecord = i-Record Muli
 review-cancel = Kanselahin ang Pagpasa
+review-keep-recordings = Panatilihin ang mga recording
 review-delete-recordings = Burahin ang mga recording ko
 
 ## Datasets Page
@@ -494,8 +500,10 @@ size-megabyte = MB
 download-language = i-Download ang { $language }
 recorded-hours = Mga Oras na Na-record
 subscribe = Mag-subscribe
+community-playbook = Community Playbook
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Magpunta sa Discourse
+more = Higit pa
 close = Isara
 download = i-Download
 dataset-version = Bersyon
@@ -509,6 +517,7 @@ download-no = Salamat na lang
 
 ## Contact Modal
 
+contact-title = Contact Form
 contact-form-name =
     .label = Pangalan
 contact-form-message =
@@ -540,6 +549,7 @@ record-cta = Magrecord na
 record-platform-not-supported = Paumanhin, hindi suportado ang platform mo.
 record-no-mic-found = Walang makitang mikropono.
 record-three-more-instruction = Tatlo na lang!
+share-clip = Ibahagi ang iyong clip
 record-abort-submit = Ipasa ang clips
 record-abort-continue = Tapusin ang pag-record
 record-button-label = I-record ang boses mo
