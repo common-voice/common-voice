@@ -479,7 +479,7 @@ about-playbook-how-record-content-5 = <accuracyLink>درستی معیار بار
 
 ## How to grow language
 
-about-playbook-how-grow-language = اساں کامن وائس تے مؤثر انداز وچ زبان کین٘ویں ودھا سڳدے ہیںن٘
+about-playbook-how-grow-language = اساں کامن وائس تے مؤثر انداز وچ زبان کین٘ویں ودھا سڳدے ہیں؟
 about-playbook-how-grow-language-content-2 = ایونٹ
 about-playbook-how-grow-language-content-4 = سماجی میڈیا
 about-playbook-how-grow-language-content-6 = بھائیوالی تے نیٹ ورک
