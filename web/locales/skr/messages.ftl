@@ -475,6 +475,7 @@ about-playbook-how-add-sentences = میں فقرے کین٘ویں شامل کر 
 
 about-playbook-how-record-quality = میں اعلیٰ معیار دا آواز کلپ کین٘ویں رکاڈ کراں؟
 about-playbook-how-record-content-3 = جملے احتیاط نال پڑھو ــ لفظ ودھاوݨ یا وٹاوݨ نہ بھُلو۔
+about-playbook-how-record-content-5 = <accuracyLink>درستی معیار بارے ٻیا ݙیکھو،</accuracyLink>
 
 ## How to grow language
 
