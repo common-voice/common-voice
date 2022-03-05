@@ -10,7 +10,7 @@ submit-form-action = o pana
 loading = o awen...
 email-opt-in-info = mi wile kama jo e lipu ni: sona pi wile pali mi en sona pi pali mi en ijo sin pi ilo Common Voice.
 email-opt-in-info-title = kulupu CommonVoice li ken pana e lipu tawa mi
-email-opt-in-info-sub-with-challenge = lipu li sama ni: pali sina li pona. pali sina li mute. ijo sin li kama lon kulupu Common Voice.
+email-opt-in-info-sub-with-challenge = lipu li sama ni: pali sina li pona. sina wile pali mute. ijo sin li kama lon kulupu Common Voice.
 email-opt-in-privacy-v2 = sina toki e wile lipu la, sina toki e ni: kulupu Mozilla li ken pali e ijo kepeken sona ni, lon <privacyLink>nasin sona</privacyLink> pi kulupu Mozilla.
 indicates-required = * la, o pana
 not-available-abbreviation = ala
@@ -378,7 +378,7 @@ why-profile-text = sina pana e sona sina la, kalama sina li pona mute tawa pali 
 dashboard = lipu suli
 build-profile = o pali e lipu sina
 avatar = sitelen sinpin
-goals = wile suli
+goals = wile pali sina
 settings = nasin ilo
 edit-profile = o ante e lipu sina
 profile-create-success = pona, sina pali e lipu!
@@ -792,8 +792,8 @@ clips-with-count-pluralized =
     { $count ->
        *[other] kalama awen
     }
-goal-help-recording = tenpo suno ni la mi wile e kalama awen { $goalValue }. tan pali sina la ilo Common Voice li jo e ona <goalPercentage></goalPercentage>!
-goal-help-validation = tenpo suno ni la mi wile e kalama pona { $goalValue }. tan pali sina la ilo Common Voice li jo e ona <goalPercentage></goalPercentage>!
+goal-help-recording = tenpo suno ni la mi wile e kalama { $goalValue }. tan pali sina la ilo Common Voice li jo e ni <goalPercentage></goalPercentage>!
+goal-help-validation = tenpo suno ni la mi wile e pona kalama { $goalValue }. tan pali sina la ilo Common Voice li jo e ni <goalPercentage></goalPercentage>!
 contribute-more =
     { $count ->
        *[other] sina wile ala wile pali lon kalama { $count } sin?
@@ -906,7 +906,7 @@ show-ranking = o len ala e pali mute mi
 ## Custom Goals
 
 get-started-goals = o pana e wile pali sina
-create-custom-goal = o pali e wile pali sin
+create-custom-goal = o pana e wile pali sina
 goal-type = sina wile pali e seme?
 both-speak-and-listen = tu
 both-speak-and-listen-long = tu (o toki, o kute)
@@ -920,7 +920,7 @@ lose-goal-progress-warning = sina ante e wile pali sina la, ijo ale pi wile pali
 want-to-continue = sina wile ala wile pini?
 finish-editing = ante sina li pini ala. o awen pali anu seme?
 lose-changes-warning = sina weka la, ante sina li weka
-build-custom-goal = o wile pali sin
+build-custom-goal = o wile pali mute
 help-reach-hours-pluralized = wile mi la kalama pi tenpo suli { $hours } o lon { $language }. tawa ni la o pana e wile pali sina!
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
