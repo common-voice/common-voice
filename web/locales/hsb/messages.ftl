@@ -1159,6 +1159,7 @@ sc-howto-addlang-title = Rěče přidać, z kotrymiž so dźěła
 sc-howto-addlang-text = Hdyž sće přizjewjeny, móžeće swoje rěče we wotrězku Profil wubrać.
 sc-howto-addsen-title = Nowe sady přidać
 sc-howto-addsen-item-5 = Wukrajne pismiki. Pismiki dyrbja w rěči płaćiwe być, w kotrejž so je rěča. “ж” na přikład je pismik w ruskim alfabeće, ale so ženje w jendźelšćinje njewužiwa a njeměli so tohodla ženje w jendźelskim žórłowym teksće jewić.
+sc-howto-addsen-item-6 = Rěče móža swoje <validationRulesLink>swójske přepruwowanske prawidła</validationRulesLink> z přidatnymi žadanjemi měć. Jeli za rěč specifiska přepruwowanska dataja njeje, wužiwamy powšitkowne jendźelske prawidła.
 sc-howto-cite-title = Citować
 sc-howto-cite-item-1 = Wy móhł websydło podać, na př. „Common Voice - https://commonvoice.mozilla.org/“
 sc-howto-review-title = Sady přepruwować
