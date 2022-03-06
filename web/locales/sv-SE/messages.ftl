@@ -1090,6 +1090,7 @@ contribution-for-example = till exempel
 contribution-misreadings-title = Felläsningar
 contribution-misreadings-description = När du lyssnar, kontrollera mycket noga att det som har spelats in är exakt det som har skrivits; avvisa om det är mindre fel.<br />Mycket vanliga fel inkluderar:
 contribution-misreadings-description-extended-list-1 = Saknar <strong>'En'</strong> eller <strong>'Den'</strong> i början av inspelningen.
+contribution-misreadings-description-extended-list-2 = Saknar ett <strong>s</strong> i slutet av ett ord.
 contribution-misreadings-description-extended-list-4 = Slutet på det sista ordet saknades eftersom inspelningen avbröts för snabbt.
 contribution-misreadings-description-extended-list-5 = Gör flera försök med att läsa ett ord.
 contribution-misreadings-example-1-title = De enorma dinosaurierna i Trias.
