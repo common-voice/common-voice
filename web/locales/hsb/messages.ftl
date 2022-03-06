@@ -1143,6 +1143,7 @@ sc-logout-button = Wotzjewić
 
 sc-home-title = Witajće k Common Voice Sentence Collector
 sc-home-collect-title = Sady hromadźić
+sc-home-collect-text = Pomhajće nam, zjawnje přistupne sady pisać abo hromadźić.
 sc-home-review-title = Sady přepruwować
 sc-home-review-text = Pomhajće nam, korektnosć sadow po směrnicach přepruwować.
 
@@ -1215,10 +1216,13 @@ sc-submit-prompt =
 sc-submit-title = Sady přidać
 sc-submit-select-language =
     .labelText = Rěč wubrać
+sc-submit-add-sentences = <wikipediaLink>Zjawnje přistupne</wikipediaLink> sady přidać
 sc-submit-ph-one-per-line =
     .placeholder = Jedna sada na linku
+sc-submit-from-where = Zwotkel su tute <wikipediaLink>zjawnje přistupne</wikipediaLink> sady?
 sc-submit-ph-read-how-to =
     .placeholder = Čitajće naš nawod, jeli sej wěsty njejsće, kak dyrbiće je přirjadować
+sc-submit-confirm = Wobkrućam, zo tute sady su <wikipediaLink>zjawnje přistupne</wikipediaLink> a mam prawo je nahrać.
 sc-submit-button =
     .submitText = Wotpósłać
 sc-submit-guidelines = Prošu přepruwujće <howToLink>směrnicy</howToLink>.
@@ -1391,6 +1395,7 @@ sc-review-select-language = Prošu wubjerće rěč, zo byšće sady přepruwowa�
 sc-review-no-sentences = Žane sady za přepruwowanje. <addLink>Přidajće nětko dalše sady!</addLink>
 sc-review-form-prompt =
     .message = Přepruwowane sady hišće zapodate njejsu, něwěrno?
+sc-review-form-usage = Šmórńće naprawo, zo byšće sadu schwalił. Šmórńće nalěwo, zo byšće ju wotpokazał. Šmórńće horje, zo byšće ju přeskočił. <strong>Njezabywajće, swoje pohódnoćenje zapodał!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Žórło: { $sentenceSource }
