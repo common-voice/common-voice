@@ -22,7 +22,7 @@ import Challenge from './challenge';
 import { features } from 'common';
 import { taxonomies } from 'common';
 import Takeout from './takeout';
-
+import NotificationQueue, { uploadImage } from './queues/imageQueue';
 const Transcoder = require('stream-transcoder');
 
 const PromiseRouter = require('express-promise-router');
@@ -287,6 +287,46 @@ export default class API {
   ) => {
     let avatarURL;
     let error;
+    const { type: imageUploadType } = params;
+    if (imageUploadType === 'file') {
+      const rawImageData = body;
+      const prefix = (new Date().getUTCMilliseconds() * Math.random())
+        .toString(36)
+        .slice(-5);
+      const fileName = `${client_id}/${prefix}-avatar.jpeg`;
+      try {
+        const bucketName = getConfig().CLIP_BUCKET_NAME;
+        const job = await uploadImage({
+          key: fileName,
+          user,
+          imageBucket: bucketName,
+          client_id,
+          rawImageData,
+          s3: this.s3,
+        });
+
+        return response.status(201);
+      } catch (error) {
+        console.error(error);
+        return response
+          .status(400)
+          .json({ message: 'Image could not be uploaded.' });
+      }
+
+      await this.s3
+        .upload({
+          Key: fileName,
+          Bucket: getConfig().CLIP_BUCKET_NAME,
+          Body: rawImageData,
+          ACL: 'public-read',
+        })
+        .promise();
+
+      avatarURL = this.bucket.getUnsignedUrl(
+        getConfig().CLIP_BUCKET_NAME,
+        fileName
+      );
+    }
     switch (params.type) {
       case 'default':
         avatarURL = null;
@@ -306,41 +346,12 @@ export default class API {
           error = 'not_found';
         }
         break;
-
-      case 'file':
-        // Because avatar files are uploaded as public, this is a nominally
-        // unpredictable prefix to prevent easy guessing of avatar location
-        const prefix = (new Date().getUTCMilliseconds() * Math.random())
-          .toString(36)
-          .slice(-5);
-
-        let fileName = `${client_id}/${prefix}-avatar.jpeg`;
-        await this.s3
-          .upload({
-            Key: fileName,
-            Bucket: getConfig().CLIP_BUCKET_NAME,
-            Body: body,
-            ACL: 'public-read',
-          })
-          .promise();
-
-        avatarURL = this.bucket.getUnsignedUrl(
-          getConfig().CLIP_BUCKET_NAME,
-          fileName
-        );
-        break;
-
       default:
         response.sendStatus(404);
         return;
     }
 
     if (!error) {
-      const oldAvatar = await UserClient.updateAvatarURL(
-        user.emails[0].value,
-        avatarURL
-      );
-      if (oldAvatar) await this.bucket.deleteAvatar(client_id, oldAvatar);
     }
 
     response.json(error ? { error } : {});
