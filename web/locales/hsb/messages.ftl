@@ -558,11 +558,13 @@ about-playbook-how-add-language-content-3 = <strong>Zo byšće sady zběrał</st
 
 about-playbook-how-localize = Kak lokalizowanje sydłow funguje?
 about-playbook-how-localize-content-1 = Přełožowanje sydła Common Voice so na <strong>Pontoon</strong> wotměwa.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Załožće konto</pontoonAccountLink>, jeli žane nimaće. Wubjerće swoju rěč<strong>(„Team“)</strong> a potom projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Tam dataje namakaće, kotrež dyrbja so přełožować. Klikńće na jednu z nich, potom so słowa w jendźelšćinje a kašćik za přełožowanje pokazuja.
 about-playbook-how-localize-content-4 = Sydło je hotowe za wozjewjenje, hdyž je po 75 % dokónčene.
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Kak móžu sady přidać?
+about-playbook-how-add-sentences-content-3 = Móžeće <scraperLink>ekstraktor sadow</scraperLink> wužiwać, zo byšće krótke sady z Wikipedije dóstał.
 about-playbook-how-add-sentences-content-4 = Sady, kotrež su přepruwowane, so na srjedach eksportuja a su po přichodnym wozjewjenju k dispoziciji.
 
 ## How to record quality
