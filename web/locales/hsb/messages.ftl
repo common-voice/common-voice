@@ -1150,6 +1150,7 @@ sc-home-review-text = Pomhajće nam, korektnosć sadow po směrnicach přepruwow
 
 ## GENERAL
 
+sc-languages-fetch-error = K dispoziciji stejace rěče njedachu so wotwołać. Přinoški tuchwilu móžne njejsu. Prošu spytajće pozdźišo hišće raz.
 
 ## HOW-TO
 
@@ -1157,6 +1158,7 @@ sc-howto-title = Nawod
 sc-howto-addlang-title = Rěče přidać, z kotrymiž so dźěła
 sc-howto-addlang-text = Hdyž sće přizjewjeny, móžeće swoje rěče we wotrězku Profil wubrać.
 sc-howto-addsen-title = Nowe sady přidać
+sc-howto-addsen-item-5 = Wukrajne pismiki. Pismiki dyrbja w rěči płaćiwe być, w kotrejž so je rěča. “ж” na přikład je pismik w ruskim alfabeće, ale so ženje w jendźelšćinje njewužiwa a njeměli so tohodla ženje w jendźelskim žórłowym teksće jewić.
 sc-howto-cite-title = Citować
 sc-howto-cite-item-1 = Wy móhł websydło podać, na př. „Common Voice - https://commonvoice.mozilla.org/“
 sc-howto-review-title = Sady přepruwować
