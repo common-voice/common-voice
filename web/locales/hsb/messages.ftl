@@ -1133,6 +1133,7 @@ sc-header-profile = Profil
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Zmylki zdźělić
 sc-footer-translate = Tutu stronu přełožować
+sc-footer-report-copyright = Problemy z awtorskim prawom zdźělić
 sc-footer-privacy = Priwatnosć
 sc-footer-terms = Wuměnjenja
 sc-footer-cookies = Placki
@@ -1430,6 +1431,7 @@ sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěč wužiwarskeho powjercha
 sc-settings-language-translated-warning = Strony za tutu rěč snano dospołnje přełožene njejsu. Móžeće z přełoženjom na <pontoonLinkLink>Pontoon</pontoonLinkLink> wupomhać.
 sc-settings-reset-skipped = Přeskočene sady wróćo stajić
+sc-settings-skipped-decription = Sće do toho sady při pohódnoćenju přeskočił. Wróćostajenje přeskočenych sadow budźe wšě přeskočene sady znowa pokazować. To je njewotwisny wot rěče.
 sc-settings-show-all-button = Wšě přeskočene sady hišće raz pokazać
 sc-settings-failed = Nastajenja njedadźa so změnić. Prošu spytajće hišće raz.
 # VALIDATION
