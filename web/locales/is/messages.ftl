@@ -1212,6 +1212,7 @@ sc-howto-findpd-partner-2 = Sérfróðir málvísindamenn geta líka hjálpað, 
 ## MY SENTENCES
 
 sc-my-title = Setningarnar mínar
+sc-my-description = Þessi síða gefur þér yfirlit yfir allar innsendu setningarnar þínar. Þú getur líka eytt þegar innsendum setningum ef þörf krefur, með því að merkja við gátreitinn við hliðina á viðkomandi setningum og smella neðst á &quot;Eyða völdum setningum&quot;. Fjarlægðu setningar aðeins ef brýna nauðsyn krefur, til dæmis ef þú hefur tekið eftir því eftir að setning er höfundarréttarvarin.
 sc-my-loading = Hleð inn setningunum þínum...
 sc-my-err-fetching = Villa við að sækja setningarnar þínar. Reyndu aftur.
 sc-my-no-sentences = Engar setningar fundust!
