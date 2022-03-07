@@ -1164,6 +1164,7 @@ sc-howto-title = Nawod
 sc-howto-addlang-title = Rěče přidać, z kotrymiž so dźěła
 sc-howto-addlang-text = Hdyž sće přizjewjeny, móžeće swoje rěče we wotrězku Profil wubrać.
 sc-howto-addsen-title = Nowe sady přidać
+sc-howto-addsen-item-1 = Wšě sady, kotrež zapodawaće, dyrbja pod <wikipediaLink>licencu Public Domain (CC-0)</wikipediaLink> być. Zo bychmy přiwzaće dźěła podpěrowali, kotrež pod zjawnej licencu njeje, smy <cc0WaiverLink>předłohu za přinoški</cc0WaiverLink> za dźěła wutworili, ke kotrymž mějećel awtorskeho prawa by rady swój material přinošował.
 sc-howto-addsen-item-5 = Wukrajne pismiki. Pismiki dyrbja w rěči płaćiwe być, w kotrejž so je rěča. “ж” na přikład je pismik w ruskim alfabeće, ale so ženje w jendźelšćinje njewužiwa a njeměli so tohodla ženje w jendźelskim žórłowym teksće jewić.
 sc-howto-addsen-item-6 = Rěče móža swoje <validationRulesLink>swójske přepruwowanske prawidła</validationRulesLink> z přidatnymi žadanjemi měć. Jeli za rěč specifiska přepruwowanska dataja njeje, wužiwamy powšitkowne jendźelske prawidła.
 sc-howto-cite-title = Citować
