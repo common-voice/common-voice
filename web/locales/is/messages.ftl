@@ -1188,6 +1188,7 @@ sc-howto-cite-title = Hvernig á að gera tilvitnanir
 sc-howto-cite-pre-1 = Það er mikilvægt að þú vísir til hvar þú fannst opinbera notkunarleyfið til að forðast ritstuld og gera kleift að fylgjast með <copyrightIssuesLink>höfundarréttarmálum</copyrightIssuesLink>. Hér eru nokkrar leiðir til að vitna í verkið.
 sc-howto-cite-item-1 = Þú gætir látið vefslóðina fylgja með, t.d. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Þú gætir notað fræðilegan tilvísunarstíl, t.d. Harvard-stíl "Mozilla (2021) Common Voice. Fáanlegt á https://commonvoice.mozilla.org/ (Sótt: 15. september 2021)"
+sc-howto-cite-item-3 = Fyrir texta í almenningseigu sem ekki eru tiltækir á internetinu gætirðu notað fræðilegan tilvísunarstíl, t.d. Harvard-stílinn "Jóna Jóns (2021) Ljóðmæli mín í almenningseigu"
 sc-howto-review-title = Yfirfara setningar
 sc-howto-review-subtitle = Gakktu úr skugga um að setningin uppfylli eftirfarandi skilyrði:
 sc-howto-review-criteria-1 = Setningin verður að vera rétt stafsett.
@@ -1198,6 +1199,12 @@ sc-howto-review-criteria-5 = Ef setningin uppfyllir ekki ofangreind skilyrði sk
 sc-howto-review-criteria-6 = Ef þú lýkur við að skoða allar tiltækar setningar, þá geturðu hjálpað okkur að safna fleiri setningum!
 sc-howto-findpd-title = Að finna fyrirliggjandi setningar í almenningseign
 sc-howto-findpd-subtitle = Leitaðu að þeim á internetinu
+sc-howto-findpd-text-2 = Mundu að við þurfum leyfi til að birta þessar setningar, þannig að þú skalt verta alltaf viss um að textinn sé með <wikipediaLink>notkunarleyfi fyrir almenning</wikipediaLink>. Ef engin skýr vísbending um slíkt finnst skaltu hafa samband við þann sem textinn tilheyrir og spyrja hvort hann vilji leggja texta sinn til almenningseignar. Ef viðkomandi er til í það, geturðu hjálpað viðkomandi að fara í gegnum ferlið við að útbúa <cc0WaiverLink>framlagssamninginn</cc0WaiverLink>. Ef viðkomandi vill ekki leggja til textann, þá er ekki heimilt að nota þann texta.
+sc-howto-findpd-tips = Hér eru nokkur ráð til að finna setningar:
+sc-howto-findpd-tips-1 = Bestu heimildirnar sem þú getur leitað að eru til dæmis hlaðvörp, umritanir samræðna, kvikmyndahandrit og allt sem hugsanlega getur innihaldið dagleg samtöl.
+sc-howto-findpd-tips-2 = Stjórnvaldsráðstafanir, bækur og greinar eru líka frábærar, en þar sem textinn hefur tilhneigingu til að vera aðeins formlegri, er minni áhersla lögð á slíka texta.
+sc-howto-findpd-tips-3 = Því miður getum við ennþá ekki haft með Wikimedia-greinar. Þannig að þú skalt ekki afrita og líma þaðan.
+sc-howto-findpd-subtitle-2 = Vertu í samstarfi við samtök eða aðra einstaklinga
 
 ## MY SENTENCES
 
