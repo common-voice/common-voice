@@ -1161,11 +1161,15 @@ sc-logout-button = Skrá út
 ## HOME
 
 sc-home-title = Velkomin í setningasöfnun Samróms
+sc-home-intro = Setningasafnarinn er hluti af <commonVoiceLink>Samrómi - Common Voice</commonVoiceLink>. Hann gerir þátttakendum kleift að safna og staðfesta setningar búnar til af þátttakendum í verkefninu. Þú getur líka notað þetta verkfæri til að flytja inn og hreinsa upp stutta og meðalstóra texta í almenningseigu sem þú hefur fundið. Allar setningar þurfa að vera með 'Public Domain' notkunarleyfi til almenningsnota. Samþykktar setningar eru fluttar út í hverri viku í Common Voice gagnasafnið og eru gefnar út á vefsvæði Samróms við hverja nýja útfærslu.
 sc-home-collect-title = Safna setningum
+sc-home-collect-text = Hjálpaðu okkur með því að skrifa eða safna setningum í almenningseigu.
 sc-home-review-title = Yfirfara setningar
+sc-home-review-text = Hjálpaðu okkur með því að yfirfara hvort setningar séu réttar samkvæmt leiðbeiningunum.
 
 ## GENERAL
 
+sc-languages-fetch-error = Ekki tókst að sækja tiltæk tungumál. Framlög eru ekki möguleg í augnablikinu. Reyndu aftur síðar.
 
 ## HOW-TO
 
