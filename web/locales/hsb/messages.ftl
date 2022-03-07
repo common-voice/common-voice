@@ -559,7 +559,7 @@ about-playbook-how-add-language-content-3 = <strong>Zo byšće sady zběrał</st
 about-playbook-how-localize = Kak lokalizowanje sydłow funguje?
 about-playbook-how-localize-content-1 = Přełožowanje sydła Common Voice so na <strong>Pontoon</strong> wotměwa.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Załožće konto</pontoonAccountLink>, jeli žane nimaće. Wubjerće swoju rěč<strong>(„Team“)</strong> a potom projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Tam dataje namakaće, kotrež dyrbja so přełožować. Klikńće na jednu z nich, potom so słowa w jendźelšćinje a kašćik za přełožowanje pokazuja.
-about-playbook-how-localize-content-3 = Přełožowanj  so z jendźelšćiny přewjedźe, ale móžeće <strong>namjety</strong> w druhich rěčach widźeć. Klikńće na <strong>profilowy</strong> symbol, potom na wotkaz <strong>Nastajenja</strong> a přidajće rěče, kotrež rěčiće. Deleka w prawym róžku budźe lisćina přełožkow z mjenom <strong>Locales</strong>. Přełožki so na sydle po jednym dnju pokazaja.
+about-playbook-how-localize-content-3 = Přełožowanje  so z jendźelšćiny přewjedźe, ale móžeće <strong>namjety</strong> w druhich rěčach widźeć. Klikńće na <strong>profilowy</strong> symbol, potom na wotkaz <strong>Nastajenja</strong> a přidajće rěče, kotrež rěčiće. Deleka w prawym róžku budźe lisćina přełožkow z mjenom <strong>Locales</strong>. Přełožki so na sydle po jednym dnju pokazaja.
 about-playbook-how-localize-content-4 = Sydło je hotowe za wozjewjenje, hdyž je po 75 % dokónčene.
 about-playbook-how-localize-content-5 = Wobhladajće sej rozjasnjenske widejo
 
@@ -1164,7 +1164,7 @@ sc-howto-title = Nawod
 sc-howto-addlang-title = Rěče přidać, z kotrymiž so dźěła
 sc-howto-addlang-text = Hdyž sće přizjewjeny, móžeće swoje rěče we wotrězku Profil wubrać.
 sc-howto-addsen-title = Nowe sady přidać
-sc-howto-addsen-item-1 = Wšě sady, kotrež zapodawaće, dyrbja pod <wikipediaLink>licencu Public Domain (CC-0)</wikipediaLink> być. Zo bychmy přiwzaće dźěła podpěrowali, kotrež pod zjawnej licencu njeje, smy <cc0WaiverLink>předłohu za přinoški</cc0WaiverLink> za dźěła wutworili, ke kotrymž mějećel awtorskeho prawa by rady swój material přinošował.
+sc-howto-addsen-item-1 = Wšě sady, kotrež zapodawaće, dyrbja pod <wikipediaLink>licencu Public Domain (CC-0)</wikipediaLink> być. Zo bychmy přiwzaće dźěła podpěrowali, kotrež pod zjawnej licencu njeje, smy <cc0WaiverLink>předłohu za přinoški</cc0WaiverLink> za dźěła wutworili, ke kotrymž by mějićel awtorskeho prawa rady swój material přinošował.
 sc-howto-addsen-item-5 = Wukrajne pismiki. Pismiki dyrbja w rěči płaćiwe być, w kotrejž so je rěča. “ж” na přikład je pismik w ruskim alfabeće, ale so ženje w jendźelšćinje njewužiwa a njeměli so tohodla ženje w jendźelskim žórłowym teksće jewić.
 sc-howto-addsen-item-6 = Rěče móža swoje <validationRulesLink>swójske přepruwowanske prawidła</validationRulesLink> z přidatnymi žadanjemi měć. Jeli za rěč specifiska přepruwowanska dataja njeje, wužiwamy powšitkowne jendźelske prawidła.
 sc-howto-cite-title = Citować
