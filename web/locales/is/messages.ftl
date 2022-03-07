@@ -1120,12 +1120,16 @@ contribution-background-noise-example-2-fixed-title = Risaeðlu <strong>[hósti]
 contribution-background-noise-example-2-explanation = [Hluti textans heyrist ekki]
 contribution-background-noise-example-3-fixed-title = <strong>[Brak]</strong> eðlurnar á <strong>[brestir]</strong> tímabilinu.
 contribution-background-voices-title = Bakgrunnsraddir
+contribution-background-voices-description = Rólegt bakgrunnshljóð er í lagi, en við viljum ekki fleiri raddir sem gætu valdið því að algrími raddgreiningarvéla auðkenni orð sem eru ekki í rituðum texta. Ef þú getur heyrt aðgreind orð fyrir utan þau í textanum ætti að hafna upptökunni. Venjulega gerist þetta þar sem kveikt hefur verið á sjónvarpi eða þar sem samtal er í gangi í næsta nágrenni.
 contribution-background-voices-description-extended = Ef upptakan bilar eða er með brak eða aðrar truflanir, skaltu hafna henni nema allur textinn heyrist enn.
 contribution-background-voices-example-1-title = Risaeðlurnar á Triassic-tímabilinu. <strong>[lesið af einni röddu]</strong>
 contribution-background-voices-example-1-explanation = Ertu að koma? <strong>[spurt með annarri rödd]</strong>
 contribution-volume-title = Hljóðstyrkur
+contribution-volume-description = Það er eðlilegur breytileiki í hljóðstyrk á milli lesenda. Hafnaðu aðeins ef hljóðstyrkurinn er svo mikill að upptakan aflagast eða (algengara) ef styrkurinn er svo lágur að þú heyrir ekki hvað er sagt án þess að vísa í ritaðan texta.
 contribution-reader-effects-title = Mismunandi upplestur
+contribution-reader-effects-description = Flestar upptökur eru af fólki sem talar með sinni eðlilegu rödd. Þú getur sætt þig við einstaka óhefðbundna upptöku þar sem er hrópað, hvíslað eða augljóslega flutt með „dramatískri“ rödd. Hafnaðu sungnum upptökum og þeim sem styðjast við tölvugerða rödd.
 contribution-just-unsure-title = Ertu ekki viss?
+contribution-just-unsure-description = Ef þú rekst á eitthvað sem þessar leiðbeiningar ná ekki til, skaltu velja samkvæmt bestu dómgreind þinni. Ef þú getur ekki ákveðið þig skaltu nota Sleppa-hnappinn og fara í næstu upptöku.
 see-more = <chevron></chevron>Sjá meira
 see-less = <chevron></chevron>Sjá minna
 
@@ -1156,6 +1160,7 @@ sc-logout-button = Skrá út
 
 ## HOME
 
+sc-home-title = Velkomin í setningasöfnun Samróms
 sc-home-collect-title = Safna setningum
 sc-home-review-title = Yfirfara setningar
 
