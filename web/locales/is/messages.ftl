@@ -1070,6 +1070,7 @@ demo-account-sign-up = Senda skráningartengil
 ## Demo Contribute
 
 demo-contribute-card-header = Tilbúin/n til að bæta við rödd þinni eða ljá okkur eyra?
+demo-contribute-card-body-v2 = Nú þegar þú veist aðeins meira um Common Voice verkefnið, hvers vegna ekki að prófa það? Smelltu á hljóðnematáknið til að byrja að lesa setningar upphátt. <br/><br/>Ef þú vilt frekar skoða raddsýni annarra, smelltu á spilunartáknið. Þú hjálpar þannig til við að staðfesta að upptökur passi við setningarnar sem skrifaðar eru á skjáinn.
 demo-listen-subtitle = Tilbúin/n til að leggja þitt af mörkum?
 
 ## Demo Dashboard
