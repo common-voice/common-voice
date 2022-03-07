@@ -1161,6 +1161,7 @@ sc-howto-addlang-title = Rěcy pśidaś, z kótarymiž se źěła
 sc-howto-addlang-text = Gaž sćo pśizjawjony, móžośo swóje rěcy we wótrězku Profil wubraś.
 sc-howto-addsen-title = Nowe sady pśidaś
 sc-howto-addsen-item-5 = Wukrajne pismiki. Pismiki musde w rěcy płaśiwe byś, w kótarejž se je powědaju. “ж” na pśikład jo pismik w ruskem alfabeśe, ale se nigda w engelšćinje njewužywa a njeměli se togodla nigda w engelskem žrědłowem teksće zjawiś.
+sc-howto-addsen-item-6 = Rěcy mógu swóje <validationRulesLink>swójske pśeglědowańske pšawidła</validationRulesLink> z pśidatnymi pominjenjami měś. Jolic njedajo za rěc specifisku pśeglědowansku dataju, wužywamy powšykne engelske pšawidła.
 sc-howto-cite-title = Citěrowaś
 sc-howto-cite-item-1 = Wy mógał websedło pódaś, na pś. „Common Voice - https://commonvoice.mozilla.org/“
 sc-howto-review-title = Sady pśeglědaś
@@ -1221,10 +1222,13 @@ sc-submit-prompt =
 sc-submit-title = Sady pśidaś
 sc-submit-select-language =
     .labelText = Rěc wubraś
+sc-submit-add-sentences = <wikipediaLink>Zjawnje pśistupne</wikipediaLink> sady pśidaś
 sc-submit-ph-one-per-line =
     .placeholder = Jadna sada na smužku
+sc-submit-from-where = Wótkul su toś te <wikipediaLink>zjawnje pśistupne</wikipediaLink> sady?
 sc-submit-ph-read-how-to =
     .placeholder = Cytajśo našo rozpokazanje, jolic njejsćo se wěsty, kak musyśo je pśirědowaś
+sc-submit-confirm = Wobkšuśijom, až toś te sady su <wikipediaLink>zjawnje pśistupne</wikipediaLink> a mam pšawo je nagraś.
 sc-submit-button =
     .submitText = Wótpósłaś
 sc-submit-guidelines = Pšosym pśeglědujśo <howToLink>směrnice</howToLink>.
@@ -1397,6 +1401,7 @@ sc-review-select-language = Pšosym wubjeŕśo rěc, aby sady pśeglědował.
 sc-review-no-sentences = Žedne sady za pśeglědowanje. <addLink>Pśidajśo něnto dalšne sady!</addLink>
 sc-review-form-prompt =
     .message = Pśeglědane sady hyšći njejsu zapódane, nic ga?
+sc-review-form-usage = Šmarniśo napšawo, aby sadu pśizwólił. Šmarniśo nalěwo, aby ju wótpokazał. Šmarniśo górjej, aby ju pśeskócył. <strong>Njezabywajśo, swóje pógódnośenje zapódaś!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Žrědło: { $sentenceSource }
@@ -1431,6 +1436,7 @@ sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěc wužywaŕskego pówjercha
 sc-settings-language-translated-warning = Boki za toś tu rěc njejsu snaź dopołnje pśełožone. Móžośo z pśełožowanim <pontoonLinkLink>na Pontoon</pontoonLinkLink> wupomogaś.
 sc-settings-reset-skipped = Pśeskócone sady slědk stajiś
+sc-settings-skipped-decription = Sćo do toho pśeskócył sady pśi pógódnośenju. Slědkstajanje pśeskóconych sadow buźo wšykne pśeskócone sady znowego pokazowaś. To jo njewótwisne wót rěcy.
 sc-settings-show-all-button = Wšykne pśeskócone sady hyšći raz pokazaś
 sc-settings-failed = Nastajenja njedaju se změniś. Pšosym wopytajśo hyšći raz.
 # VALIDATION
