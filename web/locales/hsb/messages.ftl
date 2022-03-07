@@ -567,6 +567,7 @@ about-playbook-how-localize-content-5 = Wobhladajće sej rozjasnjenske widejo
 
 about-playbook-how-add-sentences = Kak móžu sady přidać?
 about-playbook-how-add-sentences-content-1 = <strong>Hromadźak sadow</strong> je nastroj za hromadźenje a přepruwowanje zjawnje přistupnych sadow. <scAccountLink>Dyrbiće konto załožić</scAccountLink>. Přidajće potom swojemu <strong>profilej</strong> swoju rěč. Móžeće sady <strong>přidać</strong> abo do toho přidate sady <strong>přepruwować</strong>.
+about-playbook-how-add-sentences-content-2 = Sady dyrbja so wot dweju wosobow přepruwować a akceptować, zo bychu so do Common Voice přewzali. Směrnicy za swoju rěč <languageGuidelinesLink>tu</languageGuidelinesLink> wutworiće. Sady dyrbja <licenseLink>zjawnje přistupne</licenseLink> a krótše hač 15 słowow być. Móžeće wobsedźerja teksta prosyć, zo by jón z pomocu našeho wozjewjenja wzdaća pod <waiverLink>CC0</waiverLink> stajił a jo na commonvoice@mozilla.com pósłał.
 about-playbook-how-add-sentences-content-3 = Móžeće <scraperLink>ekstraktor sadow</scraperLink> wužiwać, zo byšće krótke sady z Wikipedije dóstał.
 about-playbook-how-add-sentences-content-4 = Sady, kotrež su přepruwowane, so na srjedach eksportuja a su po přichodnym wozjewjenju k dispoziciji.
 
