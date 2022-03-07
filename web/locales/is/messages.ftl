@@ -1261,6 +1261,7 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm = Ég staðfesti að þessar setningar eru <wikipediaLink>í almenningseigu</wikipediaLink> og að ég hef leyfi til að senda þær inn.
 sc-submit-button =
     .submitText = Senda inn
+sc-submit-filtered = Setningar sem síaðar hafa verið út vegna þess að kröfur eru ekki uppfylltar (sendu inn lagfærðar útgáfur sem nýjar setningar):
 sc-submit-guidelines = Athugaðu <howToLink>leiðbeiningarnar</howToLink>.
 
 ## ADD LANGUAGE
