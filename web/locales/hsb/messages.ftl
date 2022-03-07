@@ -1231,6 +1231,7 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm = Wobkrućam, zo tute sady su <wikipediaLink>zjawnje přistupne</wikipediaLink> a mam prawo je nahrać.
 sc-submit-button =
     .submitText = Wotpósłać
+sc-submit-filtered = Filtrowane sady falowacych žadanjow dla (prošu zapodajće krute wersije jako nowe sady):
 sc-submit-guidelines = Prošu přepruwujće <howToLink>směrnicy</howToLink>.
 
 ## ADD LANGUAGE
