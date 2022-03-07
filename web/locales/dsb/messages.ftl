@@ -564,6 +564,7 @@ about-playbook-how-localize-content-4 = Sedło jo gótowe za wózjawjenje, gaž 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Kak mógu sady pśidaś?
+about-playbook-how-add-sentences-content-1 = <strong>Zgromaźowak sadow</strong> jo rěd za gromaźenje a pśeglědowanje zjawnje pśistupnych sadow. <scAccountLink>Musyśo konto załožyś</scAccountLink>. Pśidajśo pón swójomu <strong>profiloju</strong> swóju rěc. Móžośo sady <strong>pśidaś</strong> abo do togo pśidane sady <strong>pśeglědowaś</strong>.
 about-playbook-how-add-sentences-content-3 = Móžośo <scraperLink>ekstraktor sadow</scraperLink> wužywaś, aby krotke sady z Wikipedije dostał.
 about-playbook-how-add-sentences-content-4 = Sady, kótarež su pśeglědane, se srjodu eksportěruju a su pó pśiducem wózjawjenju k dispoziciji.
 
