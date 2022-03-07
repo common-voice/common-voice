@@ -1152,6 +1152,7 @@ sc-home-review-text = Pomagajśo nam, korektnosć sadow pó směrnicach pśeglě
 
 ## GENERAL
 
+sc-languages-fetch-error = K dispoziciji stojrce rěvx njejsu se dali wótwołaś. Pśinoski njejsu tuchylu móžne. Pšosym wopytajśo pózdźej hyšći raz.
 
 ## HOW-TO
 
@@ -1159,6 +1160,7 @@ sc-howto-title = Rozpokazanje
 sc-howto-addlang-title = Rěcy pśidaś, z kótarymiž se źěła
 sc-howto-addlang-text = Gaž sćo pśizjawjony, móžośo swóje rěcy we wótrězku Profil wubraś.
 sc-howto-addsen-title = Nowe sady pśidaś
+sc-howto-addsen-item-5 = Wukrajne pismiki. Pismiki musde w rěcy płaśiwe byś, w kótarejž se je powědaju. “ж” na pśikład jo pismik w ruskem alfabeśe, ale se nigda w engelšćinje njewužywa a njeměli se togodla nigda w engelskem žrědłowem teksće zjawiś.
 sc-howto-cite-title = Citěrowaś
 sc-howto-cite-item-1 = Wy mógał websedło pódaś, na pś. „Common Voice - https://commonvoice.mozilla.org/“
 sc-howto-review-title = Sady pśeglědaś
