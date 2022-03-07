@@ -559,7 +559,9 @@ about-playbook-how-add-language-content-3 = <strong>Aby sady gromaźił</strong>
 about-playbook-how-localize = Kak lokalizěrowanje sedłow funkcioněrujo?
 about-playbook-how-localize-content-1 = Pśełožowanje sedła Common Voice se na <strong>Pontoon</strong> wótměwa.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Załožćo konto</pontoonAccountLink>, jolic žedno njamaśo. Wubjeŕśo swóju rěc<strong>(„Team“)</strong> a pón projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Tam dataje namakajośo, kótarež muse se pśełožowaś. Klikniśo na jadnu z nich, pón se słowa w engelšćinje a kašćik za pśełožowanje pokazuju.
+about-playbook-how-localize-content-3 = Pśełožowanje  se z engelšćiny pśewjeźo, ale móžośo <strong>naraźenja</strong> w drugich rěcach wiźeś. Klikniśo na <strong>profilowy</strong> symbol, pón na wótkaz <strong>Nastajenja</strong> a pśidajśo rěcy, kótarež powědaśo. Dołojce w pšawem rožku buźo lisćina pśełožkow z mjenim <strong>Locales</strong>. Pśełožki se na sedle pó jadnem dnju pokaže.
 about-playbook-how-localize-content-4 = Sedło jo gótowe za wózjawjenje, gaž jo pó 75 % dokóńcone.
+about-playbook-how-localize-content-5 = Woglědajśo se wideo rozjasnjenja
 
 ## How to add sentences
 
@@ -1162,6 +1164,7 @@ sc-howto-title = Rozpokazanje
 sc-howto-addlang-title = Rěcy pśidaś, z kótarymiž se źěła
 sc-howto-addlang-text = Gaž sćo pśizjawjony, móžośo swóje rěcy we wótrězku Profil wubraś.
 sc-howto-addsen-title = Nowe sady pśidaś
+sc-howto-addsen-item-1 = Wšykne sady, kótarež zapódawaśo, muse pód <wikipediaLink>licencu Public Domain (CC-0)</wikipediaLink> byś. Aby pśiwześe źěła pódpěrali, kótarež njejo pód zjawneju licencu, smy napórali <cc0WaiverLink>pśedłogu za pśinoski</cc0WaiverLink> za źěła, ku kótarymž by mějaŕ awtorskego pšawa rady swój material pśinosował.
 sc-howto-addsen-item-5 = Wukrajne pismiki. Pismiki musde w rěcy płaśiwe byś, w kótarejž se je powědaju. “ж” na pśikład jo pismik w ruskem alfabeśe, ale se nigda w engelšćinje njewužywa a njeměli se togodla nigda w engelskem žrědłowem teksće zjawiś.
 sc-howto-addsen-item-6 = Rěcy mógu swóje <validationRulesLink>swójske pśeglědowańske pšawidła</validationRulesLink> z pśidatnymi pominjenjami měś. Jolic njedajo za rěc specifisku pśeglědowansku dataju, wužywamy powšykne engelske pšawidła.
 sc-howto-cite-title = Citěrowaś
