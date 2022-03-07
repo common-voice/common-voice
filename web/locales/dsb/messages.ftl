@@ -558,11 +558,13 @@ about-playbook-how-add-language-content-3 = <strong>Aby sady gromaźił</strong>
 
 about-playbook-how-localize = Kak lokalizěrowanje sedłow funkcioněrujo?
 about-playbook-how-localize-content-1 = Pśełožowanje sedła Common Voice se na <strong>Pontoon</strong> wótměwa.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Załožćo konto</pontoonAccountLink>, jolic žedno njamaśo. Wubjeŕśo swóju rěc<strong>(„Team“)</strong> a pón projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Tam dataje namakajośo, kótarež muse se pśełožowaś. Klikniśo na jadnu z nich, pón se słowa w engelšćinje a kašćik za pśełožowanje pokazuju.
 about-playbook-how-localize-content-4 = Sedło jo gótowe za wózjawjenje, gaž jo pó 75 % dokóńcone.
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Kak mógu sady pśidaś?
+about-playbook-how-add-sentences-content-3 = Móžośo <scraperLink>ekstraktor sadow</scraperLink> wužywaś, aby krotke sady z Wikipedije dostał.
 about-playbook-how-add-sentences-content-4 = Sady, kótarež su pśeglědane, se srjodu eksportěruju a su pó pśiducem wózjawjenju k dispoziciji.
 
 ## How to record quality
@@ -1133,6 +1135,7 @@ sc-header-profile = Profil
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Zmólki k wěsći daś
 sc-footer-translate = Toś ten bok pśełožowaś
+sc-footer-report-copyright = Problemy z awtorskim pšawom k wěsći daś
 sc-footer-privacy = Priwatnosć
 sc-footer-terms = Wuměnjenja
 sc-footer-cookies = Cookieje
@@ -1143,6 +1146,7 @@ sc-logout-button = Wótzjawiś
 
 sc-home-title = Witajśo k Common Voice Sentence Collector
 sc-home-collect-title = Sady gromaźiś
+sc-home-collect-text = Pomožćo nam, zjawnje pśistupne sady pisaś abo gromaźiś.
 sc-home-review-title = Sady pśeglědaś
 sc-home-review-text = Pomagajśo nam, korektnosć sadow pó směrnicach pśeglědowaś.
 
