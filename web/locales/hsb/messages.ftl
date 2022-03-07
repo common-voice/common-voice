@@ -1401,7 +1401,7 @@ sc-review-select-language = Prošu wubjerće rěč, zo byšće sady přepruwowa�
 sc-review-no-sentences = Žane sady za přepruwowanje. <addLink>Přidajće nětko dalše sady!</addLink>
 sc-review-form-prompt =
     .message = Přepruwowane sady hišće zapodate njejsu, něwěrno?
-sc-review-form-usage = Šmórńće naprawo, zo byšće sadu schwalił. Šmórńće nalěwo, zo byšće ju wotpokazał. Šmórńće horje, zo byšće ju přeskočił. <strong>Njezabywajće, swoje pohódnoćenje zapodał!</strong>
+sc-review-form-usage = Šmórńće naprawo, zo byšće sadu schwalił. Šmórńće nalěwo, zo byšće ju wotpokazał. Šmórńće horje, zo byšće ju přeskočił. <strong>Njezabywajće, swoje pohódnoćenje zapodać!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Žórło: { $sentenceSource }
@@ -1436,7 +1436,7 @@ sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěč wužiwarskeho powjercha
 sc-settings-language-translated-warning = Strony za tutu rěč snano dospołnje přełožene njejsu. Móžeće z přełoženjom na <pontoonLinkLink>Pontoon</pontoonLinkLink> wupomhać.
 sc-settings-reset-skipped = Přeskočene sady wróćo stajić
-sc-settings-skipped-decription = Sće do toho sady při pohódnoćenju přeskočił. Wróćostajenje přeskočenych sadow budźe wšě přeskočene sady znowa pokazować. To je njewotwisny wot rěče.
+sc-settings-skipped-decription = Sće do toho sady při pohódnoćenju přeskočił. Wróćostajenje přeskočenych sadow budźe wšě přeskočene sady znowa pokazować. To je njewotwisne wot rěče.
 sc-settings-show-all-button = Wšě přeskočene sady hišće raz pokazać
 sc-settings-failed = Nastajenja njedadźa so změnić. Prošu spytajće hišće raz.
 # VALIDATION
