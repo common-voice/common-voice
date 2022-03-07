@@ -1098,6 +1098,7 @@ contribution-misreadings-example-2-explanation = [Ætti að vera „risaeðlur�
 contribution-misreadings-example-3-title = Risaeðlurnar á Triassi-.
 contribution-misreadings-example-3-explanation = [Klippt af upptöku fyrir lok síðasta orðs]
 contribution-misreadings-example-4-title = Risaeðlurnar á Triassic-skeiðinu. Já.
+contribution-misreadings-example-4-explanation = [Meira hefur verið tekið upp en tilskilinn texti]
 contribution-background-noise-title = Bakgrunnshávaði
 contribution-background-voices-title = Bakgrunnsraddir
 contribution-volume-title = Hljóðstyrkur
