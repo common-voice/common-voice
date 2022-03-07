@@ -1231,6 +1231,7 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm = Wobkšuśijom, až toś te sady su <wikipediaLink>zjawnje pśistupne</wikipediaLink> a mam pšawo je nagraś.
 sc-submit-button =
     .submitText = Wótpósłaś
+sc-submit-filtered = Filtrowane sady felujucych pominanjow dla (pšosym zapódajśo kšute wersije ako nowe sady):
 sc-submit-guidelines = Pšosym pśeglědujśo <howToLink>směrnice</howToLink>.
 
 ## ADD LANGUAGE
