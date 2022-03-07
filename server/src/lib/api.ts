@@ -305,7 +305,7 @@ export default class API {
           s3: this.s3,
         });
 
-        return response.status(201);
+        return response.status(201).json(job);
       } catch (error) {
         console.error(error);
         return response
