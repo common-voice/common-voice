@@ -1076,6 +1076,7 @@ demo-listen-subtitle = Tilbúin/n til að leggja þitt af mörkum?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Persónuleg stjórnborð halda þér upplýstum með framvindu einstaklinga og samfélagsins.
+demo-dashboard-card-body = Fyrir hvert raddsýni sem gefið er og hverja staðfesta hljóðupptöku, er stjórnborð reikningsins þíns uppfært til að endurspegla nýjustu framvinduna á hverju tungumáli sem þú tekur þátt í. Einmitt, þú getur lagt þitt af mörkum til fleiri en eins tungumáls!<br/><br/> Notaðu stjórnborðið til að fylgjast með tölfræðinni þinni, sjáðu hvernig þér gengur miðað við aðra í samfélaginu og settu dagleg eða vikuleg markmið um framlag.
 
 ## Validation criteria
 
@@ -1084,6 +1085,7 @@ contribution-criteria-link = Skilja framlagsviðmið
 contribution-criteria-page-title = Framlagsviðmið
 contribution-for-example = til dæmis
 contribution-misreadings-title = Mislestur
+contribution-misreadings-description = Þegar þú hlustar skaltu athuga mjög vel að það sem hefur verið tekið upp sé nákvæmlega það sem hefur verið skrifað; hafna ef það eru jafnvel smávægilegar villur. <br />Mjög algeng mistök eru:
 contribution-background-noise-title = Bakgrunnshávaði
 contribution-background-voices-title = Bakgrunnsraddir
 contribution-volume-title = Hljóðstyrkur
