@@ -1186,6 +1186,7 @@ sc-howto-findpd-subtitle-2 = Dźěłajće z lokalnymi organizacijemi abo jednotl
 ## MY SENTENCES
 
 sc-my-title = Moje sady
+sc-my-description = Tuta strona wam přehlad wšěch wašich zapodatych sadow da. Móžeće tež hižo zapodate sady zhašeć, jeli trjeba, hdyž kontrolny kašćik pódla nich markěrujeće a deleka na &quot;Wubrane sady zhašeć&quot; klikaće. Prošu wotstrońće sady jenož, jeli je absolutnje trjeba, na přikład, jeli sće po tym pytnył, zo sada je přez awtorske prawo škitana.
 sc-my-loading = Waše sady so začituja…
 sc-my-err-fetching = Zmylk při wotwołowanju wašich sadow. Prošu spytajće hišće raz.
 sc-my-no-sentences = Žane sady namakane!
