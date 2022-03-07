@@ -1205,6 +1205,8 @@ sc-howto-findpd-tips-1 = Bestu heimildirnar sem þú getur leitað að eru til d
 sc-howto-findpd-tips-2 = Stjórnvaldsráðstafanir, bækur og greinar eru líka frábærar, en þar sem textinn hefur tilhneigingu til að vera aðeins formlegri, er minni áhersla lögð á slíka texta.
 sc-howto-findpd-tips-3 = Því miður getum við ennþá ekki haft með Wikimedia-greinar. Þannig að þú skalt ekki afrita og líma þaðan.
 sc-howto-findpd-subtitle-2 = Vertu í samstarfi við samtök eða aðra einstaklinga
+sc-howto-findpd-partner-1 = Það eru margar opinberar stofnanir og samtök sem gætu viljað vinna saman og sem hafa yfir að ráða miklu magni af textum sem þær gætu gefið sem almenningseign. Hafðu samband við háskóla á staðnum, stjórnvöld og áhugafólk um opinn aðgang að gögnum til að tala um verkefnið og biðja um hjálp þeirra.
+sc-howto-findpd-partner-2 = Sérfróðir málvísindamenn geta líka hjálpað, reyndu að ná til málvísindadeilda (bæði kennara og nemenda) og athugað hvort viðkomandi geti hjálpað til við að safna saman fjölbreyttu safni hljóðupptakna og setninga á tungumálinu þínu.
 
 ## MY SENTENCES
 
@@ -1406,6 +1408,10 @@ sc-review-lang-not-selected = Þú hefur ekki valið nein tungumál. Farðu í <
 sc-review-title = Yfirfara setningar
 sc-review-loading = Hleð inn setningum...
 sc-review-select-language = Veldu tungumál til að yfirfara setningar á.
+sc-review-no-sentences = Engar setningar til að yfirfara. <addLink>Bættu við fleiri setningum núna!</addLink>
+sc-review-form-prompt =
+    .message = Yfirfarnar setningar ekki sendar, ertu viss?
+sc-review-form-usage = Strjúktu til hægri til að samþykkja setninguna. Strjúktu til vinstri til að hafna henni. Strjúktu upp til að sleppa henni. <strong>Ekki gleyma að senda inn yfirferðina þína!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Heimild: { $sentenceSource }
