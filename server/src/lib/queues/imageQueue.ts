@@ -23,7 +23,7 @@ export const uploadImage = async (data: {
   key: string;
   imageBucket: string;
   s3?: any;
-  activeBucket?: any;
+  bucket?: any;
 }) => {
   return await NotificationQueue.add(data);
 };
