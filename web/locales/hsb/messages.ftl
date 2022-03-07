@@ -561,10 +561,12 @@ about-playbook-how-localize-content-1 = Přełožowanje sydła Common Voice so n
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Załožće konto</pontoonAccountLink>, jeli žane nimaće. Wubjerće swoju rěč<strong>(„Team“)</strong> a potom projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Tam dataje namakaće, kotrež dyrbja so přełožować. Klikńće na jednu z nich, potom so słowa w jendźelšćinje a kašćik za přełožowanje pokazuja.
 about-playbook-how-localize-content-3 = Přełožowanj  so z jendźelšćiny přewjedźe, ale móžeće <strong>namjety</strong> w druhich rěčach widźeć. Klikńće na <strong>profilowy</strong> symbol, potom na wotkaz <strong>Nastajenja</strong> a přidajće rěče, kotrež rěčiće. Deleka w prawym róžku budźe lisćina přełožkow z mjenom <strong>Locales</strong>. Přełožki so na sydle po jednym dnju pokazaja.
 about-playbook-how-localize-content-4 = Sydło je hotowe za wozjewjenje, hdyž je po 75 % dokónčene.
+about-playbook-how-localize-content-5 = Wobhladajće sej rozjasnjenske widejo
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Kak móžu sady přidać?
+about-playbook-how-add-sentences-content-1 = <strong>Hromadźak sadow</strong> je nastroj za hromadźenje a přepruwowanje zjawnje přistupnych sadow. <scAccountLink>Dyrbiće konto załožić</scAccountLink>. Přidajće potom swojemu <strong>profilej</strong> swoju rěč. Móžeće sady <strong>přidać</strong> abo do toho přidate sady <strong>přepruwować</strong>.
 about-playbook-how-add-sentences-content-3 = Móžeće <scraperLink>ekstraktor sadow</scraperLink> wužiwać, zo byšće krótke sady z Wikipedije dóstał.
 about-playbook-how-add-sentences-content-4 = Sady, kotrež su přepruwowane, so na srjedach eksportuja a su po přichodnym wozjewjenju k dispoziciji.
 
