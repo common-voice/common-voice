@@ -1114,6 +1114,7 @@ contribution-varying-pronunciations-example-1-explanation = [Bæði páskadagur 
 contribution-varying-pronunciations-example-2-title = Hann fékk sér majónes.
 contribution-varying-pronunciations-example-2-explanation = [„majónes“ á íslensku er alltaf borið fram með áherslu á fyrra atkvæðið, ekki hið síðara eins og í ýmsum rómönskum málum]
 contribution-background-noise-title = Bakgrunnshávaði
+contribution-background-noise-description = Við viljum að reiknirit í raddbúnaði sem byggir á vélagreind geti meðhöndlað margvísleg bakgrunnshljóð og jafnvel tiltölulega mikinn hávaða er hægt að samþykkja að því tilskildu að hann komi ekki í veg fyrir að þú heyrir allan textann. Hljóðlát bakgrunnstónlist er í lagi; tónlist sem er nógu hátt stillt til að koma í veg fyrir að þú heyrir skýrt hvert einasta orð er það ekki.
 contribution-background-noise-description-extended = Ef upptakan bilar eða er með brak eða aðrar truflanir, skaltu hafna henni nema allur textinn heyrist enn.
 contribution-background-noise-example-1-fixed-title = <strong>[Hnerri]</strong> risaeðlurnar á <strong>[hósti]</strong> Triassic-tímabilinu.
 contribution-background-noise-example-2-fixed-title = Risaeðlu <strong>[hósti]</strong> á Triassic-tímabilinu.
