@@ -1186,6 +1186,7 @@ sc-howto-findpd-subtitle-2 = Źěłajśo z lokalnymi organizacijami abo jadne sa
 ## MY SENTENCES
 
 sc-my-title = Móje sady
+sc-my-description = Toś ten bok wam pśeglěd wšych wašych zapódanych sadow dajo. Móžośo teke južo zapódane sady wulašowaś, jolic trjeba, gaž kontrolny kašćik pódla nich markěrujośo a dołojce na &quot;Wubrane sady lašowaś&quot; klikaśo. Pšosym wówónoźćo sady jano, jolic jo absolutnje trjeba, na pśikład, jolic sćo pó tym zawupytnuł, až sada jo pśez awtorske pšawo šćitana.
 sc-my-loading = Waše sady se zacytuju…
 sc-my-err-fetching = Zmólka pśi wótwołowanju wašych sadow. Pšosym wopytajśo hyšći raz.
 sc-my-no-sentences = Žedne sady namakane!
