@@ -365,6 +365,7 @@ email-subscriptions = ای میل سبسکرپشناں
 download-profile = میݙا ڈیٹا ڈاؤن لوڈ کرو
 contribution-experience = ونڳاراں دا تجربہ
 skip-submission-feedback = سب مشن فیڈبیک چھوڑ ݙیوو
+skip-submission-note = نوٹ: ونگار دی قسم وٹاوݨ کیتے تہاکوں سݨݨ یا ٻولݨ وچوں ہک شئے چُݨݨی پوسی۔
 off = بند
 on = چالو
 help-accent = لہجے وچ کجھ مدد دی لوڑ ہے؟
