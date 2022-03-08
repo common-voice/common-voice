@@ -568,6 +568,7 @@ about-playbook-how-add-sentences-content-4 = Umi ñe’ẽjuaju oñemoneĩva’e
 about-playbook-how-record-quality = ¿Mba'éicha añongatúta ñe’ẽ ryapu iporã hag̃uáicha?
 about-playbook-how-record-content-2 = Emboyke tyapu vai tapykuegua; ndahasyiva’erã ehendu hag̃ua.
 about-playbook-how-record-content-3 = Emoñe’ẽ ñe’ẽjoaju hekópe: ani ekañy, emoambue térã embojuaju ñe’ẽ.
+about-playbook-how-record-content-4 = Ehecháke pe pyendavusu tonongatu oñe’ẽ ñepyrũ mboyve guive ha ojokova’erã opaite rire pe tembiapo.
 about-playbook-how-record-content-5 = <accuracyLink>Ehechave je’epyre rehegua.</accuracyLink>
 
 ## How to grow language
