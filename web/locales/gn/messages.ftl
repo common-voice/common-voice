@@ -401,6 +401,7 @@ skip-submission-note = Jesarekorã: Tekotevẽta gueteri eiporavo Eñe’ẽ té
 off = Mboguepyre
 on = Hendypyre
 help-accent = ¿Eñepytyvõkasépa myanduhére?
+help-accent-explanation = Ne myanduhe ha’e pe mba’éichapa embo’ayvu peteĩ ñe’ẽ. Ikatu omombe’u mba’e tendápepa reikoraka’e, mba’e ñe’ẽpa eipuru ha ambue hetave mba’e. Emoherakuãkuaa oimeraẽva marandu ehecharamóva ko’ápe.
 help-variants = ¿Eikotevẽ pytyvõ ñe’ẽ iñambuévape?
 help-variants-explanation = Umi ñe’ẽambue ha’énte avei ñe’ẽ, techapyrã, oipurúva tapichakuéra oikóva peteĩ tekohápe. Ko’ãvape ojehero ñe’ẽambue.
 
