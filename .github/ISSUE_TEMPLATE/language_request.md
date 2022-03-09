@@ -76,11 +76,15 @@ I see rocks on the ground
 <!--- Starting at 5000 Sentences, the language has speaker population over than 10 million, resource self assement is high and langauge vitality is high-->
 
 
-## Creating Language Community Channels
+## Creating Community 
 
-> By participating in this project, you're agreeing to uphold the [Mozilla Community Participation Guidelines](https://www.mozilla.org/about/governance/policies/participation/). Establishing [communication platforms](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md) for your language can help to connect volunteers and mobilise people for community campaigns. Officially the Common Voice Community Platforms are [discourse for community discussion, Mozilla Team updates and consulatations](https://discourse.mozilla.org/t/about-common-voice-readme-first/17218) and [matrix for community chats](https://app.element.io/#/room/#common-voice:mozilla.org).
+<!--- How can you start a community ?
+- We have created a [community building template](https://docs.google.com/document/d/15Kyf3g47HjUCJ55c3aLpvxf96R2cUti2mcRyiyXej90/edit?usp=sharing) to help you think about the goals, objectives and literature to inspire you. 
+- Establishing [communication platforms](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md) for your language can help to connect volunteers and mobilise people for community campaigns. 
+- You can request a language specific channel on [discourse](https://discourse.mozilla.org/t/about-common-voice-readme-first/17218) and or make your own [language matrix](https://app.element.io/#/room/#common-voice:mozilla.org) on the Mozilla instance. 
+- [Mozilla Resources Reps](https://community.mozilla.org/en/groups/mozilla-reps-resources/) and [Reward, Enablement and Recognition](https://discourse.mozilla.org/t/recognition-rewards-and-contribution-pathways/84408) Schemes are an avenue for getting support. 
+- We also have a [community support desk](https://discourse.mozilla.org/t/introducing-community-support-desk/88158) that happens bi-weekly on Thursday. -->
 
-If you would like to request a channel to be made available for your language please create an account on discourse or matrix and direct message heyhillary
+1. [optional to share] Why do you want to take part in Common Voice ?
 
-
-
+2. [optional to share] Would you like to have a follow up conversation regarding community building ?
