@@ -553,6 +553,7 @@ about-playbook-what-is-language-content-2 = Roipota ayvu hetaichagua roikumby po
 
 about-playbook-how-add-language = ¿Mba’éicha ambojuajúta ñe’ẽ?
 about-playbook-how-add-language-content-1 = Ñepyrũrã, ehechajey ne ñe’ẽ <languageLink>oĩmapa</languageLink>. Ndapeichairamo, <strong>omoñe’ẽasava’erã pe tenda ha ombyaty ñe’ẽjuaju</strong>.
+about-playbook-how-add-language-content-2 = <strong>Emoñe’ẽasa hag̃ua ko tenda</strong> - emoheko <translateVideo></translateVideo> <pontoonLink>Pontoon</pontoonLink>-pe. Pontoon oguereko heta ñe’ẽ, hákatu ndoguerekóiramo ne ñe’ẽ, ikatu <pontoonRequestLink>ejerure</pontoonRequestLink>-pe. Upéi ejerure <repoLink>GitHub rupive</repoLink> pe apopyrã Common Voice oĩ hag̃ua ne ñe’ẽme. Eñemomaranduve <localizationFragment>tenda ñemoñe’ẽasa</localizationFragment> rehegua.
 about-playbook-how-add-language-content-3 = <strong>Embyaty hag̃ua ñe’ẽjuaju</strong> - <scVideo>emboheko</scVideo> <scLink>Sentence Collector</scLink>-pe.
 
 ## How does localization work
