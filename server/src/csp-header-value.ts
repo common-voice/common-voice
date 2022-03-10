@@ -28,7 +28,7 @@ const SOURCES = {
     "'sha256-Hul+6x+TsK84TeEjS1fwBMfUYPvUBBsSivv6wIfKY9s='",
     'https://www.google-analytics.com',
     'https://pontoon.mozilla.org',
-    'https://sentry.prod.mozaws.net',
+    'https://*.sentry.io',
   ],
   'font-src': ["'self'", 'https://fonts.gstatic.com'],
   'connect-src': [
@@ -39,7 +39,7 @@ const SOURCES = {
     'https://*.amazon.com',
     'https://www.gstatic.com',
     'https://www.google-analytics.com',
-    'https://sentry.prod.mozaws.net',
+    'https://*.sentry.io',
     'https://basket.mozilla.org',
     'https://basket-dev.allizom.org',
     'https://rs.fullstory.com',

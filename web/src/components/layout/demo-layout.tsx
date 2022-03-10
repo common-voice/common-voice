@@ -1,6 +1,8 @@
 import { Suspense } from 'react';
 import * as React from 'react';
 import { Switch, Route, withRouter, Redirect } from 'react-router';
+import * as Sentry from '@sentry/react';
+
 import { useLocale } from '../locale-helpers';
 import { Spinner } from '../ui/ui';
 import URLS from '../../urls';
@@ -14,6 +16,8 @@ import ListenPage from '../pages/contribution/listen/listen';
 
 const Kiosk = React.lazy(() => import('../demo-pages/kiosk/kiosk'));
 
+const SentryRoute = Sentry.withSentryRouting(Route);
+
 function DemoLayout() {
   const [_, toLocaleRoute] = useLocale();
 
@@ -21,7 +25,11 @@ function DemoLayout() {
     <div>
       <Suspense fallback={<Spinner />}>
         <Switch>
-          <Route exact path={toLocaleRoute(URLS.DEMO)} component={Intro} />
+          <SentryRoute
+            exact
+            path={toLocaleRoute(URLS.DEMO)}
+            component={Intro}
+          />
           {[
             { route: URLS.DEMO_DATASETS, pageContent: getDatasetsComponents() },
             {
@@ -37,7 +45,7 @@ function DemoLayout() {
               pageContent: getCreateAccountComponents(),
             },
           ].map(({ route, pageContent }, index) => (
-            <Route
+            <SentryRoute
               exact
               path={toLocaleRoute(route)}
               key={index}
@@ -45,17 +53,17 @@ function DemoLayout() {
             />
           ))}
           {/* more routes to be added */}
-          <Route
+          <SentryRoute
             exact
             path={toLocaleRoute(URLS.DEMO_SPEAK)}
             component={SpeakPage}
           />
-          <Route
+          <SentryRoute
             exact
             path={toLocaleRoute(URLS.DEMO_LISTEN)}
             component={ListenPage}
           />
-          <Route render={() => <Redirect to={URLS.DEMO} />} />
+          <SentryRoute render={() => <Redirect to={URLS.DEMO} />} />
         </Switch>
       </Suspense>
     </div>

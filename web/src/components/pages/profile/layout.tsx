@@ -3,6 +3,8 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { Redirect, Route, Switch } from 'react-router';
 import { NavLink } from 'react-router-dom';
+import * as Sentry from '@sentry/react';
+
 import { User } from '../../../stores/user';
 import StateTree from '../../../stores/tree';
 import URLS from '../../../urls';
@@ -22,6 +24,8 @@ import Settings from './settings/settings';
 
 import './layout.css';
 import DownloadProfile, { getProfileInfo } from './download/download';
+
+const SentryRoute = Sentry.withSentryRouting(Route);
 
 interface PropsFromState {
   user: User.State;
@@ -74,14 +78,14 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
       </div>
       <div className="content">
         <Switch>
-          <Route exact path={infoRoute} component={InfoPage} />
+          <SentryRoute exact path={infoRoute} component={InfoPage} />
           {[
             { route: avatarRoute, Component: AvatarSetup },
             { route: prefRoute, Component: Settings },
             { route: deleteRoute, Component: DeleteProfile },
             { route: downloadRoute, Component: DownloadProfile },
           ].map(({ route, Component }) => (
-            <Route
+            <SentryRoute
               key={route}
               exact
               path={route}
@@ -90,7 +94,7 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
               }
             />
           ))}
-          <Route
+          <SentryRoute
             render={() => <Redirect to={toLocaleRoute(URLS.PROFILE_INFO)} />}
           />
         </Switch>

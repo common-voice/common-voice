@@ -45,7 +45,7 @@ export type CommonVoiceConfig = {
   IMPORT_SENTENCES: boolean;
   REDIS_URL: string;
   LAST_DATASET: string;
-  SENTRY_DSN: string;
+  SENTRY_DSN_SERVER: string;
   MAINTENANCE_MODE: boolean;
   BENCHMARK_LIVE: boolean;
   DEBUG: boolean;
@@ -97,7 +97,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   IMPORT_SENTENCES: configEntry('CV_IMPORT_SENTENCES', true, castBoolean),
   REDIS_URL: configEntry('CV_REDIS_URL', null),
   LAST_DATASET: configEntry('CV_LAST_DATASET', '2019-06-12'),
-  SENTRY_DSN: configEntry('CV_SENTRY_DSN', ''),
+  SENTRY_DSN_SERVER: configEntry('CV_SENTRY_DSN_SERVER', ''),
   MAINTENANCE_MODE: configEntry('CV_MAINTENANCE_MODE', false, castBoolean),
   BASKET_API_KEY: configEntry('CV_BASKET_API_KEY', null),
   BENCHMARK_LIVE: configEntry('CV_BENCHMARK_LIVE', false, castBoolean),
