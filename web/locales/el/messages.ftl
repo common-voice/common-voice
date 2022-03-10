@@ -339,6 +339,9 @@ profile-form-additional-language =
     .label = Επιπρόσθετη γλώσσα
 profile-form-language =
     .label = Γλώσσα
+profile-form-variant =
+    .label = Πoια παραλλαγή της γλώσσας «{ $language }» μιλάτε;
+profile-form-variant-default-value = Δεν έχει επιλεχθεί παραλλαγή
 profile-form-accent =
     .label = Προφορά
 profile-form-custom-accent-help-text =
@@ -389,6 +392,9 @@ skip-submission-note = Σημείωση: Θα πρέπει να επιλέγετ
 off = Όχι
 on = Ναι
 help-accent = Χρειάζεστε βοήθεια με την προφορά;
+help-accent-explanation = Η προφορά σας είναι ο τρόπος που προφέρετε τις λέξεις. Μπορεί να σχετίζεται με την τοποθεσία πού έχετε ζήσει, με τις άλλες γλώσσες που μιλάτε και πολλούς άλλους παράγοντες. Μπορείτε να μοιραστείτε εδώ οποιαδήποτε πληροφορία πιστεύετε ότι είναι σχετική.
+help-variants = Χρειάζεστε βοήθεια με τις παραλλαγές;
+help-variants-explanation = Οι παραλλαγές αποτελούν συγκεκριμένη μορφή μιας γλώσσας - για παράδειγμα, είναι κοινές σε όσους ζουν σε κάποια γεωγραφική περιοχή ή κοινότητα. Μερικές φορές αυτές ονομάζονται διάλεκτοι.
 
 ## Profile - Email
 
@@ -1104,6 +1110,7 @@ sc-home-review-title = Έλεγχος προτάσεων
 
 ## GENERAL
 
+sc-languages-fetch-error = Δεν καταφέραμε να ανακτήσουμε τις διαθέσιμες γλώσσες. Οι συνεισφορές δεν είναι προς το παρόν δυνατές. Παρακαλώ δοκιμάστε ξανά αργότερα.
 
 ## HOW-TO
 
@@ -1127,6 +1134,7 @@ sc-howto-findpd-tips = Ακολουθούν μερικές συμβουλές γ
 
 sc-my-title = Οι προτάσεις μου
 sc-my-loading = Φόρτωση των προτάσεών σας…
+sc-my-err-fetching = Σφάλμα ανάκτησης των προτάσεών σας. Παρακαλώ δοκιμάστε ξανά.
 sc-my-no-sentences = Δεν βρέθηκαν προτάσεις!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -1143,11 +1151,13 @@ sc-my-err-failed-delete = Αποτυχία διαγραφής επιλεγμέν
 sc-rejected-title = Απορριφθείσες προτάσεις
 sc-rejected-loading = Φόρτωση απορριφθεισών προτάσεων…
 sc-rejected-err-fetching = Σφάλμα ανάκτησης απορριφθεισών προτάσεων. Παρακαλώ δοκιμάστε ξανά.
+sc-rejected-none-found = Δεν βρέθηκαν απορριφθείσες προτάσεις!
 
 ## STATS
 
 sc-stats-title = Στατιστικά
 sc-stats-updating = Ενημέρωση…
+sc-stats-error = Δεν μπορέσαμε να λάβουμε τα στατιστικά. Παρακαλώ δοκιμάστε ξανά αργότερα.
 
 ## ADD
 
@@ -1271,12 +1281,19 @@ sc-criteria-item-6 = Εάν ξεμείνετε από προτάσεις για 
 sc-review-lang-not-selected = Δεν έχετε επιλέξει καμία γλώσσα. Παρακαλούμε μεταβείτε στο <profileLink>Προφίλ</profileLink> σας για να επιλέξετε γλώσσες.
 sc-review-title = Έλεγχος προτάσεων
 sc-review-loading = Φόρτωση προτάσεων…
+sc-review-no-sentences = Καμία πρόταση προς έλεγχο. <addLink>Προσθέστε περισσότερες προτάσεις τώρα!</addLink>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Πηγή: { $sentenceSource }
 sc-review-form-button-reject = Απόρριψη
 sc-review-form-button-skip = Παράλειψη
 sc-review-form-button-approve = Έγκριση
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Ν
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = Χ
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = Π
 sc-review-form-keyboard-usage-custom = Μπορείτε επίσης να χρησιμοποιείτε συντομεύσεις πληκτρολογίου: { sc-review-form-button-approve-shortcut } για έγκριση, { sc-review-form-button-reject-shortcut } για απόρριψη, { sc-review-form-button-skip-shortcut } για παράλειψη
 sc-review-form-button-submit =
     .submitText = Ολοκλήρωση ελέγχου
