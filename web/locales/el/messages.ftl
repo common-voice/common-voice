@@ -556,6 +556,7 @@ about-playbook-how-add-sentences-content-4 = Οι προτάσεις που έχ
 
 ## How to record quality
 
+about-playbook-how-record-quality = Πώς ηχογραφώ αποσπάσματα υψηλής ποιότητας;
 about-playbook-how-record-content-2 = Αποφύγετε τον υπερβολικό θόρυβο γύρω σας - θα πρέπει να σας ακούμε εύκολα.
 about-playbook-how-record-content-3 = Διαβάστε προσεκτικά την πρόταση - μην παραλείψετε, μην αλλάξετε και μην προσθέσετε λέξεις.
 about-playbook-how-record-content-5 = <accuracyLink>Δείτε περισσότερα σχετικά με τα κριτήρια ακρίβειας.</accuracyLink>
@@ -573,6 +574,7 @@ about-playbook-how-validate-content-4 = Αν ένα απόσπασμα απορ�
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Πώς βρίσκω και χρησιμοποιώ το σύνολο δεδομένων;
 about-playbook-how-access-dataset-content-2 = Αν ψάχνετε για εργαλεία δημιουργίας μοντέλων ASR, μπορείτε να επικοινωνήσετε με άλλα άτομα στην κοινότητα <discourseLink>του Discourse</discourseLink>.
 
 ## How are decisions made
@@ -1225,6 +1227,9 @@ sc-confirm-sentences-found =
         [one] Βρέθηκε 1 πρόταση.
        *[other] Βρέθηκαν { $countOfSentences } προτάσεις.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } απορρίψεις από εσάς
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Καμία πρόταση δεν έχει ήδη ελεγχθεί.
@@ -1326,6 +1331,7 @@ sc-criteria-item-6 = Εάν ξεμείνετε από προτάσεις για 
 sc-review-lang-not-selected = Δεν έχετε επιλέξει καμία γλώσσα. Παρακαλούμε μεταβείτε στο <profileLink>Προφίλ</profileLink> σας για να επιλέξετε γλώσσες.
 sc-review-title = Έλεγχος προτάσεων
 sc-review-loading = Φόρτωση προτάσεων…
+sc-review-select-language = Παρακαλώ επιλέξτε μια γλώσσα για έλεγχο προτάσεων.
 sc-review-no-sentences = Καμία πρόταση προς έλεγχο. <addLink>Προσθέστε περισσότερες προτάσεις τώρα!</addLink>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
@@ -1358,6 +1364,8 @@ sc-review-link = Έλεγχος
 sc-settings-title = Ρυθμίσεις
 sc-settings-ui-language = Γλώσσα περιβάλλοντος
 sc-settings-language-translated-warning = Οι σελίδες για αυτήν τη γλώσσα ενδέχεται να μην έχουν μεταφραστεί πλήρως. Μπορείτε να βοηθήσετε με τη μετάφραση <pontoonLinkLink>στο Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = Επαναφορά παραλειφθεισών προτάσεων
+sc-settings-show-all-button = Εμφάνιση όλων των παραλειφθεισών προτάσεων ξανά
 sc-settings-failed = Δεν ήταν δυνατή η αλλαγή των ρυθμίσεων. Παρακαλούμε δοκιμάστε ξανά.
 # VALIDATION
 sc-validation-number-of-words = Η πρόταση πρέπει να περιέχει από 1 έως και 14 λέξεις.
