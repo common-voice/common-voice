@@ -697,6 +697,7 @@ review-keep-recordings = Keep the recordings
 review-delete-recordings = Delete my recordings
 
 ## Datasets Page
+datasets-heading = Datasets
 datasets-headline = We’re building an open source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
 datasets-positioning =
     We believe that large, publicly available voice datasets will foster innovation and healthy commercial competition in machine-learning based speech technology.

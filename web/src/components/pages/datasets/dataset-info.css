@@ -41,64 +41,76 @@
     }
 
     .intro {
+        box-sizing: border-box;
+        padding: 2em var(--page-margin);
         color: var(--white);
+        background: url('images/datasets-intro-background.svg');
+        background-color: #3b3b3b; /* fallback if image hasnt loaded */
+        background-size: cover;
 
-        @media (--md-down) {
-            padding: 70px 0;
-            background: url('images/intro-bg-md.svg');
-            background-color: #3b3b3b; /* fallback if image hasnt loaded */
-            background-size: cover;
+        /* triangle top left */
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: url('images/datasets-intro-background-triangle.svg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            width: 4vw;
+            height: 4vw;
 
-            h1,
-            button,
-            p {
-                margin: 0 20px;
+            @media (--xl-up) {
+                width: 8vw;
+                height: 8vw;
             }
 
-            h1 {
-                margin-bottom: 20px;
+            [dir='rtl'] & {
+                right: 0;
+                transform: scaleX(-1); /* flip image */
             }
+        }
 
-            button {
-                font-size: 14px;
-                font-weight: 600;
-                text-decoration: underline;
-                color: var(--blue);
-            }
+        button {
+            font-size: 1em;
+            font-weight: 600;
+            text-decoration: underline;
+            color: var(--blue);
         }
 
         @media (--lg-up) {
-            padding-top: 90px;
-            padding-bottom: 135px;
+            background-position: right;
+            padding-top: 3em;
+            padding-inline-end: 5em;
+        }
+
+        @media (--xl-up) {
             padding-inline-start: calc(
-                (100vw - var(--desktop-width)) / 2 + var(--page-margin)
+                ((100vw - var(--desktop-width)) / 2) + var(--page-margin)
             );
-            box-sizing: border-box;
-            background: url('images/intro-bg.png');
-            background-size: 100% 100%;
+            padding-inline-end: 5em;
+        }
 
-            h1,
-            p {
-                max-width: 360px;
-            }
-
-            h1 {
-                margin-bottom: 110px;
-            }
+        h1,
+        p {
+            max-width: 30em;
         }
 
         h1 {
-            font-size: var(--font-size-lg);
+            margin-bottom: 0.5em;
+            font-size: var(--font-size-max);
             font-weight: normal;
-
-            &::first-line {
-                font-size: 48px;
-            }
         }
 
         p {
             line-height: 1.5;
             white-space: pre-line;
+        }
+
+        .intro-summary {
+            margin-bottom: 1em;
+            font-size: var(--font-size-lg);
+            line-height: 1.35;
         }
     }
 
@@ -245,7 +257,6 @@
 
         @media (--md-up) {
             white-space: nowrap;
-            margin-bottom: 0;
         }
 
         span {
@@ -343,7 +354,7 @@
                 }
             }
 
-            h1 {
+            h2 {
                 font-weight: normal;
 
                 @media (--md-down) {

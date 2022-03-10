@@ -145,9 +145,13 @@ export const DatasetsIntro = ({ demoMode }: { demoMode?: boolean }) => {
   const [showIntroTextMdDown, setShow] = useState(false);
   return (
     <div className="intro">
-      <Localized id="datasets-headline">
-        <h1 />
-      </Localized>
+      <h1>
+        <Localized id="datasets-heading" />
+      </h1>
+
+      <p className="intro-summary">
+        <Localized id="datasets-headline" />
+      </p>
 
       {!showIntroTextMdDown && (
         <Localized id="show-wall-of-text">
@@ -470,9 +474,9 @@ export const DatasetsDescription = ({
       <CircleStats {...globalStats} className="hidden-md-down" />
       <div className="text">
         <div className="line" />
-        <Localized id="whats-inside">
-          <h1 id="whats-inside" />
-        </Localized>
+        <h2 id="whats-inside">
+          <Localized id="whats-inside" />
+        </h2>
         <CircleStats {...globalStats} className="hidden-lg-up" />
         <Localized
           id="dataset-description-hours"
