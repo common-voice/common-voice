@@ -524,6 +524,7 @@ about-get-involved-text-2 =
     αναφέρετε ζητήματα της ιστοσελίδας μέσω του <githubLink>GitHub</githubLink>,
     ή βρείτε μας στην κοινότητα μας στο <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Πώς μπορώ να ενημερώνομαι;
+about-stay-in-touch-text-1 = <emailFragment>Εγγραφείτε</emailFragment> στη λίστα αλληλογραφίας μας για να μάθετε πώς μπορείτε να λάβετε μέρος σε καμπάνιες, σε εκδηλώσεις και στον σχεδιασμό δυνατοτήτων του Common Voice.
 about-stay-in-touch-text-2 = Μπορείτε να συνομιλήσετε με άλλους στις γλωσσικές κοινότητες της Mozilla, κάνοντας εγγραφή στο <discourseLink>Discourse</discourseLink> για επίκαιρες συζητήσεις ή στο <matrixLink>Matrix</matrixLink> για γρήγορες συμβουλές.
 about-nav-why-common-voice = Γιατί;
 about-nav-how-it-works = Πώς;
@@ -536,11 +537,14 @@ about-nav-playbook = Μάθετε πώς να λάβετε μέρος
 ## What is a language
 
 about-playbook-what-is-language = Τι είναι μια γλώσσα του Common Voice;
+about-playbook-what-is-language-content-2 = Θέλουμε τα μοντέλα ομιλίας να κατανοούν καλύτερα ένα ευρύ φάσμα ομιλητών. Για να συμβεί αυτό, ένα φωνητικό σύνολο δεδομένων πρέπει να αντιπροσωπεύει πολλά διαφορετικά άτομα.
+about-playbook-what-is-language-content-3 = Ορισμένες γλώσσες έχουν τεράστιες διαφορές στη γραμματική, το λεξιλόγιο και την προφορά. Για αυτόν τον λόγο, <ctaLink>παρουσιάζουμε τις «Παραλλαγές»</ctaLink> το 2022. Αυτό δίνει στις κοινότητες έναν τρόπο να διακρίνουν τις γλώσσες τους μέσα στο μεγαλύτερο σύνολο δεδομένων.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Πώς προσθέτω μια γλώσσα;
 about-playbook-how-add-language-content-1 = Αρχικά, ελέγξτε εάν η γλώσσα σας <languageLink>υπάρχει ήδη</languageLink>. Εάν δεν υπάρχει, θα πρέπει να <strong>μεταφράσετε τον ιστότοπο και να συγκεντρώσετε προτάσεις</strong>.
+about-playbook-how-add-language-content-3 = <strong>Για να συλλέξετε προτάσεις</strong> - <scVideo>ρυθμίστε</scVideo> το <scLink>εργαλείο συλλογής προτάσεων</scLink>.
 
 ## How does localization work
 
@@ -552,6 +556,7 @@ about-playbook-how-localize-content-5 = Δείτε το ενημερωτικό �
 ## How to add sentences
 
 about-playbook-how-add-sentences = Πώς προσθέτω προτάσεις;
+about-playbook-how-add-sentences-content-3 = Μπορείτε να χρησιμοποιήσετε το <scraperLink>εργαλείο εξαγωγής προτάσεων</scraperLink> για να αξιοποιήσετε σύντομες προτάσεις από τη Βικιπαίδεια.
 about-playbook-how-add-sentences-content-4 = Οι προτάσεις που έχουν επικυρωθεί εξάγονται τις Τετάρτες και είναι διαθέσιμες μετά την επόμενη κυκλοφορία.
 
 ## How to record quality
@@ -559,6 +564,7 @@ about-playbook-how-add-sentences-content-4 = Οι προτάσεις που έχ
 about-playbook-how-record-quality = Πώς ηχογραφώ αποσπάσματα υψηλής ποιότητας;
 about-playbook-how-record-content-2 = Αποφύγετε τον υπερβολικό θόρυβο γύρω σας - θα πρέπει να σας ακούμε εύκολα.
 about-playbook-how-record-content-3 = Διαβάστε προσεκτικά την πρόταση - μην παραλείψετε, μην αλλάξετε και μην προσθέσετε λέξεις.
+about-playbook-how-record-content-4 = Βεβαιωθείτε ότι η πλατφόρμα ηχογραφεί πριν αρχίσετε να μιλάτε και ότι σταματάει μόνο όταν τελειώσετε.
 about-playbook-how-record-content-5 = <accuracyLink>Δείτε περισσότερα σχετικά με τα κριτήρια ακρίβειας.</accuracyLink>
 
 ## How to grow language
@@ -1141,6 +1147,7 @@ sc-howto-review-title = Έλεγχος προτάσεων
 sc-howto-review-subtitle = Βεβαιωθείτε ότι η πρόταση πληροί τα ακόλουθα κριτήρια:
 sc-howto-review-criteria-1 = Η πρόταση πρέπει να έχει σωστή ορθογραφία.
 sc-howto-review-criteria-2 = Η πρόταση πρέπει να είναι γραμματικά ορθή.
+sc-howto-review-criteria-3 = Η πρόταση πρέπει να είναι προφερτή.
 sc-howto-review-criteria-4 = Εάν η πρόταση πληροί τα κριτήρια, κάντε κλικ στο κουμπί «Έγκριση».
 sc-howto-review-criteria-5 = Αν η πρόταση δεν πληροί τα παραπάνω κριτήρια, κάντε κλικ στο κουμπί «Απόρριψη». Εάν δεν είστε σίγουροι για την πρόταση, μπορείτε επίσης να την παραλείψετε και να προχωρήσετε στην επόμενη.
 sc-howto-review-criteria-6 = Εάν ξεμείνετε από προτάσεις για έλεγχο, παρακαλούμε βοηθήστε μας να συγκεντρώσουμε περισσότερες προτάσεις!
@@ -1330,6 +1337,7 @@ sc-criteria-item-1 = Η πρόταση πρέπει να έχει σωστή ο�
 sc-criteria-item-2 = Η πρόταση πρέπει να είναι γραμματικά ορθή.
 sc-criteria-item-3 = Η πρόταση πρέπει να μπορεί να λεχθεί.
 sc-criteria-item-4 = Αν η πρόταση πληροί τα κριτήρια, κάντε κλικ στο κουμπί «Έγκριση» στα δεξιά.
+sc-criteria-item-5-2 = Αν η πρόταση δεν πληροί τα παραπάνω κριτήρια, κάντε κλικ στο κουμπί «Απόρριψη» στα αριστερά. Εάν δεν είστε σίγουροι για την πρόταση, μπορείτε επίσης να την παραλείψετε και να προχωρήσετε στην επόμενη.
 sc-criteria-item-6 = Εάν ξεμείνετε από προτάσεις για έλεγχο, παρακαλούμε βοηθήστε μας να συγκεντρώσουμε περισσότερες προτάσεις!
 
 ## REVIEW
