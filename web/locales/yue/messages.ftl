@@ -460,11 +460,13 @@ faq-search-for-answers =
 
 ## ABOUT US
 
-about-title = 點解要揀 Common Voice?
+about-title = 點解要做 Common Voice?
+how-does-it-work-title-v2 = Common Voice 係點運作嘅？
 how-does-it-work-text = 我哋整緊一個開源嘅聲音資料集。一齊幫手，貢獻你嘅聲音，核實錄音嘅準確度，令資料集變得更加好。
 
 ## How does it work section
 
+about-subscribe-text = 想及時跟進 Common Voice ？
 about-speak = 講
 about-speak-text = 貢獻者會錄低由句庫抽出嚟嘅句子。
 about-listen-queue = 聆聽隊列
@@ -496,6 +498,8 @@ about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點樣？
 about-nav-partners = 合作夥伴
 about-nav-get-involved = 參與
+about-nav-how-it-works-2 = Common Voice 係點運作嘅？
+about-nav-playbook = 瞭解點樣參與
 
 ## Community Playbook Content
 ## What is a language
