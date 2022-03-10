@@ -1109,6 +1109,8 @@ sc-home-review-title = Έλεγχος προτάσεων
 sc-howto-title = Οδηγίες
 sc-howto-addlang-text = Μόλις συνδεθείτε, μπορείτε να επιλέξετε τις γλώσσες σας από την ενότητα «Προφίλ».
 sc-howto-addsen-title = Προσθήκη νέων προτάσεων
+sc-howto-addsen-item-5 = Ξένα γράμματα. Τα γράμματα πρέπει να είναι έγκυρα στη γλώσσα που ομιλείται. Για παράδειγμα, το «ж» είναι γράμμα της ρωσικής αλφαβήτου, αλλά δεν χρησιμοποιείται ποτέ στα ελληνικά και επομένως, δεν θα πρέπει να εμφανίζεται σε κανένα κείμενο ελληνικής πηγής.
+sc-howto-addsen-item-6 = Οι γλώσσες μπορούν να έχουν τους <validationRulesLink>δικούς τους κανόνες επαλήθευσης</validationRulesLink> με επιπλέον απαιτήσεις. Αν δεν υπάρχει κάποιο συγκεκριμένο αρχείο επαλήθευσης για μια γλώσσα, χρησιμοποιούμε τους γενικούς αγγλικούς κανόνες.
 sc-howto-cite-item-1 = Μπορείτε να συμπεριλάβετε τον ιστότοπο, π.χ. «Common Voice - https://commonvoice.mozilla.org/»
 sc-howto-review-title = Έλεγχος προτάσεων
 sc-howto-review-subtitle = Βεβαιωθείτε ότι η πρόταση πληροί τα ακόλουθα κριτήρια:
@@ -1204,6 +1206,14 @@ sc-lang-info-total =
         [one] 1 συνολική πρόταση.
        *[other] { $totalSentences } συνολικές προτάσεις.
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Καμία πρόταση προς εξέταση.
+        [one] 1 πρόταση υπό εξέταση.
+       *[other] { $totalInReview } προτάσεις υπό εξέταση.
+    }
 sc-lang-info-review-now = <reviewLink>Έλεγχος τώρα!</reviewLink>
 sc-lang-info-add-more = <addLink>Προσθέστε περισσότερες προτάσεις τώρα!</addLink>
 # Variables:
@@ -1250,6 +1260,7 @@ sc-criteria-make-sure = Βεβαιωθείτε ότι η πρόταση πληρ
 sc-criteria-item-1 = Η πρόταση πρέπει να έχει σωστή ορθογραφία.
 sc-criteria-item-2 = Η πρόταση πρέπει να είναι γραμματικά ορθή.
 sc-criteria-item-3 = Η πρόταση πρέπει να μπορεί να λεχθεί.
+sc-criteria-item-4 = Αν η πρόταση πληροί τα κριτήρια, κάντε κλικ στο κουμπί «Έγκριση» στα δεξιά.
 sc-criteria-item-6 = Εάν ξεμείνετε από προτάσεις για έλεγχο, παρακαλούμε βοηθήστε μας να συγκεντρώσουμε περισσότερες προτάσεις!
 
 ## REVIEW
@@ -1263,6 +1274,7 @@ sc-review-form-source = Πηγή: { $sentenceSource }
 sc-review-form-button-reject = Απόρριψη
 sc-review-form-button-skip = Παράλειψη
 sc-review-form-button-approve = Έγκριση
+sc-review-form-keyboard-usage-custom = Μπορείτε επίσης να χρησιμοποιείτε συντομεύσεις πληκτρολογίου: { sc-review-form-button-approve-shortcut } για έγκριση, { sc-review-form-button-reject-shortcut } για απόρριψη, { sc-review-form-button-skip-shortcut } για παράλειψη
 sc-review-form-button-submit =
     .submitText = Ολοκλήρωση ελέγχου
 # Variables:
