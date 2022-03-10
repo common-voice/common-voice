@@ -1265,6 +1265,14 @@ sc-review-form-button-skip = Παράλειψη
 sc-review-form-button-approve = Έγκριση
 sc-review-form-button-submit =
     .submitText = Ολοκλήρωση ελέγχου
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Δεν ελέγχθηκε καμία πρόταση.
+        [one] Ελέγχθηκε 1 πρόταση. Ευχαριστούμε!
+       *[other] Ελέγχθηκαν { $sentences } προτάσεις. Ευχαριστούμε!
+    }
 sc-review-form-review-failure = Δεν ήταν δυνατή η αποθήκευση του ελέγχου. Παρακαλώ δοκιμάστε ξανά αργότερα.
 sc-review-link = Έλεγχος
 
@@ -1272,6 +1280,7 @@ sc-review-link = Έλεγχος
 
 sc-settings-title = Ρυθμίσεις
 sc-settings-ui-language = Γλώσσα περιβάλλοντος
+sc-settings-language-translated-warning = Οι σελίδες για αυτήν τη γλώσσα ενδέχεται να μην έχουν μεταφραστεί πλήρως. Μπορείτε να βοηθήσετε με τη μετάφραση <pontoonLinkLink>στο Pontoon</pontoonLinkLink>.
 sc-settings-failed = Δεν ήταν δυνατή η αλλαγή των ρυθμίσεων. Παρακαλούμε δοκιμάστε ξανά.
 # VALIDATION
 sc-validation-number-of-words = Η πρόταση πρέπει να περιέχει από 1 έως και 14 λέξεις.
