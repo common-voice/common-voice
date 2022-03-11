@@ -574,6 +574,7 @@ about-playbook-how-add-sentences-content-4 = Umi ñe’ẽjuaju oñemoneĩva’e
 ## How to record quality
 
 about-playbook-how-record-quality = ¿Mba'éicha añongatúta ñe’ẽ ryapu iporã hag̃uáicha?
+about-playbook-how-record-content-1 = ¡Eñe’ẽ nde ayvuetépe! Eñe’ẽháicha eg̃uahẽ ápe: roipota nde ayvu ryapu ha’eteháicha, ha roipota ipuatãngue ha mba’éichapa osẽ oka gotyo jepiguáicha.
 about-playbook-how-record-content-2 = Emboyke tyapu vai tapykuegua; ndahasyiva’erã ehendu hag̃ua.
 about-playbook-how-record-content-3 = Emoñe’ẽ ñe’ẽjoaju hekópe: ani ekañy, emoambue térã embojuaju ñe’ẽ.
 about-playbook-how-record-content-4 = Ehecháke pe pyendavusu tonongatu oñe’ẽ ñepyrũ mboyve guive ha ojokova’erã opaite rire pe tembiapo.
