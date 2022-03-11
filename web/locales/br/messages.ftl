@@ -404,6 +404,9 @@ skip-submission-note = Evezhiadenn: Ezhomm ho po da ziuzañ c’hoazh etre Komz 
 off = Diweredekaet
 on = Gweredekaet
 help-accent = Ezhomm sikour gant ar pouez-mouezh?
+help-accent-explanation = Ar pouez-mouezh eo an doare ma distripit ar gerioù. Gallout a ra bezañ stummet dre al lec'h ma vevit, pe c'hoazh gant yezhoù pe abegoù all. Gallout a rit reiñ titouroù ouzhpenn amañ.
+help-variants = Ezhomm sikour gant an adstummoù?
+help-variants-explanation = An adstummoù eo stummoù resis ur yezh. Reoù boutin en ur gumuniezh pe ul lec’h resis, da skouer. Anvet eo rannyezh a-wechoù.
 
 ## Profile - Email
 
