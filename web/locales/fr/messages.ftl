@@ -1309,6 +1309,7 @@ sc-confirm-uploading = Les phrases sont en cours d’envoi. Cela peut prendre pl
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Total
+sc-lang-info-title-personal = Personnel
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
