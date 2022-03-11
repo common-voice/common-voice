@@ -1150,6 +1150,7 @@ sc-home-review-text = Orepytyvõ rohechajeývo ñe’ẽjuaju oĩporãpa he’ih
 
 ## GENERAL
 
+sc-languages-fetch-error = Ndaikatúi roguereko umi ñe’ẽ ojepurukuaáva. Ñepytyvõ erekokuaa ko’ág̃a rupi. Ikatúpiko eha’ãjey ag̃amieve.
 
 ## HOW-TO
 
