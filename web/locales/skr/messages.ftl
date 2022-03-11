@@ -220,6 +220,7 @@ vote-yes = جیا
 vote-no = کو
 toggle-play-tooltip = پلے موڈ کوں ٹوگل کرݨ کیتے { shortcut-play-toggle } دباؤ
 speak-subtitle = آپݨی آواز دان کرو
+speak-paragraph = وائس کلپ رکاڈ کرواوݨ ساݙے اوپن ڈیٹاسیٹ دی تعمیر دا ہک لازمی حصہ ہے: کجھ آکھسن جو ایہ چسکولا حصہ وی ہے۔
 speak-goal-text = رکارڈ تھئے کلپ
 listen-subtitle = آوازاں دی تصدیق کرݨ وچ ساݙی مدد کرو
 listen-goal-text = کلپ تصدیق تھئے
@@ -257,6 +258,7 @@ email-subscription-title-new = کامن وائس خبرنامہ، مقصد یا�
 benefits = فائدے
 improve-audio = پروفائل ڄاݨکاری آڈیو ڈیٹا کوں چنگا بݨیندی ہےجہڑا صوتی سُن٘ڄاݨ درستی دی تربیت وچ ورتیندے۔
 keep-track = ڈھڳ زباناں وچ آپݨی پیش رفت تے پیمائش دا حساب رکھو۔
+compare-progress = آپݨی پیش رفت دا پوری دنیا دے ٻئے ونگارواں نال موازنہ کرو۔
 view-goals = ذاتی تے منصوبہ ہدفاں بارے آپݨی پیش رفت ݙیکھو۔
 
 ## What's public
