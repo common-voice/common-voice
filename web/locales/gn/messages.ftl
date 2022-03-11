@@ -598,6 +598,7 @@ about-playbook-how-validate-content-4 = Mokõi tapicha omboykérõ jekutu, ojehe
 ## How to access dataset
 
 about-playbook-how-access-dataset = ¿Mba’éicha aike ha aipurúta mba’ekuaarã aty?
+about-playbook-how-access-dataset-content-2 = Ehekaramohína tembipuru emoheñói hag̃ua peteĩchagua ASR, eikekuaa ambue tapicha ndive tekohápe <discourseLink>Discourse-pe</discourseLink>.
 
 ## How are decisions made
 
