@@ -31,7 +31,7 @@ af = Αφρικάανς
 am = Αμχαρικά
 an = Αραγωνικά
 ar = Αραβικά
-arn = Mapudungun
+arn = Μαπούτσε
 as = Ασαμικά
 ast = Αστουριανικά
 az = Αζερικά
@@ -46,10 +46,10 @@ bxr = Μπουργιάτ
 ca = Καταλανικά
 cak = Κακτσικέλ
 ckb = Κεντρικά Κουρδικά
-cnh = Hakha Chin
+cnh = Χάκχα Τσιν
 co = Κορσικά
 cs = Τσέχικα
-cv = Chuvash
+cv = Τσουβασικά
 cy = Ουαλικά
 da = Δανικά
 de = Γερμανικά
@@ -91,7 +91,7 @@ ja = Ιαπωνικά
 ka = Γεωργιανά
 kaa = Κάρα-Καλπάκ
 kab = Καβυλικά
-kbd = Kabardian
+kbd = Καμπαρντιανά
 ki = Κικούγιου
 kk = Καζακικά
 km = Χμερ
@@ -575,6 +575,7 @@ about-playbook-how-grow-language-content-6 = Συνεργασίες και δί�
 
 ## How to validate
 
+about-playbook-how-validate = Πώς ξέρω αν πρέπει να εγκρίνω ένα απόσπασμα;
 about-playbook-how-validate-content-1 = Αν μπορέσατε να τα <strong>ακούσετε</strong> και να τα <strong>καταλάβετε</strong>, <strong>καλό θα ήταν να τα εγκρίνετε</strong>.
 about-playbook-how-validate-content-4 = Αν ένα απόσπασμα απορριφθεί από 2 άτομα, κυκλοφορεί σε διαφορετικό υποσύνολο του συνόλου δεδομένων.
 
