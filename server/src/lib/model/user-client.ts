@@ -470,6 +470,7 @@ const UserClient = {
       (client: UserClientType, row: any) => ({
         ...pick(
           row,
+          'client_id',
           'accent',
           'variant',
           'age',
