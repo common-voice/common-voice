@@ -1,0 +1,186 @@
+.profile-download {
+    margin-top: 40px;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    .download-item {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 2px solid var(--grey);
+        padding-bottom: 2em;
+        margin-bottom: 2em;
+
+        > * {
+            box-sizing: border-box;
+            align-self: center;
+            width: calc(50% - var(--profile-column-margin) / 2);
+            margin-inline-start: var(--profile-column-margin);
+        }
+
+        > *:first-child {
+            width: 5rem;
+            min-width: 1.5rem;
+        }
+
+        @media (--md-down) {
+            flex-direction: column;
+            > * {
+                width: 100%;
+                margin-bottom: 10px;
+                margin-inline-start: 0;
+            }
+            > *:first-child {
+                display: none;
+            }
+        }
+
+        p {
+            color: var(--near-black);
+        }
+    }
+
+    .section-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    h2 {
+        margin-bottom: 10px;
+        font-family: var(--strong-font-family);
+        font-size: var(--font-size-lg);
+        font-weight: 600;
+    }
+
+    .section-info {
+        border-bottom: 2px solid var(--grey);
+        padding-bottom: 2em;
+        color: var(--near-black);
+    }
+
+    .section-body {
+        padding-top: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .download-button {
+        margin: 0 auto;
+        background-color: var(--blue);
+        padding: 0.85rem 1rem;
+        border-color: var(--blue);
+    }
+
+    .download-item-info {
+        flex-shrink: 0.2;
+    }
+
+    .download-item-size {
+        display: flex;
+        align-items: center;
+    }
+
+    .download-size {
+        text-transform: uppercase;
+    }
+
+    .download-item svg {
+        filter: grayscale(1) contrast(5);
+    }
+
+    .download-request-button svg {
+        padding-right: 1em;
+    }
+
+    &.download-requests .section-body {
+        padding-top: 0;
+    }
+
+    .download-request-item {
+        display: grid;
+        grid-template-columns: 5rem auto min-content;
+        grid-template-areas:
+            'icon title button'
+            'icon description button';
+        padding: 2rem 0;
+        border-bottom: 1px solid var(--grey);
+
+        &:last-child {
+            border-bottom: 0;
+        }
+
+        @media (--md-down) {
+            grid-template-columns: 1fr;
+            row-gap: 0.25rem;
+            grid-template-areas:
+                'title'
+                'description'
+                'button';
+            .download-request-icon {
+                display: none;
+            }
+            > * {
+                margin-bottom: 10px;
+            }
+        }
+
+        .download-request-icon {
+            grid-area: icon;
+            align-self: center;
+            justify-self: center;
+        }
+        .download-request-title {
+            grid-area: title;
+            font-weight: bold;
+            align-self: flex-end;
+        }
+        .download-request-description {
+            grid-area: description;
+            color: var(--near-black);
+            padding-inline-end: 1.5rem;
+        }
+        .download-request-button {
+            grid-area: button;
+            align-self: center;
+        }
+    }
+
+    .download-disabled {
+        font-size: var(--font-size-xs);
+        color: var(--near-black);
+    }
+}
+
+.download-request-modal {
+    .section-info {
+        padding: 0;
+        border: 0;
+    }
+
+    textarea {
+        margin-top: 1rem;
+    }
+
+    a {
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+.download-request-modal.inner {
+    text-align: match-parent;
+
+    ul {
+        margin: 0 0 32px 0;
+    }
+
+    .download-request-nl-links {
+        white-space: pre;
+        overflow-wrap: normal;
+        overflow-x: scroll;
+        margin-bottom: 32px;
+    }
+}
