@@ -1203,6 +1203,7 @@ sc-submit-select-language =
 sc-submit-add-sentences = Προσθήκη προτάσεων <wikipediaLink>δημόσιου τομέα</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Μία πρόταση ανά γραμμή
+sc-submit-confirm = Επιβεβαιώνω ότι οι προτάσεις είναι <wikipediaLink>δημόσια διαθέσιμες</wikipediaLink> και έχω την άδεια να τις μεταφορτώσω.
 sc-submit-button =
     .submitText = Υποβολή
 sc-submit-guidelines = Παρακαλούμε ελέγξτε τις <howToLink>οδηγίες</howToLink>.
@@ -1352,6 +1353,7 @@ sc-review-title = Έλεγχος προτάσεων
 sc-review-loading = Φόρτωση προτάσεων…
 sc-review-select-language = Παρακαλώ επιλέξτε μια γλώσσα για έλεγχο προτάσεων.
 sc-review-no-sentences = Καμία πρόταση προς έλεγχο. <addLink>Προσθέστε περισσότερες προτάσεις τώρα!</addLink>
+sc-review-form-usage = Σύρετε προς τα δεξιά για να εγκρίνετε την πρόταση. Σύρετε προς τα αριστερά για να την απορρίψετε. Σύρετε προς τα επάνω για να την παραλείψετε. <strong>Μην ξεχάσετε να υποβάλετε την αξιολόγησή σας!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Πηγή: { $sentenceSource }
