@@ -453,7 +453,7 @@ faq-how-calc-hours-q = Πώς υπολογίζει το Common Voice τις ώρ
 faq-how-calc-hours-a = Υπολογίζουμε τις ώρες εκτιμώντας το μέσο μήκος κάθε ηχογράφησης και πολλαπλασιάζοντας τον αριθμό αυτό με το συνολικό αριθμό ηχογραφήσεων σε όλες τις γλώσσες.
 faq-where-src-from-2-q = Από πού προέρχεται το πηγαίο κείμενο;
 faq-where-src-from-2-a =
-    Το πηγαίο κείμενο αποτελείται από πρωτότυπες δωρεές εθελοντών, καθώς και διαλόγους από σενάρια ταινιών του δημόσιου τομέα, όπως το <italic>Μια Υπέροχη Ζωή</italic>.
+    Το πηγαίο κείμενο αποτελείται από πρωτότυπες δωρεές εθελοντών, καθώς και διαλόγους από σενάρια ταινιών που είναι δημόσια διαθέσιμες, όπως το <italic>Μια Υπέροχη Ζωή</italic>.
     
     Μπορείτε να δείτε τις προτάσεις του πηγαίου κειμένου σε αυτό το <githubLink>φάκελο του GitHub</githubLink>.
 faq-why-not-ask-read-q = Γιατί δεν ζητάτε από τους εθελοντές να διαβάζουν βιβλία ή άρθρα της Wikipedia σε διαφορετικές γλώσσες;
@@ -501,7 +501,7 @@ about-listen-queue = Ουρά-Ακρόασης
 about-listen-queue-text = Τα φωνητικά κλιπ εισάγονται σε μια ουρά υποβολής που τα προετοιμάζει για ακρόαση.
 about-listen = Ακρόαση
 about-listen-text = Οι χρήστες επικυρώνουν την ακρίβεια των κλιπ, ελέγχοντας ότι ο εκφωνητής διάβασε σωστά την πρόταση.
-about-is-it-valid = Είναι έγκυρο το κλιπ;
+about-is-it-valid = Είναι έγκυρο το απόσπασμα;
 about-is-it-valid-text = Ένα φωνητικό κλιπ σημειώνεται ως «έγκυρο» όταν ένας χρήστης το εγκρίνει με «Ναι».
 about-yes-votes = ≥ 2 θετικές ψήφοι
 about-yes-votes-text = Για να μπορέσει να μπει στο σύνολο των δεδομένων του Common Voice, ένα κλιπ ομιλίας πρέπει να επικυρωθεί από δύο ξεχωριστούς χρήστες.
@@ -571,6 +571,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Δείτε περισσότ�
 
 ## How to grow language
 
+about-playbook-how-grow-language = Πώς μπορούμε να αναπτύξουμε μια γλώσσα στο Common Voice;
 about-playbook-how-grow-language-content-2 = Εκδηλώσεις
 about-playbook-how-grow-language-content-4 = Κοινωνικά δίκτυα
 about-playbook-how-grow-language-content-6 = Συνεργασίες και δίκτυα
@@ -605,7 +606,7 @@ glossary = Γλωσσάριο
 localization = Τοπικοποίηση
 localization-explanation = Αυτή είναι η διαδικασία μας για τη μετάφραση και την προσαρμογή του περιεχομένου μας σε πολλές γλώσσες.
 sentence-collection = Συλλογή προτάσεων
-sentence-collection-explanation = Η συλλογή προτάσεων από το δημόσιο τομέα, ή η εγγραφή νέων από το δημόσιο τομέα.
+sentence-collection-explanation = Η συλλογή δημόσια διαθέσιμων προτάσεων ή η σύνταξη νέων για τον δημόσιο τομέα,
 hours-recorded-explanation = Οι ώρες ηχογραφήσεων φωνής που έχουμε συλλέξει μέχρι στιγμής.
 hours-validated-explanation = Ο αριθμός των ωρών ηχογράφησης που έχουν επικυρωθεί από 2 στους 3 χρήστες με θετική ψήφο. Έτσι, σημειώνεται η πρόοδος του έργου συγκριτικά με το συνολικό στόχο 10 χιλιάδων ωρών.
 sst = Ομιλία-σε-κείμενο (STT)
@@ -1188,6 +1189,10 @@ sc-rejected-none-found = Δεν βρέθηκαν απορριφθείσες πρ
 sc-stats-title = Στατιστικά
 sc-stats-updating = Ενημέρωση…
 sc-stats-error = Δεν μπορέσαμε να λάβουμε τα στατιστικά. Παρακαλώ δοκιμάστε ξανά αργότερα.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Το εργαλείο συλλογής προτάσεων του Common Voice έχει συγκεντρώσει { $sentenceCount } προτάσεις σε { $languageCount } γλώσσες!
 
 ## ADD
 
@@ -1200,9 +1205,10 @@ sc-submit-prompt =
 sc-submit-title = Προσθήκη προτάσεων
 sc-submit-select-language =
     .labelText = Επιλογή γλώσσας
-sc-submit-add-sentences = Προσθήκη προτάσεων <wikipediaLink>δημόσιου τομέα</wikipediaLink>
+sc-submit-add-sentences = Προσθήκη <wikipediaLink>δημόσια διαθέσιμων</wikipediaLink> προτάσεων
 sc-submit-ph-one-per-line =
     .placeholder = Μία πρόταση ανά γραμμή
+sc-submit-from-where = Από πού προέρχονται αυτές οι <wikipediaLink>δημόσια διαθέσιμες</wikipediaLink> προτάσεις;
 sc-submit-confirm = Επιβεβαιώνω ότι οι προτάσεις είναι <wikipediaLink>δημόσια διαθέσιμες</wikipediaLink> και έχω την άδεια να τις μεταφορτώσω.
 sc-submit-button =
     .submitText = Υποβολή
