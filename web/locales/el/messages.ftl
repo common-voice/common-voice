@@ -544,6 +544,7 @@ about-playbook-what-is-language-content-3 = Ορισμένες γλώσσες έ
 
 about-playbook-how-add-language = Πώς προσθέτω μια γλώσσα;
 about-playbook-how-add-language-content-1 = Αρχικά, ελέγξτε εάν η γλώσσα σας <languageLink>υπάρχει ήδη</languageLink>. Εάν δεν υπάρχει, θα πρέπει να <strong>μεταφράσετε τον ιστότοπο και να συγκεντρώσετε προτάσεις</strong>.
+about-playbook-how-add-language-content-2 = <strong>Για να μεταφράσετε τον ιστότοπο</strong> - <translateVideo>ξεκινήστε</translateVideo> στο <pontoonLink>Pontoon</pontoonLink>. Το Pontoon διαθέτει πολλές γλώσσες, αλλά αν δεν έχει τη δική σας, μπορείτε να <pontoonRequestLink>τη ζητήσετε</pontoonRequestLink>. Στη συνέχεια, ζητήστε <repoLink>μέσω του GitHub</repoLink> να γίνει διαθέσιμο το Common Voice στη γλώσσα σας. Δείτε περισσότερα σχετικά με τη <localizationFragment>μετάφραση του ιστοτόπου</localizationFragment>.
 about-playbook-how-add-language-content-3 = <strong>Για να συλλέξετε προτάσεις</strong> - <scVideo>ρυθμίστε</scVideo> το <scLink>εργαλείο συλλογής προτάσεων</scLink>.
 
 ## How does localization work
@@ -562,6 +563,7 @@ about-playbook-how-add-sentences-content-4 = Οι προτάσεις που έχ
 ## How to record quality
 
 about-playbook-how-record-quality = Πώς ηχογραφώ αποσπάσματα υψηλής ποιότητας;
+about-playbook-how-record-content-1 = Μιλήστε κανονικά! Ο τρόπος ομιλίας σας είναι ευπρόσδεκτος εδώ - θέλουμε την προφορά σας όπως είναι και θέλουμε τη συνήθη ένταση, το στυλ και τον τονισμό σας.
 about-playbook-how-record-content-2 = Αποφύγετε τον υπερβολικό θόρυβο γύρω σας - θα πρέπει να σας ακούμε εύκολα.
 about-playbook-how-record-content-3 = Διαβάστε προσεκτικά την πρόταση - μην παραλείψετε, μην αλλάξετε και μην προσθέσετε λέξεις.
 about-playbook-how-record-content-4 = Βεβαιωθείτε ότι η πλατφόρμα ηχογραφεί πριν αρχίσετε να μιλάτε και ότι σταματάει μόνο όταν τελειώσετε.
@@ -1125,6 +1127,7 @@ sc-logout-button = Αποσύνδεση
 
 sc-home-title = Καλώς ορίσατε στη Συλλογή προτάσεων Common Voice
 sc-home-collect-title = Συλλογή προτάσεων
+sc-home-collect-text = Βοηθήστε μας συντάσσοντας ή συλλέγοντας δημόσια διαθέσιμες προτάσεις.
 sc-home-review-title = Έλεγχος προτάσεων
 sc-home-review-text = Βοηθήστε μας ελέγχοντας την ορθότητα των προτάσεων, σύμφωνα με τις οδηγίες.
 
@@ -1191,6 +1194,7 @@ sc-stats-error = Δεν μπορέσαμε να λάβουμε τα στατισ
 sc-submit-err-select-lang = Παρακαλούμε επιλέξτε μια γλώσσα.
 sc-submit-err-add-sentences = Παρακαλούμε προσθέστε προτάσεις.
 sc-submit-err-add-source = Παρακαλούμε προσθέστε μια πηγή.
+sc-submit-err-confirm-pd = Παρακαλούμε επιβεβαιώστε ότι αυτές οι προτάσεις είναι δημόσια διαθέσιμες.
 sc-submit-prompt =
     .message = Οι προτάσεις δεν υποβλήθηκαν, θέλετε σίγουρα να αποχωρήσετε;
 sc-submit-title = Προσθήκη προτάσεων
