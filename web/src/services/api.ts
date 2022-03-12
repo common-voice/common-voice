@@ -333,6 +333,14 @@ export default class API {
     );
   }
 
+  fetchClips(): Promise<void> {
+    console.log('this.user', this.user);
+    return this.fetch(
+      API_PATH + '/user_clients/' + this.user.account.client_id + '/clips',
+      { method: 'GET' }
+    );
+  }
+
   saveHasDownloaded(
     email: string,
     locale: string,

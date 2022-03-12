@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-namespace */
 import { Dispatch } from 'redux';
 import { UserClient } from 'common';
 import { generateGUID, generateToken } from '../utility';
@@ -10,6 +11,7 @@ export const VISIBLE_FOR_TEAM = 2;
 export namespace User {
   export interface State {
     userId: string;
+    client_id: string;
     authToken: string;
     email: string;
     sendEmails: boolean;
@@ -26,6 +28,7 @@ export namespace User {
   function getDefaultState(): State {
     return {
       userId: generateGUID(),
+      client_id: null,
       authToken: generateToken(),
       email: null,
       sendEmails: false,

@@ -14,6 +14,7 @@ import {
   TrashIcon,
   UserIcon,
   UserPlusIcon,
+  VolumeIcon,
 } from '../../ui/icons';
 import AvatarSetup from './avatar-setup/avatar-setup';
 import DeleteProfile from './delete/delete';
@@ -22,6 +23,7 @@ import Settings from './settings/settings';
 
 import './layout.css';
 import DownloadProfile, { getProfileInfo } from './download/download';
+import ClipsProfile from './clips/clips';
 
 interface PropsFromState {
   user: User.State;
@@ -30,12 +32,13 @@ interface PropsFromState {
 interface Props extends LocalePropsFromState, PropsFromState {}
 
 const Layout = ({ toLocaleRoute, user }: Props) => {
-  const [infoRoute, avatarRoute, prefRoute, deleteRoute, downloadRoute] = [
+  const [infoRoute, avatarRoute, prefRoute, deleteRoute, downloadRoute, clipsRoute] = [
     URLS.PROFILE_INFO,
     URLS.PROFILE_AVATAR,
     URLS.PROFILE_SETTINGS,
     URLS.PROFILE_DELETE,
     URLS.PROFILE_DOWNLOAD,
+    URLS.PROFILE_CLIPS
   ].map(r => toLocaleRoute(r));
   return (
     <div className="profile-layout">
@@ -60,6 +63,11 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
               icon: <CloudIcon />,
               id: 'download-profile',
             },
+            {
+              route: clipsRoute,
+              icon: <VolumeIcon />,
+              id: 'download-profile',
+            },
           ]
             .slice(0, user.account ? Infinity : 1)
             .map(({ route, icon, id }) => (
@@ -80,6 +88,7 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             { route: prefRoute, Component: Settings },
             { route: deleteRoute, Component: DeleteProfile },
             { route: downloadRoute, Component: DownloadProfile },
+            { route: clipsRoute, Component: ClipsProfile },
           ].map(({ route, Component }) => (
             <Route
               key={route}

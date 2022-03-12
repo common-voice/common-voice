@@ -15,6 +15,7 @@ export default Object.freeze({
   PROFILE_SETTINGS: PROFILE + '/settings',
   PROFILE_DELETE: PROFILE + '/delete',
   PROFILE_DOWNLOAD: PROFILE + '/download',
+  PROFILE_CLIPS: PROFILE + '/clips',
 
   DASHBOARD,
   STATS: '/stats',
