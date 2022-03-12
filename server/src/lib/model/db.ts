@@ -194,6 +194,27 @@ export default class DB {
     return rows;
   }
 
+  async getUserClips(locale: string, clientId: string): Promise<DBClip[]> {
+    const locale_id = await getLocaleId(locale);
+
+    const [rows] = await this.mysql.query(
+      `
+        SELECT c.id as id, 
+        c.path as path, 
+        s.has_valid_clip as has_valid_clip,
+        c.client_id as client_id, 
+        s.text as sentence,
+        c.original_sentence_id as original_sentence_id
+        FROM clips c
+        LEFT JOIN sentences s ON s.id = c.original_sentence_id and c.locale_id = ?
+        WHERE c.client_id = ?
+      `,
+      [locale_id, clientId]
+    );
+
+    return rows;
+  }
+
   async getClipCount(): Promise<number> {
     return this.clip.getCount();
   }
@@ -484,6 +505,22 @@ export default class DB {
     );
 
     return clips as DBClip[];
+  }
+  async findUserClips(
+    locale: string,
+    client_id: string
+    // count: number,
+  ): Promise<DBClip[]> {
+    // get cached clips for given language
+    const cachedUserClips: DBClip[] = await lazyCache(
+      `user-clips-per-language-${client_id}`,
+      async () => {
+        return await this.getUserClips(locale, client_id);
+      },
+      MINUTE
+    )();
+
+    return cachedUserClips;
   }
 
   async findClipsMatchingTaxonomy(

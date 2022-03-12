@@ -143,6 +143,13 @@ export default class Model {
     );
   }
 
+  /**
+   * Get a users clips.
+   */
+  async findUserClips(client_id: string, locale: string): Promise<DBClip[]> {
+    return this.db.findUserClips(locale, client_id);
+  }
+
   async findEligibleSentences(
     client_id: string,
     locale: string,
