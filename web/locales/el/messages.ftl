@@ -584,9 +584,11 @@ about-playbook-how-record-content-5 = <accuracyLink>Δείτε περισσότ�
 ## How to grow language
 
 about-playbook-how-grow-language = Πώς μπορούμε να αναπτύξουμε μια γλώσσα στο Common Voice;
+about-playbook-how-grow-language-content-1 = Η δημιουργία ευκαιριών ώστε να συνεισφέρουν διάφορα άτομα στο Common Voice διασφαλίζει ότι το σύνολο δεδομένων εξυπηρετεί όσο το δυνατόν περισσότερους ανθρώπους. Δημιουργήσαμε πόρους και πρότυπα που μπορείτε να χρησιμοποιήσετε!
 about-playbook-how-grow-language-content-2 = Εκδηλώσεις
 about-playbook-how-grow-language-content-4 = Κοινωνικά δίκτυα
 about-playbook-how-grow-language-content-6 = Συνεργασίες και δίκτυα
+about-playbook-how-grow-language-content-7 = Βρείτε άλλους που να ενδιαφέρονται. Μπορεί να είναι πανεπιστήμια, φροντιστήρια ξένων γλωσσών, ομάδες υποστήριξης ή κοινότητες επιστήμης δεδομένων. Εξηγήστε με σαφήνεια πώς μπορούν να βοηθήσουν και γιατί. <outreachTemplates>Δείτε το πρότυπό μας για τα email ευαισθητοποίησης</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Γίνετε δημιουργικοί!</strong> Η γλωσσική σας κοινότητα θα είναι μοναδική και υπάρχουν λίγοι μόνο τρόποι για να ξεκινήσετε.
 
 ## How to validate
@@ -1378,6 +1380,8 @@ sc-review-title = Έλεγχος προτάσεων
 sc-review-loading = Φόρτωση προτάσεων…
 sc-review-select-language = Παρακαλώ επιλέξτε μια γλώσσα για έλεγχο προτάσεων.
 sc-review-no-sentences = Καμία πρόταση προς έλεγχο. <addLink>Προσθέστε περισσότερες προτάσεις τώρα!</addLink>
+sc-review-form-prompt =
+    .message = Οι ελεγμένες προτάσεις δεν υποβλήθηκαν, είστε σίγουροι;
 sc-review-form-usage = Σύρετε προς τα δεξιά για να εγκρίνετε την πρόταση. Σύρετε προς τα αριστερά για να την απορρίψετε. Σύρετε προς τα επάνω για να την παραλείψετε. <strong>Μην ξεχάσετε να υποβάλετε την αξιολόγησή σας!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
@@ -1411,6 +1415,7 @@ sc-settings-title = Ρυθμίσεις
 sc-settings-ui-language = Γλώσσα περιβάλλοντος
 sc-settings-language-translated-warning = Οι σελίδες για αυτήν τη γλώσσα ενδέχεται να μην έχουν μεταφραστεί πλήρως. Μπορείτε να βοηθήσετε με τη μετάφραση <pontoonLinkLink>στο Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Επαναφορά παραλειφθεισών προτάσεων
+sc-settings-skipped-decription = Προηγουμένως παραλείψατε προτάσεις κατά τον έλεγχο. Η επαναφορά των παραλειφθεισών προτάσεων θα εμφανίσει ξανά όλες αυτές τις προτάσεις. Αυτό είναι ανεξάρτητο από τη γλώσσα.
 sc-settings-show-all-button = Εμφάνιση όλων των παραλειφθεισών προτάσεων ξανά
 sc-settings-failed = Δεν ήταν δυνατή η αλλαγή των ρυθμίσεων. Παρακαλούμε δοκιμάστε ξανά.
 # VALIDATION
