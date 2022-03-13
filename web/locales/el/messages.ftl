@@ -480,6 +480,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Γιατί το Common Voice;
+about-header-description-v2 =
+    <p>Το Common Voice είναι ένα δημόσια διαθέσιμο σύνολο δεδομένων φωνής, που βασίζεται στις φωνές εθελοντών από όλο τον κόσμο. Τα άτομα που θέλουν να αναπτύξουν εφαρμογές με φωνητικές δυνατότητες, μπορούν να χρησιμοποιήσουν το σύνολο δεδομένο για να εκπαιδεύσουν τα μοντέλα μηχανικής εκμάθησης.</p>
+    <p>Προς το παρόν, τα περισσότερα σύνολα δεδομένων φωνής ανήκουν σε εταιρείες, κάτι που εμποδίζει την καινοτομία. Τα σύνολα δεδομένων φωνής υπεραντιπροσωπεύουν λευκούς αγγλόφωνους άντρες. Αυτό σημαίνει ότι η τεχνολογία φωνής δεν λειτουργεί καθόλου για πολλές γλώσσες και σε αυτές που υποστηρίζει, ενδέχεται να μην αποδίδει το ίδιο καλά για όλους. Θέλουμε να το αλλάξουμε αυτό κινητοποιώντας ανθρώπους σε όλο τον κόσμο για να μοιραστούν τη φωνή τους.</p>
 how-does-it-work-title-v2 = Πώς λειτουργεί το Common Voice;
 how-does-it-work-text = Δημιουργούμε με crowdsourcing ένα σύνολο φωνητικών δεδομένων ανοικτού κώδικα. Συνεισφέρετε τη φωνή σας, επικυρώστε την ακρίβεια των κλιπ άλλων χρηστών, κάντε το σύνολο δεδομένων καλύτερο για όλους.
 
@@ -541,6 +544,7 @@ about-nav-playbook = Μάθετε πώς να λάβετε μέρος
 ## What is a language
 
 about-playbook-what-is-language = Τι είναι μια γλώσσα του Common Voice;
+about-playbook-what-is-language-content-1 = Υπάρχουν πολλοί τρόποι να αντιληφθεί κανείς μια γλώσσα. Για τα μοντέλα αναγνώρισης ομιλίας, το Common Voice προτείνει την εστίαση στην «αμοιβαία κατανόηση», δηλαδή «μπορούν οι ομιλητές αυτής της γλώσσας να καταλάβουν σε μεγάλο βαθμό ο ένας τον άλλο εάν προσπαθήσουν;».
 about-playbook-what-is-language-content-2 = Θέλουμε τα μοντέλα ομιλίας να κατανοούν καλύτερα ένα ευρύ φάσμα ομιλητών. Για να συμβεί αυτό, ένα φωνητικό σύνολο δεδομένων πρέπει να αντιπροσωπεύει πολλά διαφορετικά άτομα.
 about-playbook-what-is-language-content-3 = Ορισμένες γλώσσες έχουν τεράστιες διαφορές στη γραμματική, το λεξιλόγιο και την προφορά. Για αυτόν τον λόγο, <ctaLink>παρουσιάζουμε τις «Παραλλαγές»</ctaLink> το 2022. Αυτό δίνει στις κοινότητες έναν τρόπο να διακρίνουν τις γλώσσες τους μέσα στο μεγαλύτερο σύνολο δεδομένων.
 
@@ -550,11 +554,14 @@ about-playbook-how-add-language = Πώς προσθέτω μια γλώσσα;
 about-playbook-how-add-language-content-1 = Αρχικά, ελέγξτε εάν η γλώσσα σας <languageLink>υπάρχει ήδη</languageLink>. Εάν δεν υπάρχει, θα πρέπει να <strong>μεταφράσετε τον ιστότοπο και να συγκεντρώσετε προτάσεις</strong>.
 about-playbook-how-add-language-content-2 = <strong>Για να μεταφράσετε τον ιστότοπο</strong> - <translateVideo>ξεκινήστε</translateVideo> στο <pontoonLink>Pontoon</pontoonLink>. Το Pontoon διαθέτει πολλές γλώσσες, αλλά αν δεν έχει τη δική σας, μπορείτε να <pontoonRequestLink>τη ζητήσετε</pontoonRequestLink>. Στη συνέχεια, ζητήστε <repoLink>μέσω του GitHub</repoLink> να γίνει διαθέσιμο το Common Voice στη γλώσσα σας. Δείτε περισσότερα σχετικά με τη <localizationFragment>μετάφραση του ιστοτόπου</localizationFragment>.
 about-playbook-how-add-language-content-3 = <strong>Για να συλλέξετε προτάσεις</strong> - <scVideo>ρυθμίστε</scVideo> το <scLink>εργαλείο συλλογής προτάσεων</scLink>.
+about-playbook-how-add-language-content-4 = Μπορείτε να <scLinkAdd>προσθέσετε μικρούς αριθμούς</scLinkAdd> προτάσεων εδώ ή μπορείτε να κάνετε <bulkImportDocsLink>μαζικές εισαγωγές</bulkImportDocsLink> μέσω ενός αιτήματος στο Github. Θυμηθείτε ότι οι προτάσεις πρέπει να είναι <licenseLink>CC0 (ή δημόσια διαθέσιμες)</licenseLink> ή μπορείτε να γράψετε τις δικές σας. Δείτε περισσότερα σχετικά με τη <scFragment>συλλογή προτάσεων</scFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Πώς λειτουργεί η μετάφραση του ιστοτόπου;
 about-playbook-how-localize-content-1 = Η μετάφραση του ιστοτόπου του Common Voice γίνεται στο <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Δημιουργήστε έναν λογαριασμό</pontoonAccountLink> εάν δεν έχετε ήδη έναν. Έπειτα, επιλέξτε τη γλώσσα σας <strong>(«Team»)</strong> και επιλέξτε το έργο <pontoonCvLink>Common Voice</pontoonCvLink>. Θα υπάρχουν αρχεία προς μετάφραση. Κάντε κλικ σε ένα και θα εμφανιστούν λέξεις στα αγγλικά, καθώς και ένα πεδίο για να τις μεταφράσετε.
+about-playbook-how-localize-content-3 = Η μετάφραση γίνεται από τα αγγλικά, αλλά μπορείτε να δείτε <strong>προτάσεις</strong> σε άλλες γλώσσες. Κάντε κλικ στο εικονίδιο του <strong>προφίλ</strong>, επιλέξτε τον σύνδεσμο <strong>Settings</strong> και προσθέστε όσες γλώσσες μιλάτε. Στην κάτω δεξιά γωνία θα υπάρχει μια λίστα με μεταφράσεις, με όνομα <strong>Locales</strong>. Οι μεταφράσεις εμφανίζονται στον ιστότοπο μετά από μία ημέρα.
 about-playbook-how-localize-content-4 = Ο ιστότοπος είναι έτοιμος για κυκλοφορία όταν ολοκληρωθεί κατά 75%.
 about-playbook-how-localize-content-5 = Δείτε το ενημερωτικό βίντεο για βοήθεια
 
@@ -579,11 +586,14 @@ about-playbook-how-grow-language = Πώς μπορούμε να αναπτύξο
 about-playbook-how-grow-language-content-2 = Εκδηλώσεις
 about-playbook-how-grow-language-content-4 = Κοινωνικά δίκτυα
 about-playbook-how-grow-language-content-6 = Συνεργασίες και δίκτυα
+about-playbook-how-grow-language-content-8 = <strong>Γίνετε δημιουργικοί!</strong> Η γλωσσική σας κοινότητα θα είναι μοναδική και υπάρχουν λίγοι μόνο τρόποι για να ξεκινήσετε.
 
 ## How to validate
 
 about-playbook-how-validate = Πώς ξέρω αν πρέπει να εγκρίνω ένα απόσπασμα;
 about-playbook-how-validate-content-1 = Αν μπορέσατε να τα <strong>ακούσετε</strong> και να τα <strong>καταλάβετε</strong>, <strong>καλό θα ήταν να τα εγκρίνετε</strong>.
+about-playbook-how-validate-content-2 = <strong>Μην απορρίπτετε αποσπάσματα όπου ο ομιλητής «έχει προφορά», διαφορετική από τη δική σας</strong> - αυτό είναι σημαντικό για να λειτουργεί καλύτερα η αναγνώριση φωνής για όλους.
+about-playbook-how-validate-content-3 = Αν πιστεύετε ότι η προφορά καθιστά <strong>αδύνατη την κατανόηση</strong> ή υπάρχει <strong>πολύς θόρυβος στο παρασκήνιο</strong> ή <strong>μιλούν και άλλα άτομα</strong>, τότε θα πρέπει να απορρίψετε το απόσπασμα. <accuracyLink>Δείτε περισσότερες πληροφορίες για τα κριτήρια ακρίβειάς μας</accuracyLink>.
 about-playbook-how-validate-content-4 = Αν ένα απόσπασμα απορριφθεί από 2 άτομα, κυκλοφορεί σε διαφορετικό υποσύνολο του συνόλου δεδομένων.
 
 ## How to access dataset
