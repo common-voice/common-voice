@@ -602,6 +602,7 @@ about-playbook-how-validate-content-4 = Αν ένα απόσπασμα απορ�
 ## How to access dataset
 
 about-playbook-how-access-dataset = Πώς βρίσκω και χρησιμοποιώ το σύνολο δεδομένων;
+about-playbook-how-access-dataset-content-1 = Μεταβείτε στη <datasetsPage>σελίδα συνόλων δεδομένων</datasetsPage>, επιλέξτε την έκδοση και τις γλώσσες που θέλετε και κάντε λήψη! Τα αρχεία έχουν <metadataLink>σχετικά μεταδεδομένα</metadataLink>, όπως δημογραφικά στοιχεία και δεδομένα επικύρωσης. Θα χρειαστεί να καταχωρήσετε μια διεύθυνση email για να κάνετε λήψη του συνόλου δεδομένων.
 about-playbook-how-access-dataset-content-2 = Αν ψάχνετε για εργαλεία δημιουργίας μοντέλων ASR, μπορείτε να επικοινωνήσετε με άλλα άτομα στην κοινότητα <discourseLink>του Discourse</discourseLink>.
 
 ## How are decisions made
