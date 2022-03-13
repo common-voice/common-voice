@@ -541,6 +541,7 @@ about-playbook-how-localize-content-5 = 观看我们的帮助视频
 ## How to add sentences
 
 about-playbook-how-add-sentences = 如何添加语句？
+about-playbook-how-add-sentences-content-4 = 通过的句子在周三导出，并在下一次数据集发布后可用。
 
 ## How to record quality
 
@@ -560,6 +561,7 @@ about-playbook-how-grow-language-content-4 = 社交媒体
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = 如何访问和使用数据集？
 
 ## How are decisions made
 
