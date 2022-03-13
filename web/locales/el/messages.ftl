@@ -1232,6 +1232,7 @@ sc-submit-from-where = Από πού προέρχονται αυτές οι <wik
 sc-submit-confirm = Επιβεβαιώνω ότι οι προτάσεις είναι <wikipediaLink>δημόσια διαθέσιμες</wikipediaLink> και έχω την άδεια να τις μεταφορτώσω.
 sc-submit-button =
     .submitText = Υποβολή
+sc-submit-filtered = Φιλτραρίστηκαν προτάσεις επειδή δεν πληρούν τις απαιτήσεις (παρακαλώ υποβάλετε τις διορθωμένες εκδόσεις ως νέες προτάσεις):
 sc-submit-guidelines = Παρακαλούμε ελέγξτε τις <howToLink>οδηγίες</howToLink>.
 
 ## ADD LANGUAGE
