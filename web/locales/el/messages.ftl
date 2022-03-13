@@ -604,6 +604,7 @@ about-playbook-how-access-dataset-content-2 = Αν ψάχνετε για εργ�
 ## How are decisions made
 
 about-playbook-how-project-governance = Πώς λαμβάνονται οι αποφάσεις για τα έργα;
+about-playbook-how-project-governance-content-2 = Η διακυβέρνησή μας βασίζεται στους εξής πυλώνες:
 about-playbook-how-project-governance-content-3 = Απόρρητο, ασφάλεια και διαφάνεια.
 about-playbook-how-project-governance-content-4 = Κοινοτική συμμετοχή και λήψη αποφάσεων.
 about-playbook-how-project-governance-content-5 = Αξία και αναγνώριση.
