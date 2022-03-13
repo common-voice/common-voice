@@ -568,6 +568,7 @@ about-playbook-how-localize-content-5 = Δείτε το ενημερωτικό �
 ## How to add sentences
 
 about-playbook-how-add-sentences = Πώς προσθέτω προτάσεις;
+about-playbook-how-add-sentences-content-1 = Η <strong>Συλλογή προτάσεων</strong> είναι ένα εργαλείο για τη συλλογή και την επικύρωση δημόσια διαθέσιμων προτάσεων. Θα <scAccountLink>χρειαστεί να δημιουργήσετε έναν λογαριασμό</scAccountLink>. Έπειτα, προσθέστε τη γλώσσα σας στο <strong>προφίλ</strong> σας. Μπορείτε να <strong>προσθέσετε</strong> προτάσεις ή να <strong>ελέγξετε</strong> ήδη υποβεβλημένες προτάσεις.
 about-playbook-how-add-sentences-content-3 = Μπορείτε να χρησιμοποιήσετε το <scraperLink>εργαλείο εξαγωγής προτάσεων</scraperLink> για να αξιοποιήσετε σύντομες προτάσεις από τη Βικιπαίδεια.
 about-playbook-how-add-sentences-content-4 = Οι προτάσεις που έχουν επικυρωθεί εξάγονται τις Τετάρτες και είναι διαθέσιμες μετά την επόμενη κυκλοφορία.
 
@@ -604,6 +605,7 @@ about-playbook-how-access-dataset-content-2 = Αν ψάχνετε για εργ�
 ## How are decisions made
 
 about-playbook-how-project-governance = Πώς λαμβάνονται οι αποφάσεις για τα έργα;
+about-playbook-how-project-governance-content-1 = Το Mozilla Common Voice διατίθεται από μια ποικιλόμορφη κοινότητα ακτιβιστών, γλωσσολόγων, επιστημόνων δεδομένων, ακαδημαϊκών και μηχανικών λογισμικού από όλο τον κόσμο. Την επιμέλεια του έργου αναλαμβάνει το Mozilla Foundation.
 about-playbook-how-project-governance-content-2 = Η διακυβέρνησή μας βασίζεται στους εξής πυλώνες:
 about-playbook-how-project-governance-content-3 = Απόρρητο, ασφάλεια και διαφάνεια.
 about-playbook-how-project-governance-content-4 = Κοινοτική συμμετοχή και λήψη αποφάσεων.
@@ -1175,6 +1177,7 @@ sc-howto-findpd-subtitle = Αναζητήστε τες στο διαδίκτυο
 sc-howto-findpd-tips = Ακολουθούν μερικές συμβουλές για να βρείτε προτάσεις:
 sc-howto-findpd-tips-1 = Οι καλύτερες πηγές είναι τα podcast, οι απομαγνητοφωνήσεις, τα σενάρια ταινιών και οτιδήποτε μπορεί να περιέχει καθημερινές συνομιλίες.
 sc-howto-findpd-tips-3 = Δυστυχώς, δεν μπορούμε να έχουμε ακόμα άρθρα από τη Βικιπαίδεια. Μην κάνετε λοιπόν αντιγραφή και επικόλληση από εκεί.
+sc-howto-findpd-subtitle-2 = Συνεργαστείτε με τοπικούς οργανισμούς ή άτομα
 
 ## MY SENTENCES
 
@@ -1288,6 +1291,7 @@ sc-confirm-ready =
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = Δεν έχουν ελεγχθεί { $countOfUnreviewed } προτάσεις. Αν θέλετε, μπορείτε επίσης να ελέγξετε τώρα τις προτάσεις σας πριν από την υποβολή τους.
 sc-confirm-button-text = Επιβεβαίωση
+sc-confirm-uploading = Οι προτάσεις μεταφορτώνονται. Αυτό μπορεί να διαρκέσει αρκετά λεπτά ανάλογα με τον αριθμό των προτάσεων. Παρακαλώ μην κλείσετε αυτόν τον ιστότοπο.
 
 ## LANGUAGE INFO
 
