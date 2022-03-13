@@ -400,7 +400,7 @@ skip-submission-note = Kedźbu: Dyrbiće hišće mjez Rěčeć abo Słuchać wub
 off = Wupinjeny
 on = Zapinjeny
 help-accent = Trjebaće pomoc wo akcenće?
-help-accent-explanation = Waš akcent je wašnje, kak słowa wurěkujeće. Jeho charakter wot toho wotwisuje, hdźež sće žiwy był, kotre druhe rěče rěčiće a wot wjele druhich faktorow. Móžeće wšě informacije zdźělić, kotrež za relewantne  maće.
+help-accent-explanation = Waš akcent je wašnje, kak słowa wurjekujeće. Jeho charakter wot toho wotwisuje, hdźež sće žiwy był, kotre druhe rěče rěčiće a wot wjele druhich faktorow. Móžeće wšě informacije zdźělić, kotrež za relewantne maće.
 help-variants = Trjebaće pomoc za warianty?
 help-variants-explanation = Warianty su specifiska forma rěče - rěča so na přikład wot ludźi, kotřiž su we wěstym regionje abo zhromadźenstwje žiwi. Druhdy wone so dialekty mjenuja.
 
@@ -545,7 +545,7 @@ about-nav-playbook = Zhońće, kak móžeće so wobdźělić
 
 about-playbook-what-is-language = Što je rěč na Common Voice?
 about-playbook-what-is-language-content-2 = Chcemy, zo rěčne modele lěpje móža, wjele rozdźělnych rěčnikow rozumić. Zo by to je móžne, dyrbi datowa sadźba wjele rozdźělnych ludźi reprezentować.
-about-playbook-what-is-language-content-3 = Někotre rěče maja enormne rozdźělne w gramatice, wokabularje a wurěkowanju. Tohodla budźemy w lěće 2022 <ctaLink>„warianty“ zawjedować</ctaLink>. To zhromadźenstwam móžnosć dawa, swoje rěče we wjetšej datowej sadźbje rozeznawać.
+about-playbook-what-is-language-content-3 = Někotre rěče maja enormne rozdźělne w gramatice, wokabularje a wurjekowanju. Tohodla budźemy w lěće 2022 <ctaLink>„warianty“ zawjedować</ctaLink>. To zhromadźenstwam móžnosć dawa, swoje rěče we wjetšej datowej sadźbje rozeznawać.
 
 ## How do I add a language
 
@@ -1173,7 +1173,7 @@ sc-howto-review-title = Sady přepruwować
 sc-howto-review-subtitle = Zawěsćće, zo sady slědowacym kriterijam wotpowěduja:
 sc-howto-review-criteria-1 = Sada dyrbi prawje napisana być.
 sc-howto-review-criteria-2 = Sada dyrbi gramatiski korektna być.
-sc-howto-review-criteria-3 = Sada dyrbi wurěkujomna być.
+sc-howto-review-criteria-3 = Sada dyrbi wurjekujomna być.
 sc-howto-review-criteria-4 = Jeli sada kriterijam wotpowěduje, klikńće na tłóčatko „Schwalić“.
 sc-howto-review-criteria-5 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Wotpokazać“. Jeli sej wo sadźe wěsty njejsće, móžeće tež ju přeskočić a k přichodnej přeńć.
 sc-howto-review-criteria-6 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
@@ -1394,7 +1394,7 @@ sc-criteria-title = Přepruwowanske kriterije
 sc-criteria-make-sure = Zawěsćće, zo sady slědowacym kriterijam wotpowěduja:
 sc-criteria-item-1 = Sada dyrbi prawje napisana być.
 sc-criteria-item-2 = Sada dyrbi gramatisce korektna być.
-sc-criteria-item-3 = Sada dyrbi wurěkujomna być.
+sc-criteria-item-3 = Sada dyrbi wurjekujomna być.
 sc-criteria-item-4 = Jeli sada kriterijam wotpowěduje, klikńće na tłóčatko „Schwalić“.
 sc-criteria-item-5-2 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Wotpokazać“. Jeli sej wo sadźe wěsty njejsće, móžeće tež ju přeskočić a k přichodnej přeńć.
 sc-criteria-item-6 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
