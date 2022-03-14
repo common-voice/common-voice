@@ -17,6 +17,7 @@ not-available-abbreviation = N/D
 banner-error-slow-1 = Desolate, Common Voice es exequite lentemente. Gratias pro tu interesse.
 banner-error-slow-2 = Nos recipe multe traffico e actualmente nos investiga le problemas.
 banner-error-slow-link = Pagina de stato
+error-something-went-wrong = Desolate, alco errate eveniva
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -832,8 +833,10 @@ listen-again-instruction = Optime labor!<playIcon></playIcon> Ascolta de novo qu
 listen-3rd-time-instruction = Duo facite, continua assi!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Le ultime!
 listen-empty-state = Nos non ha plus registrationes a validar pro iste lingua...
+listen-loading-error = Impossibile trovar alcun registration audio a facer te ascoltar. Retenta plus tarde.
 speak-empty-state = Nos non ha plus phrases a registrar pro iste lingua...
 speak-empty-state-cta = Contribue con altere phrases
+speak-loading-error = Impossibile trovar alcun phrases a facer te pronunciar. Retenta plus tarde.
 record-button-label = Registra tu voce
 share-title-new = <bold>Adjuta nos</bold> a trovar plus voces
 keep-track-profile = Tracia tu progresso con un profilo
