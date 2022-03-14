@@ -30,6 +30,7 @@ export type CommonVoiceConfig = {
   RELEASE_VERSION?: string;
   SECRET: string;
   S3_CONFIG: S3.Types.ClientConfiguration;
+  S3_LOCAL_DEVELOPMENT_ENDPOINT?: string;
   CINCHY_CONFIG: S3.Types.ClientConfiguration;
   CINCHY_ENABLED: boolean;
   SSM_ENABLED: boolean;
@@ -51,10 +52,12 @@ export type CommonVoiceConfig = {
   FLAG_BUFFER_STREAM_ENABLED: boolean;
 };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const castDefault = (value: string): any => value;
 const castBoolean = (value: string): boolean => value === 'true';
 const castInt = (value: string): number => parseInt(value);
 const castJson = (value: string): object => JSON.parse(value);
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const configEntry = (key: string, defaultValue: any, cast = castDefault) =>
   process.env[key] ? cast(process.env[key]) : defaultValue;
 
@@ -150,7 +153,7 @@ export async function getSecrets(): Promise<Partial<CommonVoiceConfig>> {
   return loadedSecrets;
 }
 
-export function injectConfig(config: any) {
+export function injectConfig(config: Partial<CommonVoiceConfig>) {
   injectedConfig = { ...BASE_CONFIG, ...config };
 }
 
@@ -166,7 +169,7 @@ export function getConfig(): CommonVoiceConfig {
   let fileConfig = null;
 
   try {
-    let config_path = process.env.SERVER_CONFIG_PATH || './config.json';
+    const config_path = process.env.SERVER_CONFIG_PATH || './config.json';
     fileConfig = JSON.parse(fs.readFileSync(config_path, 'utf-8'));
   } catch (err) {
     console.error(
