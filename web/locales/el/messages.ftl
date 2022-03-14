@@ -570,6 +570,7 @@ about-playbook-how-localize-content-5 = Δείτε το ενημερωτικό �
 
 about-playbook-how-add-sentences = Πώς προσθέτω προτάσεις;
 about-playbook-how-add-sentences-content-1 = Η <strong>Συλλογή προτάσεων</strong> είναι ένα εργαλείο για τη συλλογή και την επικύρωση δημόσια διαθέσιμων προτάσεων. Θα <scAccountLink>χρειαστεί να δημιουργήσετε έναν λογαριασμό</scAccountLink>. Έπειτα, προσθέστε τη γλώσσα σας στο <strong>προφίλ</strong> σας. Μπορείτε να <strong>προσθέσετε</strong> προτάσεις ή να <strong>ελέγξετε</strong> ήδη υποβεβλημένες προτάσεις.
+about-playbook-how-add-sentences-content-2 = Οι προτάσεις πρέπει να ελεγχθούν και να εγκριθούν από δύο άτομα για να συμπεριληφθούν στο Common Voice. Δημιουργήστε οδηγίες για τη γλώσσα σας <languageGuidelinesLink>εδώ</languageGuidelinesLink>. Οι προτάσεις πρέπει να είναι <licenseLink>δημόσια διαθέσιμες</licenseLink> και μικρότερες από 15 λέξεις. Μπορείτε να ζητήσετε από τον κάτοχο ενός κειμένου να το διαθέσει <waiverLink>με άδεια CC0 χρησιμοποιώντας τη διαδικασία αποποίησής μας</waiverLink> και να μας το στείλει στο commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Μπορείτε να χρησιμοποιήσετε το <scraperLink>εργαλείο εξαγωγής προτάσεων</scraperLink> για να αξιοποιήσετε σύντομες προτάσεις από τη Βικιπαίδεια.
 about-playbook-how-add-sentences-content-4 = Οι προτάσεις που έχουν επικυρωθεί εξάγονται τις Τετάρτες και είναι διαθέσιμες μετά την επόμενη κυκλοφορία.
 
@@ -587,6 +588,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Δείτε περισσότ�
 about-playbook-how-grow-language = Πώς μπορούμε να αναπτύξουμε μια γλώσσα στο Common Voice;
 about-playbook-how-grow-language-content-1 = Η δημιουργία ευκαιριών ώστε να συνεισφέρουν διάφορα άτομα στο Common Voice διασφαλίζει ότι το σύνολο δεδομένων εξυπηρετεί όσο το δυνατόν περισσότερους ανθρώπους. Δημιουργήσαμε πόρους και πρότυπα που μπορείτε να χρησιμοποιήσετε!
 about-playbook-how-grow-language-content-2 = Εκδηλώσεις
+about-playbook-how-grow-language-content-3 = Μπορείτε να πραγματοποιήσετε εκδηλώσεις για να βοηθήσετε τους ανθρώπους να συνεισφέρουν. Είναι πιο εύκολο από όσο νομίζετε. Μπορείτε να το κάνετε διαδικτυακά με ένα εργαλείο τηλεδιασκέψεων ή δια ζώσης, εάν είναι ασφαλές. <eventTemplate>Δείτε τα πρότυπα και τους πόρους μας για τη διεξαγωγή εκδηλώσεων</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Κοινωνικά δίκτυα
 about-playbook-how-grow-language-content-6 = Συνεργασίες και δίκτυα
 about-playbook-how-grow-language-content-7 = Βρείτε άλλους που να ενδιαφέρονται. Μπορεί να είναι πανεπιστήμια, φροντιστήρια ξένων γλωσσών, ομάδες υποστήριξης ή κοινότητες επιστήμης δεδομένων. Εξηγήστε με σαφήνεια πώς μπορούν να βοηθήσουν και γιατί. <outreachTemplates>Δείτε το πρότυπό μας για τα email ευαισθητοποίησης</outreachTemplates>.
@@ -714,6 +716,7 @@ get-started-speech = Ξεκινήστε με την αναγνώριση ομι�
 other-datasets = Άλλα σύνολα δεδομένων φωνής
 feedback-q = Έχετε σχόλια;
 resource-nemo-info = Το <githubLink>NVIDIA NeMo</githubLink>™ είναι ένα <docsLink>κιτ εργαλείων ανοικτού κώδικα</docsLink> για ερευνητές που αναπτύσσουν υπερσύγχρονα μοντέλα AI συζήτησης.
+resource-deepspeech-info = Το Deep Speech, η ανοικτού κώδικα μηχανή αναγνώρισης φωνής της Mozilla, μπορεί να χρησιμοποιηθεί για την ανάπτυξη εφαρμογών αναγνώρισης ομιλίας. Διαβάστε την <githubLink>επισκόπησή μας στο Github</githubLink> ή γίνετε μέλος στο <discourseLink>Discourse του DeepSpeech</discourseLink> για να μάθετε πώς να ξεκινήσετε.
 resource-coqui-info = Το <coquiLink>Coqui</coquiLink> είναι αφοσιωμένο στην ανοικτή τεχνολογία ομιλίας. Τα έργα τους περιλαμβάνουν βαθιά εκμάθηση σε μηχανές STT και TTS.
 community-playbook = Βιβλίο κανόνων κοινότητας
 resource-playbook-info = <playbookLink>Βρείτε χρήσιμες οδηγίες</playbookLink> για όλη την πορεία του Common Voice, από τη μετάφραση μέχρι τη χρήση συνόλων δεδομένων, καθώς και τη σύνδεση με την κοινότητά μας.
