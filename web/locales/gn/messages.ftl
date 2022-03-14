@@ -584,6 +584,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Ehechave je’epyre rehegua.
 ## How to grow language
 
 about-playbook-how-grow-language = ¿Mba’éicha oñakarapu’ãkuaa peteĩ ñe’ẽ Common Voice ndive?
+about-playbook-how-grow-language-content-1 = Emoheñói pa’ũ hetaiterei tapicha oipytyvõkuaáva Common Voice ndive ha péva omoañete pe mba’ekuaarã aty oipurukuaataha hetaiterei tapicha. ¡Romoheñói mba’eita ha plantilla reipurukuaáva!
 about-playbook-how-grow-language-content-2 = Tembiaporã
 about-playbook-how-grow-language-content-4 = Ava ñandutieta
 about-playbook-how-grow-language-content-6 = Ñemboaty ha ñandutieta
