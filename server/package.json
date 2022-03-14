@@ -58,7 +58,7 @@
     "@types/mysql": "2.15.20",
     "@types/node": "12.20.42",
     "@types/passport-auth0": "1.0.5",
-    "@types/redlock": "3.0.7",
+    "@types/redlock": "4.0.3",
     "@types/request-promise-native": "1.0.18",
     "@types/universal-analytics": "0.4.5",
     "dotenv": "8.6.0",
