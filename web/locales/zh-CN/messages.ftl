@@ -17,6 +17,7 @@ not-available-abbreviation = 不可用
 banner-error-slow-1 = 感谢您使用 Common Voice，很抱歉网站当前运行缓慢。
 banner-error-slow-2 = 网站受到大流量访问冲击，我们正在调查处理相关问题。
 banner-error-slow-link = 状态页面
+error-something-went-wrong = 抱歉，出了点问题
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
