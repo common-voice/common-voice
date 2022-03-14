@@ -1379,6 +1379,7 @@ sc-criteria-item-1 = Pe ñe’ẽjuaju ojehaiva’erã hekopete.
 sc-criteria-item-2 = Pe ñe’ẽjuaju oĩ hekopete ñe’ẽtekuaa rupi.
 sc-criteria-item-3 = Pe ñe’ẽjuaju oje’ekuaava’erã.
 sc-criteria-item-4 = Pe ñe’ẽjuaju oreko tekotevéva, eikutu pe votõ &quot;Moneĩ&quot; votõ akatuaguáva.
+sc-criteria-item-5-2 = Pe ñe’ẽjuaju ndoguerekopáiramo umi mba’e ojerurévakuri, eikutúnte &quot;Hejarei&quot; votõ asuguávape. Nderehechaporãiramo pe ñe’ẽjuaju, ikatu avei ehejareínte ha ehasa ambuépe.
 sc-criteria-item-6 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃ua, ¡orepytyvõ rombyatyvévo ñe’ẽjuaju!
 
 ## REVIEW
