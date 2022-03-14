@@ -166,12 +166,10 @@ export default function Content({ location }: { location: any }) {
               return <Redirect to={toLocaleRoute(URLS.LISTEN)} />;
             }}
           />
-          <Redirect
-            push
-            to={{
-              pathname: toLocaleRoute('/404'),
-              state: { prevPath: location.pathname },
-            }}
+          <Route
+            render={() => (
+              <ErrorPage errorCode="404" prevPath={location.state?.prevPath} />
+            )}
           />
         </Switch>
       </React.Suspense>
