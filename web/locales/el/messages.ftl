@@ -17,6 +17,7 @@ not-available-abbreviation = Μ/Δ
 banner-error-slow-1 = Δυστυχώς, το Common Voice καθυστερεί. Ευχαριστούμε για το ενδιαφέρον σας.
 banner-error-slow-2 = Παρατηρούμε πολλή επισκεψιμότητα και διερευνούμε τα ζητήματα αυτήν τη στιγμή.
 banner-error-slow-link = Σελίδα κατάστασης
+error-something-went-wrong = Δυστυχώς, κάτι πήγε στραβά
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -829,8 +830,14 @@ listen-again-instruction = Εξαιρετική δουλειά! <playIcon></play
 listen-3rd-time-instruction = Έφυγαν 2, συνεχίστε! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Τελευταίο!
 listen-empty-state = Δεν υπάρχουν κλιπ προς επαλήθευση σε αυτή τη γλώσσα...
+listen-loading-error =
+    Δεν μπορέσαμε να βρούμε κανένα απόσπασμα για να ακούσετε.
+    Παρακαλούμε δοκιμάστε ξανά.
 speak-empty-state = Δεν υπάρχουν προτάσεις προς ηχογράφηση σε αυτή τη γλώσσα...
 speak-empty-state-cta = Συνεισφορά προτάσεων
+speak-loading-error =
+    Δεν μπορέσαμε να βρούμε καμία πρόταση για να εκφωνήσετε.
+    Παρακαλούμε δοκιμάστε ξανά.
 record-button-label = Ηχογράφηση φωνής
 share-title-new = <bold>Βοηθήστε μας</bold> να βρούμε περισσότερες φωνές
 keep-track-profile = Παρακολουθήστε την πρόοδό σας με ένα προφίλ
