@@ -52,7 +52,7 @@
     "@types/express-session": "1.17.4",
     "@types/http-proxy-middleware": "0.19.3",
     "@types/ioredis": "4.28.7",
-    "@types/jest": "25.2.3",
+    "@types/jest": "27.4.1",
     "@types/lodash.omit": "4.5.6",
     "@types/lodash.pick": "4.4.6",
     "@types/mysql": "2.15.20",
