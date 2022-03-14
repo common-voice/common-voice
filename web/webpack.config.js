@@ -6,6 +6,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const PreloadWebpackPlugin = require('@vue/preload-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
 
@@ -21,6 +22,13 @@ module.exports = () => {
     new webpack.ProgressPlugin(),
 
     new CleanWebpackPlugin(),
+
+    new CopyPlugin({
+      patterns: [
+        // copy release files into dist
+        { from: 'releases', to: 'releases' },
+      ],
+    }),
 
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
