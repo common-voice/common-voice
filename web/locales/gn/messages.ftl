@@ -563,6 +563,7 @@ about-playbook-how-add-language-content-4 = Ikatu <scLinkAdd>embojualu michĩmí
 
 about-playbook-how-localize = ¿Mba’éicha ojejapo ñe’ẽasa tendápe?
 about-playbook-how-localize-content-1 = Pe tenda Common Voice moñe’ẽasa ojejapo <strong>Pontoon</strong> ndive.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Emoheñói mba’ete</pontoonAccountLink> ndereguerekóirõ. Upéi, eiporavo ne ñe’ẽ <strong>(‘Atyete’)</strong> ha upéi eiporavo apopyrã, <pontoonCvLink>Common Voice</pontoonCvLink>. Oĩta marandurenda emoñe’ẽasa hag̃ua. Eikutu peteĩva, upéi ohechaukáta inglés ñe’ẽme ha peteĩ kora emoñe’ẽasa hag̃ua.
 about-playbook-how-localize-content-4 = Pe tenda ojehecha ñepyrũta ohupyty vove 75% ijejapo.
 about-playbook-how-localize-content-5 = Ehecha ore ta’ãngamýi myesakãha ne pytyvõtava
 
