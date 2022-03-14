@@ -51,19 +51,21 @@
   },
   "scripts": {
     "clean": "rm -r node_modules && rm -r common/node_modules && rm -r server/node_modules && rm -r web/node_modules",
-    "build": "yarn build-maint && yarn build-common && concurrently \"cd server && yarn build\" \"cd web && yarn build\"",
-    "build-common": "cd common && yarn build && cd ..",
-    "build-maint": "cd maintenance && yarn build && cd ..",
+    "build": "yarn build:maint && yarn build:common && concurrently \"yarn build:server\" \"yarn build:web\"",
+    "build:web": "cd web && yarn build && cd ..",
+    "build:server": "cd server && yarn build && cd ..",
+    "build:common": "cd common && yarn build && cd ..",
+    "build:maint": "cd maintenance && yarn build && cd ..",
     "import-locales": "node scripts/import-locales",
     "lint": "eslint .",
     "lint:common": "eslint ./common",
     "lint:server": "eslint ./server",
     "lint:web": "cd web && yarn lint",
     "prettier": "prettier \"**/*.{ts,tsx}\" --write",
-    "start": "yarn build-common && concurrently -p \"[{name}]\" -n \"CO,BE,FE\" -c \"bgYellow.bold,bgBlue.bold,bgMagenta.bold,bgCyan.bold\" \"cd common && yarn dev\" \"cd server && yarn start\" \"cd web && yarn dev\"",
-    "start:prod": "yarn build-common && node server/js/main.js",
+    "start": "yarn build:common && concurrently -p \"[{name}]\" -n \"CO,BE,FE\" -c \"bgYellow.bold,bgBlue.bold,bgMagenta.bold,bgCyan.bold\" \"cd common && yarn dev\" \"cd server && yarn start\" \"cd web && yarn dev\"",
+    "start:prod": "yarn build:common && node server/js/main.js",
     "start:maint": "cd maintenance && yarn dev",
-    "test": "yarn build-common && concurrently --kill-others-on-fail \"cd web && yarn test\" \"cd server && SERVER_CONFIG_PATH='../config.json' yarn test\""
+    "test": "yarn build:common && concurrently --kill-others-on-fail \"cd web && yarn test\" \"cd server && SERVER_CONFIG_PATH='../config.json' yarn test\""
   },
   "husky": {
     "hooks": {

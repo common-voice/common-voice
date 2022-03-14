@@ -5,6 +5,7 @@ common/index.ts
 common/js/
 web/dist/
 web/index.html
+web/artifacts
 server/js/
 server/upload/
 xcuserdata/

@@ -4,8 +4,9 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const PreloadWebpackPlugin = require('@vue/preload-webpack-plugin');
-const BundleAnalyzerPlugin =
-  require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+const { StatsWriterPlugin } = require('webpack-stats-plugin');
+const { BundleStatsWebpackPlugin } = require('bundle-stats-webpack-plugin');
 
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
 
@@ -47,6 +48,22 @@ module.exports = () => {
 
     new webpack.DefinePlugin({
       'process.env.GIT_COMMIT_SHA': JSON.stringify(process.env.GIT_COMMIT_SHA),
+    }),
+
+    new BundleStatsWebpackPlugin({
+      compare: false,
+      outDir: '../artifacts',
+      stats: {
+        excludeAssets: [/artifacts/],
+      },
+    }),
+
+    new StatsWriterPlugin({
+      filename: '../artifacts/webpack-stats.json',
+      stats: {
+        all: true,
+        source: false,
+      },
     }),
   ];
 

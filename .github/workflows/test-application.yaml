@@ -3,7 +3,8 @@ name: Test Application
 on: ['pull_request']
 
 jobs:
-  test-server:
+  test:
+    runs-on: ubuntu-latest
     services:
       mysql:
         image: mysql:5.7
@@ -14,17 +15,23 @@ jobs:
           MYSQL_USER: voicecommons
           MYSQL_PASSWORD: voicecommons
         options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=5
-    runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [12.x]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Run application tests
-        run: |
-          yarn install --frozen-lockfile
-          yarn test
+      - name: Install dependancies
+        run: yarn install --frozen-lockfile
+      - name: Build application
+        run: yarn build
+      - name: Run bundle-stats on web
+        uses: vio/bundle-stats-action@v1
+        with:
+          webpack-stats-path: 'web/artifacts/webpack-stats.json'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Run tests
+        run: yarn test
