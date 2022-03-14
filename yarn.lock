@@ -1979,12 +1979,13 @@
   dependencies:
     "@types/node" "*"
 
-"@types/redlock@3.0.7":
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/@types/redlock/-/redlock-3.0.7.tgz#fd11aa2cdc6c739bb580ad913d178e01aed4b89d"
-  integrity sha512-L6+NgZGX2Rxp4qjnBn+FtLJKG/raCTzeyOzOfdjov64wG1DkllSGqti4ortsUiMuvx9+bE0Px5WZolUp14hKYg==
+"@types/redlock@4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/redlock/-/redlock-4.0.3.tgz#aeab5fe5f0d433a125f6dcf9a884372ac0cddd4b"
+  integrity sha512-mcvvrquwREbAqyZALNBIlf49AL9Aa324BG+J/Dv4TAP8g+nxQMBI4/APNqqS99QEY7VTNT9XvsaczCVGK8uNnQ==
   dependencies:
     "@types/bluebird" "*"
+    "@types/redis" "^2.8.0"
 
 "@types/request-promise-native@1.0.18":
   version "1.0.18"
