@@ -17,6 +17,7 @@ not-available-abbreviation = Á ekki við
 banner-error-slow-1 = Því miður gengur Common Voice vefurinn hægt fyrir sig í augnablikinu. Takk fyrir áhugann.
 banner-error-slow-2 = Við erum að fá mjög mikla umferð og erum nú að rannsaka málin.
 banner-error-slow-link = Stöðusíða
+error-something-went-wrong = Því miður, eitthvað fór úrskeiðis
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -838,8 +839,14 @@ listen-again-instruction = Vel gert! <playIcon></playIcon> Hlustaðu aftur þega
 listen-3rd-time-instruction = Tvær búnar, haltu þínu striki! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Síðasta!
 listen-empty-state = Við erum uppiskroppa með upptökur til að staðfesta á þessu tungumáli...
+listen-loading-error =
+    Við gátum ekki náð í neinar hljóðupptökur sem þú getur hlustað á.
+    Endilega reyndu aftur síðar.
 speak-empty-state = Við erum uppiskroppa með setningar til að taka upp á þessu máli...
 speak-empty-state-cta = Leggja til setningar
+speak-loading-error =
+    Við gátum ekki náð í neinar setningar fyrir þig að lesa.
+    Endilega reyndu aftur síðar.
 record-button-label = Taktu upp röddina þína
 share-title-new = <bold>Leggðu lið</bold> við að finna fleiri raddir
 keep-track-profile = Fylgstu með framförum þínum með notkunarsniði
