@@ -694,7 +694,7 @@ total-hours = 驗證時數
 
 ## Contribution
 
-action-click = 點擊
+action-click = 撳
 action-tap = 敲
 contribute = 貢獻
 listen = 聽
@@ -720,12 +720,12 @@ record-error-too-short = 段錄音太短喇。
 record-error-too-long = 段錄音太長喇。
 record-error-too-quiet = 段錄音太靜喇。
 record-cancel = 取消重新錄音
-record-instruction = { $actionType }撳<recordIcon></recordIcon>然後大聲讀出句子。
+record-instruction = { $actionType }<recordIcon></recordIcon>然後大聲讀出句子。
 record-stop-instruction = { $actionType } 完成後撳 <stopIcon></stopIcon>
 record-three-more-instruction = 仲有三個！
-record-again-instruction = 好！點擊<recordIcon></recordIcon>錄下一個片段
+record-again-instruction = 好！撳<recordIcon></recordIcon>錄下一個片段
 record-again-instruction2 = 繼續加油，再錄多次！<recordIcon></recordIcon>
-record-last-instruction = <recordIcon></recordIcon>最後一個！
+record-last-instruction = <recordIcon></recordIcon>最尾一個！
 review-tooltip = 喺度確認或者重錄片段
 share-clip = 分享你段錄音
 share-common-voice = 分享Common Voice
@@ -737,7 +737,7 @@ record-abort-text = 如果而家離開，你會失去而家嘅進展
 record-abort-submit = 提交錄音
 record-abort-continue = 完成錄音
 record-abort-delete = 退出並刪除錄音片段
-listen-instruction = { $actionType }<playIcon></playIcon>佢地講得準唔準？
+listen-instruction = { $actionType }<playIcon></playIcon>佢哋講得準唔準？
 listen-again-instruction = 好嘢！<playIcon></playIcon> 準備好就可以再聽多次
 listen-3rd-time-instruction = 完成兩筆喇 <playIcon></playIcon>，繼續加油！
 listen-last-time-instruction = <playIcon></playIcon> 最後一個！
