@@ -829,6 +829,7 @@ listen-again-instruction = ¡Iporãitereíma ne rembiapo! <playIcon></playIcon> 
 listen-3rd-time-instruction = 2 oĩma ko’ág̃a, ¡Péva ha’e, ejapomi ambueve! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Ipahapeguáma!
 listen-empty-state = Ndaiporivéima ko’ág̃a ñe’ẽryapu ñongatupyre ko ñe’ẽme oñemoneĩ hag̃ua...
+listen-loading-error = Ndoroguerukuaái clip ñe’ẽpu rehegua ehendukuaa hag̃ua.Iktúpiko eha’ãjey ag̃mieve.
 speak-empty-state = Ndaiporivéima ko’ág̃a ñe’ẽjoaju ko ñe’ẽme oñembohyapu hag̃ua...
 speak-empty-state-cta = Embojoapyve ñe’ẽjoaju
 record-button-label = Eñongatu nde ahy’o
