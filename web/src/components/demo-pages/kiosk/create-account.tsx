@@ -49,7 +49,7 @@ const getCreateAccountComponents = (): PageContentType => {
           </div>
         </KioskCard.Body>
         <KioskCard.Bottom>
-          <LinkButton to={URLS.DEMO_DASHBOARD} rounded>
+          <LinkButton to={URLS.DEMO} rounded>
             <ChevronLeft />
             <Localized id="card-button-back">
               <span />

@@ -64,7 +64,7 @@ export default connect<PropsFromState, PropsFromDispatch>(
           </div>
           <LinkButton
             rounded
-            to={URLS.DEMO_DATASETS}
+            to={URLS.DEMO_ACCOUNT}
             id="intro-container--btn-get-started">
             <Localized id="demo-get-started">
               <span />
