@@ -835,6 +835,9 @@ listen-last-time-instruction = <playIcon></playIcon> L'últim!
 listen-empty-state = No hi ha cap més tall per validar en aquesta llengua...
 speak-empty-state = No hi ha cap més frase per enregistrar en aquesta llengua...
 speak-empty-state-cta = Aporteu frases
+speak-loading-error =
+    No hem pogut carregar les oracions.
+    Si us plau, torneu a intentar-ho més tard.
 record-button-label = Enregistreu la vostra veu
 share-title-new = <bold>Ajudeu-nos</bold> a trobar més veus
 keep-track-profile = Feu seguiment del vostre progrés amb un perfil

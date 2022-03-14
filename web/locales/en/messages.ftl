@@ -16,6 +16,7 @@ not-available-abbreviation = N/A
 banner-error-slow-1 = Sorry, Common Voice is running slowly. Thanks for your interest.
 banner-error-slow-2 = We're receiving a lot of traffic and are currently investigating the issues.
 banner-error-slow-link = Status Page
+error-something-went-wrong = Sorry, something went wrong
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -845,8 +846,14 @@ listen-again-instruction = Great work!<playIcon></playIcon> Listen again when yo
 listen-3rd-time-instruction = 2 down, keep it up!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Last one!
 listen-empty-state = We've run out of clips to validate in this language...
+listen-loading-error =
+    We couldn’t get any audio clips for you to listen to.
+    Please try again later.
 speak-empty-state = We've run out of sentences to record in this language...
 speak-empty-state-cta = Contribute sentences
+speak-loading-error =
+    We couldn’t get any sentences for you to speak.
+    Please try again later.
 record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
 keep-track-profile = Keep track of your progress with a profile

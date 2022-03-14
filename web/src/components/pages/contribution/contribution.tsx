@@ -96,7 +96,8 @@ interface PropsFromState {
 interface Props extends WithLocalizationProps, PropsFromState {
   demoMode: boolean;
   activeIndex: number;
-  errorContent?: any;
+  hasErrors: boolean;
+  errorContent?: React.ReactNode;
   reportModalProps: Omit<ReportModalProps, 'onSubmitted'>;
   instruction: (props: {
     vars: { actionType: string };
@@ -251,14 +252,8 @@ class ContributionPage extends React.Component<Props, State> {
   };
 
   private handleKeyDown = (event: any) => {
-    const {
-      getString,
-      isSubmitted,
-      locale,
-      onReset,
-      onSubmit,
-      type,
-    } = this.props;
+    const { getString, isSubmitted, locale, onReset, onSubmit, type } =
+      this.props;
 
     if (
       event.ctrlKey ||
@@ -295,7 +290,7 @@ class ContributionPage extends React.Component<Props, State> {
 
   render() {
     const {
-      errorContent,
+      hasErrors,
       flags,
       getString,
       isSubmitted,
@@ -385,7 +380,7 @@ class ContributionPage extends React.Component<Props, State> {
             </div>
             <div className="mobile-break" />
 
-            {!errorContent && !isSubmitted && (
+            {!hasErrors && !isSubmitted && (
               <LocaleLink
                 blank
                 to={URLS.CRITERIA}
@@ -412,6 +407,7 @@ class ContributionPage extends React.Component<Props, State> {
   renderContent() {
     const {
       activeIndex,
+      hasErrors,
       errorContent,
       getString,
       instruction,
@@ -427,183 +423,187 @@ class ContributionPage extends React.Component<Props, State> {
     } = this.props;
     const { selectedPill } = this.state;
 
-    return isSubmitted ? (
-      <Success onReset={onReset} type={type} />
-    ) : (
-      errorContent ||
-        (this.isLoaded && (
-          <>
-            <div className="cards-and-pills">
-              <div />
+    if (isSubmitted) {
+      return <Success onReset={onReset} type={type} />;
+    }
 
-              <div className="cards-and-instruction">
-                {instruction({
-                  vars: { actionType: getString('action-click') },
-                  children: <div className="instruction hidden-sm-down" />,
-                }) || <div className="instruction hidden-sm-down" />}
+    if (hasErrors) {
+      return errorContent;
+    }
 
-                <div className="cards">
-                  {sentences.map((sentence, i) => {
-                    const activeSentenceIndex = this.isDone
-                      ? SET_COUNT - 1
-                      : activeIndex;
-                    const isActive = i === activeSentenceIndex;
-                    return (
-                      <div
-                        // don't let Chrome auto-translate
-                        // https://html.spec.whatwg.org/multipage/dom.html#the-translate-attribute
-                        translate="no"
-                        key={sentence ? sentence.text : i}
-                        className={
-                          'card card-dimensions ' + (isActive ? '' : 'inactive')
-                        }
-                        style={{
-                          transform: [
-                            `scale(${isActive ? 1 : 0.9})`,
-                            `translateX(${
-                              (document.dir == 'rtl' ? -1 : 1) *
-                              (i - activeSentenceIndex) *
-                              -130
-                            }%)`,
-                          ].join(' '),
-                          opacity: i < activeSentenceIndex ? 0 : 1,
-                        }}>
-                        <div style={{ margin: 'auto', width: '100%' }}>
-                          {sentence?.text}
-                          {sentence?.taxonomy ? (
-                            <div className="sentence-taxonomy">
-                              <Localized id="target-segment-generic-card">
-                                <span className="taxonomy-message" />
-                              </Localized>
-                              <StyledLink
-                                className="taxonomy-link"
-                                blank
-                                href={`${URLS.GITHUB_ROOT}/blob/main/docs/taxonomies/${sentence.taxonomy.source}.md`}>
-                                <ExternalLinkIcon />
-                                <Localized id="target-segment-learn-more">
-                                  <span />
-                                </Localized>
-                              </StyledLink>
-                            </div>
-                          ) : null}
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
+    if (!this.isLoaded) {
+      return null;
+    }
 
-              <div className="pills">
-                <div className="inner">
-                  {this.isDone && (
-                    <div className="review-instructions">
-                      <Localized id="review-instruction">
-                        <span />
-                      </Localized>
-                    </div>
-                  )}
-                  {pills.map((pill, i) =>
-                    pill({
-                      isOpen: this.isDone || selectedPill === i,
-                      key: i,
-                      num: i + 1,
-                      onClick: () => this.selectPill(i),
-                      onShare: this.toggleShareModal,
-                      style:
-                        selectedPill !== null &&
-                        Math.abs(
-                          Math.min(
-                            Math.max(selectedPill, 1),
-                            pills.length - 2
-                          ) - i
-                        ) > 1
-                          ? { display: 'none' }
-                          : {},
-                    })
-                  )}
-                </div>
-              </div>
-            </div>
+    return (
+      <>
+        <div className="cards-and-pills">
+          <div />
 
+          <div className="cards-and-instruction">
             {instruction({
-              vars: { actionType: getString('action-tap') },
-              children: <div className="instruction hidden-md-up" />,
-            }) || <div className="instruction hidden-md-up" />}
+              vars: { actionType: getString('action-click') },
+              children: <div className="instruction hidden-sm-down" />,
+            }) || <div className="instruction hidden-sm-down" />}
 
-            <div className="primary-buttons">
-              <canvas ref={this.canvasRef} />
-              {primaryButtons}
+            <div className="cards">
+              {sentences.map((sentence, i) => {
+                const activeSentenceIndex = this.isDone
+                  ? SET_COUNT - 1
+                  : activeIndex;
+                const isActive = i === activeSentenceIndex;
+                return (
+                  <div
+                    // don't let Chrome auto-translate
+                    // https://html.spec.whatwg.org/multipage/dom.html#the-translate-attribute
+                    translate="no"
+                    key={sentence ? sentence.text : i}
+                    className={
+                      'card card-dimensions ' + (isActive ? '' : 'inactive')
+                    }
+                    style={{
+                      transform: [
+                        `scale(${isActive ? 1 : 0.9})`,
+                        `translateX(${
+                          (document.dir == 'rtl' ? -1 : 1) *
+                          (i - activeSentenceIndex) *
+                          -130
+                        }%)`,
+                      ].join(' '),
+                      opacity: i < activeSentenceIndex ? 0 : 1,
+                    }}>
+                    <div style={{ margin: 'auto', width: '100%' }}>
+                      {sentence?.text}
+                      {sentence?.taxonomy ? (
+                        <div className="sentence-taxonomy">
+                          <Localized id="target-segment-generic-card">
+                            <span className="taxonomy-message" />
+                          </Localized>
+                          <StyledLink
+                            className="taxonomy-link"
+                            blank
+                            href={`${URLS.GITHUB_ROOT}/blob/main/docs/taxonomies/${sentence.taxonomy.source}.md`}>
+                            <ExternalLinkIcon />
+                            <Localized id="target-segment-learn-more">
+                              <span />
+                            </Localized>
+                          </StyledLink>
+                        </div>
+                      ) : null}
+                    </div>
+                  </div>
+                );
+              })}
             </div>
+          </div>
 
-            {!errorContent && !isSubmitted && (
-              <LocaleLink
-                blank
-                to={URLS.CRITERIA}
-                className="contribution-criteria hidden-md-up">
-                <ExternalLinkIcon />
-                <Localized id="contribution-criteria-link" />
-              </LocaleLink>
-            )}
-
-            <div className="buttons">
-              <div>
-                <Button
-                  rounded
-                  outline
-                  className="hidden-sm-down"
-                  onClick={this.toggleShortcutsModal}>
-                  <KeyboardIcon />
-                  <Localized id="shortcuts">
+          <div className="pills">
+            <div className="inner">
+              {this.isDone && (
+                <div className="review-instructions">
+                  <Localized id="review-instruction">
                     <span />
                   </Localized>
-                </Button>
-                <div className="extra-button">
-                  <ReportButton
-                    onClick={() => this.setState({ showReportModal: true })}
-                  />
                 </div>
-              </div>
-              <div>
-                <Button
-                  rounded
-                  outline
-                  className={[
-                    'skip',
-                    getTrackClass('fs', `skip-${type}`),
-                    'fs-ignore-rage-clicks',
-                  ].join(' ')}
-                  disabled={!this.isLoaded}
-                  onClick={onSkip}>
-                  <Localized id="skip">
-                    <span />
-                  </Localized>{' '}
-                  <SkipIcon />
-                </Button>
-                {onSubmit && (
-                  <Tooltip
-                    arrow
-                    disabled={!this.isDone}
-                    open={isFirstSubmit || undefined}
-                    title={getString('record-submit-tooltip', {
-                      actionType: getString('action-tap'),
-                    })}>
-                    <Localized id="submit-form-action">
-                      <PrimaryButton
-                        className={[
-                          'submit',
-                          getTrackClass('fs', `submit-${type}`),
-                        ].join(' ')}
-                        disabled={!this.isDone}
-                        onClick={onSubmit}
-                        type="submit"
-                      />
-                    </Localized>
-                  </Tooltip>
-                )}
-              </div>
+              )}
+              {pills.map((pill, i) =>
+                pill({
+                  isOpen: this.isDone || selectedPill === i,
+                  key: i,
+                  num: i + 1,
+                  onClick: () => this.selectPill(i),
+                  onShare: this.toggleShareModal,
+                  style:
+                    selectedPill !== null &&
+                    Math.abs(
+                      Math.min(Math.max(selectedPill, 1), pills.length - 2) - i
+                    ) > 1
+                      ? { display: 'none' }
+                      : {},
+                })
+              )}
             </div>
-          </>
-        ))
+          </div>
+        </div>
+
+        {instruction({
+          vars: { actionType: getString('action-tap') },
+          children: <div className="instruction hidden-md-up" />,
+        }) || <div className="instruction hidden-md-up" />}
+
+        <div className="primary-buttons">
+          <canvas ref={this.canvasRef} />
+          {primaryButtons}
+        </div>
+
+        {!hasErrors && !isSubmitted && (
+          <LocaleLink
+            blank
+            to={URLS.CRITERIA}
+            className="contribution-criteria hidden-md-up">
+            <ExternalLinkIcon />
+            <Localized id="contribution-criteria-link" />
+          </LocaleLink>
+        )}
+
+        <div className="buttons">
+          <div>
+            <Button
+              rounded
+              outline
+              className="hidden-sm-down"
+              onClick={this.toggleShortcutsModal}>
+              <KeyboardIcon />
+              <Localized id="shortcuts">
+                <span />
+              </Localized>
+            </Button>
+            <div className="extra-button">
+              <ReportButton
+                onClick={() => this.setState({ showReportModal: true })}
+              />
+            </div>
+          </div>
+          <div>
+            <Button
+              rounded
+              outline
+              className={[
+                'skip',
+                getTrackClass('fs', `skip-${type}`),
+                'fs-ignore-rage-clicks',
+              ].join(' ')}
+              disabled={!this.isLoaded}
+              onClick={onSkip}>
+              <Localized id="skip">
+                <span />
+              </Localized>{' '}
+              <SkipIcon />
+            </Button>
+            {onSubmit && (
+              <Tooltip
+                arrow
+                disabled={!this.isDone}
+                open={isFirstSubmit || undefined}
+                title={getString('record-submit-tooltip', {
+                  actionType: getString('action-tap'),
+                })}>
+                <Localized id="submit-form-action">
+                  <PrimaryButton
+                    className={[
+                      'submit',
+                      getTrackClass('fs', `submit-${type}`),
+                    ].join(' ')}
+                    disabled={!this.isDone}
+                    onClick={onSubmit}
+                    type="submit"
+                  />
+                </Localized>
+              </Tooltip>
+            )}
+          </div>
+        </div>
+      </>
     );
   }
 }
