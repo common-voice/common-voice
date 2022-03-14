@@ -17,6 +17,7 @@ not-available-abbreviation = Ndaipóri
 banner-error-slow-1 = Rombyasy, Common Voice omba’apo mbeguekatu. Aguyje remomba’ére.
 banner-error-slow-2 = Og̃uahẽ oréve heta mba’e ha ko’ága rohapykuehohína umi apañuãi.
 banner-error-slow-link = Kuatiarogue Rekotee
+error-something-went-wrong = Che ñyrõ, oĩ osẽvaíva
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
