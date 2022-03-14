@@ -17,6 +17,7 @@ not-available-abbreviation = Ničo k dispoziciji
 banner-error-slow-1 = Bohužel Common Voice pomału běži. Dźakujemy so za waš zajim.
 banner-error-slow-2 = Dóstawamy wjele wobchada a přepytujemy tuchwilu problemy.
 banner-error-slow-link = Statusowa strona
+error-something-went-wrong = Hopla, něšto je so nimokuliło
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
