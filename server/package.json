@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@sentry/node": "5.12.2",
+    "@sentry/node": "6.18.2",
+    "@sentry/tracing": "6.18.2",
     "@types/bull": "^3.15.1",
     "@types/commonmark": "^0.27.4",
     "@types/compression": "^1.7.2",
