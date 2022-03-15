@@ -58,7 +58,7 @@
     "babel-loader": "8.2.3",
     "chalk": "3.0.0",
     "common": "*",
-    "css-loader": "3.6.0",
+    "css-loader": "6.7.1",
     "cssnano": "5.1.4",
     "file-loader": "5.1.0",
     "html-webpack-plugin": "5.5.0",
