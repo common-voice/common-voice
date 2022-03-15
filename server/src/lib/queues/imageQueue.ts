@@ -15,6 +15,13 @@ if (getConfig().REDIS_URL.includes('rediss://')) {
 
 const NotificationQueue = new Queue('Notification', { redis: redisOpts }); // consumer
 NotificationQueue.process(imageProcessor);
+NotificationQueue.on('completed', (job, result) => {
+  if (result) {
+    console.log(`Success: Job ${job.id}`);
+  } else {
+    console.log(`Fail: Job ${job.id}`);
+  }
+});
 
 export const uploadImage = async (data: {
   client_id: string;
