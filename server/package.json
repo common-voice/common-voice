@@ -6,7 +6,7 @@
     "@sentry/node": "6.18.2",
     "@sentry/tracing": "6.18.2",
     "aws-sdk": "2.1058.0",
-    "body-parser": "1.19.1",
+    "body-parser": "1.19.2",
     "bull": "3.29.3",
     "common": "*",
     "commonmark": "0.29.3",
