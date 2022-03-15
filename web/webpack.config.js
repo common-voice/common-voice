@@ -4,8 +4,8 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const PreloadWebpackPlugin = require('@vue/preload-webpack-plugin');
-const BundleAnalyzerPlugin =
-  require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
 
@@ -18,9 +18,12 @@ const babelLoader = {
 };
 module.exports = () => {
   const plugins = [
-    /** See https://webpack.js.org/plugins/extract-text-webpack-plugin/ */
+    new webpack.ProgressPlugin(),
+
+    new CleanWebpackPlugin(),
+
     new MiniCssExtractPlugin({
-      filename: 'index.css',
+      filename: '[name].[contenthash].css',
     }),
 
     new HtmlWebpackPlugin({
@@ -38,13 +41,6 @@ module.exports = () => {
       },
     }),
 
-    function () {
-      this.hooks.watchRun.tap('Building', () =>
-        console.log(chalk.yellow('Rebuilding…'))
-      );
-      this.hooks.done.tap('Built', () => console.log(chalk.green('Built!')));
-    },
-
     new webpack.DefinePlugin({
       'process.env.GIT_COMMIT_SHA': JSON.stringify(process.env.GIT_COMMIT_SHA),
     }),
@@ -58,9 +54,8 @@ module.exports = () => {
     entry: './src/main.ts',
     output: {
       path: OUTPUT_PATH,
-      filename: 'bundle.js',
+      filename: '[name].[contenthash].js',
       publicPath: '/dist/',
-      chunkFilename: '[name].js?id=[chunkhash]',
     },
     stats: 'errors-only',
     devtool: 'source-map',
@@ -112,11 +107,30 @@ module.exports = () => {
           test: /\.(png|svg|jpg|gif)$/,
           loader: 'file-loader',
           options: {
-            esModule: false, // TODO: Switch to ES modules syntax.
+            name() {
+              if (process.env.NODE_ENV === 'development') {
+                return '[path][name].[ext]';
+              }
+
+              return '[name].[contenthash].[ext]';
+            },
           },
         },
       ],
     },
     plugins,
+    optimization: {
+      moduleIds: 'deterministic',
+      runtimeChunk: 'single',
+      splitChunks: {
+        cacheGroups: {
+          vendor: {
+            test: /[\\/]node_modules[\\/]/,
+            name: 'vendors',
+            chunks: 'all',
+          },
+        },
+      },
+    },
   };
 };
