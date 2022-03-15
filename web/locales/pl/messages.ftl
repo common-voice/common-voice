@@ -17,6 +17,7 @@ not-available-abbreviation = Niedostępne
 banner-error-slow-1 = Przepraszamy, Common Voice działa wolno. Dziękujemy za zainteresowanie.
 banner-error-slow-2 = Odbieramy duży ruch i obecnie badamy problemy.
 banner-error-slow-link = Strona stanu
+error-something-went-wrong = Coś się nie powiodło
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
