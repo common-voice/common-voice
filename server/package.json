@@ -19,7 +19,7 @@
     "event-stream": "3.3.5",
     "express": "4.17.2",
     "express-mysql-session": "2.1.7",
-    "express-promise-router": "3.0.3",
+    "express-promise-router": "4.1.1",
     "express-session": "1.17.2",
     "ffmpeg-stream": "0.7.0",
     "http-status-codes": "2.2.0",
