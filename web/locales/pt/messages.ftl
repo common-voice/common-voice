@@ -837,6 +837,9 @@ listen-loading-error =
     Tente novamente mais tarde.
 speak-empty-state = Nós ficamos sem frases para gravar neste idioma...
 speak-empty-state-cta = Contribua com frases
+speak-loading-error =
+    Não foi possível obter nenhuma frase para você falar.
+    Tente novamente mais tarde.
 record-button-label = Grave sua voz
 share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
 keep-track-profile = Acompanhe seu progresso com um perfil
