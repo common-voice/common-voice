@@ -17,6 +17,7 @@ not-available-abbreviation = 不適用
 banner-error-slow-1 = 感謝您使用 Common Voice，很抱歉目前運作有點慢。
 banner-error-slow-2 = 我們收到大量連線流量，目前正在調查處理相關問題。
 banner-error-slow-link = 狀態頁面
+error-something-went-wrong = 抱歉，有些東西不對勁
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -827,8 +828,10 @@ listen-again-instruction = 幹得好！<playIcon></playIcon>準備好就可以�
 listen-3rd-time-instruction = 完成兩筆了<playIcon></playIcon>，繼續保持！
 listen-last-time-instruction = <playIcon></playIcon>最後一筆了！
 listen-empty-state = 我們已經沒有這種語言的片段可以驗證了…
+listen-loading-error = 我們無法取得錄音片段讓您聆聽確認，請稍候再試。
 speak-empty-state = 我們已經沒有這種語言的文字可以錄音了…
 speak-empty-state-cta = 貢獻語句
+speak-loading-error = 我們無法取得句子讓您錄音，請稍候再試。
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>找到更多聲音
 keep-track-profile = 註冊帳號來追蹤個人貢獻進度

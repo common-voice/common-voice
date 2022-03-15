@@ -17,6 +17,7 @@ not-available-abbreviation = Nicht verfügbar
 banner-error-slow-1 = Entschuldigung, Common Voice läuft langsam. Danke für Ihr Interesse.
 banner-error-slow-2 = Wir empfangen aktuell viel Datenverkehr und untersuchen derzeit die Probleme.
 banner-error-slow-link = Statusseite
+error-something-went-wrong = Entschuldigung, etwas ist schiefgegangen!
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -831,8 +832,14 @@ listen-again-instruction = Gut so! <playIcon></playIcon> Machen Sie einfach weit
 listen-3rd-time-instruction = Zwei erledigt, <playIcon></playIcon> weiter so!
 listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
 listen-empty-state = Für diese Sprache gibt es keine Aufzeichnungen mehr, die überprüft werden könnten…
+listen-loading-error =
+    Wir konnten für Sie keine Audioclips zum Anhören abrufen.
+    Bitte versuchen Sie es später erneut.
 speak-empty-state = Für diese Sprache gibt es keine Sätze mehr, die aufgenommen werden könnten…
 speak-empty-state-cta = Sätze beitragen
+speak-loading-error =
+    Wir konnten für Sie keine Sätze zum Sprechen abrufen.
+    Bitte versuchen Sie es später erneut.
 record-button-label = Nehmen Sie Ihre Stimme auf
 share-title-new = <bold>Helfen Sie uns dabei,</bold> mehr Stimmen zu finden
 keep-track-profile = Verfolgen Sie Ihren Fortschritt mit einem Profil

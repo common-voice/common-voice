@@ -1951,6 +1951,8 @@ Adicionar uma música à minha lista de reprodução Lista de convidados Polygon
 Adicionar velas à minha lista de reprodução House After Work.
 Adicionar villotta à lista de reprodução The MetalSucks Playlist
 Adicione Chad Hugo à minha lista de reprodução This Is Kendrick Lamar.
+Adicione Construção de Chico Buarque à minha playlist
+Adicione Roda Viva de Chico Buarque à minha playlist
 Adicione The Cranberries Zombie a playlist de clássicas.
 Adicione a carne à frigideira, mexa um pouco e coloque as lentilhas.
 Adicione a carne, adicione um pouco e sirva fria.
@@ -1983,6 +1985,7 @@ Adicione o sal à gema de ovo.
 Adicione ocasionalmente um balde de água fria, se necessário.
 Adicione uma coluna e insira o valor aqui.
 Adicione uma conta de loja na parte de trás.
+Adicione uma pitada de açúcar e outra de sal.
 Adivinha o resultado das primeiras pontuações.
 Adivinha o resultado no primeiro experimento.
 Adição e subtração são ensinadas na escola primária.
@@ -2684,7 +2687,10 @@ Amanhã vai chover?
 Amanhã vou ao homeopata.
 Amanhã é quarta feira.
 Amanhã é quarta-feira.
+Amanhã é sempre outro dia.
 Amanhã é sexta-feira.
+Amanhã é um dia que nunca chega
+Amanhã é um longo dia e não temos tempo a perder.
 Amanhã é um novo começo
 Amanhã é um novo dia.
 Amanhã? vende o seu camelo e compra um cavalo.
@@ -7102,6 +7108,7 @@ Como você acha que é difícil beber?
 Como você acha?
 Como você caiu em?
 Como você chegou aqui?
+Como você conseguiu essa arma?
 Como você conseguiu isso?
 Como você conseguiu?
 Como você descobriu?
@@ -9907,6 +9914,7 @@ Ele disse uma palavra trinta vezes.
 Ele diz que não precisaria esperar o ano todo, é muito caro.
 Ele diz sim.
 Ele dorme de dez horas.
+Ele dorme dez horas por dia.
 Ele dá a todos a sua opinião.
 Ele e sua expressão são muito rigorosos
 Ele elogia o mar e foge dele.
@@ -10646,6 +10654,7 @@ Eles se acostumaram com meu afastamento? e eu também.
 Eles se casaram no ano passado
 Eles se comprometem a transportar armas de fogo.
 Eles se conheceram através de mensagens de vídeo on-line.
+Eles se conheceram durante a entrevista de trabalho
 Eles se encontram uma vez e aprendem a se encontrar novamente.
 Eles se encontraram com um monte de gente no bar.
 Eles se encontraram debaixo da areia.
@@ -13316,6 +13325,7 @@ Eu quero ver isso.
 Eu quero ver o Diabo Diamante em um cinema.
 Eu quero ver o Michel Strogoff
 Eu quero ver o código Da Vinci
+Eu quero ver o filme mais recente.
 Eu quero ver o trem
 Eu quero ver os chefes.
 Eu quero ver um filme de animação no bairro
@@ -13588,6 +13598,7 @@ Eu tenho um ótimo presente para você.
 Eu tenho uma aranha de estimação.
 Eu tenho uma caixa com mil maçãs
 Eu tenho uma casa em Luzhou.
+Eu tenho uma casa em Salvador.
 Eu tenho uma continuidade por um mês inteiro.
 Eu tenho uma conversa com meus amigos e almoço.
 Eu tenho uma dor aqui.
@@ -14250,6 +14261,7 @@ Foi ainda o que aconteceu ao eminente estadista.
 Foi algo que pensei que poderia acontecer apenas com os outros? nunca para mim.
 Foi alguma coisa?
 Foi alinhado perfeitamente.
+Foi amor à primeira vista
 Foi apenas certo.
 Foi apenas palavras.
 Foi apenas para tocar o que não soa.
@@ -15394,6 +15406,7 @@ Imbuia
 Imbé
 Imbé de Minas
 Imediatamente correu para o carro
+Imediatamente sentiu que fez um grande desserviço.
 Imediatamente sentiu que o Sr. Ashby lhe fizera um grande desserviço.
 Imediatamente siga o conselho dela
 Imigrante
@@ -16803,6 +16816,7 @@ Lobato
 Lobisomem ou mula sem cabeça?
 Localizador uniforme de recursos
 Logo a proporção entre as duas raças foi revertida.
+Logo depois o tempo acabou.
 Logo deu à luz sua filha
 Logo eles foram forçados a mudar a lei e estabelecer duas câmaras.
 Logo eles serão doados.
@@ -17651,6 +17665,7 @@ Me desculpe, é impossível.
 Me diga e eu farei.
 Me diga qual é definição de tempo.
 Me diga uma coisa, quem foi o primeiro, Extremadura ou o Brasil?
+Me dê a lista de filmes mais vistos
 Me dê a lista de filmes no Santikos Theatres
 Me dê aquela ligação no fio de Patrick!
 Me dê mais tempo.
@@ -19237,6 +19252,7 @@ Nunca deixe seu martelo no topo da escada? eu disse.
 Nunca desista.
 Nunca diga que está chovendo até acabar.
 Nunca discuta com pão e manteiga.
+Nunca esqueceram um do outro
 Nunca esqueça disso
 Nunca esqueça o elefante.
 Nunca esteve sozinho novamente
@@ -19257,6 +19273,7 @@ Nunca pensei sobre esse problema
 Nunca permita que a alma fique com raiva.
 Nunca permita que ele durma na represa.
 Nunca permita que o sol caia para Merkur.
+Nunca soube notícias dele
 Nunca tenha uma luta de boxe com o Ali!
 Nunca tinha visto uma Ferrari ao vivo.
 Nunca vi
@@ -19719,6 +19736,7 @@ Não segure mais do que a tua mão vai segurar
 Não sei de nada.
 Não sei do que se trata.
 Não sei em que dia você costuma ouvir que estava cantando.
+Não sei o que eles querem comigo
 Não sei onde me levará, porque não sei nada.
 Não sei onde vai.
 Não sei porque você pergunta.
@@ -20399,6 +20417,8 @@ O Pedro e a Betânia se conheceram no carnaval de Salvador.
 O Pedro foi para Gramado no inverno.
 O Pedro tem um perfil falso no Instagram
 O Pidgin agora tem mais plugins do que antes.
+O Planetário está aberto.
+O Planetário não está aberto.
 O Plenário trabalha em sessão ordinária, de periodicidade prescrita e extraordinária.
 O Porto de Mariel fica em Cuba
 O Presidente acabou de decorá-lo.
@@ -21370,6 +21390,7 @@ O lucro não é alto
 O lugar era ideal para os ratinhos crescerem fortes e saudáveis.
 O lugar era ótimo.
 O lugar onde a feira acontece.
+O lápis de cera acabou.
 O lápis foi cortado para ser afiado em ambas as extremidades.
 O líder do grupo era sábio.
 O líquido flamejava.
@@ -25444,6 +25465,7 @@ Procure o jogo Whitehorse
 Procure o romance Atrás de portas fechadas
 Procure o show Card Hunter
 Procure por presidente dos Estados Unidos da América.
+Procuro emprego ou serviço.
 Produtora de vídeo
 Produtos produzidos pela empresa
 Produção de biomassa
@@ -26282,6 +26304,7 @@ Quatro homens grandes estão comendo juntos no que parece ser um concurso de com
 Quatro homens socializando em uma calçada.
 Quatro hora da manhã e nenhum sinal dela.
 Quatro horas da manhã e nenhum sinal dele.
+Quatro horas da manhã e nenhum sinal.
 Quatro horas da tarde e nada de notícias.
 Quatro horas trabalhadas e nos confrontaram.
 Quatro humanos e quatro cães descansando na área de jantar
@@ -26766,6 +26789,7 @@ Queremos alguma ação nessas fotos.
 Queremos dispersar o núcleo do casco.
 Queremos misericórdia, contudo quase nunca somos misericordiosos
 Queremos vender botas artesanais de chukka naquele caminhão de comida.
+Queremos vender botas artesanais naquele caminhão.
 Queremos ver você.
 Queria escrever duzentas frases.
 Queria o Cristiano Ronaldo jogando no meu time.
@@ -28093,6 +28117,7 @@ Sempre igual.
 Sempre me afeiçoarei de ti
 Sempre observe os membros cumprirem as obrigações deste Código de Conduta.
 Sempre pense que a escrita é boa
+Sempre que dormia, sonhava com ela
 Sempre que estou escrevendo um artigo
 Sempre que o avô quer sair
 Sempre que podia, ele procurava um novo caminho para viajar.
@@ -29445,7 +29470,9 @@ Tem, portanto, credenciamento dos estudos realizados.
 Temo que a piada esteja em nós.
 Temo que este evento seja apenas por convite? senhor.
 Temo que se o meu sonho se concretizar? não terei motivos para continuar vivendo.
+Temo que seja eu
 Temo que seja o Steve Tina.
+Temo que seja o vizinho
 Temo que você as coloque cedo demais.
 Temo que você esteja bloqueando minha visão.
 Temo que você não consiga construir um iglu nos trópicos.
@@ -29730,6 +29757,7 @@ Todas as abelhas tinham medo da nova desgraça que, naturalmente, tinha que acon
 Todas as atividades terminaram este ano.
 Todas as bebidas desta loja estão livres de álcool.
 Todas as classes são vistas constantemente, porque são muito próximas.
+Todas as coisas são uma chateação.
 Todas as coisas são uma.
 Todas as coisas são uma? o menino pensou.
 Todas as coisas têm sua beleza e todas merecem louvor.
@@ -32563,6 +32591,7 @@ Uma senhora idosa debruçada sobre dois baldes.
 Uma senhora patina enquanto puxa uma criança em um buggy.
 Uma senhora que cozinha um bolo para sua família.
 Uma seção da estrada de Zhongzheng, distrito de Danshui, cidade nova de Taipei
+Uma seção da estrada de ferro quebrou
 Uma silhueta de um homem com uma vara de pescar.
 Uma silhueta de uma figura de paraquedas ao pôr do sol.
 Uma sinfonia.
@@ -33006,6 +33035,7 @@ Vestido amarelo.
 Vestindo as sandálias novas, ele desceu as escadas em silêncio.
 Vestir-se
 Vestir-se de seda em janeiro; Loucura ou pouco dinheiro.
+Vi dois cães pretos brigando na rua
 Vi hienas, morcegos e flamingos
 Vi no grupo da família no WhatsApp
 Vi um vídeo no YouTube sobre isso
@@ -33275,7 +33305,9 @@ Você escolheu uma codificação incompatível.
 Você escreveu essa carta para Miss Mitchell?
 Você escreveu ou não fez?
 Você esfolou ele vivo.
+Você esquece o poder que as mulheres têm.
 Você esquece o poder que sempre vigia o Morning Post.
+Você esquece o poder que temos.
 Você esquece que eu já sou uma viúva negra.
 Você esqueceu de comprar leite.
 Você estará disposto a viver com você?
@@ -33351,6 +33383,7 @@ Você fica fora disso.
 Você fica muito cansado!
 Você finalmente comprou uma casa.
 Você foi assisti Deadpool?
+Você foi assistir ao filme ou não?
 Você foi pago por isso ou você não estava?
 Você foi uma verdadeira bênção para mim.
 Você foi visto no campo inimigo há três dias.
@@ -33817,6 +33850,7 @@ Você sabe que é!
 Você sabe quem ele é?
 Você sabe quem eu sou?
 Você sabe se Dylan vai com a gente?
+Você sabe todos os presidentes do Panamá?
 Você sabe todos os presidentes to Estados Unidos?
 Você sabe usar o Photoshop?
 Você sabe, ele é um homem honesto.
@@ -34589,6 +34623,7 @@ meu pai já não podia dispensá-lo.
 minha alma alegra-se com o seu sorriso
 minha mãe e meu pai vem me ver
 minhas ferias foram ótimas penas que você não foi
+minhas férias foram ótimas
 moscas que pairam nos troncos sem ver nada
 mostre a programação do Unborn mas esquecido
 mostre os filmes no cinema mais próximo

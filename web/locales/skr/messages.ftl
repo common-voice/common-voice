@@ -8,7 +8,10 @@ email-input =
     .label = ای میل
 submit-form-action = جمع کرواؤ
 loading = لوڈ تھیندا پئے۔۔۔
+email-opt-in-info = میں ای میلاں وصو ل کر چاہساں جیندے وچ کامن وائس بارے مقاصد یاد دہانیاں، میݙی پیش رفت اپ ڈیٹاں تے خبر نامے وغیرہ شامل ہوون۔
 email-opt-in-info-title = کامن وائس میلنگ تندیر وچ شامل تھیوو
+email-opt-in-info-sub-with-challenge = ای میلاں وصول کرو جنہاں وچ کامن وائس بارے چیلنج تے مقصد یاددہانیاں، پیش رفت اپ ڈیٹاں تے خبر نامے ہوون
+email-opt-in-privacy-v2 = ای میلاں وصول کرݨ دی چوݨ نال تساں ایہ بیاں ݙیندے پئے ہوسو جو  تساں موزلا دی  <privacyLink>رازداری پالیسی</privacyLink> دی تفصیل دے مطابق انہاں معلومات بارے موزلا دے اختیارات نال متفق ہو۔
 indicates-required = *ضروری خانے آلے پاسے اشارہ کریندے
 not-available-abbreviation = دستیاب کائنی
 banner-error-slow-1 = افسوس، کامن وائس مٹھا چلدا پئے۔ تہاݙا دلچسپی دا تھورا۔
@@ -199,20 +202,26 @@ privacy = رازداری
 terms = ٹرماں
 cookies = کوکیاں
 faq = عمومی سوالات
+content-license-text = <licenseLink>تخلیقی کامنز لائسنس</licenseLink> دے تحت مواد دستیاب ہے
 share-title = آپݨی آواز دان کرݨ آلے  لوکاں کوں لبھݨ کیتے ساݙی مدد کرو
+share-text = مشیناں کوں سکھاوݨ وچ مدد کرو جو اصل لوک کین٘ویں الیندن، { $link } تے آپݨی آواز دان کرو
 link-copied = لنک نقل تھی ڳیا
 back-top = چوٹی تے واپس ون٘ڄو
 logout = لاگ آؤٹ
 
 ## Home Page
 
+home-title = کامن وائس مشیناں کوں اصل بندیاں وانگوں ٻولݨ سکھاوݨ کیتے موزِلّا دا موہری یے۔
+default-tagline = موزِلّا کامن وائس مشیناں کوں اصل بندیاں وانگوں ٻولݨ سکھاوݨ کیتے موہری یے۔
 home-cta = ٻولو تے اتھ حصہ پاؤ!
 show-wall-of-text = ٻیا پڑھو
 help-us-title = جملیاں دی تصدیق کرݨ وچ ساݙی مدد کرو!
+help-us-explain = پلے دباؤ، سݨو تے ساکوں ݙسو: بھلا انہاں ہیٹھلا جملہ ٹھیک الایا ہے؟
 vote-yes = جیا
 vote-no = کو
 toggle-play-tooltip = پلے موڈ کوں ٹوگل کرݨ کیتے { shortcut-play-toggle } دباؤ
 speak-subtitle = آپݨی آواز دان کرو
+speak-paragraph = وائس کلپ رکاڈ کرواوݨ ساݙے اوپن ڈیٹاسیٹ دی تعمیر دا ہک لازمی حصہ ہے: کجھ آکھسن جو ایہ چسکولا حصہ وی ہے۔
 speak-goal-text = رکارڈ تھئے کلپ
 listen-subtitle = آوازاں دی تصدیق کرݨ وچ ساݙی مدد کرو
 listen-goal-text = کلپ تصدیق تھئے
@@ -250,6 +259,7 @@ email-subscription-title-new = کامن وائس خبرنامہ، مقصد یا�
 benefits = فائدے
 improve-audio = پروفائل ڄاݨکاری آڈیو ڈیٹا کوں چنگا بݨیندی ہےجہڑا صوتی سُن٘ڄاݨ درستی دی تربیت وچ ورتیندے۔
 keep-track = ڈھڳ زباناں وچ آپݨی پیش رفت تے پیمائش دا حساب رکھو۔
+compare-progress = آپݨی پیش رفت دا پوری دنیا دے ٻئے ونگارواں نال موازنہ کرو۔
 view-goals = ذاتی تے منصوبہ ہدفاں بارے آپݨی پیش رفت ݙیکھو۔
 
 ## What's public
@@ -362,6 +372,7 @@ email-subscriptions = ای میل سبسکرپشناں
 download-profile = میݙا ڈیٹا ڈاؤن لوڈ کرو
 contribution-experience = ونڳاراں دا تجربہ
 skip-submission-feedback = سب مشن فیڈبیک چھوڑ ݙیوو
+skip-submission-note = نوٹ: ونگار دی قسم وٹاوݨ کیتے تہاکوں سݨݨ یا ٻولݨ وچوں ہک شئے چُݨݨی پوسی۔
 off = بند
 on = چالو
 help-accent = لہجے وچ کجھ مدد دی لوڑ ہے؟
@@ -395,6 +406,7 @@ faq-when-release2-q = تساں ٻنھاں زباناں وچ کام ن وائس �
 faq-why-mission-q = موزلّا دی مہم دا کامن وائس حصہ کیوں ہے؟
 faq-what-cv-and-deepspeech-q = کامن وائس تے ڈیپ سپیچ وچ کیا فرق ہے؟
 faq-is-goal-assistant-q = بھلا کامن وائس دا مقصد صوتی معاون بݨاوݨ ہے؟
+faq-do-want-native-q = ایہ میݙی ماء ٻولی کائنی۔ میں ایندا لہجہ الینداں، بھلا تہاکوں ہݨ وی میݙی آواز دی لوڑ ہے؟
 faq-why-different-speakers-q = تہاکوں ہک زبان کیتے ٻہوں سارے مختلف آلاوݨ آلیاں دی لوڑ کیوں ہے؟
 faq-why-my-lang-q = میݙی زبان اڄݨ تائیں کیوں شامل کائنی؟
 faq-what-quality-q = ڈیٹاسیٹ وچ ورتݨ کیتے آوازکلپ دے کہڑی سطح دے صوتی معیار دی لوڑ ہے؟
@@ -406,6 +418,7 @@ faq-is-account-public-q = بھلا میݙیاں کھاتہ معلومات عوا
 faq-how-privacy-q = تساں انہاں لوکاں دی گمنامی تے رازداری کوں یقینی کین٘ویں بݨیندے ہو جنہاں آپݨی آواز دان کیتی؟
 faq-what-is-cv = Common Voice کیا ہے؟
 faq-using-cv = کامن وائس ورتݨ
+faq-description = مشیناں کوں اصل بندیاں وانگوں ٻولݨ سکھاوݨ کیتے کامن وائس  موزِلّا دا موہری یے۔
 faq-search-for-answers =
     .label = جواباں دی ڳول
 
@@ -475,16 +488,18 @@ about-playbook-how-add-sentences = میں فقرے کین٘ویں شامل کر 
 
 about-playbook-how-record-quality = میں اعلیٰ معیار دا آواز کلپ کین٘ویں رکاڈ کراں؟
 about-playbook-how-record-content-3 = جملے احتیاط نال پڑھو ــ لفظ ودھاوݨ یا وٹاوݨ نہ بھُلو۔
+about-playbook-how-record-content-5 = <accuracyLink>درستی معیار بارے ٻیا ݙیکھو،</accuracyLink>
 
 ## How to grow language
 
-about-playbook-how-grow-language = اساں کامن وائس تے مؤثر انداز وچ زبان کین٘ویں ودھا سڳدے ہیںن٘
+about-playbook-how-grow-language = اساں کامن وائس تے مؤثر انداز وچ زبان کین٘ویں ودھا سڳدے ہیں؟
 about-playbook-how-grow-language-content-2 = ایونٹ
 about-playbook-how-grow-language-content-4 = سماجی میڈیا
 about-playbook-how-grow-language-content-6 = بھائیوالی تے نیٹ ورک
 
 ## How to validate
 
+about-playbook-how-validate = میکوں کین٘ویں پتہ لڳسی جو صَوتی کلپ کوں منظور کرݨے یا کائناں؟
 
 ## How to access dataset
 
@@ -553,7 +568,7 @@ cv-license = لائسنس
 audio-format = آڈیو فارمیٹ
 number-of-voices = اوازوں دی تعداد
 splits = ٹکڑے
-email-to-download = ڈاؤن کرݨ کیتے ای میل درج کرو
+email-to-download = ڈاؤن لوڈ کرݨ کیتے ای میل درج کرو
 confirm-size = تساں <b>{ $size }</b>  کوں ڈاؤن لوڈ شروع کرݨ کیتے  تیار ہو
 size-gigabyte = جی بی
 size-megabyte = ایم بی
@@ -566,7 +581,7 @@ subscribe = سبسکرائب کرو
 get-started-speech = تقریر دی سُن٘ڄاݨ نال شروع کرو
 other-datasets = ٻئے وائس ڈیٹاسیٹس
 feedback-q = فیڈبیک ݙیسو؟
-community-playbook = برادری پلے بک
+community-playbook = برادری پَلے بیک
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = ڈسکورس تے ون٘ڄو
 go-languages-page = زباناں ورقے تے ون٘ڄو
@@ -606,8 +621,10 @@ other-language = ٻئی زبان
 ## Languages Overview
 
 language-section-in-progress = تھیندا پئے
+language-section-in-progress-new-description = ایہ زباناں اڄݨ  برادری ترقی دے تحت ہن. پیشرفت پٹی ایں ڳالھ دی نشاندہی کریندی ہے جو ہر زبان <localizationGlossaryLink/> ویب سائٹ مقامیت <localizationGlossaryLink>    تے <sentenceCollectionGlossaryLink/> جملہ کٹھے کرݨ <sentenceCollectionGlossaryLink> دے عمل وچ اڄݨ کتی دور ہے۔
 language-section-launched = لان٘چ تھی ڳیا
-languages-show-more = ٻئے ݙیکھو
+language-section-launched-description = انہاں شروع تھیوݨ آلیاں زباناں کیتے ویب سائٹ کوں کامیابی نال <localizationGlossaryLink> مقامی </localizationGlossaryLink> کیتا ڳیا ہے ، تے وافر تعداد وچ<speakLink>ٻولݨ</speakLink> تے <listenLink>سُݨݨ</listenLink> دیاں ونگاراں کو جاری رکھݨ کیتے <sentenceCollectionGlossaryLink>جملے کٹھے</sentenceCollectionGlossaryLink>  کیتے ڳئے ہن۔
+languages-show-more = ٻیا ݙیکھو
 languages-show-less = گھٹ ݙیکھو
 language-meter-in-progress = پیش رفت
 language-total-progress = کل
@@ -664,6 +681,8 @@ record-abort-submit = کلپ جمع کرواؤ
 record-abort-continue = ریکارڈنگ مکمل کرو
 record-abort-delete = ٻاہر نکلو تے کلپ مٹاؤ
 listen-instruction = { $actionType }<playIcon></playIcon> بھلا انہاں  جملہ درستی نال الایا؟
+listen-again-instruction = سوہݨا کم!<playIcon></playIcon> تساں تیار ہوو تاں ولدا سݨو
+listen-3rd-time-instruction = ٢ تھی ڳئے۔  شاباش جاری رکھو!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>چھیکڑی ہک!
 listen-empty-state = ایں زبان وچ تصدیق کرݨ کیتے ساݙے کول کلپ مُک ڳئے ہن۔۔۔
 speak-empty-state = ایں زبان وچ رکاڈ کرݨ کیتے ساݙے کول جملے مُک ڳئے ہن۔۔۔
@@ -855,6 +874,7 @@ contribution-criteria-page-title = ونگار دا معیار
 contribution-for-example = مثال دے طور تے
 contribution-misreadings-title = غلط پڑھݨ
 contribution-misreadings-description-extended-list-2 = لفظ دے چھیکڑ تے ہک <strong>'s'</strong> غائب ہے۔
+contribution-misreadings-description-extended-list-5 = ہک لفظ پڑھݨ کیتے ٻہوں واری کوشش تھیندی پئی ہے۔
 contribution-misreadings-example-1-title = ٹریاسک دے دیوہیکل ڈایناسور۔
 contribution-misreadings-example-2-title = ٹریاسک دا دیوہیکل ڈایناسور۔
 contribution-misreadings-example-2-explanation = [ 'ڈایناسور' ہووݨا چاہیدا ہے]
@@ -863,6 +883,7 @@ contribution-misreadings-example-4-title = ٹریاسک دے دیوہیکل ڈا
 contribution-misreadings-example-5-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-6-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-7-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
+contribution-misreadings-example-8-title = بھون٘را تکھے تکھے اڳوں تے چلا ڳیا۔
 contribution-misreadings-example-8-explanation = [غیر مماثل مواد]
 contribution-varying-pronunciations-title = بدلدا ہویا تلفظ
 contribution-varying-pronunciations-example-1-title = آپݨے سر تے اوں بیریٹ پاتا ہویا ہائی۔

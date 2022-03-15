@@ -1216,6 +1216,7 @@ De gifte sig i Las Vegas.
 De gifter sig pingsten nittioett.
 De gillade att synas i tidningsartiklar men ville egentligen inte lösa problemet
 De gjorde att folk hade lätt att komma ihåg honom.
+De gjorde en kontinuitetsplan till frukost.
 De gjorde sig icke riktigt bra till uniformen.
 De globala målen fanns inte med någonstans i kommunens årsredovisning
 De glödde som stjärnor, som goda och vackra stjärnor.
@@ -3243,6 +3244,7 @@ Det saknar helt proportioner.
 Det saknas en uniform.
 Det saknas förutsättningar att åsidosätta regleringen med stöd av regeringsformen eller Europakonventionen.
 Det saknas generellt sett former för samverkan mellan den regionala biblioteksverksamheten och skolbiblioteken.
+Det saknas grundläggande kompetens om dataskydd i hela landet.
 Det saknas incitiament för egen systemutveckling
 Det saknas också skäl att förklara avtalet ogiltigt.
 Det saknas skäl att meddela prövningstillstånd i målet i övrigt.
@@ -4102,6 +4104,7 @@ Det är fortfarande väldigt färskt.
 Det är framför allt förebyggande, rådgivande och informerande insatser som kan erbjudas som service.
 Det är framför allt mindre myndigheter som utkontrakterat funktioner såsom helpdesk och support.
 Det är frivilligt för vårdinstanser och omsorgsgivare att lämna ut personuppgifter för kvalitetsuppföljning.
+Det är fruktansvärt onödigt med så många journalsystem.
 Det är fråga om tjänstepensionsförsäkringar.
 Det är fråga om uppdragsutbildningar vid universitet och högskolor på uppdrag av Skolverket.
 Det är från min syster Annie, för hennes universitetsstudier.
@@ -7483,6 +7486,7 @@ Försök att lugna ner dig lite.
 Försök att slappna av nu.
 Försök bjuda honom på lite söt mjölk.
 Försök hänga med.
+Försök inte ens att dela data på det sättet.
 Försök inte ens rättfärdiga dig själv.
 Försök inte!
 Försök köpa bröd.
@@ -18162,6 +18166,7 @@ Regionen ska vid planeringen beakta den sjukvård som erbjuds av andra vårdgiva
 Regionen är fortfarande huvudman i sådana fall.
 Regionens digitaliseringsstrategi innebar ingenting i praktiken
 Regionerna avvecklades och landet indelades i fyra sjukvårdsområden
+Regionerna klarade inte ens av att dela information om vaccinationer med varandra.
 Regionerna och kommunerna har visst självbestämmande.
 Regionerna påverkas i begränsad omfattning av utredningens förslag.
 Regionerna saknar kompetens i digitalisering.
@@ -21697,6 +21702,7 @@ Vi har fått lov att hugga en gran i deras skog.
 Vi har fått någon gädda någon enstaka gång, också.
 Vi har fått tips om att ni innehar stöldgods.
 Vi har fått vykort från faster Anna!
+Vi har för många regioner i Sverige.
 Vi har förstås fyra sömmerskor till middag.
 Vi har försökt komplettera bilden av behoven genom fallstudierna.
 Vi har genomfört hearings med sextionio skolbibliotekarier från olika skolformer runtom i landet.
@@ -22586,6 +22592,7 @@ Vårdnadshavare till ett barn har inte rätt att spärra barnets uppgifter.
 Vårdnadshavare till ett barn har inte rätt att spärra uppgifter om barnet.
 Vårdnadshavaren har rätt och skyldighet att bestämma i frågor som rör barnets personliga angelägenheter.
 Vårdnadshavaren till ett barn får dock inte spärra uppgifter om barnet.
+Vårdpersonalen drabbades av den urusla användbarheten.
 Vårens eld brinner över jorden.
 Vårt barn går i sömnen.
 Vårt förslag är bra för artisterna ur både kreativ och ekonomisk synvinkel.
@@ -22732,6 +22739,7 @@ rappa på!
 Är det två metallbitar?
 Är det vad du vill?
 Är det verkligen det?
+Är det verkligen meningen att all information ska ligga i ett annat land?
 Är det verkligen möjligt, att du är död, gamla Harmlösa?
 Är det verkligen nödvändigt med detta mötet?
 Är det verkligen äkta känslor?

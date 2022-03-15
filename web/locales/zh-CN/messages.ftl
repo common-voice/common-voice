@@ -17,6 +17,7 @@ not-available-abbreviation = 不可用
 banner-error-slow-1 = 感谢您使用 Common Voice，很抱歉网站当前运行缓慢。
 banner-error-slow-2 = 网站受到大流量访问冲击，我们正在调查处理相关问题。
 banner-error-slow-link = 状态页面
+error-something-went-wrong = 抱歉，出了点问题
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -540,11 +541,15 @@ about-playbook-how-localize-content-5 = 观看我们的帮助视频
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = 如何添加语句？
+about-playbook-how-add-sentences-content-4 = 通过的句子在周三导出，并在下一次数据集发布后可用。
 
 ## How to record quality
 
 about-playbook-how-record-quality = 如何录制高质量的语音片段？
+about-playbook-how-record-content-2 = 避免录入过多背景噪音，要确保您的声音清晰易辨。
 about-playbook-how-record-content-3 = 准确读出句子内容，不要漏词、改词或添词。
+about-playbook-how-record-content-4 = 确定平台正在录音后再开始朗读，读完后再点击停止录制。
 
 ## How to grow language
 
@@ -557,6 +562,7 @@ about-playbook-how-grow-language-content-4 = 社交媒体
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = 如何访问和使用数据集？
 
 ## How are decisions made
 
