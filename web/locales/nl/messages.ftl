@@ -17,6 +17,7 @@ not-available-abbreviation = NB
 banner-error-slow-1 = Sorry, Common Voice werkt langzaam. Bedankt voor uw interesse.
 banner-error-slow-2 = We ontvangen veel verkeer en zijn momenteel de problemen aan het onderzoeken.
 banner-error-slow-link = Statuspagina
+error-something-went-wrong = Sorry, er is iets misgegaan
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -831,8 +832,14 @@ listen-again-instruction = Goed werk! <playIcon></playIcon> Luister opnieuw wann
 listen-3rd-time-instruction = 2 gedaan, ga zo door! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> De laatste!
 listen-empty-state = We hebben in deze taal geen te valideren fragmenten meer…
+listen-loading-error =
+    We kunnen geen audiofragmenten voor u ophalen om naar te luisteren.
+    Probeer het later nog eens.
 speak-empty-state = We hebben in deze taal geen op te nemen zinnen meer…
 speak-empty-state-cta = Zinnen bijdragen
+speak-loading-error =
+    We kunnen geen zinnen voor u ophalen om uit te spreken.
+    Probeer het later nog eens.
 record-button-label = Uw stem opnemen
 share-title-new = <bold>Help ons</bold> meer stemmen te vinden
 keep-track-profile = Houd uw voortgang bij met een profiel
