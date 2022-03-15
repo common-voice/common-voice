@@ -2,7 +2,7 @@ import { PassThrough } from 'stream';
 import { S3 } from 'aws-sdk';
 import * as bodyParser from 'body-parser';
 import { MD5 } from 'crypto-js';
-import { NextFunction, Request, Response, Router } from 'express';
+import { NextFunction, Request, response, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
 import { UserClient as UserClientType } from 'common';
 import { authMiddleware } from '../auth-router';
@@ -78,6 +78,7 @@ export default class API {
 
     router.get('/user_clients', this.getUserClients);
     router.post('/user_clients/:client_id/claim', this.claimUserClient);
+    router.get('/user_clients/:client_id/clips', this.getUserClips);
     router.get('/user_client', this.getAccount);
     router.patch('/user_client', this.saveAccount);
     router.post(
@@ -164,6 +165,18 @@ export default class API {
     response.json(featureResult);
   };
 
+  getUserClips = async (request: Request, response: Response) => {
+    console.log('this is loading');
+
+    const { client_id, params } = request;
+    const { client_id: queried_client_id_ } = params;
+    if (client_id !== queried_client_id_) {
+      return response.status(401).json({ message: 'Access denied' });
+    }
+    const clips = await this.model.findUserClips(client_id, params.locale);
+
+    response.json(clips);
+  };
   getRandomSentences = async (request: Request, response: Response) => {
     const { client_id, params } = request;
     const count = this.getCountQueryParam(request) || 1;
