@@ -76,6 +76,7 @@ export default class API {
       response.redirect('/');
     });
 
+    router.get('/job/:jobId', this.getJob);
     router.get('/user_clients', this.getUserClients);
     router.post('/user_clients/:client_id/claim', this.claimUserClient);
     router.get('/user_client', this.getAccount);
@@ -131,7 +132,6 @@ export default class API {
     router.get('/feature/:locale/:feature', this.getFeatureFlag);
     router.get('/bucket/:bucket_type/:path', this.getPublicUrl);
     router.get('/server_date', this.getServerDate);
-
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
     });
@@ -524,6 +524,15 @@ export default class API {
       bucket_type
     );
     response.json({ url });
+  };
+
+  getJob = async ({ client_id, params }: Request, response: Response) => {
+    const { jobId } = params;
+    const job = await NotificationQueue.getJob(jobId);
+    if (client_id === job.data.client_id) {
+      response.json(job);
+    }
+    response.status(401);
   };
 
   getServerDate = (request: Request, response: Response) => {
