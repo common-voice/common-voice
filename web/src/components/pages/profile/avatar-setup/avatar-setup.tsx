@@ -15,6 +15,7 @@ import { Uploads } from '../../../../stores/uploads';
 import { CheckIcon, LinkIcon } from '../../../ui/icons';
 
 import './avatar-setup.css';
+import { Spinner } from '../../../ui/ui';
 
 const MAX_FILE_SIZE_KB = 300; // Max file upload size 300kb
 
@@ -102,23 +103,41 @@ interface Props
 
 interface State {
   isSaving: boolean;
+  interval: ReturnType<typeof setInterval> | undefined;
+  jobId: number | undefined;
 }
 
 class AvatarSetup extends React.Component<Props, State> {
   state: State = {
     isSaving: false,
+    interval: undefined,
+    jobId: undefined,
   };
 
+  componentDidUpdate(prevProps: Props, prevState: State) {
+    if (prevState.isSaving !== this.state.isSaving) {
+      clearInterval(this.state.interval);
+    }
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.state.interval);
+  }
+
   async saveFileAvatar(files: FileList) {
-    const { addNotification, api, getString, locale, refreshUser } = this.props;
+    const { addNotification, api, getString, locale } = this.props;
     this.setState({ isSaving: true });
 
     try {
       const image = await resizeImage(files.item(0), 200);
-      await api.saveAvatar('file', image);
+      const { error, id } = await api.saveAvatar('file', image);
+      if (error) throw new Error(error);
+      this.setState({ jobId: id });
+      this.setState({
+        interval: setInterval(this.getPolling.bind(this), 1500),
+      });
       addNotification(getString('avatar-uploaded'));
       trackProfile('give-avatar', locale);
-      refreshUser();
     } catch (e) {
       if (e.message.includes('too_large')) {
         addNotification(getString('file_' + e.message));
@@ -127,7 +146,22 @@ class AvatarSetup extends React.Component<Props, State> {
       }
     }
 
-    this.setState({ isSaving: false });
+    // this.setState({ isSaving: false });
+  }
+  async getPolling() {
+    const { jobId } = this.state;
+    const { api, refreshUser } = this.props;
+    try {
+      console.log('polling attempt');
+      const { finishedOn, returnValue } = await api.getJob(jobId);
+      if (finishedOn || returnValue) {
+        this.setState({ isSaving: false });
+        refreshUser();
+      }
+    } catch (e) {
+      console.log('polling error');
+      this.setState({ isSaving: false });
+    }
   }
 
   render() {
@@ -138,13 +172,15 @@ class AvatarSetup extends React.Component<Props, State> {
       refreshUser,
       user: { account },
     } = this.props;
-
+    const { isSaving } = this.state;
     const avatarType =
       account.avatar_url &&
       account.avatar_url.startsWith('https://gravatar.com')
         ? 'gravatar'
         : null;
-
+    if (isSaving) {
+      return <Spinner delayMs={500} />;
+    }
     return (
       <div className="full-avatar-setup">
         {account.avatar_url && (
