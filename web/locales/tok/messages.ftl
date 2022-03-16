@@ -17,6 +17,7 @@ not-available-abbreviation = ala
 banner-error-slow-1 = mi pakala. ilo Common Voice li pakala lili. sina pona tan wile kama sina.
 banner-error-slow-2 = jan mute li kama tawa ilo. mi alasa sona e pakala.
 banner-error-slow-link = ilo li pilin seme?
+error-something-went-wrong = ijo li pakala.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -830,6 +831,9 @@ listen-again-instruction = sina pona! <playIcon></playIcon> sina ken la, o kute 
 listen-3rd-time-instruction = tu li pini!
 listen-last-time-instruction = wan taso li lon!
 listen-empty-state = kalama awen pi toki ni li lon ala. ni la sina ken ala pona e ona.
+listen-loading-error =
+    mi ken ala pana e kalama awen tawa sina.
+    o sin.
 speak-empty-state = sitelen pi toki ni li lon ala. ni la sina ken ala kalama awen e ona.
 speak-empty-state-cta = o pana e sitelen
 record-button-label = o awen e toki uta sina
