@@ -832,10 +832,13 @@ listen-3rd-time-instruction = tu li pini!
 listen-last-time-instruction = wan taso li lon!
 listen-empty-state = kalama awen pi toki ni li lon ala. ni la sina ken ala pona e ona.
 listen-loading-error =
-    mi ken ala pana e kalama awen tawa sina.
-    o sin.
+    mi ken ala pana e kalama awen tawa sina. sina ken ala kute e ona.
+    tenpo kama la o sin.
 speak-empty-state = sitelen pi toki ni li lon ala. ni la sina ken ala kalama awen e ona.
 speak-empty-state-cta = o pana e sitelen
+speak-loading-error =
+    mi ken ala pana e sitelen tawa sina. sina ken ala toki e ona.
+    tenpo kama la o sin.
 record-button-label = o awen e toki uta sina
 share-title-new = <bold>o pona e ni:</bold> o kama e jan sin
 keep-track-profile = o sona e pana sina e pali sina kepeken lipu jan
