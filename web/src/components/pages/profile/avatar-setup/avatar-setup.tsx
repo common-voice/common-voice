@@ -152,9 +152,8 @@ class AvatarSetup extends React.Component<Props, State> {
     const { jobId } = this.state;
     const { api, refreshUser } = this.props;
     try {
-      console.log('polling attempt');
-      const { finishedOn, returnValue } = await api.getJob(jobId);
-      if (finishedOn || returnValue) {
+      const { finishedOn } = await api.getJob(jobId);
+      if (finishedOn) {
         this.setState({ isSaving: false });
         refreshUser();
       }
