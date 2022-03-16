@@ -127,7 +127,21 @@ class AvatarSetup extends React.Component<Props, State> {
       }
     }
 
-    this.setState({ isSaving: false });
+    // this.setState({ isSaving: false });
+  }
+  async getPolling() {
+    const { jobId } = this.state;
+    const { api, refreshUser } = this.props;
+    try {
+      const { finishedOn } = await api.getJob(jobId);
+      if (finishedOn) {
+        this.setState({ isSaving: false });
+        refreshUser();
+      }
+    } catch (e) {
+      console.log('polling error');
+      this.setState({ isSaving: false });
+    }
   }
 
   render() {
