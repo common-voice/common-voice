@@ -59,7 +59,7 @@
     "common": "*",
     "css-loader": "3.6.0",
     "cssnano": "5.1.4",
-    "file-loader": "5.1.0",
+    "file-loader": "6.2.0",
     "html-webpack-plugin": "5.5.0",
     "jest": "27.5.1",
     "jest-axe": "5.0.1",
