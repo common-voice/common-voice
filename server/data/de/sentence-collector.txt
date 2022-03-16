@@ -9282,6 +9282,7 @@ Die veralteten Halogenlampen erzeugen mehr Hitze als sichtbares Licht.
 Die verantwortlichen Stellen haben nicht die nötigen Kapazitäten um jedem gemeldeten Fall nachzugehen.
 Die verehrteste Geschichtenerzählerin des Landes kam zur Tür herein.
 Die verfluchte Katze hat schon wieder den Holzstapel umgeworfen!
+Die verkaufen jetzt Plunder hier.
 Die verkaufte Auflage betrug im Mai eine Million Exemplare.
 Die verkaufte Auflage betrug im ersten Jahr zwei Millionen Exemplare.
 Die verschiedenen Scherenarten beim Frisör haben alle einen eigenen Namen.
@@ -15287,6 +15288,7 @@ Hier wird mal wieder viel Lärm um nichts gemacht.
 Hier wird man nicht daran gemessen, wie viel man verdient.
 Hier wird mit allen Tricks gearbeitet.
 Hier wird nicht getrödelt!
+Hier wird nicht getrödelt.
 Hier wohnt doch Herr Nang, nicht wahr?
 Hier wollten wir eigentlich nicht hin.
 Hier wurde nichts beschönigt.
@@ -16201,6 +16203,7 @@ Ich habe echt eine kleine Zeckenphobie.
 Ich habe ein Fahrrad gefunden.
 Ich habe ein Gamepad an den Computer angeschlossen.
 Ich habe ein Geräusch gehört.
+Ich habe ein neues Handy.
 Ich habe eine Decke mitgebracht und wir setzen uns unter einen Baum.
 Ich habe eine Lösung und suche ein passendes Problem.
 Ich habe eine Nachricht auf deiner Mobilbox hinterlassen.

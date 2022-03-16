@@ -454,6 +454,7 @@ A aquella distància, els nostres fusells resultaven completament inútils.
 A aquelles altures ja estàvem plens de polls
 A aquest no l'enxamparàs, que la sap molt llarga.
 A aquesta àrea s'han trobat zones d'hàbitat i estructures funeràries.
+A aquestes hores ja t'hauries d'haver ficat al llit.
 A baix, un sòcol imitant marbre
 A bell ull, en aquella caixa, hi havia un centenar de llibres.
 A cada final d'acte havia hagut d'alçar el teló
@@ -1054,6 +1055,7 @@ Al mateix temps era irracional.
 Al mateix temps que els feia riure, els hi va fer compassió.
 Al matí ningú et desperta, i a la nit ningú t'espera: llibertat?
 Al matí pujava minyons, i a la tarde jugava a l'alça.
+Al menjador es serraven els pals, es preparava tot.
 Al menys per a dibuixar el caràcter…
 Al menú del dijous hi havia sempre paella per a triar.
 Al mercat hi ha diversos diccionaris d'abreviatures, fins i tot diccionaris inversos.
@@ -1188,6 +1190,7 @@ Allà fa un fred que pela.
 Allà havien arribat a una mena de compromís
 Allà havien hissat la bandera nacional catalana.
 Allà hi ha quioscos de premsa, de flors, restaurants i comerços
+Allà hi moriren centenars de soldats catalans.
 Allà on hi havia llum, allà on hi havia blau
 Allà on hi trobava espai per els ulls
 Allà on pogués cantar lliurement
@@ -1256,6 +1259,7 @@ Als meus ulls, els porrons s'assemblaven massa als orinals de vidre
 Als nou mesos ja va saber dir papa i mama
 Als països del camp anticapitalista la política de la conformitat s'esllangueix.
 Als països industrialitzats compre als comerços propers o als supermercats.
+Als peus del llit hi havia una corona molt grossa de fulles verdes
 Als propis, als estranys, a la posteritat.
 Als quals els d'or més fi tenen enveja.
 Als rics no els falten mai els amics.
@@ -3397,6 +3401,7 @@ Aquesta manera habitual tendeix a interpretar-se en termes de sistema de trets.
 Aquesta matinada m'he trobat un cèrvol.
 Aquesta melmelada de préssecs que has fet és dolça com l'arrop.
 Aquesta mena de calces tan amples són tant a propòsit!
+Aquesta nena no vol dormir.
 Aquesta nit fan una pel·lícula interessant.
 Aquesta nit les estrelles brillen més que mai
 Aquesta nova arquitectura no funcionarà amb línies i formes lliures, poètiques.
@@ -3455,6 +3460,7 @@ Aquests homes i aquestes dones seran els meus herois
 Aquests impulsos traduirien les exigències biològiques del cos.
 Aquests mots encreuats són molt difícils.
 Aquests moviments constitueixen un exèrcit de reserva del treball intel·lectual.
+Aquests nens sempre es discuteixen.
 Aquests postulats es continuen utilitzant avui dia.
 Aquests procediments han tingut un gran nombre de seguidors, evidents o dissimulats.
 Aquests són els contes que tinc.
@@ -3508,6 +3514,7 @@ Ara li garrotejava el genoll fins a trencar-lo de cames.
 Ara mateix acabem d'arribar.
 Ara mateix això no està gens clar.
 Ara mateix això no ho veig gens clar.
+Ara mateix li acaben de dedicar una cançó a la ràdio.
 Ara mateix no ho tinc gens clar.
 Ara mateix no ho veig gens clar.
 Ara mateix, és feliç.
@@ -3561,6 +3568,7 @@ Arres es troba a la Val d’Aran
 Arreu de la Mediterrània.
 Arreu hi havia gent dormint
 Arriba l'oasi d'un hipotètic torn lliure.
+Arribarem tard a sopar.
 Arribaren els tres reis amb molta alegria
 Arribats ací caldria explanar, si més no, una sèrie de punts.
 Arribava com un rellotge.
@@ -3605,6 +3613,7 @@ Augmenta el volum de la ràdio.
 Augmenta la il·luminació de l'habituació.
 Augmentarà la part d'aquells que no poden ser anomenats actors sinó vividors.
 Augure un esdevenidor, a pesar de l’endarreriment, força destacat per al nostre folklore.
+Austràlia és un país molt gran.
 Autoritzada i molt formal és la pelfa de persona principal.
 Avalua quin paper tenen, a parer teu, les emocions en la motivació del comportament.
 Avaluació de tots els subministradors de productes i serveis.
@@ -3838,6 +3847,7 @@ Cada deflagració sembla que apunti directament cap a tu
 Cada dia anava amunt i avall sense esclatar mai.
 Cada dia arriba tard a la feina.
 Cada dia ens donaven un paquet de cigarrets
+Cada dia estava més cansada
 Cada dia hi acudeix més gent demanant una caritat.
 Cada dia més humana, menys perfecta, més feliç.
 Cada dia més tímid, més esquerp
@@ -4574,6 +4584,7 @@ D'entre els trets escollits, van distingir entre trets comuns i individuals.
 D'entre totes les tendències, la doctrina realista-socialista es mostra la més agosarada.
 D'ençà de l'any passat atorga els premis "Valencià de l'any".
 D'ençà que hi va haver un excedent econòmic humà, respire.
+D'ençà que l'he perduda que faig sempre faig tard.
 D'escriure ja n'hi ha prou quan se sap posar la firma.
 D'esma només, se'n tornà per on havia vingut.
 D'estatuària pura o d'estatuària aplicada?
@@ -4585,6 +4596,7 @@ D'un glop Carles Vilanova escura les restes de gintònic.
 D'un tret l'hauria pogut fer bocins.
 D'una banda, els anarquistes; de l'altra, la policia
 D'una fonteta rodona, en brollava un rajolí d'aigua, prim
+Dalt del cotxe hi ha una nina.
 Dalt un pi hi ha un molí, un canyar i ixen bous a pasturar.
 Damunt del mateix atzur es retallen les meves muntanyes.
 Damunt el qual hi havia el parapet.
@@ -4693,6 +4705,7 @@ De primer, ningú no ens volia donar fusell.
 De que ell ho sabia, no se'n podia dubtar.
 De qui parles? I qui són, aquests avariciosos?
 De qui és Imagine?
+De quin color t'agrada més?
 De quin dia és l'últim email de la Núria?
 De quina iniquitat és víctima, i amb quin fi, aquest pobre sacerdot?
 De què ens serveix tenir riqueses, si no hem de disfrutar-les ara?
@@ -4902,6 +4915,7 @@ Desitjós d'entaforar-me per la ciutat
 Desitjós d'esgarriar-me pels seus carrers
 Despatxem, que per això havem nascut
 Després aixeca al cel, enorme, l'embanyada testa.
+Després al matí té son.
 Després d'això, recordo que em vaig despertar amb un sobresalt
 Després d'algunes depuracions necessàries, es va orientar vers una sort de rigor absolut.
 Després d'amollar-ne cinc de ben pudentes, encara mantenia el to mofeta.
@@ -5006,6 +5020,7 @@ Digue'm la lectura actual.
 Digue'm la llista de tasques pendents.
 Digue-li a la Ramona que el dinar és a taula.
 Digue-li al Pere que el sopar és a taula.
+Digues al meu pare que no tornaré tard.
 Digues alguna cosa!
 Digues què sents o aquests silencis et faran mal tota la vida.
 Digues-ho com vulgues, però dis-ho: t'estime, t'estimo, t'estim.
@@ -5077,6 +5092,7 @@ Diu moltes altres beneiterïes de les quals jo no sé ni molt ni poc.
 Diu que començaran de seguida.
 Diu que demà plourà i baixaran les temperatures.
 Diu que es vol comprar un forn nou.
+Diu que té gana.
 Diu que té una filla de pasta de moniato.
 Diu que vol anar a vendre rosquilletes i pastissets.
 Diu que és paella però de veritat és arròs a la cassola.
@@ -5213,6 +5229,7 @@ Déu me perdó!, he fet les meves provatures en vers i en prosa.
 Déu meu, pare! No us queixeu d'aquesta manera, perquè tothom ho sap.
 Déu n'hi do, de pitjors se'n crien
 Déu n’hi do quin reguitzell! N’hi ha per a llogar-hi cadires!
+Déu vos dongui molts anys de vida.
 Déu és la substància infinita, creadora de la substància pensant i de l'extensa.
 Dóna més llum.
 Dóna'm el temps de convèncer-te, amb mil i mil proves.
@@ -5267,6 +5284,7 @@ El Morell es troba al Tarragonès
 El Palau d’Anglesola es troba al Pla d’Urgell
 El Panxo li diu al Pinxo: vols que et punxe amb un punxó?
 El Papiol es troba al Baix Llobregat
+El Paraulògic d'avui té només una vocal.
 El Pare Vidal, endolat, s'ho mira des de la Riba.
 El Passeig de Sant Joan també s'havia mort, com les avies
 El Perelló es troba al Baix Ebre
@@ -5290,6 +5308,7 @@ El Turuta mal tocat provoca migranya i meteorismes.
 El Vendrell es troba al Baix Penedès
 El Vilosell es troba a les Garrigues
 El balanç no en tenia d'era.
+El balcó del carrer estava obert de bat a bat.
 El ballador, al seu torn, convidava la balladora a un got d’orxata.
 El baricentre es pot definir en les matemàtiques amb coeficients negatius.
 El bateig va ser com sempre: a Sant Cugat
@@ -5367,6 +5386,7 @@ El cost de la vida era encara extremadament baix
 El cosí de la Cristina.
 El cotxe en un moment va ser ple
 El cotxe hi era a la porta, i els cavalls també
+El cotxe no era un sol cotxe eren molts.
 El cotxe no era un sol cotxe, eren molts
 El cotxer va preguntar si tenia de baixar algú
 El creixement bacterià segueix tres fases: primera, segona i darrera.
@@ -5547,6 +5567,7 @@ El metge havia desaparegut
 El metge havia dit que no ho sabia ni ho podia assegurar
 El metge i els infermers se n'havien anat
 El meu amic i jo ens vam esmunyir cap al seu hotel
+El meu amor viu a Tolosa.
 El meu avi va aprendre a resoldre integrals múltiples mentre s'eixugava el cul
 El meu cap és com un bebé, crida i em desperta cada mitja hora.
 El meu cor, com a defensa, recolza en l'agraïment que et dec.
@@ -5668,6 +5689,7 @@ El present número no presenta cap contingut referent a temàtica o autor local.
 El president del Govern actual és Xavier Espot Zamora.
 El primer bany des de feia sis setmanes.
 El primer d'anar-hi va ser l'avi, el fundador de la casa
+El primer diumenge que va fer bo, tots érem al terrat-
 El primer llançament va ser a l'octubre del dos mil-quatre
 El primer matí tot va bé.
 El primer pecat meu és l’orgull: he tingut un rei al cos.
@@ -5991,6 +6013,7 @@ Ells eren tardans en el pensar, però eren actius en el resoldre.
 Ells, els acusadors, com dic, han dit ben poc o res de veritat.
 Ells, fort castell de la pàtria, fan la independència als penyals del Montcabrer.
 Els Alamús es troba al Segrià
+Els Catarres han tret un nou disc.
 Els Garidells es troba a l’Alt Camp
 Els Guiamets es troba al Priorat
 Els Hostalets de Pierola es troba a l’Anoia
@@ -6064,6 +6087,7 @@ Els ceretans o cerretans foren un poble iber de la zona dels Pirineus.
 Els cigarrets ens van anar de primera.
 Els cims més alts, per naturalesa, atrauen els raigs.
 Els clavells s'incendien, per imitar-te, quan tu passes per davant.
+Els coloms eren els amos del pis quan jo era fora.
 Els colps ja no fan mal, oi Simó? Si posares el cos en acció...
 Els combatents no es movien de darrere llurs barricades
 Els combatents no es movien de llurs edificis
@@ -6268,6 +6292,7 @@ Els llibres no supleixen la vida, però la vida tampoc supleix els llibres.
 Els llits del riu que seguen eixe mur són les portelles.
 Els llocs inoblidables enamoren, també els moments, però jo em quede amb les persones.
 Els llogarets medievals se situaven al voltant d'un castell.
+Els llums de l'arbre d'aquest any fan pampallugues.
 Els macarrons d'avui porten carn?
 Els magatzems es buidaven per omplir altres magatzems
 Els mags eren els sacerdots del zoroastrisme, religió dels perses, que no vivien lluny.
@@ -6308,6 +6333,7 @@ Els més savis s'equivoquen, i en coses de més transcendència.
 Els més significats dels circumstants varen acostar-se a l'orador
 Els negociants a l'engròs casi tots vivien en pisos
 Els nens havien d'anar disfressats a l'escola.
+Els nens no eren elloc.
 Els nens s'ho han passat prou bé.
 Els nespres són fruita de primavera.
 Els nins, formant un cor, cantàvem acompassats.
@@ -6560,6 +6586,7 @@ En Joan va arribar ahir.
 En Joan és qui remena les cireres en aquella associació. Parla amb ell.
 En Josep Rodon arribà al portal de Llotja
 En Malsang és mort!
+En Martí ja fa una bona estona que dorm.
 En Martí m'ha dit que l'entrepà era molt bo.
 En Màrius Serra ens ha donat un bon cop de mà.
 En Pedrals no fa mai cap rima en fals.
@@ -6692,6 +6719,7 @@ En el neolític apareixen restes.
 En el nostre bàndol, de canons, simplement, no n'hi havia.
 En el nostre edifici no teníem queviures
 En el nostre sector de la línia no passava gairebé res.
+En el picaportes hi havia lligat una gran llaçada negra.
 En el pot de llanda posaren tomaca i encisam.
 En el rec ple a vessar les rates neden sorollosament, com llúdries
 En el regne confús de la niciesa retrògrada no hi cabem, nosaltres.
@@ -7252,6 +7280,7 @@ Es demanava de no tenir un tros de mirall
 Es despacientava en la soledat de les boscúries.
 Es dispara estirant un cordill
 Es disposaven a tallar-nos el subministrament d'aigua
+Es disputen la custòdia de les nenes.
 Es distingeix de la concepció clàssica de joc per la negació del caràcter lúdic.
 Es diu llavors que està escrita "abreujadament".
 Es divertien muntant-los fins a rebentar-los.
@@ -7362,6 +7391,8 @@ Es va dormir com dormia sempre: sense pena ni alegria.
 Es va fer càrrec de la situació amb una sola mirada
 Es va instal·lar a una masia de Sant Martí de Riudeperes.
 Es va marcar indeleble en la de la filla.
+Es va posar a ploure a bots i a barrals.
+Es va posar a vendre botons i lligacames de senyor.
 Es va posar el mocador al cap
 Es va quedar amb la boca oberta, empomant els nous aplaudiments dels espectadors.
 Es va resoldre a cop calent de repintar la botiga.
@@ -7380,8 +7411,10 @@ Es van negar en redó a cedir a les exigències.
 Es van presentar voluntaris per portar a terme l'atac
 Es van produir canvis importants en ella.
 Es van quedar enraonant amb una colla de senyors i de criats.
+Es van separar a l'estiu.
 Es varen acomiadar de la mare, que plorava d'alegria
 Es varen quedar amb aquest xasco.
+Es varen separar després de més de seixanta anys de matrimoni.
 Es varen tornar a mirar pera donar-se un darrer repàs
 Es veia ben clarament que tenia ganes de dir-lo
 Es veia bé que aquell tema li havia tocat al viu.
@@ -7455,6 +7488,7 @@ Espere que atenga a raons millor que tu.
 Esperem que puguem fer els assaigs a l'auditori.
 Esperem que tinguem un bon dia.
 Espereu-se, perquè això no acaba aquí.
+Esperi's, va dir la senyora rient.
 Espinelves es troba a Osona
 Espiritualisme: l'ànima, immortal, seu del pensament, és l'essència de l'ésser humà.
 Esplugues de Llobregat es troba al Baix Llobregat
@@ -7572,6 +7606,7 @@ Et bastonejaré, si enraones! Que no vols callar?
 Et demano explicacions i tu fuges d'estudi explicant-me unes altres coses.
 Et formule la següent qüestió: què és la maièutica socràtica?
 Et miraven als ulls i et tractaven de «camarada»
+Et molesta si et truco?
 Et penedeixes de l'estimació que em portes?
 Et penses d’ésser molt lletja i tu estàs molt enganyada.
 Et penses que em xuple el dit?
@@ -7658,6 +7693,8 @@ Fa rac el rec del ric si el roc del ruc li cau damunt.
 Fa semblar bona la mala causa, i ensenya tot això als altres.
 Fa tant de temps que ens té sotmesos la seua avarícia insuportable!
 Fa tres dies que tinc molt mal de panxa.
+Fa tres hores que caminem i començo a estar cansada.
+Fa una fortor insuportable.
 Fa una setmana ja d’aquell dia que marcarà les nostres vides per sempre.
 Fa una setmana que dormo molt poc i ja començo a fer ulleres.
 Fabregat expulsava el valencià.
@@ -7678,6 +7715,7 @@ Fan un clotet entre els matacans de les voreres, vora la paret.
 Fan un soroll que el cor encisa; qui podrà oir la xiscladissa?
 Fan una parella ben estranya. Semblen sant Antoni amb el porquet.
 Fan ventades tan coents com unes pestetes, però a vegades també s'espolsen caguetes.
+Farem nit a un hostal de Ripoll.
 Farem tard si no t'afanyes.
 Faria un casament senzillet, però que no hi faltés cap requisit.
 Farina, la que admeta.
@@ -7888,6 +7926,8 @@ Gairebé des del primer moment els queviures escassejaven
 Gairebé en el punt on el fusell havia fet la fogonada
 Gairebé li feia pena veure's amb un trajo com el que duia
 Gairebé literalment res
+Gairebé no hi vèiem i era el començament de la tarda.
+Gairebé sempre fem tard.
 Gairebé totes les botigues eren obertes
 Gairebé totes les esglésies havien estat saquejades
 Gairebé tothom ho fa, almenys una vegada.
@@ -8031,6 +8071,7 @@ Harris, com de costum, era partidari de la mar.
 Has anat a consultar un advocat maco.
 Has comptat a quin preu ens surt cada pruna que mengem?
 Has d'anar a comprar i posar la rentadora.
+Has d'endreçar les joguines abans de sopar.
 Has de dur la nena al cau.
 Has de fer la declaració de renda.
 Has de pagar els impostos de l'ajuntament.
@@ -8176,9 +8217,11 @@ He estat avar, mai he tingut de sobra, sempre he anat per més.
 He estat jo que m'he acabat tota la coca.
 He fet coques de llanda.
 He fet el que he volgut, lliure tothora, amb elefants o sense.
+He fet endreça a la cuina.
 He intentat fer la reserva per Internet però no ho he aconseguit.
 He menjat macarrons per dinar.
 He mirat pertot arreu.
+He mort el llop!
 He parlat perquè em pregunta, però ja sabent que no m'entendria.
 He pencat molt amb aquest temari, però em costa pair-lo.
 He quedat al Bar Terra aquesta setmana?
@@ -8212,7 +8255,9 @@ Hem de tenir present, entre altres peculiaritats, la visió de la societat que p
 Hem estat tres hores caminant i hem arribat esgotats.
 Hem fet bé mantenint els tresors de la pintura clàssica?
 Hem menjat arròs amb ou ferrat.
+Hem passat el dia a Banyoles.
 Hem passat mig estiu dins la piscina i l'altre mig a la muntanya.
+Hem posat piles al llumet.
 Hem pujat al Tossal del Moro i després hem anat a la Mallada Verda.
 Hem quedat a dos quarts d'onze a la plaça de les Cols.
 Hem sentit a dir que és una cosa molt poètica
@@ -8247,6 +8292,7 @@ Hi ha encara una munt de gent sense vacunar a Catalunya
 Hi ha entitats que treballen a les zones de guerra.
 Hi ha evidència que els fòssils de plantes terrestres més antics ja presentaven micorrizes.
 Hi ha exemplar que costa un ull de la cara.
+Hi ha hagut disset morts i quinze ferits.
 Hi ha hagut un populisme retrògrad, interessat des de dalt, a mantenir el quietisme.
 Hi ha hagut un sotrac en l’ètica i la moral puritanes?
 Hi ha homes amb esguards que fulminen, tal com el raig penetra carn viva.
@@ -8332,6 +8378,7 @@ Historietes que són versions corregides i augmentades pel nostre albir.
 Històricament, el Port d'Alacant hi ha estat íntimament lligat.
 Ho allunyen dels ulls del món com una misèria.
 Ho amaguen a la vista del proïsme
+Ho comparteixo amb vosaltres per si fos d'interès.
 Ho compensava amb els meus progressos amb la moto.
 Ho cregues o no, tinc la intenció de raonar amb tu.
 Ho depositarem al centre de la peça.
@@ -8472,6 +8519,7 @@ I ell ens vol donar consells? Si és un pelacanyes.
 I ell li troba un sentit a l'enigma que no el deixava existir.
 I ell n'era del tot de neutral
 I ell, per caçar, encisat, té el temps, l’eternitat.
+I els arbres eren garrofers.
 I els fruiters? No t'agraden els fruiters?
 I els teus follets? I els meus palaus esmaltats d'estrelletes?
 I em responia a mi mateix i a l'oracle que valia més això.
@@ -8497,6 +8545,7 @@ I havia ocupat diversos punts estratègics
 I hem de fer la barraqueta, a voreta de la mar.
 I ho saps lo que em vas contestar?
 I ja saps, Felons, que jo sóc generós.
+I ja veuen ella ha estat la primera.
 I jo faig la juguesca que cap persona enraonada l'aprovarà.
 I jo també vull dir-vos una cosa a tots dos.
 I jo, filleta meua, vull que et cases, si no et sap greu.
@@ -8752,6 +8801,7 @@ Ja estava cuita de pentinar-se a les palpentes.
 Ja estava decidit.
 Ja estava decidit. La meva sort ho volia.
 Ja estic una mica fart d'aquesta conya.
+Ja fa anys que vaig deixar de llegir-lo.
 Ja fa vint-i-cinc anys que sols es disfressen xiquets xicotets.
 Ja feia dies que tothom s'ho esperava
 Ja feia un mes que no gastava mitjons
@@ -8760,6 +8810,7 @@ Ja ha arribat al poble el dia de fira.
 Ja ha arribat l'hora de penetrar en el verger.
 Ja has gravat unes quantes frases, avui?
 Ja has llegit les teves frases, avui?
+Ja has trobat el tutti del Paraulògic?
 Ja havia començat a donar proves
 Ja havien acabat, i ara, què havien de fer?
 Ja havien emprès la marxa, am les trampes i els ganfarons
@@ -9398,6 +9449,7 @@ Jo estampille, esgrame, escenifique, escaire, empresone, interdic
 Jo estava convençut que no dispararia
 Jo estelle, judaïtze, fuig, gorrege, efectue, embolcalle
 Jo estenalle, erigisc, enfurie, esplomisse, ensagne, enllestisc
+Jo estic per la llibertat.
 Jo estigmatitze, escogule, esquie, efigie, llengüege, engome
 Jo estime, enfulle, entreteixisc, hispanitze, enjonque, inscric
 Jo estipendie, esbargisc, m'esparpelle, lladronege, entortolligue, engaste
@@ -9867,6 +9919,8 @@ Jo sobresembre, muny, subdelegue, vare, tiranitze, retire
 Jo sobreteixisc, ventalle, tupe, mestressege, ressorgisc, palanquege
 Jo sobrevalc, trone, revinc, mahometitze, reaccione, recolonitze
 Jo sobrevisc, parifique, recalque, pompege, perfume, saltege
+Jo soc el padrí, i jo pago.
+Jo soc vell i aquí som molts que ho som de vells.
 Jo sole, tetanitze, relate, restolle, quarantege, rellepe
 Jo solemnitze, venere, recloc, recórrec, sobrenomene, perpetue
 Jo solia seure allà dalt
@@ -10009,6 +10063,7 @@ José Antonio prové de Santa Pau
 Juan és natural de Santa Maria d'Oló
 Juana és carnissera
 Jugar a cartes? I qui en portava de cartes
+Jugaven a empaitar-se.
 Juià es troba al Gironès
 Juncosa es troba a les Garrigues
 Juneda es troba a les Garrigues
@@ -10112,6 +10167,7 @@ L'arribada dels àrabs va trencar amb el desenvolupament històric anterior.
 L'arròs era bo i va complimentar a la minyona.
 L'arròs queda més bé sense tomàquet al sofregit.
 L'art integral, de què n'ha parlat tant, no pot realitzar-se.
+L'article parla de l'impacte de la jornada continuada.
 L'artilleria és el factor determinant en els combats de carre
 L'artista, quan pinta, somia, te els seus ideals
 L'aspecte de Barcelona resultava espalmador i aclaparador.
@@ -10131,6 +10187,7 @@ L'avantguarda dels Estats Units es troba aïllada des del punt de vista ideològ
 L'avesar-se costa molt, però el desvesar-se encara més
 L'avi la veu que val, i val.
 L'avi llençava el fum a bocades i feia uns cercles prou precisos.
+L'avi s'ho estava mirant enternit
 L'avidesa amb què cercàvem la llenya ens convertí tots en veritables botànics.
 L'avió va arribar amb dues hores de retard.
 L'avorriment, la calor, el fred, la ronya, els polls, les privacions
@@ -10168,6 +10225,7 @@ L'escassetat de pa era realment greu.
 L'escassetat de tabac era el pitjor de tot.
 L'escena passa a Benimarfull a casa de l'Harpagon
 L'esclat de la cultura moderna n'és el producte.
+L'escorça cau a trossos.
 L'escultura de l'Home de la Manta és un dels símbols de Bocairent.
 L'esforç d'Aguiló no va ésser balder, tampoc la captació dels dos poetes.
 L'església silenciosa i negra esdevenia plena de cridòria
@@ -10208,6 +10266,7 @@ L'expressió del seu rostre em va impressionar profundament
 L'extravertit és sociable i tendent a allò extern.
 L'extrem de la seua separació i impotència recíproca.
 L'extrem oriental de la plana té un sòl agrícola molt ric.
+L'exèrcit rus ha bombardejat un hospital infantil.
 L'han tret d'una escaparata.
 L'has poguda ginyar de venir?
 L'havia ferit, sortosament no de gravetat.
@@ -10215,6 +10274,7 @@ L'havia fet un aficionat a fer bancs
 L'havia tingut vuit dies sense deixar-lo ni un moment
 L'havien d'alimentar per via intravenosa.
 L'havien deturat dues vegades per exigir-li la documentació
+L'he buscada pertot, però no l'he trobada.
 L'he trobada a dins del calaix de les samarretes.
 L'herba treia els brins per entre les llombardes del carrer.
 L'hereu Bosch me l'està birlant: la Celina es casarà amb ell.
@@ -10405,6 +10465,7 @@ La Rambla era plena de gent
 La Renaixença valenciana anava quallant per l'esforç dels poetes i escriptors entusiastes.
 La Riba es troba a l’Alt Camp
 La Riera de Gaià es troba al Tarragonès
+La Rita estava asseguda a terra amb un colom a la falda.
 La Roca del Vallès es troba al Vallès Oriental
 La Secuita es troba al Tarragonès
 La Selva de Mar es troba a l’Alt Empordà
@@ -10586,6 +10647,7 @@ La funció de condicionament físic depèn sempre del problema.
 La funció del públic, si no passiu tot just figurant, ha de disminuir sempre.
 La fusta es caracteritza pel seu duramen de color rosa.
 La fúria dels italians havia recaigut en la població civil
+La galeria era plena de coloms.
 La gallina al ponedor, i els ous al senyor rector!
 La gata i els gatets cercaven un aixopluc per passar la nit
 La geganta d'Alcanar fa riure
@@ -10664,6 +10726,7 @@ La llengua d'aquells forts que acataren els reis.
 La llengua vernacla havia sigut llançada pels finestrals dels edificis públics.
 La llenya era l'única cosa realment important.
 La llevadora havia assegurat que seria un bordegàs
+La llevadora havia assegurat que seria un bordegàs.
 La llevadora, amb uniforme de bateig
 La llibertat no és res més que una oportunitat per ser millor.
 La llibertat és un hàbit, i no resulta gens fàcil d'adquirir.
@@ -10680,6 +10743,7 @@ La lluna ho marcava.
 La lluna, la pruna, vestida de dol, son pare la crida, sa mare no...
 La lluna: gros òrgan ullal.
 La lluneta és ma padrina, em fa un cos i una camisa.
+La llúdriga es va amagar al seu cau.
 La longitud dels pantalons varia i pot arribar fins al genoll.
 La línia de foc passava a través d'horts i fruiterars abandonats
 La mainada jugava al pati sense mascaretes per primera vegada en mesos.
@@ -10737,6 +10801,7 @@ La meua naturalesa no em constreny, més aviat soc lliure i indefinit per sempre
 La meua passió no vol escoltar res, et pregue que no em faces reflexions.
 La meua profe d’anglès es deia “Teacher”.
 La meua ànima de somnis i de desitjos plena, serà amor el que sent?
+La meva amiga ho sap perquè el meu fill li ho explica.
 La meva centúria dormia en un dels estables
 La meva colla d'amics és la millor.
 La meva companyia fou enviada en camió cap a ponent
@@ -10744,6 +10809,7 @@ La meva dona em va dir que no havia tingut cor per despertar-me
 La meva dona havia vingut des de l'hotel
 La meva dona m'esguardà voluptuosament i em digué: a fer el sopar gandul
 La meva exasperació assolí de vegades el nivell de l'enfuriment.
+La meva germana és molt trapella.
 La meva història és la més completa.
 La meva mare ha tornat a comprar iogurts.
 La meva millor amiga ha perdut el marit fa poc.
@@ -10810,6 +10876,7 @@ La padrina li encarregava que sobretot no es comprometés
 La parada són dos contra dos, van sempre a pegar-li-la als contraris.
 La paraula "reixos" té una gran tradició a tota l’àrea del català occidental.
 La paraula consciència al·ludeix a aquest cuquet que ens diu què està bé.
+La paraula d'avui del Worlde és "riera".
 La paraula moniato la utilitzem també com a insult.
 La paraula moniato, procedeix del castellà boniato.
 La paraula santa apaivagava nostres brogits.
@@ -11211,6 +11278,7 @@ Les generacions noves volien penetrar en la Casa pairal del Senyor.
 Les gotes grans són esclafades per la resistència de l'aire mentre cauen.
 Les granotes blaves havien gairebé desaparegut
 Les granotes s'aparellaven sorollosament en les basses
+Les guerres no serveixen per a res de bo.
 Les havia pintat el mateix amo: el del barret de mosqueter
 Les herbes de Turull, entren per la boca i ixen per... sis euros.
 Les hores de dormir marcaven el temps que havia passat
@@ -11329,8 +11397,10 @@ Les xarades l'entretenien però el deixaven fred
 Les xicones de Xixona s'han comprat una romana.
 Les zones franques són aquelles amb beneficis tributaris.
 Li agafà un atac que li impedí acabar-la.
+Li agradaria tenir un jardí?
 Li agradaria tenir un jardí?—li va insinuar ell, atrevint-se.
 Li agradaria? Seria lletja? S'assemblaria a l'estàtua?
+Li agradava molt el cafè.
 Li agradava també a n'ell tenir torra
 Li agradava tant com a n'ella, però...
 Li anaven venint a la memòria, com una corrua de mals esperits
@@ -11390,7 +11460,10 @@ Li va dar la clau i van començar a n'el jardí
 Li va entrar un desig irresistible de tocar aquella vermellor
 Li va estrènyer la ma, commogut
 Li va fer tallar els cabells
+Li va fer un petó.
+Li va posar l'anell, i ella el va pendre.
 Li va posar l'anell, i ella el va prendre.
+Li va preguntar l'esculptor.
 Li va replicar a banderes desplegades.
 Li va respondre a la babalà, sense pensar-s'hi gaire.
 Li va semblar que hi havia una que estava assentada
@@ -11697,6 +11770,7 @@ Mai he pogut sofrir que algú em manara: feia la llei a tot Déu.
 Mai he vist una persona més ximple, més inoportuna, més impertinent.
 Mai jutges el llibre per la pel·lícula que s'hi basa.
 Mai l'autoritat no podia descobrir el matador.
+Mai les lletres eren més que lletres per tots aquells amics d'estudi
 Mai les lletres eren més que lletres per tots aquells amics d'estudi.
 Mai ningú ha aconseguit la grandesa fent petits els altres.
 Mai ningú malalt en aquell triunvirat de pare, mare i fill
@@ -12068,6 +12142,7 @@ Més d'un milió de persones han fugit de la guerra.
 Més de lo que vostè es pensa hi miro.
 Més ell, encegat amb la seva dèria, no s'adonava de res.
 Més encara que els seus mateixos subordinats
+Més endavant em farien un cobert per deixar les meves coses.
 Més endavant, ja a cavall entre els dos segles: Martí Gadea, Altamira i altres.
 Més endavant, un jovenet de la cavalleria de milícies corria amunt i avall
 Més endins, es passava un corredor fosc
@@ -12451,6 +12526,7 @@ No ho he sentit dir mai a ningú.
 No ho oblideu: sense contraris no hi ha progrés.
 No ho sé;
 No importa que els altres no ho entenguen.
+No jo tinc paciència per aquestes coses.
 No jugues, passes temps amb els nens, no ens pegues. Quina sort que tinc!
 No jutges amb massa duresa les accions del teu passat.
 No jutgis ningú per la seua aparença.
@@ -12462,6 +12538,7 @@ No la coneixia a penes la naturalesa.
 No les veig.
 No li agradava que mai passés res, ni bò ni dolent
 No li agradaven els llocs tristos
+No li estranyi, va dir una de les veïnes.
 No li facis cas que és un beneit del cabàs.
 No li faltarà seguici i tindrà prou a rascar.
 No li havia pujat al cap, no li havia donat influes
@@ -12644,6 +12721,7 @@ No suporto Imagine.
 No suporto aquesta superioritat moral que gasta el xiquet.
 No suporto el country!
 No surtis de casa sense rentar-te la cara.
+No sé a què jugues.
 No sé com actuar a la meua edat: mai no l'he tinguda.
 No sé com dir-li. És a dintre del pensament.
 No sé com fou esmentada la meva condició d'estranger.
@@ -12661,6 +12739,7 @@ No sé si per aquí anem per bon camí.
 No sé si podrà rebre'l.
 No sé si tindré el coratge de fer-li aquesta confidència.
 No sóc el caçador que s'ha perdut entre sols incipients, entre torres caigudes.
+No són llamineres les oques.
 No són poques les relacions de semblança entre tots tres pensadors de la sospita.
 No s’atreveixen a fer-ho al Principat. Però és qüestió de temps.
 No t'adones de fins a quin punt t'estaves asfixiant.
@@ -13059,6 +13138,7 @@ Parle al més ampli abast i mitjançant una llengua en situació d’accentuada 
 Parle des del punt de vista de la configuració de la personalitat infantil.
 Parle segons les bases, normes o regles que té establides a tal efecte.
 Parle... parle amb el meu magí.
+Parles molt bé van dir les Maries.
 Parleu amb el vostre accent però llegiu escrupolosament el text que tingueu al davant.
 Parleu d'amor, i em pense que no sabeu la meua pena.
 Parlo en la llengua que m’ha donat la terra aspra.
@@ -13068,6 +13148,7 @@ Parteix d'una aplicació poètica de la psicologia freudiana.
 Partint d'un punt zero s'estenen fins al límit superior de la manifestació.
 Partisc d'un punt zero i després m'estenc fins al límit superior.
 Pas a pas va encaminar-s'hi
+Passa a buscar-me sortint de la feina.
 Passa i es perd al lluny... La boirina de Juny cenyeix l’horitzó immòbil.
 Passa l'aspiradora pel menjador.
 Passa sense ésser vist per davant les multituds indiferents
@@ -13143,6 +13224,7 @@ Penelles es troba a la Noguera
 Penes amb pa, fan de bon passar.
 Pengen les arracades sota les arcades de les palmeres.
 Penjant d'aquest coll silvestre, aquesta esquella sonora la portaràs tothora.
+Penjaven gotes de pluja pels filferros d'estrendre la roba.
 Penjaven troques de cotó, blanques, grogues, blaves...
 Pensa a trucar a la Sònia, que avui és el seu aniversari.
 Pensa bé de tothom i no et fiis de ningú.
@@ -13643,6 +13725,7 @@ Pets, rots, mocs, llufes i gargalls, cagarrines de les fines, ensaïmades de cav
 Petxines que un instant surten de l’ona per retornar al fons.
 Peus suats i nassos bruts. Bon remei pels geperuts!
 Picaina, redéu Picaina, quina aigua cau!
+Picaven les baranes i menjaven l'arrebossat.
 Piera es troba a l’Anoia
 Pilar prové de la Masó
 Pilar és grangera
@@ -14092,6 +14175,7 @@ Quan parlava, tothom s'adonava que era valenciana.
 Quan parle, es nota que som mallorquí.
 Quan parlem, es nota que som mallorquins.
 Quan passa el viure, a viure!, sense regatejar-hi un banc
+Quan passaràs a veure'ns?
 Quan passes per Miramar igual t'envien a... cavar.
 Quan per sempre s’hauran clos, vindran els cucs i se'n faran pastura.
 Quan pose els seus noticiaris em tornen les ganes de col·laborar ací novament.
@@ -14164,6 +14248,7 @@ Que aprengui poc, sobretot...
 Que aquestes fogueres que València ha encés la nit de Sant Antoni es transformen!
 Que botifarra tan seca que no li puc traure el suc!
 Que bé ha parlat! Vaja home sabut! Eixe home sí que és un talent!
+Que bé que s'hi està a la botiga!
 Que com anem? Vaig fent la viu-viu.
 Que comence el vals quan vulga, que l'orquestra està afinada.
 Que comencés la gresca, d'un moment a l'altre
@@ -14266,6 +14351,7 @@ Que vas per això i allò i allò altre
 Queda't amb qui es va quedar quan ni tu mateix hi eres.
 Quedant-li temps de fer campana i d'anar a córrer a fer gatzara.
 Quedem a les deu en punt al bar de baix de ta casa.
+Quedem un dia?
 Queden trossos de pastisset de moniato.
 Quedà enmig tanta fetor que es despertà amb xafogor allò que el fred adormia.
 Quedà sorprès de la quietud que regnava en aquell gran palau.
@@ -14342,6 +14428,7 @@ Quin fum fa? Fa un fum fi.
 Quin goig se'n pot treure del viure sinó
 Quin goig tan estrany el d'anar caminant
 Quin horari fan a l'ajuntament de Reus?
+Quin jardí més mal endreçat.
 Quin nas és el darrer que coneix la sentor a carn o a peix?
 Quin paio, aquest Ramon.
 Quin paper que represente cada dia per fer-me'n amic!
@@ -14408,6 +14495,7 @@ Quina relació s'estableix al text entre la identitat personal i la memòria?
 Quina relació tenen?
 Quina sensació més agre-dolça, la de vagar a l'atzar
 Quina seria la ruta més ràpida per trobar una biblioteca?
+Quina sèrie em recomanaries?
 Quina sèrie em recomanes?
 Quina temperatura voleu?
 Quina temptació per a un novel·lista!
@@ -14509,6 +14597,7 @@ Què hi ha pendent?
 Què hi ha per fer?
 Què hi podia fer allí cada vespre?
 Què hi venim a fer en aquest món
+Què li sembla com va el món?
 Què més bellesa que la veritat, si la veritat les conté totes?
 Què no et donin gat per llebre.
 Què passa quan el jo no pot resoldre mitjançant l'acció conscient els conflictes?
@@ -14531,6 +14620,7 @@ Què tinc apuntat per dissabte al vespre?
 Què tinc programat fins les set?
 Què va dir la iguana a la seua germana bessona? Som iguanetes!
 Què val que m'haja tret una enganyosa sort?
+Què vareu menjar?
 Què vau fer la setmana passada?
 Què vau fer per Carnaval?
 Què voleu fer-hi quan el geni no va acompanyat de voluntat?
@@ -14754,6 +14844,7 @@ S'acabava de fusionar amb una altra més gran.
 S'acontentava amb escriure un parell de mots en un paper
 S'adormien estintolats contra el mur de la trinxera.
 S'agenollà i començà a disparar per damunt la barricada
+S'aixecaven com una onada de llampecs.
 S'ajupia a satisfer-los puntualment les contribucions que li imposaven.
 S'alcen al cel quatre palmeres; el vent, batent ales lleugeres.
 S'anava acostant amb lentitud adolorida.
@@ -14771,6 +14862,7 @@ S'endinsava en les pàgines d'algun diari local.
 S'endossà el guardapols, encengué una cigarreta.
 S'enduien l'alegria i el rebost
 S'endurien la minyona, l'arròs, la cassola, el pollastre i l'enciam
+S'enfada quan li dic que és un ganàpia.
 S'enfilava a en els pedrissos, i arribava brut a casa
 S'enfilava cap al bosc o bé baixava al torrent
 S'esmunyia cap a un reco fosc
@@ -14785,6 +14877,7 @@ S'estimarien més la felicitat de les filles que tots els diners del món.
 S'estrella contra l'egoisme estúpid de les multituds.
 S'estàn asseguts a coberta contemplant les ones que passen
 S'estén més enllà de la gent de dretes o dels novel·listes.
+S'ha acabat totes les llenties i encara té més gana.
 S'ha activat el microones.
 S'ha activat el volum automàtic.
 S'ha activat l'opció predeterminada.
@@ -15192,6 +15285,7 @@ Sempre anaven plegades, i sempre vestien igual
 Sempre arriba a taula parada i no fa ni un brot.
 Sempre contradictoris a causa de la censura de la premsa
 Sempre convé no mamar-se el dit més del compte.
+Sempre duida mitges blanques i sabata negra.
 Sempre el tornava al seu lloc sense equivocar-se de capça.
 Sempre em preguntava què se sentia.
 Sempre em recordaré de la graciosa escena que va passar a casa.
@@ -15313,6 +15407,7 @@ Servia més pels seus comptes que pera fer-hi comptar els deixebles.
 Servien uns quants centenars de refugiats alemanys
 Serà aleshores quan entendràs que no ha estat aquest últim colp.
 Serà fina? Ja ni fa res!
+Serà noi, serà noia?
 Serà temps perdut el que passeu esbrinant quines històries són més mentida.
 Serà un altra vegada,va dir ell. Ben mirat era un gasto inútil.
 Serà un sentiment a què el subjecte s'exposarà amb coneixement de causa.
@@ -15619,6 +15714,7 @@ Si veig que s'hi oposa, estic resolt a marxar lluny d'ací.
 Si veig que s'hi oposa, me n'aniré lluny d'ací.
 Si veu que fracassarà, traga forces de flaquesa, unfle bé i amolle la presa.
 Si vius per ací, és impossible no haver sentit mai aquesta frase.
+Si vol pagui'n la meitat així hi haurem contribuït tots dos.
 Si volem organitzar la festa en un avió, primer l'haurem de planejar.
 Si volen dir això, confesso que sóc un orador, però no pas com ells.
 Si volia conservar aquella primera impressió que m'havia causat
@@ -15925,6 +16021,7 @@ Són il·lusions caigudes de tants i tants senyors
 Són inconscients els estats en què un individu no és amo de si mateix.
 Són l'esquer dels lladres i es el primer que busquen.
 Són les populars "picadetes".
+Són les vuit i cinc del matí.
 Són les xiques de Callosa les més afables del món.
 Són merament administratives sense autonomia pròpia; alhora, tenen divisions menors.
 Són màquines de dir-ne
@@ -15966,6 +16063,7 @@ S’havia fet massa tard i havia de tornar al local.
 S’havia tornat com ells.
 S’omplin de fang fins els nassos.
 T'adones quanta pau hi ha dins i ja no vols bregar mai més.
+T'agrada aquesta figura?
 T'agrada ballar?
 T'agrada el jazz?
 T'agrada la música?
@@ -16189,6 +16287,7 @@ Tenia un corcó tant gran, i tant remordiment de consciencia
 Tenia un nóvio, qui, per Nadal, li va regalar un pollastre blanc i negre.
 Tenia un posat agredolç d'indignació.
 Tenia un posat tant serio, tant recte, tant reposat
+Tenia un quadro penjat amb un cordill groc i vermell.
 Tenia una certa experiència en primers auxilis
 Tenia una estranya similitud amb un negatiu fotogràfic.
 Tenia una fe cega en el meu esperit d'iniciativa.
@@ -16366,6 +16465,7 @@ Tolman explica la motivació a partir de les expectatives.
 Tombes a través s'enfilaven cementiri amunt.
 Tombo a l'esquerra pel primer carrer que veig
 Tomàs d'Aquino és valorat com un dels màxims representants de l'escolàstica medieval.
+Ton pare no sap el que es fa.
 Ton prové de Gimenells
 Ton prové de Vilafranca del Penedès
 Ton és de Cassà de la Selva
@@ -16565,6 +16665,7 @@ Tots aquests temes els estudie en Biologia molecular.
 Tots arribaven amb una gana que els alçava
 Tots cridaven, tot-hom manava
 Tots dos drets i cara a cara
+Tots dos germans porten vestits de bany blaus.
 Tots dos s'asseien a l'ombra d'un arbre
 Tots els altres eren espies dels comunistes
 Tots els animals són iguals, però alguns animals són més iguals que altres.
@@ -16585,6 +16686,7 @@ Tots els homes s'assemblen per les paraules, i solament pels fets es diferencien
 Tots els idealismes que li passaven pels ulls
 Tots els imprescindibles jauen al cementeri. Tots.
 Tots els inconvenients varen sortir
+Tots els pares d'aquet barri venen per això
 Tots els pares venen per això: per les quatre regles.
 Tots els que duia de la fira comprats amb les economies
 Tots els que es feien torres li venien a dir el mateix
@@ -16678,6 +16780,7 @@ Truca a la Clara i reserva taula al restaurant Aixopluc.
 Truca a la meva amiga Paula.
 Truca a la meva mare.
 Truca a la meva tieta.
+Truca'm quan et vagi bé.
 Truca'm un taxi per anar a l'Hospital Clínic.
 Tu creus que no em preocupen les coses importants.
 Tu deixa’m fer, que jo ja sé de quin peu calça.
@@ -16695,6 +16798,7 @@ Tu que ets tan vividora i que els ulls els tens plens de voluntat...
 Tu què mires, moniato?
 Tu què saps, moniato?
 Tu t'entestes a semblar un marquès, i per a això cal robar.
+Tu també jugues al paraulògic?
 Tu també pots fer-ne algunes, si vols.
 Tu tens alguna dona, no sé a on
 Tu vés fent, que al cul del sac es troben les engrunes!
@@ -16832,6 +16936,7 @@ Un dia podem anar a fer un tast de vins.
 Un dia se li va acudir un gran pensament
 Un dia va equivocar-se de pot
 Un dia va trobar un llibre a sobre mateix del taulell
+Un dia vaig córrer més i no em vaig aturar enlloc.
 Un dia varen venir a exigir-me el secular tribut…
 Un dia, fent el cor fort, vaig ficar-me al riu
 Un dia, tota resolta, va dir a la seva àvia:
@@ -17169,6 +17274,7 @@ Us dic això perquè no interpreteu malament les coses.
 Us faré veure què ha estat el que m'ha dut aquesta anomenada.
 Us ha servit de model una germana vostra?
 Us haig de confessar que no fa per mi
+Us he d'explicar una història que us deixarà sense piles.
 Us ho coneixia amb el posat i els ulls.
 Us persuadien i m'acusaven falsament dient que hi havia un cert Sòcrates.
 Us porte la resposta que m’ha tramès sa cambrera;
@@ -17230,6 +17336,7 @@ Va començar per fugir dels indrets públics
 Va constituir un billar americà que funcionava a pesseta la partida.
 Va contar, el cas que els companys li demanaven.
 Va continuar treballant com si no en tingués de levita.
+Va cridar la llevadora.
 Va cridar un altre, tot trucant a les portes amb un roc.
 Va córrer a ficar-s'hi.
 Va córrer cap a mi i m'engrapà pel braç.
@@ -17364,6 +17471,7 @@ Vaig arribar a posar el terror als mateixos bandolers.
 Vaig arrupir-me darrere una mata, que de sobte em semblà molt petita
 Vaig assegurar-me que tot rutllava
 Vaig comandar, com a tinent,una trentena d'homes
+Vaig començar a buscar els nens fins i tot per sota dels llits.
 Vaig començar a fer-li preguntes, a distingir-lo
 Vaig començar a pensar que ens havíem extraviat.
 Vaig comprendre que algú disparava darrere meu mateix
@@ -17496,6 +17604,7 @@ Vam entrar al refugi d'un salt
 Vam escalar corrent el petit marge
 Vam esperar que arribessin els homes que ens seguien
 Vam estar a Breckenridge, a les muntanyes rocoses.
+Vam fugir deixant unes quantes plomes i ombra.
 Vam passar hores fent tombs en va per la boira
 Vam passar molt de temps omplint totes les piques
 Vam passar seixanta o setanta hores sense dormir
@@ -17641,6 +17750,7 @@ Ves amb compte no t'ennueguis.
 Ves amb compte si vas a Beniflà: no t'envien a fer la... bugada.
 Ves amb compte: em dedicaré sencer a la tasca de destruir-te.
 Ves per on no tenia res a fer aquest matí!
+Ves, fill meu.
 Ves-te'n a pastar fang!
 Ves-te’n a jugar que ta mare i jo hem de parlar.
 Vespella de Gaià es troba al Tarragonès
@@ -17722,6 +17832,7 @@ Vilobí d’Onyar es troba a la Selva
 Vilopriu es troba al Baix Empordà
 Vimbodí i Poblet es troba a la Conca de Barberà
 Vinaixa es troba a les Garrigues
+Vinc d'Alacant, la millor terreta del mon.
 Vinculades, sobretot, al periodisme i que també reberen el qualificatiu de «populars».
 Vindran les veïnes: què diran de mi?
 Vindré l'any vinent a saludar-te.
@@ -17755,6 +17866,7 @@ Viuen molt bé apartant-se tant com poden dels problemes reals de les persones.
 Vius a la Punta però t’hi aïlles.
 Vius gràcies a la confusió ideològica general.
 Viver i Serrateix es troba al Berguedà
+Vivia de vendre castanyes i moniatos a la cantonada.
 Vivia en una botiga tancada
 Vivia per aquelles planes, com a únic paisatge del seu viure
 Vivien en un mateix nivell i en un pla d'igualtat
@@ -17799,6 +17911,7 @@ Volien una cosa perfecta, amb tot lo que han de tenir les torres
 Vols anar a fer un volt?
 Vols anar a prendre una xocolata calenta a aquella granja amb música?
 Vols dir que no en fan pagar més?
+Vols dir que no en tindrem de fills?
 Vols muralles ciclòpies? Jo, Zeus, te les done més grans.
 Vols que mirem una pel·li aquest vespre?
 Vols que t'enviï un correu amb els detalls de l'operació?
@@ -17812,7 +17925,9 @@ Vora seu, estava una esmerla, amb un tal gest, les plomes i el llustre...
 Vos confiaré que he sentit de vegades cert orgull.
 Vosaltres no odieu la gent que es contesta les seues pròpies preguntes? Jo sí.
 Vosaltres tots, gats vells de les lletres i de les taules
+Vostè deu ser d'aquet barri veritat?
 Vostè engiponi-s'ho com vulgui;
+Vostè i jo tenim de parlar.
 Vostè li restitueix la seva única i essencial finalitat
 Vostè mateix rebaixa de categoria l'obra.
 Vostè no sap que la bellesa és inútil?
@@ -18083,9 +18198,11 @@ zoo: "ni furtant-nos els somnis, ni cremant la trinxera... callaran la fera"
 És molt pesat portar els llibres, però ho és més dur criatures
 És molt senzill, tot seguit us indique com fer-ho.
 És molt trist que no es pugui aturar una guerra.
+És més estrany que un gos verd.
 És més fàcil fer mal a una persona estimada que no a una temuda.
 És més gran i prodigiós afegir-hi la formosor dels exemples
 És més important la varietat de veus que enregistrar cent mil talls de veu.
+És més roí que la carn de gos.
 És més senzill comprar les peces a les botigues de roba, sense fer faena.
 És més vell que fer la mili amb llança.
 És nadiu de Brasil. Planta anual herbàcia, o perenne; erecta.
@@ -18165,6 +18282,7 @@ zoo: "ni furtant-nos els somnis, ni cremant la trinxera... callaran la fera"
 És una cosa que en temps de revolució no estranya a ningú.
 És una cosa tan elàstica, que no té preu en cap tarifa
 És una de les poques plantes no lleguminoses que fixen nitrogen.
+És una emotiva història d'amor.
 És una escola multiètnica, amb alumnes d'ací i d'allà.
 És una experiència força estranya.
 És una falsedat! Els qui fan córrer això són uns poca-vergonyes.
