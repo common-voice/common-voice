@@ -28,7 +28,7 @@
     "locales": "file:../locales",
     "lodash.omit": "4.5.0",
     "lodash.pick": "4.4.0",
-    "mysql2": "1.7.0",
+    "mysql2": "2.3.3",
     "passport": "0.4.1",
     "passport-auth0": "0.6.1",
     "prom-client": "11.5.3",
