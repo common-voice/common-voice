@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Шумлык нерген, паша уэ�
 email-opt-in-privacy-v2 = Электрон серышлам наледыме дене келшен, тый Mozilla-н <privacyLink>Шолыплык политикыште</privacyLink> ончыктымо семын информацийым ямдылкалыме дене келшыметым чынлет.
 indicates-required = * Кӱлешан аланым ончыкта
 not-available-abbreviation = А/У
+banner-error-slow-link = Шотлык велыж
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
