@@ -33,7 +33,7 @@
   },
   "resolutions": {
     "browserslist": "^4.16.5",
-    "glob-parent": "^5.1.2",
+    "glob-parent": "^6.0.0",
     "merge": "^2.1.1",
     "minimist": "^1.2.3",
     "serialize-javascript": "^3.1.0",

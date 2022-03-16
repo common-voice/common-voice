@@ -10,7 +10,7 @@
   },
   "resolutions": {
     "y18n": "^4.0.1",
-    "glob-parent": "^5.1.2"
+    "glob-parent": "^6.0.0"
   },
   "scripts": {
     "build": "gulp",
