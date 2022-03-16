@@ -305,7 +305,7 @@ export default class API {
           s3: this.s3,
         });
 
-        return response.status(201).json(job);
+        return response.status(201).json({ id: job });
       } catch (error) {
         console.error(error);
         return response
@@ -529,8 +529,10 @@ export default class API {
   getJob = async ({ client_id, params }: Request, response: Response) => {
     const { jobId } = params;
     const job = await NotificationQueue.getJob(jobId);
+    //job is owned by current client
     if (client_id === job.data.client_id) {
-      response.json(job);
+      const { finishedOn } = job;
+      response.json({ finishedOn });
     }
     response.status(401);
   };
