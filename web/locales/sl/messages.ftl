@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = Prejemajte e-poštna sporočila, kot so o
 email-opt-in-privacy-v2 = S potrditvijo prejemanja e-pošte soglašate z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti</privacyLink>.
 indicates-required = * Zahtevano polje
 not-available-abbreviation = Ni na voljo
+banner-error-slow-1 = Oprostite, Common Voice deluje počasi. Hvala za vaše zanimanje.
+banner-error-slow-link = Stran s stanjem
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -96,6 +98,7 @@ ko = korejščina
 kpv = komijščina
 kw = kornijščina
 ky = kirgiščina
+lb = luksemburščina
 lg = lugandščina
 lij = ligurščina
 lt = litovščina
@@ -977,6 +980,9 @@ sc-logout-button = Odjava
 ## HOME
 
 
+## GENERAL
+
+
 ## HOW-TO
 
 
@@ -998,10 +1004,6 @@ sc-rejected-title = Zavrnjeni stavki
 ## STATS
 
 sc-stats-title = Statistika
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Zadnja posodobitev: { $lastUpdate }
-sc-stats-last-update-never = Zadnja posodobitev: nikoli
 sc-stats-updating = Posodabljanje …
 
 ## ADD

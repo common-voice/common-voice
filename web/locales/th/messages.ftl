@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = รับอีเมล เช่น ค
 email-opt-in-privacy-v2 = การเลือกรับอีเมลถือว่าคุณตกลงให้ Mozilla จัดการข้อมูลนี้ตามที่ได้อธิบายไว้ใน<privacyLink>นโยบายความเป็นส่วนตัว<privacyLink>ของ Mozilla
 indicates-required = * ระบุถึงช่องที่จำเป็นต้องกรอก
 not-available-abbreviation = ไม่ระบุ
+banner-error-slow-1 = ขออภัย Common Voice ทำงานช้า ขอบคุณสำหรับความสนใจของคุณ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -502,12 +503,14 @@ about-nav-get-involved = มีส่วนร่วม
 
 ## How do I add a language
 
+about-playbook-how-add-language = ฉันจะเพิ่มภาษาได้อย่างไร
 
 ## How does localization work
 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ฉันจะเพิ่มประโยคได้อย่างไร
 
 ## How to record quality
 
@@ -988,6 +991,9 @@ sc-home-collect-text = ช่วยเราโดยการเขียนห
 sc-home-review-title = ตรวจทานประโยค
 sc-home-review-text = ช่วยเราโดยการตรวจทานประโยคสำหรับความถูกต้อง ตามแนวทางของเรา
 
+## GENERAL
+
+
 ## HOW-TO
 
 sc-howto-title = วิธีการ
@@ -1031,10 +1037,6 @@ sc-rejected-none-found = ไม่พบประโยคที่ถูกป�
 ## STATS
 
 sc-stats-title = สถิติ
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = อัปเดตล่าสุด: { $lastUpdate }
-sc-stats-last-update-never = อัปเดตล่าสุด: ไม่เคย
 sc-stats-updating = กำลังอัปเดต…
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector

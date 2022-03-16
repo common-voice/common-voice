@@ -101,11 +101,11 @@ export default class API {
     return this.getLocalePath() + '/clips';
   }
 
-  fetchRandomSentences(count = 1): Promise<Sentence[]> {
+  async fetchRandomSentences(count = 1): Promise<Sentence[]> {
     return this.fetch(`${this.getLocalePath()}/sentences?count=${count}`);
   }
 
-  fetchRandomClips(count = 1): Promise<Clip[]> {
+  async fetchRandomClips(count = 1): Promise<Clip[]> {
     return this.fetch(`${this.getClipPath()}?count=${count}`);
   }
 
@@ -463,12 +463,8 @@ export default class API {
     });
   }
 
-  getPublicUrl(
-    path: string,
-    bucketType: string,
-    useCDN: boolean
-  ): Promise<{ url: string }> {
-    return this.fetch(`${API_PATH}/bucket/${bucketType}/${path}/${useCDN}`, {
+  getPublicUrl(path: string, bucketType: string): Promise<{ url: string }> {
+    return this.fetch(`${API_PATH}/bucket/${bucketType}/${path}`, {
       method: 'GET',
     });
   }

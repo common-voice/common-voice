@@ -17,6 +17,7 @@ not-available-abbreviation = Á ekki við
 banner-error-slow-1 = Því miður gengur Common Voice vefurinn hægt fyrir sig í augnablikinu. Takk fyrir áhugann.
 banner-error-slow-2 = Við erum að fá mjög mikla umferð og erum nú að rannsaka málin.
 banner-error-slow-link = Stöðusíða
+error-something-went-wrong = Því miður, eitthvað fór úrskeiðis
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -435,15 +436,15 @@ faq-why-important-a =
     
     Til að gera talgreiningu aðgengilega sem víðast, erum við að safna raddbútum á fjölmörgum útbreiddum tungumálum auk ýmissa mála sem fáir hafa að móðurmáli og eiga þar með undir högg að sækja varðandi framboð í viðskiptareknum raddtækniþjónustum. Útgáfa á fjölbreyttum raddgagnasöfnum mun styrkja forritara, frumkvöðla og heilu málsamfélögin í að fylla sjálf inn í þær eyður sem kunna að vera til staðar.
 faq-how-get-q = Hvernig get ég nálgast gögn Samróms?
-faq-how-get-a = Gagnasöfn Samróms er hægt að sækja með <licenseLink>CC0-notkunarleyfi</licenseLink> á <datasetLink>gagnasafnasíðunni okkar</datasetLink>. Einnig er hægt að sækja nokkur önnur opinber gagnasöfn á þessari sömu síðu.
+faq-how-get-a = Gagnasafn Samróms er hægt að sækja með <licenseLink>CC0-notkunarleyfi</licenseLink> á <datasetLink>gagnasafnasíðunni okkar</datasetLink>. Einnig er hægt að sækja nokkur önnur opinber gagnasöfn á þessari sömu síðu.
 faq-when-release2-q = Hvenær verða raddgögn Samróms í boði fyrir önnur tungumál?
 faq-when-release2-a = Fjöltyngda útgáfu gagnasafns Samróms er samfélagið í samstarfi um að klára og snurfusa fyrir ýmsa notkun. Ef þú vilt hjálpa okkur að koma Samrómi yfir á ný tungumál, farðu þá og skoðaðu <sentenceCollectorLink>setningasöfnunarverkfærið</sentenceCollectorLink> til að fjölga setningum í gagnasafninu, og eins ættirðu að líta á <pontoonLink>Pontoon</pontoonLink> þýðingasetur Mozilla til að þýða sjálft vefsvæðið. Nýjum tungumálum er bætt sem raddframlagi við Samróm þegar 5000 samþykktum setningum hefur verið safnað.
 faq-why-mission-q = Hvers vegna er Samrómur eitt af markmiðum Mozilla?
 faq-why-mission-a = Mozilla reynir eftir fremsta megni að tryggja það að veraldarvefurinn sé öllum opinn og aðgengilegur. Til að það gangi upp þarf að virkja vefhönnuði í gegnum verkefni á borð við Samróm. Á meðan raddbúnaðartæknin þróast umfram sértæk forrit, trúum við því að hún þurfi að þjóna öllum notendum jafnt. Það þýðir að fjölga þarf tungumálum, framburðarsýnum og lýðfræðiupplýsingum þegar raddbúnaðurinn er þróaður og prófaður. Samrómur er opinn grunnur sem mun gagnast öllum, en Mozilla-teymi og forritarar úti um allan heim eru þegar byrjaðir að nota hann fyrir sín verkefni.
 faq-what-cv-and-deepspeech-q = Hver er munurinn á Samrómi og Deep Speech?
-faq-what-cv-and-deepspeech-a = Samrómsgagnasafnið er hannað til þess að vinna með raddgreini Mozilla, Deep Speech, sem er aðgengilegur öllum. Fyrsta útgáfan af Deep Speech var gefin út í nóvember árið 2017 og er í stöðugri þróun. Líkt og Samrómsgagnasafnið, finnst okkur að þessi raddgreiningartækni ætti að vera aðgengileg öllum. Það er okkar von að þessi tól muni gera hugbúnaðarhönnuðum kleift að skapa og þróa nýjar lausnir, vörur og þjónustur á sviði raddgreiningar.
+faq-what-cv-and-deepspeech-a = Gagnasafn Samróms er hannað til þess að vinna með raddgreini Mozilla, Deep Speech, sem er aðgengilegur öllum. Fyrsta útgáfan af Deep Speech var gefin út í nóvember árið 2017 og er í stöðugri þróun. Líkt og Samrómsgagnasafnið, finnst okkur að þessi raddgreiningartækni ætti að vera aðgengileg öllum. Það er okkar von að þessi tól muni gera hugbúnaðarhönnuðum kleift að skapa og þróa nýjar lausnir, vörur og þjónustur á sviði raddgreiningar.
 faq-is-goal-assistant-q = Er það markmið Samróms að búa til raddstýrð aðstoðartæki?
-faq-is-goal-assistant-a = Markmiðið með Samrómsgagnasafninu eru að gera hverjum sem er kleift að smíða raddgreini, talgervil eða annars konar hugbúnað sem þarfnast raddgagna. Raddstýrð aðstoðartæki er bara ein af mörgum mögulegum útfærslum sem hægt væri að búa til.
+faq-is-goal-assistant-a = Markmiðið með gagnasafni Samróms er að gera hverjum sem er kleift að smíða raddgreini, talgervil eða annars konar hugbúnað sem þarfnast raddgagna. Raddstýrð aðstoðartæki er bara ein af mörgum mögulegum útfærslum sem hægt væri að búa til.
 faq-do-want-native-q = Ég á ekki þetta tungumál að móðurmáli og tala það með hreim; er samt áhugi fyrir því að ég leggi til raddupptökur?
 faq-do-want-native-a = Já, við viljum endilega fá þína rödd! Hluti af stefnu Samróms er að safna saman eins mörgum mismunandi hreimum og hægt er til þess að raddstýrðar þjónustur virki jafn vel fyrir alla. Það gerir það að verkum að raddframlög frá einstaklingum með annað móðurmál eru sérstaklega mikilvæg.
 faq-why-different-speakers-q = Hvers vegna þarf svona marga mismunandi talendur fyrir hvert tungumál?
@@ -453,7 +454,7 @@ faq-why-different-speakers-a =
 faq-why-my-lang-q = Af hverju er mitt tungumál ekki enn hluti af verkefninu?
 faq-why-my-lang-new-a = Mozilla setur ekkert eitt tungumál framar öðrum. Verkefnið Samrómur er algjörlega keyrt áfram af samfélaginu, en það eru <multilangLink>nokkur skref sem þarf að fylgja til að bæta nýju tungumáli við</multilangLink> og geta byrjað að safna raddgjöfum. Fyrst þarf vefsvæði Samróms að vera þýtt svo meðlimir samfélagsins geti haft aðgang að verkfærum Samróms á sínu eigin tungumáli. Næst þarf nægilegt safn af setningum sem leyfi liggur fyrir að nota til upplesturs. Þegar þessar forkröfur eru uppfylltar er tungumálið "gefið út" á Samrómi fyrir fólk að byrja að taka upp raddhljóðbrot og staðfesta hljóðbrot annarra. Ef þú vilt hjálpa til við að bæta við nýju tungumáli, skaltu skoða á <sentenceCollectorLink>setningasöfnunarverkfærið</sentenceCollectorLink> okkar.
 faq-what-quality-q = Hversu góð þurfa hljóðgæðin að vera til að upptaka verði notuð í gagnasafninu?
-faq-what-quality-a = Við viljum að Samrómsgagnasafnið endurspegli hljóðgæðin sem raddgreinir gæti lent í við daglega notkun, svo við vonumst eftir upptökum bæði í góðu og slæmu ástandi. Með fjölbreytilegan hóp raddgjafa og upptökur í mismunandi gæðum getum við kennt raddgreinum að ráða við ýmsar raunverulegar aðstæður, t.d. þar sem aðrar samræður er í bakgrunni eða þar sem heyrist í bílvél. Svo lengi sem hægt er að greina talið í upptökunni ætti það að duga fyrir gagnasafnið.
+faq-what-quality-a = Við viljum að gagnasafn Samróms endurspegli hljóðgæðin sem raddgreinir gæti lent í við daglega notkun, svo við vonumst eftir upptökum bæði í góðu og slæmu ástandi. Með fjölbreytilegan hóp raddgjafa og upptökur í mismunandi gæðum getum við kennt raddgreinum að ráða við ýmsar raunverulegar aðstæður, t.d. þar sem aðrar samræður er í bakgrunni eða þar sem heyrist í bílvél. Svo lengi sem hægt er að greina talið í upptökunni ætti það að duga fyrir gagnasafnið.
 faq-why-10k-hours-q = Hvers vegna er markmiðið að ná 10.000 klst. af upptökum á hvert tungumál?
 faq-why-10k-hours-a = Þetta er u.þ.b. sá fjöldi klukkustunda sem þarf til að þjálfa vinnsluhæfan raddgreini.
 faq-how-calc-hours-q = Hvernig reiknar Samrómur þessa klukkutíma?
@@ -464,14 +465,14 @@ faq-where-src-from-2-a =
     
     Hægt er að sjá allar lestarsetningarnar <githubLink>á GitHub</githubLink>.
 faq-why-not-ask-read-q = Hvers vegna biðjið þið ekki fólk að lesa úr bókum eða greinum af Wikipedia á ólíkum tungumálum?
-faq-why-not-ask-read-a = Til að gera Samrómsgagnasafnið eins nýtilegt og hægt er höfum við ákveðið að leyfa aðeins lestrarsetningar sem falla undir Creative Commons (CC0) notkunarleyfi. Þetta gerir það mun erfiðara að finna og safna lestrarsetningum, en gerir okkur aftur á móti kleift að gefa út raddupptökurnar með sama notkunarleyfi, sem þýðir að hver sem er getur notað þær án nokkurra takmarkana eða heimildar frá Mozilla. Á endanum er það markmiðið hjá okkur, að hafa fjöltyngt gagnasafn sem nýtist eins mörgum og mögulegt er, þ.á.m. vísindamönnum, háskólum, sprotafyrirtækjum, ríkisstjórnum, félagsstofnunum og áhugafólki.
+faq-why-not-ask-read-a = Til að gera gagnasafn Samróms eins nýtilegt og hægt er höfum við ákveðið að leyfa aðeins lestrarsetningar sem falla undir Creative Commons (CC0) notkunarleyfi. Þetta gerir það mun erfiðara að finna og safna lestrarsetningum, en gerir okkur aftur á móti kleift að gefa út raddupptökurnar með sama notkunarleyfi, sem þýðir að hver sem er getur notað þær án nokkurra takmarkana eða heimildar frá Mozilla. Á endanum er það markmiðið hjá okkur, að hafa fjöltyngt gagnasafn sem nýtist eins mörgum og mögulegt er, þ.á.m. vísindamönnum, háskólum, sprotafyrirtækjum, ríkisstjórnum, félagsstofnunum og áhugafólki.
 faq-why-account-q = Af hverju ætti ég að skrá mig?
 faq-is-account-public-q = Verða upplýsingar af reikningnum mínum opinberar?
 faq-how-privacy-q = Hvernig tryggið þið nafnleysi og friðhelgi þeirra sem ljá Samróm röddina sína?
 faq-how-privacy-a = Persónulega einkennandi gögn hafa verið fjarlægð úr öllum raddhljóðbrotum í safninu. Í þeim tilfellum sem raddgjafi hefur lagt til lýðfræðileg gögn í gegnum notkunarsniðið sitt, eru þær upplýsingar aftengdar upptökum þeirra en fylgja öðrum lýðfræðigögnum í niðurhali á gagnasafninu. Þessar upplýsingar eru aldrei gerðar opinberar á notkunarsniðssíðu raddgjafans.
-faq-what-determine-identity-q = Hvað þýðir það að ég geti ekki "borið kennsl á" raddgjafa í Samróms-gagnasafninu?
+faq-what-determine-identity-q = Hvað þýðir það að ég geti ekki "borið kennsl á" raddgjafa í gagnasafni Samróms?
 faq-what-determine-identity-a =
-    Samrómsgagnasafnið er opið og aðgengilegt almenning svo hægt sé að nota það til að þjálfa margs konar raddstýrð kerfi. Fyrir öryggi raddgjafanna biðjum við alla sem sækja Samrómsgagnasafnið til að virða friðhelgi einkalífs þeirra.
+    Gagnasafn Samróms er opið og aðgengilegt almenning svo hægt sé að nota það til að þjálfa margs konar raddstýrð kerfi. Fyrir öryggi raddgjafanna biðjum við alla sem sækja Samrómsgagnasafnið til að virða friðhelgi einkalífs þeirra.
     
     Persónulega einkennandi upplýsingar hafa verið fjarlægðar úr öllum raddhljóðbrotum í safninu. Þegar maður sækir gagnasafnið samþykkir maður að reyna ekki að bera kennsl á neinn raddgjafanna. Það þýðir að það má ekki reyna að tengja upptökur í gagnasafninu við einstaklinga sem hafa lagt til upptökur. Það má hins vegar nota gagnasafnið til að þjálfa raddgreina, málshafagreina og fleiri kerfi, t.d. með því að tengja saman upplýsingar innan gagnasafnsins.
 faq-what-is-cv = Hvað er Samrómur?
@@ -484,7 +485,7 @@ faq-search-for-answers =
 
 about-title = Af hverju Samrómur?
 about-header-description-v2 =
-    <p>Common Voice er almennt aðgengilegt raddgagnasafn, knúið áfram af röddum sjálfboðaliða um allan heim. Fólk sem vill smíða raddforrit getur notað gagnasafnið til að þjálfa vélanámslíkön.</p>
+    <p>Samrómur eða Common Voice er almennt aðgengilegt raddgagnasafn, knúið áfram af röddum sjálfboðaliða um allan heim. Fólk sem vill smíða raddforrit getur notað gagnasafnið til að þjálfa vélanámslíkön.</p>
     <p>Sem stendur eru flest raddgagnasett í eigu fyrirtækja, sem heftir nýsköpun. Raddgagnasöfn samanstanda einnig of mikið af röddum hvítra, enskumælandi karlmanna. Þetta þýðir að raddtækni virkar alls ekki fyrir mörg tungumál og þar sem hún virkar getur verið að hún skili sér ekki jafn vel fyrir alla. Við viljum breyta því með því að virkja fólk alls staðar til að deila röddinni sinni.</p>
 how-does-it-work-title-v2 = Hvernig virkar Samrómur?
 how-does-it-work-text = Við erum að "hópefla" vinnslu opins raddgagnasafns. Leggðu fram röddina þína, staðfestu nákvæmni hljóðbrota frá öðrum, gerðu gagnasafnið betra fyrir alla.
@@ -517,8 +518,8 @@ about-yes-votes = ≥ 2 Já-atkvæði
 about-yes-votes-text = Til þess að komast inn í Samróms-gagnasafnið, þá þarf hljóðbrot að vera yfirfarið af tveimur einstaklingum.
 about-no-votes = ≥ 2 Nei-atkvæði
 about-no-votes-text = Þegar notandi hafnar hljóðbroti þá fer það aftur í biðröðina. Ef því er hafnað í annað sinn, þá fer hljóðbrotið í hljóðbrotagrafreitinn.
-about-dataset-new = Samróms-gagnasafnið
-about-dataset-new-text = Samróms-gagnasafnið samanstendur af hundruðum þúsunda raddhljóðbrota sem hjálpa þróunaraðilum að smíða raddgreiningartól.
+about-dataset-new = Gagnasafn Samróms
+about-dataset-new-text = Gagnasafn Samróms samanstendur af hundruðum þúsunda raddhljóðbrota sem hjálpa þróunaraðilum að smíða raddgreiningartól.
 about-clip-graveyard = Hljóðbrotagrafreitur
 about-clip-graveyard-text = Hljóðbrotagrafreiturinn samanstendur af raddhljóðbrotum sem gátu ekki orðið hluti af Samrómsgagnasafninu. Rétt eins og gagnasafnið sjálft, er hægt að sækja hljóðbrotagrafreitinn.
 about-partners = Samstarfsaðilar
@@ -588,9 +589,14 @@ about-playbook-how-record-content-5 = <accuracyLink>Sjá nánar um nákvæmnisvi
 ## How to grow language
 
 about-playbook-how-grow-language = Hvernig getum við á áhrifaríkan hátt látið tungumál vaxa á Samrómi?
+about-playbook-how-grow-language-content-1 = Að skapa tækifæri fyrir fjölbreytilegt fólk til að leggja sitt af mörkum til Common Voice tryggir að gagnasafnið þjónar eins mörgum og mögulegt er. Við höfum búið til ýmis tilföng og sniðmát sem þú getur notað!
 about-playbook-how-grow-language-content-2 = Atburðir
+about-playbook-how-grow-language-content-3 = Þú getur haldið viðburði til að hjálpa fólki að leggja sitt af mörkum. Það er auðveldara en þú heldur. Þú gætir gert það á netinu með myndfundum eða í eigin persónu ef það er öruggt. <eventTemplate>Skoðaðu sniðmátin okkar og önnur tilföng til að halda viðburði</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Samfélagsmiðlar
+about-playbook-how-grow-language-content-5 = Þú gætir notað samfélagsmiðla til að koma skilaboðunum á framfæri. Deildu færslum sem útskýra hvers vegna þetta skiptir máli og hafðu samband við annað fólk sem talar um málefni eins og réttindi tungumála, raddgervigreind eða hlutdrægni í tæknigeiranum. Sjáðu fleiri ráð um <campaignLink>hvernig hægt er að keyra herferðir á samfélagsmiðlum, þar á meðal efni sem þú getur endurnýtt</campaignLink>.
 about-playbook-how-grow-language-content-6 = Samstarf og tengslanet
+about-playbook-how-grow-language-content-7 = Finndu aðra sem eru sama sinnis. Það gætu verið háskólar, tungumálaskólar, hagsmunasamtök eða gagnavísindasamfélög. Láttu í þér heyra og útskýrðu hvernig viðkomandi geta hjálpað og hvers vegna. <outreachTemplates>Sjáðu til dæmis sniðmátið okkar fyrir kynningarpóst</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Vertu skapandi!</strong> Samfélagið í kringum tungumálið þitt verður alltaf einstakt, og þetta eru aðeins nokkrar leiðir til að byrja.
 
 ## How to validate
 
@@ -603,6 +609,8 @@ about-playbook-how-validate-content-4 = Ef hljóðsýni er hafnað af tveimur a�
 ## How to access dataset
 
 about-playbook-how-access-dataset = Hvernig fæ ég aðgang að og nota gagnasafnið?
+about-playbook-how-access-dataset-content-1 = Þú getur farið á <datasetsPage>síðuna með gagnasöfnunum</datasetsPage>, valið útgáfuna og tungumálið sem þú vilt og hlaðið því inn á tölvuna þína! Skrárnar eru með <metadataLink>tengd lýsigögn</metadataLink> á borð við lýðfræðilegar upplýsingar og sannvottunargögn. Þú þarft að gefa upp tölvupóstfang til að sækja gagnasafnið.
+about-playbook-how-access-dataset-content-2 = Ef þú ert að leita að verkfærum til að smíða ASR-líkön geturðu haft samband við annað fólk í samfélaginu <discourseLink>á Discourse-spjallinu</discourseLink>.
 
 ## How are decisions made
 
@@ -663,6 +671,7 @@ dataset-date = Dagsetning
 license = Notkunarleyfi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandað
 data-download-singleword-title = Sækja 'Eins orðs markhluta' (Single Word Target Segment)
+data-download-singleword-callout-v2 = Þetta er notkunartilvikadrifinn hluti sem inniheldur gögn til að knýja greiningu talaðra tölustafa og já/nei greiningu.
 review-terms = Með notkun Samróms samþykkir þú <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> verkefnisins
 terms-agree = Ég samþykki
 terms-disagree = Ég samþykki ekki
@@ -698,11 +707,11 @@ why-email = <b>Af hverju tölvupóstfang?</b> Við gætum þurft að hafa samban
 confirm-size = Þú getur nú hafið niðurhal með stærðina <b>{ $size }</b>.
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Þú samþykkir</b> að þú munir ekki reyna að bera kennsl á mælendur í málheild Samróms.
+confirm-no-identify = <b>Þú samþykkir</b> að þú munir ekki reyna að bera kennsl á mælendur í gagnasafni Samróms.
 download-language = Sækja { $language }
 validated-hours = Staðfestar klukkustundir
-recorded-hours = Uppteknar klukkustundir
-whats-inside = Hvað er í málheild Samróms?
+recorded-hours = Klukkustundir af upptökum
+whats-inside = Hvað er í gagnasafni (málheild) Samróms?
 dataset-description-hours =
     Hver færsla í gagnasafninu samanstendur af einstöku MP3-hljóðbroti og samsvarandi textaskrá. Mikill fjöldi þeirra <b>{ $total }</b> klukkustunda sem hefur verið safnað innihalda einnig lýðfræðileg lýsigögn eins og aldur, kyn og hreim sem getur hjálpað við að gera raddgervla nákvæmari.
     
@@ -710,10 +719,13 @@ dataset-description-hours =
 want-dataset-update = Viltu fá skilaboð þegar nýjar útgáfur af Samrómsgagnasafninu eru gefnar út? Skráðu þig á póstlistann.
 subscribe = Gerast áskrifandi
 get-started-speech = Hefjast handa með raddgreiningu
-other-datasets = Aðrar málheildir
+other-datasets = Önnur raddgagnasöfn
 feedback-q = Ertu með ábendingar?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er <docsLink>verkfærasett með opinn grunnkóða</docsLink> fyrir vísindamenn sem hanna háþróuð gervigreindarlíkön fyrir samtöl.
 resource-deepspeech-info = Með hinum opna og frjálsa raddgreini Mozilla, Deep Speech, er hægt að hanna raddgreiningarforrit. Kynntu þér <githubLink>yfirlitið á Github</githubLink> eða taktu þátt á <discourseLink>DeepSpeech umræðuvefnum</discourseLink> til að læra um hvernig maður hefst handa.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> er tileinkað opinni taltækni. Meðal verkefna þeirra eru STT og TTS-vélar sem byggja á djúpnámi.
+community-playbook = Community Playbook
+resource-playbook-info = <playbookLink>Finndu gagnlegar leiðbeiningar</playbookLink> um allar hliðar Samróms - Common Voice, allt frá staðfærslu til notkunar gagnasafna, svo og um hvernig hægt sé að tengjast samfélaginu okkar.
 data-other-librispeech-description = LibriSpeech-textasafnið geymir u.þ.b. 100 klst. af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum úr LibriVox-verkefninu.
 data-other-ted-name = TED-LIUM textasafn
 data-other-ted-description = TED-LIUM textasafnið var þróað úr talsetningum og afritunum þeirra sem eru fáanlegar á TED vefnum.
@@ -827,8 +839,14 @@ listen-again-instruction = Vel gert! <playIcon></playIcon> Hlustaðu aftur þega
 listen-3rd-time-instruction = Tvær búnar, haltu þínu striki! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Síðasta!
 listen-empty-state = Við erum uppiskroppa með upptökur til að staðfesta á þessu tungumáli...
+listen-loading-error =
+    Við gátum ekki náð í neinar hljóðupptökur sem þú getur hlustað á.
+    Endilega reyndu aftur síðar.
 speak-empty-state = Við erum uppiskroppa með setningar til að taka upp á þessu máli...
 speak-empty-state-cta = Leggja til setningar
+speak-loading-error =
+    Við gátum ekki náð í neinar setningar fyrir þig að lesa.
+    Endilega reyndu aftur síðar.
 record-button-label = Taktu upp röddina þína
 share-title-new = <bold>Leggðu lið</bold> við að finna fleiri raddir
 keep-track-profile = Fylgstu með framförum þínum með notkunarsniði
@@ -1039,6 +1057,7 @@ demo-welcome-subheader = Hefur þú áhuga á að læra meira og leggja verkefni
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice er heimsins stærsta opinberlega aðgengilega raddgagnasafn á mörgum tungumálum.
 demo-language-select-card-body = Þökk sé framlagi frá yfir 259 þúsund manns á yfir 50 tungumálum, þá eru þessi gögn notuð til að þjálfa talvirk forrit til að bregðast betur við mannlegum röddum.
 card-button-next = Næsta
 card-button-back = Til baka
@@ -1050,6 +1069,7 @@ demo-account = Reikningur
 ## Demo Account
 
 demo-account-card-header = Ekki krafist skráðs aðgangs til að taka þátt, þótt það sé gagnlegt.
+demo-account-card-body = Til hægri útlistum við kostina og skýrum hvaða upplýsingar við birtum opinberlega. Notaðu tenglana hér að neðan til að byrja með Samróms-reikning á þínu eigin tæki.
 demo-account-enter-email =
     .label = Settu inn tölvupóstfang til að senda skráningartengil
 demo-account-sign-up = Senda skráningartengil
@@ -1057,22 +1077,67 @@ demo-account-sign-up = Senda skráningartengil
 ## Demo Contribute
 
 demo-contribute-card-header = Tilbúin/n til að bæta við rödd þinni eða ljá okkur eyra?
+demo-contribute-card-body-v2 = Nú þegar þú veist aðeins meira um Common Voice verkefnið, hvers vegna ekki að prófa það? Smelltu á hljóðnematáknið til að byrja að lesa setningar upphátt. <br/><br/>Ef þú vilt frekar skoða raddsýni annarra, smelltu á spilunartáknið. Þú hjálpar þannig til við að staðfesta að upptökur passi við setningarnar sem skrifaðar eru á skjáinn.
 demo-listen-subtitle = Tilbúin/n til að leggja þitt af mörkum?
 
 ## Demo Dashboard
 
 demo-dashboard-card-header = Persónuleg stjórnborð halda þér upplýstum með framvindu einstaklinga og samfélagsins.
+demo-dashboard-card-body = Fyrir hvert raddsýni sem gefið er og hverja staðfesta hljóðupptöku, er stjórnborð reikningsins þíns uppfært til að endurspegla nýjustu framvinduna á hverju tungumáli sem þú tekur þátt í. Einmitt, þú getur lagt þitt af mörkum til fleiri en eins tungumáls!<br/><br/> Notaðu stjórnborðið til að fylgjast með tölfræðinni þinni, sjáðu hvernig þér gengur miðað við aðra í samfélaginu og settu dagleg eða vikuleg markmið um framlag.
 
 ## Validation criteria
 
 contribution-criteria-nav = Viðmið
 contribution-criteria-link = Skilja framlagsviðmið
 contribution-criteria-page-title = Framlagsviðmið
+contribution-criteria-page-description = Reyndu að skilja hverju á að leita að þegar þú hlustar á raddupptökur og hjálpaðu líka við að gera raddupptökur þínar ríkulegri!
 contribution-for-example = til dæmis
 contribution-misreadings-title = Mislestur
+contribution-misreadings-description = Þegar þú hlustar skaltu athuga mjög vel að það sem hefur verið tekið upp sé nákvæmlega það sem hefur verið skrifað; hafna ef það eru jafnvel smávægilegar villur. <br />Mjög algeng mistök eru:
+contribution-misreadings-description-extended-list-1 = Vantar <strong>'Í'</strong>, <strong>'Á'</strong> eða <strong>'Ef'</strong> í upphafi upptöku.
+contribution-misreadings-description-extended-list-2 = Vantar <strong>staf</strong> í lok orðs.
+contribution-misreadings-description-extended-list-3 = Mismunandi upplestur sem ekki breytir merkingunni, á borð við „leggja í'ann" í stað „leggja í hann", „vera með'a" í stað „vera með það" og öfugt.
+contribution-misreadings-description-extended-list-4 = Vantar enda síðasta orðs þar sem upptökunni var hætt of snemma.
+contribution-misreadings-description-extended-list-5 = Teknar nokkrar tilraunir til að lesa orð.
+contribution-misreadings-example-1-title = Risaeðlurnar á Triassic-tímabilinu.
+contribution-misreadings-example-2-title = Risaeðlan á Triassic-tímabilinu.
+contribution-misreadings-example-2-explanation = [Ætti að vera „risaeðlur“]
+contribution-misreadings-example-3-title = Risaeðlurnar á Triassi-.
+contribution-misreadings-example-3-explanation = [Klippt af upptöku fyrir lok síðasta orðs]
+contribution-misreadings-example-4-title = Risaeðlurnar á Triassic-tímabilinu. Já.
+contribution-misreadings-example-4-explanation = [Meira hefur verið tekið upp en tilskilinn texti]
+contribution-misreadings-example-5-title = Við erum á leiðinni út að ná í kaffi.
+contribution-misreadings-example-6-title = Við erum á leið út að ná í kaffi.
+contribution-misreadings-example-6-explanation = [Ætti að vera „leiðinni“]
+contribution-misreadings-example-7-title = Við erum á leiðinni út að ná okkur í kaffi.
+contribution-misreadings-example-7-explanation = [Ekkert „okkur“ í upprunalega textanum]
+contribution-misreadings-example-8-title = Humlan flaug hjá.
+contribution-misreadings-example-8-explanation = [Ósamsvarandi efni]
+contribution-varying-pronunciations-title = Mismunandi framburður
+contribution-varying-pronunciations-description = Vertu varkár áður en þú hafnar upptöku á þeirri forsendu að lesandinn hafi borið rangt fram orð, hafi sett áherslu á rangan stað eða hafi hunsað spurningarmerki. Um allan heim er fjölbreyttur framburður til staðar, sumt af því hefur þú kannski aldrei heyrt áður í þínu nærumhverfi. Gefðu svigrúm fyrir þá sem kunna að tala öðruvísi en þú.
+contribution-varying-pronunciations-description-extended = Á hinn bóginn, ef þú heldur að lesandinn hafi líklega aldrei rekist á orðið áður og sé einfaldlega að giska rangt á framburðinn, endilega hafna þessu. Ef þú ert ekki viss skaltu nota Sleppa-hnappinn.
+contribution-varying-pronunciations-example-1-title = Páskadagur er nammidagur.
+contribution-varying-pronunciations-example-1-explanation = [Bæði páskadagur og nammidagur eiga það til nú orðið að vera skrifuð í tveimur orðum og borið fram með aukaáherslu á 'dagur' sem fólki af erlendum uppruna þykir oft tamara]
+contribution-varying-pronunciations-example-2-title = Hann fékk sér majónes.
+contribution-varying-pronunciations-example-2-explanation = [„majónes“ á íslensku er alltaf borið fram með áherslu á fyrra atkvæðið, ekki hið síðara eins og í ýmsum rómönskum málum]
 contribution-background-noise-title = Bakgrunnshávaði
+contribution-background-noise-description = Við viljum að reiknirit í raddbúnaði sem byggir á vélagreind geti meðhöndlað margvísleg bakgrunnshljóð og jafnvel tiltölulega mikinn hávaða er hægt að samþykkja að því tilskildu að hann komi ekki í veg fyrir að þú heyrir allan textann. Hljóðlát bakgrunnstónlist er í lagi; tónlist sem er nógu hátt stillt til að koma í veg fyrir að þú heyrir skýrt hvert einasta orð er það ekki.
+contribution-background-noise-description-extended = Ef upptakan bilar eða er með brak eða aðrar truflanir, skaltu hafna henni nema allur textinn heyrist enn.
+contribution-background-noise-example-1-fixed-title = <strong>[Hnerri]</strong> risaeðlurnar á <strong>[hósti]</strong> Triassic-tímabilinu.
+contribution-background-noise-example-2-fixed-title = Risaeðlu <strong>[hósti]</strong> á Triassic-tímabilinu.
+contribution-background-noise-example-2-explanation = [Hluti textans heyrist ekki]
+contribution-background-noise-example-3-fixed-title = <strong>[Brak]</strong> eðlurnar á <strong>[brestir]</strong> tímabilinu.
 contribution-background-voices-title = Bakgrunnsraddir
+contribution-background-voices-description = Rólegt bakgrunnshljóð er í lagi, en við viljum ekki fleiri raddir sem gætu valdið því að algrími raddgreiningarvéla auðkenni orð sem eru ekki í rituðum texta. Ef þú getur heyrt aðgreind orð fyrir utan þau í textanum ætti að hafna upptökunni. Venjulega gerist þetta þar sem kveikt hefur verið á sjónvarpi eða þar sem samtal er í gangi í næsta nágrenni.
+contribution-background-voices-description-extended = Ef upptakan bilar eða er með brak eða aðrar truflanir, skaltu hafna henni nema allur textinn heyrist enn.
+contribution-background-voices-example-1-title = Risaeðlurnar á Triassic-tímabilinu. <strong>[lesið af einni röddu]</strong>
+contribution-background-voices-example-1-explanation = Ertu að koma? <strong>[spurt með annarri rödd]</strong>
 contribution-volume-title = Hljóðstyrkur
+contribution-volume-description = Það er eðlilegur breytileiki í hljóðstyrk á milli lesenda. Hafnaðu aðeins ef hljóðstyrkurinn er svo mikill að upptakan aflagast eða (algengara) ef styrkurinn er svo lágur að þú heyrir ekki hvað er sagt án þess að vísa í ritaðan texta.
+contribution-reader-effects-title = Mismunandi upplestur
+contribution-reader-effects-description = Flestar upptökur eru af fólki sem talar með sinni eðlilegu rödd. Þú getur sætt þig við einstaka óhefðbundna upptöku þar sem er hrópað, hvíslað eða augljóslega flutt með „dramatískri“ rödd. Hafnaðu sungnum upptökum og þeim sem styðjast við tölvugerða rödd.
+contribution-just-unsure-title = Ertu ekki viss?
+contribution-just-unsure-description = Ef þú rekst á eitthvað sem þessar leiðbeiningar ná ekki til, skaltu velja samkvæmt bestu dómgreind þinni. Ef þú getur ekki ákveðið þig skaltu nota Sleppa-hnappinn og fara í næstu upptöku.
 see-more = <chevron></chevron>Sjá meira
 see-less = <chevron></chevron>Sjá minna
 
@@ -1103,11 +1168,16 @@ sc-logout-button = Skrá út
 
 ## HOME
 
+sc-home-title = Velkomin í setningasöfnun Samróms
+sc-home-intro = Setningasafnarinn er hluti af <commonVoiceLink>Samrómi - Common Voice</commonVoiceLink>. Hann gerir þátttakendum kleift að safna og staðfesta setningar búnar til af þátttakendum í verkefninu. Þú getur líka notað þetta verkfæri til að flytja inn og hreinsa upp stutta og meðalstóra texta í almenningseigu sem þú hefur fundið. Allar setningar þurfa að vera með 'Public Domain' notkunarleyfi til almenningsnota. Samþykktar setningar eru fluttar út í hverri viku í Common Voice gagnasafnið og eru gefnar út á vefsvæði Samróms við hverja nýja útfærslu.
 sc-home-collect-title = Safna setningum
+sc-home-collect-text = Hjálpaðu okkur með því að skrifa eða safna setningum í almenningseigu.
 sc-home-review-title = Yfirfara setningar
+sc-home-review-text = Hjálpaðu okkur með því að yfirfara hvort setningar séu réttar samkvæmt leiðbeiningunum.
 
 ## GENERAL
 
+sc-languages-fetch-error = Ekki tókst að sækja tiltæk tungumál. Framlög eru ekki möguleg í augnablikinu. Reyndu aftur síðar.
 
 ## HOW-TO
 
@@ -1115,7 +1185,18 @@ sc-howto-title = Leiðbeiningar
 sc-howto-addlang-title = Bæta við tungumálum til að vinna með
 sc-howto-addlang-text = Þegar þú hefur skráð þig inn, geturðu valið tungumálin þín úr notkunarsniðshlutanum.
 sc-howto-addsen-title = Bæta við nýjum setningum
+sc-howto-addsen-item-1 = Allar setningar sem þú sendir inn verða að vera með <wikipediaLink>Public Domain (CC-0) notkunarleyfi til almenningsnota</wikipediaLink>. Til að hægt sé að hafa með á verk sem ekki eru með slíku almenningsleyfi, höfum við búið til <cc0WaiverLink>sniðmát fyrir samning vegna framlags</cc0WaiverLink> fyrir verk þar sem eigandi höfundarréttar vill leggja efnið til Common Voice verkefnisins.
+sc-howto-addsen-item-2 = Tölur. Engir tölustafir ættu að vera í frumtextanum því þeir geta valdið vandræðum við upplestur. Hvernig tala er lesin fer eftir samhengi og gæti valdið ruglingi í gagnasafninu. Til dæmis er bæði hægt að lesa töluna "2409" nákvæmlega sem bæði "tuttugu og fjórir núll níu" og "tvö þúsund fjögur hundruð og níu".
+sc-howto-addsen-item-3 = Skammstafanir og stuttnefni. Forðast skal skammstafanir og stuttnefni á borð við „USA“ eða „ICE“ í frumtextanum vegna þess að þær kunna að vera lesnar á einhvern þann hátt sem er ekki í samræmi við stafsetningu þeirra. Að auki geta verið margar nákvæmar útgáfur á lestri fyrir eina skammstöfun. Til dæmis gæti skammstöfunin „ICE“ verið borin fram „I-C-E“ eða sem eitt orð.
+sc-howto-addsen-item-4 = Greinarmerki. Sérstök tákn og greinarmerki ættu aðeins að vera með þegar brýna nauðsyn krefur. Til dæmis er úrfellingamerki sjaldgæft í íslenskum setningum þótt „í'ann“ komi fyrir og ætti kannski að vera með í frumtextanum, en ólíklegt er að þú þurfir nokkurn tíma að hafa með sértákn eins og „@“ eða „#. ”
+sc-howto-addsen-item-5 = Erlendir stafir. Stafir verða að vera gildir á því tungumáli sem talað er. Til dæmis er „ж“ bókstafur í rússneska stafrófinu en er aldrei notaður á íslensku og ætti því aldrei að koma fyrir í neinum íslenskum frumtexta.
+sc-howto-addsen-item-6 = Tungumál geta haft sínar <validationRulesLink>eigin staðfestingarreglur</validationRulesLink> með viðbótarkröfum. Ef það er engin sérstök staðfestingarskrá fyrir viðkomandi tungumál, erum við að nota almennu ensku reglurnar.
+sc-howto-addsen-post-1 = Við viljum frekar eðlilegar setningar eða samræður. Þó hljóðfræðilegur fjölbreytileiki og mismunandi orð í setningum séu mikilvæg atriði, þá erum við að reyna að gera upptökur á setningum eins skemmtilegar og hægt er. Þess vegna væri frábært ef þú gætir reynt að hafa setningarnar þínar eins eðlilegar og hægt er ásamt því að vera grípandi.
 sc-howto-cite-title = Hvernig á að gera tilvitnanir
+sc-howto-cite-pre-1 = Það er mikilvægt að þú vísir til hvar þú fannst opinbera notkunarleyfið til að forðast ritstuld og gera kleift að fylgjast með <copyrightIssuesLink>höfundarréttarmálum</copyrightIssuesLink>. Hér eru nokkrar leiðir til að vitna í verkið.
+sc-howto-cite-item-1 = Þú gætir látið vefslóðina fylgja með, t.d. "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Þú gætir notað fræðilegan tilvísunarstíl, t.d. Harvard-stíl "Mozilla (2021) Common Voice. Fáanlegt á https://commonvoice.mozilla.org/ (Sótt: 15. september 2021)"
+sc-howto-cite-item-3 = Fyrir texta í almenningseigu sem ekki eru tiltækir á internetinu gætirðu notað fræðilegan tilvísunarstíl, t.d. Harvard-stílinn "Jóna Jóns (2021) Ljóðmæli mín í almenningseigu"
 sc-howto-review-title = Yfirfara setningar
 sc-howto-review-subtitle = Gakktu úr skugga um að setningin uppfylli eftirfarandi skilyrði:
 sc-howto-review-criteria-1 = Setningin verður að vera rétt stafsett.
@@ -1123,12 +1204,22 @@ sc-howto-review-criteria-2 = Setningin verður að vera málfræðilega rétt.
 sc-howto-review-criteria-3 = Setningin verður að vera lesanleg.
 sc-howto-review-criteria-4 = Ef setningin uppfyllir skilyrðin skaltu smella á „Samþykkja“-hnappinn.
 sc-howto-review-criteria-5 = Ef setningin uppfyllir ekki ofangreind skilyrði skaltu smella á „Hafna“ hnappinn. Ef þú ert ekki viss um setninguna geturðu líka sleppt henni og farið yfir í þá næstu.
+sc-howto-review-criteria-6 = Ef þú lýkur við að skoða allar tiltækar setningar, þá geturðu hjálpað okkur að safna fleiri setningum!
 sc-howto-findpd-title = Að finna fyrirliggjandi setningar í almenningseign
 sc-howto-findpd-subtitle = Leitaðu að þeim á internetinu
+sc-howto-findpd-text-2 = Mundu að við þurfum leyfi til að birta þessar setningar, þannig að þú skalt verta alltaf viss um að textinn sé með <wikipediaLink>notkunarleyfi fyrir almenning</wikipediaLink>. Ef engin skýr vísbending um slíkt finnst skaltu hafa samband við þann sem textinn tilheyrir og spyrja hvort hann vilji leggja texta sinn til almenningseignar. Ef viðkomandi er til í það, geturðu hjálpað viðkomandi að fara í gegnum ferlið við að útbúa <cc0WaiverLink>framlagssamninginn</cc0WaiverLink>. Ef viðkomandi vill ekki leggja til textann, þá er ekki heimilt að nota þann texta.
+sc-howto-findpd-tips = Hér eru nokkur ráð til að finna setningar:
+sc-howto-findpd-tips-1 = Bestu heimildirnar sem þú getur leitað að eru til dæmis hlaðvörp, umritanir samræðna, kvikmyndahandrit og allt sem hugsanlega getur innihaldið dagleg samtöl.
+sc-howto-findpd-tips-2 = Stjórnvaldsráðstafanir, bækur og greinar eru líka frábærar, en þar sem textinn hefur tilhneigingu til að vera aðeins formlegri, er minni áhersla lögð á slíka texta.
+sc-howto-findpd-tips-3 = Því miður getum við ennþá ekki haft með Wikimedia-greinar. Þannig að þú skalt ekki afrita og líma þaðan.
+sc-howto-findpd-subtitle-2 = Vertu í samstarfi við samtök eða aðra einstaklinga
+sc-howto-findpd-partner-1 = Það eru margar opinberar stofnanir og samtök sem gætu viljað vinna saman og sem hafa yfir að ráða miklu magni af textum sem þær gætu gefið sem almenningseign. Hafðu samband við háskóla á staðnum, stjórnvöld og áhugafólk um opinn aðgang að gögnum til að tala um verkefnið og biðja um hjálp þeirra.
+sc-howto-findpd-partner-2 = Sérfróðir málvísindamenn geta líka hjálpað, reyndu að ná til málvísindadeilda (bæði kennara og nemenda) og athugað hvort viðkomandi geti hjálpað til við að safna saman fjölbreyttu safni hljóðupptakna og setninga á tungumálinu þínu.
 
 ## MY SENTENCES
 
 sc-my-title = Setningarnar mínar
+sc-my-description = Þessi síða gefur þér yfirlit yfir allar innsendu setningarnar þínar. Þú getur líka eytt þegar innsendum setningum ef þörf krefur, með því að merkja við gátreitinn við hliðina á viðkomandi setningum og smella neðst á &quot;Eyða völdum setningum&quot;. Fjarlægðu setningar aðeins ef brýna nauðsyn krefur, til dæmis ef þú hefur tekið eftir því eftir að setning er höfundarréttarvarin.
 sc-my-loading = Hleð inn setningunum þínum...
 sc-my-err-fetching = Villa við að sækja setningarnar þínar. Reyndu aftur.
 sc-my-no-sentences = Engar setningar fundust!
@@ -1154,6 +1245,10 @@ sc-rejected-none-found = Engar hafnaðar setningar fundust!
 sc-stats-title = Tölfræði
 sc-stats-updating = Uppfæri…
 sc-stats-error = Við gátum ekki sótt tölfræðina. Reyndu aftur síðar.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Setningasafnari Samróms hefur safnað { $sentenceCount } setningum á { $languageCount } tungumálum!
 
 ## ADD
 
@@ -1170,9 +1265,12 @@ sc-submit-add-sentences = Bættu við setningum <wikipediaLink>í almenningseigu
 sc-submit-ph-one-per-line =
     .placeholder = Ein setning í hverri línu
 sc-submit-from-where = Hvaðan eru þessar setningar <wikipediaLink>í almenningseigu</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Lestu leiðbeiningar okkar ef þú ert ekki viss um hvernig á að tileinka
 sc-submit-confirm = Ég staðfesti að þessar setningar eru <wikipediaLink>í almenningseigu</wikipediaLink> og að ég hef leyfi til að senda þær inn.
 sc-submit-button =
     .submitText = Senda inn
+sc-submit-filtered = Setningar sem síaðar hafa verið út vegna þess að kröfur eru ekki uppfylltar (sendu inn lagfærðar útgáfur sem nýjar setningar):
 sc-submit-guidelines = Athugaðu <howToLink>leiðbeiningarnar</howToLink>.
 
 ## ADD LANGUAGE
@@ -1312,12 +1410,18 @@ sc-criteria-item-2 = Setningin verður að vera málfræðilega rétt.
 sc-criteria-item-3 = Setningin verður að vera lesanleg.
 sc-criteria-item-4 = Ef setningin uppfyllir skilyrðin, skaltu smella á &quot;Samþykkja&quot;-hnappinn hér til hægri.
 sc-criteria-item-5-2 = Ef setningin uppfyllir ekki ofangreind skilyrði skaltu smella á &quot;Hafna&quot; hnappinn hér til vinstri. Ef þú ert ekki viss um setninguna geturðu líka sleppt henni og farið yfir í þá næstu.
+sc-criteria-item-6 = Ef þú lýkur við að skoða allar tiltækar setningar, þá geturðu hjálpað okkur að safna fleiri setningum!
 
 ## REVIEW
 
 sc-review-lang-not-selected = Þú hefur ekki valið nein tungumál. Farðu í <profileLink>notkunarsniðið</profileLink> þitt til að velja tungumál.
 sc-review-title = Yfirfara setningar
 sc-review-loading = Hleð inn setningum...
+sc-review-select-language = Veldu tungumál til að yfirfara setningar á.
+sc-review-no-sentences = Engar setningar til að yfirfara. <addLink>Bættu við fleiri setningum núna!</addLink>
+sc-review-form-prompt =
+    .message = Yfirfarnar setningar ekki sendar, ertu viss?
+sc-review-form-usage = Strjúktu til hægri til að samþykkja setninguna. Strjúktu til vinstri til að hafna henni. Strjúktu upp til að sleppa henni. <strong>Ekki gleyma að senda inn yfirferðina þína!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Heimild: { $sentenceSource }

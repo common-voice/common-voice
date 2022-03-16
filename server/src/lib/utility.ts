@@ -11,13 +11,6 @@ export function hash(str: string, salt?: string): string {
 }
 
 /**
- * Needs to behave like the client side hash() in /web/src/utility.ts
- */
-export function hashClientId(text: string) {
-  return crypto.createHash('sha256').update(text).digest('hex');
-}
-
-/**
  * Used to hash sentences in import-sentences.ts
  */
 export function hashSentence(str: string) {

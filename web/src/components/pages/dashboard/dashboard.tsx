@@ -2,6 +2,8 @@ import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { Redirect, Route, Switch } from 'react-router';
+import * as Sentry from '@sentry/react';
+
 import { useAccount, useAPI, useAction } from '../../../hooks/store-hooks';
 import { useRouter } from '../../../hooks/use-router';
 import URLS from '../../../urls';
@@ -21,6 +23,8 @@ import InviteModal from '../../invite-modal/invite-modal';
 import { isChallengeLive, pilotDates, isEnrolled } from './challenge/constants';
 import './dashboard.css';
 import { NATIVE_NAMES } from '../../../services/localization';
+
+const SentryRoute = Sentry.withSentryRouting(Route);
 
 const TITLE_BAR_LOCALE_COUNT = 3;
 
@@ -320,7 +324,7 @@ export default function Dashboard() {
       <div className="inner">
         <Switch>
           {pages.map(({ subPath, Page }) => (
-            <Route
+            <SentryRoute
               key={subPath}
               exact
               path={match.path + subPath}
@@ -335,7 +339,7 @@ export default function Dashboard() {
               )}
             />
           ))}
-          <Route
+          <SentryRoute
             path={match.path + '/:dashboardLocale'}
             render={({
               match: {
@@ -349,7 +353,7 @@ export default function Dashboard() {
                 />
                 <Switch>
                   {pages.map(({ subPath, Page }) => (
-                    <Route
+                    <SentryRoute
                       key={subPath}
                       exact
                       path={match.path + '/' + dashboardLocale + subPath}
@@ -358,7 +362,7 @@ export default function Dashboard() {
                       )}
                     />
                   ))}
-                  <Route
+                  <SentryRoute
                     render={() => (
                       <Redirect
                         to={toLocaleRoute(URLS.DASHBOARD + defaultPage)}
@@ -369,7 +373,7 @@ export default function Dashboard() {
               </>
             )}
           />
-          <Route
+          <SentryRoute
             render={() => (
               <Redirect to={toLocaleRoute(URLS.DASHBOARD + defaultPage)} />
             )}

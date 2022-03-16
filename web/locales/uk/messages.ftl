@@ -17,6 +17,7 @@ not-available-abbreviation = Недоступно
 banner-error-slow-1 = На жаль, Common Voice працює повільно. Дякуємо за зацікавленість.
 banner-error-slow-2 = Наш сервіс перевантажено вебтрафіком. Ми досліджуємо проблему.
 banner-error-slow-link = Сторінка стану
+error-something-went-wrong = Перепрошуємо, щось пішло не так
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -846,8 +847,14 @@ listen-again-instruction = Чудова робота! <playIcon></playIcon> Пр
 listen-3rd-time-instruction = Залишилось 2 <playIcon></playIcon>, продовжуйте!
 listen-last-time-instruction = <playIcon></playIcon> Останній!
 listen-empty-state = У нас закінчилися записи для перевірки цією мовою...
+listen-loading-error =
+    Нам не вдалося отримати аудіокліпи для прослуховування.
+    Будь ласка, спробуйте пізніше.
 speak-empty-state = У нас закінчилися речення для запису цією мовою ...
 speak-empty-state-cta = Запропонуйте свої речення
+speak-loading-error =
+    Нам не вдалося знайти жодних речень для вас.
+    Будь ласка, спробуйте пізніше.
 record-button-label = Запишіть свій голос
 share-title-new = <bold>Допоможіть нам</bold> знайти більше голосів
 keep-track-profile = Слідкуйте за своїм прогресом за допомогою профілю

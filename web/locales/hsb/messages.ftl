@@ -17,6 +17,7 @@ not-available-abbreviation = Ničo k dispoziciji
 banner-error-slow-1 = Bohužel Common Voice pomału běži. Dźakujemy so za waš zajim.
 banner-error-slow-2 = Dóstawamy wjele wobchada a přepytujemy tuchwilu problemy.
 banner-error-slow-link = Statusowa strona
+error-something-went-wrong = Hopla, něšto je so nimokuliło
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -400,7 +401,7 @@ skip-submission-note = Kedźbu: Dyrbiće hišće mjez Rěčeć abo Słuchać wub
 off = Wupinjeny
 on = Zapinjeny
 help-accent = Trjebaće pomoc wo akcenće?
-help-accent-explanation = Waš akcent je wašnje, kak słowa wurěkujeće. Jeho charakter wot toho wotwisuje, hdźež sće žiwy był, kotre druhe rěče rěčiće a wot wjele druhich faktorow. Móžeće wšě informacije zdźělić, kotrež za relewantne  maće.
+help-accent-explanation = Waš akcent je wašnje, kak słowa wurjekujeće. Jeho charakter wot toho wotwisuje, hdźež sće žiwy był, kotre druhe rěče rěčiće a wot wjele druhich faktorow. Móžeće wšě informacije zdźělić, kotrež za relewantne maće.
 help-variants = Trjebaće pomoc za warianty?
 help-variants-explanation = Warianty su specifiska forma rěče - rěča so na přikład wot ludźi, kotřiž su we wěstym regionje abo zhromadźenstwje žiwi. Druhdy wone so dialekty mjenuja.
 
@@ -545,7 +546,7 @@ about-nav-playbook = Zhońće, kak móžeće so wobdźělić
 
 about-playbook-what-is-language = Što je rěč na Common Voice?
 about-playbook-what-is-language-content-2 = Chcemy, zo rěčne modele lěpje móža, wjele rozdźělnych rěčnikow rozumić. Zo by to je móžne, dyrbi datowa sadźba wjele rozdźělnych ludźi reprezentować.
-about-playbook-what-is-language-content-3 = Někotre rěče maja enormne rozdźělne w gramatice, wokabularje a wurěkowanju. Tohodla budźemy w lěće 2022 <ctaLink>„warianty“ zawjedować</ctaLink>. To zhromadźenstwam móžnosć dawa, swoje rěče we wjetšej datowej sadźbje rozeznawać.
+about-playbook-what-is-language-content-3 = Někotre rěče maja enormne rozdźělne w gramatice, wokabularje a wurjekowanju. Tohodla budźemy w lěće 2022 <ctaLink>„warianty“ zawjedować</ctaLink>. To zhromadźenstwam móžnosć dawa, swoje rěče we wjetšej datowej sadźbje rozeznawać.
 
 ## How do I add a language
 
@@ -558,11 +559,17 @@ about-playbook-how-add-language-content-3 = <strong>Zo byšće sady zběrał</st
 
 about-playbook-how-localize = Kak lokalizowanje sydłow funguje?
 about-playbook-how-localize-content-1 = Přełožowanje sydła Common Voice so na <strong>Pontoon</strong> wotměwa.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Załožće konto</pontoonAccountLink>, jeli žane nimaće. Wubjerće swoju rěč<strong>(„Team“)</strong> a potom projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Tam dataje namakaće, kotrež dyrbja so přełožować. Klikńće na jednu z nich, potom so słowa w jendźelšćinje a kašćik za přełožowanje pokazuja.
+about-playbook-how-localize-content-3 = Přełožowanje  so z jendźelšćiny přewjedźe, ale móžeće <strong>namjety</strong> w druhich rěčach widźeć. Klikńće na <strong>profilowy</strong> symbol, potom na wotkaz <strong>Nastajenja</strong> a přidajće rěče, kotrež rěčiće. Deleka w prawym róžku budźe lisćina přełožkow z mjenom <strong>Locales</strong>. Přełožki so na sydle po jednym dnju pokazaja.
 about-playbook-how-localize-content-4 = Sydło je hotowe za wozjewjenje, hdyž je po 75 % dokónčene.
+about-playbook-how-localize-content-5 = Wobhladajće sej rozjasnjenske widejo
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Kak móžu sady přidać?
+about-playbook-how-add-sentences-content-1 = <strong>Hromadźak sadow</strong> je nastroj za hromadźenje a přepruwowanje zjawnje přistupnych sadow. <scAccountLink>Dyrbiće konto załožić</scAccountLink>. Přidajće potom swojemu <strong>profilej</strong> swoju rěč. Móžeće sady <strong>přidać</strong> abo do toho přidate sady <strong>přepruwować</strong>.
+about-playbook-how-add-sentences-content-2 = Sady dyrbja so wot dweju wosobow přepruwować a akceptować, zo bychu so do Common Voice přewzali. Směrnicy za swoju rěč <languageGuidelinesLink>tu</languageGuidelinesLink> wutworiće. Sady dyrbja <licenseLink>zjawnje přistupne</licenseLink> a krótše hač 15 słowow być. Móžeće wobsedźerja teksta prosyć, zo by jón z pomocu našeho wozjewjenja wzdaća pod <waiverLink>CC0</waiverLink> stajił a jo na commonvoice@mozilla.com pósłał.
+about-playbook-how-add-sentences-content-3 = Móžeće <scraperLink>ekstraktor sadow</scraperLink> wužiwać, zo byšće krótke sady z Wikipedije dóstał.
 about-playbook-how-add-sentences-content-4 = Sady, kotrež su přepruwowane, so na srjedach eksportuja a su po přichodnym wozjewjenju k dispoziciji.
 
 ## How to record quality
@@ -1133,6 +1140,7 @@ sc-header-profile = Profil
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Zmylki zdźělić
 sc-footer-translate = Tutu stronu přełožować
+sc-footer-report-copyright = Problemy z awtorskim prawom zdźělić
 sc-footer-privacy = Priwatnosć
 sc-footer-terms = Wuměnjenja
 sc-footer-cookies = Placki
@@ -1143,11 +1151,13 @@ sc-logout-button = Wotzjewić
 
 sc-home-title = Witajće k Common Voice Sentence Collector
 sc-home-collect-title = Sady hromadźić
+sc-home-collect-text = Pomhajće nam, zjawnje přistupne sady pisać abo hromadźić.
 sc-home-review-title = Sady přepruwować
 sc-home-review-text = Pomhajće nam, korektnosć sadow po směrnicach přepruwować.
 
 ## GENERAL
 
+sc-languages-fetch-error = K dispoziciji stejace rěče njedachu so wotwołać. Přinoški tuchwilu móžne njejsu. Prošu spytajće pozdźišo hišće raz.
 
 ## HOW-TO
 
@@ -1155,13 +1165,16 @@ sc-howto-title = Nawod
 sc-howto-addlang-title = Rěče přidać, z kotrymiž so dźěła
 sc-howto-addlang-text = Hdyž sće přizjewjeny, móžeće swoje rěče we wotrězku Profil wubrać.
 sc-howto-addsen-title = Nowe sady přidać
+sc-howto-addsen-item-1 = Wšě sady, kotrež zapodawaće, dyrbja pod <wikipediaLink>licencu Public Domain (CC-0)</wikipediaLink> być. Zo bychmy přiwzaće dźěła podpěrowali, kotrež pod zjawnej licencu njeje, smy <cc0WaiverLink>předłohu za přinoški</cc0WaiverLink> za dźěła wutworili, ke kotrymž by mějićel awtorskeho prawa rady swój material přinošował.
+sc-howto-addsen-item-5 = Wukrajne pismiki. Pismiki dyrbja w rěči płaćiwe być, w kotrejž so je rěča. “ж” na přikład je pismik w ruskim alfabeće, ale so ženje w jendźelšćinje njewužiwa a njeměli so tohodla ženje w jendźelskim žórłowym teksće jewić.
+sc-howto-addsen-item-6 = Rěče móža swoje <validationRulesLink>swójske přepruwowanske prawidła</validationRulesLink> z přidatnymi žadanjemi měć. Jeli za rěč specifiska přepruwowanska dataja njeje, wužiwamy powšitkowne jendźelske prawidła.
 sc-howto-cite-title = Citować
 sc-howto-cite-item-1 = Wy móhł websydło podać, na př. „Common Voice - https://commonvoice.mozilla.org/“
 sc-howto-review-title = Sady přepruwować
 sc-howto-review-subtitle = Zawěsćće, zo sady slědowacym kriterijam wotpowěduja:
 sc-howto-review-criteria-1 = Sada dyrbi prawje napisana być.
 sc-howto-review-criteria-2 = Sada dyrbi gramatiski korektna być.
-sc-howto-review-criteria-3 = Sada dyrbi wurěkujomna być.
+sc-howto-review-criteria-3 = Sada dyrbi wurjekujomna być.
 sc-howto-review-criteria-4 = Jeli sada kriterijam wotpowěduje, klikńće na tłóčatko „Schwalić“.
 sc-howto-review-criteria-5 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Wotpokazać“. Jeli sej wo sadźe wěsty njejsće, móžeće tež ju přeskočić a k přichodnej přeńć.
 sc-howto-review-criteria-6 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
@@ -1174,6 +1187,7 @@ sc-howto-findpd-subtitle-2 = Dźěłajće z lokalnymi organizacijemi abo jednotl
 ## MY SENTENCES
 
 sc-my-title = Moje sady
+sc-my-description = Tuta strona wam přehlad wšěch wašich zapodatych sadow da. Móžeće tež hižo zapodate sady zhašeć, jeli trjeba, hdyž kontrolny kašćik pódla nich markěrujeće a deleka na &quot;Wubrane sady zhašeć&quot; klikaće. Prošu wotstrońće sady jenož, jeli je absolutnje trjeba, na přikład, jeli sće po tym pytnył, zo sada je přez awtorske prawo škitana.
 sc-my-loading = Waše sady so začituja…
 sc-my-err-fetching = Zmylk při wotwołowanju wašich sadow. Prošu spytajće hišće raz.
 sc-my-no-sentences = Žane sady namakane!
@@ -1215,12 +1229,16 @@ sc-submit-prompt =
 sc-submit-title = Sady přidać
 sc-submit-select-language =
     .labelText = Rěč wubrać
+sc-submit-add-sentences = <wikipediaLink>Zjawnje přistupne</wikipediaLink> sady přidać
 sc-submit-ph-one-per-line =
     .placeholder = Jedna sada na linku
+sc-submit-from-where = Zwotkel su tute <wikipediaLink>zjawnje přistupne</wikipediaLink> sady?
 sc-submit-ph-read-how-to =
     .placeholder = Čitajće naš nawod, jeli sej wěsty njejsće, kak dyrbiće je přirjadować
+sc-submit-confirm = Wobkrućam, zo tute sady su <wikipediaLink>zjawnje přistupne</wikipediaLink> a mam prawo je nahrać.
 sc-submit-button =
     .submitText = Wotpósłać
+sc-submit-filtered = Filtrowane sady falowacych žadanjow dla (prošu zapodajće krute wersije jako nowe sady):
 sc-submit-guidelines = Prošu přepruwujće <howToLink>směrnicy</howToLink>.
 
 ## ADD LANGUAGE
@@ -1345,10 +1363,10 @@ sc-lang-info-validated =
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Žane wotpokazane sady.
-        [one] { $validatedSentences } wotpokazana sada.
-        [two] { $validatedSentences } wotpokazanej sadźe.
-        [few] { $validatedSentences } wotpokazane sady.
-       *[other] { $validatedSentences } wotpokazanych sadow.
+        [one] { $rejectedSentences } wotpokazana sada.
+        [two] { $rejectedSentences } wotpokazanej sadźe.
+        [few] { $rejectedSentences } wotpokazane sady.
+       *[other] { $rejectedSentences } wotpokazanych sadow.
     }
 
 ## LOGIN
@@ -1377,7 +1395,7 @@ sc-criteria-title = Přepruwowanske kriterije
 sc-criteria-make-sure = Zawěsćće, zo sady slědowacym kriterijam wotpowěduja:
 sc-criteria-item-1 = Sada dyrbi prawje napisana być.
 sc-criteria-item-2 = Sada dyrbi gramatisce korektna być.
-sc-criteria-item-3 = Sada dyrbi wurěkujomna być.
+sc-criteria-item-3 = Sada dyrbi wurjekujomna być.
 sc-criteria-item-4 = Jeli sada kriterijam wotpowěduje, klikńće na tłóčatko „Schwalić“.
 sc-criteria-item-5-2 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Wotpokazać“. Jeli sej wo sadźe wěsty njejsće, móžeće tež ju přeskočić a k přichodnej přeńć.
 sc-criteria-item-6 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
@@ -1391,6 +1409,7 @@ sc-review-select-language = Prošu wubjerće rěč, zo byšće sady přepruwowa�
 sc-review-no-sentences = Žane sady za přepruwowanje. <addLink>Přidajće nětko dalše sady!</addLink>
 sc-review-form-prompt =
     .message = Přepruwowane sady hišće zapodate njejsu, něwěrno?
+sc-review-form-usage = Šmórńće naprawo, zo byšće sadu schwalił. Šmórńće nalěwo, zo byšće ju wotpokazał. Šmórńće horje, zo byšće ju přeskočił. <strong>Njezabywajće, swoje pohódnoćenje zapodać!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Žórło: { $sentenceSource }
@@ -1425,6 +1444,7 @@ sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěč wužiwarskeho powjercha
 sc-settings-language-translated-warning = Strony za tutu rěč snano dospołnje přełožene njejsu. Móžeće z přełoženjom na <pontoonLinkLink>Pontoon</pontoonLinkLink> wupomhać.
 sc-settings-reset-skipped = Přeskočene sady wróćo stajić
+sc-settings-skipped-decription = Sće do toho sady při pohódnoćenju přeskočił. Wróćostajenje přeskočenych sadow budźe wšě přeskočene sady znowa pokazować. To je njewotwisne wot rěče.
 sc-settings-show-all-button = Wšě přeskočene sady hišće raz pokazać
 sc-settings-failed = Nastajenja njedadźa so změnić. Prošu spytajće hišće raz.
 # VALIDATION

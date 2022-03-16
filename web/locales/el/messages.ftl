@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Λάβετε email, όπως υπενθυ
 email-opt-in-privacy-v2 = Επιλέγοντας να λαμβάνετε email, δηλώνετε ότι συμφωνείτε με τον χειρισμό αυτών των δεδομένων από τη Mozilla, όπως εξηγεί η <privacyLink>Πολιτική απορρήτου</privacyLink>.
 indicates-required = * Υποχρεωτικό πεδίο
 not-available-abbreviation = Μ/Δ
+banner-error-slow-1 = Δυστυχώς, το Common Voice καθυστερεί. Ευχαριστούμε για το ενδιαφέρον σας.
+banner-error-slow-2 = Παρατηρούμε πολλή επισκεψιμότητα και διερευνούμε τα ζητήματα αυτήν τη στιγμή.
+banner-error-slow-link = Σελίδα κατάστασης
+error-something-went-wrong = Δυστυχώς, κάτι πήγε στραβά
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -28,7 +32,7 @@ af = Αφρικάανς
 am = Αμχαρικά
 an = Αραγωνικά
 ar = Αραβικά
-arn = Mapudungun
+arn = Μαπούτσε
 as = Ασαμικά
 ast = Αστουριανικά
 az = Αζερικά
@@ -43,10 +47,10 @@ bxr = Μπουργιάτ
 ca = Καταλανικά
 cak = Κακτσικέλ
 ckb = Κεντρικά Κουρδικά
-cnh = Hakha Chin
+cnh = Χάκχα Τσιν
 co = Κορσικά
 cs = Τσέχικα
-cv = Chuvash
+cv = Τσουβασικά
 cy = Ουαλικά
 da = Δανικά
 de = Γερμανικά
@@ -88,7 +92,7 @@ ja = Ιαπωνικά
 ka = Γεωργιανά
 kaa = Κάρα-Καλπάκ
 kab = Καβυλικά
-kbd = Kabardian
+kbd = Καμπαρντιανά
 ki = Κικούγιου
 kk = Καζακικά
 km = Χμερ
@@ -336,6 +340,9 @@ profile-form-additional-language =
     .label = Επιπρόσθετη γλώσσα
 profile-form-language =
     .label = Γλώσσα
+profile-form-variant =
+    .label = Πoια παραλλαγή της γλώσσας «{ $language }» μιλάτε;
+profile-form-variant-default-value = Δεν έχει επιλεχθεί παραλλαγή
 profile-form-accent =
     .label = Προφορά
 profile-form-custom-accent-help-text =
@@ -386,6 +393,9 @@ skip-submission-note = Σημείωση: Θα πρέπει να επιλέγετ
 off = Όχι
 on = Ναι
 help-accent = Χρειάζεστε βοήθεια με την προφορά;
+help-accent-explanation = Η προφορά σας είναι ο τρόπος που προφέρετε τις λέξεις. Μπορεί να σχετίζεται με την τοποθεσία πού έχετε ζήσει, με τις άλλες γλώσσες που μιλάτε και πολλούς άλλους παράγοντες. Μπορείτε να μοιραστείτε εδώ οποιαδήποτε πληροφορία πιστεύετε ότι είναι σχετική.
+help-variants = Χρειάζεστε βοήθεια με τις παραλλαγές;
+help-variants-explanation = Οι παραλλαγές αποτελούν συγκεκριμένη μορφή μιας γλώσσας - για παράδειγμα, είναι κοινές σε όσους ζουν σε κάποια γεωγραφική περιοχή ή κοινότητα. Μερικές φορές αυτές ονομάζονται διάλεκτοι.
 
 ## Profile - Email
 
@@ -413,6 +423,10 @@ faq-what-cv-a =
     Η τεχνολογία αναγνώρισης φωνής αλλάζει ριζικά τον τρόπο με τον οποίο αλληλεπιδρούμε με τις μηχανές, αλλά οι υπάρχουσες λύσεις είναι ακριβές και ιδιωτικές. Το Common Voice αποτελεί μέρος της πρωτοβουλίας της Mozilla να καταστήσει τις τεχνολογίες αναγνώρισης φωνής καλύτερες και πιο προσιτές για όλους. Το Common Voice είναι μια τεράστια παγκόσμια βάση δεδομένων, που αποτελείται από δωρισμένες φωνές και επιτρέπει στον καθένα να εκπαιδεύσει εύκολα και γρήγορα εφαρμογές με φωνητικές λειτουργίες, σε οποιαδήποτε ίσως γλώσσα.
     
     Δεν συλλέγουμε μόνο δείγματα φωνής σε ευρέως ομιλούμενες γλώσσες, αλλά και σε γλώσσες με μικρότερο αριθμό ομιλητών. Η δημοσίευση ενός ποικίλου συνόλου δεδομένων φωνών θα δώσει τη δυνατότητα σε προγραμματιστές, επιχειρηματίες και κοινότητες να αντιμετωπίσουν αυτό το χάσμα. Εκτός από το σύνολο δεδομένων του Common Voice, αναπτύσσουμε επίσης μια μηχανή αναγνώρισης ομιλίας ανοιχτού κώδικα που ονομάζεται Deep Speech.
+faq-what-cv-a-2 =
+    Η τεχνολογία αναγνώρισης φωνής αλλάζει ριζικά τον τρόπο με τον οποίο αλληλεπιδρούμε με τις μηχανές, αλλά οι υπάρχουσες λύσεις είναι ακριβές και ιδιωτικές. Το Mozilla Common Voice είναι μια πρωτοβουλία για να γίνουν οι τεχνολογίες αναγνώρισης φωνής καλύτερες και πιο προσιτές σε όλους. Το Common Voice είναι μια τεράστια, παγκόσμια βάση δεδομένων από δωρισμένες εγγραφές φωνής που επιτρέπει στον καθένα να εκπαιδεύσει εύκολα και γρήγορα εφαρμογές με φωνητικές λειτουργίες, σε δυνητικά οποιαδήποτε γλώσσα.
+    
+    Δεν συλλέγουμε μόνο δείγματα φωνής ευρέως ομιλούμενων γλωσσών, αλλά και λιγότερο διαδεδομένων. Η δημοσίευση ενός ποικίλου συνόλου δεδομένων φωνών θα δώσει τη δυνατότητα σε προγραμματιστές, επιχειρηματίες και κοινότητες να αντιμετωπίσουν οι ίδιοι το όποιο κενό.
 faq-why-important-q = Γιατί είναι σημαντικό;
 faq-why-important-a =
     Η ομιλία είναι συχνά ο πιο φυσικός τρόπος επικοινωνίας μεταξύ μας και οι τεχνολογίες φωνής φέρνουν αυτή την ευκολία στους υπολογιστές και τις κινητές συσκευές μας. Θέλουμε να υποστηρίξουμε τους προγραμματιστές ώστε να δημιουργήσουν εκπληκτικές εφαρμογές αναγνώρισης φωνής, όπως εφαρμογές μετάφρασης σε πραγματικό χρόνο και ψηφιακούς βοηθούς με λειτουργίες φωνής. Αλλά αυτή τη στιγμή, τα περισσότερα φωνητικά δεδομένα που απαιτούνται για την κατασκευή τέτοιων εφαρμογών είναι ακριβά και ιδιωτικά. Ελπίζουμε ότι το σύνολο δεδομένων του Common Voice θα δώσει στους προγραμματιστές ό,τι χρειάζονται για να καινοτομήσουν και να κάνουν την τεχνολογία ομιλίας διαθέσιμη στη δική τους γλώσσα.
@@ -444,9 +458,9 @@ faq-how-calc-hours-q = Πώς υπολογίζει το Common Voice τις ώρ
 faq-how-calc-hours-a = Υπολογίζουμε τις ώρες εκτιμώντας το μέσο μήκος κάθε ηχογράφησης και πολλαπλασιάζοντας τον αριθμό αυτό με το συνολικό αριθμό ηχογραφήσεων σε όλες τις γλώσσες.
 faq-where-src-from-2-q = Από πού προέρχεται το πηγαίο κείμενο;
 faq-where-src-from-2-a =
-    Το πηγαίο κείμενο αποτελείται από πρωτότυπες δωρεές εθελοντών, καθώς και διαλόγους από σενάρια ταινιών του δημόσιου τομέα, όπως το <italic>Μια Υπέροχη Ζωή</italic>.
+    Το πηγαίο κείμενο αποτελείται από πρωτότυπες δωρεές εθελοντών, καθώς και διαλόγους από σενάρια ταινιών δημόσιου τομέα, όπως το <italic>Μια Υπέροχη Ζωή</italic>.
     
-    Μπορείτε να δείτε τις προτάσεις του πηγαίου κειμένου σε αυτό το <githubLink>φάκελο του GitHub</githubLink>.
+    Μπορείτε να δείτε τις προτάσεις του πηγαίου κειμένου σε αυτό τον <githubLink>φάκελο του GitHub</githubLink>.
 faq-why-not-ask-read-q = Γιατί δεν ζητάτε από τους εθελοντές να διαβάζουν βιβλία ή άρθρα της Wikipedia σε διαφορετικές γλώσσες;
 faq-why-not-ask-read-a = Για να καταστήσουμε το σύνολο δεδομένων Common Voice όσο το δυνατόν πιο χρήσιμο, αποφασίσαμε να επιτρέψουμε μόνο τη χρήση κειμένου που είναι διαθέσιμο με άδεια Creative Commons (CC0). Η χρήση του προτύπου CC0 σημαίνει ότι είναι πιο δύσκολο να βρείτε και να συλλέξετε κείμενα, αλλά επιτρέπει σε οποιονδήποτε να χρησιμοποιήσει τα προκύπτοντα φωνητικά δεδομένα χωρίς περιορισμούς χρήσης ή εξουσιοδότηση από το Mozilla. Εν τέλει, θέλουμε να καταστήσουμε το πολύγλωσσο σύνολο δεδομένων μας όσο το δυνατόν πιο χρήσιμο σε όλους, συμπεριλαμβανομένων των ερευνητών, των πανεπιστημίων, των νεοσύστατων επιχειρήσεων, των κυβερνήσεων, των οργανώσεων κοινωνικού σκοπού και των χομπίστων.
 faq-why-account-q = Γιατί να δημιουργήσω λογαριασμό;
@@ -467,6 +481,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Γιατί το Common Voice;
+about-header-description-v2 =
+    <p>Το Common Voice είναι ένα δημόσια διαθέσιμο σύνολο δεδομένων φωνής, που βασίζεται στις φωνές εθελοντών από όλο τον κόσμο. Τα άτομα που θέλουν να αναπτύξουν εφαρμογές με φωνητικές δυνατότητες, μπορούν να χρησιμοποιήσουν το σύνολο δεδομένο για να εκπαιδεύσουν τα μοντέλα μηχανικής εκμάθησης.</p>
+    <p>Προς το παρόν, τα περισσότερα σύνολα δεδομένων φωνής ανήκουν σε εταιρείες, κάτι που εμποδίζει την καινοτομία. Τα σύνολα δεδομένων φωνής υπεραντιπροσωπεύουν λευκούς αγγλόφωνους άντρες. Αυτό σημαίνει ότι η τεχνολογία φωνής δεν λειτουργεί καθόλου για πολλές γλώσσες και σε αυτές που υποστηρίζει, ενδέχεται να μην αποδίδει το ίδιο καλά για όλους. Θέλουμε να το αλλάξουμε αυτό κινητοποιώντας ανθρώπους σε όλο τον κόσμο για να μοιραστούν τη φωνή τους.</p>
 how-does-it-work-title-v2 = Πώς λειτουργεί το Common Voice;
 how-does-it-work-text = Δημιουργούμε με crowdsourcing ένα σύνολο φωνητικών δεδομένων ανοικτού κώδικα. Συνεισφέρετε τη φωνή σας, επικυρώστε την ακρίβεια των κλιπ άλλων χρηστών, κάντε το σύνολο δεδομένων καλύτερο για όλους.
 
@@ -474,8 +491,11 @@ how-does-it-work-text = Δημιουργούμε με crowdsourcing ένα σύ�
 
 about-language-req-subtitle = Κάποιος αιτείται την προσθήκη γλώσσας.
 about-localization-title = Μετάφραση ιστοτόπου
+about-localization-subtitle = Το κείμενο του ιστοτόπου μεταφράζεται σε αυτήν τη γλώσσα.
 about-sentence-collection-title = Συλλογή προτάσεων
+about-sentence-collection-subtitle = Συλλέγονται προτάσεις για να τις διαβάσουν οι χρήστες.
 about-new-lang-title = Έναρξη νέας γλώσσας
+about-new-lang-subtitle = Ξεκινάμε τον ιστότοπο του Common Voice σε αυτήν τη γλώσσα.
 about-voice-contrib-title = Συνεισφορά φωνής
 about-voice-contrib-subtitle = Ο κόσμος έρχεται και συνεισφέρει τις φωνές του.
 about-voice-validation-title = Επικύρωση φωνής
@@ -489,7 +509,7 @@ about-listen-queue = Ουρά-Ακρόασης
 about-listen-queue-text = Τα φωνητικά κλιπ εισάγονται σε μια ουρά υποβολής που τα προετοιμάζει για ακρόαση.
 about-listen = Ακρόαση
 about-listen-text = Οι χρήστες επικυρώνουν την ακρίβεια των κλιπ, ελέγχοντας ότι ο εκφωνητής διάβασε σωστά την πρόταση.
-about-is-it-valid = Είναι έγκυρο το κλιπ;
+about-is-it-valid = Είναι έγκυρο το απόσπασμα;
 about-is-it-valid-text = Ένα φωνητικό κλιπ σημειώνεται ως «έγκυρο» όταν ένας χρήστης το εγκρίνει με «Ναι».
 about-yes-votes = ≥ 2 θετικές ψήφοι
 about-yes-votes-text = Για να μπορέσει να μπει στο σύνολο των δεδομένων του Common Voice, ένα κλιπ ομιλίας πρέπει να επικυρωθεί από δύο ξεχωριστούς χρήστες.
@@ -512,6 +532,8 @@ about-get-involved-text-2 =
     αναφέρετε ζητήματα της ιστοσελίδας μέσω του <githubLink>GitHub</githubLink>,
     ή βρείτε μας στην κοινότητα μας στο <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Πώς μπορώ να ενημερώνομαι;
+about-stay-in-touch-text-1 = <emailFragment>Εγγραφείτε</emailFragment> στη λίστα αλληλογραφίας μας για να μάθετε πώς μπορείτε να λάβετε μέρος σε καμπάνιες, σε εκδηλώσεις και στον σχεδιασμό δυνατοτήτων του Common Voice.
+about-stay-in-touch-text-2 = Μπορείτε να συνομιλήσετε με άλλους στις γλωσσικές κοινότητες της Mozilla, κάνοντας εγγραφή στο <discourseLink>Discourse</discourseLink> για επίκαιρες συζητήσεις ή στο <matrixLink>Matrix</matrixLink> για γρήγορες συμβουλές.
 about-nav-why-common-voice = Γιατί;
 about-nav-how-it-works = Πώς;
 about-nav-partners = Συνεργάτες
@@ -523,43 +545,76 @@ about-nav-playbook = Μάθετε πώς να λάβετε μέρος
 ## What is a language
 
 about-playbook-what-is-language = Τι είναι μια γλώσσα του Common Voice;
+about-playbook-what-is-language-content-1 = Υπάρχουν πολλοί τρόποι να αντιληφθεί κανείς μια γλώσσα. Για τα μοντέλα αναγνώρισης ομιλίας, το Common Voice προτείνει την εστίαση στην «αμοιβαία κατανόηση», δηλαδή «μπορούν οι ομιλητές αυτής της γλώσσας να καταλάβουν σε μεγάλο βαθμό ο ένας τον άλλο εάν προσπαθήσουν;».
+about-playbook-what-is-language-content-2 = Θέλουμε τα μοντέλα ομιλίας να κατανοούν καλύτερα ένα ευρύ φάσμα ομιλητών. Για να συμβεί αυτό, ένα φωνητικό σύνολο δεδομένων πρέπει να αντιπροσωπεύει πολλά διαφορετικά άτομα.
+about-playbook-what-is-language-content-3 = Ορισμένες γλώσσες έχουν τεράστιες διαφορές στη γραμματική, το λεξιλόγιο και την προφορά. Για αυτόν τον λόγο, <ctaLink>παρουσιάζουμε τις «Παραλλαγές»</ctaLink> το 2022. Αυτό δίνει στις κοινότητες έναν τρόπο να διακρίνουν τις γλώσσες τους μέσα στο μεγαλύτερο σύνολο δεδομένων.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Πώς προσθέτω μια γλώσσα;
 about-playbook-how-add-language-content-1 = Αρχικά, ελέγξτε εάν η γλώσσα σας <languageLink>υπάρχει ήδη</languageLink>. Εάν δεν υπάρχει, θα πρέπει να <strong>μεταφράσετε τον ιστότοπο και να συγκεντρώσετε προτάσεις</strong>.
+about-playbook-how-add-language-content-2 = <strong>Για να μεταφράσετε τον ιστότοπο</strong> - <translateVideo>ξεκινήστε</translateVideo> στο <pontoonLink>Pontoon</pontoonLink>. Το Pontoon διαθέτει πολλές γλώσσες, αλλά αν δεν έχει τη δική σας, μπορείτε να <pontoonRequestLink>τη ζητήσετε</pontoonRequestLink>. Στη συνέχεια, ζητήστε <repoLink>μέσω του GitHub</repoLink> να γίνει διαθέσιμο το Common Voice στη γλώσσα σας. Δείτε περισσότερα σχετικά με τη <localizationFragment>μετάφραση του ιστοτόπου</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Για να συλλέξετε προτάσεις</strong> - <scVideo>ρυθμίστε</scVideo> το <scLink>εργαλείο συλλογής προτάσεων</scLink>.
+about-playbook-how-add-language-content-4 = Μπορείτε να <scLinkAdd>προσθέσετε μικρούς αριθμούς</scLinkAdd> προτάσεων εδώ ή μπορείτε να κάνετε <bulkImportDocsLink>μαζικές εισαγωγές</bulkImportDocsLink> μέσω ενός αιτήματος στο Github. Θυμηθείτε ότι οι προτάσεις πρέπει να είναι <licenseLink>CC0 (ή δημόσιου τομέα)</licenseLink> ή μπορείτε να γράψετε τις δικές σας. Δείτε περισσότερα σχετικά με τη <scFragment>συλλογή προτάσεων</scFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Πώς λειτουργεί η μετάφραση του ιστοτόπου;
 about-playbook-how-localize-content-1 = Η μετάφραση του ιστοτόπου του Common Voice γίνεται στο <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Δημιουργήστε έναν λογαριασμό</pontoonAccountLink> εάν δεν έχετε ήδη έναν. Έπειτα, επιλέξτε τη γλώσσα σας <strong>(«Team»)</strong> και επιλέξτε το έργο <pontoonCvLink>Common Voice</pontoonCvLink>. Θα υπάρχουν αρχεία προς μετάφραση. Κάντε κλικ σε ένα και θα εμφανιστούν λέξεις στα αγγλικά, καθώς και ένα πεδίο για να τις μεταφράσετε.
+about-playbook-how-localize-content-3 = Η μετάφραση γίνεται από τα αγγλικά, αλλά μπορείτε να δείτε <strong>προτάσεις</strong> σε άλλες γλώσσες. Κάντε κλικ στο εικονίδιο του <strong>προφίλ</strong>, επιλέξτε τον σύνδεσμο <strong>Settings</strong> και προσθέστε όσες γλώσσες μιλάτε. Στην κάτω δεξιά γωνία θα υπάρχει μια λίστα με μεταφράσεις, με όνομα <strong>Locales</strong>. Οι μεταφράσεις εμφανίζονται στον ιστότοπο μετά από μία ημέρα.
 about-playbook-how-localize-content-4 = Ο ιστότοπος είναι έτοιμος για κυκλοφορία όταν ολοκληρωθεί κατά 75%.
 about-playbook-how-localize-content-5 = Δείτε το ενημερωτικό βίντεο για βοήθεια
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Πώς προσθέτω προτάσεις;
+about-playbook-how-add-sentences-content-1 = Η <strong>Συλλογή προτάσεων</strong> είναι ένα εργαλείο για τη συλλογή και την επικύρωση προτάσεων του δημόσιου τομέα. Θα <scAccountLink>χρειαστεί να δημιουργήσετε έναν λογαριασμό</scAccountLink>. Έπειτα, προσθέστε τη γλώσσα σας στο <strong>προφίλ</strong> σας. Μπορείτε να <strong>προσθέσετε</strong> προτάσεις ή να <strong>ελέγξετε</strong> ήδη υποβεβλημένες προτάσεις.
+about-playbook-how-add-sentences-content-2 = Οι προτάσεις πρέπει να ελεγχθούν και να εγκριθούν από δύο άτομα για να συμπεριληφθούν στο Common Voice. Δημιουργήστε οδηγίες για τη γλώσσα σας <languageGuidelinesLink>εδώ</languageGuidelinesLink>. Οι προτάσεις πρέπει να ανήκουν στον <licenseLink>δημόσιο τομέα</licenseLink> και να είναι μικρότερες από 15 λέξεις. Μπορείτε να ζητήσετε από τον κάτοχο ενός κειμένου να το διαθέσει <waiverLink>με άδεια CC0 χρησιμοποιώντας τη διαδικασία αποποίησής μας</waiverLink> και να μας το στείλει στο commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Μπορείτε να χρησιμοποιήσετε το <scraperLink>εργαλείο εξαγωγής προτάσεων</scraperLink> για να αξιοποιήσετε σύντομες προτάσεις από τη Βικιπαίδεια.
+about-playbook-how-add-sentences-content-4 = Οι προτάσεις που έχουν επικυρωθεί εξάγονται τις Τετάρτες και είναι διαθέσιμες μετά την επόμενη κυκλοφορία.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Πώς ηχογραφώ αποσπάσματα υψηλής ποιότητας;
+about-playbook-how-record-content-1 = Μιλήστε κανονικά! Ο τρόπος ομιλίας σας είναι ευπρόσδεκτος εδώ - θέλουμε την προφορά σας όπως είναι και θέλουμε τη συνήθη ένταση, το στυλ και τον τονισμό σας.
+about-playbook-how-record-content-2 = Αποφύγετε τον υπερβολικό θόρυβο γύρω σας - θα πρέπει να σας ακούμε εύκολα.
+about-playbook-how-record-content-3 = Διαβάστε προσεκτικά την πρόταση - μην παραλείψετε, μην αλλάξετε και μην προσθέσετε λέξεις.
+about-playbook-how-record-content-4 = Βεβαιωθείτε ότι η πλατφόρμα ηχογραφεί πριν αρχίσετε να μιλάτε και ότι σταματάει μόνο όταν τελειώσετε.
 about-playbook-how-record-content-5 = <accuracyLink>Δείτε περισσότερα σχετικά με τα κριτήρια ακρίβειας.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Πώς μπορούμε να αναπτύξουμε μια γλώσσα στο Common Voice;
+about-playbook-how-grow-language-content-1 = Η δημιουργία ευκαιριών ώστε να συνεισφέρουν διάφορα άτομα στο Common Voice διασφαλίζει ότι το σύνολο δεδομένων εξυπηρετεί όσο το δυνατόν περισσότερους ανθρώπους. Δημιουργήσαμε πόρους και πρότυπα που μπορείτε να χρησιμοποιήσετε!
 about-playbook-how-grow-language-content-2 = Εκδηλώσεις
+about-playbook-how-grow-language-content-3 = Μπορείτε να πραγματοποιήσετε εκδηλώσεις για να βοηθήσετε τους ανθρώπους να συνεισφέρουν. Είναι πιο εύκολο από όσο νομίζετε. Μπορείτε να το κάνετε διαδικτυακά με ένα εργαλείο τηλεδιασκέψεων ή δια ζώσης, εάν είναι ασφαλές. <eventTemplate>Δείτε τα πρότυπα και τους πόρους μας για τη διεξαγωγή εκδηλώσεων</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Κοινωνικά δίκτυα
 about-playbook-how-grow-language-content-6 = Συνεργασίες και δίκτυα
+about-playbook-how-grow-language-content-7 = Βρείτε άλλους που να ενδιαφέρονται. Μπορεί να είναι πανεπιστήμια, φροντιστήρια ξένων γλωσσών, ομάδες υποστήριξης ή κοινότητες επιστήμης δεδομένων. Εξηγήστε με σαφήνεια πώς μπορούν να βοηθήσουν και γιατί. <outreachTemplates>Δείτε το πρότυπό μας για τα email ευαισθητοποίησης</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Γίνετε δημιουργικοί!</strong> Η γλωσσική σας κοινότητα θα είναι μοναδική και υπάρχουν λίγοι μόνο τρόποι για να ξεκινήσετε.
 
 ## How to validate
 
+about-playbook-how-validate = Πώς ξέρω αν πρέπει να εγκρίνω ένα απόσπασμα;
+about-playbook-how-validate-content-1 = Αν μπορέσατε να τα <strong>ακούσετε</strong> και να τα <strong>καταλάβετε</strong>, <strong>καλό θα ήταν να τα εγκρίνετε</strong>.
+about-playbook-how-validate-content-2 = <strong>Μην απορρίπτετε αποσπάσματα όπου ο ομιλητής «έχει προφορά», διαφορετική από τη δική σας</strong> - αυτό είναι σημαντικό για να λειτουργεί καλύτερα η αναγνώριση φωνής για όλους.
+about-playbook-how-validate-content-3 = Αν πιστεύετε ότι η προφορά καθιστά <strong>αδύνατη την κατανόηση</strong> ή υπάρχει <strong>πολύς θόρυβος στο παρασκήνιο</strong> ή <strong>μιλούν και άλλα άτομα</strong>, τότε θα πρέπει να απορρίψετε το απόσπασμα. <accuracyLink>Δείτε περισσότερες πληροφορίες για τα κριτήρια ακρίβειάς μας</accuracyLink>.
+about-playbook-how-validate-content-4 = Αν ένα απόσπασμα απορριφθεί από 2 άτομα, κυκλοφορεί σε διαφορετικό υποσύνολο του συνόλου δεδομένων.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Πώς βρίσκω και χρησιμοποιώ το σύνολο δεδομένων;
+about-playbook-how-access-dataset-content-1 = Μεταβείτε στη <datasetsPage>σελίδα συνόλων δεδομένων</datasetsPage>, επιλέξτε την έκδοση και τις γλώσσες που θέλετε και κάντε λήψη! Τα αρχεία έχουν <metadataLink>σχετικά μεταδεδομένα</metadataLink>, όπως δημογραφικά στοιχεία και δεδομένα επικύρωσης. Θα χρειαστεί να καταχωρήσετε μια διεύθυνση email για να κάνετε λήψη του συνόλου δεδομένων.
+about-playbook-how-access-dataset-content-2 = Αν ψάχνετε για εργαλεία δημιουργίας μοντέλων ASR, μπορείτε να επικοινωνήσετε με άλλα άτομα στην κοινότητα <discourseLink>του Discourse</discourseLink>.
 
 ## How are decisions made
 
 about-playbook-how-project-governance = Πώς λαμβάνονται οι αποφάσεις για τα έργα;
+about-playbook-how-project-governance-content-1 = Το Mozilla Common Voice διατίθεται από μια ποικιλόμορφη κοινότητα ακτιβιστών, γλωσσολόγων, επιστημόνων δεδομένων, ακαδημαϊκών και μηχανικών λογισμικού από όλο τον κόσμο. Την επιμέλεια του έργου αναλαμβάνει το Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Η διακυβέρνησή μας βασίζεται στους εξής πυλώνες:
 about-playbook-how-project-governance-content-3 = Απόρρητο, ασφάλεια και διαφάνεια.
+about-playbook-how-project-governance-content-4 = Κοινοτική συμμετοχή και λήψη αποφάσεων.
 about-playbook-how-project-governance-content-5 = Αξία και αναγνώριση.
 about-playbook-how-project-governance-content-6 = Αμοιβαία ευθύνη.
 about-playbook-how-project-governance-content-7 = <governanceLink>Διαβάστε περισσότερα σχετικά με τον τρόπο διακυβέρνησής μας</governanceLink>
@@ -574,7 +629,7 @@ glossary = Γλωσσάριο
 localization = Τοπικοποίηση
 localization-explanation = Αυτή είναι η διαδικασία μας για τη μετάφραση και την προσαρμογή του περιεχομένου μας σε πολλές γλώσσες.
 sentence-collection = Συλλογή προτάσεων
-sentence-collection-explanation = Η συλλογή προτάσεων από το δημόσιο τομέα, ή η εγγραφή νέων από το δημόσιο τομέα.
+sentence-collection-explanation = Η συλλογή προτάσεων από τον δημόσιο τομέα ή η σύνταξη νέων για τον δημόσιο τομέα.
 hours-recorded-explanation = Οι ώρες ηχογραφήσεων φωνής που έχουμε συλλέξει μέχρι στιγμής.
 hours-validated-explanation = Ο αριθμός των ωρών ηχογράφησης που έχουν επικυρωθεί από 2 στους 3 χρήστες με θετική ψήφο. Έτσι, σημειώνεται η πρόοδος του έργου συγκριτικά με το συνολικό στόχο 10 χιλιάδων ωρών.
 sst = Ομιλία-σε-κείμενο (STT)
@@ -661,6 +716,7 @@ get-started-speech = Ξεκινήστε με την αναγνώριση ομι�
 other-datasets = Άλλα σύνολα δεδομένων φωνής
 feedback-q = Έχετε σχόλια;
 resource-nemo-info = Το <githubLink>NVIDIA NeMo</githubLink>™ είναι ένα <docsLink>κιτ εργαλείων ανοικτού κώδικα</docsLink> για ερευνητές που αναπτύσσουν υπερσύγχρονα μοντέλα AI συζήτησης.
+resource-deepspeech-info = Το Deep Speech, η ανοικτού κώδικα μηχανή αναγνώρισης φωνής της Mozilla, μπορεί να χρησιμοποιηθεί για την ανάπτυξη εφαρμογών αναγνώρισης ομιλίας. Διαβάστε την <githubLink>επισκόπησή μας στο Github</githubLink> ή γίνετε μέλος στο <discourseLink>Discourse του DeepSpeech</discourseLink> για να μάθετε πώς να ξεκινήσετε.
 resource-coqui-info = Το <coquiLink>Coqui</coquiLink> είναι αφοσιωμένο στην ανοικτή τεχνολογία ομιλίας. Τα έργα τους περιλαμβάνουν βαθιά εκμάθηση σε μηχανές STT και TTS.
 community-playbook = Βιβλίο κανόνων κοινότητας
 resource-playbook-info = <playbookLink>Βρείτε χρήσιμες οδηγίες</playbookLink> για όλη την πορεία του Common Voice, από τη μετάφραση μέχρι τη χρήση συνόλων δεδομένων, καθώς και τη σύνδεση με την κοινότητά μας.
@@ -777,8 +833,14 @@ listen-again-instruction = Εξαιρετική δουλειά! <playIcon></play
 listen-3rd-time-instruction = Έφυγαν 2, συνεχίστε! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Τελευταίο!
 listen-empty-state = Δεν υπάρχουν κλιπ προς επαλήθευση σε αυτή τη γλώσσα...
+listen-loading-error =
+    Δεν μπορέσαμε να βρούμε κανένα απόσπασμα για να ακούσετε.
+    Παρακαλούμε δοκιμάστε ξανά.
 speak-empty-state = Δεν υπάρχουν προτάσεις προς ηχογράφηση σε αυτή τη γλώσσα...
 speak-empty-state-cta = Συνεισφορά προτάσεων
+speak-loading-error =
+    Δεν μπορέσαμε να βρούμε καμία πρόταση για να εκφωνήσετε.
+    Παρακαλούμε δοκιμάστε ξανά.
 record-button-label = Ηχογράφηση φωνής
 share-title-new = <bold>Βοηθήστε μας</bold> να βρούμε περισσότερες φωνές
 keep-track-profile = Παρακολουθήστε την πρόοδό σας με ένα προφίλ
@@ -1049,6 +1111,7 @@ contribution-varying-pronunciations-example-1-explanation = [Σε ορισμέν
 contribution-varying-pronunciations-example-2-title = Έχει δύο όμορφα παιδάκια.
 contribution-varying-pronunciations-example-2-explanation = [Η λέξη «παιδάκια» πρέπει να διαβαστεί ως «πε-δά-κια», όχι ως «πα-ι-δά-κια»]
 contribution-background-noise-title = Θόρυβος παρασκηνίου
+contribution-background-noise-description = Θέλουμε οι αλγόριθμοι μηχανικής εκμάθησης να μπορούν να χειρίζονται μια ποικιλία θορύβων περιβάλλοντος· ακόμα και οι σχετικά δυνατοί θόρυβοι είναι αποδεκτοί, υπό την προϋπόθεση ότι δεν σας εμποδίζουν από το να ακούσετε ολόκληρο το κείμενο. Η χαμηλή μουσική υπόκρουση είναι αποδεκτή, αλλά δεν ισχύει το ίδιο για τη μουσική που είναι αρκετά δυνατή, ώστε να σας εμποδίζει από το να ακούσετε όλες τις λέξεις.
 contribution-background-noise-description-extended = Αν η ηχογράφηση διακόπτεται, ή υπάρχει κροτάλισμα, απορρίψτε την εκτός κι αν ακούγεται ολόκληρο το κείμενο.
 contribution-background-noise-example-1-fixed-title = <strong>[Φτερνισμα]</strong> Οι γιγάντιοι δεινόσαυροι του <strong>[βηχας]</strong> Τριαδικού.
 contribution-background-noise-example-2-fixed-title = Ο γιγάντιος δεινόσαυρος <strong>[βηχας]</strong> του Τριαδικού.
@@ -1096,29 +1159,50 @@ sc-logout-button = Αποσύνδεση
 
 sc-home-title = Καλώς ορίσατε στη Συλλογή προτάσεων Common Voice
 sc-home-collect-title = Συλλογή προτάσεων
+sc-home-collect-text = Βοηθήστε μας συντάσσοντας ή συλλέγοντας προτάσεις δημόσιου τομέα.
 sc-home-review-title = Έλεγχος προτάσεων
+sc-home-review-text = Βοηθήστε μας ελέγχοντας την ορθότητα των προτάσεων, σύμφωνα με τις οδηγίες.
 
 ## GENERAL
 
+sc-languages-fetch-error = Δεν καταφέραμε να ανακτήσουμε τις διαθέσιμες γλώσσες. Οι συνεισφορές δεν είναι προς το παρόν δυνατές. Παρακαλώ δοκιμάστε ξανά αργότερα.
 
 ## HOW-TO
 
 sc-howto-title = Οδηγίες
+sc-howto-addlang-title = Προσθήκη γλωσσών για εργασία
 sc-howto-addlang-text = Μόλις συνδεθείτε, μπορείτε να επιλέξετε τις γλώσσες σας από την ενότητα «Προφίλ».
 sc-howto-addsen-title = Προσθήκη νέων προτάσεων
+sc-howto-addsen-item-2 = Αριθμοί. Δεν θα πρέπει να υπάρχουν ψηφία στο αρχικό κείμενο επειδή μπορούν να δημιουργήσουν προβλήματα κατά την ανάγνωση. Ο τρόπος που διαβάζεται ένας αριθμός εξαρτάται από τα συμφραζόμενα και μπορεί να προκαλέσει σύγχυση στο σύνολο δεδομένων. Για παράδειγμα, ο αριθμός «2409» μπορεί να διαβαστεί και ως «είκοσι τέσσερα, μηδέν, εννέα» και ως «διακόσια σαράντα, εννέα».
+sc-howto-addsen-item-4 = Σημεία στίξης. Τα ειδικά σύμβολα και τα σημεία στίξης θα πρέπει να περιλαμβάνονται μόνο όταν είναι απολύτως απαραίτητα. Για παράδειγμα, μια απόστροφος συναντάται σε ελληνικές φράσεις, όπως το «ασ' το» και το «σ' ένα» και θα πρέπει να συμπεριλαμβάνεται στο αρχικό κείμενο. Όμως, είναι απίθανο να χρειαστείτε ειδικά σύμβολα, όπως το «@» ή το «#».
+sc-howto-addsen-item-5 = Ξένα γράμματα. Τα γράμματα πρέπει να είναι έγκυρα στη γλώσσα που ομιλείται. Για παράδειγμα, το «ж» είναι γράμμα της ρωσικής αλφαβήτου, αλλά δεν χρησιμοποιείται ποτέ στα ελληνικά και επομένως, δεν θα πρέπει να εμφανίζεται σε κανένα κείμενο ελληνικής πηγής.
+sc-howto-addsen-item-6 = Οι γλώσσες μπορούν να έχουν τους <validationRulesLink>δικούς τους κανόνες επαλήθευσης</validationRulesLink> με επιπλέον απαιτήσεις. Αν δεν υπάρχει κάποιο συγκεκριμένο αρχείο επαλήθευσης για μια γλώσσα, χρησιμοποιούμε τους γενικούς αγγλικούς κανόνες.
+sc-howto-cite-title = Τρόποι αναφοράς
 sc-howto-cite-item-1 = Μπορείτε να συμπεριλάβετε τον ιστότοπο, π.χ. «Common Voice - https://commonvoice.mozilla.org/»
+sc-howto-cite-item-2 = Μπορείτε να χρησιμοποιήσετε αναφορά ακαδημαϊκού τύπου, π.χ. στυλ του Harvard «Mozilla (2021) Common Voice. Διαθέσιμο στο https://commonvoice.mozilla.org/ (Ανακτήθηκε στις 15 Σεπτεμβρίου 2021)»
 sc-howto-review-title = Έλεγχος προτάσεων
 sc-howto-review-subtitle = Βεβαιωθείτε ότι η πρόταση πληροί τα ακόλουθα κριτήρια:
 sc-howto-review-criteria-1 = Η πρόταση πρέπει να έχει σωστή ορθογραφία.
 sc-howto-review-criteria-2 = Η πρόταση πρέπει να είναι γραμματικά ορθή.
+sc-howto-review-criteria-3 = Η πρόταση πρέπει να είναι προφερτή.
 sc-howto-review-criteria-4 = Εάν η πρόταση πληροί τα κριτήρια, κάντε κλικ στο κουμπί «Έγκριση».
+sc-howto-review-criteria-5 = Αν η πρόταση δεν πληροί τα παραπάνω κριτήρια, κάντε κλικ στο κουμπί «Απόρριψη». Εάν δεν είστε σίγουροι για την πρόταση, μπορείτε επίσης να την παραλείψετε και να προχωρήσετε στην επόμενη.
+sc-howto-review-criteria-6 = Εάν ξεμείνετε από προτάσεις για έλεγχο, παρακαλούμε βοηθήστε μας να συγκεντρώσουμε περισσότερες προτάσεις!
+sc-howto-findpd-title = Εύρεση υπαρχουσών προτάσεων δημόσιου τομέα
 sc-howto-findpd-subtitle = Αναζητήστε τες στο διαδίκτυο
 sc-howto-findpd-tips = Ακολουθούν μερικές συμβουλές για να βρείτε προτάσεις:
+sc-howto-findpd-tips-1 = Οι καλύτερες πηγές είναι τα podcast, οι απομαγνητοφωνήσεις, τα σενάρια ταινιών και οτιδήποτε μπορεί να περιέχει καθημερινές συνομιλίες.
+sc-howto-findpd-tips-3 = Δυστυχώς, δεν μπορούμε να έχουμε ακόμα άρθρα από τη Βικιπαίδεια. Μην κάνετε λοιπόν αντιγραφή και επικόλληση από εκεί.
+sc-howto-findpd-subtitle-2 = Συνεργαστείτε με τοπικούς οργανισμούς ή άτομα
+sc-howto-findpd-partner-1 = Υπάρχουν πολλοί δημόσιοι οργανισμοί που μπορεί να θέλουν να συνεργαστούν και να έχουν ήδη πολλά κείμενα που μπορούν να δωρίσουν στον δημόσιο τομέα. Απευθυνθείτε σε τοπικά πανεπιστήμια, κυβερνήσεις και οργανισμούς ανοικτού κώδικα για να μιλήσετε για το έργο και να ζητήσετε τη βοήθειά τους.
+sc-howto-findpd-partner-2 = Μπορούν επίσης να βοηθήσουν έμπειροι γλωσσολόγοι. Δοκιμάστε να απευθυνθείτε σε τοπικά πανεπιστήμια γλωσσολογίας (τόσο σε καθηγητές όσο και σε φοιτητές) και δείτε αν μπορούν να βοηθήσουν στη συγκέντρωση ενός συνόλου ηχητικά ποικιλόμορφων προτάσεων στη γλώσσα σας.
 
 ## MY SENTENCES
 
 sc-my-title = Οι προτάσεις μου
+sc-my-description = Αυτή η σελίδα παρέχει μια επισκόπηση όλων των υποβεβλημένων προτάσεων. Μπορείτε επίσης να διαγράψετε ήδη υποβεβλημένες προτάσεις εάν χρειάζεται, επιλέγοντας τα πλαίσια ελέγχου τους και κάνοντας κλικ στο «Διαγραφή επιλεγμένων προτάσεων» στο κάτω μέρος. Παρακαλώ προχωρήστε σε διαγραφή προτάσεων μόνο εάν είναι απολύτως απαραίτητο, για παράδειγμα εάν παρατηρήσατε ότι κάποια πρόταση προστατεύεται από πνευματικά δικαιώματα.
 sc-my-loading = Φόρτωση των προτάσεών σας…
+sc-my-err-fetching = Σφάλμα ανάκτησης των προτάσεών σας. Παρακαλώ δοκιμάστε ξανά.
 sc-my-no-sentences = Δεν βρέθηκαν προτάσεις!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -1135,17 +1219,24 @@ sc-my-err-failed-delete = Αποτυχία διαγραφής επιλεγμέν
 sc-rejected-title = Απορριφθείσες προτάσεις
 sc-rejected-loading = Φόρτωση απορριφθεισών προτάσεων…
 sc-rejected-err-fetching = Σφάλμα ανάκτησης απορριφθεισών προτάσεων. Παρακαλώ δοκιμάστε ξανά.
+sc-rejected-none-found = Δεν βρέθηκαν απορριφθείσες προτάσεις!
 
 ## STATS
 
 sc-stats-title = Στατιστικά
 sc-stats-updating = Ενημέρωση…
+sc-stats-error = Δεν μπορέσαμε να λάβουμε τα στατιστικά. Παρακαλώ δοκιμάστε ξανά αργότερα.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Το εργαλείο συλλογής προτάσεων του Common Voice έχει συγκεντρώσει { $sentenceCount } προτάσεις σε { $languageCount } γλώσσες!
 
 ## ADD
 
 sc-submit-err-select-lang = Παρακαλούμε επιλέξτε μια γλώσσα.
 sc-submit-err-add-sentences = Παρακαλούμε προσθέστε προτάσεις.
 sc-submit-err-add-source = Παρακαλούμε προσθέστε μια πηγή.
+sc-submit-err-confirm-pd = Παρακαλούμε επιβεβαιώστε ότι αυτές οι προτάσεις ανήκουν στον δημόσιο τομέα.
 sc-submit-prompt =
     .message = Οι προτάσεις δεν υποβλήθηκαν, θέλετε σίγουρα να αποχωρήσετε;
 sc-submit-title = Προσθήκη προτάσεων
@@ -1154,8 +1245,13 @@ sc-submit-select-language =
 sc-submit-add-sentences = Προσθήκη προτάσεων <wikipediaLink>δημόσιου τομέα</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Μία πρόταση ανά γραμμή
+sc-submit-from-where = Από πού προέρχονται αυτές οι προτάσεις <wikipediaLink>δημόσιου τομέα</wikipediaLink>;
+sc-submit-ph-read-how-to =
+    .placeholder = Διαβάστε τον οδηγό μας εάν δεν ξέρετε πώς να αναφέρετε την πηγή
+sc-submit-confirm = Επιβεβαιώνω ότι οι προτάσεις ανήκουν στον <wikipediaLink>δημόσιο τομέα</wikipediaLink> και έχω την άδεια να τις μεταφορτώσω.
 sc-submit-button =
     .submitText = Υποβολή
+sc-submit-filtered = Φιλτραρίστηκαν προτάσεις επειδή δεν πληρούν τις απαιτήσεις (παρακαλώ υποβάλετε τις διορθωμένες εκδόσεις ως νέες προτάσεις):
 sc-submit-guidelines = Παρακαλούμε ελέγξτε τις <howToLink>οδηγίες</howToLink>.
 
 ## ADD LANGUAGE
@@ -1163,6 +1259,15 @@ sc-submit-guidelines = Παρακαλούμε ελέγξτε τις <howToLink>�
 sc-add-lang-could-not-add = Αδυναμία προσθήκης γλώσσας
 sc-add-lang-sec-label = Προσθέστε μια γλώσσα στην οποία θέλετε να συνεισφέρετε
 sc-add-lang-sec-button = Προσθήκη γλώσσας
+sc-add-err-unexpected = Απρόσμενη απάντηση από τον διακομιστή
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Υποβλήθησαν προτάσεις. Απορρίφθηκαν { $duplicates } προτάσεις ως διπλότυπες.
+        [one] Υποβλήθησαν προτάσεις. Απορρίφθηκε { $duplicates } πρόταση ως διπλότυπη.
+       *[other] Υποβλήθησαν προτάσεις. Απορρίφθηκαν { $duplicates } προτάσεις ως διπλότυπες.
+    }
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
@@ -1187,7 +1292,28 @@ sc-confirm-sentences-found =
         [one] Βρέθηκε 1 πρόταση.
        *[other] Βρέθηκαν { $countOfSentences } προτάσεις.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } απορρίψεις από εσάς
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Καμία πρόταση δεν έχει ήδη ελεγχθεί.
+        [one] 1 πρόταση έχει ήδη ελεγχθεί. Εξαιρετικά!
+       *[other] { $countOfReviewed } προτάσεις έχουν ήδη ελεγχθεί. Εξαιρετικά!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Καμία πρόταση έτοιμη για υποβολή!
+        [one] 1 πρόταση έτοιμη για υποβολή!
+       *[other] { $readyCount } προτάσεις έτοιμες για υποβολή!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = Δεν έχουν ελεγχθεί { $countOfUnreviewed } προτάσεις. Αν θέλετε, μπορείτε επίσης να ελέγξετε τώρα τις προτάσεις σας πριν από την υποβολή τους.
 sc-confirm-button-text = Επιβεβαίωση
+sc-confirm-uploading = Οι προτάσεις μεταφορτώνονται. Αυτό μπορεί να διαρκέσει αρκετά λεπτά ανάλογα με τον αριθμό των προτάσεων. Παρακαλώ μην κλείσετε αυτόν τον ιστότοπο.
 
 ## LANGUAGE INFO
 
@@ -1200,6 +1326,22 @@ sc-lang-info-total =
         [0] Καμία πρόταση.
         [one] 1 συνολική πρόταση.
        *[other] { $totalSentences } συνολικές προτάσεις.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Καμία πρόταση προς εξέταση.
+        [one] 1 πρόταση υπό εξέταση.
+       *[other] { $totalInReview } προτάσεις υπό εξέταση.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Δεν απομένει καμία πρόταση προς έλεγχο.
+        [one] Απομένει 1 πρόταση προς έλεγχο.
+       *[other] Απομένουν { $unreviewedSentencesByYou } προτάσεις προς έλεγχο.
     }
 sc-lang-info-review-now = <reviewLink>Έλεγχος τώρα!</reviewLink>
 sc-lang-info-add-more = <addLink>Προσθέστε περισσότερες προτάσεις τώρα!</addLink>
@@ -1247,6 +1389,8 @@ sc-criteria-make-sure = Βεβαιωθείτε ότι η πρόταση πληρ
 sc-criteria-item-1 = Η πρόταση πρέπει να έχει σωστή ορθογραφία.
 sc-criteria-item-2 = Η πρόταση πρέπει να είναι γραμματικά ορθή.
 sc-criteria-item-3 = Η πρόταση πρέπει να μπορεί να λεχθεί.
+sc-criteria-item-4 = Αν η πρόταση πληροί τα κριτήρια, κάντε κλικ στο κουμπί «Έγκριση» στα δεξιά.
+sc-criteria-item-5-2 = Αν η πρόταση δεν πληροί τα παραπάνω κριτήρια, κάντε κλικ στο κουμπί «Απόρριψη» στα αριστερά. Εάν δεν είστε σίγουροι για την πρόταση, μπορείτε επίσης να την παραλείψετε και να προχωρήσετε στην επόμενη.
 sc-criteria-item-6 = Εάν ξεμείνετε από προτάσεις για έλεγχο, παρακαλούμε βοηθήστε μας να συγκεντρώσουμε περισσότερες προτάσεις!
 
 ## REVIEW
@@ -1254,14 +1398,34 @@ sc-criteria-item-6 = Εάν ξεμείνετε από προτάσεις για 
 sc-review-lang-not-selected = Δεν έχετε επιλέξει καμία γλώσσα. Παρακαλούμε μεταβείτε στο <profileLink>Προφίλ</profileLink> σας για να επιλέξετε γλώσσες.
 sc-review-title = Έλεγχος προτάσεων
 sc-review-loading = Φόρτωση προτάσεων…
+sc-review-select-language = Παρακαλώ επιλέξτε μια γλώσσα για έλεγχο προτάσεων.
+sc-review-no-sentences = Καμία πρόταση προς έλεγχο. <addLink>Προσθέστε περισσότερες προτάσεις τώρα!</addLink>
+sc-review-form-prompt =
+    .message = Οι ελεγμένες προτάσεις δεν υποβλήθηκαν, είστε σίγουροι;
+sc-review-form-usage = Σύρετε προς τα δεξιά για να εγκρίνετε την πρόταση. Σύρετε προς τα αριστερά για να την απορρίψετε. Σύρετε προς τα επάνω για να την παραλείψετε. <strong>Μην ξεχάσετε να υποβάλετε την αξιολόγησή σας!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Πηγή: { $sentenceSource }
 sc-review-form-button-reject = Απόρριψη
 sc-review-form-button-skip = Παράλειψη
 sc-review-form-button-approve = Έγκριση
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Ν
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = Χ
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = Π
+sc-review-form-keyboard-usage-custom = Μπορείτε επίσης να χρησιμοποιείτε συντομεύσεις πληκτρολογίου: { sc-review-form-button-approve-shortcut } για έγκριση, { sc-review-form-button-reject-shortcut } για απόρριψη, { sc-review-form-button-skip-shortcut } για παράλειψη
 sc-review-form-button-submit =
     .submitText = Ολοκλήρωση ελέγχου
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Δεν ελέγχθηκε καμία πρόταση.
+        [one] Ελέγχθηκε 1 πρόταση. Ευχαριστούμε!
+       *[other] Ελέγχθηκαν { $sentences } προτάσεις. Ευχαριστούμε!
+    }
 sc-review-form-review-failure = Δεν ήταν δυνατή η αποθήκευση του ελέγχου. Παρακαλώ δοκιμάστε ξανά αργότερα.
 sc-review-link = Έλεγχος
 
@@ -1269,6 +1433,10 @@ sc-review-link = Έλεγχος
 
 sc-settings-title = Ρυθμίσεις
 sc-settings-ui-language = Γλώσσα περιβάλλοντος
+sc-settings-language-translated-warning = Οι σελίδες για αυτήν τη γλώσσα ενδέχεται να μην έχουν μεταφραστεί πλήρως. Μπορείτε να βοηθήσετε με τη μετάφραση <pontoonLinkLink>στο Pontoon</pontoonLinkLink>.
+sc-settings-reset-skipped = Επαναφορά παραλειφθεισών προτάσεων
+sc-settings-skipped-decription = Προηγουμένως παραλείψατε προτάσεις κατά τον έλεγχο. Η επαναφορά των παραλειφθεισών προτάσεων θα εμφανίσει ξανά όλες αυτές τις προτάσεις. Αυτό είναι ανεξάρτητο από τη γλώσσα.
+sc-settings-show-all-button = Εμφάνιση όλων των παραλειφθεισών προτάσεων ξανά
 sc-settings-failed = Δεν ήταν δυνατή η αλλαγή των ρυθμίσεων. Παρακαλούμε δοκιμάστε ξανά.
 # VALIDATION
 sc-validation-number-of-words = Η πρόταση πρέπει να περιέχει από 1 έως και 14 λέξεις.

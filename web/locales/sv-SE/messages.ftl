@@ -17,6 +17,7 @@ not-available-abbreviation = inte tillgänglig
 banner-error-slow-1 = Tyvärr, Common Voice går sakta. Tack för visat intresse.
 banner-error-slow-2 = Vi har mycket trafik och utreder just nu problemet.
 banner-error-slow-link = Statussida
+error-something-went-wrong = Förlåt, något gick fel
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -840,8 +841,14 @@ listen-again-instruction = Bra jobbat!<playIcon></playIcon> Lyssna igen när du 
 listen-3rd-time-instruction = Två färdiga, <playIcon></playIcon> bra jobbat!
 listen-last-time-instruction = <playIcon></playIcon> Sista!
 listen-empty-state = Vi har slut på klipp för att validera på det här språket...
+listen-loading-error =
+    Vi kunde inte hitta några ljudklipp till dig att lyssna på.
+    Vänligen försök igen senare.
 speak-empty-state = Vi har slut på meningar att spela in på det här språket...
 speak-empty-state-cta = Bidra med meningar
+speak-loading-error =
+    Vi kunde inte hitta några meningar till dig att tala.
+    Vänligen försök igen senare.
 record-button-label = Spela in din röst
 share-title-new = <bold>Hjälp oss</bold> hitta mer röster
 keep-track-profile = Håll koll på dina framsteg med en profil
@@ -1090,6 +1097,7 @@ contribution-for-example = till exempel
 contribution-misreadings-title = Felläsningar
 contribution-misreadings-description = När du lyssnar, kontrollera mycket noga att det som har spelats in är exakt det som har skrivits; avvisa om det är mindre fel.<br />Mycket vanliga fel inkluderar:
 contribution-misreadings-description-extended-list-1 = Saknar <strong>'En'</strong> eller <strong>'Den'</strong> i början av inspelningen.
+contribution-misreadings-description-extended-list-2 = Saknar ett <strong>s</strong> i slutet av ett ord.
 contribution-misreadings-description-extended-list-4 = Slutet på det sista ordet saknades eftersom inspelningen avbröts för snabbt.
 contribution-misreadings-description-extended-list-5 = Gör flera försök med att läsa ett ord.
 contribution-misreadings-example-1-title = De enorma dinosaurierna i Trias.

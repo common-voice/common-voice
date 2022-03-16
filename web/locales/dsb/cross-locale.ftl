@@ -3,7 +3,7 @@
 contribute = Pśinosowaś
 get-involved-button = Sobu cyniś
 get-involved-title = K { $lang } pśinosowaś
-get-involved-text = Źěkujomy se za waš zajm, na { $lang } sobu źěłaś. Źěłamy śěžko, aby kuždu rěc na start psigótowali a teamy pśez e-mail na běžnem źaržali. Jolic cośo sobu cyniś, dajśo nam dołojce swóju e-mailowu adresu  k wěsći.
+get-involved-text = Źěkujomy se za waš zajm, na { $lang } sobu źěłaś. Źěłamy śěžko, aby kuždu rěc na start psigótowali a teamy pśez e-mail na běžnem źaržali. Jolic cośo sobu cyniś, dajśo nam dołojce swóju e-mailowu adresu k wěsći.
 get-involved-form-title = Za aktualizacije { $lang } registrěrowaś:
 get-involved-email =
     .label = E-mailowa adresa

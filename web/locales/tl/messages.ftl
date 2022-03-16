@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Tumanggap ng mga email tulad ng mga paala
 email-opt-in-privacy-v2 = Sa pamamagitan ng pagpiling pagtanggap ng mga email ikaw ay pumapayag na ibigay ang impormasyong ito sa Mozilla tulad ng nakalahad sa Mozilla's <privacyLink>Patakaran sa Pagkapribado</privacyLink/>.
 indicates-required = *Kailangang punuan
 not-available-abbreviation = N/A
+banner-error-slow-link = Status Page
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,9 +37,9 @@ ba = Bashkirs
 bas = Basaa
 be = Belarusian
 bg = Bulgarian
-bm = Bambara
 bn = Bengali
 br = Breton
+bs = Bosnian
 bxr = Buryat
 ca = Catalan
 cak = Kaqchikel
@@ -67,6 +68,7 @@ fy-NL = Frisian
 ga-IE = Irish
 gl = Galician
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Hebreyo
 hi = Hindi
@@ -78,6 +80,8 @@ hy-AM = Armenian
 hyw = Armenian Western
 ia = Interlingua
 id = Indonesian
+ie = Interlingue
+ig = Igbo
 is = Icelandic
 it = Italian
 izh = Izhorian
@@ -86,12 +90,16 @@ ka = Georgian
 kaa = Karakalpak
 kab = Kabyle
 kbd = Kabardian
+ki = Kikuyu
 kk = Kazakh
+km = Khmer
 kmr = Kurmanji Kurdish
+knn = Konkani (Devanagari)
 ko = Korean
 kpv = Komi-Zyrian
 kw = Cornish
 ky = Kyrgyz
+lb = Luxembourgish
 lg = Luganda
 lij = Ligurian
 lt = Lithuanian
@@ -103,6 +111,7 @@ mhr = Meadow Mari
 mk = Macedonian
 ml = Malayalam
 mn = Mongolian
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Hill Mari
@@ -110,10 +119,13 @@ ms = Malay
 mt = Maltese
 my = Burmese
 myv = Erzya
+nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
 ne-NP = Nepali
+nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
+nyn = Runyankole
 oc = Occitan
 or = Odia
 pa-IN = Punjabi
@@ -121,17 +133,21 @@ pap-AW = Papiamento (Aruba)
 pl = Polish
 ps = Pashto
 pt = Portuguese
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 ro = Romanian
 ru = Russian
 rw = Kinyarwanda
 sah = Sakha
+sat = Santali (Ol Chiki)
 sc = Sardinian
 scn = Sicilian
 shi = Shilha
 si = Sinhala
 sk = Slovak
+skr = Saraiki
 sl = Slovenian
 so = Somali
 sq = Albanian
@@ -143,9 +159,15 @@ ta = Tamil
 te = Telugu
 tg = Tajik
 th = Thai
+ti = Tigrinya
+tig = Tigre
+tk = Turkmen
 tl = Tagalog
+tok = Toki Pona
 tr = Turkish
 tt = Tatar
+tw = Twi
+ty = Tahitian
 uby = Ubykh
 udm = Udmurt
 ug = Uyghur
@@ -155,6 +177,8 @@ uz = Uzbek
 vec = Venetian
 vi = Vietnamese
 vot = Votic
+yi = Yiddish
+yo = Yoruba
 yue = Cantonese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
@@ -270,6 +294,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Record/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-record clip
+shortcut-discard-ongoing-recording = ESC
 request-language-text = Hindi mo pa nakikita ang iyong wika sa Common Voice?
 request-language-text-learn = Alamin kung paano mag-request dito!
 request-language-button = Humiling ng Wika
@@ -291,6 +316,8 @@ profile-form-native-language =
     .label = Katutubong Wika
 profile-form-additional-language =
     .label = Karagdagang Wika
+profile-form-language =
+    .label = Wika
 profile-form-accent =
     .label = Punto
 profile-form-age =
@@ -376,7 +403,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Bakit Common Voice?
-how-does-it-work-title = Paano ito gumagana?
+
+## How does it work section
+
 about-speak = Magsalita
 about-listen-queue = Listen-Queue
 about-listen = Makinig
@@ -389,6 +418,39 @@ about-nav-why-common-voice = Bakit?
 about-nav-how-it-works = Paano?
 about-nav-partners = Mga Katulong
 about-nav-get-involved = Makibahagi
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+about-playbook-how-add-language = Paano magdagdag ng wika?
+
+## How does localization work
+
+about-playbook-how-localize = Paano gumagana ang localization?
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Paano magdagdag ng pangungusap?
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = Mga Kaganapan
+about-playbook-how-grow-language-content-4 = Social media
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence
 
@@ -421,6 +483,7 @@ terms-disagree = Hindi ako sumasang-ayon
 review-recording = Suriin
 review-rerecord = i-Record Muli
 review-cancel = Kanselahin ang Pagpasa
+review-keep-recordings = Panatilihin ang mga recording
 review-delete-recordings = Burahin ang mga recording ko
 
 ## Datasets Page
@@ -437,8 +500,10 @@ size-megabyte = MB
 download-language = i-Download ang { $language }
 recorded-hours = Mga Oras na Na-record
 subscribe = Mag-subscribe
+community-playbook = Community Playbook
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Magpunta sa Discourse
+more = Higit pa
 close = Isara
 download = i-Download
 dataset-version = Bersyon
@@ -452,6 +517,7 @@ download-no = Salamat na lang
 
 ## Contact Modal
 
+contact-title = Contact Form
 contact-form-name =
     .label = Pangalan
 contact-form-message =
@@ -483,6 +549,7 @@ record-cta = Magrecord na
 record-platform-not-supported = Paumanhin, hindi suportado ang platform mo.
 record-no-mic-found = Walang makitang mikropono.
 record-three-more-instruction = Tatlo na lang!
+share-clip = Ibahagi ang iyong clip
 record-abort-submit = Ipasa ang clips
 record-abort-continue = Tapusin ang pag-record
 record-button-label = I-record ang boses mo
@@ -508,6 +575,7 @@ days =
 
 ## Dashboard
 
+stats = Stats
 awards = Mga Pagkilala
 you = Ikaw
 everyone = Lahat
@@ -537,6 +605,11 @@ profile-form-delete = Burahin ang Profile
 
 ## Profile Download
 
+download-size = Laki
+download-selected = Pinili
+download-request-button = i-Download
+download-request-title = { $created }
+download-request-link-text = Zip #{ $offset } of { $total }
 
 ## Landing
 
@@ -563,4 +636,79 @@ card-button-back = Balik
 
 
 ## Validation criteria
+
+contribution-for-example = halimbawa
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-footer-cookies = Mga Cookie
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+sc-howto-title = Paano
+
+## MY SENTENCES
+
+sc-my-no-sentences = Walang nakitang mga pangungusap!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Submission: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Source:  { $source }
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+sc-submit-title = Magdagdag ng mga Pangungusap
+sc-submit-select-language =
+    .labelText = Pumili ng Wika
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
