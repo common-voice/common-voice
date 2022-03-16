@@ -35,6 +35,12 @@ const updateAvatarURL = async (
   if (oldAvatar) await deleteAvatar(client_id, oldAvatar, s3);
 };
 
+function PromiseTimeout(delayms: number): Promise<any> {
+  return new Promise(function (resolve, reject) {
+    setTimeout(resolve, delayms);
+  });
+}
+
 const imageProcessor = async (job: Job) => {
   const {
     s3,
@@ -54,6 +60,7 @@ const imageProcessor = async (job: Job) => {
     bucket: any;
   };
   //upload to S3 here
+  await PromiseTimeout(10000);
   try {
     await uploader
       .upload({
