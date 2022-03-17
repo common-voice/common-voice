@@ -22,6 +22,7 @@ export namespace Sentences {
 
   enum ActionType {
     REFILL = 'REFILL_SENTENCES',
+    REFILL_LOAD = 'REFILL_LOAD',
     REFILL_ERROR = 'REFILL_SENTENCES_ERROR',
     REMOVE = 'REMOVE_SENTENCES',
   }
@@ -29,6 +30,9 @@ export namespace Sentences {
   interface RefillAction extends ReduxAction {
     type: ActionType.REFILL;
     sentences: Sentence[];
+  }
+  interface RefillLoadAction extends ReduxAction {
+    type: ActionType.REFILL_LOAD;
   }
   interface RefillErrorAction extends ReduxAction {
     type: ActionType.REFILL_ERROR;
@@ -39,13 +43,17 @@ export namespace Sentences {
     sentenceIds: string[];
   }
 
-  export type Action = RefillAction | RefillErrorAction | RemoveAction;
+  export type Action =
+    | RefillAction
+    | RefillLoadAction
+    | RefillErrorAction
+    | RemoveAction;
 
   export const actions = {
     refill:
       () =>
       async (
-        dispatch: Dispatch<RefillAction | RefillErrorAction>,
+        dispatch: Dispatch<RefillAction | RefillLoadAction | RefillErrorAction>,
         getState: () => StateTree
       ) => {
         try {
@@ -62,6 +70,8 @@ export namespace Sentences {
           ) {
             return;
           }
+
+          dispatch({ type: ActionType.REFILL_LOAD });
           const newSentences = await state.api.fetchRandomSentences(
             CACHE_SET_COUNT
           );
@@ -78,7 +88,9 @@ export namespace Sentences {
     remove:
       (sentenceIds: string[]) =>
       async (
-        dispatch: Dispatch<RemoveAction | RefillAction | RefillErrorAction>,
+        dispatch: Dispatch<
+          RemoveAction | RefillLoadAction | RefillAction | RefillErrorAction
+        >,
         getState: () => StateTree
       ) => {
         dispatch({ type: ActionType.REMOVE, sentenceIds });
@@ -115,6 +127,16 @@ export namespace Sentences {
               action.sentences.filter(({ id }) => !sentenceIds.includes(id))
             ),
             isLoading: false,
+            hasLoadingError: false,
+          },
+        };
+
+      case ActionType.REFILL_LOAD:
+        return {
+          ...state,
+          [locale]: {
+            ...localeState,
+            isLoading: true,
             hasLoadingError: false,
           },
         };
