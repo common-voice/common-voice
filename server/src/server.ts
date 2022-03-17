@@ -155,19 +155,15 @@ export default class Server {
 
       // Enable Sentry error handling
       app.use(Sentry.Handlers.errorHandler());
-
-      app.use((error: Error, request: Request, response: Response) => {
-        console.log(error.message, error.stack);
+      app.use((error: any, request: Request, response: Response) => {
+        console.log('Final Error handler');
+        console.log(error.status, error.message, error.stack);
         const isAPIError = error instanceof APIError;
         if (!isAPIError) {
           console.error(request.url, error.message, error.stack);
         }
         response
-          .status(
-            error instanceof ClientError
-              ? StatusCodes.BAD_REQUEST
-              : StatusCodes.INTERNAL_SERVER_ERROR
-          )
+          .status(error?.status || StatusCodes.INTERNAL_SERVER_ERROR)
           .json({ message: isAPIError ? error.message : '' });
       });
     }

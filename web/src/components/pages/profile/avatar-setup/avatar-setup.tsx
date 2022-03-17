@@ -158,7 +158,6 @@ class AvatarSetup extends React.Component<Props, State> {
         refreshUser();
       }
     } catch (e) {
-      console.log('polling error');
       this.setState({ isSaving: false });
     }
   }
