@@ -17,6 +17,7 @@ not-available-abbreviation = N/A
 banner-error-slow-1 = Rất tiếc, Common Voice đang chạy chậm. Cảm ơn vì sự quan tâm của bạn.
 banner-error-slow-2 = Chúng tôi đang nhận được rất nhiều lưu lượng truy cập và hiện đang điều tra các vấn đề.
 banner-error-slow-link = Trang trạng thái
+error-something-went-wrong = Xin lỗi, có gì đó không ổn
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -829,8 +830,14 @@ listen-again-instruction = Làm tốt lắm!<playIcon></playIcon> Nghe lại khi
 listen-3rd-time-instruction = 2 cái đã xong, cố gắng lên!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Cái cuối cùng!
 listen-empty-state = Chúng tôi đã hết đoạn thoại để xác thực bằng ngôn ngữ này...
+listen-loading-error =
+    Chúng tôi không thể nhận được bất kỳ đoạn âm thanh nào để bạn nghe.
+    Vui lòng thử lại sau.
 speak-empty-state = Chúng tôi đã hết câu để ghi lại bằng ngôn ngữ này...
 speak-empty-state-cta = Đóng góp câu
+speak-loading-error =
+    Chúng tôi không thể nhận được bất kỳ câu nào để bạn nói.
+    Vui lòng thử lại sau.
 record-button-label = Ghi âm giọng nói của bạn
 share-title-new = <bold>Giúp chúng tôi</bold> tìm thêm giọng nói
 keep-track-profile = Theo dõi tiến trình của bạn với một hồ sơ
