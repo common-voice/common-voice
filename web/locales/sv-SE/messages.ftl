@@ -537,6 +537,7 @@ about-get-involved-text-2 =
     forum, skicka webbplatsfrågor via <githubLink>GitHub</githubLink> eller gå med i
     <matrixLink>Matrix</matrixLink> communitychatt.
 about-stay-in-touch = Hur håller jag kontakten?
+about-stay-in-touch-button = Registrera dig
 about-stay-in-touch-text-1 = <emailFragment>Anmäl dig</emailFragment> till vår e-postlista för att lära dig hur du kan ta del av kampanjer, evenemang och samarbetsdesignfunktioner på Common Voice.
 about-stay-in-touch-text-2 = Du kan träffa andra i Mozillas språkgemenskaper genom att gå med i <discourseLink>Discourse</discourseLink> för aktuella samtal eller <matrixLink>Matrix</matrixLink> för snabba råd.
 about-nav-why-common-voice = Varför ?
