@@ -46,8 +46,6 @@ export default class API {
   getRouter(): Router {
     const router = PromiseRouter();
 
-    router.use(bodyParser.json());
-
     router.use(authMiddleware);
 
     router.get('/golem', (request: Request, response: Response) => {

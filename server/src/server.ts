@@ -130,7 +130,7 @@ export default class Server {
           next();
         }
       });
-
+      app.use(express.json());
       app.use(authRouter);
 
       app.use('/api/v1', this.api.getRouter());
@@ -161,7 +161,7 @@ export default class Server {
           request: Request,
           response: Response,
           // eslint-disable-next-line @typescript-eslint/no-unused-vars
-          _next: NextFunction // this unused parameter must be included for error handling middleware
+          _next: NextFunction // this parameter must be included for error handling middleware
         ) => {
           console.error(error);
           const isAPIError = error instanceof APIError;
