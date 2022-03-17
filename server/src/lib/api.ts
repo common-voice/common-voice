@@ -16,7 +16,6 @@ import * as Basket from './basket';
 import Bucket from './bucket';
 import Clip from './clip';
 import Model from './model';
-import Prometheus from './prometheus';
 import { APIError, ClientParameterError } from './utility';
 import Challenge from './challenge';
 import { features } from 'common';
@@ -34,7 +33,6 @@ export default class API {
   model: Model;
   clip: Clip;
   challenge: Challenge;
-  metrics: Prometheus;
   private readonly s3: S3;
   private readonly bucket: Bucket;
   readonly takeout: Takeout;
@@ -43,7 +41,6 @@ export default class API {
     this.model = model;
     this.clip = new Clip(this.model);
     this.challenge = new Challenge(this.model);
-    this.metrics = new Prometheus();
     this.s3 = AWS.getS3();
     this.bucket = new Bucket(this.model, this.s3);
     this.takeout = new Takeout(this.model.db.mysql, this.s3, this.bucket);
@@ -54,23 +51,7 @@ export default class API {
 
     router.use(bodyParser.json());
 
-    router.use((request: Request, response: Response, next: NextFunction) => {
-      this.metrics.countRequest(request);
-      next();
-    }, authMiddleware);
-
-    router.get('/metrics', (request: Request, response: Response) => {
-      this.metrics.countPrometheusRequest(request);
-
-      const { registry } = this.metrics;
-      response.type(registry.contentType).status(200).end(registry.metrics());
-    });
-
-    router.use((request: Request, response: Response, next: NextFunction) => {
-      this.metrics.countApiRequest(request);
-      console.log('Really Bad Error handler');
-      next();
-    });
+    router.use(authMiddleware);
 
     router.get('/golem', (request: Request, response: Response) => {
       console.log('Received a Golem request', {
@@ -108,14 +89,7 @@ export default class API {
     router.post('/skipped_sentences/:id', this.createSkippedSentence);
     router.post('/skipped_clips/:id', this.createSkippedClip);
 
-    router.use(
-      '/:locale?/clips',
-      (request: Request, response: Response, next: NextFunction) => {
-        this.metrics.countClipRequest(request);
-        next();
-      },
-      this.clip.getRouter()
-    );
+    router.use('/:locale?/clips', this.clip.getRouter());
 
     router.get('/contribution_activity', this.getContributionActivity);
     router.get('/:locale/contribution_activity', this.getContributionActivity);
@@ -137,8 +111,6 @@ export default class API {
     router.get('/bucket/:bucket_type/:path', this.getPublicUrl);
     router.get('/server_date', this.getServerDate);
     router.use('*', (request: Request, response: Response) => {
-      console.log('Bad Error handler');
-
       response.sendStatus(404);
     });
 
