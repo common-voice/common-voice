@@ -1,0 +1,31 @@
+.round-button {
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    background-color: var(--lighter-grey);
+    transition: background-color var(--transition-duration) var(--easing);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    a {
+        width: 67px;
+        height: 67px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & path,
+    & rect {
+        fill: var(--black);
+        transition: background-color var(--transition-duration-slow)
+            var(--easing);
+    }
+
+    &:hover {
+        background-color: var(--near-black);
+        & path,
+        & rect {
+            fill: var(--white);
+        }
+    }
+}
