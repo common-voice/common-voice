@@ -843,8 +843,14 @@ listen-again-instruction = Goed wurk! <playIcon></playIcon> Harkje opnij wannear
 listen-3rd-time-instruction = 2 klear <playIcon></playIcon> , gean sa troch!
 listen-last-time-instruction = <playIcon></playIcon> De lêste!
 listen-empty-state = Wy hawwe yn dizze taal gjin te falidearjen fragminten mear…
+listen-loading-error =
+    Wy kinne gjin audiofragminten foar jo ophelje om nei te harkjen.
+    Probearje it letter nochris.
 speak-empty-state = Wy hawwe yn dizze taal gjin op te nimmen sinnen mear…
 speak-empty-state-cta = Sinnen bydrage
+speak-loading-error =
+    Wy kinne gjin sinnen foar jo ophelje om út te sprekken.
+    Probearje it letter nochris.
 record-button-label = Nim jo stim op
 share-title-new = <bold>Help ús</bold> mear stimmen te finen
 keep-track-profile = Hâld jo fuortgong by mei in profyl
