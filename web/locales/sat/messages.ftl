@@ -17,6 +17,7 @@ not-available-abbreviation = N/A
 banner-error-slow-1 = ᱤᱠᱟᱹ , Common Voice ᱫᱚ ᱵᱟᱹᱭᱼᱵᱟᱹᱭ ᱛᱮ ᱫᱟᱹᱲᱮᱫᱟᱭ ᱾ ᱟᱢᱟᱜ ᱢᱚᱱᱮ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱨᱦᱟᱣ ᱾
 banner-error-slow-2 = ᱟᱞᱮ ᱱᱤᱛᱚᱜ ᱟᱹᱰᱤᱜᱟᱱ ᱴᱨᱟᱯᱷᱤᱠ ᱞᱮ ᱧᱟᱢ ᱮᱫᱟ ᱟᱨ ᱰᱤᱜᱟᱹᱣ ᱠᱚ ᱞᱮ ᱧᱮᱞ ᱯᱚᱨᱚᱠ ᱮᱫᱟ ᱾
 banner-error-slow-link = ᱮᱛᱦᱚᱵ ᱥᱟᱦᱴᱟ
+error-something-went-wrong = ᱤᱠᱟᱹ  , ᱪᱮᱫ ᱪᱷᱚᱸ ᱢᱤᱫ ᱵᱷᱩᱞ ᱵᱩᱭ ᱮᱱᱟ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
