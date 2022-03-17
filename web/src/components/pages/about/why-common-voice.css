@@ -61,39 +61,6 @@
             padding-right: 1.25rem;
         }
 
-        & .line {
-            width: 70px;
-            height: 3px;
-            background: linear-gradient(
-                to right,
-                var(--gradient-pink),
-                var(--gradient-purple)
-            );
-
-            @media (--md-down) {
-                margin-bottom: 20px;
-            }
-
-            @media (--lg-up) {
-                margin-top: 50px;
-                margin-bottom: 30px;
-            }
-        }
-
-        & h1 {
-            font-weight: normal;
-
-            @media (--md-down) {
-                margin-bottom: 10px;
-                font-size: 36px;
-            }
-
-            @media (--lg-up) {
-                margin-bottom: 10px;
-                font-size: 48px;
-            }
-        }
-
         & h2 {
             font-size: 1.25rem;
             font-family: var(--strong-font-family);
