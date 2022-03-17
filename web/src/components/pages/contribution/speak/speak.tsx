@@ -509,12 +509,15 @@ class SpeakPage extends React.Component<Props, State> {
       showDiscardModal,
     } = this.state;
     const recordingIndex = this.getRecordingIndex();
-    const isMissingClips = !isLoading && clips.length == 0;
+
+    const noClips = clips.length === 0;
+    const noNewClips = noClips || !clips.some(clip => clip.recording === null);
+    const isMissingClips = !isLoading && noClips;
 
     return (
       <>
         <div id="speak-page">
-          {isLoading && <Spinner delayMs={500} />}
+          {noNewClips && isLoading && <Spinner delayMs={500} />}
           {!isSubmitted && (
             <NavigationPrompt
               when={clips.filter(clip => clip.recording).length > 0}>
