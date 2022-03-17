@@ -694,27 +694,6 @@ const UserClient = {
     return origAvatar.avatar_url;
   },
 
-  async updateAvatarClipURL(email: string, url: string) {
-    await db.query(
-      'UPDATE user_clients SET avatar_clip_url = ? WHERE email = ?',
-      [url, email]
-    );
-  },
-
-  async getAvatarClipURL(email: string) {
-    return await db.query(
-      'SELECT avatar_clip_url FROM user_clients WHERE email = ?',
-      [email]
-    );
-  },
-
-  async deleteAvatarClipURL(email: string) {
-    await db.query(
-      'UPDATE user_clients SET avatar_clip_url = NULL WHERE email = ?',
-      [email]
-    );
-  },
-
   async findClientId(email: string): Promise<null | string> {
     const [[row]] = await db.query(
       'SELECT client_id FROM user_clients WHERE email = ? AND has_login',

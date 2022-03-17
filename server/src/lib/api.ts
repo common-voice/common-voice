@@ -1,4 +1,3 @@
-import { PassThrough } from 'stream';
 import { S3 } from 'aws-sdk';
 import * as bodyParser from 'body-parser';
 import { MD5 } from 'crypto-js';
@@ -22,10 +21,8 @@ import { features } from 'common';
 import { taxonomies } from 'common';
 import Takeout from './takeout';
 import NotificationQueue, { uploadImage } from './queues/imageQueue';
-const Transcoder = require('stream-transcoder');
 import { StatusCodes } from 'http-status-codes';
 import isValidJobId from './validate';
-import { nextTick } from 'process';
 
 const PromiseRouter = require('express-promise-router');
 
@@ -71,9 +68,6 @@ export default class API {
       bodyParser.raw({ type: 'image/*', limit: '300kb' }),
       this.saveAvatar
     );
-    router.post('/user_client/avatar_clip', this.saveAvatarClip);
-    router.get('/user_client/avatar_clip', this.getAvatarClip);
-    router.get('/user_client/delete_avatar_clip', this.deleteAvatarClip);
     router.post('/user_client/:locale/goals', this.createCustomGoal);
     router.get('/user_client/goals', this.getGoals);
     router.get('/user_client/:locale/goals', this.getGoals);
@@ -220,12 +214,6 @@ export default class API {
       userData = await UserClient.findAccount(user.emails[0].value);
     }
 
-    if (userData !== null && userData.avatar_clip_url !== null) {
-      userData.avatar_clip_url = await this.bucket.getAvatarClipsUrl(
-        userData.avatar_clip_url
-      );
-    }
-
     response.json(user ? userData : null);
   };
 
@@ -315,78 +303,6 @@ export default class API {
     }
 
     response.json(error ? { error } : {});
-  };
-
-  // TODO: Check for empty or silent clips before uploading.
-  saveAvatarClip = async (request: Request, response: Response) => {
-    const { client_id, headers, user } = request;
-    console.log(`VOICE_AVATAR: saveAvatarClip() called, ${client_id}`);
-    const folder = client_id;
-    const clipFileName = folder + '.mp3';
-    try {
-      // If upload was base64, make sure we decode it first.
-      let transcoder;
-      if ((headers['content-type'] as string).includes('base64')) {
-        // If we were given base64, we'll need to concat it all first
-        // So we can decode it in the next step.
-        console.log(
-          `VOICE_AVATAR: base64 to saveAvatarClip(), ${clipFileName}`
-        );
-        const chunks: Buffer[] = [];
-        await new Promise(resolve => {
-          request.on('data', (chunk: Buffer) => {
-            chunks.push(chunk);
-          });
-          request.on('end', resolve);
-        });
-        const passThrough = new PassThrough();
-        passThrough.end(
-          Buffer.from(Buffer.concat(chunks).toString(), 'base64')
-        );
-        transcoder = new Transcoder(passThrough);
-      } else {
-        // For non-base64 uploads, we can just stream data.
-        transcoder = new Transcoder(request);
-      }
-
-      await Promise.all([
-        this.s3
-          .upload({
-            Bucket: getConfig().CLIP_BUCKET_NAME,
-            Key: clipFileName,
-            Body: transcoder.audioCodec('mp3').format('mp3').stream(),
-          })
-          .promise(),
-      ]);
-
-      await UserClient.updateAvatarClipURL(user.emails[0].value, clipFileName);
-
-      response.json(clipFileName);
-    } catch (error) {
-      console.error(error);
-      response.statusCode = error.statusCode || 500;
-      response.statusMessage = 'save avatar clip error';
-      response.json(error);
-    }
-  };
-
-  getAvatarClip = async (request: Request, response: Response) => {
-    try {
-      const { user } = request;
-      let path = await UserClient.getAvatarClipURL(user.emails[0].value);
-      path = path[0][0].avatar_clip_url;
-
-      let avatarclip = await this.bucket.getAvatarClipsUrl(path);
-      response.json(avatarclip);
-    } catch (err) {
-      response.json(null);
-    }
-  };
-
-  deleteAvatarClip = async (request: Request, response: Response) => {
-    const { user } = request;
-    await UserClient.deleteAvatarClipURL(user.emails[0].value);
-    response.json('deleted');
   };
 
   getTakeouts = async (request: Request, response: Response) => {

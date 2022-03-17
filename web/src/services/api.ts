@@ -269,26 +269,6 @@ export default class API {
     return this.fetch(`${API_PATH}/job/${jobId}`);
   }
 
-  saveAvatarClip(blob: Blob): Promise<void> {
-    return this.fetch(API_PATH + '/user_client/avatar_clip', {
-      method: 'POST',
-      headers: {
-        'Content-Type': blob.type,
-      },
-      body: blob,
-    })
-      .then(body => body)
-      .catch(err => err);
-  }
-
-  fetchAvatarClip() {
-    return this.fetch(API_PATH + '/user_client/avatar_clip');
-  }
-
-  deleteAvatarClip() {
-    return this.fetch(API_PATH + '/user_client/delete_avatar_clip');
-  }
-
   fetchTakeouts() {
     return this.fetch(API_PATH + '/user_client/takeout');
   }

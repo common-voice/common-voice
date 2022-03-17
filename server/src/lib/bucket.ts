@@ -225,10 +225,6 @@ export default class Bucket {
       .promise();
   }
 
-  getAvatarClipsUrl(path: string) {
-    return this.getPublicUrl(path);
-  }
-
   async getClipUrl(id: string): Promise<string> {
     const clip = await this.model.db.findClip(id);
     return clip ? this.getPublicUrl(clip.path) : null;
