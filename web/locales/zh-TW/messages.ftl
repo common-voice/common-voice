@@ -530,6 +530,7 @@ about-get-involved-text-2 =
     討論區留言、透過 <githubLink>GitHub</githubLink> 回報網站問題、
     或是加入我們的 <matrixLink>Matrix</matrixLink> 社群聊天室。
 about-stay-in-touch = 我要如何與你們保持聯繫？
+about-stay-in-touch-button = 註冊
 about-stay-in-touch-text-1 = <emailFragment>訂閱</emailFragment>我們的郵件群組，瞭解可以參加哪些活動、並一同參與 Common Voice 的功能設計。
 about-stay-in-touch-text-2 = 您可以加入 <discourseLink>Discourse</discourseLink> 來認識 Mozilla 各語言社群的成員並進行對話，或是加入 <matrixLink>Matrix</matrixLink> 來獲得快速建議。
 about-nav-why-common-voice = 為什麼？

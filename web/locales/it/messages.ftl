@@ -17,6 +17,7 @@ not-available-abbreviation = N.D.
 banner-error-slow-1 = Ci dispiace, il funzionamento di Common Voice è rallentato. Grazie per il tuo interesse.
 banner-error-slow-2 = Stiamo ricevendo molto traffico e stiamo attualmente analizzando il problema.
 banner-error-slow-link = Pagina di stato
+error-something-went-wrong = Siamo spiacenti, si è verificato un errore
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -522,6 +523,7 @@ about-get-involved-text-2 =
     Vuoi aiutarci a migliorare Common Voice?
     Ottimo! Contattaci via email o sul forum <discourseLink>Discourse</discourseLink>, segnala problemi del sito attraverso <githubLink>GitHub</githubLink> o unisciti alla chat della comunità su <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Come posso rimanere aggiornato?
+about-stay-in-touch-button = Registrati
 about-stay-in-touch-text-1 = <emailFragment>Iscriviti</emailFragment> alla nostra mailing list per scoprire come prendere parte a campagne, eventi e collaborare allo sviluppo di nuove funzioni per Common Voice.
 about-stay-in-touch-text-2 = Puoi incontrare altri collaboratori delle comunità linguistiche Mozilla in <discourseLink>Discourse</discourseLink> per discutere di argomenti specifici, oppure <matrixLink>Matrix</matrixLink> per ottenere rapidamente aiuto.
 about-nav-why-common-voice = Perché?
@@ -819,8 +821,14 @@ listen-again-instruction = Ottimo lavoro! <playIcon></playIcon> Riascolta la reg
 listen-3rd-time-instruction = 2 andate <playIcon></playIcon>, avanti un’altra!
 listen-last-time-instruction = <playIcon></playIcon> L’ultima!
 listen-empty-state = Abbiamo esaurito le registrazioni da convalidare in questa lingua…
+listen-loading-error =
+    Non è stato possibile caricare alcuna registrazione audio da ascoltare.
+    Riprova più tardi.
 speak-empty-state = Abbiamo esaurito le frasi da registrare in questa lingua…
 speak-empty-state-cta = Contribuisci con altre frasi
+speak-loading-error =
+    Non è stato possibile caricare alcuna frase da registrare.
+    Riprova più tardi.
 record-button-label = Registra la tua voce
 share-title-new = <bold>Aiutaci</bold> a trovare altre voci
 keep-track-profile = Tieni traccia dei progressi con un profilo

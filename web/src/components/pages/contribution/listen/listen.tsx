@@ -273,12 +273,13 @@ class ListenPage extends React.Component<Props, State> {
       this.state;
     const clipIndex = this.getClipIndex();
     const activeClip = clips[clipIndex];
-    const isMissingClips = !isLoading && (clips.length === 0 || !activeClip);
+    const noClips = clips.length === 0;
+    const isMissingClips = !isLoading && (noClips || !activeClip);
 
     return (
       <>
         <div id="listen-page">
-          {isLoading && <Spinner delayMs={500} />}
+          {noClips && isLoading && <Spinner delayMs={500} />}
           <audio
             {...(activeClip && { src: activeClip.audioSrc })}
             preload="auto"
