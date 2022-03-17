@@ -17,13 +17,16 @@ import Bucket from './bucket';
 import Clip from './clip';
 import Model from './model';
 import Prometheus from './prometheus';
-import { ClientParameterError } from './utility';
+import { APIError, ClientParameterError } from './utility';
 import Challenge from './challenge';
 import { features } from 'common';
 import { taxonomies } from 'common';
 import Takeout from './takeout';
 import NotificationQueue, { uploadImage } from './queues/imageQueue';
 const Transcoder = require('stream-transcoder');
+import { StatusCodes } from 'http-status-codes';
+import isValidJobId from './validate';
+import { nextTick } from 'process';
 
 const PromiseRouter = require('express-promise-router');
 
@@ -65,6 +68,7 @@ export default class API {
 
     router.use((request: Request, response: Response, next: NextFunction) => {
       this.metrics.countApiRequest(request);
+      console.log('Really Bad Error handler');
       next();
     });
 
@@ -133,6 +137,8 @@ export default class API {
     router.get('/bucket/:bucket_type/:path', this.getPublicUrl);
     router.get('/server_date', this.getServerDate);
     router.use('*', (request: Request, response: Response) => {
+      console.log('Bad Error handler');
+
       response.sendStatus(404);
     });
 
@@ -251,11 +257,15 @@ export default class API {
     response.json(user ? userData : null);
   };
 
-  subscribeToNewsletter = async (request: Request, response: Response) => {
+  subscribeToNewsletter = async (
+    request: Request,
+    response: Response,
+    next: NextFunction
+  ) => {
     const { BASKET_API_KEY } = getConfig();
     if (!BASKET_API_KEY) {
-      response.json({});
-      return;
+      const basketError = new APIError('Unable to process request');
+      next(basketError);
     }
 
     const { email } = request.params;
@@ -305,53 +315,31 @@ export default class API {
           s3: this.s3,
         });
 
-        return response.status(201).json({ id: job });
+        if (!job) throw new Error('Upload cannot be completed');
+        return response.status(StatusCodes.CREATED).json({ id: job.id });
       } catch (error) {
         console.error(error);
         return response
-          .status(400)
-          .json({ message: 'Image could not be uploaded.' });
+          .status(StatusCodes.BAD_REQUEST)
+          .json({ message: error?.message || 'Image could not be uploaded.' });
       }
-
-      await this.s3
-        .upload({
-          Key: fileName,
-          Bucket: getConfig().CLIP_BUCKET_NAME,
-          Body: rawImageData,
-          ACL: 'public-read',
-        })
-        .promise();
-
-      avatarURL = this.bucket.getUnsignedUrl(
-        getConfig().CLIP_BUCKET_NAME,
-        fileName
-      );
-    }
-    switch (params.type) {
-      case 'default':
-        avatarURL = null;
-        break;
-
-      case 'gravatar':
-        try {
-          avatarURL =
-            'https://gravatar.com/avatar/' +
-            MD5(user.emails[0].value).toString() +
-            '.png';
-          await sendRequest(avatarURL + '&d=404');
-        } catch (e) {
-          if (e.name != 'StatusCodeError') {
-            throw e;
-          }
-          error = 'not_found';
+    } else if (params.type === 'default') {
+      avatarURL = null;
+    } else if (params.type === 'gravatar') {
+      try {
+        avatarURL =
+          'https://gravatar.com/avatar/' +
+          MD5(user.emails[0].value).toString() +
+          '.png';
+        await sendRequest(avatarURL + '&d=404');
+      } catch (e) {
+        if (e.name != 'StatusCodeError') {
+          throw e;
         }
-        break;
-      default:
-        response.sendStatus(404);
-        return;
-    }
-
-    if (!error) {
+        error = 'not_found';
+      }
+    } else {
+      response.sendStatus(404);
     }
 
     response.json(error ? { error } : {});
@@ -440,7 +428,7 @@ export default class API {
       const takeout_id = await this.takeout.startTakeout(request.client_id);
       response.json({ takeout_id });
     } catch (err) {
-      response.status(400).json(err.message);
+      response.status(StatusCodes.BAD_REQUEST).json(err.message);
     }
   };
 
@@ -526,15 +514,25 @@ export default class API {
     response.json({ url });
   };
 
-  getJob = async ({ client_id, params }: Request, response: Response) => {
-    const { jobId } = params;
-    const job = await NotificationQueue.getJob(jobId);
-    //job is owned by current client
-    if (client_id === job.data.client_id) {
-      const { finishedOn } = job;
-      response.json({ finishedOn });
+  getJob = async (
+    { client_id, params: { jobId } }: Request,
+    response: Response,
+    next: NextFunction
+  ) => {
+    if (!isValidJobId(jobId)) throw new APIError('Invalid job request 2');
+    try {
+      const job = await NotificationQueue.getJob(jobId);
+      //job is owned by current client
+      if (job) {
+        if (client_id === job.data.client_id) {
+          const { finishedOn } = job;
+          return response.json({ finishedOn });
+        }
+      }
+      throw new APIError('Invalid job request44');
+    } catch (e) {
+      next(e);
     }
-    response.status(401);
   };
 
   getServerDate = (request: Request, response: Response) => {
