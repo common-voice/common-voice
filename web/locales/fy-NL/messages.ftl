@@ -17,6 +17,7 @@ not-available-abbreviation = NB
 banner-error-slow-1 = Sorry, Common Voice rint stadich. Tank foar jo belangstelling.
 banner-error-slow-2 = Wy krije in soad ferkear en ûndersykje op dit stuit de problemen.
 banner-error-slow-link = Statusside
+error-something-went-wrong = Sorry, der is wat misgien
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -541,6 +542,7 @@ about-get-involved-text-2 =
     -forums, meld problemen mei de website fia <githubLink>GitHub</githubLink>, of doch
     mei mei de mienskipschat op <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Hoe hâld ik kontakt?
+about-stay-in-touch-button = Registrearje
 about-stay-in-touch-text-1 = <emailFragment>Skriuw jo yn</emailFragment> foar ús e-maillist om te learen hoe’t jo dielnimme kinne oan kampanjes, eveneminten en mienskiplike ûntwerpfunksjes op Common Voice.
 about-stay-in-touch-text-2 = Jo kinne oaren yn de Mozilla-taalmienskippen moetsje troch lid te wurden fan <discourseLink>Discourse</discourseLink> foar aktuele petearen, of <matrixLink>Matrix</matrixLink> foar fluch advys.
 about-nav-why-common-voice = Wêrom?
