@@ -155,17 +155,21 @@ export default class Server {
 
       // Enable Sentry error handling
       app.use(Sentry.Handlers.errorHandler());
-      app.use((error: any, request: Request, response: Response) => {
-        console.log('Final Error handler');
-        console.log(error.status, error.message, error.stack);
-        const isAPIError = error instanceof APIError;
-        if (!isAPIError) {
-          console.error(request.url, error.message, error.stack);
+      app.use(
+        (
+          error: any,
+          request: Request,
+          response: Response,
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
+          _next: NextFunction // this unused parameter must be included for error handling middleware
+        ) => {
+          console.error(error);
+          const isAPIError = error instanceof APIError;
+          response
+            .status(error?.status || StatusCodes.INTERNAL_SERVER_ERROR)
+            .json({ message: isAPIError ? error.message : '' });
         }
-        response
-          .status(error?.status || StatusCodes.INTERNAL_SERVER_ERROR)
-          .json({ message: isAPIError ? error.message : '' });
-      });
+      );
     }
   }
 
