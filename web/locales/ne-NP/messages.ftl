@@ -17,6 +17,7 @@ not-available-abbreviation = उपलब्ध छैन
 banner-error-slow-1 = माफ गर्नुहोस्, Common Voice बिस्तारै चलिरहेको छ। तपाईंको रुचिको लागि धन्यवाद।
 banner-error-slow-2 = हामीले धेरै ट्राफिकहरू प्राप्त गर्दैछौं र हाल मामिलाहरूको अनुसन्धान गरिरहेका छौं।
 banner-error-slow-link = स्थिति पृष्ठ
+error-something-went-wrong = माफ गर्नुहोस्, केहि गडबडि भयो
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -477,13 +478,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Common Voice नै किन ?
+how-does-it-work-title-v2 = साझा आवाज कसरी काम गर्छ?
 how-does-it-work-text = हामी आवाजहरूको खुला स्रोत डाटासेट क्राउड सोर्स गर्दैछौं। आफ्नो आवाज दान गर्नुहोस्, अन्य व्यक्तिका क्लिपहरूको शुद्धता प्रमाणित गर्नुहोस्, डाटासेटलाई सबैका लागि राम्रो बनाउनुहोस्।
 
 ## How does it work section
 
+about-language-req-subtitle = कसैले भाषा थप्नको लागि सोध्छ।
 about-localization-title = वेबसाइट स्थानीयकरण
+about-localization-subtitle = वेबसाइटको शब्दहरू त्यो भाषामा अनुवाद गरिएको छ।
 about-sentence-collection-title = वाक्य संग्रह
+about-sentence-collection-subtitle = मानिसहरू ठूलो स्वरमा पढ्नको लागि वाक्यहरू सङ्कलन गरिन्छ।
+about-new-lang-title = नयाँ भाषा प्रक्षेपण
+about-new-lang-subtitle = हामी यस भाषामा साझा आवाज साइट सुरु गर्छौं।
+about-voice-contrib-title = आवाज योगदान
+about-voice-contrib-subtitle = मानिसहरू आउँछन् र आफ्नो आवाज योगदान गर्छन्।
 about-voice-validation-title = आवाज प्रमाणीकरण
+about-voice-validation-subtitle = अन्य व्यक्तिहरूले ती आवाज क्लिपहरू प्रमाणित गर्छन्।
+about-dataset-release-title = डाटासेट जारी
+about-dataset-release-subtitle = हामी प्रत्येक ३ महिनामा डाटासेट जारी गर्छौं।
+about-subscribe-text = साझा आवाजको साथ सम्पर्कमा रहन चाहनुहुन्छ?
 about-speak = बोल्नुहोस्
 about-speak-text = दान गरिएका वाक्यहरूको बैंकबाट पढेर, योगदानकर्ताहरूले आवाज क्लिपहरू रेकर्ड गर्छन्।
 about-listen-queue = सुन्नुहोस्-पङ्क्ति
@@ -512,15 +525,20 @@ about-get-involved-text-2 =
     महान! इमेल वा <discourseLink>Discourse</discourseLink> मार्फत सम्पर्कमा रहनुहोस्
     फोरमहरू, <githubLink>GitHub</githubLink> मार्फत साइट मुद्दाहरू पेस गर्नुहोस्, वा सामेल हुनुहोस्
     <matrixLink>Matrix</matrixLink> सामुदायिक च्याट।
+about-stay-in-touch = म कसरी सम्पर्कमा रहन सक्छु?
+about-stay-in-touch-button = साइन अप
 about-nav-why-common-voice = किन ?
 about-nav-how-it-works = कसरी ?
 about-nav-partners = साझेदारहरू
 about-nav-get-involved = सहभागी हुनुहोस्
 about-nav-how-it-works-2 = साझा आवाज कसरी काम गर्छ?
+about-nav-playbook = भाग लिने तरिका जान्नुहोस्
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = साझा आवाजमा भाषा के हो?
+about-playbook-what-is-language-content-1 = भाषाको बारेमा सोच्ने धेरै तरिकाहरू छन्। वाक् पहिचान मोडेलहरूको उद्देश्यका लागि साझा आवाजले 'पारस्परिक सुगमता' वा 'यो भाषा बोल्नेहरूले प्राय: प्रयास गरे भने एकअर्कालाई बुझ्न सक्छन्?'  भन्नेमा ध्यान केन्द्रित गर्न सुझाव दिन्छ।
 
 ## How do I add a language
 
