@@ -16,6 +16,7 @@ indicates-required = *ضروری خانے آلے پاسے اشارہ کریند�
 not-available-abbreviation = دستیاب کائنی
 banner-error-slow-1 = افسوس، کامن وائس مٹھا چلدا پئے۔ تہاݙا دلچسپی دا تھورا۔
 banner-error-slow-link = سٹیٹس ورقہ
+error-something-went-wrong = افسوس، کجھ خرابی تھی ڳئی
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -509,10 +510,12 @@ about-playbook-how-access-dataset = میں ڈیٹاسیٹ تے کین٘ویں پ
 ## How are decisions made
 
 about-playbook-how-project-governance = منصوبہ فیصلے کین٘ویں تھیندے ہن؟
+about-playbook-how-project-governance-content-2 = ساݙی حکمرانی دی بݨیاد انہاں تھمبیاں تے ہے:
 about-playbook-how-project-governance-content-3 = رازداری، حفاظت تے شفافیت۔
 about-playbook-how-project-governance-content-4 = برادری دی شرکت تے فیصلہ سازی۔
 about-playbook-how-project-governance-content-5 = قدر تے سُن٘ڄاݨ
 about-playbook-how-project-governance-content-6 = باہمی احتساب
+about-playbook-how-project-governance-content-7 = <governanceLink>اساں حکمومت کین٘ویں کریندیسے، ایں بارے ٻیا پڑھو </governanceLink>
 mycroft-title = مائی کرافٹ آئی
 mycroft-subtitle = مصنوعی ذہانت
 
