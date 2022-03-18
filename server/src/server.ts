@@ -8,7 +8,6 @@ import * as Sentry from '@sentry/node';
 import * as Tracing from '@sentry/tracing';
 import { StatusCodes } from 'http-status-codes';
 import 'source-map-support/register';
-
 import { importLocales } from './lib/model/db/import-locales';
 import { importTargetSegments } from './lib/model/db/import-target-segments';
 import { scrubUserActivity } from './lib/model/db/scrub-user-activity';
@@ -26,7 +25,7 @@ import authRouter from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
 import { createTaskQueues, TaskQueues } from './lib/takeout';
 import getCSPHeaderValue from './csp-header-value';
-
+const { ValidationError } = require('express-json-validator-middleware');
 const contributableLocales = require('locales/contributable.json');
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version';
@@ -97,6 +96,7 @@ export default class Server {
         );
       },
     };
+    app.use(express.json());
 
     // Enable Sentry request handler
     app.use(Sentry.Handlers.requestHandler());
@@ -164,8 +164,16 @@ export default class Server {
           _next: NextFunction // this unused parameter must be included for error handling middleware
         ) => {
           console.error(error);
+
+          const isValidationError = error instanceof ValidationError;
+          if (isValidationError) {
+            return response.status(StatusCodes.BAD_REQUEST).json({
+              errors: error.validationErrors,
+            });
+          }
+
           const isAPIError = error instanceof APIError;
-          response
+          return response
             .status(error?.status || StatusCodes.INTERNAL_SERVER_ERROR)
             .json({ message: isAPIError ? error.message : '' });
         }
