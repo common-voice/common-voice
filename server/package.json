@@ -18,6 +18,7 @@
     "db-migrate-plugin-typescript": "2.0.0",
     "event-stream": "3.3.5",
     "express": "4.17.2",
+    "express-json-validator-middleware": "^2.2.1",
     "express-mysql-session": "2.1.7",
     "express-promise-router": "3.0.3",
     "express-session": "1.17.2",
