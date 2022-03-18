@@ -457,6 +457,7 @@ about-partners = بھائیوال
 about-become-a-partner = بھائیوال بݨو
 about-get-involved = نال رلت کرو
 about-stay-in-touch = میں رابطے وچ کین٘ویں ریہ سڳداں؟
+about-stay-in-touch-button = سائن اپ
 about-nav-why-common-voice = کیوں؟
 about-nav-how-it-works = کین٘ویں؟
 about-nav-partners = بھائیوال
