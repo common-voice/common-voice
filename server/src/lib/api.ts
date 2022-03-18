@@ -24,10 +24,11 @@ import Takeout from './takeout';
 import NotificationQueue, { uploadImage } from './queues/imageQueue';
 const Transcoder = require('stream-transcoder');
 import { StatusCodes } from 'http-status-codes';
-import isValidJobId from './validate';
 import { nextTick } from 'process';
 
 const PromiseRouter = require('express-promise-router');
+
+import validate, { jobSchema } from './validation';
 
 export default class API {
   model: Model;
@@ -49,8 +50,6 @@ export default class API {
   getRouter(): Router {
     const router = PromiseRouter();
 
-    router.use(bodyParser.json());
-
     router.use(authMiddleware);
 
     router.get('/golem', (request: Request, response: Response) => {
@@ -61,7 +60,7 @@ export default class API {
       response.redirect('/');
     });
 
-    router.get('/job/:jobId', this.getJob);
+    router.get('/job/:jobId', validate({ params: jobSchema }), this.getJob);
     router.get('/user_clients', this.getUserClients);
     router.post('/user_clients/:client_id/claim', this.claimUserClient);
     router.get('/user_client', this.getAccount);
@@ -491,17 +490,15 @@ export default class API {
     response: Response,
     next: NextFunction
   ) => {
-    if (!isValidJobId(jobId)) throw new APIError('Invalid job request 2');
+    // if (!isValidJobId(jobId)) throw new APIError('Invalid job request');
     try {
       const job = await NotificationQueue.getJob(jobId);
       //job is owned by current client
-      if (job) {
-        if (client_id === job.data.client_id) {
-          const { finishedOn } = job;
-          return response.json({ finishedOn });
-        }
+      if (job && client_id === job.data.client_id) {
+        const { finishedOn } = job;
+        return response.json({ finishedOn });
       }
-      throw new APIError('Invalid job request44');
+      throw new APIError('Invalid job request');
     } catch (e) {
       next(e);
     }
