@@ -518,6 +518,9 @@ about-playbook-how-project-governance-content-6 = باہمی احتساب
 about-playbook-how-project-governance-content-7 = <governanceLink>اساں حکمومت کین٘ویں کریندیسے، ایں بارے ٻیا پڑھو </governanceLink>
 mycroft-title = مائی کرافٹ آئی
 mycroft-subtitle = مصنوعی ذہانت
+mycroft-description =
+    مائیکروسافٹ دنیا دا پہلا کھلا ماخذ معاون ہے۔ 
+    مائیکروسافٹ ہر جاء تے چلدے۔ ڈیسک ٹاپ کمپیوٹر تے، آٹوموبائل وچ، یا رسبیری پائی تے وی۔
 
 ## Glossary
 
