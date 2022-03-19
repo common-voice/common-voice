@@ -963,6 +963,7 @@ sc-howto-title = کین٘ویں
 sc-howto-addlang-title = نال کم کرݨ کیتے زبان شامل کرݨ
 sc-howto-addsen-title = نویں جملے شامل کرو
 sc-howto-cite-title = حوالہ ݙیوݨ دا طریقہ
+sc-howto-cite-item-1 = تساں ویب سائٹ شامل کر سڳدے ہو، مثال دے طور تے "کامن وائس"۔ https://commonvoice.mozilla.org/
 sc-howto-review-title = جملیاں دا جائزہ گھنو
 sc-howto-review-subtitle = ایں ڳآلھ کوں یقینی بݨاؤ جو ایں معیار کوں پورا کریندن:
 sc-howto-review-criteria-1 = جملے دے ہجے درست ہووݨ ضروری ہن۔
@@ -1017,6 +1018,8 @@ sc-submit-add-sentences = <wikipediaLink>عوامی ڈومین</wikipediaLink> �
 sc-submit-ph-one-per-line =
     .placeholder = ہک جملہ فی سطر
 sc-submit-from-where = ایہ <wikipediaLink>عوامی ڈومین</wikipediaLink> جملے کتھوں دے ہن؟
+sc-submit-ph-read-how-to =
+    .placeholder = جے تہاکوں انتساب کرݨ کائنی آندا تاں ساݙا کین٘ویں کروں پڑھو
 sc-submit-button =
     .submitText = جمع کرواؤ
 sc-submit-guidelines = سوہݨا <howToLink>رہنمائی ہدایات</howToLink> دی پڑتال کرو
@@ -1127,6 +1130,8 @@ sc-criteria-item-3 = جملہ الاوݨ دے قابل ہووݨ ضروری ہے�
 sc-review-title = جملیاں دا جائزہ گھنو
 sc-review-loading = جملے لوڈ تھیندے پئے۔۔۔
 sc-review-select-language = جملیاں دا جائزہ گھنݨ کیتے زبان چُݨو، سوہݨا۔
+sc-review-form-prompt =
+    .message = نظرثانی تھئے جملے جمع کائنی تھئے، تہاکوں پک ہے؟
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = ماخذ: { $sentenceSource }
@@ -1141,6 +1146,14 @@ sc-review-form-button-reject-shortcut = کو
 sc-review-form-button-skip-shortcut = چھوڑو
 sc-review-form-button-submit =
     .submitText = جائزہ مکمل کرو
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] کوئی جملہ نظر ثانی کائنی تھیا۔
+        [one] ١ جملہ نظرثانی تھیا۔ تہاݙا تھورا!
+       *[other] { $sentences }جملے نظرثانی تھئے۔ تہاݙا تھورا!
+    }
 sc-review-form-review-failure = جائزہ محفوظ کائنی تھی سڳا، سوہݨا ولدا بعد وچ کوشش کرو۔
 sc-review-link = نظرثانی
 
@@ -1151,6 +1164,8 @@ sc-settings-ui-language = انٹرفیس زبان
 sc-settings-reset-skipped = چھوڑے ہوئے جملے ولدا ٹھیک کرو
 sc-settings-show-all-button = سارے چھوڑے ہوئے جملے ولدا ݙکھاؤ
 sc-settings-failed = ترتیباں کائنی وٹا سڳا۔ سوہݨا ولدا کوشش کرو۔
+# VALIDATION
+sc-validation-number-of-words = جملے وچ ١ تے ١٤(ݙون٘ہیں شامل) دے درمیان لفظ ہووݨ ضروری ہے۔
 sc-validation-no-numbers = جملے وچ عدد نئیں ہووݨے چاہیدے
 sc-validation-no-symbols = جملے وچ علامتاں نئیں ہووݨے چاہیدے
 sc-validation-no-abbreviations = جملے وچ مخففات نئیں ہووݨے چاہیدے
