@@ -549,6 +549,7 @@ data-download-button = کامن وائس ڈیٹا ڈاؤن لوڈ کرو
 data-download-yes = جیا
 data-download-deny = کو
 data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
+data-download-modal = تساں <size>{ $size }GB</size> دا ڈاؤن لوڈ شروع کرݨ آلے ہی ہو، اڳوں تے ودھوں؟
 data-get-started = <speechBlogLink>کلام شناسی نال شروع کرو</speechBlogLink>
 data-other-title = ٻئے اواز ڈیٹاسیٹس۔۔۔
 data-other-goto = { $name } تے ون٘ڄو
