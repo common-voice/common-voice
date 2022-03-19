@@ -364,6 +364,7 @@ settings = ترتیباں
 edit-profile = پروفائل وچ تبدیلی کرو
 profile-create-success = کامیابی، پروفائل خلقیج ڳئی!
 profile-close = بند کرو
+profile-explanation = پروفائل نال آپݨی پیش رفت تے ٹریک رکھو تے ساݙی وائس ڈیٹا دی درستی کیتے ساݙی مدد کرو۔
 thanks-for-account = تہاݙا کھاتیہ تصدیق کرݨ تے تھورا۔ ہݨ تساں آپݨی پروفائل بݨاؤ۔
 why-demographic = ایہ اہم کیوں ہے؟
 accept-privacy = جی۔ویں جو تساں موزلا دی <privacyLink>رازداری پالیسی</privacyLink> وچ وضاحت کریندے ہو میں ایں ڄاݨکاری کوں سمبھالݨ وچ ٹھیک ہاں۔
