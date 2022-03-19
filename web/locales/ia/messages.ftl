@@ -1399,7 +1399,7 @@ sc-personal-your-languages = Tu linguas:
 sc-personal-remove-button = remover
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
-sc-personal-added-by-you = { $phrases } addite per te
+sc-personal-added-by-you = { $sentences } addite per te
 sc-personal-not-added = Tu non ha addite ulle linguas totevia.
 
 ## REVIEW CRITERIA
@@ -1445,7 +1445,7 @@ sc-review-form-reviewed-message =
     { $sentences ->
         [0] Nulle phrases revidite
         [one] 1 phrase revidite. Gratias!
-       *[other] { $phrases } phrases revidite. Gratias!
+       *[other] { $sentences } phrases revidite. Gratias!
     }
 sc-review-form-review-failure = Impossibile salvar le revision. Retenta plus tarde.
 sc-review-link = Revider
