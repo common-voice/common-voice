@@ -530,7 +530,9 @@ mycroft-description =
 
 glossary = فرہنگ
 localization = مقامیت
+localization-explanation = ایہ ساݙے ٻہوں سارے مقامیاوݨ(زباناں)  کیتے ساݙا مواد قبول کرݨ تے ترجمہ کرݨ دا عمل ہے۔
 sentence-collection = فقریاں دا مجموعہ
+sentence-collection-explanation = عوامی ڈومیناں کنوں جملے کٹھے کرݨ، یا عوامی ڈومین کیتے نویں لکھݨ۔
 hours-recorded-explanation = وائس رکاڈنگ گھنٹیاں دی ڳنتری جیڑے اساں ہُݨ تائیں کٹھے کیتن۔
 sst = (Speech-to-text (STT
 de-identified = سُن٘ڄاݨ پھیرݨ
@@ -562,6 +564,7 @@ terms-agree = میں متفق ہاں
 terms-disagree = میں راضی کائنی
 review-aborted = اپ لوڈ منسوخ تھی ڳئی۔ بھلا تساں آپݨی رکاڈنگ مٹاوݨ چاہندے ہو؟
 review-submit-title = جائزہ گھنو تے جمع کرواؤ
+review-submit-msg = رکارڈنگ کیتے تہاݙا تھورا!<lineBreak></lineBreak> نظرثانی کرو، ہݨ ہیٹھاں آپݨے کلب جمع کرواؤ
 review-recording = نظرثانی
 review-rerecord = ولدا ریکارڈ کرو
 review-cancel = جمع منسوخ کرو
