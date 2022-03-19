@@ -451,6 +451,7 @@ about-subscribe-text = بھلا کامن وائس نال رابطہ وچ رہݨ 
 about-speak = ٻولو
 about-speak-text = ونگارو دان تھئے جملیاں دے بینک توں پڑھ تے وائس کلپ رکاڈ کریندن۔
 about-listen-queue = سݨݨ دی قطار
+about-listen-queue-text = صوتی کلپ جمع کراوݨ آلی قطار وچ درج کیتے ویندن، جہڑی انہاں کوں سݨݨ کیتے تیار کریندی ہے۔
 about-listen = سݨو
 about-is-it-valid = بھلا ایہ کلپ ٹھیک ہے؟
 about-is-it-valid-text = ڄݙݨ ورتݨ آلا "جیا" ووٹ ݙیندے تاں صوتی کلپ تے "ٹھیک" ہووݨ دا نشان لڳدے
