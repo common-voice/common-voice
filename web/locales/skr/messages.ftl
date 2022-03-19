@@ -366,6 +366,7 @@ profile-create-success = کامیابی، پروفائل خلقیج ڳئی!
 profile-close = بند کرو
 thanks-for-account = تہاݙا کھاتیہ تصدیق کرݨ تے تھورا۔ ہݨ تساں آپݨی پروفائل بݨاؤ۔
 why-demographic = ایہ اہم کیوں ہے؟
+accept-privacy = جی۔ویں جو تساں موزلا دی <privacyLink>رازداری پالیسی</privacyLink> وچ وضاحت کریندے ہو میں ایں ڄاݨکاری کوں سمبھالݨ وچ ٹھیک ہاں۔
 accept-privacy-title = رازداری پالیسی
 login-identity = لاگ ان سُن٘ڄاݨ
 login-signup = لاگ ان/ سائن اپ
