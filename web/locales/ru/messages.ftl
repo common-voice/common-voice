@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Получать такие письма,
 email-opt-in-privacy-v2 = Согласившись получать письма, вы заявляете, что согласны с тем, как Mozilla обрабатывает эту информацию, согласно <privacyLink>Политике приватности</privacyLink> Mozilla.
 indicates-required = * поля, обязательные для заполнения
 not-available-abbreviation = Недоступно
+error-something-went-wrong = Ой, что-то пошло не так
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
