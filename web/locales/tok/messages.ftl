@@ -530,6 +530,7 @@ about-get-involved-text-2 =
     sina wile ala wile pona e ilo Common Voice?
     wile la, o toki lon <discourseLink>ilo Discourse</discourseLink>, o pana e pakala lon <githubLink>ilo Github</githubLink>, o toki lon <matrixLink>ilo Matrix</matrixLink>.
 about-stay-in-touch = nasin seme la mi sona e ijo sin?
+about-stay-in-touch-button = o pali e sijelo ilo
 about-stay-in-touch-text-1 = <emailFragment>o kama</emailFragment> tawa kulupu pi lipu sin. ni la sina kama sona e pali, e tenpo suli. sina ken pali e ilo Common Voice a!
 about-stay-in-touch-text-2 = sina ken toki tawa jan pi kulupu toki Mozilla lon <discourseLink>ilo Discourse</discourseLink>, lon <matrixLink>ilo Matrix</matrixLink>.
 about-nav-why-common-voice = tan seme?
