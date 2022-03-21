@@ -1189,6 +1189,7 @@ sc-howto-findpd-tips-1 = Iporãvéva teñoiha ehekakuaáva ha’e umi podcasts, 
 sc-howto-findpd-tips-2 = Umi tetã rekuái rembiapotee, arandukakuéra ha jehaipyre avei iporãiterei; upéicharamo jepe, pe moñe’ẽrã hekokatumieve, sa’ive ojehecharamo.
 sc-howto-findpd-tips-3 = Rombyasy, ndoroguerekói Wikimedia mba’eñemurã. Upévare ani embokuatia ha emboja upe guive.
 sc-howto-findpd-subtitle-2 = Eñemoirũ atyguasu térã tapicha tendaguávare
+sc-howto-findpd-partner-1 = Oĩ heta mba’apohaguasu ikatúva oipytyvõ ha oguerekómava heta moñe’ẽrã ome’ẽkuaáva opavave mba’erãvaramo. Eñe’ẽkuaa umi mbo’ehaovusu, tetãrekuái ha atyguasu ijayvu jurujáva ndive eñe’ẽkuaa hag̃ua apopyrã rehe ha ejerurévo chupekuéra ñepytyvõ.
 sc-howto-findpd-partner-2 = Umi ñe’ẽkuaahára avei oipytyvõkuaa, eñe’ẽkuaa mbo’ehaovusu ñe’ẽrekombo’eguáva ndive (taha’e mbo’ehára térã temimbo’e) ha ehecha ne pytyvõkuaátapa embyaty hag̃ua hetáichagua ñe’ẽjoju ipuambuéva ne ñe’ẽte pegua.
 
 ## MY SENTENCES
