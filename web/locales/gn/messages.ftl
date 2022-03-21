@@ -1181,6 +1181,7 @@ sc-howto-review-criteria-1 = Pe ñe’ẽjuaju ojehaiva’erã hekopete.
 sc-howto-review-criteria-2 = Pe ñe’ẽjuaju hekopete ñe’ẽtekuaa rupi.
 sc-howto-review-criteria-3 = Pe ñe’ẽjuaju oje’ekuaava’erã.
 sc-howto-review-criteria-4 = Pe ñe’ẽjuaju oiko hekopete, eikutu pe votõ "Moneĩ".
+sc-howto-review-criteria-5 = Pe ñe’ẽjuaju ndoguerekopáiramo umi mba’e ojerurévakuri, eikutúnte pe votõ "Hejarei". Nderehechaporãiramo pe ñe’ẽjuaju, ikatu avei ehejareínte ha ehasa ambuépe.
 sc-howto-review-criteria-6 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃ua, ¡orepytyvõ rombyatyvévo ñe’ẽjuaju!
 sc-howto-findpd-title = Ejuhúta ñe’ẽjuaju oĩva opavave oipurukuaahápe
 sc-howto-findpd-subtitle = Ehekava’erã ñandutípe
