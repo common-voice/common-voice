@@ -6,7 +6,7 @@
   "devDependencies": {
     "gulp": "4.0.2",
     "gulp-inject": "5.0.5",
-    "replace-in-file": "5.0.2"
+    "replace-in-file": "6.3.2"
   },
   "resolutions": {
     "y18n": "^4.0.1",
