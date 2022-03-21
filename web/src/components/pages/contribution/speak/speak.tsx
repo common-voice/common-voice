@@ -4,7 +4,6 @@ import {
   withLocalization,
 } from '@fluent/react';
 import * as React from 'react';
-import BalanceText from 'react-balance-text';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
 const NavigationPrompt = require('react-router-navigation-prompt').default;
@@ -21,18 +20,8 @@ import URLS from '../../../../urls';
 import { localeConnector, LocalePropsFromState } from '../../../locale-helpers';
 import Modal, { ModalButtons } from '../../../modal/modal';
 import TermsModal from '../../../terms-modal';
-import {
-  CheckIcon,
-  MicIcon,
-  StopIcon,
-  ArrowRight,
-  FirefoxColor,
-  ChromeColor,
-  SafariColor,
-  ReturnKeyIcon,
-} from '../../../ui/icons';
-import { Button, TextButton, LinkButton } from '../../../ui/ui';
-import { isIOS, isMobileSafari } from '../../../../utility';
+import { CheckIcon, MicIcon, StopIcon, ReturnKeyIcon } from '../../../ui/icons';
+import { Button, TextButton, Spinner } from '../../../ui/ui';
 import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
@@ -44,6 +33,7 @@ import {
 import AudioWeb, { AudioError, AudioInfo } from './audio-web';
 import RecordingPill from './recording-pill';
 import { SentenceRecording } from './sentence-recording';
+import SpeakErrorContent from './speak-error-content';
 
 import './speak.css';
 
@@ -58,79 +48,20 @@ enum RecordingError {
   TOO_QUIET = 'TOO_QUIET',
 }
 
-const UnsupportedInfo = () => (
-  <div className="empty-container">
-    <div className="error-card card-dimensions unsupported">
-      {isIOS() && !isMobileSafari() ? (
-        <>
-          <BalanceText>
-            <Localized id="record-platform-not-supported-ios-non-safari" />
-          </BalanceText>
-          <SafariColor />
-        </>
-      ) : (
-        <>
-          <BalanceText>
-            <Localized id="record-platform-not-supported" />
-          </BalanceText>
-          <p className="desktop">
-            <Localized id="record-platform-not-supported-desktop">
-              <BalanceText />
-            </Localized>
-          </p>
-          <div>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://www.firefox.com/"
-              title="Firefox">
-              <FirefoxColor />
-            </a>{' '}
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://www.google.com/chrome"
-              title="Chrome">
-              <ChromeColor />
-            </a>
-          </div>
-        </>
-      )}
-    </div>
-  </div>
-);
-
-const NoSentencesAvailable = () => (
-  <div className="empty-container">
-    <div className="error-card card-dimensions no-sentences-available">
-      <Localized id="speak-empty-state">
-        <span />
-      </Localized>
-      <LinkButton
-        rounded
-        blank
-        href="https://common-voice.github.io/sentence-collector/">
-        <ArrowRight className="speak-sc-icon" />{' '}
-        <Localized id="speak-empty-state-cta">
-          <span />
-        </Localized>
-      </LinkButton>
-    </div>
-  </div>
-);
-
 interface PropsFromState {
   api: API;
   locale: Locale.State;
   sentences: SentenceType[];
   user: User.State;
   isLoading: boolean;
+  hasLoadingError: boolean;
 }
 
 interface PropsFromDispatch {
   addUploads: typeof Uploads.actions.add;
   addAchievement: typeof Notifications.actions.addAchievement;
   addNotification: typeof Notifications.actions.addPill;
+  loadSentences: typeof Sentences.actions.refill;
   removeSentences: typeof Sentences.actions.remove;
   tallyRecording: typeof User.actions.tallyRecording;
   refreshUser: typeof User.actions.refresh;
@@ -203,6 +134,9 @@ class SpeakPage extends React.Component<Props, State> {
   }
 
   componentDidMount() {
+    const { loadSentences } = this.props;
+    loadSentences();
+
     this.audio = new AudioWeb();
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
 
@@ -552,21 +486,6 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
-  private displayError = () => {
-    return (
-      this.isUnsupportedPlatform ||
-      (!this.props.isLoading && this.state.clips.length == 0)
-    );
-  };
-
-  private returnSpeakError = () => {
-    return this.isUnsupportedPlatform ? (
-      <UnsupportedInfo />
-    ) : (
-      <NoSentencesAvailable />
-    );
-  };
-
   private resetAndGoHome = () => {
     const { history, toLocaleRoute } = this.props;
     this.resetState(() => {
@@ -579,7 +498,7 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   render() {
-    const { getString, user } = this.props;
+    const { getString, user, isLoading, hasLoadingError } = this.props;
     const {
       clips,
       isSubmitted,
@@ -591,9 +510,14 @@ class SpeakPage extends React.Component<Props, State> {
     } = this.state;
     const recordingIndex = this.getRecordingIndex();
 
+    const noClips = clips.length === 0;
+    const noNewClips = noClips || !clips.some(clip => clip.recording === null);
+    const isMissingClips = !isLoading && noClips;
+
     return (
       <>
         <div id="speak-page">
+          {noNewClips && isLoading && <Spinner delayMs={500} />}
           {!isSubmitted && (
             <NavigationPrompt
               when={clips.filter(clip => clip.recording).length > 0}>
@@ -648,8 +572,8 @@ class SpeakPage extends React.Component<Props, State> {
             <Localized id="review-aborted">
               <Modal
                 buttons={{
-                  [getString('review-keep-recordings')]: this
-                    .toggleDiscardModal,
+                  [getString('review-keep-recordings')]:
+                    this.toggleDiscardModal,
                   [getString('review-delete-recordings')]: this.resetAndGoHome,
                 }}
               />
@@ -658,7 +582,18 @@ class SpeakPage extends React.Component<Props, State> {
           <ContributionPage
             demoMode={this.demoMode}
             activeIndex={recordingIndex}
-            errorContent={this.displayError() && this.returnSpeakError()}
+            hasErrors={
+              this.isUnsupportedPlatform ||
+              (!isLoading && (hasLoadingError || isMissingClips))
+            }
+            errorContent={
+              <SpeakErrorContent
+                isLoading={isLoading}
+                hasLoadingError={hasLoadingError}
+                isUnsupportedPlatform={this.isUnsupportedPlatform}
+                isMissingClips={isMissingClips}
+              />
+            }
             instruction={props =>
               error ? (
                 <div className="error">
@@ -679,22 +614,24 @@ class SpeakPage extends React.Component<Props, State> {
                   />
                 </div>
               ) : (
-                <Localized
-                  id={
-                    this.isRecording
-                      ? 'record-stop-instruction'
-                      : recordingIndex === SET_COUNT - 1
-                      ? 'record-last-instruction'
-                      : ['record-instruction', 'record-again-instruction'][
-                          recordingIndex
-                        ] || 'record-again-instruction2'
-                  }
-                  elems={{
-                    recordIcon: <MicIcon />,
-                    stopIcon: <StopIcon />,
-                  }}
-                  {...props}
-                />
+                <>
+                  <Localized
+                    id={
+                      this.isRecording
+                        ? 'record-stop-instruction'
+                        : recordingIndex === SET_COUNT - 1
+                        ? 'record-last-instruction'
+                        : ['record-instruction', 'record-again-instruction'][
+                            recordingIndex
+                          ] || 'record-again-instruction2'
+                    }
+                    elems={{
+                      recordIcon: <MicIcon />,
+                      stopIcon: <StopIcon />,
+                    }}
+                    {...props}
+                  />
+                </>
               )
             }
             isFirstSubmit={user.recordTally === 0}
@@ -780,7 +717,8 @@ class SpeakPage extends React.Component<Props, State> {
 }
 
 const mapStateToProps = (state: StateTree) => {
-  const { sentences, isLoading } = Sentences.selectors.localeSentences(state);
+  const { sentences, isLoading, hasLoadingError } =
+    Sentences.selectors.localeSentences(state);
 
   return {
     api: state.api,
@@ -788,6 +726,7 @@ const mapStateToProps = (state: StateTree) => {
     sentences,
     user: state.user,
     isLoading,
+    hasLoadingError,
   };
 };
 
@@ -795,6 +734,7 @@ const mapDispatchToProps = {
   addNotification: Notifications.actions.addPill,
   addAchievement: Notifications.actions.addAchievement,
   addUploads: Uploads.actions.add,
+  loadSentences: Sentences.actions.refill,
   removeSentences: Sentences.actions.remove,
   tallyRecording: User.actions.tallyRecording,
   refreshUser: User.actions.refresh,

@@ -17,6 +17,7 @@ not-available-abbreviation = Nic k dispoziciji
 banner-error-slow-1 = Bóžko Common Voice pómału běžy. Źěkujomy se za waš zajm.
 banner-error-slow-2 = Dostawamy wjele wobchada a pśepytujomy tuchylu problemy.
 banner-error-slow-link = Statusowy bok
+error-something-went-wrong = Hopla, něco njejo se raźiło
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -400,7 +401,7 @@ skip-submission-note = glědajśo: Musyśo hyšći mjazy Powědaś abo Słuchaś
 off = Wušaltowany
 on = Zašaltowany
 help-accent = Trjebaśo pomoc wó akcenśe?
-help-accent-explanation = Waš akcent jo nałog, kak słowa wugranjaśo. Jogo charakter wót togo wótwisujo, źož sćo był žywy, kótare druge rěcy powědaśo a wót wjele drugich faktorow. Móžośo wšykne informacije k wěsći daś, kótarež za relewantne  maśo.
+help-accent-explanation = Waš akcent jo nałog, kak słowa wugranjaśo. Jogo charakter wót togo wótwisujo, źož sćo był žywy, kótare druge rěcy powědaśo a wót wjele drugich faktorow. Móžośo wšykne informacije k wěsći daś, kótarež za relewantne maśo.
 help-variants = Trjebaśo pomoc za warianty?
 help-variants-explanation = Warianty su specifiska forma rěcy - powědaju se na pśikład wót luźi, kótarež su we wěstem regionje abo zgromaźeństwje žywe. Wótergi wóne se dialekty pomjenjuju.
 
@@ -558,11 +559,17 @@ about-playbook-how-add-language-content-3 = <strong>Aby sady gromaźił</strong>
 
 about-playbook-how-localize = Kak lokalizěrowanje sedłow funkcioněrujo?
 about-playbook-how-localize-content-1 = Pśełožowanje sedła Common Voice se na <strong>Pontoon</strong> wótměwa.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Załožćo konto</pontoonAccountLink>, jolic žedno njamaśo. Wubjeŕśo swóju rěc<strong>(„Team“)</strong> a pón projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Tam dataje namakajośo, kótarež muse se pśełožowaś. Klikniśo na jadnu z nich, pón se słowa w engelšćinje a kašćik za pśełožowanje pokazuju.
+about-playbook-how-localize-content-3 = Pśełožowanje  se z engelšćiny pśewjeźo, ale móžośo <strong>naraźenja</strong> w drugich rěcach wiźeś. Klikniśo na <strong>profilowy</strong> symbol, pón na wótkaz <strong>Nastajenja</strong> a pśidajśo rěcy, kótarež powědaśo. Dołojce w pšawem rožku buźo lisćina pśełožkow z mjenim <strong>Locales</strong>. Pśełožki se na sedle pó jadnem dnju pokaže.
 about-playbook-how-localize-content-4 = Sedło jo gótowe za wózjawjenje, gaž jo pó 75 % dokóńcone.
+about-playbook-how-localize-content-5 = Woglědajśo se wideo rozjasnjenja
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Kak mógu sady pśidaś?
+about-playbook-how-add-sentences-content-1 = <strong>Zgromaźowak sadow</strong> jo rěd za gromaźenje a pśeglědowanje zjawnje pśistupnych sadow. <scAccountLink>Musyśo konto załožyś</scAccountLink>. Pśidajśo pón swójomu <strong>profiloju</strong> swóju rěc. Móžośo sady <strong>pśidaś</strong> abo do togo pśidane sady <strong>pśeglědowaś</strong>.
+about-playbook-how-add-sentences-content-2 = Sady muse se wót dweju wósobowu pśeglědowaś a akceptěrowaś, by se do Common Voice pśewzeli. Směrnice za swóju rěc <languageGuidelinesLink>how</languageGuidelinesLink> napórajośo. Sady muse <licenseLink>zjawnje pśistupne</licenseLink> a krotše ako 15 słowow byś. Móžośo wobsejźarja teksta pšosyś, aby jen z pomocu našogo wótrjaceńskego wózjawjenja pód <waiverLink>CC0</waiverLink> stajił a jo na commonvoice@mozilla.com pósłał.
+about-playbook-how-add-sentences-content-3 = Móžośo <scraperLink>ekstraktor sadow</scraperLink> wužywaś, aby krotke sady z Wikipedije dostał.
 about-playbook-how-add-sentences-content-4 = Sady, kótarež su pśeglědane, se srjodu eksportěruju a su pó pśiducem wózjawjenju k dispoziciji.
 
 ## How to record quality
@@ -1133,6 +1140,7 @@ sc-header-profile = Profil
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Zmólki k wěsći daś
 sc-footer-translate = Toś ten bok pśełožowaś
+sc-footer-report-copyright = Problemy z awtorskim pšawom k wěsći daś
 sc-footer-privacy = Priwatnosć
 sc-footer-terms = Wuměnjenja
 sc-footer-cookies = Cookieje
@@ -1143,11 +1151,13 @@ sc-logout-button = Wótzjawiś
 
 sc-home-title = Witajśo k Common Voice Sentence Collector
 sc-home-collect-title = Sady gromaźiś
+sc-home-collect-text = Pomožćo nam, zjawnje pśistupne sady pisaś abo gromaźiś.
 sc-home-review-title = Sady pśeglědaś
 sc-home-review-text = Pomagajśo nam, korektnosć sadow pó směrnicach pśeglědowaś.
 
 ## GENERAL
 
+sc-languages-fetch-error = K dispoziciji stojrce rěvx njejsu se dali wótwołaś. Pśinoski njejsu tuchylu móžne. Pšosym wopytajśo pózdźej hyšći raz.
 
 ## HOW-TO
 
@@ -1155,6 +1165,9 @@ sc-howto-title = Rozpokazanje
 sc-howto-addlang-title = Rěcy pśidaś, z kótarymiž se źěła
 sc-howto-addlang-text = Gaž sćo pśizjawjony, móžośo swóje rěcy we wótrězku Profil wubraś.
 sc-howto-addsen-title = Nowe sady pśidaś
+sc-howto-addsen-item-1 = Wšykne sady, kótarež zapódawaśo, muse pód <wikipediaLink>licencu Public Domain (CC-0)</wikipediaLink> byś. Aby pśiwześe źěła pódpěrali, kótarež njejo pód zjawneju licencu, smy napórali <cc0WaiverLink>pśedłogu za pśinoski</cc0WaiverLink> za źěła, ku kótarymž by mějaŕ awtorskego pšawa rady swój material pśinosował.
+sc-howto-addsen-item-5 = Wukrajne pismiki. Pismiki musde w rěcy płaśiwe byś, w kótarejž se je powědaju. “ж” na pśikład jo pismik w ruskem alfabeśe, ale se nigda w engelšćinje njewužywa a njeměli se togodla nigda w engelskem žrědłowem teksće zjawiś.
+sc-howto-addsen-item-6 = Rěcy mógu swóje <validationRulesLink>swójske pśeglědowańske pšawidła</validationRulesLink> z pśidatnymi pominjenjami měś. Jolic njedajo za rěc specifisku pśeglědowansku dataju, wužywamy powšykne engelske pšawidła.
 sc-howto-cite-title = Citěrowaś
 sc-howto-cite-item-1 = Wy mógał websedło pódaś, na pś. „Common Voice - https://commonvoice.mozilla.org/“
 sc-howto-review-title = Sady pśeglědaś
@@ -1174,6 +1187,7 @@ sc-howto-findpd-subtitle-2 = Źěłajśo z lokalnymi organizacijami abo jadne sa
 ## MY SENTENCES
 
 sc-my-title = Móje sady
+sc-my-description = Toś ten bok wam pśeglěd wšych wašych zapódanych sadow dajo. Móžośo teke južo zapódane sady wulašowaś, jolic trjeba, gaž kontrolny kašćik pódla nich markěrujośo a dołojce na &quot;Wubrane sady lašowaś&quot; klikaśo. Pšosym wówónoźćo sady jano, jolic jo absolutnje trjeba, na pśikład, jolic sćo pó tym zawupytnuł, až sada jo pśez awtorske pšawo šćitana.
 sc-my-loading = Waše sady se zacytuju…
 sc-my-err-fetching = Zmólka pśi wótwołowanju wašych sadow. Pšosym wopytajśo hyšći raz.
 sc-my-no-sentences = Žedne sady namakane!
@@ -1215,12 +1229,16 @@ sc-submit-prompt =
 sc-submit-title = Sady pśidaś
 sc-submit-select-language =
     .labelText = Rěc wubraś
+sc-submit-add-sentences = <wikipediaLink>Zjawnje pśistupne</wikipediaLink> sady pśidaś
 sc-submit-ph-one-per-line =
     .placeholder = Jadna sada na smužku
+sc-submit-from-where = Wótkul su toś te <wikipediaLink>zjawnje pśistupne</wikipediaLink> sady?
 sc-submit-ph-read-how-to =
     .placeholder = Cytajśo našo rozpokazanje, jolic njejsćo se wěsty, kak musyśo je pśirědowaś
+sc-submit-confirm = Wobkšuśijom, až toś te sady su <wikipediaLink>zjawnje pśistupne</wikipediaLink> a mam pšawo je nagraś.
 sc-submit-button =
     .submitText = Wótpósłaś
+sc-submit-filtered = Filtrowane sady felujucych pominanjow dla (pšosym zapódajśo kšute wersije ako nowe sady):
 sc-submit-guidelines = Pšosym pśeglědujśo <howToLink>směrnice</howToLink>.
 
 ## ADD LANGUAGE
@@ -1345,10 +1363,10 @@ sc-lang-info-validated =
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] Žedne wótpokazane sady.
-        [one] { $validatedSentences } wótpokazana sada.
-        [two] { $validatedSentences } wótpokazanej saźe.
-        [few] { $validatedSentences } wótpokazane sady.
-       *[other] { $validatedSentences } wótpokazanych sadow.
+        [one] { $rejectedSentences } wótpokazana sada.
+        [two] { $rejectedSentences } wótpokazanej saźe.
+        [few] { $rejectedSentences } wótpokazane sady.
+       *[other] { $rejectedSentences } wótpokazanych sadow.
     }
 
 ## LOGIN
@@ -1391,6 +1409,7 @@ sc-review-select-language = Pšosym wubjeŕśo rěc, aby sady pśeglědował.
 sc-review-no-sentences = Žedne sady za pśeglědowanje. <addLink>Pśidajśo něnto dalšne sady!</addLink>
 sc-review-form-prompt =
     .message = Pśeglědane sady hyšći njejsu zapódane, nic ga?
+sc-review-form-usage = Šmarniśo napšawo, aby sadu pśizwólił. Šmarniśo nalěwo, aby ju wótpokazał. Šmarniśo górjej, aby ju pśeskócył. <strong>Njezabywajśo, swóje pógódnośenje zapódaś!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Žrědło: { $sentenceSource }
@@ -1425,6 +1444,7 @@ sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěc wužywaŕskego pówjercha
 sc-settings-language-translated-warning = Boki za toś tu rěc njejsu snaź dopołnje pśełožone. Móžośo z pśełožowanim <pontoonLinkLink>na Pontoon</pontoonLinkLink> wupomogaś.
 sc-settings-reset-skipped = Pśeskócone sady slědk stajiś
+sc-settings-skipped-decription = Sćo do toho pśeskócył sady pśi pógódnośenju. Slědkstajanje pśeskóconych sadow buźo wšykne pśeskócone sady znowego pokazowaś. To jo njewótwisne wót rěcy.
 sc-settings-show-all-button = Wšykne pśeskócone sady hyšći raz pokazaś
 sc-settings-failed = Nastajenja njedaju se změniś. Pšosym wopytajśo hyšći raz.
 # VALIDATION

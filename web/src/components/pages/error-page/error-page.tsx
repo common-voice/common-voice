@@ -7,9 +7,14 @@ import { LocaleLink } from '../../locale-helpers';
 import { GitHubLink, DiscourseLink, MatrixLink } from '../../shared/links';
 import { GithubIconCode, DiscourseIconCode, MatrixIcon } from '../../ui/icons';
 
-import './error-page.css';
+import RoundButton from '../../ui/round-button';
+import PageHeading from '../../ui/page-heading';
+import PageTextContent from '../../ui/page-text-content';
 
-export default ({
+import './error-page.css';
+import VisuallyHidden from '../../visually-hidden/visually-hidden';
+
+const ErrorPage = ({
   errorCode,
   prevPath = '',
 }: {
@@ -21,58 +26,56 @@ export default ({
   }, []);
 
   return (
-    <div className="error-page-container-outer">
-      <div className="error-page-container-inner">
-        <div className="error-page-container-text">
-          <Localized id={`error-title-${errorCode}`}>
-            <h2 />
-          </Localized>
-          <Localized id="error-code" vars={{ code: errorCode }}>
-            <p className="error-code" />
-          </Localized>
-          <Localized
-            id={`error-content-${errorCode}`}
-            elems={{
-              homepageLink: <LocaleLink to="" />,
-              matrixLink: <MatrixLink />,
-              githubLink: <GitHubLink />,
-              discourseLink: <DiscourseLink />,
-            }}>
-            <p className="error-content" />
-          </Localized>
-          <div className="get-involved-icons">
-            {[
-              [DiscourseLink, DiscourseIconCode],
-              [GitHubLink, GithubIconCode],
-              [MatrixLink, MatrixIcon],
-            ].map(
-              ([LinkComponent, IconComponent]: [any, any], index: number) => (
-                <LinkComponent
-                  key={`get-involved-icon-${index}`}
-                  className="round-button">
-                  <IconComponent />
-                </LinkComponent>
-              )
-            )}
-          </div>
+    <div className="error-page">
+      <div className="error-page-wrapper">
+        <div className="error-page__content">
+          <PageHeading>
+            <Localized id={`error-title-${errorCode}`} />
+          </PageHeading>
+          <PageTextContent>
+            <h2>
+              <Localized id="error-code" vars={{ code: errorCode }} />
+            </h2>
+            <Localized
+              id={`error-content-${errorCode}`}
+              elems={{
+                homepageLink: <LocaleLink to="" />,
+                matrixLink: <MatrixLink />,
+                githubLink: <GitHubLink />,
+                discourseLink: <DiscourseLink />,
+              }}>
+              <p />
+            </Localized>
+            <div className="error-page__buttons">
+              <RoundButton>
+                <DiscourseLink>
+                  <VisuallyHidden>Discourse</VisuallyHidden>
+                  <DiscourseIconCode />
+                </DiscourseLink>
+              </RoundButton>
+
+              <RoundButton>
+                <GitHubLink>
+                  <VisuallyHidden>GitHub</VisuallyHidden>
+                  <GithubIconCode />
+                </GitHubLink>
+              </RoundButton>
+
+              <RoundButton>
+                <MatrixLink>
+                  <VisuallyHidden>Matrix</VisuallyHidden>
+                  <MatrixIcon />
+                </MatrixLink>
+              </RoundButton>
+            </div>
+          </PageTextContent>
         </div>
-        <div className="mars">
-          <div className="mars-body-container">
-            <img
-              alt=""
-              className="mars-body"
-              role="presentation"
-              src={require('./images/mars-frown.svg')}
-            />
-          </div>
-          <img
-            alt=""
-            className="mars-shadow"
-            role="presentation"
-            src={require('./images/mars-shadow.png')}
-          />
+        <div className="error-page__image">
+          <img src={require('./images/mars-sad.svg')} alt="" loading="lazy" />
         </div>
       </div>
     </div>
   );
 };
+
+export default ErrorPage;

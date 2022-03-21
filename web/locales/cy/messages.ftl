@@ -17,6 +17,7 @@ not-available-abbreviation = Dim Ar Gael
 banner-error-slow-1 = Ymddiheuriadau, mae Common Voice yn rhedeg yn araf. Diolch am eich cefnogaeth.
 banner-error-slow-2 = Rydym yn derbyn llawer o draffig ac ar hyn o bryd yn ymchwilio i'r materion.
 banner-error-slow-link = Tudalen Statws
+error-something-went-wrong = Ymddiheuriadau, aeth rhywbeth o'i le
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -852,8 +853,14 @@ listen-again-instruction = Da iawn! <playIcon> </playIcon> Gwrandewch eto pan fy
 listen-3rd-time-instruction = 2 i lawr <playIcon> </playIcon> , daliwch ati!
 listen-last-time-instruction = <playIcon> </playIcon> Yr un olaf!
 listen-empty-state = Does dim rhagor o glipiau i'w dilysu yn yr iaith hon...
+listen-loading-error =
+    Does dim rhagor o glipiau sain i chi wrando arnyn nhw.
+    Ceisiwch eto, rhywbryd eto.
 speak-empty-state = Does dim rhagor o frawddegau i'w recordio yn yr iaith hon...
 speak-empty-state-cta = Cyfrannu brawddegau
+speak-loading-error =
+    Does dim rhagor o frawddegau i chi eu llefaru.
+    Ceisiwch eto, rhywbryd eto.
 record-button-label = Recordiwch eich llais
 share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
 keep-track-profile = Cadwch olwg ar eich cynnydd gyda phroffil

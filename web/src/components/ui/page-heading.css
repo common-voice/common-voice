@@ -1,0 +1,24 @@
+.page-heading {
+    position: relative;
+    padding-top: 0.75em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+    font-size: 2.25em;
+    line-height: 1em;
+
+    @media (--md-up) {
+        font-size: 3em;
+    }
+
+    /* little decorative line */
+    &::before {
+        content: '';
+        position: absolute;
+        width: 70px;
+        height: 3px;
+        left: 0;
+        top: 0;
+        background: linear-gradient(90deg, #f89096 0%, #b1b5e5 100%);
+    }
+}

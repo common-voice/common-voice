@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Kapjon e-maileket, köztük kihívásokat
 email-opt-in-privacy-v2 = Azzal, hogy az e-mailek fogadását kéri, beleegyezik abba, hogy a Mozilla az <privacyLink>adatvédelmi irányelvekben</privacyLink> leírt módon kezelje ezeket az adatokat.
 indicates-required = * Kötelező mezőt jelez
 not-available-abbreviation = Nincs
+banner-error-slow-1 = Sajnáljuk, a Common Voice lassan fut. Köszönjük érdeklődését.
+banner-error-slow-2 = Nagy a forgalom, és jelenleg vizsgáljuk a problémákat.
+banner-error-slow-link = Állapot oldal
+error-something-went-wrong = Elnézést, hiba történt
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -531,6 +535,7 @@ about-get-involved-text-2 =
     fórumon, küldjön be hibákat <githubLink>GitHubon</githubLink>,
     vagy csatlakozzon a <matrixLink>Matrix</matrixLink> közösségi csevegéshez.
 about-stay-in-touch = Hogyan maradhatok kapcsolatban?
+about-stay-in-touch-button = Regisztráció
 about-stay-in-touch-text-1 = <emailFragment>Regisztráljon</emailFragment> a levelezőlistánkra, hogy megtudja, hogyan vehet részt kampányokban, eseményekben és a Common Voice közös tervezési funkcióiban.
 about-stay-in-touch-text-2 = Találkozhat másokkal a Mozilla nyelvi közösségeiben, ha csatlakozik a <discourseLink>Discourse</discourseLink>-hoz, ha egy adott témához kapcsolódó beszélgetéseket szeretne, vagy a <matrixLink>Matrix</matrixLink>hoz, ha gyors tanácsokat szeretne kapni.
 about-nav-why-common-voice = Miért?
@@ -831,8 +836,14 @@ listen-again-instruction = Jó munka! <playIcon></playIcon> Hallgassa meg újra,
 listen-3rd-time-instruction = 2 kész <playIcon></playIcon>, csak így tovább!
 listen-last-time-instruction = <playIcon></playIcon> Utolsó!
 listen-empty-state = Elfogytak az ellenőrzésre váró klipek ezen a nyelven…
+listen-loading-error =
+    Nem tudtunk meghallgatható hangfelvételeket lekérni.
+    Próbálja újra később.
 speak-empty-state = Elfogytak az felvételre váró mondatok ezen a nyelven…
 speak-empty-state-cta = Mondatok hozzáadása
+speak-loading-error =
+    Nem tudtunk felolvasható mondatokat lekérni.
+    Próbálja újra később.
 record-button-label = Rögzítse a hangját
 share-title-new = <bold>Segítsen nekünk</bold> további hangokat találni
 keep-track-profile = Kövesse nyomon az előrehaladását egy profil segítségével

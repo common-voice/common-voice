@@ -17,6 +17,7 @@ not-available-abbreviation = Nicht verfügbar
 banner-error-slow-1 = Entschuldigung, Common Voice läuft langsam. Danke für Ihr Interesse.
 banner-error-slow-2 = Wir empfangen aktuell viel Datenverkehr und untersuchen derzeit die Probleme.
 banner-error-slow-link = Statusseite
+error-something-went-wrong = Entschuldigung, etwas ist schiefgegangen!
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -531,6 +532,7 @@ about-get-involved-text-2 =
     melden Sie Probleme mit der Website über <githubLink>GitHub</githubLink>
     oder besuchen Sie unseren Community-Chat auf <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Wie bleibe ich in Kontakt?
+about-stay-in-touch-button = Registrieren
 about-stay-in-touch-text-1 = <emailFragment>Registrieren Sie sich bei unserer Mailingliste</emailFragment> an, um zu erfahren, wie Sie an Kampagnen, Veranstaltungen und Co-Design-Funktionen auf Common Voice teilnehmen können.
 about-stay-in-touch-text-2 = Sie können andere Menschen in den Mozilla-Sprachgemeinschaften treffen, indem Sie <discourseLink>Discourse</discourseLink> für aktuelle Gespräche oder <matrixLink>Matrix</matrixLink> für schnelle Ratschläge beitreten.
 about-nav-why-common-voice = Warum?
@@ -831,8 +833,14 @@ listen-again-instruction = Gut so! <playIcon></playIcon> Machen Sie einfach weit
 listen-3rd-time-instruction = Zwei erledigt, <playIcon></playIcon> weiter so!
 listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
 listen-empty-state = Für diese Sprache gibt es keine Aufzeichnungen mehr, die überprüft werden könnten…
+listen-loading-error =
+    Wir konnten für Sie keine Audioclips zum Anhören abrufen.
+    Bitte versuchen Sie es später erneut.
 speak-empty-state = Für diese Sprache gibt es keine Sätze mehr, die aufgenommen werden könnten…
 speak-empty-state-cta = Sätze beitragen
+speak-loading-error =
+    Wir konnten für Sie keine Sätze zum Sprechen abrufen.
+    Bitte versuchen Sie es später erneut.
 record-button-label = Nehmen Sie Ihre Stimme auf
 share-title-new = <bold>Helfen Sie uns dabei,</bold> mehr Stimmen zu finden
 keep-track-profile = Verfolgen Sie Ihren Fortschritt mit einem Profil

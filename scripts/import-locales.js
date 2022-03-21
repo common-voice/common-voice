@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { parse } = require('@fluent/syntax');
-const request = require('request-promise-native');
+const fetch = require('node-fetch');
 
 const TRANSLATED_MIN_PROGRESS = 0.75;
 const CONTRIBUTABLE_MIN_SENTENCES = 5000;
@@ -17,11 +17,11 @@ function saveDataJSON(name, data) {
 }
 
 async function fetchPontoonLanguages() {
-  const { data } = await request({
-    uri: 'https://pontoon.mozilla.org/graphql?query={project(slug:%22common-voice%22){localizations{totalStrings,approvedStrings,locale{code,name,direction}}}}',
-    method: 'GET',
-    json: true,
-  });
+  const url =
+    'https://pontoon.mozilla.org/graphql?query={project(slug:%22common-voice%22){localizations{totalStrings,approvedStrings,locale{code,name,direction}}}}';
+  const response = await fetch(url);
+  const { data } = await response.json();
+
   return data.project.localizations
     .map(({ totalStrings, approvedStrings, locale }) => ({
       code: locale.code,

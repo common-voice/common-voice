@@ -322,15 +322,8 @@ const DownloadEmailPrompt = ({
   };
 
   const updateLink = async (bundleState: any, formState: any) => {
-    // AWS CDN only supports files up to 20GB
-    const useCDN = bundleState.rawSize < 20 * 1024 * 1024 * 1024;
-
     const key = urlPattern.replace('{locale}', bundleState.bundleLocale);
-    const { url } = await api.getPublicUrl(
-      encodeURIComponent(key),
-      'dataset',
-      useCDN
-    );
+    const { url } = await api.getPublicUrl(encodeURIComponent(key), 'dataset');
 
     return validDownload(formState) ? url : null;
   };

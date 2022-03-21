@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Untfang e-mailberjochten lykas oantinkens
 email-opt-in-privacy-v2 = Troch jo yn te skriuwen foar it ûntfangen fan e-mailberjochten, ferklearje jo dat jo akkoard gean mei it ferwurkjen fan dizze ynformaasje troch Mozilla yn oerienstimming mei Mozilla’s <privacyLink>Privacybelied</privacyLink>.
 indicates-required = * jout fereaske fjild oan
 not-available-abbreviation = NB
+banner-error-slow-1 = Sorry, Common Voice rint stadich. Tank foar jo belangstelling.
+banner-error-slow-2 = Wy krije in soad ferkear en ûndersykje op dit stuit de problemen.
+banner-error-slow-link = Statusside
+error-something-went-wrong = Sorry, der is wat misgien
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -98,6 +102,7 @@ ko = Koreaansk
 kpv = Kom-Zyrian
 kw = Kornish
 ky = Kirgizysk
+lb = Lúksemburgsk
 lg = Luganda
 lij = Ligurysk
 lt = Litousk
@@ -345,6 +350,9 @@ profile-form-additional-language =
     .label = Ekstra taal
 profile-form-language =
     .label = Taal
+profile-form-variant =
+    .label = Hokker fariant fan { $language } prate jo?
+profile-form-variant-default-value = Gjin fariant selektearre
 profile-form-accent =
     .label = Aksint
 profile-form-custom-accent-help-text =
@@ -396,6 +404,8 @@ off = Ut
 on = Oan
 help-accent = Help nedich mei aksint?
 help-accent-explanation = Jo aksint is de manier wêrop jo wurden útsprekke. It kin foarme wurde troch wêr’t jo wenne hawwe, hokker oare talen jo sprekke en tal fan oare faktoaren. Jo kinne hjir alle ynformaasje diele dy’t jo relevant fine.
+help-variants = Help nedich mei farianten?
+help-variants-explanation = Farianten binne in spesifike foarm fan in taal – bygelyks sprutsen troch minsken dy’t yn in gebiet of mienskip wenje. Somtiden wurde dit dialekten neamd.
 
 ## Profile - Email
 
@@ -532,6 +542,7 @@ about-get-involved-text-2 =
     -forums, meld problemen mei de website fia <githubLink>GitHub</githubLink>, of doch
     mei mei de mienskipschat op <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Hoe hâld ik kontakt?
+about-stay-in-touch-button = Registrearje
 about-stay-in-touch-text-1 = <emailFragment>Skriuw jo yn</emailFragment> foar ús e-maillist om te learen hoe’t jo dielnimme kinne oan kampanjes, eveneminten en mienskiplike ûntwerpfunksjes op Common Voice.
 about-stay-in-touch-text-2 = Jo kinne oaren yn de Mozilla-taalmienskippen moetsje troch lid te wurden fan <discourseLink>Discourse</discourseLink> foar aktuele petearen, of <matrixLink>Matrix</matrixLink> foar fluch advys.
 about-nav-why-common-voice = Wêrom?
@@ -832,8 +843,14 @@ listen-again-instruction = Goed wurk! <playIcon></playIcon> Harkje opnij wannear
 listen-3rd-time-instruction = 2 klear <playIcon></playIcon> , gean sa troch!
 listen-last-time-instruction = <playIcon></playIcon> De lêste!
 listen-empty-state = Wy hawwe yn dizze taal gjin te falidearjen fragminten mear…
+listen-loading-error =
+    Wy kinne gjin audiofragminten foar jo ophelje om nei te harkjen.
+    Probearje it letter nochris.
 speak-empty-state = Wy hawwe yn dizze taal gjin op te nimmen sinnen mear…
 speak-empty-state-cta = Sinnen bydrage
+speak-loading-error =
+    Wy kinne gjin sinnen foar jo ophelje om út te sprekken.
+    Probearje it letter nochris.
 record-button-label = Nim jo stim op
 share-title-new = <bold>Help ús</bold> mear stimmen te finen
 keep-track-profile = Hâld jo fuortgong by mei in profyl
@@ -1167,6 +1184,10 @@ sc-home-collect-title = Sinnen sammelje
 sc-home-collect-text = Help ús troch iepenbier tagonklike sinnen te skriuwen of te sammeljen.
 sc-home-review-title = Sinnen beoardiele
 sc-home-review-text = Help ús troch sinnen te kontrolearjen op krektens neffens de rjochtlinen.
+
+## GENERAL
+
+sc-languages-fetch-error = Wy kinne de beskikbere talen net ophelje. Bydragen binne op dit stuit net mooglik. Probearje it letter opnij.
 
 ## HOW-TO
 

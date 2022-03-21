@@ -2,8 +2,13 @@ import * as fs from 'fs';
 import * as http from 'http';
 import * as path from 'path';
 import * as express from 'express';
-import * as Sentry from '@sentry/node';
+import * as compression from 'compression';
 import { NextFunction, Request, Response } from 'express';
+import * as Sentry from '@sentry/node';
+import * as Tracing from '@sentry/tracing';
+import { StatusCodes } from 'http-status-codes';
+import 'source-map-support/register';
+
 import { importLocales } from './lib/model/db/import-locales';
 import { importTargetSegments } from './lib/model/db/import-target-segments';
 import { scrubUserActivity } from './lib/model/db/scrub-user-activity';
@@ -12,45 +17,24 @@ import {
   getFullClipLeaderboard,
   getFullVoteLeaderboard,
 } from './lib/model/leaderboard';
-import { trackPageView } from './lib/analytics';
 import API from './lib/api';
 import { redis, useRedis, redlock } from './lib/redis';
 import { APIError, ClientError, getElapsedSeconds } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
-import authRouter, { authMiddleware } from './auth-router';
+import authRouter from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
-import * as proxy from 'http-proxy-middleware';
 import { createTaskQueues, TaskQueues } from './lib/takeout';
-const HttpStatus = require('http-status-codes');
+import getCSPHeaderValue from './csp-header-value';
 
-require('source-map-support').install();
 const contributableLocales = require('locales/contributable.json');
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version';
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
 const MAINTENANCE_PATH = path.join(__dirname, '..', '..', 'maintenance');
-const RELEASE_VERSION = getConfig().RELEASE_VERSION;
-const ENVIRONMENT = getConfig().ENVIRONMENT;
-const PROD = getConfig().PROD;
+const { RELEASE_VERSION, ENVIRONMENT, SENTRY_DSN_SERVER, PROD } = getConfig();
+const CSP_HEADER_VALUE = getCSPHeaderValue();
 const SECONDS_IN_A_YEAR = 365 * 24 * 60 * 60;
-
-const CSP_HEADER = [
-  `default-src 'none'`,
-  `child-src 'self' blob:`,
-  `style-src 'self' https://fonts.googleapis.com 'unsafe-inline'`,
-  `img-src 'self' www.google-analytics.com www.gstatic.com https://www.gstatic.com https://*.amazonaws.com https://*.amazon.com https://gravatar.com https://*.mozilla.org https://*.allizom.org data:`,
-  `media-src data: blob: https://*.amazonaws.com https://*.amazon.com`,
-  // Note: we allow unsafe-eval locally for certain webpack functionality.
-  `script-src 'self' 'unsafe-eval' 'sha256-fIDn5zeMOTMBReM1WNoqqk2MBYTlHZDfCh+vsl1KomQ=' 'sha256-Hul+6x+TsK84TeEjS1fwBMfUYPvUBBsSivv6wIfKY9s=' https://www.google-analytics.com https://pontoon.mozilla.org https://sentry.prod.mozaws.net`,
-  `font-src 'self' https://fonts.gstatic.com`,
-  `connect-src 'self' blob: https://pontoon.mozilla.org/graphql https://*.amazonaws.com https://*.amazon.com https://www.gstatic.com https://www.google-analytics.com https://sentry.prod.mozaws.net https://basket.mozilla.org https://basket-dev.allizom.org https://rs.fullstory.com https://edge.fullstory.com`,
-].join(';');
-
-Sentry.init({
-  dsn: getConfig().SENTRY_DSN,
-  release: RELEASE_VERSION,
-});
 
 export default class Server {
   app: express.Application;
@@ -81,6 +65,19 @@ export default class Server {
 
     const app = (this.app = express());
 
+    Sentry.init({
+      // no SENTRY_DSN_SERVER is set in development
+      dsn: SENTRY_DSN_SERVER,
+      integrations: [
+        // enable HTTP calls tracing
+        new Sentry.Integrations.Http({ tracing: true }),
+        // enable Express.js middleware tracing
+        new Tracing.Integrations.Express({ app }),
+      ],
+      environment: PROD ? 'prod' : 'stage',
+      release: RELEASE_VERSION,
+    });
+
     const staticOptions = {
       setHeaders: (response: express.Response) => {
         // Basic Information
@@ -88,8 +85,9 @@ export default class Server {
         response.set('X-Environment', ENVIRONMENT);
 
         // security-centric headers
+        response.removeHeader('x-powered-by');
         response.set('X-Production', PROD ? 'On' : 'Off');
-        response.set('Content-Security-Policy', CSP_HEADER);
+        response.set('Content-Security-Policy', CSP_HEADER_VALUE);
         response.set('X-Content-Type-Options', 'nosniff');
         response.set('X-XSS-Protection', '1; mode=block');
         response.set('X-Frame-Options', 'DENY');
@@ -102,7 +100,10 @@ export default class Server {
 
     // Enable Sentry request handler
     app.use(Sentry.Handlers.requestHandler());
+    // TracingHandler creates a trace for every incoming request
+    app.use(Sentry.Handlers.tracingHandler());
 
+    app.use(compression());
     if (PROD) {
       app.use(this.ensureSSL);
     }
@@ -112,7 +113,7 @@ export default class Server {
 
       app.use(express.static(MAINTENANCE_PATH, staticOptions));
 
-      app.use(/(.*)/, (request, response, next) => {
+      app.use(/(.*)/, (_request, response) => {
         response.sendFile('index.html', { root: MAINTENANCE_PATH });
       });
     } else {
@@ -122,7 +123,7 @@ export default class Server {
           const query = request.url.slice(request.path.length);
           const host = request.get('host');
           response.redirect(
-            HttpStatus.MOVED_PERMANENTLY,
+            StatusCodes.MOVED_PERMANENTLY,
             `https://${host}${request.path.slice(0, -1)}${query}`
           );
         } else {
@@ -155,27 +156,20 @@ export default class Server {
       // Enable Sentry error handling
       app.use(Sentry.Handlers.errorHandler());
 
-      app.use(
-        (
-          error: Error,
-          request: Request,
-          response: Response,
-          next: NextFunction
-        ) => {
-          console.log(error.message, error.stack);
-          const isAPIError = error instanceof APIError;
-          if (!isAPIError) {
-            console.error(request.url, error.message, error.stack);
-          }
-          response
-            .status(
-              error instanceof ClientError
-                ? HttpStatus.BAD_REQUEST
-                : HttpStatus.INTERNAL_SERVER_ERROR
-            )
-            .json({ message: isAPIError ? error.message : '' });
+      app.use((error: Error, request: Request, response: Response) => {
+        console.log(error.message, error.stack);
+        const isAPIError = error instanceof APIError;
+        if (!isAPIError) {
+          console.error(request.url, error.message, error.stack);
         }
-      );
+        response
+          .status(
+            error instanceof ClientError
+              ? StatusCodes.BAD_REQUEST
+              : StatusCodes.INTERNAL_SERVER_ERROR
+          )
+          .json({ message: isAPIError ? error.message : '' });
+      });
     }
   }
 
@@ -188,7 +182,7 @@ export default class Server {
     if (req.headers['x-forwarded-proto'] === 'http') {
       // Send to https please, always and forever
       res.redirect(
-        HttpStatus.PERMANENT_REDIRECT,
+        StatusCodes.PERMANENT_REDIRECT,
         'https://' + req.headers.host + req.url
       );
     } else {
@@ -200,6 +194,7 @@ export default class Server {
     const localesPath = path.join(FULL_CLIENT_PATH, 'locales');
     const crossLocaleMessages = fs
       .readdirSync(localesPath)
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       .reduce((obj: any, locale: string) => {
         const filePath = path.join(localesPath, locale, 'cross-locale.ftl');
         if (fs.existsSync(filePath)) {
@@ -228,7 +223,7 @@ export default class Server {
     );
     this.app.get(
       '/challenge-terms/:locale.html',
-      async ({ params: { locale } }, response) => {
+      async (_request, response) => {
         response.send(await fetchLegalDocument('challenge_terms', 'en'));
       }
     );
@@ -237,8 +232,10 @@ export default class Server {
   /**
    * Log application level messages in a common format.
    */
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   private print(...args: any[]) {
     args.unshift('APPLICATION --');
+    // eslint-disable-next-line prefer-spread
     console.log.apply(console, args);
   }
 
@@ -283,7 +280,7 @@ export default class Server {
    */
   listen(): void {
     // Begin handling requests before clip list is loaded.
-    let port = getConfig().SERVER_PORT;
+    const port = getConfig().SERVER_PORT;
     this.server = this.app.listen(port, () =>
       this.print(`listening at http://localhost:${port}`)
     );

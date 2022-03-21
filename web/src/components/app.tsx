@@ -10,8 +10,10 @@ import {
   withRouter,
 } from 'react-router';
 import { Router } from 'react-router-dom';
+import * as Sentry from '@sentry/react';
+import { BrowserTracing } from '@sentry/tracing';
 import { createBrowserHistory } from 'history';
-import * as Sentry from '@sentry/browser';
+
 import { UserClient } from 'common';
 import store from '../stores/root';
 import URLS from '../urls';
@@ -46,15 +48,24 @@ import {
 } from './locale-helpers';
 import { Flags } from '../stores/flags';
 import { ReactLocalization, LocalizationProvider } from '@fluent/react';
-import ErrorSlowBanner from './error-slow-banner/error-slow-banner';
+// import ErrorSlowBanner from './error-slow-banner/error-slow-banner';
 const rtlLocales = require('../../../locales/rtl.json');
 const ListenPage = React.lazy(
   () => import('./pages/contribution/listen/listen')
 );
 const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
 
-const SENTRY_FE_DSN =
-  'https://4a940c31e4e14d8fa6984e919a56b9fa@sentry.prod.mozaws.net/491';
+const SentryRoute = Sentry.withSentryRouting(Route);
+
+const SENTRY_DSN_WEB =
+  'https://40742891598c4900aacac78dd1145d7e@o1069899.ingest.sentry.io/6251028';
+
+Sentry.init({
+  dsn: SENTRY_DSN_WEB,
+  integrations: [new BrowserTracing()],
+  environment: isProduction() ? 'prod' : 'stage',
+  release: process.env.GIT_COMMIT_SHA || null,
+});
 
 interface PropsFromState {
   api: API;
@@ -247,14 +258,14 @@ let LocalizedPage: any = class extends React.Component<
                 )}
             </div>
 
-            <ErrorSlowBanner />
+            {/* <ErrorSlowBanner /> */}
 
             <Switch>
               {[
                 { route: URLS.SPEAK, Component: SpeakPage },
                 { route: URLS.LISTEN, Component: ListenPage },
               ].map(({ route, Component }: any) => (
-                <Route
+                <SentryRoute
                   key={route}
                   exact
                   path={toLocaleRoute(route)}
@@ -306,7 +317,7 @@ class App extends React.Component {
   main: HTMLElement;
   userLocales: string[];
 
-  state: { error: Error; Sentry: any } = { error: null, Sentry: null };
+  state: { error: Error } = { error: null };
 
   /**
    * App will handle routing to page controllers.
@@ -319,13 +330,6 @@ class App extends React.Component {
     }
 
     this.userLocales = negotiateLocales(navigator.languages);
-
-    Sentry.init({
-      dsn: SENTRY_FE_DSN,
-      environment: isProduction() ? 'prod' : 'stage',
-      release: process.env.GIT_COMMIT_SHA || null,
-      ignoreErrors: ['ResizeObserver loop limit exceeded'],
-    });
   }
 
   async componentDidMount() {
@@ -342,7 +346,11 @@ class App extends React.Component {
         prevPath: history.location.pathname,
       })
     );
-    if (!isProduction() && !isStaging()) return;
+
+    // don't log errors in development
+    if (!isProduction() && !isStaging()) {
+      return;
+    }
 
     Sentry.withScope(scope => {
       Object.keys(errorInfo).forEach(key => {
@@ -350,7 +358,6 @@ class App extends React.Component {
       });
       Sentry.captureException(error);
     });
-    this.setState({ Sentry });
   }
 
   render() {
@@ -362,7 +369,7 @@ class App extends React.Component {
           <Router history={history}>
             <Switch>
               {Object.values(URLS).map(url => (
-                <Route
+                <SentryRoute
                   key={url}
                   exact
                   path={url || '/'}
@@ -371,13 +378,13 @@ class App extends React.Component {
                   )}
                 />
               ))}
-              <Route
+              <SentryRoute
                 path="/pt-BR"
                 render={({ location }) => (
                   <Redirect to={location.pathname.replace('pt-BR', 'pt')} />
                 )}
               />
-              <Route
+              <SentryRoute
                 path="/:locale"
                 render={({
                   match: {

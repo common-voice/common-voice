@@ -1,7 +1,3 @@
-html {
-    overflow: scroll;
-}
-
 #intro-container {
     display: flex;
     flex-direction: column;

@@ -129,7 +129,7 @@ export default class API {
     router.use('/challenge', this.challenge.getRouter());
 
     router.get('/feature/:locale/:feature', this.getFeatureFlag);
-    router.get('/bucket/:bucket_type/:path/:cdn', this.getPublicUrl);
+    router.get('/bucket/:bucket_type/:path', this.getPublicUrl);
     router.get('/server_date', this.getServerDate);
 
     router.use('*', (request: Request, response: Response) => {
@@ -505,13 +505,12 @@ export default class API {
   };
 
   getPublicUrl = async (
-    { params: { bucket_type, path, cdn } }: Request,
+    { params: { bucket_type, path } }: Request,
     response: Response
   ) => {
     const url = await this.bucket.getPublicUrl(
       decodeURIComponent(path),
-      bucket_type,
-      cdn == 'true'
+      bucket_type
     );
     response.json({ url });
   };

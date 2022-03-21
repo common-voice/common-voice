@@ -1,8 +1,6 @@
 import * as os from 'os';
 import { getConfig } from '../config-helper';
 
-const RandomName = require('node-random-name');
-
 const NAME = 'voice';
 const LEVEL_LOG = 'log';
 const LEVEL_ERROR = 'error';
@@ -28,7 +26,6 @@ export default class Logger {
 
   constructor() {
     this.name = NAME;
-    this.nickname = RandomName({ last: true });
     this.hostname = os.hostname();
     this.pid = process.pid;
     this.boundLog = null;

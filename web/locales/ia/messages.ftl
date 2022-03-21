@@ -14,7 +14,10 @@ email-opt-in-info-sub-with-challenge = Recipe e-mails como rememorationes de def
 email-opt-in-privacy-v2 = Si tu opta pro reciper e-mails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>politica de confidentialitate</privacyLink>.
 indicates-required = * indica un campo obligatori
 not-available-abbreviation = N/D
+banner-error-slow-1 = Desolate, Common Voice es exequite lentemente. Gratias pro tu interesse.
+banner-error-slow-2 = Nos recipe multe traffico e actualmente nos investiga le problemas.
 banner-error-slow-link = Pagina de stato
+error-something-went-wrong = Desolate, alco errate eveniva
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -337,6 +340,8 @@ profile-form-additional-language =
     .label = Lingua additional
 profile-form-language =
     .label = Lingua
+profile-form-variant =
+    .label = Que variante de { $lingua } parla tu?
 profile-form-variant-default-value = Nulle variante seligite
 profile-form-accent =
     .label = Accento
@@ -389,6 +394,8 @@ off = Inactive
 on = Active
 help-accent = Besonia tu auxilio con le accento?
 help-accent-explanation = Tu accento es le maniera que tu pronuncia le vocabulos. Illo pote esser formate per ubi tu viveva, qual altere linguas tu parla e plure altere factores. Tu pote compartir ulle informationes que tu senti esser pertinente hic.
+help-variants = Besonia tu de auxilio con le variantes?
+help-variants-explanation = Le variantes es un forma specific de un lingua, per exemplo compartite per illes vivente in un area geographic o communitate. Aliquando illos es appellate dialectos.
 
 ## Profile - Email
 
@@ -522,6 +529,7 @@ about-get-involved-text-2 =
     signala problemas con le sito via <githubLink>GitHub</githubLink>,
     o junge te al conversation communitari sur <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Como me mantene io in contacto?
+about-stay-in-touch-button = Inscriber se
 about-stay-in-touch-text-1 = <emailFragment>Inscribe te</emailFragment> a nostre lista de diffusion pro apprender como participar in campanias e eventos e co-designar functiones sur Common Voice.
 about-stay-in-touch-text-2 = Tu pote incontrar altere personas in le communitates linguistic de Mozilla adherente a <discourseLink>Discourse</discourseLink> pro conversationes topical, o a <matrixLink>Matrix</matrixLink> pro consilios rapide.
 about-nav-why-common-voice = Proque?
@@ -826,8 +834,10 @@ listen-again-instruction = Optime labor!<playIcon></playIcon> Ascolta de novo qu
 listen-3rd-time-instruction = Duo facite, continua assi!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Le ultime!
 listen-empty-state = Nos non ha plus registrationes a validar pro iste lingua...
+listen-loading-error = Impossibile trovar alcun registration audio a facer te ascoltar. Retenta plus tarde.
 speak-empty-state = Nos non ha plus phrases a registrar pro iste lingua...
 speak-empty-state-cta = Contribue con altere phrases
+speak-loading-error = Impossibile trovar alcun phrases a facer te pronunciar. Retenta plus tarde.
 record-button-label = Registra tu voce
 share-title-new = <bold>Adjuta nos</bold> a trovar plus voces
 keep-track-profile = Tracia tu progresso con un profilo
