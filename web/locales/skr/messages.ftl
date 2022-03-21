@@ -457,6 +457,7 @@ about-listen = سݨو
 about-is-it-valid = بھلا ایہ کلپ ٹھیک ہے؟
 about-is-it-valid-text = ڄݙݨ ورتݨ آلا "جیا" ووٹ ݙیندے تاں صوتی کلپ تے "ٹھیک" ہووݨ دا نشان لڳدے
 about-yes-votes = ≥٢ جیا ووٹ
+about-yes-votes-text = ایں کوں کامن وائس ڈیٹاسیٹ وچ شامل کرݨ کیتے، وائس کلپ کوں ݙو ان٘ج ان٘ج ورتݨ آلیاں کنوں تصدیق کراوݨاں پوسی۔
 about-no-votes = ≥٢ ووٹ کائنی
 about-dataset-new = Common Voice ڈیٹاسیٹ
 about-clip-graveyard = کلپ غستان
