@@ -395,6 +395,7 @@ on = Açık
 help-accent = Aksan konusunda yardıma mı ihtiyacınız var?
 help-accent-explanation = Aksanınız kelimeleri telaffuz etme şeklinizdir. Yaşadığınız yer, konuştuğunuz diğer diller ve daha birçok faktör aksanınızı etkileyebilir. İlgili olduğunu düşündüğünüz bilgileri burada paylaşabilirsiniz.
 help-variants = Türevlerle ilgili yardıma mı ihtiyacınız var?
+help-variants-explanation = Varyantlar, bir dilin belirli biçimleridir. Örneğin, bir coğrafyada veya toplulukta yaşayanlar tarafından paylaşılır. Bazen bunlara lehçe denir.
 
 ## Profile - Email
 
@@ -529,6 +530,7 @@ about-get-involved-text-2 =
     <githubLink>GitHub</githubLink> aracılığıyla site sorunlarını bildirebilir veya
     <matrixLink>Matrix</matrixLink>'te topluluk sohbetlerine katılabilirsiniz.
 about-stay-in-touch = Nasıl iletişimde kalırım?
+about-stay-in-touch-button = Kaydol
 about-stay-in-touch-text-1 = Common Voice'taki kampanyalara, etkinliklere ve tasarım çalışmalarına nasıl katılabileceğinizi öğrenmek için e-posta listemize <emailFragment>kaydolun</emailFragment>.
 about-stay-in-touch-text-2 = Güncel yazışmalar için <discourseLink>Discourse</discourseLink>'a veya hızlı tavsiyeler için <matrixLink>Matrix</matrixLink>'e katılarak Mozilla dil topluluklarındaki diğer kişilerle tanışabilirsiniz.
 about-nav-why-common-voice = Neden ?
@@ -568,6 +570,9 @@ about-playbook-how-add-sentences-content-4 = Doğrulanan cümleler çarşamba g�
 
 ## How to record quality
 
+about-playbook-how-record-content-2 = Çok fazla arka plan gürültüsünden kaçının. Sesinizin kolayca duyulması gerekir.
+about-playbook-how-record-content-3 = Cümleyi dikkatlice okuyun. Kelimeleri atlamayın, değiştirmeyin ve kelime eklemeyin.
+about-playbook-how-record-content-4 = Konuşmaya başlamadan önce platformun kayıt yaptığından ve konuşmanız bitince kaydı durdurduğunuzdan emin olun.
 about-playbook-how-record-content-5 = <accuracyLink>Doğruluk ölçütleri hakkında daha fazla bilgi edinin.</accuracyLink>
 
 ## How to grow language
@@ -815,8 +820,14 @@ listen-again-instruction = Çok iyi iş! <playIcon></playIcon> Hazır olduğunuz
 listen-3rd-time-instruction = İkisi gitti, çalışmaya devam! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Son bir tane!
 listen-empty-state = Bu dilde doğrulanacak ses kaydı kalmadı...
+listen-loading-error =
+    Dinleyebileceğiniz hiç ses kaydı bulamadık.
+    Lütfen daha sonra tekrar deneyin.
 speak-empty-state = Bu dilde kaydedilecek cümle kalmadı...
 speak-empty-state-cta = Cümlelere katkıda bulunun
+speak-loading-error =
+    Kaydedebileceğiniz cümle bulamadık.
+    Lütfen daha sonra tekrar deneyin.
 record-button-label = Sesinizi kaydedin
 share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
 keep-track-profile = Profil oluşturarak ilerlemenizi takip edin
@@ -1143,6 +1154,7 @@ sc-home-review-text = Cümleleri yönergelere uygunluğu açısından gözden ge
 
 ## GENERAL
 
+sc-languages-fetch-error = Kullanılabilir dillere ulaşamadık. Katkı vermek şu anda mümkün değil. Lütfen daha sonra tekrar deneyin.
 
 ## HOW-TO
 
