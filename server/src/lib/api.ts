@@ -490,7 +490,6 @@ export default class API {
     response: Response,
     next: NextFunction
   ) => {
-    // if (!isValidJobId(jobId)) throw new APIError('Invalid job request');
     try {
       const job = await NotificationQueue.getJob(jobId);
       //job is owned by current client

@@ -25,7 +25,7 @@ import authRouter from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
 import { createTaskQueues, TaskQueues } from './lib/takeout';
 import getCSPHeaderValue from './csp-header-value';
-const { ValidationError } = require('express-json-validator-middleware');
+import { ValidationError } from 'express-json-validator-middleware';
 const contributableLocales = require('locales/contributable.json');
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version';

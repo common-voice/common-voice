@@ -1,12 +1,9 @@
 import { Job } from 'bull';
-import Bucket from '../../bucket';
-// import { getMySQLInstance } from '../../model/db/mysql';
 import UserClient from '../../model/user-client';
 import { AWS } from '../../aws';
 import { getConfig } from '../../../config-helper';
 
 const uploader = AWS.getS3();
-// const db = getMySQLInstance();
 
 const deleteAvatar = async (client_id: string, url: string, s3: any) => {
   const urlParts = url.split('/');
