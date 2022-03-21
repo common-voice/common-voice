@@ -1,8 +1,14 @@
 {
   "extends": ["config:base"],
-  "schedule": ["after 10pm and before 5am every weekday", "every weekend"],
-  "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-  "automerge": true,
   "labels": ["dependencies"],
-  "dependencyDashboardLabels": ["dependencies"]
+  "dependencyDashboardLabels": ["dependencies"],
+  "packageRules": [
+    {
+      "schedule": ["after 10pm and before 5am every weekday", "every weekend"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true,
+      "automergeType": "pr",
+      "ignoreTests": false
+    }
+  ]
 }
