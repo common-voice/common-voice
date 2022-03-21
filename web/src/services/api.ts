@@ -265,6 +265,10 @@ export default class API {
     }).then(body => JSON.parse(body));
   }
 
+  getJob(jobId: number) {
+    return this.fetch(`${API_PATH}/job/${jobId}`);
+  }
+
   saveAvatarClip(blob: Blob): Promise<void> {
     return this.fetch(API_PATH + '/user_client/avatar_clip', {
       method: 'POST',
