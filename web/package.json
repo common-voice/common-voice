@@ -67,7 +67,7 @@
     "jest-svg-transformer": "1.0.0",
     "jest-transform-stub": "2.0.0",
     "mini-css-extract-plugin": "1.6.2",
-    "postcss": "8.2.13",
+    "postcss": "8.4.12",
     "postcss-color-mod-function": "3.0.3",
     "postcss-custom-media": "8.0.0",
     "postcss-import": "14.0.2",
