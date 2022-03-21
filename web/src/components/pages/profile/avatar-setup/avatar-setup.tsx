@@ -13,6 +13,7 @@ import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
 import { Uploads } from '../../../../stores/uploads';
 import { CheckIcon, LinkIcon } from '../../../ui/icons';
+import { Spinner } from '../../../ui/ui';
 
 import './avatar-setup.css';
 
@@ -126,8 +127,6 @@ class AvatarSetup extends React.Component<Props, State> {
         addNotification(e.message);
       }
     }
-
-    // this.setState({ isSaving: false });
   }
   async getPolling() {
     const { jobId } = this.state;
