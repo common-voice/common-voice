@@ -30,7 +30,7 @@
     "lodash.pick": "4.4.0",
     "mysql2": "1.7.0",
     "passport": "0.4.1",
-    "passport-auth0": "0.6.1",
+    "passport-auth0": "1.4.2",
     "prom-client": "11.5.3",
     "redlock": "4.2.0",
     "request": "2.88.2",
