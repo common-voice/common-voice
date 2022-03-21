@@ -6,8 +6,7 @@
     {
       "schedule": ["after 10pm and before 5am every weekday", "every weekend"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true,
-      "reviewersFromCodeOwners": true
+      "automerge": true
     }
   ]
 }
