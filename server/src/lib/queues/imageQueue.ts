@@ -1,19 +1,22 @@
-// import { S3 } from 'aws-sdk';
 import * as Queue from 'bull';
 import { getConfig } from '../../config-helper';
-// import Bucket from '../bucket';
 import imageProcessor from './processes/imageProcessor'; // producer
 
-const redisUrlParts = getConfig().REDIS_URL?.split('//');
-const redisDomain =
-  redisUrlParts.length > 1 ? redisUrlParts[1] : redisUrlParts[0];
+const getRedisConfig = () => {
+  const redisUrlParts = getConfig().REDIS_URL?.split('//');
+  const redisDomain =
+    redisUrlParts.length > 1 ? redisUrlParts[1] : redisUrlParts[0];
 
-let redisOpts: any = { host: redisDomain };
-if (getConfig().REDIS_URL.includes('rediss://')) {
-  redisOpts = { ...redisOpts, tls: redisOpts };
-}
+  let redisOpts: any = { host: redisDomain };
+  if (getConfig().REDIS_URL.includes('rediss://')) {
+    redisOpts = { ...redisOpts, tls: redisOpts };
+  }
+  return redisOpts;
+};
 
-const NotificationQueue = new Queue('Notification', { redis: redisOpts }); // consumer
+const NotificationQueue = new Queue('Notification', {
+  redis: getRedisConfig(),
+}); // consumer
 NotificationQueue.process(imageProcessor);
 NotificationQueue.on('completed', (job, result) => {
   if (result) {
