@@ -62,7 +62,7 @@
     "file-loader": "5.1.0",
     "html-webpack-plugin": "5.5.0",
     "jest": "27.5.1",
-    "jest-axe": "5.0.1",
+    "jest-axe": "6.0.0",
     "jest-matcher-utils": "27.5.1",
     "jest-svg-transformer": "1.0.0",
     "jest-transform-stub": "2.0.0",
