@@ -1,18 +1,21 @@
 import * as React from 'react';
 
-export default ({
+interface Props {
+  backgroundColor?: string;
+  color?: string;
+  size?: number;
+  space?: number;
+  style?: any; // eslint-disable-line @typescript-eslint/no-explicit-any
+}
+
+const Dots = ({
   backgroundColor,
   color,
   size,
   space,
   style,
   ...props
-}: {
-  backgroundColor?: string;
-  color?: string;
-  size?: number;
-  space?: number;
-} & React.HTMLProps<HTMLDivElement>) => {
+}: Props & React.HTMLProps<HTMLDivElement>) => {
   backgroundColor = backgroundColor || 'white';
   color = color || '#cbcbcb';
   size = size || 1.5;
@@ -37,3 +40,5 @@ export default ({
     />
   );
 };
+
+export default Dots;

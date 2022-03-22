@@ -156,20 +156,10 @@ button {
     font-weight: bold;
 }
 
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
 #main {
     position: relative;
     box-sizing: border-box;
     background-color: var(--white);
-    animation: fadein var(--transition-duration-slow) linear;
 }
 
 .profile #content {

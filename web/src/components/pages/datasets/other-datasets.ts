@@ -2,7 +2,7 @@ export default [
   {
     color: 'var(--red)',
     name: 'LibriSpeech',
-    nick: 'librispeech',
+    id: 'librispeech',
     size: 57.2,
     url: 'https://www.openslr.org/12',
     download: null,
@@ -13,7 +13,7 @@ export default [
   },
   {
     color: '#7e9ed2',
-    nick: 'ted',
+    id: 'ted',
     size: 54,
     url: 'https://www.openslr.org/51/',
     download: 'https://www.openslr.org/resources/51/TEDLIUM_release-3.tgz',
@@ -25,7 +25,7 @@ export default [
   {
     color: '#7e2fff',
     name: 'VoxForge',
-    nick: 'voxforge',
+    id: 'voxforge',
     size: 10.4,
     url: 'http://www.repository.voxforge1.org/downloads/SpeechCorpus/Trunk/',
     download:
@@ -38,7 +38,7 @@ export default [
   {
     color: 'var(--valid-green)',
     name: 'Tatoeba',
-    nick: 'tatoeba',
+    id: 'tatoeba',
     size: 3.8,
     url: 'https://tatoeba.org/eng/downloads',
     download: 'https://downloads.tatoeba.org/audio/tatoeba_audio_eng.zip',

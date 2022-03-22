@@ -159,7 +159,16 @@ export const LinkButton = ({
   );
 };
 
-export const Spinner = ({ delayMs }: { delayMs?: number }) => {
+interface SpinnerProps {
+  delayMs?: number;
+  isLight?: boolean;
+  isFloating?: boolean;
+}
+export const Spinner = ({
+  delayMs,
+  isLight,
+  isFloating = true,
+}: SpinnerProps) => {
   const [showSpinner, setShowSpinner] = useState(false);
 
   useEffect(() => {
@@ -167,11 +176,23 @@ export const Spinner = ({ delayMs }: { delayMs?: number }) => {
     return () => clearTimeout(timeoutId);
   }, []);
 
-  return showSpinner ? (
-    <div className="spinner">
-      <span />
+  if (!showSpinner) {
+    return null;
+  }
+
+  const spinnerClassName = cx('spinner', {
+    'spinner--light': isLight,
+    'spinner--floating': isFloating,
+  });
+
+  return (
+    <div className={spinnerClassName}>
+      <VisuallyHidden>
+        <Localized id="loading" />
+      </VisuallyHidden>
+      <span className="spinner__shape" />
     </div>
-  ) : null;
+  );
 };
 Spinner.defaultProps = { delayMs: 300 };
 

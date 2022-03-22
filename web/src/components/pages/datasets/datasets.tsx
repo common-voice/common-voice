@@ -1,7 +1,7 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
 import URLS from '../../../urls';
-import { LocaleLink, useLocale } from '../../locale-helpers';
+import { LocaleLink } from '../../locale-helpers';
 import { PlayOutlineIcon } from '../../ui/icons';
 import DatasetInfo from './dataset-info';
 
@@ -11,7 +11,7 @@ import './datasets.css';
 // Dear future searchers: the dataset survey modal, i.e.
 // > “Have thoughts about the future of voice technology?”
 // was removed in the same commit that added this comment.
-export default () => (
+const Datasets = () => (
   <div className="datasets-content">
     <DatasetInfo />
     <Resources />
@@ -24,11 +24,13 @@ export default () => (
           <LocaleLink to={URLS.LISTEN}>
             <PlayOutlineIcon />
           </LocaleLink>
-          <Localized id="ready-to-validate">
-            <h3 />
-          </Localized>
+          <h3>
+            <Localized id="ready-to-validate" />
+          </h3>
         </div>
       </div>
     </div>
   </div>
 );
+
+export default Datasets;

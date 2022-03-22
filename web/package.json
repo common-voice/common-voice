@@ -58,6 +58,7 @@
     "chalk": "4.1.2",
     "clean-webpack-plugin": "4.0.0",
     "common": "*",
+    "copy-webpack-plugin": "10.2.4",
     "css-loader": "6.7.1",
     "cssnano": "5.1.4",
     "file-loader": "6.2.0",

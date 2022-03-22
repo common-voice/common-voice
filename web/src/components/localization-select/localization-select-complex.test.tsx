@@ -3,7 +3,7 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 import { screen, RenderResult } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { renderWithLocalization } from '../../test/mock-localization';
+import { renderWithLocalization } from '../../../test/mock-localization';
 import LocalizationSelectComplex from './localization-select-complex';
 
 expect.extend(toHaveNoViolations);
