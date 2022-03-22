@@ -71,12 +71,14 @@ describe('DatasetDownloadEmailPrompt', () => {
   });
 
   it('should handle bundleURLTemplate strings', async () => {
-    await renderWithLocalization(
-      <DatasetDownloadEmailPrompt
-        urlPattern={bundleUrlTemplate}
-        bundleState={bundleState}
-      />
-    );
+    await act(async () => {
+      await renderWithLocalization(
+        <DatasetDownloadEmailPrompt
+          urlPattern={bundleUrlTemplate}
+          bundleState={bundleState}
+        />
+      );
+    });
 
     expect(mockGetPublicUrl).toBeCalledWith(
       'cv-corpus-8.0-2022-01-19%2Fcv-corpus-8.0-2022-01-19-en.tar.gz',
@@ -114,7 +116,7 @@ describe('DatasetDownloadEmailPrompt', () => {
 
     // now has the link
     const downloadLink = getByRole('link', { name: /Download English/ });
-    expect(downloadLink.getAttribute('href')).toBe(
+    await expect(downloadLink.getAttribute('href')).toBe(
       'https://example.com/fake/url'
     );
 
