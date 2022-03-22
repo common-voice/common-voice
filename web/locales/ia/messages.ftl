@@ -681,6 +681,7 @@ review-delete-recordings = Deler mi registrationes
 
 ## Datasets Page
 
+datasets-heading = Ensembles de datos
 datasets-headline = Nos produce un collection de datos libere e multilingue que omnes pote usar pro trainar applicationes activate per le voce.
 datasets-positioning =
     Nos crede que le collectiones de datos vocal grande e publicamente disponibile promove le innovation e un concurrentia san pro le technologias vocal basate sur le apprendimento automatic.
