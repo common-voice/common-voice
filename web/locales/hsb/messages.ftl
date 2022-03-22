@@ -665,6 +665,7 @@ review-delete-recordings = Natočenja zhašeć
 
 ## Datasets Page
 
+datasets-heading = Datowe sadźby
 datasets-headline = Tworimy wjacerěčnu datowu sadźbu hłosow wotewrjeneho žórła, kotruž móže kóždy wužiwać, zo by rěčenske nałoženja trenował.
 datasets-positioning =
     Wěrimy, zo wulke, zjawnje k dispoziciji stejace datowe sadźby inowaciju a strowe komercielne wubědźowanje w rěčenskej technologiji na zakładźe mašinoweho wuknjenja spěchuja.
