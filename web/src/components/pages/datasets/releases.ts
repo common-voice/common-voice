@@ -22,6 +22,5 @@ export const CURRENT_RELEASE_ID = RELEASES[0].id;
 export async function getRelease(id: string) {
   const response = await fetch(`/dist/releases/${id}.json`);
   const data = await response.json();
-  console.log('data', data);
   return data;
 }
