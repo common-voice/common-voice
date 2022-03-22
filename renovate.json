@@ -1,7 +1,7 @@
 {
   "extends": ["config:base"],
-  "labels": ["dependencies"],
-  "dependencyDashboardLabels": ["dependencies"],
+  "labels": ["Dependencies"],
+  "dependencyDashboardLabels": ["Dependencies"],
   "packageRules": [
     {
       "schedule": ["after 10pm and before 5am every weekday", "every weekend"],
