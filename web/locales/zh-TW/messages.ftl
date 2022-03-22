@@ -680,6 +680,7 @@ review-delete-recordings = 刪除我的錄音
 
 ## Datasets Page
 
+datasets-heading = 資料集
 datasets-headline = 我們想建立一套開放原始碼、多重語言的語音資料集，讓任何人都可以用來開發語音相關應用。
 datasets-positioning =
     我們相信若有一組大型、可公開使用的語音資料集，可奠定以機器學習為基礎的語音技術的創新，與健康的商業競爭。
