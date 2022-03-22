@@ -1120,6 +1120,7 @@ contribution-background-noise-example-2-fixed-title = Ο γιγάντιος δε
 contribution-background-noise-example-2-explanation = [Μέρος του κειμένου δεν ακούγεται]
 contribution-background-noise-example-3-fixed-title = <strong>[Κροταλισμα]</strong> γιγάντιοι δεινόσαυροι του <strong>[κροταλισμα]</strong> -ριαδικού.
 contribution-background-voices-title = Φωνές παρασκηνίου
+contribution-background-voices-description = Μια ήσυχη κουβέντα στο παρασκήνιο είναι αποδεκτή, αλλά δεν θέλουμε πρόσθετες φωνές που μπορεί να οδηγήσουν έναν αλγόριθμο να αναγνωρίσει λέξεις που δεν περιλαμβάνονται στο γραπτό κείμενο. Εάν μπορείτε να ακούσετε λέξεις εκτός από αυτές του κειμένου, το απόσπασμα θα πρέπει να απορριφθεί. Συνήθως, αυτό συμβαίνει όταν υπάρχει κοντά ανοικτή τηλεόραση ή όταν ακούγεται κάποια συζήτηση.
 contribution-background-voices-description-extended = Αν η ηχογράφηση διακόπτεται, ή υπάρχει κροτάλισμα, απορρίψτε την εκτός κι αν ακούγεται ολόκληρο το κείμενο.
 contribution-background-voices-example-1-title = Οι γιγάντιοι δεινόσαυροι του Τριαδικού. <strong>[αναγνωση απο μια φωνη]</strong>
 contribution-background-voices-example-1-explanation = Έρχεσαι; <strong>[είπε κάποιος άλλος]</strong>
