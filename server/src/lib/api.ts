@@ -21,6 +21,7 @@ import Bucket from './bucket';
 import Clip from './clip';
 import Model from './model';
 import { APIError, ClientParameterError } from './utility';
+import Email from './email';
 import Challenge from './challenge';
 import { taxonomies } from 'common';
 import Takeout from './takeout';
@@ -32,6 +33,7 @@ export default class API {
   model: Model;
   clip: Clip;
   challenge: Challenge;
+  email: Email;
   private readonly s3: S3;
   private readonly bucket: Bucket;
   readonly takeout: Takeout;
@@ -40,6 +42,7 @@ export default class API {
     this.model = model;
     this.clip = new Clip(this.model);
     this.challenge = new Challenge(this.model);
+    this.email = new Email();
     this.s3 = AWS.getS3();
     this.bucket = new Bucket(this.model, this.s3);
     this.takeout = new Takeout(this.model.db.mysql, this.s3, this.bucket);
@@ -515,7 +518,23 @@ export default class API {
         .send('Incorrect body sent to /language/request');
     }
 
-    // TODO: send actual email
-    response.json({ email, languageInfo, languageLocale });
+    try {
+      const info = await this.email.sendLanguageRequestEmail({
+        email,
+        languageInfo,
+        languageLocale,
+      });
+
+      response.json({
+        id: info?.messageId,
+        emailPreviewURL: info?.emailPreviewURL,
+        email,
+        languageInfo,
+        languageLocale,
+      });
+    } catch (e) {
+      console.error(e);
+      return response.status(500).send('Something went wrong emailing');
+    }
   };
 }
