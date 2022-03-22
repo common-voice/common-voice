@@ -149,7 +149,7 @@ export const CheckIcon = uniqueIcon((id, props) => (
       <mask id={'check-mask' + id} fill="#fff">
         <use xlinkHref={'#check-path' + id} />
       </mask>
-      <g fill="#4A4A4A" mask={'url(#check-mask' + id + ')'}>
+      <g fill="currentColor" mask={'url(#check-mask' + id + ')'}>
         <path d="M-3-6h24v24H-3z" />
       </g>
     </g>

@@ -77,6 +77,11 @@
         color: #fff;
     }
 
+    .checkbox-container {
+        border-color: var(--white);
+        color: var(--white);
+    }
+
     input {
         background: var(--segment-background);
         color: #fff;
