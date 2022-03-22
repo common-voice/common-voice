@@ -371,7 +371,7 @@ why-profile-text =
     αναγνώρισης ομιλίας που τα χρησιμοποιούν για να βελτιώσουν την ακρίβειά τους.
 dashboard = Πίνακας
 build-profile = Δημιουργία προφίλ
-avatar = Εικόνα χρήστη
+avatar = Avatar
 goals = Στόχοι
 settings = Ρυθμίσεις
 edit-profile = Επεξεργασία προφίλ
