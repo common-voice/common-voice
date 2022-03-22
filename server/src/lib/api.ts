@@ -16,22 +16,24 @@ import * as Basket from './basket';
 import Bucket from './bucket';
 import Clip from './clip';
 import Model from './model';
-import Prometheus from './prometheus';
-import { ClientParameterError } from './utility';
+import { APIError, ClientParameterError } from './utility';
 import Challenge from './challenge';
 import { features } from 'common';
 import { taxonomies } from 'common';
 import Takeout from './takeout';
-
+import NotificationQueue, { uploadImage } from './queues/imageQueue';
 const Transcoder = require('stream-transcoder');
+import { StatusCodes } from 'http-status-codes';
+import { nextTick } from 'process';
 
 const PromiseRouter = require('express-promise-router');
+
+import validate, { jobSchema } from './validation';
 
 export default class API {
   model: Model;
   clip: Clip;
   challenge: Challenge;
-  metrics: Prometheus;
   private readonly s3: S3;
   private readonly bucket: Bucket;
   readonly takeout: Takeout;
@@ -40,7 +42,6 @@ export default class API {
     this.model = model;
     this.clip = new Clip(this.model);
     this.challenge = new Challenge(this.model);
-    this.metrics = new Prometheus();
     this.s3 = AWS.getS3();
     this.bucket = new Bucket(this.model, this.s3);
     this.takeout = new Takeout(this.model.db.mysql, this.s3, this.bucket);
@@ -49,24 +50,7 @@ export default class API {
   getRouter(): Router {
     const router = PromiseRouter();
 
-    router.use(bodyParser.json());
-
-    router.use((request: Request, response: Response, next: NextFunction) => {
-      this.metrics.countRequest(request);
-      next();
-    }, authMiddleware);
-
-    router.get('/metrics', (request: Request, response: Response) => {
-      this.metrics.countPrometheusRequest(request);
-
-      const { registry } = this.metrics;
-      response.type(registry.contentType).status(200).end(registry.metrics());
-    });
-
-    router.use((request: Request, response: Response, next: NextFunction) => {
-      this.metrics.countApiRequest(request);
-      next();
-    });
+    router.use(authMiddleware);
 
     router.get('/golem', (request: Request, response: Response) => {
       console.log('Received a Golem request', {
@@ -76,6 +60,7 @@ export default class API {
       response.redirect('/');
     });
 
+    router.get('/job/:jobId', validate({ params: jobSchema }), this.getJob);
     router.get('/user_clients', this.getUserClients);
     router.post('/user_clients/:client_id/claim', this.claimUserClient);
     router.get('/user_client', this.getAccount);
@@ -103,14 +88,7 @@ export default class API {
     router.post('/skipped_sentences/:id', this.createSkippedSentence);
     router.post('/skipped_clips/:id', this.createSkippedClip);
 
-    router.use(
-      '/:locale?/clips',
-      (request: Request, response: Response, next: NextFunction) => {
-        this.metrics.countClipRequest(request);
-        next();
-      },
-      this.clip.getRouter()
-    );
+    router.use('/:locale?/clips', this.clip.getRouter());
 
     router.get('/contribution_activity', this.getContributionActivity);
     router.get('/:locale/contribution_activity', this.getContributionActivity);
@@ -131,7 +109,6 @@ export default class API {
     router.get('/feature/:locale/:feature', this.getFeatureFlag);
     router.get('/bucket/:bucket_type/:path', this.getPublicUrl);
     router.get('/server_date', this.getServerDate);
-
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
     });
@@ -251,11 +228,15 @@ export default class API {
     response.json(user ? userData : null);
   };
 
-  subscribeToNewsletter = async (request: Request, response: Response) => {
+  subscribeToNewsletter = async (
+    request: Request,
+    response: Response,
+    next: NextFunction
+  ) => {
     const { BASKET_API_KEY } = getConfig();
     if (!BASKET_API_KEY) {
-      response.json({});
-      return;
+      const basketError = new APIError('Unable to process request');
+      next(basketError);
     }
 
     const { email } = request.params;
@@ -287,60 +268,49 @@ export default class API {
   ) => {
     let avatarURL;
     let error;
-    switch (params.type) {
-      case 'default':
-        avatarURL = null;
-        break;
+    const { type: imageUploadType } = params;
+    if (imageUploadType === 'file') {
+      const rawImageData = body;
+      const prefix = (new Date().getUTCMilliseconds() * Math.random())
+        .toString(36)
+        .slice(-5);
+      const fileName = `${client_id}/${prefix}-avatar.jpeg`;
+      try {
+        const bucketName = getConfig().CLIP_BUCKET_NAME;
+        const job = await uploadImage({
+          key: fileName,
+          user,
+          imageBucket: bucketName,
+          client_id,
+          rawImageData,
+          s3: this.s3,
+        });
 
-      case 'gravatar':
-        try {
-          avatarURL =
-            'https://gravatar.com/avatar/' +
-            MD5(user.emails[0].value).toString() +
-            '.png';
-          await sendRequest(avatarURL + '&d=404');
-        } catch (e) {
-          if (e.name != 'StatusCodeError') {
-            throw e;
-          }
-          error = 'not_found';
+        if (!job) throw new Error('Upload cannot be completed');
+        return response.status(StatusCodes.CREATED).json({ id: job.id });
+      } catch (error) {
+        console.error(error);
+        return response
+          .status(StatusCodes.BAD_REQUEST)
+          .json({ message: error?.message || 'Image could not be uploaded.' });
+      }
+    } else if (params.type === 'default') {
+      avatarURL = null;
+    } else if (params.type === 'gravatar') {
+      try {
+        avatarURL =
+          'https://gravatar.com/avatar/' +
+          MD5(user.emails[0].value).toString() +
+          '.png';
+        await sendRequest(avatarURL + '&d=404');
+      } catch (e) {
+        if (e.name != 'StatusCodeError') {
+          throw e;
         }
-        break;
-
-      case 'file':
-        // Because avatar files are uploaded as public, this is a nominally
-        // unpredictable prefix to prevent easy guessing of avatar location
-        const prefix = (new Date().getUTCMilliseconds() * Math.random())
-          .toString(36)
-          .slice(-5);
-
-        let fileName = `${client_id}/${prefix}-avatar.jpeg`;
-        await this.s3
-          .upload({
-            Key: fileName,
-            Bucket: getConfig().CLIP_BUCKET_NAME,
-            Body: body,
-            ACL: 'public-read',
-          })
-          .promise();
-
-        avatarURL = this.bucket.getUnsignedUrl(
-          getConfig().CLIP_BUCKET_NAME,
-          fileName
-        );
-        break;
-
-      default:
-        response.sendStatus(404);
-        return;
-    }
-
-    if (!error) {
-      const oldAvatar = await UserClient.updateAvatarURL(
-        user.emails[0].value,
-        avatarURL
-      );
-      if (oldAvatar) await this.bucket.deleteAvatar(client_id, oldAvatar);
+        error = 'not_found';
+      }
+    } else {
+      response.sendStatus(404);
     }
 
     response.json(error ? { error } : {});
@@ -429,7 +399,7 @@ export default class API {
       const takeout_id = await this.takeout.startTakeout(request.client_id);
       response.json({ takeout_id });
     } catch (err) {
-      response.status(400).json(err.message);
+      response.status(StatusCodes.BAD_REQUEST).json(err.message);
     }
   };
 
@@ -513,6 +483,24 @@ export default class API {
       bucket_type
     );
     response.json({ url });
+  };
+
+  getJob = async (
+    { client_id, params: { jobId } }: Request,
+    response: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const job = await NotificationQueue.getJob(jobId);
+      //job is owned by current client
+      if (job && client_id === job.data.client_id) {
+        const { finishedOn } = job;
+        return response.json({ finishedOn });
+      }
+      throw new APIError('Invalid job request');
+    } catch (e) {
+      next(e);
+    }
   };
 
   getServerDate = (request: Request, response: Response) => {

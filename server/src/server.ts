@@ -8,7 +8,6 @@ import * as Sentry from '@sentry/node';
 import * as Tracing from '@sentry/tracing';
 import { StatusCodes } from 'http-status-codes';
 import 'source-map-support/register';
-
 import { importLocales } from './lib/model/db/import-locales';
 import { importTargetSegments } from './lib/model/db/import-target-segments';
 import { scrubUserActivity } from './lib/model/db/scrub-user-activity';
@@ -26,7 +25,7 @@ import authRouter from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
 import { createTaskQueues, TaskQueues } from './lib/takeout';
 import getCSPHeaderValue from './csp-header-value';
-
+import { ValidationError } from 'express-json-validator-middleware';
 const contributableLocales = require('locales/contributable.json');
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version';
@@ -97,6 +96,7 @@ export default class Server {
         );
       },
     };
+    app.use(express.json());
 
     // Enable Sentry request handler
     app.use(Sentry.Handlers.requestHandler());
@@ -155,21 +155,29 @@ export default class Server {
 
       // Enable Sentry error handling
       app.use(Sentry.Handlers.errorHandler());
+      app.use(
+        (
+          error: any,
+          request: Request,
+          response: Response,
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
+          _next: NextFunction // this unused parameter must be included for error handling middleware
+        ) => {
+          console.error(error);
 
-      app.use((error: Error, request: Request, response: Response) => {
-        console.log(error.message, error.stack);
-        const isAPIError = error instanceof APIError;
-        if (!isAPIError) {
-          console.error(request.url, error.message, error.stack);
+          const isValidationError = error instanceof ValidationError;
+          if (isValidationError) {
+            return response.status(StatusCodes.BAD_REQUEST).json({
+              errors: error.validationErrors,
+            });
+          }
+
+          const isAPIError = error instanceof APIError;
+          return response
+            .status(error?.status || StatusCodes.INTERNAL_SERVER_ERROR)
+            .json({ message: isAPIError ? error.message : '' });
         }
-        response
-          .status(
-            error instanceof ClientError
-              ? StatusCodes.BAD_REQUEST
-              : StatusCodes.INTERNAL_SERVER_ERROR
-          )
-          .json({ message: isAPIError ? error.message : '' });
-      });
+      );
     }
   }
 
