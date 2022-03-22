@@ -684,6 +684,7 @@ review-delete-recordings = Mijn opnamen verwijderen
 
 ## Datasets Page
 
+datasets-heading = Gegevenssets
 datasets-headline = We bouwen een opensource, meertalige spraakgegevensset die iedereen kan gebruiken om spraaktoepassingen te trainen.
 datasets-positioning =
     We geloven dat grote, openbare spraakgegevenssets voor innovatie en gezonde commerciële competitie in het veld van geautomatiseerd lerende spraaktechnologie zal zorgen.
