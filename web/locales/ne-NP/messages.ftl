@@ -578,6 +578,8 @@ about-playbook-how-grow-language-content-6 = साझेदारी र ने
 
 about-playbook-how-validate = भ्वाइस क्लिप अनुमोदन गर्ने कि नगर्ने भनेर म कसरी थाहा पाउने?
 about-playbook-how-validate-content-1 = यदि तपाईंले <strong>तिनीहरूलाई सुन्न सक्नुहुन्छ</strong> र <strong>उनीहरूलाई बुझ्न सक्नुहुन्छ भने</strong>, यो सामान्यतया <strong>अनुमोदन गर्न उत्तम छ</strong>।
+about-playbook-how-validate-content-2 = <strong>वक्ताको 'एक्सेन्ट' भएको क्लिपहरू अस्वीकार नगर्नुहोस् जुन तपाईंको आफ्नै भन्दा फरक छ</strong> - यो आवाज पहिचान सबैका लागि राम्रोसँग काम गर्नको लागि महत्त्वपूर्ण छ।
+about-playbook-how-validate-content-3 = यदि तपाईंलाई उच्चारणले <strong>बुझ्न असम्भव</strong> बनाउँछ, वा त्यहाँ <strong>धेरै पृष्ठभूमि शोर</strong> छ, वा त्यहाँ <strong>अन्य व्यक्तिहरू पनि बोलिरहेका छन्</strong>, त्यसोभए तपाईंले क्लिप अस्वीकार गर्नुपर्छ। <accuracyLink>हाम्रो शुद्धता मापदण्डबारे थप जानकारी हेर्नुहोस्</accuracyLink>।
 
 ## How to access dataset
 
