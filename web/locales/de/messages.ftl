@@ -684,6 +684,7 @@ review-delete-recordings = Aufnahmen löschen
 
 ## Datasets Page
 
+datasets-heading = Datensätze
 datasets-headline = Wir erstellen einen mehrsprachigen, quelloffenen Datensatz aus Stimmen, mit dem jeder sprachgestützte Anwendungen trainieren kann.
 datasets-positioning =
     Wir glauben, dass große, öffentlich verfügbare Sprachdatensätze Innovation und einen gesunden kommerziellen Wettbewerb in der Sprachtechnologie auf Basis von Maschinenlernen fördern.
