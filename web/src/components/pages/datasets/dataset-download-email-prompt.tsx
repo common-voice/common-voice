@@ -83,8 +83,6 @@ const DatasetDownloadEmailPrompt = ({
   const handleInputChange = async (
     event: React.ChangeEvent<HTMLInputElement>
   ) => {
-    event.preventDefault();
-
     const { name, type, value, checked } = event.target;
 
     setFormState(prevState => ({
