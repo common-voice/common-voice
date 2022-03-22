@@ -482,6 +482,7 @@ about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點做？
 about-nav-partners = 合作夥伴
 about-nav-get-involved = 參與我們
+about-nav-how-it-works-2 = Common Voice 喺點運作？
 
 ## Community Playbook Content
 ## What is a language
