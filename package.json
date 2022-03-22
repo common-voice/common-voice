@@ -41,7 +41,7 @@
     "ssri": "^8.0.1",
     "underscore": "^1.12.1",
     "y18n": "^4.0.1",
-    "yargs-parser": "18.1.2"
+    "yargs-parser": "21.0.1"
   },
   "scripts": {
     "clean": "rm -r node_modules && rm -r common/node_modules && rm -r server/node_modules && rm -r web/node_modules",
