@@ -99,14 +99,22 @@ module.exports = () => {
           test: /\.css$/,
           use: [
             MiniCssExtractPlugin.loader,
-            { loader: 'css-loader', options: { importLoaders: 1 } },
+            {
+              loader: 'css-loader',
+              options: {
+                sourceMap: true,
+                esModule: false, // TODO: Switch to ES modules syntax.
+                importLoaders: 1,
+              },
+            },
             'postcss-loader',
           ],
         },
         {
-          test: /\.(png|svg|jpg|gif)$/,
+          test: /\.(png|svg|jpg|gif|ttf)$/,
           loader: 'file-loader',
           options: {
+            esModule: false, // TODO: Switch to ES modules syntax.
             name() {
               if (process.env.NODE_ENV === 'development') {
                 return '[path][name].[ext]';
