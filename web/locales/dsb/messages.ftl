@@ -665,6 +665,7 @@ review-delete-recordings = Nagraśa wulašowaś
 
 ## Datasets Page
 
+datasets-heading = Datowe sajźby
 datasets-headline = Twórimy wěcejrěcnu datowu sajźbu głosow wótwórjonego žrědła, kótaruž móžo kuždy wužywaś, aby powědańske nałoženja treněrował.
 datasets-positioning =
     Wěrimy, až wjelike, zjawnje k dispoziciji stojece datowe sajźby inowaciju a strowe komercielne wuběźowanje w powědańskej technologiji na zakłaźe mašinowego wuknjenja spěchuju.
