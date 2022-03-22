@@ -603,6 +603,7 @@ about-playbook-how-grow-language-content-8 = <strong>¡Emoheñóike!</strong> Nd
 about-playbook-how-validate = ¿Mba’éicha aikuaáta amoneĩtaha ñe’ẽayvu jekutu?
 about-playbook-how-validate-content-1 = Ikatúramo <strong>ehendu<strong> ha </strong>eikumby</strong>, hetavejey ha’e <strong>iporãvéta emoneĩrõ</strong>.
 about-playbook-how-validate-content-2 = <strong>Aníke emboyko umi clip pe ñe’ẽkuaahára "oñe’ẽ hatãvévo" iñambuéva ojapoháichagui</strong>; kóva tuichamba’e pe ñe’ẽ ñeikumby oiko hag̃ua hekopete opavavépe g̃uarã.
+about-playbook-how-validate-content-3 = Egueroviáramo nde ayvureko <strong>ñoñeikumbyporãmbái</strong>, térã rehendu <strong>mba’eryapuvai pe jerére</strong>, térã oĩ <strong>ambue tapicha oñe’ẽva avei</strong>, péicharamo nde emboykeva’erã pe jekutu. <accuracyLink>Ikatu eñemomaranduve ore jejapoporãnguépe</accuracyLink>.
 about-playbook-how-validate-content-4 = Mokõi tapicha omboykérõ jekutu, ojehecháta peteĩ tenda’i iñambuéva mba’ekuaarã atýgui.
 
 ## How to access dataset
@@ -683,6 +684,7 @@ review-delete-recordings = Embogue ñe’ẽ añongatuva’ekue
 
 ## Datasets Page
 
+datasets-heading = Mba’ekuaarã aty
 datasets-headline = Ore rojaporoína tembiporu opavavépe g̃uarã ha opaite ñe’ẽme oiporukuaáva opavave oguerojeráva tembiporu oikũmby ha ohaikuaáva yvypóra ñe’ẽ ohendúva.
 datasets-positioning =
     Ore roimo’ã oĩramo ñe’ẽryapu opavavépe g̃uarã oĩvéta avei tembiapo pyahu opavavépe g̃uarã oikũmbýva ha ohaíva oje’éva chupe.
