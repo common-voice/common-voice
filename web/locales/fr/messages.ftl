@@ -669,6 +669,7 @@ review-delete-recordings = Supprimer les enregistrements
 
 ## Datasets Page
 
+datasets-heading = Jeux de données
 datasets-headline = Nous créons un jeu de données vocales open source et multilingue que tout le monde peut utiliser pour entraîner des applications utilisant la voix.
 datasets-positioning =
     Nous pensons que mettre de grands jeux de données à la disposition de tout le monde favorise l’innovation et une concurrence saine pour les technologies utilisant la voix et basées sur l’apprentissage automatique.
