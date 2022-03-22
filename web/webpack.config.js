@@ -78,6 +78,15 @@ module.exports = () => {
       alias: {
         img: path.join(__dirname, 'img/'),
       },
+
+      /*
+        some test files require node and webpack
+        complains so we'll disable these dependancies
+      */
+      fallback: {
+        path: false,
+        fs: false,
+      },
     },
     module: {
       rules: [

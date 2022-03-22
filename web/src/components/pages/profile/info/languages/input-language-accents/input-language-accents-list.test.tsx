@@ -2,7 +2,7 @@ import * as React from 'react';
 import { axe, toHaveNoViolations } from 'jest-axe';
 import { fireEvent, RenderResult } from '@testing-library/react';
 
-import { renderWithLocalization } from '../../../../../../test/mock-localization';
+import { renderWithLocalization } from '../../../../../../../test/mock-localization';
 
 import InputLanguageAccentsList from './input-language-accents-list';
 import { UserLanguage } from 'common';

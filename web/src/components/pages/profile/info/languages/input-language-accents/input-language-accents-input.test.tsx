@@ -3,7 +3,7 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 import { fireEvent, RenderResult } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { renderWithLocalization } from '../../../../../../test/mock-localization';
+import { renderWithLocalization } from '../../../../../../../test/mock-localization';
 import { MOCK_USER_LANGUAGES, MOCK_ACCENTS_ALL } from '../mocks';
 
 import InputLanguageAccentsInput from './input-language-accents-input';
