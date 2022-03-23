@@ -2719,10 +2719,10 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
-audio-recorder-polyfill@0.3.8:
-  version "0.3.8"
-  resolved "https://registry.yarnpkg.com/audio-recorder-polyfill/-/audio-recorder-polyfill-0.3.8.tgz#ce2352e9e72f820f4e2aca94ae604caa1dafa09d"
-  integrity sha512-vPBQIIf9AZtvjDbcD216KONL98nIqSffHJ4k11JoxKUuuDTQ+jGuX21Q+5ri7dSMb+qNeilOaPyhlAhCJlaexQ==
+audio-recorder-polyfill@0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/audio-recorder-polyfill/-/audio-recorder-polyfill-0.4.1.tgz#4290eca3d8edf49eb6daba59592aacf357b6e5b7"
+  integrity sha512-SS4qVOzuVwlS/tjQdd0uR+9cCKBTkx4jsAdjM+rMNqoTEWf6bMnBSTfv+FO4Zn9ngxviJOxhkgRWWXsAMqM96Q==
 
 autoprefixer@^10.4.4:
   version "10.4.4"
