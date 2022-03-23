@@ -33,13 +33,7 @@
   },
   "resolutions": {
     "browserslist": "^4.16.5",
-    "glob-parent": "^5.1.2",
-    "merge": "^2.1.1",
-    "minimist": "^1.2.3",
-    "serialize-javascript": "^3.1.0",
-    "ssh2": "^1.4.0",
-    "ssri": "^8.0.1",
-    "underscore": "^1.12.1"
+    "minimist": "^1.2.5"
   },
   "scripts": {
     "clean": "rm -r node_modules && rm -r common/node_modules && rm -r server/node_modules && rm -r web/node_modules",
