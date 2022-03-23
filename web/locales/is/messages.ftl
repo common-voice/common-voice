@@ -687,6 +687,7 @@ review-delete-recordings = Eyða upptökum
 
 ## Datasets Page
 
+datasets-heading = Gagnasöfn
 datasets-headline = Við erum að byggja opið og aðgengilegt, fjöltyngt gagnasafn með röddum sem hver sem er getur notað til þess að þjálfa raddstýrð forrit.
 datasets-positioning =
     Við trúum því að að stór gagnasöfn sem séu opin almenningi muni styðja við nýsköpun og stuðla að heilbrigðri markaðssamkeppni innan tæknigeirans á sviði máltæknilausna.
