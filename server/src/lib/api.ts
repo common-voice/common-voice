@@ -51,6 +51,13 @@ export default class API {
     const router = PromiseRouter();
 
     router.use(authMiddleware);
+    router.get('/metrics', (request: Request, response: Response) => {
+      console.log('Received a metrics request', {
+        referer: request.header('Referer'),
+        query: request.query,
+      });
+      response.redirect('/');
+    });
 
     router.get('/golem', (request: Request, response: Response) => {
       console.log('Received a Golem request', {
