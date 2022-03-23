@@ -5,15 +5,14 @@ const { parse } = require('@fluent/syntax');
 const fetch = require('node-fetch');
 const { promisify } = require('util');
 const { getConfig } = require('../server/js/config-helper');
-console.log('test')
+console.log('test');
 const TRANSLATED_MIN_PROGRESS = 0.75;
 const CONTRIBUTABLE_MIN_SENTENCES = 5000;
 
 const dataPath = path.join(__dirname, '..', 'locales');
 const localeMessagesPath = path.join(__dirname, '..', 'web', 'locales');
 
-
-const {MYSQLHOST, MYSQLUSER, MYSQLPASS, MYSQLDBNAME} = getConfig()
+const { MYSQLHOST, MYSQLUSER, MYSQLPASS, MYSQLDBNAME } = getConfig();
 
 const dbConfig = {
   host: MYSQLHOST,
@@ -102,12 +101,13 @@ async function importPontoonLocales() {
   ]);
 }
 
-async function importContributableLocales() {
+async function importContributableLocales(locales) {
   const sentencesPath = path.join(__dirname, '..', 'server', 'data');
   const oldContributable = JSON.parse(
     fs.readFileSync(path.join(dataPath, 'contributable.json'), 'utf-8')
   );
   const names = fs.readdirSync(sentencesPath).filter(name => {
+    console.log('name', name, locales[name] && locales[name].target_sentence_count);
     if (oldContributable.includes(name)) {
       return true;
     }
@@ -130,7 +130,7 @@ async function importContributableLocales() {
             : count,
         0
       );
-    return count > CONTRIBUTABLE_MIN_SENTENCES;
+    return count > locales[name].target_sentence_count;
   });
   saveDataJSON('contributable', names.sort());
 }
@@ -156,21 +156,33 @@ async function buildLocaleNativeNameMapping() {
 }
 
 async function importLocales() {
-  const pool = mysql.createPool(dbConfig);
+  try {
+    const pool = mysql.createPool(dbConfig);
+    pool.getConnection(async (err, connection) => {
+      if (err) throw err;
+      const db = promisify(connection.query).bind(connection);
 
-  pool.getConnection(async (err, connection) => {
-    if (err) throw err;
-    const db = promisify(connection.query).bind(connection);
+      const getTargetCount = await db(`select * from locales`);
+      const locales = getTargetCount.reduce((obj, locale) => {
+        obj[locale.name] = {
+          name: locale.name,
+          id: locale.id,
+          target_sentence_count: locale.target_sentence_count,
+        };
+        return obj;
+      }, {});
 
-    const getTargetCount = await db(`select * from locales`);
-    console.log('getTargetCount', getTargetCount);
-  });
+      await Promise.all([
+        importPontoonLocales(),
+        importContributableLocales(locales),
+        buildLocaleNativeNameMapping(),
+      ]);
+    });
 
-  await Promise.all([
-    importPontoonLocales(),
-    importContributableLocales(),
-    buildLocaleNativeNameMapping(),
-  ]);
+
+  } catch (error) {
+    console.error(error);
+  }
 }
 
 importLocales().catch(e => console.error(e));
