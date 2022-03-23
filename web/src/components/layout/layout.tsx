@@ -29,6 +29,7 @@ import Nav from './nav';
 import UserMenu from './user-menu';
 import cx from 'classnames';
 import WelcomeModal from '../welcome-modal/welcome-modal';
+import NonProductionBanner from './non-production-banner';
 import {
   ChallengeTeamToken,
   challengeTeamTokens,
@@ -56,7 +57,6 @@ interface LayoutState {
   challengeToken: ChallengeToken;
   isMenuVisible: boolean;
   hasScrolled: boolean;
-  showStagingBanner: boolean;
   showWelcomeModal: boolean;
   featureStorageKey?: string;
 }
@@ -176,15 +176,11 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       challengeToken,
       hasScrolled,
       isMenuVisible,
-      showStagingBanner,
       showWelcomeModal,
-      featureStorageKey,
     } = this.state;
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
     const pathParts = location.pathname.split('/');
-    const className = cx(pathParts[2] ? pathParts.slice(2).join(' ') : 'home', {
-      'staging-banner-is-visible': showStagingBanner,
-    });
+    const className = cx(pathParts[2] ? pathParts.slice(2).join(' ') : 'home');
 
     const alreadyEnrolled =
       this.state.showWelcomeModal && user.account?.enrollment?.challenge;
@@ -232,23 +228,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             </button>
           </div>
         </header>
-        {showStagingBanner && (
-          <div className="staging-banner">
-            You're on the staging server. Voice data is not collected here.{' '}
-            <a href={URLS.HTTP_ROOT} target="_blank" rel="noopener noreferrer">
-              Don't waste your breath.
-            </a>{' '}
-            <a
-              href={`${URLS.GITHUB_ROOT}/issues/new`}
-              rel="noopener noreferrer"
-              target="_blank">
-              Feel free to report issues.
-            </a>{' '}
-            <button onClick={() => this.setState({ showStagingBanner: false })}>
-              Close
-            </button>
-          </div>
-        )}
+        <NonProductionBanner />
         <Content location={location} />
         <Footer />
         <div
