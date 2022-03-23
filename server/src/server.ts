@@ -327,9 +327,8 @@ export default class Server {
     this.listen();
     const { ENVIRONMENT } = getConfig();
 
-    if (!ENVIRONMENT || ENVIRONMENT === 'default') {
+    if (!ENVIRONMENT || ENVIRONMENT === 'local') {
       await this.performMaintenance(options.doImport);
-      // await this.warmUpCaches();
       return;
     }
 
@@ -357,20 +356,6 @@ export default class Server {
     }
 
     await lock.unlock();
-    // await this.warmUpCaches();
-  }
-
-  async warmUpCaches() {
-    this.print('warming up caches');
-    const start = Date.now();
-    for (const locale of [null].concat(contributableLocales)) {
-      await this.model.getClipsStats(locale);
-      await this.model.getVoicesStats(locale);
-      await this.model.getContributionStats(locale);
-      await getFullVoteLeaderboard(locale);
-      await getFullClipLeaderboard(locale);
-    }
-    this.print(`took ${getElapsedSeconds(start)}s to warm up caches`);
   }
 
   /**
