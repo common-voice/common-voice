@@ -196,36 +196,80 @@ const locales: Locale[] = [
     localeToken: 'yi',
     sentenceTarget: 750,
   },
+  {
+    localeToken: 'am',
+    sentenceTarget: 2000,
+  },
+  {
+    localeToken: 'fo',
+    sentenceTarget: 2000,
+  },
+  {
+    localeToken: 'is',
+    sentenceTarget: 2000,
+  },
+  {
+    localeToken: 'kaa',
+    sentenceTarget: 2000,
+  },
+  {
+    localeToken: 'my',
+    sentenceTarget: 2000,
+  },
+  {
+    localeToken: 'si',
+    sentenceTarget: 2000,
+  },
+  {
+    localeToken: 'sq',
+    sentenceTarget: 2000,
+  },
+  {
+    localeToken: 'te',
+    sentenceTarget: 2000,
+  },
+  {
+    localeToken: 'tg',
+    sentenceTarget: 2000,
+  },
+  {
+    localeToken: 'tk',
+    sentenceTarget: 2000,
+  },
+  {
+    localeToken: 'tl',
+    sentenceTarget: 2000,
+  },
+  {
+    localeToken: 'yo',
+    sentenceTarget: 2000,
+  },
 ];
 
 export const up = async function (db: any): Promise<any> {
-  db.runSql(`
-  ALTER TABLE locales ADD COLUMN target_sentence_count SMALLINT NOT NULL DEFAULT 5000;
-  `);
-  //remove existing test variant data
-  // const languageQuery = await db.runSql(
-  //   `SELECT id, name FROM locales where name is not null`
-  // );
-  // // {en: 1, fr: 2}
-  // const mappedLanguages = languageQuery.reduce((obj: any, current: any) => {
-  //   obj[current.name] = current.id;
-  //   return obj;
-  // }, {});
-  // for (const row of VARIANTS) {
-  //   await db.runSql(
-  //     `INSERT INTO variants (locale_id, sentenceTarget, variant_name) VALUES ( ${
-  //       mappedLanguages[row['locale_name']] +
-  //       ',"' +
-  //       row['sentenceTarget'] +
-  //       '","' +
-  //       row['variant_name'] +
-  //       '"'
-  //     })`
-  //   );
-  // }
+  // console.log(locales);
+
+  const targetColumnQuery = await db.runSql(
+    `SELECT target_sentence_count FROM locales`
+  );
+
+  if (targetColumnQuery) {
+    await db.runSql(`
+    ALTER TABLE locales ADD COLUMN target_sentence_count SMALLINT NOT NULL DEFAULT 5000;
+    `);
+    console.log('added column');
+    for (const row of locales) {
+      await db.runSql(` 
+    UPDATE locales
+    SET target_sentence_count = ${row.sentenceTarget}
+    WHERE name = "${row.localeToken}"`);
+    }
+  }
 };
 
 export const down = async function (db: any): Promise<any> {
   await db.runSql(`
-    `);
+    ALTER TABLE locales 
+    DROP COLUMN target_sentence_count
+  `);
 };
