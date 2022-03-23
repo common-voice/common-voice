@@ -9,7 +9,7 @@
     "body-parser": "1.19.2",
     "bull": "3.29.3",
     "common": "*",
-    "commonmark": "0.29.3",
+    "commonmark": "0.30.0",
     "compression": "1.7.4",
     "cookie-parser": "1.4.6",
     "crypto-js": "4.1.1",
