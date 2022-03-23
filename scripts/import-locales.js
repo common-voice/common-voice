@@ -1,13 +1,26 @@
 const fs = require('fs');
 const path = require('path');
+const mysql = require('mysql');
 const { parse } = require('@fluent/syntax');
 const fetch = require('node-fetch');
-
+const { promisify } = require('util');
+const { getConfig } = require('../server/js/config-helper');
+console.log('test')
 const TRANSLATED_MIN_PROGRESS = 0.75;
 const CONTRIBUTABLE_MIN_SENTENCES = 5000;
 
 const dataPath = path.join(__dirname, '..', 'locales');
 const localeMessagesPath = path.join(__dirname, '..', 'web', 'locales');
+
+
+const {MYSQLHOST, MYSQLUSER, MYSQLPASS, MYSQLDBNAME} = getConfig()
+
+const dbConfig = {
+  host: MYSQLHOST,
+  user: MYSQLUSER,
+  password: MYSQLPASS,
+  database: MYSQLDBNAME,
+};
 
 function saveDataJSON(name, data) {
   fs.writeFileSync(
@@ -143,6 +156,16 @@ async function buildLocaleNativeNameMapping() {
 }
 
 async function importLocales() {
+  const pool = mysql.createPool(dbConfig);
+
+  pool.getConnection(async (err, connection) => {
+    if (err) throw err;
+    const db = promisify(connection.query).bind(connection);
+
+    const getTargetCount = await db(`select * from locales`);
+    console.log('getTargetCount', getTargetCount);
+  });
+
   await Promise.all([
     importPontoonLocales(),
     importContributableLocales(),
