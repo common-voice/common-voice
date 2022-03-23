@@ -248,28 +248,29 @@ const locales: Locale[] = [
 
 export const up = async function (db: any): Promise<any> {
   // console.log(locales);
-
-  const targetColumnQuery = await db.runSql(
-    `SELECT target_sentence_count FROM locales`
+  const checkCol = await db.runSql(
+    `SHOW COLUMNS FROM locales LIKE '%target_sentence_count%'`
   );
 
-  if (targetColumnQuery) {
-    await db.runSql(`
+  if (checkCol.length > 0) {
+    return;
+  }
+
+  await db.runSql(`
     ALTER TABLE locales ADD COLUMN target_sentence_count SMALLINT NOT NULL DEFAULT 5000;
-    `);
-    console.log('added column');
-    for (const row of locales) {
-      await db.runSql(` 
+  `);
+
+  for (const row of locales) {
+    await db.runSql(` 
     UPDATE locales
     SET target_sentence_count = ${row.sentenceTarget}
     WHERE name = "${row.localeToken}"`);
-    }
   }
 };
 
 export const down = async function (db: any): Promise<any> {
   await db.runSql(`
-    ALTER TABLE locales 
+    ALTER TABLE locales
     DROP COLUMN target_sentence_count
   `);
 };
