@@ -6,6 +6,7 @@
     {
       "schedule": ["after 10pm and before 5am every weekday", "every weekend"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchCurrentVersion": "!/^0/",
       "automerge": true,
       "automergeType": "pr",
       "ignoreTests": false
