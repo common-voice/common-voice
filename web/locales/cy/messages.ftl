@@ -701,6 +701,7 @@ review-delete-recordings = Dileu fy recordiadau
 
 ## Datasets Page
 
+datasets-heading = Setiau Data
 datasets-headline = Rydym yn adeiladu setiau data o leisiau amlieithog y gall unrhyw un eu defnyddio i hyfforddi rhaglenni sy'n cael eu galluogi drwy lais.
 datasets-positioning =
     Rydym yn credu y bydd setiau data llais mawr, sydd ar gael yn gyhoeddus annog menter a chystadleuaeth fasnachol iach mewn technoleg llais wedi ei seilio ar ddysgu peirianyddol.
