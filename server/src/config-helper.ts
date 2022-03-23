@@ -47,7 +47,6 @@ export type CommonVoiceConfig = {
   LAST_DATASET: string;
   SENTRY_DSN_SERVER: string;
   MAINTENANCE_MODE: boolean;
-  BENCHMARK_LIVE: boolean;
   DEBUG: boolean;
   FLAG_BUFFER_STREAM_ENABLED: boolean;
 };
@@ -104,7 +103,6 @@ const BASE_CONFIG: CommonVoiceConfig = {
   SENTRY_DSN_SERVER: configEntry('CV_SENTRY_DSN_SERVER', ''),
   MAINTENANCE_MODE: configEntry('CV_MAINTENANCE_MODE', false, castBoolean),
   BASKET_API_KEY: configEntry('CV_BASKET_API_KEY', null),
-  BENCHMARK_LIVE: configEntry('CV_BENCHMARK_LIVE', false, castBoolean),
   DEBUG: configEntry('CV_DEBUG', false, castBoolean),
   FLAG_BUFFER_STREAM_ENABLED: configEntry(
     'CV_FLAG_BUFFER_STREAM_ENABLED',
