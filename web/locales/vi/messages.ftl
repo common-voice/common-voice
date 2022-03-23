@@ -680,6 +680,7 @@ review-delete-recordings = Xóa bản ghi âm của tôi
 
 ## Datasets Page
 
+datasets-heading = Tập dữ liệu
 datasets-headline = Chúng tôi đã xây dựng một bộ dữ liệu giọng nói đa ngôn ngữ mã nguồn mở mà bất kỳ ai cũng có thể sử dụng để huấn luyện các ứng dụng hỗ trợ giọng nói.
 datasets-positioning =
     Chúng tôi tin rằng các bộ dữ liệu giọng nói lớn, có sẵn công khai sẽ thúc đẩy sự đổi mới và cạnh tranh thương mại lành mạnh trong công nghệ lời nói dựa trên máy học.
