@@ -34,8 +34,8 @@
     "redux-thunk": "2.4.1"
   },
   "devDependencies": {
-    "@babel/core": "7.8.4",
-    "@babel/preset-env": "7.16.8",
+    "@babel/core": "7.17.8",
+    "@babel/preset-env": "7.16.11",
     "@peculiar/webcrypto": "1.2.3",
     "@testing-library/react": "12.1.4",
     "@testing-library/react-hooks": "7.0.2",
@@ -54,7 +54,7 @@
     "@types/webpack": "5.28.0",
     "@types/webpack-merge": "5.0.0",
     "@vue/preload-webpack-plugin": "2.0.0",
-    "babel-loader": "8.2.3",
+    "babel-loader": "8.2.4",
     "chalk": "4.1.2",
     "clean-webpack-plugin": "4.0.0",
     "common": "*",
