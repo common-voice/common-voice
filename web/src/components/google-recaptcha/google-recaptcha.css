@@ -1,0 +1,10 @@
+.google-recaptcha {
+    display: block;
+    min-height: 78px; /* reduce pop-in */
+}
+
+.google-recaptcha__message {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: var(--dark-red);
+}

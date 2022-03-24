@@ -23,7 +23,7 @@ import Model from './model';
 import { APIError, ClientParameterError } from './utility';
 import Email from './email';
 import Challenge from './challenge';
-import { taxonomies } from 'common';
+import GoogleReCAPTCHA from './google-recaptcha';
 import Takeout from './takeout';
 import NotificationQueue, { uploadImage } from './queues/imageQueue';
 
@@ -121,6 +121,7 @@ export default class API {
 
     router.get('/bucket/:bucket_type/:path', this.getPublicUrl);
     router.get('/server_date', this.getServerDate);
+
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
     });
@@ -510,12 +511,22 @@ export default class API {
   };
 
   sendLanguageRequest = async (request: Request, response: Response) => {
-    const { email, languageInfo, languageLocale } = request.body;
+    const { email, languageInfo, languageLocale, reCAPTCHAClientResponse } =
+      request.body;
 
     if (languageInfo.length === 0 || email.length === 0) {
       return response
         .status(500)
         .send('Incorrect body sent to /language/request');
+    }
+
+    const googleReCAPTCHA = new GoogleReCAPTCHA();
+    const isSuccessfulReCAPTCHA = await googleReCAPTCHA.verify(
+      reCAPTCHAClientResponse
+    );
+
+    if (!isSuccessfulReCAPTCHA) {
+      return response.status(500).send('Incorrect reCAPTCHA');
     }
 
     try {

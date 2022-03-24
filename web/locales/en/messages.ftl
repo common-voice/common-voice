@@ -807,6 +807,11 @@ request-language-form-info-explanation-list-2 =
     <isoCodeLink>ISO Codes</isoCodeLink> if known
 request-language-form-info-explanation-list-3 =
     Links to websites that can help us understand the language
+request-language-google-recaptcha-required =
+    reCAPTCHA is required if you want to proceed
+request-language-google-recaptcha-error =
+    Something went wrong with reCAPTCHA. Please try again.
+
 # Success page
 request-language-success-heading =
     Thank you! You’ve sent a new language enquiry

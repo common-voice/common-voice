@@ -17,6 +17,7 @@ import PageHeading from '../../../ui/page-heading';
 import ErrorPage from '../../error-page/error-page';
 import PageTextContent from '../../../ui/page-text-content';
 import Page from '../../../ui/page';
+import GoogleReCAPTCHA from '../../../google-recaptcha/google-recaptcha';
 
 const EMAIL_ADDRESS = 'commonvoice@mozilla.com';
 
@@ -28,10 +29,13 @@ const LanguagesRequestFormPage = () => {
   const history = useHistory();
 
   const [isSendingRequest, setIsSendingRequest] = useState(false);
-  const [hasError, setHasError] = useState(false);
+  const [hasGenericError, setHasGenericError] = useState(false);
   const [emailValue, setEmailValue] = useState('');
   const [languageInfoValue, setLanguageInfoValue] = useState('');
   const [privacyAgreedChecked, setPrivacyAgreedChecked] = useState(false);
+
+  const [reCAPTCHAMessage, setReCAPTCHAMessage] = useState('');
+  const [reCAPTCHAClientResponse, setReCAPTCHAClientResponse] = useState(null);
 
   const handleEmailInputChange = (
     event: React.ChangeEvent<HTMLInputElement>
@@ -51,14 +55,30 @@ const LanguagesRequestFormPage = () => {
     setPrivacyAgreedChecked(event.target.checked);
   };
 
+  const handleGoogleReCAPTCHAChange = (value: string | null) => {
+    setReCAPTCHAClientResponse(value);
+    setReCAPTCHAMessage(
+      value ? '' : 'request-language-google-recaptcha-required'
+    );
+  };
+
+  const isValidSubmissionData = () => {
+    return (
+      privacyAgreedChecked === true &&
+      emailValue.trim().length !== 0 &&
+      languageInfoValue.trim().length !== 0
+    );
+  };
+
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    if (
-      !privacyAgreedChecked ||
-      emailValue.trim().length === 0 ||
-      languageInfoValue.trim().length === 0
-    ) {
+    if (!reCAPTCHAClientResponse) {
+      setReCAPTCHAMessage('request-language-google-recaptcha-required');
+      return;
+    }
+
+    if (!isValidSubmissionData()) {
       return;
     }
 
@@ -68,15 +88,25 @@ const LanguagesRequestFormPage = () => {
         email: emailValue.trim(),
         languageInfo: languageInfoValue.trim(),
         languageLocale: navigator?.language,
+        reCAPTCHAClientResponse,
       });
+
+      // redirect to languages/success path if email sent correctly
       history.push(toLocaleRoute(URLS.LANGUAGE_REQUEST_SUCCESS));
     } catch (e) {
-      setHasError(true);
+      setIsSendingRequest(false);
+
+      if (e.message === 'Incorrect reCAPTCHA') {
+        setReCAPTCHAClientResponse(null);
+        return setReCAPTCHAMessage('request-language-google-recaptcha-error');
+      }
+
+      setHasGenericError(true);
     }
     setIsSendingRequest(false);
   };
 
-  if (hasError) {
+  if (hasGenericError) {
     return (
       <ErrorPage errorCode="500" prevPath={URLS.LANGUAGE_REQUEST}>
         <Localized
@@ -158,9 +188,9 @@ const LanguagesRequestFormPage = () => {
 
             <Localized id="request-language-form-info" attrs={{ label: true }}>
               <LabeledTextArea
+                className="languages-request-page__content__form__text-area"
                 value={languageInfoValue}
                 onChange={handleLanguageInfoTextAreaChange}
-                style={{ minHeight: '150px' }}
                 required
               />
             </Localized>
@@ -177,6 +207,13 @@ const LanguagesRequestFormPage = () => {
               onChange={handlePrivacyAgreedChange}
               required
             />
+
+            <div className="languages-request-page__content__form_google-recaptcha">
+              <GoogleReCAPTCHA
+                onChange={handleGoogleReCAPTCHAChange}
+                message={reCAPTCHAMessage}
+              />
+            </div>
 
             <Localized id="submit-form-action">
               <Button type="submit" rounded isBig disabled={isSendingRequest} />

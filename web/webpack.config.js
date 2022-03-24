@@ -1,6 +1,7 @@
 const path = require('path');
 const chalk = require('chalk');
 const webpack = require('webpack');
+const dotenv = require('dotenv');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const PreloadWebpackPlugin = require('@vue/preload-webpack-plugin');
@@ -19,7 +20,17 @@ const babelLoader = {
   },
 };
 
-module.exports = () => {
+module.exports = (_env, argv) => {
+  const IS_DEVELOPMENT = argv.mode === 'development';
+
+  if (IS_DEVELOPMENT) {
+    const result = dotenv.config({ path: '../.env-local-docker' });
+    if (result.error) {
+      console.log(result.error);
+      console.log('Failed loading dotenv file, using defaults');
+    }
+  }
+
   const plugins = [
     function () {
       this.hooks.watchRun.tap('Building', () => {
@@ -60,6 +71,9 @@ module.exports = () => {
 
     new webpack.DefinePlugin({
       'process.env.GIT_COMMIT_SHA': JSON.stringify(process.env.GIT_COMMIT_SHA),
+      'process.env.GOOGLE_RECAPTCHA_SITE_KEY': JSON.stringify(
+        process.env.CV_GOOGLE_RECAPTCHA_SITE_KEY
+      ),
     }),
   ];
 
@@ -143,7 +157,7 @@ module.exports = () => {
           options: {
             esModule: false, // TODO: Switch to ES modules syntax.
             name() {
-              if (process.env.NODE_ENV === 'development') {
+              if (IS_DEVELOPMENT) {
                 return '[path][name].[ext]';
               }
 

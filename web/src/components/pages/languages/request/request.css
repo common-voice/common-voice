@@ -64,3 +64,11 @@
 .languages-request-page__content__form__required {
     font-size: 0.85em;
 }
+
+.languages-request-page__content__form__text-area {
+    min-height: 150px;
+}
+
+.languages-request-page__content__form__google-recaptcha {
+    margin-bottom: 2em;
+}
