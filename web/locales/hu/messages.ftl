@@ -687,6 +687,7 @@ review-delete-recordings = Felvételeim törlése
 
 ## Datasets Page
 
+datasets-heading = Adatkészletek
 datasets-headline = Egy nyílt forráskódú, többnyelvű adatkészletet készítünk, amelyet bárki használhat beszédképességekkel rendelkező alkalmazások betanításához.
 datasets-positioning =
     Hisszük, hogy a nagy, nyilvánosan elérhető hangadat-készletek elősegítik az innovációt és az egészséges kereskedelmi versenyt a gépi tanuláson alapuló beszédtechnológiában.
