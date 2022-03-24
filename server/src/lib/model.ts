@@ -206,7 +206,7 @@ export default class Model {
       function indexCountByLocale(
         rows: { locale: string; count: number; target_sentence_count: number }[]
       ): {
-        [locale: string]: number;
+        [locale: string]: any;
       } {
         return rows.reduce(
           (

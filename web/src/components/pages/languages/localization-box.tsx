@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 import * as React from 'react';
 import { useState } from 'react';
 import { DAILY_GOALS } from '../../../constants';
@@ -164,8 +165,8 @@ const LocalizationBox = React.memo((props: Props) => {
               <span />
             </Localized>
           }
-          progress={props.sentencesCount}
-          progressTotal={SENTENCE_COUNT_TARGET}
+          progress={props.sentencesCount.current_count || 0}
+          progressTotal={props.sentencesCount.target_sentence_count || 5000}
           onClick={() => setShowModal(true)}>
           <LocalizationProvider l10n={l10n}>
             <Localized id="get-involved-button">

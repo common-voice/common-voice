@@ -109,7 +109,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
 
     inProgress.sort(
       presortLanguages((l1, l2) =>
-        l1.sentencesCount < l2.sentencesCount ||
+        l1.sentencesCount.current_count < l2.sentencesCount.current_count ||
         l1.localizedPercentage < l2.localizedPercentage
           ? 1
           : -1
