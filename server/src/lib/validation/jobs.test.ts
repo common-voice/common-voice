@@ -10,8 +10,8 @@ describe('Job Schema Validation', () => {
     };
     const res: any = {};
     const next = jest.fn();
-    const van = validate({ params: jobSchema });
-    van(req, res, next);
+    const validationCall = validate({ params: jobSchema });
+    validationCall(req, res, next);
     expect(next).toBeCalled();
     expect(next).toBeCalledTimes(1);
     expect(next).toHaveBeenCalledWith(expect.any(ValidationError));
@@ -25,8 +25,8 @@ describe('Job Schema Validation', () => {
     };
     const res: any = {};
     const next = jest.fn();
-    const van = validate({ params: jobSchema });
-    van(req, res, next);
+    const validationCall = validate({ params: jobSchema });
+    validationCall(req, res, next);
     expect(next).toBeCalled();
     expect(next).toBeCalledTimes(1);
     expect(next).toHaveBeenCalledWith(expect.any(ValidationError));
@@ -40,8 +40,8 @@ describe('Job Schema Validation', () => {
     };
     const res: any = {};
     const next = jest.fn();
-    const van = validate({ params: jobSchema });
-    van(req, res, next);
+    const validationCall = validate({ params: jobSchema });
+    validationCall(req, res, next);
     expect(next).toBeCalled();
     expect(next).toBeCalledTimes(1);
     expect(next).toHaveBeenCalledWith(expect.any(ValidationError));
@@ -55,8 +55,8 @@ describe('Job Schema Validation', () => {
     };
     const res: any = {};
     const next = jest.fn();
-    const van = validate({ params: jobSchema });
-    van(req, res, next);
+    const validationCall = validate({ params: jobSchema });
+    validationCall(req, res, next);
     expect(next).toBeCalled();
     expect(next).toBeCalledTimes(1);
     expect(next).toHaveBeenCalledWith(expect.any(ValidationError));
@@ -70,8 +70,8 @@ describe('Job Schema Validation', () => {
     };
     const res: any = {};
     const next = jest.fn();
-    const van = validate({ params: jobSchema });
-    van(req, res, next);
+    const validationCall = validate({ params: jobSchema });
+    validationCall(req, res, next);
     expect(next).toBeCalled();
     expect(next).toBeCalledTimes(1);
     expect(next).toHaveBeenCalledWith(expect.any(ValidationError));
@@ -85,8 +85,8 @@ describe('Job Schema Validation', () => {
     };
     const res: any = {};
     const next = jest.fn();
-    const van = validate({ params: jobSchema });
-    van(req, res, next);
+    const validationCall = validate({ params: jobSchema });
+    validationCall(req, res, next);
     expect(next).toBeCalled();
     expect(next).toBeCalledTimes(1);
     expect(next).toHaveBeenCalledWith();
