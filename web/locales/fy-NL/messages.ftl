@@ -694,6 +694,7 @@ review-delete-recordings = Myn opnamen fuortsmite
 
 ## Datasets Page
 
+datasets-heading = Gegevenssets
 datasets-headline = Wy bouwe in meartalige, iepen boarne gegevensset fan stimmen, dy’t elkenien brûke kin om mei spraak oanstjoerde applikaasjes te trainen.
 datasets-positioning =
     Wy leauwe dat grutte, iepenbiere spraakgegevenssets foar ynnovaasje en sûne kommersjele kompetysje yn it fjild fan automatisearre learende spraaktechnology soargje sil.
