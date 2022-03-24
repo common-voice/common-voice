@@ -27,8 +27,7 @@ import { nextTick } from 'process';
 
 const PromiseRouter = require('express-promise-router');
 
-import validate, { jobSchema } from './validation';
-import { sentenceSchema } from './validation/sentences';
+import validate, { jobSchema, sentenceSchema } from './validation';
 
 export default class API {
   model: Model;

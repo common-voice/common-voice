@@ -13,4 +13,5 @@ const { validate } = new Validator({
 });
 
 export * from './jobs';
+export * from './sentences';
 export default validate;
