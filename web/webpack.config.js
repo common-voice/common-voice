@@ -8,6 +8,7 @@ const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
+const HASH_LENGTH = 16; // length specified for our compressed-size action
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
 
 const babelLoader = {
@@ -72,6 +73,7 @@ module.exports = () => {
       path: OUTPUT_PATH,
       filename: '[name].[contenthash].js',
       publicPath: '/dist/',
+      hashDigestLength: HASH_LENGTH,
     },
     stats: 'errors-only',
     devtool: 'source-map',
@@ -145,7 +147,7 @@ module.exports = () => {
                 return '[path][name].[ext]';
               }
 
-              return '[name].[contenthash].[ext]';
+              return `[name].[contenthash:${HASH_LENGTH}].[ext]`;
             },
           },
         },

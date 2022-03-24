@@ -18,4 +18,7 @@ jobs:
         with:
           build-script: 'build:compressed-size'
           pattern: 'web/dist/**/*.{js,css,html,json,svg,png}'
-          strip-hash: "\\b\\w{5}\\."
+          # Strip hashes Webpack generates. 16 because hashDigestLength is 16.
+          strip-hash: '\.(\w{16})\.'
+          # Only report if more than 100 bytes changes
+          minimum-change-threshold: 100
