@@ -154,7 +154,7 @@ export default class DB {
   async getSentenceCountByLocale(locales: string[]): Promise<any> {
     const [rows] = await this.mysql.query(
       `
-        SELECT COUNT(*) AS count, locales.name AS locale
+        SELECT COUNT(*) AS count, locales.name AS locale, locales.target_sentence_count as target_sentence_count
         FROM sentences
         LEFT JOIN locales ON sentences.locale_id = locales.id
         WHERE locales.name IN (?) AND sentences.is_used
