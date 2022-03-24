@@ -819,8 +819,14 @@ listen-again-instruction = Excellent travail ! <playIcon></playIcon> Écoutez �
 listen-3rd-time-instruction = Plus que deux <playIcon></playIcon>, continuez !
 listen-last-time-instruction = <playIcon></playIcon> C’est le dernier !
 listen-empty-state = Nous n’avons plus d’échantillons à valider dans cette langue…
+listen-loading-error =
+    Nous n’avons pas pu obtenir d’échantillons audio à écouter.
+    Veuillez réessayer plus tard.
 speak-empty-state = Nous n’avons plus de phrases à enregistrer dans cette langue…
 speak-empty-state-cta = Proposer des phrases
+speak-loading-error =
+    Nous n’avons pas pu obtenir de phrases à prononcer.
+    Veuillez réessayer plus tard.
 record-button-label = Enregistrer votre voix
 share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
 keep-track-profile = Mesurez votre progression en créant un profil
