@@ -14,11 +14,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Install dependancies
-        run: yarn install --frozen-lockfile
-      - name: Build common
-        run: yarn build:common
       - uses: preactjs/compressed-size-action@v2
         with:
-          build-script: 'build:web'
+          build-script: 'build:compressed-size'
           pattern: 'web/dist/**/*.{js,css,html,json,svg,png}'
+          strip-hash: "\\b\\w{5}\\."

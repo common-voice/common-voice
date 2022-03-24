@@ -38,6 +38,7 @@
   "scripts": {
     "clean": "rm -r node_modules && rm -r common/node_modules && rm -r server/node_modules && rm -r web/node_modules",
     "build": "yarn build:maint && yarn build:common && concurrently \"yarn build:server\" \"yarn build:web\"",
+    "build:compressed-size": "yarn build:common && yarn build:web",
     "build:web": "cd web && yarn build && cd ..",
     "build:server": "cd server && yarn build && cd ..",
     "build:common": "cd common && yarn build && cd ..",
