@@ -8,9 +8,6 @@ import DatasetInfo from './dataset-info';
 import Resources from './resources';
 import './datasets.css';
 
-// Dear future searchers: the dataset survey modal, i.e.
-// > “Have thoughts about the future of voice technology?”
-// was removed in the same commit that added this comment.
 const Datasets = () => (
   <div className="datasets-content">
     <DatasetInfo />

@@ -18,7 +18,6 @@ import Clip from './clip';
 import Model from './model';
 import { APIError, ClientParameterError } from './utility';
 import Challenge from './challenge';
-import { features } from 'common';
 import { taxonomies } from 'common';
 import Takeout from './takeout';
 import NotificationQueue, { uploadImage } from './queues/imageQueue';
@@ -113,7 +112,6 @@ export default class API {
 
     router.use('/challenge', this.challenge.getRouter());
 
-    router.get('/feature/:locale/:feature', this.getFeatureFlag);
     router.get('/bucket/:bucket_type/:path', this.getPublicUrl);
     router.get('/server_date', this.getServerDate);
     router.use('*', (request: Request, response: Response) => {
@@ -122,31 +120,6 @@ export default class API {
 
     return router;
   }
-
-  getFeatureFlag = (
-    { params: { locale, feature } }: Request,
-    response: Response
-  ) => {
-    let featureResult = null;
-    const featureObj = features[feature];
-
-    try {
-      if (
-        featureObj &&
-        ((featureObj.taxonomy &&
-          taxonomies[featureObj.taxonomy] &&
-          taxonomies[featureObj.taxonomy].locales.includes(locale)) ||
-          featureObj.taxonomy === undefined) &&
-        getConfig()[featureObj.configFlag as keyof CommonVoiceConfig]
-      ) {
-        featureResult = featureObj;
-      }
-    } catch (e) {
-      console.log('error retrieving feature flag', e.message);
-    }
-
-    response.json(featureResult);
-  };
 
   getRandomSentences = async (request: Request, response: Response) => {
     const { client_id, params } = request;
