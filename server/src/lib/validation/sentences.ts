@@ -1,13 +1,14 @@
 import { AllowedSchema } from 'express-json-validator-middleware';
 
-export const jobSchema: AllowedSchema = {
+export const sentenceSchema: AllowedSchema = {
   type: 'object',
-  required: ['jobId'],
+  required: ['count'],
   properties: {
-    jobId: {
+    count: {
       format: 'positiveIntegerFormat',
       type: 'number',
       minimum: 1,
+      maximum: 50,
     },
   },
 };

@@ -27,7 +27,7 @@ import { nextTick } from 'process';
 
 const PromiseRouter = require('express-promise-router');
 
-import validate, { jobSchema } from './validation';
+import validate, { jobSchema, sentenceSchema } from './validation';
 
 export default class API {
   model: Model;
@@ -90,7 +90,11 @@ export default class API {
     router.get('/language/accents/:locale?', this.getAccents);
     router.get('/language/variants/:locale?', this.getVariants);
 
-    router.get('/:locale/sentences', this.getRandomSentences);
+    router.get(
+      '/:locale/sentences',
+      validate({ query: sentenceSchema }),
+      this.getRandomSentences
+    );
     router.post('/skipped_sentences/:id', this.createSkippedSentence);
     router.post('/skipped_clips/:id', this.createSkippedClip);
 
