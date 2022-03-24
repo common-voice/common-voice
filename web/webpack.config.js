@@ -17,9 +17,17 @@ const babelLoader = {
     presets: ['@babel/preset-env'],
   },
 };
+
 module.exports = () => {
   const plugins = [
-    new webpack.ProgressPlugin(),
+    function () {
+      this.hooks.watchRun.tap('Building', () => {
+        console.log(chalk.yellow('Webpack: Rebuilding…'));
+      });
+      this.hooks.done.tap('Built', () => {
+        console.log(chalk.green('Webpack: Built!'));
+      });
+    },
 
     new CleanWebpackPlugin(),
 
