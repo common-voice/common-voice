@@ -5,6 +5,7 @@ export const sentenceSchema: AllowedSchema = {
   required: ['count'],
   properties: {
     count: {
+      format: 'positiveIntegerFormat',
       type: 'number',
       minimum: 1,
       maximum: 50,
