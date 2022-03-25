@@ -478,11 +478,14 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kwanini Common Voice?
+how-does-it-work-title-v2 = Common Voice inafanyaje kazi?
 how-does-it-work-text = Tunachangisha chanzo wazi la daftari la sauti. Toa sauti yako, halalisha usahihi wa vipande vya sauti vya watu wengine, fanya daftari liwe bora kwa kila mtu.
 
 ## How does it work section
 
+about-language-req-subtitle = Mtu anaomba lugha iongezwe.
 about-localization-title = Ujanibishaji wa Tovuti
+about-localization-subtitle = Maandishi ya tovuti yanatafsiriwa katika lugha hiyo.
 about-sentence-collection-title = Mkusanyiko wa sentensi
 about-sentence-collection-subtitle = Sentensi hukusanywa ili watu wasome kwa sauti.
 about-new-lang-title = Uzinduzi wa Lugha Mpya
@@ -490,6 +493,7 @@ about-new-lang-subtitle = Tunazindua tovuti ya Common Voice katika lugha hii.
 about-voice-contrib-title = Mchango wa Sauti
 about-voice-contrib-subtitle = Watu wanakuja na kuchangia sauti zao.
 about-voice-validation-title = Uthibitishaji wa Sauti
+about-voice-validation-subtitle = Watu wengine huhalalisha klipu hizo za sauti.
 about-dataset-release-title = Toleo la hifadhi data
 about-speak = Zungumza
 about-speak-text = Wachangiaji hurekodi vipande vya sauti kwa kusoma kutoka kwa benki ya sentensi zilizotolewa.
