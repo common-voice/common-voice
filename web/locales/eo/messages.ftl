@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Ricevi retpoŝtmesaĝojn, kiel ekzemple m
 email-opt-in-privacy-v2 = Se vi abonas dissendoliston, vi konsentas kun la pritrakto de tiu ĉi informo, laŭ la priskribo de la <privacyLink>privateca politiko</privacyLink> de Mozilla.
 indicates-required = * signas devigan kampon
 not-available-abbreviation = Nedisponebla
+banner-error-slow-1 = Bedaŭrinde, Common Voice funkcias malrapide. Dankon pro via intereso.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,9 +37,9 @@ ba = Baŝkira
 bas = Basaa
 be = Bjelorusa
 bg = Bulgara
-bm = Bambara
 bn = Bengala
 br = Bretona
+bs = Bosna
 bxr = Burjata
 ca = Kataluna
 cak = Kakĉikela
@@ -67,6 +68,7 @@ fy-NL = Frisa
 ga-IE = Irlanda
 gl = Galega
 gn = Gvarania
+gom = Goaa Konkana
 ha = Haŭsa
 he = Hebrea
 hi = Hinda
@@ -90,11 +92,13 @@ kab = Kabila
 kbd = Kabarda
 ki = Kikuja
 kk = Kazaĥa
+km = Kmera
 kmr = Kurmanĉa kurda
 ko = Korea
 kpv = Komiziriana
 kw = Korniŝa
 ky = Kirgiza
+lb = Luksemburga
 lg = Ganda
 lij = Ligura
 lt = Litova
@@ -119,6 +123,7 @@ ne-NP = Nepala
 nia = Niasa
 nl = Nederlanda
 nn-NO = Norvega ninorsk
+nyn = Runjankola
 oc = Okcitana
 or = Odia
 pa-IN = Panĝaba
@@ -126,6 +131,7 @@ pap-AW = Papiamento (Arubo)
 pl = Pola
 ps = Paŝtuna
 pt = Portugala
+quc = Kiĉea
 rm-sursilv = Romanĉa surselva
 rm-vallader = Valadera romanĉa
 ro = Rumana
@@ -138,6 +144,7 @@ scn = Sicilia
 shi = Ŝelha
 si = Sinhala
 sk = Slovaka
+skr = Sarajkia
 sl = Slovena
 so = Somala
 sq = Albana
@@ -149,6 +156,9 @@ ta = Tamila
 te = Telugua
 tg = Taĝika
 th = Taja
+ti = Tigraja
+tig = Tigra
+tk = Turkmena
 tl = Tagaloga
 tr = Turka
 tt = Tatara
@@ -442,12 +452,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kial Common Voice?
-about-subtitle = Common Voice estas parto de iniciato de Mozilla por helpi instrui al maŝinoj, kiel homoj fakte parolas. Kune kun la datumaro de Common Voice ni ankaŭ konstruas malfermitkodan parolrekonilon nomita Deep Speech.
-about-header-description =
-    Ambaŭ projektoj estas parto de nia strebo fermi la ciferecan breĉon inter lingvoj . Parolrekonaj teknologioj alportas homan dimension al niaj aparatoj, sed programistoj bezonas grandengan kvanto da voĉaj datumoj por konstrui iln. Nuntempe, la plejmulto de tiuj datumoj estas multekosta kaj privataj.
-    Ni volas igi voĉajn datumojn liberaj kaj publike haveblaj kaj certi ke tiuj datumoj reprezentas la diversecon de realaj personoj. Kune ni povas plibonigi parolrekonon por ĉiuj.
-how-does-it-work-title = Kiel ĝi funkcias?
 how-does-it-work-text = Ni kalkulas je kolektiva patropreno por konstrui malfermitkodan voĉan datumaron. Donacu vian voĉon, validigu la precizecon de la voĉregistroj de aliaj personoj, plibonigu la datumaron por ĉiuj.
+
+## How does it work section
+
 about-speak = Paroli
 about-speak-text = Kontribuantoj laŭtlegas el kolekto de donacitaj frazoj kaj registras siajn voĉojn.
 about-listen-queue = Vico de aŭskulto
@@ -481,6 +489,34 @@ about-nav-why-common-voice = Kial?
 about-nav-how-it-works = Kiel?
 about-nav-partners = Asociitoj
 about-nav-get-involved = Partopreni
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artefarita intelekto
 mycroft-description = Mycroft estas la unua malfermitkoda asistanto en la mondo. Mycroft funkcias ĉie: en komputilo, en aŭto aŭ en Raspberry Pi.
@@ -928,6 +964,9 @@ contribution-volume-title = Laŭteco
 
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO
