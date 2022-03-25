@@ -7,6 +7,7 @@ import { isContributable, useLocale } from '../locale-helpers';
 import DocumentPage from '../pages/document-page';
 import { Spinner } from '../ui/ui';
 import { LoginFailure, LoginSuccess } from '../pages/login';
+import ContributionsPage from '../pages/dashboard/contributions/contributions';
 const HomePage = React.lazy(() => import('../pages/home/home'));
 const DatasetsPage = React.lazy(() => import('../pages/datasets/datasets'));
 const LanguagesPages = React.lazy(() => import('../pages/languages/languages'));
@@ -99,6 +100,10 @@ export default function Content({ location }: { location: any }) {
               )}
             />
           ))}
+          <SentryRoute
+            path={toLocaleRoute(URLS.CONTRIBUTIONS)}
+            component={ContributionsPage}
+          />
           <SentryRoute
             exact
             path={toLocaleRoute(URLS.PROFILE_GOALS)}
