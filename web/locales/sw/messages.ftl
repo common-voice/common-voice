@@ -495,6 +495,8 @@ about-voice-contrib-subtitle = Watu wanakuja na kuchangia sauti zao.
 about-voice-validation-title = Uthibitishaji wa Sauti
 about-voice-validation-subtitle = Watu wengine huhalalisha klipu hizo za sauti.
 about-dataset-release-title = Toleo la hifadhi data
+about-dataset-release-subtitle = Tunatoa hifadhidata kila baada ya miezi 3.
+about-subscribe-text = Je, ungependa kuendelea kuwasiliana na Common Voice?
 about-speak = Zungumza
 about-speak-text = Wachangiaji hurekodi vipande vya sauti kwa kusoma kutoka kwa benki ya sentensi zilizotolewa.
 about-listen-queue = Foleni ya kusikiliza
@@ -522,23 +524,38 @@ about-get-involved-text-2 =
     Je! Unataka kusaidia kufanya Common Voice kuwa bora zaidi?
     Vizuri! Wasiliana kupitia barua pepe au idhaa ya <discourseLink> Discourse </discourseLink>
     ,wasilisha maswala ya tovuti kupitia <githubLink> GitHub </githubLink>, au ujiunge na mazungumzo ya jamii ya <matrixLink> Matrix </matrixLink>.
+about-stay-in-touch = Je, ninawezaje endelea kuwasiliana?
+about-stay-in-touch-button = Jisajili
+about-stay-in-touch-text-1 = <emailFragment>Jisajili</emailFragment> kwa orodha yetu ya wanaopokea barua pepe ili kujifunza jinsi unavyoweza kushiriki katika kampeni, matukio na vipengele vya kubuni pamoja kwenye Common Voice.
+about-stay-in-touch-text-2 = Unaweza kukutana na watu wengine katika jumuiya za lugha za Mozilla kwa kujiunga na <discourseLink>DiscourseLink</discourseLink> kwa mazungumzo ya mada, au <matrixLink>Matrix</matrixLink> kwa ushauri wa haraka.
 about-nav-why-common-voice = Kwanini?
 about-nav-how-it-works = kivipi?
 about-nav-partners = Washiriki
 about-nav-get-involved = Jihusishe
+about-nav-how-it-works-2 = Common Voice inafanyaje kazi?
+about-nav-playbook = Jifunze jinsi ya kushiriki
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Lugha kwenye Common Voice ni nini?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Je, ninawezaje kuongeza lugha?
+about-playbook-how-add-language-content-1 = Kwanza, angalia kama lugha yako <languageLink>tayari ipo</languageLink>. Ikiwa halipo, unahitaji <strong>kutafsiri tovuti na kukusanya sentensi</strong>.
+about-playbook-how-add-language-content-3 = <strong>Ili kukusanya sentensi</strong> - <scVideo>sanidi</scVideo> kwenye <scLink>Kikusanya Sentensi</scLink>.
 
 ## How does localization work
 
+about-playbook-how-localize = Je, ujanibishaji wa tovuti hufanya kazi vipi?
+about-playbook-how-localize-content-1 = Tafsiri ya tovuti ya Common Voice hufanyika kwenye <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Tovuti iko tayari kuzinduliwa inapofikia kukamilika kwa 75%.
+about-playbook-how-localize-content-5 = Tazama kielezi chetu cha video kukusaidia
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Je, ninaongezaje sentensi?
 
 ## How to record quality
 
