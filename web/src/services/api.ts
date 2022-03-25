@@ -243,7 +243,7 @@ export default class API {
     sort = 'created_date'
   ): Promise<UserClient[]> {
     return this.fetch(
-      `${API_PATH}/user_client/clips1?page=${page}&count=${count}&direction=${direction}&sort=${sort}`
+      `${API_PATH}/user_client/clips?page=${page}&count=${count}&direction=${direction}&sort=${sort}`
     );
   }
 
