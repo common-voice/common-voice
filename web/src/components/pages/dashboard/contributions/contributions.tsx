@@ -1,3 +1,4 @@
+import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
@@ -16,13 +17,19 @@ const NoContributionsPage = ({
   dashboardLocale: string;
 }) => (
   <div className="no-contributions-page">
-    <h1>Make a contribution</h1>
+    <Localized id="no-contributions">
+      <h1></h1>
+    </Localized>{' '}
     <LinkButton
       rounded
       to={(dashboardLocale ? '/' + dashboardLocale : '') + URLS.SPEAK}>
-      Donate your voice
+      <Localized id="speak-subtitle">
+        <span />
+      </Localized>{' '}
     </LinkButton>
-    <p>When you submit a clip, it will show up here.</p>
+    <Localized id="submit-clip">
+      <p></p>
+    </Localized>
   </div>
 );
 
@@ -53,28 +60,9 @@ const Wave = () => (
   </svg>
 );
 
-const AwardBox = ({ award }: any) => (
-  <li className={'award-box ' + award.type}>
-    <Wave />
-    <img className="star" src={require('./star.svg')} alt="Star" />
-    <div className="interval">
-      {INTERVAL_LABELS[award.days_interval] || award.days_interval}
-    </div>
-    <div className="line" />
-    <div className="amount">{award.amount} Clips</div>
-    <div className="type">
-      {award.type[0].toUpperCase() + award.type.slice(1)}
-    </div>
-    <div className="icon">
-      {({ speak: <MicIcon />, listen: <PlayOutlineIcon /> } as any)[award.type]}
-    </div>
-  </li>
-);
-
 export default function ContributionsPage({ dashboardLocale }: Props) {
   const account = useAccount();
   const api = useAPI();
-  const refreshUser = useAction(User.actions.refresh);
   const [clips, setClips] = useState(null);
   const [metadata, setMetadata] = useState(null);
   const [query, setQuery] = useState({
@@ -93,7 +81,7 @@ export default function ContributionsPage({ dashboardLocale }: Props) {
     return null;
   }
 
-  if (clips && clips.length == 0) {
+  if (!clips || clips.length == 0) {
     return <NoContributionsPage {...{ dashboardLocale }} />;
   }
 

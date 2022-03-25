@@ -380,6 +380,7 @@ dashboard = Dashboard
 build-profile = Build Profile
 avatar = Avatar
 goals = Goals
+contributions = Contributions
 settings = Settings
 edit-profile = Edit Profile
 profile-create-success = Success, profile created!
@@ -925,6 +926,8 @@ set-visibility = Set my visibility
 visibility-explainer = This setting controls your leaderboard visibility. When hidden, your progress will be private. This means your image, user name and progress will not appear on the leaderboard. Note that leaderboard refresh takes ~{ $minutes }min to populate changes.
 visibility-overlay-note = Note: When set to 'Visible', this setting can be changed from the <profileLink>Profile page</profileLink>
 show-ranking = Show my ranking
+no-contributions= Make your first contribution
+submit-clip= When you submit a clip, it will show up here
 
 ## Custom Goals
 get-started-goals = Get started with goals

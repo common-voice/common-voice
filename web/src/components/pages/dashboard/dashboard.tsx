@@ -17,6 +17,7 @@ import { Notifications } from '../../../stores/notifications';
 import StatsPage from './stats/stats';
 import GoalsPage from './goals/goals';
 import AwardsPage from './awards/awards';
+import ContributionsPage from './contributions/contributions';
 import ChallengePage from './challenge/challenge';
 import { Button } from '../../ui/ui';
 import InviteModal from '../../invite-modal/invite-modal';
@@ -99,6 +100,7 @@ const TopBar = ({
           {[
             ['stats', URLS.STATS],
             ['goals', URLS.GOALS],
+            ['contributions', URLS.CONTRIBUTIONS],
           ].map(([label, path]) => (
             <LocaleNavLink
               key={path}
@@ -206,7 +208,8 @@ function DashboardContent({
     | typeof ChallengePage
     | typeof StatsPage
     | typeof GoalsPage
-    | typeof AwardsPage;
+    | typeof AwardsPage
+    | typeof ContributionsPage;
   dashboardLocale: string;
 }) {
   const api = useAPI();
@@ -263,6 +266,7 @@ export default function Dashboard() {
     { subPath: URLS.STATS, Page: StatsPage },
     { subPath: URLS.GOALS, Page: GoalsPage },
     { subPath: URLS.AWARDS, Page: AwardsPage },
+    { subPath: URLS.CONTRIBUTIONS, Page: ContributionsPage },
   ];
   let defaultPage = URLS.STATS;
   if (isChallengeEnrolled) {

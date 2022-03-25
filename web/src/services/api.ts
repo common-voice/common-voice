@@ -236,6 +236,17 @@ export default class API {
     return this.fetch(API_PATH + '/user_clients');
   }
 
+  fetchUserClips(
+    page = 1,
+    count = 5,
+    direction = 'ASC',
+    sort = 'created_date'
+  ): Promise<UserClient[]> {
+    return this.fetch(
+      `${API_PATH}/user_client/clips1?page=${page}&count=${count}&direction=${direction}&sort=${sort}`
+    );
+  }
+
   fetchAccount(): Promise<UserClient> {
     return this.fetch(API_PATH + '/user_client');
   }
