@@ -16,6 +16,9 @@ email-opt-in-info-sub-with-challenge = Pokea barua pepe kama vile ukumbusho wa c
 email-opt-in-privacy-v2 = Kwa kuchagua kupokea ujumbe kwa njia ya barua pepe unakubaliana na  Mozilla kutunza ujumbe huu kama ilivyoelekezwa katika <privacyLink>Sera ya faragha ya Mozilla</privacyLink>
 indicates-required = * Inaashiria sehemu inayohitajika
 not-available-abbreviation = haihitajiki
+banner-error-slow-1 = Samahani, Common Voice inafanya kazi polepole. Asante kwa hamu yako.
+banner-error-slow-link = Ukurasa wa Hali
+error-something-went-wrong = Samahani, kuna jambo lililokwenda mrama
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -91,6 +94,7 @@ kab = Kikabylia
 kbd = Kikabardia
 ki = Kikuyu
 kk = Kikazaki
+km = Kikhmer
 kmr = Kurmanji Kikurdi
 ko = Kikorea
 kpv = Kikomi
@@ -987,6 +991,9 @@ see-more = <chevron></chevron>Angalia zaidi
 
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO
