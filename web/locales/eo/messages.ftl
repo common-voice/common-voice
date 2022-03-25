@@ -15,6 +15,7 @@ email-opt-in-privacy-v2 = Se vi abonas dissendoliston, vi konsentas kun la pritr
 indicates-required = * signas devigan kampon
 not-available-abbreviation = Nedisponebla
 banner-error-slow-1 = Bedaŭrinde, Common Voice funkcias malrapide. Dankon pro via intereso.
+error-something-went-wrong = Bedaŭrinde io ne bone funkciis
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -1054,24 +1055,56 @@ sc-confirm-sentences-found =
         [one] 1 frazo trovita.
        *[other] { $countOfSentences } frazoj trovitaj.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } rifuzita(j) de vi
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Neniu frazo preta por sendo!
+        [one] 1 frazo preta por sendo!
+       *[other] { $readyCount } frazoj pretaj por sendo!
+    }
+sc-confirm-button-text = Konfirmi
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Neniu rifuzita frazo.
+        [one] 1 rifuzita frazo.
+       *[other] { $rejectedSentences } rifuzitaj frazoj.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Malsukcesa komenco de seanco
+sc-login-err-try-again = Bonvolu klopodi denove.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profilo: { $username }
+sc-personal-your-languages = Viaj lingvoj:
+sc-personal-remove-button = forigi
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-link = Revizii
 
 ## SETTINGS
 
+sc-settings-title = Agordoj
+sc-settings-ui-language = Lingvo de la fasado
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Elekti lingvon/tradukon
