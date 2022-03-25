@@ -708,6 +708,36 @@ const UserClient = {
     );
   },
 
+  async getUserClips(
+    id: string,
+    page = 1,
+    count = 5,
+    sort = 'created_at',
+    direction = 'ASC'
+  ) {
+    const offset = page * count;
+    console.log('offset', offset);
+
+    const [[clipCount]] = await db.query(
+      'SELECT count(*) as totalCount FROM clips WHERE client_id = ?',
+      [id]
+    );
+    const [clips] = await db.query(
+      `
+    SELECT * FROM clips WHERE client_id = ?
+    ORDER BY ? ?
+    LIMIT ?, ?`,
+      [id, sort, direction, offset, count]
+    );
+    return {
+      metadata: {
+        ...clipCount,
+        offset: offset,
+      },
+      clips,
+    };
+  },
+
   async deleteAvatarClipURL(email: string) {
     await db.query(
       'UPDATE user_clients SET avatar_clip_url = NULL WHERE email = ?',

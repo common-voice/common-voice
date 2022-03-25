@@ -76,6 +76,7 @@ export default class API {
       bodyParser.raw({ type: 'image/*', limit: '300kb' }),
       this.saveAvatar
     );
+    router.get('/user_client/clips', this.getUserClips);
     router.post('/user_client/avatar_clip', this.saveAvatarClip);
     router.get('/user_client/avatar_clip', this.getAvatarClip);
     router.get('/user_client/delete_avatar_clip', this.deleteAvatarClip);
@@ -359,8 +360,33 @@ export default class API {
       let path = await UserClient.getAvatarClipURL(user.emails[0].value);
       path = path[0][0].avatar_clip_url;
 
-      let avatarclip = await this.bucket.getAvatarClipsUrl(path);
+      const avatarclip = await this.bucket.getAvatarClipsUrl(path);
       response.json(avatarclip);
+    } catch (err) {
+      response.json(null);
+    }
+  };
+
+  getUserClips = async (request: Request, response: Response) => {
+    try {
+      // const {
+      //   params: { client_id },
+      // } = request;
+      const { client_id } = request;
+      const { page, count, direction, sort } = request.query;
+      console.log('client', page, count, direction, sort);
+
+      // if (auth_client_id !== client_id) return response.status(401);
+
+      const clips = await UserClient.getUserClips(
+        client_id,
+        +page,
+        +count,
+        sort as string,
+        direction as string
+      );
+
+      response.json(clips);
     } catch (err) {
       response.json(null);
     }
