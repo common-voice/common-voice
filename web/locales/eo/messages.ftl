@@ -160,9 +160,11 @@ ti = Tigraja
 tig = Tigra
 tk = Turkmena
 tl = Tagaloga
+tok = Tokipono
 tr = Turka
 tt = Tatara
 tw = Tivia
+ty = Tahitia
 uby = Ubiĥa
 udm = Udmurta
 ug = Ujgura
@@ -172,6 +174,7 @@ uz = Uzbeka
 vec = Venecia
 vi = Vjetnama
 vot = Vota
+yi = Jida
 yo = Joruba
 yue = Kantona
 zh-CN = Ĉina (Ĉinio)
@@ -205,6 +208,7 @@ logout = Fini seancon
 ## Home Page
 
 home-title = La projekto Common Voice estas iniciato de Mozilla por helpi instrui al maŝinoj kiel veraj homoj parolas.
+default-tagline = Mozilla Common Voice estas iniciato por helpi instrui al maŝinoj, kiel veraj homoj parolas.
 home-cta = Donacu vian voĉon, kontribuu ĉi tie!
 wall-of-text-start = Voĉo estas natura, voĉo estas homa. Tial ni volegas krei uzeblajn voĉajn teknikologiojn por niaj maŝinoj. Sed por krei voĉajn sistemojn, tre granda kvanto da voĉaj registroj estas postulata.
 wall-of-text-more-mobile = La plimulto de la datumoj uzataj de grandaj kompanioj ne estas uzeblaj de iu ajn. Ni pensas ke tio sufokas novaĵkreemon. Tial ni lanĉis la projekton Common Voice, kiu helpas malfermi la pordojn de parolrekono al ĉiuj.
@@ -298,6 +302,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Registri / Haltigi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Refari voĉregistron
+shortcut-discard-ongoing-recording = ESK
+shortcut-discard-ongoing-recording-label = Forigi okazantan registradon
 shortcut-submit = Enigi
 shortcut-submit-label = Sendi registraĵojn
 request-language-text = Ĉu vi ne vidas vian lingvon en Common Voice?
@@ -326,8 +332,13 @@ profile-form-native-language =
     .label = Denaska lingvo
 profile-form-additional-language =
     .label = Aldona lingvo
+profile-form-language =
+    .label = Lingvo
 profile-form-accent =
     .label = Akĉento
+profile-form-custom-accent-help-text =
+    .label = Kiel vi priskribus vian akĉenton?
+profile-form-custom-accent-placeholder-2 = Komencu tajpi por priskribi vian akĉenton
 profile-form-age =
     .label = Aĝo
 profile-form-gender-2 =
@@ -338,6 +349,7 @@ hidden = Kaŝita
 visible = Videbla
 native-language =
     .label = Denaska lingvo
+profile-form-add-accent = Aldoni novan personecigitan akĉenton "{ $inputValue }"
 profile-form-submit-save = Konservi
 profile-form-submit-saved = Konservita
 male = Vira
@@ -371,6 +383,8 @@ skip-submission-description = Dum la sendo de kontribuoj, komentoj estos malakti
 skip-submission-note = Notu: vi ankoraŭ devos elekti inter Paroli aŭ Aŭskulti por ŝanĝi la tipon de kontribuo.
 off = Malŝaltita
 on = Ŝaltita
+help-accent = Ĉu vi bezonas helpon pri akĉento?
+help-accent-explanation = Via akĉento estas la maniero kiel vi prononcas vortojn. Ĝin influas la lokoj kie vi iam loĝis, viaj aliaj parolataj lingvoj kaj pluraj diversaj faktoroj. Vi povas dividi ĉi tie iun ajn informon, kiun vi opinias grava.
 
 ## Profile - Email
 
@@ -579,6 +593,7 @@ review-delete-recordings = Forigi miajn registrojn
 
 ## Datasets Page
 
+datasets-heading = Datumaroj
 datasets-headline = Ni konstruas malfermitkodan, plurlingvan datumaron de voĉoj, kiun iu ajn povas uzi por trejni parolkapablajn programojn.
 datasets-positioning =
     Ni pensas ke grandaj kaj publike haveblaj datumaroj de voĉoj favoros novaĵkreemon kaj sanan komercan konkurecon en la parolaj teknologioj bazitaj sur automata lernado.
@@ -615,6 +630,7 @@ get-started-speech = Unua paŝoj en parolrekono
 other-datasets = Aliaj voĉaj datumaroj
 feedback-q = Ĉu vi ŝatus komenti?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ estas <docsLink>malfermitkoda ilaro</docsLink> por esploristoj kiuj disvolvas avangardajn konversacian AI-ajn modelojn.
+community-playbook = Komunuma manlibro
 data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
 data-other-ted-name = Kolekto TED-LIUM
 data-other-ted-description = La kolekto TED-LIUM estis farita el prelegoj kaj ĝiaj transskriboj, disponeblaj en la retejo de TED.
@@ -895,6 +911,8 @@ profile-form-delete = Forigi profilon
 
 ## Profile Download
 
+download-profile-title = Profilo
+download-profile-size = Kelkaj oktetoj
 download-size = Grando
 
 ## Landing
