@@ -914,6 +914,11 @@ profile-form-delete = Forigi profilon
 download-profile-title = Profilo
 download-profile-size = Kelkaj oktetoj
 download-size = Grando
+download-request-button = Elŝuti
+download-request-title = { $created }
+download-request-modal-title = Elŝutaj ligiloj
+download-request-link-text = Zip #{ $offset } de { $total }
+download-request-metadata-link = Teksto de frazo
 
 ## Landing
 
@@ -980,33 +985,75 @@ contribution-volume-title = Laŭteco
 
 ## HEADER/FOOTER
 
+sc-header-home = Eka paĝo
+sc-header-add = Aldoni
+sc-header-review = Revizii
+sc-header-rejected = Rifuzitaj frazoj
+sc-header-my = Miaj frazoj
+sc-header-statistics = Statistikoj
+sc-header-profile = Profilo
+sc-footer-report-bugs = Raporti problemojn
+sc-footer-translate = Traduki tiun ĉi paĝon
+sc-footer-privacy = Privateco
+sc-footer-terms = Kondiĉoj
+sc-footer-cookies = Kuketoj
+sc-login-signup-button = Komenci seancon / Krei konton
+sc-logout-button = Fini seancon
 
 ## HOME
 
+sc-home-collect-title = Kolekti frazojn
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-addsen-title = Aldoni novajn frazojn
+sc-howto-cite-title = Kiel citi
 
 ## MY SENTENCES
 
+sc-my-title = Miaj frazoj
+sc-my-no-sentences = Neniu frazo trovita!
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = Statistikoj
+sc-stats-updating = Ĝisdatigo…
 
 ## ADD
 
+sc-submit-err-select-lang = Bonvolu elekti lingvon.
+sc-submit-err-add-sentences = Bonvolu aldoni frazojn.
+sc-submit-err-add-source = Bonvolu aldoni fonton.
+sc-submit-err-confirm-pd = Bonvolu konfirmi ke tiuj ĉi frazoj estas en la publika havaĵo.
+sc-submit-title = Aldoni frazojn
+sc-submit-select-language =
+    .labelText = Elekti lingvon
+sc-submit-ph-one-per-line =
+    .placeholder = Po unu frazo en ĉiu linio
+sc-submit-button =
+    .submitText = Sendi
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-label = Aldoni lingvon al kiu vi volas kontribui
+sc-add-lang-sec-button = Aldoni lingvon
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Neniu frazo trovita.
+        [one] 1 frazo trovita.
+       *[other] { $countOfSentences } frazoj trovitaj.
+    }
 
 ## LANGUAGE INFO
 
