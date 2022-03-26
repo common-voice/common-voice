@@ -496,10 +496,12 @@ about-playbook-how-localize-content-5 = مدد کیتے ساݙے وڈیو تشر
 ## How to add sentences
 
 about-playbook-how-add-sentences = میں فقرے کین٘ویں شامل کر سڳداں؟
+about-playbook-how-add-sentences-content-4 = جہڑے جملے تصدیق تھی ویندن او ٻُدھ کوں ایکسپورٹ تھیندن تے اڳلی ریلیز وچ دستیاب ہوندن۔
 
 ## How to record quality
 
 about-playbook-how-record-quality = میں اعلیٰ معیار دا آواز کلپ کین٘ویں رکاڈ کراں؟
+about-playbook-how-record-content-2 = بیک گراؤنڈ شور کنوں پرہیز کروــ ایہ تہاݙے سݨݨ کیتے سوکھ ہووݨی چاہیدی ہے۔
 about-playbook-how-record-content-3 = جملے احتیاط نال پڑھو ــ لفظ ودھاوݨ یا وٹاوݨ نہ بھُلو۔
 about-playbook-how-record-content-4 = یقینی بݨاؤ جو تساں ٻولݨ شروع کرݨ کنوں پہلے پلیٹ فارم ریکاڈنگ کریندا پیا ہے، تے ایہ جو  ایہ صرف تہاݙے ختم کرݨ دے بعد رک ویندا ہے۔
 about-playbook-how-record-content-5 = <accuracyLink>درستی معیار بارے ٻیا ݙیکھو،</accuracyLink>
