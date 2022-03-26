@@ -513,6 +513,7 @@ about-get-involved = Принять участие
 about-get-involved-text-2 =
     Хотите помочь сделать Common Voice ещё лучше?
     Отлично! Свяжитесь с нами по электронной почте или через <discourseLink>Discourse</discourseLink>, сообщайте о проблемах с сайтом через <githubLink>GitHub</githubLink> или присоединяйтесь к чату сообщества на <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch-button = Зарегистрироваться
 about-nav-why-common-voice = Почему?
 about-nav-how-it-works = Как?
 about-nav-partners = Партнёры
