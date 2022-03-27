@@ -588,6 +588,7 @@ review-delete-recordings = میݙی رکارڈنگ مٹاؤ
 ## Datasets Page
 
 datasets-heading = ڈیٹا سیٹس
+datasets-headline = اساں آوازاں دا کھلا ماخذ، کثیر لسانی ڈیٹاسیٹ بݨیندے پئے ہیں جیکوں ہر کوئی تقریر فعال تھئی ایپاں دے ذریعے ورت سڳدے۔
 language = زبان
 # File size in gigabytes
 size = سائز
