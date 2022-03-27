@@ -546,6 +546,7 @@ sentence-collection = فقریاں دا مجموعہ
 sentence-collection-explanation = عوامی ڈومیناں کنوں جملے کٹھے کرݨ، یا عوامی ڈومین کیتے نویں لکھݨ۔
 hours-recorded-explanation = وائس رکاڈنگ گھنٹیاں دی ڳنتری جیڑے اساں ہُݨ تائیں کٹھے کیتن۔
 sst = (Speech-to-text (STT
+sst-explanation = (Speech-to-text (STT  ٹیکنالوجی وائس ڈیٹا کوں عبارت وچ تبدیل کریندیاں ہن۔
 de-identified = سُن٘ڄاݨ پھیرݨ
 
 ## Error pages
@@ -561,6 +562,7 @@ data-download-yes = جیا
 data-download-deny = کو
 data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
 data-download-modal = تساں <size>{ $size }GB</size> دا ڈاؤن لوڈ شروع کرݨ آلے ہی ہو، اڳوں تے ودھوں؟
+data-subtitle = اساں آوازاں دا آزاد تے عوامی طور تے دستیاب ڈیٹاسیٹ بݨیندے پئے ہیں جیکوں ہر کوئی تقریر فعال تھئی ایپاں دے ذریعے ورت سڳدے۔
 data-get-started = <speechBlogLink>کلام شناسی نال شروع کرو</speechBlogLink>
 data-other-title = ٻئے اواز ڈیٹاسیٹس۔۔۔
 data-other-goto = { $name } تے ون٘ڄو
@@ -585,6 +587,7 @@ review-delete-recordings = میݙی رکارڈنگ مٹاؤ
 
 ## Datasets Page
 
+datasets-heading = ڈیٹا سیٹس
 language = زبان
 # File size in gigabytes
 size = سائز
