@@ -224,16 +224,16 @@ wall-of-text-more-mobile =
     mi la ni li awen e sin. tan ni la mi open e ilo Common Voice. ni la ilo li ken kute e kalama jan.
     jan ale li ken kepeken ona.
 wall-of-text-more-desktop =
-    sina ken pana e kalama toki sina. ni la mi ken pali e kulupu sona open li ken open e ona tawa jan ale.
-    ni la jan li ken pali e ilo. o toki e linja nimi la ilo ken sona e toki pi jan lon. o lukin e toki pi jan ante la
-    o pona e ona. ni li pona a!
+    sina ken pana e kalama toki sina. mi kulupu e kalama mute ni li pana e ni tawa jan ale.
+    ni la jan li ken pali e ilo. sina kalama e toki la ilo li kama ken sona e kalama toki sina.
+    sina kute e toki pi jan ante la ilo li sona e ni tan sina: toki li pona ala pona. nasin li pona a!
 wall-of-text-first =
     kalama toki uta li suli a tawa jan. ilo li ken kute e kalama toki la ni li pona mute.
     taso mi wile pali e ilo kute pona la mi wile e kalama mute mute a.
 wall-of-text-second =
-    kulupu esun suli li kepeken e kulupu kalama suli li pana ala e ona tawa jan ante mute.
-    mi la ni li ken ala e sin. tan ni la mi open e pali Common Voice. ona la ilo li ken kute pona e kalama jan.
-    jan ale li ken kepeken ona.
+    kulupu esun suli li pali len li kulupu e kalama mute li pana ala e kalama ni tawa jan ante.
+    ni li ike li ken ala e ni: jan li lon kulupu esun suli ala li pali e ilo sin pona. tan ni la mi open
+    e pali Common Voice. jan ale o ken pali e ilo kute pona o ken kepeken ilo pona.
 show-wall-of-text = o suli e toki
 help-us-title = o pona e sitelen!
 help-us-explain = o kute e toki, o pana e sona ni: toki kalama li sama ala sama sitelen anpa?
