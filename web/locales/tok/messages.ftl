@@ -788,7 +788,7 @@ action-click = pilin
 action-tap = pilin
 contribute = o pana
 listen = o kute
-skip = mi sona ala, o lukin e toki ante
+skip = mi sona ala, o pana e toki ante
 shortcuts = nena pali
 clips-with-count-pluralized =
     { $count ->
