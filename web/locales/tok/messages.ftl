@@ -217,8 +217,8 @@ home-title = ilo Common Voice la kulupu Mozilla li wile pana e sona pi toki uta 
 default-tagline = ilo Common Voice pi kulupu Mozilla li wile pana e sona pi toki uta jan tawa ilo.
 home-cta = o toki, o pana lon ilo ni!
 wall-of-text-start =
-    kalama toki li suli, li jan. ilo li ken kute e kalama toki jan la ni li pona.
-    sona suli pi kalama toki mute li lon la, mi ken pali e ilo toki kalama.
+    kalama toki uta li suli a tawa jan. ilo li ken kute e kalama toki la ni li pona.
+    taso mi wile pali e ilo kute pona la mi wile e kalama mute mute a.
 wall-of-text-more-mobile =
     kulupu suli li kepeken sona la ona li pana ala e ni tawa jan ante mute.
     mi la ni li awen e sin. tan ni la mi open e ilo Common Voice. ni la ilo li ken kute e kalama jan.
@@ -228,8 +228,8 @@ wall-of-text-more-desktop =
     ni la jan li ken pali e ilo. o toki e linja nimi la ilo ken sona e toki pi jan lon. o lukin e toki pi jan ante la
     o pona e ona. ni li pona a!
 wall-of-text-first =
-    kalama toki li suli li jan. ilo ken kute e kalama toki jan la ni li pona tawa mi.
-    sona pi kalama toki suli mute li lon taso la mi ken pali e ni.
+    kalama toki uta li suli a tawa jan. ilo li ken kute e kalama toki la ni li pona mute.
+    taso mi wile pali e ilo kute pona la mi wile e kalama mute mute a.
 wall-of-text-second =
     kulupu esun suli li kepeken e kulupu kalama suli li pana ala e ona tawa jan ante mute.
     mi la ni li ken ala e sin. tan ni la mi open e pali Common Voice. ona la ilo li ken kute pona e kalama jan.
@@ -242,17 +242,17 @@ vote-yes = pona
 vote-no = ike
 toggle-play-tooltip = o luka e nena { shortcut-play-toggle } la, o kute. luka sin la, o kute ala.
 speak-subtitle = o pana e toki uta sina
-speak-paragraph = awen pi kalama toki li suli mute tawa sona open mi. ni li musi tawa jan.
+speak-paragraph = pali pi kalama uta li suli mute tawa pali ni. ni li musi kin tawa jan mute.
 speak-goal-text = kalama
 listen-subtitle = o pona e toki uta
-listen-paragraph = sina lukin e pona pi kalama toki la ni li suli sama. kute la o pali e kulupu sona open pi kalama toki jan.
+listen-paragraph = sina lukin e pona pi kalama toki la ni li suli sama tawa pali ni. o kute o pona e kulupu pi kalama toki.
 listen-goal-text = kalama pona
 hours-recorded = tenpo suli kalama
 hours-validated = tenpo suli pi kalama pona
 voices-online = jan lon tenpo ni
 todays-progress = sin pi tenpo suno ni
 help-reach-goal = o pali tawa ni: ijo li { $goal }
-read-terms-q = sina lukin ala lukin e lawa kepeken pi ilo ni?
+read-terms-q = sina pali la o lukin e lawa kepeken pi ilo ni
 ready-to-record = sina wile ala wile pana e toki uta sina?
 all-locales = toki ale
 today = tenpo suno ni
@@ -1114,8 +1114,8 @@ contribution-reader-effects-title = nasin toki jan
 contribution-reader-effects-description = kalama mute la jan li kepeken kalama uta pi nasa ala. kalama li nasa lili la ni kin li ike ala. jan li ken kalama pi wawa mute li ken kalama pi wawa lili li ken kepeken kalama uta pi nasa lili. ale ni li pona. taso ni li ike: jan li kalama musi e nimi; kalama li tan uta jan ala li tan ilo. ni li lon la o weka e kalama ni.
 contribution-just-unsure-title = sina sona ala anu seme?
 contribution-just-unsure-description = lipu ni li jo ala e ijo la, o kepeken pilin pona sina. sina sona ala la, o kepeken nena 'mi sona ala'.
-see-more = <chevron></chevron> o lukin mute
-see-less = <chevron></chevron> o lukin lili
+see-more = <chevron></chevron> o pana lukin e toki mute
+see-less = <chevron></chevron> o weka lukin e toki mute
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
