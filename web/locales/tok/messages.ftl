@@ -815,7 +815,7 @@ record-stop-instruction = sina pini la, o { $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = o pini e tu wan taso!
 record-again-instruction = pona a! ilo o <recordIcon></recordIcon> kute e kalama sin sina
 record-again-instruction2 = ni li suli a. ilo o kute <recordIcon></recordIcon> sin
-record-last-instruction = <recordIcon></recordIcon> wan taso li lon!
+record-last-instruction = <recordIcon></recordIcon> pali wan taso li awen lon!
 review-tooltip = sina pali la o pona, o pali e kalama sin
 share-clip = o pana e kalama awen sina
 share-common-voice = o pana e ilo Common Voice
@@ -830,8 +830,8 @@ record-abort-delete = o pini, o weka e pali
 listen-instruction = o { $actionType } e <playIcon></playIcon>. kalama ni li toki pona e toki ni anu seme?
 listen-again-instruction = sina pona! <playIcon></playIcon> sina ken la, o kute sin
 listen-3rd-time-instruction = tu li pini!
-listen-last-time-instruction = wan taso li lon!
-listen-empty-state = kalama awen pi toki ni li lon ala. ni la sina ken ala pona e ona.
+listen-last-time-instruction = <playIcon></playIcon> pali wan taso li awen lon!
+listen-empty-state = kalama ante ala li lon toki ni...
 listen-loading-error =
     mi ken ala pana e kalama awen tawa sina. sina ken ala kute e ona.
     tenpo kama la o sin.
@@ -840,7 +840,7 @@ speak-empty-state-cta = o pana e sitelen
 speak-loading-error =
     mi ken ala pana e sitelen tawa sina. sina ken ala toki e ona.
     tenpo kama la o sin.
-record-button-label = o awen e toki uta sina
+record-button-label = o pali e kalama sin kepeken toki uta sina
 share-title-new = <bold>o pona e ni:</bold> o kama e jan sin
 keep-track-profile = o sona e pana sina e pali sina kepeken lipu jan
 login-to-get-started = o kama la, sina open
