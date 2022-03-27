@@ -234,7 +234,7 @@ wall-of-text-second =
     kulupu esun suli li kepeken e kulupu kalama suli li pana ala e ona tawa jan ante mute.
     mi la ni li ken ala e sin. tan ni la mi open e pali Common Voice. ona la ilo li ken kute pona e kalama jan.
     jan ale li ken kepeken ona.
-show-wall-of-text = o lukin mute
+show-wall-of-text = o suli e toki
 help-us-title = o pona e sitelen!
 help-us-explain = o kute e toki, o pana e sona ni: toki kalama li sama ala sama sitelen anpa?
 no-clips-to-validate = toki ni la kalama ante ala li li wile e kute. sina wile la, o pona e ni o pana e kalama sin sina.
@@ -248,13 +248,13 @@ listen-subtitle = o pona e toki uta
 listen-paragraph = sina lukin e pona pi kalama toki la ni li suli sama. kute la o pali e kulupu sona open pi kalama toki jan.
 listen-goal-text = kalama pona
 hours-recorded = tenpo suli kalama
-hours-validated = suli tenpo pi kalama pona
+hours-validated = tenpo suli pi kalama pona
 voices-online = jan lon tenpo ni
 todays-progress = sin pi tenpo suno ni
 help-reach-goal = o pali tawa ni: ijo li { $goal }
 read-terms-q = sina lukin ala lukin e lawa kepeken pi ilo ni?
 ready-to-record = sina wile ala wile pana e toki uta sina?
-all-locales = ale
+all-locales = toki ale
 today = tenpo suno ni
 x-weeks-short =
     { $count ->
@@ -599,7 +599,7 @@ about-playbook-how-grow-language-content-8 = <strong>o pali pona!</strong> kulup
 about-playbook-how-validate = nasin seme la mi sona e pona pi kalama toki?
 about-playbook-how-validate-content-1 = sina ken <strong>kute</strong> e ona, li ken <strong>sona</strong> e toki ona, <strong>o pona e ona</strong>.
 about-playbook-how-validate-content-2 = <strong>jan toki li kepeken e nasin kalama ante la, o weka ala e ona.</strong> nasin kalama mute la, ilo ken pali pona tawa jan ale.
-about-playbook-how-validate-content-3 = sina <strong>ken ala sona</strong> e toki tan nasin kalama, tan <strong>kalama monsi mute</strong>, tan <strong>toki pi jan ante</strong> la, o weka e kalama. <accuracyLink>o lukin e sona pi kalama pona</accuracyLink>.
+about-playbook-how-validate-content-3 = sina ken ala sona e toki, tan <strong>nasin kalama</strong>, tan <strong>kalama jaki mute</strong>, tan <strong>toki pi jan ante</strong> la, o weka e kalama. <accuracyLink>o lukin e sona pi kalama pona</accuracyLink>.
 about-playbook-how-validate-content-4 = kalama awen li weka tan jan 2 la, ilo li pana e ona tawa kulupu sona ante.
 
 ## How to access dataset
@@ -771,8 +771,8 @@ language-section-in-progress = pali toki li lon
 language-section-in-progress-new-description = kulupu li suli e toki ni. linja ni li pana e sona pi suli toki lon <localizationGlossaryLink>lipu toki</localizationGlossaryLink>, lon <sentenceCollectionGlossaryLink>kulupu pi linja toki</sentenceCollectionGlossaryLink>.
 language-section-launched = open!
 language-section-launched-description = toki ni la, lipu ni li <localizationGlossaryLink>ante toki ale</localizationGlossaryLink>, li jo e <sentenceCollectionGlossaryLink>sitelen mute</sentenceCollectionGlossaryLink>. ni la, jan li ken <speakLink>toki</speakLink> li ken <listenLink>kute</listenLink>.
-languages-show-more = o lukin mute
-languages-show-less = o lukin lili
+languages-show-more = o pana e toki mute
+languages-show-less = o lili e toki
 language-meter-in-progress = pali suli
 language-total-progress = sitelen pi jan ale
 language-search-input =
