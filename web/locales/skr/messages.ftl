@@ -575,6 +575,7 @@ dataset-date = تریخ
 license = لائسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = مکس تھئے
 data-download-singleword-title = ہک لفظی ہدف حصہ ڈاؤن لوڈ کرو
+review-terms = کامن وائس ورتݨ نال تساں ساݙیاں <termsLink>شرطاں</termsLink> تے <privacyLink> رازداری نوٹس</privacyLink> نال متفق ہوسو
 terms-agree = میں متفق ہاں
 terms-disagree = میں راضی کائنی
 review-aborted = اپ لوڈ منسوخ تھی ڳئی۔ بھلا تساں آپݨی رکاڈنگ مٹاوݨ چاہندے ہو؟
