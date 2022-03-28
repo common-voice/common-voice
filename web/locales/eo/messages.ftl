@@ -1079,6 +1079,7 @@ sc-confirm-button-text = Konfirmi
 ## LANGUAGE INFO
 
 sc-lang-info-review-now = <reviewLink>Reviziu nun!</reviewLink>
+sc-lang-info-add-more = <addLink>Aldonu pli da frazoj nun!</addLink>
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
@@ -1100,12 +1101,27 @@ sc-login-err-try-again = Bonvolu klopodi denove.
 sc-profile-title = Profilo: { $username }
 sc-personal-your-languages = Viaj lingvoj:
 sc-personal-remove-button = forigi
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you =
+    { $sentences ->
+        [one] aldonita de vi
+       *[other] { $sentences } aldonitaj de vi
+    }
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Neniu frazo reviziita.
+        [one] 1 frazo reviziita. Dankon!
+       *[other] { $sentences } frazoj reviziitaj. Dankon!
+    }
 sc-review-link = Revizii
 
 ## SETTINGS
