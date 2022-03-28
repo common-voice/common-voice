@@ -65,7 +65,9 @@
     font-size: 0.85em;
 }
 
-.languages-request-page__content__form__text-area {
+.languages-request-page__content__form__text-area textarea {
+    min-width: 100%;
+    max-width: 100%;
     min-height: 150px;
 }
 

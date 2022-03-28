@@ -208,7 +208,7 @@ const LanguagesRequestFormPage = () => {
               required
             />
 
-            <div className="languages-request-page__content__form_google-recaptcha">
+            <div className="languages-request-page__content__form__google-recaptcha">
               <GoogleReCAPTCHA
                 onChange={handleGoogleReCAPTCHAChange}
                 message={reCAPTCHAMessage}
