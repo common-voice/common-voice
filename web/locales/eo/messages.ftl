@@ -1105,7 +1105,8 @@ sc-personal-remove-button = forigi
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you =
     { $sentences ->
-        [one] aldonita de vi
+        [0] 0 aldonita de vi
+        [one] 1 aldonita de vi
        *[other] { $sentences } aldonitaj de vi
     }
 
