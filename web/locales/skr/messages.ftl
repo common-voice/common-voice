@@ -927,6 +927,7 @@ contribution-misreadings-example-4-title = ٹریاسک دے دیوہیکل ڈا
 contribution-misreadings-example-5-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-6-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-7-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
+contribution-misreadings-example-7-explanation = [اصل عبارت وچ کوئی  ‘a’  کائنی]
 contribution-misreadings-example-8-title = بھون٘را تکھے تکھے اڳوں تے چلا ڳیا۔
 contribution-misreadings-example-8-explanation = [غیر مماثل مواد]
 contribution-varying-pronunciations-title = بدلدا ہویا تلفظ
