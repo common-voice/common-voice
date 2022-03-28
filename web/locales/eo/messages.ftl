@@ -15,6 +15,7 @@ email-opt-in-privacy-v2 = Se vi abonas dissendoliston, vi konsentas kun la pritr
 indicates-required = * signas devigan kampon
 not-available-abbreviation = Nedisponebla
 banner-error-slow-1 = Bedaŭrinde, Common Voice funkcias malrapide. Dankon pro via intereso.
+banner-error-slow-link = Stata paĝo
 error-something-went-wrong = Bedaŭrinde io ne bone funkciis
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -500,6 +501,8 @@ about-get-involved-text-2 =
     <discourseLink>Discourse</discourseLink>, raportu
     retejajn problemojn per <githubLink>GitHub</githubLink>
     aŭ aliĝu al la komunuma retbabilejo en la <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Kiel resti en kontakto?
+about-stay-in-touch-button = Registriĝi
 about-nav-why-common-voice = Kial?
 about-nav-how-it-works = Kiel?
 about-nav-partners = Asociitoj
@@ -915,8 +918,10 @@ profile-form-delete = Forigi profilon
 download-profile-title = Profilo
 download-profile-size = Kelkaj oktetoj
 download-size = Grando
+download-selected = Elektita
 download-request-button = Elŝuti
 download-request-title = { $created }
+download-request-refresh-button = Refreŝigi
 download-request-modal-title = Elŝutaj ligiloj
 download-request-link-text = Zip #{ $offset } de { $total }
 download-request-metadata-link = Teksto de frazo
@@ -1017,9 +1022,12 @@ sc-howto-cite-title = Kiel citi
 
 sc-my-title = Miaj frazoj
 sc-my-no-sentences = Neniu frazo trovita!
+sc-my-delete = Forigi elektitajn frazojn
 
 ## REJECTED
 
+sc-rejected-title = Rifuzitaj frazoj
+sc-rejected-none-found = Neniu rifuzita frazo trovita!
 
 ## STATS
 
@@ -1070,6 +1078,7 @@ sc-confirm-button-text = Konfirmi
 
 ## LANGUAGE INFO
 
+sc-lang-info-review-now = <reviewLink>Reviziu nun!</reviewLink>
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
