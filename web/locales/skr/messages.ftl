@@ -604,6 +604,7 @@ email-to-download = ڈاؤن لوڈ کرݨ کیتے ای میل درج کرو
 confirm-size = تساں <b>{ $size }</b>  کوں ڈاؤن لوڈ شروع کرݨ کیتے  تیار ہو
 size-gigabyte = جی بی
 size-megabyte = ایم بی
+confirm-no-identify = <b>تساں متفق ہو</b> جو تساں کامن وائس ڈیٹا سیٹ وچ مقررین دی سُن٘ڄاݨ دا تعین کرݨ دی کوشش کائناں کریسو
 download-language = { $language } ڈاؤن لوڈ کرو
 validated-hours = کل تصدیق تھئے گھنٹے
 recorded-hours = ریکارڈ تھئے گھنٹے
