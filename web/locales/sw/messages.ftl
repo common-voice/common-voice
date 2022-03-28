@@ -572,6 +572,7 @@ about-playbook-how-validate-content-2 = <strong>Usikatae vipande vya sauti ambav
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Je, ninawezaje kufikia na kutumia mkusanyiko wa data?
 
 ## How are decisions made
 
