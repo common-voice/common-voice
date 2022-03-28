@@ -2,7 +2,6 @@ import * as fs from 'fs';
 import * as path from 'path';
 import * as React from 'react';
 import { LocalizationProvider, ReactLocalization } from '@fluent/react';
-import { render } from '@testing-library/react';
 
 import { asBundleGenerator } from '../src/services/localization';
 
@@ -18,10 +17,12 @@ function createMockLocalization() {
 
 const MOCK_LOCALIZATION = createMockLocalization();
 
-export async function renderWithLocalization(children: React.ReactNode) {
-  return render(
+function MockLocalizationProvider({ children }: { children: React.ReactNode }) {
+  return (
     <LocalizationProvider l10n={MOCK_LOCALIZATION}>
       {children}
     </LocalizationProvider>
   );
 }
+
+export default MockLocalizationProvider;

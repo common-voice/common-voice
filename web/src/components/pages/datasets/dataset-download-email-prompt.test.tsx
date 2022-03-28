@@ -3,7 +3,7 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 import { act, fireEvent, RenderResult } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { renderWithLocalization } from '../../../../test/mock-localization';
+import { renderWithLocalization } from '../../../../test/render-with-localization';
 
 import DatasetDownloadEmailPrompt from './dataset-download-email-prompt';
 
@@ -42,7 +42,7 @@ const bundleState = {
 describe('DatasetDownloadEmailPrompt', () => {
   it('should render with no accessibility violations', async () => {
     await act(async () => {
-      const renderResult: RenderResult = await renderWithLocalization(
+      const renderResult: RenderResult = renderWithLocalization(
         <DatasetDownloadEmailPrompt
           urlPattern={bundleUrlTemplate}
           bundleState={bundleState}
@@ -55,13 +55,12 @@ describe('DatasetDownloadEmailPrompt', () => {
 
   it('should render email form with no accessibility violations', async () => {
     await act(async () => {
-      const { getByRole, container }: RenderResult =
-        await renderWithLocalization(
-          <DatasetDownloadEmailPrompt
-            urlPattern={bundleUrlTemplate}
-            bundleState={bundleState}
-          />
-        );
+      const { getByRole, container }: RenderResult = renderWithLocalization(
+        <DatasetDownloadEmailPrompt
+          urlPattern={bundleUrlTemplate}
+          bundleState={bundleState}
+        />
+      );
 
       fireEvent.click(getByRole('button', { name: 'Enter Email to Download' }));
 
@@ -72,7 +71,7 @@ describe('DatasetDownloadEmailPrompt', () => {
 
   it('should handle bundleURLTemplate strings', async () => {
     await act(async () => {
-      await renderWithLocalization(
+      renderWithLocalization(
         <DatasetDownloadEmailPrompt
           urlPattern={bundleUrlTemplate}
           bundleState={bundleState}
@@ -88,7 +87,7 @@ describe('DatasetDownloadEmailPrompt', () => {
 
   it('should allow download if filled in details', async () => {
     const { getByRole, queryByRole, getByLabelText }: RenderResult =
-      await renderWithLocalization(
+      renderWithLocalization(
         <DatasetDownloadEmailPrompt
           urlPattern={bundleUrlTemplate}
           bundleState={bundleState}
