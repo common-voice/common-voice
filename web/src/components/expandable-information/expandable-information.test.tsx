@@ -3,7 +3,7 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 import { RenderResult } from '@testing-library/react';
 import { Localized } from '@fluent/react';
 
-import { renderWithLocalization } from '../../test/mock-localization';
+import { renderWithLocalization } from '../../../test/mock-localization';
 
 import ExpandableInformation from './expandable-information';
 

@@ -108,30 +108,6 @@ button {
     cursor: pointer;
 }
 
-.staging-banner {
-    position: sticky;
-    top: var(--header-height);
-    padding: 0.5rem;
-    color: var(--white);
-    background: var(--red);
-    text-align: center;
-    z-index: var(--top-z-index);
-
-    @media (--md-up) {
-        top: 0;
-    }
-
-    & a {
-        color: var(--white);
-        text-decoration: underline;
-    }
-
-    & button {
-        border: none;
-        background: var(--grey);
-    }
-}
-
 .js-focus-visible :focus:not(.focus-visible),
 .js-focus-visible :focus-within:not(.focus-visible) {
     outline: none;
@@ -156,20 +132,10 @@ button {
     font-weight: bold;
 }
 
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
 #main {
     position: relative;
     box-sizing: border-box;
     background-color: var(--white);
-    animation: fadein var(--transition-duration-slow) linear;
 }
 
 .profile #content {

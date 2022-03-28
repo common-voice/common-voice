@@ -154,7 +154,7 @@ export default class DB {
   async getSentenceCountByLocale(locales: string[]): Promise<any> {
     const [rows] = await this.mysql.query(
       `
-        SELECT COUNT(*) AS count, locales.name AS locale
+        SELECT COUNT(*) AS count, locales.name AS locale, locales.target_sentence_count as target_sentence_count
         FROM sentences
         LEFT JOIN locales ON sentences.locale_id = locales.id
         WHERE locales.name IN (?) AND sentences.is_used
@@ -1039,39 +1039,62 @@ export default class DB {
   }
 
   async createSkippedSentence(id: string, client_id: string) {
-    await this.mysql.query(
-      `
+    // Sometimes stale sentences are being skipped which is unhandled w/o a trycatch
+    try {
+      await this.mysql.query(
+        `
         INSERT INTO skipped_sentences (sentence_id, client_id) VALUES (?, ?)
       `,
-      [id, client_id]
-    );
+        [id, client_id]
+      );
+    } catch (error) {
+      console.error(
+        `Unable to skip sentence (error message: ${error.message})`
+      );
+    }
   }
 
   async createSkippedClip(id: string, client_id: string) {
-    await this.mysql.query(
-      `
-        INSERT INTO skipped_clips (clip_id, client_id) VALUES (?, ?)
-      `,
-      [id, client_id]
-    );
+    try {
+      await this.mysql.query(
+        `
+          INSERT INTO skipped_clips (clip_id, client_id) VALUES (?, ?)
+        `,
+        [id, client_id]
+      );
+    } catch (error) {
+      console.error(`Unable to skip clip (error message: ${error.message})`);
+    }
   }
 
   async saveActivity(client_id: string, locale: string) {
-    await this.mysql.query(
-      `
+    try {
+      await this.mysql.query(
+        `
         INSERT INTO user_client_activities (client_id, locale_id) VALUES (?, ?)
       `,
-      [client_id, await getLocaleId(locale)]
-    );
+        [client_id, await getLocaleId(locale)]
+      );
+    } catch (error) {
+      console.error(
+        `Unable to save activity (error message: ${error.message})`
+      );
+    }
   }
 
   async insertDownloader(locale: string, email: string, dataset: string) {
-    await this.mysql.query(
-      `
+    try {
+      await this.mysql.query(
+        `
         INSERT INTO downloaders (locale_id, email, dataset_id) VALUES (?, ?, (SELECT id FROM datasets WHERE release_dir = ? LIMIT 1)) ON DUPLICATE KEY UPDATE created_at = NOW()
       `,
-      [await getLocaleId(locale), email, dataset]
-    );
+        [await getLocaleId(locale), email, dataset]
+      );
+    } catch (error) {
+      console.error(
+        `Unable to insert downloader (error message: ${error.message})`
+      );
+    }
   }
 
   async createReport(

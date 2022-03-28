@@ -1,13 +1,14 @@
 {
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
+  "labels": ["Dependencies"],
+  "dependencyDashboardLabels": ["Dependencies"],
   "packageRules": [
     {
-      "schedule": ["after 10pm and before 5am every weekday", "every weekend"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchCurrentVersion": "!/^0/",
       "automerge": true,
-      "reviewersFromCodeOwners": true
+      "automergeType": "branch",
+      "ignoreTests": false
     }
   ]
 }

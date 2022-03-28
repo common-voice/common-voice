@@ -532,6 +532,7 @@ about-get-involved-text-2 =
     forums, meld problemen met de website via <githubLink>GitHub</githubLink>, of doe
     mee met de gemeenschapschat op <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Hoe houd ik contact?
+about-stay-in-touch-button = Registreren
 about-stay-in-touch-text-1 = <emailFragment>Schrijf u in</emailFragment> voor onze e-maillijst om te leren hoe u kunt deelnemen aan campagnes, evenementen en gezamenlijke ontwerpfuncties op Common Voice.
 about-stay-in-touch-text-2 = U kunt anderen in de Mozilla-taalgemeenschappen ontmoeten door lid te worden van <discourseLink>Discourse</discourseLink> voor actuele gesprekken, of <matrixLink>Matrix</matrixLink> voor snel advies.
 about-nav-why-common-voice = Waarom?
@@ -683,6 +684,7 @@ review-delete-recordings = Mijn opnamen verwijderen
 
 ## Datasets Page
 
+datasets-heading = Gegevenssets
 datasets-headline = We bouwen een opensource, meertalige spraakgegevensset die iedereen kan gebruiken om spraaktoepassingen te trainen.
 datasets-positioning =
     We geloven dat grote, openbare spraakgegevenssets voor innovatie en gezonde commerciële competitie in het veld van geautomatiseerd lerende spraaktechnologie zal zorgen.

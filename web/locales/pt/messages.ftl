@@ -502,7 +502,7 @@ about-voice-validation-title = Validação de voz
 about-voice-validation-subtitle = Outras pessoas validam esses clipes de voz.
 about-dataset-release-title = Lançamento do conjunto de dados
 about-dataset-release-subtitle = Lançamos o conjunto de dados a cada 3 meses.
-about-subscribe-text = Quer ficar em contato com o Common Voice?
+about-subscribe-text = Quer estar em contato com o Common Voice?
 about-speak = Falar
 about-speak-text = Os colaboradores gravam clipes de voz lendo a partir de um banco de frases doadas.
 about-listen-queue = Fila de audição
@@ -531,7 +531,8 @@ about-get-involved-text-2 =
     Fantástico! Entre em contato via email ou nos fóruns do <discourseLink>Discourse</discourseLink>,
     relate problemas no site via <githubLink>GitHub</githubLink>,
     ou participe de conversas da comunidade no <matrixLink>Matrix</matrixLink>.
-about-stay-in-touch = Como ficar em contato?
+about-stay-in-touch = Como estar em contato?
+about-stay-in-touch-button = Inscrever-se
 about-stay-in-touch-text-1 = <emailFragment>Inscreva-se</emailFragment> em nossa lista de emails para saber como você pode participar de campanhas, eventos e recursos de design cooperativo no Common Voice.
 about-stay-in-touch-text-2 = Você pode conhecer outras pessoas nas comunidades de idioma da Mozilla, juntando-se ao <discourseLink>Discourse</discourseLink> para conversas sobre tópicos, ou ao <matrixLink>Matrix</matrixLink> para aconselhamento rápido.
 about-nav-why-common-voice = Por quê?
@@ -683,6 +684,7 @@ review-delete-recordings = Excluir minhas gravações
 
 ## Datasets Page
 
+datasets-heading = Conjuntos de dados
 datasets-headline = Estamos construindo um conjunto de dados de voz multi-idioma, de código aberto, que qualquer pessoa pode usar para treinar aplicações habilitadas para voz.
 datasets-positioning =
     Acreditamos que grandes conjuntos de dados de voz, disponíveis publicamente, irão fomentar a inovação e a competição comercial saudável em tecnologias de voz baseadas em aprendizado de máquina.
@@ -713,8 +715,8 @@ dataset-description-hours =
     Cada entrada no conjunto de dados consiste de um MP3 único e o correspondente arquivo de texto. Muitas das <b> { $total }</b> horas gravadas no conjunto de dados também incluem metadados demográficos, como idade, sexo e sotaque, que podem ajudar a treinar a precisão de mecanismos de reconhecimento de voz.
     
     O conjunto de dados atualmente consiste de <b>{ $valid }</b> horas validadas em <b>{ $languages }</b> idiomas, mas estamos sempre adicionando mais vozes e idiomas. Dê uma olhada em nossa <languagesLink>página de idiomas</languagesLink> para solicitar um idioma ou começar a contribuir.
-want-dataset-update = Quer receber avisos quando lançarmos novas versões do conjunto de dados do Common Voice? Assine nosso boletim informativo.
-subscribe = Assinar
+want-dataset-update = Quer receber avisos quando lançarmos novas versões do conjunto de dados do Common Voice? Inscreva-se em nosso boletim informativo.
+subscribe = Inscrever-se
 get-started-speech = Introdução ao reconhecimento de voz
 other-datasets = Outros conjuntos de dados de voz
 feedback-q = Quer fazer comentários?
@@ -786,7 +788,7 @@ total-hours = Total de horas
 
 ## Contribution
 
-action-click = Clique
+action-click = Clique em
 action-tap = Toque
 contribute = Contribua
 listen = Ouvir
@@ -1193,7 +1195,7 @@ sc-howto-review-criteria-2 = A frase deve estar gramaticalmente correta.
 sc-howto-review-criteria-3 = Deve ser possível pronunciar a frase.
 sc-howto-review-criteria-4 = Se a frase atender aos critérios, clique no botão "Aprovar".
 sc-howto-review-criteria-5 = Se a frase não atender aos critérios acima, clique no botão "Rejeitar". Se não tiver certeza sobre a frase, você também pode pular e passar para a próxima.
-sc-howto-review-criteria-6 = Se você ficar sem frases para revisar, ajude-nos a coletar mais frases!
+sc-howto-review-criteria-6 = Se você não tiver mais frases para revisar, ajude-nos a coletar mais frases!
 sc-howto-findpd-title = Encontrando frases existentes em domínio público
 sc-howto-findpd-subtitle = Procurar na internet
 sc-howto-findpd-text-2 = Lembre que precisamos de permissão para publicar essas frases, portanto sempre verifique se o texto pertence ao <wikipediaLink>domínio público</wikipediaLink>. Se não houver indicação explícita, entre em contato com a pessoa a quem o texto pertence e pergunte se ela quer contribuir com seu texto para o domínio público. Se ela quiser, dê uma ajuda no processo do <cc0WaiverLink>Contrato de Contribuições</cc0WaiverLink>. Caso ela não queira contribuir com o texto, você não tem permissão de usar tal texto.

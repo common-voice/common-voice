@@ -532,6 +532,7 @@ about-get-involved-text-2 =
     Cośo pomagaś, Common Voice pólěpšyś?
     Wjelicnje! Stajśo se z nami pśez e-mail abo we forumach <discourseLink>Discourse</discourseLink>  do zwiska, sćelśo sedłowe problemy pśez <githubLink>Github</githubLink> abo woglědajśo se k nam w chaśe zgromaźeństwa <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Kak mógu w zwisku wóstaś?
+about-stay-in-touch-button = Registrěrowaś
 about-stay-in-touch-text-1 = <emailFragment>Registrěrujśo se</emailFragment> za našu rozesćełańsku lisćinu, aby zgónił, kak móžośo se na kampanjach, tšojenjach a kodesignych funkcijach na Common Voice wobźěliś.
 about-stay-in-touch-text-2 = Pśzamkniśo se <discourseLink>Discourse</discourseLink> za temowe rozgrona abo <matrixLink>Matrix</matrixLink> za malsnu radu, aby se z drugimi luźami w rěcnych zgromaźeństwach Mozilla zmakał.
 about-nav-why-common-voice = Cogodla?
@@ -664,6 +665,7 @@ review-delete-recordings = Nagraśa wulašowaś
 
 ## Datasets Page
 
+datasets-heading = Datowe sajźby
 datasets-headline = Twórimy wěcejrěcnu datowu sajźbu głosow wótwórjonego žrědła, kótaruž móžo kuždy wužywaś, aby powědańske nałoženja treněrował.
 datasets-positioning =
     Wěrimy, až wjelike, zjawnje k dispoziciji stojece datowe sajźby inowaciju a strowe komercielne wuběźowanje w powědańskej technologiji na zakłaźe mašinowego wuknjenja spěchuju.

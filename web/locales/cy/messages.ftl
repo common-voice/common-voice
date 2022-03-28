@@ -549,6 +549,7 @@ about-get-involved-text-2 =
     cyflwynwch adborth trwy <githubLink>GitHub</githubLink>, neu ymuno â ni
     ar lwyfan sgwrsio cymdeithasol <matrixLink>Matrix</matrixLink>
 about-stay-in-touch = Sut ydw i'n cadw mewn cysylltiad?
+about-stay-in-touch-button = Ymuno
 about-stay-in-touch-text-1 = <emailFragment>Cofrestrwch</emailFragment> i'n rhestr bostio i wybod sut y gallwch chi gymryd rhan mewn ymgyrchoedd, digwyddiadau ac i gyd-ddylunio nodweddion ar Common Voice.
 about-stay-in-touch-text-2 = Gallwch gwrdd ag eraill yng nghymunedau iaith Mozilla drwy ymuno â <discourseLink>Discourse</discourseLink> am sgyrsiau amserol, neu <matrixLink>Matrix</matrixLink> am gyngor cyflym.
 about-nav-why-common-voice = Pam ?
@@ -700,6 +701,7 @@ review-delete-recordings = Dileu fy recordiadau
 
 ## Datasets Page
 
+datasets-heading = Setiau Data
 datasets-headline = Rydym yn adeiladu setiau data o leisiau amlieithog y gall unrhyw un eu defnyddio i hyfforddi rhaglenni sy'n cael eu galluogi drwy lais.
 datasets-positioning =
     Rydym yn credu y bydd setiau data llais mawr, sydd ar gael yn gyhoeddus annog menter a chystadleuaeth fasnachol iach mewn technoleg llais wedi ei seilio ar ddysgu peirianyddol.

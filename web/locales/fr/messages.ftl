@@ -669,6 +669,7 @@ review-delete-recordings = Supprimer les enregistrements
 
 ## Datasets Page
 
+datasets-heading = Jeux de données
 datasets-headline = Nous créons un jeu de données vocales open source et multilingue que tout le monde peut utiliser pour entraîner des applications utilisant la voix.
 datasets-positioning =
     Nous pensons que mettre de grands jeux de données à la disposition de tout le monde favorise l’innovation et une concurrence saine pour les technologies utilisant la voix et basées sur l’apprentissage automatique.
@@ -818,8 +819,14 @@ listen-again-instruction = Excellent travail ! <playIcon></playIcon> Écoutez �
 listen-3rd-time-instruction = Plus que deux <playIcon></playIcon>, continuez !
 listen-last-time-instruction = <playIcon></playIcon> C’est le dernier !
 listen-empty-state = Nous n’avons plus d’échantillons à valider dans cette langue…
+listen-loading-error =
+    Nous n’avons pas pu obtenir d’échantillons audio à écouter.
+    Veuillez réessayer plus tard.
 speak-empty-state = Nous n’avons plus de phrases à enregistrer dans cette langue…
 speak-empty-state-cta = Proposer des phrases
+speak-loading-error =
+    Nous n’avons pas pu obtenir de phrases à prononcer.
+    Veuillez réessayer plus tard.
 record-button-label = Enregistrer votre voix
 share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
 keep-track-profile = Mesurez votre progression en créant un profil

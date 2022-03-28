@@ -473,6 +473,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 为什么会有 Common Voice？
+how-does-it-work-title-v2 = Common Voice 是如何工作的？
 how-does-it-work-text = 我们集众人之力，构建开源的语音数据集。欢迎捐出一段声音，或者帮助验证录音片段是否正确，让数据集能够变得更好。
 
 ## How does it work section
@@ -489,6 +490,7 @@ about-voice-validation-title = 验证录音
 about-voice-validation-subtitle = 另一群人参与验证这些录音片段。
 about-dataset-release-title = 发布数据集
 about-dataset-release-subtitle = 我们每 3 个月发布一次数据集。
+about-subscribe-text = 想要获取 Common Voice 的最新信息吗？
 about-speak = 说话
 about-speak-text = 贡献者通过朗读一系列由他人捐赠的语句，将语音片段录制下来。
 about-listen-queue = 聆听队列
@@ -518,10 +520,12 @@ about-get-involved-text-2 =
     通过 <githubLink>GitHub</githubLink> 反馈网站问题、
     也可以加入我们的 <matrixLink>Matrix</matrixLink> 社区群组。
 about-stay-in-touch = 如何获取最新信息？
+about-stay-in-touch-button = 注册
 about-nav-why-common-voice = 为什么？
 about-nav-how-it-works = 怎么做？
 about-nav-partners = 合作伙伴
 about-nav-get-involved = 参与进来
+about-nav-how-it-works-2 = Common Voice 是如何工作的？
 about-nav-playbook = 了解如何参与
 
 ## Community Playbook Content
@@ -566,6 +570,8 @@ about-playbook-how-access-dataset = 如何访问和使用数据集？
 
 ## How are decisions made
 
+about-playbook-how-project-governance = 项目决策是如何作出的？
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice 是由来自世界各地的活动家、语言学家、数据科学家、学者和软件工程师组成的多元化社区实现的。该项目由 Mozilla 基金会管理。
 about-playbook-how-project-governance-content-3 = 隐私、安全和透明度。
 about-playbook-how-project-governance-content-4 = 社区参与决策。
 about-playbook-how-project-governance-content-6 = 相互问责。
@@ -781,8 +787,10 @@ listen-again-instruction = 做得好！<playIcon></playIcon> 准备好就可以�
 listen-3rd-time-instruction = 完成两条了 <playIcon></playIcon>，继续加油！
 listen-last-time-instruction = <playIcon></playIcon> 最后一个了！
 listen-empty-state = 我们已经没有这种语言的片段可以验证了…
+listen-loading-error = 暂无录音片段供您聆听确认，请稍后再试。
 speak-empty-state = 我们已经没有这种语言的文本可以录音了…
 speak-empty-state-cta = 贡献语句
+speak-loading-error = 暂无语句供您录音，请稍后再试。
 record-button-label = 录下您的声音
 share-title-new = <bold>请帮助我们</bold>找到更多声音
 keep-track-profile = 创建账户跟踪个人贡献进度
@@ -956,7 +964,7 @@ download-request-title = { $created }
 download-request-description = { $clipCount } 个录音片段，压缩文件总大小 { $size }，于 { $expires } 失效。
 download-request-archive-single = 包含下列项目的单个 ZIP 压缩文件
 download-request-archive-multiple = 包含下列项目的 { $archiveCount } 个 ZIP 分割压缩文件
-download-request-assembling-description = 正在整理文件，请稍候再试。
+download-request-assembling-description = 正在整理文件，请稍后再试。
 download-request-refresh-button = 刷新
 download-request-modal-title = 下载链接
 download-request-modal-description = 下列是 ZIP 文件的下载链接。
@@ -1100,6 +1108,7 @@ sc-home-review-text = 请按下列标准帮助我们审核句子是否正确。
 
 ## GENERAL
 
+sc-languages-fetch-error = 可用语言获取失败，目前暂无法贡献，请稍后再试。
 
 ## HOW-TO
 

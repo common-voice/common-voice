@@ -36,8 +36,6 @@ export default Object.freeze({
 
   DEMO,
   INTRO: DEMO,
-  DEMO_DATASETS: DEMO + '/datasets',
-  DEMO_DASHBOARD: DEMO + '/dashboard',
   DEMO_SPEAK: DEMO + '/speak',
   DEMO_LISTEN: DEMO + '/listen',
   DEMO_ACCOUNT: DEMO + '/create-profile',

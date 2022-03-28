@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Ricevi retpoŝtmesaĝojn, kiel ekzemple m
 email-opt-in-privacy-v2 = Se vi abonas dissendoliston, vi konsentas kun la pritrakto de tiu ĉi informo, laŭ la priskribo de la <privacyLink>privateca politiko</privacyLink> de Mozilla.
 indicates-required = * signas devigan kampon
 not-available-abbreviation = Nedisponebla
+banner-error-slow-1 = Bedaŭrinde, Common Voice funkcias malrapide. Dankon pro via intereso.
+banner-error-slow-link = Stata paĝo
+error-something-went-wrong = Bedaŭrinde io ne bone funkciis
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,9 +39,9 @@ ba = Baŝkira
 bas = Basaa
 be = Bjelorusa
 bg = Bulgara
-bm = Bambara
 bn = Bengala
 br = Bretona
+bs = Bosna
 bxr = Burjata
 ca = Kataluna
 cak = Kakĉikela
@@ -67,6 +70,7 @@ fy-NL = Frisa
 ga-IE = Irlanda
 gl = Galega
 gn = Gvarania
+gom = Goaa Konkana
 ha = Haŭsa
 he = Hebrea
 hi = Hinda
@@ -90,11 +94,13 @@ kab = Kabila
 kbd = Kabarda
 ki = Kikuja
 kk = Kazaĥa
+km = Kmera
 kmr = Kurmanĉa kurda
 ko = Korea
 kpv = Komiziriana
 kw = Korniŝa
 ky = Kirgiza
+lb = Luksemburga
 lg = Ganda
 lij = Ligura
 lt = Litova
@@ -119,6 +125,7 @@ ne-NP = Nepala
 nia = Niasa
 nl = Nederlanda
 nn-NO = Norvega ninorsk
+nyn = Runjankola
 oc = Okcitana
 or = Odia
 pa-IN = Panĝaba
@@ -126,6 +133,7 @@ pap-AW = Papiamento (Arubo)
 pl = Pola
 ps = Paŝtuna
 pt = Portugala
+quc = Kiĉea
 rm-sursilv = Romanĉa surselva
 rm-vallader = Valadera romanĉa
 ro = Rumana
@@ -138,6 +146,7 @@ scn = Sicilia
 shi = Ŝelha
 si = Sinhala
 sk = Slovaka
+skr = Sarajkia
 sl = Slovena
 so = Somala
 sq = Albana
@@ -149,10 +158,15 @@ ta = Tamila
 te = Telugua
 tg = Taĝika
 th = Taja
+ti = Tigraja
+tig = Tigra
+tk = Turkmena
 tl = Tagaloga
+tok = Tokipono
 tr = Turka
 tt = Tatara
 tw = Tivia
+ty = Tahitia
 uby = Ubiĥa
 udm = Udmurta
 ug = Ujgura
@@ -162,6 +176,7 @@ uz = Uzbeka
 vec = Venecia
 vi = Vjetnama
 vot = Vota
+yi = Jida
 yo = Joruba
 yue = Kantona
 zh-CN = Ĉina (Ĉinio)
@@ -195,6 +210,7 @@ logout = Fini seancon
 ## Home Page
 
 home-title = La projekto Common Voice estas iniciato de Mozilla por helpi instrui al maŝinoj kiel veraj homoj parolas.
+default-tagline = Mozilla Common Voice estas iniciato por helpi instrui al maŝinoj, kiel veraj homoj parolas.
 home-cta = Donacu vian voĉon, kontribuu ĉi tie!
 wall-of-text-start = Voĉo estas natura, voĉo estas homa. Tial ni volegas krei uzeblajn voĉajn teknikologiojn por niaj maŝinoj. Sed por krei voĉajn sistemojn, tre granda kvanto da voĉaj registroj estas postulata.
 wall-of-text-more-mobile = La plimulto de la datumoj uzataj de grandaj kompanioj ne estas uzeblaj de iu ajn. Ni pensas ke tio sufokas novaĵkreemon. Tial ni lanĉis la projekton Common Voice, kiu helpas malfermi la pordojn de parolrekono al ĉiuj.
@@ -288,6 +304,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Registri / Haltigi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Refari voĉregistron
+shortcut-discard-ongoing-recording = ESK
+shortcut-discard-ongoing-recording-label = Forigi okazantan registradon
 shortcut-submit = Enigi
 shortcut-submit-label = Sendi registraĵojn
 request-language-text = Ĉu vi ne vidas vian lingvon en Common Voice?
@@ -316,8 +334,13 @@ profile-form-native-language =
     .label = Denaska lingvo
 profile-form-additional-language =
     .label = Aldona lingvo
+profile-form-language =
+    .label = Lingvo
 profile-form-accent =
     .label = Akĉento
+profile-form-custom-accent-help-text =
+    .label = Kiel vi priskribus vian akĉenton?
+profile-form-custom-accent-placeholder-2 = Komencu tajpi por priskribi vian akĉenton
 profile-form-age =
     .label = Aĝo
 profile-form-gender-2 =
@@ -328,6 +351,7 @@ hidden = Kaŝita
 visible = Videbla
 native-language =
     .label = Denaska lingvo
+profile-form-add-accent = Aldoni novan personecigitan akĉenton "{ $inputValue }"
 profile-form-submit-save = Konservi
 profile-form-submit-saved = Konservita
 male = Vira
@@ -361,6 +385,8 @@ skip-submission-description = Dum la sendo de kontribuoj, komentoj estos malakti
 skip-submission-note = Notu: vi ankoraŭ devos elekti inter Paroli aŭ Aŭskulti por ŝanĝi la tipon de kontribuo.
 off = Malŝaltita
 on = Ŝaltita
+help-accent = Ĉu vi bezonas helpon pri akĉento?
+help-accent-explanation = Via akĉento estas la maniero kiel vi prononcas vortojn. Ĝin influas la lokoj kie vi iam loĝis, viaj aliaj parolataj lingvoj kaj pluraj diversaj faktoroj. Vi povas dividi ĉi tie iun ajn informon, kiun vi opinias grava.
 
 ## Profile - Email
 
@@ -442,12 +468,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kial Common Voice?
-about-subtitle = Common Voice estas parto de iniciato de Mozilla por helpi instrui al maŝinoj, kiel homoj fakte parolas. Kune kun la datumaro de Common Voice ni ankaŭ konstruas malfermitkodan parolrekonilon nomita Deep Speech.
-about-header-description =
-    Ambaŭ projektoj estas parto de nia strebo fermi la ciferecan breĉon inter lingvoj . Parolrekonaj teknologioj alportas homan dimension al niaj aparatoj, sed programistoj bezonas grandengan kvanto da voĉaj datumoj por konstrui iln. Nuntempe, la plejmulto de tiuj datumoj estas multekosta kaj privataj.
-    Ni volas igi voĉajn datumojn liberaj kaj publike haveblaj kaj certi ke tiuj datumoj reprezentas la diversecon de realaj personoj. Kune ni povas plibonigi parolrekonon por ĉiuj.
-how-does-it-work-title = Kiel ĝi funkcias?
 how-does-it-work-text = Ni kalkulas je kolektiva patropreno por konstrui malfermitkodan voĉan datumaron. Donacu vian voĉon, validigu la precizecon de la voĉregistroj de aliaj personoj, plibonigu la datumaron por ĉiuj.
+
+## How does it work section
+
 about-speak = Paroli
 about-speak-text = Kontribuantoj laŭtlegas el kolekto de donacitaj frazoj kaj registras siajn voĉojn.
 about-listen-queue = Vico de aŭskulto
@@ -477,10 +501,40 @@ about-get-involved-text-2 =
     <discourseLink>Discourse</discourseLink>, raportu
     retejajn problemojn per <githubLink>GitHub</githubLink>
     aŭ aliĝu al la komunuma retbabilejo en la <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Kiel resti en kontakto?
+about-stay-in-touch-button = Registriĝi
 about-nav-why-common-voice = Kial?
 about-nav-how-it-works = Kiel?
 about-nav-partners = Asociitoj
 about-nav-get-involved = Partopreni
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artefarita intelekto
 mycroft-description = Mycroft estas la unua malfermitkoda asistanto en la mondo. Mycroft funkcias ĉie: en komputilo, en aŭto aŭ en Raspberry Pi.
@@ -543,6 +597,7 @@ review-delete-recordings = Forigi miajn registrojn
 
 ## Datasets Page
 
+datasets-heading = Datumaroj
 datasets-headline = Ni konstruas malfermitkodan, plurlingvan datumaron de voĉoj, kiun iu ajn povas uzi por trejni parolkapablajn programojn.
 datasets-positioning =
     Ni pensas ke grandaj kaj publike haveblaj datumaroj de voĉoj favoros novaĵkreemon kaj sanan komercan konkurecon en la parolaj teknologioj bazitaj sur automata lernado.
@@ -579,6 +634,7 @@ get-started-speech = Unua paŝoj en parolrekono
 other-datasets = Aliaj voĉaj datumaroj
 feedback-q = Ĉu vi ŝatus komenti?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ estas <docsLink>malfermitkoda ilaro</docsLink> por esploristoj kiuj disvolvas avangardajn konversacian AI-ajn modelojn.
+community-playbook = Komunuma manlibro
 data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
 data-other-ted-name = Kolekto TED-LIUM
 data-other-ted-description = La kolekto TED-LIUM estis farita el prelegoj kaj ĝiaj transskriboj, disponeblaj en la retejo de TED.
@@ -859,7 +915,16 @@ profile-form-delete = Forigi profilon
 
 ## Profile Download
 
+download-profile-title = Profilo
+download-profile-size = Kelkaj oktetoj
 download-size = Grando
+download-selected = Elektita
+download-request-button = Elŝuti
+download-request-title = { $created }
+download-request-refresh-button = Refreŝigi
+download-request-modal-title = Elŝutaj ligiloj
+download-request-link-text = Zip #{ $offset } de { $total }
+download-request-metadata-link = Teksto de frazo
 
 ## Landing
 
@@ -926,48 +991,146 @@ contribution-volume-title = Laŭteco
 
 ## HEADER/FOOTER
 
+sc-header-home = Eka paĝo
+sc-header-add = Aldoni
+sc-header-review = Revizii
+sc-header-rejected = Rifuzitaj frazoj
+sc-header-my = Miaj frazoj
+sc-header-statistics = Statistikoj
+sc-header-profile = Profilo
+sc-footer-report-bugs = Raporti problemojn
+sc-footer-translate = Traduki tiun ĉi paĝon
+sc-footer-privacy = Privateco
+sc-footer-terms = Kondiĉoj
+sc-footer-cookies = Kuketoj
+sc-login-signup-button = Komenci seancon / Krei konton
+sc-logout-button = Fini seancon
 
 ## HOME
+
+sc-home-collect-title = Kolekti frazojn
+
+## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-addsen-title = Aldoni novajn frazojn
+sc-howto-cite-title = Kiel citi
 
 ## MY SENTENCES
 
+sc-my-title = Miaj frazoj
+sc-my-no-sentences = Neniu frazo trovita!
+sc-my-delete = Forigi elektitajn frazojn
 
 ## REJECTED
 
+sc-rejected-title = Rifuzitaj frazoj
+sc-rejected-none-found = Neniu rifuzita frazo trovita!
 
 ## STATS
 
+sc-stats-title = Statistikoj
+sc-stats-updating = Ĝisdatigo…
 
 ## ADD
 
+sc-submit-err-select-lang = Bonvolu elekti lingvon.
+sc-submit-err-add-sentences = Bonvolu aldoni frazojn.
+sc-submit-err-add-source = Bonvolu aldoni fonton.
+sc-submit-err-confirm-pd = Bonvolu konfirmi ke tiuj ĉi frazoj estas en la publika havaĵo.
+sc-submit-title = Aldoni frazojn
+sc-submit-select-language =
+    .labelText = Elekti lingvon
+sc-submit-ph-one-per-line =
+    .placeholder = Po unu frazo en ĉiu linio
+sc-submit-button =
+    .submitText = Sendi
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-label = Aldoni lingvon al kiu vi volas kontribui
+sc-add-lang-sec-button = Aldoni lingvon
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Neniu frazo trovita.
+        [one] 1 frazo trovita.
+       *[other] { $countOfSentences } frazoj trovitaj.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } rifuzita(j) de vi
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Neniu frazo preta por sendo!
+        [one] 1 frazo preta por sendo!
+       *[other] { $readyCount } frazoj pretaj por sendo!
+    }
+sc-confirm-button-text = Konfirmi
 
 ## LANGUAGE INFO
 
+sc-lang-info-review-now = <reviewLink>Reviziu nun!</reviewLink>
+sc-lang-info-add-more = <addLink>Aldonu pli da frazoj nun!</addLink>
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Neniu rifuzita frazo.
+        [one] 1 rifuzita frazo.
+       *[other] { $rejectedSentences } rifuzitaj frazoj.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Malsukcesa komenco de seanco
+sc-login-err-try-again = Bonvolu klopodi denove.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profilo: { $username }
+sc-personal-your-languages = Viaj lingvoj:
+sc-personal-remove-button = forigi
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you =
+    { $sentences ->
+        [0] 0 aldonita de vi
+        [one] 1 aldonita de vi
+       *[other] { $sentences } aldonitaj de vi
+    }
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Neniu frazo reviziita.
+        [one] 1 frazo reviziita. Dankon!
+       *[other] { $sentences } frazoj reviziitaj. Dankon!
+    }
+sc-review-link = Revizii
 
 ## SETTINGS
 
+sc-settings-title = Agordoj
+sc-settings-ui-language = Lingvo de la fasado
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Elekti lingvon/tradukon

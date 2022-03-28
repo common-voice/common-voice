@@ -528,6 +528,7 @@ about-get-involved-text-2 =
     gửi các vấn đề về trang web thông qua <githubLink>GitHub</githubLink>,
     hoặc tham gia trò chuyện cộng đồng trên <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Làm cách nào để giữ liên lạc?
+about-stay-in-touch-button = Đăng ký
 about-stay-in-touch-text-1 = <emailFragment>Đăng ký</emailFragment> vào danh sách gửi thư của chúng tôi để tìm hiểu cách bạn có thể tham gia vào các chiến dịch, sự kiện và các tính năng đồng thiết kế trên Common Voice.
 about-stay-in-touch-text-2 = Bạn có thể gặp gỡ những người khác trong cộng đồng ngôn ngữ Mozilla bằng cách tham gia <discourseLink>Discourse</discourseLink> để trò chuyện theo chủ đề hoặc <matrixLink>Matrix</matrixLink> để được tư vấn nhanh.
 about-nav-why-common-voice = Tại sao ?
@@ -679,6 +680,7 @@ review-delete-recordings = Xóa bản ghi âm của tôi
 
 ## Datasets Page
 
+datasets-heading = Tập dữ liệu
 datasets-headline = Chúng tôi đã xây dựng một bộ dữ liệu giọng nói đa ngôn ngữ mã nguồn mở mà bất kỳ ai cũng có thể sử dụng để huấn luyện các ứng dụng hỗ trợ giọng nói.
 datasets-positioning =
     Chúng tôi tin rằng các bộ dữ liệu giọng nói lớn, có sẵn công khai sẽ thúc đẩy sự đổi mới và cạnh tranh thương mại lành mạnh trong công nghệ lời nói dựa trên máy học.

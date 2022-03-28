@@ -535,6 +535,7 @@ about-get-involved-text-2 =
     spjallborðum, sendu inn vandamál sem upp koma á <githubLink>GitHub</githubLink>-síðunni, 
     eða taktu þátt á <matrixLink>Matrix-rásinni</matrixLink> okkar.
 about-stay-in-touch = Hvernig get ég verið í sambandi?
+about-stay-in-touch-button = Nýskrá
 about-stay-in-touch-text-1 = <emailFragment>Skráðu þig</emailFragment> á póstlistann okkar til að vita betur hvernig þú getur tekið þátt í herferðum, viðburðum og samstarfi við hönnun eiginleika í Samrómi.
 about-stay-in-touch-text-2 = Þú getur hitt aðra í Mozilla tungumálasamfélögunum með því að taka þátt í <discourseLink>Discourse</discourseLink> fyrir málefnaleg samtöl, eða á <matrixLink>Matrix</matrixLink> til að fá skjótar ábendingar.
 about-nav-why-common-voice = Af hverju?
@@ -686,6 +687,7 @@ review-delete-recordings = Eyða upptökum
 
 ## Datasets Page
 
+datasets-heading = Gagnasöfn
 datasets-headline = Við erum að byggja opið og aðgengilegt, fjöltyngt gagnasafn með röddum sem hver sem er getur notað til þess að þjálfa raddstýrð forrit.
 datasets-positioning =
     Við trúum því að að stór gagnasöfn sem séu opin almenningi muni styðja við nýsköpun og stuðla að heilbrigðri markaðssamkeppni innan tæknigeirans á sviði máltæknilausna.

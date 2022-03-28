@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Получать такие письма,
 email-opt-in-privacy-v2 = Согласившись получать письма, вы заявляете, что согласны с тем, как Mozilla обрабатывает эту информацию, согласно <privacyLink>Политике приватности</privacyLink> Mozilla.
 indicates-required = * поля, обязательные для заполнения
 not-available-abbreviation = Недоступно
+error-something-went-wrong = Ой, что-то пошло не так
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -512,6 +513,7 @@ about-get-involved = Принять участие
 about-get-involved-text-2 =
     Хотите помочь сделать Common Voice ещё лучше?
     Отлично! Свяжитесь с нами по электронной почте или через <discourseLink>Discourse</discourseLink>, сообщайте о проблемах с сайтом через <githubLink>GitHub</githubLink> или присоединяйтесь к чату сообщества на <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch-button = Зарегистрироваться
 about-nav-why-common-voice = Почему?
 about-nav-how-it-works = Как?
 about-nav-partners = Партнёры

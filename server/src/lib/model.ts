@@ -119,7 +119,6 @@ function fetchLocalizedPercentagesByLocale() {
     )
   );
 }
-
 const MINUTE = 1000 * 60;
 const DAY = MINUTE * 60 * 24;
 /**
@@ -204,12 +203,20 @@ export default class Model {
         locale => !contributableLocales.includes(locale)
       );
 
-      function indexCountByLocale(rows: { locale: string; count: number }[]): {
+      function indexCountByLocale(
+        rows: { locale: string; count: number; target_sentence_count: number }[]
+      ): {
         [locale: string]: number;
       } {
         return rows.reduce(
-          (obj: { [locale: string]: number }, { count, locale }: any) => {
-            obj[locale] = count;
+          (
+            obj: { [locale: string]: any },
+            { count, locale, target_sentence_count }: any
+          ) => {
+            obj[locale] = {
+              current_count: count,
+              target_sentence_count: target_sentence_count,
+            };
             return obj;
           },
           {}
