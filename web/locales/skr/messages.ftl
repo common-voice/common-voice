@@ -720,8 +720,14 @@ listen-again-instruction = سوہݨا کم!<playIcon></playIcon> تساں تیا
 listen-3rd-time-instruction = ٢ تھی ڳئے۔  شاباش جاری رکھو!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>چھیکڑی ہک!
 listen-empty-state = ایں زبان وچ تصدیق کرݨ کیتے ساݙے کول کلپ مُک ڳئے ہن۔۔۔
+listen-loading-error =
+    اساں تہاݙے سُݨݨ کیتے کوئی آڈیو کلپ کائنی گھن سڳے۔
+    سوہݨا، ولدا بعد وچ کوشش کرو۔
 speak-empty-state = ایں زبان وچ رکاڈ کرݨ کیتے ساݙے کول جملے مُک ڳئے ہن۔۔۔
 speak-empty-state-cta = فقرے پاؤ
+speak-loading-error =
+    اساں تہاݙے ٻولݨ کیتے کوئی جملے کائنی گھن سڳے۔
+    سوہݨا، ولدا بعد وچ کوشش کرو۔
 record-button-label = آپݨی آواز رکاڈ کرو
 share-title-new = <bold> ساݙی مدد کرو</bold> ٻیاں آوازاں لبھو
 keep-track-profile = پروفائل واٹوں آپݨی پیش رفت تے نظر رکھو
@@ -890,6 +896,7 @@ demo-account = کھاتہ
 
 ## Demo Account
 
+demo-account-card-header = ونگاراں کیتے کھاتہ ہووݨ ضروری کائنی، بے شک مددگار ہے۔
 demo-account-enter-email =
     .label = سائن اپ لنک پٹھݨ کیتے ای میل درج کرو
 demo-account-sign-up = سائن اپ لنک پٹھو
