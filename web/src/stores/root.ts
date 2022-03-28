@@ -85,9 +85,6 @@ const store = createStore(
   composeEnhancers(applyMiddleware(thunk))
 );
 
-store.dispatch(User.actions.update({}) as any);
-store.dispatch(User.actions.refresh() as any);
-
 const flags = document.querySelector('#flags');
 
 try {

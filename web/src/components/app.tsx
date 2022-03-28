@@ -323,6 +323,9 @@ class App extends React.Component {
   constructor(props: any, context: any) {
     super(props, context);
 
+    store.dispatch(User.actions.update({}) as any);
+    store.dispatch(User.actions.refresh() as any);
+
     if (isMobileSafari()) {
       document.body.classList.add('mobile-safari');
     }
