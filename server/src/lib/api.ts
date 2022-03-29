@@ -10,7 +10,7 @@ const Transcoder = require('stream-transcoder');
 
 import { UserClient as UserClientType } from 'common';
 import { authMiddleware } from '../auth-router';
-import { getConfig, CommonVoiceConfig } from '../config-helper';
+import { getConfig } from '../config-helper';
 import Awards from './model/awards';
 import CustomGoal from './model/custom-goal';
 import getGoals from './model/goals';
@@ -536,13 +536,18 @@ export default class API {
         languageLocale,
       });
 
-      response.json({
+      const json = {
         id: info?.messageId,
-        emailPreviewURL: info?.emailPreviewURL,
         email,
         languageInfo,
         languageLocale,
-      });
+      } as any; // eslint-disable-line @typescript-eslint/no-explicit-any
+
+      if (info?.emailPreviewURL) {
+        json.emailPreviewURL = info?.emailPreviewURL;
+      }
+
+      response.json(json);
     } catch (e) {
       console.error(e);
       return response.status(500).send('Something went wrong emailing');
