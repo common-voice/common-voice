@@ -332,14 +332,6 @@ class App extends React.Component {
     this.userLocales = negotiateLocales(navigator.languages);
   }
 
-  async componentDidMount() {
-    if (!isProduction()) {
-      const script = document.createElement('script');
-      script.src = 'https://pontoon.mozilla.org/pontoon.js';
-      document.head.appendChild(script);
-    }
-  }
-
   async componentDidCatch(error: Error, errorInfo: any) {
     this.setState({ error }, () =>
       history.push(`${this.userLocales[0]}/503`, {
