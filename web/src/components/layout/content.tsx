@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Switch, Route, Redirect } from 'react-router';
 import * as Sentry from '@sentry/react';
+import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
 
 import URLS from '../../urls';
 import { isContributable, useLocale } from '../locale-helpers';

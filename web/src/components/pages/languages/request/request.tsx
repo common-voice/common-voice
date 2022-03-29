@@ -1,7 +1,11 @@
 import * as React from 'react';
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { useHistory } from 'react-router-dom';
 import { Localized } from '@fluent/react';
+import {
+  GoogleReCaptchaProvider,
+  useGoogleReCaptcha,
+} from 'react-google-recaptcha-v3';
 
 import { useToLocaleRoute } from '../../../locale-helpers';
 import { useAPI } from '../../../../hooks/store-hooks';
@@ -17,7 +21,6 @@ import PageHeading from '../../../ui/page-heading';
 import ErrorPage from '../../error-page/error-page';
 import PageTextContent from '../../../ui/page-text-content';
 import Page from '../../../ui/page';
-import GoogleReCAPTCHA from '../../../google-recaptcha/google-recaptcha';
 
 const EMAIL_ADDRESS = 'commonvoice@mozilla.com';
 
@@ -27,15 +30,29 @@ const LanguagesRequestFormPage = () => {
   const api = useAPI();
   const toLocaleRoute = useToLocaleRoute();
   const history = useHistory();
+  const { executeRecaptcha } = useGoogleReCaptcha();
 
   const [isSendingRequest, setIsSendingRequest] = useState(false);
   const [hasGenericError, setHasGenericError] = useState(false);
   const [emailValue, setEmailValue] = useState('');
   const [languageInfoValue, setLanguageInfoValue] = useState('');
   const [privacyAgreedChecked, setPrivacyAgreedChecked] = useState(false);
-
   const [reCAPTCHAMessage, setReCAPTCHAMessage] = useState('');
-  const [reCAPTCHAClientResponse, setReCAPTCHAClientResponse] = useState(null);
+
+  const handleReCaptchaVerify = useCallback(async () => {
+    if (!executeRecaptcha) {
+      console.error('reCAPTCHA not yet available');
+      return null;
+    }
+
+    const token = await executeRecaptcha('yourAction');
+
+    if (!token) {
+      return null;
+    }
+
+    return token;
+  }, [executeRecaptcha]);
 
   const handleEmailInputChange = (
     event: React.ChangeEvent<HTMLInputElement>
@@ -55,13 +72,6 @@ const LanguagesRequestFormPage = () => {
     setPrivacyAgreedChecked(event.target.checked);
   };
 
-  const handleGoogleReCAPTCHAChange = (value: string | null) => {
-    setReCAPTCHAClientResponse(value);
-    setReCAPTCHAMessage(
-      value ? '' : 'request-language-google-recaptcha-required'
-    );
-  };
-
   const isValidSubmissionData = () => {
     return (
       privacyAgreedChecked === true &&
@@ -73,6 +83,7 @@ const LanguagesRequestFormPage = () => {
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
+    const reCAPTCHAClientResponse = await handleReCaptchaVerify();
     if (!reCAPTCHAClientResponse) {
       setReCAPTCHAMessage('request-language-google-recaptcha-required');
       return;
@@ -97,8 +108,8 @@ const LanguagesRequestFormPage = () => {
       setIsSendingRequest(false);
 
       if (e.message === 'Incorrect reCAPTCHA') {
-        setReCAPTCHAClientResponse(null);
-        return setReCAPTCHAMessage('request-language-google-recaptcha-error');
+        setReCAPTCHAMessage('request-language-google-recaptcha-error');
+        return;
       }
 
       setHasGenericError(true);
@@ -208,12 +219,11 @@ const LanguagesRequestFormPage = () => {
               required
             />
 
-            <div className="languages-request-page__content__form__google-recaptcha">
-              <GoogleReCAPTCHA
-                onChange={handleGoogleReCAPTCHAChange}
-                message={reCAPTCHAMessage}
-              />
-            </div>
+            {reCAPTCHAMessage && (
+              <p className="languages-request-page__content__form__google-recaptcha">
+                <Localized id={reCAPTCHAMessage} />
+              </p>
+            )}
 
             <Localized id="submit-form-action">
               <Button type="submit" rounded isBig disabled={isSendingRequest} />
@@ -233,4 +243,13 @@ const LanguagesRequestFormPage = () => {
   );
 };
 
-export default LanguagesRequestFormPage;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const WrappedLanguagesRequestFormPage = (props: any) => (
+  <GoogleReCaptchaProvider
+    reCaptchaKey={process.env.GOOGLE_RECAPTCHA_SITE_KEY}
+    language={navigator?.language}>
+    <LanguagesRequestFormPage {...props} />
+  </GoogleReCaptchaProvider>
+);
+
+export default WrappedLanguagesRequestFormPage;

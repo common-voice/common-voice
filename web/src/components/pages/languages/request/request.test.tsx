@@ -26,25 +26,13 @@ jest.mock('../../../../hooks/store-hooks', () => ({
   }),
 }));
 
-jest.mock('../../../google-recaptcha/google-recaptcha', () => ({
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  default: ({ onChange }: { onChange: (value: string) => any }) => {
-    const handleClick = () => {
-      onChange('mock-google-recaptcha-response');
-    };
-
-    return (
-      <div>
-        <label htmlFor="mock-google-recaptcha">I&apos;m not a robot</label>
-        <input
-          onClick={handleClick}
-          id="mock-google-recaptcha"
-          name="mock-google-recaptcha"
-          type="checkbox"
-        />
-      </div>
-    );
-  },
+jest.mock('react-google-recaptcha-v3', () => ({
+  GoogleReCaptchaProvider: ({ children }: { children: React.ReactNode }) => (
+    <div>{children}</div>
+  ),
+  useGoogleReCaptcha: () => ({
+    executeRecaptcha: () => 'mock-google-recaptcha-response',
+  }),
 }));
 
 async function fillInForm({
@@ -65,9 +53,6 @@ async function fillInForm({
       /I'm okay with you handling this info as you explain in Mozilla's Privacy Policy/
     )
   );
-
-  // click mock google recaptcha
-  userEvent.click(getByLabelText(/I'm not a robot/));
 
   // submit
   await act(async () => {

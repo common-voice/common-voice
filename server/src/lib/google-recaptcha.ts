@@ -5,7 +5,7 @@ import { getConfig } from '../config-helper';
 
 const logger = new Logger({ name: 'GoogleReCAPTCHA' });
 
-const { GOOGLE_RECAPTCHA_SECRET_KEY } = getConfig();
+const SCORE_THRESHOLD = 0.5;
 const VERIFY_URL = 'https://www.google.com/recaptcha/api/siteverify';
 
 /**
@@ -24,7 +24,28 @@ class GoogleReCAPTCHA {
     }
   }
 
+  /**
+   * reCAPTCHA v3 returns a score from 0.0 to 1.0
+   * https://developers.google.com/recaptcha/docs/v3#interpreting_the_score
+   */
+  private verifyReCAPTCHAScore(score: number) {
+    const { PROD } = getConfig();
+
+    if (!score) {
+      return false;
+    }
+
+    // skip score check outside of production
+    if (!PROD) {
+      return true;
+    }
+
+    return score >= SCORE_THRESHOLD;
+  }
+
   private async sendRequest(reCAPTCHAClientResponse: string) {
+    const { GOOGLE_RECAPTCHA_SECRET_KEY } = getConfig();
+
     const params = new URLSearchParams({
       secret: GOOGLE_RECAPTCHA_SECRET_KEY,
       response: reCAPTCHAClientResponse,
@@ -52,6 +73,11 @@ class GoogleReCAPTCHA {
     }
 
     this.reportErrors(json);
+
+    const validScore = this.verifyReCAPTCHAScore(json?.score);
+    if (!validScore) {
+      return false;
+    }
 
     return json?.success;
   }

@@ -72,5 +72,6 @@
 }
 
 .languages-request-page__content__form__google-recaptcha {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+    color: var(--dark-red);
 }
