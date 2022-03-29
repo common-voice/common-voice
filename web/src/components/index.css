@@ -55,7 +55,6 @@ html {
     font-size: var(--font-size);
     color: var(--black);
     background-color: var(--white);
-    scroll-behavior: smooth;
 }
 
 html,

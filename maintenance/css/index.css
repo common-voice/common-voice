@@ -11,7 +11,6 @@ html {
     color: var(--black);
     background-color: var(--white);
     overflow: auto;
-    scroll-behavior: smooth;
 }
 
 html,
@@ -30,146 +29,146 @@ h1 {
 }
 
 header {
-  border-bottom: 1px solid var(--grey);
+    border-bottom: 1px solid var(--grey);
 }
 
 main {
-  background: url('../assets/waves.svg') no-repeat center bottom;
-  background-size: 100% auto;
+    background: url('../assets/waves.svg') no-repeat center bottom;
+    background-size: 100% auto;
 }
 
 footer {
-  background: var(--black);
-  padding: 1.5em var(--page-margin);
+    background: var(--black);
+    padding: 1.5em var(--page-margin);
 }
 
 .container {
-  max-width: var(--desktop-width);
-  margin: 0 auto;
-  padding: 1em;
+    max-width: var(--desktop-width);
+    margin: 0 auto;
+    padding: 1em;
 }
 
 .cv-maintenance {
-  padding: 1em;
-  margin: 0 auto;
-  text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .cv-maintenance-illustration {
-  text-align: center;
-  width: 60%;
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .cv-get-involved-icons {
-  display: flex;
-  justify-content: center;
-  margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
 }
 
 .cv-round-button {
-  width: 67px;
-  height: 67px;
-  border-radius: 50%;
-  background-color: var(--near-black);
-  justify-content: center;
-  align-items: center;
-  border: 1px solid var(--near-black);
-  display: flex;
-  transition: background-color var(--transition-duration) var(--easing);
-  margin: 0 1.25rem 0 0;
-  cursor: pointer;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    background-color: var(--near-black);
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--near-black);
+    display: flex;
+    transition: background-color var(--transition-duration) var(--easing);
+    margin: 0 1.25rem 0 0;
+    cursor: pointer;
 }
 
 .cv-round-button:hover {
-  background-color: var(--white);
+    background-color: var(--white);
 }
 
 .cv-round-button path {
-  fill: var(--white);
+    fill: var(--white);
 }
 
 .cv-round-button:hover path {
-  fill: var(--near-black);
+    fill: var(--near-black);
 }
 
 .cv-logo-footer {
-  display: none;
+    display: none;
 }
 
 .cv-license {
-  text-align: center;
-  font-size: 0.75rem;
-  color: var(--white);
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--white);
 }
 
 .cv-license-link,
 .cv-license-link:active,
 .cv-license-link:visited {
-  color: var(--warm-grey);
-  text-decoration: none;
+    color: var(--warm-grey);
+    text-decoration: none;
 }
 
 .cv-license-link:hover {
-  color: var(--blue);
+    color: var(--blue);
 }
 
 @media screen and (min-width: 768px) {
-  h1 {
-    font-size: 48px;
-  }
+    h1 {
+        font-size: 48px;
+    }
 
-  footer {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-    padding: 3em var(--page-margin);
-  }
+    footer {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        padding: 3em var(--page-margin);
+    }
 
-  .cv-maintenance {
-    text-align: left;
-    padding: 3em 2em;
-  }
+    .cv-maintenance {
+        text-align: left;
+        padding: 3em 2em;
+    }
 
-  .cv-maintenance-message {
-    float: left;
-    width: 60%;
-  }
+    .cv-maintenance-message {
+        float: left;
+        width: 60%;
+    }
 
-  .cv-maintenance-message-text {
-    width: 85%;
-    line-height: 1.6;
-  }
+    .cv-maintenance-message-text {
+        width: 85%;
+        line-height: 1.6;
+    }
 
-  .cv-maintenance-illustration {
-    float: right;
-    width: 40%;
-  }
+    .cv-maintenance-illustration {
+        float: right;
+        width: 40%;
+    }
 
-  .cv-maintenance {
-    overflow: hidden;
-  }
+    .cv-maintenance {
+        overflow: hidden;
+    }
 
-  .cv-get-involved-icons {
-    justify-content: left;
-  }
+    .cv-get-involved-icons {
+        justify-content: left;
+    }
 
-  .cv-logo-footer {
-    display: block;
-    position: fixed;
-  }
+    .cv-logo-footer {
+        display: block;
+        position: fixed;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-  main {
-    min-height: 80vh;
-  }
+    main {
+        min-height: 80vh;
+    }
 
-  .cv-maintenance {
-    max-width: 80%;
-    padding: 4em 0;
-  }
+    .cv-maintenance {
+        max-width: 80%;
+        padding: 4em 0;
+    }
 }

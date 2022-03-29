@@ -490,10 +490,7 @@ class SpeakPage extends React.Component<Props, State> {
     const { history, toLocaleRoute } = this.props;
     this.resetState(() => {
       history.push(toLocaleRoute(URLS.ROOT));
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth',
-      });
+      window.scrollTo({ top: 0 });
     });
   };
 

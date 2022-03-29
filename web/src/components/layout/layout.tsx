@@ -87,21 +87,21 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     });
   }
 
-  componentDidUpdate(nextProps: LayoutProps) {
-    if (this.props.location.pathname !== nextProps.location.pathname) {
-      this.setState({ isMenuVisible: false });
+  componentDidUpdate(prevProps: LayoutProps) {
+    const { pathname, key, hash } = this.props.location;
 
-      // Immediately scrolling up after page change has no effect.
-      setTimeout(() => {
-        if (location.hash) {
-          this.visitHash();
-        } else {
-          window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
-          });
-        }
-      }, 250);
+    const hasPathnameChanged = pathname !== prevProps.location.pathname;
+    const locationKeyHasChanged = key !== prevProps.location.key;
+    const shouldScrollToHash = hash && locationKeyHasChanged;
+
+    if (hasPathnameChanged) {
+      this.setState({ isMenuVisible: false });
+      window.scrollTo({ top: 0 });
+      this.visitHash();
+    }
+
+    if (!hasPathnameChanged && shouldScrollToHash) {
+      this.visitHash();
     }
   }
 
@@ -112,10 +112,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private visitHash() {
     if (location.hash) {
       const hash = location.hash.split('?')[0];
-      setTimeout(() => {
-        const node = document.querySelector(hash);
-        node && node.scrollIntoView();
-      }, 100);
+      const node = document.querySelector(hash);
+      if (node) {
+        node.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   }
 
