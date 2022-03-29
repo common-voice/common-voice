@@ -858,6 +858,7 @@ Alles was Sie sagen, kann gegen Sie verwendet werden.
 Alles wiederholt sich.
 Alles wird gut.
 Alles wird kurzfristig geklärt und umgeplant.
+Alles wird teurer, nur das Gehalt bleibt gleich.
 Alles, was Rang und Namen in der Pharmaindustrie hat, ist Kunde bei uns.
 Alles, was Sie sagen, kann vor Gericht gegen Sie verwendet werden.
 Alles, was ihr mitnehmt, müsst ihr auch selber tragen.
@@ -3713,6 +3714,7 @@ Da wähle ich lieber gleich das Original.
 Da wäre es dann etwas subtiler gewesen.
 Da wäre ich im Leben nicht drauf gekommen.
 Da wäre ich mir nicht so sicher.
+Da wäre ich sehr traurig.
 Da würde ich mal einen Arzt drauf schauen lassen.
 Da! Hast du gesehen, wie die Welt gerade wieder komplizierter geworden ist?
 Da, haben wir den Salat.
@@ -19992,6 +19994,7 @@ Kennen Sie sich mit Computern aus? Ich brauche da nämlich Unterstützung.
 Kennen wir uns?
 Kennst du Christina Steiner?
 Kennst du Leute aus der Community?
+Kennst du das Lied "Alles hat ein Ende nur die Wurst hat zwei"?
 Kennst du den Carpenter Effekt?
 Kennst du den?
 Kennst du dich aus mit nordischer Mythologie?
@@ -24082,6 +24085,7 @@ Nur so kriegt man seine volle Dröhnung Kommerz.
 Nur so lernen sie es.
 Nur so schafft man optimale Bedingungen für ein Panoramafoto.
 Nur so weit denkt wieder keiner.
+Nur so wird die Wiese grün.
 Nur solange der Vorrat reicht!
 Nur solche, die sich mit ja oder nein beantworten lassen.
 Nur um das klarzustellen.
@@ -30392,6 +30396,7 @@ Was lasse ich fallen?
 Was lese ich hier eigentlich für einen Stuss?
 Was liefern die Lambda-Sonden an Daten?
 Was liegt an allen Bushaltestellen auf dem Boden?
+Was liegt denn hier für ein Dunst an?
 Was lässt Menschen altern und warum?
 Was läuft hier?
 Was mache ich denn jetzt?
@@ -32163,6 +32168,7 @@ Wie kann man sich darüber so aufregen?
 Wie kann man sich zur Wehr setzen?
 Wie kann man über so etwas auch noch lachen?
 Wie kann sie sich das leisten?
+Wie kann sowas sein?
 Wie kannst du bei dieser Temperatur nicht frieren?
 Wie kannst du nach so vielen Arbeitsunfällen eigentlich noch am Leben sein?
 Wie kannst du nur so grausam sein?
@@ -33419,6 +33425,7 @@ Wo hast du diese Hose gekauft?
 Wo hast du geschlafen?
 Wo hast du nur all diese Fremdwörter gelernt?
 Wo hat Isabell das gelernt?
+Wo hat denn jetzt der Frosch die Locken?
 Wo hängt die Uhr?
 Wo häufig die Mieter wechseln, wird auch häufig gebohrt und gehämmert.
 Wo im Periodensystem ist die Elektronegativität am größten?

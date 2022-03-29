@@ -47,7 +47,6 @@ export type CommonVoiceConfig = {
   LAST_DATASET: string;
   SENTRY_DSN_SERVER: string;
   MAINTENANCE_MODE: boolean;
-  BENCHMARK_LIVE: boolean;
   DEBUG: boolean;
   FLAG_BUFFER_STREAM_ENABLED: boolean;
 };
@@ -64,7 +63,7 @@ const configEntry = (key: string, defaultValue: any, cast = castDefault) =>
 const BASE_CONFIG: CommonVoiceConfig = {
   VERSION: configEntry('CV_VERSION', null), // Migration number (e.g. 20171205171637), null = most recent
   RELEASE_VERSION: configEntry('GIT_COMMIT_SHA', null), // X-Release-Version header
-  PROD: configEntry('CV_PROD', false, castBoolean), // Set to true for staging and production.
+  PROD: configEntry('CV_PROD', true, castBoolean), // Set to true for staging and production.
   SERVER_PORT: configEntry('CV_SERVER_PORT', 9000, castInt),
   DB_ROOT_USER: configEntry('CV_DB_ROOT_USER', 'root'), // For running schema migrations.
   DB_ROOT_PASS: configEntry('CV_DB_ROOT_PASS', ''),
@@ -81,10 +80,14 @@ const BASE_CONFIG: CommonVoiceConfig = {
     'common-voice-datasets'
   ),
   BUCKET_LOCATION: configEntry('CV_BUCKET_LOCATION', 'us-west-2'),
-  ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'default'),
+  ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'prod'),
   SECRET: configEntry('CV_SECRET', 'super-secure-secret'),
   ADMIN_EMAILS: configEntry('CV_ADMIN_EMAILS', null),
   S3_CONFIG: configEntry('CV_S3_CONFIG', {}, castJson),
+  S3_LOCAL_DEVELOPMENT_ENDPOINT: configEntry(
+    'CV_S3_LOCAL_DEVELOPMENT_ENDPOINT',
+    null
+  ),
   CINCHY_CONFIG: configEntry('CV_CINCHY_CONFIG', {}, castJson),
   CINCHY_ENABLED: configEntry('CV_CINCHY_ENABLED', false, castBoolean),
   SSM_ENABLED: configEntry('CV_SSM_ENABLED', false, castBoolean),
@@ -100,7 +103,6 @@ const BASE_CONFIG: CommonVoiceConfig = {
   SENTRY_DSN_SERVER: configEntry('CV_SENTRY_DSN_SERVER', ''),
   MAINTENANCE_MODE: configEntry('CV_MAINTENANCE_MODE', false, castBoolean),
   BASKET_API_KEY: configEntry('CV_BASKET_API_KEY', null),
-  BENCHMARK_LIVE: configEntry('CV_BENCHMARK_LIVE', false, castBoolean),
   DEBUG: configEntry('CV_DEBUG', false, castBoolean),
   FLAG_BUFFER_STREAM_ENABLED: configEntry(
     'CV_FLAG_BUFFER_STREAM_ENABLED',

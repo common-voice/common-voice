@@ -541,6 +541,7 @@ about-get-involved-text-2 =
     гоч кылдалт, сайт шотышто нелылык нерген <githubLink>GitHub</githubLink> гоч увертаре але
     <matrixLink>Matrix</matrixLink> тӱшкан чатышкыже ушно.
 about-stay-in-touch = Кузе мылам кылыште кодаш?
+about-stay-in-touch-button = Регистрацийым эрташ
 about-stay-in-touch-text-1 = Кузе Common Voice капанийлаш, тӱшкасомыллаш, пырля дизайн функцийлаш ушнаш манын, пален налашлан мемнан колтедылмашлан <emailFragment>возалт</emailFragment>.
 about-stay-in-touch-text-2 = Темым каҥашашлан <discourseLink>Discourse-ыш</discourseLink> але писе каҥашлан <matrixLink>Matrix</matrixLink> деке ушнен тый Mozilla-н йылме тӱшкалаш моло ушнышо-влак дене палыме лийын кертат.
 about-nav-why-common-voice = Молан?
@@ -692,6 +693,7 @@ review-delete-recordings = Мыйын возымым кораҥдаш
 
 ## Datasets Page
 
+datasets-heading = Датасет-влак
 datasets-headline = Ме почмо тӱҥалтыш код дене шуко йылман йӱк данныйым, кудым кажне еҥ йӱк дене ыштыше приложенийым туныкташ кучылтын кертеш, ыштена.
 datasets-positioning =
     Кумда да чылалан кучылташ лийше йӱкан датасет-влак улыклан да машиным туныктымашлан негызлалтше йӱк технологий кумдыкышто коммерций могырым таза таҥасымашлан йӧным ышта манын, ме шотлена.
@@ -817,7 +819,7 @@ record-cta = Возаш тӱҥалаш
 record-platform-not-supported = Чаманыман, кызытсе жапыште тыйын платформо огеш кучылталт.
 record-platform-not-supported-desktop = Десктоп арверлаште шке надыретым пурташ манын, тидым тулен нал…
 record-platform-not-supported-ios-non-safari = iOS-ыште возымашым чӱкташлан Safari-ыште пашам шуйо.
-record-must-allow-microphone = Тый микрофоным кучылтын кертмым улат.
+record-must-allow-microphone = Тый микрофоным кучылтын кертмым ыштышаш улат.
 record-no-mic-found = Микрофоным мумо огыл.
 record-error-too-short = Возымо утыжден кӱчык ыле.
 record-error-too-long = Возымо утыжден кужу ыле.

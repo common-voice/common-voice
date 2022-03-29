@@ -689,6 +689,7 @@ review-delete-recordings = Ta bort mina inspelningar
 
 ## Datasets Page
 
+datasets-heading = Datamängder
 datasets-headline = Vi skapar en flerspråkig röstinspelning med öppen källkod som alla kan använda för att träna röstbaserade applikationer.
 datasets-positioning =
     Vi tror att stora, allmänt tillgängliga röstdatamängder kommer att främja innovation och hälsosam kommersiell konkurrens i maskinlärande baserad talteknik.

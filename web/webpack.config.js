@@ -4,9 +4,11 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const PreloadWebpackPlugin = require('@vue/preload-webpack-plugin');
-const BundleAnalyzerPlugin =
-  require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
+const HASH_LENGTH = 16; // length specified for our compressed-size action
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
 
 const babelLoader = {
@@ -16,11 +18,29 @@ const babelLoader = {
     presets: ['@babel/preset-env'],
   },
 };
+
 module.exports = () => {
   const plugins = [
-    /** See https://webpack.js.org/plugins/extract-text-webpack-plugin/ */
+    function () {
+      this.hooks.watchRun.tap('Building', () => {
+        console.log(chalk.yellow('Webpack: Rebuilding…'));
+      });
+      this.hooks.done.tap('Built', () => {
+        console.log(chalk.green('Webpack: Built!'));
+      });
+    },
+
+    new CleanWebpackPlugin(),
+
+    new CopyPlugin({
+      patterns: [
+        // copy release files into dist
+        { from: 'releases', to: 'releases' },
+      ],
+    }),
+
     new MiniCssExtractPlugin({
-      filename: 'index.css',
+      filename: '[name].[contenthash].css',
     }),
 
     new HtmlWebpackPlugin({
@@ -38,13 +58,6 @@ module.exports = () => {
       },
     }),
 
-    function () {
-      this.hooks.watchRun.tap('Building', () =>
-        console.log(chalk.yellow('Rebuilding…'))
-      );
-      this.hooks.done.tap('Built', () => console.log(chalk.green('Built!')));
-    },
-
     new webpack.DefinePlugin({
       'process.env.GIT_COMMIT_SHA': JSON.stringify(process.env.GIT_COMMIT_SHA),
     }),
@@ -58,9 +71,9 @@ module.exports = () => {
     entry: './src/main.ts',
     output: {
       path: OUTPUT_PATH,
-      filename: 'bundle.js',
+      filename: '[name].[contenthash].js',
       publicPath: '/dist/',
-      chunkFilename: '[name].js?id=[chunkhash]',
+      hashDigestLength: HASH_LENGTH,
     },
     stats: 'errors-only',
     devtool: 'source-map',
@@ -74,6 +87,15 @@ module.exports = () => {
 
       alias: {
         img: path.join(__dirname, 'img/'),
+      },
+
+      /*
+        some test files require node and webpack
+        complains so we'll disable these dependancies
+      */
+      fallback: {
+        path: false,
+        fs: false,
       },
     },
     module: {
@@ -104,19 +126,46 @@ module.exports = () => {
           test: /\.css$/,
           use: [
             MiniCssExtractPlugin.loader,
-            { loader: 'css-loader', options: { importLoaders: 1 } },
+            {
+              loader: 'css-loader',
+              options: {
+                sourceMap: true,
+                esModule: false, // TODO: Switch to ES modules syntax.
+                importLoaders: 1,
+              },
+            },
             'postcss-loader',
           ],
         },
         {
-          test: /\.(png|svg|jpg|gif)$/,
+          test: /\.(png|svg|jpg|gif|ttf)$/,
           loader: 'file-loader',
           options: {
             esModule: false, // TODO: Switch to ES modules syntax.
+            name() {
+              if (process.env.NODE_ENV === 'development') {
+                return '[path][name].[ext]';
+              }
+
+              return `[name].[contenthash:${HASH_LENGTH}].[ext]`;
+            },
           },
         },
       ],
     },
     plugins,
+    optimization: {
+      moduleIds: 'deterministic',
+      runtimeChunk: 'single',
+      splitChunks: {
+        cacheGroups: {
+          vendor: {
+            test: /[\\/]node_modules[\\/]/,
+            name: 'vendors',
+            chunks: 'all',
+          },
+        },
+      },
+    },
   };
 };

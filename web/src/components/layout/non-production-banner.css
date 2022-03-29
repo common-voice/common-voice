@@ -1,0 +1,31 @@
+.non-production-banner {
+    position: fixed;
+    top: calc(var(--header-height) - 1em);
+    margin: var(--page-margin);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+    background: var(--black);
+    z-index: var(--override-z-index);
+    border-radius: 5px;
+
+    > span {
+        padding: 1em;
+    }
+
+    & a {
+        color: currentcolor;
+        text-decoration: underline;
+        text-underline-offset: 0.15em;
+        text-decoration-thickness: 2px;
+    }
+
+    & button {
+        border: none;
+        border-left: 2px solid white;
+        color: white;
+        padding: 1em;
+        font-size: 1.25em;
+    }
+}

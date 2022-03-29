@@ -2,12 +2,10 @@ import { AllGoals, CustomGoalParams } from 'common';
 import { LanguageStats } from 'common';
 import { UserClient } from 'common';
 import { WeeklyChallenge, Challenge, TeamChallenge } from 'common';
-import { FeatureType } from 'common';
 import { Sentence, Clip } from 'common';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { USER_KEY } from '../stores/root';
-import * as Sentry from '@sentry/browser';
 
 interface FetchOptions {
   method?: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
@@ -265,6 +263,10 @@ export default class API {
     }).then(body => JSON.parse(body));
   }
 
+  getJob(jobId: number) {
+    return this.fetch(`${API_PATH}/job/${jobId}`);
+  }
+
   saveAvatarClip(blob: Blob): Promise<void> {
     return this.fetch(API_PATH + '/user_client/avatar_clip', {
       method: 'POST',
@@ -455,12 +457,6 @@ export default class API {
       );
     }
     return null;
-  }
-
-  async getFeatureFlag(feature: string, locale: string): Promise<FeatureType> {
-    return this.fetch(`${API_PATH}/feature/${locale}/${feature}`, {
-      method: 'GET',
-    });
   }
 
   getPublicUrl(path: string, bucketType: string): Promise<{ url: string }> {

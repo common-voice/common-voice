@@ -265,6 +265,34 @@ button.card-action:focus.focus-visible path {
 }
 
 .spinner {
+    box-sizing: border-box;
+    animation: spinner-fade-in 0.5s ease-in forwards;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+
+    .spinner__shape {
+        border-radius: 50%;
+        display: inline-block;
+
+        height: var(--spinner-height);
+        width: var(--spinner-height);
+
+        animation: spin 4s linear infinite;
+        background-color: var(--black);
+        opacity: 1;
+        transition: opacity var(--transition-duration) linear;
+    }
+}
+
+.spinner--light {
+    .spinner__shape {
+        background-color: var(--white);
+    }
+}
+
+.spinner--floating {
     pointer-events: none;
     z-index: var(--middle-z-index);
     position: absolute;
@@ -273,27 +301,14 @@ button.card-action:focus.focus-visible path {
     top: 0;
     bottom: 0;
     margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    animation: spinner-fade-in 0.5s ease-in forwards;
 
-    & span {
-        border-radius: 50%;
-        display: inline-block;
+    .spinner__shape {
+        margin: auto;
         position: absolute;
-        height: var(--spinner-height);
-        width: var(--spinner-height);
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
-        margin: auto;
-        animation: spin 4s linear infinite;
-        background-color: var(--black);
-        opacity: 1;
-        transition: opacity var(--transition-duration) linear;
     }
 }
 
