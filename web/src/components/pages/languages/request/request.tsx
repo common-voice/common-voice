@@ -110,14 +110,16 @@ const LanguagesRequestFormPage = () => {
       // redirect to languages/success path if email sent correctly
       history.push(toLocaleRoute(URLS.LANGUAGE_REQUEST_SUCCESS));
     } catch (e) {
+      console.error(e);
       setIsSendingRequest(false);
 
-      if (e.message === 'Incorrect reCAPTCHA') {
+      if (e.message.includes('reCAPTCHA')) {
         setReCAPTCHAMessage('request-language-google-recaptcha-error');
         return;
       }
 
       setHasGenericError(true);
+      window.scrollTo({ top: 0 });
     }
     setIsSendingRequest(false);
   };

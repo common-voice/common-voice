@@ -9,6 +9,7 @@ import PromiseRouter from 'express-promise-router';
 const Transcoder = require('stream-transcoder');
 
 import { UserClient as UserClientType } from 'common';
+import googleReCAPTCHAMiddleware from './google-recaptcha-middleware';
 import { authMiddleware } from '../auth-router';
 import { getConfig } from '../config-helper';
 import Awards from './model/awards';
@@ -23,11 +24,14 @@ import Model from './model';
 import { APIError, ClientParameterError } from './utility';
 import Email from './email';
 import Challenge from './challenge';
-import GoogleReCAPTCHA from './google-recaptcha';
 import Takeout from './takeout';
 import NotificationQueue, { uploadImage } from './queues/imageQueue';
 
-import validate, { jobSchema, sentenceSchema } from './validation';
+import validate, {
+  jobSchema,
+  sentenceSchema,
+  sendLanguageRequestSchema,
+} from './validation';
 
 export default class API {
   model: Model;
@@ -91,7 +95,12 @@ export default class API {
 
     router.get('/language/accents/:locale?', this.getAccents);
     router.get('/language/variants/:locale?', this.getVariants);
-    router.post('/language/request', this.sendLanguageRequest);
+    router.post(
+      '/language/request',
+      googleReCAPTCHAMiddleware,
+      validate({ body: sendLanguageRequestSchema }),
+      this.sendLanguageRequest
+    );
 
     router.get(
       '/:locale/sentences',
@@ -510,24 +519,12 @@ export default class API {
     );
   };
 
-  sendLanguageRequest = async (request: Request, response: Response) => {
-    const { email, languageInfo, languageLocale, reCAPTCHAClientResponse } =
-      request.body;
-
-    if (languageInfo.length === 0 || email.length === 0) {
-      return response
-        .status(500)
-        .send('Incorrect body sent to /language/request');
-    }
-
-    const googleReCAPTCHA = new GoogleReCAPTCHA();
-    const isSuccessfulReCAPTCHA = await googleReCAPTCHA.verify(
-      reCAPTCHAClientResponse
-    );
-
-    if (!isSuccessfulReCAPTCHA) {
-      return response.status(500).send('Incorrect reCAPTCHA');
-    }
+  sendLanguageRequest = async (
+    request: Request,
+    response: Response,
+    next: NextFunction
+  ) => {
+    const { email, languageInfo, languageLocale } = request.body;
 
     try {
       const info = await this.email.sendLanguageRequestEmail({
@@ -549,8 +546,7 @@ export default class API {
 
       response.json(json);
     } catch (e) {
-      console.error(e);
-      return response.status(500).send('Something went wrong emailing');
+      next(new Error('Something went wrong sending language request email'));
     }
   };
 }

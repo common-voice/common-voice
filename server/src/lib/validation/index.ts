@@ -13,5 +13,7 @@ const { validate } = new Validator({
 });
 
 export * from './jobs';
+export * from './send-language-request';
 export * from './sentences';
+
 export default validate;
