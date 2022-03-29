@@ -83,6 +83,11 @@ const LanguagesRequestFormPage = () => {
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
+    // don't submit if we're sending a request
+    if (isSendingRequest) {
+      return;
+    }
+
     const reCAPTCHAClientResponse = await handleReCaptchaVerify();
     if (!reCAPTCHAClientResponse) {
       setReCAPTCHAMessage('request-language-google-recaptcha-required');
