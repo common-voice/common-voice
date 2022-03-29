@@ -40,7 +40,7 @@ class Email {
 
     return nodemailer.createTransport({
       SES: { ses, aws: AWS },
-      sendingRate: 30, // message per second throttling
+      sendingRate: 1, // message per second throttling
     });
   }
 
