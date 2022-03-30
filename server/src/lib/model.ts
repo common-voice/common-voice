@@ -197,7 +197,7 @@ export default class Model {
   );
 
   getLanguageStats = lazyCache(
-    'language-stats',
+    'all-language-stats',
     async (): Promise<LanguageStats> => {
       const inProgressLocales = locales.filter(
         locale => !contributableLocales.includes(locale)
