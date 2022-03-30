@@ -6,10 +6,6 @@
 
 @import url('alert/alert.css');
 @import url('contact-modal/contact-modal.css');
-@import url('modal/modal.css');
-@import url('pages/languages/languages.css');
-@import url('pages/languages/get-involved-modal.css');
-@import url('request-language-modal/request-language-modal.css');
 
 /* Define our icon font. */
 @font-face {

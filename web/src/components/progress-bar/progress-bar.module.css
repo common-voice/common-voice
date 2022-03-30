@@ -1,6 +1,5 @@
 .progress {
-    margin: var(--standard-margin) 0;
-    height: 2rem;
+    height: 0.5rem;
     width: 100%;
     background: var(--grey);
 }

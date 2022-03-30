@@ -6,7 +6,7 @@ export type Accent = {
   clientId?: string;
 };
 
-export type SentenceCount = {
+type SentenceCount = {
   currentCount: number;
   targetSentenceCount: number;
 };

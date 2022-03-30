@@ -1,8 +1,9 @@
 import * as request from 'request-promise-native';
-import { Language, LanguageStats, Sentence } from 'common';
+import { Language, LanguageStats, Sentence, SentenceCount } from 'common';
 import DB from './model/db';
 import { DBClip } from './model/db/tables/clip-table';
 import lazyCache from './lazy-cache';
+const HOUR_IN_SECONDS = 3600;
 
 // based on the latest dataset
 const AVG_CLIP_SECONDS = 4.694;
@@ -102,7 +103,9 @@ const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = {
   mk: 5.028,
 };
 
-const getAvgSecondsPerClip = (locale: string) =>
+const DEFAULT_TARGET_SENTENCE_COUNT = 5000;
+
+const getAverageSecondsPerClip = (locale: string) =>
   AVG_CLIP_SECONDS_PER_LOCALE[locale] || AVG_CLIP_SECONDS;
 
 function fetchLocalizedPercentagesByLocale() {
@@ -110,8 +113,10 @@ function fetchLocalizedPercentagesByLocale() {
     uri: 'https://pontoon.mozilla.org/graphql?query={project(slug:%22common-voice%22){localizations{totalStrings,approvedStrings,locale{code}}}}',
     method: 'GET',
     json: true,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   }).then(({ data }: any) =>
     data.project.localizations.reduce(
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       (obj: { [locale: string]: number }, l: any) => {
         obj[l.locale.code] = Math.round(
           (100 * l.approvedStrings) / l.totalStrings
@@ -124,6 +129,7 @@ function fetchLocalizedPercentagesByLocale() {
 }
 const MINUTE = 1000 * 60;
 const DAY = MINUTE * 60 * 24;
+
 /**
  * The Model loads all clip and user data into memory for quick access.
  */
@@ -217,7 +223,7 @@ export default class Model {
     async () => {
       const english = (await this.db.getValidClipCount(['en']))[0];
       return Math.round(
-        ((english ? english.count : 0) * getAvgSecondsPerClip('en')) / 3600
+        ((english ? english.count : 0) * getAverageSecondsPerClip('en')) / 3600
       );
     },
     DAY
@@ -236,15 +242,34 @@ export default class Model {
         .filter(language => !language.is_contributable)
         .map(language => language.name);
 
-      function indexCountByLanguage(
-        rows: { locale: string; count: number; target_sentence_count: number }[]
-      ): {
-        [locale: string]: any;
+      function indexCountByLocale(rows: { locale: string; count: number }[]): {
+        [locale: string]: number;
       } {
         return rows.reduce(
           (
-            obj: { [locale: string]: any },
-            { count, locale, target_sentence_count }: any
+            obj: { [locale: string]: number },
+            { count, locale }: { count: number; locale: string }
+          ) => {
+            obj[locale] = count;
+            return obj;
+          },
+          {}
+        );
+      }
+
+      function indexSentenceCountByLocale(
+        rows: { locale: string; count: number; target_sentence_count: number }[]
+      ): {
+        [locale: string]: SentenceCount;
+      } {
+        return rows.reduce(
+          (
+            obj: { [locale: string]: SentenceCount },
+            {
+              count,
+              locale,
+              target_sentence_count,
+            }: { locale: string; count: number; target_sentence_count: number }
           ) => {
             obj[locale] = {
               currentCount: count,
@@ -261,34 +286,59 @@ export default class Model {
         sentenceCounts,
         validClipsCounts,
         speakerCounts,
+        dailySpeakerCounts,
       ] = await Promise.all([
         fetchLocalizedPercentagesByLocale(),
         this.db
           .getSentenceCountByLocale(inProgressLocales)
-          .then(indexCountByLanguage),
+          .then(indexSentenceCountByLocale),
         this.db
           .getValidClipCount(contributableLocales)
-          .then(indexCountByLanguage),
+          .then(indexCountByLocale),
+        this.db.getSpeakerCount(contributableLocales).then(indexCountByLocale),
         this.db
-          .getSpeakerCount(contributableLocales)
-          .then(indexCountByLanguage),
+          .getDailySpeakerCount(contributableLocales)
+          .then(indexCountByLocale),
       ]);
 
-      return {
-        inProgress: inProgressLocales.map(locale => ({
-          locale,
-          localizedPercentage: localizedPercentages[locale] || 0,
-          sentencesCount: sentenceCounts[locale] || 0,
-        })),
-        launched: contributableLocales.map(locale => ({
-          locale,
-          seconds: Math.floor(
-            (validClipsCounts[locale]?.currentCount || 0) *
-              getAvgSecondsPerClip(locale)
-          ),
-          speakers: speakerCounts[locale] || 0,
-        })),
+      const countToHours = (locale: string, count?: number) => {
+        if (!count || count === 0) {
+          return 0;
+        }
+
+        return Math.ceil(
+          (count * getAverageSecondsPerClip(locale)) / HOUR_IN_SECONDS
+        );
       };
+
+      const launched = contributableLocales.map(locale => {
+        const recordedHours = countToHours(locale, dailySpeakerCounts[locale]);
+        const validatedHours = countToHours(locale, validClipsCounts[locale]);
+        const speakersCount = speakerCounts[locale] || 0;
+        const sentencesCount = sentenceCounts[locale] || {
+          currentCount: 0,
+          targetSentenceCount: DEFAULT_TARGET_SENTENCE_COUNT,
+        };
+
+        return {
+          locale,
+          recordedHours,
+          validatedHours,
+          speakersCount,
+          sentencesCount,
+        };
+      });
+
+      const inProgress = inProgressLocales.map(locale => ({
+        locale,
+        localizedPercentage: localizedPercentages[locale] || 0,
+        sentencesCount: sentenceCounts[locale] || {
+          currentCount: 0,
+          targetSentenceCount: DEFAULT_TARGET_SENTENCE_COUNT,
+        },
+      }));
+
+      return { launched, inProgress };
     },
     DAY / 2
   );
@@ -298,8 +348,8 @@ export default class Model {
     async (locale: string) =>
       (await this.db.getClipsStats(locale)).map(stat => ({
         ...stat,
-        total: Math.round(stat.total * getAvgSecondsPerClip(locale)),
-        valid: Math.round(stat.valid * getAvgSecondsPerClip(locale)),
+        total: Math.round(stat.total * getAverageSecondsPerClip(locale)),
+        valid: Math.round(stat.valid * getAverageSecondsPerClip(locale)),
       })),
     DAY / 2
   );

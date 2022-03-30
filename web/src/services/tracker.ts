@@ -109,17 +109,6 @@ export function trackProfile(
   track('Profile', action, locale);
 }
 
-export function trackLanguages(
-  action:
-    | 'open-request-language-modal'
-    | 'contribute'
-    | 'see-more'
-    | 'see-less',
-  locale: string
-) {
-  track('Languages', action, locale);
-}
-
 export function trackDataset(action: string, locale: string) {
   track('Data', action, locale);
 }
