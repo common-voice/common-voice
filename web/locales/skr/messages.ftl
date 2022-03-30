@@ -575,6 +575,7 @@ dataset-date = تریخ
 license = لائسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = مکس تھئے
 data-download-singleword-title = ہک لفظی ہدف حصہ ڈاؤن لوڈ کرو
+review-terms = کامن وائس ورتݨ نال تساں ساݙیاں <termsLink>شرطاں</termsLink> تے <privacyLink> رازداری نوٹس</privacyLink> نال متفق ہوسو
 terms-agree = میں متفق ہاں
 terms-disagree = میں راضی کائنی
 review-aborted = اپ لوڈ منسوخ تھی ڳئی۔ بھلا تساں آپݨی رکاڈنگ مٹاوݨ چاہندے ہو؟
@@ -603,6 +604,7 @@ email-to-download = ڈاؤن لوڈ کرݨ کیتے ای میل درج کرو
 confirm-size = تساں <b>{ $size }</b>  کوں ڈاؤن لوڈ شروع کرݨ کیتے  تیار ہو
 size-gigabyte = جی بی
 size-megabyte = ایم بی
+confirm-no-identify = <b>تساں متفق ہو</b> جو تساں کامن وائس ڈیٹا سیٹ وچ مقررین دی سُن٘ڄاݨ دا تعین کرݨ دی کوشش کائناں کریسو
 download-language = { $language } ڈاؤن لوڈ کرو
 validated-hours = کل تصدیق تھئے گھنٹے
 recorded-hours = ریکارڈ تھئے گھنٹے
@@ -718,8 +720,14 @@ listen-again-instruction = سوہݨا کم!<playIcon></playIcon> تساں تیا
 listen-3rd-time-instruction = ٢ تھی ڳئے۔  شاباش جاری رکھو!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>چھیکڑی ہک!
 listen-empty-state = ایں زبان وچ تصدیق کرݨ کیتے ساݙے کول کلپ مُک ڳئے ہن۔۔۔
+listen-loading-error =
+    اساں تہاݙے سُݨݨ کیتے کوئی آڈیو کلپ کائنی گھن سڳے۔
+    سوہݨا، ولدا بعد وچ کوشش کرو۔
 speak-empty-state = ایں زبان وچ رکاڈ کرݨ کیتے ساݙے کول جملے مُک ڳئے ہن۔۔۔
 speak-empty-state-cta = فقرے پاؤ
+speak-loading-error =
+    اساں تہاݙے ٻولݨ کیتے کوئی جملے کائنی گھن سڳے۔
+    سوہݨا، ولدا بعد وچ کوشش کرو۔
 record-button-label = آپݨی آواز رکاڈ کرو
 share-title-new = <bold> ساݙی مدد کرو</bold> ٻیاں آوازاں لبھو
 keep-track-profile = پروفائل واٹوں آپݨی پیش رفت تے نظر رکھو
@@ -888,6 +896,7 @@ demo-account = کھاتہ
 
 ## Demo Account
 
+demo-account-card-header = ونگاراں کیتے کھاتہ ہووݨ ضروری کائنی، بے شک مددگار ہے۔
 demo-account-enter-email =
     .label = سائن اپ لنک پٹھݨ کیتے ای میل درج کرو
 demo-account-sign-up = سائن اپ لنک پٹھو
@@ -918,6 +927,7 @@ contribution-misreadings-example-4-title = ٹریاسک دے دیوہیکل ڈا
 contribution-misreadings-example-5-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-6-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-7-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
+contribution-misreadings-example-7-explanation = [اصل عبارت وچ کوئی  ‘a’  کائنی]
 contribution-misreadings-example-8-title = بھون٘را تکھے تکھے اڳوں تے چلا ڳیا۔
 contribution-misreadings-example-8-explanation = [غیر مماثل مواد]
 contribution-varying-pronunciations-title = بدلدا ہویا تلفظ
