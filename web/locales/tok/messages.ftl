@@ -255,7 +255,7 @@ help-reach-goal = o pali tawa ni: ijo li { $goal }
 read-terms-q = sina pali la o lukin e lawa kepeken pi ilo ni
 ready-to-record = o pana e kalama uta sina!
 all-locales = toki ale
-today = tenpo suno ni
+today = tenpo ni
 x-weeks-short =
     { $count ->
        *[other] esun { $count }
