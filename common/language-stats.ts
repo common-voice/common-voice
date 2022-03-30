@@ -12,7 +12,9 @@ export type InProgressLanguage = BaseLanguage & {
 
 export type LaunchedLanguage = BaseLanguage & {
   seconds: number;
-  speakers: number;
+  speakers: {
+    current_count: number;
+  };
 };
 
 export interface LanguageStats {
