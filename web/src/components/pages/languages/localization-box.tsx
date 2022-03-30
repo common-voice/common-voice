@@ -182,7 +182,7 @@ const LocalizationBox = React.memo((props: Props) => {
               <span />
             </Localized>
           }
-          metricValue={props.speakers}
+          metricValue={props.speakers.current_count || 0}
           progressLabel={
             <Localized id="total-hours">
               <span />
