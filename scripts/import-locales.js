@@ -100,12 +100,12 @@ async function importPontoonLocales() {
 }
 
 async function importContributableLocales(locales) {
+  console.log("Building list of contributable languages")
   const sentencesPath = path.join(__dirname, '..', 'server', 'data');
   const oldContributable = JSON.parse(
     fs.readFileSync(path.join(dataPath, 'contributable.json'), 'utf-8')
   );
   const names = fs.readdirSync(sentencesPath).filter(name => {
-    console.log("Building list of contributable languages")
     if (oldContributable.includes(name)) {
       return true;
     }
