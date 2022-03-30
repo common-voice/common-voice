@@ -832,6 +832,7 @@ Altı yaşındaki oğlunu oraya yolladı.
 Altı yüz sahifelik roman…
 Altı!
 Altı.
+Altıma işedim.
 Altımdaki attan daha hızlı soluyarak doğruldum ve gözlerimi açtım.
 Altın anahtar her kapıyı açar.
 Altın ateşte, insan mihnette belli olur.
@@ -1309,6 +1310,7 @@ Anlaşılmaz şeyler mırıldandı.
 Anlıyor musun?
 Anlıyor musunuz?
 Anlıyordu ki yazılacak şeyler, güzel ve hakiki şeyler yalnız orada var…
+Anlıyorsun ya?
 Anlıyorum!
 Anlıyorum.
 Anlıyorum...
@@ -1441,6 +1443,7 @@ Araba, o zamana kadar farkına varmadığımız bir süratle bu karanlığa doğ
 Araba, tekerlekler dokundukça yerinden oynayan kalasların üzerinde sarsılarak yürüdü.
 Arabacı atları sürdü, öndekilere yetişti.
 Arabada da hiç konuşmadık.
+Arabadan inin.
 Arabadayım.
 Arabalar beş kuruşa!
 Arabalar durdu, herkes inip üstünü başını düzeltti.
@@ -1640,6 +1643,7 @@ Artık canlı bir mahluk gibi soluyor, homurdanıyor, lâkin bir adım ileri gid
 Artık dayanamayacağım.
 Artık dayanamıyorum.
 Artık değil.
+Artık değilim.
 Artık değiliz.
 Artık durabilirsin.
 Artık eminim.
@@ -2411,6 +2415,7 @@ Baba şarkı söyleyecek.
 Baba şehit, anne aç…
 Baba!
 Baba, benim.
+Baba, ben…
 Baba, dur!
 Baba, hadi.
 Baba, iyi misin?
@@ -3177,6 +3182,7 @@ Başını önüne dayayıp daha şimdiden uyuyanlar, birbirinin kucağında otur
 Başını öte tarafa çevirdi.
 Başının çaresine bakabilir.
 Başınız sağ olsun.
+Başınız sağolsun.
 Başınıza dikkat edin.
 Başınıza gelen bu işin ehemmiyeti yoktur, bizim ve sizin müşterek gayretimizle her şey düzelir.
 Başıyla da: "Ne idelim, bir türlü olmuyor işte!" der gibi bir işaret yaptı.
@@ -3394,6 +3400,7 @@ Ben bilmiyordum.
 Ben bilmiyorum.
 Ben bir aktörüm.
 Ben bir bakayım.
+Ben bir hemşireyim.
 Ben bir insanım!
 Ben bir işadamıyım.
 Ben bir kere kendimi unutmuştum.
@@ -3524,6 +3531,7 @@ Ben de size!
 Ben de sizi bekliyordum.
 Ben de sizi seviyorum.
 Ben de sizi özledim.
+Ben de tam gidiyordum.
 Ben de uzun tecrübelerden sonra dekolman ameliyatında birtakım değişiklikler yapılması gerektiği neticesine vardım.
 Ben de vakit buldukça ata atlayıp gidiyorum.
 Ben de varım.
@@ -4985,9 +4993,11 @@ Bir planım var.
 Bir planım yok.
 Bir planın mı var?
 Bir polis.
+Bir problem var.
 Bir projektör, yerde yumurta şeklinde bir daire çizerek, sanatkârı aydınlatıyordu.
 Bir randevum vardı.
 Bir resim sergisinde tesadüf etmiştim.
+Bir ricam var.
 Bir ruhum bulunduğunu ancak o zaman fark etmiştim.
 Bir saat içinde.
 Bir saat kadar.
@@ -5208,6 +5218,7 @@ Bir şey söyleyebilir miyim?
 Bir şey söyleyecekmiş gibi bir hareket yaptı, sonra vazgeçti.
 Bir şey söyleyeceğim.
 Bir şey unuttum.
+Bir şey unuttun.
 Bir şey var mı?
 Bir şey yap!
 Bir şey yapamadım.
@@ -5581,6 +5592,7 @@ Birşey duydun mu?
 Birşey ister misin?
 Birşey oldu.
 Birşey yok.
+Birşeyi yok.
 Birşeyler yap!
 Birşeyler yapmalıyız.
 Bisiklet mi?
@@ -6000,6 +6012,7 @@ Bu bir klasik.
 Bu bir komplo.
 Bu bir kural.
 Bu bir kâbus.
+Bu bir lütuf.
 Bu bir mazeret değil.
 Bu bir mucize.
 Bu bir oyun değil.
@@ -6219,6 +6232,7 @@ Bu insanlar kim?
 Bu insanları tanıyor musun?
 Bu insanların nesi var?
 Bu intihar olur.
+Bu intihar.
 Bu iyi bir fikir değil.
 Bu iyi bir fikir.
 Bu iyi bir haber.
@@ -6397,6 +6411,7 @@ Bu nedenle buradayım.
 Bu nedenle…
 Bu nedir?
 Bu nerede oldu?
+Bu nereye gidiyor?
 Bu neydi?
 Bu neyi değiştirir ki?
 Bu numarayı nasıl buldun?
@@ -6416,6 +6431,8 @@ Bu oldu.
 Bu olmadıktan sonra, aile sahibi olmanın hakiki ismi, "birtakım yabancılar beslemek" ti.
 Bu olmayacak.
 Bu olur.
+Bu oluyor olamaz!
+Bu oluyor.
 Bu ona bağlı.
 Bu ona fenalık değil ki, doğrudan doğruya iyilik…
 Bu onların sorunu.
@@ -6590,6 +6607,7 @@ Bu vatanperverlerle ilk çatışmamız da böyle bir vesile ile oldu.
 Bu yanlış mı?
 Bu yanlış.
 Bu yaptığınızın korkaklık olduğunu düşünmez misiniz?
+Bu yapılamaz.
 Bu yasak pek ağırdı.
 Bu yasal.
 Bu yasalara aykırı.
@@ -6638,6 +6656,7 @@ Bu çok heyecan verici.
 Bu çok hoş.
 Bu çok hoştu.
 Bu çok ilginç.
+Bu çok iyi bir haber.
 Bu çok iyi oldu.
 Bu çok iyi.
 Bu çok kaba.
@@ -6730,6 +6749,7 @@ Bugün izinliyim.
 Bugün mü?
 Bugün müydü?
 Bugün nasılsın?
+Bugün ne var?
 Bugün ne yapmak istersin?
 Bugün ne yaptın?
 Bugün nereleri gezdiniz?
@@ -7115,6 +7135,7 @@ Bunu istememiştim.
 Bunu istemiyorum.
 Bunu ister miydin?
 Bunu istiyorum.
+Bunu izleyin.
 Bunu iç.
 Bunu içtikten sonra yavaşça arkası üstü kaydı, olduğu yere uzandı.
 Bunu kabul edemem.
@@ -7372,6 +7393,7 @@ Bununla mı?
 Bununla ne demek istiyorsun?
 Bununla ne ilgisi var?
 Bununla ne yapmam gerekiyor?
+Bununla?
 Burada ayrılalım.
 Burada ayrılıyoruz.
 Burada başka kimse yok.
@@ -7624,6 +7646,7 @@ Burun yüzden düşmez.
 Burun.
 Buruşuk yüzünde birçok çizgiler daha belirmişti.
 Buyrun.
+Buyur bakalım.
 Buyur usta!
 Buyur.
 Buyur?
@@ -8236,6 +8259,7 @@ Dans etmek ister misin?
 Dans etmek ister misiniz?
 Dans etmek.
 Dans mahallinin etrafındaki masalarda yoktu.
+Dans?
 Danstan sonra, viyolonsel çalan esmer adam, piyano ile beraber sanatını gösterdi.
 Dansçıyım.
 Dans…
@@ -8396,6 +8420,7 @@ Delilsiz cennete bile girilmez.
 Delirdi!
 Delirdin mi sen?
 Delirdin mi?
+Deliriyorum.
 Delirmiş!
 Delisin sen.
 Delisiniz siz.
@@ -8468,6 +8493,7 @@ Denemeye değerdi.
 Denenmişi denemek ahmaklıktır.
 Denerim.
 Denesene.
+Deney mi?
 Deneyebilir miyim?
 Deneyeceğim.
 Deneyelim.
@@ -10000,6 +10026,7 @@ Evet mi?
 Evet millet.
 Evet o.
 Evet oğlum.
+Evet sayın yargıç.
 Evet tabii.
 Evet tatlım?
 Evet var.
@@ -10105,6 +10132,7 @@ Evet, garip.
 Evet, geliyorum.
 Evet, gerçekten öyle.
 Evet, gerçekten.
+Evet, gideceğim.
 Evet, gidiyorum.
 Evet, gidiyoruz.
 Evet, girin.
@@ -10182,6 +10210,7 @@ Evet, sana da.
 Evet, sana.
 Evet, sanırım var.
 Evet, sanırım öyle.
+Evet, sanırım öyleydi.
 Evet, sanırım.
 Evet, sayılır.
 Evet, sağ ol.
@@ -12133,6 +12162,7 @@ Hadi gel!
 Hadi gel, kız! dedi.
 Hadi gel.
 Hadi gelin.
+Hadi gidelim arkadaşlar.
 Hadi gidelim buradan.
 Hadi gidelim o zaman.
 Hadi gidelim!
@@ -13554,6 +13584,7 @@ Her şeyi görüyorum.
 Her şeyi hallettim.
 Her şeyi hatırlıyorum.
 Her şeyi itiraf ettirinceye kadar nefes aldırmayın!
+Her şeyi mahvedeceksin.
 Her şeyi mi?
 Her şeyi o zaman öğrenmiş olsaydım, belki zamanla alışır, seni başkalarında bulmaya gayret ederdim.
 Her şeyi planladım.
@@ -14242,6 +14273,7 @@ Kadın dolapta bir şeyler arayıp aldıktan sonra tekrar çıktı.
 Kadın hesabı kendisi vermekte ısrar etti.
 Kadın ileride birkaç yaşlı ve şişman adamın yanına oturdu.
 Kadın kapının önünde söylenip duruyordu.
+Kadın kim?
 Kadın kocasını isterse vezir, isterse rezil eder.
 Kadın kocasının çarığı, anasının sarığıdır.
 Kadın kızararak mırıldandı: "Su dökünecektim…"
@@ -14473,6 +14505,7 @@ Kalmamı ister misin?
 Kalmamış.
 Kalp kazanır, kaltaban gönenir.
 Kalp krizi geçiriyor.
+Kalp…
 Kalsa da aramam.
 Kalsın.
 Kaltak!
@@ -14568,6 +14601,7 @@ Kapatmalıyım.
 Kapatmam gerek.
 Kapatmam lazım.
 Kapatmayın.
+Kapattık.
 Kapattın mı?
 Kapatın!
 Kapatıyorum.
@@ -15363,6 +15397,7 @@ Kim yaptı?
 Kim yolladı seni?
 Kim öldü?
 Kim öldürdü?
+Kim ölmüş?
 Kim, ben mi?
 Kim?
 Kimden duydun?
@@ -15761,6 +15796,7 @@ Kulübeye doğru yürüyerek: "Hemşerim… Kimse yok mu?" diye bağırdım.
 Kumandan?
 Kumar falan bilmiyordum.
 Kumar gibi, sigara gibi bir şeydir.
+Kumar?
 Kumar…
 Kumlu yollarda uzun müddet dolaştık.
 Kumpanya efradı da artık dağılmaya başlamışlardı.
@@ -17130,6 +17166,7 @@ Ne halt etmeli bilmem!
 Ne haltlar dönüyor?
 Ne haltlar karıştırdın?
 Ne haltlar oluyor?
+Ne halt…
 Ne harika, değil mi?
 Ne hayatı?
 Ne heyecan verici.
@@ -17235,6 +17272,7 @@ Ne kadar vaktim var?
 Ne kadar var orada?
 Ne kadar var?
 Ne kadar yakında?
+Ne kadar zaman geçti?
 Ne kadar zamandır?
 Ne kadar zamanımız kaldı?
 Ne kadar şanslıyım.
@@ -17267,6 +17305,7 @@ Ne maksatla olduğunu bilmeden oraya gittim.
 Ne maksatla?
 Ne mal oldukları belli değil…
 Ne manasız şey?
+Ne mesajı?
 Ne mi olacak?
 Ne mi oldu?
 Ne mi oluyor?
@@ -17356,6 +17395,7 @@ Ne seçimi?
 Ne silahı?
 Ne sorunu var?
 Ne söyledi?
+Ne söyledin ona?
 Ne söylemem gerekiyor?
 Ne söylememi bekliyorsun?
 Ne söylememi istiyorsun?
@@ -17513,6 +17553,7 @@ Ne yaptığınızı sanıyorsunuz?
 Ne yaptığınızın farkında mısınız?
 Ne yapıcaz?
 Ne yapıyor bu?
+Ne yapıyor bunlar?
 Ne yapıyor orada?
 Ne yapıyor peki?
 Ne yapıyor öyle?
@@ -17801,6 +17842,7 @@ Nerden?
 Nerdesin?
 Nerdeyiz?
 Nerede Viktor?
+Nerede bilmiyorum.
 Nerede birlik, orada dirlik.
 Nerede bu?
 Nerede bulunduysam, etrafımdakiler için varlığımla yokluğum müsaviydi.
@@ -18019,6 +18061,7 @@ Neyse, biz asıl hikayeye geçelim.
 Neyse, iş bitti…
 Neyse, kalbini sağlam tut Tevfik! diyerek elinde tablosuyla beyaz geminin merdivenini çıkmaya başladı.
 Neyse, kocasıyla beraber şoförün yanında oturuyorlarmış.
+Neyse, sorun değil.
 Neyse, tanıştık…
 Neyse, teşekkürler.
 Neyse, unut gitsin.
@@ -18360,6 +18403,7 @@ O kendisini kapı dışarı edince de umumhaneye düştü.
 O kim?
 O kimdi?
 O konuda…
+O kız kim?
 O masum.
 O mu?
 O muydu?
@@ -19086,6 +19130,7 @@ Onu kaybettik.
 Onu kaybettim.
 Onu kaçırdın.
 Onu kesmeye, yarım bırakmaya, hakikat pahasına da olsa uyanmaya hakkım yoktu.
+Onu kim suçlayabilir ki?
 Onu koruyacağım.
 Onu kurtarabilirim.
 Onu kurtardın.
@@ -19848,6 +19893,7 @@ Peki ya şimdi?
 Peki ya...
 Peki öyleyse.
 Peki şimdi ne olacak?
+Peki şimdi ne yapacaksın?
 Peki şimdi ne yapacağız?
 Peki şimdi?
 Peki!
@@ -20539,6 +20585,7 @@ Sana zarar vermek istemiyoruz.
 Sana zarar vermem.
 Sana zarar vermeyeceğim.
 Sana âşık değilim.
+Sana çok yakıştı.
 Sana öyle geliyor.
 Sana öğreteceğim.
 Sana.
@@ -21806,6 +21853,7 @@ Sizinle mükemmel arkadaşlık ederiz.
 Sizinle tanışmak büyük bir zevk.
 Sizinle tanışmak güzel.
 Sizinle tanışmak güzeldi.
+Sizinle tanışmak zevkti.
 Sizinle tanışmak çok güzel.
 Sizinle tanışmak çok güzeldi.
 Sizinle yüzleştirildiğimden on gün kadar sonra idi.
@@ -22405,6 +22453,7 @@ Sıcaktır.
 Sıcağa kar mı dayanır?
 Sıfır
 Sıfır.
+Sıhhiye eri!
 Sıhhiye!
 Sık gidersen dostuna, yatar arka üstüne.
 Sık sık görüştüğüm Hamdi'yi, bankadan ayrıldığımdan beri görmemiştim.
@@ -22522,6 +22571,7 @@ Tabii göremezsin…
 Tabii hanımefendi.
 Tabii ki biliyor.
 Tabii ki biliyorum.
+Tabii ki ciddiyim.
 Tabii ki de.
 Tabii ki değilim.
 Tabii ki evet.
@@ -22783,6 +22833,7 @@ Tamamdır!
 Tamamdır, gidelim.
 Tamamdır.
 Tamamen bitti.
+Tamamen haklısın.
 Tamamen senin.
 Tamamen senindir.
 Tamamen seninim.
@@ -23058,6 +23109,7 @@ Temiz iş altı ayda çıkar.
 Temiz iş.
 Temiz!
 Temiz.
+Temizlik mi?
 Temiz…
 Temmuz ortasıydı.
 Tencere demiş, dibim altın.
@@ -23197,6 +23249,7 @@ Tren yavaşça harekete geçmişti.
 Trenden çıkar çıkmaz kalabalık bir alayla karşılaştım.
 Trenden çıkınca otelde bir banyo almadan, nazik vücudunu dinlendirmeden gelir mi hiç?
 Treni durdur!
+Treni durdurun!
 Trenin hareket saati gelmişti.
 Trenin istasyonda durmasıyla kalkması bir oldu.
 Trenin penceresindeki uzun boyunlu adam eliyle işaret ediyor: "Gelsene ulan!" diye bağırıyordu.
@@ -23355,6 +23408,7 @@ Unuttuğum bir şey var mı?
 Unutun bunu.
 Unutup gittiğimi zannettiğim bu hatıraların, bundan sonra beni hiç bırakmayacaklarını biliyorum.
 Unutuyordum.
+Uslu bir çocuk ol.
 Uslu dur!
 Usta bir kuyumcu elinden çıktığı, kenarlarını süsleyen göz alıcı ziynetlerden belliydi.
 Usta!
@@ -24437,6 +24491,7 @@ Yarın gelin.
 Yarın gelirim.
 Yarın gidiyoruz.
 Yarın git gör…
+Yarın görüşür müyüz?
 Yarın görüşürüz o zaman.
 Yarın görüşürüz.
 Yarın gündüzün buluşacağız!
@@ -24478,6 +24533,7 @@ Yatakta hiç farkında olmayarak yine aklıma geldi.
 Yatan öküze yem yok.
 Yatan ölmez, eceli yeten ölür.
 Yatağa gidiyorum.
+Yatağa git.
 Yatağa yatar yatmaz uyumuşum.
 Yatağın altında.
 Yatağın ayakucunu gösterdi.
@@ -26665,6 +26721,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 Üzgünüm millet.
 Üzgünüm oğlum.
 Üzgünüm!
+Üzgünüm, ben sadece…
 Üzgünüm, bunu yapamam.
 Üzgünüm, dostum.
 Üzgünüm, efendim.
@@ -27468,6 +27525,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 İç şunu.
 İç!
 İç.
+İçecek bir şey alır mısın?
 İçecek bir şey alır mısınız?
 İçecek bir şey ister misin?
 İçecek bir şey ister misiniz?
@@ -27610,6 +27668,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 İş bu kadarla bitmiyordu.
 İş bulmasını rica etmeye değil de, para yardımı yapmasını istemeye geldim zanneder diye çekinmiştim.
 İş ister misin?
+İş için buradayım.
 İş için geldim.
 İş mi?
 İş nedir?
@@ -28161,6 +28220,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 Şu haline bir bak!
 Şu halinize bakın!
 Şu hapishanede yatan yedi yüz kişinin en az beş yüzünün boynunda can vebali var.
+Şu herife bak.
 Şu hâle bak.
 Şu hâline bak.
 Şu işe bak.

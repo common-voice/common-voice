@@ -3816,6 +3816,7 @@ Barberà del Vallès es troba al Vallès Occidental
 Barcelona es bona si la bossa sona.
 Barcelona es troba al Barcelonès
 Barcelona es trobava lluny dels llocs de combat
+Barcelona fou seu olímpica el mil nou cents noranta-dos.
 Barcelona: Universitat de Barcelona, dos mil catorze.
 Barjolets de Benissa, cara de coca, han regalat a santa Anna.
 Bassella es troba a l’Alt Urgell
@@ -4055,6 +4056,7 @@ Camprodon es troba al Ripollès
 Camus: potser és millor per a Déu que nosaltres no hi creguem.
 Camus: si el món fora clar, no hi hauria art.
 Camós es troba al Pla de l’Estany
+Can Puig és una masia de les Guilleries a prop de Vic.
 Canejan es troba a la Val d’Aran
 Canet de Mar es troba al Maresme
 Canet d’Adri es troba al Gironès
@@ -4658,6 +4660,7 @@ Curulla de les nostres passions i de la sang de les nostres venes.
 Càl·lias, si els teus fills fóren poltres o vedells, prou sabríem educar-los?
 Cànoves i Samalús es troba al Vallès Oriental
 Cèlia és ministra
+César, Zamora i Samitier foren grans futbolistes del Barcelona fútbol club
 Cúpules de vidre i teulades fantasioses
 D'acord amb Jean-Paul Sartre, l'ésser humà és llibertat.
 D'acord amb els seus estatuts, té per objectiu protegir l'ideal valencianista.
@@ -5881,6 +5884,7 @@ El que fas pels altres roman com el teu llegat.
 El que has de fer és respondre la pregunta, ho has fet o no?
 El que havia posat a la porta aquell rètol
 El que li agradava més eren les poesies
+El que li passa és que és molt egoista.
 El que mana vol que els manats siguen dòcils. Cal partir d'aquesta obvietat.
 El que més m'ha admirat és que deien que havíeu de prevenir-vos
 El que no podem fer és anar al Garden.
@@ -6502,6 +6506,7 @@ Els motors rugien amenaçadors.
 Els més espavilats són sempre enganyats si se'ls adula;
 Els més savis s'equivoquen, i en coses de més transcendència.
 Els més significats dels circumstants varen acostar-se a l'orador
+Els nascuts en mesos balança són equilibrats i justos
 Els negociants a l'engròs casi tots vivien en pisos
 Els nens havien d'anar disfressats a l'escola.
 Els nens no eren elloc.
@@ -7200,6 +7205,7 @@ Enmig del riu hi ha una penya, passa l’aigua i no la toca;
 Enraonant de tot i de tot-hom
 Enric Ras Oliva enginyer tarragoní
 Enric Ras Oliva fou un enginyer nascut a Tarragona
+Enric Ras Oliva, enginyer, nasqué a Tarragona
 Ens anàvem atansant a la línia de foc
 Ens de raó aprehendràs, si en acabant de sortir, es deixa olorar i sentir.
 Ens enlluernava els ulls i ens deslligava la llengua.
@@ -7501,6 +7507,7 @@ Es disposaven a tallar-nos el subministrament d'aigua
 Es disputen la custòdia de les nenes.
 Es distingeix de la concepció clàssica de joc per la negació del caràcter lúdic.
 Es diu llavors que està escrita "abreujadament".
+Es diu que els pops són animals molt intel·ligents.
 Es divertien muntant-los fins a rebentar-los.
 Es divideix el polinomi obtingut pel polinomi generador.
 Es dominava un panorama de quilòmetres i quilòmetres
@@ -8513,6 +8520,7 @@ Hem d'emprendre una tasca col·lectiva organitzada.
 Hem d'incitar les persones que tenen alguns dels vastos recursos que necessitem.
 Hem d'intentar construir situacions, és a dir, ambients col·lectius.
 Hem de començar per una fase experimental reduïda.
+Hem de comprar productes de proximitat
 Hem de comprar xampú i pasta de dents.
 Hem de definir col·lectivament el nostre programa i realitzar-lo de manera disciplinada.
 Hem de donar peu per refredar les tenses relacions amb els veïns.
@@ -9061,6 +9069,7 @@ Irene era qui les pastava i les portava al forn.
 Irlanda ha rebut la llibertat, però se l'ha guanyada justament.
 Irlanda ha tingut un esperit de sacrifici que no tenim als Països Catalans.
 Irlanda: aquesta antiga nació entra a la vida dels pobles lliures.
+Isaac Assimov m'agrada més, però.
 Isaac Newton: construïm massa murs i no suficients ponts.
 Isabel és empresària
 Isabel és pastora
@@ -10348,6 +10357,7 @@ Joan Fuster és la mesura de totes les coses.
 Joan Fuster: respostes i dubtes humanístics per als reptes científics de la revolució contemporània
 Joan Garí ja no és un sant, ja no és un home. Però somriu...
 Joan Garí s’alça de mans com un ós quan es redreça.
+Joan Ras Claravalls va ser un matemàtic nascut a Tarragona.
 Joan és un personatge prou confús.
 Joanet, si tu parlares, t’ajuntaries amb hòmens i podries ser home.
 Joaquim Carbonell, l’insigne escriptor.
@@ -10385,9 +10395,11 @@ Kant: racionalitat, llibertat i dignitat; desenvolupe l'idealisme transcendental
 Kantianament, la voluntat només és lliure si és autònoma.
 Kurt Cobain: preferisc ser odiat per qui soc que estimat per qui no soc.
 L'Aina és molt atractiva
+L'Anna està com un llum.
 L'Anna és molt tímida; a les reunions no bada mai boca.
 L'Art és millor que cap dona.
 L'Enriqueta manté la cara de pa de ral que tenia quan va néixer.
+L'Escala és un poble de pescadors.
 L'Església catòlica persegueix una retenció de les formes culturals modernes.
 L'Església es veia de lluny, gaia, somrient, idíl·lica
 L'Esteve havia pujat de grau: d'Esteve a senyor Esteve.
@@ -10756,6 +10768,7 @@ La Jonquera es troba a l’Alt Empordà
 La Junta General nomenava també nou sequier.
 La Llacuna es troba a l’Anoia
 La Llagosta es troba al Vallès Oriental
+La Lluïsa era una persona molt dolça.
 La Maria li ha donat carabasses. Diu que no li agrada com a parella.
 La Maria tenia molta tos i hem passat la nit del lloro.
 La Maria, a la callada, ha aconseguit dos ascensos en tres anys.
@@ -11383,6 +11396,7 @@ La substància la idee com un compost de matèria i forma.
 La suor de les aixelles li travessa la sotana.
 La superfície ha de ser plana, rectangular i sense obstacles.
 La supervivència d'aquestes escoles no hauria significat la liquidació de la pintura?
+La sèrie de les Fundacions és una meravella.
 La taca agafava els més encesos tons
 La taca de sang fugia de la mà de la domadora;
 La tarara sí, la tarara no, la tarara mare que la balle jo.
@@ -11545,6 +11559,7 @@ Les ambulàncies no s'atansaven mai a la línia de foc
 Les ambulàncies no van parar de baixar per l'abominable carretera
 Les ametles i les carabasses s’han presentat de temporada.
 Les anades i vingudes de les tropes feixistes eren constants
+Les anxoves de L'Escala ja fa molts anys que tenen fama.
 Les aspres mans es donen, formant a les espatlles un altre Pirineu.
 Les autoritats judicials exerceixen funcions jurisdiccionals gairebé exclusivament.
 Les bales ens passaven per damunt
@@ -11981,6 +11996,7 @@ Locutors, quan digui 'haguera' no digueu 'hagués', i a l'inrevès.
 Locutors, si diu 'digui' no digueu 'diga', i a l'inrevès.
 Locutors, si diu 'tinga' no digueu 'tingui', i a l'inrevès.
 Locutors: llegiu el que hi ha escrit, la normativa catalana és policèntrica.
+Lola Anglada era una gran dibuixant catalana.
 Londres va acceptar la invitació encantat ja que lluïa els seus joves elegants.
 Londres va acceptar la notícia encantat ja que lluïa els seus joves elegants.
 Londres va acceptar la proposta encantat ja que lluïa els seus joves elegants.
@@ -14153,6 +14169,7 @@ Petits grups de persones que enraonaven excitada ment
 Pets, rots, mocs, llufes i gargalls, cagarrines de les fines, ensaïmades de cavall.
 Petxines que un instant surten de l’ona per retornar al fons.
 Peus suats i nassos bruts. Bon remei pels geperuts!
+Philip Ka Dick és dels millors escriptors de ciència ficció.
 Picaina, redéu Picaina, quina aigua cau!
 Picaven les baranes i menjaven l'arrebossat.
 Piera es troba a l’Anoia
@@ -16814,6 +16831,7 @@ Tenir consciència pot allargar-se cap enrere, cap a qualsevol part de l'acció.
 Tenir il·lusions que s'empaiten fins al cap-d'avall de la vida
 Tenir mil duros en torra ja li venia bé
 Tenir por de l’amor és tenir por de la vida.
+Tenir tres i gastar dos és millor que tenir cinc i gastar sis
 Tenir tristors de capvespre que acabin am la llum de l'alba
 Tenir un jardí invenció seva!
 Teniu moltíssimes frases, no us les acabareu.

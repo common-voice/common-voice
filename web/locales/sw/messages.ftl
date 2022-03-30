@@ -562,12 +562,17 @@ about-playbook-how-add-sentences = Je, ninaongezaje sentensi?
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Matukio
+about-playbook-how-grow-language-content-4 = Mtandao wa kijamii
 
 ## How to validate
 
+about-playbook-how-validate-content-1 = Ikiwa ungeweza <strong>kuzisikia</strong> na <strong>kuzielewa</strong>, kwa kawaida ni <strong>bora zaidi kuziidhinisha</strong>.
+about-playbook-how-validate-content-2 = <strong>Usikatae vipande vya sauti ambavyo mzungumzaji ‘ana lafudhi’ ambayo ni tofauti na yako</strong> - hii ni muhimu ili utambuzi wa sauti ifanye kazi vyema kwa kila mtu.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Je, ninawezaje kufikia na kutumia mkusanyiko wa data?
 
 ## How are decisions made
 

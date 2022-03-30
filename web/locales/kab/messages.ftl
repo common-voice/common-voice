@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = Ṭṭef imaylen am iznan n timzizliyin a
 email-opt-in-privacy-v2 = Ma tferneḍ armas n yimaylen, ad tqebleḍ ad tesseqdec Mozilla talɣut-a akken i d-tettwasegza deg <privacyLink>Tasertit n tbaḍnit n Mozilla</privacyLink>.
 indicates-required = * Yemmal-d urti ilaqen
 not-available-abbreviation = N/A
+banner-error-slow-link = Asebter n waddaden
+error-something-went-wrong = Nesḥassef, yella wayen ur nteddu ara
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -67,6 +69,7 @@ fy-NL = Tafrizunt
 ga-IE = Tirlandit
 gl = Tagalisit
 gn = Tagaranit
+gom = Goan Konkani
 ha = Tahawsit
 he = Taɛebrit
 hi = Tahendit
@@ -92,10 +95,12 @@ ki = Kikuyu
 kk = Takazaxt
 km = Taxemṛit
 kmr = Takurdit Takurmanjit
+knn = Konkani (Devanagari)
 ko = Takurit
 kpv = Takumt Zyrian
 kw = Takuṛnikt
 ky = Takirgizt
+lb = Luxembourgish
 lg = Luganda
 lij = Taliguriant
 lt = Talitwaynit
@@ -143,6 +148,7 @@ scn = Tasisiliyant
 shi = Tacelḥit
 si = Tasinhalit
 sk = Tasluvakt
+skr = Saraiki
 sl = Tasluvinit
 so = Taṣumalit
 sq = Talbanit
@@ -158,6 +164,7 @@ ti = Tigrinya
 tig = Tatigrit
 tk = Taturkmant
 tl = Tagalugt
+tok = Toki Pona
 tr = Taṭurkit
 tt = Taṭaṭarit
 tw = Tatwit
@@ -1063,6 +1070,9 @@ sc-home-collect-text = Mudd-aɣ-d afus s tira neɣ s ulqaḍ n tefyar tizuyaz.
 sc-home-review-title = Senqed tifyar
 sc-home-review-text = Mudd-aɣ-d afus ad nsenqed tifyar s uqader n yilugan n tira.
 
+## GENERAL
+
+
 ## HOW-TO
 
 sc-howto-title = Amek
@@ -1099,10 +1109,6 @@ sc-rejected-none-found = Ulac tifyar yettwagin!
 ## STATS
 
 sc-stats-title = Tidaddanin
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Abeddel aneggaru: { $lastUpdate }
-sc-stats-last-update-never = Abeddel aneggaru: urǧin
 sc-stats-updating = Abeddel...
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
