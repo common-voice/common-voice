@@ -1,10 +1,13 @@
 export type BaseLanguage = {
   locale: string;
 };
-
+type SentenceCount = {
+  current_count: number;
+  target_sentence_count: number;
+};
 export type InProgressLanguage = BaseLanguage & {
   localizedPercentage: number;
-  sentencesCount: number;
+  sentencesCount: SentenceCount;
 };
 
 export type LaunchedLanguage = BaseLanguage & {
