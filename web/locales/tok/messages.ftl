@@ -534,7 +534,7 @@ about-stay-in-touch-button = o pali e sijelo ilo
 about-stay-in-touch-text-1 = <emailFragment>o kama</emailFragment> tawa kulupu pi lipu sin. ni la sina kama sona e pali, e tenpo suli. sina ken pali e ilo Common Voice a!
 about-stay-in-touch-text-2 = sina ken toki tawa jan pi kulupu toki Mozilla lon <discourseLink>ilo Discourse</discourseLink>, lon <matrixLink>ilo Matrix</matrixLink>.
 about-nav-why-common-voice = tan seme?
-about-nav-how-it-works = nasin seme?
+about-nav-how-it-works = nasin li seme?
 about-nav-partners = jan poka, kulupu poka
 about-nav-get-involved = o kama, o pali
 about-nav-how-it-works-2 = ilo Common Voice li pali kepeken nasin seme?
@@ -1159,10 +1159,10 @@ sc-languages-fetch-error = mi ken ala kama jo e toki. sina ken ala pana. o sin l
 
 sc-howto-title = nasin seme?
 sc-howto-addlang-title = o pana e toki sin
-sc-howto-addlang-text = sina kama kepeken sijelo ilo la, sina ken kepeken toki wile sina lon lipu jan.
+sc-howto-addlang-text = sina kama kepeken sijelo ilo la, sina ken pana e ni lon lipu jan: sina sona e toki seme.
 sc-howto-addsen-title = o pana e sitelen sin
-sc-howto-addsen-item-1 = sitelen ale sina o kepeken <wikipediaLink>nasin pana CC0</wikipediaLink>. sina pana e sitelen pi nasin pana ni ala la, o kepeken <cc0WaiverLink>nasin pana ante ni</cc0WaiverLink>. ni la sina ken pana e sitelen pi jan ale ala.
-sc-howto-addsen-item-2 = nanpa la, o pana ala e nanpa lon sitelen pana. ona li ken pakala e toki jan. lon toki ante la, nimi nanpa li ken ante. ni la, nanpa li ken nasa e kulupu sona.
+sc-howto-addsen-item-1 = sitelen ale sina o kepeken <wikipediaLink>nasin pana CC0</wikipediaLink>. sina wile pana e sitelen pi nasin pana ni ala la, jan pali pi sitelen ni li ken ante e nasin pana kepeken <cc0WaiverLink>nasin ni</cc0WaiverLink>.
+sc-howto-addsen-item-2 = nanpa la, o pana ala e sitelen nanpa lon sitelen pana. ona li ken pakala e toki jan. nimi nanpa li ken ante lon toki ante lon tenpo ante. ni li ken nasa tawa ilo.
 sc-howto-addsen-item-3 = sitelen lili, nimi lili. toki pona la, o kepeken ala nimi lili. jan li kepeken sitelen ni: "msa". ni li sitelen "mi sona ala." taso, jan li lukin e "msa" lon ilo Common Voice la, ona li sona ala e ni: nasin seme la mi toki uta e ona? sitelen lili ale en nimi lili ale la, o kepeken ala ona. sina sona e nimi la, o kepeken nimi suli.
 sc-howto-addsen-item-4 = sitelen lili pini la, o kepeken ona lon tenpo lili. toki pona li kepeken ala ni lon insa nimi. sina wile kepeken sitelen lili pini la, ni li ken pona. taso, o kepeken lili ona.
 sc-howto-addsen-item-5 = sitelen pi toki ante. o kepeken ala sitelen pi toki ante. o lukin: sitelen lili “ж” li tan toki Losi. taso, ona li lon ala toki pona. tan ni la, o kepeken ala ona.
@@ -1327,8 +1327,8 @@ sc-lang-info-in-review =
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
-        [0] sitelen ala li lon tawa sina.
-       *[other] sitelen { $unreviewedSentencesByYou } li lon tawa lukin sina.
+        [0] sitelen ala li lon tawa lukin sina.
+       *[other] sina ken lukin e sitelen { $unreviewedSentencesByYou }.
     }
 sc-lang-info-review-now = <reviewLink>o lukin e sitelen!</reviewLink>
 sc-lang-info-add-more = <addLink>o pana e sitelen sin!</addLink>
@@ -1363,7 +1363,7 @@ sc-personal-your-languages = toki sina:
 sc-personal-remove-button = o weka
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
-sc-personal-added-by-you = sina pana e sitelen { $sentences }
+sc-personal-added-by-you = sina pana e sitelen { $sentences }.
 sc-personal-not-added = sina pana ala e toki.
 
 ## REVIEW CRITERIA
