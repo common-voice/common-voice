@@ -770,8 +770,8 @@ other-language = toki ante
 language-section-in-progress = pali toki li lon
 language-section-in-progress-new-description = kulupu li suli e toki ni. linja ni li pana e sona pi suli toki lon <localizationGlossaryLink>lipu toki</localizationGlossaryLink>, lon <sentenceCollectionGlossaryLink>kulupu pi linja toki</sentenceCollectionGlossaryLink>.
 language-section-launched = open!
-language-section-launched-description = toki ni la, lipu ni li <localizationGlossaryLink>ante toki ale</localizationGlossaryLink>, li jo e <sentenceCollectionGlossaryLink>sitelen mute</sentenceCollectionGlossaryLink>. ni la, jan li ken <speakLink>toki</speakLink> li ken <listenLink>kute</listenLink>.
-languages-show-more = o pana e toki mute
+language-section-launched-description = toki ni la, ilo ni li <localizationGlossaryLink>ante toki ale</localizationGlossaryLink>, li jo e <sentenceCollectionGlossaryLink>sitelen mute</sentenceCollectionGlossaryLink>. ni la, jan li ken <speakLink>toki</speakLink> li ken <listenLink>kute</listenLink>.
+languages-show-more = toki mute
 languages-show-less = o lili e toki
 language-meter-in-progress = pali suli
 language-total-progress = sitelen pi jan ale
@@ -1124,8 +1124,8 @@ see-less = <chevron></chevron> o weka lukin e toki mute
 
 ## HEADER/FOOTER
 
-sc-header-home = lipu sinpin
-sc-header-how-to = nasin seme
+sc-header-home = lipu open
+sc-header-how-to = nasin
 sc-header-add = o pana
 sc-header-review = o pona
 sc-header-rejected = sitelen weka
@@ -1307,14 +1307,14 @@ sc-confirm-uploading = mi kama jo e sitelen sina. nanpa sitelen la ni li ken kep
 
 ## LANGUAGE INFO
 
-sc-lang-info-title-total = ale
-sc-lang-info-title-personal = sitelen sina
+sc-lang-info-title-total = ale la
+sc-lang-info-title-personal = sina la
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
         [0] sitelen ala.
-       *[other] sitelen ale { $totalSentences }.
+       *[other] sitelen { $totalSentences } li lon.
     }
 # Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
@@ -1336,15 +1336,15 @@ sc-lang-info-add-more = <addLink>o pana e sitelen sin!</addLink>
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
-        [0] sitelen pona li lon ala.
-       *[other] sitelen pona { $validatedSentences } li lon.
+        [0] sitelen ala li pona.
+       *[other] sitelen { $validatedSentences } li pona.
     }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
-        [0] sitelen weka li lon ala.
-       *[other] sitelen weka { $rejectedSentences } li lon.
+        [0] sitelen ala li weka.
+       *[other] sitelen { $rejectedSentences } li weka.
     }
 
 ## LOGIN
@@ -1390,7 +1390,7 @@ sc-review-form-prompt =
 sc-review-form-usage = sina luka tawa poka pi sitelen pini (→) la, sina pona e sitelen. sina luka tawa poka pi sitelen open (←) la, sina ike e sitelen. sina luka tawa sewi (↑) la, sina weka e sitelen. o sona e ni: o pana e sona sina!
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = sitelen li tan: { $sentenceSource }
+sc-review-form-source = sitelen li tan ni: { $sentenceSource }
 sc-review-form-button-reject = o ike
 sc-review-form-button-skip = mi sona ala
 sc-review-form-button-approve = o pona
