@@ -617,6 +617,7 @@ feedback-q = فیڈبیک ݙیسو؟
 community-playbook = برادری پَلے بیک
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = ڈسکورس تے ون٘ڄو
+missing-language = بھلا تساں آپݨی زبان دا عکس ڈیٹاسیٹ وچ نہوے ݙیہدے؟زبان دی سربراہی کرݨ دی ارداس کرݨ کیتے ساݙے زباناں ورقے تے ون٘ڄو۔
 go-languages-page = زباناں ورقے تے ون٘ڄو
 ready-to-validate = بھلا تساں جملیاں دی تصدیق کرݨ دی مدد کیتے تیار ہو؟
 more = ٻئے
