@@ -36,7 +36,6 @@ ba = Бошқирдӣ
 bas = Басаа
 be = Белорусӣ
 bg = Булғорӣ
-bm = Бамбара
 bn = Банголӣ
 br = Бретонӣ
 bxr = Бурятӣ
@@ -259,6 +258,7 @@ benefits = Бартариҳо
 rich-data = Бо пешниҳоди баъзе маълумоти демографии ношинос маълумоти пешниҳодкардаи худро то ҳадди имкон бой кунед. Мо ҳама маълумоти демографиро пеш аз он ки оммавӣ кунем, ношинос мекунем.
 improve-audio = Маълумоти профилӣ маълумоти садоиро, ки дар омӯзиши дақиқии садошиносӣ истифода мешавад, беҳтар мекунад.
 keep-track = Пешрафт ва ченакҳои худро дар бисёр забонҳо пайгирӣ кунед.
+view-goals = Пешрафти худро дар муқобили ҳадафҳои шахсӣ ва лоиҳавӣ бубинед.
 
 ## What's public
 
@@ -373,7 +373,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Чаро «Common Voice»?
-how-does-it-work-title = Он чӣ тавр кор мекунад?
+
+## How does it work section
+
 about-speak = Ҳарф занед
 about-listen = Гӯш кунед
 about-yes-votes = ≥ 2 овози «Ҳа»
@@ -387,6 +389,34 @@ about-nav-why-common-voice = Чаро?
 about-nav-how-it-works = Чӣ тавр?
 about-nav-partners = Шарикон
 about-nav-get-involved = Ҳамроҳ шудан
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Зеҳни сунъӣ
 
@@ -588,6 +618,9 @@ demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO
