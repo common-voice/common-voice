@@ -126,11 +126,14 @@ export default class API {
   }
 
   getRandomSentences = async (request: Request, response: Response) => {
-    const { client_id, params } = request;
-    const count = this.getCountQueryParam(request) || 1;
+    const { client_id } = request;
+    const { locale } = request.params;
+
+    // the validator coerces count into a number but doesn't update the type
+    const count: number = (request.query.count as never) || 1;
     const sentences = await this.model.findEligibleSentences(
       client_id,
-      params.locale,
+      locale,
       count
     );
 
@@ -502,22 +505,5 @@ export default class API {
     response.json(
       await this.model.db.getVariants(client_id, params?.locale || null)
     );
-  };
-
-  private getCountQueryParam = (request: Request) => {
-    const { count } = request.query;
-
-    if (typeof count !== 'string') {
-      return null;
-    }
-
-    const countNumberResult = parseInt(count, 10);
-
-    // handle if we don't have a number sent
-    if (Number.isNaN(countNumberResult)) {
-      return null;
-    }
-
-    return countNumberResult;
   };
 }
