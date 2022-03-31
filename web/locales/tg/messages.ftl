@@ -344,6 +344,7 @@ on = Фаъол
 
 browse-file-title = Бор кардани файли тасвирӣ
 connect-gravatar = Бо Gravatar пайваст шавед
+file_too_large = Файли интихобшуда хеле калон аст
 avatar-uploaded = Аватар бор карда шуд
 
 ## Profile - Email
@@ -583,6 +584,12 @@ remove = Тоза кардан
 
 ## Profile Download
 
+download-recordings-title = Сабтҳо
+download-size = Андоза
+download-start = Маълумоти профилро боргирӣ кунед
+download-request = Сабтҳоро дархост кунед
+download-request-button = Боргирӣ кардан
+download-request-modal-title = Пайвандҳоро боргирӣ кунед
 
 ## Landing
 
@@ -616,9 +623,14 @@ demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 
 ## HEADER/FOOTER
 
+sc-header-profile = Профил
+sc-footer-privacy = Махфият
+sc-footer-terms = Шартҳо
+sc-footer-cookies = Кукиҳо
 
 ## HOME
 
+sc-home-collect-title = Ҷумлаҳоро ҷамъ кунед
 
 ## GENERAL
 
@@ -628,6 +640,7 @@ demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 
 ## MY SENTENCES
 
+sc-my-no-sentences = Ягон ҷумла ёфт нашуд!
 
 ## REJECTED
 
@@ -643,6 +656,7 @@ demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Тасдиқ кардан
 
 ## LANGUAGE INFO
 
