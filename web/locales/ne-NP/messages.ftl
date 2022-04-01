@@ -1485,13 +1485,26 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = तपाईंले किबोर्ड सर्टकटहरू पनि प्रयोग गर्न सक्नुहुन्छ:{ sc-review-form-button-approve-shortcut } अनुमोदन गर्न, { sc-review-form-button-reject-shortcut }अस्वीकार गर्न, { sc-review-form-button-skip-shortcut } सर्टकट छोड्न
 sc-review-form-button-submit =
     .submitText = समीक्षा समाप्त गर्नुहोस्
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] कुनै वाक्य समीक्षा गरिएको छैन।
+        [one] 1 वाक्य समीक्षा गरियो। धन्यवाद!
+       *[other] { $sentences } वाक्यहरू समीक्षा गरिए। धन्यवाद!
+    }
+sc-review-form-review-failure = समीक्षा सुरक्षित गर्न सकिएन। फेरी प्रयास गर्नु होला।
 sc-review-link = समीक्षा गर्नुहोस्
 
 ## SETTINGS
 
 sc-settings-title = सेटिङ्गहरू
+sc-settings-ui-language = इन्टरफेस भाषा
+sc-settings-language-translated-warning = यस भाषाको लागि पृष्ठहरू पूर्ण रूपमा अनुवाद नहुन सक्छ। तपाईंले अनुवादमा मद्दत गर्न सक्नुहुन्छ <pontoonLinkLink>Pontoon मा</pontoonLinkLink>।
+sc-settings-reset-skipped = छोडिएका वाक्यहरू रिसेट गर्नुहोस्
 sc-settings-failed = सेटिङ्गहरू परिवर्तन गर्न सकिएन। कृपया पुनः प्रयास गर्नुहोस।
 
 # [/SentenceCollector]
