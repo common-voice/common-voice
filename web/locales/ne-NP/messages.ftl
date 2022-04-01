@@ -1505,7 +1505,14 @@ sc-settings-title = सेटिङ्गहरू
 sc-settings-ui-language = इन्टरफेस भाषा
 sc-settings-language-translated-warning = यस भाषाको लागि पृष्ठहरू पूर्ण रूपमा अनुवाद नहुन सक्छ। तपाईंले अनुवादमा मद्दत गर्न सक्नुहुन्छ <pontoonLinkLink>Pontoon मा</pontoonLinkLink>।
 sc-settings-reset-skipped = छोडिएका वाक्यहरू रिसेट गर्नुहोस्
+sc-settings-skipped-decription = तपाईंले पहिले समीक्षा गर्दा वाक्यहरू छोड्नुभयो। छोडिएका वाक्यहरू रिसेट गर्दा सबै छोडिएका वाक्यहरू फेरि देखिने छन्। यो भाषाको स्वधिनतामा छ।
+sc-settings-show-all-button = छोडिएका सबै वाक्यहरू फेरि देखाउनुहोस्
 sc-settings-failed = सेटिङ्गहरू परिवर्तन गर्न सकिएन। कृपया पुनः प्रयास गर्नुहोस।
+# VALIDATION
+sc-validation-number-of-words = वाक्यमा 1 र 14 (समावेशी) शब्दहरू हुनुपर्छ
+sc-validation-no-numbers = वाक्यमा संख्याहरू हुनुहुँदैन
+sc-validation-no-symbols = वाक्यमा प्रतीक(symbols)हरू हुनुहुँदैन
+sc-validation-no-abbreviations = वाक्यमा संक्षिप्त शब्दहरू हुनु हुँदैन
 
 # [/SentenceCollector]
 
