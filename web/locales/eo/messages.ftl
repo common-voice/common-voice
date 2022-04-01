@@ -477,10 +477,16 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kial Common Voice?
+about-header-description-v2 =
+    <p>Common Voice estas publike disponebla voĉa datumaro, pelata de la voĉoj de kontribuantaj volontuloj en la tuta mondo. Tiuj kiuj volas krei voĉrekonaj programoj povas uzi la datumaron por trejni maŝinlernajn modelojn.</p>
+    <p>Nuntempe la plimulton de la voĉaj datumaroj posedas entreprenoj, kaj tio bremsas novaĵkreemon. Voĉaj datumaroj cetere troe reprezentas blankajn angloparolantajn virojn. Tio signifas ke parolrekonaj teknologioj tute ne funkcias por kelkaj lingvoj, kaj kiam ĝi funkcias, ĝi ne estos same bona por ĉiuj. Ni volas ŝanĝi tion kun la helpo de personoj ĉie, kaj tial ni petas al ili dividi siajn voĉojn.</p>
+how-does-it-work-title-v2 = Kiel funkcias Common Voice?
 how-does-it-work-text = Ni kalkulas je kolektiva patropreno por konstrui malfermitkodan voĉan datumaron. Donacu vian voĉon, validigu la precizecon de la voĉregistroj de aliaj personoj, plibonigu la datumaron por ĉiuj.
 
 ## How does it work section
 
+about-language-req-subtitle = Iu petas aldonon de lingvo.
+about-localization-title = Traduko de retejo
 about-speak = Paroli
 about-speak-text = Kontribuantoj laŭtlegas el kolekto de donacitaj frazoj kaj registras siajn voĉojn.
 about-listen-queue = Vico de aŭskulto
