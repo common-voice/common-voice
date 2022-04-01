@@ -263,8 +263,9 @@ export default class API {
   };
 
   saveAvatar = async (
-    { body, params, user, client_id }: Request,
-    response: Response
+    { body, headers, params, user, client_id }: Request,
+    response: Response,
+    next: NextFunction
   ) => {
     let avatarURL;
     let error;
@@ -290,9 +291,11 @@ export default class API {
         return response.status(StatusCodes.CREATED).json({ id: job.id });
       } catch (error) {
         console.error(error);
-        throw new APIError(
-          error?.message || 'Image could not be uploaded.',
-          StatusCodes.BAD_REQUEST
+        next(
+          new APIError(
+            error?.message || 'Image could not be uploaded.',
+            StatusCodes.BAD_REQUEST
+          )
         );
       }
     } else if (params.type === 'default') {
@@ -306,12 +309,12 @@ export default class API {
         await sendRequest(avatarURL + '&d=404');
       } catch (e) {
         if (e.name != 'StatusCodeError') {
-          throw e;
+          next(e);
         }
-        throw new APIError('Unable to use Gravatar');
+        next(new APIError('Unable to use Gravatar'));
       }
     } else {
-      throw new APIError('Unable to process image');
+      next(new APIError('Unable to process image'));
     }
     const oldAvatar = await UserClient.updateAvatarURL(
       user.emails[0].value,
