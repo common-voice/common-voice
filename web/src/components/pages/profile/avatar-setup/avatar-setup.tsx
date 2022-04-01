@@ -13,7 +13,7 @@ import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
 import { Uploads } from '../../../../stores/uploads';
 import { CheckIcon, LinkIcon } from '../../../ui/icons';
-import { Spinner } from '../../../ui/ui';
+import { Avatar, Button, Spinner } from '../../../ui/ui';
 
 import './avatar-setup.css';
 
@@ -149,6 +149,7 @@ class AvatarSetup extends React.Component<Props, State> {
       });
     }
   }
+
   async getPolling() {
     const { jobId } = this.state;
     const { api, refreshUser } = this.props;
@@ -186,6 +187,33 @@ class AvatarSetup extends React.Component<Props, State> {
           <div className="avatar-current">
             <div className="avatar-wrap">
               <img src={account.avatar_url} />
+            </div>
+            <Button
+              outline
+              rounded
+              style={{ marginTop: '10px' }}
+              onClick={async () => {
+                this.setState({ isSaving: true });
+                const { error } = await api.saveAvatar('default');
+                if (['not_found'].includes(error)) {
+                  addNotification(getString('gravatar_' + error));
+                }
+
+                if (!error) {
+                  refreshUser();
+                }
+                this.setState({ isSaving: false });
+              }}>
+              <Localized id="remove-avatar">
+                <span />
+              </Localized>
+            </Button>
+          </div>
+        )}
+        {!account.avatar_url && (
+          <div className="avatar-current">
+            <div className="avatar-wrap">
+              <Avatar />{' '}
             </div>
           </div>
         )}
