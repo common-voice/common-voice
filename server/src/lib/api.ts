@@ -290,9 +290,10 @@ export default class API {
         return response.status(StatusCodes.CREATED).json({ id: job.id });
       } catch (error) {
         console.error(error);
-        return response
-          .status(StatusCodes.BAD_REQUEST)
-          .json({ message: error?.message || 'Image could not be uploaded.' });
+        throw new APIError(
+          error?.message || 'Image could not be uploaded.',
+          StatusCodes.BAD_REQUEST
+        );
       }
     } else if (params.type === 'default') {
       avatarURL = null;
@@ -307,12 +308,16 @@ export default class API {
         if (e.name != 'StatusCodeError') {
           throw e;
         }
-        error = 'not_found';
+        throw new APIError('Unable to use Gravatar');
       }
     } else {
-      response.sendStatus(404);
+      throw new APIError('Unable to process image');
     }
-
+    const oldAvatar = await UserClient.updateAvatarURL(
+      user.emails[0].value,
+      avatarURL
+    );
+    if (oldAvatar) await this.bucket.deleteAvatar(client_id, oldAvatar);
     response.json(error ? { error } : {});
   };
 
