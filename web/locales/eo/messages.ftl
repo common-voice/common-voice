@@ -96,6 +96,7 @@ ki = Kikuja
 kk = Kazaĥa
 km = Kmera
 kmr = Kurmanĉa kurda
+knn = Konkana (nagaria)
 ko = Korea
 kpv = Komiziriana
 kw = Korniŝa
