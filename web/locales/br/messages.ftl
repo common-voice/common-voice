@@ -17,6 +17,7 @@ not-available-abbreviation = Dihegerz
 banner-error-slow-1 = Hon digarezit, gorrek eo Common Voice. Trugarez evit hoc’h interest.
 banner-error-slow-2 = Kalz a dud a zo war al lec’hienn ha klask a reomp diskoulmañ ar c'hudennoù.
 banner-error-slow-link = Pajenn statud
+error-something-went-wrong = Hon digarezit, degouezhet ez eus bet ur fazi
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
