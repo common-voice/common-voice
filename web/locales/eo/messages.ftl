@@ -121,6 +121,7 @@ ms = Malaja
 mt = Malta
 my = Birma
 myv = Erzja
+nan-tw = Hokla
 nb-NO = Norvega Bokmål
 ne-NP = Nepala
 nia = Niasa
@@ -135,6 +136,7 @@ pl = Pola
 ps = Paŝtuna
 pt = Portugala
 quc = Kiĉea
+quy = Keĉua (Ĉankao)
 rm-sursilv = Romanĉa surselva
 rm-vallader = Valadera romanĉa
 ro = Rumana
@@ -337,6 +339,9 @@ profile-form-additional-language =
     .label = Aldona lingvo
 profile-form-language =
     .label = Lingvo
+profile-form-variant =
+    .label = Kiun varianton de la { $language } vi parolas?
+profile-form-variant-default-value = Neniu varianto elektita
 profile-form-accent =
     .label = Akĉento
 profile-form-custom-accent-help-text =
@@ -388,6 +393,8 @@ off = Malŝaltita
 on = Ŝaltita
 help-accent = Ĉu vi bezonas helpon pri akĉento?
 help-accent-explanation = Via akĉento estas la maniero kiel vi prononcas vortojn. Ĝin influas la lokoj kie vi iam loĝis, viaj aliaj parolataj lingvoj kaj pluraj diversaj faktoroj. Vi povas dividi ĉi tie iun ajn informon, kiun vi opinias grava.
+help-variants = Ĉu vi bezonas helpon kun variantoj?
+help-variants-explanation = Variantoj estas specifaj formoj de lingvo - ekzemple dividitaj de tiuj kiuj loĝas en regiono aŭ komunumo. Kelkfoje oni nomas ilin dialektoj.
 
 ## Profile - Email
 
