@@ -140,10 +140,13 @@ class AvatarSetup extends React.Component<Props, State> {
       trackProfile('give-avatar', locale);
     } catch (e) {
       if (e.message.includes('too_large')) {
-        addNotification(getString('file_' + e.message));
+        addNotification(getString('file_' + e.message), 'error');
       } else {
-        addNotification(e.message);
+        addNotification(e.message, 'error');
       }
+      this.setState({
+        isSaving: false,
+      });
     }
   }
   async getPolling() {
