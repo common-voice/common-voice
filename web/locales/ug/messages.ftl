@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = بەسلىشىش، نىشان ئەسكە�
 email-opt-in-privacy-v2 = ئېلخەت تاپشۇرۇۋېلىشنى تاللاش ئارقىلىق Mozilla نىڭ <privacyLink> شەخسىيەت تۈزۈمى </privacyLink> دە چۈشەندۈرۈلگەندەك، Mozilla نىڭ بۇ ئۇچۇرلارنى بىر تەرەپ قىلىشىغا قوشۇلىسىز.
 indicates-required = * تولدۇرۇش زۆرۈر بۆلەكلەرنى كۆرسىتىدۇ
 not-available-abbreviation = N/A
+banner-error-slow-1 = توربەت سۈرئىتىنىڭ ئاستىلىقىدىن خىجىلمىز، Common Voiceنى ئىشلەتكىنىڭىزگە رەھمەت.
+banner-error-slow-2 = بىز زور مىقداردىكى زىيارەت ئېقىم بىسىمىغا ئۇچرىدۇق، ھازىر ئالاقىدار مەسىلىلەرنى تەكشۈرۈپ بىر تەرەپ قىلىۋاتىمىز.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -972,6 +974,9 @@ demo-dashboard-card-body = ھەر بىر ھەدىيە قىلغان ئاۋاز، 
 
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO
