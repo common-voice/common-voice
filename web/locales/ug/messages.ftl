@@ -16,6 +16,8 @@ indicates-required = * تولدۇرۇش زۆرۈر بۆلەكلەرنى كۆرس
 not-available-abbreviation = N/A
 banner-error-slow-1 = توربەت سۈرئىتىنىڭ ئاستىلىقىدىن خىجىلمىز، Common Voiceنى ئىشلەتكىنىڭىزگە رەھمەت.
 banner-error-slow-2 = بىز زور مىقداردىكى زىيارەت ئېقىم بىسىمىغا ئۇچرىدۇق، ھازىر ئالاقىدار مەسىلىلەرنى تەكشۈرۈپ بىر تەرەپ قىلىۋاتىمىز.
+banner-error-slow-link = ھالەت بېتى
+error-something-went-wrong = كەچۈرۈڭ ، ئازراق چاتاق چىقتى
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -144,6 +146,7 @@ ta = تامىلچە
 te = تېلۇگۇچە
 tg = تاجىكچە
 th = تايلاندچە
+tk = تۈركمەنچە
 tl = تاگالوگچە
 tr = تۈركچە
 tt = تاتارچە
@@ -188,6 +191,7 @@ logout = تىزىمدىن چىقىش
 ## Home Page
 
 home-title = Common Voice دېگەن Mozilla نىڭ كىشىلەرنىڭ قانداق سۆزلەيدىغانلىقىنى ماشىنىلارغا ئۆگىتىشنى نىشان قىلغان تۈرى.
+default-tagline = Common Voice بولسا Mozilla نىڭ ئادەملەرنىڭ قانداق سۆزلەيدىغانلىقىنى ماشىنىلارغا ئۆگىتىشنى نىشان قىلغان تۈرى.
 home-cta = سۆزلەڭ ، بۇ يەرگە تۆھپە قوشۇڭ!
 wall-of-text-start = ئاۋاز دېمەك تەبىئىيلىك ، ئاۋاز دېمەك ئىنسانلىق. شۇڭلاشقا بىز ماشىنىلار ئۈچۈن ئىشلىتىشچانلىققا ئىگە ئاۋاز تېخنىكىسىنى يارىتىشقا قىزىقىمىز. ئەمما ئاۋاز سىستېمىسىنى بارلىققا كەلتۈرۈش ئۈچۈن، ئىنتايىن كۆپ ئاۋاز مەنبەسىگە ئېھتىياجلىق.
 wall-of-text-more-mobile = كۆپ ساندىكى كىشىلەر چوڭ شىركەتلەر ئىشلىتىدىغان سانلىق مەلۇماتلارغا ئېرىشەلمەيدۇ. بۇ يېڭىلىق يارىتىشنى بوغۇپ قويىدۇ. شۇڭا بىز Common Voice تۈرىنى ئېلان قىلىپ، ھەرقانداق ئادەمنىڭ ئاۋاز تونۇتۇش تېخنىكىسىغا  ئېرىشەلىشى ئۈچۈن ياردەمدە بولماقچى.
@@ -309,8 +313,15 @@ profile-form-native-language =
     .label = ئانا تىل
 profile-form-additional-language =
     .label = قوشۇمچە تىل
+profile-form-language =
+    .label = تىل
+profile-form-variant =
+    .label = سىز قايسى{ $language }دا سۆزلەيسىز؟
 profile-form-accent =
     .label = ئاھاڭ
+profile-form-custom-accent-help-text =
+    .label = تەلەپپۇزىڭىزنى قانداق تەسۋىرلەيسىز؟
+profile-form-custom-accent-placeholder-2 = تەلەپپۇزىڭىزنى يېزىق ئارقىلىق تەسۋىرلەڭ
 profile-form-age =
     .label = يېشى
 profile-form-gender-2 =
@@ -321,6 +332,7 @@ hidden = يۇشۇرۇن
 visible = كۆرۈنۈشچان
 native-language =
     .label = ئانا تىل
+profile-form-add-accent = يېڭى { $inputValue } تەلەپپۇز قوشۇش
 profile-form-submit-save = ساقلا
 profile-form-submit-saved = ساقلاندى
 male = ئەر
@@ -489,6 +501,7 @@ about-get-involved-text-2 =
     مۇنبىرى ئارقىلىق ئالاقىلىشىڭ، تور بەتتىكى مەسىلىلەرنى <githubLink>GitHub</githubLink> ياكى
      <matrixLink>Matrix</matrixLink> گە يوللاڭ.
 about-stay-in-touch = ئالاقىنى قانداق ساقلاپ قالىمەن؟
+about-stay-in-touch-button = تىزىملىتىڭ
 about-nav-why-common-voice = نېمىشقا؟
 about-nav-how-it-works = قانداق؟
 about-nav-partners = ھەمكارلاشقۇچىلار
@@ -525,6 +538,7 @@ about-playbook-how-record-content-5 = <accuracyLink> توغرىلىق ئۆلچى
 ## How to grow language
 
 about-playbook-how-grow-language = قانداق قىلغاندا Common Voiceدا تىلنى ئۈنۈملۈك ئىلگىرلەتكىلى بولىدۇ؟
+about-playbook-how-grow-language-content-2 = پائالىيەتلەر
 about-playbook-how-grow-language-content-4 = ئىجتىمائىي تاراتقۇ
 about-playbook-how-grow-language-content-6 = ھەمكارلىق ۋە تور
 
@@ -538,6 +552,8 @@ about-playbook-how-access-dataset = سانلىق مەلۇمات توپلىمىن
 
 ## How are decisions made
 
+about-playbook-how-project-governance = تۈر قارارلىرى قانداق چىقىرىلىدۇ؟
+about-playbook-how-project-governance-content-3 = مەخپىيەتلىك، بىخەتەرلىك ۋە ئاشكارىلىق.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = سۈنئىي ئەقلى ئىقتىدار
 mycroft-description =
@@ -752,6 +768,7 @@ listen-last-time-instruction = <playIcon></playIcon> ئەڭ ئاخىرقىسى!
 listen-empty-state = بۇ تىلدىكى دەلىللەيدىغان ئاۋازلار تۈگىدى...
 speak-empty-state = بۇ تىلدىكى ئۈنگە ئالدىغان جۈملىلەر تۈگىدى...
 speak-empty-state-cta = جۈملىلەرنى قوشۇڭ
+speak-loading-error = ۋاقتىنچە ئۈنگە ئالىدىغان جۈملە يوق. سەل تۇرۇپ قايتا سىناڭ.
 record-button-label = ئاۋازىڭىزنى ئۈنگە ئىلىڭ
 share-title-new = تېخىمۇ كۆپ ئاۋاز تېپىشىمىزغا <bold>ياردەم قىلىڭ</bold>
 keep-track-profile = تەرجىمىھال قۇرۇش ئارقىلىق ئىلگىرىلىشىڭىزنى ئىز قوغلاپ تۇرۇڭ
@@ -917,6 +934,11 @@ profile-form-delete = تەرجىمىھالنى ئۆچۈر
 
 ## Profile Download
 
+download-info = چۈشۈرمەكچى بولغان نەرسىنى بىزگە ئېيتىپ بېرىڭ:
+download-profile-title = تەرجىمىھال
+download-recordings-title = ئۈن خاتىرىسى
+download-size = چوڭلۇقى
+download-selected = تاللانغان
 
 ## Landing
 
