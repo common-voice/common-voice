@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = 我希望收到包括目標提醒、進�
 email-opt-in-privacy-v2 = 假如同意接收郵件，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方式處理呢啲些資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
+banner-error-slow-link = 狀態版面
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -478,6 +479,7 @@ about-get-involved-text-2 =
     太好了！請用電郵或<discourseLink>Discourse</discourseLink>論壇同我們聯絡，
     在<githubLink>GitHub</githubLink>上提交網站問題，或者加入
     <matrixLink>Matrix</matrixLink>群組聊天室。
+about-stay-in-touch-button = 註冊
 about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點做？
 about-nav-partners = 合作夥伴
@@ -576,6 +578,7 @@ review-delete-recordings = 刪除我的錄音
 
 ## Datasets Page
 
+datasets-heading = 數據集
 datasets-headline = 我們想建立一套開放原碼、多重語言的語音數據集，讓任何人都可以用來開發和語音相關的應用。
 datasets-positioning =
     我們相信若有一組大型、可公開使用的語音資料集，可奠定以機器學習為基礎的語音技術上的創新，與健康的商業競爭。
@@ -942,6 +945,7 @@ see-less = <chevron></chevron>睇少啲
 
 ## HEADER/FOOTER
 
+sc-login-signup-button = 登入 / 註冊
 
 ## HOME
 
