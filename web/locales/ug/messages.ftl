@@ -42,6 +42,7 @@ be = بېلورۇسچە
 bg = بۇلغارچە
 bn = بېنگالچە
 br = بىرېتونچە
+bs = بوسنىيەچە
 bxr = بۇرياتچە
 ca = كاتالانچە
 cak = كاكچىكىلچە
@@ -81,6 +82,8 @@ hy-AM = ئەرمەنچە
 hyw = غەربىي ئەرمەنچە
 ia = ئارىلىق تىل
 id = ھىندونېزىيەچە
+ie = ئىنتىرلىڭچە
+ig = ئىبوچە
 is = ئىسلاندچە
 it = ئىتاليانچە
 izh = ئىزورانچە
@@ -89,7 +92,9 @@ ka = گىرۇزىنچە
 kaa = قاراقالپاقچە
 kab = كابىلېچە
 kbd = كاباردەيچە
+ki = كىكۇيۇچە
 kk = قازاقچە
+km = كىخمېرچە
 kmr = كۇرمانجى كۇردچە
 ko = كورېيەچە
 kpv = كومى زىرىيانچە
@@ -939,6 +944,11 @@ download-profile-title = تەرجىمىھال
 download-recordings-title = ئۈن خاتىرىسى
 download-size = چوڭلۇقى
 download-selected = تاللانغان
+download-request-button = چۈشۈر
+download-request-title = { $created }
+download-request-refresh-button = يېڭىلا
+download-request-modal-title = ئۇلانمىلارنى چۈشۈر
+download-request-metadata-link = جۈملە تېكىستى
 
 ## Landing
 
@@ -986,6 +996,8 @@ demo-dashboard-card-body = ھەر بىر ھەدىيە قىلغان ئاۋاز، 
 
 ## Validation criteria
 
+contribution-criteria-nav = ئۆلچەم
+contribution-for-example = مەسىلەن
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -994,51 +1006,100 @@ demo-dashboard-card-body = ھەر بىر ھەدىيە قىلغان ئاۋاز، 
 
 ## HEADER/FOOTER
 
+sc-header-home = باشبەت
+sc-header-how-to = قانداق قىلىمەن
+sc-header-add = قوشاي
+sc-header-review = تەكشۈرەي
+sc-header-rejected = رەت قىلىنغان جۈملىلەر
+sc-header-my = جۈملىلىرىم
+sc-header-statistics = ستاتىستىكا
+sc-header-profile = ئارخىپىم
+sc-footer-report-bugs = كەمتۈكلەرنى دوكىلات قىلىش
+sc-footer-translate = بۇ بەتنى تەرجىمە قىلىش
+sc-footer-privacy = شەخسىيەت
+sc-footer-terms = تۈزۈملەر
+sc-footer-cookies = Cookies
+sc-login-signup-button = كىرىش / تىزىملىتىش
+sc-logout-button = چېكىنىش
 
 ## HOME
 
+sc-home-title = Common Voice نىڭ جۈملە توپلىغۇچىغا خۇش كەلدىڭىز
+sc-home-collect-title = جۈملە توپلاش
+sc-home-review-title = جۈملىلەرنى تەستىقلاش
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-addsen-title = يېڭى جۈملە قوشۇش
+sc-howto-review-title = جۈملىلەرنى تەكشۈرۈش
+sc-howto-review-subtitle = جۈملىنىڭ تۆۋەندىكى ئۆلچەملەرگە ماس كېلىدىغانلىقىنى جەزملەشتۈرۈڭ:
 
 ## MY SENTENCES
 
+sc-my-title = جۈملىلىرىم
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = ستاتىستىكا
+sc-stats-updating = يېڭىلىنىۋاتىدۇ...
 
 ## ADD
 
+sc-submit-err-select-lang = تىل تاللاڭ.
+sc-submit-err-add-sentences = جۈملە قوشۇڭ.
+sc-submit-err-add-source = مەنبە قوشۇڭ.
+sc-submit-title = جۈملە قوشۇش
+sc-submit-select-language =
+    .labelText = تىل تاللاش
+sc-submit-button =
+    .submitText = يوللاش
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = تىل قوشۇڭ
+sc-add-err-submission = يوللاش مەغلۇب بولدى
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = جەزملەشتۈرۈڭ
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = جەمئىي
+sc-lang-info-title-personal = شەخسىي
 
 ## LOGIN
 
+sc-login-err-failed = كىرىش مەغلۇب بولدى
+sc-login-err-try-again = قايتا سىناڭ.
 
 ## PROFILE
 
+sc-personal-your-languages = تىلىڭىز:
+sc-personal-remove-button = چىقىرىۋەت
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-form-button-reject = رەت قىل
+sc-review-form-button-skip = ئاتلا
+sc-review-form-button-approve = تەستىقلا
+sc-review-form-button-submit =
+    .submitText = تەكشۈرۈش تامام
+sc-review-link = تەكشۈرۈش
 
 ## SETTINGS
 
+sc-settings-title = تەڭشەك
+sc-settings-reset-skipped = ئاتلانغان جۈملىنى ئەسلىگە كەلتۈرىدۇ
 
 # [/SentenceCollector]
 
