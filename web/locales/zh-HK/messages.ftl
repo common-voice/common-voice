@@ -451,6 +451,7 @@ how-does-it-work-text = 我們集合眾人之力，打造開放原始碼的語�
 
 ## How does it work section
 
+about-localization-title = 網站本地化
 about-speak = 講
 about-speak-text = 貢獻者會朗讀數據庫内由大衆提供的句子，變成錄音片段。
 about-listen-queue = 聆聽隊列
@@ -994,3 +995,5 @@ sc-login-signup-button = 登入 / 註冊
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = 選擇語言/地區
