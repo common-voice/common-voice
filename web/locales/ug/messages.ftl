@@ -543,6 +543,8 @@ about-playbook-how-add-language = تىلنى قانداق قوشىمەن؟
 ## How does localization work
 
 about-playbook-how-localize = بېكەتنى يەرلىكلەشتۈرۈش قانداق ئىلىپ بېرىلىدۇ؟
+about-playbook-how-localize-content-1 = Common Voiceنىڭ تەرجىمە خىزمىتى <strong>Pontoon</strong> دا ئىلىپ بىرىلىدۇ.
+about-playbook-how-localize-content-4 = توربەتنىڭ %75 تەرجىمە خىزمىتى پۈتكەندىن كىيىن ئىلان قىلىشقا بولىدۇ.
 about-playbook-how-localize-content-5 = ياردەم قىلىش ئۈچۈن سىن چۈشەندۈرگۈچىمىزنى كۆرۈڭ
 
 ## How to add sentences
@@ -640,6 +642,7 @@ review-delete-recordings = ئۈن خاتىرەمنى ئۆچۈر
 
 ## Datasets Page
 
+datasets-heading = سانلىق-مەلۇمات توپلىمى
 datasets-headline = بىز ئوچۇق كودلۇق بولغان، ھەر قانداق ئادەمنى ئاۋازلىق پروگراممىغا قارىتا مەشىق ئىلىپ بېرىش ئىمكانىيەتكە ئىگە قىلىدىغان كۆپ تىللىق ئاۋاز ئامبىرىنى قۇرۇپ چىقىۋاتىمىز.
 datasets-positioning =
     چوك ھەجىمدىكى ۋە ئىچىۋېتىلگەن ئاۋاز سانلىق مەلۇمات ئاۋاز تونۇش تېخنىكىسىدىكى ماشىنا ئۆگىنىشكە قارىتا يېڭىلىق يارىتىش شۇنداقلا ساغلام بولغان سودا رىقابىتىنى ئىلگىرى سۈرىدىغانلىقىغا ئىشىنىمىز.
@@ -963,6 +966,7 @@ download-size = چوڭلۇقى
 download-selected = تاللانغان
 download-request-button = چۈشۈر
 download-request-title = { $created }
+download-request-assembling-description = ماتىرياللىرىڭىز رەتلىنىۋاتىدۇ، سەل تۇرۇپ قايتا سىناڭ.
 download-request-refresh-button = يېڭىلا
 download-request-modal-title = ئۇلانمىلارنى چۈشۈر
 download-request-metadata-link = جۈملە تېكىستى
@@ -1015,6 +1019,9 @@ demo-dashboard-card-body = ھەر بىر ھەدىيە قىلغان ئاۋاز، 
 
 contribution-criteria-nav = ئۆلچەم
 contribution-for-example = مەسىلەن
+contribution-varying-pronunciations-title = ھەرخىل تەلەپپۇزلار
+contribution-volume-title = ئاۋاز
+see-more = <chevron> </chevron> تېخىمۇ كۆپ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1053,13 +1060,27 @@ sc-home-review-title = جۈملىلەرنى تەستىقلاش
 sc-howto-addsen-title = يېڭى جۈملە قوشۇش
 sc-howto-review-title = جۈملىلەرنى تەكشۈرۈش
 sc-howto-review-subtitle = جۈملىنىڭ تۆۋەندىكى ئۆلچەملەرگە ماس كېلىدىغانلىقىنى جەزملەشتۈرۈڭ:
+sc-howto-review-criteria-1 = جۈملىنىڭ ئىملاسى چوقۇم توغرا يېزىلىشى كېرەك.
+sc-howto-review-criteria-4 = ئەگەر  جۈملە بۇ ئۆلچەمگە توشسا ، «تەستىقلاش» كۇنۇپكىسىنى بېسىڭ.
+sc-howto-findpd-subtitle = توردىن ئىزدەش
+sc-howto-findpd-tips = جۈملە توپلاش ئۇسۇللىرى:
 
 ## MY SENTENCES
 
 sc-my-title = جۈملىلىرىم
+sc-my-no-sentences = جۈملە تېپىلمىدى!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = مەنبە: { $source }
+sc-my-delete = تاللانغان جۈملىنى ئۆچۈرۈش
+sc-my-deleting = تاللانغان جۈملىلەرنى ئۆچۈرۈۋاتىدۇ…
+sc-my-err-failed-delete = تاللانغان جۈملىنى ئۆچۈرەلمىدى… قايتا سىناڭ!
 
 ## REJECTED
 
+sc-rejected-title = رەت قىلىنغان جۈملىلەر
+sc-rejected-loading = رەت قىلىنغان جۈملىلەرنى يۈكلەۋاتىدۇ…
+sc-rejected-none-found = رەت قىلىنغان جۈملىلەر تېپىلمىدى!
 
 ## STATS
 
@@ -1074,6 +1095,8 @@ sc-submit-err-add-source = مەنبە قوشۇڭ.
 sc-submit-title = جۈملە قوشۇش
 sc-submit-select-language =
     .labelText = تىل تاللاش
+sc-submit-ph-one-per-line =
+    .placeholder = بىر قۇرغا بىر جۈملە
 sc-submit-button =
     .submitText = يوللاش
 
@@ -1084,12 +1107,14 @@ sc-add-err-submission = يوللاش مەغلۇب بولدى
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = يېڭى جۈملىلەرنى جەزملەش
 sc-confirm-button-text = جەزملەشتۈرۈڭ
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = جەمئىي
 sc-lang-info-title-personal = شەخسىي
+sc-lang-info-review-now = <reviewLink>ھازىرلا تەستىقلاش!</reviewLink>
 
 ## LOGIN
 
@@ -1098,17 +1123,32 @@ sc-login-err-try-again = قايتا سىناڭ.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = ئارخىپ: { $username }
 sc-personal-your-languages = تىلىڭىز:
 sc-personal-remove-button = چىقىرىۋەت
+sc-personal-not-added = سىز تېخى ھېچقانداق تىل قوشمىدىڭىز.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ تەستىقلاش ئۆلچىمى
+sc-criteria-title = تەستىقلاش ئۆلچىمى
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = مەنبە: { $sentenceSource }
 sc-review-form-button-reject = رەت قىل
 sc-review-form-button-skip = ئاتلا
 sc-review-form-button-approve = تەستىقلا
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = تەكشۈرۈش تامام
 sc-review-link = تەكشۈرۈش
@@ -1117,6 +1157,9 @@ sc-review-link = تەكشۈرۈش
 
 sc-settings-title = تەڭشەك
 sc-settings-reset-skipped = ئاتلانغان جۈملىنى ئەسلىگە كەلتۈرىدۇ
+sc-validation-no-numbers = جۈملىدە رەقەم بولماسلىقى كېرەك
+sc-validation-no-symbols = جۈملىدە بەلگىلەر بولماسلىقى كېرەك
+sc-validation-no-abbreviations = جۈملىدە قىسقارتىلما ئاتالغۇلار بولماسلىقى كېرەك
 
 # [/SentenceCollector]
 
