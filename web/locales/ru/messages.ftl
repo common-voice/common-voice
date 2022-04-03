@@ -532,10 +532,12 @@ about-nav-how-it-works = Как?
 about-nav-partners = Партнёры
 about-nav-get-involved = Принять участие
 about-nav-how-it-works-2 = Как работает Common Voice?
+about-nav-playbook = Узнать, как принять участие
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Что такое язык на Common Voice?
 
 ## How do I add a language
 
@@ -552,9 +554,11 @@ about-playbook-how-add-sentences = Как мне добавить предлож
 
 ## How to record quality
 
+about-playbook-how-record-quality = Как мне записать голосовую запись в высоком качестве?
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = События
 
 ## How to validate
 
