@@ -343,6 +343,7 @@ profile-form-language =
     .label = Язык
 profile-form-variant =
     .label = На каком диалекте { $language } вы разговариваете?
+profile-form-variant-default-value = Вариант не выбран
 profile-form-accent =
     .label = Акцент
 profile-form-custom-accent-help-text =
@@ -478,15 +479,27 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Почему Common Voice?
+about-header-description-v2 =
+    <p>Common Voice – это общедоступный набор голосовых данных, созданный на основе голосов добровольцев со всего мира. Люди, которые хотят создавать голосовые приложения, могут использовать этот набор данных для обучения моделей машинного обучения.</p>
+    <p>В настоящее время большинство наборов голосовых данных принадлежат компаниям, что сдерживает инновации. В наборах голосовых данных также преобладают белые англоговорящие мужчины. Это означает, что голосовая технология вообще не работает для многих языков, а там, где она работает, может не работать одинаково хорошо для всех. Мы хотим изменить это, побудив людей со всего мира поделиться своим голосом.</p>
+how-does-it-work-title-v2 = Как работает Common Voice?
 how-does-it-work-text = Мы создаём краудсорсинговый открытый голосовой набор. Помогите своим голосом, проверяйте точность записей других людей, делайте набор данных лучше для всех и каждого.
 
 ## How does it work section
 
+about-language-req-subtitle = Кто-то просит добавить язык.
 about-localization-title = Локализация веб-сайта
 about-localization-subtitle = Текст веб-сайта переведён на этот язык.
 about-sentence-collection-title = Коллекция предложений
+about-sentence-collection-subtitle = Cобираются предложения для чтения вслух.
 about-new-lang-title = Запуск нового языка
+about-new-lang-subtitle = Мы запускаем сайт Common Voice на этом языке.
+about-voice-contrib-title = Как делятся голосами
+about-voice-contrib-subtitle = Люди приходят и делятся своим голосами.
 about-voice-validation-title = Подтверждение голосов
+about-voice-validation-subtitle = Другие люди проверяют эти голосовые записи.
+about-dataset-release-title = Выпуск набора данных
+about-dataset-release-subtitle = Мы публикуем набор данных каждые 3 месяца.
 about-speak = Говорите
 about-speak-text = Участники делают голосовые записи, читая из банка пожертвованных предложений.
 about-listen-queue = Очередь прослушивания
@@ -518,6 +531,7 @@ about-nav-why-common-voice = Почему?
 about-nav-how-it-works = Как?
 about-nav-partners = Партнёры
 about-nav-get-involved = Принять участие
+about-nav-how-it-works-2 = Как работает Common Voice?
 
 ## Community Playbook Content
 ## What is a language
