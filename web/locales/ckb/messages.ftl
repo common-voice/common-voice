@@ -513,6 +513,7 @@ about-playbook-how-grow-language-content-4 = میدیای کۆمەڵایەتی
 
 ## How are decisions made
 
+about-playbook-how-project-governance = بڕیارەکانی پرۆژەکە چۆن دەرکراون؟
 mycroft-title = Mycroft Ai
 mycroft-subtitle = ژیریی دەستکرد
 mycroft-description = Mycroft Ai یەکەمین یارمەتیدەی سەرچاوە کراوەی جیهانە. Mycroft لە هەموو جێگایەک ئیش دەکات، لە سەر کۆمپیوتەری ڕوومێز، لە سەیارە و لەسەر Raspberry Pi.
@@ -521,7 +522,7 @@ mycroft-secondary-description = تەنها نەرمەکالای کراوەیە �
 ## Glossary
 
 glossary = فه‌رهه‌نگۆک
-localization = وەرگێڕان
+localization = خۆماڵيکردن
 localization-explanation = ئەمە پڕۆسەی وەرگێڕانی ناوەڕۆکی ئێمەیە بۆ چەندین زمان.
 sentence-collection = کۆکردنەوەی ڕستە
 sentence-collection-explanation = کۆکردنەوەی ڕستەی دۆمەینی گشتی یا نووسینی ڕەستەی تازە بۆ دۆمەینی گشتی
@@ -529,7 +530,7 @@ hours-recorded-explanation = ژمارەی کاژێر دەنگی ئامادەکر
 hours-validated-explanation = ژمارەی کاژێرەکانی ئامادە کراو کە لە هەر ٣ کەس ٢یان ڕای بەڵێ یان پێ داوە. ئەمە نیشاندەری پێشکەوتنی پرۆژەکەیە بۆ ئامانجی ١٠ هەزار کاژێر بۆ هەر زمان.
 sst = وتار-بۆ-دەق
 sst-explanation = تەکنۆلۆژیار وتار-بۆ-دەق، زانیاریی دەنگی دەکات بە دەق
-de-identified = نەشناس-کراو
+de-identified = نەناسراو-کراو
 de-identified-explanation = ئەو پرۆسەیەی کە تێیدا زانیاریەکانی بەکارهێنەر دەشاردرێتەوە کە یارمەتی داوە بەو دەنگانەی بەخشیویەتی، کاتێک ئامادەدەکرێت بۆ ئەوەی بە گورزە بکرێت داگرتنی سێتی زانیارییەکان.
 
 ## Error pages
@@ -538,7 +539,7 @@ error-title-404 = نەمانتوانی ئەو پەڕەیە بۆ تۆ بدۆزی�
 error-content-404 = لەوانەیە <homepageLink>ماڵپەڕەکەمان</homepageLink> یارمەتیتان بدات. بۆ پرسیار کردن تکایە لە <matrixLink>چاتی کۆمەڵەی Matrix</matrixLink> خۆتان تۆمار کەن، لەڕێگەی <githubLink>GitHub</githubLink> ئاگاداری کێشەکانی ماڵپەڕەکەمان بن یان سەردانی <discourseLink>مەکۆی Discourse</discourseLink>مان بکەن.
 error-title-503 = هەندێ کێشەی تەکنیکی بەرەوڕومان بوەتەوە
 error-content-503 = سایتەکە بە زووترین کات چالاک دەکرێتەوە. بۆ بینینی تازەترین زانیاری تکایە خۆتان لە <matrixLink>چاتی کۆمەڵەی Matrix</matrixLink> تۆمار بکەن یان سەردانی <githubLink>GitHub</githubLink> و هەروەها <discourseLink>مەکۆی Discourseی ئێمە</discourseLink> بکەن بۆ ناردنی راپۆرت سەبارەت بە ماڵپەڕەکەمان.
-error-code = کێشە { $code }
+error-code = هەڵە { $code }
 
 ## Data
 
@@ -553,8 +554,8 @@ data-get-started = <speechBlogLink> وتارناسی دەست پێ بکە</speec
 data-other-title = زانیاریسێتە دەنگییەکانی تر...
 data-other-goto = بڕۆ بۆ { $name }
 data-other-download = داگرتنی داتا
-data-bundle-button = داگرتنی سێتی زانیاری
-data-bundle-description = دەنگی گشتی و هەمووی زانیاریسێتەکانی سەرەوە.
+data-bundle-button = داگرتنی بوخچەی داتاسێت
+data-bundle-description = دەنگی گشتی و هەموو داتاسێتەکانی سەرەوە.
 release-version = وەشان
 dataset-date = ڕێکەوت
 license = مۆڵەت: <licenseLink>{ $license }</licenseLink>
@@ -562,8 +563,8 @@ license-mixed = تێکەڵ
 data-download-singleword-title = داگترنی بەشی ئامانجی تەک وشەیی
 data-download-singleword-callout-v2 = ئەمە پشت دەبەستێت بە حاڵەتی بەکارهێنان کە داتا لە خۆ دەگرێت بۆ خستنەگەڕی ژمارە گوتراوەکان و دەستنیشانکردنی بەڵێ / نەخێر
 review-terms = بە بەکارهێنانی دەنگی گشتی، تۆ ڕەزامەندی بە <termsLink>یاساکان</termsLink> و <privacyLink>نهێنی پارێزی</privacyLink> ئێمە.
-terms-agree = ڕەزامەندم
-terms-disagree = ڕەزامەند نیم
+terms-agree = ڕازیم
+terms-disagree = ڕازی نیم
 review-aborted = بارکردن هەڵوەشایەوە. دەتەوێ تۆمارەکانت بسڕینەوە؟
 review-submit-title = پێداچوونەوە و ناردن
 review-submit-msg = سوپاس بۆ تۆمارکردن!<lineBreak></lineBreak> ئێستا دەنگەکانی خۆت بسەلمێنە و بیاننێرە.
@@ -580,8 +581,8 @@ datasets-positioning = ئێمە پێمان وایە زانیاریسێتی گە�
 language = زمان
 # File size in gigabytes
 size = ئەندازە
-validated-hr-total = کۆی کاژێری سەلمێندراو
-overall-hr-total = کۆی کاژێر
+validated-hr-total = کۆی سەعاتی سەلمێنراو
+overall-hr-total = کۆی سەعات
 cv-license = مۆڵەت
 audio-format = فۆرماتی دەنگ
 number-of-voices = ژمارەی دەنگەکان
@@ -593,13 +594,13 @@ size-gigabyte = گ.ب
 size-megabyte = م.ب
 confirm-no-identify = <b>تۆ ڕەزامەندی</b> کە هەوڵ نەدەی ناسنامەی بێژەرەکانی ئەم زانیاریسێتە دیارە بکەی.
 download-language = داگرتنی { $language }
-validated-hours = کاژێری سەلمێندراو
-recorded-hours = کاژێری ئامادەکراو
+validated-hours = سەعاتی سەلمێنراو
+recorded-hours = سەعاتی تۆمارکراو
 whats-inside = نێو زانیاریسێتی دەنگی گشتی چی تێدایە؟
 dataset-description-hours = هەر دەنگێک لەم زانیاریسێتە بریتییە لە فایلێکی MP3 و تێکستی تایبەتی خۆی. زۆربەی <b>{ $total }</b> کاژێرە زەبت کراوەکان لەم زانیاریسێتە مێتازانیاریی دێمۆگڕافیک وەک ڕەگەز، تەمەن و شێوەزاریش لە خۆ دەگرن بۆ ئەوەی کە دیقەتی فێرکاری مۆتۆڕەکانی ناسینەوەی وتار باشتر بکەن. ئەم زانیاریسێتە ئێستا بریتییە لە <b>{ $valid }</b> کاژێر دەنگی سەلماندراو بە <b>{ $languages }</b> زمان، بەڵام ئێمە بەردەوام زمان و دەنگی نوێ زیاد دەکەین. سەردانی <languagesLink> زمانەکانمان بکە.
 want-dataset-update = پێت خۆشە هەواڵی بۆ بنێرین لە کاتی بڵاوکردنەوەی وەشانی نوێی زانیاریسێتی دەنگی گشتی؟ خۆت ئابوونە کە بۆ هەواڵ نامەکەمان.
-subscribe = بەشداریکردن
-get-started-speech = دەست پێ بکە بۆ ناسینەوە وتار
+subscribe = ئابوونەکردن
+get-started-speech = دەست کردن بە ناسینەوە ئاخاوتن
 other-datasets = زانیاریسێتەکانی تری دەنگ
 feedback-q = ڕەخنەوپێشنیارت هەیە؟
 data-other-librispeech-description = LibriSpeech زانیاریسێتێکە لە ١٠،٠٠٠ کاژێر دەنگی 16khz لە وتاری ئینگلیزی کە لە کتێبە دەنگییەکانی پڕۆژەی LibroVox کۆ کراوەتەوە.
@@ -619,7 +620,7 @@ dataset-version = وەشان
 
 ## Download Modal
 
-download-title = داگرتنەکەت دەستیپێکرد
+download-title = داگرتنەکەت دەستی پێکرد
 download-helpus = یارمەتیمان بدە کۆمەڵگەیێک بۆ تەکنۆلۆژیای وتار ئامادە بکەین، لە ڕێگای پۆستی ئەلیکترۆنی لەگەڵمان بە.
 download-form-email =
     .label = پۆستی ئەلیکترۆنیی خۆت بنووسە
@@ -643,7 +644,7 @@ request-language-form-language =
     .label = زمان
 request-language-success-title = داواکاری زمان ناردرا. سوپاس بۆ تۆ.
 request-language-success-content = بەم زووانە لە ڕێگای پۆستی ئەلیکترۆنی زانیاریت بۆ دەنێرین کە چۆن زمانی خۆت زیاد بکەی لە دەنگی گشتی.
-select-language = زمانێک هەڵبژێرە
+select-language = زمانێک هەڵبژێرە...
 other-language = زمانی تر
 
 ## Languages Overview
