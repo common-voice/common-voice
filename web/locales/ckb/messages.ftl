@@ -660,9 +660,9 @@ language-total-progress = کۆی گشتی
 language-search-input =
     .placeholder = گەڕان
 language-speakers = بێژەران
-localized = وەرگێڕدراو
+localized = خۆماڵی کراو
 sentences = ڕستەکان
-total-hours = کاژ. سەلمێندراو
+total-hours = سەعاتی سەلمێنراو
 
 ## Contribution
 
@@ -735,17 +735,17 @@ report-title = ناردنی ڕاپۆرت
 report-ask = لەگەڵ ئەم ڕستەیە توشی چ دژوارییەک بووی؟
 report-offensive-language = زمانی ناشایست
 report-offensive-language-detail = ئەم ڕستەیە زمانێکی ناشایست یان بێ ئەدەبیانەی هەیە
-report-grammar-or-spelling = هەڵەی دەستووری/نووسینی
+report-grammar-or-spelling = هەڵەی ڕێزمانی/ڕێنووسی
 report-grammar-or-spelling-detail = ئەم ڕستەیە هەڵەی نووسین یان دەستووری هەیە
-report-different-language = زمانی دیکە
+report-different-language = زمانی جیاواز
 report-different-language-detail = ئەمە بە زمانێکی جیاواز لەوەی من قسەی پێ دەکەم نووسراوە
 report-difficult-pronounce = وتنی ئەمە دژوارە
 report-difficult-pronounce-detail = ئەمە وشەهایێکی هەیە کە وتنی دژوارە
-report-offensive-speech = زمانی ناخۆش
+report-offensive-speech = قسەی هێرشبەرانە
 report-offensive-speech-detail = ئەم کلیپە زمانێکی ناخۆش یان ڕسواکەری تێدایە
 report-other-comment =
     .placeholder = لێدوان
-success = سەرکەوتن!
+success = سەرکەوتن
 continue = بەردەوام
 report-success = ڕاپۆرتی تۆ ناردرا
 
@@ -784,7 +784,7 @@ everyone = هەمووکەس
 contribution-activity = مێژووی بەشداری
 top-contributors = باشترین بەشداریکەران
 recorded-clips = کلیپی تۆمارکراو
-validated-clips = کلیپی سەلمێندراو
+validated-clips = کلیپی سەلمێنراو
 total-approved = کۆی پەسەندکراوەکان
 overall-accuracy = وردی گشتی
 set-visibility = دیاری بوونی من رێکبخە
@@ -882,7 +882,7 @@ download-profile-title = پەڕەی کەسی
 download-profile-size = چەند بایتێک
 download-recordings-title = تۆمارەکان
 download-recently-requested = دەتوانی جارێکی تر داوای تۆمارەکانت بکەیت هەموو { $days } ڕۆژ جارێک.
-download-size = قەبارە
+download-size = ئەندازە
 download-selected = هەڵبژێردراو
 download-start = زانیاری هەژمارەکەت دابگرە
 download-request = داوای تۆمارەکانت بکە
@@ -911,7 +911,7 @@ demo-welcome-subheader = ئارازوو دەکەیت زیاتر بزانیت و 
 
 demo-language-select-card-header = دەنگی گشتی بریتییە لە گەورەترین بنکە زانیاری دەنگی چەند-زمانی کە بەردەستە بۆ هەموو کەس.
 demo-language-select-card-body = سوپاس کە بەشدار بوویت لە نێوان ٢٥٩ هەزار کەسدا لە ٥٠ زمانەوە، ئەم زانیارییانە بەکاردەهێندرێت بۆ ڕاهێنانی ئەو داوانامانەی کاری پێدەکەن بۆ باشتر وەڵام دانەوەی دەنگی مرۆڤ.
-card-button-next = دوواتر
+card-button-next = دواتر
 card-button-back = دواوە
 demo-language-select-label = بگەڕێ لە زمانەکان
 demo-eofy-header = 2019 وەشانی کۆتایی ساڵە
@@ -962,9 +962,9 @@ sc-header-home = ماڵەوە
 sc-header-how-to = چۆن-دەکرێت
 sc-header-add = زیادکردن
 sc-header-review = پێداچوونەوە
-sc-header-rejected = ڕستە پەسەندنەکراوەکان
+sc-header-rejected = ڕستە ڕەتکراوەکان
 sc-header-my = ڕستەکانم
-sc-header-statistics = ئامار
+sc-header-statistics = ئامارەکان
 sc-header-profile = پەڕەی کەسی
 sc-footer-discourse = دیسکۆرس
 sc-footer-report-bugs = کێشە ڕاپۆرت بکە
@@ -980,7 +980,7 @@ sc-logout-button = چوونەدەرەوە
 
 sc-home-title = بەخێربێی بۆ کۆکەرەوەی ڕستەی Common Voice
 sc-home-intro = کۆکەرەوەی ڕستە بەشێکە لە <commonVoiceLink>دەنگی گشتی</commonVoiceLink>. ڕێگە دەدات کە بەشداربووەکان ڕستە کۆبکەنەوە و بیسەلمێنن. دەتوانیت ئەم ئامرازە بەکاربهێنیت بۆ هاوردەکردن، پاککردنەوە و ڕێکخستنەوەی ئەو کۆکراوانەی لە دۆمەینی گشتییەوە بەدەستهاتوون. هەموو ڕستەکان پێویستە دۆمەینی گشتی بن. ڕستە پەسەندکراوەکان هەموو هەفتەیەک هەناردە دەکرێن بۆ سەرچاوەی دەنگی گشتی و بڵاودەکرێتەوە لە ماڵپەڕی سەرەکی دەنگی گشتی هەر کاتێک زانیاری نوێ هەبوون.
-sc-home-collect-title = ڕستە کۆبکەرەوە
+sc-home-collect-title = ڕستە کۆبکەوە
 sc-home-collect-text = یارمەتیمان بدە بۆ نووسین یان کۆکردنەوەی ڕستە لە دۆماینی گشتی.
 sc-home-review-title = پێداچوونەوەی ڕستە
 sc-home-review-text = یارمەتیمان بۆ پێداچوونەوەی ڕستەکان بە مەبەستی چاککردنیان بەپێی ڕێنماییەکان.
@@ -1003,7 +1003,7 @@ sc-howto-review-criteria-4 = ئەگەر ڕستەکە لەگەڵ پێوەرەکا
 sc-howto-review-criteria-5 = ئەگەر ڕستەکە لەگەڵ پێوەرەکاندا نەگونجا، کرتە بکە لە دوگمەی"پەسەند نەکردن". ئەگەر دڵنیا نەبوویت لە ڕستەکە، دەتوانیت تێیپەرێنی و بچیتە ڕستەیەکی تر.
 sc-howto-review-criteria-6 = ئەگەر ڕستە نەما بۆ پێداچوونەوە، تکایە یارمەتیمان بدە ڕستەی زیاتر کۆبکەینەوە!
 sc-howto-findpd-title = دۆزینەوەی ڕستە لە دۆمەینی گشتی
-sc-howto-findpd-subtitle = بۆیان بگەڕێ لە ئینتەرنیت
+sc-howto-findpd-subtitle = لە ئینتەرنێت بەدوایان بگەڕێ
 sc-howto-findpd-tips = چەند یارمەتیدەرێک بۆ ئەوەی ڕستە بدۆزیتەوە:
 sc-howto-findpd-tips-1 = باشترین شوێن بۆ گەڕان بریتین لە پۆدکاستەکان، دەقەکان، دەقی فیلمەکان هەروەها هەر شتێکی تر کە گفتوگۆی نێوان چەند کەسیکی تێدایە.
 sc-howto-findpd-tips-2 = کارەکانی حکومەت، پەرتووک و بابەتەکان سەرچاوەی باشن چونکە ئەو نووسینانە لە نووسراوی فەرمیدان.
@@ -1025,7 +1025,7 @@ sc-my-err-failed-delete = نەتوانرا ڕستە دیاریکراوەکان �
 
 ## REJECTED
 
-sc-rejected-title = ڕستە پەسەندنەکراوەکان
+sc-rejected-title = ڕستە ڕەتکراوەکان
 sc-rejected-loading = بارکردنی ڕستە پەسەندنەکراوەکان...
 sc-rejected-err-fetching = هەڵە ڕوویدا لە کاتی ناردنی ڕستە پەسەندنەکراوەکان. تکایە دووبارە هەوڵ بدەرەوە.
 sc-rejected-none-found = هیج ڕستەیەکی پەسەند نەکراو نەدۆزرایەوە!
@@ -1077,6 +1077,7 @@ sc-confirm-button-text = دڵنیابوونەوە
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-personal = شەخسی
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
