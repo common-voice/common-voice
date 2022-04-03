@@ -499,9 +499,11 @@ about-playbook-how-add-sentences = چۆن ڕستەکان زیاد بکەم؟
 
 ## How to record quality
 
+about-playbook-how-record-quality = چۆن کلیپێکی دەنگیی کوالێتیی بەرز تۆمار بکەم؟
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = میدیای کۆمەڵایەتی
 
 ## How to validate
 
