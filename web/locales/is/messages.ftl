@@ -772,6 +772,22 @@ request-language-success-content = Við munum vera í sambandi fljótlega til a�
 select-language = Veldu tungumál...
 other-language = Annað tungumál
 
+## Request Language Pages
+
+request-language-heading = Biðja um nýtt tungumál
+request-language-form-email =
+    .label = Tölvupóstfangið þitt
+request-language-form-info =
+    .label = Upplýsingar um tungumálið
+request-language-form-info-explanation =
+    Bættu við eins miklum upplýsingum og þú getur um tungumálið. Þetta
+    gæti falið í sér:
+request-language-form-info-explanation-list-1 = Nöfn tungumálsins þíns
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-kóðar</isoCodeLink> ef þeir eru þekktir
+request-language-form-info-explanation-list-3 = Tenglar á vefsvæði sem geta hjálpað okkur að skilja tungumálið
+request-language-google-recaptcha-required = reCAPTCHA er krafist ef þú vilt halda áfram
+request-language-google-recaptcha-error = Eitthvað fór úrskeiðis með reCAPTCHA-mennskuprófið. Reyndu endilega aftur.
+
 ## Languages Overview
 
 language-section-in-progress = Í vinnslu
