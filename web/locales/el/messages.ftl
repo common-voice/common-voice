@@ -769,6 +769,14 @@ request-language-success-content = Θα σας ενημερώσουμε πώς �
 select-language = Επιλέξτε γλώσσα...
 other-language = Άλλη γλώσσα
 
+## Request Language Pages
+
+request-language-form-email =
+    .label = Η διεύθυνση email σας
+request-language-form-info =
+    .label = Πληροφορίες σχετικά με τη γλώσσα
+request-language-form-info-explanation-list-1 = Ονόματα της γλώσσας σας
+
 ## Languages Overview
 
 language-section-in-progress = Σε εξέλιξη
