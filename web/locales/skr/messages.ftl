@@ -908,6 +908,7 @@ demo-welcome-subheader = بھلا تساں ٻیا ڄاݨݨ تے ایں منصو�
 
 ## Demo Datasets
 
+demo-language-select-card-header = کامن وائس دنیا دا سب کنوں وݙا عوامی طور تے دستیاب کثیرلسانی ڈیٹاسیٹ ہے ۔
 card-button-next = اڳلا
 card-button-back = پچھوں
 demo-language-select-label = زباناں براؤز کرو
@@ -949,6 +950,7 @@ contribution-misreadings-example-4-title = ٹریاسک دے دیوہیکل ڈا
 contribution-misreadings-example-4-explanation = [ضروری عبارت کنوں ودھیک رکاڈ تھی ڳیا ہے]
 contribution-misreadings-example-5-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-6-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
+contribution-misreadings-example-6-explanation = [ہووݨاں چاہیدا ہے "اساں ہیں"]
 contribution-misreadings-example-7-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-7-explanation = [اصل عبارت وچ کوئی  ‘a’  کائنی]
 contribution-misreadings-example-8-title = بھون٘را تکھے تکھے اڳوں تے چلا ڳیا۔
