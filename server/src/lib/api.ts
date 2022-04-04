@@ -9,7 +9,7 @@ import PromiseRouter from 'express-promise-router';
 const Transcoder = require('stream-transcoder');
 
 import { UserClient as UserClientType } from 'common';
-import googleReCAPTCHAMiddleware from './google-recaptcha-middleware';
+import validateGoogleReCAPTCHA from './google-recaptcha-middleware';
 import { authMiddleware } from '../auth-router';
 import { getConfig } from '../config-helper';
 import Awards from './model/awards';

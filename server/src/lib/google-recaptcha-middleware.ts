@@ -3,7 +3,7 @@ import { NextFunction, Request, Response } from 'express';
 import { APIError } from './utility';
 import GoogleReCAPTCHA from './google-recaptcha';
 
-async function googleReCAPTCHAMiddleware(
+async function validateGoogleReCAPTCHA(
   request: Request,
   _response: Response,
   next: NextFunction
@@ -32,4 +32,4 @@ async function googleReCAPTCHAMiddleware(
   next(new APIError('[reCAPTCHA] Something went wrong with reCAPTCHA'));
 }
 
-export default googleReCAPTCHAMiddleware;
+export default validateGoogleReCAPTCHA;
