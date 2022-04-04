@@ -761,6 +761,9 @@ request-language-form-email =
     .label = Waša e-mejlowa adresa
 request-language-form-info =
     .label = Informacije wo rěči
+request-language-form-info-explanation =
+    Přidajće tak wjele informacije kaž móžno wo rěči. Na
+    přikład:
 request-language-form-info-explanation-list-1 = Mjena wašeje rěče
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-kody</isoCodeLink>, jeli su znate
 request-language-form-info-explanation-list-3 = Wotkazy na websydła, kotrež móža nam pomhać, rěč rozumić
