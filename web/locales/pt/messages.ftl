@@ -769,6 +769,16 @@ request-language-success-content = Nós entraremos em contato com mais informaç
 select-language = Selecionar um idioma...
 other-language = Outro idioma
 
+## Request Language Pages
+
+request-language-form-email =
+    .label = Seu endereço de email
+request-language-form-info =
+    .label = Informações sobre o idioma
+request-language-form-info-explanation-list-1 = Nomes do seu idioma
+request-language-google-recaptcha-required = O reCAPTCHA é necessário se você quiser continuar
+request-language-google-recaptcha-error = Algo deu errado com o reCAPTCHA. Tente novamente.
+
 ## Languages Overview
 
 language-section-in-progress = Em andamento
