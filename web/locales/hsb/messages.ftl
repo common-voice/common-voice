@@ -753,6 +753,10 @@ other-language = Druha rěč
 ## Request Language Pages
 
 request-language-heading = Wo nowu rěč prosyć
+request-language-explanation-1 =
+    Přepruwujće, hač waša rěč je na
+    <languagesPageLink>stronje rěčow Common Voice</languagesPageLink> podata.
+    Jeli nic, wupjelńće tutón formular a <strong>budźemy wam wužitny mejlku, kotraž rozjasnja, kak móžeće swoju rěč připrawić</strong>.
 request-language-form-email =
     .label = Waša e-mejlowa adresa
 request-language-form-info =
@@ -762,6 +766,8 @@ request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-kody</isoCodeLi
 request-language-form-info-explanation-list-3 = Wotkazy na websydła, kotrež móža nam pomhać, rěč rozumić
 request-language-google-recaptcha-required = reCAPTCHA je trěbny, jeli chceće pokročować
 request-language-google-recaptcha-error = Něšto je so z reCAPTCHA nimokuliło. Prošu spytajće hišće raz.
+# Success page
+request-language-success-heading = Wulki dźak! Sće próstwu wo nowu rěč pósłał
 
 ## Languages Overview
 
