@@ -787,6 +787,18 @@ request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-kóðar</isoCod
 request-language-form-info-explanation-list-3 = Tenglar á vefsvæði sem geta hjálpað okkur að skilja tungumálið
 request-language-google-recaptcha-required = reCAPTCHA er krafist ef þú vilt halda áfram
 request-language-google-recaptcha-error = Eitthvað fór úrskeiðis með reCAPTCHA-mennskuprófið. Reyndu endilega aftur.
+# Success page
+request-language-success-heading = Þakka þér fyrir! Þú hefur sent inn beiðni um nýtt tungumál
+request-language-success-list-1 =
+    Þú ættir að fá tölvupóst innan skamms sem útskýrir
+    skrefin sem þarf til að bæta tungumálinu þínu við Samróm
+request-language-success-list-3 =
+    Ef þú heyrir ekki í okkur innan nokkurra daga, ættirðu
+    að hafa samband við <emailLink>{ $email }</emailLink>
+    og við munum svara þér eins fljótt og auðið er!
+request-language-error =
+    Við höfum kannski ekki fengið þá beiðni. Sendu okkur tölvupóst beint
+    á <emailLink>{ $email }</emailLink> og við munum hafa samband við þig!
 
 ## Languages Overview
 
