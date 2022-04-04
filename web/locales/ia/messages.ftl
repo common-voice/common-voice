@@ -766,6 +766,14 @@ request-language-success-content = Nos essera in contacto con altere information
 select-language = Eliger un lingua...
 other-language = Altere linguas
 
+## Request Language Pages
+
+request-language-form-email =
+    .label = Tu adresse email
+request-language-form-info-explanation-list-1 = Nomines de tu lingua
+request-language-form-info-explanation-list-2 = <isoCodeLink>Codices ISO</isoCodeLink> si note
+request-language-google-recaptcha-required = Le reCAPTCHA es necesse si tu vole proceder
+
 ## Languages Overview
 
 language-section-in-progress = In curso
