@@ -769,6 +769,16 @@ request-language-success-content = We nemen binnenkort contact op met meer infor
 select-language = Selecteer een taal…
 other-language = Andere taal
 
+## Request Language Pages
+
+request-language-form-email =
+    .label = Uw e-mailadres
+request-language-form-info =
+    .label = Informatie over de taal
+request-language-form-info-explanation-list-1 = Namen van uw taal
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-codes</isoCodeLink>, indien bekend
+request-language-form-info-explanation-list-3 = Koppelingen naar websites die ons kunnen helpen de taal te begrijpen
+
 ## Languages Overview
 
 language-section-in-progress = In uitvoering
