@@ -97,7 +97,7 @@ export default class API {
     router.get('/language/variants/:locale?', this.getVariants);
     router.post(
       '/language/request',
-      googleReCAPTCHAMiddleware,
+      validateGoogleReCAPTCHA,
       validate({ body: sendLanguageRequestSchema }),
       this.sendLanguageRequest
     );
