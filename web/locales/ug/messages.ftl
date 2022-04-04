@@ -969,6 +969,7 @@ download-request-title = { $created }
 download-request-assembling-description = ماتىرياللىرىڭىز رەتلىنىۋاتىدۇ، سەل تۇرۇپ قايتا سىناڭ.
 download-request-refresh-button = يېڭىلا
 download-request-modal-title = ئۇلانمىلارنى چۈشۈر
+download-request-link-text = { $total } دانە Zip ھۆججىتىنىڭ { $offset }چىسى
 download-request-metadata-link = جۈملە تېكىستى
 
 ## Landing
@@ -1157,6 +1158,7 @@ sc-review-link = تەكشۈرۈش
 
 sc-settings-title = تەڭشەك
 sc-settings-reset-skipped = ئاتلانغان جۈملىنى ئەسلىگە كەلتۈرىدۇ
+sc-settings-failed = تەڭشەكنى ئۆزگەرتكىلى بولمىدى، قايتا سىناڭ.
 sc-validation-no-numbers = جۈملىدە رەقەم بولماسلىقى كېرەك
 sc-validation-no-symbols = جۈملىدە بەلگىلەر بولماسلىقى كېرەك
 sc-validation-no-abbreviations = جۈملىدە قىسقارتىلما ئاتالغۇلار بولماسلىقى كېرەك
