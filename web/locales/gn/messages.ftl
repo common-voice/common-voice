@@ -770,6 +770,16 @@ request-language-success-content = Ag̃aite roñatõita ikatu hag̃uáicha reiku
 select-language = Eiporavo ñe’ẽ...
 other-language = Ambue Ñe’ẽ
 
+## Request Language Pages
+
+request-language-heading = Eporandu ñe’ẽ pyahúre
+request-language-form-email =
+    .label = Ne ñanduti veve kundaharape
+request-language-form-info =
+    .label = Marandu ñe’ẽ rehegua
+request-language-form-info-explanation-list-1 = Ne ñe’ẽ réra
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO ayvu</isoCodeLink> ojeikuaáramo
+
 ## Languages Overview
 
 language-section-in-progress = Ojejapóva
