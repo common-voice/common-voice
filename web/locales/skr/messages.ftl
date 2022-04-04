@@ -834,6 +834,11 @@ want-to-continue = بھلا تساں جاری رکھݨ چاہندے ہو؟
 finish-editing = پہلے تبدیلی کرݨ مکمل کروں؟
 lose-changes-warning = ہݨ چھوڑݨ نال تہاݙیاں تبدیلیاں ضائع تھی ویسن
 build-custom-goal = مرضی دا مقصد بݨاؤ
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] ذاتی مقصد نال زبان وچ { $hours } گھنٹہ کامن وائس پہنچ مدد کرو
+       *[other] ذاتی مقصد نال زبان وچ { $hours } گھنٹے کامن وائس پہنچ مدد کرو
+    }
 set-a-goal = مقصد مقرر کرو
 cant-decide = بھلا فیصلہ نہوے کر سڳدے؟
 how-many-per-day = زبردست فی ݙین٘ہ کتی کلپ ہن؟
