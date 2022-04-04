@@ -816,6 +816,9 @@ request-language-success-list-3 =
     As jo net binnen in pear dagen wat fan ús hearre,
     nim dan kontakt op fia <emailLink>{ $email }</emailLink>
     en wy sille dêrop reagearje!
+request-language-error =
+    Mooglik hawwe wy dat fersyk net ûntfongen. Stjoer ús in e-mailberjocht
+    op <emailLink>{ $email }</emailLink> en wy nimme kontakt mei jo op!
 
 ## Languages Overview
 
