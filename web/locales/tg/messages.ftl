@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = Паёмҳои электрониро б�
 email-opt-in-privacy-v2 = Бо интихоби қабули паёмҳои электронӣ, шумо изҳор мекунед, ки шумо бо Mozilla барои коркарди ин иттилоот ба тавре, ки дар <privacyLink> Сиёсати махфияти</privacyLink> Mozilla шарҳ дода шудааст, розӣ ҳастед.
 indicates-required = * ин аломат майдони ҳатмиро нишон медиҳад
 not-available-abbreviation = Дастнорас
+banner-error-slow-link = Саҳифаи вазъият
+error-something-went-wrong = Мутаассифона, чизе нодуруст иҷро шуд
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -38,6 +40,7 @@ be = Белорусӣ
 bg = Булғорӣ
 bn = Банголӣ
 br = Бретонӣ
+bs = Босниягӣ
 bxr = Бурятӣ
 ca = Каталонӣ
 cak = Какчикелӣ
@@ -505,6 +508,9 @@ request-language-form-language =
 request-language-success-title = Дархости забон бо муваффақият пешниҳод карда шуд, ташаккур.
 select-language = Забонеро интихоб кунед ...
 other-language = Забони дигар
+
+## Request Language Pages
+
 
 ## Languages Overview
 
