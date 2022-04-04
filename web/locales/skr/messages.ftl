@@ -220,6 +220,7 @@ wall-of-text-start = آواز فطری ہے ، آواز انسان ہے۔ ایں
 show-wall-of-text = ٻیا پڑھو
 help-us-title = جملیاں دی تصدیق کرݨ وچ ساݙی مدد کرو!
 help-us-explain = پلے دباؤ، سݨو تے ساکوں ݙسو: بھلا انہاں ہیٹھلا جملہ ٹھیک الایا ہے؟
+no-clips-to-validate = لڳدے جو ایں زبان وچ سُݨݨ کیتے کلپ کائنی۔کجھ نویں رکاڈ کرݨ نال قطار کوں بھرݨ وچ ہݨ ساݙی مدد کرو۔
 vote-yes = جیا
 vote-no = کو
 toggle-play-tooltip = پلے موڈ کوں ٹوگل کرݨ کیتے { shortcut-play-toggle } دباؤ
@@ -663,6 +664,10 @@ request-language-form-info =
     .label = زبان بارے ڄاݨکاری
 request-language-form-info-explanation-list-1 = تہاݙی زبان دا ناں
 request-language-form-info-explanation-list-2 = جے پتہ ہے تاں <isoCodeLink>آئی ایس او کوڈ</isoCodeLink>
+request-language-google-recaptcha-required = جے تساں اڳوں تے ون٘ڄݨ چاہندے ہو تاں reCAPTCHA ضروری ہے
+request-language-google-recaptcha-error = reCAPTCHA نال کجھ خرابی تھی ڳئی۔ سوہݨا، ولدا کوشش کرو۔
+# Success page
+request-language-success-heading = تہاݙا تھورا! اساں نویں زبان تحقیق پٹھی ہے
 
 ## Languages Overview
 
@@ -934,7 +939,9 @@ contribution-misreadings-example-1-title = ٹریاسک دے دیوہیکل ڈا
 contribution-misreadings-example-2-title = ٹریاسک دا دیوہیکل ڈایناسور۔
 contribution-misreadings-example-2-explanation = [ 'ڈایناسور' ہووݨا چاہیدا ہے]
 contribution-misreadings-example-3-title = ٹریاسک دے دیوہیکل ڈایناسور۔
+contribution-misreadings-example-3-explanation = [چھیکڑی لفظ مکݨ کنوں پہلے رکاڈنگ کٹیج ڳئی ہے]
 contribution-misreadings-example-4-title = ٹریاسک دے دیوہیکل ڈایناسور، جیا
+contribution-misreadings-example-4-explanation = [ضروری عبارت کنوں ودھیک رکاڈ تھی ڳیا ہے]
 contribution-misreadings-example-5-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-6-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-7-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
@@ -995,6 +1002,7 @@ sc-home-review-title = جملیاں دا جائزہ گھنو
 
 sc-howto-title = کین٘ویں
 sc-howto-addlang-title = نال کم کرݨ کیتے زبان شامل کرݨ
+sc-howto-addlang-text = ہک واری تساں لاگ ان تھی ون٘ڄو وت تساں پروفائل سیکشن وچوں آپݨیاں زباناں چُݨ سڳدے ہو۔
 sc-howto-addsen-title = نویں جملے شامل کرو
 sc-howto-cite-title = حوالہ ݙیوݨ دا طریقہ
 sc-howto-cite-item-1 = تساں ویب سائٹ شامل کر سڳدے ہو، مثال دے طور تے "کامن وائس"۔ https://commonvoice.mozilla.org/
@@ -1120,8 +1128,24 @@ sc-lang-info-in-review =
         [one] نظرثانی وچ ١ جملہ ۔
        *[other] نظرثانی وچ{ $totalInReview } جملے۔
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] تہاݙی نظر ثانی کیتے کوئی جملہ کائنی بچا
+        [one] تہاݙی نظر ثانی کیتے ١ جملہ بچا
+       *[other] تہاݙی نظرثانی کیتے { $unreviewedSentencesByYou } جملے باقی ہن۔
+    }
 sc-lang-info-review-now = <reviewLink>ہݨ جائزہ گھنو!</reviewLink>
 sc-lang-info-add-more = <addLink>ہݨ ٻئے جملے شامل کرو!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] کوئی جملہ تصدیق کائنی تھیا۔
+        [one] ١ جملہ تصدیق تھیا۔
+       *[other] { $validatedSentences } جملے تصدیق تھئے۔
+    }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
@@ -1158,12 +1182,14 @@ sc-criteria-make-sure = ایں ڳالھ کوں یقینی بݨاؤ جو ایں �
 sc-criteria-item-1 = جملے دے ہجے درست ہووݨ ضروری ہن۔
 sc-criteria-item-2 = جملے دی گرائمر درست ہووݨ ضروری ہے۔
 sc-criteria-item-3 = جملہ الاوݨ دے قابل ہووݨ ضروری ہے۔
+sc-criteria-item-6 = جے تہاݙے کول نظرثانی کیتے جملے کائنی تاں سوہݨا، ٻئے جملے کٹھے کرݨ وچ ساݙی مدد کرو!
 
 ## REVIEW
 
 sc-review-title = جملیاں دا جائزہ گھنو
 sc-review-loading = جملے لوڈ تھیندے پئے۔۔۔
 sc-review-select-language = جملیاں دا جائزہ گھنݨ کیتے زبان چُݨو، سوہݨا۔
+sc-review-no-sentences = نظرثانی کیتے کوئی جملے کائنی۔<addLink> ہݨ ٻئے جملے شامل کرو!</addLink>
 sc-review-form-prompt =
     .message = نظرثانی تھئے جملے جمع کائنی تھئے، تہاکوں پک ہے؟
 # Variables:
