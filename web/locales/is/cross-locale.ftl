@@ -3,8 +3,8 @@
 contribute = Leggðu lið
 get-involved-button = Taka þátt
 get-involved-title = Leggðu þitt af mörkum til { $lang }
-get-involved-text = Við þökkum áhugann við að bæta { $lang }'. Unnið er hart að því að koma hverju einasta tungumáli í kring og halda teymunum upplýstum með tölvupósti. Langi þig að taka þátt, vinsamlega skráðu netfang að neðan.
-get-involved-form-title = Skráðu þig fyrir uppfærslur um { $lang }'.
+get-involved-text = Við þökkum áhugann við að bæta verkefnið fyrir { $lang } tungumálið. Unnið er hart að því að koma hverju einasta tungumáli í kring og halda teymunum upplýstum með tölvupósti. Langi þig að taka þátt, vinsamlega skráðu netfang að neðan.
+get-involved-form-title = Skráðu þig fyrir uppfærslur um { $lang } tungumálið.
 get-involved-email =
     .label = Tölvupóstur
 get-involved-opt-in = Já, sendið mér tölvupóst. Ég vil að mér sé haldið upplýstum um framgang þessa tungumáls á Samrómi (Common Voice).
