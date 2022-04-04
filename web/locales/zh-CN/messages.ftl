@@ -98,7 +98,7 @@ kk = 哈萨克语
 km = 高棉语
 kmr = 库尔曼吉库尔德语
 knn = 孔卡尼语（天城文）
-ko = 韩语
+ko = 朝鲜语
 kpv = 科米-齐良语
 kw = 康沃尔语
 ky = 吉尔吉斯语
@@ -721,6 +721,9 @@ request-language-success-title = 非常感谢，您的语言请求已成功提�
 request-language-success-content = 我们将尽快披露更多有关如何将您的语言添加到 Common Voice 的信息。
 select-language = 选择语言...
 other-language = 其他语言
+
+## Request Language Pages
+
 
 ## Languages Overview
 
