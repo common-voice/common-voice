@@ -779,6 +779,28 @@ request-language-success-content = Wy nimme ynkoarten kontakt op mei mear ynform
 select-language = Selektearje in taal…
 other-language = Oare taal
 
+## Request Language Pages
+
+request-language-heading = Neifreegje nei in nije taal
+request-language-explanation-1 =
+    Kontrolearje oft jo taal fermeld wurdt op de
+    <languagesPageLink>Common Voice-taleside</languagesPageLink>.
+    Sa net, folje dan dit formulier yn en wy <strong>stjoere jo in handich e-mailberjocht
+    wêryn útlein wurdt hoe’t jo jo taal opsette litte kinne</strong>.
+request-language-explanation-2 =
+    Wy sille ek <strong>ús mienskipsbehearder witte litte
+    dat jo ynteressearre binne</strong>, sadat se jo eventuele
+    ekstra stipe of ynformaasje dy’t jo nedich hawwe jaan kinne.
+request-language-form-email =
+    .label = Jo e-mailadres
+request-language-form-info =
+    .label = Ynformaasje oer de taal
+request-language-form-info-explanation =
+    Foegje safolle mooglik ynformaasje oer de taal ta. Dit
+    soe wêze kinne:
+request-language-form-info-explanation-list-1 = Nammen fan jo taal
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koaden</isoCodeLink>, wannear bekend
+
 ## Languages Overview
 
 language-section-in-progress = Yn útfiering
