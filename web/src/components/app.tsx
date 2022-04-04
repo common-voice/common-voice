@@ -22,7 +22,6 @@ import {
   isProduction,
   isStaging,
   replacePathLocale,
-  doNotTrack,
 } from '../utility';
 import {
   createLocalization,
@@ -38,7 +37,6 @@ import { Uploads } from '../stores/uploads';
 import { User } from '../stores/user';
 import Layout from './layout/layout';
 import DemoLayout from './layout/demo-layout';
-import NotificationBanner from './notification-banner/notification-banner';
 import NotificationPill from './notification-pill/notification-pill';
 import { Spinner } from './ui/ui';
 import {
@@ -324,6 +322,9 @@ class App extends React.Component {
    */
   constructor(props: any, context: any) {
     super(props, context);
+
+    store.dispatch(User.actions.update({}) as any);
+    store.dispatch(User.actions.refresh() as any);
 
     if (isMobileSafari()) {
       document.body.classList.add('mobile-safari');

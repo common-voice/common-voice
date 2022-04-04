@@ -44,7 +44,7 @@
         justify-content: left;
         padding: 0.8px 40px;
         height: var(--input-height);
-        box-sizing: border-box;
+
         min-width: auto;
     }
 

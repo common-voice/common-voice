@@ -5,7 +5,7 @@ import {
 } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
-const { Tooltip } = require('react-tippy');
+import { Tooltip } from 'react-tippy';
 import { Flags } from '../../../stores/flags';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';

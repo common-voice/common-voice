@@ -76,7 +76,7 @@
     width: 100%;
     height: 100%;
     padding: 25px 40% 25px 25px;
-    box-sizing: border-box;
+
     z-index: var(--middle-z-index);
     overflow: auto;
     animation: slide-in-left var(--easing) var(--transition-duration-slow);
@@ -226,7 +226,7 @@
     padding: 0 20px;
     max-height: 205px;
     width: 100%;
-    box-sizing: border-box;
+
     overflow: auto;
     list-style: none;
 

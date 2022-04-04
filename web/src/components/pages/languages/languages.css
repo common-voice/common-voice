@@ -35,6 +35,10 @@
     }
 }
 
+.languages-page {
+    padding: var(--page-margin);
+}
+
 .languages {
     & .top {
         display: flex;
@@ -206,7 +210,6 @@
             margin: 10px 0;
             padding: 10px;
             width: 100%;
-            box-sizing: border-box;
         }
 
         & input {
@@ -241,8 +244,6 @@
         & ul {
             display: flex;
             flex-wrap: wrap;
-            margin-bottom: 0;
-            padding: 0;
             list-style: none;
         }
 
@@ -288,7 +289,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        box-sizing: border-box;
+
         margin-bottom: var(--language-box-margin);
         box-shadow: var(--card-shadow);
         width: 100%;

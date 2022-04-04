@@ -3,6 +3,7 @@
     --black: black;
     --red: #ff4f5e;
     --light-red: #fdc6c8;
+    --dark-red: #b90010;
     --green: #b7d43f;
     --valid-green: #59cbb7;
     --near-black: #4a4a4a;
@@ -13,12 +14,13 @@
     --desert-storm: #f3f2f1;
     --warm-grey: #959595;
     --blue: #629ff4;
+    --dark-blue: #195ebf;
     --inactive-grey: #575757;
 
     --gradient-pink: #f89096;
     --gradient-purple: #b1b4e5;
 
-    --link-color: var(--blue);
+    --link-color: var(--dark-blue);
 
     --override-z-index: 4;
     --header-z-index: 3;

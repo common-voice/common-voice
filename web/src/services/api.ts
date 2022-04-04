@@ -13,7 +13,7 @@ interface FetchOptions {
   headers?: {
     [headerName: string]: string;
   };
-  body?: any;
+  body?: any; // eslint-disable-line @typescript-eslint/no-explicit-any
 }
 
 interface Vote extends Event {
@@ -40,6 +40,7 @@ export default class API {
     this.user = user;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   private async fetch(path: string, options: FetchOptions = {}): Promise<any> {
     const { method, headers, body, isJSON } = Object.assign(
       {
@@ -355,6 +356,7 @@ export default class API {
     );
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   report(body: any) {
     return this.fetch(API_PATH + '/reports', {
       method: 'POST',
@@ -475,5 +477,27 @@ export default class API {
 
   getVariants(lang?: string) {
     return this.fetch(`${API_PATH}/language/variants${lang ? '/' + lang : ''}`);
+  }
+
+  async sendLanguageRequest({
+    email,
+    languageInfo,
+    languageLocale,
+    reCAPTCHAClientResponse,
+  }: {
+    email: string;
+    languageInfo: string;
+    languageLocale: string;
+    reCAPTCHAClientResponse: string;
+  }) {
+    return this.fetch(`${API_PATH}/language/request`, {
+      method: 'POST',
+      body: {
+        email,
+        languageInfo,
+        languageLocale,
+        reCAPTCHAClientResponse,
+      },
+    });
   }
 }

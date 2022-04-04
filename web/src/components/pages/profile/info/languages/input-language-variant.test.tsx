@@ -3,7 +3,7 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 import { screen, RenderResult } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { renderWithLocalization } from '../../../../../../test/mock-localization';
+import { renderWithLocalization } from '../../../../../../test/render-with-localization';
 import { UserLanguage } from 'common';
 import { MOCK_VARIANTS_ALL } from './mocks';
 
@@ -25,7 +25,7 @@ describe('InputLanguageVariant', () => {
   });
 
   it('should render with no accessibility violations', async () => {
-    const renderResult: RenderResult = await renderWithLocalization(
+    const renderResult: RenderResult = renderWithLocalization(
       <InputLanguageVariant
         locale={'cy'}
         variantsAll={MOCK_VARIANTS_ALL}
@@ -38,7 +38,7 @@ describe('InputLanguageVariant', () => {
   });
 
   it('updates the language list when selecting an option', async () => {
-    await renderWithLocalization(
+    renderWithLocalization(
       <InputLanguageVariant
         locale={'cy'}
         variantsAll={MOCK_VARIANTS_ALL}
@@ -79,7 +79,7 @@ describe('InputLanguageVariant', () => {
         },
       },
     ] as UserLanguage[];
-    await renderWithLocalization(
+    renderWithLocalization(
       <InputLanguageVariant
         locale={'pt'}
         variantsAll={MOCK_VARIANTS_ALL}

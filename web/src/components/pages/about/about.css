@@ -1,14 +1,6 @@
 .about {
-    #content {
-        padding: 0;
-    }
-
     #help-links {
         display: none;
-    }
-
-    footer {
-        margin-top: 0;
     }
 
     .about-hero {
@@ -33,7 +25,6 @@
         }
 
         .about-container {
-            box-sizing: border-box;
             transition: opacity var(--transition-duration-slow) var(--easing);
             max-width: var(--desktop-width);
             margin-right: auto;

@@ -4,9 +4,14 @@ import * as bodyParser from 'body-parser';
 import { MD5 } from 'crypto-js';
 import { NextFunction, Request, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
+import { StatusCodes } from 'http-status-codes';
+import PromiseRouter from 'express-promise-router';
+const Transcoder = require('stream-transcoder');
+
 import { UserClient as UserClientType } from 'common';
+import validateGoogleReCAPTCHA from './google-recaptcha-middleware';
 import { authMiddleware } from '../auth-router';
-import { getConfig, CommonVoiceConfig } from '../config-helper';
+import { getConfig } from '../config-helper';
 import Awards from './model/awards';
 import CustomGoal from './model/custom-goal';
 import getGoals from './model/goals';
@@ -17,22 +22,22 @@ import Bucket from './bucket';
 import Clip from './clip';
 import Model from './model';
 import { APIError, ClientParameterError } from './utility';
+import Email from './email';
 import Challenge from './challenge';
-import { taxonomies } from 'common';
 import Takeout from './takeout';
 import NotificationQueue, { uploadImage } from './queues/imageQueue';
-const Transcoder = require('stream-transcoder');
-import { StatusCodes } from 'http-status-codes';
-import { nextTick } from 'process';
 
-const PromiseRouter = require('express-promise-router');
-
-import validate, { jobSchema, sentenceSchema } from './validation';
+import validate, {
+  jobSchema,
+  sentenceSchema,
+  sendLanguageRequestSchema,
+} from './validation';
 
 export default class API {
   model: Model;
   clip: Clip;
   challenge: Challenge;
+  email: Email;
   private readonly s3: S3;
   private readonly bucket: Bucket;
   readonly takeout: Takeout;
@@ -41,6 +46,7 @@ export default class API {
     this.model = model;
     this.clip = new Clip(this.model);
     this.challenge = new Challenge(this.model);
+    this.email = new Email();
     this.s3 = AWS.getS3();
     this.bucket = new Bucket(this.model, this.s3);
     this.takeout = new Takeout(this.model.db.mysql, this.s3, this.bucket);
@@ -89,6 +95,12 @@ export default class API {
 
     router.get('/language/accents/:locale?', this.getAccents);
     router.get('/language/variants/:locale?', this.getVariants);
+    router.post(
+      '/language/request',
+      googleReCAPTCHAMiddleware,
+      validate({ body: sendLanguageRequestSchema }),
+      this.sendLanguageRequest
+    );
 
     router.get(
       '/:locale/sentences',
@@ -118,6 +130,7 @@ export default class API {
 
     router.get('/bucket/:bucket_type/:path', this.getPublicUrl);
     router.get('/server_date', this.getServerDate);
+
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
     });
@@ -250,7 +263,7 @@ export default class API {
   };
 
   saveAvatar = async (
-    { body, headers, params, user, client_id }: Request,
+    { body, params, user, client_id }: Request,
     response: Response
   ) => {
     let avatarURL;
@@ -362,7 +375,7 @@ export default class API {
       let path = await UserClient.getAvatarClipURL(user.emails[0].value);
       path = path[0][0].avatar_clip_url;
 
-      let avatarclip = await this.bucket.getAvatarClipsUrl(path);
+      const avatarclip = await this.bucket.getAvatarClipsUrl(path);
       response.json(avatarclip);
     } catch (err) {
       response.json(null);
@@ -440,10 +453,7 @@ export default class API {
     response.json({});
   };
 
-  insertDownloader = async (
-    { client_id, body }: Request,
-    response: Response
-  ) => {
+  insertDownloader = async ({ body }: Request, response: Response) => {
     await this.model.db.insertDownloader(body.locale, body.email, body.dataset);
     response.json({});
   };
@@ -451,7 +461,9 @@ export default class API {
   seenAwards = async ({ client_id, query }: Request, response: Response) => {
     await Awards.seen(
       client_id,
-      query.hasOwnProperty('notification') ? 'notification' : 'award'
+      Object.prototype.hasOwnProperty.call(query, 'notification')
+        ? 'notification'
+        : 'award'
     );
     response.json({});
   };
@@ -505,5 +517,36 @@ export default class API {
     response.json(
       await this.model.db.getVariants(client_id, params?.locale || null)
     );
+  };
+
+  sendLanguageRequest = async (
+    request: Request,
+    response: Response,
+    next: NextFunction
+  ) => {
+    const { email, languageInfo, languageLocale } = request.body;
+
+    try {
+      const info = await this.email.sendLanguageRequestEmail({
+        email,
+        languageInfo,
+        languageLocale,
+      });
+
+      const json = {
+        id: info?.messageId,
+        email,
+        languageInfo,
+        languageLocale,
+      } as any; // eslint-disable-line @typescript-eslint/no-explicit-any
+
+      if (info?.emailPreviewURL) {
+        json.emailPreviewURL = info?.emailPreviewURL;
+      }
+
+      response.json(json);
+    } catch (e) {
+      next(new Error('Something went wrong sending language request email'));
+    }
   };
 }

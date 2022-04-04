@@ -1,93 +1,88 @@
-import { ValidationError, Validator } from 'express-json-validator-middleware';
+import { Request, Response } from 'express';
+import { ValidationError } from 'express-json-validator-middleware';
 import validate, { jobSchema } from './index';
 
 describe('Job Schema Validation', () => {
   it('errors when passed incorrect value', () => {
-    const req: any = {
+    const request: Partial<Request> = {
       params: {
         jobId: '1a',
       },
     };
-    const res: any = {};
+    const response: Partial<Response> = {};
     const next = jest.fn();
     const validationCall = validate({ params: jobSchema });
-    validationCall(req, res, next);
-    expect(next).toBeCalled();
+    validationCall(request as Request, response as Response, next);
     expect(next).toBeCalledTimes(1);
     expect(next).toHaveBeenCalledWith(expect.any(ValidationError));
   });
 
   it('errors when passed decimal number', () => {
-    const req: any = {
+    const request: Partial<Request> = {
       params: {
         jobId: '1.1',
       },
     };
-    const res: any = {};
+    const response: Partial<Response> = {};
     const next = jest.fn();
     const validationCall = validate({ params: jobSchema });
-    validationCall(req, res, next);
-    expect(next).toBeCalled();
+    validationCall(request as Request, response as Response, next);
     expect(next).toBeCalledTimes(1);
     expect(next).toHaveBeenCalledWith(expect.any(ValidationError));
   });
 
   it('errors when passed negative number', () => {
-    const req: any = {
+    const request: Partial<Request> = {
       params: {
         jobId: '-1',
       },
     };
-    const res: any = {};
+    const response: Partial<Response> = {};
     const next = jest.fn();
     const validationCall = validate({ params: jobSchema });
-    validationCall(req, res, next);
-    expect(next).toBeCalled();
+    validationCall(request as Request, response as Response, next);
     expect(next).toBeCalledTimes(1);
     expect(next).toHaveBeenCalledWith(expect.any(ValidationError));
   });
 
   it('errors when passed empty string', () => {
-    const req: any = {
+    const request: Partial<Request> = {
       params: {
         jobId: '',
       },
     };
-    const res: any = {};
+    const response: Partial<Response> = {};
     const next = jest.fn();
     const validationCall = validate({ params: jobSchema });
-    validationCall(req, res, next);
-    expect(next).toBeCalled();
+    validationCall(request as Request, response as Response, next);
     expect(next).toBeCalledTimes(1);
     expect(next).toHaveBeenCalledWith(expect.any(ValidationError));
   });
 
   it('errors when passed undefined', () => {
-    const req: any = {
+    const request: Partial<Request> = {
       params: {
         jobId: undefined,
       },
     };
-    const res: any = {};
+    const response: Partial<Response> = {};
     const next = jest.fn();
     const validationCall = validate({ params: jobSchema });
-    validationCall(req, res, next);
-    expect(next).toBeCalled();
+    validationCall(request as Request, response as Response, next);
     expect(next).toBeCalledTimes(1);
     expect(next).toHaveBeenCalledWith(expect.any(ValidationError));
   });
 
   it('No errors when passed correct value', () => {
-    const req: any = {
+    const request: Partial<Request> = {
       params: {
         jobId: '1',
       },
     };
-    const res: any = {};
+    const response: Partial<Response> = {};
     const next = jest.fn();
     const validationCall = validate({ params: jobSchema });
-    validationCall(req, res, next);
-    expect(next).toBeCalled();
+    validationCall(request as Request, response as Response, next);
     expect(next).toBeCalledTimes(1);
     expect(next).toHaveBeenCalledWith();
   });
