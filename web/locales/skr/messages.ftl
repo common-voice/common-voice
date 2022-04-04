@@ -654,6 +654,16 @@ request-language-success-content = تہاݙی زبان کوں اساں ٻہوں 
 select-language = زبان چݨو۔۔۔
 other-language = ٻئی زبان
 
+## Request Language Pages
+
+request-language-heading = نویں زبان کیتے آکھو
+request-language-form-email =
+    .label = تہاݙا ای میل پتہ
+request-language-form-info =
+    .label = زبان بارے ڄاݨکاری
+request-language-form-info-explanation-list-1 = تہاݙی زبان دا ناں
+request-language-form-info-explanation-list-2 = جے پتہ ہے تاں <isoCodeLink>آئی ایس او کوڈ</isoCodeLink>
+
 ## Languages Overview
 
 language-section-in-progress = تھیندا پئے
