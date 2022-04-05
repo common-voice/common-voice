@@ -73,9 +73,10 @@ module.exports = (_env, argv) => {
 
     new webpack.DefinePlugin({
       'process.env.GIT_COMMIT_SHA': JSON.stringify(process.env.GIT_COMMIT_SHA),
-      'process.env.GOOGLE_RECAPTCHA_SITE_KEY':
-        JSON.stringify(process.env.CV_GOOGLE_RECAPTCHA_SITE_KEY) ||
-        PROD_CV_GOOGLE_RECAPTCHA_SITE_KEY,
+      'process.env.GOOGLE_RECAPTCHA_SITE_KEY': JSON.stringify(
+        process.env.CV_GOOGLE_RECAPTCHA_SITE_KEY ||
+          PROD_CV_GOOGLE_RECAPTCHA_SITE_KEY
+      ),
     }),
   ];
 
