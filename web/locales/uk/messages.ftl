@@ -807,6 +807,22 @@ request-language-form-info-explanation-list-2 = <isoCodeLink>Коди ISO</isoCo
 request-language-form-info-explanation-list-3 = Посилання на вебсайти, які можуть допомогти нам зрозуміти мову
 request-language-google-recaptcha-required = reCAPTCHA необхідна, якщо ви хочете продовжити
 request-language-google-recaptcha-error = Щось пішло не так із reCAPTCHA. Спробуйте знову.
+# Success page
+request-language-success-heading = Дякуємо! Ви надіслали запит для додавання нової мови
+request-language-success-list-1 =
+    Невдовзі ви отримаєте електронний лист із поясненнями
+    як додати вашу мову до Common Voice
+request-language-success-list-2 =
+    Наш менеджер спільноти зв’яжеться з вами, щоб запропонувати
+    додаткову підтримку та повідомить вас про її наявність
+    спільнота, яка працює над вашою мовою
+request-language-success-list-3 =
+    Якщо ви не отримаєте від нас повідомлення протягом кількох днів,
+    зв’яжіться за адресою <emailLink>{ $email }</emailLink>
+    і ми зв'яжемося з вами!
+request-language-error =
+    Можливо, ми не отримали цього запиту. Будь ласка, напишіть нам безпосередньо
+    на <emailLink>{ $email }</emailLink>, і ми зв’яжемося з вами!
 
 ## Languages Overview
 
