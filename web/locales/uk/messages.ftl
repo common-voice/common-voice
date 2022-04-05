@@ -783,6 +783,10 @@ request-language-success-content = Ми дуже скоро зв'яжемося 
 select-language = Оберіть мову...
 other-language = Інша мова
 
+## Request Language Pages
+
+request-language-heading = Запитайте додавання нової мови
+
 ## Languages Overview
 
 language-section-in-progress = В процесі
