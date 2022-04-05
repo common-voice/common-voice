@@ -204,16 +204,14 @@ class AvatarSetup extends React.Component<Props, State> {
                 }
                 this.setState({ isSaving: false });
               }}>
-              <Localized id="remove-avatar">
-                <span />
-              </Localized>
+              <Localized id="remove-avatar" />
             </Button>
           </div>
         )}
         {!account.avatar_url && (
           <div className="avatar-current">
             <div className="avatar-wrap">
-              <Avatar />{' '}
+              <Avatar />
             </div>
           </div>
         )}
@@ -266,9 +264,7 @@ class AvatarSetup extends React.Component<Props, State> {
               }
               this.setState({ isSaving: false });
             }}>
-            <Localized id="connect-gravatar">
-              <span />
-            </Localized>{' '}
+            <Localized id="connect-gravatar" />{' '}
             {avatarType == 'gravatar' ? (
               <CheckIcon className="check" />
             ) : (
