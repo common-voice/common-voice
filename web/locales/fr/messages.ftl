@@ -408,6 +408,7 @@ gravatar_not_found = Impossible de trouver un Gravatar associé à votre adresse
 file_too_large = Le fichier sélectionné est trop volumineux
 avatar-uploaded = Avatar envoyé
 max-file-size = { $kb } ko max
+remove-avatar = Supprimer l’avatar
 
 ## Profile - Email
 
@@ -753,6 +754,13 @@ request-language-success-title = La langue a été proposée, merci.
 request-language-success-content = Nous vous contacterons très bientôt avec de plus amples informations sur la façon d’ajouter votre langue à Common Voice.
 select-language = Sélectionnez une langue…
 other-language = Autre langue
+
+## Request Language Pages
+
+request-language-form-email =
+    .label = Votre adresse e-mail
+request-language-form-info =
+    .label = Informations sur la langue
 
 ## Languages Overview
 
