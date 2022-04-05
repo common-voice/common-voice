@@ -617,6 +617,7 @@ other-datasets = ٻئے وائس ڈیٹاسیٹس
 feedback-q = فیڈبیک ݙیسو؟
 community-playbook = برادری پَلے بیک
 data-other-ted-name = TED-LIUM Corpus
+your-feedback = بھلا تہاݙے کول ایں بارے خیالات ہن جو اساں کامن وائس ڈیٹاسیٹ کوں چنگا کین٘ویں بݨا سڳدے ہیں۔ساکوں ڈسکورس تے ݙسو
 go-discourse = ڈسکورس تے ون٘ڄو
 missing-language = بھلا تساں آپݨی زبان دا عکس ڈیٹاسیٹ وچ نہوے ݙیہدے؟زبان دی سربراہی کرݨ دی ارداس کرݨ کیتے ساݙے زباناں ورقے تے ون٘ڄو۔
 go-languages-page = زباناں ورقے تے ون٘ڄو
@@ -662,8 +663,12 @@ request-language-form-email =
     .label = تہاݙا ای میل پتہ
 request-language-form-info =
     .label = زبان بارے ڄاݨکاری
+request-language-form-info-explanation =
+    تساں زبان بارے جتی وی ودھ ڄاݨکاری ݙے سڳدے ہو، شامل کرو۔ این٘دے وچ ایہ
+    شامل تھی سڳدن:
 request-language-form-info-explanation-list-1 = تہاݙی زبان دا ناں
 request-language-form-info-explanation-list-2 = جے پتہ ہے تاں <isoCodeLink>آئی ایس او کوڈ</isoCodeLink>
+request-language-form-info-explanation-list-3 = زبان کوں سمجھݨ کیتے ویب سائٹاں دے لنک
 request-language-google-recaptcha-required = جے تساں اڳوں تے ون٘ڄݨ چاہندے ہو تاں reCAPTCHA ضروری ہے
 request-language-google-recaptcha-error = reCAPTCHA نال کجھ خرابی تھی ڳئی۔ سوہݨا، ولدا کوشش کرو۔
 # Success page
