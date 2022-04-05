@@ -765,6 +765,10 @@ request-language-success-content = 我們將很快在您的語言於 Common Voic
 select-language = 選擇一種語言…
 other-language = 其他語言
 
+## Request Language Pages
+
+request-language-heading = 請求加入新語言
+
 ## Languages Overview
 
 language-section-in-progress = 準備中
