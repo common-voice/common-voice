@@ -406,6 +406,7 @@ gravatar_not_found = Nulle gravatar trovate pro tu adresse de e-mail
 file_too_large = Le file seligite es troppo grande
 avatar-uploaded = Avatar cargate
 max-file-size = { $kb }kb max
+remove-avatar = Remover avatar
 
 ## Profile - Email
 
@@ -775,6 +776,7 @@ request-language-form-info =
 request-language-form-info-explanation-list-1 = Nomines de tu lingua
 request-language-form-info-explanation-list-2 = <isoCodeLink>Codices ISO</isoCodeLink> si note
 request-language-google-recaptcha-required = Le reCAPTCHA es necesse si tu vole proceder
+request-language-google-recaptcha-error = Alco errate eveniva con reCAPTCHA. Reproba.
 
 ## Languages Overview
 
