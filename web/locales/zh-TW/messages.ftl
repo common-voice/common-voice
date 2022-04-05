@@ -783,6 +783,8 @@ request-language-google-recaptcha-error = reCAPTCHA 怪怪的，請再試一次�
 # Success page
 request-language-success-heading = 您已成功送出新語言請求，非常感謝！
 request-language-success-list-1 = 您應該很快就會收到要如何將語言加入 Common Voice 的相關資訊
+request-language-success-list-2 = 我們的社群經理將主動聯絡您，提供各種協助，並且讓您知道是否已有其他社群在貢獻您提出的語言。
+request-language-success-list-3 = 若接下來幾天，您沒有收到來自我們的消息，也歡迎您主動寄信到 <emailLink>{ $email }</emailLink> 聯絡我們，我們會盡快回覆！
 
 ## Languages Overview
 
