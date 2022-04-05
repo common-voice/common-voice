@@ -969,6 +969,7 @@ contribution-background-noise-title = پس منظر دا شور
 contribution-background-noise-example-1-fixed-title = <strong>[سنیز]<strong/>ٹریاسک دے دیوہیکل ڈاینا <strong>[کف]</strong>۔
 contribution-background-noise-example-2-fixed-title = ٹریاسک دے دیوہیکل ڈاینا <strong>[کف]</strong>۔
 contribution-background-noise-example-2-explanation = [عبارت دا حصہ کائنی سُݨ سڳیندا]
+contribution-background-noise-example-3-fixed-title = <strong>[کریکل]<strong/>ریاسک دے دیوہیکل ڈایناسار <strong>[کریکل]</strong>۔
 contribution-background-voices-title = پس منظر دی آوازاں
 contribution-background-voices-example-1-title = ٹریاسک دے دیوہیکل ڈایناسور۔ <strong>[ہک آواز وچ پڑھا ڳیا]</strong>
 contribution-background-voices-example-1-explanation = بھلا تساں آندے پئے ہو؟ <strong>[ٻئے دے سݙے ہوئے]</strong>
@@ -1031,6 +1032,7 @@ sc-howto-review-criteria-6 = جے تہاݙے کول نظرثانی کیتے جم
 sc-howto-findpd-title = عوامی ڈومین وچ موجودہ جملے لبھݨ
 sc-howto-findpd-subtitle = انٹرنیٹ تے انہاں کوں ڳولو
 sc-howto-findpd-tips = جملے لبھݨ کیتے کجھ گُر ایہ ہن:
+sc-howto-findpd-tips-3 = بدقسمتی نال ساݙے کول وکیمیڈیا مضمون کائنی۔ ایں سانگے تساں اُتھوں کاپی پیسٹ نہ کرو۔
 sc-howto-findpd-subtitle-2 = مقامی تنظیماں یا افراداں نال بھائیوال
 
 ## MY SENTENCES
@@ -1090,6 +1092,14 @@ sc-add-lang-sec-label = جہڑی زبان وچ تساں حصہ پاوݨ چاہن
 sc-add-lang-sec-button = زبان شامل کرو
 sc-add-err-unexpected = سرور ولوں ابڑغت ولدا آیا جواب
 # Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ پووݨ پاروں مسترد تھئے۔
+        [one] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ پووݨ پاروں مسترد تھئے۔
+       *[other] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ پووݨ پاروں مسترد تھئے۔
+    }
+# Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
@@ -1098,6 +1108,7 @@ sc-add-err-failed =
        *[other] { $sentences } جملے ناکام تھئے
     }
 sc-add-err-submission = جمع کرواݨ وچ خرابی
+sc-add-lang-process-notice = جے تہاݙی زبان ایں تندیر وچ کائنی تاں تساں ایندی ارداس <languageProcessLink>ایں عمل </languageProcessLink> دے ذریعے کر سڳدے ہو۔
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1115,6 +1126,12 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } تہاݙے ولوں مسترد تھئے
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] پہلے کوئی جملہ نظرثانی کائنی تھیا۔
+        [one] پہلے ١ جملہ نظرثانی تھیا ہے۔ سوہݨا کم!
+       *[other] پہلے { $countOfReviewed } جملے نظرثانی تھئے ہن۔
+    }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
@@ -1123,6 +1140,9 @@ sc-confirm-ready =
         [one] جمع کرواوݨ کیتے ١ جملہ تیار ہے!
        *[other] جمع کرواوݨ کیتے { $readyCount }  جملے تیار ہن!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } جملے نظرثانی ٻاجھ ہن۔ جے تساں چاہندے ہو تاں انہاں کوں جمع کرواوݨ کنوں پہلے نظرثانی وی کر سڳدے ہو۔
 sc-confirm-button-text = تصدیق
 
 ## LANGUAGE INFO
