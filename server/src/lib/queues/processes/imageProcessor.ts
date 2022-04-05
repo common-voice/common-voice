@@ -18,6 +18,7 @@ const getUnsignedUrl = (bucket: string, key: string) => {
 
   return `https://${bucket}.s3.dualstack.${AWS_REGION}.amazonaws.com/${key}`;
 };
+
 const deleteAvatar = async (client_id: string, url: string, s3: any) => {
   const urlParts = url.split('/');
   if (urlParts.length) {
@@ -58,8 +59,6 @@ const imageProcessor = async (job: Job) => {
     user: Express.User;
     key: string;
     imageBucket: string;
-    s3?: any;
-    bucket: any;
   };
   //upload to S3 here
   try {
