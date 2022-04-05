@@ -412,6 +412,7 @@ gravatar_not_found = Engin gravatar-auðkennismynd fannst fyrir tölvupóstfangi
 file_too_large = Valin skrá er of stór
 avatar-uploaded = Auðkennismynd send inn
 max-file-size = { $kb }kb hámark
+remove-avatar = Fjarlægja auðkennismynd
 
 ## Profile - Email
 
