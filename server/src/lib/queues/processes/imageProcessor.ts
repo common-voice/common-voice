@@ -4,6 +4,20 @@ import { AWS } from '../../aws';
 import { getConfig } from '../../../config-helper';
 
 const uploader = AWS.getS3();
+const getUnsignedUrl = (bucket: string, key: string) => {
+  const {
+    ENVIRONMENT,
+    S3_LOCAL_DEVELOPMENT_ENDPOINT,
+    CLIP_BUCKET_NAME,
+    AWS_REGION,
+  } = getConfig();
+
+  if (ENVIRONMENT === 'local') {
+    return `${S3_LOCAL_DEVELOPMENT_ENDPOINT}/${CLIP_BUCKET_NAME}/${key}`;
+  }
+
+  return `https://${bucket}.s3.dualstack.${AWS_REGION}.amazonaws.com/${key}`;
+};
 
 const deleteAvatar = async (client_id: string, url: string, s3: any) => {
   const urlParts = url.split('/');
@@ -34,12 +48,10 @@ const updateAvatarURL = async (
 
 const imageProcessor = async (job: Job) => {
   const {
-    s3,
     client_id,
     rawImageData,
     key: fileName,
     imageBucket,
-    bucket,
     user,
   } = job.data as {
     client_id: string;
@@ -47,8 +59,6 @@ const imageProcessor = async (job: Job) => {
     user: Express.User;
     key: string;
     imageBucket: string;
-    s3?: any;
-    bucket: any;
   };
   //upload to S3 here
   try {
@@ -60,7 +70,9 @@ const imageProcessor = async (job: Job) => {
         ACL: 'public-read',
       })
       .promise();
-    await updateAvatarURL(client_id, user, fileName, uploader);
+    const avatarURL = getUnsignedUrl(getConfig().CLIP_BUCKET_NAME, fileName);
+
+    await updateAvatarURL(client_id, user, avatarURL, uploader);
   } catch (error) {
     console.error(error);
     return false;
