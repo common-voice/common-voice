@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const { parse } = require('@fluent/syntax');
 const fetch = require('node-fetch');
 const { promisify } = require('util');
