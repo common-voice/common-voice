@@ -71,6 +71,7 @@ fy-NL = فىرىزيەچە
 ga-IE = ئىرېلاندىيەچە
 gl = گالىتسىيانچە
 gn = گۇئارانىچە
+gom = كونكانىچە
 ha = خائۇساچە
 he = ئىبرانىچە
 hi = ھىندىچە
@@ -721,6 +722,9 @@ request-language-success-title = تىل تەلىپى مۇۋەپپەقىيەتل�
 request-language-success-content = Common Voice قا تىلىڭىزنى قانداق قوشۇش توغرىسىدا پات يېقىندا سىزنى تېخىمۇ كۆپ ئۇچۇر بىلەن تەمىنلەيمىز.
 select-language = تىل تاللاڭ ...
 other-language = باشقا تىل
+
+## Request Language Pages
+
 
 ## Languages Overview
 
