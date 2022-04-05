@@ -768,6 +768,7 @@ other-language = 其他語言
 ## Request Language Pages
 
 request-language-heading = 請求加入新語言
+request-language-explanation-1 = 請先確認您的語言是否已列於<languagesPageLink>Common Voice 語言頁面</languagesPageLink>。若沒有再列出的語言清單中，請填寫此表單，我們將<strong>寄送一份如何開始設定語言</strong>的簡短郵件帶您入門。
 
 ## Languages Overview
 
