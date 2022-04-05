@@ -772,6 +772,17 @@ request-language-explanation-1 = 請先確認您的語言是否已列於<languag
 request-language-explanation-2 = 我們也想<strong>讓我們的社群經理知道您對新語言有興趣</strong>，這樣才可以提供您任何需要的支援或幫助。
 request-language-form-email =
     .label = 您的電子郵件地址
+request-language-form-info =
+    .label = 語言相關資訊
+request-language-form-info-explanation = 請盡量提供與這種語言有關的資訊，包含：
+request-language-form-info-explanation-list-1 = 語言名稱
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO 代碼</isoCodeLink>（如果知道的話）
+request-language-form-info-explanation-list-3 = 能幫助我們理解這種語言相關資訊的網站
+request-language-google-recaptcha-required = 若要繼續，須完成 reCAPTCHA 驗證
+request-language-google-recaptcha-error = reCAPTCHA 怪怪的，請再試一次。
+# Success page
+request-language-success-heading = 您已成功送出新語言請求，非常感謝！
+request-language-success-list-1 = 您應該很快就會收到要如何將語言加入 Common Voice 的相關資訊
 
 ## Languages Overview
 
