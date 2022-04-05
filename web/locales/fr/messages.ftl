@@ -761,6 +761,10 @@ request-language-form-email =
     .label = Votre adresse e-mail
 request-language-form-info =
     .label = Informations sur la langue
+request-language-form-info-explanation = Ajoutez autant d’informations que vous pouvez sur la langue. Ces informations peuvent inclure :
+request-language-form-info-explanation-list-1 = Les noms de votre langue
+request-language-form-info-explanation-list-2 = Les <isoCodeLink>codes ISO</isoCodeLink>, si connus
+request-language-form-info-explanation-list-3 = Des liens vers des sites web qui peuvent nous aider à comprendre la langue
 
 ## Languages Overview
 
