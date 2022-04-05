@@ -2,7 +2,6 @@ import { Job } from 'bull';
 import UserClient from '../../model/user-client';
 import { AWS } from '../../aws';
 import { getConfig } from '../../../config-helper';
-import Bucket from '../../bucket';
 
 const uploader = AWS.getS3();
 const getUnsignedUrl = (bucket: string, key: string) => {
@@ -10,14 +9,14 @@ const getUnsignedUrl = (bucket: string, key: string) => {
     ENVIRONMENT,
     S3_LOCAL_DEVELOPMENT_ENDPOINT,
     CLIP_BUCKET_NAME,
-    BUCKET_LOCATION,
+    AWS_REGION,
   } = getConfig();
 
   if (ENVIRONMENT === 'local') {
     return `${S3_LOCAL_DEVELOPMENT_ENDPOINT}/${CLIP_BUCKET_NAME}/${key}`;
   }
 
-  return `https://${bucket}.s3.dualstack.${BUCKET_LOCATION}.amazonaws.com/${key}`;
+  return `https://${bucket}.s3.dualstack.${AWS_REGION}.amazonaws.com/${key}`;
 };
 const deleteAvatar = async (client_id: string, url: string, s3: any) => {
   const urlParts = url.split('/');
