@@ -766,6 +766,8 @@ request-language-form-info-explanation = Ajoutez autant d’informations que vou
 request-language-form-info-explanation-list-1 = Les noms de votre langue
 request-language-form-info-explanation-list-2 = Les <isoCodeLink>codes ISO</isoCodeLink>, si connus
 request-language-form-info-explanation-list-3 = Des liens vers des sites web qui peuvent nous aider à comprendre la langue
+request-language-google-recaptcha-required = reCAPTCHA est nécessaire si vous voulez continuer
+request-language-google-recaptcha-error = Une erreur est survenue avec reCAPTCHA. Merci de réessayer plus tard.
 # Success page
 request-language-success-heading = Merci ! Vous avez envoyé une nouvelle demande de langue
 request-language-success-list-1 = Vous devriez recevoir sous peu un e-mail vous expliquant les étapes pour ajouter votre langue à Common Voice
