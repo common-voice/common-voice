@@ -2,11 +2,6 @@ name: Build and Push Docker container
 
 on:
   push:
-    branches:
-      - main
-      - stage
-      - production
-      - sandbox
     tags:
       - 'release-v*.*.*'
       - 'stage-v*.*.*'
