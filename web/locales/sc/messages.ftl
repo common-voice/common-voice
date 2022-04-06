@@ -332,6 +332,8 @@ profile-form-native-language =
     .label = Limba mama
 profile-form-additional-language =
     .label = Limba additzionale
+profile-form-language =
+    .label = Lìngua
 profile-form-variant =
     .label = Cale variedade de { $language } faeddas?
 profile-form-variant-default-value = Nissuna variedade seletzionada
@@ -696,6 +698,9 @@ request-language-success-title = As imbiadu sa rechesta de limba; gràtzias.
 request-language-success-content = T'amus a cuntatare luegu cun àteras informatziones a subra de comente agiùnghere sa limba tua a Common Voice.
 select-language = Seletziona una limba...
 other-language = Àtera limba
+
+## Request Language Pages
+
 
 ## Languages Overview
 
