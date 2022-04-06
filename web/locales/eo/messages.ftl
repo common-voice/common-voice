@@ -487,6 +487,8 @@ how-does-it-work-text = Ni kalkulas je kolektiva patropreno por konstrui malferm
 
 about-language-req-subtitle = Iu petas aldonon de lingvo.
 about-localization-title = Traduko de retejo
+about-localization-subtitle = La retejo estas tradukita en tiun lingvon.
+about-dataset-release-title = Eldono de datumaro
 about-speak = Paroli
 about-speak-text = Kontribuantoj laŭtlegas el kolekto de donacitaj frazoj kaj registras siajn voĉojn.
 about-listen-queue = Vico de aŭskulto
@@ -693,6 +695,9 @@ request-language-success-title = La propono de lingvo estis sukcese sendita, dan
 request-language-success-content = Ni baldaŭ skribos al vi kun pli da informo pri la aldono de via lingvo al Common Voice.
 select-language = Elektu lingvon...
 other-language = Alia lingvo
+
+## Request Language Pages
+
 
 ## Languages Overview
 
