@@ -3422,6 +3422,7 @@ Cool, ihr habt so eine alte Petroleumlampe?
 Coole Alufelgen.
 Coole Felgen.
 Corinna ist gewissermaßen das Bindeglied zwischen den Familien.
+Corinna ist wieder unterwegs.
 Cornelia, kann es sein, dass du in einen Hundehaufen getreten bist?
 Cornflakes sind meistens gesüßt und daher ungesunder Bestandteil von Müslis.
 Cottbus gehört wahrscheinlich zu den Verlierern der Wende.
@@ -3501,6 +3502,7 @@ Da hast du einen Übertrag vergessen.
 Da hast du noch mal Glück gehabt, Freundchen!
 Da hast du wohl den Zonk gezogen.
 Da hat er aber wirklich die maximale Länge ausgenutzt.
+Da hat er die Locken gerade geföhnt.
 Da hat er extra lange gewartet.
 Da hat er sich verhaspelt.
 Da hat er wieder die Leitung angebohrt.
@@ -5046,6 +5048,7 @@ Das frage ich mich auch jeden Tag.
 Das frage ich mich auch jedes Mal.
 Das fragt ihn der Kollege, der von all dem nichts mitbekommen hat.
 Das freut viele meiner autistischen Bekannten.
+Das frisch abgerissene Blatt war platt.
 Das funktioniert auch mit Android und Windows.
 Das funktioniert auch.
 Das fällt bei der Geräuschkulisse doch gar nicht auf.
@@ -5175,6 +5178,7 @@ Das hatten wir doch alles schon einmal.
 Das hatten wir noch nie!
 Das haut einen um, wenn man nicht aufpasst.
 Das haut er einfach so raus!
+Das heilige römische Reich war reich an verschiedenen Kulturen.
 Das heißt, eigentlich gibt es vier davon.
 Das heißt, sie werden demoliert.
 Das heißt: Einmal arbeiten, öfter abkassieren.
@@ -5623,6 +5627,7 @@ Das mit den Kindern sollte man sich wirklich gut überlegen.
 Das mit der Grammatik üben wir aber nocheinmal.
 Das mit der Prozentrechnung üben wir dann noch mal.
 Das mittelständische Unternehmen exportiert Gabelstapler in alle Welt.
+Das morsche Schiff gehört der Schifffahrtsgesellschaft Mustermann.
 Das muss auch gar nicht lange sein.
 Das muss der Geschäftsführer auf seine Kappe nehmen.
 Das muss der viel zitierte Fachkräftemangel sein.
@@ -6709,6 +6714,7 @@ Der Haken an der Sache ist, dass solche Tiere nicht existieren.
 Der Handel mit Bonobo-Äffchen ist ein florierendes Geschäft.
 Der Handwerker stellte sich vor und sagte, er würde gern ein Rohr verlegen.
 Der Hanse-Express hält auch in Elmshorn.
+Der Hase verspeiste den Tiger als Nachtisch.
 Der Hauptbeschuldigte ist einer der Top-Leute des Clans.
 Der Hausmeister hat immer so viel zu tun.
 Der Haustürschlüssel lag praktischerweise noch in der Wohnung.
@@ -7478,6 +7484,7 @@ Der sogenannte gesunde Menschenverstand wird leider oft synonym für Ignoranz un
 Der sprang auf einmal aus dem Gebüsch heraus!
 Der steinige Weg sah nicht nach einer Abkürzung aus.
 Der stimmlose glottale Plosiv wird auch Glottisverschluss oder Knacklaut genannt.
+Der studierende Student las das Fachbuch sehr gründlich.
 Der tut nichts!
 Der umgekehrte Fall tritt ein, wenn Strom im Überfluss zur Verfügung steht.
 Der unfähige Tontechniker hat den Track völlig übersteuert.
@@ -8213,6 +8220,7 @@ Die Kinder streiten sich darum, wer im Etagenbett oben schlafen darf.
 Die Kinder von Familie Königshofer sind ganz schön frech.
 Die Kirche hat genauso viel mit Gott zu tun wie eine Hochzeit mit Liebe.
 Die Kirchenglocken erklingen zu jeder vollen Stunde.
+Die Kirchgänger gingen auf dem Weg zur Kirche an Kirschbäumen vorbei.
 Die Kisten mit den Fressalien für die Willkommensparty stehen auf der Veranda.
 Die Kiwi ist sowohl eine Frucht, als auch ein Vogel.
 Die Klage hat Aussicht auf Erfolg, sofern sie zulässig und soweit sie begründet ist.
@@ -12072,6 +12080,7 @@ Es gibt Menschen, die das erotisch finden.
 Es gibt Millionen Facebook-, Twitter- und Instagram-Nutzer.
 Es gibt Schweinshaxe und selbstgebrannten Schnaps.
 Es gibt Tage da verliert man, und es gibt Tage da gewinnen die anderen.
+Es gibt Vögel die fliegen nicht und manche Menchen schwimmen nicht.
 Es gibt Weißbier, Helles und auch Pils.
 Es gibt aber auch Einfamilienhäuser, in denen keine Familie wohnt.
 Es gibt allerdings einen Pferdefuß.
@@ -19933,6 +19942,7 @@ Keine Bange!
 Keine Bewegung, sie handeln nur noch auf meine Anweisung!
 Keine Branche schreibt so komplizierte und lange Geschäftsbedingungen wie Geldinstitute.
 Keine Chance für den Torhüter!
+Keine Diagnose durch die Hose.
 Keine Frau bringt heimlich, still und leise ein Kind zur Welt.
 Keine Klammern vorlesen!
 Keine Liebe ist auch keine Lösung.
@@ -30534,6 +30544,7 @@ Was soll denn auf dein Sandwich drauf?
 Was soll denn eine transsexuelle Bi-Lesbe sein?
 Was soll denn pimpern bedeuten?
 Was soll denn überhaupt legalisiert werden?
+Was soll der Scheiß?
 Was soll ein Kinderdentist sein?
 Was soll ich anderes denken, als dass ein Roter hier gewesen ist?
 Was soll ich bloß auf die Postkarte schreiben?
@@ -33489,6 +33500,7 @@ Wo könnte man noch etwas verbessern?
 Wo lagerst du derweil deine Sommerreifen?
 Wo lernt man so etwas, Mittelerde?
 Wo liegen deine Messer?
+Wo liegt denn der Panda im Pfeffer?
 Wo liegt denn nun der Inbusschlüssel?
 Wo liegt ungefähr die Grenze?
 Wo lässt man in Mittelerde am besten die Sau raus?
