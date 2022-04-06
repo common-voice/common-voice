@@ -415,6 +415,7 @@ gravatar_not_found = Ndojejuhúi Gravatar ne ñe’ẽveve pegua
 file_too_large = Tuichaitereíma marandurenda eiporavova’ekue
 avatar-uploaded = Avatar jehupi
 max-file-size = { $kb } kb max
+remove-avatar = Eipe’a Avatar
 
 ## Profile - Email
 
@@ -779,6 +780,11 @@ request-language-form-info =
     .label = Marandu ñe’ẽ rehegua
 request-language-form-info-explanation-list-1 = Ne ñe’ẽ réra
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO ayvu</isoCodeLink> ojeikuaáramo
+request-language-form-info-explanation-list-3 = Ñanduti renda mbojuajuha ne pytyvõtava eikumby hag̃ua ñe’ẽ.
+request-language-google-recaptcha-required = Eikotevẽta reCAPTCHA rehe eku’esejeýramo
+request-language-google-recaptcha-error = Oĩ osẽvaíva reCAPTCHA ndive. Ikatúpiko eha’ãjey ag̃ave.
+# Success page
+request-language-success-heading = ¡Aguyje! Emondo ñe’ẽ rehegua porandu
 
 ## Languages Overview
 
@@ -1444,7 +1450,6 @@ sc-review-link = Hechajey
 
 sc-settings-title = Ñemboheko
 sc-settings-ui-language = Jehechaha Ñe’ẽ
-sc-settings-language-translated-warning = Hi’ã chéve kuatiarogue ko ñe’ẽmegua noñembohasapái gueteri. Ikatu eipytyvõ pe ñe’ẽasápe <pontoonLinkLink>Pontoon pegua</pontoonLinkLink>
 sc-settings-reset-skipped = Erujey ñe’ẽjoaju hejapyre
 sc-settings-skipped-decription = Ymave ohasa ñe’ẽjuaju omoñe’ẽ’aja. Oguerujeývo umi ñe’ẽjuaju ñomimbyre, ojehechaukáta opaite ñe’ẽjuaju ñomimbyre ipyahúva. Kóva imombyry pe ñe’ẽgui.
 sc-settings-show-all-button = Ehechaukapa ñe’ẽjuaju ojehejerei pyahúva
