@@ -412,6 +412,7 @@ gravatar_not_found = Nem található gravatar az e-mail címéhez
 file_too_large = A kiválasztott fájl túl nagy
 avatar-uploaded = Profilkép feltöltése
 max-file-size = legfeljebb { $kb }kb
+remove-avatar = Profilkép eltávolítása
 
 ## Profile - Email
 
@@ -771,6 +772,10 @@ request-language-success-title = Nyelvkérés sikeresen beküldve, köszönjük.
 request-language-success-content = Hamarosan jelenkezünk további információkkal arról, hogy tudja hozzáadni a nyelvét a Common Voice projekthez.
 select-language = Válasszon nyelvet…
 other-language = Más nyelv
+
+## Request Language Pages
+
+request-language-heading = Kérdezzen egy új nyelvről
 
 ## Languages Overview
 
@@ -1463,7 +1468,6 @@ sc-review-link = Ellenőrzés
 
 sc-settings-title = Beállítások
 sc-settings-ui-language = Felület nyelve
-sc-settings-language-translated-warning = Előfordulhat, hogy az ehhez a nyelvhez tartozó oldalak nincsenek teljesen lefordítva. Segíthet a fordításban a <pontoonLinkLink>Pontoon-on</pontoonLinkLink>.
 sc-settings-reset-skipped = Kihagyott mondatok visszaállítása
 sc-settings-skipped-decription = Korábban kihagyott mondatokat az ellenőrzés során. Az átugrott mondatok visszaállítása az összes kihagyott mondatot újra megjeleníti. Ez független a nyelvtől.
 sc-settings-show-all-button = Az összes kihagyott mondat megjelenítése újra
