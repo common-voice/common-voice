@@ -2,6 +2,8 @@ name: Build and Push Docker container
 
 on:
   push:
+    branches:
+      - main
     tags:
       - 'release-v*.*.*'
       - 'stage-v*.*.*'
