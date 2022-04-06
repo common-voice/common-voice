@@ -406,6 +406,7 @@ gravatar_not_found = Não foi encontrado um Gravatar para seu email
 file_too_large = O arquivo selecionado é grande demais
 avatar-uploaded = Avatar enviado
 max-file-size = Máximo { $kb }kb
+remove-avatar = Remover avatar
 
 ## Profile - Email
 
@@ -1453,7 +1454,6 @@ sc-review-link = Revisão
 
 sc-settings-title = Configurações
 sc-settings-ui-language = Idioma da interface
-sc-settings-language-translated-warning = As páginas deste idioma podem não estar totalmente traduzidas. Você pode ajudar na tradução no <pontoonLinkLink>Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Redefinir frases ignoradas
 sc-settings-skipped-decription = Anteriormente, você pulou frases durante a revisão. A redefinição de frases ignoradas faz com que todas elas sejam exibidas novamente. Isso independente do idioma.
 sc-settings-show-all-button = Mostrar novamente todas as frases ignoradas
