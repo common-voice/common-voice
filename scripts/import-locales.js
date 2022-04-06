@@ -115,7 +115,7 @@ async function importContributableLocales(locales) {
           obj[locale.name] = {
             name: locale.name,
             id: locale.id,
-            target_sentence_count: locale.target_sentence_count,
+            targetSentenceCount: locale.target_sentence_count,
           };
           return obj;
         }, {});
@@ -152,14 +152,13 @@ async function importContributableLocales(locales) {
 
           // get target sentence count from db if exists, else use default
           const currentTargetSentenceCount =
-            currentLang && currentLang.target_sentence_count
-              ? currentLang.target_sentence_count
+            currentLang && currentLang.targetSentenceCount
+              ? currentLang.targetSentenceCount
               : CONTRIBUTABLE_MIN_SENTENCES; //use default if language doesnt exist in db
 
           const isContributable = count >= currentTargetSentenceCount;
           if (isContributable)
             console.log(`Added new contributable locale: ${currentLang.name}`);
-          // check if lang has enough sentences (in db first, then default)
           return isContributable;
         });
         saveDataJSON('contributable', names.sort());
