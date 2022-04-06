@@ -154,10 +154,13 @@ async function importContributableLocales(locales) {
           const currentTargetSentenceCount =
             currentLang && currentLang.target_sentence_count
               ? currentLang.target_sentence_count
-              : CONTRIBUTABLE_MIN_SENTENCES;
+              : CONTRIBUTABLE_MIN_SENTENCES; //use default if language doesnt exist in db
 
+          const isContributable = count >= currentTargetSentenceCount;
+          if (isContributable)
+            console.log(`Added new contributable locale: ${currentLang.name}`);
           // check if lang has enough sentences (in db first, then default)
-          return count >= currentTargetSentenceCount;
+          return isContributable;
         });
         saveDataJSON('contributable', names.sort());
 
