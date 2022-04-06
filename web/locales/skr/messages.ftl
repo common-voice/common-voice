@@ -850,6 +850,11 @@ want-to-continue = بھلا تساں جاری رکھݨ چاہندے ہو؟
 finish-editing = پہلے تبدیلی کرݨ مکمل کروں؟
 lose-changes-warning = ہݨ چھوڑݨ نال تہاݙیاں تبدیلیاں ضائع تھی ویسن
 build-custom-goal = مرضی دا مقصد بݨاؤ
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] ذاتی مقصد نال { $language } وچ { $hours } گھنٹہ پہنچݨ کیتے مدد کرو
+       *[other] ذاتی مقصد نال { $language } وچ { $hours } گھنٹے پہنچݨ کیتے مدد کرو
+    }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] ذاتی مقصد نال زبان وچ { $hours } گھنٹہ کامن وائس پہنچ مدد کرو
@@ -892,9 +897,12 @@ profile-form-delete = پرفائل مٹاؤ
 download-q = آپݨا ڈیٹا ڈاؤن لوڈ کرݨ دی لوڑ ہے؟
 download-info = ساکوں ݙسو جو تساں کیا ڈاؤن لوڈ کرݨ چاہندے ہو؟
 download-profile-title = پروفائل
+download-profile-info = ای میل، ورتݨ ناں تے آبادیاتی ڄاݨکاری تے مشتمل ہے، ہݨ دستیاب ہے
 download-profile-size = کجھ بائٹ
 download-recordings-title = ریکارڈنگز
+download-recordings-info = ایم پی ترائے تے متعلقہ جملے شامل ہن، تیاری تے کجھ ویلا لڳ سڳدے
 download-recordings-size = عام طور تے میگا بائٹس
+download-recordings-unavailable = تساں آپݨی رکاڈنگ دی ارداس نہوے کرسڳدے، ہک ٻئی ارداس پہلے ہی  جاری ہے۔
 download-size = سائز
 download-selected = چُݨا ہویا
 download-start = پروفائل ڈیٹا ڈاؤن لوڈ کرو
