@@ -7,7 +7,7 @@
     }
 
     .about-heading {
-        padding-inline-start: calc((100% - 76rem) / 2);
+        padding-inline-start: var(--page-margin-padding);
         max-width: inherit !important;
         border-top: 1px solid var(--light-grey);
     }
@@ -24,24 +24,11 @@
     }
 
     & .about-header {
-        display: flex;
         position: relative;
-        @media (--md-down) {
-            padding: 40px 0 30px;
-            flex-direction: column;
-        }
-
-        @media (--md-down) {
-            flex-flow: column-reverse;
-        }
-
-        @media (--xs-down) {
-            padding-bottom: 0;
-        }
+        display: flex;
+        flex-direction: column;
 
         @media (--lg-up) {
-            margin-top: 50px;
-            margin-bottom: 0;
             flex-direction: row;
         }
     }
@@ -96,13 +83,7 @@
         z-index: var(--middle-z-index);
         flex: 1;
         text-align: right;
-
-        @media (--md-down) {
-            margin: 2rem 0 0 auto;
-        }
-        @media (--sm-down) {
-            margin-top: 0;
-        }
+        margin: 1em auto;
 
         & .robot {
             max-width: 100%;

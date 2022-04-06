@@ -8,6 +8,7 @@
     line-height: 1em;
 
     @media (--md-up) {
+        margin-top: 1.5em;
         font-size: 3em;
     }
 
@@ -19,6 +20,22 @@
         height: 3px;
         left: 0;
         top: 0;
-        background: linear-gradient(90deg, #f89096 0%, #b1b5e5 100%);
+        background: linear-gradient(
+            90deg,
+            var(--gradient-pink) 0%,
+            var(--gradient-purple) 100%
+        );
+
+        [dir='rtl'] & {
+            left: auto;
+            right: 0;
+        }
+    }
+}
+
+.page-heading--is-light {
+    /* little decorative line */
+    &::before {
+        background: var(--white);
     }
 }

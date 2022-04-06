@@ -45,6 +45,9 @@
     --old-desktop-width: 55rem;
 
     --page-margin: 1rem;
+    --page-margin-padding: calc(
+        ((100vw - var(--desktop-width)) / 2) + (var(--page-margin) * 0.5)
+    );
 
     --input-height: 2.5rem;
 
