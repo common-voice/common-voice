@@ -489,6 +489,8 @@ about-language-req-subtitle = Iu petas aldonon de lingvo.
 about-localization-title = Traduko de retejo
 about-localization-subtitle = La retejo estas tradukita en tiun lingvon.
 about-dataset-release-title = Eldono de datumaro
+about-dataset-release-subtitle = Ni eldonas la datumaron ĉiun trian monaton.
+about-subscribe-text = Ĉu vi volas resti en kontakto kun Common Voice?
 about-speak = Paroli
 about-speak-text = Kontribuantoj laŭtlegas el kolekto de donacitaj frazoj kaj registras siajn voĉojn.
 about-listen-queue = Vico de aŭskulto
@@ -524,13 +526,17 @@ about-nav-why-common-voice = Kial?
 about-nav-how-it-works = Kiel?
 about-nav-partners = Asociitoj
 about-nav-get-involved = Partopreni
+about-nav-how-it-works-2 = Kiel funkcias Common Voice?
+about-nav-playbook = Lernu kiel partopreni
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Kio estas lingvo ĉe Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Kiel aldoni lingvon?
 
 ## How does localization work
 
@@ -552,6 +558,8 @@ about-nav-get-involved = Partopreni
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-6 = Reciproka respondeco.
+about-playbook-how-project-governance-content-7 = <governanceLink>Pli da informo pri nia administro</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artefarita intelekto
 mycroft-description = Mycroft estas la unua malfermitkoda asistanto en la mondo. Mycroft funkcias ĉie: en komputilo, en aŭto aŭ en Raspberry Pi.
