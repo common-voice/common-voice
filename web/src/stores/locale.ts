@@ -1,6 +1,4 @@
 import { Dispatch } from 'redux';
-const contributableLocales =
-  require('../../../locales/contributable.json') as string[];
 import { Clips } from './clips';
 import { Sentences } from './sentences';
 import StateTree from './tree';
