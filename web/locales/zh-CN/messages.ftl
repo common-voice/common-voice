@@ -401,6 +401,7 @@ gravatar_not_found = 通过您的电子邮件地址未找到 Gravatar
 file_too_large = 所选文件太大
 avatar-uploaded = 头像已上传
 max-file-size = 最大 { $kb }kb
+remove-avatar = 移除头像
 
 ## Profile - Email
 
@@ -638,6 +639,7 @@ review-delete-recordings = 删除我的录音
 
 ## Datasets Page
 
+datasets-heading = 数据集
 datasets-headline = 我们正在构建一组开源、多语言的语音数据集，让任何人都可以用来开发语音相关的应用。
 datasets-positioning =
     我们相信一组大型、可公开使用的语音数据集，将可促进基于机器学习的语音技术的创新，与健康的商业竞争。
@@ -1375,7 +1377,6 @@ sc-review-link = 审核
 
 sc-settings-title = 设置
 sc-settings-ui-language = 界面语言
-sc-settings-language-translated-warning = 此语言的页面似乎尚未完成翻译。欢迎到 <pontoonLinkLink>Pontoon</pontoonLinkLink> 协助我们补充翻译。
 sc-settings-reset-skipped = 重置跳过的句子
 sc-settings-skipped-decription = 您在之前的审核过程中有跳过句子。重置跳过的句子将显示您在所有语言跳过的句子。
 sc-settings-show-all-button = 再次显示跳过的句子
