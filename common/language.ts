@@ -6,6 +6,14 @@ export type Accent = {
   clientId?: string;
 };
 
+// a single accent object
+export type Language = {
+  id: number;
+  name: string;
+  target_sentence_count: number;
+  total_sentence_count?: number;
+};
+
 // single variant object
 export type Variant = {
   id: number;
