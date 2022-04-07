@@ -739,6 +739,7 @@ request-language-google-recaptcha-required = 若要继续，需完成 reCAPTCHA 
 request-language-google-recaptcha-error = reCAPTCHA 人机验证异常，请重试。
 # Success page
 request-language-success-heading = 感谢！您已成功发起新语言请求
+request-language-success-list-3 = 若您在几天内未收到我们的消息，请直接发邮件至 <emailLink>{ $email }</emailLink> 联系我们，我们会尽快回复。
 request-language-error = 我们可能还未收到该请求。请直接发邮件至 <emailLink>{ $email }</emailLink> 联系我们，我们会尽快回复。
 
 ## Languages Overview
