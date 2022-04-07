@@ -4,9 +4,6 @@ import DB from './model/db';
 import { DBClip } from './model/db/tables/clip-table';
 import lazyCache from './lazy-cache';
 
-const locales = require('locales/all.json') as string[];
-const contributableLocales = require('locales/contributable.json') as string[];
-
 // based on the latest dataset
 const AVG_CLIP_SECONDS = 4.694;
 const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = {
@@ -191,10 +188,19 @@ export default class Model {
     await this.db.saveClip(clipData);
   }
 
+  getAllLanguages = lazyCache(
+    'get-all-languages',
+    async () => {
+      const languages = await this.db.getLanguages();
+      return languages;
+    },
+    DAY
+  );
+
   getContributableLanguages = lazyCache(
     'get-contributable-languages',
     async () => {
-      const languages = await this.db.getLanguages();
+      const languages = await this.getAllLanguages();
       const contributableLanguages = languages.filter(language => {
         return language.total_sentence_count >= language.target_sentence_count;
       });
@@ -217,6 +223,8 @@ export default class Model {
   getLanguageStats = lazyCache(
     'get-all-language-stats',
     async (): Promise<LanguageStats> => {
+      const allLanguagesResults = await this.getAllLanguages();
+      const languages = allLanguagesResults.map(l => l.name);
       const contributableLanguagesResults =
         await this.getContributableLanguages();
 
@@ -224,11 +232,11 @@ export default class Model {
         language => language.name
       );
 
-      const inProgressLocales = locales.filter(
-        locale => !contributableLanguages.includes(locale)
+      const inProgressLocales = languages.filter(
+        language => !contributableLanguages.includes(language)
       );
 
-      function indexCountByLocale(
+      function indexCountByLanguage(
         rows: { locale: string; count: number; target_sentence_count: number }[]
       ): {
         [locale: string]: any;
@@ -257,13 +265,13 @@ export default class Model {
         fetchLocalizedPercentagesByLocale(),
         this.db
           .getSentenceCountByLocale(inProgressLocales)
-          .then(indexCountByLocale),
+          .then(indexCountByLanguage),
         this.db
           .getValidClipCount(contributableLanguages)
-          .then(indexCountByLocale),
+          .then(indexCountByLanguage),
         this.db
           .getSpeakerCount(contributableLanguages)
-          .then(indexCountByLocale),
+          .then(indexCountByLanguage),
       ]);
 
       return {
