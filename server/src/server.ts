@@ -12,10 +12,6 @@ import { importLocales } from './lib/model/db/import-locales';
 import { importTargetSegments } from './lib/model/db/import-target-segments';
 import { scrubUserActivity } from './lib/model/db/scrub-user-activity';
 import Model from './lib/model';
-import {
-  getFullClipLeaderboard,
-  getFullVoteLeaderboard,
-} from './lib/model/leaderboard';
 import API from './lib/api';
 import { redis, useRedis, redlock } from './lib/redis';
 import { APIError, ClientError, getElapsedSeconds } from './lib/utility';
@@ -26,7 +22,6 @@ import fetchLegalDocument from './fetch-legal-document';
 import { createTaskQueues, TaskQueues } from './lib/takeout';
 import getCSPHeaderValue from './csp-header-value';
 import { ValidationError } from 'express-json-validator-middleware';
-const contributableLocales = require('locales/contributable.json');
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version';
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
