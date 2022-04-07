@@ -1052,6 +1052,7 @@ sc-home-title = کامن وائس جملے کٹھے کرݨ آلے وچ ست بس
 sc-home-collect-title = جملے کٹھے کرو
 sc-home-collect-text = عوامی ڈومین جملے کٹھے کرݨ یا لکھݨ وچ ساݙی مدد کرو۔
 sc-home-review-title = جملیاں دا جائزہ گھنو
+sc-home-review-text = رہنما اصولاں دے مطابق درستی کیتے جملے نظرثانی کرتے ساݙی مدد کرو۔
 
 ## GENERAL
 
