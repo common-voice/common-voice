@@ -921,11 +921,13 @@ download-recordings-title = ریکارڈنگز
 download-recordings-info = ایم پی ترائے تے متعلقہ جملے شامل ہن، تیاری تے کجھ ویلا لڳ سڳدے
 download-recordings-size = عام طور تے میگا بائٹس
 download-recordings-unavailable = تساں آپݨی رکاڈنگ دی ارداس نہوے کرسڳدے، ہک ٻئی ارداس پہلے ہی  جاری ہے۔
+download-recently-requested = تساں ہر{ $days } ݙین٘ہاں وچ آپݨی رکاڈنگ دے نویں ٹیک آؤٹ دی ارداس کر سڳدے ہو۔
 download-size = سائز
 download-selected = چُݨا ہویا
 download-start = پروفائل ڈیٹا ڈاؤن لوڈ کرو
 download-request = ریکارڈنگ دی ارداس کرو
 download-requests = ماضی دیاں رکاڈنگ ڈاؤن لوڈ ارداساں
+download-requests-info = ڄݙݨ تساں آپݨی رکاڈنگ دی ارداس کریندے ہو، تاں اساں انہاں کوں ہک یا ودھ زپ فائلاں وچ مرتب کریندے ہیں۔ اتھ تہاݙیاں ماضی دی ارداساں ہن:
 download-request-button = ڈاؤن لوڈ
 download-request-title = { $created }
 download-request-description = { $clipCount } وائس کلپ، کل آرکائیو سائز{ $size }. مُکسی { $expires }.
@@ -942,6 +944,7 @@ download-request-metadata-link = جملے دی عبارت
 
 welcome-staff = { $company } عملہ کوں ست بسم اللہ !
 login-company = { $company } ای میل نال لاگ ان/ سائن اپ
+profile-not-required = ونگاراں کیتے پروفائل ضروری کائنی پر مدد گار ہے، وجہ کیتے ہیٹھاں ݙیکھو۔
 read-more-about = ساݙے تعارفی ورقہ تے ٻیا پڑھو
 
 ## DemoLayout
@@ -984,6 +987,7 @@ contribution-criteria-page-title = ونگار دا معیار
 contribution-for-example = مثال دے طور تے
 contribution-misreadings-title = غلط پڑھݨ
 contribution-misreadings-description-extended-list-2 = لفظ دے چھیکڑ تے ہک <strong>'s'</strong> غائب ہے۔
+contribution-misreadings-description-extended-list-4 = رکاڈنگ کوں تکھے تکھے کٹ تے چھیکڑی لفظ دا سِرا ون٘ڄاوݨ
 contribution-misreadings-description-extended-list-5 = ہک لفظ پڑھݨ کیتے ٻہوں واری کوشش تھیندی پئی ہے۔
 contribution-misreadings-example-1-title = ٹریاسک دے دیوہیکل ڈایناسور۔
 contribution-misreadings-example-2-title = ٹریاسک دا دیوہیکل ڈایناسور۔
@@ -1002,6 +1006,7 @@ contribution-misreadings-example-8-explanation = [غیر مماثل مواد]
 contribution-varying-pronunciations-title = بدلدا ہویا تلفظ
 contribution-varying-pronunciations-example-1-title = آپݨے سر تے اوں بیریٹ پاتا ہویا ہائی۔
 contribution-varying-pronunciations-example-2-title = اوندا ہتھ اُٹھا ہویا ہائی۔
+contribution-varying-pronunciations-example-2-explanation = [انگریزی وچ 'ریزڈ' ہمیشاں ہک سلیبل نال ادا کیتا ویندے، ݙو نال کائناں]
 contribution-background-noise-title = پس منظر دا شور
 contribution-background-noise-example-1-fixed-title = <strong>[سنیز]<strong/>ٹریاسک دے دیوہیکل ڈاینا <strong>[کف]</strong>۔
 contribution-background-noise-example-2-fixed-title = ٹریاسک دے دیوہیکل ڈاینا <strong>[کف]</strong>۔
