@@ -864,6 +864,20 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = مقصد مقرر کرو
 cant-decide = بھلا فیصلہ نہوے کر سڳدے؟
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } گھنٹہ قابل حصول ہے صرف
+       *[other] { $totalHours } گھنٹے قابل حصول ہے صرف
+    }{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } مہینہ وچ جے کر
+       *[other] { $periodMonths } مہینیاں وچ جے کر
+    }{ NUMBER($people) ->
+        [one] { $people } بندہ رکاڈ کرے
+       *[other] { $people } بندے رکاڈ کرن
+    }{ NUMBER($clipsPerDay) ->
+        [one] ہر ݙین٘ہ { $clipsPerDay } کلپ
+       *[other] ہر ݙین٘ہ { $clipsPerDay } کلپ
+    }
 how-many-per-day = زبردست فی ݙین٘ہ کتی کلپ ہن؟
 how-many-a-week = زبردست! ہفتے وچ کتی کلپ ہن؟
 which-goal-type = بھلا تساں ٻولݨ، سُݨݨ چاہندے ہو یا ݙوہیں؟
@@ -890,8 +904,10 @@ share-goal = میݙا مقصد شیئر کرو
 
 ## Profile Delete
 
+delete-q = بھلا تساں آپݨی صوتی رکاڈنگ کوں وی مٹواوݨ چاہسو، یا تساں ایں کوں کامن وائس ڈیٹاسیٹ وچ رکھݨ پسند کریسو؟
 keep = جاری رکھو
 remove = ہٹاؤ
+keep-info = تہاݙی گمنام آواز دی رکاڈنگ کامن وائس ڈیٹاسیٹ وچ باقی راہسی۔ ہک واری تساں آپݨی پروفائل مٹا ݙیسو تاں تساں آپݨی رکاڈنگ کوں ہٹاوݨ دی کوئی ارداس جمع کائناں کر سڳسو۔
 profile-form-delete = پرفائل مٹاؤ
 
 ## Profile Download
