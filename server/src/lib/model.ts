@@ -191,6 +191,18 @@ export default class Model {
     await this.db.saveClip(clipData);
   }
 
+  getContributableLanguages = lazyCache(
+    'get-contributable-languages',
+    async () => {
+      const languages = await this.db.getLanguages();
+      const contributableLanguages = languages.filter(language => {
+        return language.total_sentence_count >= language.target_sentence_count;
+      });
+      return contributableLanguages;
+    },
+    DAY
+  );
+
   getValidatedHours = lazyCache(
     'validated-hours',
     async () => {
@@ -203,10 +215,17 @@ export default class Model {
   );
 
   getLanguageStats = lazyCache(
-    'all-language-stats',
+    'get-all-language-stats',
     async (): Promise<LanguageStats> => {
+      const contributableLanguagesResults =
+        await this.getContributableLanguages();
+
+      const contributableLanguages = contributableLanguagesResults.map(
+        language => language.name
+      );
+
       const inProgressLocales = locales.filter(
-        locale => !contributableLocales.includes(locale)
+        locale => !contributableLanguages.includes(locale)
       );
 
       function indexCountByLocale(
@@ -240,9 +259,11 @@ export default class Model {
           .getSentenceCountByLocale(inProgressLocales)
           .then(indexCountByLocale),
         this.db
-          .getValidClipCount(contributableLocales)
+          .getValidClipCount(contributableLanguages)
           .then(indexCountByLocale),
-        this.db.getSpeakerCount(contributableLocales).then(indexCountByLocale),
+        this.db
+          .getSpeakerCount(contributableLanguages)
+          .then(indexCountByLocale),
       ]);
 
       return {
@@ -251,7 +272,7 @@ export default class Model {
           localizedPercentage: localizedPercentages[locale] || 0,
           sentencesCount: sentenceCounts[locale] || 0,
         })),
-        launched: contributableLocales.map(locale => ({
+        launched: contributableLanguages.map(locale => ({
           locale,
           seconds: Math.floor(
             (validClipsCounts[locale]?.current_count || 0) *
@@ -261,7 +282,7 @@ export default class Model {
         })),
       };
     },
-    DAY
+    1
   );
 
   getClipsStats = lazyCache(
