@@ -409,6 +409,7 @@ gravatar_not_found = Ingen gravatar hittades för din e-postadress
 file_too_large = Den valda filen är för stor
 avatar-uploaded = Avatar uppladdad
 max-file-size = max { $kb } kb
+remove-avatar = Ta bort avatar
 
 ## Profile - Email
 
@@ -773,6 +774,15 @@ request-language-success-title = Språkförfrågan har skickats in, tack.
 request-language-success-content = Vi hör av oss med mer information om hur du lägger till ditt språk i Common Voice väldigt snart.
 select-language = Välj ett språk...
 other-language = Andra språk
+
+## Request Language Pages
+
+request-language-heading = Fråga om ett nytt språk
+request-language-form-email =
+    .label = Din e-postadress
+request-language-form-info =
+    .label = Information om språket
+request-language-form-info-explanation-list-1 = Namn på ditt språk
 
 ## Languages Overview
 
@@ -1443,7 +1453,6 @@ sc-review-link = Granska
 
 sc-settings-title = Inställningar
 sc-settings-ui-language = Gränssnittsspråk
-sc-settings-language-translated-warning = Sidorna för detta språk kanske inte är helt översatta. Du kan hjälpa till med översättning <pontoonLinkLink>på Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Återställ överhoppade meningar
 sc-settings-skipped-decription = Du hoppade över meningar tidigare när du granskade. Om du återställer överhoppade meningar visas alla överhoppade meningar igen. Detta är oberoende av språket.
 sc-settings-show-all-button = Visa alla överhoppade meningar igen
