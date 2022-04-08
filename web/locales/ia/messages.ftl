@@ -774,6 +774,9 @@ request-language-form-email =
     .label = Tu adresse email
 request-language-form-info =
     .label = Informationes re le lingua
+request-language-form-info-explanation =
+    Adde quante plus informationes tu pote re le lingua. Isto
+    pote includer:
 request-language-form-info-explanation-list-1 = Nomines de tu lingua
 request-language-form-info-explanation-list-2 = <isoCodeLink>Codices ISO</isoCodeLink> si note
 request-language-google-recaptcha-required = Le reCAPTCHA es necesse si tu vole proceder
