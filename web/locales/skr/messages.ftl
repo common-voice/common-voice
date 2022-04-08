@@ -848,6 +848,7 @@ validated-clips = تصدیق تھئے کلپ
 total-approved = کل منظور تھئے
 overall-accuracy = مجموعی درستگی
 set-visibility = میݙی رویت مقرر کرو
+visibility-overlay-note = نوٹ: جہڑے ویلے 'نظردے' تے سیٹ ہے تاں ایہ ترتیباں <profileLink>پروفائل ورقہ</profileLink> نال وٹا سڳیندی ہے۔
 show-ranking = میݙی رینکنگ ݙکھاؤ
 
 ## Custom Goals
