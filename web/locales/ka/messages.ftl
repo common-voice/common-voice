@@ -790,6 +790,23 @@ request-language-form-info-explanation-list-1 = თქვენი ენის 
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-კოდებს</isoCodeLink>, თუ იცით
 request-language-form-info-explanation-list-3 = საიტთა ბმულებს, რომლებითაც უკეთ გავეცნობით თქვენს ენას
 request-language-google-recaptcha-required = reCAPTCHA უნდა გაიაროთ, რომ განაგრძოთ
+request-language-google-recaptcha-error = რაღაც ხარვეზითაა reCAPTCHA. გთხოვთ, კვლავ სცადოთ.
+# Success page
+request-language-success-heading = გმადლობთ! ენის მოთხოვნა გაგზავნილია.
+request-language-success-list-1 =
+    მალე მიიღებთ წერილს, რომელშიც ახსნილი იქნება
+    მომდევნო ნაბიჯები, თქვენი ენის Common Voice-ში დასამატებლად
+request-language-success-list-2 =
+    ჩვენი ერთობის ხელმძღვანელი შეგეხმიანებათ დამატებითი
+    მხარდაჭერისთვის და გაცნობებთ, უკვე ხომ არაა შეკრებილი
+    ჯგუფი, რომელიც მუშაობს ამ ენისთვის
+request-language-success-list-3 =
+    თუ არ გამოგეხმაურებით რამდენიმე დღეში,
+    მოგვწერეთ მისამართზე <emailLink>{ $email }</emailLink>
+    და აუცილებლად მოგაქცევთ ყურადღებას!
+request-language-error =
+    შესაძლოა, არ მიგვიღია მოთხოვნა. გთხოვთ, მოგვწეროთ პირდაპირ
+    მისამართზე <emailLink>{ $email }</emailLink> და მოგაქცევთ ყურადღებას!
 
 ## Languages Overview
 
