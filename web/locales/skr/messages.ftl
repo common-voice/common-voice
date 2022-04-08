@@ -1288,6 +1288,7 @@ sc-review-select-language = جملیاں دا جائزہ گھنݨ کیتے زب�
 sc-review-no-sentences = نظرثانی کیتے کوئی جملے کائنی۔<addLink> ہݨ ٻئے جملے شامل کرو!</addLink>
 sc-review-form-prompt =
     .message = نظرثانی تھئے جملے جمع کائنی تھئے، تہاکوں پک ہے؟
+sc-review-form-usage = جملے منظور کرݨ کیتے سڄے ہاسے انگل مارو۔ مسترد کرݨ کیتے کھٻے پاسے انگل نال پونجھو۔ ایں کوں چھوڑݨ کیتے اتلے پاسے پونجھو۔ <strong>آپݨاں ریوو جمع کرواوݨ نہ بھُلو!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = ماخذ: { $sentenceSource }
