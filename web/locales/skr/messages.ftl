@@ -1200,6 +1200,7 @@ sc-confirm-ready =
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } جملے نظرثانی ٻاجھ ہن۔ جے تساں چاہندے ہو تاں انہاں کوں جمع کرواوݨ کنوں پہلے نظرثانی وی کر سڳدے ہو۔
 sc-confirm-button-text = تصدیق
+sc-confirm-uploading = جملے اپ لوڈ تھیندے پئے ہن۔ ایں کم تے جملیاں دی تعداد دے مطابق کئی منٹ لڳ سڳدن۔ سوہݨا، ایہ ویب سائٹ بند نہ کراہے۔
 
 ## LANGUAGE INFO
 
@@ -1280,6 +1281,7 @@ sc-criteria-item-6 = جے تہاݙے کول نظرثانی کیتے جملے ک�
 
 ## REVIEW
 
+sc-review-lang-not-selected = تساں کوئی زبان کائنی چُݨی۔ سوہݨا، زباناں چُݨݨ سانگے آپݨی <profileLink>پروفائل</profileLink> تے ون٘ڄو۔
 sc-review-title = جملیاں دا جائزہ گھنو
 sc-review-loading = جملے لوڈ تھیندے پئے۔۔۔
 sc-review-select-language = جملیاں دا جائزہ گھنݨ کیتے زبان چُݨو، سوہݨا۔
