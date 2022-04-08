@@ -770,6 +770,11 @@ other-language = Altere linguas
 ## Request Language Pages
 
 request-language-heading = Demandar un nove lingua
+request-language-explanation-1 =
+    Verifica si tu lingua es in le lista super le
+    <languagesPageLink>Pagina de linguas de Common Voice</languagesPageLink>.
+    Si non, plena iste forma e nos <strong>te inviara un practic email
+    explicante como implementar tu lingua</strong>.
 request-language-form-email =
     .label = Tu adresse email
 request-language-form-info =
