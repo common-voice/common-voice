@@ -13,6 +13,7 @@ email-opt-in-info-title = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯄꯥꯎꯖꯦꯜ ꯊ
 email-opt-in-info-sub-with-challenge = ꯃꯁꯤꯒꯨꯝꯕ ꯑꯁꯤꯗ  ꯏꯃꯦꯜ ꯂꯥꯛꯍꯟꯕ ꯄꯥꯝꯃꯤ ꯑꯋꯥꯕ ꯈꯨꯗꯣꯡ ꯆꯑꯗꯕꯁꯤꯡ, ꯄꯥꯟꯖꯤꯜ ꯅꯤꯡꯁꯤꯡꯍꯟꯕ, ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯄꯥꯎꯁꯤꯡ ꯱ꯁꯨꯡ ꯑꯅꯧꯕ ꯂꯥꯛꯄꯁꯤꯡ ꯫
 indicates-required = * ꯃꯁꯤꯅ ꯇꯥꯛꯂꯤꯕ ꯑꯁꯤ ꯁꯣꯢꯗꯅ ꯆꯪꯕ
 not-available-abbreviation = ꯐꯪꯗꯕ
+banner-error-slow-1 = ꯄꯨꯛꯅꯤꯡ ꯂꯩꯇꯥꯕꯤꯌꯨ, ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯌꯥꯝꯅ ꯇꯞꯅ ꯆꯠꯂꯤ ꯫ ꯊꯥꯒꯠꯆꯔꯤ ꯑꯗꯣꯝꯅ ꯊꯧꯋꯥꯢ ꯌꯥꯎꯕꯤꯕꯒꯤ ꯫
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -35,7 +36,6 @@ ba = ꯕꯥꯁꯀꯤꯔ
 bas = ꯕꯥꯁꯥ
 be = ꯕꯦꯂꯥꯔꯨꯁꯤꯌꯥꯟ
 bg = ꯕꯨꯜꯒꯥꯔꯤꯌꯥꯟ
-bm = ꯕꯥꯝꯕꯥꯔꯥ
 bn = ꯕꯦꯡꯒꯥꯂꯤ
 br = ꯕ꯭ꯔꯦꯇꯣꯟ
 bs = ꯕꯣꯁꯅꯤꯌꯥꯟ
@@ -357,7 +357,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯀꯔꯤꯒꯤ?
-how-does-it-work-title = ꯃꯁꯤ ꯀꯔꯝꯅ ꯃꯊꯧ ꯇꯧꯕꯅꯣ?
+
+## How does it work section
+
 about-speak = ꯋꯥ ꯉꯥꯡꯉꯨ
 about-listen = ꯃꯨꯟꯅ ꯇꯥꯎ
 about-partners = ꯈꯣꯡꯂꯣꯏ
@@ -365,6 +367,34 @@ about-nav-why-common-voice = ꯀꯔꯤꯒꯤ?
 about-nav-how-it-works = ꯀꯔꯝꯅ?
 about-nav-partners = ꯈꯣꯡꯂꯣꯏ
 about-nav-get-involved = ꯌꯥꯎꯁꯤꯟꯕ
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-subtitle = ꯈꯨꯠꯁꯦꯝꯒꯤ ꯍꯩꯁꯤꯡꯕ
 
 ## Glossary
@@ -411,6 +441,9 @@ size-megabyte = ꯑꯦꯝꯕꯤ
 
 
 ## Request Language Modal
+
+
+## Request Language Pages
 
 
 ## Languages Overview
@@ -467,6 +500,9 @@ size-megabyte = ꯑꯦꯝꯕꯤ
 
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO
