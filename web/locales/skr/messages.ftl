@@ -697,6 +697,9 @@ request-language-google-recaptcha-required = جے تساں اڳوں تے ون٘�
 request-language-google-recaptcha-error = reCAPTCHA نال کجھ خرابی تھی ڳئی۔ سوہݨا، ولدا کوشش کرو۔
 # Success page
 request-language-success-heading = تہاݙا تھورا! اساں نویں زبان تحقیق پٹھی ہے
+request-language-success-list-1 =
+    تہاکوں جلدی وضاحت کرݨ آلی ای میل وصول کرݨی چاہیدی ہے جیندے وچ
+    کامن وائس وچ زبان شامل کرݨ کیتے مرحلیاں دی تفصیل ہوسی
 
 ## Languages Overview
 
