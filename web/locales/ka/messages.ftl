@@ -408,6 +408,7 @@ gravatar_not_found = თქვენი ელფოსტისთვის ა
 file_too_large = შერჩეული ფაილი ზედმეტად დიდია
 avatar-uploaded = სურათი ატვირთულია
 max-file-size = არაუმეტეს { $kb }კბაიტი
+remove-avatar = გამოსახულების მოცილება
 
 ## Profile - Email
 
@@ -686,6 +687,7 @@ review-delete-recordings = ჩემი ჩანაწერების წა
 
 ## Datasets Page
 
+datasets-heading = კრებულები
 datasets-headline = ჩვენ ვქმნით ღია წყაროს მქონე, მრავალენოვანი ხმოვანი ჩანაწერების მონაცემთა კრებულს, რომლის გამოყენებაც ნებისმიერ მსურველს შეეძლება თავისი ხმოვანი შესაძლებლობების მქონე პროგრამების დასახვეწად.
 datasets-positioning = ჩვენ მიგვაჩნია, რომ დიდი, საჯაროდ ხელმისაწვდომი ხმოვან მონაცემთა კრებული, ხელს შეუწყობს სიახლეების დანერგვასა და ჯანსაღი მეტოქეობის განვითარებას, მანქანურ სწავლებაზე დაფუძნებულ, ხმოვან ტექნოლოგიებში.
 language = ენა
@@ -764,6 +766,30 @@ request-language-success-title = ენის მოთხოვნა გად
 request-language-success-content = ჩვენ მალე მოგაწვდით ინფორმაციას, თუ როგორ უნდა დაამატოთ თქვენი ენა Common Voice-ში.
 select-language = აირჩიეთ ენა...
 other-language = სხვა ენები
+
+## Request Language Pages
+
+request-language-heading = ახალი ენის დამატების მოთხოვნა
+request-language-explanation-1 =
+    შეამოწმეთ, არის თუ არა თქვენი ენა
+    <languagesPageLink>Common Voice-ის ენების გვერდზე</languagesPageLink>.
+    თუ არაა, შეავსეთ კითხვარი და <strong>გამოგიგზავნით წერილს
+    ენის დამატების შესახებ მითითებებით</strong>.
+request-language-explanation-2 =
+    ამასთან, <strong>ვაცნობებთ ჩვენი ერთობის ხელმძღვანელს,
+    რომ გამოთქვით სურვილი</strong>, შედეგად მიიღებთ დამატებით
+    მხარდაჭერასა და ინფორმაციას, რომელიც შეიძლება გამოგადგეთ.
+request-language-form-email =
+    .label = თქვენი ელფოსტის მისამართი
+request-language-form-info =
+    .label = ინფორმაცია ენის შესახებ
+request-language-form-info-explanation =
+    მიუთითეთ მეტად დაწვრილებითი აღწერა თქვენი ენის. ეს
+    შეიძლება მოიცავდეს:
+request-language-form-info-explanation-list-1 = თქვენი ენის დასახელებებს
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-კოდებს</isoCodeLink>, თუ იცით
+request-language-form-info-explanation-list-3 = საიტთა ბმულებს, რომლებითაც უკეთ გავეცნობით თქვენს ენას
+request-language-google-recaptcha-required = reCAPTCHA უნდა გაიაროთ, რომ განაგრძოთ
 
 ## Languages Overview
 
@@ -1508,7 +1534,6 @@ sc-review-link = შემოწმება
 
 sc-settings-title = პარამეტრები
 sc-settings-ui-language = სამუშაო ენა
-sc-settings-language-translated-warning = გვერდები ამ ენისთვის, შესაძლოა სრულად არ იყოს თარგმნილი. წვლილის შესატანად, იხილეთ <pontoonLinkLink>Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = გამოტოვებული წინადადებების გადატვირთვა
 sc-settings-skipped-decription =
     შემოწმებისას გამოტოვებული გაქვთ წინადადებები.
