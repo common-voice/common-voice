@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = ꯃꯁꯤꯒꯨꯝꯕ ꯑꯁꯤꯗ  ꯏ�
 indicates-required = * ꯃꯁꯤꯅ ꯇꯥꯛꯂꯤꯕ ꯑꯁꯤ ꯁꯣꯢꯗꯅ ꯆꯪꯕ
 not-available-abbreviation = ꯐꯪꯗꯕ
 banner-error-slow-1 = ꯄꯨꯛꯅꯤꯡ ꯂꯩꯇꯥꯕꯤꯌꯨ, ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯌꯥꯝꯅ ꯇꯞꯅ ꯆꯠꯂꯤ ꯫ ꯊꯥꯒꯠꯆꯔꯤ ꯑꯗꯣꯝꯅ ꯊꯧꯋꯥꯢ ꯌꯥꯎꯕꯤꯕꯒꯤ ꯫
+error-something-went-wrong = ꯄꯨꯛꯅꯤꯡ ꯐꯥꯊꯕꯤꯌꯨ, ꯑꯁꯣꯢꯕ ꯈꯔꯥ ꯂꯩꯔꯦ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
