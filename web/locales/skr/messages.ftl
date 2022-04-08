@@ -541,6 +541,7 @@ about-playbook-how-grow-language = اساں کامن وائس تے مؤثر ان
 about-playbook-how-grow-language-content-2 = ایونٹ
 about-playbook-how-grow-language-content-4 = سماجی میڈیا
 about-playbook-how-grow-language-content-6 = بھائیوالی تے نیٹ ورک
+about-playbook-how-grow-language-content-8 = <strong>تخلیقی بݨو!</strong> تہاݙی زبان برادری نویکلی ہوسی۔ تے ایہ شروع کرݨ کیتے صرف کجھ طریقے ہن۔
 
 ## How to validate
 
@@ -603,6 +604,7 @@ dataset-date = تریخ
 license = لائسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = مکس تھئے
 data-download-singleword-title = ہک لفظی ہدف حصہ ڈاؤن لوڈ کرو
+data-download-singleword-callout-v2 = ایہ ہک ورتݨ کیس نال چلݨ آلا سیگمنٹ ہے جیندے وچ ٻولے ون٘ڄݨ آلے ہندسیاں دی سُن٘ڄاݨ تے  جیا/کو دا پتہ لاوݨ کیتے ڈیٹا ہوندا ہے۔
 review-terms = کامن وائس ورتݨ نال تساں ساݙیاں <termsLink>شرطاں</termsLink> تے <privacyLink> رازداری نوٹس</privacyLink> نال متفق ہوسو
 terms-agree = میں متفق ہاں
 terms-disagree = میں راضی کائنی
