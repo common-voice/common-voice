@@ -779,8 +779,14 @@ request-language-form-info-explanation =
     pote includer:
 request-language-form-info-explanation-list-1 = Nomines de tu lingua
 request-language-form-info-explanation-list-2 = <isoCodeLink>Codices ISO</isoCodeLink> si note
+request-language-form-info-explanation-list-3 = Ligamines a sitos que pote adjutar nos a comprender le lingua
 request-language-google-recaptcha-required = Le reCAPTCHA es necesse si tu vole proceder
 request-language-google-recaptcha-error = Alco errate eveniva con reCAPTCHA. Reproba.
+# Success page
+request-language-success-heading = Gratias! Tu inviava un nove requesta de lingua
+request-language-success-list-1 =
+    Tu deberea reciper in breve un email explicante
+    le passos pro adder tu lingua a Common Voice
 
 ## Languages Overview
 
