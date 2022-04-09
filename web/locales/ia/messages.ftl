@@ -796,6 +796,10 @@ request-language-success-heading = Gratias! Tu inviava un nove requesta de lingu
 request-language-success-list-1 =
     Tu deberea reciper in breve un email explicante
     le passos pro adder tu lingua a Common Voice
+request-language-success-list-2 =
+    Le gestor de nostre communitate te attingera pro offerer
+    extra assistentia, e facer te saper si il ha
+    jam un communitate laborante sur tu lingua
 
 ## Languages Overview
 
