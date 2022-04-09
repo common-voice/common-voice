@@ -786,6 +786,9 @@ request-language-success-list-1 =
     i passaggi per aggiungere la tua lingua a Common Voice
 request-language-success-list-2 = Il nostro responsabile della comunità ti contatterà per offrirti supporto aggiuntivo e per farti sapere se esiste già una comunità attiva per la tua lingua
 request-language-success-list-3 = Se non ricevi una risposta entro un paio di giorni, scrivici all’indirizzo email <emailLink>{ $email }</emailLink> e ti ricontatteremo.
+request-language-error =
+    Può darsi che non abbiamo ricevuto la tua richiesta. Invia un’email direttamente all’indirizzo
+    <emailLink>{ $email }</emailLink> e ti risponderemo.
 
 ## Languages Overview
 
