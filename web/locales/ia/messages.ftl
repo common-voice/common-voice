@@ -800,6 +800,13 @@ request-language-success-list-2 =
     Le gestor de nostre communitate te attingera pro offerer
     extra assistentia, e facer te saper si il ha
     jam un communitate laborante sur tu lingua
+request-language-success-list-3 =
+    Si tu non audi ab nos in un par de dies,
+    attinge a <emailLink>{ $email }</emailLink> 
+    e nos te respondera!
+request-language-error =
+    Nos pote non haber recipite ille requesta. Invia nos un email directe
+    sur <emailLink>{ $email }</emailLink> e nos te respondera!
 
 ## Languages Overview
 
