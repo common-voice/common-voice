@@ -366,28 +366,39 @@ about-title = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯀꯔꯤꯒꯤ?
 ## How does it work section
 
 about-new-lang-title = ꯑꯅꯧꯕ ꯂꯣꯟ ꯂꯤꯡꯈꯠꯂꯦ
+about-new-lang-subtitle = ꯃꯁꯤꯒꯤ ꯂꯣꯟ ꯑꯁꯤꯗ ꯑꯩꯈꯣꯢꯅ ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯂꯤꯡꯈꯠꯂꯦ
 about-voice-contrib-title = ꯈꯣꯟꯖꯦꯜ ꯈꯣꯝꯖꯤꯟꯕ
 about-voice-contrib-subtitle = ꯃꯤꯌꯥꯝꯅ ꯂꯥꯛꯇꯨꯅ ꯱ꯁꯨꯡ ꯃꯈꯣꯢꯒꯤ ꯈꯣꯟꯖꯦꯜ ꯁꯥꯔꯨꯛ ꯌꯥꯕ ꯫
 about-speak = ꯋꯥ ꯉꯥꯡꯉꯨ
 about-listen = ꯃꯨꯟꯅ ꯇꯥꯎ
+about-yes-votes = ≥ ꯲ ꯚꯣꯠ ꯄꯤ
+about-no-votes = ≥ ꯲ ꯚꯣꯠ ꯄꯤꯗꯦ
+about-dataset-new = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜꯒꯤ ꯗꯥꯇꯥꯁꯦꯝꯐꯝ
 about-partners = ꯈꯣꯡꯂꯣꯏ
+about-become-a-partner = ꯈꯣꯡꯂꯣꯢ ꯱ ꯑꯣꯢꯕ
+about-get-involved = ꯌꯥꯎꯁꯤꯟꯕ
 about-nav-why-common-voice = ꯀꯔꯤꯒꯤ?
 about-nav-how-it-works = ꯀꯔꯝꯅ?
 about-nav-partners = ꯈꯣꯡꯂꯣꯏ
 about-nav-get-involved = ꯌꯥꯎꯁꯤꯟꯕ
+about-nav-how-it-works-2 = ꯀꯃꯥꯢꯅ ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯊꯕꯛ ꯇꯣꯕꯒꯦ ?
+about-nav-playbook = ꯇꯝꯃꯨ ꯛꯔꯝꯅ ꯁꯔꯨꯛ ꯌꯥꯒꯅꯤ ꯍꯥꯢꯕꯗꯨ ꯈꯪꯅꯕ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜꯗ ꯂꯣꯟ ꯱ ꯍꯥꯢꯕꯁꯤ ꯛꯔꯤꯅꯣ ?
 
 ## How do I add a language
 
+about-playbook-how-add-language = ꯑꯩꯅ ꯀꯔꯝꯅ ꯂꯣꯟ ꯱ ꯍꯥꯞꯆꯤꯟꯒꯅꯤ ?
 
 ## How does localization work
 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ꯑꯩꯅ ꯀꯔꯝꯅ ꯋꯥꯍꯩꯄꯔꯦꯡ  ꯍꯥꯞꯆꯤꯟꯒꯅꯤ ?
 
 ## How to record quality
 
