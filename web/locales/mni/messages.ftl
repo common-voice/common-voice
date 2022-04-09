@@ -365,6 +365,9 @@ about-title = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯀꯔꯤꯒꯤ?
 
 ## How does it work section
 
+about-new-lang-title = ꯑꯅꯧꯕ ꯂꯣꯟ ꯂꯤꯡꯈꯠꯂꯦ
+about-voice-contrib-title = ꯈꯣꯟꯖꯦꯜ ꯈꯣꯝꯖꯤꯟꯕ
+about-voice-contrib-subtitle = ꯃꯤꯌꯥꯝꯅ ꯂꯥꯛꯇꯨꯅ ꯱ꯁꯨꯡ ꯃꯈꯣꯢꯒꯤ ꯈꯣꯟꯖꯦꯜ ꯁꯥꯔꯨꯛ ꯌꯥꯕ ꯫
 about-speak = ꯋꯥ ꯉꯥꯡꯉꯨ
 about-listen = ꯃꯨꯟꯅ ꯇꯥꯎ
 about-partners = ꯈꯣꯡꯂꯣꯏ
