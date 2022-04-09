@@ -761,6 +761,19 @@ other-language = Altra lingua
 ## Request Language Pages
 
 request-language-heading = Chiedi informazioni su una nuova lingua
+request-language-form-email =
+    .label = Il tuo indirizzo email
+request-language-form-info =
+    .label = Informazioni sulla lingua
+request-language-form-info-explanation =
+    Aggiungi quante più informazioni possibili sulla lingua. Questo
+    potrebbe includere:
+request-language-form-info-explanation-list-1 = Nomi della tua lingua
+request-language-form-info-explanation-list-2 = <isoCodeLink>Codici ISO</isoCodeLink>, se conosciuti
+request-language-form-info-explanation-list-3 = Link a siti web che possono aiutarci a conoscere meglio la lingua
+request-language-success-list-1 =
+    Dovresti ricevere a breve un’email contenente
+    i passaggi per aggiungere la tua lingua a Common Voice
 
 ## Languages Overview
 
