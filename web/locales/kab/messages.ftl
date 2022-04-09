@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = Ṭṭef imaylen am iznan n timzizliyin a
 email-opt-in-privacy-v2 = Ma tferneḍ armas n yimaylen, ad tqebleḍ ad tesseqdec Mozilla talɣut-a akken i d-tettwasegza deg <privacyLink>Tasertit n tbaḍnit n Mozilla</privacyLink>.
 indicates-required = * Yemmal-d urti ilaqen
 not-available-abbreviation = N/A
+banner-error-slow-1 = Suref-aɣ, Common Voice iteddu s ttawil. Tanemmirt ɣef lwelha-k.
+banner-error-slow-2 = Nremmes-d ddeqs n yisefka, dɣa aql-aɣ nettwali ansa i d-kkan wuguren-a.
 banner-error-slow-link = Asebter n waddaden
 error-something-went-wrong = Nesḥassef, yella wayen ur nteddu ara
 
@@ -686,6 +688,9 @@ request-language-success-title = Asuter-inek/inem i tmerniwt n tutlayt yettwacey
 request-language-success-content = A nennadi aṭas amek ara nernu tulayt-nwen ar Common Voice deg teswiɛt iqeṛben.
 select-language = Fren tutlayt...
 other-language = Tutlayin nniḍen
+
+## Request Language Pages
+
 
 ## Languages Overview
 
