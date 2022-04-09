@@ -570,6 +570,7 @@ validations =
 ## Dashboard
 
 your-languages = Забонҳои шумо
+awards = Мукофот
 you = Шумо
 everyone = Ҳар як кас
 
@@ -589,9 +590,11 @@ return-to-edit-goal = Барои таҳрир кардани ҳадафи худ
 
 keep = Ногоҳ доштан
 remove = Тоза кардан
+profile-form-delete = Нест кардани профил
 
 ## Profile Download
 
+download-profile-title = Профил
 download-recordings-title = Сабтҳо
 download-size = Андоза
 download-start = Маълумоти профилро боргирӣ кунед
