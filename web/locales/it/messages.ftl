@@ -404,6 +404,7 @@ gravatar_not_found = Nessun profilo Gravatar associato alla tua email
 file_too_large = Il file selezionato è troppo grande
 avatar-uploaded = Avatar caricato
 max-file-size = max { $kb } kb
+remove-avatar = Rimuovi avatar
 
 ## Profile - Email
 
@@ -756,6 +757,10 @@ request-language-success-title = Richiesta per una nuova lingua inviata. Grazie 
 request-language-success-content = Presto riceverai istruzioni su come aggiungere la tua lingua a Common Voice.
 select-language = Seleziona una lingua…
 other-language = Altra lingua
+
+## Request Language Pages
+
+request-language-heading = Chiedi informazioni su una nuova lingua
 
 ## Languages Overview
 
@@ -1431,7 +1436,6 @@ sc-review-link = Convalida
 
 sc-settings-title = Impostazioni
 sc-settings-ui-language = Lingua dell’interfaccia
-sc-settings-language-translated-warning = Le pagine per questa lingua potrebbero non essere tradotte completamente. Puoi aiutare con la traduzione <pontoonLinkLink>su Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Ripristina le frasi saltate
 sc-settings-skipped-decription = Mentre stavi convalidando hai saltato delle frasi. Il ripristino delle frasi saltate mostrerà di nuovo tutte le frasi saltate. Questo non dipende dalla lingua.
 sc-settings-show-all-button = Mostra di nuovo tutte le frasi saltate
