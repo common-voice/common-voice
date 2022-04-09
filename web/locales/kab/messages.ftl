@@ -340,6 +340,9 @@ profile-form-additional-language =
     .label = Tutlayt-nniḍen
 profile-form-language =
     .label = Tutlayt
+profile-form-variant =
+    .label = Anta tantala n { $language } i tettmeslayeḍ?
+profile-form-variant-default-value = Ulac tantala yettwafernen
 profile-form-accent =
     .label = Asusru
 profile-form-custom-accent-help-text =
@@ -391,6 +394,7 @@ off = Sens
 on = Rmed
 help-accent = Tesriḍ tallelt ɣef uɣdebbu?
 help-accent-explanation = Aɣdebbu-ik d tarrayt i tsemraseḍ deg usenṭeq n wawalen, izmer yeṭṭafar imeḍqan anida tettidireḍ, neɣ tutlayin-nniḍen i tettmeslayeḍ d ddeqs n sebbat-nniḍen. Tzemreḍ ad tebḍuḍ yid-neɣ meṛṛa talɣut i twalaḍ telha.
+help-variants = Tesriḍ tallelt ɣef tentaliyin?
 
 ## Profile - Email
 
@@ -401,6 +405,7 @@ gravatar_not_found = Ulac Gravatar ittwafen i imayl-inek
 file_too_large = Afaylu ittwafernen meqqer aṭas
 avatar-uploaded = Avaṭar ittwazen
 max-file-size = { $kb }kaṭ afellay
+remove-avatar = Kkes Avaṭar
 
 ## Profile - Email
 
@@ -1268,6 +1273,7 @@ sc-review-form-source = Aɣbalu: { $sentenceSource }
 sc-review-form-button-reject = Agi
 sc-review-form-button-skip = Suref
 sc-review-form-button-approve = Qbel
+sc-review-form-keyboard-usage-custom = Tzemreḍ daɣe ad tesqedceḍ inegzumen n unasiw : { sc-review-form-button-approve-shortcut } akken ad tsenndeḍ, { sc-review-form-button-reject-shortcut } akken ad tagiḍ, { sc-review-form-button-skip-shortcut } akken ad tanfeḍ
 sc-review-form-button-submit =
     .submitText = Fak asenqed
 # Variables:
@@ -1285,6 +1291,8 @@ sc-review-link = Asenqed
 
 sc-settings-title = Iɣewwaṛen
 sc-settings-ui-language = Tutlayt n ugrudem
+sc-settings-reset-skipped = Ales awennez n tefyar yettwanfen
+sc-settings-show-all-button = Sken-d meṛṛa tutlayin i tunfeḍ
 # VALIDATION
 sc-validation-number-of-words = Ilaq tafyirt ad tegber gar 1 d 14 n wawalen (ddan)
 sc-validation-no-numbers = Ur ilaq tafyirt ad tegber izwilen
@@ -1293,3 +1301,5 @@ sc-validation-no-abbreviations = Ur ilaq ara tafyirt ad tegber asiwzel
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Fren tutlayt/tasuqqilt
