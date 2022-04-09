@@ -635,6 +635,8 @@ sc-header-profile = Профил
 sc-footer-privacy = Махфият
 sc-footer-terms = Шартҳо
 sc-footer-cookies = Кукиҳо
+sc-login-signup-button = Воридшавӣ / Бақайдгирӣ
+sc-logout-button = Баромадан
 
 ## HOME
 
@@ -649,6 +651,13 @@ sc-home-collect-title = Ҷумлаҳоро ҷамъ кунед
 ## MY SENTENCES
 
 sc-my-no-sentences = Ягон ҷумла ёфт нашуд!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Пешниҳод: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Манбаъ:  { $source }
+sc-my-delete = Нест кардани ҷумлаҳои интихобшуда
 
 ## REJECTED
 
