@@ -397,6 +397,7 @@ gravatar_not_found = 이메일에 사용할 gravatar를 찾을 수 없습니다.
 file_too_large = 선택한 파일이 너무 큽니다.
 avatar-uploaded = 아바타 업로드됨
 max-file-size = 최대 { $kb }kb
+remove-avatar = 아바타 제거
 
 ## Profile - Email
 
@@ -522,6 +523,7 @@ about-get-involved-text-2 =
     이메일 또는 <discourseLink>Discourse</discourseLink> 포럼을 통해 연락하세요.
     <githubLink>GitHub</githubLink>를 통해 사이트 문제를 제출하거나, <matrixLink>Matrix</matrixLink> 커뮤니티 채팅에 참여하세요.
 about-stay-in-touch = 어떻게 연락을 유지합니까?
+about-stay-in-touch-button = 가입
 about-stay-in-touch-text-1 = Common Voice의 캠페인, 이벤트 및 공동 디자인 기능에 참여하는 방법을 알아보려면 메일링 목록에 <emailFragment>가입</emailFragment>하십시오.
 about-stay-in-touch-text-2 = 주제별 대화를 위해 <discourseLink>Discourse</discourseLink>에 가입하거나 빠른 조언을 위해 <matrixLink>Matrix</matrixLink>에 가입하면 Mozilla 언어 커뮤니티에서 다른 사람들을 만날 수 있습니다.
 about-nav-why-common-voice = 왜?
@@ -576,9 +578,15 @@ about-playbook-how-record-content-5 = <accuracyLink>더 자세한 정확도 기�
 ## How to grow language
 
 about-playbook-how-grow-language = Common Voice로 어떻게 언어능력을 키울 수 있나요?
+about-playbook-how-grow-language-content-1 = 다양한 사람들이 Common Voice에 기여할 수 있는 기회를 만들어서 데이터 세트를 가능한 많은 사람들이 사용할 수 있게 합니다. 사용자가 사용할 수 있는 자원과 템플릿을 만들었습니다!
+about-playbook-how-grow-language-content-2 = 이벤트
+about-playbook-how-grow-language-content-3 = 사람들이 기여할 수 있도록 이벤트를 운영할 수 있습니다. 생각보다 쉽습니다. 화상 회의 도구를 사용하여 온라인으로 할 수도 있고 안전한 경우 직접 대면할 수도 있습니다. <eventTemplate>이벤트 실행을 위한 템플릿과 리소스를 확인하세요</eventTemplate>.
+about-playbook-how-grow-language-content-4 = 소셜 미디어
+about-playbook-how-grow-language-content-6 = 파트너십 및 네트워크
 
 ## How to validate
 
+about-playbook-how-validate = 음성 클립이 승인되었는지 어떻게 알 수 있나요?
 
 ## How to access dataset
 
