@@ -478,13 +478,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Acuɣer Common Voice?
+how-does-it-work-title-v2 = Amek iteddu Common Voice?
 how-does-it-work-text = Ad d-nemmekti attekki lwaḥid deg usbeddi n tegrumma n yisefka n uɣbalu yeldin. Mudd-d taɣect-ik, senqed tiseddi n tuɣac n wiyaḍ, snerni tagrumma n yisefka i yal yiwen.
 
 ## How does it work section
 
+about-language-req-subtitle = Yellan win yessuturen timerna n tutlayt.
 about-localization-title = Tasuqilt n usmel Web
+about-localization-subtitle = Aḍris n usmel web yettwasuqel ɣer tutlayt-nni.
 about-sentence-collection-title = Alqaḍ n tefyar
+about-sentence-collection-subtitle = Tifyar ttwaleqḍent i yimdanen akken ad ttwaɣrent.
+about-new-lang-title = Tanekra n tutlayt tamaynut
+about-new-lang-subtitle = Ad nsenker asmel Common Voice deg tutlayt-a.
+about-voice-contrib-title = Attekki-ik
+about-voice-contrib-subtitle = Llan yimdanen ittekkan s taɣect.
 about-voice-validation-title = Asentem  n taɣect
+about-voice-validation-subtitle = Imdanen-nniḍen qeblen taɣuri-a.
+about-dataset-release-title = Tuffɣa n yisefka
+about-dataset-release-subtitle = Nessufuɣ-d isefka yal 3 n wayyuren.
+about-subscribe-text = Tebɣiḍ ad teqqimeḍ teqqneḍ ɣer Common Voice ?
 about-speak = Mmeslay
 about-speak-text = Imttekiyyen akke timttekkiyin ad ɣren sakin ad skelsen tukkisin n taɣect i d-yekkan seg tegrumma n tefyar i d-tmudd terbaɣt n yimttekkiyen.
 about-listen-queue = Adras n uṛaǧu n tmesliwt
@@ -513,6 +525,8 @@ about-get-involved-text-2 =
     Igerrez! Nermes-aɣ-d s imayl neɣ afurum<discourseLink>Discourse</discourseLink>
     Azen-d uguren ɣer useɣwen <githubLink>GitHub</githubLink>, neɣ ddu ɣer
     udiwenni n timseɣwent<matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Amek ara teqqimeḍ teqqneḍ ?
+about-stay-in-touch-button = Jerred
 about-nav-why-common-voice = Acuɣer?
 about-nav-how-it-works = Amek?
 about-nav-partners = Imendiden
