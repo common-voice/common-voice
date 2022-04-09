@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = 도전이나 개인 목표 알림, 진행
 email-opt-in-privacy-v2 = 이메일을 받기로 수락함으로서 Mozilla의 <privacyLink>개인정보 정책</privacyLink>에 따라 Mozilla가 이 정보를 처리하는 것에 동의하게 됩니다.
 indicates-required = * 표시는 필수 항목
 not-available-abbreviation = 해당 없음
+banner-error-slow-link = 상태 페이지
+error-something-went-wrong = 죄송합니다. 오류가 발생하였습니다.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -98,6 +100,7 @@ ko = 한국어
 kpv = 코미지리안어
 kw = 콘월어
 ky = 키르기스스탄어
+lb = 룩셈부르크어
 lg = 루간다어
 lij = 리구리아어
 lt = 리투아니아어
@@ -145,6 +148,7 @@ scn = 시칠리아어
 shi = 실하어
 si = 싱할라어
 sk = 슬로바키아어
+skr = 사라이키어
 sl = 슬로베니아어
 so = 소말리아어
 sq = 알바니아어
@@ -160,6 +164,7 @@ ti = 티그리냐어
 tig = 티그레어
 tk = 투르쿠멘어
 tl = 타갈로그어
+tok = 도기 보나
 tr = 터키어
 tt = 타타르어
 tw = 트위어
@@ -718,6 +723,9 @@ request-language-success-content = 곧 언어를 Common Voice에 추가하는 �
 select-language = 언어를 선택하세요...
 other-language = 다른 언어
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = 진행중
@@ -1094,6 +1102,9 @@ sc-logout-button = 로그아웃
 ## HOME
 
 sc-home-title = Common Voice Sentence Collector에 오신 것을 환영합니다
+
+## GENERAL
+
 
 ## HOW-TO
 
