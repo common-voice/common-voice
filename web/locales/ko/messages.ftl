@@ -537,6 +537,7 @@ about-nav-playbook = 참여 방법 알아보기
 about-playbook-what-is-language = Common Voice의 언어는 무엇입니까?
 about-playbook-what-is-language-content-1 = 언어에 대해 생각하는 방법에는 여러 가지가 있습니다. 음성 인식 모델의 목적을 위해 Common Voice는 '상호 명료성' 또는 '이 언어를 사용하는 사람들이 노력하면 대부분 서로를 이해할 수 있습니까?'에 중점을 둘 것을 제안합니다.
 about-playbook-what-is-language-content-2 = 우리는 음성 모델이 다양한 화자를 더 잘 이해하기를 바랍니다. 이를 위해서는 음성 데이터 세트가 다양한 사람들을 대표해야 합니다.
+about-playbook-what-is-language-content-3 = 일부 언어는 문법, 어휘 및 발음이 매우 다양합니다. 이러한 이유로 우리는 2022년에 <ctaLink>'변형'</ctaLink>을 도입합니다. 이를 통해 커뮤니티는 더 큰 데이터 세트 내에서 언어를 구별할 수 있습니다.
 
 ## How do I add a language
 
@@ -566,9 +567,15 @@ about-playbook-how-add-sentences-content-4 = 검증된 문장은 수요일에 �
 ## How to record quality
 
 about-playbook-how-record-quality = 고품질 음성 클립을 녹음하려면 어떻게 합니까?
+about-playbook-how-record-content-1 = 평소 목소리로 말해보세요! 이곳은 어떤 방식으로 말하든 - 있는 그대로의 억양, 일상적인 크기, 스타일 및 어조 - 환영합니다.
+about-playbook-how-record-content-2 = 목소리가 잘 들리게 주변이 시끄러운 장소는 피해주세요.
+about-playbook-how-record-content-3 = 문장을 주의 깊게 읽어주세요 - 단어를 놓치거나 바꾸거나 추가하지 마세요.
+about-playbook-how-record-content-4 = 말하기 전에 플랫폼이 녹음 중인지, 오직 말을 끝마칠 때만 녹음을 멈추는지 확인하십시오.
+about-playbook-how-record-content-5 = <accuracyLink>더 자세한 정확도 기준을 알아보세요</accuracyLink>.
 
 ## How to grow language
 
+about-playbook-how-grow-language = Common Voice로 어떻게 언어능력을 키울 수 있나요?
 
 ## How to validate
 
