@@ -590,6 +590,7 @@ about-playbook-how-validate = 음성 클립이 승인되었는지 어떻게 알 
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = 어떻게 데이터 세트에 접근하고 사용하나요?
 
 ## How are decisions made
 
