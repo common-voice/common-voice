@@ -545,6 +545,7 @@ about-playbook-what-is-language = D acu i d tutlayt deg Common Voice?
 ## How do I add a language
 
 about-playbook-how-add-language = Amek ara rnuɣ tutlayt?
+about-playbook-how-add-language-content-3 = <strong>Akken ad tleqḍeḍ tifyar</strong>: <scVideo> -  </scVideo> Jerred ɣer <scLink>Sentence Collector</scLink>.
 
 ## How does localization work
 
