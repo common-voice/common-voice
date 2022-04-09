@@ -527,23 +527,33 @@ about-get-involved-text-2 =
     udiwenni n timseɣwent<matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Amek ara teqqimeḍ teqqneḍ ?
 about-stay-in-touch-button = Jerred
+about-stay-in-touch-text-1 = <emailFragment>Jerred ɣer </emailFragment> tebrat-nneɣ akken ad tissineḍ amek ara tettekkiḍ deg uberreḥ, ineḍruyen akked ufeṣṣel n tmahilin timaynutin deg Common Voice.
+about-stay-in-touch-text-2 = Tzemreḍ ad temlileḍ wiyaḍ deg temɣiwanin n tutlayin Mozilla ma teddiḍ ɣer <discourseLink>Discourse</discourseLink> anida llan yisental, neɣ <matrixLink>Matrix</matrixLink> ma tebɣiḍ awellih.
 about-nav-why-common-voice = Acuɣer?
 about-nav-how-it-works = Amek?
 about-nav-partners = Imendiden
 about-nav-get-involved = Ttekki
+about-nav-how-it-works-2 = Amek iteddu Common Voice?
+about-nav-playbook = Issin amek ara tekkiḍ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = D acu i d tutlayt deg Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Amek ara rnuɣ tutlayt?
 
 ## How does localization work
 
+about-playbook-how-localize = Amek i tetteddu tsuqqilt n usmel?
+about-playbook-how-localize-content-1 = Tasuqqilt n usmel Common Voice tḍerru deg <strong>Pontoon</strong>.
+about-playbook-how-localize-content-5 = Wali tavidyut-nneɣ n usegzi ara k-iɛiwnen
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Amek ara rnuɣ tifyar?
 
 ## How to record quality
 
@@ -624,6 +634,7 @@ review-delete-recordings = Kkes ikalasen-iw
 
 ## Datasets Page
 
+datasets-heading = Tigrummiwin n yisefka
 datasets-headline = Nesnulfuy-d tagrumma n yisefka n taɣect n uɣbalu yeldin, deg ddeqs n tutlayin i zemren ad sqedcen yimdanen meṛṛa i usluɣmu deg yisnasen yesseqdacen taɣect.
 datasets-positioning =
     Numen d tagrumma hrawen n yisefka n taɣect, yettwakcamen s wudem azayez, ad yesnerni asnulfu akked umsizwer deg uznuzu iṣeḥḥan deg taɣult n ulmad awurman yebnan ɣef tetiknulujit n taɣect.
