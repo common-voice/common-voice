@@ -406,6 +406,7 @@ gravatar_not_found = E-postanıza ait gravatar bulunamadı
 file_too_large = Seçilen dosya çok büyük
 avatar-uploaded = Avatar yüklendi
 max-file-size = en fazla { $kb } kb
+remove-avatar = Avatarı kaldır
 
 ## Profile - Email
 
@@ -568,12 +569,15 @@ about-playbook-how-localize-content-5 = Açıklayıcı videomuzu izleyin
 ## How to add sentences
 
 about-playbook-how-add-sentences = Nasıl cümle ekleyebilirim?
+about-playbook-how-add-sentences-content-1 = <strong>Cümle Toplayıcı</strong>, kamuya açık cümleleri toplamamızı ve doğrulamamızı sağlayan bir araçtır. Önce <scAccountLink>bir hesap oluşturmanız gerekecek</scAccountLink>. Ardından dilinizi <strong>profilinize</strong> ekleyin. Sonra cümleleri <strong>ekleyebilir</strong> veya önceden eklenmiş cümleleri <strong>inceleyebilirsiniz</strong>.
+about-playbook-how-add-sentences-content-2 = Cümlelerin Common Voice'a dahil olabilmesi için iki kişi tarafından incelenip kabul edilmesi gerekir. <languageGuidelinesLink>Burada</languageGuidelinesLink> dilinizin yönergelerini oluşturabilirsiniz. Cümleler <licenseLink>kamu malı</licenseLink> olmalı ve 15 kelimeden kısa olmalıdır. Bir metnin sahibinden <waiverLink>feragat sürecimizi kullanarak metnin lisansını CC0 yapmasını</waiverLink> isteyebilir ve commonvoice@mozilla.com adresinden bize gönderebilirsiniz.
 about-playbook-how-add-sentences-content-3 = Wikipedia'daki kısa cümlelerden yararlanmak için <scraperLink>Cümle çekici</scraperLink>'yi kullanabilirsiniz.
 about-playbook-how-add-sentences-content-4 = Doğrulanan cümleler çarşamba günleri dışa aktarılır ve bir sonraki sürümde kullanılabilir hale gelir.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Kaliteli bir ses kaydını nasıl kaydederim?
+about-playbook-how-record-content-1 = Normal sesinizle konuş! Her türlü konuşma şeklinize açığız. Aksanınızı olduğu gibi duymak istiyoruz. Her zamanki ses düzeyiniz, üslubunuz ve tonlamanızla konuşun.
 about-playbook-how-record-content-2 = Çok fazla arka plan gürültüsünden kaçının. Sesinizin kolayca duyulması gerekir.
 about-playbook-how-record-content-3 = Cümleyi dikkatlice okuyun. Kelimeleri atlamayın, değiştirmeyin ve kelime eklemeyin.
 about-playbook-how-record-content-4 = Konuşmaya başlamadan önce platformun kayıt yaptığından ve konuşmanız bitince kaydı durdurduğunuzdan emin olun.
@@ -584,8 +588,12 @@ about-playbook-how-record-content-5 = <accuracyLink>Doğruluk ölçütleri hakk�
 about-playbook-how-grow-language = Common Voice'ta bir dili nasıl etkili bir şekilde geliştirebiliriz?
 about-playbook-how-grow-language-content-1 = Common Voice'a katkıda bulunmak amacıyla farklı insanlar için fırsatlar yaratmak, veri kümesinin mümkün olduğunca çok kişiye hizmet etmesini sağlar. Kullanabileceğiniz kaynaklar ve şablonlar oluşturduk.
 about-playbook-how-grow-language-content-2 = Etkinlikler
+about-playbook-how-grow-language-content-3 = İnsanların katkıda bulunmasına yardımcı olmak için etkinlikler düzenleyebilirsiniz. Bunu bir video konferans aracıyla çevrimiçi olarak veya yüz yüze yapabilirsiniz. <eventTemplate>Etkinlik düzenlemek için şablonlarımıza ve kaynaklarımıza göz atın</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sosyal medya
+about-playbook-how-grow-language-content-5 = Mesajı iletmek için sosyal medya platformlarını kullanabilirsiniz. Bunun önemini açıklayan gönderiler paylaşın; dil hakları, yapay zekâ veya teknolojide önyargı gibi konular üzerine konuşan ve yazan kişilerle iletişime geçin. <campaignLink>Yeniden kullanabileceğiniz içerikleri de kapsayan sosyal kampanya yürütme</campaignLink> önerilerimizi de inceleyin.
 about-playbook-how-grow-language-content-6 = Ortaklıklar ve ağlar
+about-playbook-how-grow-language-content-7 = Konuyla ilgilenen başkalarını bulun. Bunlar üniversiteler, dil okulları, ilgi alanı grupları veya veri bilimi toplulukları olabilir. Onlara ulaşıp nasıl ve neden yardımcı olabileceklerini açık bir şekilde anlatın. <outreachTemplates>Geniş kitlelerle iletişim için şablon e-postalarımıza bakın</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Yaratıcı olun!</strong> Dil topluluğunuz benzersiz olacak. Bunlar başlangıç için yalnızca birkaç yol.
 
 ## How to validate
 
@@ -758,6 +766,31 @@ request-language-success-title = Dil isteği başarıyla gönderildi. Teşekkür
 request-language-success-content = Dilinizi Common Voice’a nasıl ekleyeceğiniz hakkında daha fazla bilgi vermek için yakında size ulaşacağız.
 select-language = Bir dil seçin...
 other-language = Başka bir dil
+
+## Request Language Pages
+
+request-language-heading = Yeni bir dil hakkında soru sorun
+request-language-explanation-1 =
+    Dilinizin <languagesPageLink>Common Voice Dilleri sayfasında</languagesPageLink> olmup olmadığını kontrol edin.
+    Yoksa bu formu doldurun. Ardından size <strong>dilinizi nasıl kuracağınızı açıklayan pratik bir e-posta göndereceğiz</strong>.
+request-language-explanation-2 =
+    Ayrıca <strong>ilgilendiğinizi topluluk yöneticimize de
+    bildireceğiz</strong>, böylece size ihtiyaç duyabileceğiniz
+    ek destek ya da bilgiyi verebilecekler.
+request-language-form-email =
+    .label = E-posta adresiniz
+request-language-form-info =
+    .label = Dil hakkında bilgi
+request-language-form-info-explanation-list-1 = Dilinizin adları
+request-language-form-info-explanation-list-2 = biliniyorsa <isoCodeLink>ISO Kodları</isoCodeLink>
+request-language-form-info-explanation-list-3 = Dili anlamamıza yardımcı olabilecek web sitelerine bağlantılar
+request-language-google-recaptcha-required = Devam etmek istiyorsanız reCAPTCHA gereklidir
+request-language-google-recaptcha-error = reCAPTCHA ile ilgili bir sorun oluştu. Lütfen tekrar deneyin.
+# Success page
+request-language-success-heading = Teşekkürler! Yeni bir dil talebi gönderdiniz
+request-language-success-list-1 =
+    Kısa süre içinde dilinizi Common Voice'a ekleme
+    adımlarını açıklayan bir e-posta alacaksınız
 
 ## Languages Overview
 
@@ -1437,7 +1470,6 @@ sc-review-link = İncele
 
 sc-settings-title = Ayarlar
 sc-settings-ui-language = Arayüz dili
-sc-settings-language-translated-warning = Bu dilin sayfaları tam olarak çevrilmemiş olabilir. <pontoonLinkLink>Pontoon</pontoonLinkLink>'da çeviriye yardımcı olabilirsiniz.
 sc-settings-reset-skipped = Atlanan cümleleri sıfırla
 sc-settings-skipped-decription = Daha önce incelemeniz sırasında bazı cümleleri atladınız. Atlanan cümleleri sıfırlamak, atlanan tüm cümleleri tekrar gösterecektir. Bu işlem dilden bağımsızdır.
 sc-settings-show-all-button = Atlanan tüm cümleleri tekrar göster
