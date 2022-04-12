@@ -551,6 +551,7 @@ about-playbook-how-add-language-content-3 = <strong>Akken ad tleqḍeḍ tifyar<
 
 about-playbook-how-localize = Amek i tetteddu tsuqqilt n usmel?
 about-playbook-how-localize-content-1 = Tasuqqilt n usmel Common Voice tḍerru deg <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Asmel ihegga akken ad yekker ticki yewweḍ ɣer 75%.
 about-playbook-how-localize-content-5 = Wali tavidyut-nneɣ n usegzi ara k-iɛiwnen
 
 ## How to add sentences
@@ -559,10 +560,16 @@ about-playbook-how-add-sentences = Amek ara rnuɣ tifyar?
 
 ## How to record quality
 
+about-playbook-how-record-content-3 = Ɣer akken iwata tafyirt - ur tettu ara, ur ttbeddil ur tettu awalen.
+about-playbook-how-record-content-4 = Ḍmen ma yella tiɣerɣert tesseklas uqbel ad tebduḍ taɣuri, daɣen ur tḥebbes ara arma tfukkeḍ.
+about-playbook-how-record-content-5 = <accuracyLink>Issin ugar ɣef yisebdad n tseddi.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Amek ara nizmir ad nesnerni akken iwata tutlayt deg Common Voice?
 about-playbook-how-grow-language-content-2 = Tidyanin
+about-playbook-how-grow-language-content-4 = Iẓedwa n tmetti
+about-playbook-how-grow-language-content-6 = Amɛiwen n yiẓedwa
 
 ## How to validate
 
