@@ -414,6 +414,7 @@ gravatar_not_found = No gravatar found for your email
 file_too_large = The selected file is too large
 avatar-uploaded = Avatar uploaded
 max-file-size = { $kb }kb max
+remove-avatar = Remove Avatar
 
 ## Profile - Email
 manage-subscriptions = Manage Subscriptions
@@ -1482,7 +1483,6 @@ sc-review-link = Review
 ## SETTINGS
 sc-settings-title = Settings
 sc-settings-ui-language = Interface Language
-sc-settings-language-translated-warning = The pages for this language might not be fully translated. You can help out with translation <pontoonLinkLink>on Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Reset skipped sentences
 sc-settings-skipped-decription = You previously skipped sentences while reviewing. Resetting skipped sentences will show all skipped sentences again. This is independent of the language.
 sc-settings-show-all-button = Show all skipped sentences again

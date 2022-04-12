@@ -416,6 +416,7 @@ gravatar_not_found = Ggjin gravatar foar jo e-mailadres fûn
 file_too_large = It selektearre bestân is te grut
 avatar-uploaded = Avatar opladen
 max-file-size = maks. { $kb }kb
+remove-avatar = Avatar fuortsmite
 
 ## Profile - Email
 
@@ -1568,7 +1569,6 @@ sc-review-link = Beoardiele
 
 sc-settings-title = Ynstellingen
 sc-settings-ui-language = Ynterfacetaal
-sc-settings-language-translated-warning = De siden foar dizze taal binne mooglik net folslein oerset. Jo kinne helpe mei oersetten <pontoonLinkLink>op Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Oerslagge sinnen opnij inisjalisearje
 sc-settings-skipped-decription =
     Jo hawwe earder sinnen oerslagge wylst it beoardielen.

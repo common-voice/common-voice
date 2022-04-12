@@ -7774,6 +7774,7 @@ Hvem der dog kunne trøste ham!
 Hvem der kunne komme derop
 Hvem der kunne komme derop!
 Hvem der prædiker i kirkerne og hvem der prædiker i de nye bøger
+Hvem dog ikke bare var en kat
 Hvem er Klumpe-Dumpe? spurgte de små mus.
 Hvem er den døde spurgte vi, og svaret var
 Hvem er den døde? spurgte vi, og svaret var.
@@ -9180,6 +9181,7 @@ Jeg bor lige over porten.
 Jeg bærer på en svær sygdom
 Jeg bærer på en svær sygdom!
 Jeg deres tavshed som et ja mig tænker
+Jeg dovner den hele dagen
 Jeg elsker hende også
 Jeg en kraftig knøs
 Jeg er af den højeste byrd
@@ -14367,6 +14369,7 @@ Skal vi nu lege mennesker, det er jo altid noget
 Skal vi nu lege mennesker, det er jo altid noget!
 Skal vi nu også have den at passe
 Skal vi nu også have den at passe.
+Skal vi på dansegulvet i aften?
 Skal vi så drikke Bertels skål!
 Skal vi så drikke bertels skål
 Skal vi så ikke bare komme i gang?
@@ -17107,6 +17110,7 @@ efter menneskeregning levede det nu i et fjerde århundrede.
 eller også må han være en større troldmand, end jeg.
 eller var det måske for lavt for ham!
 ellers kunne jo min dejlige hyldebusk ikke være sprunget ud af tepotten!
+elleve, tolv, tretten, fjorten, femten, seksten, sytten, atten, nitten, tyve
 en Guds Engel græd over hende!
 en Israels søn, hvis nidkære gud er kun dit folks gud!
 en Taare trillede, klang og lyste.
@@ -17116,6 +17120,7 @@ en engel du er fra hans rige!
 en forfærdelig Magt har de!
 en frygtelig snestorm var det.
 en gammel kvægvogter boede på gården, det var det hele mandskab.
+en halv, en tredjedel, en kvart
 en hætte af sælhundeskind gik ned over ørene.
 en høne finder altid et korn, den kan næsten sørge for sig selv!
 en kappe af sort fløjl flyver bag ud over hesten!
@@ -17123,6 +17128,7 @@ en kejsers tårer har en forunderlig magt!
 en lang, hvid kjortel hang løst og let omkring hendes smukke lemmer.
 en lidse fik jeg igennem mig, blev en slags medalje at bære.
 en lille svovlstik kunne gøre godt.
+en million, en milliard, en billion
 en nat, hvori vi græde'!
 en pind blev gjort fast, som mast.
 en skikkelse var det, der stod foran hans seng.
@@ -17147,6 +17153,7 @@ engang skulle den altid kaldes ækel, men det var gammel mening.
 enhver Bog i Skabet kjender dem vel!
 enhver af dem troede at have ædelstenen.
 enkelte rev sig løs med rod og fløj hurtigere.
+enogtyve, toogtyve, treogtyve, fireogtyve, femogtyve, seksogtyve, syvogtyve, otteogtyve, niogtyve, tredive
 er end min bøn til Gud
 er man ikke glad ved det, så elsker man rigtignok ikke sit fædreland!
 er man ung, er man lyriker!
@@ -17155,6 +17162,7 @@ er vi ikke vokset frem af den dræbtes øjne og læber!
 et dejligere kongebarn, end hun var, fandtes der ikke i denne verden.
 et dødsskrig fra dem gik over den prægtige, ensomme plads.
 et fattigt lig bringes ud af porten, det standser karavanen.
+et hundrede, tohundrede, trehundrede, tusind, totusinde
 et kys er dog ikke synd, når man rigtig holder af hinanden.
 et lille stykke endnu løb de, så faldt Christine og græd.
 et menneske med stor læsning, kræmmerhus-læsning, både den trykte og den skrevne.
@@ -17238,6 +17246,7 @@ fuglen skreg, som den altid skriger.
 fuglene har kun to vinger og må bære dem på ryggen.
 fy, det lede skarn, som forlod hende!
 fy, hvor den var dejlig!
+fyrre, halvtreds, tres, firs, halvfems
 får jeg så at vide hvem de fornemme fremmede er?
 får let fod under bordet!
 før han blev færdig, gik solen ned.

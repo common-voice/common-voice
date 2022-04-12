@@ -365,7 +365,7 @@ why-profile-title = Tại sao phải tạo một hồ sơ?
 why-profile-text = Bằng cách cung cấp một số thông tin về bản thân bạn, dữ liệu âm thanh mà bạn gửi tới Common Voice sẽ hữu ích hơn đối với công cụ Nhận dạng giọng nói và cũng để cải thiện độ chính xác của chúng.
 dashboard = Bảng điều khiển
 build-profile = Xây dựng hồ sơ
-avatar = Ảnh đại diện
+avatar = Hình đại diện
 goals = Mục tiêu
 settings = Cài đặt
 edit-profile = Chỉnh sửa hồ sơ
@@ -402,6 +402,7 @@ gravatar_not_found = Không tìm thấy gravatar cho email của bạn
 file_too_large = Tập tin đã chọn quá lớn
 avatar-uploaded = Đã tải lên hình đại diện
 max-file-size = Tối đa { $kb }kb
+remove-avatar = Xóa hình đại diện
 
 ## Profile - Email
 

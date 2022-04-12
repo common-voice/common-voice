@@ -408,6 +408,7 @@ gravatar_not_found = Impossible de trouver un Gravatar associé à votre adresse
 file_too_large = Le fichier sélectionné est trop volumineux
 avatar-uploaded = Avatar envoyé
 max-file-size = { $kb } ko max
+remove-avatar = Supprimer l’avatar
 
 ## Profile - Email
 
@@ -753,6 +754,23 @@ request-language-success-title = La langue a été proposée, merci.
 request-language-success-content = Nous vous contacterons très bientôt avec de plus amples informations sur la façon d’ajouter votre langue à Common Voice.
 select-language = Sélectionnez une langue…
 other-language = Autre langue
+
+## Request Language Pages
+
+request-language-heading = Demander une nouvelle langue
+request-language-form-email =
+    .label = Votre adresse e-mail
+request-language-form-info =
+    .label = Informations sur la langue
+request-language-form-info-explanation = Ajoutez autant d’informations que vous pouvez sur la langue. Ces informations peuvent inclure :
+request-language-form-info-explanation-list-1 = Les noms de votre langue
+request-language-form-info-explanation-list-2 = Les <isoCodeLink>codes ISO</isoCodeLink>, si connus
+request-language-form-info-explanation-list-3 = Des liens vers des sites web qui peuvent nous aider à comprendre la langue
+request-language-google-recaptcha-required = reCAPTCHA est nécessaire si vous voulez continuer
+request-language-google-recaptcha-error = Une erreur est survenue avec reCAPTCHA. Merci de réessayer plus tard.
+# Success page
+request-language-success-heading = Merci ! Vous avez envoyé une nouvelle demande de langue
+request-language-success-list-1 = Vous devriez recevoir sous peu un e-mail vous expliquant les étapes pour ajouter votre langue à Common Voice
 
 ## Languages Overview
 
@@ -1433,7 +1451,6 @@ sc-review-link = Révision
 
 sc-settings-title = Paramètres
 sc-settings-ui-language = Langue de l’interface
-sc-settings-language-translated-warning = Les pages de cette langue peuvent ne pas être entièrement traduites. Vous pouvez aider à la traduction <pontoonLinkLink>sur Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Réinitialiser les phrases ignorées
 sc-settings-skipped-decription = Vous avez précédemment ignoré des phrases pendant la révision. Réinitialiser les phrases ignorées affichera à nouveau toutes les phrases ignorées, sans tenir compte de la langue.
 sc-settings-show-all-button = Afficher à nouveau toutes les phrases ignorées

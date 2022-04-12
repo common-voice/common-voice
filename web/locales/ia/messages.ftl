@@ -406,6 +406,7 @@ gravatar_not_found = Nulle gravatar trovate pro tu adresse de e-mail
 file_too_large = Le file seligite es troppo grande
 avatar-uploaded = Avatar cargate
 max-file-size = { $kb }kb max
+remove-avatar = Remover avatar
 
 ## Profile - Email
 
@@ -768,6 +769,7 @@ other-language = Altere linguas
 
 ## Request Language Pages
 
+request-language-heading = Demandar un nove lingua
 request-language-form-email =
     .label = Tu adresse email
 request-language-form-info =
@@ -775,6 +777,7 @@ request-language-form-info =
 request-language-form-info-explanation-list-1 = Nomines de tu lingua
 request-language-form-info-explanation-list-2 = <isoCodeLink>Codices ISO</isoCodeLink> si note
 request-language-google-recaptcha-required = Le reCAPTCHA es necesse si tu vole proceder
+request-language-google-recaptcha-error = Alco errate eveniva con reCAPTCHA. Reproba.
 
 ## Languages Overview
 
@@ -1465,7 +1468,6 @@ sc-review-link = Revider
 
 sc-settings-title = Parametros
 sc-settings-ui-language = Lingua del interfacie:
-sc-settings-language-translated-warning = Le paginas pro iste lingua poterea non esser plenmente traducite. Tu pote adjutar con le traduction <pontoonLinkLink>sur Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Remontar phrases saltate
 sc-settings-skipped-decription = Tu phrases previemente saltate durante le revision. Remontar phrases saltate de novo monstrara tote le phrases saltate. Isto es independente del lingua.
 sc-settings-show-all-button = Monstrar de novo tote le phrases saltate

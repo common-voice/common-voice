@@ -408,6 +408,7 @@ gravatar_not_found = Δεν βρέθηκε gravatar για το email σας
 file_too_large = Το επιλεγμένο αρχείο είναι πολύ μεγάλο
 avatar-uploaded = Μεταφορτώθηκε το avatar
 max-file-size = έως { $kb }KB
+remove-avatar = Αφαίρεση avatar
 
 ## Profile - Email
 
@@ -1488,7 +1489,6 @@ sc-review-link = Έλεγχος
 
 sc-settings-title = Ρυθμίσεις
 sc-settings-ui-language = Γλώσσα περιβάλλοντος
-sc-settings-language-translated-warning = Οι σελίδες για αυτήν τη γλώσσα ενδέχεται να μην έχουν μεταφραστεί πλήρως. Μπορείτε να βοηθήσετε με τη μετάφραση <pontoonLinkLink>στο Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Επαναφορά παραλειφθεισών προτάσεων
 sc-settings-skipped-decription = Προηγουμένως παραλείψατε προτάσεις κατά τον έλεγχο. Η επαναφορά των παραλειφθεισών προτάσεων θα εμφανίσει ξανά όλες αυτές τις προτάσεις. Αυτό είναι ανεξάρτητο από τη γλώσσα.
 sc-settings-show-all-button = Εμφάνιση όλων των παραλειφθεισών προτάσεων ξανά

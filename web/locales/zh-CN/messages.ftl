@@ -401,6 +401,7 @@ gravatar_not_found = 通过您的电子邮件地址未找到 Gravatar
 file_too_large = 所选文件太大
 avatar-uploaded = 头像已上传
 max-file-size = 最大 { $kb }kb
+remove-avatar = 移除头像
 
 ## Profile - Email
 
@@ -638,6 +639,7 @@ review-delete-recordings = 删除我的录音
 
 ## Datasets Page
 
+datasets-heading = 数据集
 datasets-headline = 我们正在构建一组开源、多语言的语音数据集，让任何人都可以用来开发语音相关的应用。
 datasets-positioning =
     我们相信一组大型、可公开使用的语音数据集，将可促进基于机器学习的语音技术的创新，与健康的商业竞争。
@@ -724,6 +726,21 @@ other-language = 其他语言
 
 ## Request Language Pages
 
+request-language-heading = 请求添加新语言
+request-language-form-email =
+    .label = 您的电子邮件地址
+request-language-form-info =
+    .label = 语言相关信息
+request-language-form-info-explanation = 请尽可能多地提供有关该语言的信息，包括但不限于：
+request-language-form-info-explanation-list-1 = 语言名称
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO 代码</isoCodeLink>（若知道的话）
+request-language-form-info-explanation-list-3 = 可帮助我们了解该语言相关信息的网站
+request-language-google-recaptcha-required = 若要继续，需完成 reCAPTCHA 验证。
+request-language-google-recaptcha-error = reCAPTCHA 人机验证异常，请重试。
+# Success page
+request-language-success-heading = 感谢！您已成功发起新语言请求
+request-language-success-list-3 = 若您在几天内未收到我们的消息，请直接发邮件至 <emailLink>{ $email }</emailLink> 联系我们，我们会尽快回复。
+request-language-error = 我们可能还未收到该请求。请直接发邮件至 <emailLink>{ $email }</emailLink> 联系我们，我们会尽快回复。
 
 ## Languages Overview
 
@@ -1375,7 +1392,6 @@ sc-review-link = 审核
 
 sc-settings-title = 设置
 sc-settings-ui-language = 界面语言
-sc-settings-language-translated-warning = 此语言的页面似乎尚未完成翻译。欢迎到 <pontoonLinkLink>Pontoon</pontoonLinkLink> 协助我们补充翻译。
 sc-settings-reset-skipped = 重置跳过的句子
 sc-settings-skipped-decription = 您在之前的审核过程中有跳过句子。重置跳过的句子将显示您在所有语言跳过的句子。
 sc-settings-show-all-button = 再次显示跳过的句子
