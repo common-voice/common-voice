@@ -732,6 +732,10 @@ other-language = Tutlayin nniḍen
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = Tansa-inek·inem n yimayl
+request-language-form-info =
+    .label = Talɣut ɣef tutlayt
 
 ## Languages Overview
 
