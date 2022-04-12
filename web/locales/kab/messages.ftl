@@ -736,6 +736,9 @@ request-language-form-email =
     .label = Tansa-inek·inem n yimayl
 request-language-form-info =
     .label = Talɣut ɣef tutlayt
+request-language-google-recaptcha-error = Yella wayen ur nteddu ara akken ilaq akked reCAPTCHA. Ma ulac aɣilif, εreḍ tikkelt-nniḍen.
+# Success page
+request-language-success-heading = Tanemmirt! Tuzneḍ-d assuter amaynut n tutlayt
 
 ## Languages Overview
 
