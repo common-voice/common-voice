@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Localized } from '@fluent/react';
+import { Link } from 'react-router-dom';
 import { DiscourseLink, MatrixLink } from '../../shared/links';
 import { DiscourseIconCode, MailIcon } from '../../ui/icons';
 import RoundButton from '../../ui/round-button';
@@ -7,7 +8,6 @@ import VisuallyHidden from '../../visually-hidden/visually-hidden';
 import { SECTIONS } from './constants';
 
 import './get-involved.css';
-import PageHeading from '../../ui/page-heading';
 
 const GetInvolved: React.ComponentType = () => {
   return (
@@ -32,12 +32,12 @@ const GetInvolved: React.ComponentType = () => {
 
           <p>
             <RoundButton>
-              <a href={`#${SECTIONS.SUBSCRIBE}`}>
+              <Link to={`#${SECTIONS.SUBSCRIBE}`}>
                 <VisuallyHidden>
                   <Localized id="about-stay-in-touch-button" />
                 </VisuallyHidden>
                 <MailIcon />
-              </a>
+              </Link>
             </RoundButton>
             <Localized
               id="about-stay-in-touch-text-1"

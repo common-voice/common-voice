@@ -11,8 +11,11 @@ loading = 読み込み中…
 email-opt-in-info = Common Voice に関する目標リマインダ、進捗状況の更新、ニュースレターなどのメールを受け取ります。
 email-opt-in-info-title = Common Voice メーリングリストに参加
 email-opt-in-info-sub-with-challenge = Common Voice に関する目標リマインダーや進捗状況の更新、ニュースレターなどのメールを受け取ります。
+email-opt-in-privacy-v2 = メールの受信を選択した場合、Mozilla の <privacyLink>プライバシーポリシー</privacyLink> に記載のとおり、この情報を Mozilla が取り扱うことに同意したものとみなされます。
 indicates-required = * の付いた項目は入力必須です
 not-available-abbreviation = 該当なし
+banner-error-slow-link = ステータスページ
+error-something-went-wrong = 申し訳ありません。問題が発生しました。
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]

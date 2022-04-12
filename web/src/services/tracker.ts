@@ -158,7 +158,7 @@ export function trackChallenge(
 
 // Error pages send the full previous route as a third argument, which is
 // typically reserved for locale.
-export function trackError(action: '404' | '503', route: string) {
+export function trackError(action: '404' | '503' | '500', route: string) {
   track('Error', action, route);
 }
 

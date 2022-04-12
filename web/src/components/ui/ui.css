@@ -23,7 +23,7 @@
 
 .button {
     position: relative;
-    box-sizing: border-box;
+
     padding: 0.5rem 1rem;
     min-width: 14rem;
     height: 3rem;
@@ -38,13 +38,21 @@
     border: 1px solid var(--near-black);
     outline: none;
     transition: all var(--transition-duration) linear;
-    background: var(--near-black);
+    background: var(--black);
     color: var(--white);
     width: 100%;
 
     @media (--lg-up) {
         width: auto;
         height: auto;
+    }
+
+    &.isBig {
+        font-size: 1.15em;
+
+        @media (--lg-up) {
+            padding: 1em 2em;
+        }
     }
 
     &.outline {
@@ -140,7 +148,6 @@ button.card-action:focus.focus-visible path {
     border-radius: 2px;
     width: 15px;
     height: 15px;
-    box-sizing: border-box;
 
     &:focus-within {
         border-width: 3px;
@@ -192,7 +199,6 @@ button.card-action:focus.focus-visible path {
     position: relative;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
 
     & :required,
     & :valid {
@@ -207,13 +213,12 @@ button.card-action:focus.focus-visible path {
         z-index: var(--middle-z-index);
         background: var(--white);
         font-size: var(--font-size-xs);
-        color: var(--warm-grey);
+        color: var(--near-black);
     }
 
     & input,
     & select,
     & textarea {
-        box-sizing: border-box;
         border: 1.6px solid #e6e4e1;
         border-radius: 2px;
         padding: 13px;
@@ -301,6 +306,10 @@ button.card-action:focus.focus-visible path {
     top: 0;
     bottom: 0;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: spinner-fade-in 0.5s ease-in forwards;
 
     .spinner__shape {
         margin: auto;
@@ -328,7 +337,6 @@ button.card-action:focus.focus-visible path {
 }
 
 .toggle-input {
-    box-sizing: border-box;
     border-radius: 25px;
     padding: 0 var(--toggle-padding);
     width: min-content;

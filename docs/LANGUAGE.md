@@ -18,9 +18,12 @@ For more information on how Common Voice approaches language and accents, please
 
 ## Sentences
 
-In order for a new language to be contributable on Common Voice, it must have at least 5,000 sentences available to be read. This is so we can ensure a diverse and balanced dataset and so that there isn't unnecessary repetition of the same phrases.
+For a language to start voice data contributions there needs to be a number of sentences available. The sentences are read out by contributors to create the dataset.  We have created three [language sentence bands](https://discourse.mozilla.org/t/share-your-views-nuancing-sentence-collection-requirements-new-sentence-collection-bands/93134) based on the size of the population, the resources they have at their disposal, and the vitality of their language.
+- Band A languages require 750 sentences to start voice collection.
+- Band B languages require 2000 sentences to start voice collection.
+- Band C languages require 5000 sentences to start voice collection.
 
-Please refer to [SENTENCES.md](./SENTENCES.md) for more information on how to contribute sentences.
+As more people contribute to a language, more sentences are needed. Please refer to [SENTENCES.md](./SENTENCES.md) for more information on how to contribute sentences.
 
 ## Status
 

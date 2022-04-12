@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Switch, Route, Redirect } from 'react-router';
 import * as Sentry from '@sentry/react';
+import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
 
 import URLS from '../../urls';
 import { isContributable, useLocale } from '../locale-helpers';
@@ -9,7 +10,13 @@ import { Spinner } from '../ui/ui';
 import { LoginFailure, LoginSuccess } from '../pages/login';
 const HomePage = React.lazy(() => import('../pages/home/home'));
 const DatasetsPage = React.lazy(() => import('../pages/datasets/datasets'));
-const LanguagesPages = React.lazy(() => import('../pages/languages/languages'));
+const LanguagesPage = React.lazy(() => import('../pages/languages/languages'));
+const LanguagesRequestPage = React.lazy(() => {
+  return import('../pages/languages/request/request');
+});
+const LanguagesRequestSuccessPage = React.lazy(() => {
+  return import('../pages/languages/request/request-success');
+});
 const DashboardPage = React.lazy(() => import('../pages/dashboard/dashboard'));
 const ProfileLayoutPage = React.lazy(() => import('../pages/profile/layout'));
 const FAQPage = React.lazy(() => import('../pages/faq/faq'));
@@ -23,7 +30,7 @@ const SentryRoute = Sentry.withSentryRouting(Route);
 export default function Content({ location }: { location: any }) {
   const [locale, toLocaleRoute] = useLocale();
   return (
-    <div id="content">
+    <main id="content">
       <React.Suspense fallback={<Spinner />}>
         <Switch>
           <SentryRoute
@@ -50,7 +57,17 @@ export default function Content({ location }: { location: any }) {
           <SentryRoute
             exact
             path={toLocaleRoute(URLS.LANGUAGES)}
-            component={LanguagesPages}
+            component={LanguagesPage}
+          />
+          <SentryRoute
+            exact
+            path={toLocaleRoute(URLS.LANGUAGE_REQUEST)}
+            component={LanguagesRequestPage}
+          />
+          <SentryRoute
+            exact
+            path={toLocaleRoute(URLS.LANGUAGE_REQUEST_SUCCESS)}
+            component={LanguagesRequestSuccessPage}
           />
           <SentryRoute
             exact
@@ -173,6 +190,6 @@ export default function Content({ location }: { location: any }) {
           />
         </Switch>
       </React.Suspense>
-    </div>
+    </main>
   );
 }

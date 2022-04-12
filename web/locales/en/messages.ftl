@@ -11,7 +11,7 @@ email-opt-in-info = I'd like to receive emails such as goal reminders, my progre
 email-opt-in-info-title = Join the Common Voice mailing list
 email-opt-in-info-sub-with-challenge = Receive emails such as challenge and goal reminders, progress updates, and newsletters about Common Voice.
 email-opt-in-privacy-v2 = By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s <privacyLink>Privacy Policy</privacyLink>.
-indicates-required = * Indicates required field
+indicates-required = Fields marked with an asterisk (*) are required.
 not-available-abbreviation = N/A
 banner-error-slow-1 = Sorry, Common Voice is running slowly. Thanks for your interest.
 banner-error-slow-2 = We're receiving a lot of traffic and are currently investigating the issues.
@@ -504,7 +504,7 @@ faq-search-for-answers =
 ## ABOUT US
 about-title = Why Common Voice?
 about-header-description-v2 = <p>Common Voice is a publicly available voice dataset, powered by the voices of volunteer contributors around the world. People who want to build voice applications can use the dataset to train machine learning models.</p>
-    <p>At present, most voice datasets are owned by companies, which stifles innovation. Voice datasets also over-represent white, English-speaking males. This means that voice-enabled technology doesn’t work at all for many languages, and where it does work, it may not perform equally well for everyone. We want to change that by mobilising people everywhere to share their voice.</p>
+    <p>At present, most voice datasets are owned by companies, which stifles innovation. Voice datasets also underrepresent: non-English speakers, people of colour, disabled people, women and LGBTQIA+ people. This means that voice-enabled technology doesn’t work at all for many languages, and where it does work, it may not perform equally well for everyone. We want to change that by mobilising people everywhere to share their voice.</p>
 
 how-does-it-work-title-v2 = How does Common Voice work?
 how-does-it-work-text = We’re crowdsourcing an open-source dataset of voices. Donate your voice, validate the accuracy of other people’s clips, make the dataset better for everyone.
@@ -782,6 +782,53 @@ request-language-success-title = Language request successfully submitted, thank 
 request-language-success-content = We will be in touch with more information about how to add your language to Common Voice very soon.
 select-language = Select a Language...
 other-language = Other Language
+
+## Request Language Pages
+request-language-heading = Ask about a new language
+request-language-explanation-1 =
+    Check if your language is listed on the
+    <languagesPageLink>Common Voice Languages page</languagesPageLink>.
+    If not, fill out this form and we’ll <strong>send you a handy email
+    explaining how to get your language set up</strong>.
+request-language-explanation-2 =
+    We will also <strong>let our community manager know
+    that you’re interested</strong>, so they can give you any
+    extra support or information you might need.
+request-language-form-email =
+    .label = Your email address
+request-language-form-info =
+    .label = Information about the language
+request-language-form-info-explanation = 
+    Add as much information as you can about the language. This
+    could include:
+request-language-form-info-explanation-list-1 =
+    Names of your language
+request-language-form-info-explanation-list-2 =
+    <isoCodeLink>ISO Codes</isoCodeLink> if known
+request-language-form-info-explanation-list-3 =
+    Links to websites that can help us understand the language
+request-language-google-recaptcha-required =
+    reCAPTCHA is required if you want to proceed
+request-language-google-recaptcha-error =
+    Something went wrong with reCAPTCHA. Please try again.
+
+# Success page
+request-language-success-heading =
+    Thank you! You’ve sent a new language enquiry
+request-language-success-list-1 =
+    You should receive an email shortly explaining
+    the steps to get your language added to Common Voice
+request-language-success-list-2 =
+    Our community manager will reach out to you to offer
+    extra support, and to let you know if there is
+    already a community working on your language 
+request-language-success-list-3 =
+    If you don’t hear from us within a couple of days,
+    reach out at <emailLink>{ $email }</emailLink>
+    and we’ll get back to you!
+request-language-error =
+    We may not have received that request. Please email us directly
+    on <emailLink>{ $email }</emailLink> and we will get back to you!
 
 ## Languages Overview
 language-section-in-progress = In Progress

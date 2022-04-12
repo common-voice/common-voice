@@ -220,6 +220,7 @@ wall-of-text-start = آواز فطری ہے ، آواز انسان ہے۔ ایں
 show-wall-of-text = ٻیا پڑھو
 help-us-title = جملیاں دی تصدیق کرݨ وچ ساݙی مدد کرو!
 help-us-explain = پلے دباؤ، سݨو تے ساکوں ݙسو: بھلا انہاں ہیٹھلا جملہ ٹھیک الایا ہے؟
+no-clips-to-validate = لڳدے جو ایں زبان وچ سُݨݨ کیتے کلپ کائنی۔کجھ نویں رکاڈ کرݨ نال قطار کوں بھرݨ وچ ہݨ ساݙی مدد کرو۔
 vote-yes = جیا
 vote-no = کو
 toggle-play-tooltip = پلے موڈ کوں ٹوگل کرݨ کیتے { shortcut-play-toggle } دباؤ
@@ -417,6 +418,7 @@ faq-why-different-speakers-q = تہاکوں ہک زبان کیتے ٻہوں سا
 faq-why-my-lang-q = میݙی زبان اڄݨ تائیں کیوں شامل کائنی؟
 faq-what-quality-q = ڈیٹاسیٹ وچ ورتݨ کیتے آوازکلپ دے کہڑی سطح دے صوتی معیار دی لوڑ ہے؟
 faq-why-10k-hours-q = آڈیو کیپچر کیتے ہر زبان کیتے الائے ہوئے ١٠٠٠ تصدیق تھئے گھنٹے کیوں لوڑ ہن؟
+faq-why-10k-hours-a = ایہ تقریباً اتی گھنٹے ہن جو قابل ورت آواز دے نظام دی تربیت کیتے لوڑ پوندن۔
 faq-how-calc-hours-q = کامن وائس گھنٹیاں دا حساب کتاب کین٘ویں کریندے؟
 faq-how-calc-hours-a = اساں گھنٹیاں دا حساب ہر رکارڈنگ دی اوسط لمباݨ دا اندازہ لاتے کریندے ہیں، وت ایں عدد کوں یکیاں زباناں وچ رکارڈنگ دی کل تعداد نال ضرب ݙیندے ہیں۔
 faq-where-src-from-2-q = ماخذ عبارت کتھوں آندی ہے؟
@@ -424,6 +426,7 @@ faq-why-not-ask-read-q = تساں لوکاں کوں مختلف زباناں وچ
 faq-why-account-q = میں کھاتے کیتے سائن اپ کیوں تھیواں؟
 faq-is-account-public-q = بھلا میݙیاں کھاتہ معلومات عوامی ہن؟
 faq-how-privacy-q = تساں انہاں لوکاں دی گمنامی تے رازداری کوں یقینی کین٘ویں بݨیندے ہو جنہاں آپݨی آواز دان کیتی؟
+faq-what-determine-identity-q = ایندا کیا مطلب ہے جو میں کامن وائس ڈیٹاسیٹ وچ ٻولݨ آلیاں دی "سُن٘ڄاݨ دا تعین" کائنی کر سڳدا؟
 faq-what-is-cv = Common Voice کیا ہے؟
 faq-using-cv = کامن وائس ورتݨ
 faq-description = مشیناں کوں اصل بندیاں وانگوں ٻولݨ سکھاوݨ کیتے کامن وائس  موزِلّا دا موہری ہے۔
@@ -616,6 +619,7 @@ other-datasets = ٻئے وائس ڈیٹاسیٹس
 feedback-q = فیڈبیک ݙیسو؟
 community-playbook = برادری پَلے بیک
 data-other-ted-name = TED-LIUM Corpus
+your-feedback = بھلا تہاݙے کول ایں بارے خیالات ہن جو اساں کامن وائس ڈیٹاسیٹ کوں چنگا کین٘ویں بݨا سڳدے ہیں۔ساکوں ڈسکورس تے ݙسو
 go-discourse = ڈسکورس تے ون٘ڄو
 missing-language = بھلا تساں آپݨی زبان دا عکس ڈیٹاسیٹ وچ نہوے ݙیہدے؟زبان دی سربراہی کرݨ دی ارداس کرݨ کیتے ساݙے زباناں ورقے تے ون٘ڄو۔
 go-languages-page = زباناں ورقے تے ون٘ڄو
@@ -653,6 +657,24 @@ request-language-success-title = زبان دی ارداس کامیابی نال 
 request-language-success-content = تہاݙی زبان کوں اساں ٻہوں جلدی کامن وائس وچ کین٘ویں شامل کروں، ایں اساں ٻئی ڄاݨکاری کیتے تہاݙے نال رابطے وچ راہسوں۔
 select-language = زبان چݨو۔۔۔
 other-language = ٻئی زبان
+
+## Request Language Pages
+
+request-language-heading = نویں زبان کیتے آکھو
+request-language-form-email =
+    .label = تہاݙا ای میل پتہ
+request-language-form-info =
+    .label = زبان بارے ڄاݨکاری
+request-language-form-info-explanation =
+    تساں زبان بارے جتی وی ودھ ڄاݨکاری ݙے سڳدے ہو، شامل کرو۔ این٘دے وچ ایہ
+    شامل تھی سڳدن:
+request-language-form-info-explanation-list-1 = تہاݙی زبان دا ناں
+request-language-form-info-explanation-list-2 = جے پتہ ہے تاں <isoCodeLink>آئی ایس او کوڈ</isoCodeLink>
+request-language-form-info-explanation-list-3 = زبان کوں سمجھݨ کیتے ویب سائٹاں دے لنک
+request-language-google-recaptcha-required = جے تساں اڳوں تے ون٘ڄݨ چاہندے ہو تاں reCAPTCHA ضروری ہے
+request-language-google-recaptcha-error = reCAPTCHA نال کجھ خرابی تھی ڳئی۔ سوہݨا، ولدا کوشش کرو۔
+# Success page
+request-language-success-heading = تہاݙا تھورا! اساں نویں زبان تحقیق پٹھی ہے
 
 ## Languages Overview
 
@@ -819,6 +841,11 @@ want-to-continue = بھلا تساں جاری رکھݨ چاہندے ہو؟
 finish-editing = پہلے تبدیلی کرݨ مکمل کروں؟
 lose-changes-warning = ہݨ چھوڑݨ نال تہاݙیاں تبدیلیاں ضائع تھی ویسن
 build-custom-goal = مرضی دا مقصد بݨاؤ
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] ذاتی مقصد نال زبان وچ { $hours } گھنٹہ کامن وائس پہنچ مدد کرو
+       *[other] ذاتی مقصد نال زبان وچ { $hours } گھنٹے کامن وائس پہنچ مدد کرو
+    }
 set-a-goal = مقصد مقرر کرو
 cant-decide = بھلا فیصلہ نہوے کر سڳدے؟
 how-many-per-day = زبردست فی ݙین٘ہ کتی کلپ ہن؟
@@ -866,7 +893,9 @@ download-request = ریکارڈنگ دی ارداس کرو
 download-requests = ماضی دیاں رکاڈنگ ڈاؤن لوڈ ارداساں
 download-request-button = ڈاؤن لوڈ
 download-request-title = { $created }
+download-request-description = { $clipCount } وائس کلپ، کل آرکائیو سائز{ $size }. مُکسی { $expires }.
 download-request-archive-single = کلہی زپ فائل بشمول
+download-request-archive-multiple = { $archiveCount }زپ فائلاں وچ توڑو جنہاں وچ شامل ہن
 download-request-assembling-description = تہاݙیاں فائلاں جُڑدیاں پیاں ہن۔ سوہݨا، ولدا بعد وچ پڑتال کرو۔
 download-request-refresh-button = تازہ کرو
 download-request-modal-title = لنک ڈاؤن لوڈ کرو
@@ -888,6 +917,7 @@ demo-welcome-subheader = بھلا تساں ٻیا ڄاݨݨ تے ایں منصو�
 
 ## Demo Datasets
 
+demo-language-select-card-header = کامن وائس دنیا دا سب کنوں وݙا عوامی طور تے دستیاب کثیرلسانی ڈیٹاسیٹ ہے ۔
 card-button-next = اڳلا
 card-button-back = پچھوں
 demo-language-select-label = زباناں براؤز کرو
@@ -924,9 +954,12 @@ contribution-misreadings-example-1-title = ٹریاسک دے دیوہیکل ڈا
 contribution-misreadings-example-2-title = ٹریاسک دا دیوہیکل ڈایناسور۔
 contribution-misreadings-example-2-explanation = [ 'ڈایناسور' ہووݨا چاہیدا ہے]
 contribution-misreadings-example-3-title = ٹریاسک دے دیوہیکل ڈایناسور۔
+contribution-misreadings-example-3-explanation = [چھیکڑی لفظ مکݨ کنوں پہلے رکاڈنگ کٹیج ڳئی ہے]
 contribution-misreadings-example-4-title = ٹریاسک دے دیوہیکل ڈایناسور، جیا
+contribution-misreadings-example-4-explanation = [ضروری عبارت کنوں ودھیک رکاڈ تھی ڳیا ہے]
 contribution-misreadings-example-5-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-6-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
+contribution-misreadings-example-6-explanation = [ہووݨاں چاہیدا ہے "اساں ہیں"]
 contribution-misreadings-example-7-title = اساں کافی گھنݨ ٻاہر ویندے پئے ہیں۔
 contribution-misreadings-example-7-explanation = [اصل عبارت وچ کوئی  ‘a’  کائنی]
 contribution-misreadings-example-8-title = بھون٘را تکھے تکھے اڳوں تے چلا ڳیا۔
@@ -938,8 +971,10 @@ contribution-background-noise-title = پس منظر دا شور
 contribution-background-noise-example-1-fixed-title = <strong>[سنیز]<strong/>ٹریاسک دے دیوہیکل ڈاینا <strong>[کف]</strong>۔
 contribution-background-noise-example-2-fixed-title = ٹریاسک دے دیوہیکل ڈاینا <strong>[کف]</strong>۔
 contribution-background-noise-example-2-explanation = [عبارت دا حصہ کائنی سُݨ سڳیندا]
+contribution-background-noise-example-3-fixed-title = <strong>[کریکل]<strong/>ریاسک دے دیوہیکل ڈایناسار <strong>[کریکل]</strong>۔
 contribution-background-voices-title = پس منظر دی آوازاں
 contribution-background-voices-example-1-title = ٹریاسک دے دیوہیکل ڈایناسور۔ <strong>[ہک آواز وچ پڑھا ڳیا]</strong>
+contribution-background-voices-example-1-explanation = بھلا تساں آندے پئے ہو؟ <strong>[ٻئے دے سݙے ہوئے]</strong>
 contribution-volume-title = حجم
 contribution-reader-effects-title = پڑھݨ آلے دے اثرات
 contribution-just-unsure-title = صرف غیر یقینی؟
@@ -985,6 +1020,7 @@ sc-home-review-title = جملیاں دا جائزہ گھنو
 
 sc-howto-title = کین٘ویں
 sc-howto-addlang-title = نال کم کرݨ کیتے زبان شامل کرݨ
+sc-howto-addlang-text = ہک واری تساں لاگ ان تھی ون٘ڄو وت تساں پروفائل سیکشن وچوں آپݨیاں زباناں چُݨ سڳدے ہو۔
 sc-howto-addsen-title = نویں جملے شامل کرو
 sc-howto-cite-title = حوالہ ݙیوݨ دا طریقہ
 sc-howto-cite-item-1 = تساں ویب سائٹ شامل کر سڳدے ہو، مثال دے طور تے "کامن وائس"۔ https://commonvoice.mozilla.org/
@@ -993,9 +1029,12 @@ sc-howto-review-subtitle = ایں ڳآلھ کوں یقینی بݨاؤ جو ای�
 sc-howto-review-criteria-1 = جملے دے ہجے درست ہووݨ ضروری ہن۔
 sc-howto-review-criteria-2 = جملے دی گرائمر درست ہووݨ ضروری ہے۔
 sc-howto-review-criteria-3 = جملہ الاوݨ دے قابل ہووݨ ضروری ہے۔
+sc-howto-review-criteria-4 = جے جملے معیار تے پورے ہن تاں "منظور" بٹݨ کلک کرو۔
+sc-howto-review-criteria-6 = جے تہاݙے کول نظرثانی کیتے جملے کائنی تاں سوہݨا، ٻئے جملے کٹھے کرݨ وچ ساݙی مدد کرو!
 sc-howto-findpd-title = عوامی ڈومین وچ موجودہ جملے لبھݨ
 sc-howto-findpd-subtitle = انٹرنیٹ تے انہاں کوں ڳولو
 sc-howto-findpd-tips = جملے لبھݨ کیتے کجھ گُر ایہ ہن:
+sc-howto-findpd-tips-3 = بدقسمتی نال ساݙے کول وکیمیڈیا مضمون کائنی۔ ایں سانگے تساں اُتھوں کاپی پیسٹ نہ کرو۔
 sc-howto-findpd-subtitle-2 = مقامی تنظیماں یا افراداں نال بھائیوال
 
 ## MY SENTENCES
@@ -1055,6 +1094,14 @@ sc-add-lang-sec-label = جہڑی زبان وچ تساں حصہ پاوݨ چاہن
 sc-add-lang-sec-button = زبان شامل کرو
 sc-add-err-unexpected = سرور ولوں ابڑغت ولدا آیا جواب
 # Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ پووݨ پاروں مسترد تھئے۔
+        [one] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ پووݨ پاروں مسترد تھئے۔
+       *[other] جمع تھئے جملے۔ { $duplicates } جملے ڈپلیکیٹ پووݨ پاروں مسترد تھئے۔
+    }
+# Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
@@ -1063,6 +1110,7 @@ sc-add-err-failed =
        *[other] { $sentences } جملے ناکام تھئے
     }
 sc-add-err-submission = جمع کرواݨ وچ خرابی
+sc-add-lang-process-notice = جے تہاݙی زبان ایں تندیر وچ کائنی تاں تساں ایندی ارداس <languageProcessLink>ایں عمل </languageProcessLink> دے ذریعے کر سڳدے ہو۔
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1080,6 +1128,12 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } تہاݙے ولوں مسترد تھئے
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] پہلے کوئی جملہ نظرثانی کائنی تھیا۔
+        [one] پہلے ١ جملہ نظرثانی تھیا ہے۔ سوہݨا کم!
+       *[other] پہلے { $countOfReviewed } جملے نظرثانی تھئے ہن۔
+    }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
@@ -1088,6 +1142,9 @@ sc-confirm-ready =
         [one] جمع کرواوݨ کیتے ١ جملہ تیار ہے!
        *[other] جمع کرواوݨ کیتے { $readyCount }  جملے تیار ہن!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } جملے نظرثانی ٻاجھ ہن۔ جے تساں چاہندے ہو تاں انہاں کوں جمع کرواوݨ کنوں پہلے نظرثانی وی کر سڳدے ہو۔
 sc-confirm-button-text = تصدیق
 
 ## LANGUAGE INFO
@@ -1110,8 +1167,24 @@ sc-lang-info-in-review =
         [one] نظرثانی وچ ١ جملہ ۔
        *[other] نظرثانی وچ{ $totalInReview } جملے۔
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] تہاݙی نظر ثانی کیتے کوئی جملہ کائنی بچا
+        [one] تہاݙی نظر ثانی کیتے ١ جملہ بچا
+       *[other] تہاݙی نظرثانی کیتے { $unreviewedSentencesByYou } جملے باقی ہن۔
+    }
 sc-lang-info-review-now = <reviewLink>ہݨ جائزہ گھنو!</reviewLink>
 sc-lang-info-add-more = <addLink>ہݨ ٻئے جملے شامل کرو!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] کوئی جملہ تصدیق کائنی تھیا۔
+        [one] ١ جملہ تصدیق تھیا۔
+       *[other] { $validatedSentences } جملے تصدیق تھئے۔
+    }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
@@ -1148,12 +1221,15 @@ sc-criteria-make-sure = ایں ڳالھ کوں یقینی بݨاؤ جو ایں �
 sc-criteria-item-1 = جملے دے ہجے درست ہووݨ ضروری ہن۔
 sc-criteria-item-2 = جملے دی گرائمر درست ہووݨ ضروری ہے۔
 sc-criteria-item-3 = جملہ الاوݨ دے قابل ہووݨ ضروری ہے۔
+sc-criteria-item-4 = جے جملے معیار تے پورے ہن تاں سڄّے پاسے &quot;منظور&quot; بٹݨ کلک کرو۔
+sc-criteria-item-6 = جے تہاݙے کول نظرثانی کیتے جملے کائنی تاں سوہݨا، ٻئے جملے کٹھے کرݨ وچ ساݙی مدد کرو!
 
 ## REVIEW
 
 sc-review-title = جملیاں دا جائزہ گھنو
 sc-review-loading = جملے لوڈ تھیندے پئے۔۔۔
 sc-review-select-language = جملیاں دا جائزہ گھنݨ کیتے زبان چُݨو، سوہݨا۔
+sc-review-no-sentences = نظرثانی کیتے کوئی جملے کائنی۔<addLink> ہݨ ٻئے جملے شامل کرو!</addLink>
 sc-review-form-prompt =
     .message = نظرثانی تھئے جملے جمع کائنی تھئے، تہاکوں پک ہے؟
 # Variables:

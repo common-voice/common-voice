@@ -8,7 +8,7 @@
     min-height: 142px;
     height: auto;
     display: flex;
-    box-sizing: border-box;
+
     align-items: center;
     padding: 0 60px 0 20px;
     position: relative;
@@ -204,7 +204,7 @@ img.icon {
             display: block;
             width: 100%;
             overflow: hidden;
-            box-sizing: border-box;
+
             text-align: left;
 
             .avatar-wrap {
@@ -230,7 +230,7 @@ img.icon {
             padding: 0;
             .container {
                 padding: 0.75rem 1.25rem;
-                box-sizing: border-box;
+
                 border-bottom: 1px solid var(--light-grey);
             }
         }

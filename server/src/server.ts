@@ -175,7 +175,9 @@ export default class Server {
           const isAPIError = error instanceof APIError;
           return response
             .status(error?.status || StatusCodes.INTERNAL_SERVER_ERROR)
-            .json({ message: isAPIError ? error.message : '' });
+            .json({
+              message: isAPIError ? error.message : 'Something went wrong',
+            });
         }
       );
     }

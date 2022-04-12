@@ -544,6 +544,7 @@ about-nav-playbook = Nasıl katılacağınızı öğrenin
 ## What is a language
 
 about-playbook-what-is-language = Common Voice'ta dil nedir?
+about-playbook-what-is-language-content-1 = Dil üzerine düşünmenin birçok yolu var. Konuşma tanıma modelleri geliştirme amacı söz konusu olduğunda, Common Voice "karşılıklı anlaşılabilirlik" veya "Bu dili konuşanlar birbirlerini genelde anlayabilirler mi?" üzerine odaklanmayı öneriyor.
 about-playbook-what-is-language-content-2 = Konuşma modellerinin çok çeşitli konuşmacıları anlamada daha iyi olmasını istiyoruz. Bunun için ses veri kümesilerinin birçok farklı insanı temsil etmesi gerekir.
 about-playbook-what-is-language-content-3 = Bazı diller arasında gramer, söz dağarcığı ve telaffuz açısından çok büyük farklılıklar vardır. Bu nedenle, 2022'de <ctaLink>"varyantları" uygulamaya sokuyoruz</ctaLink>. Bu özellik, topluluklara daha büyük veri kümeleri içinde kendi dillerini ayırt etmelerinin bir yolunu sunuyor.
 
@@ -559,6 +560,8 @@ about-playbook-how-add-language-content-4 = Buraya <scLinkAdd>az sayıda cümle 
 
 about-playbook-how-localize = Site yerelleştirmesi nasıl yapılır?
 about-playbook-how-localize-content-1 = Common Voice sitesinin çevirisi <strong>Pontoon</strong>'da yapılır.
+about-playbook-how-localize-content-2 = Hesabınız yoksa <pontoonAccountLink>hesap açın</pontoonAccountLink>. Ardından dilinizi <strong>("takım")</strong> seçin ve sonra <pontoonCvLink>Common Voice</pontoonCvLink> projesini seçin. Çevrilecek dosyalar listelenecek. Birine tıklayın. Ardından İngilizce kelimeler ve çevirisini yazmak için bir kutu önünüze gelecek.
+about-playbook-how-localize-content-3 = Çeviri İngilizceden yapılır ama diğer dillerden <strong>öneriler</strong> görebilirsiniz. <strong>Profil</strong> simgesine ve ardından <strong>Ayarlar</strong> bağlantısına tıklayıp konuştuğunuz dilleri ekleyin. Sağ alt köşede, <strong>Locales</strong> başlığı altında çevirilerin bir listesi olacaktır. Çeviriler bir gün sonra sitede yayına girer.
 about-playbook-how-localize-content-4 = Çeviriler %75'e ulaştığında site sizin dilinizde açılmaya hazır olur.
 about-playbook-how-localize-content-5 = Açıklayıcı videomuzu izleyin
 
@@ -570,6 +573,7 @@ about-playbook-how-add-sentences-content-4 = Doğrulanan cümleler çarşamba g�
 
 ## How to record quality
 
+about-playbook-how-record-quality = Kaliteli bir ses kaydını nasıl kaydederim?
 about-playbook-how-record-content-2 = Çok fazla arka plan gürültüsünden kaçının. Sesinizin kolayca duyulması gerekir.
 about-playbook-how-record-content-3 = Cümleyi dikkatlice okuyun. Kelimeleri atlamayın, değiştirmeyin ve kelime eklemeyin.
 about-playbook-how-record-content-4 = Konuşmaya başlamadan önce platformun kayıt yaptığından ve konuşmanız bitince kaydı durdurduğunuzdan emin olun.
@@ -585,6 +589,9 @@ about-playbook-how-grow-language-content-6 = Ortaklıklar ve ağlar
 
 ## How to validate
 
+about-playbook-how-validate = Bir ses kaydını onaylayıp onaylamayacağıma nasıl karar verebilirim?
+about-playbook-how-validate-content-1 = <strong>Kaydı duyabiliyorsanız</strong> ve <strong>anlayabiliyorsanız</strong> genellikle <strong>onaylamak en iyisidir</strong>.
+about-playbook-how-validate-content-2 = <strong>Konuşmacının sizinkinden farklı aksana sahip olduğu kayıtları reddetmeyin</strong>. Bu kayıtlar ses tanımanın herkes için daha iyi çalışması için önemlidir.
 about-playbook-how-validate-content-4 = Bir kayıt 2 kişi tarafından reddedilirse veri kümesinin farklı bir alt kümesinde yayınlanır.
 
 ## How to access dataset
@@ -666,6 +673,7 @@ review-delete-recordings = Kayıtlarımı sil
 
 ## Datasets Page
 
+datasets-heading = Veri kümeleri
 datasets-headline = Herkesin konuşma özellikli uygulamaları eğitmek için kullanabileceği açık kaynaklı, çok dilli bir ses veri kümesi oluşturuyoruz.
 datasets-positioning =
     Herkese açık, büyük ses verisi kümelerinin makine öğrenimi tabanlı konuşma teknolojilerinde yeniliği ve sağlıklı ticari rekabeti teşvik edeceğine inanıyoruz.

@@ -11,7 +11,7 @@
     width: 100%;
     max-width: 570px;
     padding: 25px 30px;
-    box-sizing: border-box;
+
     background: var(--white);
     box-shadow: var(--card-shadow);
 
@@ -45,7 +45,6 @@
     }
 
     & .metric {
-        box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content: space-between;

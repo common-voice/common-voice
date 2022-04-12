@@ -87,21 +87,21 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     });
   }
 
-  componentDidUpdate(nextProps: LayoutProps) {
-    if (this.props.location.pathname !== nextProps.location.pathname) {
-      this.setState({ isMenuVisible: false });
+  componentDidUpdate(prevProps: LayoutProps) {
+    const { pathname, key, hash } = this.props.location;
 
-      // Immediately scrolling up after page change has no effect.
-      setTimeout(() => {
-        if (location.hash) {
-          this.visitHash();
-        } else {
-          window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
-          });
-        }
-      }, 250);
+    const hasPathnameChanged = pathname !== prevProps.location.pathname;
+    const locationKeyHasChanged = key !== prevProps.location.key;
+    const shouldScrollToHash = hash && locationKeyHasChanged;
+
+    if (hasPathnameChanged) {
+      this.setState({ isMenuVisible: false });
+      window.scrollTo({ top: 0 });
+      this.visitHash();
+    }
+
+    if (!hasPathnameChanged && shouldScrollToHash) {
+      this.visitHash();
     }
   }
 
@@ -112,10 +112,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private visitHash() {
     if (location.hash) {
       const hash = location.hash.split('?')[0];
-      setTimeout(() => {
-        const node = document.querySelector(hash);
-        node && node.scrollIntoView();
-      }, 100);
+      const node = document.querySelector(hash);
+      if (node) {
+        node.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   }
 
@@ -178,36 +178,38 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
-        <header className={hasScrolled ? 'active' : ''}>
-          <div>
-            <Logo />
-            <Nav id="main-nav" />
-          </div>
-          <div>
-            {this.renderTallies()}
-            {user.account ? (
-              <UserMenu />
-            ) : isBuildingProfile ? null : (
-              <Localized id="login-signup">
-                <LinkButton className="login" href="/login" rounded outline />
-              </Localized>
-            )}
-            <LocalizationSelectComplex
-              locale={locale}
-              onLocaleChange={this.handleLocaleChange}
-            />
-            <button
-              id="hamburger-menu"
-              onClick={this.toggleMenu}
-              className={isMenuVisible ? 'active' : ''}>
+        <div className="header-wrapper">
+          <header className={cx('header', { active: hasScrolled })}>
+            <div>
+              <Logo />
+              <Nav id="main-nav" />
+            </div>
+            <div>
+              {this.renderTallies()}
               {user.account ? (
-                <Avatar url={user.account.avatar_url} />
-              ) : (
-                <MenuIcon className={isMenuVisible ? 'active' : ''} />
+                <UserMenu />
+              ) : isBuildingProfile ? null : (
+                <Localized id="login-signup">
+                  <LinkButton className="login" href="/login" rounded outline />
+                </Localized>
               )}
-            </button>
-          </div>
-        </header>
+              <LocalizationSelectComplex
+                locale={locale}
+                onLocaleChange={this.handleLocaleChange}
+              />
+              <button
+                id="hamburger-menu"
+                onClick={this.toggleMenu}
+                className={isMenuVisible ? 'active' : ''}>
+                {user.account ? (
+                  <Avatar url={user.account.avatar_url} />
+                ) : (
+                  <MenuIcon className={isMenuVisible ? 'active' : ''} />
+                )}
+              </button>
+            </div>
+          </header>
+        </div>
         <NonProductionBanner />
         <Content location={location} />
         <Footer />

@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = بەسلىشىش، نىشان ئەسكە�
 email-opt-in-privacy-v2 = ئېلخەت تاپشۇرۇۋېلىشنى تاللاش ئارقىلىق Mozilla نىڭ <privacyLink> شەخسىيەت تۈزۈمى </privacyLink> دە چۈشەندۈرۈلگەندەك، Mozilla نىڭ بۇ ئۇچۇرلارنى بىر تەرەپ قىلىشىغا قوشۇلىسىز.
 indicates-required = * تولدۇرۇش زۆرۈر بۆلەكلەرنى كۆرسىتىدۇ
 not-available-abbreviation = N/A
+banner-error-slow-1 = توربەت سۈرئىتىنىڭ ئاستىلىقىدىن خىجىلمىز، Common Voiceنى ئىشلەتكىنىڭىزگە رەھمەت.
+banner-error-slow-2 = بىز زور مىقداردىكى زىيارەت ئېقىم بىسىمىغا ئۇچرىدۇق، ھازىر ئالاقىدار مەسىلىلەرنى تەكشۈرۈپ بىر تەرەپ قىلىۋاتىمىز.
+banner-error-slow-link = ھالەت بېتى
+error-something-went-wrong = كەچۈرۈڭ ، ئازراق چاتاق چىقتى
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -38,6 +42,7 @@ be = بېلورۇسچە
 bg = بۇلغارچە
 bn = بېنگالچە
 br = بىرېتونچە
+bs = بوسنىيەچە
 bxr = بۇرياتچە
 ca = كاتالانچە
 cak = كاكچىكىلچە
@@ -77,6 +82,8 @@ hy-AM = ئەرمەنچە
 hyw = غەربىي ئەرمەنچە
 ia = ئارىلىق تىل
 id = ھىندونېزىيەچە
+ie = ئىنتىرلىڭچە
+ig = ئىبوچە
 is = ئىسلاندچە
 it = ئىتاليانچە
 izh = ئىزورانچە
@@ -85,12 +92,16 @@ ka = گىرۇزىنچە
 kaa = قاراقالپاقچە
 kab = كابىلېچە
 kbd = كاباردەيچە
+ki = كىكۇيۇچە
 kk = قازاقچە
+km = كىخمېرچە
 kmr = كۇرمانجى كۇردچە
+knn = كونكانىچە(Devanagari)
 ko = كورېيەچە
 kpv = كومى زىرىيانچە
 kw = كورنىشچە
 ky = قىرغىزچە
+lb = لىيۇكسېمبۇرگچە
 lg = گانداچە
 lij = لېگىرىچە
 lt = لىتۋاچە
@@ -102,6 +113,7 @@ mhr = مىدوۋ مارىچە
 mk = ماكېدونچە
 ml = مالايامچە
 mn = موڭغۇلچە
+mni = مانىپۇرىچە
 mos = موسسىچە
 mr = ماراتىچە
 mrj = تاغ مارىچە
@@ -109,10 +121,13 @@ ms = مالايچە
 mt = مالتاچە
 my = بېرمىچە
 myv = ئېرزاچە
+nan-tw = تەيۋەنچە(Minnan)
 nb-NO = بوكمالچە
 ne-NP = نېپالچە
+nia = نىئاسچە
 nl = گوللاندىيەچە
 nn-NO = يېڭى نورۋېگچە
+nyn = نىيانكولېچە
 oc = ئاۋكچە
 or = ئورىياچە
 pa-IN = پەنجابچە
@@ -120,17 +135,21 @@ pap-AW = پاپىيامەنتۇچە
 pl = پولەكچە
 ps = پۇشتۇچە
 pt = پورتۇگالچە
+quc = كېچيۇچە
+quy = كېچياچە(چيانكالار)
 rm-sursilv = سۇرسىلۋان رومانىشچە
 rm-vallader = ۋاللادېر رومانىشچە
 ro = رۇمىنىيەچە
 ru = روسچە
 rw = رىۋانداچە
 sah = ياقۇتچە
+sat = سانتالىچە(ئول چىكى يېزىقى)
 sc = ساردىنىيەچە
 scn = سىتسىلىيەچە
 shi = شىلخاچە
 si = سىنگالچە
 sk = سىلوۋاكچە
+skr = سارايكىچە
 sl = سىلوۋېنىيەچە
 so = سومالىچە
 sq = ئالبانچە
@@ -142,9 +161,14 @@ ta = تامىلچە
 te = تېلۇگۇچە
 tg = تاجىكچە
 th = تايلاندچە
+ti = تىگرىنياچە
+tig = تىگرېچە
+tk = تۈركمەنچە
 tl = تاگالوگچە
 tr = تۈركچە
 tt = تاتارچە
+tw = تىۋىچە
+ty = تاختىچە
 uby = Ubykh
 udm = ئۇدمۇرتچە
 ug = ئۇيغۇرچە
@@ -154,6 +178,8 @@ uz = ئۆزبەكچە
 vec = ۋېنداچە
 vi = ۋىيېتنامچە
 vot = ۋوتېچە
+yi = يىددىشچە
+yo = يورۇباچە
 yue = گۇاڭدۇڭچە
 zh-CN = خەنزۇچە(جۇڭگو)
 zh-HK = خەنزۇچە(شياڭگاڭ)
@@ -186,6 +212,7 @@ logout = تىزىمدىن چىقىش
 ## Home Page
 
 home-title = Common Voice دېگەن Mozilla نىڭ كىشىلەرنىڭ قانداق سۆزلەيدىغانلىقىنى ماشىنىلارغا ئۆگىتىشنى نىشان قىلغان تۈرى.
+default-tagline = Common Voice بولسا Mozilla نىڭ ئادەملەرنىڭ قانداق سۆزلەيدىغانلىقىنى ماشىنىلارغا ئۆگىتىشنى نىشان قىلغان تۈرى.
 home-cta = سۆزلەڭ ، بۇ يەرگە تۆھپە قوشۇڭ!
 wall-of-text-start = ئاۋاز دېمەك تەبىئىيلىك ، ئاۋاز دېمەك ئىنسانلىق. شۇڭلاشقا بىز ماشىنىلار ئۈچۈن ئىشلىتىشچانلىققا ئىگە ئاۋاز تېخنىكىسىنى يارىتىشقا قىزىقىمىز. ئەمما ئاۋاز سىستېمىسىنى بارلىققا كەلتۈرۈش ئۈچۈن، ئىنتايىن كۆپ ئاۋاز مەنبەسىگە ئېھتىياجلىق.
 wall-of-text-more-mobile = كۆپ ساندىكى كىشىلەر چوڭ شىركەتلەر ئىشلىتىدىغان سانلىق مەلۇماتلارغا ئېرىشەلمەيدۇ. بۇ يېڭىلىق يارىتىشنى بوغۇپ قويىدۇ. شۇڭا بىز Common Voice تۈرىنى ئېلان قىلىپ، ھەرقانداق ئادەمنىڭ ئاۋاز تونۇتۇش تېخنىكىسىغا  ئېرىشەلىشى ئۈچۈن ياردەمدە بولماقچى.
@@ -279,6 +306,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = خاتىرىلە/توختات
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = قايتا ئۈنگە ئال
+shortcut-discard-ongoing-recording = ESC
 shortcut-submit = قايت
 shortcut-submit-label = ئاۋاز يوللا
 request-language-text = Common Voice تا تېخى تىلىڭىزنى كۆرمىدىڭىزمۇ؟
@@ -307,8 +335,15 @@ profile-form-native-language =
     .label = ئانا تىل
 profile-form-additional-language =
     .label = قوشۇمچە تىل
+profile-form-language =
+    .label = تىل
+profile-form-variant =
+    .label = سىز قايسى{ $language }دا سۆزلەيسىز؟
 profile-form-accent =
     .label = ئاھاڭ
+profile-form-custom-accent-help-text =
+    .label = تەلەپپۇزىڭىزنى قانداق تەسۋىرلەيسىز؟
+profile-form-custom-accent-placeholder-2 = تەلەپپۇزىڭىزنى يېزىق ئارقىلىق تەسۋىرلەڭ
 profile-form-age =
     .label = يېشى
 profile-form-gender-2 =
@@ -319,6 +354,7 @@ hidden = يۇشۇرۇن
 visible = كۆرۈنۈشچان
 native-language =
     .label = ئانا تىل
+profile-form-add-accent = يېڭى { $inputValue } تەلەپپۇز قوشۇش
 profile-form-submit-save = ساقلا
 profile-form-submit-saved = ساقلاندى
 male = ئەر
@@ -487,6 +523,7 @@ about-get-involved-text-2 =
     مۇنبىرى ئارقىلىق ئالاقىلىشىڭ، تور بەتتىكى مەسىلىلەرنى <githubLink>GitHub</githubLink> ياكى
      <matrixLink>Matrix</matrixLink> گە يوللاڭ.
 about-stay-in-touch = ئالاقىنى قانداق ساقلاپ قالىمەن؟
+about-stay-in-touch-button = تىزىملىتىڭ
 about-nav-why-common-voice = نېمىشقا؟
 about-nav-how-it-works = قانداق؟
 about-nav-partners = ھەمكارلاشقۇچىلار
@@ -506,6 +543,8 @@ about-playbook-how-add-language = تىلنى قانداق قوشىمەن؟
 ## How does localization work
 
 about-playbook-how-localize = بېكەتنى يەرلىكلەشتۈرۈش قانداق ئىلىپ بېرىلىدۇ؟
+about-playbook-how-localize-content-1 = Common Voiceنىڭ تەرجىمە خىزمىتى <strong>Pontoon</strong> دا ئىلىپ بىرىلىدۇ.
+about-playbook-how-localize-content-4 = توربەتنىڭ %75 تەرجىمە خىزمىتى پۈتكەندىن كىيىن ئىلان قىلىشقا بولىدۇ.
 about-playbook-how-localize-content-5 = ياردەم قىلىش ئۈچۈن سىن چۈشەندۈرگۈچىمىزنى كۆرۈڭ
 
 ## How to add sentences
@@ -523,6 +562,7 @@ about-playbook-how-record-content-5 = <accuracyLink> توغرىلىق ئۆلچى
 ## How to grow language
 
 about-playbook-how-grow-language = قانداق قىلغاندا Common Voiceدا تىلنى ئۈنۈملۈك ئىلگىرلەتكىلى بولىدۇ؟
+about-playbook-how-grow-language-content-2 = پائالىيەتلەر
 about-playbook-how-grow-language-content-4 = ئىجتىمائىي تاراتقۇ
 about-playbook-how-grow-language-content-6 = ھەمكارلىق ۋە تور
 
@@ -536,6 +576,8 @@ about-playbook-how-access-dataset = سانلىق مەلۇمات توپلىمىن
 
 ## How are decisions made
 
+about-playbook-how-project-governance = تۈر قارارلىرى قانداق چىقىرىلىدۇ؟
+about-playbook-how-project-governance-content-3 = مەخپىيەتلىك، بىخەتەرلىك ۋە ئاشكارىلىق.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = سۈنئىي ئەقلى ئىقتىدار
 mycroft-description =
@@ -600,6 +642,7 @@ review-delete-recordings = ئۈن خاتىرەمنى ئۆچۈر
 
 ## Datasets Page
 
+datasets-heading = سانلىق-مەلۇمات توپلىمى
 datasets-headline = بىز ئوچۇق كودلۇق بولغان، ھەر قانداق ئادەمنى ئاۋازلىق پروگراممىغا قارىتا مەشىق ئىلىپ بېرىش ئىمكانىيەتكە ئىگە قىلىدىغان كۆپ تىللىق ئاۋاز ئامبىرىنى قۇرۇپ چىقىۋاتىمىز.
 datasets-positioning =
     چوك ھەجىمدىكى ۋە ئىچىۋېتىلگەن ئاۋاز سانلىق مەلۇمات ئاۋاز تونۇش تېخنىكىسىدىكى ماشىنا ئۆگىنىشكە قارىتا يېڭىلىق يارىتىش شۇنداقلا ساغلام بولغان سودا رىقابىتىنى ئىلگىرى سۈرىدىغانلىقىغا ئىشىنىمىز.
@@ -750,6 +793,7 @@ listen-last-time-instruction = <playIcon></playIcon> ئەڭ ئاخىرقىسى!
 listen-empty-state = بۇ تىلدىكى دەلىللەيدىغان ئاۋازلار تۈگىدى...
 speak-empty-state = بۇ تىلدىكى ئۈنگە ئالدىغان جۈملىلەر تۈگىدى...
 speak-empty-state-cta = جۈملىلەرنى قوشۇڭ
+speak-loading-error = ۋاقتىنچە ئۈنگە ئالىدىغان جۈملە يوق. سەل تۇرۇپ قايتا سىناڭ.
 record-button-label = ئاۋازىڭىزنى ئۈنگە ئىلىڭ
 share-title-new = تېخىمۇ كۆپ ئاۋاز تېپىشىمىزغا <bold>ياردەم قىلىڭ</bold>
 keep-track-profile = تەرجىمىھال قۇرۇش ئارقىلىق ئىلگىرىلىشىڭىزنى ئىز قوغلاپ تۇرۇڭ
@@ -915,6 +959,18 @@ profile-form-delete = تەرجىمىھالنى ئۆچۈر
 
 ## Profile Download
 
+download-info = چۈشۈرمەكچى بولغان نەرسىنى بىزگە ئېيتىپ بېرىڭ:
+download-profile-title = تەرجىمىھال
+download-recordings-title = ئۈن خاتىرىسى
+download-size = چوڭلۇقى
+download-selected = تاللانغان
+download-request-button = چۈشۈر
+download-request-title = { $created }
+download-request-assembling-description = ماتىرياللىرىڭىز رەتلىنىۋاتىدۇ، سەل تۇرۇپ قايتا سىناڭ.
+download-request-refresh-button = يېڭىلا
+download-request-modal-title = ئۇلانمىلارنى چۈشۈر
+download-request-link-text = { $total } دانە Zip ھۆججىتىنىڭ { $offset }چىسى
+download-request-metadata-link = جۈملە تېكىستى
 
 ## Landing
 
@@ -962,6 +1018,11 @@ demo-dashboard-card-body = ھەر بىر ھەدىيە قىلغان ئاۋاز، 
 
 ## Validation criteria
 
+contribution-criteria-nav = ئۆلچەم
+contribution-for-example = مەسىلەن
+contribution-varying-pronunciations-title = ھەرخىل تەلەپپۇزلار
+contribution-volume-title = ئاۋاز
+see-more = <chevron> </chevron> تېخىمۇ كۆپ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -970,48 +1031,137 @@ demo-dashboard-card-body = ھەر بىر ھەدىيە قىلغان ئاۋاز، 
 
 ## HEADER/FOOTER
 
+sc-header-home = باشبەت
+sc-header-how-to = قانداق قىلىمەن
+sc-header-add = قوشاي
+sc-header-review = تەكشۈرەي
+sc-header-rejected = رەت قىلىنغان جۈملىلەر
+sc-header-my = جۈملىلىرىم
+sc-header-statistics = ستاتىستىكا
+sc-header-profile = ئارخىپىم
+sc-footer-report-bugs = كەمتۈكلەرنى دوكىلات قىلىش
+sc-footer-translate = بۇ بەتنى تەرجىمە قىلىش
+sc-footer-privacy = شەخسىيەت
+sc-footer-terms = تۈزۈملەر
+sc-footer-cookies = Cookies
+sc-login-signup-button = كىرىش / تىزىملىتىش
+sc-logout-button = چېكىنىش
 
 ## HOME
+
+sc-home-title = Common Voice نىڭ جۈملە توپلىغۇچىغا خۇش كەلدىڭىز
+sc-home-collect-title = جۈملە توپلاش
+sc-home-review-title = جۈملىلەرنى تەستىقلاش
+
+## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-addsen-title = يېڭى جۈملە قوشۇش
+sc-howto-review-title = جۈملىلەرنى تەكشۈرۈش
+sc-howto-review-subtitle = جۈملىنىڭ تۆۋەندىكى ئۆلچەملەرگە ماس كېلىدىغانلىقىنى جەزملەشتۈرۈڭ:
+sc-howto-review-criteria-1 = جۈملىنىڭ ئىملاسى چوقۇم توغرا يېزىلىشى كېرەك.
+sc-howto-review-criteria-4 = ئەگەر  جۈملە بۇ ئۆلچەمگە توشسا ، «تەستىقلاش» كۇنۇپكىسىنى بېسىڭ.
+sc-howto-findpd-subtitle = توردىن ئىزدەش
+sc-howto-findpd-tips = جۈملە توپلاش ئۇسۇللىرى:
 
 ## MY SENTENCES
 
+sc-my-title = جۈملىلىرىم
+sc-my-no-sentences = جۈملە تېپىلمىدى!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = مەنبە: { $source }
+sc-my-delete = تاللانغان جۈملىنى ئۆچۈرۈش
+sc-my-deleting = تاللانغان جۈملىلەرنى ئۆچۈرۈۋاتىدۇ…
+sc-my-err-failed-delete = تاللانغان جۈملىنى ئۆچۈرەلمىدى… قايتا سىناڭ!
 
 ## REJECTED
 
+sc-rejected-title = رەت قىلىنغان جۈملىلەر
+sc-rejected-loading = رەت قىلىنغان جۈملىلەرنى يۈكلەۋاتىدۇ…
+sc-rejected-none-found = رەت قىلىنغان جۈملىلەر تېپىلمىدى!
 
 ## STATS
 
+sc-stats-title = ستاتىستىكا
+sc-stats-updating = يېڭىلىنىۋاتىدۇ...
 
 ## ADD
 
+sc-submit-err-select-lang = تىل تاللاڭ.
+sc-submit-err-add-sentences = جۈملە قوشۇڭ.
+sc-submit-err-add-source = مەنبە قوشۇڭ.
+sc-submit-title = جۈملە قوشۇش
+sc-submit-select-language =
+    .labelText = تىل تاللاش
+sc-submit-ph-one-per-line =
+    .placeholder = بىر قۇرغا بىر جۈملە
+sc-submit-button =
+    .submitText = يوللاش
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = تىل قوشۇڭ
+sc-add-err-submission = يوللاش مەغلۇب بولدى
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = يېڭى جۈملىلەرنى جەزملەش
+sc-confirm-button-text = جەزملەشتۈرۈڭ
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = جەمئىي
+sc-lang-info-title-personal = شەخسىي
+sc-lang-info-review-now = <reviewLink>ھازىرلا تەستىقلاش!</reviewLink>
 
 ## LOGIN
 
+sc-login-err-failed = كىرىش مەغلۇب بولدى
+sc-login-err-try-again = قايتا سىناڭ.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = ئارخىپ: { $username }
+sc-personal-your-languages = تىلىڭىز:
+sc-personal-remove-button = چىقىرىۋەت
+sc-personal-not-added = سىز تېخى ھېچقانداق تىل قوشمىدىڭىز.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ تەستىقلاش ئۆلچىمى
+sc-criteria-title = تەستىقلاش ئۆلچىمى
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = مەنبە: { $sentenceSource }
+sc-review-form-button-reject = رەت قىل
+sc-review-form-button-skip = ئاتلا
+sc-review-form-button-approve = تەستىقلا
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = تەكشۈرۈش تامام
+sc-review-link = تەكشۈرۈش
 
 ## SETTINGS
 
+sc-settings-title = تەڭشەك
+sc-settings-reset-skipped = ئاتلانغان جۈملىنى ئەسلىگە كەلتۈرىدۇ
+sc-settings-failed = تەڭشەكنى ئۆزگەرتكىلى بولمىدى، قايتا سىناڭ.
+sc-validation-no-numbers = جۈملىدە رەقەم بولماسلىقى كېرەك
+sc-validation-no-symbols = جۈملىدە بەلگىلەر بولماسلىقى كېرەك
+sc-validation-no-abbreviations = جۈملىدە قىسقارتىلما ئاتالغۇلار بولماسلىقى كېرەك
 
 # [/SentenceCollector]
 
