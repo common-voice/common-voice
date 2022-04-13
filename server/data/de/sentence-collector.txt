@@ -4167,6 +4167,7 @@ Dann kannst du mir mal helfen, das Netz einzuholen.
 Dann kannst du sie problemlos noch korrigieren, sollte sie nicht stimmen.
 Dann kommen die Bücher jetzt halt in einen Bücherschrank.
 Dann kommt er auch auf den Dönerspieß.
+Dann kommt in meine Spiel und Bewegungsgruppe!
 Dann können Sie sich bei der Aufsichtsbehörde bedanken, die Ihnen das aufgebrummt hat.
 Dann können wir es auch als Paket schicken.
 Dann können wir ja beruhigt nach Hause gehen.
@@ -4572,6 +4573,7 @@ Das Fernmeldegeheimnis darf nicht verletzt werden.
 Das Fest findet am Hauptplatz statt.
 Das Fieber ist hingegen wieder vorüber.
 Das Flacon hat einen goldenen Verschluss.
+Das Foto wurde aufkaschiert.
 Das Frauenwahlrecht sollte nicht mit der Damenwahl verwechselt werden.
 Das Freihaus ist eine Gebäude der Technischen Universität Wien und war früher ein Wohnhauskomplex.
 Das Frühstück ist die wichtigste Mahlzeit des Tages.
@@ -7791,6 +7793,7 @@ Die Bedingungen haben sich geändert.
 Die Beeren sind das einzige an einer Berberitze, was nicht giftig ist.
 Die Befehlsgewalt über das Bundesheer übt der zuständige Bundesminister aus.
 Die Beförderung von spaltbarem Material auf österreichischem Staatsgebiet ist untersagt.
+Die Begriffsstutzigkeit der kauzigen Person erstaunte ihn.
 Die Begründungen der Falschfahrer werden auch immer interessanter.
 Die Behandlung war kostenlos, aber bestimmt nicht umsonst.
 Die Behörde will verstärkt gegen illegale Beschäftigungen vorgehen.
@@ -14855,6 +14858,7 @@ Hauptsache die Haare sitzen! Alles andere ist zweitrangig.
 Hauptsache es klingt gut.
 Hauptsache es kommt von Herzen!
 Hauptsache es werden Santiano und Helene Fischer aufgelegt.
+Hauptsache gemeinsam spielen, toben, erleben und bewegen.
 Hauptsache gut versichert.
 Hauptsache ich weiß, wann ich zum Bäcker gehen muss.
 Hauptsache, Sie erklären.
@@ -15969,6 +15973,7 @@ Ich frage nur interessehalber.
 Ich fresse einen Besen und zwar samt der Putzfrau.
 Ich freu mich auf Ihren Besuch!
 Ich freue mich auf euch
+Ich freue mich auf euch.
 Ich freue mich immer, wenn ich sie sehe.
 Ich freue mich jetzt schon!
 Ich freue mich schon auf Sie. Wir treffen uns um elf an der Anmeldung.
@@ -17457,6 +17462,7 @@ Ihre Masche ist immer dieselbe.
 Ihre Meinung ist uns wichtig!
 Ihre Muskeln zitterten vor Überanspannung.
 Ihre Nachkommen haben die Frist verstreichen lassen.
+Ihre Nase war doppelt so groß, wie die Ohren von dem afrikanischen Elefanten.
 Ihre Probleme können Sie behalten.
 Ihre Rede appelliert an das Mitgefühl.
 Ihre Redezeit ist leider schon abgelaufen.
@@ -18549,6 +18555,7 @@ Ist das ein Amtliches Werk?
 Ist das ein Ernst?
 Ist das ein Kilopreis oder wird nach Anzahl abgerechnet?
 Ist das ein Liveticker?
+Ist das ein Nasenlader?
 Ist das ein Witz?
 Ist das eine Anspielung auf die Titelstory von gestern?
 Ist das eine Douglasie?
@@ -20108,6 +20115,7 @@ Klebrige Finger?
 Klebt der Teig oder ist er schön luftig und dehnbar?
 Kleider machen Leute.
 Kleine Aufmerksamkeiten können der Schlüssel zum großen Glück sein.
+Kleine Fangspiele
 Kleine Jungen im Kindergarten haben großes Vergnügen daran, Papiertüten platzen zu lassen.
 Kleine Jungs können sich für Motorräder begeistern.
 Kleine Kinder - kleine Probleme, große Kinder - große Probleme.
@@ -27513,6 +27521,7 @@ Sport hält mich fit.
 Sport ist nicht so mein Ding.
 Sport ist wichtig für Körper und Geist.
 Sport und Bewegung seien viel entscheidender.
+Sport, Bewegung im Griechischen Park.
 Sportdirektor Hamann holt sinnbildlich zum Rundumschlag aus.
 Sportmagazine bescheinigen dem Rugby-Spieler mehrheitlich eine souveräne Leistung.
 Spot-on hat nicht funktioniert, da gab es trotzdem laufend Zeckenalarm.
@@ -28291,6 +28300,7 @@ Und Action!
 Und Blaukraut bleibt Blaukraut.
 Und Geld ausgeben möchte man dafür erst recht nicht.
 Und Geschwister können ziemlich verschieden sein.
+Und Ihr wollt euch bewegen?
 Und Malte, du weisst wie der Hase hoppelt.
 Und Malte, du weißt, dass wir gut ausgerüstet sind.
 Und Papa bringt kein Frühstück mehr an's Bett.
@@ -31783,6 +31793,7 @@ Wer sonst sollte es lösen?
 Wer spielt mit mir Minetest?
 Wer spricht da?
 Wer später bremst, ist länger schnell.
+Wer steckt dahinter?
 Wer steht an deiner Seite?
 Wer steht jeden Morgen um fünf Uhr auf der Matte?
 Wer stellt bei so feuchtem Wetter die Waschmaschine an?
