@@ -204,7 +204,7 @@ today = আজ
 x-weeks-short =
     { $count ->
         [one] সপ্তাহ
-       *[other] { $count }সপ্তা
+       *[other] { $count }সপ্তাহ
     }
 x-months-short =
     { $count ->
@@ -263,7 +263,10 @@ shortcut-record-toggle = র
 shortcut-record-toggle-label = রেকর্ড/বন্ধ
 shortcut-rerecord-toggle = [১-৫]
 shortcut-rerecord-toggle-label = ক্লিপ পুনরায় রেকর্ড করুন
+shortcut-discard-ongoing-recording-label = চলমান রেকর্ডিং বাতিল করুন
+shortcut-submit-label = ক্লিপ জমা দিন
 request-language-text = Common Voice প্রকল্পে এখনও আপনার ভাষা দেখতে পাচ্ছেন না?
+request-language-text-learn = কীভাবে সেটা অনুরোধ করবেন তা জানুন!
 request-language-button = একটি ভাষার জন্যে অনুরোধ করুন
 
 ## ProjectStatus
@@ -288,10 +291,17 @@ profile-form-native-language =
     .label = মাতৃভাষা
 profile-form-additional-language =
     .label = আরো ভাষা
+profile-form-language =
+    .label = ভাষা
 profile-form-accent =
     .label = উচ্চারণ
+profile-form-custom-accent-help-text =
+    .label = আপনি কিভাবে আপনার উচ্চারণ বর্ণনা করবেন?
+profile-form-custom-accent-placeholder-2 = আপনার উচ্চারণ বর্ণনা করতে টাইপ করা শুরু করুন
 profile-form-age =
     .label = বয়স
+profile-form-gender-2 =
+    .label = লিঙ্গ
 leaderboard-visibility =
     .label = লিডারবোর্ড দৃশ্যমানতা
 hidden = লুকায়িত
@@ -317,6 +327,7 @@ profile-close = বন্ধ করুন
 profile-explanation = প্রোফাইলে আপনার অগ্রগতির নজর রাখুন এবং আমাদের ভয়েস ডেটা আরও নির্ভুল করতে সহায়তা করুন।
 thanks-for-account = আপনার অ্যাকাউন্ট নিশ্চিত করার জন্য ধন্যবাদ, এখন আপনার প্রোফাইল তৈরি করা যাক।
 why-demographic = এটা কেন গুরুত্বপূর্ণ?
+accept-privacy-title = গোপনীয়তার নীতি
 login-identity = লগইন পরিচয়
 login-signup = লগ ইন / সাইন আপ
 edit = সম্পাদনা
@@ -336,6 +347,7 @@ browse-file = টানুন এবং ড্রপ করুন অথবা <
 connect-gravatar = Gravatar সঙ্গে সংযোগ করুন
 gravatar_not_found = আপনার ইমেইল জন্য কোন gravatar পাওয়া যায় নি
 file_too_large = নির্বাচিত ফাইল আকারে খুব বড়
+max-file-size = সর্বোচ্চ { $kb }কেবি
 
 ## Profile - Email
 
@@ -375,6 +387,7 @@ about-title = কেন Common Voice?
 
 ## How does it work section
 
+about-localization-title = ওয়েবসাইট স্থানীয়করণ
 about-speak = কথা বলুন
 about-speak-text = অনুদানকৃত বাক্যসমূহের একটি ব্যাংক থেকে পাঠ করার মাধ্যমে অনুদানকারী ভয়েস ক্লিপসমূহ রেকর্ড করে।
 about-listen-queue-text = ভয়েস ক্লিপসমূহ একটি জমা সারিতে প্রবেশ করানো হয়, যেটি সেইগুলোকে শোনার জন্য প্রস্তুত করে।
