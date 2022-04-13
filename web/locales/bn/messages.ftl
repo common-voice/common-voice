@@ -290,7 +290,7 @@ profile-form-username =
 profile-form-native-language =
     .label = মাতৃভাষা
 profile-form-additional-language =
-    .label = আরো ভাষা
+    .label = অতিরিক্ত ভাষা
 profile-form-language =
     .label = ভাষা
 profile-form-accent =
@@ -388,11 +388,14 @@ about-title = কেন Common Voice?
 ## How does it work section
 
 about-localization-title = ওয়েবসাইট স্থানীয়করণ
+about-localization-subtitle = ওয়েবসাইটের পাঠ্যটি সেই ভাষায় অনুবাদ করা হয়।
+about-sentence-collection-title = বাক্য সংগ্রহ
+about-new-lang-title = নতুন ভাষা উন্মোচন
 about-speak = কথা বলুন
 about-speak-text = অনুদানকৃত বাক্যসমূহের একটি ব্যাংক থেকে পাঠ করার মাধ্যমে অনুদানকারী ভয়েস ক্লিপসমূহ রেকর্ড করে।
 about-listen-queue-text = ভয়েস ক্লিপসমূহ একটি জমা সারিতে প্রবেশ করানো হয়, যেটি সেইগুলোকে শোনার জন্য প্রস্তুত করে।
 about-listen = শুনুন
-about-is-it-valid = এই ক্লিপটি কি বৈধ?
+about-is-it-valid = ক্লিপটি কি বৈধ?
 about-is-it-valid-text = একটি ভয়েস ক্লিপ তখনই "বৈধ" হিসেবে চিহ্নিত করা হয় যখন একজন ব্যবহারকারী সেটিকে হ্যাঁ ভোট দেয়।
 about-yes-votes = ≥ 2 হ্যাঁ ভোট
 about-yes-votes-text = Common Voice এর ডাটাসেটে একটি ভয়েস ক্লিপ অন্তর্ভুক্ত করতে চাইলে, দুজন পৃথক ব্যবহারকারী দ্বারা সেটির বৈধতা যাচাই করা আবশ্যক।
