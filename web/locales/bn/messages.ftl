@@ -776,21 +776,35 @@ read-more-about = আমাদের সম্পর্কে আরও পা�
 
 ## DemoLayout
 
+demo-get-started = শুরু করা যাক
+demo-welcome = কমন ভয়েসে স্বাগতম
+demo-welcome-subheader = আরও শিখতে এবং প্রকল্পে অবদান রাখতে আগ্রহী?
 
 ## Demo Datasets
 
+card-button-next = পরবর্তী
+card-button-back = পূর্ববর্তী
+demo-language-select-label = ভাষাসমূহ দেখুন
+demo-account = অ্যাকাউন্ট
 
 ## Demo Account
 
 
 ## Demo Contribute
 
+demo-listen-subtitle = অবদান রাখতে প্রস্তুত?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-criteria-nav = মানদণ্ড
+contribution-criteria-link = অবদানের মানদণ্ড জানুন
+contribution-criteria-page-title = অবদানের মানদণ্ড
+contribution-for-example = উদাহরণসরূপ
+see-more = <chevron></chevron>আরও দেখুন
+see-less = <chevron></chevron>কম দেখুন
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -799,6 +813,13 @@ read-more-about = আমাদের সম্পর্কে আরও পা�
 
 ## HEADER/FOOTER
 
+sc-header-home = নীড়
+sc-header-how-to = কীভাবে
+sc-header-add = যোগ করুন
+sc-header-review = পর্যালোচনা করুন
+sc-header-my = আমার বাক্যসমূহ
+sc-header-statistics = পরিসংখ্যান
+sc-header-profile = প্রোফাইল
 
 ## HOME
 
