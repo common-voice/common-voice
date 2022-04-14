@@ -785,6 +785,16 @@ other-language = Вес йылме
 ## Request Language Pages
 
 request-language-heading = У йылме нерген йод
+request-language-form-email =
+    .label = Тыйын электрон почто адресет
+request-language-form-info =
+    .label = Йылме нерген информаций
+request-language-form-info-explanation-list-1 = Тыйын йылметын вуйлӱмжӧ-влак
+request-language-form-info-explanation-list-2 = Пале гын, <isoCodeLink>ISO код-влак</isoCodeLink>
+request-language-google-recaptcha-required = Умбакыже шуйынет гын, reCAPTCHA кӱлеш
+request-language-google-recaptcha-error = reCAPTCHA дене ала-можо вес семын каен колтыш. Порылий, эше ик гана тӧчен ончо.
+# Success page
+request-language-success-heading = Тылат тауштем! Тый у йылме йодмашым колтенат
 
 ## Languages Overview
 
