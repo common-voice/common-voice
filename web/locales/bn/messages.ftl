@@ -12,6 +12,7 @@ email-opt-in-info = আমি Common Voice সম্পর্কিত ইমে
 indicates-required = * প্রয়োজনীয় ক্ষেত্র নির্দেশ করে
 not-available-abbreviation = প্রযোজ্য নয়
 banner-error-slow-1 = দুঃখিত, Common Voice একটু ধীরে চলছে। আপনার আগ্রহের জন্য ধন্যবাদ।
+error-something-went-wrong = দুঃখিত, কোন একটা সমস্যা হয়েছে
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
