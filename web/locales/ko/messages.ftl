@@ -587,6 +587,8 @@ about-playbook-how-grow-language-content-6 = 파트너십 및 네트워크
 ## How to validate
 
 about-playbook-how-validate = 음성 클립이 승인되었는지 어떻게 알 수 있나요?
+about-playbook-how-validate-content-3 = 만약 발음을 <strong>아예 이해할 수 없거나</strong>, <strong>배경 잡음이 너무 심하거나</strong>, <strong>기여자 외에 다른 사람이 말하고 있다고</strong> 생각한다면 클립을 거부해야 합니다. <accuracyLink>자세한 정확도 기준에 대해 알아 보세요</accuracyLink>.
+about-playbook-how-validate-content-4 = 클립을 두 사람이 거부하면 데이터 세트에 별도로 구분되어 공개됩니다.
 
 ## How to access dataset
 
