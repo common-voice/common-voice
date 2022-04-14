@@ -789,12 +789,22 @@ request-language-form-email =
     .label = Тыйын электрон почто адресет
 request-language-form-info =
     .label = Йылме нерген информаций
+request-language-form-info-explanation =
+    Йылме нерген кертме семын шукырак информацийым пурто. Тышке
+    теве мо пурен кертеш:
 request-language-form-info-explanation-list-1 = Тыйын йылметын вуйлӱмжӧ-влак
 request-language-form-info-explanation-list-2 = Пале гын, <isoCodeLink>ISO код-влак</isoCodeLink>
 request-language-google-recaptcha-required = Умбакыже шуйынет гын, reCAPTCHA кӱлеш
 request-language-google-recaptcha-error = reCAPTCHA дене ала-можо вес семын каен колтыш. Порылий, эше ик гана тӧчен ончо.
 # Success page
 request-language-success-heading = Тылат тауштем! Тый у йылме йодмашым колтенат
+request-language-success-list-1 =
+    Тый кӱчык умылтарымаш дене электрон серышым налшаш улат
+    тушто тыйын йылметым Common Voice-ыш ешарыме шотышто ошкыл-влак
+request-language-success-list-2 =
+    Ешартыш полышым темлаш да тыйын йылмет дене
+    пашам ыштыше тӱшка уло-укем увертараш манын,
+    мемнан менеджер тый дене кылдалтеш
 
 ## Languages Overview
 
