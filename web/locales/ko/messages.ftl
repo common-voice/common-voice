@@ -760,6 +760,10 @@ request-language-form-info =
     .label = 언어에 대한 정보
 request-language-form-info-explanation = 언어에 대해 알고 있는 정보를 최대한 많이 추가해 주세요. 이를테면:
 request-language-form-info-explanation-list-1 = 언어의 이름
+request-language-form-info-explanation-list-2 = 알고 있는 경우 <isoCodeLink>ISO 코드</isoCodeLink>
+request-language-form-info-explanation-list-3 = 언어를 이해하는데 도움이 될 만한 웹사이트 링크
+request-language-google-recaptcha-required = 계속하려면 reCAPTCHA가 필요합니다.
+request-language-google-recaptcha-error = reCAPTCHA에 문제가 발생했습니다. 다시 시도해 주세요.
 
 ## Languages Overview
 
