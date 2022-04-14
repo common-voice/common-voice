@@ -14,7 +14,10 @@ email-opt-in-info-sub-with-challenge = Шумлык нерген, паша уэ�
 email-opt-in-privacy-v2 = Электрон серышлам наледыме дене келшен, тый Mozilla-н <privacyLink>Шолыплык политикыште</privacyLink> ончыктымо семын информацийым ямдылкалыме дене келшыметым чынлет.
 indicates-required = * Кӱлешан аланым ончыкта
 not-available-abbreviation = А/У
+banner-error-slow-1 = Нелеш ит нал, Common Voice эркын ышта. Кумылан улметлан тау.
+banner-error-slow-2 = Ме кугу трафикым налына да кызытсе жапыште нелылыкым шымлена.
 banner-error-slow-link = Шотлык велыж
+error-something-went-wrong = Нелеш ит нал, ала-можо вес семын каен колтыш.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -418,6 +421,7 @@ gravatar_not_found = Электрон почто адресетым мумо о�
 file_too_large = Ойырымо файл утыжден кугу
 avatar-uploaded = Вераҥдыме аватар
 max-file-size = эн кугужо { $kb } кб
+remove-avatar = Аватарым кораҥдаш
 
 ## Profile - Email
 
@@ -780,6 +784,7 @@ other-language = Вес йылме
 
 ## Request Language Pages
 
+request-language-heading = У йылме нерген йод
 
 ## Languages Overview
 
