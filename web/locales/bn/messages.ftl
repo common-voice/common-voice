@@ -9,6 +9,7 @@ email-input =
 submit-form-action = জমা দিন
 loading = লোড করা হচ্ছে…
 email-opt-in-info = আমি Common Voice সম্পর্কিত ইমেইল যেমন গোল রিমাইন্ডার, আমার অগ্রগতি হালনাগাদ এবং নিউজলেটার পেতে চাই।
+email-opt-in-info-title = কমন ভয়েস মেইল তালিকায় যুক্ত হন
 indicates-required = * প্রয়োজনীয় ক্ষেত্র নির্দেশ করে
 not-available-abbreviation = প্রযোজ্য নয়
 banner-error-slow-1 = দুঃখিত, Common Voice একটু ধীরে চলছে। আপনার আগ্রহের জন্য ধন্যবাদ।
@@ -823,15 +824,26 @@ sc-header-profile = প্রোফাইল
 sc-footer-discourse = ডিসকোর্স
 sc-footer-report-bugs = বাগ রিপোর্ট করুন
 sc-footer-translate = পাতাটি অনুবাদ করুন
+sc-footer-report-copyright = কপিরাইট বিষয়ে রিপোর্ট করুন
+sc-footer-privacy = গোপনীয়তা
+sc-footer-terms = শর্তাবলী
+sc-footer-cookies = কুকি
+sc-login-signup-button = লগ ইন / সাইন আপ
+sc-logout-button = লগ আউট
 
 ## HOME
 
+sc-home-collect-title = বাক্য সংগ্রহ করুন
+sc-home-review-title = বাক্য পর্যালোচনা করুন
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = কিভাবে
+sc-howto-review-title = বাক্য পর্যালোচনা করুন
+sc-howto-review-subtitle = বাক্যগুলো যেন নিজের মানদণ্ড অনুসরণ করে তা নিশ্চিত করুন:
 
 ## MY SENTENCES
 
