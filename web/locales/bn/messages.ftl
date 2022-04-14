@@ -820,6 +820,9 @@ sc-header-review = পর্যালোচনা করুন
 sc-header-my = আমার বাক্যসমূহ
 sc-header-statistics = পরিসংখ্যান
 sc-header-profile = প্রোফাইল
+sc-footer-discourse = ডিসকোর্স
+sc-footer-report-bugs = বাগ রিপোর্ট করুন
+sc-footer-translate = পাতাটি অনুবাদ করুন
 
 ## HOME
 
