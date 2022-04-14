@@ -580,6 +580,7 @@ about-playbook-how-grow-language-content-6 = Amɛiwen n yiẓedwa
 ## How are decisions made
 
 about-playbook-how-project-governance = Amek i yettwagzam ṛṛay deg usenfar?
+about-playbook-how-project-governance-content-3 = Tabaḍnit, taɣellist d tefrawant
 about-playbook-how-project-governance-content-5 = Azalen d usnemmer
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Tigzi n tmacint
@@ -1135,6 +1136,10 @@ sc-howto-addsen-title = Rnu tifyar tmaynutin
 sc-howto-cite-title = Amek ara d-temmleḍ
 sc-howto-cite-item-1 = Tzemreḍ ad tsedduḍ asmel web, am. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Senqed tifyar
+sc-howto-review-criteria-1 = Tafyirt ilaq ad tettwaru akken iwata.
+sc-howto-review-criteria-2 = Tafyirt ilaq ad tili d tameɣtut seg tama n tjerrumt.
+sc-howto-findpd-subtitle = Nadi-ten deg Internet
+sc-howto-findpd-tips = Ha-ten-a kra n yiwellihen i tifin n tefyar:
 
 ## MY SENTENCES
 
@@ -1239,6 +1244,8 @@ sc-confirm-button-text = Sentem
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Asemday
+sc-lang-info-title-personal = Udmawan
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1305,6 +1312,8 @@ sc-personal-not-added = Ur terniḍ ara yakan tutlayin.
 
 sc-criteria-modal = Tiwtilin n usenqed
 sc-criteria-title = Tiwtilin n usenqed
+sc-criteria-item-1 = Tafyirt ilaq ad tettwaru akken iwata.
+sc-criteria-item-2 = Tafyirt ilaq ad tili d tameɣtut seg tama n tjerrumt.
 
 ## REVIEW
 
@@ -1316,6 +1325,8 @@ sc-review-form-source = Aɣbalu: { $sentenceSource }
 sc-review-form-button-reject = Agi
 sc-review-form-button-skip = Suref
 sc-review-form-button-approve = Qbel
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
 sc-review-form-keyboard-usage-custom = Tzemreḍ daɣe ad tesqedceḍ inegzumen n unasiw : { sc-review-form-button-approve-shortcut } akken ad tsenndeḍ, { sc-review-form-button-reject-shortcut } akken ad tagiḍ, { sc-review-form-button-skip-shortcut } akken ad tanfeḍ
 sc-review-form-button-submit =
     .submitText = Fak asenqed
