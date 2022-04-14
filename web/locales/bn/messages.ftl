@@ -61,6 +61,7 @@ fr = ফরাসী
 fy-NL = ফ্রিসিয়ান
 ga-IE = আইরিশ
 gl = গালিসিয়ান
+gn = গুয়ারানি
 ha = হাওসা
 he = হিব্রু
 hi = হিন্দি
@@ -77,6 +78,7 @@ it = ইতালীয়ান
 izh = ইঝোরিয়ান
 ja = জাপানি
 ka = জর্জিয়ান
+kaa = কারাকালপাক
 kab = কাবাইলে
 kk = কাজাখ
 ko = কোরিয়ান
@@ -89,23 +91,28 @@ lt = লিথুয়েনীয
 lv = লাত্ভীয়
 mai = মৈথিলি
 mdf = মোকশা
+mg = মালাগাসি
 mhr = মিডো মারি
 mk = ম্যাসিডোনিয়ান
 ml = মালায়ালম
 mn = মঙ্গোলিয়ান
+mos = মোসি
 mr = মারাঠি
 mrj = হিল মারি
 ms = মালয়
 mt = মাল্টিজ
 my = বর্মী
 myv = এরজিয়া
+nan-tw = তাইওয়ানীয় (মিনান)
 nb-NO = নরওয়েজিয়ান বোকমাল
 ne-NP = নেপালি
-nl = ডাচ
+nia = নিয়াস
+nl = ওলন্দাজ
 nn-NO = নরওয়েজিয়ান নিনির্স্ক
 oc = অক্সিটান
 or = উড়িয়া
 pa-IN = পাঞ্জাবি
+pap-AW = পাপিয়ামেন্টো (আরুবা)
 pl = পোলিশ
 ps = পাস্তো
 pt = পর্তুগীজ
@@ -120,7 +127,8 @@ sc = সার্ডিনিয়ান
 shi = শিলহা
 si = সিংহলী
 sk = স্লোভাক
-sl = স্লোভেনিয়ান
+skr = সারাইকি
+sl = স্লোভেনীয়
 so = সোমালি
 sq = আলবানিয়ান
 sr = সার্বিয়ান
@@ -131,6 +139,7 @@ ta = তামিল
 te = তেলেগু
 tg = তাজিক
 th = থাই
+tk = তুর্কমেন
 tr = তুর্কি
 tt = তাতার
 uby = উবাইখ
@@ -141,9 +150,9 @@ ur = উর্দু
 uz = উজবেক
 vi = ভিয়েতনামী
 vot = ভোটিক
-zh-CN = চায়নীজ (চিনের)
-zh-HK = চাইনিজ (হংকং)
-zh-TW = চাইনীজ (তাইওয়ানের)
+zh-CN = চীনা (চীন)
+zh-HK = চীনা (হংকং)
+zh-TW = চীনা (তাইওয়ান)
 
 # [/]
 
@@ -402,17 +411,21 @@ about-listen-queue-text = ভয়েস ক্লিপসমূহ একটি 
 about-listen = শুনুন
 about-is-it-valid = ক্লিপটি কি বৈধ?
 about-is-it-valid-text = একটি ভয়েস ক্লিপ তখনই "বৈধ" হিসেবে চিহ্নিত করা হয় যখন একজন ব্যবহারকারী সেটিকে হ্যাঁ ভোট দেয়।
-about-yes-votes = ≥ 2 হ্যাঁ ভোট
+about-yes-votes = ≥ ২টি হ্যাঁ ভোট
 about-yes-votes-text = Common Voice এর ডাটাসেটে একটি ভয়েস ক্লিপ অন্তর্ভুক্ত করতে চাইলে, দুজন পৃথক ব্যবহারকারী দ্বারা সেটির বৈধতা যাচাই করা আবশ্যক।
+about-no-votes = ≥ ২টি না ভোট
 about-dataset-new = Common Voice ডাটাসেট
 about-dataset-new-text = Common Voice ডাটাসেটে হাজার হাজার নমুনা কণ্ঠ রয়েছে যা ডেভলাপারদের ভয়েস রিকগনিশন টুল তৈরিতে সহায়তা করে।
 about-partners = অংশীদারসমূহ
 about-become-a-partner = অংশীদার হোন
 about-get-involved = সম্পৃক্ত হোন
+about-stay-in-touch-button = সাইন আপ
 about-nav-why-common-voice = কেন?
 about-nav-how-it-works = কিভাবে?
 about-nav-partners = অংশীদার
 about-nav-get-involved = সম্পৃক্ত হোন
+about-nav-how-it-works-2 = Common Voice কিভাবে কাজ করে?
+about-nav-playbook = কীভাবে অংশ নিতে হয় জানুন
 
 ## Community Playbook Content
 ## What is a language
@@ -420,28 +433,35 @@ about-nav-get-involved = সম্পৃক্ত হোন
 
 ## How do I add a language
 
+about-playbook-how-add-language = আমি কীভাবে ভাষা যোগ করবো?
 
 ## How does localization work
 
+about-playbook-how-localize = সাইট স্থানীয়করণ কিভাবে কাজ করে?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = আমি কীভাবে বাক্য যোগ করবো?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = ইভেন্ট
+about-playbook-how-grow-language-content-4 = সামাজিক যোগাযোগ মাধ্যম
 
 ## How to validate
 
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = আমি কিভাবে ডেটাসেট পেতে এবং ব্যবহার করতে পারি?
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
+about-playbook-how-project-governance = প্রকল্পের সিদ্ধান্তসমূহ কীভাবে নেওয়া হয়?
+mycroft-title = মাইক্রফট এআই
 mycroft-subtitle = কৃত্রিম বুদ্ধিমত্তা
 
 ## Glossary
