@@ -593,9 +593,17 @@ about-playbook-how-validate-content-4 = 클립을 두 사람이 거부하면 데
 ## How to access dataset
 
 about-playbook-how-access-dataset = 어떻게 데이터 세트에 접근하고 사용하나요?
+about-playbook-how-access-dataset-content-1 = <datasetsPage>데이터 세트 페이지</datasetsPage>에서 원하는 버전과 언어를 선택한 뒤 다운로드할 수 있습니다! 파일에는 인구 통계 정보라거나 검증 데이터와 같은 <metadataLink>대응되는 메타데이터</metadataLink>가 들어 있습니다. 데이터 세트를 다운로드하려면 이메일 주소를 제공해야 합니다.
+about-playbook-how-access-dataset-content-2 = 자동 음성 인식(ASR) 모델을 구축하는 도구를 찾고 있다면 <discourseLink>Discourse</discourseLink>에서 커뮤니티의 다른 사람들과 만날 수 있습니다.
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-2 = 다음을 기반으로 하는 관리방식:
+about-playbook-how-project-governance-content-3 = 개인 정보 보호, 보안 및 투명성.
+about-playbook-how-project-governance-content-4 = 커뮤니티 참여 및 의사 결정.
+about-playbook-how-project-governance-content-5 = 가치와 인정.
+about-playbook-how-project-governance-content-6 = 상호 책임.
+about-playbook-how-project-governance-content-7 = <governanceLink>관리 방식에 대해 자세히 살펴 보세요.</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 인공 지능
 mycroft-description =
@@ -662,11 +670,11 @@ review-delete-recordings = 내 녹음 삭제
 
 datasets-headline = 우리는 누구든지 음성 지원 응용프로그램을 교육하기 위해 사용할 수 있는 오픈 소스, 다국어 음성 데이터 세트를 구축하고 있습니다.
 datasets-positioning =
-    우리는 공개적으로 이용할 수 있는 대규모 음성 데이터 세트가 머신-러닝 기반의 음성 기술의 혁신과 건전한 상업 경쟁을 촉진할 것이라고 믿습니다.
+    우리는 공개적으로 이용할 수 있는 대규모 음성 데이터 세트가 기계 학습 기반 음성 기술의 혁신과 건전한 상업 경쟁을 촉진할 것이라고 믿습니다.
     
-    Common Voice의 다국어 데이터 세트는 이미 같은 부류의 세트 중에서 공개적으로 이용할 수 있는 가장 큰 규모의 음성 데이터 세트지만, 그것만이 유일한 것은 아닙니다.
+    Common Voice의 다국어 데이터 세트는 이미 동종의 공개 데이터 세트 중에서 가장 큰 규모이지만, 그 밖에도 다른 데이터 세트가 존재합니다.
     
-    이 페이지를 다른 오픈 소스 음성 데이터 세트의 기준점(참조처)으로 해주십시오. 또한 Common Voice가 계속 성장하고 있기 때문에, 릴리스 업데이트를 위한 홈으로 삼으십시오.
+    이 페이지는 다른 오픈 소스 음성 데이터 세트의 참조처이자, Common Voice가 성장해 감에 따라 공개될 업데이트를 위한 장소가 될 것입니다.
 language = 언어
 # File size in gigabytes
 size = 크기
@@ -746,6 +754,12 @@ other-language = 다른 언어
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = 이메일 주소
+request-language-form-info =
+    .label = 언어에 대한 정보
+request-language-form-info-explanation = 언어에 대해 알고 있는 정보를 최대한 많이 추가해 주세요. 이를테면:
+request-language-form-info-explanation-list-1 = 언어의 이름
 
 ## Languages Overview
 
