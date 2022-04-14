@@ -689,6 +689,8 @@ sc-confirm-button-text = Тасдиқ кардан
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Ҳамагӣ
+sc-lang-info-title-personal = Шахсӣ
 
 ## LOGIN
 
