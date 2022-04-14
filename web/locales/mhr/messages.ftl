@@ -876,8 +876,14 @@ listen-again-instruction = Сай паша!<playIcon></playIcon> Кунам ям
 listen-3rd-time-instruction = 2 ӱлык, тыгак каяш!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Пытартыш!
 listen-empty-state = Мемнан тиде йылме дене тергашлан клип пытен...
+listen-loading-error =
+    Ме аудиоклип-влакым колышташлан налын кертын онал.
+    Порылий, варарак уэш тӧчен ончо.
 speak-empty-state = Мемнан тиде йылме дене возашлан ойлончо пытен...
 speak-empty-state-cta = Ойлончо-влакым надырлаш
+speak-loading-error =
+    Ме тылат ойлончо-влакым ойырен налын кертын онал.
+    Порылий, варарак уэш тӧчен ончо.
 record-button-label = Шке йӱкетым возо
 share-title-new = Шукырак йӱкым муаш <bold>мыланна полшо</bold>
 keep-track-profile = Профильыште шке ончыко кайымашетым эскере
