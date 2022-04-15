@@ -750,6 +750,18 @@ request-language-success-content = Dajomy wjelgin skóro z dalšnymi informacija
 select-language = Rěc wubraś...
 other-language = Druga rěc
 
+## Request Language Pages
+
+request-language-form-email =
+    .label = Waša e-mailowa adresa
+request-language-form-info =
+    .label = Informacije wó rěcy
+request-language-form-info-explanation =
+    Pśidajće tak wjele informacije ako móžno wó rěcy. Na
+    pśikład:
+request-language-form-info-explanation-list-1 = Mjenja wašeje rěcy
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-kody</isoCodeLink>, jolic su znate
+
 ## Languages Overview
 
 language-section-in-progress = W pśigótowanju
@@ -1444,7 +1456,6 @@ sc-review-link = Pógódnośiś
 
 sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěc wužywaŕskego pówjercha
-sc-settings-language-translated-warning = Boki za toś tu rěc njejsu snaź dopołnje pśełožone. Móžośo z pśełožowanim <pontoonLinkLink>na Pontoon</pontoonLinkLink> wupomogaś.
 sc-settings-reset-skipped = Pśeskócone sady slědk stajiś
 sc-settings-skipped-decription = Sćo do toho pśeskócył sady pśi pógódnośenju. Slědkstajanje pśeskóconych sadow buźo wšykne pśeskócone sady znowego pokazowaś. To jo njewótwisne wót rěcy.
 sc-settings-show-all-button = Wšykne pśeskócone sady hyšći raz pokazaś
