@@ -414,6 +414,7 @@ gravatar_not_found = Njejo se namakał žeden gravatar za wašu e-mail
 file_too_large = Wubrana dataja jo pśewjelika
 avatar-uploaded = Awatar jo se nagrał
 max-file-size = { $kb } kb maks.
+remove-avatar = Awatar wótwónoźeś
 
 ## Profile - Email
 
@@ -761,6 +762,11 @@ request-language-form-info-explanation =
     pśikład:
 request-language-form-info-explanation-list-1 = Mjenja wašeje rěcy
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-kody</isoCodeLink>, jolic su znate
+request-language-form-info-explanation-list-3 = Wótkaze na websedła, kótarež mógu nam pomagaś, rěc rozměś
+request-language-google-recaptcha-required = reCAPTCHA jo trjebny, jolic cośo pókšacowaś
+request-language-google-recaptcha-error = Něco njejo se raźiło z reCAPTCHA. Pšosym wopytajśo hyšći raz.
+# Success page
+request-language-success-heading = Wjeliki źěk! Sćo pósłał pšosbu wó nowu rěc
 
 ## Languages Overview
 
