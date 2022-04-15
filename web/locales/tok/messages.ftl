@@ -415,6 +415,7 @@ gravatar_not_found = ilo Gravatar sina li lon ala
 file_too_large = lipu sina li suli mute la, sina ken ala pana
 avatar-uploaded = sina pana e sitelen sinpin
 max-file-size = suli ken li suli KB { $kb }
+remove-avatar = o weka e sitelen sina
 
 ## Profile - Email
 
@@ -682,6 +683,7 @@ review-delete-recordings = o weka e kalama ale mi
 
 ## Datasets Page
 
+datasets-heading = kulupu kalama
 datasets-headline = mi pali e kulupu sona pi kalama toki. ona li open, li kepeken toki mute. jan ale li ken kepeken ona, li ken pona e ilo kute kepeken ona.
 datasets-positioning =
     mi la, kulupu sona open li pona tawa pali ilo, li pona tawa sona pi ilo kute mute.
@@ -764,6 +766,29 @@ request-language-success-title = wile pi toki sin sina li pona. sina pona.
 request-language-success-content = mi toki tawa sina. tenpo lili la mi pana e sona pi toki ante sin.
 select-language = o kepeken toki
 other-language = toki ante
+
+## Request Language Pages
+
+request-language-heading = o wile sona lon toki sin
+request-language-explanation-1 =
+    sina sona ala e lon pi toki sina la, o lukin e <languagesPageLink>lipu toki</languagesPageLink>.
+    toki sina li lon ala la, o pana e sona lon lipu ni. mi <strong>pana e lipu tawa sina</strong>. <strong>lipu li pana e sona pi pali toki</strong>.
+request-language-form-email =
+    .label = nimi pi poki lipu sina
+request-language-form-info =
+    .label = sona toki
+request-language-form-info-explanation =
+    o pana e sona ale pi toki sina.
+    ale ni li ken pona:
+request-language-form-info-explanation-list-1 = nimi pi toki sina
+request-language-form-info-explanation-list-2 = sona la, <isoCodeLink>nasin ISO</isoCodeLink>
+request-language-form-info-explanation-list-3 = nimi nasin pi lipu toki. ona li ken pana e sona toki tawa mi.
+request-language-google-recaptcha-required = sina wile tawa la, o kepeken ilo reCAPTCHA.
+request-language-google-recaptcha-error = ilo reCAPTCHA li pakala. o sin.
+# Success page
+request-language-success-heading = sina pona! sina pana e wile pi toki sin.
+request-language-success-list-1 = tenpo kama lili la, sina kama jo e lipu sona pi nasin ni: sina ken pana e toki sin tawa ilo Common Voice
+request-language-success-list-2 = tenpo kama la, jan lawa pi ilo Common Voice li toki tawa sina, li pona e pali sina, li toki e lon pi toki sina.
 
 ## Languages Overview
 
@@ -1427,7 +1452,6 @@ sc-review-link = o lukin
 
 sc-settings-title = nasin ilo
 sc-settings-ui-language = toki pi ilo ni
-sc-settings-language-translated-warning = lipu li ken jo e wan pi ante toki ala. sina ken ante toki <pontoonLinkLink>lon ilo Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = mi sona ala lon tenpo pini la, o sin e sitelen ni
 sc-settings-skipped-decription = sina lukin e sitelen lon tenpo pini la, sina sona ala e ona. sina sin e sitelen pi sona ala la, sina ken lukin sin e ona. ni li lon toki ale.
 sc-settings-show-all-button = mi sona ala lon tenpo pini la, o sin e sitelen ni
