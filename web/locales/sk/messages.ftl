@@ -36,7 +36,6 @@ ba = baškirčina
 bas = basaa
 be = bieloruština
 bg = bulharčina
-bm = bambarčina
 bn = bengálčina
 br = bretónčina
 bxr = buriatčina
@@ -152,7 +151,6 @@ te = telugčina
 tg = tadžičtina
 th = thajčina
 ti = Tigrijčina
-Tig = Tigre
 tl = tagalčina
 tr = turečtina
 tt = tatárčina
@@ -470,15 +468,15 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Prečo Common Voice?
-about-subtitle = Common Voice je súčasťou iniciatívy Mozilly pomôcť učiť stroje, ako hovoria skutoční ľudia. Okrem datasetu Common Voice budujeme aj open source engine na rozpoznávanie reči s názvom Deep Speech.
-about-header-description =
-    Oba tieto projekty sú súčasťou nášho úsilia o prekonanie priepasti v digitálnej reči. Technológie rozpoznávania hlasu dodávajú našim zariadeniam ľudský rozmer, ale vývojári potrebujú obrovské množstvo hlasových údajov, aby ich mohli zostaviť. V súčasnosti je väčšina týchto údajov drahá a súkromná.
-    Chceme sprístupniť hlasové údaje verejne a zadarmo a zabezpečiť, aby údaje reprezentovali rozmanitosť skutočných ľudí. Spoločne môžeme zlepšiť rozpoznávanie hlasu pre všetkých.
-about-header-description-2 =
-    Tento projekt je snahou preklenúť priepasť v digitálnej reči. Technológie rozpoznávania hlasu prinášajú do našich zariadení ľudský rozmer, ale vývojári na ich vybudovanie potrebujú obrovské množstvo hlasových dát. V súčasnosti je väčšina týchto údajov drahá a proprietárna.
-    Chceme, aby boli hlasové údaje voľne a verejne dostupné, a takisto sa snažíme zaistiť, aby údaje reprezentovali rozmanitosť skutočných ľudí. Spolu dokážeme zlepšiť rozpoznávanie hlasu pre každého.
-how-does-it-work-title = Ako to funguje?
+about-header-description-v2 =
+    <p>Common Voice je verejne dostupný súbor údajov o hlase, ktorý využíva hlasy dobrovoľných prispievateľov z celého sveta. Ľudia, ktorí chcú vytvárať hlasové aplikácie, môžu použiť množinu údajov na trénovanie modelov strojového učenia.</p>
+    <p>V súčasnosti väčšinu hlasových dátových súborov vlastnia spoločnosti, čo brzdí inovácie. Nedostatočne zastúpené sú aj hlasové dátové súbory: neanglicky hovoriaci ľudia, farební ľudia, zdravotne postihnutí ľudia, ženy a LGBTQIA+ ľudia. To znamená, že technológia s podporou hlasu v mnohých jazykoch vôbec nefunguje a tam, kde funguje, nemusí fungovať rovnako dobre pre každého. Chceme to zmeniť mobilizáciou ľudí všade, aby zdieľali svoj hlas.</p>
+how-does-it-work-title-v2 = Ako funguje Common Voice?
 how-does-it-work-text = Zhromažďujeme množstvo hlasov do veľkého otvoreného datasetu. Darujte svoj hlas, overte presnosť klipov iných ľudí a pomôžte tak vylepšiť súbor údajov.
+
+## How does it work section
+
+about-subscribe-text = Chcete zostať v kontakte so službou Common Voice?
 about-speak = Čítanie
 about-speak-text = Prispievatelia zaznamenávajú rečové nahrávky čítaním zo zásoby darovaných viet.
 about-listen-queue = Fronta nahrávok
@@ -510,6 +508,35 @@ about-nav-why-common-voice = Prečo?
 about-nav-how-it-works = Ako?
 about-nav-partners = Partneri
 about-nav-get-involved = Zapojte sa
+about-nav-playbook = Zistite, ako sa zúčastniť
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Umelá inteligencia
 mycroft-description =
@@ -657,6 +684,9 @@ request-language-success-title = Žiadosť o jazyk bola odoslaná. Ďakujeme.
 request-language-success-content = Čoskoro vám dáme vedieť, ako môžete pridať svoj jazyk do Common Voice.
 select-language = Vyberte si jazyk...
 other-language = Ostatné jazyky
+
+## Request Language Pages
+
 
 ## Languages Overview
 
@@ -1030,3 +1060,59 @@ contribution-just-unsure-title = Len si nie ste istí?
 contribution-just-unsure-description = Ak narazíte na niečo, na čo sa tieto pokyny nevzťahujú, hlasujte podľa svojho najlepšieho úsudku. Ak sa naozaj nemôžete rozhodnúť, použite tlačidlo preskočenia a pokračujte k ďalšiemu záznamu.
 see-more = <chevron></chevron> Zobraziť viac
 see-less = <chevron> </chevron> Zobraziť menej
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
