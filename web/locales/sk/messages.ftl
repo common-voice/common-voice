@@ -474,7 +474,7 @@ faq-how-calc-hours-q = Ako projekt Common Voice počíta nahrané hodiny?
 faq-how-calc-hours-a = Hodiny počítame odhadom priemernej dĺžky každého záznamu, ktorú potom vynásobíme celkovým počtom záznamov vo všetkých jazykoch.
 faq-where-src-from-2-q = Odkiaľ pochádza zdrojový text?
 faq-where-src-from-2-a =
-    Náš zdrojový text je tvorený originálnymi príspevkami prispievateľov, ale aj dialógmi zo scenárov verejne dostupných filmov, ako napríklad <italic>Život je krásny</italic>.
+    Náš zdrojový text je tvorený originálnymi príspevkami prispievateľov, ale aj dialógmi zo scenárov filmov dostupných pod verejnou licenciou, ako napríklad <italic>Život je krásny</italic>.
     
     Naše zdrojové vety môžete nájsť v tomto <githubLink>GitHub priečinku</githubLink>.
 faq-why-not-ask-read-q = Prečo nepožiadate ľudí, aby čítali z kníh alebo články na Wikipédii?
@@ -571,7 +571,7 @@ about-playbook-how-add-language = Ako pridám jazyk?
 about-playbook-how-add-language-content-1 = Najprv skontrolujte, či váš jazyk <languageLink>už existuje</languageLink>. Ak nie, musíte <strong>preložiť stránku a zozbierať vety</strong>.
 about-playbook-how-add-language-content-2 = <strong>Ak chcete preložiť stránku</strong> – <translateVideo>nastavte</translateVideo> si <pontoonLink>Pontoon</pontoonLink>. Pontoon má veľa jazykov, ale ak nemá váš, môžete si ho <pontoonRequestLink>vyžiadať</pontoonRequestLink>. Potom požiadajte <repoLink>cez GitHub</repoLink> o sprístupnenie projektu Common Voice pre daný jazyk. Ďalšie informácie o <localizationFragment>preklade stránok</localizationFragment>.
 about-playbook-how-add-language-content-3 = <strong>Na zozbieranie viet</strong> – <scVideo>nastavte</scVideo> si <scLink>Zberač viet</scLink>.
-about-playbook-how-add-language-content-4 = <scLinkAdd>Malé počty viet</scLinkAdd> môžete pridať tu alebo môžete vykonať <bulkImportDocsLink>hromadné importy</bulkImportDocsLink> prostredníctvom požiadavky cez Github. Pamätajte, že vety musia byť <licenseLink>CC0 (alebo verejne dostupné)</licenseLink>, alebo môžete napísať svoje vlastné. Ďalšie informácie o <scFragment>zbere viet</scFragment>.
+about-playbook-how-add-language-content-4 = <scLinkAdd>Malé počty viet</scLinkAdd> môžete pridať tu alebo môžete vykonať <bulkImportDocsLink>hromadné importy</bulkImportDocsLink> prostredníctvom požiadavky cez Github. Pamätajte, že vety musia byť <licenseLink> dostupné ako CC0 (alebo pod verejnou licenciou)</licenseLink>, alebo môžete napísať svoje vlastné. Ďalšie informácie o <scFragment>zbere viet</scFragment>.
 
 ## How does localization work
 
@@ -585,8 +585,8 @@ about-playbook-how-localize-content-5 = Pozrite si naše video, ktoré vám mô�
 ## How to add sentences
 
 about-playbook-how-add-sentences = Ako pridám vety?
-about-playbook-how-add-sentences-content-1 = <strong>Zberač viet</strong> je nástroj na zhromažďovanie a overovanie verejných viet. Budete si <scAccountLink>potrebovať vytvoriť účet</scAccountLink>. Potom pridajte svoj jazyk do svojho <strong>profilu</strong>. Môžete <strong>pridávať</strong> vety alebo <strong>kontrolovať</strong> už pridané vety.
-about-playbook-how-add-sentences-content-2 = Aby boli vety zahrnuté do Common Voice, musia ich skontrolovať a prijať dvaja ľudia. Pokyny pre svoj jazyk vytvoríte <languageGuidelinesLink>tu</languageGuidelinesLink>. Vety musia byť pod <licenseLink>verejne dostupnou licenciou</licenseLink> a kratšie ako 15 slov. Môžete požiadať vlastníka textu, aby texty licencoval ako <waiverLink>CC0 pomocou nášho procesu zrieknutia sa práva</waiverLink> a poslať nám ho na commonvoice@mozilla.com.
+about-playbook-how-add-sentences-content-1 = <strong>Zberač viet</strong> je nástroj na zhromažďovanie a overovanie viet dostupných pod verejnou licenciou. Budete si <scAccountLink>potrebovať vytvoriť účet</scAccountLink>. Potom pridajte svoj jazyk do svojho <strong>profilu</strong>. Môžete <strong>pridávať</strong> vety alebo <strong>kontrolovať</strong> už pridané vety.
+about-playbook-how-add-sentences-content-2 = Aby boli vety zahrnuté do Common Voice, musia ich skontrolovať a prijať dvaja ľudia. Pokyny pre svoj jazyk vytvoríte <languageGuidelinesLink>tu</languageGuidelinesLink>. Vety musia byť <licenseLink>dostupné pod verejnou licenciou</licenseLink> a kratšie ako 15 slov. Môžete požiadať vlastníka textu, aby texty licencoval ako <waiverLink>CC0 pomocou nášho procesu zrieknutia sa práva</waiverLink> a poslať nám ho na commonvoice@mozilla.com.
 about-playbook-how-add-sentences-content-3 = Na využitie krátkych viet z Wikipédie môžete použiť <scraperLink>Extraktor viet</scraperLink>.
 about-playbook-how-add-sentences-content-4 = Vety, ktoré boli overené, sa exportujú v stredu a sú k dispozícii po ďalšom vydaní.
 
@@ -648,7 +648,7 @@ glossary = Slovník
 localization = Lokalizácia
 localization-explanation = Toto je náš proces prekladania a prispôsobovania nášho obsahu pre mnohé miestne nastavenia (jazyky).
 sentence-collection = Zber viet
-sentence-collection-explanation = Zhromažďovanie textov pod verejne dostupnou licenciou alebo písanie nových textov s verejne dostupnou licenciou.
+sentence-collection-explanation = Zhromažďovanie textov dostupných pod verejnou licenciou alebo písanie nových textov dostupných pod verejnou licenciou.
 hours-recorded-explanation = Počet hodín hlasových záznamov, ktoré sme doteraz zhromaždili.
 hours-validated-explanation = Počet hodín hlasových nahrávok, ktoré boli potvrdené 2 z 3 používateľov hlasovaním „Áno“. Tento počet určuje pokrok k naplneniu projektového cieľa 10k hodín.
 sst = Prevod reči na text (STT)
@@ -1223,9 +1223,27 @@ sc-howto-review-subtitle = Uistite sa, že veta spĺňa nasledujúce kritériá:
 sc-howto-review-criteria-1 = Veta musí byť napísaná správne.
 sc-howto-review-criteria-2 = Veta musí byť gramaticky správna.
 sc-howto-review-criteria-3 = Veta musí byť vysloviteľná.
+sc-howto-review-criteria-4 = Ak veta spĺňa kritériá, kliknite na tlačidlo "Schváliť".
+sc-howto-review-criteria-5 = Ak veta nespĺňa vyššie uvedené kritériá, kliknite na tlačidlo "Odmietnuť". Ak si vetou nie ste istí, môžete ju tiež preskočiť a prejsť na ďalšiu.
+sc-howto-review-criteria-6 = Ak vám dochádzajú vety na kontrolu, pomôžte nám zhromaždiť viac viet!
+sc-howto-findpd-title = Hľadanie existujúcich viet dostupných pod verejnou licenciou
 
 ## MY SENTENCES
 
+sc-my-title = Moje vety
+sc-my-description = Táto stránka vám poskytuje prehľad všetkých vašich odoslaných viet. V prípade potreby môžete tiež odstrániť už odoslané vety začiarknutím políčka vedľa neho a kliknutím na &quot;Odstrániť označené vety&quot; dole. Odstráňte vety iba v nevyhnutných prípadoch, napríklad ak ste si všimli, že veta je chránená autorskými právami.
+sc-my-loading = Načítavajú sa vaše vety…
+sc-my-err-fetching = Chyba pri načítavaní vašich viet. Prosím skúste to znova.
+sc-my-no-sentences = Nenašli sa žiadne vety!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Podanie: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Zdroj: { $source }
+sc-my-delete = Odstrániť označené vety
+sc-my-deleting = Odstraňujú sa vybrané vety…
+sc-my-err-failed-delete = Vybraté vety sa nepodarilo odstrániť... Skúste to znova!
 
 ## REJECTED
 
@@ -1236,10 +1254,20 @@ sc-rejected-none-found = Nenašli sa žiadne zamietnuté vety!
 
 ## STATS
 
+sc-stats-title = Štatistiky
 sc-stats-updating = Aktualizuje sa…
+sc-stats-error = Štatistiky sa nám nepodarilo načítať. Skúste to neskôr prosím.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Zberač viet Common Voice zhromaždil { $sentenceCount } viet v { $languageCount } jazykoch!
 
 ## ADD
 
+sc-submit-err-select-lang = Prosím zvoľte jazyk.
+sc-submit-err-add-sentences = Prosím, pridajte vety.
+sc-submit-err-add-source = Prosím pridajte zdroj.
+sc-submit-err-confirm-pd = Potvrďte, že tieto vety sú dostupné pod verejnou licenciou.
 sc-submit-title = Pridanie viet
 sc-submit-select-language =
     .labelText = Zvoľte jazyk
