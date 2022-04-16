@@ -1212,16 +1212,27 @@ sc-logout-button = Odhlásiť sa
 
 sc-home-title = Vitajte v zberači viet pre Common Voice
 sc-home-intro = Zberač viet je súčasťou <commonVoiceLink>Common Voice</commonVoiceLink>. Umožňuje prispievateľom zbierať a overovať vety vytvorené komunitou. Tento nástroj môžete použiť aj na import a vyčistenie malého až stredne veľkého korpusu dostupného pod verejnou licenciou, ktorý ste našli alebo zhromaždili. Všetky vety musia byť dostupné pod verejnou licenciou. Schválené vety sa exportujú každý týždeň do úložiska Common Voice a pri každom novom nasadení sú zverejnené na webovej stránke Common Voice.
+sc-home-collect-title = Zber viet
 sc-home-collect-text = Pomôžte nám písaním alebo zbieraním viet dostupných pod verejnou licenciou.
 sc-home-review-title = Kontrola viet
+sc-home-review-text = Pomôžte nám kontrolou správnosti viet podľa pokynov.
 
 ## GENERAL
 
+sc-languages-fetch-error = Nepodarilo sa nám načítať dostupné jazyky. Príspevky momentálne nie sú možné. Skúste neskôr prosím.
 
 ## HOW-TO
 
 sc-howto-title = Ako na to
+sc-howto-addlang-title = Pridanie jazykov, ktorými chcete pracovať
+sc-howto-addlang-text = Po prihlásení si môžete vybrať jazyky v sekcii profilu.
+sc-howto-addsen-title = Pridanie nových viet
 sc-howto-addsen-item-1 = Všetky vety, ktoré odošlete, musia byť <wikipediaLink>dostupné pod verejnou licenciou (CC-0)</wikipediaLink>. Aby sme podporili zahrnutie diela, ktoré nie je pod verejnou licenciou, vytvorili sme <cc0WaiverLink>šablónu zmluvy o príspevkoch</cc0WaiverLink> pre diela, pri ktorých by vlastník autorských práv chcel prispieť materiálom do Common Voice.
+sc-howto-addsen-item-2 = Čísla. V zdrojovom texte by nemali byť žiadne číslice, pretože pri hlasnom čítaní môžu spôsobiť problémy. Spôsob, akým sa číslo číta, závisí od kontextu a môže spôsobiť zmätok v množine údajov. Napríklad číslo „2409“ by sa dalo presne čítať ako „dvadsaťštyri nula deväť“ aj ako „dvetisícštyristodeväť“.
+sc-howto-addsen-item-3 = Skratky a akronymy. V zdrojovom texte by ste sa mali vyhýbať skratkám a akronymom ako „USA“ alebo „ICE“, pretože sa môžu čítať spôsobom, ktorý sa nezhoduje s ich pravopisom. Okrem toho môže existovať viacero presných údajov pre jednu skratku. Napríklad skratka „ICE“ sa môže vyslovovať ako „I-C-E“ alebo ako jedno slovo.
+sc-howto-addsen-item-4 = Interpunkcia. Špeciálne symboly a interpunkčné znamienka by sa mali uvádzať len vtedy, keď je to absolútne nevyhnutné. Napríklad v anglických slovách ako „don't“ a „were“ je zahrnutý apostrof a mal by byť zahrnutý v zdrojovom texte, ale je nepravdepodobné, že budete niekedy potrebovať špeciálny symbol ako „@“ alebo „#“.
+sc-howto-addsen-item-5 = Cudzie znaky. Písmená musia byť platné v jazyku, ktorým sa hovorí. Napríklad „ж“ je písmeno v ruskej abecede, ale nikdy sa nepoužíva v angličtine, a preto by sa nikdy nemalo objaviť v žiadnom anglickom zdrojovom texte.
+sc-howto-addsen-item-6 = Jazyky môžu mať svoje <validationRulesLink>vlastné overovacie pravidlá</validationRulesLink> s ďalšími požiadavkami. Ak pre jazyk neexistuje žiadny špecifický overovací súbor, používame všeobecné pravidlá angličtiny.
 sc-howto-cite-title = Ako citovať
 sc-howto-cite-item-3 = Pre voľný text, ktorý nie je dostupný online, môžete použiť akademický štýl odkazovania, napr. štýl Harvardu „Jess (2021) Moje básne s verejnou licenciou“
 sc-howto-review-title = Kontrola viet
@@ -1344,6 +1355,18 @@ sc-confirm-already-reviewed =
         [few] { $countOfReviewed } vety už boli skontrolované. Dobrá práca!
        *[other] { $countOfReviewed } viet už bolo skontrolovaných. Dobrá práca!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Žiadna veta nie je pripravená na odoslanie.
+        [one] 1 veta je pripravená na odoslanie.
+        [few] { $readyCount } vety sú pripravené na odoslanie.
+       *[other] { $readyCount } viet je pripravených na odoslanie.
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = Počet neskontrolovaných viet: { $countOfUnreviewed }. Ak chcete, môžete svoje vety pred odoslaním skontrolovať aj teraz.
 sc-confirm-button-text = Potvrdiť
 sc-confirm-uploading = Prebieha nahrávanie viet. V závislosti od počtu pridaných viet to môže trvať niekoľko minút. Prosím, nezatvárajte túto webovú stránku.
 
