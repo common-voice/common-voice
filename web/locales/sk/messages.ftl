@@ -586,6 +586,9 @@ about-playbook-how-localize-content-5 = Pozrite si naše video, ktoré vám mô�
 
 about-playbook-how-add-sentences = Ako pridám vety?
 about-playbook-how-add-sentences-content-1 = <strong>Zberač viet</strong> je nástroj na zhromažďovanie a overovanie verejných viet. Budete si <scAccountLink>potrebovať vytvoriť účet</scAccountLink>. Potom pridajte svoj jazyk do svojho <strong>profilu</strong>. Môžete <strong>pridávať</strong> vety alebo <strong>kontrolovať</strong> už pridané vety.
+about-playbook-how-add-sentences-content-2 = Aby boli vety zahrnuté do Common Voice, musia ich skontrolovať a prijať dvaja ľudia. Pokyny pre svoj jazyk vytvoríte <languageGuidelinesLink>tu</languageGuidelinesLink>. Vety musia byť pod <licenseLink>verejne dostupnou licenciou</licenseLink> a kratšie ako 15 slov. Môžete požiadať vlastníka textu, aby texty licencoval ako <waiverLink>CC0 pomocou nášho procesu zrieknutia sa práva</waiverLink> a poslať nám ho na commonvoice@mozilla.com.
+about-playbook-how-add-sentences-content-3 = Na využitie krátkych viet z Wikipédie môžete použiť <scraperLink>Extraktor viet</scraperLink>.
+about-playbook-how-add-sentences-content-4 = Vety, ktoré boli overené, sa exportujú v stredu a sú k dispozícii po ďalšom vydaní.
 
 ## How to record quality
 
@@ -645,7 +648,7 @@ glossary = Slovník
 localization = Lokalizácia
 localization-explanation = Toto je náš proces prekladania a prispôsobovania nášho obsahu pre mnohé miestne nastavenia (jazyky).
 sentence-collection = Zber viet
-sentence-collection-explanation = Zhromažďovanie textov z verejnej domény alebo písanie nových textov pre verejnú doménu.
+sentence-collection-explanation = Zhromažďovanie textov pod verejne dostupnou licenciou alebo písanie nových textov s verejne dostupnou licenciou.
 hours-recorded-explanation = Počet hodín hlasových záznamov, ktoré sme doteraz zhromaždili.
 hours-validated-explanation = Počet hodín hlasových nahrávok, ktoré boli potvrdené 2 z 3 používateľov hlasovaním „Áno“. Tento počet určuje pokrok k naplneniu projektového cieľa 10k hodín.
 sst = Prevod reči na text (STT)
@@ -783,6 +786,26 @@ other-language = Ostatné jazyky
 
 ## Request Language Pages
 
+request-language-heading = Opýtajte sa na nový jazyk
+request-language-explanation-1 = Skontrolujte, či je váš jazyk uvedený na <languagesPageLink>stránke Jazyky Common Voice</languagesPageLink>. Ak nie, vyplňte tento formulár a my vám <strong>pošleme praktický e-mail s vysvetlením, ako si nastaviť jazyk</strong>.
+request-language-explanation-2 = <strong>Dáme tiež vedieť nášmu správcovi komunity, že máte záujem</strong>, aby vám mohol poskytnúť ďalšiu podporu alebo informácie, ktoré by ste mohli potrebovať.
+request-language-form-email =
+    .label = Vaša e-mailová adresa
+request-language-form-info =
+    .label = Informácie o jazyku
+request-language-form-info-explanation = Pridajte čo najviac informácií o jazyku. Toto môže zahŕňať:
+request-language-form-info-explanation-list-1 = Názvy vášho jazyka
+request-language-form-info-explanation-list-2 = <isoCodeLink>Kódy ISO</isoCodeLink>, ak sú známe
+request-language-form-info-explanation-list-3 = Odkazy na webové stránky, ktoré nám môžu pomôcť porozumieť jazyku
+request-language-google-recaptcha-required = Ak chcete pokračovať, vyžaduje sa reCAPTCHA
+request-language-google-recaptcha-error = Vyskytol sa problém s reCAPTCHA. Prosím skúste znova.
+# Success page
+request-language-success-heading = Ďakujem! Odoslali ste požiadavku na nový jazyk
+request-language-success-list-1 =
+    Čoskoro by ste mali dostať e-mail s vysvetlením
+    krokov na pridanie vášho jazyka do Common Voice
+request-language-success-list-2 = Náš komunitný manažér vás osloví, aby vám ponúkol ďalšiu podporu a dal vám vedieť, či už existuje komunita, ktorá pracuje na vašom jazyku
+request-language-success-list-3 = Ak sa vám do niekoľkých dní neozveme, kontaktujte nás na adrese <emailLink>{ $email }</emailLink> a my sa vám ozveme!
 
 ## Languages Overview
 
