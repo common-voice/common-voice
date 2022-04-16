@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Dostávajte e-maily, ako sú upozornenia 
 email-opt-in-privacy-v2 = Rozhodnutím prijímať e-maily potvrdzujete svoj súhlas so spracovaním vašich údajov tak, ako je to popísané v <privacyLink>zásadách ochrany súkromia</privacyLink>.
 indicates-required = * označuje povinné pole
 not-available-abbreviation = N/A
+banner-error-slow-1 = Ospravedlňujeme sa, Common Voice beží pomaly. Ďakujeme za Váš záujem.
+banner-error-slow-2 = Zaznamenávame veľkú návštevnosť a momentálne problémy skúmame.
+banner-error-slow-link = Stavová stránka
+error-something-went-wrong = Ospravedlňujeme sa, niečo sa pokazilo
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -38,6 +42,7 @@ be = bieloruština
 bg = bulharčina
 bn = bengálčina
 br = bretónčina
+bs = bosniančina
 bxr = buriatčina
 ca = katalánčina
 cak = kaqchikel
@@ -66,6 +71,7 @@ fy-NL = frízština
 ga-IE = írčina
 gl = galícijčina
 gn = guarančina
+gom = goan konkani
 ha = hauština
 he = hebrejčina
 hi = hindčina
@@ -89,11 +95,14 @@ kab = kabylčina
 kbd = kabardčina
 ki = Kikujčina
 kk = kazaština
+km = khmérčina
 kmr = kurmanji kurdčina
+knn = konkani (devanagari)
 ko = kórejčina
 kpv = komi-zyriančina
 kw = kornčina
 ky = kirgizština
+lb = luxemburčina
 lg = gandčina
 lij = ligúrčina
 lt = litovčina
@@ -105,6 +114,7 @@ mhr = lúčnovýchodná marijčina
 mk = macedónčina
 ml = malajálamčina
 mn = mongolčina
+mni = meetei lon
 mos = mossi
 mr = maráthčina
 mrj = hornomarijská marijčina
@@ -127,6 +137,7 @@ pl = poľština
 ps = paštčina
 pt = portugalčina
 quc = K'iche'
+quy = quechua chanka
 rm-sursilv = rétorománčina (sursilvan)
 rm-vallader = rétorománčina (vallader)
 ro = rumunčina
@@ -139,6 +150,7 @@ scn = sicílčina
 shi = shilha
 si = sinhalčina
 sk = slovenčina
+skr = saraiki
 sl = slovinčina
 so = somálčina
 sq = albánčina
@@ -151,7 +163,10 @@ te = telugčina
 tg = tadžičtina
 th = thajčina
 ti = Tigrijčina
+tig = tigre
+tk = turkménčina
 tl = tagalčina
+tok = toki pona
 tr = turečtina
 tt = tatárčina
 tw = Twi
@@ -338,8 +353,16 @@ profile-form-native-language =
     .label = Materinský jazyk
 profile-form-additional-language =
     .label = Ďalší jazyk
+profile-form-language =
+    .label = Jazyk
+profile-form-variant =
+    .label = Ktorým variantom jazyka { $language } hovoríte?
+profile-form-variant-default-value = Nie je zvolený žiadny variant
 profile-form-accent =
     .label = Prízvuk
+profile-form-custom-accent-help-text =
+    .label = Ako by ste opísali svoj prízvuk?
+profile-form-custom-accent-placeholder-2 = Začnite písať a opíšte svoj prízvuk
 profile-form-age =
     .label = Vek
 profile-form-gender-2 =
@@ -350,6 +373,7 @@ hidden = Skrytý
 visible = Viditeľný
 native-language =
     .label = Materinský jazyk
+profile-form-add-accent = Pridať nový vlastný prízvuk "{ $inputValue }"
 profile-form-submit-save = Uložiť
 profile-form-submit-saved = Uložený
 male = Muž
@@ -383,6 +407,10 @@ skip-submission-description = Pri prispievaní bude po kliknutí na „Odoslať�
 skip-submission-note = Poznámka: Pre zmenu druhu vašich príspevkov budete stále musieť vybrať medzi hovorením a počúvaním.
 off = Vypnutá
 on = Zapnutá
+help-accent = Potrebujete pomoc s prízvukom?
+help-accent-explanation = Váš prízvuk je spôsob, akým vyslovujete slová. Môže to byť ovplyvnené tým, kde ste žili, akými inými jazykmi hovoríte a mnohými ďalšími faktormi. Tu môžete zdieľať akékoľvek informácie, ktoré považujete za relevantné.
+help-variants = Potrebujete pomoc s variantmi?
+help-variants-explanation = Varianty sú špecifickou formou jazyka – napríklad zdieľané ľuďmi žijúcimi v určitej geografii alebo komunite. Niekedy sa im hovorí dialekty.
 
 ## Profile - Email
 
@@ -393,6 +421,7 @@ gravatar_not_found = Pre vašu e-mailovú adresu nebol nájdený žiadny gravata
 file_too_large = Vybraný súbor je príliš veľký
 avatar-uploaded = Avatar bol nahraný
 max-file-size = max. { $kb } kB
+remove-avatar = Odstrániť avatar
 
 ## Profile - Email
 
@@ -476,6 +505,14 @@ how-does-it-work-text = Zhromažďujeme množstvo hlasov do veľkého otvorenéh
 
 ## How does it work section
 
+about-language-req-subtitle = Niekto požiada o pridanie jazyka.
+about-localization-title = Lokalizácia webových stránok
+about-localization-subtitle = Text webovej stránky je preložený do daného jazyka.
+about-sentence-collection-title = Zber viet
+about-sentence-collection-subtitle = Zhromažďujú sa vety, aby ich ľudia čítali nahlas.
+about-new-lang-title = Spustenie nového jazyka
+about-new-lang-subtitle = V danom jazyku spúšťame stránku Common Voice.
+about-voice-contrib-title = Hlasový príspevok
 about-subscribe-text = Chcete zostať v kontakte so službou Common Voice?
 about-speak = Čítanie
 about-speak-text = Prispievatelia zaznamenávajú rečové nahrávky čítaním zo zásoby darovaných viet.
@@ -508,6 +545,7 @@ about-nav-why-common-voice = Prečo?
 about-nav-how-it-works = Ako?
 about-nav-partners = Partneri
 about-nav-get-involved = Zapojte sa
+about-nav-how-it-works-2 = Ako funguje Common Voice?
 about-nav-playbook = Zistite, ako sa zúčastniť
 
 ## Community Playbook Content
