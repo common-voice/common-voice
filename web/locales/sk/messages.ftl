@@ -569,6 +569,8 @@ about-playbook-what-is-language-content-3 = Niektoré jazyky majú obrovské roz
 
 about-playbook-how-add-language = Ako pridám jazyk?
 about-playbook-how-add-language-content-1 = Najprv skontrolujte, či váš jazyk <languageLink>už existuje</languageLink>. Ak nie, musíte <strong>preložiť stránku a zozbierať vety</strong>.
+about-playbook-how-add-language-content-2 = <strong>Ak chcete preložiť stránku</strong> – <translateVideo>nastavte</translateVideo> si <pontoonLink>Pontoon</pontoonLink>. Pontoon má veľa jazykov, ale ak nemá váš, môžete si ho <pontoonRequestLink>vyžiadať</pontoonRequestLink>. Potom požiadajte <repoLink>cez GitHub</repoLink> o sprístupnenie projektu Common Voice pre daný jazyk. Ďalšie informácie o <localizationFragment>preklade stránok</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Na zozbieranie viet</strong> – <scVideo>nastavte</scVideo> si <scLink>Zberač viet</scLink>.
 
 ## How does localization work
 
@@ -600,12 +602,27 @@ about-playbook-how-grow-language-content-8 = <strong>Buďte kreatívni!</strong>
 ## How to validate
 
 about-playbook-how-validate = Ako zistím, či mám schváliť hlasový klip?
+about-playbook-how-validate-content-1 = Ak ste ich <strong>počuli</strong> a <strong>rozumeli im</strong>, zvyčajne je <strong>najlepšie ich schváliť</strong>.
+about-playbook-how-validate-content-2 = <strong>Neodmietajte klipy, v ktorých má reproduktor „prízvuk“ odlišný od vášho</strong> – je to dôležité, aby rozpoznávanie hlasu fungovalo pre každého lepšie.
+about-playbook-how-validate-content-3 = Ak si myslíte, že kvôli výslovnosti <strong>nie je možné rozumieť</strong> alebo je v pozadí <strong>veľa hluku</strong> alebo <strong>hovoria aj iní ľudia</strong>, potom by ste mali klip odmietnuť. <accuracyLink>Ďalšie informáciw nájdete v našich kritériách presnosti</accuracyLink>.
+about-playbook-how-validate-content-4 = Ak klip odmietnu 2 ľudia, je tento sprístupnený v inej podskupine datasetu.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Ako získam prístup k datasetu a ako ho môžem používať?
+about-playbook-how-access-dataset-content-1 = Môžete prejsť na <datasetsPage>stránku s datasetmi</datasetsPage>, vybrať si požadovanú verziu a jazyk(y) a stiahnuť si ju! Súbory majú <metadataLink>priradené metadáta</metadataLink>, ako sú demografické informácie a overovacie údaje. Na stiahnutie datasetu budete musieť zadať e-mailovú adresu.
+about-playbook-how-access-dataset-content-2 = Ak hľadáte nástroje na vytváranie modelov ASR, môžete sa spojiť s ostatnými ľuďmi v komunite <discourseLink>cez Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Ako sa prijímajú rozhodnutia o projekte?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice je tvorená rôznorodou komunitou aktivistov, lingvistov, dátových vedcov, akademikov a softvérových inžinierov z celého sveta. Projekt riadi Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Naše riadenie je založené na týchto pilieroch:
+about-playbook-how-project-governance-content-3 = Súkromie, bezpečnosť a transparentnosť.
+about-playbook-how-project-governance-content-4 = Účasť komunity a rozhodovanie.
+about-playbook-how-project-governance-content-5 = Hodnota a uznanie.
+about-playbook-how-project-governance-content-6 = Vzájomná zodpovednosť.
+about-playbook-how-project-governance-content-7 = <governanceLink>Prečítajte si viac o tom, ako sa riadime</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Umelá inteligencia
 mycroft-description =
