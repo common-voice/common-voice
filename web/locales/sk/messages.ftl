@@ -1211,18 +1211,28 @@ sc-logout-button = Odhlásiť sa
 ## HOME
 
 sc-home-title = Vitajte v zberači viet pre Common Voice
+sc-home-review-title = Kontrola viet
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-review-title = Kontrola viet
+sc-howto-review-subtitle = Uistite sa, že veta spĺňa nasledujúce kritériá:
+sc-howto-review-criteria-1 = Veta musí byť napísaná správne.
+sc-howto-review-criteria-2 = Veta musí byť gramaticky správna.
+sc-howto-review-criteria-3 = Veta musí byť vysloviteľná.
 
 ## MY SENTENCES
 
 
 ## REJECTED
 
+sc-rejected-title = Zamietnuté vety
+sc-rejected-loading = Načítavajú sa zamietnuté vety…
+sc-rejected-err-fetching = Chyba pri načítavaní zamietnutých viet. Prosím skúste to znova.
+sc-rejected-none-found = Nenašli sa žiadne zamietnuté vety!
 
 ## STATS
 
@@ -1260,6 +1270,15 @@ sc-add-lang-process-notice = Ak váš jazyk tu nie je uvedený, môžete si ho v
 
 sc-lang-info-title-total = Celkovo
 sc-lang-info-title-personal = Osobné
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Žiadne zamietnuté vety.
+        [one] { $rejectedSentences } zamietnutá veta.
+        [few] { $rejectedSentences } zamietnuté vety.
+       *[other] { $rejectedSentences } zamietnutých viet.
+    }
 
 ## LOGIN
 
@@ -1295,11 +1314,45 @@ sc-criteria-item-6 = Ak vám dochádzajú vety na kontrolu, pomôžte nám zhrom
 ## REVIEW
 
 sc-review-lang-not-selected = Nevybrali ste žiadne jazyky. Ak chcete vybrať jazyky, prejdite na svoj <profileLink>Profil</profileLink>.
+sc-review-title = Kontrola viet
+sc-review-select-language = Vyberte jazyk na kontrolu viet.
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Zdroj: { $sentenceSource }
+sc-review-form-button-reject = Odmietnuť
+sc-review-form-button-skip = Preskočiť
+sc-review-form-button-approve = Schváliť
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Môžete použiť aj klávesové skratky: { sc-review-form-button-approve-shortcut } na schválenie, { sc-review-form-button-reject-shortcut } na odmietnutie, { sc-review-form-button-skip-shortcut } na preskočenie
+sc-review-form-button-submit =
+    .submitText = Dokončiť kontrolu
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Neboli skontrolované žiadne vety.
+        [one] Bola skontrolovaná 1 veta. Ďakujeme.
+        [few] Boli skontrolované { $sentences } vety. Ďakujeme.
+       *[other] Bolo skontrolovaných { $sentences } viet. Ďakujeme.
+    }
+sc-review-form-review-failure = Kontrolu sa nepodarilo uložiť. Skúste neskôr prosím.
+sc-review-link = Kontrola
 
 ## SETTINGS
 
 sc-settings-title = Nastavenia
 sc-settings-ui-language = Jazyk používateľského rozhrania
+sc-settings-reset-skipped = Obnoviť vynechané vety
+sc-settings-skipped-decription = Predtým ste pri kontrole preskakovali vety. Obnovením preskočených viet sa znova zobrazia všetky preskočené vety. Toto je nezávislé od jazyka.
+sc-settings-show-all-button = Znova zobraziť všetky preskočené vety
+sc-settings-failed = Nastavenia sa nepodarilo zmeniť. Prosím skúste znova.
+# VALIDATION
+sc-validation-number-of-words = Veta musí obsahovať 1 až 14 slov
 sc-validation-no-numbers = Veta by nemala obsahovať čísla
 sc-validation-no-symbols = Veta by nemala obsahovať symboly
 sc-validation-no-abbreviations = Veta by nemala obsahovať skratky
