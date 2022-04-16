@@ -600,6 +600,7 @@ about-playbook-how-grow-language-content-8 = <strong>Yaratıcı olun!</strong> D
 about-playbook-how-validate = Bir ses kaydını onaylayıp onaylamayacağıma nasıl karar verebilirim?
 about-playbook-how-validate-content-1 = <strong>Kaydı duyabiliyorsanız</strong> ve <strong>anlayabiliyorsanız</strong> genellikle <strong>onaylamak en iyisidir</strong>.
 about-playbook-how-validate-content-2 = <strong>Konuşmacının sizinkinden farklı aksana sahip olduğu kayıtları reddetmeyin</strong>. Bu kayıtlar ses tanımanın herkes için daha iyi çalışması için önemlidir.
+about-playbook-how-validate-content-3 = Telaffuzun kaydı <strong>anlamayı imkansız kıldığını</strong> düşünüyorsanız veya <strong>çok fazla arka plan gürültüsü</strong> varsa veya <strong>başka insanların da konuştuğunu</strong> duyuyorsanız kaydı reddetmelisiniz. <accuracyLink>Doğruluk kriterlerimizde daha fazla bilgi görün</accuracyLink>.
 about-playbook-how-validate-content-4 = Bir kayıt 2 kişi tarafından reddedilirse veri kümesinin farklı bir alt kümesinde yayınlanır.
 
 ## How to access dataset
@@ -781,6 +782,7 @@ request-language-form-email =
     .label = E-posta adresiniz
 request-language-form-info =
     .label = Dil hakkında bilgi
+request-language-form-info-explanation = Dil hakkında olabildiğince fazla bilgi ekleyin. Şunları ekleyebilirsiniz:
 request-language-form-info-explanation-list-1 = Dilinizin adları
 request-language-form-info-explanation-list-2 = biliniyorsa <isoCodeLink>ISO Kodları</isoCodeLink>
 request-language-form-info-explanation-list-3 = Dili anlamamıza yardımcı olabilecek web sitelerine bağlantılar
@@ -791,6 +793,7 @@ request-language-success-heading = Teşekkürler! Yeni bir dil talebi gönderdin
 request-language-success-list-1 =
     Kısa süre içinde dilinizi Common Voice'a ekleme
     adımlarını açıklayan bir e-posta alacaksınız
+request-language-error = Bu talebi almamış olabiliriz. Size dönebilmemiz için lütfen <emailLink>{ $email }</emailLink> üzerinden bize e-posta gönderin.
 
 ## Languages Overview
 
