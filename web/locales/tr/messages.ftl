@@ -793,6 +793,7 @@ request-language-success-heading = Teşekkürler! Yeni bir dil talebi gönderdin
 request-language-success-list-1 =
     Kısa süre içinde dilinizi Common Voice'a ekleme
     adımlarını açıklayan bir e-posta alacaksınız
+request-language-success-list-3 = Birkaç gün içinde bizden haber alamazsanız size dönüş yapmamız için <emailLink>{ $email }</emailLink> adresinden bize ulaşabilirsiniz.
 request-language-error = Bu talebi almamış olabiliriz. Size dönebilmemiz için lütfen <emailLink>{ $email }</emailLink> üzerinden bize e-posta gönderin.
 
 ## Languages Overview
