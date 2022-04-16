@@ -9,7 +9,7 @@ email-input =
 submit-form-action = Odoslať
 loading = Načítava sa…
 email-opt-in-info = Chcem dostávať e-maily, ako sú upozornenia na ciele, môj pokrok a novinky o službe Common Voice.
-email-opt-in-info-title = Pripojte so do emailovej skupiny Common Voice
+email-opt-in-info-title = Pripojte so do e-mailovej skupiny Common Voice
 email-opt-in-info-sub-with-challenge = Dostávajte e-maily, ako sú upozornenia na ciele či výzvy, informácie o pokroku a novinky o službe Common Voice.
 email-opt-in-privacy-v2 = Rozhodnutím prijímať e-maily potvrdzujete svoj súhlas so spracovaním vašich údajov tak, ako je to popísané v <privacyLink>zásadách ochrany súkromia</privacyLink>.
 indicates-required = * označuje povinné pole
@@ -548,6 +548,8 @@ about-get-involved-text-2 =
     na <matrixLink>Matrixe</matrixLink>.
 about-stay-in-touch = Ako zostanem v kontakte?
 about-stay-in-touch-button = Zaregistrujte sa
+about-stay-in-touch-text-1 = <emailFragment>Zaregistrujte sa</emailFragment> do nášho magazínu a zistite, ako sa môžete podieľať na kampaniach, udalostiach a spoločných návrhoch funkcií v Common Voice.
+about-stay-in-touch-text-2 = Môžete sa stretnúť s ostatnými v jazykových komunitách Mozilly, ak sa pripojíte k diskusiám na <discourseLink>Discourse</discourseLink> alebo na <matrixLink>Matrixe</matrixLink>, kde získate rýchlu radu.
 about-nav-why-common-voice = Prečo?
 about-nav-how-it-works = Ako?
 about-nav-partners = Partneri
@@ -558,9 +560,15 @@ about-nav-playbook = Zistite, ako sa zúčastniť
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Čo je to jazyk na Common Voice?
+about-playbook-what-is-language-content-1 = Existuje mnoho spôsobov, ako premýšľať o jazyku. Na účely modelov rozpoznávania reči Common Voice navrhuje zamerať sa na „vzájomnú zrozumiteľnosť“ alebo „dokážu si ľudia hovoriaci týmto jazykom väčšinou porozumieť, ak sa o to pokúsia?“
+about-playbook-what-is-language-content-2 = Chceme, aby rečové modely lepšie porozumeli rozmanitej škále rečníkov. Aby sa to stalo, musí súbor hlasových údajov reprezentovať veľa rôznych ľudí.
+about-playbook-what-is-language-content-3 = Niektoré jazyky majú obrovské rozdiely v gramatike, slovnej zásobe a výslovnosti. Z tohto dôvodu v roku 2022 <ctaLink>predstavujeme „Varianty“</ctaLink>. Komunitám to dáva spôsob, ako rozlíšiť svoje jazyky v rámci väčšieho súboru údajov.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Ako pridám jazyk?
+about-playbook-how-add-language-content-1 = Najprv skontrolujte, či váš jazyk <languageLink>už existuje</languageLink>. Ak nie, musíte <strong>preložiť stránku a zozbierať vety</strong>.
 
 ## How does localization work
 
@@ -773,7 +781,7 @@ contribute-more =
         [few] Ste pripravení urobiť ešte { $count } ďalšie?
        *[other] Ste pripravení urobiť ešte { $count } ďalších?
     }
-record-cta = Začnite s nahrávaním
+record-cta = Začnite nahrávať
 record-platform-not-supported = Ospravedlňujeme sa, no vaša platforma zatiaľ nie je podporovaná.
 record-platform-not-supported-desktop = Na počítačoch môžete prispieť stiahnutím...
 record-platform-not-supported-ios-non-safari = V systéme iOS použite pre nahrávanie prehliadač Safari…
@@ -800,7 +808,7 @@ record-abort-text = Ak teraz odídete, stratíte svoj pokrok
 record-abort-submit = Odoslať nahrávky
 record-abort-continue = Dokončiť nahrávanie
 record-abort-delete = Zavrieť a odstrániť nahrávky
-listen-instruction = { $actionType } na <playIcon></playIcon>. Bola veta v poriadku?
+listen-instruction = { $actionType } na <playIcon></playIcon> Bola veta v poriadku?
 listen-again-instruction = Skvelá práca! <playIcon></playIcon> Keď budete pripravení, spustite ďalšiu nahrávku
 listen-3rd-time-instruction = 2 už sú za vami, pokračujte v dobrej práci!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Posledná nahrávka!
@@ -1114,6 +1122,7 @@ see-less = <chevron> </chevron> Zobraziť menej
 
 ## HEADER/FOOTER
 
+sc-header-profile = Profil
 
 ## HOME
 
