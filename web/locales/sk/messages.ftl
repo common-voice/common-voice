@@ -1220,7 +1220,9 @@ sc-home-review-title = Kontrola viet
 
 ## HOW-TO
 
+sc-howto-title = Ako na to
 sc-howto-addsen-item-1 = Všetky vety, ktoré odošlete, musia byť <wikipediaLink>dostupné pod verejnou licenciou (CC-0)</wikipediaLink>. Aby sme podporili zahrnutie diela, ktoré nie je pod verejnou licenciou, vytvorili sme <cc0WaiverLink>šablónu zmluvy o príspevkoch</cc0WaiverLink> pre diela, pri ktorých by vlastník autorských práv chcel prispieť materiálom do Common Voice.
+sc-howto-cite-title = Ako citovať
 sc-howto-cite-item-3 = Pre voľný text, ktorý nie je dostupný online, môžete použiť akademický štýl odkazovania, napr. štýl Harvardu „Jess (2021) Moje básne s verejnou licenciou“
 sc-howto-review-title = Kontrola viet
 sc-howto-review-subtitle = Uistite sa, že veta spĺňa nasledujúce kritériá:
@@ -1274,6 +1276,8 @@ sc-submit-err-select-lang = Prosím zvoľte jazyk.
 sc-submit-err-add-sentences = Prosím, pridajte vety.
 sc-submit-err-add-source = Prosím pridajte zdroj.
 sc-submit-err-confirm-pd = Potvrďte, že tieto vety sú dostupné pod verejnou licenciou.
+sc-submit-prompt =
+    .message = Vety neboli odoslané, naozaj chcete odísť?
 sc-submit-title = Pridanie viet
 sc-submit-select-language =
     .labelText = Zvoľte jazyk
@@ -1295,10 +1299,51 @@ sc-add-lang-could-not-add = Jazyk sa nepodarilo pridať
 sc-add-lang-sec-label = Pridajte jazyk, do ktorého chcete prispieť
 sc-add-lang-sec-button = Pridať jazyk
 sc-add-err-unexpected = Zo servera sa vrátila neočakávaná odpoveď
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Vety boli odoslané. { $duplicates } viet bolo odmietnutých ako duplikáty.
+        [one] Vety boli odoslané. { $duplicates } veta bola odmietnutá ako duplikát.
+        [few] Vety boli odoslané. { $duplicates } vety boli odmietnuté ako duplikáty.
+       *[other] Vety boli odoslané. { $duplicates } viet bolo odmietnutých ako duplikáty.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Žiadna veta nezlyhala
+        [one] 1 veta zlyhala
+        [few] { $sentences } vety zlyhali
+       *[other] { $sentences } viet zlyhalo
+    }
+sc-add-err-submission = Chyba pri odoslaní
 sc-add-lang-process-notice = Ak váš jazyk tu nie je uvedený, môžete si ho vyžiadať prostredníctvom <languageProcessLink>tohto procesu</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Vety neboli odoslané, naozaj chcete odísť?
+sc-confirm-sentences-title = Potvrdenie nových viet
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Počet nájdených viet: 0.
+        [one] Počet nájdených viet: 1.
+        [few] Počet nájdených viet: { $countOfSentences }.
+       *[other] Počet nájdených viet: { $countOfSentences }.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = Počet vami zamietnutých viet: { $countOfInvalidated }
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Zatiaľ nebola skontrolovaná žiadna veta.
+        [one] { $countOfReviewed } veta už bola skontrolovaná. Dobrá práca!
+        [few] { $countOfReviewed } vety už boli skontrolované. Dobrá práca!
+       *[other] { $countOfReviewed } viet už bolo skontrolovaných. Dobrá práca!
+    }
 sc-confirm-button-text = Potvrdiť
 sc-confirm-uploading = Prebieha nahrávanie viet. V závislosti od počtu pridaných viet to môže trvať niekoľko minút. Prosím, nezatvárajte túto webovú stránku.
 
@@ -1314,6 +1359,24 @@ sc-lang-info-total =
         [one] Celkovo 1 veta.
         [few] Celkovo { $totalSentences } vety.
        *[other] Celkovo { $totalSentences } viet.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Žiadne vety v procese kontroly.
+        [one] 1 veta v procese kontroly.
+        [few] { $totalInReview } vety v procese kontroly.
+       *[other] { $totalInReview } viet v procese kontroly.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Na kontrolu vám nezostáva žiadna veta.
+        [one] Na kontrolu vám zostáva 1 veta.
+        [few] Na kontrolu vám zostávajú { $unreviewedSentencesByYou } vety.
+       *[other] Na kontrolu vám zostáva { $unreviewedSentencesByYou } viet.
     }
 sc-lang-info-review-now = <reviewLink>Skontrolovať teraz!</reviewLink>
 sc-lang-info-add-more = <addLink>Pridajte teraz ďalšie vety!</addLink>
