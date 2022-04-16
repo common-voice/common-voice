@@ -1211,6 +1211,8 @@ sc-logout-button = Odhlásiť sa
 ## HOME
 
 sc-home-title = Vitajte v zberači viet pre Common Voice
+sc-home-intro = Zberač viet je súčasťou <commonVoiceLink>Common Voice</commonVoiceLink>. Umožňuje prispievateľom zbierať a overovať vety vytvorené komunitou. Tento nástroj môžete použiť aj na import a vyčistenie malého až stredne veľkého korpusu dostupného pod verejnou licenciou, ktorý ste našli alebo zhromaždili. Všetky vety musia byť dostupné pod verejnou licenciou. Schválené vety sa exportujú každý týždeň do úložiska Common Voice a pri každom novom nasadení sú zverejnené na webovej stránke Common Voice.
+sc-home-collect-text = Pomôžte nám písaním alebo zbieraním viet dostupných pod verejnou licenciou.
 sc-home-review-title = Kontrola viet
 
 ## GENERAL
@@ -1218,6 +1220,8 @@ sc-home-review-title = Kontrola viet
 
 ## HOW-TO
 
+sc-howto-addsen-item-1 = Všetky vety, ktoré odošlete, musia byť <wikipediaLink>dostupné pod verejnou licenciou (CC-0)</wikipediaLink>. Aby sme podporili zahrnutie diela, ktoré nie je pod verejnou licenciou, vytvorili sme <cc0WaiverLink>šablónu zmluvy o príspevkoch</cc0WaiverLink> pre diela, pri ktorých by vlastník autorských práv chcel prispieť materiálom do Common Voice.
+sc-howto-cite-item-3 = Pre voľný text, ktorý nie je dostupný online, môžete použiť akademický štýl odkazovania, napr. štýl Harvardu „Jess (2021) Moje básne s verejnou licenciou“
 sc-howto-review-title = Kontrola viet
 sc-howto-review-subtitle = Uistite sa, že veta spĺňa nasledujúce kritériá:
 sc-howto-review-criteria-1 = Veta musí byť napísaná správne.
@@ -1227,6 +1231,8 @@ sc-howto-review-criteria-4 = Ak veta spĺňa kritériá, kliknite na tlačidlo "
 sc-howto-review-criteria-5 = Ak veta nespĺňa vyššie uvedené kritériá, kliknite na tlačidlo "Odmietnuť". Ak si vetou nie ste istí, môžete ju tiež preskočiť a prejsť na ďalšiu.
 sc-howto-review-criteria-6 = Ak vám dochádzajú vety na kontrolu, pomôžte nám zhromaždiť viac viet!
 sc-howto-findpd-title = Hľadanie existujúcich viet dostupných pod verejnou licenciou
+sc-howto-findpd-text-2 = Nezabudnite, že na zverejnenie týchto viet potrebujeme povolenie, takže sa vždy uistite, že text je <wikipediaLink>dostupný pod verejnou licenciou</wikipediaLink>. Ak to nie je výslovne uvedené, obráťte sa na osobu, ktorej daný text patrí, a opýtajte sa, či svoj text nechcú previesť pod verejnú licenciu. Ak áno, pomôžte im prejsť procesom <cc0WaiverLink>Dohody o príspevkoch</cc0WaiverLink>. Ak nechcú prispieť textom, potom tento text nemôžete použiť.
+sc-howto-findpd-partner-1 = Existuje veľa verejných organizácií, ktoré by mohli chcieť spolupracovať a už majú veľa textov, ktoré môžu darovať pod verejnou licenciou. Oslovte miestne univerzity, vlády a organizácie s otvoreným zdrojom, porozprávajte sa o projekte a požiadajte ich o pomoc.
 
 ## MY SENTENCES
 
@@ -1271,13 +1277,13 @@ sc-submit-err-confirm-pd = Potvrďte, že tieto vety sú dostupné pod verejnou 
 sc-submit-title = Pridanie viet
 sc-submit-select-language =
     .labelText = Zvoľte jazyk
-sc-submit-add-sentences = Pridajte vety <wikipediaLink>pod verejne dostupnou licenciou</wikipediaLink>
+sc-submit-add-sentences = Pridajte vety <wikipediaLink>pod verejnou licenciou</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Jedna veta na riadok
-sc-submit-from-where = Odkiaľ pochádzajú tieto vety <wikipediaLink>pod verejne dostupnou licenciou</wikipediaLink>?
+sc-submit-from-where = Odkiaľ pochádzajú tieto vety <wikipediaLink>dostupné pod verejnou licenciou</wikipediaLink>?
 sc-submit-ph-read-how-to =
     .placeholder = Ak si nie ste istí, prečítajte si náš návod
-sc-submit-confirm = Potvrdzujem, že tieto vety sú dostupné <wikipediaLink>pod verejne dostupnou licenciou</wikipediaLink> a mám povolenie na ich nahratie.
+sc-submit-confirm = Potvrdzujem, že tieto vety sú <wikipediaLink>dostupné pod verejnou licenciou</wikipediaLink> a mám povolenie na ich nahratie.
 sc-submit-button =
     .submitText = Odoslať
 sc-submit-filtered = Filtrované vety kvôli zlyhaniu požiadaviek (odošlite opravené verzie ako nové vety):
@@ -1293,11 +1299,33 @@ sc-add-lang-process-notice = Ak váš jazyk tu nie je uvedený, môžete si ho v
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Potvrdiť
+sc-confirm-uploading = Prebieha nahrávanie viet. V závislosti od počtu pridaných viet to môže trvať niekoľko minút. Prosím, nezatvárajte túto webovú stránku.
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Celkovo
 sc-lang-info-title-personal = Osobné
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Celkovo 0 viet.
+        [one] Celkovo 1 veta.
+        [few] Celkovo { $totalSentences } vety.
+       *[other] Celkovo { $totalSentences } viet.
+    }
+sc-lang-info-review-now = <reviewLink>Skontrolovať teraz!</reviewLink>
+sc-lang-info-add-more = <addLink>Pridajte teraz ďalšie vety!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Žiadne skontrolované vety.
+        [one] 1 skontrolovaná veta.
+        [few] { $validatedSentences } skontrolované vety.
+       *[other] { $validatedSentences } skontrolovaných viet.
+    }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
@@ -1343,7 +1371,12 @@ sc-criteria-item-6 = Ak vám dochádzajú vety na kontrolu, pomôžte nám zhrom
 
 sc-review-lang-not-selected = Nevybrali ste žiadne jazyky. Ak chcete vybrať jazyky, prejdite na svoj <profileLink>Profil</profileLink>.
 sc-review-title = Kontrola viet
+sc-review-loading = Načítavajú sa vety…
 sc-review-select-language = Vyberte jazyk na kontrolu viet.
+sc-review-no-sentences = Žiadne vety na kontrolu. <addLink>Pridajte teraz ďalšie vety!</addLink>
+sc-review-form-prompt =
+    .message = Skontrolované vety neboli odoslané, ste si istý?
+sc-review-form-usage = Potiahnutím doprava vetu schválite. Potiahnutím doľava ho odmietnete. Potiahnutím nahor ho preskočíte. <strong>Nezabudnite odoslať svoju kontrolu!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Zdroj: { $sentenceSource }
