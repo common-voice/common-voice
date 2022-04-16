@@ -1233,7 +1233,11 @@ sc-howto-addsen-item-3 = Skratky a akronymy. V zdrojovom texte by ste sa mali vy
 sc-howto-addsen-item-4 = Interpunkcia. Špeciálne symboly a interpunkčné znamienka by sa mali uvádzať len vtedy, keď je to absolútne nevyhnutné. Napríklad v anglických slovách ako „don't“ a „were“ je zahrnutý apostrof a mal by byť zahrnutý v zdrojovom texte, ale je nepravdepodobné, že budete niekedy potrebovať špeciálny symbol ako „@“ alebo „#“.
 sc-howto-addsen-item-5 = Cudzie znaky. Písmená musia byť platné v jazyku, ktorým sa hovorí. Napríklad „ж“ je písmeno v ruskej abecede, ale nikdy sa nepoužíva v angličtine, a preto by sa nikdy nemalo objaviť v žiadnom anglickom zdrojovom texte.
 sc-howto-addsen-item-6 = Jazyky môžu mať svoje <validationRulesLink>vlastné overovacie pravidlá</validationRulesLink> s ďalšími požiadavkami. Ak pre jazyk neexistuje žiadny špecifický overovací súbor, používame všeobecné pravidlá angličtiny.
+sc-howto-addsen-post-1 = Uprednostňujeme prirodzené/konverzačné vety. Aj keď sú fonetická rôznorodosť a rôzne slová vo vetách dôležité, snažíme sa, aby nahrávanie viet bolo čo najzábavnejšie. Preto by bolo skvelé, keby ste sa pokúsili, aby boli vaše vety čo najprirodzenejšie/príťažlivejšie.
 sc-howto-cite-title = Ako citovať
+sc-howto-cite-pre-1 = Je dôležité, aby ste uviedli, kde ste našli verejnú licenciu, aby ste sa vyhli plagiátorstvu a aby ste mohli riešiť prípadné <copyrightIssuesLink>problémy s autorskými právami</copyrightIssuesLink>. Tu je niekoľko spôsobov, ako môžete citovať prácu.
+sc-howto-cite-item-1 = Môžete zahrnúť webovú stránku, napr. „Common Voice – https://commonvoice.mozilla.org/“
+sc-howto-cite-item-2 = Môžete použiť akademický štýl odkazovania, napr. Harvardský štýl „Mozilla (2021) Common Voice. Dostupné na https://commonvoice.mozilla.org/ (Prístup: 15. septembra 2021)“
 sc-howto-cite-item-3 = Pre voľný text, ktorý nie je dostupný online, môžete použiť akademický štýl odkazovania, napr. štýl Harvardu „Jess (2021) Moje básne s verejnou licenciou“
 sc-howto-review-title = Kontrola viet
 sc-howto-review-subtitle = Uistite sa, že veta spĺňa nasledujúce kritériá:
@@ -1244,8 +1248,15 @@ sc-howto-review-criteria-4 = Ak veta spĺňa kritériá, kliknite na tlačidlo "
 sc-howto-review-criteria-5 = Ak veta nespĺňa vyššie uvedené kritériá, kliknite na tlačidlo "Odmietnuť". Ak si vetou nie ste istí, môžete ju tiež preskočiť a prejsť na ďalšiu.
 sc-howto-review-criteria-6 = Ak vám dochádzajú vety na kontrolu, pomôžte nám zhromaždiť viac viet!
 sc-howto-findpd-title = Hľadanie existujúcich viet dostupných pod verejnou licenciou
+sc-howto-findpd-subtitle = Vyhľadajte ich na internete
 sc-howto-findpd-text-2 = Nezabudnite, že na zverejnenie týchto viet potrebujeme povolenie, takže sa vždy uistite, že text je <wikipediaLink>dostupný pod verejnou licenciou</wikipediaLink>. Ak to nie je výslovne uvedené, obráťte sa na osobu, ktorej daný text patrí, a opýtajte sa, či svoj text nechcú previesť pod verejnú licenciu. Ak áno, pomôžte im prejsť procesom <cc0WaiverLink>Dohody o príspevkoch</cc0WaiverLink>. Ak nechcú prispieť textom, potom tento text nemôžete použiť.
+sc-howto-findpd-tips = Tu je niekoľko tipov, ako nájsť vety:
+sc-howto-findpd-tips-1 = Najlepšie zdroje, ktoré môžete hľadať, sú podcasty, prepisy, filmové scenáre a čokoľvek, čo môže obsahovať každodenné konverzácie.
+sc-howto-findpd-tips-2 = Vládne rokovania, knihy a články sú tiež skvelé, ale keďže text má tendenciu byť o niečo formálnejší, sú menej prioritné.
+sc-howto-findpd-tips-3 = Bohužiaľ, zatiaľ nemôžeme mať články z Wikimedia. Takže nekopírujte texty odtiaľ.
+sc-howto-findpd-subtitle-2 = Spolupracujte s miestnymi organizáciami alebo jednotlivcami
 sc-howto-findpd-partner-1 = Existuje veľa verejných organizácií, ktoré by mohli chcieť spolupracovať a už majú veľa textov, ktoré môžu darovať pod verejnou licenciou. Oslovte miestne univerzity, vlády a organizácie s otvoreným zdrojom, porozprávajte sa o projekte a požiadajte ich o pomoc.
+sc-howto-findpd-partner-2 = Pomôcť môžu aj odborní lingvisti, pokúsiť sa osloviť miestne lingvistické univerzity (učiteľov aj študentov) a zistiť, či môžu pomôcť zhromaždiť rôznorodý súbor zvukovo rôznorodých viet vo vašom jazyku.
 
 ## MY SENTENCES
 
