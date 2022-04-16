@@ -578,9 +578,18 @@ about-playbook-how-add-language-content-1 = Najprv skontrolujte, či váš jazyk
 
 ## How to record quality
 
+about-playbook-how-record-quality = Ako nahrám hlasový klip vo vysokej kvalite?
+about-playbook-how-record-content-1 = Hovorte svojim normálnym hlasom! Spôsob, akým hovoríte, je tu vítaný – chceme váš prízvuk taký, aký je, a chceme vašu obvyklú hlasitosť, štýl a intonáciu.
+about-playbook-how-record-content-2 = Vyhnite sa príliš veľkému hluku v pozadí – malo by vás dobre počuť.
+about-playbook-how-record-content-3 = Pozorne si prečítajte vetu – nevynechávajte, nemeňte ani nepridávajte slová.
+about-playbook-how-record-content-4 = Uistite sa, že platforma nahráva skôr, ako začnete hovoriť, a že sa zastaví až po dokončení.
+about-playbook-how-record-content-5 = <accuracyLink>Ďalšie informácie o kritériách presnosti.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Ako môžeme efektívne rozvíjať jazyk na Common Voice?
+about-playbook-how-grow-language-content-1 = Vytváranie príležitostí pre rôznorodých ľudí prispievať do Common Voice zaisťuje, že dataset slúži čo najväčšiemu počtu ľudí. Vytvorili sme zdroje a šablóny, ktoré môžete použiť.
+about-playbook-how-grow-language-content-2 = Udalosti
 
 ## How to validate
 
