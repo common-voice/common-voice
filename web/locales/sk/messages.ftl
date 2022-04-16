@@ -571,12 +571,21 @@ about-playbook-how-add-language = Ako pridám jazyk?
 about-playbook-how-add-language-content-1 = Najprv skontrolujte, či váš jazyk <languageLink>už existuje</languageLink>. Ak nie, musíte <strong>preložiť stránku a zozbierať vety</strong>.
 about-playbook-how-add-language-content-2 = <strong>Ak chcete preložiť stránku</strong> – <translateVideo>nastavte</translateVideo> si <pontoonLink>Pontoon</pontoonLink>. Pontoon má veľa jazykov, ale ak nemá váš, môžete si ho <pontoonRequestLink>vyžiadať</pontoonRequestLink>. Potom požiadajte <repoLink>cez GitHub</repoLink> o sprístupnenie projektu Common Voice pre daný jazyk. Ďalšie informácie o <localizationFragment>preklade stránok</localizationFragment>.
 about-playbook-how-add-language-content-3 = <strong>Na zozbieranie viet</strong> – <scVideo>nastavte</scVideo> si <scLink>Zberač viet</scLink>.
+about-playbook-how-add-language-content-4 = <scLinkAdd>Malé počty viet</scLinkAdd> môžete pridať tu alebo môžete vykonať <bulkImportDocsLink>hromadné importy</bulkImportDocsLink> prostredníctvom požiadavky cez Github. Pamätajte, že vety musia byť <licenseLink>CC0 (alebo verejne dostupné)</licenseLink>, alebo môžete napísať svoje vlastné. Ďalšie informácie o <scFragment>zbere viet</scFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Ako funguje lokalizácia stránok?
+about-playbook-how-localize-content-1 = Preklad stránky Common Voice prebieha na <strong>Pontone</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Vytvorte si účet</pontoonAccountLink>, ak ho nemáte. Potom vyberte svoj jazykový <strong>‚tím‘</strong> a potom vyberte projekt, <pontoonCvLink>Common Voice</pontoonCvLink>. Tu nájdete súbory na preklad. Kliknite na jeden, potom sa zobrazia slová v angličtine a pole na ich preklad.
+about-playbook-how-localize-content-3 = Preklad je z angličtiny, ale <strong>návrhy</strong> môžete vidieť aj v iných jazykoch. Kliknite na ikonu <strong>Profile</strong>, potom na odkaz <strong>Settings</strong> a pridajte si jazyky, ktorými hovoríte. V pravom dolnom rohu bude zoznam prekladov s názvom <strong>Locales</strong>. Preklady sa na stránke zobrazia po jednom dni.
+about-playbook-how-localize-content-4 = Stránka je pripravená na spustenie, keď dosiahne aspoň 75% preložených textov.
+about-playbook-how-localize-content-5 = Pozrite si naše video, ktoré vám môže pomôcť
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Ako pridám vety?
+about-playbook-how-add-sentences-content-1 = <strong>Zberač viet</strong> je nástroj na zhromažďovanie a overovanie verejných viet. Budete si <scAccountLink>potrebovať vytvoriť účet</scAccountLink>. Potom pridajte svoj jazyk do svojho <strong>profilu</strong>. Môžete <strong>pridávať</strong> vety alebo <strong>kontrolovať</strong> už pridané vety.
 
 ## How to record quality
 
