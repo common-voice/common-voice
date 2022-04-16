@@ -590,9 +590,16 @@ about-playbook-how-record-content-5 = <accuracyLink>Ďalšie informácie o krit�
 about-playbook-how-grow-language = Ako môžeme efektívne rozvíjať jazyk na Common Voice?
 about-playbook-how-grow-language-content-1 = Vytváranie príležitostí pre rôznorodých ľudí prispievať do Common Voice zaisťuje, že dataset slúži čo najväčšiemu počtu ľudí. Vytvorili sme zdroje a šablóny, ktoré môžete použiť.
 about-playbook-how-grow-language-content-2 = Udalosti
+about-playbook-how-grow-language-content-3 = Môžete organizovať podujatia, ktoré pomôžu ľuďom prispieť. Je to jednoduchšie, ako si myslíte. Môžete to urobiť online pomocou nástroja na videokonferencie alebo osobne, ak je to bezpečné. <eventTemplate>Pozrite si naše šablóny a zdroje pre organizovanie udalostí</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Sociálne médiá
+about-playbook-how-grow-language-content-5 = Na zverejnenie správy môžete použiť platformy sociálnych médií. Zdieľajte príspevky, ktoré vysvetľujú, prečo je to dôležité, a spojte sa s ostatnými ľuďmi, ktorí hovoria o problémoch, ako sú jazykové práva, hlasová AI alebo technické náležitosti. Pozrite si ďalšie rady o <campaignLink>spustení sociálnej kampane vrátane obsahu, ktorý môžete použiť</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnerstvá a siete
+about-playbook-how-grow-language-content-7 = Nájdite ostatných, ktorým na tom záleží. Mohli by to byť univerzity, jazykové školy, advokačné skupiny alebo komunity dátovej vedy. Oslovte ich a jasne vysvetlite, ako vám môžu pomôcť a prečo. <outreachTemplates>Pozrite si naše informačné e-maily so šablónami</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Buďte kreatívni!</strong> Vaša jazyková komunita bude jedinečná a toto je len niekoľko spôsobov, ako začať.
 
 ## How to validate
 
+about-playbook-how-validate = Ako zistím, či mám schváliť hlasový klip?
 
 ## How to access dataset
 
