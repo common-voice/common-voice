@@ -1226,21 +1226,45 @@ sc-home-title = Vitajte v zberači viet pre Common Voice
 
 ## STATS
 
+sc-stats-updating = Aktualizuje sa…
 
 ## ADD
 
+sc-submit-title = Pridanie viet
+sc-submit-select-language =
+    .labelText = Zvoľte jazyk
+sc-submit-add-sentences = Pridajte vety <wikipediaLink>pod verejne dostupnou licenciou</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Jedna veta na riadok
+sc-submit-from-where = Odkiaľ pochádzajú tieto vety <wikipediaLink>pod verejne dostupnou licenciou</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Ak si nie ste istí, prečítajte si náš návod
+sc-submit-confirm = Potvrdzujem, že tieto vety sú dostupné <wikipediaLink>pod verejne dostupnou licenciou</wikipediaLink> a mám povolenie na ich nahratie.
+sc-submit-button =
+    .submitText = Odoslať
+sc-submit-filtered = Filtrované vety kvôli zlyhaniu požiadaviek (odošlite opravené verzie ako nové vety):
+sc-submit-guidelines = Prečítajte si <howToLink>pokyny</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Jazyk sa nepodarilo pridať
+sc-add-lang-sec-label = Pridajte jazyk, do ktorého chcete prispieť
+sc-add-lang-sec-button = Pridať jazyk
+sc-add-err-unexpected = Zo servera sa vrátila neočakávaná odpoveď
+sc-add-lang-process-notice = Ak váš jazyk tu nie je uvedený, môžete si ho vyžiadať prostredníctvom <languageProcessLink>tohto procesu</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Celkovo
+sc-lang-info-title-personal = Osobné
 
 ## LOGIN
 
+sc-login-err-failed = Prihlásenie zlyhalo
+sc-login-err-try-again = Skúste to znova.
 
 ## PROFILE
 
@@ -1258,12 +1282,29 @@ sc-personal-not-added = Zatiaľ ste nepridali žiadne jazyky.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Kritériá kontroly
+sc-criteria-title = Kritériá kontroly
+sc-criteria-make-sure = Uistite sa, že veta spĺňa nasledujúce kritériá:
+sc-criteria-item-1 = Veta musí byť napísaná správne.
+sc-criteria-item-2 = Veta musí byť gramaticky správna.
+sc-criteria-item-3 = Veta musí byť vysloviteľná.
+sc-criteria-item-4 = Ak veta spĺňa kritériá, kliknite na tlačidlo &quot;Schváliť&quot; tlačidlo na pravej strane.
+sc-criteria-item-5-2 = Ak veta nespĺňa vyššie uvedené kritériá, kliknite na tlačidlo &quot;Odmietnuť&quot; tlačidlo vľavo. Ak si vetou nie ste istí, môžete ju tiež preskočiť a prejsť na ďalšiu.
+sc-criteria-item-6 = Ak vám dochádzajú vety na kontrolu, pomôžte nám zhromaždiť viac viet!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Nevybrali ste žiadne jazyky. Ak chcete vybrať jazyky, prejdite na svoj <profileLink>Profil</profileLink>.
 
 ## SETTINGS
 
+sc-settings-title = Nastavenia
+sc-settings-ui-language = Jazyk používateľského rozhrania
+sc-validation-no-numbers = Veta by nemala obsahovať čísla
+sc-validation-no-symbols = Veta by nemala obsahovať symboly
+sc-validation-no-abbreviations = Veta by nemala obsahovať skratky
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Vyberte jazyk/lokalizáciu
