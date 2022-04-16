@@ -806,6 +806,7 @@ request-language-success-list-1 =
     krokov na pridanie vášho jazyka do Common Voice
 request-language-success-list-2 = Náš komunitný manažér vás osloví, aby vám ponúkol ďalšiu podporu a dal vám vedieť, či už existuje komunita, ktorá pracuje na vašom jazyku
 request-language-success-list-3 = Ak sa vám do niekoľkých dní neozveme, kontaktujte nás na adrese <emailLink>{ $email }</emailLink> a my sa vám ozveme!
+request-language-error = Je možné, že sme túto žiadosť nedostali. Napíšte nám priamo na adresu <emailLink>{ $email }</emailLink> a my sa vám ozveme!
 
 ## Languages Overview
 
@@ -878,8 +879,10 @@ listen-again-instruction = Skvelá práca! <playIcon></playIcon> Keď budete pri
 listen-3rd-time-instruction = 2 už sú za vami, pokračujte v dobrej práci!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Posledná nahrávka!
 listen-empty-state = Minuli sa nám klipy na overenie v tomto jazyku...
+listen-loading-error = Nepodarilo sa nám získať žiadne zvukové klipy, ktoré by ste si mohli vypočuť. Skúste neskôr prosím.
 speak-empty-state = Minuli sa nám vety na nahrávanie v tomto jazyku...
 speak-empty-state-cta = Pridajte ďalšie vety
+speak-loading-error = Nedostali sme žiadne vety, ktoré by ste mohli povedať. Skúste neskôr prosím.
 record-button-label = Nahrajte svoj hlas
 share-title-new = <bold>Pomôžte nám</bold> nájsť ďalšie hlasy
 keep-track-profile = Sledujte svoj postup pomocou profilu
@@ -1187,10 +1190,27 @@ see-less = <chevron> </chevron> Zobraziť menej
 
 ## HEADER/FOOTER
 
+sc-header-home = Domov
+sc-header-how-to = Ako na to
+sc-header-add = Pridať
+sc-header-review = Kontrola
+sc-header-rejected = Zamietnuté vety
+sc-header-my = Moje vety
+sc-header-statistics = Štatistiky
 sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Nahlásiť chyby
+sc-footer-translate = Preložiť túto stránku
+sc-footer-report-copyright = Nahláste problémy s autorskými právami
+sc-footer-privacy = Súkromie
+sc-footer-terms = Podmienky používania
+sc-footer-cookies = Cookies
+sc-login-signup-button = Prihlásenie / Registrácia
+sc-logout-button = Odhlásiť sa
 
 ## HOME
 
+sc-home-title = Vitajte v zberači viet pre Common Voice
 
 ## GENERAL
 
@@ -1224,6 +1244,17 @@ sc-header-profile = Profil
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Jazyk sa nepodarilo odstrániť: jazyk sa nenašiel
+sc-personal-err-remove = Jazyk sa nepodarilo odstrániť
+sc-personal-your-languages = Vaše jazyky:
+sc-personal-remove-button = odstrániť
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = Vami pridané vety: { $sentences }
+sc-personal-not-added = Zatiaľ ste nepridali žiadne jazyky.
 
 ## REVIEW CRITERIA
 
