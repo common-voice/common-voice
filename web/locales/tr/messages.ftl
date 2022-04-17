@@ -616,6 +616,7 @@ about-playbook-how-project-governance-content-1 = Mozilla Common Voice, dünyan�
 about-playbook-how-project-governance-content-2 = Yönetişimimiz şu temeller üzerine kurulmuştur:
 about-playbook-how-project-governance-content-3 = Gizlilik, güvenlik ve şeffaflık.
 about-playbook-how-project-governance-content-4 = Topluluk katılımı ve karar alma.
+about-playbook-how-project-governance-content-5 = Değer ve tanınma.
 about-playbook-how-project-governance-content-6 = Karşılıklı hesap verebilirlik.
 about-playbook-how-project-governance-content-7 = <governanceLink>Nasıl yönetildiğimiz hakkında daha fazla bilgi edinin</governanceLink>
 mycroft-title = Mycroft Ai
@@ -793,6 +794,10 @@ request-language-success-heading = Teşekkürler! Yeni bir dil talebi gönderdin
 request-language-success-list-1 =
     Kısa süre içinde dilinizi Common Voice'a ekleme
     adımlarını açıklayan bir e-posta alacaksınız
+request-language-success-list-2 =
+    Topluluk yöneticimiz size ek destek ve bilgi verme
+    teklifi ile size ulaşacak ve zaten diliniz üzerinde
+    çalışan bir topluluk varsa size bildirecek
 request-language-success-list-3 = Birkaç gün içinde bizden haber alamazsanız size dönüş yapmamız için <emailLink>{ $email }</emailLink> adresinden bize ulaşabilirsiniz.
 request-language-error = Bu talebi almamış olabiliriz. Size dönebilmemiz için lütfen <emailLink>{ $email }</emailLink> üzerinden bize e-posta gönderin.
 
