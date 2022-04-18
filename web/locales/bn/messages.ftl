@@ -607,9 +607,9 @@ language-total-progress = মোট
 language-search-input =
     .placeholder = অনুসন্ধান
 language-speakers = বক্তা
-localized = লোকালাইজ্ড
+localized = স্থানীয়কৃত
 sentences = বাক্যসমূহ
-total-hours = যাচাইকৃত ঘন্টাসমূহ
+total-hours = যাচাইকৃত ঘণ্টা
 
 ## Contribution
 
