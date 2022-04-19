@@ -981,10 +981,10 @@ help-reach-hours-pluralized =
        *[other] { $hours } Stunden
     } in { $language } zu erreichen.
 help-reach-hours-general-pluralized =
-    Helfen Sie Common Voice mit einem persönlichen Ziel dabei, { NUMBER($hours) ->
-        [one] { $hours } Stunde
-       *[other] { $hours } Stunden
-    }in einer Sprache zu erreichen.
+    { NUMBER($hours) ->
+        [one] Helfen Sie Common Voice mit einem persönlichen Ziel dabei, { $hours } Stunde in einer Sprache zu erreichen.
+       *[other] Helfen Sie Common Voice mit einem persönlichen Ziel dabei, { $hours } Stunden in einer Sprache zu erreichen.
+    }
 set-a-goal = Ein Ziel setzen
 cant-decide = Sie können sich nicht entscheiden?
 activity-needed-calculation-plural =
@@ -1545,7 +1545,6 @@ sc-review-link = Bewertungen
 
 sc-settings-title = Einstellungen
 sc-settings-ui-language = Sprache der Benutzeroberfläche
-sc-settings-language-translated-warning = Die Seiten für diese Sprache sind möglicherweise nicht vollständig übersetzt. Sie können bei der Übersetzung <pontoonLinkLink>auf Pontoon</pontoonLinkLink> helfen.
 sc-settings-reset-skipped = Übersprungene Sätze zurücksetzen
 sc-settings-skipped-decription =
     Sie haben Sätze beim Überprüfen zuvor übersprungen.
