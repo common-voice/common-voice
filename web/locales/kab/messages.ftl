@@ -479,6 +479,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Acuɣer Common Voice?
+about-header-description-v2 =
+    <p>Common Voice tagrumma n yisefka s taɣect tazayazt, i snernayen imttekkiyen iwiziwen deg umaḍal. Imdanen yebɣan ad bnun isnasen s taɣect emren ad sqedcen tagrumma n yisefka akken ad sluɣmun tineɣrufin n ulmad i tmacint.</p>
+    <p>Akka tura, tuget n tegrummiwin n yisefka s taɣect i melkent-tent tkebbaniyin, neqqent asnulfu. Tigrummiwin n yisefka daen ur neṭṭuqet ara: imdanen ur nettmeslay ara taglizit, imdanen ur nelli d imellalen, ineɛyuba, tilawin d yimdanen LGBTQIA+. Aya yemmal-d dakken tatiknulujit s taɣect ur tetteddu ara deg ddeqs n tutlayin, daɣen anida i tetteddu, ur tetteddu ara akken iwata i yal yiwen. Nebɣa ad nbeddel aya s usiwel i yimdanen anida ma llan akken ad d-mudden taɣect-nsen.</p>
 how-does-it-work-title-v2 = Amek iteddu Common Voice?
 how-does-it-work-text = Ad d-nemmekti attekki lwaḥid deg usbeddi n tegrumma n yisefka n uɣbalu yeldin. Mudd-d taɣect-ik, senqed tiseddi n tuɣac n wiyaḍ, snerni tagrumma n yisefka i yal yiwen.
 
@@ -541,6 +544,7 @@ about-nav-playbook = Issin amek ara tekkiḍ
 ## What is a language
 
 about-playbook-what-is-language = D acu i d tutlayt deg Common Voice?
+about-playbook-what-is-language-content-1 = Ddeqs n yiberdan i yellan akken ad nxemmem ɣef tutlayin. I lmendad n tneɣrufin n uɛqal n taɣect, Common Voice yessumur aserked  n tmuɣli ɣef 'umɛiwen', neɣ 'ma zemren yimeɣriyen n tutlayt-a ad msefhamen gar-asen ma yella ɛerḍen'?
 about-playbook-what-is-language-content-3 = Kra n tutlayin ur-sent ddeqs n ubeddel deg tjerrumt, amawal akked usuru. ɣef waya <ctaLink>nsekcem-d ‘titanliyin’</ctaLink> deg 2022. Aya ad imudd i trebbaɛ abrid akken ad nsemgired tutlayin-nsen deg tegrumma meqqren.
 
 ## How do I add a language
