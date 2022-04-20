@@ -696,6 +696,7 @@ A edição do servidor permite que você experimente facilmente a computação e
 A educação é muito importante.
 A educação é uma área fundamental na prevenção e detecção de situações de violência.
 A ejeção de massa coronal da estrela mascarou o sinal.
+A elite do atraso
 A embaixada já foi comunicada
 A empresa anunciou parcerias com outras empresas.
 A empresa criou um ambiente para colaboração
@@ -712,6 +713,7 @@ A enfermeira não está disposta a dar-lhe o remédio.
 A enguia, quanto mais forte, mais ela escapa.
 A enorme altura dos inimigos foi a única impressão que sobreviveu na memória.
 A entidade adjudicante realiza a sua aquisição em nome de outras autoridades adjudicantes?
+A entrada estava ao ponto
 A entrega será realizada nos próximos dias
 A entrega solene do Prêmio e o ato acadêmico correspondente acontecerão em Barcelona.
 A entrevista foi curta.
@@ -1507,6 +1509,7 @@ A riqueza não é o que os ladrões conseguem.
 A riqueza é a amamentação
 A riqueza é um servo sábio, um mestre estúpido.
 A risada grosseira encheu a sala vazia.
+A robótica do assalto aos cofres públicos
 A rodovia estava congestionada
 A rodovia para Goiânia estava fechada.
 A rosa caiu no chão.
@@ -2035,6 +2038,7 @@ Adonilson do Vale Candido
 Adota uma forma de foice ou sabre, mais ou menos fechada.
 Adota-se o ensino fragmentado ou o ensino por projetos?
 Adotando uma abordagem de maior risco
+Adotou o crucifixo como adorno
 Adquire o conhecimento econômico, comercial e social que lhe permite trabalhar como profissional autônomo.
 Adquirimos o quarterback de renúncias na última temporada.
 Adrian Oliveira de Matos
@@ -2315,6 +2319,7 @@ Alan Jones Gomes da Silva
 Alan Thiago Lopes Prado
 Alan de Lima Landim
 Alana, Nathalia, Pietro, Pamela e Wanderson
+Alavancando os estudos com a técnica pomodoro
 Alba Barbosa Saraiva
 Alba Duralles Ribeiro
 Alba dos Santos Xavier
@@ -4495,6 +4500,7 @@ Assim, muitos eleitores dividem seu voto e apostam em partidos diferentes em cad
 Assim, o congresso abandonou completamente o princípio da tarifa.
 Assim, para esta sentença, pronunciamos, mandamos e assinamos.
 Assim, é impensável que possamos ter, como os franceses, estima pela durabilidade.
+Assine com letras maiúsculas
 Assis
 Assis Brasil
 Assis Braz
@@ -4527,6 +4533,7 @@ Assustar um pássaro não é o jeito de pegá-lo.
 Asterio Francisco Pereira da Silva
 Astolfo Dutra
 Astorga
+Astrofísica faz alerta sobre buraco negro
 Astrogildo Mendes de Barrros
 Asuelo Alves Machado
 Ataide Faria da Silva
@@ -5036,7 +5043,9 @@ Belém de Maria
 Belém do Brejo do Cruz
 Belém do Piauí
 Belém do São Francisco
+Belíssima execução de uma obra que nos enche de orgulho
 Bem apresentado
+Bem comovente esta interpretação
 Bem eu não sei.
 Bem no segundo andar.
 Bem não.
@@ -5364,6 +5373,7 @@ Bom vinho, se você não pode urinar, é um veneno.
 Bombeiro e Polícia
 Bombinhas
 Bonanza no mar e no fogo do céu, sangue e fogo.
+Bonde da insegurança acadêmica
 Boneco de neve no dia de neve
 Bonfim
 Bonfim do Piauí
@@ -5425,6 +5435,7 @@ Brasília de Minas
 Brasília é a capital do Brasil.
 Brasópolis
 Braulino Garcias dos Santos
+Bravo! Formidável!
 Brazabrantes
 Braço do Norte
 Braço do Trombudo
@@ -5728,6 +5739,7 @@ Calendário vendido, calendário de bebidas.
 Calerison Bezerra Mendonca
 Calibração completa.
 Califórnia
+Caligrafia cursiva
 Caline Nascimento de Souza
 Calixto Alves da Silva
 Calma.
@@ -6324,6 +6336,7 @@ Catarina Barroso de Souza
 Catarina Batista de Oliveira
 Catarina Guimaraes Sarah
 Catarina da Silva Rocha
+Catarses constantes e ininterruptas
 Catas Altas
 Catas Altas da Noruega
 Catende
@@ -6831,6 +6844,7 @@ Coisa da antiga
 Coisa estranha
 Coisas baratas só funcionam por um curto período de tempo.
 Coisas claras e chocolate, grossas.
+Coisas que pessoas deprimidas fazem
 Coisas quentes.
 Coisinha
 Coito interrompido é um dos possíveis métodos contraceptivos
@@ -6863,6 +6877,7 @@ Colniza
 Colocar gema de ovo é opcional.
 Colocar o carrinho antes do cavalo.
 Colocarei uma vassoura atrás da porta para evitar visitas dos parentes
+Colocou de joelhos
 Colocá-los em um frasco de vidro hermético, camadas, descascando com cada camada.
 Colombo
 Coloque Kurt Cobain no korean osts.
@@ -6957,6 +6972,7 @@ Com relação a esta área, a legalização das fazendas existentes será possí
 Com seu trabalho e suas contribuições, o partido poderia permanecer operacional.
 Com tanto barulho era impossível ficar sério por muito tempo!
 Com tudo isso?
+Com um ar de superioridade e petulância
 Com um bom gole de mosto, a alma retorna ao corpo.
 Com um coração valente, com uma alma infundida na luta pela pátria do santo!
 Com um nevoeiro, todo mundo é um timoneiro.
@@ -7005,6 +7021,7 @@ Começou a nevar no caminho.
 Começou a soprar com mais força a elevação das areias do deserto.
 Comida caseira
 Comida e vinho
+Comissão decide de maneira unânime pela cassação
 Comitê Internacional da Cruz Vermelha
 Comitê de Desenvolvimento Sustentável de Taipei
 Comitê de Planejamento Urbano do Ministério do Interior
@@ -7388,6 +7405,7 @@ Conhecemos Alexander e o bar e nos divertimos muito na noite passada.
 Conhecendo a realidade.
 Conheci uma vez uma árvore de tamanho meio exagerado, a qual abrigava muitos pássaros.
 Conhecia-o antes? perguntou Garcia.
+Conhecida por sua delicada simpatia
 Conhecimento geral dos conceitos e figuras mais comuns que regula.
 Conhecimento é melhor que riquezas
 Conhecimento é poder
@@ -7431,6 +7449,7 @@ Constantemente impactando nossas crenças
 Constantina
 Constantine é uma das mais importantes obras de arte romana em Istambul.
 Constata-se, portanto, que a construção de uma escola inclusiva implica em transformações
+Constelação familiar
 Construa um banco de dados
 Construa um espaço onde você possa viver sua vida
 Construindo Confiança
@@ -7593,6 +7612,7 @@ Corra para o lado do hipermercado
 Corra!
 Corredor de distância preto atlético termina uma corrida de estrada
 Correia Pinto
+Correio deselegante
 Correndo cavalo, lápide grave.
 Corrente
 Corrente alternada trifásica é uma maneira eficiente de transmitir energia.
@@ -7635,6 +7655,7 @@ Costa Rica foi incrível no campo!
 Costumava caçar coelhos lá comigo.
 Costumava haver um hábito de jogar
 Costumes do mestre do mal, filho sinistro.
+Cotas raciais e para pessoas com deficiência
 Cotegipe
 Cotia
 Cotiporã
@@ -7784,6 +7805,7 @@ Cuido que ele ia falar, mas reprimiu-se.
 Cuitegi
 Cuité
 Cuité de Mamanguape
+Cujas obras são ínfimas demonstrações de afeto
 Cujos homens são você?
 Cujubim
 Culpa do dinheiro.
@@ -7913,6 +7935,7 @@ Daniel chamou Eduardo pra festa de Matheus.
 Danieli, Jhonatan, Rayane, Taiane e Stefani
 Danielly, Manuele, Jamily, Lorrana e Wiliane
 Dano sofrido faz você saber, mas raramente rico.
+Danos ao erário
 Dançarina étnica fica na frente de outros artistas em um palco.
 Daquele momento em diante, começou a declinar.
 Daqueles que se casam nos anos cinquenta, poucos chegam nos anos sessenta.
@@ -8401,6 +8424,7 @@ Desterro do Melo
 Destina-se a classificar as terras localizadas ao sul da igreja mencionada.
 Destinatários: pessoas que não toleram a necessidade e precisam ser incorporadas.
 Destino
+Destruiu a monetização do canal
 Desvendando os segredos da protistologia
 Deságua no interior da gruta
 Desça para jantar este minuto.
@@ -9504,6 +9528,7 @@ E? nesse humor? ele estava grato por estar apaixonado.
 E? para homens sábios? ouro é o metal que evoluiu mais longe.
 E?, se você melhorar o atual?, o que vem depois também será melhor.
 Echaporã
+Economista e empresária
 Ecoporanga
 Edealina
 Eder, Geisa, Everton, Cibele e Jean
@@ -11182,6 +11207,7 @@ Empresas que vendem software como produto.
 Emprestar dinheiro dos vizinhos
 Empresário pega boas mercadorias
 Empresários e funcionários ainda discutem as metas para esse ano.
+Empresários se reuniram para propor a taxação das grandes pobrezas
 Empréstimo sob o teto dos outros
 Empurre a bandeja sobre a borda da mesa.
 Empurre a nota entre duas folhas.
@@ -11249,6 +11275,7 @@ Encruzilhada
 Encruzilhada de luz amarela
 Encruzilhada do Sul
 Enderece-os em ordem alfabética.
+Enfeites natalinos
 Enfileiramento é algo em que os britânicos se destacam.
 Enfim, a hipocrisia
 Enfim, todos conseguiram escapar! Opa! Quase todos!
@@ -11542,6 +11569,7 @@ Era quase como se sua vida tivesse sido apagada.
 Era seu destino manifesto comer aquela barra de chocolate.
 Era só que ele não conseguia entender o que significava.
 Era tão emocionante, suas veias estavam cheias de adrenalina.
+Era tão pobre que só possuía dinheiro
 Era tímido, mas determinado
 Era um apartamento térreo, em frente ao qual eles tinham a loja.
 Era um benefício que prestava.
@@ -11925,6 +11953,7 @@ Esta banana tem gosto de cerejas.
 Esta biblioteca, então livre para uso não comercial, não era, no entanto, software livre.
 Esta bobina mortal
 Esta cadeira é livre?
+Esta cadela não morde, apenas te julga
 Esta caixa de marcadores tem muitas cores diferentes.
 Esta caravana tem um gerador de corrente incorporado para alimentar os frigoríficos.
 Esta casa também é comprada por um empréstimo.
@@ -14047,6 +14076,7 @@ Experiências validadas pelo comitê consultivo que será explicado em profundid
 Explanou vagarosamente e pausadamente
 Explique a importância da ancoragem
 Explique a paranormalidade e a sinestesia
+Explorando uma vila de sobreviventes
 Exportar este arquivo.
 Exportações e importações compõem a balança comercial dos países
 Exposições e filmes que o Goethe-Institut permite emprestar às escolas.
@@ -14054,6 +14084,7 @@ Expressar a opinião de que a área não está desenvolvida
 Expresso no momento do discurso
 Expressões coloquiais
 Expropriação de riqueza
+Expôs os crimes praticados pela operação Lava Jato
 Exteriorização magnética
 Extraia os dados relevantes e veja se ele corresponde às nossas estatísticas.
 Extrato da conta corrente
@@ -14733,6 +14764,7 @@ Fêmea nova que examina um espécime em um microscópio.
 Fênix
 Fórum Anual
 Fóruns podem ser criados para intervir em assuntos que afetam mais de um aconselhamento.
+Fósseis dos gigantes da megafauna
 Gabando a dureza e a grossura do cobre
 Gabriel e Manuela
 Gabriel Monteiro
@@ -15097,6 +15129,7 @@ Guilherme e Gabriel eram bons amigos.
 Guilherme, Eloísa, Mônica e Clara
 Guimarânia
 Guimarães
+Guinada nas pesquisas muda o rumo da corrida ao Planalto
 Guiou a exposição de desenho da escola de Taipei
 Guiratinga
 Guiricema
@@ -15166,6 +15199,7 @@ Heehaw e Feliz Natal.
 Hehehe!
 Hei de providenciar
 Heitor e Maria Eduarda
+Heitor Villa-Lobos foi uma das joias da música clássica brasileira
 Heitor era o nome do prefessor.
 Heitoraí
 Helena e Miguel
@@ -15617,6 +15651,7 @@ Implementar comunicação com os moradores locais
 Importei eletrônicos manufaturados em Xinjiang
 Impossível por causa da substituição
 Impossível ser eles
+Imposto sobre grandes fortunas
 Impressionante
 Imprima os boletos em braille
 Improviso e criatividade foram os requisitos prévios
@@ -16632,6 +16667,7 @@ Juscimeira
 Jussara
 Jussari
 Jussiape
+Justiça climática
 Jutaí
 Juti
 Juventude e compreensão, não há tudo ao mesmo tempo.
@@ -17088,6 +17124,7 @@ Luciara
 Lucrécia
 Lucy é uma jornalista.
 Lucélia
+Lugar de fala
 Lugares são limitados.
 Luis foi ao casamento de Gabriel.
 Luisburgo
@@ -18020,6 +18057,7 @@ Meruoca
 Mesa de sabedoria todo mundo está fora
 Mesa de sinuca no bar
 Mesa do Parlamento.
+Mesas girantes
 Mesmo a distância, seus olhos transmitiam a força de suas almas.
 Mesmo assim, a mãe é boa para o paladar.
 Mesmo assim, ele mal entendeu o que isso significava.
@@ -18453,6 +18491,7 @@ Mucambo
 Mucugê
 Mucuri
 Mucurici
+Mudam-se os tempos, mudam-se as vontades. Poesia de Luís de Camões
 Mudando a condição física da economia de Taiwan
 Mudança de humor
 Mudança de planos planetários
@@ -19706,6 +19745,7 @@ Não foi um prazer reunir bons amigos?
 Não foi uma história incrível que lhe demos?
 Não foi verdade.
 Não funciona se o moinho estiver em pé e a língua estiver silenciosa.
+Não gostei disso
 Não gosto de celebrar o ano novo
 Não gosto desta comida.
 Não grite sua felicidade, a inveja tem sono leve
@@ -21247,6 +21287,7 @@ O documento estratégico inicial do plano foi acompanhado pelo pedido.
 O documento fornece seus próprios regulamentos, consistentes com o conteúdo do documento geral.
 O documento inclui fotografias da área.
 O documento não especifica se as rotundas estarão acesas ou não.
+O documento secreto foi revelado
 O domínio público e o privado.
 O dono do apartamento não se divertiu.
 O dono do restaurante não aceitava cartões de crédito.
@@ -21398,6 +21439,7 @@ O fogo, longe das razões, e as mulheres, os barões.
 O fogão é branco.
 O formulário pode ser preenchido e salvo quantas vezes forem necessárias.
 O forte era uma estrutura segura.
+O fraco rei faz fraca a forte gente
 O francês era bom de papo.
 O frango, para a menina, coloca um ovo.
 O frasco mantido aberto atraiu moscas que depositaram larvas
@@ -21637,6 +21679,7 @@ O kite mergulhou e balançou?, mas ficou no ar.
 O labirinto torto não conseguiu enganar o rato.
 O ladino está comemorando seu triunfo.
 O lado mais bonito da natureza humana
+O lado sombrio da arte
 O ladrão não estava lá? e o dono lhe trouxe uma xícara de chá.
 O lago brilhava ao sol vermelho e quente.
 O lançamento aéreo da bomba atômica em Hiroshima teve implicações devastadoras.
@@ -21668,6 +21711,7 @@ O local oferece acesso Wi-Fi gratuito?
 O louco vai, o homem azul viaja.
 O luar estava maravilhoso.
 O lucro do agricultor naquela época era terrível.
+O lucro dos empresários é privado, mas o prejuízo é repartido com a sociedade
 O lucro foi essencialmente nada.
 O lucro não é alto
 O lugar era ideal para os ratinhos crescerem fortes e saudáveis.
@@ -21849,7 +21893,10 @@ O microfone era de alta qualidade.
 O milagre de Muhammad, que viveu no sol e encontrou-se na sombra.
 O milho doce provou melhor grelhado.
 O mineiro abandonou tudo para minerar esmeraldas.
+O ministério adquiriu picanhas e leite condensado para os militares
+O ministério comprou próteses penianas e Viagra para os militares
 O miserável estorcia-se, guinchando, ensangüentado, chamuscado, e não acabava de morrer.
+O mistério de Jack, o estripador
 O mito fundador de Brasília remonta ao antigo Egito
 O modelo de aplicativo de participação pode ser baixado na web.
 O modelo operacional é muito distinto
@@ -22036,6 +22083,7 @@ O pequeno grupo de pessoas da cidade se dispersou.
 O pequeno peixe da lua morta carrega.
 O perdão foi um alívio para os dois
 O perfil teve mais de mil seguidores novos
+O perfume tem um frescor característico
 O perigo é o contrário.
 O perito entregou seu laudo em uma semana.
 O perito fez os exames no local.
@@ -22095,6 +22143,7 @@ O povo canadense é um pouco humilde demais.
 O povo reclama de insegurança.
 O povo é contra a regulamentação do serviço de internet.
 O prato era à base de camarão, lula e tomate
+O prato estava um tanto quanto salgado
 O prato é assim.
 O prazer de São Bruno é pago a todos.
 O prazo de garantia é estendido até que o relatório seja favorável.
@@ -22114,6 +22163,7 @@ O presente é uma surpresa.
 O presidente da Rússia é Vladimir Putin.
 O presidente do Brasil terá muito o que fazer pela frente.
 O presidente do estado teve dois filhos.
+O presidente encontrou os pastores suspeitos de cobrarem propina
 O presidente esteve mentindo de novo?
 O presidente fez uma curva acentuada na política
 O presidente foi nomeado por quatro anos e pode ser reeleito.
@@ -22867,7 +22917,6 @@ O velho burro não se alonga, mas entende.
 O velho caminho.
 O velho com uma bengala está ouvindo um walkman.
 O velho comentou essas palavras, como se alguém quisesse ser responsável por seu abandono.
-O velho da van age como bobo da corte
 O velho devolveu o livro ao menino.
 O velho e o vinho velho são os melhores amigos.
 O velho erro tem mais amigos do que uma nova verdade.
@@ -22956,6 +23005,7 @@ O vôo é como o pensamento: nunca exausto.
 O xadrez é uma simulação da guerra.
 O xadrez é uma simulação militar.
 O xerife do condado, um funcionário da justiça, executa a sentença.
+O youtuber foi desmonetizado
 O Átila nunca pediu demissão da Via Engenharia.
 O Índice de Desenvolvimento Humano sofreu uma queda
 O ácido láurico é encontrado no óleo de coco
@@ -23387,6 +23437,7 @@ Os batalhões, sem armas, com o aspecto triste dos rebanhos doentes, desembarcav
 Os beneficiários podem criar contas, grupos ou organizações pessoais.
 Os botões emitiam um som estranho quando pressionados.
 Os botões estão empilhados.
+Os brasileiros foram feitos de cobaias um par de vezes
 Os bravos também caem.
 Os brotos não quebram a madeira macia.
 Os burros e os ignorantes são filhos de primos irmãos.
@@ -23771,6 +23822,7 @@ Os usos proibidos são os residenciais.
 Os valencianos giram o sino inteiro.
 Os valores a serem reembolsados ​​serão considerados como receita de direito público.
 Os valores atualizados são mostrados no anexo a este Pedido.
+Os vegetais estavam bem frescos
 Os velhos conhecem uma música muito legal.
 Os vencedores desta modalidade passarão para a fase estadual como representantes da Catalunha.
 Os vendedores à beira-mar também têm uma excelente vista do East River.
@@ -24428,6 +24480,7 @@ Participei de várias reuniões
 Particularmente, meu cuscuz cortado eu gosto de comer bem, em vez de grelhado.
 Partilha maravilhosa e meticulosa
 Partimos da situação atual dos principais setores e atividades valencianas.
+Partiu um minúsculo pedaço
 Partição é tão doce e armagurado
 Pará
 Pará de Minas
@@ -28381,6 +28434,7 @@ Sede Nova
 Segmentar clientes sobre a localização da mercadoria.
 Segredo
 Segredo de dois, é perigoso; segredo de três, nada vale a pena.
+Segredos entre gênios
 Segredos revelados
 Segue-me
 Seguiu um prato após o outro.
@@ -28552,6 +28606,7 @@ Sentença é uma unidade linguística constituída por uma ou mais palavras gram
 Senterada está no Vale das Trevas.
 Senti o sabor e aroma do açafrão nesta receita
 Senti sua falta e não pude ligar, mas tentei.
+Senti um gosto de queimado
 Sentimentos e carreira
 Sentimentos que eu muito prezo.
 Sentinela do Sul
@@ -28862,6 +28917,7 @@ Simão Pereira
 Simões
 Simões Filho
 Sinais de pontuação: corte, derreta, cortina e afiada.
+Sinais de que não há zelo com o dinheiro público advindo dos impostos
 Sinceramente, Satanás.
 Sindicato dos metalúrgicos
 Singular homem!
@@ -28966,6 +29022,7 @@ Somos todos de barriga e não somos de um "templo".
 Somos todos humanos a final
 Somos um casal de magos financeiros.
 Somos uma das entidades aderidas à iniciativa e colaboramos em sua divulgação.
+Sonetos foi uma de suas obras primas
 Sonhando em chorar a noite
 Sonhar sempre vale a pena
 Sonhos coloridos como bolha
@@ -29027,6 +29084,7 @@ Sua conta ainda está aqui.
 Sua conta foi impressa.
 Sua corda está sempre quebrada onde está mais fina.
 Sua criação e atividade respondem a um duplo objetivo pedagógico e artístico.
+Sua delicadeza era notória
 Sua dieta precisava de muitas fibras
 Sua doação significa muito para nós? obrigado.
 Sua envergadura chega a cento e vinte e três centímetros
@@ -29096,6 +29154,7 @@ Suas probabilidades de observação são calculadas como um produto de probabili
 Suas suspeitas não eram falsas!
 Suas últimas palavras nunca foram ouvidas.
 Suavemente acaricie a cabeça do bebê
+Suavemente deitados sob a luz do luar
 Suba sobre as formigas depois de amanhã
 Subconscientemente escolha esquecer
 Subindo ao topo da montanha de esqui para ter uma melhor visão do lago
@@ -30061,6 +30120,7 @@ Tinha desaparecido
 Tinha dito a ele para cavar onde suas lágrimas caíram.
 Tinha o dom de se fazer aceito e necessário;
 Tinha um diâmetro de cerca de trinta jardas.
+Tinha um sabor leve e suave
 Tinha uma promoção da American Airlines pra Boston.
 Tinha-me levantado cedo e tardava em preparar-me para existir.
 Tinham falado do dia, que estivera excelente
@@ -30348,6 +30408,7 @@ Tome sua própria decisão
 Tome um banho com folhas de guiné do pescoço para baixo
 Tome uma decisão que seja boa para você
 Tomei duas pílulas, mas não consegui dormir
+Tomei um gole da cerveja e fiquei mal
 Tomo leite com café todos os dias
 Tomou o café da manhã?
 Tomou o café?
@@ -34813,6 +34874,7 @@ a educação, a cultura, a ciência, idéias e conhecimentos como instrumentos d
 a em sentido amplo, isto é, que realmente incorpore
 a esposa recebeu a noticia de uma forma verdadeiramente surpreendente
 a fazer as mais arrojadas cabriolas de volatim
+a figura criativa mais significativa do século
 a forma de ocultar-se os detalhes
 a fé do homem leva-o a acreditar fervorosamente em deus
 a imaginação dessa senhora também voou
@@ -35745,6 +35807,7 @@ zé Doca
 É o que estamos fazendo.
 É o que eu quero dizer.
 É o que eu tenho procurado há muito tempo.
+É o que há de mais expoente e delicado
 É o que o servo disse.
 É o que você sempre quis realizar.
 É o rádio da avó.

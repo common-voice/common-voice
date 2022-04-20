@@ -3175,6 +3175,7 @@ Bitte was?
 Bitte weitergehen.
 Bitte wenden Sie.
 Bitte wenden, bitte wenden.
+Bitte weniger quatschen und mehr arbeiten!
 Bitte wählen Sie eine Sprache.
 Bitte wählen Sie nur eine Farbe aus.
 Bitte zeigen Sie mir Ihren Mitarbeiterausweis.
@@ -3760,6 +3761,7 @@ Dabei kann jedes Ereignis unscheinbar wirken, zusammen und in der Abhängigkeits
 Dabei kommt das Vorsorgeprinzip zum Tragen.
 Dabei kullerte der Massageball unter den Schrank.
 Dabei könnte sich längst die nächste Schwierigkeit anbahnen.
+Dabei lernst du die Ansprache und Buchung.
 Dabei lief ihr eine Träne über die Wange.
 Dabei liegt das Hauptaugenmerk auf der Beschaffung der Einzelteile.
 Dabei liegt die Lösung doch quasi auf der Hand!
@@ -4354,6 +4356,7 @@ Darf ich Sie um ein Autogramm bitten?
 Darf ich an dem Preisausschreiben teilnehmen?
 Darf ich bei euch mitmachen?
 Darf ich bitte mal einen Satz zu Ende sprechen?
+Darf ich dabei mit deiner Unterstützung rechnen?
 Darf ich deine Tränen trocknen?
 Darf ich deinen Ex töten oder hättest du ein Problem damit?
 Darf ich deinen Spielstand überschreiben?
@@ -4383,6 +4386,7 @@ Darf ich mich zu dir unter den Schirm gesellen?
 Darf ich mir mal Ihren Stift leihen?
 Darf ich mir mal etwas von eurem Vorrat stibitzen?
 Darf ich mir mal kurz deine Luftpumpe ausleihen?
+Darf ich mit deiner Unterstützung rechnen?
 Darf ich mit dem Buggy fahren?
 Darf ich sie jetzt gegen eine neue austauschen?
 Darf ich vorkosten?
@@ -4609,6 +4613,7 @@ Das Geschacher um die besten Konditionen treibt immer seltsamere Blüten.
 Das Geschehen auf dem Handy-Display ist ungleich wichtiger.
 Das Geschenk für meine Freundin war ein Griff ins Klo.
 Das Geschirr und das Besteck muss noch abgewaschen werden.
+Das Geschirr wäscht sich nicht von alleine ab!
 Das Geschrei war jedenfalls groß.
 Das Gesetz erlaubt nicht beliebig viel Bleichmittel.
 Das Gespräch gestaltete sich schwierig.
@@ -6422,6 +6427,7 @@ Der Abfluß von Wässern darf durch die Aufschüttung von Halden nicht behindert
 Der Abrisskalender geht fast einen Monat nach.
 Der Absprung kostet Überwindung, aber der Nervenkitzel ist es wert.
 Der Abwasch in unserer neuen Wohnung ist winzig.
+Der Abwasch macht sich nicht von alleine
 Der Adler ist im Nest gelandet.
 Der Adler trägt auf seinem Haupt eine goldene Mauerkrone mit drei sichtbaren Zinnen.
 Der Affront bringt die Ministerpräsidentin unter Zugzwang.
@@ -11996,6 +12002,7 @@ Es braucht einen Mutigen, der es ausspricht.
 Es braucht zwei zum Streiten.
 Es brennt lichterloh.
 Es brennt mir unter den Nägeln.
+Es bringt mir doch nichts?
 Es bringt nichts, wenn Fliegengewichte gegen Sumo-Ringer kämpfen.
 Es darf kein Denkverbot geben.
 Es dauert nicht lang, versprochen.
@@ -15334,6 +15341,7 @@ Hilf dir selbst, oder dir wird geholfen.
 Hilf mir bitte beim Packen!
 Hilf mir mal auf die Sprünge!
 Hilf mir mal auf die Sprünge.
+Hilf mir oder spar dir deine klugen Kommentare!
 Hilfe ein Überfall!
 Hilfe!
 Hilfe, ein Soziologe ist hinter mir her!
@@ -31015,6 +31023,7 @@ Wem gehört dieser Turnbeutel?
 Wem gehört welcher Becher?
 Wem haben wir es zu verdanken?
 Wem muss ich hier etwas beweisen?
+Wem nutzt es?
 Wem schieben wir diesmal die Schuld in die Schuhe?
 Wem soll dieser Brei schmecken?
 Wem sollen wir sie denn empfehlen?
@@ -33336,6 +33345,7 @@ Wirklich, die Paste ist knochentrocken.
 Wirklich, es ist besser, man bleibt zu Hause, bis das Wetter wieder schön wird.
 Wirkt die Betäubung noch?
 Wirst du ihm helfen?
+Wirst du mir beim Streichen helfen?
 Wirst du verfolgt?
 Wirtschaftsschwache Regionen versuchen es häufig mit Tourismus.
 Wisch das sofort vom Fußboden auf!

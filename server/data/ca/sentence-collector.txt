@@ -443,6 +443,7 @@ A Suècia, l’estiu passat va ser el millor dia de l’any.
 A Tirana mana Rita.
 A Tormos, el cap rotllat, que la faena els acaça.
 A Tàrbena, sobrassades, famoses per catalanes contrades.
+A Tàrrega a l'estació de bus.
 A València no venien.
 A Vinaròs són típics de les festes de Nadal i Sant Sebastià.
 A Xaló hi ha bons bacons amb un pam de cansalada.
@@ -453,6 +454,7 @@ A aprofitar la palla per a donar de menjar els animals.
 A aquella distància, els nostres fusells resultaven completament inútils.
 A aquelles altures ja estàvem plens de polls
 A aquest no l'enxamparàs, que la sap molt llarga.
+A aquesta mateixa adreça?
 A aquesta àrea s'han trobat zones d'hàbitat i estructures funeràries.
 A aquestes hores ja t'hauries d'haver ficat al llit.
 A baix, un sòcol imitant marbre
@@ -1246,6 +1248,7 @@ Allà on hi trobava espai per els ulls
 Allà on pogués cantar lliurement
 Allà on sentia gent que reia
 Allà on veia flors
+Allà poden fer-li aquests tràmits el mateix dia.
 Allà teníem l'enemic una mica més a prop
 Allà, per ara, per paga prepararé palla.
 Allí al davant de la torra hi varen obrir un carrer.
@@ -16598,9 +16601,13 @@ Sí, Joanet: no et crec capaç d'enganyar-me.
 Sí, agent, he vist el límit de velocitat. El vostre cotxe, tanmateix, no.
 Sí, ara ja ho fem, però després funcionarà millor.
 Sí, em refereixo al Putin, el rus aquell.
+Sí, ja l'hem trobada.
 Sí, jo. Ah! El cap em roda! Me'n vaig.
+Sí, l'alta serà en vint-i-quatre hores.
 Sí, l'avi havia tingut raó!
 Sí, la meua història és la més completa negació de la literatura.
+Sí, la targeta duplicada li arribarà en un màxim de tres dies.
+Sí, la tinc però no sé com activar-la.
 Sí, madona; a tres hores d’aquí hi ha el poble on vaig nàixer.
 Sí, mort… Un cavall l'ha potejat.
 Sí, no és la primera volta que passa alguna cosa així.
@@ -16609,7 +16616,19 @@ Sí, però en essència tocàvem amb la mateixa motivació.
 Sí, però en general tocàvem amb la mateixa motivació.
 Sí, però en principi tocàvem amb la mateixa motivació.
 Sí, però en realitat tocàvem amb la mateixa motivació.
+Sí, però estic en una situació limit i necessitaria ajuda immediata.
+Sí, pot fer-ho així.
+Sí, pots fer-ho així.
+Sí, pots fer-ho telemàticament.
+Sí, quan té disponibilitat?
+Sí, quina disponibilitat té?
+Sí, quina volia, la de pollastre o la vegetariana?
+Sí, s'ha de reservar.
+Sí, saps si hi ha hotels a prop de Tarragona?
 Sí, senyor. Oi que és un bon partit?
+Sí, si us plau!
+Sí, soc molt fan de la marca Scout.
+Sí, tens una companyia lowcost.
 Sí. Però us diré la veritat.
 Sílvia és fustera
 Sílvia és generala
