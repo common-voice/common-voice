@@ -1336,12 +1336,17 @@ sc-criteria-modal = Tiwtilin n usenqed
 sc-criteria-title = Tiwtilin n usenqed
 sc-criteria-item-1 = Tafyirt ilaq ad tettwaru akken iwata.
 sc-criteria-item-2 = Tafyirt ilaq ad tili d tameɣtut seg tama n tjerrumt.
+sc-criteria-item-6 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!
 
 ## REVIEW
 
+sc-review-lang-not-selected = UR tefrineḍ ula d yiwet n tutlayt. Ma ulac aɣilif, kcem ɣer <profileLink>umaɣnu-k</profileLink> akken ad tferneḍ tutlayin.
 sc-review-title = Senqed tifyar
 sc-review-loading = Abeddel n tefyar…
 sc-review-select-language = Fren ma ulac aɣilif tutlayt akken ad tesneqdeḍ tifyar.
+sc-review-no-sentences = Ulac tifyar ara tesneqdeḍ. Tzemreḍ <addLink>ad ternuḍ ugar n tefyar</addLink>.
+sc-review-form-prompt =
+    .message = Tufyar yettwasneqden ur ttwaznent ara, tebɣiḍ ad tkemmleḍ?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Aɣbalu: { $sentenceSource }
