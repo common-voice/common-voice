@@ -557,9 +557,12 @@ about-playbook-how-localize-content-5 = Wali tavidyut-nneɣ n usegzi ara k-iɛiw
 ## How to add sentences
 
 about-playbook-how-add-sentences = Amek ara rnuɣ tifyar?
+about-playbook-how-add-sentences-content-3 = Tzemreḍ ad tesqedceḍ <scraperLink>amakkas n tefyar</scraperLink> akken ad tleqḍeḍ tifyar meẓẓiyen seg Wikipédia.
+about-playbook-how-add-sentences-content-4 = Tifyaryettwaqeblen ad d-ffɣent yal larbɛa daɣen ad ilint wejdent i llqem i d-iteddun.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Amek ara teskelseḍ s taɣect s tɣara meqqren?
 about-playbook-how-record-content-3 = Ɣer akken iwata tafyirt - ur tettu ara, ur ttbeddil ur tettu awalen.
 about-playbook-how-record-content-4 = Ḍmen ma yella tiɣerɣert tesseklas uqbel ad tebduḍ taɣuri, daɣen ur tḥebbes ara arma tfukkeḍ.
 about-playbook-how-record-content-5 = <accuracyLink>Issin ugar ɣef yisebdad n tseddi.</accuracyLink>
@@ -573,14 +576,20 @@ about-playbook-how-grow-language-content-6 = Amɛiwen n yiẓedwa
 
 ## How to validate
 
+about-playbook-how-validate = Amek ara teẓreḍ ma yella tukkist s taɣect ilaq ad tettwaqel?
+about-playbook-how-validate-content-1 = Ma tessiwḍeḍ ad <strong>asent-tesleḍ</strong> daɣen ad <strong>tent-tegzuḍ</strong>, sumata <strong> yelha ad tent-tqebleḍ</strong>.
+about-playbook-how-validate-content-4 = Ma yella akalas yettwagi sɣur sin medden, ad d-yeffeɣ deg tegrumma tasnawant yemgaraden ɣef tegrumma n yisefka.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Amek ara yizmireɣ ad kecmeɣ ɣef tegrumma n yisefka daɣen ad tt-sqedceɣ?
 
 ## How are decisions made
 
 about-playbook-how-project-governance = Amek i yettwagzam ṛṛay deg usenfar?
+about-playbook-how-project-governance-content-2 = Tanbaḍt-nneɣ tebna ɣef tgejda-a:
 about-playbook-how-project-governance-content-3 = Tabaḍnit, taɣellist d tefrawant
+about-playbook-how-project-governance-content-4 = Atteki agrawan akked tgezmi deg ṛṛay.
 about-playbook-how-project-governance-content-5 = Azalen d usnemmer
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Tigzi n tmacint
