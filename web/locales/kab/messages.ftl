@@ -541,10 +541,12 @@ about-nav-playbook = Issin amek ara tekkiḍ
 ## What is a language
 
 about-playbook-what-is-language = D acu i d tutlayt deg Common Voice?
+about-playbook-what-is-language-content-3 = Kra n tutlayin ur-sent ddeqs n ubeddel deg tjerrumt, amawal akked usuru. ɣef waya <ctaLink>nsekcem-d ‘titanliyin’</ctaLink> deg 2022. Aya ad imudd i trebbaɛ abrid akken ad nsemgired tutlayin-nsen deg tegrumma meqqren.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Amek ara rnuɣ tutlayt?
+about-playbook-how-add-language-content-1 = Deg tazwara, wali tutlayt-ik ma <languageLink>tella yakan</languageLink>. Ma ulac-itt, ilaq <strong>ad tseqleḍ asmel daɣen ad tleqḍeḍ tifyar</strong>.
 about-playbook-how-add-language-content-3 = <strong>Akken ad tleqḍeḍ tifyar</strong>: <scVideo> -  </scVideo> Jerred ɣer <scLink>Sentence Collector</scLink>.
 
 ## How does localization work
@@ -563,6 +565,8 @@ about-playbook-how-add-sentences-content-4 = Tifyaryettwaqeblen ad d-ffɣent yal
 ## How to record quality
 
 about-playbook-how-record-quality = Amek ara teskelseḍ s taɣect s tɣara meqqren?
+about-playbook-how-record-content-1 = Mmeslay akken tuɣeḍ tanumi tettmeslayeḍ. Anṣuf s tarrayt n ususru-ik dagi, nebɣaasusru-ik ad yeqqim akken yella, nebɣa daɣen ṣṣut-ik, aɣanib-ik, d lmenṭeq-ik.
+about-playbook-how-record-content-2 = Ur semras-ara aṭas ṣṣut deffir - ilaq ad yegzu win ara yeslen.
 about-playbook-how-record-content-3 = Ɣer akken iwata tafyirt - ur tettu ara, ur ttbeddil ur tettu awalen.
 about-playbook-how-record-content-4 = Ḍmen ma yella tiɣerɣert tesseklas uqbel ad tebduḍ taɣuri, daɣen ur tḥebbes ara arma tfukkeḍ.
 about-playbook-how-record-content-5 = <accuracyLink>Issin ugar ɣef yisebdad n tseddi.</accuracyLink>
@@ -591,6 +595,8 @@ about-playbook-how-project-governance-content-2 = Tanbaḍt-nneɣ tebna ɣef tge
 about-playbook-how-project-governance-content-3 = Tabaḍnit, taɣellist d tefrawant
 about-playbook-how-project-governance-content-4 = Atteki agrawan akked tgezmi deg ṛṛay.
 about-playbook-how-project-governance-content-5 = Azalen d usnemmer
+about-playbook-how-project-governance-content-6 = Tamasit icerken.
+about-playbook-how-project-governance-content-7 = <governanceLink>Issin ugar ɣef tenbaḍt-nneɣ</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Tigzi n tmacint
 mycroft-description =
@@ -742,10 +748,15 @@ other-language = Tutlayin nniḍen
 
 ## Request Language Pages
 
+request-language-heading = Suter tutlayt tamaynut
 request-language-form-email =
     .label = Tansa-inek·inem n yimayl
 request-language-form-info =
     .label = Talɣut ɣef tutlayt
+request-language-form-info-explanation-list-1 = Ismawen n tutlayt-ik
+request-language-form-info-explanation-list-2 = <isoCodeLink>Tingalin ISO</isoCodeLink> ma ttwassnent
+request-language-form-info-explanation-list-3 = Iseɣwan ɣer yismal web i izemren ad aɣ-d-fken afus ad negzu tutlayt-a
+request-language-google-recaptcha-required = reCAPTCHA ilaq ma tebɣiḍ ad tkemmleḍ
 request-language-google-recaptcha-error = Yella wayen ur nteddu ara akken ilaq akked reCAPTCHA. Ma ulac aɣilif, εreḍ tikkelt-nniḍen.
 # Success page
 request-language-success-heading = Tanemmirt! Tuzneḍ-d assuter amaynut n tutlayt
@@ -1094,6 +1105,8 @@ contribution-varying-pronunciations-example-2-title = Afus-is yerfed
 contribution-varying-pronunciations-example-2-explanation = ['Amagraman' deg teqbaylit yettwanṭaq-d s yiwen n wawal mačči sin]
 contribution-background-noise-title = Lḥess n deffir
 contribution-background-noise-description = Lemmer d lebɣi tili ilguritmen n ulmad awurman ad izmiren ad sferken kra n wanawen n ṣṣut ur nelli d awal. Xas ma yeǧǧhed ṣṣut, ad yettwaqbel maca ur ilaq ara ad k-yeǧǧ ur tgezzuḍ ara aḍris. Aẓawan afessas daɣen ad yettwaqbel, maca ma yella ur k-yettaǧǧa ara ad tfehmeḍ aḍris, ur yettwaqbal ara.
+contribution-background-noise-example-2-fixed-title = Imqer<strong>[tusut]</strong> yettidir deg waman.
+contribution-background-noise-example-2-explanation = [Aḥric seg uḍris ur yettwafham ara]
 contribution-background-voices-title = Lḥess n deffir
 contribution-volume-title = Ableɣ
 contribution-just-unsure-title = Tkukraḍ?
@@ -1328,6 +1341,7 @@ sc-criteria-item-2 = Tafyirt ilaq ad tili d tameɣtut seg tama n tjerrumt.
 
 sc-review-title = Senqed tifyar
 sc-review-loading = Abeddel n tefyar…
+sc-review-select-language = Fren ma ulac aɣilif tutlayt akken ad tesneqdeḍ tifyar.
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Aɣbalu: { $sentenceSource }
