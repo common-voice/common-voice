@@ -21,8 +21,8 @@ export default class Alert extends React.Component<Props, {}> {
     this.startTimer({}, this.props);
   }
 
-  componentDidUpdate(nextProps: Props) {
-    this.startTimer(this.props, nextProps);
+  componentDidUpdate(prevProps: Props) {
+    this.startTimer(this.props, prevProps);
   }
 
   componentWillUnmount() {

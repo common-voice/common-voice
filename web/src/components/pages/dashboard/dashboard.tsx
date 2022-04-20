@@ -12,6 +12,7 @@ import {
   isContributable,
   LocaleNavLink,
   useLocale,
+  useNativeLocaleNames,
 } from '../../locale-helpers';
 import { Notifications } from '../../../stores/notifications';
 import StatsPage from './stats/stats';
@@ -21,8 +22,8 @@ import ChallengePage from './challenge/challenge';
 import { Button } from '../../ui/ui';
 import InviteModal from '../../invite-modal/invite-modal';
 import { isChallengeLive, pilotDates, isEnrolled } from './challenge/constants';
+
 import './dashboard.css';
-import { NATIVE_NAMES } from '../../../services/localization';
 
 const SentryRoute = Sentry.withSentryRouting(Route);
 
@@ -35,6 +36,7 @@ const TopBar = ({
   dashboardLocale: string;
   setShowInviteModal(arg: any): void;
 }) => {
+  const nativeNames = useNativeLocaleNames();
   const { history, location } = useRouter();
   const [, toLocaleRoute] = useLocale();
   const account = useAccount();
@@ -154,7 +156,7 @@ const TopBar = ({
                   onChange={() => setLocale(l)}
                 />
                 {l ? (
-                  <span>{NATIVE_NAMES[l]}</span>
+                  <span>{nativeNames[l]}</span>
                 ) : (
                   <Localized id={ALL_LOCALES}>
                     <span />
@@ -178,7 +180,7 @@ const TopBar = ({
                 {dropdownLocales.map(l =>
                   l ? (
                     <option key={l} value={l}>
-                      {NATIVE_NAMES[l]}
+                      {nativeNames[l]}
                     </option>
                   ) : (
                     <Localized key={ALL_LOCALES} id={l ? l : ALL_LOCALES}>

@@ -2,8 +2,11 @@ import * as React from 'react';
 import { useSelect } from 'downshift';
 import classNames from 'classnames';
 
-import { LocalizedGetAttribute } from '../locale-helpers';
-import { LOCALES, LOCALES_WITH_NAMES } from '../../services/localization';
+import {
+  LocalizedGetAttribute,
+  useAvailableLocales,
+  useNativeNameAvailableLocales,
+} from '../locale-helpers';
 import VisuallyHidden from '../visually-hidden/visually-hidden';
 
 import './localization-select.css';
@@ -14,13 +17,18 @@ interface Props {
 }
 
 function getLocaleWithName(locale: string) {
-  return LOCALES_WITH_NAMES.find(({ code }) => code === locale);
+  const availableLocalesWithNames = useNativeNameAvailableLocales();
+  return availableLocalesWithNames.find(({ code }) => code === locale);
 }
 
 const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
+  const availableLocales = useAvailableLocales();
+  const availableLocalesWithNames = useNativeNameAvailableLocales();
   const localWithName = getLocaleWithName(locale);
-  const initialSelectedItem = localWithName ? localWithName.code : LOCALES[0];
-  const items = LOCALES_WITH_NAMES.map(locale => locale.code);
+  const initialSelectedItem = localWithName
+    ? localWithName.code
+    : availableLocales[0];
+  const items = availableLocalesWithNames.map(locale => locale.code);
 
   function onSelectedItemChange({ selectedItem }: { selectedItem: string }) {
     if (selectedItem) {

@@ -6,12 +6,17 @@ export type Accent = {
   clientId?: string;
 };
 
+export type SentenceCount = {
+  currentCount: number;
+  targetSentenceCount: number;
+};
+
 // a single accent object
 export type Language = {
   id: number;
   name: string;
-  target_sentence_count: number;
-  total_sentence_count?: number;
+  sentenceCount: SentenceCount;
+  isContributable?: boolean;
 };
 
 // single variant object

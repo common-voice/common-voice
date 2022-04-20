@@ -21,6 +21,9 @@ import PageHeading from '../../../ui/page-heading';
 import ErrorPage from '../../error-page/error-page';
 import PageTextContent from '../../../ui/page-text-content';
 import Page from '../../../ui/page';
+import ClientLogger from '../../../../logger';
+
+const logger = new ClientLogger({ name: 'LanguagesRequestFormPage' });
 
 const EMAIL_ADDRESS = 'commonvoice@mozilla.com';
 
@@ -41,7 +44,7 @@ const LanguagesRequestFormPage = () => {
 
   const handleReCaptchaVerify = useCallback(async () => {
     if (!executeRecaptcha) {
-      console.error('reCAPTCHA not yet available');
+      logger.error('reCAPTCHA not yet available');
       return null;
     }
 
@@ -110,7 +113,7 @@ const LanguagesRequestFormPage = () => {
       // redirect to languages/success path if email sent correctly
       history.push(toLocaleRoute(URLS.LANGUAGE_REQUEST_SUCCESS));
     } catch (e) {
-      console.error(e);
+      logger.error(e);
       setIsSendingRequest(false);
 
       if (e.message.includes('reCAPTCHA')) {

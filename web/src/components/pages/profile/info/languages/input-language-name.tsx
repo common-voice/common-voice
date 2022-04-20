@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Localized } from '@fluent/react';
 
 import { LabeledSelect } from '../../../../ui/ui';
-import { NATIVE_NAMES } from '../../../../../services/localization';
+import { useNativeLocaleNames } from '../../../../locale-helpers';
 import { UserLanguage } from 'common';
 import { AccentsAll } from './languages';
 
@@ -19,6 +19,8 @@ const InputLanguageName = ({
   userLanguages,
   setUserLanguages,
 }: InputLanguageNameProps) => {
+  const nativeNames = useNativeLocaleNames();
+
   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     event.preventDefault();
     event.stopPropagation();
@@ -52,7 +54,7 @@ const InputLanguageName = ({
     <Localized id="profile-form-language" attrs={{ label: true }}>
       <LabeledSelect value={locale} onChange={handleChange}>
         <option value="" />
-        {Object.entries(NATIVE_NAMES).map(([locale, name]) => (
+        {Object.entries(nativeNames).map(([locale, name]) => (
           <option key={locale} value={locale}>
             {name}
           </option>

@@ -912,7 +912,21 @@ export default class DB {
         JOIN sentences s ON s.locale_id = l.id
         GROUP BY l.id`
     );
-    return rows;
+    return rows.map(
+      (row: {
+        id: number;
+        name: string;
+        target_sentence_count: number;
+        total_sentence_count: number;
+      }) => ({
+        id: row.id,
+        name: row.name,
+        sentenceCount: {
+          targetSentenceCount: row.target_sentence_count,
+          currentCount: row.total_sentence_count,
+        },
+      })
+    );
   }
 
   async getRequestedLanguages(): Promise<string[]> {

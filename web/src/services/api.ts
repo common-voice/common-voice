@@ -1,5 +1,5 @@
 import { AllGoals, CustomGoalParams } from 'common';
-import { LanguageStats } from 'common';
+import { Language, LanguageStats } from 'common';
 import { UserClient } from 'common';
 import { WeeklyChallenge, Challenge, TeamChallenge } from 'common';
 import { Sentence, Clip } from 'common';
@@ -174,6 +174,10 @@ export default class API {
         language,
       },
     });
+  }
+
+  async fetchAllLanguages(): Promise<Language[]> {
+    return this.fetch(`${API_PATH}/languages_all`);
   }
 
   async fetchLanguageStats(): Promise<LanguageStats> {

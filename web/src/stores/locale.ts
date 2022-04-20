@@ -1,6 +1,5 @@
+/* eslint-disable @typescript-eslint/no-namespace */
 import { Dispatch } from 'redux';
-import { Clips } from './clips';
-import { Sentences } from './sentences';
 import StateTree from './tree';
 
 export namespace Locale {
@@ -20,8 +19,9 @@ export namespace Locale {
   export const actions = {
     set:
       (locale: string) =>
-      (dispatch: Dispatch<SetAction | any>, getState: () => StateTree) => {
+      (dispatch: Dispatch<SetAction>, getState: () => StateTree) => {
         if (getState().locale === locale) return;
+
         dispatch({
           type: ActionType.SET,
           locale,

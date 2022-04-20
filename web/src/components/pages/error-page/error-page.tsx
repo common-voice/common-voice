@@ -18,12 +18,12 @@ import './error-page.css';
 interface Props {
   children?: React.ReactNode;
   errorCode: '404' | '503' | '500';
-  prevPath: string;
+  prevPath?: string;
 }
 
-const ErrorPage = ({ children, errorCode, prevPath = '' }: Props) => {
+const ErrorPage = ({ children, errorCode, prevPath }: Props) => {
   useEffect(() => {
-    trackError(errorCode, prevPath);
+    trackError(errorCode, prevPath || '');
   }, []);
 
   const headingLocalisationId =

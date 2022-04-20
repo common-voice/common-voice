@@ -1,5 +1,5 @@
 import * as request from 'request-promise-native';
-import { LanguageStats, Sentence } from 'common';
+import { Language, LanguageStats, Sentence } from 'common';
 import DB from './model/db';
 import { DBClip } from './model/db/tables/clip-table';
 import lazyCache from './lazy-cache';
@@ -190,21 +190,15 @@ export default class Model {
 
   getAllLanguages = lazyCache(
     'get-all-languages',
-    async () => {
+    async (): Promise<Language[]> => {
       const languages = await this.db.getLanguages();
-      return languages;
-    },
-    DAY
-  );
+      return languages.map(language => {
+        const isContributable =
+          language.sentenceCount.currentCount >=
+          language.sentenceCount.targetSentenceCount;
 
-  getContributableLanguages = lazyCache(
-    'get-contributable-languages',
-    async () => {
-      const languages = await this.getAllLanguages();
-      const contributableLanguages = languages.filter(language => {
-        return language.total_sentence_count >= language.target_sentence_count;
+        return { ...language, isContributable };
       });
-      return contributableLanguages;
     },
     DAY
   );
@@ -223,18 +217,15 @@ export default class Model {
   getLanguageStats = lazyCache(
     'get-all-language-stats',
     async (): Promise<LanguageStats> => {
-      const allLanguagesResults = await this.getAllLanguages();
-      const languages = allLanguagesResults.map(l => l.name);
-      const contributableLanguagesResults =
-        await this.getContributableLanguages();
+      const allLanguages = await this.getAllLanguages();
 
-      const contributableLanguages = contributableLanguagesResults.map(
-        language => language.name
-      );
+      const contributableLocales = allLanguages
+        .filter(language => language.isContributable)
+        .map(language => language.name);
 
-      const inProgressLocales = languages.filter(
-        language => !contributableLanguages.includes(language)
-      );
+      const inProgressLocales = allLanguages
+        .filter(language => !language.isContributable)
+        .map(language => language.name);
 
       function indexCountByLanguage(
         rows: { locale: string; count: number; target_sentence_count: number }[]
@@ -247,8 +238,8 @@ export default class Model {
             { count, locale, target_sentence_count }: any
           ) => {
             obj[locale] = {
-              current_count: count,
-              target_sentence_count: target_sentence_count,
+              currentCount: count,
+              targetSentenceCount: target_sentence_count,
             };
             return obj;
           },
@@ -267,10 +258,10 @@ export default class Model {
           .getSentenceCountByLocale(inProgressLocales)
           .then(indexCountByLanguage),
         this.db
-          .getValidClipCount(contributableLanguages)
+          .getValidClipCount(contributableLocales)
           .then(indexCountByLanguage),
         this.db
-          .getSpeakerCount(contributableLanguages)
+          .getSpeakerCount(contributableLocales)
           .then(indexCountByLanguage),
       ]);
 
@@ -280,10 +271,10 @@ export default class Model {
           localizedPercentage: localizedPercentages[locale] || 0,
           sentencesCount: sentenceCounts[locale] || 0,
         })),
-        launched: contributableLanguages.map(locale => ({
+        launched: contributableLocales.map(locale => ({
           locale,
           seconds: Math.floor(
-            (validClipsCounts[locale]?.current_count || 0) *
+            (validClipsCounts[locale]?.currentCount || 0) *
               getAvgSecondsPerClip(locale)
           ),
           speakers: speakerCounts[locale] || 0,

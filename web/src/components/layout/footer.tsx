@@ -47,7 +47,7 @@ export default React.memo(() => {
       </div>
       <div id="moz-links">
         <div className="logo-container">
-          <Logo reverse />
+          <Logo isReverse />
           <p className="license">
             <Localized
               id="content-license-text"

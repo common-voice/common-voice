@@ -7,19 +7,20 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { BaseLanguage, InProgressLanguage, LaunchedLanguage } from 'common';
 import API from '../../../services/api';
-import { NATIVE_NAMES } from '../../../services/localization';
 import { trackLanguages } from '../../../services/tracker';
 import { Locale } from '../../../stores/locale';
+import * as Languages from '../../../stores/languages';
 import StateTree from '../../../stores/tree';
 import URLS from '../../../urls';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
-import { LinkButton, Button, Hr, StyledLink, TextButton } from '../../ui/ui';
+import { LinkButton, Hr, StyledLink, TextButton } from '../../ui/ui';
 import Page from '../../ui/page';
 import LocalizationBox, { LoadingLocalizationBox } from './localization-box';
 
 interface PropsFromState {
   api: API;
   locale: Locale.State;
+  languages: Languages.State;
 }
 
 interface Props extends PropsFromState, WithLocalizationProps {}
@@ -110,7 +111,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
 
     inProgress.sort(
       presortLanguages((l1, l2) =>
-        l1.sentencesCount.current_count < l2.sentencesCount.current_count ||
+        l1.sentencesCount.currentCount < l2.sentencesCount.currentCount ||
         l1.localizedPercentage < l2.localizedPercentage
           ? 1
           : -1
@@ -166,9 +167,10 @@ class LanguagesPage extends React.PureComponent<Props, State> {
   };
 
   handleQueryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const { getString } = this.props;
+    const { getString, languages } = this.props;
     const { inProgress, launched, selectedSection } = this.state;
     const query = event.target.value;
+    const { nativeNames } = languages;
 
     function filterLanguages<T>(languages: T[]): T[] {
       return query
@@ -177,7 +179,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             return (
               locale.includes(q) ||
               getString(locale).toLowerCase().includes(q) ||
-              (NATIVE_NAMES[locale] || '').toLowerCase().includes(q)
+              (nativeNames[locale] || '').toLowerCase().includes(q)
             );
           })
         : languages;
@@ -421,9 +423,10 @@ class LanguagesPage extends React.PureComponent<Props, State> {
   }
 }
 
-const mapStateToProps = ({ api, locale }: StateTree) => ({
+const mapStateToProps = ({ api, locale, languages }: StateTree) => ({
   api,
   locale,
+  languages,
 });
 
 export default connect<PropsFromState>(mapStateToProps)(
