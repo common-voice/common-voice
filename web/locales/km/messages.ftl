@@ -9,6 +9,8 @@ email-input =
 submit-form-action = ដាក់បញ្ជូន
 loading = កំពុងផ្ទុក...
 email-opt-in-info = ខ្ញុំ​ចង់​ទទួល​អ៊ីមែល​ដូចជា​ការរលឹក​អំពីគោលដៅ បច្ចុប្បន្នភាព​ដំណើរការ​របស់ខ្ញុំ និង​ព្រឹត្តិបត្រ​អំពី Common Voice។
+email-opt-in-info-title = ចូលរួម​បញ្ជីសំបុត្ររួម Common Voice
+email-opt-in-info-sub-with-challenge = ទទួលបានអ៊ីមែល​ដូចជា​ការរំលឹក​អំពី​បញ្ហា​ប្រឈម និង​គោលដៅ បច្ចុប្បន្នភាព​ដំណើរការ និង​ព្រឹត្តិបត្រ​ព័ត៌មាន​អំពី Common Voice។
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -111,6 +113,9 @@ email-opt-in-info = ខ្ញុំ​ចង់​ទទួល​អ៊ីមែ
 ## Request Language Modal
 
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 
@@ -165,6 +170,9 @@ email-opt-in-info = ខ្ញុំ​ចង់​ទទួល​អ៊ីមែ
 
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO
