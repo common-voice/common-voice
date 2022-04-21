@@ -11,6 +11,13 @@ loading = កំពុងផ្ទុក...
 email-opt-in-info = ខ្ញុំ​ចង់​ទទួល​អ៊ីមែល​ដូចជា​ការរលឹក​អំពីគោលដៅ បច្ចុប្បន្នភាព​ដំណើរការ​របស់ខ្ញុំ និង​ព្រឹត្តិបត្រ​អំពី Common Voice។
 email-opt-in-info-title = ចូលរួម​បញ្ជីសំបុត្ររួម Common Voice
 email-opt-in-info-sub-with-challenge = ទទួលបានអ៊ីមែល​ដូចជា​ការរំលឹក​អំពី​បញ្ហា​ប្រឈម និង​គោលដៅ បច្ចុប្បន្នភាព​ដំណើរការ និង​ព្រឹត្តិបត្រ​ព័ត៌មាន​អំពី Common Voice។
+email-opt-in-privacy-v2 = តាមរយៈ​ការ​ជ្រើសរើស​ទទួល​អ៊ីមែល អ្នក​បញ្ជាក់​ថា​អ្នក​មិន​អី​ទេ​ជាមួយ Mozilla ក្នុងការចាត់ចែង​ព័ត៌មាន​នេះ​ដូច​ដែល​បាន​ពន្យល់​ក្នុង <privacyLink>គោលការណ៍​ឯកជនភាព</privacyLink> របស់ Mozilla។
+indicates-required = កន្លែង​បញ្ចូល​ដែលសម្គាល់​ដោយ​សញ្ញា (*) ត្រូវតម្រូវឱ្យបញ្ចូល។
+not-available-abbreviation = មិនអាចអនុវត្តបាន
+banner-error-slow-1 = សូអធ្យាស្រ័យផង Common Voice កំពុង​ដំណើរការជាសន្សឹមៗ។ សូមអរគុណ​ដែល​អ្នកចាប់អារម្មណ៍។
+banner-error-slow-2 = យើង​កំពុង​ទទួល​ចំនួន​ចូលមើល​យ៉ាងច្រើន ហើយ​បច្ចុប្បន្ន​យើង​កំពុង​សង្កេត​លើ​បញ្ហានេះ។
+banner-error-slow-link = ទំព័រ​ស្ថានភាព
+error-something-went-wrong = សូមអធ្យាស្រ័យផង មានអ្វីមួយ​ខុសប្រក្រតី
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -18,6 +25,8 @@ email-opt-in-info-sub-with-challenge = ទទួលបានអ៊ីមែល�
 
 ## Languages
 
+ab = អាប់ខាស
+ace = អាសេណេស
 
 # [/]
 
