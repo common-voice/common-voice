@@ -812,6 +812,9 @@ request-language-success-list-3 =
     Om du inte hör från oss inom ett par dagar,
     kontakta <emailLink>{ $email }</emailLink>
     så återkommer vi till dig!
+request-language-error =
+    Vi kanske inte har fått den begäran. Vänligen maila oss direkt
+    på <emailLink>{ $email }</emailLink> så återkommer vi till dig!
 
 ## Languages Overview
 
