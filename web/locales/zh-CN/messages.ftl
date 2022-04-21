@@ -574,11 +574,13 @@ about-playbook-how-grow-language-content-6 = 合作伙伴网络
 ## How to access dataset
 
 about-playbook-how-access-dataset = 如何访问和使用数据集？
+about-playbook-how-access-dataset-content-2 = 若您正在寻找构建 ASR 模型的工具，欢迎到 <discourseLink>Discourse</discourseLink> 联系社区成员。
 
 ## How are decisions made
 
 about-playbook-how-project-governance = 项目决策是如何作出的？
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice 是由来自世界各地的活动家、语言学家、数据科学家、学者和软件工程师组成的多元化社区实现的。该项目由 Mozilla 基金会管理。
+about-playbook-how-project-governance-content-2 = 我们的治理建立在以下的基础上：
 about-playbook-how-project-governance-content-3 = 隐私、安全和透明度。
 about-playbook-how-project-governance-content-4 = 社区参与决策。
 about-playbook-how-project-governance-content-6 = 相互问责。
