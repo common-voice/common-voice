@@ -38,7 +38,11 @@ function memoryCache<T, S>(cachedFunction: Fn<T, S>, timeMs: number): Fn<T, S> {
   };
 }
 
-function redisCache<T, S>(cachedFunction: Fn<T, S>, timeMs: number): Fn<T, S> {
+function redisCache<T, S>(
+  cacheKey: string,
+  cachedFunction: Fn<T, S>,
+  timeMs: number
+): Fn<T, S> {
   return async (...args) => {
     const key = JSON.stringify(args);
 
