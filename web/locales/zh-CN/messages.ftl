@@ -555,6 +555,7 @@ about-playbook-how-record-quality = 如何录制高质量的语音片段？
 about-playbook-how-record-content-2 = 避免录入过多背景噪音，要确保您的声音清晰易辨。
 about-playbook-how-record-content-3 = 准确读出句子内容，不要漏词、改词或添词。
 about-playbook-how-record-content-4 = 确定平台正在录音后再开始朗读，读完后再点击停止录制。
+about-playbook-how-record-content-5 = <accuracyLink>了解准确性的判断标准。</accuracyLink>
 
 ## How to grow language
 
