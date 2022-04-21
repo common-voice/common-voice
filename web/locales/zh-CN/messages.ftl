@@ -390,6 +390,7 @@ off = 关
 on = 开
 help-accent = 需要口音方面的帮助？
 help-accent-explanation = 口音就是您发音的方式，通常受到您生活过的地方、会说的语言等诸多因素影响。您可以在此分享任何您认为有关的信息。
+help-variants = 需要关于变体的帮助说明吗？
 help-variants-explanation = 变体是一种语言的特定形式 - 例如在某片区域内人们的说话方式被称为一种变体。有时称其为方言。
 
 ## Profile - Email
@@ -532,6 +533,7 @@ about-nav-playbook = 了解如何参与
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language-content-3 = 某些语言在内部有诸多语法、词汇和发音差异。由此，我们自 2022 年起<ctaLink>引入了“变体”的概念</ctaLink>。让各社区能够在大型数据集中更精准地分辨他们的语言。
 
 ## How do I add a language
 
@@ -547,11 +549,13 @@ about-playbook-how-localize-content-5 = 观看我们的帮助视频
 ## How to add sentences
 
 about-playbook-how-add-sentences = 如何添加语句？
+about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 从维基百科收集短句。
 about-playbook-how-add-sentences-content-4 = 通过的句子在周三导出，并在下一次数据集发布后可用。
 
 ## How to record quality
 
 about-playbook-how-record-quality = 如何录制高质量的语音片段？
+about-playbook-how-record-content-1 = 说话时请自然一些！我们喜欢您的说话方式，同时也希望收集您的口音，以及平时说话的音量、风格及语调。
 about-playbook-how-record-content-2 = 避免录入过多背景噪音，要确保您的声音清晰易辨。
 about-playbook-how-record-content-3 = 准确读出句子内容，不要漏词、改词或添词。
 about-playbook-how-record-content-4 = 确定平台正在录音后再开始朗读，读完后再点击停止录制。
