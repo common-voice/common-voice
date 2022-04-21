@@ -776,6 +776,10 @@ request-language-explanation-1 =
     <languagesPageLink>pàgina de llengües del Common Voice</languagesPageLink>.
     Si no, ompliu aquest formulari i us enviarem un correu electrònic
     explicant com afegir la vostra llengua</strong>.
+request-language-explanation-2 =
+    També <strong>informarem el nostre gestor de comunitats
+    que hi teniu interès</strong>, perquè us pugui donar qualsevol
+    suport addicional o informació que necessiteu.
 request-language-form-email =
     .label = La vostra adreça electrònica
 request-language-form-info =
