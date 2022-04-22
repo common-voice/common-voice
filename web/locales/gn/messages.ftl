@@ -778,6 +778,9 @@ request-language-form-email =
     .label = Ne ñanduti veve kundaharape
 request-language-form-info =
     .label = Marandu ñe’ẽ rehegua
+request-language-form-info-explanation =
+    Embojuaju opaite marandu eipotáva ñe’ẽ rehegua. Kóvape
+    emoĩkuaa:
 request-language-form-info-explanation-list-1 = Ne ñe’ẽ réra
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO ayvu</isoCodeLink> ojeikuaáramo
 request-language-form-info-explanation-list-3 = Ñanduti renda mbojuajuha ne pytyvõtava eikumby hag̃ua ñe’ẽ.
