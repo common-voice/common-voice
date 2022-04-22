@@ -505,10 +505,13 @@ about-get-involved-text-2 =
 about-stay-in-touch = Як я магу заставацца на сувязi?
 about-stay-in-touch-button = Зарэгістравацца
 about-stay-in-touch-text-1 = <emailFragment>Далучайцеся</emailFragment> да нашага паштовага рассылання, каб даведацца, як вы можаце прымаць удзел у кампанiях, падзеях i распрацоўцы Common Voice.
+about-stay-in-touch-text-2 = Вы можаце пазнаёміцца з іншымі ў моўных супольнасцях Mozilla, далучыўшыся да <discourseLink>Discourse</discourseLink> для тэматычных размоў, або да <matrixLink>Matrix</matrixLink> каб атрымаць хуткую параду.
 about-nav-why-common-voice = Чаму?
 about-nav-how-it-works = Як?
 about-nav-partners = Партнёры
 about-nav-get-involved = Прыняць удзел
+about-nav-how-it-works-2 = Як працуе Common Voice?
+about-nav-playbook = Даведайцеся, як прыняць удзел
 
 ## Community Playbook Content
 ## What is a language
@@ -519,6 +522,12 @@ about-nav-get-involved = Прыняць удзел
 
 ## How does localization work
 
+about-playbook-how-localize = Як працуе лакалізацыя сайта?
+about-playbook-how-localize-content-1 = Пераклад сайта Common Voice адбываецца ў <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Стварыце ўліковы запіс</pontoonAccountLink>, калі ў вас яго няма. Затым абярыце сваю моўную <strong>("Каманду")</strong>, а потым выберыце праект <pontoonCvLink>Common Voice</pontoonCvLink>. Там будуць файлы для перакладу. Пстрыкніце на адзiн з іх, пасля чаго будуць паказаны словы на англійскай мове і поле для іх перакладу.
+about-playbook-how-localize-content-3 = Пераклад выконваецца з ангельскай, але вы можаце ўбачыць <strong>Прапановы</strong> на іншых мовах. Націсніце на значок <strong>Профілю</strong>, затым спасылку <strong>Налады</strong> і дадайце ўсе мовы, якiмi вы валодаеце. У правым ніжнім куце будзе спіс перакладаў пад назвай <strong>Лакалi</strong>. Пераклады з'явяцца на сайце праз адзін дзень.
+about-playbook-how-localize-content-4 = Сайт гатовы да запуску, калі ён будзе перакладзены на 75%.
+about-playbook-how-localize-content-5 = Паглядзіце наш відэа-тлумачальнік для даведкi
 
 ## How to add sentences
 
