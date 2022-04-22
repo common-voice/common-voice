@@ -36,7 +36,6 @@ ba = Башкірская
 bas = Баса
 be = Беларуская
 bg = Балгарская
-bm = Бамбара
 bn = Бенгальская
 br = Брэтонская
 bxr = Бурацкая
@@ -458,15 +457,18 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Чаму Common Voice?
-about-subtitle = Common Voice — гэта адна з ініцыятыў Mozilla, прысвечаных таму, каб навучыць машыны голасу сапраўдных людзей. Акрамя набора дадзеных Common Voice, мы таксама распрацоўваем Deep Speech, рухавік распазнавання маўлення з адкрытым зыходным кодам.
-about-header-description =
-    Абодва гэтыя праекты – частка нашых намаганняў па выпраўленні хібаў ў сферы лічбавых маўленчых тэхналогій. Дэвайсы набываюць чалавечае вымярэнне, дзякуючы тэхналогіям распазнавання маўлення, але праграмістам патрабуецца велізарны аб'ём галасавых дадзеных для іх распрацоўкі. На сённяшні дзень большасць такіх дадзеных – прапрыетарныя і дарагія.
-    Мы хочам зрабіць галасавыя дадзеныя свабоднымі і агульнадаступнымі, а таксама забяспечыць іх разнастайнасць, як у сапраўдным жыцці. Разам мы можам зрабіць распазнаванне маўлення лепшым для кожнага.
-about-header-description-2 =
-    Гэты праект – частка нашых намаганняў па выпраўленні хібаў ў сферы лічбавых маўленчых тэхналогій. Дэвайсы набываюць чалавечае вымярэнне, дзякуючы тэхналогіям распазнавання маўлення, але праграмістам патрабуецца велізарны аб'ём галасавых дадзеных для іх распрацоўкі. На сённяшні дзень большасць такіх дадзеных – прапрыетарныя і дарагія.
-    Мы хочам зрабіць галасавыя дадзеныя свабоднымі і агульнадаступнымі, а таксама забяспечыць іх разнастайнасць, як у сапраўдным жыцці. Разам мы можам зрабіць распазнаванне маўлення лепшым для кожнага.
-how-does-it-work-title = Як гэта працуе?
+how-does-it-work-title-v2 = Як працуе Common Voice?
 how-does-it-work-text = Мы збіраем адкрыты набор галасавых дадзеных. Ахвяруйце свой голас, правярайце якасць запісаў, зробленых іншымі ўдзельнікамі, і рабіце набор дадзеных лепшым для кожнага.
+
+## How does it work section
+
+about-language-req-subtitle = Нехта просіць дадаць мову.
+about-localization-title = Лакалізацыя вэб-сайта
+about-localization-subtitle = Тэкст вэб-сайта перакладаецца на гэтую мову.
+about-sentence-collection-title = Збор сказаў
+about-sentence-collection-subtitle = Збiраюцца сказы для чытання ўслых.
+about-new-lang-title = Запуск новай мовы
+about-new-lang-subtitle = Мы запускаем сайт Common Voice на гэтай мове.
 about-speak = Агучванне
 about-speak-text = Удзельнікі запісваюць галасавыя кліпы, агучваючы ахвяраваныя сказы.
 about-listen-queue = Чарга праслухоўвання
@@ -497,6 +499,34 @@ about-nav-why-common-voice = Чаму?
 about-nav-how-it-works = Як?
 about-nav-partners = Партнёры
 about-nav-get-involved = Прыняць удзел
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft AI
 mycroft-subtitle = Штучны інтэлект
 mycroft-description =
@@ -644,6 +674,9 @@ request-language-success-title = Запыт мовы паспяхова адас
 request-language-success-content = У самым хуткім часе мы дашлем вам больш інфармацыі пра тое, як дадаць вашу мову ў Common Voice.
 select-language = Выберыце мову...
 other-language = Іншая мова
+
+## Request Language Pages
+
 
 ## Languages Overview
 
@@ -988,3 +1021,59 @@ contribution-just-unsure-title = Проста не ўпэўненыя?
 contribution-just-unsure-description = Калi вам трапiлася нешта не апiсанае ў гэтых iнструкцыях, калi ласка галасуйце адпаведна вашаму меркаванню. Калi вы сапраўды не можаце вырашыць, нацicнiце на кнопку пропуску i пераходзьце да наступнага запiсу.
 see-more = <chevron></chevron>Больш
 see-less = <chevron></chevron>Менш
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
