@@ -496,6 +496,7 @@ how-does-it-work-text = Sevel a reomp un teskad roadennoù mouezhioù a-stroll. 
 
 ## How does it work section
 
+about-sentence-collection-title = Dastumadeg frazennoù
 about-speak = Komz
 about-speak-text = Ar gendaolerien a enroll klipoù mouezh en ul lenn e-touez un hollad a frazennoù roet.
 about-listen-queue = Roll gortoz
