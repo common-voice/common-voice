@@ -475,6 +475,7 @@ about-voice-validation-title = Праверка запiсаў
 about-voice-validation-subtitle = Іншыя людзі правяраюць гэтыя галасавыя кліпы.
 about-dataset-release-title = Выпуск набору дадзеных
 about-dataset-release-subtitle = Мы выпускаем набор дадзеных кожныя 3 месяцы.
+about-subscribe-text = Хочаце заставацца на сувязі з Common Voice?
 about-speak = Агучванне
 about-speak-text = Удзельнікі запісваюць галасавыя кліпы, агучваючы ахвяраваныя сказы.
 about-listen-queue = Чарга праслухоўвання
@@ -501,6 +502,9 @@ about-get-involved = Прыняць удзел
 about-get-involved-text-2 =
     Хочаце дапамагчы зрабіць Common Voice яшчэ лепшым?
     Выдатна! Пішыце нам па электроннай пошце ці на форуме ў <discourseLink>Discourse</discourseLink>, паведамляйце пра праблемы праз <githubLink>GitHub</githubLink> ці далучайцеся да агульнага чата ў <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Як я магу заставацца на сувязi?
+about-stay-in-touch-button = Зарэгістравацца
+about-stay-in-touch-text-1 = <emailFragment>Далучайцеся</emailFragment> да нашага паштовага рассылання, каб даведацца, як вы можаце прымаць удзел у кампанiях, падзеях i распрацоўцы Common Voice.
 about-nav-why-common-voice = Чаму?
 about-nav-how-it-works = Як?
 about-nav-partners = Партнёры
