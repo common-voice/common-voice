@@ -1165,6 +1165,13 @@ sc-review-form-source = ที่มา: { $sentenceSource }
 sc-review-form-button-reject = ปฏิเสธ
 sc-review-form-button-skip = ข้าม
 sc-review-form-button-approve = อนุมัติ
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = คุณยังสามารถใช้แป้นพิมพ์ลัด: { sc-review-form-button-approve-shortcut } เพื่ออนุมัติ, { sc-review-form-button-reject-shortcut } เพื่อปฏิเสธ, { sc-review-form-button-skip-shortcut } เพื่อข้าม
 sc-review-form-button-submit =
     .submitText = เสร็จสิ้นการตรวจสอบ
 sc-review-form-review-failure = ไม่สามารถบันทึกการตรวจทาน กรุณาลองใหม่อีกครั้งในภายหลัง
