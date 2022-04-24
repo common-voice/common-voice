@@ -757,6 +757,9 @@ request-language-form-email =
     .label = Tansa-inek·inem n yimayl
 request-language-form-info =
     .label = Talɣut ɣef tutlayt
+request-language-form-info-explanation =
+    Rnu ugar n talɣut iwumi i tzemreḍ ɣef tutlayt. Talɣut-a
+    yezmer ad yili deg-s:
 request-language-form-info-explanation-list-1 = Ismawen n tutlayt-ik
 request-language-form-info-explanation-list-2 = <isoCodeLink>Tingalin ISO</isoCodeLink> ma ttwassnent
 request-language-form-info-explanation-list-3 = Iseɣwan ɣer yismal web i izemren ad aɣ-d-fken afus ad negzu tutlayt-a
@@ -764,6 +767,9 @@ request-language-google-recaptcha-required = reCAPTCHA ilaq ma tebɣiḍ ad tkem
 request-language-google-recaptcha-error = Yella wayen ur nteddu ara akken ilaq akked reCAPTCHA. Ma ulac aɣilif, εreḍ tikkelt-nniḍen.
 # Success page
 request-language-success-heading = Tanemmirt! Tuzneḍ-d assuter amaynut n tutlayt
+request-language-success-list-1 =
+    Ilaq ad tremseḍ imayl ideg ara d-ttwasegzunt
+    takkayin ɣef wamek ara ternuḍ tutlayt-ik·im ɣer Common Voice
 
 ## Languages Overview
 
@@ -1347,6 +1353,7 @@ sc-criteria-modal = Tiwtilin n usenqed
 sc-criteria-title = Tiwtilin n usenqed
 sc-criteria-item-1 = Tafyirt ilaq ad tettwaru akken iwata.
 sc-criteria-item-2 = Tafyirt ilaq ad tili d tameɣtut seg tama n tjerrumt.
+sc-criteria-item-4 = Ma yella tafyirt deg-s akk isefranen, sit ɣef tqeffalt &quot;Sentem&quot; yellan ɣef yeffus.
 sc-criteria-item-6 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!
 
 ## REVIEW
@@ -1390,6 +1397,7 @@ sc-settings-title = Iɣewwaṛen
 sc-settings-ui-language = Tutlayt n ugrudem
 sc-settings-reset-skipped = Ales awennez n tefyar yettwanfen
 sc-settings-show-all-button = Sken-d meṛṛa tutlayin i tunfeḍ
+sc-settings-failed = D awezɣi asnefli n yiɣewwaren. Ɛreḍ tikkelt-nniḍen.
 # VALIDATION
 sc-validation-number-of-words = Ilaq tafyirt ad tegber gar 1 d 14 n wawalen (ddan)
 sc-validation-no-numbers = Ur ilaq tafyirt ad tegber izwilen
