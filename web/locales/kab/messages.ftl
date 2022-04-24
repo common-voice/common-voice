@@ -1112,6 +1112,7 @@ contribution-background-noise-description = Lemmer d lebɣi tili ilguritmen n ul
 contribution-background-noise-example-2-fixed-title = Imqer<strong>[tusut]</strong> yettidir deg waman.
 contribution-background-noise-example-2-explanation = [Aḥric seg uḍris ur yettwafham ara]
 contribution-background-voices-title = Lḥess n deffir
+contribution-background-voices-example-1-explanation = Ad d-tedduḍ? <strong>[tettwasusru s taɣect-nniḍen]</strong>
 contribution-volume-title = Ableɣ
 contribution-just-unsure-title = Tkukraḍ?
 see-more = <chevron></chevron>Wali ugar
@@ -1164,8 +1165,12 @@ sc-howto-cite-item-1 = Tzemreḍ ad tsedduḍ asmel web, am. "Common Voice - htt
 sc-howto-review-title = Senqed tifyar
 sc-howto-review-criteria-1 = Tafyirt ilaq ad tettwaru akken iwata.
 sc-howto-review-criteria-2 = Tafyirt ilaq ad tili d tameɣtut seg tama n tjerrumt.
+sc-howto-review-criteria-4 = Ma yella tafyirt deg-s akk isefranen, sit ɣef tqeffalt "Sentem".
+sc-howto-review-criteria-6 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!
+sc-howto-findpd-title = Tifin n tefyar yellan deg taqult tazayazt
 sc-howto-findpd-subtitle = Nadi-ten deg Internet
 sc-howto-findpd-tips = Ha-ten-a kra n yiwellihen i tifin n tefyar:
+sc-howto-findpd-subtitle-2 = Ttekki akked tkebbaniyin neɣ akked yimdanen i ak·akem-iqerben
 
 ## MY SENTENCES
 
@@ -1194,6 +1199,7 @@ sc-rejected-none-found = Ulac tifyar yettwagin!
 
 sc-stats-title = Tidaddanin
 sc-stats-updating = Abeddel...
+sc-stats-error = Ur nessaweḍ ara ad d-nerr tidaddanin. Ttxil-k·m ɛreḍ tikkelt-nniḍen ticki.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1223,6 +1229,7 @@ sc-submit-guidelines = Ttxil-k wali <howToLink>iwellihen</howToLink>.
 sc-add-lang-could-not-add = Ur izmir ara ad yernu tutlayt
 sc-add-lang-sec-label = Rnu tutlayt i tebɣiḍ akken ad tettekkiḍ
 sc-add-lang-sec-button = Rnu tutlayt
+sc-add-err-unexpected = Aqeddac yerra-d yir tiririt ur nettwaṛǧi ara
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
