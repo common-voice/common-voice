@@ -515,6 +515,7 @@ about-nav-get-involved = 参加しよう
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = イベント
 
 ## How to validate
 
@@ -585,6 +586,7 @@ review-delete-recordings = 録音を削除
 
 ## Datasets Page
 
+datasets-heading = データセット
 datasets-headline = 音声対応のアプリケーションをトレーニングするために誰でも使用できるオープンソースの多言語音声データセットを構築しています。
 datasets-positioning =
     私たちは、大規模で公的に利用可能な音声データセットが機械学習ベースの音声技術において技術革新と健全な商業競争を促進すると信じています。
@@ -663,6 +665,9 @@ request-language-success-title = ありがとうございます。言語のリ�
 request-language-success-content = Common Voice にあなたの言語を追加する方法について、こちらから連絡します。
 select-language = 言語を選択...
 other-language = 他の言語
+
+## Request Language Pages
+
 
 ## Languages Overview
 
