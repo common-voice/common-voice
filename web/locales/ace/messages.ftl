@@ -261,6 +261,7 @@ faq-what-cv-q = Peue nyan Common Voice?
 
 ## How does it work section
 
+about-nav-get-involved = Peurôh droe
 
 ## Community Playbook Content
 ## What is a language
