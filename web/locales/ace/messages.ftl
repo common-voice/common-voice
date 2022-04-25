@@ -9,7 +9,6 @@ email-input =
 submit-form-action = Peuét
 loading = Pumeuhah...
 email-opt-in-info = Lon galak beujitamöng surat-e lagee peuingat tujuan, seuneubaro progress lon ngon seunurat keu bhaih Su Common.
-email-opt-in-privacy = Ngön ka neutém teurimöng surat-e, droeneuh ka akô ngön Mozilla keu jingui haba nyoe lagèe ka geupeutrang lam <privacyLink>Reusam Privasi<privacyLink> Mozilla.
 indicates-required = * Suwah geupasoe
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -25,17 +24,23 @@ af = Bahsa Afrikaans
 am = Basa Amhara
 an = Bahsa Aragon
 ar = Bahsa Arab
+arn = Mapudungun
 as = Bahsa Assam
 ast = Bahsa Asturian
 az = Bahsa Azeri
 ba = Basa Basykirs
+bas = Basaa
+be = Basa Belarus
 bg = Bahsa Bulgaria
 bn = Bahsa Banggali
 br = Bahsa Breton
+bs = Bosnia
 bxr = Bahsa Buryat
 ca = Bahsa Katalan
 cak = Bahsa Kaqchikel
+ckb = Kurdi Teungoh
 cnh = Bahsa Hakha Chin
+co = Korsika
 cs = Bahsa Ceko
 cv = Bahsa Chuvash
 cy = Bahsa Wales
@@ -50,17 +55,24 @@ es = Bahsa Seupanyo
 et = Bahsa Èstonia
 eu = Basa Basku
 fa = Bahsa Parisi
+ff = Fulah
 fi = Bahsa Finlandia
 fo = Bahsa Faroe
 fr = Bahsa Peurancih
 fy-NL = Bahsa Frisia
 ga-IE = Bahsa Irlandia
 gl = Bahsa Galisia
+gn = Guarani
+gom = Konkani Goa
+ha = Hausa
 he = Bahsa Ibrani
-hi-IN = Basa Hindi
+hi = Hindi
 hr = Bahsa Kroasia
 hsb = Bahsa Sorbia Ateueh
+ht = Haiti
 hu = Bahsa Hongaria
+hy-AM = Armenia
+hyw = Armènia Barat
 ia = Bahsa Intèrlingua
 id = Bahsa Indônèsia
 is = Bahsa Islandia
@@ -174,6 +186,12 @@ profile-form-submit-save = Keubah
 profile-form-submit-saved = Teukeubah
 profile-close = Tôp
 
+## Profile - Email
+
+
+## Profile - Email
+
+
 ## FAQ
 
 faq-what-cv-q = Peue nyan Common Voice?
@@ -181,10 +199,41 @@ faq-what-cv-q = Peue nyan Common Voice?
 ## ABOUT US
 
 
+## How does it work section
+
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
 ## Glossary
 
 
-## NotFound
+## Error pages
 
 
 ## Data
@@ -213,12 +262,14 @@ contact-form-name =
 request-language-form-language =
     .label = Bahsa
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 
 ## Contribution
 
-clips-with-count = <bold>{ $count }</bold> Klip
 
 ## Reporting
 
@@ -240,5 +291,82 @@ everyone = Tiep ureueng
 remove = Sampôh
 profile-form-delete = Sampôh Profil
 
+## Profile Download
+
+
 ## Landing
+
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
