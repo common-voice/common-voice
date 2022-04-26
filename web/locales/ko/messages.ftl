@@ -1175,12 +1175,20 @@ sc-logout-button = 로그아웃
 ## HOME
 
 sc-home-title = Common Voice Sentence Collector에 오신 것을 환영합니다
+sc-home-collect-title = 문장 수집
+sc-home-collect-text = 공개 도메인 문장을 작성하거나 수집하여 저희를 도와주세요.
+sc-home-review-title = 문장 검토
+sc-home-review-text = 지침에 따라 문장의 정확도를 검토하여 저희를 도와주세요.
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = 길잡이
+sc-howto-addlang-title = 작업할 언어 추가
+sc-howto-addlang-text = 로그인하면 프로필 섹션에서 언어를 선택할 수 있습니다.
+sc-howto-addsen-title = 새로운 문장 추가
 
 ## MY SENTENCES
 
