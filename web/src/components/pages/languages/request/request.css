@@ -70,8 +70,3 @@
     max-width: 100%;
     min-height: 150px;
 }
-
-.languages-request-page__content__form__google-recaptcha {
-    margin-bottom: 1em;
-    color: var(--dark-red);
-}

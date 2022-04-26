@@ -10,6 +10,9 @@ import UserClient from './lib/model/user-client';
 import DB from './lib/model/db';
 import { earnBonus } from './lib/model/achievements';
 import { getConfig } from './config-helper';
+import Logger from './lib/logger';
+
+const logger = new Logger({ name: 'auth-router' });
 
 const {
   ENVIRONMENT,
@@ -96,7 +99,7 @@ if (DOMAIN) {
 
   passport.use(strategy);
 } else {
-  console.log('No Auth0 configuration found');
+  logger.log('No Auth0 configuration found');
 }
 
 function parseState(request: Request) {
@@ -142,7 +145,7 @@ router.get(
         // if the user is unregistered, pass enrollment to frontend
         user.enrollment = enrollment;
       } else {
-        // if the user is already registered, now he/she should be enrolled
+        // if the user is already registered, now they should be enrolled
         // [TODO] there should be an elegant way to get the client_id here
         const client_id = await UserClient.findClientId(user.emails[0].value);
         await earnBonus('sign_up_first_three_days', [

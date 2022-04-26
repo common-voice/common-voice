@@ -31,15 +31,6 @@ jest.mock('../../../../hooks/store-hooks', () => ({
   }),
 }));
 
-jest.mock('react-google-recaptcha-v3', () => ({
-  GoogleReCaptchaProvider: ({ children }: { children: React.ReactNode }) => (
-    <div>{children}</div>
-  ),
-  useGoogleReCaptcha: () => ({
-    executeRecaptcha: () => 'mock-google-recaptcha-response',
-  }),
-}));
-
 async function fillInForm({
   getByRole,
   getByLabelText,
@@ -93,7 +84,6 @@ describe('LanguagesRequestFormPage', () => {
       email: 'billgates@example.com',
       languageInfo: 'The language is JavaScript lol!',
       languageLocale: 'en-US',
-      reCAPTCHAClientResponse: 'mock-google-recaptcha-response',
     });
 
     // redirects to success page

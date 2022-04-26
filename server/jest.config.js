@@ -8,4 +8,5 @@ module.exports = {
   preset: 'ts-jest',
   testRegex: '(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$',
   moduleFileExtensions: ['ts', 'tsx', 'js', 'json'],
+  setupFiles: ['<rootDir>/src/test/mock-logger.ts'],
 };

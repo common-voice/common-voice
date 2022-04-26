@@ -4,8 +4,6 @@ import * as AWS from '@aws-sdk/client-ses';
 import { CommonVoiceConfig, getConfig, injectConfig } from '../config-helper';
 import Email from './email';
 
-jest.mock('./logger');
-
 jest.mock('@aws-sdk/client-ses');
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

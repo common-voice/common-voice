@@ -3,6 +3,10 @@ import { S3, SSM } from 'aws-sdk';
 import { SESClientConfig } from '@aws-sdk/client-ses';
 import { config } from 'dotenv';
 
+import Logger from './lib/logger';
+
+const logger = new Logger({ name: 'config-helper' });
+
 if (process.env.DOTENV_CONFIG_PATH) {
   const result = config({ path: process.env.DOTENV_CONFIG_PATH });
   if (result.error) {
@@ -53,7 +57,6 @@ export type CommonVoiceConfig = {
   FLAG_BUFFER_STREAM_ENABLED: boolean;
   EMAIL_USERNAME_FROM: string;
   EMAIL_USERNAME_TO: string;
-  GOOGLE_RECAPTCHA_SECRET_KEY: string;
 };
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -117,10 +120,6 @@ const BASE_CONFIG: CommonVoiceConfig = {
   ),
   EMAIL_USERNAME_FROM: configEntry('CV_EMAIL_USERNAME_FROM', null),
   EMAIL_USERNAME_TO: configEntry('CV_EMAIL_USERNAME_TO', null),
-  GOOGLE_RECAPTCHA_SECRET_KEY: configEntry(
-    'CV_GOOGLE_RECAPTCHA_SECRET_KEY',
-    null
-  ),
 };
 
 let injectedConfig: CommonVoiceConfig;
@@ -186,7 +185,7 @@ export function getConfig(): CommonVoiceConfig {
     const config_path = process.env.SERVER_CONFIG_PATH || './config.json';
     fileConfig = JSON.parse(fs.readFileSync(config_path, 'utf-8'));
   } catch (err) {
-    console.error(
+    logger.error(
       `Could not load config.json, using defaults (error message: ${err.message})`
     );
   }
