@@ -757,7 +757,7 @@ request-language-heading = Wo nowu rěč prosyć
 request-language-explanation-1 =
     Přepruwujće, hač waša rěč je na
     <languagesPageLink>stronje rěčow Common Voice</languagesPageLink> podata.
-    Jeli nic, wupjelńće tutón formular a <strong>budźemy wam wužitny mejlku, kotraž rozjasnja, kak móžeće swoju rěč připrawić</strong>.
+    Jeli nic, wupjelńće tutón formular a <strong>budźemy wam wužitnu mejlku, kotraž rozjasnja, kak móžeće swoju rěč připrawić</strong>.
 request-language-form-email =
     .label = Waša e-mejlowa adresa
 request-language-form-info =
@@ -1467,7 +1467,6 @@ sc-review-link = Pohódnoćić
 
 sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěč wužiwarskeho powjercha
-sc-settings-language-translated-warning = Strony za tutu rěč snano dospołnje přełožene njejsu. Móžeće z přełoženjom na <pontoonLinkLink>Pontoon</pontoonLinkLink> wupomhać.
 sc-settings-reset-skipped = Přeskočene sady wróćo stajić
 sc-settings-skipped-decription = Sće do toho sady při pohódnoćenju přeskočił. Wróćostajenje přeskočenych sadow budźe wšě přeskočene sady znowa pokazować. To je njewotwisne wot rěče.
 sc-settings-show-all-button = Wšě přeskočene sady hišće raz pokazać
