@@ -2,12 +2,10 @@ import { AllGoals, CustomGoalParams } from 'common';
 import { LanguageStats } from 'common';
 import { UserClient } from 'common';
 import { WeeklyChallenge, Challenge, TeamChallenge } from 'common';
-import { FeatureType } from 'common';
 import { Sentence, Clip } from 'common';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { USER_KEY } from '../stores/root';
-import * as Sentry from '@sentry/browser';
 
 interface FetchOptions {
   method?: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
@@ -15,7 +13,7 @@ interface FetchOptions {
   headers?: {
     [headerName: string]: string;
   };
-  body?: any;
+  body?: any; // eslint-disable-line @typescript-eslint/no-explicit-any
 }
 
 interface Vote extends Event {
@@ -42,6 +40,7 @@ export default class API {
     this.user = user;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   private async fetch(path: string, options: FetchOptions = {}): Promise<any> {
     const { method, headers, body, isJSON } = Object.assign(
       {
@@ -101,11 +100,11 @@ export default class API {
     return this.getLocalePath() + '/clips';
   }
 
-  fetchRandomSentences(count: number = 1): Promise<Sentence[]> {
+  async fetchRandomSentences(count = 1): Promise<Sentence[]> {
     return this.fetch(`${this.getLocalePath()}/sentences?count=${count}`);
   }
 
-  fetchRandomClips(count: number = 1): Promise<Clip[]> {
+  async fetchRandomClips(count = 1): Promise<Clip[]> {
     return this.fetch(`${this.getClipPath()}?count=${count}`);
   }
 
@@ -200,9 +199,7 @@ export default class API {
     });
   }
 
-  fetchClipsStats(
-    locale?: string
-  ): Promise<
+  fetchClipsStats(locale?: string): Promise<
     {
       date: string;
       total: number;
@@ -212,9 +209,7 @@ export default class API {
     return this.fetch(API_PATH + (locale ? '/' + locale : '') + '/clips/stats');
   }
 
-  fetchClipVoices(
-    locale?: string
-  ): Promise<
+  fetchClipVoices(locale?: string): Promise<
     {
       date: string;
       value: number;
@@ -267,6 +262,10 @@ export default class API {
           }
         : {}),
     }).then(body => JSON.parse(body));
+  }
+
+  getJob(jobId: number) {
+    return this.fetch(`${API_PATH}/job/${jobId}`);
   }
 
   saveAvatarClip(blob: Blob): Promise<void> {
@@ -357,6 +356,7 @@ export default class API {
     );
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   report(body: any) {
     return this.fetch(API_PATH + '/reports', {
       method: 'POST',
@@ -461,18 +461,8 @@ export default class API {
     return null;
   }
 
-  async getFeatureFlag(feature: string, locale: string): Promise<FeatureType> {
-    return this.fetch(`${API_PATH}/feature/${locale}/${feature}`, {
-      method: 'GET',
-    });
-  }
-
-  getPublicUrl(
-    path: string,
-    bucketType: string,
-    useCDN: boolean
-  ): Promise<{ url: string }> {
-    return this.fetch(`${API_PATH}/bucket/${bucketType}/${path}/${useCDN}`, {
+  getPublicUrl(path: string, bucketType: string): Promise<{ url: string }> {
+    return this.fetch(`${API_PATH}/bucket/${bucketType}/${path}`, {
       method: 'GET',
     });
   }
@@ -483,5 +473,31 @@ export default class API {
 
   getAccents(lang?: string) {
     return this.fetch(`${API_PATH}/language/accents${lang ? '/' + lang : ''}`);
+  }
+
+  getVariants(lang?: string) {
+    return this.fetch(`${API_PATH}/language/variants${lang ? '/' + lang : ''}`);
+  }
+
+  async sendLanguageRequest({
+    email,
+    languageInfo,
+    languageLocale,
+    reCAPTCHAClientResponse,
+  }: {
+    email: string;
+    languageInfo: string;
+    languageLocale: string;
+    reCAPTCHAClientResponse: string;
+  }) {
+    return this.fetch(`${API_PATH}/language/request`, {
+      method: 'POST',
+      body: {
+        email,
+        languageInfo,
+        languageLocale,
+        reCAPTCHAClientResponse,
+      },
+    });
   }
 }

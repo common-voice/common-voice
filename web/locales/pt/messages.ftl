@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Receba emails, tais como lembretes de obj
 email-opt-in-privacy-v2 = Ao optar por receber emails, você declara que concorda com a Mozilla lidar com essas informações, conforme explicado na <privacyLink>Política de privacidade</privacyLink> da Mozilla.
 indicates-required = * Indica campo obrigatório
 not-available-abbreviation = Não disponível
+banner-error-slow-1 = Desculpe, o Common Voice está lento. Obrigado pelo seu interesse.
+banner-error-slow-2 = Estamos recebendo muito tráfego no momento, estamos investigando problemas.
+banner-error-slow-link = Página de status
+error-something-went-wrong = Desculpe, houve um erro
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -336,6 +340,9 @@ profile-form-additional-language =
     .label = Idioma adicional
 profile-form-language =
     .label = Idioma
+profile-form-variant =
+    .label = Qual variante de { $language } você fala?
+profile-form-variant-default-value = Nenhuma variante selecionada
 profile-form-accent =
     .label = Sotaque
 profile-form-custom-accent-help-text =
@@ -387,6 +394,8 @@ off = Desligar
 on = Ligar
 help-accent = Precisa de ajuda com sotaque?
 help-accent-explanation = Seu sotaque é a maneira como você pronuncia as palavras. Ele pode ser moldado de acordo com o local onde você viveu, os outros idiomas que você fala e muitos outros fatores. Você pode compartilhar qualquer informação que considere relevante aqui.
+help-variants = Precisa de ajuda com variantes?
+help-variants-explanation = Variante é uma forma específica de um idioma. Por exemplo, compartilhada por quem vive em uma área geográfica ou comunidade. Às vezes, é chamada de dialeto.
 
 ## Profile - Email
 
@@ -397,6 +406,7 @@ gravatar_not_found = Não foi encontrado um Gravatar para seu email
 file_too_large = O arquivo selecionado é grande demais
 avatar-uploaded = Avatar enviado
 max-file-size = Máximo { $kb }kb
+remove-avatar = Remover avatar
 
 ## Profile - Email
 
@@ -493,7 +503,7 @@ about-voice-validation-title = Validação de voz
 about-voice-validation-subtitle = Outras pessoas validam esses clipes de voz.
 about-dataset-release-title = Lançamento do conjunto de dados
 about-dataset-release-subtitle = Lançamos o conjunto de dados a cada 3 meses.
-about-subscribe-text = Quer ficar em contato com o Common Voice?
+about-subscribe-text = Quer estar em contato com o Common Voice?
 about-speak = Falar
 about-speak-text = Os colaboradores gravam clipes de voz lendo a partir de um banco de frases doadas.
 about-listen-queue = Fila de audição
@@ -522,7 +532,8 @@ about-get-involved-text-2 =
     Fantástico! Entre em contato via email ou nos fóruns do <discourseLink>Discourse</discourseLink>,
     relate problemas no site via <githubLink>GitHub</githubLink>,
     ou participe de conversas da comunidade no <matrixLink>Matrix</matrixLink>.
-about-stay-in-touch = Como ficar em contato?
+about-stay-in-touch = Como estar em contato?
+about-stay-in-touch-button = Inscrever-se
 about-stay-in-touch-text-1 = <emailFragment>Inscreva-se</emailFragment> em nossa lista de emails para saber como você pode participar de campanhas, eventos e recursos de design cooperativo no Common Voice.
 about-stay-in-touch-text-2 = Você pode conhecer outras pessoas nas comunidades de idioma da Mozilla, juntando-se ao <discourseLink>Discourse</discourseLink> para conversas sobre tópicos, ou ao <matrixLink>Matrix</matrixLink> para aconselhamento rápido.
 about-nav-why-common-voice = Por quê?
@@ -674,6 +685,7 @@ review-delete-recordings = Excluir minhas gravações
 
 ## Datasets Page
 
+datasets-heading = Conjuntos de dados
 datasets-headline = Estamos construindo um conjunto de dados de voz multi-idioma, de código aberto, que qualquer pessoa pode usar para treinar aplicações habilitadas para voz.
 datasets-positioning =
     Acreditamos que grandes conjuntos de dados de voz, disponíveis publicamente, irão fomentar a inovação e a competição comercial saudável em tecnologias de voz baseadas em aprendizado de máquina.
@@ -704,8 +716,8 @@ dataset-description-hours =
     Cada entrada no conjunto de dados consiste de um MP3 único e o correspondente arquivo de texto. Muitas das <b> { $total }</b> horas gravadas no conjunto de dados também incluem metadados demográficos, como idade, sexo e sotaque, que podem ajudar a treinar a precisão de mecanismos de reconhecimento de voz.
     
     O conjunto de dados atualmente consiste de <b>{ $valid }</b> horas validadas em <b>{ $languages }</b> idiomas, mas estamos sempre adicionando mais vozes e idiomas. Dê uma olhada em nossa <languagesLink>página de idiomas</languagesLink> para solicitar um idioma ou começar a contribuir.
-want-dataset-update = Quer receber avisos quando lançarmos novas versões do conjunto de dados do Common Voice? Assine nosso boletim informativo.
-subscribe = Assinar
+want-dataset-update = Quer receber avisos quando lançarmos novas versões do conjunto de dados do Common Voice? Inscreva-se em nosso boletim informativo.
+subscribe = Inscrever-se
 get-started-speech = Introdução ao reconhecimento de voz
 other-datasets = Outros conjuntos de dados de voz
 feedback-q = Quer fazer comentários?
@@ -758,6 +770,16 @@ request-language-success-content = Nós entraremos em contato com mais informaç
 select-language = Selecionar um idioma...
 other-language = Outro idioma
 
+## Request Language Pages
+
+request-language-form-email =
+    .label = Seu endereço de email
+request-language-form-info =
+    .label = Informações sobre o idioma
+request-language-form-info-explanation-list-1 = Nomes do seu idioma
+request-language-google-recaptcha-required = O reCAPTCHA é necessário se você quiser continuar
+request-language-google-recaptcha-error = Algo deu errado com o reCAPTCHA. Tente novamente.
+
 ## Languages Overview
 
 language-section-in-progress = Em andamento
@@ -777,7 +799,7 @@ total-hours = Total de horas
 
 ## Contribution
 
-action-click = Clique
+action-click = Clique em
 action-tap = Toque
 contribute = Contribua
 listen = Ouvir
@@ -823,8 +845,14 @@ listen-again-instruction = Bom trabalho! <playIcon></playIcon> Ouça novamente q
 listen-3rd-time-instruction = 2 prontas <playIcon></playIcon> , continue assim!
 listen-last-time-instruction = <playIcon></playIcon> Última!
 listen-empty-state = Nós ficamos sem clipes para validar neste idioma...
+listen-loading-error =
+    Não foi possível obter nenhum clipe de áudio para você ouvir.
+    Tente novamente mais tarde.
 speak-empty-state = Nós ficamos sem frases para gravar neste idioma...
 speak-empty-state-cta = Contribua com frases
+speak-loading-error =
+    Não foi possível obter nenhuma frase para você falar.
+    Tente novamente mais tarde.
 record-button-label = Grave sua voz
 share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
 keep-track-profile = Acompanhe seu progresso com um perfil
@@ -1178,7 +1206,7 @@ sc-howto-review-criteria-2 = A frase deve estar gramaticalmente correta.
 sc-howto-review-criteria-3 = Deve ser possível pronunciar a frase.
 sc-howto-review-criteria-4 = Se a frase atender aos critérios, clique no botão "Aprovar".
 sc-howto-review-criteria-5 = Se a frase não atender aos critérios acima, clique no botão "Rejeitar". Se não tiver certeza sobre a frase, você também pode pular e passar para a próxima.
-sc-howto-review-criteria-6 = Se você ficar sem frases para revisar, ajude-nos a coletar mais frases!
+sc-howto-review-criteria-6 = Se você não tiver mais frases para revisar, ajude-nos a coletar mais frases!
 sc-howto-findpd-title = Encontrando frases existentes em domínio público
 sc-howto-findpd-subtitle = Procurar na internet
 sc-howto-findpd-text-2 = Lembre que precisamos de permissão para publicar essas frases, portanto sempre verifique se o texto pertence ao <wikipediaLink>domínio público</wikipediaLink>. Se não houver indicação explícita, entre em contato com a pessoa a quem o texto pertence e pergunte se ela quer contribuir com seu texto para o domínio público. Se ela quiser, dê uma ajuda no processo do <cc0WaiverLink>Contrato de Contribuições</cc0WaiverLink>. Caso ela não queira contribuir com o texto, você não tem permissão de usar tal texto.
@@ -1426,7 +1454,6 @@ sc-review-link = Revisão
 
 sc-settings-title = Configurações
 sc-settings-ui-language = Idioma da interface
-sc-settings-language-translated-warning = As páginas deste idioma podem não estar totalmente traduzidas. Você pode ajudar na tradução no <pontoonLinkLink>Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Redefinir frases ignoradas
 sc-settings-skipped-decription = Anteriormente, você pulou frases durante a revisão. A redefinição de frases ignoradas faz com que todas elas sejam exibidas novamente. Isso independente do idioma.
 sc-settings-show-all-button = Mostrar novamente todas as frases ignoradas

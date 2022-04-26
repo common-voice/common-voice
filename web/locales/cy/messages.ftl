@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Derbyn e-byst sy'n cynnwys atgoffwr her a
 email-opt-in-privacy-v2 = Drwy ddewis derbyn e-byst rydych yn datgan eich bod yn fodlon gyda Mozilla'n trin y manylion hyn fel sy'n cael ei esbonio ym <privacyLink>Mholisi Preifatrwydd<privacyLink> Mozilla.
 indicates-required = Mae * yn dynodi maes angenrheidiol
 not-available-abbreviation = Dim Ar Gael
+banner-error-slow-1 = Ymddiheuriadau, mae Common Voice yn rhedeg yn araf. Diolch am eich cefnogaeth.
+banner-error-slow-2 = Rydym yn derbyn llawer o draffig ac ar hyn o bryd yn ymchwilio i'r materion.
+banner-error-slow-link = Tudalen Statws
+error-something-went-wrong = Ymddiheuriadau, aeth rhywbeth o'i le
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -354,6 +358,9 @@ profile-form-additional-language =
     .label = Iaith Ychwanegol
 profile-form-language =
     .label = Iaith
+profile-form-variant =
+    .label = Pa amrywiad { $language } ydych chi'n siarad?
+profile-form-variant-default-value = Dim amrywiad wedi'i ddewis
 profile-form-accent =
     .label = Acen
 profile-form-custom-accent-help-text =
@@ -405,6 +412,8 @@ off = Diffodd
 on = Ymlaen
 help-accent = Angen cymorth gydag acen?
 help-accent-explanation = Eich acen yw'r ffordd rydych chi'n ynganu geiriau. Mae'n cael ei ffurfio gan ble rydych chi wedi byw, pa ieithoedd eraill rydych chi'n eu siarad a llawer o ffactorau eraill. Gallwch chi rannu unrhyw wybodaeth rydych chi'n teimlo sy'n berthnasol yma.
+help-variants = Angen cymorth gydag amrywiadau?
+help-variants-explanation = Mae amrywiadau yn ffurf benodol ar iaith - er enghraifft sy'n cael eu rhannu gan y rhai sy'n byw mewn ardal ddaearyddol neu gymuned. Weithiau mae'r rhain yn cael eu galw'n dafodieithoedd.
 
 ## Profile - Email
 
@@ -415,6 +424,7 @@ gravatar_not_found = Dim gravatar wedi ei ganfod o'ch e-bost
 file_too_large = Mae'r ffeil yma'n rhy fawr
 avatar-uploaded = Llwythwyd yr afatar
 max-file-size = uchafswm o { $kb }kb
+remove-avatar = Dileu Avatar
 
 ## Profile - Email
 
@@ -540,6 +550,7 @@ about-get-involved-text-2 =
     cyflwynwch adborth trwy <githubLink>GitHub</githubLink>, neu ymuno â ni
     ar lwyfan sgwrsio cymdeithasol <matrixLink>Matrix</matrixLink>
 about-stay-in-touch = Sut ydw i'n cadw mewn cysylltiad?
+about-stay-in-touch-button = Ymuno
 about-stay-in-touch-text-1 = <emailFragment>Cofrestrwch</emailFragment> i'n rhestr bostio i wybod sut y gallwch chi gymryd rhan mewn ymgyrchoedd, digwyddiadau ac i gyd-ddylunio nodweddion ar Common Voice.
 about-stay-in-touch-text-2 = Gallwch gwrdd ag eraill yng nghymunedau iaith Mozilla drwy ymuno â <discourseLink>Discourse</discourseLink> am sgyrsiau amserol, neu <matrixLink>Matrix</matrixLink> am gyngor cyflym.
 about-nav-why-common-voice = Pam ?
@@ -691,6 +702,7 @@ review-delete-recordings = Dileu fy recordiadau
 
 ## Datasets Page
 
+datasets-heading = Setiau Data
 datasets-headline = Rydym yn adeiladu setiau data o leisiau amlieithog y gall unrhyw un eu defnyddio i hyfforddi rhaglenni sy'n cael eu galluogi drwy lais.
 datasets-positioning =
     Rydym yn credu y bydd setiau data llais mawr, sydd ar gael yn gyhoeddus annog menter a chystadleuaeth fasnachol iach mewn technoleg llais wedi ei seilio ar ddysgu peirianyddol.
@@ -775,6 +787,48 @@ request-language-success-content = Byddwn mewn cysylltiad gyda rhagor o wybodaet
 select-language = Dewiswch iaith...
 other-language = Iaith Arall
 
+## Request Language Pages
+
+request-language-heading = Gofyn am iaith newydd
+request-language-explanation-1 =
+    Edrychwch i weld a yw eich iaith wedi'i rhestru ar 
+    <languagesPageLink>Dudalen Ieithoedd Common Voice</languagesPageLink>.
+    Os nad yw, llenwch y ffurflen hon a byddwn yn <strong>anfon e-bost defnyddiol atoch
+    yn esbonio sut i osod eich iaith</strong>.
+request-language-explanation-2 =
+    Byddwn hefyd yn <strong>rhoi gwybod i'n rheolwr cymunedol
+    bod gennych chi ddiddordeb</strong>, fel y gallan nhw roi
+    cymorth neu wybodaeth ychwanegol y gallai fod ei angen arnoch.
+request-language-form-email =
+    .label = Eich cyfeiriad e-bost
+request-language-form-info =
+    .label = Gwybodaeth am yr iaith
+request-language-form-info-explanation =
+    Ychwanegwch gymaint o wybodaeth ag y gallwch am yr iaith.
+    Gall
+    hyn gynnwys:
+request-language-form-info-explanation-list-1 = Enwau eich iaith
+request-language-form-info-explanation-list-2 = <isoCodeLink>Codau ISO</isoCodeLink> os yw'n hysbys
+request-language-form-info-explanation-list-3 = Dolenni i wefannau a all ein helpu i ddeall yr iaith
+request-language-google-recaptcha-required = Mae angen reCAPTCHA os ydych am fwrw ymlaen
+request-language-google-recaptcha-error = Aeth rhywbeth o'i le gyda'r reCAPTCHA. Ceisiwch eto.
+# Success page
+request-language-success-heading = Diolch! Rydych chi wedi anfon ymholiad iaith newydd
+request-language-success-list-1 =
+    Dylech dderbyn e-bost yn esbonio yn fuan
+    y camau i ychwanegu eich iaith at Common Voice
+request-language-success-list-2 =
+    Bydd ein rheolwr cymunedol yn cysylltu â chi i gynnig
+    cymorth ychwanegol, ac i roi gwybod i chi os oes yna
+    eisoes gymuned yn gweithio ar eich iaith
+request-language-success-list-3 =
+    Os na fyddwch yn clywed gennym o fewn ychydig ddyddiau,
+    cysylltwch â <emailLink>{ $email }</emailLink>
+    a byddwn yn dod yn cysylltu â chi!
+request-language-error =
+    Efallai na fyddwn wedi derbyn y cais hwnnw. Anfonwch e-bost atom yn uniongyrchol
+    ar <emailLink>{ $email }</emailLink> a byddwn yn cysylltu â chi!
+
 ## Languages Overview
 
 language-section-in-progress = Ar y Ffordd
@@ -844,8 +898,14 @@ listen-again-instruction = Da iawn! <playIcon> </playIcon> Gwrandewch eto pan fy
 listen-3rd-time-instruction = 2 i lawr <playIcon> </playIcon> , daliwch ati!
 listen-last-time-instruction = <playIcon> </playIcon> Yr un olaf!
 listen-empty-state = Does dim rhagor o glipiau i'w dilysu yn yr iaith hon...
+listen-loading-error =
+    Does dim rhagor o glipiau sain i chi wrando arnyn nhw.
+    Ceisiwch eto, rhywbryd eto.
 speak-empty-state = Does dim rhagor o frawddegau i'w recordio yn yr iaith hon...
 speak-empty-state-cta = Cyfrannu brawddegau
+speak-loading-error =
+    Does dim rhagor o frawddegau i chi eu llefaru.
+    Ceisiwch eto, rhywbryd eto.
 record-button-label = Recordiwch eich llais
 share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
 keep-track-profile = Cadwch olwg ar eich cynnydd gyda phroffil
@@ -1531,7 +1591,6 @@ sc-review-link = Adolygu
 
 sc-settings-title = Gosodiadau
 sc-settings-ui-language = Iaith y Rhyngwyneb
-sc-settings-language-translated-warning = Efallai na yw'r tudalennau ar gyfer yr iaith hon wedi'u cyfieithu yn llawn. Gallwch chi helpu gyda'u cyfieithu <pontoonLinkLink>ar Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Ailosod brawddegau wedi'u hepgor
 sc-settings-skipped-decription = Yn y gorffennol, rydych wedi hepgor brawddegau wrth eu hadolygu. Bydd ailosod brawddegau wedi'u hepgor yn dangos pob brawddeg sydd wedi'i hepgor eto. Mae hyn yn annibynnol ar yr iaith.
 sc-settings-show-all-button = Dangos yr holl frawddegau wedi'u hepgor eto

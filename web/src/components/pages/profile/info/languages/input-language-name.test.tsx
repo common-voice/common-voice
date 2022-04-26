@@ -3,40 +3,13 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 import { screen, RenderResult } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { renderWithLocalization } from '../../../../../test/mock-localization';
+import { renderWithLocalization } from '../../../../../../test/render-with-localization';
 import { UserLanguage } from 'common';
-import { AccentsAll } from './languages';
+import { MOCK_ACCENTS_ALL } from './mocks';
 
 import InputLanguageName from './input-language-name';
 
 expect.extend(toHaveNoViolations);
-
-const MOCK_ACCENTS_ALL = {
-  en: {
-    userGenerated: {},
-    preset: {
-      '13': {
-        id: 13,
-        token: 'singapore',
-        name: 'Singaporean English',
-      },
-    },
-    default: {
-      id: 18,
-      token: 'unspecified',
-      name: '',
-    },
-  },
-  'zh-TW': {
-    userGenerated: {},
-    preset: {},
-    default: {
-      id: 176,
-      token: 'unspecified',
-      name: '',
-    },
-  },
-} as AccentsAll;
 
 describe('InputLanguageName', () => {
   let mockUserLanguages = [] as UserLanguage[];
@@ -52,7 +25,7 @@ describe('InputLanguageName', () => {
   });
 
   it('should render with no accessibility violations', async () => {
-    const renderResult: RenderResult = await renderWithLocalization(
+    const renderResult: RenderResult = renderWithLocalization(
       <InputLanguageName
         locale={''}
         accentsAll={MOCK_ACCENTS_ALL}
@@ -65,7 +38,7 @@ describe('InputLanguageName', () => {
   });
 
   it('updates the language list when selecting an option', async () => {
-    await renderWithLocalization(
+    renderWithLocalization(
       <InputLanguageName
         locale={''}
         accentsAll={MOCK_ACCENTS_ALL}
@@ -95,7 +68,7 @@ describe('InputLanguageName', () => {
   });
 
   it('should handle missing accents', async () => {
-    await renderWithLocalization(
+    renderWithLocalization(
       <InputLanguageName
         locale={''}
         accentsAll={MOCK_ACCENTS_ALL}
@@ -123,7 +96,7 @@ describe('InputLanguageName', () => {
       { locale: 'en', accents: [] },
       { locale: 'fr', accents: [] },
     ] as UserLanguage[];
-    await renderWithLocalization(
+    renderWithLocalization(
       <InputLanguageName
         locale={'en'}
         accentsAll={MOCK_ACCENTS_ALL}
@@ -150,7 +123,7 @@ describe('InputLanguageName', () => {
       { locale: 'fr', accents: [] },
       { locale: 'en', accents: [] },
     ] as UserLanguage[];
-    await renderWithLocalization(
+    renderWithLocalization(
       <InputLanguageName
         locale={'en'}
         accentsAll={MOCK_ACCENTS_ALL}

@@ -38,7 +38,7 @@
     & .inner {
         position: relative;
         margin: 0 auto;
-        box-sizing: border-box;
+
         padding: 2rem;
         width: 100%;
         max-width: 40rem;

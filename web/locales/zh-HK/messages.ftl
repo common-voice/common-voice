@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = 我希望收到包括目標提醒、進�
 email-opt-in-privacy-v2 = 假如同意接收郵件，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方式處理呢啲些資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
+banner-error-slow-link = 狀態版面
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,9 +37,9 @@ ba = 巴什基爾文
 bas = 巴薩文
 be = 白俄羅斯文
 bg = 保加利亞文
-bm = 班巴拉文
 bn = 孟加拉文
 br = 布里多尼文
+bs = 波斯尼亞文
 bxr = 布里亞特語
 ca = 加泰隆文
 cak = 喀克其奎文
@@ -90,6 +91,7 @@ kab = 卡拜爾文
 kbd = 卡巴爾達文
 ki = 基庫尤文
 kk = 哈薩克文
+km = 高棉文
 kmr = 北庫爾德文
 ko = 韓文
 kpv = 科米-齊良文
@@ -150,6 +152,7 @@ te = 泰盧固文
 tg = 塔吉克文
 th = 泰文
 tl = 他加祿文
+tok = 道本語
 tr = 土耳其文
 tt = 韃靼文
 tw = 契維文
@@ -444,12 +447,11 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 點解會有 Common Voice？
-about-subtitle = Common Voice 係 Mozilla 想令機器學識真人講話方式嘅計劃。除咗 Common Voice 數據集外，我哋亦喺度打造緊一套稱為 Deep Speech 嘅開放源碼語音識別引擎。
-about-header-description =
-    這兩個計劃都是我們努力糾正電子語音落差的一部份。語音識別技術可讓我們的電子裝置更人性化，但開發者需要非常大量的語音數據，才能打造出這樣的系統。目前大部分語音數據都相當昂貴，並受專有權限制。
-    我們想令語音數據能被公開自由地使用，並確保這些數據反映出我們大衆的多樣性。合衆人之力，我們可為大家將語音識別技術變得更好！
-how-does-it-work-title = 原理是甚麼？
 how-does-it-work-text = 我們集合眾人之力，打造開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證他人的錄音片段是否正確，讓數據集能夠變得更好。
+
+## How does it work section
+
+about-localization-title = 網站本地化
 about-speak = 講
 about-speak-text = 貢獻者會朗讀數據庫内由大衆提供的句子，變成錄音片段。
 about-listen-queue = 聆聽隊列
@@ -478,10 +480,40 @@ about-get-involved-text-2 =
     太好了！請用電郵或<discourseLink>Discourse</discourseLink>論壇同我們聯絡，
     在<githubLink>GitHub</githubLink>上提交網站問題，或者加入
     <matrixLink>Matrix</matrixLink>群組聊天室。
+about-stay-in-touch-button = 註冊
 about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點做？
 about-nav-partners = 合作夥伴
 about-nav-get-involved = 參與我們
+about-nav-how-it-works-2 = Common Voice 喺點運作？
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智能
 mycroft-description = Mycroft 是全球第一套的開放原始碼的語音助理，無論在電腦、汽車、Raspberry Pi 或任何地方都能運作。
@@ -547,6 +579,7 @@ review-delete-recordings = 刪除我的錄音
 
 ## Datasets Page
 
+datasets-heading = 數據集
 datasets-headline = 我們想建立一套開放原碼、多重語言的語音數據集，讓任何人都可以用來開發和語音相關的應用。
 datasets-positioning =
     我們相信若有一組大型、可公開使用的語音資料集，可奠定以機器學習為基礎的語音技術上的創新，與健康的商業競爭。
@@ -905,3 +938,62 @@ contribution-volume-title = 音量
 contribution-just-unsure-title = 唔肯定？
 see-more = <chevron></chevron>睇多啲
 see-less = <chevron></chevron>睇少啲
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-login-signup-button = 登入 / 註冊
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
+localization-select =
+    .label = 選擇語言/地區

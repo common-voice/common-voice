@@ -10,7 +10,7 @@ module.exports = {
     '^.+\\.svg$': 'jest-svg-transformer',
     '.+\\.(css|png|jpg)$': 'jest-transform-stub',
   },
-  setupFiles: ['<rootDir>/src/test/jest.setup.js'],
+  setupFiles: ['<rootDir>/test/jest.setup.js'],
   globals: {
     'ts-jest': {
       tsconfig: 'tsconfig.test.json',

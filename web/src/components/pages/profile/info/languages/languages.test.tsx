@@ -2,56 +2,16 @@ import * as React from 'react';
 import { axe, toHaveNoViolations } from 'jest-axe';
 import { act, waitFor, fireEvent, RenderResult } from '@testing-library/react';
 
-import { renderWithLocalization } from '../../../../../test/mock-localization';
-import { UserLanguage } from 'common';
+import { renderWithLocalization } from '../../../../../../test/render-with-localization';
+import {
+  MOCK_USER_LANGUAGES,
+  MOCK_ACCENTS_ALL,
+  MOCK_VARIANTS_ALL,
+} from './mocks';
 
-import ProfileInfoLanguages, { AccentsAll } from './languages';
+import ProfileInfoLanguages from './languages';
 
 expect.extend(toHaveNoViolations);
-
-const MOCK_USER_LANGUAGES = [
-  {
-    locale: 'en',
-    accents: [],
-  },
-] as UserLanguage[];
-
-const MOCK_ACCENTS_ALL = {
-  en: {
-    userGenerated: {},
-    preset: {
-      '1': {
-        id: 1,
-        token: 'england',
-        name: 'England English',
-      },
-      '2': {
-        id: 2,
-        token: 'singapore',
-        name: 'Singaporean English',
-      },
-      '3': {
-        id: 3,
-        token: 'filipino',
-        name: 'Filipino',
-      },
-    },
-    default: {
-      id: 18,
-      token: 'unspecified',
-      name: '',
-    },
-  },
-  'zh-TW': {
-    userGenerated: {},
-    preset: {},
-    default: {
-      id: 176,
-      token: 'unspecified',
-      name: '',
-    },
-  },
-} as AccentsAll;
 
 // mock components
 jest.mock('./input-language-name', () => ({
@@ -67,10 +27,12 @@ jest.mock('./input-language-accents/input-language-accents', () => ({
 
 // mock api
 const mockGetAccents = jest.fn(() => Promise.resolve(MOCK_ACCENTS_ALL));
+const mockGetVariants = jest.fn(() => Promise.resolve(MOCK_VARIANTS_ALL));
 jest.mock('../../../../../hooks/store-hooks', () => ({
   useAPI: () => {
     return {
       getAccents: mockGetAccents,
+      getVariants: mockGetVariants,
     };
   },
 }));
@@ -78,11 +40,12 @@ jest.mock('../../../../../hooks/store-hooks', () => ({
 describe('ProfileInfoLanguages', () => {
   it('should render with no accessibility violations', async () => {
     await act(async () => {
-      const renderResult: RenderResult = await renderWithLocalization(
+      const renderResult: RenderResult = renderWithLocalization(
         <ProfileInfoLanguages
           userLanguages={MOCK_USER_LANGUAGES}
           setUserLanguages={() => null}
-          setAreLanguagesLoading={() => null}
+          setAreLanguagesLoading={value => value}
+          areLanguagesLoading={false}
         />
       );
       const results = await axe(renderResult.container);
@@ -90,17 +53,17 @@ describe('ProfileInfoLanguages', () => {
     });
   });
 
-  it('add a new language when lcikcin add new', async () => {
+  it('add a new language when clicking add new', async () => {
     await act(async () => {
       const mockSetLanguage = jest.fn();
-      const { getByText, getByRole }: RenderResult =
-        await renderWithLocalization(
-          <ProfileInfoLanguages
-            userLanguages={MOCK_USER_LANGUAGES}
-            setUserLanguages={mockSetLanguage}
-            setAreLanguagesLoading={() => null}
-          />
-        );
+      const { getByText, getByRole }: RenderResult = renderWithLocalization(
+        <ProfileInfoLanguages
+          userLanguages={MOCK_USER_LANGUAGES}
+          setUserLanguages={mockSetLanguage}
+          setAreLanguagesLoading={value => value}
+          areLanguagesLoading={false}
+        />
+      );
 
       await waitFor(() => {
         const languagesHeading = getByText('Languages');

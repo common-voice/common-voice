@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = 接收诸如挑战、目标提醒、进�
 email-opt-in-privacy-v2 = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
 indicates-required = * 表示必填字段
 not-available-abbreviation = 不可用
+banner-error-slow-1 = 感谢您使用 Common Voice，很抱歉网站当前运行缓慢。
+banner-error-slow-2 = 网站受到大流量访问冲击，我们正在调查处理相关问题。
+banner-error-slow-link = 状态页面
+error-something-went-wrong = 抱歉，出了点问题
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -94,7 +98,7 @@ kk = 哈萨克语
 km = 高棉语
 kmr = 库尔曼吉库尔德语
 knn = 孔卡尼语（天城文）
-ko = 韩语
+ko = 朝鲜语
 kpv = 科米-齐良语
 kw = 康沃尔语
 ky = 吉尔吉斯语
@@ -332,6 +336,9 @@ profile-form-additional-language =
     .label = 附加语言
 profile-form-language =
     .label = 语言
+profile-form-variant =
+    .label = 您会说 { $language } 的哪种变体？
+profile-form-variant-default-value = 未选择变体
 profile-form-accent =
     .label = 口音
 profile-form-custom-accent-help-text =
@@ -383,6 +390,8 @@ off = 关
 on = 开
 help-accent = 需要口音方面的帮助？
 help-accent-explanation = 口音就是您发音的方式，通常受到您生活过的地方、会说的语言等诸多因素影响。您可以在此分享任何您认为有关的信息。
+help-variants = 需要关于变体的帮助说明吗？
+help-variants-explanation = 变体是一种语言的特定形式 - 例如在某片区域内人们的说话方式被称为一种变体。有时称其为方言。
 
 ## Profile - Email
 
@@ -393,6 +402,7 @@ gravatar_not_found = 通过您的电子邮件地址未找到 Gravatar
 file_too_large = 所选文件太大
 avatar-uploaded = 头像已上传
 max-file-size = 最大 { $kb }kb
+remove-avatar = 移除头像
 
 ## Profile - Email
 
@@ -465,13 +475,24 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 为什么会有 Common Voice？
+how-does-it-work-title-v2 = Common Voice 是如何工作的？
 how-does-it-work-text = 我们集众人之力，构建开源的语音数据集。欢迎捐出一段声音，或者帮助验证录音片段是否正确，让数据集能够变得更好。
 
 ## How does it work section
 
 about-language-req-subtitle = 有人申请添加一门语言。
 about-localization-title = 网站本地化
+about-localization-subtitle = 将网站文本完全本地化。
+about-sentence-collection-title = 收集语句
+about-sentence-collection-subtitle = 收集语句，供人们进行录音。
+about-new-lang-subtitle = 我们上线此语言版本的 Common Voice 网站。
+about-voice-contrib-title = 贡献录音
+about-voice-contrib-subtitle = 有一群人参与贡献录音。
+about-voice-validation-title = 验证录音
+about-voice-validation-subtitle = 另一群人参与验证这些录音片段。
+about-dataset-release-title = 发布数据集
 about-dataset-release-subtitle = 我们每 3 个月发布一次数据集。
+about-subscribe-text = 想要获取 Common Voice 的最新信息吗？
 about-speak = 说话
 about-speak-text = 贡献者通过朗读一系列由他人捐赠的语句，将语音片段录制下来。
 about-listen-queue = 聆听队列
@@ -501,15 +522,18 @@ about-get-involved-text-2 =
     通过 <githubLink>GitHub</githubLink> 反馈网站问题、
     也可以加入我们的 <matrixLink>Matrix</matrixLink> 社区群组。
 about-stay-in-touch = 如何获取最新信息？
+about-stay-in-touch-button = 注册
 about-nav-why-common-voice = 为什么？
 about-nav-how-it-works = 怎么做？
 about-nav-partners = 合作伙伴
 about-nav-get-involved = 参与进来
+about-nav-how-it-works-2 = Common Voice 是如何工作的？
 about-nav-playbook = 了解如何参与
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language-content-3 = 某些语言在内部有诸多语法、词汇和发音差异。由此，我们自 2022 年起<ctaLink>引入了“变体”的概念</ctaLink>。让各社区能够在大型数据集中更精准地分辨他们的语言。
 
 ## How do I add a language
 
@@ -517,33 +541,50 @@ about-playbook-how-add-language = 如何添加语言？
 
 ## How does localization work
 
+about-playbook-how-localize = 如何进行网站本地化？
 about-playbook-how-localize-content-1 = Common Voice 网站的翻译工作在 <strong>Pontoon</strong> 上进行。
 about-playbook-how-localize-content-4 = 网站本地化完成度达 75% 后即可上线。
+about-playbook-how-localize-content-5 = 观看我们的帮助视频
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = 如何添加语句？
+about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 从维基百科收集短句。
+about-playbook-how-add-sentences-content-4 = 通过的句子在周三导出，并在下一次数据集发布后可用。
 
 ## How to record quality
 
 about-playbook-how-record-quality = 如何录制高质量的语音片段？
+about-playbook-how-record-content-1 = 说话时请自然一些！我们喜欢您的说话方式，同时也希望收集您的口音，以及平时说话的音量、风格及语调。
+about-playbook-how-record-content-2 = 避免录入过多背景噪音，要确保您的声音清晰易辨。
 about-playbook-how-record-content-3 = 准确读出句子内容，不要漏词、改词或添词。
+about-playbook-how-record-content-4 = 确定平台正在录音后再开始朗读，读完后再点击停止录制。
+about-playbook-how-record-content-5 = <accuracyLink>了解准确性的判断标准。</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = 如何有效推进 Common Voice 上的语言项目？
 about-playbook-how-grow-language-content-2 = 活动
 about-playbook-how-grow-language-content-4 = 社交媒体
+about-playbook-how-grow-language-content-6 = 合作伙伴网络
 
 ## How to validate
 
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = 如何访问和使用数据集？
+about-playbook-how-access-dataset-content-2 = 若您正在寻找构建 ASR 模型的工具，欢迎到 <discourseLink>Discourse</discourseLink> 联系社区成员。
 
 ## How are decisions made
 
+about-playbook-how-project-governance = 项目决策是如何作出的？
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice 是由来自世界各地的活动家、语言学家、数据科学家、学者和软件工程师组成的多元化社区实现的。该项目由 Mozilla 基金会管理。
+about-playbook-how-project-governance-content-2 = 我们的治理建立在以下的基础上：
 about-playbook-how-project-governance-content-3 = 隐私、安全和透明度。
 about-playbook-how-project-governance-content-4 = 社区参与决策。
 about-playbook-how-project-governance-content-6 = 相互问责。
+about-playbook-how-project-governance-content-7 = <governanceLink>详细了解我们如何管理此项目</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智能
 mycroft-description = Mycroft 是全球第一个开源语音助手，不论是在桌面电脑、汽车、树莓派（Raspberry Pi）或是任何地方都能运行。
@@ -606,6 +647,7 @@ review-delete-recordings = 删除我的录音
 
 ## Datasets Page
 
+datasets-heading = 数据集
 datasets-headline = 我们正在构建一组开源、多语言的语音数据集，让任何人都可以用来开发语音相关的应用。
 datasets-positioning =
     我们相信一组大型、可公开使用的语音数据集，将可促进基于机器学习的语音技术的创新，与健康的商业竞争。
@@ -690,6 +732,24 @@ request-language-success-content = 我们将尽快披露更多有关如何将您
 select-language = 选择语言...
 other-language = 其他语言
 
+## Request Language Pages
+
+request-language-heading = 请求添加新语言
+request-language-form-email =
+    .label = 您的电子邮件地址
+request-language-form-info =
+    .label = 语言相关信息
+request-language-form-info-explanation = 请尽可能多地提供有关该语言的信息，包括但不限于：
+request-language-form-info-explanation-list-1 = 语言名称
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO 代码</isoCodeLink>（若知道的话）
+request-language-form-info-explanation-list-3 = 可帮助我们了解该语言相关信息的网站
+request-language-google-recaptcha-required = 若要继续，需完成 reCAPTCHA 验证。
+request-language-google-recaptcha-error = reCAPTCHA 人机验证异常，请重试。
+# Success page
+request-language-success-heading = 感谢！您已成功发起新语言请求
+request-language-success-list-3 = 若您在几天内未收到我们的消息，请直接发邮件至 <emailLink>{ $email }</emailLink> 联系我们，我们会尽快回复。
+request-language-error = 我们可能还未收到该请求。请直接发邮件至 <emailLink>{ $email }</emailLink> 联系我们，我们会尽快回复。
+
 ## Languages Overview
 
 language-section-in-progress = 准备中
@@ -755,8 +815,10 @@ listen-again-instruction = 做得好！<playIcon></playIcon> 准备好就可以�
 listen-3rd-time-instruction = 完成两条了 <playIcon></playIcon>，继续加油！
 listen-last-time-instruction = <playIcon></playIcon> 最后一个了！
 listen-empty-state = 我们已经没有这种语言的片段可以验证了…
+listen-loading-error = 暂无录音片段供您聆听确认，请稍后再试。
 speak-empty-state = 我们已经没有这种语言的文本可以录音了…
 speak-empty-state-cta = 贡献语句
+speak-loading-error = 暂无语句供您录音，请稍后再试。
 record-button-label = 录下您的声音
 share-title-new = <bold>请帮助我们</bold>找到更多声音
 keep-track-profile = 创建账户跟踪个人贡献进度
@@ -930,7 +992,7 @@ download-request-title = { $created }
 download-request-description = { $clipCount } 个录音片段，压缩文件总大小 { $size }，于 { $expires } 失效。
 download-request-archive-single = 包含下列项目的单个 ZIP 压缩文件
 download-request-archive-multiple = 包含下列项目的 { $archiveCount } 个 ZIP 分割压缩文件
-download-request-assembling-description = 正在整理文件，请稍候再试。
+download-request-assembling-description = 正在整理文件，请稍后再试。
 download-request-refresh-button = 刷新
 download-request-modal-title = 下载链接
 download-request-modal-description = 下列是 ZIP 文件的下载链接。
@@ -1074,6 +1136,7 @@ sc-home-review-text = 请按下列标准帮助我们审核句子是否正确。
 
 ## GENERAL
 
+sc-languages-fetch-error = 可用语言获取失败，目前暂无法贡献，请稍后再试。
 
 ## HOW-TO
 
@@ -1082,7 +1145,7 @@ sc-howto-addlang-title = 添加要贡献的语言
 sc-howto-addlang-text = 登录后，就可以在个人资料页选择您要贡献哪些语言的句子。
 sc-howto-addsen-title = 添加新句子
 sc-howto-addsen-item-1 = 您提交的所有句子皆须符合<wikipediaLink>公有领域（CC-0）许可协议</wikipediaLink>。为了让未使用公有协议的著作也可加入，我们为愿意将著作贡献给 Common Voice 的版权人准备了一份<cc0WaiverLink>贡献协议模板</cc0WaiverLink>。
-sc-howto-addsen-item-2 = 关于数字的问题：源文本中不应包含数字，因为朗读数字时可能会遇到问题，因为数字的读法取决于上下文，可能会在数据集中造成混乱。例如，“2409”可以读作“二四零九”，也可以读作“两千四百零九”。
+sc-howto-addsen-item-2 = 关于数字的问题：源文本中不应包含数字，因为朗读数字时可能会遇到问题，这是由于数字的读法取决于上下文，可能会在数据集中造成混乱。例如，“2409”可以读作“二四零九”，也可以读作“两千四百零九”。
 sc-howto-addsen-item-3 = 缩写和首字母缩略词。原始文本中应避免使用“USA”或“ICE”等缩写和首字母缩略词，因为它们的阅读方式可能与其拼写不一致。此外，一个缩写可能有多个正确读法。例如，首字母缩略词“ICE”可以读作“I-C-E”，也可读作一个单词。
 sc-howto-addsen-item-4 = 符号问题：源文本中尽量不要包含特殊符号和标点符号，除非确实有需要。例如，英文单词“don’t”和“we’re”中的撇号应予保留，但“@”和“#”之类的特殊符号一般不需要包含在源文本中。
 sc-howto-addsen-item-5 = 外国字母。字母或文字须符合各语言用法。例如，“ж”是俄语字母，但英文或中文不会用到，因此不应出现在原始文本中。
@@ -1140,6 +1203,7 @@ sc-rejected-none-found = 找不到驳回的句子！
 
 sc-stats-title = 统计数据
 sc-stats-updating = 正在更新…
+sc-stats-error = 获取不到统计信息，请稍后再试。
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1336,7 +1400,6 @@ sc-review-link = 审核
 
 sc-settings-title = 设置
 sc-settings-ui-language = 界面语言
-sc-settings-language-translated-warning = 此语言的页面似乎尚未完成翻译。欢迎到 <pontoonLinkLink>Pontoon</pontoonLinkLink> 协助我们补充翻译。
 sc-settings-reset-skipped = 重置跳过的句子
 sc-settings-skipped-decription = 您在之前的审核过程中有跳过句子。重置跳过的句子将显示您在所有语言跳过的句子。
 sc-settings-show-all-button = 再次显示跳过的句子

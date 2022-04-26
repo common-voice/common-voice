@@ -36,9 +36,9 @@ ba = Bashkirs
 bas = Basaa
 be = Bielorruso
 bg = Bulgaro
-bm = Bambara
 bn = Bengali
 br = Breton
+bs = aj Bosnia
 bxr = Buriato
 ca = Catalan
 cak = Kaqchikel
@@ -78,6 +78,7 @@ hy-AM = Armenyan
 hyw = Armenio (occidental )
 ia = Interlingua
 id = Indonesio
+ig = Igbo
 is = Islandes
 it = Italiano
 izh = Izhoriano
@@ -86,12 +87,15 @@ ka = Georgiano
 kaa = Karakalpak
 kab = Cabilio
 kbd = Cabardiano
+ki = Kikuyu
 kk = Kazajo
+km = aj Camboya
 kmr = Kurmanji Kurdish
 ko = Coreano
 kpv = Komi-Zyrian
 kw = Cornico
 ky = Kirguis
+lb = aj Loxemburgo
 lg = Uganda
 lij = Ligur
 lt = Lituano
@@ -345,26 +349,17 @@ skip-submission-description = Xtichup ri rutaqik tzij toq xtipitz' pa ruwi' ri '
 skip-submission-note = Ch'utitzijol: K'o chi nacha' Ch'owem o Ak'axanem richin najäl ri ruwäch ato'ik.
 off = Tichup
 on = Titzij
-avatar-clip-title = Tab'ana' chi nich'o ri awachib'al
-change-your-avatar-clip = ¿La nawajo' najäl ri ruyakik ach'ab'äl?
-recording-in-progress = Niyak ri ch'ab'äl
-avatar-clip-recorded = ¡Wakami pa ri awachib'al ütz niyak ruch'ab'äl!
-record-voice-wave = TIYAK CH'AB'ÄL
-retry-voice-wave-recording = TITOJTOB'ËX CHIK
-re-record = TIYAK CHIK
-delete-voice = TIYUJ
-recording-voice-wave = Niyak
-delete-voice-clip = o  Tiyuj ruyakik ch'ab'äl
-ready-to-upload = TIJOTOB'ÄX
-avatar-clip-fact = Kan ke wi ri rub'eyal ojer chi jun sik'inel xtisach ruk'u'x rik'in ri sik'inel rupam jun ruxaq toq nutzu' ri rub'anikil.
-recreate-voice = Titz'uk chik Voicewave
-cancel-avatar-clip-recording = TIQ'AT
-about-avatar-clip-recording = Tatz'uku' jun yakoj ch'ab'äl richin nok pan awachib'al. Ri ch'aqa' chik okisanela' yetikïr nikik'üt ri awachib'al richin nikak'axaj ri ayakoj ch'ab'äl.
+
+## Profile - Email
+
 browse-file-title = Tijotob'äx jun ruyakb'al wachib'äl
 browse-file = Taqirirej chuqa' tawosq'opij o <browseWrap>katokik'amayin</browseWrap>
 connect-gravatar = Tok rik'in ri Chiwachib'äl
 gravatar_not_found = Majun chiwachib'äl xilitäj richin ri ataqoya'l
 file_too_large = Yalan nïm ri yakb'äl xacha'
+
+## Profile - Email
+
 manage-subscriptions = Kenuk'samajïx taq Tz'ib'anïk B'i'aj
 manage-email-subscriptions = Tinuk'samajïx Kitz'ib'anik Rub'iaj Taqoya'l
 email-already-used = Ri taqoya'l nokisäx chik pa jun chik rub'i' taqoya'l
@@ -433,12 +428,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ¿Achike ruma nokisäx Common Voice?
-about-subtitle = Common Voice jun peraj rusamaj Mozilla richin yerutijoj ri taq samajib'al pa ruwi' ri rub'eyal yech'o ri winaqi'. Rik'in ri rucholxe' tzij chuqa' niqanük' jun ruk'wab'al retamaxik ch'ab'äl pa jaqäl b'itz'ib', Deep Speech rub'i'.
-about-header-description =
-    Chi ka'i' nimasamaj retal ri quchuq'a' richin yojsamäj chi rij rukojol ri ch'ab'äl pa ri kematz'ib'il k'ojlib'äl. Ri runa'ob'al retamaxik ch'ab'äl nuya' kik'ojlem pa winaqilal ri taq qokisab'al, xa xe chi ri b'anonela' nik'atzin k'ïy taq kitzij ch'ab'äl richin yekinük'.
-    Wakami, k'ïy chi ke ri taq tzij ri' yalan e paqäl chuqa' e k'o kajaw. Niqajo' chi kitzij ch'ab'äl e wachel chi kiwa ri winaqi', chuqa' richin niqajikib'a' chi ronojel ri taq tzij tikiya' ketal ri jalajöj qitzij winaqi'. Qonojel yojtikïr niqab'än chi ri retamaxik ch'ab'äl ütz chi qawa qonojel.
-how-does-it-work-title = ¿Achike rub'eyal nisamäj?
 how-does-it-work-text = Ri qarayib'al ja ri runuk'ik jun rucholxe' rutzij ch'ab'äl rik'in jaqäl b'itz'ib'. Tasipaj ri ach'ab'äl, tajikib'a' ri kutzil taq kiyakoj ch'aqa' chik okisanela' richin yato'on nutziläx ri rucholxe' tzij.
+
+## How does it work section
+
 about-speak = Ch'owen
 about-speak-text = Ri to'onela' nikiyäk kich'ab'äl toq yekisik'ij taq q'aptzij xipan kuma ri okisanela'.
 about-listen-queue = Cholaj-Ak'axanem
@@ -463,6 +456,34 @@ about-nav-why-common-voice = ¿Aruma ?
 about-nav-how-it-works = ¿Achi'el?
 about-nav-partners = Achib'ilal
 about-nav-get-involved = Kato'on
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Ch'ich'al na'ojil
 mycroft-description =
@@ -554,8 +575,6 @@ subscribe = Tz'ib'anïk b'i'aj
 get-started-speech = Tatikirisaj qa ri Retamaxik Ch'ab'äl
 other-datasets = Juley chik Ruyakb'al Kitzij Ch'ab'äl
 feedback-q = ¿La K'o Atzijol?
-deepspeech-info = Ri rucholxe' rutzij Common Voice nutz'aqatisaj ri ruk'wab'al retamaxik ch'ab'äl rik'in jaqäl rub'itz'ib' Deep Speech, r ütz ye'okisäx richin yenük' taq kichokoy retamaxik ch'ab'äl. Tab'esik'ij ri <githubLink>Ruch'utitzijol Github</githubLink> o tatunu' awi' pa <discourseLink>DeepSpeech Discourse</discourseLink> richin nawetamaj ch'aqa' chik pa ruwi' rub'eyal chuqa' akuchi' natikirisaj.
-common-voice-info-new = ¿La k'o ak'utunik chi rij ri Common Voice? ¿La k'o taq atzij richin nutziläx o taq rutzijol chi rij jun ch'ab'äl? Tatunu' awi' pa <discourseLink>Discourse qasolna'oj</discourseLink> richin natzijoj chi qe
 data-other-librispeech-description = Jun korpus ri LibriSpeech, ri rumolon jub'ama 1000 ramaj Q'anchi ch'ab'en pa 16Khz, ri elesan pe pa taq wuj k'o kich'ab'äl richin ri Librivox nimasamaj.
 data-other-ted-name = TED-LIUM Korpus
 data-other-ted-description = Ri TED-LIUM korpus xnuk' kik'in kik'oxom tzijonem chuqa' ri taq kitz'ib'anik k'o pa ri TED ajk'amaya'l ruxaq.
@@ -795,6 +814,9 @@ why-delete-recordings =
     ¿La nawajo' nab'ij chi qe achike ruma nawajo' ye'ayüj el ri taq ayakoj?
 profile-form-delete = Tiyuj Ruwäch B'i'aj
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = ¿Katan pe { $company } samajel?
@@ -816,4 +838,63 @@ read-more-about = Tisik'ïx ch'aqa' chik pa Chi rij pa ri ruxaq
 
 
 ## Demo Dashboard
+
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 

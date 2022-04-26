@@ -11,8 +11,12 @@ email-opt-in-info = I'd like to receive emails such as goal reminders, my progre
 email-opt-in-info-title = Join the Common Voice mailing list
 email-opt-in-info-sub-with-challenge = Receive emails such as challenge and goal reminders, progress updates, and newsletters about Common Voice.
 email-opt-in-privacy-v2 = By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s <privacyLink>Privacy Policy</privacyLink>.
-indicates-required = * Indicates required field
+indicates-required = Fields marked with an asterisk (*) are required.
 not-available-abbreviation = N/A
+banner-error-slow-1 = Sorry, Common Voice is running slowly. Thanks for your interest.
+banner-error-slow-2 = We're receiving a lot of traffic and are currently investigating the issues.
+banner-error-slow-link = Status Page
+error-something-went-wrong = Sorry, something went wrong
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -339,6 +343,9 @@ profile-form-additional-language =
     .label = Additional Language
 profile-form-language =
     .label = Language
+profile-form-variant =
+    .label = Which variant of { $language } do you speak?
+profile-form-variant-default-value = No variant selected
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
@@ -396,6 +403,8 @@ off = Off
 on = On
 help-accent = Need some help with accent?
 help-accent-explanation = Your accent is the way you pronounce words. It can be shaped by where you have lived, which other languages you speak and lots of other factors. You can share any information you feel is relevant here.
+help-variants = Need some help with variants?
+help-variants-explanation = Variants are a specific form of a language - for example shared by those living in a geography or commmunity. Sometimes these are called dialects.
 
 ## Profile - Email
 browse-file-title = Upload an image file
@@ -405,6 +414,7 @@ gravatar_not_found = No gravatar found for your email
 file_too_large = The selected file is too large
 avatar-uploaded = Avatar uploaded
 max-file-size = { $kb }kb max
+remove-avatar = Remove Avatar
 
 ## Profile - Email
 manage-subscriptions = Manage Subscriptions
@@ -495,7 +505,7 @@ faq-search-for-answers =
 ## ABOUT US
 about-title = Why Common Voice?
 about-header-description-v2 = <p>Common Voice is a publicly available voice dataset, powered by the voices of volunteer contributors around the world. People who want to build voice applications can use the dataset to train machine learning models.</p>
-    <p>At present, most voice datasets are owned by companies, which stifles innovation. Voice datasets also over-represent white, English-speaking males. This means that voice-enabled technology doesn’t work at all for many languages, and where it does work, it may not perform equally well for everyone. We want to change that by mobilising people everywhere to share their voice.</p>
+    <p>At present, most voice datasets are owned by companies, which stifles innovation. Voice datasets also underrepresent: non-English speakers, people of colour, disabled people, women and LGBTQIA+ people. This means that voice-enabled technology doesn’t work at all for many languages, and where it does work, it may not perform equally well for everyone. We want to change that by mobilising people everywhere to share their voice.</p>
 
 how-does-it-work-title-v2 = How does Common Voice work?
 how-does-it-work-text = We’re crowdsourcing an open-source dataset of voices. Donate your voice, validate the accuracy of other people’s clips, make the dataset better for everyone.
@@ -546,6 +556,7 @@ about-get-involved-text-2 = Want to help make Common Voice even better?
     <matrixLink>Matrix</matrixLink> community chat.
 
 about-stay-in-touch = How do I stay in touch?
+about-stay-in-touch-button = Sign up
 about-stay-in-touch-text-1 = <emailFragment>Sign up</emailFragment> to our mailing list to learn how you can take part in campaigns, events and co-design features on Common Voice.
 about-stay-in-touch-text-2 = You can meet others in the Mozilla language communities by joining <discourseLink>Discourse</discourseLink> for topical conversations, or <matrixLink>Matrix</matrixLink> for quick advice.
 
@@ -689,6 +700,7 @@ review-keep-recordings = Keep the recordings
 review-delete-recordings = Delete my recordings
 
 ## Datasets Page
+datasets-heading = Datasets
 datasets-headline = We’re building an open source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
 datasets-positioning =
     We believe that large, publicly available voice datasets will foster innovation and healthy commercial competition in machine-learning based speech technology.
@@ -772,6 +784,53 @@ request-language-success-content = We will be in touch with more information abo
 select-language = Select a Language...
 other-language = Other Language
 
+## Request Language Pages
+request-language-heading = Ask about a new language
+request-language-explanation-1 =
+    Check if your language is listed on the
+    <languagesPageLink>Common Voice Languages page</languagesPageLink>.
+    If not, fill out this form and we’ll <strong>send you a handy email
+    explaining how to get your language set up</strong>.
+request-language-explanation-2 =
+    We will also <strong>let our community manager know
+    that you’re interested</strong>, so they can give you any
+    extra support or information you might need.
+request-language-form-email =
+    .label = Your email address
+request-language-form-info =
+    .label = Information about the language
+request-language-form-info-explanation = 
+    Add as much information as you can about the language. This
+    could include:
+request-language-form-info-explanation-list-1 =
+    Names of your language
+request-language-form-info-explanation-list-2 =
+    <isoCodeLink>ISO Codes</isoCodeLink> if known
+request-language-form-info-explanation-list-3 =
+    Links to websites that can help us understand the language
+request-language-google-recaptcha-required =
+    reCAPTCHA is required if you want to proceed
+request-language-google-recaptcha-error =
+    Something went wrong with reCAPTCHA. Please try again.
+
+# Success page
+request-language-success-heading =
+    Thank you! You’ve sent a new language enquiry
+request-language-success-list-1 =
+    You should receive an email shortly explaining
+    the steps to get your language added to Common Voice
+request-language-success-list-2 =
+    Our community manager will reach out to you to offer
+    extra support, and to let you know if there is
+    already a community working on your language 
+request-language-success-list-3 =
+    If you don’t hear from us within a couple of days,
+    reach out at <emailLink>{ $email }</emailLink>
+    and we’ll get back to you!
+request-language-error =
+    We may not have received that request. Please email us directly
+    on <emailLink>{ $email }</emailLink> and we will get back to you!
+
 ## Languages Overview
 language-section-in-progress = In Progress
 language-section-in-progress-new-description = These languages are currently under community development. The progress bars indicate how far each language is in the process of <localizationGlossaryLink>website localization</localizationGlossaryLink> and <sentenceCollectionGlossaryLink>sentence collection</sentenceCollectionGlossaryLink>.
@@ -837,8 +896,14 @@ listen-again-instruction = Great work!<playIcon></playIcon> Listen again when yo
 listen-3rd-time-instruction = 2 down, keep it up!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Last one!
 listen-empty-state = We've run out of clips to validate in this language...
+listen-loading-error =
+    We couldn’t get any audio clips for you to listen to.
+    Please try again later.
 speak-empty-state = We've run out of sentences to record in this language...
 speak-empty-state-cta = Contribute sentences
+speak-loading-error =
+    We couldn’t get any sentences for you to speak.
+    Please try again later.
 record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
 keep-track-profile = Keep track of your progress with a profile
@@ -1418,7 +1483,6 @@ sc-review-link = Review
 ## SETTINGS
 sc-settings-title = Settings
 sc-settings-ui-language = Interface Language
-sc-settings-language-translated-warning = The pages for this language might not be fully translated. You can help out with translation <pontoonLinkLink>on Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Reset skipped sentences
 sc-settings-skipped-decription = You previously skipped sentences while reviewing. Resetting skipped sentences will show all skipped sentences again. This is independent of the language.
 sc-settings-show-all-button = Show all skipped sentences again

@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Получать такие письма,
 email-opt-in-privacy-v2 = Согласившись получать письма, вы заявляете, что согласны с тем, как Mozilla обрабатывает эту информацию, согласно <privacyLink>Политике приватности</privacyLink> Mozilla.
 indicates-required = * поля, обязательные для заполнения
 not-available-abbreviation = Недоступно
+error-something-went-wrong = Ой, что-то пошло не так
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -38,6 +39,7 @@ be = Белорусский
 bg = Болгарский
 bn = Бенгальский
 br = Бретонский
+bs = Боснийский
 bxr = Бурятский
 ca = Каталанский
 cak = Какчикельский
@@ -66,6 +68,7 @@ fy-NL = Фризский
 ga-IE = Ирландский
 gl = Галисийский
 gn = Гуарани
+gom = Гоанский конкани
 ha = Хауса
 he = Иврит
 hi = Хинди
@@ -89,11 +92,14 @@ kab = Кабильский
 kbd = Кабардино-черкесский
 ki = Кикуйю
 kk = Казахский
+km = Кхмерский
 kmr = Севернокурдский (Курманджи)
+knn = Конкани (Деванагари)
 ko = Корейский
 kpv = Коми-зырянский
 kw = Корнский
 ky = Киргизский
+lb = Люксембургский
 lg = Луганда
 lij = Лигурский
 lt = Литовский
@@ -141,6 +147,7 @@ scn = Сицилийский
 shi = Шильхский
 si = Сингальский
 sk = Словацкий
+skr = Сирайки
 sl = Словенский
 so = Сомалийский
 sq = Албанский
@@ -156,6 +163,7 @@ ti = Тигринья
 tig = Тигре
 tk = Туркменский
 tl = Тагальский
+tok = Токипона
 tr = Турецкий
 tt = Татарский
 tw = Чви
@@ -333,6 +341,9 @@ profile-form-additional-language =
     .label = Дополнительный язык
 profile-form-language =
     .label = Язык
+profile-form-variant =
+    .label = На каком диалекте { $language } вы разговариваете?
+profile-form-variant-default-value = Вариант не выбран
 profile-form-accent =
     .label = Акцент
 profile-form-custom-accent-help-text =
@@ -468,14 +479,27 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Почему Common Voice?
+about-header-description-v2 =
+    <p>Common Voice – это общедоступный набор голосовых данных, созданный на основе голосов добровольцев со всего мира. Люди, которые хотят создавать голосовые приложения, могут использовать этот набор данных для обучения моделей машинного обучения.</p>
+    <p>В настоящее время большинство наборов голосовых данных принадлежат компаниям, что сдерживает инновации. В наборах голосовых данных также преобладают белые англоговорящие мужчины. Это означает, что голосовая технология вообще не работает для многих языков, а там, где она работает, может не работать одинаково хорошо для всех. Мы хотим изменить это, побудив людей со всего мира поделиться своим голосом.</p>
+how-does-it-work-title-v2 = Как работает Common Voice?
 how-does-it-work-text = Мы создаём краудсорсинговый открытый голосовой набор. Помогите своим голосом, проверяйте точность записей других людей, делайте набор данных лучше для всех и каждого.
 
 ## How does it work section
 
+about-language-req-subtitle = Кто-то просит добавить язык.
+about-localization-title = Локализация веб-сайта
 about-localization-subtitle = Текст веб-сайта переведён на этот язык.
 about-sentence-collection-title = Коллекция предложений
+about-sentence-collection-subtitle = Cобираются предложения для чтения вслух.
 about-new-lang-title = Запуск нового языка
+about-new-lang-subtitle = Мы запускаем сайт Common Voice на этом языке.
+about-voice-contrib-title = Как делятся голосами
+about-voice-contrib-subtitle = Люди приходят и делятся своим голосами.
 about-voice-validation-title = Подтверждение голосов
+about-voice-validation-subtitle = Другие люди проверяют эти голосовые записи.
+about-dataset-release-title = Выпуск набора данных
+about-dataset-release-subtitle = Мы публикуем набор данных каждые 3 месяца.
 about-speak = Говорите
 about-speak-text = Участники делают голосовые записи, читая из банка пожертвованных предложений.
 about-listen-queue = Очередь прослушивания
@@ -502,14 +526,18 @@ about-get-involved = Принять участие
 about-get-involved-text-2 =
     Хотите помочь сделать Common Voice ещё лучше?
     Отлично! Свяжитесь с нами по электронной почте или через <discourseLink>Discourse</discourseLink>, сообщайте о проблемах с сайтом через <githubLink>GitHub</githubLink> или присоединяйтесь к чату сообщества на <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch-button = Зарегистрироваться
 about-nav-why-common-voice = Почему?
 about-nav-how-it-works = Как?
 about-nav-partners = Партнёры
 about-nav-get-involved = Принять участие
+about-nav-how-it-works-2 = Как работает Common Voice?
+about-nav-playbook = Узнать, как принять участие
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Что такое язык на Common Voice?
 
 ## How do I add a language
 
@@ -526,9 +554,11 @@ about-playbook-how-add-sentences = Как мне добавить предлож
 
 ## How to record quality
 
+about-playbook-how-record-quality = Как мне записать голосовую запись в высоком качестве?
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = События
 
 ## How to validate
 
@@ -1053,6 +1083,9 @@ sc-login-signup-button = Войти / Зарегистрироваться
 sc-logout-button = Выйти
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO

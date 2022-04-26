@@ -23,8 +23,7 @@
     padding: 10px 20px;
     max-width: var(--wide-desktop-width);
     width: 100%;
-    height:  100%;
-    box-sizing: border-box;
+    height: 100%;
 
     @media (--md-up) {
         padding: 20px;
@@ -64,7 +63,7 @@
         font-weight: 600;
 
         @media (--md-up) {
-            margin-top:  0;
+            margin-top: 0;
             margin-bottom: 1rem;
         }
 
@@ -142,8 +141,8 @@
         }
 
         .mobile-break {
-            display:  block;
-            width:  1px;
+            display: block;
+            width: 1px;
             height: 1px;
             @media (--md-up) {
                 display: none;
@@ -540,7 +539,6 @@
 
     .card-dimensions {
         padding: 0 20px;
-        box-sizing: border-box;
 
         text-align: center;
         font-weight: 600;
@@ -573,15 +571,23 @@
         padding: 30px 25px;
         max-width: 700px;
         width: 100%;
-        box-sizing: border-box;
 
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
 
         background: var(--white);
         box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.05);
+
+        h1 {
+            font-weight: 400;
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-size: 1.25em;
+        }
 
         @media (--md-up) {
             padding: 120px 105px;

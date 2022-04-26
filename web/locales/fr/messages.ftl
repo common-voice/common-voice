@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Recevez des courriels tels que des défis
 email-opt-in-privacy-v2 = En acceptant de recevoir des courriels, vous indiquez accepter que Mozilla gère ces informations, conformément à la <privacyLink>politique de confidentialité</privacyLink> de Mozilla.
 indicates-required = * indique un champ obligatoire
 not-available-abbreviation = Non disponible
+banner-error-slow-1 = Désolé, Common Voice fonctionne lentement. Merci de votre intérêt.
+banner-error-slow-2 = Nous rencontrons une forte affluence et analysons les différents problèmes.
+banner-error-slow-link = Page d’état
+error-something-went-wrong = Désolé, une erreur s’est produite
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -338,6 +342,9 @@ profile-form-additional-language =
     .label = Langue supplémentaire
 profile-form-language =
     .label = Langue
+profile-form-variant =
+    .label = Quelle variante linguistique de/du { $language } parlez-vous ?
+profile-form-variant-default-value = Aucune variante linguistique sélectionnée
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
@@ -389,6 +396,8 @@ off = Désactivé
 on = Activé
 help-accent = Besoin d’aide pour l’accent ?
 help-accent-explanation = Votre accent est votre manière de prononcer les mots. Il peut être façonné par les endroits où vous avez vécu, les autres langues que vous parlez et beaucoup d’autres facteurs. Vous pouvez partager toute information que vous jugez pertinente ici.
+help-variants = Besoin d’aide avec les variantes linguistiques ?
+help-variants-explanation = Les variantes linguistiques sont une forme spécifique d’une langue, par exemple partagée par les personnes qui vivent dans une zone géographique ou une communauté particulière. Elles sont parfois appelées dialectes.
 
 ## Profile - Email
 
@@ -399,6 +408,7 @@ gravatar_not_found = Impossible de trouver un Gravatar associé à votre adresse
 file_too_large = Le fichier sélectionné est trop volumineux
 avatar-uploaded = Avatar envoyé
 max-file-size = { $kb } ko max
+remove-avatar = Supprimer l’avatar
 
 ## Profile - Email
 
@@ -522,6 +532,7 @@ about-get-involved-text-2 =
     signalez des problèmes sur <githubLink>GitHub</githubLink>,
     ou rejoignez la discussion communautaire sur <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Comment rester en contact ?
+about-stay-in-touch-button = S’inscrire
 about-nav-why-common-voice = Pourquoi ?
 about-nav-how-it-works = Comment ?
 about-nav-partners = Partenaires
@@ -659,6 +670,7 @@ review-delete-recordings = Supprimer les enregistrements
 
 ## Datasets Page
 
+datasets-heading = Jeux de données
 datasets-headline = Nous créons un jeu de données vocales open source et multilingue que tout le monde peut utiliser pour entraîner des applications utilisant la voix.
 datasets-positioning =
     Nous pensons que mettre de grands jeux de données à la disposition de tout le monde favorise l’innovation et une concurrence saine pour les technologies utilisant la voix et basées sur l’apprentissage automatique.
@@ -743,6 +755,23 @@ request-language-success-content = Nous vous contacterons très bientôt avec de
 select-language = Sélectionnez une langue…
 other-language = Autre langue
 
+## Request Language Pages
+
+request-language-heading = Demander une nouvelle langue
+request-language-form-email =
+    .label = Votre adresse e-mail
+request-language-form-info =
+    .label = Informations sur la langue
+request-language-form-info-explanation = Ajoutez autant d’informations que vous pouvez sur la langue. Ces informations peuvent inclure :
+request-language-form-info-explanation-list-1 = Les noms de votre langue
+request-language-form-info-explanation-list-2 = Les <isoCodeLink>codes ISO</isoCodeLink>, si connus
+request-language-form-info-explanation-list-3 = Des liens vers des sites web qui peuvent nous aider à comprendre la langue
+request-language-google-recaptcha-required = reCAPTCHA est nécessaire si vous voulez continuer
+request-language-google-recaptcha-error = Une erreur est survenue avec reCAPTCHA. Merci de réessayer plus tard.
+# Success page
+request-language-success-heading = Merci ! Vous avez envoyé une nouvelle demande de langue
+request-language-success-list-1 = Vous devriez recevoir sous peu un e-mail vous expliquant les étapes pour ajouter votre langue à Common Voice
+
 ## Languages Overview
 
 language-section-in-progress = En cours
@@ -808,8 +837,14 @@ listen-again-instruction = Excellent travail ! <playIcon></playIcon> Écoutez �
 listen-3rd-time-instruction = Plus que deux <playIcon></playIcon>, continuez !
 listen-last-time-instruction = <playIcon></playIcon> C’est le dernier !
 listen-empty-state = Nous n’avons plus d’échantillons à valider dans cette langue…
+listen-loading-error =
+    Nous n’avons pas pu obtenir d’échantillons audio à écouter.
+    Veuillez réessayer plus tard.
 speak-empty-state = Nous n’avons plus de phrases à enregistrer dans cette langue…
 speak-empty-state-cta = Proposer des phrases
+speak-loading-error =
+    Nous n’avons pas pu obtenir de phrases à prononcer.
+    Veuillez réessayer plus tard.
 record-button-label = Enregistrer votre voix
 share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
 keep-track-profile = Mesurez votre progression en créant un profil
@@ -1301,6 +1336,7 @@ sc-confirm-uploading = Les phrases sont en cours d’envoi. Cela peut prendre pl
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Total
+sc-lang-info-title-personal = Personnel
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1415,7 +1451,6 @@ sc-review-link = Révision
 
 sc-settings-title = Paramètres
 sc-settings-ui-language = Langue de l’interface
-sc-settings-language-translated-warning = Les pages de cette langue peuvent ne pas être entièrement traduites. Vous pouvez aider à la traduction <pontoonLinkLink>sur Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Réinitialiser les phrases ignorées
 sc-settings-skipped-decription = Vous avez précédemment ignoré des phrases pendant la révision. Réinitialiser les phrases ignorées affichera à nouveau toutes les phrases ignorées, sans tenir compte de la langue.
 sc-settings-show-all-button = Afficher à nouveau toutes les phrases ignorées

@@ -1,7 +1,10 @@
 import * as React from 'react';
 import { Localized } from '@fluent/react';
+import { Link } from 'react-router-dom';
 import { DiscourseLink, MatrixLink } from '../../shared/links';
 import { DiscourseIconCode, MailIcon } from '../../ui/icons';
+import RoundButton from '../../ui/round-button';
+import VisuallyHidden from '../../visually-hidden/visually-hidden';
 import { SECTIONS } from './constants';
 
 import './get-involved.css';
@@ -23,15 +26,19 @@ const GetInvolved: React.ComponentType = () => {
 
         <div className="text-section">
           <div className="line" />
-
           <Localized id="about-stay-in-touch">
             <h1 />
           </Localized>
 
           <p>
-            <span className="round-button">
-              <MailIcon />
-            </span>
+            <RoundButton>
+              <Link to={`#${SECTIONS.SUBSCRIBE}`}>
+                <VisuallyHidden>
+                  <Localized id="about-stay-in-touch-button" />
+                </VisuallyHidden>
+                <MailIcon />
+              </Link>
+            </RoundButton>
             <Localized
               id="about-stay-in-touch-text-1"
               elems={{
@@ -42,9 +49,12 @@ const GetInvolved: React.ComponentType = () => {
           </p>
 
           <p>
-            <span className="round-button">
-              <DiscourseIconCode />
-            </span>
+            <RoundButton>
+              <DiscourseLink>
+                <VisuallyHidden>Discourse</VisuallyHidden>
+                <DiscourseIconCode />
+              </DiscourseLink>
+            </RoundButton>
             <Localized
               id="about-stay-in-touch-text-2"
               elems={{

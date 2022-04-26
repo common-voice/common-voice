@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Rebreu correus com ara recordatoris d'obj
 email-opt-in-privacy-v2 = En optar per rebre correus electrònics, accepteu que Mozilla gestioni aquesta informació en els termes descrits en la seva <privacyLink>política de privadesa</privacyLink>.
 indicates-required = * Indica un camp necessari
 not-available-abbreviation = N/D
+banner-error-slow-1 = Ens sap greu, el Common Voice està tardant a carregar-se, gràcies per l'interès.
+banner-error-slow-2 = La plataforma va molt carregada últimament, estem investigant els problemes i esperem solucionar-los aviat.
+banner-error-slow-link = Estat del projecte
+error-something-went-wrong = Hi ha hagut un problema
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -98,6 +102,7 @@ ko = coreà
 kpv = komi
 kw = còrnic
 ky = kirguís
+lb = luxemburguès
 lg = ganda
 lij = lígur
 lt = lituà
@@ -335,6 +340,9 @@ profile-form-additional-language =
     .label = Llengua addicional
 profile-form-language =
     .label = Llengua
+profile-form-variant =
+    .label = Quina variant de { $language } parleu?
+profile-form-variant-default-value = No hi ha cap variant seleccionada
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
@@ -386,6 +394,8 @@ off = Desactivat
 on = Activat
 help-accent = Us cal ajuda sobre els accents?
 help-accent-explanation = L'accent és la forma com pronuncieu les paraules. Es pot crear a partir dels llocs on heu viscut, quines altres llengües parleu i molts altres factors. Podeu compartir aquí qualsevol informació que considereu rellevant.
+help-variants = Us cal ajuda amb les variants?
+help-variants-explanation = Les variants són formes específiques d'una llengua. Per exemple, compartides per persones que viuen en una zona geogràfica o comunitat. De vegades s'anomenen dialectes.
 
 ## Profile - Email
 
@@ -396,6 +406,7 @@ gravatar_not_found = No s'ha trobat cap Gravatar per a la vostra adreça electr�
 file_too_large = El fitxer seleccionat és massa gran
 avatar-uploaded = S'ha pujat l'avatar
 max-file-size = Màxim { $kb } kB
+remove-avatar = Elimina l'avatar
 
 ## Profile - Email
 
@@ -520,6 +531,7 @@ about-get-involved-text-2 =
     Voleu ajudar a millorar el Common Voice?
     Genial! Poseu-vos en contacte per correu electrònic o pels fòrums del <discourseLink>Discourse</discourseLink>, notifiqueu problemes en el <githubLink>GitHub</githubLink> o uniu-vos al nostre xat de la comunitat en el <matrixLink>Matrix</matrixLink>
 about-stay-in-touch = Com em puc mantenir en contacte?
+about-stay-in-touch-button = Registre
 about-stay-in-touch-text-1 = <emailFragment>Registreu-vos</emailFragment> a la nostra llista de correu per a saber com podeu participar en campanyes, esdeveniments i funcions de disseny conjunt a Common Voice.
 about-stay-in-touch-text-2 = Podeu conèixer altres persones en les comunitats lingüístiques de Mozilla unint-vos a <discourseLink>Discourse</discourseLink> per a converses d'actualitat, o a <matrixLink>Matrix</matrixLink> per obtenir un consell ràpid.
 about-nav-why-common-voice = Per què?
@@ -671,6 +683,7 @@ review-delete-recordings = Suprimeix els meus enregistraments
 
 ## Datasets Page
 
+datasets-heading = Conjunts de dades
 datasets-headline = Estem creant un conjunt de dades de veus obert i multilingüe que tothom pot utilitzar per entrenar aplicacions que utilitzin la veu.
 datasets-positioning =
     Creiem que uns conjunts de dades grans i disponibles públicament promouran la innovació i la competència comercial sana en la tecnologia de la veu basada en l'aprenentatge automàtic.
@@ -689,7 +702,7 @@ number-of-voices = Nombre de veus
 splits = Divisions
 email-to-download = Introduïu l'adreça electrònica per baixar
 why-email = <b>Per què una adreça electrònica?</ b> És una forma de contacte en cas que ens haguéssim de posar en contacte en un futur per canvis en el conjunt de dades.
-confirm-size = Estic preparat per iniciar una baixada de <b>{ $size }</ b>
+confirm-size = Estic preparat per a iniciar una baixada de <b>{ $size }</ b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Accepto</ b> no intentar determinar la identitat dels parlants del conjunt de dades del Common Voice
@@ -720,7 +733,7 @@ your-feedback = Teniu idees sobre com millorar el conjunt de dades del Common Vo
 go-discourse = Vés al Discourse
 missing-language = No veieu la vostra llengua al conjunt de dades? Per sol·licitar una llengua, aneu a la pàgina de llengües.
 go-languages-page = Vés a la pàgina de llengües
-ready-to-validate = Esteu preparat per validar frases?
+ready-to-validate = Esteu a punt per a validar frases?
 more = Més
 close = Tanca
 download = Baixa
@@ -754,6 +767,47 @@ request-language-success-title = La sol·licitud de llengua s'ha enviat correcta
 request-language-success-content = Aviat ens posarem en contacte amb més informació sobre com afegir la vostra llengua al Common Voice.
 select-language = Seleccioneu una llengua...
 other-language = Un altra llengua
+
+## Request Language Pages
+
+request-language-heading = Demana d'afegir una llengua
+request-language-explanation-1 =
+    Comproveu si la vostra llengua apareix llistada en la
+    <languagesPageLink>pàgina de llengües del Common Voice</languagesPageLink>.
+    Si no, ompliu aquest formulari i us enviarem un correu electrònic
+    explicant com afegir la vostra llengua</strong>.
+request-language-explanation-2 =
+    També <strong>informarem el nostre gestor de comunitats
+    que hi teniu interès</strong>, perquè us pugui donar qualsevol
+    suport addicional o informació que necessiteu.
+request-language-form-email =
+    .label = La vostra adreça electrònica
+request-language-form-info =
+    .label = Informació sobre la llengua
+request-language-form-info-explanation =
+    Afegiu tanta informació com pugueu sobre la llengua. Això
+    podria incloure:
+request-language-form-info-explanation-list-1 = Noms de la vostra llengua
+request-language-form-info-explanation-list-2 = <isoCodeLink>Codis ISO</isoCodeLink> si els coneixeu
+request-language-form-info-explanation-list-3 = Enllaços a llocs web que ens poden ajudar a entendre la llengua
+request-language-google-recaptcha-required = reCAPTCHA és necessari si voleu continuar
+request-language-google-recaptcha-error = S'ha produït un error amb reCAPTCHA. Torneu-ho a provar més tard.
+# Success page
+request-language-success-heading = Gràcies! Heu enviat una nova consulta de llengua
+request-language-success-list-1 =
+    Ben aviat hauríeu de rebre un correu electrònic explicant
+    els passos per a afegir la vostra llengua al Common Voice
+request-language-success-list-2 =
+    El nostre gestor de comunitats es posarà en contacte amb vós
+    per a oferir-vos suport addicional i per a fer-vos saber si
+    ja hi ha una comunitat que treballi en la vostra llengua
+request-language-success-list-3 =
+    Si no sabeu res de nosaltres en un parell de dies,
+    contacteu via <emailLink>{ $email }</emailLink>
+    i ens posarem en contacte amb vós!
+request-language-error =
+    Potser no hem rebut aquesta sol·licitud. Envieu-nos un correu electrònic
+    directament a <emailLink>{ $email }</emailLink> i us respondrem!
 
 ## Languages Overview
 
@@ -789,8 +843,8 @@ goal-help-recording = Heu ajudat el Common Voice a assolir el <goalPercentage></
 goal-help-validation = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } validacions!
 contribute-more =
     { $count ->
-        [one] Preparat per fer-ne { $count } més?
-       *[other] Preparat per fer-ne { $count } més?
+        [one] A punt per a fer-ne { $count } més?
+       *[other] A punt per a fer-ne { $count } més?
     }
 record-cta = Enregistreu
 record-platform-not-supported = Malauradament, la vostra plataforma no és compatible actualment.
@@ -824,8 +878,14 @@ listen-again-instruction = Bona feina! <playIcon></playIcon> Escolteu una altra 
 listen-3rd-time-instruction = 2 menys! Mantingueu el ritme! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> L'últim!
 listen-empty-state = No hi ha cap més tall per validar en aquesta llengua...
+listen-loading-error =
+    No hem pogut cap tall de veu perquè el reviseu.
+    Torneu a intentar-ho més tard.
 speak-empty-state = No hi ha cap més frase per enregistrar en aquesta llengua...
 speak-empty-state-cta = Aporteu frases
+speak-loading-error =
+    No hem pogut carregar les oracions.
+    Si us plau, torneu a intentar-ho més tard.
 record-button-label = Enregistreu la vostra veu
 share-title-new = <bold>Ajudeu-nos</bold> a trobar més veus
 keep-track-profile = Feu seguiment del vostre progrés amb un perfil
@@ -919,15 +979,15 @@ finish-editing = Voleu acabar d'editar?
 lose-changes-warning = Si ho deixeu ara, es perdran tots els canvis
 build-custom-goal = Crea un objectiu personalitzat
 help-reach-hours-pluralized =
-    Ajudeu a arribar a { NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } hores
-    }en { $language } amb un objectiu personal
+    { NUMBER($hours) ->
+        [one] Ajudeu a arribar a { $hours } hora en { $language } amb un objectiu personal
+       *[other] Ajudeu a arribar a { $hours } hores en { $language } amb un objectiu personal
+    }
 help-reach-hours-general-pluralized =
-    Ajudeu al Common Voice a arribar a{ NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } hores
-    }en una llengua amb un objectiu personal
+    { NUMBER($hours) ->
+        [one] Ajudeu al Common Voice a arribar a{ $hours } hora en una llengua amb un objectiu personal
+       *[other] Ajudeu al Common Voice a arribar a{ $hours } hores en una llengua amb un objectiu personal
+    }
 set-a-goal = Defineix un objectiu
 cant-decide = No sabeu què fer?
 activity-needed-calculation-plural =
@@ -1052,9 +1112,9 @@ demo-account-sign-up = Envia l'enllaç de registre
 
 ## Demo Contribute
 
-demo-contribute-card-header = Esteu preparat per a afegir la veu o parar l'orella?
+demo-contribute-card-header = Esteu a punt per a afegir la veu o parar l'orella?
 demo-contribute-card-body-v2 = Ara que ja sabeu una mica més sobre el Common Voice, per què no ho proveu? Feu clic en la icona del micròfon per a començar a llegir frases en veu alta. <br/><br/>Si preferiu revisar les contribucions de veu d'altres persones, feu clic en la icona de reproducció. D'aquesta manera ajudareu a confirmar si els enregistraments coincideixen amb les frases escrites en la pantalla.
-demo-listen-subtitle = Preparat per a col·laborar?
+demo-listen-subtitle = A punt per a col·laborar?
 
 ## Demo Dashboard
 
@@ -1150,6 +1210,10 @@ sc-home-collect-title = Recull frases
 sc-home-collect-text = Ajudeu-nos escrivint o recopilant frases de domini públic.
 sc-home-review-title = Revisa les frases
 sc-home-review-text = Ajudeu-nos revisant la correcció de les frases segons unes directrius.
+
+## GENERAL
+
+sc-languages-fetch-error = No hem pogut obtenir les llengües disponibles. Actualment no es poden fer aportacions. Proveu-ho més tard.
 
 ## HOW-TO
 
@@ -1424,7 +1488,6 @@ sc-review-link = Revisa
 
 sc-settings-title = Paràmetres
 sc-settings-ui-language = Llengua de la interfície
-sc-settings-language-translated-warning = Les pàgines per aquesta llengua poden no estar acabades de traduir. Podeu ajudar amb les traduccions al <pontoonLinkLink>Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Restableix les frases omeses
 sc-settings-skipped-decription = Abans heu omès frases mentre les revisàveu. Si restabliu les frases omeses, es us tornaran a mostrar. Això és independent de la llengua.
 sc-settings-show-all-button = Mostra de nou totes les frases omeses

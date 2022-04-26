@@ -1,17 +1,13 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import * as request from 'request-promise-native';
-import { AWS } from '../lib/aws';
-import Schema from '../lib/model/db/schema';
 import ServerHarness from './lib/server-harness';
 import { getConfig } from '../config-helper';
 
 let serverHarness: ServerHarness;
-let schema: Schema;
 
 beforeAll(async () => {
   serverHarness = new ServerHarness();
-  schema = new Schema(serverHarness.mysql);
   await serverHarness.run();
 });
 
@@ -25,10 +21,6 @@ afterAll(async () => {
     serverHarness.done();
   }
 });
-
-// For Travis tests on PRs, we don't have AWS credentials,
-// so we will skip this S3 upload test in this case.
-/*(AWS.getS3().config.credentials ? test : test.skip)*/
 
 /**
  * With the way locales are being imported with the sentences,

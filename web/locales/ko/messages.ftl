@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = 도전이나 개인 목표 알림, 진행
 email-opt-in-privacy-v2 = 이메일을 받기로 수락함으로서 Mozilla의 <privacyLink>개인정보 정책</privacyLink>에 따라 Mozilla가 이 정보를 처리하는 것에 동의하게 됩니다.
 indicates-required = * 표시는 필수 항목
 not-available-abbreviation = 해당 없음
+banner-error-slow-link = 상태 페이지
+error-something-went-wrong = 죄송합니다. 오류가 발생하였습니다.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -98,6 +100,7 @@ ko = 한국어
 kpv = 코미지리안어
 kw = 콘월어
 ky = 키르기스스탄어
+lb = 룩셈부르크어
 lg = 루간다어
 lij = 리구리아어
 lt = 리투아니아어
@@ -145,6 +148,7 @@ scn = 시칠리아어
 shi = 실하어
 si = 싱할라어
 sk = 슬로바키아어
+skr = 사라이키어
 sl = 슬로베니아어
 so = 소말리아어
 sq = 알바니아어
@@ -160,6 +164,7 @@ ti = 티그리냐어
 tig = 티그레어
 tk = 투르쿠멘어
 tl = 타갈로그어
+tok = 도기 보나
 tr = 터키어
 tt = 타타르어
 tw = 트위어
@@ -392,6 +397,7 @@ gravatar_not_found = 이메일에 사용할 gravatar를 찾을 수 없습니다.
 file_too_large = 선택한 파일이 너무 큽니다.
 avatar-uploaded = 아바타 업로드됨
 max-file-size = 최대 { $kb }kb
+remove-avatar = 아바타 제거
 
 ## Profile - Email
 
@@ -467,6 +473,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 왜 Common Voice 인가요?
+about-header-description-v2 =
+    <p>Common Voice는 공개적으로 사용 가능한 음성 데이터 세트로, 전 세계 자원 봉사자의 목소리를 기반으로 합니다. 음성 애플리케이션을 구축하려는 사람들은 데이터세트를 사용하여 기계 학습 모델을 훈련할 수 있습니다.</p>
+    <p>현재 대부분의 음성 데이터 세트는 기업이 소유하고 있어 혁신을 가로막고 있습니다. 음성 데이터 세트는 또한 영어를 구사하는 백인 남성을 과도하게 나타냅니다. 이것은 음성 지원 기술이 많은 언어에서 전혀 작동하지 않으며 작동하는 곳에서 모든 사람에게 똑같이 잘 작동하지 않을 수 있음을 의미합니다. 우리는 사람들이 어디에서나 목소리를 공유할 수 있도록 함으로써 이를 바꾸고 싶습니다.</p>
 how-does-it-work-title-v2 = Common Voice는 어떻게 작동합니까?
 how-does-it-work-text = 오픈 소스 음성 데이터 세트를 크라우드 소싱하고 있습니다. 목소리를 기부하고, 다른 사람의 클립의 정확성을 검증하고, 모든 사람에게 더 나은 데이터 세트를 만드세요.
 
@@ -514,6 +523,7 @@ about-get-involved-text-2 =
     이메일 또는 <discourseLink>Discourse</discourseLink> 포럼을 통해 연락하세요.
     <githubLink>GitHub</githubLink>를 통해 사이트 문제를 제출하거나, <matrixLink>Matrix</matrixLink> 커뮤니티 채팅에 참여하세요.
 about-stay-in-touch = 어떻게 연락을 유지합니까?
+about-stay-in-touch-button = 가입
 about-stay-in-touch-text-1 = Common Voice의 캠페인, 이벤트 및 공동 디자인 기능에 참여하는 방법을 알아보려면 메일링 목록에 <emailFragment>가입</emailFragment>하십시오.
 about-stay-in-touch-text-2 = 주제별 대화를 위해 <discourseLink>Discourse</discourseLink>에 가입하거나 빠른 조언을 위해 <matrixLink>Matrix</matrixLink>에 가입하면 Mozilla 언어 커뮤니티에서 다른 사람들을 만날 수 있습니다.
 about-nav-why-common-voice = 왜?
@@ -529,6 +539,7 @@ about-nav-playbook = 참여 방법 알아보기
 about-playbook-what-is-language = Common Voice의 언어는 무엇입니까?
 about-playbook-what-is-language-content-1 = 언어에 대해 생각하는 방법에는 여러 가지가 있습니다. 음성 인식 모델의 목적을 위해 Common Voice는 '상호 명료성' 또는 '이 언어를 사용하는 사람들이 노력하면 대부분 서로를 이해할 수 있습니까?'에 중점을 둘 것을 제안합니다.
 about-playbook-what-is-language-content-2 = 우리는 음성 모델이 다양한 화자를 더 잘 이해하기를 바랍니다. 이를 위해서는 음성 데이터 세트가 다양한 사람들을 대표해야 합니다.
+about-playbook-what-is-language-content-3 = 일부 언어는 문법, 어휘 및 발음이 매우 다양합니다. 이러한 이유로 우리는 2022년에 <ctaLink>'변형'</ctaLink>을 도입합니다. 이를 통해 커뮤니티는 더 큰 데이터 세트 내에서 언어를 구별할 수 있습니다.
 
 ## How do I add a language
 
@@ -558,18 +569,41 @@ about-playbook-how-add-sentences-content-4 = 검증된 문장은 수요일에 �
 ## How to record quality
 
 about-playbook-how-record-quality = 고품질 음성 클립을 녹음하려면 어떻게 합니까?
+about-playbook-how-record-content-1 = 평소 목소리로 말해보세요! 이곳은 어떤 방식으로 말하든 - 있는 그대로의 억양, 일상적인 크기, 스타일 및 어조 - 환영합니다.
+about-playbook-how-record-content-2 = 목소리가 잘 들리게 주변이 시끄러운 장소는 피해주세요.
+about-playbook-how-record-content-3 = 문장을 주의 깊게 읽어주세요 - 단어를 놓치거나 바꾸거나 추가하지 마세요.
+about-playbook-how-record-content-4 = 말하기 전에 플랫폼이 녹음 중인지, 오직 말을 끝마칠 때만 녹음을 멈추는지 확인하십시오.
+about-playbook-how-record-content-5 = <accuracyLink>더 자세한 정확도 기준을 알아보세요</accuracyLink>.
 
 ## How to grow language
 
+about-playbook-how-grow-language = Common Voice로 어떻게 언어능력을 키울 수 있나요?
+about-playbook-how-grow-language-content-1 = 다양한 사람들이 Common Voice에 기여할 수 있는 기회를 만들어서 데이터 세트를 가능한 많은 사람들이 사용할 수 있게 합니다. 사용자가 사용할 수 있는 자원과 템플릿을 만들었습니다!
+about-playbook-how-grow-language-content-2 = 이벤트
+about-playbook-how-grow-language-content-3 = 사람들이 기여할 수 있도록 이벤트를 운영할 수 있습니다. 생각보다 쉽습니다. 화상 회의 도구를 사용하여 온라인으로 할 수도 있고 안전한 경우 직접 대면할 수도 있습니다. <eventTemplate>이벤트 실행을 위한 템플릿과 리소스를 확인하세요</eventTemplate>.
+about-playbook-how-grow-language-content-4 = 소셜 미디어
+about-playbook-how-grow-language-content-6 = 파트너십 및 네트워크
 
 ## How to validate
 
+about-playbook-how-validate = 음성 클립이 승인되었는지 어떻게 알 수 있나요?
+about-playbook-how-validate-content-3 = 만약 발음을 <strong>아예 이해할 수 없거나</strong>, <strong>배경 잡음이 너무 심하거나</strong>, <strong>기여자 외에 다른 사람이 말하고 있다고</strong> 생각한다면 클립을 거부해야 합니다. <accuracyLink>자세한 정확도 기준에 대해 알아 보세요</accuracyLink>.
+about-playbook-how-validate-content-4 = 클립을 두 사람이 거부하면 데이터 세트에 별도로 구분되어 공개됩니다.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = 어떻게 데이터 세트에 접근하고 사용하나요?
+about-playbook-how-access-dataset-content-1 = <datasetsPage>데이터 세트 페이지</datasetsPage>에서 원하는 버전과 언어를 선택한 뒤 다운로드할 수 있습니다! 파일에는 인구 통계 정보라거나 검증 데이터와 같은 <metadataLink>대응되는 메타데이터</metadataLink>가 들어 있습니다. 데이터 세트를 다운로드하려면 이메일 주소를 제공해야 합니다.
+about-playbook-how-access-dataset-content-2 = 자동 음성 인식(ASR) 모델을 구축하는 도구를 찾고 있다면 <discourseLink>Discourse</discourseLink>에서 커뮤니티의 다른 사람들과 만날 수 있습니다.
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-2 = 다음을 기반으로 하는 관리방식:
+about-playbook-how-project-governance-content-3 = 개인 정보 보호, 보안 및 투명성.
+about-playbook-how-project-governance-content-4 = 커뮤니티 참여 및 의사 결정.
+about-playbook-how-project-governance-content-5 = 가치와 인정.
+about-playbook-how-project-governance-content-6 = 상호 책임.
+about-playbook-how-project-governance-content-7 = <governanceLink>관리 방식에 대해 자세히 살펴 보세요.</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 인공 지능
 mycroft-description =
@@ -636,11 +670,11 @@ review-delete-recordings = 내 녹음 삭제
 
 datasets-headline = 우리는 누구든지 음성 지원 응용프로그램을 교육하기 위해 사용할 수 있는 오픈 소스, 다국어 음성 데이터 세트를 구축하고 있습니다.
 datasets-positioning =
-    우리는 공개적으로 이용할 수 있는 대규모 음성 데이터 세트가 머신-러닝 기반의 음성 기술의 혁신과 건전한 상업 경쟁을 촉진할 것이라고 믿습니다.
+    우리는 공개적으로 이용할 수 있는 대규모 음성 데이터 세트가 기계 학습 기반 음성 기술의 혁신과 건전한 상업 경쟁을 촉진할 것이라고 믿습니다.
     
-    Common Voice의 다국어 데이터 세트는 이미 같은 부류의 세트 중에서 공개적으로 이용할 수 있는 가장 큰 규모의 음성 데이터 세트지만, 그것만이 유일한 것은 아닙니다.
+    Common Voice의 다국어 데이터 세트는 이미 동종의 공개 데이터 세트 중에서 가장 큰 규모이지만, 그 밖에도 다른 데이터 세트가 존재합니다.
     
-    이 페이지를 다른 오픈 소스 음성 데이터 세트의 기준점(참조처)으로 해주십시오. 또한 Common Voice가 계속 성장하고 있기 때문에, 릴리스 업데이트를 위한 홈으로 삼으십시오.
+    이 페이지는 다른 오픈 소스 음성 데이터 세트의 참조처이자, Common Voice가 성장해 감에 따라 공개될 업데이트를 위한 장소가 될 것입니다.
 language = 언어
 # File size in gigabytes
 size = 크기
@@ -718,6 +752,40 @@ request-language-success-content = 곧 언어를 Common Voice에 추가하는 �
 select-language = 언어를 선택하세요...
 other-language = 다른 언어
 
+## Request Language Pages
+
+request-language-explanation-1 =
+    해당 언어가 <languagesPageLink>Common Voice 언어 목록</languagesPageLink>에 있는지 확인하십시오.
+    목록에 없다면 이 양식을 채워 주십시오. 저희가 <strong>해당 언어를 어떻게 시작할지에 대해 유용한 메일을 보내 드릴 것입니다</strong>.
+request-language-explanation-2 =
+    또한 <strong>커뮤니티 관리자에게 귀하의 관심이 전달될 것이며</strong>,
+    추가적인 지원이나 필요할 수 있는 정보를 받게 될 것입니다.
+request-language-form-email =
+    .label = 이메일 주소
+request-language-form-info =
+    .label = 언어에 대한 정보
+request-language-form-info-explanation = 언어에 대해 알고 있는 정보를 최대한 많이 추가해 주세요. 이를테면:
+request-language-form-info-explanation-list-1 = 언어의 이름
+request-language-form-info-explanation-list-2 = 알고 있는 경우 <isoCodeLink>ISO 코드</isoCodeLink>
+request-language-form-info-explanation-list-3 = 언어를 이해하는데 도움이 될 만한 웹사이트 링크
+request-language-google-recaptcha-required = 계속하려면 reCAPTCHA가 필요합니다.
+request-language-google-recaptcha-error = reCAPTCHA에 문제가 발생했습니다. 다시 시도해 주세요.
+# Success page
+request-language-success-heading = 감사합니다! 새로운 언어 문의를 보냈습니다.
+request-language-success-list-1 =
+    곧 Common Voice에 언어를 추가하기 위한 단계를 
+    설명하는 메일을 받게 됩니다.
+request-language-success-list-2 =
+    커뮤니티 관리자가 귀하에게 연락하여 추가 지원이나,
+    이미 해당 언어를 다루는 커뮤니티가 있는지 여부를
+    알려 드릴 것입니다.
+request-language-success-list-3 =
+    며칠 내로 연락이 오지 않으면 <emailLink>{ $email }</emailLink>로 
+    연락해 주시면 다시 연락드리겠습니다!
+request-language-error =
+    저희가 해당 요청을 받지 못했을 수 있습니다. <emailLink>{ $email }</emailLink>로
+    직접 메일을 보내 주시면 연락드리겠습니다!
+
 ## Languages Overview
 
 language-section-in-progress = 진행중
@@ -786,8 +854,14 @@ listen-again-instruction = 잘하셨습니다! <playIcon></playIcon> 준비가 �
 listen-3rd-time-instruction = 2개 하셨네요, 계속 하세요! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> 마지막입니다!
 listen-empty-state = 이 언어로 검증 할 클립이 부족합니다...
+listen-loading-error =
+    들을 수 있는 오디오 클립을 하나도 가져오지 못했습니다.
+    나중에 다시 시도해 주세요.
 speak-empty-state = 이 언어로 녹음 할 문장이 부족합니다...
 speak-empty-state-cta = 문장 기여하기
+speak-loading-error =
+    말할 수 있는 문장을 하나도 가져오지 못했습니다.
+    나중에 다시 시도해 주세요.
 record-button-label = 목소리 녹음
 share-title-new = 더 많은 목소리를 찾게 <bold>도와주세요</bold>
 keep-track-profile = 프로필로 진행 상황을 추적
@@ -1050,17 +1124,23 @@ contribution-varying-pronunciations-description = 읽는 사람이 단어를 잘
 contribution-varying-pronunciations-description-extended = 반면에 읽는 사람이 단어를 이전에 본 적이 없는 것 같고 발음에 대해 잘못된 추측을 하고 있다고 생각되면 거부하세요. 확실하지 않은 경우 건너뛰기 버튼을 사용하세요.
 contribution-varying-pronunciations-example-1-title = 머리에는 베레모를 쓰고 있었습니다.
 contribution-varying-pronunciations-example-1-explanation = ['Beret'은 강세가 첫 음절(영국)이든 두 번째 음절(미국)이든 괜찮습니다.]
+contribution-varying-pronunciations-example-2-title = 그의 손이 올라갔다(rais-ed).
 contribution-varying-pronunciations-example-2-explanation = [영어의 'Raised'는 항상 2음절이 아닌 1음절로 발음합니다.]
 contribution-background-noise-title = 배경 소음
 contribution-background-noise-description = 우리는 기계 학습 알고리즘이 다양한 배경 소음을 처리할 수 있기를 원하며, 텍스트 전체를 듣는 데 방해가 되지 않는다면 비교적 큰 소음도 수용할 수 있습니다. 조용한 배경 음악은 괜찮습니다. 모든 단어가 들리지 않을 정도로 큰 음악은 그렇지 않습니다.
 contribution-background-noise-description-extended = 녹음이 깨지거나 딱딱거리는 소리가 난다면, 텍스트 전체가 잘 들리지 않는 한 거부합니다.
+contribution-background-noise-example-1-fixed-title = <strong>[재채기]</strong> 트라이아스기 <strong>[기침]</strong>의 거대한 공룡.
+contribution-background-noise-example-2-fixed-title = 트라이아스기의 거대한 공룡 <strong>[기침]</strong> 입니다.
 contribution-background-noise-example-2-explanation = [텍스트의 일부가 들리지 않음]
+contribution-background-noise-example-3-fixed-title = <strong>[탁탁하는 소리]</strong> 거대한 공룡 <strong>[탁탁하는 소리]</strong> -아스기.
 contribution-background-voices-title = 배경 목소리
 contribution-background-voices-description = 조용한 배경 소음은 괜찮지만, 쓰여진 텍스트에 없는 단어를 기계 알고리즘이 식별할 수 있는 추가 음성은 그렇지 않습니다. 텍스트와 별개의 다른 말이 들린다면 클립을 거부해야 합니다. 일반적으로 이것은 TV가 켜져 있거나 근처에서 대화가 진행되고 있을 때 발생합니다.
 contribution-background-voices-description-extended = 녹음이 깨지거나 딱딱거리는 소리가 난다면, 텍스트 전체가 잘 들리지 않는 한 거부합니다.
+contribution-background-voices-example-1-title = 트라이아스기의 거대한 공룡. <strong>[한 목소리로 읽는다]</strong>
 contribution-background-voices-example-1-explanation = 오고 있어? <strong>[다른 사람이 부르는 소리]</strong>
 contribution-volume-title = 소리 크기
 contribution-volume-description = 읽는 사람들 사이엔 소리 크기의 자연스러운 변화가 있을 것입니다. 목소리가 너무 커서 녹음이 끊기거나 (더 흔하게는) 너무 작아 원문을 참조하지 않으면 무슨 말을 하는지 들리지 않는 경우에만 거부하십시오.
+contribution-reader-effects-title = 리더 효과
 contribution-reader-effects-description = 대부분의 녹음은 사람들의 자연스러운 목소리입니다. 소리지르거나 속삭이거나 명백히 '극적인' 목소리로 전달한 비표준 녹음을 허용할 수 있습니다. 노래하는 녹음 및 컴퓨터 합성 음성을 사용한 녹음 등은 거부하십시오.
 contribution-just-unsure-title = 그냥 잘 모르겠다면?
 contribution-just-unsure-description = 이 지침에서 다루지 않는 것을 발견하면 최선의 판단에 따라 결정하십시오. 정말 결정하기 어려우면 건너뛰기 버튼을 누르고 다음 녹음으로 넘어가십시오.
@@ -1075,6 +1155,7 @@ see-less = <chevron></chevron>덜 보기
 ## HEADER/FOOTER
 
 sc-header-home = 홈
+sc-header-how-to = 길잡이
 sc-header-add = 추가
 sc-header-review = 리뷰
 sc-header-rejected = 거부된 문장
@@ -1094,6 +1175,9 @@ sc-logout-button = 로그아웃
 ## HOME
 
 sc-home-title = Common Voice Sentence Collector에 오신 것을 환영합니다
+
+## GENERAL
+
 
 ## HOW-TO
 

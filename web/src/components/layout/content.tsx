@@ -1,5 +1,8 @@
 import * as React from 'react';
 import { Switch, Route, Redirect } from 'react-router';
+import * as Sentry from '@sentry/react';
+import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
+
 import URLS from '../../urls';
 import { isContributable, useLocale } from '../locale-helpers';
 import DocumentPage from '../pages/document-page';
@@ -7,7 +10,13 @@ import { Spinner } from '../ui/ui';
 import { LoginFailure, LoginSuccess } from '../pages/login';
 const HomePage = React.lazy(() => import('../pages/home/home'));
 const DatasetsPage = React.lazy(() => import('../pages/datasets/datasets'));
-const LanguagesPages = React.lazy(() => import('../pages/languages/languages'));
+const LanguagesPage = React.lazy(() => import('../pages/languages/languages'));
+const LanguagesRequestPage = React.lazy(() => {
+  return import('../pages/languages/request/request');
+});
+const LanguagesRequestSuccessPage = React.lazy(() => {
+  return import('../pages/languages/request/request-success');
+});
 const DashboardPage = React.lazy(() => import('../pages/dashboard/dashboard'));
 const ProfileLayoutPage = React.lazy(() => import('../pages/profile/layout'));
 const FAQPage = React.lazy(() => import('../pages/faq/faq'));
@@ -16,19 +25,25 @@ const LandingPage = React.lazy(() => import('../pages/landing/landing'));
 const ErrorPage = React.lazy(() => import('../pages/error-page/error-page'));
 const CriteriaPage = React.lazy(() => import('../pages/criteria/criteria'));
 
+const SentryRoute = Sentry.withSentryRouting(Route);
+
 export default function Content({ location }: { location: any }) {
   const [locale, toLocaleRoute] = useLocale();
   return (
-    <div id="content">
+    <main id="content">
       <React.Suspense fallback={<Spinner />}>
         <Switch>
-          <Route exact path={toLocaleRoute(URLS.ROOT)} component={HomePage} />
-          <Route
+          <SentryRoute
+            exact
+            path={toLocaleRoute(URLS.ROOT)}
+            component={HomePage}
+          />
+          <SentryRoute
             exact
             path={toLocaleRoute('/new')}
             render={() => <Redirect to={toLocaleRoute(URLS.ROOT)} />}
           />
-          <Route
+          <SentryRoute
             exact
             path={toLocaleRoute(URLS.RECORD)}
             render={() => (
@@ -39,47 +54,60 @@ export default function Content({ location }: { location: any }) {
               />
             )}
           />
-          <Route
+          <SentryRoute
             exact
             path={toLocaleRoute(URLS.LANGUAGES)}
-            component={LanguagesPages}
+            component={LanguagesPage}
           />
-          <Route
+          <SentryRoute
+            exact
+            path={toLocaleRoute(URLS.LANGUAGE_REQUEST)}
+            component={LanguagesRequestPage}
+          />
+          <SentryRoute
+            exact
+            path={toLocaleRoute(URLS.LANGUAGE_REQUEST_SUCCESS)}
+            component={LanguagesRequestSuccessPage}
+          />
+          <SentryRoute
             exact
             path={toLocaleRoute(URLS.DATA)}
             render={() => <Redirect to={toLocaleRoute(URLS.DATASETS)} />}
           />
-          <Route
+          <SentryRoute
             exact
             path={toLocaleRoute(URLS.DATASETS)}
             component={DatasetsPage}
           />
-          <Route
+          <SentryRoute
             exact
             path={toLocaleRoute('/login-failure')}
             component={LoginFailure}
           />
-          <Route
+          <SentryRoute
             exact
             path={toLocaleRoute('/login-success')}
             component={LoginSuccess}
           />
-          <Route
+          <SentryRoute
             exact
             path={toLocaleRoute(URLS.PROFILE)}
             render={() => <Redirect to={toLocaleRoute(URLS.PROFILE_INFO)} />}
           />
-          <Route
+          <SentryRoute
             path={toLocaleRoute(URLS.PROFILE + '/')}
             component={ProfileLayoutPage}
           />
-          <Route
+          <SentryRoute
             path={toLocaleRoute(URLS.DASHBOARD)}
             component={DashboardPage}
           />
-          <Route path={toLocaleRoute(URLS.CRITERIA)} component={CriteriaPage} />
+          <SentryRoute
+            path={toLocaleRoute(URLS.CRITERIA)}
+            component={CriteriaPage}
+          />
           {[URLS.CHALLENGE, URLS.STATS, URLS.GOALS, URLS.AWARDS].map(path => (
-            <Route
+            <SentryRoute
               key={path}
               exact
               path={toLocaleRoute(path)}
@@ -88,48 +116,56 @@ export default function Content({ location }: { location: any }) {
               )}
             />
           ))}
-          <Route
+          <SentryRoute
             exact
             path={toLocaleRoute(URLS.PROFILE_GOALS)}
             render={() => (
               <Redirect to={toLocaleRoute(URLS.DASHBOARD + '/' + URLS.GOALS)} />
             )}
           />
-          <Route exact path={toLocaleRoute(URLS.FAQ)} component={FAQPage} />
-          <Route exact path={toLocaleRoute(URLS.ABOUT)} component={AboutPage} />
-          <Route
+          <SentryRoute
+            exact
+            path={toLocaleRoute(URLS.FAQ)}
+            component={FAQPage}
+          />
+          <SentryRoute
+            exact
+            path={toLocaleRoute(URLS.ABOUT)}
+            component={AboutPage}
+          />
+          <SentryRoute
             exact
             path={toLocaleRoute(URLS.PRIVACY)}
             render={() => <DocumentPage key="p" name="privacy" />}
           />
-          <Route
+          <SentryRoute
             exact
             path={toLocaleRoute(URLS.TERMS)}
             render={() => <DocumentPage key="t" name="terms" />}
           />
-          <Route
+          <SentryRoute
             exact
             path={toLocaleRoute(URLS.CHALLENGE_TERMS)}
             render={() => <DocumentPage key="c" name="challenge-terms" />}
           />
-          <Route
+          <SentryRoute
             exact
             path={toLocaleRoute('/landing/sodedif')}
             component={LandingPage}
           />
-          <Route
+          <SentryRoute
             path={toLocaleRoute('/404')}
             render={() => (
               <ErrorPage errorCode="404" prevPath={location.state?.prevPath} />
             )}
           />
-          <Route
+          <SentryRoute
             path={toLocaleRoute('/503')}
             render={() => (
               <ErrorPage errorCode="503" prevPath={location.state?.prevPath} />
             )}
           />
-          <Route
+          <SentryRoute
             exact
             path={toLocaleRoute(URLS.SPEAK)}
             render={() => {
@@ -138,7 +174,7 @@ export default function Content({ location }: { location: any }) {
               return <Redirect to={toLocaleRoute(URLS.SPEAK)} />;
             }}
           />
-          <Route
+          <SentryRoute
             exact
             path={toLocaleRoute(URLS.LISTEN)}
             render={() => {
@@ -147,15 +183,13 @@ export default function Content({ location }: { location: any }) {
               return <Redirect to={toLocaleRoute(URLS.LISTEN)} />;
             }}
           />
-          <Redirect
-            push
-            to={{
-              pathname: toLocaleRoute('/404'),
-              state: { prevPath: location.pathname },
-            }}
+          <Route
+            render={() => (
+              <ErrorPage errorCode="404" prevPath={location.state?.prevPath} />
+            )}
           />
         </Switch>
       </React.Suspense>
-    </div>
+    </main>
   );
 }

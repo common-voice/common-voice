@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Nhận email như lời nhắc cho thử 
 email-opt-in-privacy-v2 = Bằng cách chọn nhận email, bạn tuyên bố rằng bạn đồng ý với việc Mozilla xử lý thông tin này như được giải thích trong <privacyLink>chính sách bảo mật</privacyLink> của Mozilla.
 indicates-required = * Trường được yêu cầu
 not-available-abbreviation = N/A
+banner-error-slow-1 = Rất tiếc, Common Voice đang chạy chậm. Cảm ơn vì sự quan tâm của bạn.
+banner-error-slow-2 = Chúng tôi đang nhận được rất nhiều lưu lượng truy cập và hiện đang điều tra các vấn đề.
+banner-error-slow-link = Trang trạng thái
+error-something-went-wrong = Xin lỗi, có gì đó không ổn
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -98,6 +102,7 @@ ko = Hàn
 kpv = Komi-Zyria
 kw = Cornwall
 ky = Kyrgyz
+lb = Luxembourgish
 lg = Luganda
 lij = Ligurian
 lt = Litva
@@ -331,6 +336,9 @@ profile-form-additional-language =
     .label = Ngôn ngữ bổ sung
 profile-form-language =
     .label = Ngôn ngữ
+profile-form-variant =
+    .label = Bạn nói biến thể nào của { $language }?
+profile-form-variant-default-value = Không có biến thể nào được chọn
 profile-form-accent =
     .label = Giọng vùng miền
 profile-form-custom-accent-help-text =
@@ -357,7 +365,7 @@ why-profile-title = Tại sao phải tạo một hồ sơ?
 why-profile-text = Bằng cách cung cấp một số thông tin về bản thân bạn, dữ liệu âm thanh mà bạn gửi tới Common Voice sẽ hữu ích hơn đối với công cụ Nhận dạng giọng nói và cũng để cải thiện độ chính xác của chúng.
 dashboard = Bảng điều khiển
 build-profile = Xây dựng hồ sơ
-avatar = Ảnh đại diện
+avatar = Hình đại diện
 goals = Mục tiêu
 settings = Cài đặt
 edit-profile = Chỉnh sửa hồ sơ
@@ -382,6 +390,8 @@ off = Tắt
 on = Bật
 help-accent = Cần một số trợ giúp về trọng âm?
 help-accent-explanation = Trọng âm của bạn là cách bạn phát âm các từ. Nó có thể được định hình bởi nơi bạn đã sống, bạn nói ngôn ngữ nào khác và rất nhiều yếu tố khác. Bạn có thể chia sẻ bất kỳ thông tin nào bạn cảm thấy có liên quan tại đây.
+help-variants = Cần một số trợ giúp với biến thể?
+help-variants-explanation = Biến thể là một dạng cụ thể của một ngôn ngữ - ví dụ như được chia sẻ bởi những người sống trong một khu vực địa lý hoặc cộng đồng. Đôi khi chúng được gọi là tiếng địa phương.
 
 ## Profile - Email
 
@@ -392,6 +402,7 @@ gravatar_not_found = Không tìm thấy gravatar cho email của bạn
 file_too_large = Tập tin đã chọn quá lớn
 avatar-uploaded = Đã tải lên hình đại diện
 max-file-size = Tối đa { $kb }kb
+remove-avatar = Xóa hình đại diện
 
 ## Profile - Email
 
@@ -518,6 +529,7 @@ about-get-involved-text-2 =
     gửi các vấn đề về trang web thông qua <githubLink>GitHub</githubLink>,
     hoặc tham gia trò chuyện cộng đồng trên <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Làm cách nào để giữ liên lạc?
+about-stay-in-touch-button = Đăng ký
 about-stay-in-touch-text-1 = <emailFragment>Đăng ký</emailFragment> vào danh sách gửi thư của chúng tôi để tìm hiểu cách bạn có thể tham gia vào các chiến dịch, sự kiện và các tính năng đồng thiết kế trên Common Voice.
 about-stay-in-touch-text-2 = Bạn có thể gặp gỡ những người khác trong cộng đồng ngôn ngữ Mozilla bằng cách tham gia <discourseLink>Discourse</discourseLink> để trò chuyện theo chủ đề hoặc <matrixLink>Matrix</matrixLink> để được tư vấn nhanh.
 about-nav-why-common-voice = Tại sao ?
@@ -669,6 +681,7 @@ review-delete-recordings = Xóa bản ghi âm của tôi
 
 ## Datasets Page
 
+datasets-heading = Tập dữ liệu
 datasets-headline = Chúng tôi đã xây dựng một bộ dữ liệu giọng nói đa ngôn ngữ mã nguồn mở mà bất kỳ ai cũng có thể sử dụng để huấn luyện các ứng dụng hỗ trợ giọng nói.
 datasets-positioning =
     Chúng tôi tin rằng các bộ dữ liệu giọng nói lớn, có sẵn công khai sẽ thúc đẩy sự đổi mới và cạnh tranh thương mại lành mạnh trong công nghệ lời nói dựa trên máy học.
@@ -753,6 +766,46 @@ request-language-success-content = Chúng tôi sẽ giữ liên lạc với bạ
 select-language = Chọn một ngôn ngữ...
 other-language = Ngôn ngữ khác
 
+## Request Language Pages
+
+request-language-heading = Hỏi về một ngôn ngữ mới
+request-language-explanation-1 =
+    Kiểm tra xem ngôn ngữ của bạn có được liệt kê trên <languagesPageLink>trang ngôn ngữ giọng nói phổ biến</languagesPageLink>.
+    Nếu không, hãy điền vào biểu mẫu này và chúng tôi sẽ <strong>gửi cho bạn một email hữu ích
+    giải thích cách thiết lập ngôn ngữ của bạn</strong>.
+request-language-explanation-2 =
+    Chúng tôi cũng sẽ <strong>cho người quản lý cộng đồng của chúng tôi biết
+    mà bạn quan tâm</strong>, vì vậy họ có thể cung cấp cho bạn bất kỳ
+    hỗ trợ thêm hoặc thông tin bạn có thể cần.
+request-language-form-email =
+    .label = Địa chỉ email của bạn
+request-language-form-info =
+    .label = Thông tin về ngôn ngữ
+request-language-form-info-explanation =
+    Thêm càng nhiều thông tin về ngôn ngữ càng tốt. Điều này
+    có thể bao gồm:
+request-language-form-info-explanation-list-1 = Tên ngôn ngữ của bạn
+request-language-form-info-explanation-list-2 = <isoCodeLink>Mã ISO</isoCodeLink> nếu biết
+request-language-form-info-explanation-list-3 = Liên kết đến các trang web có thể giúp chúng tôi hiểu ngôn ngữ
+request-language-google-recaptcha-required = reCAPTCHA là bắt buộc nếu bạn muốn tiếp tục
+request-language-google-recaptcha-error = Đã xảy ra sự cố với reCAPTCHA. Vui lòng thử lại.
+# Success page
+request-language-success-heading = Cảm ơn bạn! Bạn đã gửi một câu hỏi về ngôn ngữ mới
+request-language-success-list-1 =
+    Bạn sẽ sớm nhận được một email giải thích
+    các bước để thêm ngôn ngữ của bạn vào Common Voice
+request-language-success-list-2 =
+    Người quản lý cộng đồng của chúng tôi sẽ liên hệ với bạn
+    để cung cấp hỗ trợ thêm và cho bạn biết nếu đã có
+    một cộng đồng làm việc trên ngôn ngữ của bạn
+request-language-success-list-3 =
+    Nếu bạn không nhận được phản hồi từ chúng tôi trong vòng vài ngày,
+    liên hệ với <emailLink>{ $email }</emailLink>
+    và chúng tôi sẽ liên hệ lại với bạn!
+request-language-error =
+    Chúng tôi có thể đã không nhận được yêu cầu đó. Vui lòng gửi email trực tiếp cho chúng tôi
+    trên <emailLink>{ $email }</emailLink> và chúng tôi sẽ liên hệ lại với bạn!
+
 ## Languages Overview
 
 language-section-in-progress = Trong tiến trình
@@ -820,8 +873,14 @@ listen-again-instruction = Làm tốt lắm!<playIcon></playIcon> Nghe lại khi
 listen-3rd-time-instruction = 2 cái đã xong, cố gắng lên!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Cái cuối cùng!
 listen-empty-state = Chúng tôi đã hết đoạn thoại để xác thực bằng ngôn ngữ này...
+listen-loading-error =
+    Chúng tôi không thể nhận được bất kỳ đoạn âm thanh nào để bạn nghe.
+    Vui lòng thử lại sau.
 speak-empty-state = Chúng tôi đã hết câu để ghi lại bằng ngôn ngữ này...
 speak-empty-state-cta = Đóng góp câu
+speak-loading-error =
+    Chúng tôi không thể nhận được bất kỳ câu nào để bạn nói.
+    Vui lòng thử lại sau.
 record-button-label = Ghi âm giọng nói của bạn
 share-title-new = <bold>Giúp chúng tôi</bold> tìm thêm giọng nói
 keep-track-profile = Theo dõi tiến trình của bạn với một hồ sơ
@@ -1143,6 +1202,10 @@ sc-home-collect-title = Thu thập các câu
 sc-home-collect-text = Giúp chúng tôi bằng cách viết hoặc thu thập các câu thuộc phạm vi cộng đồng.
 sc-home-review-title = Đánh giá các câu
 sc-home-review-text = Giúp chúng tôi bằng cách đánh giá các câu cho đúng theo hướng dẫn.
+
+## GENERAL
+
+sc-languages-fetch-error = Chúng tôi không thể tìm nạp các ngôn ngữ có sẵn. Không thể thực hiện việc đóng góp. Vui lòng thử lại sau.
 
 ## HOW-TO
 

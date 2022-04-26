@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = 訂閱諸如挑戰、目標提醒、進�
 email-opt-in-privacy-v2 = 若同意接收郵件，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述的方式處理這些資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
+banner-error-slow-1 = 感謝您使用 Common Voice，很抱歉目前運作有點慢。
+banner-error-slow-2 = 我們收到大量連線流量，目前正在調查處理相關問題。
+banner-error-slow-link = 狀態頁面
+error-something-went-wrong = 抱歉，有些東西不對勁
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -334,6 +338,9 @@ profile-form-additional-language =
     .label = 其他語言
 profile-form-language =
     .label = 語言
+profile-form-variant =
+    .label = 您會說 { $language } 的哪種變體？
+profile-form-variant-default-value = 未選擇變體
 profile-form-accent =
     .label = 腔調
 profile-form-custom-accent-help-text =
@@ -385,6 +392,8 @@ off = 關
 on = 開
 help-accent = 需要關於腔調的說明嗎？
 help-accent-explanation = 腔調就是您發音的方式，可能會受您生活的地方、您會說的其他語言以及其他許多因素影響。您可以在此分享任何您覺得有關的資訊。
+help-variants = 需要關於變體的相關說明嗎？
+help-variants-explanation = 變體是一種語言的特定格式，像是由居住在共同地區或社群的人才有的特定說話腔調。有時這也稱為「方言」。
 
 ## Profile - Email
 
@@ -395,6 +404,7 @@ gravatar_not_found = 找不到您電子郵件信箱的 Gravatar
 file_too_large = 選擇的檔案太大
 avatar-uploaded = 已上傳大頭照
 max-file-size = 最大 { $kb }kb
+remove-avatar = 移除大頭照
 
 ## Profile - Email
 
@@ -521,6 +531,7 @@ about-get-involved-text-2 =
     討論區留言、透過 <githubLink>GitHub</githubLink> 回報網站問題、
     或是加入我們的 <matrixLink>Matrix</matrixLink> 社群聊天室。
 about-stay-in-touch = 我要如何與你們保持聯繫？
+about-stay-in-touch-button = 註冊
 about-stay-in-touch-text-1 = <emailFragment>訂閱</emailFragment>我們的郵件群組，瞭解可以參加哪些活動、並一同參與 Common Voice 的功能設計。
 about-stay-in-touch-text-2 = 您可以加入 <discourseLink>Discourse</discourseLink> 來認識 Mozilla 各語言社群的成員並進行對話，或是加入 <matrixLink>Matrix</matrixLink> 來獲得快速建議。
 about-nav-why-common-voice = 為什麼？
@@ -670,6 +681,7 @@ review-delete-recordings = 刪除我的錄音
 
 ## Datasets Page
 
+datasets-heading = 資料集
 datasets-headline = 我們想建立一套開放原始碼、多重語言的語音資料集，讓任何人都可以用來開發語音相關應用。
 datasets-positioning =
     我們相信若有一組大型、可公開使用的語音資料集，可奠定以機器學習為基礎的語音技術的創新，與健康的商業競爭。
@@ -754,6 +766,28 @@ request-language-success-content = 我們將很快在您的語言於 Common Voic
 select-language = 選擇一種語言…
 other-language = 其他語言
 
+## Request Language Pages
+
+request-language-heading = 請求加入新語言
+request-language-explanation-1 = 請先確認您的語言是否已列於<languagesPageLink>Common Voice 語言頁面</languagesPageLink>。若沒有再列出的語言清單中，請填寫此表單，我們將<strong>寄送一份如何開始設定語言</strong>的簡短郵件帶您入門。
+request-language-explanation-2 = 我們也想<strong>讓我們的社群經理知道您對新語言有興趣</strong>，這樣才可以提供您任何需要的支援或幫助。
+request-language-form-email =
+    .label = 您的電子郵件地址
+request-language-form-info =
+    .label = 語言相關資訊
+request-language-form-info-explanation = 請盡量提供與這種語言有關的資訊，包含：
+request-language-form-info-explanation-list-1 = 語言名稱
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO 代碼</isoCodeLink>（如果知道的話）
+request-language-form-info-explanation-list-3 = 能幫助我們理解這種語言相關資訊的網站
+request-language-google-recaptcha-required = 若要繼續，須完成 reCAPTCHA 驗證
+request-language-google-recaptcha-error = reCAPTCHA 怪怪的，請再試一次。
+# Success page
+request-language-success-heading = 您已成功送出新語言請求，非常感謝！
+request-language-success-list-1 = 您應該很快就會收到要如何將語言加入 Common Voice 的相關資訊
+request-language-success-list-2 = 我們的社群經理將主動聯絡您，提供各種協助，並且讓您知道是否已有其他社群在貢獻您提出的語言。
+request-language-success-list-3 = 若接下來幾天，您沒有收到來自我們的消息，也歡迎您主動寄信到 <emailLink>{ $email }</emailLink> 聯絡我們，我們會盡快回覆！
+request-language-error = 我們可能還沒有收到該請求，請直接寄信到 <emailLink>{ $email }</emailLink> 聯絡我們，我們會盡快回覆！
+
 ## Languages Overview
 
 language-section-in-progress = 準備中
@@ -819,8 +853,10 @@ listen-again-instruction = 幹得好！<playIcon></playIcon>準備好就可以�
 listen-3rd-time-instruction = 完成兩筆了<playIcon></playIcon>，繼續保持！
 listen-last-time-instruction = <playIcon></playIcon>最後一筆了！
 listen-empty-state = 我們已經沒有這種語言的片段可以驗證了…
+listen-loading-error = 我們無法取得錄音片段讓您聆聽確認，請稍候再試。
 speak-empty-state = 我們已經沒有這種語言的文字可以錄音了…
 speak-empty-state-cta = 貢獻語句
+speak-loading-error = 我們無法取得句子讓您錄音，請稍候再試。
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>找到更多聲音
 keep-track-profile = 註冊帳號來追蹤個人貢獻進度

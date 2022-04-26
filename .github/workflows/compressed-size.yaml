@@ -1,0 +1,24 @@
+name: Compressed Size
+
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - uses: preactjs/compressed-size-action@v2
+        with:
+          build-script: 'build:compressed-size'
+          pattern: 'web/dist/**/*.{js,css,html,json,svg,png}'
+          # Strip hashes Webpack generates. 16 because hashDigestLength is 16.
+          strip-hash: '\.(\w{16})\.'
+          # Only report if more than 100 bytes changes
+          minimum-change-threshold: 100

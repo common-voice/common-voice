@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Recipe e-mails como rememorationes de def
 email-opt-in-privacy-v2 = Si tu opta pro reciper e-mails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>politica de confidentialitate</privacyLink>.
 indicates-required = * indica un campo obligatori
 not-available-abbreviation = N/D
+banner-error-slow-1 = Desolate, Common Voice es exequite lentemente. Gratias pro tu interesse.
+banner-error-slow-2 = Nos recipe multe traffico e actualmente nos investiga le problemas.
+banner-error-slow-link = Pagina de stato
+error-something-went-wrong = Desolate, alco errate eveniva
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -336,6 +340,9 @@ profile-form-additional-language =
     .label = Lingua additional
 profile-form-language =
     .label = Lingua
+profile-form-variant =
+    .label = Que variante de { $lingua } parla tu?
+profile-form-variant-default-value = Nulle variante seligite
 profile-form-accent =
     .label = Accento
 profile-form-custom-accent-help-text =
@@ -387,6 +394,8 @@ off = Inactive
 on = Active
 help-accent = Besonia tu auxilio con le accento?
 help-accent-explanation = Tu accento es le maniera que tu pronuncia le vocabulos. Illo pote esser formate per ubi tu viveva, qual altere linguas tu parla e plure altere factores. Tu pote compartir ulle informationes que tu senti esser pertinente hic.
+help-variants = Besonia tu de auxilio con le variantes?
+help-variants-explanation = Le variantes es un forma specific de un lingua, per exemplo compartite per illes vivente in un area geographic o communitate. Aliquando illos es appellate dialectos.
 
 ## Profile - Email
 
@@ -397,6 +406,7 @@ gravatar_not_found = Nulle gravatar trovate pro tu adresse de e-mail
 file_too_large = Le file seligite es troppo grande
 avatar-uploaded = Avatar cargate
 max-file-size = { $kb }kb max
+remove-avatar = Remover avatar
 
 ## Profile - Email
 
@@ -520,6 +530,7 @@ about-get-involved-text-2 =
     signala problemas con le sito via <githubLink>GitHub</githubLink>,
     o junge te al conversation communitari sur <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Como me mantene io in contacto?
+about-stay-in-touch-button = Inscriber se
 about-stay-in-touch-text-1 = <emailFragment>Inscribe te</emailFragment> a nostre lista de diffusion pro apprender como participar in campanias e eventos e co-designar functiones sur Common Voice.
 about-stay-in-touch-text-2 = Tu pote incontrar altere personas in le communitates linguistic de Mozilla adherente a <discourseLink>Discourse</discourseLink> pro conversationes topical, o a <matrixLink>Matrix</matrixLink> pro consilios rapide.
 about-nav-why-common-voice = Proque?
@@ -671,6 +682,7 @@ review-delete-recordings = Deler mi registrationes
 
 ## Datasets Page
 
+datasets-heading = Ensembles de datos
 datasets-headline = Nos produce un collection de datos libere e multilingue que omnes pote usar pro trainar applicationes activate per le voce.
 datasets-positioning =
     Nos crede que le collectiones de datos vocal grande e publicamente disponibile promove le innovation e un concurrentia san pro le technologias vocal basate sur le apprendimento automatic.
@@ -755,6 +767,47 @@ request-language-success-content = Nos essera in contacto con altere information
 select-language = Eliger un lingua...
 other-language = Altere linguas
 
+## Request Language Pages
+
+request-language-heading = Demandar un nove lingua
+request-language-explanation-1 =
+    Verifica si tu lingua es in le lista super le
+    <languagesPageLink>Pagina de linguas de Common Voice</languagesPageLink>.
+    Si non, plena iste forma e nos <strong>te inviara un practic email
+    explicante como implementar tu lingua</strong>.
+request-language-explanation-2 =
+    Nos alsi <strong>face saper a nostre gestor de communitate
+    que tu es interessate</strong>, assi que illes pote dar te tote
+    e assistentia o information extra del que tu poterea besoniar.
+request-language-form-email =
+    .label = Tu adresse email
+request-language-form-info =
+    .label = Informationes re le lingua
+request-language-form-info-explanation =
+    Adde quante plus informationes tu pote re le lingua. Isto
+    pote includer:
+request-language-form-info-explanation-list-1 = Nomines de tu lingua
+request-language-form-info-explanation-list-2 = <isoCodeLink>Codices ISO</isoCodeLink> si note
+request-language-form-info-explanation-list-3 = Ligamines a sitos que pote adjutar nos a comprender le lingua
+request-language-google-recaptcha-required = Le reCAPTCHA es necesse si tu vole proceder
+request-language-google-recaptcha-error = Alco errate eveniva con reCAPTCHA. Reproba.
+# Success page
+request-language-success-heading = Gratias! Tu inviava un nove requesta de lingua
+request-language-success-list-1 =
+    Tu deberea reciper in breve un email explicante
+    le passos pro adder tu lingua a Common Voice
+request-language-success-list-2 =
+    Le gestor de nostre communitate te attingera pro offerer
+    extra assistentia, e facer te saper si il ha
+    jam un communitate laborante sur tu lingua
+request-language-success-list-3 =
+    Si tu non audi ab nos in un par de dies,
+    attinge a <emailLink>{ $email }</emailLink> 
+    e nos te respondera!
+request-language-error =
+    Nos pote non haber recipite ille requesta. Invia nos un email directe
+    sur <emailLink>{ $email }</emailLink> e nos te respondera!
+
 ## Languages Overview
 
 language-section-in-progress = In curso
@@ -824,8 +877,10 @@ listen-again-instruction = Optime labor!<playIcon></playIcon> Ascolta de novo qu
 listen-3rd-time-instruction = Duo facite, continua assi!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Le ultime!
 listen-empty-state = Nos non ha plus registrationes a validar pro iste lingua...
+listen-loading-error = Impossibile trovar alcun registration audio a facer te ascoltar. Retenta plus tarde.
 speak-empty-state = Nos non ha plus phrases a registrar pro iste lingua...
 speak-empty-state-cta = Contribue con altere phrases
+speak-loading-error = Impossibile trovar alcun phrases a facer te pronunciar. Retenta plus tarde.
 record-button-label = Registra tu voce
 share-title-new = <bold>Adjuta nos</bold> a trovar plus voces
 keep-track-profile = Tracia tu progresso con un profilo
@@ -1155,6 +1210,7 @@ sc-home-review-text = Adjuta nos per revider phrases pro correctessa secundo le 
 
 ## GENERAL
 
+sc-languages-fetch-error = Nos non pote recuperar linguas disponibile. Actualmente non es possibile contribuer. Retenta plus tarde.
 
 ## HOW-TO
 
@@ -1386,7 +1442,7 @@ sc-personal-your-languages = Tu linguas:
 sc-personal-remove-button = remover
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
-sc-personal-added-by-you = { $phrases } addite per te
+sc-personal-added-by-you = { $sentences } addite per te
 sc-personal-not-added = Tu non ha addite ulle linguas totevia.
 
 ## REVIEW CRITERIA
@@ -1432,7 +1488,7 @@ sc-review-form-reviewed-message =
     { $sentences ->
         [0] Nulle phrases revidite
         [one] 1 phrase revidite. Gratias!
-       *[other] { $phrases } phrases revidite. Gratias!
+       *[other] { $sentences } phrases revidite. Gratias!
     }
 sc-review-form-review-failure = Impossibile salvar le revision. Retenta plus tarde.
 sc-review-link = Revider
@@ -1441,7 +1497,6 @@ sc-review-link = Revider
 
 sc-settings-title = Parametros
 sc-settings-ui-language = Lingua del interfacie:
-sc-settings-language-translated-warning = Le paginas pro iste lingua poterea non esser plenmente traducite. Tu pote adjutar con le traduction <pontoonLinkLink>sur Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Remontar phrases saltate
 sc-settings-skipped-decription = Tu phrases previemente saltate durante le revision. Remontar phrases saltate de novo monstrara tote le phrases saltate. Isto es independente del lingua.
 sc-settings-show-all-button = Monstrar de novo tote le phrases saltate

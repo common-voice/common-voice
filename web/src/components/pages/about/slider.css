@@ -11,7 +11,7 @@
 
     .slider-container {
         background: var(--white);
-        box-sizing: border-box;
+
         transition: opacity var(--transition-duration-slow) var(--easing);
         max-width: var(--desktop-width);
         margin-right: auto;
@@ -51,7 +51,7 @@
         max-width: 470px;
         left: -70px;
         position: relative;
-        box-sizing: border-box;
+
         height: max-content;
 
         &::before {
@@ -218,7 +218,6 @@
 
             @media (--sm-down) {
                 padding: 30px;
-                box-sizing: border-box;
             }
         }
 

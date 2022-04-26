@@ -1,17 +1,24 @@
 import { redis, redlock, useRedis } from './redis';
 
+import { getConfig } from '../config-helper';
+
 type Fn<T, S> = (...args: S[]) => Promise<T>;
 
 function isExpired(at: number, timeMs: number) {
   return Date.now() - at > timeMs;
 }
 
-function memoryCache<T, S>(f: Fn<T, S>, timeMs: number): Fn<T, S> {
+function memoryCache<T, S>(
+  cacheKey: string,
+  cachedFunction: Fn<T, S>,
+  timeMs: number
+): Fn<T, S> {
   const caches: {
     [key: string]: { at?: number; promise?: Promise<T>; value?: T };
   } = {};
   return async (...args) => {
-    const key = JSON.stringify(args);
+    const { RELEASE_VERSION } = getConfig();
+    const key = cacheKey + JSON.stringify(args) + (RELEASE_VERSION || '');
 
     let cached = caches[key];
     if (cached) {
@@ -30,7 +37,7 @@ function memoryCache<T, S>(f: Fn<T, S>, timeMs: number): Fn<T, S> {
       if (hasOldCache) resolve(cached.value);
       Object.assign(cached, {
         at: Date.now(),
-        value: await f(...args),
+        value: await cachedFunction(...args),
         promise: null,
       });
       if (!hasOldCache) resolve(cached.value);
@@ -40,13 +47,16 @@ function memoryCache<T, S>(f: Fn<T, S>, timeMs: number): Fn<T, S> {
 
 function redisCache<T, S>(
   cacheKey: string,
-  f: Fn<T, S>,
+  cachedFunction: Fn<T, S>,
   timeMs: number
 ): Fn<T, S> {
   return async (...args) => {
-    const key = cacheKey + JSON.stringify(args);
+    const { RELEASE_VERSION } = getConfig();
+    const key = cacheKey + JSON.stringify(args) + (RELEASE_VERSION || '');
+
     const result = await redis.get(key);
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let value: any;
     let renewCache = true;
     if (result) {
@@ -73,7 +83,7 @@ function redisCache<T, S>(
       }
 
       if (renewCache) {
-        value = await f(...args);
+        value = await cachedFunction(...args);
         await redis.set(key, JSON.stringify({ at: Date.now(), value }));
         resolve(value);
       }
@@ -88,7 +98,7 @@ export default function lazyCache<T, S>(
   f: Fn<T, S>,
   timeMs: number
 ): Fn<T, S> {
-  const memCache = memoryCache(f, timeMs);
+  const memCache = memoryCache(cacheKey, f, timeMs);
   return async (...args: S[]) =>
     ((await useRedis) ? redisCache(cacheKey, f, timeMs) : memCache)(...args);
 }

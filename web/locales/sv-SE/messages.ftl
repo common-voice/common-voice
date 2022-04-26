@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Få e-postmeddelanden som målpåminnelse
 email-opt-in-privacy-v2 = Genom att anmäla dig till att ta emot e-postmeddelanden godkänner du att du är okej med att Mozilla hanterar denna information, som förklaras i Mozillas <privacyLink>sekretesspolicy</privacyLink>.
 indicates-required = * Indikerar obligatoriska fält
 not-available-abbreviation = inte tillgänglig
+banner-error-slow-1 = Tyvärr, Common Voice går sakta. Tack för visat intresse.
+banner-error-slow-2 = Vi har mycket trafik och utreder just nu problemet.
+banner-error-slow-link = Statussida
+error-something-went-wrong = Förlåt, något gick fel
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -339,6 +343,9 @@ profile-form-additional-language =
     .label = Ytterligare språk
 profile-form-language =
     .label = Språk
+profile-form-variant =
+    .label = Vilken dialekt av { $language } talar du?
+profile-form-variant-default-value = Ingen dialekt har valts
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
@@ -390,6 +397,8 @@ off = Av
 on = På
 help-accent = Behöver du hjälp med accent?
 help-accent-explanation = Din accent är hur du uttalar ord. Det kan formas av var du har bott, vilka andra språk du talar och massor av andra faktorer. Du kan dela all information som du tycker är relevant här.
+help-variants = Behöver du hjälp med dialekter?
+help-variants-explanation = Varianter är en specifik form av ett språk - till exempel delas av de som bor i ett visst geografiskt område eller ett visst samhälle. Ibland kallas dessa för dialekter.
 
 ## Profile - Email
 
@@ -400,6 +409,7 @@ gravatar_not_found = Ingen gravatar hittades för din e-postadress
 file_too_large = Den valda filen är för stor
 avatar-uploaded = Avatar uppladdad
 max-file-size = max { $kb } kb
+remove-avatar = Ta bort avatar
 
 ## Profile - Email
 
@@ -528,6 +538,7 @@ about-get-involved-text-2 =
     forum, skicka webbplatsfrågor via <githubLink>GitHub</githubLink> eller gå med i
     <matrixLink>Matrix</matrixLink> communitychatt.
 about-stay-in-touch = Hur håller jag kontakten?
+about-stay-in-touch-button = Registrera dig
 about-stay-in-touch-text-1 = <emailFragment>Anmäl dig</emailFragment> till vår e-postlista för att lära dig hur du kan ta del av kampanjer, evenemang och samarbetsdesignfunktioner på Common Voice.
 about-stay-in-touch-text-2 = Du kan träffa andra i Mozillas språkgemenskaper genom att gå med i <discourseLink>Discourse</discourseLink> för aktuella samtal eller <matrixLink>Matrix</matrixLink> för snabba råd.
 about-nav-why-common-voice = Varför ?
@@ -679,6 +690,7 @@ review-delete-recordings = Ta bort mina inspelningar
 
 ## Datasets Page
 
+datasets-heading = Datamängder
 datasets-headline = Vi skapar en flerspråkig röstinspelning med öppen källkod som alla kan använda för att träna röstbaserade applikationer.
 datasets-positioning =
     Vi tror att stora, allmänt tillgängliga röstdatamängder kommer att främja innovation och hälsosam kommersiell konkurrens i maskinlärande baserad talteknik.
@@ -763,6 +775,47 @@ request-language-success-content = Vi hör av oss med mer information om hur du 
 select-language = Välj ett språk...
 other-language = Andra språk
 
+## Request Language Pages
+
+request-language-heading = Fråga om ett nytt språk
+request-language-explanation-1 =
+    Kontrollera om ditt språk finns med på sidan
+    <languagesPageLink>Common Voice Languages</languagesPageLink>.
+    Om inte, fyll i det här formuläret så <strong>skickar vi dig ett praktiskt
+    e-postmeddelande som förklarar hur du ställer in ditt språk</strong>.
+request-language-explanation-2 =
+    Vi kommer också att <strong>låta vår community manager veta
+    att du är intresserad</strong>, så att de kan ge dig all extra support
+    eller information du kan behöva.
+request-language-form-email =
+    .label = Din e-postadress
+request-language-form-info =
+    .label = Information om språket
+request-language-form-info-explanation =
+    Lägg till så mycket information du kan om språket. Detta
+    kan inkludera:
+request-language-form-info-explanation-list-1 = Namn på ditt språk
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koder</isoCodeLink> om kända
+request-language-form-info-explanation-list-3 = Länkar till webbplatser som kan hjälpa oss att förstå språket
+request-language-google-recaptcha-required = reCAPTCHA krävs om du vill fortsätta
+request-language-google-recaptcha-error = Något gick fel med reCAPTCHA. Var god försök igen.
+# Success page
+request-language-success-heading = Tack! Du har skickat en ny språkförfrågan
+request-language-success-list-1 =
+    Du bör få ett e-postmeddelande inom kort som förklarar
+    stegen för att lägga till ditt språk i Common Voice
+request-language-success-list-2 =
+    Vår community manager kommer att kontakta dig för att
+    erbjuda extra support och för att meddela dig om det redan
+    finns en community som arbetar med ditt språk
+request-language-success-list-3 =
+    Om du inte hör från oss inom ett par dagar,
+    kontakta <emailLink>{ $email }</emailLink>
+    så återkommer vi till dig!
+request-language-error =
+    Vi kanske inte har fått den begäran. Vänligen maila oss direkt
+    på <emailLink>{ $email }</emailLink> så återkommer vi till dig!
+
 ## Languages Overview
 
 language-section-in-progress = Pågående
@@ -832,8 +885,14 @@ listen-again-instruction = Bra jobbat!<playIcon></playIcon> Lyssna igen när du 
 listen-3rd-time-instruction = Två färdiga, <playIcon></playIcon> bra jobbat!
 listen-last-time-instruction = <playIcon></playIcon> Sista!
 listen-empty-state = Vi har slut på klipp för att validera på det här språket...
+listen-loading-error =
+    Vi kunde inte hitta några ljudklipp till dig att lyssna på.
+    Vänligen försök igen senare.
 speak-empty-state = Vi har slut på meningar att spela in på det här språket...
 speak-empty-state-cta = Bidra med meningar
+speak-loading-error =
+    Vi kunde inte hitta några meningar till dig att tala.
+    Vänligen försök igen senare.
 record-button-label = Spela in din röst
 share-title-new = <bold>Hjälp oss</bold> hitta mer röster
 keep-track-profile = Håll koll på dina framsteg med en profil
@@ -1082,6 +1141,7 @@ contribution-for-example = till exempel
 contribution-misreadings-title = Felläsningar
 contribution-misreadings-description = När du lyssnar, kontrollera mycket noga att det som har spelats in är exakt det som har skrivits; avvisa om det är mindre fel.<br />Mycket vanliga fel inkluderar:
 contribution-misreadings-description-extended-list-1 = Saknar <strong>'En'</strong> eller <strong>'Den'</strong> i början av inspelningen.
+contribution-misreadings-description-extended-list-2 = Saknar ett <strong>s</strong> i slutet av ett ord.
 contribution-misreadings-description-extended-list-4 = Slutet på det sista ordet saknades eftersom inspelningen avbröts för snabbt.
 contribution-misreadings-description-extended-list-5 = Gör flera försök med att läsa ett ord.
 contribution-misreadings-example-1-title = De enorma dinosaurierna i Trias.
@@ -1425,7 +1485,6 @@ sc-review-link = Granska
 
 sc-settings-title = Inställningar
 sc-settings-ui-language = Gränssnittsspråk
-sc-settings-language-translated-warning = Sidorna för detta språk kanske inte är helt översatta. Du kan hjälpa till med översättning <pontoonLinkLink>på Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Återställ överhoppade meningar
 sc-settings-skipped-decription = Du hoppade över meningar tidigare när du granskade. Om du återställer överhoppade meningar visas alla överhoppade meningar igen. Detta är oberoende av språket.
 sc-settings-show-all-button = Visa alla överhoppade meningar igen

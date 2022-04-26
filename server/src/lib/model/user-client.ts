@@ -1,4 +1,5 @@
 import pick = require('lodash.pick');
+
 import { UserClient as UserClientType } from 'common';
 import Awards from './awards';
 import CustomGoal from './custom-goal';
@@ -12,6 +13,7 @@ import {
   challengeTeamTokens,
   UserLanguage,
 } from 'common';
+import { getDifferenceInIds } from './db/utils/getDiff';
 
 const db = getMySQLInstance();
 
@@ -34,6 +36,23 @@ const compileLanguages = (clientLanguages: any, row: any) => {
       result[row.locale] = {
         locale: row.locale,
         accents: [accent],
+      };
+    }
+  }
+
+  if (row.variant_id) {
+    const variant = {
+      id: row.variant_id,
+      name: row.variant_name,
+      token: row.variant_token,
+    };
+
+    if (result[row.locale]) {
+      result[row.locale].variant = variant;
+    } else {
+      result[row.locale] = {
+        locale: row.locale,
+        variant: variant,
       };
     }
   }
@@ -201,6 +220,79 @@ async function updateLanguages(clientId: string, languages: UserLanguage[]) {
   }
 }
 
+/**
+ * Updates variant entries for a given user
+ *
+ * @param clientId clientId as string
+ * @param locales array of UserVariantsLocales
+ * @returns void
+ */
+async function updateVariants(clientId: string, languages: UserLanguage[]) {
+  // flatten request obj to get a list of all variant_ids
+  const requestedVariants: {
+    locale_token: string;
+    variant_id: number;
+  }[] = [];
+  languages.forEach(language => {
+    if (!language?.variant?.id) return;
+    const temp = {
+      locale_token: language.locale,
+      variant_id: language?.variant?.id,
+    };
+    requestedVariants.push(temp);
+  });
+
+  // query all existing variants for user
+  const [savedVariants]: [{ variant_id: number }[]] = await db.query(
+    `
+      SELECT variant_id
+      FROM user_client_variants ucv
+      WHERE client_id = ?
+      ORDER BY id
+    `,
+    [clientId]
+  );
+
+  const savedVariantIds = savedVariants.map(row => row.variant_id);
+
+  const { idsToBeAdded, idsToBeRemoved } = getDifferenceInIds(
+    requestedVariants.map((variant: any) => variant.variant_id),
+    savedVariantIds
+  );
+
+  //If the user has removed variants, remove entry from db
+  if (idsToBeRemoved.length > 0) {
+    await db.query(
+      'DELETE FROM user_client_variants WHERE variant_id IN (?) and client_id = ?',
+      [idsToBeRemoved, clientId]
+    );
+  }
+
+  if (idsToBeAdded.length > 0) {
+    //get all valid variant ids
+    const [validIds]: [
+      { variant_id: number; locale_name: string; locale_id: number }[]
+    ] =
+      (await db.query(
+        `SELECT v.id as variant_id, l.name as locale_name, l.id as locale_id
+        FROM variants v JOIN locales l on v.locale_id = l.id where v.id in (?)`,
+        [idsToBeAdded]
+      )) || [];
+
+    if (validIds.length > 0) {
+      const formattedIds = validIds.map(variantRow => [
+        clientId,
+        variantRow.variant_id,
+        variantRow.locale_id,
+      ]); //format array so query can insert multiple
+      await db.query(
+        'INSERT INTO user_client_variants (client_id, variant_id, locale_id) VALUES ?',
+        [formattedIds]
+      );
+    }
+  }
+}
+
 async function updateDemographics(
   clientId: string,
   age: string,
@@ -263,6 +355,9 @@ const UserClient = {
           accents.id AS accent_id,
           accents.accent_name,
           accents.accent_token,
+          v.variant_name,
+          v.variant_token,
+          v.id as variant_id,
           locales.name AS locale,
           ages.age,
           genders.gender
@@ -270,6 +365,8 @@ const UserClient = {
         LEFT JOIN user_client_accents user_accents ON u.client_id = user_accents.client_id
         LEFT JOIN accents ON user_accents.accent_id = accents.id
         LEFT JOIN locales on accents.locale_id = locales.id
+        LEFT JOIN user_client_variants uv ON u.client_id = uv.client_id
+        LEFT JOIN variants v on uv.variant_id = v.id 
         -- TODO: This subquery is VERY awkward, but safer until we simplify
         --       accent grouping.
         CROSS JOIN
@@ -289,6 +386,7 @@ const UserClient = {
       `,
       [client_id, email]
     );
+
     const userObj = Object.values(
       rows.reduce((obj: { [client_id: string]: any }, row: any) => {
         const client = obj[row.client_id];
@@ -312,6 +410,9 @@ const UserClient = {
           accents.id AS accent_id,
           accents.accent_name,
           accents.accent_token,
+          v.variant_name,
+          v.variant_token,
+          v.id as variant_id,
           locales.name AS locale,
           ages.age,
           genders.gender,
@@ -326,6 +427,9 @@ const UserClient = {
         LEFT JOIN user_client_accents user_accents ON u.client_id = user_accents.client_id
         LEFT JOIN accents ON user_accents.accent_id = accents.id
         LEFT JOIN locales ON accents.locale_id = locales.id
+        LEFT JOIN user_client_variants uv ON u.client_id = uv.client_id and uv.locale_id = locales.id
+        LEFT JOIN variants v on uv.variant_id = v.id 
+
 
         -- TODO: This subquery is awkward, but safer until we simplify accent
         --       grouping.
@@ -367,6 +471,7 @@ const UserClient = {
         ...pick(
           row,
           'accent',
+          'variant',
           'age',
           'email',
           'gender',
@@ -390,7 +495,6 @@ const UserClient = {
       }),
       { languages: [] }
     );
-
     return reduceLanguages(user);
   },
 
@@ -437,6 +541,7 @@ const UserClient = {
       updateDemographicsPromise,
       this.claimContributions(clientId, clientIds),
       languages && updateLanguages(clientId, languages),
+      languages && updateVariants(clientId, languages),
     ]);
 
     if (

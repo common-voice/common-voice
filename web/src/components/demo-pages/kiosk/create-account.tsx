@@ -36,21 +36,20 @@ const getCreateAccountComponents = (): PageContentType => {
             className="demo-create-account-top-icon-circle-outer"></div>
         </KioskCard.Top>
         <KioskCard.Body>
-          <Localized id="demo-account-card-header">
-            <h2 />
-          </Localized>
-          <Localized id="demo-account-card-body">
-            <p />
-          </Localized>
+          <h2>
+            <Localized id="demo-account-card-header" />
+          </h2>
+          <p>
+            <Localized id="demo-account-card-body" />
+          </p>
           <div id="demo-account-sign-up">
-            <img src={require('./assets/qr-code-2.svg')} id="qr-code" />
             <Link to="voice.mozilla.org/login" id="signup-link" target="blank">
               voice.mozilla.org/login
             </Link>
           </div>
         </KioskCard.Body>
         <KioskCard.Bottom>
-          <LinkButton to={URLS.DEMO_DASHBOARD} rounded>
+          <LinkButton to={URLS.DEMO} rounded>
             <ChevronLeft />
             <Localized id="card-button-back">
               <span />

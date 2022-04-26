@@ -1,13 +1,24 @@
 const fs = require('fs');
 const path = require('path');
+const mysql = require('mysql2');
 const { parse } = require('@fluent/syntax');
-const request = require('request-promise-native');
-
+const fetch = require('node-fetch');
+const { promisify } = require('util');
+const { getConfig } = require('../server/js/config-helper');
 const TRANSLATED_MIN_PROGRESS = 0.75;
 const CONTRIBUTABLE_MIN_SENTENCES = 5000;
 
 const dataPath = path.join(__dirname, '..', 'locales');
 const localeMessagesPath = path.join(__dirname, '..', 'web', 'locales');
+
+const { MYSQLHOST, MYSQLUSER, MYSQLPASS, MYSQLDBNAME } = getConfig();
+
+const dbConfig = {
+  host: MYSQLHOST,
+  user: MYSQLUSER,
+  password: MYSQLPASS,
+  database: MYSQLDBNAME,
+};
 
 function saveDataJSON(name, data) {
   fs.writeFileSync(
@@ -17,11 +28,11 @@ function saveDataJSON(name, data) {
 }
 
 async function fetchPontoonLanguages() {
-  const { data } = await request({
-    uri: 'https://pontoon.mozilla.org/graphql?query={project(slug:%22common-voice%22){localizations{totalStrings,approvedStrings,locale{code,name,direction}}}}',
-    method: 'GET',
-    json: true,
-  });
+  const url =
+    'https://pontoon.mozilla.org/graphql?query={project(slug:%22common-voice%22){localizations{totalStrings,approvedStrings,locale{code,name,direction}}}}';
+  const response = await fetch(url);
+  const { data } = await response.json();
+
   return data.project.localizations
     .map(({ totalStrings, approvedStrings, locale }) => ({
       code: locale.code,
@@ -89,37 +100,72 @@ async function importPontoonLocales() {
   ]);
 }
 
-async function importContributableLocales() {
-  const sentencesPath = path.join(__dirname, '..', 'server', 'data');
-  const oldContributable = JSON.parse(
-    fs.readFileSync(path.join(dataPath, 'contributable.json'), 'utf-8')
-  );
-  const names = fs.readdirSync(sentencesPath).filter(name => {
-    if (oldContributable.includes(name)) {
-      return true;
-    }
-    if (name === 'LICENSE') {
-      return false;
-    }
-    const localeSentencesPath = path.join(sentencesPath, name);
-    const count = fs
-      .readdirSync(localeSentencesPath)
-      .reduce(
-        (count, sentencesFile) =>
-          sentencesFile.endsWith('.txt')
-            ? count +
-              fs
-                .readFileSync(
-                  path.join(localeSentencesPath, sentencesFile),
-                  'utf-8'
-                )
-                .split('\n').length
-            : count,
-        0
-      );
-    return count > CONTRIBUTABLE_MIN_SENTENCES;
+async function importContributableLocales(locales) {
+  const pool = mysql.createPool(dbConfig);
+
+  pool.getConnection(async (err, connection) => {
+    if (err) throw err;
+    const db = promisify(connection.query).bind(connection);
+    let locales = {};
+
+    // get existing locales from database w/ target count
+    db(`select * from locales`)
+      .then(data => {
+        locales = data.reduce((obj, locale) => {
+          obj[locale.name] = {
+            name: locale.name,
+            id: locale.id,
+            targetSentenceCount: locale.target_sentence_count,
+          };
+          return obj;
+        }, {});
+      })
+      .finally(async () => {
+        const sentencesPath = path.join(__dirname, '..', 'server', 'data');
+        const oldContributable = JSON.parse(
+          fs.readFileSync(path.join(dataPath, 'contributable.json'), 'utf-8')
+        );
+        const names = fs.readdirSync(sentencesPath).filter(name => {
+          if (oldContributable.includes(name)) {
+            return true;
+          }
+          if (name === 'LICENSE') {
+            return false;
+          }
+          const localeSentencesPath = path.join(sentencesPath, name);
+          const count = fs
+            .readdirSync(localeSentencesPath)
+            .reduce(
+              (count, sentencesFile) =>
+                sentencesFile.endsWith('.txt')
+                  ? count +
+                    fs
+                      .readFileSync(
+                        path.join(localeSentencesPath, sentencesFile),
+                        'utf-8'
+                      )
+                      .split('\n').length
+                  : count,
+              0
+            );
+          const currentLang = locales[name];
+
+          // get target sentence count from db if exists, else use default
+          const currentTargetSentenceCount =
+            currentLang && currentLang.targetSentenceCount
+              ? currentLang.targetSentenceCount
+              : CONTRIBUTABLE_MIN_SENTENCES; //use default if language doesnt exist in db
+
+          const isContributable = count >= currentTargetSentenceCount;
+          if (isContributable)
+            console.log(`Added new contributable locale: ${currentLang.name}`);
+          return isContributable;
+        });
+        saveDataJSON('contributable', names.sort());
+
+        connection.destroy();
+      });
   });
-  saveDataJSON('contributable', names.sort());
 }
 
 async function buildLocaleNativeNameMapping() {

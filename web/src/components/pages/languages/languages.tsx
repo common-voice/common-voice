@@ -14,6 +14,7 @@ import StateTree from '../../../stores/tree';
 import URLS from '../../../urls';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
 import { LinkButton, Button, Hr, StyledLink, TextButton } from '../../ui/ui';
+import Page from '../../ui/page';
 import LocalizationBox, { LoadingLocalizationBox } from './localization-box';
 
 interface PropsFromState {
@@ -109,7 +110,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
 
     inProgress.sort(
       presortLanguages((l1, l2) =>
-        l1.sentencesCount < l2.sentencesCount ||
+        l1.sentencesCount.current_count < l2.sentencesCount.current_count ||
         l1.localizedPercentage < l2.localizedPercentage
           ? 1
           : -1
@@ -238,7 +239,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
     );
 
     return (
-      <div className={'selected-' + selectedSection}>
+      <Page className={'languages-page selected-' + selectedSection}>
         <br />
 
         <div className="top">
@@ -381,7 +382,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             )}
           </section>
         </div>
-      </div>
+      </Page>
     );
   }
 

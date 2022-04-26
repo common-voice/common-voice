@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Erhalten Sie E-Mails wie  Herausforderung
 email-opt-in-privacy-v2 = Mit Ihrer Zustimmung zum Empfang von E-Mails erklären Sie, dass Sie damit einverstanden sind, dass Mozilla diese Informationen gemäß der <privacyLink>Datenschutzerklärung</privacyLink> von Mozilla verarbeitet.
 indicates-required = * Pflichtfeld
 not-available-abbreviation = Nicht verfügbar
+banner-error-slow-1 = Entschuldigung, Common Voice läuft langsam. Danke für Ihr Interesse.
+banner-error-slow-2 = Wir empfangen aktuell viel Datenverkehr und untersuchen derzeit die Probleme.
+banner-error-slow-link = Statusseite
+error-something-went-wrong = Entschuldigung, etwas ist schiefgegangen!
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -336,6 +340,9 @@ profile-form-additional-language =
     .label = Zusätzliche Sprache
 profile-form-language =
     .label = Sprache
+profile-form-variant =
+    .label = Welche Variante von { $language } sprechen Sie?
+profile-form-variant-default-value = Keine Variante ausgewählt
 profile-form-accent =
     .label = Akzent
 profile-form-custom-accent-help-text =
@@ -387,6 +394,8 @@ off = Aus
 on = An
 help-accent = Brauchen Sie Hilfe beim Akzent?
 help-accent-explanation = Ihr Akzent ist die Art und Weise, wie Sie Wörter aussprechen. Er kann davon geprägt sein, wo Sie gelebt haben, welche anderen Sprachen Sie sprechen und von vielen anderen Faktoren. Sie können hier alle Informationen teilen, die Sie für relevant halten.
+help-variants = Benötigen Sie Hilfe zu den Varianten?
+help-variants-explanation = Varianten sind eine spezifische Form einer Sprache – die zum Beispiel von Menschen geteilt wird, die in einer Region oder Gemeinschaft leben. Manchmal werden diese auch Dialekte genannt.
 
 ## Profile - Email
 
@@ -397,6 +406,7 @@ gravatar_not_found = Für Ihre E-Mail-Adresse wurde kein Gravatar gefunden
 file_too_large = Die ausgewählte Datei ist zu groß
 avatar-uploaded = Avatar hochgeladen
 max-file-size = Maximal { $kb } kb
+remove-avatar = Avatar entfernen
 
 ## Profile - Email
 
@@ -523,6 +533,7 @@ about-get-involved-text-2 =
     melden Sie Probleme mit der Website über <githubLink>GitHub</githubLink>
     oder besuchen Sie unseren Community-Chat auf <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Wie bleibe ich in Kontakt?
+about-stay-in-touch-button = Registrieren
 about-stay-in-touch-text-1 = <emailFragment>Registrieren Sie sich bei unserer Mailingliste</emailFragment> an, um zu erfahren, wie Sie an Kampagnen, Veranstaltungen und Co-Design-Funktionen auf Common Voice teilnehmen können.
 about-stay-in-touch-text-2 = Sie können andere Menschen in den Mozilla-Sprachgemeinschaften treffen, indem Sie <discourseLink>Discourse</discourseLink> für aktuelle Gespräche oder <matrixLink>Matrix</matrixLink> für schnelle Ratschläge beitreten.
 about-nav-why-common-voice = Warum?
@@ -674,6 +685,7 @@ review-delete-recordings = Aufnahmen löschen
 
 ## Datasets Page
 
+datasets-heading = Datensätze
 datasets-headline = Wir erstellen einen mehrsprachigen, quelloffenen Datensatz aus Stimmen, mit dem jeder sprachgestützte Anwendungen trainieren kann.
 datasets-positioning =
     Wir glauben, dass große, öffentlich verfügbare Sprachdatensätze Innovation und einen gesunden kommerziellen Wettbewerb in der Sprachtechnologie auf Basis von Maschinenlernen fördern.
@@ -758,6 +770,46 @@ request-language-success-content = Wir melden uns bald mit weiteren Informatione
 select-language = Sprache auswählen…
 other-language = Andere Sprache
 
+## Request Language Pages
+
+request-language-heading = Neue Sprache anfragen
+request-language-explanation-1 =
+    Überprüfen Sie, ob Ihre Sprache auf der 
+    <languagesPageLink>Common-Voice-Sprachenseite</languagesPageLink> aufgelistet ist.
+    Wenn nicht, füllen Sie dieses Formular aus und wir <strong>senden Ihnen eine praktische E-Mail
+    mit einer Anleitung zum Einrichten Ihrer Sprache</strong>.
+request-language-explanation-2 =
+    Wir werden auch <strong>unseren Community-Manager informieren,
+    dass Sie interessiert sind</strong>, damit Ihnen zusätzliche Unterstützung oder Informationen gegeben werden kann, die Sie benötigen.
+request-language-form-email =
+    .label = Ihre E-Mail-Adresse
+request-language-form-info =
+    .label = Informationen zur Sprache
+request-language-form-info-explanation =
+    Fügen Sie so viele Informationen wie möglich über die Sprache hinzu. Dies
+    könnte beinhalten:
+request-language-form-info-explanation-list-1 = Namen Ihrer Sprache
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-Codes</isoCodeLink>, wenn bekannt
+request-language-form-info-explanation-list-3 = Links zu Websites, die uns helfen können, die Sprache zu verstehen
+request-language-google-recaptcha-required = reCAPTCHA ist erforderlich, wenn Sie fortfahren möchten
+request-language-google-recaptcha-error = Bei reCAPTCHA ist etwas schief gelaufen. Bitte versuchen Sie es erneut.
+# Success page
+request-language-success-heading = Danke! Sie haben eine Anfrage für eine neue Sprache gesendet
+request-language-success-list-1 =
+    Sie sollten in Kürze eine E-Mail mit einer Erklärung der Schritte erhalten,
+    die notwendig sind, um Ihre Sprache zu Common Voice hinzuzufügen
+request-language-success-list-2 =
+    Unser Community-Manager wird Sie kontaktieren, um zusätzliche Unterstützung 
+    anzubieten und um Sie wissen zu lassen, ob es
+    bereits eine Gemeinschaft gibt, die an Ihrer Sprache arbeitet
+request-language-success-list-3 =
+    Wenn Sie innerhalb von ein paar Tagen nichts von uns hören,
+    kontaktieren Sie uns über <emailLink>{ $email }</emailLink>
+    und wir melden uns bei Ihnen!
+request-language-error =
+    Möglicherweise haben wir diese Anfrage nicht erhalten. Bitte schreiben Sie uns direkt
+    an <emailLink>{ $email }</emailLink> und wir melden uns bei Ihnen!
+
 ## Languages Overview
 
 language-section-in-progress = Vorbereitungsphase
@@ -823,8 +875,14 @@ listen-again-instruction = Gut so! <playIcon></playIcon> Machen Sie einfach weit
 listen-3rd-time-instruction = Zwei erledigt, <playIcon></playIcon> weiter so!
 listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
 listen-empty-state = Für diese Sprache gibt es keine Aufzeichnungen mehr, die überprüft werden könnten…
+listen-loading-error =
+    Wir konnten für Sie keine Audioclips zum Anhören abrufen.
+    Bitte versuchen Sie es später erneut.
 speak-empty-state = Für diese Sprache gibt es keine Sätze mehr, die aufgenommen werden könnten…
 speak-empty-state-cta = Sätze beitragen
+speak-loading-error =
+    Wir konnten für Sie keine Sätze zum Sprechen abrufen.
+    Bitte versuchen Sie es später erneut.
 record-button-label = Nehmen Sie Ihre Stimme auf
 share-title-new = <bold>Helfen Sie uns dabei,</bold> mehr Stimmen zu finden
 keep-track-profile = Verfolgen Sie Ihren Fortschritt mit einem Profil
@@ -923,10 +981,10 @@ help-reach-hours-pluralized =
        *[other] { $hours } Stunden
     } in { $language } zu erreichen.
 help-reach-hours-general-pluralized =
-    Helfen Sie Common Voice mit einem persönlichen Ziel dabei, { NUMBER($hours) ->
-        [one] { $hours } Stunde
-       *[other] { $hours } Stunden
-    }in einer Sprache zu erreichen.
+    { NUMBER($hours) ->
+        [one] Helfen Sie Common Voice mit einem persönlichen Ziel dabei, { $hours } Stunde in einer Sprache zu erreichen.
+       *[other] Helfen Sie Common Voice mit einem persönlichen Ziel dabei, { $hours } Stunden in einer Sprache zu erreichen.
+    }
 set-a-goal = Ein Ziel setzen
 cant-decide = Sie können sich nicht entscheiden?
 activity-needed-calculation-plural =
@@ -1487,7 +1545,6 @@ sc-review-link = Bewertungen
 
 sc-settings-title = Einstellungen
 sc-settings-ui-language = Sprache der Benutzeroberfläche
-sc-settings-language-translated-warning = Die Seiten für diese Sprache sind möglicherweise nicht vollständig übersetzt. Sie können bei der Übersetzung <pontoonLinkLink>auf Pontoon</pontoonLinkLink> helfen.
 sc-settings-reset-skipped = Übersprungene Sätze zurücksetzen
 sc-settings-skipped-decription =
     Sie haben Sätze beim Überprüfen zuvor übersprungen.

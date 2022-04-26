@@ -1,176 +1,49 @@
 .error-page {
+    padding-bottom: 4em;
+    background-image: url('./images/background-wave-error.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+
+    @media (--md-up) {
+        padding-bottom: 8em;
+    }
+}
+
+.error-page-wrapper {
+    padding: 0 var(--page-margin);
+    margin: 0 auto;
+    max-width: var(--desktop-width);
+
+    @media (--md-up) {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.error-page__content {
+    max-width: 35em;
+}
+
+.error-page__image {
+    @media (--md-up) {
+        padding-left: 2em;
+        padding-top: 10vh;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+.error-page__buttons {
     display: flex;
-    flex-direction: column;
-
-    #content {
-        min-height: unset;
-
-        &,
-        .error-page-container-outer {
-            padding: 0;
-            max-width: 100%;
-            width: 100%;
-        }
-    }
-
-    #content,
-    .mars {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #content,
-    .error-page-container-outer {
-        flex-grow: 1;
-    }
-
-    .error-page-container-outer {
-        border-top: 1px solid var(--light-grey);
-        background: url('../images/wave-footer@3x.png') no-repeat bottom/100%;
-
-        @media (--xs-down) {
-            background: none;
-        }
-    }
-
-    .error-page-container-inner {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        max-width: 902px;
-        margin: 0 auto;
-        padding: 80px 40px 100px 20px;
-
-        @media (--xs-down) {
-            padding-top: 32px;
-            padding-bottom: 40px;
-        }
-    }
-
-    .error-page-container-text,
-    .mars {
-        /* Hack: reduces vertical spacing if Mars wraps to the next row. */
-        margin-bottom: -20px;
-    }
-
-    .error-page-container-text {
-        max-width: 456px;
-
-        a {
-            text-decoration: underline;
-        }
-
-        @media (--xs-down) {
-            max-width: 260px;
-        }
-    }
-
-    h2 {
-        font: var(--font-size-max) / 58px var(--strong-font-family);
-
-        @media (--xs-down) {
-            font-size: var(--font-size-lg);
-            line-height: 29px;
-        }
-    }
-
-    .error-code {
-        font: 600 14px var(--base-font-family);
-        letter-spacing: 0.8px;
-        margin: 10px 0;
-        text-transform: uppercase;
-
-        @media (--xs-down) {
-            margin: 16px 0;
-        }
-    }
-
-    .error-content {
-        line-height: 1.5;
-
-        @media (--xs-down) {
-            font-size: var(--font-size-xs);
-            line-height: 17px;
-        }
-    }
-
-    .mars {
-        margin-left: auto;
-        max-width: 40%;
-
-        @media (--xs-down) {
-            max-width: 50%;
-        }
-    }
-
-    .mars-body,
-    .mars-shadow {
-        width: 100%;
-    }
-
-    .mars-body-container {
-        animation: 3600ms ease-in-out infinite alternate error-page-bob;
-    }
-
-    .mars-body {
-        animation: 8471ms ease-in-out infinite alternate error-page-twist;
-    }
-
-    .mars-shadow {
-        animation: 4s ease-in-out infinite alternate error-page-grow;
-    }
+    margin-top: 2em;
+    margin-bottom: 1em;
 
     .round-button {
-        align-items: center;
-        background-color: var(--near-black);
-        border-radius: 100%;
-        display: inline-flex;
-        fill: var(--white);
-        height: 64px;
-        justify-content: center;
-        margin-right: 19px;
-        margin-top: 30px;
-        width: 64px;
-
-        @media (--xs-down) {
-            height: 40px;
-            margin-top: 24px;
-            width: 40px;
-        }
-    }
-
-    #help-links {
-        display: none;
-    }
-
-    footer {
-        margin-top: 0;
-    }
-}
-
-@keyframes error-page-bob {
-    from {
-        transform: translateY(0);
-    }
-    to {
-        transform: translateY(-10px);
-    }
-}
-
-@keyframes error-page-twist {
-    from {
-        transform: rotate(-3deg);
-    }
-    to {
-        transform: rotate(3deg);
-    }
-}
-
-@keyframes error-page-grow {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.3);
+        margin-right: 1.5em;
     }
 }

@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = ᱜᱚᱞ ᱨᱤᱢᱟᱭᱮᱱᱰᱚᱨ 
 email-opt-in-privacy-v2 = ᱟᱢ ᱤᱢᱮᱞ ᱞᱟᱹᱜᱤᱫ ᱦᱮᱥᱤᱭᱟᱹᱨ ᱠᱟᱛᱮ ᱟᱢ ᱢᱮᱱᱚᱜ ᱠᱟᱱᱟᱢ ᱡᱮ ᱟᱢ Mozilla ᱥᱟᱶ ᱴᱷᱤᱠ ᱨᱮ ᱢᱮᱱᱟᱢᱟ ᱡᱮᱞᱠᱟ <privacyLink>ᱯᱨᱟᱭᱣᱮᱥᱭ ᱯᱚᱞᱤᱥᱭ</privacyLink> ᱨᱮ ᱢᱮᱱ ᱠᱟᱱᱟ ᱾
 indicates-required = * ᱞᱟᱹᱠᱛᱤ ᱠᱟᱱ ᱡᱟᱭᱜᱟ ᱠᱟᱱᱟ
 not-available-abbreviation = N/A
+banner-error-slow-1 = ᱤᱠᱟᱹ , Common Voice ᱫᱚ ᱵᱟᱹᱭᱼᱵᱟᱹᱭ ᱛᱮ ᱫᱟᱹᱲᱮᱫᱟᱭ ᱾ ᱟᱢᱟᱜ ᱢᱚᱱᱮ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱨᱦᱟᱣ ᱾
+banner-error-slow-2 = ᱟᱞᱮ ᱱᱤᱛᱚᱜ ᱟᱹᱰᱤᱜᱟᱱ ᱴᱨᱟᱯᱷᱤᱠ ᱞᱮ ᱧᱟᱢ ᱮᱫᱟ ᱟᱨ ᱰᱤᱜᱟᱹᱣ ᱠᱚ ᱞᱮ ᱧᱮᱞ ᱯᱚᱨᱚᱠ ᱮᱫᱟ ᱾
+banner-error-slow-link = ᱮᱛᱦᱚᱵ ᱥᱟᱦᱴᱟ
+error-something-went-wrong = ᱤᱠᱟᱹ  , ᱪᱮᱫ ᱪᱷᱚᱸ ᱢᱤᱫ ᱵᱷᱩᱞ ᱵᱩᱭ ᱮᱱᱟ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -347,6 +351,9 @@ profile-form-additional-language =
     .label = ᱵᱟᱹᱲᱛᱤᱭᱟᱜ ᱯᱟᱹᱨᱥᱤ
 profile-form-language =
     .label = ᱯᱟᱹᱨᱥᱤ
+profile-form-variant =
+    .label = { $language } ᱨᱮᱭᱟᱜ ᱚᱠᱟ ᱵᱟᱞ ᱮᱢ ᱢᱮᱱᱮᱫᱼᱟ ?
+profile-form-variant-default-value = ᱪᱮᱫ ᱯᱨᱚᱠᱟᱨ ᱢᱟᱸ ᱛᱚ ᱵᱟᱝ ᱵᱟᱪᱷᱟᱣ ᱠᱟᱱᱟ
 profile-form-accent =
     .label = ᱮᱥᱮᱸᱱᱴ
 profile-form-custom-accent-help-text =
@@ -398,6 +405,7 @@ off = ᱵᱚᱸᱫ
 on = ᱪᱟᱹᱞᱩ
 help-accent = ᱮᱥᱮᱸᱴ ᱥᱟᱞᱟᱜ ᱜᱚᱲᱚ ᱫᱚᱨᱠᱟᱨ ᱠᱟᱱᱟ ᱥᱮ?
 help-accent-explanation = ᱟᱢᱟᱜ ᱮᱥᱮᱸᱴ ᱫᱚ ᱚᱱᱟ ᱠᱟᱱᱟ ᱡᱟᱦᱟᱸ ᱛᱮ ᱟᱢ ᱟᱹᱲᱟᱹ ᱠᱚ ᱢᱮᱱᱟᱢ᱾ ᱱᱚᱶᱟ ᱫᱚ ᱟᱢ ᱚᱠᱟᱨᱮ ᱛᱟᱦᱮᱸᱱ ᱠᱟᱱᱟᱢ, ᱚᱠᱟ ᱮᱴᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱟᱢ ᱨᱚᱯᱚᱲ ᱠᱟᱱᱟᱢ ᱚᱱᱟ ᱪᱮᱛᱟᱱ ᱨᱮ ᱱᱤᱨᱵᱷᱚᱨᱟᱭ᱾ ᱟᱢ ᱟᱨ ᱪᱮᱫ ᱠᱚ ᱵᱤᱵᱨᱚᱬ ᱠᱚ ᱦᱚᱸ ᱱᱚᱶᱟ ᱨᱮ ᱟᱢ ᱦᱤᱥᱟᱹᱵ ᱛᱮ ᱥᱮᱞᱮᱫ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ᱾
+help-variants = ᱯᱨᱚᱠᱟᱨ ᱠᱚ ᱥᱟᱞᱟᱜ ᱜᱚᱲᱚ ᱫᱚᱨᱠᱟᱨ ᱠᱟᱱᱟ ᱥᱮ?
 
 ## Profile - Email
 
@@ -476,6 +484,8 @@ about-localization-title = ᱣᱮᱵᱽᱥᱟᱭᱤᱴ ᱛᱚᱨᱡᱚᱢᱟ
 about-sentence-collection-title = ᱟᱹᱭᱟᱹᱛ ᱛᱩᱢᱟᱹᱞ
 about-new-lang-title = ᱱᱟᱶᱟ ᱯᱟᱹᱨᱥᱤ ᱩᱪᱷᱟᱹᱱ
 about-voice-contrib-title = ᱥᱟᱲᱮ ᱮᱱᱮᱢ ᱠᱚ ᱫᱮᱠᱷᱟᱣ ᱢᱮ
+about-voice-validation-title = ᱥᱟᱰᱮ ᱯᱩᱥᱴᱟᱹᱣ
+about-voice-validation-subtitle = ᱮᱴᱟᱜ ᱦᱚᱲ ᱚᱱᱟ ᱥᱟᱰᱮ ᱠᱚ ᱯᱩᱥᱴᱟᱹᱣ ᱪᱷᱚᱭᱟ ᱾
 about-dataset-release-title = ᱰᱟᱴᱟᱥᱮᱴ ᱚᱰᱚᱠ
 about-speak = ᱨᱚᱲ ᱢᱮ
 about-speak-text = ᱮᱱᱮᱢᱤᱭᱟᱹ ᱫᱟᱱ ᱠᱟᱫ ᱟᱭᱢᱟ ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱫᱚ ᱯᱟᱲᱦᱟᱣ ᱠᱟᱛᱮ ᱥᱟᱰᱮ ᱠᱞᱤᱯ ᱠᱚ ᱨᱮᱠᱚᱰᱼᱟ᱾
@@ -1362,7 +1372,7 @@ sc-review-form-reviewed-message =
         [two] { $sentences } ᱟᱹᱭᱟᱹᱛ ᱠᱤᱱ ᱧᱮᱧᱮᱞ ᱠᱟᱱᱟ᱾ ᱥᱟᱨᱦᱟᱣ!
        *[other] { $sentences } ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱧᱮᱧᱮᱞ ᱠᱟᱱᱟ᱾ ᱥᱟᱨᱦᱟᱣ!
     }
-sc-review-form-review-failure = ᱧᱮᱧᱮᱞ ᱥᱟᱸᱪᱟᱣ ᱵᱟᱝ ᱜᱟᱱ ᱞᱮᱱᱟ᱾ ᱫᱟᱭᱟᱠᱟᱛᱮ ᱛᱟᱭᱚᱢ ᱛᱮ ᱪᱮᱥᱴᱟᱭ ᱢᱮ᱾
+sc-review-form-review-failure = ᱧᱮᱧᱮᱞ ᱥᱟᱧᱪᱟᱣ ᱵᱟᱝ ᱜᱟᱱ ᱞᱮᱱᱟ᱾ ᱫᱟᱭᱟᱠᱟᱛᱮ ᱛᱟᱭᱚᱢ ᱛᱮ ᱪᱮᱥᱴᱟᱭ ᱢᱮ᱾
 sc-review-link = ᱧᱮᱞ ᱫᱚᱦᱲᱟ
 
 ## SETTINGS

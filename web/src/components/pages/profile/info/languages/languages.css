@@ -27,6 +27,14 @@
 
     label {
         width: 100%;
+
+        @media (--md-up) {
+            width: 100%;
+
+            &:nth-of-type(even) {
+                margin-inline-start: 0;
+            }
+        }
     }
 
     > label:last-child {
@@ -36,7 +44,6 @@
     ul {
         margin: -30px 0 30px;
         position: absolute;
-        padding: 0;
         background: white;
         z-index: var(--override-z-index);
         width: 100%;
@@ -51,7 +58,7 @@
 
     .downshift-open {
         border: 1px solid var(--light-grey);
-        box-sizing: border-box;
+
         box-shadow: 0 2px 5px 0 var(--light-grey);
         overflow: hidden;
     }

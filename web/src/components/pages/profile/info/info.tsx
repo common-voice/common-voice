@@ -7,6 +7,8 @@ import * as React from 'react';
 import { useCallback, useEffect, useState } from 'react';
 import { Redirect, RouteComponentProps, withRouter } from 'react-router';
 import { Tooltip } from 'react-tippy';
+import pick from 'lodash.pick';
+
 import { useAction, useAPI } from '../../../../hooks/store-hooks';
 import { trackProfile } from '../../../../services/tracker';
 import { AGES, GENDERS } from '../../../../stores/demographics';
@@ -17,7 +19,6 @@ import { User } from '../../../../stores/user';
 import URLS from '../../../../urls';
 import { LocaleLink, useLocale } from '../../../locale-helpers';
 import TermsModal from '../../../terms-modal';
-import { DownIcon } from '../../../ui/icons';
 import {
   Button,
   Hr,
@@ -31,10 +32,7 @@ import { UserLanguage } from 'common';
 import ProfileInfoLanguages from './languages/languages';
 
 import './info.css';
-
-// TODO: remove pick
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const pick = require('lodash.pick');
+import ExpandableInformation from '../../../expandable-information/expandable-information';
 
 const Options = withLocalization(
   ({
@@ -87,7 +85,6 @@ function ProfileInfo({
   const [userLanguages, setUserLanguages] = useState<UserLanguage[]>([]);
   const [isSaving, setIsSaving] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [showDemographicInfo, setShowDemographicInfo] = useState(false);
   const [termsStatus, setTermsStatus] = useState<null | 'show' | 'agreed'>(
     null
   );
@@ -214,21 +211,11 @@ function ProfileInfo({
         <p />
       </Localized>
 
-      <div
-        className={'profile-toggle ' + (showDemographicInfo ? 'expanded' : '')}>
-        <button
-          type="button"
-          onClick={() => setShowDemographicInfo(!showDemographicInfo)}>
-          <Localized id="why-demographic">
-            <span />
-          </Localized>
-
-          <DownIcon />
-        </button>
+      <ExpandableInformation summaryLocalizedId="why-demographic">
         <Localized id="why-demographic-explanation-2">
-          <div className="explanation" />
+          <div />
         </Localized>
-      </div>
+      </ExpandableInformation>
 
       <div className="form-fields">
         <Localized id="profile-form-username" attrs={{ label: true }}>
@@ -270,6 +257,7 @@ function ProfileInfo({
       <ProfileInfoLanguages
         userLanguages={userLanguages}
         setUserLanguages={setUserLanguages}
+        areLanguagesLoading={areLanguagesLoading}
         setAreLanguagesLoading={setAreLanguagesLoading}
       />
 

@@ -9,11 +9,15 @@ email-input =
 submit-form-action = o pana
 loading = o awen...
 email-opt-in-info = mi wile kama jo e lipu ni: sona pi wile pali mi en sona pi pali mi en ijo sin pi ilo Common Voice.
-email-opt-in-info-title = o kama jo e lipu tan ilo Common Voice
-email-opt-in-info-sub-with-challenge = o kama jo e lipu ale ni: ijo pi wile sina, pali sin, en sona sin, en lipu sin pi ilo Common Voice.
+email-opt-in-info-title = kulupu CommonVoice li ken pana e lipu tawa mi
+email-opt-in-info-sub-with-challenge = lipu li sama ni: pali sina li pona. sina wile pali mute. ijo sin li kama lon kulupu Common Voice.
 email-opt-in-privacy-v2 = sina toki e wile lipu la, sina toki e ni: kulupu Mozilla li ken pali e ijo kepeken sona ni, lon <privacyLink>nasin sona</privacyLink> pi kulupu Mozilla.
 indicates-required = * la, o pana
 not-available-abbreviation = ala
+banner-error-slow-1 = mi pakala. ilo Common Voice li pakala lili. sina pona tan wile kama sina.
+banner-error-slow-2 = jan mute li kama tawa ilo. mi alasa sona e pakala.
+banner-error-slow-link = ilo li pilin seme?
+error-something-went-wrong = ijo li pakala.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -51,13 +55,13 @@ cy = toki Kinla
 da = toki Tansi
 de = toki Tosi
 dsb = toki Tonosesuki
-dv = toki Tipeki
+dv = toki Sipeki
 el = toki Elina
 en = toki Inli
 eo = toki Epelanto
 es = toki Epanja
 et = toki Esi
-eu = toki Esukala
+eu = toki Esuka
 fa = toki Pasi
 ff = toki Pula
 fi = toki Sumi
@@ -158,9 +162,9 @@ ta = toki Tami
 te = toki Teluku
 tg = toki Tosiki
 th = toki Tawi
-ti = toki Tikinja
-tig = toki Tike
-tk = toki Timense
+ti = toki Sikinja
+tig = toki Sikawi
+tk = toki Tumense
 tl = toki Takalo
 tok = toki pona
 tr = toki Tuki
@@ -213,45 +217,45 @@ home-title = ilo Common Voice la kulupu Mozilla li wile pana e sona pi toki uta 
 default-tagline = ilo Common Voice pi kulupu Mozilla li wile pana e sona pi toki uta jan tawa ilo.
 home-cta = o toki, o pana lon ilo ni!
 wall-of-text-start =
-    kalama toki li suli, li jan. ilo li ken kute e kalama toki jan la ni li pona.
-    sona suli pi kalama toki mute li lon la, mi ken pali e ilo toki kalama.
+    kalama toki uta li suli a tawa jan. ilo li ken kute e kalama toki la ni li pona.
+    taso mi wile pali e ilo kute pona la mi wile e kalama mute mute a.
 wall-of-text-more-mobile =
     kulupu suli li kepeken sona la ona li pana ala e ni tawa jan ante mute.
     mi la ni li awen e sin. tan ni la mi open e ilo Common Voice. ni la ilo li ken kute e kalama jan.
     jan ale li ken kepeken ona.
 wall-of-text-more-desktop =
-    sina ken pana e kalama toki sina. ni la mi ken pali e kulupu sona open li ken open e ona tawa jan ale.
-    ni la jan li ken pali e ilo. o toki e linja nimi la ilo ken sona e toki pi jan lon. o lukin e toki pi jan ante la
-    o pona e ona. ni li pona a!
+    sina ken pana e kalama toki sina. mi kulupu e kalama mute ni li pana e ni tawa jan ale.
+    ni la jan li ken pali e ilo. sina kalama e toki la ilo li kama ken sona e kalama toki sina.
+    sina kute e toki pi jan ante la ilo li sona e ni tan sina: toki li pona ala pona. nasin li pona a!
 wall-of-text-first =
-    kalama toki li suli li jan. ilo ken kute e kalama toki jan la ni li pona tawa mi.
-    sona pi kalama toki suli mute li lon taso la mi ken pali e ni.
+    kalama toki uta li suli a tawa jan. ilo li ken kute e kalama toki la ni li pona mute.
+    taso mi wile pali e ilo kute pona la mi wile e kalama mute mute a.
 wall-of-text-second =
-    kulupu esun suli li kepeken e kulupu kalama suli li pana ala e ona tawa jan ante mute.
-    mi la ni li ken ala e sin. tan ni la mi open e pali Common Voice. ona la ilo li ken kute pona e kalama jan.
-    jan ale li ken kepeken ona.
-show-wall-of-text = o lukin mute
+    kulupu esun suli li pali len li kulupu e kalama mute li pana ala e kalama ni tawa jan ante.
+    ni li ike li ken ala e ni: jan li lon kulupu esun suli ala li pali e ilo sin pona. tan ni la mi open
+    e pali Common Voice. jan ale o ken pali e ilo kute pona o ken kepeken ilo pona.
+show-wall-of-text = o suli e toki
 help-us-title = o pona e sitelen!
 help-us-explain = o kute e toki, o pana e sona ni: toki kalama li sama ala sama sitelen anpa?
-no-clips-to-validate = toki ni li jo ala e kalama awen. wile la, o awen e kalama sina.
+no-clips-to-validate = toki ni la kalama ante ala li li wile e kute. sina wile la, o pona e ni o pana e kalama sin sina.
 vote-yes = pona
-vote-no = ala
+vote-no = ike
 toggle-play-tooltip = o luka e nena { shortcut-play-toggle } la, o kute. luka sin la, o kute ala.
 speak-subtitle = o pana e toki uta sina
-speak-paragraph = awen pi kalama toki li suli mute tawa sona open mi. ni li musi tawa jan.
-speak-goal-text = kalama awen
+speak-paragraph = pali pi kalama uta li suli mute tawa pali ni. ni li musi kin tawa jan mute.
+speak-goal-text = kalama
 listen-subtitle = o pona e toki uta
-listen-paragraph = sina lukin e pona pi kalama toki la ni li suli sama. kute la o pali e kulupu sona open pi kalama toki jan.
-listen-goal-text = kalama awen pona
+listen-paragraph = sina lukin e pona pi kalama toki la ni li suli sama tawa pali ni. o kute o pona e kulupu pi kalama toki.
+listen-goal-text = kalama pona
 hours-recorded = tenpo suli kalama
 hours-validated = tenpo suli pi kalama pona
-voices-online = jan lon tenpo ni
+voices-online = jan pi mute ni li pali lon tenpo poka
 todays-progress = sin pi tenpo suno ni
-help-reach-goal = o pali e ijo { $goal }
-read-terms-q = sina lukin ala lukin e lawa kepeken pi ilo ni?
-ready-to-record = sina wile ala wile pana e toki uta sina?
-all-locales = ale
-today = tenpo suno ni
+help-reach-goal = o pali tawa ni: ijo li { $goal }
+read-terms-q = sina pali la o lukin e lawa kepeken pi ilo ni
+ready-to-record = o pana e kalama uta sina!
+all-locales = toki ale
+today = tenpo ni
 x-weeks-short =
     { $count ->
        *[other] esun { $count }
@@ -345,6 +349,9 @@ profile-form-additional-language =
     .label = toki sin
 profile-form-language =
     .label = toki
+profile-form-variant =
+    .label = sina toki kepeken nasin seme pi { $language }?
+profile-form-variant-default-value = sina kepeken ala nasin toki
 profile-form-accent =
     .label = nasin kalama toki
 profile-form-custom-accent-help-text =
@@ -362,40 +369,42 @@ native-language =
     .label = toki mama
 profile-form-add-accent = o pana e nasin kalama toki sin "{ $inputValue }"
 profile-form-submit-save = o awen e ni
-profile-form-submit-saved = ona li awen
+profile-form-submit-saved = ni li awen
 male = mije
 female = meli
 # Gender
 other = ante
 why-profile-title = mi wile e lipu tan seme?
-why-profile-text = sina pana e sona sina la, kalama sina li kama pona mute tawa ilo kute. ona li kepeken sona ni la, ona li kama kute pi pona mute.
+why-profile-text = sina pana e sona sina la, kalama sina li pona mute tawa pali ni: ilo li ken kute pona e jan ale.
 dashboard = lipu suli
 build-profile = o pali e lipu sina
 avatar = sitelen sinpin
-goals = wile suli
+goals = wile pali sina
 settings = nasin ilo
 edit-profile = o ante e lipu sina
 profile-create-success = pona, sina pali e lipu!
 profile-close = o pini
 profile-explanation = o lukin e pali suli sina lon lipu sina. o pana e sona sina kepeken kalama toki sina.
-thanks-for-account = sina pona e lipu sina. ni la o pali e lipu sina
+thanks-for-account = sina pali e sijelo sina. tenpo ni la o lipu e ijo sina.
 why-demographic = ni li suli tan seme?
-why-demographic-explanation-2 = sona ni li pona e ilo kute: tenpo sike lon en kule kon en nasin kalama toki. sina pana e ona la, nimi sina en nimi pi poki lipu sina li lon ala poka pi pali sina. sina ken len anu len ala e nimi sina.
-accept-privacy = ni li pona: ilo li jo e sona mi kepeken <privacyLink>nasin pi sona len</privacyLink> tan kulupu Mozilla
-accept-privacy-title = nasin sona pi ilo ni
-login-identity = nimi lon sina
+why-demographic-explanation-2 = sona ni li pona e ilo kute: tenpo sike lon en kule kon en nasin kalama toki. ijo ala li ken lukin e nimi sina lon poka pi sona sina. sina wile la sina ken len e nimi sina.
+accept-privacy = ni li pona: ilo li jo e sona mi kepeken <privacyLink>nasin pi len sona</privacyLink> pi kulupu Mozilla
+accept-privacy-title = nasin pi len sona li pona tawa mi
+login-identity = nasin nimi pi sijelo sina
 login-signup = o kama / o pali e sijelo ilo
 edit = o ante
 email-subscriptions = lipu wile pi poki lipu sina
 download-profile = o kama jo e sona mi e kalama mi
-contribution-experience = sona pi nasin pali
-skip-submission-feedback = o toki ala e toki lili pi pali pona tawa mi
-skip-submission-description = sina luka e nena "o pana" la mi toki ala e ni: pali sina li pona ala pona. sina ken pali e ijo sin luka.
-skip-submission-note = o sona e ni: sina wile ante e nasin pali la, o luka e nena "o toki" anu "o kute".
-off = ala
-on = wile
-help-accent = sina wile ala wile e pona tawa nasin kalama toki?
-help-accent-explanation = nasin kalama toki sina li ken kama ante tan ma mama sina, tan toki ante sina, tan ijo ante mute. o pana e sona ni: sina pilin e ni: ona li suli tawa sona pi nasin kalama sina.
+contribution-experience = nasin pali
+skip-submission-feedback = sina pali la ilo o toki ala toki e toki lili pi pali pona tawa sina?
+skip-submission-description = ni la sina luka e nena "o pana" la ilo li toki ala e ni: pali sina li pona ala pona. ilo li pana taso e pali sin luka.
+skip-submission-note = o sona e ni: awen la, sina wile ante e nasin pali la, sina o luka e nena "o toki" anu "o kute".
+off = toki
+on = toki ala
+help-accent = nasin kalama li seme lon ni?
+help-accent-explanation = nasin kalama toki sina li ken ante tan ma mama sina, tan toki ante sina, tan ijo ante mute. o pana e sona ni: sina pilin e ni: ona li suli tawa sona pi nasin kalama sina.
+help-variants = nasin toki li seme lon ni?
+help-variants-explanation = mi toki e nasin toki lon ni la mi toki e ni: jan mute pi ma seme anu kulupu seme li kepeken nasin toki ni. nasin toki sina li kama tan ma seme, tan kulupu seme?
 
 ## Profile - Email
 
@@ -406,6 +415,7 @@ gravatar_not_found = ilo Gravatar sina li lon ala
 file_too_large = lipu sina li suli mute la, sina ken ala pana
 avatar-uploaded = sina pana e sitelen sinpin
 max-file-size = suli ken li suli KB { $kb }
+remove-avatar = o weka e sitelen sina
 
 ## Profile - Email
 
@@ -434,6 +444,7 @@ faq-how-get-a = kulupu sona Common Voice li pana kepeken <licenseLink>lipu CC0</
 faq-when-release2-q = tenpo seme la sona pi ilo Common Voice li lon toki ante?
 faq-when-release2-a = ilo Common Voice pi toki mute li kama pona. sina wile pana e toki sin tawa ilo Common Voice la, o lukin e <sentenceCollectorLink>ilo Sentence Collector</sentenceCollectorLink> tawa ni, e <pontoonLink>ilo pi ante toki Pontoon</pontoonLink> tawa ni. sina pana e sitelen 5 000 la, toki sin li kama tawa ilo Common Voice.
 faq-why-mission-q = kulupu Mozilla li pali e ilo Common Voice tan seme?
+faq-why-mission-a = kulupu Mozilla li wile e ni: kulupu lipu jan li open, li tawa jan ale. ni la, jan pi kulupu ni li kama pona tan ilo Common Voice, tan ilo ante. ilo kute en ilo kalama toki li kama suli la, ona o pona e jan ale. ni la, lon pali lon pona la, ilo Common Voice li pona e toki mute, li pona e nasin kalama e jan ante. ilo Common Voice li tawa jan ale. kulupu Mozilla li kepeken ni lon pali ona.
 faq-what-cv-and-deepspeech-q = ilo Common Voice en ilo Deep Speech la ante li seme?
 faq-what-cv-and-deepspeech-a = kulupu sona Common Voice li pona tawa kulupu Mozilla, tawa ilo kama Deep Speech. pali wan pi ilo Deep Speech li tan tenpo sike 2017 lon tenpo mun 11. kepeken kulupu sona Common Voice la, ilo kute pi jan ale li tawa jan ale, li pona jan ale. mi mute li wile e ni: jan sona li kepeken ilo ni, li pali e ilo pona mute.
 faq-is-goal-assistant-q = pali Common Voice la sina wile pali e ilo pali kute anu seme?
@@ -445,16 +456,26 @@ faq-why-different-speakers-a = kulupu mute pi toki uta la toki mute li tan <arti
 faq-why-my-lang-q = tan seme la toki mi li lon ala?
 faq-why-my-lang-new-a = kulupu Mozilla li kepeken toki ale. ilo Common Voice li pona tawa toki ale, li wile e toki ale. taso, <multilangLink>pali pi toki sin li suli</multilangLink>. jan li wile pana e toki uta ona la, nanpa wan la, ona o ante toki e ilo Common Voice. nanpa tu la, ona o pana e sitelen pi jan ale tawa ilo Common Voice. sitelen ni li tawa toki uta. ni tu li pini la, toki sin li kama tawa ilo Common Voice. jan li ken kama, li ken pana e toki ona, li ken pona e toki pi jan ante. sina wile pona e pali pi toki sin la, o tawa <sentenceCollectorLink>lipu pi sitelen kulupu</sentenceCollectorLink>.
 faq-what-quality-q = sina wile e kalama pi pona kute seme?
+faq-what-quality-a = mi mute li wile e ni: kulupu sona Common Voice li sama kalama pi ma ale. ni la, kalama ante mute li pona. kalama awen pi pona ante li pona sama kalama toki pi jan mute. ni la, ilo li ken kute e toki sina lon tenpo mute, lon kalama monsi, lon kalama pi tomo tawa. sina ken kute e toki sina lon kalama awen la, ni li pona tawa kulupu sona.
 faq-why-10k-hours-q = sina wile e kalama pona pi tenpo suli 10000 lon toki wan tan seme?
 faq-why-10k-hours-a = ilo kute pi pona mute li wile e kalama pi mute ni.
 faq-how-calc-hours-q = ilo Common Voice li nanpa e tenpo kalama kepeken nasin seme?
 faq-how-calc-hours-a = mi sona e tenpo suli pi kalama awen kepeken nasin ni: mi sona e suli pona pi kalama awen ale. ni la, mi kepeken nanpa pi kalama awen tan toki ale. nanpa tu ni la mi suli e ona tu.
 faq-where-src-from-2-q = sitelen mama li tan seme?
+faq-where-src-from-2-a =
+    sitelen mi li tan jan pana, li tan toki pi sitelen open, li tan sitelen tawa <italic>It's a Wonderful Life</italic>.
+    sina ken lukin e sitelen lon <githubLink>lipu pi ilo GitHub</githubLink>.
 faq-why-not-ask-read-q = sina pana ala e toki tan lipu Wikipedia anu lipu ante tan seme?
+faq-why-not-ask-read-a = mi la, sitelen li open li kepeken nasin pana Creative Commons (CC0) la, ilo Common Voice li pona mute. kepeken nasin pana ni la, alasa sitelen li ken ike. taso, open la, jan ale li ken kepeken ilo Common Voice, kepeken ala wile pi kulupu Mozilla. mi la, ilo en kulupu sona Common Voice li pona tawa jan ale: jan sona en tomo sona en tomo esun en tomo lawa. jan ale li kama pona tan ilo.
 faq-why-account-q = tan seme la mi o kama tawa ilo ni?
 faq-is-account-public-q = sona pi lipu mi li len ala len?
 faq-how-privacy-q = jan li pana e kalama toki la jan ni li len kepeken nasin seme?
+faq-how-privacy-a = kalama awen pi kulupu sona li jo ala e sona jan. jan li pana e kalama e sona ona la, mi weka e sona tan kalama awen ona. kalama awen li lon ala lipu jan ona.
 faq-what-determine-identity-q = ni li seme: mi ken ala sona e jan toki pi kulupu sona Common Voice
+faq-what-determine-identity-a =
+    kulupu sona pi ilo Common Voice li tawa jan ale. jan ale li ken kepeken ona, li ken pali e ilo kute e ilo toki kepeken ona. jan li kama jo e kulupu sona la, ona li ken ala sona e jan pi kulupu sona.
+    
+    kalama ale li jo ala e sona jan. sina kama jo e kulupu sona la, sina o ni: sina alasa ala sona e jan pi kulupu sona. ni la, sina ken ala kepeken kulupu sona tawa sona jan. ante la, sina ken pali e ilo kute, e ilo toki, e ilo ante kepeken kulupu sona pi ilo Common Voice.
 faq-what-is-cv = ilo Common Voice li seme?
 faq-using-cv = o kepeken ilo Common Voice
 faq-description = ilo Common Voice la kulupu Mozilla li wile pana e sona pi toki uta jan tawa ilo.
@@ -464,6 +485,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ilo Common Voice li tan seme?
+about-header-description-v2 = kulupu sona Common Voice li tawa jan ale. jan mute li pana e toki uta ona. jan ni li wile pali e ilo. tenpo ni la, kulupu mani li jo e kulupu sona mute. jan ale li ken ala kepeken ona la, jan li ken ala pali. kulupu sona li jo mute e toki uta pi jan Inli, e toki uta pi jan Kokasijan. ni la, ilo toki en ilo kute li ken ala tawa toki ante, li ken ala tawa jan ante. jan mute li pana e toki ona la, ni li ken ante.
 how-does-it-work-title-v2 = ilo Common Voice li pali kepeken nasin seme?
 how-does-it-work-text = mi kulupu e kalama toki tan jan. o pana e kalama toki sina. o pona e kalama toki pi jan ante. o pona e kulupu sona.
 
@@ -489,7 +511,7 @@ about-listen-queue = kulupu kute
 about-listen-queue-text = toki uta li kama tan kulupu. jan kute li kama jo e ona tan kulupu ni.
 about-listen = o kute
 about-listen-text = jan li kute e toki uta. ona li toki e ni: toki uta li sama ala sama toki sitelen?
-about-is-it-valid = kalama awen li pona ala pona?
+about-is-it-valid = kalama ni li pona ala pona?
 about-is-it-valid-text = jan li pana e pona tawa kalama awen la, ona li pona.
 about-yes-votes = pona tan jan 2
 about-yes-votes-text = jan tu li kute e kalama wan li toki e pona ona la, ona li kama lon kulupu kalama Common Voice.
@@ -509,10 +531,11 @@ about-get-involved-text-2 =
     sina wile ala wile pona e ilo Common Voice?
     wile la, o toki lon <discourseLink>ilo Discourse</discourseLink>, o pana e pakala lon <githubLink>ilo Github</githubLink>, o toki lon <matrixLink>ilo Matrix</matrixLink>.
 about-stay-in-touch = nasin seme la mi sona e ijo sin?
+about-stay-in-touch-button = o pali e sijelo ilo
 about-stay-in-touch-text-1 = <emailFragment>o kama</emailFragment> tawa kulupu pi lipu sin. ni la sina kama sona e pali, e tenpo suli. sina ken pali e ilo Common Voice a!
 about-stay-in-touch-text-2 = sina ken toki tawa jan pi kulupu toki Mozilla lon <discourseLink>ilo Discourse</discourseLink>, lon <matrixLink>ilo Matrix</matrixLink>.
 about-nav-why-common-voice = tan seme?
-about-nav-how-it-works = nasin seme?
+about-nav-how-it-works = nasin li seme?
 about-nav-partners = jan poka, kulupu poka
 about-nav-get-involved = o kama, o pali
 about-nav-how-it-works-2 = ilo Common Voice li pali kepeken nasin seme?
@@ -532,6 +555,7 @@ about-playbook-how-add-language = nasin seme la mi ken pana e toki sin?
 about-playbook-how-add-language-content-1 = wan la, o lukin: toki sina li <languageLink>lon ala lon</languageLink>? ona li lon ala la, <strong>o ante toki e lipu, o kama jo e sitelen</strong>.
 about-playbook-how-add-language-content-2 = <strong>sina wile ante toki e lipu ni la</strong> o <translateVideo>kepeken</translateVideo> <pontoonLink>ilo Pontoon</pontoonLink>. ilo Pontoon li jo e toki mute. ona li jo ala e toki sina la, <pontoonRequestLink>sina ken pana e toki sin</pontoonRequestLink>. o wile e ona lon <repoLink>lipu ni</repoLink>. ni la ilo Common Voice li ken kama e toki sina. o lukin e toki mute lon <localizationFragment>lipu ni</localizationFragment>.
 about-playbook-how-add-language-content-3 = sina wile <strong>kama jo e sitelen</strong> la, o <scVideo>kepeken</scVideo> <scLink>ilo Sentence collector</scLink>.
+about-playbook-how-add-language-content-4 = sina ken pana e <scLinkAdd>sitelen pi mute ala</scLinkAdd>. ante la, sina ken <bulkImportDocsLink>pana e sitelen mute</bulkImportDocsLink> lon ilo Github. o sona e ni: sitelen o open, o tawa jan ale kepeken <licenseLink>nasin pana CC0</licenseLink>. ante la, o pali o pana e sitelen sina. o lukin e <scFragment>kulupu sitelen</scFragment>.
 
 ## How does localization work
 
@@ -545,6 +569,8 @@ about-playbook-how-localize-content-5 = sina wile e pona la, o lukin e sitelen t
 ## How to add sentences
 
 about-playbook-how-add-sentences = nasin seme la mi ken pana e sitelen?
+about-playbook-how-add-sentences-content-1 = <strong>ilo Sentence Collector</strong> li kama jo e sitelen, li pona e sitelen open. o pali e <scAccountLink>sijelo ilo</scAccountLink>. ni la, o pana e toki sina tawa <strong>lipu jan</strong> sina. sina ken <strong>pana</strong> e sitelen. sina ken <strong>pona</strong> e sitelen.
+about-playbook-how-add-sentences-content-2 = sitelen li pona tawa jan tu la, ilo li pana e sitelen ni tawa sona pi ilo Common Voice. sina ken pali e nasin pona pi toki sina <languageGuidelinesLink>lon lipu ni</languageGuidelinesLink>. ni o lon: <licenseLink>jan ale li ken kepeken</licenseLink> sitelen ale. sitelen o kepeken nimi 14 anu lili. o toki tawa jan sitelen la, ona li ken kepeken <waiverLink>lipu ni</waiverLink>, li ken pana e sitelen ona kepeken nasin open. ona li ken pana e lipu tawa poki lipu commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = sina ken kepeken <scraperLink>ilo pi nimi tan</scraperLink>. ona la sina ken kama jo e sitelen tan lipu Wikipedia.
 about-playbook-how-add-sentences-content-4 = toki li pona la, mi pana insa e ona lon tenpo suno nanpa tu wan pi tenpo suno. mi pana e ona lon ilo lon tenpo pi pana weka kalama.
 
@@ -560,7 +586,9 @@ about-playbook-how-record-content-5 = <accuracyLink>sona sin pi pona toki</accur
 ## How to grow language
 
 about-playbook-how-grow-language = seme la mi ken suli e toki lon ilo Common Voice?
+about-playbook-how-grow-language-content-1 = jan mute li ken pana tawa ilo Common Voice la, kulupu sona li ken e wile pi jan mute. ni la mi pali e lipu sona tawa sina!
 about-playbook-how-grow-language-content-2 = tenpo suli
+about-playbook-how-grow-language-content-3 = sina ken tenpo pali pi jan pana! ni li pona mute. sina ken kepeken ilo kulupu toki. ona li pona la, sina ken pali lon poka jan. <eventTemplate>o lukin e lipu sona pi tenpo pali</eventTemplate>.
 about-playbook-how-grow-language-content-4 = kulupu pi jan toki
 about-playbook-how-grow-language-content-5 = sina ken kepeken kulupu pi jan mute tawa toki pi ilo ni! o pana e toki pi nasin ilo. o toki tawa jan ante lon toki mute ni: pona toki en ilo kalama toki en nasin ike ilo. o lukin e <campaignLink>lipu pi kulupu toki pona</campaignLink>. ona li jo e toki la sina ken kepeken ona.
 about-playbook-how-grow-language-content-6 = jan poka en kulupu
@@ -572,11 +600,14 @@ about-playbook-how-grow-language-content-8 = <strong>o pali pona!</strong> kulup
 about-playbook-how-validate = nasin seme la mi sona e pona pi kalama toki?
 about-playbook-how-validate-content-1 = sina ken <strong>kute</strong> e ona, li ken <strong>sona</strong> e toki ona, <strong>o pona e ona</strong>.
 about-playbook-how-validate-content-2 = <strong>jan toki li kepeken e nasin kalama ante la, o weka ala e ona.</strong> nasin kalama mute la, ilo ken pali pona tawa jan ale.
+about-playbook-how-validate-content-3 = sina ken ala sona e toki, tan <strong>nasin kalama</strong>, tan <strong>kalama jaki mute</strong>, tan <strong>toki pi jan ante</strong> la, o weka e kalama. <accuracyLink>o lukin e sona pi kalama pona</accuracyLink>.
 about-playbook-how-validate-content-4 = kalama awen li weka tan jan 2 la, ilo li pana e ona tawa kulupu sona ante.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = mi lukin e sona ale pi ilo Common Voice kepeken nasin seme?
+about-playbook-how-access-dataset-content-1 = sina tawa <datasetsPage>lipu pi kulupu sona</datasetsPage> la, sina ken kama jo e kulupu sona tan toki wile, tan nanpa wile. kulupu sona li jo e sona pi jan mute, e sona pona. sina o pana e nimi pi poki lipu sina la sina ken kama jo e kulupu sona.
+about-playbook-how-access-dataset-content-2 = sina alasa e ilo pali pi ilo ASR la, o toki tawa jan ante kulupu <discourseLink>lon ilo Discourse</discourseLink>.
 
 ## How are decisions made
 
@@ -614,6 +645,7 @@ de-identified-explanation = ni li nasin weka pi sona jan tan kulupu sona Common 
 error-title-404 = mi ken ala alasa e lipu ni tawa sina
 error-content-404 = ken la, o lukin e <homepageLink>lipu open mi</homepageLink>. sina wile e sona la, o kama tawa <matrixLink>ilo Matrix</matrixLink>, o lukin e lipu pakala lon <githubLink>ilo Github</githubLink>, o lukin e <discourseLink>ilo Discourse</discourseLink>.
 error-title-503 = mi pakala. mi lon ala lon tenpo ni. nasin la mi sona ala.
+error-content-503 = lipu li kama pona lon tenpo kama lili. sona sin la, o tawa <matrixLink>kulupu Matrix</matrixLink>. o tawa <githubLink>ilo Github</githubLink>. o tawa <discourseLink>ilo Discourse</discourseLink>. ale ni la sina ken pana e sona pakala. sina ken sona e pakala lipu.
 error-code = pakala { $code }
 
 ## Data
@@ -624,6 +656,7 @@ data-download-deny = ala
 data-download-license = lipu ken: <licenseLink>CC-0</licenseLink>
 data-download-modal = sina wile ala wile kama jo e poki pi <size>suli GB { $size }</size>?
 data-subtitle = mi pali e kulupu sona pi toki uta. jan ale li ken kepeken ona tawa ni: ona li ken pali e ilo toki, e ilo kute.
+data-explanatory-text = mi la kulupu sona suli en sona open li pona tawa pali ilo, tawa ilo kute, tawa ilo ale. pali ni li tawa ma ale la, jan ale li ken kama pali. mi wile e ni: ilo kute en ilo toki li tawa jan ale, li pona tawa jan ale, li pana e sona pi jan ale.
 data-get-started = <speechBlogLink>o open kepeken ilo kute!</speechBlogLink>
 data-other-title = kulupu sona ante pi toki uta
 data-other-goto = tawa lipu { $name }
@@ -636,9 +669,9 @@ license = lipu ken: <licenseLink>{ $license }</licenseLink>
 license-mixed = mute
 data-download-singleword-title = o kama jo e kalama pi nimi wan taso
 data-download-singleword-callout-v2 = nasin ni en kulupu sona ni li sona e nimi nanpa tan kalama toki sina. wile sona la, ona li sona e nimi ijo, e nimi ijo ala.
-review-terms = sina kepeken ilo Common Voice la <termsLink>lawa kepeken</termsLink> en <privacyLink>nasin pi len sona</privacyLink> o pona tawa sina.
-terms-agree = mi wile
-terms-disagree = mi wile ala
+review-terms = sina kepeken ilo Common Voice la, sina o toki e ni: <termsLink>lawa kepeken</termsLink> en <privacyLink>nasin pi len sona</privacyLink> li pona tawa sina.
+terms-agree = ni li pona
+terms-disagree = ni li pona ala
 review-aborted = sina pana ala. sina wile ala wile weka e kalama awen sina?
 review-submit-title = o kute, o pana
 review-submit-msg = sina pona!<lineBreak></lineBreak>anpa la o lukin, o pana e kalama toki sina.
@@ -646,11 +679,18 @@ review-recording = o kute
 review-rerecord = o awen e kalama sin
 review-cancel = o weka e ijo pana
 review-keep-recordings = o awen e kalama
-review-delete-recordings = o weka e kalama awen mi
+review-delete-recordings = o weka e kalama ale mi
 
 ## Datasets Page
 
+datasets-heading = kulupu kalama
 datasets-headline = mi pali e kulupu sona pi kalama toki. ona li open, li kepeken toki mute. jan ale li ken kepeken ona, li ken pona e ilo kute kepeken ona.
+datasets-positioning =
+    mi la, kulupu sona open li pona tawa pali ilo, li pona tawa sona pi ilo kute mute.
+    
+    kulupu sona Common Voice li jo e toki mute. kulupu sona ante la, kulupu sona Common Voice li suli nanpa wan. taso, kulupu sona ante li lon.
+    
+    o lukin e lipu ni tawa sona ni: mi pana e sona pi kulupu sona ante. ilo Common Voice li kama suli la, mi pana e sin ona tawa lipu ni.
 language = toki
 # File size in gigabytes
 size = suli
@@ -727,16 +767,42 @@ request-language-success-content = mi toki tawa sina. tenpo lili la mi pana e so
 select-language = o kepeken toki
 other-language = toki ante
 
+## Request Language Pages
+
+request-language-heading = o wile sona lon toki sin
+request-language-explanation-1 =
+    sina sona ala e lon pi toki sina la, o lukin e <languagesPageLink>lipu toki</languagesPageLink>.
+    toki sina li lon ala la, o pana e sona lon lipu ni. mi <strong>pana e lipu tawa sina</strong>. <strong>lipu li pana e sona pi pali toki</strong>.
+request-language-explanation-2 = jan lawa pi ilo Common Voice li <strong>kama sona e wile sina</strong> la, ona li ken pana e pona e sona.
+request-language-form-email =
+    .label = nimi pi poki lipu sina
+request-language-form-info =
+    .label = sona toki
+request-language-form-info-explanation =
+    o pana e sona ale pi toki sina.
+    ale ni li ken pona:
+request-language-form-info-explanation-list-1 = nimi pi toki sina
+request-language-form-info-explanation-list-2 = sona la, <isoCodeLink>nasin ISO</isoCodeLink>
+request-language-form-info-explanation-list-3 = nimi nasin pi lipu toki. ona li ken pana e sona toki tawa mi.
+request-language-google-recaptcha-required = sina wile tawa la, o kepeken ilo reCAPTCHA.
+request-language-google-recaptcha-error = ilo reCAPTCHA li pakala. o sin.
+# Success page
+request-language-success-heading = sina pona! sina pana e wile pi toki sin.
+request-language-success-list-1 = tenpo kama lili la, sina kama jo e lipu sona pi nasin ni: sina ken pana e toki sin tawa ilo Common Voice
+request-language-success-list-2 = tenpo kama la, jan lawa pi ilo Common Voice li toki tawa sina, li pona e pali sina, li toki e lon pi toki sina.
+request-language-success-list-3 = mi toki ala tawa sina lon tenpo suli la, o toki tawa <emailLink>nimi lipu</emailLink>. mi toki tawa sina!
+request-language-error = ken la mi jo ala e wile ni. o toki tawa <emailLink>nimi lipu { $email }</emailLink> la mi toki tawa sina!
+
 ## Languages Overview
 
 language-section-in-progress = pali toki li lon
 language-section-in-progress-new-description = kulupu li suli e toki ni. linja ni li pana e sona pi suli toki lon <localizationGlossaryLink>lipu toki</localizationGlossaryLink>, lon <sentenceCollectionGlossaryLink>kulupu pi linja toki</sentenceCollectionGlossaryLink>.
 language-section-launched = open!
-language-section-launched-description = toki ni la, lipu ni li <localizationGlossaryLink>ante toki ale</localizationGlossaryLink>, li jo e <sentenceCollectionGlossaryLink>sitelen mute</sentenceCollectionGlossaryLink>. ni la, jan li ken <speakLink>toki</speakLink> li ken <listenLink>kute</listenLink>.
-languages-show-more = o lukin mute
-languages-show-less = o lukin lili
+language-section-launched-description = toki ni la, ilo ni li <localizationGlossaryLink>ante toki ale</localizationGlossaryLink>, li jo e <sentenceCollectionGlossaryLink>sitelen mute</sentenceCollectionGlossaryLink>. ni la, jan li ken <speakLink>toki</speakLink> li ken <listenLink>kute</listenLink>.
+languages-show-more = toki mute
+languages-show-less = o lili e toki
 language-meter-in-progress = pali suli
-language-total-progress = ale
+language-total-progress = sitelen pi jan ale
 language-search-input =
     .placeholder = o alasa
 language-speakers = jan toki
@@ -746,57 +812,63 @@ total-hours = tenpo suli pona
 
 ## Contribution
 
-action-click = o pilin
-action-tap = o pilin
+action-click = pilin
+action-tap = pilin
 contribute = o pana
 listen = o kute
-skip = mi sona ala
+skip = mi sona ala, o pana e toki ante
 shortcuts = nena pali
 clips-with-count-pluralized =
     { $count ->
-       *[other] kalama awen
+       *[other] kalama <bold>{ $count }</bold>
     }
-goal-help-recording = tenpo suno ni la mi wile e kalama awen { $goalValue }. tan pali sina la ilo Common Voice li jo e ona <goalPercentage></goalPercentage>!
-goal-help-validation = tenpo suno ni la mi wile e kalama pona { $goalValue }. tan pali sina la ilo Common Voice li jo e ona <goalPercentage></goalPercentage>!
+goal-help-recording = tenpo suno ni la mi wile e kalama { $goalValue }. tan pali sina la ilo Common Voice li jo e ni <goalPercentage></goalPercentage>!
+goal-help-validation = tenpo suno ni la mi wile e pona kalama { $goalValue }. tan pali sina la ilo Common Voice li jo e ni <goalPercentage></goalPercentage>!
 contribute-more =
     { $count ->
-       *[other] sina ken ala ken pali e kalama sin { $count }?
+       *[other] sina wile ala wile pali lon kalama { $count } sin?
     }
-record-cta = o open e awen kalama
+record-cta = o open e ilo kute
 record-platform-not-supported = ilo sina li ken ala kepeken ilo Common Voice
 record-platform-not-supported-desktop = lon ilo sona supa la, sina ken pana tan kama jo pi …
 record-platform-not-supported-ios-non-safari = o kepeken ilo Safari lon ilo iOS la, ilo li ken kute e sina…
 record-must-allow-microphone = o wile e ken pi ilo kute sina.
 record-no-mic-found = ilo kute li lon ala
-record-error-too-short = kalama awen li lili mute la, ona li pakala.
-record-error-too-long = kalama awen li suli mute la, ona li pakala.
+record-error-too-short = pakala la kalama li tenpo lili ike.
+record-error-too-long = pakala la kalama li tenpo suli ike.
 record-error-too-quiet = kalama pi toki uta li lili la, kalama awen li pakala.
 record-cancel = o weka e kalama awen sin
-record-instruction = o { $actionType } <recordIcon></recordIcon>, o toki e linja ni
+record-instruction = o { $actionType } e <recordIcon></recordIcon>, o kalama e toki ni
 record-stop-instruction = sina pini la, o { $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = o pini e tu wan taso!
 record-again-instruction = pona a! ilo o <recordIcon></recordIcon> kute e kalama sin sina
 record-again-instruction2 = ni li suli a. ilo o kute <recordIcon></recordIcon> sin
-record-last-instruction = <recordIcon></recordIcon> wan taso li lon!
+record-last-instruction = <recordIcon></recordIcon> pali wan taso li awen lon!
 review-tooltip = sina pali la o pona, o pali e kalama sin
 share-clip = o pana e kalama awen sina
 share-common-voice = o pana e ilo Common Voice
 review-instruction = wile la, o pona e kalama awen, o pali e kalama sin
-record-submit-tooltip = o { $actionType } la sina o pana.
-clips-uploaded = kalama awen pana
-record-abort-title = wan la, o pini e kalama awen anu seme?
+record-submit-tooltip = sina pini la o pana e pali kepeken ni.
+clips-uploaded = sina pana e kalama
+record-abort-title = pali kalama li pini ala. o awen pali anu seme?
 record-abort-text = sina tawa la sina weka e pali sina
-record-abort-submit = o pana e kalama awen
-record-abort-continue = o pini kalama
-record-abort-delete = o pini, o weka e kalama awen
-listen-instruction = o { $actionType } <playIcon></playIcon> ona li toki pona anu seme?
+record-abort-submit = o pana e pali
+record-abort-continue = o awen pali
+record-abort-delete = o pini, o weka e pali
+listen-instruction = o { $actionType } e <playIcon></playIcon>. kalama ni li toki pona e toki ni anu seme?
 listen-again-instruction = sina pona! <playIcon></playIcon> sina ken la, o kute sin
 listen-3rd-time-instruction = tu li pini!
-listen-last-time-instruction = wan taso li lon!
-listen-empty-state = kalama awen pi toki ni li lon ala. ni la sina ken ala pona e ona.
+listen-last-time-instruction = <playIcon></playIcon> pali wan taso li awen lon!
+listen-empty-state = kalama ante ala li lon toki ni...
+listen-loading-error =
+    mi ken ala pana e kalama awen tawa sina. sina ken ala kute e ona.
+    tenpo kama la o sin.
 speak-empty-state = sitelen pi toki ni li lon ala. ni la sina ken ala kalama awen e ona.
 speak-empty-state-cta = o pana e sitelen
-record-button-label = o awen e toki uta sina
+speak-loading-error =
+    mi ken ala pana e sitelen tawa sina. sina ken ala toki e ona.
+    tenpo kama la o sin.
+record-button-label = o pali e kalama sin kepeken toki uta sina
 share-title-new = <bold>o pona e ni:</bold> o kama e jan sin
 keep-track-profile = o sona e pana sina e pali sina kepeken lipu jan
 login-to-get-started = o kama la, sina open
@@ -869,26 +941,23 @@ show-ranking = o len ala e pali mute mi
 
 ## Custom Goals
 
-get-started-goals = o open e pali suli sina
-create-custom-goal = o pali e wile pali sin
+get-started-goals = o pana e wile pali sina
+create-custom-goal = o pana e wile pali sina
 goal-type = sina wile pali e seme?
 both-speak-and-listen = tu
 both-speak-and-listen-long = tu (o toki, o kute)
 daily-goal = wile pali pi tenpo suno ale
-weekly-goal = wile pali pi tenpo esun ale
+weekly-goal = wile pali pi tenpo suno 7 ale
 easy-difficulty = pona
 average-difficulty = pona ala, ike ala
 difficult-difficulty = ike
 pro-difficulty = ike suli
 lose-goal-progress-warning = sina ante e wile pali sina la, ijo ale pi wile pali li weka tan ni.
 want-to-continue = sina wile ala wile pini?
-finish-editing = wan la, o pini e ante sina anu seme?
+finish-editing = ante sina li pini ala. o awen pali anu seme?
 lose-changes-warning = sina weka la, ante sina li weka
-build-custom-goal = o wile pali sin
-help-reach-hours-pluralized =
-    { NUMBER($hours) ->
-       *[other] o pona e ni: o pali e kalama awen pi tenpo { $hours } lon { $language } kepeken wile pali sina
-    }
+build-custom-goal = o wile pali mute
+help-reach-hours-pluralized = wile mi la kalama pi tenpo suli { $hours } o lon { $language }. tawa ni la o pana e wile pali sina!
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
        *[other] kepeken wile pali sina la, o pali e tenpo suli { $hours } lon ilo Common Voice, lon toki.
@@ -947,14 +1016,14 @@ profile-form-delete = o weka e lipu jan
 
 ## Profile Download
 
-download-q = sina wile kama jo e sona sina anu seme?
-download-info = sina wile kama jo e seme:
+download-q = sina wile kama jo e sona sina e pali sina la:
+download-info = sina wile kama jo e seme?
 download-profile-title = lipu jan
 download-profile-info = tenpo lili la nimi pi poki lipu en nimi jan en sona jan li lon
-download-profile-size = suli lili Bytes
+download-profile-size = ni li lili sama suli Byte mute
 download-recordings-title = kalama awen
 download-recordings-info = ona li jo e ilo MP3, e sitelen sama. ni la ona li kepeken tenpo suli tawa pona.
-download-recordings-size = suli Megabytes
+download-recordings-size = ni li suli sama suli Megabyte mute
 download-recordings-unavailable = sina ken ala kama jo sin. sina kama jo e kalama awen sina lon tenpo ni.
 download-recently-requested = sina ken kama jo e kalama awen sina lon tenpo suno { $days } pini ale.
 download-size = suli
@@ -974,6 +1043,7 @@ download-request-modal-title = nasin nimi pi kama jo
 download-request-modal-description = ni li nimi nasin pi poki lipu ZIP sina.
 download-request-link-text = poki lipu ZIP #{ $offset } tan { $total }
 download-request-metadata-link = nimi sitelen
+download-request-link-single = sina ken pana e nimi nasin tawa ilo kama jo sina. nimi nasin li moli lon tenpo suli 12 pini. lon lipu ni la sina ken pali e nimi nasin sin lon tenpo ale.
 
 ## Landing
 
@@ -1003,6 +1073,7 @@ demo-account = sijelo ilo
 ## Demo Account
 
 demo-account-card-header = sina jo anu jo ala e sijelo ilo la, sina ken pana. sina jo la, ni li pona mute.
+demo-account-card-body = sina wile sona e pona pi sijelo ilo la, o kepeken nasin nimi lon monsi. ni la sina ken pali e sijelo ilo pi ilo Common Voice.
 demo-account-enter-email =
     .label = o pana e nimi pi poki lipu sina la mi pana e nimi nasin kama.
 demo-account-sign-up = o kama jo e nimi nasin kama
@@ -1010,6 +1081,7 @@ demo-account-sign-up = o kama jo e nimi nasin kama
 ## Demo Contribute
 
 demo-contribute-card-header = sina ken ala ken pana e kalama uta sina anu kute sina?
+demo-contribute-card-body-v2 = sina sona e ilo Common Voice la, o kepeken ona! o pilin e ilo kute la o toki uta e sitelen.<br/><br/>sina wile pona e kalama pi jan ante la, o pilin e sitelen open. sina ni la, sina kute e ni: sitelen li sama ala sama kalama?
 demo-listen-subtitle = sina wile ala wile pana?
 
 ## Demo Dashboard
@@ -1049,7 +1121,7 @@ contribution-varying-pronunciations-title = nasin pi kalama toki ante
 contribution-varying-pronunciations-description = jan li toki ante e nimi li kalama ante e toki la ni li ike lon tenpo ale ala. nasin toki mute li lon. sina sona ala e ni, taso ni li ken pona lon kulupu ante. o sona e ni: nasin toki ante li ken pona.
 contribution-varying-pronunciations-description-extended = pilin sina la jan li toki e nimi pi sona ona ala la, o weka e ona. sina sona ala la, o pilin e nena "mi sona ala".
 contribution-varying-pronunciations-example-1-title = mi moku e kili loje suwi.
-contribution-varying-pronunciations-example-1-explanation = [kalama la jan ken toki e nimi "kili" e nimi "loje" sama nimi "kiri" en nimi "roje"]
+contribution-varying-pronunciations-example-1-explanation = [kalama la jan ken toki e nimi "kili" e nimi "loje" sama nimi "kiri" sama nimi "roje"]
 contribution-varying-pronunciations-example-2-title = mi ke<strong>pe</strong>ken ilo suli.
 contribution-varying-pronunciations-example-2-explanation = [nimi kepeken la kalama "ke" wan li wawa]
 contribution-background-noise-title = kalama pi ijo ante
@@ -1065,10 +1137,13 @@ contribution-background-voices-description-extended = kalama li pakala mute la, 
 contribution-background-voices-example-1-title = mi la soweli ni li suwi. <strong>[jan wan li toki]</strong>
 contribution-background-voices-example-1-explanation = sina li kama anu seme? <strong>[jan ante li toki]</strong>
 contribution-volume-title = wawa kalama
+contribution-volume-description = kalama suli jan li ken ante. kalama awen li pakala tan kalama suli la, o weka. kalama awen li pakala tan kalama lili la, o weka.
+contribution-reader-effects-title = nasin toki jan
 contribution-reader-effects-description = kalama mute la jan li kepeken kalama uta pi nasa ala. kalama li nasa lili la ni kin li ike ala. jan li ken kalama pi wawa mute li ken kalama pi wawa lili li ken kepeken kalama uta pi nasa lili. ale ni li pona. taso ni li ike: jan li kalama musi e nimi; kalama li tan uta jan ala li tan ilo. ni li lon la o weka e kalama ni.
 contribution-just-unsure-title = sina sona ala anu seme?
-see-more = <chevron></chevron> o lukin mute
-see-less = <chevron></chevron> o lukin lili
+contribution-just-unsure-description = lipu ni li jo ala e ijo la, o kepeken pilin pona sina. sina sona ala la, o kepeken nena 'mi sona ala'.
+see-more = <chevron></chevron> o pana lukin e toki mute
+see-less = <chevron></chevron> o weka lukin e toki mute
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1077,8 +1152,8 @@ see-less = <chevron></chevron> o lukin lili
 
 ## HEADER/FOOTER
 
-sc-header-home = tawa lipu sinpin
-sc-header-how-to = nasin seme
+sc-header-home = lipu open
+sc-header-how-to = nasin
 sc-header-add = o pana
 sc-header-review = o pona
 sc-header-rejected = sitelen weka
@@ -1098,24 +1173,29 @@ sc-logout-button = o weka tan ilo
 ## HOME
 
 sc-home-title = kama pona tawa ilo Sentence Collector pi ilo Common Voice
-sc-home-collect-title = o kulupu e sitelen
+sc-home-intro = ilo Sentence Collector li ilo pi <commonVoiceLink>ilo Common Voice</commonVoiceLink>. kepeken ona la jan li ken kama jo e sitelen, li ken pona e sitelen. ilo li ken jo e sitelen mute, li ken pana e ona tawa ilo Common Voice. taso, sitelen ale o tawa jan ale, o open. lon tenpo esun pini la mi pana e sitelen pona ale tawa lipu Common Voice.
+sc-home-collect-title = o pana e sitelen
 sc-home-collect-text = o pana e sitelen pi kepeken open la sina pana e pona.
 sc-home-review-title = o pona e sitelen
-sc-home-review-text = o pona e ni: sitelen o pona kepeken nasin pi sitelen pona
+sc-home-review-text = o lukin e ni: sitelen sin li kepeken nasin pona pi ilo Common Voice anu seme.
 
 ## GENERAL
 
+sc-languages-fetch-error = mi ken ala kama jo e toki. sina ken ala pana. o sin lon tenpo kama.
 
 ## HOW-TO
 
 sc-howto-title = nasin seme?
 sc-howto-addlang-title = o pana e toki sin
-sc-howto-addlang-text = sina kama kepeken sijelo ilo la, sina ken kepeken toki wile sina lon lipu jan.
+sc-howto-addlang-text = sina kama kepeken sijelo ilo la, sina ken pana e ni lon lipu jan: sina sona e toki seme.
 sc-howto-addsen-title = o pana e sitelen sin
-sc-howto-addsen-item-1 = sitelen ale sina o kepeken <wikipediaLink>nasin pana CC0</wikipediaLink>. sina pana e sitelen pi nasin pana ni ala la, o kepeken <cc0WaiverLink>nasin pana ante ni</cc0WaiverLink>. ni la sina ken pana e sitelen pi jan ale ala.
-sc-howto-addsen-item-2 = nanpa la, o pana ala e nanpa lon sitelen pana. ona li ken pakala e toki jan. lon toki ante la, nimi nanpa li ken ante. ni la, nanpa li ken nasa e kulupu sona.
+sc-howto-addsen-item-1 = sitelen ale sina o kepeken <wikipediaLink>nasin pana CC0</wikipediaLink>. sina wile pana e sitelen pi nasin pana ni ala la, jan pali pi sitelen ni li ken ante e nasin pana kepeken <cc0WaiverLink>nasin ni</cc0WaiverLink>.
+sc-howto-addsen-item-2 = nanpa la, o pana ala e sitelen nanpa lon sitelen pana. ona li ken pakala e toki jan. nimi nanpa li ken ante lon toki ante lon tenpo ante. ni li ken nasa tawa ilo.
+sc-howto-addsen-item-3 = sitelen lili, nimi lili. toki pona la, o kepeken ala nimi lili. jan li kepeken sitelen ni: "msa". ni li sitelen "mi sona ala." taso, jan li lukin e "msa" lon ilo Common Voice la, ona li sona ala e ni: nasin seme la mi toki uta e ona? sitelen lili ale en nimi lili ale la, o kepeken ala ona. sina sona e nimi la, o kepeken nimi suli.
+sc-howto-addsen-item-4 = sitelen lili pini la, o kepeken ona lon tenpo lili. toki pona li kepeken ala ni lon insa nimi. sina wile kepeken sitelen lili pini la, ni li ken pona. taso, o kepeken lili ona.
 sc-howto-addsen-item-5 = sitelen pi toki ante. o kepeken ala sitelen pi toki ante. o lukin: sitelen lili “ж” li tan toki Losi. taso, ona li lon ala toki pona. tan ni la, o kepeken ala ona.
 sc-howto-addsen-item-6 = toki li ken jo e <validationRulesLink>nasin pona ante</validationRulesLink>. toki li jo ala e ona la, ona li kepeken nasin pona pi toki Inli.
+sc-howto-addsen-post-1 = mi wile e toki tan tenpo pona sina. kalama ante en nimi ante li pona la, musi pi awen kalama li pona nanpa wan. ni la, o lili e sitelen sina, o pona e sitelen sina.
 sc-howto-cite-title = mi pana sona kepeken nasin seme?
 sc-howto-cite-pre-1 = ni li suli: o pana e lipu pi sona sina. ni la, sina kama jo ike ala. jan ante li ken toki e <copyrightIssuesLink>ike pi sona sina</copyrightIssuesLink>. mi pana e nasin pana:
 sc-howto-cite-item-1 = sina ken pana e nimi nasin: "Common Voice - https://commonvoice.mozilla.org/"
@@ -1130,7 +1210,8 @@ sc-howto-review-criteria-4 = ale li pona la o pilin e nena "o pona".
 sc-howto-review-criteria-5 = sina lukin e pakala la o pilin e nena "o weka". sina sona ala la sina ken tawa sitelen sin.
 sc-howto-review-criteria-6 = sitelen sin li lon ala la, o kama jo, o pana e ona sin!
 sc-howto-findpd-title = o alasa e sitelen pi jan ale
-sc-howto-findpd-subtitle = o alasa e ona kepeken ilo sona linja
+sc-howto-findpd-subtitle = o alasa e ona kepeken kulupu ilo
+sc-howto-findpd-text-2 = o sona e ni: mi wile pana e sitelen ale la, mi wile e ken ni. ni la, sitelen <wikipediaLink>o open, o tawa jan ale</wikipediaLink>. sina sona ala e open sitelen la, o toki tawa jan pali pi sitelen ni. ona li ken pana e sitelen ona tawa jan ale. ni la, ona o tawa <cc0WaiverLink>lipu pi pana open</cc0WaiverLink>. ona li wile ala e ni la, sina ken ala pana e sitelen ni.
 sc-howto-findpd-tips = o sona e ni la, sina ken alasa e sitelen sin:
 sc-howto-findpd-tips-1 = o lukin e kulupu toki, e sitelen toki, e sitelen tawa musi, e ijo ale pi jan toki.
 sc-howto-findpd-tips-2 = toki pi jan lawa en lipu en lipu sona li pona. ale ni li lawa lili la, ona li pona lili.
@@ -1166,7 +1247,7 @@ sc-rejected-none-found = sitelen weka li lon ala.
 ## STATS
 
 sc-stats-title = nanpa pali
-sc-stats-updating = ilo li kama sin…
+sc-stats-updating = ilo li sin e sona…
 sc-stats-error = mi ken ala kama e nanpa pali. o sin lon tenpo kama.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
@@ -1175,7 +1256,7 @@ sc-stats-summary = ilo Common Voice li jo e sitelen { $sentenceCount } lon toki 
 
 ## ADD
 
-sc-submit-err-select-lang = o kepeken toki
+sc-submit-err-select-lang = sina kepeken toki seme?
 sc-submit-err-add-sentences = o pana e sitelen
 sc-submit-err-add-source = o pana e lipu mama.
 sc-submit-err-confirm-pd = o pona e ni: sitelen ni li tawa jan ale.
@@ -1183,18 +1264,18 @@ sc-submit-prompt =
     .message = sina pana ala e sitelen. sina wile ala wile weka?
 sc-submit-title = o pana e sitelen
 sc-submit-select-language =
-    .labelText = o kepeken toki
+    .labelText = sitelen ni li lon toki seme?
 sc-submit-add-sentences = o pana e <wikipediaLink>sitelen pi jan ale</wikipediaLink>
 sc-submit-ph-one-per-line =
-    .placeholder = sitelen wan taso lon linja wan
-sc-submit-from-where = <wikipediaLink>sitelen pi jan ale</wikipediaLink> li tan lipu seme?
+    .placeholder = toki wan taso o lon linja wan
+sc-submit-from-where = <wikipediaLink>sitelen ni pi jan ale</wikipediaLink> li tan lipu seme?
 sc-submit-ph-read-how-to =
     .placeholder = o lukin e lipu pona la, sina sona e nasin pana.
-sc-submit-confirm = ni li lon. sitelen ni li <wikipediaLink>open</wikipediaLink>. mi ken pana e ona.
+sc-submit-confirm = ni li lon: <wikipediaLink>jan ale li ken kepeken</wikipediaLink> sitelen ni. mi ken pana e ona.
 sc-submit-button =
     .submitText = o pana
 sc-submit-filtered = sitelen ni li weka tan ni: ona li pona ala. (o pona e sitelen la o pana e ona):
-sc-submit-guidelines = o lukin e <howToLink>lipu nasin pona</howToLink>.
+sc-submit-guidelines = o lukin e <howToLink>lipu pi nasin pona</howToLink>.
 
 ## ADD LANGUAGE
 
@@ -1254,14 +1335,14 @@ sc-confirm-uploading = mi kama jo e sitelen sina. nanpa sitelen la ni li ken kep
 
 ## LANGUAGE INFO
 
-sc-lang-info-title-total = ale
-sc-lang-info-title-personal = ijo sina
+sc-lang-info-title-total = ale la
+sc-lang-info-title-personal = sina la
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
     { $totalSentences ->
         [0] sitelen ala.
-       *[other] sitelen ale { $totalSentences }.
+       *[other] sitelen { $totalSentences } li lon.
     }
 # Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
@@ -1274,8 +1355,8 @@ sc-lang-info-in-review =
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
-        [0] sitelen ala li lon tawa sina.
-       *[other] sitelen { $unreviewedSentencesByYou } li lon tawa lukin sina.
+        [0] sitelen ala li lon tawa lukin sina.
+       *[other] sina ken lukin e sitelen { $unreviewedSentencesByYou }.
     }
 sc-lang-info-review-now = <reviewLink>o lukin e sitelen!</reviewLink>
 sc-lang-info-add-more = <addLink>o pana e sitelen sin!</addLink>
@@ -1283,15 +1364,15 @@ sc-lang-info-add-more = <addLink>o pana e sitelen sin!</addLink>
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
     { $validatedSentences ->
-        [0] sitelen pona li lon ala.
-       *[other] sitelen pona { $validatedSentences } li lon.
+        [0] sitelen ala li pona.
+       *[other] sitelen { $validatedSentences } li pona.
     }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
-        [0] sitelen weka li lon ala.
-       *[other] sitelen weka { $rejectedSentences } li lon.
+        [0] sitelen ala li weka.
+       *[other] sitelen { $rejectedSentences } li weka.
     }
 
 ## LOGIN
@@ -1310,7 +1391,7 @@ sc-personal-your-languages = toki sina:
 sc-personal-remove-button = o weka
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
-sc-personal-added-by-you = sina pana e sitelen { $sentences }
+sc-personal-added-by-you = sina pana e sitelen { $sentences }.
 sc-personal-not-added = sina pana ala e toki.
 
 ## REVIEW CRITERIA
@@ -1334,10 +1415,10 @@ sc-review-select-language = o kepeken toki la, sina ken lukin e sitelen
 sc-review-no-sentences = sitelen sin li lon ala. <addLink>o pana e sitelen sin lon tenpo ni!</addLink>
 sc-review-form-prompt =
     .message = sina lukin li pana ala e sitelen. sina wile ala wile pali e ni?
-sc-review-form-usage = sina luka tawa poka pi sitelen pini la, sina pona e sitelen. sina luka tawa poka pi sitelen open la, sina ike e sitelen. sina luka tawa sewi la, sina weka e sitelen. o sona e ni: o pana e sona sina!
+sc-review-form-usage = sina luka tawa poka pi sitelen pini (→) la, sina pona e sitelen. sina luka tawa poka pi sitelen open (←) la, sina ike e sitelen. sina luka tawa sewi (↑) la, sina weka e sitelen. o sona e ni: o pana e sona sina!
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
-sc-review-form-source = sitelen li tan: { $sentenceSource }
+sc-review-form-source = sitelen li tan ni: { $sentenceSource }
 sc-review-form-button-reject = o ike
 sc-review-form-button-skip = mi sona ala
 sc-review-form-button-approve = o pona
@@ -1374,7 +1455,6 @@ sc-review-link = o lukin
 
 sc-settings-title = nasin ilo
 sc-settings-ui-language = toki pi ilo ni
-sc-settings-language-translated-warning = lipu li ken jo e wan pi ante toki ala. sina ken ante toki <pontoonLinkLink>lon ilo Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = mi sona ala lon tenpo pini la, o sin e sitelen ni
 sc-settings-skipped-decription = sina lukin e sitelen lon tenpo pini la, sina sona ala e ona. sina sin e sitelen pi sona ala la, sina ken lukin sin e ona. ni li lon toki ale.
 sc-settings-show-all-button = mi sona ala lon tenpo pini la, o sin e sitelen ni

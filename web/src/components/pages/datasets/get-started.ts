@@ -1,8 +1,8 @@
 export default [
   {
+    id: 'nemo',
     title: 'NVIDIA NeMo',
     trademark: '™',
-    nick: 'nemo',
     titleLocalized: false,
     image: './images/nvidia.jpg',
     url: 'https://github.com/NVIDIA/NeMo',
@@ -16,8 +16,8 @@ export default [
     },
   },
   {
+    id: 'deepspeech',
     title: 'DeepSpeech',
-    nick: 'deepspeech',
     titleLocalized: false,
     image: './images/deepspeech.png',
     url: 'https://github.com/mozilla/DeepSpeech',
@@ -30,8 +30,8 @@ export default [
     },
   },
   {
+    id: 'coqui',
     title: 'Coqui',
-    nick: 'coqui',
     titleLocalized: false,
     image: './images/coqui.jpg',
     url: 'https://github.com/coqui-ai/stt',
@@ -43,8 +43,8 @@ export default [
     },
   },
   {
+    id: 'community-playbook',
     title: 'Community Playbook',
-    nick: 'community-playbook',
     titleLocalized: true,
     image: './images/playbook.jpg',
     url: 'https://github.com/common-voice/community-playbook',

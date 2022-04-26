@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Resevit posteloù diwar-benn daeoù, koun
 email-opt-in-privacy-v2 = En ur asantiñ da zegemer posteloù e tiskouezit bezañ a-du evit ma verfe Mozilla an titouroù-mañ evel displeget e <privacyLink>Politikerezh a-fed buhez prevez</privacyLink> Mozilla.
 indicates-required = * Maeziennoù azgoulennet
 not-available-abbreviation = Dihegerz
+banner-error-slow-1 = Hon digarezit, gorrek eo Common Voice. Trugarez evit hoc’h interest.
+banner-error-slow-2 = Kalz a dud a zo war al lec’hienn ha klask a reomp diskoulmañ ar c'hudennoù.
+banner-error-slow-link = Pajenn statud
+error-something-went-wrong = Hon digarezit, degouezhet ez eus bet ur fazi
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -67,6 +71,7 @@ fy-NL = Frizeg
 ga-IE = Iwerzhoneg
 gl = Galizeg
 gn = Gwaranieg
+gom = Goan Konkani
 ha = Haousaeg
 he = Hebraeg
 hi = Hindeg
@@ -90,11 +95,14 @@ kab = Kabileg
 kbd = Kabardeg
 ki = Kikuyu
 kk = Kazakheg
+km = Khmer
 kmr = Kurdeg Kurmanji
+knn = Konkani (devanagari)
 ko = Koreaneg
 kpv = Komieg-zirieg
 kw = Kerneveureg
 ky = Kirgizeg
+lb = Luksembourgeg
 lg = Gandaeg
 lij = Ligureg
 lt = Lituaneg
@@ -106,6 +114,7 @@ mhr = Marieg ar pradoù
 mk = Makedoneg
 ml = Malayalameg
 mn = Mongoleg
+mni = Meiteieg
 mos = Mosieg
 mr = Marateg
 mrj = Marieg ar menez
@@ -128,6 +137,7 @@ pl = Poloneg
 ps = Pachtoeg
 pt = Portugaleg
 quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romañcheg ar sursilvan
 rm-vallader = Romañcheg ar vallader
 ro = Roumaneg
@@ -140,6 +150,7 @@ scn = Sikilianeg
 shi = Tacheliteg
 si = Sinhaleg
 sk = Slovakeg
+skr = Saraiki
 sl = Sloveneg
 so = Somalieg
 sq = Albaneg
@@ -153,7 +164,9 @@ tg = Tadjikeg
 th = Thailandeg
 ti = Tigrinya
 tig = Tigreeg
+tk = Turkmen
 tl = Tagalogeg
+tok = Toki Pona
 tr = Turkeg
 tt = Tatareg
 tw = Twieg
@@ -337,8 +350,16 @@ profile-form-native-language =
     .label = Yezh vamm
 profile-form-additional-language =
     .label = Yezh ouzhpenn
+profile-form-language =
+    .label = Yezh
+profile-form-variant =
+    .label = Peseurt stumm eus { $language } a gomzit?
+profile-form-variant-default-value = Stumm ebet dibabet
 profile-form-accent =
     .label = Pouez-mouezh
+profile-form-custom-accent-help-text =
+    .label = Penaos e fellfe deoc’h deskrivañ ho pouez-mouezh?
+profile-form-custom-accent-placeholder-2 = Kregiñ da skrivañ evit deskrivañ ho pouez-mouezh
 profile-form-age =
     .label = Oad
 profile-form-gender-2 =
@@ -349,6 +370,7 @@ hidden = Kuzhet
 visible = Hewel
 native-language =
     .label = Yezh c’henidik
+profile-form-add-accent = Ouzhpennañ ar pouez-mouezh personelaet nevez "{ $inputValue }"
 profile-form-submit-save = Enrollañ
 profile-form-submit-saved = Enrollet
 male = Paotr
@@ -382,6 +404,10 @@ skip-submission-description = Tremenet e vo ar gasadenn evezhiadennoù ur wech k
 skip-submission-note = Evezhiadenn: Ezhomm ho po da ziuzañ c’hoazh etre Komz pe selaou evit cheñch ho toare kendeurel.
 off = Diweredekaet
 on = Gweredekaet
+help-accent = Ezhomm sikour gant ar pouez-mouezh?
+help-accent-explanation = Ar pouez-mouezh eo an doare ma distripit ar gerioù. Gallout a ra bezañ stummet dre al lec'h ma vevit, pe c'hoazh gant yezhoù pe abegoù all. Gallout a rit reiñ titouroù ouzhpenn amañ.
+help-variants = Ezhomm sikour gant an adstummoù?
+help-variants-explanation = An adstummoù eo stummoù resis ur yezh. Reoù boutin en ur gumuniezh pe ul lec’h resis, da skouer. Anvet eo rannyezh a-wechoù.
 
 ## Profile - Email
 
@@ -392,6 +418,7 @@ gravatar_not_found = Gravatar ebet kavet evit ho postel
 file_too_large = Re vras eo ar restr diuzet
 avatar-uploaded = Avatar ezkarget
 max-file-size = { $kb }kb max
+remove-avatar = Dilemel an Avatar
 
 ## Profile - Email
 
@@ -469,6 +496,7 @@ how-does-it-work-text = Sevel a reomp un teskad roadennoù mouezhioù a-stroll. 
 
 ## How does it work section
 
+about-sentence-collection-title = Dastumadeg frazennoù
 about-speak = Komz
 about-speak-text = Ar gendaolerien a enroll klipoù mouezh en ul lenn e-touez un hollad a frazennoù roet.
 about-listen-queue = Roll gortoz
@@ -669,6 +697,9 @@ request-language-success-title = Goulenn yezh kaset gant berzh, trugarez vras de
 request-language-success-content = Mont a raimp e darempred ganeoc’h a-barzh nemeur gant muioc’h a ditouroù war ar mod da ouzhpennañ ho yezh da gCommon Voice.
 select-language = Diuzañ ur yezh...
 other-language = Yezhoù all
+
+## Request Language Pages
+
 
 ## Languages Overview
 

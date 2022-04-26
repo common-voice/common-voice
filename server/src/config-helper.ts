@@ -1,5 +1,6 @@
 import * as fs from 'fs';
 import { S3, SSM } from 'aws-sdk';
+import { SESClientConfig } from '@aws-sdk/client-ses';
 import { config } from 'dotenv';
 
 if (process.env.DOTENV_CONFIG_PATH) {
@@ -25,11 +26,13 @@ export type CommonVoiceConfig = {
   MYSQLREPLICAPORT?: number;
   CLIP_BUCKET_NAME: string;
   DATASET_BUCKET_NAME: string;
-  BUCKET_LOCATION: string;
+  AWS_REGION: string;
   ENVIRONMENT: string;
   RELEASE_VERSION?: string;
   SECRET: string;
+  AWS_SES_CONFIG: SESClientConfig;
   S3_CONFIG: S3.Types.ClientConfiguration;
+  S3_LOCAL_DEVELOPMENT_ENDPOINT?: string;
   CINCHY_CONFIG: S3.Types.ClientConfiguration;
   CINCHY_ENABLED: boolean;
   SSM_ENABLED: boolean;
@@ -44,24 +47,28 @@ export type CommonVoiceConfig = {
   IMPORT_SENTENCES: boolean;
   REDIS_URL: string;
   LAST_DATASET: string;
-  SENTRY_DSN: string;
+  SENTRY_DSN_SERVER: string;
   MAINTENANCE_MODE: boolean;
-  BENCHMARK_LIVE: boolean;
   DEBUG: boolean;
   FLAG_BUFFER_STREAM_ENABLED: boolean;
+  EMAIL_USERNAME_FROM: string;
+  EMAIL_USERNAME_TO: string;
+  GOOGLE_RECAPTCHA_SECRET_KEY: string;
 };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const castDefault = (value: string): any => value;
 const castBoolean = (value: string): boolean => value === 'true';
 const castInt = (value: string): number => parseInt(value);
 const castJson = (value: string): object => JSON.parse(value);
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const configEntry = (key: string, defaultValue: any, cast = castDefault) =>
   process.env[key] ? cast(process.env[key]) : defaultValue;
 
 const BASE_CONFIG: CommonVoiceConfig = {
   VERSION: configEntry('CV_VERSION', null), // Migration number (e.g. 20171205171637), null = most recent
   RELEASE_VERSION: configEntry('GIT_COMMIT_SHA', null), // X-Release-Version header
-  PROD: configEntry('CV_PROD', false, castBoolean), // Set to true for staging and production.
+  PROD: configEntry('CV_PROD', true, castBoolean), // Set to true for staging and production.
   SERVER_PORT: configEntry('CV_SERVER_PORT', 9000, castInt),
   DB_ROOT_USER: configEntry('CV_DB_ROOT_USER', 'root'), // For running schema migrations.
   DB_ROOT_PASS: configEntry('CV_DB_ROOT_PASS', ''),
@@ -77,11 +84,16 @@ const BASE_CONFIG: CommonVoiceConfig = {
     'CV_DATASET_BUCKET_NAME',
     'common-voice-datasets'
   ),
-  BUCKET_LOCATION: configEntry('CV_BUCKET_LOCATION', 'us-west-2'),
-  ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'default'),
+  ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'prod'),
   SECRET: configEntry('CV_SECRET', 'super-secure-secret'),
   ADMIN_EMAILS: configEntry('CV_ADMIN_EMAILS', null),
+  AWS_REGION: configEntry('CV_AWS_REGION', 'us-west-2'),
+  AWS_SES_CONFIG: configEntry('CV_AWS_SES_CONFIG', {}, castJson),
   S3_CONFIG: configEntry('CV_S3_CONFIG', {}, castJson),
+  S3_LOCAL_DEVELOPMENT_ENDPOINT: configEntry(
+    'CV_S3_LOCAL_DEVELOPMENT_ENDPOINT',
+    null
+  ),
   CINCHY_CONFIG: configEntry('CV_CINCHY_CONFIG', {}, castJson),
   CINCHY_ENABLED: configEntry('CV_CINCHY_ENABLED', false, castBoolean),
   SSM_ENABLED: configEntry('CV_SSM_ENABLED', false, castBoolean),
@@ -94,15 +106,20 @@ const BASE_CONFIG: CommonVoiceConfig = {
   IMPORT_SENTENCES: configEntry('CV_IMPORT_SENTENCES', true, castBoolean),
   REDIS_URL: configEntry('CV_REDIS_URL', null),
   LAST_DATASET: configEntry('CV_LAST_DATASET', '2019-06-12'),
-  SENTRY_DSN: configEntry('CV_SENTRY_DSN', ''),
+  SENTRY_DSN_SERVER: configEntry('CV_SENTRY_DSN_SERVER', ''),
   MAINTENANCE_MODE: configEntry('CV_MAINTENANCE_MODE', false, castBoolean),
   BASKET_API_KEY: configEntry('CV_BASKET_API_KEY', null),
-  BENCHMARK_LIVE: configEntry('CV_BENCHMARK_LIVE', false, castBoolean),
   DEBUG: configEntry('CV_DEBUG', false, castBoolean),
   FLAG_BUFFER_STREAM_ENABLED: configEntry(
     'CV_FLAG_BUFFER_STREAM_ENABLED',
     false,
     castBoolean
+  ),
+  EMAIL_USERNAME_FROM: configEntry('CV_EMAIL_USERNAME_FROM', null),
+  EMAIL_USERNAME_TO: configEntry('CV_EMAIL_USERNAME_TO', null),
+  GOOGLE_RECAPTCHA_SECRET_KEY: configEntry(
+    'CV_GOOGLE_RECAPTCHA_SECRET_KEY',
+    null
   ),
 };
 
@@ -150,7 +167,7 @@ export async function getSecrets(): Promise<Partial<CommonVoiceConfig>> {
   return loadedSecrets;
 }
 
-export function injectConfig(config: any) {
+export function injectConfig(config: Partial<CommonVoiceConfig>) {
   injectedConfig = { ...BASE_CONFIG, ...config };
 }
 
@@ -166,7 +183,7 @@ export function getConfig(): CommonVoiceConfig {
   let fileConfig = null;
 
   try {
-    let config_path = process.env.SERVER_CONFIG_PATH || './config.json';
+    const config_path = process.env.SERVER_CONFIG_PATH || './config.json';
     fileConfig = JSON.parse(fs.readFileSync(config_path, 'utf-8'));
   } catch (err) {
     console.error(

@@ -1,0 +1,28 @@
+.page-text-content {
+    h1,
+    h2,
+    h3,
+    p,
+    ul {
+        margin-bottom: 1em;
+    }
+
+    ul {
+        margin-left: 2em;
+    }
+
+    li {
+        margin-bottom: 0.5em;
+    }
+
+    strong {
+        font-weight: 600;
+    }
+
+    a {
+        color: var(--link-color);
+        text-decoration: underline;
+        text-underline-offset: 0.15em;
+        text-decoration-thickness: 2px;
+    }
+}

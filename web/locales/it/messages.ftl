@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Ricevi email come promemoria di sfide e o
 email-opt-in-privacy-v2 = Scegliendo di ricevere le email, accetti che Mozilla utilizzi queste informazioni secondo quanto riportato nell’<privacyLink>informativa sulla privacy</privacyLink>.
 indicates-required = * indica un campo obbligatorio
 not-available-abbreviation = N.D.
+banner-error-slow-1 = Ci dispiace, il funzionamento di Common Voice è rallentato. Grazie per il tuo interesse.
+banner-error-slow-2 = Stiamo ricevendo molto traffico e stiamo attualmente analizzando il problema.
+banner-error-slow-link = Pagina di stato
+error-something-went-wrong = Siamo spiacenti, si è verificato un errore
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -334,6 +338,9 @@ profile-form-additional-language =
     .label = Altra lingua
 profile-form-language =
     .label = Lingua
+profile-form-variant =
+    .label = Quale variante della lingua { $language } parli?
+profile-form-variant-default-value = Nessuna variante selezionata
 profile-form-accent =
     .label = Accento
 profile-form-custom-accent-help-text =
@@ -385,6 +392,8 @@ off = Disattiva
 on = Attiva
 help-accent = Hai bisogno di aiuto con l’accento?
 help-accent-explanation = Il tuo accento è il modo in cui pronunci le parole. Può essere condizionato dal luogo in cui hai vissuto, da quali altre lingue parli e da molti altri fattori. Qui puoi condividere qualsiasi informazione che ritieni pertinente.
+help-variants = Hai bisogno di aiuto con le varianti?
+help-variants-explanation = Le varianti sono una forma specifica di una lingua, ad esempio condivisa da coloro che vivono in determinate aree geografiche o comunità. A volte queste varianti vengono chiamate dialetti.
 
 ## Profile - Email
 
@@ -395,6 +404,7 @@ gravatar_not_found = Nessun profilo Gravatar associato alla tua email
 file_too_large = Il file selezionato è troppo grande
 avatar-uploaded = Avatar caricato
 max-file-size = max { $kb } kb
+remove-avatar = Rimuovi avatar
 
 ## Profile - Email
 
@@ -514,6 +524,7 @@ about-get-involved-text-2 =
     Vuoi aiutarci a migliorare Common Voice?
     Ottimo! Contattaci via email o sul forum <discourseLink>Discourse</discourseLink>, segnala problemi del sito attraverso <githubLink>GitHub</githubLink> o unisciti alla chat della comunità su <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Come posso rimanere aggiornato?
+about-stay-in-touch-button = Registrati
 about-stay-in-touch-text-1 = <emailFragment>Iscriviti</emailFragment> alla nostra mailing list per scoprire come prendere parte a campagne, eventi e collaborare allo sviluppo di nuove funzioni per Common Voice.
 about-stay-in-touch-text-2 = Puoi incontrare altri collaboratori delle comunità linguistiche Mozilla in <discourseLink>Discourse</discourseLink> per discutere di argomenti specifici, oppure <matrixLink>Matrix</matrixLink> per ottenere rapidamente aiuto.
 about-nav-why-common-voice = Perché?
@@ -663,6 +674,7 @@ review-delete-recordings = Cancella le mie registrazioni
 
 ## Datasets Page
 
+datasets-heading = Dataset
 datasets-headline = Stiamo realizzando un dataset di voci multilingua e open source che chiunque può utilizzare per migliorare applicazioni munite di riconoscimento vocale.
 datasets-positioning =
     Crediamo che mettere in circolazione dataset di voci pubblici di grandi dimensioni possa promuovere innovazione e sana concorrenza commerciale tra le tecnologie di apprendimento automatico basate sul riconoscimento vocale.
@@ -746,6 +758,38 @@ request-language-success-content = Presto riceverai istruzioni su come aggiunger
 select-language = Seleziona una lingua…
 other-language = Altra lingua
 
+## Request Language Pages
+
+request-language-heading = Chiedi informazioni su una nuova lingua
+request-language-explanation-1 =
+    Controlla se la tua lingua è disponibile nella <languagesPageLink>pagina Lingue di Common Voice</languagesPageLink>.
+    In caso contrario, compila questo modulo e <strong> ti invieremo un’email che spiega come aggiungerla</strong>.
+request-language-explanation-2 =
+    Inoltre <strong>comunicheremo al nostro responsabile della comunità il tuo interesse</strong>, in modo che possa fornirti
+    ulteriore supporto o le informazioni di cui hai bisogno.
+request-language-form-email =
+    .label = Il tuo indirizzo email
+request-language-form-info =
+    .label = Informazioni sulla lingua
+request-language-form-info-explanation =
+    Aggiungi quante più informazioni possibili sulla lingua. Questo
+    potrebbe includere:
+request-language-form-info-explanation-list-1 = Nomi della tua lingua
+request-language-form-info-explanation-list-2 = <isoCodeLink>Codici ISO</isoCodeLink>, se conosciuti
+request-language-form-info-explanation-list-3 = Link a siti web che possono aiutarci a conoscere meglio la lingua
+request-language-google-recaptcha-required = Per procedere è necessario completare il reCAPTCHA
+request-language-google-recaptcha-error = Si è verificato un errore con reCAPTCHA. Riprova.
+# Success page
+request-language-success-heading = Grazie! Hai inviato la richiesta per una nuova lingua
+request-language-success-list-1 =
+    Dovresti ricevere a breve un’email contenente
+    i passaggi per aggiungere la tua lingua a Common Voice
+request-language-success-list-2 = Il nostro responsabile della comunità ti contatterà per offrirti supporto aggiuntivo e per farti sapere se esiste già una comunità attiva per la tua lingua
+request-language-success-list-3 = Se non ricevi una risposta entro un paio di giorni, scrivici all’indirizzo email <emailLink>{ $email }</emailLink> e ti ricontatteremo.
+request-language-error =
+    Può darsi che non abbiamo ricevuto la tua richiesta. Invia un’email direttamente all’indirizzo
+    <emailLink>{ $email }</emailLink> e ti risponderemo.
+
 ## Languages Overview
 
 language-section-in-progress = In corso
@@ -811,8 +855,14 @@ listen-again-instruction = Ottimo lavoro! <playIcon></playIcon> Riascolta la reg
 listen-3rd-time-instruction = 2 andate <playIcon></playIcon>, avanti un’altra!
 listen-last-time-instruction = <playIcon></playIcon> L’ultima!
 listen-empty-state = Abbiamo esaurito le registrazioni da convalidare in questa lingua…
+listen-loading-error =
+    Non è stato possibile caricare alcuna registrazione audio da ascoltare.
+    Riprova più tardi.
 speak-empty-state = Abbiamo esaurito le frasi da registrare in questa lingua…
 speak-empty-state-cta = Contribuisci con altre frasi
+speak-loading-error =
+    Non è stato possibile caricare alcuna frase da registrare.
+    Riprova più tardi.
 record-button-label = Registra la tua voce
 share-title-new = <bold>Aiutaci</bold> a trovare altre voci
 keep-track-profile = Tieni traccia dei progressi con un profilo
@@ -1414,7 +1464,6 @@ sc-review-link = Convalida
 
 sc-settings-title = Impostazioni
 sc-settings-ui-language = Lingua dell’interfaccia
-sc-settings-language-translated-warning = Le pagine per questa lingua potrebbero non essere tradotte completamente. Puoi aiutare con la traduzione <pontoonLinkLink>su Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Ripristina le frasi saltate
 sc-settings-skipped-decription = Mentre stavi convalidando hai saltato delle frasi. Il ripristino delle frasi saltate mostrerà di nuovo tutte le frasi saltate. Questo non dipende dalla lingua.
 sc-settings-show-all-button = Mostra di nuovo tutte le frasi saltate

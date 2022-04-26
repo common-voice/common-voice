@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Ontvang e-mailberichten zoals herinnering
 email-opt-in-privacy-v2 = Door u in te schrijven voor het ontvangen van e-mailberichten, verklaart u dat u akkoord gaat met het verwerken van deze informatie door Mozilla in overeenstemming met Mozilla’s <privacyLink>Privacybeleid</privacyLink>.
 indicates-required = * Geeft verplicht veld aan
 not-available-abbreviation = NB
+banner-error-slow-1 = Sorry, Common Voice werkt langzaam. Bedankt voor uw interesse.
+banner-error-slow-2 = We ontvangen veel verkeer en zijn momenteel de problemen aan het onderzoeken.
+banner-error-slow-link = Statuspagina
+error-something-went-wrong = Sorry, er is iets misgegaan
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -336,6 +340,9 @@ profile-form-additional-language =
     .label = Extra taal
 profile-form-language =
     .label = Taal
+profile-form-variant =
+    .label = Welke variant van { $language } spreekt u?
+profile-form-variant-default-value = Geen variant geselecteerd
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
@@ -387,6 +394,8 @@ off = Uit
 on = Aan
 help-accent = Hulp nodig met accent?
 help-accent-explanation = Uw accent is de manier waarop u woorden uitspreekt. Het kan worden gevormd door waar u hebt gewoond, welke andere talen u spreekt en tal van andere factoren. U kunt hier alle informatie delen die u relevant vindt.
+help-variants = Hulp nodig bij varianten?
+help-variants-explanation = Varianten zijn een specifieke vorm van een taal – bijvoorbeeld gesproken door mensen die in een gebied of gemeenschap wonen. Soms worden dit dialecten genoemd.
 
 ## Profile - Email
 
@@ -397,6 +406,7 @@ gravatar_not_found = Geen gravatar voor uw e-mailadres gevonden
 file_too_large = Het geselecteerde bestand is te groot
 avatar-uploaded = Avatar geüpload
 max-file-size = max. { $kb }kb
+remove-avatar = Avatar verwijderen
 
 ## Profile - Email
 
@@ -523,6 +533,7 @@ about-get-involved-text-2 =
     forums, meld problemen met de website via <githubLink>GitHub</githubLink>, of doe
     mee met de gemeenschapschat op <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Hoe houd ik contact?
+about-stay-in-touch-button = Registreren
 about-stay-in-touch-text-1 = <emailFragment>Schrijf u in</emailFragment> voor onze e-maillijst om te leren hoe u kunt deelnemen aan campagnes, evenementen en gezamenlijke ontwerpfuncties op Common Voice.
 about-stay-in-touch-text-2 = U kunt anderen in de Mozilla-taalgemeenschappen ontmoeten door lid te worden van <discourseLink>Discourse</discourseLink> voor actuele gesprekken, of <matrixLink>Matrix</matrixLink> voor snel advies.
 about-nav-why-common-voice = Waarom?
@@ -674,6 +685,7 @@ review-delete-recordings = Mijn opnamen verwijderen
 
 ## Datasets Page
 
+datasets-heading = Gegevenssets
 datasets-headline = We bouwen een opensource, meertalige spraakgegevensset die iedereen kan gebruiken om spraaktoepassingen te trainen.
 datasets-positioning =
     We geloven dat grote, openbare spraakgegevenssets voor innovatie en gezonde commerciële competitie in het veld van geautomatiseerd lerende spraaktechnologie zal zorgen.
@@ -758,6 +770,47 @@ request-language-success-content = We nemen binnenkort contact op met meer infor
 select-language = Selecteer een taal…
 other-language = Andere taal
 
+## Request Language Pages
+
+request-language-heading = Navraag doen naar een nieuwe taal
+request-language-explanation-1 =
+    Controleer of uw taal wordt vermeld op de
+    <languagesPageLink>Common Voice-talenpagina</languagesPageLink>.
+    Zo niet, vul dan dit formulier in en we <strong>sturen u een handig e-mailbericht
+    waarin wordt uitgelegd hoe u uw taal kunt laten opzetten</strong>.
+request-language-explanation-2 =
+    We zullen ook <strong>onze gemeenschapsmanager laten weten
+    dat u geïnteresseerd bent</strong>, zodat ze u eventuele
+    extra ondersteuning of informatie die u nodig hebt kunnen geven.
+request-language-form-email =
+    .label = Uw e-mailadres
+request-language-form-info =
+    .label = Informatie over de taal
+request-language-form-info-explanation =
+    Voeg zoveel mogelijk informatie over de taal toe. Dit
+    zou kunnen zijn:
+request-language-form-info-explanation-list-1 = Namen van uw taal
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-codes</isoCodeLink>, indien bekend
+request-language-form-info-explanation-list-3 = Koppelingen naar websites die ons kunnen helpen de taal te begrijpen
+request-language-google-recaptcha-required = reCAPTCHA is vereist als u verder wilt gaan
+request-language-google-recaptcha-error = Er is iets misgegaan met reCAPTCHA. Probeer het opnieuw.
+# Success page
+request-language-success-heading = Bedankt! U hebt een nieuwe taalaanvraag verzonden
+request-language-success-list-1 =
+    U zou binnenkort een e-mailbericht moeten ontvangen met uitleg
+    over de stappen om uw taal aan Common Voice toe te voegen
+request-language-success-list-2 =
+    Onze gemeenschapsmanager zal contact met u opnemen om
+    extra ondersteuning aan te bieden, en om u te laten weten of er
+    al een gemeenschap is die aan uw taal werkt
+request-language-success-list-3 =
+    Als u niet binnen een paar dagen iets van ons hoort,
+    neem dan contact op via <emailLink>{ $email }</emailLink>
+    en we zullen daarop reageren!
+request-language-error =
+    Mogelijk hebben we dat verzoek niet ontvangen. Stuur ons een e-mailbericht direct
+    op <emailLink>{ $email }</emailLink> en we nemen contact met u op!
+
 ## Languages Overview
 
 language-section-in-progress = In uitvoering
@@ -823,8 +876,14 @@ listen-again-instruction = Goed werk! <playIcon></playIcon> Luister opnieuw wann
 listen-3rd-time-instruction = 2 gedaan, ga zo door! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> De laatste!
 listen-empty-state = We hebben in deze taal geen te valideren fragmenten meer…
+listen-loading-error =
+    We kunnen geen audiofragmenten voor u ophalen om naar te luisteren.
+    Probeer het later nog eens.
 speak-empty-state = We hebben in deze taal geen op te nemen zinnen meer…
 speak-empty-state-cta = Zinnen bijdragen
+speak-loading-error =
+    We kunnen geen zinnen voor u ophalen om uit te spreken.
+    Probeer het later nog eens.
 record-button-label = Uw stem opnemen
 share-title-new = <bold>Help ons</bold> meer stemmen te vinden
 keep-track-profile = Houd uw voortgang bij met een profiel

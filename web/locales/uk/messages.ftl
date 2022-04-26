@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Отримувати такі листи,
 email-opt-in-privacy-v2 = Погоджуючись отримувати листи, ви заявляєте, що згодні з тим, як Mozilla обробляє цю інформацію, згідно з <privacyLink>Політикою приватності</privacyLink> Mozilla.
 indicates-required = * поля, обов'язкові для заповнення
 not-available-abbreviation = Недоступно
+banner-error-slow-1 = На жаль, Common Voice працює повільно. Дякуємо за зацікавленість.
+banner-error-slow-2 = Наш сервіс перевантажено вебтрафіком. Ми досліджуємо проблему.
+banner-error-slow-link = Сторінка стану
+error-something-went-wrong = Перепрошуємо, щось пішло не так
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -350,6 +354,9 @@ profile-form-additional-language =
     .label = Додаткова мова
 profile-form-language =
     .label = Мова
+profile-form-variant =
+    .label = Яким варіантом { $language } ви розмовляєте?
+profile-form-variant-default-value = Не вибрано жодного варіанта
 profile-form-accent =
     .label = Акцент
 profile-form-custom-accent-help-text =
@@ -401,6 +408,8 @@ off = Вимкнено
 on = Увімкнено
 help-accent = Потрібна допомога з акцентом?
 help-accent-explanation = Ваш акцент — це те, як ви вимовляєте слова. Він може залежати від того, де ви проживали, якими іншими мовами ви володієте та багатьма іншими факторами. Тут ви можете поділитися будь-якою інформацією, яку вважаєте необхідною.
+help-variants = Потрібна допомога з варіантами?
+help-variants-explanation = Варіанти — це специфічна форма мови, якою, наприклад, спілкуються ті, хто живе в певній місцевості чи спільноті. Іноді їх називають діалектами.
 
 ## Profile - Email
 
@@ -411,6 +420,7 @@ gravatar_not_found = Для вашої електронної пошти не з
 file_too_large = Обраний файл надто великий
 avatar-uploaded = Аватар вивантажено
 max-file-size = До { $kb }кб
+remove-avatar = Вилучити аватар
 
 ## Profile - Email
 
@@ -537,6 +547,7 @@ about-get-involved-text-2 =
     повідомляйте про проблеми з сайтом на <githubLink>GitHub</githubLink>,
     або приєднуйтеся до чату спільноти <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Як мені залишатися на зв’язку?
+about-stay-in-touch-button = Зареєструватись
 about-stay-in-touch-text-1 = <emailFragment>Приєднуйтеся</emailFragment> до нашого списку розсилки, щоб дізнатися, як ви можете брати участь у кампаніях, подіях та спільній розробці можливостей на Common Voice.
 about-stay-in-touch-text-2 = Ви можете познайомитися з іншими в мовних спільнотах Mozilla, приєднавшись до <discourseLink>Discourse</discourseLink> для актуальних розмов або до <matrixLink>Matrix</matrixLink> для отримання швидких порад.
 about-nav-why-common-voice = Чому?
@@ -688,6 +699,7 @@ review-delete-recordings = Видалити мої записи
 
 ## Datasets Page
 
+datasets-heading = Набори даних
 datasets-headline = Ми створюємо багатомовний набір даних із відкритим вихідним кодом, який може використовувати будь-хто для підготовки додатків з підтримкою мовлення.
 datasets-positioning =
     Ми вважаємо, що великі, загальнодоступні набори голосових даних сприятимуть інноваціям і здоровій комерційній конкуренції в технології мовлення на основі машинного навчання.
@@ -772,6 +784,47 @@ request-language-success-content = Ми дуже скоро зв'яжемося 
 select-language = Оберіть мову...
 other-language = Інша мова
 
+## Request Language Pages
+
+request-language-heading = Запитайте додавання нової мови
+request-language-explanation-1 =
+    Перевірте, чи є ваша мова в списку на
+    <languagesPageLink>Сторінці мов Common Voice</languagesPageLink>.
+    Якщо ні, заповніть цю форму, і ми <strong>надішлемо вам електронний лист
+    з поясненнями, як налаштувати мову</strong>.
+request-language-explanation-2 =
+    Ми також <strong>повідомимо про це нашого менеджера спільноти
+    про вашу зацікавленість</strong>, щоб вони могли надати вам будь-яку
+    додаткову підтримку або інформацію, яка може знадобитися.
+request-language-form-email =
+    .label = Ваша адреса електронної пошти
+request-language-form-info =
+    .label = Інформація про мову
+request-language-form-info-explanation =
+    Додайте якомога більше інформації про мову. Це
+    може включати:
+request-language-form-info-explanation-list-1 = Назви вашої мови
+request-language-form-info-explanation-list-2 = <isoCodeLink>Коди ISO</isoCodeLink>, якщо відомі
+request-language-form-info-explanation-list-3 = Посилання на вебсайти, які можуть допомогти нам зрозуміти мову
+request-language-google-recaptcha-required = reCAPTCHA необхідна, якщо ви хочете продовжити
+request-language-google-recaptcha-error = Щось пішло не так із reCAPTCHA. Спробуйте знову.
+# Success page
+request-language-success-heading = Дякуємо! Ви надіслали запит для додавання нової мови
+request-language-success-list-1 =
+    Невдовзі ви отримаєте електронний лист із поясненнями
+    як додати вашу мову до Common Voice
+request-language-success-list-2 =
+    Наш менеджер спільноти зв’яжеться з вами, щоб запропонувати
+    додаткову підтримку та повідомить вас про її наявність
+    спільнота, яка працює над вашою мовою
+request-language-success-list-3 =
+    Якщо ви не отримаєте від нас повідомлення протягом кількох днів,
+    зв’яжіться за адресою <emailLink>{ $email }</emailLink>
+    і ми зв'яжемося з вами!
+request-language-error =
+    Можливо, ми не отримали цього запиту. Будь ласка, напишіть нам безпосередньо
+    на <emailLink>{ $email }</emailLink>, і ми зв’яжемося з вами!
+
 ## Languages Overview
 
 language-section-in-progress = В процесі
@@ -838,8 +891,14 @@ listen-again-instruction = Чудова робота! <playIcon></playIcon> Пр
 listen-3rd-time-instruction = Залишилось 2 <playIcon></playIcon>, продовжуйте!
 listen-last-time-instruction = <playIcon></playIcon> Останній!
 listen-empty-state = У нас закінчилися записи для перевірки цією мовою...
+listen-loading-error =
+    Нам не вдалося отримати аудіокліпи для прослуховування.
+    Будь ласка, спробуйте пізніше.
 speak-empty-state = У нас закінчилися речення для запису цією мовою ...
 speak-empty-state-cta = Запропонуйте свої речення
+speak-loading-error =
+    Нам не вдалося знайти жодних речень для вас.
+    Будь ласка, спробуйте пізніше.
 record-button-label = Запишіть свій голос
 share-title-new = <bold>Допоможіть нам</bold> знайти більше голосів
 keep-track-profile = Слідкуйте за своїм прогресом за допомогою профілю

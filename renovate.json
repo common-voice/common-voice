@@ -1,0 +1,14 @@
+{
+  "extends": ["config:base"],
+  "labels": ["Dependencies"],
+  "dependencyDashboardLabels": ["Dependencies"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true,
+      "automergeType": "branch",
+      "ignoreTests": false
+    }
+  ]
+}
