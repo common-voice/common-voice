@@ -55,4 +55,6 @@ const About: React.ComponentType = React.memo(() => {
   );
 });
 
+About.displayName = 'About';
+
 export default About;

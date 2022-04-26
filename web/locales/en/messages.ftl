@@ -578,10 +578,27 @@ about-playbook-what-is-language-content-3 = Some languages have enormous variati
 
 ## How do I add a language
 about-playbook-how-add-language = How do I add a language?
-about-playbook-how-add-language-content-1 = First, check if your language <languageLink>already exists</languageLink>. If it doesn’t you need to <strong>translate the site and collect sentences</strong>.
-about-playbook-how-add-language-content-2 = <strong>To translate the site</strong> - get <translateVideo>set up</translateVideo> on <pontoonLink>Pontoon</pontoonLink>. Pontoon has lots of languages, but if it doesn’t have yours you can <pontoonRequestLink>request it</pontoonRequestLink>. Then ask <repoLink>via GitHub</repoLink> to have the Common Voice project made available for the language. See more on <localizationFragment>site translation</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>To collect sentences</strong> - <scVideo>set up</scVideo> on <scLink>Sentence Collector</scLink>.
-about-playbook-how-add-language-content-4 = You can <scLinkAdd>add small numbers</scLinkAdd> of sentences here, or you can do <bulkImportDocsLink>bulk imports</bulkImportDocsLink> via a Github request. Remember that sentences need to be <licenseLink>CC0 (or public domain)</licenseLink>, or you can write your own. See more on <scFragment>sentence collection</scFragment>.
+about-playbook-how-add-language-content-1 =
+    First, check if your language <languageLink>already exists</languageLink>.
+    If it isn’t, you can <languageRequestLink>ask about adding your language</languageRequestLink>.
+    There are two stages. Translating the site, and collecting sentences
+about-playbook-how-add-language-translating-heading = Translating the site
+about-playbook-how-add-language-translating-content-1 =
+    <translateVideoLink>Watch our guide on how to use Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    We use a Mozilla tool called <pontoonLink>Pontoon</pontoonLink> for translations. Pontoon has lots of languages,
+    but if it doesn’t have yours you can <pontoonRequestLink>request for your language to be added</pontoonRequestLink>.
+    Then, to make the language available on the Common Voice project,
+    <githubRepoLink>request the new language on GitHub</githubRepoLink>. <localizationFragment>See more on site translation</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Collecting sentences
+about-playbook-how-add-language-collecting-sentences-content-1 =
+    <sentenceCollectorVideo>Watch our guide on using the Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    You can <sentenceCollectorLinkAdd>add small numbers of sentences</sentenceCollectorLinkAdd>,
+    or you can do <bulkImportDocsLink>bulk imports using Github</bulkImportDocsLink>.
+    Remember that sentences need to be <licenseLink>CC0 (or public domain)</licenseLink>, or you can write your own.
+about-playbook-how-add-language-collecting-sentences-content-3 =
+    <sentenceCollectorFragment>See more on sentence collection</sentenceCollectorFragment>.
 
 ## How does localization work
 about-playbook-how-localize = How does site localization work?
