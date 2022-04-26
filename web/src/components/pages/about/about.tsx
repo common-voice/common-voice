@@ -1,6 +1,5 @@
 import * as React from 'react';
 import cx from 'classnames';
-import Partners from './partners';
 import Nav from './nav';
 import { SECTIONS } from './constants';
 import HowItWorks from './how-it-works';

@@ -549,10 +549,6 @@ about-dataset-new-text = The Common Voice Dataset contains hundreds of thousands
 about-clip-graveyard = Clip Graveyard
 about-clip-graveyard-text = The Clip Graveyard consists of voice clips that didn't make it into the Common Voice dataset. Just like the dataset, the Clip Graveyard is available for download.
 
-about-partners = Partners
-about-become-a-partner = Become a partner
-about-partnership = Common Voice is a collaborative project, and we're depending on our community of partners and contributors to build the largest open-source dataset of voices ever.
-
     We would like to thank the following people and organizations for their help with the project:
 about-get-involved = Get involved
 about-get-involved-text-2 = Want to help make Common Voice even better?
@@ -643,13 +639,6 @@ about-playbook-how-project-governance-content-4 = Community participation and de
 about-playbook-how-project-governance-content-5 = Value and recognition.
 about-playbook-how-project-governance-content-6 = Mutual accountability.
 about-playbook-how-project-governance-content-7 = <governanceLink>Read more about how we're governed</governanceLink>
-
-
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Artificial intelligence
-mycroft-description = Mycroft is the world’s first open source assistant.
-    Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Raspberry Pi.
-mycroft-secondary-description = This is open source software which can be freely remixed, extended, and improved. Mycroft may be used in anything from a science project to an enterprise software application.
 
 ## Glossary
 glossary = Glossary
