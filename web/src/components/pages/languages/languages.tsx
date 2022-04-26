@@ -261,12 +261,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                 <Localized id="request-language-text-learn" />
               </h2>
               <Localized id="request-language-button">
-                <LinkButton
-                  outline
-                  rounded
-                  blank
-                  href="https://github.com/mozilla/common-voice/blob/main/docs/LANGUAGE.md"
-                />
+                <LinkButton outline rounded to={URLS.LANGUAGE_REQUEST} />
               </Localized>
             </div>
           </div>
