@@ -753,6 +753,11 @@ other-language = Druga rěc
 
 ## Request Language Pages
 
+request-language-heading = Wó nowu rěc pšosyś
+request-language-explanation-1 =
+    Pśeglědajśo, lěc waša rěc jo pódana na
+    <languagesPageLink>boku rěcow Common Voice</languagesPageLink>.
+    Jolic nic, wupołniśo toś ten formular a <strong>buźomy wam wužytnu mejlku, kótaraž wujasnjujo, kak móžośo swóju rěc zarědowaś</strong>.
 request-language-form-email =
     .label = Waša e-mailowa adresa
 request-language-form-info =
