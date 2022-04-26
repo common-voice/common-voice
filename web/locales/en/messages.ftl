@@ -324,7 +324,6 @@ shortcut-submit = Return
 shortcut-submit-label = Submit clips
 
 request-language-text = Don't see your language on Common Voice yet?
-request-language-text-learn = Learn how to request it here!
 request-language-button = Request a Language
 
 ## ProjectStatus
