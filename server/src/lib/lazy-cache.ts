@@ -44,8 +44,7 @@ function redisCache<T, S>(
   timeMs: number
 ): Fn<T, S> {
   return async (...args) => {
-    const key = JSON.stringify(args);
-
+    const key = cacheKey + JSON.stringify(args);
     const result = await redis.get(key);
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
