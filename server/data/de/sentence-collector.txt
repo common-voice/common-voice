@@ -3175,6 +3175,7 @@ Bitte was?
 Bitte weitergehen.
 Bitte wenden Sie.
 Bitte wenden, bitte wenden.
+Bitte weniger quatschen und mehr arbeiten!
 Bitte wählen Sie eine Sprache.
 Bitte wählen Sie nur eine Farbe aus.
 Bitte zeigen Sie mir Ihren Mitarbeiterausweis.
@@ -3760,6 +3761,7 @@ Dabei kann jedes Ereignis unscheinbar wirken, zusammen und in der Abhängigkeits
 Dabei kommt das Vorsorgeprinzip zum Tragen.
 Dabei kullerte der Massageball unter den Schrank.
 Dabei könnte sich längst die nächste Schwierigkeit anbahnen.
+Dabei lernst du die Ansprache und Buchung.
 Dabei lief ihr eine Träne über die Wange.
 Dabei liegt das Hauptaugenmerk auf der Beschaffung der Einzelteile.
 Dabei liegt die Lösung doch quasi auf der Hand!
@@ -4167,6 +4169,7 @@ Dann kannst du mir mal helfen, das Netz einzuholen.
 Dann kannst du sie problemlos noch korrigieren, sollte sie nicht stimmen.
 Dann kommen die Bücher jetzt halt in einen Bücherschrank.
 Dann kommt er auch auf den Dönerspieß.
+Dann kommt in meine Spiel und Bewegungsgruppe!
 Dann können Sie sich bei der Aufsichtsbehörde bedanken, die Ihnen das aufgebrummt hat.
 Dann können wir es auch als Paket schicken.
 Dann können wir ja beruhigt nach Hause gehen.
@@ -4353,6 +4356,7 @@ Darf ich Sie um ein Autogramm bitten?
 Darf ich an dem Preisausschreiben teilnehmen?
 Darf ich bei euch mitmachen?
 Darf ich bitte mal einen Satz zu Ende sprechen?
+Darf ich dabei mit deiner Unterstützung rechnen?
 Darf ich deine Tränen trocknen?
 Darf ich deinen Ex töten oder hättest du ein Problem damit?
 Darf ich deinen Spielstand überschreiben?
@@ -4382,6 +4386,7 @@ Darf ich mich zu dir unter den Schirm gesellen?
 Darf ich mir mal Ihren Stift leihen?
 Darf ich mir mal etwas von eurem Vorrat stibitzen?
 Darf ich mir mal kurz deine Luftpumpe ausleihen?
+Darf ich mit deiner Unterstützung rechnen?
 Darf ich mit dem Buggy fahren?
 Darf ich sie jetzt gegen eine neue austauschen?
 Darf ich vorkosten?
@@ -4572,6 +4577,7 @@ Das Fernmeldegeheimnis darf nicht verletzt werden.
 Das Fest findet am Hauptplatz statt.
 Das Fieber ist hingegen wieder vorüber.
 Das Flacon hat einen goldenen Verschluss.
+Das Foto wurde aufkaschiert.
 Das Frauenwahlrecht sollte nicht mit der Damenwahl verwechselt werden.
 Das Freihaus ist eine Gebäude der Technischen Universität Wien und war früher ein Wohnhauskomplex.
 Das Frühstück ist die wichtigste Mahlzeit des Tages.
@@ -4607,6 +4613,7 @@ Das Geschacher um die besten Konditionen treibt immer seltsamere Blüten.
 Das Geschehen auf dem Handy-Display ist ungleich wichtiger.
 Das Geschenk für meine Freundin war ein Griff ins Klo.
 Das Geschirr und das Besteck muss noch abgewaschen werden.
+Das Geschirr wäscht sich nicht von alleine ab!
 Das Geschrei war jedenfalls groß.
 Das Gesetz erlaubt nicht beliebig viel Bleichmittel.
 Das Gespräch gestaltete sich schwierig.
@@ -6420,6 +6427,7 @@ Der Abfluß von Wässern darf durch die Aufschüttung von Halden nicht behindert
 Der Abrisskalender geht fast einen Monat nach.
 Der Absprung kostet Überwindung, aber der Nervenkitzel ist es wert.
 Der Abwasch in unserer neuen Wohnung ist winzig.
+Der Abwasch macht sich nicht von alleine
 Der Adler ist im Nest gelandet.
 Der Adler trägt auf seinem Haupt eine goldene Mauerkrone mit drei sichtbaren Zinnen.
 Der Affront bringt die Ministerpräsidentin unter Zugzwang.
@@ -7791,6 +7799,7 @@ Die Bedingungen haben sich geändert.
 Die Beeren sind das einzige an einer Berberitze, was nicht giftig ist.
 Die Befehlsgewalt über das Bundesheer übt der zuständige Bundesminister aus.
 Die Beförderung von spaltbarem Material auf österreichischem Staatsgebiet ist untersagt.
+Die Begriffsstutzigkeit der kauzigen Person erstaunte ihn.
 Die Begründungen der Falschfahrer werden auch immer interessanter.
 Die Behandlung war kostenlos, aber bestimmt nicht umsonst.
 Die Behörde will verstärkt gegen illegale Beschäftigungen vorgehen.
@@ -11993,6 +12002,7 @@ Es braucht einen Mutigen, der es ausspricht.
 Es braucht zwei zum Streiten.
 Es brennt lichterloh.
 Es brennt mir unter den Nägeln.
+Es bringt mir doch nichts?
 Es bringt nichts, wenn Fliegengewichte gegen Sumo-Ringer kämpfen.
 Es darf kein Denkverbot geben.
 Es dauert nicht lang, versprochen.
@@ -14855,6 +14865,7 @@ Hauptsache die Haare sitzen! Alles andere ist zweitrangig.
 Hauptsache es klingt gut.
 Hauptsache es kommt von Herzen!
 Hauptsache es werden Santiano und Helene Fischer aufgelegt.
+Hauptsache gemeinsam spielen, toben, erleben und bewegen.
 Hauptsache gut versichert.
 Hauptsache ich weiß, wann ich zum Bäcker gehen muss.
 Hauptsache, Sie erklären.
@@ -15330,6 +15341,7 @@ Hilf dir selbst, oder dir wird geholfen.
 Hilf mir bitte beim Packen!
 Hilf mir mal auf die Sprünge!
 Hilf mir mal auf die Sprünge.
+Hilf mir oder spar dir deine klugen Kommentare!
 Hilfe ein Überfall!
 Hilfe!
 Hilfe, ein Soziologe ist hinter mir her!
@@ -15969,6 +15981,7 @@ Ich frage nur interessehalber.
 Ich fresse einen Besen und zwar samt der Putzfrau.
 Ich freu mich auf Ihren Besuch!
 Ich freue mich auf euch
+Ich freue mich auf euch.
 Ich freue mich immer, wenn ich sie sehe.
 Ich freue mich jetzt schon!
 Ich freue mich schon auf Sie. Wir treffen uns um elf an der Anmeldung.
@@ -17457,6 +17470,7 @@ Ihre Masche ist immer dieselbe.
 Ihre Meinung ist uns wichtig!
 Ihre Muskeln zitterten vor Überanspannung.
 Ihre Nachkommen haben die Frist verstreichen lassen.
+Ihre Nase war doppelt so groß, wie die Ohren von dem afrikanischen Elefanten.
 Ihre Probleme können Sie behalten.
 Ihre Rede appelliert an das Mitgefühl.
 Ihre Redezeit ist leider schon abgelaufen.
@@ -18549,6 +18563,7 @@ Ist das ein Amtliches Werk?
 Ist das ein Ernst?
 Ist das ein Kilopreis oder wird nach Anzahl abgerechnet?
 Ist das ein Liveticker?
+Ist das ein Nasenlader?
 Ist das ein Witz?
 Ist das eine Anspielung auf die Titelstory von gestern?
 Ist das eine Douglasie?
@@ -20108,6 +20123,7 @@ Klebrige Finger?
 Klebt der Teig oder ist er schön luftig und dehnbar?
 Kleider machen Leute.
 Kleine Aufmerksamkeiten können der Schlüssel zum großen Glück sein.
+Kleine Fangspiele
 Kleine Jungen im Kindergarten haben großes Vergnügen daran, Papiertüten platzen zu lassen.
 Kleine Jungs können sich für Motorräder begeistern.
 Kleine Kinder - kleine Probleme, große Kinder - große Probleme.
@@ -27513,6 +27529,7 @@ Sport hält mich fit.
 Sport ist nicht so mein Ding.
 Sport ist wichtig für Körper und Geist.
 Sport und Bewegung seien viel entscheidender.
+Sport, Bewegung im Griechischen Park.
 Sportdirektor Hamann holt sinnbildlich zum Rundumschlag aus.
 Sportmagazine bescheinigen dem Rugby-Spieler mehrheitlich eine souveräne Leistung.
 Spot-on hat nicht funktioniert, da gab es trotzdem laufend Zeckenalarm.
@@ -28291,6 +28308,7 @@ Und Action!
 Und Blaukraut bleibt Blaukraut.
 Und Geld ausgeben möchte man dafür erst recht nicht.
 Und Geschwister können ziemlich verschieden sein.
+Und Ihr wollt euch bewegen?
 Und Malte, du weisst wie der Hase hoppelt.
 Und Malte, du weißt, dass wir gut ausgerüstet sind.
 Und Papa bringt kein Frühstück mehr an's Bett.
@@ -31005,6 +31023,7 @@ Wem gehört dieser Turnbeutel?
 Wem gehört welcher Becher?
 Wem haben wir es zu verdanken?
 Wem muss ich hier etwas beweisen?
+Wem nutzt es?
 Wem schieben wir diesmal die Schuld in die Schuhe?
 Wem soll dieser Brei schmecken?
 Wem sollen wir sie denn empfehlen?
@@ -31783,6 +31802,7 @@ Wer sonst sollte es lösen?
 Wer spielt mit mir Minetest?
 Wer spricht da?
 Wer später bremst, ist länger schnell.
+Wer steckt dahinter?
 Wer steht an deiner Seite?
 Wer steht jeden Morgen um fünf Uhr auf der Matte?
 Wer stellt bei so feuchtem Wetter die Waschmaschine an?
@@ -33325,6 +33345,7 @@ Wirklich, die Paste ist knochentrocken.
 Wirklich, es ist besser, man bleibt zu Hause, bis das Wetter wieder schön wird.
 Wirkt die Betäubung noch?
 Wirst du ihm helfen?
+Wirst du mir beim Streichen helfen?
 Wirst du verfolgt?
 Wirtschaftsschwache Regionen versuchen es häufig mit Tourismus.
 Wisch das sofort vom Fußboden auf!

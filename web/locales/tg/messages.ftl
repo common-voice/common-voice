@@ -570,6 +570,7 @@ validations =
 ## Dashboard
 
 your-languages = Забонҳои шумо
+awards = Мукофот
 you = Шумо
 everyone = Ҳар як кас
 
@@ -589,15 +590,19 @@ return-to-edit-goal = Барои таҳрир кардани ҳадафи худ
 
 keep = Ногоҳ доштан
 remove = Тоза кардан
+profile-form-delete = Нест кардани профил
 
 ## Profile Download
 
+download-profile-title = Профил
 download-recordings-title = Сабтҳо
 download-size = Андоза
 download-start = Маълумоти профилро боргирӣ кунед
 download-request = Сабтҳоро дархост кунед
 download-request-button = Боргирӣ кардан
+download-request-refresh-button = Навсозӣ кардан
 download-request-modal-title = Пайвандҳоро боргирӣ кунед
+download-request-metadata-link = Матни ҷумлаҳо
 
 ## Landing
 
@@ -609,6 +614,8 @@ read-more-about = Дар саҳифаи «Дар бораи мо» бештар 
 
 ## Demo Datasets
 
+card-button-next = Навбатӣ
+card-button-back = Бозгашт
 demo-account = Ҳисоб
 
 ## Demo Account
@@ -635,6 +642,8 @@ sc-header-profile = Профил
 sc-footer-privacy = Махфият
 sc-footer-terms = Шартҳо
 sc-footer-cookies = Кукиҳо
+sc-login-signup-button = Воридшавӣ / Бақайдгирӣ
+sc-logout-button = Баромадан
 
 ## HOME
 
@@ -649,18 +658,30 @@ sc-home-collect-title = Ҷумлаҳоро ҷамъ кунед
 ## MY SENTENCES
 
 sc-my-no-sentences = Ягон ҷумла ёфт нашуд!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Пешниҳод: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Манбаъ:  { $source }
+sc-my-delete = Нест кардани ҷумлаҳои интихобшуда
+sc-my-deleting = Несткунии ҷумлаҳои интихобшуда…
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-updating = Нав шуда истодааст...
 
 ## ADD
 
+sc-submit-button =
+    .submitText = Пешниҳод кардан
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Илова кардани забон
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -668,6 +689,8 @@ sc-confirm-button-text = Тасдиқ кардан
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Ҳамагӣ
+sc-lang-info-title-personal = Шахсӣ
 
 ## LOGIN
 
@@ -680,9 +703,16 @@ sc-confirm-button-text = Тасдиқ кардан
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Манбаъ: { $sentenceSource }
+sc-review-form-button-reject = Рад кардан
+sc-review-form-button-skip = Нодида гузарондан
+sc-review-form-button-approve = Тасдиқ кардан
 
 ## SETTINGS
 
+sc-settings-title = Танзимот
 
 # [/SentenceCollector]
 

@@ -414,6 +414,7 @@ gravatar_not_found = Njejo se namakał žeden gravatar za wašu e-mail
 file_too_large = Wubrana dataja jo pśewjelika
 avatar-uploaded = Awatar jo se nagrał
 max-file-size = { $kb } kb maks.
+remove-avatar = Awatar wótwónoźeś
 
 ## Profile - Email
 
@@ -749,6 +750,23 @@ request-language-success-title = Póžedanje na rěc jo se wuspěšnje wótpós�
 request-language-success-content = Dajomy wjelgin skóro z dalšnymi informacijami wót se wó tom słyšaś, kak móžośo Common Voice swóju rěc pśidaś.
 select-language = Rěc wubraś...
 other-language = Druga rěc
+
+## Request Language Pages
+
+request-language-form-email =
+    .label = Waša e-mailowa adresa
+request-language-form-info =
+    .label = Informacije wó rěcy
+request-language-form-info-explanation =
+    Pśidajće tak wjele informacije ako móžno wó rěcy. Na
+    pśikład:
+request-language-form-info-explanation-list-1 = Mjenja wašeje rěcy
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-kody</isoCodeLink>, jolic su znate
+request-language-form-info-explanation-list-3 = Wótkaze na websedła, kótarež mógu nam pomagaś, rěc rozměś
+request-language-google-recaptcha-required = reCAPTCHA jo trjebny, jolic cośo pókšacowaś
+request-language-google-recaptcha-error = Něco njejo se raźiło z reCAPTCHA. Pšosym wopytajśo hyšći raz.
+# Success page
+request-language-success-heading = Wjeliki źěk! Sćo pósłał pšosbu wó nowu rěc
 
 ## Languages Overview
 
@@ -1444,7 +1462,6 @@ sc-review-link = Pógódnośiś
 
 sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěc wužywaŕskego pówjercha
-sc-settings-language-translated-warning = Boki za toś tu rěc njejsu snaź dopołnje pśełožone. Móžośo z pśełožowanim <pontoonLinkLink>na Pontoon</pontoonLinkLink> wupomogaś.
 sc-settings-reset-skipped = Pśeskócone sady slědk stajiś
 sc-settings-skipped-decription = Sćo do toho pśeskócył sady pśi pógódnośenju. Slědkstajanje pśeskóconych sadow buźo wšykne pśeskócone sady znowego pokazowaś. To jo njewótwisne wót rěcy.
 sc-settings-show-all-button = Wšykne pśeskócone sady hyšći raz pokazaś

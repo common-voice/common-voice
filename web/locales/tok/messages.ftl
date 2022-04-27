@@ -415,6 +415,7 @@ gravatar_not_found = ilo Gravatar sina li lon ala
 file_too_large = lipu sina li suli mute la, sina ken ala pana
 avatar-uploaded = sina pana e sitelen sinpin
 max-file-size = suli ken li suli KB { $kb }
+remove-avatar = o weka e sitelen sina
 
 ## Profile - Email
 
@@ -569,7 +570,7 @@ about-playbook-how-localize-content-5 = sina wile e pona la, o lukin e sitelen t
 
 about-playbook-how-add-sentences = nasin seme la mi ken pana e sitelen?
 about-playbook-how-add-sentences-content-1 = <strong>ilo Sentence Collector</strong> li kama jo e sitelen, li pona e sitelen open. o pali e <scAccountLink>sijelo ilo</scAccountLink>. ni la, o pana e toki sina tawa <strong>lipu jan</strong> sina. sina ken <strong>pana</strong> e sitelen. sina ken <strong>pona</strong> e sitelen.
-about-playbook-how-add-sentences-content-2 = jan tu o pona e sitelen la, sitelen li pana tawa kulupu sona Common Voice. sina pali e nasin pona pi toki sina <languageGuidelinesLink>lon lipu ni</languageGuidelinesLink>. sitelen <licenseLink>o tawa jan mute, o open</licenseLink>. sitelen o kepeken nimi 14 anu lili. o toki tawa jan sitelen la, ona li ken kepeken <waiverLink>lipu ni</waiverLink>, li ken pana e sitelen ona kepeken nasin open. ona li ken pana e lipu tawa poki lipu commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-2 = sitelen li pona tawa jan tu la, ilo li pana e sitelen ni tawa sona pi ilo Common Voice. sina ken pali e nasin pona pi toki sina <languageGuidelinesLink>lon lipu ni</languageGuidelinesLink>. ni o lon: <licenseLink>jan ale li ken kepeken</licenseLink> sitelen ale. sitelen o kepeken nimi 14 anu lili. o toki tawa jan sitelen la, ona li ken kepeken <waiverLink>lipu ni</waiverLink>, li ken pana e sitelen ona kepeken nasin open. ona li ken pana e lipu tawa poki lipu commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = sina ken kepeken <scraperLink>ilo pi nimi tan</scraperLink>. ona la sina ken kama jo e sitelen tan lipu Wikipedia.
 about-playbook-how-add-sentences-content-4 = toki li pona la, mi pana insa e ona lon tenpo suno nanpa tu wan pi tenpo suno. mi pana e ona lon ilo lon tenpo pi pana weka kalama.
 
@@ -682,6 +683,7 @@ review-delete-recordings = o weka e kalama ale mi
 
 ## Datasets Page
 
+datasets-heading = kulupu kalama
 datasets-headline = mi pali e kulupu sona pi kalama toki. ona li open, li kepeken toki mute. jan ale li ken kepeken ona, li ken pona e ilo kute kepeken ona.
 datasets-positioning =
     mi la, kulupu sona open li pona tawa pali ilo, li pona tawa sona pi ilo kute mute.
@@ -764,6 +766,32 @@ request-language-success-title = wile pi toki sin sina li pona. sina pona.
 request-language-success-content = mi toki tawa sina. tenpo lili la mi pana e sona pi toki ante sin.
 select-language = o kepeken toki
 other-language = toki ante
+
+## Request Language Pages
+
+request-language-heading = o wile sona lon toki sin
+request-language-explanation-1 =
+    sina sona ala e lon pi toki sina la, o lukin e <languagesPageLink>lipu toki</languagesPageLink>.
+    toki sina li lon ala la, o pana e sona lon lipu ni. mi <strong>pana e lipu tawa sina</strong>. <strong>lipu li pana e sona pi pali toki</strong>.
+request-language-explanation-2 = jan lawa pi ilo Common Voice li <strong>kama sona e wile sina</strong> la, ona li ken pana e pona e sona.
+request-language-form-email =
+    .label = nimi pi poki lipu sina
+request-language-form-info =
+    .label = sona toki
+request-language-form-info-explanation =
+    o pana e sona ale pi toki sina.
+    ale ni li ken pona:
+request-language-form-info-explanation-list-1 = nimi pi toki sina
+request-language-form-info-explanation-list-2 = sona la, <isoCodeLink>nasin ISO</isoCodeLink>
+request-language-form-info-explanation-list-3 = nimi nasin pi lipu toki. ona li ken pana e sona toki tawa mi.
+request-language-google-recaptcha-required = sina wile tawa la, o kepeken ilo reCAPTCHA.
+request-language-google-recaptcha-error = ilo reCAPTCHA li pakala. o sin.
+# Success page
+request-language-success-heading = sina pona! sina pana e wile pi toki sin.
+request-language-success-list-1 = tenpo kama lili la, sina kama jo e lipu sona pi nasin ni: sina ken pana e toki sin tawa ilo Common Voice
+request-language-success-list-2 = tenpo kama la, jan lawa pi ilo Common Voice li toki tawa sina, li pona e pali sina, li toki e lon pi toki sina.
+request-language-success-list-3 = mi toki ala tawa sina lon tenpo suli la, o toki tawa <emailLink>nimi lipu</emailLink>. mi toki tawa sina!
+request-language-error = ken la mi jo ala e wile ni. o toki tawa <emailLink>nimi lipu { $email }</emailLink> la mi toki tawa sina!
 
 ## Languages Overview
 
@@ -1149,7 +1177,7 @@ sc-home-intro = ilo Sentence Collector li ilo pi <commonVoiceLink>ilo Common Voi
 sc-home-collect-title = o pana e sitelen
 sc-home-collect-text = o pana e sitelen pi kepeken open la sina pana e pona.
 sc-home-review-title = o pona e sitelen
-sc-home-review-text = o pona e ni: sitelen o pona kepeken nasin pi sitelen pona
+sc-home-review-text = o lukin e ni: sitelen sin li kepeken nasin pona pi ilo Common Voice anu seme.
 
 ## GENERAL
 
@@ -1240,10 +1268,10 @@ sc-submit-select-language =
 sc-submit-add-sentences = o pana e <wikipediaLink>sitelen pi jan ale</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = toki wan taso o lon linja wan
-sc-submit-from-where = <wikipediaLink>sitelen pi jan ale</wikipediaLink> li tan lipu seme?
+sc-submit-from-where = <wikipediaLink>sitelen ni pi jan ale</wikipediaLink> li tan lipu seme?
 sc-submit-ph-read-how-to =
     .placeholder = o lukin e lipu pona la, sina sona e nasin pana.
-sc-submit-confirm = ni li lon. sitelen ni li <wikipediaLink>open</wikipediaLink>. mi ken pana e ona.
+sc-submit-confirm = ni li lon: <wikipediaLink>jan ale li ken kepeken</wikipediaLink> sitelen ni. mi ken pana e ona.
 sc-submit-button =
     .submitText = o pana
 sc-submit-filtered = sitelen ni li weka tan ni: ona li pona ala. (o pona e sitelen la o pana e ona):
@@ -1427,7 +1455,6 @@ sc-review-link = o lukin
 
 sc-settings-title = nasin ilo
 sc-settings-ui-language = toki pi ilo ni
-sc-settings-language-translated-warning = lipu li ken jo e wan pi ante toki ala. sina ken ante toki <pontoonLinkLink>lon ilo Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = mi sona ala lon tenpo pini la, o sin e sitelen ni
 sc-settings-skipped-decription = sina lukin e sitelen lon tenpo pini la, sina sona ala e ona. sina sin e sitelen pi sona ala la, sina ken lukin sin e ona. ni li lon toki ale.
 sc-settings-show-all-button = mi sona ala lon tenpo pini la, o sin e sitelen ni

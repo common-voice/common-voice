@@ -7,7 +7,8 @@ import { renderWithLocalization } from '../../../../test/render-with-localizatio
 
 import DatasetDownloadEmailPrompt from './dataset-download-email-prompt';
 
-import { CURRENT_RELEASE_ID } from './releases';
+// import { CURRENT_RELEASE_ID } from './releases';
+const CURRENT_RELEASE_ID = 'cv-corpus-8.0-2022-01-19';
 
 expect.extend(toHaveNoViolations);
 

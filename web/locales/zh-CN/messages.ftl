@@ -390,6 +390,7 @@ off = 关
 on = 开
 help-accent = 需要口音方面的帮助？
 help-accent-explanation = 口音就是您发音的方式，通常受到您生活过的地方、会说的语言等诸多因素影响。您可以在此分享任何您认为有关的信息。
+help-variants = 需要关于变体的帮助说明吗？
 help-variants-explanation = 变体是一种语言的特定形式 - 例如在某片区域内人们的说话方式被称为一种变体。有时称其为方言。
 
 ## Profile - Email
@@ -532,6 +533,7 @@ about-nav-playbook = 了解如何参与
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language-content-3 = 某些语言在内部有诸多语法、词汇和发音差异。由此，我们自 2022 年起<ctaLink>引入了“变体”的概念</ctaLink>。让各社区能够在大型数据集中更精准地分辨他们的语言。
 
 ## How do I add a language
 
@@ -547,20 +549,24 @@ about-playbook-how-localize-content-5 = 观看我们的帮助视频
 ## How to add sentences
 
 about-playbook-how-add-sentences = 如何添加语句？
+about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 从维基百科收集短句。
 about-playbook-how-add-sentences-content-4 = 通过的句子在周三导出，并在下一次数据集发布后可用。
 
 ## How to record quality
 
 about-playbook-how-record-quality = 如何录制高质量的语音片段？
+about-playbook-how-record-content-1 = 说话时请自然一些！我们喜欢您的说话方式，同时也希望收集您的口音，以及平时说话的音量、风格及语调。
 about-playbook-how-record-content-2 = 避免录入过多背景噪音，要确保您的声音清晰易辨。
 about-playbook-how-record-content-3 = 准确读出句子内容，不要漏词、改词或添词。
 about-playbook-how-record-content-4 = 确定平台正在录音后再开始朗读，读完后再点击停止录制。
+about-playbook-how-record-content-5 = <accuracyLink>了解准确性的判断标准。</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = 如何有效推进 Common Voice 上的语言项目？
 about-playbook-how-grow-language-content-2 = 活动
 about-playbook-how-grow-language-content-4 = 社交媒体
+about-playbook-how-grow-language-content-6 = 合作伙伴网络
 
 ## How to validate
 
@@ -568,11 +574,13 @@ about-playbook-how-grow-language-content-4 = 社交媒体
 ## How to access dataset
 
 about-playbook-how-access-dataset = 如何访问和使用数据集？
+about-playbook-how-access-dataset-content-2 = 若您正在寻找构建 ASR 模型的工具，欢迎到 <discourseLink>Discourse</discourseLink> 联系社区成员。
 
 ## How are decisions made
 
 about-playbook-how-project-governance = 项目决策是如何作出的？
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice 是由来自世界各地的活动家、语言学家、数据科学家、学者和软件工程师组成的多元化社区实现的。该项目由 Mozilla 基金会管理。
+about-playbook-how-project-governance-content-2 = 我们的治理建立在以下的基础上：
 about-playbook-how-project-governance-content-3 = 隐私、安全和透明度。
 about-playbook-how-project-governance-content-4 = 社区参与决策。
 about-playbook-how-project-governance-content-6 = 相互问责。
@@ -1137,7 +1145,7 @@ sc-howto-addlang-title = 添加要贡献的语言
 sc-howto-addlang-text = 登录后，就可以在个人资料页选择您要贡献哪些语言的句子。
 sc-howto-addsen-title = 添加新句子
 sc-howto-addsen-item-1 = 您提交的所有句子皆须符合<wikipediaLink>公有领域（CC-0）许可协议</wikipediaLink>。为了让未使用公有协议的著作也可加入，我们为愿意将著作贡献给 Common Voice 的版权人准备了一份<cc0WaiverLink>贡献协议模板</cc0WaiverLink>。
-sc-howto-addsen-item-2 = 关于数字的问题：源文本中不应包含数字，因为朗读数字时可能会遇到问题，因为数字的读法取决于上下文，可能会在数据集中造成混乱。例如，“2409”可以读作“二四零九”，也可以读作“两千四百零九”。
+sc-howto-addsen-item-2 = 关于数字的问题：源文本中不应包含数字，因为朗读数字时可能会遇到问题，这是由于数字的读法取决于上下文，可能会在数据集中造成混乱。例如，“2409”可以读作“二四零九”，也可以读作“两千四百零九”。
 sc-howto-addsen-item-3 = 缩写和首字母缩略词。原始文本中应避免使用“USA”或“ICE”等缩写和首字母缩略词，因为它们的阅读方式可能与其拼写不一致。此外，一个缩写可能有多个正确读法。例如，首字母缩略词“ICE”可以读作“I-C-E”，也可读作一个单词。
 sc-howto-addsen-item-4 = 符号问题：源文本中尽量不要包含特殊符号和标点符号，除非确实有需要。例如，英文单词“don’t”和“we’re”中的撇号应予保留，但“@”和“#”之类的特殊符号一般不需要包含在源文本中。
 sc-howto-addsen-item-5 = 外国字母。字母或文字须符合各语言用法。例如，“ж”是俄语字母，但英文或中文不会用到，因此不应出现在原始文本中。

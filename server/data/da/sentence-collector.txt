@@ -1361,6 +1361,7 @@ Danse skal du, danse
 Danse skal du, danse -!
 Danse, danse dukke min
 Danse, danse dukke min!
+Dansegulvet bliver i moderne tale også kaldt "floor", direkte oversat til gulv på engelsk
 Danser og tramper,så skosålerne faldera
 Datoen for lektionens gennemførelse og den faktisk anvendte tid skal også bekræftes
 Datteren Else var som den dejligste blomst at se, og hun lo altid.
@@ -1409,6 +1410,7 @@ De dejligste englebørn tittede frem fra folderne!
 De dele sig i de rene Myrer og i de skidne.
 De dele sig i de rene myrer og i de skidne
 De drak et krus øl i færgehuset og diskuterede med studenten
+De drukner nok i mængden
 De dur, men du dur ikke
 De dyrkede elskovskunsten under træerne
 De døde er bedre end vi alle, og så kommer de ikke
@@ -3510,6 +3512,7 @@ Det er mærkeligt hvor De beholder alle Deres tænder lille frøken!
 Det er mærkeligt hvor de beholder alle deres tænder lille frøken
 Det er mærkværdigt vi aldrig har hørt den før
 Det er mørkt udenfor
+Det er nemmere, at læse lange sætninger op, end de helt kort
 Det er netop saadan een vi bruge
 Det er noget kedeligt noget
 Det er noget snak
@@ -3652,6 +3655,7 @@ Det fremgår videre, om prøven er bestået eller ikke er bestået
 Det fryser meget strengere end før
 Det frøs dr et par grader stærkere end inde i byen
 Det frøs, så det knagede i isskorpen
+Det får man nok bare en brun farve ud af
 Det fødes man til
 Det fødes man til!
 Det føler vi, om vi ikke taler derom
@@ -4712,6 +4716,8 @@ Det ville træet slet ikke høre.
 Det ville vare ud på natten
 Det ville være en stor synd om du ikke skulle kunne din lektie
 Det ville være en stor synd om du ikke skulle kunne din lektie!
+Det ville være sjovere at læse op med mere moderne sprog fra flere kilder
+Det virker til at de fleste sætninger er fra gamle eventyr.
 Det voksede henne i krogen i en lille fattig gård
 Det voksede og voksede, vinter og sommer stod det grønt
 Det æble skulle gemmes, og det stod på dragkisten til det sprak
@@ -5407,6 +5413,7 @@ Er der nogen der oppe spurgte bondemanden og kiggede op på lille claus
 Er der nogen der oppe? spurgte bondemanden og kiggede op på lille Claus.
 Er der noget, jeg kan hjælpe eder med
 Er der noget, jeg kan hjælpe eder med!
+Er der nogle initiativer i gang med at udvide sætningerne, der er tilgængelige?
 Er det Kay, du mener, spurgte lille Gerda.
 Er det at bilde barnet sådan noget ind
 Er det at bilde barnet sådan noget ind!
@@ -6314,6 +6321,7 @@ Han hed kay og hun hed gerda
 Han holdt meget af at gå i boglader, se i bøger og blade
 Han holdt meget af at gå i boglader, se i bøger og blade.
 Han holdt sig altid tilbage.
+Han hopper virkeligt højt
 Han hverken klinede eller støttede den
 Han hører til spilleværkerne, og har man dem, så har man dem
 Han hører til spilleværkerne, og har man dem, så har man dem!
@@ -7095,6 +7103,7 @@ Hils den lille svale fra mig, dersom du får den at se
 Hils den lille svale fra mig, dersom du får den at se!
 Himlen er allevegne, hvad behøver jeg mere
 Himlen er allevegne, hvad behøver jeg mere!
+Himlen er enormt blå i dag
 Himlen er så dejlig klar
 Himlen er så dejlig klar!
 Himlen med alle sine stjerner var ovenover, og alle byens tage nedenunder
@@ -8105,6 +8114,7 @@ Hvor kunne du forlade et sådant sted?
 Hvor kunne du forlade et sådant steddet var jeg nok nødt til
 Hvor kunne jeg tænke sligt muligt
 Hvor kunne jeg tænke sligt muligt!
+Hvor lange sætninger, skal man læse op?
 Hvor langt er der til tankstationen?
 Hvor lever han nu bladet gemt, venskab glemt
 Hvor længe siden er det, at hun gik bort
@@ -9129,6 +9139,7 @@ Jeanne darc, heksen, brændes
 Jeg alene var den, som sang høit paa slottet
 Jeg bad hende om at faae opskriften, og saa forklarede hun mig det
 Jeg bad om at låne
+Jeg behøver ikke tage tilløb
 Jeg betragtede de mange forgrenede årer
 Jeg betragtede de mange forgrenede årer.
 Jeg blev den mest begunstigede
@@ -9190,6 +9201,7 @@ Jeg er aldrig syg
 Jeg er aldrig syg.
 Jeg er baccalaureus udi den hellige skrift
 Jeg er baccalaureus udi den hellige skrift!
+Jeg er bange for store heste
 Jeg er bange han kommer sig aldrig
 Jeg er bange han kommer sig aldrig.
 Jeg er bange, han ikke finder kvæget
@@ -9285,6 +9297,7 @@ Jeg er nær ved at sejle!
 Jeg er også fin kaveler
 Jeg er også fin kaveler!
 Jeg er også flyttedagskommissær, jeg er bedemand, jeg kan både le og græde
+Jeg er også lidt nervøs over, hvilken form for bias, disse gammeldags sætninger introducerer
 Jeg er overvættes lykkelig
 Jeg er overvættes lykkelig!
 Jeg er saa let
@@ -9507,6 +9520,7 @@ Jeg har ringet og skrevet, men du svarer ikke rigtigt.
 Jeg har rørt ved den, jeg vil nu tage lidt fastere
 Jeg har sandelig godhed for barnet
 Jeg har sandelig godhed for barnet.
+Jeg har selv været inde og finde på flere sætninger
 Jeg har set alt og jeg ved alt
 Jeg har set alt og jeg ved alt!
 Jeg har skinnet ind i det
@@ -9669,6 +9683,7 @@ Jeg kommer, jeg synger for dig
 Jeg krøb helt ind under den, så at jeg blev borte
 Jeg kunde dog ogsaa have været taget i betragtning
 Jeg kunde have lyst til at jage dem snabelen lige ind i brystet
+Jeg kunne forestille mig andre, sjovere ting
 Jeg kunne høre det lige ind, hvor jeg lå i min fattige stue
 Jeg kunne ikke få dem ud
 Jeg kunne ikke tale, men han tog hendes hånd og sagde
@@ -9837,6 +9852,7 @@ Jeg syntes det var morsomt sagt, men jeg kom ikke til at le med.
 Jeg syntes ikke om tornystret.
 Jeg syntes, at jeg var løjtnant deroppe og det var slet ingen fornøjelse
 Jeg syntes, at jeg var løjtnant deroppe og det var slet ingen fornøjelse.
+Jeg så Nordlys over havet
 Jeg så den lyse, som en engels åsyn viste sig
 Jeg så den lyse, som en engels åsyn viste sig.
 Jeg så den smukke pige, som han holder mere af, end mig
@@ -10393,6 +10409,7 @@ Kom, kære sol, kom sådan tit!
 Kometen eventyret eventyr af hans christian andersen h
 Kommer den for hendes øjne, før de brister, da dør hun ikke
 Kommer han dog ikke
+Kommer modellerne bygget på datasættet primært til at have god performance på gamle eventyr?
 Kommunalbestyrelsen berammer køreprøver efter aftale med politiet
 Kommunalbestyrelsen berammer teoriprøven efter aftale med politiet
 Kommunalbestyrelsen etablerer forebyggende og sundhedsfremmende tilbud til borgerne
@@ -13910,6 +13927,7 @@ Præsten talte, en salme blev sunget.
 Præsterne svingede røgelseskar og brud og brudgom rakte hinanden hånden og fik biskoppens velsignelse.
 Præstesønnen var huslærer der på gården
 Præstesønnen var huslærer der på gården.
+Prøv at blande alle farverne i krea-kassen
 Prøv at ringe til hende.
 Prøve må jeg dog dens færd og tumle mig mellem menneskene
 Publikum blev utaalmodigt.
@@ -14640,6 +14658,7 @@ Stakkels barn, din brudgoms brudekammer bliver ligkisten, og du bliver en gammel
 Stakkels barn, din brudgoms brudekammer bliver ligkisten, og du bliver en gammel pige.
 Staldkarlene, som fejede, hilste ham.
 Stamkortet underskrives, når den praktiske prøve er bestået
+Stangspring er en farlig sport
 Staten afholder udgifter til kastration
 Statsrevisorens møde med Lockheed Martin i Washington i april.
 Stemmer alt på sin rette plads
@@ -15014,6 +15033,7 @@ Så skal du snart hitte på
 Så skal i have kinderpulver
 Så skal jeg gøre noget for dig
 Så skal jeg med største fornøjelse kaste dig ud.
+Så skal vi ud og hælde bajer i hovedet hele natten
 Så skiltes de to
 Så skiltes de to.
 Så skulle de have bryllup

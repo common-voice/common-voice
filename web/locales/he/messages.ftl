@@ -577,6 +577,9 @@ request-language-success-content = נהיה בקשר כשיהיו פרטים נ�
 select-language = בחירת שפה…
 other-language = שפה אחרת
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = בתהליך
@@ -642,6 +645,7 @@ listen-last-time-instruction = <playIcon></playIcon> אחרון חביב!
 speak-empty-state-cta = תרומת משפטים
 record-button-label = הקלטת הקול שלך
 share-title-new = נשמח <bold>לסיוע</bold> למצוא קולות נוספים
+login-to-get-started = על מנת להתחיל יש להיכנס או להירשם
 target-segment-add-voice = הוספת הקול שלך
 target-segment-learn-more = מידע נוסף
 
@@ -752,6 +756,7 @@ profile-form-delete = מחיקת פרופיל
 
 ## Profile Download
 
+download-profile-title = פרופיל
 download-recordings-unavailable = אין באפשרותך לבקש את ההקלטות שלך בזמן שבקשה אחרת כבר בעיצומה.
 download-request-title = { $created }
 

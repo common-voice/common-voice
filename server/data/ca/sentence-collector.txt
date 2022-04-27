@@ -443,6 +443,7 @@ A Suècia, l’estiu passat va ser el millor dia de l’any.
 A Tirana mana Rita.
 A Tormos, el cap rotllat, que la faena els acaça.
 A Tàrbena, sobrassades, famoses per catalanes contrades.
+A Tàrrega a l'estació de bus.
 A València no venien.
 A Vinaròs són típics de les festes de Nadal i Sant Sebastià.
 A Xaló hi ha bons bacons amb un pam de cansalada.
@@ -453,6 +454,7 @@ A aprofitar la palla per a donar de menjar els animals.
 A aquella distància, els nostres fusells resultaven completament inútils.
 A aquelles altures ja estàvem plens de polls
 A aquest no l'enxamparàs, que la sap molt llarga.
+A aquesta mateixa adreça?
 A aquesta àrea s'han trobat zones d'hàbitat i estructures funeràries.
 A aquestes hores ja t'hauries d'haver ficat al llit.
 A baix, un sòcol imitant marbre
@@ -562,6 +564,7 @@ A la mar que te’n vages no em dones pena.
 A la matinada següent s'enfrontarà en un duel amb armes de foc.
 A la muntanya miracle una llegenda ha florit: la llegenda del diable.
 A la neurona adulta es tracta d'una prolongació única.
+A la nit va passar a formar part de l'Eternitat.
 A la nit, no puc adormir-me. Al matí, no puc alçar-me.
 A la nostra posició regnava una pau estranya
 A la nostra època li resulta perillós.
@@ -582,6 +585,7 @@ A la tarda la treia a airejar, la dona, s'entén, no la botiga
 A la tarda vam fer la nostra primera guàrdia
 A la taula i al llit al primer crit.
 A la taula i al llit, al primer crit!
+A la tercera li vaig dir "no cal".
 A la terra del parrusset ni fa aire ni fa fred.
 A la tornada compra el pa i deixa el dinar mig preparat.
 A la velocitat dels temps de guerra: menys de vint quilòmetres per hora.
@@ -921,6 +925,7 @@ Així no el distreien tant de les seves cavil·lacions.
 Així passa sempre amb les nostres sensacions o percepcions actuals.
 Així podem desenvolupar les eines i aplicacions lingüístiques.
 Així que anàvem a arrencar carretera avall
+Així que ara estic al bus.
 Així que ella la divisa, s'amaga baix d'una taula.
 Així que la vaig veure, vaig enamorar-me'n de seguida. Es diu Marianna.
 Així que ogen el senyal, que li afluixen el ramal, perquè brame la somera.
@@ -1243,6 +1248,7 @@ Allà on hi trobava espai per els ulls
 Allà on pogués cantar lliurement
 Allà on sentia gent que reia
 Allà on veia flors
+Allà poden fer-li aquests tràmits el mateix dia.
 Allà teníem l'enemic una mica més a prop
 Allà, per ara, per paga prepararé palla.
 Allí al davant de la torra hi varen obrir un carrer.
@@ -5393,6 +5399,7 @@ Economies d'escala.
 Efectivament, n'hem parlat, però, sincerament, no hi veig cap solució.
 Ei! No dispareu contra nosaltres!
 Ei, em sap greu no haver-ho vist.
+Ei, que no t'ho vaig explicar bé.
 Einstein i Elsa no van tenir fills. Tampoc no caçaven elefants.
 Eixa creença vertadera de la qual el cor és hòstia i temple l'infinit.
 Eixa parella era creació seua i se sentia ben orgullosa de la seua fita.
@@ -6120,6 +6127,7 @@ Ell es llevava per fer-me un suc de taronja!
 Ell hauria volgut almenys llibres bonics
 Ell havia arribat a aprendre, ensenyat-s'ho a ell mateix
 Ell havia nascut per a més altes destinacions literàries.
+Ell ho va entendre.
 Ell i els seus fills s'assemblen com els testos i les olles.
 Ell ja ho veia que no eren vicis
 Ell lo mateix despatxava que donava ordres, que cobrava
@@ -6762,6 +6770,7 @@ Em va preguntar, seriós i solemne com un jutge.
 Em va prometre que no em duria cap més ocellot.
 Em va reconèixer, i llavors ens van donar fusells...
 Em va sentar alguna cosa malament i a mig matí vaig canviar la pesseta.
+Em vaig adonar que la cosa no aniria bé.
 Em vaig adonar que pretenia descargolar-la en la direcció contrària
 Em vaig ajupir, sí senyors
 Em vaig equipar en un tres i no res.
@@ -7118,6 +7127,7 @@ Encara ara no sé si era el mateix que havia vist abans
 Encara conservava forces i encara guardava energies
 Encara en faré algunes més, avui.
 Encara en parles amb la vista encesa, en foc d’infern! No, no!
+Encara ens en queden de la setmana passada.
 Encara esteu a temps d'aportar aliments i productes d'higiene al carret solidari.
 Encara faltava l'epíleg, que va ser el jorn de matar el bé.
 Encara feia fred, però no prou per contenir la plaga
@@ -8548,6 +8558,7 @@ He pencat molt amb aquest temari, però em costa pair-lo.
 He quedat al Bar Terra aquesta setmana?
 He relatat el retall de relat arrelat al taller del teler entelat.
 He sentit exactament el mateix seguint la pista d'un animal salvatge
+He tancat les finestres quarts de vuit.
 He tapat el sofà amb un llençol.
 He vist alçar-se a mi mans ajuntades, segar-se genolls caient al fang.
 He vist aquell món feréstec ple d'alzines.
@@ -9003,7 +9014,9 @@ I un cop la tenia airejada, on hem d'anar? A la botiga.
 I un llaurador la consola amb un ramellet de flors.
 I unes quantes escopetes de caça
 I va agafar el barret i va anar-se'n.
+I va entendre també que era veritat.
 I va quedar llesta la torra.
+I va seguir portant-ne.
 I vaig voler informar-me'n més.
 I vaig vore un teuladí que estava damunt d’un altre.
 I veig del Llobregat la platja serpentina
@@ -11221,6 +11234,7 @@ La meva història és la més completa.
 La meva mare ha tornat a comprar iogurts.
 La meva millor amiga ha perdut el marit fa poc.
 La meva primera impressió no havia estat errònia
+La meva sogra està com un llum.
 La meva sort ho volia.
 La mica d'ànsia que causen a l'esperit totes les coses mai vistes
 La minoria avantguardista pot trobar-hi un valor positiu.
@@ -11664,6 +11678,7 @@ Les dones majors de la Benicarló es dedicaven a fer els dolços típics.
 Les dones per a què són bones? Per a trencar cassoles noves!
 Les dones, poc o molt, sempre tenen alguna escata
 Les dues germanes es passaven les vesprades pastant bunyols.
+Les dues primeres setmanes em va fer gràcia.
 Les elits valencianes, en conseqüència, es despreocuparen de la tasca folklòrica.
 Les emocions i la motivació; la funció motivadora de l'emoció
 Les es troba a la Val d’Aran
@@ -11891,6 +11906,7 @@ Li va fer un petó.
 Li va posar l'anell, i ella el va pendre.
 Li va posar l'anell, i ella el va prendre.
 Li va preguntar l'esculptor.
+Li va preguntar què li estava posant i ella va respondre la veritat.
 Li va replicar a banderes desplegades.
 Li va respondre a la babalà, sense pensar-s'hi gaire.
 Li va semblar que hi havia una que estava assentada
@@ -14203,6 +14219,7 @@ Però sota la condició d'orientar aquesta activitat cap a disciplines utilitàr
 Però tenir-hi vint mil duros, que no són vint quartos
 Però tot d'una... rac!... obren la portella.
 Però tothom estava tip d'aquella lluita sense cap sentit
+Però trobo que s'ha d'estar molt sonada.
 Però tu, perfecta criatura, delícia de la terra, torna al món mortal!
 Però un riure incrèdul banyava els meus llavis, i els banya encara hui.
 Però una vegada lliure, no deixa en ruïnes la seua talaia?
@@ -14687,6 +14704,7 @@ Quan havien corregut, tornaven a corre
 Quan he quedat amb l'Oriol?
 Quan he quedat amb la meva cosina?
 Quan he tocat a la porta, m’ha obert Pep.
+Quan hi anem a menjar, fa ous ferrats pels nens.
 Quan hi ha macarrons?
 Quan hi havia algun mosso llogat de poc
 Quan ho va haver entès va acceptar-ho
@@ -14697,6 +14715,7 @@ Quan l'astre rei cap a ponent declina me'n puge a meditar.
 Quan l'esquerra ha governat, no ha tingut mai un projecte lingüístic ferm.
 Quan l'oriental vinga al país, per ventura es desorientarà?
 Quan la crítica literària burgesa felicite els autors d'opinions polítiques revolucionàries
+Quan la infermera de pal·liatius va entrar ell estava conscient.
 Quan les il·lusions són a un turó
 Quan li preguntaven les compradores
 Quan llegeixis aquesta frase, ja haurem passat de les dues mil hores.
@@ -16582,9 +16601,13 @@ Sí, Joanet: no et crec capaç d'enganyar-me.
 Sí, agent, he vist el límit de velocitat. El vostre cotxe, tanmateix, no.
 Sí, ara ja ho fem, però després funcionarà millor.
 Sí, em refereixo al Putin, el rus aquell.
+Sí, ja l'hem trobada.
 Sí, jo. Ah! El cap em roda! Me'n vaig.
+Sí, l'alta serà en vint-i-quatre hores.
 Sí, l'avi havia tingut raó!
 Sí, la meua història és la més completa negació de la literatura.
+Sí, la targeta duplicada li arribarà en un màxim de tres dies.
+Sí, la tinc però no sé com activar-la.
 Sí, madona; a tres hores d’aquí hi ha el poble on vaig nàixer.
 Sí, mort… Un cavall l'ha potejat.
 Sí, no és la primera volta que passa alguna cosa així.
@@ -16593,7 +16616,19 @@ Sí, però en essència tocàvem amb la mateixa motivació.
 Sí, però en general tocàvem amb la mateixa motivació.
 Sí, però en principi tocàvem amb la mateixa motivació.
 Sí, però en realitat tocàvem amb la mateixa motivació.
+Sí, però estic en una situació limit i necessitaria ajuda immediata.
+Sí, pot fer-ho així.
+Sí, pots fer-ho així.
+Sí, pots fer-ho telemàticament.
+Sí, quan té disponibilitat?
+Sí, quina disponibilitat té?
+Sí, quina volia, la de pollastre o la vegetariana?
+Sí, s'ha de reservar.
+Sí, saps si hi ha hotels a prop de Tarragona?
 Sí, senyor. Oi que és un bon partit?
+Sí, si us plau!
+Sí, soc molt fan de la marca Scout.
+Sí, tens una companyia lowcost.
 Sí. Però us diré la veritat.
 Sílvia és fustera
 Sílvia és generala
@@ -18028,6 +18063,9 @@ Va emprendre l'home aquelles primeres operacions
 Va empènyer les reixes i per si soles es varen obrir.
 Va encarregar al pastisser que li fera una corona de sucre.
 Va engrandir més el negoci, i va comprar paper de renda
+Va entendre que a ell no l'intentarien salvar.
+Va entendre que estava lluitant sol.
+Va entendre que tenia la batalla perduda.
 Va entrar el capellà... i a casar-se.
 Va esdevenir-se al cap de dos anys ben complerts de la seua mort.
 Va establir a Londres la representació d'algunes cases empordaneses.
@@ -18050,6 +18088,7 @@ Va haver de recórrer a la lectura
 Va haver de resignar-se als obstacles exteriors
 Va i li diu a la sogra: «Si vol pollastre, compre-se’n un».
 Va impulsar un informe sobre la situació sociolingüística del País Valencià.
+Va intentar respirar neguitós alguns cops més però era massa difícil.
 Va interessar-me vivament com a tipus d'estudi
 Va llençar un crit tot joiós
 Va llevar-se tranquil·lament el guant de la mà dreta
@@ -18065,6 +18104,10 @@ Va obrir-se una mampara per a donar pas a un senyor
 Va observar que el cel semblava girar al voltant de l'estrella polar.
 Va passar a casa un dia que ell va venir.
 Va passar dos nits a Vilafranca perquè era festa major
+Va pensar en Déu i li va demanar que l'acollís.
+Va pensar en en els fills i en els nets.
+Va pensar en la seva Rosa, al seu costat.
+Va pensar en tots els projectes que deixava a mitges.
 Va pensar que el pas que havia donat era molt serio
 Va perdre bona xica de parròquia
 Va perdre un dematí sense saber a qui votava
@@ -18945,6 +18988,7 @@ zoo: "ni furtant-nos els somnis, ni cremant la trinxera... callaran la fera"
 És que jugue; i, com que sóc sortós, gaste tot el que guanye.
 És que la gent és d'una mena de manera...
 És que tal volta no n'hi ha de primavera, pels esclaus
+És que us els heu de menjar.
 És que vols que ens matem? Què et passa?
 És quelcom constituït per formes primàries arcaiques: instints, reflexos dominants o una identitat immutable.
 És qüestió de demanar un ajornament i fer veure que estàs malalta.

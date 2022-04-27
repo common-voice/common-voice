@@ -17,6 +17,7 @@ not-available-abbreviation = N/D
 banner-error-slow-1 = Ens sap greu, el Common Voice està tardant a carregar-se, gràcies per l'interès.
 banner-error-slow-2 = La plataforma va molt carregada últimament, estem investigant els problemes i esperem solucionar-los aviat.
 banner-error-slow-link = Estat del projecte
+error-something-went-wrong = Hi ha hagut un problema
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -405,6 +406,7 @@ gravatar_not_found = No s'ha trobat cap Gravatar per a la vostra adreça electr�
 file_too_large = El fitxer seleccionat és massa gran
 avatar-uploaded = S'ha pujat l'avatar
 max-file-size = Màxim { $kb } kB
+remove-avatar = Elimina l'avatar
 
 ## Profile - Email
 
@@ -529,6 +531,7 @@ about-get-involved-text-2 =
     Voleu ajudar a millorar el Common Voice?
     Genial! Poseu-vos en contacte per correu electrònic o pels fòrums del <discourseLink>Discourse</discourseLink>, notifiqueu problemes en el <githubLink>GitHub</githubLink> o uniu-vos al nostre xat de la comunitat en el <matrixLink>Matrix</matrixLink>
 about-stay-in-touch = Com em puc mantenir en contacte?
+about-stay-in-touch-button = Registre
 about-stay-in-touch-text-1 = <emailFragment>Registreu-vos</emailFragment> a la nostra llista de correu per a saber com podeu participar en campanyes, esdeveniments i funcions de disseny conjunt a Common Voice.
 about-stay-in-touch-text-2 = Podeu conèixer altres persones en les comunitats lingüístiques de Mozilla unint-vos a <discourseLink>Discourse</discourseLink> per a converses d'actualitat, o a <matrixLink>Matrix</matrixLink> per obtenir un consell ràpid.
 about-nav-why-common-voice = Per què?
@@ -680,6 +683,7 @@ review-delete-recordings = Suprimeix els meus enregistraments
 
 ## Datasets Page
 
+datasets-heading = Conjunts de dades
 datasets-headline = Estem creant un conjunt de dades de veus obert i multilingüe que tothom pot utilitzar per entrenar aplicacions que utilitzin la veu.
 datasets-positioning =
     Creiem que uns conjunts de dades grans i disponibles públicament promouran la innovació i la competència comercial sana en la tecnologia de la veu basada en l'aprenentatge automàtic.
@@ -764,6 +768,47 @@ request-language-success-content = Aviat ens posarem en contacte amb més inform
 select-language = Seleccioneu una llengua...
 other-language = Un altra llengua
 
+## Request Language Pages
+
+request-language-heading = Demana d'afegir una llengua
+request-language-explanation-1 =
+    Comproveu si la vostra llengua apareix llistada en la
+    <languagesPageLink>pàgina de llengües del Common Voice</languagesPageLink>.
+    Si no, ompliu aquest formulari i us enviarem un correu electrònic
+    explicant com afegir la vostra llengua</strong>.
+request-language-explanation-2 =
+    També <strong>informarem el nostre gestor de comunitats
+    que hi teniu interès</strong>, perquè us pugui donar qualsevol
+    suport addicional o informació que necessiteu.
+request-language-form-email =
+    .label = La vostra adreça electrònica
+request-language-form-info =
+    .label = Informació sobre la llengua
+request-language-form-info-explanation =
+    Afegiu tanta informació com pugueu sobre la llengua. Això
+    podria incloure:
+request-language-form-info-explanation-list-1 = Noms de la vostra llengua
+request-language-form-info-explanation-list-2 = <isoCodeLink>Codis ISO</isoCodeLink> si els coneixeu
+request-language-form-info-explanation-list-3 = Enllaços a llocs web que ens poden ajudar a entendre la llengua
+request-language-google-recaptcha-required = reCAPTCHA és necessari si voleu continuar
+request-language-google-recaptcha-error = S'ha produït un error amb reCAPTCHA. Torneu-ho a provar més tard.
+# Success page
+request-language-success-heading = Gràcies! Heu enviat una nova consulta de llengua
+request-language-success-list-1 =
+    Ben aviat hauríeu de rebre un correu electrònic explicant
+    els passos per a afegir la vostra llengua al Common Voice
+request-language-success-list-2 =
+    El nostre gestor de comunitats es posarà en contacte amb vós
+    per a oferir-vos suport addicional i per a fer-vos saber si
+    ja hi ha una comunitat que treballi en la vostra llengua
+request-language-success-list-3 =
+    Si no sabeu res de nosaltres en un parell de dies,
+    contacteu via <emailLink>{ $email }</emailLink>
+    i ens posarem en contacte amb vós!
+request-language-error =
+    Potser no hem rebut aquesta sol·licitud. Envieu-nos un correu electrònic
+    directament a <emailLink>{ $email }</emailLink> i us respondrem!
+
 ## Languages Overview
 
 language-section-in-progress = En curs
@@ -833,6 +878,9 @@ listen-again-instruction = Bona feina! <playIcon></playIcon> Escolteu una altra 
 listen-3rd-time-instruction = 2 menys! Mantingueu el ritme! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> L'últim!
 listen-empty-state = No hi ha cap més tall per validar en aquesta llengua...
+listen-loading-error =
+    No hem pogut cap tall de veu perquè el reviseu.
+    Torneu a intentar-ho més tard.
 speak-empty-state = No hi ha cap més frase per enregistrar en aquesta llengua...
 speak-empty-state-cta = Aporteu frases
 speak-loading-error =
@@ -1440,7 +1488,6 @@ sc-review-link = Revisa
 
 sc-settings-title = Paràmetres
 sc-settings-ui-language = Llengua de la interfície
-sc-settings-language-translated-warning = Les pàgines per aquesta llengua poden no estar acabades de traduir. Podeu ajudar amb les traduccions al <pontoonLinkLink>Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Restableix les frases omeses
 sc-settings-skipped-decription = Abans heu omès frases mentre les revisàveu. Si restabliu les frases omeses, es us tornaran a mostrar. Això és independent de la llengua.
 sc-settings-show-all-button = Mostra de nou totes les frases omeses

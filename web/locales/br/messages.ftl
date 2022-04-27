@@ -418,6 +418,7 @@ gravatar_not_found = Gravatar ebet kavet evit ho postel
 file_too_large = Re vras eo ar restr diuzet
 avatar-uploaded = Avatar ezkarget
 max-file-size = { $kb }kb max
+remove-avatar = Dilemel an Avatar
 
 ## Profile - Email
 
@@ -495,6 +496,7 @@ how-does-it-work-text = Sevel a reomp un teskad roadennoù mouezhioù a-stroll. 
 
 ## How does it work section
 
+about-sentence-collection-title = Dastumadeg frazennoù
 about-speak = Komz
 about-speak-text = Ar gendaolerien a enroll klipoù mouezh en ul lenn e-touez un hollad a frazennoù roet.
 about-listen-queue = Roll gortoz
@@ -695,6 +697,9 @@ request-language-success-title = Goulenn yezh kaset gant berzh, trugarez vras de
 request-language-success-content = Mont a raimp e darempred ganeoc’h a-barzh nemeur gant muioc’h a ditouroù war ar mod da ouzhpennañ ho yezh da gCommon Voice.
 select-language = Diuzañ ur yezh...
 other-language = Yezhoù all
+
+## Request Language Pages
+
 
 ## Languages Overview
 

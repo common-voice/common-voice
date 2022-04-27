@@ -404,6 +404,7 @@ gravatar_not_found = Nessun profilo Gravatar associato alla tua email
 file_too_large = Il file selezionato è troppo grande
 avatar-uploaded = Avatar caricato
 max-file-size = max { $kb } kb
+remove-avatar = Rimuovi avatar
 
 ## Profile - Email
 
@@ -756,6 +757,38 @@ request-language-success-title = Richiesta per una nuova lingua inviata. Grazie 
 request-language-success-content = Presto riceverai istruzioni su come aggiungere la tua lingua a Common Voice.
 select-language = Seleziona una lingua…
 other-language = Altra lingua
+
+## Request Language Pages
+
+request-language-heading = Chiedi informazioni su una nuova lingua
+request-language-explanation-1 =
+    Controlla se la tua lingua è disponibile nella <languagesPageLink>pagina Lingue di Common Voice</languagesPageLink>.
+    In caso contrario, compila questo modulo e <strong> ti invieremo un’email che spiega come aggiungerla</strong>.
+request-language-explanation-2 =
+    Inoltre <strong>comunicheremo al nostro responsabile della comunità il tuo interesse</strong>, in modo che possa fornirti
+    ulteriore supporto o le informazioni di cui hai bisogno.
+request-language-form-email =
+    .label = Il tuo indirizzo email
+request-language-form-info =
+    .label = Informazioni sulla lingua
+request-language-form-info-explanation =
+    Aggiungi quante più informazioni possibili sulla lingua. Questo
+    potrebbe includere:
+request-language-form-info-explanation-list-1 = Nomi della tua lingua
+request-language-form-info-explanation-list-2 = <isoCodeLink>Codici ISO</isoCodeLink>, se conosciuti
+request-language-form-info-explanation-list-3 = Link a siti web che possono aiutarci a conoscere meglio la lingua
+request-language-google-recaptcha-required = Per procedere è necessario completare il reCAPTCHA
+request-language-google-recaptcha-error = Si è verificato un errore con reCAPTCHA. Riprova.
+# Success page
+request-language-success-heading = Grazie! Hai inviato la richiesta per una nuova lingua
+request-language-success-list-1 =
+    Dovresti ricevere a breve un’email contenente
+    i passaggi per aggiungere la tua lingua a Common Voice
+request-language-success-list-2 = Il nostro responsabile della comunità ti contatterà per offrirti supporto aggiuntivo e per farti sapere se esiste già una comunità attiva per la tua lingua
+request-language-success-list-3 = Se non ricevi una risposta entro un paio di giorni, scrivici all’indirizzo email <emailLink>{ $email }</emailLink> e ti ricontatteremo.
+request-language-error =
+    Può darsi che non abbiamo ricevuto la tua richiesta. Invia un’email direttamente all’indirizzo
+    <emailLink>{ $email }</emailLink> e ti risponderemo.
 
 ## Languages Overview
 
@@ -1431,7 +1464,6 @@ sc-review-link = Convalida
 
 sc-settings-title = Impostazioni
 sc-settings-ui-language = Lingua dell’interfaccia
-sc-settings-language-translated-warning = Le pagine per questa lingua potrebbero non essere tradotte completamente. Puoi aiutare con la traduzione <pontoonLinkLink>su Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Ripristina le frasi saltate
 sc-settings-skipped-decription = Mentre stavi convalidando hai saltato delle frasi. Il ripristino delle frasi saltate mostrerà di nuovo tutte le frasi saltate. Questo non dipende dalla lingua.
 sc-settings-show-all-button = Mostra di nuovo tutte le frasi saltate
