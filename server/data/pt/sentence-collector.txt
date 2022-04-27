@@ -801,6 +801,7 @@ A felicidade se cansa se alguém a usa por muito tempo nos ombros.
 A felicidade só pode nos levar ao que nos deu.
 A felicidade é como um copo; é mais brilhante, mais frágil.
 A felicidade é uma aliada dos bravos.
+A felizarda foi vencedora do sorteio
 A ferida foi reconhecida grave.
 A fermentação, a fotossíntese e a respiração permaneceram
 A ferramenta de videoconferência não era confiável para reuniões de alto risco.
@@ -990,6 +991,7 @@ A lama jazia profundamente ao longo da rua.
 A legislação brasileira garante, a todas as crianças e adolescentes
 A lei do funil: a largura para mim, o estreito para você.
 A lei islâmica é chamada de shariah.
+A lei que você procura está na última seção do regulamento.
 A lei é a morte do amor.
 A leitura é realmente absurda para você?
 A lente estava pesada em?, mas tinha um zoom incrível.
@@ -1352,6 +1354,7 @@ A piscina estava cheia de cloro.
 A pista parece muito curta para este tipo de avião.
 A plataforma de petróleo afundou no mar.
 A pobreza ama a sociedade.
+A poesia é, em princípio, a arte de escrever em versos.
 A polícia ainda encontrou os corpos de ambos na área de Llanaber.
 A polícia eclodiu da cerca quebrada
 A polícia em uma sociedade multiétnica e a carta de Roterdã.
@@ -1408,6 +1411,7 @@ A primeira seção é o grande teleférico
 A primeira turma será composta pelos ricos.
 A primeira vez que fui tão doloroso
 A principal pintura de uma imagem na rua.
+A princípio, pensava-se que a Terra era o centro do universo.
 A privacidade é algo que devemos exigir.
 A proa do barco separou os seios e os quebrou.
 A probabilidade era mínima
@@ -1519,6 +1523,7 @@ A rádio que mudou, dá-lhe notícias, vídeos, fotos.
 A sabedoria inútil é um duplo absurdo.
 A sabedoria não é herança nem legado.
 A sacola plástica estava rasgada.
+A sala cujas paredes estão manchadas.
 A sala estava cheia de computadores.
 A saliva engoliu em seco.
 A saudade era enorme
@@ -1842,6 +1847,7 @@ Absolutamente de acordo.
 Absolutamente nada
 Abundância mata a fome.
 Abuso de autoridade por parte do partido.
+Acabe com a perda de tempo usando nossa técnica para ser mais produtivo
 Acabei de abrir o link que você enviou para mim.
 Acabei de conhecer no jantar
 Acabei de dizer que estava ocupado com o cachorrinho.
@@ -1869,6 +1875,7 @@ Aceitar doações, subsídios ou subvenções, sejam elas de entidades públicas
 Aceitarão voluntariamente as irmandades às quais são propostos.
 Aceite e saia.
 Aceite sua primeira esposa.
+Aceito seus termos, com um senão: preciso de um prazo maior.
 Aceito, também, essa condição.
 Aceitou finalmente, daí a dias, e foi uma desilusão para Maria Luísa.
 Acelerando a engenharia de instituições médicas
@@ -2198,6 +2205,7 @@ Aida Maria Sales de Oliveira Rocha
 Aildo Augusto Lorentino
 Ailson Pereira Craveiro
 Aimorés
+Ainda anseio por um encontro com ele.
 Ainda assustado, ele correu para atrás do armário.
 Ainda bem que cheguei a tempo.
 Ainda bem que ele tirou o "T" disso.
@@ -2519,6 +2527,7 @@ Alguns podem dizer que, depois de ter paz com a Bretanha, eles nos protegerão.
 Alguns pulando de uma ponte para a água enquanto outros observam da ponte.
 Alguns remédios antivirais podem dar conta disso
 Alguns são raros e os outros são impotentes.
+Alguns tecidos ajudam a absorver melhor o suor na prática de atividades físicas.
 Alguns tinham binóculos.
 Alguns voltam.
 Alguém acidentalmente interrompeu a missão.
@@ -3547,6 +3556,7 @@ Ao colocar os fatos diante do público, acreditamos que verdadeiramente "a verda
 Ao enumerar as pessoas com quem ela queria conversar com?, ela se acalmou.
 Ao esperar pelo avião
 Ao fundo sobre o canapé, estava Rita morta e ensangüentada.
+Ao invés de sair, resolvemos ficar em casa.
 Ao jogar?, as crianças costumam apenas reencenar o que experimentaram antes.
 Ao lado de uma escada
 Ao lado do ensino oficial, o ensino livre.
@@ -4102,9 +4112,11 @@ As bombas deixaram a maior parte da cidade em ruínas.
 As botas de Samantha estavam pesadas e seu peito estava apertando.
 As cabeças foram levantadas das camas.
 As cabras sempre têm uma visão melhor.
+As calças cujos bolsos estão furados precisam ser consertadas.
 As candidaturas de candidatos que tenham uma relação de trabalho remunerada serão excluídas.
 As capelas laterais têm um piso quadrado.
 As cartas dizem-me...
+As casas dos países de clima temperado precisam ser construídas com mais cuidado
 As casas estavam espremidas como sardinhas.
 As casas são construídas com tijolos de barro vermelho.
 As casas são feitas de tijolos de barro vermelho.
@@ -4180,6 +4192,7 @@ As direções são divididas em áreas, e estas, se aplicáveis, em unidades.
 As discussões que têm impacto no bom andamento do trabalho.
 As dotações orçamentárias foram definidas a posteriori
 As duas crianças lentamente recuperaram a serenidade.
+As duas empresas se uniram para atingir interesses afins
 As duas línguas oficiais da comunidade autônoma são valencianas e espanholas.
 As duas meninas e seu pai estão olhando para o caminho.
 As dunas são alteradas pelo vento?, mas o deserto nunca muda.
@@ -4204,7 +4217,9 @@ As expressões básicas, os músculos que intervêm, as combinações e as possi
 As expressões que estão conectadas ao sono estão todas rindo.
 As extremidades estão se tocando.
 As famílias estarão aqui em breve.
+As feiras de alimentos orgânicos vão ao encontro dos produtores locais
 As festas de Páscoa e Natal serão consideradas o dia trabalhado.
+As festas de carnaval incendeiam as ruas da cidade.
 As festas, para muitos, são pragas.
 As figuras assim obtidas constituirão a informação básica sobre a superfície.
 As filhas, para casar com elas, ensinam-nas.
@@ -4501,6 +4516,7 @@ Assim, o congresso abandonou completamente o princípio da tarifa.
 Assim, para esta sentença, pronunciamos, mandamos e assinamos.
 Assim, é impensável que possamos ter, como os franceses, estima pela durabilidade.
 Assine com letras maiúsculas
+Assine nossa newsletter na coluna à esquerda.
 Assis
 Assis Brasil
 Assis Braz
@@ -4511,6 +4527,7 @@ Assis Pereira Soares
 Assis Raimundo de Souza
 Assis Vicente dos Santos
 Assista o relógio
+Assistimos àquilo horrorizadas
 Assistindo a expressão de sua filha triste
 Assistindo a paródia foi ótimo entretenimento.
 Assistindo o sorriso gentil da avó
@@ -8075,6 +8092,7 @@ De todas as reuniões realizadas pela Comissão Conjunta, a ata correspondente s
 De todos os brasileiros.
 De todos os santos ao natal, o inverno formal.
 De todos os santos no Natal perde o padeiro eles estão cheios.
+De trás do armário da cozinha.
 De tudo isso, informará o Secretário de Estado do Turismo e Comércio Interno.
 De um médico profissional
 De um povo heroico o brado retumbante
@@ -8093,6 +8111,7 @@ Decepção psicológica
 Decida-se amar essa criança
 Decidi trazer dinheiro para minha mãe.
 Decididamente eu não tinha a cabeça certa.
+Decidimos fazer uma mousse para a sobremesa no lugar do bolo.
 Decidimos seguir uma nova política.
 Decidindo no meu coração
 Decidiu assistir a cena noturna
@@ -8210,6 +8229,7 @@ Demolição da recusa de destruir a polícia
 Demonstra pouca predisposição para o trabalho.
 Demonstrais determinada opinião
 Demonstre entusiasmo, dedicação e confiança na obtenção dos resultados.
+Demonstrou ser abnegada perante os colegas
 Demora duas horas para treinar este modelo.
 Demorou algum tempo para ele acordar completamente.
 Demorou apenas dois dias para obter a atualização.
@@ -8236,6 +8256,7 @@ Depois da dança eles foram direto para casa.
 Depois da dança, eles foram direto para casa.
 Depois de algumas voltas, encontro um espaço de estacionamento.
 Depois de alguns dias, descobri que a tia é velha.
+Depois de cometer um erro fatal no trabalho, João foi tachado de incompetente.
 Depois de escrever um relatório de bug?, deve-se verificar regularmente se alguém respondeu.
 Depois de executar a calibração?, a precisão é visivelmente melhor.
 Depois de frio, coloque o açúcar por cima e sirva.
@@ -8315,6 +8336,7 @@ Descoberta nova maracutaia
 Descoberto
 Descobri que minha caixa de correio não recebeu a carta.
 Descobrimos que não precisamos nos destacar
+Descobriram-na por acidente.
 Descobriu que algumas pessoas foram organizadas
 Descobriu que as mulheres ainda são afetadas por idéias tradicionais
 Desconectar todos os cabos de rede
@@ -9213,6 +9235,7 @@ Dê cinco de seis estrelas para o The Plucker
 Dê dinheiro para amigos, se você quiser ter inimigos.
 Dê este romance quatro estrelas
 Dê mais duas xícaras de café
+Dê meus cumprimentos ao seu irmão pela formatura.
 Dê nota um como avaliação a essa corporação mesquinha e avarenta
 Dê o diabo o seu devido.
 Dê para mim
@@ -9931,6 +9954,7 @@ Elabora relatórios sobre relações institucionais.
 Elaborar o sistema de auditoria do modelo de acreditação.
 Elane, Tatiana, Thomás, Lavínia e Sávio
 Elas estão saindo melhores que encomenda
+Elas não veem a hora de se encontrar de novo.
 Elas performarão uma apresentação de nu artístico
 Elas proferirão o discurso de antemão
 Elas sofrerão de cólera se permitirem se infectar
@@ -10263,6 +10287,7 @@ Ele nunca viu uma mamadeira até os seis meses de idade.
 Ele não ajudou mais em circunstâncias extraordinárias.
 Ele não amplia gradualmente sua alma como sua casa.
 Ele não assumiu a tarefa de regular as coisas secundárias da sociedade.
+Ele não consegue manter sua linha de raciocínio e faz apartes desnecessários
 Ele não conseguia dormir, ele não conseguia dormir.
 Ele não conseguia pensar nisso.
 Ele não conseguiu captar o som.
@@ -10744,6 +10769,7 @@ Eles levantam seus óculos.
 Eles levantaram os óculos no velho bar.
 Eles lá ficariam nas fazendas.
 Eles mal podiam ver o menino.
+Eles mantêm suas coisas em ordem.
 Eles me deram uma casa em um hotel comigo.
 Eles me ligaram do seu prédio e empréstimo.
 Eles montaram seus cavalos.
@@ -11143,6 +11169,7 @@ Em um quarto de hora.
 Em um tempo de semanas?, estamos indo para a América.
 Em um tom de voz? ou sussurro
 Em uma cidade asiática movimentada, duas mulheres andam e conversam juntas.
+Em uma entrevista de emprego, o ideal é se vestir com mais discrição.
 Em uma hora
 Em uma hora chegaremos
 Em uma mesa redonda não há disputa sobre o lugar.
@@ -11150,6 +11177,7 @@ Em uma panela com bastante óleo, faça os ovos fermentados e separe-os.
 Em vez das férias?
 Em vez de fazer tudo no mundo
 Em vez de viver?
+Em vez disso, vamos para a Nova Zelândia.
 Em virtude disto, usando a autorização concedida pelo artigo cento e quarenta e sete.
 Em última instância e caso o empate persista, a adjudicação será decidida por sorteio.
 Ema hoje lidera o terceiro jogo.
@@ -11226,6 +11254,7 @@ Encolhendo os ombros.
 Encomende a lua em uma enseada.
 Encontrados apenas seis minutos restantes
 Encontrais algo depois de muito procurar
+Encontramo-la embaixo da mesa.
 Encontramos alegria nas coisas mais simples.
 Encontramos o dispositivo em seu gabinete.
 Encontramos o dispositivo no armário.
@@ -11381,6 +11410,7 @@ Entregue a bonequinha de porcelana
 Entreguei meu presente à Fabiana
 Entrelaçamento quântico
 Entrem.
+Entretanto, conseguir deixar a carne no ponto certo não é nada fácil
 Entrevista no local de graduação para jovens
 Entrou e seguiu a trote largo.
 Então
@@ -11516,6 +11546,8 @@ Envie coisas em um saco de papel grosso.
 Envie este arquivo para o Google Drive.
 Envie um depoimento para incorporá-lo às performances.
 Envie-me suas dúvidas para o meu e-mail.
+Enviei o resultado a seu assistente.
+Enviei-lhe o parecer
 Envio de convites: para um mínimo de três pessoas de negócios, sempre que possível.
 Envira
 Envolver se tornou um sucesso nos principais streamings de músicas
@@ -11741,6 +11773,7 @@ Espero que não seja assim.
 Espero que o batimento cardíaco não seja mais urgente.
 Espero que o tempo esteja melhor.
 Espero que você não tenha que vomitar.
+Espero que vocês viajem muito durante o intercâmbio!
 Espero que? você pense duas vezes antes de me dar o deslize no futuro.
 Espero ter me explicado bem.
 Espero viajar no tempo e no espaço
@@ -11813,6 +11846,7 @@ Essa planta está doente.
 Essa posição foi criticada por Smith.
 Essa página do grupo de pesquisa parecia boa, a propósito.
 Essa quase completa libertação da matéria que permite a digitalização
+Essa sala tem três metros de comprimento.
 Essa semelhança não é totalmente casual.
 Essa temporada está muito fraca.
 Essa terra não é boa.
@@ -11885,6 +11919,7 @@ Esse desgosto é naturalmente maior quando o governo é mais absoluto.
 Esse dia quebrou o novo governante.
 Esse dinheiro é verdadeiro, que um homem segura em seu punho.
 Esse emprego oferece férias, décimo terceiro e outros benefícios
+Esse filme é um dos que menos chamaram a atenção no Oscar.
 Esse foi o seu trabalho.
 Esse foi o trabalho útil de outra pessoa.
 Esse homem é seu irmão?
@@ -12022,6 +12057,7 @@ Esta semana, a Mozilla, juntamente com suas comunidades locais, inicia um progra
 Esta senhora do vestido estampado está tirando comida para o jantar.
 Esta seria uma visão muito estreita.
 Esta seção trata das advertências do método proposto.
+Esta super-heroína, diga-se de passagem, está entre as mais poderosas desse universo.
 Esta tendência é muito negativa
 Esta variável é configurada para indicar o horário atual.
 Esta vida pode ser completada?
@@ -12385,6 +12421,7 @@ Estou muito surpreso que o restaurante finalmente consertou o problema de ilumin
 Estou na farmácia.
 Estou nisso há mais de dois anos e ainda estou descobrindo novas ideias.
 Estou no ponto de onibus
+Estou ocupada agora. Não quero, pois, lidar com interrupções.
 Estou orgulhoso de você.
 Estou ouvindo as garotas, que estão com o meu pai?
 Estou perdendo.
@@ -12467,6 +12504,7 @@ Está no nível.
 Está no relatório.
 Está ok
 Está passando vergonha
+Está pendurado detrás da porta.
 Está pensando que travesti é bagunça?
 Está praticamente lá em cima agora.
 Está procurando mais inglês
@@ -13996,6 +14034,7 @@ Executa o processamento da tela, reconhecendo as características técnicas dos 
 Execute os procedimentos para entrar, registrar o retorno e devolver as garantias.
 Execute programas de treinamento específicos para acrobatas no solo ou em dispositivos.
 Executivo sênior
+Exemplificando atitudes de abnegação
 Exemplos de membros parlamentares também foram alvo.
 Exercer o poder de sancionar as infrações nos termos previstos na legislação vigente.
 Exercício de trabalhos semelhantes ao conteúdo técnico e especialização do site solicitado.
@@ -14069,6 +14108,7 @@ Existem, de fato, duas classes de disciplina que não devem ser confundidas.
 Expandir o escopo para graduados do ensino médio
 Expectativas com a saída da chanceler alemã
 Experimentação híbrida
+Experimente essas pulseiras cinza com aqueles lenços creme e pastel.
 Experiência credenciada nas tarefas que são objeto do contrato.
 Experiência de verão está chorando
 Experiência é o melhor professor.
@@ -14125,6 +14165,7 @@ Falou-lhe do amor que os ligava, da beleza de Rita.
 Falso.
 Falsos amigos são piores que inimigos abertos.
 Faltam apenas dez minutos
+Faltam nove meses para que eu me mude novamente.
 Faltam três anos
 Faltou com o decoro parlamentar
 Faltou explicitar o contexto
@@ -14332,6 +14373,7 @@ Fez-se a prestação de contas
 Fez-se o curativo, e tomaram-se as informações.
 Fiat Uno cor prata.
 Fica aqui
+Ficamos de bom humor depois de comer tão bem no restaurante!
 Ficando cada vez mais doloroso
 Ficando mais rápido estava ganhando liberdade.
 Ficando um monte de coisas erradas
@@ -14454,6 +14496,8 @@ Flórida
 Flórida Paulista
 Focaliza esforços e maximiza a eficiência
 Fofocas das olimpíadas
+Fofoqueira maledicente
+Fofoqueiro contumaz
 Fogaréu é uma festa tradicional de Goiás
 Fogo Oliver, fogo cavaleiro.
 Fogo de ramo, fogo de fogo; Firmando fogo, fogo de tormento.
@@ -14493,6 +14537,7 @@ Foi como ver a noiva na décima segunda hora.
 Foi completa idiotice.
 Foi completamente feliz.
 Foi consultar o livro de feitiços
+Foi convocada uma sessão extraordinária no congresso para esta semana
 Foi depois que eles voltaram da pescaria.
 Foi descrito como uma organização secular no começo.
 Foi dos últimos que usaram presilhas no Rio de Janeiro, e talvez neste mundo.
@@ -14940,6 +14985,7 @@ Gorduras saturadas são, em geral, prejudiciais ao nosso organismo
 Gostaria de encontrar o trailer de uma experiência com o tempo
 Gostaria de estudar em Stanford?
 Gostaria de ir em uma viagem comigo?
+Gostaria de saber o porquê dessa algazarra.
 Gostaria de sorvete de creme e flocos
 Gostaria de ter economizado um pouco mais
 Gostaríamos de traduzir mais, mas precisaríamos de mais pessoas.
@@ -14990,6 +15036,7 @@ Grande seco, ótimo encharcado.
 Grandes Rios
 Grandes balões multicoloridos.
 Grandes cidades do Brasil.
+Grandes poderes implicam grandes responsabilidades.
 Granito
 Granja
 Granjeiro
@@ -15129,6 +15176,7 @@ Guilherme e Gabriel eram bons amigos.
 Guilherme, Eloísa, Mônica e Clara
 Guimarânia
 Guimarães
+Guimarães Rosa foi um autor e homem eminente.
 Guinada nas pesquisas muda o rumo da corrida ao Planalto
 Guiou a exposição de desenho da escola de Taipei
 Guiratinga
@@ -15181,6 +15229,7 @@ Havia degraus na escada.
 Havia já cinco minutos que nenhum deles dizia nada.
 Havia luzes nas janelas superiores das casas quando as pessoas foram para a cama.
 Havia montanhas ao longe.
+Havia nove alunas na sala.
 Havia o suficiente para comprar muitas armas.
 Havia realmente? Eu acho que? duas ou trezentas pessoas se acotovelam.
 Havia risinhos do fundo.
@@ -15692,6 +15741,7 @@ Incêndios de fumaça não têm chama e calor.
 Indaiabira
 Indaial
 Indaiatuba
+Independentemente da nossa idade, todos podemos precisar do apoio da família em algum momento.
 Independentemente disso, você pode arquivar qualquer outro recurso.
 Independência
 Indiana
@@ -16078,6 +16128,7 @@ Isso é freqüentemente aplicável a seus próprios erros.
 Isso é fácil de dizer.
 Isso é fácil, disse o garoto.
 Isso é fácil, é uma questão de atitude.
+Isso é hora de estar de pé em um dia de semana? Está tarde!
 Isso é improvável, considerando que tem o nome dele.
 Isso é inaceitável, devemos fazer alguma coisa!
 Isso é incrível!
@@ -16164,6 +16215,7 @@ Isto é para as crianças comerem.
 Isto é para você.
 Isto é possivelmente pensado por muitos conselhos municipais.
 Isto é provavelmente porque os edifícios foram feitos de pedra.
+Isto é ser um bom redator.
 Isto é uma história.
 Isto é verdade especialmente para os homens que vivem em países livres.
 Isto é óbvio.
@@ -16545,6 +16597,7 @@ John ficou muito surpreso.
 Johnathan avaliou a situação com cuidado.
 Joice e Júlia estudam juntas.
 Joinville
+Jonas medeia todos os debates das reuniões.
 Jordi Gil i Pujol, Subdiretor Geral de Assuntos Interdepartamentais, que atuará como presidente.
 Jordânia
 Jordão
@@ -17772,6 +17825,7 @@ Mas recentemente, a visão foi substituída por uma explicação mais detalhada.
 Mas recolho-me e abrando-me.
 Mas requer uma estação na frente da barra quadrada.
 Mas se você fugir, faremos o mesmo.
+Mas se você não estiver propenso a estudar, o silêncio não fará diferença.
 Mas se você tiver que ir antes, o? continuará em busca do seu sonho.
 Mas sentimos falta dos detalhes.
 Mas sou tão desajeitado nas festas.
@@ -17889,6 +17943,7 @@ Mauriti
 Mauá
 Mauá da Serra
 Maués
+Max Müller foi um linguista, orientalista e mitólogo alemão.
 Maxaranguape
 Maximiliano de Almeida
 Maxuel, Alisson, Poliana, Laísa e Ludimila
@@ -18073,6 +18128,7 @@ Mesmo os? fracos quando unidos? se tornam poderosos.
 Mesmo quando tudo que você quer fazer é viajar?
 Mesmo que as ovelhas não me ensinassem a falar árabe.
 Mesmo que eu não fale bem em taiwanês
+Mesmo que haja algum risco, vale a pena investir nesse setor.
 Mesmo que não sejam letais, os efeitos colaterais são preocupantes.
 Mesmo se a neve
 Mesmo se for reeleito, são apenas sete anos.
@@ -18765,6 +18821,7 @@ Na intranet tem mais informações
 Na juventude, eles têm lágrimas sem dor, na era da dor sem lágrimas.
 Na lista estavam: José, João, António, Francisco, Carlos, Paulo, Pedro e Lucas.
 Na manhã de sexta-feira
+Na medida em que sofrem mais com as oscilações de temperatura a cada estação
 Na mesa e na cama, ao primeiro grito.
 Na mesa, ninguém envelhece.
 Na mesa, o homem não olha.
@@ -18873,6 +18930,7 @@ Nas democracias, as peças teatrais são ouvidas, mas não são lidas.
 Nas duas primeiras tentativas, ouvimos apenas seu motivo inicial.
 Nas encostas orientais, destaca-se a presença de pinheiros brancos.
 Nas federações, as disposições do artigo anterior serão aplicadas a elas.
+Nas histórias, as madrastas sempre são más, isto é, têm o coração mau.
 Nas lentilhas, tivemos um aborrecimento especial.
 Nas noites de inverno, havia refugiados naufragados em uma ilha deserta.
 Nas áreas mais montanhosas, o garrigue é freqüente.
@@ -19127,6 +19185,7 @@ No Testamento de São Francisco, aparecem os leprosos, e isso é de notável imp
 No acampamento? foi difícil ver alguma coisa.
 No amor, fugir é a única vitória.
 No ano passado não estava mudando a bateria
+No ano passado, comprei meus presentes com antecedência: a dois meses do Natal.
 No antigo modo de dar conselhos, você tem que ter uma boa aparência.
 No aspecto de seu varejista, depende da livre movimentação de mercadorias.
 No blog de flores
@@ -19954,6 +20013,7 @@ Não pediu diretamente no dia da diferença
 Não pense assim, embora!
 Não pense demais, apenas faça.
 Não perca de novo
+Não perca tempo: compre já o nosso produto
 Não permitiremos vossos regressos
 Não pertence à comissão.
 Não pestaneje
@@ -20033,6 +20093,7 @@ Não se sinta com sorte, não se humilhe em um acidente!
 Não se tratou de um relacionamento consensual
 Não segure mais do que a tua mão vai segurar
 Não sei de nada.
+Não sei de onde veio o barulho.
 Não sei do que se trata.
 Não sei em que dia você costuma ouvir que estava cantando.
 Não sei o que eles querem comigo
@@ -20344,6 +20405,7 @@ Nós fomos levados para muitos otários!
 Nós gostamos de pensar que todos os nossos casos são importantes.
 Nós gostamos e rimos como as pessoas que vimos com o bebê.
 Nós gostaríamos de ver que o tempo irá clarear.
+Nós havíamos colocado seu nome na lista.
 Nós ignoramos os outros pais que não falam francês.
 Nós iremos a El Salvador de férias esta semana.
 Nós iremos direto para Lleida.
@@ -20776,6 +20838,7 @@ O WiFi da escola dela tem uma quantidade ridícula de sites bloqueados.
 O Wilson encerrou a conta da Caixa.
 O Youtube ainda é a melhor plataforma de vídeos.
 O absurdo do pai destroçado
+O acidente acarretou perdas
 O acidente nunca descansa.
 O acidente poderia ter sido evitado se os carros fossem autônomos
 O acidente teve duas causas determinantes
@@ -21009,6 +21072,7 @@ O café já foi entregue na copa
 O café também foi incluído na refeição; Por que eles deveriam se mudar?
 O café tinha um sabor muito forte.
 O calor mais grave, de Nossa Senhora a Mãe de Deus.
+O calor vai aumentando à medida que o verão se aproxima.
 O camelô jurava que era um tênis original
 O caminho através da floresta estava apagado e assustador.
 O caminho batido é o mais seguro.
@@ -21099,6 +21163,7 @@ O cinzeiro estava vazio.
 O cliente está sempre certo.
 O cliente é tão ruim quanto ladrão.
 O clima era cinza.
+O clima está louco: ora faz calor insuportável, ora frio de gelar os ossos.
 O clima está seriamente doente por algum motivo que eu não conhecia.
 O clima na Finlândia é uma droga.
 O clima parece bom.
@@ -21107,6 +21172,7 @@ O cocheiro propôs-lhe voltar à primeira travessa, e ir por outro caminho:
 O cocô morreu, o veneno morreu.
 O cogumelo nasce em outubro, mas é filho de agosto.
 O colaborador prolífico contribuiu com mais de mil commits até hoje.
+O colar tem miçangas azuis, roxas, vermelhas e brancas.
 O comando vermelho atua na comunidade.
 O comando vermelho extorque os comerciantes.
 O comboio da vergonha levou o coronavírus até a Assembleia Geral
@@ -21397,6 +21463,7 @@ O fato é que agora não há nada para pegar.
 O fazendeiro sente falta se ele se afasta da terra.
 O fazendeiro trocou seu cavalo por um boi marrom.
 O feijão tem conotações litúrgicas inevitáveis.
+O felizardo ganhou o prêmio máximo da loteria
 O fenômeno da migração das águas-vivas ocorre anualmente
 O fenômeno que ocorreu na cidade ocorreu em Metz, e isso é tudo.
 O ferreiro tem uma faca, para que o prazo não se rompa.
@@ -21578,6 +21645,7 @@ O homem que está lidando com amigos, ele nunca faltará fadiga.
 O homem que faz o bravo é o último a se submeter.
 O homem que nós lamentamos não fez uma obra incompleta.
 O homem que os comprou na semana passada era americano.
+O homem recolheu seus pertences e foi para casa.
 O homem salta da cadeira.
 O homem sem camisa está sentado numa pedra junto a uma árvore.
 O homem senta-se entre bicicletas ao ajustar o pneu em um.
@@ -21675,6 +21743,7 @@ O juiz pode não pensar assim.
 O juiz sentou-se no tribunal.
 O juizado promulgou uma nova cartilha com instruções normativas
 O jumento é do Manuel.
+O júri descriminou o réu após um julgamento que durou meses.
 O kite mergulhou e balançou?, mas ficou no ar.
 O labirinto torto não conseguiu enganar o rato.
 O ladino está comemorando seu triunfo.
@@ -21875,6 +21944,7 @@ O mesmo regime será aplicado à aquisição de ativos que envolvam endividament
 O mesmo ruído
 O mesmo termo será regido pela adaptação à nomenclatura da nova classificação profissional.
 O mesmo tipo está presente nos painéis cerâmicos da Sala Nova.
+O mesmo vale para outras expressões partitivas
 O mesmo é uma regra que não é falha.
 O mestre deixa o resto.
 O mestre nunca acaba com os salários.
@@ -21967,6 +22037,7 @@ O nome original em inglês deste livro não é tão sensacional.
 O nordeste brasileiro se desenvolve rápido e atrai muitos turistas
 O norte sempre usa o rabo.
 O novo Visual Studio parece lindo.
+O novo colaborador já se implicou em fofocas e confusões.
 O novo começo será milagroso.
 O novo filme do Homem-Aranha será lançado esse ano.
 O novo governo cedeu a província aos rebeldes.
@@ -21974,6 +22045,7 @@ O novo jarro faz a água fresca.
 O novo modelo estrutural aqui preconizado
 O novo portátil parece ter muito desempenho.
 O não cumprimento da despesa mínima definida resultará na revogação do subsídio concedido.
+O não cumprimento da lei pode acarretar multas.
 O não cumprimento desta obrigação determinará a perda de adesão provisória.
 O não cumprimento desta obrigação será a causa do cancelamento do contrato.
 O não cumprimento desta prescrição resultará no cancelamento da autorização.
@@ -22199,6 +22271,7 @@ O principal esforço da alma vai para esta banda.
 O princípio deste método é muito simples
 O problema deve estar bem
 O problema deve ser abordado de outra perspectiva.
+O problema está em eles desobedecerem às ordens.
 O problema foi resolvido.
 O problema que explodiu lá para os dois mil e sete foi evidente.
 O problema é mais sério do que não ter uma infraestrutura específica.
@@ -22606,6 +22679,7 @@ O que é uma Wikipédia galesa?
 O que, basicamente, é um problema político, e a tecnologia também está envolvida aqui.
 O que, se não for?
 O raio chove e o riser o move.
+O rapaz cuja camisa é vermelha.
 O rapaz? acostumado a reconhecer os presságios? falou com o comerciante.
 O rascunho do documento foi falho de muitas maneiras.
 O rato! O rato! exclamou a moça sufocada e afastando-se.
@@ -22849,6 +22923,7 @@ O transistor queimou
 O tratado de Tordesilhas queria dividir o novo mundo.
 O tratamento de pacientes foi realizado com sucesso.
 O tratamento é assim
+O tratamento é feito com ajuda de raios infravermelhos e ultravioleta.
 O trator estava baixando com força.
 O travesseiro macio foi facilitado pela queda de um homem.
 O trem bala entre o Rio de Janeiro e São Paulo será construído.
@@ -23339,6 +23414,7 @@ Ontem conheci o prefeito de Ripoll.
 Ontem ele se sentiu invencível, agora ele está de ressaca.
 Ontem ele se sentiu invencível? agora ele está de ressaca.
 Ontem esperei eternamente pelo trem do metrô.
+Ontem fui chamado para uma conversa à parte com minha chefe.
 Ontem minha esposa comprou novos travesseiros para si mesma.
 Ontem à noite, a loja ao virar da esquina foi roubada.
 Ontem, a carne estava seca e deliciosa.
@@ -23408,6 +23484,7 @@ Os agricultores precisam confiar no dia para comer
 Os agricultores vieram para obter aveia.
 Os alemães costumam frequentar as saunas nus, assim como os japoneses
 Os aliados perderam outra divisão aerotransportada durante o ataque.
+Os alunos implicaram com a professora nova.
 Os alunos tingem suas cores.
 Os amantes se beijam antes de se separarem.
 Os americanos adoram grelhados.
@@ -23690,6 +23767,7 @@ Os oponentes farão todas as flexões necessárias por meio minuto.
 Os orientaremos sobre maternidade e paternidade
 Os pacíficos herdarão a terra.
 Os padeiros têm casas? enquanto os pastores dormem ao ar livre.
+Os padres ouvem as confissões dos fiéis para absolver seus pecados.
 Os pagamentos derivados de pactos de heranças da agricultura familiar não geram esse aumento.
 Os paramédicos retiraram o desfibrilador para reanimar o motociclista.
 Os pardais ficaram tão entusiasmados com as palavras do pai que ninguém conseguia falar.
@@ -24294,6 +24372,7 @@ Para qual Sociedade do Conhecimento?
 Para qual sociedade de conhecimento.
 Para qualquer altura e largura
 Para qualquer um
+Para que a empresa se recupere da crise, é preciso que a administração aja
 Para que prossigamos com a análise das comorbidades
 Para que serve a suplementação com iodo e iodeto?
 Para que serve isso?
@@ -24499,6 +24578,7 @@ Passagem Franca do Piauí
 Passando pela casa dos pais
 Passando pelo mercado de vegetais quando você vai para casa
 Passar por cima
+Passar um bife é simples: basta temperá-lo e jogá-lo na frigideira quente
 Passas custam dinheiro, disse ele afinal, tirando a carteira.
 Passas são deliciosas.
 Passe de pássaro, cana ou milho.
@@ -24927,6 +25007,7 @@ Piau
 Piauí
 Piaçabuçu
 Picada Café
+Picharam o muro da escola. Ainda não se descobriu quem foi.
 Pico Maior da Temporada Direta
 Picos
 Picuí
@@ -25676,6 +25757,7 @@ Precisa ir juntos
 Precisa olhar mais de perto para o dinheiro.
 Precisa que a imigração aumenta.
 Precisa!
+Precisa-se de garçons com experiência.
 Precisamos adiar essa jornada.
 Precisamos chegar a tempo para podermos ver o show.
 Precisamos cortar a grama antes que a gente se perca dentro dela.
@@ -25694,6 +25776,7 @@ Precisamos evacuar o quintal.
 Precisamos falar sobre o racismo
 Precisamos nos apressar.
 Precisamos nos ver mais
+Precisamos passar no banco a fim de fazer um depósito
 Precisamos podar aquela roseira.
 Precisamos quebrar as barreiras físicas que impedem a inovação.
 Precisamos resolver esse problema rapidamente.
@@ -25705,6 +25788,7 @@ Preciso dar, no mínimo, cinco mil passos por dia.
 Preciso de ajuda no final da tarde, a partir de março.
 Preciso encontrar uma maneira de ganhar dinheiro primeiro.
 Preciso falar com meu advogado.
+Preciso falar com você acerca de um problema pessoal.
 Preciso tomar café todo dia pela manhã ou não acordo.
 Preencha a tinta com adesivo.
 Preencha um molde e coloque-o no freezer até que fique preso.
@@ -25774,6 +25858,7 @@ Presidente: o Diretor Geral de Educação, que pode delegar ao Vice-Presidente.
 Presidentes do Brasil.
 Pressione a tecla
 Pressione o pedal com o pé esquerdo.
+Prestaram socorro àquela pessoa imediatamente.
 Prestará assistência técnica aos beneficiários de seu território para a implantação de seus projetos.
 Preste atenção a este campo
 Preste atenção em quem você doa depois de doar
@@ -25892,6 +25977,7 @@ Projetos liderados por grupos de voluntários.
 Projetos que criam ou mantêm mais trabalhos.
 Prometa para a criança, dê-lhe imediatamente.
 Prometa que você nunca mentirá do jeito que o Snoopy fez.
+Prometeu que vem me visitar amanhã.
 Promissão
 Promove ações de integração intersetorial com repercussões na saúde na Comunidade Valenciana.
 Promove conferências de especialistas e conferências, reuniões e exposições.
@@ -25991,6 +26077,7 @@ Pão não é um pequeno risco de tomar banho.
 Pé de Serra
 Pérola
 Pérola d'Oeste
+Põe-no sobre a cômoda.
 Quadra
 Quadrinhos humorísticos
 Quais academias de ginástica estão abertas perto da minha residência?
@@ -26321,6 +26408,7 @@ Quando chegou ao topo da duna? seu coração pulou.
 Quando chove em fevereiro, tudo corre bem.
 Quando chove em julho, chove madeira.
 Quando chove muito, os guarda-chuvas não valem a pena.
+Quando chove muito, pode haver enchentes na cidade.
 Quando choveu, comecei a procurar algo para comer e encontrei o milagre desejado.
 Quando comecei a usar o Dragon?, fiquei chateado por estar restrito ao Windows.
 Quando cozido, deixe esfriar e corte em rolos.
@@ -26990,6 +27078,7 @@ Quem mais faz, perde.
 Quem mais sabe disso?
 Quem meu filho beija, me beija na minha boca.
 Quem mistura-se com porcos, farelo come
+Quem mora em regiões onde acontecem tsunamis fica em perigo iminente após um terremoto.
 Quem mora muito, muita voz
 Quem nem pão nem óleo tem, é um janeiro ruim.
 Quem não alimenta o gato alimenta os ratos.
@@ -27164,6 +27253,7 @@ Quem é esse cara que ela vai se casar?
 Quem é esse com o chapéu?
 Quem é esse homem?
 Quem é esse?
+Quem é mal-humorado está sempre de mau humor!
 Quem é meu mestre, governa
 Quem é muito estreito, a bunda mostra.
 Quem é o Papai Noel?
@@ -28261,6 +28351,7 @@ Se nossos instrumentos tivessem permitido isso, talvez pudéssemos ver o caminho
 Se novembro aumentar, a colheita será boa.
 Se novembro é alto, a colheita é boa.
 Se não chover para Sant Jordi, pouca cevada.
+Se não conseguir chegar, compro seu ingresso e espero-o na entrada das salas.
 Se não estiver gravado
 Se não for explicado
 Se não for possível contratar ninguém, será necessário publicar a oferta de emprego novamente.
@@ -28758,6 +28849,7 @@ Seu dentista ligou ontem.
 Seu descontentamento iria levá-lo no dia seguinte.
 Seu destino estava do outro lado do oceano
 Seu dinheiro nos salvou por três dias.
+Seu discurso fez referência àqueles de seus predecessores.
 Seu discurso terminou com uma ovação de pé.
 Seu discurso terminou em ovações de pé.
 Seu escritório me telefonou para segurá-lo.
@@ -28995,6 +29087,7 @@ Soldado sentado em cima do jipe ​​segurando uma metralhadora e soldado senta
 Soledade
 Soledade de Minas
 Solicite uma solução da Câmara Municipal para não combinar os benefícios com os custos.
+Solicitou mais guardanapos à garçonete
 Solidão
 Solitário nas ruas, contando com caridade para viver
 Solonópole
@@ -29571,6 +29664,7 @@ São licenças de produtos da Microsoft
 São milhares de projetos, protótipos, redes e até mesmo produção acadêmica significativa.
 São necessárias bebidas que podem ser misturadas com café.
 São necessárias duas pessoas para discutir.
+São necessários duzentos gramas de manteiga nessa receita.
 São nove horas.
 São oito horas da manhã.
 São precisos dois para dançar o tango.
@@ -30009,6 +30103,7 @@ Tensão institucional preocupa mercado financeiro
 Tentando melhorar o mundo pulando para cima e para baixo.
 Tentativa de silenciamento com a imprensa
 Tentativa de zerar e neutralizar as emissões de carbono
+Tente chegar pontualmente
 Tente consertar essa fissura com cola.
 Tente conter a sua ira
 Tente de novo.
@@ -30929,6 +31024,7 @@ Um alpinista com um capacete branco está repelindo.
 Um alpinista escala um penhasco enquanto outros assistem.
 Um alpinista se aproxima do topo de uma íngreme face de rocha alta.
 Um alpinista é preso por cordas a uma face de rocha marrom.
+Um ambiente silencioso é mais propício para os estudos.
 Um amigo em perigo é um verdadeiro amigo.
 Um amigo seu?
 Um amigo é mais facilmente perdido do que ele encontrou.
@@ -33414,6 +33510,7 @@ Vender a terra de três pontos herdada do pai
 Vendo musgo
 Vendo o Iluminismo da Arte Moderna de Taiwan
 Vendo um raio de luz no escuro
+Vendê-los-ei amanhã na feira de comércio
 Venha Socorro.
 Venha antes do tempo acordado
 Venha aqui
@@ -33440,6 +33537,7 @@ Venha, você está brincando comigo!
 Venha, vá!
 Venha-Ver
 Venha? deixe-me abraçar você!
+Venho, por meio desta carta, solicitar uma reunião.
 Vens lá a casa hoje à noite?
 Ventania
 Vento leste, traz água na frente.
@@ -33699,6 +33797,7 @@ Você bateu no meu melhor amigo.
 Você caiu quando caiu?
 Você certamente entregou as mercadorias.
 Você checou seu laser?
+Você chegou atrasado hoje e eu quero saber por quê.
 Você chorou enquanto assistia ao Titanic?
 Você colocou algo errado nessas cápsulas.
 Você come chocolate?
@@ -33902,6 +34001,7 @@ Você já sabe qual é o gênero do seu bebê?
 Você já sabe sobre alquimia.
 Você já sabe tudo o que precisa saber.
 Você já se lembrou de coisas tão boas?
+Você já sofreu algum tipo de discriminação racial no trabalho?
 Você já tem trinta mil pesetas.
 Você já tentou doar para um movimento sem fins lucrativos?
 Você já tentou?
@@ -35786,6 +35886,7 @@ zé Doca
 É necessário, portanto, ter cuidado, estar preparado para os desafios que devem surgir.
 É nisso que todos os requisitos regulamentados foram cumpridos.
 É no dia-a-dia escolar que crianças e jovens, enquanto atores sociais
+É normal taxar produtos importados para estimular o consumo interno.
 É o caso de uma nova fórmula química ou de uma invenção mecânica.
 É o chefe das forças aliadas.
 É o exemplo que eu ofereço à Nação brasileira.
