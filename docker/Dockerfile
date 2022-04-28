@@ -1,4 +1,4 @@
-FROM node:12-stretch
+FROM node:16-stretch
 
 ARG COMMIT="local-build"
 ARG TAG=""
