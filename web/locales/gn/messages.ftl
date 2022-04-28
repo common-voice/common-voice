@@ -795,6 +795,13 @@ request-language-success-heading = ¡Aguyje! Emondo ñe’ẽ rehegua porandu
 request-language-success-list-1 =
     Og̃uahẽta ndéve peteĩ ñanduti veve omyesakãtava
     mba’éichapa embojuajúta ne ñe’ẽ Common Voice ndive
+request-language-success-list-3 =
+    ¡Nog̃uahẽiramo ndéve ore marandu ndahetái ára rire,
+    eñe’ẽ <emailLink>{ $email }</emailLink>
+    ndive ha upépe roñe’ẽta nendive!
+request-language-error =
+    Ikatu nog̃uahẽikuri pe nemba’ejerure. Emboukuaa ñanduti veve oréve
+    <emailLink>{ $email }</emailLink>-pe ha uperire roñe’ẽta nendive.
 
 ## Languages Overview
 
