@@ -1109,33 +1109,78 @@ sc-howto-review-criteria-1 = ምሉእ ሓሳባት ብትኽክል ዝተጻሕ
 sc-howto-review-criteria-2 = ምሉእ ሓሳባት ብትኽክል ብትኽክ ሰዋሱ ዝተጻሕፈ ክኸውን ኣልዎ።
 sc-howto-review-criteria-3 = ምሉእ ሓሳባት ክንበብ ዝኽእል ክኸውን ኣልዎ።
 sc-howto-review-criteria-4 = ምሉእ ሓሳባት ነዚ ዘማልአ እንተኾይኑ፣ ኣብ "ኣጽድቕ" ዝብል ጠውቕ።
+sc-howto-review-criteria-5 = ምሉእ ሓሳባት ነቲ መምዘኒታት ዘየማልአ እንተኾይኑ፣ ኣብ "ንጸግ" ጥውቕ። ርግጸኛ እንተዘይኮይንካ ግን፣ ነዚ ነጢርባ ናብ ዝቕጽል ምሉእ ሓሳባት ቀጽል።
+sc-howto-review-criteria-6 = ዝህየስ ምሉእ ሓሳባት እንተተወዲኡ፣ ዝያዳ ምሉእ ሓሳባት ኣብ ምእካብ ሓግዘና!
 
 ## MY SENTENCES
 
+sc-my-no-sentences = ዝኾነ ምሉእ ሓሳባት ኣይተረኽበን!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = ዝተረከበ: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = ምንጪ:  { $source }
+sc-my-delete = ተመሪጹ ዘሎ ምሉእ ሓሳባት ደምስስ
+sc-my-deleting = ተመሪጹ ዘሎ ምሉእ ሓሳባት ደምስስ…
+sc-my-err-failed-delete = ተመሪጹ ዘሎ ምሉእ ሓሳባት ክድምስሶ ኣይከኣልኩን…መሊስካ ፈትን!
 
 ## REJECTED
 
+sc-rejected-title = ዝተነጽገ ምሉእ ሓሳባት
+sc-rejected-loading = ዝተነጽገ ምሉእ ሓሳባት ይጽዓን ኣሎ…
+sc-rejected-err-fetching = ዝተነጽገ ምሉእ ሓሳባት ክጽዓን ከሎ ሽግር ኣጋጢሙ። መሊስካ ፈትን።
+sc-rejected-none-found = ዝተነጽገ ምሉእ ሓሳት የለን!
 
 ## STATS
 
+sc-stats-title = ጸብጻብ
+sc-stats-error = ጸብጻብ ክጸዓን ኣይተኻእለን። ጸኒሕካ ፈትን።
 
 ## ADD
 
+sc-submit-err-select-lang = ቛንቛ ምረጽ
+sc-submit-err-add-sentences = ምሉእ ሓሳብት ኣእቱ
+sc-submit-err-add-source = ምንጪ ኣእቱ
+sc-submit-prompt =
+    .message = ዘእተኻዮ ምሉእ ሓሳባት ኣየረከብካዮን ዘሎኻ፣ ርግጸኛ ኢኻ ኣብዚ ከተቛርጾ?
+sc-submit-title = ምሉእ ሓሳባት ኣእቱ
+sc-submit-select-language =
+    .labelText = ቛንቛ ምረጽ
+sc-submit-ph-one-per-line =
+    .placeholder = ሓንቲ ሕሳባት ኣብ ሓንቲ መስመር
+sc-submit-button =
+    .submitText = ኣረክብ
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = እዚ ቛንቛ ከእትዎ ኣይከኣልኩን።
+sc-add-lang-sec-button = ቛንቛ ኣእቱ
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = ኣረጋግጽ
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = ጠቕላላ ድምር
+sc-lang-info-title-personal = ውልቃዊ
 
 ## LOGIN
 
+sc-login-err-try-again = መሊስካ ፈትን።
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = ድሕረ-ገጽ: { $username }
+sc-personal-your-languages = ቛንቛኻ
+sc-personal-remove-button = ደምስስ
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } ምሉእ ሓሳባት ኣእቲኻ
+sc-personal-not-added = ቛንቛ ኣይመረጽካን ዘሎኻ
 
 ## REVIEW CRITERIA
 
