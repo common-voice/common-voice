@@ -16,6 +16,7 @@ indicates-required = ኣድላዪ ቦታ ይሕብር
 not-available-abbreviation = የለን
 banner-error-slow-1 = ይቕሬታ፡ ኮመን ቮይስ ዝሒሉ ኣሎ። ስለ ተገዳስነትኩም ነመስግን።
 banner-error-slow-2 = ብብዝሒ ተጠቀምቲ ይመጹና ኣለው፡ ነቲ ጠንቅታት ነጻርዮ ኣሎና።
+error-something-went-wrong = ይቕሬታ፡ ገለ ብልሽት ኣጋጢሙ ኣሎ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,6 +41,7 @@ be = ቤላሩስያን
 bg = ቡልጋርያን
 bn = ቤንጋሊ
 br = ብሬቶን
+bs = ቦዝንያዊ
 bxr = ቡርያት
 ca = ካታልያን
 cak = ካክቺከልያን
@@ -68,6 +70,7 @@ fy-NL = ፍሪስያን
 ga-IE = ኣይሪሽ
 gl = ጋሊሽያን
 gn = ጉራኒ
+gom = ጎኣን ኮንካኒ
 ha = ሃውሳ
 he = እብራይስጥ
 hi = ሂንዲ
@@ -91,6 +94,7 @@ kab = ካብይል
 kbd = ካባርድያን
 ki = ኪኪዩ
 kk = ካዛክ
+km = ክህመር
 kmr = ኩርማንጂ ኩርዲሽ
 ko = ኮርያን
 kpv = ኮሚ-ዙርያን
