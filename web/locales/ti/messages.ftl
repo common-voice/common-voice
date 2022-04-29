@@ -1080,15 +1080,35 @@ sc-header-review = ህየሳ
 sc-header-rejected = ዝተነጽገ ሓሳባት
 sc-header-my = ናተይ ሓሳባት
 sc-header-profile = ድሕረ-ገጽ
+sc-footer-report-bugs = ብልሽት ሓብር
+sc-footer-translate = እዛ ገጽ ተርጉማ
+sc-footer-report-copyright = ምጥሓስ መሰል ሓብር
+sc-footer-privacy = ስቱርነት
+sc-footer-terms = ስምምዕ
+sc-footer-cookies = ኩኪታት
+sc-login-signup-button = መእተዊ/መመዝገቢ
+sc-logout-button = መውጽኢ
 
 ## HOME
 
+sc-home-title = ናብ ናይ ኮመን ቮይስ ሓሳባት መአከቢ እንቛዕ ብደሓን መጻእኩም
+sc-home-collect-title = ሓሳባት ኣክብ
+sc-home-review-title = ሓሳባት ሃይስ
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = ብኸመይ .. ትገብር
+sc-howto-addsen-title = ሓድሽ ምሉእ ሓሳባት ኣእቱ
+sc-howto-cite-title = ብኸመይ ናይ ካልኦት ስራሕ እጠቅስ
+sc-howto-review-title = ምሉእ ሓሳባት ሃይስ
+sc-howto-review-subtitle = እዚ ምሉእ ሓሳባት ነዚ ዝስዕብ መምዘኒታት ከም ዘማልእ ኣረጋግጽ፦
+sc-howto-review-criteria-1 = ምሉእ ሓሳባት ብትኽክል ዝተጻሕፈ ክኸውን ኣልዎ።
+sc-howto-review-criteria-2 = ምሉእ ሓሳባት ብትኽክል ብትኽክ ሰዋሱ ዝተጻሕፈ ክኸውን ኣልዎ።
+sc-howto-review-criteria-3 = ምሉእ ሓሳባት ክንበብ ዝኽእል ክኸውን ኣልዎ።
+sc-howto-review-criteria-4 = ምሉእ ሓሳባት ነዚ ዘማልአ እንተኾይኑ፣ ኣብ "ኣጽድቕ" ዝብል ጠውቕ።
 
 ## MY SENTENCES
 
