@@ -410,6 +410,7 @@ about-title = למה Common Voice?
 
 ## How does it work section
 
+about-voice-validation-subtitle = אנשים אחרים מאמתים את המקטעים הקוליים האלה.
 about-speak = דבר
 about-speak-text = מתנדבים מקליטים קטעי קול על ידי הקראה מתוך מאגר של משפטים שנתרמו.
 about-listen-queue = תור האזנה
@@ -421,6 +422,8 @@ about-is-it-valid-text = קטע קולי נחשב „תקף” כאשר מתקב
 about-partners = שותפים
 about-become-a-partner = יצירת שותפות
 about-get-involved = הצטרפות
+about-stay-in-touch = איך אפשר לשמור על קשר?
+about-stay-in-touch-button = הרשמה
 about-nav-why-common-voice = למה?
 about-nav-how-it-works = איך?
 about-nav-partners = שותפים
@@ -430,6 +433,7 @@ about-nav-how-it-works-2 = כיצד פועל Common Voice?
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = מה זו שפה ב־Common Voice?
 
 ## How do I add a language
 
@@ -443,6 +447,7 @@ about-playbook-how-add-sentences = איך אני מוסיף משפטים?
 
 ## How to record quality
 
+about-playbook-how-record-content-3 = יש לקרוא את המשפט בקפידה - לא להשמיט, לשנות או להוסיף מילים.
 
 ## How to grow language
 
@@ -457,6 +462,7 @@ about-playbook-how-grow-language-content-4 = מדיה חברתית
 
 ## How are decisions made
 
+about-playbook-how-project-governance = איך מתקבלות החלטות במיזם?
 about-playbook-how-project-governance-content-3 = פרטיות, אבטחה ושקיפות.
 mycroft-subtitle = בינה מלאכותית
 
@@ -579,6 +585,17 @@ other-language = שפה אחרת
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = כתובת הדוא״ל שלך
+request-language-form-info =
+    .label = מידע על השפה
+request-language-form-info-explanation = נא להוסיף כמה שיותר מידע על השפה. לרבות:
+request-language-form-info-explanation-list-1 = שמות השפה שלך
+request-language-form-info-explanation-list-3 = קישורים לאתרים שיכולים לסייע לנו להבין את השפה
+request-language-google-recaptcha-required = יש לפתור reCAPTCHA כדי להמשיך
+request-language-google-recaptcha-error = משהו השתבש ב־reCAPTCHA. נא לנסות שוב.
+# Success page
+request-language-success-heading = תודה רבה! שלחת שאילתה על שפה חדשה
 
 ## Languages Overview
 
@@ -642,6 +659,7 @@ listen-instruction = { $actionType } <playIcon></playIcon> האם המשפט ב�
 listen-again-instruction = עבודה טובה! <playIcon></playIcon> נא להאזין שוב בזמנך החופשי
 listen-3rd-time-instruction = עברנו 2 <playIcon></playIcon>, קצב טוב!
 listen-last-time-instruction = <playIcon></playIcon> אחרון חביב!
+listen-empty-state = נגמרו לנו ההקלטות לאימות בשפה הזו…
 speak-empty-state-cta = תרומת משפטים
 record-button-label = הקלטת הקול שלך
 share-title-new = נשמח <bold>לסיוע</bold> למצוא קולות נוספים
@@ -833,28 +851,45 @@ sc-howto-review-title = סקירת משפטים
 ## MY SENTENCES
 
 sc-my-title = המשפטים שלי
+sc-my-loading = המשפטים שלך נטענים…
+sc-my-err-fetching = שגיאה במשיכת המשפטים שלך. נא לנסות שוב.
+sc-my-no-sentences = לא נמצאו משפטים!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = מקור: { $source }
 sc-my-delete = מחיקת משפטים נבחרים
+sc-my-deleting = המשפטים הנבחרים נמחקים…
+sc-my-err-failed-delete = מחיקת המשפטים הנבחרים נכשלה… נא לנסות שוב!
 
 ## REJECTED
 
 sc-rejected-title = משפטים שנדחו
+sc-rejected-err-fetching = שגיאה במשיכת המשפטים שנדחו. נא לנסות שוב.
 sc-rejected-none-found = לא נמצאו משפטים שנדחו!
 
 ## STATS
 
 sc-stats-title = סטטיסטיקות
+sc-stats-updating = מתבצע עדכון…
+sc-stats-error = לא הצלחנו למשוך את הסטטיסטיקה. נא לנסות שוב מאוחר יותר.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = אוסף המשפטים של Common Voice אסף { $sentenceCount } משפטים ב־{ $languageCount } שפות!
 
 ## ADD
 
 sc-submit-err-select-lang = נא לבחור שפה.
 sc-submit-err-add-sentences = נא להוסיף משפטים.
 sc-submit-err-add-source = נא להוסיף מקור.
+sc-submit-err-confirm-pd = נא לאשר שהמשפטים האלה הם נחלת הכלל.
+sc-submit-prompt =
+    .message = המשפטים לא הוגשו, לעזוב באמצע התהליך?
 sc-submit-title = הוספת משפטים
 sc-submit-select-language =
     .labelText = בחירת שפה
+sc-submit-ph-one-per-line =
+    .placeholder = משפט אחד בכל שורה
 sc-submit-button =
     .submitText = שליחה
 
@@ -888,6 +923,8 @@ sc-personal-not-added = עדיין לא הוספת שפות.
 
 ## REVIEW CRITERIA
 
+sc-criteria-make-sure = נא לוודא שהמשפט עומד בתנאים הבאים:
+sc-criteria-item-1 = על המשפט להיות מאוית כראוי.
 sc-criteria-item-2 = המשפט חייב להיות נכון מבחינה דקדוקית.
 
 ## REVIEW
