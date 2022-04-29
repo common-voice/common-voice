@@ -1076,6 +1076,10 @@ see-less = <chevron></chevron>ዝዋሓደ ተመልከት
 sc-header-home = ቤት
 sc-header-how-to = ብኸመይ . . ትገብር
 sc-header-add = ወስኽ
+sc-header-review = ህየሳ
+sc-header-rejected = ዝተነጽገ ሓሳባት
+sc-header-my = ናተይ ሓሳባት
+sc-header-profile = ድሕረ-ገጽ
 
 ## HOME
 
