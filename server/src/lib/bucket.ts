@@ -129,7 +129,7 @@ export default class Bucket {
         if (metadata.ContentLength >= 256) {
           clipPromises.push({
             id: id.toString(),
-            glob: path.replace('.mp3', ''),
+            glob: path.replace('.'+getConfig().TRANSCODE.FORMAT, ''),
             sentence: { id: original_sentence_id, text: sentence, taxonomy },
             audioSrc: this.getPublicUrl(path),
           });

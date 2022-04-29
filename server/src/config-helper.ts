@@ -54,6 +54,11 @@ export type CommonVoiceConfig = {
   EMAIL_USERNAME_FROM: string;
   EMAIL_USERNAME_TO: string;
   GOOGLE_RECAPTCHA_SECRET_KEY: string;
+  TRANSCODE: {
+     AUDIO_CODEC: string;
+     FORMAT: string;
+     SAMPLE_RATE: number;
+  };
 };
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -121,6 +126,11 @@ const BASE_CONFIG: CommonVoiceConfig = {
     'CV_GOOGLE_RECAPTCHA_SECRET_KEY',
     null
   ),
+  TRANSCODE: {
+     AUDIO_CODEC: configEntry('CV_TRANSCODE_CODEC', 'mp3'),
+     FORMAT: configEntry('CV_TRANSCODE_FORMAT', 'mp3'),
+     SAMPLE_RATE: configEntry('CV_TRANSCODE_SAMPLE_RATE', 44100),
+  },
 };
 
 let injectedConfig: CommonVoiceConfig;

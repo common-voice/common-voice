@@ -140,7 +140,7 @@ export default class Clip {
       return;
     }
 
-    const glob = clip.path.replace('.mp3', '');
+    const glob = clip.path.replace('.' + getConfig().TRANSCODE.FORMAT, '');
 
     await this.model.db.saveVote(id, client_id, isValid);
     await Awards.checkProgress(client_id, { id: clip.locale_id });
@@ -183,6 +183,7 @@ export default class Clip {
     const source = headers.source || 'unidentified';
     const format = headers['content-type'];
     const size = headers['content-length'];
+    const config = getConfig();
 
     if (!sentenceId || !client_id) {
       this.clipSaveError(
@@ -212,7 +213,7 @@ export default class Clip {
     // Where is our audio clip going to be located?
     const folder = client_id + '/';
     const filePrefix = sentenceId;
-    const clipFileName = folder + filePrefix + '.mp3';
+    const clipFileName = folder + filePrefix + '.' + config.TRANSCODE.FORMAT;
     const metadata = `${clipFileName} (${size} bytes, ${format}) from ${source}`;
 
     if (await this.model.db.clipExists(client_id, sentenceId)) {
@@ -228,12 +229,12 @@ export default class Clip {
     } else {
       // If the folder does not exist, we create it.
       await this.s3
-        .putObject({ Bucket: getConfig().CLIP_BUCKET_NAME, Key: folder })
+        .putObject({ Bucket: config.CLIP_BUCKET_NAME, Key: folder })
         .promise();
 
       let audioInput = request;
 
-      if (getConfig().FLAG_BUFFER_STREAM_ENABLED && format.includes('aac')) {
+      if (config.FLAG_BUFFER_STREAM_ENABLED && format.includes('aac')) {
         // aac data comes wrapped in an mpeg container, which is incompatible with
         // ffmpeg's piped stream functions because the moov bit comes at the end of
         // the stream, at which point ffmpeg can no longer seek back to the beginning
@@ -248,10 +249,10 @@ export default class Clip {
       }
 
       const audioOutput = new Transcoder(audioInput)
-        .audioCodec('mp3')
-        .format('mp3')
+        .audioCodec(config.TRANSCODE.AUDIO_CODEC)
+        .format(config.TRANSCODE.FORMAT)
         .channels(1)
-        .sampleRate(32000)
+        .sampleRate(config.TRANSCODE.SAMPLE_RATE)
         .on('error', (error: string) => {
           this.clipSaveError(
             headers,
@@ -312,7 +313,7 @@ export default class Clip {
 
       await this.s3
         .upload({
-          Bucket: getConfig().CLIP_BUCKET_NAME,
+          Bucket: config.CLIP_BUCKET_NAME,
           Key: clipFileName,
           Body: audioOutput,
         })
