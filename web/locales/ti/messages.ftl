@@ -16,6 +16,7 @@ indicates-required = ኣድላዪ ቦታ ይሕብር
 not-available-abbreviation = የለን
 banner-error-slow-1 = ይቕሬታ፡ ኮመን ቮይስ ዝሒሉ ኣሎ። ስለ ተገዳስነትኩም ነመስግን።
 banner-error-slow-2 = ብብዝሒ ተጠቀምቲ ይመጹና ኣለው፡ ነቲ ጠንቅታት ነጻርዮ ኣሎና።
+banner-error-slow-link = ናይ ሓበሬታ ገጽ
 error-something-went-wrong = ይቕሬታ፡ ገለ ብልሽት ኣጋጢሙ ኣሎ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -1101,6 +1102,7 @@ sc-home-review-title = ሓሳባት ሃይስ
 ## HOW-TO
 
 sc-howto-title = ብኸመይ .. ትገብር
+sc-howto-addlang-title = ከተበርክተሉ እትደሊ ቛንቛ ኣእቱ
 sc-howto-addsen-title = ሓድሽ ምሉእ ሓሳባት ኣእቱ
 sc-howto-cite-title = ብኸመይ ናይ ካልኦት ስራሕ እጠቅስ
 sc-howto-review-title = ምሉእ ሓሳባት ሃይስ
@@ -1135,6 +1137,7 @@ sc-rejected-none-found = ዝተነጽገ ምሉእ ሓሳት የለን!
 ## STATS
 
 sc-stats-title = ጸብጻብ
+sc-stats-updating = ኣብ ምጽዓን…
 sc-stats-error = ጸብጻብ ክጸዓን ኣይተኻእለን። ጸኒሕካ ፈትን።
 
 ## ADD
@@ -1187,9 +1190,20 @@ sc-personal-not-added = ቛንቛ ኣይመረጽካን ዘሎኻ
 sc-criteria-modal = መምዘኒ ረቛሒ
 sc-criteria-title = መምዘኒ ረቛሒ
 sc-criteria-make-sure = እዚ ምሉእ ሓሳባት ነዚ መምዘኒታት ከም ዘማልእ ኣረጋግጽ፡
+sc-criteria-item-1 = ምሉእ ሓሳባት ብትኽክል ዝተጻሕፈ ክኸውን ኣልዎ።
+sc-criteria-item-2 = ምሉእ ሓሳባት ብትኽክል ብትኽክ ሰዋሱ ዝተጻሕፈ ክኸውን ኣልዎ።
+sc-criteria-item-3 = ምሉእ ሓሳባት ክንበብ ዝኽእል ክኸውን ኣልዎ።
+sc-criteria-item-4 = ምሉእ ሓሳባት ነዚ ዘማልአ እንተኾይኑ፣ ኣብ "ኣጽድቕ" ዝብል ጠውቕ።
+sc-criteria-item-5-2 = ምሉእ ሓሳባት ነቲ መምዘኒታት ዘየማልአ እንተኾይኑ፣ ኣብ "ንጸግ" ጥውቕ። ርግጸኛ እንተዘይኮይንካ ግን፣ ነዚ ነጢርባ ናብ ዝቕጽል ምሉእ ሓሳባት ቀጽል።
+sc-criteria-item-6 = ዝህየስ ምሉእ ሓሳባት እንተተወዲኡ፣ ዝያዳ ምሉእ ሓሳባት ኣብ ምእካብ ሓግዘና!
 
 ## REVIEW
 
+sc-review-title = ምሉእ ሓሳባት ሃይስ
+sc-review-loading = ምሉእ ሓሳባት ኣብ ምጽዓን…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = ምንጪ:  { $sentenceSource }
 sc-review-form-button-reject = ንጸግ
 sc-review-form-button-skip = ስገር
 sc-review-form-button-approve = ኣጽድቕ
@@ -1205,7 +1219,15 @@ sc-review-link = ሃይስ
 
 ## SETTINGS
 
+sc-settings-title = ኣማራጺታት
+sc-settings-show-all-button = ዝሰገርክዎ ሓሳባት ኣርእይኒ
+# VALIDATION
+sc-validation-number-of-words = ምሉእ ሓሳባት ካብ 1 ክሳብ 14 ቃላት ክህልዎ ኣለዎ
 sc-validation-no-numbers = ሙልእ ሓሳባት ቑጽሪ ክህልዎ የብሉን
+sc-validation-no-symbols = ምሉእ ሓሳባት ምስልታት ክህልዎ የብሉን
+sc-validation-no-abbreviations = ምሉእ ሓሳባት እሕጽሮተ ቃል ክህልዎ የብሉን
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = ቛንቛ ምረጽ
