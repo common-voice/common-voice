@@ -1184,9 +1184,24 @@ sc-personal-not-added = ቛንቛ ኣይመረጽካን ዘሎኻ
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = መምዘኒ ረቛሒ
+sc-criteria-title = መምዘኒ ረቛሒ
+sc-criteria-make-sure = እዚ ምሉእ ሓሳባት ነዚ መምዘኒታት ከም ዘማልእ ኣረጋግጽ፡
 
 ## REVIEW
 
+sc-review-form-button-reject = ንጸግ
+sc-review-form-button-skip = ስገር
+sc-review-form-button-approve = ኣጽድቕ
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = ህየሳ ዛዝም
+sc-review-link = ሃይስ
 
 ## SETTINGS
 
