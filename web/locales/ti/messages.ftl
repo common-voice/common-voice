@@ -528,17 +528,23 @@ about-get-involved-text-2 =
     ግርም! ብኢ-መይል ወይ ብፎሮም <discourseLink>ዲስኮርስ</discourseLink>
     ጸገማት ብ<githubLink>GitHub</githubLink> ኣቢልካ ሕታማት ወብ ሳይት ኣቕርብ ወይ ኣብቲ ወብ ሳይት ሓብር
     <matrixLink>ማትሪክስ</matrixLink> ማሕበረሰብ ዕላል።
+about-stay-in-touch = ብኸመይ ክንውከሰኩም ንኽእል?
+about-stay-in-touch-button = ተመዝገብ
 about-nav-why-common-voice = ንምንታይ?
 about-nav-how-it-works = ብኸመይ?
 about-nav-partners = መሻርኽቲ
 about-nav-get-involved = ተሳተፍ
+about-nav-how-it-works-2 = ኮመን ቮይስ ብኸመይ ይሰርሕ?
+about-nav-playbook = ብኸመይ ክትሳተፍ ከም እትኽእል ተመሃር
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ኣብ ኮመን ቮይስ ቛንቛ እንታይ ማለት እዩ?
 
 ## How do I add a language
 
+about-playbook-how-add-language = ቛንቛ ብኸመይ ይውስኽ?
 
 ## How does localization work
 
@@ -560,6 +566,12 @@ about-nav-get-involved = ተሳተፍ
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-2 = ኣመራርሓና ኣብዚ ዝተሰረተ እዩ፦
+about-playbook-how-project-governance-content-3 = ስቱርነት፣ ውሕስነትን ግሉጽነትን።
+about-playbook-how-project-governance-content-4 = ኮማዊ ተሳትፎን ምርገጺ ምውሳድን።
+about-playbook-how-project-governance-content-5 = ዋጋን ኣፍልጦ ምሃብን።
+about-playbook-how-project-governance-content-6 = ሓባራዊ ተሓታትነት።
+about-playbook-how-project-governance-content-7 = <governanceLink>ብዛዕባ ኣመራርሓና ዝያዳ ኣንብቡ</governanceLink>
 mycroft-title = ማይክሮፍት
 mycroft-subtitle = ሰብ ዝሰርሖ ብልሒ
 mycroft-description =
@@ -624,6 +636,7 @@ review-delete-recordings = ኣነ ዝቐረጽክዎ ኩሉ ደምስስዎ
 
 ## Datasets Page
 
+datasets-heading = እኩብ ሓበሬታት
 datasets-headline = ዝዀነ ይኹን ሰብ ነቲ ዘረባ ዚጥቀመሉ መወከሲታት ንምስልጣን ኪጥቀመሉ ዚኽእል ክፉት ምንጪ እተፈላለየ ቛንቋታት ዘለዎ ሓበሬታ ድምጺ ንሃንጽ ኣሎና።
 datasets-positioning =
     ሰፊሕን ኣብ ቅድሚ ህዝቢ ተቐባልነት ዘለዎን ሓበሬታ ድምጺ ምህዞን ጥዑይ ንግዳዊ ውድድር ኣብ ማሺን ምምሃር ዝተርመርኮሰ ናይ ድምጺ ቴክኖሎግይ ከም ዜምጽእ ንኣምን ኢና።
@@ -710,6 +723,17 @@ other-language = ካልእ ቛንቛ
 
 ## Request Language Pages
 
+request-language-heading = ብዛዕባ ሓድሽ ቛንቛ ሕተት
+request-language-form-email =
+    .label = ኢመይልኩም
+request-language-form-info =
+    .label = ሓበሬታ ብዛዕባ እዚ ቛንቛ
+request-language-form-info-explanation-list-1 = ኣስማት ናይዚ ቛንቛ
+request-language-form-info-explanation-list-3 = ብዛዕባ እዚ ቛንቛ ዝያዳ ክንርዳእ ክሕግዙና ዝኽእሉ መርበብ ሓበሬታት ጥቐስ
+request-language-google-recaptcha-required = ክትቅጽሉ እንተኾንኩም reCAPTCHA ከድልየኩም እዩ
+request-language-google-recaptcha-error = ምስቲ ዘእተኻዩ reCAPTCHA ገለ ሽግር ኣጋጢሙ፡ መሊስካ ኣእትዉ።
+# Success page
+request-language-success-heading = የቐንየልና! ብዛዕባ ሓድሽ ቛንቛ መመልከቲ ኣእቲኻ ኣሎኻ።
 
 ## Languages Overview
 
@@ -1029,9 +1053,18 @@ contribution-misreadings-title = ግጉይ ንባብ
 contribution-misreadings-description = ክትሰምዕ ከለኻ እቲ እተመዝገበ ብልክዕ እተጻሕፈ እንተ ዀይኑ ተጠንቂቕካ መርምር፣ ንኣሽቱ ጌጋታት እውን እንተ ዀነ ንጸግ። <br / >መብዛሕትኡ ልሙድ ጌጋታት እዚ ዝስዕብ ኢዩ፥
 contribution-misreadings-description-extended-list-1 = ዝኾነ ዝጎደለ ከይህሉ ከም <strong> 'እዩ'</strong> ወይ <strong> 'ኢዮም'</strong>።
 contribution-misreadings-description-extended-list-2 = ኣብ መውዳእታ ናይ ቃል ዝተረስዐ<strong>'ታት'</strong>.
+contribution-misreadings-example-5-title = ቡን ክንሰቲ ንወጽእ ኣሎና።
+contribution-misreadings-example-6-title = ቡን ክንሰቲ ንወጽእ ኣሎና።
+contribution-misreadings-example-7-title = ቡን ክንሰቲ ንወጽእ ኣሎና።
+contribution-misreadings-example-8-title = ባምብልቢ ብፍጥነት ሓሊፉ
+contribution-varying-pronunciations-example-2-title = ኢዱ ተላዒላ ነይራ።
 contribution-background-noise-title = ኣከባያዊ ረበሻታት
 contribution-background-voices-title = ኣከባያዊ ድምጽታት
 contribution-volume-title = ድምጺ
+contribution-reader-effects-title = ጽልዋ ኣንባቢ
+contribution-just-unsure-title = ርግጸኛ ኣይኮንካን?
+see-more = <chevron></chevron>ዝያዳ ተመልከት
+see-less = <chevron></chevron>ዝዋሓደ ተመልከት
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1040,6 +1073,9 @@ contribution-volume-title = ድምጺ
 
 ## HEADER/FOOTER
 
+sc-header-home = ቤት
+sc-header-how-to = ብኸመይ . . ትገብር
+sc-header-add = ወስኽ
 
 ## HOME
 
