@@ -490,10 +490,13 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ስለመንታይ ኮመን ቮይስ?
+how-does-it-work-title-v2 = ኮመን ቮይስ ብኸመይ ይሰርሕ?
 how-does-it-work-text = ወፈራ ምእካብ ናይ ነጻ-ምንጪ ዝኾነ ሓበሬታ ድምጺ ንገብር ኣለና። ድምጽኻ ወፈያ ግበር፡ ንልክዕነት ክሊፕታት ናይ ካልኦት ሰባት ኣረጋግጽ፡ ነቲ ሓበሬታ ንዅሉ  ከዚመሓየሽ ግበር።
 
 ## How does it work section
 
+about-language-req-subtitle = ሐደ ሰብ ሓደ ቛንቛ ንኽውሰኽ ይሓትት።
+about-localization-title = ምትርጓም መርበብ ሓበሬታ
 about-localization-subtitle = ናይ መርበብ ሓበሬታ ጽሑፋት ናብዚ ቛንቛ ተተርጒሙ እዩ።
 about-sentence-collection-title = እኩብ ምሉእ ሓሳባት
 about-sentence-collection-subtitle = ምሉእ ሓሳባት ሰባት ዓው ኢሎም ከንብብዎ እዩ ዝእከብ።
@@ -549,15 +552,19 @@ about-playbook-how-add-language = ቛንቛ ብኸመይ ይውስኽ?
 
 ## How does localization work
 
+about-playbook-how-localize = ምትጓም መርበብ ሓበሬታ ብኸመይ ይሰርሕ?
+about-playbook-how-localize-content-1 = መርበብ ሓበሬታ ኮመን ቮይስ ኣብ <strong>Pontoon</strong> እዩ ዝትርጎም።
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ምሉእ ሓሳባት ብኸመይ የእቱ?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = ማሕበረዊ ገጻት
 
 ## How to validate
 
@@ -1054,6 +1061,11 @@ contribution-misreadings-title = ግጉይ ንባብ
 contribution-misreadings-description = ክትሰምዕ ከለኻ እቲ እተመዝገበ ብልክዕ እተጻሕፈ እንተ ዀይኑ ተጠንቂቕካ መርምር፣ ንኣሽቱ ጌጋታት እውን እንተ ዀነ ንጸግ። <br / >መብዛሕትኡ ልሙድ ጌጋታት እዚ ዝስዕብ ኢዩ፥
 contribution-misreadings-description-extended-list-1 = ዝኾነ ዝጎደለ ከይህሉ ከም <strong> 'እዩ'</strong> ወይ <strong> 'ኢዮም'</strong>።
 contribution-misreadings-description-extended-list-2 = ኣብ መውዳእታ ናይ ቃል ዝተረስዐ<strong>'ታት'</strong>.
+contribution-misreadings-example-1-title = እቶም ዓርሞሽሽ ዳይናሶራት ናይ ትርያሲክ።
+contribution-misreadings-example-2-title = እቲ ዓርሞሽሽ ዳይናሶር ናይ ትርያሲክ።
+contribution-misreadings-example-2-explanation = [‘ዳይናሶራት’ ክኸውን ኣለዎ]
+contribution-misreadings-example-3-title = እቶም ዓርሞሽሽ ዳይናሶራት ናይ ትርያሲክ-።
+contribution-misreadings-example-4-title = እቶም ዓርሞሽሽ ዳይናሶራት ናይ ትርያሲክ። እወ።
 contribution-misreadings-example-5-title = ቡን ክንሰቲ ንወጽእ ኣሎና።
 contribution-misreadings-example-6-title = ቡን ክንሰቲ ንወጽእ ኣሎና።
 contribution-misreadings-example-7-title = ቡን ክንሰቲ ንወጽእ ኣሎና።
@@ -1080,6 +1092,7 @@ sc-header-add = ወስኽ
 sc-header-review = ህየሳ
 sc-header-rejected = ዝተነጽገ ሓሳባት
 sc-header-my = ናተይ ሓሳባት
+sc-header-statistics = ጸብጻብ
 sc-header-profile = ድሕረ-ገጽ
 sc-footer-report-bugs = ብልሽት ሓብር
 sc-footer-translate = እዛ ገጽ ተርጉማ
