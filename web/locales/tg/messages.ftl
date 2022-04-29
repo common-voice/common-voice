@@ -414,6 +414,7 @@ about-nav-get-involved = Ҳамроҳ шудан
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Рӯйдодҳо
 
 ## How to validate
 
