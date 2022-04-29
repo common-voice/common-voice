@@ -1175,6 +1175,7 @@ sc-logout-button = 로그아웃
 ## HOME
 
 sc-home-title = Common Voice Sentence Collector에 오신 것을 환영합니다
+sc-home-intro = 문장 수집기는 <commonVoiceLink>Common Voice</commonVoiceLink>의 일부입니다. 이를 통해 기여자는 커뮤니티에서 생성한 문장을 수집하고 검증할 수 있습니다. 이 도구를 사용하여 찾거나 수집한 중소 규모의 공개 도메인 말뭉치를 가져오고 정리할 수도 있습니다. 모든 문장은 공개 도메인이어야 합니다. 승인된 문장은 매주 Common Voice 리포지토리로 내보내지고 모든 새 배포 시 Common Voice 웹사이트에 공개됩니다.
 sc-home-collect-title = 문장 수집
 sc-home-collect-text = 공개 도메인 문장을 작성하거나 수집하여 저희를 도와주세요.
 sc-home-review-title = 문장 검토
@@ -1189,6 +1190,9 @@ sc-howto-title = 길잡이
 sc-howto-addlang-title = 작업할 언어 추가
 sc-howto-addlang-text = 로그인하면 프로필 섹션에서 언어를 선택할 수 있습니다.
 sc-howto-addsen-title = 새로운 문장 추가
+sc-howto-addsen-item-1 = 제출하는 모든 문장은 <wikipediaLink>공개 도메인(CC-0) 라이선스</wikipediaLink>에 따라야 합니다. 공개 라이선스가 적용되지 않은 저작물의 포함을 지원하기 위해 저작권 소유자가 Common Voice에 자료를 기고하고자 하는 저작물에 대한 <cc0WaiverLink>기여 계약 템플릿</cc0WaiverLink>을 만들었습니다.
+sc-howto-addsen-item-2 = 숫자. 큰 소리로 읽을 때 문제를 일으킬 수 있으므로 원본 텍스트에 숫자가 없어야 합니다. 숫자를 읽는 방법은 컨텍스트에 따라 다르며 데이터 세트에 혼동을 일으킬 수 있습니다. 예를 들어, 숫자 "2409"는 "이사공구"와 "이천사백구" 두 가지로 읽을 수 있습니다.
+sc-howto-addsen-item-3 = 축약어와 두음 어. "USA" 또는 "ICE"와 같은 약어 및 두문자어는 철자와 일치하지 않는 방식으로 읽힐 수 있으므로 원본 텍스트에서 피해야 합니다. 또한 단일 약어에 대해 여러 개의 정확한 판독값이 있을 수 있습니다. 예를 들어, 약어 "ICE"는 "아이-씨-이"로 발음하거나 단일 단어("아이스")로 발음할 수 있습니다.
 
 ## MY SENTENCES
 
