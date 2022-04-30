@@ -1196,6 +1196,12 @@ sc-howto-addsen-item-3 = 축약어와 두음 어. "USA" 또는 "ICE"와 같은 �
 sc-howto-addsen-item-4 = 구두점. 특수 기호와 구두점은 반드시 필요한 경우에만 포함되어야 합니다. 예를 들어, 아포스트로피는 "don't" 및 "we're"와 같은 영어 단어에 포함되고 원문 텍스트에 포함되어야 하지만 "@" 또는 "#"과 같은 특수 기호가 필요할 가능성은 거의 없습니다.
 sc-howto-addsen-item-5 = 외국어 문자. 문자는 사용하는 언어로 유효해야 합니다. 예를 들어, "ж"는 러시아 알파벳의 문자이지만 영어에서는 절대 사용되지 않으므로 영어 원문 텍스트에 나타나서는 안 됩니다.
 sc-howto-addsen-item-6 = 언어는 추가로 요구되는 사항과 함께 <validationRulesLink>자체 유효성 검사 규칙</validationRulesLink>을 가질 수 있습니다. 언어에 대한 특정 유효성 검사 파일이 없는 경우 일반 영어 규칙을 사용합니다.
+sc-howto-addsen-post-1 = 우리는 자연스러운/대화 문장을 선호합니다. 발음의 다양성과 문장의 다른 단어도 중요하지만 가능한 재미있게 문장을 녹음하려고 노력하고 있습니다. 따라서 문장을 가능한 자연스럽고 매력적으로 유지하려고 노력한다면 좋습니다.
+sc-howto-cite-title = 인용하는 방법
+sc-howto-cite-pre-1 = 표절을 방지하고 <copyrightIssuesLink>저작권 문제</copyrightIssuesLink>에 대한 후속 조치를 허용하려면 발견한 공용 라이선스 위치를 참조하는 것이 중요합니다. 다음은 작업을 인용할 수 있는 몇 가지 방법입니다.
+sc-howto-cite-item-1 = 웹사이트를 포함할 수 있습니다. 예를 들어 "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = 학술적 참조 스타일을 사용할 수 있습니다. 예를 들어 Harvard 스타일 "Mozilla(2021) Common Voice. https://commonvoice.mozilla.org/ 에서 사용 가능(접근: 2021년 9월 15일)"
+sc-howto-cite-item-3 = 온라인에서 사용할 수 없는 공개 도메인 텍스트의 경우, Harvard 스타일 "Jess (2021) My Public license 시"와 같은 학술적 참조 스타일을 사용할 수 있습니다.
 
 ## MY SENTENCES
 
