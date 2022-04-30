@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Heɓ iimeeluuji hono ciiftinooji ko fad-m
 email-opt-in-privacy-v2 = Suɓaade heɓde iimeeliiji firti ko aɗa yahdi e kuutoragol Mozilla ngoo humpito hono no facciraa e <privacyLink>Dawirgol Duturo</privacyLink> Mozilla.
 indicates-required = * Joofii ko gallol baɗɗingol
 not-available-abbreviation = N/A
+banner-error-slow-1 = Ɗaccu hakke, Common Voice ena leeli. A jaaraama e golle maa.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,7 +37,6 @@ ba = Bashkirs
 bas = Basaa
 be = Belarusian
 bg = Bulgarian
-bm = Bambara
 bn = Bengali
 br = Breton
 bxr = Buryat
@@ -448,12 +448,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Ko saabii Common Voice?
-about-subtitle = Common Voice jeyaa ko e eɓɓooje Mozilla ballooje janngide masiŋaaji no yimɓe kaaldata e jaati. Takko Leemre keɓe Common Voice ndee, min ngoni kadi ko e mahde  masiŋ keftinirgol haala udditiiɗo ena wiyee Deep Speech.
-about-header-description =
-    Ɗee-ɗoo eɓɓoje ɗiɗi kala njeyaa ko e darnde amen ngam sukkude yolnde peecol karalle haala. Karalle keftingol sawto ɓeydat e kaɓirɗi men fannu neɗɗaŋke, kono topayɓe ena cokli keɓe sawto moolanaaɗe keewal ngam mahde ɗe. E oo sahaa, ko heewi e ɗeen keɓe ena tiiɗi njaru etee ko jeyi keeriiɗo.
-    Min njiɗi ko waɗde haa keɓe sawto heɓoo e wellitaare kam e peñcu, tawa amin ndaranii keɓe ɗee ena noddi limlimtam yimɓe e jaati. Eɗen fof mbaawi beydude moƴƴugol keftingol sawto.
-how-does-it-work-title = Hol no ɗum gollortoo?
 how-does-it-work-text = Amin nodda ballondiral e leemre keɓe sawtooji.  Hokkir sawto maa, jaalɗin ceeɓndam lefon yimɓe woɗɓe, waɗ leemre keɓe ndee ɓeydoo moƴƴanɗe mo woni kala.
+
+## How does it work section
+
 about-speak = Haal
 about-speak-text = Wallitooɓe nanngitto lefon sawto so tarde iwɗe e gerngal konnguɗi dokkaaɗi.
 about-listen-queue = Doggol cabbiiɗe keɗagol
@@ -486,6 +484,34 @@ about-nav-why-common-voice = Hol sabaabu?
 about-nav-how-it-works = Hol noon?
 about-nav-partners = Gollidiiɓe
 about-nav-get-involved = Ar yantu e amen
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Ƴoyre tafaande
 mycroft-description =
@@ -585,8 +611,6 @@ subscribe = Lulno
 get-started-speech = Fuɗɗoro ɗoo e Keftinirgol Haalaa
 other-datasets = Leeme Keɓe Sawto Goɗɗe
 feedback-q = Aɗa jogii duttinal?
-deepspeech-info = Leemre keɓe Common Voice ndee timminat masiŋ keftinirgol sawto udditiiɗo hono Deep Speech,  mo mbaaw-ɗaa huutoraade ngam mahde jaaɓnirɗe keftinirgol haala. Tar <githubLink> tonngol Github</githubLink> amen walla njantaa e <discourseLink>Discourse DeepSpeech </discourseLink> ngam ekkaade no fuɗɗortee.
-common-voice-info-new = Aɗa jogii naamne baɗte Common Voice? Mijjoji ƴellitgol walla duttine baɗte ɗemngal keeringal? Yantu e amen to <discourseLink>forum Discourse</discourseLink> amen toh kisa nganndinaa-min.
 data-other-librispeech-description = LibriSpeech ko ndoɓordi ngigiindi hakke waktuuji 1000 haala Engeleere taraande itaande e defte hito to eɓɓoore LibriVox toh.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Ndoɓordi TED-LIUM waɗiraa ko jeewte ojoo e binnditte mum keɓotooɗe to lowre TED toh.
@@ -630,6 +654,9 @@ request-language-success-title = Naamnal ɗemngal naatnaama no haanirta, a jaara
 request-language-success-content = Ma min njokkondir e maa e humpito woɗngo baɗte no ɓeydirtaa ɗemngal maa e Common Voice ko yaawi.
 select-language = Labo ɗemngal...
 other-language = Ɗemngal goɗngal
+
+## Request Language Pages
+
 
 ## Languages Overview
 
@@ -863,6 +890,9 @@ why-delete-recordings =
     Aɗa waawi anndinde min ko waɗ-maa yiɗde momtude nanngite maa?
 profile-form-delete = Momtu Heftinirde
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = On njaɓɓaama gollanooɓe { $company }!
@@ -906,3 +936,62 @@ demo-listen-subtitle = Aɗa hebii wallitde?
 
 demo-dashboard-card-header = Tiimtorde heeriinde ena hollu maa ko ɓuri hesɗude e taabagol neɗɗo walla renndo fof.
 demo-dashboard-card-body = Kala lefel sawto dokkangel, e kala lefel ojoo jaalɗinangel, tiimtorde konte maa hesɗitinte ngam hollude taaɓagol maa cakkitiingol e ɗemɗe kala ngal mballittaa. Eey, aɗa waawi wallitde e ko ɓuri ɗemngal gootal!<br/><br/> Huutoro tiimtorde ngam rewindaade limte maa, njiyaa no golle maa mbaadi e woɗɓe e renndo ngoo, kisa taƴaa paandaale ballitte ñalngu walla yontere.
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
