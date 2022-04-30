@@ -1,7 +1,9 @@
 ## General
 
+return-to-cv = ܕܥܪ ܠܩܠܐ ܓܘܢܝܐ
 email-input =
     .label = ܐܓܪܬܐ ܐܠܝܩܛܪܘܢܝܬܐ
+submit-form-action = ܫܕܪ
 loading = ܡܛܥܢܬܐ ...
 not-available-abbreviation = ܠܐ ܡܬܬܥܒ݂ܕܢܐ
 
@@ -140,12 +142,43 @@ faq-how-get-q = ܕܐܟ݂ܝ ܟܐ ܩܢܝܢ ܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ؟
 
 ## ABOUT US
 
+
+## How does it work section
+
 about-speak = ܡܠܠ
 about-dataset-new = ܣܕܪܐ ܕܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ
 about-partners = ܫܘܬܦܝ̈ܐ
 about-become-a-partner = ܗܘܐ ܫܘܬܦܐ
 about-nav-how-it-works = ܐܝܟܢܐ؟
 about-nav-partners = ܫܘܬܦܝ̈ܐ
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -173,6 +206,9 @@ contact-form-message =
 contact-required = ܘܠܝܝܐ*
 
 ## Request Language Modal
+
+
+## Request Language Pages
 
 
 ## Languages Overview
@@ -239,6 +275,9 @@ keep = ܢܛܪ
 
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO
