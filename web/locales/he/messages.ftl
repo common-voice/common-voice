@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = קבלת הודעות בדוא״ל כגו
 email-opt-in-privacy-v2 = בחירה בקבלת הודעות דוא״ל מביעה את הסכמתך ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla.
 indicates-required = * מסמן שדה נחוץ
 not-available-abbreviation = לא זמין
+banner-error-slow-1 = Common Voice פועל באטיות, עמך הסליחה ותודה על הבעת העניין.
+error-something-went-wrong = משהו השתבש, עמך הסליחה
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -75,6 +77,7 @@ hy-AM = ארמנית
 hyw = ארמנית מערבית
 ia = אינטרלינגואה
 id = אינדונזית
+ie = אינטרלינגואֶה
 is = איסלנדית
 it = איטלקית
 izh = איז׳ורית
@@ -82,12 +85,16 @@ ja = יפנית
 ka = גאורגית
 kab = קבילית
 kbd = קברדינית
+ki = קיקויו
 kk = קזחית
+km = חמרית / קמבודית
 kmr = כורדית קורמנג׳ית
+knn = קונקאני (דֶּוַונַאגַּרִי)
 ko = קוריאנית
 kpv = קומי־זיר
 kw = קורנית
 ky = קירגיזית
+lb = לוקסמבורגית
 lg = לוגנדה
 lij = ליגורית
 lt = ליטאית
@@ -105,10 +112,13 @@ ms = מלאית
 mt = מלטית
 my = בורמזית
 myv = ארזיה
+nan-tw = טייוואנית (מינן)
 nb-NO = נורווגית ספרותית
 ne-NP = נפאלית
+nia = ניאס
 nl = הולנדית
 nn-NO = נורווגית חדשה
+nyn = ‏‏ניאנקולה
 oc = אוקסיטנית
 or = אורייה
 pa-IN = פנג׳אבי
@@ -118,7 +128,9 @@ ps = פשטו
 pt = פורטוגלית
 ro = רומנית
 ru = רוסית
+rw = קיניַרואנדה
 sah = סאחה
+sat = סנטאלי (אול צ׳יקי)
 sc = סרדינית
 scn = סיציליאנית
 shi = תשלחית
@@ -138,6 +150,7 @@ th = תאילנדית
 tl = טאגאלוג
 tr = טורקית
 tt = טטארית
+tw = טווי
 uby = אוביחית
 udm = אודמורטית
 ug = אויגור
@@ -179,6 +192,7 @@ logout = התנתקות
 ## Home Page
 
 home-title = מיזם Common Voice הוא יזמה של Mozilla לטובת סיוע ללימוד מכונות איך מדברים אנשים אמיתיים.
+default-tagline = Common Voice מבית Mozilla הוא יזמה לטובת סיוע ללימוד מכונות איך מדברים אנשים אמתיים.
 home-cta = דברו בקול רם, כאן ניתן לתרום!
 wall-of-text-start = קול זה טבעי, קול זה אנושי. לכן מרתק אותנו הרעיון של יצירת טכנולוגיית קול שמישה עבור המכונות שלנו. אך כדי ליצור מערכות קול, נדרשת כמות גדולה של נתוני קול.
 wall-of-text-more-mobile = רוב הנתונים בהם ארגונים גדולים משתמשים אינם זמינים לקהל הרחב. אנו חושבים שנדרשת כאן חשיבה מחדש. לכן, השקנו את מיזם Common Voice, מיזם שיסייע לפתוח את עולם הזיהוי הקולי לכולם.
@@ -354,6 +368,7 @@ gravatar_not_found = לא נמצא gravatar עבור כתובת הדוא״ל ש�
 file_too_large = הקובץ שנבחר גדול מדי
 avatar-uploaded = נשלחה תמונה ייצוגית
 max-file-size = { $kb } ק״ב לכל היותר
+remove-avatar = הסרת דמות מייצגת
 
 ## Profile - Email
 
@@ -930,6 +945,8 @@ sc-criteria-item-2 = המשפט חייב להיות נכון מבחינה דקד
 ## REVIEW
 
 sc-review-title = סקירת משפטים
+sc-review-loading = המשפטים נטענים…
+sc-review-select-language = נא לבחור שפה כדי לסקור משפטים.
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = מקור: { $sentenceSource }
@@ -938,12 +955,26 @@ sc-review-form-button-skip = דילוג
 sc-review-form-button-approve = אישור
 sc-review-form-button-submit =
     .submitText = סיום הסקירה
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] לא סקרת משפטים.
+        [one] סקרת משפט אחד. תודה רבה!
+       *[other] סקרת { $sentences } משפטים. תודה רבה!
+    }
+sc-review-form-review-failure = לא ניתן היה לשמור את הסקירה. נא לנסות שוב מאוחר יותר.
 sc-review-link = סקירה
 
 ## SETTINGS
 
 sc-settings-title = הגדרות
 sc-settings-ui-language = שפת ממשק
+sc-settings-failed = לא ניתן היה לשנות את ההגדרות. נא לנסות שוב.
+# VALIDATION
+sc-validation-number-of-words = המשפט חייב להכיל בין 1 ל־14 (כולל) מילים
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = בחירה בשפה/תרגום
