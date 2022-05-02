@@ -521,6 +521,7 @@ about-playbook-how-add-language = Hvordan tilføjer jeg et sprog?
 
 ## How does localization work
 
+about-playbook-how-localize-content-4 = Siden er klar til at blive lanceret, når den opnår 75 % fuldførelse.
 about-playbook-how-localize-content-5 = Se vores videoforklaring for hjælp
 
 ## How to add sentences
@@ -547,6 +548,9 @@ about-playbook-how-access-dataset = Hvordan får jeg adgang til og gør brug af 
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = Privatliv, sikkerhed og gennemsigtighed.
+about-playbook-how-project-governance-content-5 = Værdi og anerkendelse.
+about-playbook-how-project-governance-content-6 = Gensidig ansvarlighed.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kunstig intelligens
 mycroft-description =
@@ -647,6 +651,7 @@ subscribe = Abonnér
 get-started-speech = Kom godt i gang med talegenkendelse
 other-datasets = Andre stemme-datasæt
 feedback-q = Har du feedback?
+resource-coqui-info = <coquiLink>Coqui</coquiLink> er dedikeret til åben taleteknologi. Deres projekter omfatter deep learning-baserede STT- og TTS-motorer.
 data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus er lavet på baggrund af taler og deres transskriptioner fra TED's websted.
@@ -937,6 +942,10 @@ download-q = Har du brug for at downloade dine data?
 download-info = Fortæl os, hvad du vil downloade:
 download-profile-title = Profil
 download-profile-size = Nogle få bytes
+download-recordings-title = Optagelser
+download-recordings-info = Indeholder mp3'er og relaterede sætninger. Kan tage lidt tid at forberede
+download-recordings-unavailable = Du kan ikke anmode om dine optagelser, mens en anden anmodning allerede er i gang.
+download-recently-requested = Du kan anmode om en ny udtagning af dine optagelser hver { $days }. dag.
 download-size = Størrelse
 download-selected = Valgt
 download-start = Download profildata
@@ -944,8 +953,10 @@ download-request = Anmod om optagelser
 download-requests = Anmodninger om download af tidligere optagelser
 download-requests-info = Når du anmoder om dine optagelser, samler vi dem til en eller flere ZIP-filer. Her er dine tidligere anmodninger:
 download-request-title = { $created }
+download-request-archive-single = Enkelt ZIP-fil, der indeholder
 download-request-refresh-button = Genindlæs
 download-request-link-text = Zip nr. { $offset } af { $total }
+download-request-link-single = Du kan også kopiere og indsætte de direkte URL'er i din foretrukne downloadmanager. De udløber om 12 timer, men du kan til enhver tid vende tilbage til denne side for at generere nye.
 
 ## Landing
 
