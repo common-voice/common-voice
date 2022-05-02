@@ -36,9 +36,9 @@ ba = Bashkirsk
 bas = Basa
 be = Hviderussisk
 bg = Bulgarsk
-bm = Bambara
 bn = Bengalsk
 br = Bretonsk
+bs = Bosnisk
 bxr = Burjatisk
 ca = Catalansk
 cak = Kaqchikel
@@ -78,6 +78,8 @@ hy-AM = Armensk
 hyw = Vestarmensk
 ia = Interlingua
 id = Indonesisk
+ie = Iinterlingue
+ig = Igbo
 is = Islandsk
 it = Italiensk
 izh = Izhorian
@@ -86,12 +88,15 @@ ka = Georgisk
 kaa = Karakalpakisk
 kab = Kabylisk
 kbd = Kabardian
+ki = Kikuyu
 kk = Kasakhisk
+km = Khmer
 kmr = Kurmanji
 ko = Koreansk
 kpv = Komi
 kw = Cornisk
 ky = Kirgisisk
+lb = Luxembourgsk
 lg = Ganda
 lij = Ligurisk
 lt = Litauisk
@@ -432,12 +437,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Hvorfor Common Voice?
-about-subtitle = Common Voice er en del af Mozillas initiativ, der skal hjælpe maskiner med at forstå, hvordan mennesker snakker i virkeligheden. Udover Common Voice-datasættet bygger vi også en open source-tjeneste til talegenkendelse ved navn Deep Speech.
-about-header-description =
-    Begge projekter er en del af vores forsøg på at gøre digital tale-teknologi mere tilgængeligt. Teknologi, der kan genkende stemmer, giver vores computere og telefoner en mere menneskelig dimension - men udviklerne bag teknologierne har brug for enorme mængder stemmedata for at kunne bygge dem. I øjeblikket er hovedparten af disse data både dyre og underlagt ophavsret.
-    Vi vil gøre stemmedata offentligt tilgængelige - gratis. Data skal repræsentere, hvor forskellige folk faktisk er. Sammen kan vi gøre stemmegenkendelse bedre for alle.
-how-does-it-work-title = Hvordan fungerer det?
 how-does-it-work-text = Vi crowdsourcer et open source-datasæt med stemmer. Donér din stemme, vurdér nøjagtigheden af andre menneskers optagelser, og gør datasættet bedre for alle.
+
+## How does it work section
+
 about-speak = Tal
 about-speak-text = Bidragsydere optager stemmeoptagelser ved at læse dem op fra en samling af donerede sætninger.
 about-listen-queue = Lytte-kø
@@ -468,6 +471,34 @@ about-nav-why-common-voice = Hvorfor?
 about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
 about-nav-get-involved = Bliv involveret
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kunstig intelligens
 mycroft-description =
@@ -567,8 +598,6 @@ subscribe = Abonnér
 get-started-speech = Kom godt i gang med talegenkendelse
 other-datasets = Andre stemme-datasæt
 feedback-q = Har du feedback?
-deepspeech-info = Datasættet fra Common Voice supplerer Deep Speech, en open source-tjeneste til stemmegenkendelse fra Mozilla, som du kan bruge til at bygge software, der gør brug af stemmegenkendelse. Få <githubLink>overblik over projektet på Github</githubLink> eller deltag i <discourseLink>diskussionen om Deepspeech på Discourse</discourseLink> for at komme godt i gang.
-common-voice-info-new = Har du spørgsmål om Common Voice? Ideer til forbedringer eller feedback om et specifikt sprog? Deltag i vores <discourseLink>Discourse-forum</discourseLink> og fortæl os det.
 data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus er lavet på baggrund af taler og deres transskriptioner fra TED's websted.
@@ -612,6 +641,9 @@ request-language-success-title = Din anmodning om et nyt sprog er modtaget. Tak!
 request-language-success-content = Vi kontakter dig snart med oplysninger om, hvordan du tilføjer dit sprog til Common Voice.
 select-language = Vælg et sprog...
 other-language = Andet sprog
+
+## Request Language Pages
+
 
 ## Languages Overview
 
@@ -843,6 +875,9 @@ why-delete-recordings =
     Kan du fortælle os, hvorfor du vil have dine optagelser slettet?
 profile-form-delete = Slet profil
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Velkommen til medarbejdere fra { $firma }!
@@ -886,3 +921,62 @@ demo-listen-subtitle = Klar til at bidrage?
 
 demo-dashboard-card-header = Personlige dashboards holder dig opdateret med din individuelle og fællesskabets fremskridt.
 demo-dashboard-card-body = For hvert doneret stemmeklip og hvert lydklip, der valideres, opdateres dine dashboards for at afspejle dine seneste fremskridt på hvert sprog, du bidrager til. Ja, du kan bidrage til mere end et! <br/> <br/> Brug dashboards til at spore din statistik, se hvordan du klarer dig sammen med andre i fællesskabet, og indstil daglige eller ugentlige bidragsmål.
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
