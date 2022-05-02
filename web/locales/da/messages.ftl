@@ -978,6 +978,7 @@ contribution-misreadings-example-8-explanation = [Ikke matchende indhold]
 contribution-varying-pronunciations-title = Forskellige udtaler
 contribution-background-noise-title = Baggrundsstøj
 contribution-background-noise-example-1-fixed-title = <strong>[Nys]</strong> De gigantiske dinosaurer i <strong>[hoste]</strong> trias.
+contribution-background-noise-example-2-fixed-title = Den gigantiske dino <strong>[hoste]</strong> trias.
 contribution-background-noise-example-2-explanation = [En del af teksten kan ikke høres]
 contribution-background-voices-title = Baggrundsstemmer
 contribution-volume-title = Lydstyrke
@@ -1001,21 +1002,42 @@ sc-footer-discourse = Discourse
 sc-footer-report-bugs = Rapportér fejl
 sc-footer-translate = Oversæt denne side
 sc-footer-privacy = Privatliv
+sc-footer-terms = Betingelser
+sc-footer-cookies = Cookies
+sc-login-signup-button = Log ind/Tilmeld dig
+sc-logout-button = Log ud
 
 ## HOME
 
+sc-home-review-title = Gennemgå sætninger
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-addsen-title = Tilføj nye sætninger
+sc-howto-review-title = Gennemgå sætninger
+sc-howto-review-subtitle = Sørg for, at sætningen opfylder følgende kriterier:
+sc-howto-review-criteria-1 = Sætningen skal være stavet korrekt.
+sc-howto-review-criteria-2 = Sætningen skal være grammatisk korrekt.
+sc-howto-review-criteria-3 = Sætningen skal kunne siges.
+sc-howto-review-criteria-4 = Hvis sætningen opfylder kriterierne, skal du klikke på knappen "Godkend".
+sc-howto-review-criteria-5 = Hvis sætningen ikke opfylder ovenstående kriterier, skal du klikke på knappen "Afvis". Hvis du er usikker på sætningen, kan du også springe den over og gå videre til den næste.
+sc-howto-findpd-tips = Her er nogle tips til at finde sætninger:
 
 ## MY SENTENCES
 
+sc-my-title = Mine sætninger
+sc-my-loading = Indlæser dine sætninger...
+sc-my-err-fetching = Fejl under hentning af dine sætninger. Prøv igen.
+sc-my-no-sentences = Ingen sætninger fundet!
+sc-my-delete = Slet valgte sætninger
+sc-my-deleting = Sletter valgte sætninger...
 
 ## REJECTED
 
+sc-rejected-title = Afviste sætninger
 
 ## STATS
 
