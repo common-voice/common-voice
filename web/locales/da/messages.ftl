@@ -910,6 +910,10 @@ profile-form-delete = Slet profil
 
 download-profile-title = Profil
 download-profile-size = Nogle få bytes
+download-size = Størrelse
+download-request-title = { $created }
+download-request-refresh-button = Genindlæs
+download-request-link-text = Zip nr. { $offset } af { $total }
 
 ## Landing
 
@@ -957,6 +961,13 @@ demo-dashboard-card-body = For hvert doneret stemmeklip og hvert lydklip, der va
 
 ## Validation criteria
 
+contribution-background-noise-title = Baggrundsstøj
+contribution-background-noise-example-2-explanation = [En del af teksten kan ikke høres]
+contribution-background-voices-title = Baggrundsstemmer
+contribution-volume-title = Lydstyrke
+contribution-just-unsure-title = Bare usikker?
+see-more = <chevron></chevron>Se mere
+see-less = <chevron></chevron>Se mindre
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -965,6 +976,11 @@ demo-dashboard-card-body = For hvert doneret stemmeklip og hvert lydklip, der va
 
 ## HEADER/FOOTER
 
+sc-header-add = Tilføj
+sc-header-rejected = Afviste sætninger
+sc-header-my = Mine sætninger
+sc-header-statistics = Statistikker
+sc-header-profile = Profil
 
 ## HOME
 
