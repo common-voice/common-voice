@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Modtag e-mails med påmindelser om udford
 email-opt-in-privacy-v2 = Ved at tilmelde dig e-mails accepterer du, at Mozilla håndterer disse oplysninger som forklaret i Mozillas <privacyLink>privatlivspolitik</privacyLink>.
 indicates-required = * Betyder at feltet skal udfyldes
 not-available-abbreviation = Ikke tilgængelig
+banner-error-slow-link = Statusside
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -491,10 +492,12 @@ about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
 about-nav-get-involved = Bliv involveret
 about-nav-how-it-works-2 = Hvordan fungerer Common Voice?
+about-nav-playbook = Lær hvordan du deltager
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Hvad er et sprog på Common Voice?
 
 ## How do I add a language
 
@@ -502,9 +505,11 @@ about-playbook-how-add-language = Hvordan tilføjer jeg et sprog?
 
 ## How does localization work
 
+about-playbook-how-localize-content-5 = Se vores videoforklaring for hjælp
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Hvordan tilføjer jeg sætninger?
 
 ## How to record quality
 
@@ -512,6 +517,7 @@ about-playbook-how-add-language = Hvordan tilføjer jeg et sprog?
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Begivenheder
+about-playbook-how-grow-language-content-4 = Sociale medier
 about-playbook-how-grow-language-content-6 = Partnerskaber og netværk
 
 ## How to validate
@@ -961,7 +967,17 @@ demo-dashboard-card-body = For hvert doneret stemmeklip og hvert lydklip, der va
 
 ## Validation criteria
 
+contribution-for-example = for eksempel
+contribution-misreadings-title = Fejllæsninger
+contribution-misreadings-description-extended-list-2 = Mangler et <strong>'s'</strong> i slutningen af et ord.
+contribution-misreadings-description-extended-list-4 = Mangler slutningen af det sidste ord ved at afbryde optagelsen for hurtigt.
+contribution-misreadings-description-extended-list-5 = Tager flere forsøg på at læse et ord.
+contribution-misreadings-example-3-explanation = [Optagelse afbrudt før slutningen af det sidste ord]
+contribution-misreadings-example-4-explanation = [Der er blevet optaget mere end den påkrævede tekst]
+contribution-misreadings-example-8-explanation = [Ikke matchende indhold]
+contribution-varying-pronunciations-title = Forskellige udtaler
 contribution-background-noise-title = Baggrundsstøj
+contribution-background-noise-example-1-fixed-title = <strong>[Nys]</strong> De gigantiske dinosaurer i <strong>[hoste]</strong> trias.
 contribution-background-noise-example-2-explanation = [En del af teksten kan ikke høres]
 contribution-background-voices-title = Baggrundsstemmer
 contribution-volume-title = Lydstyrke
@@ -981,6 +997,10 @@ sc-header-rejected = Afviste sætninger
 sc-header-my = Mine sætninger
 sc-header-statistics = Statistikker
 sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Rapportér fejl
+sc-footer-translate = Oversæt denne side
+sc-footer-privacy = Privatliv
 
 ## HOME
 
