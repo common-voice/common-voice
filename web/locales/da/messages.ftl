@@ -680,6 +680,7 @@ request-language-form-email =
     .label = Din mailadresse
 request-language-form-info =
     .label = Information om sproget
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koder</isoCodeLink> hvis kendt
 request-language-google-recaptcha-required = reCAPTCHA er påkrævet, hvis du vil fortsætte
 request-language-google-recaptcha-error = Noget gik galt med reCAPTCHA. Prøv igen.
 
@@ -971,6 +972,7 @@ demo-dashboard-card-body = For hvert doneret stemmeklip og hvert lydklip, der va
 
 ## Validation criteria
 
+contribution-criteria-nav = Kriterier
 contribution-for-example = for eksempel
 contribution-misreadings-title = Fejllæsninger
 contribution-misreadings-description-extended-list-2 = Mangler et <strong>'s'</strong> i slutningen af et ord.
@@ -1048,6 +1050,7 @@ sc-rejected-none-found = Ingen afviste sætninger fundet!
 
 ## STATS
 
+sc-stats-updating = Opdaterer…
 
 ## ADD
 
@@ -1090,6 +1093,24 @@ sc-confirm-rejected-by-you = { $countOfInvalidated } afvist af dig
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = I alt
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Ingen sætninger i alt.
+        [one] En sætning i alt.
+       *[other] { $totalSentences } sætninger i alt.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Ingen sætninger tilbage, som du kan gennemgå.
+        [one] En sætning tilbage, som du kan gennemgå.
+       *[other] { $unreviewedSentencesByYou } sætninger tilbage, som du kan gennemgå.
+    }
+sc-lang-info-review-now = <reviewLink>Gennemse nu!</reviewLink>
+sc-lang-info-add-more = <addLink>Tilføj flere sætninger nu!</addLink>
 
 ## LOGIN
 
@@ -1126,9 +1147,12 @@ sc-review-form-source = Kilde: { $sentenceSource }
 sc-review-form-button-reject = Afvis
 sc-review-form-button-skip = Spring over
 sc-review-form-button-approve = Godkend
+sc-review-form-button-submit =
+    .submitText = Afslut gennemgang
 
 ## SETTINGS
 
+sc-settings-title = Indstillinger
 
 # [/SentenceCollector]
 
