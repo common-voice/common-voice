@@ -1039,6 +1039,7 @@ sc-howto-addsen-title = Tilføj nye sætninger
 sc-howto-addsen-item-2 = Tal. Der bør ikke være cifre i kildeteksten, fordi de kan give problemer, når de læses højt. Måden et tal læses på afhænger af kontekst og kan skabe forvirring i datasættet. For eksempel kunne tallet "2409" læses nøjagtigt som både "fireogtyve nul ni" og "to tusinde fire hundrede ni".
 sc-howto-addsen-item-3 = Forkortelser og akronymer. Forkortelser og akronymer som "USA" eller "ICE" bør undgås i kildeteksten, fordi de kan læses på en måde, der ikke stemmer overens med deres stavemåde. Derudover kan der være flere nøjagtige aflæsninger for en enkelt forkortelse. For eksempel kunne akronymet "ICE" udtales "I-C-E" eller som et enkelt ord.
 sc-howto-addsen-item-5 = Udenlandske bogstaver. Bogstaver skal være gyldige på det sprog, der tales. For eksempel er "ж" et bogstav i det russiske alfabet, men det bruges aldrig på dansk og bør derfor aldrig forekomme i nogen dansk kildetekst.
+sc-howto-addsen-item-6 = Sprog kan have deres <validationRulesLink>egne valideringsregler</validationRulesLink> med yderligere krav. Hvis der ikke er nogen specifik valideringsfil for et sprog, bruger vi de generiske engelske regler.
 sc-howto-review-title = Gennemgå sætninger
 sc-howto-review-subtitle = Sørg for, at sætningen opfylder følgende kriterier:
 sc-howto-review-criteria-1 = Sætningen skal være stavet korrekt.
