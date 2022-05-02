@@ -464,11 +464,13 @@ how-does-it-work-text = Vi crowdsourcer et open source-datasæt med stemmer. Don
 
 ## How does it work section
 
+about-new-lang-title = Lancering af nyt sprog
 about-voice-contrib-title = Stemmebidrag
 about-voice-contrib-subtitle = Folk kommer og bidrager med deres stemmer.
 about-voice-validation-title = Stemmevalidering
 about-voice-validation-subtitle = Andre mennesker validerer disse stemmeklip.
 about-dataset-release-title = Udgivelse af datasæt
+about-subscribe-text = Vil du holde kontakten med Common Voice?
 about-speak = Tal
 about-speak-text = Bidragsydere optager stemmeoptagelser ved at læse dem op fra en samling af donerede sætninger.
 about-listen-queue = Lytte-kø
@@ -495,7 +497,9 @@ about-get-involved = Bliv involveret
 about-get-involved-text-2 =
     Vil du hjælpe med at gøre Common Voice endnu bedre?
     Det er vi glade for at høre! Send os en mail eller kig forbi vores forum på <discourseLink>Discourse</discourseLink>, indberet fejl med hjemmesiden på <githubLink>GitHub</githubLink> eller kom og vær med  på vores fælles-chat på <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Hvordan holder jeg kontakten?
 about-stay-in-touch-button = Tilmeld dig
+about-stay-in-touch-text-2 = Du kan møde andre i Mozilla-sprogfællesskaberne ved at deltage i <discourseLink>Discourse</discourseLink> for aktuelle samtaler eller benytte <matrixLink>Matrix</matrixLink> for at få hurtige råd.
 about-nav-why-common-voice = Hvorfor?
 about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
@@ -507,6 +511,9 @@ about-nav-playbook = Lær hvordan du deltager
 ## What is a language
 
 about-playbook-what-is-language = Hvad er et sprog på Common Voice?
+about-playbook-what-is-language-content-1 = Der er mange måder at tænke sprog på. Med henblik på talegenkendelsesmodeller foreslår Common Voice at fokusere på 'gensidig forståelighed', eller 'kan talere af dette sprog for det meste forstå hinanden, hvis de prøver på det?'
+about-playbook-what-is-language-content-2 = Vi ønsker, at talemodeller skal være bedre til at forstå en bred vifte af talere. For at dette kan ske, skal et stemmedatasæt repræsentere mange forskellige mennesker.
+about-playbook-what-is-language-content-3 = Nogle sprog har enorm variation i grammatik, ordforråd og udtale. Af denne grund <ctaLink>introducerer vi 'Varianter'</ctaLink> i 2022. Dette giver fællesskaber en måde at skelne mellem deres sprogs varianter inden for det større datasæt.
 
 ## How do I add a language
 
