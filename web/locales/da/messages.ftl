@@ -294,6 +294,7 @@ shortcut-record-toggle-label = Optag/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Optag igen
 shortcut-discard-ongoing-recording = Esc
+shortcut-discard-ongoing-recording-label = Kassér igangværende optagelse
 shortcut-submit = Retur
 request-language-text = Kan du ikke finde dit sprog på Common Voice?
 request-language-text-learn = Lær hvordan du anmoder om det her!
@@ -914,9 +915,12 @@ profile-form-delete = Slet profil
 
 ## Profile Download
 
+download-q = Har du brug for at downloade dine data?
+download-info = Fortæl os, hvad du vil downloade:
 download-profile-title = Profil
 download-profile-size = Nogle få bytes
 download-size = Størrelse
+download-start = Download profildata
 download-request-title = { $created }
 download-request-refresh-button = Genindlæs
 download-request-link-text = Zip nr. { $offset } af { $total }
@@ -1038,18 +1042,44 @@ sc-my-deleting = Sletter valgte sætninger...
 ## REJECTED
 
 sc-rejected-title = Afviste sætninger
+sc-rejected-loading = Indlæser afviste sætninger...
+sc-rejected-err-fetching = Fejl under hentning af afviste sætninger. Prøv igen.
+sc-rejected-none-found = Ingen afviste sætninger fundet!
 
 ## STATS
 
 
 ## ADD
 
+sc-submit-title = Tilføj sætninger
+sc-submit-ph-one-per-line =
+    .placeholder = En sætning pr. linje
 
 ## ADD LANGUAGE
 
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Afgivne sætninger. { $duplicates } sætninger blev afvist som dubletter.
+        [one] Afgivne sætninger. { $duplicates } sætning blev afvist som dublet.
+       *[other] Afgivne sætninger. { $duplicates } sætninger blev afvist som dubletter.
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Bekræft nye sætninger
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Ingen sætning fundet.
+        [one] En sætning fundet.
+       *[other] { $countOfSentences } sætninger fundet.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } afvist af dig
 
 ## LANGUAGE INFO
 
