@@ -1070,6 +1070,7 @@ sc-howto-addsen-item-2 = Tal. Der bør ikke være cifre i kildeteksten, fordi de
 sc-howto-addsen-item-3 = Forkortelser og akronymer. Forkortelser og akronymer som "USA" eller "ICE" bør undgås i kildeteksten, fordi de kan læses på en måde, der ikke stemmer overens med deres stavemåde. Derudover kan der være flere nøjagtige aflæsninger for en enkelt forkortelse. For eksempel kunne akronymet "ICE" udtales "I-C-E" eller som et enkelt ord.
 sc-howto-addsen-item-5 = Udenlandske bogstaver. Bogstaver skal være gyldige på det sprog, der tales. For eksempel er "ж" et bogstav i det russiske alfabet, men det bruges aldrig på dansk og bør derfor aldrig forekomme i nogen dansk kildetekst.
 sc-howto-addsen-item-6 = Sprog kan have deres <validationRulesLink>egne valideringsregler</validationRulesLink> med yderligere krav. Hvis der ikke er nogen specifik valideringsfil for et sprog, bruger vi de generiske engelske regler.
+sc-howto-cite-item-1 = Du kan inkludere webstedet, f.eks. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Gennemgå sætninger
 sc-howto-review-subtitle = Sørg for, at sætningen opfylder følgende kriterier:
 sc-howto-review-criteria-1 = Sætningen skal være stavet korrekt.
@@ -1078,6 +1079,8 @@ sc-howto-review-criteria-3 = Sætningen skal kunne siges.
 sc-howto-review-criteria-4 = Hvis sætningen opfylder kriterierne, skal du klikke på knappen "Godkend".
 sc-howto-review-criteria-5 = Hvis sætningen ikke opfylder ovenstående kriterier, skal du klikke på knappen "Afvis". Hvis du er usikker på sætningen, kan du også springe den over og gå videre til den næste.
 sc-howto-findpd-tips = Her er nogle tips til at finde sætninger:
+sc-howto-findpd-tips-1 = De bedste kilder, du kan lede efter, er podcasts, transskriptioner, filmmanuskripter og alt, hvad der potentielt kan indeholde hverdagssamtaler.
+sc-howto-findpd-tips-3 = Desværre kan vi ikke have Wikipedia-artikler endnu. Så lad være med at kopiere ind derfra.
 
 ## MY SENTENCES
 
@@ -1110,6 +1113,8 @@ sc-stats-error = Vi kunne ikke hente statistikkerne. Prøv igen senere.
 ## ADD
 
 sc-submit-title = Tilføj sætninger
+sc-submit-select-language =
+    .labelText = Vælg sprog
 sc-submit-ph-one-per-line =
     .placeholder = En sætning pr. linje
 sc-submit-button =
@@ -1175,6 +1180,7 @@ sc-confirm-unreviewed = { $countOfUnreviewed } sætninger er ikke gennemgået. H
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = I alt
+sc-lang-info-title-personal = Personlig
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
