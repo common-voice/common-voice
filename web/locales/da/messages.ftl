@@ -14,7 +14,10 @@ email-opt-in-info-sub-with-challenge = Modtag e-mails med påmindelser om udford
 email-opt-in-privacy-v2 = Ved at tilmelde dig e-mails accepterer du, at Mozilla håndterer disse oplysninger som forklaret i Mozillas <privacyLink>privatlivspolitik</privacyLink>.
 indicates-required = * Betyder at feltet skal udfyldes
 not-available-abbreviation = Ikke tilgængelig
+banner-error-slow-1 = Beklager, Common Voice arbejder langsomt. Tak for din interesse.
+banner-error-slow-2 = Vi modtager meget trafik og er i øjeblikket ved at undersøge sagerne.
 banner-error-slow-link = Statusside
+error-something-went-wrong = Noget gik galt
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
