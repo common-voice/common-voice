@@ -515,6 +515,7 @@ about-playbook-how-localize-content-5 = Se vores videoforklaring for hjælp
 ## How to add sentences
 
 about-playbook-how-add-sentences = Hvordan tilføjer jeg sætninger?
+about-playbook-how-add-sentences-content-2 = Sætninger skal gennemgås og accepteres af to personer for at blive inkluderet i Common Voice. Du opretter retningslinjer for dit sprog <languageGuidelinesLink>her</languageGuidelinesLink>. Sætninger skal være i det <licenseLink>offentlige domæne</licenseLink> og være kortere end 15 ord. Du kan bede ejeren af en tekst om at gøre den til <waiverLink>CC0 ved hjælp af vores afståelsesproces</waiverLink> og sende den til os på commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-4 = Sætninger, der er blevet valideret, eksporteres om onsdagen og er tilgængelige efter næste udgivelse.
 
 ## How to record quality
@@ -926,7 +927,10 @@ download-info = Fortæl os, hvad du vil downloade:
 download-profile-title = Profil
 download-profile-size = Nogle få bytes
 download-size = Størrelse
+download-selected = Valgt
 download-start = Download profildata
+download-request = Anmod om optagelser
+download-requests = Anmodninger om download af tidligere optagelser
 download-request-title = { $created }
 download-request-refresh-button = Genindlæs
 download-request-link-text = Zip nr. { $offset } af { $total }
