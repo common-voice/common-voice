@@ -534,6 +534,7 @@ about-playbook-how-add-sentences-content-4 = Sætninger, der er blevet valideret
 
 ## How to record quality
 
+about-playbook-how-record-content-5 = <accuracyLink>Se mere om nøjagtighedskriterier.</accuracyLink>
 
 ## How to grow language
 
@@ -546,6 +547,7 @@ about-playbook-how-grow-language-content-6 = Partnerskaber og netværk
 about-playbook-how-validate = Hvordan ved jeg, om jeg skal godkende et stemmeklip?
 about-playbook-how-validate-content-1 = Hvis du kunne <strong>høre dem</strong> og <strong>forstå dem</strong>, er det normalt <strong>bedst at godkende</strong>.
 about-playbook-how-validate-content-2 = <strong>Afvis ikke klip, hvor indtaleren 'har en accent', der er anderledes end din egen</strong> - dette er vigtigt for, at stemmegenkendelse fungerer bedre for alle.
+about-playbook-how-validate-content-3 = Hvis du mener, at udtalen gør det <strong>umuligt at forstå</strong>, eller der er <strong>meget baggrundsstøj</strong>, eller der er <strong>andre mennesker, der også taler</strong>, så bør du afvise klippet. <accuracyLink>Se flere oplysninger i vores nøjagtighedskriterier</accuracyLink>.
 
 ## How to access dataset
 
@@ -1083,6 +1085,12 @@ sc-my-title = Mine sætninger
 sc-my-loading = Indlæser dine sætninger...
 sc-my-err-fetching = Fejl under hentning af dine sætninger. Prøv igen.
 sc-my-no-sentences = Ingen sætninger fundet!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Indsendelse: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Kilde:  { $source }
 sc-my-delete = Slet valgte sætninger
 sc-my-deleting = Sletter valgte sætninger...
 
@@ -1095,13 +1103,17 @@ sc-rejected-none-found = Ingen afviste sætninger fundet!
 
 ## STATS
 
+sc-stats-title = Statistikker
 sc-stats-updating = Opdaterer…
+sc-stats-error = Vi kunne ikke hente statistikkerne. Prøv igen senere.
 
 ## ADD
 
 sc-submit-title = Tilføj sætninger
 sc-submit-ph-one-per-line =
     .placeholder = En sætning pr. linje
+sc-submit-button =
+    .submitText = Indsend
 
 ## ADD LANGUAGE
 
@@ -1116,6 +1128,14 @@ sc-add-result =
         [0] Afgivne sætninger. { $duplicates } sætninger blev afvist som dubletter.
         [one] Afgivne sætninger. { $duplicates } sætning blev afvist som dublet.
        *[other] Afgivne sætninger. { $duplicates } sætninger blev afvist som dubletter.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Ingen sætning mislykkedes
+        [one] 1 sætning mislykkedes
+       *[other] { $sentences } sætninger mislykkedes
     }
 sc-add-err-submission = Indsendelsesfejl
 sc-add-lang-process-notice = Hvis dit sprog ikke er angivet her, kan du anmode om det gennem <languageProcessLink>denne proces</languageProcessLink>.
@@ -1134,6 +1154,23 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } afvist af dig
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ingen sætninger er allerede gennemgået.
+        [one] En sætning er allerede gennemgået. Godt arbejde!
+       *[other] { $countOfReviewed } sætninger er allerede gennemgået. Godt arbejde!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Ingen sætninger er klar til indsendelse!
+        [one] En sætning er klar til indsendelse!
+       *[other] { $readyCount } sætninger er klar til indsendelse!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } sætninger er ikke gennemgået. Hvis du vil, kan du også gennemgå dine sætninger nu, inden du indsender dem.
 
 ## LANGUAGE INFO
 
