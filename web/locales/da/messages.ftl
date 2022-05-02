@@ -999,6 +999,7 @@ see-less = <chevron></chevron>Se mindre
 
 ## HEADER/FOOTER
 
+sc-header-home = Hjem
 sc-header-add = Tilføj
 sc-header-rejected = Afviste sætninger
 sc-header-my = Mine sætninger
@@ -1157,10 +1158,18 @@ sc-review-form-reviewed-message =
         [one] En sætning gennemgået. Tak skal du have!
        *[other] { $sentences } sætninger gennemgået. Tak skal du have!
     }
+sc-review-link = Gennemgang
 
 ## SETTINGS
 
 sc-settings-title = Indstillinger
+sc-settings-reset-skipped = Nulstil oversprungne sætninger
+sc-settings-skipped-decription = Du har tidligere sprunget sætninger over, mens du gennemgik. Nulstilling af oversprungne sætninger vil vise alle oversprungne sætninger igen. Dette er uafhængigt af sproget.
+sc-settings-show-all-button = Vis alle oversprungne sætninger igen
+sc-settings-failed = Kunne ikke ændre indstillinger. Prøv igen.
+sc-validation-no-numbers = Sætning bør ikke indeholde tal
+sc-validation-no-symbols = Sætning bør ikke indeholde symboler
+sc-validation-no-abbreviations = Sætning bør ikke indeholde forkortelser
 
 # [/SentenceCollector]
 
