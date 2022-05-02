@@ -1057,6 +1057,10 @@ sc-submit-ph-one-per-line =
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Kunne ikke tilføje sprog
+sc-add-lang-sec-label = Tilføj et sprog, du vil bidrage til
+sc-add-lang-sec-button = Tilføj sprog
+sc-add-err-unexpected = Uventet svar fra server
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
@@ -1065,6 +1069,8 @@ sc-add-result =
         [one] Afgivne sætninger. { $duplicates } sætning blev afvist som dublet.
        *[other] Afgivne sætninger. { $duplicates } sætninger blev afvist som dubletter.
     }
+sc-add-err-submission = Indsendelsesfejl
+sc-add-lang-process-notice = Hvis dit sprog ikke er angivet her, kan du anmode om det gennem <languageProcessLink>denne proces</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1083,18 +1089,43 @@ sc-confirm-rejected-by-you = { $countOfInvalidated } afvist af dig
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = I alt
 
 ## LOGIN
 
+sc-login-err-failed = Login mislykkedes
+sc-login-err-try-again = Prøv igen.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-your-languages = Dine sprog:
+sc-personal-remove-button = fjern
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } tilføjet af dig
+sc-personal-not-added = Du har ikke tilføjet nogen sprog endnu.
 
 ## REVIEW CRITERIA
 
+sc-criteria-make-sure = Sørg for, at sætningen opfylder følgende kriterier:
+sc-criteria-item-1 = Sætningen skal være stavet korrekt.
+sc-criteria-item-2 = Sætningen skal være grammatisk korrekt.
+sc-criteria-item-3 = Sætningen skal kunne siges.
+sc-criteria-item-4 = Hvis sætningen opfylder kriterierne, skal du klikke på knappen &quot;Godkend&quot; til højre.
+sc-criteria-item-5-2 = Hvis sætningen ikke opfylder ovenstående kriterier, skal du klikke på knappen &quot;Afvis&quot; til venstre. Hvis du er usikker på sætningen, kan du også springe den over og gå videre til den næste.
 
 ## REVIEW
 
+sc-review-loading = Indlæser sætninger...
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Kilde: { $sentenceSource }
+sc-review-form-button-reject = Afvis
+sc-review-form-button-skip = Spring over
+sc-review-form-button-approve = Godkend
 
 ## SETTINGS
 
