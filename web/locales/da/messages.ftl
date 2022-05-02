@@ -1149,6 +1149,14 @@ sc-review-form-button-skip = Spring over
 sc-review-form-button-approve = Godkend
 sc-review-form-button-submit =
     .submitText = Afslut gennemgang
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ingen sætninger gennemgået.
+        [one] En sætning gennemgået. Tak skal du have!
+       *[other] { $sentences } sætninger gennemgået. Tak skal du have!
+    }
 
 ## SETTINGS
 
