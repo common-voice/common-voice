@@ -464,6 +464,7 @@ how-does-it-work-text = Vi crowdsourcer et open source-datasæt med stemmer. Don
 
 ## How does it work section
 
+about-dataset-release-title = Udgivelse af datasæt
 about-speak = Tal
 about-speak-text = Bidragsydere optager stemmeoptagelser ved at læse dem op fra en samling af donerede sætninger.
 about-listen-queue = Lytte-kø
@@ -514,6 +515,7 @@ about-playbook-how-localize-content-5 = Se vores videoforklaring for hjælp
 ## How to add sentences
 
 about-playbook-how-add-sentences = Hvordan tilføjer jeg sætninger?
+about-playbook-how-add-sentences-content-4 = Sætninger, der er blevet valideret, eksporteres om onsdagen og er tilgængelige efter næste udgivelse.
 
 ## How to record quality
 
