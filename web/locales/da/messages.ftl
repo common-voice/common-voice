@@ -993,6 +993,8 @@ contribution-background-noise-example-2-fixed-title = Den gigantiske dino <stron
 contribution-background-noise-example-2-explanation = [En del af teksten kan ikke høres]
 contribution-background-voices-title = Baggrundsstemmer
 contribution-volume-title = Lydstyrke
+contribution-volume-description = Der vil være naturlige variationer i volumen mellem læsere. Afvis kun, hvis lydstyrken er så høj, at optagelsen går i stykker, eller (mere almindeligt), hvis den er så lav, at du ikke kan høre, hvad der bliver sagt uden henvisning til den skrevne tekst.
+contribution-reader-effects-description = De fleste optagelser er af mennesker, der taler med deres naturlige stemme. Du kan acceptere den lejlighedsvise ikke-standardoptagelse, hvor der bliver råbt, hvisket eller åbenlyst leveret med en 'dramatisk' stemme. Afvis venligst sungne optagelser og dem, der bruger en computersyntetiseret stemme.
 contribution-just-unsure-title = Bare usikker?
 see-more = <chevron></chevron>Se mere
 see-less = <chevron></chevron>Se mindre
@@ -1005,6 +1007,7 @@ see-less = <chevron></chevron>Se mindre
 ## HEADER/FOOTER
 
 sc-header-home = Hjem
+sc-header-how-to = Sådan gør du
 sc-header-add = Tilføj
 sc-header-rejected = Afviste sætninger
 sc-header-my = Mine sætninger
@@ -1028,6 +1031,7 @@ sc-home-review-title = Gennemgå sætninger
 
 ## HOW-TO
 
+sc-howto-title = Sådan gør du
 sc-howto-addsen-title = Tilføj nye sætninger
 sc-howto-review-title = Gennemgå sætninger
 sc-howto-review-subtitle = Sørg for, at sætningen opfylder følgende kriterier:
