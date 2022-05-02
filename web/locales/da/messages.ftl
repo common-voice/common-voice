@@ -464,6 +464,10 @@ how-does-it-work-text = Vi crowdsourcer et open source-datasæt med stemmer. Don
 
 ## How does it work section
 
+about-voice-contrib-title = Stemmebidrag
+about-voice-contrib-subtitle = Folk kommer og bidrager med deres stemmer.
+about-voice-validation-title = Stemmevalidering
+about-voice-validation-subtitle = Andre mennesker validerer disse stemmeklip.
 about-dataset-release-title = Udgivelse af datasæt
 about-speak = Tal
 about-speak-text = Bidragsydere optager stemmeoptagelser ved at læse dem op fra en samling af donerede sætninger.
