@@ -161,6 +161,7 @@ tl = Tagalog
 tr = Tyrkisk
 tt = Tatarisk
 tw = Twi
+ty = Tahitiansk
 uby = Ubykh
 udm = Udmurt
 ug = Uigurisk
@@ -170,6 +171,7 @@ uz = Usbekisk
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+yi = Jiddisch
 yo = Yoruba
 yue = Kantonesisk
 zh-CN = Kinesisk (Kina)
@@ -541,6 +543,9 @@ about-playbook-how-grow-language-content-6 = Partnerskaber og netværk
 
 ## How to validate
 
+about-playbook-how-validate = Hvordan ved jeg, om jeg skal godkende et stemmeklip?
+about-playbook-how-validate-content-1 = Hvis du kunne <strong>høre dem</strong> og <strong>forstå dem</strong>, er det normalt <strong>bedst at godkende</strong>.
+about-playbook-how-validate-content-2 = <strong>Afvis ikke klip, hvor indtaleren 'har en accent', der er anderledes end din egen</strong> - dette er vigtigt for, at stemmegenkendelse fungerer bedre for alle.
 
 ## How to access dataset
 
@@ -1013,6 +1018,7 @@ contribution-misreadings-example-4-explanation = [Der er blevet optaget mere end
 contribution-misreadings-example-8-explanation = [Ikke matchende indhold]
 contribution-varying-pronunciations-title = Forskellige udtaler
 contribution-background-noise-title = Baggrundsstøj
+contribution-background-noise-description = Vi ønsker, at maskinlæringsalgoritmerne skal kunne håndtere forskellig baggrundsstøj, og selv relativt høje lyde kan accepteres, forudsat at de ikke forhindrer dig i at høre hele teksten. Stille baggrundsmusik er OK; musik der er så høj at det forhindrer dig i at høre hvert eneste ord, er ikke.
 contribution-background-noise-example-1-fixed-title = <strong>[Nys]</strong> De gigantiske dinosaurer i <strong>[hoste]</strong> trias.
 contribution-background-noise-example-2-fixed-title = Den gigantiske dino <strong>[hoste]</strong> trias.
 contribution-background-noise-example-2-explanation = [En del af teksten kan ikke høres]
