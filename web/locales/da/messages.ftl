@@ -117,6 +117,7 @@ my = Burmesisk
 myv = Erzya
 nb-NO = Bokmål
 ne-NP = Nepalesisk
+nia = Nias
 nl = Nederlandsk
 nn-NO = Nynorsk
 oc = Occitansk
@@ -132,6 +133,7 @@ ro = Rumænsk
 ru = Russisk
 rw = Kinyarwanda
 sah = Yakut
+sat = Santali (Ol Chiki)
 sc = Sardisk
 scn = Siciliansk
 shi = Shilha
@@ -148,9 +150,13 @@ ta = Tamil
 te = Telugu
 tg = Tadsjikisk
 th = Thai
+ti = Tigrinya
+tig = Tigre
+tk = Turkmensk
 tl = Tagalog
 tr = Tyrkisk
 tt = Tatarisk
+tw = Twi
 uby = Ubykh
 udm = Udmurt
 ug = Uigurisk
@@ -160,6 +166,7 @@ uz = Usbekisk
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+yo = Yoruba
 yue = Kantonesisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
@@ -285,6 +292,8 @@ shortcut-record-toggle = O
 shortcut-record-toggle-label = Optag/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Optag igen
+shortcut-discard-ongoing-recording = Esc
+shortcut-submit = Retur
 request-language-text = Kan du ikke finde dit sprog på Common Voice?
 request-language-text-learn = Lær hvordan du anmoder om det her!
 request-language-button = Anmod om at få tilføjet et nyt sprog
@@ -311,8 +320,13 @@ profile-form-native-language =
     .label = Modersmål
 profile-form-additional-language =
     .label = Yderligere sprog
+profile-form-language =
+    .label = Sprog
 profile-form-accent =
     .label = Accent
+profile-form-custom-accent-help-text =
+    .label = Hvordan vil du beskrive din accent?
+profile-form-custom-accent-placeholder-2 = Begynd at skrive for at beskrive din accent
 profile-form-age =
     .label = Alder
 profile-form-gender-2 =
@@ -323,6 +337,7 @@ hidden = Skjult
 visible = Synlig
 native-language =
     .label = Modersmål
+profile-form-add-accent = Tilføj ny brugerdefineret accent "{ $inputValue }"
 profile-form-submit-save = Gem
 profile-form-submit-saved = Gemt
 male = Mand
@@ -356,6 +371,7 @@ skip-submission-description = Ved indsendelse af bidrag ignoreres feedback efter
 skip-submission-note = Bemærk: Du skal stadig vælge mellem Tal eller Lyt for at ændre bidragstype.
 off = Fra
 on = Til
+help-accent = Har du brug for hjælp til accent?
 
 ## Profile - Email
 
@@ -366,6 +382,7 @@ gravatar_not_found = Ingen gravatar fundet for din mailadresse
 file_too_large = Den valgte fil er for stor
 avatar-uploaded = Avatar uploadet
 max-file-size = { $kb }kb max
+remove-avatar = Fjern Avatar
 
 ## Profile - Email
 
@@ -437,6 +454,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Hvorfor Common Voice?
+how-does-it-work-title-v2 = Hvordan fungerer Common Voice?
 how-does-it-work-text = Vi crowdsourcer et open source-datasæt med stemmer. Donér din stemme, vurdér nøjagtigheden af andre menneskers optagelser, og gør datasættet bedre for alle.
 
 ## How does it work section
@@ -467,10 +485,12 @@ about-get-involved = Bliv involveret
 about-get-involved-text-2 =
     Vil du hjælpe med at gøre Common Voice endnu bedre?
     Det er vi glade for at høre! Send os en mail eller kig forbi vores forum på <discourseLink>Discourse</discourseLink>, indberet fejl med hjemmesiden på <githubLink>GitHub</githubLink> eller kom og vær med  på vores fælles-chat på <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch-button = Tilmeld dig
 about-nav-why-common-voice = Hvorfor?
 about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
 about-nav-get-involved = Bliv involveret
+about-nav-how-it-works-2 = Hvordan fungerer Common Voice?
 
 ## Community Playbook Content
 ## What is a language
@@ -478,6 +498,7 @@ about-nav-get-involved = Bliv involveret
 
 ## How do I add a language
 
+about-playbook-how-add-language = Hvordan tilføjer jeg et sprog?
 
 ## How does localization work
 
@@ -490,12 +511,15 @@ about-nav-get-involved = Bliv involveret
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Begivenheder
+about-playbook-how-grow-language-content-6 = Partnerskaber og netværk
 
 ## How to validate
 
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Hvordan får jeg adgang til og gør brug af datasættet?
 
 ## How are decisions made
 
@@ -563,6 +587,7 @@ review-delete-recordings = Slet mine optagelser
 
 ## Datasets Page
 
+datasets-heading = Datasæt
 datasets-headline = Vi bygger et open source-datasæt af stemmer på mange forskellige sprog, som alle kan bruge til at træne taleaktiverede programmer.
 datasets-positioning =
     Vi mener, at store, offentligt tilgængelige stemme-datasæt vil give grobund for innovation og sund kommerciel konkurrence indenfor stemmeteknologier baseret på maskinlæring.
@@ -644,6 +669,12 @@ other-language = Andet sprog
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = Din mailadresse
+request-language-form-info =
+    .label = Information om sproget
+request-language-google-recaptcha-required = reCAPTCHA er påkrævet, hvis du vil fortsætte
+request-language-google-recaptcha-error = Noget gik galt med reCAPTCHA. Prøv igen.
 
 ## Languages Overview
 
@@ -877,6 +908,8 @@ profile-form-delete = Slet profil
 
 ## Profile Download
 
+download-profile-title = Profil
+download-profile-size = Nogle få bytes
 
 ## Landing
 
