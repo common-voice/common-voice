@@ -525,6 +525,7 @@ about-playbook-how-add-language = Hvordan tilføjer jeg et sprog?
 
 ## How does localization work
 
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Opret en konto</pontoonAccountLink>, hvis du ikke har en. Vælg derefter dit sprog <strong>('Teams')</strong> og vælg derefter projektet, <pontoonCvLink>Common Voice</pontoonCvLink>. Der vil være filer til oversættelse. Klik på en, så viser den ord på engelsk og en boks til at oversætte dem.
 about-playbook-how-localize-content-4 = Siden er klar til at blive lanceret, når den opnår 75 % fuldførelse.
 about-playbook-how-localize-content-5 = Se vores videoforklaring for hjælp
 
