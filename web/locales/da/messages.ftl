@@ -467,6 +467,7 @@ how-does-it-work-text = Vi crowdsourcer et open source-datasæt med stemmer. Don
 
 ## How does it work section
 
+about-sentence-collection-subtitle = Sætninger indsamles, som folk kan læse højt.
 about-new-lang-title = Lancering af nyt sprog
 about-voice-contrib-title = Stemmebidrag
 about-voice-contrib-subtitle = Folk kommer og bidrager med deres stemmer.
