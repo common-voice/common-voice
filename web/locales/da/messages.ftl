@@ -556,6 +556,8 @@ about-playbook-how-access-dataset = Hvordan får jeg adgang til og gør brug af 
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Hvordan træffes projektbeslutninger?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice er gjort mulig af et mangfoldigt fællesskab af aktivister, lingvister, datavidenskabsfolk, akademikere og softwareingeniører fra hele verden. Projektet ledes af Mozilla Foundation.
 about-playbook-how-project-governance-content-3 = Privatliv, sikkerhed og gennemsigtighed.
 about-playbook-how-project-governance-content-5 = Værdi og anerkendelse.
 about-playbook-how-project-governance-content-6 = Gensidig ansvarlighed.
