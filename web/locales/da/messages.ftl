@@ -1233,6 +1233,7 @@ sc-criteria-item-5-2 = Hvis sætningen ikke opfylder ovenstående kriterier, ska
 ## REVIEW
 
 sc-review-loading = Indlæser sætninger...
+sc-review-no-sentences = Ingen sætninger at gennemgå. <addLink>Tilføj flere sætninger nu!</addLink>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Kilde: { $sentenceSource }
