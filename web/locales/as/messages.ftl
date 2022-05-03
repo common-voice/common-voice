@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = চেলেঞ্জ আৰু লক্
 email-opt-in-privacy-v2 = ইমেইল পোৱাটো বাছি লৈ আপুনি এইটো কৈছে যে Mozilla-ৰ <privacyLink>গোপনীয়তা নীতি</privacyLink>ত বুজোৱা হিচাপে Mozilla-ই এই তথ্য পৰিচালনা কৰাক লৈ আপোনাৰ কোনো আপত্তি নাই।
 indicates-required = * প্ৰয়োজনীয় ক্ষেত্ৰ বুজায়
 not-available-abbreviation = প্ৰ/ন
+banner-error-slow-1 = ক্ষমা কৰিব, কমন ভইচ ধীৰ গতিত চলি আছে। আপোনাৰ আগ্ৰহৰ বাবে ধন্যবাদ।
+banner-error-slow-2 = আমি যথেষ্ট ট্ৰেফিক পাই আছোঁ আৰু বৰ্তমান সমস্যাবোৰ চালি-জাৰি চাই আছোঁ।
+banner-error-slow-link = স্থিতি-পৃষ্ঠা
+error-something-went-wrong = ক্ষমা কৰিব, কিবা সমস্যা হ'ল।
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -38,6 +42,7 @@ be = বেলাৰুছীয়
 bg = বুলগেৰীয়
 bn = বাংলা
 br = ব্ৰেটন
+bs = বস্নীয়
 bxr = বুৰয়াট
 ca = কেটেলান
 cak = কাকচিকেল
@@ -66,6 +71,7 @@ fy-NL = ফ্ৰিচিয়ান
 ga-IE = আয়াৰলেণ্ডীয়
 gl = গেলিচীয়
 gn = গুৱাৰানি
+gom = গোৱান কোংকণী
 ha = হৌচা
 he = হিব্ৰিউ
 hi = হিন্দী
@@ -89,11 +95,14 @@ kab = কবাইল
 kbd = কাবাৰ্ডিয়েন
 ki = কিকুয়ু
 kk = কাজাখ
+km = খমেৰ
 kmr = কুৰমাঞ্জী কুৰ্দিশ্ব
+knn = কোংকণী (দেৱনাগৰী)
 ko = কোৰিয়ান
 kpv = কমি-জিৰিয়ান
 kw = ক'ৰ্নিচ
 ky = কীৰ্গীজস্তানি
+lb = লাক্সেমবাৰ্গীয়
 lg = লুগাণ্ডা
 lij = লিগুৰীয়
 lt = লিথুনীয়
@@ -141,6 +150,7 @@ scn = ছিচিলিয়ান
 shi = ছিল্‌হা
 si = সিংহলী
 sk = শ্লোভাক
+skr = চাৰাইকি
 sl = শ্লোভেনীয়
 so = ছোমালি
 sq = আলবেনীয়
@@ -156,6 +166,7 @@ ti = টিগ্ৰিন্যা
 tig = টিগ্ৰে
 tk = তুৰ্কমেন
 tl = টাগালগ
+tok = ট'কি প'না
 tr = তুৰ্কী
 tt = টাটাৰ
 tw = টোৱি
@@ -672,6 +683,9 @@ request-language-success-title = ভাষাৰ অনুৰোধ সফলভ
 request-language-success-content = আপোনাৰ ভাষা কমন ভইচত কেনেকৈ যোগ কৰিব সেইবিষয়ে অধিক তথ্যৰ সৈতে আমি আপোনাৰ সৈতে অতি সোনকালে যোগাযোগ কৰিম।
 select-language = এটা ভাষা বাছনি কৰক...
 other-language = অন্য ভাষাসমূহ
+
+## Request Language Pages
+
 
 ## Languages Overview
 
