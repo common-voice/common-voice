@@ -131,6 +131,7 @@ pap-AW = Papiamento (Aruba)
 pl = Polsk
 ps = Pashto
 pt = Portugisisk
+quc = K'iche'
 rm-sursilv = Rætoromansk sursilvansk
 rm-vallader = Rætoromansk Lavengadinsk
 ro = Rumænsk
@@ -438,7 +439,7 @@ faq-how-calc-hours-q = Hvordan bliver timerne udregnet af Common Voice?
 faq-how-calc-hours-a = Vi beregner timerne ved at estimere den gennemsnitlige længde af hver optagelse, og ganger det antal med det samlede antal optagelser på tværs af alle sprog.
 faq-where-src-from-2-q = Hvor kommer teksten fra?
 faq-where-src-from-2-a =
-    Sætningerne består af originale sætninger fra vores frivillige bidragsydere, samt dialog fra gamle filmmanuskripter, der ikke er underlagt ophavsrettigheder. Fx filmen <italic>Det er herligt at leve</ italic>.
+    Sætningerne består af originale sætninger fra vores frivillige bidragsydere, samt dialog fra gamle filmmanuskripter, der ikke er underlagt ophavsrettigheder. Fx filmen <italic>Det er herligt at leve</italic>.
     
     Du kan se vores sætninger i denne <githubLink> mappe på GitHub  </ githubLink>.
 faq-why-not-ask-read-q = Hvorfor beder I ikke folk om at læse op fra bøger eller Wikipedia-artikler på forskellige sprog?
