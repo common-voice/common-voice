@@ -119,6 +119,7 @@ ms = Malajisk
 mt = Maltesisk
 my = Burmesisk
 myv = Erzya
+nan-tw = Taiwanesisk (Minnan)
 nb-NO = Bokmål
 ne-NP = Nepalesisk
 nia = Nias
