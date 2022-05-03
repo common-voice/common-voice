@@ -1099,6 +1099,12 @@ sc-howto-cite-title = এনেকৈ উদ্ধৃতি দিব লাগ�
 ## MY SENTENCES
 
 sc-my-title = মোৰ বাক্যবোৰ
+sc-my-loading = আপোনাৰ বাক্যবোৰ ল'ড হৈ আছে…
+sc-my-err-fetching = আপোনাৰ বাক্যবোৰ আনোতে ত্ৰুটি ঘটিছে। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।
+sc-my-no-sentences = কোনো বাক্য পোৱা নগ'ল!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = দাখিল: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = উৎস:  { $source }
@@ -1110,6 +1116,7 @@ sc-my-err-failed-delete = বাছনি কৰা বাক্যবোৰ ম
 
 sc-rejected-title = নাকচ কৰা বাক্যবোৰ
 sc-rejected-loading = নাকচ কৰা বাক্যবোৰ ল'ড কৰি থকা হৈছে…
+sc-rejected-err-fetching = নাকচ কৰা বাক্যবোৰ আনোতে ত্ৰুটি ঘটিছে। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।
 sc-rejected-none-found = নাকচ কৰা কোনো বাক্য পোৱা নগ'ল!
 
 ## STATS
