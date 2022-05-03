@@ -48,7 +48,9 @@ interface LayoutProps
   extends PropsFromState,
     PropsFromDispatch,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    RouteComponentProps<any, any, any> {}
+    RouteComponentProps<any, any, any> {
+  children?: React.ReactNode;
+}
 
 interface LayoutState {
   challengeTeamToken: ChallengeTeamToken;
@@ -150,7 +152,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   };
 
   render() {
-    const { locale, location, user } = this.props;
+    const { children, locale, location, user } = this.props;
     const {
       challengeTeamToken,
       challengeToken,
@@ -211,7 +213,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           </header>
         </div>
         <NonProductionBanner />
-        <Content location={location} />
+        <main id="content">
+          {children ? children : <Content location={location} />}
+        </main>
         <Footer />
         <div
           id="navigation-modal"

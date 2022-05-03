@@ -118,6 +118,7 @@ export default class API {
     router.get('/requested_languages', this.getRequestedLanguages);
     router.post('/requested_languages', this.createLanguageRequest);
 
+    router.get('/languages_all', this.getAllLanguages);
     router.get('/language_stats', this.getLanguageStats);
 
     router.post('/newsletter/:email', this.subscribeToNewsletter);
@@ -181,6 +182,10 @@ export default class API {
     } = request;
     await this.model.db.createSkippedClip(id, client_id);
     response.json({});
+  };
+
+  getAllLanguages = async (_request: Request, response: Response) => {
+    response.json(await this.model.getAllLanguages());
   };
 
   getLanguageStats = async (request: Request, response: Response) => {

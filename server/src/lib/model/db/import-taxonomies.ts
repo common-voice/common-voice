@@ -1,4 +1,3 @@
-const locales = require('locales/all.json') as string[];
 import { getMySQLInstance } from './mysql';
 import { TaxonomyToken, taxonomies } from 'common';
 const db = getMySQLInstance();
@@ -11,9 +10,7 @@ export async function importTaxonomies() {
         `Importing sentences for taxonomy ${taxonomy.name} from source ${taxonomy.source}...`
       );
 
-      const [
-        termId,
-      ] = await db.query(
+      const [termId] = await db.query(
         'SELECT id FROM taxonomy_terms WHERE term_sentence_source = ?',
         [taxonomy.source]
       );

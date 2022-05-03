@@ -1,6 +1,4 @@
 import { Action as ReduxAction, Dispatch } from 'redux';
-const contributableLocales =
-  require('../../../locales/contributable.json') as string[];
 import StateTree from './tree';
 import { Sentence } from 'common';
 
@@ -16,9 +14,6 @@ export namespace Sentences {
       hasLoadingError: boolean;
     };
   }
-
-  const localeSentences = ({ locale, sentences }: StateTree) =>
-    sentences[locale];
 
   enum ActionType {
     REFILL = 'REFILL_SENTENCES',
@@ -60,7 +55,10 @@ export namespace Sentences {
           const state = getState();
 
           // don't load if no contributable locale
-          if (!contributableLocales.includes(state.locale)) {
+          if (
+            state.languages &&
+            !state.languages.contributableLocales.includes(state.locale)
+          ) {
             return;
           }
 
@@ -98,28 +96,29 @@ export namespace Sentences {
       },
   };
 
+  const DEFAULT_LOCALE_STATE = {
+    sentences: [] as Sentence[],
+    isLoading: true,
+    hasLoadingError: false,
+  };
+
   export function reducer(
     locale: string,
-    state: State = contributableLocales.reduce(
-      (state, locale) => ({
-        ...state,
-        [locale]: {
-          sentences: [],
-          isLoading: true,
-          hasLoadingError: false,
-        },
-      }),
-      {}
-    ),
+    state: State = {},
     action: Action
   ): State {
-    const localeState = state[locale];
+    const currentLocaleState = state[locale];
+    const localeState = {
+      ...DEFAULT_LOCALE_STATE,
+      ...currentLocaleState,
+    };
 
     switch (action.type) {
-      case ActionType.REFILL:
+      case ActionType.REFILL: {
         const sentenceIds = localeState.sentences
           .map(s => s.id)
           .concat(localeState.sentences.map(s => s.id));
+
         return {
           ...state,
           [locale]: {
@@ -130,6 +129,7 @@ export namespace Sentences {
             hasLoadingError: false,
           },
         };
+      }
 
       case ActionType.REFILL_LOAD:
         return {
@@ -168,8 +168,15 @@ export namespace Sentences {
     }
   }
 
+  const localeSentences = ({ locale, sentences }: StateTree) => {
+    if (!sentences[locale]) {
+      return DEFAULT_LOCALE_STATE;
+    }
+
+    return sentences[locale];
+  };
+
   export const selectors = {
     localeSentences,
-    isLoading: true,
   };
 }

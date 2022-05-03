@@ -1,0 +1,7 @@
+.ErrorBoundary {
+    padding: 2em 0;
+}
+
+.ErrorBoundary .LogoImage {
+    height: 3em;
+}

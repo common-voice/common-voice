@@ -7,14 +7,16 @@ import ContentLoader from 'react-content-loader';
 import { InProgressLanguage, LaunchedLanguage } from 'common';
 import URLS from '../../../urls';
 import { createCrossLocalization } from '../../../services/localization';
+import {
+  toLocaleRouteBuilder,
+  useLocale,
+  useAvailableLocales,
+} from '../../locale-helpers';
 import { trackLanguages } from '../../../services/tracker';
-import { toLocaleRouteBuilder, useLocale } from '../../locale-helpers';
 import ProgressBar from '../../progress-bar/progress-bar';
 import { Hr } from '../../ui/ui';
 import GetInvolvedModal from './get-involved-modal';
 import { Localized, LocalizationProvider } from '@fluent/react';
-
-const SENTENCE_COUNT_TARGET = 5000;
 
 function formatSeconds(totalSeconds: number) {
   const seconds = totalSeconds % 60;
@@ -133,7 +135,12 @@ const LocalizationBox = React.memo((props: Props) => {
 
   const [showModal, setShowModal] = useState(false);
 
-  const l10n = createCrossLocalization(localeMessages, [locale, globalLocale]);
+  const availableLocales = useAvailableLocales();
+  const l10n = createCrossLocalization(
+    localeMessages,
+    [locale, globalLocale],
+    availableLocales
+  );
 
   const title = (
     <Localized id={locale}>
@@ -165,8 +172,8 @@ const LocalizationBox = React.memo((props: Props) => {
               <span />
             </Localized>
           }
-          progress={props.sentencesCount.current_count || 0}
-          progressTotal={props.sentencesCount.target_sentence_count || 5000}
+          progress={props.sentencesCount.currentCount || 0}
+          progressTotal={props.sentencesCount.targetSentenceCount || 5000}
           onClick={() => setShowModal(true)}>
           <LocalizationProvider l10n={l10n}>
             <Localized id="get-involved-button">
@@ -182,7 +189,7 @@ const LocalizationBox = React.memo((props: Props) => {
               <span />
             </Localized>
           }
-          metricValue={props.speakers.current_count || 0}
+          metricValue={props.speakers.currentCount || 0}
           progressLabel={
             <Localized id="total-hours">
               <span />
