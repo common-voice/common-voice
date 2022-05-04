@@ -574,6 +574,10 @@ about-playbook-how-add-sentences-content-4 = Sætninger, der er blevet valideret
 
 ## How to record quality
 
+about-playbook-how-record-quality = Hvordan optager jeg et stemmeklip i høj kvalitet?
+about-playbook-how-record-content-1 = Tal med din normale stemme! Måden du taler på er velkommen her - vi vil have din accent, som den er, og vi vil have din sædvanlige lydstyrke, stil og intonation.
+about-playbook-how-record-content-2 = Undgå for meget baggrundsstøj – det skal være nemt at høre dig.
+about-playbook-how-record-content-4 = Sørg for, at platformen optager, før du begynder at tale, og at den først stopper, når du er færdig.
 about-playbook-how-record-content-5 = <accuracyLink>Se mere om nøjagtighedskriterier.</accuracyLink>
 
 ## How to grow language
