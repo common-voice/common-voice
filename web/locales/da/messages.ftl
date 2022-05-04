@@ -1102,11 +1102,16 @@ contribution-background-noise-description = Vi ønsker, at maskinlæringsalgorit
 contribution-background-noise-example-1-fixed-title = <strong>[Nys]</strong> De gigantiske dinosaurer i <strong>[hoste]</strong> trias.
 contribution-background-noise-example-2-fixed-title = Den gigantiske dino <strong>[hoste]</strong> trias.
 contribution-background-noise-example-2-explanation = [En del af teksten kan ikke høres]
+contribution-background-noise-example-3-fixed-title = <strong>[Knitre]</strong> kæmpe dinosaurer af <strong>[knitre]</strong> -riassic.
 contribution-background-voices-title = Baggrundsstemmer
+contribution-background-voices-description = Stille baggrundslyd er OK, men vi ønsker ikke yderligere stemmer, der kan få en maskinalgoritme til at identificere ord, der ikke er i den skrevne tekst. Hvis du kan høre forskellige ord bortset fra dem i teksten, bør klippet afvises. Typisk sker dette, hvor tv'et har været tændt, eller hvor der er en samtale i gang i nærheden.
+contribution-background-voices-example-1-title = De gigantiske dinosaurer i trias. <strong>[læst af én stemme]</strong>
+contribution-background-voices-example-1-explanation = Kommer du? <strong>[sagt af en anden]</strong>
 contribution-volume-title = Lydstyrke
 contribution-volume-description = Der vil være naturlige variationer i volumen mellem læsere. Afvis kun, hvis lydstyrken er så høj, at optagelsen går i stykker, eller (mere almindeligt), hvis den er så lav, at du ikke kan høre, hvad der bliver sagt uden henvisning til den skrevne tekst.
 contribution-reader-effects-description = De fleste optagelser er af mennesker, der taler med deres naturlige stemme. Du kan acceptere den lejlighedsvise ikke-standardoptagelse, hvor der bliver råbt, hvisket eller åbenlyst leveret med en 'dramatisk' stemme. Afvis venligst sungne optagelser og dem, der bruger en computersyntetiseret stemme.
 contribution-just-unsure-title = Bare usikker?
+contribution-just-unsure-description = Hvis du støder på noget, som disse retningslinjer ikke dækker, bedes du stemme efter din bedste vurdering. Hvis du virkelig ikke kan beslutte dig, så brug knappen 'Spring over' og gå videre til næste optagelse.
 see-more = <chevron></chevron>Se mere
 see-less = <chevron></chevron>Se mindre
 
@@ -1120,6 +1125,7 @@ see-less = <chevron></chevron>Se mindre
 sc-header-home = Hjem
 sc-header-how-to = Sådan gør du
 sc-header-add = Tilføj
+sc-header-review = Gennemgang
 sc-header-rejected = Afviste sætninger
 sc-header-my = Mine sætninger
 sc-header-statistics = Statistikker
@@ -1127,6 +1133,7 @@ sc-header-profile = Profil
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Rapportér fejl
 sc-footer-translate = Oversæt denne side
+sc-footer-report-copyright = Anmeld forhold om ophavsret
 sc-footer-privacy = Privatliv
 sc-footer-terms = Betingelser
 sc-footer-cookies = Cookies
@@ -1135,6 +1142,7 @@ sc-logout-button = Log ud
 
 ## HOME
 
+sc-home-title = Velkommen til Common Voice Sætningsindsamler
 sc-home-review-title = Gennemgå sætninger
 
 ## GENERAL
