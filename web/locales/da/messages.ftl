@@ -166,6 +166,7 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmensk
 tl = Tagalog
+tok = Toki Pona
 tr = Tyrkisk
 tt = Tatarisk
 tw = Twi
@@ -213,6 +214,7 @@ logout = Log ud
 ## Home Page
 
 home-title = Projektet Common Voice er et Mozilla-initiativ, der skal hjælpe maskiner med at forstå, hvordan mennesker taler.
+default-tagline = Mozilla Common Voice er et initiativ, der skal hjælpe maskiner med at forstå hvordan rigtige mennesker taler.
 home-cta = Åbn munden og vær med her!
 wall-of-text-start = Stemmen er naturlig, stemmen er menneskelig. Det er derfor, vi er fascineret af at skabe en brugbar stemmeteknologi til vores maskiner. Men for at skabe systemer til stemmegenkendelse kræves en ekstrem stor mængde stemmedata.
 wall-of-text-more-mobile = Hovedparten af de data, som bruges af store virksomheder, er ikke tilgængelige for flertallet af mennesker. Vi mener, at det bremser ny innovation. Derfor har vi startet projektet Common Voice, der skal hjælpe med at gøre stemmegenkendelse tilgængeligt for alle.
@@ -309,6 +311,7 @@ shortcut-rerecord-toggle-label = Optag igen
 shortcut-discard-ongoing-recording = Esc
 shortcut-discard-ongoing-recording-label = Kassér igangværende optagelse
 shortcut-submit = Retur
+shortcut-submit-label = Indsend stemmeoptagelser
 request-language-text = Kan du ikke finde dit sprog på Common Voice?
 request-language-text-learn = Lær hvordan du anmoder om det her!
 request-language-button = Anmod om at få tilføjet et nyt sprog
@@ -337,6 +340,9 @@ profile-form-additional-language =
     .label = Yderligere sprog
 profile-form-language =
     .label = Sprog
+profile-form-variant =
+    .label = Hvilken variant af { $language } taler du?
+profile-form-variant-default-value = Ingen variant valgt
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
@@ -387,6 +393,9 @@ skip-submission-note = Bemærk: Du skal stadig vælge mellem Tal eller Lyt for a
 off = Fra
 on = Til
 help-accent = Har du brug for hjælp til accent?
+help-accent-explanation = Din accent er den måde, du udtaler ord på. Det kan formes af hvor du har boet, hvilke andre sprog du taler og mange andre faktorer. Du kan dele enhver information, du føler er relevant, her.
+help-variants = Har du brug for hjælp til varianter?
+help-variants-explanation = Varianter er en specifik form for et sprog - som for eksempel deles af dem, der bor i et geografisk område eller et samfund. Nogle gange kaldes disse også dialekter.
 
 ## Profile - Email
 
@@ -415,6 +424,10 @@ faq-what-cv-a =
     Stemmegenkendelsesteknologi revolutionerer måden, vi interagerer med computere på. Men de nuværende systemer er dyre og proprietære. Common Voice er en del af Mozillas initiativ til at gøre stemmegenkendelsesteknologier bedre og mere tilgængelige for alle. Common Voice er en stor, global database med donerede stemmer, der gør det muligt for alle hurtigt og nemt at træne stemmestyrede programmer på potentielt set set alle sprog.
     
     Vi samler ikke kun donerede stemmer på de mest talte sprog, men også på mindre udbredte sprog. Adgangen til et alsidigt datasæt af stemmer vil give udviklere, iværksættere og samfund mulighed for at udvikle nye produkter, uanset hvor stort et sprog, det handler om. Udover datasættet bag Common Voice  opbygger vi også en open source-talegenkendelse kaldet Deep Speech.
+faq-what-cv-a-2 =
+    Stemmegenkendelsesteknologi revolutionerer måden, vi interagerer med computere på. Men de nuværende systemer er dyre og proprietære. Mozilla Common Voice er et initiativ til at gøre stemmegenkendelsesteknologier bedre og mere tilgængelige for alle. Common Voice er en stor, global database med donerede stemmer, der gør det muligt for alle, hurtigt og nemt at træne stemmestyrede programmer på potentielt set set alle sprog.
+    
+    Vi samler ikke kun donerede stemmer på de mest talte sprog, men også på mindre udbredte sprog. Adgangen til et alsidigt datasæt af stemmer vil give udviklere, iværksættere og samfund mulighed for at udvikle nye produkter, uanset hvor stort et sprog, det handler om.
 faq-why-important-q = Hvorfor er det vigtigt?
 faq-why-important-a =
     Tale er ofte den mest naturlige måde, vi kommunikerer med hinanden på. Og med stemmeteknologiens hjælp har vi nu mulighed for at få computere og telefoner til at forstå, hvad vi siger. Vi ønsker at give udviklere mulighed for at oprette fantastiske talegenkendelsesprogrammer som fx apps, der kan oversætte i realtid, og stemmeaktiverede digitale assistenter. Men lige nu er de fleste af de stemmedata, der kræves for at udvikle disse typer programmer både dyre og proprietære. Vi håber, at Common Voice-datasættet vil give udviklere dét, de har brug for til at forny og gøre teknologien tilgængelig på deres eget sprog.
@@ -469,18 +482,27 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Hvorfor Common Voice?
+about-header-description-v2 =
+    <p>Common Voice er et offentligt tilgængeligt stemmedatasæt, drevet af stemmer fra frivillige bidragydere rundt om i verden. Folk, der ønsker at bygge stemmeapplikationer, kan bruge datasættet til at træne maskinlæringsmodeller.</p>
+    <p>På nuværende tidspunkt er de fleste stemmedatasæt ejet af virksomheder, hvilket hæmmer innovation. Stemmedatasæt underrepræsenterer også: ikke-engelsktalende, farvede, handicappede, kvinder og LGBTQIA+-personer. Det betyder, at stemmeaktiveret teknologi slet ikke virker på mange sprog, og hvor den virker, fungerer den muligvis ikke lige godt for alle. Det vil vi ændre ved at mobilisere folk overalt til at dele deres stemme.</p>
 how-does-it-work-title-v2 = Hvordan fungerer Common Voice?
 how-does-it-work-text = Vi crowdsourcer et open source-datasæt med stemmer. Donér din stemme, vurdér nøjagtigheden af andre menneskers optagelser, og gør datasættet bedre for alle.
 
 ## How does it work section
 
+about-language-req-subtitle = Nogen beder om at få et sprog tilføjet.
+about-localization-title = Oversættelse af webstedet
+about-localization-subtitle = Webstedets tekst er oversat til det sprog.
+about-sentence-collection-title = Indsamling af sætninger
 about-sentence-collection-subtitle = Sætninger indsamles, som folk kan læse højt.
 about-new-lang-title = Lancering af nyt sprog
+about-new-lang-subtitle = Vi lancerer Common Voice-siden på dette sprog.
 about-voice-contrib-title = Stemmebidrag
 about-voice-contrib-subtitle = Folk kommer og bidrager med deres stemmer.
 about-voice-validation-title = Stemmevalidering
 about-voice-validation-subtitle = Andre mennesker validerer disse stemmeklip.
 about-dataset-release-title = Udgivelse af datasæt
+about-dataset-release-subtitle = Vi udgiver datasættet hver 3. måned.
 about-subscribe-text = Vil du holde kontakten med Common Voice?
 about-speak = Tal
 about-speak-text = Bidragsydere optager stemmeoptagelser ved at læse dem op fra en samling af donerede sætninger.
@@ -510,6 +532,7 @@ about-get-involved-text-2 =
     Det er vi glade for at høre! Send os en mail eller kig forbi vores forum på <discourseLink>Discourse</discourseLink>, indberet fejl med hjemmesiden på <githubLink>GitHub</githubLink> eller kom og vær med  på vores fælles-chat på <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Hvordan holder jeg kontakten?
 about-stay-in-touch-button = Tilmeld dig
+about-stay-in-touch-text-1 = <emailFragment>Tilmeld dig</emailFragment> vores mailingliste for at lære, hvordan du kan deltage i kampagner, begivenheder og co-design-funktioner på Common Voice.
 about-stay-in-touch-text-2 = Du kan møde andre i Mozilla-sprogfællesskaberne ved at deltage i <discourseLink>Discourse</discourseLink> for aktuelle samtaler eller benytte <matrixLink>Matrix</matrixLink> for at få hurtige råd.
 about-nav-why-common-voice = Hvorfor?
 about-nav-how-it-works = Hvordan?
@@ -529,16 +552,23 @@ about-playbook-what-is-language-content-3 = Nogle sprog har enorm variation i gr
 ## How do I add a language
 
 about-playbook-how-add-language = Hvordan tilføjer jeg et sprog?
+about-playbook-how-add-language-content-1 = Tjek først, om dit sprog <languageLink>allerede eksisterer</languageLink>. Hvis det ikke gør det, skal du <strong>oversætte webstedet og indsamle sætninger</strong>.
+about-playbook-how-add-language-content-2 = <strong>For at oversætte webstedet</strong> skal du først <translateVideo>oprette en profil</translateVideo> på <pontoonLink>Pontoon</pontoonLink>. Pontoon har masser af sprog - men hvis det ikke har dit, kan du <pontoonRequestLink>anmode om det</pontoonRequestLink>. Bed derefter <repoLink>via GitHub</repoLink> om at få Common Voice-projektet gjort tilgængeligt for sproget. Se mere om <localizationFragment>oversættelse af websted</localizationFragment>.
+about-playbook-how-add-language-content-4 = Du kan <scLinkAdd>tilføje et mindre antal</scLinkAdd> sætninger her, eller du kan foretage <bulkImportDocsLink>masseimporter</bulkImportDocsLink> via en Github-anmodning. Husk at sætninger skal være <licenseLink>CC0 (eller offentligt domæne)</licenseLink>, eller du kan skrive dine egne sætninger. Se mere om <scFragment>indsamling af sætninger</scFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Hvordan fungerer webstedsoversættelse?
+about-playbook-how-localize-content-1 = Oversættelse af Common Voice-webstedet sker på <strong>Ponton</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Opret en konto</pontoonAccountLink>, hvis du ikke har en. Vælg derefter dit sprog <strong>('Teams')</strong> og vælg derefter projektet, <pontoonCvLink>Common Voice</pontoonCvLink>. Der vil være filer til oversættelse. Klik på en, så viser den ord på engelsk og en boks til at oversætte dem.
+about-playbook-how-localize-content-3 = Oversættelsen er fra engelsk, men du kan se <strong>forslag</strong> på andre sprog. Klik på ikonet <strong>Profil</strong>, klik derefter på linket <strong>Settings</strong>, og tilføj eventuelle sprog, du taler. I nederste højre hjørne vil der være en liste over oversættelser kaldet <strong>Locales</strong>. Oversættelser vises på webstedet efter en dag.
 about-playbook-how-localize-content-4 = Siden er klar til at blive lanceret, når den opnår 75 % fuldførelse.
 about-playbook-how-localize-content-5 = Se vores videoforklaring for hjælp
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Hvordan tilføjer jeg sætninger?
+about-playbook-how-add-sentences-content-1 = <strong>Sætnings-indsamleren</strong> er et værktøj til at indsamle og validere sætninger i det offentlige domæne. Du skal <scAccountLink>oprette en konto</scAccountLink>. Tilføj derefter dit sprog til din <strong>profil</strong>. Du kan <strong>tilføje</strong> sætninger eller <strong>gennemgå</strong> tidligere tilføjede sætninger.
 about-playbook-how-add-sentences-content-2 = Sætninger skal gennemgås og accepteres af to personer for at blive inkluderet i Common Voice. Du opretter retningslinjer for dit sprog <languageGuidelinesLink>her</languageGuidelinesLink>. Sætninger skal være i det <licenseLink>offentlige domæne</licenseLink> og være kortere end 15 ord. Du kan bede ejeren af en tekst om at gøre den til <waiverLink>CC0 ved hjælp af vores afståelsesproces</waiverLink> og sende den til os på commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-4 = Sætninger, der er blevet valideret, eksporteres om onsdagen og er tilgængelige efter næste udgivelse.
 
