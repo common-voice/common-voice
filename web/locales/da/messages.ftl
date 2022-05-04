@@ -584,6 +584,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Se mere om nøjagtighedskrit
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-1 = Datasættet skal kunne hjælpe så mange mennesker som muligt - og det opnår vi bedst ved at sørge for, at mange forskellige mennesker kan bidrage til Common Voice. Vi har lavet ressourcer og skabeloner, du kan bruge!
 about-playbook-how-grow-language-content-2 = Begivenheder
 about-playbook-how-grow-language-content-3 = Du kan afholde begivenheder for at hjælpe folk med at bidrage. Det er nemmere end du tror. Du kan gøre det online med et videokonferenceværktøj eller personligt, hvis det er muligt. <eventTemplate>Tjek vores skabeloner og ressourcer til at køre begivenheder</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sociale medier
