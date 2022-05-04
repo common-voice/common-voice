@@ -554,6 +554,7 @@ about-playbook-what-is-language-content-3 = Nogle sprog har enorm variation i gr
 about-playbook-how-add-language = Hvordan tilføjer jeg et sprog?
 about-playbook-how-add-language-content-1 = Tjek først, om dit sprog <languageLink>allerede eksisterer</languageLink>. Hvis det ikke gør det, skal du <strong>oversætte webstedet og indsamle sætninger</strong>.
 about-playbook-how-add-language-content-2 = <strong>For at oversætte webstedet</strong> skal du først <translateVideo>oprette en profil</translateVideo> på <pontoonLink>Pontoon</pontoonLink>. Pontoon har masser af sprog - men hvis det ikke har dit, kan du <pontoonRequestLink>anmode om det</pontoonRequestLink>. Bed derefter <repoLink>via GitHub</repoLink> om at få Common Voice-projektet gjort tilgængeligt for sproget. Se mere om <localizationFragment>oversættelse af websted</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>For at indsamle sætninger</strong> skal du <scVideo>opsætte</scVideo>  <scLink>Sætnings-indsamleren</scLink>.
 about-playbook-how-add-language-content-4 = Du kan <scLinkAdd>tilføje et mindre antal</scLinkAdd> sætninger her, eller du kan foretage <bulkImportDocsLink>masseimporter</bulkImportDocsLink> via en Github-anmodning. Husk at sætninger skal være <licenseLink>CC0 (eller offentligt domæne)</licenseLink>, eller du kan skrive dine egne sætninger. Se mere om <scFragment>indsamling af sætninger</scFragment>.
 
 ## How does localization work
