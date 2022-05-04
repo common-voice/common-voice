@@ -1077,11 +1077,22 @@ demo-dashboard-card-body = For hvert doneret stemmeklip og hvert lydklip, der va
 ## Validation criteria
 
 contribution-criteria-nav = Kriterier
+contribution-criteria-page-title = Bidragskriterier
 contribution-for-example = for eksempel
 contribution-misreadings-title = Fejllæsninger
 contribution-misreadings-description = Når du lytter, så tjek meget omhyggeligt, at det, der er blevet optaget, er præcis det, der er blevet skrevet; afvis, hvis der er selv mindre fejl. <br />Meget almindelige fejl omfatter:
+contribution-misreadings-description-extended-list-1 = Manglende <strong>'En'/'Et'</strong> eller <strong>'Den'/Det' i begyndelsen af optagelsen.
+contribution-misreadings-description-extended-list-2 = Manglende <strong>'s'</strong> i slutningen af et ord.
+contribution-misreadings-description-extended-list-5 = Flere forsøg på at læse et ord.
+contribution-misreadings-example-1-title = De gigantiske dinosaurer i trias.
+contribution-misreadings-example-2-title = Den gigantiske dinosaur i trias.
+contribution-misreadings-example-2-explanation = [Skulle være ‘dinosaurer’]
+contribution-misreadings-example-3-title = De gigantiske dinosaurer i tri-.
 contribution-misreadings-example-3-explanation = [Optagelse afbrudt før slutningen af det sidste ord]
+contribution-misreadings-example-4-title = De gigantiske dinosaurer i trias. Ja.
 contribution-misreadings-example-4-explanation = [Der er blevet optaget mere end den påkrævede tekst]
+contribution-misreadings-example-5-title = Vi går ud for at hente kaffe.
+contribution-misreadings-example-8-title = Humlebien susede forbi.
 contribution-misreadings-example-8-explanation = [Ikke matchende indhold]
 contribution-varying-pronunciations-title = Forskellige udtaler
 contribution-background-noise-title = Baggrundsstøj
