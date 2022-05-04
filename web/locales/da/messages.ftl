@@ -577,12 +577,14 @@ about-playbook-how-add-sentences-content-4 = Sætninger, der er blevet valideret
 about-playbook-how-record-quality = Hvordan optager jeg et stemmeklip i høj kvalitet?
 about-playbook-how-record-content-1 = Tal med din normale stemme! Måden du taler på er velkommen her - vi vil have din accent, som den er, og vi vil have din sædvanlige lydstyrke, stil og intonation.
 about-playbook-how-record-content-2 = Undgå for meget baggrundsstøj – det skal være nemt at høre dig.
+about-playbook-how-record-content-3 = Læs sætningen omhyggeligt - hop ikke over ord, byt ikke ord ud og tilføj ikke nye ord.
 about-playbook-how-record-content-4 = Sørg for, at platformen optager, før du begynder at tale, og at den først stopper, når du er færdig.
 about-playbook-how-record-content-5 = <accuracyLink>Se mere om nøjagtighedskriterier.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Begivenheder
+about-playbook-how-grow-language-content-3 = Du kan afholde begivenheder for at hjælpe folk med at bidrage. Det er nemmere end du tror. Du kan gøre det online med et videokonferenceværktøj eller personligt, hvis det er muligt. <eventTemplate>Tjek vores skabeloner og ressourcer til at køre begivenheder</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sociale medier
 about-playbook-how-grow-language-content-6 = Partnerskaber og netværk
 
@@ -592,6 +594,7 @@ about-playbook-how-validate = Hvordan ved jeg, om jeg skal godkende et stemmekli
 about-playbook-how-validate-content-1 = Hvis du kunne <strong>høre dem</strong> og <strong>forstå dem</strong>, er det normalt <strong>bedst at godkende</strong>.
 about-playbook-how-validate-content-2 = <strong>Afvis ikke klip, hvor indtaleren 'har en accent', der er anderledes end din egen</strong> - dette er vigtigt for, at stemmegenkendelse fungerer bedre for alle.
 about-playbook-how-validate-content-3 = Hvis du mener, at udtalen gør det <strong>umuligt at forstå</strong>, eller der er <strong>meget baggrundsstøj</strong>, eller der er <strong>andre mennesker, der også taler</strong>, så bør du afvise klippet. <accuracyLink>Se flere oplysninger i vores nøjagtighedskriterier</accuracyLink>.
+about-playbook-how-validate-content-4 = Hvis en stemmeoptagelse afvises af 2 personer, frigives det i en anden delmængde af datasættet.
 
 ## How to access dataset
 
@@ -763,13 +766,27 @@ request-language-form-info =
 request-language-form-info-explanation =
     Tilføj så mange oplysninger som muligt om sproget. Dette
     kunne omfatte:
+request-language-form-info-explanation-list-1 = Dit sprogs navn(e)
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koder</isoCodeLink> hvis kendt
 request-language-form-info-explanation-list-3 = Links til hjemmesider, der kan hjælpe os med at forstå sproget
 request-language-google-recaptcha-required = reCAPTCHA er påkrævet, hvis du vil fortsætte
 request-language-google-recaptcha-error = Noget gik galt med reCAPTCHA. Prøv igen.
+# Success page
+request-language-success-heading = Tak skal du have! Du har sendt en forespørgsel om et nyt sprog
 request-language-success-list-1 =
     Du burde modtage en e-mail med en kort forklaring
     om trinene for at få dit sprog tilføjet til Common Voice
+request-language-success-list-2 =
+    Vores community manager vil kontakte dig for at tilbyde
+    ekstra støtte og for at fortælle dig, hvis der
+    allerede findes et fællesskab, der arbejder med dit sprog
+request-language-success-list-3 =
+    Kontakt os på <emailLink>{ $email }</emailLink>,
+    hvis du ikke hører fra os inden et par dage.
+    Så vender vi tilbage til dig!
+request-language-error =
+    Vi har muligvis ikke modtaget den anmodning. Send en mail til os
+    på <emailLink>{ $email }</emailLink>, så vender vi tilbage til dig!
 
 ## Languages Overview
 
@@ -836,8 +853,14 @@ listen-again-instruction = Godt arbejde! <playIcon></playIcon> Lyt igen når du 
 listen-3rd-time-instruction = 2 overstået <playIcon></playIcon>, fortsæt det gode arbejde!
 listen-last-time-instruction = <playIcon></playIcon>Den sidste!
 listen-empty-state = Der er ikke flere stemmeoptagelser at validere på dette sprog...
+listen-loading-error =
+    Vi kunne ikke finde nogen lydklip, som du kan lytte til.
+    Prøv igen senere.
 speak-empty-state = Der er ikke flere sætninger at optage på dette sprog...
 speak-empty-state-cta = Bidrag med sætninger
+speak-loading-error =
+    Vi kunne ikke finde nogen sætninger, du kan indtale.
+    Prøv igen senere.
 record-button-label = Optag din stemme
 share-title-new = <bold>Hjælp os</bold> med at finde flere stemmer
 keep-track-profile = Hold styr på dine fremskridt med en profil
@@ -1021,10 +1044,12 @@ download-requests = Anmodninger om download af tidligere optagelser
 download-requests-info = Når du anmoder om dine optagelser, samler vi dem til en eller flere ZIP-filer. Her er dine tidligere anmodninger:
 download-request-button = Download
 download-request-title = { $created }
+download-request-description = { $clipCount } stemmeoptagelser, samlet arkivstørrelse { $size }. Udløber { $expires }.
 download-request-archive-single = Enkelt ZIP-fil, der indeholder
 download-request-archive-multiple = Opdel i { $archiveCount } ZIP-filer, der indeholder
 download-request-assembling-description = Dine filer samles. Tjek igen senere.
 download-request-refresh-button = Genindlæs
+download-request-modal-title = Download-links
 download-request-modal-description = Her er links til at downloade dine ZIP-filer.
 download-request-link-text = Zip nr. { $offset } af { $total }
 download-request-metadata-link = Sætningstekst
@@ -1077,6 +1102,7 @@ demo-dashboard-card-body = For hvert doneret stemmeklip og hvert lydklip, der va
 ## Validation criteria
 
 contribution-criteria-nav = Kriterier
+contribution-criteria-link = Forstå bidragskriterierne
 contribution-criteria-page-title = Bidragskriterier
 contribution-for-example = for eksempel
 contribution-misreadings-title = Fejllæsninger
@@ -1151,6 +1177,7 @@ sc-home-review-text = Hjælp os ved at gennemgå sætninger for korrekthed i hen
 
 ## GENERAL
 
+sc-languages-fetch-error = Vi kunne ikke hente tilgængelige sprog og kan ikke modtage bidrag i øjeblikket. Prøv igen senere.
 
 ## HOW-TO
 
