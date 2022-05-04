@@ -588,6 +588,7 @@ about-playbook-how-grow-language-content-1 = Datasættet skal kunne hjælpe så 
 about-playbook-how-grow-language-content-2 = Begivenheder
 about-playbook-how-grow-language-content-3 = Du kan afholde begivenheder for at hjælpe folk med at bidrage. Det er nemmere end du tror. Du kan gøre det online med et videokonferenceværktøj eller personligt, hvis det er muligt. <eventTemplate>Tjek vores skabeloner og ressourcer til at køre begivenheder</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sociale medier
+about-playbook-how-grow-language-content-5 = Du kan bruge sociale medieplatforme til at få budskabet ud. Del opslag, der forklarer, hvorfor det er vigtigt, og kom i kontakt med andre, der diskuterer spørgsmål som sprogrettigheder, stemme-AI eller hvilken rolle fordomme spiller i udvikling af teknologi. Se flere råd om <campaignLink>afholdelse af sociale kampagner, inklusive indhold, du kan genbruge</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerskaber og netværk
 
 ## How to validate
