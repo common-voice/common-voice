@@ -1202,6 +1202,16 @@ sc-howto-cite-pre-1 = 표절을 방지하고 <copyrightIssuesLink>저작권 문�
 sc-howto-cite-item-1 = 웹사이트를 포함할 수 있습니다. 예를 들어 "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = 학술적 참조 스타일을 사용할 수 있습니다. 예를 들어 Harvard 스타일 "Mozilla(2021) Common Voice. https://commonvoice.mozilla.org/ 에서 사용 가능(접근: 2021년 9월 15일)"
 sc-howto-cite-item-3 = 온라인에서 사용할 수 없는 공개 도메인 텍스트의 경우, Harvard 스타일 "Jess (2021) My Public license 시"와 같은 학술적 참조 스타일을 사용할 수 있습니다.
+sc-howto-review-title = 문장 검토
+sc-howto-review-subtitle = 문장이 다음 기준을 충족하는지 확인:
+sc-howto-review-criteria-1 = 문장의 철자가 정확해야 합니다.
+sc-howto-review-criteria-2 = 문장은 문법적으로 정확해야 합니다.
+sc-howto-review-criteria-3 = 문장은 말할 수 있어야 합니다.
+sc-howto-review-criteria-4 = 문장이 기준에 부합하면 "승인" 버튼을 클릭하십시오.
+sc-howto-review-criteria-5 = 문장이 위의 기준에 맞지 않으면 "거부" 버튼을 클릭하십시오. 문장이 확실하지 않은 경우 건너뛰고 다음 문장으로 넘어갈 수도 있습니다.
+sc-howto-review-criteria-6 = 검토할 문장이 부족하면 더 많은 문장을 수집할 수 있도록 도와주세요!
+sc-howto-findpd-title = 퍼블릭 도메인에서 기존 문장 찾기
+sc-howto-findpd-subtitle = 인터넷에서 검색
 
 ## MY SENTENCES
 
