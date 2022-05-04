@@ -1143,7 +1143,9 @@ sc-logout-button = Log ud
 ## HOME
 
 sc-home-title = Velkommen til Common Voice Sætningsindsamler
+sc-home-collect-title = Indsaml sætninger
 sc-home-review-title = Gennemgå sætninger
+sc-home-review-text = Hjælp os ved at gennemgå sætninger for korrekthed i henhold til retningslinjerne.
 
 ## GENERAL
 
@@ -1151,6 +1153,8 @@ sc-home-review-title = Gennemgå sætninger
 ## HOW-TO
 
 sc-howto-title = Sådan gør du
+sc-howto-addlang-title = Tilføjelse af sprog at arbejde med
+sc-howto-addlang-text = Når du er logget ind, kan du vælge dine sprog fra profilsektionen.
 sc-howto-addsen-title = Tilføj nye sætninger
 sc-howto-addsen-item-2 = Tal. Der bør ikke være cifre i kildeteksten, fordi de kan give problemer, når de læses højt. Måden et tal læses på afhænger af kontekst og kan skabe forvirring i datasættet. For eksempel kunne tallet "2409" læses nøjagtigt som både "fireogtyve nul ni" og "to tusinde fire hundrede ni".
 sc-howto-addsen-item-3 = Forkortelser og akronymer. Forkortelser og akronymer som "USA" eller "ICE" bør undgås i kildeteksten, fordi de kan læses på en måde, der ikke stemmer overens med deres stavemåde. Derudover kan der være flere nøjagtige aflæsninger for en enkelt forkortelse. For eksempel kunne akronymet "ICE" udtales "I-C-E" eller som et enkelt ord.
