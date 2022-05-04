@@ -596,14 +596,17 @@ about-playbook-how-validate-content-3 = Hvis du mener, at udtalen gør det <stro
 ## How to access dataset
 
 about-playbook-how-access-dataset = Hvordan får jeg adgang til og gør brug af datasættet?
+about-playbook-how-access-dataset-content-2 = Hvis du leder efter værktøjer til at bygge ASR-modeller, kan du oprette forbindelse til andre mennesker i fællesskabet <discourseLink>på Discourse</discourseLink>.
 
 ## How are decisions made
 
 about-playbook-how-project-governance = Hvordan træffes projektbeslutninger?
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice er gjort mulig af et mangfoldigt fællesskab af aktivister, lingvister, datavidenskabsfolk, akademikere og softwareingeniører fra hele verden. Projektet ledes af Mozilla Foundation.
 about-playbook-how-project-governance-content-3 = Privatliv, sikkerhed og gennemsigtighed.
+about-playbook-how-project-governance-content-4 = Fællesskabets deltagelse og beslutningstagning.
 about-playbook-how-project-governance-content-5 = Værdi og anerkendelse.
 about-playbook-how-project-governance-content-6 = Gensidig ansvarlighed.
+about-playbook-how-project-governance-content-7 = <governanceLink>Læs mere om, hvordan vi styres</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kunstig intelligens
 mycroft-description =
@@ -704,6 +707,8 @@ subscribe = Abonnér
 get-started-speech = Kom godt i gang med talegenkendelse
 other-datasets = Andre stemme-datasæt
 feedback-q = Har du feedback?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er et <docsLink>open source-værktøjssæt</docsLink> til forskere, der udvikler avancerede samtale-AI-modeller.
+resource-deepspeech-info = Datasættet fra Common Voice supplerer Deep Speech, en open source-tjeneste til stemmegenkendelse fra Mozilla, som du kan bruge til at bygge software, der gør brug af stemmegenkendelse. Få <githubLink>overblik over projektet på Github</githubLink> eller deltag i <discourseLink>diskussionen om Deepspeech på Discourse</discourseLink> for at komme godt i gang.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> er dedikeret til åben taleteknologi. Deres projekter omfatter deep learning-baserede STT- og TTS-motorer.
 data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
