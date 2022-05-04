@@ -568,6 +568,81 @@ const UserClient = {
     return UserClient.findAccount(email);
   },
 
+  async createGenericAccount(email: string) {
+    try {
+      const [[row]] = await db.query(
+        'INSERT INTO user_clients(email) VALUES(?)',
+        [email]
+      );
+      return row.client_id;
+    } catch (error) {
+      console.log('Error', error);
+      return error;
+    }
+  },
+
+  async replaceClipOwner(clientId: string, newClientId: string): Promise<any> {
+    try {
+      await db.query(
+        `
+      'UPDATE clips SET client_id = ? WHERE client_id = ?',
+      `,
+        [newClientId, clientId]
+      );
+    } catch (error) {
+      console.log(error);
+      return error;
+    }
+  },
+
+  async deleteAccount(
+    emails: string[]
+    // { client_id, languages, ...data }: UserClientType
+  ): Promise<UserClientType> {
+    // const [[userAccounts]] = await db.query(
+    //   `SELECT email, u.client_id, COUNT(c.id) clip_count, c.created_at first_clip
+    //         FROM user_clients u
+    //         LEFT JOIN clips c ON u.client_id = c.client_id
+    //         WHERE email = ?
+    //         GROUP BY u.client_id
+    //         ORDER BY c.created_at ASC`,
+    //   [email]
+    // );
+
+    console.log('got user', emails);
+    const deletedUser = await db.query(
+      `DELETE FROM user_clients WHERE email in(?)`,
+      [emails]
+    );
+    console.log('deletedUser', deletedUser);
+    return deletedUser;
+    // return await db.query(
+    //   `
+    //   UPDATE user_clients u
+    //   SET ()
+    //   WHERE u.email in (?)
+    // `,
+    //   [emails]
+    // );
+
+    // const userData = await Promise.all(
+    //   Object.entries({
+    //     has_login: true,
+    //     email,
+    //     ...pick(data, 'username', 'skip_submission_feedback', 'visible'),
+    //   }).map(async ([key, value]) => key + ' = ' + (await db.escape(value)))
+    // );
+    // await db.query(
+    //   `
+    //     UPDATE user_clients
+    //     SET ${userData.join(', ')}
+    //     WHERE client_id = '${clientId}'
+    //   `
+    // );
+
+    // return UserClient.findAccount(emails);
+  },
+
   async updateBasketToken(email: string, basketToken: string) {
     const client_id = await this.findClientId(email);
     if (client_id) {

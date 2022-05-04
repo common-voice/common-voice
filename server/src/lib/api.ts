@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { PassThrough } from 'stream';
 import { S3 } from 'aws-sdk';
 import * as bodyParser from 'body-parser';
@@ -32,6 +33,7 @@ import validate, {
   sentenceSchema,
   sendLanguageRequestSchema,
 } from './validation';
+import { deleteAccount } from './queues/accountQueue';
 
 export default class API {
   model: Model;
@@ -77,6 +79,7 @@ export default class API {
     router.post('/user_clients/:client_id/claim', this.claimUserClient);
     router.get('/user_client', this.getAccount);
     router.patch('/user_client', this.saveAccount);
+    router.delete('/user_client', this.deleteAccount);
     router.post(
       '/user_client/avatar/:type',
       bodyParser.raw({ type: 'image/*', limit: '300kb' }),
@@ -260,6 +263,16 @@ export default class API {
     await Basket.sync(clientId, true);
 
     response.json({});
+  };
+
+  deleteAccount = async (
+    { body, headers, params, user, client_id }: Request,
+    response: Response,
+    _next: NextFunction
+  ) => {
+    console.log(user);
+
+    const deleteAccountJob = deleteAccount(user);
   };
 
   saveAvatar = async (
