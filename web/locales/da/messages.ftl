@@ -602,12 +602,14 @@ about-playbook-how-validate-content-4 = Hvis en stemmeoptagelse afvises af 2 per
 ## How to access dataset
 
 about-playbook-how-access-dataset = Hvordan får jeg adgang til og gør brug af datasættet?
+about-playbook-how-access-dataset-content-1 = Du kan gå til <datasetsPage>oversigtssiden over datasæt</datasetsPage>, vælge den eller de ønskede versioner og sprog og downloade det! Filerne har <metadataLink>tilknyttede metadata</metadataLink>, såsom demografiske oplysninger og valideringsdata. Du skal angive en mailadresse for at downloade datasættet.
 about-playbook-how-access-dataset-content-2 = Hvis du leder efter værktøjer til at bygge ASR-modeller, kan du oprette forbindelse til andre mennesker i fællesskabet <discourseLink>på Discourse</discourseLink>.
 
 ## How are decisions made
 
 about-playbook-how-project-governance = Hvordan træffes projektbeslutninger?
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice er gjort mulig af et mangfoldigt fællesskab af aktivister, lingvister, datavidenskabsfolk, akademikere og softwareingeniører fra hele verden. Projektet ledes af Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Vores ledelse er baseret på:
 about-playbook-how-project-governance-content-3 = Privatliv, sikkerhed og gennemsigtighed.
 about-playbook-how-project-governance-content-4 = Fællesskabets deltagelse og beslutningstagning.
 about-playbook-how-project-governance-content-5 = Værdi og anerkendelse.
