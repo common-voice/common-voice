@@ -4807,6 +4807,7 @@ Avila Teixeira Gregorio
 Avisei à Marina sobre sua ausência na aula passada
 Aviso de cookies: ao prosseguir, você concorda com as condições
 Aviso de gatilho
+Aviso do anjo da guarda
 Avó e mãe
 Avós sentado em um banco com seu neto.
 Avô faleceu
@@ -17016,6 +17017,7 @@ Li isso em algum blog
 Liam os mesmos livros, iam juntos a teatros e passeios.
 Liberato Salzano
 Liberdade
+Liberdade de expressão pressupõe responsabilidade de expressão
 Liberdade para fazer modificações e distribuir melhorias; Também inclui acesso ao seu código-fonte.
 Licenciatura em Filologia Hispânica, ou grau equivalente, se houver.
 Licenças de código aberto ou permissivas.
@@ -22757,6 +22759,7 @@ O sapo não lava o pé e a rã tampouco
 O sapo não teve chance de escapar.
 O sarcófago continha o cadáver de uma mulher.
 O secretário da Câmara Municipal de Cabrils ou o pessoal que substitui.
+O segredo da felicidade segundo os finlandeses
 O segredo está aqui no presente.
 O segundo filho também nasceu.
 O segundo filho é realmente incrível.
@@ -35077,6 +35080,7 @@ de forma sustentável e próximas da natureza.
 de repente saímos pela porta das traseiras e tropeçamos em todos os caixotes
 de volta para a escavação.
 decifra-me ou devoro-te
+defende diálogo com a esquerda
 deitados moles na cama onde esperam sem sono;
 descendo as escadas devagar
 descreve as ações que serão tomadas a partir da criação
@@ -35314,6 +35318,7 @@ por parte dos Estados Unidos e por parte da União Soviética.
 por sobre os destroços presentes até às ribas de uma África juvenil
 porque ele sabia o que encontraria.
 porque, não sei porquê
+prometeu resposta fulminante a países que interferirem na guerra
 qual seria de extrema importância a existência de um mecanismo
 qual valor há afinal na riqueza, se não o vazio também por ela adquirido?
 qual é a previsão a partir da próxima semana em Guam

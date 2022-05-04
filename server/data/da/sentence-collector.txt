@@ -1085,6 +1085,7 @@ Brønden var dyb, derfor var snoren lang.
 Buntmagerens datter selv pakkede det ind
 Buntmagerens dreng skulle bringe en flaske vin af den bedste slags
 Buntmagerens dreng skulle bringe en flaske vin af den bedste slags.
+Burde rebet være så flosset?
 Bure må ikke anbringes oven på hinanden.
 Buske og urter skød højt i vejret
 Bussen er aflyst
@@ -3579,6 +3580,7 @@ Det er rigtignok hårdt!
 Det er rigtignok såre lidt man ved, når man er født i går
 Det er saa gyseligt for den stakkels Inger!
 Det er saa gyseligt for den stakkels inger
+Det er simpelthen løgn
 Det er sjællands biskop
 Det er skade for den kønne dreng, hun har
 Det er skjult og gemt, men det er ikke glemt af Vorherre!
@@ -3622,6 +3624,7 @@ Det er velsignet at se
 Det er velsignet at se!
 Det er vi ikke
 Det er vi ikke!
+Det er vigtigt at lade sin bil op om natten
 Det er vintertid, vinden skarp som et dværgesmedet sværd
 Det er vintertid, vinden skarp som et dværgesmedet sværd.
 Det er vist en Misforstaaelse.
@@ -5061,6 +5064,7 @@ Du skal have så mange tak, men vi kan ikke leve så længe
 Du skal have så mange tak, men vi kan ikke leve så længe!
 Du skal ikke hedde Tommelise!
 Du skal ikke hedde tommelise
+Du skal ikke hoppe mig på maven
 Du skal ikke ringe igen!
 Du skal ikke spørge naturforskeren, spørg helst poeten.
 Du skal ikke være så bedrøvet Johannes!
@@ -7552,6 +7556,7 @@ Hunden derinde havde virkeligt to øjne så store som rundetårn
 Hunden dumper, bjæffer og er vred
 Hunden kunne ikke nå dem, ihvor højt han sprang
 Hunden kunne ikke nå dem, ihvor højt han sprang.
+Hunden var i snor
 Hundrede Kys af Prindsessen, sagde han, eller hver beholder sit!
 Hundrede kys af prindsessen, sagde han, eller hver beholder sit
 Hundrede pund er et skippund
@@ -7634,6 +7639,7 @@ Hvad fejler du? sagde han til hende.
 Hvad for noget sagde store claus, har jeg ikke slået ham ihjel
 Hvad for noget? sagde store Claus, har jeg ikke slået ham ihjel!
 Hvad forlanger man? Han kan vel ikke spille som Sarasate.
+Hvad gad du godt have adgang til?
 Hvad gamle Johanne fortalte Eventyr
 Hvad gamle johanne fortalte eventyret eventyr af hans christian andersen h
 Hvad giver De? spurgte vinden.
@@ -7648,6 +7654,7 @@ Hvad gør I dog, børn!
 Hvad gør du ved barnet?
 Hvad gør du ved barnetbarnet er mit
 Hvad gør i dog, børn
+Hvad har du brug for?
 Hvad har du der spurgte bondemanden
 Hvad har du der? spurgte bondemanden.
 Hvad har du hjem sagde hun til drengen
@@ -7686,6 +7693,8 @@ Hvad klokken fortæller, skal der år og dage til at give igen.
 Hvad knap kan rummes i Tider og Lande.
 Hvad kom der ud af det - den lede unge
 Hvad koster alenskrat, skrat, skrat
+Hvad laver din far?
+Hvad laver din mor?
 Hvad løber du der med
 Hvad løber du der med!
 Hvad løn er der for disse besværligheder den største
@@ -7824,6 +7833,7 @@ Hvem var de to? spurgte snemanden lænkehunden.
 Hvem var den lykkeligste eventyret eventyr af hans christian andersen h
 Hvem var den lykkeligste? Eventyr
 Hvem var tante Mille og hvem var brygger Rasmussen?
+Hvem vil du dele dine billeder med?
 Hvem vil købe huder
 Hvem, som griber til sværdet, skal omkomme ved sværdet, siger sønnen
 Hvem, som griber til sværdet, skal omkomme ved sværdet, siger sønnen!
@@ -7894,6 +7904,7 @@ Hvilke bølger der gik i den rendesten, og hvilken strøm der var
 Hvilke bølger der gik i den rendesten, og hvilken strøm der var.
 Hvilke evner jeg har
 Hvilke evner jeg har!
+Hvilke muligheder ser du i at dele fx billeder?
 Hvilke skal vi nu tage med og plante i Himmelen? spurgte englen.
 Hvilke skal vi nu tage med og plante i himmelen spurgte englen
 Hvilken af dem er ulykkens blomst og hvilken er velsignelsens spurgte hun
@@ -7935,6 +7946,7 @@ Hvo kunde løse denne ved Seidkunst øvede Magt.
 Hvo kunde løse denne ved seidkunst øvede magt
 Hvor I er fornøjede!
 Hvor andet ikke er angivet, skal udtalelsen afgives af en speciallæge i neurologi
+Hvor bliver du inspireret, når du fx skal lave en plakat?
 Hvor bor hun hvor er hendes hjem
 Hvor bor hun? Hvor er hendes hjem!
 Hvor danser de pæneste blomster, spurgte lille Ida.
@@ -8042,6 +8054,7 @@ Hvor er du stor
 Hvor er herskabet blevet af
 Hvor er nu mit fyrtøj!
 Hvor faae vi en kone til ham
+Hvor finder du billeder til din skoleopgave?
 Hvor finder jeg et toilet?
 Hvor få har for meget og færre for lidt.
 Hvor gik det Valdemar Daae, hvor gik det hans Døttre? Vinden fortæller.
@@ -8260,6 +8273,7 @@ Hvorledes så der ud i de inderste sale? spurgte den lærde mand.
 Hvorledes vi bære os ad
 Hvorledes ville det vel der gå hende, det stakkels blinde barn
 Hvorledes ville det vel der gå hende, det stakkels blinde barn.
+Hvornår folder faldskærmen sig ud?
 Hvornår åbner butikken?
 Hyldemor eventyret eventyr af hans christian andersen h
 Hyldemor, og det er nu hende, du skal passe på
@@ -9584,6 +9598,7 @@ Jeg husker hans ansigt endnu.
 Jeg husker navnene endnu
 Jeg husker så godt hendes begravelsesdag, gamle preben gik lige bag efter ligkisten
 Jeg husker, at jeg ikke brød mig om ham.
+Jeg håber, du falder i havet!
 Jeg hører ikke godt, jeg er syg i dag
 Jeg hører ikke godt, jeg er syg i dag.
 Jeg hører nok egentlig hjemme inden for stakittet og ikke udenfor
@@ -9830,6 +9845,7 @@ Jeg spår for Dem, for mig, for land og rige
 Jeg spørger aldrig anden gang
 Jeg spørger aldrig anden gang!
 Jeg stikker, jeg sidder her
+Jeg stoler ikke nok på dig endnu
 Jeg stoler på dig, Ib!
 Jeg stoler på dig, ib
 Jeg står her bare.
@@ -9914,6 +9930,7 @@ Jeg tænker på dig så mangen stund
 Jeg tænker på dig så mangen stund,min egen hjalmar, du søde
 Jeg tænker, det nok lader sig gøre
 Jeg tænkte det nok
+Jeg tør ikke bungiejumpe, når du ikke har vedligeholdt systemet
 Jeg tør ikke sove alene i nat
 Jeg tør kysse ham
 Jeg tør sige, at jeg er oplyst
@@ -10310,6 +10327,7 @@ Kender du ham ikke? Paradisets fugl, sangens hellige svane.
 Kender du mig ikke nok
 Kender du mig ikke nok!
 Kender du nogen prægtigere end os, du gamle piletræ
+Kender du til hjemmesider, hvor det er ok at bruge indholdet?
 Kendskab til faren for kulilteforgiftning
 Kendskab til færdselslovens regler om signaler og tegn
 Kendskab til traktorens stabilitet - herunder stejling og væltning
@@ -10906,6 +10924,7 @@ Man ved næsten ikke mere, hvad de ikke ved
 Man veed ikke hvorhen man kommer
 Manden er arresteret for en misgerning, hun fører selv færgebåden, næver har hun
 Manden er arresteret for en misgerning, hun fører selv færgebåden, næver har hun!
+Manden gik i skoven med sin hund
 Manden hed Andersen.
 Manden måtte tage fat
 Manden måtte tage fat.
@@ -16181,6 +16200,7 @@ alle de mennesker, han tegnede, så ud som stokroser, så lange var de.
 alle folk fra byen tog ud på isen.
 alle folk i huset kom sammen, maleren med.
 alle hjulene løb rundt, og så stod musikken.
+alle kan deltage i dette projekt
 alle meget sørgelige, deri har jeg min evne.
 alle tjenestefolkene var i sort, selv stadskareten blev overtrukket med sort, fint klæde.
 alle tre hunde dansede foran og råbte "hurra!"
@@ -16199,7 +16219,9 @@ alt var i stand til første forestilling.
 alt var stumt og stille derinde, uret gik ikke mere.
 alt, smerte, tårer og de søvnløse nætter.
 alvorlig og dog så mild stod hun, talte, som Vorherre ville kunne det.
+arealet var omkranset af galvaniseret trådhegn
 arm i arm så hun brødrene stå omkring sig.
+ask og poppel er også to træsorter vi kan finde i det åbne land
 at blive teaterdirektør for en levende trup, et rigtigt menneskeselskab.
 at det ikke var, som det skulle, med dronningen.
 at det skønne var som solskinnet i denne verden.
@@ -16258,6 +16280,8 @@ buntmagerens datter selv pakkede det ind.
 buske og urter skød højt i vejret.
 bær det hellere bort!
 bær det ind i Guds Rige!
+bøg og birk er to løvbærende træsorter
+cykler skal stilles i deres båse
 da bad du for ham, men det hjalp ikke.
 da bad jeg dem sige mig, hvorledes man laver Suppe paa en Pølsepind.
 da blev hun stående, så på den lange gule blomst og spurgte.
@@ -16416,6 +16440,7 @@ de var jo de blegrøde fine rosenblade.
 de var kommet, trækfuglene fulgte og hjort, antilope og alle skovens dyr.
 de var midt inde i gården af et røverslot.
 de var nær ved dusinet, hele elve, den tolvte udeblev.
+de var på hold sammen men alligevel havde de aldrig set hinanden
 de var store drenge, den ene ni år, den anden elve.
 de var vist også et halvt hundrede år, så gamle så de ud.
 de vare store nok dertil.
@@ -16580,6 +16605,7 @@ der drev den på strømmen, det var en forfærdelig begivenhed.
 der dumpede de, så måtte de til at røre vingerne igen.
 der er Lykke ved Storken vil de sande deroppe!
 der er altid bag laasede Døre et Musehul!
+der er brug for at lade geværet igen
 der er den lille dreng!
 der er forskel mellem væksterne, ligesom der er forskel mellem menneskene!
 der er hundrede steder, ved hvis navne hjertet slår af rejselyst.
@@ -17041,6 +17067,7 @@ det var skjønne Fruer!
 det var skrækkeligt hvor morsomt de selv havde det.
 det var sneen, hun mente, men hun kunne jo ikke forklare det tydeligere.
 det var som en stærk Villie gav hende Kræfter.
+det var som om cyklen ikke kunne finde hjem igen
 det var som om den tause Skov-Natur indviedes derved til en hellig Kirke.
 det var som om den ø aldrig havde været.
 det var som om katten vidste det.
@@ -17080,6 +17107,7 @@ dette kan man ikke sige om beboerne af andegården.
 dette selv, Storkeparret med alle Ungerne, ja hvor vare de nu?
 dette tilligemed hans dragt bestyrkede konen i, at han var en udlænding.
 dig har jeg jaget fra mit land og rige!
+digitale velfærdsløsninger kan hjælpe mange
 digtemadam, stop fatters hoser!
 din friheds time kommer, når våren kommer!
 din moder skyller vel tøj nede ved åen.
@@ -17108,9 +17136,13 @@ du er ældre på gården end jeg, kender du dem?
 du får knubs af mutter, når du kommer hjem!
 du gode, nydelige pige!
 du gør mig virkelig ulykkelig, for jeg tager mig det så nær!
+du kan altid tage bussen
 du kan gerne spørge naturforskeren, han må indrømme det.
 du kan ikke hitte på, og dog vil du være digter til påske!
+du kan også være med
 du kan se ned i kamret, hvor jeg har været herskab.
+du kommer ikke alene med bussen
+du kommer ikke i skole uden madpakke sagde moren bestemt
 du lærer ikke at hitte på.
 du skal få mit hvide igen, det er altid noget!
 du tænker på din stads og på den gode Gud.
@@ -17151,7 +17183,9 @@ en lille svovlstik kunne gøre godt.
 en million, en milliard, en billion
 en nat, hvori vi græde'!
 en pind blev gjort fast, som mast.
+en ret vinkel er halvfems grader
 en skikkelse var det, der stod foran hans seng.
+en skrue med galvanisering har større holdbarhed udendørs
 en streg og én til er armene.
 en syvårs pige kyssede min mund
 en sølvlampe hang foran alteret.
@@ -17269,6 +17303,7 @@ fy, hvor den var dejlig!
 fyrre, halvtreds, tres, firs, halvfems
 får jeg så at vide hvem de fornemme fremmede er?
 får let fod under bordet!
+fællesskaber kan ofte udrette store ting
 før han blev færdig, gik solen ned.
 føres sammen med de små blå drenge, som kaldes lavendler, balsameres med salt.
 først da jeg reiste og nu i Dag her, saae jeg et Kjøkken.
@@ -17294,6 +17329,9 @@ gentog han, ja hver nat kommer han, hyler og kvæler mig.
 gid jeg var igen på det lille bord under spejlet!
 gik det i et væk og således går det endnu om tusinde år.
 gik han igen uden at tage den.
+giv mig besked når jeg nærmer mig stoppestedet
+giv mig en besked når du kommer frem
+giver man ikke pollenallergikere hjælp vil de lide endnu mere
 gjemte vare de to.
 glem ikke min slæde!
 glorien var kun fuglens brogede hale.
@@ -17302,6 +17340,7 @@ goddag, - mange tak!
 grenene blev hugget fra, de så ganske nøgne, lange og smalle ud.
 grinte alle ænderne, men storken lod, som om han slet ikke hørte det.
 grøden havde svømmet i smør og fløde.
+guld kan stige i værdi med tiden
 guldsko på hver en fod.
 gulvet i værelserne frembød en halv oprodet brolægning med mursten.
 gulvet var alt for åbent og hullet.
@@ -17357,6 +17396,7 @@ han havde ingen at sende, og så gik han selv.
 han havde ligget i en gåseurt.
 han havde mere af sin faders sind end af sin moders.
 han havde også begyndt så sildigt.
+han havde over hundrede megabit forbindelse
 han havde samlet og sat det sammen af bøger og optegnelser.
 han havde selv digtet den og sagde, at den var så udmærket.
 han hverken klinede eller støttede den.
@@ -17462,6 +17502,7 @@ hans tanke var så levende, hans hjerte så blødt.
 hans tanker var stemte, ligesom til altergang.
 hans tro har du ikke.
 har I hørt det!
+har du en tommestok, som jeg må låne
 har en lang hals med messingtromle.
 har jeg nu ligget så længe, så kan jeg ligge dyrehavstiden med!
 har sine tanker vendt til ruder knægt.
@@ -17480,6 +17521,7 @@ hele verden siger Dem behageligheder, og så er De Deres egen herre!
 hele vort liv er poesi.
 heller ikke døde hun der, men skikkeligt og honnet i sin egen seng.
 heller ikke nu, thi klokken ringer så højt ding dang!
+hellere investering end spekulering
 hen over den svævede de i store Kredse.
 hen over det lille tagvindue, hvor han sov, hældede hylden sine grene.
 hende saae vi aldrig siden!
@@ -17519,6 +17561,7 @@ herskabet spiste en middag ved hoffet.
 hestene trampede i vandet, det plaskede om vognhjulene.
 himlen skinnede i en altid flammende ild og slag på slag rullede tordenen.
 hip som hap, hver på sin vis og jeg på min.
+hjemmesiden bruger normalt din mikrofon
 hjemmet er bedst, selv i kælderen!
 hjemmet var dog bedst!
 hjerter med små madammer i, der dansede.
@@ -17741,6 +17784,7 @@ hvor længtes hun efter ham.
 hvor meget har du dér?
 hvor mon vi var.
 hvor rasler den prægtige silkekjortel.
+hvor ser vi koden til det lokale netværk
 hvor skal jeg finde mit lille barn!
 hvor sprudede den, hvor brændte den!
 hvor sød og velsignet ser han ud!
@@ -17832,6 +17876,7 @@ ilden lyste ud forneden.
 imorgen er jeg karsk og rigtig oppe igjen!
 ind i vagten, her er punch!
 inde i dem var gnavne tanker, dem tyggede de drøv på.
+indeksregulering er med til at håndtering økonomisk overvågning
 indenfor lød salmesang, de bar en kiste ud, som var pyntet med blomster.
 ingen af blomsterne syntes at falde i hendes smag.
 ingen af de andre ser sådan ud!
@@ -17846,6 +17891,7 @@ ingen ord kunne holde ham tilbage.
 ingen redningsbåd kunne virke.
 ingen sjæl trøstede hende med et kærligt ord.
 ingen søgte derfor til skrædderens hus, uden Johanne, træskomandens datter.
+internettet giver os mulighed for at deltage
 intet vokslys kan stråle som to barneøjne!
 ja De forstår Dem ikke på verden.
 ja da fik den Syn!
@@ -17935,6 +17981,7 @@ jeg er gammel og De er gammel!
 jeg er gammel og erfaren, skønt det tegn ser man ikke ofte.
 jeg er ganske vist syg!
 jeg er genert, så let man en kan krænke.
+jeg er i gang med at hjælpe
 jeg er ikke stærk nok til at lukke op!
 jeg er jo hendes egen kæledægge!
 jeg er kjed af at høre om Svaneham!
@@ -17976,11 +18023,15 @@ jeg har en uro og længsel!
 jeg har feber i kroppen!
 jeg har ganske bestemt hørt den før!
 jeg har gjort det utroligste!
+jeg har glemt mine nøgler
 jeg har god mad og en intim behandling.
 jeg har i sinde at forlove mig.
 jeg har ikke Noget at sige uden i Liggetiden!
+jeg har ikke husket min billet
+jeg har ikke husket mine nøgler
 jeg har ikke kunnet tåle det!
 jeg har ikke siden i morges fået vådt eller tørt!
+jeg har ingen forventninger
 jeg har kørt i en bøtte over tolv mil!
 jeg har megen fornøjelse af at drille lænkehunden.
 jeg har mere gavn af koen.
@@ -18063,6 +18114,7 @@ jeg skal synge om ondt og godt, der rundt om dig holdes skjult!
 jeg skylder Dem at have Deres mening!
 jeg smækkede låget til og satte mig selv ovenpå kassen.
 jeg stikker, jeg sidder her.
+jeg synes det er vildt at jeg må være med
 jeg synes her er så dejligt.
 jeg synes, at jeg lugter den.
 jeg så den, jeg bar den, jeg glemte mig selv i dens dejlighed.
@@ -18133,6 +18185,8 @@ justitsråden standsede og så nu et forunderligt tog komme forbi.
 kammerherrenøgle, urnøgle, Sankt Peters nøgle.
 kammertjenerne løb ud for at snakke om det, og slotspigerne havde stort kaffeselskab.
 kan De skaffe skriftlig forsikring fra frugthandleren?
+kan du give mig en kop kaffe
+kan du hjælpe mig med at betale
 kan du huske, da min fader red på træhesten i din husbonds tid.
 kan du nu se, at det var godt, jeg fik en sabel!
 kan du se, hvor smuk blå himlen er.
@@ -18218,6 +18272,8 @@ lille var hun og ganske grumset.
 lindeblomsterne for små og de havde så stort familieskab.
 livet er det dejligste eventyr!
 lo Poppedreng og tilføjede sin vits.
+lokalplanen forhindrede yderligere bosætning i området
+lokalpolitikeren var ikke med til mødet
 lov om en satsreguleringsprocent
 luen stod ud efter mig og ud af vinduet, hen over taget.
 luk mig op og slå mig så ihjel!
@@ -18493,6 +18549,7 @@ mig kan du tro!
 mig selv jeg forestiller.
 mig var det de kaldte falsk, jeg duede ikke!
 mig var det en stor mærkelighed.
+mikrofonen er tændt så jeg kan høre hvad du siger
 mild i sind var hun ikke, som man råbes til så svarer man.
 millioner, vidste han, måtte gå den brede vej til fordømmelsen.
 min Lotus fra de dybe Vande!
@@ -19829,6 +19886,7 @@ synes jeg ikke også, at solen altid søger mig under vandet.
 så bed de vingerne af Hendes Majestæt, og så måtte hun blive.
 så bevidst om mit værd og mit ægte præg.
 så blev jeg officer
+så bliver jeg hellere hjemme og spiser sagde drengen
 så det er jo godt nok.
 så drejede de mere sydligt, og snart duftede der af krydderier og blomster.
 så er den virkelig gået i aftes og ikke kommet igen.
@@ -19881,8 +19939,12 @@ således gik sommer og efterår, men nu kom vinteren, den kolde, lange vinter.
 således mødtes første gang vi to, Aphtanides og jeg.
 således rejste Tommelise udenlands.
 sælsomt i strid med hinanden klang tanker og domme.
+sæt din printer til at printe natten over
+sæt lydstyrken op til det maksimale
+sætter du hundrede millimeter af til karmmål kan du godt få plads
 sødere duftede Æbletræernes Blomster der, end i det danske Land.
 søen gik højt og ville bryde fartøjet.
+sølv er ikke opløseligt i meget varmt vand
 sønnerne derimod gik barhalset og uden seler, for de var kraftmænd.
 tag kun den, men smør min gemal og mine hoffolk!
 tag mig med dig!
@@ -19909,6 +19971,7 @@ to elskelige gamles hjem.
 to malerier opstillet ved siden af hinanden samlede en mængde tilskuere.
 to stolte øjne sad under de sorte øjenbryn.
 to tunge tårer trillede ned over den alvorlige mands kinder.
+tog er offentlig transport
 tomt, stort og koldt var det i snedronningens sale.
 tre fine Jomfruer, Ide, Johanne og Anna Dorthea.
 tro ikke hende der med stumphalen, hun er lumsk!
@@ -19917,10 +19980,12 @@ tror du han får milde øjne, eller juletræ!
 tror du, hun har lyst til at flyde og få vand over hovedet!
 træet stod ganske skjult, man skulle tro, at det var rent glemt.
 tudede de begge to og det lige ned i genboens dueslag til duerne.
+tvangsauktioner er ikke ensbetydende med konjuktursvingninger
 tydsk Øl laae i Kjælderen, da der laae noget.
 tågen lettede, og vi lå såmænd endnu lige uden for Nyborg.
 tårerne stod i hans øjne og på hans kinder.
 tællelyset brændte, og moder syntes at der var en høvlspån i lyset.
+tænk at du kan ændre verden på denne måde
 tænk ikke så meget på dig selv, du kunne støde dig på brostenene!
 tænk, hun skulle til de rige krofolk i Herningkanten, vesterpå.
 tænkte bondemanden, det kunne være et ganske godt bytte at få den.
@@ -19943,6 +20008,7 @@ tænkte tidslen, måske sat i potte, som klemmer, det er nok det allerhæderligs
 tænkte træet, var det dog aften!
 tænkte tællelyset, det glemmer jeg aldrig, og det ser jeg vist aldrig mere!
 tæt ved den viste sig den dræbte, christne Præst.
+tømmer lavet af gran kan have god styrke i mange år
 uartige børn har altid orm.
 ud af byen med ham!
 ud af det virkelige vokser just det forunderligste eventyr.
@@ -19954,6 +20020,8 @@ udbrød vaskekonen og blev ligbleg.
 ude fra gaden klang et posthorn.
 ude i Nyboder har de et bedre navn til hende, der kaldes hun.
 ude i haven blev gravet en lille grav.
+uden det rette lufttryk vil der være et større slid på dækket
+uden mad og drikke, dur helten ikke
 uden vinger svævede de ved deres egen lethed gennem luften.
 udenfor var en Sneestorm, saa at Enhver der kunde det holdt sig indendøre.
 udpeger en voldgiftsmand
@@ -20031,6 +20099,7 @@ vil du bringe den gamle mand derovre dette fra mig!
 vil du bytte? Jeg giver dig fåret for gåsen og tak til!
 vil du drive med og være trækfugl!
 vil du give mig kejserens krone!
+vil du hente kaffen til mig
 vil jeg synge tit
 ville jeg, kunne jeg nok lægge et vindæg!
 vin og gammelt øl skummede i glas og krus, og livhundene åd med.
