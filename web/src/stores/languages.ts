@@ -32,12 +32,12 @@ interface LoadedAction {
 export type Action = LoadedAction;
 
 async function getLocaleData(fileName: string): Promise<Locales> {
-  const response = await fetch(`/dist/locales/${fileName}.json`);
+  const response = await fetch(`/dist/languages/${fileName}.json`);
   return response.json();
 }
 
 async function getNativeNamesData(): Promise<NativeNames> {
-  const response = await fetch(`/dist/locales/native-names.json`);
+  const response = await fetch(`/dist/languages/native-names.json`);
   return response.json();
 }
 

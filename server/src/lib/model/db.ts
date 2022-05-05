@@ -929,6 +929,14 @@ export default class DB {
     );
   }
 
+  async getAllLanguages(): Promise<Language[]> {
+    const [rows] = await this.mysql.query(
+      `SELECT l.id as id, l.name as name, l.target_sentence_count as target_sentence_count
+       FROM locales l`
+    );
+    return rows;
+  }
+
   async getRequestedLanguages(): Promise<string[]> {
     const [rows] = await this.mysql.query(
       'SELECT language FROM requested_languages'
