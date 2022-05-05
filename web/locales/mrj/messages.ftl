@@ -8,6 +8,14 @@ email-input =
     .label = Электрон почта
 submit-form-action = Колташ
 loading = Грузымаш…
+email-opt-in-info = Мӹнь цельвлä гишäнем увертäрӹмäшвлäм, мӹньӹн прогресс гишäнем уэмдӹмäшвлäм дä информаци бюллетеньвлäм электрон сирмäшвлä гач Common Voice гишäн нӓлӹн шалгынем.
+email-opt-in-info-title = Common Voice сирмäшӹм колтымы спискӹш ушныда
+indicates-required = Шӹдӹр (*) доно анжыктымы вäрвлä обязательный ылыт.
+not-available-abbreviation = N/A
+banner-error-slow-1 = Нелеш идä нäл, Common Voice кӹзӹт олен пäшäлä. Пäлӹмӹдä шомы гишäн тау.
+banner-error-slow-2 = Мä кӹзӹт шукы трафикым получаенä дä кӹзӹтшӹ жепӹн пӹсӹ ядмашвлäм шӹмленä.
+banner-error-slow-link = Ылмы лаштык
+error-something-went-wrong = Нелеш идä нäл, тама-äнят тенге агыл лин
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,6 +23,7 @@ loading = Грузымаш…
 
 ## Languages
 
+ab = Абхаз
 
 # [/]
 
