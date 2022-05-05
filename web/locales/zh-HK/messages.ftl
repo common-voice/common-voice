@@ -97,6 +97,7 @@ ko = 韓文
 kpv = 科米-齊良文
 kw = 康和文
 ky = 吉爾吉斯文
+lb = 盧森堡文
 lg = 盧干達文
 lij = 利古里亞文
 lt = 立陶宛文
@@ -321,6 +322,8 @@ profile-form-native-language =
     .label = 母語
 profile-form-additional-language =
     .label = 其他語言
+profile-form-language =
+    .label = 語言
 profile-form-accent =
     .label = 口音
 profile-form-age =
@@ -615,6 +618,7 @@ subscribe = 訂閱
 get-started-speech = 語音識辨新手入門
 other-datasets = 其他語音數據集
 feedback-q = 有意見要回饋嗎？
+community-playbook = 社群守則
 data-other-librispeech-description = LibriSpeech 語料庫來自 LibriVox 計劃，共有大概一千個鐘嘅 16 千赫英語有聲書錄音。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的講座對話，及其被抄寫下來的演講稿一起製作而成的語料庫。
@@ -658,6 +662,9 @@ request-language-success-title = 增添新語言嘅請求已經收到，唔該�
 request-language-success-content = 我哋會盡快同你聯絡，同你提供更多有關點樣增添語言到 Common Voice 入邊嘅資訊。
 select-language = 選擇語言…
 other-language = 其他語言
+
+## Request Language Pages
+
 
 ## Languages Overview
 
@@ -884,6 +891,8 @@ download-recordings-title = 錄音片段
 download-size = 大細
 download-selected = 已選
 download-request = 請求下載
+download-request-button = 下載
+download-request-title = { $created }
 download-request-refresh-button = 更新
 download-request-modal-title = 下載鏈結
 
@@ -933,7 +942,11 @@ demo-dashboard-card-body = 對於每段貢獻咗出嚟嘅錄音同埋經過驗�
 
 ## Validation criteria
 
+contribution-criteria-nav = 準則
+contribution-criteria-link = 瞭解貢獻準則
+contribution-criteria-page-title = 貢獻準則
 contribution-for-example = 譬如
+contribution-misreadings-title = 誤讀
 contribution-volume-title = 音量
 contribution-just-unsure-title = 唔肯定？
 see-more = <chevron></chevron>睇多啲
@@ -946,16 +959,19 @@ see-less = <chevron></chevron>睇少啲
 
 ## HEADER/FOOTER
 
+sc-header-review = 審核
 sc-login-signup-button = 登入 / 註冊
 
 ## HOME
 
+sc-home-review-title = 審核句子
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-review-title = 審核句子
 
 ## MY SENTENCES
 
@@ -965,6 +981,8 @@ sc-login-signup-button = 登入 / 註冊
 
 ## STATS
 
+sc-stats-title = 統計資料
+sc-stats-updating = 更新中…
 
 ## ADD
 
@@ -989,9 +1007,20 @@ sc-login-signup-button = 登入 / 註冊
 
 ## REVIEW
 
+sc-review-title = 審核句子
+sc-review-form-button-skip = 略過
+sc-review-form-button-approve = 批准
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-link = 審核
 
 ## SETTINGS
 
+sc-settings-title = 設定
 
 # [/SentenceCollector]
 
