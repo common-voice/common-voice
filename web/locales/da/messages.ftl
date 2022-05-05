@@ -1334,6 +1334,14 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Gennemse nu!</reviewLink>
 sc-lang-info-add-more = <addLink>Tilføj flere sætninger nu!</addLink>
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ingen afviste sætninger.
+        [one] En afvist sætning.
+       *[other] { $rejectedSentences } afviste sætninger.
+    }
 
 ## LOGIN
 
