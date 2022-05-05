@@ -292,7 +292,7 @@ export default class Model {
         })),
       };
     },
-    1
+    DAY / 2
   );
 
   getClipsStats = lazyCache(
