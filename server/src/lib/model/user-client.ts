@@ -609,12 +609,10 @@ const UserClient = {
     //   [email]
     // );
 
-    console.log('got user', emails);
     const deletedUser = await db.query(
       `DELETE FROM user_clients WHERE email in(?)`,
       [emails]
     );
-    console.log('deletedUser', deletedUser);
     return deletedUser;
     // return await db.query(
     //   `

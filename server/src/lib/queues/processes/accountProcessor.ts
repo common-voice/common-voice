@@ -41,6 +41,7 @@ const GENERIC_EMAIL = 'commonvoice@mozillafoundation.org';
 const accountProcessor = async (job: Job) => {
   try {
     const { emails } = job.data;
+
     if (!emails) {
       throw new Error('No emails found');
     }
@@ -63,17 +64,13 @@ const accountProcessor = async (job: Job) => {
     }
 
     if (!genericAccountId) throw new Error('Cannot access generic account');
-    console.log('generic ID', genericAccountId);
 
     // Just deleting account
     // Replace all clips client_id w/ generic account
-    // delete account
     await UserClient.replaceClipOwner(deletedUserId, genericAccountId);
+    await UserClient.deleteAccount(emailList);
 
-    console.log('processing', emailList);
-
-    const userAccount = await UserClient.deleteAccount(emailList);
-    console.log('userAccount', userAccount);
+    //TODO
 
     // deleting clips
     // find all users clips
