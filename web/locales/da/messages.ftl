@@ -1400,6 +1400,8 @@ sc-settings-reset-skipped = Nulstil oversprungne sætninger
 sc-settings-skipped-decription = Du har tidligere sprunget sætninger over, mens du gennemgik. Nulstilling af oversprungne sætninger vil vise alle oversprungne sætninger igen. Dette er uafhængigt af sproget.
 sc-settings-show-all-button = Vis alle oversprungne sætninger igen
 sc-settings-failed = Kunne ikke ændre indstillinger. Prøv igen.
+# VALIDATION
+sc-validation-number-of-words = Sætning skal indeholde mellem 1 og 14 (inklusive) ord
 sc-validation-no-numbers = Sætning bør ikke indeholde tal
 sc-validation-no-symbols = Sætning bør ikke indeholde symboler
 sc-validation-no-abbreviations = Sætning bør ikke indeholde forkortelser
