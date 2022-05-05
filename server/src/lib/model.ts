@@ -188,7 +188,7 @@ export default class Model {
     await this.db.saveClip(clipData);
   }
 
-  getAllLanguages = lazyCache(
+  getLanguages = lazyCache(
     'get-all-languages',
     async (): Promise<Language[]> => {
       const languages = await this.db.getLanguages();
@@ -198,6 +198,17 @@ export default class Model {
           language.sentenceCount.targetSentenceCount;
 
         return { ...language, isContributable };
+      });
+    },
+    DAY
+  );
+
+  getAllLanguages = lazyCache(
+    'get-all-languages-query',
+    async (): Promise<any[]> => {
+      const languages = await this.db.getAllLanguages();
+      return languages.map(language => {
+        return { id: language.id, name: language.name };
       });
     },
     DAY
@@ -217,7 +228,7 @@ export default class Model {
   getLanguageStats = lazyCache(
     'get-all-language-stats',
     async (): Promise<LanguageStats> => {
-      const allLanguages = await this.getAllLanguages();
+      const allLanguages = await this.getLanguages();
 
       const contributableLocales = allLanguages
         .filter(language => language.isContributable)
