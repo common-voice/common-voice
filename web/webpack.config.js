@@ -50,7 +50,7 @@ module.exports = (_env, argv) => {
         // copy release files into dist
         { from: 'releases', to: 'releases' },
         // copy the locales JSON files
-        { from: '../locales', to: 'locales' },
+        { from: '../locales', to: 'languages' },
       ],
     }),
 
