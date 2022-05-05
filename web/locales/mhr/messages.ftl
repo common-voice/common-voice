@@ -80,7 +80,7 @@ hsb = Курык сорб
 ht = Гавай
 hu = Венгр
 hy-AM = Армян
-hyw = Эрвел армян
+hyw = Касвел армян
 ia = Интерлингва
 id = Индонез
 ie = Интерлингв
@@ -785,6 +785,15 @@ other-language = Вес йылме
 ## Request Language Pages
 
 request-language-heading = У йылме нерген йод
+request-language-explanation-1 =
+    Тыйын йылмет <languagesPageLink>Common Voice-ын йылме велыжыштыже</languagesPageLink>
+    уло але уке манын, терге.
+    Уке гын, тиде формым тичмашле да ме, тудым кузе ешарыме нерген
+    умылтарен, <strong>тылат йӧнан электрон серышым колтена</strong>.
+request-language-explanation-2 =
+    Кумылет улмылан кӧра тылат кӱлын кертше кеч-могай
+    ешартыш полышым але информацийым пуаш манын,
+    ме тыгак <strong>мемнан тӱшкан менеджерлан увертарена</strong>.
 request-language-form-email =
     .label = Тыйын электрон почто адресет
 request-language-form-info =
@@ -806,6 +815,13 @@ request-language-success-list-2 =
     Ешартыш полышым темлаш да тыйын йылмет дене
     пашам ыштыше тӱшка уло-укем увертараш манын,
     мемнан менеджер тый дене кылдалтеш
+request-language-success-list-3 =
+    Иктаж кок кече жапыште тый мемнан деч уверым от нал гын,
+    <emailLink>{ $email }</emailLink> электрон почтыш возен колто
+    да ме тый денет кылдалтына!
+request-language-error =
+    Очыни, ме тиде йодмашым налын онал. Порылий, тый мемнан
+    <emailLink>{ $email }</emailLink> э-почтыш возен колто да ме тый денет кылдалтына!
 
 ## Languages Overview
 
