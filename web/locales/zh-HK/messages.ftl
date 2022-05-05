@@ -508,6 +508,7 @@ about-nav-how-it-works-2 = Common Voice 喺點運作？
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = 社交媒體
 
 ## How to validate
 
@@ -959,11 +960,23 @@ see-less = <chevron></chevron>睇少啲
 
 ## HEADER/FOOTER
 
+sc-header-home = 首頁
+sc-header-add = 加入
 sc-header-review = 審核
+sc-header-my = 我嘅句子
+sc-header-statistics = 統計資料
+sc-header-profile = 個人檔案
+sc-footer-discourse = Discourse
+sc-footer-privacy = 私隱
+sc-footer-terms = 使用條款
+sc-footer-cookies = Cookies
 sc-login-signup-button = 登入 / 註冊
+sc-logout-button = 登出
 
 ## HOME
 
+sc-home-title = 歡迎光臨 Common Voice 句子收集器
+sc-home-collect-title = 收集句子
 sc-home-review-title = 審核句子
 
 ## GENERAL
@@ -975,6 +988,7 @@ sc-howto-review-title = 審核句子
 
 ## MY SENTENCES
 
+sc-my-title = 我嘅句子
 
 ## REJECTED
 
@@ -1001,6 +1015,7 @@ sc-stats-updating = 更新中…
 
 ## PROFILE
 
+sc-personal-remove-button = 移除
 
 ## REVIEW CRITERIA
 
@@ -1008,6 +1023,7 @@ sc-stats-updating = 更新中…
 ## REVIEW
 
 sc-review-title = 審核句子
+sc-review-form-button-reject = 拒絕
 sc-review-form-button-skip = 略過
 sc-review-form-button-approve = 批准
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
