@@ -270,9 +270,9 @@ export default class API {
     response: Response,
     _next: NextFunction
   ) => {
-    console.log(user);
-
     const deleteAccountJob = deleteAccount(user);
+
+    return response.json(deleteAccountJob);
   };
 
   saveAvatar = async (
