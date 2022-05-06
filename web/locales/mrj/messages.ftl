@@ -399,6 +399,13 @@ sc-howto-addsen-title = У предложенивлӓм уштары
 ## ADD
 
 sc-submit-err-select-lang = Йӹлмӹм айыры.
+sc-submit-err-add-sentences = Предложенивлӓм уштары, пожалсты.
+sc-submit-err-add-source = Источниквлӓм уштары, пожалсты.
+sc-submit-title = Предложенивлӓм уштараш
+sc-submit-select-language =
+    .labelText = Йӹлмӹм айыраш
+sc-submit-ph-one-per-line =
+    .placeholder = Корнышты ик предложени
 
 ## ADD LANGUAGE
 
