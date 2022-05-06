@@ -207,6 +207,7 @@ all-locales = Цилӓ
 ## Speak Shortcuts
 
 shortcut-rerecord-toggle = [1-5]
+shortcut-discard-ongoing-recording = ESC
 
 ## ProjectStatus
 
