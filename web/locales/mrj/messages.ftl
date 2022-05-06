@@ -190,6 +190,7 @@ zh-TW = Китай (Тайвань)
 
 ## Home Page
 
+all-locales = Цилӓ
 
 ## Account Benefits
 
@@ -205,6 +206,7 @@ zh-TW = Китай (Тайвань)
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle = [1-5]
 
 ## ProjectStatus
 
