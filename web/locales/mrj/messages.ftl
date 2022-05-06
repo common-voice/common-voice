@@ -226,6 +226,7 @@ sign-up-account = Аккаунт
 
 ## Account Benefits
 
+improve-audio = Аудиоформат
 
 ## What's public
 
@@ -360,8 +361,8 @@ clips-with-count-pluralized =
     }
 contribute-more =
     { $count ->
-        [one] кечӹ
-       *[other] кечӹ
+        [one] Эче { $count } ӹштӓш йӓмдӹ ылат?
+       *[other] Эче { $count } ӹштӓш йӓмдӹ ылат?
     }
 listen-3rd-time-instruction = 2 ӱлӹк, тенгеок кеӓш!<playIcon></playIcon>
 target-segment-add-voice = Ӹшке юкетӹм уштары
@@ -371,12 +372,22 @@ target-segment-add-voice = Ӹшке юкетӹм уштары
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Кечӹ
+       *[other] Кечӹвлӓ
+    }
 
 ## Dashboard
 
 
 ## Custom Goals
 
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] клип
+       *[other] клип
+    }
 
 ## Profile Delete
 
@@ -392,6 +403,7 @@ target-segment-add-voice = Ӹшке юкетӹм уштары
 
 ## Demo Datasets
 
+card-button-back = Шайык
 demo-eofy-header = 2019 и мычашты релиз
 
 ## Demo Account
