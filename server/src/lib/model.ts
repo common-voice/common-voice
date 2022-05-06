@@ -204,11 +204,15 @@ export default class Model {
   );
 
   getAllLanguages = lazyCache(
-    'get-all-languages-query',
+    'get-all-languages-isContributable',
     async (): Promise<any[]> => {
       const languages = await this.db.getAllLanguages();
       return languages.map(language => {
-        return { id: language.id, name: language.name };
+        return {
+          id: language.id,
+          name: language.name,
+          isContributable: language.isContributable,
+        };
       });
     },
     DAY
