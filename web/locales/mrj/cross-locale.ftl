@@ -1,5 +1,9 @@
 ## Languages
 
+contribute = Вкладым ӹштӓш
+get-involved-button = Ушнаш
+get-involved-title = { $lang } йӹлмӹш вкладым ӹштӓш
+get-involved-form-title = { $lang } йӹлмӹн уэммӓшлӓн сылы:
 get-involved-email =
     .label = Электрон почта
 get-involved-submit = Колташ
