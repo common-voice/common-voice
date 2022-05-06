@@ -936,18 +936,18 @@ report-success = Отчёт эсен пуалтын
 streaks = Корно-влак
 days =
     { $count ->
-        [one] кече
-       *[other] кече
+        [one] Кече
+       *[other] Кече-влак
     }
 recordings =
     { $count ->
-        [one] возымаш
-       *[other] возымаш
+        [one] Возымаш
+       *[other] Возымаш-влак
     }
 validations =
     { $count ->
-        [one] чынлымаш
-       *[other] чынлымаш
+        [one] Чынлымаш
+       *[other] Чынлымаш-влак
     }
 
 ## Dashboard
