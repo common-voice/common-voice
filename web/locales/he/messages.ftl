@@ -422,10 +422,12 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = למה Common Voice?
+how-does-it-work-title-v2 = איך Common Voice פועל?
 
 ## How does it work section
 
 about-voice-validation-subtitle = אנשים אחרים מאמתים את המקטעים הקוליים האלה.
+about-subscribe-text = רוצה להישאר בקשר עם Common Voice?
 about-speak = דבר
 about-speak-text = מתנדבים מקליטים קטעי קול על ידי הקראה מתוך מאגר של משפטים שנתרמו.
 about-listen-queue = תור האזנה
@@ -443,7 +445,7 @@ about-nav-why-common-voice = למה?
 about-nav-how-it-works = איך?
 about-nav-partners = שותפים
 about-nav-get-involved = הצטרפות
-about-nav-how-it-works-2 = כיצד פועל Common Voice?
+about-nav-how-it-works-2 = איך Common Voice פועל?
 
 ## Community Playbook Content
 ## What is a language
@@ -452,6 +454,7 @@ about-playbook-what-is-language = מה זו שפה ב־Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = איך אפשר להוסיף שפה?
 
 ## How does localization work
 
@@ -973,6 +976,7 @@ sc-settings-ui-language = שפת ממשק
 sc-settings-failed = לא ניתן היה לשנות את ההגדרות. נא לנסות שוב.
 # VALIDATION
 sc-validation-number-of-words = המשפט חייב להכיל בין 1 ל־14 (כולל) מילים
+sc-validation-no-numbers = משפט לא אמור להכיל מספרים
 
 # [/SentenceCollector]
 
