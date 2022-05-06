@@ -187,10 +187,12 @@ zh-TW = Китай (Тайвань)
 
 ## Layout
 
+about = Мӓ гишӓннӓ
 
 ## Home Page
 
 all-locales = Цилӓ
+sign-up-account = Аккаунт
 
 ## Account Benefits
 
@@ -214,8 +216,11 @@ shortcut-discard-ongoing-recording = ESC
 
 ## ProfileForm
 
+profile-form-accent =
+    .label = Акцент
 build-profile = Профильӹм ӹштӹмäш
 avatar = Аватар
+profile-close = Питӹрäш
 
 ## Profile - Email
 
@@ -233,6 +238,8 @@ add-language = Йӹлмӹм уштараш
 ## How does it work section
 
 about-listen = Колышташ
+about-yes-votes = ≥ 2 Ане
+about-no-votes = ≥ 2 Уке
 
 ## Community Playbook Content
 ## What is a language
@@ -310,6 +317,7 @@ language-speakers = Попышывлä
 ## Contribution
 
 action-click = Темдäл
+listen-3rd-time-instruction = 2 ӱлӹк, тенгеок кеӓш!<playIcon></playIcon>
 
 ## Reporting
 
@@ -337,6 +345,7 @@ action-click = Темдäл
 
 ## Demo Datasets
 
+demo-eofy-header = 2019 и мычашты релиз
 
 ## Demo Account
 
@@ -357,6 +366,7 @@ action-click = Темдäл
 
 ## HEADER/FOOTER
 
+sc-header-add = Уштараш
 
 ## HOME
 
