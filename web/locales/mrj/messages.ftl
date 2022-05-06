@@ -310,6 +310,8 @@ contact-required = *обязательный
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = Тӹньӹн электрон почта адресет
 
 ## Languages Overview
 
@@ -322,6 +324,7 @@ language-speakers = Попышывлä
 
 action-click = Темдäл
 listen-3rd-time-instruction = 2 ӱлӹк, тенгеок кеӓш!<playIcon></playIcon>
+target-segment-add-voice = Ӹшке юкетӹм уштары
 
 ## Reporting
 
@@ -356,6 +359,7 @@ demo-eofy-header = 2019 и мычашты релиз
 
 ## Demo Contribute
 
+demo-contribute-card-header = Ӹшке юкетӹм уштараш ӓли колышташ йӓмдӹ ылат?
 
 ## Demo Dashboard
 
@@ -380,6 +384,8 @@ sc-header-add = Уштараш
 
 ## HOW-TO
 
+sc-howto-addlang-title = Пӓшӓлӓн йӹлмӹвлӓм уштарымаш
+sc-howto-addsen-title = У предложенивлӓм уштары
 
 ## MY SENTENCES
 
@@ -392,6 +398,7 @@ sc-header-add = Уштараш
 
 ## ADD
 
+sc-submit-err-select-lang = Йӹлмӹм айыры.
 
 ## ADD LANGUAGE
 
