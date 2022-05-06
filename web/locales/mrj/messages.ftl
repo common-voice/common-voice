@@ -206,7 +206,13 @@ show-wall-of-text = Шукырак лыд
 help-us-title = Предложенивлӓн тӧр ылмыштым мӓлӓннӓ тергӓш палшы!
 vote-yes = Ане
 vote-no = Уке
+listen-subtitle = Мӓлӓннӓ юквлӓм тергӓш палшы
+listen-goal-text = Тергӹмӹ клипвлӓ
+hours-validated = Тергӹмӹ цӓш
+voices-online = Онлайн юквлӓ кӹзӹт
+todays-progress = Тагачшы анзыкы кемӓш
 all-locales = Цилӓ
+today = Тагачы
 x-weeks-short =
     { $count ->
         [one] ӓрня
@@ -226,6 +232,7 @@ sign-up-account = Аккаунт
 
 ## Account Benefits
 
+benefits = Пайда
 improve-audio = Аудиоформат
 
 ## What's public
@@ -236,24 +243,53 @@ improve-audio = Аудиоформат
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Мадыкташ/Шагалташ
 
 ## Speak Shortcuts
 
 shortcut-rerecord-toggle = [1-5]
 shortcut-discard-ongoing-recording = ESC
+shortcut-submit-label = Клипвлӓм колташ
+request-language-button = Йӹлмӹм ядаш
 
 ## ProjectStatus
 
+english = Англичан
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Юзерӹн лӹмжӹ
+profile-form-native-language =
+    .label = Шачмы йӹлмӹ
 profile-form-additional-language =
     .label = Ситӓртӹш йӹлмӹ
+profile-form-language =
+    .label = Йӹлмӹ
 profile-form-accent =
     .label = Акцент
+profile-form-age =
+    .label = Игот
+profile-form-gender-2 =
+    .label = Пӱэргӹ/Ӹдӹрӓмӓш
+hidden = Шӹлтӹмӹ
+visible = Кайшы
+native-language =
+    .label = Шачмы йӹлмӹ
+profile-form-submit-save = Переген кодаш
+profile-form-submit-saved = Переген кодымы
+male = Пӱэргӹ
+female = Ӹдӹрӓмӓш
+# Gender
+other = Весӹ
+why-profile-title = Малан профиль келеш?
 build-profile = Профильӹм ӹштӹмäш
 avatar = Аватар
+goals = Цельвлӓ
+edit-profile = Профильӹм редактируяш
+profile-create-success = Сӹнгӹмӓш, профиль ӹштӓлтӹн!
 profile-close = Питӹрäш
+why-demographic = Малын тидӹ келеш?
 
 ## Profile - Email
 
