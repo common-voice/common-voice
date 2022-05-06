@@ -187,10 +187,25 @@ zh-TW = Китай (Тайвань)
 
 ## Layout
 
+speak = Попы
+speak-now = Кӹзӹт попы
+datasets = Датасетвлӓ
+languages = Йӹлмӹвлӓ
 about = Мӓ гишӓннӓ
+profile = Профиль
+help = Палшык
+contact = Контакт
+cookies = Куки
+link-copied = Ссылкым копируйымы
+back-top = Тӹнгӓлтӹшӹш пӧртӹлӓш
+logout = Система гӹц лӓктӓш
 
 ## Home Page
 
+show-wall-of-text = Шукырак лыд
+help-us-title = Предложенивлӓн тӧр ылмыштым мӓлӓннӓ тергӓш палшы!
+vote-yes = Ане
+vote-no = Уке
 all-locales = Цилӓ
 sign-up-account = Аккаунт
 
@@ -406,9 +421,13 @@ sc-submit-select-language =
     .labelText = Йӹлмӹм айыраш
 sc-submit-ph-one-per-line =
     .placeholder = Корнышты ик предложени
+sc-submit-button =
+    .submitText = Колташ
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Йӹлмӹм уштараш ӹш ли
+sc-add-lang-sec-button = Йӹлмӹм уштараш
 
 ## ADD SENTENCES CONFIRMATION
 
