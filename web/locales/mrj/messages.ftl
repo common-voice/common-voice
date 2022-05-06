@@ -207,6 +207,21 @@ help-us-title = Предложенивлӓн тӧр ылмыштым мӓлӓн�
 vote-yes = Ане
 vote-no = Уке
 all-locales = Цилӓ
+x-weeks-short =
+    { $count ->
+        [one] ӓрня
+       *[other] ӓрня
+    }
+x-months-short =
+    { $count ->
+        [one] тӹлзӹ
+       *[other] тӹлзӹ
+    }
+x-years-short =
+    { $count ->
+        [one] и
+       *[other] и
+    }
 sign-up-account = Аккаунт
 
 ## Account Benefits
@@ -338,6 +353,16 @@ language-speakers = Попышывлä
 ## Contribution
 
 action-click = Темдäл
+clips-with-count-pluralized =
+    { $count ->
+        [one] клип
+       *[other] клип
+    }
+contribute-more =
+    { $count ->
+        [one] кечӹ
+       *[other] кечӹ
+    }
 listen-3rd-time-instruction = 2 ӱлӹк, тенгеок кеӓш!<playIcon></playIcon>
 target-segment-add-voice = Ӹшке юкетӹм уштары
 
