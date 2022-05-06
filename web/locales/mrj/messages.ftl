@@ -216,6 +216,8 @@ shortcut-discard-ongoing-recording = ESC
 
 ## ProfileForm
 
+profile-form-additional-language =
+    .label = Ситӓртӹш йӹлмӹ
 profile-form-accent =
     .label = Акцент
 build-profile = Профильӹм ӹштӹмäш
@@ -247,12 +249,14 @@ about-no-votes = ≥ 2 Уке
 
 ## How do I add a language
 
+about-playbook-how-add-language = Кыце мӹлӓм йӹлмӹм уштараш?
 
 ## How does localization work
 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Кыце мӹлӓм предложенивлӓм уштараш?
 
 ## How to record quality
 
