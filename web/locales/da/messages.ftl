@@ -1256,6 +1256,7 @@ sc-submit-ph-one-per-line =
     .placeholder = En sætning pr. linje
 sc-submit-button =
     .submitText = Indsend
+sc-submit-guidelines = Tjek venligst <howToLink>retningslinjerne</howToLink>.
 
 ## ADD LANGUAGE
 
@@ -1373,6 +1374,7 @@ sc-criteria-item-5-2 = Hvis sætningen ikke opfylder ovenstående kriterier, ska
 
 ## REVIEW
 
+sc-review-title = Gennemgå sætninger
 sc-review-loading = Indlæser sætninger...
 sc-review-no-sentences = Ingen sætninger at gennemgå. <addLink>Tilføj flere sætninger nu!</addLink>
 # Variables:
