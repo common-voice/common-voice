@@ -399,6 +399,7 @@ gravatar_not_found = آپ کے ای میل کے لئے کوئی Gravatar نہی�
 file_too_large = منتخب کی گئی فائل بہت بڑی ہے۔
 avatar-uploaded = اوتار اپ لوڈ ہوگیا
 max-file-size = { $kb }kb زیادہ سے زیادہ
+remove-avatar = اوتار کو ہٹا دیں۔
 
 ## Profile - Email
 
@@ -501,6 +502,7 @@ about-get-involved = شامل ہوں
 about-get-involved-text-2 =
     کیا کامن وائس کو مزید بہتر بنانے میں مدد کرنا چاہتے ہیں؟  بہترین! ای میل یا <discourseLink>گفتگو  </discourseLink> فورمز کے ذریعہ رابطے میں رہیں
     <githubLink> گٹھب </githubLink> کے ذریعہ سائٹ  مسائل جمع کروائیں ، یا  <matrixLink> میٹرکس </matrixLink> کمیونٹی چیٹ میں شمولیت اختیار کریں۔
+about-stay-in-touch-button = سائن اپ کریں
 about-nav-why-common-voice = کیوں؟
 about-nav-how-it-works = کیسے ؟
 about-nav-partners = ساتھی
