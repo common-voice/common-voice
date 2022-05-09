@@ -817,9 +817,9 @@ request-language-error =
 ## Languages Overview
 
 language-section-in-progress = Í vinnslu
-language-section-in-progress-new-description = Þessi tungumál eru um þessar mundir í þróun hjá Samrómssamfélaginu. Framvindustikan sýnir hversu langt hvert tungmál er komið í <localizationGlossaryLink>þýðingu vefsvæðisins</localizationGlossaryLink> og í <sentenceCollectionGlossaryLink>söfnun setninga</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = Þessi tungumál eru um þessar mundir í þróun hjá Samrómssamfélaginu. Framvindustikan sýnir hversu langt hvert tungmál er komið í <localizationGlossaryLink>þýðingum vefsvæðisins</localizationGlossaryLink> og í <sentenceCollectionGlossaryLink>söfnun setninga</sentenceCollectionGlossaryLink>.
 language-section-launched = Gangsett
-language-section-launched-description = Fyrir þessi tungumál hefur vefsvæðið verið <localizationGlossaryLink>þýdd</localizationGlossaryLink> að fullu, og er komið með nóg af <sentenceCollectionGlossaryLink>söfnuðum setningum</sentenceCollectionGlossaryLink> til þess að leyfa áframhaldandi framlög fyrir <speakLink>tal-</speakLink> og <listenLink>hlustun</listenLink>.
+language-section-launched-description = Fyrir þessi tungumál hefur vefsvæðið verið <localizationGlossaryLink>þýtt</localizationGlossaryLink> að fullu, og er komið með nóg af <sentenceCollectionGlossaryLink>söfnuðum setningum</sentenceCollectionGlossaryLink> til þess að leyfa áframhaldandi framlög fyrir <speakLink>tal-</speakLink> og <listenLink>hlustun</listenLink>.
 languages-show-more = Sjá meira
 languages-show-less = Sjá minna
 language-meter-in-progress = Framvinda
@@ -1496,7 +1496,6 @@ sc-review-link = Yfirfara
 
 sc-settings-title = Stillingar
 sc-settings-ui-language = Tungumál viðmóts
-sc-settings-language-translated-warning = Ekki er víst að síðurnar fyrir þetta tungumál séu fullþýddar. Þú getur hjálpað til við þýðingar <pontoonLinkLink>á Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Endurstilla setningar sem var sleppt
 sc-settings-skipped-decription = Þú slepptir áður setningum við yfirferð. Með því að endurstilla þær setningar sem var sleppt, munu þær verða birtar aftur. Þetta er alveg óháð tungumáli.
 sc-settings-show-all-button = Birta aftur allar setningar sem var sleppt
