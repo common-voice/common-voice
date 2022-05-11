@@ -187,7 +187,7 @@ zh-TW = Китай (Тайвань)
 
 ## Layout
 
-speak = Попы
+speak = Попаш
 speak-now = Кӹзӹт попы
 datasets = Датасетвлӓ
 languages = Йӹлмӹвлӓ
@@ -323,6 +323,7 @@ add-language = Йӹлмӹм уштараш
 ## How does it work section
 
 about-language-req-subtitle = Тӓгӱ йӹлмӹм уштараш ядеш.
+about-speak = Попаш
 about-listen = Колышташ
 about-yes-votes = ≥ 2 Ане
 about-no-votes = ≥ 2 Уке
@@ -377,6 +378,7 @@ review-recording = Анжен лӓктӓш
 language = Йӹлмӹ
 size-gigabyte = ГБ
 size-megabyte = МБ
+data-other-ted-name = TED-LIUM корпус
 more = Шукырак
 close = Питӹрäш
 
