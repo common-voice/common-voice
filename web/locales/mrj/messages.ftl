@@ -321,13 +321,21 @@ help-variants = Вариантвлӓ шотышты палшык келеш?
 ## Profile - Email
 
 connect-gravatar = Граватар доно кӹлдӓлт
+file_too_large = Айырымы файл утла кого
+remove-avatar = Аватарым карангдаш
 
 ## Profile - Email
 
+manage-subscriptions = Сылымашвлӓм виктӓрӓш
+manage-email-subscriptions = Электрон почта гач сылымашвлӓм виктӓрӓш
+email-already-used = Электрон почта ӹнде вес аккаунтлан кычылталтеш
 add-language = Йӹлмӹм уштараш
 
 ## FAQ
 
+faq-title = Шӹрен пуэдӹмӹ ядмашвлӓ
+faq-what-cv-q = Ма техень Common Voice?
+faq-why-important-q = Малын тидӹ керӓл?
 
 ## ABOUT US
 
