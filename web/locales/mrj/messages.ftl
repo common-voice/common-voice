@@ -444,6 +444,8 @@ contact-required = *обязательный
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Йӹлмӹ
 
 ## Request Language Pages
 
@@ -524,6 +526,7 @@ download-request-link-text = Zip #{ $offset } / { $total }
 
 card-button-back = Шайык
 demo-eofy-header = 2019 и мычашты релиз
+demo-account = Аккаунт
 
 ## Demo Account
 
