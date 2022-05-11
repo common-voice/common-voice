@@ -314,8 +314,12 @@ edit-profile = Профильӹм редактируяш
 profile-create-success = Сӹнгӹмӓш, профиль ӹштӓлтӹн!
 profile-close = Питӹрäш
 why-demographic = Малын тидӹ келеш?
+login-identity = Логин
 login-signup = Системӹш пыры / Регистрацим эртӹ
 edit = Редактируяш
+email-subscriptions = Электрон почта гач сылымашвлӓ
+contribution-experience = Ӹшке пӓшӓэтӹм ӓклӹ
+skip-submission-feedback = Пӓшӓм ӓклӹмӓшӹм коден кеӓш
 off = Йӧртӓш
 on = Чӱктӓш
 help-accent = Акцент шотышты палшык келеш?
@@ -324,6 +328,7 @@ help-variants = Вариантвлӓ шотышты палшык келеш?
 ## Profile - Email
 
 connect-gravatar = Граватар доно кӹлдӓлт
+gravatar_not_found = Электрон почта адреслӓн граватарым момы агыл
 file_too_large = Айырымы файл утла кого
 remove-avatar = Аватарым карангдаш
 
@@ -499,6 +504,7 @@ confirm-goal = Цельӹм лачокеш лыкташ
 
 download-profile-title = Профиль
 download-request-title = { $created }
+download-request-link-text = Zip #{ $offset } / { $total }
 
 ## Landing
 
