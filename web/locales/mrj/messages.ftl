@@ -241,13 +241,27 @@ whats-public = Мам цилӓн кычылтын кердӹт?
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = к
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = м
 shortcut-play-toggle-label = Мадыкташ/Шагалташ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = т
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = у
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = с
 shortcut-rerecord-toggle = [1-5]
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Пӧртӹлтӓш
@@ -361,6 +375,8 @@ review-recording = Анжен лӓктӓш
 ## Datasets Page
 
 language = Йӹлмӹ
+size-gigabyte = ГБ
+size-megabyte = МБ
 more = Шукырак
 close = Питӹрäш
 
@@ -397,6 +413,7 @@ language-speakers = Попышывлä
 ## Contribution
 
 action-click = Темдäл
+skip = Коден кеӓш
 clips-with-count-pluralized =
     { $count ->
         [one] клип
