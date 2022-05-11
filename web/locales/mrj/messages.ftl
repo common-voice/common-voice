@@ -411,7 +411,9 @@ mycroft-title = Mycroft Ai
 
 data-download-yes = Ане
 data-download-deny = Уке
+data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
 release-version = Верси
+license = Лицензи: <licenseLink>{ $license }</licenseLink>
 terms-agree = Келшем
 terms-disagree = Ам келшӹ
 review-submit-title = Анжалаш дӓ колташ
@@ -420,6 +422,7 @@ review-recording = Анжен лӓктӓш
 ## Datasets Page
 
 language = Йӹлмӹ
+cv-license = Лицензи
 size-gigabyte = ГБ
 size-megabyte = МБ
 data-other-ted-name = TED-LIUM корпус
