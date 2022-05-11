@@ -413,7 +413,11 @@ target-segment-add-voice = Ӹшке юкетӹм уштары
 
 ## Reporting
 
+report = Отчёт
 report-title = Отчётым колташ
+report-other-comment =
+    .placeholder = Комментари
+success = Аш
 
 ## Goals
 
@@ -545,6 +549,19 @@ sc-criteria-title = Анжымын критеривлӓ
 
 ## REVIEW
 
+sc-review-title = Предложенивлӓм анжен лӓк
+sc-review-form-button-reject = Карангдаш
+sc-review-form-button-skip = Коден кеӓш
+sc-review-form-button-approve = Пингӹдемдӓш
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = А
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = У
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = К
+sc-review-form-button-submit =
+    .submitText = Анжен лӓкмӹм кашарташ
+sc-review-link = Анжен лӓктӓш
 
 ## SETTINGS
 
