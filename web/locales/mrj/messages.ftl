@@ -327,6 +327,7 @@ about-playbook-how-add-language-content-3 = <strong>Предложенивлӓм
 ## How to add sentences
 
 about-playbook-how-add-sentences = Кыце мӹлӓм предложенивлӓм уштараш?
+about-playbook-how-add-sentences-content-3 = Википеди гӹц мытык предложенивлӓм кычылташ манын, <scraperLink>Sentence extractor-ым</scraperLink> кычылтын кердӓт.
 
 ## How to record quality
 
@@ -504,9 +505,20 @@ sc-submit-button =
 
 sc-add-lang-could-not-add = Йӹлмӹм уштараш ӹш ли
 sc-add-lang-sec-button = Йӹлмӹм уштараш
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Худа предложени уке
+        [one] худа предложени
+       *[other] худа предложени
+    }
+sc-add-err-submission = Колтымаш самынь
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = У предложенивлӓм лачокеш лыкташ
+sc-confirm-button-text = Лачокеш лыкташ
 
 ## LANGUAGE INFO
 
