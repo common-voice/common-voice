@@ -311,6 +311,8 @@ edit-profile = Профильӹм редактируяш
 profile-create-success = Сӹнгӹмӓш, профиль ӹштӓлтӹн!
 profile-close = Питӹрäш
 why-demographic = Малын тидӹ келеш?
+login-signup = Системӹш пыры / Регистрацим эртӹ
+edit = Редактируяш
 
 ## Profile - Email
 
