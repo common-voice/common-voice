@@ -313,9 +313,14 @@ profile-close = Питӹрäш
 why-demographic = Малын тидӹ келеш?
 login-signup = Системӹш пыры / Регистрацим эртӹ
 edit = Редактируяш
+off = Йӧртӓш
+on = Чӱктӓш
+help-accent = Акцент шотышты палшык келеш?
+help-variants = Вариантвлӓ шотышты палшык келеш?
 
 ## Profile - Email
 
+connect-gravatar = Граватар доно кӹлдӓлт
 
 ## Profile - Email
 
