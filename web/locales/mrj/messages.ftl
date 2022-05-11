@@ -237,6 +237,7 @@ improve-audio = Аудиоформат
 
 ## What's public
 
+whats-public = Мам цилӓн кычылтын кердӹт?
 
 ## Speak & Listen Shortcuts
 
@@ -306,6 +307,7 @@ add-language = Йӹлмӹм уштараш
 
 ## How does it work section
 
+about-language-req-subtitle = Тӓгӱ йӹлмӹм уштараш ядеш.
 about-listen = Колышташ
 about-yes-votes = ≥ 2 Ане
 about-no-votes = ≥ 2 Уке
@@ -317,6 +319,7 @@ about-no-votes = ≥ 2 Уке
 ## How do I add a language
 
 about-playbook-how-add-language = Кыце мӹлӓм йӹлмӹм уштараш?
+about-playbook-how-add-language-content-3 = <strong>Предложенивлӓм погаш манын</strong>, <scLink>Sentence Collector-ым</scLink> <scVideo>йӧнештӓрӹ</scVideo>.
 
 ## How does localization work
 
