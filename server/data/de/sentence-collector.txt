@@ -15071,6 +15071,7 @@ Heute ist die Wettervorhersage mal wieder zuverlässiger als die Fahrplanauskunf
 Heute ist ein rabenschwarzer Tag.
 Heute ist ein schöner Tag.
 Heute ist es aber wirklich unerträglich schwül!
+Heute ist es wieder einmal nicht schönes Wetter.
 Heute ist es ziemlich bewölkt.
 Heute ist morgen schon gestern.
 Heute ist schönes Frühlingswetter.
@@ -16923,6 +16924,7 @@ Ich setze dieses Mal den Trend.
 Ich setze fünftausend auf den kleinen Dicken mit der Brille.
 Ich setze gerade meinen neuen Laptop auf.
 Ich seufze und lege die künstliche Kauleiste wieder in den Karton.
+Ich sitze am Tisch und lese ein Buch.
 Ich sitze im Auto und singe ein Musical.
 Ich sitze jetzt im Zug.
 Ich sitze schon seit einem Jahr im Homeoffice.

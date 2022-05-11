@@ -6743,6 +6743,7 @@ Har jeg ikke slået ham ihjel!
 Har jeg nu ligget så længe, så kan jeg ligge dyrehavstiden med
 Har jeg skrevet den tragedie intrigen på volden eller store bededag, vaudeville
 Har store sale og går med sådan en dejlig, sort fløjlspels
+Har været i tvivl om du gør noget ulovligt
 Harlekin, formand for tærskerne
 Havde de kommet derover, var de ikke blevet menneske, men det blev jeg
 Havde de to hjemvendte svane-jomfruer meldt
@@ -7688,6 +7689,7 @@ Hvad kan det hjælpe, så rykker du roden op for al din gerning!
 Hvad kan dog ikke et menneske falde på
 Hvad kan dog ikke et menneske falde på!
 Hvad kan jeg hjælpe dig med?
+Hvad kan man bruge tre D modeller til?
 Hvad klokken fortæller, skal der år og dage til at give igen
 Hvad klokken fortæller, skal der år og dage til at give igen.
 Hvad knap kan rummes i Tider og Lande.
@@ -7762,6 +7764,7 @@ Hvad var der skyllet op en gammel mandshat laae der
 Hvad var det dog for en ting? Ja det ved vi!
 Hvad var det for en lyd ved kakkelovnen æblerne begyndte at stege
 Hvad var det hun stak sig
+Hvad var det sidste, som du hentede på nettet
 Hvad var ham nu Minnesangernes Viser, Kling og Klang, Mundsveir!
 Hvad var ham nu minnesangernes viser, kling og klang, mundsveir
 Hvad vil du bruge de oplysninger til?
@@ -17802,6 +17805,7 @@ hvorfor spiste Adam af den forbudne frugt!
 hvorfra er Du dog kommet i mit Huus!
 hvorfra han skal komme at dømme levende og døde.
 hvorledes får vi dig med? Vi har hverken skib eller båd!
+hvornår har du sidst downloadet et billede fra nettet
 hyp, alle mine heste!
 hånd i hånd dansede de ved den stille sø i det klare måneskin.
 håret nyt, det er af hør

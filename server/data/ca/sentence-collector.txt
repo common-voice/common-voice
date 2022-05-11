@@ -5771,6 +5771,7 @@ El Pinell de Brai es troba a la Terra Alta
 El Pla de Santa Maria es troba a l’Alt Camp
 El Pla del Penedès es troba a l’Alt Penedès
 El Poal es troba al Pla d’Urgell
+El Pont Vell té forma d'esquena d'ase.
 El Pont de Bar es troba a l’Alt Urgell
 El Pont de Suert es troba a l’Alta Ribagorça
 El Pont de Vilomara i Rocafort es troba al Bages
@@ -5836,6 +5837,7 @@ El cerebrotònic es caracteritza per trets d'inhibició, introversió i tendènc
 El cicle agrícola continuarà amb les festes de l’estiu.
 El cim del Tibidabo es el punt mes alt.
 El cinema podria començar formant una nova escola de documentaris.
+El claustre gòtic és fet amb pedra de Beuda.
 El clero de sant Llorenç sols pagava els impostos vinculats a la propietat.
 El clima de la Cerdanya és mediterrani.
 El col·loqui floria en rares conjectures i fantasioses hipòtesis.
@@ -6023,6 +6025,8 @@ El joc trampós de la cultura oficial.
 El jove historiador va arribar a la penya a quarts d'onze.
 El jove historiaire, en Marc Palau, va arribar a la penya.
 El judici davant l'alcalde de Roma.
+El justiciable té dret a presentar els escrits judicials en llengua catalana.
+El jutge va dictar una interlocutòria d'arxivament del procediment.
 El laboratori de les antigues creacions
 El limitat pressupost no li arribava per a comprar-ne
 El literat, per contra, troba un bon corpus d’estructures.
@@ -6659,6 +6663,7 @@ Els ceps sense podar allargaven els sarments per terra
 Els ceretans o cerretans foren un poble iber de la zona dels Pirineus.
 Els cigarrets ens van anar de primera.
 Els cims més alts, per naturalesa, atrauen els raigs.
+Els ciutadans tenen dret a un procediment sense dilacions indegudes.
 Els clavells s'incendien, per imitar-te, quan tu passes per davant.
 Els clubs de futbol van tornar als seus inicis skinhead.
 Els coloms eren els amos del pis quan jo era fora.
@@ -7970,6 +7975,7 @@ Era una resolució presa, i no calia insistir-hi.
 Era una sala simètrica, amb ventilació
 Era una traïdora que tenia els ulls clavats en tot el que féieu.
 Era una vida ben extraordinària, la que fèiem allà
+Era una vista pública, tothom podia accedir a la sala de vistes.
 Era una volior de mosques que no deixaven parar les mules.
 Era utilitzada com a magatzem, quarter general i cuina
 Era visible que el minyó no hi entenia un borrall
@@ -9748,6 +9754,7 @@ Imposaré respecte als bandolers, aclariré aquells boscos.
 Impose a la meua xiqueta la banda d'acreditació de 'Requina del Carxofar'.
 Improvisava composicions dramatiques i les representava
 Impulsos psicofísics primaris que distingeix la teoria psicoanalítica: els sexuals i d'autoconservació.
+In dubio pro reo és un dels principis del Dret Penal.
 Inacceptable haver admés a tràmit una denúncia del tot absurda.
 Incidisc en l'equilibri, la correcta combinació d'elements.
 Inclou assegurança mèdica a l'estranger.
@@ -11138,6 +11145,7 @@ Joan Garí ja no és un sant, ja no és un home. Però somriu...
 Joan Garí s’alça de mans com un ós quan es redreça.
 Joan Ras Claravalls va ser un matemàtic nascut a Tarragona.
 Joan Ras Claravalls, matemàtic.
+Joan de Socarrats fou un jurisconsult català.
 Joan és un personatge prou confús.
 Joanet, si tu parlares, t’ajuntaries amb hòmens i podries ser home.
 Joaquim Carbonell, l’insigne escriptor.
@@ -11393,6 +11401,7 @@ L'existencialisme ateu de Sartre nega l'existència de Déu com a creador.
 L'existència humana no és determinada per una naturalesa o essència, ans és lliure.
 L'existència humana és una tasca creativa, i això és molt important.
 L'existència precedeix l'essència, és a dir, no hi ha una essència humana.
+L'expedient digital suposarà un gran avenç en la tramitació dels procediments.
 L'explicació que circulava més era que havien fugit
 L'expressió d'unes pautes fisiològiques que acompanyen l'emoció experimentada.
 L'expressió del seu rostre em va impressionar profundament
@@ -11642,6 +11651,7 @@ La Vilella Alta es troba al Priorat
 La Vilella Baixa es troba al Priorat
 La Volta a Catalumya va passar per l'Escala.
 La anivellació del ramat i la tristor d'uns nois del hospici
+La balconada de l'Abadia té vistes al Molí Petit.
 La bandera anarquista onejava de costat
 La barca al moll i el ganguilet, ens n'anirem al Postiguet.
 La barreja de les aportacions de diverses civilitzacions estrangeres a l'Occident contemporani.
@@ -11893,6 +11903,7 @@ La larva de l'insecte perfora.
 La literatura afganesa la componen bàsicament poemes en llengua persa i paixtu.
 La literatura popular, per un altre costat, connecta amb la producció escrita.
 La llegenda de les Quatre Barres fou composta per Pere-Antoni Beuter.
+La llegenda urbana del pantà de Ripoll no té gaires anys.
 La llegibilitat d'un text és un criteri cada vegada més important.
 La lleixa de pedra calcària que em serveix de llit
 La llengua d'aquells forts que acataren els reis.
@@ -12131,6 +12142,7 @@ La promoció de les dimensions europees en l'educació superior
 La propagació als hivernacles es realitza entre els mesos de febrer i abril.
 La propaganda tradicional de les organitzacions religioses és propera a aquest realisme-socialista.
 La propera vegada, aniré a les altres.
+La prova pericial fou impugnada, però finalment el jutge l'admeté.
 La província és una gran productora de petroli i de gas natural.
 La proximitat d’estes festes es notava.
 La pròpia noció d'avantguarda col·lectiva és un producte recent.
@@ -12172,6 +12184,7 @@ La roba ha sortida ben mastegada de l'eixugadora.
 La roba la feia durar fent sorgits inverossímils
 La roba, pera ell, no era vestir-se
 La ruptura entre la realitat i uns valors era duta fins a l'absurd.
+La ruta del ferro i el carbó és una via verda fàcil.
 La sala ordenada i pulcra
 La sala que feia d'armeria no era vigilada
 La satisfacció del client és el nivell de qualitat de l'empresa.
@@ -12393,6 +12406,7 @@ Les Valls d’Aguilar es troba a l’Alt Urgell
 Les Xiroies sota el braç.
 Les abreviatures van ser molt emprades a Grècia i a Roma.
 Les aceres poblades d'una gernació elegant i desin volta
+Les actuacions van quedar pendents de deliberació, votació i decisió.
 Les aficions de la fredor de la botiga
 Les alarmes nocturnes eren constants
 Les altres amb faldilles de merino, d'un negre més o menys perdut.
@@ -13702,6 +13716,7 @@ No comprenc el que em demanes.
 No comptaven amb cap altra força que la lleialtat de classe.
 No coneixes el mercat i vas per llana i tornaràs tos, ja ho veuràs!
 No coneixien el terreny i en la fosca s'havien extraviat
+No confonguis arxiu amb arxivament, són dos termes diferents.
 No considere de mal gust que una dona actue en un escenari.
 No contestis. Pensa am qui parles.
 No contestà ningú
@@ -19797,6 +19812,7 @@ Van aparèixer modes passatgeres com la de jugar a les bitlles.
 Van aparèixer modes passatgeres com les de jugar a les bitlles.
 Van aparèixer modes passatgeres com sabates de jugar a les bitlles.
 Van aprendre d'adoptar les actituds reglamentàries gairebé modèlicament
+Van assumir la representació i la defensa de l'acusació particular.
 Van baixar dones i cistells i vinguen les guitarres i amunt.
 Van bastir-hi una altra barricada de matalassos
 Van batejar a la mateixa pila

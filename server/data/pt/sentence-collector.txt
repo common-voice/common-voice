@@ -953,6 +953,7 @@ A indústria deve se recuperar tão logo mudemos de governo
 A indústria do entretenimento é enorme.
 A indústria nos guia e os orienta.
 A indústria tem recursos para isso.
+A inflamação foi tratada com medicação
 A inflação está sob observação do banco central
 A informação chegou a meus ouvidos
 A informação foi atualizada no banco de dados.
@@ -1712,6 +1713,7 @@ A virada do milênio só ocrreu este ano
 A virtude não floresce e a rica fruta nasce.
 A vista deveria valer a pena.
 A vizinhança está sofrendo com uma infestação de formigas
+A volta preocupante do vírus mais letal conhecido
 A voracidade daquela velha vala era a de todos os velhos filhos da Albufera.
 A vossa coragem e sacrifício serão lembrados para todo o sempre.
 A votação é secreta.
@@ -2482,6 +2484,7 @@ Algumas das conclusões apresentadas não são apoiadas pelos resultados relatad
 Algumas disposições das emendas
 Algumas doenças infecciosas podem ser combatidas
 Algumas famílias vulneráveis ​​ainda não podem pagar o aluguel
+Algumas palavras aparecem no Sul Africano por causa da relação entre gramática.
 Algumas palavras não podem ser engolidas com mel.
 Algumas panelas flutuam, outra ponta azul na água.
 Algumas pessoas andam em uma calçada cinza
@@ -2609,6 +2612,7 @@ Alpinistas rápidos de repente esperaram.
 Alpinópolis
 Alta Floresta
 Alta Floresta d'Oeste
+Alta do diesel e queda do petróleo
 Alta em avaliação de arte
 Alta voltagem!
 Altair
@@ -4055,6 +4059,7 @@ Arranha-céus altos? um caminhão verde e uma mulher de camisa amarela.
 Arranjos florais fazem essas tabelas parecerem divinas.
 Arremesse a palha pela porta do estábulo.
 Arriscamo-nos a perder quando queremos ganhar demais.
+Arrogância e desrespeito na resposta
 Arroio Grande
 Arroio Trinta
 Arroio do Meio
@@ -4135,6 +4140,7 @@ As coisas são como são.
 As colheitas são completamente destruídas.
 As competições para o acesso a lugares de professor universitário consistirão em duas provas.
 As composições das comissões são aquelas que aparecem no anexo desta chamada.
+As compras foram parceladas em vinte e quatro vezes
 As comunidades eremitas todos os dias são mais raras.
 As comunidades indígenas merecem proteção
 As conclusões que tiramos são, portanto, absolutamente previsíveis do que dissemos até agora.
@@ -6265,6 +6271,7 @@ Carteira de Identidade ou Registro Geral
 Carteira de trabalho
 Carteira do inscrito
 Cartão corporativo é um privilégio para poucos
+Cartão de crédito ou débito
 Cartão pré-pago é uma opção em viagens
 Cartões ruins devido ao usuário não darão direito a troca ou compensação.
 Caruaru
@@ -6519,6 +6526,7 @@ Certamente tenho certeza que estou confortável!
 Certamente todos foram informados
 Certamente, quando você explicar as circunstâncias de nosso chamado prematuro, ela entenderá.
 Certamente, segundo a tarifa especial.
+Certificado de Depósito Bancário
 Certifique-se de ficar longe da cidade
 Certifique-se de ler atentamente as instruções antes de iniciar seu projeto.
 Certifique-se de obter um atestado médico!
@@ -6622,6 +6630,7 @@ Cheio do Parlamento.
 Chelton Mota Sampaio
 Cheque de autoridade empresarial de propósito central
 Cheque o apêndice
+Cheque ou dinheiro vivo?
 Cherliane Mendes da Costa
 Chiador
 Chiapetta
@@ -6730,6 +6739,7 @@ Cirurgia de recondicionamento sexual
 Ciríaco
 Ciência da fofoca
 Ciência da informação
+Ciências biológicas e biomédicas
 Ciúme é a alma do amor.
 Ciúme é o monstro de olhos verdes
 Claene da Silva
@@ -7198,6 +7208,7 @@ Como sobreviver a um apocalipse zumbi
 Como solução alternativa?, poderíamos usar perfis específicos de aplicativos.
 Como suas ações afetam outras pessoas?
 Como tal, acolhe projetos artísticos com alto nível de especialização e excelência artística.
+Como tornear as coxas e panturrilhas
 Como um empreendedor
 Como um fazendeiro tira leite da vaca?
 Como um fórum, ele precisa continuar
@@ -7644,6 +7655,7 @@ Corresponde à Generalitat a execução da legislação do Estado sobre produtos
 Correto.
 Correu a Catumbi daí a seis dias.
 Correu!
+Corrigir a coluna
 Corrigiu suas leis e salvou o país.
 Cortando as coisas
 Cortando barbas, elas aprendem a se barbear.
@@ -8065,6 +8077,7 @@ De qualquer forma.
 De qualquer maneira.
 De que forma poderia ela agora preparar as horríveis poções?
 De que maneira podemos ficar seguros quando há um terremoto?
+De que país você é?
 De quem é a vez de?
 De quem é o livro?
 De quem?
@@ -8338,6 +8351,7 @@ Descoberto
 Descobri que minha caixa de correio não recebeu a carta.
 Descobrimos que não precisamos nos destacar
 Descobriram-na por acidente.
+Descobriu falha absurda no código do site
 Descobriu que algumas pessoas foram organizadas
 Descobriu que as mulheres ainda são afetadas por idéias tradicionais
 Desconectar todos os cabos de rede
@@ -8453,6 +8467,7 @@ Deságua no interior da gruta
 Desça para jantar este minuto.
 Detecta as áreas de melhoria e propõe medidas para alcançá-las.
 Determine se esta carta é importante
+Detonou a bomba da Segunda Grande Guerra
 Deu um ao outro
 Deu um grito peculiarmente agudo.
 Deus é que sabe de todos.
@@ -8613,6 +8628,7 @@ Dilermando de Aguiar
 Diligência é a mãe da boa sorte.
 Dimensionamento de templates, com os ajustes dos quadrados resultantes deste dimensionamento.
 Dimes caiu de todos os lados.
+Diminui o risco de desenvolver diabetes e obesidade
 Dimitrij me ajudou com o dever de casa.
 Dinheiro e criaturas, nem todos que querem.
 Dinheiro e filhos, nunca há o suficiente.
@@ -11139,6 +11155,7 @@ Em setembro, o óleo no jarro e o bode nas montanhas.
 Em setembro, quem tem trigo que ele se lembrava.
 Em setembro, quem tem trigo, o que você lembra?
 Em setembro, todos se lembram.
+Em seu discurso, culpou a Otan pela guerra
 Em silêncio
 Em sua mão? ele agarrou uma cobra pela cauda.
 Em sua visita ao Irã, o diplomata criticou a censura estrita.
@@ -11317,11 +11334,13 @@ Enganando os pobres
 Enganar a maioria não especificada
 Engenharia Industrial
 Engenharia atual na área
+Engenharia elétrica
 Engenheiro Beltrão
 Engenheiro Caldas
 Engenheiro Coelho
 Engenheiro Navarro
 Engenheiro Paulo de Frontin
+Engenheiro eletricista
 Engenho Velho
 Enguia de vidro está no menu hoje?, mas é muito caro.
 Enguia, agarre pelo pescoço e não pela cauda.
@@ -12351,6 +12370,7 @@ Estes têm uma forma cônica e são formados por um conglomerado de pedras.
 Esteve fechado em reuniões, ficou sem rede no telemóvel.
 Esther e Pietro
 Esther, Renan, Roseane, Max e Alícia
+Estilo de vida sedentário
 Estimamos o recurso interposto pelo senhor José Velasco Santamaría.
 Estimo muito saber...
 Estiva
@@ -14530,6 +14550,7 @@ Foi assim que eu fiz.
 Foi assim que o próprio benfeitor insinuou a este homem o sentimento da ingratidão.
 Foi assim que os ex-jurados inventaram, que não sabiam escrever, e assim continuou.
 Foi atingido por uma crise aguda de nostalgia
+Foi atrás da população desbancarizada
 Foi bem legal!
 Foi bom
 Foi bom conversar com você.
@@ -14594,6 +14615,7 @@ Foi pulverizado em vermelho? com bordas amarelas.
 Foi repetitivo? mas calmante.
 Foi sincero.
 Foi sobre você.
+Foi sorteado para viajar ao espaço
 Foi só quando cheguei tão perto que a estranheza era evidente para mim.
 Foi tudo um golpe no sorvete.
 Foi um aplicativo muito útil para turistas alemães.
@@ -14619,6 +14641,7 @@ Foi um trabalho duro.
 Foi um triste silêncio.
 Foi uma boa ideia?
 Foi uma conta de cento e vinte libras.
+Foi uma das principais batalhas no período inicial da guerra civil comunista.
 Foi uma encenação fajuta
 Foi uma espécie de fascínio que paralisou minhas ações.
 Foi uma lua tão boa, que as novas granadas fizeram o bem.
@@ -18017,6 +18040,7 @@ Medeiros Neto
 Medianeira
 Medicação antidepressiva foi administrada durante a terapia
 Medicilândia
+Medicina regenerativa
 Medida antiga, fé antiga.
 Medida do cumprimento das expectativas que os usuários têm em relação ao recurso.
 Medidas provisórias quando necessário.
@@ -18396,6 +18420,7 @@ Modifique e altere o conteúdo e os detalhes das atividades relacionadas
 Modo turbo
 Moeda
 Moeda de noventa dias
+Moedas em espécie
 Moema
 Mogeiro
 Mogi Guaçu
@@ -21159,6 +21184,7 @@ O ciclista vermelho ofegante está entre a natureza.
 O ciclone será responsável por muitas mortes
 O cientista escreveu seu papel.
 O cientista está escrevendo seu artigo.
+O cilindro rolou montanha abaixo
 O cinema foi abandonado.
 O cinturão continental aperta muito pouco.
 O cinzeiro estava vazio.
@@ -23435,6 +23461,7 @@ Oportunidades de lucrar nos leilões
 Oportunidades e estratégias
 Oposição secreta dos ricos à democracia.
 Ops! Derramei sem querer.
+Optou pelo crediário
 Ora esta!
 Ora, como tudo cansa, esta monotonia acabou por exaurir-me também.
 Oratórios
@@ -24061,6 +24088,7 @@ Padre Carvalho
 Padre Marcos
 Padre Paraíso
 Padre San Bernat, que isca tão doce quanto ele entrou.
+Padrão hétero
 Padrões semelhantes aos teus
 Paes Landim
 Pagamento de horas extras
@@ -24490,6 +24518,7 @@ Parece impossível que homens e crianças honestos possam ler essa porcaria.
 Parece lógico.
 Parece menos que no ano passado
 Parece não.
+Parece pouco inteligente tentar dar um golpe de Estado em si mesmo
 Parece que Lena deu uma jaqueta para casa.
 Parece que ela pode manter Kathy na ponta dos pés.
 Parece que eles sabem alguma coisa aqui, dentro dos pulmões.
@@ -25776,6 +25805,7 @@ Precisamos descer a colina antes que o sol se ponha.
 Precisamos esperar mais meia hora.
 Precisamos estar confiantes? todos nós. Ele propôs uma solução.
 Precisamos evacuar o quintal.
+Precisamos falar sobre abuso sexual
 Precisamos falar sobre o racismo
 Precisamos nos apressar.
 Precisamos nos ver mais
@@ -25861,6 +25891,8 @@ Presidente: o Diretor Geral de Educação, que pode delegar ao Vice-Presidente.
 Presidentes do Brasil.
 Pressione a tecla
 Pressione o pedal com o pé esquerdo.
+Pressupondo uma nova política de combustíveis
+Pressupõe um novo condicionamento físico
 Prestaram socorro àquela pessoa imediatamente.
 Prestará assistência técnica aos beneficiários de seu território para a implantação de seus projetos.
 Preste atenção a este campo
@@ -25929,6 +25961,7 @@ Processador de quatro núcleos.
 Processadores Intel.
 Processe as sugestões e reclamações que afetam seus próprios assuntos.
 Processo de gerenciamento de alternativas às soluções ortodoxas
+Processo inflamatório
 Processo mediúnico
 Processos administrativos da prefeitura
 Proctologista fala sobre a saúde do intestino e reto
@@ -27184,6 +27217,7 @@ Quem são essas pessoas?
 Quem são os leviatãs?
 Quem te ama
 Quem te buscou?
+Quem te critica, te ajudará a pagar alguma conta?
 Quem te culpa, ele te odeia.
 Quem te disse isso?
 Quem te disse para fazer isso?
@@ -27796,6 +27830,7 @@ Rogo pela sua clemência
 Rogou uma praga tamanha
 Rojor ao pôr do sol, sozinho na janela.
 Rolador
+Rolando morro abaixo
 Rolante
 Rolar para fora do arroz de grão
 Role com a ajuda de um fio.
@@ -28232,6 +28267,7 @@ Sarapuí
 Sardoá
 Sarutaiá
 Sarzedo
+Satisfez suas necessidades
 Satuba
 Satubinha
 Saturno, Urano e Neturno.
@@ -28354,7 +28390,6 @@ Se nossos instrumentos tivessem permitido isso, talvez pudéssemos ver o caminho
 Se novembro aumentar, a colheita será boa.
 Se novembro é alto, a colheita é boa.
 Se não chover para Sant Jordi, pouca cevada.
-Se não conseguir chegar, compro seu ingresso e espero-o na entrada das salas.
 Se não estiver gravado
 Se não for explicado
 Se não for possível contratar ninguém, será necessário publicar a oferta de emprego novamente.
@@ -28398,6 +28433,7 @@ Se por medo dos pardais parassem de semear, eles seriam colhidos mais tarde.
 Se portar diante da câmera
 Se pretende ser rico, pense em economizar tanto quanto em ganhar.
 Se quer conhecer sua luz, vá conhecer primeiro sua escuridão
+Se quiser dar o golpe, terá que dar sozinho
 Se quiser que o fogo seja desligado, traga a lenha para perto.
 Se quisermos fazer alguma lição de casa, podemos fazê-lo.
 Se saíssemos desse limite, o dispositivo seria destruído.
@@ -28596,6 +28632,7 @@ Sem estes
 Sem farinha, não há farinha.
 Sem fotografia, sem interferência, sem acesso
 Sem luzes na sala de estar
+Sem medo de ser feliz
 Sem ofensa, mas sua agilidade deixa muito a desejar.
 Sem ofensa?, mas sua agilidade deixa muito a desejar.
 Sem perda
@@ -29721,6 +29758,7 @@ Tabocas do Brejo Velho
 Taboleiro Grande
 Taboão da Serra
 Tabuleiro
+Tabuleiro de xadrez
 Tabuleiro do Norte
 Tacaimbó
 Tacaratu
@@ -30236,6 +30274,7 @@ Tirando uma foto
 Tire este carro daqui!
 Tire fotos sombrias em preto e branco de pessoas deprimidas no escuro.
 Tire o Martin da cadeia!
+Tire o dinheiro da poupança imediatamente e coloque em títulos públicos
 Tire os sapatos e lave os pés antes de pisar dentro de casa
 Tire suas armas.
 Tiro próximo do coronel.
@@ -30677,6 +30716,7 @@ Trombudo Central
 Tropas americanas na fronteira com a Polônia
 Tropeçou no chão e não recuou
 Trouxe o gabinete paralelo de volta ao foco
+Trouxeram algumas mochilas, malas e bolsas
 Trouxeram ouro, mirra e incenso
 Trovão da lua nova, todo molhado.
 Trovão de manhã, a tarde clareou.
@@ -33630,6 +33670,7 @@ Victor e Victoria gostam de viajar pela Turquia.
 Victoria faz as coisas de uma maneira muito maior.
 Victoria nasceu no décimo nono anos setenta.
 Vicência
+Vida alienígena é comum?
 Vida humana e condições sociais
 Vidal Ramos
 Vidas Secas, do romancista brasileiro Graciliano Ramos
@@ -34850,6 +34891,7 @@ Vê-se então que o espírito do não-militar surgiu em mim.
 Vê-se que eles se conheceram no instituto.
 Vênus é muito quente para a exploração.
 Vênus é um planeta muito quente.
+Vídeo mostra confusão que resultou em um funcionário baleado
 Vídeos Ariana Grande.
 Vídeos compilação de falhas.
 Vídeos react trailer de Os Vingadores.
@@ -34918,6 +34960,7 @@ Xapuri
 Xavantina
 Xavier é responsável por essa desgraça!
 Xaxim
+Xeque-mate
 Xexéu
 Xiao Lu pensou que ele poderia estar atordoado e animado.
 Xinguara
@@ -35564,6 +35607,7 @@ zé Doca
 À procura da Páscoa e de São Vicente os parelletes.
 À procura de uma máquina de venda nas proximidades para beber bebidas quentes
 À rádio, disse ter avisado aos apoiadores
+À vista ou parcelado?
 Àquela altura, ninguém podia ver nada
 Às pragas, eu daria o nome de posseiros, invasores de terra.
 Às quatro da manhã, o alarme disparou.
@@ -36064,6 +36108,7 @@ zé Doca
 É um segredo.
 É um segredo?
 É um sistema mecânico sofisticado!
+É um sítio bem frequentado
 É um termo que não está devidamente dicionarizado
 É um teste que exige uma grande concentração e resistência à monotonia.
 É um tio de pau.

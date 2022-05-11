@@ -5559,6 +5559,7 @@ Barristers and solicitors are types of lawyer
 Barry was here this afternoon, Angie.
 Basic Information
 Basil is a herb.
+Basil likes Bee.
 Bassett was a fastidious man.
 Bassett was a silent bread crumbler.
 Bastora is a village.
@@ -5994,6 +5995,7 @@ Brightest and best.
 Brightness was swimming on the tops of the hills.
 Brighton is less plagued with sharks than seaside resorts usually are.
 Bring about thirty thousand on the open market.
+Bring back the bottle, Bear!
 Bring him here to my room.
 Bring him to call on me.
 Bring it here! Let me sup!
@@ -7424,6 +7426,7 @@ Can I use cliparts for commercial uses?
 Can Josh come too?
 Can algorithms be racist or is it the data?
 Can anyone hear me?
+Can cans can cans?
 Can he wish things were better with him?
 Can his most intimate friends be so excessively deceived in him?
 Can it be Neptune?
@@ -9831,6 +9834,7 @@ Every day. I couldn't be happy if I didn't see him every day.
 Every edition is packed with fun!
 Every exercise the pupil does is first submitted to the tutor.
 Every facet is crystalline.
+Every fan has its own speed limit.
 Every fibre in her was in revolt.
 Every government organization ought to have a website
 Every house needs a fire alarm and extinguisher.
@@ -11333,6 +11337,7 @@ Have you ever tried racing on a Segway?
 Have you ever tried that, though?
 Have you ever used a dating app?
 Have you fed the unicorns today?
+Have you fifteen cans?
 Have you finished it?
 Have you gathered any intelligence?
 Have you given this man work before?
@@ -26927,6 +26932,7 @@ Microsoft wasn't known for openness but is now leading in open source.
 Microwaveable chocolate cake
 Midnight comes, and with it the same blank.
 Midnight walks under the moon are beautiful.
+Might May the mouse move in March?
 Might it not prove a little worse than she expected?
 Might not that have made her still more proud, grandmother?
 Might she not look for her old Esther and not find her?
@@ -30695,6 +30701,7 @@ Please let me take you home?
 Please make an appointment for the next session.
 Please make sure that nothing is omitted.
 Please make sure that the sentences are not copyrighted.
+Please make sure you send me the page.
 Please mute the sound.
 Please offer your points and perspectives.
 Please order at the bar.
@@ -31097,6 +31104,7 @@ Rachel is a good Christian woman and she means well.
 Rachel is too outspoken.
 Racing cars are essential to motorsport
 Radiator coolant has a cooling effect on an Engine.
+Rainbow sighting are fun yet sometimes hard to find.
 Rains play their part in flushing streets.
 Rajib is the assistant pastor of our church.
 Rajib is the assistant pastor.
@@ -37085,6 +37093,7 @@ The dog became docile after eating food.
 The dog began to drool at the sight of the cooked steak.
 The dog snarled at the postman.
 The dog's name is Bailey.
+The dogs do play happy together.
 The dogs do right to be vigilant.
 The dogs of war are now loose.
 The domestic cat is apparently a descendant of the Nubian wildcat.
@@ -40025,6 +40034,7 @@ The two men were divvying up the spoils in the middle of the road.
 The two most acknowledged faults are running mute and skirting.
 The two nations had laid aside the tomahawk at my request.
 The two neighbours disputed where the garden borders should be.
+The two paintings above the lamp are small and bright.
 The two rats consulted together for a few minutes and then went away.
 The two shared lives.
 The two sisters did not talk much to each other.
@@ -47504,6 +47514,7 @@ When is that paper published?
 When is the next online Handforth Parish Council Meeting?
 When is the party?
 When is the right time to buy a driver-less car?
+When is the time he comes?
 When is your "Powerpoint Karaoke" starting?
 When is your turn to come?
 When it lay under her heart, had it been listening then?
@@ -48835,6 +48846,7 @@ Yes, and you should hear Steve play the pipes.
 Yes, but even so.
 Yes, but they love the blind lover.
 Yes, but who is he?
+Yes, cans can can canned cans.
 Yes, clearly, that's an obvious no-brainer
 Yes, commander, I took the business, such as it was.
 Yes, do you know it?
