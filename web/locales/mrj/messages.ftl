@@ -198,6 +198,7 @@ profile = Профиль
 help = Палшык
 contact = Контакт
 cookies = Куки
+faq = ШПЯ
 link-copied = Ссылкым копируйымы
 back-top = Тӹнгӓлтӹшӹш пӧртӹлӓш
 logout = Система гӹц лӓктӓш
@@ -399,6 +400,7 @@ mycroft-title = Mycroft Ai
 
 data-download-yes = Ане
 data-download-deny = Уке
+release-version = Верси
 review-submit-title = Анжалаш дӓ колташ
 review-recording = Анжен лӓктӓш
 
@@ -410,6 +412,7 @@ size-megabyte = МБ
 data-other-ted-name = TED-LIUM корпус
 more = Шукырак
 close = Питӹрäш
+dataset-version = Верси
 
 ## Download Modal
 
@@ -481,6 +484,7 @@ days =
 
 ## Custom Goals
 
+pro-difficulty = Про
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] клип
@@ -493,6 +497,8 @@ confirm-goal = Цельӹм лачокеш лыкташ
 
 ## Profile Download
 
+download-profile-title = Профиль
+download-request-title = { $created }
 
 ## Landing
 
@@ -527,6 +533,7 @@ demo-contribute-card-header = Ӹшке юкетӹм уштараш ӓли кол
 
 sc-header-add = Уштараш
 sc-header-review = Анжен лӓктӓш
+sc-header-profile = Профиль
 
 ## HOME
 
@@ -584,12 +591,16 @@ sc-confirm-button-text = Лачокеш лыкташ
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Цилä
 
 ## LOGIN
 
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профиль: { $username }
 
 ## REVIEW CRITERIA
 
