@@ -250,6 +250,7 @@ shortcut-play-toggle-label = Мадыкташ/Шагалташ
 
 shortcut-rerecord-toggle = [1-5]
 shortcut-discard-ongoing-recording = ESC
+shortcut-submit = Пӧртӹлтӓш
 shortcut-submit-label = Клипвлӓм колташ
 request-language-button = Йӹлмӹм ядаш
 
@@ -354,6 +355,8 @@ about-playbook-how-add-sentences-content-3 = Википеди гӹц мытык 
 
 data-download-yes = Ане
 data-download-deny = Уке
+review-submit-title = Анжалаш дӓ колташ
+review-recording = Анжен лӓктӓш
 
 ## Datasets Page
 
@@ -404,11 +407,13 @@ contribute-more =
         [one] Эче { $count } ӹштӓш йӓмдӹ ылат?
        *[other] Эче { $count } ӹштӓш йӓмдӹ ылат?
     }
+record-abort-submit = Клипвлӓм колташ
 listen-3rd-time-instruction = 2 ӱлӹк, тенгеок кеӓш!<playIcon></playIcon>
 target-segment-add-voice = Ӹшке юкетӹм уштары
 
 ## Reporting
 
+report-title = Отчётым колташ
 
 ## Goals
 
@@ -428,6 +433,7 @@ n-clips-pluralized =
         [one] клип
        *[other] клип
     }
+confirm-goal = Цельӹм лачокеш лыкташ
 
 ## Profile Delete
 
@@ -467,9 +473,11 @@ demo-contribute-card-header = Ӹшке юкетӹм уштараш ӓли кол
 ## HEADER/FOOTER
 
 sc-header-add = Уштараш
+sc-header-review = Анжен лӓктӓш
 
 ## HOME
 
+sc-home-review-title = Предложенивлӓм анжен лӓк
 
 ## GENERAL
 
@@ -478,6 +486,7 @@ sc-header-add = Уштараш
 
 sc-howto-addlang-title = Пӓшӓлӓн йӹлмӹвлӓм уштарымаш
 sc-howto-addsen-title = У предложенивлӓм уштары
+sc-howto-review-title = Предложенивлӓм анжен лӓк
 
 ## MY SENTENCES
 
@@ -531,6 +540,8 @@ sc-confirm-button-text = Лачокеш лыкташ
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Анжымын критеривлӓ
+sc-criteria-title = Анжымын критеривлӓ
 
 ## REVIEW
 
