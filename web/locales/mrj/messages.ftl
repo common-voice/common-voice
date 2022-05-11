@@ -111,6 +111,8 @@ mhr = Мары
 mk = Македон
 ml = Малаялам
 mn = Монгол
+mni = Мэйтэй Лон
+mos = Мосси
 mr = Маратхи
 mrj = Кырык мары
 ms = Малай
@@ -341,6 +343,7 @@ faq-why-different-speakers-q = Малын тӓлӓндӓ ик йӹлмӹ дон�
 faq-why-my-lang-q = Малын мӹньӹн йӹлмем эче уштарымы агыл?
 faq-how-calc-hours-q = Кыце Common Voice цӓшӹм шотлен лыктеш?
 faq-where-src-from-2-q = Юкангдаш манын текст кышец нӓлӓлтеш?
+faq-what-is-cv = Ма техень Common Voice?
 
 ## ABOUT US
 
@@ -384,6 +387,7 @@ about-playbook-how-add-sentences-content-3 = Википеди гӹц мытык 
 
 ## How are decisions made
 
+mycroft-title = Mycroft Ai
 
 ## Glossary
 
