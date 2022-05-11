@@ -270,6 +270,7 @@ request-language-button = Йӹлмӹм ядаш
 
 ## ProjectStatus
 
+status-contribute = Ӹшке юкетӹм сирӹ
 english = Англичан
 
 ## ProfileForm
@@ -282,8 +283,12 @@ profile-form-additional-language =
     .label = Ситӓртӹш йӹлмӹ
 profile-form-language =
     .label = Йӹлмӹ
+profile-form-variant-default-value = Вариантым айырымы агыл
 profile-form-accent =
     .label = Акцент
+profile-form-custom-accent-help-text =
+    .label = Кыце тӹнь ӹшке акцент гишӓнет шайышт пуэт ыльы?
+profile-form-custom-accent-placeholder-2 = Ӹшке акцент гишӓнет шайышт пуаш манын, сирӓш тӹнгӓл
 profile-form-age =
     .label = Игот
 profile-form-gender-2 =
@@ -428,6 +433,7 @@ contribute-more =
     }
 record-abort-submit = Клипвлӓм колташ
 listen-3rd-time-instruction = 2 ӱлӹк, тенгеок кеӓш!<playIcon></playIcon>
+record-button-label = Ӹшке юкетӹм сирӹ
 target-segment-add-voice = Ӹшке юкетӹм уштары
 
 ## Reporting
