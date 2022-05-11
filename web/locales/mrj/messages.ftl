@@ -336,6 +336,11 @@ add-language = Йӹлмӹм уштараш
 faq-title = Шӹрен пуэдӹмӹ ядмашвлӓ
 faq-what-cv-q = Ма техень Common Voice?
 faq-why-important-q = Малын тидӹ керӓл?
+faq-what-cv-and-deepspeech-q = Common Voice дӓ  Deep Speech лошты махань айыртем?
+faq-why-different-speakers-q = Малын тӓлӓндӓ ик йӹлмӹ донок попышы тинӓр шукы эдем келеш?
+faq-why-my-lang-q = Малын мӹньӹн йӹлмем эче уштарымы агыл?
+faq-how-calc-hours-q = Кыце Common Voice цӓшӹм шотлен лыктеш?
+faq-where-src-from-2-q = Юкангдаш манын текст кышец нӓлӓлтеш?
 
 ## ABOUT US
 
