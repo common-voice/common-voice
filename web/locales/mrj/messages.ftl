@@ -217,6 +217,7 @@ speak-subtitle = Ӹшке юкетӹм подары
 speak-goal-text = Сирӹмӹ клипвлӓ
 listen-subtitle = Мӓлӓннӓ юквлӓм тергӓш палшы
 listen-goal-text = Тергӹмӹ клипвлӓ
+hours-recorded = Сирӹмӹ цӓш
 hours-validated = Тергӹмӹ цӓш
 voices-online = Онлайн юквлӓ кӹзӹт
 todays-progress = Тагачшы анзыкы кемӓш
@@ -282,6 +283,9 @@ request-language-button = Йӹлмӹм ядаш
 ## ProjectStatus
 
 status-contribute = Ӹшке юкетӹм сирӹ
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Вес цельвлӓ: { $goal }
 english = Англичан
 
 ## ProfileForm
@@ -367,6 +371,7 @@ faq-what-is-cv = Ма техень Common Voice?
 about-language-req-subtitle = Тӓгӱ йӹлмӹм уштараш ядеш.
 about-speak = Попаш
 about-listen = Колышташ
+about-is-it-valid = Тидӹ клип тергӹмӹ?
 about-yes-votes = ≥ 2 Ане
 about-no-votes = ≥ 2 Уке
 about-clip-graveyard = Клип шӹгерлӓ
@@ -432,6 +437,8 @@ language = Йӹлмӹ
 cv-license = Лицензи
 size-gigabyte = ГБ
 size-megabyte = МБ
+validated-hours = Тергӹмӹ цӓш
+recorded-hours = Сирӹмӹ цӓш
 data-other-ted-name = TED-LIUM корпус
 more = Шукырак
 close = Питӹрäш
@@ -468,6 +475,7 @@ languages-show-more = Шукырак пӓлӓш
 languages-show-less = Чӹдӹрäк анжы
 language-total-progress = Цилä
 language-speakers = Попышывлä
+total-hours = Тергӹмӹ цӓш
 
 ## Contribution
 
@@ -483,7 +491,10 @@ contribute-more =
         [one] Эче { $count } ӹштӓш йӓмдӹ ылат?
        *[other] Эче { $count } ӹштӓш йӓмдӹ ылат?
     }
+share-clip = Ӹшке клип донет пайылалт
+clips-uploaded = Вӓрӓнгдӹмӹ клипвлӓ
 record-abort-submit = Клипвлӓм колташ
+record-abort-delete = Лӓктӓш дӓ клипвлӓм карангдаш
 listen-3rd-time-instruction = 2 ӱлӹк, тенгеок кеӓш!<playIcon></playIcon>
 record-button-label = Ӹшке юкетӹм сирӹ
 target-segment-add-voice = Ӹшке юкетӹм уштары
@@ -506,6 +517,10 @@ days =
 
 ## Dashboard
 
+clips-you-recorded = Тӹньӹн сирӹмӹ клипвлӓ
+clips-you-validated = Тӹньӹн тергӹмӹ клипвлӓ
+recorded-clips = Сирӹмӹ клипвлӓ
+validated-clips = Тергӹмӹ клипвлӓ
 
 ## Custom Goals
 
