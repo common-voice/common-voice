@@ -453,12 +453,15 @@ about-playbook-how-grow-language-content-6 = Партнёрствывлӓ дӓ �
 
 ## How to validate
 
+about-playbook-how-validate = Юкан клипӹм яжоэш шотлаш ӓли агыл, кыце пӓлен нӓлӓш?
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Кыце датасетӹм нӓлӓш дӓ кычылташ лиэш?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Кыце проектӹн решенивлӓ лыкталтыт?
 mycroft-title = Mycroft Ai
 
 ## Glossary
