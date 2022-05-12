@@ -942,11 +942,13 @@ export default class DB {
         name: string;
         target_sentence_count: number;
         total_sentence_count: number;
-        isContributable: boolean;
+        is_contributable: boolean;
+        native_name: string;
+        text_direction: string;
       }) => ({
         id: row.id,
         name: row.name,
-        isContributable: row.total_sentence_count >= row.target_sentence_count,
+        is_contributable: row.total_sentence_count >= row.target_sentence_count,
       })
     );
   }
