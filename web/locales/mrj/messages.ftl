@@ -368,15 +368,24 @@ add-language = Йӹлмӹм уштараш
 faq-title = Шӹрен пуэдӹмӹ ядмашвлӓ
 faq-what-cv-q = Ма техень Common Voice?
 faq-why-important-q = Малын тидӹ керӓл?
+faq-how-get-q = Кыце мӹнь Common Voice данныйым нӓлӹн кердӓм?
+faq-why-mission-q = Малын Common Voice Mozilla-н миссижӹн частьшы ылеш?
 faq-what-cv-and-deepspeech-q = Common Voice дӓ  Deep Speech лошты махань айыртем?
 faq-why-different-speakers-q = Малын тӓлӓндӓ ик йӹлмӹ донок попышы тинӓр шукы эдем келеш?
 faq-why-my-lang-q = Малын мӹньӹн йӹлмем эче уштарымы агыл?
 faq-how-calc-hours-q = Кыце Common Voice цӓшӹм шотлен лыктеш?
 faq-where-src-from-2-q = Юкангдаш манын текст кышец нӓлӓлтеш?
+faq-why-account-q = Малын мӹнь регистрацим эртӹшӓшлык ылам?
+faq-is-account-public-q = Аккаунтемӹн информацижӹ цилӓлӓн каеш ма?
 faq-what-is-cv = Ма техень Common Voice?
+faq-using-cv = Common Voice-ым кычылтмаш
+faq-search-for-answers =
+    .label = Вӓшештӹшӹм кӹчӓлӓш
 
 ## ABOUT US
 
+about-title = Малын Common Voice?
+how-does-it-work-title-v2 = Common Voice кыце пӓшӓм ӹштӓ?
 
 ## How does it work section
 
