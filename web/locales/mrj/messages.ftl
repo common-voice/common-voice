@@ -273,6 +273,7 @@ shortcut-vote-no = у
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = с
+shortcut-record-toggle-label = Сирӓш/Шагалташ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Клипӹм угӹц сирӓш
 shortcut-discard-ongoing-recording = ESC
@@ -558,13 +559,21 @@ validated-clips = Тергӹмӹ клипвлӓ
 
 get-started-goals = Цельвлӓ гӹц тӹнгӓл
 goal-type = Махань цельӹм тӹнь шӹндӹнет?
+daily-goal = Ик кечӓш цель
+weekly-goal = Ик ӓрняш цель
+easy-difficulty = Куштылгы
+difficult-difficulty = Нелӹ
 pro-difficulty = Про
+set-a-goal = Цельӹм шӹндӓш
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] клип
        *[other] клип
     }
 confirm-goal = Цельӹм лачокеш лыкташ
+share-goal-type-speak = Попышы
+share-goal-type-listen = Колыштмаш
+share-goal-type-both = Попаш дӓ колышташ
 
 ## Profile Delete
 
