@@ -214,6 +214,7 @@ help-us-title = Предложенивлӓн тӧр ылмыштым мӓлӓн�
 vote-yes = Ане
 vote-no = Уке
 speak-subtitle = Ӹшке юкетӹм подары
+speak-goal-text = Сирӹмӹ клипвлӓ
 listen-subtitle = Мӓлӓннӓ юквлӓм тергӓш палшы
 listen-goal-text = Тергӹмӹ клипвлӓ
 hours-validated = Тергӹмӹ цӓш
@@ -272,6 +273,7 @@ shortcut-vote-no = у
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = с
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Клипӹм угӹц сирӓш
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Пӧртӹлтӓш
 shortcut-submit-label = Клипвлӓм колташ
@@ -367,6 +369,10 @@ about-speak = Попаш
 about-listen = Колышташ
 about-yes-votes = ≥ 2 Ане
 about-no-votes = ≥ 2 Уке
+about-clip-graveyard = Клип шӹгерлӓ
+about-partners = Партнёрвлӓ
+about-become-a-partner = Партнёр лиӓш
+about-nav-partners = Партнёрвлӓ
 
 ## Community Playbook Content
 ## What is a language
@@ -390,6 +396,7 @@ about-playbook-how-add-sentences-content-3 = Википеди гӹц мытык 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-6 = Партнёрствывлӓ дӓ сетьвлӓ
 
 ## How to validate
 
