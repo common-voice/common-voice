@@ -512,6 +512,7 @@ size-megabyte = МБ
 validated-hours = Тергӹмӹ цӓш
 recorded-hours = Сирӹмӹ цӓш
 whats-inside = Common Voice данный кӧргӹштӹ ма улы?
+subscribe = Сылы
 data-other-ted-name = TED-LIUM корпус
 more = Шукырак
 close = Питӹрäш
