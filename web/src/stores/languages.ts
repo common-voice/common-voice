@@ -36,11 +36,6 @@ async function getLocaleData(fileName: string): Promise<Locales> {
   return response.json();
 }
 
-async function getNativeNamesData(): Promise<NativeNames> {
-  const response = await fetch(`/dist/languages/native-names.json`);
-  return response.json();
-}
-
 export const actions = {
   loadLocalesData: () => {
     return async (
@@ -48,16 +43,25 @@ export const actions = {
       getState: () => StateTree
     ) => {
       const { api } = getState();
+      const allLanguages = await api.fetchAllLanguages();
 
-      const response = await Promise.all([
-        api.fetchAllLanguages(),
-        getNativeNamesData(),
-        getLocaleData('rtl'),
-        getLocaleData('translated'),
-      ]);
+      //get obj of native names, default to language code
+      const nativeNames = allLanguages.reduce((names: any, language) => {
+        names[language.name] = language.native_name ?? language.name;
+        return names;
+      }, {});
 
-      const [allLanguages, nativeNames, rtlLocales, translatedLocales] =
-        response;
+      //get array of rtl languages
+      const rtlLocales = allLanguages.reduce((names: any, language) => {
+        if (language.text_direction === 'RTL') {
+          names.push(language.name);
+        }
+        return names;
+      }, []);
+
+      const response = await Promise.all([getLocaleData('translated')]);
+
+      const [translatedLocales] = response;
 
       const allLocales = allLanguages.map(language => language.name);
       const contributableLocales = allLanguages
