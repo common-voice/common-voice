@@ -50,6 +50,7 @@ logout = ܦܠܘܛ
 
 ## Home Page
 
+home-cta = ܡܠܠ ܒܩܠܐ، ܫܘܬܦ ܠܐܟܐ!
 show-wall-of-text = ܩܪܝ ܝܬܝܪ
 vote-yes = ܗܐ
 vote-no = ܠܐ
