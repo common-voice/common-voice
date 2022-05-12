@@ -391,6 +391,9 @@ about-get-involved = Ушнаш
 about-nav-why-common-voice = Малан?
 about-nav-how-it-works = Кыце?
 about-nav-partners = Партнёрвлӓ
+about-nav-get-involved = Ушнаш
+about-nav-how-it-works-2 = Common Voice кыце пӓшӓм ӹштӓ?
+about-nav-playbook = Кыце ушнаш манын, пӓлен нӓл
 
 ## Community Playbook Content
 ## What is a language
@@ -403,6 +406,7 @@ about-playbook-how-add-language-content-3 = <strong>Предложенивлӓм
 
 ## How does localization work
 
+about-playbook-how-localize = Сайтым сӓрӹмӓш кыце пӓшӓм ӹштӓ?
 
 ## How to add sentences
 
@@ -414,6 +418,8 @@ about-playbook-how-add-sentences-content-3 = Википеди гӹц мытык 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Событивлӓ
+about-playbook-how-grow-language-content-4 = Социальный сетьвлӓ
 about-playbook-how-grow-language-content-6 = Партнёрствывлӓ дӓ сетьвлӓ
 
 ## How to validate
@@ -522,14 +528,27 @@ success = Аш
 
 ## Goals
 
+streaks = Корнывлӓ
 days =
     { $count ->
         [one] Кечӹ
        *[other] Кечӹвлӓ
     }
+recordings =
+    { $count ->
+        [one] сирӹмӓш
+       *[other] сирӹмӓш
+    }
+validations =
+    { $count ->
+        [one] тергӹмӓш
+       *[other] тергӹмӓш
+    }
 
 ## Dashboard
 
+toward-next-goal = Вес цель докы
+goal-reached = Цельӹш шомы
 clips-you-recorded = Тӹньӹн сирӹмӹ клипвлӓ
 clips-you-validated = Тӹньӹн тергӹмӹ клипвлӓ
 recorded-clips = Сирӹмӹ клипвлӓ
@@ -537,6 +556,8 @@ validated-clips = Тергӹмӹ клипвлӓ
 
 ## Custom Goals
 
+get-started-goals = Цельвлӓ гӹц тӹнгӓл
+goal-type = Махань цельӹм тӹнь шӹндӹнет?
 pro-difficulty = Про
 n-clips-pluralized =
     { NUMBER($count) ->
@@ -586,6 +607,7 @@ demo-contribute-card-header = Ӹшке юкетӹм уштараш ӓли кол
 
 ## HEADER/FOOTER
 
+sc-header-how-to = Кыце ӹштӓш
 sc-header-add = Уштараш
 sc-header-review = Анжен лӓктӓш
 sc-header-profile = Профиль
@@ -600,8 +622,10 @@ sc-home-review-title = Предложенивлӓм анжен лӓк
 
 ## HOW-TO
 
+sc-howto-title = Кыце ӹштӓш
 sc-howto-addlang-title = Пӓшӓлӓн йӹлмӹвлӓм уштарымаш
 sc-howto-addsen-title = У предложенивлӓм уштары
+sc-howto-cite-title = Кыце цитируяш
 sc-howto-review-title = Предложенивлӓм анжен лӓк
 
 ## MY SENTENCES
