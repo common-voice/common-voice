@@ -474,23 +474,35 @@ de-identified = Авторизаци карангдымы
 
 ## Error pages
 
+error-title-404 = Мӓ тӹлӓт тидӹ страницӹм мон кердделна
 
 ## Data
 
 data-download-yes = Ане
 data-download-deny = Уке
 data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
+data-other-title = Вес юк данныйвлӓ...
+data-bundle-description = Common Voice данный дӓ тенгеок кӱшнӹшӹ цилӓ молы юк данный.
 release-version = Верси
+dataset-date = Кечӹ
 license = Лицензи: <licenseLink>{ $license }</licenseLink>
+license-mixed = Ярыкален шӹндӹмӹ
 terms-agree = Келшем
 terms-disagree = Ам келшӹ
 review-submit-title = Анжалаш дӓ колташ
 review-recording = Анжен лӓктӓш
+review-rerecord = Угӹц сирӹмӓш
+review-cancel = Колтымым цӓрӓш
+review-keep-recordings = Сирӹмӹм перегӹ
+review-delete-recordings = Мӹньӹн сирӹмӹм карангдаш
 
 ## Datasets Page
 
+datasets-heading = Датасетвлӓ
 language = Йӹлмӹ
 cv-license = Лицензи
+audio-format = Аудиоформат
+number-of-voices = Юквлӓн шот
 size-gigabyte = ГБ
 size-megabyte = МБ
 validated-hours = Тергӹмӹ цӓш
