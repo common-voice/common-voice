@@ -43,6 +43,7 @@ privacy = ܕܝܠܢܝܘܬܐ
 terms = ܫܪܥܬ
 cookies = ܟܘܟܟܝܣ
 faq = ܫܘܐܠ̈ܐ ܬܢܝ̈ܐ
+link-copied = ܢܣܟ ܐܣܘܪܐ
 back-top = ܕܥܪ ܠܥܠܠ
 logout = ܦܠܘܛ
 
