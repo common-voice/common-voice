@@ -61,7 +61,7 @@ export const actions = {
 
       const allLocales = allLanguages.map(language => language.name);
       const contributableLocales = allLanguages
-        .filter(language => language.isContributable)
+        .filter(language => language.is_contributable)
         .map(language => language.name);
 
       dispatch({

@@ -175,7 +175,7 @@ export const up = async function (db: any): Promise<any> {
       obj[row.name] = {
         id: row.id,
         name: row.name,
-        isContributable: row.total_sentence_count >= row.target_sentence_count,
+        is_contributable: row.total_sentence_count >= row.target_sentence_count,
       };
       return obj;
     },
@@ -184,10 +184,10 @@ export const up = async function (db: any): Promise<any> {
 
   await Promise.all([
     Object.keys(getLanguages).map(languageCode => {
-      if (getLanguages[languageCode].isContributable) {
+      if (getLanguages[languageCode].is_contributable) {
         return db.runSql(`
         UPDATE locales
-        SET isContributable = TRUE,
+        SET is_contributable = TRUE,
          text_direction = ${RTL.includes(languageCode) ? "'RTL'" : "'LTR'"},
          native_name = "${
            NATIVE_NAMES[languageCode] ? NATIVE_NAMES[languageCode] : 'NULL'
