@@ -258,7 +258,7 @@ x-years-short =
        *[other] يىل
     }
 help-make-dataset = يۇقىرى سۈپەتلىك ، ئوچۇق سانلىق-مەلۇمات توپلىمى قۇرۇشىمىزغا ياردەم قىلىڭ.
-sign-up-account = ھېساباتقا تىزىملىتىڭ
+sign-up-account = تىزىملىتىڭ
 email-subscription-title = ئېلخەت يېڭىلاشقا تىزىملىتىڭ
 email-subscription-title-new = Common Voice نىڭ خەۋەرلىرىگە، نىشان ئەسكەرتىشىگە ۋە ئىلگىرىلەش يېڭىلانمىلىرىغا تىزىملىتىڭ
 
@@ -308,6 +308,7 @@ shortcut-record-toggle-label = خاتىرىلە/توختات
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = قايتا ئۈنگە ئال
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = ئېلىنىۋاتقان ئۈندىن ۋاز كىچىش
 shortcut-submit = قايت
 shortcut-submit-label = ئاۋاز يوللا
 request-language-text = Common Voice تا تېخى تىلىڭىزنى كۆرمىدىڭىزمۇ؟
@@ -340,6 +341,7 @@ profile-form-language =
     .label = تىل
 profile-form-variant =
     .label = سىز قايسى{ $language }دا سۆزلەيسىز؟
+profile-form-variant-default-value = ۋارىيانت تاللانمىدى
 profile-form-accent =
     .label = ئاھاڭ
 profile-form-custom-accent-help-text =
@@ -403,6 +405,7 @@ gravatar_not_found = سىزنىڭ ئېلخىتىڭىز ئۈچۈن gravatar تې�
 file_too_large = تاللانغان ھۆججەت بەك چوڭ
 avatar-uploaded = سىما يۈكلەندى
 max-file-size = { $kb }kb ئەڭ چوڭ بولغاندا
+remove-avatar = Avatar نى ئۆچۈرۈش
 
 ## Profile - Email
 
@@ -551,6 +554,7 @@ about-playbook-how-localize-content-5 = ياردەم قىلىش ئۈچۈن سى�
 ## How to add sentences
 
 about-playbook-how-add-sentences = جۈملىلەرنى قانداق قوشىمەن؟
+about-playbook-how-add-sentences-content-4 = ھەر چارشەنبە دەلىللەنگەن جۈملىلەر  ئېكىسپورت قىلىنىدۇ ، ھەمدە كېيىنكى نەشرىدە قوشۇپ ئىلان قىلىنىدۇ.
 
 ## How to record quality
 
@@ -579,6 +583,7 @@ about-playbook-how-access-dataset = سانلىق مەلۇمات توپلىمىن
 
 about-playbook-how-project-governance = تۈر قارارلىرى قانداق چىقىرىلىدۇ؟
 about-playbook-how-project-governance-content-3 = مەخپىيەتلىك، بىخەتەرلىك ۋە ئاشكارىلىق.
+about-playbook-how-project-governance-content-4 = مەھەللىدە قارار چىقىرىشقا قاتنىشىش.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = سۈنئىي ئەقلى ئىقتىدار
 mycroft-description =
@@ -679,6 +684,7 @@ subscribe = مۇشتەرى بولۇش
 get-started-speech = ئاۋاز تونۇتۇشنى باشلاڭ
 other-datasets = باشقا ئاۋاز مەلۇمات توپى
 feedback-q = تەكلىپ-پىكرىڭىز بارمۇ؟
+community-playbook = مەھەللە قوللانمىسى
 data-other-librispeech-description = LibriSpeech بولسا تەخمىنەن 1000 سائەت ئەتراپىدا LibriVox تۈرىدىكى ئاۋازلىق كىتابلاردىن تاللانغان 16Khz لىق ئىنگلىزچە ئوقۇشلۇق.
 data-other-ted-name = TED-LIUM  سۆزلۈكلەر توپلىمى
 data-other-ted-description = TED-LIUM سۆزلۈكلەر توپلىمى ئاۋازلىق سۆھبەتلەردىن ياسالغان بولۇپ ، ئۇلارنىڭ خاتىرىلىرى TED تور بېتىدە بار.
@@ -725,6 +731,11 @@ other-language = باشقا تىل
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = ئېلخەت ئادرېسىڭىز
+request-language-form-info-explanation-list-1 = تىلىڭىزنىڭ نامى
+request-language-form-info-explanation-list-3 = مەزكۇر تىلنى چۈشىنىشىمىزگە ياردەم بېرەلەيدىغان تور بېكەتلەرگە ئۇلىنىش
+request-language-google-recaptcha-error = ReCAPTCHA دا مەسىلە كۆرۈلدى. قايتا سىناڭ.
 
 ## Languages Overview
 
@@ -963,11 +974,13 @@ profile-form-delete = تەرجىمىھالنى ئۆچۈر
 
 ## Profile Download
 
+download-q = ئۇچۇرلىرىڭىزنى چۈشۈرەمسىز؟
 download-info = چۈشۈرمەكچى بولغان نەرسىنى بىزگە ئېيتىپ بېرىڭ:
 download-profile-title = تەرجىمىھال
 download-recordings-title = ئۈن خاتىرىسى
 download-size = چوڭلۇقى
 download-selected = تاللانغان
+download-start = ئارخىپ ئۇچۇرىنى چۈشۈرۈش
 download-request-button = چۈشۈر
 download-request-title = { $created }
 download-request-assembling-description = ماتىرياللىرىڭىز رەتلىنىۋاتىدۇ، سەل تۇرۇپ قايتا سىناڭ.
@@ -1025,6 +1038,8 @@ demo-dashboard-card-body = ھەر بىر ھەدىيە قىلغان ئاۋاز، 
 contribution-criteria-nav = ئۆلچەم
 contribution-for-example = مەسىلەن
 contribution-varying-pronunciations-title = ھەرخىل تەلەپپۇزلار
+contribution-background-noise-title = مۇھىت شاۋقۇنى
+contribution-background-voices-title = مۇھىت ئاۋازى
 contribution-volume-title = ئاۋاز
 see-more = <chevron> </chevron> تېخىمۇ كۆپ
 
