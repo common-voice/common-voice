@@ -478,10 +478,13 @@ error-title-404 = Мӓ тӹлӓт тидӹ страницӹм мон кердд�
 
 ## Data
 
+data-download-button = Common Voice данныйым качаен нӓлӓш
 data-download-yes = Ане
 data-download-deny = Уке
 data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
 data-other-title = Вес юк данныйвлӓ...
+data-other-download = Данныйым качаен нӓлӓш
+data-bundle-button = Датасет пакетым качаен нӓлӓш
 data-bundle-description = Common Voice данный дӓ тенгеок кӱшнӹшӹ цилӓ молы юк данный.
 release-version = Верси
 dataset-date = Кечӹ
@@ -503,6 +506,7 @@ language = Йӹлмӹ
 cv-license = Лицензи
 audio-format = Аудиоформат
 number-of-voices = Юквлӓн шот
+email-to-download = Качаен нӓлӓш манын, электрон почта адресӹм сирӹ
 size-gigabyte = ГБ
 size-megabyte = МБ
 validated-hours = Тергӹмӹ цӓш
@@ -511,6 +515,7 @@ whats-inside = Common Voice данный кӧргӹштӹ ма улы?
 data-other-ted-name = TED-LIUM корпус
 more = Шукырак
 close = Питӹрäш
+download = Качаен нӓлӓш
 dataset-version = Верси
 
 ## Download Modal
