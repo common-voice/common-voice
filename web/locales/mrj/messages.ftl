@@ -466,6 +466,11 @@ mycroft-title = Mycroft Ai
 
 ## Glossary
 
+glossary = Глоссари
+localization = Сӓрӹмӓш
+sentence-collection = Предложени цымыр
+hours-recorded-explanation = Кӹзӹтшӹ выртеш мӓмнӓн погымы юкым сирӹмӹ цӓш шот.
+de-identified = Авторизаци карангдымы
 
 ## Error pages
 
