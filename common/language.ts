@@ -16,7 +16,9 @@ export type Language = {
   id: number;
   name: string;
   sentenceCount: SentenceCount;
-  isContributable?: boolean;
+  is_contributable?: boolean;
+  native_name: string;
+  text_direction: string;
 };
 
 // single variant object
