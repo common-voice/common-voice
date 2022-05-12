@@ -221,6 +221,7 @@ hours-recorded = Сирӹмӹ цӓш
 hours-validated = Тергӹмӹ цӓш
 voices-online = Онлайн юквлӓ кӹзӹт
 todays-progress = Тагачшы анзыкы кемӓш
+read-terms-q = Тӹнь мӓмнӓн условивлӓм лыдынат?
 ready-to-record = Ӹшке юкетӹм подараш йӓмдӹ ылат?
 all-locales = Цилӓ
 today = Тагачы
@@ -240,6 +241,7 @@ x-years-short =
        *[other] и
     }
 sign-up-account = Аккаунт
+email-subscription-title = электрон почта гач уэммӓшвлӓлӓн сирӓлт
 
 ## Account Benefits
 
@@ -249,6 +251,7 @@ improve-audio = Аудиоформат
 ## What's public
 
 whats-public = Мам цилӓн кычылтын кердӹт?
+email-not-public = Мӓ тӹньӹн электрон почтетӹм публикуяш ана тӹнгӓл.
 
 ## Speak & Listen Shortcuts
 
@@ -277,8 +280,11 @@ shortcut-record-toggle-label = Сирӓш/Шагалташ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Клипӹм угӹц сирӓш
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Кӹзӹтшӹ сирӹмӓшӹм цӓрӓш
 shortcut-submit = Пӧртӹлтӓш
 shortcut-submit-label = Клипвлӓм колташ
+request-language-text = Common Voice-ышты ӹшке йӹлметӹм эче ат уж?
+request-language-text-learn = Кыце тӹдӹм тиштӹ ядаш, пӓлен нӓл!
 request-language-button = Йӹлмӹм ядаш
 
 ## ProjectStatus
@@ -309,6 +315,8 @@ profile-form-age =
     .label = Игот
 profile-form-gender-2 =
     .label = Пӱэргӹ/Ӹдӹрӓмӓш
+leaderboard-visibility =
+    .label = Лидервлӓн таблицӹштӹ каймаш
 hidden = Шӹлтӹмӹ
 visible = Кайшы
 native-language =
@@ -331,6 +339,7 @@ login-identity = Логин
 login-signup = Системӹш пыры / Регистрацим эртӹ
 edit = Редактируяш
 email-subscriptions = Электрон почта гач сылымашвлӓ
+download-profile = Мӹньӹн данныйым вӓрӓнгдӹдӓ
 contribution-experience = Ӹшке пӓшӓэтӹм ӓклӹ
 skip-submission-feedback = Пӓшӓм ӓклӹмӓшӹм коден кеӓш
 off = Йӧртӓш
@@ -340,9 +349,11 @@ help-variants = Вариантвлӓ шотышты палшык келеш?
 
 ## Profile - Email
 
+browse-file-title = Картинӓн файлым вӓрӓнгдӹдӓ
 connect-gravatar = Граватар доно кӹлдӓлт
 gravatar_not_found = Электрон почта адреслӓн граватарым момы агыл
 file_too_large = Айырымы файл утла кого
+avatar-uploaded = Вӓрӓгдӹмӹ аватар
 remove-avatar = Аватарым карангдаш
 
 ## Profile - Email
