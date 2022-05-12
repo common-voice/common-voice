@@ -393,12 +393,15 @@ about-language-req-subtitle = Тӓгӱ йӹлмӹм уштараш ядеш.
 about-localization-title = Сайтым сӓрӹмӓш
 about-localization-subtitle = Веб-сайтын текстшӹ тидӹ йӹлмӹш сӓрӓлтӹн.
 about-sentence-collection-title = Предложени цымыр
+about-sentence-collection-subtitle = Предложенивлӓм, эдемвлӓ юкын лыдын кердӹштӹ манын, погымы.
 about-new-lang-title = У йӹлмӹм колтымаш
+about-new-lang-subtitle = Мӓ Common Voice сайтым ти йӹлмӹ доно ходыш колтенӓ.
 about-voice-contrib-title = Юк вклад
 about-voice-contrib-subtitle = Эдемвлӓ толыт дӓ ӹшке вкладыштым пиштӓт.
 about-voice-validation-title = Юк тергӹмӓш
 about-voice-validation-subtitle = Вес эдемвлӓ тидӹ клипвлӓм лачокеш лыктыт.
 about-dataset-release-title = Датасет релиз
+about-subscribe-text = Common Voice доно кӹлӹштӹ коднет?
 about-speak = Попаш
 about-listen = Колышташ
 about-is-it-valid = Тидӹ клип тергӹмӹ?
@@ -409,6 +412,8 @@ about-clip-graveyard = Клип шӹгерлӓ
 about-partners = Партнёрвлӓ
 about-become-a-partner = Партнёр лиӓш
 about-get-involved = Ушнаш
+about-stay-in-touch = Кыце мӹлӓм кӹлӹштӹ кодаш?
+about-stay-in-touch-button = Регистрацим эртӓш
 about-nav-why-common-voice = Малан?
 about-nav-how-it-works = Кыце?
 about-nav-partners = Партнёрвлӓ
@@ -419,6 +424,7 @@ about-nav-playbook = Кыце ушнаш манын, пӓлен нӓл
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice-ышты ма техень йӹлмӹ?
 
 ## How do I add a language
 
@@ -428,6 +434,7 @@ about-playbook-how-add-language-content-3 = <strong>Предложенивлӓм
 ## How does localization work
 
 about-playbook-how-localize = Сайтым сӓрӹмӓш кыце пӓшӓм ӹштӓ?
+about-playbook-how-localize-content-5 = Палшаш манын, мӓмнӓн ынгылдарымы видеонам анжы
 
 ## How to add sentences
 
@@ -436,6 +443,7 @@ about-playbook-how-add-sentences-content-3 = Википеди гӹц мытык 
 
 ## How to record quality
 
+about-playbook-how-record-quality = Кыце яжо юкан клипӹм сирӓш?
 
 ## How to grow language
 
