@@ -369,14 +369,27 @@ faq-what-is-cv = Ма техень Common Voice?
 ## How does it work section
 
 about-language-req-subtitle = Тӓгӱ йӹлмӹм уштараш ядеш.
+about-localization-title = Сайтым сӓрӹмӓш
+about-localization-subtitle = Веб-сайтын текстшӹ тидӹ йӹлмӹш сӓрӓлтӹн.
+about-sentence-collection-title = Предложени цымыр
+about-new-lang-title = У йӹлмӹм колтымаш
+about-voice-contrib-title = Юк вклад
+about-voice-contrib-subtitle = Эдемвлӓ толыт дӓ ӹшке вкладыштым пиштӓт.
+about-voice-validation-title = Юк тергӹмӓш
+about-voice-validation-subtitle = Вес эдемвлӓ тидӹ клипвлӓм лачокеш лыктыт.
+about-dataset-release-title = Датасет релиз
 about-speak = Попаш
 about-listen = Колышташ
 about-is-it-valid = Тидӹ клип тергӹмӹ?
 about-yes-votes = ≥ 2 Ане
 about-no-votes = ≥ 2 Уке
+about-dataset-new = Common Voice датасет
 about-clip-graveyard = Клип шӹгерлӓ
 about-partners = Партнёрвлӓ
 about-become-a-partner = Партнёр лиӓш
+about-get-involved = Ушнаш
+about-nav-why-common-voice = Малан?
+about-nav-how-it-works = Кыце?
 about-nav-partners = Партнёрвлӓ
 
 ## Community Playbook Content
