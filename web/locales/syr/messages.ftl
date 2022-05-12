@@ -39,6 +39,7 @@ languages = ܠܫܢ̈ܐ
 about = ܡܢܝ ܝܘܚ
 profile = ܨܠܡܐ
 help = ܥܘܕܪܢܐ
+contact = ܐܣܪܐ
 privacy = ܕܝܠܢܝܘܬܐ
 terms = ܫܪܥܬ
 cookies = ܟܘܟܟܝܣ
