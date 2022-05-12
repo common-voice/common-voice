@@ -931,26 +931,11 @@ export default class DB {
 
   async getAllLanguages(): Promise<Language[]> {
     const [rows] = await this.mysql.query(
-      `SELECT l.id, l.name, l.target_sentence_count as target_sentence_count, count(1) as total_sentence_count
+      `SELECT *
         FROM locales l
-        JOIN sentences s ON s.locale_id = l.id
-        GROUP BY l.id`
+    `
     );
-    return rows.map(
-      (row: {
-        id: number;
-        name: string;
-        target_sentence_count: number;
-        total_sentence_count: number;
-        is_contributable: boolean;
-        native_name: string;
-        text_direction: string;
-      }) => ({
-        id: row.id,
-        name: row.name,
-        is_contributable: row.total_sentence_count >= row.target_sentence_count,
-      })
-    );
+    return rows;
   }
 
   async getRequestedLanguages(): Promise<string[]> {
