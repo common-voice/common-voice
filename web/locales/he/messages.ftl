@@ -442,6 +442,7 @@ about-become-a-partner = יצירת שותפות
 about-get-involved = הצטרפות
 about-stay-in-touch = איך אפשר לשמור על קשר?
 about-stay-in-touch-button = הרשמה
+about-stay-in-touch-text-2 = אפשר לפגוש אחרים בקהילות השפה של Mozilla על ידי הצטרפות ל־<discourseLink>Discourse</discourseLink> לדיונים לפי נושאים או ל־<matrixLink>Matrix</matrixLink> להתייעצות זריזה.
 about-nav-why-common-voice = למה?
 about-nav-how-it-works = איך?
 about-nav-partners = שותפים
@@ -452,13 +453,16 @@ about-nav-how-it-works-2 = איך Common Voice פועל?
 ## What is a language
 
 about-playbook-what-is-language = מה זו שפה ב־Common Voice?
+about-playbook-what-is-language-content-1 = ישנן דרכים רבות לחשוב על שפה. למטרות מודלים לזיהוי דיבור, מציע Common Voice להתמקד ב‚הבנה הדדית’ או ‚האם דוברי השפה הזאת יבינו זה את זה באופן כללי אם הם ינסו?’
 
 ## How do I add a language
 
 about-playbook-how-add-language = איך אפשר להוסיף שפה?
+about-playbook-how-add-language-content-1 = ראשית יש לבדוק אם השפה שלך <languageLink>כבר קיימת</languageLink>. אם לא, עליך <strong>לתרגם את האתר ולאסוף משפטים</strong>.
 
 ## How does localization work
 
+about-playbook-how-localize = איך עובד תרגום אתר?
 
 ## How to add sentences
 
