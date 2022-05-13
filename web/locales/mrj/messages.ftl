@@ -420,6 +420,7 @@ about-voice-contrib-subtitle = Эдемвлӓ толыт дӓ ӹшке вкла�
 about-voice-validation-title = Юк тергӹмӓш
 about-voice-validation-subtitle = Вес эдемвлӓ тидӹ клипвлӓм лачокеш лыктыт.
 about-dataset-release-title = Датасет релиз
+about-dataset-release-subtitle = Кым тӹлзӹ вуй гӹц мӓ датасетӹн у релизшӹм лыктына.
 about-subscribe-text = Common Voice доно кӹлӹштӹ коднет?
 about-speak = Попаш
 about-speak-text = Ушнышывлӓ, подарымы предложениӓн банк гӹц лыдын, юкан клипвлӓм сирӓт.
@@ -484,6 +485,8 @@ about-playbook-how-access-dataset = Кыце датасетӹм нӓлӓш дӓ 
 ## How are decisions made
 
 about-playbook-how-project-governance = Кыце проектӹн решенивлӓ лыкталтыт?
+about-playbook-how-project-governance-content-5 = Ӓклӹмӓш дӓ шотеш пиштӹмӓш
+about-playbook-how-project-governance-content-6 = Вӓшӓ-вӓш вуйын шалгымаш.
 mycroft-title = Mycroft Ai
 
 ## Glossary
@@ -531,6 +534,7 @@ review-delete-recordings = Мӹньӹн сирӹмӹм карангдаш
 
 datasets-heading = Датасетвлӓ
 language = Йӹлмӹ
+overall-hr-total = Цилӓ цымыр цӓш
 cv-license = Лицензи
 audio-format = Аудиоформат
 number-of-voices = Юквлӓн шот
@@ -640,7 +644,7 @@ share-common-voice = Common Voice доно пайылалташ
 review-instruction = Келеш гӹнь, клипвлӓм анжен лӓк дӓ угӹцӹн сирӹ
 clips-uploaded = Вӓрӓнгдӹмӹ клипвлӓ
 record-abort-title = Анзыц сирӹмӹм кашарташ?
-record-abort-text = Тӹнь кӹзӹт кеет гӹнь, цилӓ вашталтымашетӹм ямдет
+record-abort-text = Тӹнь кӹзӹт кеет гӹнь, цилӓ анзык кеметӹм ямдет
 record-abort-submit = Клипвлӓм колташ
 record-abort-continue = Сирӹмӹм кашарташ
 record-abort-delete = Лӓктӓш дӓ клипвлӓм карангдаш
