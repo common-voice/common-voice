@@ -15,6 +15,7 @@ export const down = async function (db: any): Promise<any> {
   ALTER TABLE locales 
     DROP COLUMN native_name,
     DROP COLUMN is_contributable,
+    DROP COLUMN is_translated,
     DROP COLUMN text_direction
 `);
 };
