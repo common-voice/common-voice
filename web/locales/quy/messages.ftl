@@ -12,6 +12,9 @@ email-opt-in-info = Munaymanmi chaskiyta correo electrónicos imayna meta yuyari
 email-opt-in-info-title = Common Voice isqa qillqana listaman hukllaway
 email-opt-in-info-sub-with-challenge = Chaskiy correo electrónicos hina sasachakuy chaymanta meta yuyarichiykuna, ñawpaqman musuqyachiykuna, chaymanta willakuy qillqakuna "Common Voice" kaqmanta.
 email-opt-in-privacy-v2 = Correo electrónicokuna chaskiyta akllaspa willanki allin kasqaykita Mozilla kay willayta llamk'achisqanwan imaynachus Mozilla <sapallay T'inki>Sapalla Willakuy</privacidad T'inki> kaqpi sut'inchasqa.
+indicates-required = Quyllurwan (*) señalasqa chakrakunatam ruwana.
+not-available-abbreviation = N/A
+banner-error-slow-1 = Llakikuy, Common Voice nisqa pisi pisimanta purichkan. Gracias por tu interés.
 banner-error-slow-2 = Achka trafico nisqatam chaskichkayku, kunantaqmi chay asuntokunata investigachkayku.
 banner-error-slow-link = Estatus Página
 error-something-went-wrong = Pampachaykuway, imapas mana allinchu karqa
@@ -22,18 +25,48 @@ error-something-went-wrong = Pampachaykuway, imapas mana allinchu karqa
 
 ## Languages
 
+ab = Abkhaz
+ace = Acehnese
+ady = Adyghe
+en = Inglés simi
+eo = Esperanto simi
 es = Español
 et = Estonian
 eu = Basque
+fa = Persia simi
+fr = Francés simi
+it = Italiano simi
+izh = Izhorian
+ja = Japanese
 
 # [/]
 
 
 ## Layout
 
+speak = Rimay
+speak-now = Kunan rimay
+datasets = Willaykuna huñusqakuna
+languages = Simikuna
+about = Sobre
+profile = Runapa kaynin
+help = Yanapay
+contact = Tupaqmasi
+privacy = Sapanchasqa
+terms = Kamachiykuna
+cookies = Galletas nisqa
+faq = Sapa kuti tapusqa tapukuykuna
+content-license-text = Huk <licenseLink>Creative Commons licencia</licenseLink> nisqawanmi tarikun
+share-title = ¡Yanapawayku hukkunata tarinaykupaq kunkankuta qunankupaq!
+share-text = Yanapakuy makinakunata yachachiyta imayna chiqap runakuna rimanku, kunkaykita quy kaypi { $link }
+link-copied = Enlace Copiado
+back-top = Pataman kutiy
+logout = Lluqsiy
 
 ## Home Page
 
+home-title = Common Voice nisqaqa Mozilla nisqap llamk'ayninmi, makinakunaman imayna chiqap runakuna rimasqankuta yachachiypi yanapanapaq.
+default-tagline = Mozilla Common Voice nisqaqa huk llamk'aymi, makinakunaman imayna chiqap runakuna rimasqankuta yachachinapaq yanapanapaq.
 
 ## Account Benefits
 
