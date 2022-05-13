@@ -744,6 +744,7 @@ share-goal-type-both = Попаш дӓ колышташ
 ## Profile Download
 
 download-profile-title = Профиль
+download-request-button = Качаен нӓлӓш
 download-request-title = { $created }
 download-request-link-text = Zip #{ $offset } / { $total }
 
@@ -877,6 +878,7 @@ sc-review-link = Анжен лӓктӓш
 
 ## SETTINGS
 
+sc-settings-title = Сарастарымаш
 
 # [/SentenceCollector]
 
