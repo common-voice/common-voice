@@ -534,10 +534,12 @@ review-delete-recordings = Мӹньӹн сирӹмӹм карангдаш
 
 datasets-heading = Датасетвлӓ
 language = Йӹлмӹ
+validated-hr-total = Цилӓ тергӹмӹ цӓш
 overall-hr-total = Цилӓ цымыр цӓш
 cv-license = Лицензи
 audio-format = Аудиоформат
 number-of-voices = Юквлӓн шот
+splits = Шеледӹмӓш
 email-to-download = Качаен нӓлӓш манын, электрон почта адресӹм сирӹ
 size-gigabyte = ГБ
 size-megabyte = МБ
