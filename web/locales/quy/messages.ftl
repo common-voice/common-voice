@@ -130,6 +130,9 @@ nl = Dutch
 nn-NO = Norwegian Nynorsk
 nyn = Runyankole
 oc = Occitan
+or = Odia
+pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
 
 # [/]
 
