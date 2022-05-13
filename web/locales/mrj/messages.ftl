@@ -422,6 +422,7 @@ about-voice-validation-subtitle = Вес эдемвлӓ тидӹ клипвлӓ�
 about-dataset-release-title = Датасет релиз
 about-subscribe-text = Common Voice доно кӹлӹштӹ коднет?
 about-speak = Попаш
+about-listen-queue = Колышташлан церот
 about-listen = Колышташ
 about-is-it-valid = Тидӹ клип тергӹмӹ?
 about-yes-votes = ≥ 2 Ане
@@ -494,6 +495,7 @@ de-identified = Авторизаци карангдымы
 ## Error pages
 
 error-title-404 = Мӓ тӹлӓт тидӹ страницӹм мон кердделна
+error-code = Самынь: { $code }
 
 ## Data
 
@@ -502,6 +504,7 @@ data-download-yes = Ане
 data-download-deny = Уке
 data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
 data-other-title = Вес юк данныйвлӓ...
+data-other-goto = { $name } докӹ ванжы
 data-other-download = Данныйым качаен нӓлӓш
 data-bundle-button = Датасет пакетым качаен нӓлӓш
 data-bundle-description = Common Voice данный дӓ тенгеок кӱшнӹшӹ цилӓ молы юк данный.
