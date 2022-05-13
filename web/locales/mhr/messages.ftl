@@ -420,7 +420,7 @@ connect-gravatar = Граватар дене кылдалт
 gravatar_not_found = Электрон почто адреслан граватарым мумо огыл
 file_too_large = Ойырымо файл утыжден кугу
 avatar-uploaded = Вераҥдыме аватар
-max-file-size = эн кугужо { $kb } кб
+max-file-size = Эн кугужо { $kb } кб
 remove-avatar = Аватарым кораҥдаш
 
 ## Profile - Email
