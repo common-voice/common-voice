@@ -220,6 +220,8 @@ profile-form-age =
 
 ## Data
 
+review-submit-msg = ¡Gracias por grabar!<lineBreak></lineBreak>Ahora revise y envíe sus clips a continuación.
+review-recording = Revisar
 
 ## Datasets Page
 
