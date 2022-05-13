@@ -100,6 +100,36 @@ kmr = Kurmanji Kurdish
 knn = Konkani (Devanagari)
 ko = Kuriya simi
 kpv = Komi-Zyrian
+kw = Cornish
+ky = Kyrgyz
+lb = Luxembourgish
+lg = Luganda
+lij = Ligurian
+lt = Lithuanian
+lv = Latvian
+mai = Maithili
+mdf = Moksha
+mg = Malagasy
+mhr = Meadow Mari
+mk = Macedonian
+ml = Malayalam
+mn = Mongolian
+mni = Meetei Lon
+mos = Mossi
+mr = Marathi
+mrj = Hill Mari
+ms = Malay
+mt = Maltese
+my = Burmese
+myv = Erzya
+nan-tw = Taiwanese (Minnan)
+nb-NO = Norwegian Bokmål
+ne-NP = Nepali
+nia = Nias
+nl = Dutch
+nn-NO = Norwegian Nynorsk
+nyn = Runyankole
+oc = Occitan
 
 # [/]
 
@@ -174,6 +204,7 @@ profile-form-age =
 
 ## Profile - Email
 
+add-language = Agregar idioma
 
 ## FAQ
 
