@@ -645,13 +645,29 @@ record-abort-submit = Клипвлӓм колташ
 record-abort-continue = Сирӹмӹм кашарташ
 record-abort-delete = Лӓктӓш дӓ клипвлӓм карангдаш
 listen-3rd-time-instruction = 2 ӱлӹк, тенгеок кеӓш!<playIcon></playIcon>
+listen-empty-state = Мӓмнӓн тидӹ йӹлмӹ доно тергӓшлӓн клип пӹтен...
+listen-loading-error =
+    Мӓ аудиоклипвлӓм колышташлан нӓлӹн кердделна.
+    Пожалсты, варарак угӹц цацен анжы.
+speak-empty-state = Мӓмнӓн тидӹ йӹлмӹ доно сирӓшлӓн предложени пӹтен...
+speak-empty-state-cta = Предложенивлӓм уштараш
+speak-loading-error =
+    Мӓ тылӓт предложенивлӓм айырен нӓлӹн кердделна.
+    Пожалсты, варарак угӹц цацен анжы.
 record-button-label = Ӹшке юкетӹм сирӹ
+keep-track-profile = Профильыштӹ ӹшкӹметӹн анзыкы кеметӹм тӹшлӹ
+login-to-get-started = Тӹнгӓлӓш манын, пыры ӓли регистрацим эртӹ
 target-segment-add-voice = Ӹшке юкетӹм уштары
+target-segment-learn-more = Шукырак тыменяш
 
 ## Reporting
 
 report = Отчёт
 report-title = Отчётым колташ
+report-grammar-or-spelling = Грамматика / орфографи шотышты самынь
+report-grammar-or-spelling-detail = Предложеништӹ грамматика ӓли орфографи шотышты самынь улы.
+report-different-language = Вес йӹлмӹ
+report-difficult-pronounce = Пелештен кердӓш нелӹ
 report-other-comment =
     .placeholder = Комментари
 success = Аш
@@ -677,10 +693,15 @@ validations =
 
 ## Dashboard
 
+your-languages = Йӹлмӹвлӓэт
 toward-next-goal = Вес цель докы
 goal-reached = Цельӹш шомы
 clips-you-recorded = Тӹньӹн сирӹмӹ клипвлӓ
 clips-you-validated = Тӹньӹн тергӹмӹ клипвлӓ
+todays-recorded-progress = Тагачшы сирӹмӹ клипвлӓм юкангдымашты анзыкы кемӓш
+todays-validated-progress = Тагачшы клипвлӓм юкангдымашым лачокеш лыкмашты анзыкы кемӓш
+you = Тӹнь
+contribution-activity = Пыртымы вклад
 recorded-clips = Сирӹмӹ клипвлӓ
 validated-clips = Тергӹмӹ клипвлӓ
 
