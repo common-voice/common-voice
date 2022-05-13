@@ -548,6 +548,8 @@ feedback-q = Отзыв улы?
 community-playbook = Playbook тӹшкӓ
 data-other-ted-name = TED-LIUM корпус
 go-discourse = Кӓнгӓшӹмӓш док ванжаш
+go-languages-page = Йӹлмӹ страницӹш ванжаш
+ready-to-validate = Предложенивлӓн тӧр ылмыштым тергӓш палшаш йӓмдӹ ылат?
 more = Шукырак
 close = Питӹрäш
 download = Качаен нӓлӓш
@@ -555,6 +557,8 @@ dataset-version = Верси
 
 ## Download Modal
 
+download-title = Тӹньӹн качаен нӓлмӓш тӹнгӓлӹн.
+download-helpus = Юк технологи йӹр мӓлӓннӓ тӹшкӓм ӹштӓш палшы, электрон почта доно кӹлӹштӹ ли.
 download-form-email =
     .label = Электрон почтетӹм сирӹ
     .value = Тау, кӹлӹм кычена лиэш.
