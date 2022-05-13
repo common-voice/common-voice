@@ -204,6 +204,7 @@ terms = Условивлӓ
 cookies = Куки
 faq = ШПЯ
 content-license-text = Контентӹм <licenseLink>Creative Commons лицензи</licenseLink> доно кычылташ лиэш
+share-title = Весӹвлӓм, кӱ ӹшке юкшым подара лиэш, мӓлӓннӓ моаш палшы!
 link-copied = Ссылкым копируйымы
 back-top = Тӹнгӓлтӹшӹш пӧртӹлӓш
 logout = Система гӹц лӓктӓш
