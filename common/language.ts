@@ -17,6 +17,7 @@ export type Language = {
   name: string;
   sentenceCount: SentenceCount;
   is_contributable?: boolean;
+  is_translated?: boolean;
   native_name: string;
   text_direction: string;
 };
