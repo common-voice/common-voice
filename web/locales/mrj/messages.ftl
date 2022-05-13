@@ -205,12 +205,16 @@ cookies = Куки
 faq = ШПЯ
 content-license-text = Контентӹм <licenseLink>Creative Commons лицензи</licenseLink> доно кычылташ лиэш
 share-title = Весӹвлӓм, кӱ ӹшке юкшым подара лиэш, мӓлӓннӓ моаш палшы!
+share-text = Тидӹлӓн, кыце ӹлӹшӹ эдемвлӓ попат, машинавлӓм тымдаш палшы, ӹшке юкетӹм тиштӹ подары: { $link }
 link-copied = Ссылкым копируйымы
 back-top = Тӹнгӓлтӹшӹш пӧртӹлӓш
 logout = Система гӹц лӓктӓш
 
 ## Home Page
 
+home-title = Common Voice — кыце ӹлӹшӹ эдемвлӓ попат, тидӹлӓн машинавлӓм тымдаш палшышы Mozilla-н инициативӹжӹ.
+default-tagline = Mozilla Common Voice — кыце ӹлӹшӹ эдемвлӓ попат, тидӹлӓн машинавлӓм тымдаш палшышы инициатива.
+home-cta = Келесӹ, ӹшке владетӹм тиштӹ ӹштӹ!
 show-wall-of-text = Шукырак лыд
 help-us-title = Предложенивлӓн тӧр ылмыштым мӓлӓннӓ тергӓш палшы!
 vote-yes = Ане
