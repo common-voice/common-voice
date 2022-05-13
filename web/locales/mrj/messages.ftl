@@ -627,9 +627,22 @@ contribute-more =
        *[other] Эче { $count } ӹштӓш йӓмдӹ ылат?
     }
 record-cta = Сирӓш тӹнгӓлӓш
+record-must-allow-microphone = Тӹнь микрофоным кычылташ лишӹм ӹштӹшӓшлык ылат.
+record-no-mic-found = Микрофоным момы агыл.
+record-error-too-short = Сирӹмӹ утла мытык ыльы.
+record-error-too-long = Сирӹмӹ утла кужы ыльы.
+record-error-too-quiet = Сирӹмӹ утла шӹп ыльы.
+record-cancel = Угӹцӹн сирӹмӹм цӓрӓш
+record-three-more-instruction = Кымыт кодын!
+review-tooltip = Кынам кеет, тиштӹ клипвлӓм анжен лӓк дӓ угӹцӹн сирӹ
 share-clip = Ӹшке клип донет пайылалт
+share-common-voice = Common Voice доно пайылалташ
+review-instruction = Келеш гӹнь, клипвлӓм анжен лӓк дӓ угӹцӹн сирӹ
 clips-uploaded = Вӓрӓнгдӹмӹ клипвлӓ
+record-abort-title = Анзыц сирӹмӹм кашарташ?
+record-abort-text = Тӹнь кӹзӹт кеет гӹнь, цилӓ вашталтымашетӹм ямдет
 record-abort-submit = Клипвлӓм колташ
+record-abort-continue = Сирӹмӹм кашарташ
 record-abort-delete = Лӓктӓш дӓ клипвлӓм карангдаш
 listen-3rd-time-instruction = 2 ӱлӹк, тенгеок кеӓш!<playIcon></playIcon>
 record-button-label = Ӹшке юкетӹм сирӹ
