@@ -40,8 +40,6 @@ export async function importLocales() {
   const locales = await fetchPontoonLanguages();
 
   if (locales) {
-    console.log('Inserting languages into database');
-
     const [existingLangauges] = await db.query(`
       SELECT l.id, l.name, l.target_sentence_count as target_sentence_count, count(1) as total_sentence_count
       FROM locales l
@@ -74,7 +72,7 @@ export async function importLocales() {
       };
       return obj;
     }, {});
-    Promise.all([
+    await Promise.all([
       locales.map(lang => {
         if (allLanguages[lang.code]) {
           // this language exists in db, just update
@@ -83,7 +81,6 @@ export async function importLocales() {
             `
             UPDATE locales
             SET native_name = ?,
-            target_sentence_count = ?,
             is_contributable = ?, 
             is_translated = ?, 
             text_direction = ?
@@ -91,7 +88,6 @@ export async function importLocales() {
             `,
             [
               lang.name,
-              newLanguageData[lang.code].target_sentence_count,
               newLanguageData[lang.code].is_contributable,
               newLanguageData[lang.code].is_translated,
               lang.direction,
@@ -100,16 +96,6 @@ export async function importLocales() {
           );
         } else {
           // this is a new language, insert
-          console.log(
-            'lang',
-            lang.code,
-            newLanguageData[lang.code].target_sentence_count,
-            lang.name,
-            newLanguageData[lang.code].is_contributable,
-            newLanguageData[lang.code].is_translated,
-            lang.direction
-          );
-
           return db.query(
             `INSERT IGNORE INTO locales(name, target_sentence_count, native_name, is_contributable, is_translated, text_direction) VALUES (?)`,
             [
