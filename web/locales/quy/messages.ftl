@@ -13,7 +13,7 @@ email-opt-in-info-title = Common Voice isqa qillqana listaman hukllaway
 email-opt-in-info-sub-with-challenge = Chaskiy correo electrónicos hina sasachakuy chaymanta meta yuyarichiykuna, ñawpaqman musuqyachiykuna, chaymanta willakuy qillqakuna "Common Voice" kaqmanta.
 email-opt-in-privacy-v2 = Correo electrónicokuna chaskiyta akllaspa willanki allin kasqaykita Mozilla kay willayta llamk'achisqanwan imaynachus Mozilla <sapallay T'inki>Sapalla Willakuy</privacidad T'inki> kaqpi sut'inchasqa.
 indicates-required = Quyllurwan (*) señalasqa chakrakunatam ruwana.
-not-available-abbreviation = N/A
+not-available-abbreviation = Mana tarikunchu
 banner-error-slow-1 = Llakikuy, Common Voice nisqa pisi pisimanta purichkan. Gracias por tu interés.
 banner-error-slow-2 = Achka trafico nisqatam chaskichkayku, kunantaqmi chay asuntokunata investigachkayku.
 banner-error-slow-link = Estatus Página
@@ -28,6 +28,8 @@ error-something-went-wrong = Pampachaykuway, imapas mana allinchu karqa
 ab = Abkhaz
 ace = Acehnese
 ady = Adyghe
+bg = Búlgaro simi
+ca = Catalán simi
 en = Inglés simi
 eo = Esperanto simi
 es = Español
@@ -67,27 +69,45 @@ logout = Lluqsiy
 
 home-title = Common Voice nisqaqa Mozilla nisqap llamk'ayninmi, makinakunaman imayna chiqap runakuna rimasqankuta yachachiypi yanapanapaq.
 default-tagline = Mozilla Common Voice nisqaqa huk llamk'aymi, makinakunaman imayna chiqap runakuna rimasqankuta yachachinapaq yanapanapaq.
+home-cta = Rimay, kaypi yanapakuy!
+wall-of-text-start = Kunkaqa naturalmi, kunkaqa runam. Chay raykun fascinasqa kayku makinaykupaq llamk’anapaq kunka tecnologiata ruwaywan. Ichaqa kunka sistemakuna ruwanapaq, ancha hatun kunkamanta willakuymi necesitakun.
+show-wall-of-text = Ñawinchay Astawan
+help-us-title = ¡Yanapawayku rimaykunata validanaykupaq!
+help-us-explain = Pukllay ñit’iy, uyariy hinaspa willawayku: ¿urapi kaq rimayta allintachu rimarqanku?
 
 ## Account Benefits
 
+view-goals = Qaway ñawpaqman purisqaykita metas personales y proyectos nisqawan tupachispa.
 
 ## What's public
 
+username-email-not-demographic = Ruwaq sutiyki chaymanta correo electrónico mana t'inkisqachu kanqa chaymanta lluqsisqa willaykunawan.
 
 ## Speak & Listen Shortcuts
 
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 
 ## ProjectStatus
 
 
 ## ProfileForm
 
+profile-form-custom-accent-help-text =
+    .label = ¿Imaynatan willawaq acento nisqaykimanta?
+profile-form-custom-accent-placeholder-2 = Acentoykimanta willanaykipaq qillqayta qallariy
+profile-form-age =
+    .label = Hayka wata
 
 ## Profile - Email
 
@@ -155,12 +175,18 @@ default-tagline = Mozilla Common Voice nisqaqa huk llamk'aymi, makinakunaman ima
 
 ## Request Language Pages
 
+# Success page
+request-language-success-heading = Riqsikuyki! Musuq simi tapuyta apachirqanki
 
 ## Languages Overview
 
+sentences = Rimaykuna
 
 ## Contribution
 
+listen = Uyariy
+skip = Paway
+record-no-mic-found = Mana micrófono tarisqachu.
 
 ## Reporting
 
