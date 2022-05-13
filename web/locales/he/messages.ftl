@@ -463,6 +463,9 @@ about-playbook-how-add-language-content-1 = ראשית יש לבדוק אם הש
 ## How does localization work
 
 about-playbook-how-localize = איך עובד תרגום אתר?
+about-playbook-how-localize-content-1 = תרגום אתר Common Voice מתרחש ב־<strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = האתר מוכן להשקה כשאחוז השלמת התרגום מגיע ל־75%.
+about-playbook-how-localize-content-5 = ניתן לצפות בסרטון ההסברה שלנו לקבלת עזרה
 
 ## How to add sentences
 
@@ -487,6 +490,8 @@ about-playbook-how-grow-language-content-4 = מדיה חברתית
 
 about-playbook-how-project-governance = איך מתקבלות החלטות במיזם?
 about-playbook-how-project-governance-content-3 = פרטיות, אבטחה ושקיפות.
+about-playbook-how-project-governance-content-4 = מעורבות בקהילה וקבלת החלטות.
+about-playbook-how-project-governance-content-6 = אחריות הדדית.
 mycroft-subtitle = בינה מלאכותית
 
 ## Glossary
@@ -543,6 +548,7 @@ review-delete-recordings = מחיקת ההקלטות שלי
 
 ## Datasets Page
 
+datasets-heading = סדרות נתונים
 language = שפה
 # File size in gigabytes
 size = גודל
@@ -870,6 +876,8 @@ sc-home-review-title = סקירת משפטים
 
 sc-howto-addsen-title = הוספת משפטים חדשים
 sc-howto-review-title = סקירת משפטים
+sc-howto-findpd-title = איתור משפטים קיימים שזמינים לנחלת הכלל
+sc-howto-findpd-tips = להלן מגוון עצות לאיתור משפטים:
 
 ## MY SENTENCES
 
@@ -887,6 +895,7 @@ sc-my-err-failed-delete = מחיקת המשפטים הנבחרים נכשלה…
 ## REJECTED
 
 sc-rejected-title = משפטים שנדחו
+sc-rejected-loading = נטענים משפטים שנדחו…
 sc-rejected-err-fetching = שגיאה במשיכת המשפטים שנדחו. נא לנסות שוב.
 sc-rejected-none-found = לא נמצאו משפטים שנדחו!
 
@@ -911,8 +920,10 @@ sc-submit-prompt =
 sc-submit-title = הוספת משפטים
 sc-submit-select-language =
     .labelText = בחירת שפה
+sc-submit-add-sentences = הוספת משפטים <wikipediaLink>בנחלת הכלל</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = משפט אחד בכל שורה
+sc-submit-from-where = מאיפה המשפטים האלו שזמינים <wikipediaLink>לנחלת הכלל</wikipediaLink>?
 sc-submit-button =
     .submitText = שליחה
 
@@ -923,6 +934,14 @@ sc-add-lang-sec-button = הוספת שפה
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] לא נמצאו משפטים.
+        [one] נמצא משפט אחד.
+       *[other] נמצאו { $countOfSentences } משפטים.
+    }
 
 ## LANGUAGE INFO
 
@@ -981,7 +1000,9 @@ sc-settings-ui-language = שפת ממשק
 sc-settings-failed = לא ניתן היה לשנות את ההגדרות. נא לנסות שוב.
 # VALIDATION
 sc-validation-number-of-words = המשפט חייב להכיל בין 1 ל־14 (כולל) מילים
-sc-validation-no-numbers = משפט לא אמור להכיל מספרים
+sc-validation-no-numbers = משפט לא יכול להכיל מספרים
+sc-validation-no-symbols = משפט לא יכול להכיל סימנים
+sc-validation-no-abbreviations = משפט לא יכול להכיל ראשי תיבות
 
 # [/SentenceCollector]
 
