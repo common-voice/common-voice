@@ -227,6 +227,7 @@ hours-recorded = Сирӹмӹ цӓш
 hours-validated = Тергӹмӹ цӓш
 voices-online = Онлайн юквлӓ кӹзӹт
 todays-progress = Тагачшы анзыкы кемӓш
+help-reach-goal = { $goal } якте мӓлӓннӓ шоаш палшы
 read-terms-q = Тӹнь мӓмнӓн условивлӓм лыдынат?
 ready-to-record = Ӹшке юкетӹм подараш йӓмдӹ ылат?
 all-locales = Цилӓ
@@ -246,6 +247,7 @@ x-years-short =
         [one] и
        *[other] и
     }
+help-make-dataset = Яжо качестван, цилӓлӓн кычылташ лишӹ датасетӹм мӓлӓннӓ ӹштӓш палшы
 sign-up-account = Аккаунт
 email-subscription-title = электрон почта гач уэммӓшвлӓлӓн сирӓлт
 
@@ -296,6 +298,11 @@ request-language-button = Йӹлмӹм ядаш
 ## ProjectStatus
 
 status-contribute = Ӹшке юкетӹм сирӹ
+status-hours =
+    { $hours ->
+        [one] Тидӹ выртлан ик цӓшӹм лочокеш лыкмы!
+       *[other] Тидӹ выртлан { $hours } цӓшӹм лочокеш лыкмы!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Вес цельвлӓ: { $goal }
@@ -311,6 +318,8 @@ profile-form-additional-language =
     .label = Ситӓртӹш йӹлмӹ
 profile-form-language =
     .label = Йӹлмӹ
+profile-form-variant =
+    .label = { $language } йӹлмӹн махань йиш доно тӹнь попет?
 profile-form-variant-default-value = Вариантым айырымы агыл
 profile-form-accent =
     .label = Акцент
