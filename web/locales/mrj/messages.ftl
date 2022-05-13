@@ -704,16 +704,23 @@ you = Тӹнь
 contribution-activity = Пыртымы вклад
 recorded-clips = Сирӹмӹ клипвлӓ
 validated-clips = Тергӹмӹ клипвлӓ
+total-approved = Цилӓжӹ лачокеш лыкмы
+set-visibility = Мӹньӹн каймашым шӹндӓш
+show-ranking = Мӹньӹн рейтингӹм анжыкташ
 
 ## Custom Goals
 
 get-started-goals = Цельвлӓ гӹц тӹнгӓл
 goal-type = Махань цельӹм тӹнь шӹндӹнет?
+both-speak-and-listen = Когынек
+both-speak-and-listen-long = Когынек (попаш дӓ колышташ)
 daily-goal = Ик кечӓш цель
 weekly-goal = Ик ӓрняш цель
 easy-difficulty = Куштылгы
 difficult-difficulty = Нелӹ
 pro-difficulty = Про
+finish-editing = Пӹтӓри редактированим кашарташ?
+lose-changes-warning = Тӹнь кӹзӹт кеет гӹнь, цилӓ вашталтымашетӹм ямдет
 set-a-goal = Цельӹм шӹндӓш
 n-clips-pluralized =
     { NUMBER($count) ->
