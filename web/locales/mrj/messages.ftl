@@ -562,6 +562,7 @@ download-helpus = Юк технологи йӹр мӓлӓннӓ тӹшкӓм ӹ�
 download-form-email =
     .label = Электрон почтетӹм сирӹ
     .value = Тау, кӹлӹм кычена лиэш.
+download-back = Common Voice датасетӹш пӧртӹлӓш
 download-no = Тау, ак кел
 
 ## Contact Modal
@@ -574,26 +575,47 @@ contact-required = *обязательный
 
 ## Request Language Modal
 
+request-language-title = Йӹлмӹ ядмаш
 request-language-form-language =
     .label = Йӹлмӹ
+select-language = Йӹлмӹм айыры...
+other-language = Вес йӹлмӹ
 
 ## Request Language Pages
 
+request-language-heading = У йӹлмӹ гишӓн яд
 request-language-form-email =
     .label = Тӹньӹн электрон почта адресет
+request-language-form-info =
+    .label = Йӹлмӹ гишӓн информаци
+request-language-form-info-explanation =
+    Йӹлмӹ гишӓн кердмӹ семӹнь шукырак информацим пырты. Тишкӹ
+    теве ма пырен кердеш:
+request-language-form-info-explanation-list-1 = Тӹньӹн йӹлметӹн вуйшамаквлӓ
+request-language-form-info-explanation-list-3 = Мӓлӓннӓ йӹлмӹм ынгылаш палшышы веб-сайтвлашкӹ ссылкывлӓ
+# Success page
+request-language-success-heading = Тӹлӓт таум ӹштем! Тӹнь у йӹлмӹ ядмашым колтенӓт
 
 ## Languages Overview
 
+language-section-in-progress = Анзыкы кемӓштӹ
+language-section-launched = Колтымы
 languages-show-more = Шукырак пӓлӓш
 languages-show-less = Чӹдӹрäк анжы
+language-meter-in-progress = Анзыкы кемӓш
 language-total-progress = Цилä
 language-speakers = Попышывлä
+sentences = Предложенивлӓ
 total-hours = Тергӹмӹ цӓш
 
 ## Contribution
 
 action-click = Темдäл
+action-tap = Темдӓл
+contribute = Вкладым ӹштӓш
+listen = Колышташ
 skip = Коден кеӓш
+shortcuts = Ярлыквлӓ
 clips-with-count-pluralized =
     { $count ->
         [one] клип
@@ -604,6 +626,7 @@ contribute-more =
         [one] Эче { $count } ӹштӓш йӓмдӹ ылат?
        *[other] Эче { $count } ӹштӓш йӓмдӹ ылат?
     }
+record-cta = Сирӓш тӹнгӓлӓш
 share-clip = Ӹшке клип донет пайылалт
 clips-uploaded = Вӓрӓнгдӹмӹ клипвлӓ
 record-abort-submit = Клипвлӓм колташ
