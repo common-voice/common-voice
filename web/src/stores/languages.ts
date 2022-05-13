@@ -31,11 +31,6 @@ interface LoadedAction {
 
 export type Action = LoadedAction;
 
-async function getLocaleData(fileName: string): Promise<Locales> {
-  const response = await fetch(`/dist/languages/${fileName}.json`);
-  return response.json();
-}
-
 export const actions = {
   loadLocalesData: () => {
     return async (
@@ -59,9 +54,13 @@ export const actions = {
         return names;
       }, []);
 
-      const response = await Promise.all([getLocaleData('translated')]);
-
-      const [translatedLocales] = response;
+      const translatedLocales = allLanguages.reduce((names: any, language) => {
+        if (language.is_translated) {
+          names.push(language.name);
+        }
+        return names;
+      }, []);
+      console.log('translatedLocales', translatedLocales);
 
       const allLocales = allLanguages.map(language => language.name);
       const contributableLocales = allLanguages
