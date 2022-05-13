@@ -45,7 +45,7 @@ export async function importLocales() {
     const [existingLangauges] = await db.query(`
       SELECT l.id, l.name, l.target_sentence_count as target_sentence_count, count(1) as total_sentence_count
       FROM locales l
-      JOIN sentences s ON s.locale_id = l.id
+      LEFT JOIN sentences s ON s.locale_id = l.id
       GROUP BY l.id
     `);
     console.log(`${existingLangauges.length} Existing Languages`);
@@ -100,7 +100,15 @@ export async function importLocales() {
           );
         } else {
           // this is a new language, insert
-          console.log('lang', lang);
+          console.log(
+            'lang',
+            lang.code,
+            newLanguageData[lang.code].target_sentence_count,
+            lang.name,
+            newLanguageData[lang.code].is_contributable,
+            newLanguageData[lang.code].is_translated,
+            lang.direction
+          );
 
           return db.query(
             `INSERT IGNORE INTO locales(name, target_sentence_count, native_name, is_contributable, is_translated, text_direction) VALUES (?)`,
