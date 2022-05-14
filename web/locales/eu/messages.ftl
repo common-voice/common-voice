@@ -496,6 +496,7 @@ about-get-involved-text-2 =
     <githubLink>GitHub</githubLink>-en arazo baten berri eman,
     edo batu komunitateko <matrixLink>Matrix</matrixLink> txatera.
 about-stay-in-touch = Nola egon naiteke harremanetan?
+about-stay-in-touch-text-1 = <emailFragment>Harpidetu</emailFragment> gure eposta-zerrendara kanpainetan eta ekitaldietan nola parte hartu ikasteko eta Common Voicen ezaugarriak diseinatzen laguntzeko.
 about-nav-why-common-voice = Zergatik?
 about-nav-how-it-works = Nola?
 about-nav-partners = Babesleak
@@ -601,6 +602,7 @@ review-delete-recordings = Ezabatu nire grabazioak
 
 ## Datasets Page
 
+datasets-heading = Datu-sortak
 datasets-headline = Ahotsen datu-sorta ireki eta publiko bat sortzen ari gara, edonork erabil dezakeena hizketa baliatzen duten aplikazioak trebatzeko.
 datasets-positioning =
     Gure ustez, datu-sorta handi eta publikoek, berrikuntza eta lehia komertzial osasuntsua sustatzen dute ikasketa automatikoan oinarritutako hizketaren teknologietan.
@@ -680,6 +682,9 @@ request-language-success-title = Hizkuntza-eskaera ondo bidali da, eskerrik asko
 request-language-success-content = Laster jarriko gara zurekin harremanetan Common Voice proiektuan zure hizkuntza nola gehitu azaltzen duen informazioarekin.
 select-language = Hautatu hizkuntza bat...
 other-language = Bestelako hizkuntza
+
+## Request Language Pages
+
 
 ## Languages Overview
 
@@ -942,6 +947,9 @@ demo-account = Kontua
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = Sartu eposta izen-emate esteka bidaltzeko
+demo-account-sign-up = Bidali izen-emate esteka
 
 ## Demo Contribute
 
