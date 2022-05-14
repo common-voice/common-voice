@@ -133,6 +133,28 @@ oc = Occitan
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
+pl = Polish
+ps = Pashto
+pt = Portuguese
+quc = K'iche'
+quy = Quechua Chanka
+rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
+ro = Romanian
+ru = Russian
+rw = Kinyarwanda
+sah = Sakha
+sat = Santali (Ol Chiki)
+sc = Sardinian
+scn = Sicilian
+shi = Shilha
+si = Sinhala
+sk = Slovak
+skr = Saraiki
+sl = Slovenian
+so = Somali
+sq = Albanian
+sr = Serbian
 
 # [/]
 
