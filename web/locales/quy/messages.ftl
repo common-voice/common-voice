@@ -282,6 +282,10 @@ profile-form-custom-accent-help-text =
 profile-form-custom-accent-placeholder-2 = Acentoykimanta willanaykipaq qillqayta qallariy
 profile-form-age =
     .label = Hayka wata
+profile-form-gender-2 =
+    .label = Ima kay
+male = Qari
+female = Warmi
 
 ## Profile - Email
 
