@@ -13,6 +13,8 @@ email-opt-in-info-title = Batu Common Voice posta-zerrendara
 email-opt-in-info-sub-with-challenge = Jaso posta elektroniko bidez Common Voice-ri buruzko helburuen abisuak, aurrerapenaren eguneraketak eta buletinak.
 indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
 not-available-abbreviation = N/A
+banner-error-slow-1 = Barkatu, Common Voice orain geldo dabil. Zure interesa eskertzen dugu.
+banner-error-slow-2 = Trafiko asko jasotzen ari gara eta arazoaren jatorria ikertzen ari gara.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -380,6 +382,7 @@ gravatar_not_found = Ez da gravatarrik aurkitu zure e-postarako
 file_too_large = Hautatutako fitxategia handiegia da
 avatar-uploaded = Avatarra igo da
 max-file-size = { $kb }kb gehienez
+remove-avatar = Kendu avatarra
 
 ## Profile - Email
 
@@ -528,6 +531,8 @@ about-playbook-how-record-quality = Nola graba dezaket kalitate handiko ahots gr
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Ekitaldiak
+about-playbook-how-grow-language-content-4 = Sare sozialak
 
 ## How to validate
 
@@ -540,6 +545,7 @@ about-playbook-how-access-dataset = Nola atzitu eta erabili dezaket datu-sorta?
 ## How are decisions made
 
 about-playbook-how-project-governance = Nola hartzen dira proiektuko erabakiak?
+about-playbook-how-project-governance-content-3 = Pribatutasuna, segurtasuna eta gardentasuna.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Adimen artifiziala
 mycroft-description =
