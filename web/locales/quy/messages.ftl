@@ -234,11 +234,17 @@ speak-goal-text = Clips grabados
 listen-subtitle = Yanapawayku kunkakunata validanaykupaq
 listen-paragraph = Qusqa clipkuna validacionqa kaqlla ancha chaniyuqmi "Common Voice" misionpaq. Huk uyariyta hap'iy chaymanta yanapawayku allin kichasqa kunka willayta ruwanapaq.
 listen-goal-text = Clips nisqakuna validasqa
+hours-recorded = Horas Grabadas
+hours-validated = Horas Validadas
+voices-online = Voces en línea ahora
+todays-progress = Kunan punchaw Progreso
 all-locales = Llapan
 today = Kunan
 
 ## Account Benefits
 
+rich-data = Haga que sus datos enviados sean lo más ricos posible al proporcionar algunos datos demográficos anónimos. Desidentificamos todos los datos demográficos antes de hacerlos públicos.
+improve-audio = La información del perfil mejora los datos de audio utilizados en el entrenamiento de la precisión del reconocimiento de voz.
 view-goals = Qaway ñawpaqman purisqaykita metas personales y proyectos nisqawan tupachispa.
 
 ## What's public
@@ -248,10 +254,18 @@ username-email-not-demographic = Ruwaq sutiyki chaymanta correo electrónico man
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = Reproducir/Detener
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
@@ -274,6 +288,8 @@ request-language-button = Solicitar un idioma
 
 ## ProjectStatus
 
+status-title = Tukuy proyectopa kaynin: ¡qhaway maykama chayasqayku!
+status-contribute = Contribuye con tu voz
 
 ## ProfileForm
 
