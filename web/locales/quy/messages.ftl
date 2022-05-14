@@ -224,6 +224,7 @@ wall-of-text-second = Yaqa llapan hatun empresakuna llamk’achisqanku datukuna 
 show-wall-of-text = Ñawinchay Astawan
 help-us-title = ¡Yanapawayku rimaykunata validanaykupaq!
 help-us-explain = Pukllay ñit’iy, uyariy hinaspa willawayku: ¿urapi kaq rimayta allintachu rimarqanku?
+no-clips-to-validate = Rikchakun mana ima clipkuna kay simipi uyarinapaq kanchu. Yanapawayku fila hunt’anaykupaq kunan wakinta grabaspa.
 vote-yes = Arí
 vote-no = Manam
 toggle-play-tooltip = { shortcut-play-toggle } ñit'iy pukllay ñanta tikranaykipaq
@@ -231,6 +232,10 @@ speak-subtitle = Kunkaykita quy
 speak-paragraph = Kunka clips grabacionqa huk integral parten kichasqa willakuyniyku ruwaypi; wakinqa ninkumanmi kusikuy partepas kasqanmanta.
 speak-goal-text = Clips grabados
 listen-subtitle = Yanapawayku kunkakunata validanaykupaq
+listen-paragraph = Qusqa clipkuna validacionqa kaqlla ancha chaniyuqmi "Common Voice" misionpaq. Huk uyariyta hap'iy chaymanta yanapawayku allin kichasqa kunka willayta ruwanapaq.
+listen-goal-text = Clips nisqakuna validasqa
+all-locales = Llapan
+today = Kunan
 
 ## Account Benefits
 
@@ -238,6 +243,7 @@ view-goals = Qaway ñawpaqman purisqaykita metas personales y proyectos nisqawan
 
 ## What's public
 
+demographic-deidentified-clarity-2 = Los datos demográficos enviados opcionalmente (por ejemplo, edad, sexo, idioma y acento) nunca se harán públicos en su perfil y no se vincularán a su cuenta en el conjunto de datos. Los clips de audio individuales se asociarán con datos demográficos con el fin de realizar un análisis más preciso; por ejemplo, es posible que un investigador desee orientar un modelo de capacitación a un segmento demográfico específico.
 username-email-not-demographic = Ruwaq sutiyki chaymanta correo electrónico mana t'inkisqachu kanqa chaymanta lluqsisqa willaykunawan.
 
 ## Speak & Listen Shortcuts
@@ -245,6 +251,7 @@ username-email-not-demographic = Ruwaq sutiyki chaymanta correo electrónico man
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Reproducir/Detener
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
@@ -254,6 +261,16 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = Grabar/Detener
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Regrabar clip
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Grabacion purichkaqta wischuy
+shortcut-submit = Volver
+shortcut-submit-label = Enviar clips
+request-language-text = ¿Manaraqchu Common Voice nisqapi kunkaykita rikunki?
+request-language-text-learn = ¡Aprende cómo solicitarlo aquí!
+request-language-button = Solicitar un idioma
 
 ## ProjectStatus
 
