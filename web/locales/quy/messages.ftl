@@ -155,6 +155,37 @@ sl = Slovenian
 so = Somali
 sq = Albanian
 sr = Serbian
+sv-SE = Swedish
+sw = Swahili
+syr = Syriac
+ta = Tamil
+te = Telugu
+tg = Tajik
+th = Thai
+ti = Tigrinya
+tig = Tigre
+tk = Turkmen
+tl = Tagalog
+tok = Toki Pona
+tr = Turkish
+tt = Tatar
+tw = Twi
+ty = Tahitian
+uby = Ubykh
+udm = Udmurt
+ug = Uyghur
+uk = Ukrainian
+ur = Urdu
+uz = Uzbek
+vec = Venetian
+vi = Vietnamese
+vot = Votic
+yi = Yiddish
+yo = Yoruba
+yue = Cantonese
+zh-CN = Chinese (China)
+zh-HK = Chinese (Hong Kong)
+zh-TW = Chinese (Taiwan)
 
 # [/]
 
@@ -186,9 +217,20 @@ home-title = Common Voice nisqaqa Mozilla nisqap llamk'ayninmi, makinakunaman im
 default-tagline = Mozilla Common Voice nisqaqa huk llamk'aymi, makinakunaman imayna chiqap runakuna rimasqankuta yachachinapaq yanapanapaq.
 home-cta = Rimay, kaypi yanapakuy!
 wall-of-text-start = Kunkaqa naturalmi, kunkaqa runam. Chay raykun fascinasqa kayku makinaykupaq llamk’anapaq kunka tecnologiata ruwaywan. Ichaqa kunka sistemakuna ruwanapaq, ancha hatun kunkamanta willakuymi necesitakun.
+wall-of-text-more-mobile = Yaqa llapan hatun empresakuna llamk’achisqanku datukuna mana aswan runakunapaqchu kanku. Chayqa musuqyachiykunatam harkan nispam yuyanchik. Chaymi Proyecto "Common Voice" nisqa ruwayta qallarirqayku, huk proyecto kunka riqsiyta llapa runaman kichasqa kananpaq yanapanapaq.
+wall-of-text-more-desktop = Kunanqa kunkayki quyta atikunki yanapakuyniykupaq huk kichasqa kunka willaypa tiyapuynin ruwanapaq mayqinchus pillapas musuq ruwanakuna ruwanapaq dispositivokuna chaymanta web kaqpaq llamk'achiy atikun. Huk rimayta ñawinchay, makinakuna chiqap runakuna imayna rimasqankuta yachanankupaq. Huk yanapakuqkunapa llamkayninta qawariy allin kananpaq. ¡Chayna facilmi!
+wall-of-text-first = Kunkaqa naturalmi, kunkaqa runam. Chay raykun kusisqa kayku makinaykupaq llamk’anapaq kunka tecnologiata ruwanaykupaq. Ichaqa kunka sistemakuna ruwanapaq, ruwaqkuna huk ancha hatun kunka willayta necesitanku.
+wall-of-text-second = Yaqa llapan hatun empresakuna llamk’achisqanku datukuna mana aswan runakunapaqchu kanku. Chayqa musuqyachiykunatam harkan nispam yuyanchik. Chaymi "Common Voice" nisqa ruwayta qallarirqayku, huk llamk’ayta yanapanapaq kunka riqsiy kichasqa kananpaq chaymanta llapa runaman chayananpaq.
 show-wall-of-text = Ñawinchay Astawan
 help-us-title = ¡Yanapawayku rimaykunata validanaykupaq!
 help-us-explain = Pukllay ñit’iy, uyariy hinaspa willawayku: ¿urapi kaq rimayta allintachu rimarqanku?
+vote-yes = Arí
+vote-no = Manam
+toggle-play-tooltip = { shortcut-play-toggle } ñit'iy pukllay ñanta tikranaykipaq
+speak-subtitle = Kunkaykita quy
+speak-paragraph = Kunka clips grabacionqa huk integral parten kichasqa willakuyniyku ruwaypi; wakinqa ninkumanmi kusikuy partepas kasqanmanta.
+speak-goal-text = Clips grabados
+listen-subtitle = Yanapawayku kunkakunata validanaykupaq
 
 ## Account Benefits
 
