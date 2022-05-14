@@ -785,6 +785,7 @@ sc-header-add = Уштараш
 sc-header-review = Анжен лӓктӓш
 sc-header-profile = Профиль
 sc-footer-terms = Условивлӓ
+sc-footer-cookies = Куки
 
 ## HOME
 
