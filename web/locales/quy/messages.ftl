@@ -240,9 +240,15 @@ voices-online = Voces en línea ahora
 todays-progress = Kunan punchaw Progreso
 all-locales = Llapan
 today = Kunan
+x-months-short =
+    { $count ->
+        [one] killa
+       *[other] killakuna
+    }
 
 ## Account Benefits
 
+benefits = Beneficiokuna
 rich-data = Haga que sus datos enviados sean lo más ricos posible al proporcionar algunos datos demográficos anónimos. Desidentificamos todos los datos demográficos antes de hacerlos públicos.
 improve-audio = La información del perfil mejora los datos de audio utilizados en el entrenamiento de la precisión del reconocimiento de voz.
 view-goals = Qaway ñawpaqman purisqaykita metas personales y proyectos nisqawan tupachispa.
