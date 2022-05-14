@@ -545,7 +545,12 @@ about-playbook-how-access-dataset = Nola atzitu eta erabili dezaket datu-sorta?
 ## How are decisions made
 
 about-playbook-how-project-governance = Nola hartzen dira proiektuko erabakiak?
+about-playbook-how-project-governance-content-2 = Gure gobernatzeko era zutabe hauetan oinarritzen da:
 about-playbook-how-project-governance-content-3 = Pribatutasuna, segurtasuna eta gardentasuna.
+about-playbook-how-project-governance-content-4 = Komunitatearen parte-hartzea, baita erabakietan ere.
+about-playbook-how-project-governance-content-5 = Balioa eta aitortza.
+about-playbook-how-project-governance-content-6 = Elkarri kontu ematea.
+about-playbook-how-project-governance-content-7 = <governanceLink>Irakurri gehiago gure gobernatzeko moduaz</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Adimen artifiziala
 mycroft-description =
@@ -691,6 +696,20 @@ other-language = Bestelako hizkuntza
 
 ## Request Language Pages
 
+request-language-heading = Hizkuntza berri bat eskatu
+request-language-form-email =
+    .label = Zure eposta helbidea
+request-language-form-info =
+    .label = Hizkuntzari buruzko informazioa
+request-language-form-info-explanation =
+    Gehitu zure hizkuntzari buruz ahal duzun informazio guztiak.
+    Honelakoak aipa ditzakezu:
+request-language-form-info-explanation-list-1 = Zure hizkuntzaren izenak
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO kodeak</isoCodeLink> badakizkizu
+request-language-google-recaptcha-required = reCAPTCHA ezinbestekoa da aurrera egiteko
+request-language-google-recaptcha-error = Zerbait oker joan da reCAPTCHA-rekin. Saiatu berriro mesedez.
+# Success page
+request-language-success-heading = Eskerrik asko! Hizkuntza berri baten eskaria bidali duzu
 
 ## Languages Overview
 
@@ -949,6 +968,7 @@ card-button-next = Hurrengoa
 card-button-back = Atzera
 demo-language-select-label = Arakatu hizkuntzak
 demo-eofy-header = 2019(e)ko urte bukaerako argitalpena
+demo-eofy-sub_header = Ahots datu-sorta, deskargatzeko prest
 demo-account = Kontua
 
 ## Demo Account
@@ -959,6 +979,7 @@ demo-account-sign-up = Bidali izen-emate esteka
 
 ## Demo Contribute
 
+demo-contribute-card-header = Zure ahotsa gehitu edo zure belarriarekin laguntzeko prest?
 demo-listen-subtitle = Laguntzeko prest?
 
 ## Demo Dashboard
