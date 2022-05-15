@@ -452,6 +452,9 @@ add-language = Agregar idioma
 
 data-explanatory-text = Creemos que los grandes conjuntos de datos de voz disponibles públicamente fomentan la innovación y una sana competencia comercial en la tecnología del habla basada en el aprendizaje automático. Este es un esfuerzo global e invitamos a todos a participar. Nuestro objetivo es ayudar a que la tecnología del habla sea más inclusiva y refleje la diversidad de voces de todo el mundo.
 data-get-started = <speechBlogLink>Comenzar con el reconocimiento de voz</speechBlogLink>
+data-other-title = Otros conjuntos de datos de voz...
+data-other-goto = Ir a { $name }
+data-other-download = Descargar información
 review-submit-msg = ¡Gracias por grabar!<lineBreak></lineBreak>Ahora revise y envíe sus clips a continuación.
 review-recording = Revisar
 
