@@ -96,6 +96,8 @@ benefits = ܥܠܠܬܐ
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ܥ
 
 ## Listen Shortcuts
 
@@ -130,10 +132,16 @@ profile-form-username =
     .label = ܫܡܐ ܕܡܦܠܚܢܐ
 profile-form-native-language =
     .label = ܠܫܢܐ ܐܬܪܢܝܐ
+profile-form-additional-language =
+    .label = ܠܫܢܐ ܐܚܪܢܐ
+profile-form-language =
+    .label = ܠܫܢܐ
 profile-form-accent =
     .label = ܡܡܠܠܐ
 profile-form-age =
     .label = ܫܢ̈ܐ
+profile-form-gender-2 =
+    .label = ܓܢܣܐ
 hidden = ܛܘܫܝܐ
 visible = ܡܒܝܘܢܐ
 native-language =
@@ -143,7 +151,7 @@ profile-form-submit-saved = ܦܝܫܐ ܚܡܝ
 male = ܕܟ݂ܪܐ
 female = ܢܩܒ݂ܐ
 # Gender
-other = ܐ݇ܚܪ݇ܢܐ
+other = ܐܚܪܢܐ
 profile-close = ܕܥܘܪ
 
 ## Profile - Email
