@@ -468,9 +468,17 @@ terms-agree = Estoy de acuerdo
 terms-disagree = No estoy de acuerdo
 review-submit-msg = ¡Gracias por grabar!<lineBreak></lineBreak>Ahora revise y envíe sus clips a continuación.
 review-recording = Revisar
+review-keep-recordings = Mantener mis grabaciones
+review-delete-recordings = Borrar mis grabaciones
 
 ## Datasets Page
 
+datasets-heading = Bases de datos
+datasets-headline = Estamos creando una base de datos de voces de código abierto y en varios idiomas que cualquiera puede usar para entrenar aplicaciones habilitadas para voz.
+datasets-positioning =
+    Creemos que grandes base de datos de voz disponibles públicamente fomentarán la innovación y una sana competencia comercial en la tecnología del habla basada en el aprendizaje automático.
+    La base de datos multilingüe de Common Voice es el conjunto de datos de voz disponible público más grande de su tipo, pero no es el único.
+    Mire esta página como un centro de referencia para otras base de datos de voz de código abierto y, a medida que Common Voice continúa creciendo, un hogar para nuestras actualizaciones de lanzamiento.
 
 ## Download Modal
 
