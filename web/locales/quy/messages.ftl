@@ -238,19 +238,38 @@ hours-recorded = Horas Grabadas
 hours-validated = Horas Validadas
 voices-online = Voces en línea ahora
 todays-progress = Kunan punchaw Progreso
+help-reach-goal = Yanapawayku { $goal } chayanaykupaq.
+read-terms-q = ¿Ñawincharqankichu Términosniyku?
+ready-to-record = ¿Listochu kashanki kunkaykita qonaykipaq?
 all-locales = Llapan
 today = Kunan
+x-weeks-short =
+    { $count ->
+        [one] semana
+       *[other] semanas
+    }
 x-months-short =
     { $count ->
         [one] killa
        *[other] killakuna
     }
+x-years-short =
+    { $count ->
+        [one] wata
+       *[other] watakuna
+    }
+help-make-dataset = Yanapawayku huk hatun calidad, llapa runapaq kichasqa willakuy huñuta ruwanaykupaq
+sign-up-account = Regístrese para obtener una cuenta
+email-subscription-title = Regístrese para recibir actualizaciones por correo electrónico
+email-subscription-title-new = Regístrese para recibir boletines de Common Voice, recordatorios de metas y actualizaciones de progreso
 
 ## Account Benefits
 
 benefits = Beneficiokuna
 rich-data = Haga que sus datos enviados sean lo más ricos posible al proporcionar algunos datos demográficos anónimos. Desidentificamos todos los datos demográficos antes de hacerlos públicos.
 improve-audio = La información del perfil mejora los datos de audio utilizados en el entrenamiento de la precisión del reconocimiento de voz.
+keep-track = Realice un seguimiento de su progreso y métricas en varios idiomas.
+compare-progress = Compara tu progreso con el de otros colaboradores de todo el mundo.
 view-goals = Qaway ñawpaqman purisqaykita metas personales y proyectos nisqawan tupachispa.
 
 ## What's public
