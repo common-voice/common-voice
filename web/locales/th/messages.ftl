@@ -538,6 +538,7 @@ about-playbook-how-add-language = ฉันจะเพิ่มภาษาไ�
 
 ## How does localization work
 
+about-playbook-how-localize-content-5 = ดูวิดีโออธิบายเพื่อทำความเข้าใจ
 
 ## How to add sentences
 
@@ -1054,6 +1055,7 @@ sc-howto-review-criteria-5 = หากประโยคไม่ตรงตา
 sc-howto-review-criteria-6 = หากคุณไม่มีประโยคที่จะตรวจทาน โปรดช่วยเรารวบรวมประโยคเพิ่มเติม!
 sc-howto-findpd-title = ค้นหาประโยคที่มีอยู่แล้วในสาธารณสมบัติ
 sc-howto-findpd-subtitle = ค้นหาประโยคบนอินเทอร์เน็ต
+sc-howto-findpd-tips = เคล็ดลับในการค้นหาประโยค:
 
 ## MY SENTENCES
 
@@ -1130,12 +1132,48 @@ sc-confirm-button-text = ยืนยัน
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = ทั้งหมด
+sc-lang-info-title-personal = ส่วนตัว
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] ไม่มีประโยคทั้งหมด
+       *[other] { $totalSentences } ประโยคทั้งหมด
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] ไม่มีประโยคที่รอการตรวจสอบ
+       *[other] { $totalInReview } ประโยคที่รอการตรวจสอบ
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] ไม่มีประโยคที่เหลือให้คุณตรวจสอบ
+       *[other] { $unreviewedSentencesByYou } ประโยคที่เหลือให้คุณตรวจสอบ
+    }
+sc-lang-info-review-now = <reviewLink>ตรวจทานเลย!</reviewLink>
+sc-lang-info-add-more = <addLink>เพิ่มประโยคเลย!</addLink>
 
 ## LOGIN
 
+sc-login-err-failed = การเข้าสู่ระบบล้มเหลว
+sc-login-err-try-again = โปรดลองอีกครั้ง
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = โปรไฟล์: { $username }
+sc-personal-your-languages = ภาษาของคุณ:
+sc-personal-remove-button = เอาออก
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } ประโยคที่เพิ่มโดยคุณ
+sc-personal-not-added = คุณยังไม่ได้เพิ่มภาษา
 
 ## REVIEW CRITERIA
 
@@ -1174,6 +1212,13 @@ sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = คุณยังสามารถใช้แป้นพิมพ์ลัด: { sc-review-form-button-approve-shortcut } เพื่ออนุมัติ, { sc-review-form-button-reject-shortcut } เพื่อปฏิเสธ, { sc-review-form-button-skip-shortcut } เพื่อข้าม
 sc-review-form-button-submit =
     .submitText = เสร็จสิ้นการตรวจสอบ
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] ไม่มีประโยคที่ตรวจทานแล้ว
+       *[other] ตรวจทาน { $sentences } ประโยคแล้ว ขอขอบคุณ!
+    }
 sc-review-form-review-failure = ไม่สามารถบันทึกการตรวจทาน กรุณาลองใหม่อีกครั้งในภายหลัง
 sc-review-link = ตรวจทาน
 
