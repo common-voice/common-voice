@@ -400,13 +400,38 @@ help-variants-explanation = Las variantes son una forma específica de un idioma
 ## Profile - Email
 
 browse-file-title = Subir un archivo de imagen
+browse-file = Arrastrar y soltar o <browseWrap>Examinar</browseWrap>
+connect-gravatar = Conéctate con Gravatar
+gravatar_not_found = No se encontró gravatar para su correo electrónico
+file_too_large = El archivo seleccionado es demasiado grande
+avatar-uploaded = Avatar subido
+max-file-size = { $kb }kb máximo
+remove-avatar = Quitar Avatar
 
 ## Profile - Email
 
+manage-subscriptions = Administrar Suscripciones
+manage-email-subscriptions = Administrar Suscripciones de correo electrónico
+email-already-used = El correo electrónico ya se usa para una cuenta diferente
 add-language = Agregar idioma
+change-email-setings = Cambie su correo electrónico a través de Configuración en Identidad de inicio de sesión
 
 ## FAQ
 
+faq-title = Preguntas frecuentes
+faq-what-cv-q = ¿Qué es Common Voice?
+faq-what-cv-a = La tecnología de reconocimiento de voz está revolucionando la forma en que interactuamos con las máquinas, pero los sistemas disponibles actualmente son costosos y patentados. Common Voice es parte de la iniciativa de Mozilla para hacer que las tecnologías de reconocimiento de voz sean mejores y más accesibles para todos. Common Voice es una base de datos global masiva de voces donadas que permite a cualquier persona entrenar rápida y fácilmente aplicaciones habilitadas para voz en potencialmente todos los idiomas.
+faq-what-cv-a-2 =
+    La tecnología de reconocimiento de voz está revolucionando la forma en que interactuamos con las máquinas, pero los sistemas disponibles actualmente son costosos y patentados. Mozilla Common Voice es una iniciativa para hacer que las tecnologías de reconocimiento de voz sean mejores y más accesibles para todos. Common Voice es una base de datos global masiva de voces donadas que permite a cualquier persona entrenar rápida y fácilmente aplicaciones habilitadas para voz en potencialmente todos los idiomas.
+    No solo estamos recolectando muestras de voz  en idiomas ampliamente hablados sino también en aquellos con una población de hablantes más pequeña. La publicación de base de datos de diversas voces permitirá a los desarrolladores, empresarios y comunidades abordar esta brecha por sí mismos.
+faq-why-important-q = ¿Por qué es importante?
+faq-why-important-a =
+    El habla es a menudo la forma más natural en que nos comunicamos entre nosotros y las tecnologías de voz están brindando esa comodidad a nuestras computadoras y dispositivos móviles. Queremos capacitar a los desarrolladores para que construyan increíbles aplicaciones de reconocimiento de voz, como traductores en tiempo real y asistentes digitales habilitados para voz. Pero en este momento, la mayoría de los datos de voz necesarios para crear este tipo de aplicaciones son costosos y patentados. Esperamos que la base de datos de Common Voice brinde a los desarrolladores lo que necesitan para innovar y hacer que la tecnología del habla esté disponible en su propio idioma.
+    
+    Para hacer que el reconocimiento de voz sea aún más universal, estamos recopilando muestras de voz en los idiomas más hablados, así como en aquellos con una población de hablantes más pequeña, a menudo desatendidos por los servicios comerciales de reconocimiento de voz. La publicación de un conjunto de datos diverso de voces permitirá a los desarrolladores, empresarios y comunidades de habla completas abordar esta brecha por sí mismos.
+faq-how-get-q = ¿Cómo puedo obtener los datos de Common Voice?
+faq-how-get-a = La base de datos de Common Voice está disponible para su descarga bajo la licencia <licenseLink>CC0</licenseLink> en <datasetLink>nuestra página de Base de datos</datasetLink>. También puede descargar otras bases de datos disponibles públicamente desde la misma página.
+faq-when-release2-q = ¿Cuándo publicará los datos de Common Voice en otros idiomas?
 
 ## ABOUT US
 
