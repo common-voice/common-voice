@@ -479,6 +479,9 @@ datasets-positioning =
     Creemos que grandes base de datos de voz disponibles públicamente fomentarán la innovación y una sana competencia comercial en la tecnología del habla basada en el aprendizaje automático.
     La base de datos multilingüe de Common Voice es el conjunto de datos de voz disponible público más grande de su tipo, pero no es el único.
     Mire esta página como un centro de referencia para otras base de datos de voz de código abierto y, a medida que Common Voice continúa creciendo, un hogar para nuestras actualizaciones de lanzamiento.
+language = Idioma
+# File size in gigabytes
+size = Tamaño
 
 ## Download Modal
 
@@ -518,9 +521,12 @@ record-no-mic-found = Mana micrófono tarisqachu.
 
 ## Profile Delete
 
+keep-info = Sus grabaciones de voz anónimas permanecerán en la base de datos de Common Voice. Una vez que elimine su perfil, ya no podrá enviar una solicitud para eliminar sus grabaciones del conjunto de datos.
+remove-info = Revisaremos su solicitud para eliminar sus grabaciones de voz de la base datos. Si se aprueba su solicitud, nos pondremos en contacto con quienes descargaron el conjunto de datos y les solicitaremos que también eliminen sus grabaciones de voz.
 
 ## Profile Download
 
+download-size = Tamaño
 
 ## Landing
 
