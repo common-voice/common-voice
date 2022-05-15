@@ -36,7 +36,6 @@ ba = Basjkirisk
 bas = Basaa
 be = Kviterussisk
 bg = Bulgarsk
-bm = Bambara
 bn = Bengali
 br = Bretonsk
 bxr = Burjatisk
@@ -447,13 +446,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kvifor Common Voice?
-about-subtitle = Common Voice er ein del av Mozillas initiativ for å hjelpe til med å lære maskiner korleis folk snakkar. I tillegg til Common Voice-datasettet byggjer vi òg ein talegjenkjenningsmotor med open kjeldekode som heiter Deep Speech.
-about-header-description = Begge desse prosjekta er delar av strevet vårt for å byggje bru over det digitale skiljet. Talegjenkjenning bidreg med ein menneskeleg dimensjon til dei digitale einingane våre, men utviklarar treng ei enorm mengde med data for å byggje dei. Det meste av slike data er dyre og proprietære. Vi ønskjer å gjere stemmedata gratis og offentleg tilgjengeleg, og forsikre om at dataa representerer variasjonen mellom verkelege menneske. Saman kan vi gjere talegjenkjenning betre for alle.
-about-header-description-2 =
-    Dette prosjektet er ein freistnad på å byggje bru over den digitale talekløfta. Taleattkjenningsteknologiar gjer dingsane våre meir menneskelege, men utviklarane treng enorme mengder med taledata for å byggje dei. No er det meste av slike data dyre og proprietære.
-    Vi ønskjer å gjere taledata gratis og offentleg tilgjengeleg, og sikre at dataa speglar mangfaldet mellom vanlege folk. I lag kan vi gjere taleattkjenning betre for alle.
-how-does-it-work-title = Korleis fungerer det?
 how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) eit ope datasett av stemmer. Bidra med stemma di, valider nøyaktigheita av andre sine lydklipp og gjer datasettet betre for alle.
+
+## How does it work section
+
 about-speak = Tal
 about-speak-text = Bidragsytarar spelar inn stemmeklipp ved å lese inn frå ei samling bidregne setningar.
 about-listen-queue = Lyttekø
@@ -486,6 +482,35 @@ about-nav-why-common-voice = Kvifor ?
 about-nav-how-it-works = Korleis ?
 about-nav-partners = Partnarar
 about-nav-get-involved = Ver med
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt språkfellesskapet vil vere unikt, og dette er berre nokre få måtar å kome i gang på.
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kunstig intelligens
 mycroft-description =
@@ -632,6 +657,9 @@ request-language-success-title = Språkførespurnaden er sendt inn. Takk skal du
 request-language-success-content = Vi kontaktar deg snart med meir informasjon om korleis du legg til ditt språk i Common Voice.
 select-language = Vel eit språk…
 other-language = Anna språk
+
+## Request Language Pages
+
 
 ## Languages Overview
 
@@ -982,6 +1010,9 @@ sc-logout-button = Logg ut
 ## HOME
 
 
+## GENERAL
+
+
 ## HOW-TO
 
 sc-howto-addsen-title = Legg til nye setningar
@@ -1006,10 +1037,6 @@ sc-rejected-none-found = Fann ingen avviste setningar!
 ## STATS
 
 sc-stats-title = Statistikk
-# Variables:
-#   $lastUpdate (Date) - Localized date of last statistics update
-sc-stats-last-update = Siste oppdatering: { $lastUpdate }
-sc-stats-last-update-never = Siste oppdatering: Aldri
 sc-stats-updating = Oppdaterer…
 
 ## ADD
