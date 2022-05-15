@@ -1157,6 +1157,20 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>ตรวจทานเลย!</reviewLink>
 sc-lang-info-add-more = <addLink>เพิ่มประโยคเลย!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] ไม่มีประโยคที่อนุมัติแล้ว
+       *[other] { $validatedSentences } ประโยคที่อนุมัติแล้ว
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] ไม่มีประโยคที่ถูกปฏิเสธ
+       *[other] { $rejectedSentences } ประโยคที่ถูกปฏิเสธ
+    }
 
 ## LOGIN
 
