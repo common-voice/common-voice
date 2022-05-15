@@ -455,6 +455,8 @@ data-get-started = <speechBlogLink>Comenzar con el reconocimiento de voz</speech
 data-other-title = Otros conjuntos de datos de voz...
 data-other-goto = Ir a { $name }
 data-other-download = Descargar información
+data-bundle-button = Descargar paquete de información
+data-bundle-description = Datos de Common Voice más toda demás información de voz anteriores.
 review-submit-msg = ¡Gracias por grabar!<lineBreak></lineBreak>Ahora revise y envíe sus clips a continuación.
 review-recording = Revisar
 
