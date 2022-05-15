@@ -375,6 +375,19 @@ settings = Ajustes
 edit-profile = Editar Perfil
 profile-create-success = ¡Éxito, perfil creado!
 profile-close = Cerrar
+profile-explanation = Realice un seguimiento de su progreso con un perfil y ayude a que nuestros datos de voz sean más precisos.
+thanks-for-account = Gracias por confirmar su cuenta, ahora vamos a crear su perfil.
+why-demographic = ¿Por qué importa esto?
+why-demographic-explanation-2 = Los datos de usuario anónimos, como la edad, el sexo y el acento, ayudan a mejorar los datos de audio utilizados para entrenar la precisión de los motores de reconocimiento de voz. Su nombre de usuario y correo electrónico nunca se asociarán con sus datos enviados, y puede elegir si desea que su nombre de usuario sea público o anónimo.
+accept-privacy = Estoy de acuerdo con que se maneje esta información como se explica en la <privacyLink>Política de privacidad</privacyLink> de Mozilla.
+accept-privacy-title = Política de privacidad
+login-identity = Identidad de inicio de sesión
+login-signup = Iniciar sesión / Inscribirse
+edit = Editar
+email-subscriptions = Subscripcion de correo electronico
+download-profile = Descargar Mis Datos
+contribution-experience = Experiencia de contribución
+skip-submission-feedback = Omitir comentarios de envío
 
 ## Profile - Email
 
