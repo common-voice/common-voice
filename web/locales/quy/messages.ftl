@@ -432,6 +432,19 @@ faq-why-important-a =
 faq-how-get-q = ¿Cómo puedo obtener los datos de Common Voice?
 faq-how-get-a = La base de datos de Common Voice está disponible para su descarga bajo la licencia <licenseLink>CC0</licenseLink> en <datasetLink>nuestra página de Base de datos</datasetLink>. También puede descargar otras bases de datos disponibles públicamente desde la misma página.
 faq-when-release2-q = ¿Cuándo publicará los datos de Common Voice en otros idiomas?
+faq-when-release2-a = La versión multilingüe de la base de datos de Common Voice actualmente se está agrupando y limpiando con el apoyo de la comunidad. Si desea ayudarnos a llevar Common Voice a nuevos idiomas, consulte la <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> para agregar nuevas oraciones a la base de datos, y Mozilla <pontoonLink>Pontoon</pontoonLink> para traducir el sitio web en sí mismo. Se agregan nuevos idiomas a Common Voice para la contribución de voz cuando se han recopilado 5000 oraciones aprobadas.
+faq-why-mission-q = ¿Por qué Common Voice es parte de la misión de Mozilla?
+faq-why-mission-a = Mozilla se dedica a mantener la web abierta y accesible para todos. Para hacer eso, necesitamos empoderar a los creadores web a través de proyectos como Common Voice. A medida que las tecnologías de voz proliferan más allá de las aplicaciones de nicho, creemos que deben servir a todos los usuarios por igual. Eso significa invertir en más idiomas y adaptarse a diversos acentos y datos demográficos al crear y probar tecnologías de voz. Common Voice es un recurso público disponible para todos y los equipos y desarrolladores de Mozilla de todo el mundo ya lo están utilizando en nuestros propios proyectos.
+faq-what-cv-and-deepspeech-q = ¿Cuál es la diferencia entre Common Voice y Deep Speech?
+faq-what-cv-and-deepspeech-a = La base de datos de Common Voice complementa el motor de reconocimiento de voz de código abierto de Mozilla Deep Speech. La primera versión de Deep Speech se lanzó en noviembre de 2017 y ha seguido evolucionando desde entonces. Junto con la base de datos de Common Voice, creemos que esta tecnología de reconocimiento de voz de código abierto debería estar disponible para todos. Esperamos que estas tecnologías permitan a los desarrolladores crear una ola de productos y servicios innovadores.
+faq-is-goal-assistant-q = ¿Es el objetivo de Common Voice construir una asistente de voz?
+faq-is-goal-assistant-a = El objetivo de la base de datos de Common Voice es permitir que cualquier persona en el mundo pueda construir reconocimiento de voz, reconocimiento de hablantes o cualquier otro tipo de aplicación que requiera datos de voz. Un asistente de voz es solo uno de los muchos tipos de aplicaciones que podría construir usando la base de datos.
+faq-do-want-native-q = Soy un hablante no nativo y hablo con acento, ¿todavía quieres mi voz?
+faq-do-want-native-a = ¡Sí, especialmente queremos tu voz! Parte del objetivo de Common Voice es reunir tantos acentos diferentes como sea posible para que los servicios de reconocimiento de voz funcionen igual de bien para todos. Esto significa que las donaciones de hablantes no nativos son particularmente importantes.
+faq-why-different-speakers-q = ¿Por qué necesita tantos hablantes diferentes por idioma?
+faq-why-different-speakers-a =
+    La mayoría de las bases de datos de voz están entrenadas con una sobrerrepresentación de ciertos datos demográficos, lo que da como resultado un sesgo hacia <articleLink>hombres de clase media</articleLink>. Los acentos y dialectos que tienden a estar subrepresentados en las bases de datos de capacitación generalmente se asocian con grupos de personas que ya están marginadas. Muchas máquinas también tienen dificultades para comprender las voces femeninas.
+    ¡Es por eso que en nuestra base de datos de voz queremos variedad!
 
 ## ABOUT US
 
