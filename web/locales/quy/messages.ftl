@@ -271,9 +271,14 @@ improve-audio = La información del perfil mejora los datos de audio utilizados 
 keep-track = Realice un seguimiento de su progreso y métricas en varios idiomas.
 compare-progress = Compara tu progreso con el de otros colaboradores de todo el mundo.
 view-goals = Qaway ñawpaqman purisqaykita metas personales y proyectos nisqawan tupachispa.
+join-newsletter = Únase opcionalmente a nuestra lista de correo electrónico para recibir actualizaciones y nueva información sobre el proyecto.
 
 ## What's public
 
+whats-public = ¿Qué es público?
+email-not-public = No haremos público su correo electrónico.
+recordings-and-locale-public = La cantidad de grabaciones y los idiomas en los que contribuyes serán públicos.
+username-optin-public = Puede elegir que su nombre de usuario sea público o anónimo.
 demographic-deidentified-clarity-2 = Los datos demográficos enviados opcionalmente (por ejemplo, edad, sexo, idioma y acento) nunca se harán públicos en su perfil y no se vincularán a su cuenta en el conjunto de datos. Los clips de audio individuales se asociarán con datos demográficos con el fin de realizar un análisis más preciso; por ejemplo, es posible que un investigador desee orientar un modelo de capacitación a un segmento demográfico específico.
 username-email-not-demographic = Ruwaq sutiyki chaymanta correo electrónico mana t'inkisqachu kanqa chaymanta lluqsisqa willaykunawan.
 
@@ -315,9 +320,31 @@ request-language-button = Solicitar un idioma
 
 status-title = Tukuy proyectopa kaynin: ¡qhaway maykama chayasqayku!
 status-contribute = Contribuye con tu voz
+status-hours =
+    { $hours ->
+        [one] ¡una hora validada hasta ahora!
+       *[other] ¡{ $hours } horas validadas hasta ahora!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Próximos objetivos: { $goal }
+english = Ingles Simi
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Nombre de usuario
+profile-form-native-language =
+    .label = Lengua materna
+profile-form-additional-language =
+    .label = Idioma adicional
+profile-form-language =
+    .label = Idioma
+profile-form-variant =
+    .label = ¿Qué variante de { $language } hablas?
+profile-form-variant-default-value = Ninguna variante seleccionada
+profile-form-accent =
+    .label = Acento
 profile-form-custom-accent-help-text =
     .label = ¿Imaynatan willawaq acento nisqaykimanta?
 profile-form-custom-accent-placeholder-2 = Acentoykimanta willanaykipaq qillqayta qallariy
@@ -325,8 +352,29 @@ profile-form-age =
     .label = Hayka wata
 profile-form-gender-2 =
     .label = Ima kay
+leaderboard-visibility =
+    .label = Visibilidad de la tabla de posiciones
+hidden = Oculto
+visible = Visible
+native-language =
+    .label = Lengua materna
+profile-form-add-accent = Agregue un nuevo acento personalizado "{ $inputValue }"
+profile-form-submit-save = Guardar
+profile-form-submit-saved = Guardado
 male = Qari
 female = Warmi
+# Gender
+other = Otro
+why-profile-title = ¿Por qué un perfil?
+why-profile-text = Al proporcionar cierta información sobre usted, los datos de audio que envíe a Common Voice serán más útiles para los motores de reconocimiento de voz que utilizan estos datos para mejorar su precisión.
+dashboard = Panel
+build-profile = Crear perfil
+avatar = Avatar
+goals = Objetivos
+settings = Ajustes
+edit-profile = Editar Perfil
+profile-create-success = ¡Éxito, perfil creado!
+profile-close = Cerrar
 
 ## Profile - Email
 
