@@ -151,6 +151,7 @@ male = ܕܟ݂ܪܐ
 female = ܢܩܒ݂ܐ
 # Gender
 other = ܐܚܪܢܐ
+goals = ܢܝ̈ܫܐ
 profile-close = ܕܥܘܪ
 
 ## Profile - Email
