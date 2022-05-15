@@ -457,6 +457,15 @@ data-other-goto = Ir a { $name }
 data-other-download = Descargar información
 data-bundle-button = Descargar paquete de información
 data-bundle-description = Datos de Common Voice más toda demás información de voz anteriores.
+release-version = Version
+dataset-date = Fecha
+license = Licencia: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mezclado
+data-download-singleword-title = Descargue el segmento objetivo de una sola palabra
+data-download-singleword-callout-v2 = Este es un segmento basado en casos de uso que contiene datos para potenciar el reconocimiento de dígitos hablados y la detección de sí/no.
+review-terms = Al usar Common Voice, acepta nuestros <termsLink>Términos</termsLink> y <privacyLink>Aviso de privacidad</privacyLink>
+terms-agree = Estoy de acuerdo
+terms-disagree = No estoy de acuerdo
 review-submit-msg = ¡Gracias por grabar!<lineBreak></lineBreak>Ahora revise y envíe sus clips a continuación.
 review-recording = Revisar
 
