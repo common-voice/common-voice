@@ -388,9 +388,18 @@ email-subscriptions = Subscripcion de correo electronico
 download-profile = Descargar Mis Datos
 contribution-experience = Experiencia de contribución
 skip-submission-feedback = Omitir comentarios de envío
+skip-submission-description = Durante el envío de contribuciones, los comentarios se omitirán después de hacer clic en 'Enviar'. La contribución continuará directamente con el próximo conjunto de 5 registros o validaciones.
+skip-submission-note = Nota: aún deberá seleccionar entre Hablar o Escuchar para cambiar el tipo de contribución.
+off = Apagado
+on = Encender
+help-accent = ¿Necesitas ayuda con el acento?
+help-accent-explanation = Tu acento es la forma en que pronuncias las palabras. Puede ser determinado por el lugar donde has vivido, qué otros idiomas hablas y muchos otros factores. Puede compartir cualquier información que consideres relevante aquí.
+help-variants = ¿Necesitas ayuda con las variantes?
+help-variants-explanation = Las variantes son una forma específica de un idioma, por ejemplo, compartida por aquellos que viven en una geografía o comunidad. A veces estos se llaman dialectos.
 
 ## Profile - Email
 
+browse-file-title = Subir un archivo de imagen
 
 ## Profile - Email
 
