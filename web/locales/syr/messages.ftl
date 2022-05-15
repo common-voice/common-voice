@@ -111,6 +111,7 @@ shortcut-vote-no = ܠ
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = ܡ
+shortcut-record-toggle-label = ܡܟܬܒ/ܟܠܝ
 shortcut-rerecord-toggle = [1-5]
 shortcut-submit = ܕܥܪ
 
