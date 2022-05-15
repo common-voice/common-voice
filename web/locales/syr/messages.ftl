@@ -54,36 +54,37 @@ home-cta = ܡܠܠ ܒܩܠܐ، ܫܘܬܦ ܠܐܟܐ!
 show-wall-of-text = ܩܪܝ ܝܬܝܪ
 vote-yes = ܗܐ
 vote-no = ܠܐ
-speak-subtitle = ܗܲܒ݇ܠ ܩܠܘܟܘܢ
+speak-subtitle = ܫܟܢ ܩܠܘܟܘܢ
 all-locales = ܟܠ
 today = ܝܘܡܢܐ
 x-weeks-short =
     { $count ->
-        [zero] ܫܒܬܐ
-        [one] ܫܒܬܐ
-        [two] ܫܒ̈ܬܐ
-        [few] ܫܒ̈ܬܐ
-        [many] ܫܒ̈ܬܐ
-       *[other] ܫܒ̈ܬܐ
+        [zero] ܫܒ݂̈ܘܥܐ
+        [one] ܫܒܼܘܥܐ
+        [two] ܫܒ݂̈ܘܥܐ
+        [few] ܫܒ݂̈ܘܥܐ
+        [many] ܫܒ݂̈ܘܥܐ
+       *[other] ܫܒ݂̈ܘܥܐ
     }
 x-months-short =
     { $count ->
-        [zero] ܝܪܚ̈ܐ
+        [zero] ܝܪ̈ܚܐ
         [one] ܝܪܚ
-        [two] ܝܪܚ̈ܐ
-        [few] ܝܪܚ̈ܐ
-        [many] ܝܪܚ̈ܐ
-       *[other] ܝܪܚ̈ܐ
+        [two] ܝܪ̈ܚܐ
+        [few] ܝܪ̈ܚܐ
+        [many] ܝܪ̈ܚܐ
+       *[other] ܝܪ̈ܚܐ
     }
 x-years-short =
     { $count ->
         [zero] ܫ̈ܢܐ
-        [one] ܫܢܬ
+        [one] ܫܢ̄ܬܐ
         [two] ܫ̈ܢܐ
         [few] ܫ̈ܢܐ
         [many] ܫ̈ܢܐ
        *[other] ܫ̈ܢܐ
     }
+sign-up-account = ܡܟܬܒ ܚܘܫܒܢܐ
 
 ## Account Benefits
 
