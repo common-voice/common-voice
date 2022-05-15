@@ -85,7 +85,7 @@ x-years-short =
        *[other] ܫ̈ܢܐ
     }
 sign-up-account = ܡܟܬܒ ܚܘܫܒܢܐ
-email-subscription-title = ܡܟܬܒ ܕܩܒܠܬܐ ܚܕܬ ܒܐܝܡܝܠ
+email-subscription-title = ܡܟܬܒ ܠܩܒܠܬܐ ܚܕܬ ܒܐܝܡܝܠ
 
 ## Account Benefits
 
