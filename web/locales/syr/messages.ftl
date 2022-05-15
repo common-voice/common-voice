@@ -108,6 +108,9 @@ shortcut-vote-no = ܠ
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ܡ
 shortcut-rerecord-toggle = [1-5]
 shortcut-submit = ܕܥܪ
 
