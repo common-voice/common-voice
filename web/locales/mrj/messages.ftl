@@ -534,6 +534,8 @@ review-delete-recordings = Мӹньӹн сирӹмӹм карангдаш
 
 datasets-heading = Датасетвлӓ
 language = Йӹлмӹ
+# File size in gigabytes
+size = Кужыц-кӹжгӹц
 validated-hr-total = Цилӓ тергӹмӹ цӓш
 overall-hr-total = Цилӓ цымыр цӓш
 cv-license = Лицензи
@@ -865,6 +867,7 @@ sc-header-profile = Профиль
 sc-footer-discourse = Кӓнгӓшӹмӓш
 sc-footer-report-bugs = Самынь гишӓн шижтӓрӓш
 sc-footer-translate = Ти страницӹм сӓрӓш
+sc-footer-privacy = Конфиденциальность
 sc-footer-terms = Условивлӓ
 sc-footer-cookies = Куки
 sc-login-signup-button = Системӹш пыры / Регистрацим эртӹ
@@ -963,6 +966,8 @@ sc-login-err-try-again = Пожалсты, угӹц цацен анжы.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Профиль: { $username }
+sc-personal-err-lang-not-found = Йӹлмӹм карангден кердӓш ӹш ли: йӹлмӹм моаш ӹш ли
+sc-personal-err-remove = Йӹлмӹм карангден кердӓш ӹш ли
 sc-personal-your-languages = Йӹлмӹвлӓэт:
 sc-personal-remove-button = карангдаш
 sc-personal-not-added = Тӹнь эче нимахань йӹлмӹм уштарыделат.
