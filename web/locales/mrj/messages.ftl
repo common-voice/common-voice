@@ -931,6 +931,7 @@ sc-submit-button =
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Йӹлмӹм уштараш ӹш ли
+sc-add-lang-sec-label = Йӹлмӹм, кыдын виӓнгдӹмӓшкӹ ӹшке вкладетӹм пыртынет, уштары
 sc-add-lang-sec-button = Йӹлмӹм уштараш
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
@@ -944,6 +945,8 @@ sc-add-err-submission = Колтымаш самынь
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Предложенивлӓм колтымы агыл, тӹнь лачок кенет?
 sc-confirm-sentences-title = У предложенивлӓм лачокеш лыкташ
 sc-confirm-button-text = Лачокеш лыкташ
 
@@ -953,6 +956,7 @@ sc-lang-info-title-total = Цилä
 
 ## LOGIN
 
+sc-login-err-try-again = Пожалсты, угӹц цацен анжы.
 
 ## PROFILE
 
