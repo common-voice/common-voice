@@ -818,10 +818,14 @@ demo-account = Аккаунт
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = Регистрацим эртӓш ссылкым колташ манын, электрон почта адресетӹм пырты
+demo-account-sign-up = Регистрацим эртӓш ссылкым колташ
 
 ## Demo Contribute
 
 demo-contribute-card-header = Ӹшке юкетӹм уштараш ӓли колышташ йӓмдӹ ылат?
+demo-listen-subtitle = Вкладетӹм пырташ йӓмдӹ ылат?
 
 ## Demo Dashboard
 
@@ -833,6 +837,16 @@ contribution-criteria-link = Вклад критерим ынгылаш
 contribution-criteria-page-title = Вклад критери
 contribution-for-example = примереш
 contribution-misreadings-title = Самынь лыдмашвлӓ
+contribution-misreadings-description-extended-list-5 = Шамакым лыдаш икманяр цацымаш.
+contribution-misreadings-example-1-title = Триас жеп годшы пиш кого динозаврвлӓ.
+contribution-misreadings-example-2-title = Триас жеп годшы пиш кого динозавр.
+contribution-misreadings-example-3-title = Триас жеп годшы пиш кого динозаврвлӓ.
+contribution-misreadings-example-4-title = Триас жеп годшы пиш кого динозаврвлӓ. Ане.
+contribution-misreadings-example-5-title = Мӓ кофем йӱӓш кенӓ.
+contribution-misreadings-example-6-title = Мӓ кофем йӱӓш лӓктӹнӓ.
+contribution-misreadings-example-7-title = Мӓ кофем йӱӓш йӓмдӹлӓлтӹнӓ.
+contribution-varying-pronunciations-title = Шукы йишӹн попымаш
+contribution-varying-pronunciations-example-2-title = Тӹдӹн кидшӹ лӱктӓлмӹ ыльы.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -844,8 +858,13 @@ contribution-misreadings-title = Самынь лыдмашвлӓ
 sc-header-how-to = Кыце ӹштӓш
 sc-header-add = Уштараш
 sc-header-review = Анжен лӓктӓш
+sc-header-rejected = Карангдымы предложенивлӓ
+sc-header-my = Предложенивлӓэм
 sc-header-statistics = Статистика
 sc-header-profile = Профиль
+sc-footer-discourse = Кӓнгӓшӹмӓш
+sc-footer-report-bugs = Самынь гишӓн шижтӓрӓш
+sc-footer-translate = Ти страницӹм сӓрӓш
 sc-footer-terms = Условивлӓ
 sc-footer-cookies = Куки
 sc-login-signup-button = Системӹш пыры / Регистрацим эртӹ
@@ -853,6 +872,8 @@ sc-logout-button = Лӓктӓш
 
 ## HOME
 
+sc-home-title = Common Voice Предложеним погышыш уло кымыл доно ӱжӹнӓ
+sc-home-collect-title = Преложенивлӓм погаш
 sc-home-review-title = Предложенивлӓм анжен лӓк
 
 ## GENERAL
@@ -865,6 +886,7 @@ sc-howto-addlang-title = Пӓшӓлӓн йӹлмӹвлӓм уштарымаш
 sc-howto-addsen-title = У предложенивлӓм уштары
 sc-howto-cite-title = Кыце цитируяш
 sc-howto-review-title = Предложенивлӓм анжен лӓк
+sc-howto-review-criteria-1 = Предложени тӧр сирӹмӹ лишӓшлык.
 
 ## MY SENTENCES
 
