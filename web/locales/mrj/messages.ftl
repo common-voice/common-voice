@@ -605,6 +605,9 @@ request-language-google-recaptcha-required = Пакыла ӹштӹнет гӹн�
 request-language-google-recaptcha-error = reCAPTCHA доно тама самынь лин колтыш. Пожалсты, угӹц ӹштен анжы.
 # Success page
 request-language-success-heading = Тӹлӓт таум ӹштем! Тӹнь у йӹлмӹ ядмашым колтенӓт
+request-language-success-list-1 =
+    Тӹнь кӹтӹк ынгылдарымашан электрон сирмӓшӹм нӓлшӓшлык ылат 
+    тӹньӹн йӹлметӹм Common Voice-ышкы уштараш манын ашкылвлӓ
 
 ## Languages Overview
 
@@ -614,7 +617,10 @@ languages-show-more = Шукырак пӓлӓш
 languages-show-less = Чӹдӹрäк анжы
 language-meter-in-progress = Анзыкы кемӓш
 language-total-progress = Цилä
+language-search-input =
+    .placeholder = Кычалаш
 language-speakers = Попышывлä
+localized = Сӓрӹмӹ
 sentences = Предложенивлӓ
 total-hours = Тергӹмӹ цӓш
 
@@ -644,10 +650,12 @@ record-error-too-long = Сирӹмӹ утла кужы ыльы.
 record-error-too-quiet = Сирӹмӹ утла шӹп ыльы.
 record-cancel = Угӹцӹн сирӹмӹм цӓрӓш
 record-three-more-instruction = Кымыт кодын!
+record-last-instruction = <recordIcon></recordIcon>Пӹтӓртӹш!
 review-tooltip = Кынам кеет, тиштӹ клипвлӓм анжен лӓк дӓ угӹцӹн сирӹ
 share-clip = Ӹшке клип донет пайылалт
 share-common-voice = Common Voice доно пайылалташ
 review-instruction = Келеш гӹнь, клипвлӓм анжен лӓк дӓ угӹцӹн сирӹ
+record-submit-tooltip = { $actionType } йӓмдӹ гӹнь, колташ
 clips-uploaded = Вӓрӓнгдӹмӹ клипвлӓ
 record-abort-title = Анзыц сирӹмӹм кашарташ?
 record-abort-text = Тӹнь кӹзӹт кеет гӹнь, цилӓ анзык кеметӹм ямдет
