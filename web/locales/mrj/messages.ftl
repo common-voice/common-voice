@@ -791,18 +791,29 @@ download-request-button = Качаен нӓлӓш
 download-request-title = { $created }
 download-request-archive-single = Ик ZIP-файл, кышкы пырат:
 download-request-archive-multiple = { $archiveCount } ZIP-файлым шеледӓш, кышкы пырат:
+download-request-assembling-description = Тӹньӹн файлвлӓэт погалтыт. Пожалсты, варарак терген анжы.
+download-request-refresh-button = Уэмдӓш
+download-request-modal-title = Качаен нӓлӓшлӓн ссылкывлӓ
+download-request-modal-description = ZIP-файлвлӓм качаен нӓлӓш манын, теве ссылкывлӓ.
 download-request-link-text = Zip #{ $offset } / { $total }
+download-request-metadata-link = Предложенин текстшӹ
 
 ## Landing
 
+read-more-about = «Мӓ гишӓннӓ» страницӹштӹ шукырак лыд
 
 ## DemoLayout
 
+demo-get-started = Ӓлдӓ тӹнгӓлӹна
+demo-welcome = Common Voice-ыш улы кымыл доно вӓшлинӓ
 
 ## Demo Datasets
 
+card-button-next = Весӹ
 card-button-back = Шайык
+demo-language-select-label = Йӹлмӹвлӓм анжымаш
 demo-eofy-header = 2019 и мычашты релиз
+demo-eofy-sub_header = Качаен нӓлӓшлӓн йӓмдӹ юк датасет
 demo-account = Аккаунт
 
 ## Demo Account
@@ -817,6 +828,11 @@ demo-contribute-card-header = Ӹшке юкетӹм уштараш ӓли кол
 
 ## Validation criteria
 
+contribution-criteria-nav = Критери
+contribution-criteria-link = Вклад критерим ынгылаш
+contribution-criteria-page-title = Вклад критери
+contribution-for-example = примереш
+contribution-misreadings-title = Самынь лыдмашвлӓ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -828,9 +844,12 @@ demo-contribute-card-header = Ӹшке юкетӹм уштараш ӓли кол
 sc-header-how-to = Кыце ӹштӓш
 sc-header-add = Уштараш
 sc-header-review = Анжен лӓктӓш
+sc-header-statistics = Статистика
 sc-header-profile = Профиль
 sc-footer-terms = Условивлӓ
 sc-footer-cookies = Куки
+sc-login-signup-button = Системӹш пыры / Регистрацим эртӹ
+sc-logout-button = Лӓктӓш
 
 ## HOME
 
@@ -900,6 +919,8 @@ sc-lang-info-title-total = Цилä
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Профиль: { $username }
+sc-personal-your-languages = Йӹлмӹвлӓэт:
+sc-personal-remove-button = карангдаш
 
 ## REVIEW CRITERIA
 
@@ -925,6 +946,7 @@ sc-review-link = Анжен лӓктӓш
 ## SETTINGS
 
 sc-settings-title = Сарастарымаш
+sc-settings-ui-language = Интерфейс йӹлмӹ
 
 # [/SentenceCollector]
 
