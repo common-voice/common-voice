@@ -965,15 +965,21 @@ sc-login-err-try-again = Пожалсты, угӹц цацен анжы.
 sc-profile-title = Профиль: { $username }
 sc-personal-your-languages = Йӹлмӹвлӓэт:
 sc-personal-remove-button = карангдаш
+sc-personal-not-added = Тӹнь эче нимахань йӹлмӹм уштарыделат.
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ Анжымын критеривлӓ
 sc-criteria-title = Анжымын критеривлӓ
+sc-criteria-item-1 = Предложени тӧр сирӹмӹ лишӓшлык.
+sc-criteria-item-2 = Предложени грамматика шотышты тӧр лишӓшлык.
+sc-criteria-item-3 = Предложени юкын лыдаш кердмӹ лишӓшлык.
 
 ## REVIEW
 
 sc-review-title = Предложенивлӓм анжен лӓк
+sc-review-form-prompt =
+    .message = Анжен лӓкмӹ предложенивлӓ колтымы агылеп манын, тӹнь ӹнянет?
 sc-review-form-button-reject = Карангдаш
 sc-review-form-button-skip = Коден кеӓш
 sc-review-form-button-approve = Пингӹдемдӓш
