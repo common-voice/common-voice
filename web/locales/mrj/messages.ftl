@@ -738,6 +738,7 @@ show-ranking = Мӹньӹн рейтингӹм анжыкташ
 ## Custom Goals
 
 get-started-goals = Цельвлӓ гӹц тӹнгӓл
+create-custom-goal = Ӹшке цельӹм ӹштӓш
 goal-type = Махань цельӹм тӹнь шӹндӹнет?
 both-speak-and-listen = Когынек
 both-speak-and-listen-long = Когынек (попаш дӓ колышташ)
@@ -746,21 +747,32 @@ weekly-goal = Ик ӓрняш цель
 easy-difficulty = Куштылгы
 difficult-difficulty = Нелӹ
 pro-difficulty = Про
+want-to-continue = Тӹнь пакыла ӹштӹнет ма?
 finish-editing = Пӹтӓри редактированим кашарташ?
 lose-changes-warning = Тӹнь кӹзӹт кеет гӹнь, цилӓ вашталтымашетӹм ямдет
+build-custom-goal = Ӹшке целетӹм ӹштӹ
 set-a-goal = Цельӹм шӹндӓш
+cant-decide = Ӹштен ат керд?
+how-many-per-day = Пиш яжо! Кечӹштӹ маняр клип?
+how-many-a-week = Пиш яжо! Ӓрняштӹ маняр клип?
+which-goal-type = Тӹнь попынет, колыштнет ӓли когынек ӹштӹнет?
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] клип
        *[other] клип
     }
 confirm-goal = Цельӹм лачокеш лыкташ
+goal-interval-weekly = Ӓрня вуй гӹц
 share-goal-type-speak = Попышы
 share-goal-type-listen = Колыштмаш
 share-goal-type-both = Попаш дӓ колышташ
+share-goal = Мӹньӹн цель доно пайылалт
 
 ## Profile Delete
 
+keep = Кычаш
+remove = Карангдаш
+profile-form-delete = Профильӹм карангдаш
 
 ## Profile Download
 
