@@ -573,6 +573,7 @@ download-no = Тау, ак кел
 
 ## Contact Modal
 
+contact-title = Вӓшлӓ кӹл форма
 contact-form-name =
     .label = Лӹм
 contact-form-message =
@@ -598,7 +599,10 @@ request-language-form-info-explanation =
     Йӹлмӹ гишӓн кердмӹ семӹнь шукырак информацим пырты. Тишкӹ
     теве ма пырен кердеш:
 request-language-form-info-explanation-list-1 = Тӹньӹн йӹлметӹн вуйшамаквлӓ
+request-language-form-info-explanation-list-2 = Пӓлӹмӹ ылыт гӹнь, <isoCodeLink>ISO кодвлӓ</isoCodeLink>
 request-language-form-info-explanation-list-3 = Мӓлӓннӓ йӹлмӹм ынгылаш палшышы веб-сайтвлашкӹ ссылкывлӓ
+request-language-google-recaptcha-required = Пакыла ӹштӹнет гӹнь, reCAPTCHA келеш
+request-language-google-recaptcha-error = reCAPTCHA доно тама самынь лин колтыш. Пожалсты, угӹц ӹштен анжы.
 # Success page
 request-language-success-heading = Тӹлӓт таум ӹштем! Тӹнь у йӹлмӹ ядмашым колтенӓт
 
