@@ -776,9 +776,21 @@ profile-form-delete = Профильӹм карангдаш
 
 ## Profile Download
 
+download-q = Тӹньӹн данныйым качаен нӓлӓш келеш?
+download-info = Мам тӹнь качаен нӓлнет, мӓлӓнна келесӹ:
 download-profile-title = Профиль
+download-profile-size = Икманяр байт
+download-recordings-title = Сирӹмӓшвлӓ
+download-recordings-size = Шукыжы годым мегабайтвлӓ
+download-size = Кужыц-кӹжгӹц
+download-selected = Айырымы
+download-start = Профильӹн данныйым качаен нӓлӓш
+download-request = Сирӹмӓшвлӓм ядаш
+download-requests = Эртӹшӹ сирӹмӓшвлӓм качаен нӓлӓш ядмаш
 download-request-button = Качаен нӓлӓш
 download-request-title = { $created }
+download-request-archive-single = Ик ZIP-файл, кышкы пырат:
+download-request-archive-multiple = { $archiveCount } ZIP-файлым шеледӓш, кышкы пырат:
 download-request-link-text = Zip #{ $offset } / { $total }
 
 ## Landing
