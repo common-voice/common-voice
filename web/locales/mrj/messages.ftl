@@ -663,6 +663,7 @@ record-abort-submit = Клипвлӓм колташ
 record-abort-continue = Сирӹмӹм кашарташ
 record-abort-delete = Лӓктӓш дӓ клипвлӓм карангдаш
 listen-3rd-time-instruction = 2 ӱлӹк, тенгеок кеӓш!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Пӹтӓртӹш!
 listen-empty-state = Мӓмнӓн тидӹ йӹлмӹ доно тергӓшлӓн клип пӹтен...
 listen-loading-error =
     Мӓ аудиоклипвлӓм колышташлан нӓлӹн кердделна.
@@ -673,6 +674,7 @@ speak-loading-error =
     Мӓ тылӓт предложенивлӓм айырен нӓлӹн кердделна.
     Пожалсты, варарак угӹц цацен анжы.
 record-button-label = Ӹшке юкетӹм сирӹ
+share-title-new = Шукырак юкым <bold>мӓлӓннӓ моаш палшы</bold>
 keep-track-profile = Профильыштӹ ӹшкӹметӹн анзыкы кеметӹм тӹшлӹ
 login-to-get-started = Тӹнгӓлӓш манын, пыры ӓли регистрацим эртӹ
 target-segment-add-voice = Ӹшке юкетӹм уштары
@@ -682,13 +684,17 @@ target-segment-learn-more = Шукырак тыменяш
 
 report = Отчёт
 report-title = Отчётым колташ
+report-offensive-language = Мыскылымаш
 report-grammar-or-spelling = Грамматика / орфографи шотышты самынь
 report-grammar-or-spelling-detail = Предложеништӹ грамматика ӓли орфографи шотышты самынь улы.
 report-different-language = Вес йӹлмӹ
 report-difficult-pronounce = Пелештен кердӓш нелӹ
+report-offensive-speech = Мыскылымы шая
+report-offensive-speech-detail = Клипӹштӹ шотеш пиштӹдӹмӹ ӓли мыскылымы шая улы.
 report-other-comment =
     .placeholder = Комментари
 success = Аш
+continue = Пакыла ӹштӓш
 
 ## Goals
 
@@ -718,8 +724,11 @@ clips-you-recorded = Тӹньӹн сирӹмӹ клипвлӓ
 clips-you-validated = Тӹньӹн тергӹмӹ клипвлӓ
 todays-recorded-progress = Тагачшы сирӹмӹ клипвлӓм юкангдымашты анзыкы кемӓш
 todays-validated-progress = Тагачшы клипвлӓм юкангдымашым лачокеш лыкмашты анзыкы кемӓш
+stats = Статистика
 you = Тӹнь
+everyone = Кажны
 contribution-activity = Пыртымы вклад
+top-contributors = Сек яжо ушнышывлӓ
 recorded-clips = Сирӹмӹ клипвлӓ
 validated-clips = Тергӹмӹ клипвлӓ
 total-approved = Цилӓжӹ лачокеш лыкмы
