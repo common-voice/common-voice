@@ -906,6 +906,7 @@ download-recordings-title = Innspelingar
 download-recordings-info = Inkluderer mp3-ar og tilhøyrande setningar, kan ta litt tid å gjere klart
 download-recordings-size = Vanlegvis nokre megabyte
 download-recordings-unavailable = Du kan ikkje be om innspelingane dine samtidig som ein annan førespurnad er i gang
+download-recently-requested = Du kan be om ei ny nedlasting av innspelingane dine kvar { $days }. dag.
 download-size = Storleik
 download-selected = Markert
 download-start = Last ned profildata
@@ -923,6 +924,7 @@ download-request-modal-title = Nedlastingslenker
 download-request-modal-description = Her er lenkjene du kan bruke til å laste ned zip-filene dine.
 download-request-link-text = Zip #{ $offset } av { $total }
 download-request-metadata-link = Setningstekst
+download-request-link-single = Du kan òg kopiere og lime inn URL-ane direkte i eit nedlastingsprogram. Dei går ut på dato om 12 timar, men du kan kome tilbake til denne sida og lage nye når som helst.
 
 ## Landing
 
@@ -980,10 +982,19 @@ contribution-misreadings-description = Når du lyttar må du sjekke nøye etter 
 contribution-misreadings-description-extended-list-1 = Manglande <strong>«Ei(n)»</strong> eller <strong>«Den»</strong> i starten av opptaket.
 contribution-misreadings-description-extended-list-2 = Manglar ein <strong>«s»</strong> på slutten av eit ord.
 contribution-misreadings-description-extended-list-3 = Å slå saman ord utan at dei er slått saman i teksten, som å lese «harkje» i staden for «har ikkje», eller omvendt.
+contribution-misreadings-description-extended-list-4 = Manglar slutten av siste ord ved å kutte av innspelinga for tidleg.
 contribution-misreadings-description-extended-list-5 = Fleire forsøk på å lese eit ord.
+contribution-misreadings-example-1-title = Dei store dinosaurane i Trias.
+contribution-misreadings-example-2-title = Dei store dinosaura i Trias.
+contribution-misreadings-example-2-explanation = [Burde vore «dinosaurane»]
+contribution-misreadings-example-3-title = Dei store dinosaurane i Tria-.
+contribution-misreadings-example-3-explanation = [Innspelinga kutta av før slutten av siste ordet]
+contribution-misreadings-example-4-title = Dei store dinosaurane i Trias. Ja.
 contribution-misreadings-example-8-title = Humla flaug forbi.
 contribution-misreadings-example-8-explanation = [Heilt feil innhald]
+contribution-varying-pronunciations-title = Ulike uttalar
 contribution-background-noise-title = Bakgrunnsstøy
+contribution-volume-title = Lydstyrke
 see-more = <chevron></chevron>Vis meir
 see-less = <chevron></chevron>Vis mindre
 
