@@ -903,15 +903,23 @@ sc-my-err-failed-delete = Айырымы предложенивлӓм каран
 
 ## REJECTED
 
+sc-rejected-title = Карангдымы предложенивлӓ
+sc-rejected-err-fetching = Карангдымы предложенивлӓм лыкмы годым самынь лин. Пожалсты, угӹц цацен анжы.
+sc-rejected-none-found = Карангдымы предложеним момы агыл!
 
 ## STATS
 
+sc-stats-title = Статистика
+sc-stats-updating = Уэммӓш…
+sc-stats-error = Мӓ статистикӹм нӓлӹн кердделна. Пожалсты, варарак ӹштен анжы.
 
 ## ADD
 
 sc-submit-err-select-lang = Йӹлмӹм айыры.
 sc-submit-err-add-sentences = Предложенивлӓм уштары, пожалсты.
 sc-submit-err-add-source = Источниквлӓм уштары, пожалсты.
+sc-submit-prompt =
+    .message = Предложенивлӓм колтымы агыл, тӹнь лачок кенет?
 sc-submit-title = Предложенивлӓм уштараш
 sc-submit-select-language =
     .labelText = Йӹлмӹм айыраш
