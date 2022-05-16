@@ -887,9 +887,19 @@ sc-howto-addsen-title = У предложенивлӓм уштары
 sc-howto-cite-title = Кыце цитируяш
 sc-howto-review-title = Предложенивлӓм анжен лӓк
 sc-howto-review-criteria-1 = Предложени тӧр сирӹмӹ лишӓшлык.
+sc-howto-review-criteria-2 = Предложени грамматика шотышты тӧр лишӓшлык.
+sc-howto-review-criteria-3 = Предложени юкын лыдаш кердмӹ лишӓшлык.
+sc-howto-findpd-subtitle = Нӹнӹм интернетӹштӹ кӹчӓл
+sc-howto-findpd-tips = Преложеним кӹчӓлӓшлӓн теве икманяр кӓнгӓш:
 
 ## MY SENTENCES
 
+sc-my-title = Предложенивлӓэм
+sc-my-err-fetching = Предложенивлӓэтӹм лыкмы годым самынь лин. Пожалсты, угӹц цацен анжы.
+sc-my-no-sentences = Предложеним момы агыл!
+sc-my-delete = Айырымы предложенивлӓм карангдаш
+sc-my-deleting = Айырымы предложенивлӓм карангдымаш…
+sc-my-err-failed-delete = Айырымы предложенивлӓм карангден кердмӹ агыл… Пожалсты, угӹц цацен анжы!
 
 ## REJECTED
 
