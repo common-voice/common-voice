@@ -389,8 +389,10 @@ faq-title = Шӹрен пуэдӹмӹ ядмашвлӓ
 faq-what-cv-q = Ма техень Common Voice?
 faq-why-important-q = Малын тидӹ керӓл?
 faq-how-get-q = Кыце мӹнь Common Voice данныйым нӓлӹн кердӓм?
+faq-when-release2-q = Кынам тӓ Common Voice-ын у релизӹм вес йӹлмӹ доно лыктыда?
 faq-why-mission-q = Малын Common Voice Mozilla-н миссижӹн частьшы ылеш?
 faq-what-cv-and-deepspeech-q = Common Voice дӓ  Deep Speech лошты махань айыртем?
+faq-is-goal-assistant-q = Common Voice-ын цельжӹ юкан палшышым ӹштӓш ма?
 faq-why-different-speakers-q = Малын тӓлӓндӓ ик йӹлмӹ донок попышы тинӓр шукы эдем келеш?
 faq-why-my-lang-q = Малын мӹньӹн йӹлмем эче уштарымы агыл?
 faq-how-calc-hours-q = Кыце Common Voice цӓшӹм шотлен лыктеш?
@@ -469,6 +471,7 @@ about-playbook-how-add-sentences-content-3 = Википеди гӹц мытык 
 ## How to record quality
 
 about-playbook-how-record-quality = Кыце яжо юкан клипӹм сирӓш?
+about-playbook-how-record-content-2 = Фоновый шужгымаш утла шукы лишӓшлык агыл — тӹньӹн юкет яжон шактышашлык.
 
 ## How to grow language
 
@@ -546,6 +549,7 @@ audio-format = Аудиоформат
 number-of-voices = Юквлӓн шот
 splits = Шеледӹмӓш
 email-to-download = Качаен нӓлӓш манын, электрон почта адресӹм сирӹ
+confirm-size = Тӹнь <b>{ $size }</b> качаен нӓлмӹм тӹнгӓлӓш йӓмдӹ ылат
 size-gigabyte = ГБ
 size-megabyte = МБ
 download-language = { $language } йӹлмӹм качаен нӓлӓш
@@ -648,6 +652,7 @@ contribute-more =
        *[other] Эче { $count } ӹштӓш йӓмдӹ ылат?
     }
 record-cta = Сирӓш тӹнгӓлӓш
+record-platform-not-supported = Ӹшкӓлӓ, кӹзӹтшӹ жепӹн тӹньӹн платформа ак кычылталт.
 record-must-allow-microphone = Тӹнь микрофоным кычылташ лишӹм ӹштӹшӓшлык ылат.
 record-no-mic-found = Микрофоным момы агыл.
 record-error-too-short = Сирӹмӹ утла мытык ыльы.
