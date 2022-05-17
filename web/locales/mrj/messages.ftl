@@ -906,7 +906,7 @@ sc-howto-findpd-tips = Преложеним кӹчӓлӓшлӓн теве икм
 ## MY SENTENCES
 
 sc-my-title = Предложенивлӓэм
-sc-my-loading = Предложенивлӓм грузымаш…
+sc-my-loading = Предложенивлӓэтӹм грузымаш…
 sc-my-err-fetching = Предложенивлӓэтӹм лыкмы годым самынь лин. Пожалсты, угӹц цацен анжы.
 sc-my-no-sentences = Предложеним момы агыл!
 # Variables:
@@ -1000,6 +1000,16 @@ sc-lang-info-left-for-you =
         [one] Тергӓшлӓн 1 предложени кодын.
        *[other] Тергӓшлӓн { $unreviewedSentencesByYou } предложени кодын.
     }
+sc-lang-info-review-now = <reviewLink>Кӹзӹток анжен лӓк!</reviewLink>
+sc-lang-info-add-more = <addLink>Шукырак предложеним кӹзӹток уштары!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Тергӹмӹ предложени уке.
+        [one] 1 тергӹмӹ предложени.
+       *[other] { $validatedSentences } тергӹмӹ предложени.
+    }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
@@ -1011,6 +1021,7 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-failed = Авторизаци ӹш ли
 sc-login-err-try-again = Пожалсты, угӹц цацен анжы.
 
 ## PROFILE
@@ -1022,12 +1033,16 @@ sc-personal-err-lang-not-found = Йӹлмӹм карангдаш ӹш ли: йӹ
 sc-personal-err-remove = Йӹлмӹм карангдаш ӹш ли
 sc-personal-your-languages = Йӹлмӹвлӓэт:
 sc-personal-remove-button = карангдаш
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } тӹнь уштаренӓт
 sc-personal-not-added = Тӹнь эче нимахань йӹлмӹм уштарыделат.
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ Анжымын критеривлӓ
 sc-criteria-title = Анжымын критеривлӓ
+sc-criteria-make-sure = Ти критеривлӓлӓн предложенивлӓ келшӓт манын, ӹнянӹ:
 sc-criteria-item-1 = Предложени тӧр сирӹмӹ лишӓшлык.
 sc-criteria-item-2 = Предложени грамматика шотышты тӧр лишӓшлык.
 sc-criteria-item-3 = Предложени юкын лыдаш кердмӹ лишӓшлык.
@@ -1035,8 +1050,13 @@ sc-criteria-item-3 = Предложени юкын лыдаш кердмӹ ли�
 ## REVIEW
 
 sc-review-title = Предложенивлӓм анжен лӓк
+sc-review-loading = Предложенивлӓм грузымаш…
+sc-review-select-language = Пожалсты, предложенивлӓм анжаш манын, йӹлмӹм айыры.
 sc-review-form-prompt =
     .message = Анжен лӓкмӹ предложенивлӓ колтымы агылеп манын, тӹнь ӹнянет?
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Важ: { $sentenceSource }
 sc-review-form-button-reject = Ӧрдӹжтӓрӓш
 sc-review-form-button-skip = Коден кеӓш
 sc-review-form-button-approve = Пингӹдемдӓш
