@@ -616,8 +616,8 @@ request-language-success-list-1 =
 
 language-section-in-progress = Анзыкы кемӓштӹ
 language-section-launched = Колтымы
-languages-show-more = Шукырак пӓлӓш
-languages-show-less = Чӹдӹрäк анжы
+languages-show-more = Шукырак ужаш
+languages-show-less = Чӹдӹрäк ужаш
 language-meter-in-progress = Анзыкы кемӓш
 language-total-progress = Цилä
 language-search-input =
@@ -852,6 +852,9 @@ contribution-varying-pronunciations-title = Шукы йишӹн попымаш
 contribution-varying-pronunciations-example-2-title = Тӹдӹн кидшӹ лӱктӓлмӹ ыльы.
 contribution-volume-title = Шӹнгӹц
 contribution-reader-effects-title = Лыдмаш эффектвлӓ
+contribution-just-unsure-title = Лачок кок семӹнь шанет?
+see-more = <chevron></chevron>Шукырак ужаш
+see-less = <chevron></chevron>Чӹдӹрäк ужаш
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -903,8 +906,15 @@ sc-howto-findpd-tips = Преложеним кӹчӓлӓшлӓн теве икм
 ## MY SENTENCES
 
 sc-my-title = Предложенивлӓэм
+sc-my-loading = Предложенивлӓм грузымаш…
 sc-my-err-fetching = Предложенивлӓэтӹм лыкмы годым самынь лин. Пожалсты, угӹц цацен анжы.
 sc-my-no-sentences = Предложеним момы агыл!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Колтымаш: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Важ: { $source }
 sc-my-delete = Айырымы предложенивлӓм карангдаш
 sc-my-deleting = Айырымы предложенивлӓм карангдымаш…
 sc-my-err-failed-delete = Айырымы предложенивлӓм карангден кердмӹ агыл… Пожалсты, угӹц цацен анжы!
