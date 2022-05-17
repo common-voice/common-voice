@@ -458,6 +458,7 @@ about-playbook-how-add-language-content-3 = <strong>Предложенивлӓм
 ## How does localization work
 
 about-playbook-how-localize = Сайтым сӓрӹмӓш кыце пӓшӓм ӹштӓ?
+about-playbook-how-localize-content-1 = Common Voice-ын сайтшы <strong>Pontoon-ышты</strong> сӓрӓлтеш.
 about-playbook-how-localize-content-5 = Палшаш манын, мӓмнӓн ынгылдарымы видеонам анжы
 
 ## How to add sentences
@@ -489,6 +490,7 @@ about-playbook-how-project-governance = Кыце проектӹн решенив
 about-playbook-how-project-governance-content-5 = Ӓклӹмӓш дӓ шотеш пиштӹмӓш
 about-playbook-how-project-governance-content-6 = Вӓшӓ-вӓш вуйын шалгымаш.
 mycroft-title = Mycroft Ai
+mycroft-subtitle = Шанен лыкмы ыш
 
 ## Glossary
 
@@ -728,6 +730,7 @@ clips-you-validated = Тӹньӹн тергӹмӹ клипвлӓ
 todays-recorded-progress = Тагачшы сирӹмӹ клипвлӓм юкангдымашты анзыкы кемӓш
 todays-validated-progress = Тагачшы клипвлӓм юкангдымашым лачокеш лыкмашты анзыкы кемӓш
 stats = Статистика
+awards = Наградывлӓ
 you = Тӹнь
 everyone = Кажны
 contribution-activity = Пыртымы вклад
@@ -735,6 +738,7 @@ top-contributors = Сек яжо ушнышывлӓ
 recorded-clips = Сирӹмӹ клипвлӓ
 validated-clips = Тергӹмӹ клипвлӓ
 total-approved = Цилӓжӹ лачокеш лыкмы
+overall-accuracy = Цымыр тӧр
 set-visibility = Мӹньӹн каймашым шӹндӓш
 show-ranking = Мӹньӹн рейтингӹм анжыкташ
 
@@ -748,6 +752,7 @@ both-speak-and-listen-long = Когынек (попаш дӓ колышташ)
 daily-goal = Ик кечӓш цель
 weekly-goal = Ик ӓрняш цель
 easy-difficulty = Куштылгы
+average-difficulty = Нӓрӹ
 difficult-difficulty = Нелӹ
 pro-difficulty = Про
 want-to-continue = Тӹнь пакыла ӹштӹнет ма?
@@ -803,6 +808,7 @@ download-request-metadata-link = Предложенин текстшӹ
 
 ## Landing
 
+welcome-staff = { $company } эдемвлӓм улы кымыл доно ӱжӹнӓ!
 read-more-about = «Мӓ гишӓннӓ» страницӹштӹ шукырак лыд
 
 ## DemoLayout
@@ -843,13 +849,17 @@ contribution-misreadings-title = Самынь лыдмашвлӓ
 contribution-misreadings-description-extended-list-5 = Шамакым лыдаш икманяр цацымаш.
 contribution-misreadings-example-1-title = Триас жеп годшы пиш кого динозаврвлӓ.
 contribution-misreadings-example-2-title = Триас жеп годшы пиш кого динозавр.
+contribution-misreadings-example-2-explanation = [«Динозаврвлӓ» лишӓшлык ылыт]
 contribution-misreadings-example-3-title = Триас жеп годшы пиш кого динозаврвлӓ.
 contribution-misreadings-example-4-title = Триас жеп годшы пиш кого динозаврвлӓ. Ане.
 contribution-misreadings-example-5-title = Мӓ кофем йӱӓш кенӓ.
 contribution-misreadings-example-6-title = Мӓ кофем йӱӓш лӓктӹнӓ.
 contribution-misreadings-example-7-title = Мӓ кофем йӱӓш йӓмдӹлӓлтӹнӓ.
+contribution-misreadings-example-8-explanation = [Келшӹдӹмӹ контент]
 contribution-varying-pronunciations-title = Шукы йишӹн попымаш
 contribution-varying-pronunciations-example-2-title = Тӹдӹн кидшӹ лӱктӓлмӹ ыльы.
+contribution-background-noise-title = Фоновый шужгымаш
+contribution-background-voices-title = Фоновый юквлӓ
 contribution-volume-title = Шӹнгӹц
 contribution-reader-effects-title = Лыдмаш эффектвлӓ
 contribution-just-unsure-title = Лачок кок семӹнь шанет?
@@ -967,6 +977,14 @@ sc-add-err-submission = Колтымаш самынь
 sc-confirm-are-you-sure =
     .message = Предложенивлӓм колтымы агыл, тӹнь лачок кенет?
 sc-confirm-sentences-title = У предложенивлӓм лачокеш лыкташ
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Предложени уке.
+        [one] 1 предложеним момы.
+       *[other] { $countOfSentences } предложеним момы.
+    }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } тӹнь ӧрдӹжтӓренӓт
