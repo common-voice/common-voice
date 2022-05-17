@@ -1450,7 +1450,7 @@ sc-personal-your-languages = Йылме-влакет:
 sc-personal-remove-button = кораҥдаш
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
-sc-personal-added-by-you = { $sentences } тыйын ешарыме-влак
+sc-personal-added-by-you = { $sentences } тыйын ешарыме
 sc-personal-not-added = Тый эше нимогай йылмым ешарен отыл.
 
 ## REVIEW CRITERIA
