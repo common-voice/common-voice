@@ -26,7 +26,7 @@ async function getFilesInFolder(path: string): Promise<string[]> {
   });
 }
 
-const SENTENCES_PER_CHUNK = 500;
+const SENTENCES_PER_CHUNK = 200;
 
 function streamSentences(localePath: string) {
   const stream = new PassThrough({ objectMode: true });
