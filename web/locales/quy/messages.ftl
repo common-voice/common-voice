@@ -691,15 +691,28 @@ sc-footer-report-copyright = Informar problemas de derechos de autor
 sc-footer-privacy = Privacidad
 sc-footer-terms = Términos
 sc-footer-cookies = Galletas
+sc-login-signup-button = Iniciar sesión / Registrarse
+sc-logout-button = Cerrar sesión
 
 ## HOME
 
+sc-home-title = Bienvenido al Sentence Collector de Common Voice
+sc-home-intro = El Sentence Collector forma parte de <commonVoiceLink>Common Voice</commonVoiceLink>. Permite a los contribuyentes recopilar y validar oraciones creadas por la comunidad. También puede usar esta herramienta para importar y limpiar corpus de dominio público de tamaño pequeño a mediano que haya encontrado o recopilado. Todas las oraciones deben ser de dominio público. Las oraciones aprobadas se exportan cada semana al repositorio de Common Voice y se publican en el sitio web de Common Voice en cada nueva implementación.
+sc-home-collect-title = Recoger oraciones
+sc-home-collect-text = Ayúdanos escribiendo o recopilando oraciones de Dominio Público.
+sc-home-review-title = Revisar oraciones
+sc-home-review-text = Ayúdenos revisando las oraciones para ver si son correctas de acuerdo con las pautas.
 
 ## GENERAL
 
+sc-languages-fetch-error = No pudimos obtener los idiomas disponibles. Las contribuciones no son posibles actualmente. Por favor, inténtelo de nuevo más tarde
 
 ## HOW-TO
 
+sc-howto-title = Cómo
+sc-howto-addlang-title = Agregando de idiomas para trabajar
+sc-howto-addlang-text = Una vez que haya iniciado sesión, puede seleccionar sus idiomas en la sección de perfil.
+sc-howto-addsen-title = Agregar nuevas oraciones
 
 ## MY SENTENCES
 
@@ -709,12 +722,38 @@ sc-footer-cookies = Galletas
 
 ## STATS
 
+sc-stats-title = Estadísticas
+sc-stats-updating = Actualizando...
 
 ## ADD
 
+sc-submit-err-select-lang = Por favor selecciona un idioma
+sc-submit-err-add-sentences = Por favor agregar oraciones.
+sc-submit-err-add-source = Por favor agregar una fuente.
+sc-submit-err-confirm-pd = Por favor confirma que estas oraciones son de Dominio Público.
+sc-submit-prompt =
+    .message = Oraciones no enviadas, ¿Está seguro de que quiere salir?
+sc-submit-title = Agregar Oraciones
+sc-submit-select-language =
+    .labelText = Seleccionar Idioma
+sc-submit-add-sentences = Agregue oraciones de <wikipediaLink>dominio público</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Una oracion por línea
+sc-submit-from-where = ¿De dónde provienen estas oraciones de <wikipediaLink>dominio público</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Lea nuestro "Cómo hacerlo" si no está segura de cómo atribuirlo.
+sc-submit-confirm = Confirmo que estas oraciones son <wikipediaLink>dominio público</wikipediaLink> y tengo permiso para subirlas.
+sc-submit-button =
+    .submitText = Enviar
+sc-submit-filtered = Oraciones filtradas debido a que fallan los requisitos (envíe versiones corregidas como nuevas oraciones):
+sc-submit-guidelines = Consulte las <howToLink>directrices</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = No se pudo agregar el idioma
+sc-add-lang-sec-label = Añade un idioma en el que quieras contribuir
+sc-add-lang-sec-button = Agregar Idioma
+sc-add-err-unexpected = Respuesta inesperada devuelta del servidor
 
 ## ADD SENTENCES CONFIRMATION
 
