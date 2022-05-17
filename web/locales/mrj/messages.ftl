@@ -850,6 +850,8 @@ contribution-misreadings-example-6-title = Мӓ кофем йӱӓш лӓктӹн
 contribution-misreadings-example-7-title = Мӓ кофем йӱӓш йӓмдӹлӓлтӹнӓ.
 contribution-varying-pronunciations-title = Шукы йишӹн попымаш
 contribution-varying-pronunciations-example-2-title = Тӹдӹн кидшӹ лӱктӓлмӹ ыльы.
+contribution-volume-title = Шӹнгӹц
+contribution-reader-effects-title = Лыдмаш эффектвлӓ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -869,6 +871,7 @@ sc-header-profile = Профиль
 sc-footer-discourse = Кӓнгӓшӹмӓш
 sc-footer-report-bugs = Самынь гишӓн шижтӓрӓш
 sc-footer-translate = Ти страницӹм сӓрӓш
+sc-footer-report-copyright = Авторский правам пыдыртымы гишӓн келесӓш
 sc-footer-privacy = Конфиденциальность
 sc-footer-terms = Условивлӓ
 sc-footer-cookies = Куки
