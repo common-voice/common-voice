@@ -754,12 +754,30 @@ sc-add-lang-could-not-add = No se pudo agregar el idioma
 sc-add-lang-sec-label = Añade un idioma en el que quieras contribuir
 sc-add-lang-sec-button = Agregar Idioma
 sc-add-err-unexpected = Respuesta inesperada devuelta del servidor
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Oraciones enviadas. { $duplicates } oraciones fueron rechazadas como duplicadas.
+        [one] Oraciones enviadas. { $duplicates } oración fue rechazada como duplicada.
+       *[other] Oraciones enviadas. { $duplicates } oraciones fueron rechazadas como duplicadas.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] No falló ninguna oración
+        [one] 1 oración fallida
+       *[other] { $sentences } oraciones fallaron
+    }
+sc-add-err-submission = Error de envío
 
 ## ADD SENTENCES CONFIRMATION
 
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Total
 
 ## LOGIN
 
@@ -772,9 +790,35 @@ sc-add-err-unexpected = Respuesta inesperada devuelta del servidor
 
 ## REVIEW
 
+sc-review-title = Oraciones revisadas
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Fuente: { $sentenceSource }
+sc-review-form-button-reject = Rechazar
+sc-review-form-button-skip = Saltar
+sc-review-form-button-approve = Aprobar
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = S
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = K
 
 ## SETTINGS
 
+sc-settings-title = Ajustes
+sc-settings-ui-language = Idioma de interfaz
+sc-settings-reset-skipped = Restablecer oraciones omitidas
+sc-settings-skipped-decription = Anteriormente te saltaste oraciones mientras revisabas. Restablecer oraciones omitidas mostrará todas las oraciones omitidas nuevamente. Esto es independiente del idioma.
+sc-settings-show-all-button = Mostrar todas las oraciones omitidas de nuevo
+sc-settings-failed = No se pudo cambiar la configuración. Inténtalo de nuevo.
+# VALIDATION
+sc-validation-number-of-words = La oración debe contener entre 1 y 14 (inclusive) palabras
+sc-validation-no-numbers = La oración no debe contener números.
+sc-validation-no-symbols = La oración no debe contener símbolos
+sc-validation-no-abbreviations = La oración no debe contener abreviaturas
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Elegir idioma/localización
