@@ -1069,12 +1069,28 @@ sc-review-form-button-reject-shortcut = У
 sc-review-form-button-skip-shortcut = К
 sc-review-form-button-submit =
     .submitText = Анжен лӓкмӹм кашарташ
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Угӹц анжымы предложени уке.
+        [one] 1 предложеним угӹц анжымы. Тау!
+       *[other] { $sentences } предложеним угӹц анжымы. Тау!
+    }
+sc-review-form-review-failure = Анжен лӓкмӓшӹм переген кодаш ӹш ли. Пожалсты, варарак угӹц цацен анжы.
 sc-review-link = Анжен лӓктӓш
 
 ## SETTINGS
 
 sc-settings-title = Сарастарымаш
 sc-settings-ui-language = Интерфейс йӹлмӹ
+sc-settings-reset-skipped = Коден кемӹ предложенивлӓм шуаш
+sc-settings-show-all-button = Цилӓ коден кемӹ предложенивлӓм угӹц анжыкташ
+sc-settings-failed = Сарастарымашым вашталташ ӹш ли. Пожалсты, угӹц цацен анжы.
+# VALIDATION
+sc-validation-number-of-words = Предложеништӹ 1 гӹц 14 (пыртен) якте шамак лишӓшлык
+sc-validation-no-numbers = Предложеништӹ цифр лишӓшлык агыл
+sc-validation-no-symbols = Предложеништӹ символ лишӓшлык агыл
 
 # [/SentenceCollector]
 
