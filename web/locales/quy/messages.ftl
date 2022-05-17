@@ -452,12 +452,46 @@ faq-what-quality-a = Queremos que la base de datos de Common Voice refleje la ca
 faq-why-10k-hours-q = ¿Por qué 10 000 horas validadas son el objetivo por idioma para capturar audio?
 faq-why-10k-hours-a = Esta es aproximadamente la cantidad de horas requeridas para entrenar un sistema de producción de voz a texto.
 faq-how-calc-hours-q = ¿Cómo calcula Common Voice las horas?
+faq-how-calc-hours-a = Calculamos las horas estimando la duración promedio de cada grabación y luego multiplicando ese número por el número total de grabaciones en todos los idiomas.
+faq-where-src-from-2-q = ¿De dónde proviene el texto fuente?
+faq-where-src-from-2-a =
+    Nuestro texto fuente se compone de donaciones de colaboradores originales, así como de diálogos de guiones de películas de dominio público como <italic>It's a Wonderful Life</italic>.
+    
+    Puede ver nuestras oraciones fuente en esta <githubLink>carpeta de GitHub</githubLink>.
+faq-why-not-ask-read-q = ¿Por qué no pedimos a la gente que lea libros o artículos de Wikipedia en diferentes idiomas?
+faq-why-not-ask-read-a = Para que la base de datos de Common Voice sea lo más útil posible, hemos decidido permitir solo texto de origen que esté disponible bajo una licencia Creative Commons (CC0). El uso del estándar CC0 significa que es más difícil encontrar y recopilar texto de origen, pero permite que cualquier persona use los datos de voz resultantes sin restricciones de uso ni autorización de Mozilla. En última instancia, queremos que la base de datos multilingüe sea lo más útil posible para todos, incluidos investigadores, universidades, empresas emergentes, gobiernos, organizaciones con fines sociales y aficionados.
+faq-why-account-q = ¿Por qué debo registrarme para obtener una cuenta?
+faq-is-account-public-q = ¿La información de mi cuenta es pública?
+faq-how-privacy-q = ¿Cómo se asegura el anonimato y la privacidad de las personas que donaron sus voces?
+faq-how-privacy-a = Todos los clips de voz en la base de datos no incluyen la información de identificación personal. Cuando un colaborador proporciona datos demográficos a través de su perfil, esa información se desidentifica de sus clips de voz antes de agruparse para su descarga en la base de datos y nunca se hace pública en su página de perfil.
+faq-what-determine-identity-q = ¿Qué significa que no puedo "determinar la identidad" de los hablantes en la base de datos de Common Voice?
+faq-what-determine-identity-a =
+    La base de datos de Common Voice es un recurso abierto y disponible públicamente que se puede usar para entrenar una amplia variedad de aplicaciones habilitadas para el habla. Para proteger la seguridad de nuestros colaboradores, pedimos a todos los que descargan la base de datos de Common Voice que respeten la privacidad de los colaboradores.
+    
+    Todos los clips de voz en la base de datos se eliminan de la información de identificación personal. Cuando alguien descarga la base de datos, acepta no intentar determinar la identidad de ningún colaborador. Eso significa que no puede intentar vincular la información de la base de datos con la información personal de un colaborador. Sin embargo, puede usar el conjunto de datos para entrenar el reconocimiento de voz, el reconocimiento de hablantes u otras aplicaciones, por ejemplo, vinculando información en la base de datos con otra información que ya se encuentra en la base de datos.
+faq-what-is-cv = ¿Qué es Common Voice?
+faq-using-cv = Usando Common Voice
+faq-description = Common Voice es parte de la iniciativa de Mozilla para ayudar a las máquinas a enseñar a hablar a personas reales.
+faq-search-for-answers =
+    .label = Buscar respuestas
 
 ## ABOUT US
 
+about-title = ¿Por qué Common Voice?
+about-header-description-v2 =
+    <p>Common Voice es una base de datos de voz disponible públicamente, impulsado por las voces de colaboradores voluntarios de todo el mundo. Las personas que quieran crear aplicaciones de voz pueden usar la base de datos para entrenar modelos de aprendizaje automático.</p>
+    <p>Actualmente, la mayoría de las bases de datos de voz son propiedad de empresas, lo que sofoca la innovación. Los conjuntos de datos de voz también subrepresentan: personas que no hablan inglés, personas de color, personas con discapacidades, mujeres y personas LGBTQIA+. Esto significa que la tecnología habilitada por voz no funciona para muchos idiomas, y donde funciona, es posible que no funcione igual de bien para todos. Queremos cambiar eso al movilizar a las personas en todas partes para que compartan su voz.</p>
+how-does-it-work-title-v2 = ¿Cómo funciona Common Voice?
+how-does-it-work-text = Estamos colaborando con una base de datos de voces de código abierto. Done su voz, valide la precisión de las grabaciones de otras personas y mejore la base de datos para todos.
 
 ## How does it work section
 
+about-language-req-subtitle = Alguien pide que se agregue un idioma.
+about-localization-title = Localización de sitios web
+about-localization-subtitle = El texto del sitio web está traducido a ese idioma.
+about-sentence-collection-title = Sentence Collection
+about-sentence-collection-subtitle = Se recopilan oraciones para que las personas las lean en voz alta.
+about-new-lang-title = Lanzamiento de un nuevo idioma
 
 ## Community Playbook Content
 ## What is a language
@@ -513,6 +547,8 @@ terms-agree = Estoy de acuerdo
 terms-disagree = No estoy de acuerdo
 review-submit-msg = ¡Gracias por grabar!<lineBreak></lineBreak>Ahora revise y envíe sus clips a continuación.
 review-recording = Revisar
+review-rerecord = Volver a grabar
+review-cancel = Cancelar envío
 review-keep-recordings = Mantener mis grabaciones
 review-delete-recordings = Borrar mis grabaciones
 
@@ -527,6 +563,12 @@ datasets-positioning =
 language = Idioma
 # File size in gigabytes
 size = Tamaño
+size-gigabyte = GB
+size-megabyte = MB
+more = Más
+close = Cerrar
+download = Descargar
+dataset-version = Version
 
 ## Download Modal
 
