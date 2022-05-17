@@ -572,12 +572,22 @@ dataset-version = Version
 
 ## Download Modal
 
+download-no = No gracias
 
 ## Contact Modal
 
+contact-title = Formulario de contacto
+contact-form-name =
+    .label = Nombre
+contact-form-message =
+    .label = Mensaje
+contact-required = *requerido
 
 ## Request Language Modal
 
+request-language-title = Solicitud de idioma
+request-language-form-language =
+    .label = Idioma
 
 ## Request Language Pages
 
@@ -586,12 +596,31 @@ request-language-success-heading = Riqsikuyki! Musuq simi tapuyta apachirqanki
 
 ## Languages Overview
 
+language-section-launched = Lanzado
+languages-show-more = Ver más
+languages-show-less = Ver menos
+language-meter-in-progress = Progreso
+language-total-progress = Total
+language-search-input =
+    .placeholder = Buscar
+language-speakers = Altavoces
+localized = Localizado
 sentences = Rimaykuna
+total-hours = Horas Validadas
 
 ## Contribution
 
+action-click = Hacer clic
+action-tap = Tocar
+contribute = Contribuir
 listen = Uyariy
 skip = Paway
+shortcuts = Atajos
+clips-with-count-pluralized =
+    { $count ->
+        [one] clip
+       *[other] clips
+    }
 record-no-mic-found = Mana micrófono tarisqachu.
 
 ## Reporting
@@ -635,6 +664,10 @@ download-size = Tamaño
 
 ## Validation criteria
 
+contribution-varying-pronunciations-description = Tenga cuidado antes de rechazar una grabación porque el lector pronunció mal una palabra, puso el énfasis en el lugar equivocado o aparentemente ignoró un signo de interrogación. Hay una gran variedad de pronunciaciones en uso en todo el mundo, algunas de las cuales quizás no haya escuchado en su comunidad local. Proporcione un margen de apreciación para aquellos que puedan hablar de manera diferente a usted.
+contribution-varying-pronunciations-description-extended = Por otro lado, si cree que el lector probablemente nunca antes se ha topado con la palabra y simplemente está adivinando incorrectamente la pronunciación, rechace. Si no está seguro, utilice el botón Saltar.
+contribution-varying-pronunciations-example-1-title = En la cabeza llevaba una boina.
+contribution-varying-pronunciations-example-1-explanation = [‘Beret’ está bien ya sea con acento en la primera sílaba (Reino Unido) o en la segunda (EE. UU.)]
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -643,6 +676,21 @@ download-size = Tamaño
 
 ## HEADER/FOOTER
 
+sc-header-home = Casa
+sc-header-how-to = Cómo
+sc-header-add = Agregar
+sc-header-review = Revisar
+sc-header-rejected = Sentencias rechazadas
+sc-header-my = Mis sentencias
+sc-header-statistics = Estadísticas
+sc-header-profile = Perfil
+sc-footer-discourse = Discurso
+sc-footer-report-bugs = Reportar un error
+sc-footer-translate = Traducir esta página
+sc-footer-report-copyright = Informar problemas de derechos de autor
+sc-footer-privacy = Privacidad
+sc-footer-terms = Términos
+sc-footer-cookies = Galletas
 
 ## HOME
 
