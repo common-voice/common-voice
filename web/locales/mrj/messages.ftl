@@ -525,7 +525,7 @@ terms-agree = Келшем
 terms-disagree = Ам келшӹ
 review-aborted = Качаен нӓлмӓшӹм цӓрӹмӹ. Тӹнь ӹшке сирӹметӹм карангдынет?
 review-submit-title = Анжалаш дӓ колташ
-review-recording = Анжен лӓктӓш
+review-recording = Анжен лӓкмӓш
 review-rerecord = Угӹц сирӹмӓш
 review-cancel = Колтымым цӓрӓш
 review-keep-recordings = Сирӹмӹм перегӹ
@@ -866,8 +866,8 @@ see-less = <chevron></chevron>Чӹдӹрäк ужаш
 sc-header-home = Тӹнг страница
 sc-header-how-to = Кыце ӹштӓш
 sc-header-add = Уштараш
-sc-header-review = Анжен лӓктӓш
-sc-header-rejected = Карангдымы предложенивлӓ
+sc-header-review = Анжен лӓкмӓш
+sc-header-rejected = Ӧрдӹжтӓрӹмӹ предложенивлӓ
 sc-header-my = Предложенивлӓэм
 sc-header-statistics = Статистика
 sc-header-profile = Профиль
@@ -921,9 +921,10 @@ sc-my-err-failed-delete = Айырымы предложенивлӓм каран
 
 ## REJECTED
 
-sc-rejected-title = Карангдымы предложенивлӓ
-sc-rejected-err-fetching = Карангдымы предложенивлӓм лыкмы годым самынь лин. Пожалсты, угӹц цацен анжы.
-sc-rejected-none-found = Карангдымы предложеним момы агыл!
+sc-rejected-title = Ӧрдӹжтӓрӹмӹ предложенивлӓ
+sc-rejected-loading = Ӧрдӹжтӓрӹмӹ предложенивлӓм грузымаш…
+sc-rejected-err-fetching = Ӧрдӹжтӓрӹмӹ предложенивлӓм лыкмы годым самынь лин. Пожалсты, угӹц цацен анжы.
+sc-rejected-none-found = Ӧрдӹжтӓрӹмӹ предложеним момы агыл!
 
 ## STATS
 
@@ -966,11 +967,47 @@ sc-add-err-submission = Колтымаш самынь
 sc-confirm-are-you-sure =
     .message = Предложенивлӓм колтымы агыл, тӹнь лачок кенет?
 sc-confirm-sentences-title = У предложенивлӓм лачокеш лыкташ
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } тӹнь ӧрдӹжтӓренӓт
 sc-confirm-button-text = Лачокеш лыкташ
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Цилä
+sc-lang-info-title-personal = Ӹшкен
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Цымыр предложени уке.
+        [one] 1 цымыр предложени.
+       *[other] { $totalSentences } цымыр предложени.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Анжен лӓкмӓштӹ предложени уке.
+        [one] Анжен лӓкмӓштӹ 1 предложени.
+       *[other] Анжен лӓкмӓштӹ  { $totalInReview } предложени.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Тергӓшлӓн предложени уке.
+        [one] Тергӓшлӓн 1 предложени кодын.
+       *[other] Тергӓшлӓн { $unreviewedSentencesByYou } предложени кодын.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ӧрдӹжтӓрӹмӹ предложени уке.
+        [one] 1 ӧрдӹжтӓрӹмӹ предложени.
+       *[other] { $rejectedSentences } ӧрдӹжтӓрӹмӹ предложени.
+    }
 
 ## LOGIN
 
@@ -1000,7 +1037,7 @@ sc-criteria-item-3 = Предложени юкын лыдаш кердмӹ ли�
 sc-review-title = Предложенивлӓм анжен лӓк
 sc-review-form-prompt =
     .message = Анжен лӓкмӹ предложенивлӓ колтымы агылеп манын, тӹнь ӹнянет?
-sc-review-form-button-reject = Карангдаш
+sc-review-form-button-reject = Ӧрдӹжтӓрӓш
 sc-review-form-button-skip = Коден кеӓш
 sc-review-form-button-approve = Пингӹдемдӓш
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
