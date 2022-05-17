@@ -353,6 +353,7 @@ edit-profile = Профильӹм редактируяш
 profile-create-success = Сӹнгӹмӓш, профиль ӹштӓлтӹн!
 profile-close = Питӹрäш
 why-demographic = Малын тидӹ келеш?
+accept-privacy-title = Конфиденциальность политика
 login-identity = Логин
 login-signup = Системӹш пыры / Регистрацим эртӹ
 edit = Редактируяш
@@ -535,7 +536,7 @@ review-delete-recordings = Мӹньӹн сирӹмӹм карангдаш
 datasets-heading = Датасетвлӓ
 language = Йӹлмӹ
 # File size in gigabytes
-size = Кужыц-кӹжгӹц
+size = Шӹнгӹц
 validated-hr-total = Цилӓ тергӹмӹ цӓш
 overall-hr-total = Цилӓ цымыр цӓш
 cv-license = Лицензи
@@ -784,7 +785,7 @@ download-profile-title = Профиль
 download-profile-size = Икманяр байт
 download-recordings-title = Сирӹмӓшвлӓ
 download-recordings-size = Шукыжы годым мегабайтвлӓ
-download-size = Кужыц-кӹжгӹц
+download-size = Шӹнгӹц
 download-selected = Айырымы
 download-start = Профильӹн данныйым качаен нӓлӓш
 download-request = Сирӹмӓшвлӓм ядаш
@@ -857,6 +858,7 @@ contribution-varying-pronunciations-example-2-title = Тӹдӹн кидшӹ лӱ
 
 ## HEADER/FOOTER
 
+sc-header-home = Тӹнг страница
 sc-header-how-to = Кыце ӹштӓш
 sc-header-add = Уштараш
 sc-header-review = Анжен лӓктӓш
@@ -966,8 +968,8 @@ sc-login-err-try-again = Пожалсты, угӹц цацен анжы.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Профиль: { $username }
-sc-personal-err-lang-not-found = Йӹлмӹм карангден кердӓш ӹш ли: йӹлмӹм моаш ӹш ли
-sc-personal-err-remove = Йӹлмӹм карангден кердӓш ӹш ли
+sc-personal-err-lang-not-found = Йӹлмӹм карангдаш ӹш ли: йӹлмӹм моаш ӹш ли
+sc-personal-err-remove = Йӹлмӹм карангдаш ӹш ли
 sc-personal-your-languages = Йӹлмӹвлӓэт:
 sc-personal-remove-button = карангдаш
 sc-personal-not-added = Тӹнь эче нимахань йӹлмӹм уштарыделат.
