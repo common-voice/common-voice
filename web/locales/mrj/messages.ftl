@@ -1091,6 +1091,9 @@ sc-settings-failed = Сарастарымашым вашталташ ӹш ли. 
 sc-validation-number-of-words = Предложеништӹ 1 гӹц 14 (пыртен) якте шамак лишӓшлык
 sc-validation-no-numbers = Предложеништӹ цифр лишӓшлык агыл
 sc-validation-no-symbols = Предложеништӹ символ лишӓшлык агыл
+sc-validation-no-abbreviations = Предложеништӹ кӹтӹкемдӹмӓш лишӓшлык агыл
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Йӹлмӹм/сӓрӹмӓшӹм айыры
