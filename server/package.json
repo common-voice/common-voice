@@ -27,7 +27,6 @@
     "http-status-codes": "2.2.0",
     "ioredis": "4.28.5",
     "js-md5": "0.7.3",
-    "locales": "file:../locales",
     "lodash.omit": "4.5.0",
     "lodash.pick": "4.4.0",
     "mysql2": "1.7.0",

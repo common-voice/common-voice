@@ -193,27 +193,21 @@ export default class Model {
     async (): Promise<Language[]> => {
       const languages = await this.db.getLanguages();
       return languages.map(language => {
-        const isContributable =
+        const is_contributable =
           language.sentenceCount.currentCount >=
           language.sentenceCount.targetSentenceCount;
 
-        return { ...language, isContributable };
+        return { ...language, is_contributable };
       });
     },
     DAY
   );
 
   getAllLanguages = lazyCache(
-    'get-all-languages-isContributable',
+    'get-all-languages',
     async (): Promise<any[]> => {
       const languages = await this.db.getAllLanguages();
-      return languages.map(language => {
-        return {
-          id: language.id,
-          name: language.name,
-          isContributable: language.isContributable,
-        };
-      });
+      return languages;
     },
     DAY
   );
@@ -235,11 +229,11 @@ export default class Model {
       const allLanguages = await this.getLanguages();
 
       const contributableLocales = allLanguages
-        .filter(language => language.isContributable)
+        .filter(language => language.is_contributable)
         .map(language => language.name);
 
       const inProgressLocales = allLanguages
-        .filter(language => !language.isContributable)
+        .filter(language => !language.is_contributable)
         .map(language => language.name);
 
       function indexCountByLanguage(
