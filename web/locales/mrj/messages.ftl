@@ -770,6 +770,7 @@ easy-difficulty = Куштылгы
 average-difficulty = Нӓрӹ
 difficult-difficulty = Нелӹ
 pro-difficulty = Про
+lose-goal-progress-warning = Цельӹм вашталтен, тӹнь кӹзӹтшӹ анзыкы кемӓшӹм ямден кердӓт.
 want-to-continue = Тӹнь пакыла ӹштӹнет ма?
 finish-editing = Пӹтӓри редактированим кашарташ?
 lose-changes-warning = Тӹнь кӹзӹт кеет гӹнь, цилӓ вашталтымашетӹм ямдет
@@ -784,11 +785,13 @@ n-clips-pluralized =
         [one] клип
        *[other] клип
     }
+help-share-goal = Мӓлӓннӓ шукырак юкым моаш палшы, ӹшке целет доно пайылалт
 confirm-goal = Цельӹм лачокеш лыкташ
 goal-interval-weekly = Ӓрня вуй гӹц
 share-goal-type-speak = Попышы
 share-goal-type-listen = Колыштмаш
 share-goal-type-both = Попаш дӓ колышташ
+return-to-edit-goal = Хоть-махань жепӹштӹ ӹшке целетӹм редактируяш манын, тишкӹ пӧртӹл.
 share-goal = Мӹньӹн цель доно пайылалт
 
 ## Profile Delete
@@ -824,12 +827,14 @@ download-request-metadata-link = Предложенин текстшӹ
 ## Landing
 
 welcome-staff = { $company } эдемвлӓм улы кымыл доно ӱжӹнӓ!
+login-company = Пыраш / { $company } электрон почта гач регистрацим эртӓш
 read-more-about = «Мӓ гишӓннӓ» страницӹштӹ шукырак лыд
 
 ## DemoLayout
 
 demo-get-started = Ӓлдӓ тӹнгӓлӹна
 demo-welcome = Common Voice-ыш улы кымыл доно вӓшлинӓ
+demo-welcome-subheader = Шукырак пӓлен нӓлнет дӓ проектӹш ӹшке вкладетӹм пыртынет?
 
 ## Demo Datasets
 
@@ -861,20 +866,29 @@ contribution-criteria-link = Вклад критерим ынгылаш
 contribution-criteria-page-title = Вклад критери
 contribution-for-example = примереш
 contribution-misreadings-title = Самынь лыдмашвлӓ
+contribution-misreadings-description-extended-list-2 = Шамак мычашты «s» буквам кодымы.
 contribution-misreadings-description-extended-list-5 = Шамакым лыдаш икманяр цацымаш.
 contribution-misreadings-example-1-title = Триас жеп годшы пиш кого динозаврвлӓ.
 contribution-misreadings-example-2-title = Триас жеп годшы пиш кого динозавр.
 contribution-misreadings-example-2-explanation = [«Динозаврвлӓ» лишӓшлык ылыт]
 contribution-misreadings-example-3-title = Триас жеп годшы пиш кого динозаврвлӓ.
+contribution-misreadings-example-3-explanation = [Пӹтӓртӹш шамак гӹц анзыц сирӹмӓш кӹрӹлтеш]
 contribution-misreadings-example-4-title = Триас жеп годшы пиш кого динозаврвлӓ. Ане.
 contribution-misreadings-example-5-title = Мӓ кофем йӱӓш кенӓ.
 contribution-misreadings-example-6-title = Мӓ кофем йӱӓш лӓктӹнӓ.
+contribution-misreadings-example-6-explanation = [«Мӓ» лишӓшлык]
 contribution-misreadings-example-7-title = Мӓ кофем йӱӓш йӓмдӹлӓлтӹнӓ.
+contribution-misreadings-example-7-explanation = [Тӹнгӓлтӹш текстӹштӹ «а» буква уке]
+contribution-misreadings-example-8-title = Пыйылмы воктец вӹсӓлтӹ.
 contribution-misreadings-example-8-explanation = [Келшӹдӹмӹ контент]
 contribution-varying-pronunciations-title = Шукы йишӹн попымаш
+contribution-varying-pronunciations-example-1-title = Вуйыштыжы тӹдӹн берет ыльы.
 contribution-varying-pronunciations-example-2-title = Тӹдӹн кидшӹ лӱктӓлмӹ ыльы.
 contribution-background-noise-title = Фоновый шужгымаш
+contribution-background-noise-example-2-explanation = [Текст лаштыкым колаш ак ли]
 contribution-background-voices-title = Фоновый юквлӓ
+contribution-background-voices-example-1-title = Триас жеп годшы пиш кого динозаврвлӓ. <strong>[Ик юк семӹнь лыдмы]</strong>
+contribution-background-voices-example-1-explanation = Тӹнь кеет? <strong>[Весӹ ӱжеш]</strong>
 contribution-volume-title = Шӹнгӹц
 contribution-reader-effects-title = Лыдмаш эффектвлӓ
 contribution-just-unsure-title = Лачок кок семӹнь шанет?
