@@ -445,6 +445,13 @@ faq-why-different-speakers-q = ¿Por qué necesita tantos hablantes diferentes p
 faq-why-different-speakers-a =
     La mayoría de las bases de datos de voz están entrenadas con una sobrerrepresentación de ciertos datos demográficos, lo que da como resultado un sesgo hacia <articleLink>hombres de clase media</articleLink>. Los acentos y dialectos que tienden a estar subrepresentados en las bases de datos de capacitación generalmente se asocian con grupos de personas que ya están marginadas. Muchas máquinas también tienen dificultades para comprender las voces femeninas.
     ¡Es por eso que en nuestra base de datos de voz queremos variedad!
+faq-why-my-lang-q = ¿Por qué mi idioma aún no está incluido?
+faq-why-my-lang-new-a = Mozilla no elige ni favorece ningún idioma sobre otro. En cambio, Common Voice es una iniciativa puramente impulsada por la comunidad, pero se necesitan <multilangLink>varios pasos para agregar un nuevo idioma</multilink> y comenzar a recolectar donaciones de voz. Primero, el sitio web de Common Voice debe traducirse para que los miembros de la comunidad puedan acceder a la experiencia del colaborador en su propio idioma. A continuación, necesitamos una gran colección de oraciones libres de derechos de autor para que la gente las lea en voz alta. Una vez que se cumplen ambos requisitos, se "lanza" un idioma en Common Voice para que las personas comiencen a grabar su voz y validar las donaciones de otros. Si desea ayudar a lanzar un nuevo idioma, diríjase a nuestra <sentenceCollectorLink>herramienta de recopilación de oraciones</sentenceCollectorLink> para comenzar.
+faq-what-quality-q = ¿Qué nivel de calidad de audio se requiere para usar un clip de voz en la base de datos?
+faq-what-quality-a = Queremos que la base de datos de Common Voice refleje la calidad de audio que un motor de voz a texto escuchará en la naturaleza, por lo que buscamos variedad. Además de una comunidad diversa de hablantes, un conjunto de datos con calidad de audio variable le enseñará al motor de voz a texto a manejar una variedad de situaciones del mundo real, desde hablar de fondo hasta el ruido del automóvil. Siempre que su clip de voz sea inteligible, debería ser lo suficientemente bueno para la base de datos.
+faq-why-10k-hours-q = ¿Por qué 10 000 horas validadas son el objetivo por idioma para capturar audio?
+faq-why-10k-hours-a = Esta es aproximadamente la cantidad de horas requeridas para entrenar un sistema de producción de voz a texto.
+faq-how-calc-hours-q = ¿Cómo calcula Common Voice las horas?
 
 ## ABOUT US
 
