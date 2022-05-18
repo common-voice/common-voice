@@ -108,6 +108,24 @@ lv = Letties
 mai = Maithili
 mdf = Moksja
 mg = Malagasy
+mhr = Meadow Mari
+mk = Macedonies
+ml = Malayalam
+mn = Mongools
+mni = Meetei Lon
+mos = Mossi
+mr = Marathi
+mrj = Hill Mari
+ms = Maleis
+mt = Maltees
+my = Bermees
+myv = Erzya
+nan-tw = Taiwannees
+nb-NO = Noorse Bokmål
+ne-NP = Nepalees
+nia = Nias
+nl = Nederlands
+nn-NO = Noors Nynorsk
 
 # [/]
 
