@@ -102,6 +102,7 @@ kw = Kornies
 ky = Kirgisies
 lb = Luxemburgs
 lg = Luganda
+lij = Liguriaans
 
 # [/]
 
