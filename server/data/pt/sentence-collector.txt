@@ -378,6 +378,7 @@ A amizade é um amor perfeito.
 A amostra de controlo foi tratada como a amostra de teste.
 A análise das amostras de sangue detectou a presença de cocaína
 A aparência rica
+A apatia é pior que o ódio
 A apreciação foi razoável na medida do possível
 A apresentação correta destes documentos será uma condição indispensável para a obtenção da ajuda.
 A apresentação da solicitação implicitamente implica a aceitação das bases regulatórias.
@@ -771,6 +772,7 @@ A experiência é a mente do tolo.
 A experiência é o pai da sabedoria.
 A experiência é um longo caminho.
 A experiência é um professor de tolos e a sabedoria dos sábios.
+A explanação poderia ter sido mais objetiva
 A explosão foi um assunto emocionante.
 A exposição foi vista como inapropriada para idades tão tenras
 A expressão de Jennifer mudou. "Puxe meu dedo"? ela disse.
@@ -1236,6 +1238,7 @@ A noite do jantar, a lua cheia deve ser.
 A noite estava quente e eu estava com sede.
 A noite traz lembranças nem sempre bem-vindas.
 A noite é tão escura que você não distingue nada.
+A noiva está usando véu e grinalda
 A nomeação do perito independente corresponde ao registrador mercantil do domicílio da cooperativa.
 A nomeação será válida por dois anos e poderá ser renovada sucessivamente.
 A norma culta a ser disseminada
@@ -1645,6 +1648,7 @@ A unidade da Espanha é um conceito recorrente.
 A universidade não aceita alunos com notas baixa.
 A vaca preguiçosa estava deitada na grama fresca.
 A vacina chegará aos jovens europeus
+A vagina é um canal do órgão sexual feminino dos mamíferos
 A validade desses diplomas é indefinida.
 A validade legal desses dois processos ainda é discutida hoje.
 A vara de pesca é usada para pegar salmão rosa.
@@ -1880,6 +1884,7 @@ Aceite sua primeira esposa.
 Aceito seus termos, com um senão: preciso de um prazo maior.
 Aceito, também, essa condição.
 Aceitou finalmente, daí a dias, e foi uma desilusão para Maria Luísa.
+Aceitou o pedido de casamento
 Acelerando a engenharia de instituições médicas
 Acelerar a transformação industrial e modernização
 Aceleração de startups e fintechs
@@ -1889,6 +1894,7 @@ Acendemos a lanterna e fomos até a casa dele.
 Acenderam fogos de artifício no ano novo.
 Acenderam fogos de artifício.
 Acendeu um cigarro
+Acertou em cheio
 Aceso. todos saúdam? frescos? piedosos? alegres? livres.
 Acesse as configurações e faça a atualização do sistema
 Acesso negado.
@@ -2561,6 +2567,7 @@ Alho pode ser usado para combater vampiros.
 Ali to vem?
 Aliança
 Aliança do Tocantins
+Alianças de compromisso
 Alice Tanaka
 Alice e Arthur
 Alice no País das Maravilhas
@@ -3739,6 +3746,7 @@ Apresenta uma redução de quatro por cento no preço da partida dos serviços o
 Apresentando uma paisagem especial
 Apresentou uma emenda parlamentar a pedido do líder da bancada
 Apressado come cru
+Apressando o fim da tomada de reféns
 Apresse-se e tire-o
 Apresse-se e vamos sair.
 April abraçou seu cordeiro.
@@ -4276,6 +4284,7 @@ As lágrimas estão saindo rapidamente.
 As maçãs estão na cesta perto da porta no seu caminho para fora.
 As maçãs vendidas lá são realmente deliciosas.
 As medidas de redução da poluição atmosférica devem ser tomadas durante os trabalhos.
+As meias estão rasgadas
 As melhores coisas da vida não são gratuitas.
 As melhores coisas não são compradas ou vendidas.
 As melhorias que podem ser apresentadas são indicadas abaixo.
@@ -4434,6 +4443,7 @@ As religiões dão o hábito geral de se comportar com uma visão do futuro.
 As resoluções do Conselho Eleitoral são firmes.
 As respostas serão públicas, respeitando o anonimato do consultor.
 As reuniões primeiro falam de tolos e inocentes; os últimos, os cautelosos.
+As revoluções destroem o velho Estado
 As rosas competem em eventos esportivos?
 As roupas estendidas nos varais já estão secas
 As roupas foram secas em uma prateleira de madeira fina.
@@ -4484,6 +4494,7 @@ As árvores estavam no alto do morro
 As árvores estão em muitas coisas.
 As últimas notícias sobre Futebol, mercado, modalidades, os resultados e classificações.
 Ascurra
+Aspirador de pó
 Aspiremos elevarmo-nos a condições mais purificadas e saneadas
 Aspásia
 Assaré
@@ -4638,6 +4649,7 @@ Atualmente, tem quase quatro mil assinantes em seu boletim mensal.
 Atualmente, é uma atração turística importante, bem como um monumento.
 Atuaremos de maneira arbitrária no dia seguinte se trouxerem à tona aquele fato
 Atuação das milícias digitais
+Atuação hegemônica daquele país
 Atue nessas ordens com grande velocidade.
 Atum, para pessoas que são prejudiciais.
 Atuou como bode expiatório para lançar uma cortina de fumaça
@@ -6527,6 +6539,8 @@ Certamente todos foram informados
 Certamente, quando você explicar as circunstâncias de nosso chamado prematuro, ela entenderá.
 Certamente, segundo a tarifa especial.
 Certificado de Depósito Bancário
+Certificado válido
+Certificação digital
 Certifique-se de ficar longe da cidade
 Certifique-se de ler atentamente as instruções antes de iniciar seu projeto.
 Certifique-se de obter um atestado médico!
@@ -6906,6 +6920,7 @@ Colocar gema de ovo é opcional.
 Colocar o carrinho antes do cavalo.
 Colocarei uma vassoura atrás da porta para evitar visitas dos parentes
 Colocou de joelhos
+Colocou em pauta novamente a questão do aborto
 Colocá-los em um frasco de vidro hermético, camadas, descascando com cada camada.
 Colombo
 Coloque Kurt Cobain no korean osts.
@@ -7196,6 +7211,7 @@ Como se dá o parentesco?
 Como se ele não fosse filho de um velho lojista do mercado!
 Como se eles matassem um.
 Como se eu tivesse o dinheiro de volta em um cofre.
+Como se prevenir
 Como se recuperar do cancelamento
 Como se sentir feliz?
 Como secretária, você pode contratar quem quiser.
@@ -7303,6 +7319,7 @@ Comodoro
 Companhia limitada
 Compare a soma de verificação para verificar sua integridade.
 Compareceram ao Círio de Nazaré
+Compareceu ao culto usando um decote inapropriado
 Compartilhamento de experiência de caso
 Compartilhamento puro
 Compartilhando os frutos do crescimento econômico
@@ -7386,6 +7403,7 @@ Conceição do Tocantins
 Conceição dos Ouros
 Conchal
 Conchas
+Conciliação dos antagônicos
 Conclua a cidade-irmã
 Concluído antes do pôr do sol
 Concordar com o pedido do membro
@@ -7439,6 +7457,7 @@ Conhecimento geral dos conceitos e figuras mais comuns que regula.
 Conhecimento é melhor que riquezas
 Conhecimento é poder
 Conheça as tendências e aplicações futuras
+Conheça o robô surpreendente que será lançado no próximo ano
 Conheça o seguinte
 Conquista
 Conquista d'Oeste
@@ -7552,6 +7571,7 @@ Contém todos os detalhes técnicos de perfeição
 Conveniente, economia de tempo e nutritivo
 Conveniência e lei são coisas diferentes.
 Convença papai a dividir sua família
+Convergindo para um mesmo ponto
 Convergência democrática da Catalunha vê sua posição.
 Conversa conjunta
 Conversando com amigos
@@ -7715,6 +7735,7 @@ Creio que sim;
 Crepúsculo engole, há inverno por semanas.
 Cresce e gordo
 Crescer gradualmente
+Crescimento da soberania popular revolucionária
 Cresça com raiva lentamente? há bastante tempo.
 Criacionismo iorubá
 Criança brincando com peças de xadrez em um tabuleiro de xadrez.
@@ -8329,6 +8350,7 @@ Derrame os fluxos de náusea de líquidos e alimentos mastigáveis.
 Derretido no ar fino
 Derrubadas
 Derrube todas as cercas.
+Desabilitar manualmente a ferramenta
 Desafia o nosso peito a própria morte!
 Desafie nossa vontade
 Desamparado
@@ -8729,6 +8751,7 @@ Do que você está rindo?
 Do sacerdócio, os envelopes devem ser todos dos pobres.
 Do site da Universidade de Lleida.
 Do velho homem, traga sua sabedoria.
+Doar cobertores para a população em situação de rua
 Dobrada
 Dobramos o suco orgânico de gengibre com a polpa de gengibre cristalizada.
 Dobrando o alcance de todas as habilidades
@@ -9017,6 +9040,7 @@ Donald Trump é o presidente dos Estados Unidos desde dois mil e dezesseis.
 Donuts são melhores com granulado de morango e café.
 Dor de cabeça e febre
 Dor de cabeça, a barriga sabe disso.
+Dor na garganta
 Dor no tornozelo, filha branca.
 Dora tem um trampolim em seu jardim.
 Dores de Campos
@@ -9934,6 +9958,7 @@ Ela é boa o suficiente para mim!
 Ela é casada?
 Ela é chata.
 Ela é cinco minutos a dois.
+Ela é colombiana
 Ela é como você, mas quem sabe porque.
 Ela é de Belo Horizonte.
 Ela é de uma segunda geração de imigrantes.
@@ -10600,6 +10625,7 @@ Ele é advogado do comando vermelho.
 Ele é advogado do tráfico.
 Ele é assessor do deputado.
 Ele é bem jovem para esse trabalho.
+Ele é boliviano
 Ele é capaz de coçar a orelha com o dedo do pé.
 Ele é comissário da Azul.
 Ele é considerado por ser muito inteligente.
@@ -12126,6 +12152,7 @@ Estabelecer uma visão de futuro e adaptabilidade
 Estabelecimento da pressão exercida pelas atividades humanas nesses sistemas.
 Estabilizar os criadores, descrevendo e aplicando as condições de condicionamento específico para maturação.
 Estacionamento gratuito no hotel
+Estado burguês
 Estado de sítio é ejaculação precoce?
 Estados
 Estados Unidos da America.
@@ -14145,6 +14172,7 @@ Expressar a opinião de que a área não está desenvolvida
 Expresso no momento do discurso
 Expressões coloquiais
 Expropriação de riqueza
+Expuseram opiniões divergentes
 Expôs os crimes praticados pela operação Lava Jato
 Exteriorização magnética
 Extraia os dados relevantes e veja se ele corresponde às nossas estatísticas.
@@ -14298,6 +14326,7 @@ Feche a porta, por favor.
 Feche o Windows Explorer agora.
 Feche seus olhos
 Fede depois que o mercado se retira
+Feedback inválido
 Feijão verde e motel de hostal, palpável maduro.
 Feijó
 Feira Grande
@@ -14385,6 +14414,7 @@ Fez pirraça, pois não passa de uma mimada
 Fez um aceno aos lobistas
 Fez um monte de contusões
 Fez um post no Twitter
+Fez um procedimento estético em seu pênis
 Fez um silêncio desconfortável.
 Fez um vídeo no YouTube
 Fez uma conexão em Viracopos
@@ -14655,6 +14685,7 @@ Foi uma surpresa para mim.
 Foi uma verdadeira bênção do céu; Não havia nada no mundo que desse mais.
 Foi uma época difícil com o vento áspero que estava lutando com as árvores.
 Foi verdade
+Foi vista pela última vez no albergue
 Foi visto no início da manhã? correndo para o leste.
 Folia de reis
 Fomos ao debate.
@@ -15560,6 +15591,7 @@ Há uma diferença de representação
 Há uma discussão no pódio sobre os prós e contras do horário de verão.
 Há uma forte chance de que isso aconteça mais uma vez.
 Há uma grande panela de carne na mesa.
+Há uma igreja evangélica em cada esquina
 Há uma instalação social do outro lado da estrada.
 Há uma lua esta noite.
 Há uma mulher parada em um ponto de ônibus.
@@ -15878,6 +15910,7 @@ Intuição
 Intuições imaginativas da consciência
 Inunde os emails com pedidos para este livro.
 Invadir o Yuan Legislativo
+Invalidou todas as rotinas
 Inventário abrangente de habitats de vaga-lumes
 Inverno de muito sorvete, muita fruta garantida.
 Inverno lamacento, junho granulado.
@@ -16606,6 +16639,7 @@ Jogadores do Brasil.
 Jogando no mercado com o dinheiro da empresa?
 Jogo de fogos, jogo de gente maluca.
 Jogos vorazes não foi um filme de tanto sucesso
+Jogou o telemóvel na parede
 Jogue Pandora no último Fm
 Jogue a política feliz
 Jogue efeitos especiais cem por cento
@@ -16701,6 +16735,7 @@ Jucati
 Jucurutu
 Jucuruçu
 Jucás
+Judaísmo na prática
 Juiz Tully está em.
 Juiz de Fora
 Julgamento rápido é geralmente incorreto.
@@ -19348,6 +19383,7 @@ Noite de Natal, o melhor do ano.
 Noite de julho, a chuva não quer.
 Noite de verão
 Noiva com cabelo branco faz carnaval.
+Noivaram no mês passado
 Nome da namorada de Drake.
 Nome da ocupação e instituição de pesquisa
 Nomear inspectores actuariais na abertura do processo disciplinar.
@@ -22315,6 +22351,7 @@ O processo de bolha é exatamente o mesmo.
 O processo necessário em cada estágio
 O processo será semelhante a outras eleições.
 O produto desta cisa serviu para pagar a festa do padroeiro São Pedro.
+O produto já perdeu sua validade
 O produto?
 O professor chamou a atenção dos alunos.
 O professor era bem legal com seus alunos.
@@ -22706,6 +22743,7 @@ O que é um composto químico?
 O que é uma Wikipédia galesa?
 O que, basicamente, é um problema político, e a tecnologia também está envolvida aqui.
 O que, se não for?
+O rabino estava presente na sinagoga
 O raio chove e o riser o move.
 O rapaz cuja camisa é vermelha.
 O rapaz? acostumado a reconhecer os presságios? falou com o comerciante.
@@ -23303,6 +23341,7 @@ Olhou assombrado, mordendo os beiços.
 Olhou para o calendário
 Olhou para o mirante e vislumbrou o que estaria por vir
 Olhou para o relógio
+Oligarquias
 Olinda
 Olinda Nova do Maranhão
 Olindina
@@ -23721,6 +23760,7 @@ Os infiéis tinham um olhar maligno sobre eles.
 Os ingleses caem mais raramente em um defeito similar.
 Os ingressos para a transmissão foram todos embora.
 Os insurgentes reuniram gravetos e madeira.
+Os interesses das classes oligárquicas
 Os interesses podem corresponder ao quadro ou eles podem não fazê-lo.
 Os invernos eram especialmente difíceis à beira do Onyar, dentro e fora.
 Os jogadores de beisebol caminham em grupo no campo? e alguns saltam para comemorar.
@@ -23778,6 +23818,7 @@ Os necessários para que a casa obtenha a adaptação de habitabilidade.
 Os negócios estão apenas começando
 Os negócios terão um aumento esse ano.
 Os netos também são bons filhos.
+Os noivos acabaram de chegar
 Os noivos trocaram alianças ao final da cerimônia
 Os nomes mudam, o custo é mantido e a promoção da indústria também.
 Os norte-africanos vieram do Marrocos e da Argélia.
@@ -25907,6 +25948,7 @@ Pretendemos fazer mais edições de cursos.
 Pretendemos ir até Dubai nas próximas férias
 Pretensão de prejuízo ao erário
 Preto e branco, é girado.
+Preveniu os ataques ao navegador web
 Prevenção do delinquente juvenil
 Previsibilidade tóxica
 Previstos para pousar em maio
@@ -26034,6 +26076,7 @@ Propor e promover soluções adequadas para corrigir erros.
 Propor e realizar ações para ampliar o conhecimento do catalão ao Departamento.
 Proporciona senso de direcionamento
 Proposta de resolução
+Proposta eleitoreira
 Proposta para processamento em uma única leitura.
 Propostas de fórmulas para direções estratégicas.
 Propriá
@@ -26042,6 +26085,7 @@ Propôs uma moeda única para o Mercosul
 Propõe modificações na ferramenta para adaptá-la às novas necessidades.
 Propõe questões organizacionais ou melhoria interna.
 Propõe-se fazer uma rotunda que facilite a circulação.
+Proselitismo religioso
 Protegendo os direitos dos agricultores de participar
 Proteger a vida e a propriedade dos cidadãos
 Proteja-se
@@ -27386,6 +27430,7 @@ Quão triste é ouvir seus ouvidos.
 Rabanetes e espinafre, em setembro plantados.
 Rachadinhas entram no rol dos tipos de corrupção?
 Rachid disse que gosta de abacaxi no café da manhã.
+Radicalizando as bases eleitorais
 Rado Mulej não é um jogador de golfe famoso.
 Rafael e Giovanna
 Rafael Fernandes
@@ -27481,6 +27526,7 @@ Recipiente vazio tem o melhor som.
 Recite o horário do filme.
 Recolhidos na entrada
 Recomeçou recentemente
+Reconciliação após a ameaça
 Reconciliação e ruína estão intimamente relacionadas.
 Reconciliação é agora um sonho falacioso.
 Reconhece as disfunções comportamentais, analisando os princípios básicos da psicologia geral.
@@ -27655,6 +27701,7 @@ Reunião de passe e cura
 Reunião de revisão de procedimento geral
 Reuniões ordinárias serão realizadas a cada quatro meses.
 Reutilizar subsídio
+Revela sua agenda com planos para o futuro
 Revelando expressão duvidosa
 Revele o cosmos para mim
 Rever a instrução e processamento de registros de sancionamento de shows de touradas tradicionais.
@@ -27814,6 +27861,7 @@ Rochedo
 Rochedo de Minas
 Rock ficou surpreso.
 Roda gigante e cena noturna são os melhores
+Rodando uma instância de rede
 Rodeio
 Rodeio Bonito
 Rodeiro
@@ -28245,6 +28293,7 @@ Santo Expedito do Sul
 Santo Hipólito
 Santo Inácio
 Santo Inácio do Piauí
+Santo casamenteiro
 Santo Ângelo
 Santos
 Santos Dumont
@@ -28751,6 +28800,7 @@ Separe as roupas por tipo.
 Separe o fígado quando estiver cozido.
 Seque-se com esta toalha
 Sequer demonstra tecnicamente vosso comprometimento
+Sequestro de sessão
 Ser assassinado a sangue frio não é um absurdo.
 Ser criticado é pensar demais
 Ser especialista em uma área e ser reconhecido como especialista é uma boa estratégia.
@@ -28814,6 +28864,7 @@ Sertânia
 Sertão
 Sertão Santana
 Sertãozinho
+Servidor interno autogerado
 Servir para permitir a efetiva realização dos objetivos essenciais do progresso.
 Serviço ativo com destino provisório, exceto aqueles que ocupam lugares de livre designação.
 Serviço de Emprego da Cidade de Taipei
@@ -29326,11 +29377,13 @@ Supervisiona a transmissão de casas com proteção oficial.
 Supervisiona as inspeções a realizar, antes da autorização de determinados centros de saúde.
 Supervisiona e controla a implementação de procedimentos telemáticos.
 Supervisionar os relatórios solicitados pelos tribunais.
+Suplanta divisões para defender causas sociais
 Suponha que em um país todos os homens usem um chapéu.
 Suponho que a hora fosse quatro ou cinco horas.
 Suporta três estilos diferentes de sobreposições?, embora eu prefira os círculos.
 Suposto o uso vulgar seja começar pelo nascimento
 Suposto gesto nazista
+Surpreendentemente
 Surpresa é uma vantagem.
 Surpreso por encontrar na mesma cidade uma moral tão relaxada e austera.
 Surubim
@@ -30075,6 +30128,7 @@ Tempestade aumentando sobre as Montanhas Rochosas.
 Tempestade e estresse.
 Tempestades fortes não duram muito tempo.
 Templo das Três Gargantas
+Templo religioso
 Tempo de descanso
 Tempo de leitura na livraria
 Tempo em Malásia
@@ -30123,6 +30177,7 @@ Tenho certeza que o mundo está nivelado.
 Tenho certeza que você não tem nenhum.
 Tenho confiança no futuro
 Tenho e-mail no Hotmail
+Tenho espirros, tosses e sinto dor nos pulmões
 Tenho fome da extensão do tempo, e quero ser eu sem condições.
 Tenho idade para ser seu pai.
 Tenho justamente uma casa que vai vagar, e serve.
@@ -30141,6 +30196,7 @@ Tenho vontade de erguer os braços e gritar coisas de uma selvageria ignorada
 Tenista está servindo a bola.
 Tens gana?
 Tensão institucional preocupa mercado financeiro
+Tensão pré-menstrual
 Tentando melhorar o mundo pulando para cima e para baixo.
 Tentativa de silenciamento com a imprensa
 Tentativa de zerar e neutralizar as emissões de carbono
@@ -30675,6 +30731,7 @@ Tratado existente
 Tratam-se de estruturações arregimentadas
 Tratamento de aúdio.
 Tratamento padrão-ouro
+Tratamento para calvície
 Tratamentos têm sido desenvolvidos para combater o câncer
 Trate eu e os outros
 Trate-os bem porque são pessoas boas e gentis.
@@ -35132,6 +35189,7 @@ destinado a aliviar a nossa melancólica humanidade
 deveria inibir-me até de dar começo.
 deveria ser desenvolvido um movimento amplo e estruturado
 diferença radical entre este livro e o Pentateuco
+dispositivos embarcados, como modens e roteadores
 disse-lhe que era imprudente
 do impacto financeiro de decisões tomadas na esfera de gestão de pessoal.
 do que uma idéia grandiosa e útil
@@ -35343,6 +35401,7 @@ para quem a campa foi outro berço
 para se divertir na noite do Rio de Janeiro.
 para você quanto custa uma vida
 parece ainda mais grave quando se sabe que sete milhões deles não estudam
+parte do aparelho reprodutor, que se estende do colo do útero à vulva
 pendurou-se-me uma idéia no trapézio que eu tinha no cérebro
 peneirava uma chuvinha miúda, triste e constante
 penso, logo existo.
@@ -35748,6 +35807,7 @@ zé Doca
 É bom te ver.
 É bom ter um amigo mesmo se você estiver no inferno.
 É bom, pois assim economiza um pouco mais
+É chegada a hora de uma nova Constituinte?
 É chuvoso em Greely Center?
 É chuvoso em São Paulo?
 É claro que a competitividade nas transações comerciais acarreta um processo de reformulação
@@ -36014,6 +36074,7 @@ zé Doca
 É preciso todo o tempo e energia para uma carreira.
 É preciso uma boa armadilha para pegar o urso.
 É previsível o aumento de resíduos.
+É proibido envelhecer
 É proibido realizar qualquer atividade que implique risco de acidente.
 É proibido, mas se quiser, pode.
 É provável que seja uma quinzena para nós antes de irmos para o Eisteddfod.
@@ -36122,6 +36183,7 @@ zé Doca
 É uma bandeira para eleição.
 É uma boa ideia!
 É uma bonita ilha.
+É uma cadeia pouco confiável
 É uma cidade viva da humanidade
 É uma circunstância agravante que causa perturbações ou desordem pública.
 É uma coisa boa, para a preparação deste prato, que não economize cebola.
