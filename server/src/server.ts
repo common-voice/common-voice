@@ -320,7 +320,7 @@ export default class Server {
     const { ENVIRONMENT } = getConfig();
 
     if (!ENVIRONMENT || ENVIRONMENT === 'local') {
-      // await this.performMaintenance(options.doImport);
+      await this.performMaintenance(options.doImport);
       return;
     }
 
@@ -341,7 +341,7 @@ export default class Server {
     }
 
     try {
-      // await this.performMaintenance(options.doImport);
+      await this.performMaintenance(options.doImport);
       await redis.set(MAINTENANCE_VERSION_KEY, this.version);
     } catch (e) {
       this.print('error during maintenance', e);
