@@ -103,6 +103,11 @@ ky = Kirgisies
 lb = Luxemburgs
 lg = Luganda
 lij = Liguriaans
+lt = Litaus
+lv = Letties
+mai = Maithili
+mdf = Moksja
+mg = Malagasy
 
 # [/]
 
