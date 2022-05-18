@@ -60,7 +60,6 @@ export const actions = {
         }
         return names;
       }, []);
-      console.log('translatedLocales', translatedLocales);
 
       const allLocales = allLanguages.map(language => language.name);
       const contributableLocales = allLanguages
