@@ -8,7 +8,6 @@ email-input =
     .label = E-pos
 submit-form-action = Dien In
 loading = Laai tans…
-email-opt-in-privacy = Deur in te stem om e-pos te ontvang, verklaar jy dat jy Mozilla se hantering van hierdie inligting goedkeur, soos uiteengesit in Mozilla se <privacyLink> Privaatheidsbeleid<privacyLink>.
 indicates-required = * Dui verpligte veld aan
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -97,8 +96,6 @@ profile-form-accent =
     .label = Aksent
 profile-form-age =
     .label = Ouderdom
-profile-form-gender =
-    .label = Geslag
 visible = Sigbaar
 native-language =
     .label = Moedertaal
@@ -109,16 +106,53 @@ female = Vroulik
 # Gender
 other = Ander
 
+## Profile - Email
+
+
+## Profile - Email
+
+
 ## FAQ
 
 
 ## ABOUT US
 
 
+## How does it work section
+
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
 ## Glossary
 
 
-## NotFound
+## Error pages
 
 
 ## Data
@@ -134,6 +168,9 @@ other = Ander
 
 
 ## Request Language Modal
+
+
+## Request Language Pages
 
 
 ## Languages Overview
@@ -157,5 +194,82 @@ other = Ander
 ## Profile Delete
 
 
+## Profile Download
+
+
 ## Landing
+
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
