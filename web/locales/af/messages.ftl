@@ -126,6 +126,24 @@ ne-NP = Nepalees
 nia = Nias
 nl = Nederlands
 nn-NO = Noors Nynorsk
+nyn = Runyankole
+oc = Oksitaans
+or = Oria
+pa-IN = Punjabi
+pap-AW = Papiamentu
+pl = Pools
+ps = Pashto
+pt = Portugees
+quc = K'iche'
+quy = Quechua Chanka
+rm-sursilv = Romaans Sursilvan
+rm-vallader = Romaans Vallader
+ro = Romeens
+ru = Russies
+rw = Kinyarwanda
+sah = Sakha
+sat = Santalien (Ol Chiki)
+sc = Sardinies
 
 # [/]
 
