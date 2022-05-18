@@ -85,7 +85,23 @@ ie = Interlingue
 ig = Igbo
 is = Yslands
 it = Italiaans
+izh = Izhoriaans
 ja = Japannees
+ka = Georgies
+kaa = Karakalpaks
+kab = Kabiels
+kbd = Kabardiaans
+ki = Kikuyu
+kk = Kasaks
+km = Khmer
+kmr = Kurmanji Kurdish
+knn = Konkani (Devanagari)
+ko = Koreaans
+kpv = Komi-Zyriaans
+kw = Kornies
+ky = Kirgisies
+lb = Luxemburgs
+lg = Luganda
 
 # [/]
 
