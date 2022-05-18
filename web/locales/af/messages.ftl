@@ -1,14 +1,23 @@
 ## General
 
 yes-receive-emails = Ja, stuur vir my e-posse. Ek wil graag op hoogte bly van die Common Voice Project.
-stayintouch = Ons by Mozilla bou 'n gemeenskap rondom spraak-tegnologie. Ons wil graag kontak hou, met opknappings, nuwe databronne, en om meer te hoor van hoe jy die data gebruik.
+stayintouch = Ons by Mozilla bou 'n gemeenskap rondom spraaktegnologie. Ons wil graag kontak hou, met veranderinge en verbeteringe, nuwe databronne, en om meer te hoor oor hoe jy die data gebruik.
 privacy-info = Ons belowe om jou inligting met sorg te hanteer. Lees meer in ons <privacylink> Privaatheidsbeleid </privacylink>.
-return-to-cv = Keer Terug na Common Voice
+return-to-cv = Keer terug na Common Voice
 email-input =
-    .label = E-pos
+    .label = E-posadres
 submit-form-action = Dien In
 loading = Laai tans…
+email-opt-in-info = Ek sal graag e-posse soos herinneringe aan doelwitte, my vorderingsverslae en nuusbriewe oor Common Voice wil ontvang.
+email-opt-in-info-title = Sluit aan by Common Voice se e-poslys
+email-opt-in-info-sub-with-challenge = Ontvang e-posse soos herinneringe aan uitdagings en doelwitte, vorderingsverslae en nuusbriewe oor Common Voice.
+email-opt-in-privacy-v2 = Deur in te stem om e-posse te ontvang, verklaar jy dat jy die wyse waarop Mozilla inligting hanteer, soos uiteengesit word in Mozilla se <privacyLink>Privaatheidsbeleid</privacyLink>, goedkeur.
 indicates-required = * Dui verpligte veld aan
+not-available-abbreviation = N.V.T.
+banner-error-slow-1 = Jammer. Common Voice ervaar tans vertragings. Dankie vir jou belangstelling.
+banner-error-slow-2 = Ons ontvang tans baie verkeer en is besig om die saak te ondersoek.
+banner-error-slow-link = Statusblad
+error-something-went-wrong = Jammer, iets het skeef geloop.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
