@@ -144,6 +144,24 @@ rw = Kinyarwanda
 sah = Sakha
 sat = Santalien (Ol Chiki)
 sc = Sardinies
+scn = Siciliaans
+shi = Shilha
+si = Sinhalees
+sk = Slowaaks
+skr = Saraiki
+sl = Sloweens
+so = Somalies
+sq = Albanees
+sr = Serwies
+sv-SE = Sweeds
+sw = Swahili
+syr = Siries
+ta = Tamil
+te = Telugu
+tg = Tadjiks
+th = Thai
+ti = Tigrinja
+tig = Tigre
 
 # [/]
 
