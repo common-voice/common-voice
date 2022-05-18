@@ -25,6 +25,18 @@ error-something-went-wrong = Jammer, iets het skeef geloop.
 
 ## Languages
 
+ab = Abchasies
+ace = Acehnees
+ady = Adyghe
+af = Afrikaans
+am = Amharies
+an = Aragonees
+ar = Arabies
+arn = Mapudungun
+as = Assamees
+ast = Asturiaans
+az = Azerbeidjans
+ba = Basjkir
 fo = Faroëes
 fr = Frans
 ga-IE = Iers
