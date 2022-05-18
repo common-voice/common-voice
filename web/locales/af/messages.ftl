@@ -162,6 +162,12 @@ tg = Tadjiks
 th = Thai
 ti = Tigrinja
 tig = Tigre
+tk = Turkmeens
+tl = Tagalog
+tok = Toki Pona
+tr = Turks
+tt = Tataars
+tw = Twi
 
 # [/]
 
