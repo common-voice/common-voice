@@ -1056,6 +1056,7 @@ sc-howto-review-criteria-6 = หากคุณไม่มีประโยค
 sc-howto-findpd-title = ค้นหาประโยคที่มีอยู่แล้วในสาธารณสมบัติ
 sc-howto-findpd-subtitle = ค้นหาประโยคบนอินเทอร์เน็ต
 sc-howto-findpd-tips = เคล็ดลับในการค้นหาประโยค:
+sc-howto-findpd-subtitle-2 = ร่วมมือกับองค์กรหรือบุคคลในท้องถิ่น
 
 ## MY SENTENCES
 
