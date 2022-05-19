@@ -189,7 +189,7 @@ export default class Model {
   }
 
   getLanguages = lazyCache(
-    'get-all-languages-with-stats',
+    'get-languages-with-stats',
     async (): Promise<Language[]> => {
       const languages = await this.db.getLanguages();
       return languages.map(language => {
@@ -204,7 +204,7 @@ export default class Model {
   );
 
   getAllLanguages = lazyCache(
-    'get-all-languages-with-metadata',
+    'get-all-languages-metadata',
     async (): Promise<any[]> => {
       const languages = await this.db.getAllLanguages();
       return languages;
