@@ -87,9 +87,15 @@ const fetchPontoonLanguages = async (): Promise<any[]> => {
 export async function importLocales() {
   console.log('Importing languages');
   const locales = await fetchPontoonLanguages();
+  console.log('Got Pontoon Languages');
   const nativeNames = buildLocaleNativeNameMapping();
+  console.log('Built native names');
   saveToMessages(locales);
+  console.log('Saved native names to message file');
+
   if (locales) {
+    console.log('Fetching existing languages');
+
     const [existingLangauges] = await db.query(`
       SELECT t.locale_id as has_clips, l.id, l.name, l.target_sentence_count as target_sentence_count, count(1) as total_sentence_count
       FROM locales l
@@ -145,6 +151,8 @@ export async function importLocales() {
       return obj;
     }, {});
 
+    console.log('Saving langauge data to database');
+
     await Promise.all([
       locales.map(lang => {
         if (allLanguages[lang.code]) {
@@ -184,6 +192,8 @@ export async function importLocales() {
         }
       }),
     ]);
+    console.log('Saving accent data to database');
+
     // Make sure each language has at minimum an "unspecified" accent
     await db.query(`
     INSERT IGNORE INTO accents (locale_id, accent_name, accent_token, user_submitted)
