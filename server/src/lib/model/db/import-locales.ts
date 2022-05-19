@@ -1,8 +1,19 @@
-import { Language } from 'common';
 import fetch from 'node-fetch';
 import { getMySQLInstance } from './mysql';
-const TRANSLATED_MIN_PROGRESS = 0.75;
+import { parse } from '@fluent/syntax';
+import * as path from 'path';
+import * as fs from 'fs';
+
+const TRANSLATED_MIN_PROGRESS = 0.6;
 const DEFAULT_TARGET_SENTENCE_COUNT = 5000;
+
+const localeMessagesPath = path.join(
+  __dirname,
+  '../../../../../',
+  'web',
+  'locales'
+);
+
 type Locale = {
   code: string;
   direction: string;
@@ -16,6 +27,44 @@ interface PontoonData {
 }
 
 const db = getMySQLInstance();
+
+const saveToMessages = (languages: any) => {
+  const messagesPath = path.join(localeMessagesPath, 'en', 'messages.ftl');
+  const messages = fs.readFileSync(messagesPath, 'utf-8');
+
+  const newMessages = messages.replace(
+    /#\s\[Languages]([\s\S]*?)#\s\[\/]/gm,
+    [
+      '# [Languages]',
+      '## Languages',
+      languages.map(({ code, name }: any) => `${code} = ${name}`).join('\n'),
+      '# [/]',
+    ].join('\n')
+  );
+  fs.writeFileSync(messagesPath, newMessages);
+};
+
+const buildLocaleNativeNameMapping: any = () => {
+  const locales = fs.readdirSync(localeMessagesPath);
+  const nativeNames: {
+    [code: string]: string;
+  } = {};
+  for (const locale of locales) {
+    const messagesPath = path.join(localeMessagesPath, locale, 'messages.ftl');
+
+    if (!fs.existsSync(messagesPath)) {
+      continue;
+    }
+
+    const messages: any = parse(fs.readFileSync(messagesPath, 'utf-8'), {});
+    const message = messages.body.find(
+      (message: any) => message.id && message.id.name === locale
+    );
+
+    nativeNames[locale] = message ? message.value.elements[0].value : locale;
+  }
+  return nativeNames;
+};
 
 const fetchPontoonLanguages = async (): Promise<any[]> => {
   const url =
@@ -38,15 +87,25 @@ const fetchPontoonLanguages = async (): Promise<any[]> => {
 export async function importLocales() {
   console.log('Importing languages');
   const locales = await fetchPontoonLanguages();
-
+  const nativeNames = buildLocaleNativeNameMapping();
+  saveToMessages(locales);
   if (locales) {
     const [existingLangauges] = await db.query(`
-      SELECT l.id, l.name, l.target_sentence_count as target_sentence_count, count(1) as total_sentence_count
+      SELECT t.locale_id as has_clips, l.id, l.name, l.target_sentence_count as target_sentence_count, count(1) as total_sentence_count
       FROM locales l
       LEFT JOIN sentences s ON s.locale_id = l.id
+      LEFT JOIN (SELECT c.locale_id FROM clips c group by c.locale_id) t on t.locale_id = s.locale_id
       GROUP BY l.id
     `);
+
     console.log(`${existingLangauges.length} Existing Languages`);
+
+    const languagesWithClips = existingLangauges.reduce(
+      (obj: any, language: any) => {
+        if (language.has_clips) obj[language.name] = true;
+        return obj;
+      }
+    );
 
     const allLanguages = existingLangauges.reduce((obj: any, language: any) => {
       obj[language.name] = {
@@ -61,22 +120,26 @@ export async function importLocales() {
       const isTranslated = language.translated >= TRANSLATED_MIN_PROGRESS;
       const hasEnoughSentences =
         allLanguages[language.code]?.hasEnoughSentences || false;
-
+      const is_contributable = languagesWithClips[language.code]
+        ? 1
+        : isTranslated && hasEnoughSentences
+        ? 1
+        : 0;
       obj[language.code] = {
         ...language,
         target_sentence_count:
           allLanguages[language.code]?.target_sentence_count ||
           DEFAULT_TARGET_SENTENCE_COUNT,
         is_translated: isTranslated ? 1 : 0,
-        is_contributable: isTranslated && hasEnoughSentences ? 1 : 0,
+        is_contributable,
       };
       return obj;
     }, {});
+
     await Promise.all([
       locales.map(lang => {
         if (allLanguages[lang.code]) {
           // this language exists in db, just update
-
           return db.query(
             `
             UPDATE locales
@@ -87,7 +150,7 @@ export async function importLocales() {
             WHERE id = ?
             `,
             [
-              lang.name,
+              nativeNames[lang.code] ? nativeNames[lang.code] : lang.code,
               newLanguageData[lang.code].is_contributable,
               newLanguageData[lang.code].is_translated,
               lang.direction,
@@ -100,7 +163,7 @@ export async function importLocales() {
             `INSERT IGNORE INTO locales(name, target_sentence_count, native_name, is_contributable, is_translated, text_direction) VALUES (?)`,
             [
               [
-                lang.code,
+                nativeNames[lang.code] ? nativeNames[lang.code] : lang.code,
                 newLanguageData[lang.code].target_sentence_count,
                 lang.name,
                 newLanguageData[lang.code].is_contributable,
