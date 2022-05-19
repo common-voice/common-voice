@@ -117,14 +117,23 @@ export async function importLocales() {
     }, {});
 
     const newLanguageData = locales.reduce((obj, language) => {
-      const isTranslated = language.translated >= TRANSLATED_MIN_PROGRESS;
-      const hasEnoughSentences =
-        allLanguages[language.code]?.hasEnoughSentences || false;
-      const is_contributable = languagesWithClips[language.code]
+      //if a lang has clips, consider it translated
+      const isTranslated = languagesWithClips[language.code]
         ? 1
-        : isTranslated && hasEnoughSentences
+        : language.translated >= TRANSLATED_MIN_PROGRESS //no previous clips, check if criteria met
         ? 1
         : 0;
+
+      const hasEnoughSentences =
+        allLanguages[language.code]?.hasEnoughSentences || false;
+
+      //if a lang has clips, consider it contributable
+      const is_contributable = languagesWithClips[language.code]
+        ? 1
+        : isTranslated && hasEnoughSentences // no prev clips, check translated and enough sentences
+        ? 1
+        : 0;
+
       obj[language.code] = {
         ...language,
         target_sentence_count:
