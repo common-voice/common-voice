@@ -276,6 +276,7 @@ join-newsletter = Sluit aan by ons e-poslys vir kennisgewings en nuwe inligting 
 whats-public = Wat is Openbaar?
 email-not-public = Ons sal nie jou e-posadres openbaar maak nie.
 recordings-and-locale-public = Die aantal opnames en watter tale jy bydra, sal openbaar wees.
+username-optin-public = Jy kan kies om jou gebruikersnaam openbaar of anoniem te maak.
 
 ## Speak & Listen Shortcuts
 
