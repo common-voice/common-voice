@@ -187,6 +187,26 @@ hidden = Fi pamọ́
 visible = Fi hàn
 native-language =
     .label = Ède abínibí
+profile-form-add-accent = Ṣe ìfikún àwọn ohùn ìpèdè "{ $inputValue }"
+profile-form-submit-save = Fi pamọ́
+profile-form-submit-saved = Ìwànípamọ́
+male = Ọkùnrin
+female = Obìnrin
+# Gender
+other = Òmíràn
+why-profile-title = Ìdí fún púrófáìlì?
+why-profile-text = Nípa pépèsè àwọn ìrìyìn nípan araàrẹ, àwọn ìgbàsílẹ̀ ohùn tí o fi ráńṣẹ́ sí Common Voice yóò wúlò gidigidi fún àwọn ẹ̀rọ ìdámọ̀ ohùn tí wọ́n ń ṣàmúlò àwọn dátà yí kí ìṣewẹ́kú wọ́n lè tànnà si.
+dashboard = Àte
+build-profile = Ṣe púrófáìlì
+avatar = Àwòrán
+goals = Àfojúsùn
+settings = Ìṣàtúnṣe
+edit-profile = Ìṣàtúnṣe Púrófáìlì
+profile-create-success = A ti ṣẹ̀dá púrófáìlì rẻ!
+profile-close = Padé
+profile-explanation = Tọpa ìlọsíwájú rẹ pẹ̀lú u púrófáìlì kí o sì sèrànwọ́ kí ìgbàálẹ̀ ohùn wá lè dára si.
+thanks-for-account = O ṣé fún ìjẹ́rìí, nísìyí jẹ́ ká ṣe púrófáìlì rẹ.
+why-demographic = Kí ni ìdí tó fi ṣe pàtàkì?
 
 ## Profile - Email
 
