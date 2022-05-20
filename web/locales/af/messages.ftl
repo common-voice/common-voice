@@ -430,6 +430,8 @@ faq-why-important-a =
 faq-how-get-q = Hoe kan ek die Common Voice data kry?
 faq-how-get-a = Die Common Voice datastel is beskikbaar om afgelaai te word onder die lisensie <licenseLink> CC0 </licenseLink> op <datasetLink> ons Datastelle bladsy </datasetLink>. Jy kan ook verskeie ander publieke datastelle daar aflaai.
 faq-when-release2-q = Wanneer sal Common Voice-data in ander tale vrygestel word?
+faq-when-release2-a = Die veeltalige weergawe van die Common Voice-datastel word tans met die toestemming van die gemeenskappe saamgegroepeer en skoongemaak. As jy ons wil help om Common Voice aan nuwe tale voor te stel, gaan kyk na die <sentenceCollectorLink>Sinversamelingsprogrammatuur</sentenceCollectorLink> om nuwe sinne by die datastel te voeg, en Mozilla <pontoonLink>Pontoon</pontoonLink> vir die vertaling van die webwerf self. Nuwe tale word vir stembydraes by Common Voice bygevoeg wanneer 5000 goedgekeurde sinne vir die taal ingesamel is.
+faq-why-mission-q = Waarom is Common Voice deel van Mozilla se missie?
 
 ## ABOUT US
 
