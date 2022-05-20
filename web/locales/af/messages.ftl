@@ -401,12 +401,28 @@ browse-file = Sleep en los of <browseWrap> Blaai </browseWrap>
 connect-gravatar = Koppel aan Gravatar
 gravatar_not_found = Geen gravatar gevind vir jou e-posadres nie
 file_too_large = Die gekose lêer is te groot
+avatar-uploaded = Avatar opgelaai
+max-file-size = { $kb }kb maksimum
+remove-avatar = Verwyder Avatar
 
 ## Profile - Email
 
+manage-subscriptions = Bestuur Intekeninge
+manage-email-subscriptions = Bestuur E-posintekeninge
+email-already-used = Hierdie e-posadres word reeds vir 'n ander rekening gebruik
+add-language = Voeg Taal By
+change-email-setings = Verander jou e-pos deur middel van Instellings onder Intekenidentiteit
 
 ## FAQ
 
+faq-title = Algemene Vrae
+faq-what-cv-q = Wat is Common Voice?
+faq-what-cv-a = Stemherkenningstegnologie verander die manier waarop ons met masjiene omgaan, maar die huidige beskikbare stelsels is duur en nie beskikbaar vir die breër publiek nie. Mozilla Common Voice is 'n inisiatief wat beoog om stemherkenningstegnologieë beter en meer toeganklik te maak vir almal. Common Voice is 'n massiewe wêreldwye databasis van geskenkte klankopnames waarmee enigiemand vinnig en maklik stemgeaktiveerde programme in potensieel elke taal kan oplei.
+faq-what-cv-a-2 =
+    Stemherkenningstegnologie verander die manier waarop ons met masjiene omgaan, maar die huidige beskikbare stelsels is duur en nie beskikbaar vir die breër publiek nie. Mozilla Common Voice is 'n inisiatief wat beoog om stemherkenningstegnologieë beter en meer toeganklik te maak vir almal. Common Voice is 'n massiewe wêreldwye databasis van geskenkte klankopnames waarmee enigiemand vinnig en maklik stemgeaktiveerde programme in potensieel elke taal kan oplei.
+    
+    Ons samel nie net stemopnames in  in wydgesproke tale nie, maar ook in tale met 'n kleiner spraakgemeenskap. Die publikasie van 'n diverse datastel stemopnames sal ontwikkelaars, entrepreneurs en gemeenskappe bemagtig om hierdie gaping self aan te spreek.
+faq-why-important-q = Hoekom is dit belangrik?
 
 ## ABOUT US
 
