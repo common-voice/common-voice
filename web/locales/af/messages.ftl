@@ -194,19 +194,37 @@ speak = Praat
 speak-now = Praat nou
 datasets = Datastelle
 languages = Tale
+about = Oor
 profile = Profiel
 help = Hulp
 contact = Kontak
+privacy = Privaatheid
+terms = Bepalings
 cookies = Koekies
+faq = Vrae en Antwoorde
+content-license-text = Inhoud beskikbaar onder 'n <licenseLink> Creative Commons lisensie</licenseLink> gebruikerslisensie
+share-title = Help ons om meer mense te vind wa hul stemme kan skenk!
+share-text = Help om masjiene te leer hoe werklike mense praat, skenk jou stem hier { $link }
 link-copied = Skakel Gekopieer
 back-top = Terug Boontoe
+logout = Meld Af
 
 ## Home Page
 
+home-title = Common Voice is Mozilla se inisiatief wat help om masjiene te leer hoe werklike mense praat.
+default-tagline = Mozilla Common Voice is 'n inisiatief wat help om masjiene te leer hoe mense werklik praat.
+home-cta = Laat jou stem hoor, dra hier by!
+wall-of-text-start = Stem is natuurlik, stem is menslik. Daarom is ons gefassineer met die skep van bruikbare spraaktegnologie vir ons masjiene. Maar om stemstelsels te skep, word 'n baie groot hoeveelheid stemdata benodig.
+wall-of-text-more-mobile = Meeste van die data wat deur groot maatskappye gebruik word, is nie vir die meerderheid van mense beskikbaar nie. Ons dink dit onderdruk innovasie. Daarom het ons 'Project Common Voice', 'n projek wat help om stemherkenning oop te stel vir almal, geloods.
+wall-of-text-more-desktop = Nou kan jy jou stem skenk om ons te help om 'n oopbronstemdatabasis te bou wat almal kan gebruik om innoverende programme vir toestelle en die web te maak. Lees 'n sin om masjiene te help leer hoe mense werklik praat. Gaan die werk van ander bydraers na om die gehalte te verbeter. Dit is so eenvoudig!
+wall-of-text-first =
+    Stem is natuurlik, stem is menslik. Daarom is ons opgewonde oor die skep van bruikbare stemtegnologie
+    vir ons masjiene. Maar om stemstelsels te skep, benodig ontwikkelaars 'n baie groot hoeveelheid stemdata.
+wall-of-text-second = Meeste van die data wat deur groot maatskappye gebruik word, is nie vir die meerderheid van mense beskikbaar nie. Ons dink dit onderdruk innovasie. Daarom het ons 'Project Common Voice', 'n projek wat help om stemherkenning oop te stel vir almal, geloods.
 show-wall-of-text = Lees Meer
 help-us-title = Help ons om sinne te bevestig!
 help-us-explain = Druk speel, luister en vertel ons: het hulle die onderstaande sin akkuraat gesê?
-no-clips-to-validate = Dit lyk asof daar geen snitte in hierdie taal is om te beluister nie. Help ons om die tou te vul deur nou 'n paar op te neem.
+no-clips-to-validate = Dit lyk asof daar geen snitte is om te luister in hierdie taal nie. Help ons om lys aan te vul deur nou 'n paar op te neem.
 vote-yes = Ja
 vote-no = Nee
 toggle-play-tooltip = Druk { shortcut-play-toggle } om die speelmodus te wissel
