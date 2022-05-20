@@ -496,6 +496,7 @@ about-playbook-how-access-dataset = Кыце датасетӹм нӓлӓш дӓ 
 ## How are decisions made
 
 about-playbook-how-project-governance = Кыце проектӹн решенивлӓ лыкталтыт?
+about-playbook-how-project-governance-content-2 = Мӓмнӓн виктӓрӹмӓш вес принципвлӓ доно тӹнгӓлтӹшӹм пиштӹмӹ:
 about-playbook-how-project-governance-content-5 = Ӓклӹмӓш дӓ шотеш пиштӹмӓш
 about-playbook-how-project-governance-content-6 = Вӓшӓ-вӓш вуйын шалгымаш.
 mycroft-title = Mycroft Ai
@@ -532,6 +533,7 @@ release-version = Верси
 dataset-date = Кечӹ
 license = Лицензи: <licenseLink>{ $license }</licenseLink>
 license-mixed = Ярыкален шӹндӹмӹ
+data-download-singleword-title = Ик шамакан целевой лаштыкым качаен нӓл
 terms-agree = Келшем
 terms-disagree = Ам келшӹ
 review-aborted = Качаен нӓлмӓшӹм цӓрӹмӹ. Тӹнь ӹшке сирӹметӹм карангдынет?
@@ -562,6 +564,7 @@ download-language = { $language } йӹлмӹм качаен нӓлӓш
 validated-hours = Тергӹмӹ цӓш
 recorded-hours = Сирӹмӹ цӓш
 whats-inside = Common Voice данный кӧргӹштӹ ма улы?
+want-dataset-update = Кынам мӓ Common Voice датасетӹн у релизсшӹм лыктына, у уэммӓшвлӓм нӓлнет лиэш? Мӓмнӓн рассылкылан сирӓлт.
 subscribe = Сылы
 get-started-speech = Попымым пӓлӹмӹ гӹц тӹнгӓл
 other-datasets = Молы юк данныйвлӓ
