@@ -265,10 +265,17 @@ email-subscription-title-new = Meld aan vir Common Voice nuusbriewe, herinnering
 
 benefits = Voordele
 rich-data = Maak jou ingediende data so ryk as moontlik deur anonieme demografiese data te verskaf. Ons maak al die demografiese data anoniem voordat die datastel openbaar gemaak word.
+improve-audio = Profiel inligting verbeter die klankdata wat gebruik word die opleiding van akkurate spraakherkenning.
+keep-track = Hou tred met jou vordering en statistiek oor verskeie tale.
+compare-progress = Kyk hoe jou vordering vergelyk met ander bydraers regoor die wêreld.
+view-goals = Vergelyk jou vordering met persoonlike en projekdoelwitte.
+join-newsletter = Sluit aan by ons e-poslys vir kennisgewings en nuwe inligting oor die projek.
 
 ## What's public
 
-email-not-public = Ons sal nie jou e-pos openbaar maak nie.
+whats-public = Wat is Openbaar?
+email-not-public = Ons sal nie jou e-posadres openbaar maak nie.
+recordings-and-locale-public = Die aantal opnames en watter tale jy bydra, sal openbaar wees.
 
 ## Speak & Listen Shortcuts
 
