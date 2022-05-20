@@ -229,16 +229,42 @@ vote-yes = Ja
 vote-no = Nee
 toggle-play-tooltip = Druk { shortcut-play-toggle } om die speelmodus te wissel
 speak-subtitle = Skenk jou stem
-speak-paragraph = Opneem van stemsnitte is 'n noodsaaklike deel van die opbou van ons ope datastel; sommige sou sê dis ook die prettige deel.
+speak-paragraph = Die opneem van stemsnitte is 'n integrale deel van die uitbou van ons ope datastel; sommige sou sê dat dit ook die prettige deel is.
 speak-goal-text = Snitte opgeneem
 listen-subtitle = Help ons om stemme te bevestig
+listen-paragraph = Die bevestiging van die geldigheid van snitte is ewe belangrik vir die Common Voice-projek. Luister 'n bietjie en help ons om kwaliteit oopbronstemdata te skep.
+listen-goal-text = Snitte bevestig
+hours-recorded = Ure Opgeneem
+hours-validated = Ure Bevestig
+voices-online = Stemme Nou Aanlyn
+todays-progress = Vandag se Vordering
+help-reach-goal = Help ons om { $goal } te bereik
+read-terms-q = Het jy al ons Bepalings gelees?
 ready-to-record = Gereed om jou stem te skenk?
 all-locales = Alles
 today = Vandag
+x-weeks-short =
+    { $count ->
+        [one] Week
+       *[other] { $count }wk
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count }ma
+    }
+x-years-short =
+    { $count ->
+       *[other] { $count }j
+    }
+help-make-dataset = Help ons om 'n hoë gehalte, openbare oopbrondatastel te bou
+sign-up-account = Meld aan vir 'n rekening
+email-subscription-title = meld aan vir e-pos terugvoer
+email-subscription-title-new = Meld aan vir Common Voice nuusbriewe, herinneringe aan doelwitte en vorderingsverslae
 
 ## Account Benefits
 
 benefits = Voordele
+rich-data = Maak jou ingediende data so ryk as moontlik deur anonieme demografiese data te verskaf. Ons maak al die demografiese data anoniem voordat die datastel openbaar gemaak word.
 
 ## What's public
 
