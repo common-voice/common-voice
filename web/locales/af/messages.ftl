@@ -423,6 +423,13 @@ faq-what-cv-a-2 =
     
     Ons samel nie net stemopnames in  in wydgesproke tale nie, maar ook in tale met 'n kleiner spraakgemeenskap. Die publikasie van 'n diverse datastel stemopnames sal ontwikkelaars, entrepreneurs en gemeenskappe bemagtig om hierdie gaping self aan te spreek.
 faq-why-important-q = Hoekom is dit belangrik?
+faq-why-important-a =
+    Spraak is dikwels die mees natuurlike manier waarop ons met mekaar kommunikeer en stemtegnologieë bring daardie gerief na ons rekenaars en mobiele toestelle. Ons wil ontwikkelaars bemagtig om wonderlike stemherkenningstoepassings soos intydse vertalers en stemgeaktiveerde digitale assistente te bou. Maar op die oomblik is die meeste van die stemdata wat nodig is om hierdie soort toepassings te bou, duur en nie algemeen beskikbaar nie. Ons hoop dat die Common Voice-datastel ontwikkelaars dit wat hulle nodig het om innoverende  produkte en spraaktegnologieë te ontwikkel in hul eie taal2, sal bied, sodat hierdie tegnologieë beskikbaar gestel kan word.
+    
+    Om stemherkenning nog meer universeel te maak, samel ons stemmonsters in in wyd gesproke tale sowel as in dié met kleiner spraakgemeenskappe wat dikwels nie deur kommersiële spraakherkenningsdienste onderskep word nie. Die publikasie van 'n diverse datastel van klankopnames sal ontwikkelaars, entrepreneurs en hele spraakgemeenskappe bemagtig om hierdie leemte self aan te spreek.
+faq-how-get-q = Hoe kan ek die Common Voice data kry?
+faq-how-get-a = Die Common Voice datastel is beskikbaar om afgelaai te word onder die lisensie <licenseLink> CC0 </licenseLink> op <datasetLink> ons Datastelle bladsy </datasetLink>. Jy kan ook verskeie ander publieke datastelle daar aflaai.
+faq-when-release2-q = Wanneer sal Common Voice-data in ander tale vrygestel word?
 
 ## ABOUT US
 
