@@ -169,6 +169,21 @@ tr = Turks
 tt = Tataars
 tw = Twi
 ty = Tahities
+uby = Ubykh
+udm = Udmurt
+ug = Uyghur
+uk = Oekraïens
+ur = Oerdoe
+uz = Oesbeeks
+vec = Venesiaans
+vi = Viëtnamees
+vot = Voties
+yi = Jiddisj
+yo = Joroeba
+yue = Kantonees
+zh-CN = Chinees (China)
+zh-HK = Chinees (Hong Kong)
+zh-TW = Chinees (Taiwan)
 
 # [/]
 
@@ -176,6 +191,8 @@ ty = Tahities
 ## Layout
 
 speak = Praat
+speak-now = Praat nou
+datasets = Datastelle
 languages = Tale
 profile = Profiel
 help = Hulp
