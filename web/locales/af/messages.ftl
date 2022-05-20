@@ -277,12 +277,19 @@ whats-public = Wat is Openbaar?
 email-not-public = Ons sal nie jou e-posadres openbaar maak nie.
 recordings-and-locale-public = Die aantal opnames en watter tale jy bydra, sal openbaar wees.
 username-optin-public = Jy kan kies om jou gebruikersnaam openbaar of anoniem te maak.
+demographic-deidentified-clarity-2 = Opsioneel ingediende demografiese data (bv. ouderdom, geslag, taal en aksent) sal nooit op jou profiel openbaar gemaak word nie, en sal nie aan jou rekening in die datastel gekoppel word nie. Individuele klanksnitte sal met demografiese data geassosieer word om meer akkurate ontledings te verseker - byvoorbeeld, 'n navorser wil dalk 'n spesifieke demografiese segment teiken met 'n opleidingsmodel.
+username-email-not-demographic = Jou gebruikersnaam en e-pos sal nie geassosieer word met die gepubliseerde data nie.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = Speel/Stop
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
@@ -296,7 +303,11 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = Neem Op/Stop
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Neem snit weer op
+shortcut-discard-ongoing-recording-label = Skrap hiérdie opname
+shortcut-submit = Keer Terug
 request-language-button = Versoek 'n Taal
 
 ## ProjectStatus
