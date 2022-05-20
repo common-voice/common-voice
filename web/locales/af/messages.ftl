@@ -168,6 +168,7 @@ tok = Toki Pona
 tr = Turks
 tt = Tataars
 tw = Twi
+ty = Tahities
 
 # [/]
 
