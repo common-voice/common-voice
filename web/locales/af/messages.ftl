@@ -362,9 +362,45 @@ male = Manlik
 female = Vroulik
 # Gender
 other = Ander
+why-profile-title = Hoekom 'n profiel?
+why-profile-text = Deur sekere inligting oor jouself te verskaf, sal die klankdata wat jy aan Common Voice voorlê, nuttiger wees vir spraakherkenningenjins wat hierdie data gebruik om hul akkuraatheid te verbeter.
+dashboard = Paneelbord
+build-profile = Bou Profiel
+avatar = Avatar
+goals = Doelwitte
+settings = Instellings
+edit-profile = Redigeer Profiel
+profile-create-success = Sukses, profiel geskep!
+profile-close = Maak toe
+profile-explanation = Hou tred met jou vordering met 'n profiel en help ons stemdata om meer akkuraat te wees.
+thanks-for-account = Dankie dat jy jou rekening bevestig het, kom ons bou nou jou profiel.
+why-demographic = Hoekom maak dit saak?
+why-demographic-explanation-2 = Anonieme gebruikersdata soos ouderdom, geslag en aksent help om die stemdata wat gebruik word om die akkuraatheid van spraakherkenningenjins op te lei, te verbeter. Jou gebruikersnaam en e-posadres sal nooit met jou ingediende data geassosieer word nie, en jy kan kies of jy jou gebruikersnaam publiek of anoniem wil maak.
+accept-privacy = Ek aanvaar dat hierdie inligting hanteer word soos verduidelik in Mozilla se <privacyLink> Privaatheidsbeleid</privacyLink>
+accept-privacy-title = Privaatheidsbeleid
+login-identity = Aanteken identiteit
+login-signup = Teken In / Teken Aan
+edit = Redigeer
+email-subscriptions = E-pos Inskrywings
+download-profile = Laai My Data Af
+contribution-experience = Bydrae-ervaring
+skip-submission-feedback = Slaan Inskrywingsterugvoer Oor
+skip-submission-description = Tydens die bydrae sal indieningsterugvoer oorgeslaan word nadat jy 'Dien In' geklik het. Bydrae sal direk voortgaan met die volgende stel van 5 opnames of bevestigings.
+skip-submission-note = Nota: Jy sal nog steeds moet kies tussen Praat of Luister om die bydrae-soort te verander.
+off = Af
+on = Aan
+help-accent = Het jy hulp nodig met aksent?
+help-accent-explanation = Jou aksent is die manier waarop jy woorde uitspreek. Dit kan gevorm word deur waar jy gewoon het, watter ander tale jy praat en baie ander faktore. Jy kan enige inligting wat jy voel relevant is hier deel.
+help-variants = Het jy hulp nodig met variëteite?
+help-variants-explanation = Variëteite is 'n spesifieke vorm van 'n taal - byvoorbeeld die taalgebruik wat gedeel word deur diegene wat in dieselfde geografiese gebied of gemeenskap woon. Soms word dit 'n dialekte genoem.
 
 ## Profile - Email
 
+browse-file-title = Laai 'n prentlêer op
+browse-file = Sleep en los of <browseWrap> Blaai </browseWrap>
+connect-gravatar = Koppel aan Gravatar
+gravatar_not_found = Geen gravatar gevind vir jou e-posadres nie
+file_too_large = Die gekose lêer is te groot
 
 ## Profile - Email
 
