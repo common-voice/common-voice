@@ -12,5 +12,5 @@ get-involved-submit = Fi jíṣẹ́
 get-involved-stayintouch = Àwa ní Mozilla ń ṣẹ àpèjọ ìjọ ènìyàn lórí ìmọ̀-ẹ̀rọ nípa ohùn. A máa fẹ́ láti wà ní àrọ́wọ́tó àwọn ohun ọ̀tun, àwọn orísun dátà tuntun àti láti mọ̀ sí i nípa bí ẹ ṣe ń lo àwọn dátà yìí.
 get-involved-privacy-info = A ṣe ìlérí láti tọ́jú àwọn àlàyé rẹ dáradára. Ka díẹ̀ si nínú <privacyLink> Àkíyèsí Aláṣìírí </privacyLink>.
 get-involved-success-title = O ti yege ní fífi orúkọ sílẹ̀ láti ṣe àfikún sí { $language }. A dúpẹ́.
-get-involved-success-text = A yóò kàn sí ẹ pẹ̀lú ẹ̀kúnrẹ́rẹ́ àlàyé lọ́gán bí ó ba ti ưa ní àrọ́wọ́tó o wa.
+get-involved-success-text = A yóò kàn sí ẹ pẹ̀lú ẹ̀kúnrẹ́rẹ́ àlàyé lọ́gán bí ó ba ti wà ní àrọ́wọ́tó o wa.
 get-involved-return-to-languages = Padà sí àwọn èdè

@@ -173,13 +173,31 @@ tw = Twi
 ty = Tahitian
 uby = Ubykh
 udm = Udmurt
+ug = Uyghur
+uk = Ukrainian
+ur = Urdu
+uz = Uzbek
+vec = Venetian
+vi = Vietnamese
+vot = Votic
+yi = Yiddish
+yo = Yòrùbá
+yue = Cantonese
+zh-CN = Chinese (China)
+zh-HK = Chinese (Hong Kong)
+zh-TW = Chinese (Taiwan)
 
 # [/]
 
 
 ## Layout
 
-profile = Ìfolùwàhàn
+speak = Sọ̀rọ̀
+speak-now = Sọ̀rọ̀ nísìnyí
+datasets = Àtòjọ dátà
+languages = Èdè
+about = Nípa
+profile = Púrófáìlì
 help = Ìràǹwọ́
 contact = Ìkànsí
 faq = Ìbéèrè Àtìgbàdégbà
