@@ -571,7 +571,9 @@ other-datasets = Молы юк данныйвлӓ
 feedback-q = Отзыв улы?
 community-playbook = Playbook тӹшкӓ
 data-other-ted-name = TED-LIUM корпус
+your-feedback = Кыце мӓ Common Voice датасетӹм яжоэмден кердӹнӓ, тӹньӹн иктӓ-махань шанымашет улы ма? Кӓнгӓшӹмӓштӹ мӓлӓннӓ пӓлӓш пу
 go-discourse = Кӓнгӓшӹмӓш док ванжаш
+missing-language = Датасетӹштӹ ӹшке йӹлметӹм ат уж? Йӹлмӹм ядаш манын, мӓмнӓн Йӹлмӹвлӓ лӹмӓн страницӹшкӹ ванжы.
 go-languages-page = Йӹлмӹ страницӹш ванжаш
 ready-to-validate = Предложенивлӓн тӧр ылмыштым тергӓш палшаш йӓмдӹ ылат?
 more = Шукырак
@@ -703,6 +705,8 @@ record-button-label = Ӹшке юкетӹм сирӹ
 share-title-new = Шукырак юкым <bold>мӓлӓннӓ моаш палшы</bold>
 keep-track-profile = Профильыштӹ ӹшкӹметӹн анзыкы кеметӹм тӹшлӹ
 login-to-get-started = Тӹнгӓлӓш манын, пыры ӓли регистрацим эртӹ
+target-segment-first-card = Мӓмнӓн икӹмшӹ целевой лаштыкыш ӹшке вкладетӹм пыртет
+target-segment-generic-card = Целевой лаштыкыш ӹшке вкладетӹм пыртет
 target-segment-add-voice = Ӹшке юкетӹм уштары
 target-segment-learn-more = Шукырак тыменяш
 
@@ -800,6 +804,7 @@ goal-interval-weekly = Ӓрня вуй гӹц
 share-goal-type-speak = Попышы
 share-goal-type-listen = Колыштмаш
 share-goal-type-both = Попаш дӓ колышташ
+track-progress = Тиштӹ дӓ статистикӹн страницӹштӹ анзык кемӓшӹм анжы.
 return-to-edit-goal = Хоть-махань жепӹштӹ ӹшке целетӹм редактируяш манын, тишкӹ пӧртӹл.
 share-goal = Мӹньӹн цель доно пайылалт
 
