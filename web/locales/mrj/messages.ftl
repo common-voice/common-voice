@@ -217,6 +217,7 @@ default-tagline = Mozilla Common Voice — кыце ӹлӹшӹ эдемвлӓ п
 home-cta = Келесӹ, ӹшке владетӹм тиштӹ ӹштӹ!
 show-wall-of-text = Шукырак лыд
 help-us-title = Предложенивлӓн тӧр ылмыштым мӓлӓннӓ тергӓш палшы!
+help-us-explain = Мадыкташ манмым темдӓл, колышт дӓ мӓлӓннӓ келесӹ: ӱлнӹ анжыктымы предложеним тӧр лыдмы ма?
 vote-yes = Ане
 vote-no = Уке
 speak-subtitle = Ӹшке юкетӹм подары
