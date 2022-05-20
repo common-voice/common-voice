@@ -207,12 +207,35 @@ profile-close = Padé
 profile-explanation = Tọpa ìlọsíwájú rẹ pẹ̀lú u púrófáìlì kí o sì sèrànwọ́ kí ìgbàálẹ̀ ohùn wá lè dára si.
 thanks-for-account = O ṣé fún ìjẹ́rìí, nísìyí jẹ́ ká ṣe púrófáìlì rẹ.
 why-demographic = Kí ni ìdí tó fi ṣe pàtàkì?
+accept-privacy = Mo gbà kí o ṣèkáwọ́ ìròyìn yí bí o ṣe ṣàlàyé nínú un <privacyLink>Ìsọ̀fin Ajẹmáṣìírí Mozilla</privacyLink>
+accept-privacy-title = Ìṣòfin Ajẹmáṣìírí
+login-identity = Ìdámọ̀ Ìwọlé
+login-signup = Wọlé / Forúkọ Sílẹ̀
+edit = Ìṣàtúnṣe
+download-profile = Ìṣàgbàsílẹ̀ dátà mi
+contribution-experience = Ìrírí Ìṣàfikún
+skip-submission-feedback = Fo Èsi Ìfiránṣẹ́
+off = Pa
+on = Tàn
+help-accent = O nílò ìrànwọ́ pẹ̀̀lú ohùn ìpèdè?
+help-accent-explanation = Ohùn ìpèdè ni bí o ṣe ń pe ọ̀rọ̀. O lè rí bó ti rí latara ibi tí o ti gbé, àwọn èdè mìíràn tí ò ń sọ àti àwọn ohun mìíràn. O lè sọ àwọn ohun to rò bé ó ṣe pàtàkì níbí.
+help-variants = O nílò ìrànwọ́ pẹ̀lú ẹ̀dà èdè?
+help-variants-explanation = Ẹ̀dà èdè jẹ́ irúfẹ́ èdè kan - fún àpẹẹrẹ, èyí tí àwọn ènìyàn agbègbè kán jọ ń sọ. Nígbà míràn, a máa ń per wọ́n ní ẹ̀ka èdè
 
 ## Profile - Email
 
+browse-file-title = Fi fáìlì àwòrán ráńṣẹ́
+browse-file = Dà á ko sì fi í sílẹ̀ tàbí <browseWrap> wá a </browseWrap>
+connect-gravatar = Wà níṣepọ̀ pẹ̀lú Gravatar
+gravatar_not_found = A kò rí Gravatar fún ímeèlì rẹ
+file_too_large = Fáìlì tí o mú ti tóbi jù
+avatar-uploaded = Ìgbáwòrán sí ti di ṣíṣe
+max-file-size = { $kb }kb pọ̀
+remove-avatar = Yọ àwòrán
 
 ## Profile - Email
 
+add-language = Ṣe àfikún èdè
 
 ## FAQ
 
