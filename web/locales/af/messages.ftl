@@ -308,24 +308,54 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Neem snit weer op
 shortcut-discard-ongoing-recording-label = Skrap hiérdie opname
 shortcut-submit = Keer Terug
+shortcut-submit-label = Dien snitte in
+request-language-text = Is jou taal nog nie op Common Voice nie?
+request-language-text-learn = Leer hier hoe om dit aan te vra!
 request-language-button = Versoek 'n Taal
 
 ## ProjectStatus
 
+status-title = Algehele projekstatus: kyk hoe ver ons gekom het!
 status-contribute = Dra Jou Stem By
+status-hours =
+    { $hours ->
+        [one] Een uur bevestig dusver!
+       *[other] { $hours } ure bevestig dusver!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Volgende Doelwitte: { $goal }
 english = Engels
 
 ## ProfileForm
 
 profile-form-username =
     .label = Gebruikernaam:
+profile-form-native-language =
+    .label = Moedertaal
+profile-form-additional-language =
+    .label = Addisionele Taal
+profile-form-language =
+    .label = Taal
+profile-form-variant =
+    .label = Watter variëteit van { $language } praat jy?
+profile-form-variant-default-value = Geen variëteit is gekies nie
 profile-form-accent =
     .label = Aksent
+profile-form-custom-accent-help-text =
+    .label = Hoe sou jy jou aksent beskryf?
+profile-form-custom-accent-placeholder-2 = Begin tik om jou aksent te beskryf
 profile-form-age =
     .label = Ouderdom
+profile-form-gender-2 =
+    .label = Geslag
+leaderboard-visibility =
+    .label = Ranglys Sigbaarheid
+hidden = Verskuil
 visible = Sigbaar
 native-language =
     .label = Moedertaal
+profile-form-add-accent = Voeg nuwe pasgemaakte aksent "{ $inputValue }" by
 profile-form-submit-save = Stoor
 profile-form-submit-saved = Gestoor
 male = Manlik
