@@ -97,24 +97,96 @@ email-subscription-title-new = Ṣe ìforúkọ fún ìwé ìròyìn oni
 
 benefits = Àǹfààní
 rich-data = Jẹ́ kí dátà ti o ó fi sọwọ́ sí wa wà nỉ sẹpẹ́ nípa pípèsè àwọn dátà aláìmolùwà rẹ̀. A máa ń yọ ìdámọ olùwà kúrò lára gbogbo dátà kí a tó gbe jáde fún lílò.
+improve-audio = Ìròyin púrófáílì ma ń ṣe ìlọsíwájú sí ìgbàálẹ̀ ohùn tí à ń lò láti kọ́ ẹ̀rọ ní ìṣewẹ́kú u ìdámọ̀ ohùn
+keep-track = Tọpa ìlọsíwájú rẹ káàkiri èdè púpọ̀.
+compare-progress = Wo bí ìlọsíwájú ù rẹ́ ṣe rí ní ìfiwé pẹ̀lú àwọn akópa mìíràn káàkiri àgbáyé
+view-goals = Wo ìlọsíwájú rẹ pẹ̀lú u ìfojúsùn tìrẹ àti ti iṣẹ́ náà.
+join-newsletter = Bí bí bá wù ọ́, darapọ̀ mọ́ ímeèli wa fún ọ̀tun ìròyin àtìgbàdégbà àti ìròyìn lórí iṣẹ́ náà.
 
 ## What's public
 
+whats-public = Kí ló wà ni gbangba?
+email-not-public = A ò ní fi ímeèlì rẹ síta.
+recordings-and-locale-public = Iye ìgbàsílẹ̀ ohùn àti èdè tí o ṣiṣẹ́ lé yóò wà ní gbangba.
+username-optin-public = O lè jẹ́ kí orúkọ ìdámọ̀ rẹ́ wà ni gbangba tàbí aláìlèdámọ̀.
+username-email-not-demographic = Orúkọ ìdámọ̀ àti imeèlì rẹ kò ní wà ní ìdámọ̀ pẹ̀lú u àwọn dátà tí a bá tẹ̀ jáde.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Ṣe/Dúró
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Gbàsílẹ̀/Dúró
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Tún ìgbàsílẹ̀ ohùn náà ṣe
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Dá ìgbàsílẹ̀ tó ń lọ lọ́wọ́ dúró
+shortcut-submit = Padà
+shortcut-submit-label = Fi ohùn jíṣẹ́
+request-language-text = O ò tíì rí èdè rẹ lóríi Common Voice náà?
+request-language-text-learn = Kọ́ bí o ṣe lè bèrè fun níbí!
+request-language-button = Béèrè fún èdè
 
 ## ProjectStatus
 
+status-title = Ipò tí iṣẹ́ wà: wo ibi tí a báṣẹ́ dé!
+status-contribute = Fi ohùn rẹ sílẹ̀
+status-hours =
+    { $hours ->
+        [one] Wákátìí kan tí a ti ṣàrídájú fún!
+       *[other] { $hours } tí a ti ṣàrídájú fún!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Ìfojúsùn tó kàn: { $goal }
+english = English
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Orúkọ ìdámọ̀
+profile-form-native-language =
+    .label = Ède Abínibí
+profile-form-additional-language =
+    .label = Èdè mìíràn
+profile-form-language =
+    .label = Èdè
+profile-form-variant =
+    .label = Irúfẹ́ { $language } wo lò ń sọ
+profile-form-variant-default-value = O kò mú irúfẹ́ èdè tó ò ń sọ
+profile-form-accent =
+    .label = Ohùn Ìpèdè
+profile-form-custom-accent-help-text =
+    .label = Bá wo lo ṣe ma ṣàpèjúwe ohùn ìpèdè rẹ?
+profile-form-custom-accent-placeholder-2 = Bẹ̀rẹ̀ sí kọ bí wà á ṣe ṣàpèjúwe ohùn ìpèdè rẹ
+profile-form-age =
+    .label = Ọjọ́ orí
+profile-form-gender-2 =
+    .label = Ìṣakọṣabo
+leaderboard-visibility =
+    .label = Hìhan Leaderboard
+hidden = Fi pamọ́
+visible = Fi hàn
+native-language =
+    .label = Ède abínibí
 
 ## Profile - Email
 
