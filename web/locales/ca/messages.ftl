@@ -529,7 +529,7 @@ about-partnership =
 about-get-involved = Col·laboreu-hi
 about-get-involved-text-2 =
     Voleu ajudar a millorar el Common Voice?
-    Genial! Poseu-vos en contacte per correu electrònic o pels fòrums del <discourseLink>Discourse</discourseLink>, notifiqueu problemes en el <githubLink>GitHub</githubLink> o uniu-vos al nostre xat de la comunitat en el <matrixLink>Matrix</matrixLink>
+    Genial! Poseu-vos en contacte per correu electrònic o pels fòrums del <discourseLink>Discourse</discourseLink>, notifiqueu problemes en el <githubLink>GitHub</githubLink> o uniu-vos al nostre xat de la comunitat a <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Com em puc mantenir en contacte?
 about-stay-in-touch-button = Registre
 about-stay-in-touch-text-1 = <emailFragment>Registreu-vos</emailFragment> a la nostra llista de correu per a saber com podeu participar en campanyes, esdeveniments i funcions de disseny conjunt a Common Voice.
@@ -643,9 +643,9 @@ de-identified-explanation = Procés pel qual la informació del perfil d'un col�
 ## Error pages
 
 error-title-404 = No s’ha trobat aquesta pàgina
-error-content-404 = Potser us pot ajudar la nostra <homepageLink>pàgina d'inici</homepageLink>? Si teniu alguna pregunta, uniu-vos al <matrixLink>xat de la comunitat en el Matrix</matrixLink>, superviseu els problemes del lloc mitjançant el <githubLink>GitHub</githubLink> o visiteu els nostres <discourseLink>fòrums del Discourse</discourseLink>.
+error-content-404 = Potser us pot ajudar la nostra <homepageLink>pàgina d'inici</homepageLink>? Si teniu alguna pregunta, uniu-vos al <matrixLink>xat de la comunitat a Matrix</matrixLink>, superviseu els problemes del lloc mitjançant el <githubLink>GitHub</githubLink> o visiteu els nostres <discourseLink>fòrums del Discourse</discourseLink>.
 error-title-503 = El lloc web no està disponible temporalment
-error-content-503 = El lloc tornarà a estar disponible al més aviat possible. Per veure la informació més actual, uniu-vos al <matrixLink>xat de la comunitat en el Matrix</matrixLink>, o visiteu el <githubLink>GitHub</githubLink> o els nostres <discourseLink>fòrums del Discourse</discourseLink> per enviar i supervisar els problemes que experimenteu en el lloc.
+error-content-503 = El lloc tornarà a estar disponible al més aviat possible. Per veure la informació més actual, uniu-vos al <matrixLink>xat de la comunitat a Matrix</matrixLink>, o visiteu el <githubLink>GitHub</githubLink> o els nostres <discourseLink>fòrums del Discourse</discourseLink> per enviar i supervisar els problemes que experimenteu en el lloc.
 error-code = Error { $code }
 
 ## Data
@@ -702,7 +702,7 @@ number-of-voices = Nombre de veus
 splits = Divisions
 email-to-download = Introduïu l'adreça electrònica per baixar
 why-email = <b>Per què una adreça electrònica?</b> És una forma de contacte en cas que ens haguéssim de posar en contacte en un futur per canvis en el conjunt de dades.
-confirm-size = Estic preparat per a iniciar una baixada de <b>{ $size }</ b>
+confirm-size = Estic preparat per a iniciar una baixada de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Accepto</b> no intentar determinar la identitat dels parlants del conjunt de dades del Common Voice
@@ -991,24 +991,24 @@ help-reach-hours-general-pluralized =
 set-a-goal = Defineix un objectiu
 cant-decide = No sabeu què fer?
 activity-needed-calculation-plural =
-    Si { NUMBER($people) ->
-        [one] { $people } persona enregistra
-       *[other] { $people } persones enregistren
+    { NUMBER($people) ->
+        [one] Si { $people } persona enregistra
+       *[other] Si { $people } persones enregistren
     } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } tall
-       *[other] { $clipsPerDay } talls
-    } per dia, es pot arribar a { NUMBER($totalHours) ->
-        [one] { $totalHours } hora
-       *[other] { $totalHours } hores
-    } en poc més { NUMBER($periodMonths) ->
-        [one] d'{ $periodMonths } mes
-        [11] d'{ $periodMonths } mesos
-       *[other] de { $periodMonths } mesos
+        [one] { $clipsPerDay } tall per dia, es pot arribar a
+       *[other] { $clipsPerDay } talls per dia, es pot arribar a
+    } { NUMBER($totalHours) ->
+        [one] { $totalHours } hora en poc més
+       *[other] { $totalHours } hores en poc més
+    } { NUMBER($periodMonths) ->
+        [one] d'{ $periodMonths } mes.
+        [11] d'{ $periodMonths } mesos.
+       *[other] de { $periodMonths } mesos.
     }
 how-many-per-day = Genial! Quants talls per dia?
 how-many-a-week = Genial! Quants talls per setmana?
 which-goal-type = Genial! Voleu parlar, escoltar o totes dues coses?
-receiving-emails-info = Actualment, teniu configurat rebre correus electrònics, com ara recordatoris d’objectius, actualitzacions del vostre progrés i butlletins de notícies sobre el Common Voice.
+receiving-emails-info = Actualment, teniu configurat rebre correus electrònics, com ara recordatoris d’objectius, actualitzacions del vostre progrés i butlletins de notícies sobre el Common Voice
 not-receiving-emails-info = Actualment, <bold>NO</bold> rebeu correus electrònics com ara recordatoris dels objectius, actualitzacions del progrés personal o notícies sobre el Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
@@ -1134,7 +1134,7 @@ contribution-misreadings-description-extended-list-1 = Canviar una paraula per u
 contribution-misreadings-description-extended-list-2 = Canviar alguna forma verbal. Per exemple, fer «cantéssim» en comptes de «cantessin».
 contribution-misreadings-description-extended-list-3 = Fer contraccions o elisions que no es troben en el text, o viceversa. Per exemple, fer «el oncle» en comptes de «l'oncle», o fer «'nant» en comptes d'«anant».
 contribution-misreadings-description-extended-list-4 = Ometre el final de l'última paraula, en tallar l'enregistrament massa ràpid.
-contribution-misreadings-description-extended-list-5 = Fer múltiples intents per a llegir una paraula
+contribution-misreadings-description-extended-list-5 = Fer múltiples intents per a llegir una paraula.
 contribution-misreadings-example-1-title = Els grans dinosaures del Triàsic.
 contribution-misreadings-example-2-title = Els grans dinosaure del Triàsic.
 contribution-misreadings-example-2-explanation = [Hauria de ser «dinosaures»]
@@ -1493,7 +1493,7 @@ sc-settings-skipped-decription = Abans heu omès frases mentre les revisàveu. S
 sc-settings-show-all-button = Mostra de nou totes les frases omeses
 sc-settings-failed = No s'ha pogut canviar la configuració. Torneu-ho a provar.
 # VALIDATION
-sc-validation-number-of-words = La frase ha de contenir entre 1 i 14 paraules.
+sc-validation-number-of-words = La frase ha de contenir entre 1 i 14 paraules
 sc-validation-no-numbers = La frase no pot contenir xifres
 sc-validation-no-symbols = La frase no pot contenir símbols
 sc-validation-no-abbreviations = La frase no pot contenir abreviatures
