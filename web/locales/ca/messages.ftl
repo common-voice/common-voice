@@ -121,7 +121,7 @@ mrj = mari occidental
 ms = malai
 mt = maltès
 my = birmà
-myv = mordovià erza
+myv = erzya
 nan-tw = taiwanès (min nan)
 nb-NO = Bokmål noruec
 ne-NP = nepalès
@@ -467,7 +467,7 @@ faq-why-not-ask-read-a = Perquè el conjunt de dades del Common Voice sigui el m
 faq-why-account-q = Per què hauria de crear un compte?
 faq-is-account-public-q = La informació del meu compte és pública?
 faq-how-privacy-q = Com assegureu l'anonimat i la privadesa de les persones que han donat la veu?
-faq-how-privacy-a = La informació d'identificació personal se suprimeix de tots els talls de veu del conjunt de dades. Si un col·laborador proporciona dades demogràfiques en el seu perfil, aquesta informació s'anonimitza en el talls de veu abans d'incloure'ls en el conjunt de dades disponible per baixar, i aquesta informació no és mai pública en la seva pàgina de perfil.
+faq-how-privacy-a = La informació d'identificació personal se suprimeix de tots els talls de veu del conjunt de dades. Si un col·laborador proporciona dades demogràfiques en el seu perfil, aquesta informació s'anonimitza en els talls de veu abans d'incloure'ls en el conjunt de dades disponible per baixar, i aquesta informació no és mai pública en la seva pàgina de perfil.
 faq-what-determine-identity-q = Què vol dir que no puc «determinar la identitat» dels parlants en el conjunt de dades del Common Voice?
 faq-what-determine-identity-a =
     El conjunt de dades del Common Voice és un recurs obert i disponible públicament que es pot utilitzar per entrenar una àmplia varietat d’aplicacions que utilitzin la veu. Per protegir la seguretat dels nostres col·laboradors, demanem a tothom qui baixi el conjunt de dades del Common Voice que respecti la privadesa dels col·laboradors.
@@ -701,11 +701,11 @@ audio-format = Format d'àudio
 number-of-voices = Nombre de veus
 splits = Divisions
 email-to-download = Introduïu l'adreça electrònica per baixar
-why-email = <b>Per què una adreça electrònica?</ b> És una forma de contacte en cas que ens haguéssim de posar en contacte en un futur per canvis en el conjunt de dades.
+why-email = <b>Per què una adreça electrònica?</b> És una forma de contacte en cas que ens haguéssim de posar en contacte en un futur per canvis en el conjunt de dades.
 confirm-size = Estic preparat per a iniciar una baixada de <b>{ $size }</ b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Accepto</ b> no intentar determinar la identitat dels parlants del conjunt de dades del Common Voice
+confirm-no-identify = <b>Accepto</b> no intentar determinar la identitat dels parlants del conjunt de dades del Common Voice
 download-language = Baixa ({ $language })
 validated-hours = Hores validades
 recorded-hours = Hores enregistrades
@@ -766,7 +766,7 @@ request-language-form-language =
 request-language-success-title = La sol·licitud de llengua s'ha enviat correctament, gràcies.
 request-language-success-content = Aviat ens posarem en contacte amb més informació sobre com afegir la vostra llengua al Common Voice.
 select-language = Seleccioneu una llengua...
-other-language = Un altra llengua
+other-language = Una altra llengua
 
 ## Request Language Pages
 
@@ -856,7 +856,7 @@ record-error-too-short = L'enregistrament és massa curt.
 record-error-too-long = L'enregistrament és massa llarg.
 record-error-too-quiet = El volum de l'enregistrament és massa baix.
 record-cancel = Cancel·la el reenregistrament
-record-instruction = { $actionType } <recordIcon></recordIcon>i llegiu la frase en veu alta
+record-instruction = { $actionType } <recordIcon></recordIcon> i llegiu la frase en veu alta
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> quan hàgiu acabat
 record-three-more-instruction = Només en falten tres!
 record-again-instruction = Molt bé! <recordIcon></recordIcon> Enregistreu un altre tall
@@ -1066,7 +1066,7 @@ download-requests = Anteriors sol·licituds de baixada d'enregistraments
 download-requests-info = En sol·licitar els enregistraments, els compilem en un o diversos arxius ZIP. Aquí teniu les sol·licituds anteriors:
 download-request-button = Baixa
 download-request-title = { $created }
-download-request-description = { $clipCount } talls de veu, mida total de l'arxiu: { $size }. Caduca: { $expires }
+download-request-description = { $clipCount } talls de veu, mida total de l'arxiu: { $size }. Caduca: { $expires }.
 download-request-archive-single = Un únic arxiu ZIP que conté
 download-request-archive-multiple = Dividit en { $archiveCount } arxius ZIP que contenen
 download-request-assembling-description = S'estan recopilant els vostres fitxers. Torneu a comprovar-ho més endavant.
@@ -1266,7 +1266,7 @@ sc-my-submission = Tramesa: { $batchId }
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Font:  { $source }
 sc-my-delete = Suprimeix les frases seleccionades
-sc-my-deleting = S'estan suprimint les frases seleccionades
+sc-my-deleting = S'estan suprimint les frases seleccionades…
 sc-my-err-failed-delete = No s'han pogut suprimir les frases seleccionades… Torneu-ho a provar!
 
 ## REJECTED
@@ -1489,7 +1489,7 @@ sc-review-link = Revisa
 sc-settings-title = Paràmetres
 sc-settings-ui-language = Llengua de la interfície
 sc-settings-reset-skipped = Restableix les frases omeses
-sc-settings-skipped-decription = Abans heu omès frases mentre les revisàveu. Si restabliu les frases omeses, es us tornaran a mostrar. Això és independent de la llengua.
+sc-settings-skipped-decription = Abans heu omès frases mentre les revisàveu. Si restabliu les frases omeses, se us tornaran a mostrar. Això és independent de la llengua.
 sc-settings-show-all-button = Mostra de nou totes les frases omeses
 sc-settings-failed = No s'ha pogut canviar la configuració. Torneu-ho a provar.
 # VALIDATION
