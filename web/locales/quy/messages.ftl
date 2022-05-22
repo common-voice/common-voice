@@ -492,6 +492,19 @@ about-localization-subtitle = El texto del sitio web está traducido a ese idiom
 about-sentence-collection-title = Sentence Collection
 about-sentence-collection-subtitle = Se recopilan oraciones para que las personas las lean en voz alta.
 about-new-lang-title = Lanzamiento de un nuevo idioma
+about-new-lang-subtitle = Kay simipi Common Voice nisqa sitiota qallarichiyku.
+about-voice-contrib-title = Contribución de voz
+about-voice-contrib-subtitle = La gente viene y contribuye con sus voces.
+about-voice-validation-title = Validación de voz
+about-voice-validation-subtitle = Otras personas validan esos clips de voz.
+about-dataset-release-title = Lanzamiento de la base de datos
+about-dataset-release-subtitle = Publicamos la base de datos cada 3 meses.
+about-subscribe-text = ¿Quiere mantenerse en contacto con Common Voice?
+about-speak = Hable
+about-speak-text = Los colaboradores graban clips de voz leyendo de un banco de oraciones donadas.
+about-listen-queue = Cola de escucha
+about-listen-queue-text = Los clips de voz se ingresan en una cola de envío que los prepara para escucharlos.
+about-listen = Uyariy
 
 ## Community Playbook Content
 ## What is a language
