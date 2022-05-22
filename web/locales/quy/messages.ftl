@@ -535,6 +535,9 @@ about-stay-in-touch-text-2 = Puede conocer a otras personas en las comunidades l
 about-nav-why-common-voice = ¿Por qué?
 about-nav-how-it-works = ¿Cómo?
 about-nav-partners = Socios
+about-nav-get-involved = Involucrarse
+about-nav-how-it-works-2 = ¿Cómo funciona Common Voice?
+about-nav-playbook = Chaypi yanapakunaykipaq yachay
 
 ## Community Playbook Content
 ## What is a language
