@@ -711,6 +711,25 @@ dataset-description-hours =
     
     La base de datos actualmente consta de <b>{ $valid }</b> horas validadas en <b>{ $languages }</b> idiomas, pero siempre agregamos más voces e idiomas. Echa un vistazo a nuestra <languagesLink>página de idiomas</languagesLink> para solicitar un idioma o empezar a contribuir.
 want-dataset-update = ¿Quiere actualizaciones cuando lancemos una nueva versión de la base de datos de Common Voice? Suscríbete a nuestro boletín.
+subscribe = Suscribirse
+get-started-speech = Comience con el reconocimiento de voz
+other-datasets = Otras bases de datos de voz
+feedback-q = ¿Tiene comentarios?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ es un <docsLink>juego de herramientas de código abierto</docsLink> para investigadores que desarrollan modelos conversacionales de IA de última generación.
+resource-deepspeech-info = El motor de reconocimiento de voz de código abierto de Mozilla, Deep Speech, se puede utilizar para crear aplicaciones de reconocimiento de voz. Lea nuestro <githubLink>Resumen de Github</githubLink> o únase al <discourseLink>DeepSpeech Discourse</discourseLink> para aprender cómo comenzar.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> se dedica a la tecnología de voz abierta. Sus proyectos incluyen motores STT y TTS basados en aprendizaje profundo.
+community-playbook = Conjunto de reglas de la comunidad
+resource-playbook-info = <playbookLink>Encuentre orientación útil</playbookLink> sobre todo el recorrido de Common Voice, desde la localización hasta el uso de la base de datos, además de cómo conectarse con nuestra comunidad.
+data-other-librispeech-description = LibriSpeech es una colección de aproximadamente 1000 horas de 16Khz de lectura de voz en inglés derivada de audiolibros leídos del proyecto LibriVox.
+data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = La colección TED-LIUM se elaboró a partir de charlas en audio y sus transcripciones disponibles en el sitio web de TED.
+data-other-voxforge-description = VoxForge se configuró para recopilar voz transcrita para su uso con motores de reconocimiento de voz gratuitos y de código abierto.
+data-other-tatoeba-description = Tatoeba es una gran base de datos de oraciones, traducciones y audio hablado para usar en el aprendizaje de idiomas. Esta descarga contiene inglés hablado grabado por su comunidad.
+your-feedback = ¿Tiene ideas sobre cómo podemos mejorar la base de datos de Common Voice? Háganos saber en Discourse
+go-discourse = Ir a Discourse
+missing-language = ¿No ve su idioma reflejado en el conjunto de datos? Para solicitar un idioma, diríjase a nuestra página Idiomas.
+go-languages-page = Ir a Página de Idiomas
+ready-to-validate = ¿Listo para ayudar a validar oraciones?
 more = Más
 close = Cerrar
 download = Descargar
@@ -718,6 +737,12 @@ dataset-version = Version
 
 ## Download Modal
 
+download-title = Su descarga ha comenzado.
+download-helpus = Ayúdenos a construir una comunidad en torno a la tecnología de voz, manténgase en contacto por correo electrónico.
+download-form-email =
+    .label = Ingresa tu email
+    .value = Gracias, esaremos en contacto
+download-back = Regresar a base de datos de Common Voice
 download-no = No gracias
 
 ## Contact Modal
@@ -734,6 +759,8 @@ contact-required = *requerido
 request-language-title = Solicitud de idioma
 request-language-form-language =
     .label = Idioma
+request-language-success-title = Solicitud de idioma enviada con éxito, gracias.
+request-language-success-content = Muy pronto nos pondremos en contacto con más información sobre cómo agregar su idioma a Common Voice.
 
 ## Request Language Pages
 
