@@ -569,21 +569,47 @@ about-playbook-how-localize-content-5 = Mire nuestro video explicativo para ayud
 about-playbook-how-add-sentences = ¿Cómo agrego oraciones?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> es una herramienta para recolectar y validar oraciones de dominio público. Necesitará <scAccountLink>crear una cuenta</scAccountLink>. Luego, agrega tu idioma a tu <strong>perfil</strong>. Puede <strong>Agregar</strong> oraciones o <strong>Revisar</strong> oraciones agregadas anteriormente.
 about-playbook-how-add-sentences-content-2 = Las oraciones deben ser revisadas y aceptadas por dos personas para ser incluidas en Common Voice. Puede crear pautas para su idioma <languageGuidelinesLink>aquí</languageGuidelinesLink>. Las oraciones deben estar en el <licenseLink>dominio público</licenseLink> y tener menos de 15 palabras. Puede pedirle al propietario de un texto que lo convierta en <waiverLink>CC0 mediante nuestro proceso de exención</waiverLink> y enviárnoslo a commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Puede usar el <scraperLink>Sentence extractor</scraperLink> para aprovechar oraciones cortas de Wikipedia.
+about-playbook-how-add-sentences-content-4 = Las oraciones que han sido validadas se exportan los miércoles y están disponibles después del próximo lanzamiento.
 
 ## How to record quality
 
+about-playbook-how-record-quality = ¿Cómo grabo un clip de voz de alta calidad?
+about-playbook-how-record-content-1 = ¡Habla con tu voz normal! La forma en que habla es bienvenida aquí: queremos su acento tal como es, y queremos su volumen, estilo y entonación habituales.
+about-playbook-how-record-content-2 = Evite demasiado ruido de fondo; debería ser fácil escucharlo.
+about-playbook-how-record-content-3 = Lea la oración con cuidado: no se pierda, cambie o agregue palabras.
+about-playbook-how-record-content-4 = Asegúrate de que la plataforma esté grabando antes de que comiences a hablar y que solo se detenga una vez que hayas terminado.
+about-playbook-how-record-content-5 = <accuracyLink>Vea más sobre los criterios de precisión.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = ¿Cómo podemos hacer crecer efectivamente un idioma en Common Voice?
+about-playbook-how-grow-language-content-1 = Crear oportunidades para que una diversidad de personas contribuya a Common Voice garantiza que el conjunto de datos sirva a la mayor cantidad de personas posible. ¡Hemos creado recursos y plantillas que puede usar!
+about-playbook-how-grow-language-content-2 = Eventos
+about-playbook-how-grow-language-content-3 = Puede organizar eventos para ayudar a las personas a contribuir. Es más fácil de lo que piensas. Puede hacerlo en línea con una herramienta de videoconferencia o en persona si es seguro. <eventTemplate>Consulte nuestras plantillas y recursos para organizar eventos</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Medios de comunicación social
+about-playbook-how-grow-language-content-5 = Podrías usar plataformas de redes sociales para difundir el mensaje. Comparta publicaciones que expliquen por qué es importante y póngase en contacto con otras personas para hablar sobre temas como derechos lingüísticos, IA de voz o sesgo en tecnología. Vea más consejos sobre <campaignLink>ejecutar una campaña social, incluido el contenido que puede reutilizar</campaignLink>.
+about-playbook-how-grow-language-content-6 = Asociaciones y redes
+about-playbook-how-grow-language-content-7 = Encuentre a otros que se preocupen. Podrían ser universidades, escuelas de idiomas, grupos de defensa o comunidades de ciencia de datos. Comuníquese y explíqueles claramente cómo pueden ayudar y por qué. <outreachTemplates>Vea nuestra plantilla de correos electrónicos de divulgación</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>¡Sea creativo!</strong> Su comunidad lingüística será única y estas son solo algunas formas de comenzar.
 
 ## How to validate
 
+about-playbook-how-validate = ¿Cómo sé si debo aprobar un clip de voz?
+about-playbook-how-validate-content-1 = Si puedes<strong>escucharlos</strong> y <strong>comprenderlos</strong>, generalmente es <strong>mejor aprobar</strong>.
+about-playbook-how-validate-content-2 = <strong>No rechaces los clips en los que el orador "tiene un acento" diferente al tuyo</strong>; esto es importante para que el reconocimiento de voz funcione mejor para todos.
+about-playbook-how-validate-content-3 = Si cree que la pronunciación hace que sea <strong>imposible de entender</strong>, o hay <strong>mucho ruido de fondo</strong>, o hay <strong>otras personas hablando también</strong>, entonces usted debe rechazar el clip. <accuracyLink>Vea más información en nuestros criterios de precisión</accuracyLink>.
+about-playbook-how-validate-content-4 = Si dos personas rechazan un clip, se publica en un subconjunto diferente de la base de datos.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ¿Cómo accedo y uso la base de datos?
+about-playbook-how-access-dataset-content-1 = Puede ir a la <datasetsPage>página de base de datos</datasetsPage>, seleccionar la versión y los idiomas que desee y descargarlos. Los archivos tienen <metadataLink>metadatos asociados</metadataLink>, como información demográfica y datos de validación. Deberá proporcionar una dirección de correo electrónico para descargar el conjunto de datos.
+about-playbook-how-access-dataset-content-2 = Si está buscando herramientas para crear modelos ASR, puede conectarse con otras personas de la comunidad <discourseLink>en Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = ¿Cómo se toman las decisiones del proyecto?
 
 ## Glossary
 
