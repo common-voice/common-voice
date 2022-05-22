@@ -701,6 +701,7 @@ why-email = <b>¿Por qué un correo electrónico?</b> Es posible que necesitemos
 confirm-size = Está preparado para iniciar una descarga de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Usted acepta</b> no intentar determinar la identidad de los hablantes en la base de datos de Common Voice.
 download-language = Descargar { $language }
 more = Más
 close = Cerrar
