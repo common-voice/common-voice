@@ -488,6 +488,7 @@ how-does-it-work-text = Ni kalkulas je kolektiva patropreno por konstrui malferm
 about-language-req-subtitle = Iu petas aldonon de lingvo.
 about-localization-title = Traduko de retejo
 about-localization-subtitle = La retejo estas tradukita en tiun lingvon.
+about-new-lang-title = Lanĉo de nova lingvo
 about-dataset-release-title = Eldono de datumaro
 about-dataset-release-subtitle = Ni eldonas la datumaron ĉiun trian monaton.
 about-subscribe-text = Ĉu vi volas resti en kontakto kun Common Voice?
