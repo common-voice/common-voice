@@ -761,9 +761,12 @@ request-language-form-language =
     .label = Idioma
 request-language-success-title = Solicitud de idioma enviada con éxito, gracias.
 request-language-success-content = Muy pronto nos pondremos en contacto con más información sobre cómo agregar su idioma a Common Voice.
+select-language = Selecciona un Idioma...
+other-language = Otro Idioma
 
 ## Request Language Pages
 
+request-language-heading = Preguntar sobre un nuevo idioma
 # Success page
 request-language-success-heading = Riqsikuyki! Musuq simi tapuyta apachirqanki
 
