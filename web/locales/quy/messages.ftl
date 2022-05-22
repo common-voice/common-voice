@@ -542,15 +542,33 @@ about-nav-playbook = Chaypi yanapakunaykipaq yachay
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ¿Qué es un idioma en Common Voice?
+about-playbook-what-is-language-content-1 = Hay muchas maneras de pensar sobre el lenguaje. A los efectos de los modelos de reconocimiento de voz, Common Voice sugiere centrarse en la "inteligibilidad mutua" o "¿pueden los hablantes de este idioma entenderse entre sí si lo intentan?"
+about-playbook-what-is-language-content-2 = Queremos que los modelos de voz comprendan mejor una amplia gama de hablantes. Para que esto suceda, una base de datos de voz debe representar a muchas personas diferentes.
+about-playbook-what-is-language-content-3 = Algunos idiomas tienen una enorme variación en gramática, vocabulario y pronunciación. Por esta razón, estamos <ctaLink>introduciendo 'Variantes'</ctaLink> en 2022. Esto brinda a las comunidades una forma de distinguir sus idiomas dentro de una base de datos más grande.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Cómo agrego un idioma?
+about-playbook-how-add-language-content-1 = Primero, verifique si su idioma <languageLink>ya existe</languageLink>. Si no es así, debe <strong>traducir el sitio y recopilar oraciones</strong>.
+about-playbook-how-add-language-content-2 = <strong>Para traducir el sitio</strong>: configure <translateVideo></translateVideo> en <pontoonLink>Pontoon</pontoonLink>. Pontoon tiene muchos idiomas, pero si no tiene el suyo, puede <pontoonRequestLink>solicitarlo</pontoonRequestLink>. Luego solicite a <repoLink>a través de GitHub</repoLink> que el proyecto Common Voice esté disponible para el idioma. Obtenga más información sobre <localizationFragment>traducción de sitios</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Para recopilar oraciones</strong> - <scVideo>configurar</scVideo> en <scLink>Sentence Collector</scLink>.
+about-playbook-how-add-language-content-4 = Puede <scLinkAdd>agregar pequeñas cantidades</scLinkAdd> de oraciones aquí, o puede hacer <bulkImportDocsLink>importaciones masivas</bulkImportDocsLink> a través de una solicitud de Github. Recuerde que las oraciones deben ser <licenseLink>CC0 (o dominio público)</licenseLink>, o puede escribir las suyas propias. Ver más en <scFragment>colección de oraciones</scFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = ¿Cómo funciona la localización del sitio?
+about-playbook-how-localize-content-1 = La traducción del sitio de Common Voice se realiza en <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Cree una cuenta</pontoonAccountLink> si no tiene una. Luego, elija su idioma <strong>(‘Equipo’)</strong> y luego elija el proyecto, <pontoonCvLink>Common Voice</pontoonCvLink>. Habrá archivos para traducir. Haga clic en uno, luego se muestra palabras en inglés y un cuadro para traducirlas.
+about-playbook-how-localize-content-3 = La traducción es del inglés, pero puedes ver <strong>Sugerencias</strong> en otros idiomas. Haz clic en el ícono <strong>Perfil</strong>, luego en el enlace <strong>Configuración</strong> y agrega cualquier idioma que hables. En la esquina inferior derecha habrá una lista de traducciones llamada <strong>Configuraciones regionales</strong>. Las traducciones se muestran en el sitio después de un día.
+about-playbook-how-localize-content-4 = El sitio se considera listo para ser lanzado cuando se alcanza el 75% de traducción.
+about-playbook-how-localize-content-5 = Mire nuestro video explicativo para ayudar
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ¿Cómo agrego oraciones?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> es una herramienta para recolectar y validar oraciones de dominio público. Necesitará <scAccountLink>crear una cuenta</scAccountLink>. Luego, agrega tu idioma a tu <strong>perfil</strong>. Puede <strong>Agregar</strong> oraciones o <strong>Revisar</strong> oraciones agregadas anteriormente.
+about-playbook-how-add-sentences-content-2 = Las oraciones deben ser revisadas y aceptadas por dos personas para ser incluidas en Common Voice. Puede crear pautas para su idioma <languageGuidelinesLink>aquí</languageGuidelinesLink>. Las oraciones deben estar en el <licenseLink>dominio público</licenseLink> y tener menos de 15 palabras. Puede pedirle al propietario de un texto que lo convierta en <waiverLink>CC0 mediante nuestro proceso de exención</waiverLink> y enviárnoslo a commonvoice@mozilla.com
 
 ## How to record quality
 
