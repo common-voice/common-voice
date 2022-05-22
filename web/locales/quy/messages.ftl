@@ -710,6 +710,7 @@ dataset-description-hours =
     Cada entrada en el conjunto de datos consta de un MP3 único y el archivo de texto correspondiente. Muchas de las <b>{ $total }</b> horas registradas en el conjunto de datos también incluyen metadatos demográficos como la edad, el sexo y el acento que pueden ayudar a mejorar la precisión de los motores de reconocimiento de voz.
     
     La base de datos actualmente consta de <b>{ $valid }</b> horas validadas en <b>{ $languages }</b> idiomas, pero siempre agregamos más voces e idiomas. Echa un vistazo a nuestra <languagesLink>página de idiomas</languagesLink> para solicitar un idioma o empezar a contribuir.
+want-dataset-update = ¿Quiere actualizaciones cuando lancemos una nueva versión de la base de datos de Common Voice? Suscríbete a nuestro boletín.
 more = Más
 close = Cerrar
 download = Descargar
