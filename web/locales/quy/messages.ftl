@@ -767,6 +767,11 @@ other-language = Otro Idioma
 ## Request Language Pages
 
 request-language-heading = Preguntar sobre un nuevo idioma
+request-language-explanation-1 =
+    Compruebe si su idioma aparece en la lista
+    <languagesPageLink>Página de idiomas de Common Voice</languagesPageLink>.
+    Si no está, complete este formulario y <strong>le enviaremos un correo electrónico muy útil
+    explicando cómo configurar su idioma</strong>.
 # Success page
 request-language-success-heading = Riqsikuyki! Musuq simi tapuyta apachirqanki
 
