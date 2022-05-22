@@ -610,15 +610,50 @@ about-playbook-how-access-dataset-content-2 = Si está buscando herramientas par
 ## How are decisions made
 
 about-playbook-how-project-governance = ¿Cómo se toman las decisiones del proyecto?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice es posible gracias a una comunidad diversa de activistas, lingüistas, científicos de datos, académicos e ingenieros de software de todo el mundo. El proyecto es administrado por la Fundación Mozilla.
+about-playbook-how-project-governance-content-2 = Nuestra gobernanza se basa en los pilares de:
+about-playbook-how-project-governance-content-3 = Privacidad, seguridad y transparencia.
+about-playbook-how-project-governance-content-4 = Participación comunitaria y toma de decisiones.
+about-playbook-how-project-governance-content-5 = Valor y reconocimiento.
+about-playbook-how-project-governance-content-6 = Responsabilidad mutua
+about-playbook-how-project-governance-content-7 = <governanceLink>Lea más sobre cómo es nuestra gobernanza</governanceLink>
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Inteligencia Artificial
+mycroft-description =
+    Mycroft es el primer asistente de código abierto del mundo.
+    Mycroft se ejecuta en cualquier lugar: en una computadora de escritorio, dentro de un automóvil o en una Raspberry Pi.
+mycroft-secondary-description = Este es un software de código abierto que se puede remezclar, ampliar y mejorar libremente. Mycroft se puede usar en cualquier cosa, desde un proyecto científico hasta una aplicación de software empresarial.
 
 ## Glossary
 
+glossary = Glosario
+localization = Localización
+localization-explanation = Este es nuestro proceso para traducir y adaptar nuestro contenido para muchos lugares (idiomas).
+sentence-collection = Recopilación de Oraciones
+sentence-collection-explanation = Recopilar oraciones del dominio público o escribir otras nuevas para el dominio público.
+hours-recorded-explanation = El recuento de horas de grabación de voz que hemos recopilado hasta ahora.
+hours-validated-explanation = El conteo de horas de grabación de voz que han sido validadas por 2 de 3 usuarios con un voto de “Sí”. Estos marcan el progreso hacia la meta general de 10k horas del proyecto.
+sst = Voz-a-texto (STT)
+sst-explanation = Las tecnologías de voz-a-texto (STT) convierten los datos de voz en texto.
+de-identified = Des-identificado
+de-identified-explanation = El proceso mediante el cual la información del perfil de un colaborador se esconde de sus clips de voz donados cuando se empaqueta para su descarga como parte de la base de datos.
 
 ## Error pages
 
+error-title-404 = No pudimos encontrar esa página para usted
+error-content-404 = ¿Quizás nuestra <homepageLink>página de inicio</homepageLink> ayude? Para hacer una pregunta, únase al <matrixLink>chat de la comunidad de Matrix</matrixLink>, controle los problemas del sitio a través de <githubLink>GitHub</githubLink> o visite <discourseLink>nuestros foros de Discourse</discourseLink>.
+error-title-503 = Estamos experimentando un tiempo de inactividad inesperado
+error-content-503 = El sitio volverá a funcionar tan pronto como sea posible. Para obtener la información más reciente, únase al <matrixLink>chat de la comunidad de Matrix</matrixLink> o visite <githubLink>GitHub</githubLink> o <discourseLink>nuestros foros de Discourse</discourseLink> para enviar y monitorear problemas de experiencia en el sitio.
+error-code = Error { $code }
 
 ## Data
 
+data-download-button = Descargar datos de Common Voice
+data-download-yes = Si
+data-download-deny = No
+data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
+data-download-modal = Está a punto de iniciar una descarga de <size>{ $size }GB</size>, ¿continuar?
+data-subtitle = Estamos construyendo una base de datos de voces abierto y disponible públicamente que todos pueden usar para entrenar aplicaciones habilitadas para voz.
 data-explanatory-text = Creemos que los grandes conjuntos de datos de voz disponibles públicamente fomentan la innovación y una sana competencia comercial en la tecnología del habla basada en el aprendizaje automático. Este es un esfuerzo global e invitamos a todos a participar. Nuestro objetivo es ayudar a que la tecnología del habla sea más inclusiva y refleje la diversidad de voces de todo el mundo.
 data-get-started = <speechBlogLink>Comenzar con el reconocimiento de voz</speechBlogLink>
 data-other-title = Otros conjuntos de datos de voz...
