@@ -530,6 +530,11 @@ about-get-involved-text-2 =
     Chat de la comunidad <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = ¿Cómo me mantengo en contacto?
 about-stay-in-touch-button = Regístrate
+about-stay-in-touch-text-1 = <email Fragment>Regístrese</email Fragment> en nuestra lista de correo para saber cómo puede participar en campañas, eventos y funciones de codiseño en Common Voice.
+about-stay-in-touch-text-2 = Puede conocer a otras personas en las comunidades lingüísticas de Mozilla uniéndose a <discourseLink>Discourse</discourseLink> para conversaciones temáticas o <matrixLink>Matrix</matrixLink> para obtener consejos rápidos.
+about-nav-why-common-voice = ¿Por qué?
+about-nav-how-it-works = ¿Cómo?
+about-nav-partners = Socios
 
 ## Community Playbook Content
 ## What is a language
