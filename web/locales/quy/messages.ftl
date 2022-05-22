@@ -505,6 +505,19 @@ about-speak-text = Los colaboradores graban clips de voz leyendo de un banco de 
 about-listen-queue = Cola de escucha
 about-listen-queue-text = Los clips de voz se ingresan en una cola de envío que los prepara para escucharlos.
 about-listen = Uyariy
+about-listen-text = Los usuarios validan la precisión de los clips donados, verificando que el orador lea la oración correctamente.
+about-is-it-valid = ¿Es válido el clip?
+about-is-it-valid-text = Un clip de voz se marca como "válido" cuando un usuario vota Sí.
+about-yes-votes = ≥ 2 Votos Si
+about-yes-votes-text = Para agregarlo a la base de datos de Common Voice, dos usuarios independientes deben validar un clip de voz.
+about-no-votes = ≥ 2 Votos No
+about-no-votes-text = Cuando un usuario rechaza un clip de voz, vuelve a la cola. Si se rechaza por segunda vez, el clip de voz se mueve al cementerio de clips.
+about-dataset-new = Base de datos de Common Voice
+about-dataset-new-text = La base de datos de Common Voice contiene cientos de miles de muestras de voz que ayudan a los desarrolladores a crear herramientas de reconocimiento de voz.
+about-clip-graveyard = Cementerio de Clips
+about-clip-graveyard-text = El Cementerio de clips consta de clips de voz que no llegaron a la base de datos de Common Voice. Al igual que la base de datos, Clip Graveyard está disponible para descargar.
+about-partners = Socios
+about-become-a-partner = Conviertete en Socio
 
 ## Community Playbook Content
 ## What is a language
