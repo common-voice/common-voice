@@ -518,6 +518,18 @@ about-clip-graveyard = Cementerio de Clips
 about-clip-graveyard-text = El Cementerio de clips consta de clips de voz que no llegaron a la base de datos de Common Voice. Al igual que la base de datos, Clip Graveyard está disponible para descargar.
 about-partners = Socios
 about-become-a-partner = Conviertete en Socio
+about-partnership =
+    Common Voice es un proyecto colaborativo, y dependemos de nuestra comunidad de socios y colaboradores para crear el conjunto de datos de voces de código abierto más grande de la historia.
+    
+    Nos gustaría agradecer a las siguientes personas y organizaciones por su ayuda con el proyecto:
+about-get-involved = Involucrarse
+about-get-involved-text-2 =
+    ¿Quiere ayudar a que Common Voice sea aún mejor?
+    ¡Estupendo! Póngase en contacto por correo electrónico o <discourseLink>Discourse</discourseLink>
+    foros, enviar problemas del sitio a través de <githubLink>GitHub</githubLink>, o unirse a la
+    Chat de la comunidad <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = ¿Cómo me mantengo en contacto?
+about-stay-in-touch-button = Regístrate
 
 ## Community Playbook Content
 ## What is a language
