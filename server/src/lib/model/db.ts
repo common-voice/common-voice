@@ -3,7 +3,13 @@ import Mysql, { getMySQLInstance } from './db/mysql';
 import Schema from './db/schema';
 import ClipTable, { DBClip } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
-import { ChallengeToken, Sentence, TaxonomyToken, taxonomies } from 'common';
+import {
+  ChallengeToken,
+  Sentence,
+  TaxonomyToken,
+  taxonomies,
+  Language,
+} from 'common';
 import lazyCache from '../lazy-cache';
 const MINUTE = 1000 * 60;
 const DAY = MINUTE * 60 * 24;
@@ -897,6 +903,39 @@ export default class DB {
         [id]
       )
     )[0][0];
+  }
+
+  async getLanguages(): Promise<Language[]> {
+    const [rows] = await this.mysql.query(
+      `SELECT l.id, l.name, l.target_sentence_count as target_sentence_count, count(1) as total_sentence_count
+        FROM locales l
+        JOIN sentences s ON s.locale_id = l.id
+        GROUP BY l.id`
+    );
+    return rows.map(
+      (row: {
+        id: number;
+        name: string;
+        target_sentence_count: number;
+        total_sentence_count: number;
+      }) => ({
+        id: row.id,
+        name: row.name,
+        sentenceCount: {
+          targetSentenceCount: row.target_sentence_count,
+          currentCount: row.total_sentence_count,
+        },
+      })
+    );
+  }
+
+  async getAllLanguages(): Promise<Language[]> {
+    const [rows] = await this.mysql.query(
+      `SELECT *
+        FROM locales l
+    `
+    );
+    return rows;
   }
 
   async getRequestedLanguages(): Promise<string[]> {

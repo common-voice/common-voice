@@ -13,6 +13,8 @@ email-opt-in-info-title = Batu Common Voice posta-zerrendara
 email-opt-in-info-sub-with-challenge = Jaso posta elektroniko bidez Common Voice-ri buruzko helburuen abisuak, aurrerapenaren eguneraketak eta buletinak.
 indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
 not-available-abbreviation = N/A
+banner-error-slow-1 = Barkatu, Common Voice orain geldo dabil. Zure interesa eskertzen dugu.
+banner-error-slow-2 = Trafiko asko jasotzen ari gara eta arazoaren jatorria ikertzen ari gara.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -380,6 +382,7 @@ gravatar_not_found = Ez da gravatarrik aurkitu zure e-postarako
 file_too_large = Hautatutako fitxategia handiegia da
 avatar-uploaded = Avatarra igo da
 max-file-size = { $kb }kb gehienez
+remove-avatar = Kendu avatarra
 
 ## Profile - Email
 
@@ -496,6 +499,7 @@ about-get-involved-text-2 =
     <githubLink>GitHub</githubLink>-en arazo baten berri eman,
     edo batu komunitateko <matrixLink>Matrix</matrixLink> txatera.
 about-stay-in-touch = Nola egon naiteke harremanetan?
+about-stay-in-touch-text-1 = <emailFragment>Harpidetu</emailFragment> gure eposta-zerrendara kanpainetan eta ekitaldietan nola parte hartu ikasteko eta Common Voicen ezaugarriak diseinatzen laguntzeko.
 about-nav-why-common-voice = Zergatik?
 about-nav-how-it-works = Nola?
 about-nav-partners = Babesleak
@@ -527,6 +531,8 @@ about-playbook-how-record-quality = Nola graba dezaket kalitate handiko ahots gr
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Ekitaldiak
+about-playbook-how-grow-language-content-4 = Sare sozialak
 
 ## How to validate
 
@@ -539,6 +545,12 @@ about-playbook-how-access-dataset = Nola atzitu eta erabili dezaket datu-sorta?
 ## How are decisions made
 
 about-playbook-how-project-governance = Nola hartzen dira proiektuko erabakiak?
+about-playbook-how-project-governance-content-2 = Gure gobernatzeko era zutabe hauetan oinarritzen da:
+about-playbook-how-project-governance-content-3 = Pribatutasuna, segurtasuna eta gardentasuna.
+about-playbook-how-project-governance-content-4 = Komunitatearen parte-hartzea, baita erabakietan ere.
+about-playbook-how-project-governance-content-5 = Balioa eta aitortza.
+about-playbook-how-project-governance-content-6 = Elkarri kontu ematea.
+about-playbook-how-project-governance-content-7 = <governanceLink>Irakurri gehiago gure gobernatzeko moduaz</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Adimen artifiziala
 mycroft-description =
@@ -601,6 +613,7 @@ review-delete-recordings = Ezabatu nire grabazioak
 
 ## Datasets Page
 
+datasets-heading = Datu-sortak
 datasets-headline = Ahotsen datu-sorta ireki eta publiko bat sortzen ari gara, edonork erabil dezakeena hizketa baliatzen duten aplikazioak trebatzeko.
 datasets-positioning =
     Gure ustez, datu-sorta handi eta publikoek, berrikuntza eta lehia komertzial osasuntsua sustatzen dute ikasketa automatikoan oinarritutako hizketaren teknologietan.
@@ -680,6 +693,23 @@ request-language-success-title = Hizkuntza-eskaera ondo bidali da, eskerrik asko
 request-language-success-content = Laster jarriko gara zurekin harremanetan Common Voice proiektuan zure hizkuntza nola gehitu azaltzen duen informazioarekin.
 select-language = Hautatu hizkuntza bat...
 other-language = Bestelako hizkuntza
+
+## Request Language Pages
+
+request-language-heading = Hizkuntza berri bat eskatu
+request-language-form-email =
+    .label = Zure eposta helbidea
+request-language-form-info =
+    .label = Hizkuntzari buruzko informazioa
+request-language-form-info-explanation =
+    Gehitu zure hizkuntzari buruz ahal duzun informazio guztiak.
+    Honelakoak aipa ditzakezu:
+request-language-form-info-explanation-list-1 = Zure hizkuntzaren izenak
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO kodeak</isoCodeLink> badakizkizu
+request-language-google-recaptcha-required = reCAPTCHA ezinbestekoa da aurrera egiteko
+request-language-google-recaptcha-error = Zerbait oker joan da reCAPTCHA-rekin. Saiatu berriro mesedez.
+# Success page
+request-language-success-heading = Eskerrik asko! Hizkuntza berri baten eskaria bidali duzu
 
 ## Languages Overview
 
@@ -938,13 +968,18 @@ card-button-next = Hurrengoa
 card-button-back = Atzera
 demo-language-select-label = Arakatu hizkuntzak
 demo-eofy-header = 2019(e)ko urte bukaerako argitalpena
+demo-eofy-sub_header = Ahots datu-sorta, deskargatzeko prest
 demo-account = Kontua
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = Sartu eposta izen-emate esteka bidaltzeko
+demo-account-sign-up = Bidali izen-emate esteka
 
 ## Demo Contribute
 
+demo-contribute-card-header = Zure ahotsa gehitu edo zure belarriarekin laguntzeko prest?
 demo-listen-subtitle = Laguntzeko prest?
 
 ## Demo Dashboard

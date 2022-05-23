@@ -169,7 +169,7 @@ button {
     min-height: 100%;
 }
 
-.main-logo {
+.Logo {
     @media (--md-up) {
         margin-inline-end: var(--standard-margin);
         width: 10rem;
@@ -184,7 +184,7 @@ button {
     }
 
     &,
-    & .main-mozilla-logo {
+    & .LogoImage {
         height: 100%;
     }
 }

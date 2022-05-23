@@ -57,18 +57,10 @@ export default class API {
 
     router.use(authMiddleware);
     router.get('/metrics', (request: Request, response: Response) => {
-      console.log('Received a metrics request', {
-        referer: request.header('Referer'),
-        query: request.query,
-      });
       response.redirect('/');
     });
 
     router.get('/golem', (request: Request, response: Response) => {
-      console.log('Received a Golem request', {
-        referer: request.header('Referer'),
-        query: request.query,
-      });
       response.redirect('/');
     });
 
@@ -118,6 +110,7 @@ export default class API {
     router.get('/requested_languages', this.getRequestedLanguages);
     router.post('/requested_languages', this.createLanguageRequest);
 
+    router.get('/languages_all', this.getAllLanguages);
     router.get('/language_stats', this.getLanguageStats);
 
     router.post('/newsletter/:email', this.subscribeToNewsletter);
@@ -181,6 +174,10 @@ export default class API {
     } = request;
     await this.model.db.createSkippedClip(id, client_id);
     response.json({});
+  };
+
+  getAllLanguages = async (_request: Request, response: Response) => {
+    response.json(await this.model.getAllLanguages());
   };
 
   getLanguageStats = async (request: Request, response: Response) => {

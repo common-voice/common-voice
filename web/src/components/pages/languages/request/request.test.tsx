@@ -10,6 +10,11 @@ expect.extend(toHaveNoViolations);
 
 import LangugagesRequestFormPage from './request';
 
+jest.mock('../../../../logger');
+
+// mock window.scrollTo
+global.scrollTo = jest.fn();
+
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const mockUseHistoryPush = jest.fn(() => null as any);
 jest.mock('react-router-dom', () => ({

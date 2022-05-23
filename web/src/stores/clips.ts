@@ -1,6 +1,4 @@
 import { Action as ReduxAction, Dispatch } from 'redux';
-const contributableLocales =
-  require('../../../locales/contributable.json') as string[];
 import StateTree from './tree';
 import { User } from './user';
 import { Clip } from 'common';
@@ -73,10 +71,6 @@ export namespace Clips {
     };
   }
 
-  const localeClips = ({ locale, clips }: StateTree) => clips[locale];
-
-  export const selectors = { localeClips };
-
   enum ActionType {
     REFILL_CACHE = 'REFILL_CLIPS_CACHE',
     REMOVE_CLIP = 'REMOVE_CLIP',
@@ -127,7 +121,10 @@ export namespace Clips {
         const state = getState();
 
         // don't load if no contributable locale
-        if (!contributableLocales.includes(state.locale)) {
+        if (
+          state.languages &&
+          !state.languages.contributableLocales.includes(state.locale)
+        ) {
           return;
         }
 
@@ -191,25 +188,26 @@ export namespace Clips {
       },
   };
 
+  const DEFAULT_LOCALE_STATE = {
+    clips: [] as Clip[],
+    isLoading: false,
+    hasLoadingError: false,
+    showFirstContributionToast: false,
+    showFirstStreakToast: false,
+    hasEarnedSessionToast: false,
+    challengeEnded: false,
+  };
+
   export function reducer(
     locale: string,
-    state: State = contributableLocales.reduce(
-      (state, locale) => ({
-        ...state,
-        [locale]: {
-          clips: [],
-          isLoading: false,
-          hasLoadingError: false,
-          showFirstContributionToast: false,
-          showFirstStreakToast: false,
-          hasEarnedSessionToast: false,
-        },
-      }),
-      {}
-    ),
+    state: State = {},
     action: Action
   ): State {
-    const localeState = state[locale];
+    const currentLocaleState = state[locale];
+    const localeState = {
+      ...DEFAULT_LOCALE_STATE,
+      ...currentLocaleState,
+    };
 
     switch (action.type) {
       case ActionType.LOAD:
@@ -278,4 +276,16 @@ export namespace Clips {
         return state;
     }
   }
+
+  const localeClips = ({ locale, clips }: StateTree) => {
+    if (!clips[locale]) {
+      return DEFAULT_LOCALE_STATE;
+    }
+
+    return clips[locale];
+  };
+
+  export const selectors = {
+    localeClips,
+  };
 }

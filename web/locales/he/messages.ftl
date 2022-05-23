@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = קבלת הודעות בדוא״ל כגו
 email-opt-in-privacy-v2 = בחירה בקבלת הודעות דוא״ל מביעה את הסכמתך ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla.
 indicates-required = * מסמן שדה נחוץ
 not-available-abbreviation = לא זמין
+banner-error-slow-1 = Common Voice פועל באטיות, עמך הסליחה ותודה על הבעת העניין.
+error-something-went-wrong = משהו השתבש, עמך הסליחה
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,6 +42,7 @@ br = ברטון
 bxr = בוריאטית
 ca = קטלאנית
 cak = קאקצ׳יקל
+ckb = כורדית מרכזית
 cnh = הק׳הא צ׳ין
 co = קורסיקאית
 cs = צ׳כית
@@ -75,6 +78,7 @@ hy-AM = ארמנית
 hyw = ארמנית מערבית
 ia = אינטרלינגואה
 id = אינדונזית
+ie = אינטרלינגואֶה
 is = איסלנדית
 it = איטלקית
 izh = איז׳ורית
@@ -82,12 +86,16 @@ ja = יפנית
 ka = גאורגית
 kab = קבילית
 kbd = קברדינית
+ki = קיקויו
 kk = קזחית
+km = חמרית / קמבודית
 kmr = כורדית קורמנג׳ית
+knn = קונקאני (דֶּוַונַאגַּרִי)
 ko = קוריאנית
 kpv = קומי־זיר
 kw = קורנית
 ky = קירגיזית
+lb = לוקסמבורגית
 lg = לוגנדה
 lij = ליגורית
 lt = ליטאית
@@ -105,10 +113,13 @@ ms = מלאית
 mt = מלטית
 my = בורמזית
 myv = ארזיה
+nan-tw = טייוואנית (מינן)
 nb-NO = נורווגית ספרותית
 ne-NP = נפאלית
+nia = ניאס
 nl = הולנדית
 nn-NO = נורווגית חדשה
+nyn = ‏‏ניאנקולה
 oc = אוקסיטנית
 or = אורייה
 pa-IN = פנג׳אבי
@@ -118,7 +129,9 @@ ps = פשטו
 pt = פורטוגלית
 ro = רומנית
 ru = רוסית
+rw = קיניַרואנדה
 sah = סאחה
+sat = סנטאלי (אול צ׳יקי)
 sc = סרדינית
 scn = סיציליאנית
 shi = תשלחית
@@ -138,6 +151,7 @@ th = תאילנדית
 tl = טאגאלוג
 tr = טורקית
 tt = טטארית
+tw = טווי
 uby = אוביחית
 udm = אודמורטית
 ug = אויגור
@@ -179,6 +193,7 @@ logout = התנתקות
 ## Home Page
 
 home-title = מיזם Common Voice הוא יזמה של Mozilla לטובת סיוע ללימוד מכונות איך מדברים אנשים אמיתיים.
+default-tagline = Common Voice מבית Mozilla הוא יזמה לטובת סיוע ללימוד מכונות איך מדברים אנשים אמתיים.
 home-cta = דברו בקול רם, כאן ניתן לתרום!
 wall-of-text-start = קול זה טבעי, קול זה אנושי. לכן מרתק אותנו הרעיון של יצירת טכנולוגיית קול שמישה עבור המכונות שלנו. אך כדי ליצור מערכות קול, נדרשת כמות גדולה של נתוני קול.
 wall-of-text-more-mobile = רוב הנתונים בהם ארגונים גדולים משתמשים אינם זמינים לקהל הרחב. אנו חושבים שנדרשת כאן חשיבה מחדש. לכן, השקנו את מיזם Common Voice, מיזם שיסייע לפתוח את עולם הזיהוי הקולי לכולם.
@@ -354,6 +369,7 @@ gravatar_not_found = לא נמצא gravatar עבור כתובת הדוא״ל ש�
 file_too_large = הקובץ שנבחר גדול מדי
 avatar-uploaded = נשלחה תמונה ייצוגית
 max-file-size = { $kb } ק״ב לכל היותר
+remove-avatar = הסרת דמות מייצגת
 
 ## Profile - Email
 
@@ -407,9 +423,12 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = למה Common Voice?
+how-does-it-work-title-v2 = איך Common Voice פועל?
 
 ## How does it work section
 
+about-voice-validation-subtitle = אנשים אחרים מאמתים את המקטעים הקוליים האלה.
+about-subscribe-text = רוצה להישאר בקשר עם Common Voice?
 about-speak = דבר
 about-speak-text = מתנדבים מקליטים קטעי קול על ידי הקראה מתוך מאגר של משפטים שנתרמו.
 about-listen-queue = תור האזנה
@@ -421,21 +440,32 @@ about-is-it-valid-text = קטע קולי נחשב „תקף” כאשר מתקב
 about-partners = שותפים
 about-become-a-partner = יצירת שותפות
 about-get-involved = הצטרפות
+about-stay-in-touch = איך אפשר לשמור על קשר?
+about-stay-in-touch-button = הרשמה
+about-stay-in-touch-text-2 = אפשר לפגוש אחרים בקהילות השפה של Mozilla על ידי הצטרפות ל־<discourseLink>Discourse</discourseLink> לדיונים לפי נושאים או ל־<matrixLink>Matrix</matrixLink> להתייעצות זריזה.
 about-nav-why-common-voice = למה?
 about-nav-how-it-works = איך?
 about-nav-partners = שותפים
 about-nav-get-involved = הצטרפות
-about-nav-how-it-works-2 = כיצד פועל Common Voice?
+about-nav-how-it-works-2 = איך Common Voice פועל?
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = מה זו שפה ב־Common Voice?
+about-playbook-what-is-language-content-1 = ישנן דרכים רבות לחשוב על שפה. למטרות מודלים לזיהוי דיבור, מציע Common Voice להתמקד ב‚הבנה הדדית’ או ‚האם דוברי השפה הזאת יבינו זה את זה באופן כללי אם הם ינסו?’
 
 ## How do I add a language
 
+about-playbook-how-add-language = איך אפשר להוסיף שפה?
+about-playbook-how-add-language-content-1 = ראשית יש לבדוק אם השפה שלך <languageLink>כבר קיימת</languageLink>. אם לא, עליך <strong>לתרגם את האתר ולאסוף משפטים</strong>.
 
 ## How does localization work
 
+about-playbook-how-localize = איך עובד תרגום אתר?
+about-playbook-how-localize-content-1 = תרגום אתר Common Voice מתרחש ב־<strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = האתר מוכן להשקה כשאחוז השלמת התרגום מגיע ל־75%.
+about-playbook-how-localize-content-5 = ניתן לצפות בסרטון ההסברה שלנו לקבלת עזרה
 
 ## How to add sentences
 
@@ -443,6 +473,7 @@ about-playbook-how-add-sentences = איך אני מוסיף משפטים?
 
 ## How to record quality
 
+about-playbook-how-record-content-3 = יש לקרוא את המשפט בקפידה - לא להשמיט, לשנות או להוסיף מילים.
 
 ## How to grow language
 
@@ -457,7 +488,10 @@ about-playbook-how-grow-language-content-4 = מדיה חברתית
 
 ## How are decisions made
 
+about-playbook-how-project-governance = איך מתקבלות החלטות במיזם?
 about-playbook-how-project-governance-content-3 = פרטיות, אבטחה ושקיפות.
+about-playbook-how-project-governance-content-4 = מעורבות בקהילה וקבלת החלטות.
+about-playbook-how-project-governance-content-6 = אחריות הדדית.
 mycroft-subtitle = בינה מלאכותית
 
 ## Glossary
@@ -514,6 +548,7 @@ review-delete-recordings = מחיקת ההקלטות שלי
 
 ## Datasets Page
 
+datasets-heading = סדרות נתונים
 language = שפה
 # File size in gigabytes
 size = גודל
@@ -579,6 +614,17 @@ other-language = שפה אחרת
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = כתובת הדוא״ל שלך
+request-language-form-info =
+    .label = מידע על השפה
+request-language-form-info-explanation = נא להוסיף כמה שיותר מידע על השפה. לרבות:
+request-language-form-info-explanation-list-1 = שמות השפה שלך
+request-language-form-info-explanation-list-3 = קישורים לאתרים שיכולים לסייע לנו להבין את השפה
+request-language-google-recaptcha-required = יש לפתור reCAPTCHA כדי להמשיך
+request-language-google-recaptcha-error = משהו השתבש ב־reCAPTCHA. נא לנסות שוב.
+# Success page
+request-language-success-heading = תודה רבה! שלחת שאילתה על שפה חדשה
 
 ## Languages Overview
 
@@ -642,6 +688,7 @@ listen-instruction = { $actionType } <playIcon></playIcon> האם המשפט ב�
 listen-again-instruction = עבודה טובה! <playIcon></playIcon> נא להאזין שוב בזמנך החופשי
 listen-3rd-time-instruction = עברנו 2 <playIcon></playIcon>, קצב טוב!
 listen-last-time-instruction = <playIcon></playIcon> אחרון חביב!
+listen-empty-state = נגמרו לנו ההקלטות לאימות בשפה הזו…
 speak-empty-state-cta = תרומת משפטים
 record-button-label = הקלטת הקול שלך
 share-title-new = נשמח <bold>לסיוע</bold> למצוא קולות נוספים
@@ -829,32 +876,54 @@ sc-home-review-title = סקירת משפטים
 
 sc-howto-addsen-title = הוספת משפטים חדשים
 sc-howto-review-title = סקירת משפטים
+sc-howto-findpd-title = איתור משפטים קיימים שזמינים לנחלת הכלל
+sc-howto-findpd-tips = להלן מגוון עצות לאיתור משפטים:
 
 ## MY SENTENCES
 
 sc-my-title = המשפטים שלי
+sc-my-loading = המשפטים שלך נטענים…
+sc-my-err-fetching = שגיאה במשיכת המשפטים שלך. נא לנסות שוב.
+sc-my-no-sentences = לא נמצאו משפטים!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = מקור: { $source }
 sc-my-delete = מחיקת משפטים נבחרים
+sc-my-deleting = המשפטים הנבחרים נמחקים…
+sc-my-err-failed-delete = מחיקת המשפטים הנבחרים נכשלה… נא לנסות שוב!
 
 ## REJECTED
 
 sc-rejected-title = משפטים שנדחו
+sc-rejected-loading = נטענים משפטים שנדחו…
+sc-rejected-err-fetching = שגיאה במשיכת המשפטים שנדחו. נא לנסות שוב.
 sc-rejected-none-found = לא נמצאו משפטים שנדחו!
 
 ## STATS
 
 sc-stats-title = סטטיסטיקות
+sc-stats-updating = מתבצע עדכון…
+sc-stats-error = לא הצלחנו למשוך את הסטטיסטיקה. נא לנסות שוב מאוחר יותר.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = אוסף המשפטים של Common Voice אסף { $sentenceCount } משפטים ב־{ $languageCount } שפות!
 
 ## ADD
 
 sc-submit-err-select-lang = נא לבחור שפה.
 sc-submit-err-add-sentences = נא להוסיף משפטים.
 sc-submit-err-add-source = נא להוסיף מקור.
+sc-submit-err-confirm-pd = נא לאשר שהמשפטים האלה הם נחלת הכלל.
+sc-submit-prompt =
+    .message = המשפטים לא הוגשו, לעזוב באמצע התהליך?
 sc-submit-title = הוספת משפטים
 sc-submit-select-language =
     .labelText = בחירת שפה
+sc-submit-add-sentences = הוספת משפטים <wikipediaLink>בנחלת הכלל</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = משפט אחד בכל שורה
+sc-submit-from-where = מאיפה המשפטים האלו שזמינים <wikipediaLink>לנחלת הכלל</wikipediaLink>?
 sc-submit-button =
     .submitText = שליחה
 
@@ -865,6 +934,14 @@ sc-add-lang-sec-button = הוספת שפה
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] לא נמצאו משפטים.
+        [one] נמצא משפט אחד.
+       *[other] נמצאו { $countOfSentences } משפטים.
+    }
 
 ## LANGUAGE INFO
 
@@ -888,11 +965,15 @@ sc-personal-not-added = עדיין לא הוספת שפות.
 
 ## REVIEW CRITERIA
 
+sc-criteria-make-sure = נא לוודא שהמשפט עומד בתנאים הבאים:
+sc-criteria-item-1 = על המשפט להיות מאוית כראוי.
 sc-criteria-item-2 = המשפט חייב להיות נכון מבחינה דקדוקית.
 
 ## REVIEW
 
 sc-review-title = סקירת משפטים
+sc-review-loading = המשפטים נטענים…
+sc-review-select-language = נא לבחור שפה כדי לסקור משפטים.
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = מקור: { $sentenceSource }
@@ -901,12 +982,29 @@ sc-review-form-button-skip = דילוג
 sc-review-form-button-approve = אישור
 sc-review-form-button-submit =
     .submitText = סיום הסקירה
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] לא סקרת משפטים.
+        [one] סקרת משפט אחד. תודה רבה!
+       *[other] סקרת { $sentences } משפטים. תודה רבה!
+    }
+sc-review-form-review-failure = לא ניתן היה לשמור את הסקירה. נא לנסות שוב מאוחר יותר.
 sc-review-link = סקירה
 
 ## SETTINGS
 
 sc-settings-title = הגדרות
 sc-settings-ui-language = שפת ממשק
+sc-settings-failed = לא ניתן היה לשנות את ההגדרות. נא לנסות שוב.
+# VALIDATION
+sc-validation-number-of-words = המשפט חייב להכיל בין 1 ל־14 (כולל) מילים
+sc-validation-no-numbers = משפט לא יכול להכיל מספרים
+sc-validation-no-symbols = משפט לא יכול להכיל סימנים
+sc-validation-no-abbreviations = משפט לא יכול להכיל ראשי תיבות
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = בחירה בשפה/תרגום

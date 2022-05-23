@@ -1175,6 +1175,7 @@ sc-logout-button = 로그아웃
 ## HOME
 
 sc-home-title = Common Voice Sentence Collector에 오신 것을 환영합니다
+sc-home-intro = 문장 수집기는 <commonVoiceLink>Common Voice</commonVoiceLink>의 일부입니다. 이를 통해 기여자는 커뮤니티에서 생성한 문장을 수집하고 검증할 수 있습니다. 이 도구를 사용하여 찾거나 수집한 중소 규모의 공개 도메인 말뭉치를 가져오고 정리할 수도 있습니다. 모든 문장은 공개 도메인이어야 합니다. 승인된 문장은 매주 Common Voice 리포지토리로 내보내지고 모든 새 배포 시 Common Voice 웹사이트에 공개됩니다.
 sc-home-collect-title = 문장 수집
 sc-home-collect-text = 공개 도메인 문장을 작성하거나 수집하여 저희를 도와주세요.
 sc-home-review-title = 문장 검토
@@ -1189,6 +1190,28 @@ sc-howto-title = 길잡이
 sc-howto-addlang-title = 작업할 언어 추가
 sc-howto-addlang-text = 로그인하면 프로필 섹션에서 언어를 선택할 수 있습니다.
 sc-howto-addsen-title = 새로운 문장 추가
+sc-howto-addsen-item-1 = 제출하는 모든 문장은 <wikipediaLink>공개 도메인(CC-0) 라이선스</wikipediaLink>에 따라야 합니다. 공개 라이선스가 적용되지 않은 저작물의 포함을 지원하기 위해 저작권 소유자가 Common Voice에 자료를 기고하고자 하는 저작물에 대한 <cc0WaiverLink>기여 계약 템플릿</cc0WaiverLink>을 만들었습니다.
+sc-howto-addsen-item-2 = 숫자. 큰 소리로 읽을 때 문제를 일으킬 수 있으므로 원본 텍스트에 숫자가 없어야 합니다. 숫자를 읽는 방법은 컨텍스트에 따라 다르며 데이터 세트에 혼동을 일으킬 수 있습니다. 예를 들어, 숫자 "2409"는 "이사공구"와 "이천사백구" 두 가지로 읽을 수 있습니다.
+sc-howto-addsen-item-3 = 축약어와 두음 어. "USA" 또는 "ICE"와 같은 약어 및 두문자어는 철자와 일치하지 않는 방식으로 읽힐 수 있으므로 원본 텍스트에서 피해야 합니다. 또한 단일 약어에 대해 여러 개의 정확한 판독값이 있을 수 있습니다. 예를 들어, 약어 "ICE"는 "아이-씨-이"로 발음하거나 단일 단어("아이스")로 발음할 수 있습니다.
+sc-howto-addsen-item-4 = 구두점. 특수 기호와 구두점은 반드시 필요한 경우에만 포함되어야 합니다. 예를 들어, 아포스트로피는 "don't" 및 "we're"와 같은 영어 단어에 포함되고 원문 텍스트에 포함되어야 하지만 "@" 또는 "#"과 같은 특수 기호가 필요할 가능성은 거의 없습니다.
+sc-howto-addsen-item-5 = 외국어 문자. 문자는 사용하는 언어로 유효해야 합니다. 예를 들어, "ж"는 러시아 알파벳의 문자이지만 영어에서는 절대 사용되지 않으므로 영어 원문 텍스트에 나타나서는 안 됩니다.
+sc-howto-addsen-item-6 = 언어는 추가로 요구되는 사항과 함께 <validationRulesLink>자체 유효성 검사 규칙</validationRulesLink>을 가질 수 있습니다. 언어에 대한 특정 유효성 검사 파일이 없는 경우 일반 영어 규칙을 사용합니다.
+sc-howto-addsen-post-1 = 우리는 자연스러운/대화 문장을 선호합니다. 발음의 다양성과 문장의 다른 단어도 중요하지만 가능한 재미있게 문장을 녹음하려고 노력하고 있습니다. 따라서 문장을 가능한 자연스럽고 매력적으로 유지하려고 노력한다면 좋습니다.
+sc-howto-cite-title = 인용하는 방법
+sc-howto-cite-pre-1 = 표절을 방지하고 <copyrightIssuesLink>저작권 문제</copyrightIssuesLink>에 대한 후속 조치를 허용하려면 발견한 공용 라이선스 위치를 참조하는 것이 중요합니다. 다음은 작업을 인용할 수 있는 몇 가지 방법입니다.
+sc-howto-cite-item-1 = 웹사이트를 포함할 수 있습니다. 예를 들어 "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = 학술적 참조 스타일을 사용할 수 있습니다. 예를 들어 Harvard 스타일 "Mozilla(2021) Common Voice. https://commonvoice.mozilla.org/ 에서 사용 가능(접근: 2021년 9월 15일)"
+sc-howto-cite-item-3 = 온라인에서 사용할 수 없는 공개 도메인 텍스트의 경우, Harvard 스타일 "Jess (2021) My Public license 시"와 같은 학술적 참조 스타일을 사용할 수 있습니다.
+sc-howto-review-title = 문장 검토
+sc-howto-review-subtitle = 문장이 다음 기준을 충족하는지 확인:
+sc-howto-review-criteria-1 = 문장의 철자가 정확해야 합니다.
+sc-howto-review-criteria-2 = 문장은 문법적으로 정확해야 합니다.
+sc-howto-review-criteria-3 = 문장은 말할 수 있어야 합니다.
+sc-howto-review-criteria-4 = 문장이 기준에 부합하면 "승인" 버튼을 클릭하십시오.
+sc-howto-review-criteria-5 = 문장이 위의 기준에 맞지 않으면 "거부" 버튼을 클릭하십시오. 문장이 확실하지 않은 경우 건너뛰고 다음 문장으로 넘어갈 수도 있습니다.
+sc-howto-review-criteria-6 = 검토할 문장이 부족하면 더 많은 문장을 수집할 수 있도록 도와주세요!
+sc-howto-findpd-title = 퍼블릭 도메인에서 기존 문장 찾기
+sc-howto-findpd-subtitle = 인터넷에서 검색
 
 ## MY SENTENCES
 

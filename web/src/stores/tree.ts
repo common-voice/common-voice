@@ -3,6 +3,7 @@ import API from '../services/api';
 import { Clips } from './clips';
 import { Flags } from './flags';
 import { Notifications } from './notifications';
+import * as Languages from './languages';
 import { Sentences } from './sentences';
 import { RequestedLanguages } from './requested-languages';
 import { Uploads } from './uploads';
@@ -13,6 +14,7 @@ export default interface StateTree {
   clips: Clips.State;
   flags: Flags.State;
   notifications: Notifications.State;
+  languages: Languages.State;
   locale: string;
   requestedLanguages: RequestedLanguages.State;
   sentences: Sentences.State;

@@ -18,6 +18,7 @@ type HeroType = 'speak' | 'listen';
 
 export default function HomePage() {
   const heroes = ['speak', 'listen'];
+
   const { locale, user } = useTypedSelector(
     ({ locale, user }) => ({
       locale,

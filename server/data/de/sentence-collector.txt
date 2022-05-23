@@ -9439,6 +9439,7 @@ Dies zeigt die Ermessensnatur der Gebührenhöhe.
 Diese Abstandsregelungen sind echt klasse.
 Diese Altlast müßen wir entsorgen.
 Diese Ampel ist das Lächerlichste, was die Stadt in den letzten Jahren gebaut hat.
+Diese Angebote und Sammlungen werden schrittweise erweitert.
 Diese Ansichtskarte haben eure Enkelkinder für euch ausgesucht.
 Diese App ist der komplette Müll.
 Diese Arbeit macht wirklich Spaß, solange man die Konsequenzen seines Handelns nicht tragen muss.
@@ -11101,6 +11102,7 @@ Eine protestierende Mutter steht an der Kasse und verlangt Sammelkarten für ihr
 Eine pummelige Frau bediente sich schon am Buffet.
 Eine saubere Rolle wird mit einem Strecksprung beendet.
 Eine schlechte Impfung ist immer noch besser als gar keine Impfung!
+Eine schlichte Fichte.
 Eine sehr schöne Kommode aus Erlenholz, muss ich sagen!
 Eine sexuelle Beziehung kommt somit nicht infrage!
 Eine so imposante Orgel hatte sie noch nie gesehen.
@@ -11564,6 +11566,7 @@ Er hat doch auch gesagt, dass es ballert.
 Er hat ein einschüchterndes Aussehen.
 Er hat ein wenig gebraucht, bis er es verstanden hat.
 Er hat eine Abfindung in Millionenhöhe kassiert.
+Er hat eine Plauze.
 Er hat eine frappierende Ähnlichkeit mit seiner Mutter.
 Er hat eine große Zukunft in der Kameradschaft!
 Er hat eine umfangreiche Modellautosammlung.
@@ -11751,6 +11754,7 @@ Er sagt, er beschäftigt sich nur damit.
 Er sagte, er habe ein ungutes Gefühl bei dieser Sache.
 Er sah sie an und sagte nur: Das ist jetzt nicht dein Ernst, oder?
 Er schenkte ihr endlich reinen Wein ein und sie unterhielten sich die halbe Nacht.
+Er schlief noch ein letztes Mal mit ihr und machte am nächsten Morgen Schluss.
 Er schluchzte vor Tränen.
 Er schneidet den Karton auf und sucht den Lieferschein darin.
 Er schrie in die Welt hinaus, dass die bestehende Ordnung untergehen wird.
@@ -15068,6 +15072,7 @@ Heute ist die Wettervorhersage mal wieder zuverlässiger als die Fahrplanauskunf
 Heute ist ein rabenschwarzer Tag.
 Heute ist ein schöner Tag.
 Heute ist es aber wirklich unerträglich schwül!
+Heute ist es wieder einmal nicht schönes Wetter.
 Heute ist es ziemlich bewölkt.
 Heute ist morgen schon gestern.
 Heute ist schönes Frühlingswetter.
@@ -15748,6 +15753,7 @@ Ich bin jetzt schon in Gladbach am Stadion, bin viel zu gut durchgekommen.
 Ich bin jetzt viel zu müde, um einzuschlafen.
 Ich bin jetzt zum zweiten Mal auf dieser Veranstaltung.
 Ich bin kein Einbrecher!
+Ich bin kein Gynäkologe, aber schaue es mir einmal an.
 Ich bin kein Kind mehr!
 Ich bin kein Rassist, aber gegen Migranten wird man ja wohl noch hetzen dürfen!
 Ich bin kein Roboter.
@@ -16919,6 +16925,7 @@ Ich setze dieses Mal den Trend.
 Ich setze fünftausend auf den kleinen Dicken mit der Brille.
 Ich setze gerade meinen neuen Laptop auf.
 Ich seufze und lege die künstliche Kauleiste wieder in den Karton.
+Ich sitze am Tisch und lese ein Buch.
 Ich sitze im Auto und singe ein Musical.
 Ich sitze jetzt im Zug.
 Ich sitze schon seit einem Jahr im Homeoffice.
@@ -22132,6 +22139,7 @@ Mensch, ärgere dir nicht!
 Mensch-Ärgere-Dich-nicht ist ein bekanntes Gesellschaftsspiel.
 Mensch-ärgere-dich-nicht kann man mit kontinuierlichen Feldern und Kugeln statt Würfeln spielen.
 Menschen brauchen auch mal eine Pause.
+Menschen erfahren die Nähe und Gastfreundschaft Gottes mit allen Sinnen.
 Menschen finden immer einen Grund zu streiten.
 Menschen kann ich ganz gut verkuppeln, Waggons nur abkoppeln.
 Menschen mit denen sogar Nichtstun Spaß macht, sollte man behalten.
@@ -22294,6 +22302,7 @@ Mist, jetzt ist mir der Korken in die Flasche gerutscht.
 Mist, mein Akku ist gleich leer.
 Mist, wieder nichts geschafft!
 Mist, wir waren so dicht dran!
+Mister Bossy ist wieder da.
 Mister Laber und seine Tasche.
 Mister Neunundsechzig hat gesprochen.
 Mister Petition und seine Unterschrift.
@@ -23614,6 +23623,7 @@ Nicht recycelbarer Abfall wird thermisch verwertet, sprich verbrannt.
 Nicht schlecht der Specht!
 Nicht schlecht für den Anfang.
 Nicht schlecht, Herr Specht!
+Nicht schon wieder anfangen zu jallern.
 Nicht schon wieder eine Razzia!
 Nicht schon wieder so ein sinnloser Töpferkurs!
 Nicht schon wieder!
@@ -26150,6 +26160,7 @@ Sie essen große Mengen Müsli mit Vollmilch.
 Sie fallen ja sowieso aus.
 Sie fanden es deshalb ratsam, einen anderen Weg einzuschlagen.
 Sie faselt schon den ganzen Tag über Diversität und Inklusion.
+Sie feiern und singen miteinander, danken und freuen sich.
 Sie filmte zwei Smartphones mit Spracherkennung, wie sie sich miteinander unterhielten.
 Sie finden die App zum kostenlosen Download hier.
 Sie finden einen Online-Vogeltrainer als E-Learning-Tool.
@@ -26167,6 +26178,7 @@ Sie fragte sich die ganze Zeit schon, warum es immer ins Trudeln kommt.
 Sie fuchtelt mit dem Putzlumpen in der Hand herum.
 Sie fuhren bis Basel und stiegen dort ins Flugzeug.
 Sie fährt schon hart an der Grenze.
+Sie fühlen sich willkommen in einer lebendigen Gemeinschaft.
 Sie führen Sprengstoff in das Land ein.
 Sie führen zu inneren Spannungen.
 Sie gab dem Boten vom Pizza-Service Trinkgeld, weil er sehr schnell war.
@@ -34262,6 +34274,7 @@ Zunächst sollte das Histogramm normalisiert werden.
 Zunächst werden die Änderungen an nur wenigen Nutzern getestet.
 Zunächst wurden die Neulinge eher skeptisch betrachtet.
 Zunächst wurden zwei Komma fünf Millionen Euro veranschlagt.
+Zuoberst sind Informationen zum Prozess zu finden.
 Zur Anmeldung klicken Sie hier.
 Zur Authentisierung stellen Sie sich bitte vor die Kinect und tanzen Sie Ihr Passwort.
 Zur Bearbeitung der Aufgabe teilte der Lehrer die Klasse in Arbeitsgruppen.

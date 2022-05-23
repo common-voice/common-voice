@@ -3,9 +3,9 @@ import { connect } from 'react-redux';
 import Modal from '../../modal/modal';
 import { SuccessIcon } from '../../ui/icons';
 import API from '../../../services/api';
-import { NATIVE_NAMES } from '../../../services/localization';
 import { RequestedLanguages } from '../../../stores/requested-languages';
 import StateTree from '../../../stores/tree';
+import * as Languages from '../../../stores/languages';
 import { User } from '../../../stores/user';
 import PrivacyInfo from '../../privacy-info';
 import { Button, Hr, LabeledInput } from '../../ui/ui';
@@ -14,6 +14,7 @@ import { Localized } from '@fluent/react';
 interface PropsFromState {
   api: API;
   user: User.State;
+  languages: Languages.State;
 }
 
 interface PropsFromDispatch {
@@ -47,9 +48,12 @@ class GetInvolvedModal extends React.Component<Props, State> {
 
   private save = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const { api, createLanguageRequest, locale, updateUser, user } = this.props;
+    const { api, createLanguageRequest, locale, updateUser, user, languages } =
+      this.props;
     const { email, sendEmails } = this.state;
-    createLanguageRequest(NATIVE_NAMES[locale]);
+    if (languages.nativeNames) {
+      createLanguageRequest(languages.nativeNames[locale]);
+    }
     updateUser({ email, sendEmails });
     this.setState({ isSubmitted: true });
     if (!user.sendEmails && sendEmails) {
@@ -58,19 +62,19 @@ class GetInvolvedModal extends React.Component<Props, State> {
   };
 
   render() {
-    const { locale, onRequestClose } = this.props;
+    const { locale, onRequestClose, languages } = this.props;
     const { email, isSubmitted, sendEmails } = this.state;
 
-    const nativeName = NATIVE_NAMES[locale] || locale;
+    const nativeName = languages.nativeNames[locale] || locale;
 
     return (
       <Modal
         innerClassName="get-involved-modal"
         onRequestClose={onRequestClose}>
         <br />
-        <Localized id="get-involved-title" vars={{ lang: nativeName }}>
-          <h2 />
-        </Localized>
+        <h2>
+          <Localized id="get-involved-title" vars={{ lang: nativeName }} />
+        </h2>
         <br />
         <Localized
           id="get-involved-text"
@@ -82,6 +86,7 @@ class GetInvolvedModal extends React.Component<Props, State> {
         <div className="title-and-action">
           {!isSubmitted && (
             <Localized id="get-involved-form-title" vars={{ lang: nativeName }}>
+              {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
               <h4 />
             </Localized>
           )}
@@ -93,6 +98,7 @@ class GetInvolvedModal extends React.Component<Props, State> {
             <Localized
               id="get-involved-success-title"
               vars={{ language: nativeName }}>
+              {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
               <h2 />
             </Localized>
 
@@ -158,9 +164,10 @@ class GetInvolvedModal extends React.Component<Props, State> {
   }
 }
 
-const mapStateToProps = ({ api, user }: StateTree) => ({
+const mapStateToProps = ({ api, user, languages }: StateTree) => ({
   api,
   user,
+  languages,
 });
 
 const mapDispatchToProps = {

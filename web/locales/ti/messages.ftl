@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = ከም ብድሆታትን ሸቶታትን
 email-opt-in-privacy-v2 = ኢ-መይል ክትቅበል ብምምራጽካ ሞዚላ ነዚ ሓበሬታ እዚ ክትሕዞ ኣብ ናይ ሞዚላ <privacyLink>ናይ ምስጢር ፖሊሲ</privacyLink> ከምዝገለጸቶ ትሰማማዕ ኢኻ።
 indicates-required = ኣድላዪ ቦታ ይሕብር
 not-available-abbreviation = የለን
+banner-error-slow-1 = ይቕሬታ፡ ኮመን ቮይስ ዝሒሉ ኣሎ። ስለ ተገዳስነትኩም ነመስግን።
+banner-error-slow-2 = ብብዝሒ ተጠቀምቲ ይመጹና ኣለው፡ ነቲ ጠንቅታት ነጻርዮ ኣሎና።
+banner-error-slow-link = ናይ ሓበሬታ ገጽ
+error-something-went-wrong = ይቕሬታ፡ ገለ ብልሽት ኣጋጢሙ ኣሎ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,9 +40,9 @@ ba = ባሽኪር
 bas = ባሳ
 be = ቤላሩስያን
 bg = ቡልጋርያን
-bm = ባምባራ
 bn = ቤንጋሊ
 br = ብሬቶን
+bs = ቦዝንያዊ
 bxr = ቡርያት
 ca = ካታልያን
 cak = ካክቺከልያን
@@ -67,6 +71,7 @@ fy-NL = ፍሪስያን
 ga-IE = ኣይሪሽ
 gl = ጋሊሽያን
 gn = ጉራኒ
+gom = ጎኣን ኮንካኒ
 ha = ሃውሳ
 he = እብራይስጥ
 hi = ሂንዲ
@@ -90,11 +95,14 @@ kab = ካብይል
 kbd = ካባርድያን
 ki = ኪኪዩ
 kk = ካዛክ
+km = ክህመር
 kmr = ኩርማንጂ ኩርዲሽ
+knn = ኮንካኒ (ደቫንጋሪ)
 ko = ኮርያን
 kpv = ኮሚ-ዙርያን
 kw = ኮርኒሽ
 ky = ክይርግዝ
+lb = ላክሰንበርጋዊ
 lg = ሉጋንዳ
 lij = ሊጉርያን
 lt = ሊቶንያን
@@ -129,6 +137,7 @@ pl = ፖሊሽ
 ps = ፓሽቶ
 pt = ፖርቱጊስ
 quc = ኪቸ
+quy = ኰቿ ቻንካ
 rm-sursilv = ሮማንሽ ሱርሲቫን
 rm-vallader = ሮማኒሽ ቫልደር
 ro = ሮማንያን
@@ -141,6 +150,7 @@ scn = ቺቺልያን
 shi = ሺላህ
 si = ሲናላ
 sk = ስሎቫክ
+skr = ሳራይኪ
 sl = ስሎቬንያ
 so = ሶማሊ
 sq = ኣልባንያን
@@ -156,6 +166,7 @@ ti = ትግርኛ
 tig = ትግራይት
 tk = ቱርክመን
 tl = ታጋሎግ
+tok = ቶኪ ፖና
 tr = ተርክሽ
 tt = ታታር
 tw = ችዊ
@@ -341,6 +352,9 @@ profile-form-additional-language =
     .label = ተወሳኹ ቛንቛ
 profile-form-language =
     .label = ቛንቓ
+profile-form-variant =
+    .label = ኣየናይ ዓይነት { $language } ትዛረብ?
+profile-form-variant-default-value = ዝኾነ ዓይነት ኣይተመርጸን
 profile-form-accent =
     .label = ላህጃ
 profile-form-custom-accent-help-text =
@@ -403,6 +417,7 @@ gravatar_not_found = ኣብ ኢመይልካ/ኪ ግራቨተር ኣይተረኽ�
 file_too_large = እዚ መሪጽካዮ ዘሎኻ ፋይል ኣዝዩ ዓቢ እዩ
 avatar-uploaded = ምስሊ ኣደይብ
 max-file-size = እንተዓበየ { $kb } ኪሎ ጥራይ
+remove-avatar = ኣቫታር እለ
 
 ## Profile - Email
 
@@ -475,13 +490,20 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ስለመንታይ ኮመን ቮይስ?
-about-subtitle = ኮመን ቮይስ ሓደ ኻብቲ ሞዚላ ማሽናት ናይ ሓቂ ሰባት ብኸመይ ከም ዚዛረቡ ንምምሃር ዝገበረቶ ተበግሶ እዩ ። ኣብ ርእሲ እቲ ናይ ኮመን ቮይስ ሓበሬታ ዲፕ ስፒች (Deep Speech) ዝርርብ ዝበሃል ክፉት ምንጪ ናይ ምዝራብ ሞተር እውን ንሃንጽ ኣሎና ።
-about-header-description = ክልቲኡ እዚ ፕሮጀክትታት እዚ ሓደ ኻብቲ ንኤለክትሮኒካዊ ዘረባ ንምቅላል እንገብሮ ጻዕሪ እዩ። ተክኖሎጅያዊ መለለዪ ድምጺ ንኤለክትሮኒካዊ መሳርሒታትና ሰብኣዊ ስፍሓት እኳ እንተ ኣለዎ ኣዳለውቲ ግን ንምህናጽ ማእለያ ዘይብሉ ናይ ድምጺ ሓበሬታ የድልዮም ኢዩ። ኣብዚ እዋን እዚ መብዛሕትኡ እዚ ሓበሬታ እዚ ኽቡርን ዋንነት ዘለዎን እዩ ።
-about-header-description-2 =
-    እዚ ፕሮጀክት እዚ ነቲ ኣብ መንጎ ኤለክትሮኒካዊ ዘረባ ዘሎ ምክፍፋል ድልድል ንምግባር ዚግበር ጻዕሪ እዩ። ተክኖሎጅያዊ መለለዪ ድምጺ ንኤለክትሮኒካዊ መሳርሒታትና ሰብኣዊ ስፍሓት እኳ እንተ ኣለዎ ኣዳለውቲ ግን ንምህናጽ ማእለያ ዘይብሉ ናይ ድምጺ ሓበሬታ የድልዮም ኢዩ። ኣብዚ እዋን እዚ መብዛሕትኡ እዚ ሓበሬታ እዚ ኽቡርን ዋንነት ዘለዎን እዩ ።
-    ናይ ድምጺ ሓበሬታ ብናጻን ብግህዶን ከነቕርቦ ንደሊ ኢና እቲ ሓበሬታ ድማ ንእተፈላለዩ ናይ ሓቂ ሰባት ከም ዘመልክት ከነረጋግጽ ንደሊ ኢና። ብሓባር ኴንና ኣፍልጦ ድምጺ ንዅሉ ሰብ ከነመሓይሽ ንኽእል ኢና ።
-how-does-it-work-title = ብኸመይ ይሰርሕ?
+how-does-it-work-title-v2 = ኮመን ቮይስ ብኸመይ ይሰርሕ?
 how-does-it-work-text = ወፈራ ምእካብ ናይ ነጻ-ምንጪ ዝኾነ ሓበሬታ ድምጺ ንገብር ኣለና። ድምጽኻ ወፈያ ግበር፡ ንልክዕነት ክሊፕታት ናይ ካልኦት ሰባት ኣረጋግጽ፡ ነቲ ሓበሬታ ንዅሉ  ከዚመሓየሽ ግበር።
+
+## How does it work section
+
+about-language-req-subtitle = ሐደ ሰብ ሓደ ቛንቛ ንኽውሰኽ ይሓትት።
+about-localization-title = ምትርጓም መርበብ ሓበሬታ
+about-localization-subtitle = ናይ መርበብ ሓበሬታ ጽሑፋት ናብዚ ቛንቛ ተተርጒሙ እዩ።
+about-sentence-collection-title = እኩብ ምሉእ ሓሳባት
+about-sentence-collection-subtitle = ምሉእ ሓሳባት ሰባት ዓው ኢሎም ከንብብዎ እዩ ዝእከብ።
+about-new-lang-title = ምጅማር ሓድሽ ቛንቛ
+about-voice-contrib-title = ኣበርክቶ ናይ ድምጺ ቅዳሕ
+about-voice-contrib-subtitle = ሰባት መጺኦም ናይ ድምጺ ቅዳሕ የበርክቱ።
+about-voice-validation-title = ዝተቀርጸ ድምጺ ምፍታን
 about-speak = ተዛረብ
 about-speak-text = እቶም ኣበርክቶ ዚገብሩ ሰባት ካብ እኩብ እተወፈየ ምሉእ ሓሳባት ብምንባብ ክሊፕ ድምጺ ይቐድሑ
 about-listen-queue = ዝርዝር ክስማዕ ዘለዎ
@@ -510,10 +532,54 @@ about-get-involved-text-2 =
     ግርም! ብኢ-መይል ወይ ብፎሮም <discourseLink>ዲስኮርስ</discourseLink>
     ጸገማት ብ<githubLink>GitHub</githubLink> ኣቢልካ ሕታማት ወብ ሳይት ኣቕርብ ወይ ኣብቲ ወብ ሳይት ሓብር
     <matrixLink>ማትሪክስ</matrixLink> ማሕበረሰብ ዕላል።
+about-stay-in-touch = ብኸመይ ክንውከሰኩም ንኽእል?
+about-stay-in-touch-button = ተመዝገብ
 about-nav-why-common-voice = ንምንታይ?
 about-nav-how-it-works = ብኸመይ?
 about-nav-partners = መሻርኽቲ
 about-nav-get-involved = ተሳተፍ
+about-nav-how-it-works-2 = ኮመን ቮይስ ብኸመይ ይሰርሕ?
+about-nav-playbook = ብኸመይ ክትሳተፍ ከም እትኽእል ተመሃር
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = ኣብ ኮመን ቮይስ ቛንቛ እንታይ ማለት እዩ?
+
+## How do I add a language
+
+about-playbook-how-add-language = ቛንቛ ብኸመይ ይውስኽ?
+
+## How does localization work
+
+about-playbook-how-localize = ምትጓም መርበብ ሓበሬታ ብኸመይ ይሰርሕ?
+about-playbook-how-localize-content-1 = መርበብ ሓበሬታ ኮመን ቮይስ ኣብ <strong>Pontoon</strong> እዩ ዝትርጎም።
+
+## How to add sentences
+
+about-playbook-how-add-sentences = ምሉእ ሓሳባት ብኸመይ የእቱ?
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-4 = ማሕበረዊ ገጻት
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance-content-2 = ኣመራርሓና ኣብዚ ዝተሰረተ እዩ፦
+about-playbook-how-project-governance-content-3 = ስቱርነት፣ ውሕስነትን ግሉጽነትን።
+about-playbook-how-project-governance-content-4 = ኮማዊ ተሳትፎን ምርገጺ ምውሳድን።
+about-playbook-how-project-governance-content-5 = ዋጋን ኣፍልጦ ምሃብን።
+about-playbook-how-project-governance-content-6 = ሓባራዊ ተሓታትነት።
+about-playbook-how-project-governance-content-7 = <governanceLink>ብዛዕባ ኣመራርሓና ዝያዳ ኣንብቡ</governanceLink>
 mycroft-title = ማይክሮፍት
 mycroft-subtitle = ሰብ ዝሰርሖ ብልሒ
 mycroft-description =
@@ -578,6 +644,7 @@ review-delete-recordings = ኣነ ዝቐረጽክዎ ኩሉ ደምስስዎ
 
 ## Datasets Page
 
+datasets-heading = እኩብ ሓበሬታት
 datasets-headline = ዝዀነ ይኹን ሰብ ነቲ ዘረባ ዚጥቀመሉ መወከሲታት ንምስልጣን ኪጥቀመሉ ዚኽእል ክፉት ምንጪ እተፈላለየ ቛንቋታት ዘለዎ ሓበሬታ ድምጺ ንሃንጽ ኣሎና።
 datasets-positioning =
     ሰፊሕን ኣብ ቅድሚ ህዝቢ ተቐባልነት ዘለዎን ሓበሬታ ድምጺ ምህዞን ጥዑይ ንግዳዊ ውድድር ኣብ ማሺን ምምሃር ዝተርመርኮሰ ናይ ድምጺ ቴክኖሎግይ ከም ዜምጽእ ንኣምን ኢና።
@@ -661,6 +728,20 @@ request-language-success-title = ናይ ቛንቛ ጠለብኩም ተቐቢል�
 request-language-success-content = ድሕሪ ሓጺር እዋን ቛንቋኻ ኣብ ኮመን ቮይስ ብኸመይ ከም እትውስኽ ዚገልጽ ዝያዳ ሓበሬታ ኽንረክብ ኢና።
 select-language = ቛንቛ ምረጽ...
 other-language = ካልእ ቛንቛ
+
+## Request Language Pages
+
+request-language-heading = ብዛዕባ ሓድሽ ቛንቛ ሕተት
+request-language-form-email =
+    .label = ኢመይልኩም
+request-language-form-info =
+    .label = ሓበሬታ ብዛዕባ እዚ ቛንቛ
+request-language-form-info-explanation-list-1 = ኣስማት ናይዚ ቛንቛ
+request-language-form-info-explanation-list-3 = ብዛዕባ እዚ ቛንቛ ዝያዳ ክንርዳእ ክሕግዙና ዝኽእሉ መርበብ ሓበሬታት ጥቐስ
+request-language-google-recaptcha-required = ክትቅጽሉ እንተኾንኩም reCAPTCHA ከድልየኩም እዩ
+request-language-google-recaptcha-error = ምስቲ ዘእተኻዩ reCAPTCHA ገለ ሽግር ኣጋጢሙ፡ መሊስካ ኣእትዉ።
+# Success page
+request-language-success-heading = የቐንየልና! ብዛዕባ ሓድሽ ቛንቛ መመልከቲ ኣእቲኻ ኣሎኻ።
 
 ## Languages Overview
 
@@ -980,9 +1061,23 @@ contribution-misreadings-title = ግጉይ ንባብ
 contribution-misreadings-description = ክትሰምዕ ከለኻ እቲ እተመዝገበ ብልክዕ እተጻሕፈ እንተ ዀይኑ ተጠንቂቕካ መርምር፣ ንኣሽቱ ጌጋታት እውን እንተ ዀነ ንጸግ። <br / >መብዛሕትኡ ልሙድ ጌጋታት እዚ ዝስዕብ ኢዩ፥
 contribution-misreadings-description-extended-list-1 = ዝኾነ ዝጎደለ ከይህሉ ከም <strong> 'እዩ'</strong> ወይ <strong> 'ኢዮም'</strong>።
 contribution-misreadings-description-extended-list-2 = ኣብ መውዳእታ ናይ ቃል ዝተረስዐ<strong>'ታት'</strong>.
+contribution-misreadings-example-1-title = እቶም ዓርሞሽሽ ዳይናሶራት ናይ ትርያሲክ።
+contribution-misreadings-example-2-title = እቲ ዓርሞሽሽ ዳይናሶር ናይ ትርያሲክ።
+contribution-misreadings-example-2-explanation = [‘ዳይናሶራት’ ክኸውን ኣለዎ]
+contribution-misreadings-example-3-title = እቶም ዓርሞሽሽ ዳይናሶራት ናይ ትርያሲክ-።
+contribution-misreadings-example-4-title = እቶም ዓርሞሽሽ ዳይናሶራት ናይ ትርያሲክ። እወ።
+contribution-misreadings-example-5-title = ቡን ክንሰቲ ንወጽእ ኣሎና።
+contribution-misreadings-example-6-title = ቡን ክንሰቲ ንወጽእ ኣሎና።
+contribution-misreadings-example-7-title = ቡን ክንሰቲ ንወጽእ ኣሎና።
+contribution-misreadings-example-8-title = ባምብልቢ ብፍጥነት ሓሊፉ
+contribution-varying-pronunciations-example-2-title = ኢዱ ተላዒላ ነይራ።
 contribution-background-noise-title = ኣከባያዊ ረበሻታት
 contribution-background-voices-title = ኣከባያዊ ድምጽታት
 contribution-volume-title = ድምጺ
+contribution-reader-effects-title = ጽልዋ ኣንባቢ
+contribution-just-unsure-title = ርግጸኛ ኣይኮንካን?
+see-more = <chevron></chevron>ዝያዳ ተመልከት
+see-less = <chevron></chevron>ዝዋሓደ ተመልከት
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -991,49 +1086,161 @@ contribution-volume-title = ድምጺ
 
 ## HEADER/FOOTER
 
+sc-header-home = ቤት
+sc-header-how-to = ብኸመይ . . ትገብር
+sc-header-add = ወስኽ
+sc-header-review = ህየሳ
+sc-header-rejected = ዝተነጽገ ሓሳባት
+sc-header-my = ናተይ ሓሳባት
+sc-header-statistics = ጸብጻብ
+sc-header-profile = ድሕረ-ገጽ
+sc-footer-report-bugs = ብልሽት ሓብር
+sc-footer-translate = እዛ ገጽ ተርጉማ
+sc-footer-report-copyright = ምጥሓስ መሰል ሓብር
+sc-footer-privacy = ስቱርነት
+sc-footer-terms = ስምምዕ
+sc-footer-cookies = ኩኪታት
+sc-login-signup-button = መእተዊ/መመዝገቢ
+sc-logout-button = መውጽኢ
 
 ## HOME
+
+sc-home-title = ናብ ናይ ኮመን ቮይስ ሓሳባት መአከቢ እንቛዕ ብደሓን መጻእኩም
+sc-home-collect-title = ሓሳባት ኣክብ
+sc-home-review-title = ሓሳባት ሃይስ
+
+## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = ብኸመይ .. ትገብር
+sc-howto-addlang-title = ከተበርክተሉ እትደሊ ቛንቛ ኣእቱ
+sc-howto-addsen-title = ሓድሽ ምሉእ ሓሳባት ኣእቱ
+sc-howto-cite-title = ብኸመይ ናይ ካልኦት ስራሕ እጠቅስ
+sc-howto-review-title = ምሉእ ሓሳባት ሃይስ
+sc-howto-review-subtitle = እዚ ምሉእ ሓሳባት ነዚ ዝስዕብ መምዘኒታት ከም ዘማልእ ኣረጋግጽ፦
+sc-howto-review-criteria-1 = ምሉእ ሓሳባት ብትኽክል ዝተጻሕፈ ክኸውን ኣልዎ።
+sc-howto-review-criteria-2 = ምሉእ ሓሳባት ብትኽክል ብትኽክ ሰዋሱ ዝተጻሕፈ ክኸውን ኣልዎ።
+sc-howto-review-criteria-3 = ምሉእ ሓሳባት ክንበብ ዝኽእል ክኸውን ኣልዎ።
+sc-howto-review-criteria-4 = ምሉእ ሓሳባት ነዚ ዘማልአ እንተኾይኑ፣ ኣብ "ኣጽድቕ" ዝብል ጠውቕ።
+sc-howto-review-criteria-5 = ምሉእ ሓሳባት ነቲ መምዘኒታት ዘየማልአ እንተኾይኑ፣ ኣብ "ንጸግ" ጥውቕ። ርግጸኛ እንተዘይኮይንካ ግን፣ ነዚ ነጢርባ ናብ ዝቕጽል ምሉእ ሓሳባት ቀጽል።
+sc-howto-review-criteria-6 = ዝህየስ ምሉእ ሓሳባት እንተተወዲኡ፣ ዝያዳ ምሉእ ሓሳባት ኣብ ምእካብ ሓግዘና!
 
 ## MY SENTENCES
 
+sc-my-no-sentences = ዝኾነ ምሉእ ሓሳባት ኣይተረኽበን!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = ዝተረከበ: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = ምንጪ:  { $source }
+sc-my-delete = ተመሪጹ ዘሎ ምሉእ ሓሳባት ደምስስ
+sc-my-deleting = ተመሪጹ ዘሎ ምሉእ ሓሳባት ደምስስ…
+sc-my-err-failed-delete = ተመሪጹ ዘሎ ምሉእ ሓሳባት ክድምስሶ ኣይከኣልኩን…መሊስካ ፈትን!
 
 ## REJECTED
 
+sc-rejected-title = ዝተነጽገ ምሉእ ሓሳባት
+sc-rejected-loading = ዝተነጽገ ምሉእ ሓሳባት ይጽዓን ኣሎ…
+sc-rejected-err-fetching = ዝተነጽገ ምሉእ ሓሳባት ክጽዓን ከሎ ሽግር ኣጋጢሙ። መሊስካ ፈትን።
+sc-rejected-none-found = ዝተነጽገ ምሉእ ሓሳት የለን!
 
 ## STATS
 
+sc-stats-title = ጸብጻብ
+sc-stats-updating = ኣብ ምጽዓን…
+sc-stats-error = ጸብጻብ ክጸዓን ኣይተኻእለን። ጸኒሕካ ፈትን።
 
 ## ADD
 
+sc-submit-err-select-lang = ቛንቛ ምረጽ
+sc-submit-err-add-sentences = ምሉእ ሓሳብት ኣእቱ
+sc-submit-err-add-source = ምንጪ ኣእቱ
+sc-submit-prompt =
+    .message = ዘእተኻዮ ምሉእ ሓሳባት ኣየረከብካዮን ዘሎኻ፣ ርግጸኛ ኢኻ ኣብዚ ከተቛርጾ?
+sc-submit-title = ምሉእ ሓሳባት ኣእቱ
+sc-submit-select-language =
+    .labelText = ቛንቛ ምረጽ
+sc-submit-ph-one-per-line =
+    .placeholder = ሓንቲ ሕሳባት ኣብ ሓንቲ መስመር
+sc-submit-button =
+    .submitText = ኣረክብ
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = እዚ ቛንቛ ከእትዎ ኣይከኣልኩን።
+sc-add-lang-sec-button = ቛንቛ ኣእቱ
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = ኣረጋግጽ
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = ጠቕላላ ድምር
+sc-lang-info-title-personal = ውልቃዊ
 
 ## LOGIN
 
+sc-login-err-try-again = መሊስካ ፈትን።
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = ድሕረ-ገጽ: { $username }
+sc-personal-your-languages = ቛንቛኻ
+sc-personal-remove-button = ደምስስ
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } ምሉእ ሓሳባት ኣእቲኻ
+sc-personal-not-added = ቛንቛ ኣይመረጽካን ዘሎኻ
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = መምዘኒ ረቛሒ
+sc-criteria-title = መምዘኒ ረቛሒ
+sc-criteria-make-sure = እዚ ምሉእ ሓሳባት ነዚ መምዘኒታት ከም ዘማልእ ኣረጋግጽ፡
+sc-criteria-item-1 = ምሉእ ሓሳባት ብትኽክል ዝተጻሕፈ ክኸውን ኣልዎ።
+sc-criteria-item-2 = ምሉእ ሓሳባት ብትኽክል ብትኽክ ሰዋሱ ዝተጻሕፈ ክኸውን ኣልዎ።
+sc-criteria-item-3 = ምሉእ ሓሳባት ክንበብ ዝኽእል ክኸውን ኣልዎ።
+sc-criteria-item-4 = ምሉእ ሓሳባት ነዚ ዘማልአ እንተኾይኑ፣ ኣብ "ኣጽድቕ" ዝብል ጠውቕ።
+sc-criteria-item-5-2 = ምሉእ ሓሳባት ነቲ መምዘኒታት ዘየማልአ እንተኾይኑ፣ ኣብ "ንጸግ" ጥውቕ። ርግጸኛ እንተዘይኮይንካ ግን፣ ነዚ ነጢርባ ናብ ዝቕጽል ምሉእ ሓሳባት ቀጽል።
+sc-criteria-item-6 = ዝህየስ ምሉእ ሓሳባት እንተተወዲኡ፣ ዝያዳ ምሉእ ሓሳባት ኣብ ምእካብ ሓግዘና!
 
 ## REVIEW
 
+sc-review-title = ምሉእ ሓሳባት ሃይስ
+sc-review-loading = ምሉእ ሓሳባት ኣብ ምጽዓን…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = ምንጪ:  { $sentenceSource }
+sc-review-form-button-reject = ንጸግ
+sc-review-form-button-skip = ስገር
+sc-review-form-button-approve = ኣጽድቕ
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = ህየሳ ዛዝም
+sc-review-link = ሃይስ
 
 ## SETTINGS
 
+sc-settings-title = ኣማራጺታት
+sc-settings-show-all-button = ዝሰገርክዎ ሓሳባት ኣርእይኒ
+# VALIDATION
+sc-validation-number-of-words = ምሉእ ሓሳባት ካብ 1 ክሳብ 14 ቃላት ክህልዎ ኣለዎ
 sc-validation-no-numbers = ሙልእ ሓሳባት ቑጽሪ ክህልዎ የብሉን
+sc-validation-no-symbols = ምሉእ ሓሳባት ምስልታት ክህልዎ የብሉን
+sc-validation-no-abbreviations = ምሉእ ሓሳባት እሕጽሮተ ቃል ክህልዎ የብሉን
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = ቛንቛ ምረጽ

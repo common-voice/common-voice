@@ -772,13 +772,18 @@ other-language = Outro idioma
 
 ## Request Language Pages
 
+request-language-heading = Pergunte sobre um novo idioma
 request-language-form-email =
     .label = Seu endereço de email
 request-language-form-info =
     .label = Informações sobre o idioma
 request-language-form-info-explanation-list-1 = Nomes do seu idioma
+request-language-form-info-explanation-list-2 = <isoCodeLink>Códigos ISO</isoCodeLink> se souber
+request-language-form-info-explanation-list-3 = Links para sites que podem nos ajudar a entender o idioma
 request-language-google-recaptcha-required = O reCAPTCHA é necessário se você quiser continuar
 request-language-google-recaptcha-error = Algo deu errado com o reCAPTCHA. Tente novamente.
+# Success page
+request-language-success-heading = Obrigado! Você enviou uma nova consulta de idioma
 
 ## Languages Overview
 

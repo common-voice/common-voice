@@ -1,15 +1,23 @@
 ## General
 
 yes-receive-emails = Ja, stuur vir my e-posse. Ek wil graag op hoogte bly van die Common Voice Project.
-stayintouch = Ons by Mozilla bou 'n gemeenskap rondom spraak-tegnologie. Ons wil graag kontak hou, met opknappings, nuwe databronne, en om meer te hoor van hoe jy die data gebruik.
+stayintouch = Ons by Mozilla bou 'n gemeenskap rondom spraaktegnologie. Ons wil graag kontak hou, met veranderinge en verbeteringe, nuwe databronne, en om meer te hoor oor hoe jy die data gebruik.
 privacy-info = Ons belowe om jou inligting met sorg te hanteer. Lees meer in ons <privacylink> Privaatheidsbeleid </privacylink>.
-return-to-cv = Keer Terug na Common Voice
+return-to-cv = Keer terug na Common Voice
 email-input =
-    .label = E-pos
+    .label = E-posadres
 submit-form-action = Dien In
 loading = Laai tans…
-email-opt-in-privacy = Deur in te stem om e-pos te ontvang, verklaar jy dat jy Mozilla se hantering van hierdie inligting goedkeur, soos uiteengesit in Mozilla se <privacyLink> Privaatheidsbeleid<privacyLink>.
+email-opt-in-info = Ek sal graag e-posse soos herinneringe aan doelwitte, my vorderingsverslae en nuusbriewe oor Common Voice wil ontvang.
+email-opt-in-info-title = Sluit aan by Common Voice se e-poslys
+email-opt-in-info-sub-with-challenge = Ontvang e-posse soos herinneringe aan uitdagings en doelwitte, vorderingsverslae en nuusbriewe oor Common Voice.
+email-opt-in-privacy-v2 = Deur in te stem om e-posse te ontvang, verklaar jy dat jy die wyse waarop Mozilla inligting hanteer, soos uiteengesit word in Mozilla se <privacyLink>Privaatheidsbeleid</privacyLink>, goedkeur.
 indicates-required = * Dui verpligte veld aan
+not-available-abbreviation = N.V.T.
+banner-error-slow-1 = Jammer. Common Voice ervaar tans vertragings. Dankie vir jou belangstelling.
+banner-error-slow-2 = Ons ontvang tans baie verkeer en is besig om die saak te ondersoek.
+banner-error-slow-link = Statusblad
+error-something-went-wrong = Jammer, iets het skeef geloop.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,12 +25,149 @@ indicates-required = * Dui verpligte veld aan
 
 ## Languages
 
+ab = Abchasies
+ace = Acehnees
+ady = Adyghe
+af = Afrikaans
+am = Amharies
+an = Aragonees
+ar = Arabies
+arn = Mapudungun
+as = Assamees
+ast = Asturiaans
+az = Azerbeidjans
+ba = Basjkir
+bas = Basaa
+be = Belarussies
+bg = Bulgaars
+bn = Bengali
+br = Bretons
+bs = Bosnies
+bxr = Buryat
+ca = Katalonies
+cak = Kaqchikel
+ckb = Sentraalkurdisies
+cnh = Hakha Chin
+co = Korsikaans
+cs = Tsjeggies
+cv = Tjuvashies
+cy = Wallies
+da = Deens
+de = Duits
+dv = Dhivehi
+el = Grieks
+en = Engels
+eo = Esperanto
+es = Spaans
+et = Esties
+eu = Baskies
+fa = Persies
+ff = Fula
+fi = Fins
 fo = Faroëes
 fr = Frans
+fy-NL = Fries
 ga-IE = Iers
+gn = Guaranies
+gom = Goan Konkanies
+ha = Hausa
 he = Hebreeus
+hi = Hindi
+hr = Kroaties
+hsb = Sorbian, Hoër
+ht = Haitiaans
+hu = Hongaars
+hy-AM = Armeens
+hyw = Westerse Armeens
+ia = Interlingua
+id = Indonesies
+ie = Interlingue
+ig = Igbo
+is = Yslands
 it = Italiaans
+izh = Izhoriaans
 ja = Japannees
+ka = Georgies
+kaa = Karakalpaks
+kab = Kabiels
+kbd = Kabardiaans
+ki = Kikuyu
+kk = Kasaks
+km = Khmer
+kmr = Kurmanji Kurdish
+knn = Konkani (Devanagari)
+ko = Koreaans
+kpv = Komi-Zyriaans
+kw = Kornies
+ky = Kirgisies
+lb = Luxemburgs
+lg = Luganda
+lij = Liguriaans
+lt = Litaus
+lv = Letties
+mai = Maithili
+mdf = Moksja
+mg = Malagasy
+mhr = Meadow Mari
+mk = Macedonies
+ml = Malayalam
+mn = Mongools
+mni = Meetei Lon
+mos = Mossi
+mr = Marathi
+mrj = Hill Mari
+ms = Maleis
+mt = Maltees
+my = Bermees
+myv = Erzya
+nan-tw = Taiwannees
+nb-NO = Noorse Bokmål
+ne-NP = Nepalees
+nia = Nias
+nl = Nederlands
+nn-NO = Noors Nynorsk
+nyn = Runyankole
+oc = Oksitaans
+or = Oria
+pa-IN = Punjabi
+pap-AW = Papiamentu
+pl = Pools
+ps = Pashto
+pt = Portugees
+quc = K'iche'
+quy = Quechua Chanka
+rm-sursilv = Romaans Sursilvan
+rm-vallader = Romaans Vallader
+ro = Romeens
+ru = Russies
+rw = Kinyarwanda
+sah = Sakha
+sat = Santalien (Ol Chiki)
+sc = Sardinies
+scn = Siciliaans
+shi = Shilha
+si = Sinhalees
+sk = Slowaaks
+skr = Saraiki
+sl = Sloweens
+so = Somalies
+sq = Albanees
+sr = Serwies
+sv-SE = Sweeds
+sw = Swahili
+syr = Siries
+ta = Tamil
+te = Telugu
+tg = Tadjiks
+th = Thai
+ti = Tigrinja
+tig = Tigre
+tk = Turkmeens
+tl = Tagalog
+tok = Toki Pona
+tr = Turks
+tt = Tataars
+tw = Twi
 
 # [/]
 
@@ -97,8 +242,6 @@ profile-form-accent =
     .label = Aksent
 profile-form-age =
     .label = Ouderdom
-profile-form-gender =
-    .label = Geslag
 visible = Sigbaar
 native-language =
     .label = Moedertaal
@@ -109,16 +252,53 @@ female = Vroulik
 # Gender
 other = Ander
 
+## Profile - Email
+
+
+## Profile - Email
+
+
 ## FAQ
 
 
 ## ABOUT US
 
 
+## How does it work section
+
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
 ## Glossary
 
 
-## NotFound
+## Error pages
 
 
 ## Data
@@ -134,6 +314,9 @@ other = Ander
 
 
 ## Request Language Modal
+
+
+## Request Language Pages
 
 
 ## Languages Overview
@@ -157,5 +340,82 @@ other = Ander
 ## Profile Delete
 
 
+## Profile Download
+
+
 ## Landing
+
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
 
