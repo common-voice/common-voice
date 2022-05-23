@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ja tak, send mig gerne e-mails. Jeg ønsker at holde mig informeret om Common Voice Project.
+yes-receive-emails = Ja tak, send mig gerne e-mails. Jeg ønsker at holde mig informeret om projektet Common Voice.
 stayintouch = Hos Mozilla bygger vi et fællesskab omkring stemmeteknologi. Vi vil gerne holde kontakten med opdateringer, nye datakilder og høre mere om, hvordan du bruger disse informationer.
 privacy-info = Vi lover at behandle dine oplysninger på betryggende vis. Læs mere i vores <privacyLink>Privatlivspolitik</privacyLink>.
 return-to-cv = Vend tilbage til Common Voice
@@ -590,6 +590,7 @@ about-playbook-how-grow-language-content-3 = Du kan afholde begivenheder for at 
 about-playbook-how-grow-language-content-4 = Sociale medier
 about-playbook-how-grow-language-content-5 = Du kan bruge sociale medieplatforme til at få budskabet ud. Del opslag, der forklarer, hvorfor det er vigtigt, og kom i kontakt med andre, der diskuterer spørgsmål som sprogrettigheder, stemme-AI eller hvilken rolle fordomme spiller i udvikling af teknologi. Se flere råd om <campaignLink>afholdelse af sociale kampagner, inklusive indhold, du kan genbruge</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerskaber og netværk
+about-playbook-how-grow-language-content-7 = Find andre, der interesserer sig for de samme ting. Det kunne være universiteter, sprogskoler, græsrodsbevægelser eller videnskabssamfund. Kontakt dem og forklar klart, hvordan de kan hjælpe og hvorfor. <outreachTemplates>Se vores skabeloner for opsøgende e-mails</outreachTemplates>.
 
 ## How to validate
 
@@ -718,6 +719,8 @@ feedback-q = Har du feedback?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er et <docsLink>open source-værktøjssæt</docsLink> til forskere, der udvikler avancerede samtale-AI-modeller.
 resource-deepspeech-info = Datasættet fra Common Voice supplerer Deep Speech, en open source-tjeneste til stemmegenkendelse fra Mozilla, som du kan bruge til at bygge software, der gør brug af stemmegenkendelse. Få <githubLink>overblik over projektet på Github</githubLink> eller deltag i <discourseLink>diskussionen om Deepspeech på Discourse</discourseLink> for at komme godt i gang.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> er dedikeret til åben taleteknologi. Deres projekter omfatter deep learning-baserede STT- og TTS-motorer.
+community-playbook = Fællesskabsguide
+resource-playbook-info = <playbookLink>Find nyttig vejledning</playbookLink> om hele Common Voice-rejsen, fra oversættelse til brug af datasæt, og hvordan du bliver en del af fællesskabet.
 data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus er lavet på baggrund af taler og deres transskriptioner fra TED's websted.
