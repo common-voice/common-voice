@@ -422,6 +422,11 @@ faq-what-cv-a-2 =
     
     A kò kan máa sà dédé gba ohùn àwọn tí àwọn tí wọ́n sọ èdè wọn pọ̀, à ń gbà ti àwọn tí àwọn tó ń sọ èdè wọn ò tó nǹkan náà. Ṣíṣe àgbéjáde orísirísi àká ohùn yóó ró àwọn aṣàgbékalẹ̀, olóko-owò àti àwùjọ kọ̀ọ̀kan lágbára láti mójútó ìlàkọjá wọn fúnra wọn.
 faq-why-important-q = Kín ló dé tí ó fi ṣe pàtàkì?
+faq-why-important-a =
+    Ọ̀rọ̀ sísọ ni ọ̀nà àìṣẹ̀dá tí à ń gbà bá ara wa sọ̀rọ̀ àti pé ìmọ̀ọ́ṣe abohùn ń mú ìrọ̀rùn náà wá sí ba ṣe ń lo kọ̀mpútà wa àti ẹ̀rọ alágbèéká mìíràn. A fẹ́ ró àwọn alágbèékalẹ̀ lágbára láti lè ṣe ẹ̀rọ adóhùnmọ̀ tó dára bí i òǹgbífọ̀ alájáàbalẹ̀ àti ẹ̀rọ olùrànlawọ́ onínọ́mba abohùn. Ṣùgbọ́n ní báyìí, púpọ̀ nínú àwọn data abohùn tí a nílò láti ṣe irú ẹ̀rọ báyìí ni wọ́n wọ́n tí wọ́n sì tún dojúkọ ìsòro níni. A níran pé àká Common Voice yóó fún àwọn alágbèékalẹ̀ ní ohun tí wọ́n nílò ìmọ̀ọ́ṣe abèdè ní èdè ẹnìkọ̀ọ̀kan wọn.
+    
+    Láti jẹ́ kí ìdóhùnmọ̀ jẹ́ kárí-ayé, a ń gba àpẹẹrẹ ohùn àwọn tí àwọn elédè wọn pọ̀ gan-an, bẹ́ẹ̀ náà ni a ń gba àpẹẹrẹ ohun àwọn tí àwọn elédè wọn ò tó nǹkan, ní ọ̀pọ̀ ìgbà ni àwọn oníṣẹ́ ìdóhùn alájẹpajúdé máa ń fójú pawọ́n rẹ́.  Ṣíṣe àgbéjáde orírúurú àká ohùn yóó ṣe ìrónilágbára fún àwọn alágbèékalẹ̀, olóko-òwò àti àwùjọ elédè láti mójútó ìdójúkọ èdè wọn fúnra wọn.
+faq-how-get-q = Bawo ni mo ṣe lè rí data Common Voice?
 
 ## ABOUT US
 
