@@ -1232,6 +1232,7 @@ sc-howto-findpd-tips-3 = Desværre kan vi ikke have Wikipedia-artikler endnu. S�
 ## MY SENTENCES
 
 sc-my-title = Mine sætninger
+sc-my-description = Denne side giver dig et overblik over alle dine indsendte sætninger. Du kan også slette allerede indsendte sætninger, hvis det er nødvendigt, ved at markere afkrydsningsfeltet ud for sætningen, og klikke på &quot;Slet valgte sætninger&quot; nederst på siden. Fjern kun sætninger, hvis det er absolut nødvendigt, for eksempel hvis du har bemærket, at en sætning er beskyttet af ophavsret.
 sc-my-loading = Indlæser dine sætninger...
 sc-my-err-fetching = Fejl under hentning af dine sætninger. Prøv igen.
 sc-my-no-sentences = Ingen sætninger fundet!
@@ -1243,6 +1244,7 @@ sc-my-submission = Indsendelse: { $batchId }
 sc-my-source = Kilde:  { $source }
 sc-my-delete = Slet valgte sætninger
 sc-my-deleting = Sletter valgte sætninger...
+sc-my-err-failed-delete = Kunne ikke slette valgte sætninger... Prøv igen!
 
 ## REJECTED
 
@@ -1256,14 +1258,24 @@ sc-rejected-none-found = Ingen afviste sætninger fundet!
 sc-stats-title = Statistikker
 sc-stats-updating = Opdaterer…
 sc-stats-error = Vi kunne ikke hente statistikkerne. Prøv igen senere.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice' sætnings-indsamler har indsamlet { $sentenceCount } sætninger på { $languageCount } sprog!
 
 ## ADD
 
+sc-submit-err-select-lang = Vælg et sprog.
+sc-submit-err-add-sentences = Tilføj sætninger.
+sc-submit-err-add-source = Tilføj en kilde.
+sc-submit-err-confirm-pd = Bekræft, at disse sætninger er offentligt domæne.
 sc-submit-title = Tilføj sætninger
 sc-submit-select-language =
     .labelText = Vælg sprog
 sc-submit-ph-one-per-line =
     .placeholder = En sætning pr. linje
+sc-submit-ph-read-how-to =
+    .placeholder = Læs vores 'Sådan gør du', hvis du er usikker på, hvordan du krediterer
 sc-submit-button =
     .submitText = Indsend
 sc-submit-guidelines = Tjek venligst <howToLink>retningslinjerne</howToLink>.
