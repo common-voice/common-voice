@@ -435,6 +435,8 @@ faq-why-mission-a = Mozilla ti fi ara rẹ̀ jìn fún jíjẹ́ kí ìkànnì w
 faq-what-cv-and-deepspeech-q = Kín ni ìyàtọ̀ tí ó wà láàrin Common Voice àti Deep Speech?
 faq-what-cv-and-deepspeech-a = Àká-ọ̀rọ̀ Common Voicese ìrànwọ́ fún ẹ́ngínì adúhùnmọ̀ Deep Speech aṣeélò fún gbogbo ènìyàn ti Mozilla. Ẹ̀dà àkọ́kọ́ Deep Speech di gbigbé jáde ni òsù Kọkànlá Ọdún 2017, láti ìgbà náà ni ó sì ti ń gbèrún sí i.  Ti ohun ti àká-ọ̀rọ̀ Common Voice, a gbàgbọ́ pé ìmọ̀ọ́ṣe adóhùnmọ̀ aṣeélò-fún-gbogbo ènìyàn yóó kárí ilé kárí oko. Èròǹgbà wa ni pé àwọn ìmọ̀ọ́ṣe yìí yóó ran àwọn aṣẹ̀dá jẹ́ kí afẹ́fẹ́ ohun ìmọ̀ ọ̀tun àti iṣẹ́ fẹ́ wá.
 faq-is-goal-assistant-q = Ǹjẹ́ àfojúsùn Common Voice ni lati ṣe aranilọ́wọ́ ohun?
+faq-is-goal-assistant-a = Àfojúsùn àká-ọ̀rọ̀ Common Voice ni láti jẹ́ kí gbogbo ènìyàn ní àgbáyé ṣe adóhùnmọ̀, adá-asọ̀rọ̀mọ̀ tàbí orísìí ẹ̀yà ohun èlò mìíràn tó nílò data ohùn. Aṣèrànlọ́wọ́ ohùn kàn jẹ́ ọ̀kan lára ọ̀pọ̀ ẹ̀yà ohun èlò ti o lè fi àká-ọ̀rọ̀ ṣe.
+faq-do-want-native-q = Èmi kìí ṣe elédè, mo sì tún ní ìwọ́hùn, ṣe ẹ sì tún fẹ́ ohùn mi?
 
 ## ABOUT US
 
