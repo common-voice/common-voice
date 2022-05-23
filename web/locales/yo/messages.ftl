@@ -1,13 +1,13 @@
 ## General
 
-yes-receive-emails = Bẹ́ẹ̀ni, fi ímeèlì ránṣẹ́ sí mi. Mo máa fẹ́ láti máa mọ ohun ọ̀tun nípa Voice Common Project.
+yes-receive-emails = Bẹ́ẹ̀ni, fi ímeèlì ránṣẹ́ sí mi. Mo máa fẹ́ láti máa mọ ohun ọ̀tun nípa àkànṣe-iṣẹ́ Voice Common.
 stayintouch = Àwa ní Mozilla ń ṣẹ àpèjọ ìjọ ènìyàn lórí ìmọ̀-ẹ̀rọ nípa ohùn. A ma fẹ́ láti mọ àwọn ohun ọ̀tun, àwọn orísun dátà àti láti mọ̀ sí i nípa bí ẹ ṣe ń lo àwọn dátà yí.
 privacy-info = A ṣe ìlérí láti ṣe ì†ọ́jú àwọn àlàyé rẹ dáradára. Ka díẹ̀ si nínú un <privacyLink> Àkíyèsí Aláṣìírí wa</privacyLink>.
 return-to-cv = Padà sí Common Voice
 email-input =
     .label = Ímeèlì
 submit-form-action = Fi jíṣẹ́
-loading = Ìkójọpọ̀…
+loading = Ó ń gbaradì…
 email-opt-in-info = Mo fẹ́ láti máa gba ímeèlì bí i ìránilétí ìfojúsùn, àtẹ̀jíṣẹ́ ọ̀tun Napa ìlọsíwájú mi àti ìwé ìròyìn onílẹ́tà nípa Common Voice
 email-opt-in-info-title = Darapọ̀ mọ́ àtẹ̀jíṣẹ́ e ímeèli Common Voice
 email-opt-in-info-sub-with-challenge = Gba àwọn ímeèlì bí i ìránilétí ìfojúsùn, àtẹ̀jíṣẹ́ ọ̀tun Napa ìlọsíwájú mi àti ìwé ìròyìn onílẹ́tà nípa Common Voice
@@ -437,6 +437,8 @@ faq-what-cv-and-deepspeech-a = Àká-ọ̀rọ̀ Common Voicese ìrànwọ́ fú
 faq-is-goal-assistant-q = Ǹjẹ́ àfojúsùn Common Voice ni lati ṣe aranilọ́wọ́ ohun?
 faq-is-goal-assistant-a = Àfojúsùn àká-ọ̀rọ̀ Common Voice ni láti jẹ́ kí gbogbo ènìyàn ní àgbáyé ṣe adóhùnmọ̀, adá-asọ̀rọ̀mọ̀ tàbí orísìí ẹ̀yà ohun èlò mìíràn tó nílò data ohùn. Aṣèrànlọ́wọ́ ohùn kàn jẹ́ ọ̀kan lára ọ̀pọ̀ ẹ̀yà ohun èlò ti o lè fi àká-ọ̀rọ̀ ṣe.
 faq-do-want-native-q = Èmi kìí ṣe elédè, mo sì tún ní ìwọ́hùn, ṣe ẹ sì tún fẹ́ ohùn mi?
+faq-do-want-native-a = Bẹ́ẹ̀ ni, A nílò ohùn rẹ ní pàtí! Lára àfojúsùn Common Voice ni láti ṣe àkójọ orísìí ìwọ́hùn tí wọ́n bá ṣe ée kójọ kí iṣẹ́ ìdóhùnmọ̀ lè ṣiṣẹ́ fún gbogbo ènìyàn dọ́gbandọ́gba. Èyí  túmọ̀ sí pé ìfohùnsílẹ̀ àwọn tí kìí ṣe elédè náà ṣe pàtàkì.
+faq-why-different-speakers-q = Kín ni ìdí rẹ̀ tí o fi nílò sọ̀rọ̀sọ̀rọ̀ púpọ̀ fún èdè kan?
 
 ## ABOUT US
 
