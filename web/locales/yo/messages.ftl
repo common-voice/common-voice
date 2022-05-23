@@ -636,6 +636,14 @@ about-speak-text = Àwọn olùkópa máa ń ṣe ìgbàsílẹ̀ ohùn
 
 ## REVIEW
 
+sc-review-loading = Gbólóhùn ń gbaradì
+sc-review-select-language = Jọ̀wọ́ yan èdè kan láti ṣe àyẹ̀wò àwọn gbólóhùn
+sc-review-no-sentences = Kò sí gbólóhùn tí a ó yẹ̀wò. <addLink>Ṣe àfikún gbólóhùn báyìí!</addLink>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Orísun
+sc-review-form-button-reject = Kọ̀
+sc-review-form-button-skip = Fò
 sc-review-form-button-approve = Fàṣẹsí i
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
