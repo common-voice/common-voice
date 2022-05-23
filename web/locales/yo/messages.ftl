@@ -384,6 +384,8 @@ email-subscriptions = ìforúkọsílẹ̀ fún gbígba imeèlì
 download-profile = Ìṣàgbàsílẹ̀ dátà mi
 contribution-experience = Ìrírí Ìṣàfikún
 skip-submission-feedback = Fo Èsi Ìfiránṣẹ́
+skip-submission-description = Ní àkókò tí a bá fi ìlọ́wọ́sí sọwọ́, a ó fa ìfunnilábọ̀ lẹ́yìn tí a bá ti tẹ 'Firánsẹ́'. Ilọ́wọ́sí yóó tẹ̀síwájú fúnra rẹ̀ pẹ̀lú àgbasílẹ̀ 5 tó kàn tàbí ìfòhùntẹ̀lù.
+skip-submission-note = Kíyèsí i: Wà á sì nílò láti yàn láàrin sọ tàbí gbọ́ láti ṣe àtúnṣe sí ẹ̀yà ìlọ́wọ́sí.
 off = Pa
 on = Tàn
 help-accent = O nílò ìrànwọ́ pẹ̀̀lú ohùn ìpèdè?
@@ -404,7 +406,11 @@ remove-avatar = Yọ àwòrán
 
 ## Profile - Email
 
+manage-subscriptions = Samójútó ìforúkọsílẹ̀
+manage-email-subscriptions = Sàmójútó Ìforúkọsílẹ̀ Imeèlì
+email-already-used = Wọ́n ti lo ímeèlì yí fún àkáǹtì mìíràn
 add-language = Ṣe àfikún èdè
+change-email-setings = Pààrọ̀ imeèlì rẹ nípasẹ̀ ààtò abẹ́ ìdánimọ̀ ìgbaniwọlé
 
 ## FAQ
 
