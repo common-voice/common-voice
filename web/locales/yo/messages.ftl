@@ -276,6 +276,7 @@ whats-public = Kí ló wà ni gbangba?
 email-not-public = A ò ní fi ímeèlì rẹ síta.
 recordings-and-locale-public = Iye ìgbàsílẹ̀ ohùn àti èdè tí o ṣiṣẹ́ lé yóò wà ní gbangba.
 username-optin-public = O lè jẹ́ kí orúkọ ìdámọ̀ rẹ́ wà ni gbangba tàbí aláìlèdámọ̀.
+demographic-deidentified-clarity-2 = kìí ṣe  kànńpá, fi àwọn data ìdánimọ̀ rẹ sílẹ̀ (b.a ọjọ́-orí, ìjakọ-n-bábo, èdè, bí a ṣe máa ń sọ̀rọ̀) a kì y;oò fi hande fún gbogbo èèyàn láti rí lórí pírófáìlì rẹ, a kò sì ní so ó mọ́ àkáǹtì rẹ nínú àká. Ọ̀kọ̀ọ̀kan àwọn ohun tí a gbà sílẹ̀ ni a ó so mọ́ data ìdánimọ̀ fún ìtúpalẹ̀ tí ó péye  - bí àpẹẹrẹ, aṣèwádìí kan lè fẹ́ ṣe alàkalẹ̀ ìkọ́ni tó jẹ́ mọ́ ìdánimọ̀ kan ní pàtó.
 username-email-not-demographic = Orúkọ ìdámọ̀ àti imeèlì rẹ kò ní wà ní ìdámọ̀ pẹ̀lú u àwọn dátà tí a bá tẹ̀ jáde.
 
 ## Speak & Listen Shortcuts
@@ -379,6 +380,7 @@ accept-privacy-title = Ìṣòfin Ajẹmáṣìírí
 login-identity = Ìdámọ̀ Ìwọlé
 login-signup = Wọlé / Forúkọ Sílẹ̀
 edit = Ìṣàtúnṣe
+email-subscriptions = ìforúkọsílẹ̀ fún gbígba imeèlì
 download-profile = Ìṣàgbàsílẹ̀ dátà mi
 contribution-experience = Ìrírí Ìṣàfikún
 skip-submission-feedback = Fo Èsi Ìfiránṣẹ́
