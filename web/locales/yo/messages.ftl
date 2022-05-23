@@ -430,15 +430,15 @@ faq-how-get-q = Bawo ni mo ṣe lè rí data Common Voice?
 faq-how-get-a = Àká Common Voice wà fún gbígbàsílẹ̀ lábẹ àṣẹ  <licenseLink>CC0</licenseLink> license on <datasetLink> ní ojú ìwé àká ọ̀rọ̀ wa </datasetLink>. O sì tún lè gba àká ọ̀rọ̀ tí ó wà fún gbogbogbo ní ojú ìwé kan náà.
 faq-when-release2-q = Nígbà wo ni ẹ ó ṣe àgbéjáde data Common Voice  àwọn èdè yókù?
 faq-when-release2-a = Ẹ̀dà àká-ọ̀rọ̀ Common Voice ọlọ́pọ̀ èdè ń la àtuṣe alátilẹyìn àwùjọ kọjá. Bí ìwọ náà yóó bá ràn wá lọ́wọ́ láti jẹ́ pé ní èdè tuntun, lọ sàyẹ̀wò <sentenceCollectorLink>Irin-iṣẹ́ ìgba-gbólóhùn-jọ </sentenceCollectorLink> fún sísàfikún gbólóhùn sínú àká ọ̀rọ̀, àti Mozilla <pontoonLink>Pontoon</pontoonLink> fún síṣe òǹgbifọ̀ ìkànnì tuntun. A máa ń sàfikún èdè tuntun sínú Common Voice fún ìlọ́wọ́sí ohùn lẹ́yìn tí gbólóhùn 5000 tí a lù lóǹtẹ̀ bá ti di gbígbà.
-faq-why-mission-q = Kín ni ìdí rẹ̀ tí Common Voice fi jẹ́ apá kan iṣẹ́ Mozilla?
+faq-why-mission-q = Kí ni ìdí rẹ̀ tí Common Voice fi jẹ́ apá kan iṣẹ́ Mozilla?
 faq-why-mission-a = Mozilla ti fi ara rẹ̀ jìn fún jíjẹ́ kí ìkànnì wà ní sísí àti ní àrọ́wọ́tó gbogbo ènìyàn. Láti ṣe èyí a nílò ró àwọn aṣẹ̀dá ìkànnì lágbára nípasẹ̀ àkàṣe iṣẹ́ bí i ti Common Voice. Gẹ́gẹ́ bí ìmọ̀ọ́ṣe abohùn ṣe ń pọ̀ síi kọjá ohun-àmúlò-tó-rọrùn, ìgbàgbọ́ pé wọ́n gbọ́dọ̀ wúlò fún gbogbo àwọn tí wọn ń lò ó dọ́gbandọ́gba. Ó túmọ̀ sí pé nínáwó lórí ọ̀pọ̀ èdè àti fífàyègba orísìrísìí ìwọ́hùn àti àbùdá ìdánimọ̀ nígbà tí a bá ń ṣe tàbí yẹ ìmọ̀ọ́ṣe abohùn wò. Common Voice jẹ́ èròjà àjọni tí ó wà fún gbogbo ènìyàn àti ẹgbẹ́ Mozilla àwọn aṣẹ̀dá káàkiri àgbáyé tilẹ̀ ti bẹ̀rẹ̀ sí ní lò ó lórí àwọn àkànṣe iṣẹ́ wa.
-faq-what-cv-and-deepspeech-q = Kín ni ìyàtọ̀ tí ó wà láàrin Common Voice àti Deep Speech?
+faq-what-cv-and-deepspeech-q = Kí ni ìyàtọ̀ tí ó wà láàrin Common Voice àti Deep Speech?
 faq-what-cv-and-deepspeech-a = Àká-ọ̀rọ̀ Common Voicese ìrànwọ́ fún ẹ́ngínì adúhùnmọ̀ Deep Speech aṣeélò fún gbogbo ènìyàn ti Mozilla. Ẹ̀dà àkọ́kọ́ Deep Speech di gbigbé jáde ni òsù Kọkànlá Ọdún 2017, láti ìgbà náà ni ó sì ti ń gbèrún sí i.  Ti ohun ti àká-ọ̀rọ̀ Common Voice, a gbàgbọ́ pé ìmọ̀ọ́ṣe adóhùnmọ̀ aṣeélò-fún-gbogbo ènìyàn yóó kárí ilé kárí oko. Èròǹgbà wa ni pé àwọn ìmọ̀ọ́ṣe yìí yóó ran àwọn aṣẹ̀dá jẹ́ kí afẹ́fẹ́ ohun ìmọ̀ ọ̀tun àti iṣẹ́ fẹ́ wá.
 faq-is-goal-assistant-q = Ǹjẹ́ àfojúsùn Common Voice ni lati ṣe aranilọ́wọ́ ohun?
 faq-is-goal-assistant-a = Àfojúsùn àká-ọ̀rọ̀ Common Voice ni láti jẹ́ kí gbogbo ènìyàn ní àgbáyé ṣe adóhùnmọ̀, adá-asọ̀rọ̀mọ̀ tàbí orísìí ẹ̀yà ohun èlò mìíràn tó nílò data ohùn. Aṣèrànlọ́wọ́ ohùn kàn jẹ́ ọ̀kan lára ọ̀pọ̀ ẹ̀yà ohun èlò ti o lè fi àká-ọ̀rọ̀ ṣe.
 faq-do-want-native-q = Èmi kìí ṣe elédè, mo sì tún ní ìwọ́hùn, ṣe ẹ sì tún fẹ́ ohùn mi?
 faq-do-want-native-a = Bẹ́ẹ̀ ni, A nílò ohùn rẹ ní pàtí! Lára àfojúsùn Common Voice ni láti ṣe àkójọ orísìí ìwọ́hùn tí wọ́n bá ṣe ée kójọ kí iṣẹ́ ìdóhùnmọ̀ lè ṣiṣẹ́ fún gbogbo ènìyàn dọ́gbandọ́gba. Èyí  túmọ̀ sí pé ìfohùnsílẹ̀ àwọn tí kìí ṣe elédè náà ṣe pàtàkì.
-faq-why-different-speakers-q = Kín ni ìdí rẹ̀ tí o fi nílò sọ̀rọ̀sọ̀rọ̀ púpọ̀ fún èdè kan?
+faq-why-different-speakers-q = Kí ni ìdí rẹ̀ tí o fi nílò sọ̀rọ̀sọ̀rọ̀ púpọ̀ fún èdè kan?
 faq-why-different-speakers-a =
     Púpọ̀ àwọn àká-ọ̀rọ̀ afọ̀ ni wọ́n kọ́ pẹ̀lú àpọ̀jù àwọn àbùdá ìdánimọ̀ kan tí àbájáde rẹ̀ sì pọ̀n sẹ́yìn <articleLink> akọ àti kòlàkòsagbe</articleLink>. Èwọ́hùn tàbí èdè àdúgbò tí ó ṣe é ṣe kí wọ́n má ní asojú nínú àwọn data ti a sàmúlò ló jẹ́ pé wọ́n jẹ́ ọ̀wọ́ àwọn ènìyàn tí à ti tẹ̀rì. Ọ̀pọ̀ ẹ̀rọ ni ó ń làkàkà láti dá ohùn obìnrin mọ̀.
     Ìdí nìyí tí ó fi jẹ́ pé nínú àká-ọ̀rọ̀ wa, a fẹ́ àmúlùmọ́là!
@@ -446,9 +446,11 @@ faq-why-my-lang-q = Kín ló dé tí èdè mi kò tíì sí níbẹ̀?
 faq-why-my-lang-new-a = Mozilla kìí yan èdè kankan ní ìpọ̀sìn. Dípò bẹ́ẹ̀, Common Voice jẹ́ àgbékalẹ̀ àwùjọ, àmọ́ sá o, ò pè fún <multilangLink>ọ̀pọ̀lọpọ̀ ìgbésẹ̀ láti fi èdè tuntun kún un</multilangLink> kí a sì bẹ̀rẹ̀ sí ní ṣe àkójọ ẹ̀bùn ohùn. Àkọ́kọ́, a nílò láti tú ìkànnì Common Voice kí àwọn ara àwùjọ lè ní ìrírí àwọn akópa ní èdè wọn. Lẹ́yìn náà, a nílò ọ̀pọ̀lọpọ̀ gbólóhùn aláìfofindè tí àwọn ènìyàn yóó kà sókè. Lọ́gán tí ìgbésẹ̀ méjéèjì bá ti di ṣíṣe, èdè kan yóó di ìfilọ́lẹ̀  ní orí Common Voice fún àwọn ènìyàn láti máa gba ohùn wọn sílẹ̀, kí a sì máa fàṣẹ sí àwọn àgbàkalẹ̀ yòókù náà. Bí o bá fẹ́ ṣe ìrànwọ́ láti fi èdè tunrun lọ́lẹ̀, sáré lọ sí <sentenceCollectorLink>Irinṣẹ́ ìsàkójọ gbólóhùn</sentenceCollectorLink> láti bẹ̀rẹ̀.
 faq-what-quality-q = Kín ni gbèdéke dídára ohùn tí a nílò fún ìgbohùnsílẹ̀ kan tó lè di lílò nínú àká-ọ̀rọ̀?
 faq-what-quality-a = A fẹ́ kí àká-ọ̀rọ̀  Common Voice ṣe àfihàn dídára ohùn tí ẹ̀rọ asọ-ìfọ̀-di-títẹ̀ gbọ́ ní kíákíá, nítorí náà à wá orísirísi. Ní àfikún ọ̀pọ̀ àwọn elédè inú àwùjọ kan, àká-ọ̀rọ̀ onírúurú dídára ohùn yóó kọ́ ẹ̀rọ̀ asọ-ifọ̀-di-títẹ̀ bí a ṣe ń ṣe lójú ayé gan-an láti ara ọ̀rọ̀ kẹ́lẹ́kẹ́lẹ́ abẹ́nú títí ó fi kan ariwo ọkọ̀. Níwọ̀n ìgbà tí ohùn gbígbàsílẹ̀ bá ti mọ́pọlọ dáni, ó yẹ kí ó dára tó fún àká-ọ̀rọ̀.
-faq-why-10k-hours-q = Kín ni ìdí tó fi jẹ́ pé ìfòhùntẹ̀lù wákàtí 10,000 ìkóhùnjọ ni àfojúsùn èdè kan?
+faq-why-10k-hours-q = Kí ni ìdí tó fi jẹ́ pé ìfòhùntẹ̀lù wákàtí 10,000 ìkóhùnjọ ni àfojúsùn èdè kan?
 faq-why-10k-hours-a = Èyí ni iye wákàtí tí a nílò láti fi kọ́ ẹ̀rọ asọ-ìfọ̀-di-títẹ̀
 faq-how-calc-hours-q = Báwo ni Common Voice ṣe ń ṣe ìsirò akókò?
+faq-how-calc-hours-a = A ṣe ìsirò wákàtí nípa fífojú wo gígùn ohùngbígbàsílẹ̀, a ó wá fi ṣe ìlọ́po iye àpapọ̀ ìgbohùnsílẹ̀ káàkiri àwọn èdè.
+faq-where-src-from-2-q = Níbo ni ọ̀rọ̀ orísun ti wá?
 
 ## ABOUT US
 
