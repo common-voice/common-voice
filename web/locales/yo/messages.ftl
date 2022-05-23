@@ -428,10 +428,11 @@ faq-why-important-a =
     Láti jẹ́ kí ìdóhùnmọ̀ jẹ́ kárí-ayé, a ń gba àpẹẹrẹ ohùn àwọn tí àwọn elédè wọn pọ̀ gan-an, bẹ́ẹ̀ náà ni a ń gba àpẹẹrẹ ohun àwọn tí àwọn elédè wọn ò tó nǹkan, ní ọ̀pọ̀ ìgbà ni àwọn oníṣẹ́ ìdóhùn alájẹpajúdé máa ń fójú pawọ́n rẹ́.  Ṣíṣe àgbéjáde orírúurú àká ohùn yóó ṣe ìrónilágbára fún àwọn alágbèékalẹ̀, olóko-òwò àti àwùjọ elédè láti mójútó ìdójúkọ èdè wọn fúnra wọn.
 faq-how-get-q = Bawo ni mo ṣe lè rí data Common Voice?
 faq-how-get-a = Àká Common Voice wà fún gbígbàsílẹ̀ lábẹ àṣẹ  <licenseLink>CC0</licenseLink> license on <datasetLink> ní ojú ìwé àká ọ̀rọ̀ wa </datasetLink>. O sì tún lè gba àká ọ̀rọ̀ tí ó wà fún gbogbogbo ní ojú ìwé kan náà.
-faq-when-release2-q = Nígbà wo ni ẹ ó data Common Voice ní àwọn èdè yókù sílẹ̀
+faq-when-release2-q = Nígbà wo ni ẹ ó ṣe àgbéjáde data Common Voice  àwọn èdè yókù?
 faq-when-release2-a = Ẹ̀dà àká-ọ̀rọ̀ Common Voice ọlọ́pọ̀ èdè ń la àtuṣe alátilẹyìn àwùjọ kọjá. Bí ìwọ náà yóó bá ràn wá lọ́wọ́ láti jẹ́ pé ní èdè tuntun, lọ sàyẹ̀wò <sentenceCollectorLink>Irin-iṣẹ́ ìgba-gbólóhùn-jọ </sentenceCollectorLink> fún sísàfikún gbólóhùn sínú àká ọ̀rọ̀, àti Mozilla <pontoonLink>Pontoon</pontoonLink> fún síṣe òǹgbifọ̀ ìkànnì tuntun. A máa ń sàfikún èdè tuntun sínú Common Voice fún ìlọ́wọ́sí ohùn lẹ́yìn tí gbólóhùn 5000 tí a lù lóǹtẹ̀ bá ti di gbígbà.
-faq-why-mission-q = Kín ni ìdí rẹ̀ tí Common Voice fi jẹ́ apá kan iṣẹ́ Mozilla
+faq-why-mission-q = Kín ni ìdí rẹ̀ tí Common Voice fi jẹ́ apá kan iṣẹ́ Mozilla?
 faq-why-mission-a = Mozilla ti fi ara rẹ̀ jìn fún jíjẹ́ kí ìkànnì wà ní sísí àti ní àrọ́wọ́tó gbogbo ènìyàn. Láti ṣe èyí a nílò ró àwọn aṣẹ̀dá ìkànnì lágbára nípasẹ̀ àkàṣe iṣẹ́ bí i ti Common Voice. Gẹ́gẹ́ bí ìmọ̀ọ́ṣe abohùn ṣe ń pọ̀ síi kọjá ohun-àmúlò-tó-rọrùn, ìgbàgbọ́ pé wọ́n gbọ́dọ̀ wúlò fún gbogbo àwọn tí wọn ń lò ó dọ́gbandọ́gba. Ó túmọ̀ sí pé nínáwó lórí ọ̀pọ̀ èdè àti fífàyègba orísìrísìí ìwọ́hùn àti àbùdá ìdánimọ̀ nígbà tí a bá ń ṣe tàbí yẹ ìmọ̀ọ́ṣe abohùn wò. Common Voice jẹ́ èròjà àjọni tí ó wà fún gbogbo ènìyàn àti ẹgbẹ́ Mozilla àwọn aṣẹ̀dá káàkiri àgbáyé tilẹ̀ ti bẹ̀rẹ̀ sí ní lò ó lórí àwọn àkànṣe iṣẹ́ wa.
+faq-what-cv-and-deepspeech-q = Kín ni ìyàtọ̀ tí ó wà láàrin Common Voice àti Deep Speech?
 
 ## ABOUT US
 
