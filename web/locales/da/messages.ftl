@@ -571,6 +571,7 @@ about-playbook-how-localize-content-5 = Se vores videoforklaring for hjælp
 about-playbook-how-add-sentences = Hvordan tilføjer jeg sætninger?
 about-playbook-how-add-sentences-content-1 = <strong>Sætnings-indsamleren</strong> er et værktøj til at indsamle og validere sætninger i det offentlige domæne. Du skal <scAccountLink>oprette en konto</scAccountLink>. Tilføj derefter dit sprog til din <strong>profil</strong>. Du kan <strong>tilføje</strong> sætninger eller <strong>gennemgå</strong> tidligere tilføjede sætninger.
 about-playbook-how-add-sentences-content-2 = Sætninger skal gennemgås og accepteres af to personer for at blive inkluderet i Common Voice. Du opretter retningslinjer for dit sprog <languageGuidelinesLink>her</languageGuidelinesLink>. Sætninger skal være i det <licenseLink>offentlige domæne</licenseLink> og være kortere end 15 ord. Du kan bede ejeren af en tekst om at gøre den til <waiverLink>CC0 ved hjælp af vores afståelsesproces</waiverLink> og sende den til os på commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Du kan bruge <scraperLink>Sætningsudtrækkeren</scraperLink> til at benytte korte sætninger fra Wikipedia.
 about-playbook-how-add-sentences-content-4 = Sætninger, der er blevet valideret, eksporteres om onsdagen og er tilgængelige efter næste udgivelse.
 
 ## How to record quality
@@ -592,6 +593,7 @@ about-playbook-how-grow-language-content-4 = Sociale medier
 about-playbook-how-grow-language-content-5 = Du kan bruge sociale medieplatforme til at få budskabet ud. Del opslag, der forklarer, hvorfor det er vigtigt, og kom i kontakt med andre, der diskuterer spørgsmål som sprogrettigheder, stemme-AI eller hvilken rolle fordomme spiller i udvikling af teknologi. Se flere råd om <campaignLink>afholdelse af sociale kampagner, inklusive indhold, du kan genbruge</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerskaber og netværk
 about-playbook-how-grow-language-content-7 = Find andre, der interesserer sig for de samme ting. Det kunne være universiteter, sprogskoler, græsrodsbevægelser eller videnskabssamfund. Kontakt dem og forklar klart, hvordan de kan hjælpe og hvorfor. <outreachTemplates>Se vores skabeloner for opsøgende e-mails</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Vær kreativ!</strong> Dit sprogfællesskab er unikt, og dette er blot nogle få måder at komme i gang på.
 
 ## How to validate
 
@@ -1417,6 +1419,7 @@ sc-criteria-item-5-2 = Hvis sætningen ikke opfylder ovenstående kriterier, ska
 
 ## REVIEW
 
+sc-review-lang-not-selected = Du har ikke valgt sprog. Gå til din <profileLink>profil</profileLink> for at vælge sprog.
 sc-review-title = Gennemgå sætninger
 sc-review-loading = Indlæser sætninger...
 sc-review-select-language = Vælg et sprog for at gennemgå sætninger.
