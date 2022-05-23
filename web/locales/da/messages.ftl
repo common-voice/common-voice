@@ -1147,6 +1147,7 @@ contribution-misreadings-example-7-explanation = [Intet ‘noget' i den original
 contribution-misreadings-example-8-title = Humlebien susede forbi.
 contribution-misreadings-example-8-explanation = [Ikke matchende indhold]
 contribution-varying-pronunciations-title = Forskellige udtaler
+contribution-varying-pronunciations-description = Vær forsigtig, når du overvejer at afvise et klip, fordi du synes at oplæseren har udtalt et ord forkert, lægger trykket forkert eller tilsyneladende har overset et spørgsmålstegn. Der er mange måder at bruge sproget på - og det er ikke sikkert, at du har hørt dem alle. Husk at tænke på, at der findes mennesker, der taler anderledes end du gør.
 contribution-varying-pronunciations-description-extended = Hvis du på den anden side får indtrykket af, at oplæseren aldrig er stødt på ordet før og simpelthen gætter på, hvordan det skal udtales - så afvis optagelsen. Hvis du er usikker, så klik på knappen "Spring over".
 contribution-background-noise-title = Baggrundsstøj
 contribution-background-noise-description = Vi ønsker, at maskinlæringsalgoritmerne skal kunne håndtere forskellig baggrundsstøj, og selv relativt høje lyde kan accepteres, forudsat at de ikke forhindrer dig i at høre hele teksten. Stille baggrundsmusik er OK; musik der er så høj at det forhindrer dig i at høre hvert eneste ord, er ikke.
@@ -1197,6 +1198,7 @@ sc-logout-button = Log ud
 
 sc-home-title = Velkommen til Common Voice Sætningsindsamler
 sc-home-collect-title = Indsaml sætninger
+sc-home-collect-text = Hjælp os ved at skrive eller samle sætninger, der ikke er omfattet af ophavsretten.
 sc-home-review-title = Gennemgå sætninger
 sc-home-review-text = Hjælp os ved at gennemgå sætninger for korrekthed i henhold til retningslinjerne.
 
@@ -1210,14 +1212,17 @@ sc-howto-title = Sådan gør du
 sc-howto-addlang-title = Tilføjelse af sprog at arbejde med
 sc-howto-addlang-text = Når du er logget ind, kan du vælge dine sprog fra profilsektionen.
 sc-howto-addsen-title = Tilføj nye sætninger
+sc-howto-addsen-item-1 = Alle sætninger, du indsender, skal være offentliggjort under licensen <wikipediaLink>Public Domain (CC-0)</wikipediaLink>. For at kunne inkludere værker, der ikke er under offentlig licens, har vi oprettet en <cc0WaiverLink>bidragsaftaleskabelon</cc0WaiverLink> for værker, hvor ophavsretsejeren gerne vil bidrage med materialet til Common Voice.
 sc-howto-addsen-item-2 = Tal. Der bør ikke være cifre i kildeteksten, fordi de kan give problemer, når de læses højt. Måden et tal læses på afhænger af kontekst og kan skabe forvirring i datasættet. For eksempel kunne tallet "2409" læses nøjagtigt som både "fireogtyve nul ni" og "to tusinde fire hundrede ni".
 sc-howto-addsen-item-3 = Forkortelser og akronymer. Forkortelser og akronymer som "USA" eller "ICE" bør undgås i kildeteksten, fordi de kan læses på en måde, der ikke stemmer overens med deres stavemåde. Derudover kan der være flere nøjagtige aflæsninger for en enkelt forkortelse. For eksempel kunne akronymet "ICE" udtales "I-C-E" eller som et enkelt ord.
 sc-howto-addsen-item-4 = Tegnsætning. Særlige symboler og tegnsætning bør kun inkluderes, når det er absolut nødvendigt. For eksempel er en apostrof inkluderet i engelske ord som "don't" og "we're" og bør inkluderes i kildeteksten, men det er usandsynligt, at du nogensinde får brug for et specielt symbol som "@" eller "#. ”
 sc-howto-addsen-item-5 = Udenlandske bogstaver. Bogstaver skal være gyldige på det sprog, der tales. For eksempel er "ж" et bogstav i det russiske alfabet, men det bruges aldrig på dansk og bør derfor aldrig forekomme i nogen dansk kildetekst.
 sc-howto-addsen-item-6 = Sprog kan have deres <validationRulesLink>egne valideringsregler</validationRulesLink> med yderligere krav. Hvis der ikke er nogen specifik valideringsfil for et sprog, bruger vi de generiske engelske regler.
+sc-howto-addsen-post-1 = Vi vil helst have sætninger, der kunne forekomme i en almindelig samtale. Selvom fonetisk mangfoldighed og forskellige ord i sætninger er vigtigt, forsøger vi at gøre det så sjovt som muligt at optage sætninger. Derfor ville det være fantastisk, hvis du kunne prøve at holde dine sætninger så naturlige og engagerende som muligt.
 sc-howto-cite-title = Sådan citeres
 sc-howto-cite-pre-1 = Det er vigtigt, at du refererer til, hvor du fandt den offentlige licens for at undgå plagiat og for at give mulighed for opfølgning på <copyrightIssuesLink>ophavsretlige spørgsmål</copyrightIssuesLink>. Her er et par måder, du kan citere værket på.
 sc-howto-cite-item-1 = Du kan inkludere webstedet, f.eks. "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-3 = For tekst i det offentlige domæne, der ikke er tilgængelig online, kan du bruge akademisk referencestil, fx Harvard-stilen: "Kirsten (2021) Mine digte i offentligt domæne"
 sc-howto-review-title = Gennemgå sætninger
 sc-howto-review-subtitle = Sørg for, at sætningen opfylder følgende kriterier:
 sc-howto-review-criteria-1 = Sætningen skal være stavet korrekt.
@@ -1225,12 +1230,16 @@ sc-howto-review-criteria-2 = Sætningen skal være grammatisk korrekt.
 sc-howto-review-criteria-3 = Sætningen skal kunne siges.
 sc-howto-review-criteria-4 = Hvis sætningen opfylder kriterierne, skal du klikke på knappen "Godkend".
 sc-howto-review-criteria-5 = Hvis sætningen ikke opfylder ovenstående kriterier, skal du klikke på knappen "Afvis". Hvis du er usikker på sætningen, kan du også springe den over og gå videre til den næste.
+sc-howto-review-criteria-6 = Hvis du løber tør for sætninger at gennemgå, må du meget gerne hjælpe os med at indsamle flere sætninger!
 sc-howto-findpd-title = Find eksisterende sætninger i det offentlige domæne
 sc-howto-findpd-subtitle = Søg efter dem på internettet
 sc-howto-findpd-text-2 = Husk, at vi har brug for tilladelse til at offentliggøre disse sætninger, så sørg altid for, at teksten tilhører det <wikipediaLink>offentlige domæne</wikipediaLink>. Hvis der ikke er nogen eksplicit indikation, skal du kontakte den person, som teksten tilhører, og spørge, om de vil bidrage med deres tekst til det offentlige domæne. Hvis de vil, skal du hjælpe dem med at gennemgå <cc0WaiverLink>bidragsaftale</cc0WaiverLink>-processen. Hvis de ikke ønsker at bidrage med teksten, så må du ikke bruge den tekst.
 sc-howto-findpd-tips = Her er nogle tips til at finde sætninger:
 sc-howto-findpd-tips-1 = De bedste kilder, du kan lede efter, er podcasts, transskriptioner, filmmanuskripter og alt, hvad der potentielt kan indeholde hverdagssamtaler.
+sc-howto-findpd-tips-2 = Referater, bøger og artikler udgivet af regeringer er også brugbare. Men da teksterne har en tendens til at være lidt mere formelle har de lavere prioritet.
 sc-howto-findpd-tips-3 = Desværre kan vi ikke have Wikipedia-artikler endnu. Så lad være med at kopiere ind derfra.
+sc-howto-findpd-subtitle-2 = Arbejd sammen med lokale organisationer eller enkeltpersoner
+sc-howto-findpd-partner-1 = Der er mange offentlige organisationer, der måske vil samarbejde, og som allerede har en masse tekster uden ophavsret, de kan donere. Prøv at kontakte lokale universiteter, regeringer og open source-organisationer for at tale om projektet og bede om deres hjælp.
 
 ## MY SENTENCES
 
