@@ -638,6 +638,11 @@ about-speak = Sọ̀rọ̀
 
 ## SETTINGS
 
+sc-settings-ui-language = Alàgbata Èdè
+sc-settings-reset-skipped = Àtúntò fo àwọn gbólóhùn kan
+sc-settings-skipped-decription = O fo àwọn gbólóhùn kan nígbà tí ò ń ṣe àtúnyẹ̀wò. Ìsàtúntò fo àwọn gbólóhùn kan, ṣe àfihàn gbólóhùn tí a fò lẹ́ẹ̀kan sí i. Èyí dá dúró  yàtọ̀ sí èdè.
+sc-settings-show-all-button = Fi àwọn gbólóhùn á fò lẹ́ẹ̀kan sí i
+sc-settings-failed = A kò lè ṣe àyípadà sí ààtò. Jọ̀wọ́ gbìyànjú sí i.
 # VALIDATION
 sc-validation-number-of-words = Gbólóhùn gbọdọ̀ ni láàrin 1 sí 14 ọ̀rọ̀
 sc-validation-no-numbers = Gbólóhùn kò gbọdọ̀ ní nọ́mbà
