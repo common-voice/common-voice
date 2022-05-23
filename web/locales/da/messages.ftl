@@ -1222,6 +1222,7 @@ sc-howto-addsen-post-1 = Vi vil helst have sætninger, der kunne forekomme i en 
 sc-howto-cite-title = Sådan citeres
 sc-howto-cite-pre-1 = Det er vigtigt, at du refererer til, hvor du fandt den offentlige licens for at undgå plagiat og for at give mulighed for opfølgning på <copyrightIssuesLink>ophavsretlige spørgsmål</copyrightIssuesLink>. Her er et par måder, du kan citere værket på.
 sc-howto-cite-item-1 = Du kan inkludere webstedet, f.eks. "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Du kan bruge akademisk referencestil, fx Harvard-stil: "Mozilla (2021) Common Voice. Tilgængelig på https://commonvoice.mozilla.org/ (Besøgt: 15. september 2021)"
 sc-howto-cite-item-3 = For tekst i det offentlige domæne, der ikke er tilgængelig online, kan du bruge akademisk referencestil, fx Harvard-stilen: "Kirsten (2021) Mine digte i offentligt domæne"
 sc-howto-review-title = Gennemgå sætninger
 sc-howto-review-subtitle = Sørg for, at sætningen opfylder følgende kriterier:
@@ -1240,6 +1241,7 @@ sc-howto-findpd-tips-2 = Referater, bøger og artikler udgivet af regeringer er 
 sc-howto-findpd-tips-3 = Desværre kan vi ikke have Wikipedia-artikler endnu. Så lad være med at kopiere ind derfra.
 sc-howto-findpd-subtitle-2 = Arbejd sammen med lokale organisationer eller enkeltpersoner
 sc-howto-findpd-partner-1 = Der er mange offentlige organisationer, der måske vil samarbejde, og som allerede har en masse tekster uden ophavsret, de kan donere. Prøv at kontakte lokale universiteter, regeringer og open source-organisationer for at tale om projektet og bede om deres hjælp.
+sc-howto-findpd-partner-2 = Erfarne lingvister kan også være til stor hjælp. Prøv at kontakte sprogvidenskabelige institutter ved dit lokale universitet (både lærere og studerende) og hør, om de kan hjælpe med at indsamle et mangfoldigt udbud af sætninger med forskellig udtale på dit sprog.
 
 ## MY SENTENCES
 
@@ -1281,15 +1283,21 @@ sc-submit-err-select-lang = Vælg et sprog.
 sc-submit-err-add-sentences = Tilføj sætninger.
 sc-submit-err-add-source = Tilføj en kilde.
 sc-submit-err-confirm-pd = Bekræft, at disse sætninger er offentligt domæne.
+sc-submit-prompt =
+    .message = Sætningerne er ikke indsendt. Er du sikker på, at du vil forlade siden?
 sc-submit-title = Tilføj sætninger
 sc-submit-select-language =
     .labelText = Vælg sprog
+sc-submit-add-sentences = Tilføj sætninger fra <wikipediaLink>offentligt domæne</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = En sætning pr. linje
+sc-submit-from-where = Hvor stammer disse <wikipediaLink>offentligt domæne</wikipediaLink>-sætninger fra?
 sc-submit-ph-read-how-to =
     .placeholder = Læs vores 'Sådan gør du', hvis du er usikker på, hvordan du krediterer
+sc-submit-confirm = Jeg bekræfter, at disse sætninger er i <wikipediaLink>offentligt domæne</wikipediaLink>, og at jeg har tilladelse til at uploade dem.
 sc-submit-button =
     .submitText = Indsend
+sc-submit-filtered = Sætninger, der er frasorterede, fordi de ikke lever op til kravene. (Indsend rettede versioner som nye sætninger):
 sc-submit-guidelines = Tjek venligst <howToLink>retningslinjerne</howToLink>.
 
 ## ADD LANGUAGE
@@ -1319,6 +1327,8 @@ sc-add-lang-process-notice = Hvis dit sprog ikke er angivet her, kan du anmode o
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Sætningerne er ikke indsendt. Er du sikker på, at du vil forlade siden?
 sc-confirm-sentences-title = Bekræft nye sætninger
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
@@ -1349,6 +1359,7 @@ sc-confirm-ready =
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } sætninger er ikke gennemgået. Hvis du vil, kan du også gennemgå dine sætninger nu, inden du indsender dem.
 sc-confirm-button-text = Bekræft
+sc-confirm-uploading = Sætningerne er ved at blive uploadet. Dette kan tage flere minutter afhængigt af antallet af tilføjede sætninger. Luk venligst ikke websiden.
 
 ## LANGUAGE INFO
 
@@ -1407,6 +1418,7 @@ sc-login-err-try-again = Prøv igen.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Kunne ikke fjerne sproget; sproget blev ikke fundet
 sc-personal-err-remove = Kunne ikke fjerne sproget
 sc-personal-your-languages = Dine sprog:
 sc-personal-remove-button = fjern
@@ -1425,6 +1437,7 @@ sc-criteria-item-2 = Sætningen skal være grammatisk korrekt.
 sc-criteria-item-3 = Sætningen skal kunne siges.
 sc-criteria-item-4 = Hvis sætningen opfylder kriterierne, skal du klikke på knappen &quot;Godkend&quot; til højre.
 sc-criteria-item-5-2 = Hvis sætningen ikke opfylder ovenstående kriterier, skal du klikke på knappen &quot;Afvis&quot; til venstre. Hvis du er usikker på sætningen, kan du også springe den over og gå videre til den næste.
+sc-criteria-item-6 = Hvis du løber tør for sætninger at gennemgå, må du meget gerne hjælpe os med at indsamle flere sætninger!
 
 ## REVIEW
 
