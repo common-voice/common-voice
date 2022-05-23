@@ -429,6 +429,8 @@ faq-why-important-a =
 faq-how-get-q = Bawo ni mo ṣe lè rí data Common Voice?
 faq-how-get-a = Àká Common Voice wà fún gbígbàsílẹ̀ lábẹ àṣẹ  <licenseLink>CC0</licenseLink> license on <datasetLink> ní ojú ìwé àká ọ̀rọ̀ wa </datasetLink>. O sì tún lè gba àká ọ̀rọ̀ tí ó wà fún gbogbogbo ní ojú ìwé kan náà.
 faq-when-release2-q = Nígbà wo ni ẹ ó data Common Voice ní àwọn èdè yókù sílẹ̀
+faq-when-release2-a = Ẹ̀dà àká-ọ̀rọ̀ Common Voice ọlọ́pọ̀ èdè ń la àtuṣe alátilẹyìn àwùjọ kọjá. Bí ìwọ náà yóó bá ràn wá lọ́wọ́ láti jẹ́ pé ní èdè tuntun, lọ sàyẹ̀wò <sentenceCollectorLink>Irin-iṣẹ́ ìgba-gbólóhùn-jọ </sentenceCollectorLink> fún sísàfikún gbólóhùn sínú àká ọ̀rọ̀, àti Mozilla <pontoonLink>Pontoon</pontoonLink> fún síṣe òǹgbifọ̀ ìkànnì tuntun. A máa ń sàfikún èdè tuntun sínú Common Voice fún ìlọ́wọ́sí ohùn lẹ́yìn tí gbólóhùn 5000 tí a lù lóǹtẹ̀ bá ti di gbígbà.
+faq-why-mission-q = Kín ni ìdí rẹ̀ tí Common Voice fi jẹ́ apá kan iṣẹ́ Mozilla
 
 ## ABOUT US
 
