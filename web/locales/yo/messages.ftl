@@ -414,6 +414,8 @@ change-email-setings = Pààrọ̀ imeèlì rẹ nípasẹ̀ ààtò abẹ́ ìd
 
 ## FAQ
 
+faq-title = Àwọn ìbéèrè tí àwọn ènìyàn máa ń sábà bèèrè
+faq-what-cv-q = Kín ni Common Voice
 
 ## ABOUT US
 
