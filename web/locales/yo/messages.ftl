@@ -427,6 +427,8 @@ faq-why-important-a =
     
     Láti jẹ́ kí ìdóhùnmọ̀ jẹ́ kárí-ayé, a ń gba àpẹẹrẹ ohùn àwọn tí àwọn elédè wọn pọ̀ gan-an, bẹ́ẹ̀ náà ni a ń gba àpẹẹrẹ ohun àwọn tí àwọn elédè wọn ò tó nǹkan, ní ọ̀pọ̀ ìgbà ni àwọn oníṣẹ́ ìdóhùn alájẹpajúdé máa ń fójú pawọ́n rẹ́.  Ṣíṣe àgbéjáde orírúurú àká ohùn yóó ṣe ìrónilágbára fún àwọn alágbèékalẹ̀, olóko-òwò àti àwùjọ elédè láti mójútó ìdójúkọ èdè wọn fúnra wọn.
 faq-how-get-q = Bawo ni mo ṣe lè rí data Common Voice?
+faq-how-get-a = Àká Common Voice wà fún gbígbàsílẹ̀ lábẹ àṣẹ  <licenseLink>CC0</licenseLink> license on <datasetLink> ní ojú ìwé àká ọ̀rọ̀ wa </datasetLink>. O sì tún lè gba àká ọ̀rọ̀ tí ó wà fún gbogbogbo ní ojú ìwé kan náà.
+faq-when-release2-q = Nígbà wo ni ẹ ó data Common Voice ní àwọn èdè yókù sílẹ̀
 
 ## ABOUT US
 
