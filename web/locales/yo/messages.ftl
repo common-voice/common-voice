@@ -433,6 +433,8 @@ faq-when-release2-a = Ẹ̀dà àká-ọ̀rọ̀ Common Voice ọlọ́pọ̀ è
 faq-why-mission-q = Kín ni ìdí rẹ̀ tí Common Voice fi jẹ́ apá kan iṣẹ́ Mozilla?
 faq-why-mission-a = Mozilla ti fi ara rẹ̀ jìn fún jíjẹ́ kí ìkànnì wà ní sísí àti ní àrọ́wọ́tó gbogbo ènìyàn. Láti ṣe èyí a nílò ró àwọn aṣẹ̀dá ìkànnì lágbára nípasẹ̀ àkàṣe iṣẹ́ bí i ti Common Voice. Gẹ́gẹ́ bí ìmọ̀ọ́ṣe abohùn ṣe ń pọ̀ síi kọjá ohun-àmúlò-tó-rọrùn, ìgbàgbọ́ pé wọ́n gbọ́dọ̀ wúlò fún gbogbo àwọn tí wọn ń lò ó dọ́gbandọ́gba. Ó túmọ̀ sí pé nínáwó lórí ọ̀pọ̀ èdè àti fífàyègba orísìrísìí ìwọ́hùn àti àbùdá ìdánimọ̀ nígbà tí a bá ń ṣe tàbí yẹ ìmọ̀ọ́ṣe abohùn wò. Common Voice jẹ́ èròjà àjọni tí ó wà fún gbogbo ènìyàn àti ẹgbẹ́ Mozilla àwọn aṣẹ̀dá káàkiri àgbáyé tilẹ̀ ti bẹ̀rẹ̀ sí ní lò ó lórí àwọn àkànṣe iṣẹ́ wa.
 faq-what-cv-and-deepspeech-q = Kín ni ìyàtọ̀ tí ó wà láàrin Common Voice àti Deep Speech?
+faq-what-cv-and-deepspeech-a = Àká-ọ̀rọ̀ Common Voicese ìrànwọ́ fún ẹ́ngínì adúhùnmọ̀ Deep Speech aṣeélò fún gbogbo ènìyàn ti Mozilla. Ẹ̀dà àkọ́kọ́ Deep Speech di gbigbé jáde ni òsù Kọkànlá Ọdún 2017, láti ìgbà náà ni ó sì ti ń gbèrún sí i.  Ti ohun ti àká-ọ̀rọ̀ Common Voice, a gbàgbọ́ pé ìmọ̀ọ́ṣe adóhùnmọ̀ aṣeélò-fún-gbogbo ènìyàn yóó kárí ilé kárí oko. Èròǹgbà wa ni pé àwọn ìmọ̀ọ́ṣe yìí yóó ran àwọn aṣẹ̀dá jẹ́ kí afẹ́fẹ́ ohun ìmọ̀ ọ̀tun àti iṣẹ́ fẹ́ wá.
+faq-is-goal-assistant-q = Ǹjẹ́ àfojúsùn Common Voice ni lati ṣe aranilọ́wọ́ ohun?
 
 ## ABOUT US
 
