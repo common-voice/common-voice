@@ -416,6 +416,7 @@ change-email-setings = Pààrọ̀ imeèlì rẹ nípasẹ̀ ààtò abẹ́ ìd
 
 faq-title = Àwọn ìbéèrè tí àwọn ènìyàn máa ń sábà bèèrè
 faq-what-cv-q = Kín ni Common Voice
+faq-what-cv-a = Ìmọ̀ọ́ṣe adóhùnmọ̀ ó ń ṣe ìyípadà bí a ṣe ń ní ìfarakínra pẹ̀lú àwọn ẹ̀rọ, àmọ́ àwọn tí wọ́n wà báyìí wọ́n púp[ọ̀, wọn kò sì sí ní àrọ́wọ́tó.  Common Voive jẹ́ apákan Mozilla tí ó ni ète àti mú kí ìmọ̀ọ́ṣe adóhùnmọ̀ ṣiṣẹ́ dáadáa, kí ó sì wà ní àrọ́wọ́tó gbogbo ènìyàn. Common Voice jẹ́ àká gbogbo agbáyé tí àwọn ènìyàn ń dá ohùn jọ sí fún ẹnikẹ́ni láti lè ṣe àmúlò rẹ̀ láti kọ́ ẹ̀rọ-olóhùn ni èdè yówù kó jẹ́ .
 
 ## ABOUT US
 
