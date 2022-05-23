@@ -431,6 +431,7 @@ faq-how-get-a = Àká Common Voice wà fún gbígbàsílẹ̀ lábẹ àṣẹ  
 faq-when-release2-q = Nígbà wo ni ẹ ó data Common Voice ní àwọn èdè yókù sílẹ̀
 faq-when-release2-a = Ẹ̀dà àká-ọ̀rọ̀ Common Voice ọlọ́pọ̀ èdè ń la àtuṣe alátilẹyìn àwùjọ kọjá. Bí ìwọ náà yóó bá ràn wá lọ́wọ́ láti jẹ́ pé ní èdè tuntun, lọ sàyẹ̀wò <sentenceCollectorLink>Irin-iṣẹ́ ìgba-gbólóhùn-jọ </sentenceCollectorLink> fún sísàfikún gbólóhùn sínú àká ọ̀rọ̀, àti Mozilla <pontoonLink>Pontoon</pontoonLink> fún síṣe òǹgbifọ̀ ìkànnì tuntun. A máa ń sàfikún èdè tuntun sínú Common Voice fún ìlọ́wọ́sí ohùn lẹ́yìn tí gbólóhùn 5000 tí a lù lóǹtẹ̀ bá ti di gbígbà.
 faq-why-mission-q = Kín ni ìdí rẹ̀ tí Common Voice fi jẹ́ apá kan iṣẹ́ Mozilla
+faq-why-mission-a = Mozilla ti fi ara rẹ̀ jìn fún jíjẹ́ kí ìkànnì wà ní sísí àti ní àrọ́wọ́tó gbogbo ènìyàn. Láti ṣe èyí a nílò ró àwọn aṣẹ̀dá ìkànnì lágbára nípasẹ̀ àkàṣe iṣẹ́ bí i ti Common Voice. Gẹ́gẹ́ bí ìmọ̀ọ́ṣe abohùn ṣe ń pọ̀ síi kọjá ohun-àmúlò-tó-rọrùn, ìgbàgbọ́ pé wọ́n gbọ́dọ̀ wúlò fún gbogbo àwọn tí wọn ń lò ó dọ́gbandọ́gba. Ó túmọ̀ sí pé nínáwó lórí ọ̀pọ̀ èdè àti fífàyègba orísìrísìí ìwọ́hùn àti àbùdá ìdánimọ̀ nígbà tí a bá ń ṣe tàbí yẹ ìmọ̀ọ́ṣe abohùn wò. Common Voice jẹ́ èròjà àjọni tí ó wà fún gbogbo ènìyàn àti ẹgbẹ́ Mozilla àwọn aṣẹ̀dá káàkiri àgbáyé tilẹ̀ ti bẹ̀rẹ̀ sí ní lò ó lórí àwọn àkànṣe iṣẹ́ wa.
 
 ## ABOUT US
 
