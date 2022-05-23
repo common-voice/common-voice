@@ -1336,6 +1336,7 @@ sc-confirm-ready =
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } sætninger er ikke gennemgået. Hvis du vil, kan du også gennemgå dine sætninger nu, inden du indsender dem.
+sc-confirm-button-text = Bekræft
 
 ## LANGUAGE INFO
 
@@ -1350,6 +1351,14 @@ sc-lang-info-total =
        *[other] { $totalSentences } sætninger i alt.
     }
 # Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ingen sætninger under gennemgang.
+        [one] En sætning under gennemgang.
+       *[other] { $totalInReview } sætninger under gennemgang.
+    }
+# Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
@@ -1359,6 +1368,14 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Gennemse nu!</reviewLink>
 sc-lang-info-add-more = <addLink>Tilføj flere sætninger nu!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ingen validerede sætninger.
+        [one] En valideret sætning.
+       *[other] { $validatedSentences } validerede sætninger.
+    }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
@@ -1378,6 +1395,7 @@ sc-login-err-try-again = Prøv igen.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profil: { $username }
+sc-personal-err-remove = Kunne ikke fjerne sproget
 sc-personal-your-languages = Dine sprog:
 sc-personal-remove-button = fjern
 # Variables:
@@ -1387,6 +1405,8 @@ sc-personal-not-added = Du har ikke tilføjet nogen sprog endnu.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Kriterier for gennemgang
+sc-criteria-title = Kriterier for gennemgang
 sc-criteria-make-sure = Sørg for, at sætningen opfylder følgende kriterier:
 sc-criteria-item-1 = Sætningen skal være stavet korrekt.
 sc-criteria-item-2 = Sætningen skal være grammatisk korrekt.
@@ -1398,13 +1418,24 @@ sc-criteria-item-5-2 = Hvis sætningen ikke opfylder ovenstående kriterier, ska
 
 sc-review-title = Gennemgå sætninger
 sc-review-loading = Indlæser sætninger...
+sc-review-select-language = Vælg et sprog for at gennemgå sætninger.
 sc-review-no-sentences = Ingen sætninger at gennemgå. <addLink>Tilføj flere sætninger nu!</addLink>
+sc-review-form-prompt =
+    .message = Gennemgåede sætninger er ikke indsendt, er du sikker?
+sc-review-form-usage = Stryg til højre for at godkende sætningen. Stryg til venstre for at afvise den. Stryg op for at springe den over. <strong>Glem ikke at indsende din gennemgang!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Kilde: { $sentenceSource }
 sc-review-form-button-reject = Afvis
 sc-review-form-button-skip = Spring over
 sc-review-form-button-approve = Godkend
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = G
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = A
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Du kan også bruge tastaturgenveje: { sc-review-form-button-approve-shortcut } for at Godkende, { sc-review-form-button-reject-shortcut } for at Afvise, { sc-review-form-button-skip-shortcut } for at Springe over
 sc-review-form-button-submit =
     .submitText = Afslut gennemgang
 # Variables:
@@ -1415,11 +1446,13 @@ sc-review-form-reviewed-message =
         [one] En sætning gennemgået. Tak skal du have!
        *[other] { $sentences } sætninger gennemgået. Tak skal du have!
     }
+sc-review-form-review-failure = Gennemgangen kunne ikke gemmes. Prøv igen senere.
 sc-review-link = Gennemgang
 
 ## SETTINGS
 
 sc-settings-title = Indstillinger
+sc-settings-ui-language = Sprog i brugerfladen
 sc-settings-reset-skipped = Nulstil oversprungne sætninger
 sc-settings-skipped-decription = Du har tidligere sprunget sætninger over, mens du gennemgik. Nulstilling af oversprungne sætninger vil vise alle oversprungne sætninger igen. Dette er uafhængigt af sproget.
 sc-settings-show-all-button = Vis alle oversprungne sætninger igen
@@ -1432,3 +1465,5 @@ sc-validation-no-abbreviations = Sætning bør ikke indeholde forkortelser
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Vælg sprog/oversættelse
