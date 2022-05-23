@@ -439,6 +439,10 @@ faq-is-goal-assistant-a = Àfojúsùn àká-ọ̀rọ̀ Common Voice ni láti j�
 faq-do-want-native-q = Èmi kìí ṣe elédè, mo sì tún ní ìwọ́hùn, ṣe ẹ sì tún fẹ́ ohùn mi?
 faq-do-want-native-a = Bẹ́ẹ̀ ni, A nílò ohùn rẹ ní pàtí! Lára àfojúsùn Common Voice ni láti ṣe àkójọ orísìí ìwọ́hùn tí wọ́n bá ṣe ée kójọ kí iṣẹ́ ìdóhùnmọ̀ lè ṣiṣẹ́ fún gbogbo ènìyàn dọ́gbandọ́gba. Èyí  túmọ̀ sí pé ìfohùnsílẹ̀ àwọn tí kìí ṣe elédè náà ṣe pàtàkì.
 faq-why-different-speakers-q = Kín ni ìdí rẹ̀ tí o fi nílò sọ̀rọ̀sọ̀rọ̀ púpọ̀ fún èdè kan?
+faq-why-different-speakers-a =
+    Púpọ̀ àwọn àká-ọ̀rọ̀ afọ̀ ni wọ́n kọ́ pẹ̀lú àpọ̀jù àwọn àbùdá ìdánimọ̀ kan tí àbájáde rẹ̀ sì pọ̀n sẹ́yìn <articleLink> akọ àti kòlàkòsagbe</articleLink>. Èwọ́hùn tàbí èdè àdúgbò tí ó ṣe é ṣe kí wọ́n má ní asojú nínú àwọn data ti a sàmúlò ló jẹ́ pé wọ́n jẹ́ ọ̀wọ́ àwọn ènìyàn tí à ti tẹ̀rì. Ọ̀pọ̀ ẹ̀rọ ni ó ń làkàkà láti dá ohùn obìnrin mọ̀.
+    Ìdí nìyí tí ó fi jẹ́ pé nínú àká-ọ̀rọ̀ wa, a fẹ́ àmúlùmọ́là!
+faq-why-my-lang-q = Kín ló dé tí èdè mi kò tíì sí níbẹ̀?
 
 ## ABOUT US
 
