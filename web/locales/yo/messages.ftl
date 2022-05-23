@@ -415,13 +415,13 @@ change-email-setings = Pààrọ̀ imeèlì rẹ nípasẹ̀ ààtò abẹ́ ìd
 ## FAQ
 
 faq-title = Àwọn ìbéèrè tí àwọn ènìyàn máa ń sábà bèèrè
-faq-what-cv-q = Kín ni Common Voice
+faq-what-cv-q = Kí ni Common Voice?
 faq-what-cv-a = Ìmọ̀ọ́ṣe adóhùnmọ̀ ó ń ṣe ìyípadà bí a ṣe ń ní ìfarakínra pẹ̀lú àwọn ẹ̀rọ, àmọ́ àwọn tí wọ́n wà báyìí wọ́n púp[ọ̀, wọn kò sì sí ní àrọ́wọ́tó.  Common Voive jẹ́ apákan Mozilla tí ó ni ète àti mú kí ìmọ̀ọ́ṣe adóhùnmọ̀ ṣiṣẹ́ dáadáa, kí ó sì wà ní àrọ́wọ́tó gbogbo ènìyàn. Common Voice jẹ́ àká gbogbo agbáyé tí àwọn ènìyàn ń dá ohùn jọ sí fún ẹnikẹ́ni láti lè ṣe àmúlò rẹ̀ láti kọ́ ẹ̀rọ-olóhùn ni èdè yówù kó jẹ́ .
 faq-what-cv-a-2 =
     Ìmọ̀ọ́ṣe adáhùnmọ̀ ń ṣe ìyípadà sí bí a ṣe ń ṣe ìfarakínra pẹ̀lú àwọn ẹ̀rọ, àmọ́ àwọn ẹ̀rọ tó wà wọ́n púpọ̀ pẹ̀lú ìsòro níni.  Mozilla Common Voice jẹ́ ìgbékalẹ̀ láti mú kí ìmọ̀ọ́ṣe ìdóhùnmọ̀ dára sí i, kí ó sì wá ní àrọ́wọ́tọ́ gbogbo ènìyàn. Common Voice jẹ́ àká gbogbo àgbáyé tó gbòòrò tí àwọn ènìyàn ń dá ohùn jọ sí tí ó sì jẹ́ kí ẹni tí ó bá fẹ́ kọ́ ẹ̀rọ abi-ohùn ní èdè lè fi ìrọ̀rùn ṣe bẹ́ẹ̀ àti ni kánmọ́ kánma.
     
     A kò kan máa sà dédé gba ohùn àwọn tí àwọn tí wọ́n sọ èdè wọn pọ̀, à ń gbà ti àwọn tí àwọn tó ń sọ èdè wọn ò tó nǹkan náà. Ṣíṣe àgbéjáde orísirísi àká ohùn yóó ró àwọn aṣàgbékalẹ̀, olóko-owò àti àwùjọ kọ̀ọ̀kan lágbára láti mójútó ìlàkọjá wọn fúnra wọn.
-faq-why-important-q = Kín ló dé tí ó fi ṣe pàtàkì?
+faq-why-important-q = Kí ló dé tí ó fi ṣe pàtàkì?
 faq-why-important-a =
     Ọ̀rọ̀ sísọ ni ọ̀nà àìṣẹ̀dá tí à ń gbà bá ara wa sọ̀rọ̀ àti pé ìmọ̀ọ́ṣe abohùn ń mú ìrọ̀rùn náà wá sí ba ṣe ń lo kọ̀mpútà wa àti ẹ̀rọ alágbèéká mìíràn. A fẹ́ ró àwọn alágbèékalẹ̀ lágbára láti lè ṣe ẹ̀rọ adóhùnmọ̀ tó dára bí i òǹgbífọ̀ alájáàbalẹ̀ àti ẹ̀rọ olùrànlawọ́ onínọ́mba abohùn. Ṣùgbọ́n ní báyìí, púpọ̀ nínú àwọn data abohùn tí a nílò láti ṣe irú ẹ̀rọ báyìí ni wọ́n wọ́n tí wọ́n sì tún dojúkọ ìsòro níni. A níran pé àká Common Voice yóó fún àwọn alágbèékalẹ̀ ní ohun tí wọ́n nílò ìmọ̀ọ́ṣe abèdè ní èdè ẹnìkọ̀ọ̀kan wọn.
     
@@ -446,6 +446,9 @@ faq-why-my-lang-q = Kín ló dé tí èdè mi kò tíì sí níbẹ̀?
 faq-why-my-lang-new-a = Mozilla kìí yan èdè kankan ní ìpọ̀sìn. Dípò bẹ́ẹ̀, Common Voice jẹ́ àgbékalẹ̀ àwùjọ, àmọ́ sá o, ò pè fún <multilangLink>ọ̀pọ̀lọpọ̀ ìgbésẹ̀ láti fi èdè tuntun kún un</multilangLink> kí a sì bẹ̀rẹ̀ sí ní ṣe àkójọ ẹ̀bùn ohùn. Àkọ́kọ́, a nílò láti tú ìkànnì Common Voice kí àwọn ara àwùjọ lè ní ìrírí àwọn akópa ní èdè wọn. Lẹ́yìn náà, a nílò ọ̀pọ̀lọpọ̀ gbólóhùn aláìfofindè tí àwọn ènìyàn yóó kà sókè. Lọ́gán tí ìgbésẹ̀ méjéèjì bá ti di ṣíṣe, èdè kan yóó di ìfilọ́lẹ̀  ní orí Common Voice fún àwọn ènìyàn láti máa gba ohùn wọn sílẹ̀, kí a sì máa fàṣẹ sí àwọn àgbàkalẹ̀ yòókù náà. Bí o bá fẹ́ ṣe ìrànwọ́ láti fi èdè tunrun lọ́lẹ̀, sáré lọ sí <sentenceCollectorLink>Irinṣẹ́ ìsàkójọ gbólóhùn</sentenceCollectorLink> láti bẹ̀rẹ̀.
 faq-what-quality-q = Kín ni gbèdéke dídára ohùn tí a nílò fún ìgbohùnsílẹ̀ kan tó lè di lílò nínú àká-ọ̀rọ̀?
 faq-what-quality-a = A fẹ́ kí àká-ọ̀rọ̀  Common Voice ṣe àfihàn dídára ohùn tí ẹ̀rọ asọ-ìfọ̀-di-títẹ̀ gbọ́ ní kíákíá, nítorí náà à wá orísirísi. Ní àfikún ọ̀pọ̀ àwọn elédè inú àwùjọ kan, àká-ọ̀rọ̀ onírúurú dídára ohùn yóó kọ́ ẹ̀rọ̀ asọ-ifọ̀-di-títẹ̀ bí a ṣe ń ṣe lójú ayé gan-an láti ara ọ̀rọ̀ kẹ́lẹ́kẹ́lẹ́ abẹ́nú títí ó fi kan ariwo ọkọ̀. Níwọ̀n ìgbà tí ohùn gbígbàsílẹ̀ bá ti mọ́pọlọ dáni, ó yẹ kí ó dára tó fún àká-ọ̀rọ̀.
+faq-why-10k-hours-q = Kín ni ìdí tó fi jẹ́ pé ìfòhùntẹ̀lù wákàtí 10,000 ìkóhùnjọ ni àfojúsùn èdè kan?
+faq-why-10k-hours-a = Èyí ni iye wákàtí tí a nílò láti fi kọ́ ẹ̀rọ asọ-ìfọ̀-di-títẹ̀
+faq-how-calc-hours-q = Báwo ni Common Voice ṣe ń ṣe ìsirò akókò?
 
 ## ABOUT US
 
