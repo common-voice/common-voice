@@ -16,7 +16,7 @@ indicates-required = Àwọn aye tí a fi ài iràwọ̀ (*) yí sí  pọn 
 not-available-abbreviation = kò sí
 banner-error-slow-1 = Má bínú, Common Voice ò yára lásìkò yí. O ṣeun fun ìfẹ́ ẹ̀ rẹ.
 banner-error-slow-2 = À ń right súkẹrẹfàkẹrẹ lọ́pọ̀lọpọ̀ a sì ń ṣe ìwádìí lórí i ìdojúkọ náà
-banner-error-slow-link = Ojú ewé ipò
+banner-error-slow-link = Ipò Ojú ìwé
 error-something-went-wrong = Má bìínú, aṣemáṣe kạ́n ṣẹlẹ̀
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
