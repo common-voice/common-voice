@@ -451,6 +451,10 @@ faq-why-10k-hours-a = Èyí ni iye wákàtí tí a nílò láti fi kọ́ ẹ̀r
 faq-how-calc-hours-q = Báwo ni Common Voice ṣe ń ṣe ìsirò akókò?
 faq-how-calc-hours-a = A ṣe ìsirò wákàtí nípa fífojú wo gígùn ohùngbígbàsílẹ̀, a ó wá fi ṣe ìlọ́po iye àpapọ̀ ìgbohùnsílẹ̀ káàkiri àwọn èdè.
 faq-where-src-from-2-q = Níbo ni ọ̀rọ̀ orísun ti wá?
+faq-where-src-from-2-a =
+    Ọ̀rọ̀ orísun wa wá láti ara ẹ̀bùn ojúlówó akópa àti ìtàkúrọ̀sọ ní ìgboro, àkọsílẹ̀ eré bí i <italic> Ìgbésí-ayé tó dára ni</italic>.
+    
+    O lè wo orísun gbólóhùn wa ní ibi yìí <githubLink>GitHub folder</githubLink>.
 faq-how-privacy-q = Bá wo ni ẹ ṣe ń dáàbò bo ìdámọ̀ àwọn ẹni tọ́ fi ohùn wọn sílẹ̀
 
 ## ABOUT US
@@ -611,3 +615,5 @@ faq-how-privacy-q = Bá wo ni ẹ ṣe ń dáàbò bo ìdámọ̀ àwọ
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Yan èdè/ìsọditèdè
