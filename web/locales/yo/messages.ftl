@@ -455,13 +455,26 @@ faq-where-src-from-2-a =
     Ọ̀rọ̀ orísun wa wá láti ara ẹ̀bùn ojúlówó akópa àti ìtàkúrọ̀sọ ní ìgboro, àkọsílẹ̀ eré bí i <italic> Ìgbésí-ayé tó dára ni</italic>.
     
     O lè wo orísun gbólóhùn wa ní ibi yìí <githubLink>GitHub folder</githubLink>.
+faq-why-account-q = Kí ni ìdí ti mo ṣe ní láti ṣe ìforúkọsílẹ̀?
+faq-is-account-public-q = Ǹjẹ́ ìròyìn àkáǹtì mi yóò wà ní gbangba?
 faq-how-privacy-q = Bá wo ni ẹ ṣe ń dáàbò bo ìdámọ̀ àwọn ẹni tọ́ fi ohùn wọn sílẹ̀
+faq-how-privacy-a = A máa ń yọ gbogbo ohun ìdánimọ̀ kúrò nínú àgbàjọ ohùn tí a ṣe. Ti olùkópa kán bá fi dátà ìjúwé e rẹ̀ ráńṣẹ́ látorí púrófáìì rẹ̀, àwọn dátà náà yóò di yíyọ kúrò lára ohùn tí a gbà sílẹ̀ Kó tó di pé a dì í fan lílò a kò sì kì í fi sí oro púrófáìlì wọn
+faq-what-determine-identity-q = Kí ni ìtúmọ̀ pé mi ò lè ''yan ìṣèdámọ̀" àwọn olùkópa nínú àkójọ dátà Common Voice?
+faq-what-is-cv = Kí ni Common Voice?
+faq-using-cv = Lílo Common Voice
+faq-description = Common Voice wà lára akitiyan Mozilla láti lè kho ẹ̀rọ bí a ti ń sọ̀rọ̀ bí ènìyàn.
+faq-search-for-answers =
+    .label = Wá èsì
 
 ## ABOUT US
 
+about-title = Kí ni ìdí fún Common Voice?
+how-does-it-work-title-v2 = Báwo ni Common Voice ṣe ń ṣiṣẹ́?
+how-does-it-work-text = À ń sẽ ìgbàjọ àwọn ohùn ti ẹnikẹ́ni le lò. Ṣe àfikún pẹ̀lú ohùn rẹ, yẹ bí ohùn àwọn ẹlòmìíràn ṣe dára sí wò, jé kí àkójọ dátà náà dára si fún gbogbo ènìyàn.
 
 ## How does it work section
 
+about-language-req-subtitle = Ẹnìkán bèrè fún ìfikún èdè mìíràn.
 
 ## Community Playbook Content
 ## What is a language
