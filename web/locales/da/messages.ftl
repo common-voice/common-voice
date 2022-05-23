@@ -1197,6 +1197,7 @@ sc-logout-button = Log ud
 ## HOME
 
 sc-home-title = Velkommen til Common Voice Sætningsindsamler
+sc-home-intro = Sætningsindsamleren er en del af <commonVoiceLink>Common Voice</commonVoiceLink>. Værktøjet giver bidragydere mulighed for at indsamle og validere sætninger skabt af fællesskabet. Du kan også bruge dette værktøj til at importere og rydde op i små til mellemstore offentlige tekstsamlinger, du har fundet eller indsamlet. Alle sætninger skal være i det offentlige domæne. Godkendte sætninger eksporteres hver uge til Common Voice-lageret og frigives på Common Voice-webstedet ved hver ny opdatering.
 sc-home-collect-title = Indsaml sætninger
 sc-home-collect-text = Hjælp os ved at skrive eller samle sætninger, der ikke er omfattet af ophavsretten.
 sc-home-review-title = Gennemgå sætninger
