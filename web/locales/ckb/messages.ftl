@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = ئیمەلەکانی سەبارەت بە 
 email-opt-in-privacy-v2 = ئەگەر خۆت تۆمار بکەی بۆ وەرگرتنی پۆستی ئەلیکترۆنی ئەوە رەزامەندی خۆت دەردەبڕی لەوەی کە مۆزیلا ئەم زانییاریانە وەک لە <privacyLink>سیاسەتی پاراستنی نهێنی</privacyLink> مۆزیلا هاتوە بەکار بێنێت.
 indicates-required = * مانای وایە کە پێویستە بینووست
 not-available-abbreviation = نییە
+banner-error-slow-1 = ببورە، پڕۆژەی دەنگی گشتی بە هێواشی کاردەکات. سپاس بۆ گرینگی پێدانی ئێوە.
+banner-error-slow-2 = ئێمە هاتوچۆیەکی زۆرمان پێدەگات و لە ئێستادا لێکۆڵینەوە لە کێشەکان دەکەین.
+banner-error-slow-link = لاپەڕەی دۆخ
+error-something-went-wrong = ببورن شتێک بە هەڵەدا چوو
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -376,6 +380,10 @@ skip-submission-description = لە کاتی بەشداریکردن بەشی پێ
 skip-submission-note = ئاگاداری: پێویستە لە نێوان قسەکردن یان گوێگرتن هەڵبژێری.
 off = ناکارا
 on = کارا
+help-accent = پێویستت بە هەندێک یارمەتی هەیە بۆ زاراوە؟
+help-accent-explanation = زاراوەی تۆ شێوازی بێژەکردنی وشەکانە. دەتوانرێت بەپێی ئەو شوێنەی کە لە کوێ ژیاویت، بە کام زمانی دیکە قسە دەکەیت و کۆمەڵێک هۆکاری دیکە لە قاڵب بدرێت. دەتوانیت هەر زانیارییەک کە هەستت کرد پەیوەندیدارە لێرەدا بڵاوی بکەیتەوە.
+help-variants = پێویستت بە هەندێک یارمەتی هەیە بۆ جۆرەکان؟
+help-variants-explanation = جۆرەکان فۆرمێکی تایبەتی زمانە - بۆ نموونە هاوبەشی ئەو کەسانەی کە لە جوگرافیایەک یان کۆمەڵگەیەکدا دەژین. هەندێک جار ئەمانە پێیان دەوترێت زاراوە.
 
 ## Profile - Email
 
@@ -646,6 +654,9 @@ request-language-success-title = داواکاری زمان ناردرا. سوپ�
 request-language-success-content = بەم زووانە لە ڕێگای پۆستی ئەلیکترۆنی زانیاریت بۆ دەنێرین کە چۆن زمانی خۆت زیاد بکەی لە دەنگی گشتی.
 select-language = زمانێک هەڵبژێرە...
 other-language = زمانی تر
+
+## Request Language Pages
+
 
 ## Languages Overview
 
