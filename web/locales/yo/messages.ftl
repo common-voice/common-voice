@@ -475,6 +475,19 @@ how-does-it-work-text = À ń sẽ ìgbàjọ àwọn ohùn ti ẹnikẹ́
 ## How does it work section
 
 about-language-req-subtitle = Ẹnìkán bèrè fún ìfikún èdè mìíràn.
+about-localization-subtitle = Àwọn ọ̀rọ̀ orí wẹ́ẹ̀bù yẹ́n ti di títú sí èdè yẹn.
+about-sentence-collection-title = Ìgbàjọ Gbólóhùn
+about-sentence-collection-subtitle = A máa ń gba gbóóhùn kí àwọn ènìyán le kà á.
+about-new-lang-title = Ìfilọ́lẹ̀ Èdè Tuntun
+about-new-lang-subtitle = A se ìfilọ́lẹ̀ ojú awẹ́ Common Voice nỉ èdè yí.
+about-voice-contrib-title = Ìfikún Ohùn
+about-voice-contrib-subtitle = Àwọn èèyán máa ń wá fi ohùn wọn sílẹ̀.
+about-voice-validation-title = Ìṣàyẹ̀wò Ohùn
+about-voice-validation-subtitle = Àwọn ẹlòmìíràn ni wọ́n máa ń wo àwọn agbálẹ̀ hùn wọ̀nyẹn.
+about-dataset-release-title = Ìgbéjáde Àkójọ Dátà
+about-dataset-release-subtitle = A máa ń gbé dátà náà jádi ní oṣù mẹ́tamẹ́ta
+about-subscribe-text = O fẹ́ wà ní àrọ́wọ́tó pẹ̀lú Common Voice?
+about-speak = Sọ̀rọ̀
 
 ## Community Playbook Content
 ## What is a language
@@ -625,6 +638,11 @@ about-language-req-subtitle = Ẹnìkán bèrè fún ìfikún èdè mi�
 
 ## SETTINGS
 
+# VALIDATION
+sc-validation-number-of-words = Gbólóhùn gbọdọ̀ ni láàrin 1 sí 14 ọ̀rọ̀
+sc-validation-no-numbers = Gbólóhùn kò gbọdọ̀ ní nọ́mbà
+sc-validation-no-symbols = Gbólóhùn kò gbọdọ̀ ní àrokò
+sc-validation-no-abbreviations = Gbólóhùn kò gbọdọ̀ ní ìgékúrú
 
 # [/SentenceCollector]
 
