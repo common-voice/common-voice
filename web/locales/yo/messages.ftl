@@ -636,9 +636,12 @@ about-speak-text = Àwọn olùkópa máa ń ṣe ìgbàsílẹ̀ ohùn
 
 ## REVIEW
 
+sc-review-title = Ṣe àyẹ̀wò gbólóhùn
 sc-review-loading = Gbólóhùn ń gbaradì
 sc-review-select-language = Jọ̀wọ́ yan èdè kan láti ṣe àyẹ̀wò àwọn gbólóhùn
 sc-review-no-sentences = Kò sí gbólóhùn tí a ó yẹ̀wò. <addLink>Ṣe àfikún gbólóhùn báyìí!</addLink>
+sc-review-form-prompt =
+    .message = Gbólóhùn tí a yẹ̀wò kò tíì di fífiránṣẹ́, ṣé ó dá ọ lójú?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Orísun
