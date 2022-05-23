@@ -488,6 +488,7 @@ about-dataset-release-title = Ìgbéjáde Àkójọ Dátà
 about-dataset-release-subtitle = A máa ń gbé dátà náà jádi ní oṣù mẹ́tamẹ́ta
 about-subscribe-text = O fẹ́ wà ní àrọ́wọ́tó pẹ̀lú Common Voice?
 about-speak = Sọ̀rọ̀
+about-speak-text = Àwọn olùkópa máa ń ṣe ìgbàsílẹ̀ ohùn nípa kíka ọ̀rọ̀ láti inú àgbàjọ gbọhlóhùn tí a ṣe.
 
 ## Community Playbook Content
 ## What is a language
@@ -635,9 +636,29 @@ about-speak = Sọ̀rọ̀
 
 ## REVIEW
 
+sc-review-form-button-approve = Fàṣẹsí i
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = Parí Àyẹ̀wò
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Kò sí gbólóhùn tí a yẹ̀wò.
+        [one] 1 A ti ṣàyẹ̀wò gbólóhùn. Ẹ ṣe é!
+       *[other] { $sentences } A ti ṣàyẹ̀wò gbólóhùn. Ẹ ṣe é!
+    }
+sc-review-form-review-failure = Àyẹ̀wò kò ṣe é fi pamọ́. Jọ̀wọ́ gbìyànjú láìpẹ́
+sc-review-link = Yẹ̀ẹ́wò
 
 ## SETTINGS
 
+sc-settings-title = Ààtò
 sc-settings-ui-language = Alàgbata Èdè
 sc-settings-reset-skipped = Àtúntò fo àwọn gbólóhùn kan
 sc-settings-skipped-decription = O fo àwọn gbólóhùn kan nígbà tí ò ń ṣe àtúnyẹ̀wò. Ìsàtúntò fo àwọn gbólóhùn kan, ṣe àfihàn gbólóhùn tí a fò lẹ́ẹ̀kan sí i. Èyí dá dúró  yàtọ̀ sí èdè.
