@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Bẹ́ẹ̀ni, fi ímeèlì ránṣẹ́ sĩ mi. Mo máa fẹ́ láti máa mọ ohun ọ̀tun nípa Voice Common Project.
+yes-receive-emails = Bẹ́ẹ̀ni, fi ímeèlì ránṣẹ́ sí mi. Mo máa fẹ́ láti máa mọ ohun ọ̀tun nípa Voice Common Project.
 stayintouch = Àwa ní Mozilla ń ṣẹ àpèjọ ìjọ ènìyàn lórí ìmọ̀-ẹ̀rọ nípa ohùn. A ma fẹ́ láti mọ àwọn ohun ọ̀tun, àwọn orísun dátà àti láti mọ̀ sí i nípa bí ẹ ṣe ń lo àwọn dátà yí.
 privacy-info = A ṣe ìlérí láti ṣe ì†ọ́jú àwọn àlàyé rẹ dáradára. Ka díẹ̀ si nínú un <privacyLink> Àkíyèsí Aláṣìírí wa</privacyLink>.
 return-to-cv = Padà sí Common Voice
