@@ -451,6 +451,7 @@ faq-why-10k-hours-a = Èyí ni iye wákàtí tí a nílò láti fi kọ́ ẹ̀r
 faq-how-calc-hours-q = Báwo ni Common Voice ṣe ń ṣe ìsirò akókò?
 faq-how-calc-hours-a = A ṣe ìsirò wákàtí nípa fífojú wo gígùn ohùngbígbàsílẹ̀, a ó wá fi ṣe ìlọ́po iye àpapọ̀ ìgbohùnsílẹ̀ káàkiri àwọn èdè.
 faq-where-src-from-2-q = Níbo ni ọ̀rọ̀ orísun ti wá?
+faq-how-privacy-q = Bá wo ni ẹ ṣe ń dáàbò bo ìdámọ̀ àwọn ẹni tọ́ fi ohùn wọn sílẹ̀
 
 ## ABOUT US
 
