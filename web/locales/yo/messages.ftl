@@ -515,9 +515,14 @@ about-playbook-what-is-language = Kíni èdè jẹ́ lórí Common voice?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Báwo ni mo ṣe lè ṣàfikún gbólóhùn?
+about-playbook-how-add-sentences-content-4 = Àwọn gbólóhùn tó ti di àfọwọ́sí yóò di gbígbé jáde lójórùú, yóò sì di wíwà lẹ́yìn àgbéjáde tó kàn.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Báwo ni mo ṣe lè ṣe àkàálẹ̀ fọ́nrán ohùn to jójúlówó?
+about-playbook-how-record-content-1 = Sọ̀rọ̀ bí o ṣe ń sọ̀rọ̀ gan-an! Bí o ṣe ń sọ̀rọ̀ jẹ́ gbígbà níbí – a fẹ́ ìwọ́wùn rẹ gẹ́gẹ́ bó ṣe rí, a sì fẹ́ òdiwọ̀n dídún, àrà àti ìròkèrodò-ohùn rẹ̀.
+about-playbook-how-record-content-2 = Yẹra fún àpòju ariwo ní ìpìlẹ̀ – ó gbọ́dọ̀ rọrùn láti gbọ́ ẹ.
 
 ## How to grow language
 
