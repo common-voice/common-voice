@@ -523,21 +523,44 @@ about-playbook-how-add-sentences-content-4 = Àwọn gbólóhùn tó ti di 
 about-playbook-how-record-quality = Báwo ni mo ṣe lè ṣe àkàálẹ̀ fọ́nrán ohùn to jójúlówó?
 about-playbook-how-record-content-1 = Sọ̀rọ̀ bí o ṣe ń sọ̀rọ̀ gan-an! Bí o ṣe ń sọ̀rọ̀ jẹ́ gbígbà níbí – a fẹ́ ìwọ́wùn rẹ gẹ́gẹ́ bó ṣe rí, a sì fẹ́ òdiwọ̀n dídún, àrà àti ìròkèrodò-ohùn rẹ̀.
 about-playbook-how-record-content-2 = Yẹra fún àpòju ariwo ní ìpìlẹ̀ – ó gbọ́dọ̀ rọrùn láti gbọ́ ẹ.
+about-playbook-how-record-content-3 = Farabalẹ̀ ka gbólóhùn náà – má ṣe ṣi, ṣàyípadà tàbí ṣàfikún ọ̀rọ̀.
+about-playbook-how-record-content-4 = Rí I dájú pé ìkànì náà ń ṣàkálẹ̀ ṣíwájú kí o tó bẹ̀rẹ̀ sí sọ̀rọ̀, àti wí pé ó dúró lọ́wọ́ kan tí o bá ṣetán.
+about-playbook-how-record-content-5 = <accuracyLink>Wo àfikún lórí ìlànà apéye.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Báwo ni a ṣe lè ṣe ìdàgbàsókè èdè tó múnádóko lórí Common voice?
+about-playbook-how-grow-language-content-5 = O lè lo ìkànì ìbánidọ́rẹ̀ láti gbé èròngbà náà síta. Pín àwọn àtẹ̀jíṣẹ́ tó ń ṣàlàye ìdí tó fi pọn dandan, kí o sì kàn sí àwọn ènìyàn mìíràn tí wọ́n ń sọ̀rọ̀ nípa àwọn àdojúkọ bíi òfin èdè, AI ajẹmọ́ ohùn, tàbí ìṣègbè nínú ìmọ̀-ẹ̀rọ. Wo àfikún àbá lórí <campaignLink>ṣíṣe ìpolongo ayélujára, pẹ̀lú àkónú tí o lè ṣàtúnlò</campaignLink>.
 
 ## How to validate
 
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Báwo ni mo ṣe lè wò kí n sì lo àkójọ déta?
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = Ìṣe gààyà, ààbò àti ìhànde.
+about-playbook-how-project-governance-content-4 = Ìkópa nínú àwùjọ àti ìpinu ṣíṣe.
+about-playbook-how-project-governance-content-5 = Ìníyelórí àti ìdánimọ̀.
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Ìmọ̀ àtọwọ́dá
+mycroft-description =
+    Mycroft jẹ́ aṣèrànwọ́ ọ̀fẹ́ àkọ́kọ́ lágbàyé.
+    Mycroft ń ṣiṣẹ́ níbi gbogbo – lórí kọ̀mpútà, nínú ọkọ̀, tàbí lórí Raspberry Pi.
+mycroft-secondary-description = Ohun èlo kọ̀mpútà àìlèfọwọ́kàn ọ̀fẹ́ ni èyí jẹ́ tí a lè tún pòpọ̀, fẹ̀lójú, àti àtúnṣe lọ́fẹ̀. Mycroft lè di lílò nínu gbogbo ǹkan láti ìṣẹ́-àkànṣe sáyẹ́nsì dé ilé-iṣẹ́ ohun èlo kọ̀mpútà àìlèfọwọ́kàn.
 
 ## Glossary
 
+glossary = atúmọ̀ ọ̀rọ̀-ìperí
+localization = ìsọdìbílẹ̀
+localization-explanation = Èyí ni ìgbésẹ̀ wa fún títúmọ̀ àti gbígbé àkòónú wa wọ ọ̀pọ̀lọpọ̀ àwọn agbègbè (àwọn èdè).
+sentence-collection = Gbígba gbólóhùn
+sentence-collection-explanation = Gbígba gbólóhùn láti ìkàni gbogbogbò, tàbí kíkọ tuntun fún ìkàni gbogbogbò.
+hours-recorded-explanation = Kíka iye wákàtí àkàálẹ̀ ohùn tí a ti gbà lásìkò yìí.
+hours-validated-explanation = Kíka iye wákàtí àkàálẹ̀ ohùn tí a ti fífọwọ́sí lọ́dọ aṣàmúlò 2 nínú 3 pẹ̀lú ìbo “bẹ́ẹ̀ni”. Àwọn àmì wọ̀nyí ń tẹ̀síwájú lọ sí àpapọ̀ ìpinu iṣẹ́-àkànṣe wákàtí 10k.
+sst = Ohùn-sí-àkọsílẹ̀
 
 ## Error pages
 
