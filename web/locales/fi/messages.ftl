@@ -1095,6 +1095,9 @@ sc-personal-not-added = Et ole vielä lisännyt yhtään kieltä.
 
 ## REVIEW CRITERIA
 
+sc-criteria-make-sure = Varmista, että lause täyttää seuraavat kriteerit:
+sc-criteria-item-2 = Lauseen tulee olla kieliopillisesti oikein.
+sc-criteria-item-3 = Lauseen on oltava lausuttavissa ääneen.
 
 ## REVIEW
 
@@ -1113,6 +1116,7 @@ sc-review-form-button-approve = Hyväksy
 
 sc-settings-title = Asetukset
 sc-settings-ui-language = Käyttöliittymän kieli
+sc-settings-show-all-button = Näytä kaikki ohitetut lauseet uudelleen
 sc-settings-failed = Asetuksia ei voitu muuttaa. Yritä uudelleen.
 sc-validation-no-numbers = Lause ei saa sisältää numeroita
 sc-validation-no-symbols = Lause ei saa sisältää symboleja
