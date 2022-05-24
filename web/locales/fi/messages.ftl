@@ -697,7 +697,7 @@ action-tap = Napauta
 contribute = Osallistu
 listen = Kuuntele
 skip = Ohita
-shortcuts = Oikopolut
+shortcuts = Pikanäppäimet
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> ääninäyte
