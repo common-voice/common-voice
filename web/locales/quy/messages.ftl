@@ -314,7 +314,7 @@ shortcut-submit = Volver
 shortcut-submit-label = Enviar clips
 request-language-text = ¿Manaraqchu Common Voice nisqapi kunkaykita rikunki?
 request-language-text-learn = ¡Aprende cómo solicitarlo aquí!
-request-language-button = Solicitar un idioma
+request-language-button = musuq simita mañakuy
 
 ## ProjectStatus
 
@@ -525,13 +525,13 @@ about-partnership =
 about-get-involved = Involucrarse
 about-get-involved-text-2 =
     ¿Quiere ayudar a que Common Voice sea aún mejor?
-    ¡Estupendo! Póngase en contacto por correo electrónico o <discourseLink>Discourse</discourseLink>
+    ¡Estupendo! Póngase en contacto por correo electrónico o <discourseLink>Chat</discourseLink>
     foros, enviar problemas del sitio a través de <githubLink>GitHub</githubLink>, o unirse a la
     Chat de la comunidad <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = ¿Cómo me mantengo en contacto?
 about-stay-in-touch-button = Regístrate
 about-stay-in-touch-text-1 = <email Fragment>Regístrese</email Fragment> en nuestra lista de correo para saber cómo puede participar en campañas, eventos y funciones de codiseño en Common Voice.
-about-stay-in-touch-text-2 = Puede conocer a otras personas en las comunidades lingüísticas de Mozilla uniéndose a <discourseLink>Discourse</discourseLink> para conversaciones temáticas o <matrixLink>Matrix</matrixLink> para obtener consejos rápidos.
+about-stay-in-touch-text-2 = Puede conocer a otras personas en las comunidades lingüísticas de Mozilla uniéndose al <discourseLink>Chat</discourseLink> para conversaciones temáticas o <matrixLink>Matrix</matrixLink> para obtener consejos rápidos.
 about-nav-why-common-voice = ¿Por qué?
 about-nav-how-it-works = ¿Cómo?
 about-nav-partners = Socios
@@ -605,7 +605,7 @@ about-playbook-how-validate-content-4 = Si dos personas rechazan un clip, se pub
 
 about-playbook-how-access-dataset = ¿Cómo accedo y uso la base de datos?
 about-playbook-how-access-dataset-content-1 = Puede ir a la <datasetsPage>página de base de datos</datasetsPage>, seleccionar la versión y los idiomas que desee y descargarlos. Los archivos tienen <metadataLink>metadatos asociados</metadataLink>, como información demográfica y datos de validación. Deberá proporcionar una dirección de correo electrónico para descargar el conjunto de datos.
-about-playbook-how-access-dataset-content-2 = Si está buscando herramientas para crear modelos ASR, puede conectarse con otras personas de la comunidad <discourseLink>en Discourse</discourseLink>.
+about-playbook-how-access-dataset-content-2 = Si está buscando herramientas para crear modelos ASR, puede conectarse con otras personas de la comunidad <discourseLink>en Chat</discourseLink>.
 
 ## How are decisions made
 
@@ -641,9 +641,9 @@ de-identified-explanation = El proceso mediante el cual la información del perf
 ## Error pages
 
 error-title-404 = No pudimos encontrar esa página para usted
-error-content-404 = ¿Quizás nuestra <homepageLink>página de inicio</homepageLink> ayude? Para hacer una pregunta, únase al <matrixLink>chat de la comunidad de Matrix</matrixLink>, controle los problemas del sitio a través de <githubLink>GitHub</githubLink> o visite <discourseLink>nuestros foros de Discourse</discourseLink>.
+error-content-404 = ¿Quizás nuestra <homepageLink>página de inicio</homepageLink> ayude? Para hacer una pregunta, únase al <matrixLink>chat de la comunidad de Matrix</matrixLink>, controle los problemas del sitio a través de <githubLink>GitHub</githubLink> o visite <discourseLink>nuestros foros de conversación</discourseLink>.
 error-title-503 = Estamos experimentando un tiempo de inactividad inesperado
-error-content-503 = El sitio volverá a funcionar tan pronto como sea posible. Para obtener la información más reciente, únase al <matrixLink>chat de la comunidad de Matrix</matrixLink> o visite <githubLink>GitHub</githubLink> o <discourseLink>nuestros foros de Discourse</discourseLink> para enviar y monitorear problemas de experiencia en el sitio.
+error-content-503 = El sitio volverá a funcionar tan pronto como sea posible. Para obtener la información más reciente, únase al <matrixLink>chat de la comunidad de Matrix</matrixLink> o visite <githubLink>GitHub</githubLink> o <discourseLink>nuestros foros de conversación</discourseLink> para enviar y monitorear problemas de experiencia en el sitio.
 error-code = Error { $code }
 
 ## Data
@@ -716,7 +716,7 @@ get-started-speech = Comience con el reconocimiento de voz
 other-datasets = Otras bases de datos de voz
 feedback-q = ¿Tiene comentarios?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ es un <docsLink>juego de herramientas de código abierto</docsLink> para investigadores que desarrollan modelos conversacionales de IA de última generación.
-resource-deepspeech-info = El motor de reconocimiento de voz de código abierto de Mozilla, Deep Speech, se puede utilizar para crear aplicaciones de reconocimiento de voz. Lea nuestro <githubLink>Resumen de Github</githubLink> o únase al <discourseLink>DeepSpeech Discourse</discourseLink> para aprender cómo comenzar.
+resource-deepspeech-info = El motor de reconocimiento de voz de código abierto de Mozilla, Deep Speech, se puede utilizar para crear aplicaciones de reconocimiento de voz. Lea nuestro <githubLink>Resumen de Github</githubLink> o únase al <discourseLink>Chat de DeepSpeech </discourseLink> para aprender cómo comenzar.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> se dedica a la tecnología de voz abierta. Sus proyectos incluyen motores STT y TTS basados en aprendizaje profundo.
 community-playbook = Conjunto de reglas de la comunidad
 resource-playbook-info = <playbookLink>Encuentre orientación útil</playbookLink> sobre todo el recorrido de Common Voice, desde la localización hasta el uso de la base de datos, además de cómo conectarse con nuestra comunidad.
@@ -725,8 +725,8 @@ data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = La colección TED-LIUM se elaboró a partir de charlas en audio y sus transcripciones disponibles en el sitio web de TED.
 data-other-voxforge-description = VoxForge se configuró para recopilar voz transcrita para su uso con motores de reconocimiento de voz gratuitos y de código abierto.
 data-other-tatoeba-description = Tatoeba es una gran base de datos de oraciones, traducciones y audio hablado para usar en el aprendizaje de idiomas. Esta descarga contiene inglés hablado grabado por su comunidad.
-your-feedback = ¿Tiene ideas sobre cómo podemos mejorar la base de datos de Common Voice? Háganos saber en Discourse
-go-discourse = Ir a Discourse
+your-feedback = ¿Tiene ideas sobre cómo podemos mejorar la base de datos de Common Voice? Háganos saber en el Chat
+go-discourse = Ir al Chat
 missing-language = ¿No ve su idioma reflejado en el conjunto de datos? Para solicitar un idioma, diríjase a nuestra página Idiomas.
 go-languages-page = Ir a Página de Idiomas
 ready-to-validate = ¿Listo para ayudar a validar oraciones?
@@ -1067,8 +1067,11 @@ download-request-button = Descargar
 download-request-title = { $created }
 download-request-description = { $clipCount } clips de voz, tamaño total del archivo { $size }. Caduca { $expires }.
 download-request-archive-single = Archivo ZIP único que contiene
+download-request-assembling-description = Willañiqiykikuna huñusqa kachkan. Ama hina kaspa, qhipaman hukmanta qhaway.
 download-request-refresh-button = Refrescar
 download-request-modal-title = Enlaces de Descarga
+download-request-modal-description = Kaypi ZIP archivokunayki uraykachinaykipaq t'inkikuna kachkan.
+download-request-link-text = Zip #{ $offset } de { $total }
 download-request-metadata-link = Texto de la oración
 
 ## Landing
@@ -1115,7 +1118,7 @@ sc-header-rejected = Sentencias rechazadas
 sc-header-my = Mis sentencias
 sc-header-statistics = Estadísticas
 sc-header-profile = Perfil
-sc-footer-discourse = Discurso
+sc-footer-discourse = Rimanakuy
 sc-footer-report-bugs = Reportar un error
 sc-footer-translate = Traducir esta página
 sc-footer-report-copyright = Informar problemas de derechos de autor
