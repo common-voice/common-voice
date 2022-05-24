@@ -441,6 +441,7 @@ how-does-it-work-text = Joukkoutamme avointa ääniaineistoa. Lahjoita äänesi,
 
 about-language-req-subtitle = Joku pyytää kieltä lisättäväksi.
 about-localization-title = Verkkosivuston lokalisointi
+about-subscribe-text = Haluatko olla ajan tasalla Common Voicen suhteen?
 about-speak = Puhu
 about-speak-text = Avustajat äänittävät äänileikkeitä lukemalla lahjoitettujen lauseiden varastoa.
 about-listen-queue = Kuuntelujono
@@ -469,6 +470,7 @@ about-get-involved-text-2 =
     Mahtavaa! Ota yhteyttä sähköpostilla tai <discourseLink>Discoursen</discourseLink> kautta, 
     lähetä palautetta sivustosta <githubLink>GitHubin</githubLink> kautta, 
     tai liity joukkoomme <matrixLink>Matrixin</matrixLink> yhteisöchatissa.
+about-stay-in-touch = Miten pysyn yhteydessä?
 about-nav-why-common-voice = Miksi?
 about-nav-how-it-works = Miten?
 about-nav-partners = Partnerit
@@ -496,6 +498,8 @@ about-playbook-how-add-sentences = Kuinka lisään lauseita?
 ## How to record quality
 
 about-playbook-how-record-quality = Kuinka nauhoitan korkealaatuisen äänileikkeen?
+about-playbook-how-record-content-2 = Vältä turhaa taustamelua – ääntäsi pitäisi olla helppo kuulla.
+about-playbook-how-record-content-3 = Lue lause huolellisesti – älä ohita, muuta tai lisää sanoja.
 
 ## How to grow language
 
@@ -659,7 +663,9 @@ request-language-form-email =
 request-language-form-info =
     .label = Tietoja kielestä
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koodit</isoCodeLink>, jos tiedossa
+request-language-form-info-explanation-list-3 = Linkkejä verkkosivustoille, jotka voivat auttaa meitä ymmärtämään kieltä
 request-language-google-recaptcha-required = reCAPTCHA vaaditaan jos haluat jatkaa
+request-language-google-recaptcha-error = Jotain meni pieleen reCAPTCHA:n kanssa. Yritä uudelleen.
 
 ## Languages Overview
 
@@ -953,6 +959,7 @@ demo-listen-subtitle = Valmiina osallistumaan?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Henkilökohtaiset kojelaudat pitävät sinut ajan tasalla yksilön ja yhteisön edistymisestä.
 
 ## Validation criteria
 
@@ -1007,11 +1014,16 @@ sc-home-review-title = Tarkista lauseet
 
 sc-howto-addlang-text = Kun olet kirjautunut sisään, voit valita kielesi profiiliosiosta.
 sc-howto-addsen-title = Lisää uusia lauseita
+sc-howto-cite-item-1 = Voit sisällyttää mukaan verkkosivuston, esim. "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-review-subtitle = Varmista, että lause täyttää seuraavat kriteerit:
+sc-howto-review-criteria-2 = Lauseen tulee olla kieliopillisesti oikein.
+sc-howto-review-criteria-3 = Lauseen on oltava lausuttavissa ääneen.
 
 ## MY SENTENCES
 
 sc-my-title = Omat lauseet
 sc-my-loading = Ladataan lauseitasi…
+sc-my-err-fetching = Virhe noudettaessa omia lauseita. Yritä uudelleen.
 sc-my-no-sentences = Lauseita ei löytynyt!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
@@ -1053,6 +1065,8 @@ sc-confirm-sentences-title = Vahvista uudet lauseet
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Yhteensä
+sc-lang-info-add-more = <addLink>Lisää enemmän lauseita nyt!</addLink>
 
 ## LOGIN
 
@@ -1075,6 +1089,9 @@ sc-personal-not-added = Et ole vielä lisännyt yhtään kieltä.
 
 ## REVIEW
 
+sc-review-lang-not-selected =
+    Et ole valinnut yhtään kieltä. Siirry
+    <profileLink>profiiliisi</profileLink> valitaksesi kielet.
 sc-review-loading = Ladataan lauseita…
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
@@ -1088,6 +1105,9 @@ sc-review-form-button-approve = Hyväksy
 sc-settings-title = Asetukset
 sc-settings-ui-language = Käyttöliittymän kieli
 sc-settings-failed = Asetuksia ei voitu muuttaa. Yritä uudelleen.
+sc-validation-no-numbers = Lause ei saa sisältää numeroita
+sc-validation-no-symbols = Lause ei saa sisältää symboleja
+sc-validation-no-abbreviations = Lause ei saa sisältää lyhenteitä
 
 # [/SentenceCollector]
 
