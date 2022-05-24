@@ -1093,6 +1093,8 @@ demo-welcome-subheader = ¿Interesadochu kanki astawan yachayta hinaspa proyecto
 card-button-next = Siguiente
 card-button-back = Anterior
 demo-language-select-label = Explorar idiomas
+demo-eofy-sub_header = Conjunto de Datos de Voz, Listo para Descarga
+demo-account = Yupay
 
 ## Demo Account
 
@@ -1165,12 +1167,29 @@ sc-howto-addsen-title = Agregar nuevas oraciones
 sc-howto-review-title = Revisar oraciones
 sc-howto-review-subtitle = Asegúrese de que la oración cumpla con los siguientes criterios:
 sc-howto-review-criteria-1 = La oración debe estar escrita correctamente.
+sc-howto-review-criteria-2 = La oración debe ser gramaticalmente correcta.
+sc-howto-review-criteria-3 = La oración debe ser pronunciable.
+sc-howto-findpd-tips = Aquí hay algunos consejos para encontrar oraciones:
+sc-howto-findpd-tips-1 = Las mejores fuentes que puede buscar son podcasts, transcripciones, guiones de películas y cualquier cosa que potencialmente contenga conversaciones cotidianas.
 
 ## MY SENTENCES
 
+sc-my-loading = Cargando sus oraciones...
+sc-my-no-sentences = No se encontraron oraciones!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Envío: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Fuente:  { $source }
+sc-my-delete = Borrar oraciones seleccionadas
+sc-my-deleting = Borrando oraciones seleccionadas...
+sc-my-err-failed-delete = Error al borrar oraciones seleccionadas... Por favor intentar de nuevo!
 
 ## REJECTED
 
+sc-rejected-title = Oraciones rechazadas
+sc-rejected-loading = Cargando oraciones rechazadas...
 
 ## STATS
 
