@@ -1098,9 +1098,15 @@ demo-account = Yupay
 
 ## Demo Account
 
+demo-account-card-header = Cuentayoq kayqa manan necesariochu qolqeta qonapaq, ichaqa yanapanman.
+demo-account-card-body = A la derecha describimos los beneficios y aclaramos qué información hacemos pública. Use los enlaces a continuación para comenzar con la cuenta de Common Voice en su propio dispositivo.
+demo-account-enter-email =
+    .label = Ingrese un correo electrónico para enviar un enlace de registro
+demo-account-sign-up = Enviar enlace de registro
 
 ## Demo Contribute
 
+demo-contribute-card-header = ¿Listo para agregar tu voz o prestar tu oído?
 demo-listen-subtitle = ¿Listo para contribuir?
 
 ## Demo Dashboard
@@ -1110,6 +1116,7 @@ demo-listen-subtitle = ¿Listo para contribuir?
 
 contribution-criteria-nav = Criterio
 contribution-criteria-link = Criterios de contribución nisqamanta hamut’ay
+contribution-criteria-page-title = Criterio de contribución
 contribution-for-example = por ejemplo
 contribution-misreadings-title = Pantasqa ñawinchasqakuna
 contribution-varying-pronunciations-description = Tenga cuidado antes de rechazar una grabación porque el lector pronunció mal una palabra, puso el énfasis en el lugar equivocado o aparentemente ignoró un signo de interrogación. Hay una gran variedad de pronunciaciones en uso en todo el mundo, algunas de las cuales quizás no haya escuchado en su comunidad local. Proporcione un margen de apreciación para aquellos que puedan hablar de manera diferente a usted.
@@ -1119,6 +1126,9 @@ contribution-varying-pronunciations-example-1-explanation = [‘Beret’ está b
 contribution-background-noise-title = Ruido de fondo
 contribution-background-voices-title = Voces de fondo
 contribution-volume-title = Volumen
+contribution-just-unsure-title = ¿Manachu segurochu kankilla?
+see-more = <chevron></chevron>Ver más
+see-less = <chevron></chevron>Ver menos
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1164,6 +1174,7 @@ sc-howto-title = Cómo
 sc-howto-addlang-title = Agregando de idiomas para trabajar
 sc-howto-addlang-text = Una vez que haya iniciado sesión, puede seleccionar sus idiomas en la sección de perfil.
 sc-howto-addsen-title = Agregar nuevas oraciones
+sc-howto-cite-title = Cómo citar
 sc-howto-review-title = Revisar oraciones
 sc-howto-review-subtitle = Asegúrese de que la oración cumpla con los siguientes criterios:
 sc-howto-review-criteria-1 = La oración debe estar escrita correctamente.
@@ -1174,6 +1185,7 @@ sc-howto-findpd-tips-1 = Las mejores fuentes que puede buscar son podcasts, tran
 
 ## MY SENTENCES
 
+sc-my-title = Mis oraciones
 sc-my-loading = Cargando sus oraciones...
 sc-my-no-sentences = No se encontraron oraciones!
 # Variables:
