@@ -878,18 +878,88 @@ listen-loading-error =
     No pudimos obtener ningún clip de audio para que escuches.
     Por favor, inténtelo de nuevo más tarde.
 speak-empty-state = Nos hemos quedado sin oraciones para grabar en este idioma...
+speak-empty-state-cta = Contribuir oraciones
+speak-loading-error =
+    No pudimos obtener ninguna oración para que usted hable.
+    Por favor, inténtelo de nuevo más tarde.
+record-button-label = Graba tu voz
+share-title-new = <bold>Ayúdanos</bold> a encontrar más voces
+keep-track-profile = Lleva un registro de tu progreso con un perfil
+login-to-get-started = Inicia sesión o regístrate para empezar
+target-segment-first-card = Está contribuyendo a nuestro primer segmento objetivo
+target-segment-generic-card = Estás contribuyendo a un segmento objetivo
+target-segment-first-banner = Ayude a crear el primer segmento objetivo de Common Voice en { $locale }
+target-segment-add-voice = Agrega tu Voz
+target-segment-learn-more = Aprender más
 
 ## Reporting
 
+report = Reportar
+report-title = Enviar un reporte
+report-ask = ¿Qué problema estás experimentando con esta oración?
+report-offensive-language = Lenguaje ofensivo
+report-offensive-language-detail = La oración tiene un lenguaje irrespetuoso u ofensivo.
+report-grammar-or-spelling = Error gramatical/ortográfico
+report-grammar-or-spelling-detail = La oración tiene un error gramatical u ortográfico.
+report-different-language = Lenguaje diferente
+report-different-language-detail = Está escrito en un idioma diferente al que estoy hablando.
+report-difficult-pronounce = Dificultad para pronunciar
+report-difficult-pronounce-detail = Contiene palabras o frases que son muy difíciles de leer o pronunciar.
+report-offensive-speech = Discurso ofensivo
+report-offensive-speech-detail = El clip tiene un lenguaje irrespetuoso u ofensivo.
+report-other-comment =
+    .placeholder = Comentar
+success = Éxito
+continue = Continuar
+report-success = Reporte fue enviado exitósamente
 
 ## Goals
 
+streaks = Rayas
+days =
+    { $count ->
+        [one] Día
+       *[other] Días
+    }
+recordings =
+    { $count ->
+        [one] Grabación
+       *[other] Grabaciones
+    }
+validations =
+    { $count ->
+        [one] Validación
+       *[other] Validaciones
+    }
 
 ## Dashboard
 
+your-languages = Tus Idiomas
+toward-next-goal = Hacia el próximo objetivo
+goal-reached = Objetivo alcanzado
+clips-you-recorded = Clips que has Grabado
+clips-you-validated = Clips que has Validado
+todays-recorded-progress = Progreso de Common Voice de hoy en clips grabados
+todays-validated-progress = Progreso de Common Voice de hoy en clips validados
+stats = Estadísticas
+awards = Premios
+you = Tú
+everyone = Todos
+contribution-activity = Actividad de contribución
+top-contributors = Mayores contribuyentes
+recorded-clips = Clips Grabados
+validated-clips = Clips Validados
+total-approved = Total de aprobados
+overall-accuracy = Precisión general
+set-visibility = Establecer mi visibilidad
+visibility-explainer = Esta configuración controla la visibilidad de su tabla de clasificación. Cuando esté oculto, su progreso será privado. Esto significa que su imagen, nombre de usuario y progreso no aparecerán en la tabla de clasificación. Tenga en cuenta que la actualización de la tabla de clasificación tarda ~{ $minutes }min en propagar los cambios.
+visibility-overlay-note = Nota: cuando se establece en 'Visible', esta configuración se puede cambiar desde la <profileLink>Página de perfil</profileLink>
+show-ranking = Mostrar mi ranking
 
 ## Custom Goals
 
+get-started-goals = Empezar con objetivos
+create-custom-goal = Crear un objetivo personal
 
 ## Profile Delete
 
