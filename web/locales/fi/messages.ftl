@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Haluan vastaanottaa sähköposteja, kuten
 email-opt-in-privacy-v2 = Tilaamalla uutiskirjeen hyväksyt Mozillan käsittelevän tätä tietoa Mozillan <privacyLink>tietosuojakäytännössä</privacyLink> kuvatulla tavalla.
 indicates-required = * Pakollinen kenttä
 not-available-abbreviation = N/A
+banner-error-slow-1 = Valitettavasti Common Voice toimii hitaasti. Kiitos kiinnostuksestasi.
+banner-error-slow-2 = Vastaanotamme paljon liikennettä ja tutkimme parhaillaan ongelmia.
+banner-error-slow-link = Tilatietosivu
+error-something-went-wrong = Jokin meni pieleen
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -306,6 +310,8 @@ profile-form-native-language =
     .label = Äidinkieli
 profile-form-additional-language =
     .label = Lisäkieli
+profile-form-language =
+    .label = Kieli
 profile-form-accent =
     .label = Murre
 profile-form-age =
@@ -428,10 +434,13 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Miksi Common Voice?
+how-does-it-work-title-v2 = Miten Common Voice toimii?
 how-does-it-work-text = Joukkoutamme avointa ääniaineistoa. Lahjoita äänesi, tarkasta muiden ihmisten ääninäytteiden tarkkuus, tee aineistosta kaikille parempi.
 
 ## How does it work section
 
+about-language-req-subtitle = Joku pyytää kieltä lisättäväksi.
+about-localization-title = Verkkosivuston lokalisointi
 about-speak = Puhu
 about-speak-text = Avustajat äänittävät äänileikkeitä lukemalla lahjoitettujen lauseiden varastoa.
 about-listen-queue = Kuuntelujono
@@ -464,10 +473,12 @@ about-nav-why-common-voice = Miksi?
 about-nav-how-it-works = Miten?
 about-nav-partners = Partnerit
 about-nav-get-involved = Tule mukaan
+about-nav-how-it-works-2 = Miten Common Voice toimii?
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Mikä on kieli Common Voicessa?
 
 ## How do I add a language
 
@@ -475,17 +486,22 @@ about-playbook-how-add-language = Kuinka lisään kielen?
 
 ## How does localization work
 
+about-playbook-how-localize = Miten sivuston lokalisointi toimii?
+about-playbook-how-localize-content-1 = Common Voice -sivuston käännös tapahtuu <strong>Pontoonissa</strong>.
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Kuinka lisään lauseita?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Kuinka nauhoitan korkealaatuisen äänileikkeen?
 
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Tapahtumat
 about-playbook-how-grow-language-content-4 = Sosiaalinen media
+about-playbook-how-grow-language-content-6 = Kumppanuudet ja verkostot
 
 ## How to validate
 
@@ -640,6 +656,9 @@ other-language = Muu kieli
 request-language-heading = Kysy uudesta kielestä
 request-language-form-email =
     .label = Sähköpostiosoitteesi
+request-language-form-info =
+    .label = Tietoja kielestä
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koodit</isoCodeLink>, jos tiedossa
 request-language-google-recaptcha-required = reCAPTCHA vaaditaan jos haluat jatkaa
 
 ## Languages Overview
@@ -894,6 +913,7 @@ download-request-refresh-button = Päivitä
 download-request-modal-title = Latauslinkit
 download-request-modal-description = Tässä on linkit ZIP-tiedostojen lataamiseksi.
 download-request-link-text = Zip-tiedosto { $offset }/{ $total }
+download-request-metadata-link = Lauseen teksti
 
 ## Landing
 
@@ -958,7 +978,10 @@ see-less = <chevron></chevron>Näytä vähemmän
 
 ## HEADER/FOOTER
 
+sc-header-home = Etusivu
+sc-header-how-to = Ohje
 sc-header-add = Lisää
+sc-header-review = Tarkista
 sc-header-rejected = Hylätyt lauseet
 sc-header-my = Omat lauseet
 sc-header-statistics = Tilastot
@@ -975,22 +998,32 @@ sc-logout-button = Kirjaudu ulos
 
 ## HOME
 
+sc-home-review-title = Tarkista lauseet
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-addlang-text = Kun olet kirjautunut sisään, voit valita kielesi profiiliosiosta.
 sc-howto-addsen-title = Lisää uusia lauseita
 
 ## MY SENTENCES
 
+sc-my-title = Omat lauseet
 sc-my-loading = Ladataan lauseitasi…
 sc-my-no-sentences = Lauseita ei löytynyt!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Lähde:  { $source }
+sc-my-delete = Poista valitut lauseet
+sc-my-deleting = Poistetaan valittuja lauseita…
 
 ## REJECTED
 
 sc-rejected-title = Hylätyt lauseet
+sc-rejected-loading = Ladataan hylättyjä lauseita…
+sc-rejected-none-found = Hylättyjä lauseita ei löytynyt!
 
 ## STATS
 
@@ -1012,6 +1045,7 @@ sc-submit-ph-one-per-line =
 
 sc-add-lang-could-not-add = Kieltä ei voitu lisätä
 sc-add-lang-sec-button = Lisää kieli
+sc-add-err-unexpected = Odottamaton vastaus palvelimelta
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1031,15 +1065,31 @@ sc-login-err-try-again = Yritä uudestaan.
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profiili: { $username }
 sc-personal-err-lang-not-found = Kieltä ei voitu poistaa: kieltä ei löydy
+sc-personal-err-remove = Kieltä ei voitu poistaa
+sc-personal-your-languages = Kielesi:
+sc-personal-remove-button = poista
+sc-personal-not-added = Et ole vielä lisännyt yhtään kieltä.
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-loading = Ladataan lauseita…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Lähde: { $sentenceSource }
+sc-review-form-button-reject = Hylkää
+sc-review-form-button-skip = Ohita
+sc-review-form-button-approve = Hyväksy
 
 ## SETTINGS
 
+sc-settings-title = Asetukset
+sc-settings-ui-language = Käyttöliittymän kieli
+sc-settings-failed = Asetuksia ei voitu muuttaa. Yritä uudelleen.
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Valitse kieli/lokalisointi
