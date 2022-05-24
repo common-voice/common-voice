@@ -772,6 +772,22 @@ request-language-explanation-1 =
     <languagesPageLink>Página de idiomas de Common Voice</languagesPageLink>.
     Si no está, complete este formulario y <strong>le enviaremos un correo electrónico muy útil
     explicando cómo configurar su idioma</strong>.
+request-language-explanation-2 =
+    También <strong>informaremos a nuestro administrador de la comunidad
+    que te interesa</strong>, para que puedan darte cualquier
+    apoyo adicional o información que pueda necesitar.
+request-language-form-email =
+    .label = Tu correo electrónico
+request-language-form-info =
+    .label = Información acerca del idioma
+request-language-form-info-explanation =
+    Añade toda la información que puedas sobre el idioma. Esto
+    podría incluir:
+request-language-form-info-explanation-list-1 = Nombres de tu idioma
+request-language-form-info-explanation-list-2 = <isoCodeLink>Códigos ISO</isoCodeLink> si se conocen
+request-language-form-info-explanation-list-3 = Enlaces a sitios web que pueden ayudarnos a entender el idioma.
+request-language-google-recaptcha-required = reCAPTCHA se necesita si desea continuar
+request-language-google-recaptcha-error = Algo salió mal con reCAPTCHA. Por favor intente de nuevo.
 # Success page
 request-language-success-heading = Riqsikuyki! Musuq simi tapuyta apachirqanki
 
