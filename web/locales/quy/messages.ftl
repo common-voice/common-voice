@@ -1084,6 +1084,9 @@ read-more-about = Astawan ñawinchay Ñoqaykumanta nisqa paginapi
 
 ## DemoLayout
 
+demo-get-started = Qallarisun
+demo-welcome = Allin hamusqaykichik Common Voice nisqaman
+demo-welcome-subheader = ¿Interesadochu kanki astawan yachayta hinaspa proyectopi yanapakuyta?
 
 ## Demo Datasets
 
@@ -1096,17 +1099,24 @@ demo-language-select-label = Explorar idiomas
 
 ## Demo Contribute
 
+demo-listen-subtitle = ¿Listo para contribuir?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-criteria-nav = Criterio
+contribution-criteria-link = Criterios de contribución nisqamanta hamut’ay
 contribution-for-example = por ejemplo
+contribution-misreadings-title = Pantasqa ñawinchasqakuna
 contribution-varying-pronunciations-description = Tenga cuidado antes de rechazar una grabación porque el lector pronunció mal una palabra, puso el énfasis en el lugar equivocado o aparentemente ignoró un signo de interrogación. Hay una gran variedad de pronunciaciones en uso en todo el mundo, algunas de las cuales quizás no haya escuchado en su comunidad local. Proporcione un margen de apreciación para aquellos que puedan hablar de manera diferente a usted.
 contribution-varying-pronunciations-description-extended = Por otro lado, si cree que el lector probablemente nunca antes se ha topado con la palabra y simplemente está adivinando incorrectamente la pronunciación, rechace. Si no está seguro, utilice el botón Saltar.
 contribution-varying-pronunciations-example-1-title = En la cabeza llevaba una boina.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ está bien ya sea con acento en la primera sílaba (Reino Unido) o en la segunda (EE. UU.)]
+contribution-background-noise-title = Ruido de fondo
+contribution-background-voices-title = Voces de fondo
+contribution-volume-title = Volumen
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1152,6 +1162,9 @@ sc-howto-title = Cómo
 sc-howto-addlang-title = Agregando de idiomas para trabajar
 sc-howto-addlang-text = Una vez que haya iniciado sesión, puede seleccionar sus idiomas en la sección de perfil.
 sc-howto-addsen-title = Agregar nuevas oraciones
+sc-howto-review-title = Revisar oraciones
+sc-howto-review-subtitle = Asegúrese de que la oración cumpla con los siguientes criterios:
+sc-howto-review-criteria-1 = La oración debe estar escrita correctamente.
 
 ## MY SENTENCES
 
