@@ -707,6 +707,7 @@ keep-track-profile = Профильыштӹ ӹшкӹметӹн анзыкы ке
 login-to-get-started = Тӹнгӓлӓш манын, пыры ӓли регистрацим эртӹ
 target-segment-first-card = Мӓмнӓн икӹмшӹ целевой лаштыкыш ӹшке вкладетӹм пыртет
 target-segment-generic-card = Целевой лаштыкыш ӹшке вкладетӹм пыртет
+target-segment-first-banner = Common Voice-ын икӹмшӹ целевой лаштыкым тӹштӹ ӹштӓш палшы: { $locale }
 target-segment-add-voice = Ӹшке юкетӹм уштары
 target-segment-learn-more = Шукырак тыменяш
 
