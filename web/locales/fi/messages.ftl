@@ -516,6 +516,7 @@ about-playbook-how-grow-language-content-6 = Kumppanuudet ja verkostot
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Kuinka saan pääsyn ja kuinka käytän aineistoa?
 
 ## How are decisions made
 
@@ -905,6 +906,7 @@ profile-form-delete = Poista profiili
 download-q = Haluatko ladata tietosi?
 download-info = Kerro meille mitä haluat ladata:
 download-profile-title = Profiili
+download-profile-info = Sisältää sähköpostiosoitteen, käyttäjätunnuksen ja yksilöön liittyviä tietoja, saatavilla heti
 download-profile-size = Muutama tavu
 download-recordings-title = Äänitallenteet
 download-recordings-info = Sisältää mp3-tiedostoja ja niihin liittyviä lauseita, valmistelu voi kestää jonkin aikaa
