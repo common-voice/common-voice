@@ -1018,6 +1018,7 @@ sc-howto-cite-item-1 = Voit sisällyttää mukaan verkkosivuston, esim. "Common 
 sc-howto-review-subtitle = Varmista, että lause täyttää seuraavat kriteerit:
 sc-howto-review-criteria-2 = Lauseen tulee olla kieliopillisesti oikein.
 sc-howto-review-criteria-3 = Lauseen on oltava lausuttavissa ääneen.
+sc-howto-findpd-tips = Tässä on vinkkejä lauseiden löytämiseen:
 
 ## MY SENTENCES
 
@@ -1030,23 +1031,28 @@ sc-my-no-sentences = Lauseita ei löytynyt!
 sc-my-source = Lähde:  { $source }
 sc-my-delete = Poista valitut lauseet
 sc-my-deleting = Poistetaan valittuja lauseita…
+sc-my-err-failed-delete = Valittujen lauseiden poistaminen epäonnistui… Yritä uudelleen!
 
 ## REJECTED
 
 sc-rejected-title = Hylätyt lauseet
 sc-rejected-loading = Ladataan hylättyjä lauseita…
+sc-rejected-err-fetching = Virhe hylättyjä lauseita haettaessa. Yritä uudelleen.
 sc-rejected-none-found = Hylättyjä lauseita ei löytynyt!
 
 ## STATS
 
 sc-stats-title = Tilastot
 sc-stats-updating = Päivitetään…
+sc-stats-error = Tilastoja ei voitu noutaa. Yritä uudelleen myöhemmin.
 
 ## ADD
 
 sc-submit-err-select-lang = Valitse kieli.
 sc-submit-err-add-sentences = Lisää lauseita.
 sc-submit-err-add-source = Lisää lähde.
+sc-submit-prompt =
+    .message = Lauseita ei lähetetty. Haluatko varmasti poistua?
 sc-submit-title = Lisää lauseita
 sc-submit-select-language =
     .labelText = Valitse kieli
@@ -1061,7 +1067,10 @@ sc-add-err-unexpected = Odottamaton vastaus palvelimelta
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Lauseita ei lähetetty. Haluatko varmasti poistua?
 sc-confirm-sentences-title = Vahvista uudet lauseet
+sc-confirm-uploading = Lauseita lähetetään. Tämä voi kestää useita minuutteja lisättävien lauseiden määrästä riippuen. Älä sulje tätä sivua.
 
 ## LANGUAGE INFO
 
