@@ -441,6 +441,8 @@ how-does-it-work-text = Joukkoutamme avointa ääniaineistoa. Lahjoita äänesi,
 
 about-language-req-subtitle = Joku pyytää kieltä lisättäväksi.
 about-localization-title = Verkkosivuston lokalisointi
+about-dataset-release-title = Aineistojulkaisu
+about-dataset-release-subtitle = Julkaisemme aineiston kolmen kuukauden välein.
 about-subscribe-text = Haluatko olla ajan tasalla Common Voicen suhteen?
 about-speak = Puhu
 about-speak-text = Avustajat äänittävät äänileikkeitä lukemalla lahjoitettujen lauseiden varastoa.
@@ -577,6 +579,7 @@ review-delete-recordings = Poista nauhoitukset
 
 ## Datasets Page
 
+datasets-heading = Aineistot
 datasets-headline = Rakennamme avointa ja monikielistä ääniaineistoa, jota kuka tahansa voi käyttää puheeseen liittyvien sovellusten kehittämisessä.
 datasets-positioning =
     Uskomme, että suuri ja avoin ääniaineisto lisää innovaatiota ja tervettä kaupallista kilpailua koneoppimiseen pohjautuvan puheteknologian saralla.
