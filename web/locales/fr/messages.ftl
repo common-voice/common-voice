@@ -758,6 +758,7 @@ other-language = Autre langue
 ## Request Language Pages
 
 request-language-heading = Demander une nouvelle langue
+request-language-explanation-2 = Nous allons également <strong>informer notre community manager que vous êtes intéressé·e</strong>, afin qu’il ou elle puisse vous aider ou vous fournir des informations supplémentaires dont vous pourriez avoir besoin.
 request-language-form-email =
     .label = Votre adresse e-mail
 request-language-form-info =
