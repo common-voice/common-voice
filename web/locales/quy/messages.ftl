@@ -1067,6 +1067,7 @@ download-request-button = Descargar
 download-request-title = { $created }
 download-request-description = { $clipCount } clips de voz, tamaño total del archivo { $size }. Caduca { $expires }.
 download-request-archive-single = Archivo ZIP único que contiene
+download-request-archive-multiple = Dividir en { $archiveCount } archivos ZIP que contengan
 download-request-assembling-description = Willañiqiykikuna huñusqa kachkan. Ama hina kaspa, qhipaman hukmanta qhaway.
 download-request-refresh-button = Refrescar
 download-request-modal-title = Enlaces de Descarga
@@ -1079,6 +1080,7 @@ download-request-link-single = Chantapas chiqa URLkuna munasqa uraykachiy kamach
 
 welcome-staff = Allin hamuy { $company }  personal
 help-contribute = Yanapakuyta atikunki huk imaymana, kichasqa willay huñu ruwayta huk Common Voice perfilta ruwaspa chaymanta kunkayki yanapaspa.
+login-company = Iniciar sesión / Registrarse con email de { $company }
 profile-not-required = Mana perfilniyuq yanapakuyta atinki, yanapakuq kaptinpas, uraypi qhaway imarayku.
 read-more-about = Astawan ñawinchay Ñoqaykumanta nisqa paginapi
 
@@ -1093,6 +1095,7 @@ demo-welcome-subheader = ¿Interesadochu kanki astawan yachayta hinaspa proyecto
 card-button-next = Siguiente
 card-button-back = Anterior
 demo-language-select-label = Explorar idiomas
+demo-eofy-header = 2019 Versión de Fin-de-Año
 demo-eofy-sub_header = Conjunto de Datos de Voz, Listo para Descarga
 demo-account = Yupay
 
@@ -1111,6 +1114,7 @@ demo-listen-subtitle = ¿Listo para contribuir?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Los paneles personales lo mantienen actualizado con el progreso individual y comunitario.
 
 ## Validation criteria
 
@@ -1202,6 +1206,7 @@ sc-my-err-failed-delete = Error al borrar oraciones seleccionadas... Por favor i
 
 sc-rejected-title = Oraciones rechazadas
 sc-rejected-loading = Cargando oraciones rechazadas...
+sc-rejected-none-found = No se encontraron oraciones rechazadas!
 
 ## STATS
 
@@ -1257,6 +1262,8 @@ sc-add-err-submission = Error de envío
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Oraciones no enviadas, ¿está seguro de querer salir?
 sc-confirm-sentences-title = Confirmar Nuevas Oraciones
 sc-confirm-button-text = Confirmar
 
@@ -1274,6 +1281,8 @@ sc-login-err-try-again = Por favor intentar de nuevo
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Perfil: { $username }
+sc-personal-your-languages = Idiomaykikuna:
+sc-personal-remove-button = qichuy
 
 ## REVIEW CRITERIA
 
@@ -1293,6 +1302,8 @@ sc-review-form-button-approve-shortcut = S
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = K
+sc-review-form-button-submit =
+    .submitText = Finalizar la revisión
 
 ## SETTINGS
 
