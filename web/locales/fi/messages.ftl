@@ -286,6 +286,7 @@ shortcut-rerecord-toggle-label = Uudelleennauhoita äänite
 shortcut-discard-ongoing-recording-label = Hylkää käynnissä oleva tallenne
 shortcut-submit-label = Lähetä äänileikkeet
 request-language-text = Eikö kieltäsi löydy Common Voicesta vielä?
+request-language-text-learn = Näin voit pyytää sitä lisättäväksi!
 request-language-button = Pyydä kieltä lisättäväksi
 
 ## ProjectStatus
@@ -365,6 +366,7 @@ connect-gravatar = Yhdistä Gravatariin
 gravatar_not_found = Sähköpostiosoitteella ei löytynyt gravataria
 file_too_large = Valittu tiedosto on liian suuri
 avatar-uploaded = Profiilikuva lähetetty
+max-file-size = enintään { $kb } kt
 
 ## Profile - Email
 
