@@ -790,10 +790,27 @@ request-language-google-recaptcha-required = reCAPTCHA se necesita si desea cont
 request-language-google-recaptcha-error = Algo salió mal con reCAPTCHA. Por favor intente de nuevo.
 # Success page
 request-language-success-heading = Riqsikuyki! Musuq simi tapuyta apachirqanki
+request-language-success-list-1 =
+    Debería recibir un correo electrónico en breve explicando
+    los pasos para agregar su idioma a Common Voice
+request-language-success-list-2 =
+    Nuestro administrador de la comunidad se comunicará con usted para ofrecerle
+    soporte adicional, y para hacerle saber si hay
+    ya una comunidad trabajando en tu idioma
+request-language-success-list-3 =
+    Si no recibe noticias nuestras dentro de un par de días,
+    comuníquese con <emailLink>{ $email }</emailLink>
+    y nos pondremos en contacto con usted!
+request-language-error =
+    Es posible que no hayamos recibido esa solicitud. Por favor envíenos un correo electrónico directamente
+    en <emailLink>{ $email }</emailLink> y nos pondremos en contacto contigo.
 
 ## Languages Overview
 
+language-section-in-progress = En curso
+language-section-in-progress-new-description = Estos idiomas se encuentran actualmente en desarrollo comunitario. Las barras de progreso indican qué tan avanzado está cada idioma en el proceso de <localizationGlossaryLink>localización del sitio web</localizationGlossaryLink> y <sentenceCollectionGlossaryLink>recopilación de oraciones</sentenceCollectionGlossaryLink>.
 language-section-launched = Lanzado
+language-section-launched-description = Para estos idiomas lanzados, el sitio web se ha <localizationGlossaryLink>localizado</localizationGlossaryLink> con éxito, y tiene suficientes <sentenceCollectionGlossaryLink>oraciones recopiladas</sentenceCollectionGlossaryLink> para permitir <speakLink>Hablar</speakLink> y <listenLink>Escuchar</listenLink> contribuciones en curso.
 languages-show-more = Ver más
 languages-show-less = Ver menos
 language-meter-in-progress = Progreso
@@ -818,6 +835,15 @@ clips-with-count-pluralized =
         [one] clip
        *[other] clips
     }
+goal-help-recording = Has ayudado a Common Voice a alcanzar <goalPercentage></goalPercentage> de nuestra meta diaria de { $goalValue } de grabaciones!
+goal-help-validation = Has ayudado a Common Voice a alcanzar <goalPercentage></goalPercentage> de nuestra meta diaria de { $goalValue } de validaciones!
+contribute-more =
+    { $count ->
+        [one] ¿Listo para hacer { $count } más?
+       *[other] ¿Listo para hacer { $count } más?
+    }
+record-cta = Empezar a grabar
+record-platform-not-supported = Lo sentimos, su plataforma no es compatible actualmente.
 record-no-mic-found = Mana micrófono tarisqachu.
 
 ## Reporting
