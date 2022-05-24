@@ -844,7 +844,40 @@ contribute-more =
     }
 record-cta = Empezar a grabar
 record-platform-not-supported = Lo sentimos, su plataforma no es compatible actualmente.
+record-platform-not-supported-desktop = En dispositivos de escritorio puedes contribuir descargando…
+record-platform-not-supported-ios-non-safari = En iOS, continúe con Safari para habilitar la grabación...
+record-must-allow-microphone = Debes permitir acceso al micrófono.
 record-no-mic-found = Mana micrófono tarisqachu.
+record-error-too-short = La grabación fue muy corta.
+record-error-too-long = La grabación fue muy larga.
+record-error-too-quiet = La grabación fue demasiado silenciosa.
+record-cancel = Cancelar la regrabación
+record-instruction = { $actionType }<recordIcon></recordIcon> luego lea la oración en voz alta
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> cuando termine
+record-three-more-instruction = ¡Tres para ir!
+record-again-instruction = ¡Genial! <recordIcon></recordIcon> Graba tu próximo clip
+record-again-instruction2 = Sigue así, graba de nuevo <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> ¡Último!
+review-tooltip = Revisa y vuelve a grabar clips aquí a medida que avanzas
+share-clip = Compartir tu clip
+share-common-voice = Compartir Common Voice
+review-instruction = Revise y vuelva a grabar clips si es necesario
+record-submit-tooltip = { $actionType } enviar cuando esté listo
+clips-uploaded = Clips cargados
+record-abort-title = ¿Terminar de grabar primero?
+record-abort-text = Salir ahora significa que perderás lo avanzado
+record-abort-submit = Enviar clips
+record-abort-continue = Finalizar grabación
+record-abort-delete = Salir & Borrar clips
+listen-instruction = { $actionType }<playIcon></playIcon> ¿pronunció correctamente la oración?
+listen-again-instruction = ¡Gran trabajo! <playIcon></playIcon> Escucha de nuevo cuando estés listo(a)
+listen-3rd-time-instruction = 2 abajo, ¡sigue así!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Último!
+listen-empty-state = Nos hemos quedado sin clips para validar en este idioma...
+listen-loading-error =
+    No pudimos obtener ningún clip de audio para que escuches.
+    Por favor, inténtelo de nuevo más tarde.
+speak-empty-state = Nos hemos quedado sin oraciones para grabar en este idioma...
 
 ## Reporting
 
