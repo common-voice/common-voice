@@ -915,6 +915,7 @@ download-size = Koko
 download-selected = Valittu
 download-start = Lataa profiilitiedot
 download-request = Pyydä äänitallenteet
+download-requests = Aiemmat näytteiden latauspyynnöt
 download-requests-info = Kun pyydät tallenteitasi, kokoamme ne yhteen tai useampaan ZIP -tiedostoon. Tässä ovat aiemmat pyyntösi:
 download-request-button = Lataa
 download-request-title = { $created }
