@@ -489,6 +489,8 @@ about-dataset-release-subtitle = A máa ń gbé dátà náà jádi ní 
 about-subscribe-text = O fẹ́ wà ní àrọ́wọ́tó pẹ̀lú Common Voice?
 about-speak = Sọ̀rọ̀
 about-speak-text = Àwọn olùkópa máa ń ṣe ìgbàsílẹ̀ ohùn nípa kíka ọ̀rọ̀ láti inú àgbàjọ gbọhlóhùn tí a ṣe.
+about-listen-queue = àkójọpọ̀-àtẹ́tísí
+about-listen = Gbọ́
 
 ## Community Playbook Content
 ## What is a language
