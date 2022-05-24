@@ -960,9 +960,45 @@ show-ranking = Mostrar mi ranking
 
 get-started-goals = Empezar con objetivos
 create-custom-goal = Crear un objetivo personal
+goal-type = ¿Qué tipo de objetivo quieres construir?
+both-speak-and-listen = Ambos
+both-speak-and-listen-long = Ambos (Hablar y Escuchar)
+daily-goal = Objetivo diario
+weekly-goal = Objetivo Semanal
+easy-difficulty = Fácil
+average-difficulty = Promedio
+difficult-difficulty = Dificultad
+pro-difficulty = Pro
+lose-goal-progress-warning = Al editar su objetivo, puede perder su progreso actual.
+want-to-continue = ¿Quieres continuar?
+finish-editing = ¿Terminar de editar primero?
+lose-changes-warning = Salir ahora significa que perderá sus cambios
+build-custom-goal = Crea un objetivo personalizado
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Ayude a alcanzar { $hours } hora en { $language } con un objetivo personal
+       *[other] Ayude a alcanzar { $hours } horas en { $language } con un objetivo personal
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Ayudar a Common Voice alcanzar { $hours } hora en un idioma con un objetivo personal
+       *[other] Ayudar a Common Voice alcanzar { $hours } horas en un idioma con un objetivo personal
+    }
+set-a-goal = Establecer una meta
+cant-decide = ¿No puedes decidir?
+goal-interval-weekly = Semanal
+share-goal-type-speak = Hablando
+share-goal-type-listen = Escuchando
+share-goal-type-both = Hablando y Escuchando
+weekly-goal-created = Tú meta seanal ha sido creada
+daily-goal-created = Tu meta diaria ha sido creada
+share-goal = Compartir mi objetivo
 
 ## Profile Delete
 
+delete-q = ¿Le gustaría solicitar que también se eliminen sus grabaciones de voz o prefiere mantenerlas en la base de datos de Common Voice?
+keep = Mantener
+remove = Remover
 keep-info = Sus grabaciones de voz anónimas permanecerán en la base de datos de Common Voice. Una vez que elimine su perfil, ya no podrá enviar una solicitud para eliminar sus grabaciones del conjunto de datos.
 remove-info = Revisaremos su solicitud para eliminar sus grabaciones de voz de la base datos. Si se aprueba su solicitud, nos pondremos en contacto con quienes descargaron el conjunto de datos y les solicitaremos que también eliminen sus grabaciones de voz.
 
