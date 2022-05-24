@@ -36,7 +36,6 @@ ba = baškiiri
 bas = basaa
 be = valkovenäjä
 bg = bulgaria
-bm = bambara
 bn = bengali
 br = bretoni
 bxr = burjaatti
@@ -429,10 +428,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Miksi Common Voice?
-about-subtitle = Common Voice on osa Mozillan aloitetta auttaa opettamaan koneelle, kuinka todelliset ihmiset puhuvat. Common Voice -aineiston lisäksi kehitämme myös avoimen lähdekoodin puheentunnistuskirjastoa, DeepSpeechiä.
-about-header-description = Kummatkin näistä projekteista ovat osa pyrkimyksiämme kaventaa digitaalisen puheen kuilua. Äänentunnistusteknologiat tuovat ihmisulottuvuuden laitteisiimme, mutta niiden kehitys vaatii valtavasti äänidataa. Tällä hetkellä tällainen data on pääasiassa kallista ja suljettujen ovien takana. Haluamme asettaa äänidatan vapaasti ja julkisesti saataville, sekä varmistaa, että kyseinen data edustaa ihmisten aitoa monimuotoisuutta. Rakennamme paremman äänentunnistusteknologian, yhdessä.
-how-does-it-work-title = Miten se toimii?
 how-does-it-work-text = Joukkoutamme avointa ääniaineistoa. Lahjoita äänesi, tarkasta muiden ihmisten ääninäytteiden tarkkuus, tee aineistosta kaikille parempi.
+
+## How does it work section
+
 about-speak = Puhu
 about-speak-text = Avustajat äänittävät äänileikkeitä lukemalla lahjoitettujen lauseiden varastoa.
 about-listen-queue = Kuuntelujono
@@ -465,6 +464,37 @@ about-nav-why-common-voice = Miksi?
 about-nav-how-it-works = Miten?
 about-nav-partners = Partnerit
 about-nav-get-involved = Tule mukaan
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+about-playbook-how-add-language = Kuinka lisään kielen?
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-2 = Tapahtumat
+about-playbook-how-grow-language-content-4 = Sosiaalinen media
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Tekoäly
 mycroft-description =
@@ -604,6 +634,13 @@ request-language-success-title = Kielipyyntö lähetetty, kiitos.
 request-language-success-content = Otamme yhteyttä siitä miten voidaan lisätä kielesi Common Voiceen piakkoin.
 select-language = Valitse kieli...
 other-language = Muu kieli
+
+## Request Language Pages
+
+request-language-heading = Kysy uudesta kielestä
+request-language-form-email =
+    .label = Sähköpostiosoitteesi
+request-language-google-recaptcha-required = reCAPTCHA vaaditaan jos haluat jatkaa
 
 ## Languages Overview
 
@@ -899,6 +936,7 @@ demo-listen-subtitle = Valmiina osallistumaan?
 
 ## Validation criteria
 
+contribution-criteria-nav = Kriteeristö
 contribution-criteria-link = Ymmärrä osallistumiskriteerit
 contribution-criteria-page-title = Osallistumiskriteerit
 contribution-criteria-page-description = Ymmärrä, mihin keskittyä äänileikkeitä kuunnellessa, ja auta tekemään äänitallenteistasi entistä parempia!
@@ -912,3 +950,96 @@ contribution-reader-effects-title = Lukutehosteet
 contribution-just-unsure-title = Vielä epävarma?
 see-more = <chevron></chevron>Näytä lisää
 see-less = <chevron></chevron>Näytä vähemmän
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+sc-header-add = Lisää
+sc-header-rejected = Hylätyt lauseet
+sc-header-my = Omat lauseet
+sc-header-statistics = Tilastot
+sc-header-profile = Profiili
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Ilmoita virheestä
+sc-footer-translate = Käännä sivu
+sc-footer-report-copyright = Ilmoita tekijänoikeusongelmista
+sc-footer-privacy = Tietosuoja
+sc-footer-terms = Käyttöehdot
+sc-footer-cookies = Evästeet
+sc-login-signup-button = Kirjaudu / Rekisteröidy
+sc-logout-button = Kirjaudu ulos
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+sc-howto-addsen-title = Lisää uusia lauseita
+
+## MY SENTENCES
+
+sc-my-loading = Ladataan lauseitasi…
+sc-my-no-sentences = Lauseita ei löytynyt!
+
+## REJECTED
+
+sc-rejected-title = Hylätyt lauseet
+
+## STATS
+
+sc-stats-title = Tilastot
+sc-stats-updating = Päivitetään…
+
+## ADD
+
+sc-submit-err-select-lang = Valitse kieli.
+sc-submit-err-add-sentences = Lisää lauseita.
+sc-submit-err-add-source = Lisää lähde.
+sc-submit-title = Lisää lauseita
+sc-submit-select-language =
+    .labelText = Valitse kieli
+sc-submit-ph-one-per-line =
+    .placeholder = Yksi lause per rivi
+
+## ADD LANGUAGE
+
+sc-add-lang-could-not-add = Kieltä ei voitu lisätä
+sc-add-lang-sec-button = Lisää kieli
+
+## ADD SENTENCES CONFIRMATION
+
+sc-confirm-sentences-title = Vahvista uudet lauseet
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+sc-login-err-failed = Kirjautuminen epäonnistui
+sc-login-err-try-again = Yritä uudestaan.
+
+## PROFILE
+
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profiili: { $username }
+sc-personal-err-lang-not-found = Kieltä ei voitu poistaa: kieltä ei löydy
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
