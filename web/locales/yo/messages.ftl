@@ -491,10 +491,21 @@ about-speak = Sọ̀rọ̀
 about-speak-text = Àwọn olùkópa máa ń ṣe ìgbàsílẹ̀ ohùn nípa kíka ọ̀rọ̀ láti inú àgbàjọ gbọhlóhùn tí a ṣe.
 about-listen-queue = àkójọpọ̀-àtẹ́tísí
 about-listen = Gbọ́
+about-dataset-new = Àkójọ dátà common voice
+about-partners = Àwọn alábàṣepò
+about-become-a-partner = Di alábàṣepò
+about-get-involved = Darapọ̀
+about-nav-why-common-voice = Kí ló dé?
+about-nav-how-it-works = Báwo?
+about-nav-partners = Àwọn alábàṣepọ̀
+about-nav-get-involved = Darapọ̀
+about-nav-how-it-works-2 = Báwo ni Common voice ṣe ń ṣiṣẹ́?
+about-nav-playbook = Kọ́ bí o ṣe lè kópa
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Kíni èdè jẹ́ lórí Common voice?
 
 ## How do I add a language
 
@@ -528,6 +539,28 @@ about-listen = Gbọ́
 
 ## Data
 
+data-download-yes = Bẹ́ẹ̀ni
+data-download-deny = Bẹ́ẹ̀ kọ́
+data-download-license = Ìfàyègba: <licenseLink>CC-0</licenseLink>
+data-download-modal = O fẹ́ sẽ àgbàsílẹ̀ iye <size>{ $size }GB</size>, tẹ̀síwájú?
+data-subtitle = À ń ṣe àkópọ̀ fọ́nrán ohùn ti ẹnikẹ́ni le lò láti fi kọ́ àwọn ẹ̀rọ aṣàmúlò ohùn.
+data-get-started = <speechBlogLink>Bẹ̀rẹ̀ pẹ̀lú Ìdámọ̀ Ohùn</speechBlogLink>
+data-other-title = Àwọn dátà ohùn mìíràn…
+data-other-goto = Lọ sí
+data-other-download = Ṣe ìgbàsílẹ̀ dátà
+data-bundle-button = Ṣe ìgbàsílẹ̀ odindi dátà
+data-bundle-description = Dátà Common Voice àti àpapọ̀ gbogbo dátà tó wà lókè.
+release-version = Ẹ̀dà
+dataset-date = Déètì
+license = Ìfàyègbà: <licenseLink>{ $license }</licenseLink>
+license-mixed = Pípapọ̀
+data-download-singleword-title = Ṣe ìgbàsílẹ̀ àfojúsùn sẹ́gímẹ́ǹtì ọlọ́rọ̀ kan
+data-download-singleword-callout-v2 = Èyí jẹ́ ìwòṣe sẹ́gímẹ́ǹtì tó ni dátà láti ṣe ìdámọ̀ òǹkà àti èsi bẹ́ẹ̀ni / bẹ́ẹ̀ kọ́
+review-terms = Nípa lílo Common Voice, o faramọ́ <termsLink> ọ̀nà ìgbàṣe</termsLink> àti <privacyLink> Ìlàna Ajẹmáṣìírí</privacyLink>
+terms-agree = Mo gbà
+terms-disagree = Mo ò gbà
+review-aborted = Ìdádúró ìfisóríẹ̀rọ. Ṣé o fẹ́ pa àwọn àgbàálẹ̀ ohùn rẹ rẹ́?
+review-submit-title = Yẹ̀wò & Fi Ráńṣẹ́
 
 ## Datasets Page
 
