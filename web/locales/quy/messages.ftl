@@ -986,12 +986,50 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Establecer una meta
 cant-decide = ¿No puedes decidir?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } hora es alcanzable en sólo
+       *[other] { $totalHours } horas son alcanzables en sólo
+    }{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } mes si
+       *[other] { $periodMonths } meses si
+    }{ NUMBER($people) ->
+        [one] { $people } registro de persona
+       *[other] { $people } registro de personas
+    }{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } clip al día.
+       *[other] { $clipsPerDay } clips al día.
+    }
+how-many-per-day = ¡Estupendo! ¿Cuántos clips por día?
+how-many-a-week = ¡Estupendo! ¿Cuántos clips a la semana?
+which-goal-type = ¿Quieres hablar, escuchar o ambos?
+receiving-emails-info =
+    Actualmente está configurado para recibir correos electrónicos como recordatorios de objetivos, mi
+    actualizaciones de progreso y boletines sobre Common Voice
+not-receiving-emails-info =
+    Actualmente está configurado para <bold>NO</bold> recibir correos electrónicos como recordatorios de objetivos, mis
+    actualizaciones de progreso y boletines sobre Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } clip
+       *[other] { $count } clips
+    }
+help-share-goal = Ayúdanos a encontrar más voces, comparte tu objetivo
+confirm-goal = Confirmar meta
 goal-interval-weekly = Semanal
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Comparta su meta diaria de clips de { $count } para { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Comparta su meta semanal de clips de { $count } para { $type }
 share-goal-type-speak = Hablando
 share-goal-type-listen = Escuchando
 share-goal-type-both = Hablando y Escuchando
+# LINK will be replaced with the current URL
+goal-share-text = Acabo de crear un objetivo personal para la donación de voz a #CommonVoice: únase a mí y ayude a enseñar a las máquinas cómo hablan las personas reales { $link }
 weekly-goal-created = Tú meta seanal ha sido creada
 daily-goal-created = Tu meta diaria ha sido creada
+track-progress = Siga el progreso aquí y en su página de estadísticas.
+return-to-edit-goal = Regrese aquí para editar su objetivo en cualquier momento.
 share-goal = Compartir mi objetivo
 
 ## Profile Delete
@@ -1001,10 +1039,31 @@ keep = Mantener
 remove = Remover
 keep-info = Sus grabaciones de voz anónimas permanecerán en la base de datos de Common Voice. Una vez que elimine su perfil, ya no podrá enviar una solicitud para eliminar sus grabaciones del conjunto de datos.
 remove-info = Revisaremos su solicitud para eliminar sus grabaciones de voz de la base datos. Si se aprueba su solicitud, nos pondremos en contacto con quienes descargaron el conjunto de datos y les solicitaremos que también eliminen sus grabaciones de voz.
+why-delete-recordings =
+    Las grabaciones de Common Voice son utilizadas por académicos, pequeñas empresas y entusiastas del reconocimiento de voz para ayudar a capacitar y hacer crecer los recursos disponibles públicamente, como los modelos de voz.
+    
+    ¿Puede decirnos por qué desea que se eliminen sus grabaciones?
+profile-form-delete = Borrar Perfil
 
 ## Profile Download
 
+download-q = ¿Necesitas descargar tu información?
+download-info = Dinos qué te gustaría descargar:
+download-profile-title = Perfil
+download-profile-info = Incluye correo electrónico, nombre de usuario e información demográfica, disponible de inmediato
+download-profile-size = Unos pocos bytes
+download-recordings-title = Grabaciones
+download-recordings-info = Incluye mp3 y oraciones relacionadas, puede llevar algo de tiempo prepararlo
 download-size = Tamaño
+download-selected = Seleccionado
+download-start = Descargar tus datos de perfil
+download-request = Solicitar grabaciones
+download-requests = Solicitudes de descarga de grabaciones anteriores
+download-request-button = Descargar
+download-request-title = { $created }
+download-request-refresh-button = Refrescar
+download-request-modal-title = Enlaces de Descarga
+download-request-metadata-link = Texto de la oración
 
 ## Landing
 
@@ -1014,6 +1073,9 @@ download-size = Tamaño
 
 ## Demo Datasets
 
+card-button-next = Siguiente
+card-button-back = Anterior
+demo-language-select-label = Explorar idiomas
 
 ## Demo Account
 
@@ -1026,6 +1088,7 @@ download-size = Tamaño
 
 ## Validation criteria
 
+contribution-for-example = por ejemplo
 contribution-varying-pronunciations-description = Tenga cuidado antes de rechazar una grabación porque el lector pronunció mal una palabra, puso el énfasis en el lugar equivocado o aparentemente ignoró un signo de interrogación. Hay una gran variedad de pronunciaciones en uso en todo el mundo, algunas de las cuales quizás no haya escuchado en su comunidad local. Proporcione un margen de apreciación para aquellos que puedan hablar de manera diferente a usted.
 contribution-varying-pronunciations-description-extended = Por otro lado, si cree que el lector probablemente nunca antes se ha topado con la palabra y simplemente está adivinando incorrectamente la pronunciación, rechace. Si no está seguro, utilice el botón Saltar.
 contribution-varying-pronunciations-example-1-title = En la cabeza llevaba una boina.
@@ -1136,16 +1199,23 @@ sc-add-err-submission = Error de envío
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Confirmar Nuevas Oraciones
+sc-confirm-button-text = Confirmar
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Total
+sc-lang-info-title-personal = Personal
 
 ## LOGIN
 
+sc-login-err-try-again = Por favor intentar de nuevo
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Perfil: { $username }
 
 ## REVIEW CRITERIA
 
