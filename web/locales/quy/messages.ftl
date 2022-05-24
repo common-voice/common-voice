@@ -16,7 +16,7 @@ indicates-required = Quyllurwan (*) señalasqa chakrakunatam ruwana.
 not-available-abbreviation = Mana tarikunchu
 banner-error-slow-1 = Llakikuy, Common Voice nisqa pisi pisimanta purichkan. Gracias por tu interés.
 banner-error-slow-2 = Achka trafico nisqatam chaskichkayku, kunantaqmi chay asuntokunata investigachkayku.
-banner-error-slow-link = Estatus Página
+banner-error-slow-link = Página de Estatus
 error-something-went-wrong = Pampachaykuway, imapas mana allinchu karqa
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -1073,9 +1073,14 @@ download-request-modal-title = Enlaces de Descarga
 download-request-modal-description = Kaypi ZIP archivokunayki uraykachinaykipaq t'inkikuna kachkan.
 download-request-link-text = Zip #{ $offset } de { $total }
 download-request-metadata-link = Texto de la oración
+download-request-link-single = Chantapas chiqa URLkuna munasqa uraykachiy kamachiqniykiman copiayta chaymanta k'askachiyta atikunki. 12 pachamanta tukukunqa, ichaqa kay p'anqaman kutimuyta atinki musuqkunata paqarichinaykipaq mayk'aqllapas.
 
 ## Landing
 
+welcome-staff = Allin hamuy { $company }  personal
+help-contribute = Yanapakuyta atikunki huk imaymana, kichasqa willay huñu ruwayta huk Common Voice perfilta ruwaspa chaymanta kunkayki yanapaspa.
+profile-not-required = Mana perfilniyuq yanapakuyta atinki, yanapakuq kaptinpas, uraypi qhaway imarayku.
+read-more-about = Astawan ñawinchay Ñoqaykumanta nisqa paginapi
 
 ## DemoLayout
 
