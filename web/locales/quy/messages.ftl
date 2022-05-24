@@ -1185,7 +1185,7 @@ sc-howto-findpd-tips-1 = Las mejores fuentes que puede buscar son podcasts, tran
 
 ## MY SENTENCES
 
-sc-my-title = Mis oraciones
+sc-my-title = Mis Oraciones
 sc-my-loading = Cargando sus oraciones...
 sc-my-no-sentences = No se encontraron oraciones!
 # Variables:
