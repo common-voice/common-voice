@@ -225,6 +225,10 @@ wall-of-text-more-mobile =
 wall-of-text-first =
     Пӧрттӱ юк, эдемӹн юкшы. Вот малын мӓмнӓн машинавлӓлӓн керӓл юк технологим
     ӹштӓш цаценӓ. Но юкан системӹм ӹштӓш манын, пиш кого юк датасет келеш.
+wall-of-text-second =
+    Кого компанивлӓн кычылтмы данныйвлӓн когорак лаштыкшым шукы эдем кычылт ак керд. Тидӹ инновацилӓн цӓрӓкӹм шӹндӓ манын, мӓ шотленӓ.
+    Седӹндон мӓ Common Voice проектӹм — юк пӓлӹмӓшӹм цилӓлӓн пачмым —
+    пӓшӓш колтеннӓ.
 show-wall-of-text = Шукырак лыд
 help-us-title = Предложенивлӓн тӧр ылмыштым мӓлӓннӓ тергӓш палшы!
 help-us-explain = Мадыкташ манмым темдӓл, колышт дӓ мӓлӓннӓ келесӹ: ӱлнӹ анжыктымы предложеним тӧр лыдмы ма?
@@ -1139,6 +1143,7 @@ sc-review-form-button-approve-shortcut = А
 sc-review-form-button-reject-shortcut = У
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = К
+sc-review-form-keyboard-usage-custom = Тӹнь тенгеок кнопкывлӓм сарастарен кычылт кердӓт: { sc-review-form-button-approve-shortcut } лачокеш лыкташлан, { sc-review-form-button-reject-shortcut } ӧрдӹжтӓрӓшлӓн, { sc-review-form-button-skip-shortcut } коден кеӓшлӓн
 sc-review-form-button-submit =
     .submitText = Анжен лӓкмӹм кашарташ
 # Variables:
