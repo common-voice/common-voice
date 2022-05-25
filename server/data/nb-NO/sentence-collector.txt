@@ -277,6 +277,7 @@ Deltagerne hadde på dette tidspunkt tapt ansvarskapitalen.
 Deltakerne valgte emne for gruppearbeid ved påmelding.
 Demokratiet var satt ut av spill.
 Den amerikanske regjering fryktet mulige aksjoner fra miljøverngrupper, skriver avisen.
+Den bakken er den bratteste jeg har sett.
 Den britiske årtusenkommisjonen betaler halvparten, resten må finansieres av britisk og internasjonalt næringsliv.
 Den en er glad i, vil en forsvare.
 Den ene blir spurt om hvor stor besetningen var på flyet.
@@ -440,6 +441,7 @@ Det er jo en av kunstens viktige oppgaver å leke med de tenkbare mulighetene.
 Det er jobben hans, og han får meget bra betalt for det.
 Det er kun de harde fakta som teller.
 Det er kun halvparten av det norske støpegodsforbruket som er registrert i undersøkelsen.
+Det er langt fra nærmeste parkeringsplass.
 Det er lengre å kjøre hvis du ikke tar den korteste veien.
 Det er lettere å skape en rollefigur som ikke har eksistert.
 Det er lov å si at man ikke vet.
@@ -451,6 +453,7 @@ Det er mest krabber å finne på skjær som ligger ut mot havet.
 Det er minst fire kråker på hyttetaket.
 Det er mulig å selge boligen som den er.
 Det er mye bra man kan lære av en smart person.
+Det er mye finere å gå på tur i skogen.
 Det er mye vanligere med høyttalere enn lavttalere.
 Det er mye å lære av historien.
 Det er nemlig slik at skatter fastsettes i absolutte beløp.
@@ -683,6 +686,7 @@ En av atomubåtene står i fare for å synke.
 En av dem er å standardisere klærne elevene har på seg.
 En av hennes oppgaver blir å forske på ingrediensenes betydning for kvalitetsegenskapene i produktet.
 En av innehaverne visste ikke engang hva slags senger hun hadde installert.
+En blekksprut har åtte armer.
 En datamaskin vet ikke forskjellen på å lese og å snakke.
 En dieselgenerator putrer i et plankeskur litt lenger bort.
 En ekte spåmann er god å ty til og hører med til tehusets inventar.
@@ -742,6 +746,7 @@ Et piano har strenger, akkurat som en gitar.
 Et siste oppbud av verbal kreativitet.
 Et stort antall er livsvarig invalidisert.
 Et større undervisningsopplegg for skolene om slavetrafikken er også under arbeid.
+Et trafikklys består av tre lamper med ulik farge.
 Et vesen som bare er der.
 Et år etter møtes de på et ball.
 Etat for bolig og eiendom administrerer byfornyelsen for kommunen.
@@ -982,6 +987,7 @@ Hans hovedkonklusjon er at bare de best tilpassede rypene fører arten videre.
 Hans siste oppgave skulle bli å lede valgkomitéen for å skaffe fornyelse og fremdrift.
 Hans viktigste base er likevel cordfløyelssofaen i det lille rommet i moskéens første etasje.
 Har De fått ny dress?
+Har du gjort det jeg ba deg om?
 Har du hørt historien om tre jenter?
 Har du kjøpt deg ny elbil?
 Har du lyst på et glass brus?
@@ -1115,6 +1121,7 @@ Hver av foreldrene har dessuten rett til inntil ett års ulønnet permisjon.
 Hver har sin egen struktur, men sammen former de det ferdige bilde.
 Hvert individ står til rette ovenfor seg selv for egne handlinger.
 Hvilken av disse transportmåtene har du brukt i Norge de siste tolv månedene?
+Hvilken bilmodell er dette?
 Hvilket er et sinnsykt dyrt prosjekt
 Hvis dere elsker meg, gjør dere det jeg ber dere om.
 Hvis det finnes noen rød tråd, må det være filmsensur og filmvold.
@@ -1137,6 +1144,7 @@ Hvor mye lab trening har du hatt?
 Hvordan blir du en av dem?
 Hvordan blir man egentlig kjendis.
 Hvordan er dette på noen måte heldig?
+Hvordan får man bilde av seg selv på en kake?
 Hvordan hadde det seg at politimannen kunne finne frem til åstedet uten problemer?
 Hvordan han har fått det, skjønner han ikke.
 Hvordan har du det?
@@ -1264,6 +1272,7 @@ Jeg ble en marinesoldat for å teste meg
 Jeg ble lettet da jeg fant et billigere alternativ.
 Jeg ble så full at jeg ikke husket noe dagen etter.
 Jeg blir helt ør i hodet av å tenke på det.
+Jeg burde gå på butikken.
 Jeg burde sove nå, men jeg er ikke trøtt.
 Jeg definerer meg ikke lenger selv som en politisk forfatter.
 Jeg dissekert en frosk en gang
@@ -1272,6 +1281,7 @@ Jeg elsker god infrastruktur.
 Jeg endte ut en skråning og ødela begge armene.
 Jeg er bare en dum stut som drar et sted han skulle vært
 Jeg er egentlig ingen lystig person.
+Jeg er et veiskilt.
 Jeg er glad.
 Jeg er ikke en robot.
 Jeg er ikke et trafikklys.
@@ -1355,6 +1365,7 @@ Jeg veit dere har kjøttdag i dag.
 Jeg vet at dette er en stor ulempe
 Jeg vet ikke en gang hva et betalingssystem er.
 Jeg vet ikke hvordan jeg skal si dette.
+Jeg vet ikke om det er så lurt.
 Jeg vet ikke.
 Jeg vil ikke lykkes
 Jeg vil påstå at opplevelsen er rent estetisk.
@@ -1549,6 +1560,7 @@ Man kan jo si det samme, men på en litt annen måte.
 Man kan til og med velge bakgrunnsmusikk til biografien om ham.
 Man lukker seg ute fra virkeligheten dersom man ikke bruker det.
 Man må alltid ha billett på kollektivtrafikk.
+Man må handle inn ting før det forrige går tomt.
 Man må hele tiden holde masken, holde seg inne med folk.
 Man må plugge i lader når batteriet nærmer seg tomt.
 Mandal
@@ -1606,6 +1618,7 @@ Men gjort er gjort.
 Men han er også latterliggjort og nedvurdert, en avleggs dikter.
 Men her er de kun leiesoldater
 Men hun innrømmer at stillingene kan ikke fylles over natten.
+Men husk å bruke opp restene.
 Men hvor mange setninger kan et menneske skrive på én dag.
 Men jeg synes lærerne våre bør rette prøvene.
 Men lærerne drømmer om å slippe flere utspill og endringer.
@@ -1956,6 +1969,7 @@ Slutt Ikke gjør det
 Smaker det egentlig bedre med hjemmelaget mat?
 Smarttelefonen er det viktigste verktøyet i hverdagslivet.
 Smelteverkene har hatt en relativt stabil andel.
+Snakk høyere, er du snill.
 Snakk med oss
 Snart kommer nyinnspillinger av hele fire av mesterens klassikere.
 Snart vil guder og troll møtes til en siste, veldig styrkeprøve.
@@ -2028,6 +2042,7 @@ Synøve Edvardsen
 Synøve Markussen
 Synøve Nygård
 Systemutvikling er arbeidet med å realisere informasjonssystemer.
+Syv er færre enn åtte.
 Så du det?
 Så dykker den, og båten setter kursen mot hvalfeltet.
 Så får vi se hvordan våren blir.

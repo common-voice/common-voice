@@ -68,6 +68,7 @@ Aike ñemuhãme, ajogua kamby ha mbujape.
 Aiko jepiverõguáicha
 Aiko porã.
 Aiko porã. Mba’e rejapo.
+Aikotevẽ jave hese ahenóinte chupe héra rupi.
 Aikotevẽ terere.
 Aikuaa amanotaha
 Aikuaa porã mokõivéva roñemondyikakuaahague.
@@ -305,6 +306,7 @@ Arareko
 Arateĩ jave katu ojojuhu hikuái Tupãópe
 Aravera ha aratiri.
 Aravo ojeike haguã.
+Are omba'apojepékuri itúva ndive kokuépe.
 Areguápe niko oikova'ekue peteĩ pohãnohára katupyry ha imara­ngatúva.
 Arekopavoi moõguipa anohẽkuaa.
 Aretéma niko ajejokókuri.
@@ -598,6 +600,8 @@ Chipa avati ha chipa aramirõ
 Chipa manduvi ha chipa mbokaja
 Chipa opaichagua ojýva tatakuápe
 Chokokue ndoguerekói yvy oñemitỹ hag̃ua.
+Choperu okirirĩ sapy'ami.
+Choperupentevoi ojekuaáva.
 Chopombe jeko ombojerénte chupekuéra karuguápe.
 Chopombe ndaje imitã guive oñangarekova'ekue Ña Antonia-re.
 Chopombe omoko'ẽmiva'erã Ña Antonia-pe hi'upy imboriahuete javérõ.
@@ -629,6 +633,7 @@ Chéniko nañanimái.
 Chéniko sapy'amimi aipytyvõ lo mitãme.
 Chénte aipota
 Chénte ha'e ndavy'amo'ãitaha so'o'ỹre are.
+Chéve niko chepytyvõjepi ne ramói amyrỹi.
 Chéveramo g̃uarã ahechahague peteĩ jaguarete
 Chéveramo g̃uarã mondaha oike nde rógape.
 Chéverõ g̃uarã oĩ porã.
@@ -843,6 +848,7 @@ Ha aníke ndejapu.
 Ha apeve ko ára jajapóta
 Ha araka'evéma ndohupytykuaavéikuri hembipota.
 Ha asajekue katu okeva'erã katuete.
+Ha avei ñanemoirũva ñaikotevẽ jave hese.
 Ha añetehápe upeichaite oiko hesekuéra.
 Ha che katu che resaráinte aikóvokuri.
 Ha che ru piko araka'e outahína.
@@ -883,7 +889,9 @@ Ha mba'e jajapóta ñande.
 Ha mba'e upéva piko.
 Ha mba'eve ndaikatúikuri ojapo hese.
 Ha mba'evejeýnte rohecha.
+Ha mba'égui anichéne.
 Ha mba'éichapiko ikatu roipytyvõmi
+Ha mba'éichapiko oñeñanduka ndéve.
 Ha mba'éiko ajapokuaa.
 Ha mba'éiko hembyve chupe, ajépa.
 Ha mba'éiko pejapóraka'e.
@@ -943,6 +951,7 @@ Ha oñepyrũ oha'ã Inocencia syva, rova ha hete pukukue.
 Ha oñepyrũma ombogue tata pytu iñarõitéva
 Ha peteĩ tesapirĩme ñandejopi
 Ha py'ỹinte mokõivéva ohomiva'erã jerokyhápe hamba'e.
+Ha pya'e oñeñandukamavoi chéve.
 Ha pya'evoi hasykatu ñepyrũ.
 Ha pya'épeko oipykúi hóga rape.
 Ha pya'épema ou
@@ -968,6 +977,7 @@ Ha umíva apytépe py'ỹinte ohendúkuri hikuái upe opiã katuíva.
 Ha upe jave mokõive ojere.
 Ha upe ka'arupytũmemavoi che rembireko he'íkuri chéve.
 Ha upe mba'e ombohesa ha ombohovarurupa avei chupe.
+Ha upehaguére ha'e avei upe ojehecharamovéva.
 Ha upeicha'ỹrõ katu tovapukúpe og̃uahẽmiva'erã itapỹime.
 Ha upeichaite avei mbohapy ára.
 Ha upeichaite jekoraka'e ojapo hikuái.
@@ -985,6 +995,7 @@ Ha upéicha che irũnguéra.
 Ha upéikatu opaite.
 Ha upéike epytu'u
 Ha upépe ae imandu'ajeýkuri hikuái karai tujamíre.
+Ha upépe itúva osẽ he'ijey.
 Ha upépe opa ko mombe'u'i
 Ha upépengo rohecha ore rendonderã hesakãsapy'a.
 Ha upéva ohechávo mokõive karia'y ñaña osapukaivoi chupe.
@@ -1007,6 +1018,7 @@ Ha'e omondo imembykuéra mbo'ehaópe.
 Ha'e omotenondékuri tembiapo guasu
 Ha'e opurahéi vai ka'úre.
 Ha'e oñangareko ogapýre.
+Ha'e oñembojáta ha nepytyvõta.
 Ha'e oĩkuri upépe Ateneo rérape
 Ha'e oĩma hógape
 Ha'e peteĩ mba'eporã.
@@ -1038,6 +1050,7 @@ Ha'eñoiténiko omongakuaákuri chupekuéra
 Ha'eñomínteva'ekue.
 Ha'u mbujape mba'ehe'ẽre.
 Ha'éjeko ipirapire hetava'ekue.
+Ha'éjeko pahague porundy joyke'y apytépe.
 Ha'ékatu osẽ okápe oha'ãrõ.
 Ha'éko kuña iporã, imarangatu ha imba'ekuaáva
 Ha'éko nohendúi ha noñe'ẽi.
@@ -1046,6 +1059,7 @@ Ha'éngo heñóikuri Paraguaýpe
 Ha'éngo ipire'andueterei ha ohekýijekuri ñati'ũgui.
 Ha'éngo ogueraha hendive hi'upyrã.
 Ha'éniko herava'ekue Kame.
+Ha'éniko imitãite guive ikatupyry.
 Ha'éniko katuetei ojechaukava'erã maymávape ore rohasavai javérõ
 Ha'éniko kuña arandu, hekokatúva ha hekojejapo'ỹva
 Ha'éniko ndogueroviái ko'ã mba'e.
@@ -1138,6 +1152,7 @@ He'íkuri omba'apótaha kane'õ'ỹre.
 He'íkuri oréve imemby omendataha.
 He'íkuri oréve ouhahína peteĩ arambotyhágui.
 He'ímakatu chéve ikatuha rova roipota vovénte.
+He'ímiva'erã Choperúpe itúva.
 He'ínte chupe.
 He'ívo upéva oñapytĩma chupe mokõi mbokara'ỹi.
 He'õ la y
@@ -1295,6 +1310,7 @@ Hetereíngo osẽ peẽme.
 Hetájeko hasẽ Prudencio rehe umi ipehẽnguekuéra.
 Hetáko ohasavaíta ha'e ko'ág̃a guive.
 Hetáma aha'ãrõ ha nderejúi gueteri.
+Heñoiva'ekue Karajaópe.
 Heñói guive ava ojapo heta mbaʼe ipópe.
 Heñóikuri Villarrica-pe
 Heʼihaguére añetegua.
@@ -1648,6 +1664,7 @@ Jepiveguáicha jasy renyhẽ jave osẽmiva'erã oñani ha osapukaireipa.
 Jepopyhy mbarete enterovetépe.
 Jepémo heta jey jahasa mba'e vaíre
 Jepémo heta kuimba'e oityse chupe iñuhãme
+Jepémo ndahechái chupe.
 Jepémo ndoro'éi ojupe roñandúva añetehápe.
 Jepémo oiko ñomongeta ko'ã mba'ére, noñeg̃uahẽi peteĩ ñe'ẽme.
 Jepémo oje'e nderehe ndetavyraiha.
@@ -1676,7 +1693,9 @@ Juanita ko pyharépe nde juru aipytemíta
 Juky mante ojuhu hóga jerére.
 Ka'a guasu hypy'ũvéva mbytépe
 Ka'aguy Rorýpe niko oiko peteĩ kuñataĩ hérava Inocencia.
+Ka'aguy oguereko avei iñangarekoha.
 Ka'aguy ñangareko.
+Ka'aguýpe omba'apómi itúva ndive.
 Ka'aguýpe oĩ heta muãmuã hendy ha oguéva.
 Ka'akupe rembiapo.
 Ka'arendýpe niko mayma tapicha oikuaa porã chupe.
@@ -2385,6 +2404,7 @@ Nantendeihína.
 Naorekaneʼõmoʼãi Guarani rayhupápe.
 Naporandúi chupe mba'épa oikotevẽ.
 Napépe oĩ che rajy la Princesa.
+Nañambopochyiva'erã.
 Nañande'aréi'arã tapicha hetahápe.
 Nañandearéiarã tapicha hetahápe.
 Nda'éiniko ndéve katuete amongue­rataha.
@@ -2465,6 +2485,7 @@ Ndajajapóirõ upéicha jajahéi ñande rapicháre.
 Ndajaraháirõ vakara'ýpe nde ru tuichaiterei ipochýta.
 Ndaje heta oñembosarai rire hesekuéra oipokua chupekuéra.
 Ndaje iñakãrague sa'yju ha ipire morotĩ.
+Ndaje mayma yvyra ha mymba oĩhaguéicha oguereko ijarýi.
 Ndaje yma ymaite upe Tavami herava'ekue Yvyraro.
 Ndajeko mitã'i nombohováiri mba'eve ichupe.
 Ndajepokuaái amoñe'ẽ guaraníme.
@@ -2522,6 +2543,7 @@ Nderetia'e ha repyryrỹi py'arorýpe
 Ndetavy.
 Ndetavýmako.
 Ndikatúi oikóvo ojuehe'ỹ.
+Ndoguerekóiramo hi'upyrã, oiko itúva ndive ka'aguýre omymbajukávo.
 Ndohayhúi ñane ñeʼẽ Guarani ha ndohayhúi ñane retã.
 Ndohechaporãvei ha avei iñakãnga'u ha ipy'amanose.
 Ndohechasevéindaje ichupe.
@@ -2575,6 +2597,7 @@ Nemandu'ámapiko
 Nemarangatu ha nembaretéguinte reikove gueteri.
 Nembeguéramo rekuaru hag̃ua
 Nemosã ha ápe ha pépe ndereraha
+Nepytyvõta ha'e oipotárõ, ndaha'eivoi nde reipotágui.
 Nerembiaporeína.
 Nerendápe aju.
 Neñañahína.
@@ -2650,6 +2673,7 @@ Oguereko poteĩ ary.
 Oguerokirirĩnte hikuái.
 Oguerokirĩnte hikuái.
 Oguerovia'ỹ reheve mba'eve ña Maria oujeýkuri hógape
+Ogueru ijapére ynambu, kapi'yva, guasu ha mborevi ro'o hamba'e.
 Ogueru ikambuchi ha ijajaka
 Oguetevoi.
 Oguetékuri Hilario ha ña Carmen resa renon­dégui.
@@ -2717,6 +2741,7 @@ Ohendúvo chupe upe g̃uaig̃uimi oñepyrũ hasẽ
 Ohendúvo oimeraẽ mba'e he'íva umi iñirũ
 Ohendúvo umi mba'e ndaje karai Anata onohẽ imboka
 Ohendúvo umi mba'e, ña Maria oporandujeýikuri
+Ohendúvo upe mba'e omombe'úva chupe itúva oporanduve.
 Ohendúvo upévango oñakãpire'ỹi.
 Ohepyme'ẽ chupe.
 Ohepyme'ẽ hikuái chupe hymba vaka ojukava'ekue.
@@ -2775,17 +2800,22 @@ Oiko porã guasu hikuái.
 Oiko tapỹi oñemopuʼãva ojoykére plaza jerére.
 Oiko ysyry térã karugua oĩha rupi.
 Oiko yvyguýpe.
+Oikopa rire katu vy'apópe mokõive ojevy itapỹimíme.
 Oikoporãgua'uva'ekue.
+Oikova'ekue peteĩ karai hérava Pedro.
 Oikove añóre térã atýre.
 Oikove hypa peve ysyry.
 Oikove pyhare rupi.
+Oikuaa avei mba'éichapa oñeñangarekova'erã oĩ jave upépe.
 Oikuaa hikuái mba'éichapa hekove potĩ.
 Oikuaa hikuái mba'éichapa omba'apo imembykuéra rayhupápe.
+Oikuaa porã hekoha ha avei ka'aguy.
 Oikuaa porã mba'eicharupípa upe yno'õ ipóra ha isa'y huguy.
 Oikuaa porã remombe'uha
 Oikuaa pypuku ñane tavarandu
 Oikuaa'i.
 Oikuaapa mba'érepa upéicha ojehu chupe.
+Oikuaapaite oĩmíva guive upépe.
 Oikuaávo upe mba'e isy ipochyetereirasa
 Oikundaha umi tape ojuhúva ñane retãpýre.
 Oikékuri tahachi mba'epu'atýpe
@@ -2982,6 +3012,7 @@ Omomba'éva hekovépe.
 Omombe'u hapichápe mba'eguasuete ojapova'ekue
 Omombe'u mba'éichapa heñói ha iñapysẽkuri ko aranduka.
 Omombe'u peteĩ mombe'u peteĩ kuñapaje rehegua
+Omombe'uva'ekue chupe ka'aguy oguerekoha imba'eñongatupy.
 Omombo pirapire vyrorei opaichaguápe
 Omombáy túva ha sýpe ha omombe'u chupekuéra ohechava'ekue.
 Omomenda itajýra la Princesa Pychãire.
@@ -3075,6 +3106,7 @@ Opyta hag̃ua mbohapy jasy
 Opyta mandu'arãme niko pe jopói guasuete ohupytyva'ekue
 Opyta omaña hag̃ua mokõive kuñáre
 Opyta peteĩ techapyrãrõ maymaite tetãme g̃uarã.
+Opytu'u'imi ha upéi ombojoapy.
 Opytákuri ha hembireko ha ita'ýra ypykue ndive.
 Opytáva mokõivéva poguýpe.
 Opáma mbo'ehaópe jeho.
@@ -3139,6 +3171,7 @@ Oñandújesapy'a oñatõiramo chupe ijatukupégui peteĩva.
 Oñandúvo chupekuéra umi mokõi kakuaáva osẽ oñani.
 Oñangareko aja hembireko ha umi hymba vakáre.
 Oñangarekokuaa avei ipyapẽ ha ipysãpẽre.
+Oñangarekóva ñande rekove rehe.
 Oñani ha isarambipa hikuái.
 Oñani hatã ha ojupi yvyráre
 Oñani kavajukuéra arasunu ha aratiri omondýigui ichupekuéra.
@@ -3513,6 +3546,7 @@ Péicha jave chemandu'a karai Hilario ha hogayguakuéra rehe.
 Péicha jave ndaje heta oipo'ómi.
 Péicha jave ndojehasaivoi upérupi.
 Péicha jave ropu'ãmiva'erã rohechávo mba'épa.
+Péicha ku ahasavai jave chepytyvõmi.
 Péicha ndaje peteĩ pyhare ohókuri Peru peteĩ jerokyhápe.
 Péicha ndaje.
 Péicha nderejapóirõ ikatuete ndejuka
@@ -3522,6 +3556,7 @@ Péicha og̃uahẽ hikuái karai Giménez rendápe.
 Péicha ohasa pyhare
 Péicha oiko ñehenói terererã
 Péicha oikohápejeko
+Péicha oikuaa yvyra ha mymba réra.
 Péicha okáijepi py'ỹipy'ỹi ha ojoapykuéri tesapeha.
 Péicha omombeʼu chéve che jarýi.
 Péicha oñemohenda.
@@ -3876,6 +3911,8 @@ Táva vorekuéra.
 Távape ojejapóva.
 Téra renda.
 Téra tendágui oúva.
+Térã katu mba'evai ojejapose jave cherehe térã penderehe.
+Térã katu oturuñe'ẽ imba'apohápe.
 Térã katu sapy'ánte ombotávajepi óga rokẽ.
 Térãpa mbaʼe.
 Umi hembiapokue oñemyasãijepe heta kuatiahaipyrépe.
@@ -3913,12 +3950,15 @@ Umi táva sãmbyhyhára chupente­voi ohayhuve
 Umi ára guive vaicháku mokõive oñoha'ãva hikuái
 Umi árape oikuaa ypy ha oñemoangirũ Félix Fernández rehe.
 Umi ñande ypykue niko koʼã yvy jarakue.
+Umi ñanemoirũva ñande rekove pukukue javeve.
 Umícha hamba'e niko oñombojopói mokõive.
 Umícha jave katuete ojuhúmiva'erã kuatiarogue pa'ũme jumimi.
 Umícha jave, omonge rire Luchia'ípe
 Umírupi hetaiterei ojejapóta jopara ikatuhag̃uáicha ohupyty opavavépe.
+Umíva ha'ehína ñane pehẽngue ãngue oikóva ñande róga jere rupi.
 Umíva jeko katuetei ho'ava'erã Jasy Jatere ñuhãme.
 Umíva katu iporãvéntema.
+Umíva ndive tekotevẽ jaiko porã.
 Umíva oñembopupu are porã
 Umíva umi mba'e rupi ikangyve ohóvo
 Umívare ndaje oñembosarái Jasy Jatere.
@@ -4080,12 +4120,14 @@ Upéicha jave ndaje oha'ãhína ijára ñe'ẽnguemi
 Upéicha jave yno'õ ipytãmbaite.
 Upéicha nimbora'e omomba'apo Inocencia-re upe ñepohãno vaiete.
 Upéicha ohasa ichupekuéra g̃uarã umi ary.
+Upéicha oikohápe itúva omombe'uva'ekue chupe peteĩ mba'e.
 Upéicha rupi maymave upe tekohapegua osẽkuri oipo'o uruku a
 Upéicharamo jepe Maria noñeme'ẽikuri
 Upéicharamo jepe, upe karai Prudencio ipo'avevoínte karai Ana­tágui.
 Upéicharõ araháta upéva
 Upéicharõ añoite opytáta ogapýpe
 Upéicharõ jepe mavave nomonguerakuaái chupe.
+Upéicharõ jepe tekotevẽ reikuaa porã peteĩ mba'e.
 Upéicharõ jepe, Luchia'ípente ojekuaave.
 Upéicharõ péva ndaha'éi chemba'e.
 Upéikatu oñe'ẽkuri mbo'ehára Francisco
@@ -4136,6 +4178,7 @@ Upépe ae niko Hilario oikũmby porã ñepyrũ upe mba'e.
 Upépe ae niko Hilario oikũmby porã ñepyrũ upe mbaʼe.
 Upépe ae pohãnohára chae omombe'u chupe.
 Upépe ahecha ou che rendápe mitã pynandi.
+Upépe ha'e oiko imitã guive imitãrusupa peve.
 Upépe hembypa kuimba'e ha kuña ikatupyry ha imarangatúva
 Upépe heñoiʼypy Paĩ Tavyterã retã.
 Upépe hoky, hapo, okakuaa, ipoty ha hi'a.
@@ -4932,6 +4975,7 @@ yvamimi hembýva chupe ha hemiarirõ aokuemi
 Ñande rekove jepe ñame'ẽta
 Ñande resa ombojegua
 Ñande yvy porãite
+Ñande yvypóra jaguereko avei oñangarekóva ñanderehe.
 Ñandehu'u térã ñaneatĩata jave tekotevẽ ñamo'ã ñande juru ñande jyvangápe
 Ñandejopy pe tekotevẽ.
 Ñandejára niko naoremoingeséi yvágape.
