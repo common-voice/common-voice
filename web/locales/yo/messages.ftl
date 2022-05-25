@@ -613,6 +613,9 @@ size = Ìwọ̀n
 validated-hr-total = Yẹ àpapọ̀ wákàtí wò
 overall-hr-total = Àpapọ̀ wákàtí
 cv-license = Ìfàyègbà
+number-of-voices = Iye àwọn ohùn
+splits = Pín
+email-to-download = Tẹ ímeèlì rẹ láti ṣe ìgbàálẹ̀ sórí ẹ̀rọ ọ̀ rẹ
 
 ## Download Modal
 
