@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Motta e-post om utfordrings- og målpåmi
 email-opt-in-privacy-v2 = Ved å registrere deg for å motta e-post godtar du at Mozilla håndterer denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
 indicates-required = * Indikerer obligatorisk felt
 not-available-abbreviation = ikke tilgjengelig
+banner-error-slow-1 = Beklager, Common Voice kjører sakte. Takk for din interesse.
+banner-error-slow-2 = Vi mottar mye trafikk og undersøker nå problemene.
+banner-error-slow-link = Statusside
+error-something-went-wrong = Beklager, noe gikk galt.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -98,6 +102,7 @@ ko = Koreansk
 kpv = Komi-syriansk
 kw = Cornisk
 ky = Kirgisisk
+lb = Luxembourgsk
 lg = Luganda
 lij = Ligurisk
 lt = Litauisk
@@ -660,6 +665,9 @@ request-language-success-content = Vi kontakte deg med mer informasjon om hvorda
 select-language = Velg Språk...
 other-language = Annet Språk
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = Pågående
@@ -981,6 +989,9 @@ see-less = <chevron></chevron>Se mindre
 
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO
