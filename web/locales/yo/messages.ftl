@@ -616,6 +616,14 @@ cv-license = Ìfàyègbà
 number-of-voices = Iye àwọn ohùn
 splits = Pín
 email-to-download = Tẹ ímeèlì rẹ láti ṣe ìgbàálẹ̀ sórí ẹ̀rọ ọ̀ rẹ
+why-email = <b>Kí ni ìdí fún ímeèlì</b> A lè nỉ láti kạ̀n sí ẹ lọ́jọ́ iwájú nípa awọn àyípadà sí ìkójọ dátà, ímeèlì ni Yoon jẹ́ kí a lè kàn sí ẹ.
+confirm-size = O ti ṣetán láti ṣe ìgbàsílẹ̀ sórí ẹ̀rọ iye <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Ṣe ìgbàsílẹ̀ { $language }
+validated-hours = Ṣe àyẹ̀wo wákàtí
+recorded-hours = Wákàtí ìgbàsílẹ̀ ohùn
+whats-inside = Kí ló wà nínú u ìkójọ dátà Common Voice
 
 ## Download Modal
 
