@@ -494,6 +494,8 @@ about-listen-queue = àkójọpọ̀-àtẹ́tísí
 about-listen = Gbọ́
 about-listen-text = Àwọn aṣàmúlò rẹ̀ máa fọwọ́sí ìṣewẹ́kú àwọn fọ́nrán àdájọ, ríri dájú pé ẹni tó ka àwọn gbólóhùn náà kà á dáadáa.
 about-is-it-valid = Ǹjẹ́ fọ́nrán náà péye?
+about-yes-votes = ≥ 2 Àwọn Ìbo Bẹ́ẹ̀ni
+about-no-votes = ≥ 2 kò sí ìbò
 about-dataset-new = Àkójọ dátà common voice
 about-partners = Àwọn alábàṣepò
 about-become-a-partner = Di alábàṣepò
@@ -533,7 +535,9 @@ about-playbook-how-record-content-5 = <accuracyLink>Wo àfikún lórí ìla
 ## How to grow language
 
 about-playbook-how-grow-language = Báwo ni a ṣe lè ṣe ìdàgbàsókè èdè tó múnádóko lórí Common voice?
+about-playbook-how-grow-language-content-2 = Àwọn ìṣẹ̀lẹ̀
 about-playbook-how-grow-language-content-5 = O lè lo ìkànì ìbánidọ́rẹ̀ láti gbé èròngbà náà síta. Pín àwọn àtẹ̀jíṣẹ́ tó ń ṣàlàye ìdí tó fi pọn dandan, kí o sì kàn sí àwọn ènìyàn mìíràn tí wọ́n ń sọ̀rọ̀ nípa àwọn àdojúkọ bíi òfin èdè, AI ajẹmọ́ ohùn, tàbí ìṣègbè nínú ìmọ̀-ẹ̀rọ. Wo àfikún àbá lórí <campaignLink>ṣíṣe ìpolongo ayélujára, pẹ̀lú àkónú tí o lè ṣàtúnlò</campaignLink>.
+about-playbook-how-grow-language-content-6 = Àjọṣepọ̀ àti Ìbáraẹniṣepọ̀
 
 ## How to validate
 
@@ -544,6 +548,7 @@ about-playbook-how-access-dataset = Báwo ni mo ṣe lè wò kí n sì lo a
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-2 = Ìdarí wa gbilẹ̀ lórí òpó o:
 about-playbook-how-project-governance-content-3 = Ìṣe gààyà, ààbò àti ìhànde.
 about-playbook-how-project-governance-content-4 = Ìkópa nínú àwùjọ àti ìpinu ṣíṣe.
 about-playbook-how-project-governance-content-5 = Ìníyelórí àti ìdánimọ̀.
