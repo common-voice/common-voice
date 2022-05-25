@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = 도전이나 개인 목표 알림, 진행
 email-opt-in-privacy-v2 = 이메일을 받기로 수락함으로서 Mozilla의 <privacyLink>개인정보 정책</privacyLink>에 따라 Mozilla가 이 정보를 처리하는 것에 동의하게 됩니다.
 indicates-required = * 표시는 필수 항목
 not-available-abbreviation = 해당 없음
+banner-error-slow-2 = 트래픽이 많이 발생하고 있으며 현재 문제를 조사하고 있습니다.
 banner-error-slow-link = 상태 페이지
 error-something-went-wrong = 죄송합니다. 오류가 발생하였습니다.
 
@@ -336,6 +337,7 @@ profile-form-additional-language =
     .label = 추가 언어
 profile-form-language =
     .label = 언어
+profile-form-variant-default-value = 선택한 변형이 없음
 profile-form-accent =
     .label = 억양
 profile-form-custom-accent-help-text =
@@ -387,6 +389,7 @@ off = 꺼짐
 on = 켜짐
 help-accent = 억양에 도움이 필요하십니까?
 help-accent-explanation = 억양은 단어를 발음하는 방식입니다. 살았던 곳이나 사용하는 다른 언어나 기타 많은 요인에 의해 형성됩니다. 관련이 있다고 생각하는 정보를 여기에서 공유할 수 있습니다.
+help-variants = 변형에 대한 도움이 필요하십니까?
 
 ## Profile - Email
 
