@@ -597,9 +597,22 @@ terms-agree = Mo gbà
 terms-disagree = Mo ò gbà
 review-aborted = Ìdádúró ìfisóríẹ̀rọ. Ṣé o fẹ́ pa àwọn àgbàálẹ̀ ohùn rẹ rẹ́?
 review-submit-title = Yẹ̀wò & Fi Ráńṣẹ́
+review-submit-msg = O ṣé fún ṣíṣe ìgbohùnsílẹ̀!<lineBreak></lineBreak>Báyìí ṣe àyẹ̀wò kí o sì fi ìgbàálẹ̀ ohùn rẹ ráńṣẹ́ nísàlẹ̀.
+review-recording = Ṣàyẹ̀wò
+review-rerecord = Tún-ìgbàálẹ̀ohùn ṣe
+review-cancel = Fagilé ìfiráńṣẹ́
+review-keep-recordings = Fi àwọn ìgbàálẹ̀ ohùn pamọ́
+review-delete-recordings = Pa àwọn ìgbàálẹ̀ ohùn mi rẹ́
 
 ## Datasets Page
 
+datasets-heading = Àkójọ dátà
+language = Èdè
+# File size in gigabytes
+size = Ìwọ̀n
+validated-hr-total = Yẹ àpapọ̀ wákàtí wò
+overall-hr-total = Àpapọ̀ wákàtí
+cv-license = Ìfàyègbà
 
 ## Download Modal
 
