@@ -10,9 +10,6 @@ import UserClient from './lib/model/user-client';
 import DB from './lib/model/db';
 import { earnBonus } from './lib/model/achievements';
 import { getConfig } from './config-helper';
-import Logger from './lib/logger';
-
-const logger = new Logger({ name: 'auth-router' });
 
 const {
   ENVIRONMENT,
@@ -99,7 +96,7 @@ if (DOMAIN) {
 
   passport.use(strategy);
 } else {
-  logger.log('No Auth0 configuration found');
+  console.log('No Auth0 configuration found');
 }
 
 function parseState(request: Request) {

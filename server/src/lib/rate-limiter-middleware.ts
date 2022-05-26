@@ -4,9 +4,6 @@ import {
   IRateLimiterStoreOptions,
 } from 'rate-limiter-flexible';
 import { redis as redisClient } from './redis';
-import Logger from './logger';
-
-const logger = new Logger({ name: 'rateLimiterMiddleware' });
 
 function createRateLimiter(
   keyPrefix: string,
@@ -22,7 +19,7 @@ function createRateLimiter(
       ...rateLimiterOptions,
     });
   } catch (e) {
-    logger.error(e);
+    console.error(e);
     return null;
   }
 }

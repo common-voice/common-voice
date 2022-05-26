@@ -3,10 +3,6 @@ import { S3, SSM } from 'aws-sdk';
 import { SESClientConfig } from '@aws-sdk/client-ses';
 import { config } from 'dotenv';
 
-import Logger from './lib/logger';
-
-const logger = new Logger({ name: 'config-helper' });
-
 if (process.env.DOTENV_CONFIG_PATH) {
   const result = config({ path: process.env.DOTENV_CONFIG_PATH });
   if (result.error) {
@@ -185,7 +181,7 @@ export function getConfig(): CommonVoiceConfig {
     const config_path = process.env.SERVER_CONFIG_PATH || './config.json';
     fileConfig = JSON.parse(fs.readFileSync(config_path, 'utf-8'));
   } catch (err) {
-    logger.error(
+    console.error(
       `Could not load config.json, using defaults (error message: ${err.message})`
     );
   }
