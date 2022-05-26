@@ -56,6 +56,7 @@ da = Danés
 de = Alemán simipi
 dsb = Sorbian, Lower
 dv = Dhivehi
+dyu = Dioula
 el = Griego simipi
 en = Inglés simi
 eo = Esperanto simi
@@ -1207,20 +1208,41 @@ sc-howto-addlang-text = Una vez que haya iniciado sesión, puede seleccionar sus
 sc-howto-addsen-title = Agregar nuevas oraciones
 sc-howto-addsen-item-1 = Todas las oraciones que envíe deben estar bajo <wikipediaLink>licencia de dominio público (CC-0)</wikipediaLink>. Para respaldar la inclusión de obras que no están bajo licencia pública, hemos creado una <cc0WaiverLink>plantilla de acuerdo de contribuciones</cc0WaiverLink> para obras en las que el propietario de los derechos de autor quisiera contribuir con su material a Common Voice.
 sc-howto-addsen-item-2 = Números. No debe haber dígitos en el texto fuente porque pueden causar problemas cuando se leen en voz alta. La forma en que se lee un número depende del contexto y puede generar confusión en el conjunto de datos. Por ejemplo, el número "2409" podría leerse con precisión como "veinticuatro cero nueve" o "dos mil cuatrocientos nueve".
+sc-howto-addsen-item-3 = Abreviaciones y acronimos. Las abreviaturas y acrónimos como "USA" o "ICE" deben evitarse en el texto de origen porque pueden leerse de una manera que no coincida con su ortografía. Además, puede haber múltiples lecturas precisas para una sola abreviatura. Por ejemplo, el acrónimo “ICE” podría pronunciarse “I-C-E” o como una sola palabra.
 sc-howto-addsen-item-4 = Puntuación. Los símbolos especiales y la puntuación solo deben incluirse cuando sea absolutamente necesario. Por ejemplo, se incluye un apóstrofo en palabras en inglés como "don't" y "we're" y debe incluirse en el texto de origen, pero es poco probable que alguna vez necesite un símbolo especial como "@" o "#. ”
+sc-howto-addsen-item-5 = Letras extranjeras. Las letras deben ser válidas en el idioma que se habla. Por ejemplo, “ж” es una letra del alfabeto ruso, pero nunca se usa en inglés y, por lo tanto, nunca debería aparecer en ningún texto fuente en inglés.
+sc-howto-addsen-item-6 = Los idiomas pueden tener sus <validationRulesLink>reglas de validación propias</validationRulesLink> con requisitos adicionales. Si no hay un archivo de validación específico para un idioma, estamos usando las reglas genéricas de inglés.
+sc-howto-addsen-post-1 = Preferimos oraciones naturales/conversacionales. Si bien la diversidad fonética y las diferentes palabras en las oraciones son importantes, estamos tratando de hacer que la grabación de oraciones sea lo más divertida posible. Por lo tanto, sería genial si pudieras tratar de mantener tus oraciones lo más naturales/interesantes posible.
 sc-howto-cite-title = Cómo citar
+sc-howto-cite-pre-1 = Es importante que haga referencia a dónde encontró la licencia pública para evitar el plagio y permitir el seguimiento de <copyrightIssuesLink>problemas de derechos de autor</copyrightIssuesLink>. Aquí hay algunas maneras en que puede citar el trabajo.
+sc-howto-cite-item-1 = Puede incluir el sitio web, por ejemplo, "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Puede usar el estilo de referencia académica, por ejemplo, el estilo de Harvard "Mozilla (2021) Common Voice. Disponible en https://commonvoice.mozilla.org/ (Consulta: 15 de septiembre de 2021)"
+sc-howto-cite-item-3 = Para el texto de dominio público que no está disponible en línea, puede usar el estilo de referencia académica, por ejemplo, el estilo de Harvard "Jess (2021) Mis poemas de licencia pública"
 sc-howto-review-title = Revisar oraciones
 sc-howto-review-subtitle = Asegúrese de que la oración cumpla con los siguientes criterios:
 sc-howto-review-criteria-1 = La oración debe estar escrita correctamente.
 sc-howto-review-criteria-2 = La oración debe ser gramaticalmente correcta.
 sc-howto-review-criteria-3 = La oración debe ser pronunciable.
+sc-howto-review-criteria-4 = Si la oración cumple con los criterios, haga clic en el botón "Aprobar".
+sc-howto-review-criteria-5 = Si la oración no cumple con los criterios anteriores, haga clic en el botón "Rechazar". Si no está seguro acerca de la oración, también puede omitirla y pasar a la siguiente.
+sc-howto-review-criteria-6 = Si se queda sin oraciones para revisar, ¡ayúdenos a recopilar más oraciones!
+sc-howto-findpd-title = Encontrar oraciones existentes en el Dominio Público
+sc-howto-findpd-subtitle = Búscalos en Internet
+sc-howto-findpd-text-2 = Recuerda que necesitamos permiso para publicar esas oraciones, así que siempre asegúrate de que el texto pertenezca al <wikipediaLink>dominio público</wikipediaLink>. Si no hay una indicación explícita, comuníquese con la persona a la que pertenece el texto y pregúntele si desea contribuir con su texto al dominio público. Si quieren, ayúdelos a pasar por el proceso del <cc0WaiverLink>Acuerdo de Contribuciones</cc0WaiverLink>. Si no quieren contribuir con el texto, entonces no se le permite usar ese texto.
 sc-howto-findpd-tips = Aquí hay algunos consejos para encontrar oraciones:
 sc-howto-findpd-tips-1 = Las mejores fuentes que puede buscar son podcasts, transcripciones, guiones de películas y cualquier cosa que potencialmente contenga conversaciones cotidianas.
+sc-howto-findpd-tips-2 = Los procedimientos gubernamentales, los libros y los artículos también son excelentes; sin embargo, dado que el texto tiende a ser un poco más formal, son menos prioritarios.
+sc-howto-findpd-tips-3 = Desafortunadamente, todavía no podemos tener artículos de Wikimedia. Así que no copie y pegue desde allí.
+sc-howto-findpd-subtitle-2 = Asociese con organizaciones o individuos locales
+sc-howto-findpd-partner-1 = Hay muchas organizaciones públicas que podrían querer colaborar y ya tienen muchos textos que pueden donar como dominio público. Comuníquese con universidades locales, gobiernos y organizaciones de código abierto para hablar sobre el proyecto y solicitar su ayuda.
+sc-howto-findpd-partner-2 = Los lingüistas expertos también pueden ayudar, intente comunicarse con universidades lingüísticas locales (tanto profesores como estudiantes) y vea si pueden ayudar a recopilar un conjunto diverso de oraciones con sonidos diversos en su idioma.
 
 ## MY SENTENCES
 
 sc-my-title = Mis Oraciones
+sc-my-description = Esta página le brinda una descripción general de todas sus oraciones enviadas. También puede eliminar oraciones ya enviadas si es necesario, marcando la casilla de verificación junto a ellas y haciendo clic en &quot;Eliminar oraciones seleccionadas&quot; en el fondo. Solo elimine oraciones si es absolutamente necesario, por ejemplo, si luego se dio cuenta de que una oración está protegida por derechos de autor.
 sc-my-loading = Cargando sus oraciones...
+sc-my-err-fetching = Error al obtener sus oraciones. Inténtalo de nuevo.
 sc-my-no-sentences = No se encontraron oraciones!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
