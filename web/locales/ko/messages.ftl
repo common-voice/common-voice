@@ -1432,11 +1432,32 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = 또한 키보드 단축키를 사용할 수도 있습니다: 승인 { sc-review-form-button-approve-shortcut }, 거부 { sc-review-form-button-reject-shortcut }, 건너뛰기 { sc-review-form-button-skip-shortcut }
 sc-review-form-button-submit =
     .submitText = 검토 완료
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] 검토한 문장이 없습니다.
+       *[other] { $sentences } 문장을 검토했습니다. 감사합니다!
+    }
+sc-review-form-review-failure = 검토를 저장할 수 없습니다. 나중에 다시 시도 해주십시오.
+sc-review-link = 검토
 
 ## SETTINGS
 
+sc-settings-title = 설정
+sc-settings-ui-language = 인터페이스 언어
+sc-settings-reset-skipped = 건너뛴 문장 재설정
+sc-settings-skipped-decription = 이전에 검토중인 문장을 건너뛰었습니다. 건너뛴 문장을 재설정하면 건너뛴 모든 문장이 다시 표시됩니다. 이것은 언어와 무관합니다.
+sc-settings-show-all-button = 건너뛴 모든 문장을 다시 표시
+sc-settings-failed = 설정을 변경할 수 없습니다. 다시 시도해 주세요.
+# VALIDATION
+sc-validation-number-of-words = 문장은 1~14(포함) 단어를 포함해야 합니다.
+sc-validation-no-numbers = 문장에는 숫자가 포함되어서는 안 됩니다.
+sc-validation-no-symbols = 문장에는 기호가 포함되어서는 안 됩니다.
+sc-validation-no-abbreviations = 문장에는 약어가 포함되어서는 안 됩니다.
 
 # [/SentenceCollector]
 
