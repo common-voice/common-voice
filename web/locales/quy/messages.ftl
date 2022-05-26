@@ -1147,6 +1147,11 @@ contribution-misreadings-example-3-title = Los dinosaurios gigantes del Triassi-
 contribution-misreadings-example-3-explanation = [Grabación cortada antes del final de la última palabra]
 contribution-misreadings-example-4-title = Los dinosaurios gigantes del Triásico. Sí.
 contribution-misreadings-example-4-explanation = [Se ha grabado más que el texto requerido]
+contribution-misreadings-example-5-title = Saldremos a tomar café.
+contribution-misreadings-example-6-title = Nosotros vamos a tomar cafe
+contribution-misreadings-example-6-explanation = [Debería ser "Somos"]
+contribution-misreadings-example-7-title = Nosotros vamos a tomar un cafe
+contribution-misreadings-example-7-explanation = [Sin 'a' en el texto original]
 contribution-varying-pronunciations-description = Tenga cuidado antes de rechazar una grabación porque el lector pronunció mal una palabra, puso el énfasis en el lugar equivocado o aparentemente ignoró un signo de interrogación. Hay una gran variedad de pronunciaciones en uso en todo el mundo, algunas de las cuales quizás no haya escuchado en su comunidad local. Proporcione un margen de apreciación para aquellos que puedan hablar de manera diferente a usted.
 contribution-varying-pronunciations-description-extended = Por otro lado, si cree que el lector probablemente nunca antes se ha topado con la palabra y simplemente está adivinando incorrectamente la pronunciación, rechace. Si no está seguro, utilice el botón Saltar.
 contribution-varying-pronunciations-example-1-title = En la cabeza llevaba una boina.
@@ -1155,6 +1160,9 @@ contribution-varying-pronunciations-example-2-explanation = ['Raised' en inglés
 contribution-background-noise-title = Ruido de fondo
 contribution-background-noise-description = Queremos que los algoritmos de aprendizaje automático puedan manejar una variedad de ruidos de fondo, e incluso se pueden aceptar ruidos relativamente altos, siempre que no impidan escuchar la totalidad del texto. La música de fondo tranquila está bien; la música lo suficientemente alta como para evitar que escuches todas y cada una de las palabras no lo es.
 contribution-background-noise-description-extended = Si la grabación se rompe o tiene crujidos, rechace a menos que aún se pueda escuchar la totalidad del texto.
+contribution-background-noise-example-1-fixed-title = <strong>[Estornudo]</strong> Los dinosaurios gigantes del <strong>[tos]</strong> Triásico.
+contribution-background-noise-example-2-fixed-title = El dinosaurio gigante <strong>[tos]</strong> el Triásico.
+contribution-background-noise-example-2-explanation = [Parte del texto no se puede escuchar]
 contribution-background-voices-title = Voces de fondo
 contribution-background-voices-description = Una bulla silenciosa de fondo está bien, pero no queremos voces adicionales que puedan causar que un algoritmo de máquina identifique palabras que no están en el texto escrito. Si puede escuchar palabras distintas a las del texto, debe rechazar el clip. Por lo general, esto sucede donde se ha dejado el televisor encendido o donde hay una conversación cerca.
 contribution-background-voices-description-extended = Si la grabación se rompe o tiene crujidos, rechace a menos que aún se pueda escuchar la totalidad del texto.
@@ -1330,6 +1338,17 @@ sc-confirm-are-you-sure =
     .message = Oraciones no enviadas, ¿está seguro de querer salir?
 sc-confirm-sentences-title = Confirmar Nuevas Oraciones
 # Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] No se encontraron oraciones.
+        [one] 1 oración encontrada.
+       *[other] { $countOfSentences } oraciones encontradas.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } rechazado por usted
+# Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } oraciones no revisadas. Si lo desea, también puede revisar sus oraciones ahora antes de enviarlas.
 sc-confirm-button-text = Confirmar
@@ -1419,8 +1438,17 @@ sc-review-form-button-approve-shortcut = S
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = K
+sc-review-form-keyboard-usage-custom = También puede usar atajos de teclado: { sc-review-form-button-approve-shortcut } para aprobar, { sc-review-form-button-reject-shortcut } para rechazar, { sc-review-form-button-skip-shortcut } para Saltar
 sc-review-form-button-submit =
     .submitText = Finalizar la revisión
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] No hay oraciones revisadas.
+        [one] 1 oración revisada. Gracias!
+       *[other] { $sentences } oraciones revisadas. Gracias!
+    }
 sc-review-form-review-failure = Revisión no se puede grabar. Por favor intentar de nuevo.
 sc-review-link = Revisar
 
