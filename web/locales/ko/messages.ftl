@@ -1371,18 +1371,69 @@ sc-lang-info-validated =
         [0] 검증된 문장이 없습니다.
        *[other] 검증된 문장 { $validatedSentences }개가 있습니다.
     }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] 거부된 문장이 없습니다.
+       *[other] { $rejectedSentences }개의 문장이 거부되었습니다.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = 로그인 실패
+sc-login-err-try-again = 다시 시도해 주십시오.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = 프로필: { $username }
+sc-personal-err-lang-not-found = 언어를 제거할 수 없음: 언어를 찾을 수 없음
+sc-personal-err-remove = 언어를 제거할 수 없습니다.
+sc-personal-your-languages = 귀하의 언어:
+sc-personal-remove-button = 삭제
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences }개 내가 추가함
+sc-personal-not-added = 아직 언어를 추가하지 않았습니다.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ 검토 기준
+sc-criteria-title = 검토 기준
+sc-criteria-make-sure = 문장이 다음 기준을 충족하는지 확인하십시오:
+sc-criteria-item-1 = 문장의 철자가 정확해야 합니다.
+sc-criteria-item-2 = 문장은 문법적으로 정확해야 합니다.
+sc-criteria-item-3 = 문장은 말할 수 있어야 합니다.
+sc-criteria-item-4 = 문장이 기준을 충족하면 &quot;승인&quot; 버튼을 클릭합니다.
+sc-criteria-item-5-2 = 문장이 위의 기준에 맞지 않으면 좌측의 &quot;거부&quot;버튼을 클릭하십시오. 문장이 확실하지 않은 경우 건너뛰고 다음 문장으로 넘어갈 수도 있습니다.
+sc-criteria-item-6 = 검토할 문장이 부족하면 더 많은 문장을 수집할 수 있도록 도와주세요!
 
 ## REVIEW
 
+sc-review-lang-not-selected = 언어를 선택하지 않았습니다. 언어를 선택하려면 <profileLink>프로필</profileLink>로 이동하십시오.
+sc-review-title = 문장 검토
+sc-review-loading = 문장 로드 중…
+sc-review-select-language = 문장을 검토할 언어를 선택하세요.
+sc-review-no-sentences = 검토할 문장이 없습니다. <addLink>지금 더 많은 문장을 추가하세요!</addLink>
+sc-review-form-prompt =
+    .message = 검토된 문장이 제출되지 않았습니까?
+sc-review-form-usage = 문장을 승인하려면 오른쪽으로 스와이프하세요. 거부하려면 왼쪽으로 스와이프하세요. 건너뛰려면 위로 스와이프하세요. <strong>리뷰를 제출하는 것을 잊지 마세요!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = 출처: { $sentenceSource }
+sc-review-form-button-reject = 거부
+sc-review-form-button-skip = 건너뛰기
+sc-review-form-button-approve = 승인하기
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = 검토 완료
 
 ## SETTINGS
 
