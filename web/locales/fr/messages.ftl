@@ -490,6 +490,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Pourquoi Common Voice ?
+about-header-description-v2 =
+    <p>Common Voice est un jeu de données public utilisant les voix de contributeurs et contributrices bénévoles du monde entier. Celles et ceux qui veulent créer des applications avec reconnaissance vocale peuvent utiliser le jeu de données pour entrainer des modèles de machine learning.</p>
+    <p>Actuellement, la plupart des jeux de données vocales appartiennent a des entreprises, ce qui freine l’innovation. Les jeux de données vocales sous-représentent également : les non-anglophones, les personnes de couleur, les personnes handicapées, les femmes et les personnes LGBTQIA+. Cela veut dire qu’une technologie qui a recours à la reconnaissance vocale ne prendra pas en charge beaucoup de langues, et pour celles qui le seront, elles ne fonctionneront pas aussi bien pour tout le monde. Nous voulons changer cela en mobilisant des personnes de tout horizon pour partager leur voix.</p>
 how-does-it-work-title-v2 = Comment fonctionne Common Voice ?
 how-does-it-work-text = Nous appelons à la participation collective pour constituer un jeu de données open source de voix. Donnez votre voix, validez la précision des échantillons d’autres personnes, améliorez le jeu de données pour tout le monde.
 
