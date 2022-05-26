@@ -601,6 +601,7 @@ about-playbook-how-access-dataset-content-2 = 자동 음성 인식(ASR) 모델�
 
 ## How are decisions made
 
+about-playbook-how-project-governance = 프로젝트 결정은 어떻게 이루어지나요?
 about-playbook-how-project-governance-content-2 = 다음을 기반으로 하는 관리방식:
 about-playbook-how-project-governance-content-3 = 개인 정보 보호, 보안 및 투명성.
 about-playbook-how-project-governance-content-4 = 커뮤니티 참여 및 의사 결정.
@@ -671,6 +672,7 @@ review-delete-recordings = 내 녹음 삭제
 
 ## Datasets Page
 
+datasets-heading = 데이터세트
 datasets-headline = 우리는 누구든지 음성 지원 응용프로그램을 교육하기 위해 사용할 수 있는 오픈 소스, 다국어 음성 데이터 세트를 구축하고 있습니다.
 datasets-positioning =
     우리는 공개적으로 이용할 수 있는 대규모 음성 데이터 세트가 기계 학습 기반 음성 기술의 혁신과 건전한 상업 경쟁을 촉진할 것이라고 믿습니다.
@@ -757,6 +759,7 @@ other-language = 다른 언어
 
 ## Request Language Pages
 
+request-language-heading = 새 언어에 관해 문의
 request-language-explanation-1 =
     해당 언어가 <languagesPageLink>Common Voice 언어 목록</languagesPageLink>에 있는지 확인하십시오.
     목록에 없다면 이 양식을 채워 주십시오. 저희가 <strong>해당 언어를 어떻게 시작할지에 대해 유용한 메일을 보내 드릴 것입니다</strong>.
@@ -1215,27 +1218,159 @@ sc-howto-review-criteria-5 = 문장이 위의 기준에 맞지 않으면 "거부
 sc-howto-review-criteria-6 = 검토할 문장이 부족하면 더 많은 문장을 수집할 수 있도록 도와주세요!
 sc-howto-findpd-title = 퍼블릭 도메인에서 기존 문장 찾기
 sc-howto-findpd-subtitle = 인터넷에서 검색
+sc-howto-findpd-text-2 = 이러한 문장을 게시하려면 허가가 필요하므로 텍스트가 <wikipediaLink>공개 도메인</wikipediaLink>에 속하는지 항상 확인하세요. 명시적인 표시가 없는 경우 텍스트를 소유한 사람에게 연락하여 공개 도메인에 텍스트를 기고할 것인지 물어보십시오. 원하는 경우 <cc0WaiverLink>기부금 계약</cc0WaiverLink> 절차를 진행하도록 도와주십시오. 그들이 텍스트를 제공하기를 원하지 않으면 해당 텍스트를 사용할 수 없습니다.
+sc-howto-findpd-tips = 다음은 문장을 찾는 몇 가지 팁입니다:
+sc-howto-findpd-tips-1 = 찾을 수 있는 최고의 소스는 팟캐스트, 스크립트, 영화 스크립트 및 일상 대화를 포함할 수 있는 모든 것입니다.
+sc-howto-findpd-tips-2 = 정부 간행물, 책 및 기사도 훌륭하지만 텍스트가 좀 더 형식적인 경향이 있기 때문에 우선 순위가 낮습니다.
+sc-howto-findpd-tips-3 = 불행히도 아직 Wikimedia 기사를 사용할 수 없습니다. 따라서 거기에서 복사 붙여넣기를 하지 마십시오.
+sc-howto-findpd-subtitle-2 = 지역 조직 또는 개인과 파트너
+sc-howto-findpd-partner-1 = 협업을 원하고 이미 공개 도메인으로 기부할 수 있는 텍스트가 많은 공공 기관이 많이 있습니다. 지역 대학, 정부 및 오픈 소스 조직에 연락하여 프로젝트에 대해 이야기하고 도움을 요청하십시오.
+sc-howto-findpd-partner-2 = 전문 언어학자도 물론 도울 수 있습니다. 현지 언어 대학(교사와 학생 모두)에 연락하여 귀하의 언어로 된 다양한 소리의 다양한 문장을 수집하는 데 도움이 될 수 있는지 확인하십시오.
 
 ## MY SENTENCES
 
+sc-my-title = 내 문장
+sc-my-description = 이 페이지는 제출된 모든 문장에 대한 개요를 제공합니다. 필요한 경우 옆에 있는 체크박스를 선택하고 하단의 &quot;선택한 문장 삭제&quot;를 클릭하여 이미 제출된 문장을 삭제할 수도 있습니다. 반드시 필요한 경우에만 문장을 삭제하십시오. 예를 들어 문장이 저작권으로 보호된다는 사실을 알게 된 경우가 해당합니다.
+sc-my-loading = 문장 로드 중…
+sc-my-err-fetching = 문장을 가져오는 중에 오류가 발생했습니다. 다시 시도해 주세요.
+sc-my-no-sentences = 문장을 찾을 수 없습니다!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = 제출: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = 출처:  { $source }
+sc-my-delete = 선택한 문장 삭제
+sc-my-deleting = 선택한 문장 삭제 중…
+sc-my-err-failed-delete = 선택한 문장을 삭제하지 못했습니다... 다시 시도해 주세요!
 
 ## REJECTED
 
+sc-rejected-title = 거부된 문장
+sc-rejected-loading = 거부된 문장 로드 중…
+sc-rejected-err-fetching = 거부된 문장을 가져오는 동안 오류가 발생했습니다. 다시 시도해 주세요.
+sc-rejected-none-found = 거부된 문장을 찾을 수 없습니다!
 
 ## STATS
 
+sc-stats-title = 통계
+sc-stats-updating = 업데이트 중…
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector는 { $languageCount }개 언어로 된 { $sentenceCount }개 문장을 수집했습니다!
 
 ## ADD
 
+sc-submit-err-select-lang = 언어를 선택하세요.
+sc-submit-err-add-sentences = 문장을 추가해주세요.
+sc-submit-err-add-source = 출처를 추가해주세요.
+sc-submit-err-confirm-pd = 이 문장이 공개 도메인인지 확인하십시오.
+sc-submit-prompt =
+    .message = 문장이 제출되지 않았습니다. 나가시겠습니까?
+sc-submit-title = 문장 추가
+sc-submit-select-language =
+    .labelText = 언어 선택
+sc-submit-add-sentences = <wikipediaLink>공개 도메인</wikipediaLink> 문장 추가
+sc-submit-ph-one-per-line =
+    .placeholder = 한 줄에 한 문장
+sc-submit-from-where = 이 <wikipediaLink>공개 도메인</wikipediaLink> 문장은 어디에서 왔습니까?
+sc-submit-ph-read-how-to =
+    .placeholder = 기여하는 방법이 확실하지 않은 경우 방법을 읽어보세요.
+sc-submit-confirm = 나는 이 문장이 <wikipediaLink>공개 도메인</wikipediaLink>임을 확인하고 이를 업로드할 권한이 있습니다.
+sc-submit-button =
+    .submitText = 제출
+sc-submit-filtered = 요구 사항 실패로 인해 필터링된 문장(수정버전을 새 문장으로 제출하세요):
+sc-submit-guidelines = <howToLink>가이드라인</howToLink>을 확인하세요.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = 언어를 추가할 수 없습니다.
+sc-add-lang-sec-label = 기여하고 싶은 언어 추가
+sc-add-lang-sec-button = 언어 추가
+sc-add-err-unexpected = 서버에서 예기치 않은 응답이 반환되었습니다.
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] 제출된 문장. { $duplicates } 문장이 중복으로 거부되었습니다.
+       *[other] 제출된 문장. { $duplicates } 문장이 중복으로 거부되었습니다.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] 실패한 문장 없음
+       *[other] { $sentences } 문장 실패
+    }
+sc-add-err-submission = 제출 오류
+sc-add-lang-process-notice = 귀하의 언어가 여기에 나열되지 않은 경우 <languageProcessLink>이 프로세스</languageProcessLink>를 통해 요청할 수 있습니다.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = 문장이 제출되지 않았습니다. 나가시겠습니까?
+sc-confirm-sentences-title = 새 문장 확인
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] 발견된 문장이 없습니다.
+       *[other] { $countOfSentences }개의 문장을 찾았습니다.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } 개가 귀하에 의해 거부되었습니다.
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] 검토한 문장이 아직 없습니다.
+       *[other] { $countOfReviewed }개의 문장이 이미 검토되었습니다. 수고하셨습니다.
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] 제출할 문장이 없습니다.
+       *[other] { $readyCount }개의 문장을 제출할 준비가 되었습니다!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } 문장이 검토되지 않았습니다. 원하는 경우 제출하기 전에 지금 문장을 검토할 수도 있습니다.
+sc-confirm-button-text = 확인
+sc-confirm-uploading = 문장을 업로드 중입니다. 추가된 문장 수에 따라 몇 분이 소요될 수 있습니다. 이 웹사이트를 닫지 마십시오.
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] 문장이 없습니다.
+       *[other] { $totalSentences }개의 총 문장이 있습니다.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] 검토 중인 문장이 없습니다.
+       *[other] { $totalInReview } 문장을 검토 중입니다.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] 검토할 문장이 없습니다.
+       *[other] 검토할 문장이 { $unreviewedSentencesByYou }개 남았습니다.
+    }
+sc-lang-info-review-now = <reviewLink>지금 검토하세요!</reviewLink>
+sc-lang-info-add-more = <addLink>지금 더 많은 문장을 추가하세요!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] 검증된 문장이 없습니다.
+       *[other] 검증된 문장 { $validatedSentences }개가 있습니다.
+    }
 
 ## LOGIN
 
