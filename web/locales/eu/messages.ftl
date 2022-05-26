@@ -15,6 +15,7 @@ indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
 not-available-abbreviation = N/A
 banner-error-slow-1 = Barkatu, Common Voice orain geldo dabil. Zure interesa eskertzen dugu.
 banner-error-slow-2 = Trafiko asko jasotzen ari gara eta arazoaren jatorria ikertzen ari gara.
+error-something-went-wrong = Barkatu, zerbait gaizki joan da
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -38,6 +39,7 @@ be = Bielorrusiera
 bg = Bulgariera
 bn = Bengaliera
 br = Bretoiera
+bs = Bosniera
 bxr = Buriatera
 ca = Katalana
 cak = Kaqchikela
@@ -89,11 +91,13 @@ kab = Kabylera
 kbd = Kabardinoa
 ki = Kikuyua
 kk = Kazakhera
+km = Khmerera
 kmr = Kurmanji kurduera
 ko = Koreera
 kpv = Komiera
 kw = Kornubiera
 ky = Kirgizera
+lb = Luxenburgera
 lg = Luganda
 lij = Liguriera
 lt = Lituaniera
@@ -499,6 +503,7 @@ about-get-involved-text-2 =
     <githubLink>GitHub</githubLink>-en arazo baten berri eman,
     edo batu komunitateko <matrixLink>Matrix</matrixLink> txatera.
 about-stay-in-touch = Nola egon naiteke harremanetan?
+about-stay-in-touch-button = Eman izena
 about-stay-in-touch-text-1 = <emailFragment>Harpidetu</emailFragment> gure eposta-zerrendara kanpainetan eta ekitaldietan nola parte hartu ikasteko eta Common Voicen ezaugarriak diseinatzen laguntzeko.
 about-nav-why-common-voice = Zergatik?
 about-nav-how-it-works = Nola?
