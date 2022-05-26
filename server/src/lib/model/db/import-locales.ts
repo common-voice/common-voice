@@ -153,7 +153,7 @@ export async function importLocales() {
 
     console.log('Saving langauge data to database');
 
-    await Promise.all([
+    await Promise.all(
       locales.map(lang => {
         if (allLanguages[lang.code]) {
           // this language exists in db, just update
@@ -190,8 +190,8 @@ export async function importLocales() {
             ]
           );
         }
-      }),
-    ]);
+      })
+    );
     console.log('Saving accent data to database');
 
     // Make sure each language has at minimum an "unspecified" accent

@@ -9,7 +9,7 @@ import PromiseRouter from 'express-promise-router';
 const Transcoder = require('stream-transcoder');
 
 import { UserClient as UserClientType } from 'common';
-import validateGoogleReCAPTCHA from './google-recaptcha-middleware';
+import rateLimiter from './rate-limiter-middleware';
 import { authMiddleware } from '../auth-router';
 import { getConfig } from '../config-helper';
 import Awards from './model/awards';
@@ -89,7 +89,8 @@ export default class API {
     router.get('/language/variants/:locale?', this.getVariants);
     router.post(
       '/language/request',
-      validateGoogleReCAPTCHA,
+      // 10 requests per minute
+      rateLimiter('/language/request', { points: 10, duration: 60 }),
       validate({ body: sendLanguageRequestSchema }),
       this.sendLanguageRequest
     );
@@ -260,7 +261,7 @@ export default class API {
   };
 
   saveAvatar = async (
-    { body, headers, params, user, client_id }: Request,
+    { body, params, user, client_id }: Request,
     response: Response,
     next: NextFunction
   ) => {
@@ -551,6 +552,8 @@ export default class API {
 
       response.json(json);
     } catch (e) {
+      console.log(e);
+
       next(new Error('Something went wrong sending language request email'));
     }
   };
