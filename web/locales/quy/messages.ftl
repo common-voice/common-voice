@@ -129,8 +129,10 @@ ne-NP = Nepali
 nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
+nso = Northern Sotho
 nyn = Runyankole
 oc = Occitan
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -156,6 +158,7 @@ sl = Slovenian
 so = Somali
 sq = Albanian
 sr = Serbian
+st = Sesotho
 sv-SE = Swedish
 sw = Swahili
 syr = Syriac
@@ -169,6 +172,7 @@ tk = Turkmen
 tl = Tagalog
 tok = Toki Pona
 tr = Turkish
+ts = Xitsonga
 tt = Tatar
 tw = Twi
 ty = Tahitian
@@ -178,6 +182,7 @@ ug = Uyghur
 uk = Ukrainian
 ur = Urdu
 uz = Uzbek
+ve = Tshivenda
 vec = Venetian
 vi = Vietnamese
 vot = Votic
@@ -1258,12 +1263,18 @@ sc-my-err-failed-delete = Error al borrar oraciones seleccionadas... Por favor i
 
 sc-rejected-title = Oraciones rechazadas
 sc-rejected-loading = Cargando oraciones rechazadas...
+sc-rejected-err-fetching = Error al obtener oraciones rechazadas. Inténtalo de nuevo.
 sc-rejected-none-found = No se encontraron oraciones rechazadas!
 
 ## STATS
 
 sc-stats-title = Estadísticas
 sc-stats-updating = Actualizando...
+sc-stats-error = No pudimos obtener las estadísticas. Por favor, inténtelo de nuevo más tarde.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = ¡Common Voice Sentence Collector ha recopilado { $sentenceCount } oraciones en { $languageCount } idiomas!
 
 ## ADD
 
@@ -1311,6 +1322,7 @@ sc-add-err-failed =
        *[other] { $sentences } oraciones fallaron
     }
 sc-add-err-submission = Error de envío
+sc-add-lang-process-notice = Si su idioma no aparece aquí, puede solicitarlo a través de <languageProcessLink>este proceso</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
