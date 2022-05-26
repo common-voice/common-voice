@@ -481,7 +481,7 @@ about-title = ¿Por qué Common Voice?
 about-header-description-v2 =
     <p>Common Voice es una base de datos de voz disponible públicamente, impulsado por las voces de colaboradores voluntarios de todo el mundo. Las personas que quieran crear aplicaciones de voz pueden usar la base de datos para entrenar modelos de aprendizaje automático.</p>
     <p>Actualmente, la mayoría de las bases de datos de voz son propiedad de empresas, lo que sofoca la innovación. Los conjuntos de datos de voz también subrepresentan: personas que no hablan inglés, personas de color, personas con discapacidades, mujeres y personas LGBTQIA+. Esto significa que la tecnología habilitada por voz no funciona para muchos idiomas, y donde funciona, es posible que no funcione igual de bien para todos. Queremos cambiar eso al movilizar a las personas en todas partes para que compartan su voz.</p>
-how-does-it-work-title-v2 = ¿Cómo funciona Common Voice?
+how-does-it-work-title-v2 = ¿Imaynatataq Common Voice llamkan?
 how-does-it-work-text = Estamos colaborando con una base de datos de voces de código abierto. Done su voz, valide la precisión de las grabaciones de otras personas y mejore la base de datos para todos.
 
 ## How does it work section
@@ -1193,6 +1193,7 @@ sc-howto-title = Cómo
 sc-howto-addlang-title = Agregando de idiomas para trabajar
 sc-howto-addlang-text = Una vez que haya iniciado sesión, puede seleccionar sus idiomas en la sección de perfil.
 sc-howto-addsen-title = Agregar nuevas oraciones
+sc-howto-addsen-item-4 = Puntuación. Los símbolos especiales y la puntuación solo deben incluirse cuando sea absolutamente necesario. Por ejemplo, se incluye un apóstrofo en palabras en inglés como "don't" y "we're" y debe incluirse en el texto de origen, pero es poco probable que alguna vez necesite un símbolo especial como "@" o "#. ”
 sc-howto-cite-title = Cómo citar
 sc-howto-review-title = Revisar oraciones
 sc-howto-review-subtitle = Asegúrese de que la oración cumpla con los siguientes criterios:
