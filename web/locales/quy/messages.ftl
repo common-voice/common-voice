@@ -1092,6 +1092,7 @@ demo-welcome-subheader = ¿Interesadochu kanki astawan yachayta hinaspa proyecto
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice es la base de datos de voz pública más grande del mundo disponible en varios idiomas.
 demo-language-select-card-body = Gracias a las contribuciones de más de 259 000 personas en más de 50 idiomas, estos datos se utilizan para entrenar aplicaciones disponibles para el habla para responder mejor a la voz humana.
 card-button-next = Siguiente
 card-button-back = Anterior
@@ -1133,6 +1134,13 @@ contribution-misreadings-description-extended-list-2 = Falta un <strong>'s'</str
 contribution-misreadings-description-extended-list-3 = Leer contracciones que en realidad no existen, como "We're" en lugar de "We are", o viceversa.
 contribution-misreadings-description-extended-list-4 = Falta el final de la última palabra al cortar la grabación demasiado rápido.
 contribution-misreadings-description-extended-list-5 = Tomar varios intentos para leer una palabra.
+contribution-misreadings-example-1-title = Los dinosaurios gigantes del Triásico.
+contribution-misreadings-example-2-title = El dinosaurio gigante del Triásico.
+contribution-misreadings-example-2-explanation = [Deberían ser 'dinosaurios']
+contribution-misreadings-example-3-title = Los dinosaurios gigantes del Triassi-.
+contribution-misreadings-example-3-explanation = [Grabación cortada antes del final de la última palabra]
+contribution-misreadings-example-4-title = Los dinosaurios gigantes del Triásico. Sí.
+contribution-misreadings-example-4-explanation = [Se ha grabado más que el texto requerido]
 contribution-varying-pronunciations-description = Tenga cuidado antes de rechazar una grabación porque el lector pronunció mal una palabra, puso el énfasis en el lugar equivocado o aparentemente ignoró un signo de interrogación. Hay una gran variedad de pronunciaciones en uso en todo el mundo, algunas de las cuales quizás no haya escuchado en su comunidad local. Proporcione un margen de apreciación para aquellos que puedan hablar de manera diferente a usted.
 contribution-varying-pronunciations-description-extended = Por otro lado, si cree que el lector probablemente nunca antes se ha topado con la palabra y simplemente está adivinando incorrectamente la pronunciación, rechace. Si no está seguro, utilice el botón Saltar.
 contribution-varying-pronunciations-example-1-title = En la cabeza llevaba una boina.
