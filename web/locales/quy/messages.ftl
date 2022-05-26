@@ -1092,6 +1092,7 @@ demo-welcome-subheader = ¿Interesadochu kanki astawan yachayta hinaspa proyecto
 
 ## Demo Datasets
 
+demo-language-select-card-body = Gracias a las contribuciones de más de 259 000 personas en más de 50 idiomas, estos datos se utilizan para entrenar aplicaciones disponibles para el habla para responder mejor a la voz humana.
 card-button-next = Siguiente
 card-button-back = Anterior
 demo-language-select-label = Explorar idiomas
@@ -1110,25 +1111,38 @@ demo-account-sign-up = Enviar enlace de registro
 ## Demo Contribute
 
 demo-contribute-card-header = ¿Listo para agregar tu voz o prestar tu oído?
+demo-contribute-card-body-v2 = Ahora que sabe un poco más sobre Common Voice, ¿por qué no lo prueba? Haz clic en el ícono del micrófono para comenzar a leer oraciones en voz alta. <br/><br/>Si prefiere revisar las contribuciones de voz de otras personas, haga clic en el icono de reproducción. Ayudará a confirmar que las grabaciones coincidan con las oraciones escritas en la pantalla.
 demo-listen-subtitle = ¿Listo para contribuir?
 
 ## Demo Dashboard
 
 demo-dashboard-card-header = Los paneles personales lo mantienen actualizado con el progreso individual y comunitario.
+demo-dashboard-card-body = Por cada clip de voz donado y cada clip de audio validado, los paneles de su cuenta se actualizan para reflejar su último progreso en cada idioma en el que contribuye. ¡Sí, puede contribuir a más de uno!<br/><br/> Utilice el panel para realizar un seguimiento de sus estadísticas, ver cómo le está yendo junto con otros en la comunidad y establecer metas de contribución diarias o semanales.
 
 ## Validation criteria
 
 contribution-criteria-nav = Criterio
 contribution-criteria-link = Criterios de contribución nisqamanta hamut’ay
 contribution-criteria-page-title = Criterio de contribución
+contribution-criteria-page-description = ¡Comprenda qué buscar al escuchar clips de voz y ayude a enriquecer sus grabaciones de voz también!
 contribution-for-example = por ejemplo
 contribution-misreadings-title = Pantasqa ñawinchasqakuna
+contribution-misreadings-description = Al escuchar, verifique con mucho cuidado que lo que se ha grabado es exactamente lo que se ha escrito; rechazar si hay incluso errores menores. <br />Errores muy comunes incluyen:
+contribution-misreadings-description-extended-list-1 = Falta <strong>'A'</strong> o <strong>'The'</strong> al principio de la grabación.
+contribution-misreadings-description-extended-list-2 = Falta un <strong>'s'</strong> al final de una palabra.
+contribution-misreadings-description-extended-list-3 = Leer contracciones que en realidad no existen, como "We're" en lugar de "We are", o viceversa.
+contribution-misreadings-description-extended-list-4 = Falta el final de la última palabra al cortar la grabación demasiado rápido.
+contribution-misreadings-description-extended-list-5 = Tomar varios intentos para leer una palabra.
 contribution-varying-pronunciations-description = Tenga cuidado antes de rechazar una grabación porque el lector pronunció mal una palabra, puso el énfasis en el lugar equivocado o aparentemente ignoró un signo de interrogación. Hay una gran variedad de pronunciaciones en uso en todo el mundo, algunas de las cuales quizás no haya escuchado en su comunidad local. Proporcione un margen de apreciación para aquellos que puedan hablar de manera diferente a usted.
 contribution-varying-pronunciations-description-extended = Por otro lado, si cree que el lector probablemente nunca antes se ha topado con la palabra y simplemente está adivinando incorrectamente la pronunciación, rechace. Si no está seguro, utilice el botón Saltar.
 contribution-varying-pronunciations-example-1-title = En la cabeza llevaba una boina.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ está bien ya sea con acento en la primera sílaba (Reino Unido) o en la segunda (EE. UU.)]
+contribution-varying-pronunciations-example-2-explanation = ['Raised' en inglés siempre se pronuncia como una sílaba, no dos]
 contribution-background-noise-title = Ruido de fondo
+contribution-background-noise-description = Queremos que los algoritmos de aprendizaje automático puedan manejar una variedad de ruidos de fondo, e incluso se pueden aceptar ruidos relativamente altos, siempre que no impidan escuchar la totalidad del texto. La música de fondo tranquila está bien; la música lo suficientemente alta como para evitar que escuches todas y cada una de las palabras no lo es.
+contribution-background-noise-description-extended = Si la grabación se rompe o tiene crujidos, rechace a menos que aún se pueda escuchar la totalidad del texto.
 contribution-background-voices-title = Voces de fondo
+contribution-background-voices-description = Una bulla silenciosa de fondo está bien, pero no queremos voces adicionales que puedan causar que un algoritmo de máquina identifique palabras que no están en el texto escrito. Si puede escuchar palabras distintas a las del texto, debe rechazar el clip. Por lo general, esto sucede donde se ha dejado el televisor encendido o donde hay una conversación cerca.
 contribution-volume-title = Volumen
 contribution-just-unsure-title = ¿Manachu segurochu kankilla?
 see-more = <chevron></chevron>Ver más
