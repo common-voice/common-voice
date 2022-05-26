@@ -89,7 +89,7 @@ describe('Email', () => {
 
       it('calls nodemailer correctly', async () => {
         await email.sendLanguageRequestEmail({
-          email: 'billgates@example.com',
+          email: 'test@example.com',
           languageInfo:
             "I'd love for JavaScript to be supported on CommonVoice",
           languageLocale: 'en-US',
@@ -99,10 +99,10 @@ describe('Email', () => {
         expect(mockTransport.sendMail).toBeCalledWith({
           from: 'commonvoice+test-from@example.com',
           to: 'commonvoice+test-to@example.com',
-          subject: 'Language Request billgates@example.com en-US',
+          subject: 'Language Request test@example.com en-US',
           html: `
       <h2>Email</h2>
-      <p><a href="mailto:billgates@example.com">billgates@example.com</a></p>
+      <p><a href="mailto:test@example.com">test@example.com</a></p>
       <h2>Language Information</h2>
       <p>I'd love for JavaScript to be supported on CommonVoice</p><h2>Language Locale</h2>
         <p>en-US</p>
@@ -115,7 +115,7 @@ describe('Email', () => {
 
       it('handles missing language locale', async () => {
         await email.sendLanguageRequestEmail({
-          email: 'zac@example.com',
+          email: 'test@example.com',
           languageInfo:
             "No languages for me, just want to say you're doing a great job!",
         });
@@ -123,10 +123,10 @@ describe('Email', () => {
         expect(mockTransport.sendMail).toBeCalledWith({
           from: 'commonvoice+test-from@example.com',
           to: 'commonvoice+test-to@example.com',
-          subject: 'Language Request zac@example.com',
+          subject: 'Language Request test@example.com',
           html: `
       <h2>Email</h2>
-      <p><a href="mailto:zac@example.com">zac@example.com</a></p>
+      <p><a href="mailto:test@example.com">test@example.com</a></p>
       <h2>Language Information</h2>
       <p>No languages for me, just want to say you're doing a great job!</p>
       `.trim(),
@@ -167,7 +167,7 @@ describe('Email', () => {
 
       it('calls nodemailer correctly', async () => {
         await email.sendLanguageRequestEmail({
-          email: 'billgates@example.com',
+          email: 'test@example.com',
           languageInfo:
             "I'd love for JavaScript to be supported on CommonVoice",
           languageLocale: 'en-US',
