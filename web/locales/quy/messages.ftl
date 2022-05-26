@@ -1329,15 +1329,46 @@ sc-add-lang-process-notice = Si su idioma no aparece aquí, puede solicitarlo a 
 sc-confirm-are-you-sure =
     .message = Oraciones no enviadas, ¿está seguro de querer salir?
 sc-confirm-sentences-title = Confirmar Nuevas Oraciones
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } oraciones no revisadas. Si lo desea, también puede revisar sus oraciones ahora antes de enviarlas.
 sc-confirm-button-text = Confirmar
+sc-confirm-uploading = Se están subiendo las oraciones. Esto puede llevar varios minutos dependiendo del número de oraciones añadidas. Por favor, no cierre este sitio web.
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Total
 sc-lang-info-title-personal = Personal
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Sin oraciones totales.
+        [one] 1 oración en total.
+       *[other] { $totalSentences } oraciones en total.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] No hay oraciones en revisión.
+        [one] 1 oración en revisión.
+       *[other] { $totalInReview } oraciones en revisión.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] No quedan oraciones para revisar.
+        [one] Queda 1 oración para que la revises.
+       *[other] Quedan { $unreviewedSentencesByYou } oraciones para que revises.
+    }
+sc-lang-info-review-now = <reviewLink>Revisar ahora!</reviewLink>
+sc-lang-info-add-more = <addLink>Agrega más oraciones ahora!</addLink>
 
 ## LOGIN
 
+sc-login-err-failed = Error de inicio de sesion
 sc-login-err-try-again = Por favor intentar de nuevo
 
 ## PROFILE
@@ -1345,11 +1376,20 @@ sc-login-err-try-again = Por favor intentar de nuevo
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Perfil: { $username }
+sc-personal-err-lang-not-found = No se pudo eliminar el idioma: idioma no encontrado
+sc-personal-err-remove = No se pudo quitar el idioma
 sc-personal-your-languages = Idiomaykikuna:
 sc-personal-remove-button = qichuy
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } agregadas por Ud.
+sc-personal-not-added = Aún no has añadido ningún idioma.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Criterios de revisión
+sc-criteria-title = Criterios de revisión
+sc-criteria-make-sure = Asegúrese de que la oración cumpla con los siguientes criterios:
 sc-criteria-item-1 = La oración debe estar escrita correctamente.
 sc-criteria-item-2 = La oración debe ser gramaticamente correcta.
 sc-criteria-item-3 = La oración debe ser pronunciable.
@@ -1366,6 +1406,7 @@ sc-review-select-language = Por favor selecciona un idioma para revisar oracione
 sc-review-no-sentences = No hay oraciones para revisar. <addLink>¡Agregue más oraciones ahora!</addLink>
 sc-review-form-prompt =
     .message = Oraciones revisadas no enviadas, estás seguro?
+sc-review-form-usage = Desliza hacia la derecha para aprobar la oración. Desliza hacia la izquierda para rechazarlo. Desliza hacia arriba para omitirlo. <strong>¡No olvides enviar tu reseña!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Fuente: { $sentenceSource }
