@@ -1143,6 +1143,7 @@ contribution-background-noise-description = Queremos que los algoritmos de apren
 contribution-background-noise-description-extended = Si la grabación se rompe o tiene crujidos, rechace a menos que aún se pueda escuchar la totalidad del texto.
 contribution-background-voices-title = Voces de fondo
 contribution-background-voices-description = Una bulla silenciosa de fondo está bien, pero no queremos voces adicionales que puedan causar que un algoritmo de máquina identifique palabras que no están en el texto escrito. Si puede escuchar palabras distintas a las del texto, debe rechazar el clip. Por lo general, esto sucede donde se ha dejado el televisor encendido o donde hay una conversación cerca.
+contribution-background-voices-description-extended = Si la grabación se rompe o tiene crujidos, rechace a menos que aún se pueda escuchar la totalidad del texto.
 contribution-volume-title = Volumen
 contribution-just-unsure-title = ¿Manachu segurochu kankilla?
 see-more = <chevron></chevron>Ver más
