@@ -460,6 +460,7 @@ faq-where-src-from-2-a =
     
     O lè wo orísun gbólóhùn wa ní ibi yìí <githubLink>GitHub folder</githubLink>.
 faq-why-not-ask-read-q = Kílódé ti ẹ̀ tí ẹ kò fj ní kí àwọn ènìyàn máa kà láti inú ìwé tàbí àwọn àkọ́lẹ̀ Wikipedia ní oríṣiríṣi èdè?
+faq-why-not-ask-read-a = Láti mú kí àká-ọ̀rọ̀ Common Voice wúlò a ti pinnu láti fàyè gba ọ̀rọ̀-orísun tí ó wà lábẹ́ àṣẹ àtinudá àjọmọ̀ (Creative Commons (CC0)). Lílo ìgbéléwọ̀n CC0 túmọ̀ sí pé ó ṣòro láti rí àwọn ọ̀rọ̀ orísun, ṣùgbọ́n ó fàyè gba gbogbo ènìyàn láti lo àbájáde data ohùn láì sí ìdíwọ́ tàbí ìyọ̀nda láti ọ̀dọ̀ Mozilla. Lọ́rọ̀kan, a fẹ́ kí àká-ọ̀rọ̀ ọlọ́pọ̀ èdè wúlò fún gbogbo ènìyàn, àti àwọn oní ìwádìí, yunifásitì, ẹnìkọ̀ọ̀kan, ìjọba, ajọ aláfojúsùn ìdẹ̀rùn ẹ̀dá, awọn tó fi ń gbafẹ́.
 faq-why-account-q = Kí ni ìdí ti mo ṣe ní láti ṣe ìforúkọsílẹ̀?
 faq-is-account-public-q = Ǹjẹ́ ìròyìn àkáǹtì mi yóò wà ní gbangba?
 faq-how-privacy-q = Bá wo ni ẹ ṣe ń dáàbò bo ìdámọ̀ àwọn ẹni tọ́ fi ohùn wọn sílẹ̀
@@ -480,6 +481,7 @@ how-does-it-work-text = À ń sẽ ìgbàjọ àwọn ohùn ti ẹnikẹ́
 ## How does it work section
 
 about-language-req-subtitle = Ẹnìkán bèrè fún ìfikún èdè mìíràn.
+about-localization-title = Ìsọ̀kànnì-di-tìbílẹ̀
 about-localization-subtitle = Àwọn ọ̀rọ̀ orí wẹ́ẹ̀bù yẹ́n ti di títú sí èdè yẹn.
 about-sentence-collection-title = Ìgbàjọ Gbólóhùn
 about-sentence-collection-subtitle = A máa ń gba gbóóhùn kí àwọn ènìyán le kà á.
@@ -495,15 +497,29 @@ about-subscribe-text = O fẹ́ wà ní àrọ́wọ́tó pẹ̀lú Common 
 about-speak = Sọ̀rọ̀
 about-speak-text = Àwọn olùkópa máa ń ṣe ìgbàsílẹ̀ ohùn nípa kíka ọ̀rọ̀ láti inú àgbàjọ gbọhlóhùn tí a ṣe.
 about-listen-queue = àkójọpọ̀-àtẹ́tísí
+about-listen-queue-text = àwọn fọ́rán ohùn máa ń wọ àkójọpọ̀ àfijíṣẹ́ tó ń ṣe ìgbaradì wọn fún gbígbọ́.
 about-listen = Gbọ́
 about-listen-text = Àwọn aṣàmúlò rẹ̀ máa fọwọ́sí ìṣewẹ́kú àwọn fọ́nrán àdájọ, ríri dájú pé ẹni tó ka àwọn gbólóhùn náà kà á dáadáa.
 about-is-it-valid = Ǹjẹ́ fọ́nrán náà péye?
+about-is-it-valid-text = fọ́nrán ohùn yóò gba àmi “péye” nígbà tí aṣàmúlò kan bá fún-un ní ìbo bẹ́ẹ̀ni.
 about-yes-votes = ≥ 2 Àwọn Ìbo Bẹ́ẹ̀ni
+about-yes-votes-text = láti wọ àkójọ détà Commom voice, fọ́nrán ohùn gbọ́dọ̀ di fífọwọ́sí lọ́dọ aṣàmúlò méjì ọ̀tọ̀ọ̀tọ̀
 about-no-votes = ≥ 2 kò sí ìbò
+about-no-votes-text = Nígbà tí aṣàmúlò bá kọ fọ́nrán ohùn kan yóò padà sórí ìlà. Tí ẹ̀kọ rẹ̀ bá di méjì, fọ́nrán ohùn náà yóò di gbígbé lọ sí itẹ́ àwọn fọ́nrán.
 about-dataset-new = Àkójọ dátà common voice
+about-dataset-new-text = Àká-ọ̀rọ̀ common voice kún fún ẹgbẹ̀rún lọ́nà ọgọ́rùn àwọn àpẹrẹ ohùn tó ń ran dìfẹ́lọ́pà lọ́wọ́ láti pèsè àwọn irinṣẹ́ ìdánimọ̀ ohùn.
+about-clip-graveyard = Itẹ́ fọ́nrán
+about-clip-graveyard-text = Itẹ́ fọ́nrán kún fún àwọn fọ́nrán ohùn tí wọn kò ráyè wọ àkójọ déta common voice. Bíi ti àkójọ détà, itẹ́ fọ́nrán náà wà fún ìgbàsílẹ̀
 about-partners = Àwọn alábàṣepò
 about-become-a-partner = Di alábàṣepò
 about-get-involved = Darapọ̀
+about-get-involved-text-2 =
+    O fẹ́ ṣe ìrànlọ́wọ́ láti jẹ́ kí Common voice túbọ̀ dára sí i?
+    Ó dára! Kàn sí wa nípasẹ méélì tàbí <discourseLink>  Ìfòròjomitoro-ọ̀rọ̀ </discourseLink>  àwọn ààye ìtàkùrọ̀sọ, wàhálà ojú òpó ìfijíṣẹ́ nípasẹ̀ <githubLink>GitHub</githubLink>, tàbí darapọ̀ mọ́ àwùjọ ìdánidọ́rẹ̀ <matrixLink> Matrix </matrixLink>
+about-stay-in-touch = Báwo ni mo ṣe lè kàn sí yín?
+about-stay-in-touch-button = forúkọsílẹ̀
+about-stay-in-touch-text-1 = <emailFragment>forúkọsílẹ̀</emailFragment>sí àkójọpọ̀ àwọn méèli wa láti kọ́ bí o ṣe lè kópa nínú àwọn ìpolongo, ìṣẹ̀lẹ̀ àti àwọn àwòmọ́ àgbélẹ̀rọ àjọṣe lórí common voice.
+about-stay-in-touch-text-2 = O lè ṣalábàpàde àwọn mìíràn ní àwùjọ ède Mozilla pẹ̀lú dídarapọ̀ mọ́ <discourseLink>ìfọ̀rọ̀wérọ̀</discourseLink> fún ìfọ̀rọ̀wérọ̀ tó ń lọ, tàbí <matrixLink>Matrix</matrixLink> fún ìmọ̀ran ojúẹsẹ̀.
 about-nav-why-common-voice = Kí ló dé?
 about-nav-how-it-works = Báwo?
 about-nav-partners = Àwọn alábàṣepọ̀
@@ -515,9 +531,13 @@ about-nav-playbook = Kọ́ bí o ṣe lè kópa
 ## What is a language
 
 about-playbook-what-is-language = Kíni èdè jẹ́ lórí Common voice?
+about-playbook-what-is-language-content-1 = Oríṣiríṣi ọ̀nà ló wà láti ronú nípa èdè. Fún àǹfààni àwọn àwòṣe ìdámọ̀ ohùn, Common voice dàbá dídojúkọ ‘ìgbọ́raẹniyé’, tàbí ‘ṣé àwọn elédè yìí lágbọ̀yé ara wọn tí wọ́n bá gbìyànju rẹ̀?
+about-playbook-what-is-language-content-2 = A fẹ́ kí àwọn àwòṣe ohùn ṣe dáadáa pẹ̀lú ìgbágbọ́yé onírúurú àwọn elédè.  Fún èyí láti ṣẹlẹ̀, àkójọpọ̀ détà ohùn gbọ́dọ̀ ṣaṣojú oríṣiríṣi ènìyàn.
+about-playbook-what-is-language-content-3 = Àwọn èdè kan ní ìyàtọ̀ tó pọ̀ nínú gírámà, àkójọpọ̀ ọ̀rọ̀ àti ìpède wọn. Fún ìdí èyí, à ń <ctaLink> ṣàfihàn ‘ìyàtọ̀’</ctaLink> ní 2022. Èyí fún àwọn àwùjọ ní ọ̀nà láti ṣe ìyàtọ̀ àwọn èdè nínú àkójọpọ̀ détà ńlá náà.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Báwo ni mo ṣe lè ṣe àfikún èdè?
 
 ## How does localization work
 
