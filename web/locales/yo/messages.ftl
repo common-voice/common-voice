@@ -439,9 +439,9 @@ faq-when-release2-a = Ẹ̀dà àkójọpọ̀ data Common Voice ọlọ́pọ̀
 faq-why-mission-q = Kí ni ìdí rẹ̀ tí Common Voice fi jẹ́ apá kan iṣẹ́ Mozilla?
 faq-why-mission-a = Mozilla ti fi ara rẹ̀ jìn fún jíjẹ́ kí ìkànnì wà ní sísí àti ní àrọ́wọ́tó gbogbo ènìyàn. Láti ṣe èyí a nílò ró àwọn aṣẹ̀dá ìkànnì lágbára nípasẹ̀ àkàṣe iṣẹ́ bí i ti Common Voice. Gẹ́gẹ́ bí ìmọ̀ọ́ṣe abohùn ṣe ń pọ̀ síi kọjá ohun-àmúlò-tó-rọrùn, ìgbàgbọ́ pé wọ́n gbọ́dọ̀ wúlò fún gbogbo àwọn tí wọn ń lò ó dọ́gbandọ́gba. Ó túmọ̀ sí pé nínáwó lórí ọ̀pọ̀ èdè àti fífàyègba orísìrísìí ìwọ́hùn àti àbùdá ìdánimọ̀ nígbà tí a bá ń ṣe tàbí yẹ ìmọ̀ọ́ṣe abohùn wò. Common Voice jẹ́ èròjà àjọni tí ó wà fún gbogbo ènìyàn àti ẹgbẹ́ Mozilla àwọn aṣẹ̀dá káàkiri àgbáyé tilẹ̀ ti bẹ̀rẹ̀ sí ní lò ó lórí àwọn àkànṣe iṣẹ́ wa.
 faq-what-cv-and-deepspeech-q = Kí ni ìyàtọ̀ tí ó wà láàrin Common Voice àti Deep Speech?
-faq-what-cv-and-deepspeech-a = Àká-ọ̀rọ̀ Common Voicese ìrànwọ́ fún ẹ́ngínì adúhùnmọ̀ Deep Speech aṣeélò fún gbogbo ènìyàn ti Mozilla. Ẹ̀dà àkọ́kọ́ Deep Speech di gbigbé jáde ni òsù Kọkànlá Ọdún 2017, láti ìgbà náà ni ó sì ti ń gbèrún sí i.  Ti ohun ti àká-ọ̀rọ̀ Common Voice, a gbàgbọ́ pé ìmọ̀ọ-ẹ̀rọ adóhùnmọ̀ aṣeélò-fún-gbogbo ènìyàn yóó kárí ilé kárí oko. Èròǹgbà wa ni pé àwọn ìmọ̀ọ́ṣe yìí yóó ran àwọn aṣẹ̀dá jẹ́ kí afẹ́fẹ́ ohun ìmọ̀ ọ̀tun àti iṣẹ́ fẹ́ wá.
+faq-what-cv-and-deepspeech-a = Àkójọpọ̀ data Common Voicese ìrànwọ́ fún ẹ́ngínì adúhùnmọ̀ Deep Speech aṣeélò fún gbogbo ènìyàn ti Mozilla. Ẹ̀dà àkọ́kọ́ Deep Speech di gbigbé jáde ni òsù Kọkànlá Ọdún 2017, láti ìgbà náà ni ó sì ti ń gbèrún sí i.  Ti ohun ti àká-ọ̀rọ̀ Common Voice, a gbàgbọ́ pé ìmọ̀ọ-ẹ̀rọ adóhùnmọ̀ aṣeélò-fún-gbogbo ènìyàn yóó kárí ilé kárí oko. Èròǹgbà wa ni pé àwọn ìmọ̀ọ́ṣe yìí yóó ran àwọn aṣẹ̀dá jẹ́ kí afẹ́fẹ́ ohun ìmọ̀ ọ̀tun àti iṣẹ́ fẹ́ wá.
 faq-is-goal-assistant-q = Ǹjẹ́ àfojúsùn Common Voice ni lati ṣe aranilọ́wọ́ ohun?
-faq-is-goal-assistant-a = Àfojúsùn àká-ọ̀rọ̀ Common Voice ni láti jẹ́ kí gbogbo ènìyàn ní àgbáyé ṣe adóhùnmọ̀, adá-asọ̀rọ̀mọ̀ tàbí orísìí ẹ̀yà ohun èlò mìíràn tó nílò data ohùn. Aṣèrànlọ́wọ́ ohùn kàn jẹ́ ọ̀kan lára ọ̀pọ̀ ẹ̀yà ohun èlò ti o lè fi àká-ọ̀rọ̀ ṣe.
+faq-is-goal-assistant-a = Àfojúsùn àkójọpọ̀ data Common Voice ni láti jẹ́ kí gbogbo ènìyàn ní àgbáyé ṣe adóhùnmọ̀, adá-asọ̀rọ̀mọ̀ tàbí orísìí ẹ̀yà ohun èlò mìíràn tó nílò data ohùn. Aṣèrànlọ́wọ́ ohùn kàn jẹ́ ọ̀kan lára ọ̀pọ̀ ẹ̀yà ohun èlò ti o lè fi àkójọpọ̀ dta ṣe.
 faq-do-want-native-q = Èmi kìí ṣe elédè, mo sì tún ní ìwọ́hùn, ṣe ẹ sì tún fẹ́ ohùn mi?
 faq-do-want-native-a = Bẹ́ẹ̀ ni, A nílò ohùn rẹ ní pàtí! Lára àfojúsùn Common Voice ni láti ṣe àkójọ orísìí ìwọ́hùn tí wọ́n bá ṣe ée kójọ kí iṣẹ́ ìdóhùnmọ̀ lè ṣiṣẹ́ fún gbogbo ènìyàn dọ́gbandọ́gba. Èyí  túmọ̀ sí pé ìfohùnsílẹ̀ àwọn tí kìí ṣe elédè náà ṣe pàtàkì.
 faq-why-different-speakers-q = Kí ni ìdí rẹ̀ tí o fi nílò sọ̀rọ̀sọ̀rọ̀ púpọ̀ fún èdè kan?
@@ -450,8 +450,8 @@ faq-why-different-speakers-a =
     Ìdí nìyí tí ó fi jẹ́ pé nínú àká-ọ̀rọ̀ wa, a fẹ́ àmúlùmọ́là!
 faq-why-my-lang-q = Kín ló dé tí èdè mi kò tíì sí níbẹ̀?
 faq-why-my-lang-new-a = Mozilla kìí yan èdè kankan ní ìpọ̀sìn. Dípò bẹ́ẹ̀, Common Voice jẹ́ àgbékalẹ̀ àwùjọ, àmọ́ sá o, ò pè fún <multilangLink>ọ̀pọ̀lọpọ̀ ìgbésẹ̀ láti fi èdè tuntun kún un</multilangLink> kí a sì bẹ̀rẹ̀ sí ní ṣe àkójọ ẹ̀bùn ohùn. Àkọ́kọ́, a nílò láti tú ìkànnì Common Voice kí àwọn ara àwùjọ lè ní ìrírí àwọn akópa ní èdè wọn. Lẹ́yìn náà, a nílò ọ̀pọ̀lọpọ̀ gbólóhùn aláìfofindè tí àwọn ènìyàn yóó kà sókè. Lọ́gán tí ìgbésẹ̀ méjéèjì bá ti di ṣíṣe, èdè kan yóó di ìfilọ́lẹ̀  ní orí Common Voice fún àwọn ènìyàn láti máa gba ohùn wọn sílẹ̀, kí a sì máa fàṣẹ sí àwọn àgbàkalẹ̀ yòókù náà. Bí o bá fẹ́ ṣe ìrànwọ́ láti fi èdè tunrun lọ́lẹ̀, sáré lọ sí <sentenceCollectorLink>Irinṣẹ́ ìsàkójọ gbólóhùn</sentenceCollectorLink> láti bẹ̀rẹ̀.
-faq-what-quality-q = Kín ni gbèdéke dídára ohùn tí a nílò fún ìgbohùnsílẹ̀ kan tó lè di lílò nínú àká-ọ̀rọ̀?
-faq-what-quality-a = A fẹ́ kí àká-ọ̀rọ̀  Common Voice ṣe àfihàn dídára ohùn tí ẹ̀rọ asọ-ìfọ̀-di-títẹ̀ gbọ́ ní kíákíá, nítorí náà à wá orísirísi. Ní àfikún ọ̀pọ̀ àwọn elédè inú àwùjọ kan, àká-ọ̀rọ̀ onírúurú dídára ohùn yóó kọ́ ẹ̀rọ̀ asọ-ifọ̀-di-títẹ̀ bí a ṣe ń ṣe lójú ayé gan-an láti ara ọ̀rọ̀ kẹ́lẹ́kẹ́lẹ́ abẹ́nú títí ó fi kan ariwo ọkọ̀. Níwọ̀n ìgbà tí ohùn gbígbàsílẹ̀ bá ti mọ́pọlọ dáni, ó yẹ kí ó dára tó fún àká-ọ̀rọ̀.
+faq-what-quality-q = Kín ni gbèdéke dídára ohùn tí a nílò fún ìgbohùnsílẹ̀ kan tó lè di lílò nínú àkójọpọ̀ data?
+faq-what-quality-a = A fẹ́ kí àkójọpọ̀ data Common Voice ṣe àfihàn dídára ohùn tí ẹ̀rọ asọ-ìfọ̀-di-títẹ̀ gbọ́ ní kíákíá, nítorí náà à wá orísirísi. Ní àfikún ọ̀pọ̀ àwọn elédè inú àwùjọ kan, àkójọpọ̀ data onírúurú dídára ohùn yóó kọ́ ẹ̀rọ̀ asọ-ifọ̀-di-títẹ̀ bí a ṣe ń ṣe lójú ayé gan-an láti ara ọ̀rọ̀ kẹ́lẹ́kẹ́lẹ́ abẹ́nú títí ó fi kan ariwo ọkọ̀. Níwọ̀n ìgbà tí ohùn gbígbàsílẹ̀ bá ti mọ́pọlọ dáni, ó yẹ kí ó dára tó fún àká-ọ̀rọ̀.
 faq-why-10k-hours-q = Kí ni ìdí tó fi jẹ́ pé ìfòhùntẹ̀lù wákàtí 10,000 ìkóhùnjọ ni àfojúsùn èdè kan?
 faq-why-10k-hours-a = Èyí ni iye wákàtí tí a nílò láti fi kọ́ ẹ̀rọ asọ-ìfọ̀-di-títẹ̀
 faq-how-calc-hours-q = Báwo ni Common Voice ṣe ń ṣe ìsirò akókò?
@@ -462,7 +462,7 @@ faq-where-src-from-2-a =
     
     O lè wo orísun gbólóhùn wa ní ibi yìí <githubLink>GitHub folder</githubLink>.
 faq-why-not-ask-read-q = Kílódé ti ẹ̀ tí ẹ kò fj ní kí àwọn ènìyàn máa kà láti inú ìwé tàbí àwọn àkọ́lẹ̀ Wikipedia ní oríṣiríṣi èdè?
-faq-why-not-ask-read-a = Láti mú kí àká-ọ̀rọ̀ Common Voice wúlò a ti pinnu láti fàyè gba ọ̀rọ̀-orísun tí ó wà lábẹ́ àṣẹ àtinudá àjọmọ̀ (Creative Commons (CC0)). Lílo ìgbéléwọ̀n CC0 túmọ̀ sí pé ó ṣòro láti rí àwọn ọ̀rọ̀ orísun, ṣùgbọ́n ó fàyè gba gbogbo ènìyàn láti lo àbájáde data ohùn láì sí ìdíwọ́ tàbí ìyọ̀nda láti ọ̀dọ̀ Mozilla. Lọ́rọ̀kan, a fẹ́ kí àká-ọ̀rọ̀ ọlọ́pọ̀ èdè wúlò fún gbogbo ènìyàn, àti àwọn oní ìwádìí, yunifásitì, ẹnìkọ̀ọ̀kan, ìjọba, ajọ aláfojúsùn ìdẹ̀rùn ẹ̀dá, awọn tó fi ń gbafẹ́.
+faq-why-not-ask-read-a = Láti mú kí àkójọpọ̀ data Common Voice wúlò a ti pinnu láti fàyè gba ọ̀rọ̀-orísun tí ó wà lábẹ́ àṣẹ àtinudá àjọmọ̀ (Creative Commons (CC0)). Lílo ìgbéléwọ̀n CC0 túmọ̀ sí pé ó ṣòro láti rí àwọn ọ̀rọ̀ orísun, ṣùgbọ́n ó fàyè gba gbogbo ènìyàn láti lo àbájáde data ohùn láì sí ìdíwọ́ tàbí ìyọ̀nda láti ọ̀dọ̀ Mozilla. Lọ́rọ̀kan, a fẹ́ kí àkójọpọ̀ data ọlọ́pọ̀ èdè wúlò fún gbogbo ènìyàn, àti àwọn oní ìwádìí, yunifásitì, ẹnìkọ̀ọ̀kan, ìjọba, ajọ aláfojúsùn ìdẹ̀rùn ẹ̀dá, awọn tó fi ń gbafẹ́.
 faq-why-account-q = Kí ni ìdí ti mo ṣe ní láti ṣe ìforúkọsílẹ̀?
 faq-is-account-public-q = Ǹjẹ́ ìròyìn àkáǹtì mi yóò wà ní gbangba?
 faq-how-privacy-q = Bá wo ni ẹ ṣe ń dáàbò bo ìdámọ̀ àwọn ẹni tọ́ fi ohùn wọn sílẹ̀
@@ -505,15 +505,19 @@ about-listen-text = Àwọn aṣàmúlò rẹ̀ máa fọwọ́sí ìṣe
 about-is-it-valid = Ǹjẹ́ fọ́nrán náà péye?
 about-is-it-valid-text = fọ́nrán ohùn yóò gba àmi “péye” nígbà tí aṣàmúlò kan bá fún-un ní ìbo bẹ́ẹ̀ni.
 about-yes-votes = ≥ 2 Àwọn Ìbo Bẹ́ẹ̀ni
-about-yes-votes-text = láti wọ àkójọ détà Commom voice, fọ́nrán ohùn gbọ́dọ̀ di fífọwọ́sí lọ́dọ aṣàmúlò méjì ọ̀tọ̀ọ̀tọ̀
+about-yes-votes-text = láti wọ àkójọpọ̀ data Commom voice, fọ́nrán ohùn gbọ́dọ̀ di fífọwọ́sí lọ́dọ aṣàmúlò méjì ọ̀tọ̀ọ̀tọ̀
 about-no-votes = ≥ 2 kò sí ìbò
 about-no-votes-text = Nígbà tí aṣàmúlò bá kọ fọ́nrán ohùn kan yóò padà sórí ìlà. Tí ẹ̀kọ rẹ̀ bá di méjì, fọ́nrán ohùn náà yóò di gbígbé lọ sí itẹ́ àwọn fọ́nrán.
-about-dataset-new = Àkójọ dátà common voice
-about-dataset-new-text = Àká-ọ̀rọ̀ common voice kún fún ẹgbẹ̀rún lọ́nà ọgọ́rùn àwọn àpẹrẹ ohùn tó ń ran dìfẹ́lọ́pà lọ́wọ́ láti pèsè àwọn irinṣẹ́ ìdánimọ̀ ohùn.
+about-dataset-new = Àkójọpọ̀ dátà common voice
+about-dataset-new-text = Àkójọpọ̀ data common voice kún fún ẹgbẹ̀rún lọ́nà ọgọ́rùn àwọn àpẹrẹ ohùn tó ń ran dìfẹ́lọ́pà lọ́wọ́ láti pèsè àwọn irinṣẹ́ ìdánimọ̀ ohùn.
 about-clip-graveyard = Itẹ́ fọ́nrán
-about-clip-graveyard-text = Itẹ́ fọ́nrán kún fún àwọn fọ́nrán ohùn tí wọn kò ráyè wọ àkójọ déta common voice. Bíi ti àkójọ détà, itẹ́ fọ́nrán náà wà fún ìgbàsílẹ̀
+about-clip-graveyard-text = Itẹ́ fọ́nrán kún fún àwọn fọ́nrán ohùn tí wọn kò ráyè wọ àkójọpọ̀ data common voice. Bíi ti àkójọ détà, itẹ́ fọ́nrán náà wà fún ìgbàsílẹ̀
 about-partners = Àwọn alábàṣepò
 about-become-a-partner = Di alábàṣepò
+about-partnership =
+    Common voice jẹ́ iṣẹ́-àkànṣe alájọṣepò, a sì ń gbára lé àwùjọ àwọn alábàṣe àti akópa wa láti pèsè àkójọpọ̀ data ohùn ọ̀fẹ́ tó tóbi jùlọ rí. 
+    
+    A ó nífẹ̀ láti dúpẹ́ lọ́wọ́ àwọn ènìyàn àti àwọn àjọ wọ̀nyí fún ìrànlọ́wọ́ wọn pẹ̀lú iṣẹ́-àkànṣe yìí:
 about-get-involved = Darapọ̀
 about-get-involved-text-2 =
     O fẹ́ ṣe ìrànlọ́wọ́ láti jẹ́ kí Common voice túbọ̀ dára sí i?
@@ -568,16 +572,20 @@ about-playbook-how-record-content-5 = <accuracyLink>Wo àfikún lórí ìla
 ## How to grow language
 
 about-playbook-how-grow-language = Báwo ni a ṣe lè ṣe ìdàgbàsókè èdè tó múnádóko lórí Common voice?
+about-playbook-how-grow-language-content-1 = Pípèse ànfàní fún àìdọ́gba ènìyàn láti dásí Common voice ṣàrídájú pé àkójọpọ̀ détà náà ṣiṣẹ́ fún ọ̀pọ̀lọpọ̀ ènìyàn tó bá ṣeéṣe. A ti pèsè àwọn ohun-èlò àti àwòṣe tí  o lè wò!
 about-playbook-how-grow-language-content-2 = Àwọn ìṣẹ̀lẹ̀
 about-playbook-how-grow-language-content-5 = O lè lo ìkànì ìbánidọ́rẹ̀ láti gbé èròngbà náà síta. Pín àwọn àtẹ̀jíṣẹ́ tó ń ṣàlàye ìdí tó fi pọn dandan, kí o sì kàn sí àwọn ènìyàn mìíràn tí wọ́n ń sọ̀rọ̀ nípa àwọn àdojúkọ bíi òfin èdè, AI ajẹmọ́ ohùn, tàbí ìṣègbè nínú ìmọ̀-ẹ̀rọ. Wo àfikún àbá lórí <campaignLink>ṣíṣe ìpolongo ayélujára, pẹ̀lú àkónú tí o lè ṣàtúnlò</campaignLink>.
 about-playbook-how-grow-language-content-6 = Àjọṣepọ̀ àti Ìbáraẹniṣepọ̀
 
 ## How to validate
 
+about-playbook-how-validate-content-4 = Tí fọ́nrán bá di kíkọ̀ lọ́dọ ènìyàn 2, yóò di jíjọ̀wọ́ sí àtúnpín àkójọpọ̀ data tó yátọ̀.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Báwo ni mo ṣe lè wò kí n sì lo àkójọ déta?
+about-playbook-how-access-dataset-content-1 = O lè lọ sí <datasetsPage>ojú-ìwe àkójọpọ̀ détà</datasetsPage>, yan ẹ̀dà àti èdè tí o fẹ́, kí o sì gbà á sílẹ̀! Àwọn fáílì náà ní <metadataLink>àjọṣepọ̀ metadata</metadataLink>, bíi ìtọ́ni nípa agbègbè àti détà ìfọwọ́sí. O máa nílò láti pèsè àdírẹ̀si emeelì kan láti gba àkójọ détà náà sílẹ̀.
+about-playbook-how-access-dataset-content-2 = Tí o bá ń wá àwọn irinṣẹ́ láti ṣẹ̀da àwòṣe ASR, o lè darapọ̀ mọ́ àwọn ènìyàn mìíràn nínú àwùjọ <discourseLink>lóri Discourse</discourseLink>.
 
 ## How are decisions made
 
@@ -602,6 +610,7 @@ sentence-collection-explanation = Gbígba gbólóhùn láti ìkàni gbogb
 hours-recorded-explanation = Kíka iye wákàtí àkàálẹ̀ ohùn tí a ti gbà lásìkò yìí.
 hours-validated-explanation = Kíka iye wákàtí àkàálẹ̀ ohùn tí a ti fífọwọ́sí lọ́dọ aṣàmúlò 2 nínú 3 pẹ̀lú ìbo “bẹ́ẹ̀ni”. Àwọn àmì wọ̀nyí ń tẹ̀síwájú lọ sí àpapọ̀ ìpinu iṣẹ́-àkànṣe wákàtí 10k.
 sst = Ohùn-sí-àkọsílẹ̀
+de-identified-explanation = Ìlànà èyí tí ìfitóni púrófáílì àwọn akópa di àìrí lára fọ́nrán ohùn tí wọ́n fisílẹ̀ nígbà tí wọ́n bá gbé e kalẹ̀ fún ìgbàsílẹ̀ gẹ́gẹ́ bi apákan àkójọ déta.
 
 ## Error pages
 
@@ -639,7 +648,7 @@ review-delete-recordings = Pa àwọn ìgbàálẹ̀ ohùn mi rẹ́
 
 ## Datasets Page
 
-datasets-heading = Àkójọ dátà
+datasets-heading = Àkójọpọ̀ dátà
 language = Èdè
 # File size in gigabytes
 size = Ìwọ̀n
