@@ -16,7 +16,7 @@ indicates-required = * مانای وایە کە پێویستە بینووست
 not-available-abbreviation = نییە
 banner-error-slow-1 = ببورە، پڕۆژەی دەنگی گشتی بە هێواشی کاردەکات. سپاس بۆ گرینگی پێدانی ئێوە.
 banner-error-slow-2 = ئێمە هاتوچۆیەکی زۆرمان پێدەگات و لە ئێستادا لێکۆڵینەوە لە کێشەکان دەکەین.
-banner-error-slow-link = لاپەڕەی دۆخ
+banner-error-slow-link = پەڕەی دۆخ
 error-something-went-wrong = ببورن شتێک بە هەڵەدا چوو
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -100,6 +100,7 @@ ko = کۆری
 kpv = کۆمی زۆریا
 kw = کۆڕنی
 ky = قیرغستانی
+lb = لوکسەمبورگی
 lg = لوگاندا
 lij = لیگوریی
 lt = لیتوانی
@@ -337,6 +338,7 @@ profile-form-accent =
     .label = شێوەزار
 profile-form-custom-accent-help-text =
     .label = چۆن وەسفی شێوەزارەکەت دەکەیت؟
+profile-form-custom-accent-placeholder-2 = دەست بکە بە نووسین بۆ باسکردنی زاراوەکەت
 profile-form-age =
     .label = تەمەن
 profile-form-gender-2 =
@@ -465,6 +467,7 @@ how-does-it-work-text = ئێمە زانیاریسێتێکی کراوەی دەن�
 
 ## How does it work section
 
+about-localization-title = بە خۆماڵیکردنی ماڵپەڕ
 about-sentence-collection-title = کۆکردنەوەی ڕستە
 about-sentence-collection-subtitle = ڕستەکان کۆدەکرێنەوە بۆ ئەوەی خەڵک بە دەنگی بەرز بیخوێننەوە.
 about-voice-validation-subtitle = کەسانی تر ئەو کلیپە دەنگانە پشتڕاست دەکەنەوە.
