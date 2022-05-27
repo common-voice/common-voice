@@ -128,8 +128,10 @@ ne-NP = Nepali
 nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
+nso = Northern Sotho
 nyn = Runyankole
 oc = Occitan
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -420,9 +422,9 @@ change-email-setings = Pààrọ̀ imeèlì rẹ nípasẹ̀ ààtò abẹ́ ìd
 
 faq-title = Àwọn ìbéèrè tí àwọn ènìyàn máa ń sábà bèèrè
 faq-what-cv-q = Kí ni Common Voice?
-faq-what-cv-a = Ìmọ̀ọ́ṣe adóhùnmọ̀ ó ń ṣe ìyípadà bí a ṣe ń ní ìfarakínra pẹ̀lú àwọn ẹ̀rọ, àmọ́ àwọn tí wọ́n wà báyìí wọ́n púp[ọ̀, wọn kò sì sí ní àrọ́wọ́tó.  Common Voive jẹ́ apákan Mozilla tí ó ni ète àti mú kí ìmọ̀ọ́ṣe adóhùnmọ̀ ṣiṣẹ́ dáadáa, kí ó sì wà ní àrọ́wọ́tó gbogbo ènìyàn. Common Voice jẹ́ àká gbogbo agbáyé tí àwọn ènìyàn ń dá ohùn jọ sí fún ẹnikẹ́ni láti lè ṣe àmúlò rẹ̀ láti kọ́ ẹ̀rọ-olóhùn ni èdè yówù kó jẹ́ .
+faq-what-cv-a = Imọ̀-ẹ̀rọ adóhùnmọ̀ ó ń ṣe ìyípadà bí a ṣe ń ní ìfarakínra pẹ̀lú àwọn ẹ̀rọ, àmọ́ àwọn tí wọ́n wà báyìí wọ́n púp[ọ̀, wọn kò sì sí ní àrọ́wọ́tó.  Common Voive jẹ́ apákan Mozilla tí ó ni ète àti mú kí ìmọ̀ọ́ṣe adóhùnmọ̀ ṣiṣẹ́ dáadáa, kí ó sì wà ní àrọ́wọ́tó gbogbo ènìyàn. Common Voice jẹ́ àká gbogbo agbáyé tí àwọn ènìyàn ń dá ohùn jọ sí fún ẹnikẹ́ni láti lè ṣe àmúlò rẹ̀ láti kọ́ ẹ̀rọ-olóhùn ni èdè yówù kó jẹ́ .
 faq-what-cv-a-2 =
-    Ìmọ̀ọ́ṣe adáhùnmọ̀ ń ṣe ìyípadà sí bí a ṣe ń ṣe ìfarakínra pẹ̀lú àwọn ẹ̀rọ, àmọ́ àwọn ẹ̀rọ tó wà wọ́n púpọ̀ pẹ̀lú ìsòro níni.  Mozilla Common Voice jẹ́ ìgbékalẹ̀ láti mú kí ìmọ̀ọ́ṣe ìdóhùnmọ̀ dára sí i, kí ó sì wá ní àrọ́wọ́tọ́ gbogbo ènìyàn. Common Voice jẹ́ àká gbogbo àgbáyé tó gbòòrò tí àwọn ènìyàn ń dá ohùn jọ sí tí ó sì jẹ́ kí ẹni tí ó bá fẹ́ kọ́ ẹ̀rọ abi-ohùn ní èdè lè fi ìrọ̀rùn ṣe bẹ́ẹ̀ àti ni kánmọ́ kánma.
+    Ìmọ̀-ẹ̀rọ adáhùnmọ̀ ń ṣe ìyípadà sí bí a ṣe ń ṣe ìfarakínra pẹ̀lú àwọn ẹ̀rọ, àmọ́ àwọn ẹ̀rọ tó wà wọ́n púpọ̀ pẹ̀lú ìsòro níni.  Mozilla Common Voice jẹ́ ìgbékalẹ̀ láti mú kí ìmọ̀ọ́ṣe ìdóhùnmọ̀ dára sí i, kí ó sì wá ní àrọ́wọ́tọ́ gbogbo ènìyàn. Common Voice jẹ́ àká gbogbo àgbáyé tó gbòòrò tí àwọn ènìyàn ń dá ohùn jọ sí tí ó sì jẹ́ kí ẹni tí ó bá fẹ́ kọ́ ẹ̀rọ abi-ohùn ní èdè lè fi ìrọ̀rùn ṣe bẹ́ẹ̀ àti ni kánmọ́ kánma.
     
     A kò kan máa sà dédé gba ohùn àwọn tí àwọn tí wọ́n sọ èdè wọn pọ̀, à ń gbà ti àwọn tí àwọn tó ń sọ èdè wọn ò tó nǹkan náà. Ṣíṣe àgbéjáde orísirísi àká ohùn yóó ró àwọn aṣàgbékalẹ̀, olóko-owò àti àwùjọ kọ̀ọ̀kan lágbára láti mójútó ìlàkọjá wọn fúnra wọn.
 faq-why-important-q = Kí ló dé tí ó fi ṣe pàtàkì?
