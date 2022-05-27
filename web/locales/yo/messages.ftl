@@ -459,6 +459,7 @@ faq-where-src-from-2-a =
     Ọ̀rọ̀ orísun wa wá láti ara ẹ̀bùn ojúlówó akópa àti ìtàkúrọ̀sọ ní ìgboro, àkọsílẹ̀ eré bí i <italic> Ìgbésí-ayé tó dára ni</italic>.
     
     O lè wo orísun gbólóhùn wa ní ibi yìí <githubLink>GitHub folder</githubLink>.
+faq-why-not-ask-read-q = Kílódé ti ẹ̀ tí ẹ kò fj ní kí àwọn ènìyàn máa kà láti inú ìwé tàbí àwọn àkọ́lẹ̀ Wikipedia ní oríṣiríṣi èdè?
 faq-why-account-q = Kí ni ìdí ti mo ṣe ní láti ṣe ìforúkọsílẹ̀?
 faq-is-account-public-q = Ǹjẹ́ ìròyìn àkáǹtì mi yóò wà ní gbangba?
 faq-how-privacy-q = Bá wo ni ẹ ṣe ń dáàbò bo ìdámọ̀ àwọn ẹni tọ́ fi ohùn wọn sílẹ̀
