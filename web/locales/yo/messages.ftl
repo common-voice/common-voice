@@ -538,9 +538,16 @@ about-playbook-what-is-language-content-3 = Àwọn èdè kan ní ìyàto�
 ## How do I add a language
 
 about-playbook-how-add-language = Báwo ni mo ṣe lè ṣe àfikún èdè?
+about-playbook-how-add-language-content-1 = Àkọ́kọ́, yẹ̀ẹ́wò bí èdè rẹ bá wà níbẹ̀ <languageLink>bí ó bá ti wà níbẹ̀</languageLink>. Tí kò bá sí níbẹ̀ wà á nílò láti <strong>túmọ̀ ìhànnì náà láti gba àwọn gbólóhùn</strong>.
+about-playbook-how-add-language-content-2 = <strong>Láti túmọ̀ ojú-òpó náà</strong> - gba <translateVideo>àgbékalẹ̀</translateVideo> lórí <pontoonLink>Pontoon</pontoonLink>. Pontoon ní ọ̀pọ̀lọpọ̀ èdè, ṣùgbọ́n tí kò bá ní tìrẹ o lè <pontoonRequestLink>bèèrè fún-un</pontoonRequestLink>. Wá bèèrè <repoLink>nípasẹ̀ GitHub</repoLink> láti jẹ́ kí iṣẹ́-àkànṣe Common voice di ṣíṣe fún èdè náà. Wo àfikún lóri <localizationFragment> ìtúmọ̀ ojú-òpó</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>láti gba àwọn gbólóhùn</strong> – <scVideo>ṣàgbékalẹ̀</scVideo> lórí <scLink>agba gbólóhùn</scLink>.
+about-playbook-how-add-language-content-4 = O lè <scLinkAdd>ṣàfikún gbólóhùn díẹ̀ níbí</scLinkAdd>, tàbí kí o ṣe àgbéwọlé ọlọ́pọ̀</bulkImportDocsLink> nípasẹ̀ aṣèbéère Github. Rántí pé àwọn gbólóhùn nílò láti <licenseLink>CC0 (tàbí ojú-òpo gbogbogbò)</licenseLink>, tàbí kí o kọ tìrẹ. Wo àfikún lóri <scFragment> gbígba gbólóhùn</scFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Báwo ni ìsọ-ìkànnì-di-tìbílẹ̀ ṣe ń ṣiṣẹ́?
+about-playbook-how-localize-content-1 = Títú ìkànnì Common voice máa ń wáyé lórí <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Fi orúkọ sílẹ̀</pontoonAccountLink> tí o ò bá ní ọ̀kan. Leyìn náà, yan èdè rẹ <strong>(‘Team’)</strong> wá yan iṣẹ́-àkànṣe, <pontoonCvLink>Common Voice</pontoonCvLink>. Àwọn fáílì yóò wà láti túmọ̀. Ṣẹ́wọ́ sí ọ̀kan, yóò ṣàfihàn àwọn ọ̀rọ̀ ní ède gẹ̀ẹ́sì àti àpótí láti túmọ̀ wọn.
 
 ## How to add sentences
 
