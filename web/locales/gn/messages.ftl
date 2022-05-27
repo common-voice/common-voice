@@ -56,6 +56,7 @@ da = Dinamarca ñe’ẽ
 de = Alemán ñe’ẽ
 dsb = Sorbian ñe’ẽ, Yvypegua
 dv = Dhivehi ñe’ẽ
+dyu = Dioula
 el = Grecia ñe’ẽ
 en = Inglés ñe’ẽ
 eo = Ñe’ẽ Esperanto
@@ -128,8 +129,10 @@ ne-NP = Nepali ñe’ẽ
 nia = Nias
 nl = Paises Bajos ñe’ẽ
 nn-NO = Noruega ñe’ẽ Nynorsk
+nso = Northern Sotho
 nyn = Nyankole
 oc = Occitano ñe’ẽ
+om = Afaan Ormoo
 or = Odia ñe’ẽ
 pa-IN = Punjabi ñe’ẽ
 pap-AW = Papiamento (Aruba)
@@ -155,6 +158,7 @@ sl = Eslovenia ñe’ẽ
 so = Somalia ñe’ẽ
 sq = Albania ñe’ẽ
 sr = Serbia ñe’ẽ
+st = Sesotho
 sv-SE = Suecia ñe’ẽ
 sw = Swahili ñe’ẽ
 syr = Syriac ñe’ẽ
@@ -168,6 +172,7 @@ tk = Turkmenistán-gua
 tl = Tagalo ñe’ẽ
 tok = Toki Pona
 tr = Turquía ñe’ẽ
+ts = Xitsonga
 tt = Tátaro ñe’ẽ
 tw = Twi
 ty = Tahití ñe’ẽ
@@ -177,6 +182,7 @@ ug = Uyghur
 uk = Ucrania ñe’ẽ
 ur = Urdu ñe’ẽ
 uz = Uzbequistán ñe’ẽ
+ve = Tshivenda
 vec = Venecia ñe’ẽ
 vi = Vietnam ñe’ẽ
 vot = Votic ñe’ẽ
@@ -488,6 +494,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ¿Mba’é eipurúta Common Voice?
+about-header-description-v2 =
+    <p>Common Voice niko ñe’ẽ’aty marandu oiporukuaáva opavave, oguatáva umi pytyvõhára ñe’ẽ rupive yvóra tuichaháicha. Umi yvypóra oiporúva iñe’ẽ omoheñói hag̃ua tembiporu ñe’ẽ rehegua ha ikatúva oiporu ko’ã ayvu oporohekombo’e hag̃ua ijehegui.</p>
+    <p>Ko’ág̃a, umi ayvu oñeñongatúva ijára ha’e umi mba’aporenda ojokóva tembiapo pyahu. Umi ñe’ẽ rehegua marandu ombohovái: yvypóra oñe’ẽ’ỹva inglés, yvypóra ysa’y ambuéva, yvypóra oiko’asýva, kuña ha kuimba’e LGBTQIA+. Péva he’ise tembiporu pyahu ojeguerekóva ndoikói ambue ñe’ẽme g̃uarã, ha oikohápe ikatuhína ndoikói peteĩchapa. Upéva romoambuese romongu’epávo opaite yvypóra opaite ndehpegua oiporukávo iñe’ẽ.</p>
 how-does-it-work-title-v2 = ¿Mba’éicha omba’apo Common Voice?
 how-does-it-work-text = Ore romono’õ viru yvypóra ome’ẽreíva ñandéve jajapo hag̃ua ko tembiapo. Eme’ẽmi nde ahy’o térã emoneĩ ñe’ẽryapu ñongatupyre eporopytyvõ hag̃ua avei. Péicharupi ko tembiapo iporãveta opavavépe g̃uarã.
 
