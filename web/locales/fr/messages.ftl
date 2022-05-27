@@ -555,11 +555,14 @@ about-nav-playbook = Découvrez comment participer
 ## What is a language
 
 about-playbook-what-is-language = Qu’est-ce qu’une langue sur Common Voice ?
+about-playbook-what-is-language-content-3 = Certaines langues ont de grandes différences au niveau de la grammaire, du vocabulaire et de la prononciation. Pour cette raison, nous allons <ctaLink>introduire les « variantes linguistiques »</ctaLink> en 2022. Cela permet aux différentes communautés de distinguer leur langue au sein d’un jeu de données plus large.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Comment ajouter une langue ?
 about-playbook-how-add-language-content-1 = Tout d’abord, vérifiez si votre langue <languageLink>existe déjà</languageLink>. Si ce n’est pas le cas, vous devrez <strong>traduire le site et collecter des phrases</strong>.
+about-playbook-how-add-language-content-2 = <strong>Pour traduire le site</strong>, <translateVideo>lancez-vous</translateVideo> sur <pontoonLink>Pontoon</pontoonLink>. Pontoon propose beaucoup de langues, mais si la vôtre n’est pas proposée, vous pouvez <pontoonRequestLink>en faire la demande</pontoonRequestLink>. Ensuite, demandez <repoLink>via GitHub</repoLink> que le projet Common Voice soit activé pour votre langue. Retrouvez davantage d’informations sur la <localizationFragment>traduction du site</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Pour collecter des phrases</strong>, <scVideo>lancez-vous</scVideo> sur le <scLink>collecteur de phrases</scLink>.
 
 ## How does localization work
 
@@ -572,6 +575,7 @@ about-playbook-how-localize-content-5 = Regardez notre vidéo explicative pour v
 ## How to add sentences
 
 about-playbook-how-add-sentences = Comment ajouter des phrases ?
+about-playbook-how-add-sentences-content-1 = Le <strong>collecteur de phrases</strong> est un outil de collecte et de validation des phrases du domaine public. Vous devrez <scAccountLink>créer un compte</scAccountLink>. Ensuite, ajoutez votre langue à votre <strong>profil</strong>. Vous pouvez <strong>ajouter</strong> des phrases ou <strong>réviser</strong> des phrases ajoutées précédemment.
 about-playbook-how-add-sentences-content-3 = Vous pouvez utiliser <scraperLink>l’extracteur de phrase</scraperLink> pour recueillir de courtes phrases sur Wikipédia.
 about-playbook-how-add-sentences-content-4 = Les phrases qui ont été validées sont exportées le mercredi et sont disponibles dès la version suivante.
 
@@ -589,6 +593,7 @@ about-playbook-how-record-content-5 = <accuracyLink>En savoir plus sur les crit�
 about-playbook-how-grow-language = Comment est-il possible de développer efficacement une langue sur Common Voice ?
 about-playbook-how-grow-language-content-1 = Permettre à une diversité de personnes de contribuer à Common Voice garantit que le jeu de données serve autant de personnes que possible. Nous avons créé des ressources et des modèles que vous pouvez utiliser.
 about-playbook-how-grow-language-content-2 = Évènements
+about-playbook-how-grow-language-content-3 = Vous pouvez organiser des évènements pour aider les personnes à contribuer. C’est plus facile que vous ne le pensez. Vous pouvez le faire en ligne avec un outil de visioconférence, ou en personne si les conditions le permettent. <eventTemplate>Découvrez nos modèles et ressources pour organiser des évènements</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Réseaux sociaux
 about-playbook-how-grow-language-content-6 = Partenariats et réseaux
 about-playbook-how-grow-language-content-7 = Trouvez d’autres personnes qui s’en soucient. Il pourrait s’agir d’universités, d’écoles de langues, de groupes de défense des droits ou de communautés scientifiques autour des données. Contactez-les et expliquez clairement comment ces structures peuvent aider et pourquoi. <reachTemplates>Consultez nos modèles d’e-mails de sensibilisation</reachTemplates>.
@@ -599,6 +604,7 @@ about-playbook-how-grow-language-content-8 = <strong>Faites preuve de créativit
 about-playbook-how-validate = Comment savoir si un échantillon vocal doit être approuvé ?
 about-playbook-how-validate-content-1 = Si vous arrivez à <strong>les entendre</strong> et <strong>les comprendre</strong>, il est généralement <strong>préférable de les approuver</strong>.
 about-playbook-how-validate-content-2 = <strong>Ne rejetez pas les échantillons où le locuteur/la locutrice « a un accent » différent du vôtre</strong>. C’est important pour que la reconnaissance vocale fonctionne mieux pour tout le monde.
+about-playbook-how-validate-content-3 = Si vous pensez que la prononciation rend la <strong>compréhension impossible</strong>, ou qu’il y a <strong>beaucoup de bruit de fond</strong>, ou que <strong>d’autres personnes parlent en même temps</strong>, alors vous devriez rejeter l’échantillon. <accuracyLink>Voir plus d’informations sur nos critères de précision</accuracyLink>.
 about-playbook-how-validate-content-4 = Si un clip est rejeté par deux personnes, il est publié dans un sous-ensemble différent du jeu de données.
 
 ## How to access dataset
