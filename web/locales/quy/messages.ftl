@@ -1152,10 +1152,14 @@ contribution-misreadings-example-6-title = Nosotros vamos a tomar cafe
 contribution-misreadings-example-6-explanation = [Debería ser "Somos"]
 contribution-misreadings-example-7-title = Nosotros vamos a tomar un cafe
 contribution-misreadings-example-7-explanation = [Sin 'a' en el texto original]
+contribution-misreadings-example-8-title = El abejorro pasó a toda velocidad.
+contribution-misreadings-example-8-explanation = [Contenido no coincidente]
+contribution-varying-pronunciations-title = Pronunciaciones variadas
 contribution-varying-pronunciations-description = Tenga cuidado antes de rechazar una grabación porque el lector pronunció mal una palabra, puso el énfasis en el lugar equivocado o aparentemente ignoró un signo de interrogación. Hay una gran variedad de pronunciaciones en uso en todo el mundo, algunas de las cuales quizás no haya escuchado en su comunidad local. Proporcione un margen de apreciación para aquellos que puedan hablar de manera diferente a usted.
 contribution-varying-pronunciations-description-extended = Por otro lado, si cree que el lector probablemente nunca antes se ha topado con la palabra y simplemente está adivinando incorrectamente la pronunciación, rechace. Si no está seguro, utilice el botón Saltar.
 contribution-varying-pronunciations-example-1-title = En la cabeza llevaba una boina.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ está bien ya sea con acento en la primera sílaba (Reino Unido) o en la segunda (EE. UU.)]
+contribution-varying-pronunciations-example-2-title = Su mano estaba levantada.
 contribution-varying-pronunciations-example-2-explanation = ['Raised' en inglés siempre se pronuncia como una sílaba, no dos]
 contribution-background-noise-title = Ruido de fondo
 contribution-background-noise-description = Queremos que los algoritmos de aprendizaje automático puedan manejar una variedad de ruidos de fondo, e incluso se pueden aceptar ruidos relativamente altos, siempre que no impidan escuchar la totalidad del texto. La música de fondo tranquila está bien; la música lo suficientemente alta como para evitar que escuches todas y cada una de las palabras no lo es.
@@ -1166,6 +1170,7 @@ contribution-background-noise-example-2-explanation = [Parte del texto no se pue
 contribution-background-voices-title = Voces de fondo
 contribution-background-voices-description = Una bulla silenciosa de fondo está bien, pero no queremos voces adicionales que puedan causar que un algoritmo de máquina identifique palabras que no están en el texto escrito. Si puede escuchar palabras distintas a las del texto, debe rechazar el clip. Por lo general, esto sucede donde se ha dejado el televisor encendido o donde hay una conversación cerca.
 contribution-background-voices-description-extended = Si la grabación se rompe o tiene crujidos, rechace a menos que aún se pueda escuchar la totalidad del texto.
+contribution-background-voices-example-1-explanation = ¿Vienes? <strong>[llamado por otro]</strong>
 contribution-volume-title = Volumen
 contribution-volume-description = Habrá variaciones naturales de volumen entre los lectores. Rechace sólo si el volumen es tan alto que la grabación se interrumpe o (más comúnmente) si es tan bajo que no puede escuchar lo que se dice sin referencia al texto escrito.
 contribution-reader-effects-title = Efectos de lectura
@@ -1384,6 +1389,22 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Revisar ahora!</reviewLink>
 sc-lang-info-add-more = <addLink>Agrega más oraciones ahora!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] No hay oraciones validadas.
+        [one] 1 oración validada.
+       *[other] { $validatedSentences } oraciones validadas.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] No hay oraciones rechazadas.
+        [one] 1 oración rechazada.
+       *[other] { $rejectedSentences } oraciones rechazadas.
+    }
 
 ## LOGIN
 
