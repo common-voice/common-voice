@@ -1167,9 +1167,11 @@ contribution-background-noise-description-extended = Si la grabación se rompe o
 contribution-background-noise-example-1-fixed-title = <strong>[Estornudo]</strong> Los dinosaurios gigantes del <strong>[tos]</strong> Triásico.
 contribution-background-noise-example-2-fixed-title = El dinosaurio gigante <strong>[tos]</strong> el Triásico.
 contribution-background-noise-example-2-explanation = [Parte del texto no se puede escuchar]
+contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> dinosaurios gigantes de <strong>[Crackle]</strong> -riassic.
 contribution-background-voices-title = Voces de fondo
 contribution-background-voices-description = Una bulla silenciosa de fondo está bien, pero no queremos voces adicionales que puedan causar que un algoritmo de máquina identifique palabras que no están en el texto escrito. Si puede escuchar palabras distintas a las del texto, debe rechazar el clip. Por lo general, esto sucede donde se ha dejado el televisor encendido o donde hay una conversación cerca.
 contribution-background-voices-description-extended = Si la grabación se rompe o tiene crujidos, rechace a menos que aún se pueda escuchar la totalidad del texto.
+contribution-background-voices-example-1-title = Los dinosaurios gigantes del Triásico. <strong>[leído por una sola voz]</strong>
 contribution-background-voices-example-1-explanation = ¿Vienes? <strong>[llamado por otro]</strong>
 contribution-volume-title = Volumen
 contribution-volume-description = Habrá variaciones naturales de volumen entre los lectores. Rechace sólo si el volumen es tan alto que la grabación se interrumpe o (más comúnmente) si es tan bajo que no puede escuchar lo que se dice sin referencia al texto escrito.
@@ -1353,6 +1355,20 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } rechazado por usted
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ya no se ha revisado ninguna sentencia.
+        [one] 1 oración se acaba de revisar. ¡Gran trabajo!
+       *[other] { $countOfReviewed } oraciones se acaban de revisar. ¡Gran Trabajo!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] ¡Ninguna oración lista para enviar!
+        [one] 1 oración lista para enviar.
+       *[other] { $readyCount } oraciones listas para enviar.
+    }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } oraciones no revisadas. Si lo desea, también puede revisar sus oraciones ahora antes de enviarlas.
