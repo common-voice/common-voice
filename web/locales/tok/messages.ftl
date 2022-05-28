@@ -182,6 +182,7 @@ ug = toki Uwiku
 uk = toki Ukawina
 ur = toki Utu
 uz = toki Ope
+ve = toki Sipenta
 vec = toki Peneto
 vi = toki Wije
 vot = toki Patija
