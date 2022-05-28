@@ -773,6 +773,11 @@ other-language = Outro idioma
 ## Request Language Pages
 
 request-language-heading = Pergunte sobre um novo idioma
+request-language-explanation-1 =
+    Verifique se seu idioma está listado na
+    <languagesPageLink>página de idiomas do Common Voice</languagesPageLink>.
+    Se não estiver, preencha este formulário e <strong>enviaremos um email útil
+    explicando como ter seu idioma configurado</strong>.
 request-language-form-email =
     .label = Seu endereço de email
 request-language-form-info =
