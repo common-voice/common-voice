@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = 도전이나 개인 목표 알림, 진행
 email-opt-in-privacy-v2 = 이메일을 받기로 수락함으로서 Mozilla의 <privacyLink>개인정보 정책</privacyLink>에 따라 Mozilla가 이 정보를 처리하는 것에 동의하게 됩니다.
 indicates-required = * 표시는 필수 항목
 not-available-abbreviation = 해당 없음
+banner-error-slow-1 = 죄송합니다. Common Voice가 느리게 실행되고 있습니다. 관심을 가져주셔서 감사합니다.
 banner-error-slow-2 = 트래픽이 많이 발생하고 있으며 현재 문제를 조사하고 있습니다.
 banner-error-slow-link = 상태 페이지
 error-something-went-wrong = 죄송합니다. 오류가 발생하였습니다.
@@ -55,6 +56,7 @@ da = 덴마크어
 de = 독일어
 dsb = 저지 소르브어
 dv = 디베히어
+dyu = 드율라어
 el = 그리스어
 en = 영어
 eo = 에스페란토어
@@ -127,8 +129,10 @@ ne-NP = 네팔어
 nia = 니아스어
 nl = 네덜란드어
 nn-NO = 노르웨이어 뉘노르스크
+nso = 북소토어
 nyn = 엔코어어
 oc = 오크어
+om = 아파안 오로모어
 or = 오리야어
 pa-IN = 펀자브어
 pap-AW = 파피아멘토(아루바)
@@ -154,6 +158,7 @@ sl = 슬로베니아어
 so = 소말리아어
 sq = 알바니아어
 sr = 세르비아어
+st = 소토어
 sv-SE = 스웨덴어
 sw = 스와힐리어
 syr = 시리아어
@@ -167,6 +172,7 @@ tk = 투르쿠멘어
 tl = 타갈로그어
 tok = 도기 보나
 tr = 터키어
+ts = 총가어
 tt = 타타르어
 tw = 트위어
 ty = 타히티어
@@ -337,6 +343,8 @@ profile-form-additional-language =
     .label = 추가 언어
 profile-form-language =
     .label = 언어
+profile-form-variant =
+    .label = { $language }의 어떤 변형을 사용하시나요?
 profile-form-variant-default-value = 선택한 변형이 없음
 profile-form-accent =
     .label = 억양
@@ -390,6 +398,7 @@ on = 켜짐
 help-accent = 억양에 도움이 필요하십니까?
 help-accent-explanation = 억양은 단어를 발음하는 방식입니다. 살았던 곳이나 사용하는 다른 언어나 기타 많은 요인에 의해 형성됩니다. 관련이 있다고 생각하는 정보를 여기에서 공유할 수 있습니다.
 help-variants = 변형에 대한 도움이 필요하십니까?
+help-variants-explanation = 변형은 예를 들어 지리적 위치나 커뮤니티에 거주하는 사람들이 공유하는 언어의 특정 형태입니다. 때로는 이것을 방언이라고 합니다.
 
 ## Profile - Email
 
@@ -585,11 +594,16 @@ about-playbook-how-grow-language-content-1 = 다양한 사람들이 Common Voice
 about-playbook-how-grow-language-content-2 = 이벤트
 about-playbook-how-grow-language-content-3 = 사람들이 기여할 수 있도록 이벤트를 운영할 수 있습니다. 생각보다 쉽습니다. 화상 회의 도구를 사용하여 온라인으로 할 수도 있고 안전한 경우 직접 대면할 수도 있습니다. <eventTemplate>이벤트 실행을 위한 템플릿과 리소스를 확인하세요</eventTemplate>.
 about-playbook-how-grow-language-content-4 = 소셜 미디어
+about-playbook-how-grow-language-content-5 = 소셜 미디어 플랫폼을 사용하여 메시지를 전달할 수 있습니다. 중요한 이유를 설명하는 게시물을 공유하고 언어 권리, 음성 AI 또는 기술의 편견과 같은 문제에 대해 이야기하는 다른 사람들과 연락하십시오. <campaignLink>재사용할 수 있는 콘텐츠를 포함하여 소셜 캠페인 실행</campaignLink>에 대한 추가 조언을 확인하세요.
 about-playbook-how-grow-language-content-6 = 파트너십 및 네트워크
+about-playbook-how-grow-language-content-7 = 관심있는 다른 사람들을 찾으십시오. 그것은 대학, 어학 학교, 옹호 단체 또는 데이터 과학 커뮤니티가 될 수 있습니다. 도움을 줄 수 있는 방법과 이유를 명확하게 설명하십시오. <outreachTemplates>지원 이메일 템플릿을 참조하세요</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>창의력을 발휘하세요!</strong> 귀하의 언어 커뮤니티는 독특할 것이며 이는 시작하는 몇 가지 방법일 뿐입니다.
 
 ## How to validate
 
 about-playbook-how-validate = 음성 클립이 승인되었는지 어떻게 알 수 있나요?
+about-playbook-how-validate-content-1 = <strong>그들의 말을 듣고</strong> <strong>이해할 수 있다면</strong> 일반적으로 <strong>승인하는 것이 가장 좋습니다</strong>.
+about-playbook-how-validate-content-2 = <strong>자신과 '억양이 다른' 사람의 클립을 거부하지 마십시오.</strong> 이는 음성 인식이 모든 사람에게 더 잘 작동하도록 하는 데 중요합니다.
 about-playbook-how-validate-content-3 = 만약 발음을 <strong>아예 이해할 수 없거나</strong>, <strong>배경 잡음이 너무 심하거나</strong>, <strong>기여자 외에 다른 사람이 말하고 있다고</strong> 생각한다면 클립을 거부해야 합니다. <accuracyLink>자세한 정확도 기준에 대해 알아 보세요</accuracyLink>.
 about-playbook-how-validate-content-4 = 클립을 두 사람이 거부하면 데이터 세트에 별도로 구분되어 공개됩니다.
 
@@ -602,6 +616,7 @@ about-playbook-how-access-dataset-content-2 = 자동 음성 인식(ASR) 모델�
 ## How are decisions made
 
 about-playbook-how-project-governance = 프로젝트 결정은 어떻게 이루어지나요?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice는 전세계의 활동가, 언어학자, 데이터 과학자, 학자 및 소프트웨어 엔지니어로 구성된 다양한 커뮤니티에 의해 가능합니다. 이 프로젝트는 Mozilla 재단이 관리합니다.
 about-playbook-how-project-governance-content-2 = 다음을 기반으로 하는 관리방식:
 about-playbook-how-project-governance-content-3 = 개인 정보 보호, 보안 및 투명성.
 about-playbook-how-project-governance-content-4 = 커뮤니티 참여 및 의사 결정.
@@ -1189,6 +1204,7 @@ sc-home-review-text = 지침에 따라 문장의 정확도를 검토하여 저�
 
 ## GENERAL
 
+sc-languages-fetch-error = 사용 가능한 언어를 가져오지 못했습니다. 현재 기부가 불가능합니다. 나중에 다시 시도 해주십시오.
 
 ## HOW-TO
 
@@ -1255,6 +1271,7 @@ sc-rejected-none-found = 거부된 문장을 찾을 수 없습니다!
 
 sc-stats-title = 통계
 sc-stats-updating = 업데이트 중…
+sc-stats-error = 통계를 가져올 수 없습니다. 나중에 다시 시도 해주십시오.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1341,6 +1358,8 @@ sc-confirm-uploading = 문장을 업로드 중입니다. 추가된 문장 수에
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = 전체
+sc-lang-info-title-personal = 개인
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1461,3 +1480,5 @@ sc-validation-no-abbreviations = 문장에는 약어가 포함되어서는 안 �
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = 언어/현지화 선택
