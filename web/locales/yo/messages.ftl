@@ -623,11 +623,11 @@ data-download-license = Ìfàyègba: <licenseLink>CC-0</licenseLink>
 data-download-modal = O fẹ́ sẽ àgbàsílẹ̀ iye <size>{ $size }GB</size>, tẹ̀síwájú?
 data-subtitle = À ń ṣe àkópọ̀ fọ́nrán ohùn ti ẹnikẹ́ni le lò láti fi kọ́ àwọn ẹ̀rọ aṣàmúlò ohùn.
 data-get-started = <speechBlogLink>Bẹ̀rẹ̀ pẹ̀lú Ìdámọ̀ Ohùn</speechBlogLink>
-data-other-title = Àwọn dátà ohùn mìíràn…
+data-other-title = Àwọn àkójọpọ̀ dátà olóhùn mìíràn…
 data-other-goto = Lọ sí
 data-other-download = Ṣe ìgbàsílẹ̀ dátà
 data-bundle-button = Ṣe ìgbàsílẹ̀ odindi dátà
-data-bundle-description = Dátà Common Voice àti àpapọ̀ gbogbo dátà tó wà lókè.
+data-bundle-description = Dátà Common Voice àti àkójọpọ̀ gbogbo dátà olóhùn tó wà lókè.
 release-version = Ẹ̀dà
 dataset-date = Déètì
 license = Ìfàyègbà: <licenseLink>{ $license }</licenseLink>
@@ -643,12 +643,17 @@ review-submit-msg = O ṣé fún ṣíṣe ìṣàkálẹ̀!<lineBreak></l
 review-recording = Ṣàyẹ̀wò
 review-rerecord = Tủn àkálẹ̀ ohùn ṣe
 review-cancel = Fagilé ìfiráńṣẹ́
-review-keep-recordings = Fi àwọn ìgbàálẹ̀ ohùn pamọ́
+review-keep-recordings = Fi àwọn àkálẹ̀ ohùn pamọ́
 review-delete-recordings = Pa àwọn ìgbàálẹ̀ ohùn mi rẹ́
 
 ## Datasets Page
 
 datasets-heading = Àkójọpọ̀ dátà
+datasets-headline = À ń ṣe ìkójọ àkálẹ̀ ohùn lóríṣiríṣe èdè tí ó wà ní àrọ́wọ́tó gbogbo ènìyàn tí oníkálukú lè lò láti kọ́ ẹ̀rọ bí a ti ń sọ̀rọ̀.
+datasets-positioning =
+    A ní ìgbàgbọ́ pé àkójọpọ̀ àkálẹ̀ dátà ohùn tó kẹnú tó sì wà lárọ̀ọ́wọ́tó gbogbo ènìyàn yóò ṣe ìgbèrú tí yóò bí emigreerde ìmọ̀ọ́ṣe nínú u ète tó gùn lé akitiyan ìmọ̀ ẹ̀rọ lórí ohùn nípa ṣíṣàmúlò ìmọ ìkẹ́rọnímọ̀.
+    Àkójọpọ̀ dátà olóhùn loríríṣiríṣi èdè ti Common Voice ni ó jẹ́ àkọ́kọ́ irú rẹ̀ ẹ̀yí tó níla jù tó wà lárọ̀ọ́wọ́tó gbogbo ènìyàn, ṣùgbọ́n kì í ṣe òhun nìkan ló wà.
+    Wo ojú awé yìí gẹ́gẹ́ bí i ìtọ́ka sí functie àwọn ìkójọ dátà ohùn tó wà lárọ̀ọ́wọ́tó gbogbo ènìyàn, bí Common Voice ṣe ń gbèrú si, ilé fún ìfiráńṣé àtìgbàdégbà wa.
 language = Èdè
 # File size in gigabytes
 size = Ìwọ̀n
@@ -664,8 +669,10 @@ size-gigabyte = GB
 size-megabyte = MB
 download-language = Ṣe ìgbàsílẹ̀ { $language }
 validated-hours = Ṣe àyẹ̀wo wákàtí
-recorded-hours = Wákàtí ìgbàsílẹ̀ ohùn
-whats-inside = Kí ló wà nínú u ìkójọ dátà Common Voice
+recorded-hours = Wákàtí àkálẹ̀ ohùn
+whats-inside = Kí ló wà nínú u àkójọpọ̀ dátà Common Voice
+dataset-description-hours = Àkọsílẹ̀ kọ̀ọ̀kan nínú àkójọpọ̀ dátà tó ní MP3 pàtàkì àti fáìlì ọ̀rọ̀ tó báa mu. Púpọ̀ nínú àwọn wákàtí <b> lápapọ̀</b> tí a ṣe àkálẹ̀ fún nínú àkójọpọ̀ dátà náà tún àwọn mẹtadátà tó jẹ mọ́ ìrísí èèyàn lápapọ̀ bíi ọjọ́-orí, ìmọ̀ akọ tàbí abo àti ẹ̀yà èdè tí ó ràn wá lọ́wọ́ fún ìṣedéédé ìkẹ́kọ̀ọ́ èdè àwọn ẹ̀rọ adóhùnmọ̀. Àkójọpọ̀ dátà lọ́wọ́lọ́wọ́ ní <b>{ $valid }</b> àwọn wákàtì tí a fọwọ́sí nínú <b>{ $languages }</b> àwọn èdè, ṣùgbọ́n à ń fikún ohùn àti èdè ní gbogbo ìgbà. Ẹ wo ojú-ìwé àwọn èdè</languagesLink> láti bèèrè èdè tàbí b̀ẹrẹ̀ sí ní dásí.
+want-dataset-update = Ṣé o fẹ́ àwọn àtẹ̀ránṣẹ́ itàlólobó nígbà tí a bá ṣe ìdásílẹ̀ ẹ̀yà tuntun fún àwọn àkójọpọ̀ dátà Common Voice? Ṣe ìforúkọsílẹ̀ sí lẹ́tà asọ̀rọ̀yìn wa.
 
 ## Download Modal
 
