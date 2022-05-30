@@ -735,6 +735,7 @@ data-other-ted-description = Die TED-LIUM-korpus bestaan uit klankopnames en die
 data-other-voxforge-description = VoxForge is ontwikkel om getranskribeerde spraakdata in te samel vir die gebruik van gratis, oopbron spraakherkenningsagteware.
 data-other-tatoeba-description = Tatoeba is 'n groot databasis van sinne, vertalings en gesproke klankopnames vir gebruik in taalleerkontekste. Hierdie datastel bevat gesproke Engels wat deur hul gemeenskap opgeneem is.
 your-feedback = Het jy idees oor hoe ons die Common Voice-datastel kan verbeter? Laat ons weet op Discourse
+go-discourse = Gaan na Discourse
 
 ## Download Modal
 
