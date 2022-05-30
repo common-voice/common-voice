@@ -12,7 +12,7 @@ import './datasets.css';
 
 const SURVEY_KEY = 'showSurvey3';
 
-// console.log('data', data);
+console.log('data', SURVEY_KEY);
 
 export default () => {
   const [locale] = useLocale();
