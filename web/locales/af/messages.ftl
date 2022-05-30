@@ -724,6 +724,17 @@ subscribe = Teken In
 get-started-speech = Begin met Spraakherkenning
 other-datasets = Ander Stemdatastelle
 feedback-q = Het Jy Terugvoer?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is 'n <docsLink>oopbronhulpbron</docsLink> vir navorsers wat die nuutste gespreks-KI-modelle ontwikkel.
+resource-deepspeech-info = Mozilla se oopbron-stemherkenningsenjin Deep Speech kan gebruik word om spraakherkenningstoepassings te bou. Lees ons <githubLink>Github-oorsig</githubLink> of sluit aan by die <discourseLink>DeepSpeech Discourse</discourseLink> forum om te leer hoe om te begin.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> is toegewy aan oop spraaktegnologie. Hul projekte sluit diepleergebaseerde STT- en TTS-enjins in.
+community-playbook = Gemeenskapsgids
+resource-playbook-info = <playbookLink>Vind nuttige leiding</playbookLink> oor die hele Common Voice-reis, van lokalisering tot datastelgebruik, asook hoe om met ons gemeenskap te skakel.
+data-other-librispeech-description = LibriSpeech is 'n korpus van ongeveer 1000 uur van 16Khz geleesde Engelse spraakdata wat verkry is vanuit voorgeleesde oudioboeke wat deelvorm van die LibriVox-projek.
+data-other-ted-name = TED-LIUM-korpus
+data-other-ted-description = Die TED-LIUM-korpus bestaan uit klankopnames en die gepaardgaande transkripsies wat beskikbaar is op die TED-webwerf.
+data-other-voxforge-description = VoxForge is ontwikkel om getranskribeerde spraakdata in te samel vir die gebruik van gratis, oopbron spraakherkenningsagteware.
+data-other-tatoeba-description = Tatoeba is 'n groot databasis van sinne, vertalings en gesproke klankopnames vir gebruik in taalleerkontekste. Hierdie datastel bevat gesproke Engels wat deur hul gemeenskap opgeneem is.
+your-feedback = Het jy idees oor hoe ons die Common Voice-datastel kan verbeter? Laat ons weet op Discourse
 
 ## Download Modal
 
