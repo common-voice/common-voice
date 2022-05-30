@@ -8,9 +8,9 @@ email-input =
     .label = Ímeèlì
 submit-form-action = Fi jíṣẹ́
 loading = Ó ń gbaradì…
-email-opt-in-info = Mo fẹ́ láti máa gba ímeèlì bí i ìránilétí ìfojúsùn, àtẹ̀jíṣẹ́ ọ̀tun Napa ìlọsíwájú mi àti ìwé ìròyìn onílẹ́tà nípa Common Voice
+email-opt-in-info = Mo fẹ́ láti máa gba ímeèlì bí i ìránilétí ìfojúsùn, àtẹ̀jíṣẹ́ ọ̀tun Napa ìlọsíwájú mi àti lẹ́tà asọ̀ròyìn nípa Common Voice
 email-opt-in-info-title = Darapọ̀ mọ́ àtẹ̀jíṣẹ́ e ímeèli Common Voice
-email-opt-in-info-sub-with-challenge = Gba àwọn ímeèlì bí i ìránilétí ìfojúsùn, àtẹ̀jíṣẹ́ ọ̀tun Napa ìlọsíwájú mi àti ìwé ìròyìn onílẹ́tà nípa Common Voice
+email-opt-in-info-sub-with-challenge = Gba àwọn ímeèlì bí i ìránilétí ìfojúsùn, àtẹ̀jíṣẹ́ ọ̀tun Napa ìlọsíwájú mi àti lẹ́tà asọ̀ròyìn nípa Common Voice
 email-opt-in-privacy-v2 = Nípa gbígbà láti lè gba ímeèlì, o sọ pe o faramọ́ kí Mozilla ṣe ìkáwọ́ àwọn ìròyìn bí a ti se é lálàyé sí <privacyLink> Ìgbékalẹ̀ Àṣírí ti Mozilla</privacyLink>.
 indicates-required = Àwọn aye tí a fi ài iràwọ̀ (*) yí sí  pọn dandan
 not-available-abbreviation = kò sí
@@ -261,7 +261,7 @@ x-years-short =
        *[other] { $count } ọdún
     }
 help-make-dataset = Bá wa ṣe ìgbàálẹ àkójọ dátà tí yóò dra púpọ̀ tí yó sì wà ní àrọ́wọ́tó gbogbo ènìyàn
-sign-up-account = Ṣe ìforúkọ sílẹ̀
+sign-up-account = Ṣe ìforúkọ sílẹ̀ fún àkáǹtì
 email-subscription-title = Ṣe ìforúkọ sílẹ̀ fún ímeèlì
 email-subscription-title-new = Ṣe ìforúkọ fún ìwé ìròyìn onílẹ́tà Comon Voice, ìránlétí àfojúsùn àti àtẹ̀jíṣẹ́ ọ̀tun nípa ìlọsíwájú
 
@@ -378,7 +378,7 @@ edit-profile = Ìṣàtúnṣe Púrófáìlì
 profile-create-success = A ti ṣẹ̀dá púrófáìlì rẻ!
 profile-close = Padé
 profile-explanation = Tọpa ìlọsíwájú rẹ pẹ̀lú u púrófáìlì kí o sì sèrànwọ́ kí ìgbàálẹ̀ ohùn wá lè dára si.
-thanks-for-account = O ṣé fún ìjẹ́rìí, nísìyí jẹ́ ká ṣe púrófáìlì rẹ.
+thanks-for-account = O ṣé fún ìjẹ́rìí àkáǹtì rẹ, nísìyí jẹ́ ká ṣe púrófáìlì rẹ.
 why-demographic = Kí ni ìdí tó fi ṣe pàtàkì?
 why-demographic-explanation-2 = Àwọn dátà akópa tí ìdámọ̀ wọ́n farasin bíi ọjọ́ orí, ìṣakọṣabo, àti ohùn ìpèdè máa ń mú kí ìgbàálẹ̀ ohùn dára síi tí a fi ń mú kí ìṣewẹ́kú ẹ̀rọ ìdámọ̀ ohùn dára si. Orúkọ ìdámọ̀ àti ímeèlì rẹ kò ní farahàn pẹ̀lú dátà tí o bá fi ráńṣẹ́, o sì lè ṣe é bí o bá fẹ́ kí orúkọ ìdámọ̀ rẹ́ hàn àbí o fẹ́ kó wà ní ìpamọ́.
 accept-privacy = Mo gbà kí o ṣèkáwọ́ ìròyìn yí bí o ṣe ṣàlàyé nínú un <privacyLink>Ìgbékalẹ̀ Àṣírí Mozilla</privacyLink>
@@ -443,7 +443,7 @@ faq-what-cv-and-deepspeech-a = Àkójọpọ̀ dátà Common Voicese ṣe ìr�
 faq-is-goal-assistant-q = Ǹjẹ́ àfojúsùn Common Voice ni lati ṣe aranilọ́wọ́ ohun?
 faq-is-goal-assistant-a = Àfojúsùn àkójọpọ̀ data Common Voice ni láti jẹ́ kí gbogbo ènìyàn ní àgbáyé ṣe adóhùnmọ̀, adá-asọ̀rọ̀mọ̀ tàbí orísìí ẹ̀yà ohun èlò mìíràn tó nílò data ohùn. Aṣèrànlọ́wọ́ ohùn kàn jẹ́ ọ̀kan lára ọ̀pọ̀ ẹ̀yà ohun èlò ti o lè fi àkójọpọ̀ dta ṣe.
 faq-do-want-native-q = Èmi kìí ṣe elédè, mo sì tún ní ìwọ́hùn, ṣe ẹ sì tún fẹ́ ohùn mi?
-faq-do-want-native-a = Bẹ́ẹ̀ ni, A nílò ohùn rẹ ní pàtí! Lára àfojúsùn Common Voice ni láti ṣe àkójọ orísìí ìwọ́hùn tí wọ́n bá ṣe ée kójọ kí iṣẹ́ ìdóhùnmọ̀ lè ṣiṣẹ́ fún gbogbo ènìyàn dọ́gbandọ́gba. Èyí  túmọ̀ sí pé ìfohùnsílẹ̀ àwọn tí kìí ṣe elédè náà ṣe pàtàkì.
+faq-do-want-native-a = Bẹ́ẹ̀ ni, A nílò ohùn rẹ ní pàtí! Lára àfojúsùn Common Voice ni láti ṣe àkójọ orísìí ìwọ́hùn tí wọ́n bá ṣe ée kójọ kí iṣẹ́ ìmẹ̀ẹ̀rọ ìdóhùnmọ̀ lè ṣiṣẹ́ fún gbogbo ènìyàn dọ́gbandọ́gba. Èyí  túmọ̀ sí pé ìfohùnsílẹ̀ àwọn tí kìí ṣe elédè náà ṣe pàtàkì.
 faq-why-different-speakers-q = Kí ni ìdí rẹ̀ tí o fi nílò sọ̀rọ̀sọ̀rọ̀ púpọ̀ fún èdè kan?
 faq-why-different-speakers-a =
     Púpọ̀ àwọn àká-ọ̀rọ̀ afọ̀ ni wọ́n kọ́ pẹ̀lú àpọ̀jù àwọn àbùdá ìdánimọ̀ kan tí àbájáde rẹ̀ sì pọ̀n sẹ́yìn <articleLink> akọ àti kòlàkòsagbe</articleLink>. Èwọ́hùn tàbí èdè àdúgbò tí ó ṣe é ṣe kí wọ́n má ní asojú nínú àwọn data ti a sàmúlò ló jẹ́ pé wọ́n jẹ́ ọ̀wọ́ àwọn ènìyàn tí à ti tẹ̀rì. Ọ̀pọ̀ ẹ̀rọ ni ó ń làkàkà láti dá ohùn obìnrin mọ̀.
@@ -463,7 +463,7 @@ faq-where-src-from-2-a =
     O lè wo orísun gbólóhùn wa ní ibi yìí <githubLink>GitHub folder</githubLink>.
 faq-why-not-ask-read-q = Kílódé ti ẹ̀ tí ẹ kò fj ní kí àwọn ènìyàn máa kà láti inú ìwé tàbí àwọn àkọ́lẹ̀ Wikipedia ní oríṣiríṣi èdè?
 faq-why-not-ask-read-a = Láti mú kí àkójọpọ̀ data Common Voice wúlò a ti pinnu láti fàyè gba ọ̀rọ̀-orísun tí ó wà lábẹ́ àṣẹ àtinudá àjọmọ̀ (Creative Commons (CC0)). Lílo ìgbéléwọ̀n CC0 túmọ̀ sí pé ó ṣòro láti rí àwọn ọ̀rọ̀ orísun, ṣùgbọ́n ó fàyè gba gbogbo ènìyàn láti lo àbájáde data ohùn láì sí ìdíwọ́ tàbí ìyọ̀nda láti ọ̀dọ̀ Mozilla. Lọ́rọ̀kan, a fẹ́ kí àkójọpọ̀ data ọlọ́pọ̀ èdè wúlò fún gbogbo ènìyàn, àti àwọn oní ìwádìí, yunifásitì, ẹnìkọ̀ọ̀kan, ìjọba, ajọ aláfojúsùn ìdẹ̀rùn ẹ̀dá, awọn tó fi ń gbafẹ́.
-faq-why-account-q = Kí ni ìdí ti mo ṣe ní láti ṣe ìforúkọsílẹ̀?
+faq-why-account-q = Kí ni ìdí ti mo ṣe ní láti ṣe ìforúkọsílẹ̀ fún àkáǹtì?
 faq-is-account-public-q = Ǹjẹ́ ìròyìn àkáǹtì mi yóò wà ní gbangba?
 faq-how-privacy-q = Bá wo ni ẹ ṣe ń dáàbò bo ìdámọ̀ àwọn ẹni tọ́ fi ohùn wọn sílẹ̀
 faq-how-privacy-a = A máa ń yọ gbogbo ìdánimọ̀ kúrò nínú àgbàjọ fọ́nrán ohun tí a ṣe. Ti olùkópa kán bá fi dátà ìjúwé e rẹ̀ ráńṣẹ́ látorí púrófáìì rẹ̀, àwọn dátà náà yóò di yíyọ kúrò lára ohùn tí a gbà sílẹ̀ Kó tó di pé a dì í fan lílò a kò sì kì í fi sí oro púrófáìlì wọn
@@ -581,6 +581,7 @@ about-playbook-how-grow-language-content-6 = Àjọṣepọ̀ àti Ìbára�
 
 ## How to validate
 
+about-playbook-how-validate-content-2 = <strong>Má ṣe kọ fọ́nrán tí elédè ‘ní ìwọ́wùn’ tó yátọ̀ sí tìrẹ</strong> – èyí ṣe pàtàkì fún ìmẹ̀ẹ̀rọ ìdóhùnmọ̀ láti ṣiṣẹ́ dáadáa fún gbogbo ènìyàn.
 about-playbook-how-validate-content-4 = Tí fọ́nrán bá di kíkọ̀ lọ́dọ ènìyàn 2, yóò di jíjọ̀wọ́ sí àtúnpín àkójọpọ̀ data tó yátọ̀.
 
 ## How to access dataset
