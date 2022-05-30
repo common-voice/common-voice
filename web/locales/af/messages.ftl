@@ -626,12 +626,28 @@ about-playbook-how-project-governance-content-6 = Wedersydse aanspreeklikheid.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lees meer oor hoe ons bestuur word</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kunsmatige intelligensie
+mycroft-description =
+    Mycroft is die wêreld se eerste oopbron-assistent.
+    Mycroft werk oral - op 'n rekenaar, in 'n motor of op 'n Raspberry Pi.
+mycroft-secondary-description = Dit is oopbronsagteware wat vrylik hergebruik, uitgebrei en verbeter kan word. Mycroft kan in enige iets van 'n wetenskapprojek tot  vir sagteware in besigheidskontekste.
 
 ## Glossary
 
+glossary = Woordelys
+localization = Lokalisering
+localization-explanation = Dit is ons proses om ons inhoud vir baie tale te vertaal en aan te pas.
+sentence-collection = Stemversameling
+sentence-collection-explanation = Die versamel van sinne van die openbare domein, of die skryf van nuwe sinne vir die openbare domein.
+hours-recorded-explanation = Die aantal ure van die stemopnames wat ons tot dusver ingesamel het.
+hours-validated-explanation = Die aantal ure waarvan die stemopnames deur 2 van die 3 gebruikers bevesitg is met 'n "Ja". Dit merk die vordering met die oog op die doelwit van 10k ure vir die projek as geheel.
+sst = Spraak-na-teks (STT)
+sst-explanation = Spraak-na-teks (STT) tegnologie omskep stemdata in teks.
+de-identified = De-geïdentifiseer
+de-identified-explanation = Die proses waardeur 'n bydraer se profielinligting verberg word uit hul geskenkde stemsnitte wanneer dit as 'n deel van die datastel afgelaai word.
 
 ## Error pages
 
+error-title-404 = Ons kon nie daardie bladsy vir jou vind nie
 
 ## Data
 
