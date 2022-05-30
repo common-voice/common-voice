@@ -234,8 +234,8 @@ speak-subtitle = Fi ohùn rẹ kalẹ̀
 speak-paragraph = Àkálẹ̀ fọ́nrán ohùn jẹ́ ohun pàtàkì nínú akitiyan ìkójọpọ̀ ìgbàsílẹ̀ ohùn; àwọn kan yóò ní òhun ló dùn-ún ṣe jù.
 speak-goal-text = A ṣe àkálẹ̀ àwọn fọ́nrán ohùn
 listen-subtitle = Bá wa wò ó bóyá àwọn ohùn wọ̀nyí tànnà
-listen-paragraph = Síṣàyẹ̀wò ohùn tí a già sílẹ̀ náà ṣe pàtàkì sí ìfojúsùn Common Voice. Gbọ́ ki o sì ṣe ìrànwọ́ fún wa láti ṣẹ̀dá ohùn tó péye tó sì wà ní àrọ́wọ́tó gbogbo ènìyàn.
-listen-goal-text = Ohùn di yíyẹ̀wò
+listen-paragraph = Síṣàyẹ̀wò fọ́nrán tí a gbà sílẹ̀ náà ṣe pàtàkì sí ìfojúsùn Common Voice. Gbọ́ ki o sì ṣe ìrànwọ́ fún wa láti ṣẹ̀dá ohùn tó péye tó sì wà ní àrọ́wọ́tó gbogbo ènìyàn.
+listen-goal-text = Fọ́nrán di yíyẹ̀wò
 hours-recorded = Wákàtí ìgbàsílẹ̀ ohùn
 hours-validated = Wákátìí tí a ti yẹ̀wò
 voices-online = Ohùn wà lórí Ayélujára Nísìyí
@@ -281,7 +281,7 @@ whats-public = Kí ló wà ni gbangba?
 email-not-public = A ò ní fi ímeèlì rẹ síta.
 recordings-and-locale-public = Iye ìgbàsílẹ̀ ohùn àti èdè tí o ṣiṣẹ́ lé yóò wà ní gbangba.
 username-optin-public = O lè jẹ́ kí orúkọ ìdámọ̀ rẹ́ wà ni gbangba tàbí aláìlèdámọ̀.
-demographic-deidentified-clarity-2 = Kìí ṣe  kànńpá, fi àwọn data ìdánimọ̀ rẹ sílẹ̀ (b.a ọjọ́-orí, ìjakọ-n-bábo, èdè, bí a ṣe máa ń sọ̀rọ̀) a kì y;oò fi hande fún gbogbo èèyàn láti rí lórí púrófáìlì rẹ, a kò sì ní so ó mọ́ àkáǹtì rẹ nínú àkójọpọ̀ data. Ọ̀kọ̀ọ̀kan àwọn ohun tí a gbà sílẹ̀ ni a ó so mọ́ data ìdánimọ̀ fún ìtúpalẹ̀ tí ó péye  - bí àpẹẹrẹ, aṣèwádìí kan lè fẹ́ ṣe alàkalẹ̀ ìkọ́ni tó jẹ́ mọ́ ìdánimọ̀ kan ní pàtó.
+demographic-deidentified-clarity-2 = Kìí ṣe kànńpá, fi àwọn data ìdánimọ̀ rẹ sílẹ̀ (b.a ọjọ́-orí, ìjakọ-n-bábo, èdè, bí a ṣe máa ń sọ̀rọ̀) a kì y;oò fi hande fún gbogbo èèyàn láti rí lórí púrófáìlì rẹ, a kò sì ní so ó mọ́ àkáǹtì rẹ nínú àkójọpọ̀ data. Ọ̀kọ̀ọ̀kan àwọn fọ́nrán ohun tí a gbà sílẹ̀ ni a ó so mọ́ data ìdánimọ̀ fún ìtúpalẹ̀ tí ó péye  - bí àpẹẹrẹ, aṣèwádìí kan lè fẹ́ ṣe alàkalẹ̀ ìkọ́ni tó jẹ́ mọ́ ìdánimọ̀ kan ní pàtó.
 username-email-not-demographic = Orúkọ ìdámọ̀ àti imeèlì rẹ kò ní wà ní ìdámọ̀ pẹ̀lú u àwọn dátà tí a bá tẹ̀ jáde.
 
 ## Speak & Listen Shortcuts
@@ -309,11 +309,11 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Gbàsílẹ̀/Dúró
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Tún ìgbàsílẹ̀ ohùn náà ṣe
+shortcut-rerecord-toggle-label = Tún àkalẹ̀ ohùn náà ṣe
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Dá ìgbàsílẹ̀ tó ń lọ lọ́wọ́ dúró
 shortcut-submit = Padà
-shortcut-submit-label = Fi ohùn jíṣẹ́
+shortcut-submit-label = Fi fọ́nrán jíṣẹ́
 request-language-text = O ò tíì rí èdè rẹ lóríi Common Voice náà?
 request-language-text-learn = Kọ́ bí o ṣe lè bèrè fun níbí!
 request-language-button = Béèrè fún èdè
@@ -450,8 +450,8 @@ faq-why-different-speakers-a =
     Ìdí nìyí tí ó fi jẹ́ pé nínú àká-ọ̀rọ̀ wa, a fẹ́ àmúlùmọ́là!
 faq-why-my-lang-q = Kín ló dé tí èdè mi kò tíì sí níbẹ̀?
 faq-why-my-lang-new-a = Mozilla kìí yan èdè kankan ní ìpọ̀sìn. Dípò bẹ́ẹ̀, Common Voice jẹ́ àgbékalẹ̀ àwùjọ, àmọ́ sá o, ò pè fún <multilangLink>ọ̀pọ̀lọpọ̀ ìgbésẹ̀ láti fi èdè tuntun kún un</multilangLink> kí a sì bẹ̀rẹ̀ sí ní ṣe àkójọ ẹ̀bùn ohùn. Àkọ́kọ́, a nílò láti tú ìkànnì Common Voice kí àwọn ara àwùjọ lè ní ìrírí àwọn akópa ní èdè wọn. Lẹ́yìn náà, a nílò ọ̀pọ̀lọpọ̀ gbólóhùn aláìfofindè tí àwọn ènìyàn yóó kà sókè. Lọ́gán tí ìgbésẹ̀ méjéèjì bá ti di ṣíṣe, èdè kan yóó di ìfilọ́lẹ̀  ní orí Common Voice fún àwọn ènìyàn láti máa gba ohùn wọn sílẹ̀, kí a sì máa fàṣẹ sí àwọn àgbàkalẹ̀ yòókù náà. Bí o bá fẹ́ ṣe ìrànwọ́ láti fi èdè tunrun lọ́lẹ̀, sáré lọ sí <sentenceCollectorLink>Irinṣẹ́ ìsàkójọ gbólóhùn</sentenceCollectorLink> láti bẹ̀rẹ̀.
-faq-what-quality-q = Kín ni gbèdéke dídára ohùn tí a nílò fún ìgbohùnsílẹ̀ kan tó lè di lílò nínú àkójọpọ̀ data?
-faq-what-quality-a = A fẹ́ kí àkójọpọ̀ data Common Voice ṣe àfihàn dídára ohùn tí ẹ̀rọ asọ-ìfọ̀-di-títẹ̀ gbọ́ ní kíákíá, nítorí náà à wá orísirísi. Ní àfikún ọ̀pọ̀ àwọn elédè inú àwùjọ kan, àkójọpọ̀ data onírúurú dídára ohùn yóó kọ́ ẹ̀rọ̀ asọ-ifọ̀-di-títẹ̀ bí a ṣe ń ṣe lójú ayé gan-an láti ara ọ̀rọ̀ kẹ́lẹ́kẹ́lẹ́ abẹ́nú títí ó fi kan ariwo ọkọ̀. Níwọ̀n ìgbà tí ohùn gbígbàsílẹ̀ bá ti mọ́pọlọ dáni, ó yẹ kí ó dára tó fún àká-ọ̀rọ̀.
+faq-what-quality-q = Kí ni gbèdéke dídára ohùn tí a nílò fún ìgbohùnsílẹ̀ fọ́nrán ohùn kí ó tó lè di lílò nínú àkójọpọ̀ data?
+faq-what-quality-a = A fẹ́ kí àkójọpọ̀ data Common Voice ṣe àfihàn dídára ohùn tí ẹ̀rọ asọ-ìfọ̀-di-títẹ̀ gbọ́ ní kíákíá, nítorí náà à wá orísirísi. Ní àfikún ọ̀pọ̀ àwọn elédè inú àwùjọ kan, àkójọpọ̀ data onírúurú dídára ohùn yóó kọ́ ẹ̀rọ̀ asọ-ifọ̀-di-títẹ̀ bí a ṣe ń ṣe lójú ayé gan-an láti ara ọ̀rọ̀ kẹ́lẹ́kẹ́lẹ́ abẹ́nú títí ó fi kan ariwo ọkọ̀. Níwọ̀n ìgbà tí fọ́nrán ohùn gbígbàsílẹ̀ bá ti mọ́pọlọ dáni, ó yẹ kí ó dára tó fún àká-ọ̀rọ̀.
 faq-why-10k-hours-q = Kí ni ìdí tó fi jẹ́ pé ìfòhùntẹ̀lù wákàtí 10,000 ìkóhùnjọ ni àfojúsùn èdè kan?
 faq-why-10k-hours-a = Èyí ni iye wákàtí tí a nílò láti fi kọ́ ẹ̀rọ asọ-ìfọ̀-di-títẹ̀
 faq-how-calc-hours-q = Báwo ni Common Voice ṣe ń ṣe ìsirò akókò?
@@ -466,7 +466,7 @@ faq-why-not-ask-read-a = Láti mú kí àkójọpọ̀ data Common Voice wúlò 
 faq-why-account-q = Kí ni ìdí ti mo ṣe ní láti ṣe ìforúkọsílẹ̀?
 faq-is-account-public-q = Ǹjẹ́ ìròyìn àkáǹtì mi yóò wà ní gbangba?
 faq-how-privacy-q = Bá wo ni ẹ ṣe ń dáàbò bo ìdámọ̀ àwọn ẹni tọ́ fi ohùn wọn sílẹ̀
-faq-how-privacy-a = A máa ń yọ gbogbo ohun ìdánimọ̀ kúrò nínú àgbàjọ ohùn tí a ṣe. Ti olùkópa kán bá fi dátà ìjúwé e rẹ̀ ráńṣẹ́ látorí púrófáìì rẹ̀, àwọn dátà náà yóò di yíyọ kúrò lára ohùn tí a gbà sílẹ̀ Kó tó di pé a dì í fan lílò a kò sì kì í fi sí oro púrófáìlì wọn
+faq-how-privacy-a = A máa ń yọ gbogbo ìdánimọ̀ kúrò nínú àgbàjọ fọ́nrán ohun tí a ṣe. Ti olùkópa kán bá fi dátà ìjúwé e rẹ̀ ráńṣẹ́ látorí púrófáìì rẹ̀, àwọn dátà náà yóò di yíyọ kúrò lára ohùn tí a gbà sílẹ̀ Kó tó di pé a dì í fan lílò a kò sì kì í fi sí oro púrófáìlì wọn
 faq-what-determine-identity-q = Kí ni ìtúmọ̀ pé mi ò lè ''yan ìṣèdámọ̀" àwọn olùkópa nínú àkójọ dátà Common Voice?
 faq-what-is-cv = Kí ni Common Voice?
 faq-using-cv = Lílo Common Voice
@@ -478,7 +478,7 @@ faq-search-for-answers =
 
 about-title = Kí ni ìdí fún Common Voice?
 how-does-it-work-title-v2 = Báwo ni Common Voice ṣe ń ṣiṣẹ́?
-how-does-it-work-text = À ń sẽ ìgbàjọ àwọn ohùn ti ẹnikẹ́ni le lò. Ṣe àfikún pẹ̀lú ohùn rẹ, yẹ bí ohùn àwọn ẹlòmìíràn ṣe dára sí wò, jé kí àkójọ dátà náà dára si fún gbogbo ènìyàn.
+how-does-it-work-text = À ń sẽ ìgbàjọ àwọn ohùn ti ẹnikẹ́ni le lò. Ṣe àfikún pẹ̀lú ohùn rẹ, yẹ bí fọ́nrán àwọn ẹlòmìíràn ṣe dára sí wò, jé kí àkójọ dátà náà dára si fún gbogbo ènìyàn.
 
 ## How does it work section
 
@@ -492,7 +492,7 @@ about-new-lang-subtitle = A se ìfilọ́lẹ̀ ojú awẹ́ Common Voice nỉ
 about-voice-contrib-title = Ìfikún Ohùn
 about-voice-contrib-subtitle = Àwọn èèyán máa ń wá fi ohùn wọn sílẹ̀.
 about-voice-validation-title = Ìṣàyẹ̀wò Ohùn
-about-voice-validation-subtitle = Àwọn ẹlòmìíràn ni wọ́n máa ń wo àwọn agbálẹ̀ hùn wọ̀nyẹn.
+about-voice-validation-subtitle = Àwọn ẹlòmìíràn ni wọ́n máa ń wo àwọn àkálẹ̀ fọ́nrán ohùn wọ̀nyẹn.
 about-dataset-release-title = Ìgbéjáde Àkójọ Dátà
 about-dataset-release-subtitle = A máa ń gbé dátà náà jádi ní oṣù mẹ́tamẹ́ta
 about-subscribe-text = O fẹ́ wà ní àrọ́wọ́tó pẹ̀lú Common Voice?
