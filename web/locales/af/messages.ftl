@@ -445,6 +445,20 @@ faq-why-mission-a = Mozilla is toegewyd daaraan om die web oop en toeganklik te 
 faq-what-cv-and-deepspeech-q = Wat is die verskil tussen Common Voice en Deep Speech?
 faq-what-cv-and-deepspeech-a = Die Common Voice datastel komplementeer Mozilla se oopbronstemherkenningenjin Deep Speech. Die eerste weergawe van Deep Speech is in November 2017 vrygestel en het sedertdien bly ontwikkel. Saam met die Common Voice datastel, glo ons dat hierdie oopbronstemherkenningstegnologie vir almal beskikbaar moet wees. Dit is ons hoop dat dit tegnologie-ontwikkelaars in staat sal stel om 'n reeks innoverende produkte en dienste te bou.
 faq-is-goal-assistant-q = Is Common Voice se doelwit om 'n stemassistent te bou?
+faq-is-goal-assistant-a = Die doel van die Common Voice-datastel is om enige iemand in die wêreld in staat te stel om spraakherkenning, sprekerherkenning of enige ander tipe program wat stemdata benodig, te bou. 'n Stemassistent is net een van die vele soorte toepassings wat met dié datastel gebou kan word.
+faq-do-want-native-q = Ek is nie 'n moedertaalspreker nie en ek praat met 'n aksent, is my stem nog steeds aanvaarbaar?
+faq-do-want-native-a = Ja, ons wil veral jou stem hê! Deel van die doel van Common Voice is om soveel verskillende aksente as moontlik te versamel sodat stemherkenningsdienste vir almal ewe goed kan werk. Dit beteken dat stemskenkings van nie-moedertaalsprekers besonder belangrik is.
+faq-why-different-speakers-q = Hoekom is soveel verskillende sprekers per taal nodig?
+faq-why-different-speakers-a =
+    Meeste spraakdatabasisse word opgelei met 'n oorverteenwoordiging van sekere demografieë wat lei tot 'n vooroordeel teenoor aksente wat<articleLink> manlik en middelklas</articleLink> is. Aksente en dialekte wat geneig is om onderverteenwoordig te word in die opleiding van datastelle, word tipies geassosieer met groepe mense wat reeds gemarginaliseer word. Baie spraaktegnologieë sukkel ook om vroulike stemme te verstaan.
+    Dit is hoekom ons in ons stemdatabasis verskeidenheid wil hê!
+faq-why-my-lang-q = Hoekom is my taal nog nie ingesluit nie?
+faq-why-my-lang-new-a = Mozilla kies (of verkies) nie een taal bo 'n ander nie. In plaas daarvan is Common Voice 'n suiwer gemeenskapsgedrewe inisiatief, maar dit neem <multilangLink> verskeie stappe om 'n nuwe taal by te voeg </multilangLink> en met stemskenkings te begin. Eerstens moet die Common Voice-webwerf vertaal word sodat gemeenskapslede toegang kan hê tot die bydraerervaring in hul eie taal. Daarna benodig ons 'n groot versameling kopieregvrye sinne vir mense om hardop te lees. Sodra aan albei hierdie vereistes voldoen is, word 'n taal op Common Voice bekendgestel sodat mense hul stemme kan opneem en ander stemskenkings kan verifieer. As jy wil help met die bekendstelling van 'n nuwe taal, gaan na ons <sentenceCollectorLink>sinversamelingsprogram</sentenceCollectorLink> om die proses te begin.
+faq-what-quality-q = Watter vlak van klankkwaliteit is nodig om 'n stemsnit te gebruik in die datastel?
+faq-what-quality-a = Ons wil hê dat die Common Voice datastel die klankgehalte weerspieël wat 'n spraak-na-teks-enjine in die natuur sal hoor, so ons soek verskeidenheid. Benewens 'n uiteenlopende gemeenskap van sprekers, sal 'n datastel met wisselende klankgehalte die spraak-na-teks-enjin leer om verskillende werklike situasies te hanteer, van agtergrond-babbel tot die geraas van motors. Solank as wat jou stemsnit verstaanbaar is, sal dit goed genoeg wees vir die datastel.
+faq-why-10k-hours-q = Waarom is die doelwit vir die aantal klankopnames per taal 10 000 bevestigde ure?
+faq-why-10k-hours-a = Dit is ongeveer die aantal ure wat nodig is om 'n kommersiële teks-na-spraak-stelsel op te lei.
+faq-how-calc-hours-q = Hoe werk Common Voice die ure uit?
 
 ## ABOUT US
 
