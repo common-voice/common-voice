@@ -648,9 +648,18 @@ de-identified-explanation = Die proses waardeur 'n bydraer se profielinligting v
 ## Error pages
 
 error-title-404 = Ons kon nie daardie bladsy vir jou vind nie
+error-content-404 = Miskien sal ons <homepageLink>tuisblad</homepageLink> help? Om 'n vraag te vra, sluit asseblief aan by die <matrixLink>Matrix-gemeenskapkletsgroep</matrixLink>, monitor probleme met die webwerf via <githubLink>GitHub</githubLink> of besoek <discourseLink>ons Diskoersforums</discourseLink>.
+error-title-503 = Ons ervaar tans 'n onverwagse onderbreking
+error-content-503 = Die webwerf sal so gou as moontlik weer beskikbaar gestel word. Vir die jongste inligting, sluit asseblief aan by die <matrixLink>Matrix-gemeenskapkletsgroep</matrixLink> of besoek <githubLink>GitHub</githubLink> of <discourseLink>ons Diskoersforums</discourseLink> om probleme met die webwerf te monitor of aan te meld.
+error-code = Fout { $code }
 
 ## Data
 
+data-download-button = Laai Common Voice-data Af
+data-download-yes = Ja
+data-download-deny = Nee
+data-download-license = Lisensie: <licenseLink>CC-0</licenseLink>
+data-download-modal = Jy is op die punt om <size> { $size } GB</size> te begin aflaai, wil jy voortgaan?
 
 ## Datasets Page
 
