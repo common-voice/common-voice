@@ -566,15 +566,35 @@ about-playbook-how-add-language-content-4 = Jy kan <scLinkAdd>klein hoeveelhede 
 
 about-playbook-how-localize = Hoe werk webwerflokalisering?
 about-playbook-how-localize-content-1 = Vertaling van die Common Voice-webtuiste vind plaas op <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Skep 'n rekening</pontoonAccountLink> as jy nie een het nie. Kies dan jou taal <strong>(‘Span’)</strong> en kies dan die projek, <pontoonCvLink>Common Voice</pontoonCvLink>. Daar sal lêers wees om te vertaal. Klik op een, dan wys dit woorde in Engels en 'n blokkie om hulle te vertaal.
+about-playbook-how-localize-content-3 = Vertalings word uit Engels gedoen, maar jy kan <strong>Voorstelle</strong> in ander tale sien. Klik die <strong>Profiel</strong>-ikoon, dan <strong>Instellings</strong> en voeg enige tale wat jy praat by. In die onderste regterkantste hoek sal 'n lys vertalings genaamd <strong>Locales</strong> wees. Vertalings vertoon na een dag op die webwerf.
+about-playbook-how-localize-content-4 = Die webwerf is gereed om bekendgestel te word wanneer dit 75% voltooid is.
+about-playbook-how-localize-content-5 = Kyk ons verduidelikingsvideo vir hulp.
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Hoe voeg ek sinne by?
+about-playbook-how-add-sentences-content-1 = 'n <strong>Sinversamelaar</strong> is 'n hulpmiddel vir die versameling en bevestiging van sinne in die publieke domein. Jy sal <scAccountLink>'n rekening moet skep</scAccountLink>. Voeg dan jou taal by jou <strong>Profiel</strong>. Jy kan nuwe sinne <strong>Byvoeg</strong> of bestaande sinne <strong>Bekyk</strong>.
+about-playbook-how-add-sentences-content-2 = Sinne moet deur twee mense hersien en aanvaar word om by Common Voice ingesluit te word. Jy skep riglyne vir jou taal <languageGuidelinesLink>hier</languageGuidelinesLink>. Sinne moet in die <licenseLink>publieke domein</licenseLink> wees en korter as 15 woorde. Jy kan die eienaar van 'n teks vra om dit <waiverLink>CC0 te maak deur gebruik te maak van ons kwytskeldingproses</waiverLink>, en dan die toestemming aan ons deurstuur op commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Jy kan die <scraperLink>Sentence extractor</scraperLink> gebruik om kort sinne uit Wikipedia te onttrek.
+about-playbook-how-add-sentences-content-4 = Sinne waarvan die gehalte bevestig is, word op Woensdae uitgevoer en is beskikbaar na die volgende vrystelling.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Hoe neem ek 'n hoë kwaliteit stemsnit op?
+about-playbook-how-record-content-1 = Praat in jou normale stem! Die manier waarop jy praat is welkom hier - ons wil jou aksent hê soos dit is, en ons wil jou gewone volume, styl en intonasie hê.
+about-playbook-how-record-content-2 = Vermy te veel agtergrondgeraas – dit behoort maklik te wees om jou te hoor.
+about-playbook-how-record-content-3 = Lees die sin aandagtig deur - moenie woorde mis, verander of byvoeg nie.
+about-playbook-how-record-content-4 = Maak seker dat die platform opneem voordat jy begin praat, en dat dit eers stop sodra jy klaar is.
+about-playbook-how-record-content-5 = <accuracyLink>Sien meer oor akkuraatheidskriteria.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Hoe kan ons 'n taal effektief op Common Voice laat groei?
+about-playbook-how-grow-language-content-1 = Die skep van geleenthede vir diverse mense om by te dra tot Common Voice verseker dat die datastel soveel mense as moontlik bedien. Ons het hulpbronne en template geskep wat jy kan gebruik!
+about-playbook-how-grow-language-content-2 = Geleenthede
+about-playbook-how-grow-language-content-3 = Jy kan geleenthede hou om mense te help om by te dra. Dit is makliker as wat jy dink. Jy kan dit aanlyn doen met 'n videokonferensie, of in persoonlik as dit veilig is. <eventTemplate>Kyk na ons template en hulpbronne vir bestaande geleenthede</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Sosiale media
 
 ## How to validate
 
