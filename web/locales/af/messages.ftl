@@ -459,6 +459,19 @@ faq-what-quality-a = Ons wil hê dat die Common Voice datastel die klankgehalte 
 faq-why-10k-hours-q = Waarom is die doelwit vir die aantal klankopnames per taal 10 000 bevestigde ure?
 faq-why-10k-hours-a = Dit is ongeveer die aantal ure wat nodig is om 'n kommersiële teks-na-spraak-stelsel op te lei.
 faq-how-calc-hours-q = Hoe werk Common Voice die ure uit?
+faq-how-calc-hours-a = Ons werk die ure uit deur die gemiddelde lengte van elke opname te skat en dan daardie gemiddeld met die totale aantal opnames in alle tale te vermenigvuldig.
+faq-where-src-from-2-q = Waar kom die bronteks vandaan?
+faq-where-src-from-2-a =
+    Ons bronteks bestaan uit donasies van oorspronklike bydraers, sowel as dialoog uit publiekedomein-draaiboeke soos dié van <italic>It’s a Wonderful Life</italic>.
+    
+    Jy kan ons bron sinne sien in hierdie <githubLink> GitHub gids </githubLink>.
+faq-why-not-ask-read-q = Hoekom kan mense nie net uit boeke of Wikipedia-artikels in verskillende tale lees nie?
+faq-why-not-ask-read-a = Om die Common Voice-datastel so nuttig moontlik te maak, het ons besluit om slegs bronteks toe te laat wat beskikbaar is onder 'n Creative Commons (CC0) lisensie. Deur die CC0-standaard te gebruik, is dit moeiliker om bronteks te vind en in te samel, maar kan iemand die gevolglike stemdata gebruik sonder gebruiksbeperkinge of die toestemming van Mozilla. Uiteindelik wil ons die multi-taal datastel so nuttig moontlik maak vir almal, insluitend navorsers, universiteite, nuwe maatskappye, regerings, maatskaplike en gemeenskapsorganisasies, en ander belangstellendes.
+faq-why-account-q = Hoekom moet ek aanteken vir 'n rekening?
+faq-is-account-public-q = Is my rekeninginligting sigbaar vir die publiek?
+faq-how-privacy-q = Hoe kan die anonimiteit en privaatheid van die mense wat hul stemme skenk, verseker word?
+faq-how-privacy-a = Alle stemsnitte in die datastel word geskrop van persoonlike inligting. As 'n bydraer demografiese data verskaf via hul profiel, word hierdie inligting uit hul stemsnitte geskrap voordat dit gegroepeer word om afgelaai te word as deel van die datastel. Hierdie inligting word ook nooit op hul profielblad bekend gemaak nie.
+faq-what-determine-identity-q = Wat beteken dit dat ek nie die identiteit van sprekers in die Common Voice datastel kan bepaal nie?
 
 ## ABOUT US
 
