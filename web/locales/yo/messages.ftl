@@ -263,7 +263,7 @@ x-years-short =
 help-make-dataset = Bá wa ṣe ìgbàálẹ àkójọ dátà tí yóò dra púpọ̀ tí yó sì wà ní àrọ́wọ́tó gbogbo ènìyàn
 sign-up-account = Ṣe ìforúkọ sílẹ̀ fún àkáǹtì
 email-subscription-title = Ṣe ìforúkọ sílẹ̀ fún ímeèlì
-email-subscription-title-new = Ṣe ìforúkọ fún ìwé ìròyìn onílẹ́tà Comon Voice, ìránlétí àfojúsùn àti àtẹ̀jíṣẹ́ ọ̀tun nípa ìlọsíwájú
+email-subscription-title-new = Ṣe ìforúkọ fún lẹ́tà asọ̀ròyìn Comon Voice, ìránlétí àfojúsùn àti àtẹ̀jíṣẹ́ ọ̀tun nípa ìlọsíwájú
 
 ## Account Benefits
 
