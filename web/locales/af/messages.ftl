@@ -472,12 +472,28 @@ faq-is-account-public-q = Is my rekeninginligting sigbaar vir die publiek?
 faq-how-privacy-q = Hoe kan die anonimiteit en privaatheid van die mense wat hul stemme skenk, verseker word?
 faq-how-privacy-a = Alle stemsnitte in die datastel word geskrop van persoonlike inligting. As 'n bydraer demografiese data verskaf via hul profiel, word hierdie inligting uit hul stemsnitte geskrap voordat dit gegroepeer word om afgelaai te word as deel van die datastel. Hierdie inligting word ook nooit op hul profielblad bekend gemaak nie.
 faq-what-determine-identity-q = Wat beteken dit dat ek nie die identiteit van sprekers in die Common Voice datastel kan bepaal nie?
+faq-what-determine-identity-a =
+    Die Common Voice datastel is 'n oop en openbare bron wat gebruik kan word om 'n wye verskeidenheid spraakaangedrewe programme op te lei. Om die sekuriteit van ons bydraers te beskerm, vra ons almal wat die gemeenskaplike stemdatastelsel aflaai om bydraers se privaatheid te respekteer.
+    
+    Alle stemsnitte in die datastel word geskrap van persoonlike inligting. Wanneer jy die datastel aflaai, stem jy in om nie te probeer om die identiteit van enige bydraer te bepaal nie. Dit beteken dat jy nie inligting in die datastel kan koppel aan 'n bydraer se persoonlike inligting nie. Jy mag egter die datastel gebruik om spraakherkenning, sprekerherkenning of ander toepassings op te lei deur byvoorbeeld inligting in die datastel te koppel aan ander inligting wat reeds in die datastel voorkom.
+faq-what-is-cv = Wat is Common Voice?
+faq-using-cv = Gebruik Common Voice
+faq-description = Common Voice is Mozilla se inisiatief wat help om masjiene te leer hoe mense werklik praat.
+faq-search-for-answers =
+    .label = Soek vir antwoorde
 
 ## ABOUT US
 
+about-title = Hoekom Common Voice?
+about-header-description-v2 =
+    <p>Common Voice is 'n stemdatastel wat beskikbaar is in die publiekedomein en aangedryf word deur die stemme van vrywillige bydraers regoor die wêreld. Mense wat stemtoepassings wil bou, kan die datastel gebruik om masjienleermodelle op te lei.</p>
+    <p>Op die oomblik word die meeste stemdatastelle deur maatskappye besit, wat innovasie beperk. Stemdatastelle onderverteenwoordig ook: nie-Engelssprekendes, anderskleuriges, gestremdes, vroue en mense in die LGBTQIA+ gemeenskap. Dit beteken dat stemgeaktiveerde tegnologie vir heelwat tale glad nie werk nie, en waar dit wel werk, presteer dit dalk nie ewe goed vir almal nie. Ons wil dit verander deur mense wêreldwyd te mobiliseer om hul stem te deel.</p>
+how-does-it-work-title-v2 = Hoe werk Common Voice?
+how-does-it-work-text = Ons is besig om skarebefondsing te gebruik om 'n oopbron-datastel van stemopnames te ontwikkel. Skenk jou stem, bevestig die akkuraatheid van ander mense se opnames, en maak die datastel beter vir almal.
 
 ## How does it work section
 
+about-language-req-subtitle = Iemand vra dat 'n taal bygevoeg moet word.
 
 ## Community Playbook Content
 ## What is a language
