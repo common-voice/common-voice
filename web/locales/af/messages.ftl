@@ -494,6 +494,42 @@ how-does-it-work-text = Ons is besig om skarebefondsing te gebruik om 'n oopbron
 ## How does it work section
 
 about-language-req-subtitle = Iemand vra dat 'n taal bygevoeg moet word.
+about-localization-title = Webwerflokalisering
+about-localization-subtitle = Die webwerfteks word in daardie taal vertaal.
+about-sentence-collection-title = Sinversameling
+about-sentence-collection-subtitle = Sinne word ingesamel sodat mense dit hardop kan lees.
+about-new-lang-title = Bekendstelling van 'n nuwe taal
+about-new-lang-subtitle = Ons stel die Common Voice-webtuiste in hierdie taal bekend.
+about-voice-contrib-title = Stembydrae
+about-voice-contrib-subtitle = Mense kom en dra hul stemme by.
+about-voice-validation-title = Stembekragtiging
+about-voice-validation-subtitle = Ander mense evalueer en bevestig daardie stemsnitte.
+about-dataset-release-title = Datastelvrystelling
+about-dataset-release-subtitle = Ons stel die datastel elke 3 maande vry.
+about-subscribe-text = Wil jy in kontak bly met Common Voice?
+about-speak = Praat
+about-speak-text = Bydraers neem stemsnitte op deur te lees uit die versameling geskenkte sinne.
+about-listen-queue = Luister-teken
+about-listen-queue-text = Stemsnitte word in die volgorde geplaas waarin hulle ingedien moet word, sodat die leesproses kan begin.
+about-listen = Luister
+about-listen-text = Gebruikers bevestig die akkuraatheid van geskenkte snitte en maak seker dat die spreker die sin korrek lees.
+about-is-it-valid = Is die stemgreep geldig?
+about-is-it-valid-text = 'n Stemgreep word as "geldig" gemerk as 'n gebruiker dit met 'n Ja merk.
+about-yes-votes = ≥ 2 Ja-stemme
+about-yes-votes-text = Om deel te vorm van die Common Voice-datastel, moet 'n stemsnit deur twee afsonderlike gebruikers as akkuraat bevestig word.
+about-no-votes = 2 Nee-stemme
+about-no-votes-text = Wanneer 'n gebruiker 'n stemsnit verwerp, keer dit terug na die tou. As dit 'n tweede keer verwerp word, word die stemsnit na die Clip Graveyard geskuif.
+about-dataset-new = Common Voice-datastel
+about-dataset-new-text = Die Common Voice-datastel bevat honderde duisende stemopnames wat ontwikkelaars help om stemherkenningsstelsels te bou.
+about-clip-graveyard = Clip Graveyard
+about-clip-graveyard-text = Die Clip Graveyard bestaan uit stemsnitte wat nie in die Common Voice-datastel opgeneem is nie. Net soos die datastel, is die Clip Graveyard beskikbaar om afgelaai te word.
+about-partners = Vennote
+about-become-a-partner = Word 'n vennoot
+about-partnership =
+    Common Voice is 'n samewerkingsprojek, en ons is afhanklik van ons gemeenskap van vennote en bydraers om die grootste oopbron-datastel van stemme ooit te bou.
+    
+    Ons wil graag die volgende persone en organisasies bedank vir hul hulp met die projek:
+about-get-involved = Raak betrokke
 
 ## Community Playbook Content
 ## What is a language
