@@ -595,15 +595,37 @@ about-playbook-how-grow-language-content-1 = Die skep van geleenthede vir divers
 about-playbook-how-grow-language-content-2 = Geleenthede
 about-playbook-how-grow-language-content-3 = Jy kan geleenthede hou om mense te help om by te dra. Dit is makliker as wat jy dink. Jy kan dit aanlyn doen met 'n videokonferensie, of in persoonlik as dit veilig is. <eventTemplate>Kyk na ons template en hulpbronne vir bestaande geleenthede</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sosiale media
+about-playbook-how-grow-language-content-5 = Jy kan sosiale media-platforms gebruik om die boodskap uit te kry. Deel plasings wat verduidelik hoekom hierdie projekte belangrik is, en kom in kontak met ander mense wat praat oor kwessies soos taalregte, stemtegnologie of vooroordeel in tegnologie. Kry hier meer raad oor <campaignLink>die bestuur van 'n sosiale veldtog, insluitend inhoud wat jy kan hergebruik</campaignLink>.
+about-playbook-how-grow-language-content-6 = Vennootskappe en netwerke
+about-playbook-how-grow-language-content-7 = Soek ander wat omgee. Dit kan universiteite, taalskole, aktivistiese groepe of datawetenskapgemeenskappe wees. Reik uit en verduidelik hoe hulle kan help en hoekom. <outreachTemplates>Sien ons templaat vir uitreik-e-posse</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Wees kreatief!</strong> Jou taalgemeenskap sal uniek wees, en hierdie is net 'n paar maniere om te begin.
 
 ## How to validate
 
+about-playbook-how-validate = Hoe weet ek of ek 'n stemsnit moet goedkeur?
+about-playbook-how-validate-content-1 = As jy hulle <strong>hoor</strong> en <strong>verstaan</strong>, is dit gewoonlik <strong>beter om dit goed te keur</strong>.
+about-playbook-how-validate-content-2 = <strong>Moenie snitte verwerp waar die spreker ''n aksent' het wat anders is as jou eie nie</strong> - hierdie taaldata is belangrik vir stemherkenning om beter vir almal te kan werk.
+about-playbook-how-validate-content-3 = As jy dink die uitspraak maak dit <strong>onmoontlik om te verstaan</strong> wat gesê word, daar is <strong>baie agtergrondgeraas</strong>, of daar is <strong>ander mense wat ook praat</strong>, dan kan jy aandui dat die snit verwerp moet word. <accuracyLink>Sien meer inligting oor ons akkuraatheidskriteria</accuracyLink>.
+about-playbook-how-validate-content-4 = As 'n snit deur 2 mense verwerp word, word dit in 'n ander substel van die datastel vrygestel.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Hoe kry ek toegang tot en gebruik ek die datastel?
+about-playbook-how-access-dataset-content-1 = Jy kan na die <datasetsPage>datastelbladsy</datasetsPage> gaan, die weergawe en taal(e) kies wat jy wil hê, en dit aflaai! Die lêers het <metadataLink>geassosieerde metadata</metadataLink>, soos demografiese inligting en evalueringsdata. Jy sal 'n e-posadres moet verskaf om die datastel af te laai.
+about-playbook-how-access-dataset-content-2 = As jy  op soek is na hulpmiddels om ASR-modelle te bou, kan jy met ander mense in die gemeenskap kontak maak <discourseLink>op Diskoers</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Hoe word projekbesluite geneem?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice word moontlik gemaak deur 'n diverse gemeenskap van aktiviste, taalkundiges, datawetenskaplikes, akademici en sagteware-ingenieurs van regoor die wêreld. Die projek word deur die Mozilla-stigting behartig.
+about-playbook-how-project-governance-content-2 = Ons bestuur is gegrond op:
+about-playbook-how-project-governance-content-3 = Privaatheid, sekuriteit en deursigtigheid.
+about-playbook-how-project-governance-content-4 = Gemeenskapsdeelname en -besluitneming.
+about-playbook-how-project-governance-content-5 = Waarde en erkenning.
+about-playbook-how-project-governance-content-6 = Wedersydse aanspreeklikheid.
+about-playbook-how-project-governance-content-7 = <governanceLink>Lees meer oor hoe ons bestuur word</governanceLink>
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Kunsmatige intelligensie
 
 ## Glossary
 
