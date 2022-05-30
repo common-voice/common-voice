@@ -660,9 +660,70 @@ data-download-yes = Ja
 data-download-deny = Nee
 data-download-license = Lisensie: <licenseLink>CC-0</licenseLink>
 data-download-modal = Jy is op die punt om <size> { $size } GB</size> te begin aflaai, wil jy voortgaan?
+data-subtitle = Ons bou 'n oop publieke datastel van stemme wat almal kan gebruik om spraakaangedrewe toepassings op te lei.
+data-explanatory-text = Ons glo dat groot en publieke stemdatastelle innovasie en gesonde kommersiële kompetisie in masjienleergebaseerde spraaktegnologie bevorder. Dit is 'n globale poging en ons nooi almal om deel te neem. Ons doel is om spraaktegnologie meer inklusief te maak, sodat dit die verskeidenheid stemme van regoor die wêreld weerspieël.
+data-get-started = <speechBlogLink>Begin met Spraakherkenning</speechBlogLink>
+data-other-title = Ander stemdatastelle...
+data-other-goto = Gaan na { $name }
+data-other-download = Laai Data Af
+data-bundle-button = Laai Datastelbundel Af
+data-bundle-description = Common Voice data plus al die ander stemdatastelle hierbo.
+release-version = Weergawe
+dataset-date = Datum
+license = Lisensie: <licenseLink>{ $license }</licenseLink>
+license-mixed = Gemeng
+data-download-singleword-title = Laai die Enkelwoord-teikensegment af
+data-download-singleword-callout-v2 = Dit is 'n gebruiksgedrewe segment wat data bevat om gesproke syferherkenning en ja/nee-opsporing aan te dryf.
+review-terms = Deur Common Voice te gebruik, stem jy in tot ons <termsLink>Terme</termsLink> en <privacyLink>Privaatheidsbeleid</privacyLink>
+terms-agree = Ek stem in
+terms-disagree = Ek stem nie in nie
+review-aborted = Oplaai gestaak. Wil jy jou opnames uitvee?
+review-submit-title = Hersien en Stuur
+review-submit-msg = Dankie vir die opname! <LineBreak></lineBreak> Gaan dit nou na en dien jou snitte hieronder in.
+review-recording = Hersien
+review-rerecord = Neem Weer Op
+review-cancel = Kanselleer Indiening
+review-keep-recordings = Hou die opnames
+review-delete-recordings = Vee my opnames uit
 
 ## Datasets Page
 
+datasets-heading = Datastelle
+datasets-headline = Ons bou 'n oopbron, multi-taal datastel van stemme wat enige iemand kan gebruik om spraakaangedrewe toepassings op te lei.
+datasets-positioning =
+    Ons glo dat groot, openbare stemdatastelle innovasie en gesonde kommersiële kompetisie in masjienleergebaseerde spraaktegnologie sal bevorder.
+    
+    Common Voice se multi-taal datastel is alreeds die grootste openbaar-beskikbare stemdatastel van sy soort, maar dit is nie die enigste nie.
+    
+    Kyk na hierdie bladsy as 'n verwysingspunt vir ander oopbron-stemdatastelle en, soos Common Voice steeds groei, 'n tuiste vir inligting oor die nuutste vrystellings.
+language = Taal
+# File size in gigabytes
+size = Grootte
+validated-hr-total = Bevestigde Ure Totaal
+overall-hr-total = Algehele Ure Totaal
+cv-license = Lisensie
+audio-format = Klankformaat
+number-of-voices = Aantal Stemme
+splits = Splete
+email-to-download = Tik E-posadres In Om Af Te Laai
+why-email = <b> Waarom 'n e-posadres? </b> Ons mag jou dalk in die toekoms moet kontak met veranderinge in die datastel. 'n E-posadres gee ons 'n kontakpunt.
+confirm-size = Jy is bereid om 'n aflaai van <b> { $size } </b> te begin
+size-gigabyte = GG
+size-megabyte = MG
+confirm-no-identify = <b> Jy stem in </b> om nie te probeer om die identiteit van sprekers in die Common Voice-datastel te bepaal nie
+download-language = Laai { $taal } Af
+validated-hours = Bevestigde Ure
+recorded-hours = Opgeneemde Ure
+whats-inside = Wat is in die Common Voice-datastel?
+dataset-description-hours =
+    Elke inskrywing in die datastel bestaan uit 'n unieke MP3 en ooreenstemmende tekslêer. Baie van die <b> { $total }</b> opname-ure in die datastel bevat ook demografiese metadata soos ouderdom, geslag en aksent wat die akkuraatheid van spraakherkenningenjins kan verbeter.
+    
+    Die datastel bestaan tans uit <b> { $valid } </b> bevestigde ure in <b> { $languages } </b> tale, maar ons voeg altyd meer stemme en tale by. Kyk gerus na ons <languagesLink> Tale Bladsy </languagesLink> om 'n taal te versoek of om te begin bydra.
+want-dataset-update = Wil jy in kennisgesteel word wanneer ons 'n nuwe weergawe van die Common Voice-datastel vrystel? Teken in op ons nuusbrief.
+subscribe = Teken In
+get-started-speech = Begin met Spraakherkenning
+other-datasets = Ander Stemdatastelle
+feedback-q = Het Jy Terugvoer?
 
 ## Download Modal
 
