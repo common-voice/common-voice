@@ -541,16 +541,31 @@ about-stay-in-touch-text-1 = <emailFragment>Sluit aan</emailFragment> by ons e-p
 about-stay-in-touch-text-2 = Jy kan ander betrokkenes in die Mozilla-taalgemeenskappe ontmoet deur by <discourseLink>Diskoers</discourseLink> aan te sluit vir aktuele gesprekke, of <matrixLink>Matrix</matrixLink> vir vinnige raad.
 about-nav-why-common-voice = Hoekom?
 about-nav-how-it-works = Hoe?
+about-nav-partners = Vennote
+about-nav-get-involved = Raak betrokke
+about-nav-how-it-works-2 = Hoe werk Common Voice?
+about-nav-playbook = Leer hoe om deel te neem
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Wat is 'n taal op Common Voice?
+about-playbook-what-is-language-content-1 = Daar is baie maniere om oor taal te dink. Vir die doeleindes van spraakherkenningsmodelle stel Common Voice voor om op 'wedersydse verstaanbaarheid' te fokus, of 'kan sprekers van hierdie taal mekaar meestal verstaan as hulle probeer?'
+about-playbook-what-is-language-content-2 = Ons wil hê dat spraakmodelle 'n meer diverse reeks sprekers beter moet kan verstaan. Vir dit om te gebeur, moet 'n stemdatastel baie verskillende mense verteenwoordig.
+about-playbook-what-is-language-content-3 = Sommige tale het enorme variasie in grammatika, woordeskat en uitspraak. Om hierdie rede stel ons <ctaLink>'Variante'</ctaLink> in 2022 bekend. Dit gee gemeenskappe 'n manier om hul tale binne die groter datastel te onderskei.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Hoe voeg ek 'n taal by?
+about-playbook-how-add-language-content-1 = Kyk eers of jou taal <languageLink>reeds bestaan</languageLink> op die platform. As dit nie daar is nie, moet jy <strong>die webwerf vertaal en sinne versamel</strong>.
+about-playbook-how-add-language-content-2 = <strong>Om die webwerf te vertaal</strong> -  <translateVideo>stel</translateVideo> 'n <pontoonLink>Pontoon</pontoonLink> rekening op. Pontoon het baie tale, maar as dit nie joune het nie, kan jy jou taal <pontoonRequestLink>aanvra</pontoonRequestLink>. Vra dan <repoLink>via GitHub</repoLink> om die Common Voice-projek vir die taal beskikbaar te stel. Sien meer oor <localizationFragment>webwerfvertaling</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Om sinne te versamel</strong> - <scVideo>stel</scVideo> die <scLink>Sinversamelaar</scLink> op.
+about-playbook-how-add-language-content-4 = Jy kan <scLinkAdd>klein hoeveelhede sinne hier byvoeg</scLinkAdd>, of jy kan <bulkImportDocsLink>grootmaat invoere</bulkImportDocsLink> doen via 'n Github-versoek. Onthou dat sinne <licenseLink>CC0 (of in die publieke domein)</licenseLink> moet wees, of jy kan jou eie skryf. Sien meer oor <scFragment>sinversameling</scFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Hoe werk webwerflokalisering?
+about-playbook-how-localize-content-1 = Vertaling van die Common Voice-webtuiste vind plaas op <strong>Pontoon</strong>.
 
 ## How to add sentences
 
