@@ -219,10 +219,10 @@ home-title = Common Voice jẹ́ iṣẹ́ àkàǹṣe ti Mozilla láti kọ
 default-tagline = Mozilla Common Voice jẹ́ iṣẹ́ àlákàǹṣe láti kọ́ àwọn ẹ̀rọ bí a ti ń sọ̀rọ̀ bí ènìyàn
 home-cta = Sọ̀rọ̀ jáde, dá sí i níbí
 wall-of-text-start = Ohùn jẹ àdáyébá, ohùn ni ènìyàn. Ohun ló ṣe jẹ Wasiu lógún láti ṣẹda ohun alálòtúnlò tí a le ò fún àwọn ẹ̀rọ wa. Ṣùgbọ́n láti ṣẹ̀dá àwọn ẹ̀rọ aṣàmúlò ohun, ó nílo ọ̀pọ̀lọpọ̀ ìgbàsílẹ̀ ohùn.
-wall-of-text-more-mobile = Ọ̀pọ̀ àwọn dátà tí àwọn ilé-iṣẹ́ ńlánlá ń lò kò sí ní àrọ́wọ́tó ọ̀pọ̀ eèyàn. A ro pé èyí yóò dí iṣẹ́ ìdàgbàsókè lọ́wọ́. A ti ṣe ìfilọ́lẹ̀ iṣẹ́ àkànṣe Common Voice, iṣẹ́ tí yóò jẹ́ kí ìmọ̀ ẹ̀rọ lóeí ìdámọ̀ ohùn wà lárọ̀ọ́wọ́tó gbogbo ènìyàn.
+wall-of-text-more-mobile = Ọ̀pọ̀ àwọn dátà tí àwọn ilé-iṣẹ́ ńlánlá ń lò kò sí ní àrọ́wọ́tó ọ̀pọ̀ eèyàn. A ro pé èyí yóò dí iṣẹ́ ìdàgbàsókè lọ́wọ́. A ti ṣe ìfilọ́lẹ̀ iṣẹ́ àkànṣe Common Voice, iṣẹ́ tí yóò jẹ́ kí Ìmẹ̀ẹ̀rọ adóhùnmọ̀ wà lárọ̀ọ́wọ́tó gbogbo ènìyàn.
 wall-of-text-more-desktop = Ní báyìí o lè fi phùn rẹ sílẹ̀ láti ní ìrànwọ́ àti ní ìkójọ àgbálẹ̀ ohùn tí ó wà ní àrọ́wọ́tó gbogbo ènìyàn tí ẹnikẹ́ni sì le lò láti ṣẹ̀dá àwọn áàpù lórí ẹ̀rọ ìbánisọ̀rọ̀ tàbí ayélujára. Ka ìlà ọ̀rọ̀ kan láti ṣe ìrànwọ́ fún ẹ̀rọ láti kọ́ bí a ti ń sọ̀rọ̀ bí ènìyàn. Yẹ iṣẹ́ àwọn olùdásí mìíràn wò láti bù kún àmúyẹ rẹ̀. Bẹ́ẹ̀ ló rọrùn tó!
 wall-of-text-first = Ohùn jẹ àdáyéba, ohùn ni ènìyàn. Ohun ló ṣe jẹ wá lógún láti ṣẹda ohun alálòtúnlò tí a le ò fún àwọn ẹ̀rọ wa. Ṣùgbọ́n láti ṣẹ̀dá àwọn ẹ̀rọ aṣàmúlò ohun, àwọn dìfẹ́lọ́pà nílo ọ̀pọ̀lọpọ̀ ìgbàsílẹ̀ ohùn.
-wall-of-text-second = Ọ̀pọ̀ àwọn dátà tí àwọn ilé-iṣẹ́ ńlánlá ń lò kò sí ní àrọ́wọ́tó ọ̀pọ̀ eèyàn. A ro pé èyí yóò dí iṣẹ́ ìdàgbàsókè lọ́wọ́. A ti ṣe ìfilọ́lẹ̀ iṣẹ́ àkànṣe Common Voice, iṣẹ́ tí yóò jẹ́ kí ìmọ̀ ẹ̀rọ lóeí ìdámọ̀ ohùn wà lárọ̀ọ́wọ́tó gbogbo ènìyàn.
+wall-of-text-second = Ọ̀pọ̀ àwọn dátà tí àwọn ilé-iṣẹ́ ńlánlá ń lò kò sí ní àrọ́wọ́tó ọ̀pọ̀ eèyàn. A ro pé èyí yóò dí iṣẹ́ ìdàgbàsókè lọ́wọ́. A ti ṣe ìfilọ́lẹ̀ iṣẹ́ àkànṣe Common Voice, iṣẹ́ tí yóò jẹ́ kí Ìmẹ̀ẹ̀rọ adóhùnmọ̀ wà lárọ̀ọ́wọ́tó gbogbo ènìyàn.
 show-wall-of-text = Kà síi
 help-us-title = Bá wa wò ó bóyá àwọn ọ̀rọ̀ wọ̀nyí tànnà
 help-us-explain = Tẹ sọ̀rọ̀, gbọ́ àti sọ fún wa: ṣé wọ́n ka ìsọ ìsàlẹ̀ náà dáradára?
@@ -368,7 +368,7 @@ female = Obìnrin
 # Gender
 other = Òmíràn
 why-profile-title = Ìdí fún púrófáìlì?
-why-profile-text = Nípa pépèsè àwọn ìrìyìn nípan araàrẹ, àwọn ìgbàsílẹ̀ ohùn tí o fi ráńṣẹ́ sí Common Voice yóò wúlò gidigidi fún àwọn ẹ̀rọ ìdámọ̀ ohùn tí wọ́n ń ṣàmúlò àwọn dátà yí kí ìṣewẹ́kú wọ́n lè tànnà si.
+why-profile-text = Nípa pépèsè àwọn ìrìyìn nípan araàrẹ, àwọn ìgbàsílẹ̀ ohùn tí o fi ráńṣẹ́ sí Common Voice yóò wúlò gidigidi fún àwọn Ìmẹ̀ẹ̀rọ adóhùnmọ̀ tí wọ́n ń ṣàmúlò àwọn dátà yí kí ìṣewẹ́kú wọ́n lè tànnà si.
 dashboard = Àte
 build-profile = Ṣe púrófáìlì
 avatar = Àwòrán
@@ -439,7 +439,7 @@ faq-when-release2-a = Ẹ̀dà àkójọpọ̀ data Common Voice ọlọ́pọ̀
 faq-why-mission-q = Kí ni ìdí rẹ̀ tí Common Voice fi jẹ́ apá kan iṣẹ́ Mozilla?
 faq-why-mission-a = Mozilla ti fi ara rẹ̀ jìn fún jíjẹ́ kí ìkànnì wà ní sísí àti ní àrọ́wọ́tó gbogbo ènìyàn. Láti ṣe èyí a nílò ró àwọn aṣẹ̀dá ìkànnì lágbára nípasẹ̀ àkàṣe iṣẹ́ bí i ti Common Voice. Gẹ́gẹ́ bí ìmọ̀ọ́ṣe abohùn ṣe ń pọ̀ síi kọjá ohun-àmúlò-tó-rọrùn, ìgbàgbọ́ pé wọ́n gbọ́dọ̀ wúlò fún gbogbo àwọn tí wọn ń lò ó dọ́gbandọ́gba. Ó túmọ̀ sí pé nínáwó lórí ọ̀pọ̀ èdè àti fífàyègba orísìrísìí ìwọ́hùn àti àbùdá ìdánimọ̀ nígbà tí a bá ń ṣe tàbí yẹ ìmọ̀ọ́ṣe abohùn wò. Common Voice jẹ́ èròjà àjọni tí ó wà fún gbogbo ènìyàn àti ẹgbẹ́ Mozilla àwọn aṣẹ̀dá káàkiri àgbáyé tilẹ̀ ti bẹ̀rẹ̀ sí ní lò ó lórí àwọn àkànṣe iṣẹ́ wa.
 faq-what-cv-and-deepspeech-q = Kí ni ìyàtọ̀ tí ó wà láàrin Common Voice àti Deep Speech?
-faq-what-cv-and-deepspeech-a = Àkójọpọ̀ data Common Voicese ìrànwọ́ fún ẹ́ngínì adúhùnmọ̀ Deep Speech aṣeélò fún gbogbo ènìyàn ti Mozilla. Ẹ̀dà àkọ́kọ́ Deep Speech di gbigbé jáde ni òsù Kọkànlá Ọdún 2017, láti ìgbà náà ni ó sì ti ń gbèrún sí i.  Ti ohun ti àká-ọ̀rọ̀ Common Voice, a gbàgbọ́ pé ìmọ̀ọ-ẹ̀rọ adóhùnmọ̀ aṣeélò-fún-gbogbo ènìyàn yóó kárí ilé kárí oko. Èròǹgbà wa ni pé àwọn ìmọ̀ọ́ṣe yìí yóó ran àwọn aṣẹ̀dá jẹ́ kí afẹ́fẹ́ ohun ìmọ̀ ọ̀tun àti iṣẹ́ fẹ́ wá.
+faq-what-cv-and-deepspeech-a = Àkójọpọ̀ dátà Common Voicese ṣe ìrànwọ́ fún ẹ́ńgíìnì adúhùnmọ̀ Deep Speech aṣeélò fún gbogbo ènìyàn ti Mozilla. Ẹ̀dà àkọ́kọ́ Deep Speech di gbigbé jáde ni òsù Kọkànlá Ọdún 2017, láti ìgbà náà ni ó sì ti ń gbèrún sí i.  Ti ohun ti àká-ọ̀rọ̀ Common Voice, a gbàgbọ́ pé ìmọ̀ọ-ẹ̀rọ adóhùnmọ̀ aṣeélò-fún-gbogbo ènìyàn yóó kárí ilé kárí oko. Èròǹgbà wa ni pé àwọn ìmọ̀ọ́ṣe yìí yóó ran àwọn aṣẹ̀dá jẹ́ kí afẹ́fẹ́ ohun ìmọ̀ ọ̀tun àti iṣẹ́ fẹ́ wá.
 faq-is-goal-assistant-q = Ǹjẹ́ àfojúsùn Common Voice ni lati ṣe aranilọ́wọ́ ohun?
 faq-is-goal-assistant-a = Àfojúsùn àkójọpọ̀ data Common Voice ni láti jẹ́ kí gbogbo ènìyàn ní àgbáyé ṣe adóhùnmọ̀, adá-asọ̀rọ̀mọ̀ tàbí orísìí ẹ̀yà ohun èlò mìíràn tó nílò data ohùn. Aṣèrànlọ́wọ́ ohùn kàn jẹ́ ọ̀kan lára ọ̀pọ̀ ẹ̀yà ohun èlò ti o lè fi àkójọpọ̀ dta ṣe.
 faq-do-want-native-q = Èmi kìí ṣe elédè, mo sì tún ní ìwọ́hùn, ṣe ẹ sì tún fẹ́ ohùn mi?
@@ -554,10 +554,12 @@ about-playbook-how-add-language-content-4 = O lè <scLinkAdd>ṣàfikún gbo�
 about-playbook-how-localize = Báwo ni ìsọ-ìkànnì-di-tìbílẹ̀ ṣe ń ṣiṣẹ́?
 about-playbook-how-localize-content-1 = Títú ìkànnì Common voice máa ń wáyé lórí <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Fi orúkọ sílẹ̀</pontoonAccountLink> tí o ò bá ní ọ̀kan. Leyìn náà, yan èdè rẹ <strong>(‘Team’)</strong> wá yan iṣẹ́-àkànṣe, <pontoonCvLink>Common Voice</pontoonCvLink>. Àwọn fáílì yóò wà láti túmọ̀. Ṣẹ́wọ́ sí ọ̀kan, yóò ṣàfihàn àwọn ọ̀rọ̀ ní ède gẹ̀ẹ́sì àti àpótí láti túmọ̀ wọn.
+about-playbook-how-localize-content-3 = Ìtúmọ̀ jẹ́ láti inú ède gẹ̀ẹ́sì, ṣùgbọ́n o lè wo <strong>àwọn àbá</strong> nínú àwọn èdè mìíràn. Ṣẹ́wọ́ sí ààmi <strong>púrófáílì<strong>, lẹ́yìn náà ni <strong>settings</strong> kí o wá ṣàfikún èyíkéyì èdè tí ò ń sọ. Ní ìsàlẹ̀ lápá ọ̀tún ni àkókọpọ̀ àwọn ìtumọ̀ tí a pẹ̀ ní <strong>Locals</strong>. àwọn Ìtumọ̀ yóò farahàn lójú òpó náà lẹ́yìn ọjọ́ kan.
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Báwo ni mo ṣe lè ṣàfikún gbólóhùn?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ni irinṣẹ́ fún gbígbà àti ìfọwọ́sí àwọn gbólóhùn ní ìgbọnu gbogbogbò. O máa <scAccountLink> nílò láti forúkọsílẹ̀</scAccountLink>. Lẹ́yìn náà, ṣàfikún ède tìrẹ sí <strong>púrófáílì rẹ</strong>. O lè <strong>ṣàfikún</strong> gbólóhùn tàbí <strong>ṣàgbéyẹ́wò</strong> àwọn àfikún gbólóhùn tó ti kọjá.
 about-playbook-how-add-sentences-content-4 = Àwọn gbólóhùn tó ti di àfọwọ́sí yóò di gbígbé jáde lójórùú, yóò sì di wíwà lẹ́yìn àgbéjáde tó kàn.
 
 ## How to record quality
@@ -673,9 +675,12 @@ recorded-hours = Wákàtí àkálẹ̀ ohùn
 whats-inside = Kí ló wà nínú u àkójọpọ̀ dátà Common Voice
 dataset-description-hours = Àkọsílẹ̀ kọ̀ọ̀kan nínú àkójọpọ̀ dátà tó ní MP3 pàtàkì àti fáìlì ọ̀rọ̀ tó báa mu. Púpọ̀ nínú àwọn wákàtí <b> lápapọ̀</b> tí a ṣe àkálẹ̀ fún nínú àkójọpọ̀ dátà náà tún àwọn mẹtadátà tó jẹ mọ́ ìrísí èèyàn lápapọ̀ bíi ọjọ́-orí, ìmọ̀ akọ tàbí abo àti ẹ̀yà èdè tí ó ràn wá lọ́wọ́ fún ìṣedéédé ìkẹ́kọ̀ọ́ èdè àwọn ẹ̀rọ adóhùnmọ̀. Àkójọpọ̀ dátà lọ́wọ́lọ́wọ́ ní <b>{ $valid }</b> àwọn wákàtì tí a fọwọ́sí nínú <b>{ $languages }</b> àwọn èdè, ṣùgbọ́n à ń fikún ohùn àti èdè ní gbogbo ìgbà. Ẹ wo ojú-ìwé àwọn èdè</languagesLink> láti bèèrè èdè tàbí b̀ẹrẹ̀ sí ní dásí.
 want-dataset-update = Ṣé o fẹ́ àwọn àtẹ̀ránṣẹ́ itàlólobó nígbà tí a bá ṣe ìdásílẹ̀ ẹ̀yà tuntun fún àwọn àkójọpọ̀ dátà Common Voice? Ṣe ìforúkọsílẹ̀ sí lẹ́tà asọ̀rọ̀yìn wa.
+other-datasets = Àkójọpọ̀ dátà olóhùn yóókù
+your-feedback = Ṣé o ní èrò lóri bí a ṣe lè jẹ́ kí àkójọpọ̀ dátà Common Voice dárá si? Jé kí a mọ̀ lórí Discourse
 
 ## Download Modal
 
+download-back = Pada lọ sí àkójọpọ̀ àwọn dátà Common Voice
 
 ## Contact Modal
 
@@ -706,9 +711,11 @@ want-dataset-update = Ṣé o fẹ́ àwọn àtẹ̀ránṣẹ́ itàlól
 
 ## Profile Delete
 
+profile-form-delete = Pa púrófáìlì rẹ́
 
 ## Profile Download
 
+download-profile-title = Púrófáìlì
 
 ## Landing
 
