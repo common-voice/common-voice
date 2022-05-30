@@ -12,6 +12,8 @@ import './datasets.css';
 
 const SURVEY_KEY = 'showSurvey3';
 
+// console.log('data', data);
+
 export default () => {
   const [locale] = useLocale();
   const [surveyShown, setSurveyShown] = useState(false);
