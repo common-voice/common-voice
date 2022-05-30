@@ -530,6 +530,17 @@ about-partnership =
     
     Ons wil graag die volgende persone en organisasies bedank vir hul hulp met die projek:
 about-get-involved = Raak betrokke
+about-get-involved-text-2 =
+    Wil jy help om Common Voice nog beter te maak?
+    Puik! Kontak ons per e-pos of <discourseLink>Diskoers</discourseLink>
+    forums, meld probleme met die webwerf aan via <githubLink>GitHub</githubLink>, of sluit aan by die
+    <matrixLink>Matrix</matrixLink> gemeenskapskletsgroep.
+about-stay-in-touch = Hoe bly ek in kontak?
+about-stay-in-touch-button = Meld aan
+about-stay-in-touch-text-1 = <emailFragment>Sluit aan</emailFragment> by ons e-poslys om te leer hoe jy aan veldtogte, geleenthede en ontwerpskenmerke op Common Voice kan deelneem.
+about-stay-in-touch-text-2 = Jy kan ander betrokkenes in die Mozilla-taalgemeenskappe ontmoet deur by <discourseLink>Diskoers</discourseLink> aan te sluit vir aktuele gesprekke, of <matrixLink>Matrix</matrixLink> vir vinnige raad.
+about-nav-why-common-voice = Hoekom?
+about-nav-how-it-works = Hoe?
 
 ## Community Playbook Content
 ## What is a language
