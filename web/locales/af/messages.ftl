@@ -1223,18 +1223,73 @@ sc-howto-addsen-item-1 = Alle sinne wat jy indien moet beskikbaar wees op die <w
 sc-howto-addsen-item-2 = Getalle. Daar moet geen syfers in die bronteks wees nie, want dit kan probleme veroorsaak wanneer dit hardop gelees word. Die manier waarop 'n nommer gelees word, hang van konteks af en kan verwarring in die datastel veroorsaak. Byvoorbeeld, die getal "2409" kan akkuraat gelees word as beide "vier-en-twintig nul nege" en "tweeduisend vierhonderd en nege".
 sc-howto-addsen-item-3 = Afkortings en akronieme. Afkortings en akronieme soos "VSA" of "ICE" moet in die bronteks vermy word, want dit kan gelees word op 'n manier wat nie ooreenstem met die spelling daarvan nie. Daarbenewens kan daar verskeie akkurate lesings vir 'n enkele afkorting wees. Byvoorbeeld, die akroniem "ICE" kan as "I-C-E" of as 'n enkele woord uitgespreek word.
 sc-howto-addsen-item-4 = Leestekens. Spesiale simbole en leestekens moet slegs ingesluit word wanneer dit absoluut noodsaaklik is. Byvoorbeeld, 'n deelteken word ingesluit in Afrikaanse woorde soos "reën", omdat dit deelvorm van die spelling van die woord, maar dit is onwaarskynlik dat jy ooit 'n spesiale simbool soos "@" of "# sal gebruik. ”
+sc-howto-addsen-item-5 = Buitelandse briewe. Briewe moet geldig wees in die taal wat gepraat word. Byvoorbeeld, "ж" is 'n letter in die Russiese alfabet, maar word nooit in Afrikaans gebruik nie en moet dus nooit in enige Afrikaanse bronteks verskyn nie.
+sc-howto-addsen-item-6 = Tale kan hul <validationRulesLink>eie reëls vir evaluering</validationRulesLink> hê met bykomende vereistes. As daar geen spesifieke evaluasiereëls vir 'n taal is nie, gebruik ons die generiese Engelse reëls.
+sc-howto-addsen-post-1 = Ons verkies natuurlike/gespreksinne. Alhoewel fonetiese diversiteit en verskillende woorde in sinne belangrik is, probeer ons om die opneem van sinne soveel pret as moontlik te maak. Daarom sal dit wonderlik wees as jy kan probeer om jou sinne so natuurlik / boeiend moontlik te hou.
+sc-howto-cite-title = Hoe om aan te haal
+sc-howto-cite-pre-1 = Dit is belangrik dat jy verwys na waar jy die publieke lisensie gekry het om plagiaat te vermy en om voorsiening te maak vir toekomstige navrae oor <copyrightIssuesLink>kopieregkwessies</copyrightIssuesLink>. Hier is 'n paar maniere waarop jy kan verwys na hierdie inhoud.
+sc-howto-cite-item-1 = Jy kan die webtuiste insluit, bv. "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Jy kan akademiese verwysingstyle gebruik, bv. Harvard-styl "Mozilla (2021) Common Voice. Beskikbaar by https://commonvoice.mozilla.org/ (Besoek: 15 September 2021)"
+sc-howto-cite-item-3 = Vir oopbron teks wat nie aanlyn beskikbaar is nie, kan jy akademiese verwysingstyle gebruik, bv. Harvard-styl "Jess (2021) My Public lisensie-gedigte"
+sc-howto-review-title = Hersien sinne
+sc-howto-review-subtitle = Maak seker dat die sin aan die volgende kriteria voldoen:
+sc-howto-review-criteria-1 = Die sin moet reg gespel word.
+sc-howto-review-criteria-2 = Die sin moet grammatikaal korrek wees.
+sc-howto-review-criteria-3 = Die sin moet uitspreekbaar wees.
+sc-howto-review-criteria-4 = As die sin aan die kriteria voldoen, klik die "Aanvaar"-knoppie.
+sc-howto-review-criteria-5 = As die sin nie aan die bogenoemde kriteria voldoen nie, klik die "Verwerp"-knoppie. As jy onseker is oor die sin, kan jy dit ook oorslaan en aanbeweeg na die volgende een.
+sc-howto-review-criteria-6 = As daar nie meer sinne is om te hersien nie, help ons asseblief om meer sinne in te samel!
+sc-howto-findpd-title = Vind bestaande sinne in die Publieke Domein
+sc-howto-findpd-subtitle = Soek sinne op die internet
+sc-howto-findpd-text-2 = Onthou dat ons toestemming nodig het om daardie sinne te publiseer, so maak altyd seker dat die teks aan die <wikipediaLink>publieke domein</wikipediaLink> behoort. As daar geen eksplisiete aanduiding is nie, reik uit na die persoon aan wie die teks behoort en vra of hulle hul teks tot die Publieke Domein wil bydra. As hulle wil, help hulle om deur die <cc0WaiverLink>Bydrae-ooreenkoms</cc0WaiverLink>proses te gaan. As hulle nie die teks wil bydra nie, dan mag jy nie daardie teks gebruik nie.
+sc-howto-findpd-tips = Hier is 'n paar wenke om sinne te vind:
+sc-howto-findpd-tips-1 = Die beste bronne waarna jy kan soek, is podsendings, transkripsies, rolprentskrifte en enigiets wat potensieel alledaagse gesprekke kan bevat.
+sc-howto-findpd-tips-2 = Regeringsverrigtinge, boeke en artikels is ook wonderlik, maar aangesien die teks geneig is om 'n bietjie meer formeel te wees, is hulle minder van 'n prioriteit.
+sc-howto-findpd-tips-3 = Ongelukkig kan ons nog nie Wikimedia-artikels gebruik nie. Moet dus nie sinne uit Wikipedia kopieer nie.
+sc-howto-findpd-subtitle-2 = Werk saam met plaaslike organisasies of individue
+sc-howto-findpd-partner-1 = Daar is baie openbare organisasies wat dalk wil saamwerk en reeds baie tekste het wat hulle as publieke domein kan skenk. Reik uit na plaaslike universiteite, regerings en oopbronorganisasies om oor die projek te praat en vra vir hul hulp.
+sc-howto-findpd-partner-2 = Kundige taalkundiges kan ook help, probeer om uit te reik na plaaslike universiteite (beide taalkunde lektore en studente) en kyk of hulle kan help om 'n diverse stel sinne in jou taal te versamel.
 
 ## MY SENTENCES
 
+sc-my-title = My Sinne
+sc-my-description = Hierdie bladsy gee jou 'n oorsig van al jou sinne wat ingedien is. Jy kan ook reeds ingediende sinne uitvee indien nodig, deur op die merkblokkie langsaan te klik en &quot;Verwyder geselekteerde sinne&quot; te kies. Verwyder asseblief slegs sinne as dit absoluut noodsaaklik is, byvoorbeeld as jy agterna opgemerk het dat 'n sin onderhewig is aan kopiereg.
+sc-my-loading = Laai tans jou sinne …
+sc-my-err-fetching = 'n Fout het voorgekom en ons kan nie jou sinne gaan haal nie. Probeer asseblief weer.
+sc-my-no-sentences = Geen sinne gevind nie!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Dien in:
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Bron:
+sc-my-delete = Skrap geselekteerde sinne
+sc-my-deleting = Vee tans geselekteerde sinne uit …
+sc-my-err-failed-delete = Kon nie geselekteerde sinne uitvee nie... Probeer asseblief weer!
 
 ## REJECTED
 
+sc-rejected-title = Verwerpte Sinne
+sc-rejected-loading = Laai tans verwerpte sinne …
+sc-rejected-err-fetching = 'n Fout het voorgekom en ons kan nie jou verwerpte sinne gaan haal nie. Probeer asseblief weer.
+sc-rejected-none-found = Geen verwerpte sinne gevind nie!
 
 ## STATS
 
+sc-stats-title = Statistiek
+sc-stats-updating = Dateer tans op …
+sc-stats-error = Ons kon nie die statistiek vind nie. Probeer asseblief later weer.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Die Common Voice Sinversamelaar het { $sentenceCount } sinne in { $languageCount } tale versamel!
 
 ## ADD
 
+sc-submit-err-select-lang = Kies asseblief 'n taal.
+sc-submit-err-add-sentences = Voeg asseblief sinne by.
+sc-submit-err-add-source = Voeg asseblief 'n bron by.
+sc-submit-err-confirm-pd = Bevestig asseblief dat hierdie sinne in die publieke domein is.
 
 ## ADD LANGUAGE
 
