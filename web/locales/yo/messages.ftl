@@ -713,6 +713,7 @@ resource-playbook-info = <playbookLink>Wá àwọn ìtọ́sọ́nà</playbo
 data-other-ted-name = Kọ́pọ́ọ̀sì TED-LIUM
 data-other-ted-description = Kọ́pọ́ọ̀sì TED-LIUM jẹ́ ṣíṣẹ̀dá láti ara ìṣọ àti àwọn ìdàkọ wọn tó wà lórí i ìkànni TED.
 data-other-voxforge-description = VoxForge Jean ṣíṣẹ̀dá láti gba ìṣọ tí a ti ṣe ìdàkọ rẹ̀ tí a lè lò pẹ̀lú ẹ́ńgíìnì ìmẹ̀ẹ̀rọ ìdámọ̀ohùn lọ́fẹ̀ẹ́ tó sì wà lárọ̀ọ́wọ́tó gbogbo ènìyàn.
+data-other-tatoeba-description = Tatoeba jẹ́ àkójọpọ̀ dátà tó kún fún ọ̀pọ gbólóhùn, aáyan ògbufọ̀, àti fọ́nrán ìsọ fún ìlo ìkọ́nilédè. Ìgbàálẹ̀ yí ní ìṣọ Gẹ̀ẹ́sì tí awọn ọmọ ẹgbẹ́ wọ́n ká sí fọ́nrán.
 your-feedback = Ṣé o ní èrò lóri bí a ṣe lè jẹ́ kí àkójọpọ̀ dátà Common Voice dárá si? Jé kí a mọ̀ lórí Discourse
 go-discourse = Lọ sí Discourse
 missing-language = Ṣé o ò rí àfihàn èdè ẹ nínú àkójọpọ̀ dátà náà? Láti bèèrè fún àfihàn èdè wá sí ojú-ìwé àwọn èdè wa.
@@ -747,9 +748,16 @@ contact-required = *ó nílò
 request-language-title = Ìbéèrè fún èdè
 request-language-form-language =
     .label = Èdè
+request-language-success-title = Ìbéèrè èdè ti di fífi sílẹ̀, o ṣé.
+request-language-success-content = A ma kàn sí ẹ pẹ̀lú ọ̀pọ̀ àlàyé nípa bí o ṣe lè fi èdè rẹ sí Common Voice láìpẹ́.
+select-language = Mú èdè kạn...
+other-language = Àwọn èdè mìíràn
 
 ## Request Language Pages
 
+request-language-heading = Béèrè fún èdè tuntun
+request-language-form-email =
+    .label = Ímeèlì rẹ
 
 ## Languages Overview
 
