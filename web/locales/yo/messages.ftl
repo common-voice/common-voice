@@ -778,9 +778,11 @@ request-language-success-list-3 =
     Bí o kò bá gbúròó wa lẹ́yìn ọjọ́ díẹ̀,
     kàn sí wa ni <emailLink>{ $email }</emailLink>
     àwa náà yóó sì kàn sí ọ padà!
+request-language-error = A lè má tíì rí ìbéèrè náà gbà. Jọ̀wọ́ fi íméèlì ránṣẹ́ sí wa tààrà ní <emailLink>{ $email }</emailLink> a ó sì kàn sí ọ!
 
 ## Languages Overview
 
+language-section-in-progress = ó ń ṣiṣẹ́ lọ́wọ́
 
 ## Contribution
 
