@@ -772,6 +772,7 @@ request-language-google-recaptcha-error = Nǹkan kan ń dàmú reCAPTCHA. J�
 # Success page
 request-language-success-heading = O ṣe é o! O ti fi ìbéèrè nípa èdè tuntu sọwọ́
 request-language-success-list-1 = Ó yẹ kí o rí ímeèlì kan gbà láìpẹ́ tí ó ń ṣàlàyé ìgbésẹ̀ láti fi èdè rẹ kún Common Voice
+request-language-success-list-2 = Asàkóso àwùjọ wa yóó kàn sí ọ láti ṣe àfikún ìrànwọ́, àti láti jẹ́ bí o mọ̀ bóyá àwọn kan ti wà tí wọ́n ti ń síṣẹ́ lórí èdè rẹ
 
 ## Languages Overview
 
