@@ -1290,6 +1290,17 @@ sc-submit-err-select-lang = Kies asseblief 'n taal.
 sc-submit-err-add-sentences = Voeg asseblief sinne by.
 sc-submit-err-add-source = Voeg asseblief 'n bron by.
 sc-submit-err-confirm-pd = Bevestig asseblief dat hierdie sinne in die publieke domein is.
+sc-submit-prompt =
+    .message = Sinne nie ingedien nie, is jy seker jy wil uitgaan?
+sc-submit-title = Voeg sinne by
+sc-submit-select-language =
+    .labelText = Kies taal
+sc-submit-add-sentences = Voeg <wikipediaLink>openbare domein</wikipediaLink> sinne by
+sc-submit-ph-one-per-line =
+    .placeholder = Een sin per reël
+sc-submit-from-where = Waar kom hierdie <wikipediaLink>openbare domein</wikipediaLink> sinne vandaan?
+sc-submit-ph-read-how-to =
+    .placeholder = Lees on Instruksies as jy onseker oor hoe om by te dra
 
 ## ADD LANGUAGE
 
