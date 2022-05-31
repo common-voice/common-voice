@@ -1301,12 +1301,42 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = Waar kom hierdie <wikipediaLink>openbare domein</wikipediaLink> sinne vandaan?
 sc-submit-ph-read-how-to =
     .placeholder = Lees on Instruksies as jy onseker oor hoe om by te dra
+sc-submit-confirm = Ek bevestig dat hierdie sinne in die <wikipediaLink>publieke domein</wikipediaLink> is en ek het toestemming om dit op te laai.
+sc-submit-button =
+    .submitText = Dien in
+sc-submit-filtered = Foutiewe sinne wat nie aan die vereistes voldoen nie (dien asseblief die korrekte weergawes as nuwe sinne in):
+sc-submit-guidelines = Gaan asseblief die <howToLink>riglyne</howToLink> na.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Kon nie die taal byvoeg nie
+sc-add-lang-sec-label = Voeg 'n taal by waartoe jy wil bydra
+sc-add-lang-sec-button = Voeg Taal By
+sc-add-err-unexpected = Onverwagse respons vanaf die bediener ontvang
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] sinne
+        [one] sin
+       *[other] sinne
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Geen sinne het misluk
+        [one] Een sin het misluk
+       *[other] { $sentences } sinne het misluk
+    }
+sc-add-err-submission = Indieningsfout
+sc-add-lang-process-notice = As jou taal nie hier gelys word nie, kan jy deur middel van <languageProcessLink>hierdie proses</languageProcessLink> 'n versoek indien.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Sinne nie ingedien nie, is jy seker jy wil uitgaan?
+sc-confirm-sentences-title = Bevestig nuwe sinne
 
 ## LANGUAGE INFO
 
