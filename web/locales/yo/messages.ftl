@@ -769,6 +769,9 @@ request-language-form-info-explanation-list-1 = Orúkọ èdè rẹ
 request-language-form-info-explanation-list-2 = <isoCodeLink>kóòdu ISO</isoCodeLink> to bá mọ̀ ọ́
 request-language-google-recaptcha-required = O nílò reCAPTCHA to bá fẹ́ tẹ̀síwájú
 request-language-google-recaptcha-error = Nǹkan kan ń dàmú reCAPTCHA. Jọ̀wọ́, gbìyànjú nígbà mìíràn.
+# Success page
+request-language-success-heading = O ṣe é o! O ti fi ìbéèrè nípa èdè tuntu sọwọ́
+request-language-success-list-1 = Ó yẹ kí o rí ímeèlì kan gbà láìpẹ́ tí ó ń ṣàlàyé ìgbésẹ̀ láti fi èdè rẹ kún Common Voice
 
 ## Languages Overview
 
