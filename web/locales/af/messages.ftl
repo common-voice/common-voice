@@ -1133,6 +1133,24 @@ contribution-misreadings-description-extended-list-2 = 'n <strong>'s'</strong> o
 contribution-misreadings-description-extended-list-3 = Lees sametrekkings wat nie eintlik daar is nie, soos "Ons's" in plaas van "Ons is", of andersom.
 contribution-misreadings-description-extended-list-4 = Mis die einde van die laaste woord deur die opname te vinnig af te sny.
 contribution-misreadings-description-extended-list-5 = Maak verskeie pogings om 'n woord te lees.
+contribution-misreadings-example-1-title = Die reuse dinosourusse van die Trias.
+contribution-misreadings-example-2-title = Die reuse dinosourus van die Trias.
+contribution-misreadings-example-2-explanation = [Moet 'dinosourusse' wees]
+contribution-misreadings-example-3-title = Die reuse dinosourusse van die Tria-.
+contribution-misreadings-example-3-explanation = [Opname is afgesny voor die einde van die laaste woord]
+contribution-misreadings-example-4-title = Die reuse dinosourusse van die Trias. Ja.
+contribution-misreadings-example-4-explanation = [Meer as die vereiste teks is opgeneem]
+contribution-misreadings-example-5-title = Ons gaan uit om koffie te kry.
+contribution-misreadings-example-6-title = Ons gaan't om koffie te kry.
+contribution-misreadings-example-6-explanation = [Moet wees "Gaan uit"]
+contribution-misreadings-example-7-title = Ons gaan uit om 'n koffie te kry.
+contribution-misreadings-example-7-explanation = [Geen ''n' in die oorspronklike teks nie]
+contribution-misreadings-example-8-title = Die hommelby het verbygeswiep.
+contribution-misreadings-example-8-explanation = [Onooreenstemmende inhoud]
+contribution-varying-pronunciations-title = Verskillende uitsprake
+contribution-varying-pronunciations-description = Wees versigtig voor jy 'n snit verwerp op grond daarvan dat die leser 'n woord verkeerd uitgespreek het, die klem op die verkeerde plek geplaas het, of blykbaar 'n vraagteken geïgnoreer het. Daar is 'n wye verskeidenheid uitsprake wat regoor die wêreld gebruik word, waarvan jy dalk nog nie in jou plaaslike gemeenskap gehoor het nie. Toon asseblief die nodige waardering vir diegene wat dalk anders as jy praat.
+contribution-varying-pronunciations-description-extended = Aan die ander kant, as jy dink dat die leser waarskynlik nog nooit die woord teëgekom het nie, en bloot 'n verkeerde raaiskoot oor die uitspraak maak, verwerp die opname asseblief. As jy onseker is, gaan eerder na die volgende opname.
+contribution-varying-pronunciations-example-1-title = Op sy kop het hy 'n beret gedra.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
