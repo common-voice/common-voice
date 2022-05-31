@@ -767,6 +767,7 @@ request-language-form-info =
 request-language-form-info-explanation = Fi ìròyìn tó tó nípa èdè naar si. Èyí lè jẹ́:
 request-language-form-info-explanation-list-1 = Orúkọ èdè rẹ
 request-language-form-info-explanation-list-2 = <isoCodeLink>kóòdu ISO</isoCodeLink> to bá mọ̀ ọ́
+request-language-form-info-explanation-list-3 = Ìtọ́kasí sí ìkànnì tí ó lè ràn wá lọ́wọ́ nípa ìlóye èdè
 request-language-google-recaptcha-required = O nílò reCAPTCHA to bá fẹ́ tẹ̀síwájú
 request-language-google-recaptcha-error = Nǹkan kan ń dàmú reCAPTCHA. Jọ̀wọ́, gbìyànjú nígbà mìíràn.
 # Success page
