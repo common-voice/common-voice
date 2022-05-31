@@ -891,18 +891,92 @@ keep-track-profile = Bly op hoogte van jou vordering met 'n profiel
 login-to-get-started = Meld aan of teken in om te begin
 target-segment-first-card = Jy dra by tot ons eerste teikensegment
 target-segment-generic-card = Jy dra by tot 'n teikensegment
+target-segment-first-banner = Help om Common Voice se eerste teikensegment in { $locale } te skep
+target-segment-add-voice = Voeg jou stem by
+target-segment-learn-more = Vind meer uit
 
 ## Reporting
 
+report = Rapporteer
+report-title = Dien 'n verslag in
+report-ask = Watter probleme ervaar jy met hierdie sin?
+report-offensive-language = Aanstootlike taalgebruik
+report-offensive-language-detail = Die sin bevat minagtende of aanstootlike taalgebruik.
+report-grammar-or-spelling = Taal- / spelfout
+report-grammar-or-spelling-detail = Die sin het 'n grammatik- of spelfout.
+report-different-language = Ander taal
+report-different-language-detail = Dit is in 'n ander taal geskryf as wat ek praat.
+report-difficult-pronounce = Moeilik om uit te spreek
+report-difficult-pronounce-detail = Dit bevat woorde of frases wat moeilik is om te lees of uit te spreek.
+report-offensive-speech = Aanstootlike taal
+report-offensive-speech-detail = Die sin bevat minagtende of aanstootlike taalgebruik.
+report-other-comment =
+    .placeholder = Lewer kommentaar
+success = Sukses
+continue = Gaan voort
+report-success = Verslag suksesvol ingedien
 
 ## Goals
 
+streaks = Strepe
+days =
+    { $count ->
+        [one] Dag
+       *[other] Dae
+    }
+recordings =
+    { $count ->
+        [one] Opname
+       *[other] Opnames
+    }
+validations =
+    { $count ->
+        [one] Bevestiging
+       *[other] Bevestigings
+    }
 
 ## Dashboard
 
+your-languages = Jou Tale
+toward-next-goal = Na die volgende doelwit
+goal-reached = Doelwit bereik
+clips-you-recorded = Snitte Deur Jou Opgeneem
+clips-you-validated = Snitte Deur Jou Bevestig
+todays-recorded-progress = Vandag se Common Voice vordering op snitte opgeneem
+todays-validated-progress = Vandag se Common Voice vordering op snitte bevestig
+stats = Statistiek
+awards = Toekennings
+you = Jy
+everyone = Almal
+contribution-activity = Bydrae-aktiwiteit
+top-contributors = Top-bydraers
+recorded-clips = Opgeneemde Snitte
+validated-clips = Bevestigde Snitte
+total-approved = Totaal Goedgekeur
+overall-accuracy = Algehele Akkuraatheid
+set-visibility = Stel my sigbaarheid
+visibility-explainer = Hierdie instelling beheer jou sigbaarheid op die ranglys. Wanneer dit versteek is, sal jou vordering privaat wees. Dit beteken jou profielfoto, gebruikersnaam en vordering sal nie op die ranglys verskyn nie. Let daarop dat die herlaai van die puntelys ~{ $minute }min neem om veranderinge aan te toon.
+visibility-overlay-note = Let wel: Wanneer dit op 'Sigbaar' gestel is, kan hierdie instelling verander word op die <profileLink>Profielbladsy</profileLink>
+show-ranking = Wys my posisie
 
 ## Custom Goals
 
+get-started-goals = Begin met doelwitte
+create-custom-goal = Skep 'n pasgemaakte doelwit
+goal-type = Watter soort doelwit wil jy bou?
+both-speak-and-listen = Beide
+both-speak-and-listen-long = Beide (Praat en Luister)
+daily-goal = Daaglikse Doelwit
+weekly-goal = Weeklikse Doelwit
+easy-difficulty = Maklik
+average-difficulty = Gemiddeld
+difficult-difficulty = Moeilik
+pro-difficulty = Kundig
+lose-goal-progress-warning = Deur jou doelwit te wysig, kan jy jou bestaande vordering verloor.
+want-to-continue = Wil jy voortgaan?
+finish-editing = Voltooi eers die redigering?
+lose-changes-warning = As jy nou uitgaan, sal jy jou vordering verloor
+build-custom-goal = Bou 'n pasgemaakte doelwit
 
 ## Profile Delete
 
