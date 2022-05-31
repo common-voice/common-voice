@@ -736,24 +736,139 @@ data-other-voxforge-description = VoxForge is ontwikkel om getranskribeerde spra
 data-other-tatoeba-description = Tatoeba is 'n groot databasis van sinne, vertalings en gesproke klankopnames vir gebruik in taalleerkontekste. Hierdie datastel bevat gesproke Engels wat deur hul gemeenskap opgeneem is.
 your-feedback = Het jy idees oor hoe ons die Common Voice-datastel kan verbeter? Laat ons weet op Discourse
 go-discourse = Gaan na Discourse
+missing-language = Verskyn jou taal nie in die Datastel nie? Om 'n taal te versoek, gaan na ons Tale-bladsy.
+go-languages-page = Gaan na Tale-bladsy
+ready-to-validate = Gereed om te help met die bevestiging van sinne?
+more = Meer
+close = Sluit
+download = Laai Af
+dataset-version = Weergawe
 
 ## Download Modal
 
+download-title = Jou aflaai het begin.
+download-helpus = Help ons om 'n gemeenskap rondom stemtegnologie te bou, bly in kontak per e-pos.
+download-form-email =
+    .label = Gee jou e-pos
+    .value = Dankie, ons sal jou kontak.
+download-back = Keer Terug na Common Voice Datastelle
+download-no = Nee, Dankie
 
 ## Contact Modal
 
+contact-title = Kontakvorm
+contact-form-name =
+    .label = Naam
+contact-form-message =
+    .label = Boodskap
+contact-required = *vereis
 
 ## Request Language Modal
 
+request-language-title = Taalversoek
+request-language-form-language =
+    .label = Taal
+request-language-success-title = Taalversoek suksesvol ingedien, dankie.
+request-language-success-content = Ons sal binnekort in kontak tree met meer inligting oor hoe om jou taal by Common Voice te voeg.
+select-language = Kies 'n Taal ...
+other-language = Ander taal
 
 ## Request Language Pages
 
+request-language-heading = Vra oor 'n nuwe taal
+request-language-explanation-1 =
+    Kyk of jou taal op die
+    <languagesPageLink>Common Voice Tale-bladsy</languagesPageLink> verskyn.
+    Indien nie, vul hierdie vorm in en ons <strong>stuur vir jou 'n handige e-pos om te
+    verduidelik hoe om jou taal in te sluit</strong>.
+request-language-explanation-2 =
+    Ons sal ook <strong>ons gemeenskapsbestuurder laat weet
+    dat jy belangstel</strong>, sodat hulle vir jou enige ekstra ondersteuning of inligting wat jy dalk nodig het, kan gee.
+request-language-form-email =
+    .label = Jou e-posadres
+request-language-form-info =
+    .label = Inligting oor die taal
+request-language-form-info-explanation =
+    Voeg soveel inligting as wat jy kan oor die taal by. Hierdie
+    inligting kan insluit:
+request-language-form-info-explanation-list-1 = Name van jou taal
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-kodes</isoCodeLink>, indien bekend
+request-language-form-info-explanation-list-3 = Skakels na webtuistes wat ons kan help om die taal te verstaan
+request-language-google-recaptcha-required = reCAPTCHA word vereis as jy wil voortgaan
+request-language-google-recaptcha-error = Iets het verkeerd geloop met reCAPTCHA. Probeer asseblief weer.
+# Success page
+request-language-success-heading = Dankie! Jy het 'n nuwe taalnavraag gestuur
+request-language-success-list-1 = Jy behoort binnekort 'n e-pos te ontvang wat die stappe om jou taal by Common Voice te voeg, verduidelik
+request-language-success-list-2 =
+    Ons gemeenskapsbestuurder sal na jou uitreik om
+    ekstra ondersteuning aan te bied, en om jou te laat weet of daar
+    reeds 'n gemeenskap is wat aan jou taal werk
+request-language-success-list-3 =
+    As jy nie binne 'n paar dae van ons hoor nie,
+    kontak ons by <emailLink>{ $email }</emailLink>
+    en ons sal na jou toe terugkom!
+request-language-error =
+    Ons het dalk nie daardie versoek ontvang nie. E-pos ons asseblief direk
+    op <emailLink>{ $email }</emailLink> en ons sal na jou terugkom!
 
 ## Languages Overview
 
+language-section-in-progress = Aan Die Gang
+language-section-in-progress-new-description = Hierdie tale is tans onder gemeenskapsontwikkeling. Die vorderingsbalk dui aan hoe ver elke taal in die <localizationGlossaryLink> webwerflokaliseringsproses </localizationGlossaryLink> en <sentenceCollectionGlossaryLink> sinversamelingsproses </sentenceCollectionGlossaryLink> is.
+language-section-launched = Bekendgestel
+language-section-launched-description = Vir hierdie bekendgestelde tale is die webwerf suksesvol <localizationGlossaryLink> gelokaliseer </localizationGlossaryLink> en is genoeg <sentenceCollectionGlossaryLink> sinne versamel </sentenceCollectionGlossaryLink> om voort te gaan met <speakLink> Praat </speakLink> en <listenLink> Luister </listenLink > bydraes.
+languages-show-more = Sien Meer
+languages-show-less = Sien Minder
+language-meter-in-progress = Vordering
+language-total-progress = Totaal
+language-search-input =
+    .placeholder = Soek
+language-speakers = Sprekers
+localized = Gelokaliseerd
+sentences = Sinne
+total-hours = Bevestigde Ure
 
 ## Contribution
 
+action-click = Klik
+action-tap = Tik
+contribute = Dra By
+listen = Luister
+skip = Slaan Oor
+shortcuts = Kortpaaie
+clips-with-count-pluralized =
+    { $count ->
+        [one] snit
+       *[other] snitte
+    }
+goal-help-recording = Jy het Common Voice gehelp om <goalPercentage></goalPercentage> van ons daaglikse { $goalValue } doelwit vir opnames te bereik!
+goal-help-validation = Jy het Common Voice gehelp om <goalPercentage></goalPercentage> van ons daaglikse { $goalValue } bevestigingsdoelwit te bereik!
+contribute-more =
+    { $count ->
+       *[other] Gereed om { $count } meer te doen?
+    }
+record-cta = Begin opname
+record-platform-not-supported = Ons is jammer, maar jou platform word nie tans ondersteun nie.
+record-platform-not-supported-desktop = Jy kan bydrae vanaf 'n rekenaar deur die volgende af te laai:
+record-platform-not-supported-ios-non-safari = Op iOS gaan asseblief voort met Safari om opnames moontlik te maak...
+record-must-allow-microphone = Jy moet die mikrofoon toegang gee.
+record-no-mic-found = Geen mikrofoon gevind nie.
+record-error-too-short = Die opname was te kort.
+record-error-too-long = Die opname was te lank.
+record-error-too-quiet = Die opname was te stil.
+record-cancel = Kanselleer Heropname
+record-instruction = { $actionType }<recordIcon></recordIcon> en lees dan die sin hardop
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> wanneer jy klaar is
+record-three-more-instruction = Drie om te gaan!
+record-again-instruction = Baie goed! <recordIcon> </recordIcon> Neem jou volgende snit op
+record-again-instruction2 = Hou so aan, Neem weer op <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Laaste een!
+review-tooltip = Hersien en neem snitte weer op soos jy gaan, hiér
+share-clip = Deel jou snit
+share-common-voice = Deel Common Voice
+review-instruction = Hersien en neem snitte weer op indien nodig
+record-submit-tooltip = { $actionType } dien in wanneer gereed
+clips-uploaded = Snitte Opgelaai
 
 ## Reporting
 
