@@ -1151,6 +1151,24 @@ contribution-varying-pronunciations-title = Verskillende uitsprake
 contribution-varying-pronunciations-description = Wees versigtig voor jy 'n snit verwerp op grond daarvan dat die leser 'n woord verkeerd uitgespreek het, die klem op die verkeerde plek geplaas het, of blykbaar 'n vraagteken geïgnoreer het. Daar is 'n wye verskeidenheid uitsprake wat regoor die wêreld gebruik word, waarvan jy dalk nog nie in jou plaaslike gemeenskap gehoor het nie. Toon asseblief die nodige waardering vir diegene wat dalk anders as jy praat.
 contribution-varying-pronunciations-description-extended = Aan die ander kant, as jy dink dat die leser waarskynlik nog nooit die woord teëgekom het nie, en bloot 'n verkeerde raaiskoot oor die uitspraak maak, verwerp die opname asseblief. As jy onseker is, gaan eerder na die volgende opname.
 contribution-varying-pronunciations-example-1-title = Op sy kop het hy 'n beret gedra.
+contribution-varying-pronunciations-example-1-explanation = ['Beret' is OK, hetsy met die klem op die eerste lettergreep (VK) of die tweede (VS)]
+contribution-varying-pronunciations-example-2-title = Hy vat sy kussing te-rug.
+contribution-varying-pronunciations-example-2-explanation = ['Terug' in Afrikaans word altyd uitgespreek as twee lettergrepe, nie drie nie]
+contribution-background-noise-title = Agtergrondgeraas
+contribution-background-noise-description = Ons wil hê dat die masjienleeralgoritmes 'n verskeidenheid agtergrondgeraas moet kan hanteer, en selfs relatief harde geluide moet kan aanvaar, mits dit jou nie verhoed om die hele teks te hoor nie. Stil agtergrondmusiek is OK; musiek wat hard genoeg is om te verhoed dat jy elke woord van die opname hoor, is nie.
+contribution-background-noise-description-extended = As die opname breek of kraak, verwerp dit tensy die hele teks nog gehoor kan word.
+contribution-background-noise-example-1-fixed-title = <strong>[Nies]</strong> Die reuse dinosourusse van die <strong>[hoes]</strong> Trias.
+contribution-background-noise-example-2-fixed-title = Die reuse dino <strong>[hoes]</strong> die Trias.
+contribution-background-noise-example-2-explanation = [Deel van die teks kan nie gehoor word nie]
+contribution-background-noise-example-3-fixed-title = <strong>[Kraak]</strong> reuse dinosourusse van <strong>[kraak]</strong> -ias.
+contribution-background-voices-title = Stemme in die agtergrond
+contribution-background-voices-description = ’n Rustige onderlangse gemompel in die agtergrond is OK, maar ons wil nie bykomende stemme hê wat kan veroorsaak dat ’n masjienalgoritme woorde identifiseer wat nie in die geskrewe teks is nie. As jy verskillende woorde buiten dié van die teks kan hoor, moet die snit verwerp word. Tipies gebeur dit waar die TV aan is in die agtergrond, of waar daar 'n gesprek naby aan die gang is.
+contribution-background-voices-description-extended = As die opname breek of kraak, verwerp dit tensy die hele teks nog gehoor kan word.
+contribution-background-voices-example-1-title = Die reuse dinosourusse van die Trias. <strong>[deur een stem gelees]</strong>
+contribution-background-voices-example-1-explanation = Kom jy? <strong>[deur 'n ander geskree]</strong>
+contribution-volume-title = Volume
+contribution-volume-description = Daar sal natuurlike variasies in volume tussen lesers wees. Verwerp slegs die opname as die volume so hoog is dat die opname breek, of (meer algemeen) as dit so laag is dat jy nie kan hoor wat gesê word sonder verwysing na die geskrewe teks nie.
+contribution-reader-effects-title = Leser-effekte
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
