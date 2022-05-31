@@ -1337,21 +1337,124 @@ sc-add-lang-process-notice = As jou taal nie hier gelys word nie, kan jy deur mi
 sc-confirm-are-you-sure =
     .message = Sinne nie ingedien nie, is jy seker jy wil uitgaan?
 sc-confirm-sentences-title = Bevestig nuwe sinne
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Geen sinne gevind
+        [one] Een sin gevind
+       *[other] { $countOfSentences } sinne gevind
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } deur jou verwerp
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Geen sinne is hersien nie.
+        [one] Een sin is hersien. Welgedaan!
+       *[other] { $countOfReviewed }sinne is hersien. Welgedaan!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Geen sinne is gereed vir indiening nie!
+        [one] Een sin is gereed vir indiening!
+       *[other] { $readyCount } sinne is gereed vir indiening!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } sinne word is nog nie hersien nie. As jy wil, kan jy ook jou sinne nou hersien voordat jy dit indien.
+sc-confirm-button-text = Bevestig
+sc-confirm-uploading = Sinne word opgelaai. Dit kan 'n paar minute neem, afhangende van die aantal sinne wat bygevoeg word. Moet asseblief nie hierdie webtuiste toemaak nie.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Totaal
+sc-lang-info-title-personal = Persoonlik
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Geen totale sinne.
+        [one] Een sin in totaal.
+       *[other] { $totalSentences } sinne in totaal.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Geen sinne word hersien nie.
+        [one] Een sin word hersien.
+       *[other] { $totalInReview } sinne word hersien.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Daar is geen sinne om te hersien nie.
+        [one] Daar is een sin om te hersien nie.
+       *[other] Daar is { $unreviewedSentencesByYou } sinne om te hersien nie.
+    }
+sc-lang-info-review-now = <reviewLink>Hersien nou!</reviewLink>
+sc-lang-info-add-more = <addLink>Voeg nou meer sinne by!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Geen bevestigde sinne.
+        [one] 1 bevestigde sin.
+       *[other] { $validatedSentences } bevestigde sinne.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Geen verwerpte sinne.
+        [one] 1 verwerpte sin.
+       *[other] { $rejectedSentences } verwerpte sinne.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Kon nie aanmeld nie
+sc-login-err-try-again = Probeer asseblief weer.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profiel: { $username }
+sc-personal-err-lang-not-found = Kon nie taal verwyder nie: taal nie gevind nie
+sc-personal-err-remove = Kon nie taal verwyder nie
+sc-personal-your-languages = Jou tale:
+sc-personal-remove-button = verwyder
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } bygevoeg deur jou
+sc-personal-not-added = Jy het nog geen tale bygevoeg nie.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Hersieningskriteria
+sc-criteria-title = Hersieningskriteria
+sc-criteria-make-sure = Maak seker dat die sin aan die volgende kriteria voldoen:
+sc-criteria-item-1 = Die sin moet reg gespel word.
+sc-criteria-item-2 = Die sin moet grammatikaal korrek wees.
+sc-criteria-item-3 = Die sin moet uitspreekbaar wees.
+sc-criteria-item-4 = As die sin aan die kriteria voldoen, klik die "Aanvaar"-knoppie.
+sc-criteria-item-5-2 = As die sin nie aan die bogenoemde kriteria voldoen nie, klik die "Verwerp"-knoppie. As jy onseker is oor die sin, kan jy dit ook oorslaan en aanbeweeg na die volgende een.
+sc-criteria-item-6 = As daar nie meer sinne is om te hersien nie, help ons asseblief om meer sinne in te samel!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Jy het geen tale gekies nie. Gaan asseblief na jou <profileLink>Profiel</profileLink> om tale te kies.
+sc-review-title = Hersien sinne
+sc-review-loading = Laai tans jou sinne …
+sc-review-select-language = Kies asseblief 'n taal om sinne te hersien.
+sc-review-no-sentences = Geen sinne om te hersien nie. <addLink>Voeg nou meer sinne by!</addLink>
+sc-review-form-prompt =
+    .message = Hersiene sinne wat nie ingedien is nie, is jy seker?
 
 ## SETTINGS
 
