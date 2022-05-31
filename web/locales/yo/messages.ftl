@@ -579,12 +579,18 @@ about-playbook-how-record-content-5 = <accuracyLink>Wo àfikún lórí ìla
 about-playbook-how-grow-language = Báwo ni a ṣe lè ṣe ìdàgbàsókè èdè tó múnádóko lórí Common voice?
 about-playbook-how-grow-language-content-1 = Pípèse ànfàní fún àìdọ́gba ènìyàn láti dásí Common voice ṣàrídájú pé àkójọpọ̀ détà náà ṣiṣẹ́ fún ọ̀pọ̀lọpọ̀ ènìyàn tó bá ṣeéṣe. A ti pèsè àwọn ohun-èlò àti àwòṣe tí  o lè wò!
 about-playbook-how-grow-language-content-2 = Àwọn ìṣẹ̀lẹ̀
+about-playbook-how-grow-language-content-4 = Ìkànì ìbánidọ́rẹ̀
 about-playbook-how-grow-language-content-5 = O lè lo ìkànì ìbánidọ́rẹ̀ láti gbé èròngbà náà síta. Pín àwọn àtẹ̀jíṣẹ́ tó ń ṣàlàye ìdí tó fi pọn dandan, kí o sì kàn sí àwọn ènìyàn mìíràn tí wọ́n ń sọ̀rọ̀ nípa àwọn àdojúkọ bíi òfin èdè, AI ajẹmọ́ ohùn, tàbí ìṣègbè nínú ìmọ̀-ẹ̀rọ. Wo àfikún àbá lórí <campaignLink>ṣíṣe ìpolongo ayélujára, pẹ̀lú àkónú tí o lè ṣàtúnlò</campaignLink>.
 about-playbook-how-grow-language-content-6 = Àjọṣepọ̀ àti Ìbáraẹniṣepọ̀
+about-playbook-how-grow-language-content-7 = Wá àwọn mìíràn tí wọ́n nítara. Ó lè jẹ́ àwọn fásitì, ilé-ẹ̀kọ́ èdè, àwọn ẹgbẹ́ ajìjàngbara tàbí àwọn àwùjọ ìmọ-sáyẹ́ǹsì oní dátà. Kàn sí wọn kí o sì ṣàlàyé tó yè koro bí wọ́n ṣe lè ṣèraànwọ́ àti ìdi rẹ̀. <outreachTemplates>Wo àwọn àwòṣe ímeèlì ìkànsíraẹni</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Nímọ̀ àtinúdá!</strong> Àwùjọ èdè rẹ yóò tayọ, àwọn wọ̀nyí kàn jẹ́ díẹ̀ nínú àwọn ọ̀nà láti bẹ̀rẹ̀.
 
 ## How to validate
 
+about-playbook-how-validate = Báwo ni mo ṣe lè mọ̀ bóyá mo lè gba fọ́nrán ohùn wọlé?
+about-playbook-how-validate-content-1 = Tí o bá lẹ̀ <strong>gbọ́ wọn</strong> tí <strong>wọ́n sì yé ẹ</strong>, ó <strong>dára láti gbà á wọ̀lé</strong>.
 about-playbook-how-validate-content-2 = <strong>Má ṣe kọ fọ́nrán tí elédè ‘ní ìwọ́wùn’ tó yátọ̀ sí tìrẹ</strong> – èyí ṣe pàtàkì fún ìmẹ̀ẹ̀rọ ìdóhùnmọ̀ láti ṣiṣẹ́ dáadáa fún gbogbo ènìyàn.
+about-playbook-how-validate-content-3 = Tí o bá rò wí pé pípẹ̀ <strong>ò jẹ́ kí ó ṣe é ṣe láti gbọ́ ọ yé</strong>, tàbí <strong>ọ̀pọ̀lọpọ̀ ariwo wà ní ìpìlẹ̀</strong>, tàbí àwọn <strong>ènìyàn mìíràn ń sọ̀rọ̀</strong>, kí o kọ fọ́nrán náà. <accuracyLink>wo àfikún ìtọ́ni nínú ìlàna apéye wa.
 about-playbook-how-validate-content-4 = Tí fọ́nrán bá di kíkọ̀ lọ́dọ ènìyàn 2, yóò di jíjọ̀wọ́ sí àtúnpín àkójọpọ̀ data tó yátọ̀.
 
 ## How to access dataset
@@ -595,10 +601,13 @@ about-playbook-how-access-dataset-content-2 = Tí o bá ń wá àwọn irin
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Báwo ni a ṣe ń ṣe ìpinu iṣẹ́-àkànṣe?
+about-playbook-how-project-governance-content-1 = Mozilla Common voice di ṣíṣe pẹ̀lú oríṣiríṣi àwùjọ ajàfẹ́tọ̀ ẹni, àwọn onímọ̀-èdá-èdè, àwọn onímọ̀-sáyẹ̀nsì dátà, àwọn ọ̀mọ̀wé àti àwọn onímọ̀-ẹ̀rọ àìlè-fọwọ́-kàn láti orígun mẹ́rẹ̀rin àgbáyé. Mozilla Foundation ló ṣalákòso iṣẹ́-àkànṣe náà.
 about-playbook-how-project-governance-content-2 = Ìdarí wa gbilẹ̀ lórí òpó o:
 about-playbook-how-project-governance-content-3 = Ìṣe gààyà, ààbò àti ìhànde.
 about-playbook-how-project-governance-content-4 = Ìkópa nínú àwùjọ àti ìpinu ṣíṣe.
 about-playbook-how-project-governance-content-5 = Ìníyelórí àti ìdánimọ̀.
+about-playbook-how-project-governance-content-7 = <governanceLink>Kà si nípa bí a ṣe ń darí</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Ìmọ̀ àtọwọ́dá
 mycroft-description =
@@ -681,9 +690,22 @@ dataset-description-hours = Àkọsílẹ̀ kọ̀ọ̀kan nínú àkój�
 want-dataset-update = Ṣé o fẹ́ àwọn àtẹ̀ránṣẹ́ itàlólobó nígbà tí a bá ṣe ìdásílẹ̀ ẹ̀yà tuntun fún àwọn àkójọpọ̀ dátà Common Voice? Ṣe ìforúkọsílẹ̀ sí lẹ́tà asọ̀rọ̀yìn wa.
 other-datasets = Àkójọpọ̀ dátà olóhùn yóókù
 your-feedback = Ṣé o ní èrò lóri bí a ṣe lè jẹ́ kí àkójọpọ̀ dátà Common Voice dárá si? Jé kí a mọ̀ lórí Discourse
+go-discourse = Lọ sí Discourse
+missing-language = Ṣé o ò rí àfihàn èdè ẹ nínú àkójọpọ̀ dátà náà? Láti bèèrè fún àfihàn èdè wá sí ojú-ìwé àwọn èdè wa.
+go-languages-page = Lọ sí ojú-ìwé àwọn èdè
+ready-to-validate = Sé o sẹtán à ti fọwọ́sí àwọn gbólóhùn bí?
+more = Sí i
+close = Padé
+download = Ṣe ìgbàsílẹ̀
+dataset-version = Ẹ̀dà
 
 ## Download Modal
 
+download-title = Ìgbàsílẹ̀ rẹ ti bẹ̀rẹ̀
+download-helpus = Ràn wá lọ́wọ́ à ti kọ́ agbègbè yíká ìmẹ̀ẹ̀rọ adóhùnmọ̀, ma késí wa nípasẹ̀ íméèlì.
+download-form-email =
+    .label = Tẹ íméèlì rẹ si
+    .value = Ẹ ṣeun, à ó máa ké sí yín
 download-back = Pada lọ sí àkójọpọ̀ àwọn dátà Common Voice
 
 ## Contact Modal
