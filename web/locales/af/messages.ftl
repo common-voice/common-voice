@@ -869,6 +869,28 @@ share-common-voice = Deel Common Voice
 review-instruction = Hersien en neem snitte weer op indien nodig
 record-submit-tooltip = { $actionType } dien in wanneer gereed
 clips-uploaded = Snitte Opgelaai
+record-abort-title = Voltooi eers opname?
+record-abort-text = Om nou te gaan beteken dat jy jou vordering sal verloor
+record-abort-submit = Dien snitte in
+record-abort-continue = Voltooi opname
+record-abort-delete = Gaan Uit en Skrap snitte
+listen-instruction = { $actionType }<playIcon></playIcon> het hulle die sin reg gesê?
+listen-again-instruction = Wel gedaan!<playIcon></playIcon> Luister weer wanneer jy gereed is
+listen-3rd-time-instruction = 2 verby, hou so aan!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Laaste een!
+listen-empty-state = Ons het nie meer snitte om in hierdie taal te evalueer nie...
+listen-loading-error =
+    Ons kon geen klanksnitte kry vir jou om na te luister nie.
+    Probeer asseblief later weer.
+speak-empty-state = Ons het nie meer sinne om in hierdie taal op te neem nie...
+speak-empty-state-cta = Dra sinne by
+speak-loading-error = Ons kon geen sinne kry vir jou om te lees nie. Probeer asseblief later weer.
+record-button-label = Neem jou stem op
+share-title-new = <bold>Help ons</bold> om meer stemme te vind
+keep-track-profile = Bly op hoogte van jou vordering met 'n profiel
+login-to-get-started = Meld aan of teken in om te begin
+target-segment-first-card = Jy dra by tot ons eerste teikensegment
+target-segment-generic-card = Jy dra by tot 'n teikensegment
 
 ## Reporting
 
