@@ -56,6 +56,7 @@ da = Danish
 de = Jamaní
 dsb = Sorbian, Lower
 dv = Dhivehi
+dyu = Dioula
 el = Gírìkì
 en = Gẹ̀ẹ́sì
 eo = Esperanto
@@ -205,6 +206,8 @@ about = Nípa
 profile = Púrófáìlì
 help = Ìràǹwọ́
 contact = Ìkànsí
+terms = Táàmù
+cookies = Ìtọpa
 faq = Ìbéèrè Àtìgbàdégbà
 content-license-text = Àgbéjade wà lábẹ́ ẹ<licenseLink>ìgbàṣe Creative Commons</licenseLink>
 share-title = Ṣèrànwọ́ lati wá àwọn ẹlòmíràn tí ươn lè fi ohùn wọn sílẹ̀
@@ -579,6 +582,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Wo àfikún lórí ìla
 about-playbook-how-grow-language = Báwo ni a ṣe lè ṣe ìdàgbàsókè èdè tó múnádóko lórí Common voice?
 about-playbook-how-grow-language-content-1 = Pípèse ànfàní fún àìdọ́gba ènìyàn láti dásí Common voice ṣàrídájú pé àkójọpọ̀ détà náà ṣiṣẹ́ fún ọ̀pọ̀lọpọ̀ ènìyàn tó bá ṣeéṣe. A ti pèsè àwọn ohun-èlò àti àwòṣe tí  o lè wò!
 about-playbook-how-grow-language-content-2 = Àwọn ìṣẹ̀lẹ̀
+about-playbook-how-grow-language-content-3 = O lè ṣàgbékalẹ̀ ìṣẹ̀lẹ̀ láti jẹ́ kí àwọn ènìyán kópa. Ó rọrùn ju bí o ṣe lérò. O lè ṣe é lórí afẹ́fẹ́ pẹ̀lú irinṣẹ́ ìpàde amóhùnmáwòrán, tàbí lójúkojú tí kò bá léwu.<eventTemplate> Wo àwọn àwòṣe wa fún ṣíṣàgbékalẹ̀ ìṣẹ̀lẹ̀.</eventTemplate>
 about-playbook-how-grow-language-content-4 = Ìkànì ìbánidọ́rẹ̀
 about-playbook-how-grow-language-content-5 = O lè lo ìkànì ìbánidọ́rẹ̀ láti gbé èròngbà náà síta. Pín àwọn àtẹ̀jíṣẹ́ tó ń ṣàlàye ìdí tó fi pọn dandan, kí o sì kàn sí àwọn ènìyàn mìíràn tí wọ́n ń sọ̀rọ̀ nípa àwọn àdojúkọ bíi òfin èdè, AI ajẹmọ́ ohùn, tàbí ìṣègbè nínú ìmọ̀-ẹ̀rọ. Wo àfikún àbá lórí <campaignLink>ṣíṣe ìpolongo ayélujára, pẹ̀lú àkónú tí o lè ṣàtúnlò</campaignLink>.
 about-playbook-how-grow-language-content-6 = Àjọṣepọ̀ àti Ìbáraẹniṣepọ̀
@@ -607,6 +611,7 @@ about-playbook-how-project-governance-content-2 = Ìdarí wa gbilẹ̀ lóri�
 about-playbook-how-project-governance-content-3 = Ìṣe gààyà, ààbò àti ìhànde.
 about-playbook-how-project-governance-content-4 = Ìkópa nínú àwùjọ àti ìpinu ṣíṣe.
 about-playbook-how-project-governance-content-5 = Ìníyelórí àti ìdánimọ̀.
+about-playbook-how-project-governance-content-6 = Ìlágbọ̀yé ojúṣe.
 about-playbook-how-project-governance-content-7 = <governanceLink>Kà si nípa bí a ṣe ń darí</governanceLink>
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Ìmọ̀ àtọwọ́dá
@@ -625,18 +630,27 @@ sentence-collection-explanation = Gbígba gbólóhùn láti ìkàni gbogb
 hours-recorded-explanation = Kíka iye wákàtí àkálẹ̀ ohùn tí a ti gbà lásìkò yìí.
 hours-validated-explanation = Kíka iye wákàtí àkálẹ̀ ohùn tí a ti fífọwọ́sí lọ́dọ aṣàmúlò 2 nínú 3 pẹ̀lú ìbo “bẹ́ẹ̀ni”. Àwọn àmì wọ̀nyí ń tẹ̀síwájú lọ sí àpapọ̀ ìpinu iṣẹ́-àkànṣe wákàtí 10k.
 sst = Ohùn-sí-àkọsílẹ̀
+sst-explanation = Ẹ̀rọ asọ-afọ̀-di-títẹ̀ ń ṣàyípadà dátà ohùn sí kíkọsílẹ̀.
+de-identified = Àìní-ìdánimọ̀
 de-identified-explanation = Ìlànà èyí tí ìfitóni púrófáílì àwọn akópa di àìrí lára fọ́nrán ohùn tí wọ́n fisílẹ̀ nígbà tí wọ́n bá gbé e kalẹ̀ fún ìgbàsílẹ̀ gẹ́gẹ́ bi apákan àkójọ déta.
 
 ## Error pages
 
+error-title-404 = A kò rí ojú ìwé yẹn fún ẹ.
+error-content-404 = Bóyá <homepageLink>ojú-ìwé ayélujára</homepageLink> wa yóò lè ṣèrànwọ́? Láti bèrè ìbéèrè, jọ̀wọ́ darapọ̀ mọ́ <matrixLink>yàrá ìfọ̀rọ̀wérò àwùjọ Matrix</matrixLink>, tọpinpin àwọn awuyewuye ojú-òpó nípasẹ̀ <githubLink>GitHub</githubLink> tàbí lọ sí <discourseLink>àwọn yàrá ìfọ̀rọ̀wérọ̀ wa</discourseLink>.
+error-title-503 = À ń kojú àìṣiṣẹ́ láìròtẹ́lẹ̀.
+error-content-503 = Ìkànnì yìí yóò padà gbérasọ láìpẹ́. Fún ìtóni tuntun, jọ̀wọ́ darapọ̀ mọ́ <matrixLink>yàrá ìfọ̀rọ̀wérọ̀ àwùjọ Matrix</matrixLink> tàbí lọ sí <githubLink>GitHub</githubLink> tàbí <discourseLink>awọn yàrá ìfọ̀rọ̀wérọ̀ wa</discourseLink> láti ṣe ìgbékalẹ̀ àti àmójútó àwọn ìsòro ìríri ojú òpó.
+error-code = Àṣìṣe { $code }
 
 ## Data
 
+data-download-button = Ṣe àgbàsílẹ̀ dátà Common Voice sórí ẹ̀rọ ọ̀ rẹ
 data-download-yes = Bẹ́ẹ̀ni
 data-download-deny = Bẹ́ẹ̀ kọ́
 data-download-license = Ìfàyègba: <licenseLink>CC-0</licenseLink>
 data-download-modal = O fẹ́ sẽ àgbàsílẹ̀ iye <size>{ $size }GB</size>, tẹ̀síwájú?
 data-subtitle = À ń ṣe àkópọ̀ fọ́nrán ohùn ti ẹnikẹ́ni le lò láti fi kọ́ àwọn ẹ̀rọ aṣàmúlò ohùn.
+data-explanatory-text = A gbàgbọ́ pé àkójọpọ̀ dátà olóhùn tó pọ̀ tó sì wà ní gbangba yóò ṣàtìlẹ́yìn fún iṣẹ́ ọ̀tun àti káràkátà tó yen kooro nínú ìmẹ̀ẹ̀rọ adóhùnmọ̀ tó dá lórí i ìkẹ́rọnímọ̀. Èyí jẹ́ akitiyan káàkiri àgbáyé a sì ń kàn si ẹ láti kópa. Àfojúsùn wa ni láti ṣe ìrànwọ́ kí ìmẹ̀ẹ̀rọ adóhùnmọ̀ lè di nínáàǹfànísí, kí ó sì jẹ́ dígí fún irúfẹ́ oríṣiríṣi ohùn káàkiri àgbáyé.
 data-get-started = <speechBlogLink>Bẹ̀rẹ̀ pẹ̀lú Ìdámọ̀ Ohùn</speechBlogLink>
 data-other-title = Àwọn àkójọpọ̀ dátà olóhùn mìíràn…
 data-other-goto = Lọ sí
