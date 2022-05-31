@@ -1073,27 +1073,66 @@ download-request-modal-title = Laai skakels af
 download-request-modal-description = Hier is die skakels om jou zip-lêers af te laai.
 download-request-link-text = Zip #{ $offset } van { $total }
 download-request-metadata-link = Sinteks
+download-request-link-single = Jy kan ook die direkte URL's in jou gunsteling aflaaibestuurder kopieer en plak. Hulle sal oor 12 uur verval, maar jy kan enige tyd terugkom na hierdie bladsy om nuwes te genereer.
 
 ## Landing
 
+welcome-staff = Welkom { $company } personeel!
+help-contribute = Jy kan help om 'n diverse, oopbron-datastel te bou deur 'n Common Voice-profiel te skep en jou stem by te dra.
+login-company = Meld aan / teken in met { $company } e-posadres
+profile-not-required = Dit is nie nodig om 'n profiel te hê om by te dra nie, hoewel dit nuttig is, sien hier onder waarom.
+read-more-about = Lees meer op ons Meer oor-bladsy
 
 ## DemoLayout
 
+demo-get-started = Laat ons begin
+demo-welcome = Welkom by Common Voice
+demo-welcome-subheader = Stel jy belang om meer te leer en by te dra tot die projek?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice is die wêreld se grootste publieke, veeltalige stemdatastel.
+demo-language-select-card-body = Danksy bydraes van meer as 259 000 mense in meer as 50 tale, word hierdie data gebruik om spraakgeaktiveerde toepassings op te lei om beter op die menslike stem te reageer.
+card-button-next = Volgende
+card-button-back = Terug
+demo-language-select-label = Blaai deur Tale
+demo-eofy-header = 2019 einde-van-jaar-vrystelling
+demo-eofy-sub_header = Stemdatastel, gereed vir aflaai
+demo-account = Rekening
 
 ## Demo Account
 
+demo-account-card-header = Dit is nie nodig om 'n profiel te hê om by te dra nie, alhoewel dit nuttig is.
+demo-account-card-body = Regs skets ons die voordele en verduidelik watter inligting ons openbaar maak. Gebruik die skakels hier onder om 'n Common Voice-rekening op jou eie toestel te registreer.
+demo-account-enter-email =
+    .label = Voer jou e-posadres in om 'n aanmeldskakel te stuur
+demo-account-sign-up = Stuur aanmeldskakel
 
 ## Demo Contribute
 
+demo-contribute-card-header = Gereed om jou stem by te voeg of jou oor te leen?
+demo-contribute-card-body-v2 = Noudat jy 'n bietjie meer van Common Voice weet, hoekom probeer jy dit nie? Klik op die mikrofoonikoon om sinne hardop te begin lees. <br/><br/>As jy verkies om ander mense se stembydraes te hersien, klik op die speel-ikoon. Jy sal help om te bevestig dat opnames ooreenstem met die sinne wat op die skerm geskryf is.
+demo-listen-subtitle = Gereed om by te dra?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Persoonlike kontroleskerms hou jou op hoogte van individuele en gemeenskapsvordering.
+demo-dashboard-card-body = Vir elke stemsnit wat geskenk word, en elke klanksnit wat bevestig is, word jou rekeningkontroleskerms opgedateer om jou jongste vordering te weerspieël in elke taal waartoe jy bydra. Ja, jy kan tot meer as een bydra!<br/><br/> Gebruik kontroleskerms om jou statistiek na te gaan, te sien hoe jy in vergelyking tot ander in die gemeenskap vaar, en om daaglikse of weeklikse bydraedoelwitte te stel.
 
 ## Validation criteria
 
+contribution-criteria-nav = Kriteria
+contribution-criteria-link = Verstaan bydraekriteria
+contribution-criteria-page-title = Bydraekriteria
+contribution-criteria-page-description = Verstaan waarna om te kyk wanneer jy na stemsnitte luister en help om jou stemopnames ook ryker te maak!
+contribution-for-example = byvoorbeeld
+contribution-misreadings-title = Lees foute
+contribution-misreadings-description = Wanneer jy luister, maak baie seker dat wat opgeneem is presies dieselfde is as wat geskryf word; verwerp die opname as daar selfs die geringste fout is. <br />Baie algemene foute sluit in:
+contribution-misreadings-description-extended-list-1 = <strong>''n'</strong> of <strong>'Die'</strong> ontbreek aan die begin van die opname.
+contribution-misreadings-description-extended-list-2 = 'n <strong>'s'</strong> ontbreek aan die einde van 'n woord.
+contribution-misreadings-description-extended-list-3 = Lees sametrekkings wat nie eintlik daar is nie, soos "Ons's" in plaas van "Ons is", of andersom.
+contribution-misreadings-description-extended-list-4 = Mis die einde van die laaste woord deur die opname te vinnig af te sny.
+contribution-misreadings-description-extended-list-5 = Maak verskeie pogings om 'n woord te lees.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
