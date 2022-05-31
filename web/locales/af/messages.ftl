@@ -977,9 +977,66 @@ want-to-continue = Wil jy voortgaan?
 finish-editing = Voltooi eers die redigering?
 lose-changes-warning = As jy nou uitgaan, sal jy jou vordering verloor
 build-custom-goal = Bou 'n pasgemaakte doelwit
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] uur
+       *[other] ure
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] uur
+       *[other] ure
+    }
+set-a-goal = Stel 'n doelwit
+cant-decide = Kan jy nie besluit nie?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] uur is bereikbaar in net meer as
+       *[other] ure is bereikbaar in net meer as
+    }{ NUMBER($periodMonths) ->
+        [one] maand as
+       *[other] maande as
+    }{ NUMBER($people) ->
+        [one] persoon opgeneem
+       *[other] persone opgeneem
+    }{ NUMBER($clipsPerDay) ->
+        [one] snit per dag.
+       *[other] snitte per dag.
+    }
+how-many-per-day = Puik! Hoeveel snitte per dag?
+how-many-a-week = Puik! Hoeveel snitte per week?
+which-goal-type = Wil jy Praat, Luister of albei?
+receiving-emails-info = Jy is tans aangeteken om e-posse soos herinneringe aan doelwitte, my vorderingsverslae en nuusbriewe oor Common Voice te ontvang.
+not-receiving-emails-info = Jy is nie tans aangeteken om e-posse soos herinneringe aan doelwitte, my vorderingsverslae en nuusbriewe oor Common Voice te ontvang nie.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] snit
+       *[other] snitte
+    }
+help-share-goal = Help ons om meer stemme te vind, deel jou doelwit
+confirm-goal = Bevestig doelwit
+goal-interval-weekly = Weekliks
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Deel jou { $count } daaglikse snitdoelwit vir { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Deel jou { $count } weeklikse snitdoelwit vir { $type }
+share-goal-type-speak = Praat
+share-goal-type-listen = Luister
+share-goal-type-both = Praat en Luister
+# LINK will be replaced with the current URL
+goal-share-text = Ek het pas 'n persoonlike doelwit geskep vir my stemskenkings aan #CommonVoice -- sluit by my aan en help om masjiene te leer hoe mense werklik praat { $link }
+weekly-goal-created = Jou weeklikse doelwit is geskep
+daily-goal-created = Jou weeklikse doelwit is geskep
+track-progress = Volg jou vordering hier en op jou statistiekbladsy.
+return-to-edit-goal = Keer terug hierheen om jou doelwit enige tyd te wysig.
+share-goal = Deel my doelwit
 
 ## Profile Delete
 
+delete-q = Sou jy versoek dat jou stemopnames ook uitgevee word, of verkies jy om dit in die Common Voice-datastel te hou?
+keep = Hou
+remove = Verwyder
+keep-info = Jou anonieme stemopnames sal in die Common Voice-datastel bly. Sodra jy jou profiel uitgevee het, sal jy nie meer 'n versoek kan indien om jou opnames uit die datastel te verwyder nie
 
 ## Profile Download
 
