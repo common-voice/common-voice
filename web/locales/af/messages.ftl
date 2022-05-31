@@ -1169,6 +1169,11 @@ contribution-background-voices-example-1-explanation = Kom jy? <strong>[deur 'n 
 contribution-volume-title = Volume
 contribution-volume-description = Daar sal natuurlike variasies in volume tussen lesers wees. Verwerp slegs die opname as die volume so hoog is dat die opname breek, of (meer algemeen) as dit so laag is dat jy nie kan hoor wat gesê word sonder verwysing na die geskrewe teks nie.
 contribution-reader-effects-title = Leser-effekte
+contribution-reader-effects-description = Die meeste opnames is van mense wat in hul natuurlike stem praat. Jy kan die nie-standaard opnames wat af en toe voorkom waarin geskree, gefluister of in 'n 'dramatiese' stem gelees word, aanvaar. Verwerp asseblief gesingde opnames en diegene wat 'n kunsmatige tegnologiesgewysigde of -geskepte stem gebruik.
+contribution-just-unsure-title = Net onseker?
+contribution-just-unsure-description = As jy iets teëkom wat hierdie riglyne nie dek nie, evalueer die opname asseblief volgens jou beste oordeel. As jy regtig nie kan besluit nie, sien dié opname oor en gaan aan na die volgende opname.
+see-more = <chevron></chevron>Sien meer
+see-less = <chevron></chevron>Sien minder
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1177,15 +1182,47 @@ contribution-reader-effects-title = Leser-effekte
 
 ## HEADER/FOOTER
 
+sc-header-home = Tuis
+sc-header-how-to = Instruksies
+sc-header-add = Voeg by
+sc-header-review = Hersien
+sc-header-rejected = Verwerpte Sinne
+sc-header-my = My Sinne
+sc-header-statistics = Statistiek
+sc-header-profile = Profiel
+sc-footer-discourse = Diskoers
+sc-footer-report-bugs = Rapporteer foute
+sc-footer-translate = Vertaal dié bladsy
+sc-footer-report-copyright = Rapporteer kopieregkwessies
+sc-footer-privacy = Privaatheid
+sc-footer-terms = Terme
+sc-footer-cookies = Koekies
+sc-login-signup-button = Meld Aan / Teken in
+sc-logout-button = Meld af
 
 ## HOME
 
+sc-home-title = Welkom by die Common Voice Sinversamelaar
+sc-home-intro = Die sinversamelaar is deel van <commonVoiceLink>Common Voice</commonVoiceLink>. Dit laat bydraers toe om sinne wat deur die gemeenskap geskep is, te versamel en te bevestig. Jy kan hierdie hulpmiddel ook gebruik om klein- tot mediumgrootte oopbron-korpusse te skep, in te voer en skoon te maak. Alle sinne moet in die publieke domein wees. Goedgekeurde sinne word elke week na die Common Voice-bewaarplek uitgevoer en word op die Common Voice-webwerf vrygestel met elke nuwe ontplooiing.
+sc-home-collect-title = Versamel sinne
+sc-home-collect-text = Help ons deur oopbron-sinne te skryf of te versamel.
+sc-home-review-title = Hersien sinne
+sc-home-review-text = Help ons deur sinne na te gaan en te verseker dat dit aan die riglyne voldoen.
 
 ## GENERAL
 
+sc-languages-fetch-error = Ons kon nie beskikbare tale vind nie. Bydrae is tans nie moontlik nie. Probeer asseblief later weer.
 
 ## HOW-TO
 
+sc-howto-title = Instruksies
+sc-howto-addlang-title = Voeg tale by om mee te werk
+sc-howto-addlang-text = Sodra jy aangemeld is, kan jy jou tale in die profielafdeling kies.
+sc-howto-addsen-title = Voeg nuwe sinne by
+sc-howto-addsen-item-1 = Alle sinne wat jy indien moet beskikbaar wees op die <wikipediaLink>Publiek Domein (CC-0) lisensie</wikipediaLink>. Om sinne wat nie in die publieke domein beskikbaar is nie, te akkommodeer, het ons 'n <cc0WaiverLink>bydrae-ooreenkomstemplaat</cc0WaiverLink> geskep vir sinne waarvan die kopieregeienaar toestemming gee om die sinne op Common Voice by te dra.
+sc-howto-addsen-item-2 = Getalle. Daar moet geen syfers in die bronteks wees nie, want dit kan probleme veroorsaak wanneer dit hardop gelees word. Die manier waarop 'n nommer gelees word, hang van konteks af en kan verwarring in die datastel veroorsaak. Byvoorbeeld, die getal "2409" kan akkuraat gelees word as beide "vier-en-twintig nul nege" en "tweeduisend vierhonderd en nege".
+sc-howto-addsen-item-3 = Afkortings en akronieme. Afkortings en akronieme soos "VSA" of "ICE" moet in die bronteks vermy word, want dit kan gelees word op 'n manier wat nie ooreenstem met die spelling daarvan nie. Daarbenewens kan daar verskeie akkurate lesings vir 'n enkele afkorting wees. Byvoorbeeld, die akroniem "ICE" kan as "I-C-E" of as 'n enkele woord uitgespreek word.
+sc-howto-addsen-item-4 = Leestekens. Spesiale simbole en leestekens moet slegs ingesluit word wanneer dit absoluut noodsaaklik is. Byvoorbeeld, 'n deelteken word ingesluit in Afrikaanse woorde soos "reën", omdat dit deelvorm van die spelling van die woord, maar dit is onwaarskynlik dat jy ooit 'n spesiale simbool soos "@" of "# sal gebruik. ”
 
 ## MY SENTENCES
 
