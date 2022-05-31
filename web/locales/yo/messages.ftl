@@ -688,7 +688,9 @@ recorded-hours = Wákàtí àkálẹ̀ ohùn
 whats-inside = Kí ló wà nínú u àkójọpọ̀ dátà Common Voice
 dataset-description-hours = Àkọsílẹ̀ kọ̀ọ̀kan nínú àkójọpọ̀ dátà tó ní MP3 pàtàkì àti fáìlì ọ̀rọ̀ tó báa mu. Púpọ̀ nínú àwọn wákàtí <b> lápapọ̀</b> tí a ṣe àkálẹ̀ fún nínú àkójọpọ̀ dátà náà tún àwọn mẹtadátà tó jẹ mọ́ ìrísí èèyàn lápapọ̀ bíi ọjọ́-orí, ìmọ̀ akọ tàbí abo àti ẹ̀yà èdè tí ó ràn wá lọ́wọ́ fún ìṣedéédé ìkẹ́kọ̀ọ́ èdè àwọn ẹ̀rọ adóhùnmọ̀. Àkójọpọ̀ dátà lọ́wọ́lọ́wọ́ ní <b>{ $valid }</b> àwọn wákàtì tí a fọwọ́sí nínú <b>{ $languages }</b> àwọn èdè, ṣùgbọ́n à ń fikún ohùn àti èdè ní gbogbo ìgbà. Ẹ wo ojú-ìwé àwọn èdè</languagesLink> láti bèèrè èdè tàbí b̀ẹrẹ̀ sí ní dásí.
 want-dataset-update = Ṣé o fẹ́ àwọn àtẹ̀ránṣẹ́ itàlólobó nígbà tí a bá ṣe ìdásílẹ̀ ẹ̀yà tuntun fún àwọn àkójọpọ̀ dátà Common Voice? Ṣe ìforúkọsílẹ̀ sí lẹ́tà asọ̀rọ̀yìn wa.
+subscribe = Ìforúkọsílẹ̀
 other-datasets = Àkójọpọ̀ dátà olóhùn yóókù
+feedback-q = Ní èsì?
 your-feedback = Ṣé o ní èrò lóri bí a ṣe lè jẹ́ kí àkójọpọ̀ dátà Common Voice dárá si? Jé kí a mọ̀ lórí Discourse
 go-discourse = Lọ sí Discourse
 missing-language = Ṣé o ò rí àfihàn èdè ẹ nínú àkójọpọ̀ dátà náà? Láti bèèrè fún àfihàn èdè wá sí ojú-ìwé àwọn èdè wa.
@@ -707,12 +709,22 @@ download-form-email =
     .label = Tẹ íméèlì rẹ si
     .value = Ẹ ṣeun, à ó máa ké sí yín
 download-back = Pada lọ sí àkójọpọ̀ àwọn dátà Common Voice
+download-no = Rára o ṣeun
 
 ## Contact Modal
 
+contact-title = Fọ́ọ̀mù ìbárẹniṣe
+contact-form-name =
+    .label = Orúkọ
+contact-form-message =
+    .label = Ìfiránṣẹ́
+contact-required = *ó nílò
 
 ## Request Language Modal
 
+request-language-title = Ìbéèrè fún èdè
+request-language-form-language =
+    .label = Èdè
 
 ## Request Language Pages
 
