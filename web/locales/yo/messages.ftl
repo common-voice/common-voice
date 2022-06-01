@@ -828,6 +828,9 @@ record-no-mic-found = A kò rí amóhùndúngbẹ̀mù
 record-error-too-short = Ìgbohùnsílẹ̀ ti kéré jì
 record-error-too-long = Ìgbohùnsílẹ̀ ti gùn jù
 record-error-too-quiet = Ìgbohùnsílẹ̀ ti dákẹ́ rọ́rọ́ jù
+record-cancel = Pa itùnkálẹ̀ rẹ́
+record-instruction = { $actionType }<recordIcon></recordIcon> lẹ́yìn náà kí o ka gbólóhùn náà sókè
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> tí ó bá ṣe tán
 
 ## Reporting
 
