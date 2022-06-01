@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Mynnav, danvenowgh dhymm ebostow. Yma hwans dhymm godhvos moy a-dro dhe'n towl Common Voice.
+yes-receive-emails = Mynnav, danvenewgh dhymm ebostow. Yma hwans dhymm a wodhvos moy a-dro dhe'n ragdres Common Voice.
 stayintouch = Yth eson ow trehevel kemeneth a-dro dhe deknegieth lev. Hwans yw dhyn kestava gans nowedhansow, pennfentynnyow data nowydh ha rag klowes moy a-dro dhe'n fordh mayth esowgh owth usya an data ma.
 privacy-info = Ni a dhedhow ni dhe handla agas kedhlow gans rach. Redyowgh moy y'gan <privacyLink>argemmyn privetter</privacyLink>.
 return-to-cv = Dehweles dhe Common Voice
@@ -420,6 +420,9 @@ request-language-form-language =
     .label = Yeth
 request-language-success-title = Danvenys yn sowen a veu an profyans, meur ras.
 request-language-success-content = Ni a vynn kestava genowgh gans moy kedhlow a-dro dhe geworra agas yeth dhe Common Voice yn skon.
+
+## Request Language Pages
+
 
 ## Languages Overview
 
