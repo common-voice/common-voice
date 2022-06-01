@@ -823,6 +823,11 @@ contribute-more =
 record-cta = Bẹ̀èrẹ̀ sí ní ṣe àkálẹ̀
 record-platform-not-supported = A tọrọ àforíjì, kò sí àtìlẹyìn fún pèkéle tí ò ń lò
 record-platform-not-supported-ios-non-safari = Lórí iOS jọ̀wọ́ tẹ̀síwájú pẹ̀lú Safari láti jẹ́ kí ìgbohùnsílẹ̀ ṣiṣẹ́…
+record-must-allow-microphone = O gbọdọ̀ fàyègba amóhùndúngbẹ̀mù
+record-no-mic-found = A kò rí amóhùndúngbẹ̀mù
+record-error-too-short = Ìgbohùnsílẹ̀ ti kéré jì
+record-error-too-long = Ìgbohùnsílẹ̀ ti gùn jù
+record-error-too-quiet = Ìgbohùnsílẹ̀ ti dákẹ́ rọ́rọ́ jù
 
 ## Reporting
 
