@@ -861,9 +861,26 @@ speak-loading-error =
 record-button-label = Ṣe àkálẹ̀ ohùn rẹ
 share-title-new = <bold>Ràn wá lọ́wọ́ láti</bold>ṣàwárí àwọn ohùn mìíràn
 keep-track-profile = Tọpa ìlọsíwájú rẹ pẹ̀lú u púrófáìlì
+login-to-get-started = Forúkọsílẹ̀ láti wọlé tàbí forúkọsílẹ̀ láti bẹ̀rẹ̀
+target-segment-first-card = Ò ń ṣẹ àfikún sí abala àfojúsùn wa àkọ́kọ́
+target-segment-generic-card = Ò ń ṣẹ àfikún sí abala àfojúsùn kan.
+target-segment-first-banner = Bá wa ṣẹ̀dá abala àfojúsùn àkọ́kọ́ ti Common Voice nínú un { $locale }
+target-segment-add-voice = Ṣe àfikún ohùn rẹ
+target-segment-learn-more = Kọ́ sí i
 
 ## Reporting
 
+report = Ìròyìn
+report-title = Jábọ̀ ìròyìn
+report-ask = Àwọn ìṣòro wo lò ń dojúkọ nínú un gbólóhùn yí?
+report-offensive-language = Èdè àlùfàǹṣá
+report-offensive-language-detail = Gbólóhùn náà ní ọ̀rọ̀ àbùkù tàbí ọ̀rọ̀ àlùfàǹṣá
+report-difficult-pronounce = Ṣòro láti pè
+report-offensive-speech = Ifọ̀ àlùfàǹṣá
+report-other-comment =
+    .placeholder = Dá sí
+success = Àṣeyọrí
+continue = Tẹ̀ síwájú
 
 ## Goals
 
