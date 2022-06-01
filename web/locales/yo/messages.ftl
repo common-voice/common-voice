@@ -845,6 +845,7 @@ record-abort-text = Bí o bá dẹ̀yìn báyìí tùmọ̀ sí pé o ó padán�
 record-abort-submit = Fi fọ́nrán jíṣẹ́
 record-abort-continue = Parí kíkásílẹ̀
 record-abort-delete = Jáde & pa fọ́nrán rẹ́
+listen-instruction = { $actionType }<playIcon></playIcon> ṣé wọ́n sọ gbólóhùn náà bí ó ti tọ́ àti bí ó ti yẹ?
 
 ## Reporting
 
