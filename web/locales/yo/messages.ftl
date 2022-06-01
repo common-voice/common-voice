@@ -712,6 +712,7 @@ feedback-q = Ní èsì?
 resource-coqui-info = <coquiLink> Coqui</coquiLink> ń ṣakitiyan láti ṣí ìmẹ̀ẹ̀rọ adóhùnmọ̀. Àwọn àkàǹṣe-iṣẹ́ wọ́n ni ẹ́ńgíìnì SST àti TTS tó dá lórí i ète ìkẹ́rọnímọ̀ bí ènìyàn
 community-playbook = Ìwé atọ́nà
 resource-playbook-info = <playbookLink>Wá àwọn ìtọ́sọ́nà</playbookLink>lórí ìrìnàjo Common Voice, láti ìsọditìbílẹ̀ dé ìlọ àkójọpọ̀ dátà olóhùn, àti bí a ṣe lẹ̀ wà pẹ̀lú àwọn ọmọ ẹgbẹ́ tó kù.
+data-other-librispeech-description = LibriSpeech jẹ́ kọ́pọ́ọ̀sì tó tó wákáàtí 1000 ní 16Khz tí a kà ní Gẹ̀ẹ́sì tí a rí láti ìwé-àkálẹ̀-olóhùn láti inú iṣẹ́ àkàǹṣe LibriVox
 data-other-ted-name = Kọ́pọ́ọ̀sì TED-LIUM
 data-other-ted-description = Kọ́pọ́ọ̀sì TED-LIUM jẹ́ ṣíṣẹ̀dá láti ara ìṣọ àti àwọn ìdàkọ wọn tó wà lórí i ìkànni TED.
 data-other-voxforge-description = VoxForge Jean ṣíṣẹ̀dá láti gba ìṣọ tí a ti ṣe ìdàkọ rẹ̀ tí a lè lò pẹ̀lú ẹ́ńgíìnì ìmẹ̀ẹ̀rọ ìdámọ̀ohùn lọ́fẹ̀ẹ́ tó sì wà lárọ̀ọ́wọ́tó gbogbo ènìyàn.
