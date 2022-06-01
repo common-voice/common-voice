@@ -834,6 +834,11 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon> tí ó bá ṣe t
 record-again-instruction = Ó dára púpọ̀!<recordIcon></recordIcon> Ṣe àkálẹ̀ fọ́nrán rẹ tí ó kàn
 record-again-instruction2 = Ó káre, ká a sílẹ̀ sí i <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Èyí tó gbẹ̀yìn!
+review-tooltip = Ṣe àgbéyẹ̀wò & tún fánrán ká sílẹ̀ ní ibí yìí bí o ṣe ń ń lọ
+share-clip = Ṣe àbápín fọ́nrán rẹ
+share-common-voice = Ṣe àbápín Common Voice
+review-instruction = Ṣe àgbéyẹ̀wò & atúnkásílẹ̀ fọ́nrán bí ìdí bá wà fun un
+record-submit-tooltip = { $actionType } fi jíṣẹ́ bí o bá ṣetán
 
 ## Reporting
 
