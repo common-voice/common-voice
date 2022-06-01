@@ -839,6 +839,12 @@ share-clip = Ṣe àbápín fọ́nrán rẹ
 share-common-voice = Ṣe àbápín Common Voice
 review-instruction = Ṣe àgbéyẹ̀wò & atúnkásílẹ̀ fọ́nrán bí ìdí bá wà fun un
 record-submit-tooltip = { $actionType } fi jíṣẹ́ bí o bá ṣetán
+clips-uploaded = Fọ́nrán ti di gbígbéjáde
+record-abort-title = kọ́kọ́ parí kíkásílẹ̀ ná?
+record-abort-text = Bí o bá dẹ̀yìn báyìí tùmọ̀ sí pé o ó padánù ìtẹ̀síwájú rẹ
+record-abort-submit = Fi fọ́nrán jíṣẹ́
+record-abort-continue = Parí kíkásílẹ̀
+record-abort-delete = Jáde & pa fọ́nrán rẹ́
 
 ## Reporting
 
