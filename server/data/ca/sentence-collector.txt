@@ -729,6 +729,7 @@ A quina hora ha agafat el bus?
 A quina hora hem de ser a l'aeroport?
 A quina hora hem quedat amb l'Emili?
 A quina hora hem quedat per fer reunió de servei?
+A quina hora obren el restaurant del Port?
 A quina hora obren els museus de Londres?
 A quina hora obren la botiga?
 A quina hora podria?
@@ -1153,6 +1154,7 @@ Al costat meu, un minyó d'ulls negres, de quinze anys
 Al creure-la guanyada, li va dir:
 Al darrere unes gallines patinen sobre una capa de fems de mula.
 Al final anirem al zoo.
+Al final com queda la comanda?
 Al final de març se m'infectà una mà
 Al final hi anirem dos persones nomes.
 Al final no he tingut temps de portar el cotxe al mecànic.
@@ -5461,6 +5463,7 @@ Digui'm el seu de-ena-i i nom, si us plau.
 Digui'm el seu de-ena-i perquè l'apuntem a la llista.
 Digui'm el seu de-ena-i, si us plau.
 Digui'm el seu nom complet i de-ena-i si us plau.
+Digui'm el seu nom complet.
 Digui'm el seu nom i de-ena-i si us plau.
 Digui'm el seu nom i el seu de-ena-i.
 Digui,—contestà ella, abaixant els ulls.
@@ -5831,6 +5834,8 @@ El blau del cel era més suau
 El blau del cel i el daurat dels camps.
 El bloc de demanar informació és per als temes administratius de la clínica.
 El bloc de fang que havia de transformar en la figura d'Himeneus
+El bloc de gestió de cites s'aplica molt rarament.
+El bloc de gestió de cites tampoc no s'aplica.
 El bosc de llorers i palmes volia entrar a missa.
 El bot necessita interpretar la resposta a la pregunta.
 El budisme no està sistematitzat en una organització jeràrquica vertical.
@@ -5868,6 +5873,7 @@ El cel és el repòs de la mirada, del braç i del pensament.
 El centre de salut ha informat que la quantitat de casos actius és zero.
 El centre del país té estius càlids amb pluges i tempestes i hiverns frescos.
 El cerebrotònic es caracteritza per trets d'inhibició, introversió i tendències intel·lectuals.
+El cibulet del terrat és poc gustós, però alegra la vista.
 El cicle agrícola continuarà amb les festes de l’estiu.
 El cim del Tibidabo es el punt mes alt.
 El cinema podria començar formant una nova escola de documentaris.
@@ -7551,6 +7557,8 @@ En prendré un, que no tindria prous diners.
 En primer lloc cal exigir un acord complet entre les persones i els grups.
 En primera aproximació, la massa de Higgs pot prendre qualsevol valor.
 En principi sí, però saps si trigaria molt en fer-ho?
+En principi, el bloc compres no s'aplica.
+En principi, el bloc de compres no s'aplica.
 En principi, el bloc de tràmits i serveis no es fa servir.
 En qualsevol altra ocasió
 En qualsevol cas, hem de tindre en compte que la Unió Europea no disposa.
@@ -9202,6 +9210,7 @@ He mort el llop!
 He parlat perquè em pregunta, però ja sabent que no m'entendria.
 He pencat molt amb aquest temari, però em costa pair-lo.
 He perdut el carnet de soci.
+He perdut l'avió i necessito anar a París urgentment.
 He perdut la que tenia.
 He quedat al Bar Terra aquesta setmana?
 He rebut una multa de l'Ajuntament.
@@ -9261,6 +9270,7 @@ Hi correm tots, la posem sobre un baiard i la portem a casa seva…
 Hi descobrisc un seguit de components des dels punts de vista afectiu i cognitiu.
 Hi feia treballar els deixebles
 Hi ha algun problema si sortim d'Espanya?
+Hi ha alguna cita lliure pel fisio?
 Hi ha alguna concertada?
 Hi ha alguna explotació minera a cel obert d'extracció de pedra calcària
 Hi ha alguna ferreteria a Ciutat Vella?
@@ -9451,6 +9461,7 @@ Hola, puc demanar un prestec¿.
 Hola, sembla que vaig perdre la maleta a l'últim vol.
 Hola, si compro un ordenador hi ha opció de finançar-ho?
 Hola, si mira, es que crec que hi hagut un error.
+Hola, voldria obrir un compte.
 Hola, voldria saber quines formes e pagament hi ha.
 Hola, vull modificar nom de reserva.
 Hola, vull obrir un compte.
@@ -11559,6 +11570,7 @@ L'individu se sentia en conflicte amb la societat.
 L'individualitat característica del model que vostè pensa copiar
 L'informe de comptes d'enguany es pot descarregar de l'àrea compartida.
 L'interior del canó estava corroït sense remei.
+L'interès és del deu per cent, pot ser?
 L'introvertit té tendència a la interioritat i poc sociable.
 L'objectiu d'Ubuntu és ser segur
 L'objectiu de l'escola estoica és aconseguir la impassibilitat o ataràxia.
@@ -11598,9 +11610,30 @@ L'un havia aconseguit establir a Londres la representació d'algunes cases valld
 L'ungüent que li demanaven.
 L'urbanisme haurà de dominar, per exemple, tant el medi sonor com la distribució.
 L'urbanisme es defineix per l'ús de les arts i les tècniques.
+L'usuari comença la conversa identificant-se.
+L'usuari demana com complir un tràmit o procediment.
+L'usuari demana com contactar amb una persona concreta.
+L'usuari demana contactar amb una persona.
+L'usuari demana de fer una transferència.
+L'usuari demana de pagar un servei o producte.
+L'usuari demana els mètodes de pagament.
+L'usuari demana informació sobre un servei o producte.
+L'usuari demana l'adreça d'un servei.
 L'usuari demana que li enviïn una factura.
+L'usuari demana un nou servei.
 L'usuari demana un resum de les transaccions.
+L'usuari es vol donar d'alta d'un servei.
+L'usuari fa una afirmació i demana que se li confirmi.
+L'usuari fa una comanda.
+L'usuari fa una reserva.
+L'usuari insulta el bot.
+L'usuari necessita canviar alguna de les seves dades personals.
+L'usuari rebutja seguir la conversa.
+L'usuari té una queixa sobre algun servei o producte.
+L'usuari vol cancel·lar un servei acordat prèviament.
 L'usuari vol fer la devolució d'un producte.
+L'usuari vol modificar un servei acordat prèviament.
+L'usuari vol modificar una comanda feta feta prèviament.
 L'utilitzaria en defensa de la classe obrera
 L'Èrika va fer el pi-pont a la classe de gimnàstica.
 L'àlbum final és una gran postal d'imatges i emocions.
@@ -11997,6 +12030,7 @@ La indústria nord-americana de publicació de partitures produí molta música 
 La influència de Moscou és d'origen directament polític.
 La influència del futurisme es va propagar a partir d'Itàlia.
 La informació reconstruïda només és una aproximació de la informació original.
+La informació sobre els productes s'anota amb el bloc demanar informació.
 La instal·lació en la nul·litat fou el remei cultural més potent.
 La interpretació de les dues obres.
 La interpretació és un aspecte important de la pel·lícula.
@@ -12526,6 +12560,7 @@ Les ambulàncies no s'atansaven mai a la línia de foc
 Les ambulàncies no van parar de baixar per l'abominable carretera
 Les ametles i les carabasses s’han presentat de temporada.
 Les anades i vingudes de les tropes feixistes eren constants
+Les anotarem amb el bloc de tràmits i serveis.
 Les anxoves de L'Escala ja fa molts anys que tenen fama.
 Les aspres mans es donen, formant a les espatlles un altre Pirineu.
 Les autoritats judicials exerceixen funcions jurisdiccionals gairebé exclusivament.
@@ -12725,6 +12760,7 @@ Les teories dels biotips classifiquen la diversitat de temperaments.
 Les teues paraules encara n’augmenten l’esperança. Coneixes aquest país?
 Les teves cosines van parlar-me'n
 Les traem i les deixem gelar sobre una graella.
+Les transferències tenen un intent específic dins de les transaccions econòmiques.
 Les tres Maries en comandita tan solteres com el primer dia
 Les tres cosines, de dol crònic, es dir, d'hàbit
 Les trinxeres enfangades, glaçades, en les muntanyes.
@@ -13119,6 +13155,7 @@ M'enfile a les costeres i em doblegue a llur jaient.
 M'ensenyava, com havia enforquillat un turc, amb la baioneta, als Dardanels.
 M'entens? Ho intento.
 M'esgarrifo de pensar el que van haver de suportar els milicians
+M'estan cobrant i em vau dir que era gratis.
 M'esteu cobrant una comissió excessiva per mantenir el compte corrent.
 M'estimava més ser independent i viure lliure dels meus actes.
 M'expliques un conte per a anar a dormir?
@@ -13132,6 +13169,7 @@ M'ha semblat veure, imatges de les vostres idees
 M'ha trucat tres cops i encara no sé què vol.
 M'han censurat dues frases i no sé per què.
 M'han dit que hi ha hagut una mica de soroll
+M'han entrat a robar.
 M'han posat una multa amb el cotxe de lloguer.
 M'han ratllat el cotxe aquesta nit.
 M'han robat la targeta de crèdit.
@@ -13142,8 +13180,11 @@ M'havia deixat els nervis en molt mal estat
 M'havien dit que els estrangers no estaven obligats a fer la «instrucció»
 M'he aturat a collir floretes.
 M'he de prendre la pastilla a les dues.
+M'he descuidat la maleta a l'autobús.
 M'he informat, tinc bons informes comercials
 M'he llevat a quarts de vuit.
+M'he passat la nit vomitant i he perdut el tren.
+M'he passat la nit vomitant, necessito veure un metge.
 M'he quedat tirada al carrer.
 M'hi devia trobar molt a prop
 M'hi jugo una orxata amb fartons.
@@ -14074,6 +14115,7 @@ No li faltarà seguici i tindrà prou a rascar.
 No li havia pujat al cap, no li havia donat influes
 No li passava mai res
 No llegisques els textos amb mots no catalans, omet-los!
+No m'accepta el pagament amb targeta.
 No m'agrada el Sisa.
 No m'agrada fer gasto en coses que ja han sigut dites.
 No m'agrada la cap que tinc ara perquè només sap dir paraules gruixudes.
@@ -14781,6 +14823,7 @@ Passa la vida a la platja, sol, divagant.
 Passa sense ésser vist per davant les multituds indiferents
 Passa una baieta per la taula.
 Passa'm algun text, que el compartirem.
+Passa'm amb una persona.
 Passa, i la deixa tota profanada... I entra rialler en la cambra d’Adalaisa.
 Passada la primera impressió ell mateix se'n va riure
 Passanant i Belltall es troba a la Conca de Barberà
@@ -14849,6 +14892,7 @@ Pel silenci dels prats i en la ribera, fan dringar l'esquellot mentre pasturen.
 Pels carrerons estrets, els cavalls, estirant els carros
 Pels carrers es veien cartells de colors
 Pels seus aprenentatges i èxits, per mínims que siguen, vibres com si hagueres guanyat.
+Pels temes mèdics fem servir el bloc de tràmits i serveis.
 Pels volts de Nadal, la mare i l’àvia es tancaven al guisador.
 Pendrem el castell.
 Penediment no és quan plores, penediment és quan canvies.
@@ -15517,11 +15561,13 @@ Podien estar satisfets del noi
 Podien estar satisfets del noi que els havia sortit.
 Podien ser-ho tot menys bojos.
 Podrem transcriure missatges de veu a text amb el mòbil.
+Podria demanar un taxi a casa meva?
 Podria estar d'acord amb tu, però aleshores totes dues estaríem equivocades.
 Podria estar provocat per un dèficit d'allò que cal a l'organisme.
 Podria estar-hi tot el dia i res no canviaria.
 Podria facilitar-me el de-ena-i de la seva parella?
 Podria facilitar-me el eu de-ena-i?
+Podria fer una transferencia entre comptes?
 Podria indicar-me el seu de-ena-i, si us plau?
 Podria llogar una del sis al vuit de desembre?
 Podria parlar amb algun agent?
@@ -15825,6 +15871,7 @@ Puc fer reserva doncs?
 Puc fer una altra targeta?
 Puc fer-ho per telèfon?
 Puc millor parlar amb algú per telèfon?
+Puc pagar amb la meva targeta?
 Puc saber fins quan serviu els caps de setmsna,?
 Pues el mini mateix vinga.
 Puig-reig es troba al Berguedà
@@ -15868,6 +15915,8 @@ Quan anàvem curts d'homes i havíem de fer guàrdies extres;
 Quan aprengues a perdonar els teus propis errors, perdonaràs el qui t'ha ferit.
 Quan aquestes dades siguen falses, seran segurament les falses solucions a un veritable problema.
 Quan arregle el vestidor m'emporte el ge pe essa, així, sé com tornar.
+Quan arribaran?
+Quan arribarà la comanda que he fet fa mitja hora?
 Quan arribà al barranc de l’Aigua, va agarrar el gosset de la cua.
 Quan complia un any, va veure obert el calaix dels quartos
 Quan contis contes compta quants contes contes.
@@ -16292,6 +16341,7 @@ Quin temps farà aquest cap de setmana?
 Quin temps farà avui a Vilafranca del Penedès?
 Quin temps farà cap a les cinc?
 Quin temps farà demà a Girona?
+Quin temps farà demà al vespre?
 Quin temps farà demà?
 Quin temps farà dissabte a Alacant?
 Quin temps farà diumenge?
@@ -16451,6 +16501,7 @@ Quines notícies hi ha sobre el projecte Aina?
 Quines pel·lis fan per Les Corts?
 Quines perspectives hi ha per a l’oci, el lleure i l'esbarjo personal?
 Quines són les circumstàncies en què va escriure l'obra?
+Quines són les condicions de l'assegurança per portàtil?
 Quines són les coses que et van influenciar més?
 Quines són les figures que et van influenciar més?
 Quines són les idees que et van influenciar més?
@@ -16518,6 +16569,7 @@ Què fas ací, Pepa? Pele faves, Pau. Faves peles, Pepa? Pau, faves pele.
 Què fas amb aquesta caputxa posada al cap?
 Què fem avui per dinar?
 Què ha passat amb la meva pizza quatre formatges?
+Què he de fer per demanar una beca?
 Què hi ha a la llista de la compra?
 Què hi ha avui per dinar?
 Què hi ha de nou, xiquets?
@@ -16815,6 +16867,7 @@ S'ajupia a satisfer-los puntualment les contribucions que li imposaven.
 S'alcen al cel quatre palmeres; el vent, batent ales lleugeres.
 S'anava acostant amb lentitud adolorida.
 S'anuncia a Moscou
+S'aplica a qualsevol resposta que aporti informacions concretes.
 S'apropava l'hora de la sega.
 S'arriben a transfigurar certs fets, per obra i gràcia dels narradors.
 S'asseia al peu d'una soca, i rumia que rumiaràs.
@@ -19503,6 +19556,7 @@ Una porta que sols havia traspassat un cop a la vida, molts anys enrere.
 Una princesa esclava que sa bellesa, de supèrbia plena
 Una pòlissa bàsica, una estàndard i una altra completa.
 Una qüestió que va prendre més importància que mai amb aquest moviment.
+Una reserva d'allotjament.
 Una reserva d'un vehicle.
 Una reserva per a un transport.
 Una revolució impossible corre el risc de convertir-se en el contrari: en reacció.
@@ -20527,6 +20581,7 @@ tot el món admira.
 una forma diluïda de surrealisme es troba a tot arreu.
 uns els que m'acusen ara, altres els de fa molt de temps.
 vaig anar a un home que passava per savi
+vull afegir un conductor en la meva pòlissa del cotxe.
 vull mostrar-vos d'on ha partit la calúmnia.
 zoo: "ni amb la llei, ni el tricorni, ni amb presons ni cavernes..."
 zoo: "ni furtant-nos els somnis, ni cremant la trinxera... callaran la fera"
@@ -20729,6 +20784,7 @@ zoo: "ni furtant-nos els somnis, ni cremant la trinxera... callaran la fera"
 És que em venia verticalment a damunt mateix del cap.
 És que em venia verticalment a damunt mateix del cap…
 És que en Pere Perdis ignorava que voler és poder.
+És que he tingut un accident ara mateix.
 És que ja era una cosa urgent.
 És que jugue; i, com que sóc sortós, gaste tot el que guanye.
 És que la gent és d'una mena de manera...
