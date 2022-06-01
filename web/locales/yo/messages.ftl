@@ -481,6 +481,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kí ni ìdí fún Common Voice?
+about-header-description-v2 =
+    <p>Common Voice jẹ́ àkójọpọ̀ data olóhùn tí ó wà fún gbogbogbò, èyí tí ó di ṣíṣe nípa fífi ohun akópa tí ó fi ara rẹ̀ jìn káàkiri àgbáyé. Àwọn ènìyàn tí wọ́n fẹ́ ṣe ẹ̀rọ olóhùn lè lo akójọpọ̀ data láti kọ́ módẹ́ẹ̀lì ìkẹ́rọnímọ̀.</p>
+    <p>Lọ́wọ́ lọ́wọ́ báyìí ọ̀pọ̀ àkójọpọ̀ data tó wà ló jẹ́ pé àwọn ilé-iṣẹ́ ló ni wọ́n, pẹ̀lú àwọn èrò ọ̀tun amúnilẹ́mìí.  Àkójọpọ̀ data olóhùn  kò tún sojú àwọn elédè tó yàtọ̀ sí Gẹ̀ẹ́sì, àwọn ènìyàn dúdú, àwọn alábọ̀ ara, àwọn obìnrin, àti àwọn onípalópọ̀ tó yàtọ̀ sí lákọlábo. Èyí túmọ̀ sí pé, ìmọ̀-ẹ̀rọ afàyègbohùn kò ṣiṣẹ́ fún ọ̀pọ̀lọpọ̀ èdè, níbi tí ó bá sì ti ṣiṣẹ́, ó lè má ṣiṣẹ́ bákan náà fún gbogbo ènìyàn. A fẹ́ kí èyí yí padà nípa pípe ọ̀pọ̀ ènìyàn káàkiri láti pín ohùn wọn pẹ̀lú wa .</p>
 how-does-it-work-title-v2 = Báwo ni Common Voice ṣe ń ṣiṣẹ́?
 how-does-it-work-text = À ń sẽ ìgbàjọ àwọn ohùn ti ẹnikẹ́ni le lò. Ṣe àfikún pẹ̀lú ohùn rẹ, yẹ bí fọ́nrán àwọn ẹlòmìíràn ṣe dára sí wò, jé kí àkójọ dátà náà dára si fún gbogbo ènìyàn.
 
@@ -787,9 +790,39 @@ request-language-error = A lè má tíì rí ìbéèrè náà gbà. Jọ̀wọ́
 
 language-section-in-progress = ó ń ṣiṣẹ́ lọ́wọ́
 language-section-in-progress-new-description = Awọn èdè yìí ń bẹ lábẹ́ ìdàgbàsókè àwùjọ lọ́wọ́. Òpá ìtẹ̀síwájú ń fi ìlọsíwájú èdè kọ̀ọ̀kan hàn <localizationGlossaryLink>ìkànnì ìsọditìbílẹ̀</localizationGlossaryLink> àti <sentenceCollectionGlossaryLink>ìkó-gbólóhùn-jọ </sentenceCollectionGlossaryLink>.
+languages-show-more = Rí sí i
+languages-show-less = Rí níwọ̀ǹba
+language-meter-in-progress = Ìtẹ̀síwájú
+language-total-progress = Àpapọ̀
+language-search-input =
+    .placeholder = Ṣàwárí
+language-speakers = Àwọn olùsọ
+localized = Ìsọditìbílẹ̀
+sentences = Àwọn gbólóhùn
+total-hours = Wákàtí ta ti yẹ̀wò
 
 ## Contribution
 
+action-click = Tẹ̀
+action-tap = Gbá
+contribute = Fi kún
+listen = Gbọ́
+skip = Fò
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Fọ́nrán
+       *[other] <bold>{ $count }</bold> Àwọn fọ́nrán
+    }
+goal-help-recording = O bá Common Voice láti dé <goalPercentage></goalPercentage> àfojúsùn ojojúmọ́{ $goalValue } àkálẹ̀ wa!
+goal-help-validation = O ti bá Common Voice dé <goalPercentage></goalPercentage> àfojúsùn ojojúmọ́ { $goalValue } àyẹ̀wo wa!
+contribute-more =
+    { $count ->
+        [one] Ṣetán láti ṣe { $count } si?
+       *[other] Ṣetán láti ṣe { $count } si?
+    }
+record-cta = Bẹ̀èrẹ̀ sí ní ṣe àkálẹ̀
+record-platform-not-supported = A tọrọ àforíjì, kò sí àtìlẹyìn fún pèkéle tí ò ń lò
+record-platform-not-supported-ios-non-safari = Lórí iOS jọ̀wọ́ tẹ̀síwájú pẹ̀lú Safari láti jẹ́ kí ìgbohùnsílẹ̀ ṣiṣẹ́…
 
 ## Reporting
 
