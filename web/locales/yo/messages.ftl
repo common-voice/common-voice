@@ -832,6 +832,8 @@ record-cancel = Pa itùnkálẹ̀ rẹ́
 record-instruction = { $actionType }<recordIcon></recordIcon> lẹ́yìn náà kí o ka gbólóhùn náà sókè
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> tí ó bá ṣe tán
 record-again-instruction = Ó dára púpọ̀!<recordIcon></recordIcon> Ṣe àkálẹ̀ fọ́nrán rẹ tí ó kàn
+record-again-instruction2 = Ó káre, ká a sílẹ̀ sí i <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Èyí tó gbẹ̀yìn!
 
 ## Reporting
 
