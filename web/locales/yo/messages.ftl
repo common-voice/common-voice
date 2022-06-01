@@ -831,6 +831,7 @@ record-error-too-quiet = Ìgbohùnsílẹ̀ ti dákẹ́ rọ́rọ́ jù
 record-cancel = Pa itùnkálẹ̀ rẹ́
 record-instruction = { $actionType }<recordIcon></recordIcon> lẹ́yìn náà kí o ka gbólóhùn náà sókè
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> tí ó bá ṣe tán
+record-again-instruction = Ó dára púpọ̀!<recordIcon></recordIcon> Ṣe àkálẹ̀ fọ́nrán rẹ tí ó kàn
 
 ## Reporting
 
