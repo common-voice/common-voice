@@ -783,6 +783,7 @@ request-language-error = A lè má tíì rí ìbéèrè náà gbà. Jọ̀wọ́
 ## Languages Overview
 
 language-section-in-progress = ó ń ṣiṣẹ́ lọ́wọ́
+language-section-in-progress-new-description = Awọn èdè yìí ń bẹ lábẹ́ ìdàgbàsókè àwùjọ lọ́wọ́. Òpá ìtẹ̀síwájú ń fi ìlọsíwájú èdè kọ̀ọ̀kan hàn <localizationGlossaryLink>ìkànnì ìsọditìbílẹ̀</localizationGlossaryLink> àti <sentenceCollectionGlossaryLink>ìkó-gbólóhùn-jọ </sentenceCollectionGlossaryLink>.
 
 ## Contribution
 
