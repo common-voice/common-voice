@@ -847,6 +847,8 @@ record-abort-continue = Parí kíkásílẹ̀
 record-abort-delete = Jáde & pa fọ́nrán rẹ́
 listen-instruction = { $actionType }<playIcon></playIcon> ṣé wọ́n sọ gbólóhùn náà bí ó ti tọ́ àti bí ó ti yẹ?
 listen-again-instruction = Iṣẹ́ tó gbayì!<playIcon></playIcon> Gbọ́ ọ lẹ́ẹ̀kan tí o bá ṣe tán
+listen-3rd-time-instruction = 2 ó ti parí, tẹ̀síwájú!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Èyí tó gbẹ̀yìn!
 
 ## Reporting
 
