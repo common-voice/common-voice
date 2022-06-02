@@ -833,6 +833,7 @@ record-error-too-quiet = Ìgbohùnsílẹ̀ ti dákẹ́ rọ́rọ́ jù
 record-cancel = Pa itùnkálẹ̀ rẹ́
 record-instruction = { $actionType }<recordIcon></recordIcon> lẹ́yìn náà kí o ka gbólóhùn náà sókè
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> tí ó bá ṣe tán
+record-three-more-instruction = Mẹ́ta láti ṣetán!
 record-again-instruction = Ó dára púpọ̀!<recordIcon></recordIcon> Ṣe àkálẹ̀ fọ́nrán rẹ tí ó kàn
 record-again-instruction2 = Ó káre, ká a sílẹ̀ sí i <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Èyí tó gbẹ̀yìn!
@@ -885,20 +886,34 @@ report-other-comment =
     .placeholder = Dá sí
 success = Àṣeyọrí
 continue = Tẹ̀ síwájú
+report-success = Ìfiráńṣẹ́ Ìròyìn náà lọ pẹ̀lú àṣeyorí
 
 ## Goals
 
 days =
     { $count ->
-        [one] ọjọ́
-       *[other] àwọn ọjọ́
+        [one] Ọjọ́
+       *[other] Àwọn ọjọ́
     }
 
 ## Dashboard
 
+you = Ìwọ
+everyone = Gbogbo èèyàn
+top-contributors = Àwọn aláfinkú tó ga jù
+recorded-clips = Àwọn fọ́nrán àkálẹ̀
+validated-clips = Àwọn fọ́nrán ta ti yẹ̀wò
+total-approved = Àpapọ̀ ìfòǹtẹ̀lù
 
 ## Custom Goals
 
+want-to-continue = Ṣé o fẹ́ tẹ̀síwájú?
+finish-editing = Parí ìṣàtúnṣe ná?
+lose-changes-warning = Kíkúrò ní báyìí túnmọ̀ sí pé, wà á pàdánù àwọn àyípadà rẹ̀
+cant-decide = O kò ní ìpinnu?
+how-many-per-day = Ó dára! Fọ́nrán mẹ́lòó ní ojúmọ́ kan?
+how-many-a-week = Ó dára! Fọ́nrán mélòó ní ọ̀sẹ̀ kan?
+which-goal-type = Ṣé o fẹ́ sọ̀rọ̀, gbọ́rọ̀ tàbí méjéèjì
 
 ## Profile Delete
 
