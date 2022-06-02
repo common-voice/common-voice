@@ -56,6 +56,7 @@ da = Danois
 de = Allemand
 dsb = Bas-sorabe
 dv = Maldivien
+dyu = Dioula
 el = Grec
 en = Anglais
 eo = Espéranto
@@ -128,8 +129,10 @@ ne-NP = Népalais
 nia = Nias
 nl = Néerlandais
 nn-NO = Norvégien nynorsk
+nso = Sotho du Nord
 nyn = Nkore
 oc = Occitan
+om = Afaan Ormoo
 or = Odia
 pa-IN = Pendjabi
 pap-AW = Papiamento (Aruba)
@@ -155,6 +158,7 @@ sl = Slovène
 so = Somali
 sq = Albanais
 sr = Serbe
+st = Sotho du Sud
 sv-SE = Suédois
 sw = Swahili
 syr = Syriaque
@@ -168,6 +172,7 @@ tk = Turkmène
 tl = Tagalog
 tok = Toki Pona
 tr = Turc
+ts = Tsonga
 tt = Tatar
 tw = Twi
 ty = Tahitien
@@ -177,6 +182,7 @@ ug = Ouïghour
 uk = Ukrainien
 ur = Ourdou
 uz = Ouzbek
+ve = Venda
 vec = Vénitien
 vi = Vietnamien
 vot = Vote
@@ -484,6 +490,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Pourquoi Common Voice ?
+about-header-description-v2 =
+    <p>Common Voice est un jeu de données public utilisant les voix de contributeurs et contributrices bénévoles du monde entier. Celles et ceux qui veulent créer des applications avec reconnaissance vocale peuvent utiliser le jeu de données pour entrainer des modèles de machine learning.</p>
+    <p>Actuellement, la plupart des jeux de données vocales appartiennent a des entreprises, ce qui freine l’innovation. Les jeux de données vocales sous-représentent également : les non-anglophones, les personnes de couleur, les personnes handicapées, les femmes et les personnes LGBTQIA+. Cela veut dire qu’une technologie qui a recours à la reconnaissance vocale ne prendra pas en charge beaucoup de langues, et pour celles qui le seront, elles ne fonctionneront pas aussi bien pour tout le monde. Nous voulons changer cela en mobilisant des personnes de tout horizon pour partager leur voix.</p>
 how-does-it-work-title-v2 = Comment fonctionne Common Voice ?
 how-does-it-work-text = Nous appelons à la participation collective pour constituer un jeu de données open source de voix. Donnez votre voix, validez la précision des échantillons d’autres personnes, améliorez le jeu de données pour tout le monde.
 
@@ -533,6 +542,8 @@ about-get-involved-text-2 =
     ou rejoignez la discussion communautaire sur <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Comment rester en contact ?
 about-stay-in-touch-button = S’inscrire
+about-stay-in-touch-text-1 = <emailFragment>Inscrivez-vous</emailFragment> à notre liste de diffusion pour découvrir comment vous pouvez participer à des campagnes, à des évènements et à la création de fonctionnalités pour Common Voice.
+about-stay-in-touch-text-2 = Vous pouvez rencontrer d’autres membres des communautés linguistiques de Mozilla en rejoignant le <discourseLink>Discourse</discourseLink> pour des conversations thématiques, ou <matrixLink>Matrix</matrixLink> pour des conseils rapides.
 about-nav-why-common-voice = Pourquoi ?
 about-nav-how-it-works = Comment ?
 about-nav-partners = Partenaires
@@ -544,16 +555,23 @@ about-nav-playbook = Découvrez comment participer
 ## What is a language
 
 about-playbook-what-is-language = Qu’est-ce qu’une langue sur Common Voice ?
+about-playbook-what-is-language-content-1 = La langue peut être abordée de différentes manières. Dans le cadre des modèles d’apprentissage machine, Common Voice recommande de se concentrer sur « l’intelligibilité mutuelle » ou de répondre à la question « les personnes qui parlent cette langue peuvent-elles à peu près se comprendre si elles essaient de se comprendre ? ».
+about-playbook-what-is-language-content-2 = Nous voulons que les modèles vocaux soient mieux à même de comprendre un large éventail de locuteurs et de locutrices. Pour que cela se produise, un jeu de données vocales doit représenter un grand nombre de personnes différentes.
+about-playbook-what-is-language-content-3 = Certaines langues ont de grandes différences au niveau de la grammaire, du vocabulaire et de la prononciation. Pour cette raison, nous allons <ctaLink>introduire les « variantes linguistiques »</ctaLink> en 2022. Cela permet aux différentes communautés de distinguer leur langue au sein d’un jeu de données plus large.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Comment ajouter une langue ?
 about-playbook-how-add-language-content-1 = Tout d’abord, vérifiez si votre langue <languageLink>existe déjà</languageLink>. Si ce n’est pas le cas, vous devrez <strong>traduire le site et collecter des phrases</strong>.
+about-playbook-how-add-language-content-2 = <strong>Pour traduire le site</strong>, <translateVideo>lancez-vous</translateVideo> sur <pontoonLink>Pontoon</pontoonLink>. Pontoon propose beaucoup de langues, mais si la vôtre n’est pas proposée, vous pouvez <pontoonRequestLink>en faire la demande</pontoonRequestLink>. Ensuite, demandez <repoLink>via GitHub</repoLink> que le projet Common Voice soit activé pour votre langue. Retrouvez davantage d’informations sur la <localizationFragment>traduction du site</localizationFragment>.
+about-playbook-how-add-language-content-3 = <strong>Pour collecter des phrases</strong>, <scVideo>lancez-vous</scVideo> sur le <scLink>collecteur de phrases</scLink>.
+about-playbook-how-add-language-content-4 = Vous pouvez <scLinkAdd>ajouter un petit nombre</scLinkAdd> de phrases ici, ou vous pouvez effectuer des <bulkImportDocsLink>importations en masse</bulkImportDocsLink> via une pull request sur GitHub. N’oubliez pas que les phrases doivent être <licenseLink>sous licence CC0 (domaine public)</licenseLink>, ou vous pouvez rédiger les vôtres. <scFragment>En savoir plus sur la collecte de phrases</scFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Comment fonctionne la traduction du site ?
 about-playbook-how-localize-content-1 = La traduction du site Common Voice s’effectue sur <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Créez un compte</pontoonAccountLink> si vous n’en avez pas. Ensuite, choisissez votre langue <strong>(« Team »)</strong> puis choisissez le projet, <pontoonCvLink>Common Voice</pontoonCvLink>. Vous verrez des fichiers à traduire. Cliquez sur l’un d’eux, puis vous verrez alors des mots en anglais et une boîte pour les traduire.
 about-playbook-how-localize-content-3 = La traduction s’effectue depuis l’anglais, mais vous pouvez voir des <strong>suggestions</strong> dans d’autres langues. Cliquez sur l’icône <strong>Profil</strong>, puis sur le lien <strong>Paramètres</strong> et ajoutez les langues que vous parlez. Dans le coin inférieur droit se trouve une liste de traductions appelées <strong>Locales</strong>. Les traductions sont publiées sur le site au bout de 24 h.
 about-playbook-how-localize-content-4 = Le site est prêt à être lancé lorsqu’il atteint 75 % d’achèvement.
 about-playbook-how-localize-content-5 = Regardez notre vidéo explicative pour vous aider
@@ -561,6 +579,8 @@ about-playbook-how-localize-content-5 = Regardez notre vidéo explicative pour v
 ## How to add sentences
 
 about-playbook-how-add-sentences = Comment ajouter des phrases ?
+about-playbook-how-add-sentences-content-1 = Le <strong>collecteur de phrases</strong> est un outil de collecte et de validation des phrases du domaine public. Vous devrez <scAccountLink>créer un compte</scAccountLink>. Ensuite, ajoutez votre langue à votre <strong>profil</strong>. Vous pouvez <strong>ajouter</strong> des phrases ou <strong>réviser</strong> des phrases ajoutées précédemment.
+about-playbook-how-add-sentences-content-2 = Les phrases doivent être révisées et acceptées par deux personnes pour être incluses dans Common Voice. Vous pouvez créer des directives pour votre langue <languageGuidelinesLink>ici</languageGuidelinesLink>. Les phrases doivent appartenir au <licenseLink>domaine public</licenseLink> et être inférieures à 15 mots. Vous pouvez demander au propriétaire d’un texte de le passer sous licence <waiverLink>CC0 en utilisant notre processus de renonciation</waiverLink>, et nous l’envoyer à commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Vous pouvez utiliser <scraperLink>l’extracteur de phrase</scraperLink> pour recueillir de courtes phrases sur Wikipédia.
 about-playbook-how-add-sentences-content-4 = Les phrases qui ont été validées sont exportées le mercredi et sont disponibles dès la version suivante.
 
@@ -578,7 +598,9 @@ about-playbook-how-record-content-5 = <accuracyLink>En savoir plus sur les crit�
 about-playbook-how-grow-language = Comment est-il possible de développer efficacement une langue sur Common Voice ?
 about-playbook-how-grow-language-content-1 = Permettre à une diversité de personnes de contribuer à Common Voice garantit que le jeu de données serve autant de personnes que possible. Nous avons créé des ressources et des modèles que vous pouvez utiliser.
 about-playbook-how-grow-language-content-2 = Évènements
+about-playbook-how-grow-language-content-3 = Vous pouvez organiser des évènements pour aider les personnes à contribuer. C’est plus facile que vous ne le pensez. Vous pouvez le faire en ligne avec un outil de visioconférence, ou en personne si les conditions le permettent. <eventTemplate>Découvrez nos modèles et ressources pour organiser des évènements</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Réseaux sociaux
+about-playbook-how-grow-language-content-5 = Vous pouvez utiliser les réseaux sociaux pour faire passer le message. Partagez des messages qui expliquent pourquoi c’est important et contactez d’autres personnes qui s’intéressent aux droits linguistiques, à l’IA vocale ou aux préjugés dans la technologie. Obtenez plus de conseils sur <campaignLink>le lancement d’une campagne sur les réseaux sociaux, y compris par rapport au contenu que vous pouvez réutiliser</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partenariats et réseaux
 about-playbook-how-grow-language-content-7 = Trouvez d’autres personnes qui s’en soucient. Il pourrait s’agir d’universités, d’écoles de langues, de groupes de défense des droits ou de communautés scientifiques autour des données. Contactez-les et expliquez clairement comment ces structures peuvent aider et pourquoi. <reachTemplates>Consultez nos modèles d’e-mails de sensibilisation</reachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Faites preuve de créativité !</strong> Votre communauté linguistique sera unique, et ce ne sont là que quelques pistes pour commencer.
@@ -588,6 +610,7 @@ about-playbook-how-grow-language-content-8 = <strong>Faites preuve de créativit
 about-playbook-how-validate = Comment savoir si un échantillon vocal doit être approuvé ?
 about-playbook-how-validate-content-1 = Si vous arrivez à <strong>les entendre</strong> et <strong>les comprendre</strong>, il est généralement <strong>préférable de les approuver</strong>.
 about-playbook-how-validate-content-2 = <strong>Ne rejetez pas les échantillons où le locuteur/la locutrice « a un accent » différent du vôtre</strong>. C’est important pour que la reconnaissance vocale fonctionne mieux pour tout le monde.
+about-playbook-how-validate-content-3 = Si vous pensez que la prononciation rend la <strong>compréhension impossible</strong>, ou qu’il y a <strong>beaucoup de bruit de fond</strong>, ou que <strong>d’autres personnes parlent en même temps</strong>, alors vous devriez rejeter l’échantillon. <accuracyLink>Voir plus d’informations sur nos critères de précision</accuracyLink>.
 about-playbook-how-validate-content-4 = Si un clip est rejeté par deux personnes, il est publié dans un sous-ensemble différent du jeu de données.
 
 ## How to access dataset
@@ -758,6 +781,8 @@ other-language = Autre langue
 ## Request Language Pages
 
 request-language-heading = Demander une nouvelle langue
+request-language-explanation-1 = Vérifiez si votre langue est répertoriée sur la <languagesPageLink>page des langues de Common Voice</languagesPageLink>. Si ce n’est pas le cas, remplissez ce formulaire et nous <strong>vous enverrons un e-mail expliquant comment configurer votre langue</strong>.
+request-language-explanation-2 = Nous allons également <strong>informer notre community manager que vous êtes intéressé·e</strong>, afin qu’il ou elle puisse vous aider ou vous fournir des informations supplémentaires dont vous pourriez avoir besoin.
 request-language-form-email =
     .label = Votre adresse e-mail
 request-language-form-info =
@@ -771,6 +796,9 @@ request-language-google-recaptcha-error = Une erreur est survenue avec reCAPTCHA
 # Success page
 request-language-success-heading = Merci ! Vous avez envoyé une nouvelle demande de langue
 request-language-success-list-1 = Vous devriez recevoir sous peu un e-mail vous expliquant les étapes pour ajouter votre langue à Common Voice
+request-language-success-list-2 = Notre community manager vous contactera pour vous proposer de l’aide supplémentaire, et vous informera si une communauté travaille déjà sur votre langue.
+request-language-success-list-3 = Si vous n’avez pas de nouvelles de notre part d’ici quelques jours, contactez <emailLink>{ $email }</emailLink> et nous vous répondrons.
+request-language-error = Nous n’avons peut-être pas reçu cette demande. Veuillez nous envoyer un e-mail directement à l’adresse <emailLink>{ $email }</emailLink> et nous vous répondrons.
 
 ## Languages Overview
 

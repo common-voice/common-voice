@@ -2,9 +2,6 @@ import * as nodemailer from 'nodemailer';
 import * as AWS from '@aws-sdk/client-ses';
 
 import { getConfig } from '../config-helper';
-import Logger from './logger';
-
-const logger = new Logger({ name: 'Email' });
 
 /**
  * See docs/email.md for more info
@@ -88,7 +85,7 @@ class Email {
 
     if (!PROD) {
       const emailPreviewUrl = nodemailer.getTestMessageUrl(info);
-      logger.info('📧 Email preview URL: ', emailPreviewUrl);
+      console.info('📧 Email preview URL: ', emailPreviewUrl);
       info.emailPreviewURL = emailPreviewUrl;
     }
 

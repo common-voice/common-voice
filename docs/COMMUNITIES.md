@@ -46,10 +46,10 @@ Many language communities are self organising and have their contact channels on
   * [Telegram](https://t.me/mozitabot) 
 * Kiswahili (`sw`):
   * [Discourse](https://discourse.mozilla.org/c/voice/sw/603)   
-* Traditional Chinese (`zh-TW`):
+* Traditional Chinese (Mandarin) (`zh-TW`) & Taiwanese (`nan-TW`):
   * [Matrix](https://chat.mozilla.org/#/room/#common-voice-tw:mozilla.org)
   * [Telegram](https://t.me/moztwcv)
-  * [Line](https://bit.ly/cv-line) 
+  * [Line](https://cvline.moztw.space) 
 * Turkic (`cv`, `tt`, `ky`, `kk`, `tr`, `sah`):
   * [Telegram](https://t.me/joinchat/WRFz62nYdmJ1uo1L)
 * Turkish (`tr`)

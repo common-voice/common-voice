@@ -1871,6 +1871,7 @@ lukin la moku li ken tawa anpa a.
 lukin la pipi ni li sama palisa kasi.
 lukin la soweli li pilin ike.
 lukin la walo sewi li puwa.
+lukin la, ijo ala li kama ante. taso waso li awen anpa e soweli Kinkili.
 lukin la, jan Kuntuli li alasa sona pona.
 lukin la, jan Kuntuli li pilin monsuta lili.
 lukin la, jan Tu li pilin monsuta lili, taso ona li weka ala.
@@ -5678,6 +5679,7 @@ soweli Pita li tawa lupa lukin, li pakala e kasi tu wan.
 soweli Pita li toki tawa ona, li wile sona e nasin weka.
 soweli Pita li weka tawa noka kasi.
 soweli Poni li soweli toki kule wawa suwi pona.
+soweli Puwan
 soweli Puwan li jo awen e lawa ona lon luka, li lukin kepeken lupa lili lon len.
 soweli Puwan li len e ale pi lawa ona kepeken len pi weka jaki, li tawa poka seli.
 soweli Puwan li wile nasa musi e soweli lili kin.
@@ -5686,6 +5688,7 @@ soweli ale li tawa lon sewi pi selo ma ni.
 soweli ale li wile e olin sina.
 soweli ali li tawa sewi kon anu seme?
 soweli ante li unpa mute, li awen pi pona ala e soweli lili.
+soweli ante li weka tawa insa kasi.
 soweli ante pi kulupu sama li lon kin.
 soweli en ilo nanpa li lukin pona taso e ante pi jan Kuntuli.
 soweli ike li wile e kili.
@@ -6617,6 +6620,7 @@ wan sijelo oko palisa jan li pilin e wawa suno.
 wan sijelo soweli li nasa lukin li ken ante sama telo.
 wan. tu. tu wan. tu tu. luka. ni li palisa ale pi luka mi.
 waso Eloju li pali e selo kule li pana e ona tawa jan Sakejen.
+waso Kapesi li lon lupa pi tomo ona, li tawa ala a, li open ala e oko.
 waso Kapesi li lukin ala a tawa soweli Kinkili.
 waso Kapesi li tawa e soweli Kinkili lon tomo ona.
 waso alasa li jo e oko wawa.

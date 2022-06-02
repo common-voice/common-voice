@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = ئیمەلەکانی سەبارەت بە 
 email-opt-in-privacy-v2 = ئەگەر خۆت تۆمار بکەی بۆ وەرگرتنی پۆستی ئەلیکترۆنی ئەوە رەزامەندی خۆت دەردەبڕی لەوەی کە مۆزیلا ئەم زانییاریانە وەک لە <privacyLink>سیاسەتی پاراستنی نهێنی</privacyLink> مۆزیلا هاتوە بەکار بێنێت.
 indicates-required = * مانای وایە کە پێویستە بینووست
 not-available-abbreviation = نییە
+banner-error-slow-1 = ببورە، پڕۆژەی دەنگی گشتی بە هێواشی کاردەکات. سپاس بۆ گرینگی پێدانی ئێوە.
+banner-error-slow-2 = ئێمە هاتوچۆیەکی زۆرمان پێدەگات و لە ئێستادا لێکۆڵینەوە لە کێشەکان دەکەین.
+banner-error-slow-link = پەڕەی دۆخ
+error-something-went-wrong = ببورن شتێک بە هەڵەدا چوو
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -96,6 +100,7 @@ ko = کۆری
 kpv = کۆمی زۆریا
 kw = کۆڕنی
 ky = قیرغستانی
+lb = لوکسەمبورگی
 lg = لوگاندا
 lij = لیگوریی
 lt = لیتوانی
@@ -333,6 +338,7 @@ profile-form-accent =
     .label = شێوەزار
 profile-form-custom-accent-help-text =
     .label = چۆن وەسفی شێوەزارەکەت دەکەیت؟
+profile-form-custom-accent-placeholder-2 = دەست بکە بە نووسین بۆ باسکردنی زاراوەکەت
 profile-form-age =
     .label = تەمەن
 profile-form-gender-2 =
@@ -376,6 +382,10 @@ skip-submission-description = لە کاتی بەشداریکردن بەشی پێ
 skip-submission-note = ئاگاداری: پێویستە لە نێوان قسەکردن یان گوێگرتن هەڵبژێری.
 off = ناکارا
 on = کارا
+help-accent = پێویستت بە هەندێک یارمەتی هەیە بۆ زاراوە؟
+help-accent-explanation = زاراوەی تۆ شێوازی بێژەکردنی وشەکانە. دەتوانرێت بەپێی ئەو شوێنەی کە لە کوێ ژیاویت، بە کام زمانی دیکە قسە دەکەیت و کۆمەڵێک هۆکاری دیکە لە قاڵب بدرێت. دەتوانیت هەر زانیارییەک کە هەستت کرد پەیوەندیدارە لێرەدا بڵاوی بکەیتەوە.
+help-variants = پێویستت بە هەندێک یارمەتی هەیە بۆ جۆرەکان؟
+help-variants-explanation = جۆرەکان فۆرمێکی تایبەتی زمانە - بۆ نموونە هاوبەشی ئەو کەسانەی کە لە جوگرافیایەک یان کۆمەڵگەیەکدا دەژین. هەندێک جار ئەمانە پێیان دەوترێت زاراوە.
 
 ## Profile - Email
 
@@ -386,6 +396,7 @@ gravatar_not_found = هیچ گراڤاتارێک پەیدا نەبوو بۆ پۆ
 file_too_large = پەڕگەی هەڵبژێردراو زۆر گەورەیە
 avatar-uploaded = وێنە نوێکرایەوە
 max-file-size = { $kb }ک.ب بەرزترین
+remove-avatar = لابردنی وێنۆچکە
 
 ## Profile - Email
 
@@ -400,6 +411,9 @@ change-email-setings = پۆستی ئەلیکترۆنیی خۆت لە بەشی ت
 faq-title = پرسیارە زۆر باوەکان
 faq-what-cv-q = دەنگی گشتی چییە؟
 faq-what-cv-a = تەکنۆلۆژی ناسینەوەی وتار شێوەی ئیش کردن لەگەڵ ئامێرەکان دەگۆڕێت بەڵام زۆربەی سیستمەکانی ئێستا گران و بازرگانین. پڕۆژەی "دەنگی گشتی" بەشێکە لە هەوڵی مۆزیلا بۆ باشتر کردنی ئەم تەکنۆلۆژییە و خستنەبەردەستی هەمووکەس. دەنگی گشتی زانیاریسێتێکی گەورەی دەنگی بەخشراوە کە هەمووکەس دەتوانن بەکاری بێنن بۆ ئامادەکردنی نەرمەکالای جۆراوجۆری ناسینەوەی وتار بۆ هەموو زمانەکان. ئێمە جگە لەو زمانانەی کە بێژەری زۆریان هەیە، زمانەکانی تریش لەخۆ دەگرین. کۆکردنەوەی زانیاریسێتێکی گەورەی دەنگەکان یارمەتی گەشەپێدەران و کۆمەڵگاکان دەدات کە خۆیان ئەم چاڵە پڕبکەنەوە. جگە لە زانیاریسێتی دەنگی گشتی، ئێمە خەریکین بزوێنەرێکی ناسینەوەی وتاریش بەناوی DeepSpeech ئامادە دەکەین.
+faq-what-cv-a-2 =
+    تەکنەلۆژیای ناسینەوەی دەنگ شۆڕشێک لە شێوازی کارلێککردنمان لەگەڵ ئامێرەکاندا دروست دەکات، بەڵام ئەو سیستەمانەی ئێستا بەردەستن گرانن و خاوەندارێتییان هەیە. دەنگی باوی مۆزیلا دەستپێشخەرییەکە بۆ ئەوەی تەکنەلۆژیاکانی ناسینەوەی دەنگ باشتر و دەستڕاگەیشتنتر بۆ هەمووان بگات. دەنگی باو بنکەیەکی زانیاری گەورەی جیهانییە لە دەنگە بەخشراوەکان کە ڕێگە بە هەر کەسێک دەدات بە خێرایی و بە ئاسانی ئەپەکانی دەنگ چالاککراو بە هەموو زمانێک ڕابهێنێت.
+    ئێمە تەنها نمونەی دەنگ بە زمانە بەرفراوانەکان کۆ ناکەینەوە بەڵکو لەو زمانانەی کە ژمارەی قسەکەریان کەمترە. بڵاوکردنەوەی کۆمەڵە داتایەکی جۆراوجۆر لە دەنگەکان گەشەپێدەران، خاوەنکاران و کۆمەڵگاکان بەهێز دەکات بۆ ئەوەی خۆیان ئەم بۆشاییە چارەسەر بکەن.
 faq-why-important-q = بۆچی گرنگە؟
 faq-why-important-a =
     وتار زۆرجار باشترین رێگەی سروشتییە بۆ پەیوەندی لەگەڵ یەکتر و تەکنۆلۆژیاکانی وتار خەریکن ئەو یاساییەی دێننە نێو کۆمپیوتەر و مۆبایلەکان. ئێمە دەمانهەوێ هێز بدەین بە گەشەپێدەران کە نەرمەکالای بەرچاوی هێزپێدراو بە تەکنۆلۆژی وتارناسی ئامادە بکەن، وەک وەرگێڕی Real-time و دەستیارانی دیجیتاڵی دەنگی. بەڵام ئێستا زۆربەی ئەو داتای دەنگییانە کە پێویستن بۆ ساز کردنی ئەم داوانامانە بەهایان زۆرە و بازرگانین. ئێمە هیوادارین کە پڕۆژەی دەنگی گشتی یارمەتی دەدات بە گەشەپێدەران بە دانی ئەو شتانەی کە پێویستیانە بۆ بەرهەم هێنانی شتی تازەو خستنە بەردەستی تەکنۆلۆژیای دەنگ بۆ زمانی خۆیان.
@@ -448,10 +462,17 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = بۆچی دەنگی گشتی؟
+about-header-description-v2 = <p>دەنگی باو کۆمەڵە داتایەکی دەنگییە کە بەردەستە بۆ گشتی، کە بە دەنگی بەشداربووانی خۆبەخش لە سەرانسەری جیهان بەهێز دەکرێت. ئەو کەسانەی کە دەیانەوێت بەرنامەی دەنگ دروست بکەن دەتوانن داتا سێتەکە بەکاربهێنن بۆ ڕاهێنانی مۆدێلی فێربوونی ئامێر.</p><p>لە ئێستادا زۆربەی داتا سێتەکانی دەنگ لەلایەن کۆمپانیاکانەوە خاوەندارێتی دەکرێن، ئەمەش داهێنانەکان دەخنکێنێت. هەروەها کۆمەڵە داتا دەنگییەکان کەم نوێنەرایەتی دەکەن: کەسانی نائینگلیزی، کەسانی ڕەنگاوڕەنگ، کەمئەندامان، ژنان و کەسانی LGBTQIA+. ئەمەش بەو مانایەیە کە تەکنەلۆژیای چالاککراوی دەنگ بە هیچ شێوەیەک بۆ زۆرێک لە زمانەکان کارناکات، و لەو شوێنانەی کە کاردەکات، لەوانەیە بە یەکسانی بۆ هەمووان کارێکی باش نەکات. ئێمە دەمانەوێت ئەوە بگۆڕین بە کۆکردنەوەی خەڵک لە هەموو شوێنێک بۆ ئەوەی دەنگیان هاوبەش بکەن.</p>
 how-does-it-work-text = ئێمە زانیاریسێتێکی کراوەی دەنگەکان کۆمەڵبەخش دەکەین. دەنگی خۆت ببەخشە، وردبەرەوە لە گرتە ئامادە کراوەکانی کەسانی تر و بیسەلمێنە و زانیاریسێتەکە بۆ هەموان باشتر بکە.
 
 ## How does it work section
 
+about-localization-title = بە خۆماڵیکردنی ماڵپەڕ
+about-sentence-collection-title = کۆکردنەوەی ڕستە
+about-sentence-collection-subtitle = ڕستەکان کۆدەکرێنەوە بۆ ئەوەی خەڵک بە دەنگی بەرز بیخوێننەوە.
+about-voice-validation-subtitle = کەسانی تر ئەو کلیپە دەنگانە پشتڕاست دەکەنەوە.
+about-dataset-release-subtitle = ئێمە هەر ٣ مانگ جارێک داتا سێتەکە بڵاو دەکەینەوە.
+about-subscribe-text = دەتەوێت لە پەیوەندیدا بمێنیتەوە لەگەڵ دەنگی باو؟
 about-speak = قسە بکە
 about-speak-text = بەشداران دەنگی خۆیان تۆماردەکەن دەکەن بە خوێندنەوەی ئەو ڕستانەی بەخشراون بە بانکی ڕستە ئامادەکراوەکان.
 about-listen-queue = ڕیزی بیستن
@@ -477,14 +498,18 @@ about-get-involved-text-2 =
     زۆر چاکە! لە رێگای پۆستی ئەلیکترۆنی یان مەکۆکانی <discourseLink>Discourse</discourseLink> پەیوەندی بکە
     لە <githubLink>GitHub</githubLink>ەوە گرفتەکانی ماڵپەڕەکەمان بۆ بنێرە،
     یان لە رێگەی <matrixLink>Matrix</matrixLink>ەوە لەگەڵمان بە.
+about-stay-in-touch = چۆن لە پەیوەندیدا بمێنمەوە؟
+about-stay-in-touch-button = خۆت تۆمار بکە
 about-nav-why-common-voice = بۆچی؟
 about-nav-how-it-works = چۆن؟
 about-nav-partners = یارمەتیدەران
 about-nav-get-involved = بەشدار بە
+about-nav-playbook = فێربە چۆن بەشداری بکەیت
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language-content-2 = ئێمە دەمانەوێت مۆدێلەکانی قسەکردن باشتر بن لە تێگەیشتن لە مەودای جۆراوجۆری قسەکەر. بۆ ئەوەی ئەمە ڕووبدات، کۆمەڵە داتایەکی دەنگ دەبێت نوێنەرایەتی کۆمەڵێک کەسی جیاواز بکات.
 
 ## How do I add a language
 
@@ -503,17 +528,21 @@ about-playbook-how-record-quality = چۆن کلیپێکی دەنگیی کوال�
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-1 = دروستکردنی دەرفەت بۆ خەڵکێکی جۆراوجۆر بۆ بەشداریکردن لە دەنگی هاوبەش دڵنیای دەدات لەوەی کە کۆمەڵە داتاکە خزمەت بە زۆرترین کەس دەکات. ئێمە سەرچاوە و قاڵبمان دروست کردووە کە دەتوانیت بەکاری بهێنیت!
 about-playbook-how-grow-language-content-4 = میدیای کۆمەڵایەتی
 
 ## How to validate
 
+about-playbook-how-validate = چۆن بزانم کلیپی دەنگی پەسەند بکەم یان نا؟
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = چۆن دەستم بگات بە داتا سێتەکە و بەکاری بهێنم؟
 
 ## How are decisions made
 
 about-playbook-how-project-governance = بڕیارەکانی پرۆژەکە چۆن دەرکراون؟
+about-playbook-how-project-governance-content-6 = لێپرسینەوەی یەکتر.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = ژیریی دەستکرد
 mycroft-description = Mycroft Ai یەکەمین یارمەتیدەی سەرچاوە کراوەی جیهانە. Mycroft لە هەموو جێگایەک ئیش دەکات، لە سەر کۆمپیوتەری ڕوومێز، لە سەیارە و لەسەر Raspberry Pi.
@@ -576,6 +605,7 @@ review-delete-recordings = دەنگەکانی من بسڕەوە
 
 ## Datasets Page
 
+datasets-heading = داتا سێتەکان
 datasets-headline = ئێمە خەریکی ساز کردنی زانیاریسێتێکی کراوە و چەند زمانەین کە هەمووکەس دەتوانن بەکاری بێنن بۆ ساز کردنی نەرمەکالای وتارناسی.
 datasets-positioning = ئێمە پێمان وایە زانیاریسێتی گەورە و گشتی گەشە دەدات بە ڕیقابەتی تیجاری و سازکردنی کالای نوێ بۆ تەکنۆلۆژیای فێرکاری ماشین. زانیاریسێتی چەندزمانەی دەنگی گشتی هەر ئێستاش گەورەترین زانیاریسێتی دەنگی لە جۆری خۆیەتی بەڵام بە تەنها خۆی نییە.
 language = زمان
@@ -646,6 +676,9 @@ request-language-success-title = داواکاری زمان ناردرا. سوپ�
 request-language-success-content = بەم زووانە لە ڕێگای پۆستی ئەلیکترۆنی زانیاریت بۆ دەنێرین کە چۆن زمانی خۆت زیاد بکەی لە دەنگی گشتی.
 select-language = زمانێک هەڵبژێرە...
 other-language = زمانی تر
+
+## Request Language Pages
+
 
 ## Languages Overview
 
@@ -943,10 +976,14 @@ contribution-criteria-nav = پێوەر
 contribution-criteria-link = لە پێوەری بەشداریکردن تێبگە
 contribution-criteria-page-title = چوارچێوەی بەشداری
 contribution-for-example = بۆ نموونە
+contribution-varying-pronunciations-description = وریابە پێش ئەوەی کلیپێک ڕەت بکەیتەوە بەو پاساوەی کە خوێنەر وشەیەکی بە هەڵە گوتووە، سترێسەکەی لە شوێنێکی هەڵەدا داناوە، یان بە ڕواڵەت نیشانەیەکی پرسیاری پشتگوێ خستووە. لە سەرانسەری جیهاندا جۆرەها بێژەکردن بەکاردەهێنرێت، کە ڕەنگە هەندێکیان لە کۆمەڵگەی ناوخۆیی خۆتدا نەتبیستبێت. تکایە پەراوێزێکی پێزانین بۆ ئەو کەسانە دابنێن کە ڕەنگە جیاواز لە تۆ قسە بکەن.
+contribution-varying-pronunciations-description-extended = لە لایەکی دیکەوە ئەگەر پێت وایە ڕەنگە خوێنەر پێشتر هەرگیز تووشی وشەکە نەبووبێت، و تەنیا پێشبینییەکی هەڵە لە بێژەکردنەکەی دەکات، تکایە ڕەتی بکەرەوە. ئەگەر دڵنیا نیت، دوگمەی skip بەکاربهێنە.
 contribution-varying-pronunciations-example-2-title = دەستی بەرزکردەوە
 contribution-background-noise-title = ژاوەژاوی پشتەوە
+contribution-background-noise-description = ئێمە دەمانەوێت ئەلگۆریتمەکانی فێربوونی ئامێر بتوانن مامەڵە لەگەڵ ژاوەژاوی جۆراوجۆری پاشبنەمادا بکەن، تەنانەت دەتوانرێت دەنگە تاڕادەیەک بەرزەکان قبوڵ بکرێت بە مەرجێک ڕێگریت لێ نەکات لە بیستنی تەواوی دەقەکە. مۆسیقای پاشبنەمای بێدەنگ باشە؛ مۆسیقایەک بە دەنگێکی بەرزەوە کە ڕێگریت لێبکات لە بیستنی هەر وشەیەک و هەموو وشەیەک نییە.
 contribution-background-voices-title = دەنگی پشتەوە
 contribution-volume-title = پلەی دەنگ
+contribution-reader-effects-description = زۆربەی تۆمارەکان ئەو کەسانەن کە بە دەنگی سروشتی خۆیان قسە دەکەن. دەتوانیت ئەو تۆمارە ناستانداردی ناوبەناو پەسەند بکەیت کە هاوار دەکرێت، چرپە دەکرێت، یان بە ئاشکرا بە دەنگێکی ‘دراماتیک’ پێشکەش دەکرێت. تکایە تۆمارە گۆرانییەکان و ئەوانەی دەنگێکی دروستکراوی کۆمپیوتەر بەکاردەهێنن ڕەت بکەرەوە.
 contribution-just-unsure-title = دڵنیا نیت؟
 see-more = <chevron></chevron>زیاتر ببینە
 see-less = <chevron></chevron>کەمتر ببینە
@@ -1077,6 +1114,7 @@ sc-confirm-button-text = دڵنیابوونەوە
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = کۆی گشتی
 sc-lang-info-title-personal = شەخسی
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
@@ -1131,6 +1169,12 @@ sc-review-form-source = سەرچاوە:{ $sentenceSource }
 sc-review-form-button-reject = پەسەندنەکردن
 sc-review-form-button-skip = تێپەڕاندن
 sc-review-form-button-approve = پەسەندکردن
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = پێداچوونەوە تەواو بکە
 # Variables:
@@ -1149,6 +1193,9 @@ sc-settings-title = ڕێکخستنەکان
 sc-settings-ui-language = زمانی ڕووکاری پیشاندان
 sc-settings-show-all-button = هەموو ڕستە تێپەڕێنراوەکان پیشان بدە دووبارە
 sc-settings-failed = نەتوانرا ڕێکخستنەکان بگۆڕدرێت. تکایە هەوڵ بدەرەوە.
+# VALIDATION
+sc-validation-number-of-words = ڕستە دەبێت لە نێوان ١ بۆ ١٤ وشەی (بە یەکەوە) لەخۆ بگرێت
+sc-validation-no-numbers = ڕستە نابێت ژمارەی تێدابێت
 
 # [/SentenceCollector]
 

@@ -9,8 +9,6 @@ const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
-const PROD_CV_GOOGLE_RECAPTCHA_SITE_KEY =
-  '6LcWLUofAAAAADi7WDALyviKfFfzWjI7vmwF5agw';
 const HASH_LENGTH = 16; // length specified for our compressed-size action
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
 
@@ -75,10 +73,6 @@ module.exports = (_env, argv) => {
 
     new webpack.DefinePlugin({
       'process.env.GIT_COMMIT_SHA': JSON.stringify(process.env.GIT_COMMIT_SHA),
-      'process.env.GOOGLE_RECAPTCHA_SITE_KEY': JSON.stringify(
-        process.env.CV_GOOGLE_RECAPTCHA_SITE_KEY ||
-          PROD_CV_GOOGLE_RECAPTCHA_SITE_KEY
-      ),
     }),
   ];
 

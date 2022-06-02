@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ja tak, send mig gerne e-mails. Jeg ønsker at holde mig informeret om Common Voice Project.
+yes-receive-emails = Ja tak, send mig gerne e-mails. Jeg ønsker at holde mig informeret om projektet Common Voice.
 stayintouch = Hos Mozilla bygger vi et fællesskab omkring stemmeteknologi. Vi vil gerne holde kontakten med opdateringer, nye datakilder og høre mere om, hvordan du bruger disse informationer.
 privacy-info = Vi lover at behandle dine oplysninger på betryggende vis. Læs mere i vores <privacyLink>Privatlivspolitik</privacyLink>.
 return-to-cv = Vend tilbage til Common Voice
@@ -571,6 +571,7 @@ about-playbook-how-localize-content-5 = Se vores videoforklaring for hjælp
 about-playbook-how-add-sentences = Hvordan tilføjer jeg sætninger?
 about-playbook-how-add-sentences-content-1 = <strong>Sætnings-indsamleren</strong> er et værktøj til at indsamle og validere sætninger i det offentlige domæne. Du skal <scAccountLink>oprette en konto</scAccountLink>. Tilføj derefter dit sprog til din <strong>profil</strong>. Du kan <strong>tilføje</strong> sætninger eller <strong>gennemgå</strong> tidligere tilføjede sætninger.
 about-playbook-how-add-sentences-content-2 = Sætninger skal gennemgås og accepteres af to personer for at blive inkluderet i Common Voice. Du opretter retningslinjer for dit sprog <languageGuidelinesLink>her</languageGuidelinesLink>. Sætninger skal være i det <licenseLink>offentlige domæne</licenseLink> og være kortere end 15 ord. Du kan bede ejeren af en tekst om at gøre den til <waiverLink>CC0 ved hjælp af vores afståelsesproces</waiverLink> og sende den til os på commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Du kan bruge <scraperLink>Sætningsudtrækkeren</scraperLink> til at benytte korte sætninger fra Wikipedia.
 about-playbook-how-add-sentences-content-4 = Sætninger, der er blevet valideret, eksporteres om onsdagen og er tilgængelige efter næste udgivelse.
 
 ## How to record quality
@@ -584,12 +585,15 @@ about-playbook-how-record-content-5 = <accuracyLink>Se mere om nøjagtighedskrit
 
 ## How to grow language
 
+about-playbook-how-grow-language = Hvordan kan vi effektivt udvikle et sprog på Common Voice?
 about-playbook-how-grow-language-content-1 = Datasættet skal kunne hjælpe så mange mennesker som muligt - og det opnår vi bedst ved at sørge for, at mange forskellige mennesker kan bidrage til Common Voice. Vi har lavet ressourcer og skabeloner, du kan bruge!
 about-playbook-how-grow-language-content-2 = Begivenheder
 about-playbook-how-grow-language-content-3 = Du kan afholde begivenheder for at hjælpe folk med at bidrage. Det er nemmere end du tror. Du kan gøre det online med et videokonferenceværktøj eller personligt, hvis det er muligt. <eventTemplate>Tjek vores skabeloner og ressourcer til at køre begivenheder</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sociale medier
 about-playbook-how-grow-language-content-5 = Du kan bruge sociale medieplatforme til at få budskabet ud. Del opslag, der forklarer, hvorfor det er vigtigt, og kom i kontakt med andre, der diskuterer spørgsmål som sprogrettigheder, stemme-AI eller hvilken rolle fordomme spiller i udvikling af teknologi. Se flere råd om <campaignLink>afholdelse af sociale kampagner, inklusive indhold, du kan genbruge</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerskaber og netværk
+about-playbook-how-grow-language-content-7 = Find andre, der interesserer sig for de samme ting. Det kunne være universiteter, sprogskoler, græsrodsbevægelser eller videnskabssamfund. Kontakt dem og forklar klart, hvordan de kan hjælpe og hvorfor. <outreachTemplates>Se vores skabeloner for opsøgende e-mails</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Vær kreativ!</strong> Dit sprogfællesskab er unikt, og dette er blot nogle få måder at komme i gang på.
 
 ## How to validate
 
@@ -718,6 +722,8 @@ feedback-q = Har du feedback?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er et <docsLink>open source-værktøjssæt</docsLink> til forskere, der udvikler avancerede samtale-AI-modeller.
 resource-deepspeech-info = Datasættet fra Common Voice supplerer Deep Speech, en open source-tjeneste til stemmegenkendelse fra Mozilla, som du kan bruge til at bygge software, der gør brug af stemmegenkendelse. Få <githubLink>overblik over projektet på Github</githubLink> eller deltag i <discourseLink>diskussionen om Deepspeech på Discourse</discourseLink> for at komme godt i gang.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> er dedikeret til åben taleteknologi. Deres projekter omfatter deep learning-baserede STT- og TTS-motorer.
+community-playbook = Fællesskabsguide
+resource-playbook-info = <playbookLink>Find nyttig vejledning</playbookLink> om hele Common Voice-rejsen, fra oversættelse til brug af datasæt, og hvordan du bliver en del af fællesskabet.
 data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus er lavet på baggrund af taler og deres transskriptioner fra TED's websted.
@@ -1125,6 +1131,8 @@ contribution-misreadings-title = Fejllæsninger
 contribution-misreadings-description = Når du lytter, så tjek meget omhyggeligt, at det, der er blevet optaget, er præcis det, der er blevet skrevet; afvis, hvis der er selv mindre fejl. <br />Meget almindelige fejl omfatter:
 contribution-misreadings-description-extended-list-1 = Manglende <strong>'En'/'Et'</strong> eller <strong>'Den'/Det'</strong> i begyndelsen af optagelsen.
 contribution-misreadings-description-extended-list-2 = Manglende <strong>'s'</strong> i slutningen af et ord.
+contribution-misreadings-description-extended-list-3 = Oplæsning af sammentrækninger, der faktisk ikke er der, såsom engelske "we're" i stedet for "we are", eller omvendt.
+contribution-misreadings-description-extended-list-4 = Manglende slutningen af det sidste ord ved at afbryde optagelsen for hurtigt.
 contribution-misreadings-description-extended-list-5 = Flere forsøg på at læse et ord.
 contribution-misreadings-example-1-title = De gigantiske dinosaurer i trias.
 contribution-misreadings-example-2-title = Den gigantiske dinosaur i trias.
@@ -1139,6 +1147,7 @@ contribution-misreadings-example-7-explanation = [Intet ‘noget' i den original
 contribution-misreadings-example-8-title = Humlebien susede forbi.
 contribution-misreadings-example-8-explanation = [Ikke matchende indhold]
 contribution-varying-pronunciations-title = Forskellige udtaler
+contribution-varying-pronunciations-description = Vær forsigtig, når du overvejer at afvise et klip, fordi du synes at oplæseren har udtalt et ord forkert, lægger trykket forkert eller tilsyneladende har overset et spørgsmålstegn. Der er mange måder at bruge sproget på - og det er ikke sikkert, at du har hørt dem alle. Husk at tænke på, at der findes mennesker, der taler anderledes end du gør.
 contribution-varying-pronunciations-description-extended = Hvis du på den anden side får indtrykket af, at oplæseren aldrig er stødt på ordet før og simpelthen gætter på, hvordan det skal udtales - så afvis optagelsen. Hvis du er usikker, så klik på knappen "Spring over".
 contribution-background-noise-title = Baggrundsstøj
 contribution-background-noise-description = Vi ønsker, at maskinlæringsalgoritmerne skal kunne håndtere forskellig baggrundsstøj, og selv relativt høje lyde kan accepteres, forudsat at de ikke forhindrer dig i at høre hele teksten. Stille baggrundsmusik er OK; musik der er så høj at det forhindrer dig i at høre hvert eneste ord, er ikke.
@@ -1153,6 +1162,7 @@ contribution-background-voices-description-extended = Hvis der er udfald eller k
 contribution-background-voices-example-1-title = De gigantiske dinosaurer i trias. <strong>[læst af én stemme]</strong>
 contribution-background-voices-example-1-explanation = Kommer du? <strong>[sagt af en anden]</strong>
 contribution-volume-title = Lydstyrke
+contribution-volume-description = Der vil være naturlige variationer i lydstyrken mellem oplæsere. Afvis kun, hvis lydstyrken er så høj, at den ødelægger optagelsen, eller (mere almindeligt), hvis den er så lav, at du ikke kan høre, hvad der bliver sagt uden henvisning til den skrevne tekst.
 contribution-reader-effects-description = De fleste optagelser er af mennesker, der taler med deres naturlige stemme. Du kan acceptere den lejlighedsvise ikke-standardoptagelse, hvor der bliver råbt, hvisket eller åbenlyst leveret med en 'dramatisk' stemme. Afvis venligst sungne optagelser og dem, der bruger en computersyntetiseret stemme.
 contribution-just-unsure-title = Bare usikker?
 contribution-just-unsure-description = Hvis du støder på noget, som disse retningslinjer ikke dækker, bedes du stemme efter din bedste vurdering. Hvis du virkelig ikke kan beslutte dig, så brug knappen 'Spring over' og gå videre til næste optagelse.
@@ -1187,7 +1197,9 @@ sc-logout-button = Log ud
 ## HOME
 
 sc-home-title = Velkommen til Common Voice Sætningsindsamler
+sc-home-intro = Sætningsindsamleren er en del af <commonVoiceLink>Common Voice</commonVoiceLink>. Værktøjet giver bidragydere mulighed for at indsamle og validere sætninger skabt af fællesskabet. Du kan også bruge dette værktøj til at importere og rydde op i små til mellemstore offentlige tekstsamlinger, du har fundet eller indsamlet. Alle sætninger skal være i det offentlige domæne. Godkendte sætninger eksporteres hver uge til Common Voice-lageret og frigives på Common Voice-webstedet ved hver ny opdatering.
 sc-home-collect-title = Indsaml sætninger
+sc-home-collect-text = Hjælp os ved at skrive eller samle sætninger, der ikke er omfattet af ophavsretten.
 sc-home-review-title = Gennemgå sætninger
 sc-home-review-text = Hjælp os ved at gennemgå sætninger for korrekthed i henhold til retningslinjerne.
 
@@ -1201,12 +1213,18 @@ sc-howto-title = Sådan gør du
 sc-howto-addlang-title = Tilføjelse af sprog at arbejde med
 sc-howto-addlang-text = Når du er logget ind, kan du vælge dine sprog fra profilsektionen.
 sc-howto-addsen-title = Tilføj nye sætninger
+sc-howto-addsen-item-1 = Alle sætninger, du indsender, skal være offentliggjort under licensen <wikipediaLink>Public Domain (CC-0)</wikipediaLink>. For at kunne inkludere værker, der ikke er under offentlig licens, har vi oprettet en <cc0WaiverLink>bidragsaftaleskabelon</cc0WaiverLink> for værker, hvor ophavsretsejeren gerne vil bidrage med materialet til Common Voice.
 sc-howto-addsen-item-2 = Tal. Der bør ikke være cifre i kildeteksten, fordi de kan give problemer, når de læses højt. Måden et tal læses på afhænger af kontekst og kan skabe forvirring i datasættet. For eksempel kunne tallet "2409" læses nøjagtigt som både "fireogtyve nul ni" og "to tusinde fire hundrede ni".
 sc-howto-addsen-item-3 = Forkortelser og akronymer. Forkortelser og akronymer som "USA" eller "ICE" bør undgås i kildeteksten, fordi de kan læses på en måde, der ikke stemmer overens med deres stavemåde. Derudover kan der være flere nøjagtige aflæsninger for en enkelt forkortelse. For eksempel kunne akronymet "ICE" udtales "I-C-E" eller som et enkelt ord.
 sc-howto-addsen-item-4 = Tegnsætning. Særlige symboler og tegnsætning bør kun inkluderes, når det er absolut nødvendigt. For eksempel er en apostrof inkluderet i engelske ord som "don't" og "we're" og bør inkluderes i kildeteksten, men det er usandsynligt, at du nogensinde får brug for et specielt symbol som "@" eller "#. ”
 sc-howto-addsen-item-5 = Udenlandske bogstaver. Bogstaver skal være gyldige på det sprog, der tales. For eksempel er "ж" et bogstav i det russiske alfabet, men det bruges aldrig på dansk og bør derfor aldrig forekomme i nogen dansk kildetekst.
 sc-howto-addsen-item-6 = Sprog kan have deres <validationRulesLink>egne valideringsregler</validationRulesLink> med yderligere krav. Hvis der ikke er nogen specifik valideringsfil for et sprog, bruger vi de generiske engelske regler.
+sc-howto-addsen-post-1 = Vi vil helst have sætninger, der kunne forekomme i en almindelig samtale. Selvom fonetisk mangfoldighed og forskellige ord i sætninger er vigtigt, forsøger vi at gøre det så sjovt som muligt at optage sætninger. Derfor ville det være fantastisk, hvis du kunne prøve at holde dine sætninger så naturlige og engagerende som muligt.
+sc-howto-cite-title = Sådan citeres
+sc-howto-cite-pre-1 = Det er vigtigt, at du refererer til, hvor du fandt den offentlige licens for at undgå plagiat og for at give mulighed for opfølgning på <copyrightIssuesLink>ophavsretlige spørgsmål</copyrightIssuesLink>. Her er et par måder, du kan citere værket på.
 sc-howto-cite-item-1 = Du kan inkludere webstedet, f.eks. "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Du kan bruge akademisk referencestil, fx Harvard-stil: "Mozilla (2021) Common Voice. Tilgængelig på https://commonvoice.mozilla.org/ (Besøgt: 15. september 2021)"
+sc-howto-cite-item-3 = For tekst i det offentlige domæne, der ikke er tilgængelig online, kan du bruge akademisk referencestil, fx Harvard-stilen: "Kirsten (2021) Mine digte i offentligt domæne"
 sc-howto-review-title = Gennemgå sætninger
 sc-howto-review-subtitle = Sørg for, at sætningen opfylder følgende kriterier:
 sc-howto-review-criteria-1 = Sætningen skal være stavet korrekt.
@@ -1214,14 +1232,22 @@ sc-howto-review-criteria-2 = Sætningen skal være grammatisk korrekt.
 sc-howto-review-criteria-3 = Sætningen skal kunne siges.
 sc-howto-review-criteria-4 = Hvis sætningen opfylder kriterierne, skal du klikke på knappen "Godkend".
 sc-howto-review-criteria-5 = Hvis sætningen ikke opfylder ovenstående kriterier, skal du klikke på knappen "Afvis". Hvis du er usikker på sætningen, kan du også springe den over og gå videre til den næste.
+sc-howto-review-criteria-6 = Hvis du løber tør for sætninger at gennemgå, må du meget gerne hjælpe os med at indsamle flere sætninger!
+sc-howto-findpd-title = Find eksisterende sætninger i det offentlige domæne
 sc-howto-findpd-subtitle = Søg efter dem på internettet
+sc-howto-findpd-text-2 = Husk, at vi har brug for tilladelse til at offentliggøre disse sætninger, så sørg altid for, at teksten tilhører det <wikipediaLink>offentlige domæne</wikipediaLink>. Hvis der ikke er nogen eksplicit indikation, skal du kontakte den person, som teksten tilhører, og spørge, om de vil bidrage med deres tekst til det offentlige domæne. Hvis de vil, skal du hjælpe dem med at gennemgå <cc0WaiverLink>bidragsaftale</cc0WaiverLink>-processen. Hvis de ikke ønsker at bidrage med teksten, så må du ikke bruge den tekst.
 sc-howto-findpd-tips = Her er nogle tips til at finde sætninger:
 sc-howto-findpd-tips-1 = De bedste kilder, du kan lede efter, er podcasts, transskriptioner, filmmanuskripter og alt, hvad der potentielt kan indeholde hverdagssamtaler.
+sc-howto-findpd-tips-2 = Referater, bøger og artikler udgivet af regeringer er også brugbare. Men da teksterne har en tendens til at være lidt mere formelle har de lavere prioritet.
 sc-howto-findpd-tips-3 = Desværre kan vi ikke have Wikipedia-artikler endnu. Så lad være med at kopiere ind derfra.
+sc-howto-findpd-subtitle-2 = Arbejd sammen med lokale organisationer eller enkeltpersoner
+sc-howto-findpd-partner-1 = Der er mange offentlige organisationer, der måske vil samarbejde, og som allerede har en masse tekster uden ophavsret, de kan donere. Prøv at kontakte lokale universiteter, regeringer og open source-organisationer for at tale om projektet og bede om deres hjælp.
+sc-howto-findpd-partner-2 = Erfarne lingvister kan også være til stor hjælp. Prøv at kontakte sprogvidenskabelige institutter ved dit lokale universitet (både lærere og studerende) og hør, om de kan hjælpe med at indsamle et mangfoldigt udbud af sætninger med forskellig udtale på dit sprog.
 
 ## MY SENTENCES
 
 sc-my-title = Mine sætninger
+sc-my-description = Denne side giver dig et overblik over alle dine indsendte sætninger. Du kan også slette allerede indsendte sætninger, hvis det er nødvendigt, ved at markere afkrydsningsfeltet ud for sætningen, og klikke på &quot;Slet valgte sætninger&quot; nederst på siden. Fjern kun sætninger, hvis det er absolut nødvendigt, for eksempel hvis du har bemærket, at en sætning er beskyttet af ophavsret.
 sc-my-loading = Indlæser dine sætninger...
 sc-my-err-fetching = Fejl under hentning af dine sætninger. Prøv igen.
 sc-my-no-sentences = Ingen sætninger fundet!
@@ -1233,6 +1259,7 @@ sc-my-submission = Indsendelse: { $batchId }
 sc-my-source = Kilde:  { $source }
 sc-my-delete = Slet valgte sætninger
 sc-my-deleting = Sletter valgte sætninger...
+sc-my-err-failed-delete = Kunne ikke slette valgte sætninger... Prøv igen!
 
 ## REJECTED
 
@@ -1246,16 +1273,32 @@ sc-rejected-none-found = Ingen afviste sætninger fundet!
 sc-stats-title = Statistikker
 sc-stats-updating = Opdaterer…
 sc-stats-error = Vi kunne ikke hente statistikkerne. Prøv igen senere.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice' sætnings-indsamler har indsamlet { $sentenceCount } sætninger på { $languageCount } sprog!
 
 ## ADD
 
+sc-submit-err-select-lang = Vælg et sprog.
+sc-submit-err-add-sentences = Tilføj sætninger.
+sc-submit-err-add-source = Tilføj en kilde.
+sc-submit-err-confirm-pd = Bekræft, at disse sætninger er offentligt domæne.
+sc-submit-prompt =
+    .message = Sætningerne er ikke indsendt. Er du sikker på, at du vil forlade siden?
 sc-submit-title = Tilføj sætninger
 sc-submit-select-language =
     .labelText = Vælg sprog
+sc-submit-add-sentences = Tilføj sætninger fra <wikipediaLink>offentligt domæne</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = En sætning pr. linje
+sc-submit-from-where = Hvor stammer disse <wikipediaLink>offentligt domæne</wikipediaLink>-sætninger fra?
+sc-submit-ph-read-how-to =
+    .placeholder = Læs vores 'Sådan gør du', hvis du er usikker på, hvordan du krediterer
+sc-submit-confirm = Jeg bekræfter, at disse sætninger er i <wikipediaLink>offentligt domæne</wikipediaLink>, og at jeg har tilladelse til at uploade dem.
 sc-submit-button =
     .submitText = Indsend
+sc-submit-filtered = Sætninger, der er frasorterede, fordi de ikke lever op til kravene. (Indsend rettede versioner som nye sætninger):
 sc-submit-guidelines = Tjek venligst <howToLink>retningslinjerne</howToLink>.
 
 ## ADD LANGUAGE
@@ -1285,6 +1328,8 @@ sc-add-lang-process-notice = Hvis dit sprog ikke er angivet her, kan du anmode o
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Sætningerne er ikke indsendt. Er du sikker på, at du vil forlade siden?
 sc-confirm-sentences-title = Bekræft nye sætninger
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
@@ -1314,6 +1359,8 @@ sc-confirm-ready =
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } sætninger er ikke gennemgået. Hvis du vil, kan du også gennemgå dine sætninger nu, inden du indsender dem.
+sc-confirm-button-text = Bekræft
+sc-confirm-uploading = Sætningerne er ved at blive uploadet. Dette kan tage flere minutter afhængigt af antallet af tilføjede sætninger. Luk venligst ikke websiden.
 
 ## LANGUAGE INFO
 
@@ -1328,6 +1375,14 @@ sc-lang-info-total =
        *[other] { $totalSentences } sætninger i alt.
     }
 # Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ingen sætninger under gennemgang.
+        [one] En sætning under gennemgang.
+       *[other] { $totalInReview } sætninger under gennemgang.
+    }
+# Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
@@ -1337,6 +1392,14 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Gennemse nu!</reviewLink>
 sc-lang-info-add-more = <addLink>Tilføj flere sætninger nu!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ingen validerede sætninger.
+        [one] En valideret sætning.
+       *[other] { $validatedSentences } validerede sætninger.
+    }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
@@ -1356,6 +1419,8 @@ sc-login-err-try-again = Prøv igen.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Kunne ikke fjerne sproget; sproget blev ikke fundet
+sc-personal-err-remove = Kunne ikke fjerne sproget
 sc-personal-your-languages = Dine sprog:
 sc-personal-remove-button = fjern
 # Variables:
@@ -1365,24 +1430,39 @@ sc-personal-not-added = Du har ikke tilføjet nogen sprog endnu.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Kriterier for gennemgang
+sc-criteria-title = Kriterier for gennemgang
 sc-criteria-make-sure = Sørg for, at sætningen opfylder følgende kriterier:
 sc-criteria-item-1 = Sætningen skal være stavet korrekt.
 sc-criteria-item-2 = Sætningen skal være grammatisk korrekt.
 sc-criteria-item-3 = Sætningen skal kunne siges.
 sc-criteria-item-4 = Hvis sætningen opfylder kriterierne, skal du klikke på knappen &quot;Godkend&quot; til højre.
 sc-criteria-item-5-2 = Hvis sætningen ikke opfylder ovenstående kriterier, skal du klikke på knappen &quot;Afvis&quot; til venstre. Hvis du er usikker på sætningen, kan du også springe den over og gå videre til den næste.
+sc-criteria-item-6 = Hvis du løber tør for sætninger at gennemgå, må du meget gerne hjælpe os med at indsamle flere sætninger!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Du har ikke valgt sprog. Gå til din <profileLink>profil</profileLink> for at vælge sprog.
 sc-review-title = Gennemgå sætninger
 sc-review-loading = Indlæser sætninger...
+sc-review-select-language = Vælg et sprog for at gennemgå sætninger.
 sc-review-no-sentences = Ingen sætninger at gennemgå. <addLink>Tilføj flere sætninger nu!</addLink>
+sc-review-form-prompt =
+    .message = Gennemgåede sætninger er ikke indsendt, er du sikker?
+sc-review-form-usage = Stryg til højre for at godkende sætningen. Stryg til venstre for at afvise den. Stryg op for at springe den over. <strong>Glem ikke at indsende din gennemgang!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Kilde: { $sentenceSource }
 sc-review-form-button-reject = Afvis
 sc-review-form-button-skip = Spring over
 sc-review-form-button-approve = Godkend
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = G
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = A
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Du kan også bruge tastaturgenveje: { sc-review-form-button-approve-shortcut } for at Godkende, { sc-review-form-button-reject-shortcut } for at Afvise, { sc-review-form-button-skip-shortcut } for at Springe over
 sc-review-form-button-submit =
     .submitText = Afslut gennemgang
 # Variables:
@@ -1393,11 +1473,13 @@ sc-review-form-reviewed-message =
         [one] En sætning gennemgået. Tak skal du have!
        *[other] { $sentences } sætninger gennemgået. Tak skal du have!
     }
+sc-review-form-review-failure = Gennemgangen kunne ikke gemmes. Prøv igen senere.
 sc-review-link = Gennemgang
 
 ## SETTINGS
 
 sc-settings-title = Indstillinger
+sc-settings-ui-language = Sprog i brugerfladen
 sc-settings-reset-skipped = Nulstil oversprungne sætninger
 sc-settings-skipped-decription = Du har tidligere sprunget sætninger over, mens du gennemgik. Nulstilling af oversprungne sætninger vil vise alle oversprungne sætninger igen. Dette er uafhængigt af sproget.
 sc-settings-show-all-button = Vis alle oversprungne sætninger igen
@@ -1410,3 +1492,5 @@ sc-validation-no-abbreviations = Sætning bør ikke indeholde forkortelser
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Vælg sprog/oversættelse

@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = Motta e-post om utfordrings- og målpåmi
 email-opt-in-privacy-v2 = Ved å registrere deg for å motta e-post godtar du at Mozilla håndterer denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
 indicates-required = * Indikerer obligatorisk felt
 not-available-abbreviation = ikke tilgjengelig
+banner-error-slow-1 = Beklager, Common Voice kjører sakte. Takk for din interesse.
+banner-error-slow-2 = Vi mottar mye trafikk og undersøker nå problemene.
+banner-error-slow-link = Statusside
+error-something-went-wrong = Beklager, noe gikk galt.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -98,6 +102,7 @@ ko = Koreansk
 kpv = Komi-syriansk
 kw = Cornisk
 ky = Kirgisisk
+lb = Luxembourgsk
 lg = Luganda
 lij = Ligurisk
 lt = Litauisk
@@ -132,6 +137,7 @@ pl = Polsk
 ps = Pashto
 pt = Portugisisk
 quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Sursilvan Retoromansk
 rm-vallader = Vallader
 ro = Rumensk
@@ -155,6 +161,9 @@ ta = Tamilsk
 te = Telugu
 tg = Tadsjikisk
 th = Thai
+ti = Tigrinja
+tig = Tigre
+tk = Turkmensk
 tl = Tagalog
 tr = Tyrkisk
 tt = Tatar
@@ -332,6 +341,9 @@ profile-form-additional-language =
     .label = Øvrige språk
 profile-form-language =
     .label = Språk
+profile-form-variant =
+    .label = Hvilken variant av { $language } snakker du?
+profile-form-variant-default-value = Ingen variant valgt.
 profile-form-accent =
     .label = Dialekt
 profile-form-custom-accent-help-text =
@@ -347,6 +359,7 @@ hidden = Skjult
 visible = Synlig
 native-language =
     .label = Morsmål
+profile-form-add-accent = Legg til ny tilpasset dialekt «{ $inputValue }»
 profile-form-submit-save = Lagre
 profile-form-submit-saved = Lagret
 male = Mann
@@ -380,6 +393,10 @@ skip-submission-description = I løpet av bidragsinnsendelse vil tilbakemelding 
 skip-submission-note = Merk: Du må fortsatt velge mellom Tal eller Lytt for å endre bidragstype.
 off = Av
 on = På
+help-accent = Trenger du hjelp med dialekt?
+help-accent-explanation = Dialekten din er måten du uttaler ord på. Det kan formes av hvor du har bodd, hvilke andre språk du snakker og mange andre faktorer. Du kan dele all informasjon du føler er relevant her.
+help-variants = Trenger du hjelp med varianter?
+help-variants-explanation = Varianter er en spesifikk form for et språk - for eksempel delt av de som bor i en geografi eller et samfunn. Noen ganger kalles disse dialekter.
 
 ## Profile - Email
 
@@ -390,6 +407,7 @@ gravatar_not_found = Ingen gravatar funnet for din e-postadresse
 file_too_large = Den valgte filen er for stor
 avatar-uploaded = Avatar lastet opp
 max-file-size = maks { $kb } kb
+remove-avatar = Fjern avatar
 
 ## Profile - Email
 
@@ -659,6 +677,9 @@ request-language-success-title = Språkforespørselen er sendt inn. Takk skal du
 request-language-success-content = Vi kontakte deg med mer informasjon om hvordan du legger til språket ditt i Common Voice ganske snart.
 select-language = Velg Språk...
 other-language = Annet Språk
+
+## Request Language Pages
+
 
 ## Languages Overview
 
@@ -981,6 +1002,9 @@ see-less = <chevron></chevron>Se mindre
 
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO

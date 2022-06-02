@@ -155,6 +155,7 @@ sl = Szlovén
 so = Szomáli
 sq = Albán
 sr = Szerb
+st = Szeszotó
 sv-SE = Svéd
 sw = Szuahéli
 syr = Szír

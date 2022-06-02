@@ -448,6 +448,7 @@ about-nav-how-it-works = איך?
 about-nav-partners = שותפים
 about-nav-get-involved = הצטרפות
 about-nav-how-it-works-2 = איך Common Voice פועל?
+about-nav-playbook = מידע כיצד לקחת חלק
 
 ## Community Playbook Content
 ## What is a language
@@ -980,6 +981,12 @@ sc-review-form-source = מקור: { $sentenceSource }
 sc-review-form-button-reject = דחייה
 sc-review-form-button-skip = דילוג
 sc-review-form-button-approve = אישור
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = כ
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = ל
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = ד
 sc-review-form-button-submit =
     .submitText = סיום הסקירה
 # Variables:
