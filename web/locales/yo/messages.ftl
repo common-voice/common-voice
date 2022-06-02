@@ -876,7 +876,9 @@ report-ask = Àwọn ìṣòro wo lò ń dojúkọ nínú un gbólóhu
 report-offensive-language = Èdè àlùfàǹṣá
 report-offensive-language-detail = Gbólóhùn náà ní ọ̀rọ̀ àbùkù tàbí ọ̀rọ̀ àlùfàǹṣá
 report-difficult-pronounce = Ṣòro láti pè
+report-difficult-pronounce-detail = O ní àwọn ọ̀rọ̀ tàbí gbólóhùn tí wọ́n le láti kà tàbí pè
 report-offensive-speech = Ifọ̀ àlùfàǹṣá
+report-offensive-speech-detail = Fọ́nrán náà ní ọ̀rọ̀ àbùkù tàbí ọ̀rọ̀ amúnúbíni
 report-other-comment =
     .placeholder = Dá sí
 success = Àṣeyọrí
@@ -884,6 +886,11 @@ continue = Tẹ̀ síwájú
 
 ## Goals
 
+days =
+    { $count ->
+        [one] ọjọ́
+       *[other] àwọn ọjọ́
+    }
 
 ## Dashboard
 
