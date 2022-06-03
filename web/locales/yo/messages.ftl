@@ -951,6 +951,8 @@ download-recordings-info = àfikún àwọn mp3 àti irúfẹ́ gbolóhùn, lè 
 download-recordings-size = oní báìtì-púpọ̀
 download-recordings-unavailable = O kò lè bèèrè àkálẹ̀ rẹ nígbà tí ìbéèrè mìíràn ń lọ lọ́wọ́
 download-selected = yàn
+download-start = Gba data púrófáìlì
+download-request = Bèèrè ìkásílẹ̀
 
 ## Landing
 
