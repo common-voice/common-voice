@@ -948,6 +948,8 @@ download-profile-info = ṣe àfikún ímeèlì, orúkọ tí ò ń lò & àbùd
 download-profile-size = àwọn báìtì díẹ̀
 download-recordings-title = Àwọn àkálẹ̀
 download-recordings-info = àfikún àwọn mp3 àti irúfẹ́ gbolóhùn, lè gba àkókò díẹ̀ kí wọ́n tó ṣe tán
+download-recordings-size = oní báìtì-púpọ̀
+download-recordings-unavailable = O kò lè bèèrè àkálẹ̀ rẹ nígbà tí ìbéèrè mìíràn ń lọ lọ́wọ́
 
 ## Landing
 
