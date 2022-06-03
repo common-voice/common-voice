@@ -563,6 +563,8 @@ about-playbook-how-access-dataset = چۆن دەستم بگات بە داتا س�
 ## How are decisions made
 
 about-playbook-how-project-governance = بڕیارەکانی پرۆژەکە چۆن دەرکراون؟
+about-playbook-how-project-governance-content-2 = حکومەتەکەمان دامەزراوە لەسەر بنەمای:
+about-playbook-how-project-governance-content-3 = تایبەتێتی، پارێزەری و ڕوونی
 about-playbook-how-project-governance-content-6 = لێپرسینەوەی یەکتر.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = ژیریی دەستکرد
@@ -700,6 +702,21 @@ other-language = زمانی تر
 
 ## Request Language Pages
 
+request-language-heading = پرسیاربکە دەربارەی زمانێکی نوێ
+request-language-form-email =
+    .label = ناونیشانی ئیمەیڵەکەت
+request-language-form-info =
+    .label = زانیاریی دەربارەی زمانەکە
+request-language-form-info-explanation = هێندەی دەتوانیت زانیاریی زیادبکە دەربارەی زمانەکە. ئەوەش دەکرێت ئەم شتانە بگرێتەخۆی:
+request-language-form-info-explanation-list-1 = ناوی زمانەکەت
+request-language-form-info-explanation-list-3 = بەستەری ئەو وێبگانەی کە دەکرێت یارمەتیمان بدات لە زمانەکەت تێبگەین
+request-language-google-recaptcha-required = reCAPTCHA داواکراوە، ئەگەر بەردەوامبوونت دەوێت
+request-language-google-recaptcha-error = هەڵەیەک ڕوویدا لە reCAPTCHA. تکایە هەوڵ بدەرەوە.
+# Success page
+request-language-success-heading = سوپاس! پرسینی زمانێکی نوێت نارد
+request-language-success-list-1 = دەبێت بەزوویی ئیمەیڵێکت بەدەست بگات، ئەو هەنگاوانە ڕووندەکاتەوە کە زمانەکەتی پێ زیاددەکرێت بۆ دەنگی گشتی
+request-language-success-list-3 = ئەگەر لە یەک دوو ڕۆژدا هیچت لە ئێمەوە نەبیست، پەیوەندیمان پێوەبکە لە <emailLink>{ $email }</emailLink> و دەگەڕێینەوە لات!
+request-language-error = لەوانەیە ئەو داواکارییەمان پێ نەگەیشتبێت. تکایە ڕاستەوخۆ ئیمەیڵمان بۆ بنێرە لە <emailLink>{ $email }</emailLink> و دەگەڕێینەوە لات!
 
 ## Languages Overview
 
@@ -770,6 +787,7 @@ listen-again-instruction = بژی! <playIcon></playIcon> هەر کاتێک ئا�
 listen-3rd-time-instruction = ٢ دانە ماوە، بەردەوام بە! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>دواهەمین دانە
 listen-empty-state = ئێستا کلیپی دیکەمان بۆ ئەم زمانە نییە بۆ سەلماندن
+listen-loading-error = نەمانتوانی هیچ بڕگەیەکی دەنگت بۆ پەیدا بکەین تا گوێی لێ بگریت. تکایە دواتر هەوڵ بدەرەوە.
 speak-empty-state = ئێستا رەستەی دیکەی ئەم زمانەمان نییە بۆ تۆمارکردن...
 speak-empty-state-cta = بەخشینی ڕستە
 record-button-label = دەنگت تۆمار بکە
@@ -935,6 +953,8 @@ download-info = پێمان بڵێ حەزدەکەی چی دابگریت:
 download-profile-title = پەڕەی کەسی
 download-profile-size = چەند بایتێک
 download-recordings-title = تۆمارەکان
+download-recordings-info = ئێم‌پی‌سرییەکان و ڕستە پەیوەندیدارەکان، لەوانەیە هەندێ کاتیان بووێت بۆ ئامادەبوون.
+download-recordings-unavailable = ناتوانیت داوای تۆمارێک بکەیت لەکاتێکدا داوایەکی تر لە چوونەپێشدایە.
 download-recently-requested = دەتوانی جارێکی تر داوای تۆمارەکانت بکەیت هەموو { $days } ڕۆژ جارێک.
 download-size = ئەندازە
 download-selected = هەڵبژێردراو
@@ -943,6 +963,8 @@ download-request = داوای تۆمارەکانت بکە
 download-requests = داواکاری پێشوو بۆ تۆمارەکانت
 download-request-button = داگرتن
 download-request-title = { $created }
+download-request-archive-single = تاکە فایلی پەستێنراوی لەخۆگرتووە
+download-request-assembling-description = فایلەکانت تێهەڵکێش بوون. تکایە دواتر بیپشکنەوە.
 download-request-refresh-button = نوێکردنەوە
 download-request-modal-title = بەستەری داگرتن
 download-request-metadata-link = دەقی ڕستە
