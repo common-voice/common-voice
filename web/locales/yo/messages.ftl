@@ -895,15 +895,26 @@ days =
         [one] Ọjọ́
        *[other] Àwọn ọjọ́
     }
+recordings =
+    { $count ->
+        [one] ìkásílẹ̀
+       *[other] àwọn ìkásílẹ̀
+    }
 
 ## Dashboard
 
+toward-next-goal = àwọn àfojúsùn tókàn
+goal-reached = Díde ibi àfojúsùn
+awards = Àwọn Ìmọyì
 you = Ìwọ
 everyone = Gbogbo èèyàn
+contribution-activity = Iṣẹ́ Ìkópa
 top-contributors = Àwọn aláfinkú tó ga jù
 recorded-clips = Àwọn fọ́nrán àkálẹ̀
 validated-clips = Àwọn fọ́nrán ta ti yẹ̀wò
 total-approved = Àpapọ̀ ìfòǹtẹ̀lù
+overall-accuracy = Ìse-wẹ́kú alápapọ̀
+set-visibility = Ṣètò ìríranrími mi
 
 ## Custom Goals
 
