@@ -967,6 +967,7 @@ download-request-archive-single = تاکە فایلی پەستێنراوی لە�
 download-request-assembling-description = فایلەکانت تێهەڵکێش بوون. تکایە دواتر بیپشکنەوە.
 download-request-refresh-button = نوێکردنەوە
 download-request-modal-title = بەستەری داگرتن
+download-request-modal-description = ئەمە بەستەرەکانی داگرتنی فایلە پەستێنراوەکانتە.
 download-request-metadata-link = دەقی ڕستە
 
 ## Landing
@@ -1019,13 +1020,30 @@ contribution-criteria-nav = پێوەر
 contribution-criteria-link = لە پێوەری بەشداریکردن تێبگە
 contribution-criteria-page-title = چوارچێوەی بەشداری
 contribution-for-example = بۆ نموونە
+contribution-misreadings-title = خراپ خوێندنەوەکان
+contribution-misreadings-description-extended-list-1 = ونبوونی <strong>'ئەی' </strong> یان <strong> 'کە'</strong> لە سەرەتای تۆمارکردندا.
+contribution-misreadings-description-extended-list-2 = ونبوونی <strong>ی</strong> لە کۆتایی وشەدا.
+contribution-misreadings-description-extended-list-5 = دانی چەند هەوڵێک بۆ خوێندنەوەی وشەیەک.
+contribution-misreadings-example-3-explanation = [تۆمارکردنەکە پچڕا بەرلە کۆتایی دوایین وشە]
+contribution-misreadings-example-4-explanation = [زیاتر تۆمارکراوە وەک لە دەقی پێویست]
+contribution-misreadings-example-5-title = ئێمە دەچینە دەرەوە بۆ خواردنەوەی قاوە.
+contribution-misreadings-example-6-title = ئێمە دەچینە دەرەوە بۆ خواردنەوەی قاوە.
+contribution-misreadings-example-6-explanation = [پێویستە "ئێمە" بێت]
+contribution-misreadings-example-7-title = ئێمە دەچینە دەرەوە بۆ خواردنەوەی قاوە.
+contribution-misreadings-example-7-explanation = [لە دەقی بنەڕەتدا 'ئەی' تێدا نییە]
+contribution-misreadings-example-8-explanation = [ناوەرۆکی ناهاوتا]
+contribution-varying-pronunciations-title = دەربڕینی گۆڕاو
 contribution-varying-pronunciations-description = وریابە پێش ئەوەی کلیپێک ڕەت بکەیتەوە بەو پاساوەی کە خوێنەر وشەیەکی بە هەڵە گوتووە، سترێسەکەی لە شوێنێکی هەڵەدا داناوە، یان بە ڕواڵەت نیشانەیەکی پرسیاری پشتگوێ خستووە. لە سەرانسەری جیهاندا جۆرەها بێژەکردن بەکاردەهێنرێت، کە ڕەنگە هەندێکیان لە کۆمەڵگەی ناوخۆیی خۆتدا نەتبیستبێت. تکایە پەراوێزێکی پێزانین بۆ ئەو کەسانە دابنێن کە ڕەنگە جیاواز لە تۆ قسە بکەن.
 contribution-varying-pronunciations-description-extended = لە لایەکی دیکەوە ئەگەر پێت وایە ڕەنگە خوێنەر پێشتر هەرگیز تووشی وشەکە نەبووبێت، و تەنیا پێشبینییەکی هەڵە لە بێژەکردنەکەی دەکات، تکایە ڕەتی بکەرەوە. ئەگەر دڵنیا نیت، دوگمەی skip بەکاربهێنە.
+contribution-varying-pronunciations-example-1-title = بێرییەکی کردووەتە سەری.
 contribution-varying-pronunciations-example-2-title = دەستی بەرزکردەوە
 contribution-background-noise-title = ژاوەژاوی پشتەوە
 contribution-background-noise-description = ئێمە دەمانەوێت ئەلگۆریتمەکانی فێربوونی ئامێر بتوانن مامەڵە لەگەڵ ژاوەژاوی جۆراوجۆری پاشبنەمادا بکەن، تەنانەت دەتوانرێت دەنگە تاڕادەیەک بەرزەکان قبوڵ بکرێت بە مەرجێک ڕێگریت لێ نەکات لە بیستنی تەواوی دەقەکە. مۆسیقای پاشبنەمای بێدەنگ باشە؛ مۆسیقایەک بە دەنگێکی بەرزەوە کە ڕێگریت لێبکات لە بیستنی هەر وشەیەک و هەموو وشەیەک نییە.
+contribution-background-noise-example-2-explanation = [بەشێکی دەقەکە دەتوانرێت ببیسترێت]
 contribution-background-voices-title = دەنگی پشتەوە
+contribution-background-voices-example-1-explanation = ئایا تۆ دێیت؟ <strong> [کەسێکی تر بانگی کرد]</strong>
 contribution-volume-title = پلەی دەنگ
+contribution-reader-effects-title = کاریگەرییەکانی خوێنەر
 contribution-reader-effects-description = زۆربەی تۆمارەکان ئەو کەسانەن کە بە دەنگی سروشتی خۆیان قسە دەکەن. دەتوانیت ئەو تۆمارە ناستانداردی ناوبەناو پەسەند بکەیت کە هاوار دەکرێت، چرپە دەکرێت، یان بە ئاشکرا بە دەنگێکی ‘دراماتیک’ پێشکەش دەکرێت. تکایە تۆمارە گۆرانییەکان و ئەوانەی دەنگێکی دروستکراوی کۆمپیوتەر بەکاردەهێنن ڕەت بکەرەوە.
 contribution-just-unsure-title = دڵنیا نیت؟
 see-more = <chevron></chevron>زیاتر ببینە
@@ -1074,6 +1092,8 @@ sc-howto-title = چۆن دەکرێت
 sc-howto-addlang-title = زمان زیاد بکە بۆ ئەوەی کاری تێدابکرێت
 sc-howto-addlang-text = هەر کاتێک چوویتەژوورەوە دەتوانیت زمانێک هەڵبژێریت لە بەشی پەڕەی کەسی.
 sc-howto-addsen-title = ڕستەی نوێ زیادبکە
+sc-howto-cite-title = چۆنێتی دانانی سەرچاوە
+sc-howto-cite-item-1 = تۆ دەتوانیت وێبگەکەی تێدا دابنێیت، بۆ نموونە، "دەنگی گشتی - https://commonvoice.mozilla.org/https://commonvoice.mozilla.org/"
 sc-howto-review-title = پێداچوونەوەی ڕستە
 sc-howto-review-subtitle = دڵنیابە کە ڕستەکان لەگەڵ ئەم پێوەرانەدا دەگونجیت:
 sc-howto-review-criteria-1 = دەبێت ڕستەکە بە شێوەیەکی ڕاست نووسرابێت.
@@ -1147,17 +1167,19 @@ sc-add-lang-could-not-add = نەتوانرا زمان زیادبکرێت
 sc-add-lang-sec-label = ئەو زمانە هەڵبژێرە کە دەتەوێت بەشداری تێدا بکەیت
 sc-add-lang-sec-button = زمان زیاد بکە
 sc-add-err-unexpected = وەڵامێکی چاوەڕواننەکراو لە ڕاژەوە
+sc-add-err-submission = هەڵەی پشتڕاستکردنەوە
 sc-add-lang-process-notice = ئەگەر زمەنکەت زیاد نەکراوە لێرە، دەتوانیت داوای بکەیت لەم <languageProcessLink>ڕێگەییەوە</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-are-you-sure =
     .message = ڕستەکان هێشتا نەنێردراون، تۆ دڵنیایت کە دەتەویت بە جێیان بهێڵیت؟
-sc-confirm-button-text = دڵنیابوونەوە
+sc-confirm-sentences-title = ڕستەی نوێ پشتڕاست بکەرەوە
+sc-confirm-button-text = پشتڕاستکردنەوە
 
 ## LANGUAGE INFO
 
-sc-lang-info-title-total = کۆی گشتی
+sc-lang-info-title-total = تێکڕا
 sc-lang-info-title-personal = شەخسی
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
@@ -1198,11 +1220,14 @@ sc-criteria-item-1 = دەبێت ڕستەکە بە شێوەیەکی ڕاست نو
 sc-criteria-item-2 = دەبێت ڕستەکە بەشێوەیەکی ڕێزمانی ڕاست نووسرابێت.
 sc-criteria-item-3 = دەبێت ڕستەکە بوترێت.
 sc-criteria-item-4 = ئەگەر ڕستەکە لەگەڵ پێوەرەکاندا گونجا، کرتە بکە لە دوگمەی &quot; پەسەندکردن&quot; لە لای ڕاستەوە.
+sc-criteria-item-6 = ئەگەر ڕستەت لێ بڕا بۆ پێداچوونەوە، تکایە یارمەتیمان بدە ڕستەی زیاتر کۆبکەینەوە!
 
 ## REVIEW
 
+sc-review-lang-not-selected = تۆ هیچ زمانێكت دەستنیشان نەکردووە. تکایە بڕۆ بۆ <profileLink>پڕۆفایلکەکەت </profileLink> بۆ دەستنیشانکردنی زمانەکان.
 sc-review-title = پێداچوونەوەی ڕستە
 sc-review-loading = بارکردنی ڕستەکان...
+sc-review-select-language = تکایە زمانێک هەڵبژێرە بۆ پێداچوونەوەی ڕستەکان.
 sc-review-no-sentences = ڕستە نیە بۆ پێداچوونەوە. <addLink>ڕستەی تر زیاد بکە</addLink>
 sc-review-form-prompt =
     .message = ئەو ڕستانەی پێداچوونەوەت بۆ کردووە نە نێردراوە، تۆ دڵنیایت؟
@@ -1228,12 +1253,14 @@ sc-review-form-reviewed-message =
         [one] 1 ڕستە پێداچوونەوەی بۆ کراوە. سوپاس!
        *[other] { $sentences } ڕستە پێداچوونەوەی بۆ کرا. سوپاس!
     }
+sc-review-form-review-failure = ناتوانرێت پێداچوونەوەکە پاشەکەوت بکرێت. تکایە دواتر هەوڵ بدەرەوە.
 sc-review-link = پێداچوونەوە
 
 ## SETTINGS
 
 sc-settings-title = ڕێکخستنەکان
 sc-settings-ui-language = زمانی ڕووکاری پیشاندان
+sc-settings-reset-skipped = ڕستە تێپەڕێنراوەکان ڕێکبخەرەوە
 sc-settings-show-all-button = هەموو ڕستە تێپەڕێنراوەکان پیشان بدە دووبارە
 sc-settings-failed = نەتوانرا ڕێکخستنەکان بگۆڕدرێت. تکایە هەوڵ بدەرەوە.
 # VALIDATION
