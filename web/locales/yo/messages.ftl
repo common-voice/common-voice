@@ -925,6 +925,9 @@ cant-decide = O kò ní ìpinnu?
 how-many-per-day = Ó dára! Fọ́nrán mẹ́lòó ní ojúmọ́ kan?
 how-many-a-week = Ó dára! Fọ́nrán mélòó ní ọ̀sẹ̀ kan?
 which-goal-type = Ṣé o fẹ́ sọ̀rọ̀, gbọ́rọ̀ tàbí méjéèjì
+weekly-goal-created = Àfojúsùn rẹ̀ ọ̀sọ̀ọ̀sẹ̀ ti di sísẹ̀dá
+daily-goal-created = Àfojúsùn rẹ ojoojúmọ́ ti di síṣẹ̀dá
+return-to-edit-goal = Padà síbí láti tún àfojúsùn rẹ ṣe nígbàkúùgbà
 
 ## Profile Delete
 
