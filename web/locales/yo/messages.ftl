@@ -928,9 +928,11 @@ which-goal-type = Ṣé o fẹ́ sọ̀rọ̀, gbọ́rọ̀ tàbí méjée
 weekly-goal-created = Àfojúsùn rẹ̀ ọ̀sọ̀ọ̀sẹ̀ ti di sísẹ̀dá
 daily-goal-created = Àfojúsùn rẹ ojoojúmọ́ ti di síṣẹ̀dá
 return-to-edit-goal = Padà síbí láti tún àfojúsùn rẹ ṣe nígbàkúùgbà
+share-goal = Ṣe àbápín àfojúsùn mi
 
 ## Profile Delete
 
+remove-info = A ó ṣe àgbéyẹ̀wò ìbéèrè rẹ láti yọ àkásílẹ̀ olóhùn rẹ̀ kúrò nínú àkójọpọ̀ data. Bí wọ́n bá tẹ ìbéèrè rẹ lóǹtẹ̀, a ó kà sí àwọn tí wọ́n ti gbà á kí wọ́n yọ ọ́ kúrò bákan náà.
 profile-form-delete = Pa púrófáìlì rẹ́
 
 ## Profile Download
