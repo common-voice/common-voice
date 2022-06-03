@@ -933,11 +933,21 @@ share-goal = Ṣe àbápín àfojúsùn mi
 ## Profile Delete
 
 remove-info = A ó ṣe àgbéyẹ̀wò ìbéèrè rẹ láti yọ àkásílẹ̀ olóhùn rẹ̀ kúrò nínú àkójọpọ̀ data. Bí wọ́n bá tẹ ìbéèrè rẹ lóǹtẹ̀, a ó kà sí àwọn tí wọ́n ti gbà á kí wọ́n yọ ọ́ kúrò bákan náà.
+why-delete-recordings =
+    Àkálẹ̀ Common Voice máa ń jẹ́ lílò fún àwọn alákadá, onísòwò kékèké, àti àwọn tí wọ́n nífẹ̀ẹ́ sí ìdóhùnmọ̀ láti ṣe ìrànwọ́ kíkọ́ àti ìdàgbàsókè àwọn èròja módẹ̀lì olóhùn tí ó wà fún gbogbogbò.
+    
+    Ṣé o lè jẹ́ ká mọ̀ ìdí tí ó fẹ́ kí a pa àkálẹ̀ ohùn rẹ rẹ́?
 profile-form-delete = Pa púrófáìlì rẹ́
 
 ## Profile Download
 
+download-q = A nílò láti gba data rẹ
+download-info = Ṣọ fún wa ohun tí o fẹ́ gbà:
 download-profile-title = Púrófáìlì
+download-profile-info = ṣe àfikún ímeèlì, orúkọ tí ò ń lò & àbùdá ìfánimọ̀, èyí tí ó wà lọ́wọ́ lọ́wọ́ báyìí
+download-profile-size = àwọn báìtì díẹ̀
+download-recordings-title = Àwọn àkálẹ̀
+download-recordings-info = àfikún àwọn mp3 àti irúfẹ́ gbolóhùn, lè gba àkókò díẹ̀ kí wọ́n tó ṣe tán
 
 ## Landing
 
