@@ -548,6 +548,7 @@ about-nav-get-involved = Kemer perzh
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Darvoudoù
 
 ## How to validate
 
