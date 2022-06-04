@@ -900,11 +900,21 @@ recordings =
         [one] ìkásílẹ̀
        *[other] àwọn ìkásílẹ̀
     }
+validations =
+    { $count ->
+        [one] Ìfọwọ́sí
+       *[other] Àwọn ìfọwọ́sí
+    }
 
 ## Dashboard
 
+your-languages = Àwọn èdè rẹ
 toward-next-goal = àwọn àfojúsùn tókàn
 goal-reached = Díde ibi àfojúsùn
+clips-you-recorded = Àwọn fọ́nrán tí o ṣe ìkàsílẹ̀ rẹ̀
+clips-you-validated = Àwọn fọ́nrán tí o ti fọwọ́ sí
+todays-recorded-progress = Ìtẹ̀síwájú ti òní lórí àwọn fọ́nrán tí a gbà sílẹ̀ tó jẹ́ ti Common Voice
+todays-validated-progress = Ìtẹ̀síwájú ti òní lórí àwọn fọ́nrán tó ti ní ìfọwọ́sí tó jẹ́ ti Common Voice
 awards = Àwọn Ìmọyì
 you = Ìwọ
 everyone = Gbogbo èèyàn
@@ -915,16 +925,38 @@ validated-clips = Àwọn fọ́nrán ta ti yẹ̀wò
 total-approved = Àpapọ̀ ìfòǹtẹ̀lù
 overall-accuracy = Ìse-wẹ́kú alápapọ̀
 set-visibility = Ṣètò ìríranrími mi
+show-ranking = Fi ipò mi hàn
 
 ## Custom Goals
 
+get-started-goals = Bẹ̀ẹ̀rẹ̀ pẹ̀lú àwọn àfojúsùn
+create-custom-goal = Ṣẹ̀dá àfojúsùn tí yóó tẹ́ ọ lọ́rùn
+goal-type = Irú àfojúsùn wo ni o fẹ́ kọ́?
+both-speak-and-listen = Méjéèjì
+both-speak-and-listen-long = Méjéèjì (Sọ àti gbọ́)
+daily-goal = Afòjúsùn ojoojúmọ́
+weekly-goal = Àfojúsùn ọ̀sẹ̀ẹ̀sẹ̀
+easy-difficulty = Rọrùn
+difficult-difficulty = Líle
+lose-goal-progress-warning = Nípa ṣíṣàtúnṣe àfojúsùn rẹ, o lè pàdánù ìlọsíwájú rẹ tó wà nílẹ̀.
 want-to-continue = Ṣé o fẹ́ tẹ̀síwájú?
 finish-editing = Parí ìṣàtúnṣe ná?
 lose-changes-warning = Kíkúrò ní báyìí túnmọ̀ sí pé, wà á pàdánù àwọn àyípadà rẹ̀
+set-a-goal = Ṣètò àfojúsùn
 cant-decide = O kò ní ìpinnu?
 how-many-per-day = Ó dára! Fọ́nrán mẹ́lòó ní ojúmọ́ kan?
 how-many-a-week = Ó dára! Fọ́nrán mélòó ní ọ̀sẹ̀ kan?
 which-goal-type = Ṣé o fẹ́ sọ̀rọ̀, gbọ́rọ̀ tàbí méjéèjì
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count }Fọ́nrán
+       *[other] { $count }Àwọn fọ́nrán
+    }
+confirm-goal = Fí òǹtẹ̀ lé àfojúsùn
+goal-interval-weekly = Ọ̀sẹ̀ẹ̀sẹ̀
+share-goal-type-speak = Sísọ̀rọ̀
+share-goal-type-listen = Gbígbọ́rọ̀
+share-goal-type-both = Sísọ̀rọ̀ àti gbígbọ̀rọ̀
 weekly-goal-created = Àfojúsùn rẹ̀ ọ̀sọ̀ọ̀sẹ̀ ti di sísẹ̀dá
 daily-goal-created = Àfojúsùn rẹ ojoojúmọ́ ti di síṣẹ̀dá
 return-to-edit-goal = Padà síbí láti tún àfojúsùn rẹ ṣe nígbàkúùgbà
@@ -932,6 +964,10 @@ share-goal = Ṣe àbápín àfojúsùn mi
 
 ## Profile Delete
 
+delete-q = Ǹjẹ́ ìwọ yóó nífẹ̀ẹ́ àti tọrọ kí ìgbàsílẹ̀ ohun rẹ di píparẹ́ pẹ̀lú, tàbí ṣé o fẹ́ tọ́jú wọn sínú àkójọpọ̀ dátà Common Voice?
+keep = Tọ́jú
+remove = Yọ kúrò
+keep-info = Àwọn ìgbàsílẹ̀ ohun aláìlórúkọ rẹ yóó ṣì wà nínú àkójọpọ̀ dátà Common Voice. Ní kété tí o bá pa púrófáìlì rẹ rẹ́, ìwọ ò ní ní àǹfàní àti tọrọ pẹ́ kí àwọn àkálẹ̀ rẹ di yíyọ sílẹ̀ kúrò nínu àkójọpọ̀ dátà náà
 remove-info = A ó ṣe àgbéyẹ̀wò ìbéèrè rẹ láti yọ àkásílẹ̀ olóhùn rẹ̀ kúrò nínú àkójọpọ̀ data. Bí wọ́n bá tẹ ìbéèrè rẹ lóǹtẹ̀, a ó kà sí àwọn tí wọ́n ti gbà á kí wọ́n yọ ọ́ kúrò bákan náà.
 why-delete-recordings =
     Àkálẹ̀ Common Voice máa ń jẹ́ lílò fún àwọn alákadá, onísòwò kékèké, àti àwọn tí wọ́n nífẹ̀ẹ́ sí ìdóhùnmọ̀ láti ṣe ìrànwọ́ kíkọ́ àti ìdàgbàsókè àwọn èròja módẹ̀lì olóhùn tí ó wà fún gbogbogbò.
@@ -950,18 +986,32 @@ download-recordings-title = Àwọn àkálẹ̀
 download-recordings-info = àfikún àwọn mp3 àti irúfẹ́ gbolóhùn, lè gba àkókò díẹ̀ kí wọ́n tó ṣe tán
 download-recordings-size = oní báìtì-púpọ̀
 download-recordings-unavailable = O kò lè bèèrè àkálẹ̀ rẹ nígbà tí ìbéèrè mìíràn ń lọ lọ́wọ́
+download-recently-requested = O lè tọrọ ìyọkúrò tuntun fún àwọn ìkàsílẹ̀ rẹ ní gbogbo{ $days } àwọn ọjọ́.
+download-size = Ìwọ̀n
 download-selected = yàn
-download-start = Gba data púrófáìlì
+download-start = Gba dátà púrófáìlì
 download-request = Bèèrè ìkásílẹ̀
+download-requests-info = Nígbà tí o bá tọrọ fún àwọn ìkàsílẹ̀ rẹ, a má ń ṣe àkójọpọ̀ wọn sínú ZIP fáìlì kan tàbí púpọ̀. Èyí ni àwọn ìtọrọ rẹ tí ó kọjá
+download-request-button = Ṣe ìgbàsílẹ̀
+download-request-description = { $clipCount }Àwọn fọ́nrán ohùn, àpapọ̀ ìwọ̀n{ $size } àká tó wà nípamọ́. Ìlò parí{ $expires }
+download-request-assembling-description = À ń to àwọn fáìlì rẹ lọ́wọ́. Jọ̀wọ́ ṣe àyẹ̀wò rẹ̀ nígbà míràn.
+download-request-metadata-link = Àtẹ̀jáde gbólóhùn
+download-request-link-single = Ìgbéjáde ìparí ọdún
 
 ## Landing
 
+welcome-staff = káàbọ̀ { $company } òṣìṣẹ́!
+read-more-about = Kà síi lojú-ìwé wa nípa wa
 
 ## DemoLayout
 
+demo-get-started = Ẹ jẹ́ kí a bẹ̀rẹ̀
+demo-welcome = Ẹ káàbọ̀ sí orí Common Voice
+demo-welcome-subheader = Ṣé o nífẹ̀ẹ́ sí mímọ̀ si àti dídásí àkànṣe iṣẹ́ náà?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice jẹ́ àkójọpọ̀ dátà fún onírúurú èdẹ̀, èyí tó tóbi jùlọ tó wà ní àgbáyé fún ìlò gbogbo èèyàn.
 
 ## Demo Account
 
@@ -974,6 +1024,14 @@ download-request = Bèèrè ìkásílẹ̀
 
 ## Validation criteria
 
+contribution-misreadings-example-3-explanation = [Ìgékúrú ìkàsílẹ̀ ṣáájú ìparí ọ̀rọ̀ tó kẹ́yìn]
+contribution-misreadings-example-5-title = À ń jáde lọ gba kọ́fì.
+contribution-misreadings-example-6-title = À ń jáde lọ gba kọ́fì
+contribution-misreadings-example-7-title = À ń jáde lọ gba kọ́fì kan
+contribution-misreadings-example-7-explanation = [kò sí 'a' nínú ọ̀rọ̀ tó wà nílẹ̀ tẹ́lẹ̀
+contribution-varying-pronunciations-example-1-title = Bẹ̀rẹ́tì ló wọ̀ sórí
+contribution-varying-pronunciations-example-2-title = Ó nọwọ́ rẹ̀ sókè
+contribution-background-voices-description-extended = Tí ìkàsílẹ̀ náà bá ń gé, tàbí ní àwọn kọnúkọ́họ, ṣe ìkọ̀sílẹ̀ fún àyàfi tí o bá ṣì lè gbọ́ gbogbo ọ̀rọ̀ náà.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
