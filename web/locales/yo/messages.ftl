@@ -570,6 +570,7 @@ about-playbook-how-localize-content-5 = Wo àwọn fọ́nrán amóhùn-má
 about-playbook-how-add-sentences = Báwo ni mo ṣe lè ṣàfikún gbólóhùn?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ni irinṣẹ́ fún gbígbà àti ìfọwọ́sí àwọn gbólóhùn ní ìgbọnu gbogbogbò. O máa <scAccountLink> nílò láti forúkọsílẹ̀</scAccountLink>. Lẹ́yìn náà, ṣàfikún ède tìrẹ sí <strong>púrófáílì rẹ</strong>. O lè <strong>ṣàfikún</strong> gbólóhùn tàbí <strong>ṣàgbéyẹ́wò</strong> àwọn àfikún gbólóhùn tó ti kọjá.
 about-playbook-how-add-sentences-content-2 = Àgbéyẹ̀wo gbólóhùn gbọ́dọ̀ wáyé ó sì gbọdọ̀ di gbígbà wọlé lọ́dọ ènìyàn méjì láti di àfikún sí Common voice. O máa pèsè ìlànà à ń tẹ̀lé fún èdè rẹ <languageGuidelinesLink> níbí</languageGuidelinesLink>. Àwọn gbólóhùn gbọ́dọ̀ wà ní <licenseLink>ojú òpo gbogbogbò</licenseLink> ó sì gbọdọ̀ kéré ju ọ̀rọ̀ 15 lọ. O lè bèrè lọ́wọ́ ẹni tó ni àtẹ̀jíṣẹ́ láti ṣe é <waiverLink>CC0 lílo ìlànà àgbéfò</waiverLink>, kí o sì fii ránṣẹ́ sí wa lórí commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = O lè lo </scraperLink>agbagbólóhùnsílẹ̀<scraperLink> láti yá gbólóhùn kékéèké láti Wikipedia.
 about-playbook-how-add-sentences-content-4 = Àwọn gbólóhùn tó ti di àfọwọ́sí yóò di gbígbé jáde lójórùú, yóò sì di wíwà lẹ́yìn àgbéjáde tó kàn.
 
 ## How to record quality
@@ -915,6 +916,7 @@ clips-you-recorded = Àwọn fọ́nrán tí o ṣe ìkàsílẹ̀ rẹ̀
 clips-you-validated = Àwọn fọ́nrán tí o ti fọwọ́ sí
 todays-recorded-progress = Ìtẹ̀síwájú ti òní lórí àwọn fọ́nrán tí a gbà sílẹ̀ tó jẹ́ ti Common Voice
 todays-validated-progress = Ìtẹ̀síwájú ti òní lórí àwọn fọ́nrán tó ti ní ìfọwọ́sí tó jẹ́ ti Common Voice
+stats = Òṣùwọ̀n
 awards = Àwọn Ìmọyì
 you = Ìwọ
 everyone = Gbogbo èèyàn
