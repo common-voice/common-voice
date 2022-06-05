@@ -56,6 +56,7 @@ da = duński
 de = niemiecki
 dsb = dolnołużycki
 dv = divehi
+dyu = diula
 el = grecki
 en = angielski
 eo = esperanto
@@ -128,6 +129,7 @@ ne-NP = nepalski
 nia = nias
 nl = holenderski
 nn-NO = norweski (nynorsk)
+nso = północny sotho
 nyn = nyankole
 oc = oksytański
 or = orija
@@ -685,6 +687,9 @@ request-language-success-title = Propozycja języka została pomyślnie przesła
 request-language-success-content = Już niedługo udzielimy więcej informacji o tym, jak dodać swój język do projektu Common Voice.
 select-language = Wybierz język…
 other-language = Inny język
+
+## Request Language Pages
+
 
 ## Languages Overview
 
