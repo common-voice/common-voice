@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = Receva ebostow kepar ha kovheansow amkan 
 email-opt-in-privacy-v2 = Dre dhewis receva ebostow yth esowgh ow leverel agas bos unver gans Mozilla ow handla an kedhlow ma dell yw displegys yn <privacyLink>Polici Privetter<privacyLink> Mozilla.
 indicates-required = * a dhelin skrifva a res
 not-available-abbreviation = Ankavadow
+banner-error-slow-link = Folen Studh
+error-something-went-wrong = Drog yw genen, kamm a hwarva
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -46,12 +48,13 @@ ckb = Kurdek Kresek
 cnh = Hakha Chin
 co = Korsek
 cs = Check
-cv = Chouvash
+cv = Chuvash
 cy = Kembrek
 da = Danek
 de = Almaynek
 dsb = Iselsorbek
 dv = Dhivehi
+dyu = Dioula
 el = Greka
 en = Sowsnek
 eo = Esperanto
@@ -67,6 +70,7 @@ fy-NL = Frisek
 ga-IE = Wordhenek
 gl = Galisek
 gn = Guarani
+gom = Konkani Goa
 ha = Hausa
 he = Ebrow
 hi = Hindi
