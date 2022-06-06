@@ -319,7 +319,6 @@ shortcut-discard-ongoing-recording-label = Laufende Aufzeichnung verwerfen
 shortcut-submit = Eingabe
 shortcut-submit-label = Aufzeichnungen übertragen
 request-language-text = Ihre Sprache wird bei Common Voice noch nicht aufgeführt? Da lässt sich was machen!
-request-language-text-learn = So können Sie weitere Sprachen anfordern!
 request-language-button = Anfrage schicken
 
 ## ProjectStatus
@@ -456,7 +455,9 @@ faq-why-different-speakers-a =
     Die meisten Sprachdatenbanken werden mit einer Überrepräsentation bestimmter Demografien trainiert, was zu einer Bevorzugung <articleLink>männlicher und Mittelklasse-Teilnehmern</articleLink> führt. Akzente und Dialekte, die in Trainingsdatensätzen tendenziell unterrepräsentiert sind, werden meist Personengruppen zugeordnet, die bereits zu einer Randgruppe zählen. Viele Geräte können auch weibliche Stimmen nur schwer verstehen. 
     Deshalb wollen wir Vielfalt in unserer Sprachdatenbank.
 faq-why-my-lang-q = Warum gibt es meine Sprache noch nicht?
-faq-why-my-lang-new-a = Mozilla wählt oder bevorzugt keine Sprache gegenüber einer anderen. Stattdessen handelt es sich bei Common Voice um eine rein gemeinschaftsorientierte Initiative, es erfordert jedoch <multilangLink>mehrere Schritte, um eine neue Sprache aufzunehmen</multilangLink> und das Sammeln von Sprachspenden zu beginnen. Erstens muss die Common-Voice-Website übersetzt werden, damit Mitglieder der Gemeinschaft in ihrer eigenen Sprache auf die Erfahrungen der Mitwirkenden zugreifen können. Als nächstes benötigen wir eine große Sammlung urheberrechtsfreier Sätze, die die Menschen vorlesen können. Sobald beide Anforderungen erfüllt sind, wird auf Common Voice eine Sprache „gestartet“, damit die Menschen ihre Stimme aufnehmen und die Spenden anderer bestätigen können. Wenn Sie beim Start einer neuen Sprache helfen möchten, besuchen Sie unser <sentenceCollectorLink>Werkzeug zur Sammlung von Sätzen</sentenceCollectorLink>, um loszulegen.
+faq-why-my-lang-a =
+    Common Voice ist eine Crowdsourcing-Plattform, und die Sprachen wurden alle von Freiwilligen hinzugefügt.
+    Wir würden uns freuen, wenn Sie auch Ihre Sprache hinzufügen würden! <languageRequestLink>Hier können Sie sich melden, um Ihre Sprache hinzuzufügen.</languageRequestLink>
 faq-what-quality-q = Welche Audioqualität ist erforderlich, damit ein Sprachclip im Datensatz verwendet werden kann?
 faq-what-quality-a = Wir möchten, dass der Common-Voice-Datensatz die Audioqualität widerspiegelt, die eine Sprach-zu-Text-Engine in der freien Natur hört. Wir suchen also nach Abwechslung. Zusätzlich zu einer vielfältigen Gemeinschaft von Sprechern wird ein Datensatz mit unterschiedlicher Audioqualität die Sprach-zu-Text-Engine in die Lage versetzen, mit verschiedenen Situationen der realen Welt umzugehen, vom Hintergrundgespräch bis zum Autolärm. Solange Ihr Sprachclip verständlich ist, sollte er für den Datensatz gut genug sein.
 faq-why-10k-hours-q = Warum sind 10&thinsp;000 validierte Stunden das für die Audioaufnahme pro Sprache bestimmte Ziel?
@@ -526,12 +527,6 @@ about-dataset-new = Common-Voice-Datensatz
 about-dataset-new-text = Der Common-Voice-Datensatz enthält Hunderttausende von Sprachmustern, mit denen Entwickler Werkzeuge zur Spracherkennung erstellen können.
 about-clip-graveyard = Clip-Friedhof
 about-clip-graveyard-text = Der Clip-Friedhof besteht aus Sprachclips, die nicht in den Common-Voice-Datensatz aufgenommen wurden. Der Clip-Friedhof steht wie der Datensatz zum Download zur Verfügung.
-about-partners = Partner
-about-become-a-partner = Partner werden
-about-partnership =
-    Common Voice ist ein Gemeinschaftsprojekt und wir sind auf unsere Gemeinschaft von Partnern und Mitwirkenden angewiesen, um den größten Open-Source-Datensatz von Stimmen zu erstellen.
-    
-    Wir möchten uns bei folgenden Personen und Organisationen für ihre Hilfe bei dem Projekt bedanken:
 about-get-involved = Mitmachen
 about-get-involved-text-2 =
     Möchten Sie Common Voice noch besser machen?
@@ -561,9 +556,20 @@ about-playbook-what-is-language-content-3 = Einige Sprachen haben enorme Untersc
 
 about-playbook-how-add-language = Wie füge ich eine Sprache hinzu?
 about-playbook-how-add-language-content-1 = Überprüfen Sie zunächst, ob Ihre Sprache <languageLink>bereits existiert</languageLink>. Wenn nicht, müssen Sie <strong>die Seite übersetzen und Sätze sammeln</strong>.
-about-playbook-how-add-language-content-2 = <strong>Um die Website zu übersetzen</strong> – <translateVideo>erstellen Sie ein Konto</translateVideo> auf <pontoonLink>Pontoon</pontoonLink>. Pontoon hat viele Sprachen, aber wenn Ihre noch fehlt können Sie sie <pontoonRequestLink>anfordern</pontoonRequestLink>. Dann bitten Sie <repoLink>über GitHub</repoLink>, das Common-Voice-Projekt für die Sprache verfügbar zu machen. Weitere Informationen finden Sie unter <localizationFragment>Website-Übersetzung</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Um Sätze zu sammeln</strong> – <scVideo>richten Sie</scVideo> den <scLink>Satzsammler</scLink> ein.
-about-playbook-how-add-language-content-4 = Sie können hier <scLinkAdd>eine kleine Anzahl</scLinkAdd> von Sätzen hinzufügen oder Sie können <bulkImportDocsLink>Massenimporte</bulkImportDocsLink> über eine Github-Anfrage durchführen. Denken Sie daran, dass Sätze <licenseLink>CC0 (oder gemeinfrei)</licenseLink> sein müssen; alternativ können Sie Ihre eigenen schreiben. Weitere Informationen finden Sie unter <scFragment>Satzsammlung</scFragment>.
+about-playbook-how-add-language-translating-heading = Die Website übersetzen
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Sehen Sie sich unsere Anleitung zur Verwendung von Pontoon an.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Wir verwenden ein Mozilla-Werkzeug namens <pontoonLink>Pontoon</pontoonLink> für Übersetzungen. Ponton hat viele Sprachen,
+    aber wenn Ihre Sprache noch fehlt, können Sie <pontoonRequestLink>Ihre Sprache hinzufügen lassen</pontoonRequestLink>.
+    Um die Sprache dann im Common-Voice-Projekt verfügbar zu machen,
+    <githubRepoLink>fordern Sie die neue Sprache auf GitHub an</githubRepoLink>. <localizationFragment>Hier finden Sie weitere Informationen zur Übersetzung der Website</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Sätze sammeln
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Sehen Sie sich unsere Anleitung zur Verwendung des Satzsammlers an</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Sie können <sentenceCollectorLinkAdd>eine kleine Anzahl von Sätzen hinzufügen</sentenceCollectorLinkAdd>,
+    oder Sie können <bulkImportDocsLink>Massenimporte mit Github</bulkImportDocsLink> durchführen.
+    Denken Sie daran, dass Sätze <licenseLink>CC0 (oder gemeinfrei)</licenseLink> sein müssen, ansonsten können Sie auch Ihre eigenen schreiben.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Weitere Informationen zur Sammlung von Sätzen</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -627,12 +633,6 @@ about-playbook-how-project-governance-content-4 = Mitwirkung der Gemeinschaft un
 about-playbook-how-project-governance-content-5 = Wert und Anerkennung.
 about-playbook-how-project-governance-content-6 = Gegenseitige Rechenschaftspflicht.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lesen Sie mehr über unsere Führungsstruktur</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Künstliche Intelligenz
-mycroft-description =
-    Mycroft ist der erste Open-Source-Assistent der Welt.
-    Mycroft läuft überall – auf einem Desktop-Computer, in einem Auto oder auf einem Raspberry Pi.
-mycroft-secondary-description = Hierbei handelt es sich um Open-Source-Software, die frei remixt, erweitert und verbessert werden kann. Mycroft kann in allen Bereichen verwendet werden, von wissenschaftlichen Projekten bis hin zu Unternehmenssoftware.
 
 ## Glossary
 
