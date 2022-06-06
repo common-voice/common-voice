@@ -989,7 +989,7 @@ download-recordings-info = àfikún àwọn mp3 àti irúfẹ́ gbolóhùn, lè 
 download-recordings-size = oní báìtì-púpọ̀
 download-recordings-unavailable = O kò lè bèèrè àkálẹ̀ rẹ nígbà tí ìbéèrè mìíràn ń lọ lọ́wọ́
 download-recently-requested = O lè tọrọ ìyọkúrò tuntun fún àwọn ìkàsílẹ̀ rẹ ní gbogbo{ $days } àwọn ọjọ́.
-download-size = Ìwọ̀n
+download-size = ìwọ̀n
 download-selected = yàn
 download-start = Gba dátà púrófáìlì
 download-request = Bèèrè ìkásílẹ̀
@@ -997,7 +997,10 @@ download-requests-info = Nígbà tí o bá tọrọ fún àwọn ìkàsi
 download-request-button = Ṣe ìgbàsílẹ̀
 download-request-description = { $clipCount }Àwọn fọ́nrán ohùn, àpapọ̀ ìwọ̀n{ $size } àká tó wà nípamọ́. Ìlò parí{ $expires }
 download-request-assembling-description = À ń to àwọn fáìlì rẹ lọ́wọ́. Jọ̀wọ́ ṣe àyẹ̀wò rẹ̀ nígbà míràn.
-download-request-metadata-link = Àtẹ̀jáde gbólóhùn
+download-request-refresh-button = ṣo dọ̀tun
+download-request-modal-title = ìtọ́ka gbígbà
+download-request-modal-description = Èyí ni ìtọ́ka sí gbígbà àwọn fáìlì ìsọdikékeré
+download-request-metadata-link = Ọ̀rọ̀ gbólóhùn
 download-request-link-single = Ìgbéjáde ìparí ọdún
 
 ## Landing
