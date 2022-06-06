@@ -949,13 +949,20 @@ cant-decide = O kò ní ìpinnu?
 how-many-per-day = Ó dára! Fọ́nrán mẹ́lòó ní ojúmọ́ kan?
 how-many-a-week = Ó dára! Fọ́nrán mélòó ní ọ̀sẹ̀ kan?
 which-goal-type = Ṣé o fẹ́ sọ̀rọ̀, gbọ́rọ̀ tàbí méjéèjì
+receiving-emails-info = O ti gbaradì láti máa gba ímeèlì bí i ìrántí àfojúsùn, Ìsọdititun ìtẹ̀síwájú mi àti lẹ́tà asọ̀ròyìn lórí Common Voice.
+not-receiving-emails-info = O ti gbaradì láti <bold> má gba </bold> ímeèlì bí i ìrántí àfojúsùn, Ìsọdititun ìtẹ̀síwájú mi àti lẹ́tà asọ̀ròyìn lórí Common Voice.
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count }Fọ́nrán
        *[other] { $count }Àwọn fọ́nrán
     }
+help-share-goal = Bá wa ṣàwárí  ohùn mìíràn, pín àfojúsùn rẹ.
 confirm-goal = Fí òǹtẹ̀ lé àfojúsùn
 goal-interval-weekly = Ọ̀sẹ̀ẹ̀sẹ̀
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Pín { $count } rẹ, àfojúsùn fọ́nrán ojojúmọ́ fún { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Pín { $count } rẹ, àfojúsùn fọ́nrán ọ̀ṣẹ̀-ọ̀ṣẹ̀ fún { $type }
 share-goal-type-speak = Sísọ̀rọ̀
 share-goal-type-listen = Gbígbọ́rọ̀
 share-goal-type-both = Sísọ̀rọ̀ àti gbígbọ̀rọ̀
@@ -995,6 +1002,7 @@ download-start = Gba dátà púrófáìlì
 download-request = Bèèrè ìkásílẹ̀
 download-requests-info = Nígbà tí o bá tọrọ fún àwọn ìkàsílẹ̀ rẹ, a má ń ṣe àkójọpọ̀ wọn sínú ZIP fáìlì kan tàbí púpọ̀. Èyí ni àwọn ìtọrọ rẹ tí ó kọjá
 download-request-button = Ṣe ìgbàsílẹ̀
+download-request-title = { $created }
 download-request-description = { $clipCount }Àwọn fọ́nrán ohùn, àpapọ̀ ìwọ̀n{ $size } àká tó wà nípamọ́. Ìlò parí{ $expires }
 download-request-assembling-description = À ń to àwọn fáìlì rẹ lọ́wọ́. Jọ̀wọ́ ṣe àyẹ̀wò rẹ̀ nígbà míràn.
 download-request-refresh-button = ṣo dọ̀tun
