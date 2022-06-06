@@ -460,6 +460,9 @@ faq-why-different-speakers-a =
     Najwjace hłosowych datowych bankow so z nadreprezentaciju wěstych demografijow trenuje, přez kotrež  so <articleLink>muscy wobdźělnicy a wobdźělnicy srjedźneje klasy</articleLink> preferuja. Akcenty a dialekty, kotrež su zwjetša podreprezentowane w datowych sadźbach su typisce zwjazane ze skupinami ludźi, kotrež su hižo ke kromje stłóčene. Wjele mašinow ma hižo ćeže, žónske hłosy rozumić.
     Tohodla chcemy wšelakorosc w swojej hłosowej datowej bance!
 faq-why-my-lang-q = Čehodla moja rěč hišće njeje?
+faq-why-my-lang-a =
+    Common Voice je crowdsourcingowa platforma, a rěče su so wot dobrowólnikow přidali.
+    Bychmy rady wašu rěč přidali! <languageRequestLink>Wo přidawanje wašeje rěče prosyć.</languageRequestLink>
 faq-what-quality-q = Kotra awdiokwalita je trěbna, zo by so hłosowy klip w datowej sadźbje wužiwał?
 faq-what-quality-a = Chcemy, zo datowa sadźba Common Voice awdiokwalitu wotbłyšćuje, kotruž mašina rěčenja do teksta w swobodnej přirodźe słyša, pytamy tuž za wšelakorosću. Nimo wšelakoreho zhromadźenstwa rěčnikow, datowa sadźba z wšelakej awdiokwalitu mašinu rěčenja do teksta wukmani, z rozdźělnymi situacijemi z woprawdźiteho žiwjenja wobchadźeć, wot rozmołwow w pozadku do  awtoweho šuma. Tak dołho kaž waš hłosowy klip je rozumić, dyrbjał dobry dosć za datowu sadźbu być.
 faq-why-10k-hours-q = Čehodla je 10&#x202f;000 přepruwowanych hodźin na rěč cil za awdionatočenje?
