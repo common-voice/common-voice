@@ -446,7 +446,7 @@ faq-why-important-a =
 faq-how-get-q = Kak móžu daty Common Voice dóstać?
 faq-how-get-a = Datowa sadźba Common Voice je pod licencu <licenseLink>CC0</licenseLink> na <datasetLink>našej stronje datowych sadźbow</datasetLink> za sćehnjenje k dispoziciji. Móžeće tež wjacore druhe zjawnje k dispoziciji stejace datowe sadźby ze samsneje strony sćahnyć.
 faq-when-release2-q = Hdy daty Common Voice w druhich rěčach wozjewiće?
-faq-when-release2-a = Wjacerěčna wersija datoweje sadźby Common Voice so tuchwilu walčkuje a čišći. Jeli chceće nam pomhać, Common Voice nowe rěče přidać, wopytajće <sentenceCollectorLink>nastroj zběranja sadow</sentenceCollectorLink>, zo byšće datowej sadźbje nowe sady přidał, a <pontoonLink>Pontoon</pontoonLink> Mozilla, zo byšće websydło přełožił. Nowe rěče so Common Voice za přinošowanje hłosow přidawaja, hdyž je so 5000 schwalenych sadow nahromadźiło.
+faq-when-release2-a = Wjacerěčna wersija datoweje sadźby Common Voice so tuchwilu walčkuje a čišći. Jeli chceće nam pomhać, Common Voice nowe rěče přidać, wopytajće <sentenceCollectorLink>nastroj hromadźenja sadow</sentenceCollectorLink>, zo byšće datowej sadźbje nowe sady přidał, a <pontoonLink>Pontoon</pontoonLink> Mozilla, zo byšće websydło přełožił. Nowe rěče so Common Voice za přinošowanje hłosow přidawaja, hdyž je so 5000 schwalenych sadow nahromadźiło.
 faq-why-mission-q = Čehodla je Common Voice dźěl misije Mozilla?
 faq-why-mission-a = Mozilla je sej předewzał, web za kóždeho wotewrjeny a přistupny dźeržeć. Zo bychmy to činili, dyrbimy webawtorow přez webprojekty kaž Common Voice wukmanić. Dokelž hłosowe technologije přez nišowe nałoženja wurostuja, wěrimy, zo dyrbja wšěm wužiwarjam jenak słužić. To rěka, do dalšich rěčow inwestować a wšelake akcenty a demografije wobkedźbować , hdyž so hłosowe technologije wuwiwaja a testuja. Common Voice je zjawna resursa, kotraž wšěm k dispoziciji steji, a teamy a wuwiwarjo Mozilla na cyłym swěće wužiwaja jón hižo za projekty.
 faq-what-cv-and-deepspeech-q = Što je rozdźěl mjez Common Voice a Deep Speech?
@@ -553,7 +553,14 @@ about-playbook-what-is-language-content-3 = Někotre rěče maja enormne rozdź�
 about-playbook-how-add-language = Kak móžu rěč přidać?
 about-playbook-how-add-language-content-1 = Přepruwujće najprjedy, hač waša rěč <languageLink>hižo eksistuje</languageLink>. Jeli nic, dyrbiće <strong>sydło překožować a sady zběrać</strong>.
 about-playbook-how-add-language-translating-heading = Sydło přełožować
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Čitajće naš přewodnik, kak móžeće Pontoon wužiwać.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Sady hromadźić
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Čitajće naš přewodnik wo wužiwanju hromadźak sadow</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Móžeće <sentenceCollectorLinkAdd>mało sadow</sentenceCollectorLinkAdd> přidać
+    abo <bulkImportDocsLink>hromady z pomocu Githubs importować</bulkImportDocsLink>.
+    Njezabywajće, zo sady dyrbja <licenseLink>CC0 (abo powšitkownosći wužitne) być</licenseLink>, móžeće pak tež swójske spisać.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Hlejće wjace wo hromadźenju sadow</sentenceCollectorFragment>.
 
 ## How does localization work
 
