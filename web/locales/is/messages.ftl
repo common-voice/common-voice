@@ -458,6 +458,9 @@ faq-why-different-speakers-a =
     Flest gagnasöfn hafa verið þjálfuð með lýðfræðilega bjöguðum gögnum, þar sem hallar á alla þjóðfélagshópa nema <articleLink>karlmenn í millistétt</articleLink>. Oft vantar líka upptökur með hreimum og í mállýskum sem tilheyra minnihlutahópum sem nú þegar eiga undir högg að sækja í samfélaginu. Mörgum tækjum reynist erfitt að skilja kvenmannsaddir.
     Þess vegna viljum við fá fjölbreytileika í okkar raddgagnasafn!
 faq-why-my-lang-q = Af hverju er mitt tungumál ekki enn hluti af verkefninu?
+faq-why-my-lang-a =
+    Common Voice er samstarfsvettvangur fjölda fólks og tungumálunum sem þar eru hefur öllum verið bætt inn af sjálfboðaliðum.
+    Okkur þætti vænt um ef þú bætir við tungumálinu þínu! <languageRequestLink>Biddu um að tungumálinu þínu sé bætt við.</languageRequestLink>
 faq-what-quality-q = Hversu góð þurfa hljóðgæðin að vera til að upptaka verði notuð í gagnasafninu?
 faq-what-quality-a = Við viljum að gagnasafn Samróms endurspegli hljóðgæðin sem raddgreinir gæti lent í við daglega notkun, svo við vonumst eftir upptökum bæði í góðu og slæmu ástandi. Með fjölbreytilegan hóp raddgjafa og upptökur í mismunandi gæðum getum við kennt raddgreinum að ráða við ýmsar raunverulegar aðstæður, t.d. þar sem aðrar samræður er í bakgrunni eða þar sem heyrist í bílvél. Svo lengi sem hægt er að greina talið í upptökunni ætti það að duga fyrir gagnasafnið.
 faq-why-10k-hours-q = Hvers vegna er markmiðið að ná 10.000 klst. af upptökum á hvert tungumál?
@@ -558,6 +561,11 @@ about-playbook-how-add-language = Hvernig bæti ég við tungumáli?
 about-playbook-how-add-language-content-1 = Athugaðu fyrst hvort tungumálið þitt <languageLink>er þegar til staðar</languageLink>. Ef það gerir það ekki, þarf að <strong>þýða vefsvæðið og safna setningum</strong>.
 about-playbook-how-add-language-translating-heading = Þýða vefsvæðið
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Skoðaðu leiðbeiningar okkar um hvernig á að nota Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Við notum Mozilla-verkfæri sem heitir <pontoonLink>Pontoon</pontoonLink> fyrir þýðingar. Pontoon er með mörgum tungumálum,
+    en ef þitt tungumál er ekki til staðar, geturðu <pontoonRequestLink>beðið um að því verði bætt við</pontoonRequestLink>.
+    Til að gera síðan tungumálið aðgengilegt í Common Voice verkefninu,
+    <githubRepoLink>skaltu biðja um nýja tungumálið á GitHub</githubRepoLink>. <localizationFragment>Sjáðu meira um þýðingar á vefsvæðinu sjálfu</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Safna setningum
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Skoðaðu leiðbeiningar okkar um notkun setningasafnarans</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 = Þú getur <sentenceCollectorLinkAdd>bætt við litlum fjölda</sentenceCollectorLinkAdd> setninga hér, eða þú getur framkvæmt <bulkImportDocsLink>magninnflutning með Github-beiðni</bulkImportDocsLink>. Mundu að setningar þurfa að vera með <licenseLink>CC0 notkunarleyfi (eða almenningseign)</licenseLink>, eða að þú getur skrifað þínar eigin.
