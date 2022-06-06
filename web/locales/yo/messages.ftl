@@ -966,6 +966,10 @@ share-n-weekly-contribution-goal = Pín { $count } rẹ, àfojúsùn fọ́nrán
 share-goal-type-speak = Sísọ̀rọ̀
 share-goal-type-listen = Gbígbọ́rọ̀
 share-goal-type-both = Sísọ̀rọ̀ àti gbígbọ̀rọ̀
+# LINK will be replaced with the current URL
+goal-share-text =
+    Mo ṣẹ̀ ṣẹ̀dá àfojúsùn mi fún ìtọrẹ ohùn sí #CommonVoice
+    -- darapọ̀ mọ́ mi láti kọ́ àwọn ẹ̀rọ bí wọ́n ṣe lè sọ̀rọ̀ bí ènìyàn { $link }
 weekly-goal-created = Àfojúsùn rẹ̀ ọ̀sọ̀ọ̀sẹ̀ ti di sísẹ̀dá
 daily-goal-created = Àfojúsùn rẹ ojoojúmọ́ ti di síṣẹ̀dá
 return-to-edit-goal = Padà síbí láti tún àfojúsùn rẹ ṣe nígbàkúùgbà
@@ -1014,6 +1018,8 @@ download-request-link-single = Ìgbéjáde ìparí ọdún
 ## Landing
 
 welcome-staff = káàbọ̀ { $company } òṣìṣẹ́!
+login-company = Ìforúkọsílẹ̀ láti wọlé / Ìforúkọsílẹ̀ pẹ̀lú ímeèli { $company }
+profile-not-required = Nínú púrófáìlì ò pọn dandan láti fi kún àmọ́ yóò ṣe ìrànwọ́, wo ìdí nísàlẹ̀.
 read-more-about = Kà síi lojú-ìwé wa nípa wa
 
 ## DemoLayout
@@ -1025,26 +1031,53 @@ demo-welcome-subheader = Ṣé o nífẹ̀ẹ́ sí mímọ̀ si àti díd
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice jẹ́ àkójọpọ̀ dátà fún onírúurú èdẹ̀, èyí tó tóbi jùlọ tó wà ní àgbáyé fún ìlò gbogbo èèyàn.
+card-button-next = Tẹ̀ síwájú
+card-button-back = Ẹ̀yìn
+demo-language-select-label = Yê èdè wò
+demo-eofy-sub_header = Àkójọpọ̀ dátà ohùn, ṣetán láti gbàásílẹ̀
+demo-account = Àkáǹtì
 
 ## Demo Account
 
+demo-account-card-header = Nínú àkáǹtì kò pọn dandan láti ṣe ìfikún, àmọ́ ó wúlò
 
 ## Demo Contribute
 
+demo-contribute-card-header = Ṣé o ṣetán láti fi ohùn rẹ kun tàbí yá wa ní etí rẹ?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-for-example = Bí àpẹẹrẹ
+contribution-misreadings-title = Àwọn àṣìkà
+contribution-misreadings-description = Nígbà tí o bá ń tẹ́tí, yẹ àwọn ìkàsílẹ̀ wò dáada pé wọn bá àwọn ohun ta kọ sílẹ̀ mu rẹ́gí; ṣe ìkọ̀sílẹ̀ , kò báà jẹ́ fún àṣìṣe pẹ́pẹ̀pẹ́. <br /> Pẹ̀lú àwọn àṣìṣe tó wọ́pọ̀:
+contribution-misreadings-description-extended-list-1 = Pàdánù<strong>'A'</strong>tàbí<strong>'Náà'</strong> ní ìbẹ̀ẹ̀rẹ̀ ìkàsílẹ̀ náà.
+contribution-misreadings-description-extended-list-2 = Pàdánù<strong>'S'</strong>ní òpin ọ̀rọ̀ kan
+contribution-misreadings-description-extended-list-4 = Pípàdánù òpin ọ̀rọ̀ nípaṣè ìgékúrú ìkàsílẹ̀ náà láì tó àsìkò
+contribution-misreadings-description-extended-list-5 = Gbígbìnyànjú láti ka ọ̀rọ̀ kan ní ọ̀pọ̀ ìgbà
 contribution-misreadings-example-3-explanation = [Ìgékúrú ìkàsílẹ̀ ṣáájú ìparí ọ̀rọ̀ tó kẹ́yìn]
 contribution-misreadings-example-5-title = À ń jáde lọ gba kọ́fì.
 contribution-misreadings-example-6-title = À ń jáde lọ gba kọ́fì
+contribution-misreadings-example-6-explanation = [Ó yẹ kó jẹ́ "À ń"]
 contribution-misreadings-example-7-title = À ń jáde lọ gba kọ́fì kan
 contribution-misreadings-example-7-explanation = [kò sí 'a' nínú ọ̀rọ̀ tó wà nílẹ̀ tẹ́lẹ̀
+contribution-misreadings-example-8-explanation = [Àkóónú tí ò bára wọn mu]
+contribution-varying-pronunciations-title = Oríṣiríṣi ọ̀nà ìpọ̀rọ̀
+contribution-varying-pronunciations-description = Ṣọ́ra ko tó kọ fọ́nrán kan pẹ̀lú èróńgbà pé olùkà náà ṣi ọ̀rọ̀ pè, tàbí ó fi sírẹ́sì síbi tí kò tọ́, tàbí ó hàn gbangba pé ó fojú dá àmì ìbéèrè kan. Oríṣiríṣi ọ̀nà ìpọ̀rọ̀ ló wà kárí ayé, àwọn kan sì wà tí o lè má tíì gbọ́ ní agbègbè rẹ. Jọ̀wọ́ pèsè àyè ìmọrírì fún àwọn tí ìsọ̀rọ̀ wọn yàtọ̀ sí tì rẹ.
+contribution-varying-pronunciations-description-extended = Ní ìdà kejì, tí o bá lérò pé olùkà lè má tíì ṣe alábàápàdé ọ̀rọ̀ náà tẹ́lẹ̀, tí ó kàn ń lo àfojúsùn àìtọ́ fún ọ̀nà ìpọ̀rọ̀ náà, jọ̀wọ́ kọ̀ọ́. Tí kò bá́ dá o lójú, lo bọ́tíìnì ìfọ̀ọ̀rọ̀.
 contribution-varying-pronunciations-example-1-title = Bẹ̀rẹ́tì ló wọ̀ sórí
+contribution-varying-pronunciations-example-1-explanation = ['Beret' dára bóyá pẹ̀lú sírẹ̀sì lórí sílébù àkọ́kọ́ (UK) tàbí ìkejì (US)]
 contribution-varying-pronunciations-example-2-title = Ó nọwọ́ rẹ̀ sókè
+contribution-varying-pronunciations-example-2-explanation = ['Raised' nínú èdè máa ń jẹ́ pípè ní gbogbo pẹ̀lú sílébù kan, kìí ṣe méjì]
+contribution-background-noise-title = Ariwo abẹ́lẹ̀
+contribution-background-noise-description-extended = Tí ìkàsílẹ̀ náà bá ń gé, tàbí ní àwọn kọnúkọ́họ, ṣe ìkọ̀sílẹ̀ fún àyàfi tí o bá ṣì lè gbọ́ gbogbo ọ̀rọ̀ náà.
+contribution-background-noise-example-2-explanation = [Apá kan ọ̀rọ̀ náà kò ṣeé gbọ̀]
+contribution-background-voices-title = Àwọn ohùn abẹ́lẹ̀
 contribution-background-voices-description-extended = Tí ìkàsílẹ̀ náà bá ń gé, tàbí ní àwọn kọnúkọ́họ, ṣe ìkọ̀sílẹ̀ fún àyàfi tí o bá ṣì lè gbọ́ gbogbo ọ̀rọ̀ náà.
+contribution-background-voices-example-1-explanation = Ṣé ò ń bọ̀?<strong>[Jẹ́ pípè nípasẹ̀ ẹlòmíràn]
+contribution-volume-title = Bó ṣe ń dún sí
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1053,6 +1086,18 @@ contribution-background-voices-description-extended = Tí ìkàsílẹ̀ na�
 
 ## HEADER/FOOTER
 
+sc-header-add = Ṣàfikún
+sc-header-review = Àtúnyẹ̀wò
+sc-header-rejected = Àwọn gbólóhùn tí a kò
+sc-header-my = Àwọn gbólóhùn mi
+sc-header-profile = Púrófáìlì
+sc-footer-discourse = Ìfọ̀rọ̀wérò
+sc-footer-translate = Ṣe ògbùfọ̀ ìwé yìí
+sc-footer-privacy = Ìpamọ́
+sc-footer-terms = Táàmù
+sc-footer-cookies = Àwọn kúkì
+sc-login-signup-button = Ìwọlẹ́ / Ìforúkọsílẹ̀
+sc-logout-button = Ìjáde
 
 ## HOME
 
