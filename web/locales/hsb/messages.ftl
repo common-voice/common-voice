@@ -325,7 +325,6 @@ shortcut-discard-ongoing-recording-label = Běžne natočenje zaćisnyć
 shortcut-submit = Zapodaće
 shortcut-submit-label = Natočenja wotpósłać
 request-language-text = Waša rěč hišće na Common Voice njeje?
-request-language-text-learn = Zhońće, kak móžeće to tu požadać!
 request-language-button = Rěč požadać
 
 ## ProjectStatus
@@ -461,7 +460,6 @@ faq-why-different-speakers-a =
     Najwjace hłosowych datowych bankow so z nadreprezentaciju wěstych demografijow trenuje, přez kotrež  so <articleLink>muscy wobdźělnicy a wobdźělnicy srjedźneje klasy</articleLink> preferuja. Akcenty a dialekty, kotrež su zwjetša podreprezentowane w datowych sadźbach su typisce zwjazane ze skupinami ludźi, kotrež su hižo ke kromje stłóčene. Wjele mašinow ma hižo ćeže, žónske hłosy rozumić.
     Tohodla chcemy wšelakorosc w swojej hłosowej datowej bance!
 faq-why-my-lang-q = Čehodla moja rěč hišće njeje?
-faq-why-my-lang-new-a = Mozilla sej wěstu rěč njewudypuje a wěste rěče njepreferuje. Město toho je Common Voice iniciatiwa, kotrež so dospołnje wot zhromadźenstwa doprědka ćěri, ale su trěbne <multilangLink>wjacore kroki, zo by so nowa rěč přidała</multilangLink> a zo by so hromadźenje rěčnych darow započało. Najprjedy dyrbi so websydło Common Voice přełožować, zo bychu čłonojo zhromadźenstwa přistup k nazhonjenjam sobuskutkowarjow w swojej rěči měli. Jako přichodne trjebamy wulku zběrku sadow bjez awtorsko-prawniskeho škita, kotrež ludźo móža wótře předčitać. Hdyž stej tutej žadani spjelnjenej, so rěč na Common Voice "startuje", zo bychu ludźo móhli swój hłós natočić a dary druhich wobkrućić. Jeli chceće pomhać, nowu rěč startować, wobhladajće sej naš <sentenceCollectorLink>nastroj za hromadźenje sadow</sentenceCollectorLink>, zo byšće započał.
 faq-what-quality-q = Kotra awdiokwalita je trěbna, zo by so hłosowy klip w datowej sadźbje wužiwał?
 faq-what-quality-a = Chcemy, zo datowa sadźba Common Voice awdiokwalitu wotbłyšćuje, kotruž mašina rěčenja do teksta w swobodnej přirodźe słyša, pytamy tuž za wšelakorosću. Nimo wšelakoreho zhromadźenstwa rěčnikow, datowa sadźba z wšelakej awdiokwalitu mašinu rěčenja do teksta wukmani, z rozdźělnymi situacijemi z woprawdźiteho žiwjenja wobchadźeć, wot rozmołwow w pozadku do  awtoweho šuma. Tak dołho kaž waš hłosowy klip je rozumić, dyrbjał dobry dosć za datowu sadźbu być.
 faq-why-10k-hours-q = Čehodla je 10&#x202f;000 přepruwowanych hodźin na rěč cil za awdionatočenje?
@@ -528,12 +526,6 @@ about-dataset-new = Datowa sadźba Common Voice
 about-dataset-new-text = Datowa sadźba Common Voice statysacy hłosowych přikładow wobsahuje, kotrež wuwiwarjam pomhaja, nastroje za spóznawanje hłosow wutworić.
 about-clip-graveyard = Klipowy kěrchow
 about-clip-graveyard-text = Klipowy kěrchow z hłosowych klipow wobsteji, kotrež njejsu do datoweje sadźby Common Voice šafnyli. Kaž datowa sadźba je klipowy kěrchow za sćehnjenje k dispoziciji.
-about-partners = Partnerojo
-about-become-a-partner = Budźće partner
-about-partnership =
-    Common Voice je projekt zhromadźenstwa a wotwisujemy wot našeho zhromadźenstwa z partnerow a sobuskutkowarjow, zo bychmy najwjetšu datowu sadźbu wotewrjeneho žórła wuwiwali.
-    
-    Chcemy so slědowacym ludźom a organizacijam za jich pomoc na projekće dźakować:
 about-get-involved = Čińće sobu
 about-get-involved-text-2 =
     Chceće pomhać, Common Voice polěpšić?
@@ -560,8 +552,8 @@ about-playbook-what-is-language-content-3 = Někotre rěče maja enormne rozdź�
 
 about-playbook-how-add-language = Kak móžu rěč přidać?
 about-playbook-how-add-language-content-1 = Přepruwujće najprjedy, hač waša rěč <languageLink>hižo eksistuje</languageLink>. Jeli nic, dyrbiće <strong>sydło překožować a sady zběrać</strong>.
-about-playbook-how-add-language-content-2 = <strong>Zo byšće sydło přełožował</strong> – <translateVideo>konfigurujće</translateVideo> na <pontoonLink>Pontoon</pontoonLink>. Pontoon ma wjele rěčow, ale jeli waša rěč tam njeje, móžeće <pontoonRequestLink>ju požadać</pontoonRequestLink>. Prošće potom <repoLink>na GitHub</repoLink>, zo by so projekt Common Voice za swoju rěč k dispoziciji stajił. Hlejće dalše informacije wo <localizationFragment>přełožowanju sydła</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Zo byšće sady zběrał</strong> - <scVideo>konfigurujće</scVideo> <scLink>Sentence Collector</scLink>.
+about-playbook-how-add-language-translating-heading = Sydło přełožować
+about-playbook-how-add-language-collecting-sentences-heading = Sady hromadźić
 
 ## How does localization work
 
@@ -608,12 +600,6 @@ about-playbook-how-project-governance = Kak so projektowe rozsudy tworja?
 about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transparenca.
 about-playbook-how-project-governance-content-5 = Hódnota a připóznaće.
 about-playbook-how-project-governance-content-6 = Mjezsobna rozprawniska winowatosć.
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Kumšnta inteligenca
-mycroft-description =
-    Mycroft je prěni asistent wotewrjeneho žórła swěta.
-    Mycroft wšudźe běži - na desktopowym ličaku, w auće abo na Raspberry Pi.
-mycroft-secondary-description = To je softwara wotewrjeneho žórła, kotraž da so darmotnje znowa měšeć, rozšěrić a polěpšić. Mycroft da so za wšitko wužiwać, wot wědomostneho projekta do předewzaćelskeje softwary.
 
 ## Glossary
 
