@@ -322,7 +322,6 @@ shortcut-discard-ongoing-recording-label = Ignorera pågående inspelning
 shortcut-submit = Återgå
 shortcut-submit-label = Skicka in klipp
 request-language-text = Kan du inte se ditt språk på Common Voice än?
-request-language-text-learn = Lär dig hur du kan begära det här!
 request-language-button = Skicka en förfrågan
 
 ## ProjectStatus
@@ -461,7 +460,9 @@ faq-why-different-speakers-a =
     De flesta taldatabaser tränas med en överrepresentation av en viss demografi vilket resulterar i en partiskhet mot <articleLink>man och medelklass</articleLink>. Accenter och dialekter som tenderar att vara underrepresenterade i träningsdata är vanligtvis förknippade med grupper av människor som redan är marginaliserade. Många maskiner kämpar också för att förstå kvinnliga röster.
     Det är därför vi vill ha variation i vår röstdatabas!
 faq-why-my-lang-q = Varför är inte mitt språk inkluderat än?
-faq-why-my-lang-new-a = Mozilla väljer inte eller favoriserar ett språk över ett annat. Istället är Common Voice ett rent community-drivet initiativ, men det krävs <multilangLink>flera steg att lägga till ett nytt språk</multilangLink> och att börja samla röstdonationer. Först måste Common Voice-webbplatsen översättas så att medlemmar i communityn kan få tillgång till det på sitt eget språk. Därefter behöver vi en stor samling upphovsrättsfria meningar som människor ska kunna läsa upp. När båda dessa krav är uppfyllda, lanseras ett språk på Common Voice för att folk ska börja spela in sin röst och att bekräfta andras donationer. Om du vill hjälpa till att starta ett nytt språk går du vidare till vårt <sentenceCollectorLink>verktyg för meningsinsamling</sentenceCollectorLink> för att komma igång.
+faq-why-my-lang-a =
+    Common Voice är en crowdsourcing-plattform, och alla språken har lagts till av frivilliga.
+    Vi vill gärna att du lägger till ditt språk! <languageRequestLink>Fråga om att lägga till ditt språk.</languageRequestLink>
 faq-what-quality-q = Vilken nivå på ljudkvalitet krävs för att ett röstklipp ska kunna användas i datamängden?
 faq-what-quality-a = Vi vill att Common Voice-datamängd ska återspegla ljudkvaliteten som en tal-till-text-motor kommer att höra naturligt, så vi letar efter en variation. Förutom en blandning av talare kommer en datamängd med varierande ljudkvalitet att lära tal-till-text-motorn att hantera olika verkliga situationer, från samtal i bakgrunden till oljud från en bil. Så länge ditt röstklipp är förståeligt ska det vara tillräckligt bra för datamängden.
 faq-why-10k-hours-q = Varför är 10 000 validerade timmar per språk målet för inspelat ljud?
@@ -531,12 +532,6 @@ about-dataset-new = Common Voice datamängd
 about-dataset-new-text = Common Voice datamängd innehåller hundratusentals röstprover som hjälper utvecklare att skapa röstigenkänningsverktyg.
 about-clip-graveyard = Klippkyrkogården
 about-clip-graveyard-text = Klippkyrkogården består av röstklipp som inte platsar i Common Voice-datamängd. Precis som datamängden är klippkyrkogården tillgänglig för nedladdning.
-about-partners = Partners
-about-become-a-partner = Bli en partner
-about-partnership =
-    Common Voice är ett samarbetsprojekt och vi är beroende av våra samarbetspartners och medarbetares sammansättning för att skapa den största datamängden med öppen källkod för röster någonsin.
-    
-    Vi vill tacka följande personer och organisationer för deras hjälp med projektet:
 about-get-involved = Engagera dig
 about-get-involved-text-2 =
     Vill du göra Common Voice ännu bättre?
@@ -566,9 +561,20 @@ about-playbook-what-is-language-content-3 = Vissa språk har enorm variation i g
 
 about-playbook-how-add-language = Hur lägger jag till ett språk?
 about-playbook-how-add-language-content-1 = Kontrollera först om ditt språk <languageLink>redan finns</languageLink>. Om det inte gör det måste du <strong>översätta webbplatsen och samla meningar</strong>.
-about-playbook-how-add-language-content-2 = <strong>För att översätta webbplatsen</strong> - <translateVideo>konfigurera</translateVideo <pontoonLink>Pontoon</pontoonLink>. Pontoon har många språk, men om det inte har ditt kan du <pontoonRequestLink>begära det</pontoonRequestLink>. Be sedan <repoLink>via GitHub</repoLink> att få Common Voice-projektet tillgängligt för språket. Se mer om <localizationFragment>webbplatsöversättning</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>För att samla in meningar</strong> - <scVideo>konfigurera</scVideo> <scLink>meningsinsamlaren</scLink>.
-about-playbook-how-add-language-content-4 = Du kan <scLinkAdd>lägga till ett litet antal</scLinkAdd> meningar här eller så kan du göra <bulkImportDocsLink>massimport</bulkImportDocsLink> via en Github-förfrågan. Kom ihåg att meningar måste vara <licenseLink>CC0 (eller allmän egendom)</licenseLink> eller så kan du skriva din egen. Se mer om <scFragment>meningsinsamling</scFragment>.
+about-playbook-how-add-language-translating-heading = Översätt webbplatsen
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Se vår guide om hur du använder Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Vi använder ett Mozilla-verktyg som heter <pontoonLink>Pontoon</pontoonLink> för översättningar. Pontoon har många språk,
+    men om den inte har ditt kan du <pontoonRequestLink>begära att ditt språk läggs till</pontoonRequestLink>.
+    Sedan, för att göra språket tillgängligt i Common Voice-projektet,
+    <githubRepoLink>begär det nya språket på GitHub</githubRepoLink>. <localizationFragment>Se mer på webbplatsöversättning</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Samla in meningar
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Se vår guide om hur du använder meningssamlaren</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Du kan <sentenceCollectorLinkAdd>lägga till ett litet antal meningar</sentenceCollectorLinkAdd>,
+    eller så kan du göra <bulkImportDocsLink>bulkimporter med Github</bulkImportDocsLink>.
+    Kom ihåg att meningar måste vara <licenseLink>CC0 (eller allmän egendom)</licenseLink>, eller så kan du skriva din egen.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Se mer om meningsinsamling</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -632,12 +638,6 @@ about-playbook-how-project-governance-content-4 = Gemenskapens deltagande och be
 about-playbook-how-project-governance-content-5 = Värde och erkännande.
 about-playbook-how-project-governance-content-6 = Ömsesidigt ansvar.
 about-playbook-how-project-governance-content-7 = <governanceLink>Läs mer om hur vi styrs</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Artificiell intelligens
-mycroft-description =
-    Mycroft är världens första assistent med öppen källkod. 
-    Mycroft körs var som helst - på en stationär dator, inuti en bil, eller på en Raspberry Pi.
-mycroft-secondary-description = Detta är öppen källkodsprogramvara som kan remixas, utvidgas och förbättras fritt. Mycroft kan användas i allt från ett vetenskapligt projekt till en företagsprogramvara.
 
 ## Glossary
 
