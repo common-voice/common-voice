@@ -123,10 +123,7 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
       api.fetchCrossLocaleMessages(),
       api.fetchLanguageStats(),
     ]);
-    console.log('localeMessages, { launched, inProgress }', localeMessages, {
-      launched,
-      inProgress,
-    });
+
     return { localeMessages, launched, inProgress };
   };
 
