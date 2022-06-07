@@ -559,7 +559,8 @@ about-playbook-how-add-language-translating-heading = Traduire le site
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Regardez notre guide d’utilisation de Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Collecte de phrases
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Regardez notre guide d’utilisation du collecteur de phrases</sentenceCollectorVideo>.
-about-playbook-how-add-language-collecting-sentences-content-2 = Vous pouvez <sentenceCollectorLinkAdd>ajouter un petit nombre de phrases ici</sentenceCollectorLinkAdd>, ou vous pouvez effectuer des <bulkImportDocsLink>importations en masse via GitHub</bulkImportDocsLink>. N’oubliez pas que les phrases doivent être <licenseLink>sous licence CC0 (domaine public)</licenseLink>, ou vous pouvez rédiger les vôtres.
+about-playbook-how-add-language-collecting-sentences-content-2 = Vous pouvez <sentenceCollectorLinkAdd>ajouter un petit nombre de phrases ici</sentenceCollectorLinkAdd>, ou vous pouvez effectuer des <bulkImportDocsLink>importations en masse via GitHub</bulkImportDocsLink>. N’oubliez pas que les phrases doivent être <licenseLink>sous licence CC0 (ou dans le domaine public)</licenseLink>, ou vous pouvez rédiger les vôtres.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>En savoir plus sur la collecte de phrases</sentenceCollectorFragment>.
 
 ## How does localization work
 
