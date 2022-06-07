@@ -457,6 +457,9 @@ faq-why-different-speakers-a =
     La plupart des bases de données vocales sont construites avec une surreprésentation de certaines démographies et cela génère un biais en faveur <articleLink>des hommes de la classe moyenne</articleLink>. Les accents et les dialectes qui tendent à être sous-représentés sont typiquement ceux de populations déjà marginalisées. Ainsi, souvent, les machines ont du mal à reconnaître les voix féminines.
     C’est pourquoi nous voulons de la diversité dans notre base de données !
 faq-why-my-lang-q = Pourquoi ma langue n’est-elle pas déjà incluse ?
+faq-why-my-lang-a =
+    Common Voice est une plateforme de crowdsourcing, et les langues ont toutes été ajoutées par des bénévoles.
+    Nous serions ravis que vous ajoutiez votre langue ! <languageRequestLink>Demander l’ajout d’une langue.</languageRequestLink>
 faq-what-quality-q = Quel niveau de qualité audio est requis pour les échantillons présents dans la base de données ?
 faq-what-quality-a = Nous souhaitons que le jeu de données Common Voice reflète la qualité audio qu’un système de reconnaissance vocale rencontrera dans la réalité, nous avons donc besoin de diversité. En plus d’une communauté représentant une large diversité de locuteurs, un jeu de données avec une qualité sonore variable permettra d’apprendre au moteur de reconnaissance vocale comment s’adapter dans différentes situations de la vie réelle, que ce soit avec des conversations en arrière-plan ou le bruit d’une voiture. Du moment que vos échantillons sont compréhensibles, alors c’est parfait pour le jeu de données.
 faq-why-10k-hours-q = Pourquoi l’objectif est-il de 10 000 heures d’audio ?
@@ -557,6 +560,10 @@ about-playbook-how-add-language = Comment ajouter une langue ?
 about-playbook-how-add-language-content-1 = Tout d’abord, vérifiez si votre langue <languageLink>existe déjà</languageLink>. Si ce n’est pas le cas, vous devrez <strong>traduire le site et collecter des phrases</strong>.
 about-playbook-how-add-language-translating-heading = Traduire le site
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Regardez notre guide d’utilisation de Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Nous utilisons un outil de Mozilla appelé <pontoonLink>Pontoon</pontoonLink> pour les traductions. Pontoon propose beaucoup de langues,
+    mais si la vôtre n’est pas proposée, vous pouvez <pontoonRequestLink>demander son ajout</pontoonRequestLink>.
+    Ensuite, pour rendre la langue disponible sur le projet Common Voice, vous devrez <githubRepoLink>demander la nouvelle langue sur GitHub</githubRepoLink>. <localizationFragment>En savoir plus sur la traduction du site</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Collecte de phrases
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Regardez notre guide d’utilisation du collecteur de phrases</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 = Vous pouvez <sentenceCollectorLinkAdd>ajouter un petit nombre de phrases ici</sentenceCollectorLinkAdd>, ou vous pouvez effectuer des <bulkImportDocsLink>importations en masse via GitHub</bulkImportDocsLink>. N’oubliez pas que les phrases doivent être <licenseLink>sous licence CC0 (ou dans le domaine public)</licenseLink>, ou vous pouvez rédiger les vôtres.
