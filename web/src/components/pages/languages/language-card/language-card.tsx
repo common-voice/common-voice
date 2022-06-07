@@ -4,7 +4,7 @@ import classNames from 'classnames';
 
 import { InProgressLanguage, LaunchedLanguage } from 'common';
 import { createCrossLocalization } from '../../../../services/localization';
-import { useLocale } from '../../../locale-helpers';
+import { useAvailableLocales, useLocale } from '../../../locale-helpers';
 import { ModalOptions } from '../languages';
 
 import LanguageCardCTA from './cta';
@@ -26,11 +26,13 @@ const LanguageCard = ({
   setModalOptions,
 }: LanguageCardProps) => {
   const [globalLocale] = useLocale();
+  const availableLocales = useAvailableLocales();
 
-  const l10n = createCrossLocalization(localeMessages, [
-    language.locale,
-    globalLocale,
-  ]);
+  const l10n = createCrossLocalization(
+    localeMessages,
+    [language.locale, globalLocale],
+    availableLocales
+  );
 
   return (
     <div className={styles.LanguageCard}>
