@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react';
 import { BaseLanguage, InProgressLanguage, LaunchedLanguage } from 'common';
 
 import { useAPI } from '../../../hooks/store-hooks';
-import { useLocale } from '../../locale-helpers';
+import { useLocale, useNativeLocaleNames } from '../../locale-helpers';
 import URLS from '../../../urls';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
 import { LinkButton, StyledLink, TextButton } from '../../ui/ui';
@@ -200,9 +200,11 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
     }));
   };
 
-  const handleQueryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleQueryChange = (
+    event: React.ChangeEvent<HTMLInputElement>,
+    nativeNames: any
+  ) => {
     const query = event.target.value;
-    const { nativeNames } = languages;
 
     function filterLanguages<T>(languages: T[]): T[] {
       return query
@@ -291,6 +293,7 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
     query || showAllInProgress
       ? filteredInProgress
       : filteredInProgress.slice(0, 3);
+  const nativeNames = useNativeLocaleNames();
 
   return (
     <React.Fragment>
@@ -327,7 +330,7 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
               <LanguageSearch
                 inputRef={inputRef}
                 query={query}
-                handleQueryChange={handleQueryChange}
+                handleQueryChange={e => handleQueryChange(e, nativeNames)}
                 handleQueryKeyDown={handleQueryKeyDown}
                 toggleSearch={toggleSearch}
               />
