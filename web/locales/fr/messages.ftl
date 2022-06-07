@@ -321,7 +321,6 @@ shortcut-discard-ongoing-recording-label = Ignorer l’enregistrement en cours
 shortcut-submit = Entrée
 shortcut-submit-label = Envoyer les enregistrements
 request-language-text = Votre langue n’est pas encore disponible ?
-request-language-text-learn = Découvrez comment demander à ce qu’elle soit ajoutée.
 request-language-button = Proposer une langue
 
 ## ProjectStatus
@@ -458,7 +457,6 @@ faq-why-different-speakers-a =
     La plupart des bases de données vocales sont construites avec une surreprésentation de certaines démographies et cela génère un biais en faveur <articleLink>des hommes de la classe moyenne</articleLink>. Les accents et les dialectes qui tendent à être sous-représentés sont typiquement ceux de populations déjà marginalisées. Ainsi, souvent, les machines ont du mal à reconnaître les voix féminines.
     C’est pourquoi nous voulons de la diversité dans notre base de données !
 faq-why-my-lang-q = Pourquoi ma langue n’est-elle pas déjà incluse ?
-faq-why-my-lang-new-a = Mozilla ne choisit ni ne favorise aucune langue par rapport à une autre. Au contraire, Common Voice est entièrement piloté par la communauté, mais il faut <multilangLink>plusieurs étapes pour ajouter une langue</multilangLink> et démarrer la collecte d’échantillons sonores. D’abord, le site web Common Voice nécessite d’être traduit pour que les membres de la communauté aient accès à la contribution dans leur langue. Ensuite, nous avons besoin d’une vaste quantité de textes qui soient libres de droits afin que les gens puissent les lire. Une fois que ces deux prérequis sont satisfaits, la langue est « lancée » sur Common Voice et les contributeurs et contributrices peuvent s’enregistrer et valider les enregistrements. Si vous souhaitez contribuer au lancement d’une nouvelle langue, rejoignez pour commencer notre <sentenceCollectorLink>outil de collecte de phrases</sentenceCollectorLink>.
 faq-what-quality-q = Quel niveau de qualité audio est requis pour les échantillons présents dans la base de données ?
 faq-what-quality-a = Nous souhaitons que le jeu de données Common Voice reflète la qualité audio qu’un système de reconnaissance vocale rencontrera dans la réalité, nous avons donc besoin de diversité. En plus d’une communauté représentant une large diversité de locuteurs, un jeu de données avec une qualité sonore variable permettra d’apprendre au moteur de reconnaissance vocale comment s’adapter dans différentes situations de la vie réelle, que ce soit avec des conversations en arrière-plan ou le bruit d’une voiture. Du moment que vos échantillons sont compréhensibles, alors c’est parfait pour le jeu de données.
 faq-why-10k-hours-q = Pourquoi l’objectif est-il de 10 000 heures d’audio ?
@@ -528,12 +526,6 @@ about-dataset-new = Jeu de données Common Voice
 about-dataset-new-text = Le jeu de données Common Voice contient des centaines de milliers d’échantillons vocaux pour aider les développeurs à créer des applications vocales.
 about-clip-graveyard = Cimetière des échantillons
 about-clip-graveyard-text = Le cimetière des échantillons est constitué d’échantillons qui n’ont pas été admis à faire partie du jeu de données Common Voice. Tout comme ce dernier, le cimetière des échantillons est disponible au téléchargement.
-about-partners = Partenaires
-about-become-a-partner = Devenir partenaire
-about-partnership =
-    Common Voice est un projet collaboratif et nous comptons sur notre communauté de partenaires et de contributeurs et contributrices pour créer le plus grand ensemble de données open source de voix.
-    
-    Nous voudrions remercier les personnes et organisations suivantes pour leur aide dans le projet :
 about-get-involved = Participer
 about-get-involved-text-2 =
     Vous voulez aider à améliorer Common Voice ?
@@ -563,9 +555,11 @@ about-playbook-what-is-language-content-3 = Certaines langues ont de grandes dif
 
 about-playbook-how-add-language = Comment ajouter une langue ?
 about-playbook-how-add-language-content-1 = Tout d’abord, vérifiez si votre langue <languageLink>existe déjà</languageLink>. Si ce n’est pas le cas, vous devrez <strong>traduire le site et collecter des phrases</strong>.
-about-playbook-how-add-language-content-2 = <strong>Pour traduire le site</strong>, <translateVideo>lancez-vous</translateVideo> sur <pontoonLink>Pontoon</pontoonLink>. Pontoon propose beaucoup de langues, mais si la vôtre n’est pas proposée, vous pouvez <pontoonRequestLink>en faire la demande</pontoonRequestLink>. Ensuite, demandez <repoLink>via GitHub</repoLink> que le projet Common Voice soit activé pour votre langue. Retrouvez davantage d’informations sur la <localizationFragment>traduction du site</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Pour collecter des phrases</strong>, <scVideo>lancez-vous</scVideo> sur le <scLink>collecteur de phrases</scLink>.
-about-playbook-how-add-language-content-4 = Vous pouvez <scLinkAdd>ajouter un petit nombre</scLinkAdd> de phrases ici, ou vous pouvez effectuer des <bulkImportDocsLink>importations en masse</bulkImportDocsLink> via une pull request sur GitHub. N’oubliez pas que les phrases doivent être <licenseLink>sous licence CC0 (domaine public)</licenseLink>, ou vous pouvez rédiger les vôtres. <scFragment>En savoir plus sur la collecte de phrases</scFragment>.
+about-playbook-how-add-language-translating-heading = Traduire le site
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Regardez notre guide d’utilisation de Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Collecte de phrases
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Regardez notre guide d’utilisation du collecteur de phrases</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = Vous pouvez <sentenceCollectorLinkAdd>ajouter un petit nombre de phrases ici</sentenceCollectorLinkAdd>, ou vous pouvez effectuer des <bulkImportDocsLink>importations en masse via GitHub</bulkImportDocsLink>. N’oubliez pas que les phrases doivent être <licenseLink>sous licence CC0 (domaine public)</licenseLink>, ou vous pouvez rédiger les vôtres.
 
 ## How does localization work
 
@@ -629,12 +623,6 @@ about-playbook-how-project-governance-content-4 = Participation communautaire et
 about-playbook-how-project-governance-content-5 = Valeur et reconnaissance.
 about-playbook-how-project-governance-content-6 = Responsabilité mutuelle.
 about-playbook-how-project-governance-content-7 = <governanceLink>En savoir plus sur notre gouvernance</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Intelligence artificielle
-mycroft-description =
-    Mycroft est le premier assistant open source au monde.
-    Mycroft fonctionne n’importe où : sur un ordinateur de bureau, dans une voiture ou sur un Raspberry Pi.
-mycroft-secondary-description = C’est un logiciel open source qui peut être librement remixé, développé et amélioré. Mycroft peut être utilisé dans tous les domaines, du projet scientifique au logiciel d’entreprise.
 
 ## Glossary
 
