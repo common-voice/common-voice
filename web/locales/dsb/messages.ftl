@@ -559,6 +559,11 @@ about-playbook-how-add-language-translating-heading = Sedło pśełožowaś
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Cytajśo naš wjednik, kak móžośo Pontoon wužywaś.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Sady gromaźiś
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Cytajśo naš wjednik wó wužywanju gromaźak sadow</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Móžośo <sentenceCollectorLinkAdd>mało sadow</sentenceCollectorLinkAdd> pśidaś
+    abo <bulkImportDocsLink>gromady z pomocu Githubs importěrowaś</bulkImportDocsLink>.
+    Njezabywajśo, až sady muse <licenseLink>CC0 (abo za wše wužytne) byś</licenseLink>, móžośo pak teke swójske spisaś.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Glejśo wěcej wó gromaźenju sadow</sentenceCollectorFragment>.
 
 ## How does localization work
 
