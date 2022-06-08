@@ -4094,6 +4094,7 @@
 哈馬星（Há-má-sing）
 哎喲有影會曉呢（aih--ió ū-iánn ē-hiáu--neh）
 員山仔（Înn-suann-á）
+員山鄉（Înn-suann-hiong）
 員山鄉（Îⁿ-soaⁿ-hiong）
 員工受害，走去揣頭家抗議（Uân-kang siū-hāi, tsáu-khì tshuē thâu-ke khòng-gī）
 員林坑（Uân-lîm-khinn | Oân-lîm-khiⁿ）
@@ -5114,6 +5115,7 @@
 大同公園（Tāi-tông Kong-hn̂g）
 大同區（Tāi-tông-khu）
 大同國小（Tuā-tông Kok-sió | Tōa-tông Kok-sió）
+大同國小（Tuā-tông Kok-sió）
 大同莊園（Tuā-tông Tsng-hn̂g | Tōa-tông Chng-hn̂g）
 大同莊園（Tuā-tông Tsng-hn̂g）
 大同鄉（Tāi-tông-hiong）
@@ -12770,6 +12772,7 @@
 無路使（bô-lōo-sái）
 無路屎（bô-lōo-sái）
 無路用的跤數（Bô-lōo-iōng ê kha-siàu）
+無較大（bô-khah-tōa）
 無較縒（bô-khah-tsua̍h）
 無輸無贏（bô-su bô-iânn）
 無退跤个所在（bô thè kha ê sóo-tsāi）
