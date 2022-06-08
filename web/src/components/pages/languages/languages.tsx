@@ -314,12 +314,8 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
                 <Localized id="request-language-text" />{' '}
                 <Localized id="request-language-text-learn" />
               </p>
-              <LinkButton
-                outline
-                rounded
-                blank
-                href="https://github.com/mozilla/common-voice/blob/main/docs/LANGUAGE.md">
-                <Localized id="request-language-button" />
+              <LinkButton outline rounded to={URLS.LANGUAGE_REQUEST}>
+                <Localized id="request-language-button"></Localized>
               </LinkButton>
             </div>
           </div>
