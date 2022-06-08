@@ -10,6 +10,7 @@ import UserClient from './lib/model/user-client';
 import DB from './lib/model/db';
 import { earnBonus } from './lib/model/achievements';
 import { getConfig } from './config-helper';
+import { ChallengeTeamToken, ChallengeToken } from 'common';
 
 const {
   ENVIRONMENT,
@@ -113,9 +114,25 @@ router.get(
   CALLBACK_URL,
   passport.authenticate('auth0', { failureRedirect: '/login' }),
   async (request: Request, response: Response) => {
-    const { user, session } = request;
-    const { locale, old_user, old_email, redirect, enrollment } =
-      parseState(request);
+    const {
+      user,
+      query: { state },
+      session,
+    } = request;
+
+    let currentState = {
+      locale: '',
+      old_user: '',
+      old_email: '',
+      redirect: '',
+      enrollment: { challenge: '', team: '', invite: '', referer: '' },
+    };
+
+    if (state && typeof state === 'string') {
+      currentState = JSON.parse(AES.decrypt(state, SECRET).toString(enc.Utf8));
+    }
+
+    const { locale, old_user, old_email, redirect, enrollment } = currentState;
 
     const basePath = locale ? `/${locale}/` : '/';
     if (!user) {
@@ -129,12 +146,12 @@ router.get(
         session.passport.user = old_user;
       }
       response.redirect('/profile/settings?success=' + success.toString());
-    } else if (enrollment?.challenge && enrollment.team) {
+    } else if (enrollment?.challenge && enrollment?.team) {
       if (
         !(await UserClient.enrollRegisteredUser(
           user.emails[0].value,
-          enrollment.challenge,
-          enrollment.team,
+          enrollment.challenge as ChallengeToken,
+          enrollment.team as ChallengeTeamToken,
           enrollment.invite,
           enrollment.referer
         ))
