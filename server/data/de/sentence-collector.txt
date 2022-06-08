@@ -3326,6 +3326,7 @@ Bring bitte erst mal die anderen Dinge zu Ende.
 Bring bitte schönes Wetter mit.
 Bring bloß keine Ordnung in mein Chaos!
 Bring doch bitte noch ein Teelicht fürs Stövchen mit!
+Bring doch deinen Freund mit.
 Bring doch mal den Müll raus!
 Bring ihn nicht auf dumme Gedanken!
 Bring mich zum Drosselstieg vierundvierzig.
@@ -3338,6 +3339,7 @@ Bringen Sie mich schnell zum Flughafen!
 Bringen Sie mich zu Ihrem Anführer!
 Bringen Sie mir zunächst Forelle.
 Bringst du dein Waffeleisen zu der Party mit?
+Bringst du deine Freundin mit?
 Bringst du den Müll für mich raus?
 Bringst du morgen etwas vorbei?
 Bringst du noch vier Kiwis mit?
@@ -15014,6 +15016,7 @@ Hat sich an Ihrer Aussage inzwischen etwas geändert?
 Hat sich das Speichermedium als widerstandsfähig erwiesen?
 Hat sich die Machete in Luft aufgelöst?
 Hat sich dir was im Kopf verschoben?
+Hat sie einen neuen Liebhaber?
 Hat sie euch jemals etwas zum Geburtstag geschenkt?
 Hat sie euch wirklich Hausaufgaben gegeben?
 Hat sie ihr heutiges Tageswerk beendet?
@@ -30085,6 +30088,7 @@ Wann sollte man Unkraut rupfen?
 Wann spricht man von zwei Handlungen?
 Wann stehen Sie gewöhnlich auf?
 Wann steigt die Abrissparty?
+Wann stellst du uns deinen Liebhaber vor?
 Wann treffen wir uns noch mal bei dir?
 Wann treffen wir uns nochmal bei dir?
 Wann und warum fiel der eiserne Vorhang?
@@ -31924,6 +31928,7 @@ Wer ist aktuell Präsident von Kirgisistan?
 Wer ist dein Verfolger?
 Wer ist denn "wir"?
 Wer ist denn am Freitag gestorben?
+Wer ist denn dein geheimer Liebhaber?
 Wer ist denn gerade ins Haus gekommen?
 Wer ist denn jetzt schon wieder Konstantin?
 Wer ist der Erbauer?
@@ -32349,6 +32354,7 @@ Wie geht es Ihrer Frau Gemahlin?
 Wie geht es Melanie?
 Wie geht es bei eurem Hausbau voran?
 Wie geht es deinem Hausarzt?
+Wie geht es deinem Verehrer?
 Wie geht es dir jetzt?
 Wie geht es dir?
 Wie geht es?
