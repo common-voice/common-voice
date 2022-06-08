@@ -12,7 +12,6 @@ import {
   useLocale,
   useAvailableLocales,
 } from '../../locale-helpers';
-import { trackLanguages } from '../../../services/tracker';
 import ProgressBar from '../../progress-bar/progress-bar';
 import { Hr } from '../../ui/ui';
 import GetInvolvedModal from './get-involved-modal';
@@ -203,7 +202,6 @@ const LocalizationBox = React.memo((props: Props) => {
           formatProgress={formatSeconds}
           progressSecondary
           onClick={() => {
-            trackLanguages('contribute', locale);
             history.push(toLocaleRouteBuilder(locale)(URLS.SPEAK));
           }}>
           <LocalizationProvider l10n={l10n}>
