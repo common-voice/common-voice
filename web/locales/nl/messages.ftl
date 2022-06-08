@@ -558,8 +558,17 @@ about-playbook-how-add-language = Hoe voeg ik een taal toe?
 about-playbook-how-add-language-content-1 = Controleer eerst of uw taal <languageLink>al bestaat</languageLink>. Als dat niet het geval is, moet u <strong>de website vertalen en zinnen verzamelen</strong>.
 about-playbook-how-add-language-translating-heading = De website vertalen
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Bekijk onze gids voor het gebruik van Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    We gebruiken een Mozilla-tool genaamd <pontoonLink>Pontoon</pontoonLink> voor vertalingen. Pontoon heeft veel talen,
+    maar als het die van u niet heeft, kunt u <pontoonRequestLink>verzoeken om uw taal toe te voegen</pontoonRequestLink>.
+    Om vervolgens de taal beschikbaar te maken voor het Common Voice-project,
+    <githubRepoLink>vraagt u de nieuwe taal op GitHub aan</githubRepoLink>. <localizationFragment>Meer info over websitevertalingen</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Zinnen verzamelen
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Bekijk onze handleiding over het gebruik van de Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    U kunt <sentenceCollectorLinkAdd>kleine aantallen zinnen toevoegen</sentenceCollectorLinkAdd>,
+    of u kunt <bulkImportDocsLink>bulkimport doen met Github</bulkImportDocsLink>.
+    Onthoud dat zinnen <licenseLink>CC0 (of publiek domein)</licenseLink> moeten zijn, of u kunt uw eigen zinnen schrijven.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Meer info over het verzamelen van zinnen</sentenceCollectorFragment>.
 
 ## How does localization work
