@@ -846,7 +846,8 @@ language-search-input =
 language-speakers = Носіїв
 localized = Перекладено
 sentences = Речення
-total-hours = Всього годин
+language-validation-hours = Години
+language-validation-progress = Досягнення перевірки
 
 ## Contribution
 
