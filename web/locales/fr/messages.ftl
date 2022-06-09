@@ -811,7 +811,7 @@ language-search-input =
 language-speakers = Locuteurs et locutrices
 localized = Traduction
 sentences = Phrases
-total-hours = Total d’heures
+language-validation-hours = Heures
 
 ## Contribution
 
