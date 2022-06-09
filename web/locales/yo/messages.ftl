@@ -1100,6 +1100,7 @@ sc-home-review-text = Ṣe ìrànwọ́ fún wa pẹ̀lú ṣíṣe àtú
 
 sc-howto-title = Ọ̀nà ṣíṣe
 sc-howto-addlang-title = Ṣíṣe àfikún àwọn èdè láti ṣiṣẹ́ pẹ̀lú
+sc-howto-addlang-text = Kété tí o bá wọlé, o lè yan àwọn èdè rẹ nínú abala púrófáìlì.
 sc-howto-addsen-title = Ṣàfikún àwọn gbólóhùn tuntun
 sc-howto-cite-item-1 = O lè fi wẹ́íbusaìtì kun, àpẹẹrẹ "Common Voice -https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = O lè lo sítàì ìtọ́kasí ti akadá, bí àpẹẹrẹ sítàì Harvard "Mozilla (2021) Common Voice. Ó wà ní https://commonvoice.mozilla.org/ (Wíwọlé: 15th Ọwẹ́wẹ̀ 2021)"
@@ -1111,6 +1112,7 @@ sc-howto-review-criteria-3 = Gbólóhun náà gbọ́dọ̀ jẹ́ èyí t
 sc-howto-review-criteria-4 = Tí gbólóhùn náà bá bá àwọn ìlànà náà mu, tẹ bọ́tíìnì "Ìfọwọ́sí" .
 sc-howto-review-criteria-5 = Tí gbólóhùn náà kò bá bá àwọn ìlànà òkè yí mu, tẹ bọ́tíìnì "Ìkọ̀sílẹ̀" . Tí gbólóhùn náà kò bá dá ọ lójú, ò lè fò ó, kí o sì lọ sí èyí tó tẹ̀le.
 sc-howto-review-criteria-6 = Tí o bá parí àwọn gbólóhùn tí o fẹ́ ṣe àyẹ̀wò wọn, jọ̀wọ́ bá wa gba àwọn gbólóhùn díẹ̀ si!
+sc-howto-findpd-title = Wíwá àwọn gbólóhùn tó wà tẹ́lẹ̀ ní agbègbè gbogbogbo
 sc-howto-findpd-subtitle = Wá wọn lórí ẹ̀rọ ayélujára
 sc-howto-findpd-text-2 = Rántí pé a nílò a ti tọrọ àyè láti ṣe  àtẹ̀jáde àwọn gbólóhùn wọ̀nyẹn, nítorí náà ri dájú ní gbogbo ìgbà pé ọ̀rọ̀ náà jẹ́ ti <wikipediaLink>agbègbè gbogbogbo</wikipediaLink>. Tí kò bá sí ìtọ́kasí tó dunjú, kàn sí ẹni tó ni ọ̀rọ̀ náà, kí o sì bèrè bóyá wọ́n máa nífẹ̀ẹ́ à ti fi àwọn ọ̀rọ̀ wọn dásí ibùgbé gbogbogbo. Tí wọ́n bá fẹ́, ràn wọ́n lọ́wọ́ </wikipediaLink> à ti tọ́ ìlànà àdéhùn àwọn ìdásí</cc0WaiverLink>. Tí wọn ò bá fẹ́ láti dásí pẹ̀lú ọ̀rọ̀ náà, nígbà náà kò sí àyè fún ọ láti lo ọ̀rọ̀ náà.
 sc-howto-findpd-tips = Àwọn òte díẹ̀ rè é lá́ti wá àwọn gbólóhùn:
