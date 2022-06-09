@@ -790,7 +790,8 @@ language-search-input =
 language-speakers = Rěčnicy
 localized = Přełoženy
 sentences = Sady
-total-hours = Hodźiny dohromady
+language-validation-hours = Hodźiny
+language-validation-progress = Přepruwowanski postup
 
 ## Contribution
 
