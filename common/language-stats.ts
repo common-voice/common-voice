@@ -1,4 +1,4 @@
-type SentenceCount = {
+export type SentenceCount = {
   currentCount: number;
   targetSentenceCount: number;
 };
