@@ -841,7 +841,8 @@ language-search-input =
 language-speakers = Sprekkers
 localized = Oerset
 sentences = Sinnen
-total-hours = Oeren totaal
+language-validation-hours = Oeren
+language-validation-progress = Falidaasjefoarútgong
 
 ## Contribution
 
