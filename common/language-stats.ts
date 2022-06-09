@@ -1,4 +1,7 @@
-import { SentenceCount } from './language';
+type SentenceCount = {
+  currentCount: number;
+  targetSentenceCount: number;
+};
 
 export type BaseLanguage = {
   locale: string;
