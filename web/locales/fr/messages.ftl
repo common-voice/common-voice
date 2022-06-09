@@ -812,6 +812,7 @@ language-speakers = Locuteurs et locutrices
 localized = Traduction
 sentences = Phrases
 language-validation-hours = Heures
+language-validation-progress = Avancement de la validation
 
 ## Contribution
 
