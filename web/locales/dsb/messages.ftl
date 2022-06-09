@@ -790,7 +790,8 @@ language-search-input =
 language-speakers = Powědarje
 localized = Pśełožony
 sentences = Sady
-total-hours = Góźiny dogromady
+language-validation-hours = Góźiny
+language-validation-progress = Pśeglědowański póstup
 
 ## Contribution
 
