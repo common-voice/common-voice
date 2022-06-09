@@ -1041,6 +1041,7 @@ contribution-misreadings-description-extended-list-2 = Pàdánù<strong>'S'</
 contribution-misreadings-description-extended-list-4 = Pípàdánù òpin ọ̀rọ̀ nípaṣè ìgékúrú ìkàsílẹ̀ náà láì tó àsìkò
 contribution-misreadings-description-extended-list-5 = Gbígbìnyànjú láti ka ọ̀rọ̀ kan ní ọ̀pọ̀ ìgbà
 contribution-misreadings-example-3-explanation = [Ìgékúrú ìkàsílẹ̀ ṣáájú ìparí ọ̀rọ̀ tó kẹ́yìn]
+contribution-misreadings-example-4-explanation = [Púpọ̀ ti jẹ́ ìkàsílẹ̀ ju ọ̀rọ̀ to yẹ lọ]
 contribution-misreadings-example-5-title = À ń jáde lọ gba kọ́fì.
 contribution-misreadings-example-6-title = À ń jáde lọ gba kọ́fì
 contribution-misreadings-example-6-explanation = [Ó yẹ kó jẹ́ "À ń"]
@@ -1061,6 +1062,8 @@ contribution-background-voices-title = Àwọn ohùn abẹ́lẹ̀
 contribution-background-voices-description-extended = Tí ìkàsílẹ̀ náà bá ń gé, tàbí ní àwọn kọnúkọ́họ, ṣe ìkọ̀sílẹ̀ fún àyàfi tí o bá ṣì lè gbọ́ gbogbo ọ̀rọ̀ náà.
 contribution-background-voices-example-1-explanation = Ṣé ò ń bọ̀?<strong>[Jẹ́ pípè nípasẹ̀ ẹlòmíràn]
 contribution-volume-title = Bó ṣe ń dún sí
+contribution-just-unsure-title = Ṣé kò kàn dá ẹ lójú?
+contribution-just-unsure-description = Tí o bá ṣalábàápàdé nǹkankan tí àwọn ìtọ́sọ́nà yìí ò mẹ́nubà, jọ̀wọ́ ṣẹ̀tọ́ gẹ́gẹ́ bi ìdájọ́ rẹ̀ tó dáa jù lọ. Ti o kò bá ní ìpinnu kankan, lo bọ́tìnì ìgbéfò, ko sì lọ sí ìkàsílẹ̀ tó kàn
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1084,27 +1087,86 @@ sc-logout-button = Ìjáde
 
 ## HOME
 
+sc-home-title = Káàbọ̀ sí òǹgbà gbólóhùn Common Voice
+sc-home-collect-title = Gba àwọn gbólóhùn
+sc-home-collect-text = Ṣe ìrànwọ́ fún wa pẹ̀lú kíkọ tàbí gbígbà àwọn gbólóhùn tó wà ni gbangba.
+sc-home-review-title = Àtúnyẹ̀wò àwọn gbólóhùn
+sc-home-review-text = Ṣe ìrànwọ́ fún wa pẹ̀lú ṣíṣe àtúnyẹ̀wò àwọn gbólóhùn fún àtúnṣe ní ìbámu pẹ̀lú àwọn ìlànà ìtọ́sánà wa.
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = Ọ̀nà ṣíṣe
+sc-howto-addlang-title = Ṣíṣe àfikún àwọn èdè láti ṣiṣẹ́ pẹ̀lú
+sc-howto-addsen-title = Ṣàfikún àwọn gbólóhùn tuntun
+sc-howto-cite-item-1 = O lè fi wẹ́íbusaìtì kun, àpẹẹrẹ "Common Voice -https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = O lè lo sítàì ìtọ́kasí ti akadá, bí àpẹẹrẹ sítàì Harvard "Mozilla (2021) Common Voice. Ó wà ní https://commonvoice.mozilla.org/ (Wíwọlé: 15th Ọwẹ́wẹ̀ 2021)"
+sc-howto-review-title = Ṣe àtúnyẹ̀wò àwọn gbólóhùn
+sc-howto-review-subtitle = Ri dájú pé agbólóhùn náà bá àwọn ìlànà yí mu:
+sc-howto-review-criteria-1 = Gbólóhùn náà gbọ́dọ̀ ní sípẹ́lì tó tọ́.
+sc-howto-review-criteria-2 = Gbólóhùn náà gbọ́dọ̀ jẹ́ èyí tí gírámà rẹ̀ múnádóko.
+sc-howto-review-criteria-3 = Gbólóhun náà gbọ́dọ̀ jẹ́ èyí tí ó ṣe é sọ.
+sc-howto-review-criteria-4 = Tí gbólóhùn náà bá bá àwọn ìlànà náà mu, tẹ bọ́tíìnì "Ìfọwọ́sí" .
+sc-howto-review-criteria-5 = Tí gbólóhùn náà kò bá bá àwọn ìlànà òkè yí mu, tẹ bọ́tíìnì "Ìkọ̀sílẹ̀" . Tí gbólóhùn náà kò bá dá ọ lójú, ò lè fò ó, kí o sì lọ sí èyí tó tẹ̀le.
+sc-howto-review-criteria-6 = Tí o bá parí àwọn gbólóhùn tí o fẹ́ ṣe àyẹ̀wò wọn, jọ̀wọ́ bá wa gba àwọn gbólóhùn díẹ̀ si!
+sc-howto-findpd-subtitle = Wá wọn lórí ẹ̀rọ ayélujára
+sc-howto-findpd-text-2 = Rántí pé a nílò a ti tọrọ àyè láti ṣe  àtẹ̀jáde àwọn gbólóhùn wọ̀nyẹn, nítorí náà ri dájú ní gbogbo ìgbà pé ọ̀rọ̀ náà jẹ́ ti <wikipediaLink>agbègbè gbogbogbo</wikipediaLink>. Tí kò bá sí ìtọ́kasí tó dunjú, kàn sí ẹni tó ni ọ̀rọ̀ náà, kí o sì bèrè bóyá wọ́n máa nífẹ̀ẹ́ à ti fi àwọn ọ̀rọ̀ wọn dásí ibùgbé gbogbogbo. Tí wọ́n bá fẹ́, ràn wọ́n lọ́wọ́ </wikipediaLink> à ti tọ́ ìlànà àdéhùn àwọn ìdásí</cc0WaiverLink>. Tí wọn ò bá fẹ́ láti dásí pẹ̀lú ọ̀rọ̀ náà, nígbà náà kò sí àyè fún ọ láti lo ọ̀rọ̀ náà.
+sc-howto-findpd-tips = Àwọn òte díẹ̀ rè é lá́ti wá àwọn gbólóhùn:
 
 ## MY SENTENCES
 
+sc-my-title = Àwon gbólóhùn mi
+sc-my-no-sentences = Àìrí gbólóhùn kọọkan!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Ìfikalẹ̀:{ $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Orísun: { $source }
+sc-my-delete = Pa àwọn gbólóhùn tí a yàn rẹ́
+sc-my-deleting = Pípa àwọn gbólóhùn tí a yàn rẹ́...
+sc-my-err-failed-delete = Kùnà láti pa àwọn gbólóhùn tí a yàn rẹ́...  Jọ̀wọ́ gbìnyànjú lẹ́ẹ̀kan si!
 
 ## REJECTED
 
+sc-rejected-title = Àwọn gbólóhùn tí a kọ
+sc-rejected-loading = Ìkójọpọ̀ àwọn gbólóhùn tí kọ...
+sc-rejected-err-fetching = Àṣìṣe nígbà tí à ń wá àwọn gbólóhùn tí a kọ̀. Jọ̀wọ́ gbìnyànjú lẹ́ẹ̀kan si.
+sc-rejected-none-found = Kò sí gbólóhùn kọọkan tí a kọ̀!
 
 ## STATS
 
 
 ## ADD
 
+sc-submit-err-select-lang = Jọ̀wọ́ yan èdè kan.
+sc-submit-err-add-sentences = Jọ̀wọ́ ṣe àfikún àwọn gbólóhùn.
+sc-submit-err-add-source = Jọ̀wọ́ ṣe àfikún orísun
+sc-submit-title = Ṣe àfikún àwọn gbólóhùn
+sc-submit-select-language =
+    .labelText = Yan èdè
+sc-submit-ph-one-per-line =
+    .placeholder = Gbólóhùn kan fún ìla kan
+sc-submit-button =
+    .submitText = Fi jíṣẹ́
+sc-submit-filtered = Àwọn gbólóhùn tí a yọ kúrò nítorí wọn kùnà àwọn òfin tí à ń yan (jọ̀wọ́ fi àwọn ẹ̀yà tuntun náà jíṣẹ́ gẹ́gẹ́ bi gbólòhùn tuntun):
+sc-submit-guidelines = Jọ̀wọ́ ṣàyèwò <howToLink>àwọn ìtọ́sọ́nà náà</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Kò le ṣàfikún èdè
+sc-add-lang-sec-label = Ṣe àfikún èdè tí o fẹ́ dá sí
+sc-add-lang-sec-button = Ṣe àfikún èdè
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Àwọn gbólóhùn kankan ò kùnà
+        [one] 1 gbólóhùn kùnà
+       *[other] { $sentences } àwọn gbólóhùn kùnà
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
