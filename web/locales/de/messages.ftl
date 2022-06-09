@@ -831,7 +831,8 @@ language-search-input =
 language-speakers = Sprecher
 localized = Übersetzt
 sentences = Sätze
-total-hours = Stdn. bestätigt
+language-validation-hours = Stunden
+language-validation-progress = Fortschritt beim Bestätigen
 
 ## Contribution
 
