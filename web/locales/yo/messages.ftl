@@ -319,7 +319,6 @@ shortcut-discard-ongoing-recording-label = Dá àkálẹ̀ tó ń lọ lọ
 shortcut-submit = Padà
 shortcut-submit-label = Fi fọ́nrán jíṣẹ́
 request-language-text = O ò tíì rí èdè rẹ lóríi Common Voice náà?
-request-language-text-learn = Kọ́ bí o ṣe lè bèrè fun níbí!
 request-language-button = Béèrè fún èdè
 
 ## ProjectStatus
@@ -453,7 +452,6 @@ faq-why-different-speakers-a =
     Púpọ̀ àwọn àká-ọ̀rọ̀ afọ̀ ni wọ́n kọ́ pẹ̀lú àpọ̀jù àwọn àbùdá ìdánimọ̀ kan tí àbájáde rẹ̀ sì pọ̀n sẹ́yìn <articleLink> akọ àti kòlàkòsagbe</articleLink>. Èwọ́hùn tàbí èdè àdúgbò tí ó ṣe é ṣe kí wọ́n má ní asojú nínú àwọn data ti a sàmúlò ló jẹ́ pé wọ́n jẹ́ ọ̀wọ́ àwọn ènìyàn tí à ti tẹ̀rì. Ọ̀pọ̀ ẹ̀rọ ni ó ń làkàkà láti dá ohùn obìnrin mọ̀.
     Ìdí nìyí tí ó fi jẹ́ pé nínú àká-ọ̀rọ̀ wa, a fẹ́ àmúlùmọ́là!
 faq-why-my-lang-q = Kín ló dé tí èdè mi kò tíì sí níbẹ̀?
-faq-why-my-lang-new-a = Mozilla kìí yan èdè kankan ní ìpọ̀sìn. Dípò bẹ́ẹ̀, Common Voice jẹ́ àgbékalẹ̀ àwùjọ, àmọ́ sá o, ò pè fún <multilangLink>ọ̀pọ̀lọpọ̀ ìgbésẹ̀ láti fi èdè tuntun kún un</multilangLink> kí a sì bẹ̀rẹ̀ sí ní ṣe àkójọ ẹ̀bùn ohùn. Àkọ́kọ́, a nílò láti tú ìkànnì Common Voice kí àwọn ara àwùjọ lè ní ìrírí àwọn akópa ní èdè wọn. Lẹ́yìn náà, a nílò ọ̀pọ̀lọpọ̀ gbólóhùn aláìfofindè tí àwọn ènìyàn yóó kà sókè. Lọ́gán tí ìgbésẹ̀ méjéèjì bá ti di ṣíṣe, èdè kan yóó di ìfilọ́lẹ̀  ní orí Common Voice fún àwọn ènìyàn láti máa ṣe àkálẹ̀ ohùn wọn, kí a sì máa fàṣẹ sí àwọn àgbàkalẹ̀ yòókù náà. Bí o bá fẹ́ ṣe ìrànwọ́ láti fi èdè tunrun lọ́lẹ̀, sáré lọ sí <sentenceCollectorLink>Irinṣẹ́ ìsàkójọ gbólóhùn</sentenceCollectorLink> láti bẹ̀rẹ̀.
 faq-what-quality-q = Kí ni gbèdéke dídára ohùn tí a nílò fún ìgbohùnsílẹ̀ fọ́nrán ohùn kí ó tó lè di lílò nínú àkójọpọ̀ data?
 faq-what-quality-a = A fẹ́ kí àkójọpọ̀ data Common Voice ṣe àfihàn dídára ohùn tí ẹ̀rọ asọ-ìfọ̀-di-títẹ̀ gbọ́ ní kíákíá, nítorí náà à wá orísirísi. Ní àfikún ọ̀pọ̀ àwọn elédè inú àwùjọ kan, àkójọpọ̀ data onírúurú dídára ohùn yóó kọ́ ẹ̀rọ̀ asọ-ifọ̀-di-títẹ̀ bí a ṣe ń ṣe lójú ayé gan-an láti ara ọ̀rọ̀ kẹ́lẹ́kẹ́lẹ́ abẹ́nú títí ó fi kan ariwo ọkọ̀. Níwọ̀n ìgbà tí fọ́nrán ohùn gbígbàsílẹ̀ bá ti mọ́pọlọ dáni, ó yẹ kí ó dára tó fún àká-ọ̀rọ̀.
 faq-why-10k-hours-q = Kí ni ìdí tó fi jẹ́ pé ìfòhùntẹ̀lù wákàtí 10,000 ìkóhùnjọ ni àfojúsùn èdè kan?
@@ -519,12 +517,6 @@ about-dataset-new = Àkójọpọ̀ dátà common voice
 about-dataset-new-text = Àkójọpọ̀ data common voice kún fún ẹgbẹ̀rún lọ́nà ọgọ́rùn àwọn àpẹrẹ ohùn tó ń ran dìfẹ́lọ́pà lọ́wọ́ láti pèsè àwọn irinṣẹ́ ìdánimọ̀ ohùn.
 about-clip-graveyard = Itẹ́ fọ́nrán
 about-clip-graveyard-text = Itẹ́ fọ́nrán kún fún àwọn fọ́nrán ohùn tí wọn kò ráyè wọ àkójọpọ̀ data common voice. Bíi ti àkójọ détà, itẹ́ fọ́nrán náà wà fún ìgbàsílẹ̀
-about-partners = Àwọn alábàṣepò
-about-become-a-partner = Di alábàṣepò
-about-partnership =
-    Common voice jẹ́ iṣẹ́-àkànṣe alájọṣepò, a sì ń gbára lé àwùjọ àwọn alábàṣe àti akópa wa láti pèsè àkójọpọ̀ data ohùn ọ̀fẹ́ tó tóbi jùlọ rí. 
-    
-    A ó nífẹ̀ láti dúpẹ́ lọ́wọ́ àwọn ènìyàn àti àwọn àjọ wọ̀nyí fún ìrànlọ́wọ́ wọn pẹ̀lú iṣẹ́-àkànṣe yìí:
 about-get-involved = Darapọ̀
 about-get-involved-text-2 =
     O fẹ́ ṣe ìrànlọ́wọ́ láti jẹ́ kí Common voice túbọ̀ dára sí i?
@@ -552,9 +544,6 @@ about-playbook-what-is-language-content-3 = Àwọn èdè kan ní ìyàto�
 
 about-playbook-how-add-language = Báwo ni mo ṣe lè ṣe àfikún èdè?
 about-playbook-how-add-language-content-1 = Àkọ́kọ́, yẹ̀ẹ́wò bí èdè rẹ bá wà níbẹ̀ <languageLink>bí ó bá ti wà níbẹ̀</languageLink>. Tí kò bá sí níbẹ̀ wà á nílò láti <strong>túmọ̀ ìhànnì náà láti gba àwọn gbólóhùn</strong>.
-about-playbook-how-add-language-content-2 = <strong>Láti túmọ̀ ojú-òpó náà</strong> - gba <translateVideo>àgbékalẹ̀</translateVideo> lórí <pontoonLink>Pontoon</pontoonLink>. Pontoon ní ọ̀pọ̀lọpọ̀ èdè, ṣùgbọ́n tí kò bá ní tìrẹ o lè <pontoonRequestLink>bèèrè fún-un</pontoonRequestLink>. Wá bèèrè <repoLink>nípasẹ̀ GitHub</repoLink> láti jẹ́ kí iṣẹ́-àkànṣe Common voice di ṣíṣe fún èdè náà. Wo àfikún lóri <localizationFragment> ìtúmọ̀ ojú-òpó</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>láti gba àwọn gbólóhùn</strong> – <scVideo>ṣàgbékalẹ̀</scVideo> lórí <scLink>agba gbólóhùn</scLink>.
-about-playbook-how-add-language-content-4 = O lè <scLinkAdd>ṣàfikún gbólóhùn díẹ̀ níbí</scLinkAdd>, tàbí kí o ṣe àgbéwọlé ọlọ́pọ̀</bulkImportDocsLink> nípasẹ̀ aṣèbéère Github. Rántí pé àwọn gbólóhùn nílò láti <licenseLink>CC0 (tàbí ojú-òpo gbogbogbò)</licenseLink>, tàbí kí o kọ tìrẹ. Wo àfikún lóri <scFragment> gbígba gbólóhùn</scFragment>.
 
 ## How does localization work
 
@@ -618,12 +607,6 @@ about-playbook-how-project-governance-content-4 = Ìkópa nínú àwùjọ
 about-playbook-how-project-governance-content-5 = Ìníyelórí àti ìdánimọ̀.
 about-playbook-how-project-governance-content-6 = Ìlágbọ̀yé ojúṣe.
 about-playbook-how-project-governance-content-7 = <governanceLink>Kà si nípa bí a ṣe ń darí</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Ìmọ̀ àtọwọ́dá
-mycroft-description =
-    Mycroft jẹ́ aṣèrànwọ́ ọ̀fẹ́ àkọ́kọ́ lágbàyé.
-    Mycroft ń ṣiṣẹ́ níbi gbogbo – lórí kọ̀mpútà, nínú ọkọ̀, tàbí lórí Raspberry Pi.
-mycroft-secondary-description = Ohun èlo kọ̀mpútà àìlèfọwọ́kàn ọ̀fẹ́ ni èyí jẹ́ tí a lè tún pòpọ̀, fẹ̀lójú, àti àtúnṣe lọ́fẹ̀. Mycroft lè di lílò nínu gbogbo ǹkan láti ìṣẹ́-àkànṣe sáyẹ́nsì dé ilé-iṣẹ́ ohun èlo kọ̀mpútà àìlèfọwọ́kàn.
 
 ## Glossary
 
@@ -802,7 +785,6 @@ language-search-input =
 language-speakers = Àwọn olùsọ
 localized = Ìsọditìbílẹ̀
 sentences = Àwọn gbólóhùn
-total-hours = Wákàtí ta ti yẹ̀wò
 
 ## Contribution
 
@@ -1034,6 +1016,7 @@ demo-language-select-card-header = Common Voice jẹ́ àkójọpọ̀ dáta�
 card-button-next = Tẹ̀ síwájú
 card-button-back = Ẹ̀yìn
 demo-language-select-label = Yê èdè wò
+demo-eofy-header = 2019 Àgbéjáde Òpin Ọdún
 demo-eofy-sub_header = Àkójọpọ̀ dátà ohùn, ṣetán láti gbàásílẹ̀
 demo-account = Àkáǹtì
 
