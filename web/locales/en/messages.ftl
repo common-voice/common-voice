@@ -846,7 +846,7 @@ request-language-error =
 
 ## Languages Overview
 language-section-in-progress = In Progress
-language-section-in-progress-new-description = These languages are currently under community development. The progress bars indicate how far each language is in the process of <localizationGlossaryLink>website localization</localizationGlossaryLink> and <sentenceCollectionGlossaryLink>sentence collection</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = These languages are currently under community development. <localizationGlossaryLink>Website localization</localizationGlossaryLink> and <sentenceCollectionGlossaryLink>sentence collection</sentenceCollectionGlossaryLink> is needed to launch.
 language-section-launched = Launched
 language-section-launched-description = For these launched languages the website has been successfully <localizationGlossaryLink>localized</localizationGlossaryLink>, and has enough <sentenceCollectionGlossaryLink>sentences collected</sentenceCollectionGlossaryLink> to allow for ongoing <speakLink>Speak</speakLink> and <listenLink>Listen</listenLink> contributions.
 languages-show-more = See More
@@ -858,7 +858,8 @@ language-search-input =
 language-speakers = Speakers
 localized = Localized
 sentences = Sentences
-total-hours = Validated Hrs
+language-validation-hours = Hours
+language-validation-progress = Validation Progress
 
 ## Contribution
 action-click = Click

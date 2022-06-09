@@ -1,0 +1,21 @@
+:root {
+    --cta-background-color: color-mod(var(--light-grey) alpha(50%));
+}
+
+.LanguageCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--white);
+    box-shadow: var(--card-shadow);
+}
+
+.LanguageCardContent {
+    padding: 1em;
+}
+
+.LanguageCardHeading {
+    font-weight: 400;
+    font-size: var(--font-size-lg);
+    margin-bottom: 1em;
+}

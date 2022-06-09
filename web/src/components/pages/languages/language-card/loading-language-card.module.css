@@ -1,0 +1,43 @@
+.LoadingLanguageCard {
+    position: relative;
+    box-shadow: inset 0 0 0 2px var(--cta-background-color), var(--card-shadow);
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 3em;
+        background: var(--cta-background-color);
+    }
+
+    &.Launched {
+        height: 270px;
+    }
+
+    &.InProgress {
+        height: 190px;
+    }
+}
+
+.Placeholder {
+    display: block;
+    width: 70%;
+    height: 1em;
+    margin-bottom: 1em;
+    background: var(--light-grey);
+    border-radius: 1em;
+
+    /* fake heading */
+    &:first-child {
+        width: 40%;
+        height: 2em;
+        margin-bottom: 2em;
+    }
+
+    /* remove last row for in-progress */
+    .InProgress &:last-of-type {
+        display: none;
+    }
+}

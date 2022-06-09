@@ -649,7 +649,7 @@ other-language = Нэгъуэщ1 бзэ
 ## Languages Overview
 
 language-section-in-progress = Хьэзыр йокIуэкI
-language-section-in-progress-new-description = These languages are currently under community development. The progress bars indicate how far each language is in the process of <localizationGlossaryLink>website localization</localizationGlossaryLink> and <sentenceCollectionGlossaryLink>sentence collection</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = These languages are currently under community development. To be launched, these languages need <localizationGlossaryLink>website localization</localizationGlossaryLink> and <sentenceCollectionGlossaryLink>sentence collection</sentenceCollectionGlossaryLink>.
 language-section-launched = ЩIэдза
 language-section-launched-description = For these launched languages the website has been successfully <localizationGlossaryLink>localized</localizationGlossaryLink>, and has enough <sentenceCollectionGlossaryLink>sentences collected</sentenceCollectionGlossaryLink> to allow for ongoing <speakLink>Speak</speakLink> and <listenLink>Listen</listenLink> contributions.
 languages-show-more = Бзэу нэхъ бэ
@@ -1068,4 +1068,3 @@ sc-header-my = My Sentences
 
 
 # [/SentenceCollector]
-

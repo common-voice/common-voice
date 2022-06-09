@@ -141,10 +141,6 @@ export default class API {
     });
   }
 
-  fetchValidatedHours(): Promise<number> {
-    return this.fetch(this.getClipPath() + '/validated_hours');
-  }
-
   fetchDailyClipsCount(): Promise<number> {
     return this.fetch(this.getClipPath() + '/daily_count');
   }

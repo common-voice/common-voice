@@ -84,7 +84,11 @@ export async function getLocaleId(locale: string): Promise<number> {
   if (locale === 'overall') return null;
 
   const languageIds = await getLanguageMap();
-  //returns id
+
+  if (!languageIds) {
+    return null;
+  }
+
   return languageIds[locale];
 }
 
@@ -203,6 +207,7 @@ export default class DB {
   async getClipCount(): Promise<number> {
     return this.clip.getCount();
   }
+
   async getSpeakerCount(
     locales: string[]
   ): Promise<{ locale: string; count: number }[]> {
@@ -213,6 +218,23 @@ export default class DB {
         FROM clips
         LEFT JOIN locales ON clips.locale_id = locales.id
         WHERE locales.name IN (?)
+        GROUP BY locale
+      `,
+        [locales]
+      )
+    )[0];
+  }
+
+  async getDailySpeakerCount(
+    locales: string[]
+  ): Promise<{ locale: string; count: number }[]> {
+    return (
+      await this.mysql.query(
+        `
+        SELECT locales.name AS locale, COUNT(DISTINCT clips.client_id) AS count
+        FROM clips
+        LEFT JOIN locales ON clips.locale_id = locales.id
+        WHERE locales.name IN (?) AND created_at >= CURDATE() AND created_at < CURDATE() + INTERVAL 1 DAY
         GROUP BY locale
       `,
         [locales]
