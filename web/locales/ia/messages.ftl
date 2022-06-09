@@ -319,7 +319,6 @@ shortcut-discard-ongoing-recording-label = Refusar le registration in curso
 shortcut-submit = Inserer
 shortcut-submit-label = Inviar registrationes
 request-language-text = Non se trova tu lingua sur Common Voice?
-request-language-text-learn = Sape hic como requirer lo!
 request-language-button = Propone un lingua
 
 ## ProjectStatus
@@ -453,7 +452,6 @@ faq-why-different-speakers-a =
     Le major parte del bases de datos vocal es trainate con un excesso de certe gruppos demographic, resultante in un prejudicio verso <articleLink>homines de classe medie</articleLink>. Accentos e dialectos que tende a esser subrepresentate in le trainamento de collectiones de datos es typicamente associate con gruppos de personas jam marginalisate. Multe machinas ha difficultate a comprender voces feminin.
     Ecce proque in nostre base de datos vocal nos vole varietate!
 faq-why-my-lang-q = Proque non es mi lingua ancora includite?
-faq-why-my-lang-new-a = Mozilla non prefere o favori alcun lingua a un altere. In vice, Common Voice es un initiativa strictemente communitari. Nonobstante, es necessari <multilangLink>plure passos pro adder un nove lingua</multilangLink> e comenciar a colliger donationes de voce. Primo, le sito web de Common Voice debe esser traducite de sorta que le membros del communitate pote usar lo in lor proprie lingua. Pois, nos require un grande collection de phrases libere de derectos de autor que le personas pote leger in alte voce. Un vice que ambe ille requisitos es satisfacite, un lingua es “lanceate” sur Common Voice de sorta que le personas pote comenciar a registrar lor voce e validar le donationes de alteres. Si tu vole adjutar a lancear un nove lingua, veni a nostre <sentenceCollectorLink>instrumento de collection de phrases</sentenceCollectorLink> pro comenciar.
 faq-what-quality-q = Que nivello de qualitate del audio es requirite pro poter usar le retalios vocal in le collection de datos?
 faq-what-quality-a = Nos vole que le collection de datos de Common Voice reflecte le qualitate del audio que un motor de recognition vocal audira in natura, dunque, nos cerca varietate. In addition a un diverse communitate de parlantes, un collection de datos con qualitate audio variabile inseniara al motor de recognition vocal de adaptar se a varie situationes del mundo real, p.ex. conversationes in secunde plano o le ruito de autos. Si tu retalio vocal es comprensibile, illo suffice pro le collection de datos.
 faq-why-10k-hours-q = Proque es le objectivo pro capturar audio 10.000 horas validate per lingua?
@@ -523,12 +521,6 @@ about-dataset-new = Collection de datos de Common Voice
 about-dataset-new-text = Le Collection de datos de Common Voice contine centenas de milles de exemplos de voce que adjuta le disveloppatores a crear applicationes de recognition vocal.
 about-clip-graveyard = Cemeterio de retalios
 about-clip-graveyard-text = Le Cemeterio de retalios consiste del retalios vocal rejectate pro le collection de datos de Common Voice. Justo como le collection de datos, le cemeterio de retalios es disponibile pro discargar.
-about-partners = Partners
-about-become-a-partner = Deveni un partner
-about-partnership =
-    Common Voice es un projecto collaborative, e nos depende de nostre communitate de associatos e contributores pro crear le collection de voces libere le plus grande in le historia.
-    
-    Nos volerea regratiar le sequente personas e organisationes pro lor adjuta al projecto:
 about-get-involved = Collabora
 about-get-involved-text-2 =
     Vole adjutar a meliorar Common Voice?
@@ -558,9 +550,8 @@ about-playbook-what-is-language-content-3 = Alcun linguas ha un enorme variation
 
 about-playbook-how-add-language = Como adde io un lingua?
 about-playbook-how-add-language-content-1 = Primo, verifica si tu lingua <languageLink>ja existe</languageLink>. Si non, tu debe <strong>traducer le sito e colliger phrases</strong>.
-about-playbook-how-add-language-content-2 = <strong>Pro traducer le sito</strong>, <translateVideo>crea un conto</translateVideo> sur <pontoonLink>Pontoon</pontoonLink>. Pontoon ha multe linguas, ma si non ha le tue, tu pote <pontoonRequestLink>requestar lo</pontoonRequestLink>. Alora demanda <repoLink>sur GitHub</repoLink> que le projecto Common Voice sia rendite disponibile pro le lingua. Lege plus sur <localizationFragment>le traduction del sito</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Pro colliger phrases</strong>, <scVideo>crea un conto</scVideo> sur <scLink>Sentence Collector</scLink>.
-about-playbook-how-add-language-content-4 = Tu pote <scLinkAdd>adder poc</scLinkAdd> phrases hic, o tu pote <bulkImportDocsLink>importar los in bloco</bulkImportDocsLink> via un requesta GitHub. Memora que le phrases debe esser con licentia <licenseLink>CC0 (o de dominio public)</licenseLink>, o tu pote scriber le tue proprie. Vide plus sur <scFragment>collection de phrases</scFragment>.
+about-playbook-how-add-language-translating-heading = Traducer le sito
+about-playbook-how-add-language-collecting-sentences-heading = Colliger phrases
 
 ## How does localization work
 
@@ -624,12 +615,6 @@ about-playbook-how-project-governance-content-4 = Participation del communitate 
 about-playbook-how-project-governance-content-5 = Valor e recognition.
 about-playbook-how-project-governance-content-6 = Reciproc responsabilitate.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lege plus re como nos es gerite</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Intelligentia artificial
-mycroft-description =
-    Mycroft es le prime assistente open-source al mundo.
-    Mycroft functiona ubicunque: sur un computator de scriptorio, in un automobile o sur un Raspberry Pi.
-mycroft-secondary-description = Isto es un software open-source que pote ser liberemente re-miscite, extendite e meliorate. Mycroft pote ser usate in toto, ab un projecto scientific a un application software de interprisa.
 
 ## Glossary
 
@@ -829,7 +814,6 @@ language-search-input =
 language-speakers = Locutores
 localized = Localisate
 sentences = Phrases
-total-hours = Numero total de horas
 
 ## Contribution
 
