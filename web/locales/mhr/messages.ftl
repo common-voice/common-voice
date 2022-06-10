@@ -569,6 +569,10 @@ about-playbook-what-is-language-content-3 = Южо йылме-влак грам�
 about-playbook-how-add-language = Кузе мылам йылмым ешараш?
 about-playbook-how-add-language-content-1 = Икымше, тыйын йылмет <languageLink>уло</languageLink> але уке, терге. Уке гын, тылат <strong>сайтым кусарыман да ойлончо-влакым погыман</strong>.
 about-playbook-how-add-language-translating-heading = Сайтым кусарымаш
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon-ым кучылтмо шотышто мемнан полшыкым ончо.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Ойлончым погышо
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ойлончым погышо шотышто мемнан полшыкым ончо</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ойлончым погышо нерген кумданрак</sentenceCollectorFragment>.
 
 ## How does localization work
 
