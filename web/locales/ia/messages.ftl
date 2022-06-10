@@ -452,6 +452,9 @@ faq-why-different-speakers-a =
     Le major parte del bases de datos vocal es trainate con un excesso de certe gruppos demographic, resultante in un prejudicio verso <articleLink>homines de classe medie</articleLink>. Accentos e dialectos que tende a esser subrepresentate in le trainamento de collectiones de datos es typicamente associate con gruppos de personas jam marginalisate. Multe machinas ha difficultate a comprender voces feminin.
     Ecce proque in nostre base de datos vocal nos vole varietate!
 faq-why-my-lang-q = Proque non es mi lingua ancora includite?
+faq-why-my-lang-a =
+    Common Voice es un platteforma de collecta, e le linguas es addite per voluntarios.
+    Nos amarea que tu adde tu lingua! <languageRequestLink>Demanda re adder tu lingua.</languageRequestLink>
 faq-what-quality-q = Que nivello de qualitate del audio es requirite pro poter usar le retalios vocal in le collection de datos?
 faq-what-quality-a = Nos vole que le collection de datos de Common Voice reflecte le qualitate del audio que un motor de recognition vocal audira in natura, dunque, nos cerca varietate. In addition a un diverse communitate de parlantes, un collection de datos con qualitate audio variabile inseniara al motor de recognition vocal de adaptar se a varie situationes del mundo real, p.ex. conversationes in secunde plano o le ruito de autos. Si tu retalio vocal es comprensibile, illo suffice pro le collection de datos.
 faq-why-10k-hours-q = Proque es le objectivo pro capturar audio 10.000 horas validate per lingua?
@@ -551,7 +554,19 @@ about-playbook-what-is-language-content-3 = Alcun linguas ha un enorme variation
 about-playbook-how-add-language = Como adde io un lingua?
 about-playbook-how-add-language-content-1 = Primo, verifica si tu lingua <languageLink>ja existe</languageLink>. Si non, tu debe <strong>traducer le sito e colliger phrases</strong>.
 about-playbook-how-add-language-translating-heading = Traducer le sito
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Reguarda nostre guida de uso de Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Nos usa un application Mozilla appellate <pontoonLink>Pontoon</pontoonLink> pro le traductiones. Pontoon tracta plure linguas,
+    ma si illo non ha l tue tu pote <pontoonRequestLink>requirer que tu lingua es addite</pontoonRequestLink>.
+    Pois, pro render le lingua disponibile sur le projecto Common Voice,
+    <githubRepoLink>require le nove lingua sur GitHub</githubRepoLink>. <localizationFragment>Vide plus re le traduction del sito</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Colliger phrases
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Reguarda nostre guida re le uso de Sentence Collectorr</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Tu pote <sentenceCollectorLinkAdd>adder poc phrases</sentenceCollectorLinkAdd>,
+    o tu pote <bulkImportDocsLink>importar in bloco per Github</bulkImportDocsLink>.
+    Memora que le phrases debe esser <licenseLink>CC0 (public dominio)</licenseLink>, o pote scriber los tu mesme.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Vide plus re le collection de phrases</sentenceCollectorFragment>
 
 ## How does localization work
 
@@ -814,6 +829,8 @@ language-search-input =
 language-speakers = Locutores
 localized = Localisate
 sentences = Phrases
+language-validation-hours = Horas
+language-validation-progress = Progresso del validation
 
 ## Contribution
 
