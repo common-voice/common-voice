@@ -15,6 +15,7 @@ email-opt-in-privacy-v2 = Seberende de retzire lìteras a s'indiritzu de posta e
 indicates-required = * Indicat unu campu rechèdidu
 not-available-abbreviation = No est a disponimentu
 banner-error-slow-link = Istadu de sa pàgina
+error-something-went-wrong = Ddoe est istadu unu problema.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -125,6 +126,7 @@ ne-NP = Nepalesu
 nia = Nias
 nl = Olandesu
 nn-NO = Norvegesu Nynorsk
+nso = Sotho de su nord
 nyn = Nyankole
 oc = Otzitanu
 om = Afaan Ormoo
@@ -153,6 +155,7 @@ sl = Islovenu
 so = Sòmalu
 sq = Albanesu
 sr = Serbu
+st = Sesotho
 sv-SE = Isvedesu
 sw = Swahili
 syr = Sirìacu
@@ -166,6 +169,7 @@ tk = Turcmenu
 tl = Tagalog
 tok = Toki Pona
 tr = Turcu
+ts = Xitsonga
 tt = Tàtaru
 tw = Twi
 ty = Tahitianu
@@ -175,6 +179,7 @@ ug = Uiguru
 uk = Ucràinu
 ur = Urdu
 uz = Uzbecu
+ve = Tshivenda
 vec = Vènetu
 vi = Vietnamita
 vot = Vòticu
@@ -398,6 +403,7 @@ skip-submission-note = Nota: in cada manera, as a dèpere seberare intre Chistio
 off = Disativadu
 on = Ativu
 help-accent = Ti serbit agiudu cun s'atzentu?
+help-accent-explanation = S'atzentu est sa manera comente pronùntzias is faeddos. Podet èssere influidu dae su logu in ue as bìvidu, àteras lìnguas chi chistionas e meda àteras cosas. Podes cumpartzire cale si siat informatzione chi cunsideras rilevante inoghe.
 help-variants = Ti serbit agiudu cun is variedades?
 
 ## Profile - Email
