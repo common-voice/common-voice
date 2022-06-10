@@ -349,7 +349,7 @@ profile-form-native-language =
 profile-form-additional-language =
     .label = Limba additzionale
 profile-form-language =
-    .label = Lìngua
+    .label = Limba
 profile-form-variant =
     .label = Cale variedade de { $language } faeddas?
 profile-form-variant-default-value = Nissuna variedade seletzionada
@@ -403,7 +403,7 @@ skip-submission-note = Nota: in cada manera, as a dèpere seberare intre Chistio
 off = Disativadu
 on = Ativu
 help-accent = Ti serbit agiudu cun s'atzentu?
-help-accent-explanation = S'atzentu est sa manera comente pronùntzias is faeddos. Podet èssere influidu dae su logu in ue as bìvidu, àteras lìnguas chi chistionas e meda àteras cosas. Podes cumpartzire cale si siat informatzione chi cunsideras rilevante inoghe.
+help-accent-explanation = S'atzentu est sa manera comente pronùntzias is faeddos. Podet èssere influidu dae su logu in ue as bìvidu, àteras limbas chi chistionas e meda àteras cosas. Podes cumpartzire cale si siat informatzione chi cunsideras rilevante inoghe.
 help-variants = Ti serbit agiudu cun is variedades?
 
 ## Profile - Email
@@ -869,15 +869,15 @@ finish-editing = In antis boles acabbare de modificare?
 lose-changes-warning = Essende immoe as a pèrdere is modìficas tuas
 build-custom-goal = Crea un'obietivu personalizadu
 help-reach-hours-pluralized =
-    Agiuda a arribbare a{ NUMBER($hours) ->
-        [one] { $hours } ora
-       *[other] { $hours } oras
-    }in { $language } cun un'obietivu personale
+    { NUMBER($hours) ->
+        [one] Agiuda a arribbare a { $hours } ora in { $language } cun un'obietivu personale
+       *[other] Agiuda a arribbare a { $hours } oras in { $language } cun un'obietivu personale
+    }
 help-reach-hours-general-pluralized =
-    Agiuda a Common Voice a arribbare a{ NUMBER($hours) ->
-        [one] { $hours } ora
-       *[other] { $hours } oras
-    }in una limba cun un'obietivu personale
+    { NUMBER($hours) ->
+        [one] Agiuda a Common Voice a arribbare a { $hours } ora in una lìngua cun un'obietivu personale
+       *[other] Agiuda a Common Voice a arribbare a { $hours } oras in una lìngua cun un'obietivu personale
+    }
 set-a-goal = Cunfigura un'obietivu
 cant-decide = Non resesses a detzìdere?
 activity-needed-calculation-plural =
