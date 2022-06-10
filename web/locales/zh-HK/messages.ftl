@@ -332,6 +332,9 @@ profile-form-variant =
 profile-form-variant-default-value = 冇揀到任何語言變體
 profile-form-accent =
     .label = 口音
+profile-form-custom-accent-help-text =
+    .label = 你會點樣形容你嘅口音？
+profile-form-custom-accent-placeholder-2 = 開始打字來形容你嘅口音
 profile-form-age =
     .label = 年齡
 profile-form-gender-2 =
@@ -342,6 +345,7 @@ hidden = 隱藏
 visible = 公開
 native-language =
     .label = 母語
+profile-form-add-accent = 加入新嘅自訂口音「{ $inputValue }」
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
 male = 男性
@@ -385,6 +389,7 @@ gravatar_not_found = 找不到您電郵所屬的 Gravatar
 file_too_large = 選擇的檔案太大
 avatar-uploaded = 頭像上載咗啦
 max-file-size = { $kb }kb 上限
+remove-avatar = 刪除你嘅頭像
 
 ## Profile - Email
 
@@ -497,6 +502,7 @@ about-nav-playbook = 了解點樣成爲我哋一份子
 ## How do I add a language
 
 about-playbook-how-add-language = 我點樣新增一種語言？
+about-playbook-how-add-language-content-1 = 首先，查一查你嘅語言<languageLink>係咪已經存在</languageLink>。如果唔係，你可以<languageRequestLink></languageRequestLink>你需要翻譯網站，同埋收集句子。
 
 ## How does localization work
 
