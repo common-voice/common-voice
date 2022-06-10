@@ -413,6 +413,7 @@ faq-search-for-answers =
 
 about-title = কেন Common Voice?
 how-does-it-work-title-v2 = কমন ভয়েস কীভাবে কাজ করে?
+how-does-it-work-text = আমরা কণ্ঠের একটি মুক্ত-উৎস ভিত্তিক ডেটাসেট সংগ্রহ করছি। আপনার কণ্ঠ দান করুন, অন্যান্য লোকের ক্লিপগুলির যথার্থতা যাচাই করুন, ডেটাসেটটি সবার জন্য আরও ভাল করুন।
 
 ## How does it work section
 
