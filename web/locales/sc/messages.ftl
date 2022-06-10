@@ -550,9 +550,14 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Càs
 
 ## How does localization work
 
+about-playbook-how-localize = Comente funtzionat sa localizatzione de su situ web?
+about-playbook-how-localize-content-1 = Su situ de Common Voice est tradùidu cun <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Su situ podet èssere publicadu cando sa tradutzione lompet a su 75%.
+about-playbook-how-localize-content-5 = Càstia su vìdeu cun ispiegatziones pro ti agiudare
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Comente fatzo a agiùnghere fràsias?
 about-playbook-how-add-sentences-content-4 = Is fràsias validadas sunt esportadas su mèrcuris e publicadas a pustis de sa versione sutzessiva.
 
 ## How to record quality
