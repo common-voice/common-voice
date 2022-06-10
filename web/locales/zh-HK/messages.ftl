@@ -3,17 +3,17 @@
 yes-receive-emails = 好，寄電郵畀我。我想繼續收到同 Common Voice 計劃有關嘅資訊。
 stayintouch = 喺 Mozilla 呢度，我哋建立緊一個同語音技術相關嘅社群。我哋想同你保持聯繫，提供最新嘅消息同資料來源，亦都想瞭解你會點樣使用呢啲資料。
 privacy-info = 我哋保證會小心處理你嘅資訊。如果要瞭解更多，請閲讀我哋嘅<privacyLink>私隱權公告</privacyLink>。
-return-to-cv = 返回 Common Voice
+return-to-cv = 翻去 Common Voice
 email-input =
     .label = 電郵
 submit-form-action = 提交
-loading = 載入中…
+loading = 載入緊…
 email-opt-in-info = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
 email-opt-in-info-title = 加入 Common Voice 郵件群組
 email-opt-in-info-sub-with-challenge = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
 email-opt-in-privacy-v2 = 假如同意接收郵件，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方式處理呢啲些資訊。
 indicates-required = * 表示必填欄位
-not-available-abbreviation = 不適用
+not-available-abbreviation = 唔適用
 banner-error-slow-1 = 唔好意思，Common Voice 運作得比較慢。多謝你嘅關注。
 banner-error-slow-2 = 我哋收到好多網絡流量，而家調查緊呢啲問題。
 banner-error-slow-link = 狀態版面
@@ -379,6 +379,7 @@ skip-submission-description = 在貢獻時，點擊「提交」會略過提供�
 skip-submission-note = 註: 您仍須要選擇「聽」或「講」來切換貢獻類型。
 off = 關
 on = 開
+help-accent-explanation = 你嘅口音即係你講嘢嘅方式。呢樣嘢可以由你住過嘅地方、你講嘅其他語言、同埋好多其他因素所形成㗎。你可以喺呢度分享任何你覺得相關嘅資訊。
 
 ## Profile - Email
 
@@ -498,11 +499,15 @@ about-nav-playbook = 了解點樣成爲我哋一份子
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language-content-1 = 對語言嘅睇法有好多種。以語音識別模型嘅用途嚟講，Common Voice 建議集中喺「容易互相理解」或者「如果呢種語言嘅講者想互相理解，佢哋做唔做得到？」
 
 ## How do I add a language
 
 about-playbook-how-add-language = 我點樣新增一種語言？
-about-playbook-how-add-language-content-1 = 首先，查一查你嘅語言<languageLink>係咪已經存在</languageLink>。如果唔係，你可以<languageRequestLink></languageRequestLink>你需要翻譯網站，同埋收集句子。
+about-playbook-how-add-language-content-1 =
+    首先，查一查你嘅語言<languageLink>係咪已經存在</languageLink>。
+    如果唔係，你可以<languageRequestLink>要求新增你嘅語言</languageRequestLink>。
+    之後有兩個步驟：翻譯網站、同埋收集句子。
 
 ## How does localization work
 
