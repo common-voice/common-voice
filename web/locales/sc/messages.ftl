@@ -492,13 +492,17 @@ how-does-it-work-text = Semus creende in manera collaborativa unu pachete de dat
 
 ## How does it work section
 
-about-language-req-subtitle = Una persone preguntat s'agiunta de una lìngua.
+about-language-req-subtitle = Una persone preguntat s'agiunta de una limba.
 about-localization-title = Localizatzione de su situ web
-about-localization-subtitle = Su testu de su situ web est tradùsidu a cussa lìngua.
+about-localization-subtitle = Su testu de su situ web est tradùsidu a cussa limba.
 about-sentence-collection-title = Regorta de fràsias
 about-sentence-collection-subtitle = Si regollent fràsias chi sa gente potzat lèghere a boghe arta.
+about-new-lang-title = Publicatzione de una limba noa
+about-new-lang-subtitle = Publicamus su situ Common Voice in custa limba.
 about-voice-contrib-title = Contributu de boghe
 about-voice-contrib-subtitle = Sa gente s'acostat e dona unu contributu cun sa boghe sua.
+about-voice-validation-title = Validatzione de boghes
+about-voice-validation-subtitle = Àtera gente vàlidat cussas registratziones.
 about-dataset-release-title = Publicatzione de su pachete de datos
 about-dataset-release-subtitle = Publicamus pachetes de datos onni 3 meses.
 about-subscribe-text = Boles abarrare in cuntatu cun Common Voice?
@@ -525,6 +529,7 @@ about-get-involved-text-2 =
      pro mèdiu de <githubLink>GitHub</githubLink>, o aderi a
      sa tzarrada de sa comunidade in <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Comente fatzo a abarrare in cuntatu?
+about-stay-in-touch-button = Registra·ti
 about-nav-why-common-voice = Pro ite?
 about-nav-how-it-works = Comente?
 about-nav-partners = Sòtzios
@@ -535,17 +540,20 @@ about-nav-playbook = Impara a nde fàghere parte
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language = Ite est una lìngua in Common Voice?
+about-playbook-what-is-language = Ite est una limba in Common Voice?
 
 ## How do I add a language
 
-about-playbook-how-add-language = Comente fatzo a agiùnghere una lìngua?
+about-playbook-how-add-language = Comente fatzo a agiùnghere una limba?
+about-playbook-how-add-language-translating-heading = Tradutzione de su situ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Càstia sa ghia nostra in pitzus de s'impreu de Pontoon.</translateVideoLink>
 
 ## How does localization work
 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences-content-4 = Is fràsias validadas sunt esportadas su mèrcuris e publicadas a pustis de sa versione sutzessiva.
 
 ## How to record quality
 
@@ -555,6 +563,11 @@ about-playbook-how-add-language = Comente fatzo a agiùnghere una lìngua?
 
 ## How to validate
 
+about-playbook-how-validate = Comente fatzo a ischire si depo aprovare sa registratzione de una boghe?
+about-playbook-how-validate-content-1 = Si ddas podes <strong>intèndere</strong> e <strong>cumprèndere</strong>, sa cosa mègius est a <strong>ddas aprovare</strong>.
+about-playbook-how-validate-content-2 = <strong>No refudes registratziones in ue sa persone chi chistionat ‘tèngiat un'atzentu’ diferente de su tuo</strong>: est de importu pro chi su reconnoschimentu de boghe funtzionet mègius pro totu su mundu.
+about-playbook-how-validate-content-3 = Si pensas chi <strong>non fatzat a cumprèndere</strong> sa pronùntzia, o chi ddoe siat <strong>tropu abbolotu in s'isfundu</strong> o <strong>àtera gente chi chistionat</strong>, dias dèpere refudare sa registratzione. <accuracyLink>Leghe·nde de prus in pitzus de is critèrios de pretzisione nostros</accuracyLink>.
+about-playbook-how-validate-content-4 = Si una registratzione est refudada dae 2 persones, at a èssere publicada in unu grupu a bandas de su pachete de datos.
 
 ## How to access dataset
 
@@ -875,8 +888,8 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-        [one] Agiuda a Common Voice a arribbare a { $hours } ora in una lìngua cun un'obietivu personale
-       *[other] Agiuda a Common Voice a arribbare a { $hours } oras in una lìngua cun un'obietivu personale
+        [one] Agiuda a Common Voice a arribbare a { $hours } ora in una limba cun un'obietivu personale
+       *[other] Agiuda a Common Voice a arribbare a { $hours } oras in una limba cun un'obietivu personale
     }
 set-a-goal = Cunfigura un'obietivu
 cant-decide = Non resesses a detzìdere?
@@ -1103,9 +1116,20 @@ see-less = <chevron></chevron>Càstia prus pagu
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = As refudadu { $countOfInvalidated } fràsias
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Nissuna fràsia validada.
+        [one] 1 fràsia validada.
+       *[other] { $validatedSentences } fràsias validadas.
+    }
 
 ## LOGIN
 
