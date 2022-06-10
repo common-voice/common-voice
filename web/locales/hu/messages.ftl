@@ -170,6 +170,7 @@ tk = Türkmén
 tl = Tagalog
 tok = Toki pona
 tr = Török
+ts = Conga
 tt = Tatár
 tw = Twi
 ty = Tahiti
@@ -179,6 +180,7 @@ ug = Ujgur
 uk = Ukrán
 ur = Urdu
 uz = Üzbég
+ve = Venda
 vec = Velencei
 vi = Vietnámi
 vot = Vót
@@ -828,6 +830,7 @@ language-speakers = Beszélők
 localized = Honosítva
 sentences = Mondatok
 language-validation-hours = óra
+language-validation-progress = Ellenőrzési folyamat
 
 ## Contribution
 
