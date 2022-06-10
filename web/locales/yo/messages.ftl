@@ -544,6 +544,7 @@ about-playbook-what-is-language-content-3 = Àwọn èdè kan ní ìyàto�
 
 about-playbook-how-add-language = Báwo ni mo ṣe lè ṣe àfikún èdè?
 about-playbook-how-add-language-content-1 = Àkọ́kọ́, yẹ̀ẹ́wò bí èdè rẹ bá wà níbẹ̀ <languageLink>bí ó bá ti wà níbẹ̀</languageLink>. Tí kò bá sí níbẹ̀ wà á nílò láti <strong>túmọ̀ ìhànnì náà láti gba àwọn gbólóhùn</strong>.
+about-playbook-how-add-language-collecting-sentences-heading = Gbígba gbólóhùn
 
 ## How does localization work
 
