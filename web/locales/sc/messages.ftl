@@ -39,6 +39,7 @@ be = Bielorussu
 bg = Bùlgaru
 bn = Bengalesu
 br = Brètone
+bs = Bosnìacu
 bxr = Buriat
 ca = Catalanu
 cak = Kaqchikel
@@ -52,6 +53,7 @@ da = Danesu
 de = Tedescu
 dsb = Sòrabu bassu
 dv = Dhivehi
+dyu = Dioula
 el = Grecu
 en = Inglesu
 eo = Esperanto
@@ -90,11 +92,14 @@ kab = Cabilencu
 kbd = Cabardianu
 ki = Gikuyu
 kk = Kazacu
+km = Khmer
 kmr = Curdu de su Norte
+knn = Konkani (Devanagari)
 ko = Coreanu
 kpv = Komi
 kw = Còrnicu
 ky = Chirghisu
+lb = Lussemburghesu
 lg = Luganda
 lij = Lìgure
 lt = Lituanu
@@ -106,6 +111,7 @@ mhr = Mari de is praterias
 mk = Matzèdone
 ml = Malayalam
 mn = Mòngolu
+mni = Meitei Lon
 mos = Morè
 mr = Marathi
 mrj = Mari de is montigros
@@ -121,6 +127,7 @@ nl = Olandesu
 nn-NO = Norvegesu Nynorsk
 nyn = Nyankole
 oc = Otzitanu
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamentu (Aruba)
@@ -128,6 +135,7 @@ pl = Polacu
 ps = Pashto
 pt = Portoghesu
 quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romànciu Sursilvan
 rm-vallader = Romànciu Vallader
 ro = Rumenu
@@ -140,6 +148,7 @@ scn = Sitzilianu
 shi = Tashelhit
 si = Sinhala
 sk = Islovacu
+skr = Saraiki
 sl = Islovenu
 so = Sòmalu
 sq = Albanesu
@@ -152,7 +161,10 @@ te = Telugu
 tg = Tagicu
 th = Tailandesu
 ti = Tigrinya
+tig = Tigrè
+tk = Turcmenu
 tl = Tagalog
+tok = Toki Pona
 tr = Turcu
 tt = Tàtaru
 tw = Twi
@@ -307,7 +319,6 @@ shortcut-discard-ongoing-recording-label = Iscarta sa registratzione in cursu
 shortcut-submit = Imbiu
 shortcut-submit-label = Imbia is registratziones
 request-language-text = No agatas sa limba tua in Common Voice?
-request-language-text-learn = Impara comente dda pedire inoghe!
 request-language-button = Pedi una limba
 
 ## ProjectStatus
@@ -439,7 +450,6 @@ faq-do-want-native-a = Eja, bolemus mescamente sa boghe tua! Parte de s'obietivu
 faq-why-different-speakers-q = Pro ite si serbint faeddadores aici diferentes pro cada limba?
 faq-why-different-speakers-a = Sa majoria de bases de datos sunt allenados cun un'isproportzione demogràfica a favore de is boghes <articleLink>maschiles e de classe mèdia</articleLink>. Imbetzes, is atzentos e is dialetos assotziados a grupos giai marginalizados sunt prus pagu rapresentados in is pachetes de datos pro s'allenamentu. Meda màchinas tenent dificultades pro cumprèndere boghes feminiles. Est pro custu chi bolimus chi sa base de datos nostra siat variada.
 faq-why-my-lang-q = Pro ite sa limba mia no est ancora incluida?
-faq-why-my-lang-new-a = Mozilla non sèberat o favorit nissuna limba cunfronta a s'àtera. Common Voice est un'initziativa ghiada de su totu dae sa comunidade, ma ci bolent <multilangLink>passos medas pro agiùnghere una limba noa</multilangLink> e cumintzare a regollire donatziones de boghes. In antis de totu tocat a bortare su situ de Common Voice in manera chi is membros de sa comunidade potzant atzèdere a s'esperièntzia de contributzione in sa limba issoro. A pustis, tenimus bisòngiu de una regorta manna de fràsias sena deretu de autore de fàghere lèghere a sa gente. A pustis de àere rispetadu custos rechisidos una limba benit "lantzada" in Common Voice pro permìtere a sa gente de cumintzare a registrare sa boghe issoro e de cunvalidare is donatziones de àtere. Si boles agiudare a lantzare una limba noa bae a <sentenceCollectorLink>s'aina de regollida de frases</sentenceCollectorLink> nostra pro cumintzare.
 faq-what-quality-q = Cale est su livellu de calidade chi depet tènnere una registrada de boghe pro ddu pòdere impreare in su pachete de datos?
 faq-what-quality-a = Bolimus chi su pachete de datos de Common Voice rifletat sa calidade de s'àudio chi unu motore de sìntesi vocale at a intèndere cada die, e pro custu bisongiamus de variedade. Paris a una comunidade diferentziada de chistionadores, unu pachete de datos cun una calidade de s'àudio variàbile at a imparare a su motore de sìntesi vocale a gestire situatziones diferentes in su mundu reale, dae sa gente chi chistionat in s'isfundu a s'abbolotu de is màchinas. Finas a cando sa boghe de sa registratzione tua si cumprendet diat èssere bona bastante pro su pachete de datos.
 faq-why-10k-hours-q = Pro ite s'obietivu est cussu de riunire 10.000 oras verificadas de registradas de àudio pro cada limba?
@@ -502,12 +512,6 @@ about-dataset-new = Pachete de datos de Common Voice
 about-dataset-new-text = Su pachete de datos de Common Voice cuntenet chentinas de mìgias de mustras de boghes chi agiudant a is isvilupadores a creare ainas de reconnoschimentu de boghe.
 about-clip-graveyard = Campusantu de registratziones
 about-clip-graveyard-text = Su Campusantu de registratziones cuntenet registratziones de boghe chi no sunt intradas in su pachete de datos de Common Voice. Comente su pachete de datos, fintzas su Campusantu de registratziones podet èssere iscarrigadu.
-about-partners = Sòtzios
-about-become-a-partner = Diveni sòtziu
-about-partnership =
-    Common Voice est unu progetu collaborativu, e dipendimus dae sa comunidade nostra de sòtzios e cuntribuidores pro istantargiare su pachete de datos vocales lìberos prus mannu de semper.
-    
-    Si diat agradare a torrare gràtzias a is persones e a is organizatziones chi sighint pro s'agiudu issoro a su progetu:
 about-get-involved = Ìmplica·ti
 about-get-involved-text-2 =
     Boles agiudare a megiorare Common Voice galu de prus?
@@ -551,12 +555,6 @@ about-playbook-how-add-language = Comente fatzo a agiùnghere una lìngua?
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Intellighèntzia artifitziale
-mycroft-description =
-    Mycroft est su primu assistente a còdighe abertu de su mundu.
-    Ddu podes impitare in ònnia logu - in un'elaboradore de iscrivania, a intro de una màchina o in una Raspberry Pi.
-mycroft-secondary-description = Custu est unu programma a còdighe abertu chi si podet modificare, ismanniare e megiorare. Mycroft si podet impitare in cale si siat cosa, dae unu progetu iscientìficu a un'aplicatzione informàtica de un'impresa.
 
 ## Glossary
 
@@ -717,7 +715,6 @@ language-search-input =
 language-speakers = Faeddadores
 localized = Localizadu
 sentences = Frases
-total-hours = Oras validadas
 
 ## Contribution
 
