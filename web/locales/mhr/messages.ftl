@@ -572,6 +572,10 @@ about-playbook-how-add-language-translating-heading = Сайтым кусары�
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon-ым кучылтмо шотышто мемнан полшыкым ончо.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Ойлончым погышо
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ойлончым погышо шотышто мемнан полшыкым ончо</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Тый <sentenceCollectorLinkAdd>икмыняр, шуко огыл ойлончым ешарен</sentenceCollectorLinkAdd>,
+    але <bulkImportDocsLink>Github полшымо дене тӱшка импортым</bulkImportDocsLink> ыштен кертат.
+    Ойлончо-влак <licenseLink>CC0 (але чылалан кучылташ лийше)</licenseLink> лийшаш уылт, але тый шкендыным возен кертат.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ойлончым погышо нерген кумданрак</sentenceCollectorFragment>.
 
 ## How does localization work
@@ -836,6 +840,7 @@ language-speakers = Ойлышо-влак
 localized = Кусарыме
 sentences = Ойлончо-влак
 language-validation-hours = Шагат
+language-validation-progress = Тергымаш ошкыл
 
 ## Contribution
 
