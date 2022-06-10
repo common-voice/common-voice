@@ -196,7 +196,7 @@ zh-TW = Chinek (Taiwan)
 
 ## Layout
 
-speak = Kowsel
+speak = Kewsel
 speak-now = Kowsowgh lemmyn
 datasets = Settys data
 languages = Yethow
@@ -244,6 +244,9 @@ speak-subtitle = Kevri agas lev
 speak-paragraph = Rekordya temmigow lev yw rann gresel a dhrehevel agan sett data ygor, yma nebes ow leverel y vos an rann dhidhanus ynwedh.
 speak-goal-text = Temmigow rekordys
 listen-subtitle = Gweres dhyn ow tilysa levow
+listen-goal-text = Klyppys dilysys
+hours-recorded = Ourys Rekordys
+hours-validated = Ourys Dilysys
 voices-online = Levow Warlinen Lemmyn
 todays-progress = Avonsyans Hedhyw
 help-reach-goal = Gweres Dhyn ow Trehedhes bys { $goal }
@@ -251,12 +254,44 @@ read-terms-q = A wruss'ta redya agan Termys?
 ready-to-record = Parys dhe argevri dha lev?
 all-locales = Oll
 today = Hedhyw
+x-weeks-short =
+    { $count ->
+        [zero] seythen
+        [one] sth
+        [two] sth
+        [few] sth
+        [many] sth
+       *[other] sth
+    }
+x-months-short =
+    { $count ->
+        [zero] mis
+        [one] mis
+        [two] vis
+        [few] mis
+        [many] mis
+       *[other] mis
+    }
+x-years-short =
+    { $count ->
+        [zero] b
+        [one] v
+        [two] v
+        [few] b
+        [many] b
+       *[other] b
+    }
+sign-up-account = Omrolya rag akont
+email-subscription-title = omrolya rag nowedhyansow ebost
 
 ## Account Benefits
 
+benefits = Lesow
 
 ## What's public
 
+whats-public = Pyth yw Poblek?
+email-not-public = Ny wren ni kevrenna dha ebost.
 
 ## Speak & Listen Shortcuts
 
