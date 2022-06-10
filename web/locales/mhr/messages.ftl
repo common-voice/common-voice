@@ -570,6 +570,11 @@ about-playbook-how-add-language = Кузе мылам йылмым ешараш?
 about-playbook-how-add-language-content-1 = Икымше, тыйын йылмет <languageLink>уло</languageLink> але уке, терге. Уке гын, тылат <strong>сайтым кусарыман да ойлончо-влакым погыман</strong>.
 about-playbook-how-add-language-translating-heading = Сайтым кусарымаш
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon-ым кучылтмо шотышто мемнан полшыкым ончо.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Кусарашлан ме <pontoonLink>Pontoon</pontoonLink> лӱман Mozilla-н ӱзгаржым кучылтына. Pontoon-ышто шуко йылме уло,
+    но тыйын йылмет уке гын, тый <pontoonRequestLink>тудым ешараш манын, йодмашым</pontoonRequestLink> пуэн кертат.
+    Вара, тудым Common Voice проектыште кучылташ лийже манын,
+    <githubRepoLink>GitHub-ыште у йылмым йод</githubRepoLink>. <localizationFragment>Кумданрак кусарымаш сайтыште ончо</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Ойлончым погышо
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ойлончым погышо шотышто мемнан полшыкым ончо</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
