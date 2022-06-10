@@ -128,6 +128,7 @@ ne-NP = Nepáli
 nia = Nias
 nl = Holland
 nn-NO = Norvég nynorsk
+nso = Északi szeszotó
 nyn = Nyankole
 oc = Okcitán
 or = Orija
@@ -229,9 +230,9 @@ wall-of-text-second =
     Szerintünk ez elfojtja az innovációt. Ezért létrehoztuk a Common Voice projektet, hogy
     segítsük a hangfelismerési technológiát mindenki számára hozzáférhetővé tenni.
 show-wall-of-text = Bővebben
-help-us-title = Segítsen jóváhagyni a mondatokat.
+help-us-title = Segítsen ellenőrizni a mondatokat.
 help-us-explain = Nyomja meg a lejátszás gombot, hallgassa meg a mondatot és mondja el: helyesen hangzik el az alábbi mondat?
-no-clips-to-validate = Úgy néz ki egyetlen meghallgató klip sincs ezen a nyelven. Segítsen feltölteni a sor azzal, hogy rögzít néhányat.
+no-clips-to-validate = Úgy néz ki egyetlen meghallgatható klip sincs ezen a nyelven. Segítsen feltölteni a sort azáltal, hogy rögzít néhányat.
 vote-yes = Igen
 vote-no = Nem
 toggle-play-tooltip = Nyomja meg az { shortcut-play-toggle } gombot a lejátszási módba váltáshoz
@@ -328,8 +329,8 @@ status-title = Projekt összesített állapota: nézze meg hol tartunk.
 status-contribute = Adja a hangját
 status-hours =
     { $hours ->
-        [one] Eddig egy órányi hanganyag lett jóváhagyva.
-       *[other] Eddig { $hours } órányi hanganyag lett jóváhagyva.
+        [one] Eddig egy órányi hanganyag lett ellenőrizve.
+       *[other] Eddig { $hours } órányi hanganyag lett ellenőrizve.
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -826,7 +827,7 @@ language-search-input =
 language-speakers = Beszélők
 localized = Honosítva
 sentences = Mondatok
-total-hours = Órák összesen
+language-validation-hours = óra
 
 ## Contribution
 
