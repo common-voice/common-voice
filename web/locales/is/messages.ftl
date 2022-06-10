@@ -832,7 +832,8 @@ language-search-input =
 language-speakers = Talendur
 localized = Þýtt
 sentences = Setningar
-total-hours = Staðfestar klst
+language-validation-hours = Klukkustundir
+language-validation-progress = Framvinda staðfestingar
 
 ## Contribution
 
