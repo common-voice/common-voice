@@ -544,7 +544,15 @@ about-playbook-what-is-language-content-3 = Àwọn èdè kan ní ìyàto�
 
 about-playbook-how-add-language = Báwo ni mo ṣe lè ṣe àfikún èdè?
 about-playbook-how-add-language-content-1 = Àkọ́kọ́, yẹ̀ẹ́wò bí èdè rẹ bá wà níbẹ̀ <languageLink>bí ó bá ti wà níbẹ̀</languageLink>. Tí kò bá sí níbẹ̀ wà á nílò láti <strong>túmọ̀ ìhànnì náà láti gba àwọn gbólóhùn</strong>.
+about-playbook-how-add-language-translating-heading = Ṣíṣe òǹgbífọ̀ ìkànnì náà
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Wo ìtọ́nisọ́nà wa láti lè lo Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    À ń lo èròjà Mozilla tí à ń pè ní <pontoonLink>Pontoon</pontoonLink> fún ògbifọ̀. Pontoon ní orísìírísìí èdè,
+    ṣùgbọ́n bí kò bá ni tìrẹ o lè <pontoonRequestLink> o lè bèèrè kí á fi èdè rẹ kún un</pontoonRequestLink>.
+    lẹ́yìn náà, kí èdè lè di lílò ní orí àkànsẹ-iṣẹ́ Common Voice,
+    <githubRepoLink>bèèrè fún èdè tuntun lórí GitHub</githubRepoLink>. <localizationFragment> rí ọ̀pọ̀ sí i lórí ògbifọ̀ ìkànnì</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Gbígba gbólóhùn
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Wo àtọ́nisọ́nà wa lórí bí a ṣe lè lo agbagb'ólóhùn </sentenceCollectorVideo>.
 
 ## How does localization work
 
