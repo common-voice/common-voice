@@ -472,9 +472,11 @@ about-playbook-how-add-sentences = Fatel geworrav lavarow?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Fatel wrav rekordya klypp lev a gwalita ughel?
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Hwarvosow
 
 ## How to validate
 
