@@ -318,7 +318,9 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekordya/Powes
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Dasrekordya klypp
 shortcut-discard-ongoing-recording = DIANK
+shortcut-discard-ongoing-recording-label = Tewlel rekordyans a-lemmyn
 shortcut-submit = Dehweles
 shortcut-submit-label = Danvon klyppys
 request-language-text = A ny welowgh agas yeth war Common Voice hwath?
@@ -372,7 +374,9 @@ female = Benow
 other = Aral
 why-profile-title = Praga profil?
 why-profile-text = Dre brovia kedhlow a-dro dhywgh hwi agas honen, y fydh an data son a dhanvenowgh dhe Common Voice moy dhe les dhe jynnow aswon lev a wra usya an data ma rag gwellhe aga hewerder.
+dashboard = Skostell
 build-profile = Drehevel Profil
+avatar = Avatar
 goals = Amkanow
 settings = Settyansow
 edit-profile = Chanjya an profil
@@ -380,18 +384,41 @@ profile-create-success = Gwrys veu agas profil!
 profile-close = Degea
 profile-explanation = Helerghowgh agas ober gans profil ha gweresowgh dhyn ow kul dh'agan data lev kewera.
 accept-privacy-title = Polici Privetter
+login-identity = Honanieth Omgelmi
+login-signup = Omgelmi / Omrolya
 edit = Golegi
+email-subscriptions = Ragbrenow Ebost
 download-profile = Iskarga Ow Data
+contribution-experience = Prevyans Kevri
+off = Marow
+on = Byw
 
 ## Profile - Email
 
+browse-file-title = Ughkarga restren skeusen
+connect-gravatar = Junya gans Gravatar
+avatar-uploaded = Avatar ughkergys
+remove-avatar = Dilea Avatar
 
 ## Profile - Email
 
+manage-subscriptions = Menystra Ragbrenow
+manage-email-subscriptions = Menystra Ragbrenow Ebost
+add-language = Keworra Yeth
 
 ## FAQ
 
 faq-title = Govynnow menowgh
+faq-what-cv-q = Pyth yw Common Voice?
+faq-why-important-q = Prag yth yw posek?
+faq-how-get-q = Fatel allav vy kerghes an kedhlow Common Voice?
+faq-when-release2-q = P'eur fynnowgh dyllo kedhlow Common Voice yn yethow erel?
+faq-why-mission-q = Prag yth yw Common Voice rann an medras Mozilla?
+faq-what-cv-and-deepspeech-q = Pyth yw an dyffrans yntra Common Voice ha Deep Speech?
+faq-is-goal-assistant-q = Yw amkan Common Voice drehevel darbarer lev?
+faq-do-want-native-q = Nyns ov kewser teythyek ha poslev a'm beus ha my ow kewsel, a vynnsowgh hwath ow lev?
+faq-why-different-speakers-q = Prag yth yw res dhywgh kavos lies kewser dyffrans rag pub yeth?
+faq-why-my-lang-q = Prag nag yw ow yeth yssynsys hwath?
 
 ## ABOUT US
 
