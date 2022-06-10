@@ -419,25 +419,56 @@ faq-is-goal-assistant-q = Yw amkan Common Voice drehevel darbarer lev?
 faq-do-want-native-q = Nyns ov kewser teythyek ha poslev a'm beus ha my ow kewsel, a vynnsowgh hwath ow lev?
 faq-why-different-speakers-q = Prag yth yw res dhywgh kavos lies kewser dyffrans rag pub yeth?
 faq-why-my-lang-q = Prag nag yw ow yeth yssynsys hwath?
+faq-why-10k-hours-a = Hemm yw dre vras an niver a ourys res rag dyski dhe gevres kows-dhe-dekst askorrans.
+faq-how-calc-hours-q = Fatel wra Common Voice rekna ourys?
+faq-where-src-from-2-q = A-ble teu an tekst pennfenten?
+faq-why-account-q = Prag y talvia dhymm omrolya rag akont?
+faq-is-account-public-q = Yw kedhlow ow akont poblek?
+faq-what-is-cv = Pandr'yw Common Voice?
+faq-using-cv = Usya Common Voice
+faq-description = Common Voice yw rann ragdres gans Mozilla dhe weres ow tyski dhe jynnow fatel wra tus wir kewsel.
+faq-search-for-answers =
+    .label = Hwilas gorthebow
 
 ## ABOUT US
 
+about-title = Praga Common Voice?
+how-does-it-work-title-v2 = Fatel ober Common Voice?
 
 ## How does it work section
 
+about-localization-title = Leelheans an Wiasva
+about-sentence-collection-title = Kuntel Lavarow
+about-new-lang-title = Lonch a Yeth Nowydh
+about-voice-contrib-title = Kevri Lev
+about-voice-validation-title = Dilysa Lev
+about-speak = Kewsel
+about-listen-queue = Lost Goslowes
+about-listen = Goslowes
+about-is-it-valid = Yw an klypp dilys?
+about-stay-in-touch-button = Omrolya
+about-nav-why-common-voice = Praga?
+about-nav-how-it-works = Fatla?
+about-nav-partners = Kesparow
+about-nav-get-involved = Kemeres rann
+about-nav-how-it-works-2 = Fatel ober Common Voice?
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Pyth yw yeth war Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Fatel geworrav yeth?
 
 ## How does localization work
 
+about-playbook-how-localize = Fatel ober leelheans an wiasva?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Fatel geworrav lavarow?
 
 ## How to record quality
 
