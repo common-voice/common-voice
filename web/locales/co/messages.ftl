@@ -313,6 +313,7 @@ profile-form-additional-language =
     .label = Lingua addizziunala
 profile-form-language =
     .label = Lingua
+profile-form-variant-default-value = Nissuna variante scelta
 profile-form-accent =
     .label = Accentu
 profile-form-age =
