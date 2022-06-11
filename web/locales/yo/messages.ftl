@@ -965,6 +965,20 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Ṣètò àfojúsùn
 cant-decide = O kò ní ìpinnu?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } wákátìí ṣeéṣe
+       *[other] { $totalHours } wákátìí ṣeéṣe
+    }{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } oṣù tí
+       *[other] { $periodMonths } oṣù tí
+    }{ NUMBER($people) ->
+        [one] { $people } ìgbohùnsílẹ̀ énìyàn
+       *[other] { $people } ìgbohùnsílẹ̀ énìyàn
+    }{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } ìkálẹ̀ ojojúmọ́
+       *[other] { $clipsPerDay } ìkálẹ̀ ojojúmọ́
+    }
 how-many-per-day = Ó dára! Fọ́nrán mẹ́lòó ní ojúmọ́ kan?
 how-many-a-week = Ó dára! Fọ́nrán mélòó ní ọ̀sẹ̀ kan?
 which-goal-type = Ṣé o fẹ́ sọ̀rọ̀, gbọ́rọ̀ tàbí méjéèjì
@@ -991,6 +1005,7 @@ goal-share-text =
     -- darapọ̀ mọ́ mi láti kọ́ àwọn ẹ̀rọ bí wọ́n ṣe lè sọ̀rọ̀ bí ènìyàn { $link }
 weekly-goal-created = Àfojúsùn rẹ̀ ọ̀sọ̀ọ̀sẹ̀ ti di sísẹ̀dá
 daily-goal-created = Àfojúsùn rẹ ojoojúmọ́ ti di síṣẹ̀dá
+track-progress = Tọpa ìtẹ̀síwájú níbí àti lórí ojú ewé olóǹkà rẹ̀
 return-to-edit-goal = Padà síbí láti tún àfojúsùn rẹ ṣe nígbàkúùgbà
 share-goal = Ṣe àbápín àfojúsùn mi
 
@@ -1027,10 +1042,13 @@ download-requests-info = Nígbà tí o bá tọrọ fún àwọn ìkàsi
 download-request-button = Ṣe ìgbàsílẹ̀
 download-request-title = { $created }
 download-request-description = { $clipCount }Àwọn fọ́nrán ohùn, àpapọ̀ ìwọ̀n{ $size } àká tó wà nípamọ́. Ìlò parí{ $expires }
+download-request-archive-single = Fáìlì ZIP kan tó ní
+download-request-archive-multiple = Pín sí { $archiveCount } failing ZIP tó ní
 download-request-assembling-description = À ń to àwọn fáìlì rẹ lọ́wọ́. Jọ̀wọ́ ṣe àyẹ̀wò rẹ̀ nígbà míràn.
 download-request-refresh-button = ṣo dọ̀tun
 download-request-modal-title = ìtọ́ka gbígbà
 download-request-modal-description = Èyí ni ìtọ́ka sí gbígbà àwọn fáìlì ìsọdikékeré
+download-request-link-text = Zip#{ $offset } ti { $total }
 download-request-metadata-link = Ọ̀rọ̀ gbólóhùn
 download-request-link-single = Ìgbéjáde ìparí ọdún
 
