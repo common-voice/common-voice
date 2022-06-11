@@ -1105,8 +1105,10 @@ contribution-misreadings-title = Àwọn àṣìkà
 contribution-misreadings-description = Nígbà tí o bá ń tẹ́tí, yẹ àwọn ìkàsílẹ̀ wò dáada pé wọn bá àwọn ohun ta kọ sílẹ̀ mu rẹ́gí; ṣe ìkọ̀sílẹ̀ , kò báà jẹ́ fún àṣìṣe pẹ́pẹ̀pẹ́. <br /> Pẹ̀lú àwọn àṣìṣe tó wọ́pọ̀:
 contribution-misreadings-description-extended-list-1 = Pàdánù<strong>'A'</strong>tàbí<strong>'Náà'</strong> ní ìbẹ̀ẹ̀rẹ̀ ìkàsílẹ̀ náà.
 contribution-misreadings-description-extended-list-2 = Pàdánù<strong>'S'</strong>ní òpin ọ̀rọ̀ kan
+contribution-misreadings-description-extended-list-3 = Kíka ìkópa tí kò kúkú sí níbẹ̀ bí i "We're" dípò "We are", tàbí ìdàkéjì rẹ̀
 contribution-misreadings-description-extended-list-4 = Pípàdánù òpin ọ̀rọ̀ nípaṣè ìgékúrú ìkàsílẹ̀ náà láì tó àsìkò
 contribution-misreadings-description-extended-list-5 = Gbígbìnyànjú láti ka ọ̀rọ̀ kan ní ọ̀pọ̀ ìgbà
+contribution-misreadings-example-2-explanation = [Yẹ kí ó jẹ́ ‘dinosaurs’]
 contribution-misreadings-example-3-explanation = [Ìgékúrú ìkàsílẹ̀ ṣáájú ìparí ọ̀rọ̀ tó kẹ́yìn]
 contribution-misreadings-example-4-explanation = [Púpọ̀ ti jẹ́ ìkàsílẹ̀ ju ọ̀rọ̀ to yẹ lọ]
 contribution-misreadings-example-5-title = À ń jáde lọ gba kọ́fì.
@@ -1123,6 +1125,7 @@ contribution-varying-pronunciations-example-1-explanation = ['Beret' dára bó
 contribution-varying-pronunciations-example-2-title = Ó nọwọ́ rẹ̀ sókè
 contribution-varying-pronunciations-example-2-explanation = ['Raised' nínú èdè máa ń jẹ́ pípè ní gbogbo pẹ̀lú sílébù kan, kìí ṣe méjì]
 contribution-background-noise-title = Ariwo abẹ́lẹ̀
+contribution-background-noise-description = À ń fẹ́ kí ìṣisẹ́ ìkó ẹ̀rọ lè mójútó onírúurú ariwo abẹ́lẹ̀, kódà ìbáà ṣe ariwo tí ó pọ̀ tíẹ̀ lè jẹ́ gbígbà nìwọ̀n ìgba tí wọn ò bá ti dí ẹ lọ́wọ́ gbígbọ́ ọ̀rọ̀. Orin abẹ́lẹ̀ dára; ṣùgbọ́n orin tí ó ń pariwo tí ó sì ń dí ẹ lọ́wọ́ gbígbọ́ kò dára.
 contribution-background-noise-description-extended = Tí ìkàsílẹ̀ náà bá ń gé, tàbí ní àwọn kọnúkọ́họ, ṣe ìkọ̀sílẹ̀ fún àyàfi tí o bá ṣì lè gbọ́ gbogbo ọ̀rọ̀ náà.
 contribution-background-noise-example-2-explanation = [Apá kan ọ̀rọ̀ náà kò ṣeé gbọ̀]
 contribution-background-voices-title = Àwọn ohùn abẹ́lẹ̀
@@ -1131,6 +1134,8 @@ contribution-background-voices-example-1-explanation = Ṣé ò ń bọ̀?<st
 contribution-volume-title = Bó ṣe ń dún sí
 contribution-just-unsure-title = Ṣé kò kàn dá ẹ lójú?
 contribution-just-unsure-description = Tí o bá ṣalábàápàdé nǹkankan tí àwọn ìtọ́sọ́nà yìí ò mẹ́nubà, jọ̀wọ́ ṣẹ̀tọ́ gẹ́gẹ́ bi ìdájọ́ rẹ̀ tó dáa jù lọ. Ti o kò bá ní ìpinnu kankan, lo bọ́tìnì ìgbéfò, ko sì lọ sí ìkàsílẹ̀ tó kàn
+see-more = <chevron></chevron>Rí sí i
+see-less = <chevron></chevron>Dín rírí kù
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1139,6 +1144,7 @@ contribution-just-unsure-description = Tí o bá ṣalábàápàdé nǹk
 
 ## HEADER/FOOTER
 
+sc-header-home = Ilé
 sc-header-add = Ṣàfikún
 sc-header-review = Àtúnyẹ̀wò
 sc-header-rejected = Àwọn gbólóhùn tí a kò
