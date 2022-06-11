@@ -15,6 +15,7 @@ email-opt-in-privacy-v2 = Согласившись получать письма
 indicates-required = * поля, обязательные для заполнения
 not-available-abbreviation = Недоступно
 banner-error-slow-1 = Извините, Common Voice работает медленно. Спасибо за ваш интерес.
+banner-error-slow-2 = Мы получаем много сообщений и в данный момент изучаем проблемы.
 banner-error-slow-link = Страница состояния
 error-something-went-wrong = Ой, что-то пошло не так
 
