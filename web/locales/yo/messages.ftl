@@ -452,6 +452,9 @@ faq-why-different-speakers-a =
     Púpọ̀ àwọn àká-ọ̀rọ̀ afọ̀ ni wọ́n kọ́ pẹ̀lú àpọ̀jù àwọn àbùdá ìdánimọ̀ kan tí àbájáde rẹ̀ sì pọ̀n sẹ́yìn <articleLink> akọ àti kòlàkòsagbe</articleLink>. Èwọ́hùn tàbí èdè àdúgbò tí ó ṣe é ṣe kí wọ́n má ní asojú nínú àwọn data ti a sàmúlò ló jẹ́ pé wọ́n jẹ́ ọ̀wọ́ àwọn ènìyàn tí à ti tẹ̀rì. Ọ̀pọ̀ ẹ̀rọ ni ó ń làkàkà láti dá ohùn obìnrin mọ̀.
     Ìdí nìyí tí ó fi jẹ́ pé nínú àká-ọ̀rọ̀ wa, a fẹ́ àmúlùmọ́là!
 faq-why-my-lang-q = Kín ló dé tí èdè mi kò tíì sí níbẹ̀?
+faq-why-my-lang-a =
+    Common Voice jẹ́ gbọ̀gán àgbájọ ìdásí gbogbo ènìyàn, àwọn èdè náà ń di fífikún nípa ìkópa àwọn olùfarajìn.
+    A máa nífẹ̀ẹ́ kí ìwọ náà fi èdè rẹ kun! <languageRequestLink> Béèrè nípa fífi èdè rẹ kun.</languageRequestLink>
 faq-what-quality-q = Kí ni gbèdéke dídára ohùn tí a nílò fún ìgbohùnsílẹ̀ fọ́nrán ohùn kí ó tó lè di lílò nínú àkójọpọ̀ data?
 faq-what-quality-a = A fẹ́ kí àkójọpọ̀ data Common Voice ṣe àfihàn dídára ohùn tí ẹ̀rọ asọ-ìfọ̀-di-títẹ̀ gbọ́ ní kíákíá, nítorí náà à wá orísirísi. Ní àfikún ọ̀pọ̀ àwọn elédè inú àwùjọ kan, àkójọpọ̀ data onírúurú dídára ohùn yóó kọ́ ẹ̀rọ̀ asọ-ifọ̀-di-títẹ̀ bí a ṣe ń ṣe lójú ayé gan-an láti ara ọ̀rọ̀ kẹ́lẹ́kẹ́lẹ́ abẹ́nú títí ó fi kan ariwo ọkọ̀. Níwọ̀n ìgbà tí fọ́nrán ohùn gbígbàsílẹ̀ bá ti mọ́pọlọ dáni, ó yẹ kí ó dára tó fún àká-ọ̀rọ̀.
 faq-why-10k-hours-q = Kí ni ìdí tó fi jẹ́ pé ìfòhùntẹ̀lù wákàtí 10,000 ìkóhùnjọ ni àfojúsùn èdè kan?
@@ -553,6 +556,10 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>bèèrè fún èdè tuntun lórí GitHub</githubRepoLink>. <localizationFragment> rí ọ̀pọ̀ sí i lórí ògbifọ̀ ìkànnì</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Gbígba gbólóhùn
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Wo àtọ́nisọ́nà wa lórí bí a ṣe lè lo agbagb'ólóhùn </sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    O lè<sentenceCollectorLinkAdd>sẽ ìfikún gbólóhùn Diego</sentenceCollectorLinkAdd>, tàbí o lè ṣe <bulkImportDocsLink> ìgbéwọlé olódidi nípa lílo Github</bulkImportDocsLink>. 
+    Rántí pé gbólóhùn gbọ́dọ̀ jẹ́ <licenseLink>CC0 (tàbí awàníta gbangba)</licenseLink>, tube kí o kọ tìrẹ.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> Rí ohun púpọ̀ lórí àgbàjọ gbólóhùn</sentenceCollectorFragment>.
 
 ## How does localization work
 
