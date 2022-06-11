@@ -827,7 +827,8 @@ language-search-input =
 language-speakers = Diễn giả
 localized = Bản địa hóa
 sentences = Các câu
-total-hours = Giờ đã xác thực
+language-validation-hours = Giờ
+language-validation-progress = Tiến độ xác thực
 
 ## Contribution
 
