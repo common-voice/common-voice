@@ -1079,10 +1079,15 @@ demo-account = Àkáǹtì
 ## Demo Account
 
 demo-account-card-header = Nínú àkáǹtì kò pọn dandan láti ṣe ìfikún, àmọ́ ó wúlò
+demo-account-card-body = Sí apá ọ̀tún a ti pínyamọ àwọn àǹfààní àti àti àlàyé àwọn ìfitónilétí tí yóó hàn sáyé. Lo ìtọ́ka ìyàlẹ̀ yìí láti bẹ̀rẹ̀ àkáǹtì rẹ ti Common Voice rẹ lórí ẹ̀rọ rẹ.
+demo-account-enter-email =
+    .label = Tẹ ímeèlì rẹ wọlé kí a lè fi àtọ́ka ìgbaniwọlé ránṣẹ́
+demo-account-sign-up = fi atọ́ka ìgbaniwọlé ránṣẹ́
 
 ## Demo Contribute
 
 demo-contribute-card-header = Ṣé o ṣetán láti fi ohùn rẹ kun tàbí yá wa ní etí rẹ?
+demo-listen-subtitle = ṣerán láti kópa
 
 ## Demo Dashboard
 
