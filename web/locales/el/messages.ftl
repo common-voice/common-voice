@@ -56,6 +56,7 @@ da = Δανικά
 de = Γερμανικά
 dsb = Κάτω Σορβικά
 dv = Ντιβέχι
+dyu = Ντιούλα
 el = Ελληνικά
 en = Αγγλικά
 eo = Εσπεράντο
@@ -550,6 +551,7 @@ about-playbook-what-is-language-content-3 = Ορισμένες γλώσσες έ
 about-playbook-how-add-language = Πώς προσθέτω μια γλώσσα;
 about-playbook-how-add-language-content-1 = Αρχικά, ελέγξτε εάν η γλώσσα σας <languageLink>υπάρχει ήδη</languageLink>. Εάν δεν υπάρχει, θα πρέπει να <strong>μεταφράσετε τον ιστότοπο και να συγκεντρώσετε προτάσεις</strong>.
 about-playbook-how-add-language-translating-heading = Μετάφραση ιστοτόπου
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Δείτε τον οδηγό χρήσης μας για το Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Συλλογή προτάσεων
 
 ## How does localization work
@@ -813,7 +815,8 @@ language-search-input =
 language-speakers = Ομιλητές
 localized = Μετάφραση
 sentences = Προτάσεις
-total-hours = Ώρες επαλήθευσης
+language-validation-hours = Ώρες
+language-validation-progress = Πρόοδος επικύρωσης
 
 ## Contribution
 
