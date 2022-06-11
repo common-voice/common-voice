@@ -792,6 +792,8 @@ request-language-error = A lè má tíì rí ìbéèrè náà gbà. Jọ̀wọ́
 
 language-section-in-progress = ó ń ṣiṣẹ́ lọ́wọ́
 language-section-in-progress-new-description = Awọn èdè yìí ń bẹ lábẹ́ ìdàgbàsókè àwùjọ lọ́wọ́. Òpá ìtẹ̀síwájú ń fi ìlọsíwájú èdè kọ̀ọ̀kan hàn <localizationGlossaryLink>ìkànnì ìsọditìbílẹ̀</localizationGlossaryLink> àti <sentenceCollectionGlossaryLink>ìkó-gbólóhùn-jọ </sentenceCollectionGlossaryLink>.
+language-section-launched = Filọ́lẹ̀
+language-section-launched-description = Fún àwọn èdè tí a ti fi lọ́lẹ̀ wọ̀nyí ojú ewé wẹ́ẹ̀bù náà ti wà ní <localizationGlossaryLink> ìṣọditìbílẹ̀</localizationGlossaryLink>, ó sì ní <sentenceCollectionGlossaryLink> àgbàjọ gbólóhùn tó tó</sentenceCollectionGlossaryLink> láti fàyègbe <speakLink> ìsọ </speakLink> àti <listenLink> ìgbọ́</listenLink> tó ń lọ lọ́wọ́.
 languages-show-more = Rí sí i
 languages-show-less = Rí níwọ̀ǹba
 language-meter-in-progress = Ìtẹ̀síwájú
@@ -801,6 +803,8 @@ language-search-input =
 language-speakers = Àwọn olùsọ
 localized = Ìsọditìbílẹ̀
 sentences = Àwọn gbólóhùn
+language-validation-hours = Wákàtí
+language-validation-progress = Ìtẹ̀síwájú àrídájú
 
 ## Contribution
 
@@ -809,6 +813,7 @@ action-tap = Gbá
 contribute = Fi kún
 listen = Gbọ́
 skip = Fò
+shortcuts = Ìṣẹ́nàgbà
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> Fọ́nrán
@@ -823,6 +828,7 @@ contribute-more =
     }
 record-cta = Bẹ̀èrẹ̀ sí ní ṣe àkálẹ̀
 record-platform-not-supported = A tọrọ àforíjì, kò sí àtìlẹyìn fún pèkéle tí ò ń lò
+record-platform-not-supported-desktop = Lỏi àwọn ẹ̀rọ ìgbélórí tábìlì o lè fikún nípa ṣíṣègfbàsílẹ̀…
 record-platform-not-supported-ios-non-safari = Lórí iOS jọ̀wọ́ tẹ̀síwájú pẹ̀lú Safari láti jẹ́ kí ìgbohùnsílẹ̀ ṣiṣẹ́…
 record-must-allow-microphone = O gbọdọ̀ fàyègba amóhùndúngbẹ̀mù
 record-no-mic-found = A kò rí amóhùndúngbẹ̀mù
@@ -877,6 +883,8 @@ report-title = Jábọ̀ ìròyìn
 report-ask = Àwọn ìṣòro wo lò ń dojúkọ nínú un gbólóhùn yí?
 report-offensive-language = Èdè àlùfàǹṣá
 report-offensive-language-detail = Gbólóhùn náà ní ọ̀rọ̀ àbùkù tàbí ọ̀rọ̀ àlùfàǹṣá
+report-different-language = Èdè ọ̀tọ̀ọ̀tọ̀
+report-different-language-detail = Ó wà ní kíkọ ní èdè tó yàtọ̀ sí èyí tí moet ń sọ
 report-difficult-pronounce = Ṣòro láti pè
 report-difficult-pronounce-detail = O ní àwọn ọ̀rọ̀ tàbí gbólóhùn tí wọ́n le láti kà tàbí pè
 report-offensive-speech = Ifọ̀ àlùfàǹṣá
@@ -937,11 +945,24 @@ both-speak-and-listen-long = Méjéèjì (Sọ àti gbọ́)
 daily-goal = Afòjúsùn ojoojúmọ́
 weekly-goal = Àfojúsùn ọ̀sẹ̀ẹ̀sẹ̀
 easy-difficulty = Rọrùn
+average-difficulty = Àbọ̀
 difficult-difficulty = Líle
+pro-difficulty = Ògbóǹtarìgì
 lose-goal-progress-warning = Nípa ṣíṣàtúnṣe àfojúsùn rẹ, o lè pàdánù ìlọsíwájú rẹ tó wà nílẹ̀.
 want-to-continue = Ṣé o fẹ́ tẹ̀síwájú?
 finish-editing = Parí ìṣàtúnṣe ná?
 lose-changes-warning = Kíkúrò ní báyìí túnmọ̀ sí pé, wà á pàdánù àwọn àyípadà rẹ̀
+build-custom-goal = Ṣe àfojúsùn to lè ṣàyídà sí
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Bá wa dé { $hours } wákàtí ní { $language } pẹ̀lú àfojúsùn tìrẹ
+       *[other] Bá wa dé { $hours } wákàtí ní { $language } pẹ̀lú àfojúsùn tìrẹ
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Bá Common Voice dé { $hours } wákàtí nínú èdè kan pẹ̀lú àfojúsùn tìrẹ
+       *[other] Bá Common Voice dé { $hours } wákàtí nínú èdè kan pẹ̀lú àfojúsùn tìrẹ
+    }
 set-a-goal = Ṣètò àfojúsùn
 cant-decide = O kò ní ìpinnu?
 how-many-per-day = Ó dára! Fọ́nrán mẹ́lòó ní ojúmọ́ kan?
