@@ -56,6 +56,7 @@ da = Danca
 de = Almanca
 dsb = Aşağı Sorbca
 dv = Maldivce
+dyu = Dioula
 el = Yunanca
 en = İngilizce
 eo = Esperanto
@@ -313,7 +314,6 @@ shortcut-discard-ongoing-recording-label = Yapılmakta olan kaydı sil
 shortcut-submit = Enter
 shortcut-submit-label = Kayıtları gönder
 request-language-text = Dilinizi henüz Common Voice’ta göremiyor musunuz?
-request-language-text-learn = Nasıl talep edebileceğinizi öğrenin!
 request-language-button = Yeni dil iste
 
 ## ProjectStatus
@@ -448,7 +448,9 @@ faq-do-want-native-a = Evet, sizin sesinizi özellikle istiyoruz! Common Voice'u
 faq-why-different-speakers-q = Neden her dil için bu kadar fazla konuşmacıya ihtiyacınız var?
 faq-why-different-speakers-a = Çoğu konuşma veritabanı, <articleLink>erkek ve orta sınıfın</articleLink> aşırı temsil edildiği demografik bilgilerle eğitilir. Eğitimde kullanılan veri kümelerinde yetersiz temsil edilen aksanlar ve lehçeler genellikle marjinalleşmiş halklar ve topluluklarla ilişkilidir. Birçok makine, kadın seslerini anlamakta da zorlanır. Bu yüzden ses veritabanımızda çeşitlilik istiyoruz!
 faq-why-my-lang-q = Neden dilim henüz eklenmedi?
-faq-why-my-lang-new-a = Mozilla hiçbir dili diğerlerinden üstün görmez. Common Voice tamamen topluluk tarafından yürütülen bir girişimdir, ancak <multilangLink>yeni bir dil eklemek</multilangLink> ve ses bağışlarını toplamaya başlamak için birkaç adımın tamamlanması gerekir. İlk olarak, kişilerin kendi dillerinde katkıda bulunabilmeleri için Common Voice web sitesinin o dile çevrilmesi gerekir. Daha sonra, insanların sesli olarak okuyabileceği, telif hakkı olmayan, büyük bir cümle koleksiyonunun derlenmesi gerekir. Bu gereksinimlerin her ikisi de karşılandığında insanların seslerini kaydetmeye ve başkalarının kaydettiği sesleri doğrulamaya başlaması için Common Voice'a o dil eklenir. Yeni bir dil eklemeye yardım etmek istiyorsanız <sentenceCollectorLink>cümle toplama aracımıza</sentenceCollectorLink> bakabilirsiniz.
+faq-why-my-lang-a =
+    Common Voice kitle kaynaklı bir platformdur ve dillerin tümü gönüllüler tarafından eklenmiştir.
+    Sizin de dilinizi eklemenizi çok isteriz! <languageRequestLink>Dilinizin eklenmesini talep edin.</languageRequestLink>
 faq-what-quality-q = Bir ses kaydının veri kümesinde kullanılabilmesi için hangi düzeyde ses kalitesi gerekir?
 faq-what-quality-a = Common Voice veri kümesinin, bir konuşmayı metne dönüştürme motorunun doğal ortamda duyacağı ses kalitesini yansıtmasını istiyoruz, bu nedenle çeşitlilik arıyoruz. Farklı konuşmacılara ek olarak, değişen ses kalitelerine sahip bir veri kümesi, konuşmayı metne dönüştürme motoruna, gerçek hayatta karşılaşabileceği arka plan sesleri ve araba gürültüsü gibi çeşitli gerçek durumlarının üstesinden gelmeyi öğretecektir. Kendi sesiniz anlaşılıyorsa, kaydınız veri kümesi için yeterince iyi demektir.
 faq-why-10k-hours-q = Neden dil başına 10.000 saat onaylı ses kaydı hedefi var?
@@ -518,12 +520,6 @@ about-dataset-new = Common Voice Veri Kümesi
 about-dataset-new-text = Common Voice Veri Kümesi, geliştiricilerin ses tanıma araçları oluşturmasına yardımcı olan yüz binlerce ses örneği içerir.
 about-clip-graveyard = Kayıt Mezarlığı
 about-clip-graveyard-text = Kayıt Mezarlığı, Common Voice veri kümesine girmeyen ses kayıtlarından oluşur. Veri kümesi gibi Kayıt Mezarlığı da indirilebilir.
-about-partners = İş ortakları
-about-become-a-partner = Ortağımız olun
-about-partnership =
-    Common Voice işbirliğine dayalı bir projedir. Tüm zamanların en büyük açık kaynaklı ses veri kümesini oluşturmak için iş ortaklarımıza ve projeye katkıda bulunan gönüllülerimize bel bağlıyoruz.
-    
-    Projeye yardımlarından dolayı aşağıdaki kişi ve kuruluşlara teşekkür etmek isteriz:
 about-get-involved = Bize katılın
 about-get-involved-text-2 =
     Common Voice'u daha da iyileştirmeye yardımcı olmak ister misiniz?
@@ -553,9 +549,15 @@ about-playbook-what-is-language-content-3 = Bazı diller arasında gramer, söz 
 
 about-playbook-how-add-language = Nasıl dil eklerim?
 about-playbook-how-add-language-content-1 = Öncelikle dilinizin <languageLink>zaten var olup olmadığını</languageLink> kontrol edin. Yoksa <strong>siteyi çevirmeniz ve cümle toplamanız</strong> gerekir.
-about-playbook-how-add-language-content-2 = <strong>Siteyi çevirmek için</strong> - <pontoonLink>Pontoon</pontoonLink>'da <translateVideo>çalışmaya</translateVideo> başlayın. Pontoon'da pek çok dil vardır, ancak sizin diliniz yoksa <pontoonRequestLink>talep edebilirsiniz</pontoonRequestLink>. Ardından, Common Voice projesinin diliniz için kullanıma sunulmasını <repoLink>GitHub aracılığıyla</repoLink> isteyin. <localizationFragment>Site çevirisi</localizationFragment> hakkında daha fazla bilgi edinin.
-about-playbook-how-add-language-content-3 = <strong>Cümleleri toplamak için</strong> - <scLink>Cümle Toplayıcı</scLink> üzerinde <scVideo>çalışmaya başlayın</scVideo>.
-about-playbook-how-add-language-content-4 = Buraya <scLinkAdd>az sayıda cümle ekleyebilir</scLinkAdd> veya bir Github isteği aracılığıyla <bulkImportDocsLink>toplu içe aktarma</bulkImportDocsLink> yapabilirsiniz. Cümlelerin <licenseLink>CC0 (veya kamu malı)</licenseLink> olması gerektiğini veya kendi cümlelerinizi yazabileceğinizi unutmayın. <scFragment>Cümle Toplayıcı</scFragment> hakkında daha fazla bilgi edinin.
+about-playbook-how-add-language-translating-heading = Siteyi çevirmek
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon'un nasıl kullanılacağına ilişkin kılavuzumuzu izleyin.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Çeviriler için <pontoonLink>Pontoon</pontoonLink> adlı bir Mozilla aracını kullanıyoruz. Pontoon'da bir sürü dil var,
+    ancak sizin diliniz yoksa <pontoonRequestLink>dilinizin eklenmesini isteyebilirsiniz</pontoonRequestLink>.
+    Ardından, dili Common Voice projesinde kullanılabilir hale getirmek için,
+    <githubRepoLink>GitHub'da yeni dili isteyin</githubRepoLink>. <localizationFragment>Site çevirisi hakkında daha fazlasını görün</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Cümle derleme
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Cümle Toplayıcıyı kullanma kılavuzumuzu izleyin</sentenceCollectorVideo>.
 
 ## How does localization work
 
@@ -619,12 +621,6 @@ about-playbook-how-project-governance-content-4 = Topluluk katılımı ve karar 
 about-playbook-how-project-governance-content-5 = Değer ve tanınma.
 about-playbook-how-project-governance-content-6 = Karşılıklı hesap verebilirlik.
 about-playbook-how-project-governance-content-7 = <governanceLink>Nasıl yönetildiğimiz hakkında daha fazla bilgi edinin</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Yapay zekâ
-mycroft-description =
-    Mycroft dünyanın ilk açık kaynaklı asistanıdır.
-    Mycroft her yerde (masaüstü bilgisayarda, otomobilde veya Raspberry Pi'da) çalışabilir.
-mycroft-secondary-description = Bu, serbestçe düzenlenebilen, genişletilebilen ve geliştirilebilen açık kaynaklı bir yazılımdır. Mycroft, bir bilim projesinden kurumsal yazılım uygulamasına kadar her türlü uygulamada kullanılabilir.
 
 ## Glossary
 
@@ -816,7 +812,8 @@ language-search-input =
 language-speakers = Konuşmacı
 localized = Yerelleştirilmiş
 sentences = Cümleler
-total-hours = Toplam saat
+language-validation-hours = Saat
+language-validation-progress = Doğrulama İlerlemesi
 
 ## Contribution
 
