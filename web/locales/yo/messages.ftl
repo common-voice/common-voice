@@ -1092,6 +1092,7 @@ demo-listen-subtitle = Ǹjẹ́ o ṣetán láti kópa?
 
 ## Demo Dashboard
 
+demo-dashboard-card-body = Fún gbogbo fọ́nrán tí o bá fún wa àti gbogbo èyí tí wọ́n bá gbà wọlé, àkáǹtì rẹ yóó gba ìsọdititun lórí àtẹ láti fi ìlọsíwájú rẹ hàn nínú èdè kọ̀ọ̀kan tí o ti kópa. Bẹ́ẹ̀ ni, O lè kópa ju èdè kan lọ!<br/><br/> Lo àtẹ láti wo ohun tí o ti ṣe àti bí o ṣe ń ṣe sí láàrin àwọn tókù láwùjọ, kí o sì ṣe àfojúsùn ìkópa ojoojúmọ́ tàbí ọ̀sọ̀ọ̀sẹ̀.
 
 ## Validation criteria
 
