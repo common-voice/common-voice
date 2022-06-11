@@ -1145,6 +1145,7 @@ see-less = <chevron></chevron>Dín rírí kù
 ## HEADER/FOOTER
 
 sc-header-home = Ilé
+sc-header-how-to = Ọ̀nà síṣe
 sc-header-add = Ṣàfikún
 sc-header-review = Àtúnyẹ̀wò
 sc-header-rejected = Àwọn gbólóhùn tí a kò
