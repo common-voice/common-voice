@@ -1068,6 +1068,7 @@ demo-welcome-subheader = Ṣé o nífẹ̀ẹ́ sí mímọ̀ si àti díd
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice jẹ́ àkójọpọ̀ dátà fún onírúurú èdẹ̀, èyí tó tóbi jùlọ tó wà ní àgbáyé fún ìlò gbogbo èèyàn.
+demo-language-select-card-body = A dúpẹ́ púpọ̀ lọ́wọ́ àwọn akópa tó lé ni ẹgbẹ̀rún lọ́nà 259 láti inú àádọ́ta èdè, data yìí ni a ń lò láti kọ́ ẹ̀rọ afàyègbafọ̀ tí yóó jẹ́ kí èsì ohùn ènìyàn mú yányán
 card-button-next = Tẹ̀ síwájú
 card-button-back = Ẹ̀yìn
 demo-language-select-label = Yê èdè wò
