@@ -1087,13 +1087,18 @@ demo-account-sign-up = fi atọ́ka ìgbaniwọlé ránṣẹ́
 ## Demo Contribute
 
 demo-contribute-card-header = Ṣé o ṣetán láti fi ohùn rẹ kun tàbí yá wa ní etí rẹ?
-demo-listen-subtitle = ṣerán láti kópa
+demo-contribute-card-body-v2 = Ní báyìí tí ó ti mọ díẹ̀ nípa Common Voice, kín ló dé tí o ò gbìyànjú rẹ̀? Tẹ àwòràn amóhùndúngbàmù kí o lè ka àwọn gbólóhùn náà sókè. <br/><br/>Bí o bá fẹ́ ṣe àgbéyẹ̀wò ohùn tí àwọn akópa mìíràn fi ránṣe, tẹ àwòrán siṣe. Wà á ṣe ìrànlọ́wọ́ láti fòhùntẹ̀ tẹ àkálẹ̀ àti gbólóhùn tó wà ní ojún fánrán báramu.
+demo-listen-subtitle = Ǹjẹ́ o ṣetán láti kópa?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-criteria-nav = Òsùwọ̀n
+contribution-criteria-link = Ìlóyè òsùwọ̀n akópa
+contribution-criteria-page-title = Òsùwọ̀n Ìkópa
+contribution-criteria-page-description = Lóye ohun tí à ń wá nígbà tí o bá ń fetí sí fọ́nrán ohùn kí a sì ràn wá lọ́wọ́ láti jẹ́ kí ohùn rẹ ja gara pẹ̀lú
 contribution-for-example = Bí àpẹẹrẹ
 contribution-misreadings-title = Àwọn àṣìkà
 contribution-misreadings-description = Nígbà tí o bá ń tẹ́tí, yẹ àwọn ìkàsílẹ̀ wò dáada pé wọn bá àwọn ohun ta kọ sílẹ̀ mu rẹ́gí; ṣe ìkọ̀sílẹ̀ , kò báà jẹ́ fún àṣìṣe pẹ́pẹ̀pẹ́. <br /> Pẹ̀lú àwọn àṣìṣe tó wọ́pọ̀:
