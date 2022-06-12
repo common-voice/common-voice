@@ -772,6 +772,19 @@ request-language-form-info =
 request-language-form-info-explanation =
     भाषाको बारेमा तपाईँले सकेसम्म धेरै जानकारी थप्नुहोस्। यो
     समावेश हुन सक्छ:
+request-language-form-info-explanation-list-1 = तपाईको भाषाका नामहरू
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO कोडहरू</isoCodeLink> थाहा भएमा
+request-language-form-info-explanation-list-3 = हामीलाई भाषा बुझ्न मद्दत गर्न सक्ने वेबसाइटहरूको लिङ्कहरू
+request-language-google-recaptcha-required = यदि तपाईं अगाडि बढ्न चाहनुहुन्छ भने reCAPTCHA आवश्यक छ
+request-language-google-recaptcha-error = reCAPTCHA मा केही गडबड भयो। फेरि प्रयास गर्नुहोस।
+# Success page
+request-language-success-heading = धन्यवाद! तपाईंले नयाँ भाषा सोधपुछ पठाउनुभएको छ
+request-language-success-list-1 =
+    साझा आवाजमा तपाईंको भाषा थप्ने चरणहरू व्याख्या गर्ने इमेल
+    तपाईंले छिट्टै प्राप्त गर्नुपर्छ
+request-language-error =
+    हामीले त्यो अनुरोध प्राप्त नगरेको हुन सक्छ। कृपया हामीलाई सिधै 
+    <emailLink>{ $email }</emailLink> मा इमेल गर्नुहोस् र हामी तपाईकहाँ फिर्ता हुनेछौं!
 
 ## Languages Overview
 
