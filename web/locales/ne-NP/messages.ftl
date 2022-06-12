@@ -782,6 +782,10 @@ request-language-success-heading = धन्यवाद! तपाईंले 
 request-language-success-list-1 =
     साझा आवाजमा तपाईंको भाषा थप्ने चरणहरू व्याख्या गर्ने इमेल
     तपाईंले छिट्टै प्राप्त गर्नुपर्छ
+request-language-success-list-3 =
+    यदि तपाइँ एक दुई दिन भित्र हामीबाट सुन्नुभएन भने,
+    <emailLink>{ $email }</emailLink> मा सम्पर्क गर्नुहोस्
+    र हामी तपाईकहाँ फिर्ता आउनेछौं!
 request-language-error =
     हामीले त्यो अनुरोध प्राप्त नगरेको हुन सक्छ। कृपया हामीलाई सिधै 
     <emailLink>{ $email }</emailLink> मा इमेल गर्नुहोस् र हामी तपाईकहाँ फिर्ता हुनेछौं!
