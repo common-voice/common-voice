@@ -555,6 +555,8 @@ about-playbook-how-add-language-content-1 = 首先請先確認您的語言是否
 about-playbook-how-add-language-translating-heading = 翻譯網站
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>觀看 Pontoon 的使用教學。</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>觀看我們的 Sentence Collector 使用指南</sentenceCollectorVideo>。
+about-playbook-how-add-language-collecting-sentences-content-2 = 您可以<sentenceCollectorLinkAdd>加入少量的句子</sentenceCollectorLinkAdd>，或是直接<bulkImportDocsLink>透過 Github 大批匯入</bulkImportDocsLink>。請記住所有的句子都必須是 <licenseLink>CC0 或公開領域</licenseLink>作品，或是您自己撰寫的作品。
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>了解收集語句的更多資訊</sentenceCollectorFragment>。
 
 ## How does localization work
