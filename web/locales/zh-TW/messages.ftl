@@ -453,7 +453,7 @@ faq-why-different-speakers-a =
     大多數的語音資料庫的語音來源偏重於某群特定人口，造成結果偏向於<articleLink>男性與中產階級</articleLink>。而在訓練資料集中，各種不同的口音與方言會與被邊緣化的人群相關連起來。許多機器也很難理解女性的聲音。
     這就是為什麼我們的語音資料庫應該海納百川，收集各種語音！
 faq-why-my-lang-q = 為什麼還沒有我的語言？
-faq-why-my-lang-a = Common Voice 是一個群眾外包的平台，當中的語言完全是由志工所加入維護。我們很希望您也能把會說的語言加入進來！<languageRequestLink>在此詢問如何新增語言。</languageRequestLink>
+faq-why-my-lang-a = Common Voice 是一個群眾外包的平台，當中的各種語言完全是由志工所維護。我們很希望您加入！<languageRequestLink>在此詢問如何新增語言。</languageRequestLink>
 faq-what-quality-q = 錄音品質要到什麼等級，才能用於資料集中？
 faq-what-quality-a = 我們希望 Common Voice 資料集能夠反映出語音轉文字引擎就算在野外也會聽到的聲音，所以我們希望能夠收集各種環境與錄音品質下的片段。除了各種說話者以外，若資料集中包含各種語音品質的片段，可讓語音轉文字引擎處理各種現實環境下的狀況，例如背景中有人在講話，或是有車輛的噪音。只要您的片段能讓人足夠聽得懂，即可收錄至資料集中。
 faq-why-10k-hours-q = 為什麼每個語言有一萬小時的音檔驗證目標？
@@ -555,6 +555,7 @@ about-playbook-how-add-language-content-1 = 首先請先確認您的語言是否
 about-playbook-how-add-language-translating-heading = 翻譯網站
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>觀看 Pontoon 的使用教學。</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>了解收集語句的更多資訊</sentenceCollectorFragment>。
 
 ## How does localization work
 
