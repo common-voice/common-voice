@@ -1182,6 +1182,7 @@ sc-howto-title = Ọ̀nà ṣíṣe
 sc-howto-addlang-title = Ṣíṣe àfikún àwọn èdè láti ṣiṣẹ́ pẹ̀lú
 sc-howto-addlang-text = Kété tí o bá wọlé, o lè yan àwọn èdè rẹ nínú abala púrófáìlì.
 sc-howto-addsen-title = Ṣàfikún àwọn gbólóhùn tuntun
+sc-howto-addsen-item-3 = Ìsọdikúkúrú àti ìsọdikúkúrú aborúkọ. Ìsọdikúkúrú àti ìsọdikúkúrú aborúkọ bí i "USA" tàbí "ICE" ni kí o gìnnà sí nínú ọ̀rọ̀ orísun nítorí pé ìtumọ̀ wọn lè yàtọ̀ sí sípẹ́lì wọn. Ní àfikún, ọ̀pọ̀ itumọ̀ tó tọ́nà ni ó lè wà fún ìsọdikúkúrú kan. Bí àpẹẹrẹ, ìsọdikúkúrú aborúkọ “ICE” ni a lè pè bí i  “I-C-E” tàbí kí a pè é gẹ́gẹ́ bí ẹyọ ọ̀rọ̀ kan.
 sc-howto-cite-item-1 = O lè fi wẹ́íbusaìtì kun, àpẹẹrẹ "Common Voice -https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = O lè lo sítàì ìtọ́kasí ti akadá, bí àpẹẹrẹ sítàì Harvard "Mozilla (2021) Common Voice. Ó wà ní https://commonvoice.mozilla.org/ (Wíwọlé: 15th Ọwẹ́wẹ̀ 2021)"
 sc-howto-review-title = Ṣe àtúnyẹ̀wò àwọn gbólóhùn
