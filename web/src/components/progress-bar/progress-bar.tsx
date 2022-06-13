@@ -1,23 +1,21 @@
 import * as React from 'react';
 
-export default ({
-  children,
-  progress,
-  secondary,
-}: {
-  children?: any;
-  progress: number;
-  secondary?: boolean;
-}) => (
-  <div className="progress-bar">
+import VisuallyHidden from '../visually-hidden/visually-hidden';
+
+import styles from './progress-bar.module.css';
+
+interface Props {
+  percentageValue?: number;
+}
+
+const ProgressBar = ({ percentageValue = 0 }: Props) => (
+  <div className={styles.progress}>
+    <VisuallyHidden>{percentageValue}%</VisuallyHidden>
     <div
-      className={'progress ' + (secondary ? 'blue' : '')}
-      style={
-        progress > 0
-          ? { width: 100 * progress + '%' }
-          : { width: 0, padding: 0 }
-      }>
-      {children}
-    </div>
+      className={styles.progressBar}
+      style={{ width: `${percentageValue}%` }}
+    />
   </div>
 );
+
+export default ProgressBar;

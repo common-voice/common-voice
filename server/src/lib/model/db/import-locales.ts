@@ -154,10 +154,12 @@ export async function importLocales() {
     console.log('Saving langauge data to database');
 
     await Promise.all(
-      locales.map(lang => {
+      locales.map(async lang => {
+        console.log(lang.code);
+
         if (allLanguages[lang.code]) {
           // this language exists in db, just update
-          return db.query(
+          return await db.query(
             `
             UPDATE locales
             SET native_name = ?,
@@ -176,7 +178,7 @@ export async function importLocales() {
           );
         } else {
           // this is a new language, insert
-          return db.query(
+          return await db.query(
             `INSERT IGNORE INTO locales(name, target_sentence_count, native_name, is_contributable, is_translated, text_direction) VALUES (?)`,
             [
               [

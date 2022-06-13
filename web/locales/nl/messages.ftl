@@ -319,7 +319,6 @@ shortcut-discard-ongoing-recording-label = Lopende opname verwerpen
 shortcut-submit = Terug
 shortcut-submit-label = Fragmenten indienen
 request-language-text = Ziet u uw taal nog niet op Common Voice?
-request-language-text-learn = Lees hier hoe u het kunt aanvragen!
 request-language-button = Een taal aanvragen
 
 ## ProjectStatus
@@ -456,7 +455,9 @@ faq-why-different-speakers-a =
     De meeste spraakdatabases worden getraind met een oververtegenwoordiging van bepaalde demografische groepen, wat leidt tot een voorkeur voor <articleLink>mannelijk en uit de middenklasse</articleLink>. Accenten en dialecten die vaak ondervertegenwoordigd zijn in trainingsgegevenssets worden meestal in verband gebracht met groepen mensen die al gemarginaliseerd zijn. Veel machines hebben ook moeite met het begrijpen van vrouwelijke stemmen.
     Dit is de reden waarom we variatie in onze spraakdatabase willen!
 faq-why-my-lang-q = Waarom zit mijn taal er nog niet bij?
-faq-why-my-lang-new-a = Mozilla verkiest niet de ene taal boven de andere. In plaats daarvan is Common Voice een initiatief dat uitsluitend door de gemeenschap wordt aangestuurd, maar het vergt <multilangLink>diverse stappen om een nieuwe taal toe te voegen</multilangLink> en met het verzamelen van spraakdonaties te beginnen. Allereerst moet de Common Voice-website worden vertaald, zodat gemeenschapsleden in hun eigen taal toegang hebben tot de ervaring van de bijdrager. Vervolgens hebben we een grote verzameling auteursrechtvrije zinnen nodig die mensen kunnen voorlezen. Zodra aan beide vereisten is voldaan, wordt een taal ‘uitgebracht’ op Common Voice, zodat mensen hun stem kunnen opnemen en donaties van anderen kunnen valideren. Als u een nieuwe taal beschikbaar wilt helpen maken, ga dan naar ons <sentenceCollectorLink>hulpmiddel voor zinnenverzameling</sentenceCollectorLink> om te beginnen.
+faq-why-my-lang-a =
+    Common Voice is een crowdsourcingplatform en de talen zijn allemaal toegevoegd door vrijwilligers.
+    We zouden graag zien dat u uw taal toevoegt! <languageRequestLink>Vraag naar het toevoegen van uw taal.</languageRequestLink>
 faq-what-quality-q = Welk geluidskwaliteitsniveau is nodig voor een spraakfragment om in de gegevensset te kunnen worden gebruikt?
 faq-what-quality-a = We willen dat de Common Voice-gegevensset de audiokwaliteit weerspiegelt die een spraak-naar-tekst-engine in het wild zal horen, dus we zijn op zoek naar afwisseling. Naast een gevarieerde sprekersgemeenschap leert een gegevensset met verschillende audiokwaliteiten de spraak-naar-tekst-engine om verschillende levensechte situaties aan te kunnen, van achtergrondgeluid tot autolawaai. Zolang uw spraakopname begrijpelijk is, moet deze goed genoeg zijn voor de gegevensset.
 faq-why-10k-hours-q = Waarom is de doelstelling voor geluidsopnamen 10.000 uur per taal?
@@ -526,12 +527,6 @@ about-dataset-new = Common Voice-gegevensset
 about-dataset-new-text = De Common Voice-gegevensset bevat honderdduizenden spraakfragmenten die ontwikkelaars spraakherkenningshulpmiddelen helpen bouwen.
 about-clip-graveyard = Fragmentenkerkhof
 about-clip-graveyard-text = Het Fragmentenkerkhof bestaat uit stemfragmenten die de Common Voice-gegevensset niet hebben gehaald. Net als de gegevensset kan het Fragmentenkerkhof worden gedownload.
-about-partners = Partners
-about-become-a-partner = Een partner worden
-about-partnership =
-    Common Voice is een samenwerkingsproject en we zijn afhankelijk van onze gemeenschap van partners en medewerkers om de grootste open source gegevensset van stemmen ooit te bouwen.
-    
-    We willen de volgende mensen en organisaties bedanken voor hun hulp bij het project:
 about-get-involved = Meedoen
 about-get-involved-text-2 =
     Wilt u helpen Common Voice nog beter te maken?
@@ -561,9 +556,20 @@ about-playbook-what-is-language-content-3 = Sommige talen hebben een enorme vari
 
 about-playbook-how-add-language = Hoe voeg ik een taal toe?
 about-playbook-how-add-language-content-1 = Controleer eerst of uw taal <languageLink>al bestaat</languageLink>. Als dat niet het geval is, moet u <strong>de website vertalen en zinnen verzamelen</strong>.
-about-playbook-how-add-language-content-2 = <strong>Om de website te vertalen</strong> – zorg dat u <translateVideo>bent ingesteld</translateVideo> op <pontoonLink>Pontoon</pontoonLink>. Pontoon bevat veel talen, maar als de uwe er niet bij zit, kunt u <pontoonRequestLink>deze aanvragen</pontoonRequestLink>. Vraag vervolgens <repoLink>via GitHub</repoLink> om het Common Voice-project beschikbaar te maken voor de taal. Meer info over <localizationFragment>websitevertaling</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Om zinnen te verzamelen</strong> – <scVideo>stel</scVideo> <scLink>Sentence Collector</scLink> in.
-about-playbook-how-add-language-content-4 = U kunt hier <scLinkAdd>kleine aantallen</scLinkAdd> zinnen toevoegen, of u kunt <bulkImportDocsLink>bulkimport</bulkImportDocsLink> doen via een Github-verzoek. Onthoud dat zinnen <licenseLink>CC0 (of publiek domein)</licenseLink> moeten zijn, of u kunt uw eigen zinnen schrijven. Meer info over <scFragment>zinnenverzameling</scFragment>.
+about-playbook-how-add-language-translating-heading = De website vertalen
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Bekijk onze gids voor het gebruik van Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    We gebruiken een Mozilla-tool genaamd <pontoonLink>Pontoon</pontoonLink> voor vertalingen. Pontoon heeft veel talen,
+    maar als het die van u niet heeft, kunt u <pontoonRequestLink>verzoeken om uw taal toe te voegen</pontoonRequestLink>.
+    Om vervolgens de taal beschikbaar te maken voor het Common Voice-project,
+    <githubRepoLink>vraagt u de nieuwe taal op GitHub aan</githubRepoLink>. <localizationFragment>Meer info over websitevertalingen</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Zinnen verzamelen
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Bekijk onze handleiding over het gebruik van de Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    U kunt <sentenceCollectorLinkAdd>kleine aantallen zinnen toevoegen</sentenceCollectorLinkAdd>,
+    of u kunt <bulkImportDocsLink>bulkimport doen met Github</bulkImportDocsLink>.
+    Onthoud dat zinnen <licenseLink>CC0 (of publiek domein)</licenseLink> moeten zijn, of u kunt uw eigen zinnen schrijven.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Meer info over het verzamelen van zinnen</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -627,12 +633,6 @@ about-playbook-how-project-governance-content-4 = Deelname van en besluitvorming
 about-playbook-how-project-governance-content-5 = Waarde en erkenning.
 about-playbook-how-project-governance-content-6 = Wederzijdse verantwoordelijkheid.
 about-playbook-how-project-governance-content-7 = <governanceLink>Meer info over hoe we worden bestuurd</governanceLink>
-mycroft-title = Mycroft AI
-mycroft-subtitle = Kunstmatige intelligentie
-mycroft-description =
-    Mycroft is ’s werelds eerste open source assistent.
-    Mycroft draait overal – op een desktopcomputer, in een auto of op een Raspberry Pi.
-mycroft-secondary-description = Dit is opensourcesoftware die vrij kan worden geremixt, uitgebreid en verbeterd. Mycroft mag worden gebruikt in alles van een wetenschappelijk project tot een zakelijke softwaretoepassing.
 
 ## Glossary
 

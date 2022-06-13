@@ -1206,6 +1206,8 @@ jan suwi mi o tawa lon ni.
 jan suwi mi o, ona li wile e ni.
 jan suwi o kama.
 jan tawa li awen e len ona li wile ala weka e len.
+jan tawa li kama la, jan lawa li ken ala lawa e ona!
+jan tawa li wawa, li kama! jan tawa li kama lon ma!
 jan toki li toki e sona sin pi tenpo suno ni.
 jan tu o musi sin.
 jan unpa kin li jan. lawa ma o awen e ken ona.
@@ -4312,6 +4314,7 @@ ona li kama lon sinpin pi kili palisa laso.
 ona li kama lon tenpo sin.
 ona li kama lon tomo ona lon kasi kiwen suli la, ona li pini taso e tawa.
 ona li kama lukin e jan Ankewi lon awen luka pi jan Kuntuli.
+ona li kama lukin sin lon poka pi kasi suli.
 ona li kama sin lon tomo ilo, taso kalama li lon poka ona a.
 ona li kama sin tawa pali ona.
 ona li kama sona e ni: tenpo li ante tawa jan ale.
@@ -5660,7 +5663,9 @@ soweli Apa li soweli suli li ken tawa lon kon.
 soweli Kilikuntu en soweli ante li jo e soweli ma lili moli.
 soweli Kinkili
 soweli Kinkili en soweli lili ante ale li kama tan ma kasi, li tawa poka telo.
+soweli Kinkili li kalama e kalama sama kon.
 soweli Kinkili li kama lukin lon insa kepeken lupa lili, li open e kalama:
+soweli Kinkili li toki sin.
 soweli Lawako en soweli Sikeko en soweli Monsiko li ken moku e pan.
 soweli Lawako en soweli Sikeko en soweli Monsiko li soweli lili pona.
 soweli Mipe en soweli Walija li tawa nena suli.
@@ -6666,6 +6671,7 @@ wawa la, jan Tu li lukin tawa anpa, li alasa tawa e jan Kuntuli.
 wawa la, jan Tu li tawa jan Kuntuli, li luka sike e ona.
 wawa la, jan Tu li weka e pan tawa anpa.
 wawa la, soweli li nena e jan Ankewi.
+wawa la, tawa en utala li lon. mu wawa li lon kin!
 wawa li kama.
 wawa li lon ale.
 wawa mi li kama lili.

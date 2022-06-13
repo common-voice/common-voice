@@ -56,6 +56,7 @@ da = Dán
 de = Német
 dsb = Szorb, alsó
 dv = Divehi
+dyu = Dioula
 el = Görög
 en = Angol
 eo = Eszperantó
@@ -128,8 +129,10 @@ ne-NP = Nepáli
 nia = Nias
 nl = Holland
 nn-NO = Norvég nynorsk
+nso = Északi szeszotó
 nyn = Nyankole
 oc = Okcitán
+om = Oromo
 or = Orija
 pa-IN = Pandzsábi
 pap-AW = Papiamento (Aruba)
@@ -169,6 +172,7 @@ tk = Türkmén
 tl = Tagalog
 tok = Toki pona
 tr = Török
+ts = Conga
 tt = Tatár
 tw = Twi
 ty = Tahiti
@@ -178,6 +182,7 @@ ug = Ujgur
 uk = Ukrán
 ur = Urdu
 uz = Üzbég
+ve = Venda
 vec = Velencei
 vi = Vietnámi
 vot = Vót
@@ -229,9 +234,9 @@ wall-of-text-second =
     Szerintünk ez elfojtja az innovációt. Ezért létrehoztuk a Common Voice projektet, hogy
     segítsük a hangfelismerési technológiát mindenki számára hozzáférhetővé tenni.
 show-wall-of-text = Bővebben
-help-us-title = Segítsen jóváhagyni a mondatokat.
+help-us-title = Segítsen ellenőrizni a mondatokat.
 help-us-explain = Nyomja meg a lejátszás gombot, hallgassa meg a mondatot és mondja el: helyesen hangzik el az alábbi mondat?
-no-clips-to-validate = Úgy néz ki egyetlen meghallgató klip sincs ezen a nyelven. Segítsen feltölteni a sor azzal, hogy rögzít néhányat.
+no-clips-to-validate = Úgy néz ki egyetlen meghallgatható klip sincs ezen a nyelven. Segítsen feltölteni a sort azáltal, hogy rögzít néhányat.
 vote-yes = Igen
 vote-no = Nem
 toggle-play-tooltip = Nyomja meg az { shortcut-play-toggle } gombot a lejátszási módba váltáshoz
@@ -320,7 +325,6 @@ shortcut-discard-ongoing-recording-label = A folyamatban lévő felvétel elvet�
 shortcut-submit = Enter
 shortcut-submit-label = Klipek beküldése
 request-language-text = Nem látja az anyanyelvét a Common Voice-on?
-request-language-text-learn = Tudja meg, hogyan kérheti itt.
 request-language-button = Nyelv kérése
 
 ## ProjectStatus
@@ -329,8 +333,8 @@ status-title = Projekt összesített állapota: nézze meg hol tartunk.
 status-contribute = Adja a hangját
 status-hours =
     { $hours ->
-        [one] Eddig egy órányi hanganyag lett jóváhagyva.
-       *[other] Eddig { $hours } órányi hanganyag lett jóváhagyva.
+        [one] Eddig egy órányi hanganyag lett ellenőrizve.
+       *[other] Eddig { $hours } órányi hanganyag lett ellenőrizve.
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -457,7 +461,9 @@ faq-why-different-speakers-a =
     A legtöbb beszédadatbázist bizonyos demográfiák felülreprezentálásával tanítják be, amely a <articleLink>férfiak és a középosztály</articleLink> felé torzít. Az alulreprezentált akcentusok és dialektusok jellemzően pont olyan embercsoportokhoz kapcsolódnak, akik eleve marginalizáltak. Számos gép a női hangok megértésével is küszködik.
     Ezért akarunk változatosságot a saját hangadatbázisunkban!
 faq-why-my-lang-q = Az én nyelven miért nem szerepel még?
-faq-why-my-lang-new-a = A Mozilla nem válogat, vagy részesít előnyben nyelveket. Ehelyett a Common Voice teljesen közösség által vezérelt, de <multilangLink>számos lépés szükséges egy új nyelv hozzáadásához</multilangLink>, és a hanghozzájárulások begyűjtésének elkezdéséhez. Először, le kell fordítani a Common Voice weboldalt, hogy a közösség tagjai a saját nyelvükön tapasztalják meg a közreműködés élményét. Aztán egy nagy szerzői joggal nem védett mondatgyűjteményre van szükség, amelyet az emberek fel kell olvassanak. Ha mindkét követelmény teljesül, akkor a nyelv „elindul” a Common Voice-on, így az emberek elkezdhetik rögzíteni a hangjukat, és ellenőrizhetik mások felajánlásait. Ha segítene egy új nyelv elindításában, akkor a kezdéshez ugorjon a <sentenceCollectorLink>mondatgyűjtő eszközhöz</sentenceCollectorLink>.
+faq-why-my-lang-a =
+    A Common Voice egy közösségi munkavégzési platform, és a nyelveket önkéntesek adták hozzá.
+    Szeretnénk, ha hozzáadná az Ön nyelvét. <languageRequestLink>Kérdezzen a nyelv hozzáadásával kapcsolatban.</languageRequestLink>
 faq-what-quality-q = Milyen hangminőségre van szükség ahhoz, hogy a hangklip használható legyen az adatkészletben?
 faq-what-quality-a = Azt szeretnénk, hogy a Common Voice adatkészlet tükrözze valóságban jellemző hangminőséget, amit a beszéd szöveggé alakítási motor hallani fog, ezért változatosságot szeretnénk. A beszélők sokféle közössége, a változó hangminőség megtanítja a beszéd szöveggé alakítási motort a valós helyzetek kezelésére, a háttérzajtól kezdve az autóhangig. Amíg a hangklip érthető, addig elég jó az adatkészlet számára.
 faq-why-10k-hours-q = Miért 10 000 ellenőrzött óra szükséges nyelvenként a hangrögzítésnél?
@@ -524,12 +530,6 @@ about-dataset-new = Common Voice adatkészlet
 about-dataset-new-text = A Common Voice adatkészlet több százezer hangmintát tartalmaz, amelyek segítenek a fejlesztőknek a hangfelismerő eszközök létrehozásában.
 about-clip-graveyard = Kliptemető
 about-clip-graveyard-text = A Kliptemető azokból a hangfájlokból áll, amelyek nem kerültek bele a Common Voice adatkészletve. Csakúgy, mint a rendes adatkészlet, a Kliptemető is letölthető.
-about-partners = Partnerek
-about-become-a-partner = Legyen partnerünk
-about-partnership =
-    A Common Voice egy együttműködésre épülő projekt, és a partnereink és közreműködőink közösségére építve készítjük el a valaha volt legnagyobb nyílt forráskódú hangadatkészletet.
-    
-    A következő emberek és szervezetek segítségét szeretnénk megköszönni:
 about-get-involved = Csatlakozzon
 about-get-involved-text-2 =
     Szeretné még jobbá tenni a Common Voice-ot?
@@ -559,9 +559,17 @@ about-playbook-what-is-language-content-3 = Egyes nyelvek nagyon változatosak n
 
 about-playbook-how-add-language = Hogyan adhatok hozzá egy nyelvet?
 about-playbook-how-add-language-content-1 = Először ellenőrizze, hogy <languageLink>már létezik-e</languageLink>. Ha nem, akkor <strong>le kell fordítania a webhelyet, és össze kell gyűjtenie a mondatokat</strong>.
-about-playbook-how-add-language-content-2 = <strong>A webhely lefordításához</strong> <translateVideo>álltysa be</translateVideo> a <pontoonLink>Pontoonon</pontoonLink>. A Pontoon számos nyelvet tartalmaz, de ha nem rendelkezik az Önével, akkor <pontoonRequestLink>kérheti azt</pontoonRequestLink>. Ezután kérje a <repoLink>GitHubon</repoLink> keresztül, hogy tegyék elérhetővé a Common Voice projektet az adott nyelven. További információk a <localizationFragment>webhely fordításáról itt</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>A mondatok gyűjtését</strong> <scVideo>állítsa be</scVideo> a <scLink>Mondatgyűjtőben</scLink>.
-about-playbook-how-add-language-content-4 = Itt <scLinkAdd>hozzáadhat kis számú</scLinkAdd> mondatot, vagy használhatja a <bulkImportDocsLink>tömeges importálást</bulkImportDocsLink> egy GitHub-kérés segítségével. Ne feledje hogy a mondatoknak <licenseLink>CC0 licencűnek (vagy közkincsnek)</licenseLink> kell lenniük, de írhat sajátokat is. További információkhoz lásd a <scFragment>mondatgyűjtőt</scFragment>.
+about-playbook-how-add-language-translating-heading = Az oldal lefordítása
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Nézze meg útmutatónkat a Pontoon használatáról.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    A fordításhoz a Mozilla <pontoonLink>Pontoon</pontoonLink> nevű eszközét használjuk. A Pontoon sok nyelvet tartalmaz,
+    de ha nem találja a sajátját, akkor <pontoonRequestLink>kérheti a nyelv hozzáadását</pontoonRequestLink>.
+    Ezután, hogy elérhetővé tegye a nyelvet a Common Voice projektben,
+    <githubRepoLink>kérje az új nyelvet a GitHubon</githubRepoLink>. <localizationFragment>További információk a webhely fordításáról</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Mondatok gyűjtése
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Nézze meg útmutatónkat a mondatgyűjtő használatáról</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = <sentenceCollectorLinkAdd>Hozzáadhat néhány mondatot</sentenceCollectorLinkAdd>, vagy használhatja a <bulkImportDocsLink>GitHub tömeges importálását</bulkImportDocsLink>. Ne feledje hogy a mondatoknak <licenseLink>CC0 licencűnek (vagy közkincsnek)</licenseLink> kell lenniük, de írhat sajátokat is.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>További információk a mondatgyűjtésről</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -625,12 +633,6 @@ about-playbook-how-project-governance-content-4 = Közösségi részvétel és d
 about-playbook-how-project-governance-content-5 = Érték és elismerés.
 about-playbook-how-project-governance-content-6 = Kölcsönös elszámoltathatóság.
 about-playbook-how-project-governance-content-7 = <governanceLink>További információk az irányításunkról</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Mesterséges intelligencia
-mycroft-description =
-    A Mycroft a világ első nyílt forráskódú asszisztense.
-    A Mycroft mindenütt fut – asztali számítógépen, egy autóban vagy egy Raspberry Pi-on.
-mycroft-secondary-description = Ez egy nyílt forráskódú szoftver, amely szabadon remixelhető, bővíthető és fejleszthető. A Mycroft bármire használható, egy tudományos projekttől kezdve egy nagyvállalati szoftveralkalmazásig.
 
 ## Glossary
 
@@ -829,7 +831,8 @@ language-search-input =
 language-speakers = Beszélők
 localized = Honosítva
 sentences = Mondatok
-total-hours = Órák összesen
+language-validation-hours = óra
+language-validation-progress = Ellenőrzési folyamat
 
 ## Contribution
 

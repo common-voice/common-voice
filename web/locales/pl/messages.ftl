@@ -56,6 +56,7 @@ da = duński
 de = niemiecki
 dsb = dolnołużycki
 dv = divehi
+dyu = diula
 el = grecki
 en = angielski
 eo = esperanto
@@ -128,8 +129,10 @@ ne-NP = nepalski
 nia = nias
 nl = holenderski
 nn-NO = norweski (nynorsk)
+nso = północny sotho
 nyn = nyankole
 oc = oksytański
+om = oromo
 or = orija
 pa-IN = pendżabski
 pap-AW = papiamento (Aruba)
@@ -155,6 +158,7 @@ sl = słoweński
 so = somalijski
 sq = albański
 sr = serbski
+st = sotho
 sv-SE = szwedzki
 sw = suahili
 syr = syryjski
@@ -168,6 +172,7 @@ tk = turkmeński
 tl = tagalski
 tok = toki pona
 tr = turecki
+ts = tsonga
 tt = tatarski
 tw = twi
 ty = tahitański
@@ -177,6 +182,7 @@ ug = ujgurski
 uk = ukraiński
 ur = urdu
 uz = uzbecki
+ve = venda
 vec = wenecki
 vi = wietnamski
 vot = wotycki
@@ -685,6 +691,9 @@ request-language-success-title = Propozycja języka została pomyślnie przesła
 request-language-success-content = Już niedługo udzielimy więcej informacji o tym, jak dodać swój język do projektu Common Voice.
 select-language = Wybierz język…
 other-language = Inny język
+
+## Request Language Pages
+
 
 ## Languages Overview
 

@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Localized } from '@fluent/react';
 import { useState } from 'react';
 import { TextButton } from '../../ui/ui';
+import PageHeading from '../../ui/page-heading';
 
 import './dataset-intro.css';
 
@@ -10,9 +11,9 @@ const DatasetIntro = () => {
 
   return (
     <div className="dataset-intro">
-      <h1>
+      <PageHeading isLight>
         <Localized id="datasets-heading" />
-      </h1>
+      </PageHeading>
 
       <p className="intro-summary">
         <Localized id="datasets-headline" />

@@ -1,6 +1,5 @@
 import * as React from 'react';
 import cx from 'classnames';
-import Partners from './partners';
 import Nav from './nav';
 import { SECTIONS } from './constants';
 import HowItWorks from './how-it-works';
@@ -55,5 +54,7 @@ const About: React.ComponentType = React.memo(() => {
     </Page>
   );
 });
+
+About.displayName = 'About';
 
 export default About;

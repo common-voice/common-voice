@@ -496,6 +496,7 @@ how-does-it-work-text = Sevel a reomp un teskad roadennoù mouezhioù a-stroll. 
 
 ## How does it work section
 
+about-language-req-subtitle = Unan bennak a c'houlenn e vefe ouzhpennet ur yezh.
 about-sentence-collection-title = Dastumadeg frazennoù
 about-speak = Komz
 about-speak-text = Ar gendaolerien a enroll klipoù mouezh en ul lenn e-touez un hollad a frazennoù roet.
@@ -547,6 +548,7 @@ about-nav-get-involved = Kemer perzh
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Darvoudoù
 
 ## How to validate
 

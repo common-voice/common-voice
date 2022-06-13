@@ -1,0 +1,51 @@
+.Data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2em;
+    grid-row-gap: 1em;
+}
+
+.DataItem {
+    flex-shrink: 0;
+}
+
+.DataItemHeading {
+    margin-bottom: 0.25em;
+    font-size: var(--font-size-sm);
+    font-family: var(--base-font-family);
+    font-weight: 400;
+    color: var(--dark-grey);
+}
+
+.DataItemHeadingIcon {
+    fill: currentcolor;
+    margin-inline-end: 0.35em;
+    width: 1.15em;
+    height: 1.15em;
+}
+
+.DataItemLaunchGoalProgress {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.DataItemLaunchGoalProgressText {
+    font-size: var(--font-size-sm);
+    margin-inline-start: 0.5em;
+}
+
+.DataItemValue {
+    font-size: var(--font-size-lg);
+    line-height: var(--font-size-lg);
+    font-weight: 300;
+
+    small {
+        font-weight: 400;
+        font-size: var(--font-size-sm);
+    }
+
+    &.DataItemValuePassed {
+        color: var(--dark-green);
+    }
+}

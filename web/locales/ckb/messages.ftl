@@ -467,9 +467,14 @@ how-does-it-work-text = ئێمە زانیاریسێتێکی کراوەی دەن�
 
 ## How does it work section
 
+about-language-req-subtitle = کەسێک داوای زیادکردنی زمانێکی کردووە.
 about-localization-title = بە خۆماڵیکردنی ماڵپەڕ
+about-localization-subtitle = دەقی وێبگەکە وەرگێڕدراوە بۆ ئەو زمانە.
 about-sentence-collection-title = کۆکردنەوەی ڕستە
 about-sentence-collection-subtitle = ڕستەکان کۆدەکرێنەوە بۆ ئەوەی خەڵک بە دەنگی بەرز بیخوێننەوە.
+about-new-lang-title = سەرهەڵدانی زمانی نوێ
+about-new-lang-subtitle = ئێمە ماڵپەڕی دەنگی گشتی لەم زمانەدا دەکەینەوە.
+about-voice-contrib-title = بەشداریی دەنگ
 about-voice-validation-subtitle = کەسانی تر ئەو کلیپە دەنگانە پشتڕاست دەکەنەوە.
 about-dataset-release-subtitle = ئێمە هەر ٣ مانگ جارێک داتا سێتەکە بڵاو دەکەینەوە.
 about-subscribe-text = دەتەوێت لە پەیوەندیدا بمێنیتەوە لەگەڵ دەنگی باو؟
@@ -509,31 +514,49 @@ about-nav-playbook = فێربە چۆن بەشداری بکەیت
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = زمانەکان چیین لە دەنگی گشتی دا؟
+about-playbook-what-is-language-content-1 = زۆر ڕێگا هەیە بۆ بیرکردنەوە لە زمان. بۆ مەبەستی ناسینەوەی نموونەکانی دەنگ، دەنگی گشتی پێشنیاری جەخت دەخاتە سەر 'لێک تێگەیشتنی'، یان 'ئایا قسەکەرانی ئەم زمانە زۆربەی جار دەتوانن لێک تێبگەن ئەگەر هەوڵ بدەن؟
 about-playbook-what-is-language-content-2 = ئێمە دەمانەوێت مۆدێلەکانی قسەکردن باشتر بن لە تێگەیشتن لە مەودای جۆراوجۆری قسەکەر. بۆ ئەوەی ئەمە ڕووبدات، کۆمەڵە داتایەکی دەنگ دەبێت نوێنەرایەتی کۆمەڵێک کەسی جیاواز بکات.
 
 ## How do I add a language
 
 about-playbook-how-add-language = چۆن زمانێک زیاد بکەم؟
+about-playbook-how-add-language-content-1 = سەرەتا، بزانە ئاخۆ زمانەکەت <languageLink> بەردەست نییە</languageLink>. ئەگەر نییە ئەوا پێویستە <strong> ماڵپەڕەکە وەرگێڕیت و ڕستەکان کۆبکەیتەوە</strong>.
+about-playbook-how-add-language-content-3 = <strong> بۆ کۆکردنەوەی ڕستەکان </strong> - <scVideo> ڕێکی بخە </scVideo> لەسەر <scLink> ڕستە کۆکەرەوە </scLink>.
 
 ## How does localization work
 
+about-playbook-how-localize-content-1 = وەرگێڕانی دەنگی گشتی ڕوودەدات لە <strong> پۆنتوون </strong>.
+about-playbook-how-localize-content-4 = ماڵپەڕەکە ئامادە دەبێت بۆ کردنەوە کاتێک تەواوبوونی گەیشتە ٧٥٪ .
+about-playbook-how-localize-content-5 = سەیری ڕوونکەرەوە ڤیدیۆییەکەمان بکە بۆ یارمەتی
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = چۆن ڕستەکان زیاد بکەم؟
+about-playbook-how-add-sentences-content-4 = ئەو ڕستانەی ڕاستێنراون ڕۆژانی چوارشەممە ناردە دەکرێن، و پاش دەرچوونی دواتر بەردەست دەبن.
 
 ## How to record quality
 
 about-playbook-how-record-quality = چۆن کلیپێکی دەنگیی کوالێتیی بەرز تۆمار بکەم؟
+about-playbook-how-record-content-1 = بە دەنگی ئاسایی خۆت قسە بکە! ئەو شێوازەی تۆ قسەی پێ دەکەیت لێرە پێشوازیی لێ دەکرێت - شێوەزارەکەی خۆت چۆنە ئاوا دەمانەوێت، هەروەها بەرزونزمی و شێواز و نەوای ئاسایی دەنگتمان دەوێت.
+about-playbook-how-record-content-2 = دوور بکەوەرەوە لە ژاوەژاوی زۆری دەورووبەرت - پێویستە بیستنی قسەکانت ئاسان بێت.
+about-playbook-how-record-content-3 = ڕستەکە بەوریایی بخوێنەوە - هیچ وشەیەک فەرامۆش، یان زیاد مەکە، یاخود مەگۆڕە.
+about-playbook-how-record-content-4 = دڵنیابە لەوەی دوانگەکە دەنگت تۆماردەکات بەرلەوەی دەستبکەیت بە قسەکردن، وە تەنها کاتێک دەوەستێت کە تۆ لە تەواو بووبیت.
 
 ## How to grow language
 
+about-playbook-how-grow-language = چۆن دەتوانین بەکارامەیی گەشە بە زمانێک بدەین لە دەنگی گشتی دا؟
 about-playbook-how-grow-language-content-1 = دروستکردنی دەرفەت بۆ خەڵکێکی جۆراوجۆر بۆ بەشداریکردن لە دەنگی هاوبەش دڵنیای دەدات لەوەی کە کۆمەڵە داتاکە خزمەت بە زۆرترین کەس دەکات. ئێمە سەرچاوە و قاڵبمان دروست کردووە کە دەتوانیت بەکاری بهێنیت!
+about-playbook-how-grow-language-content-2 = بۆنەکان
 about-playbook-how-grow-language-content-4 = میدیای کۆمەڵایەتی
+about-playbook-how-grow-language-content-6 = هاوبەشییەکان و تۆڕەکان
 
 ## How to validate
 
 about-playbook-how-validate = چۆن بزانم کلیپی دەنگی پەسەند بکەم یان نا؟
+about-playbook-how-validate-content-1 = ئەگەر توانیت <strong> گوێت لێیان بێت </strong> و <strong> لێیان تێبگەیت </strong>، ئەوا  <strong> باشترە قبووڵیان بکەیت </strong>.
+about-playbook-how-validate-content-2 = <strong> ئەو بڕگانە ڕەتمەکەرەوە کە تیایدا قسەکەر بە شێوەزارێک قسەدەکات کە جیاوازە لەوەی تۆ </strong> - ئەمە گرنگە بۆ ناسەرەوەی دەنگ تاکو باشتر کاربکات بۆ هەموان.
+about-playbook-how-validate-content-4 = ئەگەر بڕگەیەک لەلایەن ٢ کەسەوە ڕەتبکرێتەوە، ئەوا لە ژێرکۆمەڵەیەکی جیاوازی بنکەدراوەکەدا بڵاو دەکرێتەوە.
 
 ## How to access dataset
 
@@ -542,6 +565,8 @@ about-playbook-how-access-dataset = چۆن دەستم بگات بە داتا س�
 ## How are decisions made
 
 about-playbook-how-project-governance = بڕیارەکانی پرۆژەکە چۆن دەرکراون؟
+about-playbook-how-project-governance-content-2 = حکومەتەکەمان دامەزراوە لەسەر بنەمای:
+about-playbook-how-project-governance-content-3 = تایبەتێتی، پارێزەری و ڕوونی
 about-playbook-how-project-governance-content-6 = لێپرسینەوەی یەکتر.
 mycroft-title = Mycroft Ai
 mycroft-subtitle = ژیریی دەستکرد
@@ -679,6 +704,21 @@ other-language = زمانی تر
 
 ## Request Language Pages
 
+request-language-heading = پرسیاربکە دەربارەی زمانێکی نوێ
+request-language-form-email =
+    .label = ناونیشانی ئیمەیڵەکەت
+request-language-form-info =
+    .label = زانیاریی دەربارەی زمانەکە
+request-language-form-info-explanation = هێندەی دەتوانیت زانیاریی زیادبکە دەربارەی زمانەکە. ئەوەش دەکرێت ئەم شتانە بگرێتەخۆی:
+request-language-form-info-explanation-list-1 = ناوی زمانەکەت
+request-language-form-info-explanation-list-3 = بەستەری ئەو وێبگانەی کە دەکرێت یارمەتیمان بدات لە زمانەکەت تێبگەین
+request-language-google-recaptcha-required = reCAPTCHA داواکراوە، ئەگەر بەردەوامبوونت دەوێت
+request-language-google-recaptcha-error = هەڵەیەک ڕوویدا لە reCAPTCHA. تکایە هەوڵ بدەرەوە.
+# Success page
+request-language-success-heading = سوپاس! پرسینی زمانێکی نوێت نارد
+request-language-success-list-1 = دەبێت بەزوویی ئیمەیڵێکت بەدەست بگات، ئەو هەنگاوانە ڕووندەکاتەوە کە زمانەکەتی پێ زیاددەکرێت بۆ دەنگی گشتی
+request-language-success-list-3 = ئەگەر لە یەک دوو ڕۆژدا هیچت لە ئێمەوە نەبیست، پەیوەندیمان پێوەبکە لە <emailLink>{ $email }</emailLink> و دەگەڕێینەوە لات!
+request-language-error = لەوانەیە ئەو داواکارییەمان پێ نەگەیشتبێت. تکایە ڕاستەوخۆ ئیمەیڵمان بۆ بنێرە لە <emailLink>{ $email }</emailLink> و دەگەڕێینەوە لات!
 
 ## Languages Overview
 
@@ -749,6 +789,7 @@ listen-again-instruction = بژی! <playIcon></playIcon> هەر کاتێک ئا�
 listen-3rd-time-instruction = ٢ دانە ماوە، بەردەوام بە! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>دواهەمین دانە
 listen-empty-state = ئێستا کلیپی دیکەمان بۆ ئەم زمانە نییە بۆ سەلماندن
+listen-loading-error = نەمانتوانی هیچ بڕگەیەکی دەنگت بۆ پەیدا بکەین تا گوێی لێ بگریت. تکایە دواتر هەوڵ بدەرەوە.
 speak-empty-state = ئێستا رەستەی دیکەی ئەم زمانەمان نییە بۆ تۆمارکردن...
 speak-empty-state-cta = بەخشینی ڕستە
 record-button-label = دەنگت تۆمار بکە
@@ -914,6 +955,8 @@ download-info = پێمان بڵێ حەزدەکەی چی دابگریت:
 download-profile-title = پەڕەی کەسی
 download-profile-size = چەند بایتێک
 download-recordings-title = تۆمارەکان
+download-recordings-info = ئێم‌پی‌سرییەکان و ڕستە پەیوەندیدارەکان، لەوانەیە هەندێ کاتیان بووێت بۆ ئامادەبوون.
+download-recordings-unavailable = ناتوانیت داوای تۆمارێک بکەیت لەکاتێکدا داوایەکی تر لە چوونەپێشدایە.
 download-recently-requested = دەتوانی جارێکی تر داوای تۆمارەکانت بکەیت هەموو { $days } ڕۆژ جارێک.
 download-size = ئەندازە
 download-selected = هەڵبژێردراو
@@ -922,8 +965,11 @@ download-request = داوای تۆمارەکانت بکە
 download-requests = داواکاری پێشوو بۆ تۆمارەکانت
 download-request-button = داگرتن
 download-request-title = { $created }
+download-request-archive-single = تاکە فایلی پەستێنراوی لەخۆگرتووە
+download-request-assembling-description = فایلەکانت تێهەڵکێش بوون. تکایە دواتر بیپشکنەوە.
 download-request-refresh-button = نوێکردنەوە
 download-request-modal-title = بەستەری داگرتن
+download-request-modal-description = ئەمە بەستەرەکانی داگرتنی فایلە پەستێنراوەکانتە.
 download-request-metadata-link = دەقی ڕستە
 
 ## Landing
@@ -976,13 +1022,30 @@ contribution-criteria-nav = پێوەر
 contribution-criteria-link = لە پێوەری بەشداریکردن تێبگە
 contribution-criteria-page-title = چوارچێوەی بەشداری
 contribution-for-example = بۆ نموونە
+contribution-misreadings-title = خراپ خوێندنەوەکان
+contribution-misreadings-description-extended-list-1 = ونبوونی <strong>'ئەی' </strong> یان <strong> 'کە'</strong> لە سەرەتای تۆمارکردندا.
+contribution-misreadings-description-extended-list-2 = ونبوونی <strong>ی</strong> لە کۆتایی وشەدا.
+contribution-misreadings-description-extended-list-5 = دانی چەند هەوڵێک بۆ خوێندنەوەی وشەیەک.
+contribution-misreadings-example-3-explanation = [تۆمارکردنەکە پچڕا بەرلە کۆتایی دوایین وشە]
+contribution-misreadings-example-4-explanation = [زیاتر تۆمارکراوە وەک لە دەقی پێویست]
+contribution-misreadings-example-5-title = ئێمە دەچینە دەرەوە بۆ خواردنەوەی قاوە.
+contribution-misreadings-example-6-title = ئێمە دەچینە دەرەوە بۆ خواردنەوەی قاوە.
+contribution-misreadings-example-6-explanation = [پێویستە "ئێمە" بێت]
+contribution-misreadings-example-7-title = ئێمە دەچینە دەرەوە بۆ خواردنەوەی قاوە.
+contribution-misreadings-example-7-explanation = [لە دەقی بنەڕەتدا 'ئەی' تێدا نییە]
+contribution-misreadings-example-8-explanation = [ناوەرۆکی ناهاوتا]
+contribution-varying-pronunciations-title = دەربڕینی گۆڕاو
 contribution-varying-pronunciations-description = وریابە پێش ئەوەی کلیپێک ڕەت بکەیتەوە بەو پاساوەی کە خوێنەر وشەیەکی بە هەڵە گوتووە، سترێسەکەی لە شوێنێکی هەڵەدا داناوە، یان بە ڕواڵەت نیشانەیەکی پرسیاری پشتگوێ خستووە. لە سەرانسەری جیهاندا جۆرەها بێژەکردن بەکاردەهێنرێت، کە ڕەنگە هەندێکیان لە کۆمەڵگەی ناوخۆیی خۆتدا نەتبیستبێت. تکایە پەراوێزێکی پێزانین بۆ ئەو کەسانە دابنێن کە ڕەنگە جیاواز لە تۆ قسە بکەن.
 contribution-varying-pronunciations-description-extended = لە لایەکی دیکەوە ئەگەر پێت وایە ڕەنگە خوێنەر پێشتر هەرگیز تووشی وشەکە نەبووبێت، و تەنیا پێشبینییەکی هەڵە لە بێژەکردنەکەی دەکات، تکایە ڕەتی بکەرەوە. ئەگەر دڵنیا نیت، دوگمەی skip بەکاربهێنە.
+contribution-varying-pronunciations-example-1-title = بێرییەکی کردووەتە سەری.
 contribution-varying-pronunciations-example-2-title = دەستی بەرزکردەوە
 contribution-background-noise-title = ژاوەژاوی پشتەوە
 contribution-background-noise-description = ئێمە دەمانەوێت ئەلگۆریتمەکانی فێربوونی ئامێر بتوانن مامەڵە لەگەڵ ژاوەژاوی جۆراوجۆری پاشبنەمادا بکەن، تەنانەت دەتوانرێت دەنگە تاڕادەیەک بەرزەکان قبوڵ بکرێت بە مەرجێک ڕێگریت لێ نەکات لە بیستنی تەواوی دەقەکە. مۆسیقای پاشبنەمای بێدەنگ باشە؛ مۆسیقایەک بە دەنگێکی بەرزەوە کە ڕێگریت لێبکات لە بیستنی هەر وشەیەک و هەموو وشەیەک نییە.
+contribution-background-noise-example-2-explanation = [بەشێکی دەقەکە دەتوانرێت ببیسترێت]
 contribution-background-voices-title = دەنگی پشتەوە
+contribution-background-voices-example-1-explanation = ئایا تۆ دێیت؟ <strong> [کەسێکی تر بانگی کرد]</strong>
 contribution-volume-title = پلەی دەنگ
+contribution-reader-effects-title = کاریگەرییەکانی خوێنەر
 contribution-reader-effects-description = زۆربەی تۆمارەکان ئەو کەسانەن کە بە دەنگی سروشتی خۆیان قسە دەکەن. دەتوانیت ئەو تۆمارە ناستانداردی ناوبەناو پەسەند بکەیت کە هاوار دەکرێت، چرپە دەکرێت، یان بە ئاشکرا بە دەنگێکی ‘دراماتیک’ پێشکەش دەکرێت. تکایە تۆمارە گۆرانییەکان و ئەوانەی دەنگێکی دروستکراوی کۆمپیوتەر بەکاردەهێنن ڕەت بکەرەوە.
 contribution-just-unsure-title = دڵنیا نیت؟
 see-more = <chevron></chevron>زیاتر ببینە
@@ -1031,6 +1094,8 @@ sc-howto-title = چۆن دەکرێت
 sc-howto-addlang-title = زمان زیاد بکە بۆ ئەوەی کاری تێدابکرێت
 sc-howto-addlang-text = هەر کاتێک چوویتەژوورەوە دەتوانیت زمانێک هەڵبژێریت لە بەشی پەڕەی کەسی.
 sc-howto-addsen-title = ڕستەی نوێ زیادبکە
+sc-howto-cite-title = چۆنێتی دانانی سەرچاوە
+sc-howto-cite-item-1 = تۆ دەتوانیت وێبگەکەی تێدا دابنێیت، بۆ نموونە، "دەنگی گشتی - https://commonvoice.mozilla.org/https://commonvoice.mozilla.org/"
 sc-howto-review-title = پێداچوونەوەی ڕستە
 sc-howto-review-subtitle = دڵنیابە کە ڕستەکان لەگەڵ ئەم پێوەرانەدا دەگونجیت:
 sc-howto-review-criteria-1 = دەبێت ڕستەکە بە شێوەیەکی ڕاست نووسرابێت.
@@ -1104,17 +1169,19 @@ sc-add-lang-could-not-add = نەتوانرا زمان زیادبکرێت
 sc-add-lang-sec-label = ئەو زمانە هەڵبژێرە کە دەتەوێت بەشداری تێدا بکەیت
 sc-add-lang-sec-button = زمان زیاد بکە
 sc-add-err-unexpected = وەڵامێکی چاوەڕواننەکراو لە ڕاژەوە
+sc-add-err-submission = هەڵەی پشتڕاستکردنەوە
 sc-add-lang-process-notice = ئەگەر زمەنکەت زیاد نەکراوە لێرە، دەتوانیت داوای بکەیت لەم <languageProcessLink>ڕێگەییەوە</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-are-you-sure =
     .message = ڕستەکان هێشتا نەنێردراون، تۆ دڵنیایت کە دەتەویت بە جێیان بهێڵیت؟
-sc-confirm-button-text = دڵنیابوونەوە
+sc-confirm-sentences-title = ڕستەی نوێ پشتڕاست بکەرەوە
+sc-confirm-button-text = پشتڕاستکردنەوە
 
 ## LANGUAGE INFO
 
-sc-lang-info-title-total = کۆی گشتی
+sc-lang-info-title-total = تێکڕا
 sc-lang-info-title-personal = شەخسی
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
@@ -1155,11 +1222,14 @@ sc-criteria-item-1 = دەبێت ڕستەکە بە شێوەیەکی ڕاست نو
 sc-criteria-item-2 = دەبێت ڕستەکە بەشێوەیەکی ڕێزمانی ڕاست نووسرابێت.
 sc-criteria-item-3 = دەبێت ڕستەکە بوترێت.
 sc-criteria-item-4 = ئەگەر ڕستەکە لەگەڵ پێوەرەکاندا گونجا، کرتە بکە لە دوگمەی &quot; پەسەندکردن&quot; لە لای ڕاستەوە.
+sc-criteria-item-6 = ئەگەر ڕستەت لێ بڕا بۆ پێداچوونەوە، تکایە یارمەتیمان بدە ڕستەی زیاتر کۆبکەینەوە!
 
 ## REVIEW
 
+sc-review-lang-not-selected = تۆ هیچ زمانێكت دەستنیشان نەکردووە. تکایە بڕۆ بۆ <profileLink>پڕۆفایلکەکەت </profileLink> بۆ دەستنیشانکردنی زمانەکان.
 sc-review-title = پێداچوونەوەی ڕستە
 sc-review-loading = بارکردنی ڕستەکان...
+sc-review-select-language = تکایە زمانێک هەڵبژێرە بۆ پێداچوونەوەی ڕستەکان.
 sc-review-no-sentences = ڕستە نیە بۆ پێداچوونەوە. <addLink>ڕستەی تر زیاد بکە</addLink>
 sc-review-form-prompt =
     .message = ئەو ڕستانەی پێداچوونەوەت بۆ کردووە نە نێردراوە، تۆ دڵنیایت؟
@@ -1185,17 +1255,23 @@ sc-review-form-reviewed-message =
         [one] 1 ڕستە پێداچوونەوەی بۆ کراوە. سوپاس!
        *[other] { $sentences } ڕستە پێداچوونەوەی بۆ کرا. سوپاس!
     }
+sc-review-form-review-failure = ناتوانرێت پێداچوونەوەکە پاشەکەوت بکرێت. تکایە دواتر هەوڵ بدەرەوە.
 sc-review-link = پێداچوونەوە
 
 ## SETTINGS
 
 sc-settings-title = ڕێکخستنەکان
 sc-settings-ui-language = زمانی ڕووکاری پیشاندان
+sc-settings-reset-skipped = ڕستە تێپەڕێنراوەکان ڕێکبخەرەوە
 sc-settings-show-all-button = هەموو ڕستە تێپەڕێنراوەکان پیشان بدە دووبارە
 sc-settings-failed = نەتوانرا ڕێکخستنەکان بگۆڕدرێت. تکایە هەوڵ بدەرەوە.
 # VALIDATION
 sc-validation-number-of-words = ڕستە دەبێت لە نێوان ١ بۆ ١٤ وشەی (بە یەکەوە) لەخۆ بگرێت
 sc-validation-no-numbers = ڕستە نابێت ژمارەی تێدابێت
+sc-validation-no-symbols = ڕستە نابێت هێمای تێدا بێت
+sc-validation-no-abbreviations = ڕستە نابێت کورتکراوەی تێدا بێت
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = زمان/ناوچەکردن هەڵبژێرە

@@ -3,6 +3,8 @@ import * as Modal from 'react-modal';
 import { Button } from '../ui/ui';
 import { CloseIcon } from '../ui/icons';
 
+import './modal.css';
+
 interface ButtonConfig {
   [name: string]: () => any;
 }
