@@ -38,7 +38,7 @@ interface State {
 
 class GetInvolvedModal extends React.Component<Props, State> {
   state: State = {
-    email: this.props.user.email,
+    email: this.props.user.email || '',
     isSubmitted: false,
     sendEmails: this.props.user.sendEmails,
   };
