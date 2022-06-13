@@ -155,8 +155,6 @@ export async function importLocales() {
 
     await Promise.all(
       locales.map(async lang => {
-        console.log(lang.code);
-
         if (allLanguages[lang.code]) {
           // this language exists in db, just update
           return await db.query(
