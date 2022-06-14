@@ -234,6 +234,8 @@ export default class Model {
     async (): Promise<LanguageStats> => {
       const allLanguages = await this.getLanguages();
 
+      const everyLanguage = allLanguages.map(language => language.name);
+
       const contributableLocales = allLanguages
         .filter(language => language.is_contributable)
         .map(language => language.name);
@@ -290,7 +292,7 @@ export default class Model {
       ] = await Promise.all([
         fetchLocalizedPercentagesByLocale(),
         this.db
-          .getSentenceCountByLocale(inProgressLocales)
+          .getSentenceCountByLocale(everyLanguage)
           .then(indexSentenceCountByLocale),
         this.db
           .getValidClipCount(contributableLocales)
