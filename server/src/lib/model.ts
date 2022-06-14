@@ -230,7 +230,7 @@ export default class Model {
   );
 
   getLanguageStats = lazyCache(
-    'get-all-language-stats',
+    'get-language-stats-for-all-languages',
     async (): Promise<LanguageStats> => {
       const allLanguages = await this.getLanguages();
 
@@ -307,7 +307,6 @@ export default class Model {
         if (!count || count === 0) {
           return 0;
         }
-
         return Math.ceil(
           (count * getAverageSecondsPerClip(locale)) / HOUR_IN_SECONDS
         );
