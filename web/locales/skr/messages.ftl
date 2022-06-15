@@ -329,7 +329,6 @@ shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ کو ں م�
 shortcut-submit = واپس ون٘ڄو
 shortcut-submit-label = کلپ جمع کرواؤ
 request-language-text = اڄݨ تائیں کامن وائس تے آپݨی زبان نہوے ݙیہدے پئے؟
-request-language-text-learn = اتھاں درخواست ݙیوݨ دا ݙا سکھو!
 request-language-button = زبان دی ارداس کرو
 
 ## ProjectStatus
@@ -502,12 +501,6 @@ about-dataset-new = Common Voice ڈیٹاسیٹ
 about-dataset-new-text = کامن وائس ڈیٹاسیٹ وچ لکھاں  آواز دے نمونے ہن جہڑے ڈِویلپراں کوں آواز سُن٘ڄاݨُو آوزار بݨاوݨ کیتے مدد ݙیندے ہن۔
 about-clip-graveyard = کلپ غستان
 about-clip-graveyard-text = کلپ غستان اینجھے صوتی کلپاں تے مشتمل ہےجہڑے کامن وائس ڈیٹاسیٹ وچ جاء کائنی بݨا سڳے۔ ڈیٹاسیٹ کلی کلپ غستان ڈاؤن لوڈ کیتے دستیاب ہے۔
-about-partners = بھائیوال
-about-become-a-partner = بھائیوال بݨو
-about-partnership =
-    کامن وائس ہک باہمی تعاون دا منصوبہ ہے۔ اساں آوازاں دا سب کنوں وݙا کھلا ماخذ ڈیٹاسیٹ اسارݨ کیتے  آپݨے بھائیوالاں تے ونگارواں دی برادری تے انحصار کریندے ہیں۔
-    
-    اساں ایں منصوبے وچ مدد کیتے ہیٹھاں درج لوکاں تے تنظیماں دے تھورائت ہیں:
 about-get-involved = نال رلت کرو
 about-stay-in-touch = میں رابطے وچ کین٘ویں ریہ سڳداں؟
 about-stay-in-touch-button = سائن اپ
@@ -526,7 +519,9 @@ about-playbook-what-is-language = کامن وائس تے کہڑی زبان ہے�
 ## How do I add a language
 
 about-playbook-how-add-language = میں زبان کین٘ویں شامل کرینداں؟
-about-playbook-how-add-language-content-3 = <strong>جملے کٹھے کرݨ کیتے</strong> ۔<scLink>جملے کٹھے کرݨ آلا</scLink> تے <scVideo>قائم کرو</scVideo>۔
+about-playbook-how-add-language-translating-heading = سائٹ دا ترجمہ کرݨ
+about-playbook-how-add-language-collecting-sentences-heading = جملے کٹھے کرݨ
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>جملے کٹھے کرݨ تے ٻیا ݙیکھو</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -575,11 +570,6 @@ about-playbook-how-project-governance-content-4 = برادری دی شرکت ت�
 about-playbook-how-project-governance-content-5 = قدر تے سُن٘ڄاݨ
 about-playbook-how-project-governance-content-6 = باہمی احتساب
 about-playbook-how-project-governance-content-7 = <governanceLink>اساں حکمومت کین٘ویں کریندیسے، ایں بارے ٻیا پڑھو </governanceLink>
-mycroft-title = مائی کرافٹ آئی
-mycroft-subtitle = مصنوعی ذہانت
-mycroft-description =
-    مائیکروسافٹ دنیا دا پہلا کھلا ماخذ معاون ہے۔ 
-    مائیکروسافٹ ہر جاء تے چلدے۔ ڈیسک ٹاپ کمپیوٹر تے، آٹوموبائل وچ، یا رسبیری پائی تے وی۔
 
 ## Glossary
 
@@ -741,7 +731,8 @@ language-search-input =
 language-speakers = ٻولݨ آلے
 localized = مقامی تھئے ہوئے
 sentences = جملے
-total-hours = کل گھنٹے
+language-validation-hours = گھنٹے
+language-validation-progress = تصدیق دی پیش رفت
 
 ## Contribution
 

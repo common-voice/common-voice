@@ -3,18 +3,21 @@
 yes-receive-emails = 好，寄電郵畀我。我想繼續收到同 Common Voice 計劃有關嘅資訊。
 stayintouch = 喺 Mozilla 呢度，我哋建立緊一個同語音技術相關嘅社群。我哋想同你保持聯繫，提供最新嘅消息同資料來源，亦都想瞭解你會點樣使用呢啲資料。
 privacy-info = 我哋保證會小心處理你嘅資訊。如果要瞭解更多，請閲讀我哋嘅<privacyLink>私隱權公告</privacyLink>。
-return-to-cv = 返回 Common Voice
+return-to-cv = 翻去 Common Voice
 email-input =
     .label = 電郵
 submit-form-action = 提交
-loading = 載入中…
+loading = 載入緊…
 email-opt-in-info = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
 email-opt-in-info-title = 加入 Common Voice 郵件群組
 email-opt-in-info-sub-with-challenge = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
 email-opt-in-privacy-v2 = 假如同意接收郵件，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方式處理呢啲些資訊。
 indicates-required = * 表示必填欄位
-not-available-abbreviation = 不適用
+not-available-abbreviation = 唔適用
+banner-error-slow-1 = 唔好意思，Common Voice 運作得比較慢。多謝你嘅關注。
+banner-error-slow-2 = 我哋收到好多網絡流量，而家調查緊呢啲問題。
 banner-error-slow-link = 狀態版面
+error-something-went-wrong = 唔好意思，有啲嘢出錯咗
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -116,6 +119,7 @@ ms = 馬來文
 mt = 馬爾他文
 my = 緬甸文
 myv = 厄爾茲亞文
+nan-tw = 台語（閩南話）
 nb-NO = 挪威文（書面語）
 ne-NP = 尼泊爾文
 nia = 尼亞斯文
@@ -298,7 +302,6 @@ shortcut-discard-ongoing-recording-label = 捨棄目前嘅錄音
 shortcut-submit = 返回
 shortcut-submit-label = 提交錄音
 request-language-text = 喺 Common Voice 入邊搵唔到您的語言？
-request-language-text-learn = 喺呢度瞭解點樣申請增加語言！
 request-language-button = 申請增加一種語言
 
 ## ProjectStatus
@@ -324,8 +327,14 @@ profile-form-additional-language =
     .label = 其他語言
 profile-form-language =
     .label = 語言
+profile-form-variant =
+    .label = 你講嘅係{ $language }嘅邊一種變體?
+profile-form-variant-default-value = 冇揀到任何語言變體
 profile-form-accent =
     .label = 口音
+profile-form-custom-accent-help-text =
+    .label = 你會點樣形容你嘅口音？
+profile-form-custom-accent-placeholder-2 = 開始打字來形容你嘅口音
 profile-form-age =
     .label = 年齡
 profile-form-gender-2 =
@@ -336,6 +345,7 @@ hidden = 隱藏
 visible = 公開
 native-language =
     .label = 母語
+profile-form-add-accent = 加入新嘅自訂口音「{ $inputValue }」
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
 male = 男性
@@ -369,6 +379,7 @@ skip-submission-description = 在貢獻時，點擊「提交」會略過提供�
 skip-submission-note = 註: 您仍須要選擇「聽」或「講」來切換貢獻類型。
 off = 關
 on = 開
+help-accent-explanation = 你嘅口音即係你講嘢嘅方式。呢樣嘢可以由你住過嘅地方、你講嘅其他語言、同埋好多其他因素所形成㗎。你可以喺呢度分享任何你覺得相關嘅資訊。
 
 ## Profile - Email
 
@@ -379,6 +390,7 @@ gravatar_not_found = 找不到您電郵所屬的 Gravatar
 file_too_large = 選擇的檔案太大
 avatar-uploaded = 頭像上載咗啦
 max-file-size = { $kb }kb 上限
+remove-avatar = 刪除你嘅頭像
 
 ## Profile - Email
 
@@ -418,7 +430,6 @@ faq-why-different-speakers-a =
     大多數的語音數據庫的語音來源偏重於某群特定人口，造成結果偏向於<articleLink>男性與中產階級</articleLink>。而在這些訓練機械的數據之中，各種不同的口音與方言與被邊緣化的人群常有所關連。許多機器也很難理解女性的聲音。
     這就是為什麼我們的語音數據庫應該海納百川，收集各種聲音！
 faq-why-my-lang-q = 點解仲未有我嘅語言？
-faq-why-my-lang-new-a = Mozilla 不特別偏好哪種語言。相反而然 Common Voice 是一個純社群發起的計劃，需要<multilangLink>幾個步驟才能新增語言</multilangLink>並開始收集語音片段。首先，需要完成翻譯 Common Voice 網站，這樣社群成員才能用自己的語言進行貢獻。次之，我們需要大量的無版權語句，讓人們可以大聲說出來。當兩個條件都滿足後 Common Voice 即可「上線」，讓人們開始錄音，並驗證其他人所錄下的片段。若您想要協助準備讓新語言上限，歡迎到<sentenceCollectorLink>語句收集工具</sentenceCollectorLink>開始幫忙。
 faq-what-quality-q = 錄音品質要到甚麼等級，才能用於數據集中？
 faq-what-quality-a = 我們希望 Common Voice 數據集能夠反映出語音轉文字引擎在野外也會聽到的聲音，所以我們希望能夠收集各種環境下與不同錄音品質的片段。除了一個多元的說話者群體，如果這個數據集包含了各種語音品質的片段，便可讓語音轉文字引擎處理各種現實環境下的狀況，例如背景中有人在講話，或是有車輛的噪音。只要您的片段能讓人足夠聽得懂，即可收錄至數據集中。
 faq-why-10k-hours-q = 為什麼每種語言都有一萬小時的錄音驗證目標？
@@ -471,12 +482,6 @@ about-dataset-new = Common Voice 數據集
 about-dataset-new-text = Common Voice 數據集包含數十萬條語音樣本，可以幫助開發語音識別工具。
 about-clip-graveyard = 片段回收桶
 about-clip-graveyard-text = 回收桶中包含無法進入 Common Voice 數據集的語音片段。與數據集一樣，回收桶的內容也可被下載。
-about-partners = 合作夥伴
-about-become-a-partner = 成為合作夥伴
-about-partnership =
-    Common Voice 是一套由眾人合力而成的計劃。我們依賴由夥伴與貢獻者所組成的社群，來打造有史以來最大的開放原碼語音數據集。
-    
-    特別感謝下列人員與組織單位對本計劃的幫助：
 about-get-involved = 參與我們
 about-get-involved-text-2 =
     想幫手令 Common Voice 計劃變得更好？
@@ -489,19 +494,28 @@ about-nav-how-it-works = 點做？
 about-nav-partners = 合作夥伴
 about-nav-get-involved = 參與我們
 about-nav-how-it-works-2 = Common Voice 喺點運作？
+about-nav-playbook = 了解點樣成爲我哋一份子
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language-content-1 = 對語言嘅睇法有好多種。以語音識別模型嘅用途嚟講，Common Voice 建議集中喺「容易互相理解」或者「如果呢種語言嘅講者想互相理解，佢哋做唔做得到？」
 
 ## How do I add a language
 
+about-playbook-how-add-language = 我點樣新增一種語言？
+about-playbook-how-add-language-content-1 =
+    首先，查一查你嘅語言<languageLink>係咪已經存在</languageLink>。
+    如果唔係，你可以<languageRequestLink>要求新增你嘅語言</languageRequestLink>。
+    之後有兩個步驟：翻譯網站、同埋收集句子。
 
 ## How does localization work
 
+about-playbook-how-localize = 網站本地化點樣做㗎？
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = 我可以點樣新增句子？
 
 ## How to record quality
 
@@ -518,10 +532,6 @@ about-playbook-how-grow-language-content-4 = 社交媒體
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = 人工智能
-mycroft-description = Mycroft 是全球第一套的開放原始碼的語音助理，無論在電腦、汽車、Raspberry Pi 或任何地方都能運作。
-mycroft-secondary-description = 這是一套可以自由混搭、延伸、改進的開放原始碼軟件。Mycroft 可以用於各種情境，例如科學專案、企業應用程式等。
 
 ## Glossary
 
@@ -682,7 +692,6 @@ language-search-input =
 language-speakers = 錄音人數
 localized = 本地化進度
 sentences = 句子
-total-hours = 已驗證鐘數
 
 ## Contribution
 

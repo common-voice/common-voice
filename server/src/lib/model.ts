@@ -230,9 +230,11 @@ export default class Model {
   );
 
   getLanguageStats = lazyCache(
-    'get-all-language-stats',
+    'get-language-stats-for-all-languages',
     async (): Promise<LanguageStats> => {
       const allLanguages = await this.getLanguages();
+
+      const everyLanguage = allLanguages.map(language => language.name);
 
       const contributableLocales = allLanguages
         .filter(language => language.is_contributable)
@@ -290,7 +292,7 @@ export default class Model {
       ] = await Promise.all([
         fetchLocalizedPercentagesByLocale(),
         this.db
-          .getSentenceCountByLocale(inProgressLocales)
+          .getSentenceCountByLocale(everyLanguage)
           .then(indexSentenceCountByLocale),
         this.db
           .getValidClipCount(contributableLocales)
@@ -305,7 +307,6 @@ export default class Model {
         if (!count || count === 0) {
           return 0;
         }
-
         return Math.ceil(
           (count * getAverageSecondsPerClip(locale)) / HOUR_IN_SECONDS
         );

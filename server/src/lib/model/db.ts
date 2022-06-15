@@ -231,10 +231,10 @@ export default class DB {
     return (
       await this.mysql.query(
         `
-        SELECT locales.name AS locale, COUNT(DISTINCT clips.client_id) AS count
+        SELECT locales.name AS locale, COUNT(1) AS count
         FROM clips
         LEFT JOIN locales ON clips.locale_id = locales.id
-        WHERE locales.name IN (?) AND created_at >= CURDATE() AND created_at < CURDATE() + INTERVAL 1 DAY
+        WHERE locales.name IN (?) AND created_at>= NOW()-INTERVAL 1 DAY
         GROUP BY locale
       `,
         [locales]

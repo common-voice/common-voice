@@ -832,7 +832,8 @@ language-search-input =
 language-speakers = Sprekers
 localized = Vertaald
 sentences = Zinnen
-total-hours = Uren totaal
+language-validation-hours = Uren
+language-validation-progress = Validatievoortgang
 
 ## Contribution
 

@@ -837,7 +837,8 @@ language-search-input =
 language-speakers = Talas av
 localized = Översatt
 sentences = Meningar
-total-hours = Validerade timmar
+language-validation-hours = Timmar
+language-validation-progress = Valideringsförlopp
 
 ## Contribution
 
