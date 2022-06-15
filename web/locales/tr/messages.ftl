@@ -125,12 +125,16 @@ my = Birmanca
 myv = Erzyanca
 nan-tw = Tayvanca (Minnan)
 nb-NO = Norveç Bokmål
+nd = IsiNdebele (Kuzey)
 ne-NP = Nepalce
 nia = Nias
 nl = Felemenkçe
 nn-NO = Norveççe (Nynorsk)
+nr = IsiNdebele (Güney)
+nso = Kuzey Sotho
 nyn = Nyankole
 oc = Oksitanca
+om = Oromca
 or = Odia
 pa-IN = Pencapça
 pap-AW = Papiamento (Aruba)
@@ -156,6 +160,8 @@ sl = Slovakça
 so = Somalice
 sq = Arnavutça
 sr = Sırpça
+ss = Siswati
+st = Güney Sotho
 sv-SE = İsveççe
 sw = Svahili
 syr = Süryanice
@@ -167,8 +173,10 @@ ti = Tigrinya dili
 tig = Tigre
 tk = Türkmence
 tl = Tagalog
+tn = Tsvana
 tok = Toki Pona
 tr = Türkçe
+ts = Tsongaca
 tt = Tatarca
 tw = Twi
 ty = Tahitice
@@ -178,15 +186,18 @@ ug = Uygurca
 uk = Ukraynaca
 ur = Urduca
 uz = Özbekçe
+ve = Venda
 vec = Venedikçe
 vi = Vietnamca
 vot = Votic
+xh = Xhosa
 yi = Yidiş
 yo = Yoruba
 yue = Kantonca
 zh-CN = Çince (Çin)
 zh-HK = Çince (Hong Kong)
 zh-TW = Çince (Tayvan)
+zu = Zulu
 
 # [/]
 
@@ -558,6 +569,8 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>GitHub'da yeni dili isteyin</githubRepoLink>. <localizationFragment>Site çevirisi hakkında daha fazlasını görün</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Cümle derleme
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Cümle Toplayıcıyı kullanma kılavuzumuzu izleyin</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = Buraya <scLinkAdd>az sayıda cümle ekleyebilir</scLinkAdd> veya bir Github isteği aracılığıyla <bulkImportDocsLink>toplu içe aktarma</bulkImportDocsLink> yapabilirsiniz. Cümlelerin <licenseLink>CC0 (veya kamu malı)</licenseLink> olması gerektiğini veya kendi cümlelerinizi yazabileceğinizi unutmayın. <scFragment>Cümle Toplayıcı</scFragment> hakkında daha fazla bilgi edinin.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Cümle toplama hakkında daha fazla bilgi edinin</sentenceCollectorFragment>.
 
 ## How does localization work
 
