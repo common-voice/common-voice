@@ -193,6 +193,7 @@ Aber der Türsteher verwehrte beiden den Zutritt.
 Aber der Vater traute sich nicht und versuchte, es ihm auszureden.
 Aber der Vater traute sich nicht, die Nabelschnur durchzuschneiden.
 Aber der Weg über Neumünster ist doch voll der Umweg!
+Aber der Wunsch nach Weiterentwicklung und Mehrwert für den Kunden war bestimmend.
 Aber der kostet sehr viel im Monat.
 Aber die Bestimmungswebsites helfen mir nicht.
 Aber die Dielen knarzen verräterisch.
@@ -1800,6 +1801,7 @@ Auch in heiklen Situationen gilt es, einen kühlen Kopf zu bewahren.
 Auch kann es sein, dass die Bremse schleift, wenn sie nicht angezogen ist.
 Auch leichte Gegenstände können richtig wehtun, wenn sie aus großer Höhe fallen.
 Auch mein Lungenarzt will es mir austreiben.
+Auch meine Felsenbirne ist angewachsen.
 Auch meine Grammatik war schon mal besser.
 Auch meine Privatfähre ist in Gefahr.
 Auch mit beschränkten Mitteln lässt sich viel erreichen.
@@ -5945,6 +5947,7 @@ Das wird mir jetzt aber zu theoretisch.
 Das wird mir zu bunt!
 Das wird nicht billig.
 Das wird praktisch überall so gehandhabt.
+Das wird schon noch werden mit der Größe der Früchte.
 Das wird schon wieder.
 Das wird sich sowieso nicht durchsetzen.
 Das wird so nichts.
@@ -6562,7 +6565,9 @@ Der Bass ist zu laut.
 Der Bass war so laut, dass der Putz von den Wänden fiel.
 Der Bauchklatscher hat sicher wehgetan.
 Der Bauer fuhr einen grünen Trecker.
+Der Baum auf der anderen Straßenseite kränkelt vor sich hin.
 Der Baum hinten links im Bild verliert ein Blatt.
+Der Baum neben ihm ist fast doppelt so hoch gewachsen.
 Der Baum verliert schon seine Rinde.
 Der Baumarkt heißt Toom.
 Der Beamte ist jeden Pfennig seiner Besoldung wert.
@@ -7265,6 +7270,7 @@ Der Typ sieht aus wie ein stereotyper Gerichtsmediziner.
 Der TÜV Rheinland hat auch Projekte in Asien.
 Der Tänzer war vor Ort.
 Der Türsteher ist so ein Arsch!
+Der Umbau der Monitore erforderte Änderungen an den Kabelkanälen.
 Der Umstieg auf das neue System lief nicht reibungsfrei
 Der Unparteiische lässt weiterlaufen.
 Der Unterschied ist selbst für einen Muttersprachler schwer zu erkennen.
@@ -7382,6 +7388,7 @@ Der Zug kommt auf Bahnsteig drei an.
 Der Zug wird in Frankfurt getrennt.
 Der Zug wurde mit Graffiti besprüht.
 Der Zug wurde von einer alten Dampflok gezogen.
+Der Zugang über ein weiteres Modem wäre ein Lösung.
 Der Zusammenhang erschließt sich mir nicht ganz.
 Der Zusammenhang von Strom und Spannung ist dabei jedoch nicht linear.
 Der Zusteller gab mir nonverbal zu verstehen, dass ich die Klappe halten sollte.
@@ -8127,6 +8134,7 @@ Die Freude ist auf meiner Seite!
 Die Frisur hält.
 Die FritzBox ist gleichzeitig Modem und Router.
 Die Frucht oder der Vogel?
+Die Früchte waren noch klein.
 Die Frühschicht erledigt Herr Wittgenstein.
 Die Funktion des Beines ist permanent wiederhergestellt.
 Die Funktion ist wahrscheinlich ein Einzeiler, maximal aber ein Dreizeiler.
@@ -8299,6 +8307,7 @@ Die Justizia ist nicht blind, sondern unabhängig.
 Die Kamera zoomt auf das Gesicht des Redners.
 Die Kanzlei wird von den beiden Anwältinnen geführt.
 Die Kanzlerkandidatin der Grünen ist Annalena Baerbock.
+Die Kanäle mussen auch neu zugeschnitten werden.
 Die Karawane zog durch die Wüste.
 Die Karte ist nicht genordet.
 Die Karte zeigt nicht die ganze Wahrheit.
@@ -8413,6 +8422,7 @@ Die Leute reißen sich darum.
 Die Leute sind nicht alle so gleichgültig.
 Die Librem Laptops sind ebenfalls einen Blick wert.
 Die Lichtgeschwindigkeit variiert je nach Medium.
+Die Lichtwellenleiter passen, nur mit neuen dünneren Stromkabeln, durch die Kanäle.
 Die Liebe gehört zum Leben.
 Die Lieblingseissorten sind dunkle Schokolade und Erdbeere.
 Die Lieblingstiere von Justin waren Bieber.
@@ -8765,6 +8775,7 @@ Die Spezialeinheit des Zolls wird Zentrale Unterstützungseinheit Zoll genannt.
 Die Spezialeinheit des Zolls wird zentrale Unterstützungseinheit Zoll, kurz Z-U-Z, genannt.
 Die Spezifikationen haben sich geändert.
 Die Spielbar sei aus diesem Grunde als Russenpuff in aller Munde.
+Die Spitze und zwei obere Äste sind kahl geblieben.
 Die Sprache der neuen Nachrichtensprecherin wirkt zuweilen steril.
 Die Spracheingabe hat mich die ganze Zeit nicht verstanden.
 Die Sprachpolizei ist überall unterwegs.
@@ -8990,6 +9001,7 @@ Die Würde des Menschen ist unantastbar.
 Die Würde des Menschen ist unantastbar. Auch nach siebzehn Uhr.
 Die Würstchen und das Brot sind fertig gegrillt.
 Die Wüste Gobi ist keine Weibergeschichte!
+Die Zahl der möglichen Fehlerquellen hat zugenommen.
 Die Zahlen basieren auf den von der Weltgesundheitsorganisation veröffentlichten Berichten.
 Die Zahlen gehen hoch!
 Die Zahnärztin träumt von einem großen, schmerzhaften Bohrer mit kreischendem Sound.
@@ -10259,6 +10271,7 @@ Du sollst nicht immer den Teufel an die Wand malen!
 Du solltest Gesangsunterricht nehmen.
 Du solltest darüber nachdenken.
 Du solltest den Salat kurz abbeuteln, damit er nicht alles antropft.
+Du solltest dich beeilen, es sieht nach Regen aus.
 Du solltest einfach mal Fünfe gerade sein lassen.
 Du solltest es sein lassen.
 Du solltest geradeaus über den Kreisverkehr fahren!
@@ -10800,6 +10813,7 @@ Ein Sportboot ist gekentert.
 Ein Spruch, den man in jeder Lebenslage gebrauchen kann!
 Ein Standardbrief darf nicht mehr als zwanzig Gramm wiegen.
 Ein Staudamm ist gebrochen.
+Ein Steckbrücke fehlte.
 Ein Storch plustert sein Gefieder auf.
 Ein Strauch hebt sich besonders von den übrigen Sträuchern ab.
 Ein Sturz wäre kaum zu vermeiden.
@@ -12722,6 +12736,7 @@ Es sind zu viele.
 Es soll dem Rädelsführer einen Vorgeschmack darauf geben, was ihn erwartet.
 Es soll eine einheitliche Regelung gefunden werden.
 Es soll helfen, einen Punkt in der Ferne zu fixieren.
+Es soll ihn stärken, vielleicht wird er wieder grüner.
 Es soll ja auch nicht zu einfach sein.
 Es soll nicht jeder mitbekommen.
 Es soll sofort ein Techniker vorbeikommen und sich das ansehen!
@@ -12797,8 +12812,10 @@ Es war wieder mal Achim, der uns alle vor einer Katastrophe rettete.
 Es war wirklich immer das Kabel.
 Es war wundervoll.
 Es waren mindestens hundert Leute an der Beisetzung.
+Es waren noch einige kleine Fehler in der Arbeit.
 Es waren zu viele Nebengeräusche in der Aufnahme.
 Es weiß sofort jeder, was gemeint ist.
+Es werden die Routen berechnet, bewertet und die besten empfohlen.
 Es werden immer wieder Dinge dort abgestellt.
 Es werden wieder Tiernamen vergeben.
 Es wird Zeit für einen geteilten Kalender.
@@ -14906,6 +14923,7 @@ Hast du vielleicht ein Brillenputztuch oder sowas in der Art?
 Hast du wenigstens einen Schnelltest gemacht?
 Hast du wieder ein Lied über dein Lieblingsgetränk geschrieben?
 Hast du wirklich alle Bücher hier gelesen, fragte Julia.
+Hast du wirklich geglaubt, dass ich dich anlügen werde?
 Hast du zufällig Taschentücher dabei?
 Haste mal nen Euro?
 Hat Andreas eigentlich wirklich Kollegen, oder sind die frei erfunden?
@@ -15288,6 +15306,7 @@ Heute sieht mein Tattoo aus wie ein Krebsgeschwür.
 Heute sind wieder zwanzig Opfer gefallen.
 Heute verwenden wir nur noch Lithiumakkus.
 Heute war die Innenstadt so voll wie seit Anfang November nicht mehr.
+Heute war die Umbauabnahme.
 Heute war ich unterwegs und habe Brennesseln gesucht.
 Heute waren es auch wieder vier Stück.
 Heute waren wir im Klostercafe, da habe ich Leckeres erstanden.
@@ -16055,6 +16074,7 @@ Ich dachte es mir.
 Ich dachte ja früher schon manchmal "ich bin neutrois" oder "ich bin ein Typ".
 Ich dachte mir, dass es besser geht.
 Ich dachte mir, es sei einfacher, den Fluss an dieser schmalen Stelle zu überqueren.
+Ich dachte schon, ich hätte es verloren.
 Ich dachte, Sie riefen mich an, weil ich der Experte bin!
 Ich dachte, das gehört dir.
 Ich dachte, das hätten wir längst geklärt.
@@ -16396,6 +16416,7 @@ Ich habe das Spiel mit zwei Freunden in einer Nacht durchgesuchtet.
 Ich habe das System unter der Domain angeknipst.
 Ich habe das Video in doppelter Geschwindigkeit gesehen.
 Ich habe davor nie afrofuturistische Literatur gelesen.
+Ich habe dem Baum etwas Dünger gegeben.
 Ich habe den Autoführerschein mit siebzehn Jahren gemacht.
 Ich habe den Bus verpasst!
 Ich habe den Eindruck, dass die Hubschrauberpiloten immer rücksichtsloser werden.
@@ -16827,6 +16848,7 @@ Ich könnte ja noch ein paar Markennamen nennen.
 Ich könnte kotzen!
 Ich könnte mich ja bei Mozilla bewerben, oder?
 Ich könnte stundenlang diskutieren, wo ich meine selbst hergestellten Möbel platziere.
+Ich könnte wetten, dass der Baum neben ihm, genauso alt ist wie er.
 Ich lade euch zum Adventskaffee ein.
 Ich lade oft meine Freundin ein.
 Ich las zu der Zeit Zeug im Internet und redete mit niemandem darüber.
@@ -17741,6 +17763,7 @@ Im Falle eines Scheiterns drohen ihm keine Konsequenzen.
 Im Falle von Ermittlungen sind Handylöschungen zu erwarten.
 Im Februar gab es über fünfundachtzig Infektionsfälle.
 Im Februar zweitausendsechs zählte die deutsche Szene rund eintausenddreihundert Podcasts.
+Im Fehlerfall soll er aber auch Lösungen für seinen restlichen Reiseweg sehen.
 Im Fernsehen nehmen die beiden sich immer gegenseitig auf die Schippe.
 Im Fernsehen sieht Sex unter der Dusche sehr einfach und angenehm aus.
 Im Fernsehgarten wachsen keine Blumen.
@@ -17856,6 +17879,7 @@ Im Naturschutzgebiet darf kein Feuerwerk gezündet werden.
 Im Naturschutzgebiet ist das Verlassen der Wege verboten.
 Im Netz kursiert eine Falschmeldung.
 Im Norden ist sie nie zu sehen.
+Im Normalbetrieb wird der Kunde nur die Anschlüsse als neu sehen.
 Im Notfall muss man sich halt irgendwas aus den Fingern saugen.
 Im November kamen über Zweiundsechzigmillionen neue Infektionen hinzu.
 Im November kamen über zweiundsechzig Millionen neue Infektionen hinzu.
@@ -19640,6 +19664,7 @@ Jetzt sehe ich es besser.
 Jetzt sei doch nicht gleich eingeschnappt.
 Jetzt seid ihr gefragt.
 Jetzt sind es schon mehr als zwei hoch vierzehn Sätze.
+Jetzt sind mehrere verschiedene Netzwerke im Einsatz.
 Jetzt sind wir an einem Punkt angelangt, wo es peinlich wird.
 Jetzt sind wir quitt.
 Jetzt sitze ich endlich in der Bahn nach Hause.
@@ -21014,6 +21039,7 @@ Leck mir die Stiefel, du Wurm!
 Lecker Kaffee!
 Lecker Stockbrot.
 Lecks aufzuspüren, ist eine meiner leichtesten Übungen.
+Lediglich die Glastrennwände bleiben erhalten.
 Lediglich die Unstetigkeiten bereiten immer noch Probleme.
 Lediglich seinem eigenen Gewissen ist er unterworfen.
 Leere Wagen klappern am meisten.
@@ -21686,6 +21712,7 @@ Man soll das Eisen schmieden, solange es heiß ist.
 Man soll das Fell des Bären nicht verteilen, bevor er erlegt ist.
 Man soll den Tag nicht vor dem Abend loben.
 Man soll die Nacht nicht vor dem Morgen loben.
+Man soll nicht zu spät im Jahr mit Stickstoff düngen.
 Man soll niemals nie sagen.
 Man solle den Wunsch Nordkoreas nach einem Friedensvertrag ernst nehmen.
 Man sollte Arbeitslosengeldempfänger nicht in dieselbe Schublade stecken wie Rundfunkgebührenempfänger.
@@ -24377,6 +24404,7 @@ Nur weil ich gläubig bin, heißt das nicht, dass ich konservativ wähle.
 Nur weil jemand paranoid ist, heißt das nicht, daß er verfolgt werden kann!
 Nur weil man einen Plan hat, muss man nicht automatisch an Spontanität einbüßen.
 Nur weil man gute Musik hört, muss man nicht tanzen.
+Nur weiter unten ist er an den Ästen stark belaubt.
 Nur wenige Auserwählte dürfen mit an Bord.
 Nur wenige Menschen wissen davon.
 Nur wenige Mittel sind auf dem Markt zugelassen.
@@ -29368,6 +29396,7 @@ Viel Erfolg bei deiner Prüfung morgen!
 Viel Erfolg in der Jammerhöhle.
 Viel Erfolg mit den Ego-Ratten und narzistischen Ausbeutern!
 Viel Gerede wenig Gemache.
+Viel Holz hat der Baum in den letzten Jahren nicht aufgebaut.
 Viel Spass bei der Lektüre!
 Viel Spaß dabei!
 Viel Spaß dort oben.
