@@ -13,7 +13,7 @@ Many language communities are self organising and have their contact channels on
 * General:
   * Common Voice on [Matrix](https://app.element.io/#/room/#common-voice:mozilla.org) [official]
   * Common Voice on [Discourse](https://discourse.mozilla.org/t/about-common-voice-readme-first/17218) [Offical] learn more about how you can request a language specific sub-discourse thread on our readme. 
-  * Common Voice on [Telegram](https://web.telegram.org/#/im?p=@mozilla_common_voice)
+  * Common Voice on [Telegram](https://t.me/mozilla_common_voice)
 * Bashqort (`ba`):
   *  [Telegram](https://t.me/bashkort_voice)
 * Belarusian (`be`):
