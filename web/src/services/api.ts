@@ -173,7 +173,7 @@ export default class API {
   }
 
   async fetchAllLanguages(): Promise<Language[]> {
-    return this.fetch(`${API_PATH}/languages_all`);
+    return this.fetch(`${API_PATH}/languages`);
   }
 
   async fetchLanguageStats(): Promise<LanguageStats> {

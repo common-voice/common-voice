@@ -161,19 +161,26 @@ export default class DB {
     }
   }
 
-  async getSentenceCountByLocale(locales: string[]): Promise<any> {
+  async getSentenceCountByLocale(): Promise<{
+    count: number;
+    locale_id: number;
+  }> {
     const [rows] = await this.mysql.query(
       `
-        SELECT COUNT(*) AS count, locales.name AS locale, locales.target_sentence_count as target_sentence_count
-        FROM sentences
-        LEFT JOIN locales ON sentences.locale_id = locales.id
-        WHERE locales.name IN (?) AND sentences.is_used
-        GROUP BY locale
-      `,
-      [locales]
+      SELECT
+        COUNT(*) AS count,
+        locale_id
+      FROM
+        sentences
+      WHERE
+        sentences.is_used = 1
+      GROUP BY
+        locale_id;
+      `
     );
     return rows;
   }
+
   /**
    * Get valid and random clips per language
    * @param languageId
@@ -752,13 +759,10 @@ export default class DB {
     const [rows] = await this.mysql.query(
       `
         SELECT locale, COUNT(*) AS count
-        FROM (
-         SELECT locales.name AS locale
          FROM clips
          LEFT JOIN locales ON clips.locale_id = locales.id
          WHERE locales.name IN (?) AND is_valid
          GROUP BY clips.id
-        ) AS valid_clips
         GROUP BY locale
       `,
       [locales]
@@ -929,7 +933,12 @@ export default class DB {
 
   async getLanguages(): Promise<Language[]> {
     const [rows] = await this.mysql.query(
-      `SELECT l.id, l.name, l.target_sentence_count as target_sentence_count, count(1) as total_sentence_count
+      `SELECT 
+      l.id, 
+      l.name, 
+      l.target_sentence_count as target_sentence_count, 
+      count(1) as total_sentence_count,
+      l.is_contributable
         FROM locales l
         JOIN sentences s ON s.locale_id = l.id
         GROUP BY l.id`
@@ -938,11 +947,13 @@ export default class DB {
       (row: {
         id: number;
         name: string;
+        is_contributable: boolean;
         target_sentence_count: number;
         total_sentence_count: number;
       }) => ({
         id: row.id,
         name: row.name,
+        is_contributable: row.is_contributable,
         sentenceCount: {
           targetSentenceCount: row.target_sentence_count,
           currentCount: row.total_sentence_count,

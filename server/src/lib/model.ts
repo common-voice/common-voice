@@ -197,16 +197,9 @@ export default class Model {
   getLanguages = lazyCache(
     'get-all-languages-with-stats',
     async (): Promise<Language[]> => {
-      const languages = await this.db.getLanguages();
-      return languages.map(language => {
-        const is_contributable =
-          language.sentenceCount.currentCount >=
-          language.sentenceCount.targetSentenceCount;
-
-        return { ...language, is_contributable };
-      });
+      return await this.db.getLanguages();
     },
-    DAY
+    1
   );
 
   getAllLanguages = lazyCache(
@@ -218,89 +211,76 @@ export default class Model {
     DAY
   );
 
-  getValidatedHours = lazyCache(
-    'validated-hours',
-    async () => {
-      const english = (await this.db.getValidClipCount(['en']))[0];
-      return Math.round(
-        ((english ? english.count : 0) * getAverageSecondsPerClip('en')) / 3600
-      );
-    },
-    DAY
-  );
-
   getLanguageStats = lazyCache(
     'get-language-stats-for-all-languages',
-    async (): Promise<LanguageStats> => {
+    async (): Promise<any> => {
       const allLanguages = await this.getLanguages();
+      console.dir(
+        'allLanguages',
+        allLanguages.map(locale => locale.name)
+      );
 
       const everyLanguage = allLanguages.map(language => language.name);
 
-      const contributableLocales = allLanguages
-        .filter(language => language.is_contributable)
-        .map(language => language.name);
+      // const contributableLocales = allLanguages
+      //   .filter(language => language.is_contributable)
+      //   .map(language => language.name);
 
-      const inProgressLocales = allLanguages
-        .filter(language => !language.is_contributable)
-        .map(language => language.name);
+      // const inProgressLocales = allLanguages
+      //   .filter(language => !language.is_contributable)
+      //   .map(language => language.name);
 
-      function indexCountByLocale(rows: { locale: string; count: number }[]): {
-        [locale: string]: number;
-      } {
-        return rows.reduce(
-          (
-            obj: { [locale: string]: number },
-            { count, locale }: { count: number; locale: string }
-          ) => {
-            obj[locale] = count;
-            return obj;
-          },
-          {}
-        );
-      }
+      // function indexCountByLocale(rows: { locale: string; count: number }[]): {
+      //   [locale: string]: number;
+      // } {
+      //   return rows.reduce(
+      //     (
+      //       obj: { [locale: string]: number },
+      //       { count, locale }: { count: number; locale: string }
+      //     ) => {
+      //       obj[locale] = count;
+      //       return obj;
+      //     },
+      //     {}
+      //   );
+      // }
 
-      function indexSentenceCountByLocale(
-        rows: { locale: string; count: number; target_sentence_count: number }[]
-      ): {
-        [locale: string]: SentenceCount;
-      } {
-        return rows.reduce(
-          (
-            obj: { [locale: string]: SentenceCount },
-            {
-              count,
-              locale,
-              target_sentence_count,
-            }: { locale: string; count: number; target_sentence_count: number }
-          ) => {
-            obj[locale] = {
-              currentCount: count,
-              targetSentenceCount: target_sentence_count,
-            };
-            return obj;
-          },
-          {}
-        );
-      }
+      // function indexSentenceCountByLocale(
+      //   rows: { locale: string; count: number; target_sentence_count: number }[]
+      // ): {
+      //   [locale: string]: SentenceCount;
+      // } {
+      //   return rows.reduce(
+      //     (
+      //       obj: { [locale: string]: SentenceCount },
+      //       {
+      //         count,
+      //         locale,
+      //         target_sentence_count,
+      //       }: { locale: string; count: number; target_sentence_count: number }
+      //     ) => {
+      //       obj[locale] = {
+      //         currentCount: count,
+      //         targetSentenceCount: target_sentence_count,
+      //       };
+      //       return obj;
+      //     },
+      //     {}
+      //   );
+      // }
 
       const [
         localizedPercentages,
         sentenceCounts,
         validClipsCounts,
         speakerCounts,
-        dailySpeakerCounts,
+        dailyClipCount,
       ] = await Promise.all([
         fetchLocalizedPercentagesByLocale(),
-        this.db
-          .getSentenceCountByLocale(everyLanguage)
-          .then(indexSentenceCountByLocale),
-        this.db
-          .getValidClipCount(contributableLocales)
-          .then(indexCountByLocale),
-        this.db.getSpeakerCount(contributableLocales).then(indexCountByLocale),
-        this.db
-          .getDailySpeakerCount(contributableLocales)
-          .then(indexCountByLocale),
+        this.db.getSentenceCountByLocale(),
+        this.db.getValidClipCount(everyLanguage),
+        this.db.getSpeakerCount(everyLanguage),
+        this.db.getDailySpeakerCount(everyLanguage),
       ]);
 
       const countToHours = (locale: string, count?: number) => {
@@ -312,9 +292,9 @@ export default class Model {
         );
       };
 
-      const launched = contributableLocales.map(locale => {
-        const recordedHours = countToHours(locale, dailySpeakerCounts[locale]);
-        const validatedHours = countToHours(locale, validClipsCounts[locale]);
+      const launched = everyLanguage.map((locale: any) => {
+        const recordedHours = 1000; //countToHours(locale, dailyClipCount[locale]);
+        const validatedHours = 888; //countToHours(locale, validClipsCounts[locale]);
         const speakersCount = speakerCounts[locale] || 0;
         const sentencesCount = sentenceCounts[locale] || {
           currentCount: 0,
@@ -330,7 +310,7 @@ export default class Model {
         };
       });
 
-      const inProgress = inProgressLocales.map(locale => ({
+      const inProgress = everyLanguage.map(locale => ({
         locale,
         localizedPercentage: localizedPercentages[locale] || 0,
         sentencesCount: sentenceCounts[locale] || {
@@ -341,7 +321,7 @@ export default class Model {
 
       return { launched, inProgress };
     },
-    DAY / 2
+    2
   );
 
   getClipsStats = lazyCache(
