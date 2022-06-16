@@ -575,6 +575,7 @@ data-download-button = Common Voice данныйым качаен нӓлӓш
 data-download-yes = Ане
 data-download-deny = Уке
 data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
+data-subtitle = Мӓ пачмы дӓ цилӓлӓн кычылташ лишӹ юк данныйым, кыдым каждый эдем юк доно ӹштӹшӹ приложеним тымдаш кычылт кердеш, ӹштенӓ.
 data-other-title = Вес юк данныйвлӓ...
 data-other-goto = { $name } докӹ ванжы
 data-other-download = Данныйым качаен нӓлӓш
@@ -598,6 +599,7 @@ review-delete-recordings = Мӹньӹн сирӹмӹм карангдаш
 ## Datasets Page
 
 datasets-heading = Датасетвлӓ
+datasets-headline = Мӓ пачмы тӹнгӓлтӹш код доно шукы йӹлмӓн юк данныйым, кыдым каждый эдем юк доно ӹштӹшӹ приложеним тымдаш кычылт кердеш, ӹштенӓ.
 language = Йӹлмӹ
 # File size in gigabytes
 size = Шӹнгӹц
@@ -693,6 +695,7 @@ language-search-input =
 language-speakers = Попышывлä
 localized = Сӓрӹмӹ
 sentences = Предложенивлӓ
+language-validation-hours = Цӓш
 
 ## Contribution
 
