@@ -129,6 +129,7 @@ ne-NP = Nepali
 nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
+nr = IsiNdebele (Gúsù)
 nso = Northern Sotho
 nyn = Runyankole
 oc = Occitan
@@ -192,6 +193,7 @@ yue = Cantonese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
+zu = Zulu
 
 # [/]
 
