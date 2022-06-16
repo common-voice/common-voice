@@ -529,11 +529,13 @@ about-get-involved-text-2 =
     форумнары аша безнең белән элемтәгә керегез, <githubLink>GitHub</githubLink> аша сайттагы хаталар турында хәбәр итегез, яки <matrixLink>Matrix</matrixLink>-та безнең әңгәмә-чатка кушылыгыз.
 about-stay-in-touch = Ничек элемтәдә тора алам?
 about-stay-in-touch-button = Теркәлү
+about-stay-in-touch-text-2 = Билгеле бер темадагы әңгәмәләр өчен <discourseLink>Discourse</discourseLink>-ка, ә тиз киңәш-ярдәм алу өчен <matrixLink>Matrix</matrixLink>-ка кушылып, Mozilla-ның тел берләшмәләрендәге башка кешеләр белән аралаша аласыз.
 about-nav-why-common-voice = Нигә?
 about-nav-how-it-works = Ничек?
 about-nav-partners = Партнёрлар
 about-nav-get-involved = Катнашу
 about-nav-how-it-works-2 = Common Voice ничек эшли?
+about-nav-playbook = Ничек катнашып булганын өйрәнегез
 
 ## Community Playbook Content
 ## What is a language
@@ -543,6 +545,10 @@ about-playbook-what-is-language = Common Voice-та тел нәрсә ул?
 ## How do I add a language
 
 about-playbook-how-add-language = Телне ничек өсти алам?
+about-playbook-how-add-language-translating-heading = Сайтны тәрҗемә итү
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon-ны куллану тәртибе турындагы видеобызны карагыз</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Җөмләләр туплау
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Җөмләләр туплагычын ничек кулланылганын аңлатучы видеобызны карагыз</sentenceCollectorVideo>.
 
 ## How does localization work
 
@@ -728,6 +734,8 @@ language-search-input =
 language-speakers = Сөйләүчеләр
 localized = Тәрҗемә ителгән
 sentences = Җөмләләр
+language-validation-hours = Сәгать
+language-validation-progress = Тикшерү барышы
 
 ## Contribution
 
@@ -1097,6 +1105,8 @@ sc-submit-title = Җөмләләр өстәү
 sc-submit-select-language =
     .labelText = Телне сайлау
 sc-submit-add-sentences = <wikipediaLink>Иҗтимагый милектәге</wikipediaLink> җөмләләр өстәү
+sc-submit-ph-one-per-line =
+    .placeholder = Бер юлга бер җөмлә
 sc-submit-button =
     .submitText = Җибәрү
 
@@ -1124,6 +1134,8 @@ sc-confirm-button-text = Раслау
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Барлыгы
+sc-lang-info-title-personal = Шәхси
 sc-lang-info-review-now = <reviewLink>Хәзер үк тикшерәм!</reviewLink>
 sc-lang-info-add-more = <addLink>Хәзер үк күбрәк җөмләләр өстим!</addLink>
 # Variables:
