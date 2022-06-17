@@ -129,7 +129,7 @@ ne-NP = نېپالچە
 nia = نىئاسچە
 nl = گوللاندىيەچە
 nn-NO = يېڭى نورۋېگچە
-nso = شىمالى سوتوچە
+nso = شىمالىي سوتوچە
 nyn = نىيانكولېچە
 oc = ئاۋكچە
 or = ئورىياچە
@@ -157,6 +157,7 @@ sl = سىلوۋېنىيەچە
 so = سومالىچە
 sq = ئالبانچە
 sr = سېربچە
+st = جەنۇبىي سوتوچە
 sv-SE = شۋېدچە
 sw = سىۋالىچە
 syr = سۈرىيەچە
@@ -169,6 +170,7 @@ tig = تىگرېچە
 tk = تۈركمەنچە
 tl = تاگالوگچە
 tr = تۈركچە
+ts = سونگاچە
 tt = تاتارچە
 tw = تىۋىچە
 ty = تاختىچە
@@ -181,12 +183,14 @@ uz = ئۆزبەكچە
 vec = ۋېنداچە
 vi = ۋىيېتنامچە
 vot = ۋوتېچە
+xh = خوساچە
 yi = يىددىشچە
 yo = يورۇباچە
 yue = گۇاڭدۇڭچە
 zh-CN = خەنزۇچە(جۇڭگو)
 zh-HK = خەنزۇچە(شياڭگاڭ)
 zh-TW = خەنزۇچە(تەيۋەن)
+zu = زۇلۇچە
 
 # [/]
 
@@ -1136,6 +1140,7 @@ sc-login-err-try-again = قايتا سىناڭ.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = ئارخىپ: { $username }
+sc-personal-err-remove = تىلنى ئۆچۈرەلمىدى
 sc-personal-your-languages = تىلىڭىز:
 sc-personal-remove-button = چىقىرىۋەت
 sc-personal-not-added = سىز تېخى ھېچقانداق تىل قوشمىدىڭىز.
@@ -1147,6 +1152,7 @@ sc-criteria-title = تەستىقلاش ئۆلچىمى
 
 ## REVIEW
 
+sc-review-title = جۈملىلەرنى تەستىقلاش
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = مەنبە: { $sentenceSource }
