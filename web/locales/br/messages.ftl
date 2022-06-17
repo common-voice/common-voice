@@ -197,6 +197,7 @@ yue = Kantoneg
 zh-CN = Sinaeg (Sina)
 zh-HK = Sinaeg (Hong Kong)
 zh-TW = Sinaeg (Taiwan)
+zu = Zouloueg
 
 # [/]
 
@@ -501,12 +502,21 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Perak Common Voice?
+how-does-it-work-title-v2 = Penaos ez a en-dro Common Voice?
 how-does-it-work-text = Sevel a reomp un teskad roadennoù mouezhioù a-stroll. Roit ho mouezh, gwiriekait klipoù an dud all ha lakait ar spletad roadennoù da vezañ gwelloc’h evit an holl.
 
 ## How does it work section
 
 about-language-req-subtitle = Unan bennak a c'houlenn e vefe ouzhpennet ur yezh.
+about-localization-title = Treiñ al lec'hienn
+about-localization-subtitle = Testenn al lec'hienn a zo troet er yezh-mañ.
 about-sentence-collection-title = Dastumadeg frazennoù
+about-sentence-collection-subtitle = Frazennoù a vez dastumet evit ma vefent lennet a vouezh uhel.
+about-new-lang-title = Loc'hañ gant ur yezh nevez
+about-new-lang-subtitle = Loc'hañ a reomp lec'hienn Common Coice evit ar yezh-mañ.
+about-voice-contrib-title = Kendaoladurioù mouezh
+about-voice-contrib-subtitle = Tud a zeu da gendeurel gant o mouezh.
+about-voice-validation-title = Gwiriekaat ar vouezh
 about-speak = Komz
 about-speak-text = Ar gendaolerien a enroll klipoù mouezh en ul lenn e-touez un hollad a frazennoù roet.
 about-listen-queue = Roll gortoz
@@ -528,23 +538,32 @@ about-get-involved-text-2 =
     C’hoant ho peus sikour da wellaat Common Voice?
     Dreist! Kit e darempred ganeomp dre bostel pe war ar foromoù <discourseLink>Discourse</discourseLink>,
     disklêriit kudennoù lec’hiennoù dre <githubLink>GitHub</githubLink>, pe kemerit perzh e flap ar gumuniezh war <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch-button = Kevreañ
 about-nav-why-common-voice = Perak?
 about-nav-how-it-works = Penaos?
 about-nav-partners = Kevelerien
 about-nav-get-involved = Kemer perzh
+about-nav-playbook = Deskiñ penaos kemer-perzh
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Petra eo ur yezh evit Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Penaos e c'hallan ouzhpennañ ur yezh?
+about-playbook-how-add-language-translating-heading = Treiñ al lec'hienn
+about-playbook-how-add-language-collecting-sentences-heading = Dastum frazennoù
 
 ## How does localization work
 
+about-playbook-how-localize = Penaos ez en-dro troidigezh al lec'hienn?
+about-playbook-how-localize-content-5 = Sellout ouzh hon video displegañ evit kaout sikour
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Penaos e c'hellan ouzhpennañ frazennoù?
 
 ## How to record quality
 
@@ -552,9 +571,12 @@ about-nav-get-involved = Kemer perzh
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Darvoudoù
+about-playbook-how-grow-language-content-4 = Media sokial
+about-playbook-how-grow-language-content-6 = Kevelerien ha kenrouedad
 
 ## How to validate
 
+about-playbook-how-validate = Penaos gouzout hag-eñ e rank bezañ gwiriekaet ur c'hlip mouezhiek?
 
 ## How to access dataset
 
@@ -618,6 +640,7 @@ review-delete-recordings = Dilemel ma enrolladennoù
 
 ## Datasets Page
 
+datasets-heading = Diazoù-roadennoù
 datasets-headline = Sevel a reomp spletadoù roadennoù mouezhioù digor o zarzh, lies-yezh hag a c’hall bezañ implijet gant forzh piv evit gourdonañ arloadoù anaoudegezh ar vouezh.
 datasets-positioning =
     Soñjal a ra deomp e c’hall spletadoù roadennoù bras hag hegerz d’ar foran degas nevezenti ha kevezerezh kenwerzhel yac’h e teknologiezhioù ar vouezh diazezet war an deskadurezh emgefreek.
@@ -653,6 +676,7 @@ subscribe = Koumanantiñ
 get-started-speech = Kregiñ gant anaoudegezh ar vouezh
 other-datasets = Spletadoù roadennoù all
 feedback-q = Evezhiadennoù ho peus?
+community-playbook = Dornlevr ar gumuniezh
 data-other-librispeech-description = LibriSpeech a zo anezhañ ur c’horpus a 1000 eurvezh skrid bennak lennet e saozneg (16 kHz) hag a zeu diwar levrioù son ar raktres LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Savet eo bet ar c’horpus TED-LIUM diwar divizoù komzet hag an treuzskrivadurioù anezho a c’haller kavout war lec’hienn TED.
@@ -699,6 +723,16 @@ other-language = Yezhoù all
 
 ## Request Language Pages
 
+request-language-heading = Goulenn ouzhpennañ ur yezh
+request-language-form-email =
+    .label = Ho chomlec'h postel
+request-language-form-info =
+    .label = Titouroù diwar-benn ar yezh
+request-language-form-info-explanation-list-1 = Anvioù ho yezh
+request-language-form-info-explanation-list-2 = <isoCodeLink>Kodoù ISO</isoCodeLink> ma ouzoc'h
+request-language-form-info-explanation-list-3 = Liammoù davet lec'hiennoù evit sikour ac'hanomp da gompren ar yezh
+request-language-google-recaptcha-required = reCAPTCHA a zo rekis m'ho peus c'hoant mont betek penn
+request-language-google-recaptcha-error = Un dra bennak a zo aet a-dreuz gant ar reCAPTCHA. Klaskit adarre mar plij.
 
 ## Languages Overview
 
