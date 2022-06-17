@@ -156,6 +156,7 @@ sl = Slovenek
 so = Somali
 sq = Albaniek
 sr = Serbek
+ss = Siswati
 st = Sesotho
 sv-SE = Swedek
 sw = Swahili
@@ -168,6 +169,7 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmenek
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turkek
 ts = Xitsonga
@@ -184,12 +186,14 @@ ve = Tshivenda
 vec = Venedek
 vi = Vietnamek
 vot = Votek
+xh = Xhosa
 yi = Yedhowek
 yo = Yoruba
 yue = Kantonek
 zh-CN = Chinek (China)
 zh-HK = Chinek (Hong Kong)
 zh-TW = Chinek (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -461,6 +465,8 @@ about-playbook-what-is-language = Pyth yw yeth war Common Voice?
 ## How do I add a language
 
 about-playbook-how-add-language = Fatel geworrav yeth?
+about-playbook-how-add-language-translating-heading = Treylya an wiasva
+about-playbook-how-add-language-collecting-sentences-heading = Kuntel lavarow
 
 ## How does localization work
 
@@ -545,6 +551,7 @@ download-language = Iskarga{ $language }
 validated-hours = Ourys Dilysys
 recorded-hours = Ourys Rekordys
 subscribe = Ragbrena
+other-datasets = Kedhelsettys Lev Erel
 feedback-q = Eus Dasliv?
 data-other-librispeech-description = LibriSpeech yw korpus a neb 1000 our a gows yn Sowsnek lennys orth 16Khz ow tos dhyworth lyvrow son dhyworth an ragdres LibriVox.
 data-other-ted-name = Korpus TED-LIUM
@@ -607,6 +614,7 @@ language-search-input =
 language-speakers = Kowsoryon
 localized = Leelhes
 sentences = Lavarow
+language-validation-hours = Ourys
 
 ## Contribution
 
@@ -695,6 +703,7 @@ set-visibility = Settya ow gweladewder
 
 ## Custom Goals
 
+create-custom-goal = Gwruthyl Amkan A-Vusur
 both-speak-and-listen = An Dhew
 both-speak-and-listen-long = An Dhew (Kewsel ha Goslowes)
 daily-goal = Amkan Dedhyek
