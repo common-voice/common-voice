@@ -476,6 +476,9 @@ faq-why-different-speakers-a =
     Väčšina rečových databáz je trénovaná s nadmerným zastúpením určitých demografických skupín, z čoho vyplýva zaujatosť voči <articleLink>mužom a strednej triede</articleLink>. Prízvuky a dialekty, ktoré sú často nedostatočne zastúpené v trénovacích datasetoch, sú typicky asociované s marginalizovanými skupinami obyvateľstva. Mnoho strojov má taktiež problém s rozpoznávaním ženských hlasov.
     Kvôli tomuto chceme mať v našej databáze pestrosť!
 faq-why-my-lang-q = Prečo môj jazyk zatiaľ nie je zahrnutý?
+faq-why-my-lang-a =
+    Common Voice je crowdsourcingová platforma, všetky jazyky pridali dobrovoľníci.
+    Boli by sme radi, keby ste pridali svoj jazyk! <languageRequestLink>Zistite, ako pridať nový jazyk</languageRequestLink>.
 faq-what-quality-q = Aká kvalita zvuku je potrebná na použitie hlasového klipu v datasete?
 faq-what-quality-a = Chceme, aby dataset Common Voice odrážal kvalitu zvuku, ktorú bude systém prevodu reči na text počuť v teréne, takže hľadáme rozmanitosť. Okrem rôznorodej komunity hovoriacich, dataset s rôznou kvalitou zvuku naučí systém prevodu reči na text zvládať rôzne situácie v reálnom svete, od rozhovoru v pozadí až po hluk z auta. Pokiaľ je váš hlasový klip zrozumiteľný, mal by byť pre dataset dostatočne dobrý.
 faq-why-10k-hours-q = Prečo je cieľom pri nahrávkach práve 10 000 overených hodín?
@@ -573,6 +576,20 @@ about-playbook-what-is-language-content-3 = Niektoré jazyky majú obrovské roz
 
 about-playbook-how-add-language = Ako pridám jazyk?
 about-playbook-how-add-language-content-1 = Najprv skontrolujte, či váš jazyk <languageLink>už existuje</languageLink>. Ak nie, musíte <strong>preložiť stránku a zozbierať vety</strong>.
+about-playbook-how-add-language-translating-heading = Preklad stránky
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pozrite si našu príručku o tom, ako používať Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Na preklady používame nástroj Mozilly s názvom <pontoonLink>Pontoon</pontoonLink>. Pontoon má veľa jazykov,
+    ale ak nemá váš, môžete <pontoonRequestLink>požiadať o pridanie vášho jazyka</pontoonRequestLink>.
+    Potom, aby bol jazyk dostupný v projekte Common Voice,
+    <githubRepoLink>požiadajte o nový jazyk na GitHube</githubRepoLink>. <localizationFragment>Ďalšie informácie o preklade stránok</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Zber viet
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Pozrite si nášho sprievodcu používaním zberača viet</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Môžete <sentenceCollectorLinkAdd>pridať malý počet viet</sentenceCollectorLinkAdd>,
+    alebo môžete vykonať <bulkImportDocsLink>hromadné importy pomocou Githubu</bulkImportDocsLink>.
+    Pamätajte, že vety musia byť <licenseLink>dostupné ako CC0 (alebo pod verejnou licenciou)</licenseLink>, alebo môžete napísať svoje vlastné.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ďalšie informácie o zhromažďovaní viet</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -818,6 +835,8 @@ language-search-input =
 language-speakers = Počet prispievateľov
 localized = Preklad stránky
 sentences = Počet viet
+language-validation-hours = Hodiny
+language-validation-progress = Stav overovania
 
 ## Contribution
 
