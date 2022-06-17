@@ -751,18 +751,26 @@ demo-welcome = Dynnargh dhe Common Voice
 card-button-next = Nessa
 card-button-back = War-lergh
 demo-language-select-label = Peuri Yethow
+demo-account = Akont
 
 ## Demo Account
 
+demo-account-sign-up = Danvon kevren omrolya
 
 ## Demo Contribute
 
+demo-listen-subtitle = Parys dhe gevri?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-for-example = rag ensampel
+contribution-misreadings-title = Kammlennansow
+contribution-volume-title = Nivel Son
+see-more = <chevron></chevron>Gweles moy
+see-less = <chevron></chevron>Gweles le
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -771,48 +779,98 @@ demo-language-select-label = Peuri Yethow
 
 ## HEADER/FOOTER
 
+sc-header-home = Tre
+sc-header-add = Keworra
+sc-header-review = Dasweles
+sc-header-my = Ow Lavarow
+sc-header-statistics = Statystygyon
+sc-header-profile = Profil
+sc-footer-privacy = Privetter
+sc-footer-terms = Termys
+sc-footer-cookies = Pastiow
+sc-login-signup-button = Omgelmi / Omrolya
+sc-logout-button = Digelmi
 
 ## HOME
 
+sc-home-collect-title = Kuntel Lavarow
+sc-home-review-title = Dasweles Lavarow
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-addsen-title = Keworra lavarow nowydh
+sc-howto-cite-title = Fatla Dervyn
+sc-howto-review-title = Dasweles Lavarow
 
 ## MY SENTENCES
 
+sc-my-title = Ow Lavarow
+sc-my-loading = Ow karga dha lavarow…
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Pennfenten:  { $source }
+sc-my-deleting = Ow tilea an lavarow dewisys…
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = Statystygyon
+sc-stats-updating = Ow nowedhi…
 
 ## ADD
 
+sc-submit-err-select-lang = Dewis yeth, mar pleg.
+sc-submit-err-add-sentences = Keworr lavarow, mar pleg.
+sc-submit-err-add-source = Keworr pennfenten, mar pleg.
+sc-submit-title = Keworra Lavarow
+sc-submit-select-language =
+    .labelText = Dewis Yeth
+sc-submit-ph-one-per-line =
+    .placeholder = Unn lavar an linen
+sc-submit-button =
+    .submitText = Danvon
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Keworra Yeth
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Afydhya
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Somm
+sc-lang-info-title-personal = Personel
 
 ## LOGIN
 
+sc-login-err-failed = Omgelmi a fyllis
+sc-login-err-try-again = Assay arta, mar pleg.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-your-languages = Dha yethow:
+sc-personal-remove-button = dilea
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } keworrys genes
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-title = Dasweles Lavarow
+sc-review-form-button-skip = Hepkor
 
 ## SETTINGS
 
