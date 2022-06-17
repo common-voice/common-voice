@@ -56,6 +56,7 @@ da = Daneg
 de = Alamaneg
 dsb = Izel-Sorabeg
 dv = Diveheg
+dyu = Dioulaeg
 el = Gresianeg
 en = Saozneg
 eo = Esperanteg
@@ -124,12 +125,16 @@ my = Birmaneg
 myv = Erzyeg
 nan-tw = Taiwaneg (Minnan)
 nb-NO = Norvegeg bokmål
+nd = IsiNdebele (Norzh)
 ne-NP = Nepaleg
 nia = Niaseg
 nl = Nederlandeg
 nn-NO = Norvegeg nynorsk
+nr = IsiNdebele (Su)
+nso = Sothoeg an norzh
 nyn = Nyankole
 oc = Okitaneg
+om = Afaan Ormoo
 or = Oriyeg
 pa-IN = Pandjabeg
 pap-AW = Papiamento (Aruba)
@@ -155,6 +160,8 @@ sl = Sloveneg
 so = Somalieg
 sq = Albaneg
 sr = Serbeg
+ss = Swati
+st = Sothoeg ar su
 sv-SE = Svedeg
 sw = Swahileg
 syr = Syirieg
@@ -166,8 +173,10 @@ ti = Tigrinya
 tig = Tigreeg
 tk = Turkmen
 tl = Tagalogeg
+tn = Setswanaeg
 tok = Toki Pona
 tr = Turkeg
+ts = Gzitsongaeg
 tt = Tatareg
 tw = Twieg
 ty = Tahitianeg
@@ -177,9 +186,11 @@ ug = Ouigoureg
 uk = Ukraineg
 ur = Ourdoueg
 uz = Ouzbekeg
+ve = Tshivendaeg
 vec = Veneteg
 vi = Vietnameg
 vot = Voteg
+xh = Xhosaeg
 yi = Yiddish
 yo = Yoroubeg
 yue = Kantoneg
@@ -322,7 +333,6 @@ shortcut-discard-ongoing-recording-label = Leuskel an enrolladenn vremanel
 shortcut-submit = Distreiñ
 shortcut-submit-label = Kas ar c’hlipoù
 request-language-text = Ne welit ket ho yezh e Common Voice evit ar mare?
-request-language-text-learn = Deskit penaos goulenn anezhi amañ!
 request-language-button = Goulenn ouzhpennañ ur yezh
 
 ## ProjectStatus
@@ -460,7 +470,6 @@ faq-do-want-native-a = Ya, c’hoant hon eus ho mouezh! Ul lodenn eus pal Common
 faq-why-different-speakers-q = Perak ho peus ezhomm kement a gomzerien disheñvel dre yezh?
 faq-why-different-speakers-a = Lodenn vrasañ an diaz roadennoù mouezhioù a zo gourdonet gant un dreistdileuridigezh eus poblañsoù ’zo, dreist-holl ar <articleLink>gwazed a renkad etre</articleLink>. An taolioù-mouezh hag ar rannyezhoù a zo is-dileuriet er roadennoù gourdonañ a zo peurvuiañ liammet gant strolladoù a zo arlezekaet endeo. Meur a vekanik o deus diaesterioù evit adanavezout mouezhioù maouezed. Setu perak e fell deomp kaout liesseurted en hor diaz-roadennoù!
 faq-why-my-lang-q = Perak n’eo ket enkorfet ma yezh c’hoazh?
-faq-why-my-lang-new-a = Ne vez ket lakaet ur yezh a-us d’eben gant Mozilla. Un intrudu lusket gant ar gumuniezh eo, met <multilangLink>meur a bazenn a zo evit ouzhpennañ ur yezh nevez</multilangLink> ha kregiñ da zastum enrolladennoù. Da gentañ penn eo dav treiñ lec’hienn ar gumuniezh evit ma c’hallfe bezañ merdeet gant izili ar gumuniezh en o yezh. Da c’houde hon eus ezhomm eus un dastumadeg bras a frazennoù hep gwirioù aozer evit ma c’hallfent bezañ lennet a vouezh uhel gant an dud. Ur wech m’eo leuniet an daou dra-se e c’hall bezañ "lañset" ar yezh war Common Voice evit ma krogfe an dud da enrollañ o mouezh ha da wiriekaat ar roadoù all. Ma fell deoc’h skoazellañ evit lañsañ ur yezh nevez, kit da welet hon ostilh <sentenceCollectorLink>dastum frazennoù</sentenceCollectorLink> evit kregiñ.
 faq-what-quality-q = Peseurt perzhded son a zo goulennet evit implijout ur c’hlip mouezh er spletad roadennoù?
 faq-what-quality-a = Fellout a ra deomp e vefe spletad roadennoù Common Voice heverk eus perzhded ar son a vo enrollet gant un anaoudeger ar vouezh neuze e klaskomp kaout liesseurted. Asambles gant ur gumuniezh liesseurt e c’hallo ur spletad roadennoù gant perzhded son disheñvel deskiñ d’al lusker anaoudegezh ar vouezh merañ meur a zegouezhioù er bed gwirion, gant trouzioù ur c’harr pe gant tud o komz en drekleur. Keit ha m’eo komprenus ho klip mouezh eo mat a-walc’h da vezañ enkorfet er spletad roadennoù.
 faq-why-10k-hours-q = Perak eo 10 000 eurvezh gwiriekaet ar pal dre yezh evit tapout ar son?
@@ -514,12 +523,6 @@ about-dataset-new = Spletad roadennoù Common Voice
 about-dataset-new-text = Spletad roadennoù Common Voice a endalc’h kantadoù a viliadoù standilhonoù mouezh a skoazell an diorroerien da sevel ostilhoù adanaoudegezh ar vouezh.
 about-clip-graveyard = Bered ar c’hlipoù
 about-clip-graveyard-text = Bered ar c’hlipoù a zo ar c’hlipoù mouezh n’int ket bet asantet e spletad roadennoù Common Voice. Gallout a raer pellgargañ bered ar c’hlipoù evel ar spletad roadennoù.
-about-partners = Kevelerien
-about-become-a-partner = Dont da vezañ keveler
-about-partnership =
-    Ur raktres a-stroll eo Common Voice, gant ar gumuniezh a gevelerien hag a gendaolerien e savomp ar spletad roadennoù digor o zarzh brasañ zo bet.
-    
-    Fellout a rafe deomp trugarekaat an dud hag an aozadurioù da-heul evit o sikour gant ar raktres:
 about-get-involved = Kemer perzh
 about-get-involved-text-2 =
     C’hoant ho peus sikour da wellaat Common Voice?
@@ -558,12 +561,6 @@ about-playbook-how-grow-language-content-2 = Darvoudoù
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Speredegezh kalvezadel
-mycroft-description =
-    Kentañ skoazeller open-source ar bed eo Mycroft.
-    Mycroft a c’hall bezañ lañset e pep lec’h - war un urzhiataer burev, e-barzh ur c’harr pe war ur Raspberry Pi.
-mycroft-secondary-description = Ur meziant frank a c’hall bezañ admesket, astennet ha gwellaet an hini eo. Gallout a ra Mycroft bezañ implijet e raktresoù liesseurt, eus ur raktres skiantel betek un meziant evit an embregerezhioù.
 
 ## Glossary
 
@@ -718,7 +715,6 @@ language-search-input =
 language-speakers = Komzerien
 localized = Lec’helaet
 sentences = Frazennoù
-total-hours = Hollad eurvezhioù
 
 ## Contribution
 
