@@ -477,6 +477,7 @@ about-playbook-how-record-quality = Fatel wrav rekordya klypp lev a gwalita ughe
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Hwarvosow
+about-playbook-how-grow-language-content-6 = Kesparow ha rosweythyow
 
 ## How to validate
 
@@ -486,12 +487,17 @@ about-playbook-how-grow-language-content-2 = Hwarvosow
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = Privetter, diogeledh hag ylynder.
 
 ## Glossary
 
+localization = Leelheans
+sentence-collection = Kuntel Lavarow
+sst = Kows-dhe-dekst (KDD)
 
 ## Error pages
 
+error-code = Gwall { $code }
 
 ## Data
 
@@ -508,6 +514,8 @@ data-other-goto = Mos dhe { $name }
 data-other-download = Iskarga an data
 data-bundle-button = Iskarga pusorn an sett data
 data-bundle-description = Data Common Voice keffrys ha pub sett data aral a-ugh.
+release-version = Gwersyon
+dataset-date = Dedhyas
 license = Leshyans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Kemyskys
 review-terms = Der usya Common Voice, hwi a wra akordya gans agan <termsLink>termys</termsLink> ha'gan <privacyLink>argemmyn privetter</privacyLink>
@@ -524,6 +532,9 @@ review-delete-recordings = Dilea ow rekordyansow
 
 ## Datasets Page
 
+language = Yeth
+# File size in gigabytes
+size = Braster
 data-other-librispeech-description = LibriSpeech yw korpus a neb 1000 our a gows yn Sowsnek lennys orth 16Khz ow tos dhyworth lyvrow son dhyworth an ragdres LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = An korpus TED-LIUM a veu gwrys dhyworth arethow son ha'ga treusskrifansow kavadow war wiasva TED.
