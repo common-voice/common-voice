@@ -871,9 +871,22 @@ sc-personal-added-by-you = { $sentences } keworrys genes
 
 sc-review-title = Dasweles Lavarow
 sc-review-form-button-skip = Hepkor
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = H
+sc-review-form-button-submit =
+    .submitText = Gorfenna Daswel
+sc-review-link = Dasweles
 
 ## SETTINGS
 
+sc-settings-title = Settyansow
+sc-settings-ui-language = Yeth an Ynterfas
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Dewis yeth/leelheans
