@@ -564,8 +564,19 @@ about-playbook-what-is-language-content-3 = ზოგ ენაში, შეი
 
 about-playbook-how-add-language = როგორ დავამატო ენა?
 about-playbook-how-add-language-content-1 = ჯერ გადაამოწმეთ, <languageLink>უკვე არის თუ არა</languageLink> თქვენი ენა. თუ არაა, საჭირო იქნება <strong>საიტის თარგმნა და წინადადებების შეგროვება</strong>.
-about-playbook-how-add-language-translating-heading = თარგმნეთ ეს საიტი
+about-playbook-how-add-language-translating-heading = საიტის თარგმნა
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>იხილეთ ჩვენი მითითებები, თუ როგორ უნდა გამოიყენოთ Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    თარგმნისთვის ჩვენ ვიყენებთ Mozilla-ს ხელსაწყოს სახელწოდებით <pontoonLink>Pontoon</pontoonLink>. Pontoon-ზე ბევრი ენაა, მაგრამ თუ ვერ იპოვით თქვენსას, შეგიძლიათ <pontoonRequestLink>მოითხოვოთ მისი დამატება</pontoonRequestLink>.
+    შემდეგ, Common Voice-ის პროექტში თქვენი ენის დასამატებლად
+    <githubRepoLink>მოგვმართეთ GitHub-ზე</githubRepoLink>. <localizationFragment>ვრცლად საიტის თარგმნის შესახებ</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = წინადადებების შეგროვება
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>იხილეთ ჩვენი მითითებები, თუ როგორ უნდა გამოიყენოთ წინადადებების შემგროვებელი</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    აქედან შეგიძლიათ <sentenceCollectorLinkAdd>მცირე ოდენობის წინადადებების დამატება</sentenceCollectorLinkAdd>,
+    ხოლო <bulkImportDocsLink>ერთიანად შეტანისთვის გამოიყენეთ Github</bulkImportDocsLink>.
+    გახსოვდეთ, რომ წინადადებები აუცილებლად უნდა იყოს <licenseLink>CC0 (ანუ საყოველთაო საკუთრებაში)</licenseLink> ან თავად უნდა მოიფიქროთ.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>ვრცლად წინადადებების შეგროვების შესახებ</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -822,7 +833,9 @@ language-search-input =
     .placeholder = ძიება
 language-speakers = მოსაუბრე
 localized = თარგმნილი
-sentences = წინადადებები
+sentences = წინადადება
+language-validation-hours = საათი
+language-validation-progress = წინსვლა შემოწმებაში
 
 ## Contribution
 
