@@ -483,6 +483,7 @@ about-playbook-how-record-quality = Fatel wrav rekordya klypp lev a gwalita ughe
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Hwarvosow
+about-playbook-how-grow-language-content-4 = Media sosyel
 about-playbook-how-grow-language-content-6 = Kesparow ha rosweythyow
 
 ## How to validate
@@ -543,6 +544,7 @@ language = Yeth
 size = Braster
 validated-hr-total = Somm a Ourys Dilysys
 cv-license = Leshyans
+audio-format = Furvas Sonadow
 number-of-voices = Niver a Levow
 email-to-download = Entra Ebost dhe Iskarga
 size-gigabyte = RU
@@ -846,6 +848,7 @@ sc-submit-button =
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ny allas keworra an yeth
 sc-add-lang-sec-button = Keworra Yeth
 
 ## ADD SENTENCES CONFIRMATION
@@ -867,6 +870,7 @@ sc-login-err-try-again = Assay arta, mar pleg.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profil: { $username }
+sc-personal-err-remove = Ny allas dilea an yeth
 sc-personal-your-languages = Dha yethow:
 sc-personal-remove-button = dilea
 # Variables:
