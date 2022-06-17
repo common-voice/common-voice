@@ -161,10 +161,12 @@ export default class DB {
     }
   }
 
-  async getSentenceCountByLocale(): Promise<{
-    count: number;
-    locale_id: number;
-  }> {
+  async getSentenceCountByLocale(): Promise<
+    {
+      count: number;
+      locale_id: number;
+    }[]
+  > {
     const [rows] = await this.mysql.query(
       `
       SELECT
@@ -242,7 +244,7 @@ export default class DB {
         FROM clips
         LEFT JOIN locales ON clips.locale_id = locales.id
         WHERE locales.name IN (?) AND created_at>= NOW()-INTERVAL 1 DAY
-        GROUP BY locale
+        GROUP BY locales.name
       `,
         [locales]
       )

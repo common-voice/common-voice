@@ -6,6 +6,7 @@ export type SentenceCount = {
 export type BaseLanguage = {
   locale: string;
   sentencesCount: SentenceCount;
+  is_contributable: boolean;
 };
 
 export type InProgressLanguage = BaseLanguage & {

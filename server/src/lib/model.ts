@@ -212,13 +212,9 @@ export default class Model {
   );
 
   getLanguageStats = lazyCache(
-    'get-language-stats-for-all-languages',
+    'get-language-stats-for-all-languages-test',
     async (): Promise<any> => {
       const allLanguages = await this.getLanguages();
-      console.dir(
-        'allLanguages',
-        allLanguages.map(locale => locale.name)
-      );
 
       const everyLanguage = allLanguages.map(language => language.name);
 
@@ -310,16 +306,7 @@ export default class Model {
         };
       });
 
-      const inProgress = everyLanguage.map(locale => ({
-        locale,
-        localizedPercentage: localizedPercentages[locale] || 0,
-        sentencesCount: sentenceCounts[locale] || {
-          currentCount: 0,
-          targetSentenceCount: DEFAULT_TARGET_SENTENCE_COUNT,
-        },
-      }));
-
-      return { launched, inProgress };
+      return launched;
     },
     2
   );
