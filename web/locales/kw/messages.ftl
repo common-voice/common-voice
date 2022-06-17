@@ -535,11 +535,26 @@ review-delete-recordings = Dilea ow rekordyansow
 language = Yeth
 # File size in gigabytes
 size = Braster
+validated-hr-total = Somm a Ourys Dilysys
+cv-license = Leshyans
+number-of-voices = Niver a Levow
+email-to-download = Entra Ebost dhe Iskarga
+size-gigabyte = RU
+size-megabyte = MB
+download-language = Iskarga{ $language }
+validated-hours = Ourys Dilysys
+recorded-hours = Ourys Rekordys
+subscribe = Ragbrena
+feedback-q = Eus Dasliv?
 data-other-librispeech-description = LibriSpeech yw korpus a neb 1000 our a gows yn Sowsnek lennys orth 16Khz ow tos dhyworth lyvrow son dhyworth an ragdres LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = An korpus TED-LIUM a veu gwrys dhyworth arethow son ha'ga treusskrifansow kavadow war wiasva TED.
 data-other-voxforge-description = VoxForge a veu drehevys rag kuntel kows treusskrifys rag y usya gans jynnow aswon kows pennfenten ygor ha heb kost.
 data-other-tatoeba-description = Tatoeba yw database bras a lavarow, treylyansow ha son kowsys may hyllir y usya ow tyski yethow. Yma a-berth y'n iskargans ma Sowsnek kowsys rekordys gans aga hemeneth.
+more = Moy
+close = Degea
+download = Iskarga
+dataset-version = Gwersyon
 
 ## Download Modal
 
@@ -567,9 +582,17 @@ request-language-form-language =
     .label = Yeth
 request-language-success-title = Danvenys yn sowen a veu an profyans, meur ras.
 request-language-success-content = Ni a vynn kestava genowgh gans moy kedhlow a-dro dhe geworra agas yeth dhe Common Voice yn skon.
+select-language = Dewis Yeth...
+other-language = Yeth Aral
 
 ## Request Language Pages
 
+request-language-heading = Govyn a-dro dhe yeth nowydh
+request-language-form-email =
+    .label = Dha drigva ebost
+request-language-form-info =
+    .label = Kedhlow a-dro dhe'n yeth
+request-language-form-info-explanation-list-1 = Henwyn dha yeth
 
 ## Languages Overview
 
@@ -582,6 +605,8 @@ language-total-progress = Somm
 language-search-input =
     .placeholder = Hwilas
 language-speakers = Kowsoryon
+localized = Leelhes
+sentences = Lavarow
 
 ## Contribution
 
@@ -618,6 +643,8 @@ record-again-instruction = Bryntin! <recordIcon></recordIcon> Rekordyowgh agas n
 record-again-instruction2 = Dewgh yn-rag, rekordyowgh arta <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> An diwettha!
 review-tooltip = Dasweles ha dasrekordya klyppys omma
+share-clip = Kevrenna dha glypp
+share-common-voice = Kevrenna Common Voice
 review-instruction = Dasweles ha dasrekordya klyppys mars yw res
 record-submit-tooltip = { $actionType } danvenowgh pan vo parys
 clips-uploaded = Klyppys ughkergys
@@ -630,36 +657,100 @@ listen-instruction = { $actionType }<playIcon></playIcon> a gowssons yn kewer an
 listen-again-instruction = Ober da! <playIcon></playIcon> Goslowowgh arta pan vowgh parys
 listen-3rd-time-instruction = 2 gwrys <playIcon></playIcon>, splann!
 listen-last-time-instruction = <playIcon></playIcon> An diwettha!
+speak-empty-state-cta = Kevri lavarow
 record-button-label = Rekordyowgh agas lev
 share-title-new = <bold>Gweresowgh ni</bold> ow kavos moy levow
+login-to-get-started = Omgelmi po omrolya dhe dhalleth
+target-segment-add-voice = Keworra Dha Lev
+target-segment-learn-more = Dyski Moy
 
 ## Reporting
 
+report = Derivas
+report-title = Danvon derivas
+report-offensive-language = Yeth offensus
+report-grammar-or-spelling = Gwall gramasek / spellyans
+report-different-language = Yeth dyffrans
+report-difficult-pronounce = Kales y leverel
+report-offensive-speech = Kows offensus
+report-other-comment =
+    .placeholder = Kampolla
+success = Sewena
+continue = Pesya
 
 ## Goals
 
 
 ## Dashboard
 
+your-languages = Dha Yethow
+goal-reached = Amkan drehedhys
+stats = Stattys
+awards = Pewasow
+you = Ty
+everyone = Pubonan
+recorded-clips = Klyppys Rekordys
+validated-clips = Klyppys Dilysys
+set-visibility = Settya ow gweladewder
 
 ## Custom Goals
 
+both-speak-and-listen = An Dhew
+both-speak-and-listen-long = An Dhew (Kewsel ha Goslowes)
+daily-goal = Amkan Dedhyek
+weekly-goal = Amkan Seythennyek
+easy-difficulty = Es
+average-difficulty = Kresek
+difficult-difficulty = Kales
+pro-difficulty = Pro
+want-to-continue = A vynn'ta pesya?
+finish-editing = Gorfenna golegi kyns oll?
+lose-changes-warning = Mar tiberthydh lemmyn, ty a wra kelli dha janjyow
+set-a-goal = Settya amkan
+cant-decide = A ny yll'ta ervira?
+which-goal-type = A vynn'ta Kewsel, Goslowes po an dhew?
+confirm-goal = Afydhya Amkan
+goal-interval-weekly = Seythennyek
+share-goal-type-speak = Kewsel
+share-goal-type-listen = Goslowes
+share-goal-type-both = Kewsel ha Goslowes
+share-goal = Kevrenna ow amkan
 
 ## Profile Delete
 
+keep = Gwitha
+remove = Dilea
 profile-form-delete = Dilea an profil
 
 ## Profile Download
 
+download-profile-title = Profil
+download-profile-size = Nebes baytys
+download-recordings-title = Rekordyansow
+download-size = Braster
+download-selected = Dewisys
+download-start = Iskarga kedhlow ow frofil
+download-request-button = Iskarga
+download-request-title = { $created }
+download-request-refresh-button = Dasnowedhi
+download-request-modal-title = Kevrennow Iskarga
+download-request-metadata-link = Tekst an lavar
 
 ## Landing
 
+welcome-staff = Dynnargh mayni { $company }!
+login-company = Omgelmi / Omrolya gans ebost { $company }
 
 ## DemoLayout
 
+demo-get-started = Gwren Dalleth
+demo-welcome = Dynnargh dhe Common Voice
 
 ## Demo Datasets
 
+card-button-next = Nessa
+card-button-back = War-lergh
+demo-language-select-label = Peuri Yethow
 
 ## Demo Account
 
