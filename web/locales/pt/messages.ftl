@@ -190,12 +190,14 @@ ve = Tshivenda
 vec = Veneziano
 vi = Vietnamita
 vot = Vótico
+xh = Xhosa
 yi = Iídiche
 yo = Iorubá
 yue = Cantonês
 zh-CN = Chinês (China)
 zh-HK = Chinês (Hong Kong)
 zh-TW = Chinês (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -459,6 +461,9 @@ faq-why-different-speakers-a =
     A maioria dos bancos de dados de voz é treinado com uma representação excessiva de certos grupos demográficos, o que resulta em um viés <articleLink>masculino e de classe média</articleLink>. Sotaques e dialetos que tendem a ser sub-representados em conjuntos de dados de treinamento são tipicamente associados a grupos de pessoas que já estão marginalizadas. Muitas máquinas também têm dificuldades para entender vozes femininas.
     É por isso que, no nosso banco de dados de voz, queremos variedade!
 faq-why-my-lang-q = Por que meu idioma ainda não foi incluído?
+faq-why-my-lang-a =
+    Common Voice é uma plataforma de terceirização coletiva (crowdsourcing), os idiomas foram todos adicionados por voluntários.
+    Adoraríamos que você adicionasse seu idioma! <languageRequestLink>Pergunte sobre como adicionar seu idioma.</languageRequestLink>
 faq-what-quality-q = Qual o nível de qualidade de áudio é necessário para um clipe de voz ser usado no conjunto de dados?
 faq-what-quality-a = Queremos que o conjunto de dados do Common Voice reflita a qualidade de áudio que um mecanismo de conversão de fala para texto ouvirá no mundo real, por isso, estamos procurando variedade. Além de uma comunidade diversificada de falantes, um conjunto de dados com qualidade de áudio variada ensinará o mecanismo de conversão de fala para texto a lidar com várias situações do mundo real, desde conversas ao fundo até ruído de carro. Contanto que o seu clipe de voz seja inteligível, ele deve ser bom o suficiente para o conjunto de dados.
 faq-why-10k-hours-q = Por que 10.000 horas validadas é a meta por idioma de captura de áudio?
@@ -557,6 +562,15 @@ about-playbook-what-is-language-content-3 = Alguns idiomas têm uma enorme varia
 
 about-playbook-how-add-language = Como adicionar um idioma?
 about-playbook-how-add-language-content-1 = Primeiro, verifique se seu idioma <languageLink>já existe</languageLink>. Se não existir, você precisa <strong>traduzir o site e coletar frases</strong>.
+about-playbook-how-add-language-translating-heading = Tradução do site
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Assista ao nosso guia sobre como usar o Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Coleta de frases
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Assista ao nosso guia sobre como usar o coletor de frases</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Você pode <sentenceCollectorLinkAdd>adicionar pequenas quantidades de frases</sentenceCollectorLinkAdd>,
+    ou pode fazer <bulkImportDocsLink>importação em massa usando o Github</bulkImportDocsLink>.
+    Lembre que as frases precisam ter <licenseLink>licença CC0 (ou ser de domínio público)</licenseLink>, ou você pode escrever suas próprias.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Veja mais sobre coleta de frases</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -816,6 +830,8 @@ language-search-input =
 language-speakers = Falantes
 localized = Traduzido
 sentences = Frases
+language-validation-hours = Horas
+language-validation-progress = Progresso da validação
 
 ## Contribution
 
