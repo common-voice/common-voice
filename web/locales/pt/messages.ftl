@@ -564,6 +564,11 @@ about-playbook-how-add-language = Como adicionar um idioma?
 about-playbook-how-add-language-content-1 = Primeiro, verifique se seu idioma <languageLink>já existe</languageLink>. Se não existir, você precisa <strong>traduzir o site e coletar frases</strong>.
 about-playbook-how-add-language-translating-heading = Tradução do site
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Assista ao nosso guia sobre como usar o Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Usamos uma ferramenta da Mozilla chamada <pontoonLink>Pontoon</pontoonLink> para traduções. O Pontoon tem muitos idiomas,
+    mas se não tiver o seu, você pode <pontoonRequestLink>solicitar que seu idioma seja adicionado</pontoonRequestLink>.
+    Em seguida, para disponibilizar o idioma no projeto Common Voice,
+    <githubRepoLink>solicite o novo idioma no GitHub</githubRepoLink>. <localizationFragment>Veja mais sobre tradução do site</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Coleta de frases
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Assista ao nosso guia sobre como usar o coletor de frases</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
