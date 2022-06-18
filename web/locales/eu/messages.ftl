@@ -346,6 +346,7 @@ hidden = Ezkutuan
 visible = Ikusgai
 native-language =
     .label = Ama-hizkuntza
+profile-form-add-accent = Gehitu "{ $inputValue }" azentu berria
 profile-form-submit-save = Gorde
 profile-form-submit-saved = Gordeta
 male = Gizonezkoa
@@ -515,10 +516,13 @@ about-nav-playbook = Ikasi nola parte hartu
 ## What is a language
 
 about-playbook-what-is-language = Zer da hizkuntza bat Common Voicen?
+about-playbook-what-is-language-content-3 = Hizkuntza batzuek sekulako aldaketak dituzte gramatika, hiztegi eta ahoskera aldetik. Arrazoi honengatik, <ctaLink>‘Aldaerak’ aurkezten</ctaLink> ari gara 2022an. Honek komunitateei beraien hizkuntzak datu-sorta handiagoetan bereizteko aukera ematen die.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Nola gehi dezaket hizkuntza bat?
+about-playbook-how-add-language-translating-heading = Gunea itzultzen
+about-playbook-how-add-language-collecting-sentences-heading = Esaldiak biltzen
 
 ## How does localization work
 
@@ -724,6 +728,7 @@ language-search-input =
 language-speakers = Hiztunak
 localized = Lokalizatuta
 sentences = Esaldiak
+language-validation-hours = Orduak
 
 ## Contribution
 
@@ -1056,7 +1061,9 @@ sc-header-my = Nire esaldiak
 sc-header-statistics = Estatistikak
 sc-header-profile = Profila
 sc-footer-discourse = Discourse
+sc-footer-report-bugs = Erroreen berri eman
 sc-footer-translate = Itzuli orrialde hau
+sc-footer-report-copyright = Copyright arazoen berri eman
 sc-footer-privacy = Pribatutasuna
 sc-footer-terms = Baldintzak
 sc-footer-cookies = Cookieak
@@ -1076,15 +1083,19 @@ sc-home-review-title = Berrikusi esaldiak
 ## HOW-TO
 
 sc-howto-addsen-title = Gehitu esaldi berriak
+sc-howto-cite-title = Nola egin aipuak
 sc-howto-review-title = Berrikusi esaldiak
 
 ## MY SENTENCES
 
 sc-my-title = Nire esaldiak
+sc-my-loading = Zure esaldiak kargatzen…
 sc-my-no-sentences = Ez da esaldirik aurkitu!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Iturria:  { $source }
+sc-my-delete = Ezabatu hautatutako esaldiak
+sc-my-deleting = Hautatutako esaldiak ezabatzen…
 
 ## REJECTED
 
@@ -1099,7 +1110,21 @@ sc-stats-updating = Eguneratzen…
 
 ## ADD
 
+sc-submit-err-select-lang = Mesedez hautatu hizkuntza bat.
+sc-submit-err-add-sentences = Mesedez gehitu esaldiak.
+sc-submit-err-add-source = Mesedez gehitu iturria.
+sc-submit-err-confirm-pd = Mesedez baieztatu esaldi hauek jabetza publikoan daudela.
+sc-submit-prompt =
+    .message = Esaldiak ez dira bidali, ziur zaude alde egin nahi duzula?
 sc-submit-title = Gehitu esaldiak
+sc-submit-select-language =
+    .labelText = Hautatu hizkuntza
+sc-submit-add-sentences = Gehitu <wikipediaLink>jabetza publikoan</wikipediaLink> daude esaldiak
+sc-submit-ph-one-per-line =
+    .placeholder = Esaldi bat lerro bakoitzeko
+sc-submit-from-where = <wikipediaLink>Jabetza publikoko</wikipediaLink> esaldi hauek nongoak dira?
+sc-submit-button =
+    .submitText = Bidali
 
 ## ADD LANGUAGE
 
