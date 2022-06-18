@@ -542,7 +542,7 @@ about-playbook-how-record-content-4 = دڵنیابە لەوەی دوانگەکە
 about-playbook-how-grow-language = چۆن دەتوانین بەکارامەیی گەشە بە زمانێک بدەین لە دەنگی گشتی دا؟
 about-playbook-how-grow-language-content-1 = دروستکردنی دەرفەت بۆ خەڵکێکی جۆراوجۆر بۆ بەشداریکردن لە دەنگی هاوبەش دڵنیای دەدات لەوەی کە کۆمەڵە داتاکە خزمەت بە زۆرترین کەس دەکات. ئێمە سەرچاوە و قاڵبمان دروست کردووە کە دەتوانیت بەکاری بهێنیت!
 about-playbook-how-grow-language-content-2 = بۆنەکان
-about-playbook-how-grow-language-content-4 = میدیای کۆمەڵایەتی
+about-playbook-how-grow-language-content-4 = تۆڕی کۆمەڵایەتی
 about-playbook-how-grow-language-content-6 = هاوبەشییەکان و تۆڕەکان
 
 ## How to validate
