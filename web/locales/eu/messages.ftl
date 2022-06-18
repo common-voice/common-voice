@@ -1128,17 +1128,64 @@ sc-submit-button =
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ezin izan da hizkuntza gehitu
+sc-add-lang-sec-label = Gehitu lagundu nahi duzun hizkuntza
 sc-add-lang-sec-button = Gehitu hizkuntza
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Bidalitako esaldiak. Esaldi bat ere ez da baztertu bikoiztuta egoteagatik.
+        [one] Bidalitako esaldiak.  Esaldi { $duplicates } baztertu da bikoiztuta egoteagatik.
+       *[other] Bidalitako esaldiak. { $duplicates } esaldi baztertu dira bikoiztuta egoteagatik.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Esaldi guztiak ondo
+        [one] Esaldi 1ek hutsi egin du
+       *[other] { $sentences } esaldik huts egin dute
+    }
+sc-add-err-submission = Bidalketak errorea
+sc-add-lang-process-notice = Zure esaldia hemen zerrendatzen ez bada, <languageProcessLink>prozesu honen bidez</languageProcessLink> eska dezakezu.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Esaldiak ez dira bidali, ziur zaude alde egin nahi duzula?
+sc-confirm-sentences-title = Baieztatu esaldi berriak
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Ez da esaldirik aurkitu.
+        [one] Esaldi 1 aurkitu da.
+       *[other] { $countOfSentences } esaldi aurkitu dira.
+    }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } zuk baztertuak
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Oraindik ez dago berrikusitako esaldirik.
+        [one] Berrikusitako esaldi 1 dago dagoeneko. Lan bikaina!
+       *[other] Berrikusitako { $countOfReviewed } esaldi daude dagoeneko. Lan bikaina!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Ez dago esaldirik bidaltzeko prest!
+        [one] Esaldi 1 bidaltzeko prest dago!
+       *[other] { $readyCount } esaldi daude bidaltzeko prest!
+    }
 sc-confirm-button-text = Baieztatu
 
 ## LANGUAGE INFO
 
+sc-lang-info-review-now = <reviewLink>Berrikusi orain!</reviewLink>
+sc-lang-info-add-more = <addLink>Gehitu esaldi gehiago orain!</addLink>
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
