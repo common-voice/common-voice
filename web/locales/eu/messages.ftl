@@ -1187,6 +1187,14 @@ sc-confirm-button-text = Baieztatu
 sc-lang-info-review-now = <reviewLink>Berrikusi orain!</reviewLink>
 sc-lang-info-add-more = <addLink>Gehitu esaldi gehiago orain!</addLink>
 # Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ez dago balioztatutako esaldirik.
+        [one] Balioztatutako esaldi 1.
+       *[other] Balioztatutako { $validatedSentences } esaldi.
+    }
+# Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
@@ -1197,6 +1205,7 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-failed = Saio hasteak huts egin du
 sc-login-err-try-again = Saiatu berriz mesedez.
 
 ## PROFILE
@@ -1204,11 +1213,23 @@ sc-login-err-try-again = Saiatu berriz mesedez.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profila: { $username }
+sc-personal-err-lang-not-found = Ezin izan da hizkuntza kendu: ez da aurkitu
+sc-personal-err-remove = Ezin izan da hizkuntza kendu
 sc-personal-your-languages = Zure hizkuntzak:
 sc-personal-remove-button = ezabatu
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } zuk gehituak
+sc-personal-not-added = Oraindik ez duzu hizkuntzarik gehitu.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Berrikusketa irizpideak
+sc-criteria-title = Berrikusketa irizpideak
+sc-criteria-make-sure = Ziurtatu esaldiek ondoko irizpideak betetzen dituztela:
+sc-criteria-item-1 = Esaldiek ez dute akats ortografikorik izan behar.
+sc-criteria-item-2 = Esaldiek ez dute akats gramatikalik izan behar.
+sc-criteria-item-3 = Esaldiak ahoskagarriak izan behar dira.
 
 ## REVIEW
 
