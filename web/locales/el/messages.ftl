@@ -130,6 +130,7 @@ ne-NP = Νεπαλικά
 nia = Νας
 nl = Ολλανδικά
 nn-NO = Νορβηγικά (Nynorsk)
+nr = IsiNdebele (Νότια)
 nyn = Νιανκόλε
 oc = Οξιτανικά
 or = Odia
