@@ -15,6 +15,7 @@ indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
 not-available-abbreviation = N/A
 banner-error-slow-1 = Barkatu, Common Voice orain geldo dabil. Zure interesa eskertzen dugu.
 banner-error-slow-2 = Trafiko asko jasotzen ari gara eta arazoaren jatorria ikertzen ari gara.
+banner-error-slow-link = Egoera orrialdea
 error-something-went-wrong = Barkatu, zerbait gaizki joan da
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -301,7 +302,6 @@ shortcut-discard-ongoing-recording-label = Baztertu grabazioa hau
 shortcut-submit = Sartu
 shortcut-submit-label = Gorde grabazioak
 request-language-text = Ez duzu zure hizkuntza Common Voicen ikusten oraindik?
-request-language-text-learn = Ikasi hemen nola eskatzen den!
 request-language-button = Eskatu hizkuntza bat
 
 ## ProjectStatus
@@ -328,6 +328,9 @@ profile-form-additional-language =
     .label = Hizkuntza gehigarria
 profile-form-language =
     .label = Hizkuntza
+profile-form-variant =
+    .label = { $language }(r)en zein aldera hitz egiten duzu?
+profile-form-variant-default-value = Ez dago aldaerarik hautatuta
 profile-form-accent =
     .label = Azentua
 profile-form-custom-accent-help-text =
@@ -376,6 +379,8 @@ skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun
 off = Itzalita
 on = Piztuta
 help-accent = Azentuarekin laguntza behar duzu?
+help-variants = Aldaerekin laguntza behar duzu?
+help-variants-explanation = Aldaerak hizkuntza baten forma espezifikoak dira - adibidez leku edo komunitate batean bizi direnek hitz egiten dutena. Batzuetan dialektoak deitzen zaie.
 
 ## Profile - Email
 
@@ -489,12 +494,6 @@ about-dataset-new = Common Voice datu-sorta
 about-dataset-new-text = Common Voice datu-sortak ehunka mila ahots laginez osatuta dago, garatzaileei ahotsaren ezagutzarako tresnak sortzen laguntzen diena.
 about-clip-graveyard = Grabazioen hilerria
 about-clip-graveyard-text = Grabazioen hilerria Common Voice datu-sortan sartu ez diren ahots grabazioez osatuta dago. Datu-sorta bezala, Grabazioen hilerria ere deskargagarri dago.
-about-partners = Babesleak
-about-become-a-partner = Babesle bihurtu
-about-partnership =
-    Common Voice lankidetza-proiektu bat da. Horregatik, gure bazkide- eta laguntzaile-komunitatea ezinbestekoa dugu historiako kode irekiko ahotsen datu-sortarik handiena biltzeko.
-    
-    Eskerrak eman nahi dizkiegu honako pertsona eta erakunde hauei proiektuan laguntzeagatik:
 about-get-involved = Parte hartu
 about-get-involved-text-2 =
     Common Voice hobeto lagundu nahi duzu?
@@ -556,12 +555,6 @@ about-playbook-how-project-governance-content-4 = Komunitatearen parte-hartzea, 
 about-playbook-how-project-governance-content-5 = Balioa eta aitortza.
 about-playbook-how-project-governance-content-6 = Elkarri kontu ematea.
 about-playbook-how-project-governance-content-7 = <governanceLink>Irakurri gehiago gure gobernatzeko moduaz</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Adimen artifiziala
-mycroft-description =
-    Mycroft munduko lehen kode irekiko laguntzailea da.
-    Mycroft edozein lekutan dabil; idazmahaiko ordenagailu baten, auto baten barruan edo Raspberry Pi batean.
-mycroft-secondary-description = Hau kode irekiko softwarea da eta nahieran nahastu, hedatu eta hobetu daiteke. Mycroft edozertarako erabil daiteke, proiektu zientifiko batetik hasi eta software enpresarialeko aplikazio batera arte.
 
 ## Glossary
 
@@ -731,7 +724,6 @@ language-search-input =
 language-speakers = Hiztunak
 localized = Lokalizatuta
 sentences = Esaldiak
-total-hours = Balioztatutako orduak
 
 ## Contribution
 
