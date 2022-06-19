@@ -631,7 +631,7 @@ about-playbook-how-grow-language-content-8 = <strong>Будьте вигадли
 
 ## How to validate
 
-about-playbook-how-validate = Як дізнатися, чи схвалити голосовий кліп?
+about-playbook-how-validate = Як визначитися, чи схвалювати голосовий кліп?
 about-playbook-how-validate-content-1 = Якщо ви можете <strong>чути їх</strong> і <strong>розуміти</strong>, зазвичай <strong>краще їх схвалити</strong>.
 about-playbook-how-validate-content-2 = <strong>Не відхиляйте кліпи, у яких мовець «має акцент», який відрізняється від вашого</strong> — важливо, щоб розпізнавання голосу працювало краще для всіх.
 about-playbook-how-validate-content-3 = Якщо ви вважаєте, що через вимову його <strong>неможливо зрозуміти</strong>, або <strong>забагато фонового шуму</strong>, або <strong>чутно балачки інших людей</strong>, тоді слід відхилити кліп. <accuracyLink>Читайте більше інформації в наших критеріях точності</accuracyLink>.
@@ -752,10 +752,10 @@ resource-deepspeech-info = Рушій розпізнавання голосу з
 resource-coqui-info = <coquiLink>Coqui</coquiLink> створено для технології відкритого мовлення. Їхні проєкти включають STT та TTS на основі глибокого навчання.
 community-playbook = Настанови спільноти
 resource-playbook-info = <playbookLink>Знайдіть корисні вказівки</playbookLink> щодо користування з Common Voice — від локалізації до застосування набору даних, а також про те, як зв’язатися з нашою спільнотою.
-data-other-librispeech-description = LibriSpeech є збіркою, що містить приблизно 1000 годин 16 кГц аудіозаписів англійської вимови, отриманих з проєкту LibriVox.
+data-other-librispeech-description = LibriSpeech — це збірка, яка містить близько 1000 годин 16 кГц аудіозаписів англійської вимови, отриманих з проєкту LibriVox.
 data-other-ted-name = Збірка TED-LIUM
 data-other-ted-description = Збірка TED-LIUM створена з аудіорозмов та їхніх транскрипцій, доступних на вебсайті TED.
-data-other-voxforge-description = VoxForge було створено для збирання транскрибованої вимови для використання в засобах розпізнавання мови з відкритим кодом.
+data-other-voxforge-description = VoxForge було створено для збору транскрибованої вимови для використання в засобах розпізнавання мови з відкритим кодом.
 data-other-tatoeba-description = Tatoeba — це велика база даних речень, перекладів та аудіо для використання під час вивчення мов. Це завантаження містить записи англійської мови від їхньої спільноти.
 your-feedback = У вас є ідеї про те, як ми можемо поліпшити набір даних Common Voice? Дайте нам знати про це на сторінці Discourse
 go-discourse = Перейти до Discourse
