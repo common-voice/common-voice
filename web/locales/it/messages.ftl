@@ -558,7 +558,13 @@ about-playbook-how-add-language = Come posso aggiungere una lingua?
 about-playbook-how-add-language-content-1 = Innanzitutto, controlla se la tua lingua <languageLink>esiste già</languageLink>. In caso contrario sarà necessario <strong>tradurre il sito e raccogliere frasi</strong>.
 about-playbook-how-add-language-translating-heading = Traduzione del sito
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Guarda la nostra guida su come utilizzare Pontoon</translateVideoLink>.
+about-playbook-how-add-language-translating-content-2 = Per le traduzioni utilizziamo uno strumento sviluppato da Mozilla e chiamato <pontoonLink>Pontoon</pontoonLink>. Pontoon dispone di molte lingue, ma se la tua non è presente puoi <pontoonRequestLink>chiedere di aggiungerla</pontoonRequestLink>. Quindi, per rendere disponibile la lingua nel progetto Common Voice, <githubRepoLink>richiedi la nuova lingua su GitHub</githubRepoLink>. <localizationFragment>Ulteriori informazioni sulla traduzione del sito</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Raccolta delle frasi
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Guarda la nostra guida sull’utilizzo del Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Puoi <sentenceCollectorLinkAdd>aggiungere un numero limitato di frasi</sentenceCollectorLinkAdd>,
+    oppure puoi eseguire <bulkImportDocsLink>importazioni in blocco utilizzando GitHub</bulkImportDocsLink>.
+    Ricorda che le frasi devono essere disponibili con licenza <licenseLink>CC0 (o di pubblico dominio)</licenseLink>, oppure puoi scriverle direttamente tu.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ulteriori informazioni sulla raccolta di frasi</sentenceCollectorFragment>.
 
 ## How does localization work
