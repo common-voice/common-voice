@@ -125,10 +125,12 @@ my = Birmano
 myv = Erza
 nan-tw = Taiwanese (Minnan)
 nb-NO = Bokmål (Norvegia)
+nd = IsiNdebele del nord
 ne-NP = Nepalese
 nia = Nias
 nl = Olandese
 nn-NO = Norvegese Nynorsk
+nr = IsiNdebele del sud
 nso = Sotho del nord
 nyn = Nyankole
 oc = Occitano
@@ -455,6 +457,9 @@ faq-do-want-native-a = Sì, cerchiamo soprattutto voci come la tua! Uno degli ob
 faq-why-different-speakers-q = Perché avete bisogno di così tante voci diverse per ogni lingua?
 faq-why-different-speakers-a = Nella stragrande maggioranza dei database per l’apprendimento vocale troviamo una netta sproporzione demografica a favore delle voci <articleLink>maschili e di classe media</articleLink>. Invece gli accenti e i dialetti associati ai gruppi già di per sé marginalizzati ricevono una rappresentazione minore nei dataset per l’apprendimento del software. Inoltre diversi dispositivi faticano a comprendere le voci femminili. Ecco perché vogliamo che il nostro database sia così vario.
 faq-why-my-lang-q = Perché la mia lingua non è stata ancora inclusa?
+faq-why-my-lang-a =
+    Common Voice è una piattaforma di crowdsourcing e tutte le lingue sono state aggiunte da volontari.
+    Ci farebbe piacere se tu aggiungessi la tua lingua! <languageRequestLink>Chiedi come aggiungere la tua lingua</languageRequestLink>.
 faq-what-quality-q = Quale livello di qualità audio è richiesto da una registrazione vocale per essere utilizzata nel dataset?
 faq-what-quality-a = Vogliamo che il dataset di Common Voice rifletta la qualità audio che un motore di riconoscimento vocale “ascolterà” nella vita di tutti i giorni, per questo cerchiamo la varietà. Oltre a una comunità diversificata di parlanti, un dataset con qualità audio variabile insegnerà al motore di riconoscimento vocale a gestire varie situazioni del mondo reale, dal parlato di sottofondo al rumore dell’automobile. In poche parole, finché si distinguono le parole la tua registrazione va benissimo per il dataset!
 faq-why-10k-hours-q = Perché l’obiettivo di registrazione è proprio 10.000 ore convalidate per ogni lingua?
@@ -551,6 +556,7 @@ about-playbook-what-is-language-content-3 = Alcune lingue hanno una variabilità
 
 about-playbook-how-add-language = Come posso aggiungere una lingua?
 about-playbook-how-add-language-content-1 = Innanzitutto, controlla se la tua lingua <languageLink>esiste già</languageLink>. In caso contrario sarà necessario <strong>tradurre il sito e raccogliere frasi</strong>.
+about-playbook-how-add-language-translating-heading = Traduzione del sito
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Guarda la nostra guida su come utilizzare Pontoon</translateVideoLink>.
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Guarda la nostra guida sull’utilizzo del Sentence Collector</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ulteriori informazioni sulla raccolta di frasi</sentenceCollectorFragment>.
