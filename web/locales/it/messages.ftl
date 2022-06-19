@@ -970,10 +970,10 @@ finish-editing = Vuoi finire prima le modifiche?
 lose-changes-warning = Se esci ora, perderai le tue modifiche
 build-custom-goal = Crea un obiettivo personale
 help-reach-hours-pluralized =
-    Aiuta a raggiungere{ NUMBER($hours) ->
-        [one] { $hours } ora
-       *[other] { $hours } ore
-    } in { $language } con un obiettivo personale
+    { NUMBER($hours) ->
+        [one] Aiuta a raggiungere { $hours } ora in { $language } con un obiettivo personale
+       *[other] Aiuta a raggiungere { $hours } ore in { $language } con un obiettivo personale
+    }
 help-reach-hours-general-pluralized =
     Aiuta Common Voice a raggiungere { NUMBER($hours) ->
         [one] { $hours } ora
