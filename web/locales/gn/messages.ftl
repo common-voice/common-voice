@@ -564,6 +564,8 @@ about-playbook-what-is-language-content-3 = Heta ñẽ’e iñambue tuicha iñe�
 
 about-playbook-how-add-language = ¿Mba’éicha ambojuajúta ñe’ẽ?
 about-playbook-how-add-language-content-1 = Ñepyrũrã, ehechajey ne ñe’ẽ <languageLink>oĩmapa</languageLink>. Ndapeichairamo, <strong>omoñe’ẽasava’erã pe tenda ha ombyaty ñe’ẽjuaju</strong>.
+about-playbook-how-add-language-translating-heading = Omoñe’ẽasa tenda
+about-playbook-how-add-language-collecting-sentences-heading = Ñe’ẽrysýi ñembyaty
 
 ## How does localization work
 
@@ -822,6 +824,7 @@ language-search-input =
 language-speakers = Ñe’ẽharakuéra
 localized = Ñe’ẽasapyre
 sentences = Ñe’ẽjoajukuéra
+language-validation-hours = Aravo
 
 ## Contribution
 
