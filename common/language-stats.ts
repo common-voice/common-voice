@@ -14,18 +14,11 @@ export type BaseLanguage = {
   is_contributable: boolean;
 };
 
-export type InProgressLanguage = BaseLanguage & {
-  localizedPercentage: number;
-};
-
-export type LaunchedLanguage = BaseLanguage & {
+export type LanguageStatistics = BaseLanguage & {
   recordedHours: number;
   validatedHours: number;
   speakersCount: number;
   sentencesCount: SentenceCount;
+  localizedPercentage: number;
+  locale?: string;
 };
-
-export interface LanguageStats {
-  inProgress: InProgressLanguage[];
-  launched: LaunchedLanguage[];
-}
