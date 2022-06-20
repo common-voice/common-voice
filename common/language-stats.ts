@@ -3,6 +3,11 @@ export type SentenceCount = {
   targetSentenceCount: number;
 };
 
+export type GenericStatistic = {
+  locale_id: number;
+  count: number;
+};
+
 export type BaseLanguage = {
   locale: string;
   sentencesCount: SentenceCount;
