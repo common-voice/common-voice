@@ -1,5 +1,11 @@
 import * as request from 'request-promise-native';
-import { Language, LanguageStats, Sentence, SentenceCount } from 'common';
+import {
+  GenericStatistic,
+  Language,
+  LanguageStats,
+  Sentence,
+  SentenceCount,
+} from 'common';
 import DB from './model/db';
 import { DBClip } from './model/db/tables/clip-table';
 import lazyCache from './lazy-cache';
@@ -108,7 +114,7 @@ const DEFAULT_TARGET_SENTENCE_COUNT = 5000;
 const getAverageSecondsPerClip = (locale: string) =>
   AVG_CLIP_SECONDS_PER_LOCALE[locale] || AVG_CLIP_SECONDS;
 
-function fetchLocalizedPercentagesByLocale() {
+function fetchLocalizedPercentagesByLocale(): Promise<any> {
   return request({
     uri: 'https://pontoon.mozilla.org/graphql?query={project(slug:%22common-voice%22){localizations{totalStrings,approvedStrings,locale{code}}}}',
     method: 'GET',
@@ -127,6 +133,7 @@ function fetchLocalizedPercentagesByLocale() {
     )
   );
 }
+
 const MINUTE = 1000 * 60;
 const DAY = MINUTE * 60 * 24;
 
@@ -195,7 +202,7 @@ export default class Model {
   }
 
   getLanguages = lazyCache(
-    'get-all-languages-with-stats',
+    'get-all-languages-with-sentence-count',
     async (): Promise<Language[]> => {
       return await this.db.getLanguages();
     },
@@ -211,104 +218,69 @@ export default class Model {
     DAY
   );
 
+  getLocalizedPercentages = lazyCache(
+    'get-localized-percentagesx',
+    async (): Promise<any> => fetchLocalizedPercentagesByLocale(),
+    DAY
+  );
+
   getLanguageStats = lazyCache(
-    'get-language-stats-for-all-languages-test',
+    'get-total-language-stats',
     async (): Promise<any> => {
-      const allLanguages = await this.getLanguages();
+      const languages = await this.db.getLanguages();
+      const allLanguageIds = languages.map(language => language.id);
 
-      const everyLanguage = allLanguages.map(language => language.name);
-
-      // const contributableLocales = allLanguages
-      //   .filter(language => language.is_contributable)
-      //   .map(language => language.name);
-
-      // const inProgressLocales = allLanguages
-      //   .filter(language => !language.is_contributable)
-      //   .map(language => language.name);
-
-      // function indexCountByLocale(rows: { locale: string; count: number }[]): {
-      //   [locale: string]: number;
-      // } {
-      //   return rows.reduce(
-      //     (
-      //       obj: { [locale: string]: number },
-      //       { count, locale }: { count: number; locale: string }
-      //     ) => {
-      //       obj[locale] = count;
-      //       return obj;
-      //     },
-      //     {}
-      //   );
-      // }
-
-      // function indexSentenceCountByLocale(
-      //   rows: { locale: string; count: number; target_sentence_count: number }[]
-      // ): {
-      //   [locale: string]: SentenceCount;
-      // } {
-      //   return rows.reduce(
-      //     (
-      //       obj: { [locale: string]: SentenceCount },
-      //       {
-      //         count,
-      //         locale,
-      //         target_sentence_count,
-      //       }: { locale: string; count: number; target_sentence_count: number }
-      //     ) => {
-      //       obj[locale] = {
-      //         currentCount: count,
-      //         targetSentenceCount: target_sentence_count,
-      //       };
-      //       return obj;
-      //     },
-      //     {}
-      //   );
-      // }
+      const statsReducer = (langStats: GenericStatistic[]) => {
+        return langStats.reduce((obj: any, stat: GenericStatistic) => {
+          obj[stat.locale_id] = stat.count;
+          return obj;
+        }, {});
+      };
 
       const [
         localizedPercentages,
-        sentenceCounts,
         validClipsCounts,
         speakerCounts,
-        dailyClipCount,
+        allClipsCount,
       ] = await Promise.all([
-        fetchLocalizedPercentagesByLocale(),
-        this.db.getSentenceCountByLocale(),
-        this.db.getValidClipCount(everyLanguage),
-        this.db.getSpeakerCount(everyLanguage),
-        this.db.getDailySpeakerCount(everyLanguage),
+        this.getLocalizedPercentages(), //translation %, no en
+        this.db
+          .getValidClipCount(allLanguageIds)
+          .then(data => statsReducer(data)),
+        this.db
+          .getTotalSpeakerCount(allLanguageIds)
+          .then(data => statsReducer(data)),
+        this.db
+          .getAllClipCount(allLanguageIds)
+          .then(data => statsReducer(data)),
       ]);
 
-      const countToHours = (locale: string, count?: number) => {
-        if (!count || count === 0) {
-          return 0;
-        }
-        return Math.ceil(
-          (count * getAverageSecondsPerClip(locale)) / HOUR_IN_SECONDS
-        );
-      };
-
-      const launched = everyLanguage.map((locale: any) => {
-        const recordedHours = 1000; //countToHours(locale, dailyClipCount[locale]);
-        const validatedHours = 888; //countToHours(locale, validClipsCounts[locale]);
-        const speakersCount = speakerCounts[locale] || 0;
-        const sentencesCount = sentenceCounts[locale] || {
-          currentCount: 0,
-          targetSentenceCount: DEFAULT_TARGET_SENTENCE_COUNT,
+      // map over every lang in db
+      const languageStats = languages.map(lang => {
+        // default to zero if stats not in db
+        const currentLangStat = {
+          ...lang,
+          localizedPercentages: localizedPercentages[lang.name] || 0,
+          recordedHours:
+            Math.ceil(
+              (getAverageSecondsPerClip(lang.name) * allClipsCount[lang.id]) /
+                HOUR_IN_SECONDS //get locale's avg duration
+            ) || 0,
+          validatedHours:
+            Math.ceil(
+              (getAverageSecondsPerClip(lang.name) *
+                validClipsCounts[lang.id]) /
+                HOUR_IN_SECONDS
+            ) || 0,
+          speakersCount: speakerCounts[lang.id] || 0,
         };
 
-        return {
-          locale,
-          recordedHours,
-          validatedHours,
-          speakersCount,
-          sentencesCount,
-        };
+        return currentLangStat;
       });
 
-      return launched;
+      return languageStats;
     },
-    2
+    DAY / 2
   );
 
   getClipsStats = lazyCache(
