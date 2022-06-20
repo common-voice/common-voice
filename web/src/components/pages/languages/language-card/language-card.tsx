@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Localized } from '@fluent/react';
 import classNames from 'classnames';
 
-import { InProgressLanguage, LaunchedLanguage } from 'common';
+import { LanguageStatistics } from 'common';
 import { createCrossLocalization } from '../../../../services/localization';
 import { useAvailableLocales, useLocale } from '../../../locale-helpers';
 import { ModalOptions } from '../languages';
@@ -15,7 +15,7 @@ import styles from './language-card.module.css';
 interface LanguageCardProps {
   type: 'launched' | 'in-progress';
   localeMessages: string[][];
-  language: InProgressLanguage | LaunchedLanguage;
+  language: LanguageStatistics;
   setModalOptions?: ({ locale, l10n }: ModalOptions) => any; // eslint-disable-line @typescript-eslint/no-explicit-any
 }
 
