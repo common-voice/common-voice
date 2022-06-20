@@ -1,11 +1,5 @@
 import * as request from 'request-promise-native';
-import {
-  GenericStatistic,
-  Language,
-  LanguageStats,
-  Sentence,
-  SentenceCount,
-} from 'common';
+import { GenericStatistic, Language, Sentence } from 'common';
 import DB from './model/db';
 import { DBClip } from './model/db/tables/clip-table';
 import lazyCache from './lazy-cache';
@@ -225,7 +219,7 @@ export default class Model {
   );
 
   getLanguageStats = lazyCache(
-    'get-total-language-stats',
+    'get-all-total-language-stats',
     async (): Promise<any> => {
       const languages = await this.db.getLanguages();
       const allLanguageIds = languages.map(language => language.id);
@@ -273,8 +267,9 @@ export default class Model {
                 HOUR_IN_SECONDS
             ) || 0,
           speakersCount: speakerCounts[lang.id] || 0,
+          locale: lang.name,
         };
-
+        delete currentLangStat.name;
         return currentLangStat;
       });
 
