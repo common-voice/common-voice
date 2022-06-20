@@ -549,10 +549,12 @@ about-playbook-how-add-language-translating-heading = Сайтны тәрҗем�
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon-ны куллану тәртибе турындагы видеобызны карагыз</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Җөмләләр туплау
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Җөмләләр туплагычын ничек кулланылганын аңлатучы видеобызны карагыз</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Җөмлә туплау турында күбрәк белү</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Сайт тәрҗемәсе ничек эшли?
+about-playbook-how-localize-content-1 = Common Voice сайтын тәрҗемә итү <strong>Pontoon</strong>-да башкарыла.
 
 ## How to add sentences
 
