@@ -254,7 +254,7 @@ export default class Model {
         // default to zero if stats not in db
         const currentLangStat = {
           ...lang,
-          localizedPercentages: localizedPercentages[lang.name] || 0,
+          localizedPercentage: localizedPercentages[lang.name] || 0,
           recordedHours:
             Math.ceil(
               (getAverageSecondsPerClip(lang.name) * allClipsCount[lang.id]) /
