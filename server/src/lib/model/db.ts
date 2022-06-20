@@ -233,7 +233,7 @@ export default class DB {
     )[0];
   }
 
-  async getDailySpeakerCount(
+  async getTotalSpeakerCount(
     localeIds: number[]
   ): Promise<{ locale_id: number; count: number }[]> {
     return (
@@ -241,7 +241,7 @@ export default class DB {
         `
         SELECT clips.locale_id, COUNT(1) AS count
         FROM clips
-        WHERE clips.locale_id IN (?) AND created_at>= NOW()-INTERVAL 1 DAY
+        WHERE clips.locale_id IN (?)
         GROUP BY clips.locale_id
       `,
         [localeIds]
@@ -751,6 +751,20 @@ export default class DB {
     } catch (e) {
       console.error('error saving clip', e);
     }
+  }
+  async getAllClipCount(
+    localeIds: number[]
+  ): Promise<{ locale_id: number; count: number }[]> {
+    const [rows] = await this.mysql.query(
+      `
+        SELECT locale_id, COUNT(*) AS count
+        FROM clips
+        WHERE locale_id IN (?)
+        GROUP BY locale_id
+      `,
+      [localeIds]
+    );
+    return rows;
   }
 
   async getValidClipCount(
