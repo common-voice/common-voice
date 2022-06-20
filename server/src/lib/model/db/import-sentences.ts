@@ -141,10 +141,7 @@ async function importLocaleSentences(
           stream.resume();
         }
       )
-      .on('end', () => {
-        print('completed language');
-        resolve;
-      });
+      .on('end', resolve);
   });
 }
 

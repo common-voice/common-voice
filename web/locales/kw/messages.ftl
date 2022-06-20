@@ -156,6 +156,7 @@ sl = Slovenek
 so = Somali
 sq = Albaniek
 sr = Serbek
+ss = Siswati
 st = Sesotho
 sv-SE = Swedek
 sw = Swahili
@@ -168,6 +169,7 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmenek
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turkek
 ts = Xitsonga
@@ -184,12 +186,14 @@ ve = Tshivenda
 vec = Venedek
 vi = Vietnamek
 vot = Votek
+xh = Xhosa
 yi = Yedhowek
 yo = Yoruba
 yue = Kantonek
 zh-CN = Chinek (China)
 zh-HK = Chinek (Hong Kong)
 zh-TW = Chinek (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -461,6 +465,8 @@ about-playbook-what-is-language = Pyth yw yeth war Common Voice?
 ## How do I add a language
 
 about-playbook-how-add-language = Fatel geworrav yeth?
+about-playbook-how-add-language-translating-heading = Treylya an wiasva
+about-playbook-how-add-language-collecting-sentences-heading = Kuntel lavarow
 
 ## How does localization work
 
@@ -477,6 +483,8 @@ about-playbook-how-record-quality = Fatel wrav rekordya klypp lev a gwalita ughe
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Hwarvosow
+about-playbook-how-grow-language-content-4 = Media sosyel
+about-playbook-how-grow-language-content-6 = Kesparow ha rosweythyow
 
 ## How to validate
 
@@ -486,12 +494,17 @@ about-playbook-how-grow-language-content-2 = Hwarvosow
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = Privetter, diogeledh hag ylynder.
 
 ## Glossary
 
+localization = Leelheans
+sentence-collection = Kuntel Lavarow
+sst = Kows-dhe-dekst (KDD)
 
 ## Error pages
 
+error-code = Gwall { $code }
 
 ## Data
 
@@ -508,6 +521,8 @@ data-other-goto = Mos dhe { $name }
 data-other-download = Iskarga an data
 data-bundle-button = Iskarga pusorn an sett data
 data-bundle-description = Data Common Voice keffrys ha pub sett data aral a-ugh.
+release-version = Gwersyon
+dataset-date = Dedhyas
 license = Leshyans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Kemyskys
 review-terms = Der usya Common Voice, hwi a wra akordya gans agan <termsLink>termys</termsLink> ha'gan <privacyLink>argemmyn privetter</privacyLink>
@@ -524,11 +539,31 @@ review-delete-recordings = Dilea ow rekordyansow
 
 ## Datasets Page
 
+language = Yeth
+# File size in gigabytes
+size = Braster
+validated-hr-total = Somm a Ourys Dilysys
+cv-license = Leshyans
+audio-format = Furvas Sonadow
+number-of-voices = Niver a Levow
+email-to-download = Entra Ebost dhe Iskarga
+size-gigabyte = RU
+size-megabyte = MB
+download-language = Iskarga{ $language }
+validated-hours = Ourys Dilysys
+recorded-hours = Ourys Rekordys
+subscribe = Ragbrena
+other-datasets = Kedhelsettys Lev Erel
+feedback-q = Eus Dasliv?
 data-other-librispeech-description = LibriSpeech yw korpus a neb 1000 our a gows yn Sowsnek lennys orth 16Khz ow tos dhyworth lyvrow son dhyworth an ragdres LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = An korpus TED-LIUM a veu gwrys dhyworth arethow son ha'ga treusskrifansow kavadow war wiasva TED.
 data-other-voxforge-description = VoxForge a veu drehevys rag kuntel kows treusskrifys rag y usya gans jynnow aswon kows pennfenten ygor ha heb kost.
 data-other-tatoeba-description = Tatoeba yw database bras a lavarow, treylyansow ha son kowsys may hyllir y usya ow tyski yethow. Yma a-berth y'n iskargans ma Sowsnek kowsys rekordys gans aga hemeneth.
+more = Moy
+close = Degea
+download = Iskarga
+dataset-version = Gwersyon
 
 ## Download Modal
 
@@ -556,9 +591,17 @@ request-language-form-language =
     .label = Yeth
 request-language-success-title = Danvenys yn sowen a veu an profyans, meur ras.
 request-language-success-content = Ni a vynn kestava genowgh gans moy kedhlow a-dro dhe geworra agas yeth dhe Common Voice yn skon.
+select-language = Dewis Yeth...
+other-language = Yeth Aral
 
 ## Request Language Pages
 
+request-language-heading = Govyn a-dro dhe yeth nowydh
+request-language-form-email =
+    .label = Dha drigva ebost
+request-language-form-info =
+    .label = Kedhlow a-dro dhe'n yeth
+request-language-form-info-explanation-list-1 = Henwyn dha yeth
 
 ## Languages Overview
 
@@ -571,6 +614,9 @@ language-total-progress = Somm
 language-search-input =
     .placeholder = Hwilas
 language-speakers = Kowsoryon
+localized = Leelhes
+sentences = Lavarow
+language-validation-hours = Ourys
 
 ## Contribution
 
@@ -607,6 +653,8 @@ record-again-instruction = Bryntin! <recordIcon></recordIcon> Rekordyowgh agas n
 record-again-instruction2 = Dewgh yn-rag, rekordyowgh arta <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> An diwettha!
 review-tooltip = Dasweles ha dasrekordya klyppys omma
+share-clip = Kevrenna dha glypp
+share-common-voice = Kevrenna Common Voice
 review-instruction = Dasweles ha dasrekordya klyppys mars yw res
 record-submit-tooltip = { $actionType } danvenowgh pan vo parys
 clips-uploaded = Klyppys ughkergys
@@ -619,48 +667,121 @@ listen-instruction = { $actionType }<playIcon></playIcon> a gowssons yn kewer an
 listen-again-instruction = Ober da! <playIcon></playIcon> Goslowowgh arta pan vowgh parys
 listen-3rd-time-instruction = 2 gwrys <playIcon></playIcon>, splann!
 listen-last-time-instruction = <playIcon></playIcon> An diwettha!
+speak-empty-state-cta = Kevri lavarow
 record-button-label = Rekordyowgh agas lev
 share-title-new = <bold>Gweresowgh ni</bold> ow kavos moy levow
+login-to-get-started = Omgelmi po omrolya dhe dhalleth
+target-segment-add-voice = Keworra Dha Lev
+target-segment-learn-more = Dyski Moy
 
 ## Reporting
 
+report = Derivas
+report-title = Danvon derivas
+report-offensive-language = Yeth offensus
+report-grammar-or-spelling = Gwall gramasek / spellyans
+report-different-language = Yeth dyffrans
+report-difficult-pronounce = Kales y leverel
+report-offensive-speech = Kows offensus
+report-other-comment =
+    .placeholder = Kampolla
+success = Sewena
+continue = Pesya
 
 ## Goals
 
 
 ## Dashboard
 
+your-languages = Dha Yethow
+goal-reached = Amkan drehedhys
+stats = Stattys
+awards = Pewasow
+you = Ty
+everyone = Pubonan
+recorded-clips = Klyppys Rekordys
+validated-clips = Klyppys Dilysys
+set-visibility = Settya ow gweladewder
 
 ## Custom Goals
 
+create-custom-goal = Gwruthyl Amkan A-Vusur
+both-speak-and-listen = An Dhew
+both-speak-and-listen-long = An Dhew (Kewsel ha Goslowes)
+daily-goal = Amkan Dedhyek
+weekly-goal = Amkan Seythennyek
+easy-difficulty = Es
+average-difficulty = Kresek
+difficult-difficulty = Kales
+pro-difficulty = Pro
+want-to-continue = A vynn'ta pesya?
+finish-editing = Gorfenna golegi kyns oll?
+lose-changes-warning = Mar tiberthydh lemmyn, ty a wra kelli dha janjyow
+set-a-goal = Settya amkan
+cant-decide = A ny yll'ta ervira?
+which-goal-type = A vynn'ta Kewsel, Goslowes po an dhew?
+confirm-goal = Afydhya Amkan
+goal-interval-weekly = Seythennyek
+share-goal-type-speak = Kewsel
+share-goal-type-listen = Goslowes
+share-goal-type-both = Kewsel ha Goslowes
+share-goal = Kevrenna ow amkan
 
 ## Profile Delete
 
+keep = Gwitha
+remove = Dilea
 profile-form-delete = Dilea an profil
 
 ## Profile Download
 
+download-profile-title = Profil
+download-profile-size = Nebes baytys
+download-recordings-title = Rekordyansow
+download-size = Braster
+download-selected = Dewisys
+download-start = Iskarga kedhlow ow frofil
+download-request-button = Iskarga
+download-request-title = { $created }
+download-request-refresh-button = Dasnowedhi
+download-request-modal-title = Kevrennow Iskarga
+download-request-metadata-link = Tekst an lavar
 
 ## Landing
 
+welcome-staff = Dynnargh mayni { $company }!
+login-company = Omgelmi / Omrolya gans ebost { $company }
 
 ## DemoLayout
 
+demo-get-started = Gwren Dalleth
+demo-welcome = Dynnargh dhe Common Voice
 
 ## Demo Datasets
 
+card-button-next = Nessa
+card-button-back = War-lergh
+demo-language-select-label = Peuri Yethow
+demo-account = Akont
 
 ## Demo Account
 
+demo-account-sign-up = Danvon kevren omrolya
 
 ## Demo Contribute
 
+demo-listen-subtitle = Parys dhe gevri?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-for-example = rag ensampel
+contribution-misreadings-title = Kammlennansow
+contribution-volume-title = Nivel Son
+see-more = <chevron></chevron>Gweles moy
+see-less = <chevron></chevron>Gweles le
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -669,51 +790,116 @@ profile-form-delete = Dilea an profil
 
 ## HEADER/FOOTER
 
+sc-header-home = Tre
+sc-header-add = Keworra
+sc-header-review = Dasweles
+sc-header-my = Ow Lavarow
+sc-header-statistics = Statystygyon
+sc-header-profile = Profil
+sc-footer-privacy = Privetter
+sc-footer-terms = Termys
+sc-footer-cookies = Pastiow
+sc-login-signup-button = Omgelmi / Omrolya
+sc-logout-button = Digelmi
 
 ## HOME
 
+sc-home-collect-title = Kuntel Lavarow
+sc-home-review-title = Dasweles Lavarow
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-addsen-title = Keworra lavarow nowydh
+sc-howto-cite-title = Fatla Dervyn
+sc-howto-review-title = Dasweles Lavarow
 
 ## MY SENTENCES
 
+sc-my-title = Ow Lavarow
+sc-my-loading = Ow karga dha lavarow…
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Pennfenten:  { $source }
+sc-my-deleting = Ow tilea an lavarow dewisys…
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = Statystygyon
+sc-stats-updating = Ow nowedhi…
 
 ## ADD
 
+sc-submit-err-select-lang = Dewis yeth, mar pleg.
+sc-submit-err-add-sentences = Keworr lavarow, mar pleg.
+sc-submit-err-add-source = Keworr pennfenten, mar pleg.
+sc-submit-title = Keworra Lavarow
+sc-submit-select-language =
+    .labelText = Dewis Yeth
+sc-submit-ph-one-per-line =
+    .placeholder = Unn lavar an linen
+sc-submit-button =
+    .submitText = Danvon
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ny allas keworra an yeth
+sc-add-lang-sec-button = Keworra Yeth
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Afydhya
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Somm
+sc-lang-info-title-personal = Personel
 
 ## LOGIN
 
+sc-login-err-failed = Omgelmi a fyllis
+sc-login-err-try-again = Assay arta, mar pleg.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-remove = Ny allas dilea an yeth
+sc-personal-your-languages = Dha yethow:
+sc-personal-remove-button = dilea
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } keworrys genes
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-title = Dasweles Lavarow
+sc-review-form-button-skip = Hepkor
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = H
+sc-review-form-button-submit =
+    .submitText = Gorfenna Daswel
+sc-review-link = Dasweles
 
 ## SETTINGS
 
+sc-settings-title = Settyansow
+sc-settings-ui-language = Yeth an Ynterfas
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Dewis yeth/leelheans

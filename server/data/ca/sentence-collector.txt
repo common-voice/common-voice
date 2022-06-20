@@ -414,6 +414,8 @@ A Calp es cria el bon peix, que li dona tanta fama.
 A Cartago, Gog atraca.
 A Castells, els fadrinets, que van ben carregats d’arma.
 A Castelló hi posen botifarres d’arròs, papada de porc i una pilota allargada.
+A Ciutadella beuen gin amb llimonada a altres pobles li diuen pomada
+A Ciutadella per ses festes de sant Joan
 A Cornellà, Tània i Aina tallen roca.
 A Dinamarca, Holanda i Bèlgica.
 A Dènia ve l'Eva i neda.
@@ -461,6 +463,7 @@ A aquest no l'enxamparàs, que la sap molt llarga.
 A aquesta mateixa adreça?
 A aquesta àrea s'han trobat zones d'hàbitat i estructures funeràries.
 A aquestes hores ja t'hauries d'haver ficat al llit.
+A aquests nens els deu passar alguna cosa.
 A baix, un sòcol imitant marbre
 A bell ull, en aquella caixa, hi havia un centenar de llibres.
 A cada final d'acte havia hagut d'alçar el teló
@@ -740,6 +743,7 @@ A quina hora obren la botiga?
 A quina hora podria?
 A quina hora surt el primer tren cap a Vilanova i la Geltrú?
 A quina hora surt el proper Rodalies direcció Hospitalet de Llobregat?
+A quina hora surt es bus per anar a La Vall?
 A quina hora surt?
 A quina hora voldria el taxi?
 A quina temperatura està la nevera?
@@ -778,6 +782,7 @@ A un any i mig a respondre-les
 A un inodor rodó, ni nua.
 A una distància mínima de set-cents metres
 A una societat sense classes no hi haurà més pintors, sinó situacionistes que pintaran.
+A vegades el monstre és a dins.
 A vegades l'última clau és la que obrirà la porta.
 A vegades no necessitem algú que ens arregle.
 A vegades penso que seria millor tancar-lo.
@@ -825,10 +830,12 @@ Abans, ell era joiós, elegant i agradable.
 Abans, ell era joiós, simpàtic i agradable.
 Abatut per terra, igual que deixa retuda el llamp a l'alzina centenària.
 Abella de la Conca es troba al Pallars Jussà
+Abella de la Conca es un poble del Pallars Jussà
 Abonats i concurrents a la primera llotja baixa del prosceni estaven, feia dies, intrigats.
 Abonats i concurrents estaven, feia dies, intrigats.
 Abraça camps científics molt diversos que van de l’antropologia a la història.
 Abrera es troba al Baix Llobregat
+Abrera es un poble del Baix Llobregat
 Abril, de flors coronat
 Absència total de preocupacions i emocions que puguen alterar l'equilibri mental i corporal.
 Acaba de fer vuitanta anys.
@@ -930,8 +937,11 @@ Agafà el pot per l'ansa de fil d'aram.
 Agafàvem rams i palmes amb recolliment.
 Agents provocadors feien esclatar grans masses d'explosius
 Agramunt es troba a l’Urgell
+Agramunt es un poble de l'Urgell
 Aguilar de Segarra es troba al Bages
+Aguilar de Segarra es un poble del Bages
 Agullana es troba a l’Alt Empordà
+Agullana es un poble de l'Alt Empordà
 Agulles de picar clavades sobre un coixí groc
 Agustí d'Hipona és considerat l'iniciador de la filosofia medieval cristiana.
 Agustí li ha fet alguna mala passada.
@@ -971,9 +981,12 @@ Ai, foc a la còfia!
 Ai, uix, quina angúnia!
 Aigua de gener omple bótes i graner, aigua de juliol encén el sol.
 Aiguafreda es troba al Vallès Oriental
+Aiguafreda es un poble del Vallès Oriental
 Aiguamúrcia es troba l’Alt Camp
+Aiguamúrcia es un poble de l'Alt Camp
 Aiguaviva es troba al Gironès
 Aitona es troba al Segrià
+Aitona es un poble del Segrià
 Aixeca a l'ànima humana de la misèria de la terra
 Aixeribides per una mena d'enjogassament que les pessigo llava el cos
 Així a soles es parlava aquell vespre el rei en Jaume.
@@ -989,6 +1002,7 @@ Així doncs, la qualitat d'intel·lectual burgès no la determina l'origen socia
 Així ell podia amb seguretat allargar el sacrifici
 Així ell podia amb seguretat allargar el sacrifici de la ventura pròpia.
 Així els abandona i nosaltres també.
+Així era com jo veia les coses en aquells moments
 Així farien aproximadament; prou ho heu vist vosaltres mateixos en la comèdia d'Aristòfanes.
 Així ho comento amb l'equip directiu.
 Així ho entengué l’il·lustre folklorista Francesc Martínez i Martínez.
@@ -1229,19 +1243,31 @@ Alba és fisioterapeuta
 Alba és meteoròloga
 Alba és primera ministra
 Albanyà es troba a l’Alt Empordà
+Albanyà es un poble de l'Alt Empordà
 Albatàrrec es troba al Segrià
+Albatàrrec es un poble del Segrià
 Albert és d'Ivars d'Urgell
 Albert és natural de Forès
 Albesa es troba a la Noguera
+Albesa es un poble de la Noguera
 Albinyana es troba al Baix Penedès
+Albinyana es un poble del Baix Penedès
 Albons es troba al Baix Empordà
+Albons es un poble del Baix Empordà
 Alcanar es troba al Montsià
+Alcanar es un poble del Montsià
 Alcanó es troba al Segrià
+Alcanó es un poble del Segrià
+Alcarràs es un poble del Segrià
 Alcarràs es troba al Segrià
 Alcoletge es troba al Segrià
+Alcoletge es un poble del Segrià
+Alcover es un poble de l'Alt Camp
 Alcover es troba a l’Alt Camp
+Aldover es un poble del Baix Ebre
 Aldover es troba al Baix Ebre
 Alella es troba al Maresme
+Alella es un poble del Maresme
 Alemanya presenta una gran diversitat de paisatges teutònics.
 Alerta doncs sobre el cas: estigueu ben a l'aguait quan afluixen el canal.
 Alerta que no caigui un bocí de frontis, està tot ben crullat!
@@ -1277,12 +1303,17 @@ Aleshores, l'ésser humà és indefinible perquè no té una naturalesa.
 Aleshores, va desenganxar la corda i l’afluixà a poc a poc.
 Alexandre Cirici escrivia unes observacions interessants al respecte.
 Alfara de Carles es troba al Baix Ebre
+Alfara de Carles es un poble del Baix Ebre
+Alfarràs es un poble del Segrià
 Alfarràs es troba al Segrià
 Alfonset, Alfonset, tu creus que tinc obsessió amb el mòbil?
 Alforja es troba al Baix Camp
 Alfés es troba al Segrià
+Alfés es un poble del Segrià
 Algerri es troba a la Noguera
+Algerri es un poble de la Noguera
 Alguaire es troba al Segrià
+Alguaire es un poble del Segrià
 Alguer Miquel Bo és un cantant nascut a Sant Joan de les Abadesses.
 Algun bromista li havia llançat una granada
 Algun cop que altre es treia el guant
@@ -1328,6 +1359,8 @@ Alhora, els indueixen a desplegar la seua imaginació i la seua fantasia.
 Alhora, la ideologia de la classe dominant ha perdut tota coherència.
 Alhora, poden cercar l'increment de l'impuls, en lloc de la reducció.
 Alins es troba al Pallars Sobirà
+Alins es un poble del Pallars Sobirà
+Alió es un poble de l'Alt Camp
 Alió es troba a l’Alt Camp
 All costat d’un embolcall modern, trobem les estructures de la rondalla tradicional.
 Allport fou un dels primers investigadors a distingir entre motiu i impuls.
@@ -1393,16 +1426,22 @@ Allò va ser el que va salvar-lo.
 Allò va ser una processó de parents i de coneguts
 Allò va ésser un devessall d'aplaudiments
 Almacelles es troba al Segrià
+Almacelles es un poble del Segrià
 Almatret es troba al Segrià
+Almatret es un poble del Segrià
 Almenar es troba al Segrià
+Almenar es un poble del Segrià
 Almenys estan en via de formació.
 Almenys fa poc que ho era, que jo he estat temps fora d’aquí.
 Almenys jo ho puc dir tot a l'inrevès, fundant-me en la història.
 Almenys un de cada quatre no esclatava
 Almenys una quarta part d'aquelles granades feien figa
 Almoster es troba al Baix Camp
+Almoster es un poble del Baix Camp
 Alp es troba a la Cerdanya
+Alp es un poble de la Cerdanya
 Alpens es troba a Osona
+Alpens es un poble d'Osona
 Alpicat es troba al Segrià
 Als Estats obrers només l'experiència iniciada per Brecht a Berlín és pròxima.
 Als bancs del retaule quatre escenes de la vida de Jesucrist.
@@ -1428,6 +1467,7 @@ Als teus peus, sultana, els jardins estenen tapissos de murta i de cosa fina.
 Als vespres, els pagesos solien sortir a caçar guatlles
 Als vessants muntanyosos, vèiem els primers brots verds
 Alt Àneu es troba al Pallars Sobirà
+Alt Àneu es un poble del Pallars Sobirà
 Altafulla es troba al Tarragonès
 Altrament aquests acusadors són nombrosos i m'han acusat durant molt de temps.
 Altrament aquí mateix hi ha un altre savi, un ciutadà de Paros
@@ -1446,6 +1486,7 @@ Altres herbes cultivades en sòls lleugers es poden dividir a la tardor.
 Altres vegades els martiritzava tranquil·lament.
 Altres, el front pastat de son pare
 Alàs i Cerc es troba l’Alt Urgell
+Alàs i Cerc es un poble de l'Alt Urgell
 Alça't i romp la llista que la claror et nega.
 Alça't, Joan Garí: la teua sort és completa; però no mostres el florí!
 Alçant el dit polze de la mà dreta, fa coveta amb els altres.
@@ -1623,6 +1664,7 @@ Amb una dotzena de minyons resoluts.
 Amb una enorme pistola automàtica al cinyell
 Amb una escala de pagues diferents, un escalafó, etc.
 Amb una espasa encesa un àngel em desterra del paradís terrenal.
+Amb una influència comunista més forta
 Amb una ingenuïtat encantadora
 Amb una lluna que mou mars, i encara no creus en miracles?
 Amb una pinta de marfil polia els seus cabells de finíssima atzabeja.
@@ -1645,11 +1687,13 @@ Ame les persones o entitats que considere que són creditores de les seues prest
 Amenaça de l'entrada de nous competidors.
 Amenaça de l'entrada de nous productes substitutius.
 Amer es troba a la Selva
+Amer es un poble de la Selva
 Amics i companys del món literari, vàrem seguir-lo
 Amiga, sou molt subtil… tan subtil com cruel
 Amistat am mida, fe am mida, caritat am mida, tot am mida
 Ampolles de vi i d'anís passaven de mà en mà.
 Amposta es troba al Montsià
+Amposta es un poble del Montsià
 Amunt ànima forta! Traspassa la boirada!
 Amunt... amunt... La volta perd el junt, la llum del cel s’hi filtra.
 Analitze el mecanisme que produeix la garantia de l’equilibri i la justícia social.
@@ -3240,7 +3284,9 @@ Anem per feina que això ens ho han demanat per aquesta tarda.
 Anem, maca, anem, que el meu Genís diu que la cosa du pressa.
 Aneu al riu a banyar-vos be.
 Aneu pujant de mica en mica
+Anglesola es un poble de l'Urgell
 Anglès es troba a la Selva
+Anglès es un poble de la Selva
 Angola és un estat del sud-oest d'Àfrica.
 Animat per cants i músiques de piano que sortien dels pisos
 Aniol vol imprimir un dibuix a la impressora per a pintar-lo.
@@ -3309,6 +3355,7 @@ Anton és de Premià de Mar
 Antoni també s’ha oferit a tindre cura de Llorenç algunes vesprades.
 Antònia prové de Gratallops
 Antònia és jutgessa
+Anul·lar d'un cop per sempre el poder dels sindicats.
 Anuncie que entraran dos nous partits al consistori.
 Anàlisi de les activitats de formació del personal.
 Anàlisi de processos de servei i de fabricació.
@@ -3443,6 +3490,7 @@ Aquell vell tenia misteriós aspecte de majestat
 Aquell vespre vam sentir que quatre-cents guàrdies civils s'havien rendit
 Aquell xicot tan alt i gros i tan tímid a la vegada
 Aquella adulació un xic fantasista i còmica
+Aquella al•lota va venir a sa platja
 Aquella boniquesa temptadora que cobdiciaven els bosquerols.
 Aquella denúncia pública m'ha arribat al cor i he decidit donar-los suport.
 Aquella dona que s'esforçava en redimir del passat.
@@ -3657,6 +3705,7 @@ Aquestes heroïnes amb rets de cabell lluiten per la igualtat, passi què passi.
 Aquestes llavors madures són pràcticament indispensables per a una correcta identificació dels tàxons.
 Aquestes monedes poden continuar sent emeses.
 Aquestes muntanyes coronades d'arbreda s'enfonsaran als abismes
+Aquestes pedres són ses restes d'una naveta d'habitació.
 Aquestes planúries encatifades de verd s'esberlaran amb terratrèmol
 Aquestes sortides no eren gaire populars
 Aquestes sèries de sobretaula són d'estar per casa i de molt poca qualitat.
@@ -3733,6 +3782,7 @@ Ara escalfo les llenties.
 Ara fa mandra posar-se a fer feina.
 Ara ho estic més que quan m'ho has dit, veus?
 Ara ho podem enviar el grup de contactes.
+Ara hom podia començar a imaginar
 Ara indica'm el de-ena-i, si us plau.
 Ara indica'm el teu de-ena-i i adreça postal.
 Ara indica'm el teu de-ena-i.
@@ -3794,11 +3844,16 @@ Ara, Jep, Martí trampejarà.
 Ara, si ens donaven temps per desplegar-nos
 Ara, transcorre el període en què el senyal es fon completament.
 Ara… tot consistia en què volgués revelar-ho.
+Arbeca es un poble de les Garrigues
+Arbolí es un poble del Baix Camp
 Arbre sublim! Del geni n'és ell la viva imatge.
 Arbre, mon cor t'enveja. Oh vida! Oh noble sort!
 Arbres, ombra, menjador al sol, terrat i parra.
+Arbúcies es un poble de la Selva
 Arenys de Mar es troba al Maresme
+Arenys de Mar es un poble del Maresme
 Arenys de Munt es troba al Maresme
+Arenys de Munt es un poble del Maresme
 Argelaguer es troba a la Garrotxa
 Argentona es troba al Maresme
 Argençola es troba a l’Anoia
@@ -5254,6 +5309,7 @@ Democràcia es quan pots votar abans d'obeir les ordres.
 Demostre que éreu relativistes tant en el camp ètic com en el gnoseològic.
 Demostre ser ben singular per contrast amb l’asèpsia i la fingida objectivitat acadèmica.
 Demostre un «romanent arcaic» expressat a través dels mites que perviu hui.
+Demà a capvespre anirem a cala Pregonda.
 Demà a les quatre, tots aquí a casa.
 Demà al matí aniré al supermercat.
 Demà al matí he de pensar a demanar hora a la perruqueria.
@@ -5577,6 +5633,7 @@ Diverses investigacions conformen la cosmologia actual, amb els seus postulats i
 Diversos agents comunistes
 Diversos autors distingeixen entre trets unipolars i trets bipolars.
 Diversos membres són males herbes. Salvem els elefants!
+Dividida per les actuals fronteres o bé en zones econòmiques
 Dividisc la família en grups informals.
 Doblegant-se per la cintura, ajupit, començà a avançar lentament
 Doblegarem la meitat de la pasta sobre la confitura.
@@ -6431,6 +6488,7 @@ El seu de-ena-i si us plau?
 El seu germà parla català, castellà, anglès i rus.
 El seu home la consola amb una fulla de col.
 El seu jardí era el seu regne.
+El seu nen em va semblar insuportable.
 El seu nou usuari i contrasenya són els següents:.
 El seu nét tenia un pes natural: unes sis lliures i mitja.
 El seu pare afegia, sempre ferreny: No ets bona per a res…
@@ -6484,6 +6542,7 @@ El tenedor de llibres, acompanyaria l'infant
 El tenia tant esverat com el que sent venir el mal temps
 El tenien assegut catorze o quinze hores diàries
 El tenien com un confés per els assumptes comercials
+El tenien incomunicat
 El teorema de Pitàgores costa d'entendre.
 El terme comunal de Perpinyà s'estén a banda i banda de la Tet.
 El terme comunal de Perpinyà és essencialment pla.
@@ -6675,6 +6734,7 @@ Ells eren tardans en el pensar, però eren actius en el resoldre.
 Ells, els acusadors, com dic, han dit ben poc o res de veritat.
 Ells, fort castell de la pàtria, fan la independència als penyals del Montcabrer.
 Els Alamús es troba al Segrià
+Els Alamús es un poble del Segrià
 Els Banyolins són un xic massa orgullosos.
 Els Catarres han tret un nou disc.
 Els Garidells es troba a l’Alt Camp
@@ -7309,6 +7369,7 @@ Em va preguntar, seriós i solemne com un jutge.
 Em va prometre que no em duria cap més ocellot.
 Em va reconèixer, i llavors ens van donar fusells...
 Em va reconèixer, és clar
+Em va saber greu perquè em cauen molt bé.
 Em va sentar alguna cosa malament i a mig matí vaig canviar la pesseta.
 Em vaig adonar que la cosa no aniria bé.
 Em vaig adonar que pretenia descargolar-la en la direcció contrària
@@ -7348,6 +7409,7 @@ En Deberga no havia sabut instal·lar-se sinó en un pis magnífic.
 En Deberga, doncs, va córrer a aprofitar-se de la sort.
 En Descartes, la substància extensa remet, a darrer terme, a la quantificabilitat.
 En Ferran Ferrer feia fum i foc ferrant ferro fort.
+En Guiem signarà aquest projecte
 En Guiu amassa amb força farina.
 En Jaume el carter ja s'ha jubilat, és un apartat de correus.
 En Jaume somriu i hi entra; l’estol mar endins se'n va.
@@ -7357,6 +7419,7 @@ En Joan sembla que sigui al·lèrgic a l'aigua!
 En Joan va anar a córrer una estona pel parc.
 En Joan va arribar ahir.
 En Joan és qui remena les cireres en aquella associació. Parla amb ell.
+En Jordi no sap estar amb els nens.
 En Josep Rodon arribà al portal de Llotja
 En Josep dorm més que el guix de Senterada.
 En Malsang és mort!
@@ -7486,6 +7549,7 @@ En depèn la caiguda prèvia de la infraestructura econòmica d'explotació.
 En descriu la dinàmica amb el concepte d'autonomia funcional.
 En deu minuts més o menys.
 En direcció a l'espetec de trets de la plaça
+En direcció a un tipus o altre de feixisme
 En diverses de les sales hi havia entarimats
 En dos-tres dies laborables.
 En efecte, els heu sentit acusar-me primer i durant molt més temps.
@@ -8016,6 +8080,7 @@ Era exactament com si l'enemic no existís
 Era fadrí aleshores i encara ho és ara.
 Era força divertit rondar per les valls obscures
 Era força lluny de la línia de foc
+Era fàcil de preveure
 Era hora de dormir.
 Era ignorant en matèria de numismes
 Era impossible de mantenir-se neutral
@@ -8062,6 +8127,7 @@ Era realment un pla de vida complet.
 Era realment un projecte de vida complet.
 Era roig foc de còlera la claror del teu ull quan tornares de Benicull.
 Era sapat, desimbolt i enèrgic, com esperant una explicació.
+Era segur que el règim d'en Franco havia de ser pitjor
 Era segur que ens agafarien
 Era senzillament, perquè la tenia lletja.
 Era tan clar, que casi no havien de dir res més.
@@ -8138,6 +8204,7 @@ Eren peixos que nadaven a dintre del seu element.
 Eren puntuades per l'explosió de les granades
 Eren sales espaioses, amb armaris, am claraboies
 Eren signes per confegir
+Eren simples cilindres d'acer completament inofensius
 Eren tan simpàtics, els anglesos, deia!
 Eren una cosa que valia la pena de ser vista
 Eren una trepa d'aspecte força groller
@@ -8391,6 +8458,7 @@ Escrigui el seu número de targeta.
 Escrigué El malalt imaginari, en què feia el paper de protagonista
 Escrit amb accent diacrític.
 Escriu alguna cosa que et vagi bé.
+Escriu el que et passi pel cap.
 Escriu estrofa sobre estrofa sense el més mínim esforç
 Escriure tant als blogs m'ha permès fer-me conèixer.
 Escrivia el primer que li passava pel cap.
@@ -8435,6 +8503,7 @@ Estableix el volum en automàtic.
 Estamariu es troba a l’Alt Urgell
 Estaminodis presents en algunes espècies.
 Estan construint un centre comercial enorme als afores del poble.
+Estan encarant molt malament l'educació dels seus fills.
 Estan tan bonics vestits així!
 Estan àmpliament distribuïdes en regions tropicals a temperades, però principalment en regions càlides.
 Estant Constança prenyada, la senyora, una vesprada, sentí com lladrava un gos.
@@ -8483,6 +8552,7 @@ Esther és natural de Sant Pere de Ribes
 Estic a la estació de Tàrrega.
 Estic a la vostra disposició per a qualsevol aclariment.
 Estic ajagut, amagat entre uns pins nans
+Estic ben farta de tot plegat.
 Estic cansada de fer la bugada cada matí.
 Estic cansat de tu, domini fosc i tempestat de flama.
 Estic disposada a escoltar-te, Cleant. Què vols dir-me?
@@ -8864,6 +8934,7 @@ Força Barça.
 Forès es troba a la Conca de Barberà
 Fos a migdiada, fos al vespre
 Fos a vista dels amos, encara com aquell!…
+Fossin quins fossin els defectes del Govern
 Fotografiar els tipus, estereotipar-ne les accions, estenografiar el llenguatge
 Fotografiaren el del tobogan i el de l'elefant xalant al restaurant.
 Fou considerat un autor essencial de la literatura contemporània.
@@ -8883,6 +8954,7 @@ Francesc Mulet és l'autor del celebèrrim, ubèrrim i respectadíssim 'Tractat 
 Francesc que se n’anà a Alemanya.
 Francisca és de Masquefa
 Francisco és de Cervià de Ter
+Franco era un anacronisme
 Frankenstein, o el modern Prometeu, és una novel·la de Mary Shelley.
 Franklin: feliç el qui no espera res, car això és precisament el que obtindrà.
 Fred, glaçat, tot brut de boll i tacat de sang glevada…
@@ -9029,6 +9101,7 @@ Gàbies amb caderneres, verderols i gafarrons, i també pardalets d’obra plens
 Gósol es troba al Berguedà
 Ha anat d'un pèl que no trenques aquell vidre d'una pilotada.
 Ha arribat la primavera i renaix la natura: les festes es cobreixen de flors.
+Ha continuat la difícil lluita amb un coratge esplèndid
 Ha d'estar disposada a acceptar tot el que li donin.
 Ha de mantenir en la minoria el sentit de la crítica i la investigació.
 Ha de quedar ben daurada.
@@ -9376,6 +9449,7 @@ Hi hagué el mateix canvi brusc, sorprenent, d'atmosfera.
 Hi hagué un moment terrible
 Hi han homes que no dient res tots els consells semblen bons
 Hi han oficines de Parcs i Jardins a Horta, Sants i Besòs.
+Hi hauria d'haver una dictadura
 Hi hauria disponibilitat el proper deu de desembre.
 Hi hauria disponibilitat el proper dia nou.
 Hi hauria una confusió que desbarataria l'ordre
@@ -9975,6 +10049,7 @@ Intenta justificar una acció artística en una estructura actual.
 Intentar-lo convèncer és com picar ferro fred. No te'n sortiràs!
 Intentaré posar-me al dia.
 Intentava donar la volta a les paraules.
+Intentava posar els límits des d'una postura d'absoluta derrota.
 Intento ser amable amb la Maria, però és un corcó i sempre acabem barallats.
 Interessats: Constantí Llombart, Francesc Palanca i Francesc Badenes Dalmau.
 Intervé el mecanisme de repressió per enfonsar el problema en l'inconscient.
@@ -10018,6 +10093,7 @@ Ja en època moderna, Descartes va reivindicar el valor de les passions.
 Ja ens veurem demà. A reveure!
 Ja era hora d'entrar al taulell.
 Ja era hora de deixar-se d'andròmines i de suplements decoratius
+Ja era hora que rebessin una pallissa
 Ja era més tauleller que tot-hom.
 Ja era ple dia, no havia passat res
 Ja eren gairebé comparables als d'una batalla
@@ -11346,8 +11422,17 @@ Kantianament, la voluntat només és lliure si és autònoma.
 Kubala fou un gran jugador del Barcelona F C
 Kurt Cobain: preferisc ser odiat per qui soc que estimat per qui no soc.
 L'Aina és molt atractiva
+L'Albagés es un poble de les Garrigues
+L'Albi es un poble de les Garrigues
+L'Albiol es un poble del Baix Camp
+L'Aldea es un poble del Baix Ebre
+L'Aleixar es un poble del Baix Camp
+L'Alforja es un poble del Baix Camp
+L'Ametlla de Mar es un poble del Baix Ebre
+L'Ampolla es un poble del Baix Ebre
 L'Anna està com un llum.
 L'Anna és molt tímida; a les reunions no bada mai boca.
+L'Arboç es un poble del Baix Penedès
 L'Art és millor que cap dona.
 L'Enriqueta manté la cara de pa de ral que tenia quan va néixer.
 L'Escala és un poble de pescadors.
@@ -11651,6 +11736,7 @@ L'ombra del crèdit els salvava
 L'oncle Serra, amo i senyor d'una fortuna molt respectable.
 L'opció predeterminada s'ha activat.
 L'operació, en conjunt, fou magníficament plantejada.
+L'oportunitat de la classe obrera havia passat
 L'oportunitat és com un franc somriure en un rostre desconegut.
 L'oportunitat és una situació favorable de l'entorn que ens és potencialment favorable.
 L'oposició contra la descomposició ideològica no pot limitar-se a criticar les bufonades.
@@ -12042,6 +12128,7 @@ La gent feia comentaris am tots els que anaven passant.
 La gent li donava el que podia.
 La gent mirava amb astorament el nostre aspecte brut i espellifat.
 La gent no ve a la terra sense avisar
+La gent podia ser detinguda a la frontera sota pretextos
 La gent positiva cau, s'aixeca, s'espolsa, es cura les ferides i somriu.
 La gent que havien pujat semblaven emigrants de broma
 La gent també hi anava dient la seva.
@@ -12284,6 +12371,7 @@ La pensada va semblar bona, i se'n van anar cap al Jardí.
 La percepció afectivament neutra de la situació.
 La persona és un ésser pensant i intel·ligent, proveïda de raó i reflexió.
 La personalitat és, d'antuvi, una cosa distintiva i pròpia de cada individu.
+La perspectiva era depriment
 La petita feia voltes com una ballarina.
 La pintoresca màcula que ella oculta com la d'un crim.
 La pintura no pot ésser més exacta del començament a la fi.
@@ -12431,6 +12519,7 @@ La seva situació al nord de la Conca Mediterrània li dona característiques pe
 La sinceritat sofreix un poc en allò que faig;
 La situació actual demana convocar una reunió urgent de la comissió de seguretat.
 La situació basca no és la mateixa que l'alacantina o valenciana del sud?
+La situació del món podia millorar extraordinàriament
 La situació era ben estranya
 La situació està feta per ser viscuda pels seus constructors.
 La societat de l'època era una societat feudal.
@@ -12574,6 +12663,7 @@ La vostra funció no és proclamar que la llibertat és insultada.
 La vostra funció és examinar què fa l'avantguarda internacional.
 La vostra neboda Laura hi té molt a dir.
 La vèiem com escopia foc
+La xerrameca periodística era clarament una entabanada
 La xica el va poder reconèixer tan sols perquè portava una graella.
 La xica ho sabia per un quadre de Sant Llorenç.
 La zona de Moscou ha restat com una regió subdesenvolupada en aquest ordre.
@@ -12781,6 +12871,7 @@ Les peripècies del terrible quadre
 Les persones felices no tenen memòria; nosaltres, doncs, estem obligats a la infelicitat...?
 Les persones tenen un nombre molt elevat de trets o característiques.
 Les perspectives d'acció sobre aquest marc tendeixen a la concepció d'un urbanisme.
+Les perspectives no eren pas de color de rosa
 Les plantes es poden estudiar des de diversos punts de vista.
 Les podies portar a la cuina i bescanviar-les per una cantimplora de cafè.
 Les pomes, quan són més bones és a la tardor.
@@ -12886,6 +12977,7 @@ Li hauria de fer vergonya.
 Li hauria declarat el seu amor;
 Li hauria pogut dir que no calia que es preocupés
 Li havien inspirat des de noi belles complantes saturades de adoració
+Li he d'explicar què ha passat amb la meva germana.
 Li he demanat si ens pot convidar; fa una paella boníssima.
 Li he demanat tres vegades aquell informe, però ell es fa l'orni.
 Li he dit a cau d'orella, perquè no ho sentís ningú més.
@@ -13745,6 +13837,7 @@ Més particularment després de les bacinades
 Més per tafanejar la casa, que per ganes de complir
 Més poderós que el roure, més verd que el taronger.
 Més propens a la reserva que a la comunicació
+Més que el fet de ser valencians és l'edat.
 Més que no pas com un mer sumatori d'elements inconnexos.
 Més que pietat, hi entrava el menyspreu, potser fins l'odi.
 Més que pietat, hi entrava el menyspreu.
@@ -13782,6 +13875,7 @@ N'accentueu el què us sembla capital, n'esfumeu el secundari
 N'esfumeu el què us sembla secundari.
 N'estic tipa de trenar-me les cues sense saber el que em faig
 N'exposarem les dues que ens semblen més interessants.
+N'havia retirat prèviament la càrrega i les espoletes
 N'havíem tocat un, almenys
 N'hi ha que les posarien a guany.
 N'hi ha que s'hi dediquen professionalment.
@@ -13891,6 +13985,7 @@ Ni mobles tenien per a ajaçar-se
 Ni per precs ni per renys li podien fer dormir.
 Ni roques pera posar el vaixell en perill.
 Ni sabia lo que menjava
+Ni tan sols el podia veure un advocat
 Ni tan sols els ensenyaven a disparar un fusell
 Ni tan sols hi havia manera de fer-los formar.
 Ni tan sols les sentia aquelles cançons de mofa
@@ -13924,6 +14019,7 @@ Ningú no s'adonava d'ell, i en Rodon seguí internant-se.
 Ningú no sabia carregar un fusell, i menys encara prendre punteria.
 Ningú no sabia del cert si les tropes de València venien realment
 Ningú no sap com me'ls estimo.
+Ningú no suposava que quedés cap esperança de democràcia
 Ningú no tenia una idea gaire clara del que passava
 Ningú no vacil·la a utilitzar les ambulàncies per transportar municions.
 Ningú no veu raons per interessar-se per nosaltres.
@@ -14030,6 +14126,7 @@ No es pot conduir on es vol, sinó per camins extraviats.
 No es pot desfer un nus sense saber com és fet.
 No es pot estar segur de la veritat objectiva de les primeres dades psicogeogràfiques.
 No es pot fer que no ploreu la trista mort del qui ara ignoreu.
+No es pot intervenir en com els altres eduquen els seus fills.
 No es pot ser gaire creatiu d'aquest mode.
 No es pot tindre-ho tot, en aquesta vida. On ho posaries?
 No es pot trobar la felicitat al mateix lloc on la vas perdre.
@@ -14170,6 +14267,7 @@ No ho fan així els llauradors, menestrals i jornalers, que els presenten molt s
 No ho he sentit dir mai a ningú.
 No ho oblideu: sense contraris no hi ha progrés.
 No ho sé;
+No ho trobo normal.
 No importa que els altres no ho entenguen.
 No ja estan les dues coses.
 No ja estaria tot gracies.
@@ -14593,6 +14691,7 @@ Només de pensar-hi em venen calfreds!
 Només de sentir parlar-ne ja en va quedar enamorat.
 Només el primer d'aquests rumors era cert
 Només ell parlava enfervorit
+Només els milionaris podien desitjar que triomfés.
 Només en l'agonia de la separació entendríeu les profunditats de l'amor.
 Només es basava en una aplicació esquemàtica de la noció de progrés maquinista.
 Només fent ús de la força, els podrien prendre les armes
@@ -15230,6 +15329,7 @@ Per si de cas he agafat les claus de recanvi.
 Per si de cas, us assegure que aquest post no hi té a veure.
 Per si tinguera una necessitat de sobresortir en la professió escollida.
 Per sort de les nostres lletres, encara es segueix avui.
+Per sort no es va fer res.
 Per sort, hi ha molta gent que ens ajuda.
 Per sota de les barbacanes passava gent enfangada.
 Per sota mà he descobert que no estan en massa bona posició
@@ -15378,6 +15478,7 @@ Però abans o després de sopar?
 Però abans que l'eco la repetisca, Déu i el diable et porten lluny!
 Però aixís i tot, anaven venent.
 Però això era ganga!
+Però això no volia dir que no valgués la pena de lluitar
 Però això és horrorós!- va exclamar tothom.
 Però al menys, podem mantenir la serenitat dintre el dolor
 Però aleshores va sortir un vellet del rotllo.
@@ -15891,6 +15992,7 @@ Probablement de seixanta o setanta augments
 Probablement el Comitè Local seria atacat d'un moment a l'altre
 Probablement els pitjors errors de la nostra vida són els que no hem comès.
 Probablement hauria estat impossible
+Probablement havia de passar.
 Probablement ja el desembre o el gener era evident
 Probablement l'hi trobaria.
 Probablement no comprenia tota la profunditat del principi estètic
@@ -16335,6 +16437,7 @@ Qui més qui menys, tothom s'ho esperava.
 Qui no ho coneix no l'endevina, la finor de l'element.
 Qui no plora no mama, sí; però qui té padrins, el bategen.
 Qui no s’arrisca, no pisca.
+Qui no té un all té una ceba.
 Qui no vulga pols, que no vaja a l’era.
 Qui pagarà la reserva?
 Qui puja la muntanya?
@@ -17252,6 +17355,7 @@ Saps com accedir-hi?
 Saps que ets un dropo quan t'alegres de cancel·lar els teus plans.
 Saps que pots disposar, amb tot i per tot
 Saps renovar contínuament el teu art de dramaturg
+Saps si encara fa feina aquella modista de sa plaça nova nombre u?
 Sara prové de Santa Eulàlia
 Sara és antropòloga
 Sara és de Gualba
@@ -17308,6 +17412,7 @@ Se'l veia preocupat i molts cops li feien preguntes
 Se'ls presentava deslliurada d'un dels seus capitals secrets.
 Se'ls solen tirar més pudents perquè s'afarten de sopes i miques.
 Se'ls va mirar de cara i de creu
+Se'm regira l'estómac.
 Se'm tanquen els ulls de son. Vaig a donar part a la nit.
 Se'n anava desesperat
 Se'n anessin a passar el vespre a tirar ratlles i fer gargots
@@ -17542,6 +17647,7 @@ Seria ideal poder fer els engraellats sobre unes brases.
 Seria l'espai de la reflexió deliberada, de la seua autoconsciència i llibertat.
 Seria mil cops més encertat encendre dalt del tió una flamarada autèntica
 Seria possible demanar coberts?
+Seria substituït per un Govern més de dretes
 Seria un bon negoci per a mi, no hi ha cap dubte.
 Seria un conjunt d'impressions que determinen la qualitat d'un moment.
 Seria, despatxada, poc enraonadora, serena
@@ -17573,6 +17679,8 @@ Seré per aquí fins ben entrat el setembre.
 Seríem tots cubans, si la terra fóra un cub?
 Seríeu molt més rics en possibilitats constructives que no es pensa generalment.
 Seròs es troba al Segrià
+Ses cases des lloc són en un punt més alterós.
+Ses fotos velles són una font d'enyorança
 Set d'alegres benaurances, que augmenta d'hora en hora: l'apaga algun torrent?
 Set hores ajaguts en un pantà horrible
 Setcases es troba al Ripollès
@@ -18539,6 +18647,7 @@ Tant de bo indagàrem en la influència de l'inconscient en la conducta conscien
 Tant de bo poguera recollir una altra sèrie de dades que també es quantificara!
 Tant de bo que jo els tingués, sis milions de iens!
 Tant de pentinar fa perdre els cabells.
+Tant era de qui la rebessin
 Tant hauria valgut no tenir-la
 Tant la ràdio com la premsa comunista atacaven constantment les milícies
 Tant li feia fer factures com facturar lo de les factures
@@ -18729,6 +18838,7 @@ Tinc el conhort de ser presoner pel meu senyor, servint-lo tant com puc.
 Tinc fets els deures a mitges. Els acabaré després de sopar.
 Tinc ganes d'explicar-t'ho tot.
 Tinc ganes d'explicar-te coses.
+Tinc ganes de parlar amb l'Anna.
 Tinc ganes de veure l'Anna i parlar-hi.
 Tinc l'esquena fatal.
 Tinc la sogra malalta a Riola.
@@ -19981,6 +20091,7 @@ Vaig fer un salt, mentalment, vint anys endarrere
 Vaig fer una narració curta a rajaploma i la vaig enviar al concurs.
 Vaig fer-me un compte el mes passat.
 Vaig ficar-me per un passatge
+Vaig flipar quan m'ho va explicar.
 Vaig girar l'esquena a la catedral
 Vaig greixar els meus deu cartutxos mexicans
 Vaig haver d'anar al cementiri nou
@@ -20127,6 +20238,7 @@ Vam tenir molta feina a aconseguir que ens deixessin entrar a l'hotel
 Vam tirar encara altres granades
 Vam tornar al front després de la lluita
 Vam trigar deu dies o més a tenir la primera baixa.
+Vam trigar una mica a saber per què l'havien detingut.
 Vam veure passar un camió, corrent, en direcció oposada
 Vam veure que portaven l'uniforme de les tropes de xoc
 Vam veure un avió enemic que s'apropava
@@ -20724,6 +20836,7 @@ zoo: "ni furtant-nos els somnis, ni cremant la trinxera... callaran la fera"
 Àdhuc quan tots els experts coincideixen, poden ben bé estar equivocats.
 Àdhuc respectant vacil·lacions quan aquestes existeixen, malgrat que són abundoses.
 Àger es troba a la Noguera
+Àger es un poble de la Noguera
 Àlex és natural de Fulleda
 Àlex és natural de Montesquiu
 Àngel és natural de Pont de Molins
@@ -20989,6 +21102,7 @@ zoo: "ni furtant-nos els somnis, ni cremant la trinxera... callaran la fera"
 És, doncs, la història de la reducció teòrica i pràctica del moviment de renovació.
 És, per exemple, molt famosa la de Carl Gustav Jung.
 És, precisament, a través del llenguatge màgic que el xiquet intenta conciliar dos mons.
+Òbviament allò no era sinó un pretext
 Òdena es troba a l’Anoia
 Òrrius es troba al Maresme
 Òscar és de Gerri de la Sal

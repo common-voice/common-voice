@@ -129,6 +129,7 @@ ne-NP = Nepali
 nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
+nr = IsiNdebele (Gúsù)
 nso = Northern Sotho
 nyn = Runyankole
 oc = Occitan
@@ -192,6 +193,7 @@ yue = Cantonese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -1183,6 +1185,7 @@ sc-howto-addlang-title = Ṣíṣe àfikún àwọn èdè láti ṣiṣ�
 sc-howto-addlang-text = Kété tí o bá wọlé, o lè yan àwọn èdè rẹ nínú abala púrófáìlì.
 sc-howto-addsen-title = Ṣàfikún àwọn gbólóhùn tuntun
 sc-howto-addsen-item-3 = Ìsọdikúkúrú àti ìsọdikúkúrú aborúkọ. Ìsọdikúkúrú àti ìsọdikúkúrú aborúkọ bí i "USA" tàbí "ICE" ni kí o gìnnà sí nínú ọ̀rọ̀ orísun nítorí pé ìtumọ̀ wọn lè yàtọ̀ sí sípẹ́lì wọn. Ní àfikún, ọ̀pọ̀ itumọ̀ tó tọ́nà ni ó lè wà fún ìsọdikúkúrú kan. Bí àpẹẹrẹ, ìsọdikúkúrú aborúkọ “ICE” ni a lè pè bí i  “I-C-E” tàbí kí a pè é gẹ́gẹ́ bí ẹyọ ọ̀rọ̀ kan.
+sc-howto-addsen-item-4 = Àmì Àkọtọ́. Àmì àrà-ọ̀tọ̀ àti àmì àkọtọ́ gbọ́dọ̀ ọ̀wọ́ ìgbà tí ó bá yẹ. Fún àpẹẹrẹ, kọmá olókè máa ń di lílò nínú àwọn ọ̀rọ̀ Gẹ̀ẹ́sì bí i “don’t” àti “we’re” ó sì gbọdọ̀ wà nínú ọ̀rọ̀ orísun, ṣùgbọ́n kò dá jú wí pé wà á nílò àwọn àmì àrà-ọ̀tọ̀ bi i  “@” or “#.”
 sc-howto-cite-item-1 = O lè fi wẹ́íbusaìtì kun, àpẹẹrẹ "Common Voice -https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = O lè lo sítàì ìtọ́kasí ti akadá, bí àpẹẹrẹ sítàì Harvard "Mozilla (2021) Common Voice. Ó wà ní https://commonvoice.mozilla.org/ (Wíwọlé: 15th Ọwẹ́wẹ̀ 2021)"
 sc-howto-review-title = Ṣe àtúnyẹ̀wò àwọn gbólóhùn

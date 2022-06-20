@@ -6895,6 +6895,7 @@ Coisinha
 Coito interrompido é um dos possíveis métodos contraceptivos
 Coité do Noia
 Coivaras
+Colaboradores mobilizam suas próprias comunidades
 Colaboradores são incentivados com benefícios
 Colaborar com os inspetores atuariais na avaliação de ativos urbanos e rurais.
 Colaborar na definição da estratégia e dos objetivos na programação de ações.
@@ -19175,6 +19176,7 @@ Neste caso, o objetivo é aperfeiçoar as ações de governo realizadas pelas di
 Neste caso, o valor exato que é afetado pelo subsídio será indicado.
 Neste caso, podemos marcar outro compromisso.
 Neste contexto, um primeiro elemento chave é o nível de empreendedorismo.
+Neste e noutros conjuntos
 Neste momento muitas pessoas trabalham neste projeto, sejam elas da cidade ou de fora.
 Neste momento, o programa detalhado de atividades e a agenda estão em preparação.
 Neste momento, o tempo está bom.
@@ -35130,6 +35132,7 @@ acabo porque não tenho alma para suspender.
 aceitou casa e comida sem outro estipêndio, salvo o que quisessem dar por festas.
 acho que o sentido é dormir.
 acima, salvação, chuva, cabeça, empregos, ouvir, armadura, falecido
+acumulado com registros de diferentes pronúncias
 adaptados para atender a novas necessidades
 add paulinho da viola to my Radio Rock song list
 adicionar Chris de Burgh na minha playlist melancholia
@@ -35154,6 +35157,7 @@ aponta alguns fatores que dificultam a construção de um coletivo, no contexto 
 aprende com os melhores e serás uma um entre eles.
 aquelas nuvens escuras que cobrem o azul como um crepe funéreo
 as mais íntimas entranhas
+as deficiências do conjunto
 as notícias dos jornais estão assustadoras
 as pessoas estão andando pela rua.
 as pessoas estão dançando em uma plataforma quadriculada enquanto as pessoas estão assistindo
@@ -35284,6 +35288,7 @@ eu realmente gosto de lugares bonitos
 eu sou aquele que te vai dizer quem tu és.
 exceto pelo sonho.
 fazer com que as escolas brasileiras se tornem inclusivas
+ferramentas de código aberto
 fixo os mínimos gestos faciais de com quem falo
 foi assim que me encaminhe
 foi muito menos triste do que podia parecer
@@ -35348,6 +35353,7 @@ meu pai ainda estava na antiga fazenda de Itaguaí, e eu acabava de nascer.
 meu melhor amigo é viado mas não é vaiado
 meu pai e minha mãe vem me visitar
 meu pai já não podia dispensá-lo.
+mil horas de dados de voz
 minha alma alegra-se com o seu sorriso
 minha mãe e meu pai vem me ver
 minhas ferias foram ótimas penas que você não foi
@@ -35519,6 +35525,8 @@ suporte para alunos que apresentam necessidades educacionais especiais
 são as ações executadas quando a entidade é removida
 tal como é impresso em papel.
 tal frequência é cansativa.
+tecnologia habilitada para voz
+tendência a distorção
 tenho visto os pequenos brincando, e nunca vi nada que faça desconfiar.
 tenho muito prazer em apresentar o anfitrião desta noite
 teria os seus cinqüenta e cinco anos.
@@ -35667,6 +35675,8 @@ uma velha cortando o cabelo em uma rua lateral.
 uma volta do céu
 uma ânsia desconhecida, um desejo sem definição
 vai sair em carne e osso
+variabilidade de vocabulário
+variedade de vozes e modos de falar
 veio ao bar em que ele havia entrado em seu primeiro dia ali.
 vejo os seus gestos de vagar enérgico
 vendedores ambulantes asiáticos que esperam para vender lá a mercadoria.
