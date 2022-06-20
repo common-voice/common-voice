@@ -313,6 +313,8 @@ profile-form-additional-language =
     .label = Lingua addizziunala
 profile-form-language =
     .label = Lingua
+profile-form-variant =
+    .label = Chì variante di { $language } parleti ?
 profile-form-variant-default-value = Nissuna variante scelta
 profile-form-accent =
     .label = Accentu
@@ -371,6 +373,7 @@ gravatar_not_found = Ùn avemu trovu di prufilu Gravatar cù u vostru indirizzu 
 file_too_large = U ducumentu sceltu hè troppu maiò
 avatar-uploaded = Avatar caricatu
 max-file-size = { $kb } Ko à u più
+remove-avatar = Caccià l’avatar
 
 ## Profile - Email
 
