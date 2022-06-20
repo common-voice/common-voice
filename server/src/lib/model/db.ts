@@ -966,7 +966,7 @@ export default class DB {
         id: row.id,
         name: row.name,
         is_contributable: row.is_contributable,
-        sentenceCount: {
+        sentencesCount: {
           targetSentenceCount: row.target_sentence_count,
           currentCount: row.total_sentence_count,
         },
