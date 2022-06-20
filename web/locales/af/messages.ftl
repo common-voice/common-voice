@@ -458,6 +458,9 @@ faq-why-different-speakers-a =
     Meeste spraakdatabasisse word opgelei met 'n oorverteenwoordiging van sekere demografieë wat lei tot 'n vooroordeel teenoor aksente wat<articleLink> manlik en middelklas</articleLink> is. Aksente en dialekte wat geneig is om onderverteenwoordig te word in die opleiding van datastelle, word tipies geassosieer met groepe mense wat reeds gemarginaliseer word. Baie spraaktegnologieë sukkel ook om vroulike stemme te verstaan.
     Dit is hoekom ons in ons stemdatabasis verskeidenheid wil hê!
 faq-why-my-lang-q = Hoekom is my taal nog nie ingesluit nie?
+faq-why-my-lang-a =
+    Common Voice is 'n platform wat gebruik maak van skarebefondsing, en die tale is almal bygevoeg deur vrywilligers.
+    Ons sal graag wil hê dat jy jou taal byvoeg! <languageRequestLink>Vra oor die por die proses om jou taal by te voeg.</languageRequestLink>
 faq-what-quality-q = Watter vlak van klankkwaliteit is nodig om 'n stemsnit te gebruik in die datastel?
 faq-what-quality-a = Ons wil hê dat die Common Voice datastel die klankgehalte weerspieël wat 'n spraak-na-teks-enjine in die natuur sal hoor, so ons soek verskeidenheid. Benewens 'n uiteenlopende gemeenskap van sprekers, sal 'n datastel met wisselende klankgehalte die spraak-na-teks-enjin leer om verskillende werklike situasies te hanteer, van agtergrond-babbel tot die geraas van motors. Solank as wat jou stemsnit verstaanbaar is, sal dit goed genoeg wees vir die datastel.
 faq-why-10k-hours-q = Waarom is die doelwit vir die aantal klankopnames per taal 10 000 bevestigde ure?
@@ -556,6 +559,17 @@ about-playbook-what-is-language-content-3 = Sommige tale het enorme variasie in 
 
 about-playbook-how-add-language = Hoe voeg ek 'n taal by?
 about-playbook-how-add-language-content-1 = Kyk eers of jou taal <languageLink>reeds bestaan</languageLink> op die platform. As dit nie daar is nie, moet jy <strong>die webwerf vertaal en sinne versamel</strong>.
+about-playbook-how-add-language-translating-heading = Vertaal die webwerf
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Kyk na ons gids oor hoe om Pontoon te gebruik.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Ons gebruik 'n Mozilla-produk genaamd <pontoonLink>Pontoon</pontoonLink> vir vertalings. Pontoon het baie tale,
+    maar as dit nie joune het nie, kan jy <pontoonRequestLink>versoek dat jou taal bygevoeg word</pontoonRequestLink>.
+    Dan, om die taal op die Common Voice-projek beskikbaar te stel,
+    <githubRepoLink>versoek die nuwe taal op GitHub</githubRepoLink>. <localizationFragment>Sien meer op werfvertaling</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Versamel sinne
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Kyk na ons gids oor die gebruik van die Sinversamelaar</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = Jy kan <scLinkAdd>klein hoeveelhede sinne hier byvoeg</scLinkAdd>, of jy kan <bulkImportDocsLink>grootmaat invoere</bulkImportDocsLink> doen via 'n Github-versoek. Onthou dat sinne <licenseLink>CC0 (of in die publieke domein)</licenseLink> moet wees, of jy kan jou eie skryf. Sien meer oor <scFragment>sinversameling</scFragment>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Sien meer oor sinversameling</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -815,6 +829,8 @@ language-search-input =
 language-speakers = Sprekers
 localized = Gelokaliseerd
 sentences = Sinne
+language-validation-hours = Ure
+language-validation-progress = Bekragtiging Vordering
 
 ## Contribution
 
