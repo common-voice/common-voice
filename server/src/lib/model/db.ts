@@ -163,8 +163,8 @@ export default class DB {
 
   async getSentenceCountByLocale(): Promise<
     {
-      count: number;
       locale_id: number;
+      count: number;
     }[]
   > {
     const [rows] = await this.mysql.query(
@@ -218,35 +218,33 @@ export default class DB {
   }
 
   async getSpeakerCount(
-    locales: string[]
-  ): Promise<{ locale: string; count: number }[]> {
+    localeIds: number[]
+  ): Promise<{ locale_id: number; count: number }[]> {
     return (
       await this.mysql.query(
         `
-        SELECT locales.name AS locale, COUNT(DISTINCT clips.client_id) AS count
+        SELECT clips.locale_id, COUNT(DISTINCT clips.client_id) AS count
         FROM clips
-        LEFT JOIN locales ON clips.locale_id = locales.id
-        WHERE locales.name IN (?)
-        GROUP BY locale
+        WHERE clips.locale_id IN (?)
+        GROUP BY clips.locale_id
       `,
-        [locales]
+        [localeIds]
       )
     )[0];
   }
 
   async getDailySpeakerCount(
-    locales: string[]
-  ): Promise<{ locale: string; count: number }[]> {
+    localeIds: number[]
+  ): Promise<{ locale_id: number; count: number }[]> {
     return (
       await this.mysql.query(
         `
-        SELECT locales.name AS locale, COUNT(1) AS count
+        SELECT clips.locale_id, COUNT(1) AS count
         FROM clips
-        LEFT JOIN locales ON clips.locale_id = locales.id
-        WHERE locales.name IN (?) AND created_at>= NOW()-INTERVAL 1 DAY
-        GROUP BY locales.name
+        WHERE clips.locale_id IN (?) AND created_at>= NOW()-INTERVAL 1 DAY
+        GROUP BY clips.locale_id
       `,
-        [locales]
+        [localeIds]
       )
     )[0];
   }
@@ -756,18 +754,16 @@ export default class DB {
   }
 
   async getValidClipCount(
-    locales: string[]
-  ): Promise<{ locale: string; count: number }[]> {
+    localeIds: number[]
+  ): Promise<{ locale_id: number; count: number }[]> {
     const [rows] = await this.mysql.query(
       `
-        SELECT locale, COUNT(*) AS count
-         FROM clips
-         LEFT JOIN locales ON clips.locale_id = locales.id
-         WHERE locales.name IN (?) AND is_valid
-         GROUP BY clips.id
-        GROUP BY locale
+        SELECT locale_id, COUNT(*) AS count
+        FROM clips
+        WHERE locale_id IN (?) AND is_valid
+        GROUP BY locale_id
       `,
-      [locales]
+      [localeIds]
     );
     return rows;
   }
