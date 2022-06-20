@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Localized } from '@fluent/react';
 import classNames from 'classnames';
 
-import { InProgressLanguage, LaunchedLanguage } from 'common';
+import { LanguageStatistics } from 'common';
 import { DAILY_GOALS } from '../../../../constants';
 
 import ProgressBar from '../../../progress-bar/progress-bar';
@@ -21,7 +21,7 @@ const TRANSLATED_MIN_PROGRESS_PERCENTAGE = 75;
 const LanguageCardDataLaunched = ({
   language,
 }: {
-  language: LaunchedLanguage;
+  language: LanguageStatistics;
 }) => {
   const { recordedHours, validatedHours, speakersCount, sentencesCount } =
     language;
@@ -80,9 +80,10 @@ const LanguageCardDataLaunched = ({
 const LanguageCardDataInProgress = ({
   language,
 }: {
-  language: InProgressLanguage;
+  language: LanguageStatistics;
 }) => {
   const { sentencesCount, localizedPercentage } = language;
+  console.log('sc', sentencesCount);
 
   return (
     <div className={styles.Data}>
@@ -122,15 +123,19 @@ const LanguageCardData = ({
   language,
 }: {
   type: 'launched' | 'in-progress';
-  language: InProgressLanguage | LaunchedLanguage;
+  language: LanguageStatistics;
 }) => {
+  console.log('language', language, language.sentencesCount);
+
   if (type === 'launched') {
-    return <LanguageCardDataLaunched language={language as LaunchedLanguage} />;
+    return (
+      <LanguageCardDataLaunched language={language as LanguageStatistics} />
+    );
   }
 
   if (type === 'in-progress') {
     return (
-      <LanguageCardDataInProgress language={language as InProgressLanguage} />
+      <LanguageCardDataInProgress language={language as LanguageStatistics} />
     );
   }
 
