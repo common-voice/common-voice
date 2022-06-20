@@ -213,13 +213,13 @@ export default class Model {
   );
 
   getLocalizedPercentages = lazyCache(
-    'get-localized-percentagesx',
+    'get-localized-percentages',
     async (): Promise<any> => fetchLocalizedPercentagesByLocale(),
     DAY
   );
 
   getLanguageStats = lazyCache(
-    'get-all-total-language-stats',
+    'get-all-total-language-stat',
     async (): Promise<any> => {
       const languages = await this.db.getLanguages();
       const allLanguageIds = languages.map(language => language.id);

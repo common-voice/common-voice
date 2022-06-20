@@ -72,7 +72,6 @@ const LanguageCardDataInProgress = ({
   language: LanguageStatistics;
 }) => {
   const { sentencesCount, localizedPercentage } = language;
-  console.log('sc', sentencesCount);
 
   return (
     <div className={styles.Data}>
