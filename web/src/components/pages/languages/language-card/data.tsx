@@ -16,7 +16,7 @@ import {
 
 import styles from './data.module.css';
 
-const TRANSLATED_MIN_PROGRESS_PERCENTAGE = 75;
+const TRANSLATED_MIN_PROGRESS_PERCENTAGE = 60;
 
 const LanguageCardDataLaunched = ({
   language,
@@ -26,19 +26,10 @@ const LanguageCardDataLaunched = ({
   const { recordedHours, validatedHours, speakersCount, sentencesCount } =
     language;
 
-  const recordedHoursGoal =
-    DAILY_GOALS.speak.find(goal => goal > recordedHours) ||
-    DAILY_GOALS.speak[DAILY_GOALS.speak.length - 1];
-  const recordedHoursPercentage =
-    recordedHours === 0
-      ? 0
-      : Math.ceil((recordedHours / recordedHoursGoal) * 100);
-
-  const [validatedHoursGoal] = DAILY_GOALS.listen;
-  const validatedPercentage =
-    validatedHours === 0
-      ? 0
-      : Math.ceil((validatedHours / validatedHoursGoal) * 100);
+  const validationPercent =
+    validatedHours && recordedHours
+      ? Math.ceil(validatedHours / recordedHours) * 100
+      : 0;
 
   return (
     <div className={styles.Data}>
@@ -47,10 +38,7 @@ const LanguageCardDataLaunched = ({
           <IconHours className={styles.DataItemHeadingIcon} />
           <Localized id="language-validation-hours" />
         </h4>
-        <p className={styles.DataItemValue}>
-          {recordedHours} <small>/ {recordedHoursGoal}</small>
-        </p>
-        <ProgressBar percentageValue={recordedHoursPercentage} />
+        <p className={styles.DataItemValue}>{recordedHours}</p>
       </div>
       <div className={styles.DataItem}>
         <h4 className={styles.DataItemHeading}>
@@ -64,7 +52,8 @@ const LanguageCardDataLaunched = ({
           <IconValidationProgress className={styles.DataItemHeadingIcon} />
           <Localized id="language-validation-progress" />
         </h4>
-        <p className={styles.DataItemValue}>{validatedPercentage}%</p>
+        <p className={styles.DataItemValue}>{validationPercent}%</p>
+        <ProgressBar percentageValue={validationPercent} />
       </div>
       <div className={styles.DataItem}>
         <h4 className={styles.DataItemHeading}>
@@ -125,8 +114,6 @@ const LanguageCardData = ({
   type: 'launched' | 'in-progress';
   language: LanguageStatistics;
 }) => {
-  console.log('language', language, language.sentencesCount);
-
   if (type === 'launched') {
     return (
       <LanguageCardDataLaunched language={language as LanguageStatistics} />
