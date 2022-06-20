@@ -6,7 +6,7 @@ import {
 } from '@fluent/react';
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import { BaseLanguage, InProgressLanguage, LaunchedLanguage } from 'common';
+import { BaseLanguage, LanguageStatistics } from 'common';
 
 import { useAPI } from '../../../hooks/store-hooks';
 import { useLocale, useNativeLocaleNames } from '../../locale-helpers';
@@ -30,10 +30,10 @@ export interface ModalOptions {
 }
 interface State {
   isLoading: boolean;
-  inProgress: InProgressLanguage[];
-  filteredInProgress: InProgressLanguage[];
-  launched: LaunchedLanguage[];
-  filteredLaunched: LaunchedLanguage[];
+  inProgress: LanguageStatistics[];
+  filteredInProgress: LanguageStatistics[];
+  launched: LanguageStatistics[];
+  filteredLaunched: LanguageStatistics[];
   localeMessages: string[][];
   showAllInProgress: boolean;
   showAllLaunched: boolean;
@@ -119,12 +119,12 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
   } = state;
 
   const loadData = async () => {
-    const [localeMessages, { launched, inProgress }] = await Promise.all([
+    const [localeMessages, languageStatistics] = await Promise.all([
       api.fetchCrossLocaleMessages(),
       api.fetchLanguageStats(),
     ]);
 
-    return { localeMessages, launched, inProgress };
+    return { localeMessages, languageStatistics };
   };
 
   const sortLocales = () => {
@@ -253,13 +253,15 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
 
   // on mount
   useEffect(() => {
-    loadData().then(({ localeMessages, launched, inProgress }) => {
+    loadData().then(({ localeMessages, languageStatistics }) => {
       setState(previousState => ({
         ...previousState,
         isLoading: false,
-        inProgress,
+        inProgress: languageStatistics.filter(
+          (lang: LanguageStatistics) => !lang.is_contributable
+        ),
         filteredInProgress: inProgress,
-        launched,
+        launched: languageStatistics.filter(lang => lang.is_contributable),
         filteredLaunched: launched,
         localeMessages,
       }));
