@@ -1,3 +1,2 @@
 ## Languages
 
-contribute = Yenza igalelo
