@@ -2968,6 +2968,8 @@ Anos recentes
 Anote mais no seu caderno: que fala impensadamente quem afirma
 Anotei também isso.
 Anselma Angelo dos Santos
+Ansiava pelo solstício de inverno
+Ansiavam por um novo governo que não desvalorizasse a vida humana
 Ansiedade, estresse e depressão são problemas cada vez mais comuns
 Ansiedade, tensão e esgotamento
 Ansioso para o nascimento da primeira neta pequena
@@ -3782,6 +3784,7 @@ Aquela cor rosa fluorescente está machucando meus olhos.
 Aquela mulher agora
 Aquela mulher era incompreensível.
 Aquela noite foi a última da feira.
+Aquela regência está incorreta
 Aquelas pessoas que estão suspensas, enquanto dura a situação de suspensão de funções.
 Aquele androide insano continua a me ignorar.
 Aquele cara ali gosta de beber muito? fala muito? mas não faz nada.
@@ -8063,6 +8066,7 @@ De fato, muito mais do que eles têm agora.
 De fato, o cluster permite que as empresas superem as limitações de escala.
 De forma um pouco abusiva, mas sem dúvida com efetividade social
 De galho em galho, acostumou-se com a incoerência por desespero de sobrevivência
+De grão em grão a galinha enche o papo
 De grão em grão, a galinha enche o papo
 De hoje em diante vocês não andarão na rua durante o dia.
 De ingrato, está cheio de inferno.
@@ -11367,6 +11371,7 @@ Enfrentando a situação da diplomacia internacional hoje
 Enfrentando os olhos piscando
 Enfrente seus olhos chorando
 Engajada na luta contra as mudanças climáticas
+Engajada nas causas e lutas sociais
 Enganando os pobres
 Enganar a maioria não especificada
 Engenharia Industrial
@@ -14278,6 +14283,7 @@ Fazenda Rio Grande
 Fazenda Vilanova
 Fazenda de camarões
 Fazendo algo saboroso espero que você goste de limões!
+Fazendo o reconhecimento de perímetro
 Fazer cessar ou extinguir aquilo que causara o sofrimento
 Fazer ouvido de mercador
 Fazer um handstand precisa de muita prática para aprender.
@@ -14829,6 +14835,7 @@ Fugir seria equivalente a provar o que até então eram apenas suspeitas.
 Fui ao dentista essa semana
 Fui atacado por uma moreia gigante!
 Fui bloqueado por aquele embuste
+Fui demitido por muito menos
 Fui enviado aqui para limpar a casa.
 Fui esticando minhas pernas desajeitadamente e sentindo meu caminho no escuro.
 Fui multado injustamente
@@ -14843,6 +14850,7 @@ Fumar é proibido.
 Fumaça descia de todos os lados.
 Funciona.
 Funcionamento básico de um ecossistema e cadeia alimentar
+Funcionário e servidor público
 Funcionário salta nos trilhos e salva criança de trem
 Funcionários da equipe operam caixas registradoras para clientes que compram refrigerante.
 Fundador do pequeno final de semana
@@ -16835,6 +16843,7 @@ Já preparou o jantar?
 Já procurou no Google?
 Já recebi vinte likes no meu post
 Já saiu?
+Já se olhou no espelho hoje?
 Já suando
 Já submeti meu projeto de iniciação científica e publicarei o artigo na próxima quinzena
 Já te disse que não quero que vás.
@@ -16843,6 +16852,7 @@ Já tentei isso algumas vezes e não deu certo
 Já terminei
 Já tomou o café?
 Já vai.
+Já verificou sua situação eleitoral?
 Já viajou com a companhia Azul?
 Já é tarde demais.
 Já é tarde.
@@ -21767,6 +21777,7 @@ O imóvel me custou os olhos da cara
 O incentivo ao avanço tecnológico, assim como o desafiador cenário globalizado
 O incidente não é tratado como suspeito.
 O indulto para George.
+O inferno acabará em outubro
 O inferno está lotado daqueles que se dizem muito santos
 O infinito é uma coisa chata, nos dois sentidos da palavra.
 O inglês era a língua materna porque a mãe não sabia falar a língua.
@@ -23364,6 +23375,7 @@ Olhou assombrado, mordendo os beiços.
 Olhou para o calendário
 Olhou para o mirante e vislumbrou o que estaria por vir
 Olhou para o relógio
+Olhou pelo retrovisor
 Oligarquias
 Olinda
 Olinda Nova do Maranhão
@@ -29051,6 +29063,7 @@ Siga em frente.
 Sigefredo Pacheco
 Sigmund descreveu a ocorrência com todos os seus detalhes obscenos.
 Significa plantar-se.
+Significou muito mais para mim
 Silencia pequenos instrumentos na ponte do violino, amortecendo o som.
 Silencioso
 Silva Jardim
@@ -29400,6 +29413,7 @@ Sumuel tinha o hábito de acordar cedo.
 Sumé
 Super delicioso e barato
 Super engarrafamento, realmente não pode andar
+Superar o relacionamento passado
 Supere as metas e incentive as pessoas.
 Supere o medo de ser julgada e criticada
 Superfície de serviço de manutenção e limpeza de grelhas de irrigação.
@@ -35978,6 +35992,7 @@ zé Doca
 É melhor prevenir a cura.
 É melhor que mal acompanhado.
 É melhor que não perder.
+É melhor que saia pelo voto para não se tornar um mártir
 É melhor quebrá-lo antes que você fique ainda mais complicado!
 É melhor sair do seu trabalho
 É melhor se apaixonar do que ser engraçado.

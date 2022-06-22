@@ -1026,6 +1026,8 @@ Blæs på mig, at jeg kan komme mig igen
 Blæs på mig, at jeg kan komme mig igen!
 Bløde toner og dejlig sang nåede til hende, men også hyl og skrig
 Bløde toner og dejlig sang nåede til hende, men også hyl og skrig.
+Bogen må derfor kopieres, distribueres, redigeres, beskæres og bygges videre på
+Bogen og alle tilhørende materialer er udgivet under en licens.
 Boghveden eventyret eventyr af hans christian andersen h
 Boller og kringler fløj i grams
 Bommanden fik gåsen, bondemanden fik hønen
@@ -1126,6 +1128,7 @@ Børnene forstod ikke straks hvad hun sagde.
 Børnene gik af skole og skolemesteren var den sidste
 Børnene gik af skole og skolemesteren var den sidste.
 Børnene havde frikvarter
+Børnene havde ikke frikvarter
 Børnene trivedes, voksede ud over reden, kom vidt om og artede sig vel
 Børnene trivedes, voksede ud over reden, kom vidt om og artede sig vel.
 Censor skal under prøven kunne tale til eleven via et radioanlæg
@@ -1655,6 +1658,7 @@ De lærdeste kan ikke forklare, hvad de ikke selv ved
 De lærdeste kan ikke forklare, hvad de ikke selv ved.
 De løb på sækken, som lille Claus sad i, så den væltede.
 De lød i t sekund de mange hundrede mil fra land til land
+De materialer du måtte lave med dette indhold er dine.
 De mene paa den maade
 De mindede om kendte, kærlige øjne, barneøjne, kærestefolksøjne, når de mødtes under træet
 De mindskedes ikke, om man skød imellem dem, de tog snarere til
@@ -1877,6 +1881,7 @@ De ved ikke hvad der stikker under dem!
 De ved, han har sådan lyst til læsning og er jo krøbling
 De ved, han har sådan lyst til læsning og er jo krøbling!
 De vendte retten til og så godt ud
+De venter på at hjælpe dig og dine elever!
 De vide historier fra forhus og baghus
 De vil først vækkes, når de er over england
 De vil have grumme godt af at rejse
@@ -1984,6 +1989,7 @@ Den dødes ansigt lyste derved, som skyens kant i måneskin.
 Den døende så på ham, hendes øjne blev større og større
 Den døende så på ham, hendes øjne blev større og større –!
 Den eksisterende gangbro over sporene fjernes.
+Den elegante vision om en verden
 Den elektromagnetiske tråd under verdenshavet har allerede telegraferet, hvor stor luftkaravanen er
 Den ene dag gik ligesom den anden
 Den ene dag gik ligesom den anden.
@@ -2999,6 +3005,7 @@ Derinde bor en stakkels værkbruden pige.
 Derinde laae Alle endnu i dyb Søvn.
 Derinde laae alle endnu i dyb søvn
 Derinde var sang og dans
+Dermed kommer vi til sagens kerne
 Dernede bor havfolkene.
 Dernede er endnu noget at få, noget for skrotten, den er det vigtigste
 Dernede er endnu noget at få, noget for skrotten, den er det vigtigste.
@@ -3034,6 +3041,7 @@ Des hurtigere er krigen forbi
 Des hurtigere er krigen forbi!
 Desuden kan vi også have det varmt
 Desuden kan vi også have det varmt!
+Desværre er ikke alle af den opfattelse
 Det Ordsprog var der dengang.
 Det Psykiatriske Ankenævns afgørelser kan ikke indbringes for anden administrativ myndighed.
 Det Psykiatriske Patientklagenævn ved Nævnenes Hus offentliggør hvert år en beretning om sin virksomhed.
@@ -3103,6 +3111,7 @@ Det dér er prægtigt!
 Det ene ben er lidt længere end det andet.
 Det ene svarede der til det andet
 Det ene svarede der til det andet.
+Det eneste du skal gøre er at udvælge det bedste indhold
 Det er Historie om Valdemar Daae og hans Døttre.
 Det er Poppedrengs fødselsdag!
 Det er Sjællands biskop!
@@ -3379,6 +3388,7 @@ Det er grin, far
 Det er hele syv historier, for der er syv dage i en uge
 Det er hele syv historier, for der er syv dage i en uge.
 Det er helt harmløst.
+Det er helt op til dig at bruge
 Det er hendes levnedsløb
 Det er her i skoven
 Det er herligt, kan du tro
@@ -4092,6 +4102,7 @@ Det stod trykt i aviser og på plakater
 Det stod trykt i aviser og på plakater.
 Det står alt sammen her i denne bog
 Det står alt sammen her i denne bog!
+Det står enhver frit for at lave deres egne materialer
 Det stødte Hr Hansen.
 Det største grønne Blad her til Lands, det er da rigtignok et Skræppeblad.
 Det største æg ligger der endnu
@@ -4640,6 +4651,7 @@ Det var såmænd godt betalt! sagde store Claus.
 Det var særdeles pragtfuldt
 Det var tak fordi hun havde skaffet ham på loftet
 Det var thorvaldsens museum
+Det var tid til at fjerne forbindingen
 Det var tid til at skifte forbinding
 Det var tidligt paa Aaret, Nogle havde Æg og Nogle havde Unger.
 Det var tidligt paa aaret, nogle havde æg og nogle havde unger
@@ -5350,7 +5362,9 @@ En ussel hest trak kærren, hvori hun sad.
 En vaskebjørn kan vaske tingensaa længe, at den bliver ingen
 En velopdragen ælling sætter benene vidt fra hinanden, ligesom fader og moder
 En velsignelse for menneskeheden
+En verden hvor vi kan gå ombord i millioner af digitale værker
 En verden i opbrud – hvor efterlader det Danmark?
+En verden med tusindvis af kreative og gavmilde ildsjæle
 En vs mand er han, sagde hun til sig selv, det er godt
 En vís mand er han, sagde hun til sig selv, det er godt!
 En Østers har ikke til Verden Fiduus
@@ -5386,6 +5400,7 @@ Ene kan jeg ikke magte at styre den
 Ene kan jeg ikke magte at styre den.
 Ene og viljedvask levede derinde sølle Rasmus, som de kaldte ham.
 Ene og viljedvask levede derinde sølle rasmus, som de kaldte ham
+Eneste betingelse er, at dette materiale ikke genanvendes med kommercielle formål
 Engang må det jo være forbi
 Engang må det jo være forbi!
 Engang skal du takke mig derfor
@@ -5666,6 +5681,7 @@ For det var jeg hos husholdersken
 For ellers hugger de hovedet af mig, og det er så ækelt!
 For fløjten var retfærdig, og det skal man være
 For gør vi det, så styrter han død om på landevejen
+For ham er der ikke tale om en utopi, men om en virkelighed
 For han går på hosesokker, han lukker ganske sagte døren op og fut
 For han ville ikke drikke så meget
 For hans øjne var figurerne ganske udmærkede og af den allerhøjeste vigtighed
@@ -5696,6 +5712,7 @@ Fordærv mig ikke mine pigebørn
 Fordærv mig ikke mine pigebørn!
 Fordærvede æg og stegte hanekamme var pragtretterne
 Foreligger der ingen overenskomst herom, fastsætter sundheds- og ældreministeren de nærmere regler
+Forestil dig en herlig verden
 Forestillingen var aflyst.
 Forgyldning forgår,men svinelæder består
 Forlang for den alt, hvad du vil!
@@ -5970,6 +5987,7 @@ Gik det i et væk og således går det endnu om tusinde år
 Gik han igen uden at tage den
 Gik med bulet hat, bar hals og lange, løse hår
 Gik med bulet hat, bar hals og lange, løse hår.
+Giv ham endelig ikke tyve ml morfin
 Giv mig bare fyrtøjet
 Giv mig bare fyrtøjet!
 Giv mig bare midlerne
@@ -8117,6 +8135,7 @@ Hvor her lugter sødt og hvor her er kønt!
 Hvor her var en duft og dejlighed
 Hvor hun er styg
 Hvor hun vil blive glad, kongedatteren
+Hvor hvert eneste menneske på Jorden
 Hvor hvor kurrede duerne
 Hvor hører De hjemme? spurgte flipperne.
 Hvor hører de hjemme spurgte flipperne
@@ -8390,6 +8409,7 @@ I bondens stue blev hans hjerte et hjerte i danmarks våben
 I brudgommens knaphul var malet en tidselblomst
 I brudgommens knaphul var malet en tidselblomst.
 I capellet hang hendes billede med sølvlamper om
+I dag er Wikipedia blot ét af mange eksempler
 I dag er det guldbryllupsdag
 I dag er det guldbryllupsdag!
 I dag har vi taget fat på et nyt år, som umiddelbart tegner lyst.
@@ -8736,6 +8756,7 @@ Inger fornam det grueligt at staae som postament
 Institut for Menneskerettigheder afgør, om en klage giver tilstrækkelig anledning til undersøgelse.
 Instituttet indgår i det operationelle beredskab mod smitsomme sygdomme og biologisk terrorisme
 Internationale fællesskaber, der forpligter og beskytter.
+Internettet giver os alle mulighed for at bidrage med en viden
 Intet havde de i Eie uden Klæderne paa Kroppen.
 Intet havde de i eie uden klæderne paa kroppen
 Intet i verden kunne dog lignes ved røde sko
@@ -10806,6 +10827,7 @@ Luk op for sækken!
 Luk op, her er tannhuser
 Lusiadens sanger sulte ihjel
 Lusiadens sanger sulte ihjel.
+Lyder det for godt til at være sandt?
 Lykkeligere end vi to kunne ingen blive
 Lykkeligvis hørte vi hjemme ikke ret om faren, før den var forbi
 Lykken kan ligge i en pind
@@ -10843,6 +10865,7 @@ Lærdommen var ham saa svær at bære
 Lærdommen var ham saa svær at bære.
 Læreren var blevet interesseret og havde smilet.
 Lærerne havde frikvarter
+Lærerne havde ikke frikvarter
 Lærkerne sang det var dejligt forår
 Læs det højt, at jeg kan høre om De forstår min skrift.
 Læs det højt, at jeg kan høre om de forstår min skrift
@@ -11852,6 +11875,8 @@ Må jeg se, hvorledes I får billedet herover på det hvide stykke? -
 Må jeg så blive bekranset
 Må vi bare beholde frøer og regnorme
 Må vi bare beholde frøer og regnorme!
+Må vi byde velkommen til en verden fuld af muligheder.
+Målet med bogen er at støtte op om dannelsen af eleverne
 Måned for måned kommer flere i job.
 Månen skinnede dejligt klart
 Månen skinnede dejligt klart.
@@ -14423,6 +14448,7 @@ Skal jeg slet ikke med, slet ikke gøre noget
 Skal jeg slet ikke med, slet ikke gøre noget!
 Skal kongedatteren også ha dendet skal hun
 Skal tankens jakobsstige gå itu?
+Skal udgives under samme licens som dette indhold.
 Skal udlevering finde sted, er sundhedspersonen forpligtet til at sørge herfor
 Skal vi bytte spurgte han
 Skal vi bytteja nok
@@ -14914,6 +14940,7 @@ Svarede karlen, en hel sækfuld til svinene
 Svarede papegøjen, de havde ingen dannelse
 Svarede rotterne og gik ind til deres
 Svarede østenvinden, men nu skal vi snart komme der
+Svaret er enkelt. Fordi viden i dag er digital
 Svinepolisk og drillevorn er han
 Svinepolisk og drillevorn er han!
 Sværdet hvæssedes, kæmperne brødes for skønhedsgudinden
@@ -14998,8 +15025,10 @@ Så gik åringer, bogen stod på hylden
 Så gik åringer, bogen stod på hylden.
 Så giv mig den
 Så giv mig den!
+Så gnid øjnene og læs videre, den er god nok.
 Så går den just over i noget meget højere og bedre
 Så gør man det kortere af, at komme her op på land.
+Så han har set hvordan fællesskabets energi kan gøre visionen til virkelighed.
 Så han har talt til dig, barn
 Så han har talt til dig, barn!
 Så har den mand vidst at bringe frugten til en højere udvikling
@@ -15838,6 +15867,7 @@ Vi er gode til at kommunikere
 Vi er hævnet og mester med
 Vi er hævnet og mester med!
 Vi er i et herligt, demokratisk og digitaliseret samfund
+Vi er i klemme mellem det vi gerne vil og det vi må.
 Vi er jo i fortvivlelse
 Vi er jo i fortvivlelse!
 Vi er jo unge folk
@@ -15927,6 +15957,7 @@ Vi liver op om huset, sagde spurvemoderen, og svalereder bringer lykke, siger fo
 Vi liver op om huset, sagde spurvemoderen, og svalereder bringer lykke, siger folk.
 Vi maae til jorden, alle gjester gaae bort
 Vi medtager Retslægerådets udtalelse i den samlede sagsvurdering.
+Vi må bygge videre på det andre har lagt på Wikipedia.
 Vi må i nat ride en tur
 Vi må jo næsten være stolte af at vi har ham
 Vi må jo næsten være stolte af at vi har ham!
@@ -16007,6 +16038,7 @@ Vi våger om dagen, sover om natten, og har da vore drømme
 Vi ønsker ikke et Europa, der kun består af byer.
 Viben fløj op fra sin tue, da hun faldt over tuen
 Viben fløj op fra sin tue, da hun faldt over tuen.
+Viden kan samle sig i enorme mængder
 Videregivelse af oplysninger skal indføres i patientjournalen
 Vidste heller ikke om, hvorledes sind og skind skiftede hos liden helga
 Vidste jeg bare, hvorledes man bærer sig ad med at flytte sig
@@ -16207,6 +16239,7 @@ Værst af alt var hende dog den gruelige sult, hun fornam
 Værtens Søn kom hjem.
 Værtinden lånte Tante tørre strømper og en morgenkappe.
 Værtinden lånte tante tørre strømper og en morgenkappe
+Wikipedia er måske verdens største leksikon på nettet
 Xanthus er nu bedre
 Xanthus er nu bedre!
 adspredelse er også noget godt!
@@ -16258,10 +16291,12 @@ alligevel var hun meget smukkere, end alle hendes klæder.
 alt dejligt og glædeligt så han deri.
 alt det maa man vide for at forstaae Historien.
 alt forår sidst i februar!
+alt indhold er skrevet af brugerne
 alt kommer i tiden til sin ret!
 alt på sin rette plads, og det blev et skønhedshele.
 alt rundt om var ét eneste stykke is.
 alt sammen simpelt og naturligt!
+alt skal deles gratis og frit
 alt så så hjemligt, så dansk ud!
 alt var i stand til første forestilling.
 alt var stumt og stille derinde, uret gik ikke mere.
@@ -16296,6 +16331,8 @@ benene er også hver kun en streg, hovedet en mangekant.
 betragt Sorgens perle, i den ligger Psychevingerne, de bærer os bort herfra!
 bidronningen ville også flyve, men da må de alle med!
 bierne var ikke til at forjage.
+bilen kørte ikke på nedslidte vinterdæk
+bilen kørte ikke på sommerdæk
 bilen kørte på nedslidte vinterdæk
 bilen kørte på sommerdæk
 bjæffede den gamle lænkehund.
@@ -16519,6 +16556,7 @@ den er den dejligste, vi kender.
 den er død og borte.
 den er en levende by, den har dampskib og postvogn.
 den er frisksindet, skal jeg sige dem!
+den er så tydelig, at vi alle må forholde os til den
 den er tilskaaret, den er udmærket!
 den er trøstens perle fra Gud.
 den evige længsel og lyst, opad, altid opad!
@@ -16675,6 +16713,7 @@ der flyver et år, se hvor de flyver!
 der fremstillede sig til Afreise kun fire Muus, unge og vævre, men fattige.
 der får vi barn Jesus i tale!
 der får vi barn Jesus i tale.
+der gerne vil dele deres værker med andre
 der gik mange år.
 der groede Marias hvide særkeærmer som slyngplanter.
 der går mange tanker og mange skikkelser forbi.
@@ -16769,6 +16808,7 @@ derfor bliver også dette så mageløst.
 derfor bærer pigen sorg.
 derfor er de glade ved at have os!
 derfor er vi fornemme folk kommet her i køknet.
+derfor finder vi også store mængder indhold
 derfor gravede hun i Jorden saa dybt hun mægtede det.
 derfor har jeg ikke ro, ikke hvile.
 derfor laae hun i Aakande.
@@ -16943,6 +16983,7 @@ det kan intet menneske gøre Dem efter!
 det kan jeg aldrig overleve!
 det kan måske fornøje Poppedreng!
 det kan vi se igennem de mange små huller, der er på den!
+det kan være oplagt til undervis­ningsbrug
 det kjendte Lyset bedre, end Tællelyset kjendte sig selv.
 det klang forunderligt, som en af præsternes legender.
 det klang i den.
@@ -17153,6 +17194,7 @@ det voksede henne i krogen i en lille fattig gård.
 det voksede og voksede, vinter og sommer stod det grønt.
 det æble skulle gemmes, og det stod på dragkisten til det sprak.
 det øverste vindue står åbent.
+dette indhold er derfor helt automatisk beskyttet af ophavsretten.
 dette kan man ikke sige om beboerne af andegården.
 dette selv, Storkeparret med alle Ungerne, ja hvor vare de nu?
 dette tilligemed hans dragt bestyrkede konen i, at han var en udlænding.
@@ -17203,6 +17245,7 @@ dueslaget faldt sammen, og stæren byggede der.
 dybt inde i italien var han, mellem Florens og Rom.
 dyret var stærkt og væligt.
 dækkenes mønster var ikke lovligt
+dækkenes mønster var lovligt
 dér gør vi ingen omstændigheder!
 dér revnede bælgen og alle fem ærter trillede ud i det klare solskin.
 dér sidder fangne slaver, de værste forbrydere.
@@ -17305,12 +17348,14 @@ foden ud ad, hold dig rank
 folk måtte der være.
 folk, som så det, sagde.
 for Ib var der i nødden kun den sorte muld.
+for at de kan være lærende og agerende i vores videnssamfund.
 for de små var der liv i stokken.
 for de troede, at de var halvparten, og det den allerbedste del.
 for dem har vi mange af!
 for dem stod alterbordet dækket med naturens offergave.
 for den Fjerde, som manglede, var stillet en Pølsepind med sort Flor om.
 for den, som ung mon være
+for der er vitterlig masser af personer
 for det skulle nu lade ligesom om han ret betragtede sin stads.
 for det var jeg hos husholdersken.
 for fløjten var retfærdig, og det skal man være.
@@ -17320,6 +17365,7 @@ for han ville ikke drikke så meget.
 for hans øjne var figurerne ganske udmærkede og af den allerhøjeste vigtighed.
 for hende gik det i opfyldelse –!
 for hjerte har jeg!
+for hvordan skulle vi kunne dele viden med hinanden?
 for jeg kan ikke lade være!
 for min skyld fik hesten guldsko!
 for nu sagde de du til ham, da han skulle være af familien.
@@ -17350,6 +17396,7 @@ fuglen blev også urolig.
 fuglen sang, dådyret sprang.
 fuglen skreg, som den altid skriger.
 fuglene har kun to vinger og må bære dem på ryggen.
+fuldstændig, som det passer ind i din undervisning.
 fy, det lede skarn, som forlod hende!
 fy, hvor den var dejlig!
 fyrre, halvtreds, tres, firs, halvfems
@@ -17556,6 +17603,7 @@ hans tro har du ikke.
 har I hørt det!
 har du en tommestok, som jeg må låne
 har en lang hals med messingtromle.
+har fri adgang til summen af al menneskelig viden.
 har jeg nu ligget så længe, så kan jeg ligge dyrehavstiden med!
 har sine tanker vendt til ruder knægt.
 har store sale og går med sådan en dejlig, sort fløjlspels!
@@ -17828,6 +17876,7 @@ hvor her er tomt og stort!
 hvor her var en duft og dejlighed!
 hvor hun er styg!
 hvor hun vil blive glad, kongedatteren!
+hvor hvert eneste menneske på Jorden har fri adgang
 hvor jeg har sinket mig!
 hvor jeg har tænkt på dig, Christine!
 hvor kom det ind i herregårdsstuen?
@@ -17853,6 +17902,7 @@ hvorfor ikke følge skønhed og glæde!
 hvorfor spiste Adam af den forbudne frugt!
 hvorfra er Du dog kommet i mit Huus!
 hvorfra han skal komme at dømme levende og døde.
+hvori det hele eller dele af dette indhold optræder.
 hvorledes får vi dig med? Vi har hverken skib eller båd!
 hvornår har du sidst downloadet et billede fra nettet
 hyp, alle mine heste!
@@ -17944,7 +17994,9 @@ ingen ord kunne holde ham tilbage.
 ingen redningsbåd kunne virke.
 ingen sjæl trøstede hende med et kærligt ord.
 ingen søgte derfor til skrædderens hus, uden Johanne, træskomandens datter.
+intentionen fra ophavsmanden er at vise, men bestemt ikke at dele indholdet
 internettet giver os mulighed for at deltage
+internettet rummer to slags indhold, det vi må bearbejde og det vi må se.
 intet vokslys kan stråle som to barneøjne!
 ja De forstår Dem ikke på verden.
 ja da fik den Syn!
@@ -18331,6 +18383,7 @@ lov om en satsreguleringsprocent
 luen stod ud efter mig og ud af vinduet, hen over taget.
 luk mig op og slå mig så ihjel!
 luk op, her er Tannhäuser!
+lyder måske som en utopi
 lykkeligere end vi to kunne ingen blive!
 lykkeligvis hørte vi hjemme ikke ret om faren, før den var forbi.
 lyn blinkede på lyn.
@@ -18747,6 +18800,7 @@ nå, det skal vi snart komme efter!
 nå, hvor den kom til at se ud!
 nå, hvor hun skal smage!
 nå, hvor mine øjne skulle gå i butikker!
+når brugere invite­res til at give en hånd med
 når den er nede, får vi vor menneskelige skikkelse.
 når jeg imellem vågnede lidt, fløj stormfuglen mig om benene!
 når kommer våren? Det varer så længe!
@@ -18846,6 +18900,7 @@ og du vil spænde!
 og dér sidder den!
 og fingre har han, så fine og bøjelige.
 og folk så derhen, og blev ganske højtidelige.
+og fordi vi kommunikerer digitalt.
 og fra Kronborg svarede det.
 og fra husenes væg lyste med ildbogstaver dødsyndernes navne.
 og fremmede fra verdens anden side.
@@ -18866,6 +18921,7 @@ og hans bøn blev opfyldt.
 og harniskerne raslede og silkekjolerne raslede!
 og havfruen sukkede dybt, græde kunne hun ikke.
 og her står min gamle kæreste Bæh!
+og herunder lære dem om ophavsret
 og hun fløj derhen, for der gik flere spurve, pip!
 og hun glemte at synge sin salme, hun glemte at læse sit Fadervor.
 og hun klappede i hænderne.
@@ -19790,6 +19846,7 @@ see, det var rigtignok noget andet end den Rose.
 see, hvor de gloe!
 selv det fattigste barn sagde.
 selv gik han bort, han blev ikke kaldet!
+selv med en minimal indsats fra den enkelte, kan resultatet blive enormt.
 selv må hjertet lide og prøve hvad det skal synge ud.
 selv var han fra Thüringen, fra den Stad Eisenach, tæt under Wartburg.
 selv ved jeg ikke, hvorlunde det kom –!
@@ -20011,12 +20068,14 @@ teologen var den vagthavende.
 thi jeg var rig på sagn og eventyr
 thi nu var kornet høstet, og her stod kun de tørre stubbe.
 til Styrelsen for Patientsikkerhed
+til at blive kompetente vidensforbrugere og vidensproducenter
 til brudeparret i stuen ind.
 til din hud skrumper sammen som en benrads!
 til et får har vi just fuldt op af græsning.
 til sidst kunne ingen mere se, at det var bogstaver.
 til sidst måtte han hvile sig lidt.
 til stads går jeg i silkestrømper og med muffe!
+til summen af al menneskelig viden
 tillader De, jeg bruger mosters briller
 to bliver vist gift bort.
 to breve var vekslet mellem Ib og Christine.
@@ -20080,6 +20139,7 @@ udenfor var en Sneestorm, saa at Enhver der kunde det holdt sig indendøre.
 udpeger en voldgiftsmand
 uh, hvor jeg pines!
 under lås og lukke skal det gale hoved!
+under vilkår som tillader alle og enhver at kopiere
 undgås ved rigtig betjening og vedligeholdelse af traktoren
 ungdomstid kom igen, bryggeren kom igen, gamle minder.
 uret gik ikke ganske rigtigt, men hele byen rettede sig dog derefter.
@@ -20124,6 +20184,7 @@ vi følte os dertil så glade ved at have landjorden under os.
 vi græd begge to.
 vi har set den lille Kay.
 vi hører en saga.
+vi kan derfor finde millioner af eksempler på denne frie videndeling.
 vi kan ikke stå og bære dig!
 vi kan meget godt leve for hinanden, men gifte os – nej!
 vi kender dem begge.
@@ -20166,6 +20227,7 @@ vognene rumlede med de pyntede balgæster, musikken klang.
 vor jord drejede sig i den tynde luft, by syntes tæt ved by.
 vor jord svævede, som en stor ildrød kugle over hans hoved.
 vore Unger staae sig nok ved Manoeuveren, kjender jeg dem ret!
+vurder det selv med dine faglige briller.
 væddemål gør de, nu skal du høre!
 væggene strålede i farver, og alt var liv og bevægelse der.
 vægteren gik lige ind på brudgommen og slog ham for panden med morgenstjernen.
