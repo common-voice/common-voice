@@ -73,6 +73,10 @@ export function isStaging(): boolean {
   return window.location.origin === URLS.STAGING_ROOT;
 }
 
+export function shouldEmitErrors(): boolean {
+  return isStaging() || isProduction() ? true : false;
+}
+
 /**
  * Replaces the locale part of a given path
  */

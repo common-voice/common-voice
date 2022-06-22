@@ -17,7 +17,7 @@ import { createBrowserHistory } from 'history';
 import { UserClient } from 'common';
 import store from '../stores/root';
 import URLS from '../urls';
-import { isMobileSafari, isProduction } from '../utility';
+import { isMobileSafari, isProduction, shouldEmitErrors } from '../utility';
 import API from '../services/api';
 import { Locale } from '../stores/locale';
 import * as Languages from '../stores/languages';
@@ -47,7 +47,7 @@ const SENTRY_DSN_WEB =
   'https://40742891598c4900aacac78dd1145d7e@o1069899.ingest.sentry.io/6251028';
 
 Sentry.init({
-  dsn: SENTRY_DSN_WEB,
+  dsn: shouldEmitErrors() ? SENTRY_DSN_WEB : null,
   integrations: [new BrowserTracing()],
   environment: isProduction() ? 'prod' : 'stage',
   release: process.env.GIT_COMMIT_SHA || null,
