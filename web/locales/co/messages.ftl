@@ -15,6 +15,7 @@ email-opt-in-privacy-v2 = Scegliendu di riceve l'email, accittate chì Mozilla s
 indicates-required = * Indicheghja un campu richiestu
 not-available-abbreviation = Micca dispunibule
 banner-error-slow-1 = Scusateci, Common Voice hè lentu pà arrisponde. Grazie pà u vostru interessu.
+error-something-went-wrong = Scusateci, un sbagliu hè accadutu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -319,6 +320,8 @@ profile-form-variant =
 profile-form-variant-default-value = Nissuna variante scelta
 profile-form-accent =
     .label = Accentu
+profile-form-custom-accent-help-text =
+    .label = Comu discrivaristi u vostru accentu ?
 profile-form-age =
     .label = Età
 profile-form-gender-2 =
