@@ -420,6 +420,7 @@ skip-submission-note = Tesko: maa sokloy labaade hakkunde Haal walla Heɗo ngam 
 off = Ñifol
 on = Kuɓɓol
 help-accent = Aɗa sokli ballal seeɗa baɗte ngaddin?
+help-accent-explanation = Ngaddiin maa ko no ngowlirtaa konngi. Seerndata ngaddinaaji ko ɗo neɗɗo hoti, ɗemɗe goɗɗe ɗe o haalata kañum e geɗe goɗɗe keewɗe.Aɗa waawi waɗde ɗoo humpito kala cikuu-ɗaa ena ɓeydoo faamminde.
 
 ## Profile - Email
 
@@ -550,6 +551,7 @@ about-nav-get-involved = Ar yantu e amen
 
 ## How to record quality
 
+about-playbook-how-record-content-1 = Haaldu no keew-ɗaa haaldude nih. No kaaldataa nih ena hatojinaa ɗoo - min njiɗi ko kaaldaa ngaddin maa oo siforii nih, kadi hito maa, daande e no kaaldataa tawa waylaaki.
 
 ## How to grow language
 
