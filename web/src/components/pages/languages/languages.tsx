@@ -119,10 +119,12 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
   } = state;
 
   const loadData = async () => {
-    const [localeMessages, languageStatistics] = await Promise.all([
+    const [localeMessages, languageStats] = await Promise.all([
       api.fetchCrossLocaleMessages(),
       api.fetchLanguageStats(),
     ]);
+
+    const languageStatistics = languageStats ?? [];
 
     return { localeMessages, languageStatistics };
   };
