@@ -26,7 +26,6 @@ import StateTree from '../stores/tree';
 import { Uploads } from '../stores/uploads';
 import { User } from '../stores/user';
 import Layout from './layout/layout';
-import DemoLayout from './layout/demo-layout';
 import NotificationPill from './notification-pill/notification-pill';
 import { Spinner } from './ui/ui';
 import { localeConnector, LocalePropsFromState } from './locale-helpers';
@@ -40,6 +39,7 @@ const ListenPage = React.lazy(
   () => import('./pages/contribution/listen/listen')
 );
 const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
+const DemoPage = React.lazy(() => import('./layout/demo-layout'));
 
 const SentryRoute = Sentry.withSentryRouting(Route);
 
@@ -222,7 +222,7 @@ let LocalizedPage: any = class extends React.Component<
               }
             />
           ))}
-          {location.pathname.includes(URLS.DEMO) ? <DemoLayout /> : <Layout />}
+          {location.pathname.includes(URLS.DEMO) ? <DemoPage /> : <Layout />}
         </Switch>
       </>
     );
