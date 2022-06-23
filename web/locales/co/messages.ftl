@@ -611,7 +611,7 @@ data-other-tatoeba-description = Tatoeba hè una banca maiò d'infrasate, traduz
 your-feedback = Avete idee di cumu fà pà megliurà a banca di dati di Common Voice ? Dateci u vostru parè nant'à Discourse
 go-discourse = Andà nant'à Discourse
 missing-language = Ùn vidite micca a vostra lingua in a banca di dati ? Pà dumandà una lingua, andate annantu à a nostra paghjina Lingue.
-go-languages-page = Andà à a pagina di e lingue
+go-languages-page = Andà à a paghjina di e lingue
 ready-to-validate = Prontu pà aiutacci à cunvalidà l'infrasate ?
 more = Più
 close = Sarrà
@@ -664,6 +664,7 @@ language-search-input =
 language-speakers = Locutori
 localized = Lucalizatu
 sentences = Infrasate
+language-validation-hours = Ore
 
 ## Contribution
 
