@@ -482,10 +482,12 @@ about-nav-why-common-voice = Parchì ?
 about-nav-how-it-works = Comu ?
 about-nav-partners = Partinarii
 about-nav-get-involved = Impegnassi
+about-nav-how-it-works-2 = Comu funziona Common Voice ?
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Cosa hè una lingua in Common Voice ?
 
 ## How do I add a language
 
@@ -495,15 +497,18 @@ about-nav-get-involved = Impegnassi
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Comu possu aghjunghje infrasate ?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = Rete suciale
 
 ## How to validate
 
+about-playbook-how-validate = Comu possu sapè quandu cunvalidà un campione vucale ?
 
 ## How to access dataset
 
