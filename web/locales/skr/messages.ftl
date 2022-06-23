@@ -526,7 +526,9 @@ about-playbook-what-is-language = کامن وائس تے کہڑی زبان ہے�
 
 about-playbook-how-add-language = میں زبان کین٘ویں شامل کرینداں؟
 about-playbook-how-add-language-translating-heading = سائٹ دا ترجمہ کرݨ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹُون کوں ورتݨ دا ݙا سکھݨ کیتے ساݙی رہنمائی ݙیکھو۔</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = جملے کٹھے کرݨ
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملے کٹھے کرݨ آلا ورتݨ کیتے ساݙی رہنمائی ݙیکھو</sentenceCollectorVideo>۔
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>جملے کٹھے کرݨ تے ٻیا ݙیکھو</sentenceCollectorFragment>.
 
 ## How does localization work
