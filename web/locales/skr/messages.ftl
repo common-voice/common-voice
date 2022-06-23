@@ -724,9 +724,9 @@ request-language-success-list-1 =
 
 ## Languages Overview
 
-language-section-in-progress = تھیندا پئے
+language-section-in-progress = تھیندیاں پیاں
 language-section-in-progress-new-description = ایہ زباناں اڄݨ  برادری ترقی دے تحت ہن. پیشرفت پٹی ایں ڳالھ دی نشاندہی کریندی ہے جو ہر زبان <localizationGlossaryLink/> ویب سائٹ مقامیت <localizationGlossaryLink>    تے <sentenceCollectionGlossaryLink/> جملہ کٹھے کرݨ <sentenceCollectionGlossaryLink> دے عمل وچ اڄݨ کتی دور ہے۔
-language-section-launched = لان٘چ تھی ڳیا
+language-section-launched = لان٘چ تھی ڳیاں
 language-section-launched-description = انہاں شروع تھیوݨ آلیاں زباناں کیتے ویب سائٹ کوں کامیابی نال <localizationGlossaryLink> مقامی </localizationGlossaryLink> کیتا ڳیا ہے ، تے وافر تعداد وچ <speakLink> ٻولݨ</speakLink> تے <listenLink>سُݨݨ</listenLink> دیاں ونگاراں کو جاری رکھݨ کیتے <sentenceCollectionGlossaryLink>جملے کٹھے</sentenceCollectionGlossaryLink>  کیتے ڳئے ہن۔
 languages-show-more = ٻیا ݙیکھو
 languages-show-less = گھٹ ݙیکھو
