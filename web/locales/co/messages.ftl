@@ -15,6 +15,7 @@ email-opt-in-privacy-v2 = Scegliendu di riceve l'email, accittate chì Mozilla s
 indicates-required = * Indicheghja un campu richiestu
 not-available-abbreviation = Micca dispunibule
 banner-error-slow-1 = Scusateci, Common Voice hè lentu pà arrisponde. Grazie pà u vostru interessu.
+banner-error-slow-link = Paghjina di statu
 error-something-went-wrong = Scusateci, un sbagliu hè accadutu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -332,6 +333,7 @@ hidden = Piattatu
 visible = Visìbile
 native-language =
     .label = Lingua Materna
+profile-form-add-accent = Aghjunghjiti un novu accentu persunalizatu « { $inputValue } »
 profile-form-submit-save = Arrighjistrà
 profile-form-submit-saved = Arrighjistratu
 male = Masciu
@@ -453,6 +455,8 @@ how-does-it-work-text = Rializemu una banca di dati vucale cù è fonte aperte c
 
 ## How does it work section
 
+about-localization-subtitle = U testu di u situ web hè traduttu in sta lingua.
+about-sentence-collection-title = Racolta d'infrasate
 about-speak = Parlà
 about-speak-text = I cuntributori arrighjistrani campiunarii vucali lighjendu da una banca di frasi dunati da a cumunità.
 about-listen-queue = Fila d’ascolta
@@ -473,6 +477,7 @@ about-get-involved = Impegnassi
 about-get-involved-text-2 =
     Vuleti aiutà à migliurà ancu di più Common Voice ?
     Tremendu ! Cuntattateci via email o e piazze publiche <discourseLink>Discourse</discourseLink>, indittati i prublemi di u situ via <githubLink>GitHub</githubLink>, o raghjunghjeti a chjachjerata di a cummunità <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Cumu possu stà in cuntattu ?
 about-nav-why-common-voice = Parchì ?
 about-nav-how-it-works = Comu ?
 about-nav-partners = Partinarii
