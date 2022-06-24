@@ -3,6 +3,7 @@ import { GenericStatistic, Language, Sentence } from 'common';
 import DB from './model/db';
 import { DBClip } from './model/db/tables/clip-table';
 import lazyCache from './lazy-cache';
+import { secondsToHours } from './utils/secondsToHours';
 const HOUR_IN_SECONDS = 3600;
 
 // based on the latest dataset
@@ -251,21 +252,18 @@ export default class Model {
 
       // map over every lang in db
       const languageStats = languages.map(lang => {
+        const totalSecDur =
+          getAverageSecondsPerClip(lang.name) * (allClipsCount[lang.id] || 0);
+        const validSecDur =
+          getAverageSecondsPerClip(lang.name) *
+          (validClipsCounts[lang.id] || 0);
+
         // default to zero if stats not in db
         const currentLangStat = {
           ...lang,
           localizedPercentage: localizedPercentages[lang.name] || 0,
-          recordedHours:
-            Math.ceil(
-              (getAverageSecondsPerClip(lang.name) * allClipsCount[lang.id]) /
-                HOUR_IN_SECONDS //get locale's avg duration
-            ) || 0,
-          validatedHours:
-            Math.ceil(
-              (getAverageSecondsPerClip(lang.name) *
-                validClipsCounts[lang.id]) /
-                HOUR_IN_SECONDS
-            ) || 0,
+          recordedHours: secondsToHours(totalSecDur),
+          validatedHours: secondsToHours(validSecDur),
           speakersCount: speakerCounts[lang.id] || 0,
           locale: lang.name,
         };
