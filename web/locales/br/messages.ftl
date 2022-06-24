@@ -517,6 +517,7 @@ about-new-lang-subtitle = Loc'hañ a reomp lec'hienn Common Coice evit ar yezh-m
 about-voice-contrib-title = Kendaoladurioù mouezh
 about-voice-contrib-subtitle = Tud a zeu da gendeurel gant o mouezh.
 about-voice-validation-title = Gwiriekaat ar vouezh
+about-voice-validation-subtitle = Tud all o deus gwiriekaet ar c'hlipoù aodio-mañ.
 about-speak = Komz
 about-speak-text = Ar gendaolerien a enroll klipoù mouezh en ul lenn e-touez un hollad a frazennoù roet.
 about-listen-queue = Roll gortoz
