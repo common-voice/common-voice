@@ -952,7 +952,7 @@ export default class DB {
       count(1) as total_sentence_count,
       l.is_contributable
         FROM locales l
-        JOIN sentences s ON s.locale_id = l.id
+        LEFT JOIN sentences s ON s.locale_id = l.id
         GROUP BY l.id`
     );
     return rows.map(
