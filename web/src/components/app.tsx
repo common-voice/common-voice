@@ -17,7 +17,7 @@ import { createBrowserHistory } from 'history';
 import { UserClient } from 'common';
 import store from '../stores/root';
 import URLS from '../urls';
-import { isMobileSafari, isProduction } from '../utility';
+import { isMobileSafari, isProduction, shouldEmitErrors } from '../utility';
 import API from '../services/api';
 import { Locale } from '../stores/locale';
 import * as Languages from '../stores/languages';
@@ -26,7 +26,6 @@ import StateTree from '../stores/tree';
 import { Uploads } from '../stores/uploads';
 import { User } from '../stores/user';
 import Layout from './layout/layout';
-import DemoLayout from './layout/demo-layout';
 import NotificationPill from './notification-pill/notification-pill';
 import { Spinner } from './ui/ui';
 import { localeConnector, LocalePropsFromState } from './locale-helpers';
@@ -40,6 +39,7 @@ const ListenPage = React.lazy(
   () => import('./pages/contribution/listen/listen')
 );
 const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
+const DemoPage = React.lazy(() => import('./layout/demo-layout'));
 
 const SentryRoute = Sentry.withSentryRouting(Route);
 
@@ -47,7 +47,7 @@ const SENTRY_DSN_WEB =
   'https://40742891598c4900aacac78dd1145d7e@o1069899.ingest.sentry.io/6251028';
 
 Sentry.init({
-  dsn: SENTRY_DSN_WEB,
+  dsn: shouldEmitErrors() ? SENTRY_DSN_WEB : null,
   integrations: [new BrowserTracing()],
   environment: isProduction() ? 'prod' : 'stage',
   release: process.env.GIT_COMMIT_SHA || null,
@@ -222,7 +222,7 @@ let LocalizedPage: any = class extends React.Component<
               }
             />
           ))}
-          {location.pathname.includes(URLS.DEMO) ? <DemoLayout /> : <Layout />}
+          {location.pathname.includes(URLS.DEMO) ? <DemoPage /> : <Layout />}
         </Switch>
       </>
     );
