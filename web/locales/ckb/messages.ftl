@@ -333,6 +333,7 @@ profile-form-additional-language =
     .label = زمانی تر
 profile-form-language =
     .label = زمان
+profile-form-variant-default-value = هیچ جۆرێک هەڵنەبژێردراوە
 profile-form-accent =
     .label = شێوەزار
 profile-form-custom-accent-help-text =
@@ -504,6 +505,7 @@ about-nav-why-common-voice = بۆچی؟
 about-nav-how-it-works = چۆن؟
 about-nav-partners = یارمەتیدەران
 about-nav-get-involved = بەشدار بە
+about-nav-how-it-works-2 = کۆمۆنڤۆیس چۆن کار دەکات؟
 about-nav-playbook = فێربە چۆن بەشداری بکەیت
 
 ## Community Playbook Content
@@ -955,6 +957,7 @@ download-requests = داواکاری پێشوو بۆ تۆمارەکانت
 download-request-button = داگرتن
 download-request-title = { $created }
 download-request-archive-single = تاکە فایلی پەستێنراوی لەخۆگرتووە
+download-request-archive-multiple = بەشی بکە بەسەر { $archiveCount } فایلی ZIP کە پێکهاتبێت لە
 download-request-assembling-description = فایلەکانت تێهەڵکێش بوون. تکایە دواتر بیپشکنەوە.
 download-request-refresh-button = نوێکردنەوە
 download-request-modal-title = بەستەری داگرتن
