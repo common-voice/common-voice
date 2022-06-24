@@ -565,7 +565,9 @@ about-playbook-what-is-language-content-3 = Heta ñẽ’e iñambue tuicha iñe�
 about-playbook-how-add-language = ¿Mba’éicha ambojuajúta ñe’ẽ?
 about-playbook-how-add-language-content-1 = Ñepyrũrã, ehechajey ne ñe’ẽ <languageLink>oĩmapa</languageLink>. Ndapeichairamo, <strong>omoñe’ẽasava’erã pe tenda ha ombyaty ñe’ẽjuaju</strong>.
 about-playbook-how-add-language-translating-heading = Omoñe’ẽasa tenda
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ehecha mba’éichapa eipurúta Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Ñe’ẽrysýi ñembyaty
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ehecha mba’éichapa eipurúta ñe’ẽjuaju ñembyatyha</sentenceCollectorVideo>.
 
 ## How does localization work
 
