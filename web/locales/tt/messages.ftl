@@ -549,14 +549,21 @@ about-playbook-how-add-language-translating-heading = Сайтны тәрҗем�
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon-ны куллану тәртибе турындагы видеобызны карагыз</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Җөмләләр туплау
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Җөмләләр туплагычын ничек кулланылганын аңлатучы видеобызны карагыз</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Җөмлә туплау турында күбрәк белү</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Сайт тәрҗемәсе ничек эшли?
+about-playbook-how-localize-content-1 = Common Voice сайтын тәрҗемә итү <strong>Pontoon</strong>-да башкарыла.
+about-playbook-how-localize-content-2 = Хисабыгыз булмаса, <pontoonAccountLink>хисап булдырыгыз</pontoonAccountLink>. Аннан соң Сезнең телгә тәрҗемә итүче <strong>(«Төркемне»)</strong> һәм <pontoonCvLink>Common Voice</pontoonCvLink> проектын сайлагыз. Тәрҗемә итәсе файллар күрерсез. Берәрсенә басыгыз. Инглиз телендәге сүзләр һәм аларны тәрҗәмә итү өчен буш кыр күрерсез.
+about-playbook-how-localize-content-4 = Тәрҗемәләр 75%-ка җиткәч, сайт Сезнең телегездә ачылырга әзер.
+about-playbook-how-localize-content-5 = Ярдәм өчен безнең аңлатма видеоны карагыз
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Җөмләләрне өсти алам?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> — иҗтимагый милектәге җөмләләрне җыю һәм тикшерү өчен бер корал. Сезгә <scAccountLink>хисап булдырырга кирәк булачак</scAccountLink>. Аннары үз <strong>профилегезгә</strong> телегезне өстәгез.    Сез яңа җөмләләр <strong>өсти</strong> яки инде өстәлгән җөмләләрне <strong>тикшерә</strong> аласыз.
+about-playbook-how-add-sentences-content-3 = Википедиядәге кыска җөмләләрне куллану өчен <scraperLink>Җөмлә чыгартучыны</scraperLink> куллана аласыз.
 
 ## How to record quality
 

@@ -125,10 +125,12 @@ my = برمی
 myv = اِرزیا
 nan-tw = تیوانی (منان)
 nb-NO = نارویجی بوکمال
+nd = اندبیلی (شمالی)
 ne-NP = نیپالی
 nia = نیاس
 nl = ڈچ
 nn-NO = نارویجی نورسک
+nr = اندبیلی (جنوبی)
 nso = شمالی سوٹھو
 nyn = رنیانکول
 oc = آكسيٹان
@@ -158,6 +160,7 @@ sl = سلو وینی
 so = سومالی
 sq = البانی
 sr = سربی
+ss = سواتی
 st = سی سوٹھو
 sv-SE = سویڈش
 sw = سواحلی
@@ -170,6 +173,7 @@ ti = ٹيگرنيا
 tig = ٹیگری
 tk = ترکمانی
 tl = ٹیگ لاگ
+tn = ستوانا
 tok = ٹوکی پونا
 tr = ترکی
 ts = چٹ سونگا
@@ -186,12 +190,14 @@ ve = شی وِنڈا
 vec = ونیتی
 vi = ویت نامی
 vot = ووٹک
+xh = ہوسا
 yi = یدش
 yo = یور
 yue = یورْوبا
 zh-CN = چینی (چین)
 zh-HK = چینی (ہانگ کانگ)
 zh-TW = چینی (تائیواں)
+zu = زولو
 
 # [/]
 
@@ -520,7 +526,9 @@ about-playbook-what-is-language = کامن وائس تے کہڑی زبان ہے�
 
 about-playbook-how-add-language = میں زبان کین٘ویں شامل کرینداں؟
 about-playbook-how-add-language-translating-heading = سائٹ دا ترجمہ کرݨ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹُون کوں ورتݨ دا ݙا سکھݨ کیتے ساݙی رہنمائی ݙیکھو۔</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = جملے کٹھے کرݨ
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملے کٹھے کرݨ آلا ورتݨ کیتے ساݙی رہنمائی ݙیکھو</sentenceCollectorVideo>۔
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>جملے کٹھے کرݨ تے ٻیا ݙیکھو</sentenceCollectorFragment>.
 
 ## How does localization work
@@ -718,9 +726,9 @@ request-language-success-list-1 =
 
 ## Languages Overview
 
-language-section-in-progress = تھیندا پئے
+language-section-in-progress = تھیندیاں پیاں
 language-section-in-progress-new-description = ایہ زباناں اڄݨ  برادری ترقی دے تحت ہن. پیشرفت پٹی ایں ڳالھ دی نشاندہی کریندی ہے جو ہر زبان <localizationGlossaryLink/> ویب سائٹ مقامیت <localizationGlossaryLink>    تے <sentenceCollectionGlossaryLink/> جملہ کٹھے کرݨ <sentenceCollectionGlossaryLink> دے عمل وچ اڄݨ کتی دور ہے۔
-language-section-launched = لان٘چ تھی ڳیا
+language-section-launched = لان٘چ تھی ڳیاں
 language-section-launched-description = انہاں شروع تھیوݨ آلیاں زباناں کیتے ویب سائٹ کوں کامیابی نال <localizationGlossaryLink> مقامی </localizationGlossaryLink> کیتا ڳیا ہے ، تے وافر تعداد وچ <speakLink> ٻولݨ</speakLink> تے <listenLink>سُݨݨ</listenLink> دیاں ونگاراں کو جاری رکھݨ کیتے <sentenceCollectionGlossaryLink>جملے کٹھے</sentenceCollectionGlossaryLink>  کیتے ڳئے ہن۔
 languages-show-more = ٻیا ݙیکھو
 languages-show-less = گھٹ ݙیکھو

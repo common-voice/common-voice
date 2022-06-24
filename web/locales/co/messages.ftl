@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Riceve email cum’è sfide è ramintenze
 email-opt-in-privacy-v2 = Scegliendu di riceve l'email, accittate chì Mozilla si ghjova di st'infurmazioni cum'è spiegatu in a <privacyLink>Pulitica di Cunfidenzialità</privacyLink>.
 indicates-required = * Indicheghja un campu richiestu
 not-available-abbreviation = Micca dispunibule
+banner-error-slow-1 = Scusateci, Common Voice hè lentu pà arrisponde. Grazie pà u vostru interessu.
+banner-error-slow-link = Paghjina di statu
+error-something-went-wrong = Scusateci, un sbagliu hè accadutu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -313,9 +316,13 @@ profile-form-additional-language =
     .label = Lingua addizziunala
 profile-form-language =
     .label = Lingua
+profile-form-variant =
+    .label = Chì variante di { $language } parleti ?
 profile-form-variant-default-value = Nissuna variante scelta
 profile-form-accent =
     .label = Accentu
+profile-form-custom-accent-help-text =
+    .label = Comu discrivaristi u vostru accentu ?
 profile-form-age =
     .label = Età
 profile-form-gender-2 =
@@ -326,6 +333,7 @@ hidden = Piattatu
 visible = Visìbile
 native-language =
     .label = Lingua Materna
+profile-form-add-accent = Aghjunghjiti un novu accentu persunalizatu « { $inputValue } »
 profile-form-submit-save = Arrighjistrà
 profile-form-submit-saved = Arrighjistratu
 male = Masciu
@@ -361,6 +369,7 @@ off = Disattivatu
 on = Attivatu
 help-accent = Avete bisognu d'aiutu cù l'accentu ?
 help-variants = Avete bisognu d'aiutu cù e variante ?
+help-variants-explanation = Variente sò forme specifiche d’una lingua, per esempiu scumpartita da quiddi chì campani in un stessu locu o cummunità. À le volte sò chjamati dialetti.
 
 ## Profile - Email
 
@@ -371,6 +380,7 @@ gravatar_not_found = Ùn avemu trovu di prufilu Gravatar cù u vostru indirizzu 
 file_too_large = U ducumentu sceltu hè troppu maiò
 avatar-uploaded = Avatar caricatu
 max-file-size = { $kb } Ko à u più
+remove-avatar = Caccià l’avatar
 
 ## Profile - Email
 
@@ -446,6 +456,9 @@ how-does-it-work-text = Rializemu una banca di dati vucale cù è fonte aperte c
 
 ## How does it work section
 
+about-language-req-subtitle = Qualcunu dumanda l’aghjustu d’una lingua.
+about-localization-subtitle = U testu di u situ web hè traduttu in sta lingua.
+about-sentence-collection-title = Racolta d'infrasate
 about-speak = Parlà
 about-speak-text = I cuntributori arrighjistrani campiunarii vucali lighjendu da una banca di frasi dunati da a cumunità.
 about-listen-queue = Fila d’ascolta
@@ -466,14 +479,18 @@ about-get-involved = Impegnassi
 about-get-involved-text-2 =
     Vuleti aiutà à migliurà ancu di più Common Voice ?
     Tremendu ! Cuntattateci via email o e piazze publiche <discourseLink>Discourse</discourseLink>, indittati i prublemi di u situ via <githubLink>GitHub</githubLink>, o raghjunghjeti a chjachjerata di a cummunità <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Cumu possu stà in cuntattu ?
+about-stay-in-touch-button = Arrighjistrassi
 about-nav-why-common-voice = Parchì ?
 about-nav-how-it-works = Comu ?
 about-nav-partners = Partinarii
 about-nav-get-involved = Impegnassi
+about-nav-how-it-works-2 = Comu funziona Common Voice ?
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Cosa hè una lingua in Common Voice ?
 
 ## How do I add a language
 
@@ -483,15 +500,19 @@ about-nav-get-involved = Impegnassi
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Comu possu aghjunghje infrasate ?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = Rete suciale
 
 ## How to validate
 
+about-playbook-how-validate = Comu possu sapè quandu cunvalidà un campione vucale ?
+about-playbook-how-validate-content-1 = Si pudeti <strong>sentali bè</strong> è <strong>capisceli bè</strong>, di regula hè megliu di <strong>cunvalidalli</strong>.
 
 ## How to access dataset
 
@@ -515,7 +536,7 @@ de-identified-explanation = U prucessu chì scurisce l'infurmazioni di u prufilu
 
 ## Error pages
 
-error-title-404 = Ùn pudemu micca truvà questa pagina per voi
+error-title-404 = Ùn pudemu micca truvà questa paghjina per voi
 error-content-404 = Forse a nostra <homepageLink>paghjina d'accolta</homepageLink>v’aiutarà ? Pà fà una dumanda, raghjunghjisti a <matrixLink>chjachjerata di a cummunità Matrix</matrixLink>, tiniti l'ochji nant’à i prublemi di u situ via <githubLink>GitHub</githubLink> o visiteti <discourseLink>i nostri fori Discourse</discourseLink>.
 error-title-503 = Avemu un'interuzzione imprevista
 error-code = Errore { $code }
@@ -594,7 +615,7 @@ data-other-tatoeba-description = Tatoeba hè una banca maiò d'infrasate, traduz
 your-feedback = Avete idee di cumu fà pà megliurà a banca di dati di Common Voice ? Dateci u vostru parè nant'à Discourse
 go-discourse = Andà nant'à Discourse
 missing-language = Ùn vidite micca a vostra lingua in a banca di dati ? Pà dumandà una lingua, andate annantu à a nostra paghjina Lingue.
-go-languages-page = Andà à a pagina di e lingue
+go-languages-page = Andà à a paghjina di e lingue
 ready-to-validate = Prontu pà aiutacci à cunvalidà l'infrasate ?
 more = Più
 close = Sarrà
@@ -647,6 +668,7 @@ language-search-input =
 language-speakers = Locutori
 localized = Lucalizatu
 sentences = Infrasate
+language-validation-hours = Ore
 
 ## Contribution
 
@@ -766,7 +788,7 @@ validated-clips = Campioni cunvalidati
 total-approved = Tutale cunvalidatu
 overall-accuracy = Pricisione glubale
 set-visibility = Definisce a mo visibilità
-visibility-overlay-note = Nota : Quandu hè definitu à nantu à 'Visìbile', si pò cambià à nant'à a <profileLink>pagina di prufilu</profileLink>
+visibility-overlay-note = Nota : Quandu hè definitu à nantu à 'Visìbile', si pò cambià à nant'à a <profileLink>paghjina di prufilu</profileLink>
 show-ranking = Muscià a mo classifica
 
 ## Custom Goals

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Localized } from '@fluent/react';
 import classNames from 'classnames';
 
-import { InProgressLanguage, LaunchedLanguage } from 'common';
+import { LanguageStatistics } from 'common';
 import { DAILY_GOALS } from '../../../../constants';
 
 import ProgressBar from '../../../progress-bar/progress-bar';
@@ -16,29 +16,20 @@ import {
 
 import styles from './data.module.css';
 
-const TRANSLATED_MIN_PROGRESS_PERCENTAGE = 75;
+const TRANSLATED_MIN_PROGRESS_PERCENTAGE = 60;
 
 const LanguageCardDataLaunched = ({
   language,
 }: {
-  language: LaunchedLanguage;
+  language: LanguageStatistics;
 }) => {
   const { recordedHours, validatedHours, speakersCount, sentencesCount } =
     language;
 
-  const recordedHoursGoal =
-    DAILY_GOALS.speak.find(goal => goal > recordedHours) ||
-    DAILY_GOALS.speak[DAILY_GOALS.speak.length - 1];
-  const recordedHoursPercentage =
-    recordedHours === 0
-      ? 0
-      : Math.ceil((recordedHours / recordedHoursGoal) * 100);
-
-  const [validatedHoursGoal] = DAILY_GOALS.listen;
-  const validatedPercentage =
-    validatedHours === 0
-      ? 0
-      : Math.ceil((validatedHours / validatedHoursGoal) * 100);
+  const validationPercent =
+    validatedHours && recordedHours
+      ? Math.ceil(validatedHours / recordedHours) * 100
+      : 0;
 
   return (
     <div className={styles.Data}>
@@ -47,10 +38,7 @@ const LanguageCardDataLaunched = ({
           <IconHours className={styles.DataItemHeadingIcon} />
           <Localized id="language-validation-hours" />
         </h4>
-        <p className={styles.DataItemValue}>
-          {recordedHours} <small>/ {recordedHoursGoal}</small>
-        </p>
-        <ProgressBar percentageValue={recordedHoursPercentage} />
+        <p className={styles.DataItemValue}>{recordedHours}</p>
       </div>
       <div className={styles.DataItem}>
         <h4 className={styles.DataItemHeading}>
@@ -64,7 +52,8 @@ const LanguageCardDataLaunched = ({
           <IconValidationProgress className={styles.DataItemHeadingIcon} />
           <Localized id="language-validation-progress" />
         </h4>
-        <p className={styles.DataItemValue}>{validatedPercentage}%</p>
+        <p className={styles.DataItemValue}>{validationPercent}%</p>
+        <ProgressBar percentageValue={validationPercent} />
       </div>
       <div className={styles.DataItem}>
         <h4 className={styles.DataItemHeading}>
@@ -80,7 +69,7 @@ const LanguageCardDataLaunched = ({
 const LanguageCardDataInProgress = ({
   language,
 }: {
-  language: InProgressLanguage;
+  language: LanguageStatistics;
 }) => {
   const { sentencesCount, localizedPercentage } = language;
 
@@ -122,15 +111,17 @@ const LanguageCardData = ({
   language,
 }: {
   type: 'launched' | 'in-progress';
-  language: InProgressLanguage | LaunchedLanguage;
+  language: LanguageStatistics;
 }) => {
   if (type === 'launched') {
-    return <LanguageCardDataLaunched language={language as LaunchedLanguage} />;
+    return (
+      <LanguageCardDataLaunched language={language as LanguageStatistics} />
+    );
   }
 
   if (type === 'in-progress') {
     return (
-      <LanguageCardDataInProgress language={language as InProgressLanguage} />
+      <LanguageCardDataInProgress language={language as LanguageStatistics} />
     );
   }
 

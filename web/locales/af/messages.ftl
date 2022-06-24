@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ja, stuur vir my e-posse. Ek wil graag op hoogte bly van die Common Voice Project.
+yes-receive-emails = Ja, stuur vir my e-posse. Ek wil graag op hoogte bly van die Common Voice-projek.
 stayintouch = Ons by Mozilla bou 'n gemeenskap rondom spraaktegnologie. Ons wil graag kontak hou, met veranderinge en verbeteringe, nuwe databronne, en om meer te hoor oor hoe jy die data gebruik.
 privacy-info = Ons belowe om jou inligting met sorg te hanteer. Lees meer in ons <privacylink> Privaatheidsbeleid </privacylink>.
 return-to-cv = Keer terug na Common Voice
@@ -125,10 +125,12 @@ my = Bermees
 myv = Erzya
 nan-tw = Taiwannees
 nb-NO = Noorse Bokmål
+nd = IsiNdebele (Noord)
 ne-NP = Nepalees
 nia = Nias
 nl = Nederlands
 nn-NO = Noors Nynorsk
+nr = IsiNdebele (Suid)
 nso = Noord-Sotho
 nyn = Runyankole
 oc = Oksitaans
@@ -158,6 +160,7 @@ sl = Sloweens
 so = Somalies
 sq = Albanees
 sr = Serwies
+ss = Siswati
 st = Sesotho
 sv-SE = Sweeds
 sw = Swahili
@@ -170,6 +173,7 @@ ti = Tigrinja
 tig = Tigre
 tk = Turkmeens
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turks
 ts = Xitsonga
@@ -186,12 +190,14 @@ ve = Tshivenda
 vec = Venesiaans
 vi = Viëtnamees
 vot = Voties
+xh = isiXhosa
 yi = Jiddisj
 yo = Joroeba
 yue = Kantonees
 zh-CN = Chinees (China)
 zh-HK = Chinees (Hong Kong)
 zh-TW = Chinees (Taiwan)
+zu = isiZulu
 
 # [/]
 
@@ -211,7 +217,7 @@ terms = Bepalings
 cookies = Koekies
 faq = Vrae en Antwoorde
 content-license-text = Inhoud beskikbaar onder 'n <licenseLink> Creative Commons lisensie</licenseLink> gebruikerslisensie
-share-title = Help ons om meer mense te vind wa hul stemme kan skenk!
+share-title = tHelp ons om meer mense te vind wat hul stemme kan skenk!
 share-text = Help om masjiene te leer hoe werklike mense praat, skenk jou stem hier { $link }
 link-copied = Skakel Gekopieer
 back-top = Terug Boontoe
@@ -319,7 +325,6 @@ shortcut-discard-ongoing-recording-label = Skrap hiérdie opname
 shortcut-submit = Keer Terug
 shortcut-submit-label = Dien snitte in
 request-language-text = Is jou taal nog nie op Common Voice nie?
-request-language-text-learn = Leer hier hoe om dit aan te vra!
 request-language-button = Versoek 'n Taal
 
 ## ProjectStatus
@@ -453,7 +458,9 @@ faq-why-different-speakers-a =
     Meeste spraakdatabasisse word opgelei met 'n oorverteenwoordiging van sekere demografieë wat lei tot 'n vooroordeel teenoor aksente wat<articleLink> manlik en middelklas</articleLink> is. Aksente en dialekte wat geneig is om onderverteenwoordig te word in die opleiding van datastelle, word tipies geassosieer met groepe mense wat reeds gemarginaliseer word. Baie spraaktegnologieë sukkel ook om vroulike stemme te verstaan.
     Dit is hoekom ons in ons stemdatabasis verskeidenheid wil hê!
 faq-why-my-lang-q = Hoekom is my taal nog nie ingesluit nie?
-faq-why-my-lang-new-a = Mozilla kies (of verkies) nie een taal bo 'n ander nie. In plaas daarvan is Common Voice 'n suiwer gemeenskapsgedrewe inisiatief, maar dit neem <multilangLink> verskeie stappe om 'n nuwe taal by te voeg </multilangLink> en met stemskenkings te begin. Eerstens moet die Common Voice-webwerf vertaal word sodat gemeenskapslede toegang kan hê tot die bydraerervaring in hul eie taal. Daarna benodig ons 'n groot versameling kopieregvrye sinne vir mense om hardop te lees. Sodra aan albei hierdie vereistes voldoen is, word 'n taal op Common Voice bekendgestel sodat mense hul stemme kan opneem en ander stemskenkings kan verifieer. As jy wil help met die bekendstelling van 'n nuwe taal, gaan na ons <sentenceCollectorLink>sinversamelingsprogram</sentenceCollectorLink> om die proses te begin.
+faq-why-my-lang-a =
+    Common Voice is 'n platform wat gebruik maak van skarebefondsing, en die tale is almal bygevoeg deur vrywilligers.
+    Ons sal graag wil hê dat jy jou taal byvoeg! <languageRequestLink>Vra oor die por die proses om jou taal by te voeg.</languageRequestLink>
 faq-what-quality-q = Watter vlak van klankkwaliteit is nodig om 'n stemsnit te gebruik in die datastel?
 faq-what-quality-a = Ons wil hê dat die Common Voice datastel die klankgehalte weerspieël wat 'n spraak-na-teks-enjine in die natuur sal hoor, so ons soek verskeidenheid. Benewens 'n uiteenlopende gemeenskap van sprekers, sal 'n datastel met wisselende klankgehalte die spraak-na-teks-enjin leer om verskillende werklike situasies te hanteer, van agtergrond-babbel tot die geraas van motors. Solank as wat jou stemsnit verstaanbaar is, sal dit goed genoeg wees vir die datastel.
 faq-why-10k-hours-q = Waarom is die doelwit vir die aantal klankopnames per taal 10 000 bevestigde ure?
@@ -523,12 +530,6 @@ about-dataset-new = Common Voice-datastel
 about-dataset-new-text = Die Common Voice-datastel bevat honderde duisende stemopnames wat ontwikkelaars help om stemherkenningsstelsels te bou.
 about-clip-graveyard = Clip Graveyard
 about-clip-graveyard-text = Die Clip Graveyard bestaan uit stemsnitte wat nie in die Common Voice-datastel opgeneem is nie. Net soos die datastel, is die Clip Graveyard beskikbaar om afgelaai te word.
-about-partners = Vennote
-about-become-a-partner = Word 'n vennoot
-about-partnership =
-    Common Voice is 'n samewerkingsprojek, en ons is afhanklik van ons gemeenskap van vennote en bydraers om die grootste oopbron-datastel van stemme ooit te bou.
-    
-    Ons wil graag die volgende persone en organisasies bedank vir hul hulp met die projek:
 about-get-involved = Raak betrokke
 about-get-involved-text-2 =
     Wil jy help om Common Voice nog beter te maak?
@@ -558,9 +559,17 @@ about-playbook-what-is-language-content-3 = Sommige tale het enorme variasie in 
 
 about-playbook-how-add-language = Hoe voeg ek 'n taal by?
 about-playbook-how-add-language-content-1 = Kyk eers of jou taal <languageLink>reeds bestaan</languageLink> op die platform. As dit nie daar is nie, moet jy <strong>die webwerf vertaal en sinne versamel</strong>.
-about-playbook-how-add-language-content-2 = <strong>Om die webwerf te vertaal</strong> -  <translateVideo>stel</translateVideo> 'n <pontoonLink>Pontoon</pontoonLink> rekening op. Pontoon het baie tale, maar as dit nie joune het nie, kan jy jou taal <pontoonRequestLink>aanvra</pontoonRequestLink>. Vra dan <repoLink>via GitHub</repoLink> om die Common Voice-projek vir die taal beskikbaar te stel. Sien meer oor <localizationFragment>webwerfvertaling</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Om sinne te versamel</strong> - <scVideo>stel</scVideo> die <scLink>Sinversamelaar</scLink> op.
-about-playbook-how-add-language-content-4 = Jy kan <scLinkAdd>klein hoeveelhede sinne hier byvoeg</scLinkAdd>, of jy kan <bulkImportDocsLink>grootmaat invoere</bulkImportDocsLink> doen via 'n Github-versoek. Onthou dat sinne <licenseLink>CC0 (of in die publieke domein)</licenseLink> moet wees, of jy kan jou eie skryf. Sien meer oor <scFragment>sinversameling</scFragment>.
+about-playbook-how-add-language-translating-heading = Vertaal die webwerf
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Kyk na ons gids oor hoe om Pontoon te gebruik.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Ons gebruik 'n Mozilla-produk genaamd <pontoonLink>Pontoon</pontoonLink> vir vertalings. Pontoon het baie tale,
+    maar as dit nie joune het nie, kan jy <pontoonRequestLink>versoek dat jou taal bygevoeg word</pontoonRequestLink>.
+    Dan, om die taal op die Common Voice-projek beskikbaar te stel,
+    <githubRepoLink>versoek die nuwe taal op GitHub</githubRepoLink>. <localizationFragment>Sien meer op werfvertaling</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Versamel sinne
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Kyk na ons gids oor die gebruik van die Sinversamelaar</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = Jy kan <scLinkAdd>klein hoeveelhede sinne hier byvoeg</scLinkAdd>, of jy kan <bulkImportDocsLink>grootmaat invoere</bulkImportDocsLink> doen via 'n Github-versoek. Onthou dat sinne <licenseLink>CC0 (of in die publieke domein)</licenseLink> moet wees, of jy kan jou eie skryf. Sien meer oor <scFragment>sinversameling</scFragment>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Sien meer oor sinversameling</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -624,12 +633,6 @@ about-playbook-how-project-governance-content-4 = Gemeenskapsdeelname en -beslui
 about-playbook-how-project-governance-content-5 = Waarde en erkenning.
 about-playbook-how-project-governance-content-6 = Wedersydse aanspreeklikheid.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lees meer oor hoe ons bestuur word</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Kunsmatige intelligensie
-mycroft-description =
-    Mycroft is die wêreld se eerste oopbron-assistent.
-    Mycroft werk oral - op 'n rekenaar, in 'n motor of op 'n Raspberry Pi.
-mycroft-secondary-description = Dit is oopbronsagteware wat vrylik hergebruik, uitgebrei en verbeter kan word. Mycroft kan in enige iets van 'n wetenskapprojek tot  vir sagteware in besigheidskontekste.
 
 ## Glossary
 
@@ -826,7 +829,8 @@ language-search-input =
 language-speakers = Sprekers
 localized = Gelokaliseerd
 sentences = Sinne
-total-hours = Bevestigde Ure
+language-validation-hours = Ure
+language-validation-progress = Bekragtiging Vordering
 
 ## Contribution
 

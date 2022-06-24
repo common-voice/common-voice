@@ -56,6 +56,7 @@ da = Danish
 de = German
 dsb = Sorbian, Lower
 dv = Dhivehi
+dyu = Julaa
 el = Greek
 en = English
 eo = Esperanto
@@ -124,12 +125,16 @@ my = Burmese
 myv = Erzya
 nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
+nd = IsiNdebele (Soɓɓiire)
 ne-NP = Nepali
 nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
+nr = IsiNdebele (Ɓaleeri)
+nso = Sotho Soɓɓiire
 nyn = Runyankole
 oc = Occitan
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -155,6 +160,8 @@ sl = Slovenian
 so = Somali
 sq = Albanian
 sr = Serbian
+ss = Siswati
+st = Sotho Ɓaleeri
 sv-SE = Swedish
 sw = Swahili
 syr = Syriac
@@ -166,8 +173,10 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmen
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turkish
+ts = Xitsonga
 tt = Tatar
 tw = Twi
 ty = Tahitian
@@ -177,15 +186,18 @@ ug = Uyghur
 uk = Ukrainian
 ur = Urdu
 uz = Uzbek
+ve = Tshivenda
 vec = Venetian
 vi = Vietnamese
 vot = Votic
+xh = Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Cantonese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -327,7 +339,6 @@ shortcut-discard-ongoing-recording-label = Momtu nanngitol wonaande
 shortcut-submit = Rutto
 shortcut-submit-label = Naatnu lefon
 request-language-text = A suwaa yiy ɗemngal maa e Common Voice tawo?
-request-language-text-learn = Ƴeew ɗoo no ngal ɗaɓɓitirtee!
 request-language-button = Ɗaɓɓit Ɗemngal
 
 ## ProjectStatus
@@ -409,6 +420,7 @@ skip-submission-note = Tesko: maa sokloy labaade hakkunde Haal walla Heɗo ngam 
 off = Ñifol
 on = Kuɓɓol
 help-accent = Aɗa sokli ballal seeɗa baɗte ngaddin?
+help-accent-explanation = Ngaddiin maa ko no ngowlirtaa konngi. Seerndata ngaddinaaji ko ɗo neɗɗo hoti, ɗemɗe goɗɗe ɗe o haalata kañum e geɗe goɗɗe keewɗe.Aɗa waawi waɗde ɗoo humpito kala cikuu-ɗaa ena ɓeydoo faamminde.
 
 ## Profile - Email
 
@@ -462,7 +474,6 @@ faq-why-different-speakers-a =
     Keɓe keftinirkon haala ɓurɗe heewde ko eeltaaɗe tawa won leƴrenndooje ena ɓurtinaa, kisa ɗum wufta e wuuraare faade e <articleLink>worɓe e dañɓe</articleLink>. Ngaddinaaji e caltuɗe ŋakkooje e leeme keɓe eeltugol ena keewi yahdineede e dente yimɓe ɓurɓe joñeede e yeebeede. Kadi masiŋaaji keewi ena cugga e keftingol sawtooji rewɓe.
     Ko ɗuum waɗi amin cokli limlimtam e diiñorde keɓe sawto amen.
 faq-why-my-lang-q = Ko saabii ɗemngal am jeyaaka heen tawo?
-faq-why-my-lang-new-a = Mozilla suɓotaako, faltotaako ɗemngal fawa ɗum e goɗɗe. E jaati, Common Voice ko golle renndo, kono ena waɗi <multilangLink>daawe keewɗe ngam ɓeydude ɗemngal kesal</multilangLink> kisa fuɗɗee roɓindaade sawtooji dokkaaɗi. Ko adii, lowre Common Voice ndee maa firee ngam terɗe renndo ɗee mbaawa naatde e ballitgol tawa ko e ɗemngal mum'en. Rewa heen, amin cokli konngi keewɗi sanne tawa eɗi momtaa jojjanɗe jeyal ngam yimɓe mbaawa tarde ɗe daande dow. Tuma nde ɗee baɗɗiiɗe ɗiɗi keɓaa, ɗemngal ndeen ”hurmintee“ e Common Voice ngam yimɓe puɗɗoo nanngitaade sawtooji mum'en e jaalɗinde dokkaaɗe woɗɓe. So aɗa yiɗi wallude hurminde ɗemngal kesal, yaaɓ to <sentenceCollectorLink>kuutorgal roɓindo konnguɗi</sentenceCollectorLink> amen ngam fuɗɗaade toon.
 faq-what-quality-q = Hol ɗo keelɗugol ojoo foti tolnaade ngam lefel sawto huutoree e leemre keɓe ndee?
 faq-what-quality-a = Min njiɗi ko Leemre keɓe Common Voice nannda keelɗugol ojoo masiŋ haala-to-binndol nanoyta e weeyo, wadde min njiylotoo ko limlimtam. Kam e renndo haalooɓe limlimtinde, leemre keɓe waɗnde keelɗugol ojoo limlimtinde maa janngin masiŋaaji haala-tobinndol gollaade e ngonka goongiray-goonga, foti ko e haala ngoɗɗuka walla dille oto. Tawde tan lefel sawto maa ena faamnii, engel fota naatde e leemre keɓe ndee.
 faq-why-10k-hours-q = Ko waɗi waktuuji 10,000 jaalɗinaaɗi woni faandaare ɗemngal kala ngam heɓɓaade ojoo?
@@ -514,12 +525,6 @@ about-dataset-new = Leemre Keɓe Common Voice
 about-dataset-new-text = Leemre Keɓe Common Voice ndee ena waɗi teemedde ujunnaaje jubbanɗe sawto ballooje topayɓe mahde kutorɗe keftinooje sawto.
 about-clip-graveyard = Genaale Lefon
 about-clip-graveyard-text = Genaale Lefon ɗee ko lefon sawto koriiɗe ɓennude to leemre keɓe Common Voice ndee. Hono leemre keɓe ndee nih, Genaale Lefon ɗee ena waawi aawteede.
-about-partners = Gollidiiɓe
-about-become-a-partner = Won gollidiiɗo
-about-partnership =
-    Common Voice ko eɓɓoore balwaltondiral, kadi min njowitii ko e renndo amen gollodiiɓe e wallitooɓe ngam mahde leemre keɓe sawto udditiinde ɓurnde yaajde e ko yiyaa tawo.
-    
-    Amin njiɗi jaarde ɓee-ɗoo yimɓe e pelle ngam ballal mum'en e eɓɓoore ndee:
 about-get-involved = Ar yantu e amen
 about-get-involved-text-2 =
     Aɗa yiɗi wallude Common Voice ɓeydaade moƴƴude?
@@ -546,24 +551,20 @@ about-nav-get-involved = Ar yantu e amen
 
 ## How to record quality
 
+about-playbook-how-record-content-1 = Haaldu no keew-ɗaa haaldude nih. No kaaldataa nih ena hatojinaa ɗoo - min njiɗi ko kaaldaa ngaddin maa oo siforii nih, kadi hito maa, daande e no kaaldataa tawa waylaaki.
 
 ## How to grow language
 
 
 ## How to validate
 
+about-playbook-how-validate-content-2 = <strong>Hoto riiwtu hito ɗo kaaloowo oo ‘ena jogii ngaddin’ mo jiidaani e mo mah</strong> - Ɗuum eba teeŋti sanne ngam Heftingol Hito ena waawa yuɓɓande mo woni kala.
 
 ## How to access dataset
 
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Ƴoyre tafaande
-mycroft-description =
-    Mycroft ko heedirde udditiinde adiinde e winndere ndee.
-    Mycroft ena dogo nokku kala- e ñigal, nder oto, walla e Raspberry Pi.
-mycroft-secondary-description = Ɗum ko topateeri udditiinde mbaawndi irfiteede, timmineede e ƴelliteede e wellitaare. Mycroft ena waawi huutoreede e huunde fof e foti ko eɓɓoore ganndiwal walla jaaɓnirgal topateeri yeñcamgolliwal.
 
 ## Glossary
 
@@ -719,7 +720,6 @@ language-search-input =
 language-speakers = Haalooɓe
 localized = Nokkuɗinaama
 sentences = Koŋnguɗi
-total-hours = Waktuuji jaalɗinaaɗi
 
 ## Contribution
 

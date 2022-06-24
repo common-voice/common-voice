@@ -1,8 +1,15 @@
-import { AllGoals, CustomGoalParams } from 'common';
-import { Language, LanguageStats } from 'common';
-import { UserClient } from 'common';
-import { WeeklyChallenge, Challenge, TeamChallenge } from 'common';
-import { Sentence, Clip } from 'common';
+import {
+  AllGoals,
+  CustomGoalParams,
+  LanguageStatistics,
+  Language,
+  UserClient,
+  WeeklyChallenge,
+  Challenge,
+  TeamChallenge,
+  Sentence,
+  Clip,
+} from 'common';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { USER_KEY } from '../stores/root';
@@ -173,10 +180,10 @@ export default class API {
   }
 
   async fetchAllLanguages(): Promise<Language[]> {
-    return this.fetch(`${API_PATH}/languages_all`);
+    return this.fetch(`${API_PATH}/languages`);
   }
 
-  async fetchLanguageStats(): Promise<LanguageStats> {
+  async fetchLanguageStats(): Promise<LanguageStatistics[]> {
     return this.fetch(`${API_PATH}/language_stats`);
   }
 

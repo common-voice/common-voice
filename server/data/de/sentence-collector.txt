@@ -954,6 +954,7 @@ Als Reaktion springen Fußgänger oft unvorhersehbar in irgendeine Richtung.
 Als Segler fühlt man sich frei wie der Wind.
 Als Shorts werden kurze Hosen bezeichnet, die meist nicht bis unter die Knie reichen.
 Als Sigmar erkältet war, klang seine Stimme ein wenig nach Schlumpf.
+Als Strassenbaum hat man nur wenig Land um sich, das nicht versiegelt ist.
 Als Teilzeitkraft kam sie mit dem verdienten Lohn kaum über die Runden.
 Als Trainer braucht man eine laute Stimme, um über den ganzen Platz zu schreien.
 Als Trainer war Löw zunächst in der Schweiz tätig.
@@ -4693,6 +4694,7 @@ Das Haus wird noch gebaut.
 Das Hausrecht ist unverletzlich.
 Das Hermannsdenkmal bei Detmold, im Teuteburger Wald gelegen, erinnert an die Varusschlacht.
 Das Hinterfragen der eigenen Überzeugungen sollte ebenfalls ein Ziel sein.
+Das Holz der jungen Äste muß aushärten, sonst erfriert es im Winter.
 Das Holz wurde vor längerer Zeit geschlagen und liegt nun am Wegrand aufgestapelt.
 Das Hotel ist die nächste Kreuzung rechts.
 Das Hotel konnte keine Rechnung ausstellen.
@@ -8750,6 +8752,7 @@ Die Skulptur wurde mithilfe des Wachsausschmelzverfahrens hergestellt.
 Die Socken habe ich selbst gestrickt.
 Die Socken waren total durchgeschwitzt.
 Die Software muss aktualisiert werden um weiterhin zuverlässig zu funktionieren.
+Die Software währe ähnlich einem Schachprogramm.
 Die Soldaten bissen ins Brot.
 Die Sommerzeit kann regional gegenteilige Auswirkungen beim Energieverbrauch zeigen.
 Die Sonne ist bei Weitem nicht der hellste Stern im Universum.
@@ -9392,6 +9395,7 @@ Die schweigende Mehrheit.
 Die schönen Ecken des Internets sagen dass es in Ordnung ist, Dinge auszuprobieren.
 Die seit Jahren baufällige Brücke muss dringend saniert werden.
 Die selbsternannte Alternative fürs Autoland Deutschland sieht keine Alternative zum Auto.
+Die sibierische Blaubeere hat schon Früchte getragen.
 Die sibierische Blaubeere ist angewachsen.
 Die sieht doch wie ein Kerl aus.
 Die sind alle noch nicht volljährig.
@@ -14735,6 +14739,7 @@ Handelt es sich beim Rauchen von Zigaretten schon um selbstverletzendes Verhalte
 Handelt es sich dabei um eine geringfügige Beschäftigung?
 Handelt es sich um Punktsymmetrie oder Achsensymmetrie?
 Handelt es sich um ein regionales Phänomen?
+Handgepäck sichern, für Schaden haftet der Reisende.
 Handwerker, die Dreck hinterlassen, müssen den auch wieder entfernen.
 Hangwässer sind so abzuleiten, daß Haldenrutschungen vermieden werden.
 Hanna gefiel es ganz gut.
@@ -33327,6 +33332,7 @@ Wir haben hier eine Situation.
 Wir haben ihre Art geschätzt, stets neue Wege zu gehen.
 Wir haben in dieser Pandemie so viele schöne Wörter gelernt.
 Wir haben jetzt mal eine Liste zusammengestellt.
+Wir haben keinen freihen Anschluß an das Ethernet.
 Wir haben mehr als genug Zeit.
 Wir haben meine Sachen von morgens durchgesprochen und verbessert.
 Wir haben mit Eva gesprochen.

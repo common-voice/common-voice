@@ -307,7 +307,6 @@ shortcut-discard-ongoing-recording-label = ئەم تۆمارە فڕێدە
 shortcut-submit = گەڕانەوە
 shortcut-submit-label = ناردنی دەنگەکان
 request-language-text = زمانی خۆت لە دەنگی گشتی نابینیت؟
-request-language-text-learn = بزانە چۆن دەتوانی لێرە داوای بکەی!
 request-language-button = داواکردنی زمان
 
 ## ProjectStatus
@@ -334,6 +333,7 @@ profile-form-additional-language =
     .label = زمانی تر
 profile-form-language =
     .label = زمان
+profile-form-variant-default-value = هیچ جۆرێک هەڵنەبژێردراوە
 profile-form-accent =
     .label = شێوەزار
 profile-form-custom-accent-help-text =
@@ -434,7 +434,6 @@ faq-do-want-native-a = بەڵێ، ئێمە بە تایبەتی دەنگی تۆم
 faq-why-different-speakers-q = بۆچی بێژەرانێکی زۆرتان بۆ هەر زمانێک دەوێت؟
 faq-why-different-speakers-a = زۆربەی زانیاریسێتەکانی وتار جۆرێک کۆ کرانەتەوە کە ڕادەی بەشێک لە دێمۆگڕافییەکان تێیدا بەرچاوترە بەجۆرێک کە زیاتر دەنگی پیاوان و کەسانە کلاسی ناوەڕاست لەخۆ دەگرن. شێوەزارهایێک کە بەشێکی کەمتر لە داتای فێرکارییان پێکهێناوە هی ئە گرووپ کەسانەن کە هەر ئێستاش خرانەتە گۆشە. زۆربەی ئامێرەکانیش گرفتییان هەیە لە ناسینەوەی دەنگی ئافرەتان. لەبەر ئەوەیە کە ئێمە جۆراوجۆری دەنگمان دەوێت لە زانیاریسێتەکەمان.
 faq-why-my-lang-q = بۆچی هێشتا زمانی منی تێدا نییە؟
-faq-why-my-lang-new-a = مۆزیلا گرنگی زیاتر بە هیچ کامێک لە زمانەکان نادات. بە پێچەوانەوە، پڕۆژەی دەنگی گشتی بە تەواوی بە دەستی کۆمەڵگەوە دەچێتە پێش بەڵام ئەم کارە پێویستی بە چەند هەنگاو هەیە بۆ <multilangLink>زیادکردنی زمانی تر</multilangLink> و دەست پێکردنی کۆکردنەوەی دەنگ. پێشەکی، پێویستە ماڵپەڕی پڕۆژەی دەنگی گشتی بۆ زمانی تازە وەرگێڕان بکرێت تا بەشداران بتوانن بە زمانی خۆیان ماڵپەڕەکە ببینن. پاشان پێویستە کۆمەڵێکی زۆر لە ڕەستەی ماف نەپاریزراو کۆ بکرێتەوە تا بەشداران بیخوێننەوە. کاتێک کە هەردووی ئەم پێویستییانە ڕێک کەوت ئەوکات زمانەکە دەچێتە قۆناغی "دەستپێکراو" تا بەشداران بتوانن دەنگی خۆیان تۆمار بکەن. ئەگەر دەتەوێ یارمەتی بدەی کە زمانێکی تازە ڕێک بخەی لێرە، سەردانی <sentenceCollectorLink>توڵامرازی کۆکەرەوەی ڕەستە</sentenceCollectorLink>ی ئێمە بکە.
 faq-what-quality-q = دەبێ ئاستی کوالیتی دەنگەکان چەندە بێت تا لە زانیاریسێت بەکار بێت؟
 faq-what-quality-a = ئێمە دەمانهەوەێ کە زانیاریسێتی پڕۆژەی "دەنگی گشتی" هەمووجۆرە کواڵیتی دەنگ کە کەنارمان لەخۆ بگرێت هەر بۆیە بە شوێن جۆراوجۆری دەگەڕێین. جگە لە کۆمەڵگەی جۆراوجۆر، زانیاریسێتێک کە کوالیتی جۆراوجۆری دەنگیشی ببێت باشتر دەتوانێت هەڵگرتنی وەزعی جۆراوجۆری دەنگەکان فێری مۆتۆڕی وتارناسی بکات، لە قسەی تێکەڵ تا دەنگی سەیارە. مادامێک کە دەنگی تۆ قابلی فەهم بێت، ئەوە بۆ دەتاسێتەکە بەکار دێت.
 faq-why-10k-hours-q = بۆچی ١٠،٠٠٠ کاژێر دەنگی سەلمێندراو بۆ هەر زمانێک ئامانجتانە؟
@@ -494,9 +493,6 @@ about-dataset-new = داتاسێتی دەنگی گشتی
 about-dataset-new-text = دەتیاسێتی دەنگی گشتی سەدان هەزار نموونەی دەنگی لەخۆ دەگرێت کە گەشەپێدەرانی بواری نەرمەکالا دەتوانن بەکاری بێنن بۆ دروست کردنی بەرهەمەکانی ناسینەوەی وتار.
 about-clip-graveyard = گۆڕستانی کلیپ
 about-clip-graveyard-text = گۆڕستانی کلیپەکان ئەو کلیپانە لەخۆ دەگرێت کە نایانتوانیوە بێنە نێو زانیاریسێتی دەنگی گشتی، کلیپەکانی گۆڕستانیش دەتوانی وەک زانیاریسێتەکە دانڵۆد بکەی.
-about-partners = یارمەتیدەران
-about-become-a-partner = ببە بە یارمەتیدەر
-about-partnership = دەنگی گشتی پڕۆژەیەکی بەشدارانەیە و ئێمە چاوەڕوانی کۆمەڵگەی بەشداران و خۆبەخشانمانین بۆ ساز کردنی گەورەترین زانیاریسێتی کراوەی دەنگ. ئێمە پێمان خۆشە دەستخۆشی بکەین لەم کەسانە و سازمانانە بۆ یارمەتی دانی پڕۆژەکە:
 about-get-involved = بەشدار بە
 about-get-involved-text-2 =
     دەتەوێ پرۆژەی دەنگی گشتی لەوەی هەیە باشتر بکەی؟
@@ -509,6 +505,7 @@ about-nav-why-common-voice = بۆچی؟
 about-nav-how-it-works = چۆن؟
 about-nav-partners = یارمەتیدەران
 about-nav-get-involved = بەشدار بە
+about-nav-how-it-works-2 = کۆمۆنڤۆیس چۆن کار دەکات؟
 about-nav-playbook = فێربە چۆن بەشداری بکەیت
 
 ## Community Playbook Content
@@ -522,7 +519,6 @@ about-playbook-what-is-language-content-2 = ئێمە دەمانەوێت مۆدێ
 
 about-playbook-how-add-language = چۆن زمانێک زیاد بکەم؟
 about-playbook-how-add-language-content-1 = سەرەتا، بزانە ئاخۆ زمانەکەت <languageLink> بەردەست نییە</languageLink>. ئەگەر نییە ئەوا پێویستە <strong> ماڵپەڕەکە وەرگێڕیت و ڕستەکان کۆبکەیتەوە</strong>.
-about-playbook-how-add-language-content-3 = <strong> بۆ کۆکردنەوەی ڕستەکان </strong> - <scVideo> ڕێکی بخە </scVideo> لەسەر <scLink> ڕستە کۆکەرەوە </scLink>.
 
 ## How does localization work
 
@@ -548,7 +544,7 @@ about-playbook-how-record-content-4 = دڵنیابە لەوەی دوانگەکە
 about-playbook-how-grow-language = چۆن دەتوانین بەکارامەیی گەشە بە زمانێک بدەین لە دەنگی گشتی دا؟
 about-playbook-how-grow-language-content-1 = دروستکردنی دەرفەت بۆ خەڵکێکی جۆراوجۆر بۆ بەشداریکردن لە دەنگی هاوبەش دڵنیای دەدات لەوەی کە کۆمەڵە داتاکە خزمەت بە زۆرترین کەس دەکات. ئێمە سەرچاوە و قاڵبمان دروست کردووە کە دەتوانیت بەکاری بهێنیت!
 about-playbook-how-grow-language-content-2 = بۆنەکان
-about-playbook-how-grow-language-content-4 = میدیای کۆمەڵایەتی
+about-playbook-how-grow-language-content-4 = تۆڕی کۆمەڵایەتی
 about-playbook-how-grow-language-content-6 = هاوبەشییەکان و تۆڕەکان
 
 ## How to validate
@@ -568,10 +564,6 @@ about-playbook-how-project-governance = بڕیارەکانی پرۆژەکە چۆ
 about-playbook-how-project-governance-content-2 = حکومەتەکەمان دامەزراوە لەسەر بنەمای:
 about-playbook-how-project-governance-content-3 = تایبەتێتی، پارێزەری و ڕوونی
 about-playbook-how-project-governance-content-6 = لێپرسینەوەی یەکتر.
-mycroft-title = Mycroft Ai
-mycroft-subtitle = ژیریی دەستکرد
-mycroft-description = Mycroft Ai یەکەمین یارمەتیدەی سەرچاوە کراوەی جیهانە. Mycroft لە هەموو جێگایەک ئیش دەکات، لە سەر کۆمپیوتەری ڕوومێز، لە سەیارە و لەسەر Raspberry Pi.
-mycroft-secondary-description = تەنها نەرمەکالای کراوەیە کە دەکرێ بە ئازادی گۆڕانکاری تێدا بکرێت، گەشەی پێ بدرێت و باشتر بکرێت. Mycroft دەکرێ لە پرۆژەی زانستی تا نەرمەکالای بازرگانی بەکار بهێنرێت.
 
 ## Glossary
 
@@ -636,7 +628,7 @@ datasets-positioning = ئێمە پێمان وایە زانیاریسێتی گە�
 language = زمان
 # File size in gigabytes
 size = ئەندازە
-validated-hr-total = کۆی سەعاتی سەلمێنراو
+validated-hr-total = کۆی کاتژمێری سەلمێنراو
 overall-hr-total = کۆی سەعات
 cv-license = مۆڵەت
 audio-format = فۆرماتی دەنگ
@@ -735,7 +727,6 @@ language-search-input =
 language-speakers = بێژەران
 localized = خۆماڵی کراو
 sentences = ڕستەکان
-total-hours = سەعاتی سەلمێنراو
 
 ## Contribution
 
@@ -966,6 +957,7 @@ download-requests = داواکاری پێشوو بۆ تۆمارەکانت
 download-request-button = داگرتن
 download-request-title = { $created }
 download-request-archive-single = تاکە فایلی پەستێنراوی لەخۆگرتووە
+download-request-archive-multiple = بەشی بکە بەسەر { $archiveCount } فایلی ZIP کە پێکهاتبێت لە
 download-request-assembling-description = فایلەکانت تێهەڵکێش بوون. تکایە دواتر بیپشکنەوە.
 download-request-refresh-button = نوێکردنەوە
 download-request-modal-title = بەستەری داگرتن

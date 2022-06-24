@@ -56,6 +56,7 @@ da = დანიური
 de = გერმანული
 dsb = ქვემოსორბული
 dv = დივეჰი
+dyu = დიულა
 el = ბერძნული
 en = ინგლისური
 eo = ესპერანტო
@@ -124,12 +125,16 @@ my = ბირმული
 myv = ერზიანული
 nan-tw = ტაივანური (მინანი)
 nb-NO = ნორვეგიული ბუკმოლი
+nd = IsiNdebele (ჩრდილო)
 ne-NP = ნეპალური
 nia = ნიასური
 nl = ნიდერლანდური
 nn-NO = ნორვეგიული ნიუნორსკი
+nr = IsiNdebele (სამხრეთი)
+nso = ჩრდილო სოთო
 nyn = ნიანკოლე
 oc = ოქსიტანური
+om = ორომო
 or = ორია
 pa-IN = პენჯაბი
 pap-AW = პაპიამენტო (არუბა)
@@ -155,6 +160,8 @@ sl = სლოვენური
 so = სომალური
 sq = ალბანური
 sr = სერბული
+ss = სისვატი
+st = სამხრეთი სოთო
 sv-SE = შვედური
 sw = სუაჰილი
 syr = სირიული
@@ -166,8 +173,10 @@ ti = ტიგრინია
 tig = ტიგრინია
 tk = თურქმენული
 tl = ტაგალური
+tn = სეტსვანა
 tok = ტოკიპონა
 tr = თურქული
+ts = ცონგა
 tt = თათრული
 tw = ჩვი
 ty = ტაიტური
@@ -177,15 +186,18 @@ ug = უიღურული
 uk = უკრაინული
 ur = ურდუ
 uz = უზბეკური
+ve = შივენდა
 vec = ვენეციური
 vi = ვიეტნამური
 vot = ვოტიკური
+xh = კოსა
 yi = იდიში
 yo = იორუბა
 yue = კანტონური
 zh-CN = ჩინური (ჩინეთი)
 zh-HK = ჩინური (ჰონგ-კონგი)
 zh-TW = ჩინური (ტაივანი)
+zu = ზულუ
 
 # [/]
 
@@ -315,7 +327,6 @@ shortcut-discard-ongoing-recording-label = მიმდინარე ჩაწ
 shortcut-submit = დაბრუნება
 shortcut-submit-label = ჩანაწერების გადაგზავნა
 request-language-text = ვერ იპოვეთ თქვენი ენა Common Voice-ში?
-request-language-text-learn = იხილეთ, როგორ უნდა მოითხოვოთ!
 request-language-button = მოითხოვეთ ენის დამატება
 
 ## ProjectStatus
@@ -381,7 +392,7 @@ profile-explanation = თვალი ადევნეთ თქვენ მ�
 thanks-for-account = გმადლობთ ანგარიშის დამოწმებისთვის, ახლა კი შეგიძლიათ დაიწყოთ პროფილის შედგენა.
 why-demographic = რისთვისაა ეს საჭირო?
 why-demographic-explanation-2 = მონაცემები ვინაობის მითითების გარეშე, როგორიცაა ასაკი, სქესი და აქცენტი დაგვეხმარება გაუმჯობესებული ხმოვანი მონაცემების გამოყენებაში, ხმოვანი ამოცნობის სისტემების უკეთ განსავითარებლად. თქვენი მომხმარებლის სახელი და ელფოსტა, არასდროს იქნება დაკავშირებული გადმოგზავნილ მონაცემებთან და ამასთან, შეგიძლიათ ისიც განსაზღვროთ, საჯარო იყოს თუ დაფარული თქვენი მომხმარებლის სახელი.
-accept-privacy = თანახმა ვარ, რომ Mozilla-მ ჩემი მონაცემები გამოიყენოს, <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად
+accept-privacy = თანახმა ვარ, რომ Mozilla-მ ჩემი მონაცემები გამოიყენოს <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად
 accept-privacy-title = პირადულობის დებულება
 login-identity = შესვლის ანგარიში
 login-signup = შესვლა / შექმნა
@@ -452,7 +463,9 @@ faq-why-different-speakers-a =
     ხმოვან მონაცემთა კრებულების უმეტესობა ჭარბად მოიცავს, მხოლოდ ცალკეული მახასიათებლების მქონე ადამიანთა ჯგუფის მონაცემებს, რაც იწვევს უთანასწორობას და უპირატეს მდგომარეობაში აქცევს ძირითადად <articleLink>საშუალო სტატისტიკურ მამაკაცებს</articleLink>. აქცენტები, კილოები და კუთხური მეტყველება კი მცირედითაა წარმოდგენილი და დაკავშირებულია ხალხის იმ ჯგუფებთან, რომლებიც ისედაც გარიყულნი არიან. ასევე, ხშირად ქალის ხმის ამოცნობასაც ახლავს სირთულეები.
     სწორედ ამ მიზეზების გამო გვსურს ჩვენს ხმოვან მონაცემთა კრებულში მეტი მრავალფეროვნება!
 faq-why-my-lang-q = რატომ არაა ჩემი ენა წარმოდგენილი?
-faq-why-my-lang-new-a = Mozilla არ გამოარჩევს ან უპირატესობას არ ანიჭებს რომელიმე ენას სხვებთან შედარებით. Common Voice არის სრულიად ხალხის ერთობაზე დაფუძნებული წამოწყება, <multilangLink>ახალი ენის დამატება</multilangLink> და ხმოვანი მონაცემების შეგროვების დაწყება კი საჭიროებს რამდენიმე საფეხურის გავლას. პირველ რიგში, საჭიროა Common Voice-ის საიტის გადათარგმნა, რომ ერთობის წევრებმა შეძლონ საკუთარ ენაზე მისი გამოყენება. შემდეგ, გვესაჭიროება დიდი მოცულობის თავისუფლად ხელმისაწვდომი წინადადებები, რომლებიც უნდა ამოიკითხონ. როდესაც ორივე ეს პირობა დაკმაყოფილდება და ენა „გაეშვება“ Common Voice-ზე, ხალხს შეეძლება დაიწყოს საკუთარი ხმის ჩაწერა და სხვების ჩანაწერების დამოწმება. თუ გსურთ დაგვეხმაროთ ახალი ენის გაშვებაში, დასაწყისისთვის გაეცანით ჩვენს <sentenceCollectorLink>წინადადებების შეგროვების ხელსაწყოს</sentenceCollectorLink>.
+faq-why-my-lang-a =
+    Common Voice სახალხო პროექტია და ყველა ენა მოხალისეების მიერაა დამატებული.
+    მოხარულნი ვიქნებით, თუ თქვენც დაამატებთ საკუთარ ენას! <languageRequestLink>ენის დამატების მოთხოვნა.</languageRequestLink>
 faq-what-quality-q = როგორი ხარისხის უნდა იყოს ხმოვანი ჩანაწერი, მონაცემთა კრებულში ჩასამატებლად?
 faq-what-quality-a = ჩვენ გვსურს, რომ Common Voice-ს მონაცემთა კრებულის დახმარებით, ხმის ტექსტად ქცევის ძრავებს შეეძლოს ხმის ამოცნობა ბუნებრივ პირობებში, ასე რომ გვესაჭიროება მრავალფეროვნება. ამასთან, განსხვავებულად მოსაუბრეთა ერთობის, განსხვავებული ხარისხის ხმოვანი ჩანაწერები წარმოთქმულის ტექსტად ქცევის ძრავებს შეასწავლის ხმის ამოცნობას სხვადასხვა გარემოში, ხმაურისას, მანქანის მოძრაობისას და ა. შ. საკმარისია, ჩანაწერში ხმა ისმოდეს გარკვევით და იგი გამოსადეგი იქნება კრებულისთვის.
 faq-why-10k-hours-q = რატომაა საჭირო ჯამში 10,000 საათის ხანგრძლივობის დამოწმებული ჩანაწერი თითოეული ენისთვის?
@@ -522,12 +535,6 @@ about-dataset-new = Common Voice-ის მონაცემთა ბაზა
 about-dataset-new-text = Common Voice-ის მონაცემთა კრებული შეიცავს ასეულ ათასობით ხმის ნიმუშს, რომლებიც გამოადგება შემმუშავებლებს, ხმის ამომცნობი საშუალებების შექმნაში.
 about-clip-graveyard = ჩანაწერების სასაფლაო
 about-clip-graveyard-text = ჩანაწერების სასაფლაო შედგება იმ ხმოვანი ჩანაწერებისგან, რომლებიც არაა წარმოდგენილი Common Voice-ის მონაცემთა კრებულში. ჩანაწერების სასაფლაო, აგრეთვე ხელმისაწვდომია ჩამოსატვირთად, მსგავსად მონაცემთა კრებულისა.
-about-partners = თანამშრომლობა
-about-become-a-partner = ითანამშრომლეთ ჩვენთან
-about-partnership =
-    Common Voice არის ურთიერთთანამშრომლობაზე დამყარებული პროექტი და ჩვენ დამოკიდებულნი ვართ თანამონაწილეებისა და მოხალისეების ერთობაზე, უდიდესი ღია წყაროს მქონე, ხმოვან მონაცემთა კრებულის შესაქმნელად.
-    
-    ჩვენ გვინდა, მადლობა გადავუხადო აღნიშნულ ადამიანებსა და დაწესებულებებს, პროექტში შეტანილი წვლილისთვის:
 about-get-involved = ჩაერთეთ
 about-get-involved-text-2 =
     გსურთ დაგვეხმაროთ, რომ Common Voice გახდეს უკეთესი?
@@ -549,24 +556,34 @@ about-nav-playbook = როგორ უნდა მიიღოთ მონ�
 ## What is a language
 
 about-playbook-what-is-language = რას გულისხმობს „ენა“ Common Voice-ში?
-about-playbook-what-is-language-content-1 = მრავალი კუთხით შეიძლება განვიხილოთ ენა. ხმის ამომცნობი სისტემებისთვის კი, Common Voice გთავაზობთ „ურთიერთგაგების“ გათვალისწინებას, ანუ „ამ ენაზე მოლაპარაკეებს უნდა შეეძლოთ აზრი გამოიტანონ ერთმანეთის საუბრიდან“.
+about-playbook-what-is-language-content-1 = მრავალი კუთხით შეიძლება განვიხილოთ ენა. ხმის ამომცნობი სისტემებისთვის კი Common Voice გთავაზობთ „ურთიერთგაგების“ გათვალისწინებას, ანუ „ამ ენაზე მოლაპარაკეები უნდა ახერხებდნენ აზრის გამოტანას ერთმანეთის საუბრიდან“.
 about-playbook-what-is-language-content-2 = გვსურს, რომ ხმის მოდელებს უკეთ შეეძლოს სხვადასხვა ადამიანის გაგება. ამისთვის, კრებული უნდა შედგებოდეს მრავალი განსხვავებული ხმის ჩანაწერისგან.
-about-playbook-what-is-language-content-3 = ზოგ ენაში, შეიძლება იყოს უამრავი სახესხვაობა გრამატიკაში, ლექსიკაში, ფონეტიკაში. ამიტომ, გადავწყვიტეთ <ctaLink>შემოგვეღო „ნაირსახეობები“</ctaLink> 2022 წელს. ეს, საზოგადოების თითოეულ ჯგუფს მისცემს საშუალებას, გამოარჩიოს თავისი სალაპარაკო ენა მთლიანი კრებულიდან.
+about-playbook-what-is-language-content-3 = ზოგი ენას შეიძლება გააჩნდეს უამრავი სახესხვაობა გრამატიკაში, ლექსიკაში, ფონეტიკაში. ამიტომ, გადავწყვიტეთ <ctaLink>შემოგვეღო „ნაირსახეობები“</ctaLink> 2022 წელს. ეს, საზოგადოების თითოეულ ჯგუფს მისცემს საშუალებას, გამოარჩიოს თავისი სალაპარაკო ენა მთლიანი კრებულიდან.
 
 ## How do I add a language
 
 about-playbook-how-add-language = როგორ დავამატო ენა?
 about-playbook-how-add-language-content-1 = ჯერ გადაამოწმეთ, <languageLink>უკვე არის თუ არა</languageLink> თქვენი ენა. თუ არაა, საჭირო იქნება <strong>საიტის თარგმნა და წინადადებების შეგროვება</strong>.
-about-playbook-how-add-language-content-2 = <strong>საიტის გადასათარგმნად</strong> – უნდა <translateVideo>გამოიყენოთ</translateVideo>  <pontoonLink>Pontoon</pontoonLink>. Pontoon-ზე ბევრი ენაა, მაგრამ თუ თქვენი არ იქნება, შეგიძლიათ <pontoonRequestLink>მოითხოვოთ</pontoonRequestLink> დამატება. შემდეგ განაცხადეთ <repoLink>GitHub-ზე</repoLink>, რომ გსურთ Common Voice ხელმისაწვდომი იყოს თქვენი ენისთვის. ვრცლად იხილეთ <localizationFragment>საიტის თარგმნა</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>წინადადებების შესაგროვებლად</strong> – <scVideo>უნდა გამოიყენოთ</scVideo> <scLink>წინადადებების შემგროვებელი</scLink>.
-about-playbook-how-add-language-content-4 = მისი მეშვეობით შეგიძლიათ <scLinkAdd>მცირე ოდენობით</scLinkAdd> წინადადებების დამატება, ხოლო ბევრის <bulkImportDocsLink>ერთიანად შეტანისთვის</bulkImportDocsLink> უნდა განაცხადოთ Github-ზე. დაიხსომეთ, რომ წინადადებები აუცილებლად უნდა იყოს <licenseLink>CC0 (ანუ საყოველთაო საკუთრებაში)</licenseLink>, ანდაც თავად უნდა შეადგინოთ. ვრცლად იხილეთ <scFragment>წინადადებების შემგროვებელი ხელსაწყო</scFragment>.
+about-playbook-how-add-language-translating-heading = საიტის თარგმნა
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>იხილეთ ჩვენი მითითებები, თუ როგორ უნდა გამოიყენოთ Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    თარგმნისთვის ჩვენ ვიყენებთ Mozilla-ს ხელსაწყოს სახელწოდებით <pontoonLink>Pontoon</pontoonLink>. Pontoon-ზე ბევრი ენაა, მაგრამ თუ ვერ იპოვით თქვენსას, შეგიძლიათ <pontoonRequestLink>მოითხოვოთ მისი დამატება</pontoonRequestLink>.
+    შემდეგ, Common Voice-ის პროექტში თქვენი ენის დასამატებლად
+    <githubRepoLink>მოგვმართეთ GitHub-ზე</githubRepoLink>. <localizationFragment>ვრცლად საიტის თარგმნის შესახებ</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = წინადადებების შეგროვება
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>იხილეთ ჩვენი მითითებები, თუ როგორ უნდა გამოიყენოთ წინადადებების შემგროვებელი</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    აქედან შეგიძლიათ <sentenceCollectorLinkAdd>მცირე ოდენობის წინადადებების დამატება</sentenceCollectorLinkAdd>,
+    ხოლო <bulkImportDocsLink>ერთიანად შეტანისთვის გამოიყენეთ Github</bulkImportDocsLink>.
+    გახსოვდეთ, რომ წინადადებები აუცილებლად უნდა იყოს <licenseLink>CC0 (ანუ საყოველთაო საკუთრებაში)</licenseLink> ან თავად უნდა მოიფიქროთ.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>ვრცლად წინადადებების შეგროვების შესახებ</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = როგორ უნდა ითარგმნოს საიტი?
 about-playbook-how-localize-content-1 = Common Voice-საიტის თარგმნისთვის გამოიყენება <strong>Pontoon</strong>.
-about-playbook-how-localize-content-2 = <pontoonAccountLink>შექმენით ანგარიში</pontoonAccountLink> თუ ჯერ არ გაქვთ. შემდეგ, აირჩიეთ თქვენი ენის <strong>(„Team“)</strong> და პროექტი <pontoonCvLink>Common Voice</pontoonCvLink>. იქ დაგხვდებათ გადასათარგმნი ფაილები. დაწკაპეთ ერთ-ერთს და გამოჩნდება ინგლისური ტექსტი, ქვემოთ კი ველი, სადაც ჩაწერთ თარგმანს.
-about-playbook-how-localize-content-3 = თარგმნა ინგლისურიდან ხდება, თუმცა შეგიძლიათ იხილოთ <strong>შემოთავაზებებიც</strong> სხვა ენებიდან. დაწკაპეთ <strong>Profile</strong> ხატულაზე, შემდეგ <strong>Settings</strong> ბმულზე და დაამატეთ სასურველი ენები. ქვედა მარჯვენა კუთხეში იხილავთ ენებიდან შემოთავაზებებს, რომელთაც აწერია <strong>Locales</strong>. თარგმანი საიტზე აისახება ერთ დღეში.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>შექმენით ანგარიში</pontoonAccountLink>, თუ ჯერ არ გაქვთ. შემდეგ, აირჩიეთ თქვენი ენა <strong>(„Team“)</strong> და პროექტი <pontoonCvLink>Common Voice</pontoonCvLink>. იქ დაგხვდებათ გადასათარგმნი ფაილები. დაწკაპეთ ერთ-ერთს და გამოჩნდება ინგლისური ტექსტი, ქვემოთ კი ველი, სადაც ჩაწერთ თარგმანს.
+about-playbook-how-localize-content-3 = თარგმნა ინგლისურიდანაა შესაძლებელი, თუმცა იქვე ხელმისაწვდომია <strong>შემოთავაზებები</strong> სხვა ენებიდანაც. დაწკაპეთ <strong>Profile</strong> ხატულაზე, შემდეგ <strong>Settings</strong> ბმულზე და დაამატეთ სასურველი ენები. ქვედა მარჯვენა კუთხეში იხილავთ ენებიდან შემოთავაზებებს, რომელთაც აწერია <strong>Locales</strong>. თარგმანი საიტზე აისახება ერთ დღეში.
 about-playbook-how-localize-content-4 = საიტი მზად იქნება გასაშვებად, როცა თარგმნილი იქნება 75%.
 about-playbook-how-localize-content-5 = იხილეთ ვიდეო უკეთ გასაგებად
 
@@ -623,12 +640,6 @@ about-playbook-how-project-governance-content-4 = ხალხის ჩარ�
 about-playbook-how-project-governance-content-5 = დაფასება და აღიარება.
 about-playbook-how-project-governance-content-6 = ურთიერთპასუხისმგებლობა.
 about-playbook-how-project-governance-content-7 = <governanceLink>იხილეთ ვრცლად, რას როგორ ვმართავთ</governanceLink>
-mycroft-title = Mycroft AI
-mycroft-subtitle = ხელოვნური ინტელექტი
-mycroft-description =
-    Mycroft არის მსოფლიოში პირველი ღია წყაროს მქონე თანაშემწე.
-    Mycroft მუშაობს ყველგან – სამაგიდო კომპიუტერზე, ავტომანქანაში და აგრეთვე Raspberry Pi-ზეც.
-mycroft-secondary-description = ეს არის ღია პროგრამული უზრუნველყოფა, რომელიც შეიძლება თავისუფლად გარდაიქმნას, გაფართოვდეს და გაუმჯობესდეს. Mycroft-ის გამოყენება შეიძლება ნებისმიერ საქმიანობაში, დაწყებული სამეცნიერო პროექტებით, დასრულებული დაწესებულების პროგრამული სისტემებით.
 
 ## Glossary
 
@@ -822,8 +833,9 @@ language-search-input =
     .placeholder = ძიება
 language-speakers = მოსაუბრე
 localized = თარგმნილი
-sentences = წინადადებები
-total-hours = ჯამში საათი
+sentences = წინადადება
+language-validation-hours = საათი
+language-validation-progress = წინსვლა შემოწმებაში
 
 ## Contribution
 

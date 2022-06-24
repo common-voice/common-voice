@@ -161,19 +161,28 @@ export default class DB {
     }
   }
 
-  async getSentenceCountByLocale(locales: string[]): Promise<any> {
+  async getSentenceCountByLocale(): Promise<
+    {
+      locale_id: number;
+      count: number;
+    }[]
+  > {
     const [rows] = await this.mysql.query(
       `
-        SELECT COUNT(*) AS count, locales.name AS locale, locales.target_sentence_count as target_sentence_count
-        FROM sentences
-        LEFT JOIN locales ON sentences.locale_id = locales.id
-        WHERE locales.name IN (?) AND sentences.is_used
-        GROUP BY locale
-      `,
-      [locales]
+      SELECT
+        COUNT(*) AS count,
+        locale_id
+      FROM
+        sentences
+      WHERE
+        sentences.is_used = 1
+      GROUP BY
+        locale_id;
+      `
     );
     return rows;
   }
+
   /**
    * Get valid and random clips per language
    * @param languageId
@@ -209,35 +218,33 @@ export default class DB {
   }
 
   async getSpeakerCount(
-    locales: string[]
-  ): Promise<{ locale: string; count: number }[]> {
+    localeIds: number[]
+  ): Promise<{ locale_id: number; count: number }[]> {
     return (
       await this.mysql.query(
         `
-        SELECT locales.name AS locale, COUNT(DISTINCT clips.client_id) AS count
+        SELECT clips.locale_id, COUNT(DISTINCT clips.client_id) AS count
         FROM clips
-        LEFT JOIN locales ON clips.locale_id = locales.id
-        WHERE locales.name IN (?)
-        GROUP BY locale
+        WHERE clips.locale_id IN (?)
+        GROUP BY clips.locale_id
       `,
-        [locales]
+        [localeIds]
       )
     )[0];
   }
 
-  async getDailySpeakerCount(
-    locales: string[]
-  ): Promise<{ locale: string; count: number }[]> {
+  async getTotalSpeakerCount(
+    localeIds: number[]
+  ): Promise<{ locale_id: number; count: number }[]> {
     return (
       await this.mysql.query(
         `
-        SELECT locales.name AS locale, COUNT(1) AS count
+        SELECT clips.locale_id, COUNT(1) AS count
         FROM clips
-        LEFT JOIN locales ON clips.locale_id = locales.id
-        WHERE locales.name IN (?) AND created_at>= NOW()-INTERVAL 1 DAY
-        GROUP BY locale
+        WHERE clips.locale_id IN (?)
+        GROUP BY clips.locale_id
       `,
-        [locales]
+        [localeIds]
       )
     )[0];
   }
@@ -745,23 +752,32 @@ export default class DB {
       console.error('error saving clip', e);
     }
   }
-
-  async getValidClipCount(
-    locales: string[]
-  ): Promise<{ locale: string; count: number }[]> {
+  async getAllClipCount(
+    localeIds: number[]
+  ): Promise<{ locale_id: number; count: number }[]> {
     const [rows] = await this.mysql.query(
       `
-        SELECT locale, COUNT(*) AS count
-        FROM (
-         SELECT locales.name AS locale
-         FROM clips
-         LEFT JOIN locales ON clips.locale_id = locales.id
-         WHERE locales.name IN (?) AND is_valid
-         GROUP BY clips.id
-        ) AS valid_clips
-        GROUP BY locale
+        SELECT locale_id, COUNT(*) AS count
+        FROM clips
+        WHERE locale_id IN (?)
+        GROUP BY locale_id
       `,
-      [locales]
+      [localeIds]
+    );
+    return rows;
+  }
+
+  async getValidClipCount(
+    localeIds: number[]
+  ): Promise<{ locale_id: number; count: number }[]> {
+    const [rows] = await this.mysql.query(
+      `
+        SELECT locale_id, COUNT(*) AS count
+        FROM clips
+        WHERE locale_id IN (?) AND is_valid
+        GROUP BY locale_id
+      `,
+      [localeIds]
     );
     return rows;
   }
@@ -929,7 +945,12 @@ export default class DB {
 
   async getLanguages(): Promise<Language[]> {
     const [rows] = await this.mysql.query(
-      `SELECT l.id, l.name, l.target_sentence_count as target_sentence_count, count(1) as total_sentence_count
+      `SELECT 
+      l.id, 
+      l.name, 
+      l.target_sentence_count as target_sentence_count, 
+      count(1) as total_sentence_count,
+      l.is_contributable
         FROM locales l
         JOIN sentences s ON s.locale_id = l.id
         GROUP BY l.id`
@@ -938,12 +959,14 @@ export default class DB {
       (row: {
         id: number;
         name: string;
+        is_contributable: boolean;
         target_sentence_count: number;
         total_sentence_count: number;
       }) => ({
         id: row.id,
         name: row.name,
-        sentenceCount: {
+        is_contributable: row.is_contributable,
+        sentencesCount: {
           targetSentenceCount: row.target_sentence_count,
           currentCount: row.total_sentence_count,
         },
