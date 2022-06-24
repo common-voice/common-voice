@@ -112,8 +112,6 @@ export default class API {
     router.post('/requested_languages', this.createLanguageRequest);
 
     router.get('/languages', this.getAllLanguages);
-    router.get('/languages_all', this.getAllLanguages);
-    router.get('/language_stats', this.getLanguageStats);
     router.get('/stats/languages/', this.getLanguageStats);
 
     router.post('/newsletter/:email', this.subscribeToNewsletter);
