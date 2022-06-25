@@ -115,10 +115,13 @@ my = בורמזית
 myv = ארזיה
 nan-tw = טייוואנית (מינן)
 nb-NO = נורווגית ספרותית
+nd = נדבלה צפונית
 ne-NP = נפאלית
 nia = ניאס
 nl = הולנדית
 nn-NO = נורווגית חדשה
+nr = נדבלה דרומית
+nso = סותו צפונית
 nyn = ‏‏ניאנקולה
 oc = אוקסיטנית
 or = אורייה
@@ -141,6 +144,7 @@ sl = סלובנית
 so = סומלית
 sq = אלבנית
 sr = סרבית
+st = סותו דרומית
 sv-SE = שוודית
 sw = סווהילי
 syr = סורית
@@ -149,6 +153,7 @@ te = טלוגו
 tg = טג׳יקית
 th = תאילנדית
 tl = טאגאלוג
+tok = טוקי פונה
 tr = טורקית
 tt = טטארית
 tw = טווי
@@ -161,10 +166,13 @@ uz = אוזבקית
 vec = ונטית
 vi = וייטנאמית
 vot = וודית
+xh = קוסה
+yi = יידיש
 yue = ‏‏קנטונזית
 zh-CN = סינית (סין)
 zh-HK = סינית (הונג קונג)
 zh-TW = סינית (טאיוואן)
+zu = זולו
 
 # [/]
 
@@ -286,7 +294,6 @@ shortcut-record-toggle-label = הקלטה/עצירה
 shortcut-rerecord-toggle-label = הקלטת קטע מחדש
 shortcut-discard-ongoing-recording = ESC
 request-language-text = השפה שלך עדיין לא מופיעה ב־Common Voice?
-request-language-text-learn = כאן ניתן ללמוד כיצד לבקש את זה!
 request-language-button = בקשת שפה
 
 ## ProjectStatus
@@ -437,8 +444,6 @@ about-listen = האזנה
 about-listen-text = משתמשים מאמתים את דיוק המקטעים שנתרמו, כדי לבדוק שהדוברים מקריאים את המשפט נכון.
 about-is-it-valid = האם הקטע תקף?
 about-is-it-valid-text = קטע קולי נחשב „תקף” כאשר מתקבלת עבורו הצבעת „כן”.
-about-partners = שותפים
-about-become-a-partner = יצירת שותפות
 about-get-involved = הצטרפות
 about-stay-in-touch = איך אפשר לשמור על קשר?
 about-stay-in-touch-button = הרשמה
@@ -493,7 +498,6 @@ about-playbook-how-project-governance = איך מתקבלות החלטות במ�
 about-playbook-how-project-governance-content-3 = פרטיות, אבטחה ושקיפות.
 about-playbook-how-project-governance-content-4 = מעורבות בקהילה וקבלת החלטות.
 about-playbook-how-project-governance-content-6 = אחריות הדדית.
-mycroft-subtitle = בינה מלאכותית
 
 ## Glossary
 
@@ -640,7 +644,6 @@ language-search-input =
 language-speakers = דוברים
 localized = תורגמו
 sentences = משפטים
-total-hours = שעות שאומתו
 
 ## Contribution
 
