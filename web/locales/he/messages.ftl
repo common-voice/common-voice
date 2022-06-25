@@ -1021,6 +1021,7 @@ sc-review-form-button-approve-shortcut = כ
 sc-review-form-button-reject-shortcut = ל
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = ד
+sc-review-form-keyboard-usage-custom = אפשר גם להשתמש בקיצורי מקלדת: { sc-review-form-button-approve-shortcut } כדי לאשר, { sc-review-form-button-reject-shortcut } כדי לדחות, { sc-review-form-button-skip-shortcut } כדי לדלג
 sc-review-form-button-submit =
     .submitText = סיום הסקירה
 # Variables:
