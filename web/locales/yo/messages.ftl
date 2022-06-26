@@ -125,6 +125,7 @@ my = Burmese
 myv = Erzya
 nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
+nd = IsiNdebele (Àríwá)
 ne-NP = Nepali
 nia = Nias
 nl = Dutch
@@ -159,6 +160,7 @@ sl = Slovenian
 so = Somali
 sq = Albanian
 sr = Serbian
+ss = Siswati
 st = Sesotho
 sv-SE = Swedish
 sw = Swahili
@@ -171,6 +173,7 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmen
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turkish
 ts = Xitsonga
@@ -187,6 +190,7 @@ ve = Tshivenda
 vec = Venetian
 vi = Vietnamese
 vot = Votic
+xh = Xhosa
 yi = Yiddish
 yo = Yòrùbá
 yue = Cantonese
@@ -885,6 +889,8 @@ report-title = Jábọ̀ ìròyìn
 report-ask = Àwọn ìṣòro wo lò ń dojúkọ nínú un gbólóhùn yí?
 report-offensive-language = Èdè àlùfàǹṣá
 report-offensive-language-detail = Gbólóhùn náà ní ọ̀rọ̀ àbùkù tàbí ọ̀rọ̀ àlùfàǹṣá
+report-grammar-or-spelling = Gírámà/ àṣìṣe sípẹ́lì
+report-grammar-or-spelling-detail = Gbólóhùn náà ní àṣìṣe tó jẹ mọ gírámà tàbí sípẹ́lì.
 report-different-language = Èdè ọ̀tọ̀ọ̀tọ̀
 report-different-language-detail = Ó wà ní kíkọ ní èdè tó yàtọ̀ sí èyí tí moet ń sọ
 report-difficult-pronounce = Ṣòro láti pè
@@ -899,6 +905,7 @@ report-success = Ìfiráńṣẹ́ Ìròyìn náà lọ pẹ̀lú à�
 
 ## Goals
 
+streaks = síríìkì
 days =
     { $count ->
         [one] Ọjọ́
@@ -935,6 +942,8 @@ validated-clips = Àwọn fọ́nrán ta ti yẹ̀wò
 total-approved = Àpapọ̀ ìfòǹtẹ̀lù
 overall-accuracy = Ìse-wẹ́kú alápapọ̀
 set-visibility = Ṣètò ìríranrími mi
+visibility-explainer = Ètò yí ń ṣàkóso rírí àtẹ-aléwájú rẹ. Nígbà tó bá wà ní ìpamọ́, ìlọsíwájú rẹ máa wà ní ìkọ̀kọ̀. Èyí túnmọ̀ sí pé, àwòrán, orúkọ àti ìlọsíwájú rẹ ò ní hàn lóri àtẹ-aléwájú. Ṣàkíyèsí pé ìsọdọ̀tun àtẹ-aléwájú ma gbà tó ìṣẹ̀jú{ $minutes } láti gbé àwọn àyípadà jáde.
+visibility-overlay-note = Àkíyèsí: Nígbà tí a bá ṣètò sí 'Rírí' ètò yí lè yí padà láti <profileLink>Ojú-ìwe púrófáìlì</profileLink>
 show-ranking = Fi ipò mi hàn
 
 ## Custom Goals
@@ -1040,6 +1049,7 @@ download-size = ìwọ̀n
 download-selected = yàn
 download-start = Gba dátà púrófáìlì
 download-request = Bèèrè ìkásílẹ̀
+download-requests = Ìbéèrè àwọn ìkálẹ̀ tí a ṣe ìgbàsílẹ̀ fún tó ti kọjá
 download-requests-info = Nígbà tí o bá tọrọ fún àwọn ìkàsílẹ̀ rẹ, a má ń ṣe àkójọpọ̀ wọn sínú ZIP fáìlì kan tàbí púpọ̀. Èyí ni àwọn ìtọrọ rẹ tí ó kọjá
 download-request-button = Ṣe ìgbàsílẹ̀
 download-request-title = { $created }
@@ -1057,6 +1067,7 @@ download-request-link-single = Ìgbéjáde ìparí ọdún
 ## Landing
 
 welcome-staff = káàbọ̀ { $company } òṣìṣẹ́!
+help-contribute = O lè ṣe ìrànwọ́ láti kọ́ àkọ́jọpọ̀ dátà onírúurú, olórísun-tó-hànde nípasẹ̀ ṣíṣẹ̀dá púrófáìlì Common Voice àti dídá ohùn rẹ si.
 login-company = Ìforúkọsílẹ̀ láti wọlé / Ìforúkọsílẹ̀ pẹ̀lú ímeèli { $company }
 profile-not-required = Nínú púrófáìlì ò pọn dandan láti fi kún àmọ́ yóò ṣe ìrànwọ́, wo ìdí nísàlẹ̀.
 read-more-about = Kà síi lojú-ìwé wa nípa wa
@@ -1110,8 +1121,12 @@ contribution-misreadings-description-extended-list-2 = Pàdánù<strong>'S'</
 contribution-misreadings-description-extended-list-3 = Kíka ìkópa tí kò kúkú sí níbẹ̀ bí i "We're" dípò "We are", tàbí ìdàkéjì rẹ̀
 contribution-misreadings-description-extended-list-4 = Pípàdánù òpin ọ̀rọ̀ nípaṣè ìgékúrú ìkàsílẹ̀ náà láì tó àsìkò
 contribution-misreadings-description-extended-list-5 = Gbígbìnyànjú láti ka ọ̀rọ̀ kan ní ọ̀pọ̀ ìgbà
+contribution-misreadings-example-1-title = Àwọn dáínásọ̀ ńlá Tiriásíìkì.
+contribution-misreadings-example-2-title = Àwọn dáínásọ̀ ńlá Tiriásíìkì.
 contribution-misreadings-example-2-explanation = [Yẹ kí ó jẹ́ ‘dinosaurs’]
+contribution-misreadings-example-3-title = Àwọn dáínásọ̀ ńlá Tiriásí-.
 contribution-misreadings-example-3-explanation = [Ìgékúrú ìkàsílẹ̀ ṣáájú ìparí ọ̀rọ̀ tó kẹ́yìn]
+contribution-misreadings-example-4-title = Àwọn dáínásọ̀ ńlá Tiriásíìkì. Bẹ́ẹ̀ni.
 contribution-misreadings-example-4-explanation = [Púpọ̀ ti jẹ́ ìkàsílẹ̀ ju ọ̀rọ̀ to yẹ lọ]
 contribution-misreadings-example-5-title = À ń jáde lọ gba kọ́fì.
 contribution-misreadings-example-6-title = À ń jáde lọ gba kọ́fì
