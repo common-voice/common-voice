@@ -183,7 +183,7 @@ zh-TW = 中文（台灣）
 ## Layout
 
 speak = 錄音
-speak-now = 而家講話
+speak-now = 請開聲講
 datasets = 數據集
 languages = 所有語言
 about = 介紹
