@@ -743,6 +743,9 @@ request-language-form-email =
     .label = Ваш e-mail:
 request-language-form-info =
     .label = Информация о языке
+request-language-form-info-explanation =
+    Добавьте столько информации о языке, сколько можете. Она
+    может включать в себя:
 request-language-form-info-explanation-list-1 = Названия вашего языка
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-коды</isoCodeLink>, если они известны
 request-language-form-info-explanation-list-3 = Ссылки на веб-сайты, которые могут помочь нам понять язык
