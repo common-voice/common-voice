@@ -10,7 +10,6 @@ import { earnBonus, hasEarnedBonus } from './model/achievements';
 import * as Basket from './basket';
 import * as Sentry from '@sentry/node';
 import Bucket from './bucket';
-import { ClientParameterError, ServerError } from './utility';
 import Awards from './model/awards';
 import { checkGoalsAfterContribution } from './model/goals';
 import { ChallengeToken, challengeTokens } from 'common';

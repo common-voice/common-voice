@@ -1,5 +1,5 @@
 import * as request from 'request-promise-native';
-import { GenericStatistic, Language, LanguageStats, Sentence } from 'common';
+import { GenericStatistic, Language, Sentence } from 'common';
 import DB from './model/db';
 import { DBClip } from './model/db/tables/clip-table';
 import lazyCache from './lazy-cache';
