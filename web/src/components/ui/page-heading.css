@@ -1,0 +1,41 @@
+.page-heading {
+    position: relative;
+    padding-top: 0.75em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+    font-size: 2.25em;
+    line-height: 1em;
+
+    @media (--md-up) {
+        margin-top: 1.5em;
+        font-size: 3em;
+    }
+
+    /* little decorative line */
+    &::before {
+        content: '';
+        position: absolute;
+        width: 70px;
+        height: 3px;
+        left: 0;
+        top: 0;
+        background: linear-gradient(
+            90deg,
+            var(--gradient-pink) 0%,
+            var(--gradient-purple) 100%
+        );
+
+        [dir='rtl'] & {
+            left: auto;
+            right: 0;
+        }
+    }
+}
+
+.page-heading--is-light {
+    /* little decorative line */
+    &::before {
+        background: var(--white);
+    }
+}

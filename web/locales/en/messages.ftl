@@ -11,7 +11,7 @@ email-opt-in-info = I'd like to receive emails such as goal reminders, my progre
 email-opt-in-info-title = Join the Common Voice mailing list
 email-opt-in-info-sub-with-challenge = Receive emails such as challenge and goal reminders, progress updates, and newsletters about Common Voice.
 email-opt-in-privacy-v2 = By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s <privacyLink>Privacy Policy</privacyLink>.
-indicates-required = * Indicates required field
+indicates-required = Fields marked with an asterisk (*) are required.
 not-available-abbreviation = N/A
 banner-error-slow-1 = Sorry, Common Voice is running slowly. Thanks for your interest.
 banner-error-slow-2 = We're receiving a lot of traffic and are currently investigating the issues.
@@ -52,6 +52,7 @@ da = Danish
 de = German
 dsb = Sorbian, Lower
 dv = Dhivehi
+dyu = Dioula
 el = Greek
 en = English
 eo = Esperanto
@@ -120,12 +121,16 @@ my = Burmese
 myv = Erzya
 nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
+nd = IsiNdebele (North)
 ne-NP = Nepali
 nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
+nr = IsiNdebele (South)
+nso = Northern Sotho
 nyn = Runyankole
 oc = Occitan
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -151,6 +156,8 @@ sl = Slovenian
 so = Somali
 sq = Albanian
 sr = Serbian
+ss = Siswati
+st = Southern Sotho
 sv-SE = Swedish
 sw = Swahili
 syr = Syriac
@@ -162,8 +169,10 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmen
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turkish
+ts = Xitsonga
 tt = Tatar
 tw = Twi
 ty = Tahitian
@@ -173,15 +182,18 @@ ug = Uyghur
 uk = Ukrainian
 ur = Urdu
 uz = Uzbek
+ve = Tshivenda
 vec = Venetian
 vi = Vietnamese
 vot = Votic
+xh = Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Cantonese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
+zu = Zulu
 # [/]
 
 ## Layout
@@ -318,7 +330,6 @@ shortcut-submit = Return
 shortcut-submit-label = Submit clips
 
 request-language-text = Don't see your language on Common Voice yet?
-request-language-text-learn = Learn how to request it here!
 request-language-button = Request a Language
 
 ## ProjectStatus
@@ -414,6 +425,7 @@ gravatar_not_found = No gravatar found for your email
 file_too_large = The selected file is too large
 avatar-uploaded = Avatar uploaded
 max-file-size = { $kb }kb max
+remove-avatar = Remove Avatar
 
 ## Profile - Email
 manage-subscriptions = Manage Subscriptions
@@ -463,7 +475,9 @@ faq-why-different-speakers-a =
     This is why in our voice database we want variety!
 
 faq-why-my-lang-q = Why is my language not included yet?
-faq-why-my-lang-new-a = Mozilla doesn’t pick or favor any one language over another. Instead, Common Voice is a purely community-driven initiative, but it takes <multilangLink>several steps to add a new language</multilangLink> and begin collecting voice donations. First, the Common Voice website needs to be translated so community members can access the contributor experience in their own language. Next, we need a large collection of copyright-free sentences for people to read outloud. Once both of those requirements are satisfied a language is “launched” on Common Voice for people to start recording their voice and validating others donations. If you want to help launch a new language, head over to our <sentenceCollectorLink>sentence collection tool</sentenceCollectorLink> to get started.
+faq-why-my-lang-a =
+    Common Voice is a crowdsourcing platform, and the languages were all added by volunteers.
+    We would love for you to add your language! <languageRequestLink>Ask about adding your language.</languageRequestLink>
 
 faq-what-quality-q = What level of audio quality is required for a voice clip to be used in the dataset?
 faq-what-quality-a = We want the Common Voice dataset to reflect the audio quality a speech-to-text engine will hear in the wild, so we’re looking for variety. In addition to a diverse community of speakers, a dataset with varying audio quality will teach the speech-to-text engine to handle various real-world situations, from background talking to car noise. As long as your voice clip is intelligible, it should be good enough for the dataset.
@@ -504,7 +518,7 @@ faq-search-for-answers =
 ## ABOUT US
 about-title = Why Common Voice?
 about-header-description-v2 = <p>Common Voice is a publicly available voice dataset, powered by the voices of volunteer contributors around the world. People who want to build voice applications can use the dataset to train machine learning models.</p>
-    <p>At present, most voice datasets are owned by companies, which stifles innovation. Voice datasets also over-represent white, English-speaking males. This means that voice-enabled technology doesn’t work at all for many languages, and where it does work, it may not perform equally well for everyone. We want to change that by mobilising people everywhere to share their voice.</p>
+    <p>At present, most voice datasets are owned by companies, which stifles innovation. Voice datasets also underrepresent: non-English speakers, people of colour, disabled people, women and LGBTQIA+ people. This means that voice-enabled technology doesn’t work at all for many languages, and where it does work, it may not perform equally well for everyone. We want to change that by mobilising people everywhere to share their voice.</p>
 
 how-does-it-work-title-v2 = How does Common Voice work?
 how-does-it-work-text = We’re crowdsourcing an open-source dataset of voices. Donate your voice, validate the accuracy of other people’s clips, make the dataset better for everyone.
@@ -543,10 +557,6 @@ about-dataset-new-text = The Common Voice Dataset contains hundreds of thousands
 about-clip-graveyard = Clip Graveyard
 about-clip-graveyard-text = The Clip Graveyard consists of voice clips that didn't make it into the Common Voice dataset. Just like the dataset, the Clip Graveyard is available for download.
 
-about-partners = Partners
-about-become-a-partner = Become a partner
-about-partnership = Common Voice is a collaborative project, and we're depending on our community of partners and contributors to build the largest open-source dataset of voices ever.
-
     We would like to thank the following people and organizations for their help with the project:
 about-get-involved = Get involved
 about-get-involved-text-2 = Want to help make Common Voice even better?
@@ -555,6 +565,7 @@ about-get-involved-text-2 = Want to help make Common Voice even better?
     <matrixLink>Matrix</matrixLink> community chat.
 
 about-stay-in-touch = How do I stay in touch?
+about-stay-in-touch-button = Sign up
 about-stay-in-touch-text-1 = <emailFragment>Sign up</emailFragment> to our mailing list to learn how you can take part in campaigns, events and co-design features on Common Voice.
 about-stay-in-touch-text-2 = You can meet others in the Mozilla language communities by joining <discourseLink>Discourse</discourseLink> for topical conversations, or <matrixLink>Matrix</matrixLink> for quick advice.
 
@@ -575,10 +586,27 @@ about-playbook-what-is-language-content-3 = Some languages have enormous variati
 
 ## How do I add a language
 about-playbook-how-add-language = How do I add a language?
-about-playbook-how-add-language-content-1 = First, check if your language <languageLink>already exists</languageLink>. If it doesn’t you need to <strong>translate the site and collect sentences</strong>.
-about-playbook-how-add-language-content-2 = <strong>To translate the site</strong> - get <translateVideo>set up</translateVideo> on <pontoonLink>Pontoon</pontoonLink>. Pontoon has lots of languages, but if it doesn’t have yours you can <pontoonRequestLink>request it</pontoonRequestLink>. Then ask <repoLink>via GitHub</repoLink> to have the Common Voice project made available for the language. See more on <localizationFragment>site translation</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>To collect sentences</strong> - <scVideo>set up</scVideo> on <scLink>Sentence Collector</scLink>.
-about-playbook-how-add-language-content-4 = You can <scLinkAdd>add small numbers</scLinkAdd> of sentences here, or you can do <bulkImportDocsLink>bulk imports</bulkImportDocsLink> via a Github request. Remember that sentences need to be <licenseLink>CC0 (or public domain)</licenseLink>, or you can write your own. See more on <scFragment>sentence collection</scFragment>.
+about-playbook-how-add-language-content-1 =
+    First, check if your language <languageLink>already exists</languageLink>.
+    If it isn’t, you can <languageRequestLink>ask about adding your language</languageRequestLink>.
+    There are two stages. Translating the site, and collecting sentences
+about-playbook-how-add-language-translating-heading = Translating the site
+about-playbook-how-add-language-translating-content-1 =
+    <translateVideoLink>Watch our guide on how to use Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    We use a Mozilla tool called <pontoonLink>Pontoon</pontoonLink> for translations. Pontoon has lots of languages,
+    but if it doesn’t have yours you can <pontoonRequestLink>request for your language to be added</pontoonRequestLink>.
+    Then, to make the language available on the Common Voice project,
+    <githubRepoLink>request the new language on GitHub</githubRepoLink>. <localizationFragment>See more on site translation</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Collecting sentences
+about-playbook-how-add-language-collecting-sentences-content-1 =
+    <sentenceCollectorVideo>Watch our guide on using the Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    You can <sentenceCollectorLinkAdd>add small numbers of sentences</sentenceCollectorLinkAdd>,
+    or you can do <bulkImportDocsLink>bulk imports using Github</bulkImportDocsLink>.
+    Remember that sentences need to be <licenseLink>CC0 (or public domain)</licenseLink>, or you can write your own.
+about-playbook-how-add-language-collecting-sentences-content-3 =
+    <sentenceCollectorFragment>See more on sentence collection</sentenceCollectorFragment>.
 
 ## How does localization work
 about-playbook-how-localize = How does site localization work?
@@ -637,13 +665,6 @@ about-playbook-how-project-governance-content-5 = Value and recognition.
 about-playbook-how-project-governance-content-6 = Mutual accountability.
 about-playbook-how-project-governance-content-7 = <governanceLink>Read more about how we're governed</governanceLink>
 
-
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Artificial intelligence
-mycroft-description = Mycroft is the world’s first open source assistant.
-    Mycroft runs anywhere - on a desktop computer, inside an automobile, or on a Raspberry Pi.
-mycroft-secondary-description = This is open source software which can be freely remixed, extended, and improved. Mycroft may be used in anything from a science project to an enterprise software application.
-
 ## Glossary
 glossary = Glossary
 localization = Localization
@@ -698,6 +719,7 @@ review-keep-recordings = Keep the recordings
 review-delete-recordings = Delete my recordings
 
 ## Datasets Page
+datasets-heading = Datasets
 datasets-headline = We’re building an open source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
 datasets-positioning =
     We believe that large, publicly available voice datasets will foster innovation and healthy commercial competition in machine-learning based speech technology.
@@ -781,9 +803,56 @@ request-language-success-content = We will be in touch with more information abo
 select-language = Select a Language...
 other-language = Other Language
 
+## Request Language Pages
+request-language-heading = Ask about a new language
+request-language-explanation-1 =
+    Check if your language is listed on the
+    <languagesPageLink>Common Voice Languages page</languagesPageLink>.
+    If not, fill out this form and we’ll <strong>send you a handy email
+    explaining how to get your language set up</strong>.
+request-language-explanation-2 =
+    We will also <strong>let our community manager know
+    that you’re interested</strong>, so they can give you any
+    extra support or information you might need.
+request-language-form-email =
+    .label = Your email address
+request-language-form-info =
+    .label = Information about the language
+request-language-form-info-explanation = 
+    Add as much information as you can about the language. This
+    could include:
+request-language-form-info-explanation-list-1 =
+    Names of your language
+request-language-form-info-explanation-list-2 =
+    <isoCodeLink>ISO Codes</isoCodeLink> if known
+request-language-form-info-explanation-list-3 =
+    Links to websites that can help us understand the language
+request-language-google-recaptcha-required =
+    reCAPTCHA is required if you want to proceed
+request-language-google-recaptcha-error =
+    Something went wrong with reCAPTCHA. Please try again.
+
+# Success page
+request-language-success-heading =
+    Thank you! You’ve sent a new language enquiry
+request-language-success-list-1 =
+    You should receive an email shortly explaining
+    the steps to get your language added to Common Voice
+request-language-success-list-2 =
+    Our community manager will reach out to you to offer
+    extra support, and to let you know if there is
+    already a community working on your language 
+request-language-success-list-3 =
+    If you don’t hear from us within a couple of days,
+    reach out at <emailLink>{ $email }</emailLink>
+    and we’ll get back to you!
+request-language-error =
+    We may not have received that request. Please email us directly
+    on <emailLink>{ $email }</emailLink> and we will get back to you!
+
 ## Languages Overview
 language-section-in-progress = In Progress
-language-section-in-progress-new-description = These languages are currently under community development. The progress bars indicate how far each language is in the process of <localizationGlossaryLink>website localization</localizationGlossaryLink> and <sentenceCollectionGlossaryLink>sentence collection</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = These languages are currently under community development. <localizationGlossaryLink>Website localization</localizationGlossaryLink> and <sentenceCollectionGlossaryLink>sentence collection</sentenceCollectionGlossaryLink> is needed to launch.
 language-section-launched = Launched
 language-section-launched-description = For these launched languages the website has been successfully <localizationGlossaryLink>localized</localizationGlossaryLink>, and has enough <sentenceCollectionGlossaryLink>sentences collected</sentenceCollectionGlossaryLink> to allow for ongoing <speakLink>Speak</speakLink> and <listenLink>Listen</listenLink> contributions.
 languages-show-more = See More
@@ -795,7 +864,8 @@ language-search-input =
 language-speakers = Speakers
 localized = Localized
 sentences = Sentences
-total-hours = Validated Hrs
+language-validation-hours = Hours
+language-validation-progress = Validation Progress
 
 ## Contribution
 action-click = Click
@@ -1433,7 +1503,6 @@ sc-review-link = Review
 ## SETTINGS
 sc-settings-title = Settings
 sc-settings-ui-language = Interface Language
-sc-settings-language-translated-warning = The pages for this language might not be fully translated. You can help out with translation <pontoonLinkLink>on Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Reset skipped sentences
 sc-settings-skipped-decription = You previously skipped sentences while reviewing. Resetting skipped sentences will show all skipped sentences again. This is independent of the language.
 sc-settings-show-all-button = Show all skipped sentences again

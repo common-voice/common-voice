@@ -13,7 +13,6 @@
         margin-bottom: 2em;
 
         > * {
-            box-sizing: border-box;
             align-self: center;
             width: calc(50% - var(--profile-column-margin) / 2);
             margin-inline-start: var(--profile-column-margin);

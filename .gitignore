@@ -1,6 +1,7 @@
 node_modules
 config.json
 maintenance/index.html
+maintenance/css/vars.css
 common/index.ts
 common/js/
 web/dist/

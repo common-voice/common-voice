@@ -6,10 +6,9 @@ import {
 import Downshift from 'downshift';
 import * as React from 'react';
 
-const contributableLocales = require('../../../../locales/contributable.json') as string[];
-
 import './language-select.css';
 import useSortedLocales from '../../hooks/use-sorted-locales';
+import { useContributableLocales } from '../locale-helpers';
 
 export const ALL_LOCALES = 'all-locales';
 
@@ -21,6 +20,7 @@ const LanguageSelect = ({
   value: string;
   onChange: (locale: string) => any;
 } & WithLocalizationProps) => {
+  const contributableLocales = useContributableLocales();
   const [sortedLocales] = useSortedLocales(contributableLocales, getString);
 
   return (

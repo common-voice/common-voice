@@ -1,6 +1,6 @@
 .ReactModal__Content .inner.get-involved-modal {
     max-height: 100vh;
-    box-sizing: border-box;
+
     max-width: 25rem;
     overflow-y: auto;
     text-align: start;
@@ -18,7 +18,7 @@
     }
 
     & .title-and-action {
-        border-top: .5rem solid var(--lighter-grey);
+        border-top: 0.5rem solid var(--lighter-grey);
         margin: 0 -2rem -3rem;
         padding: 2rem;
     }

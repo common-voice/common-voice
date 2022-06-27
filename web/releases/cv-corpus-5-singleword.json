@@ -1,0 +1,762 @@
+{
+  "bundleURL": "cv-corpus-5-singleword/cv-corpus-5-singleword.tar.gz",
+  "multilingual": false,
+  "exclude": true,
+  "locales": {
+    "es": {
+      "clips": 69284,
+      "splits": {
+        "accent": {
+          "surpeninsular": 0.01,
+          "": 0.8,
+          "americacentral": 0.02,
+          "centrosurpeninsular": 0.02,
+          "mexicano": 0.05,
+          "caribe": 0.02,
+          "nortepeninsular": 0.02,
+          "andino": 0.04,
+          "rioplatense": 0.02,
+          "chileno": 0.01,
+          "canario": 0,
+          "filipinas": 0
+        },
+        "age": {
+          "sixties": 0.01,
+          "": 0.74,
+          "thirties": 0.05,
+          "fifties": 0.02,
+          "fourties": 0.04,
+          "twenties": 0.11,
+          "teens": 0.04,
+          "seventies": 0,
+          "nineties": 0,
+          "eighties": 0
+        },
+        "gender": {
+          "male": 0.17,
+          "": 0.74,
+          "female": 0.09,
+          "other": 0
+        }
+      },
+      "users": 8970,
+      "duration": 200607380,
+      "buckets": {
+        "dev": 4,
+        "invalidated": 6433,
+        "other": 40532,
+        "reported": 989,
+        "test": 4,
+        "train": 6,
+        "validated": 22290
+      },
+      "reportedSentences": 982,
+      "avgDurationSecs": 2.895,
+      "validDurationSecs": 64539.266,
+      "totalHrs": 55.72,
+      "validHrs": 17.92
+    },
+    "pl": {
+      "clips": 929,
+      "splits": {
+        "accent": {
+          "": 1
+        },
+        "age": {
+          "twenties": 0.23,
+          "thirties": 0.15,
+          "fourties": 0.03,
+          "teens": 0.09,
+          "": 0.47,
+          "sixties": 0.03
+        },
+        "gender": {
+          "female": 0.13,
+          "male": 0.39,
+          "": 0.47,
+          "other": 0.01
+        }
+      },
+      "users": 88,
+      "duration": 2129666,
+      "buckets": {
+        "dev": 4,
+        "invalidated": 30,
+        "other": 0,
+        "reported": 410,
+        "test": 4,
+        "train": 6,
+        "validated": 898
+      },
+      "reportedSentences": 410,
+      "avgDurationSecs": 2.292,
+      "validDurationSecs": 2058.601,
+      "totalHrs": 0.59,
+      "validHrs": 0.57
+    },
+    "ca": {
+      "clips": 2372,
+      "splits": {
+        "accent": {
+          "valencian": 0.12,
+          "": 0.44,
+          "central": 0.39,
+          "northern": 0.01,
+          "northwestern": 0.03,
+          "balearic": 0.01
+        },
+        "age": {
+          "fifties": 0.1,
+          "": 0.4,
+          "sixties": 0.04,
+          "thirties": 0.13,
+          "fourties": 0.13,
+          "twenties": 0.13,
+          "teens": 0.05,
+          "seventies": 0.02
+        },
+        "gender": {
+          "male": 0.44,
+          "": 0.4,
+          "female": 0.16,
+          "other": 0.01
+        }
+      },
+      "users": 214,
+      "duration": 5963630,
+      "buckets": {
+        "dev": 4,
+        "invalidated": 120,
+        "other": 21,
+        "reported": 911,
+        "test": 4,
+        "train": 6,
+        "validated": 2231
+      },
+      "reportedSentences": 909,
+      "avgDurationSecs": 2.514,
+      "validDurationSecs": 5609.131,
+      "totalHrs": 1.65,
+      "validHrs": 1.55
+    },
+    "tr": {
+      "clips": 408,
+      "splits": {
+        "accent": {
+          "": 1
+        },
+        "age": {
+          "": 0.47,
+          "fourties": 0.07,
+          "twenties": 0.29,
+          "teens": 0.03,
+          "thirties": 0.13
+        },
+        "gender": {
+          "": 0.47,
+          "male": 0.46,
+          "female": 0.07
+        }
+      },
+      "users": 46,
+      "duration": 962552,
+      "buckets": {
+        "dev": 4,
+        "invalidated": 34,
+        "other": 31,
+        "reported": 72,
+        "test": 4,
+        "train": 6,
+        "validated": 343
+      },
+      "reportedSentences": 73,
+      "avgDurationSecs": 2.359,
+      "validDurationSecs": 809.204,
+      "totalHrs": 0.26,
+      "validHrs": 0.22
+    },
+    "ru": {
+      "clips": 1556,
+      "splits": {
+        "accent": {
+          "": 1
+        },
+        "age": {
+          "": 0.42,
+          "teens": 0.14,
+          "thirties": 0.15,
+          "twenties": 0.26,
+          "fourties": 0.04
+        },
+        "gender": {
+          "": 0.44,
+          "male": 0.5,
+          "female": 0.05,
+          "other": 0.01
+        }
+      },
+      "users": 152,
+      "duration": 3548113,
+      "buckets": {
+        "dev": 4,
+        "invalidated": 80,
+        "other": 0,
+        "reported": 119,
+        "test": 4,
+        "train": 6,
+        "validated": 1476
+      },
+      "reportedSentences": 113,
+      "avgDurationSecs": 2.28,
+      "validDurationSecs": 3365.691,
+      "totalHrs": 0.98,
+      "validHrs": 0.93
+    },
+    "pt": {
+      "clips": 1079,
+      "splits": {
+        "accent": {
+          "": 1
+        },
+        "age": {
+          "": 0.39,
+          "fourties": 0.12,
+          "twenties": 0.29,
+          "thirties": 0.18,
+          "fifties": 0.02,
+          "sixties": 0,
+          "teens": 0.01
+        },
+        "gender": {
+          "": 0.39,
+          "male": 0.54,
+          "female": 0.06,
+          "other": 0.01
+        }
+      },
+      "users": 116,
+      "duration": 2792491,
+      "buckets": {
+        "dev": 4,
+        "invalidated": 66,
+        "other": 68,
+        "reported": 1623,
+        "test": 4,
+        "train": 6,
+        "validated": 945
+      },
+      "reportedSentences": 1620,
+      "avgDurationSecs": 2.588,
+      "validDurationSecs": 2445.694,
+      "totalHrs": 0.77,
+      "validHrs": 0.67
+    },
+    "nl": {
+      "clips": 475,
+      "splits": {
+        "accent": {
+          "suriname": 0.03,
+          "netherlands": 0.37,
+          "": 0.42,
+          "belgium": 0.17
+        },
+        "age": {
+          "": 0.4,
+          "twenties": 0.36,
+          "sixties": 0,
+          "thirties": 0.08,
+          "fifties": 0.06,
+          "fourties": 0.1
+        },
+        "gender": {
+          "male": 0.55,
+          "female": 0.05,
+          "": 0.4
+        }
+      },
+      "users": 49,
+      "duration": 1118014,
+      "buckets": {
+        "dev": 4,
+        "invalidated": 28,
+        "other": 0,
+        "reported": 125,
+        "test": 4,
+        "train": 6,
+        "validated": 447
+      },
+      "reportedSentences": 126,
+      "avgDurationSecs": 2.354,
+      "validDurationSecs": 1052.11,
+      "totalHrs": 0.31,
+      "validHrs": 0.29
+    },
+    "de": {
+      "clips": 13589,
+      "splits": {
+        "accent": {
+          "germany": 0.25,
+          "austria": 0.02,
+          "": 0.71,
+          "france": 0,
+          "italy": 0,
+          "switzerland": 0.01,
+          "united_states": 0,
+          "russia": 0,
+          "united_kingdom": 0
+        },
+        "age": {
+          "fourties": 0.04,
+          "fifties": 0.06,
+          "twenties": 0.12,
+          "thirties": 0.07,
+          "": 0.63,
+          "seventies": 0.01,
+          "teens": 0.06,
+          "sixties": 0.02,
+          "eighties": 0
+        },
+        "gender": {
+          "male": 0.3,
+          "female": 0.06,
+          "": 0.63,
+          "other": 0
+        }
+      },
+      "users": 1465,
+      "duration": 35864336,
+      "buckets": {
+        "dev": 4,
+        "invalidated": 1322,
+        "other": 69,
+        "reported": 2823,
+        "test": 4,
+        "train": 6,
+        "validated": 12191
+      },
+      "reportedSentences": 2814,
+      "avgDurationSecs": 2.639,
+      "validDurationSecs": 32174.709,
+      "totalHrs": 9.96,
+      "validHrs": 8.93
+    },
+    "ta": {
+      "clips": 247,
+      "splits": {
+        "accent": {
+          "": 1
+        },
+        "age": {
+          "": 0.47,
+          "fifties": 0.06,
+          "fourties": 0,
+          "twenties": 0.23,
+          "thirties": 0.19,
+          "teens": 0.04
+        },
+        "gender": {
+          "": 0.52,
+          "male": 0.31,
+          "female": 0.17
+        }
+      },
+      "users": 32,
+      "duration": 738774,
+      "buckets": {
+        "dev": 4,
+        "invalidated": 33,
+        "other": 11,
+        "reported": 234,
+        "test": 4,
+        "train": 6,
+        "validated": 203
+      },
+      "reportedSentences": 234,
+      "avgDurationSecs": 2.991,
+      "validDurationSecs": 607.171,
+      "totalHrs": 0.2,
+      "validHrs": 0.16
+    },
+    "ar": {
+      "clips": 340,
+      "splits": {
+        "accent": {
+          "": 1
+        },
+        "age": {
+          "": 0.41,
+          "thirties": 0.1,
+          "twenties": 0.33,
+          "teens": 0.08,
+          "fifties": 0.04,
+          "fourties": 0.04
+        },
+        "gender": {
+          "": 0.4,
+          "male": 0.53,
+          "female": 0.07
+        }
+      },
+      "users": 45,
+      "duration": 884372,
+      "buckets": {
+        "dev": 4,
+        "invalidated": 24,
+        "other": 0,
+        "reported": 134,
+        "test": 4,
+        "train": 6,
+        "validated": 316
+      },
+      "reportedSentences": 135,
+      "avgDurationSecs": 2.601,
+      "validDurationSecs": 821.946,
+      "totalHrs": 0.24,
+      "validHrs": 0.22
+    },
+    "en": {
+      "clips": 43373,
+      "splits": {
+        "accent": {
+          "": 0.76,
+          "us": 0.11,
+          "england": 0.04,
+          "indian": 0.04,
+          "australia": 0.01,
+          "canada": 0.01,
+          "newzealand": 0,
+          "scotland": 0,
+          "hongkong": 0.01,
+          "ireland": 0,
+          "singapore": 0,
+          "philippines": 0,
+          "malaysia": 0,
+          "african": 0,
+          "wales": 0
+        },
+        "age": {
+          "": 0.62,
+          "twenties": 0.18,
+          "teens": 0.05,
+          "fourties": 0.04,
+          "thirties": 0.07,
+          "sixties": 0.01,
+          "fifties": 0.03,
+          "seventies": 0.01,
+          "nineties": 0,
+          "eighties": 0
+        },
+        "gender": {
+          "": 0.62,
+          "female": 0.09,
+          "male": 0.28,
+          "other": 0.01
+        }
+      },
+      "users": 5183,
+      "duration": 117342212,
+      "buckets": {
+        "dev": 4,
+        "invalidated": 3454,
+        "other": 13838,
+        "reported": 1268,
+        "test": 4,
+        "train": 6,
+        "validated": 26070
+      },
+      "reportedSentences": 1233,
+      "avgDurationSecs": 2.705,
+      "validDurationSecs": 70530.318,
+      "totalHrs": 32.59,
+      "validHrs": 19.59
+    },
+    "fr": {
+      "clips": 20673,
+      "splits": {
+        "accent": {
+          "france": 0.21,
+          "": 0.76,
+          "germany": 0,
+          "canada": 0.01,
+          "united_kingdom": 0,
+          "belgium": 0.01,
+          "switzerland": 0.01,
+          "reunion": 0,
+          "senegal": 0,
+          "martinique": 0,
+          "congo_brazzaville": 0,
+          "cameroon": 0,
+          "united_states": 0,
+          "madagascar": 0,
+          "romania": 0,
+          "benin": 0
+        },
+        "age": {
+          "sixties": 0.01,
+          "": 0.7,
+          "twenties": 0.1,
+          "thirties": 0.06,
+          "fourties": 0.05,
+          "teens": 0.05,
+          "fifties": 0.03,
+          "seventies": 0
+        },
+        "gender": {
+          "male": 0.23,
+          "": 0.7,
+          "female": 0.06,
+          "other": 0.01
+        }
+      },
+      "users": 2382,
+      "duration": 54892201,
+      "buckets": {
+        "dev": 4,
+        "invalidated": 2181,
+        "other": 2021,
+        "reported": 2653,
+        "test": 4,
+        "train": 6,
+        "validated": 16467
+      },
+      "reportedSentences": 2629,
+      "avgDurationSecs": 2.655,
+      "validDurationSecs": 43724.175,
+      "totalHrs": 15.24,
+      "validHrs": 12.14
+    },
+    "cy": {
+      "clips": 263,
+      "splits": {
+        "accent": {
+          "united_kingdom": 0.63,
+          "": 0.37
+        },
+        "age": {
+          "twenties": 0.25,
+          "thirties": 0.11,
+          "": 0.3,
+          "teens": 0.08,
+          "fifties": 0.11,
+          "fourties": 0.08,
+          "sixties": 0.04,
+          "seventies": 0.04
+        },
+        "gender": {
+          "female": 0.34,
+          "male": 0.32,
+          "": 0.33
+        }
+      },
+      "users": 28,
+      "duration": 699792,
+      "buckets": {
+        "dev": 3,
+        "invalidated": 8,
+        "other": 23,
+        "reported": 44,
+        "test": 3,
+        "train": 4,
+        "validated": 232
+      },
+      "reportedSentences": 45,
+      "avgDurationSecs": 2.661,
+      "validDurationSecs": 617.307,
+      "totalHrs": 0.19,
+      "validHrs": 0.17
+    },
+    "eo": {
+      "clips": 802,
+      "splits": {
+        "accent": {
+          "": 0.66,
+          "internacia": 0.34
+        },
+        "age": {
+          "": 0.45,
+          "fourties": 0.04,
+          "twenties": 0.27,
+          "teens": 0.06,
+          "eighties": 0.01,
+          "sixties": 0.03,
+          "thirties": 0.13,
+          "fifties": 0.01
+        },
+        "gender": {
+          "": 0.46,
+          "male": 0.47,
+          "other": 0.01,
+          "female": 0.06
+        }
+      },
+      "users": 76,
+      "duration": 1935968,
+      "buckets": {
+        "dev": 3,
+        "invalidated": 32,
+        "other": 0,
+        "reported": 354,
+        "test": 3,
+        "train": 6,
+        "validated": 770
+      },
+      "reportedSentences": 354,
+      "avgDurationSecs": 2.414,
+      "validDurationSecs": 1858.722,
+      "totalHrs": 0.53,
+      "validHrs": 0.51
+    },
+    "ja": {
+      "clips": 525,
+      "splits": {
+        "accent": {
+          "": 1
+        },
+        "age": {
+          "teens": 0.04,
+          "twenties": 0.53,
+          "": 0.29,
+          "fifties": 0.02,
+          "fourties": 0.05,
+          "thirties": 0.07
+        },
+        "gender": {
+          "male": 0.43,
+          "female": 0.28,
+          "": 0.27,
+          "other": 0.02
+        }
+      },
+      "users": 62,
+      "duration": 1200960,
+      "buckets": {
+        "dev": 3,
+        "invalidated": 22,
+        "other": 0,
+        "reported": 53,
+        "test": 3,
+        "train": 6,
+        "validated": 503
+      },
+      "reportedSentences": 54,
+      "avgDurationSecs": 2.288,
+      "validDurationSecs": 1150.634,
+      "totalHrs": 0.33,
+      "validHrs": 0.31
+    },
+    "id": {
+      "clips": 110,
+      "splits": {
+        "accent": {
+          "": 1
+        },
+        "age": {
+          "": 0.26,
+          "twenties": 0.63,
+          "teens": 0.11
+        },
+        "gender": {
+          "": 0.26,
+          "male": 0.54,
+          "female": 0.11,
+          "other": 0.09
+        }
+      },
+      "users": 11,
+      "duration": 243816,
+      "buckets": {
+        "dev": 3,
+        "invalidated": 9,
+        "other": 0,
+        "reported": 196,
+        "test": 3,
+        "train": 6,
+        "validated": 101
+      },
+      "reportedSentences": 197,
+      "avgDurationSecs": 2.217,
+      "validDurationSecs": 223.867,
+      "totalHrs": 0.06,
+      "validHrs": 0.06
+    },
+    "eu": {
+      "clips": 467,
+      "splits": {
+        "accent": {
+          "": 0.89,
+          "mendebalekoa": 0.05,
+          "erdialdekoa_nafarra": 0.06
+        },
+        "age": {
+          "": 0.86,
+          "teens": 0.02,
+          "fourties": 0.05,
+          "fifties": 0.05,
+          "thirties": 0.03
+        },
+        "gender": {
+          "": 0.86,
+          "female": 0.06,
+          "male": 0.08
+        }
+      },
+      "users": 62,
+      "duration": 1178544,
+      "buckets": {
+        "dev": 3,
+        "invalidated": 12,
+        "other": 284,
+        "reported": 37,
+        "test": 3,
+        "train": 6,
+        "validated": 170
+      },
+      "reportedSentences": 38,
+      "avgDurationSecs": 2.524,
+      "validDurationSecs": 429.02,
+      "totalHrs": 0.32,
+      "validHrs": 0.11
+    },
+    "tt": {
+      "clips": 29,
+      "splits": {
+        "accent": {
+          "": 1
+        },
+        "age": {
+          "thirties": 0.83,
+          "": 0.17
+        },
+        "gender": {
+          "male": 0.83,
+          "": 0.17
+        }
+      },
+      "users": 3,
+      "duration": 69672,
+      "buckets": {
+        "dev": 0,
+        "invalidated": 1,
+        "other": 23,
+        "reported": 0,
+        "test": 1,
+        "train": 4,
+        "validated": 5
+      },
+      "reportedSentences": 1,
+      "avgDurationSecs": 2.402,
+      "validDurationSecs": 12.012,
+      "totalHrs": 0.01,
+      "validHrs": 0
+    },
+    "cv-corpus-5-singleword": null
+  },
+  "overall": {
+    "size": 3250877247,
+    "checksum": "0c0cd77a1e412f40a507301f098bc192c4608edc7bd05e7e6973f8519a7a88d8"
+  },
+  "totalDuration": 432172493,
+  "totalValidDurationSecs": 232029,
+  "totalHrs": 120,
+  "totalValidHrs": 64
+}

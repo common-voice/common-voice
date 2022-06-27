@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Riceve email cum’è sfide è ramintenze
 email-opt-in-privacy-v2 = Scegliendu di riceve l'email, accittate chì Mozilla si ghjova di st'infurmazioni cum'è spiegatu in a <privacyLink>Pulitica di Cunfidenzialità</privacyLink>.
 indicates-required = * Indicheghja un campu richiestu
 not-available-abbreviation = Micca dispunibule
+banner-error-slow-1 = Scusateci, Common Voice hè lentu pà arrisponde. Grazie pà u vostru interessu.
+banner-error-slow-link = Paghjina di statu
+error-something-went-wrong = Scusateci, un sbagliu hè accadutu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,7 +39,6 @@ ba = Baschiru
 bas = Basaa
 be = Bielorussiu
 bg = Bulgaru
-bm = Bambara
 bn = Bengalese
 br = Brittonu
 bxr = Buriatu
@@ -288,7 +290,6 @@ shortcut-discard-ongoing-recording-label = Scartà l'arrighjistramentu in corsu
 shortcut-submit = Entrée
 shortcut-submit-label = Invià campioni
 request-language-text = Ùn viditi micca a vostra lingua in Common Voice ?
-request-language-text-learn = Scupriti quì comu dumandala !
 request-language-button = Richiede una lingua
 
 ## ProjectStatus
@@ -313,8 +314,15 @@ profile-form-native-language =
     .label = Lingua Materna
 profile-form-additional-language =
     .label = Lingua addizziunala
+profile-form-language =
+    .label = Lingua
+profile-form-variant =
+    .label = Chì variante di { $language } parleti ?
+profile-form-variant-default-value = Nissuna variante scelta
 profile-form-accent =
     .label = Accentu
+profile-form-custom-accent-help-text =
+    .label = Comu discrivaristi u vostru accentu ?
 profile-form-age =
     .label = Età
 profile-form-gender-2 =
@@ -325,6 +333,7 @@ hidden = Piattatu
 visible = Visìbile
 native-language =
     .label = Lingua Materna
+profile-form-add-accent = Aghjunghjiti un novu accentu persunalizatu « { $inputValue } »
 profile-form-submit-save = Arrighjistrà
 profile-form-submit-saved = Arrighjistratu
 male = Masciu
@@ -358,6 +367,9 @@ skip-submission-description = L'inviu di cummenti sarà disattivatu dopu avè ap
 skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
 off = Disattivatu
 on = Attivatu
+help-accent = Avete bisognu d'aiutu cù l'accentu ?
+help-variants = Avete bisognu d'aiutu cù e variante ?
+help-variants-explanation = Variente sò forme specifiche d’una lingua, per esempiu scumpartita da quiddi chì campani in un stessu locu o cummunità. À le volte sò chjamati dialetti.
 
 ## Profile - Email
 
@@ -368,6 +380,7 @@ gravatar_not_found = Ùn avemu trovu di prufilu Gravatar cù u vostru indirizzu 
 file_too_large = U ducumentu sceltu hè troppu maiò
 avatar-uploaded = Avatar caricatu
 max-file-size = { $kb } Ko à u più
+remove-avatar = Caccià l’avatar
 
 ## Profile - Email
 
@@ -411,7 +424,6 @@ faq-why-different-speakers-a =
     A maiurità di e banche di dati vucale sò addistrati incù una sopra riprisintazione demugrafica di <articleLink>masci di classa mezana</articleLink>. Accenti è dialetti sottu riprisentati sò tipicamenti quelli di gruppi di parsoni dighjà marginalizzati. Mori apparechji strazieghjani pà ricunnosce voce feminile. 
     Ghjè parchì vulemu svariatezza in a nostra banca di dati !
 faq-why-my-lang-q = Parchì a me lingua ùn hè ancu inghjusa ?
-faq-why-my-lang-new-a = Mozilla ùn sceglie o favurisci alcuna lingua sopr’à un’altra. A u cuntrariu, Common Voice hè un iniziativa di a cumunità, mà ci sò <multilangLink>parechje tappe pà aghjunghje una lingua addizziunale</multilangLink> è principià à racoglie campioni vucali. Primu, u situ web di Common Voice hà da esse traduttu pà esse accessibile à i locutori di sta lingua. Sicondu, avemu bisognu d’una tamanta cullezione d’infrasate libare di dritti pà esse lighjiti ad alta voce. Hè solu quandu issi duie cundizione sò suddesfani chi una lingua hè « lanciata » in Common Voice hè chì la ghjenti poni principià à arrighjistrassi è a cunvalidà l’altri. Si vuleti aiutà à lancià una lingua, addirizzatevi à <sentenceCollectorLink>l’arnese di racogliera d’infrasate</sentenceCollectorLink>.
 faq-what-quality-q = Chì niveddu di qualità audio hè richiestu pà avè un campione di voce adupratu in a banca di dati ?
 faq-what-quality-a = Vulemu chì a banca di dati di Common Voice pari à a qualità di ciò chì un mutori di ricunniscenza vucale sintarà in a rialità, è dunque circhemu varietà. In più da una cumunità diversa di locutori, una banca di dati cù una qualità varia insignarà à u mutori di ricunniscenza à gestisce parechji situazione realistiche, da una discussione in fondu à u frombu di una vittura. Si u campione vucale pò esse capitu, eddu cunvenerà sicuramente pà a banca di dati.
 faq-why-10k-hours-q = Parchì sò 10,000 ore d'arrighjistramenti cunvalidate u scopu ?
@@ -439,9 +451,14 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Parchì Common Voice ?
-about-subtitle = Common Voice hè una parte di l'iniziativa di Mozilla per aiutà à insegnà à e macchine cumu parlanu e vere persone. In più di a banca di dati Common Voice, custruimu ancu un mutore cù e fonte aperte di ricunniscenza vucale chjamatu Deep Speech.
-how-does-it-work-title = Comu funziona ?
+how-does-it-work-title-v2 = Comu funziona Common Voice ?
 how-does-it-work-text = Rializemu una banca di dati vucale cù è fonte aperte cù l'aiutu di u publicu. Date a vostra voce, cunvalidate è campione di l'altri, migliurate a banca di dati pà tuttu u mondu.
+
+## How does it work section
+
+about-language-req-subtitle = Qualcunu dumanda l’aghjustu d’una lingua.
+about-localization-subtitle = U testu di u situ web hè traduttu in sta lingua.
+about-sentence-collection-title = Racolta d'infrasate
 about-speak = Parlà
 about-speak-text = I cuntributori arrighjistrani campiunarii vucali lighjendu da una banca di frasi dunati da a cumunità.
 about-listen-queue = Fila d’ascolta
@@ -458,26 +475,50 @@ about-dataset-new = Basa di dati Common Voice
 about-dataset-new-text = A banca di dati Common Voice cuntene cintinaia di millaghja di campioni vucale ch'aiutani sviluppatori à custruisce strumenti di ricunniscenza vucale.
 about-clip-graveyard = Campu santu di i campiunarii
 about-clip-graveyard-text = U campu santu di i campiunarii hè custituitu di tutti i campiunarii chì ùn sò micca stati cunvalidati pà fà parte di a banca di dati Common Voice. Cum'è edda, u campu santu di i campiuanarii pò esse scaricatu libaramente.
-about-partners = Partinarii
-about-become-a-partner = Diventà un partinariu
-about-partnership =
-    Common Voice hè un prughjettu cullaburativu, è dipindimu di a nostra cummunità di partinarii è di cuntributori pà creà a più tamanta banca di dati vucale di sempre. 
-    
-    Vulariamu ringrazià pà u so aiutu à u prughjettu i parsone è urganizazioni siguante :
 about-get-involved = Impegnassi
 about-get-involved-text-2 =
     Vuleti aiutà à migliurà ancu di più Common Voice ?
     Tremendu ! Cuntattateci via email o e piazze publiche <discourseLink>Discourse</discourseLink>, indittati i prublemi di u situ via <githubLink>GitHub</githubLink>, o raghjunghjeti a chjachjerata di a cummunità <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Cumu possu stà in cuntattu ?
+about-stay-in-touch-button = Arrighjistrassi
 about-nav-why-common-voice = Parchì ?
 about-nav-how-it-works = Comu ?
 about-nav-partners = Partinarii
 about-nav-get-involved = Impegnassi
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Intelligenza artificiale
-mycroft-description =
-    Mycroft hè u primu assistente di fonte aperta di u mondu.
-    Mycroft viaghja in ogni apparechji - in un urdinatore di tavulinu, in una vittura, o in un Raspberry Pi.
-mycroft-secondary-description = Questu hè un prugramma di fonte aperta chì pò esse mudificatu liberamente, allargatu è migliuratu. Mycroft pò esse adupratu dapertuttu, da un prughjettu di scienza à una applicazione d'impresa.
+about-nav-how-it-works-2 = Comu funziona Common Voice ?
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Cosa hè una lingua in Common Voice ?
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Comu possu aghjunghje infrasate ?
+
+## How to record quality
+
+
+## How to grow language
+
+about-playbook-how-grow-language-content-4 = Rete suciale
+
+## How to validate
+
+about-playbook-how-validate = Comu possu sapè quandu cunvalidà un campione vucale ?
+about-playbook-how-validate-content-1 = Si pudeti <strong>sentali bè</strong> è <strong>capisceli bè</strong>, di regula hè megliu di <strong>cunvalidalli</strong>.
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -495,7 +536,7 @@ de-identified-explanation = U prucessu chì scurisce l'infurmazioni di u prufilu
 
 ## Error pages
 
-error-title-404 = Ùn pudemu micca truvà questa pagina per voi
+error-title-404 = Ùn pudemu micca truvà questa paghjina per voi
 error-content-404 = Forse a nostra <homepageLink>paghjina d'accolta</homepageLink>v’aiutarà ? Pà fà una dumanda, raghjunghjisti a <matrixLink>chjachjerata di a cummunità Matrix</matrixLink>, tiniti l'ochji nant’à i prublemi di u situ via <githubLink>GitHub</githubLink> o visiteti <discourseLink>i nostri fori Discourse</discourseLink>.
 error-title-503 = Avemu un'interuzzione imprevista
 error-code = Errore { $code }
@@ -574,7 +615,7 @@ data-other-tatoeba-description = Tatoeba hè una banca maiò d'infrasate, traduz
 your-feedback = Avete idee di cumu fà pà megliurà a banca di dati di Common Voice ? Dateci u vostru parè nant'à Discourse
 go-discourse = Andà nant'à Discourse
 missing-language = Ùn vidite micca a vostra lingua in a banca di dati ? Pà dumandà una lingua, andate annantu à a nostra paghjina Lingue.
-go-languages-page = Andà à a pagina di e lingue
+go-languages-page = Andà à a paghjina di e lingue
 ready-to-validate = Prontu pà aiutacci à cunvalidà l'infrasate ?
 more = Più
 close = Sarrà
@@ -610,6 +651,9 @@ request-language-success-content = Dà quì à pocu, vi daremu l'infurmazioni p�
 select-language = Sciglite una lingua...
 other-language = Altra lingua
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = In prugressu
@@ -624,7 +668,7 @@ language-search-input =
 language-speakers = Locutori
 localized = Lucalizatu
 sentences = Infrasate
-total-hours = Ore cunvalidate
+language-validation-hours = Ore
 
 ## Contribution
 
@@ -744,7 +788,7 @@ validated-clips = Campioni cunvalidati
 total-approved = Tutale cunvalidatu
 overall-accuracy = Pricisione glubale
 set-visibility = Definisce a mo visibilità
-visibility-overlay-note = Nota : Quandu hè definitu à nantu à 'Visìbile', si pò cambià à nant'à a <profileLink>pagina di prufilu</profileLink>
+visibility-overlay-note = Nota : Quandu hè definitu à nantu à 'Visìbile', si pò cambià à nant'à a <profileLink>paghjina di prufilu</profileLink>
 show-ranking = Muscià a mo classifica
 
 ## Custom Goals
@@ -927,3 +971,59 @@ contribution-just-unsure-title = Ùn site micca sicuru ?
 contribution-just-unsure-description = Sè vo incuntrate calcosa ch'ùn hè micca pigliatu in contu in isse istruzzione, vutate cum'ella vi pare u megliu. Sè un vi pudeti decidà, pichjate annant'à u buttone scappà è andate à u prossimu campionu.
 see-more = <chevron></chevron>Vedene di più
 see-less = <chevron></chevron>Vedene di menu
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+

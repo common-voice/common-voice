@@ -56,6 +56,7 @@ da = Dinamarquês
 de = Alemão
 dsb = Baixo Sorábio
 dv = Divehi
+dyu = Dioula
 el = Grego
 en = Inglês
 eo = Esperanto
@@ -124,12 +125,16 @@ my = Birmanês
 myv = Erzya
 nan-tw = Taiwanês (Minnan)
 nb-NO = Norueguês (Bokmål)
+nd = IsiNdebele (Norete)
 ne-NP = Nepalês
 nia = Nias
 nl = Holandês
 nn-NO = Novo norueguês
+nr = IsiNdebele (Sul)
+nso = Soto do norte
 nyn = Ancolé
 oc = Occitânico
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -155,6 +160,8 @@ sl = Esloveno
 so = Somali
 sq = Albanês
 sr = Sérvio
+ss = Suáti
+st = Sesoto
 sv-SE = Sueco
 sw = Suahíli
 syr = Siríaco
@@ -166,8 +173,10 @@ ti = Tigrínia
 tig = Tigré
 tk = Turcomano
 tl = Filipino
+tn = Tswana
 tok = Toki Pona
 tr = Turco
+ts = Xitsonga
 tt = Tártaro
 tw = Twi
 ty = Taitiano
@@ -177,15 +186,18 @@ ug = Uigur
 uk = Ucraniano
 ur = Urdu
 uz = Usbeque
+ve = Tshivenda
 vec = Veneziano
 vi = Vietnamita
 vot = Vótico
+xh = Xhosa
 yi = Iídiche
 yo = Iorubá
 yue = Cantonês
 zh-CN = Chinês (China)
 zh-HK = Chinês (Hong Kong)
 zh-TW = Chinês (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -313,7 +325,6 @@ shortcut-discard-ongoing-recording-label = Descartar gravação em andamento
 shortcut-submit = Return
 shortcut-submit-label = Enviar clipes
 request-language-text = Seu idioma ainda não está disponível no Common Voice?
-request-language-text-learn = Veja como fazer a solicitação aqui!
 request-language-button = Solicite um idioma
 
 ## ProjectStatus
@@ -406,6 +417,7 @@ gravatar_not_found = Não foi encontrado um Gravatar para seu email
 file_too_large = O arquivo selecionado é grande demais
 avatar-uploaded = Avatar enviado
 max-file-size = Máximo { $kb }kb
+remove-avatar = Remover avatar
 
 ## Profile - Email
 
@@ -449,7 +461,9 @@ faq-why-different-speakers-a =
     A maioria dos bancos de dados de voz é treinado com uma representação excessiva de certos grupos demográficos, o que resulta em um viés <articleLink>masculino e de classe média</articleLink>. Sotaques e dialetos que tendem a ser sub-representados em conjuntos de dados de treinamento são tipicamente associados a grupos de pessoas que já estão marginalizadas. Muitas máquinas também têm dificuldades para entender vozes femininas.
     É por isso que, no nosso banco de dados de voz, queremos variedade!
 faq-why-my-lang-q = Por que meu idioma ainda não foi incluído?
-faq-why-my-lang-new-a = A Mozilla não escolhe ou favorece nenhum idioma sobre outro. Pelo contrário, o Common Voice é uma iniciativa puramente orientada à comunidade, mas são necessárias <multilangLink>diversas etapas para adicionar um novo idioma</multilangLink> e começar a coletar doações de voz. Primeiro, o site do Common Voice precisa estar traduzido para que membros da comunidade possam acessar a experiência de colaborador em seus próprios idiomas. Depois, precisamos de uma grande coleção de frases livres de direitos autorais para que as pessoas leiam em voz alta. Uma vez que ambos os requisitos estejam satisfeitos, um idioma é “lançado” no Common Voice para as pessoas começarem a gravar suas vozes e validar doações de outros. Se você quer ajudar a lançar um novo idioma, siga para nossa <sentenceCollectorLink>ferramenta de coleta de frases</sentenceCollectorLink> para começar.
+faq-why-my-lang-a =
+    Common Voice é uma plataforma de terceirização coletiva (crowdsourcing), os idiomas foram todos adicionados por voluntários.
+    Adoraríamos que você adicionasse seu idioma! <languageRequestLink>Pergunte sobre como adicionar seu idioma.</languageRequestLink>
 faq-what-quality-q = Qual o nível de qualidade de áudio é necessário para um clipe de voz ser usado no conjunto de dados?
 faq-what-quality-a = Queremos que o conjunto de dados do Common Voice reflita a qualidade de áudio que um mecanismo de conversão de fala para texto ouvirá no mundo real, por isso, estamos procurando variedade. Além de uma comunidade diversificada de falantes, um conjunto de dados com qualidade de áudio variada ensinará o mecanismo de conversão de fala para texto a lidar com várias situações do mundo real, desde conversas ao fundo até ruído de carro. Contanto que o seu clipe de voz seja inteligível, ele deve ser bom o suficiente para o conjunto de dados.
 faq-why-10k-hours-q = Por que 10.000 horas validadas é a meta por idioma de captura de áudio?
@@ -502,7 +516,7 @@ about-voice-validation-title = Validação de voz
 about-voice-validation-subtitle = Outras pessoas validam esses clipes de voz.
 about-dataset-release-title = Lançamento do conjunto de dados
 about-dataset-release-subtitle = Lançamos o conjunto de dados a cada 3 meses.
-about-subscribe-text = Quer ficar em contato com o Common Voice?
+about-subscribe-text = Quer estar em contato com o Common Voice?
 about-speak = Falar
 about-speak-text = Os colaboradores gravam clipes de voz lendo a partir de um banco de frases doadas.
 about-listen-queue = Fila de audição
@@ -519,19 +533,14 @@ about-dataset-new = Conjunto de dados do Common Voice
 about-dataset-new-text = O conjunto de dados do Common Voice contém centenas de milhares de amostras de voz que ajudam os desenvolvedores a construir ferramentas de reconhecimento de voz.
 about-clip-graveyard = Cemitério de clipes
 about-clip-graveyard-text = O cemitério de clipes consiste de clipes de voz que não entraram no conjunto de dados do Common Voice. Assim como o conjunto de dados, o cemitério de clipes está disponível para ser baixado.
-about-partners = Parceiros
-about-become-a-partner = Torne-se um parceiro
-about-partnership =
-    O Common Voice é um projeto colaborativo e estamos dependendo de nossa comunidade de parceiros e colaboradores para construir o maior conjunto de dados de voz de código aberto já feito.
-    
-    Gostaríamos de agradecer as seguintes pessoas e organizações pela ajuda neste projeto:
 about-get-involved = Envolva-se
 about-get-involved-text-2 =
     Quer ajudar a tornar o Common Voice ainda melhor?
     Fantástico! Entre em contato via email ou nos fóruns do <discourseLink>Discourse</discourseLink>,
     relate problemas no site via <githubLink>GitHub</githubLink>,
     ou participe de conversas da comunidade no <matrixLink>Matrix</matrixLink>.
-about-stay-in-touch = Como ficar em contato?
+about-stay-in-touch = Como estar em contato?
+about-stay-in-touch-button = Inscrever-se
 about-stay-in-touch-text-1 = <emailFragment>Inscreva-se</emailFragment> em nossa lista de emails para saber como você pode participar de campanhas, eventos e recursos de design cooperativo no Common Voice.
 about-stay-in-touch-text-2 = Você pode conhecer outras pessoas nas comunidades de idioma da Mozilla, juntando-se ao <discourseLink>Discourse</discourseLink> para conversas sobre tópicos, ou ao <matrixLink>Matrix</matrixLink> para aconselhamento rápido.
 about-nav-why-common-voice = Por quê?
@@ -553,9 +562,20 @@ about-playbook-what-is-language-content-3 = Alguns idiomas têm uma enorme varia
 
 about-playbook-how-add-language = Como adicionar um idioma?
 about-playbook-how-add-language-content-1 = Primeiro, verifique se seu idioma <languageLink>já existe</languageLink>. Se não existir, você precisa <strong>traduzir o site e coletar frases</strong>.
-about-playbook-how-add-language-content-2 = <strong>Para traduzir o site</strong>, <translateVideo>cadastre-se</translateVideo>  no <pontoonLink>Pontoon</pontoonLink>. O Pontoon tem muitos idiomas, mas se não tiver o seu, você pode <pontoonRequestLink>solicitar</pontoonRequestLink>. Depois peça <repoLink>via GitHub</repoLink> para disponibilizar o projeto Common Voice no idioma. Saiba mais sobre <localizationFragment>tradução do site</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Para coletar frases</strong>, <scVideo>cadastre-se</scVideo> no <scLink>Coletor de frases</scLink>.
-about-playbook-how-add-language-content-4 = Você pode <scLinkAdd>adicionar pequenas quantidades</scLinkAdd> de frases aqui, ou pode fazer <bulkImportDocsLink>importação em massa</bulkImportDocsLink> por meio de uma requisição do Github. Lembre que as frases precisam ser <licenseLink>CC0 (ou de domínio público)</licenseLink>, ou você pode escrever suas próprias. Saiba mais sobre <scFragment>coleta de frases</scFragment>.
+about-playbook-how-add-language-translating-heading = Tradução do site
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Assista ao nosso guia sobre como usar o Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Usamos uma ferramenta da Mozilla chamada <pontoonLink>Pontoon</pontoonLink> para traduções. O Pontoon tem muitos idiomas,
+    mas se não tiver o seu, você pode <pontoonRequestLink>solicitar que seu idioma seja adicionado</pontoonRequestLink>.
+    Em seguida, para disponibilizar o idioma no projeto Common Voice,
+    <githubRepoLink>solicite o novo idioma no GitHub</githubRepoLink>. <localizationFragment>Veja mais sobre tradução do site</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Coleta de frases
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Assista ao nosso guia sobre como usar o coletor de frases</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Você pode <sentenceCollectorLinkAdd>adicionar pequenas quantidades de frases</sentenceCollectorLinkAdd>,
+    ou pode fazer <bulkImportDocsLink>importação em massa usando o Github</bulkImportDocsLink>.
+    Lembre que as frases precisam ter <licenseLink>licença CC0 (ou ser de domínio público)</licenseLink>, ou você pode escrever suas próprias.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Veja mais sobre coleta de frases</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -619,12 +639,6 @@ about-playbook-how-project-governance-content-4 = Participação e tomada de dec
 about-playbook-how-project-governance-content-5 = Valorização e reconhecimento.
 about-playbook-how-project-governance-content-6 = Responsabilidade mútua.
 about-playbook-how-project-governance-content-7 = <governanceLink>Mais informações sobre nossos critérios de gerenciamento do projeto</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Inteligência artificial
-mycroft-description =
-    Mycroft é o primeiro assistente mundial de código aberto.
-    Mycroft funciona em qualquer lugar - em um computador de mesa, dentro de um automóvel, ou em um Raspberry Pi.
-mycroft-secondary-description = Este é um software de código aberto que pode ser livremente remixado, estendido e aprimorado. O Mycroft pode ser usado em qualquer coisa, desde um projeto científico até uma aplicação de software empresarial.
 
 ## Glossary
 
@@ -683,6 +697,7 @@ review-delete-recordings = Excluir minhas gravações
 
 ## Datasets Page
 
+datasets-heading = Conjuntos de dados
 datasets-headline = Estamos construindo um conjunto de dados de voz multi-idioma, de código aberto, que qualquer pessoa pode usar para treinar aplicações habilitadas para voz.
 datasets-positioning =
     Acreditamos que grandes conjuntos de dados de voz, disponíveis publicamente, irão fomentar a inovação e a competição comercial saudável em tecnologias de voz baseadas em aprendizado de máquina.
@@ -713,8 +728,8 @@ dataset-description-hours =
     Cada entrada no conjunto de dados consiste de um MP3 único e o correspondente arquivo de texto. Muitas das <b> { $total }</b> horas gravadas no conjunto de dados também incluem metadados demográficos, como idade, sexo e sotaque, que podem ajudar a treinar a precisão de mecanismos de reconhecimento de voz.
     
     O conjunto de dados atualmente consiste de <b>{ $valid }</b> horas validadas em <b>{ $languages }</b> idiomas, mas estamos sempre adicionando mais vozes e idiomas. Dê uma olhada em nossa <languagesLink>página de idiomas</languagesLink> para solicitar um idioma ou começar a contribuir.
-want-dataset-update = Quer receber avisos quando lançarmos novas versões do conjunto de dados do Common Voice? Assine nosso boletim informativo.
-subscribe = Assinar
+want-dataset-update = Quer receber avisos quando lançarmos novas versões do conjunto de dados do Common Voice? Inscreva-se em nosso boletim informativo.
+subscribe = Inscrever-se
 get-started-speech = Introdução ao reconhecimento de voz
 other-datasets = Outros conjuntos de dados de voz
 feedback-q = Quer fazer comentários?
@@ -767,6 +782,44 @@ request-language-success-content = Nós entraremos em contato com mais informaç
 select-language = Selecionar um idioma...
 other-language = Outro idioma
 
+## Request Language Pages
+
+request-language-heading = Pergunte sobre um novo idioma
+request-language-explanation-1 =
+    Verifique se seu idioma está listado na
+    <languagesPageLink>página de idiomas do Common Voice</languagesPageLink>.
+    Se não estiver, preencha este formulário e <strong>enviaremos um email útil
+    explicando como ter seu idioma configurado</strong>.
+request-language-explanation-2 =
+    Também <strong>informaremos nossos gerentes de comunidade
+    que você está interessado</strong>, para que possam lhe dar qualquer
+    suporte ou informações adicionais que você precisar.
+request-language-form-email =
+    .label = Seu endereço de email
+request-language-form-info =
+    .label = Informações sobre o idioma
+request-language-form-info-explanation = Adicione o máximo de informações que puder sobre o idioma. Pode incluir:
+request-language-form-info-explanation-list-1 = Nomes do seu idioma
+request-language-form-info-explanation-list-2 = <isoCodeLink>Códigos ISO</isoCodeLink> se souber
+request-language-form-info-explanation-list-3 = Links para sites que podem nos ajudar a entender o idioma
+request-language-google-recaptcha-required = O reCAPTCHA é necessário se você quiser continuar
+request-language-google-recaptcha-error = Algo deu errado com o reCAPTCHA. Tente novamente.
+# Success page
+request-language-success-heading = Obrigado! Você enviou uma nova consulta de idioma
+request-language-success-list-1 =
+    Você deve receber um email em breve explicando
+    as etapas para ter seu idioma adicionado ao Common Voice
+request-language-success-list-2 =
+    Nossos gerentes de comunidade entrarão em contato com você para oferecer
+    suporte extra, ou te informar se já existir uma comunidade trabalhando em seu idioma
+request-language-success-list-3 =
+    Se você não tiver notícias nossas dentro de alguns dias,
+    mande uma mensagem para <emailLink>{ $email }</emailLink>
+    e retornaremos o contrato!
+request-language-error =
+    Podemos não ter recebido esta solicitação. Envie um email diretamente
+    para <emailLink>{ $email }</emailLink> e entraremos em contato com você!
+
 ## Languages Overview
 
 language-section-in-progress = Em andamento
@@ -782,11 +835,12 @@ language-search-input =
 language-speakers = Falantes
 localized = Traduzido
 sentences = Frases
-total-hours = Total de horas
+language-validation-hours = Horas
+language-validation-progress = Progresso da validação
 
 ## Contribution
 
-action-click = Clique
+action-click = Clique em
 action-tap = Toque
 contribute = Contribua
 listen = Ouvir
@@ -1193,7 +1247,7 @@ sc-howto-review-criteria-2 = A frase deve estar gramaticalmente correta.
 sc-howto-review-criteria-3 = Deve ser possível pronunciar a frase.
 sc-howto-review-criteria-4 = Se a frase atender aos critérios, clique no botão "Aprovar".
 sc-howto-review-criteria-5 = Se a frase não atender aos critérios acima, clique no botão "Rejeitar". Se não tiver certeza sobre a frase, você também pode pular e passar para a próxima.
-sc-howto-review-criteria-6 = Se você ficar sem frases para revisar, ajude-nos a coletar mais frases!
+sc-howto-review-criteria-6 = Se você não tiver mais frases para revisar, ajude-nos a coletar mais frases!
 sc-howto-findpd-title = Encontrando frases existentes em domínio público
 sc-howto-findpd-subtitle = Procurar na internet
 sc-howto-findpd-text-2 = Lembre que precisamos de permissão para publicar essas frases, portanto sempre verifique se o texto pertence ao <wikipediaLink>domínio público</wikipediaLink>. Se não houver indicação explícita, entre em contato com a pessoa a quem o texto pertence e pergunte se ela quer contribuir com seu texto para o domínio público. Se ela quiser, dê uma ajuda no processo do <cc0WaiverLink>Contrato de Contribuições</cc0WaiverLink>. Caso ela não queira contribuir com o texto, você não tem permissão de usar tal texto.
@@ -1441,7 +1495,6 @@ sc-review-link = Revisão
 
 sc-settings-title = Configurações
 sc-settings-ui-language = Idioma da interface
-sc-settings-language-translated-warning = As páginas deste idioma podem não estar totalmente traduzidas. Você pode ajudar na tradução no <pontoonLinkLink>Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Redefinir frases ignoradas
 sc-settings-skipped-decription = Anteriormente, você pulou frases durante a revisão. A redefinição de frases ignoradas faz com que todas elas sejam exibidas novamente. Isso independente do idioma.
 sc-settings-show-all-button = Mostrar novamente todas as frases ignoradas

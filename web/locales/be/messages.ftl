@@ -36,7 +36,6 @@ ba = Башкірская
 bas = Баса
 be = Беларуская
 bg = Балгарская
-bm = Бамбара
 bn = Бенгальская
 br = Брэтонская
 bxr = Бурацкая
@@ -458,15 +457,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Чаму Common Voice?
-about-subtitle = Common Voice — гэта адна з ініцыятыў Mozilla, прысвечаных таму, каб навучыць машыны голасу сапраўдных людзей. Акрамя набора дадзеных Common Voice, мы таксама распрацоўваем Deep Speech, рухавік распазнавання маўлення з адкрытым зыходным кодам.
-about-header-description =
-    Абодва гэтыя праекты – частка нашых намаганняў па выпраўленні хібаў ў сферы лічбавых маўленчых тэхналогій. Дэвайсы набываюць чалавечае вымярэнне, дзякуючы тэхналогіям распазнавання маўлення, але праграмістам патрабуецца велізарны аб'ём галасавых дадзеных для іх распрацоўкі. На сённяшні дзень большасць такіх дадзеных – прапрыетарныя і дарагія.
-    Мы хочам зрабіць галасавыя дадзеныя свабоднымі і агульнадаступнымі, а таксама забяспечыць іх разнастайнасць, як у сапраўдным жыцці. Разам мы можам зрабіць распазнаванне маўлення лепшым для кожнага.
-about-header-description-2 =
-    Гэты праект – частка нашых намаганняў па выпраўленні хібаў ў сферы лічбавых маўленчых тэхналогій. Дэвайсы набываюць чалавечае вымярэнне, дзякуючы тэхналогіям распазнавання маўлення, але праграмістам патрабуецца велізарны аб'ём галасавых дадзеных для іх распрацоўкі. На сённяшні дзень большасць такіх дадзеных – прапрыетарныя і дарагія.
-    Мы хочам зрабіць галасавыя дадзеныя свабоднымі і агульнадаступнымі, а таксама забяспечыць іх разнастайнасць, як у сапраўдным жыцці. Разам мы можам зрабіць распазнаванне маўлення лепшым для кожнага.
-how-does-it-work-title = Як гэта працуе?
+how-does-it-work-title-v2 = Як працуе Common Voice?
 how-does-it-work-text = Мы збіраем адкрыты набор галасавых дадзеных. Ахвяруйце свой голас, правярайце якасць запісаў, зробленых іншымі ўдзельнікамі, і рабіце набор дадзеных лепшым для кожнага.
+
+## How does it work section
+
+about-language-req-subtitle = Нехта просіць дадаць мову.
+about-localization-title = Лакалізацыя вэб-сайта
+about-localization-subtitle = Тэкст вэб-сайта перакладаецца на гэтую мову.
+about-sentence-collection-title = Збор сказаў
+about-sentence-collection-subtitle = Збiраюцца сказы для чытання ўслых.
+about-new-lang-title = Запуск новай мовы
+about-new-lang-subtitle = Мы запускаем сайт Common Voice на гэтай мове.
+about-voice-contrib-title = Унёсак голасу
+about-voice-contrib-subtitle = Людзi прыходзяць i запiсваюць свае галасы.
+about-voice-validation-title = Праверка запiсаў
+about-voice-validation-subtitle = Іншыя людзі правяраюць гэтыя галасавыя кліпы.
+about-dataset-release-title = Выпуск набору дадзеных
+about-dataset-release-subtitle = Мы выпускаем набор дадзеных кожныя 3 месяцы.
+about-subscribe-text = Хочаце заставацца на сувязі з Common Voice?
 about-speak = Агучванне
 about-speak-text = Удзельнікі запісваюць галасавыя кліпы, агучваючы ахвяраваныя сказы.
 about-listen-queue = Чарга праслухоўвання
@@ -493,10 +502,50 @@ about-get-involved = Прыняць удзел
 about-get-involved-text-2 =
     Хочаце дапамагчы зрабіць Common Voice яшчэ лепшым?
     Выдатна! Пішыце нам па электроннай пошце ці на форуме ў <discourseLink>Discourse</discourseLink>, паведамляйце пра праблемы праз <githubLink>GitHub</githubLink> ці далучайцеся да агульнага чата ў <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Як я магу заставацца на сувязi?
+about-stay-in-touch-button = Зарэгістравацца
+about-stay-in-touch-text-1 = <emailFragment>Далучайцеся</emailFragment> да нашага паштовага рассылання, каб даведацца, як вы можаце прымаць удзел у кампанiях, падзеях i распрацоўцы Common Voice.
+about-stay-in-touch-text-2 = Вы можаце пазнаёміцца з іншымі ў моўных супольнасцях Mozilla, далучыўшыся да <discourseLink>Discourse</discourseLink> для тэматычных размоў, або да <matrixLink>Matrix</matrixLink> каб атрымаць хуткую параду.
 about-nav-why-common-voice = Чаму?
 about-nav-how-it-works = Як?
 about-nav-partners = Партнёры
 about-nav-get-involved = Прыняць удзел
+about-nav-how-it-works-2 = Як працуе Common Voice?
+about-nav-playbook = Даведайцеся, як прыняць удзел
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+about-playbook-how-localize = Як працуе лакалізацыя сайта?
+about-playbook-how-localize-content-1 = Пераклад сайта Common Voice адбываецца ў <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Стварыце ўліковы запіс</pontoonAccountLink>, калі ў вас яго няма. Затым абярыце сваю моўную <strong>("Каманду")</strong>, а потым выберыце праект <pontoonCvLink>Common Voice</pontoonCvLink>. Там будуць файлы для перакладу. Пстрыкніце на адзiн з іх, пасля чаго будуць паказаны словы на англійскай мове і поле для іх перакладу.
+about-playbook-how-localize-content-3 = Пераклад выконваецца з ангельскай, але вы можаце ўбачыць <strong>Прапановы</strong> на іншых мовах. Націсніце на значок <strong>Профілю</strong>, затым спасылку <strong>Налады</strong> і дадайце ўсе мовы, якiмi вы валодаеце. У правым ніжнім куце будзе спіс перакладаў пад назвай <strong>Лакалi</strong>. Пераклады з'явяцца на сайце праз адзін дзень.
+about-playbook-how-localize-content-4 = Сайт гатовы да запуску, калі ён будзе перакладзены на 75%.
+about-playbook-how-localize-content-5 = Паглядзіце наш відэа-тлумачальнік для даведкi
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-title = Mycroft AI
 mycroft-subtitle = Штучны інтэлект
 mycroft-description =
@@ -644,6 +693,9 @@ request-language-success-title = Запыт мовы паспяхова адас
 request-language-success-content = У самым хуткім часе мы дашлем вам больш інфармацыі пра тое, як дадаць вашу мову ў Common Voice.
 select-language = Выберыце мову...
 other-language = Іншая мова
+
+## Request Language Pages
+
 
 ## Languages Overview
 
@@ -988,3 +1040,59 @@ contribution-just-unsure-title = Проста не ўпэўненыя?
 contribution-just-unsure-description = Калi вам трапiлася нешта не апiсанае ў гэтых iнструкцыях, калi ласка галасуйце адпаведна вашаму меркаванню. Калi вы сапраўды не можаце вырашыць, нацicнiце на кнопку пропуску i пераходзьце да наступнага запiсу.
 see-more = <chevron></chevron>Больш
 see-less = <chevron></chevron>Менш
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+

@@ -8,15 +8,10 @@ import * as Sentry from '@sentry/node';
 import * as Tracing from '@sentry/tracing';
 import { StatusCodes } from 'http-status-codes';
 import 'source-map-support/register';
-
 import { importLocales } from './lib/model/db/import-locales';
 import { importTargetSegments } from './lib/model/db/import-target-segments';
 import { scrubUserActivity } from './lib/model/db/scrub-user-activity';
 import Model from './lib/model';
-import {
-  getFullClipLeaderboard,
-  getFullVoteLeaderboard,
-} from './lib/model/leaderboard';
 import API from './lib/api';
 import { redis, useRedis, redlock } from './lib/redis';
 import { APIError, ClientError, getElapsedSeconds } from './lib/utility';
@@ -26,8 +21,7 @@ import authRouter from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
 import { createTaskQueues, TaskQueues } from './lib/takeout';
 import getCSPHeaderValue from './csp-header-value';
-
-const contributableLocales = require('locales/contributable.json');
+import { ValidationError } from 'express-json-validator-middleware';
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version';
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
@@ -97,6 +91,7 @@ export default class Server {
         );
       },
     };
+    app.use(express.json());
 
     // Enable Sentry request handler
     app.use(Sentry.Handlers.requestHandler());
@@ -137,11 +132,6 @@ export default class Server {
 
       app.use(express.static(FULL_CLIENT_PATH, staticOptions));
 
-      app.use(
-        '/contribute.json',
-        express.static(path.join(__dirname, '..', '..', 'contribute.json'))
-      );
-
       if (options.bundleCrossLocaleMessages) {
         this.setupCrossLocaleRoute();
       }
@@ -155,21 +145,31 @@ export default class Server {
 
       // Enable Sentry error handling
       app.use(Sentry.Handlers.errorHandler());
+      app.use(
+        (
+          error: any,
+          request: Request,
+          response: Response,
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
+          _next: NextFunction // this unused parameter must be included for error handling middleware
+        ) => {
+          console.error(error);
 
-      app.use((error: Error, request: Request, response: Response) => {
-        console.log(error.message, error.stack);
-        const isAPIError = error instanceof APIError;
-        if (!isAPIError) {
-          console.error(request.url, error.message, error.stack);
+          const isValidationError = error instanceof ValidationError;
+          if (isValidationError) {
+            return response.status(StatusCodes.BAD_REQUEST).json({
+              errors: error.validationErrors,
+            });
+          }
+
+          const isAPIError = error instanceof APIError;
+          return response
+            .status(error?.status || StatusCodes.INTERNAL_SERVER_ERROR)
+            .json({
+              message: isAPIError ? error.message : 'Something went wrong',
+            });
         }
-        response
-          .status(
-            error instanceof ClientError
-              ? StatusCodes.BAD_REQUEST
-              : StatusCodes.INTERNAL_SERVER_ERROR
-          )
-          .json({ message: isAPIError ? error.message : '' });
-      });
+      );
     }
   }
 
@@ -319,9 +319,8 @@ export default class Server {
     this.listen();
     const { ENVIRONMENT } = getConfig();
 
-    if (!ENVIRONMENT || ENVIRONMENT === 'default') {
+    if (!ENVIRONMENT || ENVIRONMENT === 'local') {
       await this.performMaintenance(options.doImport);
-      // await this.warmUpCaches();
       return;
     }
 
@@ -334,6 +333,9 @@ export default class Server {
       'common-voice-maintenance-lock',
       1000 * 60 * 60 * 6 /* keep lock for 6 hours */
     );
+
+    console.log('lock acquired: ', lock?.resource?.toString());
+
     // we need to check again after the lock was acquired, as another instance
     // might've already migrated in the meantime
     if (await this.hasMigrated()) {
@@ -349,20 +351,6 @@ export default class Server {
     }
 
     await lock.unlock();
-    // await this.warmUpCaches();
-  }
-
-  async warmUpCaches() {
-    this.print('warming up caches');
-    const start = Date.now();
-    for (const locale of [null].concat(contributableLocales)) {
-      await this.model.getClipsStats(locale);
-      await this.model.getVoicesStats(locale);
-      await this.model.getContributionStats(locale);
-      await getFullVoteLeaderboard(locale);
-      await getFullClipLeaderboard(locale);
-    }
-    this.print(`took ${getElapsedSeconds(start)}s to warm up caches`);
   }
 
   /**

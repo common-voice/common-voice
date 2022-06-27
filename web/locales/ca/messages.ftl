@@ -17,6 +17,7 @@ not-available-abbreviation = N/D
 banner-error-slow-1 = Ens sap greu, el Common Voice està tardant a carregar-se, gràcies per l'interès.
 banner-error-slow-2 = La plataforma va molt carregada últimament, estem investigant els problemes i esperem solucionar-los aviat.
 banner-error-slow-link = Estat del projecte
+error-something-went-wrong = Hi ha hagut un problema
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -55,6 +56,7 @@ da = danès
 de = alemany
 dsb = baix sòrab
 dv = divehi
+dyu = julà
 el = grec
 en = anglès
 eo = esperanto
@@ -96,7 +98,7 @@ ki = kikuiu
 kk = kazakh
 km = khmer
 kmr = kurd del nord
-knn = konkani (devangari)
+knn = konkani (devanagari)
 ko = coreà
 kpv = komi
 kw = còrnic
@@ -120,15 +122,17 @@ mrj = mari occidental
 ms = malai
 mt = maltès
 my = birmà
-myv = mordovià erza
+myv = erzya
 nan-tw = taiwanès (min nan)
 nb-NO = Bokmål noruec
 ne-NP = nepalès
 nia = nias
 nl = neerlandès
 nn-NO = noruec nynorsk
+nso = sotho del nord
 nyn = nyankole
 oc = occità
+om = oromo
 or = oriya
 pa-IN = panjabi
 pap-AW = papiament (Aruba)
@@ -154,6 +158,7 @@ sl = eslovè
 so = somali
 sq = albanès
 sr = serbi
+st = sesotho
 sv-SE = suec
 sw = suahili
 syr = siríac
@@ -167,6 +172,7 @@ tk = turcman
 tl = tagal
 tok = toki pona
 tr = turc
+ts = xitsonga
 tt = tàtar
 tw = twi
 ty = tahitià
@@ -176,6 +182,7 @@ ug = uigur
 uk = ucraïnès
 ur = urdú
 uz = uzbek
+ve = tshivenda
 vec = vènet
 vi = vietnamita
 vot = vòtic
@@ -405,6 +412,7 @@ gravatar_not_found = No s'ha trobat cap Gravatar per a la vostra adreça electr�
 file_too_large = El fitxer seleccionat és massa gran
 avatar-uploaded = S'ha pujat l'avatar
 max-file-size = Màxim { $kb } kB
+remove-avatar = Elimina l'avatar
 
 ## Profile - Email
 
@@ -465,7 +473,7 @@ faq-why-not-ask-read-a = Perquè el conjunt de dades del Common Voice sigui el m
 faq-why-account-q = Per què hauria de crear un compte?
 faq-is-account-public-q = La informació del meu compte és pública?
 faq-how-privacy-q = Com assegureu l'anonimat i la privadesa de les persones que han donat la veu?
-faq-how-privacy-a = La informació d'identificació personal se suprimeix de tots els talls de veu del conjunt de dades. Si un col·laborador proporciona dades demogràfiques en el seu perfil, aquesta informació s'anonimitza en el talls de veu abans d'incloure'ls en el conjunt de dades disponible per baixar, i aquesta informació no és mai pública en la seva pàgina de perfil.
+faq-how-privacy-a = La informació d'identificació personal se suprimeix de tots els talls de veu del conjunt de dades. Si un col·laborador proporciona dades demogràfiques en el seu perfil, aquesta informació s'anonimitza en els talls de veu abans d'incloure'ls en el conjunt de dades disponible per baixar, i aquesta informació no és mai pública en la seva pàgina de perfil.
 faq-what-determine-identity-q = Què vol dir que no puc «determinar la identitat» dels parlants en el conjunt de dades del Common Voice?
 faq-what-determine-identity-a =
     El conjunt de dades del Common Voice és un recurs obert i disponible públicament que es pot utilitzar per entrenar una àmplia varietat d’aplicacions que utilitzin la veu. Per protegir la seguretat dels nostres col·laboradors, demanem a tothom qui baixi el conjunt de dades del Common Voice que respecti la privadesa dels col·laboradors.
@@ -527,8 +535,9 @@ about-partnership =
 about-get-involved = Col·laboreu-hi
 about-get-involved-text-2 =
     Voleu ajudar a millorar el Common Voice?
-    Genial! Poseu-vos en contacte per correu electrònic o pels fòrums del <discourseLink>Discourse</discourseLink>, notifiqueu problemes en el <githubLink>GitHub</githubLink> o uniu-vos al nostre xat de la comunitat en el <matrixLink>Matrix</matrixLink>
+    Genial! Poseu-vos en contacte per correu electrònic o pels fòrums del <discourseLink>Discourse</discourseLink>, notifiqueu problemes en el <githubLink>GitHub</githubLink> o uniu-vos al nostre xat de la comunitat a <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Com em puc mantenir en contacte?
+about-stay-in-touch-button = Registre
 about-stay-in-touch-text-1 = <emailFragment>Registreu-vos</emailFragment> a la nostra llista de correu per a saber com podeu participar en campanyes, esdeveniments i funcions de disseny conjunt a Common Voice.
 about-stay-in-touch-text-2 = Podeu conèixer altres persones en les comunitats lingüístiques de Mozilla unint-vos a <discourseLink>Discourse</discourseLink> per a converses d'actualitat, o a <matrixLink>Matrix</matrixLink> per obtenir un consell ràpid.
 about-nav-why-common-voice = Per què?
@@ -640,9 +649,9 @@ de-identified-explanation = Procés pel qual la informació del perfil d'un col�
 ## Error pages
 
 error-title-404 = No s’ha trobat aquesta pàgina
-error-content-404 = Potser us pot ajudar la nostra <homepageLink>pàgina d'inici</homepageLink>? Si teniu alguna pregunta, uniu-vos al <matrixLink>xat de la comunitat en el Matrix</matrixLink>, superviseu els problemes del lloc mitjançant el <githubLink>GitHub</githubLink> o visiteu els nostres <discourseLink>fòrums del Discourse</discourseLink>.
+error-content-404 = Potser us pot ajudar la nostra <homepageLink>pàgina d'inici</homepageLink>? Si teniu alguna pregunta, uniu-vos al <matrixLink>xat de la comunitat a Matrix</matrixLink>, superviseu els problemes del lloc mitjançant el <githubLink>GitHub</githubLink> o visiteu els nostres <discourseLink>fòrums del Discourse</discourseLink>.
 error-title-503 = El lloc web no està disponible temporalment
-error-content-503 = El lloc tornarà a estar disponible al més aviat possible. Per veure la informació més actual, uniu-vos al <matrixLink>xat de la comunitat en el Matrix</matrixLink>, o visiteu el <githubLink>GitHub</githubLink> o els nostres <discourseLink>fòrums del Discourse</discourseLink> per enviar i supervisar els problemes que experimenteu en el lloc.
+error-content-503 = El lloc tornarà a estar disponible al més aviat possible. Per veure la informació més actual, uniu-vos al <matrixLink>xat de la comunitat a Matrix</matrixLink>, o visiteu el <githubLink>GitHub</githubLink> o els nostres <discourseLink>fòrums del Discourse</discourseLink> per enviar i supervisar els problemes que experimenteu en el lloc.
 error-code = Error { $code }
 
 ## Data
@@ -680,6 +689,7 @@ review-delete-recordings = Suprimeix els meus enregistraments
 
 ## Datasets Page
 
+datasets-heading = Conjunts de dades
 datasets-headline = Estem creant un conjunt de dades de veus obert i multilingüe que tothom pot utilitzar per entrenar aplicacions que utilitzin la veu.
 datasets-positioning =
     Creiem que uns conjunts de dades grans i disponibles públicament promouran la innovació i la competència comercial sana en la tecnologia de la veu basada en l'aprenentatge automàtic.
@@ -697,11 +707,11 @@ audio-format = Format d'àudio
 number-of-voices = Nombre de veus
 splits = Divisions
 email-to-download = Introduïu l'adreça electrònica per baixar
-why-email = <b>Per què una adreça electrònica?</ b> És una forma de contacte en cas que ens haguéssim de posar en contacte en un futur per canvis en el conjunt de dades.
-confirm-size = Estic preparat per a iniciar una baixada de <b>{ $size }</ b>
+why-email = <b>Per què una adreça electrònica?</b> És una forma de contacte en cas que ens haguéssim de posar en contacte en un futur per canvis en el conjunt de dades.
+confirm-size = Estic preparat per a iniciar una baixada de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Accepto</ b> no intentar determinar la identitat dels parlants del conjunt de dades del Common Voice
+confirm-no-identify = <b>Accepto</b> no intentar determinar la identitat dels parlants del conjunt de dades del Common Voice
 download-language = Baixa ({ $language })
 validated-hours = Hores validades
 recorded-hours = Hores enregistrades
@@ -762,7 +772,48 @@ request-language-form-language =
 request-language-success-title = La sol·licitud de llengua s'ha enviat correctament, gràcies.
 request-language-success-content = Aviat ens posarem en contacte amb més informació sobre com afegir la vostra llengua al Common Voice.
 select-language = Seleccioneu una llengua...
-other-language = Un altra llengua
+other-language = Una altra llengua
+
+## Request Language Pages
+
+request-language-heading = Demana d'afegir una llengua
+request-language-explanation-1 =
+    Comproveu si la vostra llengua apareix llistada en la
+    <languagesPageLink>pàgina de llengües del Common Voice</languagesPageLink>.
+    Si no, ompliu aquest formulari i us enviarem un correu electrònic
+    explicant com afegir la vostra llengua</strong>.
+request-language-explanation-2 =
+    També <strong>informarem el nostre gestor de comunitats
+    que hi teniu interès</strong>, perquè us pugui donar qualsevol
+    suport addicional o informació que necessiteu.
+request-language-form-email =
+    .label = La vostra adreça electrònica
+request-language-form-info =
+    .label = Informació sobre la llengua
+request-language-form-info-explanation =
+    Afegiu tanta informació com pugueu sobre la llengua. Això
+    podria incloure:
+request-language-form-info-explanation-list-1 = Noms de la vostra llengua
+request-language-form-info-explanation-list-2 = <isoCodeLink>Codis ISO</isoCodeLink> si els coneixeu
+request-language-form-info-explanation-list-3 = Enllaços a llocs web que ens poden ajudar a entendre la llengua
+request-language-google-recaptcha-required = reCAPTCHA és necessari si voleu continuar
+request-language-google-recaptcha-error = S'ha produït un error amb reCAPTCHA. Torneu-ho a provar més tard.
+# Success page
+request-language-success-heading = Gràcies! Heu enviat una nova consulta de llengua
+request-language-success-list-1 =
+    Ben aviat hauríeu de rebre un correu electrònic explicant
+    els passos per a afegir la vostra llengua al Common Voice
+request-language-success-list-2 =
+    El nostre gestor de comunitats es posarà en contacte amb vós
+    per a oferir-vos suport addicional i per a fer-vos saber si
+    ja hi ha una comunitat que treballi en la vostra llengua
+request-language-success-list-3 =
+    Si no sabeu res de nosaltres en un parell de dies,
+    contacteu via <emailLink>{ $email }</emailLink>
+    i ens posarem en contacte amb vós!
+request-language-error =
+    Potser no hem rebut aquesta sol·licitud. Envieu-nos un correu electrònic
+    directament a <emailLink>{ $email }</emailLink> i us respondrem!
 
 ## Languages Overview
 
@@ -811,7 +862,7 @@ record-error-too-short = L'enregistrament és massa curt.
 record-error-too-long = L'enregistrament és massa llarg.
 record-error-too-quiet = El volum de l'enregistrament és massa baix.
 record-cancel = Cancel·la el reenregistrament
-record-instruction = { $actionType } <recordIcon></recordIcon>i llegiu la frase en veu alta
+record-instruction = { $actionType } <recordIcon></recordIcon> i llegiu la frase en veu alta
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> quan hàgiu acabat
 record-three-more-instruction = Només en falten tres!
 record-again-instruction = Molt bé! <recordIcon></recordIcon> Enregistreu un altre tall
@@ -833,6 +884,9 @@ listen-again-instruction = Bona feina! <playIcon></playIcon> Escolteu una altra 
 listen-3rd-time-instruction = 2 menys! Mantingueu el ritme! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> L'últim!
 listen-empty-state = No hi ha cap més tall per validar en aquesta llengua...
+listen-loading-error =
+    No hem pogut cap tall de veu perquè el reviseu.
+    Torneu a intentar-ho més tard.
 speak-empty-state = No hi ha cap més frase per enregistrar en aquesta llengua...
 speak-empty-state-cta = Aporteu frases
 speak-loading-error =
@@ -943,25 +997,25 @@ help-reach-hours-general-pluralized =
 set-a-goal = Defineix un objectiu
 cant-decide = No sabeu què fer?
 activity-needed-calculation-plural =
-    Si { NUMBER($people) ->
-        [one] { $people } persona enregistra
-       *[other] { $people } persones enregistren
+    { NUMBER($people) ->
+        [one] Si { $people } persona enregistra
+       *[other] Si { $people } persones enregistren
     } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } tall
-       *[other] { $clipsPerDay } talls
-    } per dia, es pot arribar a { NUMBER($totalHours) ->
-        [one] { $totalHours } hora
-       *[other] { $totalHours } hores
-    } en poc més { NUMBER($periodMonths) ->
-        [one] d'{ $periodMonths } mes
-        [11] d'{ $periodMonths } mesos
-       *[other] de { $periodMonths } mesos
+        [one] { $clipsPerDay } tall per dia, es pot arribar a
+       *[other] { $clipsPerDay } talls per dia, es pot arribar a
+    } { NUMBER($totalHours) ->
+        [one] { $totalHours } hora en poc més
+       *[other] { $totalHours } hores en poc més
+    } { NUMBER($periodMonths) ->
+        [one] d'{ $periodMonths } mes.
+        [11] d'{ $periodMonths } mesos.
+       *[other] de { $periodMonths } mesos.
     }
 how-many-per-day = Genial! Quants talls per dia?
 how-many-a-week = Genial! Quants talls per setmana?
 which-goal-type = Genial! Voleu parlar, escoltar o totes dues coses?
-receiving-emails-info = Actualment teniu configurat rebre correus electrònics, com ara recordatoris d’objectius, actualitzacions del vostre progrés i butlletins de notícies sobre el Common Voice.
-not-receiving-emails-info = Actualment <bold>NO</bold> rebeu correus electrònics com ara recordatoris dels objectius, actualitzacions del progrés personal o notícies sobre el Common Voice
+receiving-emails-info = Actualment, teniu configurat rebre correus electrònics, com ara recordatoris d’objectius, actualitzacions del vostre progrés i butlletins de notícies sobre el Common Voice
+not-receiving-emails-info = Actualment, <bold>NO</bold> rebeu correus electrònics com ara recordatoris dels objectius, actualitzacions del progrés personal o notícies sobre el Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } tall
@@ -1018,7 +1072,7 @@ download-requests = Anteriors sol·licituds de baixada d'enregistraments
 download-requests-info = En sol·licitar els enregistraments, els compilem en un o diversos arxius ZIP. Aquí teniu les sol·licituds anteriors:
 download-request-button = Baixa
 download-request-title = { $created }
-download-request-description = { $clipCount } talls de veu, mida total de l'arxiu: { $size }. Caduca: { $expires }
+download-request-description = { $clipCount } talls de veu, mida total de l'arxiu: { $size }. Caduca: { $expires }.
 download-request-archive-single = Un únic arxiu ZIP que conté
 download-request-archive-multiple = Dividit en { $archiveCount } arxius ZIP que contenen
 download-request-assembling-description = S'estan recopilant els vostres fitxers. Torneu a comprovar-ho més endavant.
@@ -1086,7 +1140,7 @@ contribution-misreadings-description-extended-list-1 = Canviar una paraula per u
 contribution-misreadings-description-extended-list-2 = Canviar alguna forma verbal. Per exemple, fer «cantéssim» en comptes de «cantessin».
 contribution-misreadings-description-extended-list-3 = Fer contraccions o elisions que no es troben en el text, o viceversa. Per exemple, fer «el oncle» en comptes de «l'oncle», o fer «'nant» en comptes d'«anant».
 contribution-misreadings-description-extended-list-4 = Ometre el final de l'última paraula, en tallar l'enregistrament massa ràpid.
-contribution-misreadings-description-extended-list-5 = Fer múltiples intents per a llegir una paraula
+contribution-misreadings-description-extended-list-5 = Fer múltiples intents per a llegir una paraula.
 contribution-misreadings-example-1-title = Els grans dinosaures del Triàsic.
 contribution-misreadings-example-2-title = Els grans dinosaure del Triàsic.
 contribution-misreadings-example-2-explanation = [Hauria de ser «dinosaures»]
@@ -1111,7 +1165,7 @@ contribution-varying-pronunciations-example-2-explanation = [En català, «fixat
 contribution-background-noise-title = Soroll de fons
 contribution-background-noise-description = Volem que els algoritmes d’aprenentatge automàtic siguin capaços de manejar diversos sorolls de fons. Es poden acceptar sorolls relativament forts, sempre que no impedeixin escoltar la totalitat del text. La música de fons tranquil·la està bé; la música prou forta, que eviti que sentiu totes les paraules, no ho és.
 contribution-background-noise-description-extended = Si l'enregistrament es talla, o fa espetecs, rebutgeu-lo. Llevat que es pugui sentir la totalitat del text.
-contribution-background-noise-example-1-fixed-title = <strong>[estornut]</strong> Els grans dinosaures del <strong>< tos ></strong> Triàsic.
+contribution-background-noise-example-1-fixed-title = <strong>[esternut]</strong> Els grans dinosaures del <strong>< tos ></strong> Triàsic.
 contribution-background-noise-example-2-fixed-title = Els grans dino <strong>[tos]</strong> del Triàsic.
 contribution-background-noise-example-2-explanation = [No se sent part del text]
 contribution-background-noise-example-3-fixed-title = <strong>[espetec]</strong> grans dinosaures de <strong>[espetec]</strong> -riàsic.
@@ -1218,7 +1272,7 @@ sc-my-submission = Tramesa: { $batchId }
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Font:  { $source }
 sc-my-delete = Suprimeix les frases seleccionades
-sc-my-deleting = S'estan suprimint les frases seleccionades
+sc-my-deleting = S'estan suprimint les frases seleccionades…
 sc-my-err-failed-delete = No s'han pogut suprimir les frases seleccionades… Torneu-ho a provar!
 
 ## REJECTED
@@ -1440,13 +1494,12 @@ sc-review-link = Revisa
 
 sc-settings-title = Paràmetres
 sc-settings-ui-language = Llengua de la interfície
-sc-settings-language-translated-warning = Les pàgines per aquesta llengua poden no estar acabades de traduir. Podeu ajudar amb les traduccions al <pontoonLinkLink>Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Restableix les frases omeses
-sc-settings-skipped-decription = Abans heu omès frases mentre les revisàveu. Si restabliu les frases omeses, es us tornaran a mostrar. Això és independent de la llengua.
+sc-settings-skipped-decription = Abans heu omès frases mentre les revisàveu. Si restabliu les frases omeses, se us tornaran a mostrar. Això és independent de la llengua.
 sc-settings-show-all-button = Mostra de nou totes les frases omeses
 sc-settings-failed = No s'ha pogut canviar la configuració. Torneu-ho a provar.
 # VALIDATION
-sc-validation-number-of-words = La frase ha de contenir entre 1 i 14 paraules.
+sc-validation-number-of-words = La frase ha de contenir entre 1 i 14 paraules
 sc-validation-no-numbers = La frase no pot contenir xifres
 sc-validation-no-symbols = La frase no pot contenir símbols
 sc-validation-no-abbreviations = La frase no pot contenir abreviatures

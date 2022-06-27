@@ -30,7 +30,6 @@
     & input,
     & button {
         height: 42px;
-        box-sizing: border-box;
     }
 
     & input {

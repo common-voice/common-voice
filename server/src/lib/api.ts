@@ -4,9 +4,14 @@ import * as bodyParser from 'body-parser';
 import { MD5 } from 'crypto-js';
 import { NextFunction, Request, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
+import { StatusCodes } from 'http-status-codes';
+import PromiseRouter from 'express-promise-router';
+const Transcoder = require('stream-transcoder');
+
 import { UserClient as UserClientType } from 'common';
+import rateLimiter from './rate-limiter-middleware';
 import { authMiddleware } from '../auth-router';
-import { getConfig, CommonVoiceConfig } from '../config-helper';
+import { getConfig } from '../config-helper';
 import Awards from './model/awards';
 import CustomGoal from './model/custom-goal';
 import getGoals from './model/goals';
@@ -16,22 +21,23 @@ import * as Basket from './basket';
 import Bucket from './bucket';
 import Clip from './clip';
 import Model from './model';
-import Prometheus from './prometheus';
-import { ClientParameterError } from './utility';
+import { APIError, ClientParameterError } from './utility';
+import Email from './email';
 import Challenge from './challenge';
-import { features } from 'common';
-import { taxonomies } from 'common';
 import Takeout from './takeout';
+import NotificationQueue, { uploadImage } from './queues/imageQueue';
 
-const Transcoder = require('stream-transcoder');
-
-const PromiseRouter = require('express-promise-router');
+import validate, {
+  jobSchema,
+  sentenceSchema,
+  sendLanguageRequestSchema,
+} from './validation';
 
 export default class API {
   model: Model;
   clip: Clip;
   challenge: Challenge;
-  metrics: Prometheus;
+  email: Email;
   private readonly s3: S3;
   private readonly bucket: Bucket;
   readonly takeout: Takeout;
@@ -40,7 +46,7 @@ export default class API {
     this.model = model;
     this.clip = new Clip(this.model);
     this.challenge = new Challenge(this.model);
-    this.metrics = new Prometheus();
+    this.email = new Email();
     this.s3 = AWS.getS3();
     this.bucket = new Bucket(this.model, this.s3);
     this.takeout = new Takeout(this.model.db.mysql, this.s3, this.bucket);
@@ -49,33 +55,16 @@ export default class API {
   getRouter(): Router {
     const router = PromiseRouter();
 
-    router.use(bodyParser.json());
-
-    router.use((request: Request, response: Response, next: NextFunction) => {
-      this.metrics.countRequest(request);
-      next();
-    }, authMiddleware);
-
+    router.use(authMiddleware);
     router.get('/metrics', (request: Request, response: Response) => {
-      this.metrics.countPrometheusRequest(request);
-
-      const { registry } = this.metrics;
-      response.type(registry.contentType).status(200).end(registry.metrics());
-    });
-
-    router.use((request: Request, response: Response, next: NextFunction) => {
-      this.metrics.countApiRequest(request);
-      next();
-    });
-
-    router.get('/golem', (request: Request, response: Response) => {
-      console.log('Received a Golem request', {
-        referer: request.header('Referer'),
-        query: request.query,
-      });
       response.redirect('/');
     });
 
+    router.get('/golem', (request: Request, response: Response) => {
+      response.redirect('/');
+    });
+
+    router.get('/job/:jobId', validate({ params: jobSchema }), this.getJob);
     router.get('/user_clients', this.getUserClients);
     router.post('/user_clients/:client_id/claim', this.claimUserClient);
     router.get('/user_client', this.getAccount);
@@ -98,19 +87,23 @@ export default class API {
 
     router.get('/language/accents/:locale?', this.getAccents);
     router.get('/language/variants/:locale?', this.getVariants);
+    router.post(
+      '/language/request',
+      // 10 requests per minute
+      rateLimiter('/language/request', { points: 10, duration: 60 }),
+      validate({ body: sendLanguageRequestSchema }),
+      this.sendLanguageRequest
+    );
 
-    router.get('/:locale/sentences', this.getRandomSentences);
+    router.get(
+      '/:locale/sentences',
+      validate({ query: sentenceSchema }),
+      this.getRandomSentences
+    );
     router.post('/skipped_sentences/:id', this.createSkippedSentence);
     router.post('/skipped_clips/:id', this.createSkippedClip);
 
-    router.use(
-      '/:locale?/clips',
-      (request: Request, response: Response, next: NextFunction) => {
-        this.metrics.countClipRequest(request);
-        next();
-      },
-      this.clip.getRouter()
-    );
+    router.use('/:locale?/clips', this.clip.getRouter());
 
     router.get('/contribution_activity', this.getContributionActivity);
     router.get('/:locale/contribution_activity', this.getContributionActivity);
@@ -118,7 +111,10 @@ export default class API {
     router.get('/requested_languages', this.getRequestedLanguages);
     router.post('/requested_languages', this.createLanguageRequest);
 
+    router.get('/languages', this.getAllLanguages);
+    router.get('/languages_all', this.getAllLanguages);
     router.get('/language_stats', this.getLanguageStats);
+    router.get('/stats/languages/', this.getLanguageStats);
 
     router.post('/newsletter/:email', this.subscribeToNewsletter);
 
@@ -128,7 +124,6 @@ export default class API {
 
     router.use('/challenge', this.challenge.getRouter());
 
-    router.get('/feature/:locale/:feature', this.getFeatureFlag);
     router.get('/bucket/:bucket_type/:path', this.getPublicUrl);
     router.get('/server_date', this.getServerDate);
 
@@ -139,37 +134,15 @@ export default class API {
     return router;
   }
 
-  getFeatureFlag = (
-    { params: { locale, feature } }: Request,
-    response: Response
-  ) => {
-    let featureResult = null;
-    const featureObj = features[feature];
-
-    try {
-      if (
-        featureObj &&
-        ((featureObj.taxonomy &&
-          taxonomies[featureObj.taxonomy] &&
-          taxonomies[featureObj.taxonomy].locales.includes(locale)) ||
-          featureObj.taxonomy === undefined) &&
-        getConfig()[featureObj.configFlag as keyof CommonVoiceConfig]
-      ) {
-        featureResult = featureObj;
-      }
-    } catch (e) {
-      console.log('error retrieving feature flag', e.message);
-    }
-
-    response.json(featureResult);
-  };
-
   getRandomSentences = async (request: Request, response: Response) => {
-    const { client_id, params } = request;
-    const count = this.getCountQueryParam(request) || 1;
+    const { client_id } = request;
+    const { locale } = request.params;
+
+    // the validator coerces count into a number but doesn't update the type
+    const count: number = (request.query.count as never) || 1;
     const sentences = await this.model.findEligibleSentences(
       client_id,
-      params.locale,
+      locale,
       count
     );
 
@@ -204,6 +177,10 @@ export default class API {
     } = request;
     await this.model.db.createSkippedClip(id, client_id);
     response.json({});
+  };
+
+  getAllLanguages = async (_request: Request, response: Response) => {
+    response.json(await this.model.getAllLanguages());
   };
 
   getLanguageStats = async (request: Request, response: Response) => {
@@ -251,11 +228,15 @@ export default class API {
     response.json(user ? userData : null);
   };
 
-  subscribeToNewsletter = async (request: Request, response: Response) => {
+  subscribeToNewsletter = async (
+    request: Request,
+    response: Response,
+    next: NextFunction
+  ) => {
     const { BASKET_API_KEY } = getConfig();
     if (!BASKET_API_KEY) {
-      response.json({});
-      return;
+      const basketError = new APIError('Unable to process request');
+      next(basketError);
     }
 
     const { email } = request.params;
@@ -282,67 +263,64 @@ export default class API {
   };
 
   saveAvatar = async (
-    { body, headers, params, user, client_id }: Request,
-    response: Response
+    { body, params, user, client_id }: Request,
+    response: Response,
+    next: NextFunction
   ) => {
     let avatarURL;
     let error;
-    switch (params.type) {
-      case 'default':
-        avatarURL = null;
-        break;
+    const { type: imageUploadType } = params;
+    if (imageUploadType === 'file') {
+      const rawImageData = body;
+      const prefix = (new Date().getUTCMilliseconds() * Math.random())
+        .toString(36)
+        .slice(-5);
+      const fileName = `${client_id}/${prefix}-avatar.jpeg`;
+      try {
+        const bucketName = getConfig().CLIP_BUCKET_NAME;
+        const job = await uploadImage({
+          key: fileName,
+          user,
+          imageBucket: bucketName,
+          client_id,
+          rawImageData,
+          s3: this.s3,
+        });
 
-      case 'gravatar':
-        try {
-          avatarURL =
-            'https://gravatar.com/avatar/' +
-            MD5(user.emails[0].value).toString() +
-            '.png';
-          await sendRequest(avatarURL + '&d=404');
-        } catch (e) {
-          if (e.name != 'StatusCodeError') {
-            throw e;
-          }
-          error = 'not_found';
-        }
-        break;
-
-      case 'file':
-        // Because avatar files are uploaded as public, this is a nominally
-        // unpredictable prefix to prevent easy guessing of avatar location
-        const prefix = (new Date().getUTCMilliseconds() * Math.random())
-          .toString(36)
-          .slice(-5);
-
-        let fileName = `${client_id}/${prefix}-avatar.jpeg`;
-        await this.s3
-          .upload({
-            Key: fileName,
-            Bucket: getConfig().CLIP_BUCKET_NAME,
-            Body: body,
-            ACL: 'public-read',
-          })
-          .promise();
-
-        avatarURL = this.bucket.getUnsignedUrl(
-          getConfig().CLIP_BUCKET_NAME,
-          fileName
+        if (!job) throw new Error('Upload cannot be completed');
+        return response.status(StatusCodes.CREATED).json({ id: job.id });
+      } catch (error) {
+        console.error(error);
+        next(
+          new APIError(
+            error?.message || 'Image could not be uploaded.',
+            StatusCodes.BAD_REQUEST
+          )
         );
-        break;
-
-      default:
-        response.sendStatus(404);
-        return;
+      }
+    } else if (params.type === 'default') {
+      avatarURL = null;
+    } else if (params.type === 'gravatar') {
+      try {
+        avatarURL =
+          'https://gravatar.com/avatar/' +
+          MD5(user.emails[0].value).toString() +
+          '.png';
+        await sendRequest(avatarURL + '&d=404');
+      } catch (e) {
+        if (e.name != 'StatusCodeError') {
+          next(e);
+        }
+        next(new APIError('Unable to use Gravatar'));
+      }
+    } else {
+      next(new APIError('Unable to process image'));
     }
-
-    if (!error) {
-      const oldAvatar = await UserClient.updateAvatarURL(
-        user.emails[0].value,
-        avatarURL
-      );
-      if (oldAvatar) await this.bucket.deleteAvatar(client_id, oldAvatar);
-    }
-
+    const oldAvatar = await UserClient.updateAvatarURL(
+      user.emails[0].value,
+      avatarURL
+    );
+    if (oldAvatar) await this.bucket.deleteAvatar(client_id, oldAvatar);
     response.json(error ? { error } : {});
   };
 
@@ -405,7 +383,7 @@ export default class API {
       let path = await UserClient.getAvatarClipURL(user.emails[0].value);
       path = path[0][0].avatar_clip_url;
 
-      let avatarclip = await this.bucket.getAvatarClipsUrl(path);
+      const avatarclip = await this.bucket.getAvatarClipsUrl(path);
       response.json(avatarclip);
     } catch (err) {
       response.json(null);
@@ -429,7 +407,7 @@ export default class API {
       const takeout_id = await this.takeout.startTakeout(request.client_id);
       response.json({ takeout_id });
     } catch (err) {
-      response.status(400).json(err.message);
+      response.status(StatusCodes.BAD_REQUEST).json(err.message);
     }
   };
 
@@ -483,10 +461,7 @@ export default class API {
     response.json({});
   };
 
-  insertDownloader = async (
-    { client_id, body }: Request,
-    response: Response
-  ) => {
+  insertDownloader = async ({ body }: Request, response: Response) => {
     await this.model.db.insertDownloader(body.locale, body.email, body.dataset);
     response.json({});
   };
@@ -494,7 +469,9 @@ export default class API {
   seenAwards = async ({ client_id, query }: Request, response: Response) => {
     await Awards.seen(
       client_id,
-      query.hasOwnProperty('notification') ? 'notification' : 'award'
+      Object.prototype.hasOwnProperty.call(query, 'notification')
+        ? 'notification'
+        : 'award'
     );
     response.json({});
   };
@@ -515,6 +492,24 @@ export default class API {
     response.json({ url });
   };
 
+  getJob = async (
+    { client_id, params: { jobId } }: Request,
+    response: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const job = await NotificationQueue.getJob(jobId);
+      //job is owned by current client
+      if (job && client_id === job.data.client_id) {
+        const { finishedOn } = job;
+        return response.json({ finishedOn });
+      }
+      throw new APIError('Invalid job request');
+    } catch (e) {
+      next(e);
+    }
+  };
+
   getServerDate = (request: Request, response: Response) => {
     // prevents contributors manipulating dates in client
     response.json(new Date());
@@ -532,20 +527,35 @@ export default class API {
     );
   };
 
-  private getCountQueryParam = (request: Request) => {
-    const { count } = request.query;
+  sendLanguageRequest = async (
+    request: Request,
+    response: Response,
+    next: NextFunction
+  ) => {
+    const { email, languageInfo, languageLocale } = request.body;
 
-    if (typeof count !== 'string') {
-      return null;
+    try {
+      const info = await this.email.sendLanguageRequestEmail({
+        email,
+        languageInfo,
+        languageLocale,
+      });
+
+      const json = {
+        id: info?.messageId,
+        email,
+        languageInfo,
+        languageLocale,
+      } as any; // eslint-disable-line @typescript-eslint/no-explicit-any
+
+      if (info?.emailPreviewURL) {
+        json.emailPreviewURL = info?.emailPreviewURL;
+      }
+
+      response.json(json);
+    } catch (e) {
+      console.error(e);
+      next(new Error('Something went wrong sending language request email'));
     }
-
-    const countNumberResult = parseInt(count, 10);
-
-    // handle if we don't have a number sent
-    if (Number.isNaN(countNumberResult)) {
-      return null;
-    }
-
-    return countNumberResult;
   };
 }

@@ -6,7 +6,8 @@
     "moduleResolution": "node",
     "inlineSources": true,
     "outDir": "dist",
-    "jsx": "react"
+    "jsx": "react",
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "test"]
 }

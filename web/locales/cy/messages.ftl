@@ -17,6 +17,7 @@ not-available-abbreviation = Dim Ar Gael
 banner-error-slow-1 = Ymddiheuriadau, mae Common Voice yn rhedeg yn araf. Diolch am eich cefnogaeth.
 banner-error-slow-2 = Rydym yn derbyn llawer o draffig ac ar hyn o bryd yn ymchwilio i'r materion.
 banner-error-slow-link = Tudalen Statws
+error-something-went-wrong = Ymddiheuriadau, aeth rhywbeth o'i le
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -55,6 +56,7 @@ da = Daneg
 de = Almaeneg
 dsb = Sorbeg Is
 dv = Dhivehi
+dyu = Dioula
 el = Groeg
 en = Saesneg
 eo = Esperanto
@@ -123,12 +125,16 @@ my = Byrmaneg
 myv = Erzya
 nan-tw = Taiwanëeg (Minnan)
 nb-NO = Bokmål Norwyeg
+nd = IsiNdebele (Gogleddol)
 ne-NP = Nepaleg
 nia = Nias
 nl = Iseldireg
 nn-NO = Norwyeg Nynorsk
+nr = IsiNdebele (Deheuol)
+nso = Sotho Gogleddol
 nyn = Nyankole
 oc = Occitaneg
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -154,6 +160,8 @@ sl = Slofeneg
 so = Somali
 sq = Albaneg
 sr = Serbeg
+ss = Siswati
+st = Sesotho
 sv-SE = Swedeg
 sw = Swahili
 syr = Syriac
@@ -165,8 +173,10 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmen
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Twrceg
+ts = Xitsonga
 tt = Tartareg
 tw = Twi
 ty = Tahiteg
@@ -176,15 +186,18 @@ ug = Uyghur
 uk = Wcraneg
 ur = Urdu
 uz = Wsbeceg
+ve = Tshivenda
 vec = Venetieg
 vi = Fietnameg
 vot = Votig
+xh = Xhosa
 yi = Iddeweg Almaenig
 yo = Yoruba
 yue = Cantonëeg
 zh-CN = Tsieinëeg (Tsiena)
 zh-HK = Tsieinëeg (Hong Kong)
 zh-TW = Tsieinëeg (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -326,7 +339,6 @@ shortcut-discard-ongoing-recording-label = Dileu'r recordio parhaus
 shortcut-submit = Nôl
 shortcut-submit-label = Cyflwyno clipiau
 request-language-text = Ddim yn gweld eich iaith ar Common Voice eto?
-request-language-text-learn = Dysgwch sut i ofyn amdano yma!
 request-language-button = Cais am Iaith
 
 ## ProjectStatus
@@ -423,6 +435,7 @@ gravatar_not_found = Dim gravatar wedi ei ganfod o'ch e-bost
 file_too_large = Mae'r ffeil yma'n rhy fawr
 avatar-uploaded = Llwythwyd yr afatar
 max-file-size = uchafswm o { $kb }kb
+remove-avatar = Dileu Avatar
 
 ## Profile - Email
 
@@ -465,7 +478,9 @@ faq-why-different-speakers-a =
     Mae'r rhan fwyaf o gronfeydd data llais wedi'u hyfforddi gyda gormod o ddemograffeg penodol sy'n arwain at ragfarn tuag at <articleLink>dynion dosbarth canol</articleLink>. Fel arfer, mae acenion a thafodieithoedd sy'n dueddol o gael eu tangynrychioli mewn hyfforddiant yn gosod setiau data yn adlewyrchu'r grwpiau o bobl sydd eisoes wedi'u hymyleiddio. Mae llawer o beiriannau hefyd yn cael trafferth i ddeall lleisiau merched.
     Dyna pam rydym eisiau amrywiaeth yn ein cronfa ddata llais!
 faq-why-my-lang-q = Pam nad yw fy iaith wedi'i chynnwys eto?
-faq-why-my-lang-new-a = Nid yw Mozilla yn dewis nac yn ffafrio unrhyw iaith o flaen un arall. Yn lle hynny, mae Common Voice yn fenter sy'n cael ei yrru dim ond gan y gymuned, ond mae'n cymryd <multilangLink> sawl cam i ychwanegu iaith newydd </multilangLink> a dechrau casglu cyfraniadau llais. Yn gyntaf, mae angen cyfieithu gwefan y Common Voice er mwyn i aelodau'r gymuned gael mynediad i brofiad cyfrannwr yn eu hiaith eu hunain. Nesaf, mae arnom angen casgliad mawr o frawddegau heb hawlfraint i bobl eu darllen allan. Unwaith y bydd y ddau ofyniad hynny wedi'u bodloni, caiff iaith ei "lansio" ar Common Voice i bobl ddechrau recordio eu llais a dilysu cyfraniadau pobl eraill. Os hoffech chi helpu lansio iaith newydd, ewch draw i'n <sentenceCollectorLink>teclyn casglu brawddegau</sentenceCollectorLink>i gychwyn arni.
+faq-why-my-lang-a =
+    Mae Common Voice yn blatfform torfoli, ac ychwanegwyd yr ieithoedd i gyd gan wirfoddolwyr.
+    Byddem wrth ein bodd pe gallech chi ychwanegu eich iaith! <languageRequestLink>Gofynnwch am ychwanegu eich iaith.</languageRequestLink>
 faq-what-quality-q = Pa lefel o ansawdd sain sydd ei angen ar gyfer clip llais i'w ddefnyddio yn y set ddata?
 faq-what-quality-a = Rydyn eisiau i set ddata Common Voice adlewyrchu ansawdd sain y bydd peiriant llais-i-destun yn ei glywed yn gyffredin, felly rydym yn chwilio am amrywiaeth. Yn ogystal â chymuned amrywiol o siaradwyr, bydd set ddata gydag ansawdd sain amrywiol yn dysgu'r peiriant llais-i-destun i drin gwahanol sefyllfaoedd o'r byd go iawn, o gefndir gyda siarad i sŵn ceir. Cyn belled â bod eich clip llais yn ddealladwy, dylai fod yn ddigon da i'r set ddata.
 faq-why-10k-hours-q = Pam mae 10,000 awr wedi'u dilysu y targed ar gyfer casglu sain iaith ?
@@ -535,12 +550,6 @@ about-dataset-new = Set Data Common Voice
 about-dataset-new-text = Mae Set Data Common Voice yn cynnwys cannoedd o filoedd o samplau lleisiau sy'n cynorthwyo datblygwyr i adeiladu offer adnabod lleisiau.
 about-clip-graveyard = Mynwent y Clipiau
 about-clip-graveyard-text = Mae Mynwent y Clipiau yn cynnwys clipiau llais sydd heb gyrraedd set ddata Common Voice. Fel gyda'r set ddata, mae'r Mynwent Clipiau ar gael i'w lwytho i lawr.
-about-partners = Partneriaid
-about-become-a-partner = Dod yn bartner
-about-partnership =
-    Mae Common Voice yn brosiect cydweithredol, ac rydym yn dibynnu ar ein cymuned o bartneriaid a chyfranwyr i adeiladu'r set ddata o leisiau cod agored fwyaf erioed.
-    
-    Hoffem ddiolch i'r bobl a'r sefydliadau canlynol am eu cymorth gyda'r prosiect:
 about-get-involved = Ymunwch
 about-get-involved-text-2 =
     Eisiau helpu i wneud Common Voice yn well fyth?
@@ -548,6 +557,7 @@ about-get-involved-text-2 =
     cyflwynwch adborth trwy <githubLink>GitHub</githubLink>, neu ymuno â ni
     ar lwyfan sgwrsio cymdeithasol <matrixLink>Matrix</matrixLink>
 about-stay-in-touch = Sut ydw i'n cadw mewn cysylltiad?
+about-stay-in-touch-button = Ymuno
 about-stay-in-touch-text-1 = <emailFragment>Cofrestrwch</emailFragment> i'n rhestr bostio i wybod sut y gallwch chi gymryd rhan mewn ymgyrchoedd, digwyddiadau ac i gyd-ddylunio nodweddion ar Common Voice.
 about-stay-in-touch-text-2 = Gallwch gwrdd ag eraill yng nghymunedau iaith Mozilla drwy ymuno â <discourseLink>Discourse</discourseLink> am sgyrsiau amserol, neu <matrixLink>Matrix</matrixLink> am gyngor cyflym.
 about-nav-why-common-voice = Pam ?
@@ -569,9 +579,20 @@ about-playbook-what-is-language-content-3 = Mae rhai ieithoedd yn amrywio'n fawr
 
 about-playbook-how-add-language = Sut mae modd i mi ychwanegu iaith?
 about-playbook-how-add-language-content-1 = Yn gyntaf, edrychwch i weld a yw eich iaith <languageLink>yn bodoli eisoes</languageLink>. Os nad ydyw, mae angen <strong>cyfieithu'r wefan a chasglu brawddegau</strong>.
-about-playbook-how-add-language-content-2 = <strong>I gyfieithu'r wefan</strong> - mae angen <translateVideo>eich gosod</translateVideo> ar <pontoonLink>Pontoon</pontoonLink>. Mae llawer o ieithoedd ar Pontoon, ond os nad yw eich un chi yno gallwch <pontoonRequestLink>ofyn iddi gael ei gosod yno</pontoonRequestLink>. Yna gofynnwch <repoLink>trwy GitHub</repoLink> i drefnu bod project Common Voice ar gael ar gyfer yr iaith. Mae rhagor i'w weld ar <localizationFragment>cyfieithu gwefan</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>I gasglu brawddegau</strong> - <scVideo>bydd angen i chi osod eich iaith</scVideo> ar y <scLink>Casglwr Brawddegau</scLink>.
-about-playbook-how-add-language-content-4 = Gallwch <scLinkAdd>ychwanegu niferoedd bach</scLinkAdd> o frawddegau yma, neu <bulkImportDocsLink>fewnforio swmp</bulkImportDocsLink> drwy gais Github. Cofiwch fod angen i frawddegau fod yn <licenseLink>CC0 (neu barth cyhoeddus)</licenseLink>, neu gallwch ysgrifennu rhai eich hun. Dyma ragor am <scFragment>gasglu brawddegau</scFragment>.
+about-playbook-how-add-language-translating-heading = Cyfieithwch y wefan hon
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Gwyliwch ein canllaw ar sut i ddefnyddio Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Rydym yn defnyddio rhaglen gan Mozilla o'r enw <pontoonLink>Pontoon</pontoonLink> ar gyfer cyfieithiadau. Mae gan Pontoon lawer o ieithoedd,
+    ond os nad yw wedi eich un chi gallwch <pontoonRequestLink>ofyn i'ch iaith gael ei hychwanegu</pontoonRequestLink>.
+    Yna, i drefnu i'r iaith fod ar gael ar broject Common Voice,
+    <githubRepoLink>gofynnwch am yr iaith newydd ar GitHub</githubRepoLink>. <localizationFragment>Gweld rhagor am gyfieithu'r wefan</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Casglu brawddegau
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Gwyliwch ein canllaw ar ddefnyddio'r Casglwr Brawddegau</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Gallwch <sentenceCollectorLinkAdd>ychwanegu niferoedd bach o frawddegau</sentenceCollectorLinkAdd>,
+    neu gallwch <bulkImportDocsLink>fewnforio swmp sylweddol gan ddefnyddio Github</bulkImportDocsLink>.
+    Cofiwch fod angen i frawddegau fod yn <licenseLink>CC0 (neu barth cyhoeddus)</licenseLink>, neu gallwch ysgrifennu rhai eich hun.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Gweld rhagor am gasglu brawddegau</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -635,12 +656,6 @@ about-playbook-how-project-governance-content-4 = Cyfranogiad a penderfyniadau c
 about-playbook-how-project-governance-content-5 = Gwerth a chydnabyddiaeth.
 about-playbook-how-project-governance-content-6 = Atebolrwydd ar y cyd.
 about-playbook-how-project-governance-content-7 = <governanceLink>Darllenwch ragor am sut rydyn ni'n cael ein llywodraethu</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Deallusrwydd artiffisial
-mycroft-description =
-    Mycroft yw cynorthwy-ydd cod agored cyntaf y byd.
-    Mae Mycroft yn rhedeg yn unrhyw le - ar gyfrifiadur bwrdd gwaith, o fewn car, neu ar Raspberry Pi.
-mycroft-secondary-description = Mae hwn yn feddalwedd cod agored y mae modd ei ail-gylchu, ei ymestyn a'i wella'n rhydd. Mae modd defnyddio Mycroft mewn unrhyw beth o brosiect gwyddoniaeth i raglen meddalwedd menter.
 
 ## Glossary
 
@@ -699,6 +714,7 @@ review-delete-recordings = Dileu fy recordiadau
 
 ## Datasets Page
 
+datasets-heading = Setiau Data
 datasets-headline = Rydym yn adeiladu setiau data o leisiau amlieithog y gall unrhyw un eu defnyddio i hyfforddi rhaglenni sy'n cael eu galluogi drwy lais.
 datasets-positioning =
     Rydym yn credu y bydd setiau data llais mawr, sydd ar gael yn gyhoeddus annog menter a chystadleuaeth fasnachol iach mewn technoleg llais wedi ei seilio ar ddysgu peirianyddol.
@@ -783,6 +799,48 @@ request-language-success-content = Byddwn mewn cysylltiad gyda rhagor o wybodaet
 select-language = Dewiswch iaith...
 other-language = Iaith Arall
 
+## Request Language Pages
+
+request-language-heading = Gofyn am iaith newydd
+request-language-explanation-1 =
+    Edrychwch i weld a yw eich iaith wedi'i rhestru ar 
+    <languagesPageLink>Dudalen Ieithoedd Common Voice</languagesPageLink>.
+    Os nad yw, llenwch y ffurflen hon a byddwn yn <strong>anfon e-bost defnyddiol atoch
+    yn esbonio sut i osod eich iaith</strong>.
+request-language-explanation-2 =
+    Byddwn hefyd yn <strong>rhoi gwybod i'n rheolwr cymunedol
+    bod gennych chi ddiddordeb</strong>, fel y gallan nhw roi
+    cymorth neu wybodaeth ychwanegol y gallai fod ei angen arnoch.
+request-language-form-email =
+    .label = Eich cyfeiriad e-bost
+request-language-form-info =
+    .label = Gwybodaeth am yr iaith
+request-language-form-info-explanation =
+    Ychwanegwch gymaint o wybodaeth ag y gallwch am yr iaith.
+    Gall
+    hyn gynnwys:
+request-language-form-info-explanation-list-1 = Enwau eich iaith
+request-language-form-info-explanation-list-2 = <isoCodeLink>Codau ISO</isoCodeLink> os yw'n hysbys
+request-language-form-info-explanation-list-3 = Dolenni i wefannau a all ein helpu i ddeall yr iaith
+request-language-google-recaptcha-required = Mae angen reCAPTCHA os ydych am fwrw ymlaen
+request-language-google-recaptcha-error = Aeth rhywbeth o'i le gyda'r reCAPTCHA. Ceisiwch eto.
+# Success page
+request-language-success-heading = Diolch! Rydych chi wedi anfon ymholiad iaith newydd
+request-language-success-list-1 =
+    Dylech dderbyn e-bost yn esbonio yn fuan
+    y camau i ychwanegu eich iaith at Common Voice
+request-language-success-list-2 =
+    Bydd ein rheolwr cymunedol yn cysylltu â chi i gynnig
+    cymorth ychwanegol, ac i roi gwybod i chi os oes yna
+    eisoes gymuned yn gweithio ar eich iaith
+request-language-success-list-3 =
+    Os na fyddwch yn clywed gennym o fewn ychydig ddyddiau,
+    cysylltwch â <emailLink>{ $email }</emailLink>
+    a byddwn yn dod yn cysylltu â chi!
+request-language-error =
+    Efallai na fyddwn wedi derbyn y cais hwnnw. Anfonwch e-bost atom yn uniongyrchol
+    ar <emailLink>{ $email }</emailLink> a byddwn yn cysylltu â chi!
+
 ## Languages Overview
 
 language-section-in-progress = Ar y Ffordd
@@ -798,7 +856,8 @@ language-search-input =
 language-speakers = Siaradwyr
 localized = Wedi ei leoleiddio
 sentences = Brawddegau
-total-hours = Cyfanswm Oriau
+language-validation-hours = Awr
+language-validation-progress = Y Broses Ddilysu
 
 ## Contribution
 
@@ -852,8 +911,14 @@ listen-again-instruction = Da iawn! <playIcon> </playIcon> Gwrandewch eto pan fy
 listen-3rd-time-instruction = 2 i lawr <playIcon> </playIcon> , daliwch ati!
 listen-last-time-instruction = <playIcon> </playIcon> Yr un olaf!
 listen-empty-state = Does dim rhagor o glipiau i'w dilysu yn yr iaith hon...
+listen-loading-error =
+    Does dim rhagor o glipiau sain i chi wrando arnyn nhw.
+    Ceisiwch eto, rhywbryd eto.
 speak-empty-state = Does dim rhagor o frawddegau i'w recordio yn yr iaith hon...
 speak-empty-state-cta = Cyfrannu brawddegau
+speak-loading-error =
+    Does dim rhagor o frawddegau i chi eu llefaru.
+    Ceisiwch eto, rhywbryd eto.
 record-button-label = Recordiwch eich llais
 share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
 keep-track-profile = Cadwch olwg ar eich cynnydd gyda phroffil
@@ -1539,7 +1604,6 @@ sc-review-link = Adolygu
 
 sc-settings-title = Gosodiadau
 sc-settings-ui-language = Iaith y Rhyngwyneb
-sc-settings-language-translated-warning = Efallai na yw'r tudalennau ar gyfer yr iaith hon wedi'u cyfieithu yn llawn. Gallwch chi helpu gyda'u cyfieithu <pontoonLinkLink>ar Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Ailosod brawddegau wedi'u hepgor
 sc-settings-skipped-decription = Yn y gorffennol, rydych wedi hepgor brawddegau wrth eu hadolygu. Bydd ailosod brawddegau wedi'u hepgor yn dangos pob brawddeg sydd wedi'i hepgor eto. Mae hyn yn annibynnol ar yr iaith.
 sc-settings-show-all-button = Dangos yr holl frawddegau wedi'u hepgor eto

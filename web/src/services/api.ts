@@ -1,13 +1,18 @@
-import { AllGoals, CustomGoalParams } from 'common';
-import { LanguageStats } from 'common';
-import { UserClient } from 'common';
-import { WeeklyChallenge, Challenge, TeamChallenge } from 'common';
-import { FeatureType } from 'common';
-import { Sentence, Clip } from 'common';
+import {
+  AllGoals,
+  CustomGoalParams,
+  LanguageStatistics,
+  Language,
+  UserClient,
+  WeeklyChallenge,
+  Challenge,
+  TeamChallenge,
+  Sentence,
+  Clip,
+} from 'common';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { USER_KEY } from '../stores/root';
-import * as Sentry from '@sentry/browser';
 
 interface FetchOptions {
   method?: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
@@ -15,7 +20,7 @@ interface FetchOptions {
   headers?: {
     [headerName: string]: string;
   };
-  body?: any;
+  body?: any; // eslint-disable-line @typescript-eslint/no-explicit-any
 }
 
 interface Vote extends Event {
@@ -42,6 +47,7 @@ export default class API {
     this.user = user;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   private async fetch(path: string, options: FetchOptions = {}): Promise<any> {
     const { method, headers, body, isJSON } = Object.assign(
       {
@@ -142,10 +148,6 @@ export default class API {
     });
   }
 
-  fetchValidatedHours(): Promise<number> {
-    return this.fetch(this.getClipPath() + '/validated_hours');
-  }
-
   fetchDailyClipsCount(): Promise<number> {
     return this.fetch(this.getClipPath() + '/daily_count');
   }
@@ -177,7 +179,11 @@ export default class API {
     });
   }
 
-  async fetchLanguageStats(): Promise<LanguageStats> {
+  async fetchAllLanguages(): Promise<Language[]> {
+    return this.fetch(`${API_PATH}/languages`);
+  }
+
+  async fetchLanguageStats(): Promise<LanguageStatistics[]> {
     return this.fetch(`${API_PATH}/language_stats`);
   }
 
@@ -263,6 +269,10 @@ export default class API {
           }
         : {}),
     }).then(body => JSON.parse(body));
+  }
+
+  getJob(jobId: number) {
+    return this.fetch(`${API_PATH}/job/${jobId}`);
   }
 
   saveAvatarClip(blob: Blob): Promise<void> {
@@ -353,6 +363,7 @@ export default class API {
     );
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   report(body: any) {
     return this.fetch(API_PATH + '/reports', {
       method: 'POST',
@@ -457,12 +468,6 @@ export default class API {
     return null;
   }
 
-  async getFeatureFlag(feature: string, locale: string): Promise<FeatureType> {
-    return this.fetch(`${API_PATH}/feature/${locale}/${feature}`, {
-      method: 'GET',
-    });
-  }
-
   getPublicUrl(path: string, bucketType: string): Promise<{ url: string }> {
     return this.fetch(`${API_PATH}/bucket/${bucketType}/${path}`, {
       method: 'GET',
@@ -479,5 +484,24 @@ export default class API {
 
   getVariants(lang?: string) {
     return this.fetch(`${API_PATH}/language/variants${lang ? '/' + lang : ''}`);
+  }
+
+  async sendLanguageRequest({
+    email,
+    languageInfo,
+    languageLocale,
+  }: {
+    email: string;
+    languageInfo: string;
+    languageLocale: string;
+  }) {
+    return this.fetch(`${API_PATH}/language/request`, {
+      method: 'POST',
+      body: {
+        email,
+        languageInfo,
+        languageLocale,
+      },
+    });
   }
 }

@@ -33,7 +33,7 @@ export default class Bucket {
       S3_LOCAL_DEVELOPMENT_ENDPOINT,
     } = getConfig();
 
-    const url = this.s3.getSignedUrl('getObject', {
+    let url = this.s3.getSignedUrl('getObject', {
       Bucket: bucketType === 'dataset' ? DATASET_BUCKET_NAME : CLIP_BUCKET_NAME,
       Key: key,
       Expires: 60 * 60 * 12,
@@ -41,7 +41,10 @@ export default class Bucket {
 
     if (ENVIRONMENT === 'local') {
       // allow us to access s3proxy files correctly in development
-      url.replace(S3_CONFIG.endpoint.toString(), S3_LOCAL_DEVELOPMENT_ENDPOINT);
+      url = url.replace(
+        S3_CONFIG.endpoint.toString(),
+        S3_LOCAL_DEVELOPMENT_ENDPOINT
+      );
     }
 
     return url;
@@ -55,14 +58,14 @@ export default class Bucket {
       ENVIRONMENT,
       S3_LOCAL_DEVELOPMENT_ENDPOINT,
       CLIP_BUCKET_NAME,
-      BUCKET_LOCATION,
+      AWS_REGION,
     } = getConfig();
 
     if (ENVIRONMENT === 'local') {
       return `${S3_LOCAL_DEVELOPMENT_ENDPOINT}/${CLIP_BUCKET_NAME}/${key}`;
     }
 
-    return `https://${bucket}.s3.dualstack.${BUCKET_LOCATION}.amazonaws.com/${key}`;
+    return `https://${bucket}.s3.dualstack.${AWS_REGION}.amazonaws.com/${key}`;
   }
 
   /**

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { axe, toHaveNoViolations } from 'jest-axe';
 import { act, waitFor, fireEvent, RenderResult } from '@testing-library/react';
 
-import { renderWithLocalization } from '../../../../../test/mock-localization';
+import { renderWithProviders } from '../../../../../../test/render-with-providers';
 import {
   MOCK_USER_LANGUAGES,
   MOCK_ACCENTS_ALL,
@@ -40,7 +40,7 @@ jest.mock('../../../../../hooks/store-hooks', () => ({
 describe('ProfileInfoLanguages', () => {
   it('should render with no accessibility violations', async () => {
     await act(async () => {
-      const renderResult: RenderResult = await renderWithLocalization(
+      const renderResult: RenderResult = renderWithProviders(
         <ProfileInfoLanguages
           userLanguages={MOCK_USER_LANGUAGES}
           setUserLanguages={() => null}
@@ -56,15 +56,14 @@ describe('ProfileInfoLanguages', () => {
   it('add a new language when clicking add new', async () => {
     await act(async () => {
       const mockSetLanguage = jest.fn();
-      const { getByText, getByRole }: RenderResult =
-        await renderWithLocalization(
-          <ProfileInfoLanguages
-            userLanguages={MOCK_USER_LANGUAGES}
-            setUserLanguages={mockSetLanguage}
-            setAreLanguagesLoading={value => value}
-            areLanguagesLoading={false}
-          />
-        );
+      const { getByText, getByRole }: RenderResult = renderWithProviders(
+        <ProfileInfoLanguages
+          userLanguages={MOCK_USER_LANGUAGES}
+          setUserLanguages={mockSetLanguage}
+          setAreLanguagesLoading={value => value}
+          areLanguagesLoading={false}
+        />
+      );
 
       await waitFor(() => {
         const languagesHeading = getByText('Languages');

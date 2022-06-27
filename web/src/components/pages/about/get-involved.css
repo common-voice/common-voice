@@ -2,7 +2,7 @@
     .get-involved {
         padding: 0;
         border: none;
-        box-sizing: border-box;
+
         padding-top: 2rem;
         padding-right: 1rem;
 
@@ -116,37 +116,6 @@
         .get-involved-icons {
             display: flex;
             flex-direction: row;
-        }
-
-        .round-button {
-            width: 67px;
-            height: 67px;
-            border-radius: 50%;
-            display: flex;
-            flex-shrink: 0;
-            background-color: var(--lighter-grey);
-            justify-content: center;
-            align-items: center;
-            border: 0;
-            transition: background-color var(--transition-duration)
-                var(--easing);
-            cursor: pointer;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-            & path,
-            & rect {
-                fill: var(--black);
-                transition: background-color var(--transition-duration-slow)
-                    var(--easing);
-            }
-
-            &:hover {
-                background-color: var(--near-black);
-                & path,
-                & rect {
-                    fill: var(--white);
-                }
-            }
         }
 
         @media (--md-down) {

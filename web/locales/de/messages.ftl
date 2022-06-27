@@ -56,6 +56,7 @@ da = Dänisch
 de = Deutsch
 dsb = Niedersorbisch
 dv = Dhivehi
+dyu = Dioula
 el = Griechisch
 en = Englisch
 eo = Esperanto
@@ -124,12 +125,16 @@ my = Birmanisch
 myv = Ersjanisch
 nan-tw = Taiwanesisch (Minnan)
 nb-NO = Norwegisches Bokmål
+nd = IsiNdebele (Nord)
 ne-NP = Nepali
 nia = Nias
 nl = Niederländisch
 nn-NO = Nynorsk
+nr = IsiNdebele (Süd)
+nso = Nord-Sotho
 nyn = Nyankole
 oc = Okzitanisch
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -155,6 +160,8 @@ sl = Slowenisch
 so = Somali
 sq = Albanisch
 sr = Serbisch
+ss = Siswati
+st = Sesotho
 sv-SE = Schwedisch
 sw = Swahili
 syr = Syrisch
@@ -166,8 +173,10 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmenisch
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Türkisch
+ts = Xitsonga
 tt = Tatarisch
 tw = Twi
 ty = Tahitisch
@@ -177,15 +186,18 @@ ug = Uigurisch
 uk = Ukrainisch
 ur = Urdu
 uz = Usbekisch
+ve = Tshivenda
 vec = Venezianisch
 vi = Vietnamesisch
 vot = Wotisch
+xh = Xhosa
 yi = Jiddisch
 yo = Yoruba
 yue = Kantonesisch
 zh-CN = Chinesisch (China)
 zh-HK = Chinesisch (Hong Kong)
 zh-TW = Chinesisch (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -313,7 +325,6 @@ shortcut-discard-ongoing-recording-label = Laufende Aufzeichnung verwerfen
 shortcut-submit = Eingabe
 shortcut-submit-label = Aufzeichnungen übertragen
 request-language-text = Ihre Sprache wird bei Common Voice noch nicht aufgeführt? Da lässt sich was machen!
-request-language-text-learn = So können Sie weitere Sprachen anfordern!
 request-language-button = Anfrage schicken
 
 ## ProjectStatus
@@ -406,6 +417,7 @@ gravatar_not_found = Für Ihre E-Mail-Adresse wurde kein Gravatar gefunden
 file_too_large = Die ausgewählte Datei ist zu groß
 avatar-uploaded = Avatar hochgeladen
 max-file-size = Maximal { $kb } kb
+remove-avatar = Avatar entfernen
 
 ## Profile - Email
 
@@ -449,7 +461,9 @@ faq-why-different-speakers-a =
     Die meisten Sprachdatenbanken werden mit einer Überrepräsentation bestimmter Demografien trainiert, was zu einer Bevorzugung <articleLink>männlicher und Mittelklasse-Teilnehmern</articleLink> führt. Akzente und Dialekte, die in Trainingsdatensätzen tendenziell unterrepräsentiert sind, werden meist Personengruppen zugeordnet, die bereits zu einer Randgruppe zählen. Viele Geräte können auch weibliche Stimmen nur schwer verstehen. 
     Deshalb wollen wir Vielfalt in unserer Sprachdatenbank.
 faq-why-my-lang-q = Warum gibt es meine Sprache noch nicht?
-faq-why-my-lang-new-a = Mozilla wählt oder bevorzugt keine Sprache gegenüber einer anderen. Stattdessen handelt es sich bei Common Voice um eine rein gemeinschaftsorientierte Initiative, es erfordert jedoch <multilangLink>mehrere Schritte, um eine neue Sprache aufzunehmen</multilangLink> und das Sammeln von Sprachspenden zu beginnen. Erstens muss die Common-Voice-Website übersetzt werden, damit Mitglieder der Gemeinschaft in ihrer eigenen Sprache auf die Erfahrungen der Mitwirkenden zugreifen können. Als nächstes benötigen wir eine große Sammlung urheberrechtsfreier Sätze, die die Menschen vorlesen können. Sobald beide Anforderungen erfüllt sind, wird auf Common Voice eine Sprache „gestartet“, damit die Menschen ihre Stimme aufnehmen und die Spenden anderer bestätigen können. Wenn Sie beim Start einer neuen Sprache helfen möchten, besuchen Sie unser <sentenceCollectorLink>Werkzeug zur Sammlung von Sätzen</sentenceCollectorLink>, um loszulegen.
+faq-why-my-lang-a =
+    Common Voice ist eine Crowdsourcing-Plattform, und die Sprachen wurden alle von Freiwilligen hinzugefügt.
+    Wir würden uns freuen, wenn Sie auch Ihre Sprache hinzufügen würden! <languageRequestLink>Hier können Sie sich melden, um Ihre Sprache hinzuzufügen.</languageRequestLink>
 faq-what-quality-q = Welche Audioqualität ist erforderlich, damit ein Sprachclip im Datensatz verwendet werden kann?
 faq-what-quality-a = Wir möchten, dass der Common-Voice-Datensatz die Audioqualität widerspiegelt, die eine Sprach-zu-Text-Engine in der freien Natur hört. Wir suchen also nach Abwechslung. Zusätzlich zu einer vielfältigen Gemeinschaft von Sprechern wird ein Datensatz mit unterschiedlicher Audioqualität die Sprach-zu-Text-Engine in die Lage versetzen, mit verschiedenen Situationen der realen Welt umzugehen, vom Hintergrundgespräch bis zum Autolärm. Solange Ihr Sprachclip verständlich ist, sollte er für den Datensatz gut genug sein.
 faq-why-10k-hours-q = Warum sind 10&thinsp;000 validierte Stunden das für die Audioaufnahme pro Sprache bestimmte Ziel?
@@ -519,12 +533,6 @@ about-dataset-new = Common-Voice-Datensatz
 about-dataset-new-text = Der Common-Voice-Datensatz enthält Hunderttausende von Sprachmustern, mit denen Entwickler Werkzeuge zur Spracherkennung erstellen können.
 about-clip-graveyard = Clip-Friedhof
 about-clip-graveyard-text = Der Clip-Friedhof besteht aus Sprachclips, die nicht in den Common-Voice-Datensatz aufgenommen wurden. Der Clip-Friedhof steht wie der Datensatz zum Download zur Verfügung.
-about-partners = Partner
-about-become-a-partner = Partner werden
-about-partnership =
-    Common Voice ist ein Gemeinschaftsprojekt und wir sind auf unsere Gemeinschaft von Partnern und Mitwirkenden angewiesen, um den größten Open-Source-Datensatz von Stimmen zu erstellen.
-    
-    Wir möchten uns bei folgenden Personen und Organisationen für ihre Hilfe bei dem Projekt bedanken:
 about-get-involved = Mitmachen
 about-get-involved-text-2 =
     Möchten Sie Common Voice noch besser machen?
@@ -532,6 +540,7 @@ about-get-involved-text-2 =
     melden Sie Probleme mit der Website über <githubLink>GitHub</githubLink>
     oder besuchen Sie unseren Community-Chat auf <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Wie bleibe ich in Kontakt?
+about-stay-in-touch-button = Registrieren
 about-stay-in-touch-text-1 = <emailFragment>Registrieren Sie sich bei unserer Mailingliste</emailFragment> an, um zu erfahren, wie Sie an Kampagnen, Veranstaltungen und Co-Design-Funktionen auf Common Voice teilnehmen können.
 about-stay-in-touch-text-2 = Sie können andere Menschen in den Mozilla-Sprachgemeinschaften treffen, indem Sie <discourseLink>Discourse</discourseLink> für aktuelle Gespräche oder <matrixLink>Matrix</matrixLink> für schnelle Ratschläge beitreten.
 about-nav-why-common-voice = Warum?
@@ -553,9 +562,20 @@ about-playbook-what-is-language-content-3 = Einige Sprachen haben enorme Untersc
 
 about-playbook-how-add-language = Wie füge ich eine Sprache hinzu?
 about-playbook-how-add-language-content-1 = Überprüfen Sie zunächst, ob Ihre Sprache <languageLink>bereits existiert</languageLink>. Wenn nicht, müssen Sie <strong>die Seite übersetzen und Sätze sammeln</strong>.
-about-playbook-how-add-language-content-2 = <strong>Um die Website zu übersetzen</strong> – <translateVideo>erstellen Sie ein Konto</translateVideo> auf <pontoonLink>Pontoon</pontoonLink>. Pontoon hat viele Sprachen, aber wenn Ihre noch fehlt können Sie sie <pontoonRequestLink>anfordern</pontoonRequestLink>. Dann bitten Sie <repoLink>über GitHub</repoLink>, das Common-Voice-Projekt für die Sprache verfügbar zu machen. Weitere Informationen finden Sie unter <localizationFragment>Website-Übersetzung</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Um Sätze zu sammeln</strong> – <scVideo>richten Sie</scVideo> den <scLink>Satzsammler</scLink> ein.
-about-playbook-how-add-language-content-4 = Sie können hier <scLinkAdd>eine kleine Anzahl</scLinkAdd> von Sätzen hinzufügen oder Sie können <bulkImportDocsLink>Massenimporte</bulkImportDocsLink> über eine Github-Anfrage durchführen. Denken Sie daran, dass Sätze <licenseLink>CC0 (oder gemeinfrei)</licenseLink> sein müssen; alternativ können Sie Ihre eigenen schreiben. Weitere Informationen finden Sie unter <scFragment>Satzsammlung</scFragment>.
+about-playbook-how-add-language-translating-heading = Die Website übersetzen
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Sehen Sie sich unsere Anleitung zur Verwendung von Pontoon an.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Wir verwenden ein Mozilla-Werkzeug namens <pontoonLink>Pontoon</pontoonLink> für Übersetzungen. Ponton hat viele Sprachen,
+    aber wenn Ihre Sprache noch fehlt, können Sie <pontoonRequestLink>Ihre Sprache hinzufügen lassen</pontoonRequestLink>.
+    Um die Sprache dann im Common-Voice-Projekt verfügbar zu machen,
+    <githubRepoLink>fordern Sie die neue Sprache auf GitHub an</githubRepoLink>. <localizationFragment>Hier finden Sie weitere Informationen zur Übersetzung der Website</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Sätze sammeln
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Sehen Sie sich unsere Anleitung zur Verwendung des Satzsammlers an</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Sie können <sentenceCollectorLinkAdd>eine kleine Anzahl von Sätzen hinzufügen</sentenceCollectorLinkAdd>,
+    oder Sie können <bulkImportDocsLink>Massenimporte mit Github</bulkImportDocsLink> durchführen.
+    Denken Sie daran, dass Sätze <licenseLink>CC0 (oder gemeinfrei)</licenseLink> sein müssen, ansonsten können Sie auch Ihre eigenen schreiben.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Weitere Informationen zur Sammlung von Sätzen</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -619,12 +639,6 @@ about-playbook-how-project-governance-content-4 = Mitwirkung der Gemeinschaft un
 about-playbook-how-project-governance-content-5 = Wert und Anerkennung.
 about-playbook-how-project-governance-content-6 = Gegenseitige Rechenschaftspflicht.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lesen Sie mehr über unsere Führungsstruktur</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Künstliche Intelligenz
-mycroft-description =
-    Mycroft ist der erste Open-Source-Assistent der Welt.
-    Mycroft läuft überall – auf einem Desktop-Computer, in einem Auto oder auf einem Raspberry Pi.
-mycroft-secondary-description = Hierbei handelt es sich um Open-Source-Software, die frei remixt, erweitert und verbessert werden kann. Mycroft kann in allen Bereichen verwendet werden, von wissenschaftlichen Projekten bis hin zu Unternehmenssoftware.
 
 ## Glossary
 
@@ -683,6 +697,7 @@ review-delete-recordings = Aufnahmen löschen
 
 ## Datasets Page
 
+datasets-heading = Datensätze
 datasets-headline = Wir erstellen einen mehrsprachigen, quelloffenen Datensatz aus Stimmen, mit dem jeder sprachgestützte Anwendungen trainieren kann.
 datasets-positioning =
     Wir glauben, dass große, öffentlich verfügbare Sprachdatensätze Innovation und einen gesunden kommerziellen Wettbewerb in der Sprachtechnologie auf Basis von Maschinenlernen fördern.
@@ -767,6 +782,46 @@ request-language-success-content = Wir melden uns bald mit weiteren Informatione
 select-language = Sprache auswählen…
 other-language = Andere Sprache
 
+## Request Language Pages
+
+request-language-heading = Neue Sprache anfragen
+request-language-explanation-1 =
+    Überprüfen Sie, ob Ihre Sprache auf der 
+    <languagesPageLink>Common-Voice-Sprachenseite</languagesPageLink> aufgelistet ist.
+    Wenn nicht, füllen Sie dieses Formular aus und wir <strong>senden Ihnen eine praktische E-Mail
+    mit einer Anleitung zum Einrichten Ihrer Sprache</strong>.
+request-language-explanation-2 =
+    Wir werden auch <strong>unseren Community-Manager informieren,
+    dass Sie interessiert sind</strong>, damit Ihnen zusätzliche Unterstützung oder Informationen gegeben werden kann, die Sie benötigen.
+request-language-form-email =
+    .label = Ihre E-Mail-Adresse
+request-language-form-info =
+    .label = Informationen zur Sprache
+request-language-form-info-explanation =
+    Fügen Sie so viele Informationen wie möglich über die Sprache hinzu. Dies
+    könnte beinhalten:
+request-language-form-info-explanation-list-1 = Namen Ihrer Sprache
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-Codes</isoCodeLink>, wenn bekannt
+request-language-form-info-explanation-list-3 = Links zu Websites, die uns helfen können, die Sprache zu verstehen
+request-language-google-recaptcha-required = reCAPTCHA ist erforderlich, wenn Sie fortfahren möchten
+request-language-google-recaptcha-error = Bei reCAPTCHA ist etwas schief gelaufen. Bitte versuchen Sie es erneut.
+# Success page
+request-language-success-heading = Danke! Sie haben eine Anfrage für eine neue Sprache gesendet
+request-language-success-list-1 =
+    Sie sollten in Kürze eine E-Mail mit einer Erklärung der Schritte erhalten,
+    die notwendig sind, um Ihre Sprache zu Common Voice hinzuzufügen
+request-language-success-list-2 =
+    Unser Community-Manager wird Sie kontaktieren, um zusätzliche Unterstützung 
+    anzubieten und um Sie wissen zu lassen, ob es
+    bereits eine Gemeinschaft gibt, die an Ihrer Sprache arbeitet
+request-language-success-list-3 =
+    Wenn Sie innerhalb von ein paar Tagen nichts von uns hören,
+    kontaktieren Sie uns über <emailLink>{ $email }</emailLink>
+    und wir melden uns bei Ihnen!
+request-language-error =
+    Möglicherweise haben wir diese Anfrage nicht erhalten. Bitte schreiben Sie uns direkt
+    an <emailLink>{ $email }</emailLink> und wir melden uns bei Ihnen!
+
 ## Languages Overview
 
 language-section-in-progress = Vorbereitungsphase
@@ -782,7 +837,8 @@ language-search-input =
 language-speakers = Sprecher
 localized = Übersetzt
 sentences = Sätze
-total-hours = Stdn. bestätigt
+language-validation-hours = Stunden
+language-validation-progress = Fortschritt beim Bestätigen
 
 ## Contribution
 
@@ -938,10 +994,10 @@ help-reach-hours-pluralized =
        *[other] { $hours } Stunden
     } in { $language } zu erreichen.
 help-reach-hours-general-pluralized =
-    Helfen Sie Common Voice mit einem persönlichen Ziel dabei, { NUMBER($hours) ->
-        [one] { $hours } Stunde
-       *[other] { $hours } Stunden
-    }in einer Sprache zu erreichen.
+    { NUMBER($hours) ->
+        [one] Helfen Sie Common Voice mit einem persönlichen Ziel dabei, { $hours } Stunde in einer Sprache zu erreichen.
+       *[other] Helfen Sie Common Voice mit einem persönlichen Ziel dabei, { $hours } Stunden in einer Sprache zu erreichen.
+    }
 set-a-goal = Ein Ziel setzen
 cant-decide = Sie können sich nicht entscheiden?
 activity-needed-calculation-plural =
@@ -1502,7 +1558,6 @@ sc-review-link = Bewertungen
 
 sc-settings-title = Einstellungen
 sc-settings-ui-language = Sprache der Benutzeroberfläche
-sc-settings-language-translated-warning = Die Seiten für diese Sprache sind möglicherweise nicht vollständig übersetzt. Sie können bei der Übersetzung <pontoonLinkLink>auf Pontoon</pontoonLinkLink> helfen.
 sc-settings-reset-skipped = Übersprungene Sätze zurücksetzen
 sc-settings-skipped-decription =
     Sie haben Sätze beim Überprüfen zuvor übersprungen.

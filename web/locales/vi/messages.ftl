@@ -17,6 +17,7 @@ not-available-abbreviation = N/A
 banner-error-slow-1 = Rất tiếc, Common Voice đang chạy chậm. Cảm ơn vì sự quan tâm của bạn.
 banner-error-slow-2 = Chúng tôi đang nhận được rất nhiều lưu lượng truy cập và hiện đang điều tra các vấn đề.
 banner-error-slow-link = Trang trạng thái
+error-something-went-wrong = Xin lỗi, có gì đó không ổn
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -55,6 +56,7 @@ da = Đan Mạch
 de = Đức
 dsb = Hạ Sorb
 dv = Dhivehi
+dyu = Dioula
 el = Hy Lạp
 en = Anh
 eo = Quốc tế ngữ
@@ -123,12 +125,16 @@ my = Miến Điện
 myv = Erzya
 nan-tw = Taiwanese (Minnan)
 nb-NO = Na Uy Bokmål
+nd = IsiNdebele (Bắc)
 ne-NP = Nepal
 nia = Nias
 nl = Hà Lan
 nn-NO = Na Uy Nynorsk
+nr = IsiNdebele (Nam)
+nso = Bắc Sotho
 nyn = Nyankole
 oc = Occitan
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -154,6 +160,8 @@ sl = Slovenia
 so = Somali
 sq = Albania
 sr = Serbia
+ss = Siswati
+st = Sesotho
 sv-SE = Thụy Điển
 sw = Swahili
 syr = Syriac
@@ -165,8 +173,10 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmen
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Thổ Nhĩ Kỳ
+ts = Xitsonga
 tt = Tatar
 tw = Twi
 ty = Tahitian
@@ -176,15 +186,18 @@ ug = Uyghur
 uk = Ukraina
 ur = Urdu
 uz = Uzbek
+ve = Tshivenda
 vec = Venetian
 vi = Việt
 vot = Votic
+xh = Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Quảng Đông
 zh-CN = Trung (Trung Quốc)
 zh-HK = Trung (Hồng Kông)
 zh-TW = Trung (Đài Loan)
+zu = Zulu
 
 # [/]
 
@@ -309,7 +322,6 @@ shortcut-discard-ongoing-recording-label = Hủy ghi âm đang diễn ra
 shortcut-submit = Quay lại
 shortcut-submit-label = Gửi đoạn thoại
 request-language-text = Chưa thấy ngôn ngữ của mình trên Common Voice?
-request-language-text-learn = Tìm hiểu cách yêu cầu nó ở đây!
 request-language-button = Yêu cầu ngôn ngữ
 
 ## ProjectStatus
@@ -364,7 +376,7 @@ why-profile-title = Tại sao phải tạo một hồ sơ?
 why-profile-text = Bằng cách cung cấp một số thông tin về bản thân bạn, dữ liệu âm thanh mà bạn gửi tới Common Voice sẽ hữu ích hơn đối với công cụ Nhận dạng giọng nói và cũng để cải thiện độ chính xác của chúng.
 dashboard = Bảng điều khiển
 build-profile = Xây dựng hồ sơ
-avatar = Ảnh đại diện
+avatar = Hình đại diện
 goals = Mục tiêu
 settings = Cài đặt
 edit-profile = Chỉnh sửa hồ sơ
@@ -401,6 +413,7 @@ gravatar_not_found = Không tìm thấy gravatar cho email của bạn
 file_too_large = Tập tin đã chọn quá lớn
 avatar-uploaded = Đã tải lên hình đại diện
 max-file-size = Tối đa { $kb }kb
+remove-avatar = Xóa hình đại diện
 
 ## Profile - Email
 
@@ -444,7 +457,9 @@ faq-why-different-speakers-a =
     Hầu hết các cơ sở dữ liệu giọng nói được đào tạo với sự biểu hiện quá mức của các nhóm nhân khẩu học nhất định, dẫn đến ưu tiên cho <articleLink>nam giới và tầng lớp trung lưu</articleLink>. Điểm nhấn và phương ngữ thường được thể hiện trong bộ dữ liệu đào tạo thường được liên kết với các nhóm người đã bị thiệt thòi. Nhiều máy cũng gặp khó khăn trong việc hiểu giọng nói của phụ nữ.
     Đây là lý do tại sao chúng tôi muốn thay đổi trong cơ sở dữ liệu lời nói của chúng tôi!
 faq-why-my-lang-q = Tại sao ngôn ngữ của tôi chưa được đưa vào?
-faq-why-my-lang-new-a = Mozilla không chọn hay ưu tiên bất kỳ ngôn ngữ nào hơn ngôn ngữ khác. Thay vào đó, Common Voice là một sáng kiến hoàn toàn dựa vào cộng đồng, nhưng cần có <multilangLink>một vài bước để thêm một ngôn ngữ mới</multilangLink> và bắt đầu thu thập giọng nói. Đầu tiên, trang web Common Voice cần được dịch để các thành viên cộng đồng có thể truy cập vào trải nghiệm của người đóng góp bằng ngôn ngữ của họ. Tiếp theo, chúng tôi cần một bộ lớn các câu không có bản quyền để mọi người đọc thành tiếng. Khi cả hai yêu cầu đó được thỏa mãn, một ngôn ngữ sẽ ra mắt trên nền tảng Common Voice để mọi người bắt đầu ghi âm giọng nói của mình và xác thực các đóng góp của người khác. Nếu bạn muốn giúp khởi chạy một ngôn ngữ mới, hãy đến <sentenceCollectorLink>công cụ thu thập câu</sentenceCollectorLink> của chúng tôi để bắt đầu.
+faq-why-my-lang-a =
+    Common Voice là một nền tảng tìm nguồn cung ứng cộng đồng và tất cả các ngôn ngữ đều do các tình nguyện viên thêm vào.
+    Chúng tôi rất muốn bạn thêm ngôn ngữ của mình! <languageRequestLink>Hỏi về cách thêm ngôn ngữ của bạn.</languageRequestLink>
 faq-what-quality-q = Mức chất lượng âm thanh nào được yêu cầu cho một đoạn thoại được sử dụng trong bộ dữ liệu?
 faq-what-quality-a = Chúng tôi muốn bộ dữ liệu Common Voice phản ánh chất lượng âm thanh mà một công cụ chuyển lời nói thành văn bản sẽ nghe thấy trong tự nhiên, vì vậy chúng tôi đang tìm kiếm sự đa dạng. Ngoài cộng đồng người nói đa dạng, bộ dữ liệu với chất lượng âm thanh khác nhau sẽ nghiên cứu cho công cụ chuyển lời nói thành văn bản để xử lý các tình huống thực tế khác nhau, từ nói chuyện nền tảng đến tiếng ồn xe hơi. Miễn là đoạn thoại của bạn dễ hiểu, nó sẽ đủ tốt cho bộ dữ liệu.
 faq-why-10k-hours-q = Tại sao 10.000 giờ được xác thực là mục tiêu cho mỗi ngôn ngữ để thu âm thanh?
@@ -514,12 +529,6 @@ about-dataset-new = Bộ dữ liệu Common Voice
 about-dataset-new-text = Bộ dữ liệu Common Voice chứa hàng trăm ngàn mẫu giọng nói giúp các nhà phát triển xây dựng các công cụ nhận dạng giọng nói.
 about-clip-graveyard = Đoạn thoại không hợp lệ
 about-clip-graveyard-text = Đoạn thoại không hợp lệ bao gồm các đoạn thoại không được đưa vào bộ dữ liệu Common Voice. Giống như tập dữ liệu, đoạn thoại không hợp lệ có sẵn để tải xuống.
-about-partners = Đối tác
-about-become-a-partner = Trở thành một đối tác
-about-partnership =
-    Common Voice là một dự án hợp tác và chúng tôi phụ thuộc vào cộng đồng đối tác và cộng tác viên của mình để xây dựng bộ dữ liệu giọng nói nguồn mở lớn nhất từ trước đến nay.
-    
-    Chúng tôi xin cảm ơn những người và tổ chức sau đây đã giúp đỡ cho dự án:
 about-get-involved = Tham gia đóng góp
 about-get-involved-text-2 =
     Bạn muốn giúp làm cho Common Voice trở nên tốt hơn?
@@ -527,6 +536,7 @@ about-get-involved-text-2 =
     gửi các vấn đề về trang web thông qua <githubLink>GitHub</githubLink>,
     hoặc tham gia trò chuyện cộng đồng trên <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Làm cách nào để giữ liên lạc?
+about-stay-in-touch-button = Đăng ký
 about-stay-in-touch-text-1 = <emailFragment>Đăng ký</emailFragment> vào danh sách gửi thư của chúng tôi để tìm hiểu cách bạn có thể tham gia vào các chiến dịch, sự kiện và các tính năng đồng thiết kế trên Common Voice.
 about-stay-in-touch-text-2 = Bạn có thể gặp gỡ những người khác trong cộng đồng ngôn ngữ Mozilla bằng cách tham gia <discourseLink>Discourse</discourseLink> để trò chuyện theo chủ đề hoặc <matrixLink>Matrix</matrixLink> để được tư vấn nhanh.
 about-nav-why-common-voice = Tại sao ?
@@ -548,9 +558,20 @@ about-playbook-what-is-language-content-3 = Một số ngôn ngữ có sự bi�
 
 about-playbook-how-add-language = Làm cách nào để thêm ngôn ngữ?
 about-playbook-how-add-language-content-1 = Trước tiên, hãy kiểm tra xem ngôn ngữ của bạn <languageLink>đã tồn tại chưa</languageLink>. Nếu không, bạn cần phải <strong>dịch trang web và thu thập các câu</strong>.
-about-playbook-how-add-language-content-2 = <strong>Để dịch trang web</strong> - <translateVideo>hãy thiết lập</translateVideo> trên <pontoonLink>Pontoon</pontoonLink>. Pontoon có rất nhiều ngôn ngữ, nhưng nếu nó không có ngôn ngữ của bạn, bạn có thể <pontoonRequestLink>yêu cầu nó</pontoonRequestLink>. Sau đó, yêu cầu <repoLink>qua GitHub</repoLink> để cung cấp dự án Common Voice cho ngôn ngữ. Xem thêm về <localizationFragment>bản dịch trang web</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Để thu thập câu</strong> - <scVideo>hãy thiết lập</scVideo> trên <scLink>trình thu thập câu</scLink>.
-about-playbook-how-add-language-content-4 = Bạn có thể <scLinkAdd>thêm số lượng nhỏ</scLinkAdd> các câu tại đây hoặc bạn có thể thực hiện <bulkImportDocsLink>nhập hàng loạt</bulkImportDocsLink> thông qua yêu cầu Github. Hãy nhớ rằng các câu cần phải là <licenseLink>CC0 (hoặc miền công cộng)</licenseLink>, hoặc bạn có thể viết câu của riêng mình. Xem thêm về <scFragment>bộ sưu tập câu</scFragment>.
+about-playbook-how-add-language-translating-heading = Dịch trang web
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Xem hướng dẫn của chúng tôi về cách sử dụng Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Chúng tôi sử dụng một công cụ Mozilla có tên là <pontoonLink>Pontoon</pontoonLink> để dịch. Pontoon có rất nhiều ngôn ngữ,
+    nhưng nếu nó không có ngôn ngữ của bạn, bạn có thể <pontoonRequestLink>yêu cầu thêm ngôn ngữ</pontoonRequestLink>.
+    Sau đó, để cung cấp ngôn ngữ cho dự án Common Voice,
+    <githubRepoLink>yêu cầu ngôn ngữ mới trên GitHub</githubRepoLink>. <localizationFragment>Xem thêm về bản dịch trang web</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Thu thập câu
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Xem hướng dẫn của chúng tôi về cách sử dụng Trình thu thập câu </sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Bạn có thể <sentenceCollectorLinkAdd>thêm một số câu nhỏ</sentenceCollectorLinkAdd>,
+    hoặc bạn có thể thực hiện nhập hàng loạt <bulkImportDocsLink>bằng Github</bulkImportDocsLink>.
+    Hãy nhớ rằng các câu cần phải là <licenseLink>CC0 (hoặc miền công cộng)</licenseLink>, hoặc bạn có thể viết câu của riêng mình.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Xem thêm về bộ sưu tập câu</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -614,12 +635,6 @@ about-playbook-how-project-governance-content-4 = Sự tham gia của cộng đ�
 about-playbook-how-project-governance-content-5 = Giá trị và sự công nhận.
 about-playbook-how-project-governance-content-6 = Trách nhiệm giải trình.
 about-playbook-how-project-governance-content-7 = <governanceLink>Đọc thêm về cách chúng tôi quản lý</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Trí tuệ nhân tạo
-mycroft-description =
-    Mycroft là trợ lý mã nguồn mở đầu tiên trên thế giới.
-    Mycroft chạy mọi nơi - trên máy tính để bàn, bên trong ô tô hoặc trên Raspberry Pi.
-mycroft-secondary-description = Đây là phần mềm nguồn mở có thể được tự do phối lại, mở rộng và cải thiện. Mycroft có thể được sử dụng trong mọi thứ từ dự án khoa học đến ứng dụng phần mềm doanh nghiệp.
 
 ## Glossary
 
@@ -678,6 +693,7 @@ review-delete-recordings = Xóa bản ghi âm của tôi
 
 ## Datasets Page
 
+datasets-heading = Tập dữ liệu
 datasets-headline = Chúng tôi đã xây dựng một bộ dữ liệu giọng nói đa ngôn ngữ mã nguồn mở mà bất kỳ ai cũng có thể sử dụng để huấn luyện các ứng dụng hỗ trợ giọng nói.
 datasets-positioning =
     Chúng tôi tin rằng các bộ dữ liệu giọng nói lớn, có sẵn công khai sẽ thúc đẩy sự đổi mới và cạnh tranh thương mại lành mạnh trong công nghệ lời nói dựa trên máy học.
@@ -762,6 +778,46 @@ request-language-success-content = Chúng tôi sẽ giữ liên lạc với bạ
 select-language = Chọn một ngôn ngữ...
 other-language = Ngôn ngữ khác
 
+## Request Language Pages
+
+request-language-heading = Hỏi về một ngôn ngữ mới
+request-language-explanation-1 =
+    Kiểm tra xem ngôn ngữ của bạn có được liệt kê trên <languagesPageLink>trang ngôn ngữ giọng nói phổ biến</languagesPageLink>.
+    Nếu không, hãy điền vào biểu mẫu này và chúng tôi sẽ <strong>gửi cho bạn một email hữu ích
+    giải thích cách thiết lập ngôn ngữ của bạn</strong>.
+request-language-explanation-2 =
+    Chúng tôi cũng sẽ <strong>cho người quản lý cộng đồng của chúng tôi biết
+    mà bạn quan tâm</strong>, vì vậy họ có thể cung cấp cho bạn bất kỳ
+    hỗ trợ thêm hoặc thông tin bạn có thể cần.
+request-language-form-email =
+    .label = Địa chỉ email của bạn
+request-language-form-info =
+    .label = Thông tin về ngôn ngữ
+request-language-form-info-explanation =
+    Thêm càng nhiều thông tin về ngôn ngữ càng tốt. Điều này
+    có thể bao gồm:
+request-language-form-info-explanation-list-1 = Tên ngôn ngữ của bạn
+request-language-form-info-explanation-list-2 = <isoCodeLink>Mã ISO</isoCodeLink> nếu biết
+request-language-form-info-explanation-list-3 = Liên kết đến các trang web có thể giúp chúng tôi hiểu ngôn ngữ
+request-language-google-recaptcha-required = reCAPTCHA là bắt buộc nếu bạn muốn tiếp tục
+request-language-google-recaptcha-error = Đã xảy ra sự cố với reCAPTCHA. Vui lòng thử lại.
+# Success page
+request-language-success-heading = Cảm ơn bạn! Bạn đã gửi một câu hỏi về ngôn ngữ mới
+request-language-success-list-1 =
+    Bạn sẽ sớm nhận được một email giải thích
+    các bước để thêm ngôn ngữ của bạn vào Common Voice
+request-language-success-list-2 =
+    Người quản lý cộng đồng của chúng tôi sẽ liên hệ với bạn
+    để cung cấp hỗ trợ thêm và cho bạn biết nếu đã có
+    một cộng đồng làm việc trên ngôn ngữ của bạn
+request-language-success-list-3 =
+    Nếu bạn không nhận được phản hồi từ chúng tôi trong vòng vài ngày,
+    liên hệ với <emailLink>{ $email }</emailLink>
+    và chúng tôi sẽ liên hệ lại với bạn!
+request-language-error =
+    Chúng tôi có thể đã không nhận được yêu cầu đó. Vui lòng gửi email trực tiếp cho chúng tôi
+    trên <emailLink>{ $email }</emailLink> và chúng tôi sẽ liên hệ lại với bạn!
+
 ## Languages Overview
 
 language-section-in-progress = Trong tiến trình
@@ -777,7 +833,8 @@ language-search-input =
 language-speakers = Diễn giả
 localized = Bản địa hóa
 sentences = Các câu
-total-hours = Giờ đã xác thực
+language-validation-hours = Giờ
+language-validation-progress = Tiến độ xác thực
 
 ## Contribution
 
@@ -829,8 +886,14 @@ listen-again-instruction = Làm tốt lắm!<playIcon></playIcon> Nghe lại khi
 listen-3rd-time-instruction = 2 cái đã xong, cố gắng lên!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Cái cuối cùng!
 listen-empty-state = Chúng tôi đã hết đoạn thoại để xác thực bằng ngôn ngữ này...
+listen-loading-error =
+    Chúng tôi không thể nhận được bất kỳ đoạn âm thanh nào để bạn nghe.
+    Vui lòng thử lại sau.
 speak-empty-state = Chúng tôi đã hết câu để ghi lại bằng ngôn ngữ này...
 speak-empty-state-cta = Đóng góp câu
+speak-loading-error =
+    Chúng tôi không thể nhận được bất kỳ câu nào để bạn nói.
+    Vui lòng thử lại sau.
 record-button-label = Ghi âm giọng nói của bạn
 share-title-new = <bold>Giúp chúng tôi</bold> tìm thêm giọng nói
 keep-track-profile = Theo dõi tiến trình của bạn với một hồ sơ
@@ -1481,7 +1544,6 @@ sc-review-link = Đánh giá
 
 sc-settings-title = Cài đặt
 sc-settings-ui-language = Ngôn ngữ giao diện
-sc-settings-language-translated-warning = Các trang cho ngôn ngữ này có thể không được dịch đầy đủ. Bạn có thể trợ giúp chúng tôi dịch <pontoonLinkLink>trên Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Đặt lại các câu đã bỏ qua
 sc-settings-skipped-decription =
     Bạn đã bỏ qua các câu trước đó trong khi đánh giá.

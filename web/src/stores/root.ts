@@ -6,6 +6,7 @@ import { generateToken, hash } from '../utility';
 import { Flags } from './flags';
 import { Clips } from './clips';
 import { Locale } from './locale';
+import * as Languages from './languages';
 import { Notifications } from './notifications';
 import { RequestedLanguages } from './requested-languages';
 import { Sentences } from './sentences';
@@ -28,65 +29,63 @@ try {
   localStorage.removeItem(USER_KEY);
 }
 
+export function reducers(
+  {
+    sentences,
+    user,
+    clips,
+    flags,
+    requestedLanguages,
+    locale,
+    languages,
+    notifications,
+    uploads,
+  }: StateTree = {
+    api: undefined,
+    clips: undefined,
+    flags: undefined,
+    locale: undefined,
+    notifications: undefined,
+    requestedLanguages: undefined,
+    languages: undefined,
+    sentences: undefined,
+    uploads: undefined,
+    user: undefined,
+  },
+  action:
+    | Clips.Action
+    | Flags.Action
+    | Languages.Action
+    | Locale.Action
+    | RequestedLanguages.Action
+    | Sentences.Action
+    | Uploads.Action
+    | User.Action
+): StateTree {
+  const newState = {
+    clips: Clips.reducer(locale, clips, action as Clips.Action),
+    flags: Flags.reducer(flags, action as Flags.Action),
+    locale: Locale.reducer(locale, action as Locale.Action),
+    languages: Languages.reducer(languages, action as Languages.Action),
+    requestedLanguages: RequestedLanguages.reducer(
+      requestedLanguages,
+      action as RequestedLanguages.Action
+    ),
+    sentences: Sentences.reducer(locale, sentences, action as Sentences.Action),
+    notifications: Notifications.reducer(notifications, action as any),
+    uploads: Uploads.reducer(uploads, action as Uploads.Action),
+    user: User.reducer(user, action as User.Action),
+  };
+
+  return { api: new API(newState.locale, newState.user), ...newState };
+}
 const composeEnhancers =
   (window as any).__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
-  function root(
-    {
-      sentences,
-      user,
-      clips,
-      flags,
-      requestedLanguages,
-      locale,
-      notifications,
-      uploads,
-    }: StateTree = {
-      api: undefined,
-      clips: undefined,
-      flags: undefined,
-      locale: undefined,
-      notifications: undefined,
-      requestedLanguages: undefined,
-      sentences: undefined,
-      uploads: undefined,
-      user: undefined,
-    },
-    action:
-      | Clips.Action
-      | Flags.Action
-      | Locale.Action
-      | RequestedLanguages.Action
-      | Sentences.Action
-      | Uploads.Action
-      | User.Action
-  ): StateTree {
-    const newState = {
-      clips: Clips.reducer(locale, clips, action as Clips.Action),
-      flags: Flags.reducer(flags, action as Flags.Action),
-      locale: Locale.reducer(locale, action as Locale.Action),
-      requestedLanguages: RequestedLanguages.reducer(
-        requestedLanguages,
-        action as RequestedLanguages.Action
-      ),
-      sentences: Sentences.reducer(
-        locale,
-        sentences,
-        action as Sentences.Action
-      ),
-      notifications: Notifications.reducer(notifications, action as any),
-      uploads: Uploads.reducer(uploads, action as Uploads.Action),
-      user: User.reducer(user, action as User.Action),
-    };
-
-    return { api: new API(newState.locale, newState.user), ...newState };
-  },
+  reducers,
   preloadedState as any,
   composeEnhancers(applyMiddleware(thunk))
 );
-
-store.dispatch(User.actions.update({}) as any);
-store.dispatch(User.actions.refresh() as any);
 
 const flags = document.querySelector('#flags');
 

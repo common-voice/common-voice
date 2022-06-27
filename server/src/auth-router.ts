@@ -10,6 +10,7 @@ import UserClient from './lib/model/user-client';
 import DB from './lib/model/db';
 import { earnBonus } from './lib/model/achievements';
 import { getConfig } from './config-helper';
+import { ChallengeTeamToken, ChallengeToken } from 'common';
 
 const {
   ENVIRONMENT,
@@ -113,9 +114,27 @@ router.get(
   CALLBACK_URL,
   passport.authenticate('auth0', { failureRedirect: '/login' }),
   async (request: Request, response: Response) => {
-    const { user, session } = request;
-    const { locale, old_user, old_email, redirect, enrollment } =
-      parseState(request);
+    const {
+      user,
+      query: { state },
+      session,
+    } = request;
+
+    let currentState = {
+      locale: '',
+      old_user: '',
+      old_email: '',
+      redirect: '',
+      enrollment: { challenge: '', team: '', invite: '', referer: '' },
+    };
+
+    if (state && typeof state === 'string') {
+      const bytes = AES.decrypt(state, SECRET);
+      const decryptedData = bytes.toString(enc.Utf8);
+      currentState = JSON.parse(decryptedData);
+    }
+
+    const { locale, old_user, old_email, redirect, enrollment } = currentState;
 
     const basePath = locale ? `/${locale}/` : '/';
     if (!user) {
@@ -129,12 +148,12 @@ router.get(
         session.passport.user = old_user;
       }
       response.redirect('/profile/settings?success=' + success.toString());
-    } else if (enrollment?.challenge && enrollment.team) {
+    } else if (enrollment?.challenge && enrollment?.team) {
       if (
         !(await UserClient.enrollRegisteredUser(
           user.emails[0].value,
-          enrollment.challenge,
-          enrollment.team,
+          enrollment.challenge as ChallengeToken,
+          enrollment.team as ChallengeTeamToken,
           enrollment.invite,
           enrollment.referer
         ))
@@ -142,7 +161,7 @@ router.get(
         // if the user is unregistered, pass enrollment to frontend
         user.enrollment = enrollment;
       } else {
-        // if the user is already registered, now he/she should be enrolled
+        // if the user is already registered, now they should be enrolled
         // [TODO] there should be an elegant way to get the client_id here
         const client_id = await UserClient.findClientId(user.emails[0].value);
         await earnBonus('sign_up_first_three_days', [

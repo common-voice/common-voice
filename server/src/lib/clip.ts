@@ -64,7 +64,6 @@ export default class Clip {
     router.post('/:clipId/votes', this.saveClipVote);
     router.post('*', this.saveClip);
 
-    router.get('/validated_hours', this.serveValidatedHoursCount);
     router.get('/daily_count', this.serveDailyCount);
     router.get('/stats', this.serveClipsStats);
     router.get('/leaderboard', this.serveClipLeaderboard);
@@ -332,10 +331,6 @@ export default class Clip {
       count
     );
     response.json(clips);
-  };
-
-  serveValidatedHoursCount = async (request: Request, response: Response) => {
-    response.json(await this.model.getValidatedHours());
   };
 
   serveDailyCount = async (request: Request, response: Response) => {

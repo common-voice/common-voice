@@ -17,94 +17,82 @@ const NAV_IDS = {
   feedback: 'feedback',
 };
 
-const GetStartedResource = React.memo(
-  ({
-    title,
-    nick,
-    trademark,
-    titleLocalized,
-    image,
-    url,
-    description,
-  }: any) => {
-    Object.keys(description.linkElems).forEach(el => {
-      description.linkElems[el] = (
-        <StyledLink href={description.linkElems[el]} blank />
-      );
-    });
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const GetStartedResource = React.memo((props: any) => {
+  const { title, id, trademark, titleLocalized, image, url, description } =
+    props;
 
-    return (
-      <div key={nick} className="box">
-        <img src={require(`${image}`)} />
-        <div className="dots-and-content">
-          <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
-          <div className="content">
-            <h2>
-              <StyledLink href={url} blank>
-                {titleLocalized ? <Localized id={nick} /> : title}
-              </StyledLink>
-              {trademark ? trademark : ''}
-            </h2>
-            <Localized
-              id={description.localizationId}
-              elems={description.linkElems}>
-              <p />
-            </Localized>
-          </div>
+  Object.keys(description.linkElems).forEach(el => {
+    description.linkElems[el] = (
+      <StyledLink href={description.linkElems[el]} blank />
+    );
+  });
+
+  return (
+    <div key={id} className="box">
+      <img src={require(`${image}`)} alt="" />
+      <div className="dots-and-content">
+        <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
+        <div className="content">
+          <h2>
+            <StyledLink href={url} blank>
+              {titleLocalized ? <Localized id={id} /> : title}
+            </StyledLink>
+            {trademark ? trademark : ''}
+          </h2>
+          <Localized
+            id={description.localizationId}
+            elems={description.linkElems}>
+            <p />
+          </Localized>
         </div>
       </div>
-    );
-  }
-);
+    </div>
+  );
+});
+
+GetStartedResource.displayName = 'GetStartedResource';
 
 const Dataset = React.memo(
-  ({ color, name, nick, size, url, download, license }: any) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  ({ color, name, id, url, download, license }: any) => {
     const [collapsed, setCollapsed] = useState(true);
     return (
       <div className="other-dataset box">
-        <img src={require(`./images/${nick}.jpg`)} alt="" />
+        <img src={require(`./images/${id}.jpg`)} alt="" />
         <div className="dataset-banner" style={{ backgroundColor: color }} />
         <div className="dots-and-content">
           <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
           <div className="content">
             <h2>
               <StyledLink href={url} blank>
-                {name || (
-                  <Localized id={'data-other-' + nick + '-name'}>
-                    <span />
-                  </Localized>
-                )}
+                {name || <Localized id={`data-other-${id}-name`} />}
               </StyledLink>
             </h2>
-            <Localized id={'data-other-' + nick + '-description'}>
-              <p />
-            </Localized>
+            <p>
+              <Localized id={`data-other-${id}-description`} />
+            </p>
             {!collapsed && (
               <ul>
-                {[
-                  [
-                    'cv-license',
+                <li>
+                  <Localized id="cv-license">
+                    <div className="label" />
+                  </Localized>
+                  <div className="value">
                     <Localized id={license.name}>
                       <StyledLink href={license.url}>{license.name}</StyledLink>
-                    </Localized>,
-                  ],
-                  [
-                    'size',
-                    <span>
-                      {size}{' '}
-                      <Localized id="size-gigabyte">
-                        <span />
-                      </Localized>
-                    </span>,
-                  ],
-                ].map(([label, value]) => (
-                  <li key={label as any}>
-                    <Localized id={label as any}>
-                      <div className="label" />
                     </Localized>
-                    <div className="value">{value}</div>
-                  </li>
-                ))}
+                  </div>
+                </li>
+
+                <li>
+                  <Localized id="size">
+                    <div className="label" />
+                  </Localized>
+                  <div className="value">
+                    <Localized id="size-gigabyte" />
+                  </div>
+                </li>
               </ul>
             )}
             <div className="buttons">
@@ -133,19 +121,23 @@ const Dataset = React.memo(
   }
 );
 
-const Section = React.memo(({ name, onChangeIntersection, ...props }: any) => (
+Dataset.displayName = 'Dataset';
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const Section = ({ name, onChangeIntersection, ...props }: any) => (
   <InView
-    onChange={(isVisible, entry) => {
+    onChange={(_isVisible, entry) => {
       const { width, height } = entry.intersectionRect;
       onChangeIntersection(name, width * height);
     }}
     threshold={[0.1, 0.2, 0.3, 0.4, 0.5]}>
-    <a id={name} />
-    <section {...props} />
+    <section id={name} {...props} />
   </InView>
-));
+);
 
-export default React.memo(() => {
+Section.displayName = 'Section';
+
+const Resources = () => {
   const [intersections, setIntersections] = useState({});
   const handleIntersectionChange = (name: string, intersection: number) =>
     setIntersections({ ...intersections, [name]: intersection });
@@ -167,9 +159,9 @@ export default React.memo(() => {
           ].map(([labelId, id]) => (
             <li key={id} className={id == activeSection ? 'active' : ''}>
               <div className="line" />
-              <Localized id={labelId} key={labelId}>
-                <a href={'#' + id} />
-              </Localized>
+              <a href={`#${id}`}>
+                <Localized id={labelId} />
+              </a>
             </li>
           ))}
         </ul>
@@ -180,8 +172,8 @@ export default React.memo(() => {
           name={NAV_IDS.getStarted}
           onChangeIntersection={handleIntersectionChange}
           className="get-started">
-          {getStartedResource.map(props => (
-            <GetStartedResource key={props.nick} {...props} />
+          {getStartedResource.map(resource => (
+            <GetStartedResource key={resource.id} {...resource} />
           ))}
         </Section>
 
@@ -189,8 +181,8 @@ export default React.memo(() => {
           name={NAV_IDS.other}
           onChangeIntersection={handleIntersectionChange}
           className="other-datasets">
-          {datasets.map(props => (
-            <Dataset key={props.nick} {...props} />
+          {datasets.map(dataset => (
+            <Dataset key={dataset.id} {...dataset} />
           ))}
         </Section>
 
@@ -198,25 +190,26 @@ export default React.memo(() => {
           name={NAV_IDS.feedback}
           onChangeIntersection={handleIntersectionChange}>
           <div className="box feedback">
-            <img src={require('./images/feedback.png')} />
+            <img src={require('./images/feedback.png')} alt="" />
             <div className="dots-and-content">
               <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
               <div className="content">
                 <div className="described-button">
-                  <Localized id="your-feedback">
-                    <p />
-                  </Localized>
-                  <Localized id="go-discourse">
-                    <LinkButton href={discourseURL} blank rounded outline />
-                  </Localized>
+                  <p>
+                    <Localized id="your-feedback" />
+                  </p>
+
+                  <LinkButton href={discourseURL} blank rounded outline>
+                    <Localized id="go-discourse" />
+                  </LinkButton>
                 </div>
                 <div className="described-button">
-                  <Localized id="missing-language">
-                    <p />
-                  </Localized>
-                  <Localized id="go-languages-page">
-                    <LinkButton to={URLS.LANGUAGES} rounded outline />
-                  </Localized>
+                  <p>
+                    <Localized id="missing-language" />
+                  </p>
+                  <LinkButton to={URLS.LANGUAGES} rounded outline>
+                    <Localized id="go-languages-page" />
+                  </LinkButton>
                 </div>
               </div>
             </div>
@@ -225,4 +218,8 @@ export default React.memo(() => {
       </div>
     </div>
   );
-});
+};
+
+Resources.displayName = 'Resources';
+
+export default Resources;

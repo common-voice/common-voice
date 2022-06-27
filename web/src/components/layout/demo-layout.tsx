@@ -7,8 +7,6 @@ import { useLocale } from '../locale-helpers';
 import { Spinner } from '../ui/ui';
 import URLS from '../../urls';
 import Intro from '../demo-pages/intro/intro';
-import getDatasetsComponents from '../demo-pages/kiosk/datasets';
-import getDashboardComponents from '../demo-pages/kiosk/dashboard';
 import getCreateAccountComponents from '../demo-pages/kiosk/create-account';
 import getContributeComponents from '../demo-pages/kiosk/contribute-intro';
 import SpeakPage from '../pages/contribution/speak/speak';
@@ -31,11 +29,6 @@ function DemoLayout() {
             component={Intro}
           />
           {[
-            { route: URLS.DEMO_DATASETS, pageContent: getDatasetsComponents() },
-            {
-              route: URLS.DEMO_DASHBOARD,
-              pageContent: getDashboardComponents(),
-            },
             {
               route: URLS.DEMO_CONTRIBUTE,
               pageContent: getContributeComponents(),

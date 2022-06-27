@@ -13,6 +13,8 @@ import InputLanguageAccents from './input-language-accents/input-language-accent
 
 import './languages.css';
 import ExpandableInformation from '../../../../expandable-information/expandable-information';
+import URLS from '../../../../../urls';
+import { LocaleLink } from '../../../../locale-helpers';
 
 export type AccentsAll = {
   [locale: string]: {
@@ -115,7 +117,6 @@ function ProfileInfoLanguages({
             </Localized>
           </ExpandableInformation>
         )}
-
         {hasUserLanguages && (
           <ExpandableInformation summaryLocalizedId="help-accent">
             <Localized id="help-accent-explanation">
@@ -123,7 +124,6 @@ function ProfileInfoLanguages({
             </Localized>
           </ExpandableInformation>
         )}
-
         <Button
           className="add-language"
           outline
@@ -140,6 +140,15 @@ function ProfileInfoLanguages({
             <span className="no-languages" />
           </Localized>
         )}
+
+        <div style={{ marginTop: 10 }}>
+          <Localized id="request-language-text" />{' '}
+          <LocaleLink to={URLS.LANGUAGE_REQUEST} className="link">
+            <Localized id="request-language-button">
+              <i />
+            </Localized>
+          </LocaleLink>
+        </div>
       </div>
     </>
   );

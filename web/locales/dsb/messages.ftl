@@ -17,6 +17,7 @@ not-available-abbreviation = Nic k dispoziciji
 banner-error-slow-1 = Bóžko Common Voice pómału běžy. Źěkujomy se za waš zajm.
 banner-error-slow-2 = Dostawamy wjele wobchada a pśepytujomy tuchylu problemy.
 banner-error-slow-link = Statusowy bok
+error-something-went-wrong = Hopla, něco njejo se raźiło
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -55,6 +56,7 @@ da = Dańšćina
 de = Nimšćina
 dsb = Dolnoserbšćina
 dv = Dhivehi
+dyu = Dioula
 el = Grichišćina
 en = Engelšćina
 eo = Esperanto
@@ -123,12 +125,16 @@ my = Burmašćina
 myv = Erzya
 nan-tw = Taiwańšćina (Minnan)
 nb-NO = Norwegski Bokmål
+nd = IsiNdebele (pódpołnocny)
 ne-NP = Nepalšćina
 nia = Niašćina
 nl = Nižozemšćina
 nn-NO = Norwegski Nynorsk
+nr = IsiNdebele (pódpołdnjowy)
+nso = Pódpołnocna sothošćina
 nyn = Nkorešćina
 oc = Okcitańšćina
+om = Afaan Ormoo
 or = Odiašćina
 pa-IN = Pundžabšćina
 pap-AW = Papiamento (Aruba)
@@ -154,6 +160,8 @@ sl = Słowjeńšćina
 so = Somališćina
 sq = Albanšćina
 sr = Serbišćina
+ss = Siswatišćina, Siswati
+st = Sesothošćina
 sv-SE = Šwedšćina
 sw = Swahilišćina, Swahili
 syr = Syrišćina
@@ -165,8 +173,10 @@ ti = Tigrinja
 tig = Tigre
 tk = Turkmeńšćina
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turkojšćina
+ts = Tsongašćina
 tt = Tataršćina
 tw = Twi
 ty = Tahitišćina
@@ -176,15 +186,18 @@ ug = Ujguršćina
 uk = Ukrainšćina
 ur = Urdu
 uz = Uzbekišćina
+ve = Venda
 vec = Wenecianišćina
 vi = Vietnamšćina
 vot = Wotšćina
+xh = Xhosa
 yi = Jiddišćina
 yo = Joruba
 yue = Kantonšćina
 zh-CN = Chinšćina (China)
 zh-HK = Chinšćina (Hong Kong)
 zh-TW = Chinšćina (Taiwan)
+zu = Zulušćina, Zulu
 
 # [/]
 
@@ -318,7 +331,6 @@ shortcut-discard-ongoing-recording-label = Běžne nagraśe zachyśiś
 shortcut-submit = Zapódaśe
 shortcut-submit-label = Klipy wótpósłaś
 request-language-text = Waša rěc hyšći njejo na Common Voice?
-request-language-text-learn = Zgóńśo, kak móžośo to how póžedaś!
 request-language-button = Rěc pominaś
 
 ## ProjectStatus
@@ -413,6 +425,7 @@ gravatar_not_found = Njejo se namakał žeden gravatar za wašu e-mail
 file_too_large = Wubrana dataja jo pśewjelika
 avatar-uploaded = Awatar jo se nagrał
 max-file-size = { $kb } kb maks.
+remove-avatar = Awatar wótwónoźeś
 
 ## Profile - Email
 
@@ -453,7 +466,9 @@ faq-why-different-speakers-a =
     Nejwěcej głosowych datowych bankow se z nadreprezentaciju wěstych demografijow treněrujo, pśez kótarež se <articleLink>muskece a žeńscyne wobźělniki a wobźělniki srjejźneje klase</articleLink> preferěruju. Akcenty a dialekty, kótarež su zwětšego pódreprezentěrowane w datowych sajźbach su typiski zwězane ze kupkami luźi, kótarež su južo na kšomu śišćane. Wjele mašinow ma južo śěže, žeńscyne głose rozměś.
     Togodla comy wjelerakosć w swójej głosowej datowej bance!
 faq-why-my-lang-q = Cogodla mója rěc hyšći njedajo?
-faq-why-my-lang-new-a = Mozilla se wěstu rěc njewusněkujo a wěste rěcy njepreferěrujo. Město togo jo Common Voice iniciatiwa, kótaraž se dopołnje wót zgromaźeństwa doprědka póra, ale su trěbne <multilangLink>někotare kšace, aby se nowa rěc pśidała</multilangLink> a aby se gromaźenje rěcnych darow zachopiło. Nejpjerwjej musy se websedło Common Voice pśełožowaś, aby cłonki zgromaźeństwa pśistup k nazgónjenjam sobustatkujucych w swójej rěcy měli. Ako pśiduce trjebamy wjeliku zběrku sadow bźez awtorskopšawniskego šćita, kótrež luźe mógu głosnje pśedcytaś. Gaž stej toś tej pominani docynjonej, sr rěv na Common Voice "startujo", aby luźe mógli swój głos nagraś a dary drugich wobkšuśiś. Jolic cośo pomagaś, nowu rěc startowaś, woglědajśo se naš <sentenceCollectorLink>rěd za gromaźenje sadow</sentenceCollectorLink>, aby zachopił.
+faq-why-my-lang-a =
+    Common Voice jo crowdsourcingowa platforma, a rěcy su se pśidali wót dobrowólnikow.
+    My by rady pśidali wašu rěc! <languageRequestLink>Wó pśidawanje wašeje rěcy pšosyś.</languageRequestLink>
 faq-what-quality-q = Kótara awdiokwalita jo trěbna, aby se głosowy klip w datowej sajźbje wužywał?
 faq-what-quality-a = Comy, až datowa sajźba Common Voice awdiokwalitu wótbłyšćujo, kótaruž mašina powědanja do teksta w lichej pśiroźe słyša, pytamy pótakem za wjelerakosću. Mimo wjelerakego zgromaźeństwa powědarjow, datowa sajźba ze wšakeju awdiokwalitu mašinu powědanja do teksta wuzamóžnijo, z rozdźělnymi situacijami z napšawdnego žywjenja wobchadaś, wót rozgronow w slězynje do  awtowego zogola. Tak dłujko ako waš głosowy klip jo k rozměśu, dejał dobry dosć za datowu sajźbu byś.
 faq-why-10k-hours-q = Cogodla jo 10.000 pśeglědanych góźinow na rěc cel za awdionagraśe?
@@ -520,17 +535,12 @@ about-dataset-new = Datowa sajźba Common Voice
 about-dataset-new-text = Datowa sajźba Common Voice stotysacy głosowych pśikładow wopśimujo, kótarež wuwijarjam pomagaju, rědy za spóznawanje głosow napóraś.
 about-clip-graveyard = Klipowy kjarchob
 about-clip-graveyard-text = Klipowy kjarchob z głosowych klipow wobstoj, kótarymž njejo se raźiło, se do datoweje sajźby Common Voice dostaś. Ako datowa sajźba jo klipowy kjarchob za ześěgnjenje k dispoziciji.
-about-partners = Partnarje
-about-become-a-partner = Buźćo partnaŕ
-about-partnership =
-    Common Voice jo projekt zgromaźeństwa a wótwisujomy wót našogo zgromaźeństwa z partnarjow a sobustatkujucych, aby nejwětšu datowu sajźbu wótwórjonego žrědła wuwijał.
-    
-    Comy se slědujucym luźam a organizacijam za jich pomoc na projekśe źěkowaś:
 about-get-involved = Cyńśo sobu
 about-get-involved-text-2 =
     Cośo pomagaś, Common Voice pólěpšyś?
     Wjelicnje! Stajśo se z nami pśez e-mail abo we forumach <discourseLink>Discourse</discourseLink>  do zwiska, sćelśo sedłowe problemy pśez <githubLink>Github</githubLink> abo woglědajśo se k nam w chaśe zgromaźeństwa <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Kak mógu w zwisku wóstaś?
+about-stay-in-touch-button = Registrěrowaś
 about-stay-in-touch-text-1 = <emailFragment>Registrěrujśo se</emailFragment> za našu rozesćełańsku lisćinu, aby zgónił, kak móžośo se na kampanjach, tšojenjach a kodesignych funkcijach na Common Voice wobźěliś.
 about-stay-in-touch-text-2 = Pśzamkniśo se <discourseLink>Discourse</discourseLink> za temowe rozgrona abo <matrixLink>Matrix</matrixLink> za malsnu radu, aby se z drugimi luźami w rěcnych zgromaźeństwach Mozilla zmakał.
 about-nav-why-common-voice = Cogodla?
@@ -551,8 +561,15 @@ about-playbook-what-is-language-content-3 = Někotare rěcy maju enormne rozdź�
 
 about-playbook-how-add-language = Kak mógu rěc pśidaś?
 about-playbook-how-add-language-content-1 = Pśeglědajśo nejpjerwjej, lěc waša rěc <languageLink>južo eksistěrujo</languageLink>. Jolic nic, musyśo <strong>sedło pśełožowaś a sady gromaźiś</strong>.
-about-playbook-how-add-language-content-2 = <strong>Aby sedło pśełožował</strong> – <translateVideo>konfigurěrujśo</translateVideo> na <pontoonLink>Pontoon</pontoonLink>. Pontoon ma wjele rěcow, ale jolic waša rěc tam njejo, móžośo <pontoonRequestLink>póžedanje na nju stajiś</pontoonRequestLink>. Pšosćo pón <repoLink>na GitHub</repoLink>, aby se projekt Common Voice za swóju rěc k dispoziciji stajił. Glejśo dalšne informacije wó <localizationFragment>pśełožowanju sedła</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>Aby sady gromaźił</strong> - <scVideo>konfigurěrujśo</scVideo> <scLink>Sentence Collector</scLink>.
+about-playbook-how-add-language-translating-heading = Sedło pśełožowaś
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Cytajśo naš wjednik, kak móžośo Pontoon wužywaś.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Sady gromaźiś
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Cytajśo naš wjednik wó wužywanju gromaźak sadow</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Móžośo <sentenceCollectorLinkAdd>mało sadow</sentenceCollectorLinkAdd> pśidaś
+    abo <bulkImportDocsLink>gromady z pomocu Githubs importěrowaś</bulkImportDocsLink>.
+    Njezabywajśo, až sady muse <licenseLink>CC0 (abo za wše wužytne) byś</licenseLink>, móžośo pak teke swójske spisaś.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Glejśo wěcej wó gromaźenju sadow</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -599,12 +616,6 @@ about-playbook-how-project-governance = Kak se wó projektach rozsuźuju?
 about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transparenca.
 about-playbook-how-project-governance-content-5 = Gódnota a pśipóznaśe.
 about-playbook-how-project-governance-content-6 = Mjazsobna rozpšawniska winowatosć.
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Kumštna inteligenca
-mycroft-description =
-    Mycroft jo prědny asistent wótwórjonego žrědła swěta.
-    Mycroft wšuźi běžy - na desktopowem licadle, w auśe abo na Raspberry Pi.
-mycroft-secondary-description = To jo softwara wótwórjonego žrědła, kótaraž dajo se dermotnje znowego měšaś, rozšyriś a pólěpšyś. Mycroft dajo se za wšykno wužywaś, wót wědomnostnego projekta do pśedewześoweje softwary.
 
 ## Glossary
 
@@ -663,6 +674,7 @@ review-delete-recordings = Nagraśa wulašowaś
 
 ## Datasets Page
 
+datasets-heading = Datowe sajźby
 datasets-headline = Twórimy wěcejrěcnu datowu sajźbu głosow wótwórjonego žrědła, kótaruž móžo kuždy wužywaś, aby powědańske nałoženja treněrował.
 datasets-positioning =
     Wěrimy, až wjelike, zjawnje k dispoziciji stojece datowe sajźby inowaciju a strowe komercielne wuběźowanje w powědańskej technologiji na zakłaźe mašinowego wuknjenja spěchuju.
@@ -747,6 +759,28 @@ request-language-success-content = Dajomy wjelgin skóro z dalšnymi informacija
 select-language = Rěc wubraś...
 other-language = Druga rěc
 
+## Request Language Pages
+
+request-language-heading = Wó nowu rěc pšosyś
+request-language-explanation-1 =
+    Pśeglědajśo, lěc waša rěc jo pódana na
+    <languagesPageLink>boku rěcow Common Voice</languagesPageLink>.
+    Jolic nic, wupołniśo toś ten formular a <strong>buźomy wam wužytnu mejlku, kótaraž wujasnjujo, kak móžośo swóju rěc zarědowaś</strong>.
+request-language-form-email =
+    .label = Waša e-mailowa adresa
+request-language-form-info =
+    .label = Informacije wó rěcy
+request-language-form-info-explanation =
+    Pśidajće tak wjele informacije ako móžno wó rěcy. Na
+    pśikład:
+request-language-form-info-explanation-list-1 = Mjenja wašeje rěcy
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-kody</isoCodeLink>, jolic su znate
+request-language-form-info-explanation-list-3 = Wótkaze na websedła, kótarež mógu nam pomagaś, rěc rozměś
+request-language-google-recaptcha-required = reCAPTCHA jo trjebny, jolic cośo pókšacowaś
+request-language-google-recaptcha-error = Něco njejo se raźiło z reCAPTCHA. Pšosym wopytajśo hyšći raz.
+# Success page
+request-language-success-heading = Wjeliki źěk! Sćo pósłał pšosbu wó nowu rěc
+
 ## Languages Overview
 
 language-section-in-progress = W pśigótowanju
@@ -762,7 +796,8 @@ language-search-input =
 language-speakers = Powědarje
 localized = Pśełožony
 sentences = Sady
-total-hours = Góźiny dogromady
+language-validation-hours = Góźiny
+language-validation-progress = Pśeglědowański póstup
 
 ## Contribution
 
@@ -1441,7 +1476,6 @@ sc-review-link = Pógódnośiś
 
 sc-settings-title = Nastajenja
 sc-settings-ui-language = Rěc wužywaŕskego pówjercha
-sc-settings-language-translated-warning = Boki za toś tu rěc njejsu snaź dopołnje pśełožone. Móžośo z pśełožowanim <pontoonLinkLink>na Pontoon</pontoonLinkLink> wupomogaś.
 sc-settings-reset-skipped = Pśeskócone sady slědk stajiś
 sc-settings-skipped-decription = Sćo do toho pśeskócył sady pśi pógódnośenju. Slědkstajanje pśeskóconych sadow buźo wšykne pśeskócone sady znowego pokazowaś. To jo njewótwisne wót rěcy.
 sc-settings-show-all-button = Wšykne pśeskócone sady hyšći raz pokazaś

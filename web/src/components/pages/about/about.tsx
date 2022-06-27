@@ -1,6 +1,5 @@
 import * as React from 'react';
 import cx from 'classnames';
-import Partners from './partners';
 import Nav from './nav';
 import { SECTIONS } from './constants';
 import HowItWorks from './how-it-works';
@@ -10,13 +9,15 @@ import WhyCommonVoice from './why-common-voice';
 import Subscribe from '../../email-subscribe-block/subscribe';
 import useActiveSection from '../../../hooks/use-active-section';
 
+import Page from '../../ui/page';
+
 import './about.css';
 
 const About: React.ComponentType = React.memo(() => {
   const activeSection = useActiveSection(Object.values(SECTIONS));
 
   return (
-    <section className="about-main-container">
+    <Page className="about-main-container">
       {[
         [SECTIONS.WHY_COMMON_VOICE, WhyCommonVoice],
         [
@@ -50,8 +51,10 @@ const About: React.ComponentType = React.memo(() => {
           </section>
         );
       })}
-    </section>
+    </Page>
   );
 });
+
+About.displayName = 'About';
 
 export default About;

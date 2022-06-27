@@ -8,9 +8,10 @@ module.exports = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'json'],
   moduleNameMapper: {
     '^.+\\.svg$': 'jest-svg-transformer',
-    '.+\\.(css|png|jpg)$': 'jest-transform-stub',
+    '^.+\\.(png|jpg)$': 'jest-transform-stub',
+    '^.+\\.css$': 'identity-obj-proxy',
   },
-  setupFiles: ['<rootDir>/src/test/jest.setup.js'],
+  setupFiles: ['<rootDir>/test/jest.setup.js'],
   globals: {
     'ts-jest': {
       tsconfig: 'tsconfig.test.json',

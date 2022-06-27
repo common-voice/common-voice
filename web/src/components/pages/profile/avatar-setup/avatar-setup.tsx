@@ -13,6 +13,7 @@ import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
 import { Uploads } from '../../../../stores/uploads';
 import { CheckIcon, LinkIcon } from '../../../ui/icons';
+import { Avatar, Button, Spinner } from '../../../ui/ui';
 
 import './avatar-setup.css';
 
@@ -102,32 +103,65 @@ interface Props
 
 interface State {
   isSaving: boolean;
+  interval: ReturnType<typeof setInterval> | undefined;
+  jobId: number | undefined;
 }
 
 class AvatarSetup extends React.Component<Props, State> {
   state: State = {
     isSaving: false,
+    interval: undefined,
+    jobId: undefined,
   };
 
+  componentDidUpdate(prevProps: Props, prevState: State) {
+    if (prevState.isSaving !== this.state.isSaving) {
+      clearInterval(this.state.interval);
+    }
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.state.interval);
+  }
+
   async saveFileAvatar(files: FileList) {
-    const { addNotification, api, getString, locale, refreshUser } = this.props;
+    const { addNotification, api, getString, locale } = this.props;
     this.setState({ isSaving: true });
 
     try {
       const image = await resizeImage(files.item(0), 200);
-      await api.saveAvatar('file', image);
+      const { error, id } = await api.saveAvatar('file', image);
+      if (error) throw new Error(error);
+      this.setState({ jobId: id });
+      this.setState({
+        interval: setInterval(this.getPolling.bind(this), 1500),
+      });
       addNotification(getString('avatar-uploaded'));
       trackProfile('give-avatar', locale);
-      refreshUser();
     } catch (e) {
       if (e.message.includes('too_large')) {
-        addNotification(getString('file_' + e.message));
+        addNotification(getString('file_' + e.message), 'error');
       } else {
-        addNotification(e.message);
+        addNotification(e.message, 'error');
       }
+      this.setState({
+        isSaving: false,
+      });
     }
+  }
 
-    this.setState({ isSaving: false });
+  async getPolling() {
+    const { jobId } = this.state;
+    const { api, refreshUser } = this.props;
+    try {
+      const { finishedOn } = await api.getJob(jobId);
+      if (finishedOn) {
+        this.setState({ isSaving: false });
+        refreshUser();
+      }
+    } catch (e) {
+      this.setState({ isSaving: false });
+    }
   }
 
   render() {
@@ -138,19 +172,46 @@ class AvatarSetup extends React.Component<Props, State> {
       refreshUser,
       user: { account },
     } = this.props;
-
+    const { isSaving } = this.state;
     const avatarType =
       account.avatar_url &&
       account.avatar_url.startsWith('https://gravatar.com')
         ? 'gravatar'
         : null;
-
+    if (isSaving) {
+      return <Spinner delayMs={500} />;
+    }
     return (
       <div className="full-avatar-setup">
         {account.avatar_url && (
           <div className="avatar-current">
             <div className="avatar-wrap">
               <img src={account.avatar_url} />
+            </div>
+            <Button
+              outline
+              rounded
+              style={{ marginTop: '10px' }}
+              onClick={async () => {
+                this.setState({ isSaving: true });
+                const { error } = await api.saveAvatar('default');
+                if (['not_found'].includes(error)) {
+                  addNotification(getString('gravatar_' + error));
+                }
+
+                if (!error) {
+                  refreshUser();
+                }
+                this.setState({ isSaving: false });
+              }}>
+              <Localized id="remove-avatar" />
+            </Button>
+          </div>
+        )}
+        {!account.avatar_url && (
+          <div className="avatar-current">
+            <div className="avatar-wrap">
+              <Avatar />
             </div>
           </div>
         )}
@@ -203,9 +264,7 @@ class AvatarSetup extends React.Component<Props, State> {
               }
               this.setState({ isSaving: false });
             }}>
-            <Localized id="connect-gravatar">
-              <span />
-            </Localized>{' '}
+            <Localized id="connect-gravatar" />{' '}
             {avatarType == 'gravatar' ? (
               <CheckIcon className="check" />
             ) : (

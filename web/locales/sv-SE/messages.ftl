@@ -56,6 +56,7 @@ da = Danska
 de = Tyska
 dsb = Lågsorbiska
 dv = Dhivehi
+dyu = Dioula
 el = Grekiska
 en = Engelska
 eo = Esperanto
@@ -124,12 +125,16 @@ my = Burmesiska
 myv = Erzya
 nan-tw = Taiwanesiska (Minnan)
 nb-NO = Norska Bokmål
+nd = Nordndebele
 ne-NP = Nepali
 nia = Nias
 nl = Nederländska
 nn-NO = Norska, nynorska
+nr = Sydndebele
+nso = Nordsotho
 nyn = Nyankole
 oc = Occitanska
+om = Oromo
 or = Odia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
@@ -155,6 +160,8 @@ sl = Slovenska
 so = Somaliska
 sq = Albanska
 sr = Serbiska
+ss = Siswati
+st = Sesotho
 sv-SE = Svenska
 sw = Swahili
 syr = Syriska
@@ -166,8 +173,10 @@ ti = Tigrinska
 tig = Tigre
 tk = Turkmeniska
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turkiska
+ts = Tsonga
 tt = Tatariska
 tw = Twi
 ty = Tahitiska
@@ -177,15 +186,18 @@ ug = Uiguriska
 uk = Ukrainska
 ur = Urdu
 uz = Uzbekistanska
+ve = Venda
 vec = Venetianska
 vi = Vietnamesiska
 vot = Votiska
+xh = Xhosa
 yi = Jiddisch
 yo = Yoruba
 yue = Kantonesiska
 zh-CN = Kinesiska (Kina)
 zh-HK = Kinesiska (Hong Kong)
 zh-TW = Kinesiska (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -316,7 +328,6 @@ shortcut-discard-ongoing-recording-label = Ignorera pågående inspelning
 shortcut-submit = Återgå
 shortcut-submit-label = Skicka in klipp
 request-language-text = Kan du inte se ditt språk på Common Voice än?
-request-language-text-learn = Lär dig hur du kan begära det här!
 request-language-button = Skicka en förfrågan
 
 ## ProjectStatus
@@ -409,6 +420,7 @@ gravatar_not_found = Ingen gravatar hittades för din e-postadress
 file_too_large = Den valda filen är för stor
 avatar-uploaded = Avatar uppladdad
 max-file-size = max { $kb } kb
+remove-avatar = Ta bort avatar
 
 ## Profile - Email
 
@@ -454,7 +466,9 @@ faq-why-different-speakers-a =
     De flesta taldatabaser tränas med en överrepresentation av en viss demografi vilket resulterar i en partiskhet mot <articleLink>man och medelklass</articleLink>. Accenter och dialekter som tenderar att vara underrepresenterade i träningsdata är vanligtvis förknippade med grupper av människor som redan är marginaliserade. Många maskiner kämpar också för att förstå kvinnliga röster.
     Det är därför vi vill ha variation i vår röstdatabas!
 faq-why-my-lang-q = Varför är inte mitt språk inkluderat än?
-faq-why-my-lang-new-a = Mozilla väljer inte eller favoriserar ett språk över ett annat. Istället är Common Voice ett rent community-drivet initiativ, men det krävs <multilangLink>flera steg att lägga till ett nytt språk</multilangLink> och att börja samla röstdonationer. Först måste Common Voice-webbplatsen översättas så att medlemmar i communityn kan få tillgång till det på sitt eget språk. Därefter behöver vi en stor samling upphovsrättsfria meningar som människor ska kunna läsa upp. När båda dessa krav är uppfyllda, lanseras ett språk på Common Voice för att folk ska börja spela in sin röst och att bekräfta andras donationer. Om du vill hjälpa till att starta ett nytt språk går du vidare till vårt <sentenceCollectorLink>verktyg för meningsinsamling</sentenceCollectorLink> för att komma igång.
+faq-why-my-lang-a =
+    Common Voice är en crowdsourcing-plattform, och alla språken har lagts till av frivilliga.
+    Vi vill gärna att du lägger till ditt språk! <languageRequestLink>Fråga om att lägga till ditt språk.</languageRequestLink>
 faq-what-quality-q = Vilken nivå på ljudkvalitet krävs för att ett röstklipp ska kunna användas i datamängden?
 faq-what-quality-a = Vi vill att Common Voice-datamängd ska återspegla ljudkvaliteten som en tal-till-text-motor kommer att höra naturligt, så vi letar efter en variation. Förutom en blandning av talare kommer en datamängd med varierande ljudkvalitet att lära tal-till-text-motorn att hantera olika verkliga situationer, från samtal i bakgrunden till oljud från en bil. Så länge ditt röstklipp är förståeligt ska det vara tillräckligt bra för datamängden.
 faq-why-10k-hours-q = Varför är 10 000 validerade timmar per språk målet för inspelat ljud?
@@ -524,12 +538,6 @@ about-dataset-new = Common Voice datamängd
 about-dataset-new-text = Common Voice datamängd innehåller hundratusentals röstprover som hjälper utvecklare att skapa röstigenkänningsverktyg.
 about-clip-graveyard = Klippkyrkogården
 about-clip-graveyard-text = Klippkyrkogården består av röstklipp som inte platsar i Common Voice-datamängd. Precis som datamängden är klippkyrkogården tillgänglig för nedladdning.
-about-partners = Partners
-about-become-a-partner = Bli en partner
-about-partnership =
-    Common Voice är ett samarbetsprojekt och vi är beroende av våra samarbetspartners och medarbetares sammansättning för att skapa den största datamängden med öppen källkod för röster någonsin.
-    
-    Vi vill tacka följande personer och organisationer för deras hjälp med projektet:
 about-get-involved = Engagera dig
 about-get-involved-text-2 =
     Vill du göra Common Voice ännu bättre?
@@ -537,6 +545,7 @@ about-get-involved-text-2 =
     forum, skicka webbplatsfrågor via <githubLink>GitHub</githubLink> eller gå med i
     <matrixLink>Matrix</matrixLink> communitychatt.
 about-stay-in-touch = Hur håller jag kontakten?
+about-stay-in-touch-button = Registrera dig
 about-stay-in-touch-text-1 = <emailFragment>Anmäl dig</emailFragment> till vår e-postlista för att lära dig hur du kan ta del av kampanjer, evenemang och samarbetsdesignfunktioner på Common Voice.
 about-stay-in-touch-text-2 = Du kan träffa andra i Mozillas språkgemenskaper genom att gå med i <discourseLink>Discourse</discourseLink> för aktuella samtal eller <matrixLink>Matrix</matrixLink> för snabba råd.
 about-nav-why-common-voice = Varför ?
@@ -558,9 +567,20 @@ about-playbook-what-is-language-content-3 = Vissa språk har enorm variation i g
 
 about-playbook-how-add-language = Hur lägger jag till ett språk?
 about-playbook-how-add-language-content-1 = Kontrollera först om ditt språk <languageLink>redan finns</languageLink>. Om det inte gör det måste du <strong>översätta webbplatsen och samla meningar</strong>.
-about-playbook-how-add-language-content-2 = <strong>För att översätta webbplatsen</strong> - <translateVideo>konfigurera</translateVideo <pontoonLink>Pontoon</pontoonLink>. Pontoon har många språk, men om det inte har ditt kan du <pontoonRequestLink>begära det</pontoonRequestLink>. Be sedan <repoLink>via GitHub</repoLink> att få Common Voice-projektet tillgängligt för språket. Se mer om <localizationFragment>webbplatsöversättning</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>För att samla in meningar</strong> - <scVideo>konfigurera</scVideo> <scLink>meningsinsamlaren</scLink>.
-about-playbook-how-add-language-content-4 = Du kan <scLinkAdd>lägga till ett litet antal</scLinkAdd> meningar här eller så kan du göra <bulkImportDocsLink>massimport</bulkImportDocsLink> via en Github-förfrågan. Kom ihåg att meningar måste vara <licenseLink>CC0 (eller allmän egendom)</licenseLink> eller så kan du skriva din egen. Se mer om <scFragment>meningsinsamling</scFragment>.
+about-playbook-how-add-language-translating-heading = Översätt webbplatsen
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Se vår guide om hur du använder Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Vi använder ett Mozilla-verktyg som heter <pontoonLink>Pontoon</pontoonLink> för översättningar. Pontoon har många språk,
+    men om den inte har ditt kan du <pontoonRequestLink>begära att ditt språk läggs till</pontoonRequestLink>.
+    Sedan, för att göra språket tillgängligt i Common Voice-projektet,
+    <githubRepoLink>begär det nya språket på GitHub</githubRepoLink>. <localizationFragment>Se mer på webbplatsöversättning</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Samla in meningar
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Se vår guide om hur du använder meningssamlaren</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Du kan <sentenceCollectorLinkAdd>lägga till ett litet antal meningar</sentenceCollectorLinkAdd>,
+    eller så kan du göra <bulkImportDocsLink>bulkimporter med Github</bulkImportDocsLink>.
+    Kom ihåg att meningar måste vara <licenseLink>CC0 (eller allmän egendom)</licenseLink>, eller så kan du skriva din egen.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Se mer om meningsinsamling</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -624,12 +644,6 @@ about-playbook-how-project-governance-content-4 = Gemenskapens deltagande och be
 about-playbook-how-project-governance-content-5 = Värde och erkännande.
 about-playbook-how-project-governance-content-6 = Ömsesidigt ansvar.
 about-playbook-how-project-governance-content-7 = <governanceLink>Läs mer om hur vi styrs</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Artificiell intelligens
-mycroft-description =
-    Mycroft är världens första assistent med öppen källkod. 
-    Mycroft körs var som helst - på en stationär dator, inuti en bil, eller på en Raspberry Pi.
-mycroft-secondary-description = Detta är öppen källkodsprogramvara som kan remixas, utvidgas och förbättras fritt. Mycroft kan användas i allt från ett vetenskapligt projekt till en företagsprogramvara.
 
 ## Glossary
 
@@ -688,6 +702,7 @@ review-delete-recordings = Ta bort mina inspelningar
 
 ## Datasets Page
 
+datasets-heading = Datamängder
 datasets-headline = Vi skapar en flerspråkig röstinspelning med öppen källkod som alla kan använda för att träna röstbaserade applikationer.
 datasets-positioning =
     Vi tror att stora, allmänt tillgängliga röstdatamängder kommer att främja innovation och hälsosam kommersiell konkurrens i maskinlärande baserad talteknik.
@@ -772,6 +787,47 @@ request-language-success-content = Vi hör av oss med mer information om hur du 
 select-language = Välj ett språk...
 other-language = Andra språk
 
+## Request Language Pages
+
+request-language-heading = Fråga om ett nytt språk
+request-language-explanation-1 =
+    Kontrollera om ditt språk finns med på sidan
+    <languagesPageLink>Common Voice Languages</languagesPageLink>.
+    Om inte, fyll i det här formuläret så <strong>skickar vi dig ett praktiskt
+    e-postmeddelande som förklarar hur du ställer in ditt språk</strong>.
+request-language-explanation-2 =
+    Vi kommer också att <strong>låta vår community manager veta
+    att du är intresserad</strong>, så att de kan ge dig all extra support
+    eller information du kan behöva.
+request-language-form-email =
+    .label = Din e-postadress
+request-language-form-info =
+    .label = Information om språket
+request-language-form-info-explanation =
+    Lägg till så mycket information du kan om språket. Detta
+    kan inkludera:
+request-language-form-info-explanation-list-1 = Namn på ditt språk
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koder</isoCodeLink> om kända
+request-language-form-info-explanation-list-3 = Länkar till webbplatser som kan hjälpa oss att förstå språket
+request-language-google-recaptcha-required = reCAPTCHA krävs om du vill fortsätta
+request-language-google-recaptcha-error = Något gick fel med reCAPTCHA. Var god försök igen.
+# Success page
+request-language-success-heading = Tack! Du har skickat en ny språkförfrågan
+request-language-success-list-1 =
+    Du bör få ett e-postmeddelande inom kort som förklarar
+    stegen för att lägga till ditt språk i Common Voice
+request-language-success-list-2 =
+    Vår community manager kommer att kontakta dig för att
+    erbjuda extra support och för att meddela dig om det redan
+    finns en community som arbetar med ditt språk
+request-language-success-list-3 =
+    Om du inte hör från oss inom ett par dagar,
+    kontakta <emailLink>{ $email }</emailLink>
+    så återkommer vi till dig!
+request-language-error =
+    Vi kanske inte har fått den begäran. Vänligen maila oss direkt
+    på <emailLink>{ $email }</emailLink> så återkommer vi till dig!
+
 ## Languages Overview
 
 language-section-in-progress = Pågående
@@ -787,7 +843,8 @@ language-search-input =
 language-speakers = Talas av
 localized = Översatt
 sentences = Meningar
-total-hours = Validerade timmar
+language-validation-hours = Timmar
+language-validation-progress = Valideringsförlopp
 
 ## Contribution
 
@@ -1441,7 +1498,6 @@ sc-review-link = Granska
 
 sc-settings-title = Inställningar
 sc-settings-ui-language = Gränssnittsspråk
-sc-settings-language-translated-warning = Sidorna för detta språk kanske inte är helt översatta. Du kan hjälpa till med översättning <pontoonLinkLink>på Pontoon</pontoonLinkLink>.
 sc-settings-reset-skipped = Återställ överhoppade meningar
 sc-settings-skipped-decription = Du hoppade över meningar tidigare när du granskade. Om du återställer överhoppade meningar visas alla överhoppade meningar igen. Detta är oberoende av språket.
 sc-settings-show-all-button = Visa alla överhoppade meningar igen

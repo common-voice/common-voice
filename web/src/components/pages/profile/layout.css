@@ -1,30 +1,7 @@
 @import url('../../media.css');
 
-.profile {
-    &.info,
-    &.avatar,
-    &.settings,
-    &.delete,
-    &.download {
-        & header {
-            @media (--lg-up) {
-                max-width: var(--wide-desktop-width);
-            }
-        }
-
-        & #content {
-            padding: 0;
-            max-width: none;
-
-            & > div {
-                padding: 0;
-                max-width: none;
-            }
-        }
-    }
-}
-
 .profile-layout {
+    width: 100%;
     display: flex;
     flex-direction: column;
 
@@ -129,7 +106,6 @@
     }
 
     & .content {
-        box-sizing: border-box;
         max-width: 905px;
         width: 100%;
         min-height: 500px;

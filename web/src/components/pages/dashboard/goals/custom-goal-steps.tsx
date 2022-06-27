@@ -8,9 +8,9 @@ import { useAccount, useIsSubscribed } from '../../../../hooks/store-hooks';
 import { useRouter } from '../../../../hooks/use-router';
 import { getManageSubscriptionURL } from '../../../../utility';
 import {
-  contributableLocales,
   LocaleLink,
   useLocale,
+  useContributableLocales,
 } from '../../../locale-helpers';
 import ShareModal from '../../../share-modal/share-modal';
 import {
@@ -23,7 +23,6 @@ import {
 } from '../../../ui/icons';
 import { Button, LabeledSelect, LinkButton } from '../../../ui/ui';
 import { CircleProgress, Fraction } from '../ui';
-import { useEffect } from 'react';
 
 const Buttons = ({ children, ...props }: React.HTMLProps<HTMLDivElement>) => (
   <div className="buttons padded" {...props}>
@@ -107,6 +106,7 @@ interface AccountProps {
 
 export default [
   withLocalization(({ getString, dashboardLocale, nextButtonProps }: any) => {
+    const contributableLocales = useContributableLocales();
     const { history } = useRouter();
     const [, toLocaleRoute] = useLocale();
     const [locale, setLocale] = useState('');

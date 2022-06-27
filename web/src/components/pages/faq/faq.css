@@ -28,7 +28,6 @@
     }
 
     & .faq-header {
-        box-sizing: border-box;
         transition: opacity var(--transition-duration-slow) var(--easing);
         max-width: var(--desktop-width);
         margin-right: auto;
@@ -128,7 +127,6 @@
     }
 
     .faq-container {
-        box-sizing: border-box;
         transition: opacity var(--transition-duration-slow) var(--easing);
         max-width: var(--desktop-width);
         margin-right: auto;
@@ -190,8 +188,6 @@
             }
 
             & ul {
-                margin: 0;
-                padding: 0;
                 list-style: none;
 
                 @media (--md-down) {
@@ -338,7 +334,7 @@
 
     & .question-block {
         width: 50%;
-        box-sizing: border-box;
+
         padding: 0 3rem;
         z-index: var(--middle-z-index);
 
@@ -497,7 +493,7 @@
             & input,
             & button {
                 height: 80px;
-                box-sizing: border-box;
+
                 position: relative;
                 top: -40px;
                 @media (--xs-down) {

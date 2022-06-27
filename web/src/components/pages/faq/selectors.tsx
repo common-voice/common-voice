@@ -75,21 +75,10 @@ const SECTION_CONTENTS: any = {
     ],
     [
       'faq-why-my-lang-q',
-      'faq-why-my-lang-new-a',
+      'faq-why-my-lang-a',
       {
         elems: {
-          multilangLink: (
-            <StyledLink
-              href="https://medium.com/mozilla-open-innovation/more-common-voices-24a80c879944"
-              blank
-            />
-          ),
-          sentenceCollectorLink: (
-            <StyledLink
-              href="https://common-voice.github.io/sentence-collector/"
-              blank
-            />
-          ),
+          languageRequestLink: <StyledLink to={URLS.LANGUAGE_REQUEST} />,
         },
       },
     ],

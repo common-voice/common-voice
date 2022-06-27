@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Ricevi retpoŝtmesaĝojn, kiel ekzemple m
 email-opt-in-privacy-v2 = Se vi abonas dissendoliston, vi konsentas kun la pritrakto de tiu ĉi informo, laŭ la priskribo de la <privacyLink>privateca politiko</privacyLink> de Mozilla.
 indicates-required = * signas devigan kampon
 not-available-abbreviation = Nedisponebla
+banner-error-slow-1 = Bedaŭrinde, Common Voice funkcias malrapide. Dankon pro via intereso.
+banner-error-slow-link = Stata paĝo
+error-something-went-wrong = Bedaŭrinde io ne bone funkciis
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,9 +39,9 @@ ba = Baŝkira
 bas = Basaa
 be = Bjelorusa
 bg = Bulgara
-bm = Bambara
 bn = Bengala
 br = Bretona
+bs = Bosna
 bxr = Burjata
 ca = Kataluna
 cak = Kakĉikela
@@ -67,6 +70,7 @@ fy-NL = Frisa
 ga-IE = Irlanda
 gl = Galega
 gn = Gvarania
+gom = Goaa Konkana
 ha = Haŭsa
 he = Hebrea
 hi = Hinda
@@ -90,11 +94,14 @@ kab = Kabila
 kbd = Kabarda
 ki = Kikuja
 kk = Kazaĥa
+km = Kmera
 kmr = Kurmanĉa kurda
+knn = Konkana (nagaria)
 ko = Korea
 kpv = Komiziriana
 kw = Korniŝa
 ky = Kirgiza
+lb = Luksemburga
 lg = Ganda
 lij = Ligura
 lt = Litova
@@ -114,11 +121,13 @@ ms = Malaja
 mt = Malta
 my = Birma
 myv = Erzja
+nan-tw = Hokla
 nb-NO = Norvega Bokmål
 ne-NP = Nepala
 nia = Niasa
 nl = Nederlanda
 nn-NO = Norvega ninorsk
+nyn = Runjankola
 oc = Okcitana
 or = Odia
 pa-IN = Panĝaba
@@ -126,6 +135,8 @@ pap-AW = Papiamento (Arubo)
 pl = Pola
 ps = Paŝtuna
 pt = Portugala
+quc = Kiĉea
+quy = Keĉua (Ĉankao)
 rm-sursilv = Romanĉa surselva
 rm-vallader = Valadera romanĉa
 ro = Rumana
@@ -138,6 +149,7 @@ scn = Sicilia
 shi = Ŝelha
 si = Sinhala
 sk = Slovaka
+skr = Sarajkia
 sl = Slovena
 so = Somala
 sq = Albana
@@ -149,10 +161,15 @@ ta = Tamila
 te = Telugua
 tg = Taĝika
 th = Taja
+ti = Tigraja
+tig = Tigra
+tk = Turkmena
 tl = Tagaloga
+tok = Tokipono
 tr = Turka
 tt = Tatara
 tw = Tivia
+ty = Tahitia
 uby = Ubiĥa
 udm = Udmurta
 ug = Ujgura
@@ -162,6 +179,7 @@ uz = Uzbeka
 vec = Venecia
 vi = Vjetnama
 vot = Vota
+yi = Jida
 yo = Joruba
 yue = Kantona
 zh-CN = Ĉina (Ĉinio)
@@ -195,6 +213,7 @@ logout = Fini seancon
 ## Home Page
 
 home-title = La projekto Common Voice estas iniciato de Mozilla por helpi instrui al maŝinoj kiel veraj homoj parolas.
+default-tagline = Mozilla Common Voice estas iniciato por helpi instrui al maŝinoj, kiel veraj homoj parolas.
 home-cta = Donacu vian voĉon, kontribuu ĉi tie!
 wall-of-text-start = Voĉo estas natura, voĉo estas homa. Tial ni volegas krei uzeblajn voĉajn teknikologiojn por niaj maŝinoj. Sed por krei voĉajn sistemojn, tre granda kvanto da voĉaj registroj estas postulata.
 wall-of-text-more-mobile = La plimulto de la datumoj uzataj de grandaj kompanioj ne estas uzeblaj de iu ajn. Ni pensas ke tio sufokas novaĵkreemon. Tial ni lanĉis la projekton Common Voice, kiu helpas malfermi la pordojn de parolrekono al ĉiuj.
@@ -288,10 +307,11 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Registri / Haltigi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Refari voĉregistron
+shortcut-discard-ongoing-recording = ESK
+shortcut-discard-ongoing-recording-label = Forigi okazantan registradon
 shortcut-submit = Enigi
 shortcut-submit-label = Sendi registraĵojn
 request-language-text = Ĉu vi ne vidas vian lingvon en Common Voice?
-request-language-text-learn = Jen pli da informo pri tiu peto!
 request-language-button = Peti lingvon
 
 ## ProjectStatus
@@ -316,8 +336,16 @@ profile-form-native-language =
     .label = Denaska lingvo
 profile-form-additional-language =
     .label = Aldona lingvo
+profile-form-language =
+    .label = Lingvo
+profile-form-variant =
+    .label = Kiun varianton de la { $language } vi parolas?
+profile-form-variant-default-value = Neniu varianto elektita
 profile-form-accent =
     .label = Akĉento
+profile-form-custom-accent-help-text =
+    .label = Kiel vi priskribus vian akĉenton?
+profile-form-custom-accent-placeholder-2 = Komencu tajpi por priskribi vian akĉenton
 profile-form-age =
     .label = Aĝo
 profile-form-gender-2 =
@@ -328,6 +356,7 @@ hidden = Kaŝita
 visible = Videbla
 native-language =
     .label = Denaska lingvo
+profile-form-add-accent = Aldoni novan personecigitan akĉenton "{ $inputValue }"
 profile-form-submit-save = Konservi
 profile-form-submit-saved = Konservita
 male = Vira
@@ -361,6 +390,10 @@ skip-submission-description = Dum la sendo de kontribuoj, komentoj estos malakti
 skip-submission-note = Notu: vi ankoraŭ devos elekti inter Paroli aŭ Aŭskulti por ŝanĝi la tipon de kontribuo.
 off = Malŝaltita
 on = Ŝaltita
+help-accent = Ĉu vi bezonas helpon pri akĉento?
+help-accent-explanation = Via akĉento estas la maniero kiel vi prononcas vortojn. Ĝin influas la lokoj kie vi iam loĝis, viaj aliaj parolataj lingvoj kaj pluraj diversaj faktoroj. Vi povas dividi ĉi tie iun ajn informon, kiun vi opinias grava.
+help-variants = Ĉu vi bezonas helpon kun variantoj?
+help-variants-explanation = Variantoj estas specifaj formoj de lingvo - ekzemple dividitaj de tiuj kiuj loĝas en regiono aŭ komunumo. Kelkfoje oni nomas ilin dialektoj.
 
 ## Profile - Email
 
@@ -388,6 +421,7 @@ faq-what-cv-a =
     Voĉrekonaj teknologioj revolucie ŝanĝas nian manieron interagi kun maŝinoj, sed la nune haveblaj sistemoj estas multekostaj kaj malliberaj. Common Voice estas parto de iniciato de Mozilla, kiu celas plibonigi parolrekonajn teknologiojn kaj igi ilin alireblaj por ĉiuj. Common Voice estas grandega datumbazo de donacitaj voĉregistroj, kaj ĝi permesas al iu ajn rapide kaj facile trejni parolrekonajn programojn en, eventuale, ĉiuj lingvoj.
     
     Ni ne nur kolektas voĉajn specimenojn en vaste parolataj lingvoj, sed ankaŭ en tiuj, kiuj havas pli etajn komunumojn de parolantoj. Publikigo de diversa datumaro de voĉoj helpos programistojn, entreprenistojn kaj komunumojn mem etigi la breĉon. Kune kun la datumaro de Common Voice ni ankaŭ konstruas malfermitkodan parolrekonilon nomita Deep Speech.
+faq-what-cv-a-2 = Voĉrekonaj teknologioj revolucie ŝanĝas nian manieron interagi kun maŝinoj, sed la nune haveblaj sistemoj estas multekostaj kaj malliberaj. Mozilla Common Voice estas iniciato, kiu celas plibonigi voĉrekonajn teknologiojn kaj igi ilin alireblaj por ĉiuj. Common Voice estas grandega datumbazo de donacitaj voĉregistroj, kiu permesas al iu ajn rapide kaj facile trejni voĉrekonajn programojn eventuale en ĉiuj lingvoj.
 faq-why-important-q = Kial ĝi gravas?
 faq-why-important-a =
     Parolado estas ofte la plej natura maniero komunikiĝi kun la aliaj, kaj voĉaj teknologioj alportas tiun konvenecon al niaj komputiloj kaj poŝaparatoj. Ni volas doni al programistoj la rimedojn kontrui ravajn parorekonajn programojn, kiel samtempajn tradukantojn kaj parolkapablajn helpantojn. Tamen, nuntempe la plimulto de la voĉaj datumoj bezonataj por krei tiajn programojn estas multekosta kaj mallibera. Ni esperas ke la datumaro de Common Voice donos al la programistoj tion, kion ili bezonas por novaĵkrei kaj igi parolajn tekcnologiojn haveblaj en siaj propraj lingvoj.
@@ -410,7 +444,6 @@ faq-why-different-speakers-a =
     La plejmulto da voĉaj datumbazoj estas konstruitaj kun superreprezento de kelkaj demografiaj grupoj, kiu favoras  <articleLink>virojn kaj mezan klason</articleLink>. Normale subreprezentitaj akĉentoj kaj dialektoj en trejnaj datumaroj estas kutime asociitaj kun homgrupoj, kiuj jam estas eksterigitaj. Cetere, multaj maŝinoj penas kompeni virinajn voĉojn.
     Tial en nia voĉa datumbazo ni volas diversecon!
 faq-why-my-lang-q = Kial mia lingvo ne estas ankoraŭ inkluzivita?
-faq-why-my-lang-new-a = Mozilla ne elektas aŭ favoras iun ajn lingvon super alia. Male, Common Voice estas nur pelata de komunumoj, sed bezonatas <multilangLink>pluraj paŝoj por aldoni novan lingvon</ multilangLink> kaj komenci kolekti voĉregistrojn. Unue, la retejo de Common devas esti tradukita, por permesi al la membroj de la komunumoj sperti la kontribuadon en siaj propraj lingvoj. Poste, ni bezonas grandan kolekton de frazoj liberaj je kopirajto, kiuj estos laŭtlegitaj.  Kiam tiuj du kondiĉoj estos plenumitaj, la lingvoj estos "lanĉitaj" en Common Voice por ke homoj komencu registri siajn voĉojn kaj validigi la voĉregistrojn de aliaj. Se vi volas helpi lanĉi novan lingvon, iru al nia <sentenceCollectorLink>iloj por kolekti frazojn</ phraseCollectorLink> por komenci.
 faq-what-quality-q = Kiu nivelo de sonkvalito estas postulata por la voĉaregistroj en la datumaro?
 faq-what-quality-a = Ni volas ke la datumaro de Common Voice reflektu la sonkvaliton de la ĉiutaga vivo, do ni serĉas diversecon. Krom diversa komunumo de parolantoj, datumaro kun varianta sonkvalito permesos al voĉrekoniloj trakti diversajn realajn situaciojn, ĉu fona parolado ĉu aŭta bruo. Se via voĉregistro kompreneblas, ĝi devus esti sufiĉe bona por la datumaro.
 faq-why-10k-hours-q = Kial la celo estas 10.000 validigitaj horoj de sono?
@@ -442,12 +475,23 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kial Common Voice?
-about-subtitle = Common Voice estas parto de iniciato de Mozilla por helpi instrui al maŝinoj, kiel homoj fakte parolas. Kune kun la datumaro de Common Voice ni ankaŭ konstruas malfermitkodan parolrekonilon nomita Deep Speech.
-about-header-description =
-    Ambaŭ projektoj estas parto de nia strebo fermi la ciferecan breĉon inter lingvoj . Parolrekonaj teknologioj alportas homan dimension al niaj aparatoj, sed programistoj bezonas grandengan kvanto da voĉaj datumoj por konstrui iln. Nuntempe, la plejmulto de tiuj datumoj estas multekosta kaj privataj.
-    Ni volas igi voĉajn datumojn liberaj kaj publike haveblaj kaj certi ke tiuj datumoj reprezentas la diversecon de realaj personoj. Kune ni povas plibonigi parolrekonon por ĉiuj.
-how-does-it-work-title = Kiel ĝi funkcias?
+about-header-description-v2 =
+    <p>Common Voice estas publike disponebla voĉa datumaro, pelata de la voĉoj de kontribuantaj volontuloj en la tuta mondo. Tiuj kiuj volas krei voĉrekonaj programoj povas uzi la datumaron por trejni maŝinlernajn modelojn.</p>
+    <p>Nuntempe la plimulton de la voĉaj datumaroj posedas entreprenoj, kaj tio bremsas novaĵkreemon. Voĉaj datumaroj cetere troe reprezentas blankajn angloparolantajn virojn. Tio signifas ke parolrekonaj teknologioj tute ne funkcias por kelkaj lingvoj, kaj kiam ĝi funkcias, ĝi ne estos same bona por ĉiuj. Ni volas ŝanĝi tion kun la helpo de personoj ĉie, kaj tial ni petas al ili dividi siajn voĉojn.</p>
+how-does-it-work-title-v2 = Kiel funkcias Common Voice?
 how-does-it-work-text = Ni kalkulas je kolektiva patropreno por konstrui malfermitkodan voĉan datumaron. Donacu vian voĉon, validigu la precizecon de la voĉregistroj de aliaj personoj, plibonigu la datumaron por ĉiuj.
+
+## How does it work section
+
+about-language-req-subtitle = Iu petas aldonon de lingvo.
+about-localization-title = Traduko de retejo
+about-localization-subtitle = La retejo estas tradukita en tiun lingvon.
+about-sentence-collection-title = Kolekto de frazoj
+about-sentence-collection-subtitle = Frazoj estas kolektitaj por homoj, kiuj legos ilin laŭte.
+about-new-lang-title = Lanĉo de nova lingvo
+about-dataset-release-title = Eldono de datumaro
+about-dataset-release-subtitle = Ni eldonas la datumaron ĉiun trian monaton.
+about-subscribe-text = Ĉu vi volas resti en kontakto kun Common Voice?
 about-speak = Paroli
 about-speak-text = Kontribuantoj laŭtlegas el kolekto de donacitaj frazoj kaj registras siajn voĉojn.
 about-listen-queue = Vico de aŭskulto
@@ -464,12 +508,6 @@ about-dataset-new = Datumaro de Common Voice
 about-dataset-new-text = La datumaro de Common Voice enhavas centojn da miloj da voĉregistroj, kiuj helpas programistojn konstrui parolrekonajn ilojn.
 about-clip-graveyard = Tombejo de voĉregistroj
 about-clip-graveyard-text = La tombejo de voĉregistroj konsistas el voĉregistroj kiuj ne sukcesis eniri la datumaron de Common Voice. Same kiel la datumaro, la tombejo de voĉregistroj estas elŝutebla.
-about-partners = Asociitoj
-about-become-a-partner = Iĝi asociito
-about-partnership =
-    Common Voice estas kunlabora projekto, kaj ni dependas de nian komunumo de partoprenantoj kaj kontribuantoj por konstrui la plej grandan malfermitkodan datumaron de voĉoj.
-    
-    Ni ŝatus danki la jenaj personojn kaj organizojn pro ilia helpo kun la projekto:
 about-get-involved = Partopreni
 about-get-involved-text-2 =
     Ĉu vi volas igi Common Voice eĉ pli bona?
@@ -477,14 +515,46 @@ about-get-involved-text-2 =
     <discourseLink>Discourse</discourseLink>, raportu
     retejajn problemojn per <githubLink>GitHub</githubLink>
     aŭ aliĝu al la komunuma retbabilejo en la <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Kiel resti en kontakto?
+about-stay-in-touch-button = Registriĝi
 about-nav-why-common-voice = Kial?
 about-nav-how-it-works = Kiel?
 about-nav-partners = Asociitoj
 about-nav-get-involved = Partopreni
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Artefarita intelekto
-mycroft-description = Mycroft estas la unua malfermitkoda asistanto en la mondo. Mycroft funkcias ĉie: en komputilo, en aŭto aŭ en Raspberry Pi.
-mycroft-secondary-description = Tiu ĉi estas malfermitkoda programo kiu povas estis libere rearanĝita, etendita kaj plibonigita. Mycroft povas esti uzata en io ajn, ĉu sciencia projekto ĉu entreprena sistemo.
+about-nav-how-it-works-2 = Kiel funkcias Common Voice?
+about-nav-playbook = Lernu kiel partopreni
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Kio estas lingvo ĉe Common Voice?
+
+## How do I add a language
+
+about-playbook-how-add-language = Kiel aldoni lingvon?
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+about-playbook-how-project-governance-content-6 = Reciproka respondeco.
+about-playbook-how-project-governance-content-7 = <governanceLink>Pli da informo pri nia administro</governanceLink>
 
 ## Glossary
 
@@ -543,6 +613,7 @@ review-delete-recordings = Forigi miajn registrojn
 
 ## Datasets Page
 
+datasets-heading = Datumaroj
 datasets-headline = Ni konstruas malfermitkodan, plurlingvan datumaron de voĉoj, kiun iu ajn povas uzi por trejni parolkapablajn programojn.
 datasets-positioning =
     Ni pensas ke grandaj kaj publike haveblaj datumaroj de voĉoj favoros novaĵkreemon kaj sanan komercan konkurecon en la parolaj teknologioj bazitaj sur automata lernado.
@@ -579,6 +650,7 @@ get-started-speech = Unua paŝoj en parolrekono
 other-datasets = Aliaj voĉaj datumaroj
 feedback-q = Ĉu vi ŝatus komenti?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ estas <docsLink>malfermitkoda ilaro</docsLink> por esploristoj kiuj disvolvas avangardajn konversacian AI-ajn modelojn.
+community-playbook = Komunuma manlibro
 data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
 data-other-ted-name = Kolekto TED-LIUM
 data-other-ted-description = La kolekto TED-LIUM estis farita el prelegoj kaj ĝiaj transskriboj, disponeblaj en la retejo de TED.
@@ -622,6 +694,9 @@ request-language-success-title = La propono de lingvo estis sukcese sendita, dan
 request-language-success-content = Ni baldaŭ skribos al vi kun pli da informo pri la aldono de via lingvo al Common Voice.
 select-language = Elektu lingvon...
 other-language = Alia lingvo
+
+## Request Language Pages
+
 
 ## Languages Overview
 
@@ -859,7 +934,16 @@ profile-form-delete = Forigi profilon
 
 ## Profile Download
 
+download-profile-title = Profilo
+download-profile-size = Kelkaj oktetoj
 download-size = Grando
+download-selected = Elektita
+download-request-button = Elŝuti
+download-request-title = { $created }
+download-request-refresh-button = Refreŝigi
+download-request-modal-title = Elŝutaj ligiloj
+download-request-link-text = Zip #{ $offset } de { $total }
+download-request-metadata-link = Teksto de frazo
 
 ## Landing
 
@@ -926,48 +1010,146 @@ contribution-volume-title = Laŭteco
 
 ## HEADER/FOOTER
 
+sc-header-home = Eka paĝo
+sc-header-add = Aldoni
+sc-header-review = Revizii
+sc-header-rejected = Rifuzitaj frazoj
+sc-header-my = Miaj frazoj
+sc-header-statistics = Statistikoj
+sc-header-profile = Profilo
+sc-footer-report-bugs = Raporti problemojn
+sc-footer-translate = Traduki tiun ĉi paĝon
+sc-footer-privacy = Privateco
+sc-footer-terms = Kondiĉoj
+sc-footer-cookies = Kuketoj
+sc-login-signup-button = Komenci seancon / Krei konton
+sc-logout-button = Fini seancon
 
 ## HOME
+
+sc-home-collect-title = Kolekti frazojn
+
+## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-addsen-title = Aldoni novajn frazojn
+sc-howto-cite-title = Kiel citi
 
 ## MY SENTENCES
 
+sc-my-title = Miaj frazoj
+sc-my-no-sentences = Neniu frazo trovita!
+sc-my-delete = Forigi elektitajn frazojn
 
 ## REJECTED
 
+sc-rejected-title = Rifuzitaj frazoj
+sc-rejected-none-found = Neniu rifuzita frazo trovita!
 
 ## STATS
 
+sc-stats-title = Statistikoj
+sc-stats-updating = Ĝisdatigo…
 
 ## ADD
 
+sc-submit-err-select-lang = Bonvolu elekti lingvon.
+sc-submit-err-add-sentences = Bonvolu aldoni frazojn.
+sc-submit-err-add-source = Bonvolu aldoni fonton.
+sc-submit-err-confirm-pd = Bonvolu konfirmi ke tiuj ĉi frazoj estas en la publika havaĵo.
+sc-submit-title = Aldoni frazojn
+sc-submit-select-language =
+    .labelText = Elekti lingvon
+sc-submit-ph-one-per-line =
+    .placeholder = Po unu frazo en ĉiu linio
+sc-submit-button =
+    .submitText = Sendi
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-label = Aldoni lingvon al kiu vi volas kontribui
+sc-add-lang-sec-button = Aldoni lingvon
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Neniu frazo trovita.
+        [one] 1 frazo trovita.
+       *[other] { $countOfSentences } frazoj trovitaj.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } rifuzita(j) de vi
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Neniu frazo preta por sendo!
+        [one] 1 frazo preta por sendo!
+       *[other] { $readyCount } frazoj pretaj por sendo!
+    }
+sc-confirm-button-text = Konfirmi
 
 ## LANGUAGE INFO
 
+sc-lang-info-review-now = <reviewLink>Reviziu nun!</reviewLink>
+sc-lang-info-add-more = <addLink>Aldonu pli da frazoj nun!</addLink>
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Neniu rifuzita frazo.
+        [one] 1 rifuzita frazo.
+       *[other] { $rejectedSentences } rifuzitaj frazoj.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Malsukcesa komenco de seanco
+sc-login-err-try-again = Bonvolu klopodi denove.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profilo: { $username }
+sc-personal-your-languages = Viaj lingvoj:
+sc-personal-remove-button = forigi
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you =
+    { $sentences ->
+        [0] 0 aldonita de vi
+        [one] 1 aldonita de vi
+       *[other] { $sentences } aldonitaj de vi
+    }
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Neniu frazo reviziita.
+        [one] 1 frazo reviziita. Dankon!
+       *[other] { $sentences } frazoj reviziitaj. Dankon!
+    }
+sc-review-link = Revizii
 
 ## SETTINGS
 
+sc-settings-title = Agordoj
+sc-settings-ui-language = Lingvo de la fasado
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Elekti lingvon/tradukon

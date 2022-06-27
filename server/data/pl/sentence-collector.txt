@@ -1633,6 +1633,7 @@
 "Czyby to nie było przyjemne?"
 "Czyjeż tam jęki wołają o pomstę do Boga?"
 "Czyliż nie przeminęło, nie znikło wszystko, com niegdyś posiadał?"
+"Czyliż nie wiesz, iż słowa z wiatrem ulatują?"
 "Czym nie śnił?"
 "Czynili zasadzki i pozywali w pole... Tak było i teraz."
 "Czytaj pan ten ustęp od góry!"
@@ -3354,6 +3355,7 @@
 "Jestem tylko rycerzem, ale nie dworakiem."
 "Jestem wam bardzo wdzięczny za tę znajomość."
 "Jestem wdowa, utrzymanie syna, który służy w marynarce, kosztowało mnie bardzo dużo."
+"Jestem wielki przestępca mości sędzio nie oszczędzaj mnie proszę."
 "Jestem winien to publicznemu zgorszeniu."
 "Jestem zachwycona, że poznałam osobę tak przyjemną."
 "Jestem zainteresowany, lecz jak pan to widzi, nie jestem zdziwiony."
@@ -11376,6 +11378,7 @@
 "przecież mówiłeś mi mój towarzyszu, że się wybierasz na tamten świat?"
 "przecież się dowiedzą."
 "przepadam za nim!!..."
+"przepraszam panie pisarzu, zdaje mi się, że tu musiała zajść omyłka przerwał uczeń."
 "przerwał mu Wokulski zduszonym głosem, prostując się na kanapie."
 "przerwałem jej nagle."
 "przydała by nam się dobra śmigownica, ale ba!"
@@ -11437,6 +11440,7 @@
 "twarz mięsista gładko- wygolona."
 "twój puls bije tak silnie, krew uderza ci do twarzy... O!"
 "ty go nie kochasz!"
+"ty go nie kochasz, odpowiedziała księżna, ty go nie kochasz!"
 "tylko go sobie zanotuję!"
 "tylko tego nie chcę."
 "uciszcie się na chwilę."
@@ -11491,6 +11495,7 @@
 "zawołała pani Wąsowska."
 "zazwyczaj jest słodki jak baranek; chyba gdy mu się kto sprzeciwia, o!"
 "zbytnio sobie nie dufaj."
+"zdaje się, że nie można postąpić z większą godnością i rozsądkiem."
 "zdawałoby się, iż jesteś moją, ponieważ nie możesz postąpić inaczej."
 "znowu bledniejesz... Boże mi przebacz!"
 "zostawcie mnie tu, błagam was."
@@ -14375,6 +14380,7 @@ Jakże się teraz Filip cieszył, że puścił się tymi śladami!
 Jakże się wtedy Sebastian pienił ze złości!
 Jakże to było?…
 Jakże was zdołam przekonać?
+Jalapeño wymawia się jak „chalapenio”.
 Jan zaczął się śmiać, ale śmiech przeszedł wkrótce w chrapanie.
 Janek przyszedł pewnego razu z miną, która oznaczała „coś się stało”.
 Janek siedział przy fortepianie i improwizował utwór programowy pt.

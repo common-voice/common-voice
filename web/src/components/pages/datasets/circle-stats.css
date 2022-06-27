@@ -15,7 +15,7 @@
         padding-bottom: 10px;
         width: 100%;
         max-width: 460px;
-        box-sizing: border-box;
+
         display: flex;
         flex-direction: row;
 
@@ -96,7 +96,7 @@
         height: var(--circle-size);
         position: relative;
         inset-inline-start: calc(var(--circle-size) / 2);
-        box-sizing: border-box;
+
         display: flex;
         justify-content: center;
         align-items: center;

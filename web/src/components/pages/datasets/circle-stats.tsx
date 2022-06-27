@@ -5,6 +5,17 @@ import Dots from './dots';
 
 import './circle-stats.css';
 
+interface CircleStatProps {
+  className?: string;
+  label: string;
+  value: string | number;
+  dotBackground?: string;
+  dotColor?: string;
+  dotSpace?: number;
+  dotWidth?: number;
+  icon: React.ReactNode;
+}
+
 export const CircleStat = ({
   className,
   label,
@@ -15,15 +26,7 @@ export const CircleStat = ({
   dotSpace,
   dotWidth,
   ...props
-}: {
-  label: string;
-  value: number;
-  dotBackground?: string;
-  dotColor?: string;
-  dotSpace?: number;
-  dotWidth?: number;
-  icon: React.ReactNode;
-} & React.HTMLProps<HTMLDivElement>) => (
+}: CircleStatProps & React.HTMLProps<HTMLDivElement>) => (
   <div className={'circle-stat ' + (className || '')} {...props}>
     <Dots
       {...{ backgroundColor: dotBackground, color: dotColor, space: dotSpace }}
@@ -39,15 +42,20 @@ export const CircleStat = ({
   </div>
 );
 
-export default ({
+interface CircleStatsProps {
+  className?: string;
+  valid: string | number;
+  total: string | number;
+  languages: number;
+}
+
+const CircleStats = ({
   className,
   valid,
   total,
   languages,
   ...props
-}: { valid: number; total: number; languages: number } & React.HTMLProps<
-  HTMLDivElement
->) => (
+}: CircleStatsProps & React.HTMLProps<HTMLDivElement>) => (
   <div className={'circle-stats ' + className} {...props}>
     <CircleStat
       className="valid-hours"
@@ -69,3 +77,5 @@ export default ({
     />
   </div>
 );
+
+export default CircleStats;

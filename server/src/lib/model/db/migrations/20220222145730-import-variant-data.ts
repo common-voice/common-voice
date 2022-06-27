@@ -109,18 +109,21 @@ export const up = async function (db: any): Promise<any> {
     obj[current.name] = current.id;
     return obj;
   }, {});
-  for (const row of VARIANTS) {
-    await db.runSql(
-      `INSERT INTO variants (locale_id, variant_token, variant_name) VALUES ( ${
-        mappedLanguages[row['locale_name']] +
-        ',"' +
-        row['variant_token'] +
-        '","' +
-        row['variant_name'] +
-        '"'
-      })`
-    );
-  }
+
+  await Promise.all(
+    VARIANTS.map(row => {
+      db.runSql(
+        `INSERT IGNORE INTO variants (locale_id, variant_token, variant_name) VALUES ( ${
+          mappedLanguages[row['locale_name']] +
+          ',"' +
+          row['variant_token'] +
+          '","' +
+          row['variant_name'] +
+          '"'
+        })`
+      );
+    })
+  );
 };
 
 export const down = async function (db: any): Promise<any> {

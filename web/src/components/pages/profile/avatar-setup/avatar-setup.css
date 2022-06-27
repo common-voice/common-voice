@@ -19,7 +19,9 @@
         padding-top: 36px;
     }
     width: 35%;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: none;
     padding-left: 20px;
     h2 {
@@ -34,7 +36,6 @@
     .file-upload,
     .connect {
         border-radius: 4px;
-        margin-bottom: 30px;
 
         @media (--lg-up) {
             width: 70%;
@@ -44,7 +45,7 @@
     .file-upload {
         position: relative;
         border: 3px dotted var(--light-grey);
-        box-sizing: border-box;
+
         width: 245px;
         height: 130px;
 

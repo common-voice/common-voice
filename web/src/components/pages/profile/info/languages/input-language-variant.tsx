@@ -5,7 +5,7 @@ import {
   WithLocalizationProps,
 } from '@fluent/react';
 
-import { NATIVE_NAMES } from '../../../../../services/localization';
+import { useNativeLocaleNames } from '../../../../locale-helpers';
 import { LabeledSelect } from '../../../../ui/ui';
 import { UserLanguage } from 'common';
 import { VariantsAll } from './languages';
@@ -25,6 +25,7 @@ const InputLanguageVariant = ({
   setUserLanguages,
   getString: getLocalizedString,
 }: InputLanguageVariantProps & WithLocalizationProps) => {
+  const nativeNames = useNativeLocaleNames();
   const variants = variantsAll[locale];
 
   const getUserLanguageVariant = () => {
@@ -82,7 +83,7 @@ const InputLanguageVariant = ({
   }
 
   const selectedValue = getUserLanguageVariant();
-  const language = NATIVE_NAMES[locale];
+  const language = nativeNames[locale];
 
   return (
     <Localized

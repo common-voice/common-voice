@@ -1,15 +1,3 @@
-.home #content {
-    padding: 0;
-
-    > div {
-        max-width: none;
-
-        @media (--lg-down) {
-            padding: 0;
-        }
-    }
-}
-
 .home {
     & .primary-button a {
         z-index: var(--middle-z-index);
@@ -175,7 +163,6 @@
     }
 
     & .contribute-section {
-        margin-bottom: -2rem;
         display: flex;
         flex-direction: row;
         align-items: center;

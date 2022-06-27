@@ -1,22 +1,23 @@
 import * as React from 'react';
-import './kiosk.css';
+import { Localized } from '@fluent/react';
+
 import {
   MicIcon,
   PlayOutlineGreenIcon,
   CloseIcon,
   CloudIcon,
-  DashboardIcon,
   UserIcon,
 } from '../../ui/icons';
-import { useLocation, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useLocale } from '../../locale-helpers';
 import urls from '../../../urls';
 import grid from './assets/grid.svg';
 import home from './assets/home.svg';
 import upload from './assets/upload.svg';
 import { PageContentType } from './types';
-import { Localized } from '@fluent/react';
 import NotSupported from '../not-supported';
+
+import './kiosk.css';
 
 const BottomRightPane = () => {
   const [expanded, setExpanded] = React.useState(false);
@@ -45,17 +46,9 @@ const BottomRightPane = () => {
           </li>
           <ul id="middle">
             <li>
-              <Link to={toLocaleRoute(urls.DEMO_DATASETS)}>
+              <Link to={toLocaleRoute(urls.DATASETS)}>
                 <CloudIcon />
                 <Localized id="datasets">
-                  <span />
-                </Localized>
-              </Link>
-            </li>
-            <li>
-              <Link to={toLocaleRoute(urls.DEMO_DASHBOARD)}>
-                <DashboardIcon />
-                <Localized id="dashboard">
                   <span />
                 </Localized>
               </Link>
@@ -70,7 +63,7 @@ const BottomRightPane = () => {
             </li>
             <li>
               <Link to={toLocaleRoute(urls.DEMO_CONTRIBUTE)}>
-                <img src={upload} role="presentation" />
+                <img src={upload} alt="" />
                 <Localized id="contribute">
                   <span />
                 </Localized>
@@ -83,7 +76,7 @@ const BottomRightPane = () => {
             <Link
               to={toLocaleRoute(urls.DEMO)}
               id="kiosk-bottom-right-pane__expanded--home">
-              <img src={home} />
+              <img src={home} alt="" />
             </Link>
             <button
               id="kiosk-bottom-right-pane__expanded--close"

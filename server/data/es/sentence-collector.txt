@@ -375,6 +375,7 @@ Bienvenidos.
 Bodas hacen bodas.
 Braulio es igualmente responsable al limitarse a tibias declaraciones
 Bravo, pienso que será suficiente.
+Brille hermosa la paz en tu cielo, nada empañe tu gloria inmortal
 Brión bajó la voz para responder:
 Buen porte y buenos modales abren puertas principales.
 Buen servicio, mal galardón.
@@ -442,9 +443,11 @@ Calumnia, que algo queda
 Camarón que duerme se lo lleva la corriente
 Cambia más de opinión que de chaqueta
 Cambiando algunas prácticas en el software básico
+Caminemos pisando las sendas de nuestra inmensa felicidad
 Camino malo, pásalo pronto.
 Caminos hacen amigos.
 Cantan fandangos
+Cantemos siempre, Libre Guinea, y conservemos siempre la unidad.
 Caracol, saca los cuernos al sol
 Caridad y amor, sin tambor.
 Casa con dos puertas, mala es de guardar.
@@ -453,6 +456,7 @@ Caía la tarde. De Huelva llegaba un olor a marisma, a brea.
 Celebremos con un chocolate caliente.
 Cesar es un muchacho saudí.
 Cesó entonces la obra de la casa de Dios, la cual estaba en Jerusalem
+Cesó la horrible noche!
 Chicos, creo que lo he encontrado.
 Chile es un país.
 Chincha rabiña que mis padres son ricos y los tuyos no
@@ -473,6 +477,7 @@ Cogió una rabieta y montó un show en el restaurante
 Coincidieron en el bar y se armó la Marimorena
 Coja también espigas entre las gavillas, y no la avergoncéis;
 Colaborar siempre en algún proyecto.
+Colombia
 Come para vivir y no vivas para comer.
 Come poco y cena más, duerme en alto y vivirás.
 Comencé a cagarme en la Introducción de nuevo
@@ -549,6 +554,7 @@ Convertido en cráter.
 Convoca una reunión y ponte alegre.
 Conócete a ti mismo
 Corazón alegre hace fuego de la nieve.
+Coro:
 Corría más que un galgo
 Cortesías engendran cortesías.
 Cosas extrañas me suceden
@@ -567,6 +573,7 @@ Cría fama y échate a dormir.
 Cualquier otro juguete daría sus partes por ser tú.
 Cualquier tiempo pasado fue mejor
 Cualquier tiempo pasado fue mejor.
+Cuando a sus playas llegó Colón exclamó, lleno de admiración:
 Cuando aparezca en algún debate
 Cuando bailaba sardanas le tintineaban los duros en el bolsillo.
 Cuando diga ahora, saltamos a la cesta.
@@ -672,6 +679,7 @@ De cualquier manera mejor que le de una mirada.
 De dicha manera no sirven de atractores del tráfico
 De enamorado a loco va muy poco.
 De ese modo podrás conocer mejor la idea que me anima
+De este don sacrosanto la gloria
 De este modo influir en la planificación ofrecida por la compañía
 De fuera vendrá quien de casa te echará.
 De fuera vendrá quien de tu casa te echará
@@ -737,6 +745,7 @@ Del amor al odio, solo hay un paso
 Del antiguo camino no queda nada.
 Del dicho al hecho hay mucho trecho.
 Del dicho al hecho hay un gran trecho
+Del mar y el sol, del mar y el sol.
 Del árbol caído todo el mundo hace leña
 Demanda que los fabricantes de hardware no permitan instalar cualquier software
 Demasiado corto. Necesitamos más monos.
@@ -903,6 +912,7 @@ El ayuntamiento suele estar en el centro de la ciudad.
 El azul es el color que han elegido para la habitación de los invitados.
 El baile de tarde comienza a las ocho.
 El beneficio que genera compartir cultura sin limitación
+El bien germina ya!
 El buen cirujano opera temprano.
 El burro delante, para que no se espante
 El camarero trajo la dolorosa pero nadie quería pagar
@@ -1301,6 +1311,8 @@ En este encuentro se ha puesto de manifiesto la preocupación que tenemos
 En este mundo patas arriba
 En este mundo tan globalizado se pierden las identidades
 En estos tiempos de lógica de mercado
+En fraterna unión, sin discriminar, ¡Cantemos Libertad!
+En fraternidad, sin separación, ¡Cantemos Libertad!
 En julio haremos una excursión al Possets.
 En la boca del discreto lo público es secreto.
 En la estancia vacía cualquier ruido era demoledor
@@ -1336,10 +1348,12 @@ En septiembre iremos a cosechar por José de Carro.
 En serio, sígueme, tengo una corazonada.
 En su definición venía inscrita dicha complejidad
 En su familia, el más tonto hace relojes
+En surcos de dolores
 En teoría, a las ocho estoy allí, pero igual se retrasa.
 En toda negociación hay un toma y daca
 En todas partes cuecen habas
 En trece y martes ni te cases ni te embarques.
+En tu suelo, ya no ruge la voz del cañón.
 En un abrir y cerrar de ojos, lo tienes hecho
 En un documento de diciembre esta entidad de gestión ponía de manifiesto
 En un documento de diciembre esta entidad ponía de manifiesto
@@ -1440,6 +1454,7 @@ Ernesto, ¿ me recibes? cambio.
 Errando, errando, se va acertando.
 Errar es humano, perdonar es de sabios
 Errar es humano, perdonar es de sabios.
+Es Borínquen la hija del mar y el sol
 Es aconsejable tener una copia de seguridad de este archivo en otro dispositivo
 Es bien sabido por todas el uso que hacen de nuestros datos
 Es bueno tener amigos hasta en el infierno.
@@ -1633,6 +1648,7 @@ Este es padre de Isaí, padre de David.
 Este es uno de los tropezones de Jerry
 Este es, evidentemente, uno de sus tropezones
 Este fenómeno supone un beneficio para muchos músicos
+Este grito a la Patria salvó.
 Este ha sido el verano más caluroso en muchos años.
 Este helado es dulce y salado.
 Este modelo afecta especialmente a las localidades
@@ -2050,6 +2066,7 @@ Incluso el silencio es propiedad de alguien
 Incluso tuvieron que llamar a la policía.
 Incluso un reloj parado acierta dos veces al día
 Incluye una subestación de catorcemil metros cuadrados
+Independencia grita el mundo americano;
 Inicia la actualización del sistema actualizando los paquetes instalados.
 Iniciativas con larga historia, como el Tribunal de las Aguas en Valencia
 Insistió y se empeñó hasta llevarse el gato al agua
@@ -2225,6 +2242,7 @@ La habitación del hotel no era igual a la de la foto
 La hallaba con el alma en el breviario.
 La harina, decían, pero era farlopa.
 La hermana pequeña es un encanto pero la mayor es una vacaburra
+La humanidad entera, que entre cadenas gime, com
 La ignorancia de la ley no exime de su cumplimiento
 La ignorancia es atrevida
 La individualidad nos lleva a la destrucción
@@ -2350,6 +2368,8 @@ La temporada de fútbol comienza antes de que acabe la anterior temporada de fú
 La temática de Alfredo Espino está hecha de todas las cosas.
 La tercera planta es de infecciosos.
 La ternera de Mollerussa tiene un gustito especial.
+La tierra de Borinquén es donde he nacido yo
+La tierra de Borinquén es un jardín florido de mágico primor.
 La transmisión de contenidos psíquicos
 La unión hace la fuerza
 La vecina del cuarto es un caso como un capazo.
@@ -2498,6 +2518,7 @@ Levanta, ya son las diez de la mañana.
 Levantóse entretanto un nuevo rey sobre Egipto, que no conocía á José.
 Levantóse luego para espigar.
 Leyendo, leyendo, se me hicieron las doce.
+Libertad en la lid clamaremos, y muriendo, ¡también libertad!
 Libro prestado, perdido o estropeado
 Libro prestado, perdido o estropeado.
 Linares la sigue, dándose vuelta para mirar con curiosidad a doña María.
@@ -2849,6 +2870,7 @@ Menudo careto traes, ¿estás enfermo?
 Menudo desorden, está todo manga por hombro
 Menudo susto me has pegado. Si me pinchas no me sale ni gota.
 Merced, ¡haz el favor de recoger las muñecas!
+Merecimos: ¡tiranos, temblad!
 Mezclan Fanta y Eristoff en una cazuela.
 Mezclar churras con merinas
 Mi abuelo siempre decía que cada año nacen más tontos.
@@ -3278,6 +3300,7 @@ No se puede nadar y guardar la ropa al mismo tiempo
 No se puede nadar y guardar la ropa.
 No se puede ser más tonto ni queriendo
 No se sepa que haya venido mujer á la era.
+No se tiñe con sangre de hermanos tu glorioso pendón bicolor.
 No seas acaparador y reparte el regaliz.
 No siempre es el mejor camino el más corto.
 No solo de pan vive el hombre
@@ -3408,6 +3431,8 @@ Oh, no te preocupes, cariño.
 Oh, oye, no fue, uh, nada.
 Oh, pues bien. Tú y yo podremos cocinar más tarde.
 Oh. Oh, eso es bueno. pero no estamos en mi planeta.
+Oh Júbilo inmortal!
+Oh gloria inmarcesible!
 Ojalá haya bastantes sillas.
 Ojalá no llueva durante las vacaciones.
 Ojo por ojo y diente por diente
@@ -3699,6 +3724,7 @@ Pusieron á los sacerdotes vestidos de sus ropas, con trompetas.
 Python como un legunaje de programación.
 Págame lo que me debes, y aquí paz y después gloria
 Que Marta no vaya a Cornellá no significa que tú no tengas que ir.
+Que a sus bravos en fieras batallas de entusiasmo sublime inflamó.
 Que cada palo aguante su vela
 Que cada palo aguante su vela.
 Que esto fué solamente una gran equivocación.
@@ -4414,6 +4440,7 @@ Trabajó todo el día como un burro y durmió como un ceporro
 Traen ecos perdidos de músicas de arroyos.
 Tranquilo. Todo está bajo control.
 Tranquilos, saben hacer su trabajo.
+Tras dos siglos de estar sometidos bajo la dominación colonial
 Tras el lema “protejamos a los creadores” hay realmente un ansia privatizadora
 Trata a los demás como querrías que te trataran a ti
 Tronada lejana, lluvia cercana.
@@ -4451,6 +4478,8 @@ Un bitrate alto produce mayor calidad de sonido
 Un buen cartel incluiría los Gansos Grasas.
 Un buen soldado jamás abandona a sus hombres.
 Un candidato demasiado joven no nos conviene.
+Un cielo dan arrullos plácidos las olas a sus pies.
+Un cielo siempre nítido le sirve de dosel
 Un clavo saca otro clavo
 Un concurso literario es, siempre, una esperanza.
 Un dedo no hace mano, pero sí con sus hermanos.
@@ -4652,6 +4681,7 @@ Y ahora, vacía esa caja fuerte.
 Y ahora, aunque es cierto que yo soy pariente cercano.
 Y cantaban, alabando y confesando á Jehová.
 Y colorín, colorado, este cuento se ha acabado
+Y conservemos la independencia nacional.
 Y crió Dios al hombre á su imagen, á imagen de Dios lo crió.
 Y cuando asomabas ¡qué linda se hacía la alegre mañana!
 Y cuando lleguemos allí, encontraremos un modo de llevarte a tu hogar.
@@ -7216,6 +7246,7 @@ la información necesaria para acceder a cada uno de nuestros servicios
 la inquietud de mi caballo, que temblaba levantando las orejas y sacudiendo la crin
 la justicia, si no es ciega, al menos debería ser daltónica
 la libertad del pasaje. o tres:
+la libertad sublime derrama las auroras de su invencible luz.
 la lista da ya para varios libros
 la luna derramaba sobre ellas su luz lejana e ideal como un milagro.
 la madre que la...
@@ -8841,6 +8872,7 @@ prefiero que me remates ahora mismo
 pregonando con femeniles voces abanicos de sándalo y bastones de carey.
 pregunte y le dirán quién es el general Diego Bermúdez.
 premura por hacerlo desaparecer
+prende las palabras del que murió en la cruz.
 presto tuvo corro de jugadores.
 pretende referirse al proletariado de la música
 pretendía dar inmunidad a las empresas propietarias
@@ -9274,6 +9306,7 @@ se apartaron lentamente y fueron a reclinarse en la borda.
 se aportaron soluciones sobre recuperación de esas costas
 se aprobaron diversas mociones
 se asomó a la ventana, y mirando hacia el camino guardó silencio.
+se baña en sangre de héroes la tierra de Colón.
 se confunden entre las personas
 se consensue una propuesta que mejore la movilidad
 se construye, al menos, la estructura comunicativa
@@ -11181,8 +11214,10 @@ yo ya no puedo estar contigo.
 ¡En mala hora se lo contaste! Ahora ya lo sabe todo quisqui
 ¡Eres el mejor!
 ¡Eres mi salvador, Bernardo!
+¡Es el voto que el alma pronuncia, y que heroicos sabremos cumplir!
 ¡Es lento este programa, muy lento, no se puede aguantar!
 ¡Felicidades por el ascenso!
+¡Gritemos Viva, Libre Guinea, y defendamos nuestra Libertad.
 ¡Guíame hasta el centro George Pompidou!
 ¡Hay que ver cómo está el patio!
 ¡He visto Mallorca desde la Atalaya!
@@ -11194,6 +11229,8 @@ yo ya no puedo estar contigo.
 ¡La madre que lo parió!
 ¡La madre que te matriculó!
 ¡Las otras radios son mucho más resistentes, Pau!
+¡Libertad o con gloria morir!
+¡Libertad, libertad, orientales!
 ¡Los alrededores del Ebro son fantásticos!
 ¡Léete todo de una vez o no aprobarás nunca!
 ¡Madre, mía!. Si no lo veo, no lo creo y sigo sin creérmelo.
@@ -11214,12 +11251,15 @@ yo ya no puedo estar contigo.
 ¡No se oye!
 ¡No tendremos tanta suerte, Ferran!
 ¡Oh jamás lo hubiera pensado!
+¡Oh!, ¡oh!, ¡oh!,Esta es la linda tierra que busco yo;
+¡Orientales, la Patria o la Tumba!
 ¡Ostras, Pedrín! Esto sabe mejor que el sudor de Dios
 ¡Para! ¡Para! A dónde vas, alma de cántaro, así no
 ¡Pasaremos unos días en el balneario, Marta!
 ¡Pero que barbaridad, como has crecido!
 ¡Páginas y páginas de poesías ridículas me ha dejado en herencia!
 ¡Que buena pinta tiene la tarta!
+¡Que sabremos cumplir!
 ¡Quiero decidirlo yo solito!
 ¡Quiero ser marinero!
 ¡Quieto todo el mundo y qué no cunda el pánico!
@@ -11246,9 +11286,12 @@ yo ya no puedo estar contigo.
 ¡Qué te den morcilla!
 ¡Qué viajes que hace el rubio!
 ¡Recoge todo lo que has esparcido, Ernesto!
+¡Sabremos cumplir!
 ¡Sed alegres y mentirosos!
 ¡Son interesantes estas pinturas!
+¡También libertad!
 ¡Ten en consideración su buena voluntad!
+¡Tiranos, temblad!
 ¡Todo era un paisaje pintado en cristal!
 ¡Un queso tan agujereado es una estafa!
 ¡Un reto como éste no está al alcance de Isabel!
@@ -11266,6 +11309,7 @@ yo ya no puedo estar contigo.
 ¡levantemos!
 ¡levanten!
 ¡lo único que preten­demos es definirla de manera correcta!
+¡qué el trabajo es tu digno laurel y el honor es tu enseña triunfal!
 ¡si! ¡si! estamos aquí por el pueblo y para el pueblo
 ¿ A quién llamas roto, bruto?
 ¿ Ah sí? ¡ pues que te vaya bien, chiflado!

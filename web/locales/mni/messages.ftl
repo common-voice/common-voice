@@ -11,8 +11,13 @@ loading = ꯆꯤꯡꯊꯔꯤ
 email-opt-in-info = ꯑꯩꯅ ꯏꯃꯦꯜ ꯂꯥꯛꯍꯟꯕ ꯄꯥꯝꯃꯤ ꯄꯥꯟꯖꯤꯜ ꯅꯤꯡꯁꯤꯡꯍꯟꯕ, ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯄꯥꯎꯁꯤꯡ ꯱ꯁꯨꯡ ꯑꯅꯧꯕ ꯂꯥꯛꯄꯁꯤꯡ ꯫
 email-opt-in-info-title = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯄꯥꯎꯖꯦꯜ ꯊꯥꯅꯕ ꯄꯔꯤꯡꯗ ꯌꯥꯎꯁꯤꯟꯂꯨ
 email-opt-in-info-sub-with-challenge = ꯃꯁꯤꯒꯨꯝꯕ ꯑꯁꯤꯗ  ꯏꯃꯦꯜ ꯂꯥꯛꯍꯟꯕ ꯄꯥꯝꯃꯤ ꯑꯋꯥꯕ ꯈꯨꯗꯣꯡ ꯆꯑꯗꯕꯁꯤꯡ, ꯄꯥꯟꯖꯤꯜ ꯅꯤꯡꯁꯤꯡꯍꯟꯕ, ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯄꯥꯎꯁꯤꯡ ꯱ꯁꯨꯡ ꯑꯅꯧꯕ ꯂꯥꯛꯄꯁꯤꯡ ꯫
+email-opt-in-privacy-v2 = ꯏꯃꯦꯜꯁꯤꯡ ꯐꯪꯅꯕꯥ ꯈꯟꯗꯨꯅꯥ ꯅꯍꯥꯛꯅꯥ ꯃꯣꯖꯤꯂꯥꯒꯤ <privacyLink>>ꯑꯔꯣꯟꯕ ꯊꯧꯔꯥꯡ</privacy Link>ꯗꯥ ꯄꯅꯈ꯭ꯔꯤꯕꯥ ꯃꯇꯨꯡ ꯏꯟꯅꯥ ꯃꯣꯖꯤꯂꯥꯅꯥ ꯏꯅꯐꯣꯔꯃꯦꯁꯟ ꯑꯁꯤ ꯍꯦꯟꯗꯜ ꯇꯧꯕꯗꯥ ꯅꯍꯥꯛꯅꯥ ꯑꯣꯀꯦ ꯍꯥꯏꯅꯥ ꯍꯥꯏꯔꯤ꯫
 indicates-required = * ꯃꯁꯤꯅ ꯇꯥꯛꯂꯤꯕ ꯑꯁꯤ ꯁꯣꯢꯗꯅ ꯆꯪꯕ
 not-available-abbreviation = ꯐꯪꯗꯕ
+banner-error-slow-1 = ꯄꯨꯛꯅꯤꯡ ꯂꯩꯇꯥꯕꯤꯌꯨ, ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯌꯥꯝꯅ ꯇꯞꯅ ꯆꯠꯂꯤ ꯫ ꯊꯥꯒꯠꯆꯔꯤ ꯑꯗꯣꯝꯅ ꯊꯧꯋꯥꯢ ꯌꯥꯎꯕꯤꯕꯒꯤ ꯫
+banner-error-slow-2 = ꯑꯩꯈꯣꯏꯅꯥ ꯇ꯭ꯔꯥꯐꯤꯛ ꯀꯌꯥ ꯑꯃꯥ ꯐꯪꯂꯤ ꯑꯃꯁꯨꯡ ꯍꯧꯖꯤꯛ ꯋꯥꯐꯃꯁꯤꯡ ꯑꯁꯤ ꯊꯤꯖꯤꯜꯂꯤ ꯫
+banner-error-slow-link = ꯂꯃꯥꯏ ꯊꯥꯛ
+error-something-went-wrong = ꯄꯨꯛꯅꯤꯡ ꯐꯥꯊꯕꯤꯌꯨ, ꯑꯁꯣꯢꯕ ꯈꯔꯥ ꯂꯩꯔꯦ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -35,7 +40,6 @@ ba = ꯕꯥꯁꯀꯤꯔ
 bas = ꯕꯥꯁꯥ
 be = ꯕꯦꯂꯥꯔꯨꯁꯤꯌꯥꯟ
 bg = ꯕꯨꯜꯒꯥꯔꯤꯌꯥꯟ
-bm = ꯕꯥꯝꯕꯥꯔꯥ
 bn = ꯕꯦꯡꯒꯥꯂꯤ
 br = ꯕ꯭ꯔꯦꯇꯣꯟ
 bs = ꯕꯣꯁꯅꯤꯌꯥꯟ
@@ -67,6 +71,7 @@ fy-NL = ꯐ꯭ꯔꯤꯁꯤꯌꯥꯟ
 ga-IE = ꯑꯥꯏꯔꯤꯁ
 gl = ꯒꯥꯂꯤꯁꯤꯌꯥꯟ
 gn = ꯒꯨꯑꯥꯔꯥꯅꯤ
+gom = ꯒꯣꯑꯟ ꯀꯣꯟꯀꯥꯅꯤ
 ha = ꯍꯧꯁꯥ
 he = ꯍꯦꯕ꯭ꯔꯤꯎ
 hi = ꯍꯤꯟꯗꯤ
@@ -92,10 +97,12 @@ ki = ꯀꯤꯀꯤꯌꯨ
 kk = ꯀꯥꯓꯥꯈ
 km = ꯈꯃꯦꯔ
 kmr = ꯀꯨꯔꯃꯟꯖꯤ ꯀꯨꯔꯗꯤꯁ
+knn = ꯀꯣꯟꯀꯥꯅꯤ (ꯗꯦꯕꯅꯒ꯭ꯔꯤ)
 ko = ꯀꯣꯔꯤꯌꯥꯟ
 kpv = ꯀꯣꯃꯤ-ꯓꯥꯏꯔꯤꯌꯥꯟ
 kw = ꯀꯣꯔꯅꯤꯁ
 ky = ꯀꯌ꯭ꯔꯒꯤꯁ
+lb = ꯂꯨꯁꯦꯝꯕꯧꯔꯒꯤꯁ
 lg = ꯂꯨꯒꯥꯟꯗ
 lij = ꯂꯤꯒꯨꯔꯤꯌꯥꯟ
 lt = ꯂꯤꯊꯨꯑꯥꯅꯤꯌꯥꯟ
@@ -130,6 +137,7 @@ pl = ꯄꯣꯂꯤꯁ
 ps = ꯄꯥꯁꯇꯣ
 pt = ꯄꯣꯔꯇꯨꯒꯤꯁ
 quc = ꯀ'ꯆꯦ
+quy = ꯀ꯭ꯌꯆꯨꯑ ꯆꯥꯟꯀꯥ
 rm-sursilv = ꯔꯣꯃꯥꯟꯁ ꯁꯔꯁꯤꯜꯚꯥꯟ
 rm-vallader = ꯔꯣꯃꯥꯟꯁ ꯚꯥꯂꯥꯟꯗꯔ
 ro = ꯔꯣꯃꯥꯅꯤꯌꯥꯟ
@@ -142,6 +150,7 @@ scn = ꯁꯤꯆꯤꯂꯤꯌꯥꯟ
 shi = ꯁꯤꯜꯍꯥ
 si = ꯁꯤꯟꯍꯥꯂꯥ
 sk = ꯁ꯭ꯂꯣꯚꯥꯛ
+skr = ꯁꯥꯔꯥꯢꯀꯤ
 sl = ꯁ꯭ꯂꯣꯚꯦꯅꯤꯌꯥꯟ
 so = ꯁꯣꯃꯥꯂꯤ
 sq = ꯑꯜꯕꯥꯅꯤꯌꯥꯟ
@@ -157,6 +166,7 @@ ti = ꯇꯤꯒ꯭ꯔꯤꯅ꯭ꯌꯥ
 tig = ꯇꯥꯢꯒ꯭ꯔꯦ
 tk = ꯇ꯭ꯔꯛꯃꯦꯟ
 tl = ꯇꯥꯒꯥꯂꯣꯒ
+tok = ꯇꯣꯀꯤ ꯄꯣꯅꯥ
 tr = ꯇꯔꯀꯤꯁ
 tt = ꯇꯥꯇꯥꯔ
 tw = ꯇ꯭ꯋꯤ
@@ -196,6 +206,7 @@ cookies = ꯃꯊꯪ ꯆꯪꯕ ꯅꯨꯡꯉꯥꯏꯅꯕ ꯂꯦꯝꯍꯧꯈꯥꯛ
 faq = ꯇꯍꯋ
 content-license-text = ꯃꯅꯨꯡꯒꯤ ꯑꯌꯥꯎꯕꯁꯤ <licenseLink>ꯀ꯭ꯔꯤꯌꯦꯇꯤꯪꯚ ꯀꯃꯟꯁ ꯑꯌꯥꯕ</licenseLink>ꯒꯤ ꯃꯈꯥꯗ ꯐꯪꯕꯅꯤ
 share-title = ꯑꯩꯈꯣꯏꯗ ꯃꯇꯦꯡ ꯄꯥꯡꯎ ꯑꯇꯩꯒꯤ ꯈꯣꯟꯖꯦꯜ ꯀꯠꯊꯣꯛꯅꯕ!
+share-text = ꯑꯁꯦꯡꯕꯥ ꯃꯤꯑꯣꯏꯁꯤꯡꯅꯥ ꯃꯇꯧ ꯀꯔꯝꯅꯥ ꯋꯥꯔꯤ ꯁꯥꯅꯕꯒꯦ ꯍꯥꯏꯕꯗꯨ ꯃꯦꯁꯤꯟꯁꯤꯡꯗꯥ ꯇꯝꯕꯤꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯕꯤꯌꯨ, ꯅꯍꯥꯛꯀꯤ ꯈꯣꯟꯖꯦꯜ ꯑꯗꯨ ꯈꯨꯗꯣꯜ ꯇꯧꯕꯤꯌꯨ꯫
 link-copied = ꯁꯝꯅꯕꯝ ꯁꯤꯟꯖꯤꯟꯍꯧꯔꯦ
 back-top = ꯃꯅꯤꯡꯗꯒꯤ ꯃꯇꯣꯟ
 logout = ꯃꯄꯥꯟ ꯊꯣꯛꯂꯛꯄ
@@ -207,6 +218,9 @@ default-tagline = ꯃꯣꯓꯤꯂꯥ ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ �
 home-cta = ꯋꯥ ꯉꯥꯡꯉꯨ, ꯃꯁꯤꯗ ꯁꯔꯨꯛꯌꯥꯔꯨꯂꯥꯎ!
 wall-of-text-start = ꯈꯣꯖꯦꯜ ꯑꯁꯤ ꯃꯍꯧꯁꯥꯅꯤ, ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯃꯤꯑꯣꯏꯕꯅꯤ ꯫ ꯃꯁꯤꯅ ꯃꯔꯝ ꯑꯣꯏꯔꯒ ꯑꯩꯈꯣꯏꯅ ꯁꯤꯖꯤꯟꯅꯕ ꯌꯥꯕ ꯈꯣꯟꯖꯦꯜ ꯁꯦꯝꯕ ꯄꯥꯝꯂꯤꯕꯁꯤ ꯃꯦꯆꯤꯟ ꯑꯁꯤꯒꯤ ꯁꯤꯟ-ꯁꯥꯔꯣꯜ ꯫ ꯑꯗꯨꯕꯨ ꯈꯣꯟꯖꯦꯜꯒꯤ ꯊꯧꯁꯤꯜꯁꯤꯡ ꯁꯦꯝꯕꯗ, ꯌꯥꯝꯅ ꯆꯥꯎꯕ ꯈꯧꯟꯖꯦꯜꯒꯤ ꯗꯥꯇꯥ ꯱ ꯃꯊꯧꯇꯥꯔꯤ ꯫
 wall-of-text-more-mobile = ꯑꯆꯧꯕ ꯁꯤꯟꯂꯝꯁꯤꯡꯅ ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯗꯥꯇꯥꯁꯤꯡ ꯑꯁꯤ ꯃꯤꯌꯥꯝ ꯑꯌꯥꯝꯕꯗ ꯐꯪꯗꯦ ꯫ ꯑꯩꯈꯣꯏꯅ ꯈꯟꯂꯤ ꯃꯇꯣꯟ ꯇꯨꯝꯅ ꯑꯅꯧꯕ ꯄꯨꯊꯣꯛꯂꯛꯄ ꯑꯣꯏꯅ ꯫ ꯃꯁꯤꯅ ꯃꯔꯝ ꯑꯣꯏꯔꯒ ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯊꯧꯔꯥꯡ ꯂꯤꯡꯈꯠꯂꯤꯕ, ꯊꯧꯔꯥꯡ ꯑꯁꯤꯅ ꯈꯣꯟꯖꯦꯜ ꯈꯪꯗꯣꯛꯇꯨꯅ ꯃꯤꯌꯥꯝ ꯈꯨꯗꯤꯡꯃꯛꯅ ꯁꯤꯖꯤꯟꯅꯕ ꯌꯥꯅꯕ ꯫
+wall-of-text-more-desktop =
+    ꯍꯧꯖꯤꯛꯇꯤ ꯑꯗꯣꯝꯅꯥ ꯑꯗꯣꯝꯒꯤ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯀꯅꯥꯒꯨꯝꯕꯥ ꯑꯃꯍꯦꯛꯇꯅꯥ ꯁꯤꯖꯤꯟꯅꯕꯥ ꯌꯥꯕꯥ ꯑꯣꯄꯟ-ꯁꯣꯔꯁ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥꯕꯦꯖ ꯑꯃꯥ ꯁꯦꯝꯒꯠꯄꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯅꯕꯥ ꯑꯗꯣꯃꯒꯤ ꯈꯣꯟꯖꯦꯜ ꯄꯤꯕꯥ ꯌꯥꯔꯦ꯫
+    ꯈꯣꯟꯖꯦꯜꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯋꯦꯕꯀꯤꯗꯃꯛ ꯑꯅꯧꯕꯥ ꯑꯦꯄꯁꯤꯡ ꯁꯦꯃꯒꯠꯅꯕꯥ꯫ ꯃꯦꯁꯤꯟꯁꯤꯡꯅꯥ ꯑꯁꯦꯡꯕꯥ ꯃꯤꯑꯣꯏꯁꯤꯡꯅꯥ ꯀꯔꯝꯅꯥ ꯋꯥꯔꯤ ꯁꯥꯅꯕꯒꯦ ꯍꯥꯏꯕꯗꯨ ꯈꯪꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯅꯕꯥ ꯋꯥꯍꯩ ꯑꯃꯥ ꯄꯥꯕꯤꯌꯨ꯫ ꯑꯇꯣꯞꯄꯒꯤ ꯊꯕꯛꯁꯤꯡ ꯌꯦꯡꯁꯤꯟꯕꯤꯌꯨ꯫ ꯑꯐꯕ ꯆꯥꯡ ꯍꯦꯟꯅꯕꯥ ꯁꯔꯨꯀ ꯌꯥꯔꯤꯕꯁꯤꯡ ꯌꯥꯎꯔꯤ ꯫ ꯃꯁꯤ ꯌꯥꯝꯅꯥ ꯂꯥꯏꯕꯛ ꯐꯕꯅꯤ!
 show-wall-of-text = ꯍꯦꯟꯅ ꯄꯥꯔꯣ
 help-us-title = ꯋꯥꯍꯩꯄꯔꯦꯡ ꯑꯆꯨꯝꯕ ꯑꯣꯏꯍꯟꯕꯗ ꯑꯩꯈꯣꯢꯕꯨ ꯃꯇꯦꯡ ꯄꯥꯡꯎ!
 vote-yes = ꯍꯣꯏ
@@ -357,14 +371,58 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯑꯁꯤ ꯀꯔꯤꯒꯤ?
-how-does-it-work-title = ꯃꯁꯤ ꯀꯔꯝꯅ ꯃꯊꯧ ꯇꯧꯕꯅꯣ?
+
+## How does it work section
+
+about-new-lang-title = ꯑꯅꯧꯕ ꯂꯣꯟ ꯂꯤꯡꯈꯠꯂꯦ
+about-new-lang-subtitle = ꯃꯁꯤꯒꯤ ꯂꯣꯟ ꯑꯁꯤꯗ ꯑꯩꯈꯣꯢꯅ ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯂꯤꯡꯈꯠꯂꯦ
+about-voice-contrib-title = ꯈꯣꯟꯖꯦꯜ ꯈꯣꯝꯖꯤꯟꯕ
+about-voice-contrib-subtitle = ꯃꯤꯌꯥꯝꯅ ꯂꯥꯛꯇꯨꯅ ꯱ꯁꯨꯡ ꯃꯈꯣꯢꯒꯤ ꯈꯣꯟꯖꯦꯜ ꯁꯥꯔꯨꯛ ꯌꯥꯕ ꯫
 about-speak = ꯋꯥ ꯉꯥꯡꯉꯨ
 about-listen = ꯃꯨꯟꯅ ꯇꯥꯎ
+about-yes-votes = ≥ ꯲ ꯚꯣꯠ ꯄꯤ
+about-no-votes = ≥ ꯲ ꯚꯣꯠ ꯄꯤꯗꯦ
+about-dataset-new = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜꯒꯤ ꯗꯥꯇꯥꯁꯦꯝꯐꯝ
 about-partners = ꯈꯣꯡꯂꯣꯏ
+about-become-a-partner = ꯈꯣꯡꯂꯣꯢ ꯱ ꯑꯣꯢꯕ
+about-get-involved = ꯌꯥꯎꯁꯤꯟꯕ
 about-nav-why-common-voice = ꯀꯔꯤꯒꯤ?
 about-nav-how-it-works = ꯀꯔꯝꯅ?
 about-nav-partners = ꯈꯣꯡꯂꯣꯏ
 about-nav-get-involved = ꯌꯥꯎꯁꯤꯟꯕ
+about-nav-how-it-works-2 = ꯀꯃꯥꯢꯅ ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜ ꯊꯕꯛ ꯇꯣꯕꯒꯦ ?
+about-nav-playbook = ꯇꯝꯃꯨ ꯛꯔꯝꯅ ꯁꯔꯨꯛ ꯌꯥꯒꯅꯤ ꯍꯥꯢꯕꯗꯨ ꯈꯪꯅꯕ
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = ꯑꯆꯝꯕ ꯈꯣꯟꯖꯦꯜꯗ ꯂꯣꯟ ꯱ ꯍꯥꯢꯕꯁꯤ ꯛꯔꯤꯅꯣ ?
+
+## How do I add a language
+
+about-playbook-how-add-language = ꯑꯩꯅ ꯀꯔꯝꯅ ꯂꯣꯟ ꯱ ꯍꯥꯞꯆꯤꯟꯒꯅꯤ ?
+
+## How does localization work
+
+
+## How to add sentences
+
+about-playbook-how-add-sentences = ꯑꯩꯅ ꯀꯔꯝꯅ ꯋꯥꯍꯩꯄꯔꯦꯡ  ꯍꯥꯞꯆꯤꯟꯒꯅꯤ ?
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 mycroft-subtitle = ꯈꯨꯠꯁꯦꯝꯒꯤ ꯍꯩꯁꯤꯡꯕ
 
 ## Glossary
@@ -411,6 +469,9 @@ size-megabyte = ꯑꯦꯝꯕꯤ
 
 
 ## Request Language Modal
+
+
+## Request Language Pages
 
 
 ## Languages Overview
@@ -467,6 +528,9 @@ size-megabyte = ꯑꯦꯝꯕꯤ
 
 
 ## HOME
+
+
+## GENERAL
 
 
 ## HOW-TO

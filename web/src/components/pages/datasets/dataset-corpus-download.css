@@ -1,0 +1,120 @@
+.dataset-corpus-download {
+    background: var(--lighter-grey);
+
+    .inner {
+        @media (--md-down) {
+            padding: 40px 20px;
+        }
+
+        @media (--lg-up) {
+            max-width: 400px;
+            padding-top: 60px;
+            padding-bottom: 20px;
+            padding-inline-start: 100px;
+        }
+    }
+
+    .labeled-form-control {
+        margin-bottom: 20px;
+
+        input,
+        select,
+        .label {
+            background: var(--lighter-grey);
+        }
+    }
+
+    .facts {
+        margin: 0 0 40px;
+        padding: 0;
+        list-style: none;
+
+        > li {
+            border-bottom: 1px solid var(--desert-storm);
+            padding: 20px 0;
+            display: flex;
+            flex-direction: row;
+
+            @media (--md-down) {
+                &:last-child {
+                    flex-direction: column;
+
+                    .label {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+
+        .label {
+            flex-shrink: 0;
+            width: 200px;
+            display: block;
+            font-size: var(--font-size-xs);
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            color: var(--warm-grey);
+        }
+
+        .value {
+            font-size: var(--font-size-lg);
+            font-weight: 600;
+
+            @media (--md-down) {
+                overflow: auto;
+            }
+        }
+
+        .version {
+            white-space: pre;
+        }
+
+        .splits {
+            margin-bottom: 10px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            h5 {
+                margin: 0;
+                font-size: 14px;
+                font-weight: normal;
+                color: var(--warm-grey);
+            }
+
+            ol {
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                font-size: var(--font-size);
+                font-weight: normal;
+                color: var(--near-black);
+                list-style: none;
+            }
+
+            li {
+                display: flex;
+                flex-direction: row;
+                white-space: pre;
+
+                @media (--md-down) {
+                    width: 100%;
+
+                    .ellipsis {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+
+                &::after {
+                    content: ', ';
+                }
+            }
+
+            li:last-child::after {
+                content: '';
+            }
+        }
+    }
+}

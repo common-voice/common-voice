@@ -1,11 +1,11 @@
 # Number of days of inactivity before an issue becomes stale
-daysUntilStale: 730
+daysUntilStale: 365
 # Number of days of inactivity before a stale issue is closed
 daysUntilClose: 30
 # Issues with these labels will never be considered stale
 exemptLabels:
   - neverclose
-  - "Type: localization"
+  - "Localization"
   - "Blocked: external"
 # Label to use when marking an issue as stale
 staleLabel: stale
@@ -16,3 +16,5 @@ markComment: >
 closeComment: >
   This issue has been automatically closed due to lack of activity. Please feel free to re-open if you need further assistance.
 only: issues
+# label to add
+staleLabel: Stale

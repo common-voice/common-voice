@@ -50,4 +50,4 @@ in which to store voice clips.
 
 1. Create a file in your repository folder called `config.json`
 2. Add a key `BUCKET_NAME`, and enter a value of the bucket we chose earlier "voice-web"
-3. Add a key `BUCKET_LOCATION` with Region corresponding to your region name listed here: https://docs.aws.amazon.com/general/latest/gr/rande.html
+3. Add a key `AWS_REGION` with Region corresponding to your region name listed here: https://docs.aws.amazon.com/general/latest/gr/rande.html

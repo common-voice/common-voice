@@ -182,8 +182,8 @@ zh-TW = 中文（台灣）
 
 ## Layout
 
-speak = 講話
-speak-now = 而家講話
+speak = 錄音
+speak-now = 請開聲講
 datasets = 數據集
 languages = 所有語言
 about = 介紹
@@ -302,7 +302,6 @@ shortcut-discard-ongoing-recording-label = 捨棄當前錄音
 shortcut-submit = 返回
 shortcut-submit-label = 提交錄音
 request-language-text = 喺 Common Voice 度見唔到你嘅語言？
-request-language-text-learn = 撳呢度瞭解點樣請求加埋佢！
 request-language-button = 申請增加一種語言
 
 ## ProjectStatus
@@ -429,7 +428,6 @@ faq-why-different-speakers-a =
     大多數嘅語音數據庫嘅語音來源偏重某啲特定人口，令到結果偏向於<articleLink>男性以及中產階級</articleLink>。而喺呢啲訓練機械嘅數據之中，各種弱勢嘅口音以及方言往往同邊緣化嘅人群有關，同時好多機器亦好難理解女性嘅聲音。
     呢個就係點解我哋嘅語音數據庫應該海納百川，收集各種聲音！
 faq-why-my-lang-q = 點解仲未有我嘅語言嘅？
-faq-why-my-lang-new-a = Mozilla 唔會特別偏好邊種語言。相反而然 Common Voice 係一個純社群發起嘅計劃，需要<multilangLink>幾個步驟先可以新增語言</multilangLink>並開始收集語音片段。首先，需要完成翻譯 Common Voice 網站，噉樣社群成員先得用自己嘅語言進行貢獻。次之，我哋需要大量嘅無版權語句，畀大家可以朗讀出嚟。當兩個條件都滿足之後， Common Voice 即可「上線」，畀大家開始錄音，同埋驗證其他人所錄低嘅片段。如果你想協助準備畀新語言上線，歡迎到<sentenceCollectorLink>語句收集工具</sentenceCollectorLink>開始幫手。
 faq-what-quality-q = 錄音品質要到咩等級，先用得喺數據集入面？
 faq-what-quality-a = 我哋希望 Common Voice 數據集能夠反映出語音轉文字引擎會喺現實環境入面聽到嘅聲音，所以我哋希望能夠收集各種環境下同埋唔同錄音品質嘅片段。除咗多元嘅講者群體，如果呢個數據集包含到各種語音品質嘅片段，就可以令語音轉文字引擎處理到各種現實環境下嘅狀況，例如背景中有人喺度講嘢，或者有車輛嘅噪音。只要閣下嘅片段可以足夠俾人聽得明，即可收錄到數據集入面。
 faq-why-10k-hours-q = 點解每個語言以收集10,000個驗證時數為目標？
@@ -461,6 +459,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 點解要做 Common Voice?
+about-header-description-v2 =
+    Common Voice 係一個公開嘅語音數據集，佢係靠世界各地嘅志願者貢獻出自己把聲嚟構成嘅。想自己整語音應用嘅個人同團體都可以用呢份數據集嚟訓練啲機械學習模型。
+    
+    目前大部分語音數據集都係得大公司先擁有，噉樣會阻礙創新。而且好多語音數據集都忽視咗非英語人士、有色人種、殘障人士、女性、LGBTQIA+ 等人羣嘅數據。噉導致咗有好多語言啲語音技術都唔支援，或者就算係支援咗都唔係對所有人嘅效果都一樣咁好。我哋想等大家都可以好方便噉貢獻出自己把聲，嚟改變呢個現狀。
 how-does-it-work-title-v2 = Common Voice 係點運作嘅？
 how-does-it-work-text = 我哋整緊一個開源嘅聲音資料集。一齊幫手，貢獻你嘅聲音，核實錄音嘅準確度，令資料集變得更加好。
 
@@ -471,7 +473,7 @@ about-speak = 講
 about-speak-text = 貢獻者會錄低由句庫抽出嚟嘅句子。
 about-listen-queue = 聆聽隊列
 about-listen-queue-text = 錄音片段會拎去排隊準備畀人去聽。
-about-listen = 聽
+about-listen = 聽聲
 about-listen-text = 用户會核實錄音嘅準確度，睇下朗讀者有冇正確讀出句子。
 about-is-it-valid = 段錄音有冇效？
 about-is-it-valid-text = 當用户畀咗一票「啱」，段錄音會標做「有效」
@@ -483,12 +485,6 @@ about-dataset-new = Common Voice 數據集
 about-dataset-new-text = Common Voice 數據集有幾十萬條語音樣本，可以用嚟幫開發者建造語音識別工具。
 about-clip-graveyard = 錄音垃圾桶
 about-clip-graveyard-text = 垃圾桶度有無法進入 Common Voice 數據集嘅語音片段。同數據集一樣，垃圾桶嘅內容亦可下載。
-about-partners = 合作夥伴
-about-become-a-partner = 成爲合作夥伴
-about-partnership =
-    Common Voice 係一個合作計劃，目標係憑住一班合作伙伴同貢獻者嘅力量，建立一個史上最大嘅開源語音資料集。
-    
-    以下嘅個人同組織喺計劃入面嘅貢獻良多，我哋想向佢哋表示感謝：
 about-get-involved = 參與
 about-get-involved-text-2 =
     想幫手令 Common Voice 計劃變得更好？
@@ -504,6 +500,7 @@ about-nav-playbook = 瞭解點樣參與
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice 度嘅一門語言係指乜？
 
 ## How do I add a language
 
@@ -529,10 +526,6 @@ about-nav-playbook = 瞭解點樣參與
 ## How are decisions made
 
 about-playbook-how-project-governance-content-3 = 私隱、安全同透明度。
-mycroft-title = Mycroft Ai
-mycroft-subtitle = 人工智能
-mycroft-description = Mycroft 係全球第一套開放原始碼嘅語音助理，無論喺電腦、汽車、Raspberry Pi 定任何地方都用得到。
-mycroft-secondary-description = 呢個係一套可以自由混搭、擴展、改進嘅開放原始碼軟件。Mycroft可以用於各種情景，譬如科學專案、企業應用程式等。
 
 ## Glossary
 
@@ -675,6 +668,9 @@ request-language-success-content = 我哋會盡快同你聯絡，同你提供更
 select-language = 揀一種語言…
 other-language = 其他語言
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = 準備緊
@@ -690,7 +686,6 @@ language-search-input =
 language-speakers = 講者
 localized = 已被本地化
 sentences = 句子
-total-hours = 驗證時數
 
 ## Contribution
 
@@ -922,6 +917,7 @@ download-request-modal-title = 下載連結
 download-request-modal-description = 下列係你嘅 ZIP 檔下載鏈結。
 download-request-link-text = { $total } 個 zip 檔中嘅第 { $offset } 個
 download-request-metadata-link = 句子文本
+download-request-link-single = 閣下亦可以喺自己想用嘅下載工具中貼上 direct URLs 以下載檔案。呢啲 URLs 嘅有效期為12個鐘。閣下可隨時再次訪問本頁面以獲取新嘅 URLs。
 
 ## Landing
 
@@ -1066,6 +1062,7 @@ sc-howto-addlang-title = 增加使用語言
 sc-howto-addlang-text = 登入後，你可以喺個人資料中揀自己嘅語言。
 sc-howto-addsen-title = 添加新句子
 sc-howto-addsen-item-1 = 所有語句必須符合<wikipediaLink>公共領域 (CC-0) 許可證</wikipediaLink>嘅規範。對於包含非公共領域牌照規範嘅內容，我哋會以<cc0WaiverLink>貢獻者協議模板</cc0WaiverLink>嚟接受由版權持有者貢獻嘅內容。
+sc-howto-addsen-item-2 = 數字嘅問題：源文本中唔應該出現數字，因為數字可能會導致朗讀方面出問題。 數字嘅讀法會因上下文而有所不同，可能會導致數據集出現混淆。例如，數字「2409」可以被讀作「二四零九」或者「二千四百零九」。
 sc-howto-cite-title = 點樣引用
 sc-howto-review-title = 審核句子
 

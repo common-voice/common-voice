@@ -1,12 +1,16 @@
 @import url('../media.css');
 
+.header-wrapper {
+    border-bottom: 1px solid var(--light-grey);
+}
+
 header {
+    flex-shrink: 0;
     position: sticky;
     top: 0;
     display: flex;
     align-items: center;
     height: var(--header-height);
-    box-sizing: border-box;
     transition: background-color var(--transition-duration) linear,
         box-shadow var(--transition-duration) linear;
     padding: var(--page-margin);
@@ -33,7 +37,7 @@ header {
         }
     }
 
-    & .main-logo {
+    & .Logo {
         margin-bottom: -3px;
     }
 
@@ -93,7 +97,6 @@ header {
 }
 
 .nav-list {
-    box-sizing: border-box;
     min-height: 100%;
 
     &,
@@ -209,7 +212,6 @@ header {
 }
 
 #navigation-modal {
-    box-sizing: border-box;
     background-color: var(--white);
     position: fixed;
     top: 0;

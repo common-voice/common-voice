@@ -1,0 +1,19 @@
+<svg width="1440" height="350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <mask id="a" maskUnits="userSpaceOnUse" x="-1" y="0" width="1441" height="726">
+    <path d="M1440 0H-1v725h1441z" fill="#fff"/>
+  </mask>
+  <g mask="url(#a)" fill-rule="evenodd" clip-rule="evenodd">
+    <path opacity=".2" d="M114 247c474 56 915 323 1347 519H-56V251c71-4 128-5 170-4z" fill="url(#b)" style="fill:url(#b)"/>
+    <path opacity=".5" d="M-248 452c39-70 75-289 231-289 176 0 147 231 345 231 176 0 331-236 468-49 83 114 244 18 335-68 58-55 157-131 309-131C2830 961-824 1216-248 452Z" fill="url(#c)" style="fill:url(#c)"/>
+  </g>
+  <defs>
+    <linearGradient id="b" x1="348.1" y1="710.3" x2="368.7" y2="270.7" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 -40)">
+      <stop stop-color="#629FF4" stop-opacity="0"/>
+      <stop offset="1" stop-color="#59CBB7"/>
+    </linearGradient>
+    <linearGradient id="c" x1="1150.4" y1="613.7" x2="1137.7" y2="213.9" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 -40)">
+      <stop stop-color="#629FF4" stop-opacity="0"/>
+      <stop offset="1" stop-color="#59CBB7" stop-opacity=".6"/>
+    </linearGradient>
+  </defs>
+</svg>

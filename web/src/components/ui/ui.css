@@ -23,7 +23,7 @@
 
 .button {
     position: relative;
-    box-sizing: border-box;
+
     padding: 0.5rem 1rem;
     min-width: 14rem;
     height: 3rem;
@@ -38,13 +38,21 @@
     border: 1px solid var(--near-black);
     outline: none;
     transition: all var(--transition-duration) linear;
-    background: var(--near-black);
+    background: var(--black);
     color: var(--white);
     width: 100%;
 
     @media (--lg-up) {
         width: auto;
         height: auto;
+    }
+
+    &.isBig {
+        font-size: 1.15em;
+
+        @media (--lg-up) {
+            padding: 1em 2em;
+        }
     }
 
     &.outline {
@@ -140,7 +148,6 @@ button.card-action:focus.focus-visible path {
     border-radius: 2px;
     width: 15px;
     height: 15px;
-    box-sizing: border-box;
 
     &:focus-within {
         border-width: 3px;
@@ -192,7 +199,6 @@ button.card-action:focus.focus-visible path {
     position: relative;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
 
     & :required,
     & :valid {
@@ -207,13 +213,12 @@ button.card-action:focus.focus-visible path {
         z-index: var(--middle-z-index);
         background: var(--white);
         font-size: var(--font-size-xs);
-        color: var(--warm-grey);
+        color: var(--near-black);
     }
 
     & input,
     & select,
     & textarea {
-        box-sizing: border-box;
         border: 1.6px solid #e6e4e1;
         border-radius: 2px;
         padding: 13px;
@@ -265,6 +270,34 @@ button.card-action:focus.focus-visible path {
 }
 
 .spinner {
+    box-sizing: border-box;
+    animation: spinner-fade-in 0.5s ease-in forwards;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+
+    .spinner__shape {
+        border-radius: 50%;
+        display: inline-block;
+
+        height: var(--spinner-height);
+        width: var(--spinner-height);
+
+        animation: spin 4s linear infinite;
+        background-color: var(--black);
+        opacity: 1;
+        transition: opacity var(--transition-duration) linear;
+    }
+}
+
+.spinner--light {
+    .spinner__shape {
+        background-color: var(--white);
+    }
+}
+
+.spinner--floating {
     pointer-events: none;
     z-index: var(--middle-z-index);
     position: absolute;
@@ -276,24 +309,15 @@ button.card-action:focus.focus-visible path {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
     animation: spinner-fade-in 0.5s ease-in forwards;
 
-    & span {
-        border-radius: 50%;
-        display: inline-block;
+    .spinner__shape {
+        margin: auto;
         position: absolute;
-        height: var(--spinner-height);
-        width: var(--spinner-height);
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
-        margin: auto;
-        animation: spin 4s linear infinite;
-        background-color: var(--black);
-        opacity: 1;
-        transition: opacity var(--transition-duration) linear;
     }
 }
 
@@ -313,7 +337,6 @@ button.card-action:focus.focus-visible path {
 }
 
 .toggle-input {
-    box-sizing: border-box;
     border-radius: 25px;
     padding: 0 var(--toggle-padding);
     width: min-content;

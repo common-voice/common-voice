@@ -17,6 +17,7 @@ not-available-abbreviation = 無適用
 banner-error-slow-1 = 感謝您使用 Common Voice，很抱歉目前網站有點慢。
 banner-error-slow-2 = 我們收到大量連線流量，目前正在分析相關問題。
 banner-error-slow-link = 狀態頁面
+error-something-went-wrong = 歹勢，有一屑仔物仔怪怪
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -403,6 +404,7 @@ gravatar_not_found = 找不到您電子郵件信箱的 Gravatar
 file_too_large = 選擇的檔案傷大
 avatar-uploaded = 已上傳大頭照
 max-file-size = 最大 { $kb }kb
+remove-avatar = 移除大頭照
 
 ## Profile - Email
 
@@ -529,6 +531,7 @@ about-get-involved-text-2 =
     討論區留言、透過 <githubLink>GitHub</githubLink> 回報網站問題、
     或是加入我們的 <matrixLink>Matrix</matrixLink> 社群聊天室。
 about-stay-in-touch = 我要如何與你們保持聯繫？
+about-stay-in-touch-button = 註冊
 about-stay-in-touch-text-1 = <emailFragment>訂閱</emailFragment>我們的郵件群組，瞭解可以參加哪些活動、並一同參與 Common Voice 的功能設計。
 about-stay-in-touch-text-2 = 您可以加入 <discourseLink>Discourse</discourseLink> 來認識 Mozilla 各語言社群的成員並進行對話，或是加入 <matrixLink>Matrix</matrixLink> 來獲得快速建議。
 about-nav-why-common-voice = 為啥物？
@@ -678,6 +681,7 @@ review-delete-recordings = 刪除我的錄音
 
 ## Datasets Page
 
+datasets-heading = 資料集
 datasets-headline = 我們想建立一套開放原始碼、多重語言的語音資料集，讓任何人都可以用來開發語音相關應用。
 datasets-positioning =
     我們相信若有一組大型、可公開使用的語音資料集，可奠定以機器學習為基礎的語音技術的創新，與健康的商業競爭。
@@ -762,6 +766,28 @@ request-language-success-content = 我們將很快在您的語言於 Common Voic
 select-language = 選擇一種語言…
 other-language = 其他語言
 
+## Request Language Pages
+
+request-language-heading = 請求加入新語言
+request-language-explanation-1 = 請先確認您的語言是否已列於<languagesPageLink>Common Voice 語言頁面</languagesPageLink>。若沒有再列出的語言清單中，請填寫此表單，我們將<strong>寄送一份如何開始設定語言</strong>的簡短郵件帶您入門。
+request-language-explanation-2 = 我們也想<strong>讓我們的社群經理知道您對新語言有興趣</strong>，這樣才可以提供您任何需要的支援或幫助。
+request-language-form-email =
+    .label = 您的電子郵件地址
+request-language-form-info =
+    .label = 語言相關資訊
+request-language-form-info-explanation = 請盡量提供與這種語言有關的資訊，包含：
+request-language-form-info-explanation-list-1 = 語言名稱
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO 代碼</isoCodeLink>（如果知道的話）
+request-language-form-info-explanation-list-3 = 能幫助我們理解這種語言相關資訊的網站
+request-language-google-recaptcha-required = 若要繼續，須完成 reCAPTCHA 驗證
+request-language-google-recaptcha-error = reCAPTCHA 怪怪的，請再試一次。
+# Success page
+request-language-success-heading = 您已成功送出新語言請求，非常感謝！
+request-language-success-list-1 = 您應該很快就會收到要如何將語言加入 Common Voice 的相關資訊
+request-language-success-list-2 = 我們的社群經理將主動聯絡您，提供各種協助，並且讓您知道是否已有其他社群在貢獻您提出的語言。
+request-language-success-list-3 = 若接下來幾天，您沒有收到來自我們的消息，也歡迎您主動寄信到 <emailLink>{ $email }</emailLink> 聯絡我們，我們會盡快回覆！
+request-language-error = 我們可能還沒有收到該請求，請直接寄信到 <emailLink>{ $email }</emailLink> 聯絡我們，我們會盡快回覆！
+
 ## Languages Overview
 
 language-section-in-progress = 準備中
@@ -827,8 +853,10 @@ listen-again-instruction = 幹得好！<playIcon></playIcon>準備好就可以�
 listen-3rd-time-instruction = 完成兩筆了<playIcon></playIcon>，繼續保持！
 listen-last-time-instruction = <playIcon></playIcon>最後一筆了！
 listen-empty-state = 我們已經沒有這種語言的片段可以驗證了…
+listen-loading-error = 我們無法取得錄音片段讓您聆聽確認，請稍候再試。
 speak-empty-state = 我們已經沒有這種語言的文字可以錄音了…
 speak-empty-state-cta = 貢獻語句
+speak-loading-error = 我們無法取得句子讓您錄音，請稍候再試。
 record-button-label = 共你的聲音錄下來
 share-title-new = <bold>請幫助我們</bold>找到更多聲音
 keep-track-profile = 註冊帳號來追蹤個人貢獻進度
@@ -1410,7 +1438,6 @@ sc-review-link = 審核
 
 sc-settings-title = 設定
 sc-settings-ui-language = 介面語言
-sc-settings-language-translated-warning = 此語言的頁面可能尚未完全翻譯完成。歡迎到 <pontoonLinkLink>Pontoon</pontoonLinkLink> 協助我們補充翻譯。
 sc-settings-reset-skipped = 重設略過的句子
 sc-settings-skipped-decription = 您先前在審核時跳過了一些句子。重設略過的句子將再次顯示所有這些被跳過的句子。此設定對所有語言都有效。
 sc-settings-show-all-button = 再次顯示略過的句子

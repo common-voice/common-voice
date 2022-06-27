@@ -63,6 +63,7 @@ function getCSPHeaderValue() {
     // add s3proxy to allowed sources in development
     SOURCES['connect-src'].push(S3_LOCAL_DEVELOPMENT_ENDPOINT);
     SOURCES['media-src'].push(S3_LOCAL_DEVELOPMENT_ENDPOINT);
+    SOURCES['img-src'].push(S3_LOCAL_DEVELOPMENT_ENDPOINT);
   }
 
   return Object.entries(SOURCES)

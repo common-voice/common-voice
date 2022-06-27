@@ -6,16 +6,19 @@
 
 @import url('alert/alert.css');
 @import url('contact-modal/contact-modal.css');
-@import url('modal/modal.css');
-@import url('pages/languages/languages.css');
-@import url('pages/languages/get-involved-modal.css');
-@import url('progress-bar/progress-bar.css');
-@import url('request-language-modal/request-language-modal.css');
 
 /* Define our icon font. */
 @font-face {
     font-family: Icons;
     src: url('/font/icomoon.ttf');
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Zilla Slab has a limited glyph support range so switch to
@@ -47,7 +50,6 @@ html {
     font-size: var(--font-size);
     color: var(--black);
     background-color: var(--white);
-    scroll-behavior: smooth;
 }
 
 html,
@@ -108,30 +110,6 @@ button {
     cursor: pointer;
 }
 
-.staging-banner {
-    position: sticky;
-    top: var(--header-height);
-    padding: 0.5rem;
-    color: var(--white);
-    background: var(--red);
-    text-align: center;
-    z-index: var(--top-z-index);
-
-    @media (--md-up) {
-        top: 0;
-    }
-
-    & a {
-        color: var(--white);
-        text-decoration: underline;
-    }
-
-    & button {
-        border: none;
-        background: var(--grey);
-    }
-}
-
 .js-focus-visible :focus:not(.focus-visible),
 .js-focus-visible :focus-within:not(.focus-visible) {
     outline: none;
@@ -156,45 +134,9 @@ button {
     font-weight: bold;
 }
 
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
 #main {
     position: relative;
-    box-sizing: border-box;
     background-color: var(--white);
-    animation: fadein var(--transition-duration-slow) linear;
-}
-
-.profile #content {
-    margin: 0 auto;
-    max-width: var(--old-desktop-width);
-}
-
-.privacy,
-.terms,
-.challenge-terms {
-    #content {
-        h1 {
-            margin: 1rem 0;
-            text-decoration: underline;
-        }
-
-        h2,
-        h3 {
-            margin: 1.5rem 0 0.5rem;
-        }
-
-        a {
-            color: var(--link-color);
-        }
-    }
 }
 
 /**
@@ -216,37 +158,13 @@ button {
 }
 
 #content {
-    position: relative;
-    min-height: 80vh;
-    border-top: 1px solid var(--light-grey);
-
-    @media (--md-up) {
-        position: unset;
-        flex: 1 1 100%;
-        padding: 0 var(--page-margin);
-    }
-
-    > div {
-        box-sizing: border-box;
-        transition: opacity var(--transition-duration-slow) var(--easing);
-        max-width: var(--desktop-width);
-        margin-right: auto;
-        margin-left: auto;
-        min-height: 100%;
-        padding: 0 var(--page-margin);
-
-        @media (--md-up) {
-            min-height: auto;
-            padding: 0;
-        }
-
-        @media (--xl-up) {
-            max-width: var(--wide-desktop-width);
-        }
-    }
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    min-height: 100%;
 }
 
-.main-logo {
+.Logo {
     @media (--md-up) {
         margin-inline-end: var(--standard-margin);
         width: 10rem;
@@ -261,7 +179,7 @@ button {
     }
 
     &,
-    & .main-mozilla-logo {
+    & .LogoImage {
         height: 100%;
     }
 }
