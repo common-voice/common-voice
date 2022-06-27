@@ -28,7 +28,7 @@ const LanguageCardDataLaunched = ({
 
   const validationPercent =
     validatedHours && recordedHours
-      ? Math.ceil(validatedHours / recordedHours) * 100
+      ? Math.ceil((validatedHours / recordedHours) * 100)
       : 0;
 
   return (
@@ -38,7 +38,9 @@ const LanguageCardDataLaunched = ({
           <IconHours className={styles.DataItemHeadingIcon} />
           <Localized id="language-validation-hours" />
         </h4>
-        <p className={styles.DataItemValue}>{recordedHours}</p>
+        <p data-testid="clip-recorded-hour" className={styles.DataItemValue}>
+          {recordedHours}
+        </p>
       </div>
       <div className={styles.DataItem}>
         <h4 className={styles.DataItemHeading}>
@@ -52,7 +54,11 @@ const LanguageCardDataLaunched = ({
           <IconValidationProgress className={styles.DataItemHeadingIcon} />
           <Localized id="language-validation-progress" />
         </h4>
-        <p className={styles.DataItemValue}>{validationPercent}%</p>
+        <p
+          data-testid="clip-validation-percent"
+          className={styles.DataItemValue}>
+          {validationPercent}%
+        </p>
         <ProgressBar percentageValue={validationPercent} />
       </div>
       <div className={styles.DataItem}>
