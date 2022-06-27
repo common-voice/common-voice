@@ -1472,7 +1472,7 @@ sc-review-loading = Loading sentences…
 sc-review-select-language = Please select a language to review sentences.
 sc-review-no-sentences = No sentences to review. <addLink>Add more sentences now!</addLink>
 sc-review-form-prompt =
-    .message = Reviewed sentences not submitted, are sure?
+    .message = Reviewed sentences not submitted, are you sure?
 sc-review-form-usage = Swipe right to approve the sentence. Swipe left to reject it. Swipe up to skip it. <strong>Do not forget to submit your review!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
