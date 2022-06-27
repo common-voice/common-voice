@@ -184,7 +184,7 @@ export default class API {
   }
 
   async fetchLanguageStats(): Promise<LanguageStatistics[]> {
-    return this.fetch(`${API_PATH}/language_stats`);
+    return this.fetch(`${API_PATH}/stats/languages`);
   }
 
   fetchDocument(
