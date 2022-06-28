@@ -125,6 +125,7 @@ my = Burmese
 myv = Erzya
 nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
+nd = IsiNdebele (Àríwá)
 ne-NP = Nepali
 nia = Nias
 nl = Dutch
@@ -159,6 +160,7 @@ sl = Slovenian
 so = Somali
 sq = Albanian
 sr = Serbian
+ss = Siswati
 st = Sesotho
 sv-SE = Swedish
 sw = Swahili
@@ -171,6 +173,7 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmen
 tl = Tagalog
+tn = Setswana
 tok = Toki Pona
 tr = Turkish
 ts = Xitsonga
@@ -187,6 +190,7 @@ ve = Tshivenda
 vec = Venetian
 vi = Vietnamese
 vot = Votic
+xh = Xhosa
 yi = Yiddish
 yo = Yòrùbá
 yue = Cantonese
@@ -885,6 +889,8 @@ report-title = Jábọ̀ ìròyìn
 report-ask = Àwọn ìṣòro wo lò ń dojúkọ nínú un gbólóhùn yí?
 report-offensive-language = Èdè àlùfàǹṣá
 report-offensive-language-detail = Gbólóhùn náà ní ọ̀rọ̀ àbùkù tàbí ọ̀rọ̀ àlùfàǹṣá
+report-grammar-or-spelling = Gírámà/ àṣìṣe sípẹ́lì
+report-grammar-or-spelling-detail = Gbólóhùn náà ní àṣìṣe tó jẹ mọ gírámà tàbí sípẹ́lì.
 report-different-language = Èdè ọ̀tọ̀ọ̀tọ̀
 report-different-language-detail = Ó wà ní kíkọ ní èdè tó yàtọ̀ sí èyí tí moet ń sọ
 report-difficult-pronounce = Ṣòro láti pè
@@ -899,6 +905,7 @@ report-success = Ìfiráńṣẹ́ Ìròyìn náà lọ pẹ̀lú à�
 
 ## Goals
 
+streaks = síríìkì
 days =
     { $count ->
         [one] Ọjọ́
@@ -935,6 +942,8 @@ validated-clips = Àwọn fọ́nrán ta ti yẹ̀wò
 total-approved = Àpapọ̀ ìfòǹtẹ̀lù
 overall-accuracy = Ìse-wẹ́kú alápapọ̀
 set-visibility = Ṣètò ìríranrími mi
+visibility-explainer = Ètò yí ń ṣàkóso rírí àtẹ-aléwájú rẹ. Nígbà tó bá wà ní ìpamọ́, ìlọsíwájú rẹ máa wà ní ìkọ̀kọ̀. Èyí túnmọ̀ sí pé, àwòrán, orúkọ àti ìlọsíwájú rẹ ò ní hàn lóri àtẹ-aléwájú. Ṣàkíyèsí pé ìsọdọ̀tun àtẹ-aléwájú ma gbà tó ìṣẹ̀jú{ $minutes } láti gbé àwọn àyípadà jáde.
+visibility-overlay-note = Àkíyèsí: Nígbà tí a bá ṣètò sí 'Rírí' ètò yí lè yí padà láti <profileLink>Ojú-ìwe púrófáìlì</profileLink>
 show-ranking = Fi ipò mi hàn
 
 ## Custom Goals
@@ -1040,6 +1049,7 @@ download-size = ìwọ̀n
 download-selected = yàn
 download-start = Gba dátà púrófáìlì
 download-request = Bèèrè ìkásílẹ̀
+download-requests = Ìbéèrè àwọn ìkálẹ̀ tí a ṣe ìgbàsílẹ̀ fún tó ti kọjá
 download-requests-info = Nígbà tí o bá tọrọ fún àwọn ìkàsílẹ̀ rẹ, a má ń ṣe àkójọpọ̀ wọn sínú ZIP fáìlì kan tàbí púpọ̀. Èyí ni àwọn ìtọrọ rẹ tí ó kọjá
 download-request-button = Ṣe ìgbàsílẹ̀
 download-request-title = { $created }
@@ -1057,6 +1067,7 @@ download-request-link-single = Ìgbéjáde ìparí ọdún
 ## Landing
 
 welcome-staff = káàbọ̀ { $company } òṣìṣẹ́!
+help-contribute = O lè ṣe ìrànwọ́ láti kọ́ àkọ́jọpọ̀ dátà onírúurú, olórísun-tó-hànde nípasẹ̀ ṣíṣẹ̀dá púrófáìlì Common Voice àti dídá ohùn rẹ si.
 login-company = Ìforúkọsílẹ̀ láti wọlé / Ìforúkọsílẹ̀ pẹ̀lú ímeèli { $company }
 profile-not-required = Nínú púrófáìlì ò pọn dandan láti fi kún àmọ́ yóò ṣe ìrànwọ́, wo ìdí nísàlẹ̀.
 read-more-about = Kà síi lojú-ìwé wa nípa wa
@@ -1094,6 +1105,7 @@ demo-listen-subtitle = Ǹjẹ́ o ṣetán láti kópa?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Ate aládàáni máa jẹ́ ko mohun tuntun tó ń lọ pẹ̀lú ìtẹ̀síwájú ẹnìkọ̀ọ̀kan àti àwùjọ lápapọ̀
 demo-dashboard-card-body = Fún gbogbo fọ́nrán tí o bá fún wa àti gbogbo èyí tí wọ́n bá gbà wọlé, àkáǹtì rẹ yóó gba ìsọdititun lórí àtẹ láti fi ìlọsíwájú rẹ hàn nínú èdè kọ̀ọ̀kan tí o ti kópa. Bẹ́ẹ̀ ni, O lè kópa ju èdè kan lọ!<br/><br/> Lo àtẹ láti wo ohun tí o ti ṣe àti bí o ṣe ń ṣe sí láàrin àwọn tókù láwùjọ, kí o sì ṣe àfojúsùn ìkópa ojoojúmọ́ tàbí ọ̀sọ̀ọ̀sẹ̀.
 
 ## Validation criteria
@@ -1110,14 +1122,19 @@ contribution-misreadings-description-extended-list-2 = Pàdánù<strong>'S'</
 contribution-misreadings-description-extended-list-3 = Kíka ìkópa tí kò kúkú sí níbẹ̀ bí i "We're" dípò "We are", tàbí ìdàkéjì rẹ̀
 contribution-misreadings-description-extended-list-4 = Pípàdánù òpin ọ̀rọ̀ nípaṣè ìgékúrú ìkàsílẹ̀ náà láì tó àsìkò
 contribution-misreadings-description-extended-list-5 = Gbígbìnyànjú láti ka ọ̀rọ̀ kan ní ọ̀pọ̀ ìgbà
+contribution-misreadings-example-1-title = Àwọn dáínásọ̀ ńlá Tiriásíìkì.
+contribution-misreadings-example-2-title = Àwọn dáínásọ̀ ńlá Tiriásíìkì.
 contribution-misreadings-example-2-explanation = [Yẹ kí ó jẹ́ ‘dinosaurs’]
+contribution-misreadings-example-3-title = Àwọn dáínásọ̀ ńlá Tiriásí-.
 contribution-misreadings-example-3-explanation = [Ìgékúrú ìkàsílẹ̀ ṣáájú ìparí ọ̀rọ̀ tó kẹ́yìn]
+contribution-misreadings-example-4-title = Àwọn dáínásọ̀ ńlá Tiriásíìkì. Bẹ́ẹ̀ni.
 contribution-misreadings-example-4-explanation = [Púpọ̀ ti jẹ́ ìkàsílẹ̀ ju ọ̀rọ̀ to yẹ lọ]
 contribution-misreadings-example-5-title = À ń jáde lọ gba kọ́fì.
 contribution-misreadings-example-6-title = À ń jáde lọ gba kọ́fì
 contribution-misreadings-example-6-explanation = [Ó yẹ kó jẹ́ "À ń"]
 contribution-misreadings-example-7-title = À ń jáde lọ gba kọ́fì kan
 contribution-misreadings-example-7-explanation = [kò sí 'a' nínú ọ̀rọ̀ tó wà nílẹ̀ tẹ́lẹ̀
+contribution-misreadings-example-8-title = Bumblebee sped by.
 contribution-misreadings-example-8-explanation = [Àkóónú tí ò bára wọn mu]
 contribution-varying-pronunciations-title = Oríṣiríṣi ọ̀nà ìpọ̀rọ̀
 contribution-varying-pronunciations-description = Ṣọ́ra ko tó kọ fọ́nrán kan pẹ̀lú èróńgbà pé olùkà náà ṣi ọ̀rọ̀ pè, tàbí ó fi sírẹ́sì síbi tí kò tọ́, tàbí ó hàn gbangba pé ó fojú dá àmì ìbéèrè kan. Oríṣiríṣi ọ̀nà ìpọ̀rọ̀ ló wà kárí ayé, àwọn kan sì wà tí o lè má tíì gbọ́ ní agbègbè rẹ. Jọ̀wọ́ pèsè àyè ìmọrírì fún àwọn tí ìsọ̀rọ̀ wọn yàtọ̀ sí tì rẹ.
@@ -1129,9 +1146,13 @@ contribution-varying-pronunciations-example-2-explanation = ['Raised' nínú e
 contribution-background-noise-title = Ariwo abẹ́lẹ̀
 contribution-background-noise-description = À ń fẹ́ kí ìṣisẹ́ ìkó ẹ̀rọ lè mójútó onírúurú ariwo abẹ́lẹ̀, kódà ìbáà ṣe ariwo tí ó pọ̀ tíẹ̀ lè jẹ́ gbígbà nìwọ̀n ìgba tí wọn ò bá ti dí ẹ lọ́wọ́ gbígbọ́ ọ̀rọ̀. Orin abẹ́lẹ̀ dára; ṣùgbọ́n orin tí ó ń pariwo tí ó sì ń dí ẹ lọ́wọ́ gbígbọ́ kò dára.
 contribution-background-noise-description-extended = Tí ìkàsílẹ̀ náà bá ń gé, tàbí ní àwọn kọnúkọ́họ, ṣe ìkọ̀sílẹ̀ fún àyàfi tí o bá ṣì lè gbọ́ gbogbo ọ̀rọ̀ náà.
+contribution-background-noise-example-1-fixed-title = <strong>[Sín]</strong>Dáínósọ̀ ńlá ti ti<strong>[wúkọ́]</strong>Tiriásíìkì.
+contribution-background-noise-example-2-fixed-title = Dáínò<strong> ńlá náà[wúkọ́]</strong> Tiriásíìkì náà.
 contribution-background-noise-example-2-explanation = [Apá kan ọ̀rọ̀ náà kò ṣeé gbọ̀]
+contribution-background-noise-example-3-fixed-title = <strong>[kọnúkọ́họ]</strong>àwọn dáínásọ̀ ti<strong>[kọnúkọ́họ]</strong>-ríásíìkì.
 contribution-background-voices-title = Àwọn ohùn abẹ́lẹ̀
 contribution-background-voices-description-extended = Tí ìkàsílẹ̀ náà bá ń gé, tàbí ní àwọn kọnúkọ́họ, ṣe ìkọ̀sílẹ̀ fún àyàfi tí o bá ṣì lè gbọ́ gbogbo ọ̀rọ̀ náà.
+contribution-background-voices-example-1-title = Àwọn dáínásọ̀ ńlá ti Tiriásíìkì. <strong>[kà pẹ̀lú hùn kan]</strong>
 contribution-background-voices-example-1-explanation = Ṣé ò ń bọ̀?<strong>[Jẹ́ pípè nípasẹ̀ ẹlòmíràn]
 contribution-volume-title = Bó ṣe ń dún sí
 contribution-volume-description = Dandan ni kí orísìí ìgbóhùnsókè wà láàrin àwọn òǹkàwé. Kọ ìgbóhùnsókè tí ó bá pọ̀jù tóbẹ́ẹ̀ tí kíkáohùnsílẹ̀ kò bá já gaara, tàbí tí ó bá ń wọ́lẹ̀ tóbẹ́ẹ̀ tí o ò gbọ́ ohun tí wọ́n ń sọ láì jẹ́ pé o wo àkọsílẹ̀.
@@ -1177,6 +1198,7 @@ sc-home-review-text = Ṣe ìrànwọ́ fún wa pẹ̀lú ṣíṣe àtú
 
 ## GENERAL
 
+sc-languages-fetch-error = A kùnà láti ṣàwárí àwọn èdè tó wà nílẹ̀. Ìdásí ò ṣeéṣe báyìí. Jọ̀wọ́ gbìnyànjú nígbà míràn.
 
 ## HOW-TO
 
@@ -1184,8 +1206,10 @@ sc-howto-title = Ọ̀nà ṣíṣe
 sc-howto-addlang-title = Ṣíṣe àfikún àwọn èdè láti ṣiṣẹ́ pẹ̀lú
 sc-howto-addlang-text = Kété tí o bá wọlé, o lè yan àwọn èdè rẹ nínú abala púrófáìlì.
 sc-howto-addsen-title = Ṣàfikún àwọn gbólóhùn tuntun
+sc-howto-addsen-item-2 = Òǹkà. Kò gbọdọ̀ sí òǹkà nínú àkọ́lẹ̀ orísun nítorí wọ́n lè dá wàhálà sílẹ̀ lígbà ta bá ń kà wọ́n jáde. Ìṣewọ́ bí òǹká ṣe ń di kíkà jáde dá lórí idi-ọ̀rọ̀ àti pé ó lè dá ìdàrúdàpọ̀ sílẹ̀ nínú àtòjọ dátà. Fún àpẹẹrẹ, òǹka “2409” lè di kíkà ní “twenty-four zero nine” àti “two thousand four hundred nine”.
 sc-howto-addsen-item-3 = Ìsọdikúkúrú àti ìsọdikúkúrú aborúkọ. Ìsọdikúkúrú àti ìsọdikúkúrú aborúkọ bí i "USA" tàbí "ICE" ni kí o gìnnà sí nínú ọ̀rọ̀ orísun nítorí pé ìtumọ̀ wọn lè yàtọ̀ sí sípẹ́lì wọn. Ní àfikún, ọ̀pọ̀ itumọ̀ tó tọ́nà ni ó lè wà fún ìsọdikúkúrú kan. Bí àpẹẹrẹ, ìsọdikúkúrú aborúkọ “ICE” ni a lè pè bí i  “I-C-E” tàbí kí a pè é gẹ́gẹ́ bí ẹyọ ọ̀rọ̀ kan.
 sc-howto-addsen-item-4 = Àmì Àkọtọ́. Àmì àrà-ọ̀tọ̀ àti àmì àkọtọ́ gbọ́dọ̀ ọ̀wọ́ ìgbà tí ó bá yẹ. Fún àpẹẹrẹ, kọmá olókè máa ń di lílò nínú àwọn ọ̀rọ̀ Gẹ̀ẹ́sì bí i “don’t” àti “we’re” ó sì gbọdọ̀ wà nínú ọ̀rọ̀ orísun, ṣùgbọ́n kò dá jú wí pé wà á nílò àwọn àmì àrà-ọ̀tọ̀ bi i  “@” or “#.”
+sc-howto-cite-title = Báwo ni a ṣe ń ṣe ìtọ́kasí
 sc-howto-cite-item-1 = O lè fi wẹ́íbusaìtì kun, àpẹẹrẹ "Common Voice -https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = O lè lo sítàì ìtọ́kasí ti akadá, bí àpẹẹrẹ sítàì Harvard "Mozilla (2021) Common Voice. Ó wà ní https://commonvoice.mozilla.org/ (Wíwọlé: 15th Ọwẹ́wẹ̀ 2021)"
 sc-howto-review-title = Ṣe àtúnyẹ̀wò àwọn gbólóhùn
@@ -1224,17 +1248,27 @@ sc-rejected-none-found = Kò sí gbólóhùn kọọkan tí a kọ̀!
 
 ## STATS
 
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Olùgbà gbólóhùn Common Voice ti gba{ $sentenceCount } àwọn gbólóhùn ní{ $languageCount }àwọn èdè!
 
 ## ADD
 
 sc-submit-err-select-lang = Jọ̀wọ́ yan èdè kan.
 sc-submit-err-add-sentences = Jọ̀wọ́ ṣe àfikún àwọn gbólóhùn.
 sc-submit-err-add-source = Jọ̀wọ́ ṣe àfikún orísun
+sc-submit-err-confirm-pd = Jọ̀wọ́ ṣàrídájú pé àwọn gbólóhùn yìí kò ní ẹ̀tọ́ àdáni abẹ́ òfin
+sc-submit-prompt =
+    .message = Àwọn gbólóhùn ò tíì di fífilélẹ̀, ṣe ó dá ọ lójú pé o fẹ́ kúrò?
 sc-submit-title = Ṣe àfikún àwọn gbólóhùn
 sc-submit-select-language =
     .labelText = Yan èdè
+sc-submit-add-sentences = Ṣàfikún <wikipediaLink>àìládáni abẹ́ òfi</wikipediaLink> àwọn gbólóhùn.
 sc-submit-ph-one-per-line =
     .placeholder = Gbólóhùn kan fún ìla kan
+sc-submit-from-where = Níbo ni àwọn gbólóhùn <wikipediaLink>àìládáni abẹ́ òfi</wikipediaLink> ti wá?
+sc-submit-confirm = Mo ṣàrídájú bé àwọn gbólóhùn wọ̀nyí wà ní <wikipediaLink>àìládáni abẹ́ òfi</wikipediaLink> mo sì ní àṣẹ láti ọpulóòdù rẹ̀.
 sc-submit-button =
     .submitText = Fi jíṣẹ́
 sc-submit-filtered = Àwọn gbólóhùn tí a yọ kúrò nítorí wọn kùnà àwọn òfin tí à ń yan (jọ̀wọ́ fi àwọn ẹ̀yà tuntun náà jíṣẹ́ gẹ́gẹ́ bi gbólòhùn tuntun):
@@ -1245,6 +1279,15 @@ sc-submit-guidelines = Jọ̀wọ́ ṣàyèwò <howToLink>àwọn ìtọ́
 sc-add-lang-could-not-add = Kò le ṣàfikún èdè
 sc-add-lang-sec-label = Ṣe àfikún èdè tí o fẹ́ dá sí
 sc-add-lang-sec-button = Ṣe àfikún èdè
+sc-add-err-unexpected = Èsì àìlérò padà wá láti sáfà
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Àwọn gbólóhùn tí a ti fi lélẹ̀.{ $duplicates } àwọn gbólóhùn jẹ́ kíkọ̀ gẹ́gẹ́ bí ẹ̀dà.
+        [one] Àwọn gbólóhùn tí a ti fi lélẹ̀.{ $duplicates }gbólóhùn jẹ́ kíkọ̀ gẹ́gẹ́ bí ẹ̀dà.
+       *[other] Àwọn gbólóhùn tí a ti fi lélẹ̀.{ $duplicates }àwọn gbólóhùn jẹ́ kíkọ̀ gẹ́gẹ́ bí àwọn ẹ̀dà.
+    }
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
@@ -1253,30 +1296,132 @@ sc-add-err-failed =
         [one] 1 gbólóhùn kùnà
        *[other] { $sentences } àwọn gbólóhùn kùnà
     }
+sc-add-err-submission = Àṣìṣe ìfilélẹ̀
+sc-add-lang-process-notice = Tí èdè rẹ ò bá sí lára àwọn èyí tí a kàá lẹ̀ níbí, o lè tọrọ fun nípasẹ̀<languageProcessLink>ìlànà yìí</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Àwọn gbólóhùn ò tíì ṣeé fi lélẹ̀, ṣó dá ọ lójú pé o fẹ́ kúrò?
+sc-confirm-sentences-title = Ṣe àrídájú àwọn gbólóhùn tuntun
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] A ò rí àwọn gbólóhùn kankan.
+        [one] 1Gbólóhùn dàwárí.
+       *[other] { $countOfSentences }Àwọn gbólóhùn dàwárí.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } Tí o kọ̀ sílẹ̀
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Kò sí gbọ́lóhùn ta ti ṣàyẹ̀wò fún.
+        [one] 1 gbólóhùn ti di ṣíṣàyẹ̀wò fún. Iṣẹ́ gidi!
+       *[other] { $countOfReviewed } gbólóhùn ti di ṣíṣàyẹ̀wò fún. Iṣẹ́ gidi!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Kò sí gbólóhùn tó ti ṣetán ìfilélẹ̀!
+        [one] 1Gbólóhùn ti ṣetán ìfilélẹ̀!
+       *[other] { $readyCount } Àwọn gbólóhùn ti ṣetán ìfilélẹ̀!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } A ò tíì ṣe àtúnyẹ̀wò àwọn gbólóhùn. Tí o bá fẹ́, o lè ṣe àtúnyẹ̀wò àwọn gbólóhùn rẹ báyìí kí o tó ṣe ìfilélẹ̀ wọn.
+sc-confirm-button-text = Ṣàrídájú
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Àpapọ̀
+sc-lang-info-title-personal = Aládàáni
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Àwọn gbólóhùn ò sí lápapọ̀.
+        [one] 1Gbólóhùn lápapọ̀.
+       *[other] { $totalSentences }Àwọn gbólóhùn lápapọ̀
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Kò sí gbólóhùn ní àtúnyẹ̀wò.
+        [one] 1Gbólóhùn ní àtúnyẹ̀wò.
+       *[other] { $totalInReview }Àwọn gbólóhùn ní àtúnyẹ̀wò
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Àwọn gbólóhùn tò ṣẹ́kù fún ọ láti tún àyẹ̀wò wọn ṣe.
+        [one] 1 Gbólóhùn tó ṣẹ́kù fún ọ láti tún àyẹ̀wò ẹ̀ ṣe.
+       *[other] { $unreviewedSentencesByYou } Àwọn gbólóhùn tó ṣẹ́kù fún ọ láti tún àyẹ̀wò wọn ṣe.
+    }
+sc-lang-info-review-now = <reviewLink>Sàtúnyẹ̀wò ní báyìí!</reviewLink>
+sc-lang-info-add-more = <addLink>Ṣàfikún àwọn gbólóhùn ní báyìí!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Kò sí àwọn gbólóhùn tí a fọwọ́sí.
+        [one] Gbólóhùn tí a fọwọ́sí.
+       *[other] { $validatedSentences }Àwọn gbólóhùn tí a fọwọ́si.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Kò sí àwọn gbólóhùn tí a kọ̀.
+        [one] Gbólóhùn tí a kọ̀.
+       *[other] { $rejectedSentences } Àwọn gbólóhùn tí a kọ.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Ìwọlé kùnà
+sc-login-err-try-again = Jọ̀wọ́ gbìnyànjú si.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Púrófáìlì:{ $username }
+sc-personal-err-lang-not-found = Kò le yọ èdè: Èdè di àwátì
+sc-personal-err-remove = Kò le yọ èdè
+sc-personal-your-languages = Àwọn èdè rẹ:
+sc-personal-remove-button = Yọ kúrò
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } tí o fi kún
+sc-personal-not-added = O kò tíì fi àwọn èdè kankan kun náà.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Òte tó de àtúnyẹ̀wò
+sc-criteria-title = Òte tó de Àtúnyẹ̀wò
+sc-criteria-make-sure = Ri dájú pé gbólóhùn náà bá àwọn òte yí mu:
+sc-criteria-item-1 = Gbólóhùn náà gbọdọ̀ ní sípẹ́lì tó tọ́.
+sc-criteria-item-2 = Gbólóhùn náà gbọdọ̀ jẹ́ èyí tí gírámà rẹ̀ múnádóko.
+sc-criteria-item-3 = Gbólóhùn náà gbọdọ̀ ṣe é sọ.
+sc-criteria-item-4 = Tí gbólóhùn náà bá bá àwọn òte yí mu, tẹ &quot; bọ́tìnì ìfọwọ́sí lápá ọ̀tún
+sc-criteria-item-5-2 = Tí gbólóhùn náà ò bá bá àwọn òte òkè yí mu, tẹ bọ́tìnì ìkọ̀sílẹ̀ ní apá òsì. Tí gbólóhùn náà kò bá dá ọ lójú, o lè fò ó, ko bọ́ sí èyí tó tẹ̀le.
+sc-criteria-item-6 = Tí àwọn gbólóhùn tí ò ń ṣe àtúnyẹ̀wò wọn bá ti tan, jọ̀wọ́ bá wa gba àwọn gbólóhùn díẹ̀ si!
 
 ## REVIEW
 
+sc-review-lang-not-selected = O kò tíì yan àwọn èdè kankan. Jọ̀wọ́ lọ sí <profileLink>púrófáìlì</profileLink> rẹ láti yan àwọn èdè.
 sc-review-title = Ṣe àyẹ̀wò gbólóhùn
 sc-review-loading = Gbólóhùn ń gbaradì
 sc-review-select-language = Jọ̀wọ́ yan èdè kan láti ṣe àyẹ̀wò àwọn gbólóhùn
 sc-review-no-sentences = Kò sí gbólóhùn tí a ó yẹ̀wò. <addLink>Ṣe àfikún gbólóhùn báyìí!</addLink>
 sc-review-form-prompt =
     .message = Gbólóhùn tí a yẹ̀wò kò tíì di fífiránṣẹ́, ṣé ó dá ọ lójú?
+sc-review-form-usage = Yi lọ sí ọ̀tún láti fọwọ́sí gbólóhùn náà. Yi lọ sọ́sì láti kọ̀ ọ́. Yi lọ sókè láti fò ó. <strong> Má gbàgbé à ti ṣe ìfilélẹ̀ àtúnyẹ̀wò rẹ!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Orísun
@@ -1289,6 +1434,7 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = O sì lè lo ọ̀nà àbùjá àtẹ-òǹtẹ̀:{ sc-review-form-button-approve-shortcut } láti fọwọ́sí,{ sc-review-form-button-reject-shortcut } láti kọ̀, { sc-review-form-button-skip-shortcut } láti fò
 sc-review-form-button-submit =
     .submitText = Parí Àyẹ̀wò
 # Variables:

@@ -182,8 +182,8 @@ zh-TW = 中文（台灣）
 
 ## Layout
 
-speak = 講話
-speak-now = 而家講話
+speak = 錄音
+speak-now = 請開聲講
 datasets = 數據集
 languages = 所有語言
 about = 介紹
@@ -473,7 +473,7 @@ about-speak = 講
 about-speak-text = 貢獻者會錄低由句庫抽出嚟嘅句子。
 about-listen-queue = 聆聽隊列
 about-listen-queue-text = 錄音片段會拎去排隊準備畀人去聽。
-about-listen = 聽
+about-listen = 聽聲
 about-listen-text = 用户會核實錄音嘅準確度，睇下朗讀者有冇正確讀出句子。
 about-is-it-valid = 段錄音有冇效？
 about-is-it-valid-text = 當用户畀咗一票「啱」，段錄音會標做「有效」
@@ -917,6 +917,7 @@ download-request-modal-title = 下載連結
 download-request-modal-description = 下列係你嘅 ZIP 檔下載鏈結。
 download-request-link-text = { $total } 個 zip 檔中嘅第 { $offset } 個
 download-request-metadata-link = 句子文本
+download-request-link-single = 閣下亦可以喺自己想用嘅下載工具中貼上 direct URLs 以下載檔案。呢啲 URLs 嘅有效期為12個鐘。閣下可隨時再次訪問本頁面以獲取新嘅 URLs。
 
 ## Landing
 
@@ -1061,6 +1062,7 @@ sc-howto-addlang-title = 增加使用語言
 sc-howto-addlang-text = 登入後，你可以喺個人資料中揀自己嘅語言。
 sc-howto-addsen-title = 添加新句子
 sc-howto-addsen-item-1 = 所有語句必須符合<wikipediaLink>公共領域 (CC-0) 許可證</wikipediaLink>嘅規範。對於包含非公共領域牌照規範嘅內容，我哋會以<cc0WaiverLink>貢獻者協議模板</cc0WaiverLink>嚟接受由版權持有者貢獻嘅內容。
+sc-howto-addsen-item-2 = 數字嘅問題：源文本中唔應該出現數字，因為數字可能會導致朗讀方面出問題。 數字嘅讀法會因上下文而有所不同，可能會導致數據集出現混淆。例如，數字「2409」可以被讀作「二四零九」或者「二千四百零九」。
 sc-howto-cite-title = 點樣引用
 sc-howto-review-title = 審核句子
 
