@@ -1116,6 +1116,7 @@ sc-submit-button =
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-label = تۆھپە قوشماقچى بولغان تىلنى قوشۇڭ
 sc-add-lang-sec-button = تىل قوشۇڭ
 sc-add-err-submission = يوللاش مەغلۇب بولدى
 
