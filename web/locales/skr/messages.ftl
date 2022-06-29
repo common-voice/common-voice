@@ -745,7 +745,7 @@ language-validation-progress = تصدیق دی پیش رفت
 ## Contribution
 
 action-click = کلک
-action-tap = انگل پھیرو
+action-tap = انگل لاؤ
 contribute = حصہ پاؤ
 listen = سݨو
 skip = چھوڑو
