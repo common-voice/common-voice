@@ -15,6 +15,7 @@ email-opt-in-privacy-v2 = Scegliendu di riceve l'email, accittate chì Mozilla s
 indicates-required = * Indicheghja un campu richiestu
 not-available-abbreviation = Micca dispunibule
 banner-error-slow-1 = Scusateci, Common Voice hè lentu pà arrisponde. Grazie pà u vostru interessu.
+banner-error-slow-2 = Ricivimu assai trafficu è circhemu attualmentu una suluzione à issu prublemu.
 banner-error-slow-link = Paghjina di statu
 error-something-went-wrong = Scusateci, un sbagliu hè accadutu
 
