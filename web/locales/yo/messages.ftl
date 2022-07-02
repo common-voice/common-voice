@@ -1224,6 +1224,7 @@ sc-howto-findpd-title = Wíwá àwọn gbólóhùn tó wà tẹ́lẹ̀ 
 sc-howto-findpd-subtitle = Wá wọn lórí ẹ̀rọ ayélujára
 sc-howto-findpd-text-2 = Rántí pé a nílò a ti tọrọ àyè láti ṣe  àtẹ̀jáde àwọn gbólóhùn wọ̀nyẹn, nítorí náà ri dájú ní gbogbo ìgbà pé ọ̀rọ̀ náà jẹ́ ti <wikipediaLink>agbègbè gbogbogbo</wikipediaLink>. Tí kò bá sí ìtọ́kasí tó dunjú, kàn sí ẹni tó ni ọ̀rọ̀ náà, kí o sì bèrè bóyá wọ́n máa nífẹ̀ẹ́ à ti fi àwọn ọ̀rọ̀ wọn dásí ibùgbé gbogbogbo. Tí wọ́n bá fẹ́, ràn wọ́n lọ́wọ́ </wikipediaLink> à ti tọ́ ìlànà àdéhùn àwọn ìdásí</cc0WaiverLink>. Tí wọn ò bá fẹ́ láti dásí pẹ̀lú ọ̀rọ̀ náà, nígbà náà kò sí àyè fún ọ láti lo ọ̀rọ̀ náà.
 sc-howto-findpd-tips = Àwọn òte díẹ̀ rè é lá́ti wá àwọn gbólóhùn:
+sc-howto-findpd-subtitle-2 = Bá àwọn àjọ tàbí ẹgbẹ́ ìbílẹ̀ ṣe
 
 ## MY SENTENCES
 
