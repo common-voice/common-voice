@@ -913,8 +913,8 @@ activity-needed-calculation-plural =
         [one] { $periodMonths } مہینہ وچ جے کر
        *[other] { $periodMonths } مہینیاں وچ جے کر
     }{ NUMBER($people) ->
-        [one] { $people } بندہ رکاڈ کرے
-       *[other] { $people } بندے رکاڈ کرن
+        [one] { $people } بندہ رکاڈ کرے،
+       *[other] { $people } بندے رکاڈ کرن،
     }{ NUMBER($clipsPerDay) ->
         [one] ہر ݙین٘ہ { $clipsPerDay } کلپ۔
        *[other] ہر ݙین٘ہ { $clipsPerDay } کلپ۔
