@@ -916,8 +916,8 @@ activity-needed-calculation-plural =
         [one] { $people } بندہ رکاڈ کرے
        *[other] { $people } بندے رکاڈ کرن
     }{ NUMBER($clipsPerDay) ->
-        [one] ہر ݙین٘ہ { $clipsPerDay } کلپ
-       *[other] ہر ݙین٘ہ { $clipsPerDay } کلپ
+        [one] ہر ݙین٘ہ { $clipsPerDay } کلپ۔
+       *[other] ہر ݙین٘ہ { $clipsPerDay } کلپ۔
     }
 how-many-per-day = زبردست فی ݙین٘ہ کتی کلپ ہن؟
 how-many-a-week = زبردست! ہفتے وچ کتی کلپ ہن؟
