@@ -1230,6 +1230,8 @@ sc-howto-findpd-subtitle-2 = Bá àwọn àjọ tàbí ẹgbẹ́ ìbílẹ̀ �
 ## MY SENTENCES
 
 sc-my-title = Àwon gbólóhùn mi
+sc-my-loading = Gbólóhùn rẹ ń gbaradì àti ṣiṣẹ́
+sc-my-err-fetching = Àsiṣe wáyé nígbà tí à ń kó gbólóhùn rẹ jọ. Gbìyànjú lẹ́ẹ̀kan sí i
 sc-my-no-sentences = Àìrí gbólóhùn kọọkan!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -1250,6 +1252,8 @@ sc-rejected-none-found = Kò sí gbólóhùn kọọkan tí a kọ̀!
 
 ## STATS
 
+sc-stats-title = satítíìkì
+sc-stats-updating = Ń sọ ọ́ dọ̀tun ...
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1270,6 +1274,8 @@ sc-submit-add-sentences = Ṣàfikún <wikipediaLink>àìládáni abẹ́ 
 sc-submit-ph-one-per-line =
     .placeholder = Gbólóhùn kan fún ìla kan
 sc-submit-from-where = Níbo ni àwọn gbólóhùn <wikipediaLink>àìládáni abẹ́ òfi</wikipediaLink> ti wá?
+sc-submit-ph-read-how-to =
+    .placeholder = Ka Ọ̀nà ṣíṣe wa bí ìṣàbùdá rẹ̀ bá rú ọ lójú
 sc-submit-confirm = Mo ṣàrídájú bé àwọn gbólóhùn wọ̀nyí wà ní <wikipediaLink>àìládáni abẹ́ òfi</wikipediaLink> mo sì ní àṣẹ láti ọpulóòdù rẹ̀.
 sc-submit-button =
     .submitText = Fi jíṣẹ́
