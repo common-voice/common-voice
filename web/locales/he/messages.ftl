@@ -819,7 +819,10 @@ profile-form-delete = מחיקת פרופיל
 ## Profile Download
 
 download-profile-title = פרופיל
+download-recordings-title = הקלטות
 download-recordings-unavailable = אין באפשרותך לבקש את ההקלטות שלך בזמן שבקשה אחרת כבר בעיצומה.
+download-size = גודל
+download-request = בקשת הקלטות
 download-request-title = { $created }
 
 ## Landing
