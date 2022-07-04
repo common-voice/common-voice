@@ -3,6 +3,7 @@
 email-input =
     .label = Liposi lembane
 loading = Loading…
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -93,7 +94,11 @@ ms = Malay
 mt = Maltese
 my = Burmese
 myv = Erzya
+ne-NP = Nepali
+nia = Nias
 nl = Dutch
+oc = Occitan
+or = Odia
 quc = K'iche'
 rw = Kinyarwanda
 sq = Albanian
@@ -115,6 +120,7 @@ faq = FAQ
 ## Home Page
 
 wall-of-text-first = { "" }
+vote-no = Cha
 all-locales = Konkhe
 
 ## Account Benefits
@@ -130,9 +136,15 @@ rich-data = { "" }
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-discard-ongoing-recording = ESC
 
 ## ProjectStatus
@@ -217,6 +229,7 @@ error-code = Liphutsa { $code }
 
 ## Data
 
+data-download-deny = Cha
 dataset-date = Lusuku
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Lokubhicene
@@ -237,6 +250,8 @@ download = Download
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Ligama
 contact-form-message =
     .label = Umlayeto
 contact-required = *kudzingekile
@@ -304,6 +319,7 @@ download-request-button = Download
 
 ## Demo Datasets
 
+card-button-next = Lokulandzelako
 card-button-back = Emuva
 demo-account = i-Account
 
@@ -379,6 +395,8 @@ sc-confirm-button-text = Vuma
 ## REVIEW
 
 sc-review-form-button-approve = Vumela
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
 
 ## SETTINGS
 
