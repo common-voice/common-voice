@@ -155,6 +155,7 @@ xh = Si-Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Cantonese
+zu = Si-Zulu
 
 # [/]
 
@@ -373,6 +374,7 @@ listen = Lalela
 skip = Yeca
 shortcuts = Tindlela tekujubelisa
 record-platform-not-supported-desktop = { "" }
+record-stop-instruction = { $actionType }<stopIcon></stopIconuma> socedzile
 
 ## Reporting
 
@@ -390,6 +392,7 @@ streaks = Streaks
 
 stats = Tibalo
 awards = Imiklomelo
+you = Wena
 everyone = Wonkhe muntfu
 
 ## Custom Goals
@@ -511,6 +514,7 @@ sc-confirm-button-text = Vuma
 
 sc-lang-info-title-total = Konkhe
 sc-lang-info-title-personal = Mayelana nami
+sc-lang-info-review-now = <reviewLink>Buyeketa nyalo!</reviewLink>
 
 ## LOGIN
 
