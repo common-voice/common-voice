@@ -7,15 +7,18 @@
 
 ## Languages
 
+ab = Abkhaz
 
 # [/]
 
 
 ## Layout
 
+about = Mayelana
 
 ## Home Page
 
+wall-of-text-first = { "" }
 
 ## Account Benefits
 
@@ -37,6 +40,8 @@
 
 ## ProfileForm
 
+profile-form-accent =
+    .label = Indlela yekukhuluma lulwimi
 
 ## Profile - Email
 
