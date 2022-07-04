@@ -37,6 +37,7 @@ hr = Si-Croatia
 hy-AM = Armenian
 kw = Cornish
 my = Burmese
+nl = Dutch
 sq = Albanian
 yue = Cantonese
 
@@ -142,7 +143,9 @@ dataset-date = Lusuku
 ## Datasets Page
 
 datasets-heading = Datasets
+download-language = Download { $language }
 close = Vala
+download = Download
 
 ## Download Modal
 
@@ -181,6 +184,7 @@ awards = Imiklomelo
 ## Custom Goals
 
 both-speak-and-listen = Kokubili
+easy-difficulty = Kumelula
 average-difficulty = Lokusemkhatsini
 difficult-difficulty = Kulikhuni
 
@@ -189,6 +193,7 @@ difficult-difficulty = Kulikhuni
 
 ## Profile Download
 
+download-request-button = Download
 
 ## Landing
 
@@ -223,6 +228,7 @@ contribution-criteria-nav = Luhla
 ## HEADER/FOOTER
 
 sc-header-add = Ngeta
+sc-footer-discourse = Discourse
 sc-footer-cookies = Cookies
 
 ## HOME
