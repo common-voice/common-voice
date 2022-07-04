@@ -1,5 +1,7 @@
 ## General
 
+email-input =
+    .label = Liposi lembane
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -26,18 +28,52 @@ br = Breton
 bs = Bosnian
 bxr = Buryat
 ca = Catalan
+cak = Kaqchikel
 co = Corsican
 cs = Czech
 cv = Chuvash
 da = Danish
+de = Sijalimane
 dv = Dhivehi
 dyu = Dioula
+el = Si-Greek
+en = Singisi
+eo = Esperanto
+et = Estonian
 eu = Basque
+ff = Fulah
+fi = Finnish
+fo = si-Faroese
+fr = Si-French
+fy-NL = Frisian
+ga-IE = Irish
+gl = Galician
+gn = Guarani
+ha = Hausa
+he = Hebheru
+hi = Hindi
 hr = Si-Croatia
+ht = Haitian
+hu = Hungarian
 hy-AM = Armenian
+ia = Interlingua
+id = Indonesian
+ig = Igbo
+is = Icelandic
+it = Sitaliyane
+izh = Izhorian
+ja = Sijaphane
+ka = Georgian
+kaa = Karakalpak
+kab = Kabyle
+kbd = Kabardian
+kk = Kazakh
+km = Khmer
 kw = Cornish
 my = Burmese
+myv = Erzya
 nl = Dutch
+quc = K'iche'
 sq = Albanian
 yue = Cantonese
 
@@ -48,8 +84,10 @@ yue = Cantonese
 
 datasets = Datasets
 about = Mayelana
+help = Lusito
 contact = Chumana
 cookies = Cookies
+faq = FAQ
 
 ## Home Page
 
@@ -72,9 +110,11 @@ rich-data = { "" }
 
 ## Speak Shortcuts
 
+shortcut-discard-ongoing-recording = ESC
 
 ## ProjectStatus
 
+english = Singisi
 
 ## ProfileForm
 
@@ -82,8 +122,13 @@ profile-form-accent =
     .label = Indlela yekukhuluma lulwimi
 profile-form-age =
     .label = Iminyaka yekutalwa
+profile-form-gender-2 =
+    .label = Bulili
+hidden = Lokufihlakele
+female = Wesifazane
 dashboard = i-Dashboard
 avatar = Sitfombe
+goals = Imigomo
 profile-close = Vala
 
 ## Profile - Email
@@ -119,6 +164,7 @@ profile-close = Vala
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Imicimbi
 
 ## How to validate
 
@@ -131,10 +177,12 @@ profile-close = Vala
 
 ## Glossary
 
+glossary = Luhla lwemagama
 de-identified = Kususwe imininingwane yemniyo
 
 ## Error pages
 
+error-code = Liphutsa { $code }
 
 ## Data
 
@@ -143,6 +191,7 @@ dataset-date = Lusuku
 ## Datasets Page
 
 datasets-heading = Datasets
+size-gigabyte = GB
 download-language = Download { $language }
 close = Vala
 download = Download
@@ -162,6 +211,7 @@ contact-required = *kudzingekile
 
 ## Languages Overview
 
+language-validation-hours = Emahora
 
 ## Contribution
 
@@ -180,6 +230,7 @@ continue = Chubeka
 ## Dashboard
 
 awards = Imiklomelo
+everyone = Wonkhe muntfu
 
 ## Custom Goals
 
@@ -190,6 +241,7 @@ difficult-difficulty = Kulikhuni
 
 ## Profile Delete
 
+keep = Gcina
 
 ## Profile Download
 
@@ -227,6 +279,8 @@ contribution-criteria-nav = Luhla
 
 ## HEADER/FOOTER
 
+sc-header-home = Ekhaya
+sc-header-how-to = Kanjani
 sc-header-add = Ngeta
 sc-footer-discourse = Discourse
 sc-footer-cookies = Cookies
