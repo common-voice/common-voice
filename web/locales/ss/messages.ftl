@@ -42,6 +42,7 @@ dyu = Dioula
 el = Si-Greek
 en = Singisi
 eo = Esperanto
+es = Spanish
 et = Estonian
 eu = Basque
 fa = Persian
@@ -111,10 +112,16 @@ ru = Russian
 rw = Kinyarwanda
 sah = Sakha
 sc = Sardinian
+scn = Sicilian
 shi = Shilha
+si = Sinhala
+sk = Slovak
 skr = Saraiki
+sl = Slovenian
+so = Somali
 sq = Albanian
 sr = Serbian
+ss = Siswati
 tn = Setswana
 yue = Cantonese
 
@@ -123,6 +130,7 @@ yue = Cantonese
 
 ## Layout
 
+speak = Khuluma
 datasets = Datasets
 languages = Tilwimi
 about = Mayelana
@@ -214,6 +222,7 @@ on = Vuliwe
 
 ## How does it work section
 
+about-speak = Khuluma
 about-listen-queue = Lidelezi lekulalela
 about-listen-queue-text = { "" }
 about-listen = Lalela
@@ -271,6 +280,8 @@ review-rerecord = Tfwebula kabusha
 ## Datasets Page
 
 datasets-heading = Datasets
+# File size in gigabytes
+size = Linani
 cv-license = License
 size-gigabyte = GB
 size-megabyte = MB
@@ -303,6 +314,7 @@ language-section-launched-description = { "" }
 language-meter-in-progress = Inchubekelaphambili
 language-search-input =
     .placeholder = Phenya
+language-speakers = Tikhulumi
 localized = Localized
 sentences = Imisho
 language-validation-hours = Emahora
@@ -312,6 +324,8 @@ language-validation-hours = Emahora
 action-click = Chafata
 contribute = Nikela
 listen = Lalela
+skip = Yeca
+shortcuts = Tindlela tekujubelisa
 record-platform-not-supported-desktop = { "" }
 
 ## Reporting
@@ -352,6 +366,7 @@ remove = Susa
 
 download-profile-title = Likhasi lelichaza kabanti ngawe
 download-recordings-title = Lokutfwebuliwe
+download-size = Linani
 download-selected = Lokukhetsiwe
 download-request-button = Download
 download-request-refresh-button = Vuselela
@@ -411,6 +426,9 @@ sc-logout-button = Phuma
 
 ## MY SENTENCES
 
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Umtfombo: { $source }
 
 ## REJECTED
 
@@ -447,7 +465,11 @@ sc-personal-remove-button = susa
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Umtfombo: { $sentenceSource }
 sc-review-form-button-reject = Jikisa
+sc-review-form-button-skip = Yeca
 sc-review-form-button-approve = Vumela
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
