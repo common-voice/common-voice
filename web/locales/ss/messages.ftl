@@ -27,8 +27,13 @@ bs = Bosnian
 bxr = Buryat
 ca = Catalan
 co = Corsican
+cs = Czech
 cv = Chuvash
+da = Danish
+dv = Dhivehi
+dyu = Dioula
 eu = Basque
+hr = Si-Croatia
 hy-AM = Armenian
 kw = Cornish
 my = Burmese
@@ -40,6 +45,7 @@ yue = Cantonese
 
 ## Layout
 
+datasets = Datasets
 about = Mayelana
 contact = Chumana
 cookies = Cookies
@@ -75,6 +81,7 @@ profile-form-accent =
     .label = Indlela yekukhuluma lulwimi
 profile-form-age =
     .label = Iminyaka yekutalwa
+dashboard = i-Dashboard
 avatar = Sitfombe
 profile-close = Vala
 
@@ -123,15 +130,18 @@ profile-close = Vala
 
 ## Glossary
 
+de-identified = Kususwe imininingwane yemniyo
 
 ## Error pages
 
 
 ## Data
 
+dataset-date = Lusuku
 
 ## Datasets Page
 
+datasets-heading = Datasets
 close = Vala
 
 ## Download Modal
@@ -172,6 +182,7 @@ awards = Imiklomelo
 
 both-speak-and-listen = Kokubili
 average-difficulty = Lokusemkhatsini
+difficult-difficulty = Kulikhuni
 
 ## Profile Delete
 
@@ -202,6 +213,7 @@ demo-account-card-header = { "" }
 
 ## Validation criteria
 
+contribution-criteria-nav = Luhla
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
