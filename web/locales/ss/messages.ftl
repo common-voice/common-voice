@@ -184,6 +184,8 @@ faq = FAQ
 wall-of-text-first = { "" }
 vote-yes = Yebo
 vote-no = Cha
+speak-goal-text = Ticephu letiftwebuliwe
+listen-goal-text = Ticephu leticinisikesiwe
 all-locales = Konkhe
 today = Namuhla
 
@@ -286,6 +288,7 @@ about-nav-partners = Balingani
 
 ## How do I add a language
 
+about-playbook-how-add-language-collecting-sentences-heading = Kukweleka imisho
 
 ## How does localization work
 
@@ -344,6 +347,7 @@ size-gigabyte = GB
 size-megabyte = MB
 download-language = Download { $language }
 subscribe = Bhalisa
+community-playbook = Bhukwana wemmango
 more = Lokunengi
 close = Vala
 download = Download
@@ -354,6 +358,7 @@ dataset-version = Inhlobo
 
 ## Contact Modal
 
+contact-title = Lifomu lekuchumana
 contact-form-name =
     .label = Ligama
 contact-form-message =
@@ -391,7 +396,9 @@ record-platform-not-supported-desktop = { "" }
 record-cancel = Yekela kutfwebula kabusha
 record-stop-instruction = { $actionType }<stopIcon></stopIconuma> socedzile
 record-last-instruction = <recordIcon></recordIcon>Kekugcina!
+clips-uploaded = Ticephu leti-uploadiwe
 listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
+speak-empty-state-cta = Nikela imisho
 
 ## Reporting
 
@@ -425,6 +432,7 @@ help-reach-hours-pluralized =
        *[other] { "" }
     }
 cant-decide = Awukhoni kukhetsa?
+confirm-goal = Cinisekisa umgomo
 goal-interval-weekly = Ngemaviki
 share-goal-type-speak = Lokhulumako
 share-goal-type-listen = Ulalele
@@ -497,6 +505,7 @@ sc-logout-button = Phuma
 
 ## HOME
 
+sc-home-collect-title = Imisho lekwelekiwe
 
 ## GENERAL
 
