@@ -63,6 +63,7 @@ hr = Si-Croatia
 ht = Haitian
 hu = Hungarian
 hy-AM = Armenian
+hyw = Armenian Western
 ia = Interlingua
 id = Indonesian
 ig = Igbo
@@ -103,6 +104,7 @@ nia = Nias
 nl = Dutch
 nyn = Runyankole
 oc = Occitan
+om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
 pl = Polish
@@ -223,6 +225,8 @@ english = Singisi
 
 ## ProfileForm
 
+profile-form-additional-language =
+    .label = Lulwimi lolungetiwe
 profile-form-language =
     .label = Lulwimi
 profile-form-accent =
@@ -249,9 +253,12 @@ on = Vuliwe
 
 ## Profile - Email
 
+avatar-uploaded = Avatar uploaded
+max-file-size = { $kb }kb max
 
 ## Profile - Email
 
+add-language = Ngeta Lulwimi
 
 ## FAQ
 
@@ -325,6 +332,7 @@ datasets-heading = Datasets
 # File size in gigabytes
 size = Linani
 cv-license = License
+audio-format = Audio Format
 splits = Kuhlukana
 size-gigabyte = GB
 size-megabyte = MB
@@ -375,6 +383,8 @@ skip = Yeca
 shortcuts = Tindlela tekujubelisa
 record-platform-not-supported-desktop = { "" }
 record-stop-instruction = { $actionType }<stopIcon></stopIconuma> socedzile
+record-last-instruction = <recordIcon></recordIcon>Kekugcina!
+listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
 
 ## Reporting
 
@@ -452,6 +462,8 @@ demo-account-card-header = { "" }
 contribution-criteria-nav = Luhla
 contribution-misreadings-title = Lokufundvwe kabi
 contribution-volume-title = Linani lemsindvo
+see-more = <chevron></chevron>Bona lokunengi
+see-less = <chevron></chevron>Bona lokuncane
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -500,11 +512,13 @@ sc-stats-updating = Updating…
 
 ## ADD
 
+sc-submit-title = Ngeta imisho
 sc-submit-button =
     .submitText = Mikisa
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Ngeta Lulwimi
 
 ## ADD SENTENCES CONFIRMATION
 
