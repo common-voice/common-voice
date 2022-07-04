@@ -8,6 +8,9 @@
 ## Languages
 
 ab = Abkhaz
+ace = Acehnese
+ady = Adyghe
+af = Afrikaans
 
 # [/]
 
@@ -143,9 +146,11 @@ contact-required = *kudzingekile
 
 ## Demo Datasets
 
+demo-account = i-Account
 
 ## Demo Account
 
+demo-account-card-header = { "" }
 
 ## Demo Contribute
 
@@ -163,6 +168,7 @@ contact-required = *kudzingekile
 
 ## HEADER/FOOTER
 
+sc-header-add = Ngeta
 
 ## HOME
 
