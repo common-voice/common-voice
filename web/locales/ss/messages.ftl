@@ -129,10 +129,20 @@ syr = Syriac
 ta = Tamil
 te = Telugu
 tg = Tajik
+th = Thai
+ti = Tigrinya
+tig = Tigre
+tk = Turkmen
 tl = Tagalog
 tn = Setswana
+tr = Turkish
 tt = Tatar
+tw = Twi
 ty = Tahitian
+uby = Ubykh
+udm = Udmurt
+uk = Ukrainian
+ve = Tshivenda
 yue = Cantonese
 
 # [/]
@@ -157,6 +167,7 @@ faq = FAQ
 wall-of-text-first = { "" }
 vote-no = Cha
 all-locales = Konkhe
+today = Namuhla
 
 ## Account Benefits
 
@@ -326,6 +337,7 @@ contact-required = *kudzingekile
 language-section-launched = Kusunguliwe
 language-section-launched-description = { "" }
 language-meter-in-progress = Inchubekelaphambili
+language-total-progress = Konkhe
 language-search-input =
     .placeholder = Phenya
 language-speakers = Tikhulumi
@@ -475,6 +487,7 @@ sc-confirm-button-text = Vuma
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Konkhe
 sc-lang-info-title-personal = Mayelana nami
 
 ## LOGIN
