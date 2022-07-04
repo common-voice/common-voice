@@ -2,6 +2,7 @@
 
 email-input =
     .label = Liposi lembane
+loading = Loading…
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -67,13 +68,21 @@ ka = Georgian
 kaa = Karakalpak
 kab = Kabyle
 kbd = Kabardian
+ki = Kikuyu
 kk = Kazakh
 km = Khmer
+ko = Sikhoriya
+kpv = Komi-Zyrian
 kw = Cornish
+ky = Kyrgyz
+lij = Ligurian
+lt = Lithuanian
+lv = Latvian
 my = Burmese
 myv = Erzya
 nl = Dutch
 quc = K'iche'
+rw = Kinyarwanda
 sq = Albanian
 yue = Cantonese
 
@@ -83,6 +92,7 @@ yue = Cantonese
 ## Layout
 
 datasets = Datasets
+languages = Tilwimi
 about = Mayelana
 help = Lusito
 contact = Chumana
@@ -118,6 +128,8 @@ english = Singisi
 
 ## ProfileForm
 
+profile-form-language =
+    .label = Lulwimi
 profile-form-accent =
     .label = Indlela yekukhuluma lulwimi
 profile-form-age =
@@ -145,6 +157,9 @@ profile-close = Vala
 
 ## How does it work section
 
+about-listen-queue = Lidelezi lekulalela
+about-listen-queue-text = { "" }
+about-listen = Lalela
 
 ## Community Playbook Content
 ## What is a language
@@ -187,10 +202,12 @@ error-code = Liphutsa { $code }
 ## Data
 
 dataset-date = Lusuku
+license = License: <licenseLink>{ $license }</licenseLink>
 
 ## Datasets Page
 
 datasets-heading = Datasets
+cv-license = License
 size-gigabyte = GB
 download-language = Download { $language }
 close = Vala
@@ -211,12 +228,15 @@ contact-required = *kudzingekile
 
 ## Languages Overview
 
+language-section-launched = Kusunguliwe
 language-validation-hours = Emahora
 
 ## Contribution
 
 action-click = Chafata
 contribute = Nikela
+listen = Lalela
+record-platform-not-supported-desktop = { "" }
 
 ## Reporting
 
@@ -238,6 +258,7 @@ both-speak-and-listen = Kokubili
 easy-difficulty = Kumelula
 average-difficulty = Lokusemkhatsini
 difficult-difficulty = Kulikhuni
+share-goal-type-listen = Ulalele
 
 ## Profile Delete
 
