@@ -98,6 +98,7 @@ myv = Erzya
 ne-NP = Nepali
 nia = Nias
 nl = Dutch
+nyn = Runyankole
 oc = Occitan
 or = Odia
 pa-IN = Punjabi
@@ -105,7 +106,12 @@ pl = Polish
 ps = Pashto
 pt = Portuguese
 quc = K'iche'
+ro = Romanian
+ru = Russian
 rw = Kinyarwanda
+sah = Sakha
+sc = Sardinian
+skr = Saraiki
 sq = Albanian
 yue = Cantonese
 
@@ -140,6 +146,8 @@ rich-data = { "" }
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
@@ -175,6 +183,8 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Bulili
 hidden = Lokufihlakele
+profile-form-submit-save = Gcina
+profile-form-submit-saved = Lokugciniwe
 male = Lomdvuna
 female = Wesifazane
 # Gender
@@ -433,6 +443,9 @@ sc-review-form-button-reject = Jikisa
 sc-review-form-button-approve = Vumela
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-link = Buyeketa
 
 ## SETTINGS
 
