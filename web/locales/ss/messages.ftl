@@ -2,6 +2,7 @@
 
 email-input =
     .label = Liposi lembane
+submit-form-action = Mikisa
 loading = Loading…
 not-available-abbreviation = N/A
 
@@ -122,7 +123,16 @@ so = Somali
 sq = Albanian
 sr = Serbian
 ss = Siswati
+sv-SE = Swedish
+sw = Swahili
+syr = Syriac
+ta = Tamil
+te = Telugu
+tg = Tajik
+tl = Tagalog
 tn = Setswana
+tt = Tatar
+ty = Tahitian
 yue = Cantonese
 
 # [/]
@@ -138,6 +148,7 @@ profile = Likhasi lelichaza kabanti ngawe
 help = Lusito
 contact = Chumana
 privacy = Lokuyimfihlo
+terms = Imigomo
 cookies = Cookies
 faq = FAQ
 
@@ -222,6 +233,7 @@ on = Vuliwe
 
 ## How does it work section
 
+about-subscribe-text = Bhalisa
 about-speak = Khuluma
 about-listen-queue = Lidelezi lekulalela
 about-listen-queue-text = { "" }
@@ -283,9 +295,11 @@ datasets-heading = Datasets
 # File size in gigabytes
 size = Linani
 cv-license = License
+splits = Kuhlukana
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Download { $language }
+subscribe = Bhalisa
 more = Lokunengi
 close = Vala
 download = Download
@@ -322,6 +336,7 @@ language-validation-hours = Emahora
 ## Contribution
 
 action-click = Chafata
+action-tap = Tsintsa
 contribute = Nikela
 listen = Lalela
 skip = Yeca
@@ -333,13 +348,16 @@ record-platform-not-supported-desktop = { "" }
 report = Bika
 report-other-comment =
     .placeholder = Phawula
+success = Imphumelelo
 continue = Chubeka
 
 ## Goals
 
+streaks = Streaks
 
 ## Dashboard
 
+stats = Tibalo
 awards = Imiklomelo
 everyone = Wonkhe muntfu
 
@@ -355,6 +373,7 @@ help-reach-hours-pluralized =
         [one] { "" }
        *[other] { "" }
     }
+share-goal-type-speak = Lokhulumako
 share-goal-type-listen = Ulalele
 
 ## Profile Delete
@@ -409,9 +428,11 @@ sc-header-home = Ekhaya
 sc-header-how-to = Kanjani
 sc-header-add = Ngeta
 sc-header-review = Buyeketa
+sc-header-statistics = Tibalo
 sc-header-profile = Likhasi lelichaza kabanti ngawe
 sc-footer-discourse = Discourse
 sc-footer-privacy = Lokuyimfihlo
+sc-footer-terms = Imigomo
 sc-footer-cookies = Cookies
 sc-logout-button = Phuma
 
@@ -427,6 +448,9 @@ sc-logout-button = Phuma
 ## MY SENTENCES
 
 # Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Kumikisa: { $batchId }
+# Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Umtfombo: { $source }
 
@@ -435,9 +459,12 @@ sc-my-source = Umtfombo: { $source }
 
 ## STATS
 
+sc-stats-title = Tibalo
 
 ## ADD
 
+sc-submit-button =
+    .submitText = Mikisa
 
 ## ADD LANGUAGE
 
