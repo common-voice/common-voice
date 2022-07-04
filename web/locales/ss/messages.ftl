@@ -17,6 +17,7 @@ af = Afrikaans
 am = Amharic
 an = Aragonese
 ar = Arabic
+arn = Mapudungun
 as = Assamese
 ast = Asturian
 az = Azerbaijani
@@ -75,9 +76,21 @@ ko = Sikhoriya
 kpv = Komi-Zyrian
 kw = Cornish
 ky = Kyrgyz
+lb = Luxembourgish
+lg = Luganda
 lij = Ligurian
 lt = Lithuanian
 lv = Latvian
+mai = Maithili
+mdf = Moksha
+mg = Malagasy
+mk = Macedonian
+ml = Malayalam
+mn = Mongolian
+mos = Mossi
+mr = Marathi
+ms = Malay
+mt = Maltese
 my = Burmese
 myv = Erzya
 nl = Dutch
@@ -137,6 +150,7 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Bulili
 hidden = Lokufihlakele
+male = Lomdvuna
 female = Wesifazane
 dashboard = i-Dashboard
 avatar = Sitfombe
@@ -205,13 +219,16 @@ error-code = Liphutsa { $code }
 
 dataset-date = Lusuku
 license = License: <licenseLink>{ $license }</licenseLink>
+license-mixed = Lokubhicene
 
 ## Datasets Page
 
 datasets-heading = Datasets
 cv-license = License
 size-gigabyte = GB
+size-megabyte = MB
 download-language = Download { $language }
+more = Lokunengi
 close = Vala
 download = Download
 
@@ -220,6 +237,8 @@ download = Download
 
 ## Contact Modal
 
+contact-form-message =
+    .label = Umlayeto
 contact-required = *kudzingekile
 
 ## Request Language Modal
@@ -231,6 +250,8 @@ contact-required = *kudzingekile
 ## Languages Overview
 
 language-section-launched = Kusunguliwe
+language-section-launched-description = { "" }
+localized = Localized
 language-validation-hours = Emahora
 
 ## Contribution
@@ -260,6 +281,11 @@ both-speak-and-listen = Kokubili
 easy-difficulty = Kumelula
 average-difficulty = Lokusemkhatsini
 difficult-difficulty = Kulikhuni
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] { "" }
+       *[other] { "" }
+    }
 share-goal-type-listen = Ulalele
 
 ## Profile Delete
@@ -294,6 +320,7 @@ demo-account-card-header = { "" }
 ## Validation criteria
 
 contribution-criteria-nav = Luhla
+contribution-misreadings-title = Lokufundvwe kabi
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -307,6 +334,7 @@ sc-header-how-to = Kanjani
 sc-header-add = Ngeta
 sc-footer-discourse = Discourse
 sc-footer-cookies = Cookies
+sc-logout-button = Phuma
 
 ## HOME
 
