@@ -26,9 +26,11 @@ br = Breton
 bs = Bosnian
 bxr = Buryat
 ca = Catalan
+co = Corsican
 cv = Chuvash
 eu = Basque
 hy-AM = Armenian
+kw = Cornish
 my = Burmese
 sq = Albanian
 yue = Cantonese
@@ -40,6 +42,7 @@ yue = Cantonese
 
 about = Mayelana
 contact = Chumana
+cookies = Cookies
 
 ## Home Page
 
@@ -208,6 +211,7 @@ demo-account-card-header = { "" }
 ## HEADER/FOOTER
 
 sc-header-add = Ngeta
+sc-footer-cookies = Cookies
 
 ## HOME
 
