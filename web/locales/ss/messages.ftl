@@ -99,6 +99,7 @@ nia = Nias
 nl = Dutch
 oc = Occitan
 or = Odia
+ps = Pashto
 quc = K'iche'
 rw = Kinyarwanda
 sq = Albanian
@@ -136,6 +137,9 @@ rich-data = { "" }
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
@@ -164,10 +168,14 @@ profile-form-gender-2 =
 hidden = Lokufihlakele
 male = Lomdvuna
 female = Wesifazane
+# Gender
+other = Lokunye
 dashboard = i-Dashboard
 avatar = Sitfombe
 goals = Imigomo
 profile-close = Vala
+off = Valiwe
+on = Vuliwe
 
 ## Profile - Email
 
@@ -186,6 +194,7 @@ profile-close = Vala
 about-listen-queue = Lidelezi lekulalela
 about-listen-queue-text = { "" }
 about-listen = Lalela
+about-nav-partners = Balingani
 
 ## Community Playbook Content
 ## What is a language
