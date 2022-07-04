@@ -36,6 +36,7 @@ cak = Kaqchikel
 co = Corsican
 cs = Czech
 cv = Chuvash
+cy = Welsh
 da = Danish
 de = Sijalimane
 dv = Dhivehi
@@ -136,13 +137,23 @@ tk = Turkmen
 tl = Tagalog
 tn = Setswana
 tr = Turkish
+ts = Xitsonga
 tt = Tatar
 tw = Twi
 ty = Tahitian
 uby = Ubykh
 udm = Udmurt
+ug = Uyghur
 uk = Ukrainian
+ur = Urdu
+uz = Uzbek
 ve = Tshivenda
+vec = Venetian
+vi = Vietnamese
+vot = Votic
+xh = Si-Xhosa
+yi = Yiddish
+yo = Yoruba
 yue = Cantonese
 
 # [/]
@@ -165,6 +176,7 @@ faq = FAQ
 ## Home Page
 
 wall-of-text-first = { "" }
+vote-yes = Yebo
 vote-no = Cha
 all-locales = Konkhe
 today = Namuhla
@@ -188,6 +200,9 @@ shortcut-skip = s
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
 shortcut-play-toggle-label = Dlala/Mani
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
@@ -216,6 +231,7 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Bulili
 hidden = Lokufihlakele
+visible = Kuyabonakala
 profile-form-submit-save = Gcina
 profile-form-submit-saved = Lokugciniwe
 male = Lomdvuna
@@ -293,7 +309,9 @@ error-code = Liphutsa { $code }
 
 ## Data
 
+data-download-yes = Yebo
 data-download-deny = Cha
+release-version = Inhlobo
 dataset-date = Lusuku
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Lokubhicene
@@ -314,6 +332,7 @@ subscribe = Bhalisa
 more = Lokunengi
 close = Vala
 download = Download
+dataset-version = Inhlobo
 
 ## Download Modal
 
@@ -385,6 +404,7 @@ help-reach-hours-pluralized =
         [one] { "" }
        *[other] { "" }
     }
+goal-interval-weekly = Ngemaviki
 share-goal-type-speak = Lokhulumako
 share-goal-type-listen = Ulalele
 
@@ -428,6 +448,7 @@ demo-account-card-header = { "" }
 
 contribution-criteria-nav = Luhla
 contribution-misreadings-title = Lokufundvwe kabi
+contribution-volume-title = Linani lemsindvo
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -472,6 +493,7 @@ sc-my-source = Umtfombo: { $source }
 ## STATS
 
 sc-stats-title = Tibalo
+sc-stats-updating = Updating…
 
 ## ADD
 
@@ -511,6 +533,8 @@ sc-review-form-source = Umtfombo: { $sentenceSource }
 sc-review-form-button-reject = Jikisa
 sc-review-form-button-skip = Yeca
 sc-review-form-button-approve = Vumela
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
