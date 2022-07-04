@@ -11,6 +11,19 @@ ab = Abkhaz
 ace = Acehnese
 ady = Adyghe
 af = Afrikaans
+am = Amharic
+an = Aragonese
+ar = Arabic
+as = Assamese
+ast = Asturian
+az = Azerbaijani
+ba = Bashkir
+bas = Basaa
+be = Belarusian
+bn = Bengali
+eu = Basque
+hy-AM = Armenian
+sq = Albanian
 
 # [/]
 
@@ -22,9 +35,12 @@ about = Mayelana
 ## Home Page
 
 wall-of-text-first = { "" }
+all-locales = Konkhe
 
 ## Account Benefits
 
+benefits = Inzuzo
+rich-data = { "" }
 
 ## What's public
 
@@ -45,6 +61,9 @@ wall-of-text-first = { "" }
 
 profile-form-accent =
     .label = Indlela yekukhuluma lulwimi
+profile-form-age =
+    .label = Iminyaka yekutalwa
+avatar = Sitfombe
 
 ## Profile - Email
 
@@ -128,9 +147,11 @@ contact-required = *kudzingekile
 
 ## Dashboard
 
+awards = Imiklomelo
 
 ## Custom Goals
 
+average-difficulty = Lokusemkhatsini
 
 ## Profile Delete
 
@@ -146,6 +167,7 @@ contact-required = *kudzingekile
 
 ## Demo Datasets
 
+card-button-back = Emuva
 demo-account = i-Account
 
 ## Demo Account
@@ -211,6 +233,7 @@ sc-header-add = Ngeta
 
 ## REVIEW
 
+sc-review-form-button-approve = Vumela
 
 ## SETTINGS
 
