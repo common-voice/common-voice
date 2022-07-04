@@ -33,6 +33,7 @@ bs = Bosnian
 bxr = Buryat
 ca = Catalan
 cak = Kaqchikel
+ckb = Central Kurdish
 co = Corsican
 cs = Czech
 cv = Chuvash
@@ -157,6 +158,8 @@ xh = Si-Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Cantonese
+zh-CN = Chinese (China)
+zh-TW = Chinese (Taiwan)
 zu = Si-Zulu
 
 # [/]
@@ -244,6 +247,7 @@ female = Wesifazane
 # Gender
 other = Lokunye
 dashboard = i-Dashboard
+build-profile = Yakha likhasi lelichaza kabanti ngawe
 avatar = Sitfombe
 goals = Imigomo
 settings = Settings
@@ -273,6 +277,7 @@ about-speak = Khuluma
 about-listen-queue = Lidelezi lekulalela
 about-listen-queue-text = { "" }
 about-listen = Lalela
+about-clip-graveyard = Clip Graveyard
 about-nav-partners = Balingani
 
 ## Community Playbook Content
@@ -325,6 +330,7 @@ license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Lokubhicene
 review-recording = Buyeketa
 review-rerecord = Tfwebula kabusha
+review-cancel = Yekela kumiskisa
 
 ## Datasets Page
 
@@ -382,6 +388,7 @@ listen = Lalela
 skip = Yeca
 shortcuts = Tindlela tekujubelisa
 record-platform-not-supported-desktop = { "" }
+record-cancel = Yekela kutfwebula kabusha
 record-stop-instruction = { $actionType }<stopIcon></stopIconuma> socedzile
 record-last-instruction = <recordIcon></recordIcon>Kekugcina!
 listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
@@ -417,6 +424,7 @@ help-reach-hours-pluralized =
         [one] { "" }
        *[other] { "" }
     }
+cant-decide = Awukhoni kukhetsa?
 goal-interval-weekly = Ngemaviki
 share-goal-type-speak = Lokhulumako
 share-goal-type-listen = Ulalele
@@ -445,6 +453,7 @@ download-request-refresh-button = Vuselela
 
 card-button-next = Lokulandzelako
 card-button-back = Emuva
+demo-language-select-label = Funa lulwimi
 demo-account = i-Account
 
 ## Demo Account
@@ -461,6 +470,8 @@ demo-account-card-header = { "" }
 
 contribution-criteria-nav = Luhla
 contribution-misreadings-title = Lokufundvwe kabi
+contribution-background-noise-title = Imisindvo lengemuva
+contribution-background-voices-title = Emavi langemuva
 contribution-volume-title = Linani lemsindvo
 see-more = <chevron></chevron>Bona lokunengi
 see-less = <chevron></chevron>Bona lokuncane
@@ -565,3 +576,5 @@ sc-settings-title = Settings
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Khetsa Lulwimi/localization
