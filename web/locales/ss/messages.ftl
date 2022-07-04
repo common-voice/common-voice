@@ -20,10 +20,18 @@ az = Azerbaijani
 ba = Bashkir
 bas = Basaa
 be = Belarusian
+bg = Bulgarian
 bn = Bengali
+br = Breton
+bs = Bosnian
+bxr = Buryat
+ca = Catalan
+cv = Chuvash
 eu = Basque
 hy-AM = Armenian
+my = Burmese
 sq = Albanian
+yue = Cantonese
 
 # [/]
 
@@ -31,6 +39,7 @@ sq = Albanian
 ## Layout
 
 about = Mayelana
+contact = Chumana
 
 ## Home Page
 
@@ -64,6 +73,7 @@ profile-form-accent =
 profile-form-age =
     .label = Iminyaka yekutalwa
 avatar = Sitfombe
+profile-close = Vala
 
 ## Profile - Email
 
@@ -119,6 +129,7 @@ avatar = Sitfombe
 
 ## Datasets Page
 
+close = Vala
 
 ## Download Modal
 
@@ -138,9 +149,14 @@ contact-required = *kudzingekile
 
 ## Contribution
 
+action-click = Chafata
+contribute = Nikela
 
 ## Reporting
 
+report-other-comment =
+    .placeholder = Phawula
+continue = Chubeka
 
 ## Goals
 
@@ -151,6 +167,7 @@ awards = Imiklomelo
 
 ## Custom Goals
 
+both-speak-and-listen = Kokubili
 average-difficulty = Lokusemkhatsini
 
 ## Profile Delete
@@ -218,6 +235,7 @@ sc-header-add = Ngeta
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Vuma
 
 ## LANGUAGE INFO
 
