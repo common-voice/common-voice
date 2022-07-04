@@ -193,6 +193,8 @@ about-playbook-how-grow-language-content-2 = Imicimbi
 ## Glossary
 
 glossary = Luhla lwemagama
+localization = Localization
+localization-explanation = { "" }
 de-identified = Kususwe imininingwane yemniyo
 
 ## Error pages
