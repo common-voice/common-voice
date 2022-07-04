@@ -111,8 +111,11 @@ ru = Russian
 rw = Kinyarwanda
 sah = Sakha
 sc = Sardinian
+shi = Shilha
 skr = Saraiki
 sq = Albanian
+sr = Serbian
+tn = Setswana
 yue = Cantonese
 
 # [/]
@@ -192,6 +195,7 @@ other = Lokunye
 dashboard = i-Dashboard
 avatar = Sitfombe
 goals = Imigomo
+settings = Settings
 profile-close = Vala
 off = Valiwe
 on = Vuliwe
@@ -297,7 +301,10 @@ contact-required = *kudzingekile
 language-section-launched = Kusunguliwe
 language-section-launched-description = { "" }
 language-meter-in-progress = Inchubekelaphambili
+language-search-input =
+    .placeholder = Phenya
 localized = Localized
+sentences = Imisho
 language-validation-hours = Emahora
 
 ## Contribution
@@ -345,6 +352,7 @@ remove = Susa
 
 download-profile-title = Likhasi lelichaza kabanti ngawe
 download-recordings-title = Lokutfwebuliwe
+download-selected = Lokukhetsiwe
 download-request-button = Download
 download-request-refresh-button = Vuselela
 
@@ -449,6 +457,7 @@ sc-review-link = Buyeketa
 
 ## SETTINGS
 
+sc-settings-title = Settings
 
 # [/SentenceCollector]
 
