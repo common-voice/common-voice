@@ -54,6 +54,8 @@ speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha ida
 
 ## How does it work section
 
+about-yes-votes-text = Ukwenza kube yidathasethi yeCommon Voice, isiqeshana sezwi kufanele siqinisekiswe ngabasebenzisi ababili abahlukene.
+about-dataset-new-text = Idathasethi yeCommon Voice iqukethe amakhulu ezinkulungwane zamasampuli ezwi asiza onjiniyela bakhe amathuluzi okwazi izwi.
 about-stay-in-touch-text-1 = <emailFragment>Bhalisa</emailFragment> ohlwini lwethu lwama-imeyili ukuze ufunde ukuthi ungaba nengxenye kanjani emikhankasweni, imicimbi kanye nezici zokuklama ngokuhlanganyela ku-Common Voice.
 about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi lwe-Mozilla ngokujoyina <discourseLink>Discourse</discourseLink> yezingxoxo zezihloko, noma <matrixLink>Matrix</matrixLink> ukuze uthole iseluleko esisheshayo.
 
@@ -72,6 +74,7 @@ about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi 
 
 ## How to record quality
 
+about-playbook-how-record-content-4 = Qiniseka ukuthi inkundla iyarekhoda ngaphambi kokuthi uqale ukukhuluma, nokuthi iyama kuphela uma usuqedile.
 
 ## How to grow language
 
@@ -99,6 +102,7 @@ data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamaz
 
 resource-playbook-info = <playbookLink>Thola isiqondiso esiwusizo</playbookLink> kulo lonke uhambo lwe-Common Voice, kusukela ekwenzeni okwasendaweni kuya ekusetshenzisweni kwedathasethi, kanye nendlela yokuxhumana nomphakathi wethu.
 data-other-librispeech-description = I-LibriSpeech iyikhophasi cishe yamahora angu-1000 we-16Khz  yenkulumo yesiNgisi efundiwe ethathwe kuma-audiobook afundiwe kusukela kuphrojekthi ye-LibriVox.
+data-other-voxforge-description = I-VoxForge yasungulwa ukuze iqoqe inkulumo eqoshiwe ukuze isetshenziswe nezinjini zokuqaphela izinkulumo zamahhala kanye ne-Open Source.
 your-feedback = Ingabe unayo imibono yokuthi singayenza kanjani idathasethi ye-Common Voice ibe ngcono? Sazise ku-Discourse
 
 ## Download Modal
@@ -174,6 +178,7 @@ help-contribute = Ungasiza ukwakha isethi yedatha ehlukahlukene, yomthombo ovule
 
 ## Validation criteria
 
+contribution-criteria-page-description = Qonda ukuthi yini okufanele uyibheke lapho ulalele iziqeshana zezwi futhi usize ukwenza izwi elirekhodiwe lakho licebe kakhulu!
 contribution-background-noise-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 contribution-background-voices-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 
