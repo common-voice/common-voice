@@ -568,6 +568,7 @@ about-playbook-how-add-language-translating-heading = Omoñe’ẽasa tenda
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ehecha mba’éichapa eipurúta Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Ñe’ẽrysýi ñembyaty
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ehecha mba’éichapa eipurúta ñe’ẽjuaju ñembyatyha</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ehechave ñe’ẽjuaju aty rehegua</sentenceCollectorFragment>.
 
 ## How does localization work
 
