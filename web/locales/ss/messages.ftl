@@ -126,6 +126,8 @@ ps = Pashto
 pt = Portuguese
 quc = K'iche'
 quy = Quechua Chanka
+rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
 ro = Romanian
 ru = Russian
 rw = Kinyarwanda
@@ -310,6 +312,7 @@ add-language = Ngeta Lulwimi
 
 ## How does it work section
 
+about-sentence-collection-title = Kukolekwa kwemisho
 about-dataset-release-title = Dataset Release
 about-subscribe-text = Bhalisa
 about-speak = Khuluma
@@ -359,6 +362,7 @@ about-playbook-how-project-governance-content-6 = Kwetsembeka lokufananako.
 glossary = Luhla lwemagama
 localization = Localization
 localization-explanation = { "" }
+sentence-collection = Kukolekwa kwemisho
 de-identified = Kususwe imininingwane yemniyo
 
 ## Error pages
@@ -428,6 +432,8 @@ other-language = Lolunye Lulwimi
 language-section-in-progress = Kuyachubeka
 language-section-launched = Kusunguliwe
 language-section-launched-description = { "" }
+languages-show-more = Bona Lokunengi
+languages-show-less = Bona Lokuncane
 language-meter-in-progress = Inchubekelaphambili
 language-total-progress = Konkhe
 language-search-input =
@@ -579,6 +585,7 @@ sc-logout-button = Phuma
 ## HOME
 
 sc-home-collect-title = Imisho lekwelekiwe
+sc-home-review-title = Buyeketa imisho
 
 ## GENERAL
 
@@ -586,6 +593,7 @@ sc-home-collect-title = Imisho lekwelekiwe
 ## HOW-TO
 
 sc-howto-title = Kwentiwa njani
+sc-howto-review-title = Buyeketa imisho
 
 ## MY SENTENCES
 
@@ -609,6 +617,8 @@ sc-stats-updating = Updating…
 ## ADD
 
 sc-submit-title = Ngeta imisho
+sc-submit-select-language =
+    .labelText = Khetsa Lulwimi
 sc-submit-button =
     .submitText = Mikisa
 
@@ -643,6 +653,7 @@ sc-criteria-title = Buyeketa luhla
 
 ## REVIEW
 
+sc-review-title = Buyeketa imisho
 sc-review-loading = Sisafaka imisho…
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
