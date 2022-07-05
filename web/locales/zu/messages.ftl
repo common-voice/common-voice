@@ -1,5 +1,7 @@
 ## General
 
+yes-receive-emails = Yebo, ngithumele ama-imeyili. Ngingathanda ukuhlala nginolwazi nge-Common Voice Project.
+privacy-info = Sithembisa ukuphatha imininingwane yakho ngokucophelela. Funda kabanzi kwi<privacyLink>Isaziso Sobumfihlo</privacyLink>.
 email-opt-in-info = Ngingathanda ukuthola ama-imeyili afana nezikhumbuzi zemigomo, izibuyekezo zami zokuqhubeka nezincwadi zezindaba ezimayelana ne-Common Voice.
 email-opt-in-info-sub-with-challenge = Thola ama-imeyili afana nezikhumbuzi zenselele nezinjongo, izibuyekezo zenqubekelaphambili, nezincwadi zezindaba ezimayelana ne-Common Voice.
 
@@ -102,6 +104,7 @@ about-playbook-how-grow-language-content-8 = <strong>Yakha ubuciko!</strong> Ump
 
 ## Glossary
 
+localization-explanation = Lena inqubo yethu yokuhumusha nokulungisa okuqukethwe kwethu ezindaweni eziningi (izilimi).
 
 ## Error pages
 
@@ -156,6 +159,9 @@ language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi
 
 ## Contribution
 
+listen-loading-error =
+    Asikwazanga ukuthola iziqeshana zomsindo ozozilalela.
+    Sicela uzame futhi emuva kwesikhathi.
 
 ## Reporting
 
@@ -220,6 +226,7 @@ profile-not-required = Ukuba nephrofayela akudingekile ukuthi unikele nakuba kus
 
 contribution-criteria-page-description = Qonda ukuthi yini okufanele uyibheke lapho ulalele iziqeshana zezwi futhi usize ukwenza izwi elirekhodiwe lakho licebe kakhulu!
 contribution-misreadings-description-extended-list-3 = Ukufunda izifinyezo ezingekho, njengokuthi "We're" esikhundleni sokuthi "We are", noma okuphambene nalokho.
+contribution-varying-pronunciations-example-1-explanation = [I-‘Beret’ ILUNGILE noma ngabe isigcizelelo sikuhlamvu wokuqala (UK) noma wesibili (US)]
 contribution-background-noise-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 contribution-background-voices-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 
@@ -243,6 +250,7 @@ sc-languages-fetch-error = Sehlulekile ukulanda izilimi ezitholakalayo. Iminikel
 sc-howto-cite-item-2 = Ungasebenzisa isitayela sereferensi yezemfundo, isb isitayela sase-Harvard "Mozilla (2021) Common Voice. Itholakala ku https://commonvoice.mozilla.org/ (Kufinyelelwe: 15th September 2021)"
 sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-inthanethi, ungasebenzisa isitayela sereferensi yezemfundo isb isitayela saseHarvard "Jess (2021) Izinkondlo Zami Zelayisensi Yomphakathi"
 sc-howto-findpd-tips-1 = Imithombo engcono kakhulu ongayibheka amaphodikasti, okulotshiweyo, imibhalo yamamuvi nanoma yini engaba khona ingaqukatha izingxoxo zansuku zonke.
+sc-howto-findpd-tips-3 = Ngeshwa asikwazi ukuba nezindatshana ze-Wikimedia okwamanje. Ngakho-ke ungakopishi ukunamathisela kusuka lapho.
 
 ## MY SENTENCES
 
@@ -277,6 +285,14 @@ sc-confirm-already-reviewed =
        *[other] imisho engu-{ $countOfReviewed } isivele ibuyekeziwe. Umsebenzi omuhle!
     }
 # Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Awukho umusho olungele ukuhanjiswa!
+        [one] umusho ongu-1 ulungele ukuhanjiswa!
+       *[other] { $readyCount } imisho isilungele ukuhanjiswa!
+    }
+# Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = Imisho engu-{ $countOfUnreviewed } ayibuyekeziwe. Uma ufuna, ungabuyekeza nemisho yakho manje ngaphambi kokuyihambisa.
 sc-confirm-uploading = Imisho iyalayishwa. Lokhu kungathatha imizuzu embalwa kuya ngenani lemisho eyengeziwe. Sicela ungayivali le webhusayithi.
@@ -303,6 +319,7 @@ sc-lang-info-left-for-you =
 
 ## REVIEW
 
+sc-review-lang-not-selected = Awukhethanga noma yiziphi izilimi. Sicela uye <profileLink>Iphrofayela</profileLink> yakho ukuze ukhethe izilimi.
 
 ## SETTINGS
 
