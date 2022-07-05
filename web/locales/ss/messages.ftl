@@ -136,6 +136,7 @@ ro = Romanian
 ru = Russian
 rw = Kinyarwanda
 sah = Sakha
+sat = Santali (Ol Chiki)
 sc = Sardinian
 scn = Sicilian
 shi = Shilha
@@ -329,6 +330,8 @@ add-language = Ngeta Lulwimi
 ## FAQ
 
 faq-title = Imibuto levame kubutwa
+faq-search-for-answers =
+    .label = Phenya timphendvulo
 
 ## ABOUT US
 
@@ -415,6 +418,7 @@ dataset-date = Lusuku
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Lokubhicene
 terms-agree = Ngiyavuma
+review-submit-title = Buyeketa & Mikisa
 review-recording = Buyeketa
 review-rerecord = Tfwebula kabusha
 review-cancel = Yekela kumiskisa
@@ -466,6 +470,7 @@ contact-required = *kudzingekile
 ## Request Language Modal
 
 request-language-title = Sicelo Selulwimi
+select-language = Khetsa Lulwimi...
 other-language = Lolunye Lulwimi
 
 ## Request Language Pages
@@ -503,6 +508,8 @@ record-no-mic-found = Kute umbhobho lotfolakele.
 record-cancel = Yekela kutfwebula kabusha
 record-stop-instruction = { $actionType }<stopIcon></stopIconuma> socedzile
 record-last-instruction = <recordIcon></recordIcon>Kekugcina!
+share-clip = Yaba sicephu sakho lesitfwebuliwe
+share-common-voice = Yaba Common Voice
 record-submit-tooltip = { $actionType } mikisa uma ulungele
 clips-uploaded = Ticephu leti-uploadiwe
 record-abort-title = Cedza kutfwebula kucala?
@@ -546,6 +553,7 @@ recorded-clips = Ticephu letitfwebuliwe
 validated-clips = Leticinisikesiwe Ticephu
 total-approved = Lokuvunyiwe sekukonkhe
 overall-accuracy = Overall Accuracy
+set-visibility = Setha kubonakala kwami
 
 ## Custom Goals
 
@@ -562,11 +570,13 @@ help-reach-hours-pluralized =
         [one] { "" }
        *[other] { "" }
     }
+set-a-goal = Setha ligoli
 cant-decide = Awukhoni kukhetsa?
 confirm-goal = Cinisekisa umgomo
 goal-interval-weekly = Ngemaviki
 share-goal-type-speak = Lokhulumako
 share-goal-type-listen = Ulalele
+share-goal = Yaba ligoli lami
 
 ## Profile Delete
 
@@ -761,6 +771,7 @@ sc-review-link = Buyeketa
 
 sc-settings-title = Settings
 sc-settings-ui-language = Interface Language
+sc-settings-reset-skipped = Lungisa imisho leyecekile
 
 # [/SentenceCollector]
 
