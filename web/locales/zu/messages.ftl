@@ -110,6 +110,7 @@ want-dataset-update = Ufuna izibuyekezo uma sikhipha inguqulo entsha yedathaseth
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> inikezelwe ekuvuleni ubuchwepheshe benkulumo. Amaphrojekthi abo ahlanganisa ukufunda okujulile okusekelwe ku-STT kanye nezinjini ze-TTS.
 resource-playbook-info = <playbookLink>Thola isiqondiso esiwusizo</playbookLink> kulo lonke uhambo lwe-Common Voice, kusukela ekwenzeni okwasendaweni kuya ekusetshenzisweni kwedathasethi, kanye nendlela yokuxhumana nomphakathi wethu.
 data-other-librispeech-description = I-LibriSpeech iyikhophasi cishe yamahora angu-1000 we-16Khz  yenkulumo yesiNgisi efundiwe ethathwe kuma-audiobook afundiwe kusukela kuphrojekthi ye-LibriVox.
+data-other-ted-description = Ikhophasi ye-TED-LIUM yenziwe ngezinkulumo ezilalelwayo kanye nokulotshiwe kwayo kutholakala kuwebhusayithi ye-TED.
 data-other-voxforge-description = I-VoxForge yasungulwa ukuze iqoqe inkulumo eqoshiwe ukuze isetshenziswe nezinjini zokuqaphela izinkulumo zamahhala kanye ne-Open Source.
 your-feedback = Ingabe unayo imibono yokuthi singayenza kanjani idathasethi ye-Common Voice ibe ngcono? Sazise ku-Discourse
 missing-language = Awuboni ulimi lwakho luboniswa Kusethi Yedatha? Ukucela ulimi qonda ekhasini lethu leZilimi.
@@ -130,6 +131,9 @@ request-language-explanation-2 =
     Sizokwazisa <strong>nomphathi wethu womphakathi
     ukuthi unentshisekelo</strong>, ngakho bangakunikeza noma ikuphi
     ukwesekwa okwengeziwe noma ulwazi ongase uludinge.
+request-language-success-list-1 =
+    Kufanele uthole i-imeyili echazayo maduze
+    izinyathelo zokwenza ulimi lwakho lwengezwe ku-Common Voice
 request-language-success-list-3 =
     Uma ungezwa ngathi ezinsukwini ezimbalwa,
     finyelela ku-<emailLink>{ $email }</emailLink>
@@ -140,6 +144,7 @@ request-language-error =
 
 ## Languages Overview
 
+language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi kokuthuthukiswa komphakathi. <localizationGlossaryLink>Ukwenziwa kwasendaweni kwewebhusayithi</localizationGlossaryLink> ne-<sesentenceCollectionGlossaryLink>iqoqo lemisho</sentenceCollectionGlossaryLink> kuyadingeka ukuze kuqaliswe.
 
 ## Contribution
 
@@ -155,6 +160,20 @@ request-language-error =
 
 ## Custom Goals
 
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } ihora
+       *[other] { $totalHours } amahora
+    }{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } ​​inyanga
+       *[other] { $periodMonths } ​​izinyanga
+    } { NUMBER($people) ->
+        [one] { $people } umuntu
+       *[other] abantu abangu-{ $people }
+    } { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } isiqeshana
+       *[other] iziqeshana ezingu-{ $clipsPerDay } ngosuku."
+    }
 receiving-emails-info =
     Okwamanje umiselwe ukuthola ama-imeyili afana nezikhumbuzi zegoli, 
     izibuyekezo zenqubekelaphambili zami kanye nezincwadi zezindaba mayelana ne-Common Voice
