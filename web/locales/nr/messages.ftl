@@ -94,6 +94,7 @@ about-playbook-how-access-dataset-content-2 = Nange funa amathulusi wokwakha ama
 
 ## Data
 
+data-subtitle = Sakha ibulungelo lamaphimbo arekhodiweko angasetjenziswa ngiwo woke umuntu bona angawasebenzisa ukubandula iinsetjenziswa bona zikhulume ikulumo eyamukeleko.
 
 ## Datasets Page
 
@@ -108,6 +109,7 @@ data-other-librispeech-description = I-LibriSpeech mitlolo engathatha pheze ama-
 
 ## Request Language Modal
 
+request-language-success-content = Sizokubuya nemininingwana engeziweko emalungana nokuthi ungalifaka njani ilimi lakho ku-Common Voice esikhathini esingaphelisi ihliziyo.
 
 ## Request Language Pages
 
