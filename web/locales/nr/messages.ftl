@@ -17,6 +17,7 @@
 ## Home Page
 
 no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa usisize sivale isikhalesi ngokuthi urekhode okuthileko njenga nje.
+speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
 
 ## Account Benefits
 
@@ -80,6 +81,7 @@ about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngo
 
 ## How to access dataset
 
+about-playbook-how-access-dataset-content-2 = Nange funa amathulusi wokwakha amahlelo we-ASR, ungazihlanganisa nabanye abantu emphakathini <discourseLink>eBulungelweni</discourseLink>.
 
 ## How are decisions made
 
@@ -136,6 +138,7 @@ goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -
 
 ## Profile Download
 
+download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufake efayilini yinye namkha emafayilini amanengi we-ZIP. Nakhu okubawe esikhathini esidlulileko:
 
 ## Landing
 
