@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = Receva ebostow kepar ha kovheansow amkan 
 email-opt-in-privacy-v2 = Dre dhewis receva ebostow yth esowgh ow leverel agas bos unver gans Mozilla ow handla an kedhlow ma dell yw displegys yn <privacyLink>Polici Privetter<privacyLink> Mozilla.
 indicates-required = * a dhelin skrifva a res
 not-available-abbreviation = Ankavadow
+banner-error-slow-1 = Drog yw genen, yma Common Voice owth oberi yn lent. Meur ras a'th tidheur.
+banner-error-slow-2 = Yth eson ow reseva meur a dharomres hag assaya lemmyn hwithra an kudynnow.
 banner-error-slow-link = Folen Studh
 error-something-went-wrong = Drog yw genen, kamm a hwarva
 
@@ -250,6 +252,7 @@ speak-subtitle = Kevri agas lev
 speak-paragraph = Rekordya temmigow lev yw rann gresel a dhrehevel agan sett data ygor, yma nebes ow leverel y vos an rann dhidhanus ynwedh.
 speak-goal-text = Temmigow rekordys
 listen-subtitle = Gweres dhyn ow tilysa levow
+listen-paragraph = Dilysa klyppys argevres yw posek yn kehaval dhe'n ragdres Common Voice. Goslow ha'gan gweres ow kwruthyl kedhlow lev fenten ygor a gwalita ughel.
 listen-goal-text = Klyppys dilysys
 hours-recorded = Ourys Rekordys
 hours-validated = Ourys Dilysys
