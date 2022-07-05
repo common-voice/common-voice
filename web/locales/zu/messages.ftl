@@ -190,6 +190,14 @@ sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-
 
 ## ADD LANGUAGE
 
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Imisho ethunyelwe. { $duplicates } imisho inqatshiwe njengezimpinda.
+        [one] Imisho ethunyelwe. { $duplicates } umisho unqatshiwe njengempinda.
+       *[other] Imisho ethunyelwe. { $duplicates } imisho inqatshiwe njengezimpinda.
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
