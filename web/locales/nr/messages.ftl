@@ -115,6 +115,10 @@ request-language-success-content = Sizokubuya nemininingwana engeziweko emalunga
 ## Request Language Pages
 
 request-language-explanation-2 = Sizokubuye <strong>sakwazisa  nomphathi womphakathethu ukuthi unekareko</strong>, ukwenzela bona bakunikele nanyana ngiliphi isekelo elengeziweko nelwazi okungenzeka ulitlhoge.
+request-language-success-list-3 =
+    "Nange ungezwa litho elivela kithi bekudlule amalangana, 
+    yenza ilandelela ku <emailLink>{ $email }</emailLink> 
+    sizokubuyela kuwe!"
 
 ## Languages Overview
 
@@ -163,6 +167,8 @@ download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufa
 
 ## Validation criteria
 
+contribution-background-noise-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kusuze ngaphandle kwalokha okhunye kuzwakala.
+contribution-background-voices-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kususe ngaphandle kwalokha okhunye kuzwakala.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
