@@ -209,6 +209,7 @@ sc-confirm-uploading = Imitjho iyafakwa. Lokhu kungathatha imizuzu embalwa kuye 
 
 ## SETTINGS
 
+sc-settings-skipped-decription = Weqe imitjho nawubuyekezako esikhathini esidlulileko. Ukubuyisela emva imitjho eyeqiweko kuzokuvezela yoke imitjho  eyeqiweko godu. Lokhu kuya ngelimi.
 
 # [/SentenceCollector]
 
