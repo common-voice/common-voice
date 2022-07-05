@@ -254,6 +254,7 @@ avatar = Sitfombe
 goals = Imigomo
 settings = Settings
 profile-close = Vala
+contribution-experience = Sipiliyoni sekulekelela
 off = Valiwe
 on = Vuliwe
 
@@ -274,6 +275,7 @@ add-language = Ngeta Lulwimi
 
 ## How does it work section
 
+about-dataset-release-title = Dataset Release
 about-subscribe-text = Bhalisa
 about-speak = Khuluma
 about-listen-queue = Lidelezi lekulalela
@@ -418,10 +420,12 @@ stats = Tibalo
 awards = Imiklomelo
 you = Wena
 everyone = Wonkhe muntfu
+contribution-activity = Imisebenti wekulekelela
 
 ## Custom Goals
 
 both-speak-and-listen = Kokubili
+daily-goal = Umgomo welilanga
 easy-difficulty = Kumelula
 average-difficulty = Lokusemkhatsini
 difficult-difficulty = Kulikhuni
@@ -477,6 +481,7 @@ demo-account-card-header = { "" }
 ## Validation criteria
 
 contribution-criteria-nav = Luhla
+contribution-criteria-page-title = Luhla lwekulekelela
 contribution-misreadings-title = Lokufundvwe kabi
 contribution-background-noise-title = Imisindvo lengemuva
 contribution-background-voices-title = Emavi langemuva
