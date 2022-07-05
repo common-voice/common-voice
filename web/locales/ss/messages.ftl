@@ -198,6 +198,7 @@ logout = Phuma
 ## Home Page
 
 wall-of-text-first = { "" }
+show-wall-of-text = Fundza Kabanti
 vote-yes = Yebo
 vote-no = Cha
 speak-goal-text = Ticephu letiftwebuliwe
@@ -294,6 +295,7 @@ on = Vuliwe
 
 avatar-uploaded = Avatar uploaded
 max-file-size = { $kb }kb max
+remove-avatar = Remove Avatar
 
 ## Profile - Email
 
@@ -476,6 +478,7 @@ awards = Imiklomelo
 you = Wena
 everyone = Wonkhe muntfu
 contribution-activity = Imisebenti wekulekelela
+recorded-clips = Ticephu letitfwebuliwe
 overall-accuracy = Overall Accuracy
 
 ## Custom Goals
@@ -545,6 +548,7 @@ contribution-misreadings-title = Lokufundvwe kabi
 contribution-background-noise-title = Imisindvo lengemuva
 contribution-background-voices-title = Emavi langemuva
 contribution-volume-title = Linani lemsindvo
+contribution-reader-effects-title = Reader Effects
 contribution-just-unsure-title = Ute siciniseko?
 see-more = <chevron></chevron>Bona lokunengi
 see-less = <chevron></chevron>Bona lokuncane
@@ -560,10 +564,12 @@ sc-header-home = Ekhaya
 sc-header-how-to = Kanjani
 sc-header-add = Ngeta
 sc-header-review = Buyeketa
+sc-header-rejected = Lejikisiwe Imisho
 sc-header-my = Imisho Yami
 sc-header-statistics = Tibalo
 sc-header-profile = Likhasi lelichaza kabanti ngawe
 sc-footer-discourse = Discourse
+sc-footer-report-bugs = Report Bugs
 sc-footer-privacy = Lokuyimfihlo
 sc-footer-terms = Imigomo
 sc-footer-cookies = Cookies
@@ -592,6 +598,7 @@ sc-my-source = Umtfombo: { $source }
 
 ## REJECTED
 
+sc-rejected-title = Lejikisiwe Imisho
 
 ## STATS
 
