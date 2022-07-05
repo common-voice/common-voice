@@ -54,6 +54,7 @@ faq-what-determine-identity-a = Dathasete ya Common Voice ke se dirišwa seo se 
 
 ## ABOUT US
 
+about-header-description-v2 = Theknolotši ya go tlhathollo lentšu e fetola tsela yeo re dirišago metšhene ya yona, eupša di tsamaišo tšeo di lego gona mo nakong ye di bitša tšhelete e ntši ebile e nale thepa. Mozilla Common Voice ke magato a go dira gore mahlale a go tlhathollo ya lentšu a be kaone le gore e hwetšagale go batho bohle. Common Voice bolekego ya dathabeise ya lefase ka bophara ya mantšu a bonwelo e dumelela mang goba mang gore a kwetliše ga bonolo didirišwa tša go ba le lentšu ka polelo ye nngwe le ye nngwe. Ga re kgoboketše disampole tša mantšu feela ka maleme a go bolelwa ke batho kudu eupša gape le ao a nago le diboledi a badudi ba banyenyane. Go phatlalatša dathasete ya dintlha tšeo di fapanego tša mantšu go tla matlafatša batšweletši, bo rakgwebo le setšhaba go rarolla sekgoba seo ka bo bona.
 
 ## How does it work section
 
