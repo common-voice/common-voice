@@ -639,6 +639,7 @@ sc-personal-remove-button = susa
 
 ## REVIEW CRITERIA
 
+sc-criteria-title = Buyeketa luhla
 
 ## REVIEW
 
