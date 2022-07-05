@@ -103,9 +103,11 @@ ms = Malay
 mt = Maltese
 my = Burmese
 myv = Erzya
+nd = IsiNdebele (North)
 ne-NP = Nepali
 nia = Nias
 nl = Dutch
+nr = IsiNdebele (South)
 nyn = Runyankole
 oc = Occitan
 om = Afaan Ormoo
@@ -290,6 +292,8 @@ about-listen-queue-text = { "" }
 about-listen = Lalela
 about-clip-graveyard = Clip Graveyard
 about-get-involved = Hlanganyela
+about-nav-why-common-voice = Leni ?
+about-nav-how-it-works = Kanjani ?
 about-nav-partners = Balingani
 about-nav-get-involved = Hlanganyela
 
@@ -344,6 +348,7 @@ release-version = Inhlobo
 dataset-date = Lusuku
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Lokubhicene
+terms-agree = Ngiyavuma
 review-recording = Buyeketa
 review-rerecord = Tfwebula kabusha
 review-cancel = Yekela kumiskisa
@@ -359,6 +364,7 @@ splits = Kuhlukana
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Download { $language }
+validated-hours = Lacinisekisiwe emahora
 recorded-hours = Latfwebuliwe emahora
 subscribe = Bhalisa
 feedback-q = Unawo umbiko longasitjela wona?
@@ -388,6 +394,7 @@ contact-required = *kudzingekile
 
 ## Languages Overview
 
+language-section-in-progress = Kuyachubeka
 language-section-launched = Kusunguliwe
 language-section-launched-description = { "" }
 language-meter-in-progress = Inchubekelaphambili
@@ -536,6 +543,7 @@ sc-home-collect-title = Imisho lekwelekiwe
 
 ## HOW-TO
 
+sc-howto-title = Kwentiwa njani
 
 ## MY SENTENCES
 
@@ -608,6 +616,7 @@ sc-review-link = Buyeketa
 ## SETTINGS
 
 sc-settings-title = Settings
+sc-settings-ui-language = Interface Language
 
 # [/SentenceCollector]
 
