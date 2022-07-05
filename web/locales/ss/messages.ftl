@@ -202,6 +202,7 @@ terms = Imigomo
 cookies = Cookies
 faq = FAQ
 link-copied = I-link Ikotjiwe
+back-top = Buyela Etulu
 logout = Phuma
 
 ## Home Page
@@ -225,6 +226,7 @@ rich-data = { "" }
 
 ## What's public
 
+whats-public = Yini lokungabonwa sive?
 
 ## Speak & Listen Shortcuts
 
@@ -476,11 +478,13 @@ record-platform-not-supported-desktop = { "" }
 record-cancel = Yekela kutfwebula kabusha
 record-stop-instruction = { $actionType }<stopIcon></stopIconuma> socedzile
 record-last-instruction = <recordIcon></recordIcon>Kekugcina!
+record-submit-tooltip = { $actionType } mikisa uma ulungele
 clips-uploaded = Ticephu leti-uploadiwe
 record-abort-submit = Mikisa ticeshana
 record-abort-continue = Cedza kutfwebula
 listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
 speak-empty-state-cta = Nikela imisho
+target-segment-add-voice = Ngeta Livi Lakho
 target-segment-learn-more = Fundza Kabanti
 
 ## Reporting
@@ -500,6 +504,7 @@ streaks = Streaks
 
 ## Dashboard
 
+your-languages = Tilwimi Takho
 goal-reached = Ligoli lifezekile
 stats = Tibalo
 awards = Imiklomelo
@@ -541,6 +546,7 @@ profile-form-delete = Yesula likhasi
 ## Profile Download
 
 download-profile-title = Likhasi lelichaza kabanti ngawe
+download-profile-size = A few bytes
 download-recordings-title = Lokutfwebuliwe
 download-recordings-size = Typically megabytes
 download-size = Linani
@@ -563,6 +569,7 @@ welcome-staff = Siyanemukela { $company } tisebenti!
 card-button-next = Lokulandzelako
 card-button-back = Emuva
 demo-language-select-label = Funa lulwimi
+demo-eofy-header = 2019 End-of-Year Release
 demo-account = i-Account
 
 ## Demo Account
@@ -581,6 +588,7 @@ contribution-criteria-nav = Luhla
 contribution-criteria-page-title = Luhla lwekulekelela
 contribution-for-example = kubekisa
 contribution-misreadings-title = Lokufundvwe kabi
+contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
 contribution-varying-pronunciations-title = Tindlela tekukhuluma letehlukahlukene
 contribution-background-noise-title = Imisindvo lengemuva
 contribution-background-voices-title = Emavi langemuva
@@ -623,6 +631,7 @@ sc-home-review-title = Buyeketa imisho
 ## HOW-TO
 
 sc-howto-title = Kwentiwa njani
+sc-howto-addsen-title = Ngeta imisho lemisha
 sc-howto-review-title = Buyeketa imisho
 
 ## MY SENTENCES
@@ -676,6 +685,7 @@ sc-login-err-failed = Wehlulekile kungena
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Likhasi lelichaza kabanti ngawe: { $username }
+sc-personal-your-languages = Tilwimi Takho:
 sc-personal-remove-button = susa
 
 ## REVIEW CRITERIA
