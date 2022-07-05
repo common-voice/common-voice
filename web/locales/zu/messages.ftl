@@ -40,6 +40,7 @@ speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha ida
 
 ## ProfileForm
 
+profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi usize idatha yethu yezwi inembe kakhulu.
 
 ## Profile - Email
 
@@ -75,6 +76,7 @@ about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences-content-4 = Imisho eqinisekisiwe ithunyelwa ngaphandle ngoLwesithathu, futhi iyatholakala ngemva kokukhishwa okulandelayo.
 
 ## How to record quality
 
@@ -210,6 +212,7 @@ help-contribute = Ungasiza ukwakha isethi yedatha ehlukahlukene, yomthombo ovule
 ## Validation criteria
 
 contribution-criteria-page-description = Qonda ukuthi yini okufanele uyibheke lapho ulalele iziqeshana zezwi futhi usize ukwenza izwi elirekhodiwe lakho licebe kakhulu!
+contribution-misreadings-description-extended-list-3 = Ukufunda izifinyezo ezingekho, njengokuthi "We're" esikhundleni sokuthi "We are", noma okuphambene nalokho.
 contribution-background-noise-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 contribution-background-voices-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 
