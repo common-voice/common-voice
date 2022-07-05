@@ -20,6 +20,7 @@ email-opt-in-info-sub-with-challenge = Thola ama-imeyili afana nezikhumbuzi zens
 
 ## Home Page
 
+home-title = I-Common Voice iwuhlelo lwe-Mozilla lokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 default-tagline = I-Mozilla Common Voice iyisinyathelo sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhulume kahle lo musho ongezansi?
 no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
@@ -32,6 +33,7 @@ join-newsletter = Joyina ngokuzikhethela ohlwini lwethu lwe-imeyili ukuze uthole
 ## What's public
 
 recordings-and-locale-public = Inombolo yokurekhodwa nokuthi iziphi izilimi onikela kuzo kuzoba sesidlangalaleni.
+username-email-not-demographic = Igama olisebenzisayo kanye ne-imeyili yakho ngeke zihlotshaniswe nedatha eshicilelwe.
 
 ## Speak & Listen Shortcuts
 
@@ -96,6 +98,7 @@ about-playbook-how-add-sentences-content-4 = Imisho eqinisekisiwe ithunyelwa nga
 
 ## How to record quality
 
+about-playbook-how-record-content-2 = Gwema umsindo omningi wangemuva - kufanele kube lula ukukuzwa.
 about-playbook-how-record-content-4 = Qiniseka ukuthi inkundla iyarekhoda ngaphambi kokuthi uqale ukukhuluma, nokuthi iyama kuphela uma usuqedile.
 
 ## How to grow language
@@ -128,6 +131,7 @@ data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamaz
 datasets-headline = Sakha umthombo ovulekile, isethi yedatha yezilimi eziningi yamazwi noma ubani angayisebenzisa ukuze aqeqeshe izinhlelo zokusebenza ezikwazi ukukhuluma.
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukucacisa ukuthi ungubani izikhulumi kudathasethi yeCommon Voice
 want-dataset-update = Ufuna izibuyekezo uma sikhipha inguqulo entsha yedathasethi yeCommon Voice? Bhalisela iphephandaba lethu.
+resource-nemo-info = I-<githubLink>NVIDIA NeMo</githubLink>™ iyi-<docsLink>ikhithi yamathuluzi yomthombo ovulekile</docsLink> yabacwaningi abakha amamodeli e-AI engxoxo esezingeni eliphezulu.
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> inikezelwe ekuvuleni ubuchwepheshe benkulumo. Amaphrojekthi abo ahlanganisa ukufunda okujulile okusekelwe ku-STT kanye nezinjini ze-TTS.
 resource-playbook-info = <playbookLink>Thola isiqondiso esiwusizo</playbookLink> kulo lonke uhambo lwe-Common Voice, kusukela ekwenzeni okwasendaweni kuya ekusetshenzisweni kwedathasethi, kanye nendlela yokuxhumana nomphakathi wethu.
 data-other-librispeech-description = I-LibriSpeech iyikhophasi cishe yamahora angu-1000 we-16Khz  yenkulumo yesiNgisi efundiwe ethathwe kuma-audiobook afundiwe kusukela kuphrojekthi ye-LibriVox.
@@ -186,6 +190,11 @@ visibility-overlay-note = Qaphela: Uma kusethelwe kokuthi 'Kuyabonakala', lesi s
 
 ## Custom Goals
 
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Siza iCommon Voice ifinyelele { $hours } ihora
+       *[other] { $hours } amahora ngolimi olunomgomo womuntu siqu
+    }
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] { $totalHours } ihora
@@ -278,6 +287,7 @@ sc-howto-findpd-tips-3 = Ngeshwa asikwazi ukuba nezindatshana ze-Wikimedia okwam
 ## ADD
 
 sc-submit-confirm = Ngiyaqinisekisa ukuthi le misho <wikipediaLink>yisizinda somphakathi</wikipediaLink> futhi nginemvume yokuyilayisha.
+sc-submit-filtered = Imisho ehlungiwe ngenxa yokwehluleka kwezidingo (sicela uhambise izinguqulo ezilungisiwe njengemisho emisha):
 
 ## ADD LANGUAGE
 
@@ -337,6 +347,14 @@ sc-criteria-item-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize 
 ## REVIEW
 
 sc-review-lang-not-selected = Awukhethanga noma yiziphi izilimi. Sicela uye <profileLink>Iphrofayela</profileLink> yakho ukuze ukhethe izilimi.
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ayikho imisho ebuyekeziwe.
+        [one] umusho ongu-1 ubuyekeziwe. Ngiyabonga!
+       *[other] { $sentences } ibuyekeziwe. Ngiyabonga!
+    }
 
 ## SETTINGS
 
