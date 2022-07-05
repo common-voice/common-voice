@@ -173,6 +173,7 @@ goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -
 
 ## HOW-TO
 
+sc-howto-cite-item-2 = Ungasebenzisa indlela yokutlola yefundo ephakamileko isb. Harvard style "Mozilla (2021) Common Voice. Efumaneka ku-https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 sc-howto-cite-item-3 = Bona ufumane umtlolo ongekho ku-inthanethi, ungasebenzisa indlela yokutlola isb. Harvard style " Jess (2021) Ilayisensami yeenkondlo zophakathi"
 
 ## MY SENTENCES
