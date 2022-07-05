@@ -16,6 +16,8 @@
 
 ## Home Page
 
+no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
+speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
 
 ## Account Benefits
 
@@ -53,6 +55,7 @@
 ## How does it work section
 
 about-stay-in-touch-text-1 = <emailFragment>Bhalisa</emailFragment> ohlwini lwethu lwama-imeyili ukuze ufunde ukuthi ungaba nengxenye kanjani emikhankasweni, imicimbi kanye nezici zokuklama ngokuhlanganyela ku-Common Voice.
+about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi lwe-Mozilla ngokujoyina <discourseLink>Discourse</discourseLink> yezingxoxo zezihloko, noma <matrixLink>Matrix</matrixLink> ukuze uthole iseluleko esisheshayo.
 
 ## Community Playbook Content
 ## What is a language
@@ -94,6 +97,7 @@ about-stay-in-touch-text-1 = <emailFragment>Bhalisa</emailFragment> ohlwini lwet
 ## Datasets Page
 
 resource-playbook-info = <playbookLink>Thola isiqondiso esiwusizo</playbookLink> kulo lonke uhambo lwe-Common Voice, kusukela ekwenzeni okwasendaweni kuya ekusetshenzisweni kwedathasethi, kanye nendlela yokuxhumana nomphakathi wethu.
+data-other-librispeech-description = I-LibriSpeech iyikhophasi cishe yamahora angu-1000 we-16Khz  yenkulumo yesiNgisi efundiwe ethathwe kuma-audiobook afundiwe kusukela kuphrojekthi ye-LibriVox.
 
 ## Download Modal
 
@@ -174,7 +178,9 @@ goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#Co
 
 ## HOW-TO
 
+sc-howto-cite-item-2 = Ungasebenzisa isitayela sereferensi yezemfundo, isb isitayela sase-Harvard "Mozilla (2021) Common Voice. Itholakala ku https://commonvoice.mozilla.org/ (Kufinyelelwe: 15th September 2021)"
 sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-inthanethi, ungasebenzisa isitayela sereferensi yezemfundo isb isitayela saseHarvard "Jess (2021) Izinkondlo Zami Zelayisensi Yomphakathi"
+sc-howto-findpd-tips-1 = Imithombo engcono kakhulu ongayibheka amaphodikasti, okulotshiweyo, imibhalo yamamuvi nanoma yini engaba khona ingaqukatha izingxoxo zansuku zonke.
 
 ## MY SENTENCES
 
@@ -205,6 +211,14 @@ sc-confirm-uploading = Imisho iyalayishwa. Lokhu kungathatha imizuzu embalwa kuy
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Ayikho imisho esele ukuthi uyibuyekeze.
+        [one] umusho ongu-1 osele ukuthi uwubuyekeze.
+       *[other] { $unreviewedSentencesByYou } imisho esele ukuthi uyibuyekeze.
+    }
 
 ## LOGIN
 
