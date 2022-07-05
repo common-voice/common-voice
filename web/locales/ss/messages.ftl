@@ -305,6 +305,7 @@ avatar = Sitfombe
 goals = Imigomo
 settings = Settings
 edit-profile = Lungisa likhasi lelichaza kabanti ngawe
+profile-create-success = Imphumelelo, likhasi lelichaza kabanti ngawe lakhekile!
 profile-close = Vala
 accept-privacy-title = Umgomo wekugcina tindzaba tiyimfihlo.
 login-identity = Login Identity
@@ -312,6 +313,7 @@ login-signup = Ngena / Bhalisa
 email-subscriptions = Lababhalise ngeliposi lembane
 download-profile = Download My Data
 contribution-experience = Sipiliyoni sekulekelela
+skip-submission-feedback = Yeca umbiko wekumikisa
 off = Valiwe
 on = Vuliwe
 
@@ -330,6 +332,7 @@ add-language = Ngeta Lulwimi
 ## FAQ
 
 faq-title = Imibuto levame kubutwa
+faq-using-cv = Kusebentisa Common Voice
 faq-search-for-answers =
     .label = Phenya timphendvulo
 
@@ -364,6 +367,7 @@ about-nav-get-involved = Hlanganyela
 
 ## How do I add a language
 
+about-playbook-how-add-language-translating-heading = Sisahumusha lelikhasi
 about-playbook-how-add-language-collecting-sentences-heading = Kukweleka imisho
 
 ## How does localization work
@@ -389,6 +393,7 @@ about-playbook-how-grow-language-content-6 = Kubambisana nekuchumana
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-5 = Linani nekunconywa
 about-playbook-how-project-governance-content-6 = Kwetsembeka lokufananako.
 
 ## Glossary
@@ -430,6 +435,7 @@ review-delete-recordings = Yesula ticephu tami latitfwebuliwe
 datasets-heading = Datasets
 # File size in gigabytes
 size = Linani
+validated-hr-total = Linani la Hr. lelicinisekisiwe
 overall-hr-total = Sekukonkhe kwa Hr.
 cv-license = License
 audio-format = Audio Format
@@ -507,6 +513,7 @@ record-platform-not-supported-desktop = { "" }
 record-no-mic-found = Kute umbhobho lotfolakele.
 record-cancel = Yekela kutfwebula kabusha
 record-stop-instruction = { $actionType }<stopIcon></stopIconuma> socedzile
+record-three-more-instruction = Kusele lamatsatfu!
 record-last-instruction = <recordIcon></recordIcon>Kekugcina!
 share-clip = Yaba sicephu sakho lesitfwebuliwe
 share-common-voice = Yaba Common Voice
@@ -524,6 +531,7 @@ target-segment-learn-more = Fundza Kabanti
 ## Reporting
 
 report = Bika
+report-title = Mikisa umbiko
 report-offensive-language = Lulwimi lolucasulako
 report-different-language = Lulwimi lolwehlukile
 report-difficult-pronounce = Kulukhuni kuyisho
@@ -540,6 +548,7 @@ streaks = Streaks
 ## Dashboard
 
 your-languages = Tilwimi Takho
+toward-next-goal = Kuye egolini lelilandzelako
 goal-reached = Ligoli lifezekile
 clips-you-recorded = Ticeshana lotiftwebulile
 clips-you-validated = Ticeshana Loticinisekisile
@@ -554,6 +563,7 @@ validated-clips = Leticinisikesiwe Ticephu
 total-approved = Lokuvunyiwe sekukonkhe
 overall-accuracy = Overall Accuracy
 set-visibility = Setha kubonakala kwami
+show-ranking = Khombisa sigaba sami
 
 ## Custom Goals
 
@@ -576,6 +586,7 @@ confirm-goal = Cinisekisa umgomo
 goal-interval-weekly = Ngemaviki
 share-goal-type-speak = Lokhulumako
 share-goal-type-listen = Ulalele
+share-goal-type-both = Kukhuluma nekulalela
 share-goal = Yaba ligoli lami
 
 ## Profile Delete
@@ -629,6 +640,7 @@ demo-listen-subtitle = Ulungele kulekelela?
 ## Validation criteria
 
 contribution-criteria-nav = Luhla
+contribution-criteria-link = Condzisisa luhla lwekulekelela
 contribution-criteria-page-title = Luhla lwekulekelela
 contribution-for-example = kubekisa
 contribution-misreadings-title = Lokufundvwe kabi
@@ -659,6 +671,7 @@ sc-header-statistics = Tibalo
 sc-header-profile = Likhasi lelichaza kabanti ngawe
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Report Bugs
+sc-footer-translate = Humusha lelikhasi
 sc-footer-report-copyright = Bika tinkinga tema copyright
 sc-footer-privacy = Lokuyimfihlo
 sc-footer-terms = Imigomo
