@@ -264,6 +264,8 @@ english = Singisi
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Ligama Lolisebentisako
 profile-form-native-language =
     .label = Lulwimi lwakini
 profile-form-additional-language =
@@ -321,7 +323,10 @@ add-language = Ngeta Lulwimi
 
 ## How does it work section
 
+about-localization-title = Kusondzetwa kwelikheli langcondvomshina
 about-sentence-collection-title = Kukolekwa kwemisho
+about-voice-contrib-title = Kulekelela ngelivi
+about-voice-validation-title = Kucinisekisa Livi
 about-dataset-release-title = Dataset Release
 about-subscribe-text = Bhalisa
 about-speak = Khuluma
@@ -455,6 +460,7 @@ language-speakers = Tikhulumi
 localized = Localized
 sentences = Imisho
 language-validation-hours = Emahora
+language-validation-progress = Inchubo yekucinisekisa
 
 ## Contribution
 
@@ -464,6 +470,7 @@ contribute = Nikela
 listen = Lalela
 skip = Yeca
 shortcuts = Tindlela tekujubelisa
+goal-help-recording = { "" }
 record-cta = Cala kutfwebula
 record-platform-not-supported-desktop = { "" }
 record-cancel = Yekela kutfwebula kabusha
@@ -501,6 +508,7 @@ everyone = Wonkhe muntfu
 contribution-activity = Imisebenti wekulekelela
 top-contributors = Labalekelele bahamba ephambili
 recorded-clips = Ticephu letitfwebuliwe
+validated-clips = Leticinisikesiwe Ticephu
 total-approved = Lokuvunyiwe sekukonkhe
 overall-accuracy = Overall Accuracy
 
@@ -508,6 +516,7 @@ overall-accuracy = Overall Accuracy
 
 both-speak-and-listen = Kokubili
 daily-goal = Umgomo welilanga
+weekly-goal = Ligoli leliviki
 easy-difficulty = Kumelula
 average-difficulty = Lokusemkhatsini
 difficult-difficulty = Kulikhuni
@@ -533,6 +542,7 @@ profile-form-delete = Yesula likhasi
 
 download-profile-title = Likhasi lelichaza kabanti ngawe
 download-recordings-title = Lokutfwebuliwe
+download-recordings-size = Typically megabytes
 download-size = Linani
 download-selected = Lokukhetsiwe
 download-request = Cela leticephu letitfwebuliwe
@@ -543,6 +553,7 @@ download-request-metadata-link = Imisho lemagama
 
 ## Landing
 
+welcome-staff = Siyanemukela { $company } tisebenti!
 
 ## DemoLayout
 
@@ -570,6 +581,7 @@ contribution-criteria-nav = Luhla
 contribution-criteria-page-title = Luhla lwekulekelela
 contribution-for-example = kubekisa
 contribution-misreadings-title = Lokufundvwe kabi
+contribution-varying-pronunciations-title = Tindlela tekukhuluma letehlukahlukene
 contribution-background-noise-title = Imisindvo lengemuva
 contribution-background-voices-title = Emavi langemuva
 contribution-volume-title = Linani lemsindvo
