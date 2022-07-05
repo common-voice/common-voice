@@ -1,5 +1,6 @@
 ## General
 
+email-opt-in-info = Ngingathanda ukuthola ama-imeyili afana nezikhumbuzi zemigomo, izibuyekezo zami zokuqhubeka nezincwadi zezindaba ezimayelana ne-Common Voice.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -48,6 +49,7 @@ speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha ida
 
 ## FAQ
 
+faq-do-want-native-q = Mina ngingumuntu ongeyena owomdabu futhi ngikhuluma ngendlela ehlukile, usafuna izwi lami?
 faq-what-quality-q = Iliphi izinga lekhwalithi yomsindo elidingekayo ukuze isiqeshana sezwi sisetshenziswe kudathasethi?
 faq-what-determine-identity-q = Kusho ukuthini ukuthi angikwazi “ukunquma ubunikazi” bezikhulumi kudathasethi yeCommon Voice?
 
