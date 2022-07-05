@@ -152,6 +152,7 @@ download-requests-info = Uma ucela okuqoshiwe kwakho, sikuhlanganisa kube ifayel
 
 ## Landing
 
+help-contribute = Ungasiza ukwakha isethi yedatha ehlukahlukene, yomthombo ovulekile ngokudala iphrofayela yeCommon Voice futhi unikele ngezwi lakho.
 
 ## DemoLayout
 
