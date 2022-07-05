@@ -255,11 +255,13 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Tfwebula/Mani
 shortcut-rerecord-toggle-label = Tfwebula kabusha sicephu
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Lahla sicephu lesisatfwebulwa
 shortcut-submit = Jika
 shortcut-submit-label = Mikisa ticeshana
 
 ## ProjectStatus
 
+status-contribute = Lekelela Ngelivi Lakho
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Next Goals: { $goal }
@@ -309,6 +311,7 @@ on = Vuliwe
 
 ## Profile - Email
 
+connect-gravatar = Connect with Gravatar
 avatar-uploaded = Avatar uploaded
 max-file-size = { $kb }kb max
 remove-avatar = Remove Avatar
@@ -336,6 +339,7 @@ about-speak = Khuluma
 about-listen-queue = Lidelezi lekulalela
 about-listen-queue-text = { "" }
 about-listen = Lalela
+about-dataset-new = Common Voice Dataset
 about-clip-graveyard = Clip Graveyard
 about-get-involved = Hlanganyela
 about-stay-in-touch-button = Bhalisa
@@ -404,6 +408,7 @@ terms-agree = Ngiyavuma
 review-recording = Buyeketa
 review-rerecord = Tfwebula kabusha
 review-cancel = Yekela kumiskisa
+review-delete-recordings = Yesula ticephu tami latitfwebuliwe
 
 ## Datasets Page
 
@@ -493,6 +498,7 @@ target-segment-learn-more = Fundza Kabanti
 report = Bika
 report-offensive-language = Lulwimi lolucasulako
 report-different-language = Lulwimi lolwehlukile
+report-difficult-pronounce = Kulukhuni kuyisho
 report-offensive-speech = Inkhulumo lecansulako
 report-other-comment =
     .placeholder = Phawula
@@ -507,7 +513,8 @@ streaks = Streaks
 
 your-languages = Tilwimi Takho
 goal-reached = Ligoli lifezekile
-clips-you-recorded = Ticeshana letiftwebuliwe
+clips-you-recorded = Ticeshana lotiftwebulile
+clips-you-validated = Ticeshana Loticinisekisile
 stats = Tibalo
 awards = Imiklomelo
 you = Wena
@@ -645,6 +652,8 @@ sc-my-submission = Kumikisa: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Umtfombo: { $source }
+sc-my-delete = Yesula imisho lekhetsiwe
+sc-my-deleting = Yesula imisho lekhetsiwe…
 
 ## REJECTED
 
@@ -670,6 +679,7 @@ sc-add-err-submission = Inkinga yekumikisa
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Cinisekisa Imisho Lemisha
 sc-confirm-button-text = Vuma
 
 ## LANGUAGE INFO
