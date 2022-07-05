@@ -16,6 +16,7 @@
 
 ## Home Page
 
+no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa usisize sivale isikhalesi ngokuthi urekhode okuthileko njenga nje.
 
 ## Account Benefits
 
@@ -94,6 +95,7 @@ about-stay-in-touch-text-1 = <emailFragment>Zitlolise ku</emailFragment> bona uf
 ## Datasets Page
 
 resource-playbook-info = <playbookLink>Fumana isinqophiso esilisizo</playbookLink> kilo loke ikhambo leCommon Voice, kusukela ekulumweni yendabuko, ukusebenzisa ihlelweli nokuthi ungathintana njani nomphakathethu.
+data-other-librispeech-description = I-LibriSpeech mitlolo engathatha pheze ama-awara ayi-1000 ye 16Khz efundwa ngelimi lesiNgisi ethethwe eencwadini ezirekhodiweko zehlelo le-LibriVox
 
 ## Download Modal
 
