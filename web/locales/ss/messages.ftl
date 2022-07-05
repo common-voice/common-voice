@@ -81,6 +81,8 @@ kbd = Kabardian
 ki = Kikuyu
 kk = Kazakh
 km = Khmer
+kmr = Kurmanji Kurdish
+knn = Konkani (Devanagari)
 ko = Sikhoriya
 kpv = Komi-Zyrian
 kw = Cornish
@@ -183,6 +185,8 @@ privacy = Lokuyimfihlo
 terms = Imigomo
 cookies = Cookies
 faq = FAQ
+link-copied = I-link Ikotjiwe
+logout = Phuma
 
 ## Home Page
 
@@ -247,6 +251,8 @@ profile-form-age =
     .label = Iminyaka yekutalwa
 profile-form-gender-2 =
     .label = Bulili
+leaderboard-visibility =
+    .label = Leaderboard Visibility
 hidden = Lokufihlakele
 visible = Kuyabonakala
 profile-form-submit-save = Gcina
@@ -342,6 +348,7 @@ error-code = Liphutsa { $code }
 
 data-download-yes = Yebo
 data-download-deny = Cha
+data-download-license = License: <licenseLink>CC-0</licenseLink>
 data-other-goto = Hamba ku { $name }
 data-other-download = Download Data
 release-version = Inhlobo
@@ -388,6 +395,7 @@ contact-required = *kudzingekile
 
 ## Request Language Modal
 
+request-language-title = Sicelo Selulwimi
 
 ## Request Language Pages
 
@@ -422,6 +430,7 @@ clips-uploaded = Ticephu leti-uploadiwe
 record-abort-continue = Cedza kutfwebula
 listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
 speak-empty-state-cta = Nikela imisho
+target-segment-learn-more = Fundza Kabanti
 
 ## Reporting
 
@@ -512,6 +521,7 @@ contribution-misreadings-title = Lokufundvwe kabi
 contribution-background-noise-title = Imisindvo lengemuva
 contribution-background-voices-title = Emavi langemuva
 contribution-volume-title = Linani lemsindvo
+contribution-just-unsure-title = Ute siciniseko?
 see-more = <chevron></chevron>Bona lokunengi
 see-less = <chevron></chevron>Bona lokuncane
 
@@ -584,6 +594,7 @@ sc-lang-info-review-now = <reviewLink>Buyeketa nyalo!</reviewLink>
 
 ## LOGIN
 
+sc-login-err-failed = Wehlulekile kungena
 
 ## PROFILE
 
@@ -597,6 +608,7 @@ sc-personal-remove-button = susa
 
 ## REVIEW
 
+sc-review-loading = Sisafaka imisho…
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Umtfombo: { $sentenceSource }
