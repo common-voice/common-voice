@@ -181,6 +181,7 @@ yi = Yiddish
 yo = Yoruba
 yue = Cantonese
 zh-CN = Chinese (China)
+zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
 zu = Si-Zulu
 
@@ -506,6 +507,7 @@ streaks = Streaks
 
 your-languages = Tilwimi Takho
 goal-reached = Ligoli lifezekile
+clips-you-recorded = Ticeshana letiftwebuliwe
 stats = Tibalo
 awards = Imiklomelo
 you = Wena
