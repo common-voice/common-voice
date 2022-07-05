@@ -34,6 +34,7 @@ bxr = Buryat
 ca = Catalan
 cak = Kaqchikel
 ckb = Central Kurdish
+cnh = Hakha Chin
 co = Corsican
 cs = Czech
 cv = Chuvash
@@ -57,6 +58,7 @@ fy-NL = Frisian
 ga-IE = Irish
 gl = Galician
 gn = Guarani
+gom = Goan Konkani
 ha = Hausa
 he = Hebheru
 hi = Hindi
@@ -96,6 +98,7 @@ ml = Malayalam
 mn = Mongolian
 mos = Mossi
 mr = Marathi
+mrj = Hill Mari
 ms = Malay
 mt = Maltese
 my = Burmese
@@ -253,7 +256,9 @@ build-profile = Yakha likhasi lelichaza kabanti ngawe
 avatar = Sitfombe
 goals = Imigomo
 settings = Settings
+edit-profile = Lungisa likhasi lelichaza kabanti ngawe
 profile-close = Vala
+email-subscriptions = Lababhalise ngeliposi lembane
 contribution-experience = Sipiliyoni sekulekelela
 off = Valiwe
 on = Vuliwe
@@ -282,7 +287,9 @@ about-listen-queue = Lidelezi lekulalela
 about-listen-queue-text = { "" }
 about-listen = Lalela
 about-clip-graveyard = Clip Graveyard
+about-get-involved = Hlanganyela
 about-nav-partners = Balingani
+about-nav-get-involved = Hlanganyela
 
 ## Community Playbook Content
 ## What is a language
@@ -329,6 +336,8 @@ error-code = Liphutsa { $code }
 
 data-download-yes = Yebo
 data-download-deny = Cha
+data-other-goto = Hamba ku { $name }
+data-other-download = Download Data
 release-version = Inhlobo
 dataset-date = Lusuku
 license = License: <licenseLink>{ $license }</licenseLink>
@@ -349,6 +358,7 @@ size-gigabyte = GB
 size-megabyte = MB
 download-language = Download { $language }
 subscribe = Bhalisa
+feedback-q = Unawo umbiko longasitjela wona?
 community-playbook = Bhukwana wemmango
 more = Lokunengi
 close = Vala
@@ -399,12 +409,14 @@ record-cancel = Yekela kutfwebula kabusha
 record-stop-instruction = { $actionType }<stopIcon></stopIconuma> socedzile
 record-last-instruction = <recordIcon></recordIcon>Kekugcina!
 clips-uploaded = Ticephu leti-uploadiwe
+record-abort-continue = Cedza kutfwebula
 listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
 speak-empty-state-cta = Nikela imisho
 
 ## Reporting
 
 report = Bika
+report-different-language = Lulwimi lolwehlukile
 report-other-comment =
     .placeholder = Phawula
 success = Imphumelelo
@@ -416,6 +428,7 @@ streaks = Streaks
 
 ## Dashboard
 
+goal-reached = Ligoli lifezekile
 stats = Tibalo
 awards = Imiklomelo
 you = Wena
@@ -445,6 +458,7 @@ share-goal-type-listen = Ulalele
 
 keep = Gcina
 remove = Susa
+profile-form-delete = Yesula likhasi
 
 ## Profile Download
 
@@ -454,6 +468,7 @@ download-size = Linani
 download-selected = Lokukhetsiwe
 download-request-button = Download
 download-request-refresh-button = Vuselela
+download-request-modal-title = Download Links
 
 ## Landing
 
@@ -482,6 +497,7 @@ demo-account-card-header = { "" }
 
 contribution-criteria-nav = Luhla
 contribution-criteria-page-title = Luhla lwekulekelela
+contribution-for-example = kubekisa
 contribution-misreadings-title = Lokufundvwe kabi
 contribution-background-noise-title = Imisindvo lengemuva
 contribution-background-voices-title = Emavi langemuva
@@ -582,6 +598,8 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = Cedza kubuyeketa
 sc-review-link = Buyeketa
 
 ## SETTINGS
