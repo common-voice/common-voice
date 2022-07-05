@@ -512,6 +512,7 @@ download-profile-title = Likhasi lelichaza kabanti ngawe
 download-recordings-title = Lokutfwebuliwe
 download-size = Linani
 download-selected = Lokukhetsiwe
+download-request = Cela leticephu letitfwebuliwe
 download-request-button = Download
 download-request-refresh-button = Vuselela
 download-request-modal-title = Download Links
