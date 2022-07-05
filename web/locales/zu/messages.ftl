@@ -1,6 +1,7 @@
 ## General
 
 email-opt-in-info = Ngingathanda ukuthola ama-imeyili afana nezikhumbuzi zemigomo, izibuyekezo zami zokuqhubeka nezincwadi zezindaba ezimayelana ne-Common Voice.
+email-opt-in-info-sub-with-challenge = Thola ama-imeyili afana nezikhumbuzi zenselele nezinjongo, izibuyekezo zenqubekelaphambili, nezincwadi zezindaba ezimayelana ne-Common Voice.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -41,6 +42,7 @@ speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha ida
 ## ProfileForm
 
 profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi usize idatha yethu yezwi inembe kakhulu.
+skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma noma Lalela ukuze ushintshe uhlobo lomnikelo.
 
 ## Profile - Email
 
@@ -52,6 +54,7 @@ profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi us
 
 faq-do-want-native-q = Mina ngingumuntu ongeyena owomdabu futhi ngikhuluma ngendlela ehlukile, usafuna izwi lami?
 faq-what-quality-q = Iliphi izinga lekhwalithi yomsindo elidingekayo ukuze isiqeshana sezwi sisetshenziswe kudathasethi?
+faq-why-not-ask-read-q = Kungani ungaceli abantu ukuthi bafunde ezincwadini noma izindatshana zeWikipedia ngezilimi ezahlukene?
 faq-what-determine-identity-q = Kusho ukuthini ukuthi angikwazi “ukunquma ubunikazi” bezikhulumi kudathasethi yeCommon Voice?
 
 ## ABOUT US
@@ -59,6 +62,7 @@ faq-what-determine-identity-q = Kusho ukuthini ukuthi angikwazi “ukunquma ubun
 
 ## How does it work section
 
+about-listen-text = Abasebenzisi baqinisekisa ukunemba kweziqeshana ezinikelwe, behlola ukuthi isikhulumi siwufunde kahle umusho.
 about-yes-votes-text = Ukwenza kube yidathasethi yeCommon Voice, isiqeshana sezwi kufanele siqinisekiswe ngabasebenzisi ababili abahlukene.
 about-dataset-new-text = Idathasethi yeCommon Voice iqukethe amakhulu ezinkulungwane zamasampuli ezwi asiza onjiniyela bakhe amathuluzi okwazi izwi.
 about-stay-in-touch-text-1 = <emailFragment>Bhalisa</emailFragment> ohlwini lwethu lwama-imeyili ukuze ufunde ukuthi ungaba nengxenye kanjani emikhankasweni, imicimbi kanye nezici zokuklama ngokuhlanganyela ku-Common Voice.
@@ -108,6 +112,7 @@ data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamaz
 ## Datasets Page
 
 datasets-headline = Sakha umthombo ovulekile, isethi yedatha yezilimi eziningi yamazwi noma ubani angayisebenzisa ukuze aqeqeshe izinhlelo zokusebenza ezikwazi ukukhuluma.
+confirm-no-identify = <b>Uyavuma</b> ukungazami ukucacisa ukuthi ungubani izikhulumi kudathasethi yeCommon Voice
 want-dataset-update = Ufuna izibuyekezo uma sikhipha inguqulo entsha yedathasethi yeCommon Voice? Bhalisela iphephandaba lethu.
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> inikezelwe ekuvuleni ubuchwepheshe benkulumo. Amaphrojekthi abo ahlanganisa ukufunda okujulile okusekelwe ku-STT kanye nezinjini ze-TTS.
 resource-playbook-info = <playbookLink>Thola isiqondiso esiwusizo</playbookLink> kulo lonke uhambo lwe-Common Voice, kusukela ekwenzeni okwasendaweni kuya ekusetshenzisweni kwedathasethi, kanye nendlela yokuxhumana nomphakathi wethu.
@@ -229,6 +234,7 @@ contribution-background-voices-description-extended = Uma ukurekhodwa kunqamuka,
 
 ## GENERAL
 
+sc-languages-fetch-error = Sehlulekile ukulanda izilimi ezitholakalayo. Iminikelo ayinakwenzeka okwamanje. Sicela uzame futhi emuva kwesikhathi.
 
 ## HOW-TO
 
@@ -267,6 +273,9 @@ sc-confirm-already-reviewed =
         [one] umusho ongu-1 usuvele ubuyekeziwe. Umsebenzi omuhle!
        *[other] imisho engu-{ $countOfReviewed } isivele ibuyekeziwe. Umsebenzi omuhle!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = Imisho engu-{ $countOfUnreviewed } ayibuyekeziwe. Uma ufuna, ungabuyekeza nemisho yakho manje ngaphambi kokuyihambisa.
 sc-confirm-uploading = Imisho iyalayishwa. Lokhu kungathatha imizuzu embalwa kuya ngenani lemisho eyengeziwe. Sicela ungayivali le webhusayithi.
 
 ## LANGUAGE INFO
