@@ -664,6 +664,7 @@ sc-howto-review-title = Buyeketa imisho
 
 sc-my-title = Imisho Yami
 sc-my-loading = Sifaka imisho yakho...
+sc-my-no-sentences = Kute imisho letfolakele!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Kumikisa: { $batchId }
