@@ -99,6 +99,7 @@ data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamaz
 
 resource-playbook-info = <playbookLink>Thola isiqondiso esiwusizo</playbookLink> kulo lonke uhambo lwe-Common Voice, kusukela ekwenzeni okwasendaweni kuya ekusetshenzisweni kwedathasethi, kanye nendlela yokuxhumana nomphakathi wethu.
 data-other-librispeech-description = I-LibriSpeech iyikhophasi cishe yamahora angu-1000 we-16Khz  yenkulumo yesiNgisi efundiwe ethathwe kuma-audiobook afundiwe kusukela kuphrojekthi ye-LibriVox.
+your-feedback = Ingabe unayo imibono yokuthi singayenza kanjani idathasethi ye-Common Voice ibe ngcono? Sazise ku-Discourse
 
 ## Download Modal
 
@@ -116,6 +117,10 @@ request-language-explanation-2 =
     Sizokwazisa <strong>nomphathi wethu womphakathi
     ukuthi unentshisekelo</strong>, ngakho bangakunikeza noma ikuphi
     ukwesekwa okwengeziwe noma ulwazi ongase uludinge.
+request-language-success-list-3 =
+    Uma ungezwa ngathi ezinsukwini ezimbalwa,
+    finyelela ku-<emailLink>{ $email }</emailLink>
+    futhi sizobuyela kuwe!
 
 ## Languages Overview
 
@@ -164,6 +169,8 @@ download-requests-info = Uma ucela okuqoshiwe kwakho, sikuhlanganisa kube ifayel
 
 ## Validation criteria
 
+contribution-background-noise-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
+contribution-background-voices-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -210,6 +217,12 @@ sc-add-result =
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Awukho umusho osuvele ubuyekeziwe.
+        [one] umusho ongu-1 usuvele ubuyekeziwe. Umsebenzi omuhle!
+       *[other] imisho engu-{ $countOfReviewed } isivele ibuyekeziwe. Umsebenzi omuhle!
+    }
 sc-confirm-uploading = Imisho iyalayishwa. Lokhu kungathatha imizuzu embalwa kuya ngenani lemisho eyengeziwe. Sicela ungayivali le webhusayithi.
 
 ## LANGUAGE INFO
