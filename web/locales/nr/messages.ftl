@@ -77,6 +77,7 @@ about-playbook-how-record-content-4 = Yenza isiqiniseko sokobana ihlelo liyarekh
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-8 = <strong>Yiba sikghwari!</strong> Ilimi elikhulunywa mphakathi wangekhenu lizokuhluka begodu nanzi iindlela ezimbalwa zokuthoma.
 
 ## How to validate
 
