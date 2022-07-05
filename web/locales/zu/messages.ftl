@@ -56,6 +56,7 @@ faq-do-want-native-q = Mina ngingumuntu ongeyena owomdabu futhi ngikhuluma ngend
 faq-what-quality-q = Iliphi izinga lekhwalithi yomsindo elidingekayo ukuze isiqeshana sezwi sisetshenziswe kudathasethi?
 faq-why-not-ask-read-q = Kungani ungaceli abantu ukuthi bafunde ezincwadini noma izindatshana zeWikipedia ngezilimi ezahlukene?
 faq-what-determine-identity-q = Kusho ukuthini ukuthi angikwazi “ukunquma ubunikazi” bezikhulumi kudathasethi yeCommon Voice?
+faq-description = I-Common Voice iyingxenye yesinyathelo se-Mozilla sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 
 ## ABOUT US
 
@@ -198,6 +199,7 @@ download-requests-info = Uma ucela okuqoshiwe kwakho, sikuhlanganisa kube ifayel
 ## Landing
 
 help-contribute = Ungasiza ukwakha isethi yedatha ehlukahlukene, yomthombo ovulekile ngokudala iphrofayela yeCommon Voice futhi unikele ngezwi lakho.
+profile-not-required = Ukuba nephrofayela akudingekile ukuthi unikele nakuba kusiza, bona ukuthi kungani ngezansi.
 
 ## DemoLayout
 
@@ -253,6 +255,7 @@ sc-howto-findpd-tips-1 = Imithombo engcono kakhulu ongayibheka amaphodikasti, ok
 
 ## ADD
 
+sc-submit-confirm = Ngiyaqinisekisa ukuthi le misho <wikipediaLink>yisizinda somphakathi</wikipediaLink> futhi nginemvume yokuyilayisha.
 
 ## ADD LANGUAGE
 
