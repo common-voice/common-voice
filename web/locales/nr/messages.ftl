@@ -73,12 +73,14 @@ about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngo
 
 ## How to record quality
 
+about-playbook-how-record-content-4 = Yenza isiqiniseko sokobana ihlelo liyarekhoda ngaphambi kobana uthome ukukhuluma begodu liyajama nawuqedako.
 
 ## How to grow language
 
 
 ## How to validate
 
+about-playbook-how-validate-content-4 = Nange okurekhodiweko kwaliwa babantu aba-2, kukhutjhwa ngomunye umhlobo webulungelo.
 
 ## How to access dataset
 
