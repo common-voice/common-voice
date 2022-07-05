@@ -54,6 +54,7 @@ speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekile
 
 ## How does it work section
 
+about-yes-votes-text = Bona uphumelele ukungena ehlelweni le-Common Voice iphimbo kufuze liphasiswe babantu ababili abahlukileko.
 about-stay-in-touch-text-1 = <emailFragment>Zitlolise ku</emailFragment> bona ufunde ukuthi ungasifaka njani isandla emajimeni, ezenzakalweni nokuthuthukisa ubujamo be-Common Voice.
 about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngokuthi ungene<discourseLink>Ebulungelweni</discourseLink> bona nikhulumisane ngeenhloko ezithileko namkha <matrixLink>Ubuhlanga</matrixLink> bona ufumane isiyeleliso ngokurhabako.
 
@@ -101,6 +102,8 @@ data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiw
 
 resource-playbook-info = <playbookLink>Fumana isinqophiso esilisizo</playbookLink> kilo loke ikhambo leCommon Voice, kusukela ekulumweni yendabuko, ukusebenzisa ihlelweli nokuthi ungathintana njani nomphakathethu.
 data-other-librispeech-description = I-LibriSpeech mitlolo engathatha pheze ama-awara ayi-1000 ye 16Khz efundwa ngelimi lesiNgisi ethethwe eencwadini ezirekhodiweko zehlelo le-LibriVox
+data-other-voxforge-description = IVoForge yahlonywa bona kubuthelelwe ikulumo etlolwe phasi bona isetjenziswe Ngokutjhaphulukileko.
+your-feedback = Kghani unemibono yokuthi singayithuthukisa njani i-Common Voice siyenze ibengcono? Ungasazisa ngokusitlolela namkha ngenye indlela
 
 ## Download Modal
 
@@ -119,6 +122,7 @@ request-language-success-list-3 =
     "Nange ungezwa litho elivela kithi bekudlule amalangana, 
     yenza ilandelela ku <emailLink>{ $email }</emailLink> 
     sizokubuyela kuwe!"
+request-language-error = Kungenzeka asikasifumani isibaweso. Sibawa usithumele i-email bunqopha ku <emailLink>{ $email }</emailLink> sizokubuyela kuwe!
 
 ## Languages Overview
 
@@ -137,6 +141,7 @@ request-language-success-list-3 =
 
 ## Custom Goals
 
+not-receiving-emails-info = Okwanje ufakwe ku-<bold>INGASI</bold> bona wamukele ama-email ngehloso yokukukhumbuza, ukukwazisa ngetuthuko neendaba ezimalungana ne-Common Voice
 # LINK will be replaced with the current URL
 goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -- sebenzisana nami sifundise imitjhini ukuthi abantu bamambala bakhuluma njani { $link }
 
@@ -149,6 +154,7 @@ download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufa
 
 ## Landing
 
+help-contribute = Ungasiza ngemininingwana ehlukahlukeneko ekuthuthukiseni i-Common Voice begodu unikele nangephimbo lako.
 
 ## DemoLayout
 
@@ -167,6 +173,7 @@ download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufa
 
 ## Validation criteria
 
+contribution-criteria-page-description = Zwisisa bona khuyini okufuze ukutjheje nawulalele iinqetjhana ezirekhodiweko begodu usize ekwenzeni okurekhodileko kunothe!
 contribution-background-noise-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kusuze ngaphandle kwalokha okhunye kuzwakala.
 contribution-background-voices-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kususe ngaphandle kwalokha okhunye kuzwakala.
 
