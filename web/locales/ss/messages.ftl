@@ -189,6 +189,8 @@ vote-yes = Yebo
 vote-no = Cha
 speak-goal-text = Ticephu letiftwebuliwe
 listen-goal-text = Ticephu leticinisikesiwe
+hours-recorded = Emahora latfwebuliwe
+hours-validated = Emahora lacinisekisiwe
 all-locales = Konkhe
 today = Namuhla
 
@@ -357,6 +359,7 @@ splits = Kuhlukana
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Download { $language }
+recorded-hours = Latfwebuliwe emahora
 subscribe = Bhalisa
 feedback-q = Unawo umbiko longasitjela wona?
 community-playbook = Bhukwana wemmango
