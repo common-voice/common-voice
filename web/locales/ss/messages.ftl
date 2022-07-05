@@ -5,6 +5,7 @@ email-input =
 submit-form-action = Mikisa
 loading = Loading…
 not-available-abbreviation = N/A
+banner-error-slow-link = Lukasi lenchubo
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -41,6 +42,7 @@ cv = Chuvash
 cy = Welsh
 da = Danish
 de = Sijalimane
+dsb = Sorbian, Lower
 dv = Dhivehi
 dyu = Dioula
 el = Si-Greek
@@ -63,6 +65,7 @@ ha = Hausa
 he = Hebheru
 hi = Hindi
 hr = Si-Croatia
+hsb = Sorbian, Upper
 ht = Haitian
 hu = Hungarian
 hy-AM = Armenian
@@ -107,6 +110,7 @@ ms = Malay
 mt = Maltese
 my = Burmese
 myv = Erzya
+nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
 nd = IsiNdebele (North)
 ne-NP = Nepali
@@ -143,6 +147,7 @@ so = Somali
 sq = Albanian
 sr = Serbian
 ss = Siswati
+st = Southern Sotho
 sv-SE = Swedish
 sw = Swahili
 syr = Syriac
@@ -155,6 +160,7 @@ tig = Tigre
 tk = Turkmen
 tl = Tagalog
 tn = Setswana
+tok = Toki Pona
 tr = Turkish
 ts = Xitsonga
 tt = Tatar
@@ -184,6 +190,7 @@ zu = Si-Zulu
 ## Layout
 
 speak = Khuluma
+speak-now = Khuluma nyalo
 datasets = Datasets
 languages = Tilwimi
 about = Mayelana
@@ -207,6 +214,7 @@ speak-goal-text = Ticephu letiftwebuliwe
 listen-goal-text = Ticephu leticinisikesiwe
 hours-recorded = Emahora latfwebuliwe
 hours-validated = Emahora lacinisekisiwe
+todays-progress = Inchubo Yanamuhla
 all-locales = Konkhe
 today = Namuhla
 
@@ -245,6 +253,7 @@ shortcut-record-toggle-label = Tfwebula/Mani
 shortcut-rerecord-toggle-label = Tfwebula kabusha sicephu
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Jika
+shortcut-submit-label = Mikisa ticeshana
 
 ## ProjectStatus
 
@@ -321,6 +330,7 @@ about-listen-queue-text = { "" }
 about-listen = Lalela
 about-clip-graveyard = Clip Graveyard
 about-get-involved = Hlanganyela
+about-stay-in-touch-button = Bhalisa
 about-nav-why-common-voice = Leni ?
 about-nav-how-it-works = Kanjani ?
 about-nav-partners = Balingani
@@ -346,6 +356,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Kukweleka imisho
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Imicimbi
+about-playbook-how-grow-language-content-4 = Tinkhundla tekuchumana
 
 ## How to validate
 
@@ -363,6 +374,7 @@ glossary = Luhla lwemagama
 localization = Localization
 localization-explanation = { "" }
 sentence-collection = Kukolekwa kwemisho
+sst = Inkhulumo iyiswa emagameni (STT)
 de-identified = Kususwe imininingwane yemniyo
 
 ## Error pages
@@ -401,6 +413,7 @@ recorded-hours = Latfwebuliwe emahora
 subscribe = Bhalisa
 feedback-q = Unawo umbiko longasitjela wona?
 community-playbook = Bhukwana wemmango
+data-other-ted-name = TED-LIUM Corpus
 more = Lokunengi
 close = Vala
 download = Download
@@ -451,11 +464,13 @@ contribute = Nikela
 listen = Lalela
 skip = Yeca
 shortcuts = Tindlela tekujubelisa
+record-cta = Cala kutfwebula
 record-platform-not-supported-desktop = { "" }
 record-cancel = Yekela kutfwebula kabusha
 record-stop-instruction = { $actionType }<stopIcon></stopIconuma> socedzile
 record-last-instruction = <recordIcon></recordIcon>Kekugcina!
 clips-uploaded = Ticephu leti-uploadiwe
+record-abort-submit = Mikisa ticeshana
 record-abort-continue = Cedza kutfwebula
 listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
 speak-empty-state-cta = Nikela imisho
@@ -484,7 +499,9 @@ awards = Imiklomelo
 you = Wena
 everyone = Wonkhe muntfu
 contribution-activity = Imisebenti wekulekelela
+top-contributors = Labalekelele bahamba ephambili
 recorded-clips = Ticephu letitfwebuliwe
+total-approved = Lokuvunyiwe sekukonkhe
 overall-accuracy = Overall Accuracy
 
 ## Custom Goals
@@ -522,6 +539,7 @@ download-request = Cela leticephu letitfwebuliwe
 download-request-button = Download
 download-request-refresh-button = Vuselela
 download-request-modal-title = Download Links
+download-request-metadata-link = Imisho lemagama
 
 ## Landing
 
@@ -625,6 +643,7 @@ sc-submit-button =
 ## ADD LANGUAGE
 
 sc-add-lang-sec-button = Ngeta Lulwimi
+sc-add-err-submission = Inkinga yekumikisa
 
 ## ADD SENTENCES CONFIRMATION
 
