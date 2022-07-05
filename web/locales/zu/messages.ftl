@@ -52,6 +52,7 @@
 
 ## How does it work section
 
+about-stay-in-touch-text-1 = <emailFragment>Bhalisa</emailFragment> ohlwini lwethu lwama-imeyili ukuze ufunde ukuthi ungaba nengxenye kanjani emikhankasweni, imicimbi kanye nezici zokuklama ngokuhlanganyela ku-Common Voice.
 
 ## Community Playbook Content
 ## What is a language
@@ -127,6 +128,8 @@ request-language-explanation-2 =
 
 ## Custom Goals
 
+# LINK will be replaced with the current URL
+goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#CommonVoice -- ngijoyine futhi usize ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani { $link }
 
 ## Profile Delete
 
@@ -171,6 +174,7 @@ request-language-explanation-2 =
 
 ## HOW-TO
 
+sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-inthanethi, ungasebenzisa isitayela sereferensi yezemfundo isb isitayela saseHarvard "Jess (2021) Izinkondlo Zami Zelayisensi Yomphakathi"
 
 ## MY SENTENCES
 
