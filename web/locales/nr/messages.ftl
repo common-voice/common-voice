@@ -49,7 +49,7 @@ speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekile
 
 ## FAQ
 
-faq-do-want-native-q = Leli akusililimi engilimunyileko kodwana ngilikhuluma kuhle. Nisalifuna iphimbo lami?
+faq-do-want-native-q = Leli akusililimi engilimunyileko begodu kuyezwakala lokho nangikhulumako. Nisalifuna iphimbo lami?
 faq-what-quality-q = Okurekhodiweko kufuze kube kiliphi izinga bona iphimbo lisetjenziswe ebulungelweni?
 faq-what-determine-identity-q = Kutjho ukuthini ukuthi "angikghoni ukwazi bona ngubani okhulumako" ebulungelweni leCommon Voice
 
@@ -109,8 +109,10 @@ data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiw
 
 datasets-headline = Sakha umthombo wawo woke umuntu, amaphimbo wamalimi ahlukahlukeneko angasetjenziswa nginanyana ngubani bona azifundise ikulumo eyamukelekako.
 want-dataset-update = Ufuna sikwazise nasikhupha ihlelo elitjha leCommon Voice? Zitlolise engcenyenethu yeendaba.
+resource-coqui-info = I-<coquiLink>Coqui</coquiLink> izibophezele ukuvula ihlelo letheknoloji lokukhuluma. Amahlelwabo ahlanganisa ifundo engeneleleko STT ne TTS.
 resource-playbook-info = <playbookLink>Fumana isinqophiso esilisizo</playbookLink> kilo loke ikhambo leCommon Voice, kusukela ekulumweni yendabuko, ukusebenzisa ihlelweli nokuthi ungathintana njani nomphakathethu.
 data-other-librispeech-description = I-LibriSpeech mitlolo engathatha pheze ama-awara ayi-1000 ye 16Khz efundwa ngelimi lesiNgisi ethethwe eencwadini ezirekhodiweko zehlelo le-LibriVox
+data-other-ted-description = I-TED-LIUM yenziwe ithathelwa eenkulumweni ezigadangisiweko begodu okutloliweko kuyafumaneka kuzinzolwazi yeTED.
 data-other-voxforge-description = IVoForge yahlonywa bona kubuthelelwe ikulumo etlolwe phasi bona isetjenziswe Ngokutjhaphulukileko.
 your-feedback = Kghani unemibono yokuthi singayithuthukisa njani i-Common Voice siyenze ibengcono? Ungasazisa ngokusitlolela namkha ngenye indlela
 
@@ -127,6 +129,7 @@ request-language-success-content = Sizokubuya nemininingwana engeziweko emalunga
 ## Request Language Pages
 
 request-language-explanation-2 = Sizokubuye <strong>sakwazisa  nomphathi womphakathethu ukuthi unekareko</strong>, ukwenzela bona bakunikele nanyana ngiliphi isekelo elengeziweko nelwazi okungenzeka ulitlhoge.
+request-language-success-list-1 = Uzokufumana i-email kungasikade ezokuhlathululela ngamagadango okufuze uwathathe bona ilimi lakho lifakwe ku-Common Voice
 request-language-success-list-3 =
     "Nange ungezwa litho elivela kithi bekudlule amalangana, 
     yenza ilandelela ku <emailLink>{ $email }</emailLink> 
@@ -135,6 +138,7 @@ request-language-error = Kungenzeka asikasifumani isibaweso. Sibawa usithumele i
 
 ## Languages Overview
 
+language-section-in-progress-new-description = Umphakathi usawathuthukisa amalimi la. <localizationGlossaryLink>Izinzolwazi yelocalization</localizationGlossaryLink> begodu <sentenceCollectionGlossaryLink>kutlhogeka imitjho</sentenceCollectionGlossaryLink> bona afakwe ngokusemthethweni.
 
 ## Contribution
 
