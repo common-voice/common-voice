@@ -21,6 +21,7 @@ email-opt-in-info-sub-with-challenge = Thola ama-imeyili afana nezikhumbuzi zens
 ## Home Page
 
 default-tagline = I-Mozilla Common Voice iyisinyathelo sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
+help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhulume kahle lo musho ongezansi?
 no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
 
@@ -30,6 +31,7 @@ join-newsletter = Joyina ngokuzikhethela ohlwini lwethu lwe-imeyili ukuze uthole
 
 ## What's public
 
+recordings-and-locale-public = Inombolo yokurekhodwa nokuthi iziphi izilimi onikela kuzo kuzoba sesidlangalaleni.
 
 ## Speak & Listen Shortcuts
 
@@ -70,7 +72,9 @@ faq-description = I-Common Voice iyingxenye yesinyathelo se-Mozilla sokusiza uku
 
 ## How does it work section
 
+about-listen-queue-text = Iziqeshana zezwi zifakwa emugqeni wokuhambisa ozilungiselela ukulalelwa.
 about-listen-text = Abasebenzisi baqinisekisa ukunemba kweziqeshana ezinikelwe, behlola ukuthi isikhulumi siwufunde kahle umusho.
+about-is-it-valid-text = Isiqeshana sezwi simakwa ngokuthi "sivumelekile" uma umsebenzisi esinikeza ivoti likaYebo.
 about-yes-votes-text = Ukwenza kube yidathasethi yeCommon Voice, isiqeshana sezwi kufanele siqinisekiswe ngabasebenzisi ababili abahlukene.
 about-dataset-new-text = Idathasethi yeCommon Voice iqukethe amakhulu ezinkulungwane zamasampuli ezwi asiza onjiniyela bakhe amathuluzi okwazi izwi.
 about-stay-in-touch-text-1 = <emailFragment>Bhalisa</emailFragment> ohlwini lwethu lwama-imeyili ukuze ufunde ukuthi ungaba nengxenye kanjani emikhankasweni, imicimbi kanye nezici zokuklama ngokuhlanganyela ku-Common Voice.
@@ -134,6 +138,7 @@ missing-language = Awuboni ulimi lwakho luboniswa Kusethi Yedatha? Ukucela ulimi
 
 ## Download Modal
 
+download-helpus = Sisize sakhe umphakathi mayelana nobuchwepheshe bezwi, hlala uxhumene nge-imeyili.
 
 ## Contact Modal
 
@@ -326,6 +331,7 @@ sc-lang-info-left-for-you =
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-4 = Uma umusho uhlangabezana nemibandela, chofoza okuthi &quot;Vumela&quot; inkinobho kwesokudla.
 sc-criteria-item-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
 
 ## REVIEW
