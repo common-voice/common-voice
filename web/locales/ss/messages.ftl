@@ -95,9 +95,11 @@ lv = Latvian
 mai = Maithili
 mdf = Moksha
 mg = Malagasy
+mhr = Meadow Mari
 mk = Macedonian
 ml = Malayalam
 mn = Mongolian
+mni = Meetei Lon
 mos = Mossi
 mr = Marathi
 mrj = Hill Mari
@@ -237,10 +239,15 @@ shortcut-submit = Jika
 
 ## ProjectStatus
 
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Emagoli lalandzelako: { $goal }
 english = Singisi
 
 ## ProfileForm
 
+profile-form-native-language =
+    .label = Lulwimi lwakini
 profile-form-additional-language =
     .label = Lulwimi lolungetiwe
 profile-form-language =
@@ -255,6 +262,8 @@ leaderboard-visibility =
     .label = Leaderboard Visibility
 hidden = Lokufihlakele
 visible = Kuyabonakala
+native-language =
+    .label = Lulwimi lwakini
 profile-form-submit-save = Gcina
 profile-form-submit-saved = Lokugciniwe
 male = Lomdvuna
@@ -281,6 +290,7 @@ max-file-size = { $kb }kb max
 
 ## Profile - Email
 
+manage-subscriptions = Manage Subscriptions
 add-language = Ngeta Lulwimi
 
 ## FAQ
@@ -333,6 +343,7 @@ about-playbook-how-grow-language-content-2 = Imicimbi
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-6 = Kwetsembeka lokufananako.
 
 ## Glossary
 
@@ -537,6 +548,7 @@ sc-header-home = Ekhaya
 sc-header-how-to = Kanjani
 sc-header-add = Ngeta
 sc-header-review = Buyeketa
+sc-header-my = Imisho Yami
 sc-header-statistics = Tibalo
 sc-header-profile = Likhasi lelichaza kabanti ngawe
 sc-footer-discourse = Discourse
@@ -558,6 +570,7 @@ sc-howto-title = Kwentiwa njani
 
 ## MY SENTENCES
 
+sc-my-title = Imisho Yami
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Kumikisa: { $batchId }
