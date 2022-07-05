@@ -105,6 +105,10 @@ resource-playbook-info = <playbookLink>Thola isiqondiso esiwusizo</playbookLink>
 
 ## Request Language Pages
 
+request-language-explanation-2 =
+    Sizokwazisa <strong>nomphathi wethu womphakathi
+    ukuthi unentshisekelo</strong>, ngakho bangakunikeza noma ikuphi
+    ukwesekwa okwengeziwe noma ulwazi ongase uludinge.
 
 ## Languages Overview
 
@@ -185,6 +189,7 @@ resource-playbook-info = <playbookLink>Thola isiqondiso esiwusizo</playbookLink>
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-uploading = Imisho iyalayishwa. Lokhu kungathatha imizuzu embalwa kuya ngenani lemisho eyengeziwe. Sicela ungayivali le webhusayithi.
 
 ## LANGUAGE INFO
 
