@@ -95,6 +95,7 @@ about-playbook-how-access-dataset-content-2 = Nange funa amathulusi wokwakha ama
 ## Data
 
 data-subtitle = Sakha ibulungelo lamaphimbo arekhodiweko angasetjenziswa ngiwo woke umuntu bona angawasebenzisa ukubandula iinsetjenziswa bona zikhulume ikulumo eyamukeleko.
+data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
 
 ## Datasets Page
 
