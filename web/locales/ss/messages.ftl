@@ -107,20 +107,25 @@ ms = Malay
 mt = Maltese
 my = Burmese
 myv = Erzya
+nb-NO = Norwegian Bokmål
 nd = IsiNdebele (North)
 ne-NP = Nepali
 nia = Nias
 nl = Dutch
+nn-NO = Norwegian Nynorsk
 nr = IsiNdebele (South)
+nso = Northern Sotho
 nyn = Runyankole
 oc = Occitan
 om = Afaan Ormoo
 or = Odia
 pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
 pl = Polish
 ps = Pashto
 pt = Portuguese
 quc = K'iche'
+quy = Quechua Chanka
 ro = Romanian
 ru = Russian
 rw = Kinyarwanda
@@ -234,6 +239,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Tfwebula/Mani
+shortcut-rerecord-toggle-label = Tfwebula kabusha sicephu
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Jika
 
@@ -241,7 +247,7 @@ shortcut-submit = Jika
 
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Emagoli lalandzelako: { $goal }
+status-goal = Next Goals: { $goal }
 english = Singisi
 
 ## ProfileForm
@@ -277,6 +283,7 @@ goals = Imigomo
 settings = Settings
 edit-profile = Lungisa likhasi lelichaza kabanti ngawe
 profile-close = Vala
+accept-privacy-title = Umgomo wekugcina tindzaba tiyimfihlo.
 login-identity = Login Identity
 email-subscriptions = Lababhalise ngeliposi lembane
 contribution-experience = Sipiliyoni sekulekelela
@@ -395,6 +402,7 @@ dataset-version = Inhlobo
 
 ## Download Modal
 
+download-no = Cha Ngiyabonga
 
 ## Contact Modal
 
@@ -408,6 +416,7 @@ contact-required = *kudzingekile
 ## Request Language Modal
 
 request-language-title = Sicelo Selulwimi
+other-language = Lolunye Lulwimi
 
 ## Request Language Pages
 
@@ -447,7 +456,9 @@ target-segment-learn-more = Fundza Kabanti
 ## Reporting
 
 report = Bika
+report-offensive-language = Lulwimi lolucasulako
 report-different-language = Lulwimi lolwehlukile
+report-offensive-speech = Inkhulumo lecansulako
 report-other-comment =
     .placeholder = Phawula
 success = Imphumelelo
@@ -465,6 +476,7 @@ awards = Imiklomelo
 you = Wena
 everyone = Wonkhe muntfu
 contribution-activity = Imisebenti wekulekelela
+overall-accuracy = Overall Accuracy
 
 ## Custom Goals
 
