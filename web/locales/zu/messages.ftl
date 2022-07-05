@@ -46,6 +46,7 @@ join-newsletter = Joyina ngokuzikhethela ohlwini lwethu lwe-imeyili ukuze uthole
 ## ProfileForm
 
 profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi usize idatha yethu yezwi inembe kakhulu.
+accept-privacy = Ngilungile uma uphatha lolu lwazi njengoba uchaza kokuthi <privacyLink>Inqubomgomo Yobumfihlo</privacyLink> ye-Mozilla
 skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma noma Lalela ukuze ushintshe uhlobo lomnikelo.
 
 ## Profile - Email
@@ -60,6 +61,7 @@ faq-do-want-native-q = Mina ngingumuntu ongeyena owomdabu futhi ngikhuluma ngend
 faq-what-quality-q = Iliphi izinga lekhwalithi yomsindo elidingekayo ukuze isiqeshana sezwi sisetshenziswe kudathasethi?
 faq-why-10k-hours-a = Leli cishe inani lamahora adingekayo ukuqeqesha isistimu yokukhiqiza inkulumo-iya-kumbhalo.
 faq-why-not-ask-read-q = Kungani ungaceli abantu ukuthi bafunde ezincwadini noma izindatshana zeWikipedia ngezilimi ezahlukene?
+faq-how-privacy-q = Uqinisekisa kanjani ukungaziwa nobumfihlo babantu abanikele ngamazwi abo?
 faq-what-determine-identity-q = Kusho ukuthini ukuthi angikwazi “ukunquma ubunikazi” bezikhulumi kudathasethi yeCommon Voice?
 faq-description = I-Common Voice iyingxenye yesinyathelo se-Mozilla sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 
@@ -254,6 +256,7 @@ sc-languages-fetch-error = Sehlulekile ukulanda izilimi ezitholakalayo. Iminikel
 
 sc-howto-cite-item-2 = Ungasebenzisa isitayela sereferensi yezemfundo, isb isitayela sase-Harvard "Mozilla (2021) Common Voice. Itholakala ku https://commonvoice.mozilla.org/ (Kufinyelelwe: 15th September 2021)"
 sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-inthanethi, ungasebenzisa isitayela sereferensi yezemfundo isb isitayela saseHarvard "Jess (2021) Izinkondlo Zami Zelayisensi Yomphakathi"
+sc-howto-review-criteria-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
 sc-howto-findpd-tips-1 = Imithombo engcono kakhulu ongayibheka amaphodikasti, okulotshiweyo, imibhalo yamamuvi nanoma yini engaba khona ingaqukatha izingxoxo zansuku zonke.
 sc-howto-findpd-tips-3 = Ngeshwa asikwazi ukuba nezindatshana ze-Wikimedia okwamanje. Ngakho-ke ungakopishi ukunamathisela kusuka lapho.
 
@@ -322,6 +325,7 @@ sc-lang-info-left-for-you =
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
 
 ## REVIEW
 
