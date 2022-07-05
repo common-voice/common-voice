@@ -52,6 +52,7 @@
 
 ## How does it work section
 
+about-stay-in-touch-text-1 = <emailFragment>Zitlolise ku</emailFragment> bona ufunde ukuthi ungasifaka njani isandla emajimeni, ezenzakalweni nokuthuthukisa ubujamo be-Common Voice.
 
 ## Community Playbook Content
 ## What is a language
