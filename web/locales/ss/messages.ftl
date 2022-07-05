@@ -212,6 +212,7 @@ wall-of-text-first = { "" }
 show-wall-of-text = Fundza Kabanti
 vote-yes = Yebo
 vote-no = Cha
+speak-subtitle = Nikela livi lakho
 speak-goal-text = Ticephu letiftwebuliwe
 listen-goal-text = Ticephu leticinisikesiwe
 hours-recorded = Emahora latfwebuliwe
@@ -304,7 +305,9 @@ edit-profile = Lungisa likhasi lelichaza kabanti ngawe
 profile-close = Vala
 accept-privacy-title = Umgomo wekugcina tindzaba tiyimfihlo.
 login-identity = Login Identity
+login-signup = Ngena / Bhalisa
 email-subscriptions = Lababhalise ngeliposi lembane
+download-profile = Download My Data
 contribution-experience = Sipiliyoni sekulekelela
 off = Valiwe
 on = Vuliwe
@@ -318,11 +321,12 @@ remove-avatar = Remove Avatar
 
 ## Profile - Email
 
-manage-subscriptions = Manage Subscriptions
+manage-subscriptions = Naka lababhalise ngeliposi lembane
 add-language = Ngeta Lulwimi
 
 ## FAQ
 
+faq-title = Imibuto levame kubutwa
 
 ## ABOUT US
 
@@ -331,6 +335,7 @@ add-language = Ngeta Lulwimi
 
 about-localization-title = Kusondzetwa kwelikheli langcondvomshina
 about-sentence-collection-title = Kukolekwa kwemisho
+about-new-lang-title = Kusungulwa kwelulwimi lolusha.
 about-voice-contrib-title = Kulekelela ngelivi
 about-voice-validation-title = Kucinisekisa Livi
 about-dataset-release-title = Dataset Release
@@ -400,6 +405,7 @@ data-download-deny = Cha
 data-download-license = License: <licenseLink>CC-0</licenseLink>
 data-other-goto = Hamba ku { $name }
 data-other-download = Download Data
+data-bundle-button = Download Dataset Bundle
 release-version = Inhlobo
 dataset-date = Lusuku
 license = License: <licenseLink>{ $license }</licenseLink>
@@ -408,6 +414,7 @@ terms-agree = Ngiyavuma
 review-recording = Buyeketa
 review-rerecord = Tfwebula kabusha
 review-cancel = Yekela kumiskisa
+review-keep-recordings = Gcina emafayela latfwebuliwe
 review-delete-recordings = Yesula ticephu tami latitfwebuliwe
 
 ## Datasets Page
@@ -427,6 +434,7 @@ subscribe = Bhalisa
 feedback-q = Unawo umbiko longasitjela wona?
 community-playbook = Bhukwana wemmango
 data-other-ted-name = TED-LIUM Corpus
+go-discourse = Hamba ku Discourse
 more = Lokunengi
 close = Vala
 download = Download
@@ -434,6 +442,9 @@ dataset-version = Inhlobo
 
 ## Download Modal
 
+download-form-email =
+    .label = Faka iliposi lakho lembane
+    .value = { "" }
 download-no = Cha Ngiyabonga
 
 ## Contact Modal
@@ -481,11 +492,13 @@ shortcuts = Tindlela tekujubelisa
 goal-help-recording = { "" }
 record-cta = Cala kutfwebula
 record-platform-not-supported-desktop = { "" }
+record-no-mic-found = Kute umbhobho lotfolakele.
 record-cancel = Yekela kutfwebula kabusha
 record-stop-instruction = { $actionType }<stopIcon></stopIconuma> socedzile
 record-last-instruction = <recordIcon></recordIcon>Kekugcina!
 record-submit-tooltip = { $actionType } mikisa uma ulungele
 clips-uploaded = Ticephu leti-uploadiwe
+record-abort-title = Cedza kutfwebula kucala?
 record-abort-submit = Mikisa ticeshana
 record-abort-continue = Cedza kutfwebula
 listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
@@ -535,6 +548,7 @@ easy-difficulty = Kumelula
 average-difficulty = Lokusemkhatsini
 difficult-difficulty = Kulikhuni
 pro-difficulty = Pro
+finish-editing = Cedzela kulungisa kucala?
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] { "" }
@@ -560,6 +574,7 @@ download-recordings-title = Lokutfwebuliwe
 download-recordings-size = Typically megabytes
 download-size = Linani
 download-selected = Lokukhetsiwe
+download-start = Download profile data
 download-request = Cela leticephu letitfwebuliwe
 download-request-button = Download
 download-request-refresh-button = Vuselela
@@ -572,6 +587,7 @@ welcome-staff = Siyanemukela { $company } tisebenti!
 
 ## DemoLayout
 
+demo-get-started = Asicale
 
 ## Demo Datasets
 
@@ -641,11 +657,13 @@ sc-home-review-title = Buyeketa imisho
 
 sc-howto-title = Kwentiwa njani
 sc-howto-addsen-title = Ngeta imisho lemisha
+sc-howto-cite-title = Indlela yeku-Cite
 sc-howto-review-title = Buyeketa imisho
 
 ## MY SENTENCES
 
 sc-my-title = Imisho Yami
+sc-my-loading = Sifaka imisho yakho...
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Kumikisa: { $batchId }
@@ -658,6 +676,7 @@ sc-my-deleting = Yesula imisho lekhetsiwe…
 ## REJECTED
 
 sc-rejected-title = Lejikisiwe Imisho
+sc-rejected-loading = Sisalungisa imisho lejikisiwe...
 
 ## STATS
 
@@ -702,6 +721,7 @@ sc-personal-remove-button = susa
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Buyeketa Luhla
 sc-criteria-title = Buyeketa luhla
 
 ## REVIEW
