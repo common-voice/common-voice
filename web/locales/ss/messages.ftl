@@ -259,6 +259,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Lahla sicephu lesisatfwebulwa
 shortcut-submit = Jika
 shortcut-submit-label = Mikisa ticeshana
+request-language-button = Cela lulwimi
 
 ## ProjectStatus
 
@@ -278,6 +279,7 @@ profile-form-additional-language =
     .label = Lulwimi lolungetiwe
 profile-form-language =
     .label = Lulwimi
+profile-form-variant-default-value = Kute inhlobo lekhetsiwe
 profile-form-accent =
     .label = Indlela yekukhuluma lulwimi
 profile-form-age =
@@ -374,6 +376,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Kukweleka imisho
 
 about-playbook-how-grow-language-content-2 = Imicimbi
 about-playbook-how-grow-language-content-4 = Tinkhundla tekuchumana
+about-playbook-how-grow-language-content-6 = Kubambisana nekuchumana
 
 ## How to validate
 
@@ -403,6 +406,7 @@ error-code = Liphutsa { $code }
 data-download-yes = Yebo
 data-download-deny = Cha
 data-download-license = License: <licenseLink>CC-0</licenseLink>
+data-other-title = Lamanye ema-Datasets emavi...
 data-other-goto = Hamba ku { $name }
 data-other-download = Download Data
 data-bundle-button = Download Dataset Bundle
@@ -422,8 +426,10 @@ review-delete-recordings = Yesula ticephu tami latitfwebuliwe
 datasets-heading = Datasets
 # File size in gigabytes
 size = Linani
+overall-hr-total = Sekukonkhe kwa Hr.
 cv-license = License
 audio-format = Audio Format
+number-of-voices = Linani lemavi
 splits = Kuhlukana
 size-gigabyte = GB
 size-megabyte = MB
@@ -431,6 +437,7 @@ download-language = Download { $language }
 validated-hours = Lacinisekisiwe emahora
 recorded-hours = Latfwebuliwe emahora
 subscribe = Bhalisa
+other-datasets = Lamanye ema-Datasets emavi
 feedback-q = Unawo umbiko longasitjela wona?
 community-playbook = Bhukwana wemmango
 data-other-ted-name = TED-LIUM Corpus
@@ -503,6 +510,7 @@ record-abort-submit = Mikisa ticeshana
 record-abort-continue = Cedza kutfwebula
 listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
 speak-empty-state-cta = Nikela imisho
+record-button-label = Tfwebula livi lakho
 target-segment-add-voice = Ngeta Livi Lakho
 target-segment-learn-more = Fundza Kabanti
 
@@ -603,6 +611,7 @@ demo-account-card-header = { "" }
 
 ## Demo Contribute
 
+demo-listen-subtitle = Ulungele kulekelela?
 
 ## Demo Dashboard
 
@@ -640,6 +649,7 @@ sc-header-statistics = Tibalo
 sc-header-profile = Likhasi lelichaza kabanti ngawe
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Report Bugs
+sc-footer-report-copyright = Bika tinkinga tema copyright
 sc-footer-privacy = Lokuyimfihlo
 sc-footer-terms = Imigomo
 sc-footer-cookies = Cookies
@@ -686,6 +696,7 @@ sc-stats-updating = Updating…
 
 ## ADD
 
+sc-submit-err-add-sentences = Sicela wengete imisho
 sc-submit-title = Ngeta imisho
 sc-submit-select-language =
     .labelText = Khetsa Lulwimi
@@ -711,6 +722,7 @@ sc-lang-info-review-now = <reviewLink>Buyeketa nyalo!</reviewLink>
 ## LOGIN
 
 sc-login-err-failed = Wehlulekile kungena
+sc-login-err-try-again = Sicela uphindze wetame futsi.
 
 ## PROFILE
 
