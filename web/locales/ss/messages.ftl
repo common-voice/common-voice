@@ -268,6 +268,7 @@ goals = Imigomo
 settings = Settings
 edit-profile = Lungisa likhasi lelichaza kabanti ngawe
 profile-close = Vala
+login-identity = Login Identity
 email-subscriptions = Lababhalise ngeliposi lembane
 contribution-experience = Sipiliyoni sekulekelela
 off = Valiwe
