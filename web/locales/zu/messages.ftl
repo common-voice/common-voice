@@ -93,6 +93,7 @@ about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi 
 
 ## Data
 
+data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
 
 ## Datasets Page
 
@@ -107,6 +108,7 @@ data-other-librispeech-description = I-LibriSpeech iyikhophasi cishe yamahora an
 
 ## Request Language Modal
 
+request-language-success-content = Sizothintana ngolwazi olwengeziwe mayelana nendlela yokwengeza ulimi lwakho ku-Common Voice maduze nje.
 
 ## Request Language Pages
 
