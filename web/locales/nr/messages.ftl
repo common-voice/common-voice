@@ -105,6 +105,7 @@ resource-playbook-info = <playbookLink>Fumana isinqophiso esilisizo</playbookLin
 
 ## Request Language Pages
 
+request-language-explanation-2 = Sizokubuye <strong>sakwazisa  nomphathi womphakathethu ukuthi unekareko</strong>, ukwenzela bona bakunikele nanyana ngiliphi isekelo elengeziweko nelwazi okungenzeka ulitlhoge.
 
 ## Languages Overview
 
