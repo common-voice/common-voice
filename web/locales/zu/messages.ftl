@@ -4,6 +4,7 @@ yes-receive-emails = Yebo, ngithumele ama-imeyili. Ngingathanda ukuhlala nginolw
 privacy-info = Sithembisa ukuphatha imininingwane yakho ngokucophelela. Funda kabanzi kwi<privacyLink>Isaziso Sobumfihlo</privacyLink>.
 email-opt-in-info = Ngingathanda ukuthola ama-imeyili afana nezikhumbuzi zemigomo, izibuyekezo zami zokuqhubeka nezincwadi zezindaba ezimayelana ne-Common Voice.
 email-opt-in-info-sub-with-challenge = Thola ama-imeyili afana nezikhumbuzi zenselele nezinjongo, izibuyekezo zenqubekelaphambili, nezincwadi zezindaba ezimayelana ne-Common Voice.
+banner-error-slow-2 = Sithola ithrafikhi eningi futhi okwamanje siphenya izinkinga.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -63,6 +64,7 @@ skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma no
 
 faq-do-want-native-q = Mina ngingumuntu ongeyena owomdabu futhi ngikhuluma ngendlela ehlukile, usafuna izwi lami?
 faq-what-quality-q = Iliphi izinga lekhwalithi yomsindo elidingekayo ukuze isiqeshana sezwi sisetshenziswe kudathasethi?
+faq-why-10k-hours-q = Kungani amahora angu-10,000 aqinisekisiwe kuwumgomo wolimi ngalunye lokuthwebula umsindo?
 faq-why-10k-hours-a = Leli cishe inani lamahora adingekayo ukuqeqesha isistimu yokukhiqiza inkulumo-iya-kumbhalo.
 faq-why-not-ask-read-q = Kungani ungaceli abantu ukuthi bafunde ezincwadini noma izindatshana zeWikipedia ngezilimi ezahlukene?
 faq-how-privacy-q = Uqinisekisa kanjani ukungaziwa nobumfihlo babantu abanikele ngamazwi abo?
@@ -94,6 +96,7 @@ about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences-content-3 = Ungasebenzisa <i-scraperLink>Isikhiphi semisho</scraperLink> ukuze usebenzise imisho emifushane kusuka ku-Wikipedia.
 about-playbook-how-add-sentences-content-4 = Imisho eqinisekisiwe ithunyelwa ngaphandle ngoLwesithathu, futhi iyatholakala ngemva kokukhishwa okulandelayo.
 
 ## How to record quality
@@ -221,6 +224,7 @@ goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#Co
 
 ## Profile Download
 
+download-recordings-unavailable = Awukwazi ukucela ukurekhodwa kwakho ngenkathi esinye isicelo sisaqhubeka.
 download-requests-info = Uma ucela okuqoshiwe kwakho, sikuhlanganisa kube ifayela le-ZIP elilodwa noma amaningi. Nazi izicelo zakho ezedlule:
 
 ## Landing
