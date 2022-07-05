@@ -110,6 +110,7 @@ about-playbook-how-grow-language-content-8 = <strong>Yakha ubuciko!</strong> Ump
 ## Glossary
 
 localization-explanation = Lena inqubo yethu yokuhumusha nokulungisa okuqukethwe kwethu ezindaweni eziningi (izilimi).
+sentence-collection-explanation = Ukuqoqa imisho esizindeni somphakathi, noma ukubhala emisha esizindeni somphakathi.
 
 ## Error pages
 
