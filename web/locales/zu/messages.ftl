@@ -48,6 +48,8 @@ speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha ida
 
 ## FAQ
 
+faq-what-quality-q = Iliphi izinga lekhwalithi yomsindo elidingekayo ukuze isiqeshana sezwi sisetshenziswe kudathasethi?
+faq-what-determine-identity-q = Kusho ukuthini ukuthi angikwazi “ukunquma ubunikazi” bezikhulumi kudathasethi yeCommon Voice?
 
 ## ABOUT US
 
@@ -78,6 +80,7 @@ about-playbook-how-record-content-4 = Qiniseka ukuthi inkundla iyarekhoda ngapha
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-8 = <strong>Yakha ubuciko!</strong> Umphakathi wakho wolimi uzohluka, futhi lezi izindlela ezimbalwa zokuqalisa.
 
 ## How to validate
 
@@ -104,6 +107,7 @@ resource-playbook-info = <playbookLink>Thola isiqondiso esiwusizo</playbookLink>
 data-other-librispeech-description = I-LibriSpeech iyikhophasi cishe yamahora angu-1000 we-16Khz  yenkulumo yesiNgisi efundiwe ethathwe kuma-audiobook afundiwe kusukela kuphrojekthi ye-LibriVox.
 data-other-voxforge-description = I-VoxForge yasungulwa ukuze iqoqe inkulumo eqoshiwe ukuze isetshenziswe nezinjini zokuqaphela izinkulumo zamahhala kanye ne-Open Source.
 your-feedback = Ingabe unayo imibono yokuthi singayenza kanjani idathasethi ye-Common Voice ibe ngcono? Sazise ku-Discourse
+missing-language = Awuboni ulimi lwakho luboniswa Kusethi Yedatha? Ukucela ulimi qonda ekhasini lethu leZilimi.
 
 ## Download Modal
 
@@ -146,6 +150,9 @@ request-language-error =
 
 ## Custom Goals
 
+receiving-emails-info =
+    Okwamanje umiselwe ukuthola ama-imeyili afana nezikhumbuzi zegoli, 
+    izibuyekezo zenqubekelaphambili zami kanye nezincwadi zezindaba mayelana ne-Common Voice
 not-receiving-emails-info = Okwamanje usethelwe <bold>CHA</bold> ukuthola ama-imeyili afana nezikhumbuzi zegoli, mina izibuyekezo zenqubekelaphambili kanye nezincwadi zezindaba mayelana ne-Common Voice
 # LINK will be replaced with the current URL
 goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#CommonVoice -- ngijoyine futhi usize ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani { $link }
