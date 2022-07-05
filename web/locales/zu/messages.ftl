@@ -220,6 +220,7 @@ sc-confirm-uploading = Imisho iyalayishwa. Lokhu kungathatha imizuzu embalwa kuy
 
 ## SETTINGS
 
+sc-settings-skipped-decription = Ngaphambilini weqe imisho ngenkathi ubuyekeza. Ukusetha kabusha imisho eyeqiwe kuzokhombisa yonke imisho eyeqiwe futhi. Lokhu kuzimele olimini.
 
 # [/SentenceCollector]
 
