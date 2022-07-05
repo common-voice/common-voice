@@ -170,6 +170,7 @@ goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -
 
 ## HOW-TO
 
+sc-howto-cite-item-3 = Bona ufumane umtlolo ongekho ku-inthanethi, ungasebenzisa indlela yokutlola isb. Harvard style " Jess (2021) Ilayisensami yeenkondlo zophakathi"
 
 ## MY SENTENCES
 
