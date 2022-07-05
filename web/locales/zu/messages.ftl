@@ -29,6 +29,8 @@ speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha ida
 
 ## Account Benefits
 
+improve-audio = Ulwazi lwephrofayela luthuthukisa idatha yomsindo esetshenziswa ekuqeqesheni ukunemba kokuqaphela inkulumo.
+compare-progress = Bona ukuthi inqubekelaphambili yakho iqhathaniseka kanjani nabanye abanikeli emhlabeni wonke.
 join-newsletter = Joyina ngokuzikhethela ohlwini lwethu lwe-imeyili ukuze uthole izibuyekezo nolwazi olusha mayelana nephrojekthi.
 
 ## What's public
@@ -93,6 +95,7 @@ about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi 
 
 ## How does localization work
 
+about-playbook-how-localize-content-4 = Isayithi lizolungela ukwethulwa uma sesifinyelele ekuqedweni okungu-75%.
 
 ## How to add sentences
 
@@ -180,9 +183,13 @@ language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi
 listen-loading-error =
     Asikwazanga ukuthola iziqeshana zomsindo ozozilalela.
     Sicela uzame futhi emuva kwesikhathi.
+speak-loading-error =
+    Asikwazanga ukukutholela umusho ukuthi ukhulume.
+    Sicela uzame futhi emuva kwesikhathi.
 
 ## Reporting
 
+report-difficult-pronounce-detail = Iqukethe amagama noma imishwana okunzima ukuyifunda noma ukuyibiza.
 
 ## Goals
 
@@ -273,6 +280,7 @@ sc-languages-fetch-error = Sehlulekile ukulanda izilimi ezitholakalayo. Iminikel
 
 ## HOW-TO
 
+sc-howto-addlang-text = Uma usungenile ungakhetha izilimi zakho esigabeni sephrofayela.
 sc-howto-cite-item-2 = Ungasebenzisa isitayela sereferensi yezemfundo, isb isitayela sase-Harvard "Mozilla (2021) Common Voice. Itholakala ku https://commonvoice.mozilla.org/ (Kufinyelelwe: 15th September 2021)"
 sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-inthanethi, ungasebenzisa isitayela sereferensi yezemfundo isb isitayela saseHarvard "Jess (2021) Izinkondlo Zami Zelayisensi Yomphakathi"
 sc-howto-review-criteria-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
