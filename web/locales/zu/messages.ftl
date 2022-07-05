@@ -140,6 +140,7 @@ goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#Co
 
 ## Profile Download
 
+download-requests-info = Uma ucela okuqoshiwe kwakho, sikuhlanganisa kube ifayela le-ZIP elilodwa noma amaningi. Nazi izicelo zakho ezedlule:
 
 ## Landing
 
