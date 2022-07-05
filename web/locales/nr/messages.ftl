@@ -124,6 +124,8 @@ request-language-explanation-2 = Sizokubuye <strong>sakwazisa  nomphathi womphak
 
 ## Custom Goals
 
+# LINK will be replaced with the current URL
+goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -- sebenzisana nami sifundise imitjhini ukuthi abantu bamambala bakhuluma njani { $link }
 
 ## Profile Delete
 
@@ -186,6 +188,7 @@ request-language-explanation-2 = Sizokubuye <strong>sakwazisa  nomphathi womphak
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-uploading = Imitjho iyafakwa. Lokhu kungathatha imizuzu embalwa kuye ngenani lemitjho efakiweko. Sibawa ungalivali izinzolwazeli.
 
 ## LANGUAGE INFO
 
