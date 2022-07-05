@@ -121,6 +121,9 @@ request-language-success-list-3 =
     Uma ungezwa ngathi ezinsukwini ezimbalwa,
     finyelela ku-<emailLink>{ $email }</emailLink>
     futhi sizobuyela kuwe!
+request-language-error =
+    Kungenzeka ukuba asizange sisithole leso sicelo. Sicela usithumele i-imeyili ngokuqondile
+    ku-<emailLink>{ $email }</emailLink> futhi sizobuyela kuwe!
 
 ## Languages Overview
 
