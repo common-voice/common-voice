@@ -107,6 +107,7 @@ about-header-description-v2 = Theknolotši ya go tlhathollo lentšu e fetola tse
 
 ## Datasets Page
 
+resource-playbook-info = <playbookLink>Kgwetša keletšo ya maleba <playbookLink> kgo leeto le feletšeng la Common Voice, go tloga kgo mo o dulang gona go ya kgo tirišo ya datha, le kgo re le kopana jwang le baagi.
 
 ## Download Modal
 
