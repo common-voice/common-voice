@@ -392,6 +392,9 @@ demo-dashboard-card-header =
 
 contribution-criteria-page-description = Zwisisa bona khuyini okufuze ukutjheje nawulalele iinqetjhana ezirekhodiweko begodu usize ekwenzeni okurekhodileko kunothe!
 contribution-misreadings-description-extended-list-1 = Kutjhoda u- <strong>'A'</strong> namkha u- <strong>'The'</strong> ekuthomeni kokurekhodiweko.
+contribution-misreadings-description-extended-list-2 =
+    Kutjhoda u <strong>'s'</strong> ekugcineni 
+    kwegama.
 contribution-misreadings-description-extended-list-3 = Ukufunda okuthileko okungakatlolwa njengokuthi "S'bo" esikhundleni sokuthi "Sibo" namkha "Sibo" esikhundleni sokuthi "S'bo".
 contribution-misreadings-description-extended-list-4 =
     Kulahleke amezwi wokugcina
