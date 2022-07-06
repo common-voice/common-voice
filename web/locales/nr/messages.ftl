@@ -74,6 +74,7 @@ about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngo
 
 ## How to add sentences
 
+about-playbook-how-add-sentences-content-4 = Imitjho eqinisekisiweko ikhanjiswa ngaboLesithathu begodu ifumaneka ngemva kokutjhatjhululwa okulandelako.
 
 ## How to record quality
 
