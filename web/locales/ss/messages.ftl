@@ -750,6 +750,7 @@ sc-stats-updating = Updating…
 ## ADD
 
 sc-submit-err-add-sentences = Sicela wengete imisho
+sc-submit-err-add-source = Sicela ungete umtfombo
 sc-submit-title = Ngeta imisho
 sc-submit-select-language =
     .labelText = Khetsa Lulwimi
@@ -758,6 +759,7 @@ sc-submit-ph-one-per-line =
     .placeholder = Umusho munye ngelilayinini
 sc-submit-button =
     .submitText = Mikisa
+sc-submit-guidelines = Sicela uhlole <howToLink>umkhombandlela</howToLink>.
 
 ## ADD LANGUAGE
 
