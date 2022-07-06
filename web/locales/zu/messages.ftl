@@ -36,6 +36,7 @@ email-subscription-title-new = Bhalisela izincwadi zezindaba zeCommon Voice, izi
 improve-audio = Ulwazi lwephrofayela luthuthukisa idatha yomsindo esetshenziswa ekuqeqesheni ukunemba kokuqaphela inkulumo.
 keep-track = Landelela ukuqhubeka kwakho namamethrikhi ngezilimi eziningi.
 compare-progress = Bona ukuthi inqubekelaphambili yakho iqhathaniseka kanjani nabanye abanikeli emhlabeni wonke.
+view-goals = Buka inqubekelaphambili yakho ngokumelene nemigomo yomuntu uqobio kanye neyephrojekthi.
 join-newsletter = Joyina ngokuzikhethela ohlwini lwethu lwe-imeyili ukuze uthole izibuyekezo nolwazi olusha mayelana nephrojekthi.
 
 ## What's public
@@ -55,6 +56,7 @@ username-email-not-demographic = Igama olisebenzisayo kanye ne-imeyili yakho nge
 
 ## ProjectStatus
 
+status-title = Sisonke isimo sephrojekthi: bona ukuthi sesihambe kangakanani!
 status-hours =
     { $hours ->
         [one] Ihora elilodwa eliqinisekisiwe kuze kube manje!
@@ -86,6 +88,7 @@ faq-what-quality-q = Iliphi izinga lekhwalithi yomsindo elidingekayo ukuze isiqe
 faq-why-10k-hours-q = Kungani amahora angu-10,000 aqinisekisiwe kuwumgomo wolimi ngalunye lokuthwebula umsindo?
 faq-why-10k-hours-a = Leli cishe inani lamahora adingekayo ukuqeqesha isistimu yokukhiqiza inkulumo-iya-kumbhalo.
 faq-why-not-ask-read-q = Kungani ungaceli abantu ukuthi bafunde ezincwadini noma izindatshana zeWikipedia ngezilimi ezahlukene?
+faq-why-account-q = Kungani kufanele ngibhalisele i-akhawunti?
 faq-how-privacy-q = Uqinisekisa kanjani ukungaziwa nobumfihlo babantu abanikele ngamazwi abo?
 faq-what-determine-identity-q = Kusho ukuthini ukuthi angikwazi “ukunquma ubunikazi” bezikhulumi kudathasethi yeCommon Voice?
 faq-description = I-Common Voice iyingxenye yesinyathelo se-Mozilla sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
@@ -95,7 +98,11 @@ faq-description = I-Common Voice iyingxenye yesinyathelo se-Mozilla sokusiza uku
 
 ## How does it work section
 
+about-language-req-subtitle = Umuntu ucela ukwengezwa ulimi.
+about-localization-subtitle = Umbhalo wewebhusayithi uhunyushelwa kulolo limi.
+about-sentence-collection-subtitle = Imisho iqoqwa ukuze abantu bayifundele phezulu.
 about-new-lang-subtitle = Sethula isayithi le-Common Voice ngalolu limi.
+about-subscribe-text = Ingabe ufuna ukuhlala uxhumene ne-Common Voice?
 about-speak-text = Abanikeli baqopha iziqeshana zezwi ngokufunda ebhange lemisho enikelwe.
 about-listen-queue-text = Iziqeshana zezwi zifakwa emugqeni wokuhambisa ozilungiselela ukulalelwa.
 about-listen-text = Abasebenzisi baqinisekisa ukunemba kweziqeshana ezinikelwe, behlola ukuthi isikhulumi siwufunde kahle umusho.
@@ -150,6 +157,7 @@ about-playbook-how-access-dataset-content-2 = Uma ufuna amathuluzi okwakha amamo
 localization-explanation = Lena inqubo yethu yokuhumusha nokulungisa okuqukethwe kwethu ezindaweni eziningi (izilimi).
 sentence-collection-explanation = Ukuqoqa imisho esizindeni somphakathi, noma ukubhala emisha esizindeni somphakathi.
 hours-recorded-explanation = Isibalo samahora okuqoshwa kwezwi esiwaqoqile kuze kube manje.
+sst-explanation = Ubuchwepheshe beSpeech-to-text (STT) buguqula idatha yezwi ibe umbhalo.
 
 ## Error pages
 
@@ -166,6 +174,7 @@ review-submit-msg = Siyabonga ngokurekhoda!<lineBreak></lineBreak>Manje buyekeza
 ## Datasets Page
 
 datasets-headline = Sakha umthombo ovulekile, isethi yedatha yezilimi eziningi yamazwi noma ubani angayisebenzisa ukuze aqeqeshe izinhlelo zokusebenza ezikwazi ukukhuluma.
+confirm-size = Ulungele ukuqalisa ukuloda kwe-<b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukucacisa ukuthi ungubani izikhulumi kudathasethi yeCommon Voice
 want-dataset-update = Ufuna izibuyekezo uma sikhipha inguqulo entsha yedathasethi yeCommon Voice? Bhalisela iphephandaba lethu.
 resource-nemo-info = I-<githubLink>NVIDIA NeMo</githubLink>™ iyi-<docsLink>ikhithi yamathuluzi yomthombo ovulekile</docsLink> yabacwaningi abakha amamodeli e-AI engxoxo esezingeni eliphezulu.
@@ -198,6 +207,10 @@ request-language-form-info-explanation =
     "Faka ulwazi oluningi ngangokunokwenzeka ngolimi. Lokhu
     kungafaka:"
 request-language-form-info-explanation-list-3 = Izixhumanisi zamawebhusayithi ezingasisiza siqonde ulimi
+request-language-google-recaptcha-required = I-reCAPTCHA iyadingeka uma ufuna ukuqhubeka
+request-language-google-recaptcha-error = Kukhona okungahambanga kahle nge-reCAPTCHA. Ngicela uzame futhi.
+# Success page
+request-language-success-heading = Ngiyabonga! Uthumele umbuzo wolimi olusha
 request-language-success-list-1 =
     Kufanele uthole i-imeyili echazayo maduze
     izinyathelo zokwenza ulimi lwakho lwengezwe ku-Common Voice
@@ -217,7 +230,9 @@ language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi
 
 goal-help-recording = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokurekhoda yansuku zonke { $goalValue }!
 goal-help-validation = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokuqinisekisa wansuku zonke { $goalValue }!
+record-platform-not-supported = Siyaxolisa, inkundla yakho ayisekelwe okwamanje.
 record-platform-not-supported-ios-non-safari = Ku-iOS sicela uqhubeke ne-Safari ukuze ukwazi ukurekhoda...
+review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
 listen-empty-state = Siphelelwe iziqeshana ezizoqinisekiswa ngalolu limi...
 listen-loading-error =
     Asikwazanga ukuthola iziqeshana zomsindo ozozilalela.
@@ -229,6 +244,8 @@ speak-loading-error =
 
 ## Reporting
 
+report-ask = Yiziphi izinkinga ohlangabezana nazo ngalo musho?
+report-grammar-or-spelling-detail = Umusho unephutha lohlelo noma lokubhalwa kwegama.
 report-different-language-detail = Ibhalwe ngolimi oluhlukile kunalokhu engikukhulumayo.
 report-difficult-pronounce-detail = Iqukethe amagama noma imishwana okunzima ukuyifunda noma ukuyibiza.
 
@@ -273,6 +290,7 @@ receiving-emails-info =
 not-receiving-emails-info = Okwamanje usethelwe <bold>CHA</bold> ukuthola ama-imeyili afana nezikhumbuzi zegoli, mina izibuyekezo zenqubekelaphambili kanye nezincwadi zezindaba mayelana ne-Common Voice
 # LINK will be replaced with the current URL
 goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#CommonVoice -- ngijoyine futhi usize ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani { $link }
+track-progress = Landela inqubekelaphambili yakho la nasekhasini lakho lama-stat.
 
 ## Profile Delete
 
@@ -320,6 +338,7 @@ contribution-misreadings-description-extended-list-2 = Ishoda ngo-<strong>'s'</s
 contribution-misreadings-description-extended-list-3 = Ukufunda izifinyezo ezingekho, njengokuthi "We're" esikhundleni sokuthi "We are", noma okuphambene nalokho.
 contribution-misreadings-description-extended-list-4 = Uphuthelwa isiphetho segama lokugcina ngokunqamula ukuqopha ngokushesha okukhulu.
 contribution-misreadings-example-3-explanation = [Ukurekhoda kunqamukile ngaphambi kwegama lokugcina]
+contribution-misreadings-example-7-title = Sizophuma siyothola ikhofi.
 contribution-varying-pronunciations-example-1-explanation = [I-‘Beret’ ILUNGILE noma ngabe isigcizelelo sikuhlamvu wokuqala (UK) noma wesibili (US)]
 contribution-varying-pronunciations-example-2-explanation = [Igama elesiNgisi u'Raised' liphinyiswa ngohlamvu olulodwa, hhayi ezimbili]
 contribution-background-noise-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
@@ -370,8 +389,11 @@ sc-stats-summary = Umqoqi Wemisho weCommon Voice uqoqe  { $sentenceCount } imish
 
 ## ADD
 
+sc-submit-err-confirm-pd = Sicela uqinisekise ukuthi le misho ayisizinda somphakathi.
 sc-submit-prompt =
     .message = Imisho ayithunyelwanga, uqinisekile ukuthi ufuna ukuhamba?
+sc-submit-ph-read-how-to =
+    .placeholder = Funda iHow-to yethu uma ungaqiniseki ukuthi
 sc-submit-confirm = Ngiyaqinisekisa ukuthi le misho <wikipediaLink>yisizinda somphakathi</wikipediaLink> futhi nginemvume yokuyilayisha.
 sc-submit-filtered = Imisho ehlungiwe ngenxa yokwehluleka kwezidingo (sicela uhambise izinguqulo ezilungisiwe njengemisho emisha):
 
@@ -399,6 +421,14 @@ sc-add-lang-process-notice = Uma ulimi lwakho lungekho ohlwini lapha, ungalucela
 
 sc-confirm-are-you-sure =
     .message = Imisho ayithunyelwanga, uqinisekile ukuthi ufuna ukuhamba?
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Ayikho imisho etholakele.
+        [one] Kutholwe umusho ongu-1.
+       *[other] imisho engu-{ $countOfSentences } itholakele.
+    }
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Awukho umusho osuvele ubuyekeziwe.
