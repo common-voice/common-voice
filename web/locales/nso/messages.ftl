@@ -67,6 +67,7 @@ about-header-description-v2 = Theknolotši ya go tlhathollo lentšu e fetola tse
 
 ## How does it work section
 
+about-stay-in-touch-text-1 = <emailFragment>Ngwadisa</emailFragment> go leththamong la rena la mangolo go ithutha gore na o ka tšea karolo jwang matsolong liketsahalong le dikarolo tša moralo o kopanetšeng go Common Voice.
 
 ## Community Playbook Content
 ## What is a language
@@ -201,6 +202,14 @@ sc-howto-cite-item-3 = Bakeng sa Dingodiloeng tša sechaba tše sa humanegeng in
 
 ## ADD LANGUAGE
 
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] [0]fana ka mafoko.{ $duplicates } mafoko a kgane jwalo ka dilo tšepedi tša go swana.
+        [one] [one] Fana ka lefoko. { $duplicates }  lefoko le kgane jwalo ka ntwe tšepedi tša go swana.
+       *[other] *[other] Fana ka mafoko. { $duplicates } mafoko a kgane jwalo ka dilo tšepedi tša go swana.
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -223,6 +232,7 @@ sc-confirm-uploading = Mafoko a tsenywa. Se se ka tseya mitsutsu e malo go ya ka
 
 ## SETTINGS
 
+sc-settings-skipped-decription = o fitile mafoka ge o ntse o hlahloba. Go tsosološa mafoko a fitilweng go tla go bontša mafoko kamoka a fitilweng. Se siya ka polelo.
 
 # [/SentenceCollector]
 
