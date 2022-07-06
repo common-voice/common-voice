@@ -81,6 +81,7 @@ username-optin-public =
 
 ## Speak Shortcuts
 
+request-language-text = Awuliboni ilimi lakho ku-Common Voice?
 
 ## ProjectStatus
 
@@ -109,6 +110,10 @@ skip-submission-note =
 
 ## Profile - Email
 
+email-already-used = I-email le, sele isetjenziswe kwenye i-akhawundi
+change-email-setings =
+    Tjhugulula i-emailakho kumaSethingi ngaphasi kwengcenye 
+    yokuThungela
 
 ## FAQ
 
@@ -172,6 +177,7 @@ about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngo
 
 ## How do I add a language
 
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Bukela iinqophiso zethu kubona isetjenziswa njani iPontoon.</translateVideoLink>
 
 ## How does localization work
 
@@ -379,6 +385,7 @@ help-reach-hours-general-pluralized =
         [one] Siza iCommon Voice ifikelele  i-awara
        *[other] ama-awara ngelimi ozikhethele lona
     }
+which-goal-type = Ufuna ukuKhuluma, ukuLalela namkha kokubili?
 receiving-emails-info = Sele ukulungele ukufumana ama-email anjengeenkhumbuzo zemigomo, ituthukwakho yamva nje neendaba ezimalungana ne-Common Voice
 not-receiving-emails-info = Okwanje ufakwe ku-<bold>INGASI</bold> bona wamukele ama-email ngehloso yokukukhumbuza, ukukwazisa ngetuthuko neendaba ezimalungana ne-Common Voice
 help-share-goal = Sisiza sifumane amaphimbo angeziweko, yabelana ngomgomwakho
@@ -431,6 +438,8 @@ demo-language-select-card-header = ICommon Voice lihlalo elikhamba phambili epha
 demo-account-card-header =
     Akukakateleleki bona uvule i-akhawundi, 
     nanyana kusiza ukuba nayo
+demo-account-enter-email =
+    .label = Faka i-email bona uthumele i-link yokuzitlolisa
 
 ## Demo Contribute
 
@@ -458,6 +467,9 @@ contribution-misreadings-example-7-title = Sisayokusela ikofi.
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
 contribution-varying-pronunciations-example-2-explanation = [‘Ukukhuliswa’ ngesiNgisi kuphinyiselwa ngesilabhulu yinye ingasi ezimbili]
 contribution-background-noise-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kusuze ngaphandle kwalokha okhunye kuzwakala.
+contribution-background-noise-example-1-fixed-title =
+    <strong>[Sneeze]</strong> Iingorho 
+    ze- <strong>[cough]</strong> Triassic.
 contribution-background-voices-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kususe ngaphandle kwalokha okhunye kuzwakala.
 contribution-background-voices-example-1-title =
     Ingorho yeTriassic. 
@@ -510,9 +522,18 @@ sc-howto-findpd-tips-3 =
 
 ## MY SENTENCES
 
+sc-my-err-fetching =
+    Kube nomraro nasilinga ukufumana imitjho enomraro. Sibawa ulinge 
+    godu.
+sc-my-err-failed-delete =
+    Akukghonakali ukususa imitjho ekhethiweko... Sibawa ulinge 
+    godu!
 
 ## REJECTED
 
+sc-rejected-err-fetching =
+    Kube nomraro nasilinga ukufumana imitjho enomraro. Sibawa 
+    ulinge godu.
 
 ## STATS
 
@@ -540,6 +561,7 @@ sc-submit-filtered = Imitjho efakiweko ayikaphasi ngebanga lokungahlangabezani n
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-label = Faka ilimi ofuna ukunikela kilo
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
