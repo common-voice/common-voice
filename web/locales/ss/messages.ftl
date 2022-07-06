@@ -300,6 +300,7 @@ hidden = Lokufihlakele
 visible = Kuyabonakala
 native-language =
     .label = Lulwimi lwakini
+profile-form-add-accent = Ngeta indlela yakho lensha yekukhuluma "{ $inputValue }"
 profile-form-submit-save = Gcina
 profile-form-submit-saved = Lokugciniwe
 male = Lomdvuna
@@ -413,6 +414,7 @@ about-playbook-how-grow-language-content-6 = Kubambisana nekuchumana
 ## How are decisions made
 
 about-playbook-how-project-governance-content-3 = Kufihleka, tekuphepha nekutsembeka.
+about-playbook-how-project-governance-content-4 = Kutimbandzakanya kwemmango nekwenta tincumo.
 about-playbook-how-project-governance-content-5 = Linani nekunconywa
 about-playbook-how-project-governance-content-6 = Kwetsembeka lokufananako.
 
@@ -436,6 +438,7 @@ data-download-button = Download Common Voice Data
 data-download-yes = Yebo
 data-download-deny = Cha
 data-download-license = License: <licenseLink>CC-0</licenseLink>
+data-get-started = <speechBlogLink>Cala manje nge Speech recognition</speechBlogLink>
 data-other-title = Lamanye ema-Datasets emavi...
 data-other-goto = Hamba ku { $name }
 data-other-download = Download Data
@@ -507,6 +510,7 @@ other-language = Lolunye Lulwimi
 
 ## Request Language Pages
 
+request-language-heading = Buta ngelulwimi lolusha
 request-language-form-email =
     .label = Likheli leliposi lakho lembane
 request-language-form-info =
@@ -556,6 +560,7 @@ record-abort-title = Cedza kutfwebula kucala?
 record-abort-submit = Mikisa ticeshana
 record-abort-continue = Cedza kutfwebula
 record-abort-delete = Phuma phindze wesule ticephu letitfwebuliwe
+listen-3rd-time-instruction = 2 phasi, wente kahle! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
 speak-empty-state-cta = Nikela imisho
 record-button-label = Tfwebula livi lakho
@@ -738,6 +743,7 @@ sc-home-review-title = Buyeketa imisho
 ## HOW-TO
 
 sc-howto-title = Kwentiwa njani
+sc-howto-addlang-title = Adding languages to work with
 sc-howto-addsen-title = Ngeta imisho lemisha
 sc-howto-cite-title = Indlela yeku-Cite
 sc-howto-review-title = Buyeketa imisho
