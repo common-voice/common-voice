@@ -21,11 +21,15 @@ email-opt-in-info-sub-with-challenge =
 
 ## Home Page
 
+default-tagline =
+    IMozilla Common Voice izimisele ukusiza
+    ekufundiseni imitjhini bona abantu bamambala bakhuluma njani.
 no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa usisize sivale isikhalesi ngokuthi urekhode okuthileko njenga nje.
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
 
 ## Account Benefits
 
+join-newsletter = Nawuthandako ungangenela ihlelo lethu lokufumana zamva nje nge-email ufumane nemininingwana emitjha ngephrojekthi.
 
 ## What's public
 
@@ -59,6 +63,9 @@ skip-submission-note =
 
 faq-do-want-native-q = Leli akusililimi engilimunyileko begodu kuyezwakala lokho nangikhulumako. Nisalifuna iphimbo lami?
 faq-what-quality-q = Okurekhodiweko kufuze kube kiliphi izinga bona iphimbo lisetjenziswe ebulungelweni?
+faq-why-10k-hours-a =
+    Lawa ma-awara okungenzeka
+    ayatlhogeka bona ufake ikulumo emtjhinini.
 faq-why-not-ask-read-q = Kubayini ungakhuthazi abantu bona bafunde iincwadi namkha iinhloko eziku-Wikipedia ngamalimi ahlukahlukeneko?
 faq-what-determine-identity-q = Kutjho ukuthini ukuthi "angikghoni ukwazi bona ngubani okhulumako" ebulungelweni leCommon Voice
 faq-description = Iphimbo elijayelekileko liyingcenye yegadango elithethwe yi-Mozilla bona ifundise imitjhini ukuthi abantu bamambala bakhuluma njani.
@@ -108,6 +115,9 @@ about-playbook-how-access-dataset-content-2 = Nange funa amathulusi wokwakha ama
 
 ## Glossary
 
+localization-explanation =
+    Le yindlela yethu yokutjhugulula nokuvumelanisa esikwenzako
+    (namalimi) amanengi wendabuko.
 
 ## Error pages
 
@@ -155,6 +165,10 @@ language-section-in-progress-new-description = Umphakathi usawathuthukisa amalim
 
 ## Contribution
 
+listen-loading-error =
+    "Azikho iinqetjhana zokurekhodiweko esizifumanako
+    ongazilalela.
+    Sibawa ulinge godu esikhathini esizako."
 
 ## Reporting
 
@@ -164,6 +178,9 @@ language-section-in-progress-new-description = Umphakathi usawathuthukisa amalim
 
 ## Dashboard
 
+visibility-overlay-note =
+    Tjheja: Amasethingi wengcenye ethi 'Bonakala'
+    angatjhugululwa la <profileLink>ekhasini lePhrofayili</profileLink>
 
 ## Custom Goals
 
@@ -231,6 +248,9 @@ sc-languages-fetch-error =
 sc-howto-cite-item-2 = Ungasebenzisa indlela yokutlola yefundo ephakamileko isb. Harvard style "Mozilla (2021) Common Voice. Efumaneka ku-https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 sc-howto-cite-item-3 = Bona ufumane umtlolo ongekho ku-inthanethi, ungasebenzisa indlela yokutlola isb. Harvard style " Jess (2021) Ilayisensami yeenkondlo zophakathi"
 sc-howto-findpd-tips-1 = Imithombo ekhamba phambili ongaqala kiyo maphimbo arekhodiweko, okutloliweko, iinkripthi zamamuvi namkha nanyana ngimuphi umthombo othembekileko emumethe imikhulumiswano yaqobe lilanga.
+sc-howto-findpd-tips-3 =
+    Ngebhadi azikho iinhloko esizifumanako ku-Wikimedia.
+    Yeke ungakopi namkha ufake okuthileko endaweni le.
 
 ## MY SENTENCES
 
