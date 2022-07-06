@@ -344,6 +344,7 @@ browse-file-title = Faka sitfombe
 browse-file = Dvonsa futsi uyekele<browseWrap>Buka</browseWrap>
 connect-gravatar = Connect with Gravatar
 gravatar_not_found = Kute i-gravatar yeliposi lakho lembane letfolakele
+file_too_large = Lelifayela lolikhetsile likhulu kakhulu.
 avatar-uploaded = Avatar uploaded
 max-file-size = { $kb }kb max
 remove-avatar = Remove Avatar
@@ -414,6 +415,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = Le-site ye localization isebenta njani?
+about-playbook-how-localize-content-5 = Bukela i-video yetfu lechaza kabanti kuze usitakale.
 
 ## How to add sentences
 
@@ -500,6 +502,7 @@ size-megabyte = MB
 download-language = Download { $language }
 validated-hours = Lacinisekisiwe emahora
 recorded-hours = Latfwebuliwe emahora
+whats-inside = Kunani kule dataset yaka Common Voice?
 subscribe = Bhalisa
 get-started-speech = Vele ucale nge Speech Recognition
 other-datasets = Lamanye ema-Datasets emavi
@@ -750,6 +753,7 @@ contribution-misreadings-example-1-title = Ema dinosaur lamakhulu ase Triassic.
 contribution-misreadings-example-2-title = I dinosaur lenkhulu yase Triassic.
 contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
 contribution-misreadings-example-3-title = Ema dinosaur lamakhulu ase Triassi-
+contribution-misreadings-example-6-title = Siyaphuma siyotfola likhofi.
 contribution-misreadings-example-6-explanation = [Should be “We are”]
 contribution-misreadings-example-7-explanation = [No ‘a’ in the original text]
 contribution-misreadings-example-8-title = The bumblebee sped by.
@@ -806,6 +810,8 @@ sc-howto-addlang-title = Kungeta tilwimi lotosebenta ngato
 sc-howto-addsen-title = Ngeta imisho lemisha
 sc-howto-cite-title = Indlela yeku-Cite
 sc-howto-review-title = Buyeketa imisho
+sc-howto-review-criteria-1 = Lomusho kumele ubhaleke kahle.
+sc-howto-review-criteria-2 = Lomusho kumele ube bete emaphutsa.
 sc-howto-review-criteria-3 = Lomusho kumele ukhulumeke.
 sc-howto-findpd-subtitle = Phenya ku-internet
 sc-howto-findpd-subtitle-2 = Timbandzakanye netinkapani noma tinhlangano talakhaya.
@@ -887,6 +893,8 @@ sc-personal-remove-button = susa
 
 sc-criteria-modal = ⓘ Buyeketa Luhla
 sc-criteria-title = Buyeketa luhla
+sc-criteria-item-1 = Lomusho kumele ubhaleke kahle.
+sc-criteria-item-2 = Lomusho kumele ube bete emaphutsa.
 sc-criteria-item-3 = Lomusho kumele ukhulumeke.
 
 ## REVIEW
