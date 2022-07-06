@@ -67,7 +67,6 @@ about-header-description-v2 = Theknolotši ya go tlhathollo lentšu e fetola tse
 
 ## How does it work section
 
-about-stay-in-touch-text-1 = <emailFragment>Ngwadisa</emailFragment> go leththamong la rena la mangolo go ithutha gore na o ka tšea karolo jwang matsolong liketsahalong le dikarolo tša moralo o kopanetšeng go Common Voice.
 
 ## Community Playbook Content
 ## What is a language
@@ -108,7 +107,6 @@ about-stay-in-touch-text-1 = <emailFragment>Ngwadisa</emailFragment> go leththam
 
 ## Datasets Page
 
-resource-playbook-info = <playbookLink>Kgwetša keletšo ya maleba <playbookLink> kgo leeto le feletšeng la Common Voice, go tloga kgo mo o dulang gona go ya kgo tirišo ya datha, le kgo re le kopana jwang le baagi.
 
 ## Download Modal
 
@@ -121,7 +119,6 @@ resource-playbook-info = <playbookLink>Kgwetša keletšo ya maleba <playbookLink
 
 ## Request Language Pages
 
-request-language-explanation-2 = Le rena re tla <strong> tsibiša moeta phila wa ba dudi gore o na le kgahlego <strong>kore ba go fe thekgo tsebo e o ka e thlokang.
 
 ## Languages Overview
 
@@ -140,8 +137,6 @@ request-language-explanation-2 = Le rena re tla <strong> tsibiša moeta phila wa
 
 ## Custom Goals
 
-# LINK will be replaced with the current URL
-goal-share-text = ke fetša go aga sepheo sa motho sa go fana ka lentšwe go #CommonVoice -- a re tlakane ong thuše go ruta motšhene gore na batho ba nnete ba bulela jwang { $link }
 
 ## Profile Delete
 
@@ -186,7 +181,6 @@ goal-share-text = ke fetša go aga sepheo sa motho sa go fana ka lentšwe go #Co
 
 ## HOW-TO
 
-sc-howto-cite-item-3 = Bakeng sa Dingodiloeng tša sechaba tše sa humanegeng inthaneteng, o ka berekiša tshupišo ya thuto e.g setaele sa Harvard "Jess (2021) My Public licence poems"
 
 ## MY SENTENCES
 
@@ -202,18 +196,9 @@ sc-howto-cite-item-3 = Bakeng sa Dingodiloeng tša sechaba tše sa humanegeng in
 
 ## ADD LANGUAGE
 
-# Variables:
-#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
-sc-add-result =
-    { $duplicates ->
-        [0] [0]fana ka mafoko.{ $duplicates } mafoko a kgane jwalo ka dilo tšepedi tša go swana.
-        [one] [one] Fana ka lefoko. { $duplicates }  lefoko le kgane jwalo ka ntwe tšepedi tša go swana.
-       *[other] *[other] Fana ka mafoko. { $duplicates } mafoko a kgane jwalo ka dilo tšepedi tša go swana.
-    }
 
 ## ADD SENTENCES CONFIRMATION
 
-sc-confirm-uploading = Mafoko a tsenywa. Se se ka tseya mitsutsu e malo go ya ka gore ke mafoko a ma kae. Re Kgopela o ske wa tswalela wepsaete.
 
 ## LANGUAGE INFO
 
@@ -232,7 +217,6 @@ sc-confirm-uploading = Mafoko a tsenywa. Se se ka tseya mitsutsu e malo go ya ka
 
 ## SETTINGS
 
-sc-settings-skipped-decription = o fitile mafoka ge o ntse o hlahloba. Go tsosološa mafoko a fitilweng go tla go bontša mafoko kamoka a fitilweng. Se siya ka polelo.
 
 # [/SentenceCollector]
 
