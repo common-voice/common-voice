@@ -102,6 +102,9 @@ faq-description = Iphimbo elijayelekileko liyingcenye yegadango elithethwe yi-Mo
 
 ## How does it work section
 
+about-speak-text =
+    Abanikelako barekhoda amaphimbwabo ngokufunda 
+    imitjho ekunikelwe ngayo.
 about-listen-queue-text =
     Iinqetjhana ezilalelwako zifakwa erhelweni
     elilungiselela ukulalelwa.
@@ -170,6 +173,7 @@ sentence-collection-explanation =
 
 data-subtitle = Sakha ibulungelo lamaphimbo arekhodiweko angasetjenziswa ngiwo woke umuntu bona angawasebenzisa ukubandula iinsetjenziswa bona zikhulume ikulumo eyamukeleko.
 data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
+review-terms = Ngokusebenzisa iCommon Voice, uvumelana ne <termsLink>Mibandela</termsLink> kunye ne <privacyLink>Nemigomo</privacyLink>
 
 ## Datasets Page
 
