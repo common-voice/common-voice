@@ -279,6 +279,7 @@ report-offensive-language-detail = Umusho unolimi olungenanhlonipho noma olunenh
 report-grammar-or-spelling-detail = Umusho unephutha lohlelo noma lokubhalwa kwegama.
 report-different-language-detail = Ibhalwe ngolimi oluhlukile kunalokhu engikukhulumayo.
 report-difficult-pronounce-detail = Iqukethe amagama noma imishwana okunzima ukuyifunda noma ukuyibiza.
+report-offensive-speech-detail = Isiqeshana sinolimi olungenanhlonipho noma oluhlambalazayo.
 
 ## Goals
 
