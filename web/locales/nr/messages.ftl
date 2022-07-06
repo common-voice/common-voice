@@ -336,6 +336,7 @@ record-platform-not-supported-ios-non-safari =
     Ku-iOS sibawa uragele phambili ngeSafari bona ukghone 
     ukurekhoda...
 review-tooltip = Buyekeza bewurekhode kabutjha khona la
+record-abort-text = Nawuphuma nje uzokulahlekelwa ngosele ukwenzile
 listen-empty-state =
     Asisenayo imitjho engaqinisekiswa 
     ngelimeli...
@@ -372,6 +373,7 @@ report-different-language-detail =
 report-difficult-pronounce-detail =
     Kunamezwi namkha amagama okubudisi 
     ukuwafunda namkha ukuwaphimisela.
+report-offensive-speech-detail = Okurekhodiweko kunamezwi adelelako namkha alumelako.
 
 ## Goals
 
@@ -392,6 +394,7 @@ goal-type = Ngimuphi umgomo ofuna ukuzibekela wona?
 lose-goal-progress-warning =
     Nawutjhentjha umgomo ungalahlekelwa 
     yituthukwakho.
+lose-changes-warning = Nawuphuma nje uzokulahlekelwa matjhuguluko owenzileko
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] Sisiza sifikelele i-awara
@@ -409,12 +412,14 @@ help-share-goal = Sisiza sifumane amaphimbo angeziweko, yabelana ngomgomwakho
 # LINK will be replaced with the current URL
 goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -- sebenzisana nami sifundise imitjhini ukuthi abantu bamambala bakhuluma njani { $link }
 track-progress = Fumana ituthukwakho la nekhasi lakho leembalobalo.
+return-to-edit-goal = Buyela la bona ulungise imigomakho nanyana kunini.
 
 ## Profile Delete
 
 
 ## Profile Download
 
+download-info = Sitjela ukuthi khuyini ofuna ukuyidawuniloda:
 download-profile-info =
     Faka i-email, igama nemininingwanakho 
     khona nje
@@ -437,6 +442,7 @@ download-request-modal-description = Naka ama-link ongadawunilowuda kiwo amafaye
 ## Landing
 
 help-contribute = Ungasiza ngemininingwana ehlukahlukeneko ekuthuthukiseni i-Common Voice begodu unikele nangephimbo lako.
+login-company = Thungela / Tlolisa nge-email ye { $company }
 profile-not-required =
     Kuhle ukuba neprhofayili bona unikele
     Nanyana kunjalo, qala ngenzasi ukuthi kubayini.
@@ -480,10 +486,13 @@ contribution-misreadings-description-extended-list-3 = Ukufunda okuthileko okung
 contribution-misreadings-description-extended-list-4 =
     Kulahleke amezwi wokugcina
     ngombana ujamise ukurekhoda msinyana.
+contribution-misreadings-description-extended-list-5 = Ukulinga kanengana ukufunda igama.
 contribution-misreadings-example-3-explanation = [Ukujamisa ukurekhoda ngaphambi kwegama lokugcina]
+contribution-misreadings-example-4-title = IngorhoyeTriassic. Iye.
 contribution-misreadings-example-4-explanation = [Kurekhodwe okunengi ukudlula ebegade kutlhogeka]
 contribution-misreadings-example-5-title = Sisayokusela ikofi.
 contribution-misreadings-example-7-title = Sisayokusela ikofi.
+contribution-varying-pronunciations-example-1-title = Umbethe ibherede ehlokwakhe.
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
 contribution-varying-pronunciations-example-2-explanation = [‘Ukukhuliswa’ ngesiNgisi kuphinyiselwa ngesilabhulu yinye ingasi ezimbili]
 contribution-background-noise-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kusuze ngaphandle kwalokha okhunye kuzwakala.
@@ -536,6 +545,7 @@ sc-howto-review-criteria-4 =
 sc-howto-review-criteria-6 =
     Nange ingasekho imitjho ongayibuyekeza sibawa
     usisize sifumane imitjho eyengeziweko!
+sc-howto-findpd-tips = Nanzi ezinye iinyeleliso zokufumana imitjho:
 sc-howto-findpd-tips-1 = Imithombo ekhamba phambili ongaqala kiyo maphimbo arekhodiweko, okutloliweko, iinkripthi zamamuvi namkha nanyana ngimuphi umthombo othembekileko emumethe imikhulumiswano yaqobe lilanga.
 sc-howto-findpd-tips-3 =
     Ngebhadi azikho iinhloko esizifumanako ku-Wikimedia.
@@ -680,6 +690,7 @@ sc-criteria-item-6 =
 ## REVIEW
 
 sc-review-lang-not-selected = Awekho amalimi owakhethileko. Sibawa uye ku <profileLink>Profayilakho</profileLink> bona ukhethe amalimi.
+sc-review-select-language = Sibawa ukhethe ilimi bona ubuyekeze imitjho.
 sc-review-no-sentences =
     Ayikho imitjho ongayibuyekeza. <addLink>Faka 
     imitjho engeziweko khona nje!</addLink>
