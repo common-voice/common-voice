@@ -66,6 +66,7 @@ join-newsletter = Nawuthandako ungangenela ihlelo lethu lokufumana zamva nje nge
 
 ## What's public
 
+email-not-public = Angekhe sabelane nge-email yakho.
 recordings-and-locale-public =
     Inani lokurekhodiweko namalimi osize ngawo
     kuzokubona nginanyana ngubani.
@@ -132,6 +133,7 @@ faq-do-want-native-q = Leli akusililimi engilimunyileko begodu kuyezwakala lokho
 faq-why-different-speakers-q =
     Kubayini sitlhoga abantu abanengi 
     elimini elilodwa?
+faq-why-my-lang-q = Kubayini ilimi lami lingakafakwa?
 faq-what-quality-q = Okurekhodiweko kufuze kube kiliphi izinga bona iphimbo lisetjenziswe ebulungelweni?
 faq-why-10k-hours-q =
     Kubayini ama-awara azi-10 000 atlhogeka bona kurekhodwe
@@ -139,6 +141,7 @@ faq-why-10k-hours-q =
 faq-why-10k-hours-a =
     Lawa ma-awara okungenzeka
     ayatlhogeka bona ufake ikulumo emtjhinini.
+faq-where-src-from-2-q = Ukuphi umthombo wemitlolo?
 faq-why-not-ask-read-q = Kubayini ungakhuthazi abantu bona bafunde iincwadi namkha iinhloko eziku-Wikipedia ngamalimi ahlukahlukeneko?
 faq-why-account-q = Kubayini kufuze ngivule i-akhawundi?
 faq-how-privacy-q =
@@ -158,6 +161,7 @@ about-sentence-collection-subtitle = Imitjho ibuthelelwe ukwenzela bona umuntu a
 about-new-lang-subtitle =
     Sethula ikhasi le-Common Voice ngokusemthethweni 
     ngelimeli.
+about-dataset-release-subtitle = Sitjhaphulula okurekhodiweko qobe eenyangeni ezi-3.
 about-subscribe-text = Ufuna ukuhlala uthintana ne-Common Voice?
 about-speak-text =
     Abanikelako barekhoda amaphimbwabo ngokufunda 
@@ -174,10 +178,14 @@ about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngo
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Ngiliphi ilimi elikuCommon Voice?
 
 ## How do I add a language
 
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Bukela iinqophiso zethu kubona isetjenziswa njani iPontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-content-1 =
+    <sentenceCollectorVideo>Bukela 
+    iinqophiso zethu kuzoKubuthelela iMitjho</sentenceCollectorVideo>.
 
 ## How does localization work
 
@@ -243,6 +251,7 @@ sst-explanation = Ikulumo etlolwa phasi (STT) itjhugululwa iba liphimbo
 
 ## Error pages
 
+error-title-404 = Asilifumani ikhasi olifunako
 
 ## Data
 
@@ -343,6 +352,7 @@ speak-loading-error =
     Sibawa ulinge ngesikhathi esilandelako."
 keep-track-profile = Tjheja ituthukwakho ngephrofayili
 login-to-get-started = Thungela namkha uzitlolise bona uthome
+target-segment-first-card = Unikela engcenyeni yethu yokuthoma
 target-segment-first-banner =
     Siza ngokwenza iCommon Voice ikhambe 
     phambili ku { $locale }
@@ -352,6 +362,9 @@ target-segment-first-banner =
 report-ask =
     Ngibuphi ubudisi ohlangabezana nabo ngemitjho
     le?
+report-offensive-language-detail =
+    Imitjho le itjengisa ukudelela namkha inamagama 
+    alumelako.
 report-grammar-or-spelling-detail = Umutjho unomraro wokutlola nokupeleda.
 report-different-language-detail =
     Kutlolwe ngelimi elihlukileko 
@@ -365,6 +378,10 @@ report-difficult-pronounce-detail =
 
 ## Dashboard
 
+todays-recorded-progress = Ituthuko yanamhlanjesi yokurekhodwe kuCommon Voice
+todays-validated-progress =
+    Okuphasisiweko namhlanjesi okurekhodwe 
+    kuCommon Voice
 visibility-overlay-note =
     Tjheja: Amasethingi wengcenye ethi 'Bonakala'
     angatjhugululwa la <profileLink>ekhasini lePhrofayili</profileLink>
@@ -411,6 +428,7 @@ download-recently-requested =
     Ungabawa okurekhodileko 
     woke malanga { $days }
 download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufake efayilini yinye namkha emafayilini amanengi we-ZIP. Nakhu okubawe esikhathini esidlulileko:
+download-request-description = { $clipCount } amaphimbo, inani lokubulungiweko { $size }. Phelelwe sikhathi { $expires }.
 download-request-assembling-description =
     Amafayela wakho sele ahlanganisiwe. Sibawa uhlole 
     godu ngemva kwesikhatjhana.
@@ -463,6 +481,8 @@ contribution-misreadings-description-extended-list-4 =
     Kulahleke amezwi wokugcina
     ngombana ujamise ukurekhoda msinyana.
 contribution-misreadings-example-3-explanation = [Ukujamisa ukurekhoda ngaphambi kwegama lokugcina]
+contribution-misreadings-example-4-explanation = [Kurekhodwe okunengi ukudlula ebegade kutlhogeka]
+contribution-misreadings-example-5-title = Sisayokusela ikofi.
 contribution-misreadings-example-7-title = Sisayokusela ikofi.
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
 contribution-varying-pronunciations-example-2-explanation = [‘Ukukhuliswa’ ngesiNgisi kuphinyiselwa ngesilabhulu yinye ingasi ezimbili]
@@ -485,6 +505,7 @@ contribution-background-voices-example-1-title =
 
 ## HOME
 
+sc-home-title = Uyamukelwa ku-Common Voice Collector
 sc-home-collect-text =
     Sisiza ngokutlola namkha ngokubuthelele imitjho 
     eyamuKelekako eMphakathini.
@@ -552,6 +573,9 @@ sc-submit-prompt =
     .message =
         Imitjho ayikathunyelwa. Unesiqiniseko 
         sokobana ufuna ukuphuma?
+sc-submit-from-where =
+    Ibuyaphi imitjho le? <wikipediaLink>yehlelo 
+    lomphakathi</wikipediaLink>
 sc-submit-ph-read-how-to =
     .placeholder = Funda ingcenye ethi Ungakwenza njani nange ungaqiniseki bona unganikela njani
 sc-submit-confirm =
@@ -641,6 +665,7 @@ sc-lang-info-rejected =
 
 ## PROFILE
 
+sc-personal-not-added = Alikho ilimi olifakileko.
 
 ## REVIEW CRITERIA
 
