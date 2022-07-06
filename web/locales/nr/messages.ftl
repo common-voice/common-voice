@@ -5,6 +5,9 @@ email-opt-in-info = Ngingakuthabela ukufumana ama-email akhuluma ngeenkhumbuzo z
 email-opt-in-info-sub-with-challenge =
     Fumana ama-email akhuluma ngephaliswano, iinkhumbuzo zemigomo,
     ituthuko yamva nje neendaba zeCommon Voice.
+banner-error-slow-2 =
+    Sinomjeje omude khulu begodu sisafunisisa
+    ukuthi kubayini.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -35,6 +38,12 @@ speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekile
 
 ## Account Benefits
 
+improve-audio =
+    Imininingwana yephrofayili ithuthukisa ihlelo lokurekhodiweko
+    ekulumweni yokufundisa enembileko.
+compare-progress =
+    Qala ituthukwakho nayimadaniswa neyabanye
+    abafaka isandla ephasini mazombe.
 join-newsletter = Nawuthandako ungangenela ihlelo lethu lokufumana zamva nje nge-email ufumane nemininingwana emitjha ngephrojekthi.
 
 ## What's public
@@ -75,6 +84,9 @@ skip-submission-note =
 
 faq-do-want-native-q = Leli akusililimi engilimunyileko begodu kuyezwakala lokho nangikhulumako. Nisalifuna iphimbo lami?
 faq-what-quality-q = Okurekhodiweko kufuze kube kiliphi izinga bona iphimbo lisetjenziswe ebulungelweni?
+faq-why-10k-hours-q =
+    Kubayini ama-awara azi-10 000 atlhogeka bona kurekhodwe
+    ngelimi ngalinye?
 faq-why-10k-hours-a =
     Lawa ma-awara okungenzeka
     ayatlhogeka bona ufake ikulumo emtjhinini.
@@ -108,6 +120,9 @@ about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngo
 
 ## How does localization work
 
+about-playbook-how-localize-content-4 =
+    Ikhaseli lizabe likulungele ukwethulwa ngokusemthethweni
+    nasele lifikelele ku-70%.
 
 ## How to add sentences
 
@@ -202,9 +217,16 @@ listen-loading-error =
     "Azikho iinqetjhana zokurekhodiweko esizifumanako
     ongazilalela.
     Sibawa ulinge godu esikhathini esizako."
+speak-loading-error =
+    "Ayikho imitjho esiyifumanako
+    ongayitjho.
+    Sibawa ulinge ngesikhathi esilandelako."
 
 ## Reporting
 
+report-difficult-pronounce-detail =
+    Kunamezwi namkha amagama okubudisi 
+    ukuwafunda namkha ukuwaphimisela.
 
 ## Goals
 
@@ -252,6 +274,9 @@ profile-not-required =
 
 ## Demo Account
 
+demo-account-card-header =
+    Akukakateleleki bona uvule i-akhawundi, 
+    nanyana kusiza ukuba nayo
 
 ## Demo Contribute
 
@@ -289,6 +314,9 @@ sc-languages-fetch-error =
 
 ## HOW-TO
 
+sc-howto-addlang-text =
+    Nasele uthungele ungakghona ukukhetha amalimi
+    owafunako erhelweni.
 sc-howto-cite-item-2 = Ungasebenzisa indlela yokutlola yefundo ephakamileko isb. Harvard style "Mozilla (2021) Common Voice. Efumaneka ku-https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 sc-howto-cite-item-3 = Bona ufumane umtlolo ongekho ku-inthanethi, ungasebenzisa indlela yokutlola isb. Harvard style " Jess (2021) Ilayisensami yeenkondlo zophakathi"
 sc-howto-review-criteria-6 =

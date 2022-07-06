@@ -4,3 +4,6 @@ get-involved-opt-in = Iye, ngithumelani ama-email. Ngingakuthabela ukuhlala ngin
 get-involved-privacy-info =
     Sithembisa ukugcina imininingwana yakho iyifihlo.
     Funda okwengeziweko ngesaZiso sethu sezinto eziyiFihlo<privacyLink>Nemigomo</privacyLink>.
+get-involved-success-text =
+    Sizokubuya nemininingwana eyengeziweko
+    nasele ifumaneka.
