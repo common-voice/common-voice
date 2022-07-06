@@ -703,6 +703,7 @@ profile-form-delete = Yesula likhasi
 ## Profile Download
 
 download-q = Udzinga ku download i-data yakho?
+download-info = Sitjele kutsi ungatsandza ku download ini:
 download-profile-title = Likhasi lelichaza kabanti ngawe
 download-profile-size = A few bytes
 download-recordings-title = Lokutfwebuliwe
@@ -759,6 +760,7 @@ contribution-criteria-link = Condzisisa luhla lwekulekelela
 contribution-criteria-page-title = Luhla lwekulekelela
 contribution-for-example = kubekisa
 contribution-misreadings-title = Lokufundvwe kabi
+contribution-misreadings-description-extended-list-5 = Kutsatsa emahlandla kufundza ligama.
 contribution-misreadings-example-1-title = Ema dinosaur lamakhulu ase Triassic.
 contribution-misreadings-example-2-title = I dinosaur lenkhulu yase Triassic.
 contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
