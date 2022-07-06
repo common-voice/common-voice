@@ -571,7 +571,7 @@ about-playbook-how-add-language-translating-content-2 =
     For derefter at gøre sproget tilgængeligt i Common Voice-projektet,
     <githubRepoLink>anmod om det nye sprog på GitHub</githubRepoLink>. <localizationFragment>Læs mere om oversættelse af webstedet</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Indsamling af sætninger
-about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Se vores vejledning i, hvordan du bruger Sætningsindsamleren.</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Se vores vejledning i, hvordan du bruger Sætningsindsamleren</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     Du kan <sentenceCollectorLinkAdd>tilføje et mindre antal sætninger</sentenceCollectorLinkAdd>,
     eller du kan foretage <bulkImportDocsLink>masseimporter via Github</bulkImportDocsLink>.
