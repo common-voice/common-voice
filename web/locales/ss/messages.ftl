@@ -601,6 +601,7 @@ review-instruction = Buyeketa uphindze utfwebule kabusha ticephu uma kudzingekil
 record-submit-tooltip = { $actionType } mikisa uma ulungele
 clips-uploaded = Ticephu leti-uploadiwe
 record-abort-title = Cedza kutfwebula kucala?
+record-abort-text = Kuhamba nyalo kusho kutsi utolahlekelwa yinchubo yakho
 record-abort-submit = Mikisa ticeshana
 record-abort-continue = Cedza kutfwebula
 record-abort-delete = Phuma phindze wesule ticephu letitfwebuliwe
@@ -668,6 +669,7 @@ difficult-difficulty = Kulikhuni
 pro-difficulty = Pro
 want-to-continue = Uyafuna kuchubeka?
 finish-editing = Cedzela kulungisa kucala?
+lose-changes-warning = Kuhamba nyalo kusho kutsi utolahlekelwa tingucuko lotentile
 build-custom-goal = Yakha ligoli lakho
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
@@ -689,6 +691,7 @@ share-goal-type-listen = Ulalele
 share-goal-type-both = Kukhuluma nekulalela
 weekly-goal-created = Ligoli lakho leliviki selakhekile
 daily-goal-created = Ligoli lakho lelilanga selakhekile
+return-to-edit-goal = Buyela lana utokhona kushintja ligoli lakho lanoma kunini.
 share-goal = Yaba ligoli lami
 
 ## Profile Delete
@@ -765,6 +768,7 @@ contribution-misreadings-example-6-explanation = [Should be “We are”]
 contribution-misreadings-example-7-explanation = [No ‘a’ in the original text]
 contribution-misreadings-example-8-title = The bumblebee sped by.
 contribution-varying-pronunciations-title = Tindlela tekukhuluma letehlukahlukene
+contribution-varying-pronunciations-example-1-title = Enhloko yakhe bekagcoke i-beret.
 contribution-varying-pronunciations-example-2-title = Sandla sakhe besiphakam-ile.
 contribution-background-noise-title = Imisindvo lengemuva
 contribution-background-noise-example-2-fixed-title = The giant dino <strong>[cough]</strong> the Triassic.
@@ -823,6 +827,7 @@ sc-howto-review-criteria-2 = Lomusho kumele ube bete emaphutsa.
 sc-howto-review-criteria-3 = Lomusho kumele ukhulumeke.
 sc-howto-findpd-title = Kutfola imisho levele ikhona ku Public Domain
 sc-howto-findpd-subtitle = Phenya ku-internet
+sc-howto-findpd-tips = Nati tinsita tekutfola imisho
 sc-howto-findpd-subtitle-2 = Timbandzakanye netinkapani noma tinhlangano talakhaya.
 
 ## MY SENTENCES
@@ -911,6 +916,7 @@ sc-criteria-item-3 = Lomusho kumele ukhulumeke.
 
 sc-review-title = Buyeketa imisho
 sc-review-loading = Sisafaka imisho…
+sc-review-select-language = Sicela ukhetse lulwimi lotobuyeketa ngalo imisho.
 sc-review-form-prompt =
     .message = Imisho lebuyeketiwe ayikamikiswa, unesiciniseko saloko?
 # Variables:
