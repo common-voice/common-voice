@@ -498,6 +498,7 @@ request-language-form-email =
     .label = Likheli leliposi lakho lembane
 request-language-form-info =
     .label = Umniningwane ngalolulwimi
+request-language-form-info-explanation-list-1 = Emagama elulwimi lwakho
 request-language-form-info-explanation-list-2 = </addLink>Ema Code aka ISO </addLink> uma khona lowatiko
 
 ## Languages Overview
@@ -738,6 +739,7 @@ sc-my-deleting = Yesula imisho lekhetsiwe…
 
 sc-rejected-title = Lejikisiwe Imisho
 sc-rejected-loading = Sisalungisa imisho lejikisiwe...
+sc-rejected-none-found = Kute imisho lejikisiwe letfoliwe!
 
 ## STATS
 
@@ -751,6 +753,8 @@ sc-submit-title = Ngeta imisho
 sc-submit-select-language =
     .labelText = Khetsa Lulwimi
 sc-submit-add-sentences = Ngeta <wikipediaLink>public domain</wikipediaLink> Imisho
+sc-submit-ph-one-per-line =
+    .placeholder = Umusho munye ngelilayinini
 sc-submit-button =
     .submitText = Mikisa
 
