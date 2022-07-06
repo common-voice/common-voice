@@ -140,6 +140,7 @@ about-playbook-how-validate = Ngazi kanjani ukuthi ngigunyaze isiqeshana sezwi?
 
 ## How to access dataset
 
+about-playbook-how-access-dataset-content-2 = Uma ufuna amathuluzi okwakha amamodeli e-ASR, ungakwazi ukuxhumana nabanye abantu emphakathini <discourseLink>on Discourse</discourseLink>.
 
 ## How are decisions made
 
@@ -384,6 +385,14 @@ sc-add-result =
         [one] Imisho ethunyelwe. { $duplicates } umisho unqatshiwe njengempinda.
        *[other] Imisho ethunyelwe. { $duplicates } imisho inqatshiwe njengezimpinda.
     }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Ayikho imisho ehlulekile
+        [one] umusho ongu-1 wehlulekile
+       *[other] { $sentences } imisho yehlulekile
+    }
 sc-add-lang-process-notice = Uma ulimi lwakho lungekho ohlwini lapha, ungalucela <languageProcessLink>ngale nqubo</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
@@ -412,6 +421,14 @@ sc-confirm-uploading = Imisho iyalayishwa. Lokhu kungathatha imizuzu embalwa kuy
 ## LANGUAGE INFO
 
 # Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Ayikho ingqikithi yemisho.
+        [one] usuwonke umusho o-1.
+       *[other] { $totalSentences } ingqikithi yemisho
+    }
+# Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
@@ -434,6 +451,14 @@ sc-lang-info-validated =
         [0] Ayikho imisho eqinisekisiwe.
         [one] umusho oqinisekisiwe o-1.
        *[other] { $validatedSentences } imisho eqinisekisiwe.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ayikho imisho enqatshiwe.
+        [one] umusho owenqatshiwe u-1.
+       *[other] { $rejectedSentences } imisho enqatshiwe.
     }
 
 ## LOGIN
