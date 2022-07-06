@@ -340,6 +340,7 @@ faq-search-for-answers =
 
 ## ABOUT US
 
+about-title = Leni Common Voice?
 
 ## How does it work section
 
@@ -483,6 +484,8 @@ other-language = Lolunye Lulwimi
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = Likheli leliposi lakho lembane
 
 ## Languages Overview
 
