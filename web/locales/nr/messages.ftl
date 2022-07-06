@@ -57,6 +57,9 @@ join-newsletter = Nawuthandako ungangenela ihlelo lethu lokufumana zamva nje nge
 recordings-and-locale-public =
     Inani lokurekhodiweko namalimi osize ngawo
     kuzokubona nginanyana ngubani.
+username-optin-public =
+    Ungazikhethela bona ufuna igama ozibiza ngalo libonwe babantu 
+    namkha awa.
 
 ## Speak & Listen Shortcuts
 
@@ -88,10 +91,16 @@ skip-submission-note =
 
 ## FAQ
 
+faq-when-release2-q =
+    Nizolitjhaphulula nini ihlelo leCommmon Voice 
+    ngamanye amalimi?
 faq-is-goal-assistant-q =
     Kghani umngomo weCommon Voice kukwenza amaphimbo 
     azosisiza?
 faq-do-want-native-q = Leli akusililimi engilimunyileko begodu kuyezwakala lokho nangikhulumako. Nisalifuna iphimbo lami?
+faq-why-different-speakers-q =
+    Kubayini sitlhoga abantu abanengi 
+    elimini elilodwa?
 faq-what-quality-q = Okurekhodiweko kufuze kube kiliphi izinga bona iphimbo lisetjenziswe ebulungelweni?
 faq-why-10k-hours-q =
     Kubayini ama-awara azi-10 000 atlhogeka bona kurekhodwe
@@ -186,6 +195,7 @@ hours-recorded-explanation =
 
 ## Data
 
+data-download-modal = Sele ukulungele ukudawuniloda i <size>{ $size }GB</size>, uyaraga?
 data-subtitle = Sakha ibulungelo lamaphimbo arekhodiweko angasetjenziswa ngiwo woke umuntu bona angawasebenzisa ukubandula iinsetjenziswa bona zikhulume ikulumo eyamukeleko.
 data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
 review-terms = Ngokusebenzisa iCommon Voice, uvumelana ne <termsLink>Mibandela</termsLink> kunye ne <privacyLink>Nemigomo</privacyLink>
@@ -239,10 +249,19 @@ language-section-in-progress-new-description = Umphakathi usawathuthukisa amalim
 
 ## Contribution
 
+goal-help-recording =
+    Usize iCommon Voice 
+    <goalPercentage></goalPercentage> umgomo welanga { $goalValue } wokurekhoda!
+goal-help-validation =
+    Usize iCommon Voice ukufikelela 
+    <goalPercentage></goalPercentage> umgomo wokuqinisekisa { $goalValue } welanga!
 listen-loading-error =
     "Azikho iinqetjhana zokurekhodiweko esizifumanako
     ongazilalela.
     Sibawa ulinge godu esikhathini esizako."
+speak-empty-state =
+    Ayisekho imitjho engarekhodwa 
+    ngelimeli...
 speak-loading-error =
     "Ayikho imitjho esiyifumanako
     ongayitjho.
@@ -357,6 +376,7 @@ sc-languages-fetch-error =
 sc-howto-addlang-text =
     Nasele uthungele ungakghona ukukhetha amalimi
     owafunako erhelweni.
+sc-howto-cite-item-1 = Ungahlanganisa newebhusayidi, isb. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa indlela yokutlola yefundo ephakamileko isb. Harvard style "Mozilla (2021) Common Voice. Efumaneka ku-https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 sc-howto-cite-item-3 = Bona ufumane umtlolo ongekho ku-inthanethi, ungasebenzisa indlela yokutlola isb. Harvard style " Jess (2021) Ilayisensami yeenkondlo zophakathi"
 sc-howto-review-criteria-6 =
