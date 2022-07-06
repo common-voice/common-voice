@@ -432,6 +432,7 @@ about-playbook-how-project-governance-content-3 = Kufihleka, tekuphepha nekutsem
 about-playbook-how-project-governance-content-4 = Kutimbandzakanya kwemmango nekwenta tincumo.
 about-playbook-how-project-governance-content-5 = Linani nekunconywa
 about-playbook-how-project-governance-content-6 = Kwetsembeka lokufananako.
+about-playbook-how-project-governance-content-7 = <governanceLink>Fundza kabanti ngekutsi sengamelwe kanjani</governanceLink>
 
 ## Glossary
 
@@ -564,6 +565,7 @@ shortcuts = Tindlela tekujubelisa
 goal-help-recording = { "" }
 record-cta = Cala kutfwebula
 record-platform-not-supported-desktop = { "" }
+record-must-allow-microphone = Vumela kusebenta kwembobho.
 record-no-mic-found = Kute umbhobho lotfolakele.
 record-error-too-short = Le recording beyiyimfisha kakhulu.
 record-error-too-long = Le recording beyiyindze kakhulu.
@@ -583,6 +585,7 @@ record-abort-title = Cedza kutfwebula kucala?
 record-abort-submit = Mikisa ticeshana
 record-abort-continue = Cedza kutfwebula
 record-abort-delete = Phuma phindze wesule ticephu letitfwebuliwe
+listen-instruction = { $actionType }<playIcon></playIcon> bawukhulume kahle lomusho?
 listen-3rd-time-instruction = 2 phasi, wente kahle! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
 speak-empty-state-cta = Nikela imisho
@@ -701,6 +704,7 @@ card-button-next = Lokulandzelako
 card-button-back = Emuva
 demo-language-select-label = Funa lulwimi
 demo-eofy-header = 2019 End-of-Year Release
+demo-eofy-sub_header = Voice Dataset, Ready for Download
 demo-account = i-Account
 
 ## Demo Account
@@ -724,11 +728,14 @@ contribution-for-example = kubekisa
 contribution-misreadings-title = Lokufundvwe kabi
 contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
 contribution-misreadings-example-6-explanation = [Should be “We are”]
+contribution-misreadings-example-7-explanation = [No ‘a’ in the original text]
 contribution-misreadings-example-8-title = The bumblebee sped by.
 contribution-varying-pronunciations-title = Tindlela tekukhuluma letehlukahlukene
 contribution-varying-pronunciations-example-2-title = Sandla sakhe besiphakam-ile.
 contribution-background-noise-title = Imisindvo lengemuva
+contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> ema-dinasaur lamakhulu ase <strong>[crackle]</strong> -riassic.
 contribution-background-voices-title = Emavi langemuva
+contribution-background-voices-example-1-explanation = Uyeta? <strong>[lokubitwe ngulomunye]</strong>
 contribution-volume-title = Linani lemsindvo
 contribution-reader-effects-title = Reader Effects
 contribution-just-unsure-title = Ute siciniseko?
@@ -821,6 +828,7 @@ sc-submit-guidelines = Sicela uhlole <howToLink>umkhombandlela</howToLink>.
 
 sc-add-lang-could-not-add = Asikakhoni kungeta lulwimi
 sc-add-lang-sec-button = Ngeta Lulwimi
+sc-add-err-unexpected = Imphendvulo lengakagadzeki iphuma ku server
 sc-add-err-submission = Inkinga yekumikisa
 
 ## ADD SENTENCES CONFIRMATION
