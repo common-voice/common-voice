@@ -60,6 +60,7 @@ faq-do-want-native-q = Leli akusililimi engilimunyileko begodu kuyezwakala lokho
 faq-what-quality-q = Okurekhodiweko kufuze kube kiliphi izinga bona iphimbo lisetjenziswe ebulungelweni?
 faq-why-not-ask-read-q = Kubayini ungakhuthazi abantu bona bafunde iincwadi namkha iinhloko eziku-Wikipedia ngamalimi ahlukahlukeneko?
 faq-what-determine-identity-q = Kutjho ukuthini ukuthi "angikghoni ukwazi bona ngubani okhulumako" ebulungelweni leCommon Voice
+faq-description = Iphimbo elijayelekileko liyingcenye yegadango elithethwe yi-Mozilla bona ifundise imitjhini ukuthi abantu bamambala bakhuluma njani.
 
 ## ABOUT US
 
