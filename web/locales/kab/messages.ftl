@@ -124,6 +124,7 @@ my = Taburmisit
 myv = Erzya
 nan-tw = Taiwanese (Minnan)
 nb-NO = Tanuṛvijt Bokmål
+nd = IsiNdebele (Agafa)
 ne-NP = Tanipalit
 nia = Nias
 nl = Tahulandit
@@ -313,7 +314,6 @@ shortcut-discard-ongoing-recording-label = Sefsex asekles amiran
 shortcut-submit = Uɣal
 shortcut-submit-label = Azen tukkisin
 request-language-text = Ur tettwaliḍ ara tutlayt-ik di Common Voice yakan?
-request-language-text-learn = Lmed asuter-ines da!
 request-language-button = Suter tutlayt
 
 ## ProjectStatus
@@ -447,7 +447,6 @@ faq-why-different-speakers-a =
     Tuget n taffiwin n yisefka n taɣect bnant ɣef kra n tdimugrafin, ayen i d-yeglan s kra n usmenyef i  <articleLink> irgazen d tneɣrit talemmast</articleLink>. Isusruyen akked tutlayin ur d-nettban ara  s waṭas d tid n yimdanen yuɣalen yakan deg rrif. Ihi, deg ṭaqa, timacinin ur zmirent ara ad ɛeqlent tuɣac n tlawin.
     Ɣef aya i nebɣa ddeqs n yisusruyen d yimdanen deg taffa-nneɣ n yisefka.
 faq-why-my-lang-q = Acuɣer tutlayt-iw ulac-itt yakan?
-faq-why-my-lang-new-a = Mozilla ur tferren ur tetteg maḥyaf gar tutlayin. Common Voice tqeddec deg-s terbaɛt n yimdanen seg umaḍal meṛṛa, maca laqen <multilangLink>ddeqs n yimecwaṛen i tmerna n tutlayt</multilangLink> daɣen ad yizmir umdan ad d-yelqeḍ tifyar. Deg tazwara, yessefk ad yettwasideg meṛṛa usmel web n Common Voice. Sakin, nesra ddeqs n yiḍrisen ilelliyen akken imdanen ad izmiren ad ten-id-ɣren. Ticki ihegga waya, tutlayt ad tekker deg Common Voice, daɣen imttekkiyen ad izmiren ad skelsen neɣ ad sneqden ikalasen. Ma tebɣiḍ ad tɛiwneḍ deg tmerniwt n tutlayt tamaynut, ddu ɣer <sentenceCollectorLink> afecku n uḥawec n ntefyar </sentenceCollectorLink> i wakken ad tebduḍ.
 faq-what-quality-q = D acu-t uswir n tɣara n umeslaw i yelaqen i tukkisin yellan deg taffa n yisefka?
 faq-what-quality-a = Nessaram d akken tagrumma n yisefka Common Voice ad terr udem n tɣara tameslawt ara d-yemmager unagraw n taɣect deg tilawt, ihi nesra ddeqs n ususru yemgaraden. Ɣer tama n terbaɛt yemmalen amgarad wessiɛen n wid yettmeslayen, tagrumma n yisefka s tɣara timeslit yemgaraden ad iselmed amsedday n uɛqal n taɣect amek ara yegzu taɣect deg tudert n yal ass, ama s udiwenni deg ugilal neɣ ṣṣut n tkeṛṛust. Ma yella tukkisin ttwafhament, ihi yelha i tegrumma n yisefka.
 faq-why-10k-hours-q = Acuɣer iswi n 10 000 n yisragen imeslawen?
@@ -517,12 +516,6 @@ about-dataset-new = Tagrumma n yisefka Common Voice
 about-dataset-new-text = Tagrumma n yisefka Common Voice tegber timeyyatin n luluf n tukkisin n taɣect ara imudden i yineflayen afus deg usnefli n yifecka n uɛqal n taɣect.
 about-clip-graveyard = Tajebbant n tukkisin
 about-clip-graveyard-text = Tajebbant n tukkisin tegber tukkisin ur nettwaqbel ara deg tegrumma n yisefka Common Voice. Am uneggaru-a, tajebbant n tukkisin tella i usader.
-about-partners = Imendiden
-about-become-a-partner = Uɣal d amendid
-about-partnership =
-    Common Voice a asenfaṛ s uttekki daɣen nettkel ɣer terbaɛt-nneɣ n yimendiden akked imttekkiyen d timttekkiyin akken ad rnun tagrumma n yisefka n uɣbalu yeldin n taɣect tameqqrant deg umaḍal.
-    
-    Ad nesnemmer meṛṛa imdanen akked tuddsiwin-a ɣef tallelt deg usenfaṛ:
 about-get-involved = Ttekki
 about-get-involved-text-2 =
     Tebɣiḍ ad d-tefkkeḍ afus n tallelt deg uqaεed n Common Voice?
@@ -551,7 +544,6 @@ about-playbook-what-is-language-content-3 = Kra n tutlayin ur-sent ddeqs n ubedd
 
 about-playbook-how-add-language = Amek ara rnuɣ tutlayt?
 about-playbook-how-add-language-content-1 = Deg tazwara, wali tutlayt-ik ma <languageLink>tella yakan</languageLink>. Ma ulac-itt, ilaq <strong>ad tseqleḍ asmel daɣen ad tleqḍeḍ tifyar</strong>.
-about-playbook-how-add-language-content-3 = <strong>Akken ad tleqḍeḍ tifyar</strong>: <scVideo> -  </scVideo> Jerred ɣer <scLink>Sentence Collector</scLink>.
 
 ## How does localization work
 
@@ -601,12 +593,6 @@ about-playbook-how-project-governance-content-4 = Atteki agrawan akked tgezmi de
 about-playbook-how-project-governance-content-5 = Azalen d usnemmer
 about-playbook-how-project-governance-content-6 = Tamasit icerken.
 about-playbook-how-project-governance-content-7 = <governanceLink>Issin ugar ɣef tenbaḍt-nneɣ</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Tigzi n tmacint
-mycroft-description =
-    Mycroft d amarag amenzu n uɣbalu yeldin deg umaḍal.
-    Mycroft yettwaselkam deg yal amḍiq - deg uselkim, deg tkeṛṛust, neɣ deg Raspberry Pi.
-mycroft-secondary-description = D aseɣzan neɣ d ahil n uɣbalu yeldin i tzemreḍ ad tbeddleḍ akken tebɣiḍ, ad tesnefliḍ neɣ ad tesnerniḍ. Mycroft yezmer ad yettwaseqdec deg tɣula meṛṛa, seg usenfaṛ ussnan neɣ aseɣẓan n tkebbanit.
 
 ## Glossary
 
@@ -786,7 +772,7 @@ language-search-input =
 language-speakers = Wid yettmeslayen
 localized = Yettwasideg
 sentences = Tifyar
-total-hours = Amḍan n yisragen
+language-validation-hours = Isragen
 
 ## Contribution
 
