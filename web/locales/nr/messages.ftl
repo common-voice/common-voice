@@ -57,6 +57,9 @@ keep-track =
 compare-progress =
     Qala ituthukwakho nayimadaniswa neyabanye
     abafaka isandla ephasini mazombe.
+view-goals =
+    Qala ituthukwakho uyimadanise 
+    nemigomo ozibekele yona.
 join-newsletter = Nawuthandako ungangenela ihlelo lethu lokufumana zamva nje nge-email ufumane nemininingwana emitjha ngephrojekthi.
 
 ## What's public
@@ -140,9 +143,11 @@ faq-description = Iphimbo elijayelekileko liyingcenye yegadango elithethwe yi-Mo
 
 ## How does it work section
 
+about-localization-subtitle = Umtlolo osetjenziswe kuwebhusayidi utjhugululelwe eliminelo.
 about-new-lang-subtitle =
     Sethula ikhasi le-Common Voice ngokusemthethweni 
     ngelimeli.
+about-subscribe-text = Ufuna ukuhlala uthintana ne-Common Voice?
 about-speak-text =
     Abanikelako barekhoda amaphimbwabo ngokufunda 
     imitjho ekunikelwe ngayo.
@@ -277,6 +282,8 @@ request-language-form-info-explanation =
     ngelimi ngendlela ongakghona ngayo. Lokhu
     kungahlanganisa:
 request-language-form-info-explanation-list-3 = Ngena kuzindzolwazi engasisiza sizwisise ilimi
+# Success page
+request-language-success-heading = Siyathokoza! Uthumele isibawo sokufumana ilwazi ngelimi elitjha
 request-language-success-list-1 = Uzokufumana i-email kungasikade ezokuhlathululela ngamagadango okufuze uwathathe bona ilimi lakho lifakwe ku-Common Voice
 request-language-success-list-3 =
     "Nange ungezwa litho elivela kithi bekudlule amalangana, 
@@ -296,6 +303,7 @@ goal-help-recording =
 goal-help-validation =
     Usize iCommon Voice ukufikelela 
     <goalPercentage></goalPercentage> umgomo wokuqinisekisa { $goalValue } welanga!
+record-platform-not-supported = Sibawa usilibalele okufunako akufumaneki.
 record-platform-not-supported-ios-non-safari =
     Ku-iOS sibawa uragele phambili ngeSafari bona ukghone 
     ukurekhoda...
@@ -319,6 +327,7 @@ speak-loading-error =
 report-ask =
     Ngibuphi ubudisi ohlangabezana nabo ngemitjho
     le?
+report-grammar-or-spelling-detail = Umutjho unomraro wokutlola nokupeleda.
 report-different-language-detail =
     Kutlolwe ngelimi elihlukileko 
     kunengilikhulumako.
@@ -355,6 +364,7 @@ receiving-emails-info = Sele ukulungele ukufumana ama-email anjengeenkhumbuzo ze
 not-receiving-emails-info = Okwanje ufakwe ku-<bold>INGASI</bold> bona wamukele ama-email ngehloso yokukukhumbuza, ukukwazisa ngetuthuko neendaba ezimalungana ne-Common Voice
 # LINK will be replaced with the current URL
 goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -- sebenzisana nami sifundise imitjhini ukuthi abantu bamambala bakhuluma njani { $link }
+track-progress = Fumana ituthukwakho la nekhasi lakho leembalobalo.
 
 ## Profile Delete
 
@@ -424,6 +434,7 @@ contribution-misreadings-description-extended-list-4 =
     Kulahleke amezwi wokugcina
     ngombana ujamise ukurekhoda msinyana.
 contribution-misreadings-example-3-explanation = [Ukujamisa ukurekhoda ngaphambi kwegama lokugcina]
+contribution-misreadings-example-7-title = Sisayokusela ikofi.
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
 contribution-varying-pronunciations-example-2-explanation = [‘Ukukhuliswa’ ngesiNgisi kuphinyiselwa ngesilabhulu yinye ingasi ezimbili]
 contribution-background-noise-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kusuze ngaphandle kwalokha okhunye kuzwakala.
