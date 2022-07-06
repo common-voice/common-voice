@@ -35,6 +35,9 @@ help-us-explain =
     umutjho ongenzasi?
 no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa usisize sivale isikhalesi ngokuthi urekhode okuthileko njenga nje.
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
+email-subscription-title-new =
+    Zitlolise bona ufumane iindaba ngeCommon Voice, imigomo 
+    netuthuko yamva nje
 
 ## Account Benefits
 
@@ -139,6 +142,9 @@ about-playbook-how-add-sentences-content-4 = Imitjho eqinisekisiweko ikhanjiswa 
 about-playbook-how-record-content-2 =
     Linga bona kungabi netjhada elinengi elizwakala ngemuva - kufuze kube
     lula ukukuzwa.
+about-playbook-how-record-content-3 =
+    Funda umutjho kuhle-ungeqi, 
+    utjhugulule namkha ungezelele amagama.
 about-playbook-how-record-content-4 = Yenza isiqiniseko sokobana ihlelo liyarekhoda ngaphambi kobana uthome ukukhuluma begodu liyajama nawuqedako.
 
 ## How to grow language
@@ -165,6 +171,9 @@ localization-explanation =
 sentence-collection-explanation =
     Ukuthatha imitjho endaweni yomphakathi namkha
     ukutlola okutjha endaweni yomphakathi.
+hours-recorded-explanation =
+    Inani lama-awara esele siwabuthelele 
+    bekube nje.
 
 ## Error pages
 
@@ -174,6 +183,9 @@ sentence-collection-explanation =
 data-subtitle = Sakha ibulungelo lamaphimbo arekhodiweko angasetjenziswa ngiwo woke umuntu bona angawasebenzisa ukubandula iinsetjenziswa bona zikhulume ikulumo eyamukeleko.
 data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
 review-terms = Ngokusebenzisa iCommon Voice, uvumelana ne <termsLink>Mibandela</termsLink> kunye ne <privacyLink>Nemigomo</privacyLink>
+review-submit-msg =
+    Siyathokoza
+    ngokurekhoda!<lineBreak></lineBreak>Buyekeza ngemva kwalokho uthumele okurekhodileko okungenzasi.
 
 ## Datasets Page
 
@@ -204,6 +216,10 @@ request-language-success-content = Sizokubuya nemininingwana engeziweko emalunga
 ## Request Language Pages
 
 request-language-explanation-2 = Sizokubuye <strong>sakwazisa  nomphathi womphakathethu ukuthi unekareko</strong>, ukwenzela bona bakunikele nanyana ngiliphi isekelo elengeziweko nelwazi okungenzeka ulitlhoge.
+request-language-form-info-explanation =
+    Faka imininingwana eminengi 
+    ngelimi ngendlela ongakghona ngayo. Lokhu
+    kungahlanganisa:
 request-language-success-list-1 = Uzokufumana i-email kungasikade ezokuhlathululela ngamagadango okufuze uwathathe bona ilimi lakho lifakwe ku-Common Voice
 request-language-success-list-3 =
     "Nange ungezwa litho elivela kithi bekudlule amalangana, 
@@ -228,6 +244,9 @@ speak-loading-error =
 
 ## Reporting
 
+report-different-language-detail =
+    Kutlolwe ngelimi elihlukileko 
+    kunengilikhulumako.
 report-difficult-pronounce-detail =
     Kunamezwi namkha amagama okubudisi 
     ukuwafunda namkha ukuwaphimisela.
@@ -261,6 +280,9 @@ goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -
 download-recordings-unavailable =
     Angekhe wakghona ukubawa okurekhodileko nange
     kusesenesinye isibawo osifakileko.
+download-recently-requested =
+    Ungabawa okurekhodileko 
+    woke malanga { $days }
 download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufake efayilini yinye namkha emafayilini amanengi we-ZIP. Nakhu okubawe esikhathini esidlulileko:
 
 ## Landing
@@ -370,6 +392,14 @@ sc-confirm-uploading = Imitjho iyafakwa. Lokhu kungathatha imizuzu embalwa kuye 
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ayikho imitjho engabuyekezwa.
+        [one] 1 umutjho ongabuyekezwa.
+       *[other] imitjho engabuyekezwa.
+    }
 
 ## LOGIN
 
