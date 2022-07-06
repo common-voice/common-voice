@@ -298,6 +298,7 @@ profile-form-accent =
     .label = Indlela yekukhuluma lulwimi
 profile-form-custom-accent-help-text =
     .label = Ungayichaza kanjani indlela yakho yekukhuluma?
+profile-form-custom-accent-placeholder-2 = Cala kubhala uchaze indlela yakho yekukhuluma
 profile-form-age =
     .label = Iminyaka yekutalwa
 profile-form-gender-2 =
@@ -518,7 +519,7 @@ dataset-version = Inhlobo
 download-title = Ku-download kwakho sekucalile
 download-form-email =
     .label = Faka iliposi lakho lembane
-    .value = { "" }
+    .value = Siyabonga, sitochumana.
 download-back = Buyela kuma Dataset aka Common Voice
 download-no = Cha Ngiyabonga
 
@@ -673,6 +674,8 @@ confirm-goal = Cinisekisa umgomo
 goal-interval-weekly = Ngemaviki
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Yaba emagoli akho { $count } emafayela latfwebuliwe ngelilanga { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Yaba emagoli akho { $count }  emafayela latfwebuliwe ngeliviki { $type }
 share-goal-type-speak = Lokhulumako
 share-goal-type-listen = Ulalele
 share-goal-type-both = Kukhuluma nekulalela
