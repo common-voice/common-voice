@@ -587,6 +587,7 @@ sc-howto-findpd-tips-1 = Imithombo ekhamba phambili ongaqala kiyo maphimbo arekh
 sc-howto-findpd-tips-3 =
     Ngebhadi azikho iinhloko esizifumanako ku-Wikimedia.
     Yeke ungakopi namkha ufake okuthileko endaweni le.
+sc-howto-findpd-subtitle-2 = Zihlanganise neenhlangano zangekhethu namkha nabantu ngabanye
 
 ## MY SENTENCES
 
