@@ -5,6 +5,9 @@ email-opt-in-info = Ngingakuthabela ukufumana ama-email akhuluma ngeenkhumbuzo z
 email-opt-in-info-sub-with-challenge =
     Fumana ama-email akhuluma ngephaliswano, iinkhumbuzo zemigomo,
     ituthuko yamva nje neendaba zeCommon Voice.
+banner-error-slow-1 =
+    Usilibalele iCommon Voice ikhamba kabuthaka. Siyathokoza 
+    ngokuba nekareko.
 banner-error-slow-2 =
     Sinomjeje omude khulu begodu sisafunisisa
     ukuthi kubayini.
@@ -76,6 +79,9 @@ username-optin-public =
 ## ProfileForm
 
 profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu usize ihlelo lethu linembe khudlwana.
+thanks-for-account =
+    Siyathokoza ngokuqinisekisa i-akhawundi yakho, njeke asenze 
+    iphrofayili yakho.
 accept-privacy =
     Anginamraro wokobana nibe nemininingwana le
     njengombana kuhlathululiwe<privacyLink> emibandeleni yeMozilla</privacyLink>
@@ -236,6 +242,7 @@ request-language-form-info-explanation =
     Faka imininingwana eminengi 
     ngelimi ngendlela ongakghona ngayo. Lokhu
     kungahlanganisa:
+request-language-form-info-explanation-list-3 = Ngena kuzindzolwazi engasisiza sizwisise ilimi
 request-language-success-list-1 = Uzokufumana i-email kungasikade ezokuhlathululela ngamagadango okufuze uwathathe bona ilimi lakho lifakwe ku-Common Voice
 request-language-success-list-3 =
     "Nange ungezwa litho elivela kithi bekudlule amalangana, 
@@ -255,6 +262,9 @@ goal-help-recording =
 goal-help-validation =
     Usize iCommon Voice ukufikelela 
     <goalPercentage></goalPercentage> umgomo wokuqinisekisa { $goalValue } welanga!
+listen-empty-state =
+    Asisenayo imitjho engaqinisekiswa 
+    ngelimeli...
 listen-loading-error =
     "Azikho iinqetjhana zokurekhodiweko esizifumanako
     ongazilalela.
@@ -338,10 +348,14 @@ demo-account-card-header =
 
 ## Demo Dashboard
 
+demo-dashboard-card-header =
+    Ikhasi lakho likwenza uhlale ufumana zamva nje 
+    ezimalungana netuthuko yomphakathi.
 
 ## Validation criteria
 
 contribution-criteria-page-description = Zwisisa bona khuyini okufuze ukutjheje nawulalele iinqetjhana ezirekhodiweko begodu usize ekwenzeni okurekhodileko kunothe!
+contribution-misreadings-description-extended-list-1 = Kutjhoda u- <strong>'A'</strong> namkha u- <strong>'The'</strong> ekuthomeni kokurekhodiweko.
 contribution-misreadings-description-extended-list-3 = Ukufunda okuthileko okungakatlolwa njengokuthi "S'bo" esikhundleni sokuthi "Sibo" namkha "Sibo" esikhundleni sokuthi "S'bo".
 contribution-misreadings-description-extended-list-4 =
     Kulahleke amezwi wokugcina
@@ -350,6 +364,9 @@ contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iy
 contribution-varying-pronunciations-example-2-explanation = [‘Ukukhuliswa’ ngesiNgisi kuphinyiselwa ngesilabhulu yinye ingasi ezimbili]
 contribution-background-noise-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kusuze ngaphandle kwalokha okhunye kuzwakala.
 contribution-background-voices-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kususe ngaphandle kwalokha okhunye kuzwakala.
+contribution-background-voices-example-1-title =
+    Ingorho yeTriassic. 
+    <strong>[read by one voice]</strong>
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -395,9 +412,20 @@ sc-howto-findpd-tips-3 =
 
 ## STATS
 
+sc-stats-error = Asikghoni ukufumana iimbalobalo. Sibawa ulinge godu esikhathini esizako.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary =
+    ICommon Voice Sentence sele 
+    ibuthelele imitjho eyi- { $sentenceCount } ngamalimi ayi-{ $languageCount }!
 
 ## ADD
 
+sc-submit-prompt =
+    .message =
+        Imitjho ayikathunyelwa. Unesiqiniseko 
+        sokobana ufuna ukuphuma?
 sc-submit-confirm =
     Ngiyaqinisekisa bona imitjho le
     <wikipediaLink>yehlelo lomphakathi</wikipediaLink> begodu nginamalungelo wokuyifaka.
@@ -411,6 +439,10 @@ sc-add-lang-process-notice =
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message =
+        Imitjho ayikathunyelwa. Unesiqiniseko 
+        sokobana ufuna ukuphuma?
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
