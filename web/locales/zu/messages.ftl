@@ -191,6 +191,8 @@ language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi
 
 ## Contribution
 
+goal-help-recording = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokurekhoda yansuku zonke { $goalValue }!
+goal-help-validation = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokuqinisekisa wansuku zonke { $goalValue }!
 listen-loading-error =
     Asikwazanga ukuthola iziqeshana zomsindo ozozilalela.
     Sicela uzame futhi emuva kwesikhathi.
@@ -298,6 +300,7 @@ sc-languages-fetch-error = Sehlulekile ukulanda izilimi ezitholakalayo. Iminikel
 ## HOW-TO
 
 sc-howto-addlang-text = Uma usungenile ungakhetha izilimi zakho esigabeni sephrofayela.
+sc-howto-cite-item-1 = Ungafaka iwebhusayithi, isb "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa isitayela sereferensi yezemfundo, isb isitayela sase-Harvard "Mozilla (2021) Common Voice. Itholakala ku https://commonvoice.mozilla.org/ (Kufinyelelwe: 15th September 2021)"
 sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-inthanethi, ungasebenzisa isitayela sereferensi yezemfundo isb isitayela saseHarvard "Jess (2021) Izinkondlo Zami Zelayisensi Yomphakathi"
 sc-howto-review-criteria-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
