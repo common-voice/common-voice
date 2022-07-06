@@ -19,6 +19,7 @@ banner-error-slow-2 = Sithola ithrafikhi eningi futhi okwamanje siphenya izinkin
 
 ## Layout
 
+share-title = Sisize sithole abanye abanganikela ngamazwi abo!
 share-text = Siza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani, nikela ngezwi lakho ku-{ $link }
 
 ## Home Page
@@ -78,6 +79,7 @@ skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma no
 
 ## FAQ
 
+faq-how-get-q = Ngingayithola kanjani idatha yeCommon Voice?
 faq-when-release2-q = Uzoyikhulula nini idatha yeCommon Voice ngezinye izilimi?
 faq-why-mission-q = Kungani i-Common Voice iyingxenye yemishini ye-Mozilla?
 faq-what-cv-and-deepspeech-q = Uyini umehluko phakathi kweCommon Voice kanye neDeep Speech?
@@ -147,6 +149,7 @@ about-playbook-how-validate = Ngazi kanjani ukuthi ngigunyaze isiqeshana sezwi?
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Ngifinyelela futhi ngisebenzise kanjani idathasethi?
 about-playbook-how-access-dataset-content-2 = Uma ufuna amathuluzi okwakha amamodeli e-ASR, ungakwazi ukuxhumana nabanye abantu emphakathini <discourseLink>on Discourse</discourseLink>.
 
 ## How are decisions made
@@ -243,6 +246,8 @@ speak-empty-state = Siphelelwe yimisho okumele siyiqophe ngalolu limi...
 speak-loading-error =
     Asikwazanga ukukutholela umusho ukuthi ukhulume.
     Sicela uzame futhi emuva kwesikhathi.
+keep-track-profile = Gcina umkhondo wenqubekelaphambili yakho ngephrofayela
+login-to-get-started = Ngena ngemvume noma bhalisa ukuze uqalise
 
 ## Reporting
 
@@ -290,6 +295,7 @@ receiving-emails-info =
     Okwamanje umiselwe ukuthola ama-imeyili afana nezikhumbuzi zegoli, 
     izibuyekezo zenqubekelaphambili zami kanye nezincwadi zezindaba mayelana ne-Common Voice
 not-receiving-emails-info = Okwamanje usethelwe <bold>CHA</bold> ukuthola ama-imeyili afana nezikhumbuzi zegoli, mina izibuyekezo zenqubekelaphambili kanye nezincwadi zezindaba mayelana ne-Common Voice
+help-share-goal = Sisize sithole amazwi engeziwe, wabelane ngenjongo yakho
 # LINK will be replaced with the current URL
 goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#CommonVoice -- ngijoyine futhi usize ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani { $link }
 track-progress = Landela inqubekelaphambili yakho la nasekhasini lakho lama-stat.
@@ -370,6 +376,7 @@ sc-howto-addlang-text = Uma usungenile ungakhetha izilimi zakho esigabeni sephro
 sc-howto-cite-item-1 = Ungafaka iwebhusayithi, isb "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa isitayela sereferensi yezemfundo, isb isitayela sase-Harvard "Mozilla (2021) Common Voice. Itholakala ku https://commonvoice.mozilla.org/ (Kufinyelelwe: 15th September 2021)"
 sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-inthanethi, ungasebenzisa isitayela sereferensi yezemfundo isb isitayela saseHarvard "Jess (2021) Izinkondlo Zami Zelayisensi Yomphakathi"
+sc-howto-review-subtitle = Qiniseka ukuthi umusho uhambiselana nemibandela elandelayo:
 sc-howto-review-criteria-4 = Uma umusho uhambisana nemibandela, chofoza inkinobho ethi "Vumela".
 sc-howto-review-criteria-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
 sc-howto-findpd-tips-1 = Imithombo engcono kakhulu ongayibheka amaphodikasti, okulotshiweyo, imibhalo yamamuvi nanoma yini engaba khona ingaqukatha izingxoxo zansuku zonke.
@@ -501,6 +508,7 @@ sc-lang-info-rejected =
 
 ## REVIEW CRITERIA
 
+sc-criteria-make-sure = Qiniseka ukuthi umusho uhambiselana nemibandela elandelayo:
 sc-criteria-item-4 = Uma umusho uhlangabezana nemibandela, chofoza okuthi &quot;Vumela&quot; inkinobho kwesokudla.
 sc-criteria-item-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
 
