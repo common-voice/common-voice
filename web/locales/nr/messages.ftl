@@ -24,6 +24,9 @@ email-opt-in-info-sub-with-challenge =
 default-tagline =
     IMozilla Common Voice izimisele ukusiza
     ekufundiseni imitjhini bona abantu bamambala bakhuluma njani.
+help-us-explain =
+    Gandelela, dlala lalela bese uyasitjela: bawutjho kuhle na
+    umutjho ongenzasi?
 no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa usisize sivale isikhalesi ngokuthi urekhode okuthileko njenga nje.
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
 
@@ -33,6 +36,9 @@ join-newsletter = Nawuthandako ungangenela ihlelo lethu lokufumana zamva nje nge
 
 ## What's public
 
+recordings-and-locale-public =
+    Inani lokurekhodiweko namalimi osize ngawo
+    kuzokubona nginanyana ngubani.
 
 ## Speak & Listen Shortcuts
 
@@ -49,6 +55,9 @@ join-newsletter = Nawuthandako ungangenela ihlelo lethu lokufumana zamva nje nge
 ## ProfileForm
 
 profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu usize ihlelo lethu linembe khudlwana.
+accept-privacy =
+    Anginamraro wokobana nibe nemininingwana le
+    njengombana kuhlathululiwe<privacyLink> emibandeleni yeMozilla</privacyLink>
 skip-submission-note =
     Tjheja: Kusafuze ukhethe hlangana
     NokuKhuluma nokuLalela bona utjhugulule indlela onganikela ngayo.
@@ -67,6 +76,9 @@ faq-why-10k-hours-a =
     Lawa ma-awara okungenzeka
     ayatlhogeka bona ufake ikulumo emtjhinini.
 faq-why-not-ask-read-q = Kubayini ungakhuthazi abantu bona bafunde iincwadi namkha iinhloko eziku-Wikipedia ngamalimi ahlukahlukeneko?
+faq-how-privacy-q =
+    Uqinisekisa njani ukuthi
+    abantu abanikela ngamaphimbo wabo abaziwa?
 faq-what-determine-identity-q = Kutjho ukuthini ukuthi "angikghoni ukwazi bona ngubani okhulumako" ebulungelweni leCommon Voice
 faq-description = Iphimbo elijayelekileko liyingcenye yegadango elithethwe yi-Mozilla bona ifundise imitjhini ukuthi abantu bamambala bakhuluma njani.
 
@@ -75,7 +87,11 @@ faq-description = Iphimbo elijayelekileko liyingcenye yegadango elithethwe yi-Mo
 
 ## How does it work section
 
+about-listen-queue-text =
+    Iinqetjhana ezilalelwako zifakwa erhelweni
+    elilungiselela ukulalelwa.
 about-listen-text = Abasebenzisa ihlelweli bayaqinisekisa bona amaphimbo abanikela ngawo, anembile ngokuqala bona isikhulumi sifunda imitjho kuhle.
+about-is-it-valid-text = Okurekhodiweko kutshwaywa ngokuthi "Kuphasile" lokha okusebenzisako nakakuvowudela ngo-Iye.
 about-yes-votes-text = Bona uphumelele ukungena ehlelweni le-Common Voice iphimbo kufuze liphasiswe babantu ababili abahlukileko.
 about-stay-in-touch-text-1 = <emailFragment>Zitlolise ku</emailFragment> bona ufunde ukuthi ungasifaka njani isandla emajimeni, ezenzakalweni nokuthuthukisa ubujamo be-Common Voice.
 about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngokuthi ungene<discourseLink>Ebulungelweni</discourseLink> bona nikhulumisane ngeenhloko ezithileko namkha <matrixLink>Ubuhlanga</matrixLink> bona ufumane isiyeleliso ngokurhabako.
@@ -104,6 +120,7 @@ about-playbook-how-grow-language-content-8 = <strong>Yiba sikghwari!</strong> Il
 
 ## How to validate
 
+about-playbook-how-validate-content-1 = Nange ukghona <strong>ukubezwa</strong> begodu <strong>ubazwisisa</strong>, kungaba kuhle <strong>uphasise</strong>
 about-playbook-how-validate-content-4 = Nange okurekhodiweko kwaliwa babantu aba-2, kukhutjhwa ngomunye umhlobo webulungelo.
 
 ## How to access dataset
@@ -118,6 +135,9 @@ about-playbook-how-access-dataset-content-2 = Nange funa amathulusi wokwakha ama
 localization-explanation =
     Le yindlela yethu yokutjhugulula nokuvumelanisa esikwenzako
     (namalimi) amanengi wendabuko.
+sentence-collection-explanation =
+    Ukuthatha imitjho endaweni yomphakathi namkha
+    ukutlola okutjha endaweni yomphakathi.
 
 ## Error pages
 
@@ -141,6 +161,9 @@ your-feedback = Kghani unemibono yokuthi singayithuthukisa njani i-Common Voice 
 
 ## Download Modal
 
+download-helpus =
+    Sisiza sakhe umphakathi ngetheknoloji yamaphimbo
+    hlala ufumana zamva nje nge-email.
 
 ## Contact Modal
 
@@ -184,6 +207,11 @@ visibility-overlay-note =
 
 ## Custom Goals
 
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Siza iCommon Voice ifikelele  i-awara
+       *[other] ama-awara ngelimi ozikhethele lona
+    }
 receiving-emails-info = Sele ukulungele ukufumana ama-email anjengeenkhumbuzo zemigomo, ituthukwakho yamva nje neendaba ezimalungana ne-Common Voice
 not-receiving-emails-info = Okwanje ufakwe ku-<bold>INGASI</bold> bona wamukele ama-email ngehloso yokukukhumbuza, ukukwazisa ngetuthuko neendaba ezimalungana ne-Common Voice
 # LINK will be replaced with the current URL
@@ -222,6 +250,9 @@ profile-not-required =
 
 contribution-criteria-page-description = Zwisisa bona khuyini okufuze ukutjheje nawulalele iinqetjhana ezirekhodiweko begodu usize ekwenzeni okurekhodileko kunothe!
 contribution-misreadings-description-extended-list-3 = Ukufunda okuthileko okungakatlolwa njengokuthi "S'bo" esikhundleni sokuthi "Sibo" namkha "Sibo" esikhundleni sokuthi "S'bo".
+contribution-misreadings-description-extended-list-4 =
+    Kulahleke amezwi wokugcina
+    ngombana ujamise ukurekhoda msinyana.
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
 contribution-background-noise-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kusuze ngaphandle kwalokha okhunye kuzwakala.
 contribution-background-voices-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kususe ngaphandle kwalokha okhunye kuzwakala.
@@ -247,6 +278,9 @@ sc-languages-fetch-error =
 
 sc-howto-cite-item-2 = Ungasebenzisa indlela yokutlola yefundo ephakamileko isb. Harvard style "Mozilla (2021) Common Voice. Efumaneka ku-https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 sc-howto-cite-item-3 = Bona ufumane umtlolo ongekho ku-inthanethi, ungasebenzisa indlela yokutlola isb. Harvard style " Jess (2021) Ilayisensami yeenkondlo zophakathi"
+sc-howto-review-criteria-6 =
+    Nange ingasekho imitjho ongayibuyekeza sibawa
+    usisize sifumane imitjho eyengeziweko!
 sc-howto-findpd-tips-1 = Imithombo ekhamba phambili ongaqala kiyo maphimbo arekhodiweko, okutloliweko, iinkripthi zamamuvi namkha nanyana ngimuphi umthombo othembekileko emumethe imikhulumiswano yaqobe lilanga.
 sc-howto-findpd-tips-3 =
     Ngebhadi azikho iinhloko esizifumanako ku-Wikimedia.
@@ -269,6 +303,9 @@ sc-submit-confirm =
 
 ## ADD LANGUAGE
 
+sc-add-lang-process-notice =
+    Nange ilimi lakho lingaveli la, ungabawa
+    bona lifakwe ngokulandela ikambiso le <languageProcessLink>yehlelo nanti</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -296,6 +333,10 @@ sc-confirm-uploading = Imitjho iyafakwa. Lokhu kungathatha imizuzu embalwa kuye 
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-4 = Nange umutjho uhlangabezana nakho koke okutlhogekako gandelela i- &quot; engehlangothini lesokudla &quot;Phasile&quot.
+sc-criteria-item-6 =
+    Nange ingasekho imitjho ongayibuyekeza sibawa
+    usisize sifumane imitjho eyengeziweko!
 
 ## REVIEW
 
