@@ -211,15 +211,18 @@ logout = Phuma
 
 wall-of-text-first = { "" }
 show-wall-of-text = Fundza Kabanti
+help-us-title = Sisite sicinisekise imisho
 vote-yes = Yebo
 vote-no = Cha
 speak-subtitle = Nikela livi lakho
 speak-goal-text = Ticephu letiftwebuliwe
+listen-subtitle = Sisite sicinisekise emavi
 listen-goal-text = Ticephu leticinisikesiwe
 hours-recorded = Emahora latfwebuliwe
 hours-validated = Emahora lacinisekisiwe
 voices-online = Emavi Alabakhona Manje
 todays-progress = Inchubo Yanamuhla
+help-reach-goal = Sisite sifike ku { $goal }
 all-locales = Konkhe
 today = Namuhla
 
@@ -355,6 +358,7 @@ about-speak = Khuluma
 about-listen-queue = Lidelezi lekulalela
 about-listen-queue-text = { "" }
 about-listen = Lalela
+about-is-it-valid = Lesicephu singiso yini?
 about-yes-votes = 2 wema voti latsi Yebo
 about-no-votes = 2 wema voti latsi Cha
 about-dataset-new = Common Voice Dataset
@@ -416,6 +420,7 @@ error-code = Liphutsa { $code }
 
 ## Data
 
+data-download-button = Download Common Voice Data
 data-download-yes = Yebo
 data-download-deny = Cha
 data-download-license = License: <licenseLink>CC-0</licenseLink>
@@ -428,6 +433,7 @@ dataset-date = Lusuku
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Lokubhicene
 terms-agree = Ngiyavuma
+terms-disagree = Angivumi
 review-submit-title = Buyeketa & Mikisa
 review-recording = Buyeketa
 review-rerecord = Tfwebula kabusha
@@ -446,6 +452,7 @@ cv-license = License
 audio-format = Audio Format
 number-of-voices = Linani lemavi
 splits = Kuhlukana
+email-to-download = Faka i-email utokhona ku-download
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Download { $language }
@@ -457,6 +464,7 @@ feedback-q = Unawo umbiko longasitjela wona?
 community-playbook = Bhukwana wemmango
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Hamba ku Discourse
+go-languages-page = Buyela ekhasini letilwimi
 more = Lokunengi
 close = Vala
 download = Download
@@ -488,6 +496,8 @@ other-language = Lolunye Lulwimi
 
 request-language-form-email =
     .label = Likheli leliposi lakho lembane
+request-language-form-info =
+    .label = Umniningwane ngalolulwimi
 request-language-form-info-explanation-list-2 = </addLink>Ema Code aka ISO </addLink> uma khona lowatiko
 
 ## Languages Overview
@@ -530,6 +540,7 @@ clips-uploaded = Ticephu leti-uploadiwe
 record-abort-title = Cedza kutfwebula kucala?
 record-abort-submit = Mikisa ticeshana
 record-abort-continue = Cedza kutfwebula
+record-abort-delete = Phuma phindze wesule ticephu letitfwebuliwe
 listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
 speak-empty-state-cta = Nikela imisho
 record-button-label = Tfwebula livi lakho
@@ -541,6 +552,7 @@ target-segment-learn-more = Fundza Kabanti
 report = Bika
 report-title = Mikisa umbiko
 report-offensive-language = Lulwimi lolucasulako
+report-grammar-or-spelling = Grammatical / spelling error
 report-different-language = Lulwimi lolwehlukile
 report-difficult-pronounce = Kulukhuni kuyisho
 report-offensive-speech = Inkhulumo lecansulako
@@ -575,6 +587,8 @@ show-ranking = Khombisa sigaba sami
 
 ## Custom Goals
 
+get-started-goals = Vele ucale ngemagoli
+create-custom-goal = Yakha ligoli lakho
 both-speak-and-listen = Kokubili
 both-speak-and-listen-long = Kokubili (khuluma phindze ulalele)
 daily-goal = Umgomo welilanga
@@ -584,6 +598,7 @@ average-difficulty = Lokusemkhatsini
 difficult-difficulty = Kulikhuni
 pro-difficulty = Pro
 finish-editing = Cedzela kulungisa kucala?
+build-custom-goal = Yakha ligoli lakho
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] { "" }
@@ -657,6 +672,7 @@ contribution-misreadings-title = Lokufundvwe kabi
 contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
 contribution-misreadings-example-6-explanation = [Should be “We are”]
 contribution-varying-pronunciations-title = Tindlela tekukhuluma letehlukahlukene
+contribution-varying-pronunciations-example-2-title = Sandla sakhe besiphakam-ile.
 contribution-background-noise-title = Imisindvo lengemuva
 contribution-background-voices-title = Emavi langemuva
 contribution-volume-title = Linani lemsindvo
@@ -740,6 +756,7 @@ sc-submit-button =
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Asikakhoni kungeta lulwimi
 sc-add-lang-sec-button = Ngeta Lulwimi
 sc-add-err-submission = Inkinga yekumikisa
 
@@ -765,6 +782,7 @@ sc-login-err-try-again = Sicela uphindze wetame futsi.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Likhasi lelichaza kabanti ngawe: { $username }
+sc-personal-err-remove = Asikakhoni kususa lulwimi
 sc-personal-your-languages = Tilwimi Takho:
 sc-personal-remove-button = susa
 
