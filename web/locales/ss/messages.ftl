@@ -402,6 +402,7 @@ about-playbook-how-grow-language-content-6 = Kubambisana nekuchumana
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = Kufihleka, tekuphepha nekutsembeka.
 about-playbook-how-project-governance-content-5 = Linani nekunconywa
 about-playbook-how-project-governance-content-6 = Kwetsembeka lokufananako.
 
