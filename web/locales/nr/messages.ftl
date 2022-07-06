@@ -40,6 +40,7 @@ speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekile
 
 ## ProfileForm
 
+profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu usize ihlelo lethu linembe khudlwana.
 
 ## Profile - Email
 
@@ -51,6 +52,7 @@ speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekile
 
 faq-do-want-native-q = Leli akusililimi engilimunyileko begodu kuyezwakala lokho nangikhulumako. Nisalifuna iphimbo lami?
 faq-what-quality-q = Okurekhodiweko kufuze kube kiliphi izinga bona iphimbo lisetjenziswe ebulungelweni?
+faq-why-not-ask-read-q = Kubayini ungakhuthazi abantu bona bafunde iincwadi namkha iinhloko eziku-Wikipedia ngamalimi ahlukahlukeneko?
 faq-what-determine-identity-q = Kutjho ukuthini ukuthi "angikghoni ukwazi bona ngubani okhulumako" ebulungelweni leCommon Voice
 
 ## ABOUT US
@@ -109,6 +111,7 @@ data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiw
 ## Datasets Page
 
 datasets-headline = Sakha umthombo wawo woke umuntu, amaphimbo wamalimi ahlukahlukeneko angasetjenziswa nginanyana ngubani bona azifundise ikulumo eyamukelekako.
+confirm-no-identify = <b>Uyavuma</b> bona angekhe ulinge ukufumana bona maphimbo wabobani aku-Common Voice
 want-dataset-update = Ufuna sikwazise nasikhupha ihlelo elitjha leCommon Voice? Zitlolise engcenyenethu yeendaba.
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> izibophezele ukuvula ihlelo letheknoloji lokukhuluma. Amahlelwabo ahlanganisa ifundo engeneleleko STT ne TTS.
 resource-playbook-info = <playbookLink>Fumana isinqophiso esilisizo</playbookLink> kilo loke ikhambo leCommon Voice, kusukela ekulumweni yendabuko, ukusebenzisa ihlelweli nokuthi ungathintana njani nomphakathethu.
@@ -189,6 +192,7 @@ help-contribute = Ungasiza ngemininingwana ehlukahlukeneko ekuthuthukiseni i-Com
 ## Validation criteria
 
 contribution-criteria-page-description = Zwisisa bona khuyini okufuze ukutjheje nawulalele iinqetjhana ezirekhodiweko begodu usize ekwenzeni okurekhodileko kunothe!
+contribution-misreadings-description-extended-list-3 = Ukufunda okuthileko okungakatlolwa njengokuthi "S'bo" esikhundleni sokuthi "Sibo" namkha "Sibo" esikhundleni sokuthi "S'bo".
 contribution-background-noise-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kusuze ngaphandle kwalokha okhunye kuzwakala.
 contribution-background-voices-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kususe ngaphandle kwalokha okhunye kuzwakala.
 
@@ -205,6 +209,7 @@ contribution-background-voices-description-extended = Nange okurekhodiweko kuqun
 
 ## GENERAL
 
+sc-languages-fetch-error = Sibhalelwe ukuveza amalimi esinawo. Angekhe ukghone ukusiza okwa-nje. Sibawa ulinge esikhathini esizako.
 
 ## HOW-TO
 
@@ -229,6 +234,9 @@ sc-howto-findpd-tips-1 = Imithombo ekhamba phambili ongaqala kiyo maphimbo arekh
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } Imitjho ayikabuyekezwa. Nange ufuna, ungabuyekeza imitjhwakho khona nje ngaphambi kobana uyikhambise.
 sc-confirm-uploading = Imitjho iyafakwa. Lokhu kungathatha imizuzu embalwa kuye ngenani lemitjho efakiweko. Sibawa ungalivali izinzolwazeli.
 
 ## LANGUAGE INFO
