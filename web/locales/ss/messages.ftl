@@ -293,6 +293,8 @@ profile-form-additional-language =
     .label = Lulwimi lolungetiwe
 profile-form-language =
     .label = Lulwimi
+profile-form-variant =
+    .label = Nguyiphi inhlobo ye { $language } loyikhulumako?
 profile-form-variant-default-value = Kute inhlobo lekhetsiwe
 profile-form-accent =
     .label = Indlela yekukhuluma lulwimi
@@ -607,6 +609,7 @@ listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
 speak-empty-state-cta = Nikela imisho
 record-button-label = Tfwebula livi lakho
 share-title-new = <bold>Sisite </bold>sitfole emavi lamanengi
+target-segment-generic-card = Unikela ku target ye segment
 target-segment-add-voice = Ngeta Livi Lakho
 target-segment-learn-more = Fundza Kabanti
 
@@ -682,6 +685,8 @@ share-n-weekly-contribution-goal = Yaba emagoli akho { $count }  emafayela latfw
 share-goal-type-speak = Lokhulumako
 share-goal-type-listen = Ulalele
 share-goal-type-both = Kukhuluma nekulalela
+weekly-goal-created = Ligoli lakho leliviki selakhekile
+daily-goal-created = Ligoli lakho lelilanga selakhekile
 share-goal = Yaba ligoli lami
 
 ## Profile Delete
@@ -761,6 +766,7 @@ contribution-varying-pronunciations-title = Tindlela tekukhuluma letehlukahluken
 contribution-varying-pronunciations-example-2-title = Sandla sakhe besiphakam-ile.
 contribution-background-noise-title = Imisindvo lengemuva
 contribution-background-noise-example-2-fixed-title = The giant dino <strong>[cough]</strong> the Triassic.
+contribution-background-noise-example-2-explanation = [Part of the text can’t be heard]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> ema-dinasaur lamakhulu ase <strong>[crackle]</strong> -riassic.
 contribution-background-voices-title = Emavi langemuva
 contribution-background-voices-example-1-explanation = Uyeta? <strong>[lokubitwe ngulomunye]</strong>
