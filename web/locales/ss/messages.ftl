@@ -244,6 +244,7 @@ rich-data = { "" }
 ## What's public
 
 whats-public = Yini lokungabonwa sive?
+email-not-public = Angeke liposi lakho lembane libonwe sive.
 
 ## Speak & Listen Shortcuts
 
@@ -362,7 +363,9 @@ add-language = Ngeta Lulwimi
 faq-title = Imibuto levame kubutwa
 faq-what-cv-q = Yini Common Voice?
 faq-why-important-q = Kumcoka ngani loku?
+faq-why-my-lang-q = Leni lulwimi lwami lungangetwa?
 faq-how-calc-hours-q = Common Voice uwabala njani ema hora?
+faq-where-src-from-2-q = Umtfombo wemagama uchamukaphi?
 faq-is-account-public-q = Imininingwane yami ibonwa sive?
 faq-what-is-cv = Yini Common Voice?
 faq-using-cv = Kusebentisa Common Voice
@@ -384,6 +387,7 @@ about-voice-contrib-subtitle = Bantfu bayeta batonikela ngemavi abo.
 about-voice-validation-title = Kucinisekisa Livi
 about-voice-validation-subtitle = Labanye bantfu bayawacinisekisa lawo mafayela amavi latfwebuliwe
 about-dataset-release-title = Dataset Release
+about-dataset-release-subtitle = I-dataset siyikhipha njalo makuphela tinyanga letintsatfu
 about-subscribe-text = Bhalisa
 about-speak = Khuluma
 about-listen-queue = Lidelezi lekulalela
@@ -407,6 +411,7 @@ about-nav-playbook = Fundza kuhlanganyela
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Yini lulwimi ku Common Voice?
 
 ## How do I add a language
 
@@ -460,6 +465,7 @@ de-identified = Kususwe imininingwane yemniyo
 
 ## Error pages
 
+error-title-404 = Asikakhoni kukutfolela lelikhasi
 error-title-503 = Sisabhekene nenkinga lencane emishinini yetfu
 error-code = Liphutsa { $code }
 
@@ -612,6 +618,7 @@ listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
 speak-empty-state-cta = Nikela imisho
 record-button-label = Tfwebula livi lakho
 share-title-new = <bold>Sisite </bold>sitfole emavi lamanengi
+target-segment-first-card = Ulekelela ku target segment yetfu yekucala
 target-segment-generic-card = Unikela ku target ye segment
 target-segment-add-voice = Ngeta Livi Lakho
 target-segment-learn-more = Fundza Kabanti
@@ -770,6 +777,7 @@ contribution-misreadings-example-2-title = I dinosaur lenkhulu yase Triassic.
 contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
 contribution-misreadings-example-3-title = Ema dinosaur lamakhulu ase Triassi-
 contribution-misreadings-example-4-title = Ema-dinosaurs lamakhulu ase Triassic. Yebo.
+contribution-misreadings-example-4-explanation = [More has been recorded than the required text]
 contribution-misreadings-example-5-title = Siyaphuma sisayotfola likhofi.
 contribution-misreadings-example-6-title = Siyaphuma siyotfola likhofi.
 contribution-misreadings-example-6-explanation = [Should be “We are”]
@@ -818,6 +826,7 @@ sc-logout-button = Phuma
 
 ## HOME
 
+sc-home-title = Wemukelekile lakukwelekwa khona imisho ka Common Voice
 sc-home-collect-title = Imisho lekwelekiwe
 sc-home-review-title = Buyeketa imisho
 
@@ -875,6 +884,7 @@ sc-submit-select-language =
 sc-submit-add-sentences = Ngeta <wikipediaLink>public domain</wikipediaLink> Imisho
 sc-submit-ph-one-per-line =
     .placeholder = Umusho munye ngelilayinini
+sc-submit-from-where = Ichamukaphi le <wikipediaLink>umkhambatsi wesive</wikipediaLink>misho?
 sc-submit-button =
     .submitText = Mikisa
 sc-submit-guidelines = Sicela uhlole <howToLink>umkhombandlela</howToLink>.
@@ -912,6 +922,7 @@ sc-personal-err-lang-not-found = Lulwimi alukasuseki. lulwimi alukatfolakali
 sc-personal-err-remove = Asikakhoni kususa lulwimi
 sc-personal-your-languages = Tilwimi Takho:
 sc-personal-remove-button = susa
+sc-personal-not-added = Awukangeti lulwimi kwamanje.
 
 ## REVIEW CRITERIA
 
