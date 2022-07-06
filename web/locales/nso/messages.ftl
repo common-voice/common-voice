@@ -139,6 +139,8 @@ request-language-explanation-2 = Le rena re tla <strong> tsibiša moeta phila wa
 
 ## Custom Goals
 
+# LINK will be replaced with the current URL
+goal-share-text = ke fetša go aga sepheo sa motho sa go fana ka lentšwe go #CommonVoice -- a re tlakane ong thuše go ruta motšhene gore na batho ba nnete ba bulela jwang { $link }
 
 ## Profile Delete
 
@@ -183,6 +185,7 @@ request-language-explanation-2 = Le rena re tla <strong> tsibiša moeta phila wa
 
 ## HOW-TO
 
+sc-howto-cite-item-3 = Bakeng sa Dingodiloeng tša sechaba tše sa humanegeng inthaneteng, o ka berekiša tshupišo ya thuto e.g setaele sa Harvard "Jess (2021) My Public licence poems"
 
 ## MY SENTENCES
 
