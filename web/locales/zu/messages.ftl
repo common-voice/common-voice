@@ -38,6 +38,7 @@ join-newsletter = Joyina ngokuzikhethela ohlwini lwethu lwe-imeyili ukuze uthole
 ## What's public
 
 recordings-and-locale-public = Inombolo yokurekhodwa nokuthi iziphi izilimi onikela kuzo kuzoba sesidlangalaleni.
+username-optin-public = Ungakhetha ukwenza igama olisebenzisayo libe sesidlangalaleni noma lingaziwa.
 username-email-not-demographic = Igama olisebenzisayo kanye ne-imeyili yakho ngeke zihlotshaniswe nedatha eshicilelwe.
 
 ## Speak & Listen Shortcuts
@@ -66,8 +67,10 @@ skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma no
 
 ## FAQ
 
+faq-when-release2-q = Uzoyikhulula nini idatha yeCommon Voice ngezinye izilimi?
 faq-is-goal-assistant-q = Ingabe umgomo we-Common Voice ukwakha umsizi wezwi?
 faq-do-want-native-q = Mina ngingumuntu ongeyena owomdabu futhi ngikhuluma ngendlela ehlukile, usafuna izwi lami?
+faq-why-different-speakers-q = Kungani udinga izikhulumi eziningi kangaka ezihlukene ngolimi ngalunye?
 faq-what-quality-q = Iliphi izinga lekhwalithi yomsindo elidingekayo ukuze isiqeshana sezwi sisetshenziswe kudathasethi?
 faq-why-10k-hours-q = Kungani amahora angu-10,000 aqinisekisiwe kuwumgomo wolimi ngalunye lokuthwebula umsindo?
 faq-why-10k-hours-a = Leli cishe inani lamahora adingekayo ukuqeqesha isistimu yokukhiqiza inkulumo-iya-kumbhalo.
@@ -136,6 +139,7 @@ hours-recorded-explanation = Isibalo samahora okuqoshwa kwezwi esiwaqoqile kuze 
 
 ## Data
 
+data-download-modal = Usuzoqalisa ukuloda kwe-<size>GB</size>, qhubeka?
 data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
 review-terms = Ngokusebenzisa iCommon Voice, uyavumelana <termsLink>Nemigomo</termsLink> kanye <privacyLink>Nesaziso Sobumfihlo</privacyLink>
 review-submit-msg = Siyabonga ngokurekhoda!<lineBreak></lineBreak>Manje buyekeza futhi uhambise iziqeshana zakho ngezansi.
@@ -193,9 +197,11 @@ language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi
 
 goal-help-recording = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokurekhoda yansuku zonke { $goalValue }!
 goal-help-validation = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokuqinisekisa wansuku zonke { $goalValue }!
+listen-empty-state = Siphelelwe iziqeshana ezizoqinisekiswa ngalolu limi...
 listen-loading-error =
     Asikwazanga ukuthola iziqeshana zomsindo ozozilalela.
     Sicela uzame futhi emuva kwesikhathi.
+speak-empty-state = Siphelelwe yimisho okumele siyiqophe ngalolu limi...
 speak-loading-error =
     Asikwazanga ukukutholela umusho ukuthi ukhulume.
     Sicela uzame futhi emuva kwesikhathi.
@@ -315,6 +321,7 @@ sc-howto-findpd-tips-3 = Ngeshwa asikwazi ukuba nezindatshana ze-Wikimedia okwam
 
 ## STATS
 
+sc-stats-error = Asikwazanga ukulanda izibalo. Sicela uzame futhi emuva kwesikhathi.
 
 ## ADD
 
