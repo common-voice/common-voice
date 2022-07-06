@@ -109,6 +109,9 @@ faq-when-release2-q =
     Nizolitjhaphulula nini ihlelo leCommmon Voice 
     ngamanye amalimi?
 faq-why-mission-q = Kubayini  iCommon Voice iyingcenye yehlelo leMozilla
+faq-what-cv-and-deepspeech-q =
+    Uyini umehluko hlangana ne-Common Voice 
+    ne-Deep Speech?
 faq-is-goal-assistant-q =
     Kghani umngomo weCommon Voice kukwenza amaphimbo 
     azosisiza?
@@ -135,6 +138,9 @@ faq-description = Iphimbo elijayelekileko liyingcenye yegadango elithethwe yi-Mo
 
 ## How does it work section
 
+about-new-lang-subtitle =
+    Sethula ikhasi le-Common Voice ngokusemthethweni 
+    ngelimeli.
 about-speak-text =
     Abanikelako barekhoda amaphimbwabo ngokufunda 
     imitjho ekunikelwe ngayo.
@@ -156,6 +162,9 @@ about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngo
 
 ## How does localization work
 
+about-playbook-how-localize-content-1 =
+    Ukutjhugululwa kweCommon Voice kwenzeka 
+    ku <strong>Pontoon</strong>.
 about-playbook-how-localize-content-4 =
     Ikhaseli lizabe likulungele ukwethulwa ngokusemthethweni
     nasele lifikelele ku-70%.
@@ -218,6 +227,9 @@ data-download-modal = Sele ukulungele ukudawuniloda i <size>{ $size }GB</size>, 
 data-subtitle = Sakha ibulungelo lamaphimbo arekhodiweko angasetjenziswa ngiwo woke umuntu bona angawasebenzisa ukubandula iinsetjenziswa bona zikhulume ikulumo eyamukeleko.
 data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
 review-terms = Ngokusebenzisa iCommon Voice, uvumelana ne <termsLink>Mibandela</termsLink> kunye ne <privacyLink>Nemigomo</privacyLink>
+review-aborted =
+    Uku-aplowuda kujamile. Ufuna ukususa 
+    okurekhodileko?
 review-submit-msg =
     Siyathokoza
     ngokurekhoda!<lineBreak></lineBreak>Buyekeza ngemva kwalokho uthumele okurekhodileko okungenzasi.
@@ -275,6 +287,9 @@ goal-help-recording =
 goal-help-validation =
     Usize iCommon Voice ukufikelela 
     <goalPercentage></goalPercentage> umgomo wokuqinisekisa { $goalValue } welanga!
+record-platform-not-supported-ios-non-safari =
+    Ku-iOS sibawa uragele phambili ngeSafari bona ukghone 
+    ukurekhoda...
 listen-empty-state =
     Asisenayo imitjho engaqinisekiswa 
     ngelimeli...
@@ -310,6 +325,7 @@ visibility-overlay-note =
 
 ## Custom Goals
 
+goal-type = Ngimuphi umgomo ofuna ukuzibekela wona?
 lose-goal-progress-warning =
     Nawutjhentjha umgomo ungalahlekelwa 
     yituthukwakho.
@@ -364,6 +380,7 @@ demo-account-card-header =
 
 ## Demo Contribute
 
+demo-contribute-card-header = Ukulungele ukurekhoda iphimbo lakho namkha ukusiboleka indlebe?
 
 ## Demo Dashboard
 
@@ -515,10 +532,15 @@ sc-review-form-reviewed-message =
         [one] Kubuyekezwe umutjho mu-1. Siyathokoza!
        *[other] imitjho ebuyekeziweko. Siyathokoza!
     }
+sc-review-form-review-failure = Okubuyekezileko angekhe kubulungeke. Sibawa ulinge ngokukhamba kwesikhathi.
 
 ## SETTINGS
 
 sc-settings-skipped-decription = Weqe imitjho nawubuyekezako esikhathini esidlulileko. Ukubuyisela emva imitjho eyeqiweko kuzokuvezela yoke imitjho  eyeqiweko godu. Lokhu kuya ngelimi.
+# VALIDATION
+sc-validation-number-of-words =
+    Imitjho kufuze ibe namagama ahlangana kweli-1 kuya kwali-14 
+    (nasele kuhlangene koke)
 
 # [/SentenceCollector]
 
