@@ -151,6 +151,7 @@ about-playbook-how-access-dataset-content-2 = Uma ufuna amathuluzi okwakha amamo
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-2 = Ukubusa kwethu kusekelwe phezu kwezinsika:
 
 ## Glossary
 
@@ -231,6 +232,7 @@ language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi
 goal-help-recording = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokurekhoda yansuku zonke { $goalValue }!
 goal-help-validation = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokuqinisekisa wansuku zonke { $goalValue }!
 record-platform-not-supported = Siyaxolisa, inkundla yakho ayisekelwe okwamanje.
+record-platform-not-supported-desktop = Kumadivayisi edeskithophu ungadlala iqhaza ngokuloda...
 record-platform-not-supported-ios-non-safari = Ku-iOS sicela uqhubeke ne-Safari ukuze ukwazi ukurekhoda...
 review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
 listen-empty-state = Siphelelwe iziqeshana ezizoqinisekiswa ngalolu limi...
@@ -505,6 +507,7 @@ sc-criteria-item-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize 
 ## REVIEW
 
 sc-review-lang-not-selected = Awukhethanga noma yiziphi izilimi. Sicela uye <profileLink>Iphrofayela</profileLink> yakho ukuze ukhethe izilimi.
+sc-review-no-sentences = Ayikho imisho ezobuyekezwa. <addLink>Engeza eminye imisho manje!</addLink>
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
