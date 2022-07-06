@@ -217,6 +217,7 @@ show-wall-of-text = Fundza Kabanti
 help-us-title = Sisite sicinisekise imisho
 vote-yes = Yebo
 vote-no = Cha
+toggle-play-tooltip = Chafata { shortcut-play-toggle } utokhona kudlala
 speak-subtitle = Nikela livi lakho
 speak-goal-text = Ticephu letiftwebuliwe
 listen-subtitle = Sisite sicinisekise emavi
@@ -227,6 +228,7 @@ voices-online = Emavi Alabakhona Manje
 todays-progress = Inchubo Yanamuhla
 help-reach-goal = Sisite sifike ku { $goal }
 read-terms-q = Uyifundzile imigomo yetfu?
+ready-to-record = Ulungele kunikela ngelivi lakho?
 all-locales = Konkhe
 today = Namuhla
 
@@ -492,6 +494,7 @@ community-playbook = Bhukwana wemmango
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Hamba ku Discourse
 go-languages-page = Buyela ekhasini letilwimi
+ready-to-validate = Ulungele kusita ngekucinisekisa imisho?
 more = Lokunengi
 close = Vala
 download = Download
@@ -503,6 +506,7 @@ download-title = Ku-download kwakho sekucalile
 download-form-email =
     .label = Faka iliposi lakho lembane
     .value = { "" }
+download-back = Buyela kuma Dataset aka Common Voice
 download-no = Cha Ngiyabonga
 
 ## Contact Modal
