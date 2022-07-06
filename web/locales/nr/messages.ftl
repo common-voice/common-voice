@@ -204,6 +204,7 @@ profile-not-required =
 
 contribution-criteria-page-description = Zwisisa bona khuyini okufuze ukutjheje nawulalele iinqetjhana ezirekhodiweko begodu usize ekwenzeni okurekhodileko kunothe!
 contribution-misreadings-description-extended-list-3 = Ukufunda okuthileko okungakatlolwa njengokuthi "S'bo" esikhundleni sokuthi "Sibo" namkha "Sibo" esikhundleni sokuthi "S'bo".
+contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
 contribution-background-noise-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kusuze ngaphandle kwalokha okhunye kuzwakala.
 contribution-background-voices-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kususe ngaphandle kwalokha okhunye kuzwakala.
 
@@ -250,6 +251,14 @@ sc-submit-confirm =
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Ayikho imitjho elungele ukufakwa!
+        [one] Kunomutjho mu-1 olungele ukufakwa!
+       *[other] imitjho elungele ukufakwa!
+    }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } Imitjho ayikabuyekezwa. Nange ufuna, ungabuyekeza imitjhwakho khona nje ngaphambi kobana uyikhambise.
