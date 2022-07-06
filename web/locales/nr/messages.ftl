@@ -1,6 +1,9 @@
 ## General
 
 email-opt-in-info = Ngingakuthabela ukufumana ama-email akhuluma ngeenkhumbuzo zemigomo, ituthukwami neendaba ezimalungana ne-Common Voice.
+email-opt-in-info-sub-with-challenge =
+    Fumana ama-email akhuluma ngephaliswano, iinkhumbuzo zemigomo,
+    ituthuko yamva nje neendaba zeCommon Voice.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -41,6 +44,9 @@ speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekile
 ## ProfileForm
 
 profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu usize ihlelo lethu linembe khudlwana.
+skip-submission-note =
+    Tjheja: Kusafuze ukhethe hlangana
+    NokuKhuluma nokuLalela bona utjhugulule indlela onganikela ngayo.
 
 ## Profile - Email
 
@@ -60,6 +66,7 @@ faq-what-determine-identity-q = Kutjho ukuthini ukuthi "angikghoni ukwazi bona n
 
 ## How does it work section
 
+about-listen-text = Abasebenzisa ihlelweli bayaqinisekisa bona amaphimbo abanikela ngawo, anembile ngokuqala bona isikhulumi sifunda imitjho kuhle.
 about-yes-votes-text = Bona uphumelele ukungena ehlelweni le-Common Voice iphimbo kufuze liphasiswe babantu ababili abahlukileko.
 about-stay-in-touch-text-1 = <emailFragment>Zitlolise ku</emailFragment> bona ufunde ukuthi ungasifaka njani isandla emajimeni, ezenzakalweni nokuthuthukisa ubujamo be-Common Voice.
 about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngokuthi ungene<discourseLink>Ebulungelweni</discourseLink> bona nikhulumisane ngeenhloko ezithileko namkha <matrixLink>Ubuhlanga</matrixLink> bona ufumane isiyeleliso ngokurhabako.
@@ -173,6 +180,9 @@ download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufa
 ## Landing
 
 help-contribute = Ungasiza ngemininingwana ehlukahlukeneko ekuthuthukiseni i-Common Voice begodu unikele nangephimbo lako.
+profile-not-required =
+    Kuhle ukuba neprhofayili bona unikele
+    Nanyana kunjalo, qala ngenzasi ukuthi kubayini.
 
 ## DemoLayout
 
@@ -209,7 +219,9 @@ contribution-background-voices-description-extended = Nange okurekhodiweko kuqun
 
 ## GENERAL
 
-sc-languages-fetch-error = Sibhalelwe ukuveza amalimi esinawo. Angekhe ukghone ukusiza okwa-nje. Sibawa ulinge esikhathini esizako.
+sc-languages-fetch-error =
+    Sibhalelwe ukuveza amalimi esinawo.
+    Angekhe ukghone ukusiza okwa-nje. Sibawa ulinge esikhathini esizako.
 
 ## HOW-TO
 
@@ -228,6 +240,9 @@ sc-howto-findpd-tips-1 = Imithombo ekhamba phambili ongaqala kiyo maphimbo arekh
 
 ## ADD
 
+sc-submit-confirm =
+    Ngiyaqinisekisa bona imitjho le
+    <wikipediaLink>yehlelo lomphakathi</wikipediaLink> begodu nginamalungelo wokuyifaka.
 
 ## ADD LANGUAGE
 
