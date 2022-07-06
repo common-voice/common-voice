@@ -82,6 +82,7 @@ username-optin-public =
 
 ## ProjectStatus
 
+status-title = Ubujamo beprhojekthi yoke: qala bona sibuya kude kangangani!
 status-hours =
     { $hours ->
         [one] Kuqinisekiswe i-awara okwanje!
@@ -143,7 +144,9 @@ faq-description = Iphimbo elijayelekileko liyingcenye yegadango elithethwe yi-Mo
 
 ## How does it work section
 
+about-language-req-subtitle = Omunye ubawe bona kufakwe ilimi.
 about-localization-subtitle = Umtlolo osetjenziswe kuwebhusayidi utjhugululelwe eliminelo.
+about-sentence-collection-subtitle = Imitjho ibuthelelwe ukwenzela bona umuntu ayifundele phezulu.
 about-new-lang-subtitle =
     Sethula ikhasi le-Common Voice ngokusemthethweni 
     ngelimeli.
@@ -213,6 +216,7 @@ about-playbook-how-access-dataset-content-2 = Nange funa amathulusi wokwakha ama
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-2 = Umthethosisekelo wethu uyafumaneka ku:
 
 ## Glossary
 
@@ -225,6 +229,7 @@ sentence-collection-explanation =
 hours-recorded-explanation =
     Inani lama-awara esele siwabuthelele 
     bekube nje.
+sst-explanation = Ikulumo etlolwa phasi (STT) itjhugululwa iba liphimbo
 
 ## Error pages
 
@@ -282,6 +287,10 @@ request-language-form-info-explanation =
     ngelimi ngendlela ongakghona ngayo. Lokhu
     kungahlanganisa:
 request-language-form-info-explanation-list-3 = Ngena kuzindzolwazi engasisiza sizwisise ilimi
+request-language-google-recaptcha-required = kuyatlhogeka reCAPTCHA nange ufuna ukuragela phambili
+request-language-google-recaptcha-error =
+    Kunento engakhambi kuhle ngeCAPTCHA. 
+    Sibawa ulinge godu.
 # Success page
 request-language-success-heading = Siyathokoza! Uthumele isibawo sokufumana ilwazi ngelimi elitjha
 request-language-success-list-1 = Uzokufumana i-email kungasikade ezokuhlathululela ngamagadango okufuze uwathathe bona ilimi lakho lifakwe ku-Common Voice
@@ -307,6 +316,7 @@ record-platform-not-supported = Sibawa usilibalele okufunako akufumaneki.
 record-platform-not-supported-ios-non-safari =
     Ku-iOS sibawa uragele phambili ngeSafari bona ukghone 
     ukurekhoda...
+review-tooltip = Buyekeza bewurekhode kabutjha khona la
 listen-empty-state =
     Asisenayo imitjho engaqinisekiswa 
     ngelimeli...
@@ -503,10 +513,13 @@ sc-stats-summary =
 
 ## ADD
 
+sc-submit-err-confirm-pd = Sibawa uqinisekise bona imitjho le ingaya emphakathini.
 sc-submit-prompt =
     .message =
         Imitjho ayikathunyelwa. Unesiqiniseko 
         sokobana ufuna ukuphuma?
+sc-submit-ph-read-how-to =
+    .placeholder = Funda ingcenye ethi Ungakwenza njani nange ungaqiniseki bona unganikela njani
 sc-submit-confirm =
     Ngiyaqinisekisa bona imitjho le
     <wikipediaLink>yehlelo lomphakathi</wikipediaLink> begodu nginamalungelo wokuyifaka.
@@ -604,6 +617,9 @@ sc-criteria-item-6 =
 ## REVIEW
 
 sc-review-lang-not-selected = Awekho amalimi owakhethileko. Sibawa uye ku <profileLink>Profayilakho</profileLink> bona ukhethe amalimi.
+sc-review-no-sentences =
+    Ayikho imitjho ongayibuyekeza. <addLink>Faka 
+    imitjho engeziweko khona nje!</addLink>
 sc-review-form-keyboard-usage-custom = Ungasebenzisa neendlela zokwenza izinto msinyana: { sc-review-form-button-approve-shortcut } ukuphasisa, { sc-review-form-button-reject-shortcut } ukufeyilisa, { sc-review-form-button-skip-shortcut } ukudlulisa
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
