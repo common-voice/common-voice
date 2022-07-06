@@ -241,6 +241,11 @@ visibility-overlay-note = Qaphela: Uma kusethelwe kokuthi 'Kuyabonakala', lesi s
 
 goal-type = Hlobo luni lomgomo ofuna ukulakha?
 lose-goal-progress-warning = Ngokushintsha injongo yakho, ungase ulahlekelwe inqubekelaphambili okukhona.
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Siza kufinyelele kwi { $hours } hora { $language } nenjongo womuntu siqu
+       *[other] Siza kufinyelele ku { $hours } mahora { $language } nenjongo womuntu siqu
+    }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Siza iCommon Voice ifinyelele { $hours } ihora
