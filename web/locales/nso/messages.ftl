@@ -55,6 +55,7 @@ faq-why-important-a =
     
     Go dira gore tlhathollo ya mantšu e lemogwe lefaseng ka bophara, re kgoboketša disampole tša mantšu ka dipolelo tše di bolelwago ke batho ba bantši kudu le baboledi ba dihlopha tše nyenyane tšeo di sa hlokomelegilego ke ditshebeletšo tša dikgwebo. Go phatlalatša pokelelo ya datha tšeo di fapanego go tla matlafatša ba hlagišo, bo rakgwebo, le setšhaba ka moka sa dipolelo go rarolla sekgoba se ka bobona.
 faq-why-mission-a = Mozilla e ikemišeditše go boloka mologo o botšwe ebile o hwetšagala ke batho bohle. Go dira bjalo re hloka go matlafatša babopi ba wepesaete ka mediro ya go swana le Common Voice. Ge ditheknolotši tša go hlaboša lentšu di dutše di ata go matlafatša tswalano ya ditišwa, re dumela gore di swanetše go hlankela badiriši ka moka go lekana. Seo se bolela gore go beeletša karolo ya maleme a mantši le go amogela mmelelo o fapanego gammogo le teka-tekano ya palo ya batho ge o aga le go tlhahloba ditheknolotši tša mantšu. Common Voice ke mothopo wa setšhaba wo o hwetšagala ke motho yo mongwe le yo mongwe, gomme dihlopha tša Mozilla le batšweletši lefaseng ka bophara ba šetše ba šomiša seo mananeo a bona.
+faq-what-quality-a = Re nyaka gore dathasete ya Common Voice e bonagatše seka sa theetšwago temogo ya sefetošetšamantšung dingwalwa e tla kwala nageng, kamoo re nyaka mehuta e fapa-fapanego. Go tlaleletša ntle le diboledi tše dintši tša go fapana, dathasete e nago le odio yeo e fapanego e tla ruta temogo ya sefetošetšamantšung dingwalwa go berekišana le maemo a fapanego a lefase, go tloga bokamorago go bolela le lešata ka koloi. Ge feela o dikarolwana tša lentšu la gago le sa kwagale, le tla swanela go ba se se loketšego dathasete.
 faq-why-not-ask-read-a = Go dira gore dathasete ya Common Voice e be molemo ka moo go ka kgonegago, re tšere sephetho sa go dumelela mothopo wa mogwalo feela go hwetšagala ka tlase ga laesense ya Creative Commons (CC0). Go šomiša maemo a CC0 go bolela gore go boima kudu go hwetša le go kgoboketša mothopo wa mogwalo, eupša go dumelela mang le mang go šomiša dintlha tša lentšu ka ntle ga dithibelo tša ditirišo goba tumelelo go tšwa go Mozilla. Mafelelong, re nyaka go dira gore dathasete ya maleme a mantši/polelo e ntši e be molemo ka moo go ka kgonegago go motho yo mongwe le yo mongwe, go akaretša banyakišiši, diyunibesithi, ba thomago, mebušo, mekgatlo ya merero ya setšhaba, le batho ba ratago go itloša bodutu.
 faq-what-determine-identity-a =
     "The Common Voice dathasete ke se dirišwa seo se bolegilego ebile se hwetšagala phatlalatša se ka be rekišwa go eteletšwa mehuta e fapanego ya disebedišwa tša go kgona go bolela. Go sireletša tšhireletšo baneedi ba rena, re kgopela motho yo mongwe le yo mongwe yo a taoneloutago Common Voice go hlompha sephiring sa baneedi. 
@@ -107,6 +108,10 @@ about-header-description-v2 = Theknolotši ya go tlhathollo lentšu e fetola tse
 
 ## Datasets Page
 
+dataset-description-hours =
+    Engwe le engwe yeo e tsenego dathasete e na le MP3 e fapanego le faele e tsamaišanago le mongwalo. Bontši bja <b>{ $total }</b> diiri tšeo gatišitšwego ka gare ga dathasete di akaretša gape le boitsebošo bja dintlha tša palo ya batho bjalo ka mengwaga, le bong bja motho, le mmolelo seo a ka thušago go eteletša go nepagetša ga tlhathollo ya mantšu tša temogo. 
+    
+    Dathasete ga bjale di na le <b>{ $valid }</b> diiri tšeo di netegaditšwego ka dipolelo<b>{ $languages }</b>, eupša re dula ka mehla re okeditše mantšu le maleme a mangwe. Ela hlogo <languagesLink>letlakaleng la rena la Dipolelo</languagesLink> go kgopela polelo goba go thoma go neela.
 
 ## Download Modal
 
@@ -181,6 +186,7 @@ about-header-description-v2 = Theknolotši ya go tlhathollo lentšu e fetola tse
 
 ## HOW-TO
 
+sc-howto-findpd-text-2 = Gopola gore re hloka tumelelo ya go phatlalatša dipolelo tšeo, ke kamoo re kgonthišetša gore mengwalo ke ya<wikipediaLink> batho ka moka</wikipediaLink>. Ge goba a gona dipontšho molaleng, boledišana le motho yo temana yeo e leng ya gagwe gomme o botšiša gore e ba ba nyaka go neela temana ya bona Sebakeng sa Setšhaba. Ge e ba ba nyaka, ba thuše go tsena mogatong a <cc0WaiverLink>Tumelelano ya Meneelo</cc0WaiverLink> . Ge e ba ga ba nyake go tsena tiragalo ya temana, ke moka wa dumelelwa go diriša temana yeo.
 
 ## MY SENTENCES
 
