@@ -201,6 +201,7 @@ request-language-explanation-2 = Le rena re tla <strong> tsibiša moeta phila wa
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-uploading = Mafoko a tsenywa. Se se ka tseya mitsutsu e malo go ya ka gore ke mafoko a ma kae. Re Kgopela o ske wa tswalela wepsaete.
 
 ## LANGUAGE INFO
 
