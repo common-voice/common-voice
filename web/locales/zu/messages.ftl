@@ -55,6 +55,7 @@ username-email-not-demographic = Igama olisebenzisayo kanye ne-imeyili yakho nge
 
 ## Speak Shortcuts
 
+request-language-text = Awuboni ulimi lwakho ku-Common Voice okwamanje?
 
 ## ProjectStatus
 
@@ -77,6 +78,8 @@ skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma no
 
 ## Profile - Email
 
+email-already-used = I-imeyili isivele isetshenziselwa enye i-akhawunti ehlukile
+change-email-setings = Shintsha i-imeyili yakho ngezilungiselelo ngaphansi kokuthi Ukungena koMazisi
 
 ## FAQ
 
@@ -301,6 +304,7 @@ activity-needed-calculation-plural =
         [one] { $clipsPerDay } isiqeshana
        *[other] iziqeshana ezingu-{ $clipsPerDay } ngosuku."
     }
+which-goal-type = Uyafuna Ukukhuluma, Ukulalela noma kokubili?
 receiving-emails-info =
     Okwamanje umiselwe ukuthola ama-imeyili afana nezikhumbuzi zegoli, 
     izibuyekezo zenqubekelaphambili zami kanye nezincwadi zezindaba mayelana ne-Common Voice
@@ -339,6 +343,8 @@ demo-language-select-card-header = I-Common Voice iyidathasethi yezwi enkulu kun
 ## Demo Account
 
 demo-account-card-header = Ukuba ne-akhawunti akudingekile ukuthi unikele, nakuba kuwusizo.
+demo-account-enter-email =
+    .label = Faka i-imeyili ukuze uthumele isixhumanisi sokubhalisa
 
 ## Demo Contribute
 
@@ -394,9 +400,11 @@ sc-howto-findpd-tips-3 = Ngeshwa asikwazi ukuba nezindatshana ze-Wikimedia okwam
 
 ## MY SENTENCES
 
+sc-my-err-failed-delete = Yehlulekile ukususa imisho ekhethiwe… Sicela uzame futhi!
 
 ## REJECTED
 
+sc-rejected-err-fetching = Iphutha ngenkathi silanda imisho enqatshiwe. Ngicela uzame futhi.
 
 ## STATS
 
@@ -418,6 +426,7 @@ sc-submit-filtered = Imisho ehlungiwe ngenxa yokwehluleka kwezidingo (sicela uha
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-label = Engeza ulimi ofuna ukufaka isandla kulo
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
