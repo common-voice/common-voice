@@ -315,6 +315,7 @@ settings = Settings
 edit-profile = Lungisa likhasi lelichaza kabanti ngawe
 profile-create-success = Imphumelelo, likhasi lelichaza kabanti ngawe lakhekile!
 profile-close = Vala
+why-demographic = Kumcoka ngani loku?
 accept-privacy-title = Umgomo wekugcina tindzaba tiyimfihlo.
 login-identity = Login Identity
 login-signup = Ngena / Bhalisa
@@ -342,6 +343,7 @@ add-language = Ngeta Lulwimi
 
 faq-title = Imibuto levame kubutwa
 faq-what-cv-q = Yini Common Voice?
+faq-why-important-q = Kumcoka ngani loku?
 faq-what-is-cv = Yini Common Voice?
 faq-using-cv = Kusebentisa Common Voice
 faq-search-for-answers =
@@ -384,6 +386,7 @@ about-nav-get-involved = Hlanganyela
 
 about-playbook-how-add-language-translating-heading = Sisahumusha lelikhasi
 about-playbook-how-add-language-collecting-sentences-heading = Kukweleka imisho
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Bona lokunengi kunhlanganisela yemasho</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -393,6 +396,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Kukweleka imisho
 
 ## How to record quality
 
+about-playbook-how-record-content-5 = <accuracyLink> Bona lokunengi eluhleni lwekungaphazami </accuracyLink>
 
 ## How to grow language
 
@@ -480,6 +484,7 @@ dataset-version = Inhlobo
 
 ## Download Modal
 
+download-title = Ku-download kwakho sekucalile
 download-form-email =
     .label = Faka iliposi lakho lembane
     .value = { "" }
@@ -539,6 +544,7 @@ record-cta = Cala kutfwebula
 record-platform-not-supported-desktop = { "" }
 record-no-mic-found = Kute umbhobho lotfolakele.
 record-cancel = Yekela kutfwebula kabusha
+record-instruction = { $actionType }<recordIcon></recordIcon>fundza lomusho uphumisele
 record-stop-instruction = { $actionType }<stopIcon></stopIconuma> socedzile
 record-three-more-instruction = Kusele lamatsatfu!
 record-last-instruction = <recordIcon></recordIcon>Kekugcina!
@@ -553,6 +559,7 @@ record-abort-delete = Phuma phindze wesule ticephu letitfwebuliwe
 listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
 speak-empty-state-cta = Nikela imisho
 record-button-label = Tfwebula livi lakho
+share-title-new = <bold>Sisite </bold>sitfole emavi lamanengi
 target-segment-add-voice = Ngeta Livi Lakho
 target-segment-learn-more = Fundza Kabanti
 
