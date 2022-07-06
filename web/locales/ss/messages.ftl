@@ -275,6 +275,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Lahla sicephu lesisatfwebulwa
 shortcut-submit = Jika
 shortcut-submit-label = Mikisa ticeshana
+request-language-text = Awuliboni lulwimi lwakho ku Common voice kwamanje?
 request-language-button = Cela lulwimi
 
 ## ProjectStatus
@@ -356,7 +357,9 @@ remove-avatar = Remove Avatar
 ## Profile - Email
 
 manage-subscriptions = Naka lababhalise ngeliposi lembane
+email-already-used = Leliposi lembane selivele lisetjentiswe kulenye i-account
 add-language = Ngeta Lulwimi
+change-email-setings = Shintja liposi lakho lembane kuma settings ngaphasi kwalapho ungena khona
 
 ## FAQ
 
@@ -417,7 +420,9 @@ about-playbook-what-is-language = Yini lulwimi ku Common Voice?
 
 about-playbook-how-add-language = Ngilungeta njani lulwimi?
 about-playbook-how-add-language-translating-heading = Sisahumusha lelikhasi
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Bukela umkhombandlela wetfu wekutsi usetjentiswa kanjani Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Kukweleka imisho
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Bukela umkhombandlela ngekutsi imisho ikolekwa njani</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Bona lokunengi kunhlanganisela yemasho</sentenceCollectorFragment>.
 
 ## How does localization work
@@ -691,6 +696,7 @@ set-a-goal = Setha ligoli
 cant-decide = Awukhoni kukhetsa?
 how-many-per-day = Kuhle! Tingaphi ticephu lotitfwebula ngelilanga?
 how-many-a-week = Kuhle! Tingaphi ticephu lotitfwebula ngeliviki?
+which-goal-type = Ufuna kukhuluma, kulalela, noma kokubili?
 confirm-goal = Cinisekisa umgomo
 goal-interval-weekly = Ngemaviki
 # $type is one of share-goal-type-*
@@ -725,6 +731,7 @@ download-start = Download profile data
 download-request = Cela leticephu letitfwebuliwe
 download-requests = Past recordings download requests
 download-request-button = Download
+download-request-description = { $clipCount } emafayela emavi latfwebuliwe, linani lemafayela lagciniwe { $size }. Aphupha nini { $expires }.
 download-request-archive-single = Lifayela linye le ZIP lelicuketse
 download-request-archive-multiple = Hlephula kube{ $archiveCount } ngemafayela e ZIP lacuketse
 download-request-refresh-button = Vuselela
@@ -755,6 +762,8 @@ demo-account = i-Account
 ## Demo Account
 
 demo-account-card-header = { "" }
+demo-account-enter-email =
+    .label = Faka liposi lembane kuze utfumele i-link yekubhalisa.
 demo-account-sign-up = Tfumela i-link yekubhalisa
 
 ## Demo Contribute
@@ -788,6 +797,7 @@ contribution-varying-pronunciations-title = Tindlela tekukhuluma letehlukahluken
 contribution-varying-pronunciations-example-1-title = Enhloko yakhe bekagcoke i-beret.
 contribution-varying-pronunciations-example-2-title = Sandla sakhe besiphakam-ile.
 contribution-background-noise-title = Imisindvo lengemuva
+contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> ema-dinosaur lamakhulu e <strong>[cough]</strong> Triassic.
 contribution-background-noise-example-2-fixed-title = The giant dino <strong>[cough]</strong> the Triassic.
 contribution-background-noise-example-2-explanation = [Part of the text can’t be heard]
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> ema-dinasaur lamakhulu ase <strong>[crackle]</strong> -riassic.
@@ -852,6 +862,7 @@ sc-howto-findpd-subtitle-2 = Timbandzakanye netinkapani noma tinhlangano talakha
 
 sc-my-title = Imisho Yami
 sc-my-loading = Sifaka imisho yakho...
+sc-my-err-fetching = Kube neliphutsa sisalandza imisho yakho. Sicela uphindze wetame futsi.
 sc-my-no-sentences = Kute imisho letfolakele!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -866,6 +877,7 @@ sc-my-deleting = Yesula imisho lekhetsiwe…
 
 sc-rejected-title = Lejikisiwe Imisho
 sc-rejected-loading = Sisalungisa imisho lejikisiwe...
+sc-rejected-err-fetching = Kube neliphutsa sisalandza imisho lejikisiwe. Sicela uphindze wetame futsi.
 sc-rejected-none-found = Kute imisho lejikisiwe letfoliwe!
 
 ## STATS
@@ -892,6 +904,7 @@ sc-submit-guidelines = Sicela uhlole <howToLink>umkhombandlela</howToLink>.
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Asikakhoni kungeta lulwimi
+sc-add-lang-sec-label = Ngeta lulwimi lofuna kulekelela kulo
 sc-add-lang-sec-button = Ngeta Lulwimi
 sc-add-err-unexpected = Imphendvulo lengakagadzeki iphuma ku server
 sc-add-err-submission = Inkinga yekumikisa
