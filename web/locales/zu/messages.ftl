@@ -79,6 +79,10 @@ skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma no
 
 ## FAQ
 
+faq-why-important-a =
+    Ukukhuluma indlela evamise ukusetshenziswa ukuxhumana nabantu kanti ubuchwepheshe bamazwi busenzela lokhu kube lula ngokusilethela lobuchwepheshe kumakhompyutha ethu nakomakhalekhukhwini bethu. Sifuna ukuxhasa onjiniyela ukuze bekwazi ukuwakha izinhlelo zokusebenza zamazwi aqoshiwe, njengabatoliki abasebenza esikhathini sangempela kanye nabasizi abakwazi ukukhuluma ngezinkundla ezidijithali. Okwamanje, ulwazi oludingekayo lokwakha amazwi izinhlelo zokusebenza zamazwi aqoshiwe ziyabiza futhi zinabanikazi. Siyathemba ukuthi iCommon Voice dataset izonikeza onjiniyela konke abakudingayo ukuze basungule futhi benze ubuchwepheshe bokukhuluma butholakale ngezilimi zabo. 
+    
+    Ukwenza ukuqoshwa kwamazwi butholakale jikelele, siqoqa iziqephu zamazwi angezilimi ezikhulunywa ngokubanzi nalezi ezikhulunywa imiphakathi emincinyane ezingavamisanga ukunakwa ezohwebo zokuqoshwa kwamazwi. Ukushicilela ulwazi oluqoqiwe olubanzi lwamazwi kuzoxhasa onjiniyela, osomabhizinisi nayo yonke imiphakathi yezindlela zokuxhumana ukunciphisa lesikhala.
 faq-how-get-q = Ngingayithola kanjani idatha yeCommon Voice?
 faq-when-release2-q = Uzoyikhulula nini idatha yeCommon Voice ngezinye izilimi?
 faq-why-mission-q = Kungani i-Common Voice iyingxenye yemishini ye-Mozilla?
