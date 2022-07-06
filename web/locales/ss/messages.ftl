@@ -749,6 +749,7 @@ sc-stats-updating = Updating…
 
 ## ADD
 
+sc-submit-err-select-lang = Khetsa lulwimi
 sc-submit-err-add-sentences = Sicela wengete imisho
 sc-submit-err-add-source = Sicela ungete umtfombo
 sc-submit-title = Ngeta imisho
