@@ -26,6 +26,7 @@ default-tagline = I-Mozilla Common Voice iyisinyathelo sokusiza ukufundisa imish
 help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhulume kahle lo musho ongezansi?
 no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
+email-subscription-title-new = Bhalisela izincwadi zezindaba zeCommon Voice, izikhumbuzi zemigomo nezibuyekezo zenqubekelaphambili
 
 ## Account Benefits
 
@@ -106,6 +107,7 @@ about-playbook-how-add-sentences-content-4 = Imisho eqinisekisiwe ithunyelwa nga
 ## How to record quality
 
 about-playbook-how-record-content-2 = Gwema umsindo omningi wangemuva - kufanele kube lula ukukuzwa.
+about-playbook-how-record-content-3 = Funda umusho ngokucophelela - ungaphuthi, ungashintshi noma wengeze amagama.
 about-playbook-how-record-content-4 = Qiniseka ukuthi inkundla iyarekhoda ngaphambi kokuthi uqale ukukhuluma, nokuthi iyama kuphela uma usuqedile.
 
 ## How to grow language
@@ -125,6 +127,7 @@ about-playbook-how-grow-language-content-8 = <strong>Yakha ubuciko!</strong> Ump
 
 localization-explanation = Lena inqubo yethu yokuhumusha nokulungisa okuqukethwe kwethu ezindaweni eziningi (izilimi).
 sentence-collection-explanation = Ukuqoqa imisho esizindeni somphakathi, noma ukubhala emisha esizindeni somphakathi.
+hours-recorded-explanation = Isibalo samahora okuqoshwa kwezwi esiwaqoqile kuze kube manje.
 
 ## Error pages
 
@@ -133,6 +136,7 @@ sentence-collection-explanation = Ukuqoqa imisho esizindeni somphakathi, noma uk
 
 data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
 review-terms = Ngokusebenzisa iCommon Voice, uyavumelana <termsLink>Nemigomo</termsLink> kanye <privacyLink>Nesaziso Sobumfihlo</privacyLink>
+review-submit-msg = Siyabonga ngokurekhoda!<lineBreak></lineBreak>Manje buyekeza futhi uhambise iziqeshana zakho ngezansi.
 
 ## Datasets Page
 
@@ -237,6 +241,7 @@ goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#Co
 ## Profile Download
 
 download-recordings-unavailable = Awukwazi ukucela ukurekhodwa kwakho ngenkathi esinye isicelo sisaqhubeka.
+download-recently-requested = Ungacela ukukhishwa okusha kokurekhodiwe njalo ezinsukwini ezingu-{ $days }.
 download-requests-info = Uma ucela okuqoshiwe kwakho, sikuhlanganisa kube ifayela le-ZIP elilodwa noma amaningi. Nazi izicelo zakho ezedlule:
 
 ## Landing
