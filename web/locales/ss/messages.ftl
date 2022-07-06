@@ -226,6 +226,7 @@ hours-validated = Emahora lacinisekisiwe
 voices-online = Emavi Alabakhona Manje
 todays-progress = Inchubo Yanamuhla
 help-reach-goal = Sisite sifike ku { $goal }
+read-terms-q = Uyifundzile imigomo yetfu?
 all-locales = Konkhe
 today = Namuhla
 
@@ -330,6 +331,7 @@ on = Vuliwe
 ## Profile - Email
 
 browse-file-title = Faka sitfombe
+browse-file = Dvonsa futsi uyekele<browseWrap>Buka</browseWrap>
 connect-gravatar = Connect with Gravatar
 avatar-uploaded = Avatar uploaded
 max-file-size = { $kb }kb max
@@ -345,6 +347,7 @@ add-language = Ngeta Lulwimi
 faq-title = Imibuto levame kubutwa
 faq-what-cv-q = Yini Common Voice?
 faq-why-important-q = Kumcoka ngani loku?
+faq-is-account-public-q = Imininingwane yami ibonwa sive?
 faq-what-is-cv = Yini Common Voice?
 faq-using-cv = Kusebentisa Common Voice
 faq-search-for-answers =
@@ -353,6 +356,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Leni Common Voice?
+how-does-it-work-title-v2 = Common Voice usebenta njani?
 
 ## How does it work section
 
@@ -378,6 +382,7 @@ about-nav-why-common-voice = Leni ?
 about-nav-how-it-works = Kanjani ?
 about-nav-partners = Balingani
 about-nav-get-involved = Hlanganyela
+about-nav-how-it-works-2 = Common Voice usebenta njani?
 
 ## Community Playbook Content
 ## What is a language
@@ -391,9 +396,11 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 ## How does localization work
 
+about-playbook-how-localize = Le-site ye localization isebenta njani?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Ngiyingeta njani imisho?
 
 ## How to record quality
 
@@ -413,6 +420,7 @@ about-playbook-how-grow-language-content-6 = Kubambisana nekuchumana
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Tincumo temsebenti tentiwa njani?
 about-playbook-how-project-governance-content-3 = Kufihleka, tekuphepha nekutsembeka.
 about-playbook-how-project-governance-content-4 = Kutimbandzakanya kwemmango nekwenta tincumo.
 about-playbook-how-project-governance-content-5 = Linani nekunconywa
@@ -474,6 +482,7 @@ download-language = Download { $language }
 validated-hours = Lacinisekisiwe emahora
 recorded-hours = Latfwebuliwe emahora
 subscribe = Bhalisa
+get-started-speech = Vele ucale nge Speech Recognition
 other-datasets = Lamanye ema-Datasets emavi
 feedback-q = Unawo umbiko longasitjela wona?
 community-playbook = Bhukwana wemmango
@@ -551,6 +560,7 @@ record-cancel = Yekela kutfwebula kabusha
 record-instruction = { $actionType }<recordIcon></recordIcon>fundza lomusho uphumisele
 record-stop-instruction = { $actionType }<stopIcon></stopIconuma> socedzile
 record-three-more-instruction = Kusele lamatsatfu!
+record-again-instruction = Kuhle! <recordIcon></recordIcon> Tfwebula sicephu sakho lesilandzelako
 record-last-instruction = <recordIcon></recordIcon>Kekugcina!
 share-clip = Yaba sicephu sakho lesitfwebuliwe
 share-common-voice = Yaba Common Voice
@@ -619,6 +629,7 @@ easy-difficulty = Kumelula
 average-difficulty = Lokusemkhatsini
 difficult-difficulty = Kulikhuni
 pro-difficulty = Pro
+want-to-continue = Uyafuna kuchubeka?
 finish-editing = Cedzela kulungisa kucala?
 build-custom-goal = Yakha ligoli lakho
 help-reach-hours-pluralized =
@@ -743,7 +754,7 @@ sc-home-review-title = Buyeketa imisho
 ## HOW-TO
 
 sc-howto-title = Kwentiwa njani
-sc-howto-addlang-title = Adding languages to work with
+sc-howto-addlang-title = Kungeta tilwimi lotosebenta ngato
 sc-howto-addsen-title = Ngeta imisho lemisha
 sc-howto-cite-title = Indlela yeku-Cite
 sc-howto-review-title = Buyeketa imisho
