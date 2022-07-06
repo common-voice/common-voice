@@ -25,6 +25,9 @@ banner-error-slow-2 =
 
 ## Layout
 
+content-license-text =
+    Okumumethweko kuyafumaneka ngaphasi 
+    kwe <licenseLink>Ilayisense Yokuthoma Izinto Ezijayelekileko</licenseLink>
 share-title = Sisiza bona sifumane abanye abanganikela ngamaphimbo wabo!
 share-text =
     Siza ngokufundisa imitjhini bona abantu bamambala bakhuluma njani, 
@@ -95,6 +98,8 @@ status-hours =
 
 ## ProfileForm
 
+profile-form-variant =
+    .label = Ngimaphi ama { $language } ahlukahlukeneko owakhulumako?
 profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu usize ihlelo lethu linembe khudlwana.
 thanks-for-account =
     Siyathokoza ngokuqinisekisa i-akhawundi yakho, njeke asenze 
@@ -195,6 +200,7 @@ about-playbook-how-localize-content-1 =
 about-playbook-how-localize-content-4 =
     Ikhaseli lizabe likulungele ukwethulwa ngokusemthethweni
     nasele lifikelele ku-70%.
+about-playbook-how-localize-content-5 = Bukela ividiyo ehlathululako bona ikusize
 
 ## How to add sentences
 
@@ -276,6 +282,7 @@ confirm-size =
     Ukulungele ukuthoma ukudawuniloda i 
     <b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> bona angekhe ulinge ukufumana bona maphimbo wabobani aku-Common Voice
+whats-inside = Khuyini engaphakathi kwehlelo le-Common Voice?
 want-dataset-update = Ufuna sikwazise nasikhupha ihlelo elitjha leCommon Voice? Zitlolise engcenyenethu yeendaba.
 resource-nemo-info = <githubLink>INVIDIA NeMo</githubLink>™ yi <docsLink>lithulusi lawo woke umuntu</docsLink> lokuthuthukisa zerhubhululo yamahlelo we-AI
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> izibophezele ukuvula ihlelo letheknoloji lokukhuluma. Amahlelwabo ahlanganisa ifundo engeneleleko STT ne TTS.
@@ -337,6 +344,9 @@ record-platform-not-supported-ios-non-safari =
     ukurekhoda...
 review-tooltip = Buyekeza bewurekhode kabutjha khona la
 record-abort-text = Nawuphuma nje uzokulahlekelwa ngosele ukwenzile
+listen-again-instruction =
+    Wenze kuhle!<playIcon></playIcon> Lalela godu 
+    nasele ujame kuhle
 listen-empty-state =
     Asisenayo imitjho engaqinisekiswa 
     ngelimeli...
@@ -354,6 +364,7 @@ speak-loading-error =
 keep-track-profile = Tjheja ituthukwakho ngephrofayili
 login-to-get-started = Thungela namkha uzitlolise bona uthome
 target-segment-first-card = Unikela engcenyeni yethu yokuthoma
+target-segment-generic-card = Unikela endaweni okungiyo
 target-segment-first-banner =
     Siza ngokwenza iCommon Voice ikhambe 
     phambili ku { $locale }
@@ -411,6 +422,8 @@ not-receiving-emails-info = Okwanje ufakwe ku-<bold>INGASI</bold> bona wamukele 
 help-share-goal = Sisiza sifumane amaphimbo angeziweko, yabelana ngomgomwakho
 # LINK will be replaced with the current URL
 goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -- sebenzisana nami sifundise imitjhini ukuthi abantu bamambala bakhuluma njani { $link }
+weekly-goal-created = Imigomo yakho yeveke sele ihleliwe
+daily-goal-created = Imigomo yakho yelanga sele ihleliwe
 track-progress = Fumana ituthukwakho la nekhasi lakho leembalobalo.
 return-to-edit-goal = Buyela la bona ulungise imigomakho nanyana kunini.
 
@@ -491,6 +504,7 @@ contribution-misreadings-example-3-explanation = [Ukujamisa ukurekhoda ngaphambi
 contribution-misreadings-example-4-title = IngorhoyeTriassic. Iye.
 contribution-misreadings-example-4-explanation = [Kurekhodwe okunengi ukudlula ebegade kutlhogeka]
 contribution-misreadings-example-5-title = Sisayokusela ikofi.
+contribution-misreadings-example-6-title = Sisayokusela ikofi.
 contribution-misreadings-example-7-title = Sisayokusela ikofi.
 contribution-varying-pronunciations-example-1-title = Umbethe ibherede ehlokwakhe.
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
@@ -499,6 +513,7 @@ contribution-background-noise-description-extended = Nange okurekhodiweko kuqunt
 contribution-background-noise-example-1-fixed-title =
     <strong>[Sneeze]</strong> Iingorho 
     ze- <strong>[cough]</strong> Triassic.
+contribution-background-noise-example-2-explanation = [Ingcenye yokutloliweko ayizwakali]
 contribution-background-voices-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kususe ngaphandle kwalokha okhunye kuzwakala.
 contribution-background-voices-example-1-title =
     Ingorho yeTriassic. 
@@ -539,12 +554,14 @@ sc-howto-cite-item-3 = Bona ufumane umtlolo ongekho ku-inthanethi, ungasebenzisa
 sc-howto-review-subtitle =
     Yenza isiqiniseko bona imitjho ihlangabezana nemibandela 
     elandelako:
+sc-howto-review-criteria-1 = Imitjho kufuze ipeledwe kuhle.
 sc-howto-review-criteria-4 =
     Nange umutjho uvumelana nemibandela gandelela 
     ikunupe ethi "Phasisa" ngaphasi.
 sc-howto-review-criteria-6 =
     Nange ingasekho imitjho ongayibuyekeza sibawa
     usisize sifumane imitjho eyengeziweko!
+sc-howto-findpd-title = Ukufumana imitjho ekhona ku-Public Domain
 sc-howto-findpd-tips = Nanzi ezinye iinyeleliso zokufumana imitjho:
 sc-howto-findpd-tips-1 = Imithombo ekhamba phambili ongaqala kiyo maphimbo arekhodiweko, okutloliweko, iinkripthi zamamuvi namkha nanyana ngimuphi umthombo othembekileko emumethe imikhulumiswano yaqobe lilanga.
 sc-howto-findpd-tips-3 =
@@ -675,6 +692,7 @@ sc-lang-info-rejected =
 
 ## PROFILE
 
+sc-personal-err-lang-not-found = Ngekhe ukghone ukukhupha ilimi: ilimi alifumaneki
 sc-personal-not-added = Alikho ilimi olifakileko.
 
 ## REVIEW CRITERIA
@@ -708,6 +726,7 @@ sc-review-form-review-failure = Okubuyekezileko angekhe kubulungeke. Sibawa ulin
 ## SETTINGS
 
 sc-settings-skipped-decription = Weqe imitjho nawubuyekezako esikhathini esidlulileko. Ukubuyisela emva imitjho eyeqiweko kuzokuvezela yoke imitjho  eyeqiweko godu. Lokhu kuya ngelimi.
+sc-settings-failed = Ngekhe ukghone ukutjhentjha amasethingi: Sibawa ulinge godu.
 # VALIDATION
 sc-validation-number-of-words =
     Imitjho kufuze ibe namagama ahlangana kweli-1 kuya kwali-14 
