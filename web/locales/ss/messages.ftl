@@ -218,6 +218,7 @@ speak-goal-text = Ticephu letiftwebuliwe
 listen-goal-text = Ticephu leticinisikesiwe
 hours-recorded = Emahora latfwebuliwe
 hours-validated = Emahora lacinisekisiwe
+voices-online = Emavi Alabakhona Manje
 todays-progress = Inchubo Yanamuhla
 all-locales = Konkhe
 today = Namuhla
@@ -299,6 +300,7 @@ male = Lomdvuna
 female = Wesifazane
 # Gender
 other = Lokunye
+why-profile-title = Leni likhasi lelichaza kabanti ngawe?
 dashboard = i-Dashboard
 build-profile = Yakha likhasi lelichaza kabanti ngawe
 avatar = Sitfombe
