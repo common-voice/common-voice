@@ -231,6 +231,8 @@ read-terms-q = Uyifundzile imigomo yetfu?
 ready-to-record = Ulungele kunikela ngelivi lakho?
 all-locales = Konkhe
 today = Namuhla
+sign-up-account = bhalisela kuvula i-account
+email-subscription-title = bhalisela tindzaba letihamba embili ngeliposi lembane
 
 ## Account Benefits
 
@@ -563,6 +565,9 @@ goal-help-recording = { "" }
 record-cta = Cala kutfwebula
 record-platform-not-supported-desktop = { "" }
 record-no-mic-found = Kute umbhobho lotfolakele.
+record-error-too-short = Le recording beyiyimfisha kakhulu.
+record-error-too-long = Le recording beyiyindze kakhulu.
+record-error-too-quiet = Le recording beyithule kakhulu.
 record-cancel = Yekela kutfwebula kabusha
 record-instruction = { $actionType }<recordIcon></recordIcon>fundza lomusho uphumisele
 record-stop-instruction = { $actionType }<stopIcon></stopIconuma> socedzile
@@ -674,6 +679,7 @@ download-request = Cela leticephu letitfwebuliwe
 download-requests = Past recordings download requests
 download-request-button = Download
 download-request-archive-single = Lifayela linye le ZIP lelicuketse
+download-request-archive-multiple = Hlephula kube{ $archiveCount } ngemafayela e ZIP lacuketse
 download-request-refresh-button = Vuselela
 download-request-modal-title = Download Links
 download-request-link-text = Zip #{ $offset } of { $total }
@@ -769,6 +775,7 @@ sc-howto-addlang-title = Kungeta tilwimi lotosebenta ngato
 sc-howto-addsen-title = Ngeta imisho lemisha
 sc-howto-cite-title = Indlela yeku-Cite
 sc-howto-review-title = Buyeketa imisho
+sc-howto-review-criteria-3 = Lomusho kumele ukhulumeke.
 
 ## MY SENTENCES
 
@@ -846,6 +853,7 @@ sc-personal-remove-button = susa
 
 sc-criteria-modal = ⓘ Buyeketa Luhla
 sc-criteria-title = Buyeketa luhla
+sc-criteria-item-3 = Lomusho kumele ukhulumeke.
 
 ## REVIEW
 
@@ -872,6 +880,10 @@ sc-review-link = Buyeketa
 sc-settings-title = Settings
 sc-settings-ui-language = Interface Language
 sc-settings-reset-skipped = Lungisa imisho leyecekile
+sc-settings-show-all-button = Khombisa yonkhe imisho leyengciwe futsi
+sc-validation-no-numbers = Imisho akukameli ibe netinimbolo
+sc-validation-no-symbols = Imisho akukameli ibe nemifanekiso
+sc-validation-no-abbreviations = Imisho akukameli ibe netifinyeto
 
 # [/SentenceCollector]
 
