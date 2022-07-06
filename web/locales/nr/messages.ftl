@@ -2,6 +2,7 @@
 
 yes-receive-emails = Iye, ngithumelani ama-email. Ngingakuthabela ukufumana imininingwana ngephrojekthi yeCommon Voice.
 email-opt-in-info = Ngingakuthabela ukufumana ama-email akhuluma ngeenkhumbuzo zemigomo, ituthukwami neendaba ezimalungana ne-Common Voice.
+email-opt-in-info-title = Ngenela ihlelo leCommon Voice
 email-opt-in-info-sub-with-challenge =
     Fumana ama-email akhuluma ngephaliswano, iinkhumbuzo zemigomo,
     ituthuko yamva nje neendaba zeCommon Voice.
@@ -100,6 +101,8 @@ status-hours =
 
 profile-form-variant =
     .label = Ngimaphi ama { $language } ahlukahlukeneko owakhulumako?
+profile-form-custom-accent-help-text =
+    .label = Ungayihlathulula njani indlela ophimisela ngayo?
 profile-form-custom-accent-placeholder-2 = Thoma ukutlola uhlathulule indlela ophimisela ngayo
 profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu usize ihlelo lethu linembe khudlwana.
 thanks-for-account =
@@ -114,6 +117,7 @@ skip-submission-note =
 
 ## Profile - Email
 
+gravatar_not_found = Akuna-gravatar efumanekako ku-emailakho
 file_too_large = Ifayela elikhethiweko likhulu
 
 ## Profile - Email
@@ -148,6 +152,7 @@ faq-why-10k-hours-q =
 faq-why-10k-hours-a =
     Lawa ma-awara okungenzeka
     ayatlhogeka bona ufake ikulumo emtjhinini.
+faq-how-calc-hours-q = ICommon Voice iwabala njani ama-awara?
 faq-where-src-from-2-q = Ukuphi umthombo wemitlolo?
 faq-why-not-ask-read-q = Kubayini ungakhuthazi abantu bona bafunde iincwadi namkha iinhloko eziku-Wikipedia ngamalimi ahlukahlukeneko?
 faq-why-account-q = Kubayini kufuze ngivule i-akhawundi?
@@ -169,6 +174,7 @@ about-new-lang-subtitle =
     Sethula ikhasi le-Common Voice ngokusemthethweni 
     ngelimeli.
 about-voice-contrib-subtitle = Abantu bayeza bazokunikela ngamaphimbo wabo.
+about-voice-validation-subtitle = Abanye abantu baqinisekisa iinqetjhana zokurekhodiweko.
 about-dataset-release-subtitle = Sitjhaphulula okurekhodiweko qobe eenyangeni ezi-3.
 about-subscribe-text = Ufuna ukuhlala uthintana ne-Common Voice?
 about-speak-text =
@@ -180,6 +186,7 @@ about-listen-queue-text =
 about-listen-text = Abasebenzisa ihlelweli bayaqinisekisa bona amaphimbo abanikela ngawo, anembile ngokuqala bona isikhulumi sifunda imitjho kuhle.
 about-is-it-valid-text = Okurekhodiweko kutshwaywa ngokuthi "Kuphasile" lokha okusebenzisako nakakuvowudela ngo-Iye.
 about-yes-votes-text = Bona uphumelele ukungena ehlelweni le-Common Voice iphimbo kufuze liphasiswe babantu ababili abahlukileko.
+about-stay-in-touch = Ngingahlala njani nginelwazi?
 about-stay-in-touch-text-1 = <emailFragment>Zitlolise ku</emailFragment> bona ufunde ukuthi ungasifaka njani isandla emajimeni, ezenzakalweni nokuthuthukisa ubujamo be-Common Voice.
 about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngokuthi ungene<discourseLink>Ebulungelweni</discourseLink> bona nikhulumisane ngeenhloko ezithileko namkha <matrixLink>Ubuhlanga</matrixLink> bona ufumane isiyeleliso ngokurhabako.
 
@@ -190,6 +197,7 @@ about-playbook-what-is-language = Ngiliphi ilimi elikuCommon Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Ngingalifaka njani ilimi?
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Bukela iinqophiso zethu kubona isetjenziswa njani iPontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-content-1 =
     <sentenceCollectorVideo>Bukela 
@@ -244,6 +252,7 @@ about-playbook-how-access-dataset-content-2 = Nange funa amathulusi wokwakha ama
 ## How are decisions made
 
 about-playbook-how-project-governance-content-2 = Umthethosisekelo wethu uyafumaneka ku:
+about-playbook-how-project-governance-content-7 = <governanceLink>Funda okwengeziweko ngendlela esibuswa ngayo</governanceLink>
 
 ## Glossary
 
@@ -269,6 +278,7 @@ data-subtitle = Sakha ibulungelo lamaphimbo arekhodiweko angasetjenziswa ngiwo w
 data-bundle-description =
     Nanti ihlelo leCommon Voice namanye 
     amaphimbo ngehla.
+data-download-singleword-title = Dawuniloda iGama Linye Olifunako
 data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
 review-terms = Ngokusebenzisa iCommon Voice, uvumelana ne <termsLink>Mibandela</termsLink> kunye ne <privacyLink>Nemigomo</privacyLink>
 review-aborted =
@@ -309,6 +319,9 @@ download-form-email =
 
 ## Request Language Modal
 
+request-language-success-title =
+    Isibawo selimi sithunyelwe ngokuphumelelako, 
+    siyathokoza.
 request-language-success-content = Sizokubuya nemininingwana engeziweko emalungana nokuthi ungalifaka njani ilimi lakho ku-Common Voice esikhathini esingaphelisi ihliziyo.
 
 ## Request Language Pages
@@ -348,9 +361,13 @@ record-platform-not-supported = Sibawa usilibalele okufunako akufumaneki.
 record-platform-not-supported-ios-non-safari =
     Ku-iOS sibawa uragele phambili ngeSafari bona ukghone 
     ukurekhoda...
+record-must-allow-microphone = Kufuze uvumele umbhobho usebenze.
 review-tooltip = Buyekeza bewurekhode kabutjha khona la
 review-instruction = Buyekeza bewurekhode nange kutlhogeka
 record-abort-text = Nawuphuma nje uzokulahlekelwa ngosele ukwenzile
+listen-instruction =
+    { $actionType }<playIcon></playIcon> bayikhulume 
+    kuhle imitjho?
 listen-again-instruction =
     Wenze kuhle!<playIcon></playIcon> Lalela godu 
     nasele ujame kuhle
@@ -423,6 +440,8 @@ help-reach-hours-general-pluralized =
         [one] Siza iCommon Voice ifikelele  i-awara
        *[other] ama-awara ngelimi ozikhethele lona
     }
+how-many-per-day = Kuhle! Zingakhi iinqetjhana ngelanga?
+how-many-a-week = Kuhle! Zingakhi iinqetjhana ngeveke?
 which-goal-type = Ufuna ukuKhuluma, ukuLalela namkha kokubili?
 receiving-emails-info = Sele ukulungele ukufumana ama-email anjengeenkhumbuzo zemigomo, ituthukwakho yamva nje neendaba ezimalungana ne-Common Voice
 not-receiving-emails-info = Okwanje ufakwe ku-<bold>INGASI</bold> bona wamukele ama-email ngehloso yokukukhumbuza, ukukwazisa ngetuthuko neendaba ezimalungana ne-Common Voice
@@ -481,6 +500,7 @@ demo-welcome-subheader =
 ## Demo Datasets
 
 demo-language-select-card-header = ICommon Voice lihlalo elikhamba phambili ephasini mazombe elinamaphimbo wamalimi ahlukahlukeneko.
+demo-eofy-sub_header = Ihlelo lephimbo, ukuLungele ukuDawuniloda
 
 ## Demo Account
 
@@ -521,6 +541,7 @@ contribution-misreadings-example-4-explanation = [Kurekhodwe okunengi ukudlula e
 contribution-misreadings-example-5-title = Sisayokusela ikofi.
 contribution-misreadings-example-6-title = Sisayokusela ikofi.
 contribution-misreadings-example-7-title = Sisayokusela ikofi.
+contribution-misreadings-example-7-explanation = [Awa kuno ‘a’ emtlolweni wokuthoma]
 contribution-varying-pronunciations-example-1-title = Umbethe ibherede ehlokwakhe.
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
 contribution-varying-pronunciations-example-2-explanation = [‘Ukukhuliswa’ ngesiNgisi kuphinyiselwa ngesilabhulu yinye ingasi ezimbili]
@@ -532,10 +553,16 @@ contribution-background-noise-example-2-fixed-title =
     Iingorho ze <strong>[cough]</strong> i
     Triassic.
 contribution-background-noise-example-2-explanation = [Ingcenye yokutloliweko ayizwakali]
+contribution-background-noise-example-3-fixed-title =
+    <strong>[Crackle]</strong> iingorho ze
+    <strong>[crackle]</strong> -riassic.
 contribution-background-voices-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kususe ngaphandle kwalokha okhunye kuzwakala.
 contribution-background-voices-example-1-title =
     Ingorho yeTriassic. 
     <strong>[read by one voice]</strong>
+contribution-background-voices-example-1-explanation =
+    Uyeza? <strong>[called by 
+    another]</strong>
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
