@@ -5,6 +5,7 @@ email-opt-in-info = Ngingakuthabela ukufumana ama-email akhuluma ngeenkhumbuzo z
 email-opt-in-info-sub-with-challenge =
     Fumana ama-email akhuluma ngephaliswano, iinkhumbuzo zemigomo,
     ituthuko yamva nje neendaba zeCommon Voice.
+indicates-required = Iindawana ezitshwaywe nge (*) ziyatlhogeka.
 banner-error-slow-1 =
     Usilibalele iCommon Voice ikhamba kabuthaka. Siyathokoza 
     ngokuba nekareko.
@@ -24,6 +25,7 @@ banner-error-slow-2 =
 
 ## Layout
 
+share-title = Sisiza bona sifumane abanye abanganikela ngamaphimbo wabo!
 share-text =
     Siza ngokufundisa imitjhini bona abantu bamambala bakhuluma njani, 
     nikela ngephimbo lakho ku { $link }
@@ -110,6 +112,7 @@ skip-submission-note =
 
 ## FAQ
 
+faq-how-get-q = Ngingalifumana njani ihlelo leCommon Voice?
 faq-when-release2-q =
     Nizolitjhaphulula nini ihlelo leCommmon Voice 
     ngamanye amalimi?
@@ -212,6 +215,7 @@ about-playbook-how-validate-content-4 = Nange okurekhodiweko kwaliwa babantu aba
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Ngingalifumana namkha ngilisebenzise njani ihlelweli?
 about-playbook-how-access-dataset-content-2 = Nange funa amathulusi wokwakha amahlelo we-ASR, ungazihlanganisa nabanye abantu emphakathini <discourseLink>eBulungelweni</discourseLink>.
 
 ## How are decisions made
@@ -331,6 +335,11 @@ speak-loading-error =
     "Ayikho imitjho esiyifumanako
     ongayitjho.
     Sibawa ulinge ngesikhathi esilandelako."
+keep-track-profile = Tjheja ituthukwakho ngephrofayili
+login-to-get-started = Thungela namkha uzitlolise bona uthome
+target-segment-first-banner =
+    Siza ngokwenza iCommon Voice ikhambe 
+    phambili ku { $locale }
 
 ## Reporting
 
@@ -372,6 +381,7 @@ help-reach-hours-general-pluralized =
     }
 receiving-emails-info = Sele ukulungele ukufumana ama-email anjengeenkhumbuzo zemigomo, ituthukwakho yamva nje neendaba ezimalungana ne-Common Voice
 not-receiving-emails-info = Okwanje ufakwe ku-<bold>INGASI</bold> bona wamukele ama-email ngehloso yokukukhumbuza, ukukwazisa ngetuthuko neendaba ezimalungana ne-Common Voice
+help-share-goal = Sisiza sifumane amaphimbo angeziweko, yabelana ngomgomwakho
 # LINK will be replaced with the current URL
 goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -- sebenzisana nami sifundise imitjhini ukuthi abantu bamambala bakhuluma njani { $link }
 track-progress = Fumana ituthukwakho la nekhasi lakho leembalobalo.
@@ -484,6 +494,9 @@ sc-howto-addlang-text =
 sc-howto-cite-item-1 = Ungahlanganisa newebhusayidi, isb. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa indlela yokutlola yefundo ephakamileko isb. Harvard style "Mozilla (2021) Common Voice. Efumaneka ku-https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 sc-howto-cite-item-3 = Bona ufumane umtlolo ongekho ku-inthanethi, ungasebenzisa indlela yokutlola isb. Harvard style " Jess (2021) Ilayisensami yeenkondlo zophakathi"
+sc-howto-review-subtitle =
+    Yenza isiqiniseko bona imitjho ihlangabezana nemibandela 
+    elandelako:
 sc-howto-review-criteria-4 =
     Nange umutjho uvumelana nemibandela gandelela 
     ikunupe ethi "Phasisa" ngaphasi.
@@ -609,6 +622,9 @@ sc-lang-info-rejected =
 
 ## REVIEW CRITERIA
 
+sc-criteria-make-sure =
+    Yenza isiqiniseko bona imitjho ihlangabezana nemibandela 
+    elandelako:
 sc-criteria-item-4 = Nange umutjho uhlangabezana nakho koke okutlhogekako gandelela i- &quot; engehlangothini lesokudla &quot;Phasile&quot.
 sc-criteria-item-6 =
     Nange ingasekho imitjho ongayibuyekeza sibawa
