@@ -5,6 +5,7 @@ email-input =
     .label = Liposi lembane
 submit-form-action = Mikisa
 loading = Loading…
+email-opt-in-info-title = Ngenela luhla lweliposi lembane lwa Common Voice.
 not-available-abbreviation = N/A
 banner-error-slow-link = Lukasi lenchubo
 error-something-went-wrong = Siyacolisa, kukhona lokungakahambi kahle
@@ -341,6 +342,7 @@ help-variants = Udzinga lusito ngetinhlobo?
 browse-file-title = Faka sitfombe
 browse-file = Dvonsa futsi uyekele<browseWrap>Buka</browseWrap>
 connect-gravatar = Connect with Gravatar
+gravatar_not_found = Kute i-gravatar yeliposi lakho lembane letfolakele
 avatar-uploaded = Avatar uploaded
 max-file-size = { $kb }kb max
 remove-avatar = Remove Avatar
@@ -374,6 +376,7 @@ about-sentence-collection-title = Kukolekwa kwemisho
 about-new-lang-title = Kusungulwa kwelulwimi lolusha.
 about-voice-contrib-title = Kulekelela ngelivi
 about-voice-validation-title = Kucinisekisa Livi
+about-voice-validation-subtitle = Labanye bantfu bayawacinisekisa lawo mafayela amavi latfwebuliwe
 about-dataset-release-title = Dataset Release
 about-subscribe-text = Bhalisa
 about-speak = Khuluma
@@ -530,6 +533,7 @@ contact-required = *kudzingekile
 ## Request Language Modal
 
 request-language-title = Sicelo Selulwimi
+request-language-success-title = Sicelo selulwimi simikiswe ngemphumelelo, siyabonga!
 select-language = Khetsa Lulwimi...
 other-language = Lolunye Lulwimi
 
@@ -791,6 +795,7 @@ sc-howto-addsen-title = Ngeta imisho lemisha
 sc-howto-cite-title = Indlela yeku-Cite
 sc-howto-review-title = Buyeketa imisho
 sc-howto-review-criteria-3 = Lomusho kumele ukhulumeke.
+sc-howto-findpd-subtitle-2 = Timbandzakanye netinkapani noma tinhlangano talakhaya.
 
 ## MY SENTENCES
 
