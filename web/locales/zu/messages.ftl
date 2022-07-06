@@ -275,6 +275,7 @@ target-segment-first-banner = Siza wakhe engxenye yokuqala eqondiwe yeCommon Voi
 ## Reporting
 
 report-ask = Yiziphi izinkinga ohlangabezana nazo ngalo musho?
+report-offensive-language-detail = Umusho unolimi olungenanhlonipho noma olunenhlamba.
 report-grammar-or-spelling-detail = Umusho unephutha lohlelo noma lokubhalwa kwegama.
 report-different-language-detail = Ibhalwe ngolimi oluhlukile kunalokhu engikukhulumayo.
 report-difficult-pronounce-detail = Iqukethe amagama noma imishwana okunzima ukuyifunda noma ukuyibiza.
@@ -284,6 +285,8 @@ report-difficult-pronounce-detail = Iqukethe amagama noma imishwana okunzima uku
 
 ## Dashboard
 
+todays-recorded-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana eziqoshiwe
+todays-validated-progress = Inqubekelaphambili yanamuhla yeCommon Voice kuziqeshana iqinisekisiwe
 visibility-overlay-note = Qaphela: Uma kusethelwe kokuthi 'Kuyabonakala', lesi silungiselelo singashintshwa sisuka <profileLink>Ikhasi Lephrofayela</profileLink>
 
 ## Custom Goals
@@ -373,7 +376,9 @@ contribution-misreadings-description-extended-list-2 = Ishoda ngo-<strong>'s'</s
 contribution-misreadings-description-extended-list-3 = Ukufunda izifinyezo ezingekho, njengokuthi "We're" esikhundleni sokuthi "We are", noma okuphambene nalokho.
 contribution-misreadings-description-extended-list-4 = Uphuthelwa isiphetho segama lokugcina ngokunqamula ukuqopha ngokushesha okukhulu.
 contribution-misreadings-example-3-explanation = [Ukurekhoda kunqamukile ngaphambi kwegama lokugcina]
+contribution-misreadings-example-4-title = Ama-dinosaurs amakhulu e-Triassic. Yebo.
 contribution-misreadings-example-4-explanation = [Okurekhodiwe kuningi kunaloku okudingekayo embhalweni]
+contribution-misreadings-example-5-title = Sizophuma siyothenga ikhofi.
 contribution-misreadings-example-7-title = Sizophuma siyothola ikhofi.
 contribution-varying-pronunciations-example-1-explanation = [I-‘Beret’ ILUNGILE noma ngabe isigcizelelo sikuhlamvu wokuqala (UK) noma wesibili (US)]
 contribution-varying-pronunciations-example-2-explanation = [Igama elesiNgisi u'Raised' liphinyiswa ngohlamvu olulodwa, hhayi ezimbili]
