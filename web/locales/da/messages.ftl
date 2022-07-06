@@ -56,6 +56,7 @@ da = Dansk
 de = Tysk
 dsb = Nedresorbisk
 dv = Divehi
+dyu = Dyula
 el = Græsk
 en = Engelsk
 eo = Esperanto
@@ -124,12 +125,16 @@ my = Burmesisk
 myv = Erzya
 nan-tw = Taiwanesisk (Minnan)
 nb-NO = Bokmål
+nd = Nordndebele
 ne-NP = Nepalesisk
 nia = Nias
 nl = Nederlandsk
 nn-NO = Nynorsk
+nr = Sydndebele
+nso = Nordsotho
 nyn = Nyankole
 oc = Occitansk
+om = Oromo
 or = Oriya
 pa-IN = Punjabisk
 pap-AW = Papiamento (Aruba)
@@ -155,6 +160,8 @@ sl = Slovensk
 so = Somali
 sq = Albansk
 sr = Serbisk
+ss = Swati
+st = Sydsotho
 sv-SE = Svensk
 sw = Swahili
 syr = Syrisk
@@ -166,8 +173,10 @@ ti = Tigrinya
 tig = Tigre
 tk = Turkmensk
 tl = Tagalog
+tn = Tswana
 tok = Toki Pona
 tr = Tyrkisk
+ts = Tsonga
 tt = Tatarisk
 tw = Twi
 ty = Tahitiansk
@@ -177,15 +186,18 @@ ug = Uigurisk
 uk = Ukrainsk
 ur = Urdu
 uz = Usbekisk
+ve = Venda
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+xh = Xhosa
 yi = Jiddisch
 yo = Yoruba
 yue = Kantonesisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -313,7 +325,6 @@ shortcut-discard-ongoing-recording-label = Kassér igangværende optagelse
 shortcut-submit = Retur
 shortcut-submit-label = Indsend stemmeoptagelser
 request-language-text = Kan du ikke finde dit sprog på Common Voice?
-request-language-text-learn = Lær hvordan du anmoder om det her!
 request-language-button = Anmod om at få tilføjet et nyt sprog
 
 ## ProjectStatus
@@ -450,7 +461,9 @@ faq-why-different-speakers-a =
     De fleste databaser med stemmedata har en overrepræsentation af bestemte demografier, hvilket resulterer i en overvægt af data fra <articleLink>mænd og middelklassen</articleLink>. Underrepræsenterede accenter og dialekter er typisk forbundet med grupper af mennesker, der allerede er marginaliserede. Mange computere har svært ved at forstå kvindestemmer. 
     Derfor vil vi have variation i vores stemme-database!
 faq-why-my-lang-q = Hvorfor er mit sprog her ikke?
-faq-why-my-lang-new-a = Mozilla udvælger ikke sprog og foretrækker ikke nogle sprog fremfor andre. Common Voice er drevet af fællesskabet. Det kræver en <multilangLink>række trin at tilføje et nyt sprog</multilangLink> og komme i gang med at indsamle stemmeoptagelser. For det første skal Common Voice-hjemmesiden oversættes, så medlemmer af fællesskabet kan anvende værktøjerne på deres eget sprog. Vi behøver desuden en stor samling af sætninger til at læse op, der ikke må være underlagt copyright. Når begge disse betingelser er opfyldt, så bliver sproget lanceret på Common Voice. Derefter kan folk gå i gang med at optage deres stemmer og godkende andres bidrag. Har du lyst til at hjælpe med at lancere et nyt sprog? Så besøg vores <sentenceCollectorLink>værktøj til indsamling af sætninger</sentenceCollectorLink> for at komme i gang.
+faq-why-my-lang-a =
+    Common Voice er en crowdsourcing-platform, og sprogene er alle tilføjet af frivillige.
+    Vi vil meget gerne have, at du tilføjer dit sprog! <languageRequestLink>Spørg om du kan få tilføjet dit sprog.</languageRequestLink>
 faq-what-quality-q = Hvilken lydkvalitet er nødvendig for at en optagelse kan bruges i datasættet?
 faq-what-quality-a = Datasættet bag Common Voice skal afspejle den lydkvalitet, som tale-til-tekst-software kommer til at støde på ude i den rigtige verden. Det vil sige, at vi ikke blot leder efter et stort udvalg af talere, men også et stort udvalg af lydkvalitet - fra snak i baggrunden til bilstøj. Så længe dine optagelser er forståelige, så bør de være god nok til datasættet.
 faq-why-10k-hours-q = Hvorfor er 10.000 timers validerede stemmeoptagelser målet for alle sprog?
@@ -520,12 +533,6 @@ about-dataset-new = Common Voice-datasæt
 about-dataset-new-text = Common Voice-datasættet indeholder hundredtusindvis af stemme-optagelser, der hjælper udviklere med at bygge teknologi til stemmegenkendelse.
 about-clip-graveyard = Optagelses-kirkegården
 about-clip-graveyard-text = Optagelses-kirkegården består af stemmeoptagelser, der ikke kom med i Common Voice-datasættet. Akkurat som datasættet kan optagelser fra optagelses-kirkegården også downloades.
-about-partners = Partnere
-about-become-a-partner = Bliv partner
-about-partnership =
-    Common Voice er et projekt baseret på samarbejde, og vi er afhængige af vores fællesskab af bidragsydere og partnere for at kunne bygge det mest omfattende open-source-datasæt af stemmer nogensinde.
-    
-    Vi vil gerne takke følgende personer og organisationer for deres hjælp med projektet:
 about-get-involved = Bliv involveret
 about-get-involved-text-2 =
     Vil du hjælpe med at gøre Common Voice endnu bedre?
@@ -552,10 +559,24 @@ about-playbook-what-is-language-content-3 = Nogle sprog har enorm variation i gr
 ## How do I add a language
 
 about-playbook-how-add-language = Hvordan tilføjer jeg et sprog?
-about-playbook-how-add-language-content-1 = Tjek først, om dit sprog <languageLink>allerede eksisterer</languageLink>. Hvis det ikke gør det, skal du <strong>oversætte webstedet og indsamle sætninger</strong>.
-about-playbook-how-add-language-content-2 = <strong>For at oversætte webstedet</strong> skal du først <translateVideo>oprette en profil</translateVideo> på <pontoonLink>Pontoon</pontoonLink>. Pontoon har masser af sprog - men hvis det ikke har dit, kan du <pontoonRequestLink>anmode om det</pontoonRequestLink>. Bed derefter <repoLink>via GitHub</repoLink> om at få Common Voice-projektet gjort tilgængeligt for sproget. Se mere om <localizationFragment>oversættelse af websted</localizationFragment>.
-about-playbook-how-add-language-content-3 = <strong>For at indsamle sætninger</strong> skal du <scVideo>opsætte</scVideo>  <scLink>Sætnings-indsamleren</scLink>.
-about-playbook-how-add-language-content-4 = Du kan <scLinkAdd>tilføje et mindre antal</scLinkAdd> sætninger her, eller du kan foretage <bulkImportDocsLink>masseimporter</bulkImportDocsLink> via en Github-anmodning. Husk at sætninger skal være <licenseLink>CC0 (eller offentligt domæne)</licenseLink>, eller du kan skrive dine egne sætninger. Se mere om <scFragment>indsamling af sætninger</scFragment>.
+about-playbook-how-add-language-content-1 =
+    Tjek først, om dit sprog <languageLink>allerede eksisterer</languageLink>.
+    Hvis det ikke gør det, kan du <languageRequestLink>spørge om du kan få tilføjet dit sprog</languageRequestLink>.
+    Der er to trin. Oversættelse af webstedet og indsamling af sætninger
+about-playbook-how-add-language-translating-heading = Oversættelse af webstedet
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Se vores vejledning i, hvordan du bruger Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Vi bruger et Mozilla-værktøj kaldet <pontoonLink>Pontoon</pontoonLink> til oversættelser. Pontoon har masser af sprog -
+    men hvis det ikke har dit, kan du <pontoonRequestLink>anmode om at få dit sprog tilføjet</pontoonRequestLink>.
+    For derefter at gøre sproget tilgængeligt i Common Voice-projektet,
+    <githubRepoLink>anmod om det nye sprog på GitHub</githubRepoLink>. <localizationFragment>Læs mere om oversættelse af webstedet</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Indsamling af sætninger
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Se vores vejledning i, hvordan du bruger Sætningsindsamleren.</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Du kan <sentenceCollectorLinkAdd>tilføje et mindre antal sætninger</sentenceCollectorLinkAdd>,
+    eller du kan foretage <bulkImportDocsLink>masseimporter via Github</bulkImportDocsLink>.
+    Husk at sætninger skal være <licenseLink>CC0 (eller offentligt domæne)</licenseLink>, eller du kan skrive dine egne sætninger.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Læs mere om indsamling af sætninger</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -619,12 +640,6 @@ about-playbook-how-project-governance-content-4 = Fællesskabets deltagelse og b
 about-playbook-how-project-governance-content-5 = Værdi og anerkendelse.
 about-playbook-how-project-governance-content-6 = Gensidig ansvarlighed.
 about-playbook-how-project-governance-content-7 = <governanceLink>Læs mere om, hvordan vi styres</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Kunstig intelligens
-mycroft-description =
-    Mycroft er verdens første open source-assistent.
-    Mycroft kan afvikles alle steder - på en computer, i en bil eller på en Raspberry Pi.
-mycroft-secondary-description = Dette er open source-software, der frit kan ændres, udvides og forbedres. Mycroft kan bruges til alt fra forskningsprojekter til store software-produkter.
 
 ## Glossary
 
@@ -824,7 +839,8 @@ language-search-input =
 language-speakers = Talere
 localized = Oversat
 sentences = Sætninger
-total-hours = Validerede timer
+language-validation-hours = Timer
+language-validation-progress = Valideringsfremgang
 
 ## Contribution
 
@@ -1163,6 +1179,7 @@ contribution-background-voices-example-1-title = De gigantiske dinosaurer i tria
 contribution-background-voices-example-1-explanation = Kommer du? <strong>[sagt af en anden]</strong>
 contribution-volume-title = Lydstyrke
 contribution-volume-description = Der vil være naturlige variationer i lydstyrken mellem oplæsere. Afvis kun, hvis lydstyrken er så høj, at den ødelægger optagelsen, eller (mere almindeligt), hvis den er så lav, at du ikke kan høre, hvad der bliver sagt uden henvisning til den skrevne tekst.
+contribution-reader-effects-title = Oplæsereffekter
 contribution-reader-effects-description = De fleste optagelser er af mennesker, der taler med deres naturlige stemme. Du kan acceptere den lejlighedsvise ikke-standardoptagelse, hvor der bliver råbt, hvisket eller åbenlyst leveret med en 'dramatisk' stemme. Afvis venligst sungne optagelser og dem, der bruger en computersyntetiseret stemme.
 contribution-just-unsure-title = Bare usikker?
 contribution-just-unsure-description = Hvis du støder på noget, som disse retningslinjer ikke dækker, bedes du stemme efter din bedste vurdering. Hvis du virkelig ikke kan beslutte dig, så brug knappen 'Spring over' og gå videre til næste optagelse.

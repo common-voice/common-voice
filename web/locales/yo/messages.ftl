@@ -1224,10 +1224,14 @@ sc-howto-findpd-title = Wíwá àwọn gbólóhùn tó wà tẹ́lẹ̀ 
 sc-howto-findpd-subtitle = Wá wọn lórí ẹ̀rọ ayélujára
 sc-howto-findpd-text-2 = Rántí pé a nílò a ti tọrọ àyè láti ṣe  àtẹ̀jáde àwọn gbólóhùn wọ̀nyẹn, nítorí náà ri dájú ní gbogbo ìgbà pé ọ̀rọ̀ náà jẹ́ ti <wikipediaLink>agbègbè gbogbogbo</wikipediaLink>. Tí kò bá sí ìtọ́kasí tó dunjú, kàn sí ẹni tó ni ọ̀rọ̀ náà, kí o sì bèrè bóyá wọ́n máa nífẹ̀ẹ́ à ti fi àwọn ọ̀rọ̀ wọn dásí ibùgbé gbogbogbo. Tí wọ́n bá fẹ́, ràn wọ́n lọ́wọ́ </wikipediaLink> à ti tọ́ ìlànà àdéhùn àwọn ìdásí</cc0WaiverLink>. Tí wọn ò bá fẹ́ láti dásí pẹ̀lú ọ̀rọ̀ náà, nígbà náà kò sí àyè fún ọ láti lo ọ̀rọ̀ náà.
 sc-howto-findpd-tips = Àwọn òte díẹ̀ rè é lá́ti wá àwọn gbólóhùn:
+sc-howto-findpd-tips-3 = Ó ṣeni láàánú pé a kò tíì lé rí àkọsílẹ̀ Wikimedia. Nítorí náà, má ṣe ẹ̀dà títẹ̀ láti ibẹ̀.
+sc-howto-findpd-subtitle-2 = Bá àwọn àjọ tàbí ẹgbẹ́ ìbílẹ̀ ṣe
 
 ## MY SENTENCES
 
 sc-my-title = Àwon gbólóhùn mi
+sc-my-loading = Gbólóhùn rẹ ń gbaradì àti ṣiṣẹ́
+sc-my-err-fetching = Àsiṣe wáyé nígbà tí à ń kó gbólóhùn rẹ jọ. Gbìyànjú lẹ́ẹ̀kan sí i
 sc-my-no-sentences = Àìrí gbólóhùn kọọkan!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -1248,6 +1252,8 @@ sc-rejected-none-found = Kò sí gbólóhùn kọọkan tí a kọ̀!
 
 ## STATS
 
+sc-stats-title = satítíìkì
+sc-stats-updating = Ń sọ ọ́ dọ̀tun ...
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1268,6 +1274,8 @@ sc-submit-add-sentences = Ṣàfikún <wikipediaLink>àìládáni abẹ́ 
 sc-submit-ph-one-per-line =
     .placeholder = Gbólóhùn kan fún ìla kan
 sc-submit-from-where = Níbo ni àwọn gbólóhùn <wikipediaLink>àìládáni abẹ́ òfi</wikipediaLink> ti wá?
+sc-submit-ph-read-how-to =
+    .placeholder = Ka Ọ̀nà ṣíṣe wa bí ìṣàbùdá rẹ̀ bá rú ọ lójú
 sc-submit-confirm = Mo ṣàrídájú bé àwọn gbólóhùn wọ̀nyí wà ní <wikipediaLink>àìládáni abẹ́ òfi</wikipediaLink> mo sì ní àṣẹ láti ọpulóòdù rẹ̀.
 sc-submit-button =
     .submitText = Fi jíṣẹ́

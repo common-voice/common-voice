@@ -688,6 +688,7 @@ A partir d'aquell moment es torna a començar a carregar.
 A partir d'aquest moment s'inicia l'hominització.
 A partir d'aquesta divisió, traça un disseny estructural de la personalitat.
 A partir d'ara, si vols alguna cosa, m'ho demanes per escrit.
+A partir d'avui ja ho podem dir.
 A partir de Descartes podem establir dos corrents filosòfics respecte a la naturalesa humana.
 A partir de cert punt no hi ha retorn.
 A partir de l'estudi de les relacions de la persona amb el medi.
@@ -938,6 +939,7 @@ Agafàvem rams i palmes amb recolliment.
 Agents provocadors feien esclatar grans masses d'explosius
 Agramunt es troba a l’Urgell
 Agramunt es un poble de l'Urgell
+Aguantant-me les ganes de fer-ho.
 Aguilar de Segarra es troba al Bages
 Aguilar de Segarra es un poble del Bages
 Agullana es troba a l’Alt Empordà
@@ -3449,6 +3451,7 @@ Apunteu: hivern, salt, escrit, salvatge, instrument, guardat, vidre, herba, vaca
 Apunteu: humà, història, efecte, elèctrica, esperar, os, ferrocarril, imaginar, proporcionar
 Apunteu: lletrejar, afegir, fins i tot, terra, aquí, gran, alta, tals
 Apunts de classe.
+Apunts de qualitat.
 Apunts de referència.
 Apunts de valoració.
 Apunts de vista.
@@ -3875,6 +3878,7 @@ Arres es troba a la Val d’Aran
 Arreu de la Mediterrània.
 Arreu hi havia gent dormint
 Arriba l'oasi d'un hipotètic torn lliure.
+Arriba un mosquit ara que me'n vaig a fer nonetes.
 Arribarem tard a sopar.
 Arribaren els tres reis amb molta alegria
 Arribarà un correu electrònic a la teva adreça amb el canvi.
@@ -4072,6 +4076,7 @@ Ben difícil us serà això perquè no rep ningú, ni als mateixos enviats.
 Ben entesa la llibertat, la familia, la guerra, la pau
 Ben lluny d'enorgullir-la com un segell personal
 Ben menjat, ben begut, em plaïa jaure a bona ombra per fer la migdiada.
+Ben mirat, el mot esquerp ja és en si mateix esquerp.
 Ben segur que ella es va pensar que jo m'ho creia.
 Ben segur que ho havien fet complint ordres
 Benaurat siga el qui té la fortuna ben col·locada.
@@ -4498,6 +4503,7 @@ Ciutadilla es troba a l’Urgell
 Clamava constantment per saber per què no ens permetien atacar.
 Clar, mira és el quatre mil vuit-cents setanta-nou.
 Clar, si si té sentit.
+Clarament es veu que està generat per ordinador.
 Clariana de Cardener es troba al Solsonès
 Claror misteriosa entrant pels arbres de les darreres guspires del sol
 Classifica les persones en funció de sis actituds fonamentals i orientacions de valor.
@@ -5226,6 +5232,7 @@ De vegades, només necessitem que algú ens estime, mentre ens arreglem nosaltre
 De vegades, recite molt millor que amb estadístiques sobre la seua economia.
 De veritat que era molt atent.
 De veritat, era un enemic difícil de combatre.
+De veritat, prou.
 Debades alçaràs sobre els homes les teues altives mirades.
 Decideixen pescar junts per sempre més.
 Decididament, no.
@@ -5629,6 +5636,7 @@ Diumenge anirem al teatre a veure'ls.
 Diumenge anirem amb les nenes a veure les titelles.
 Diumenge de Rams!
 Diumenge de matí vaig acompanyar Roger fins a sa casa.
+Diumenge és es dia des bè
 Divendres passat van celebrar el carnaval a Porqueres.
 Diverses experiències realitzades han demostrat que el treball biològic té avantatges sobre el mecànic
 Diverses investigacions conformen la cosmologia actual, amb els seus postulats i hipòtesis
@@ -8761,6 +8769,7 @@ Fan ventades tan coents com unes pestetes, però a vegades també s'espolsen cag
 Fantàstic, en aquest cas tindrà cita amb el doctor.
 Farem nit a un hostal de Ripoll.
 Farem tard si no t'afanyes.
+Farem una bereneta amb coques i panets
 Faria falta també la lletra del de-ena-i, si us plau,.
 Faria un casament senzillet, però que no hi faltés cap requisit.
 Farina, la que admeta.
@@ -8797,6 +8806,7 @@ Fem una comanda per emportar al Fenicia!
 Fent gatzara, sense respectar la Casa, ni el comerç
 Fent un soroll doblement diabòlic
 Fent-te oblidar els pares i la pàtria, detura aquí els teus passos.
+Fer aquest transbord considerablement begut és una experiència traumàtica.
 Fer ben gràfica la diferència entre el castellà i el valencià.
 Fer comparacions, sempre odioses
 Fer la guàrdia dalt la teulada
@@ -8820,6 +8830,7 @@ Feta la pasta, i aromatitzada amb corfes de llimona i canyella.
 Feta per voluntaris, té l'objectiu de posar documents a l'abast de tothom.
 Fets! Un enterro senzill... i... fet!
 Fets, sempre fets
+Feu el puto favor de calmar-vos.
 Feu una entonació correcta de la frase.
 Ficaren una corriola nugada a la truita d’una campana.
 Ficaven les canyes enrastrades en un cordell i el penjaven d’un clau.
@@ -9081,6 +9092,7 @@ Gràcies per col·laborar amb el projecte Aina!
 Gràcies per comunicar-nos-ho.
 Gràcies per contactar-nos!
 Gràcies per donar-nos un cop de mà!
+Gràcies per fer-me arribar un quart tard a l'examen final.
 Gràcies per la informació!
 Gràcies per la resposta!
 Gràcies per llegir aquestes frases i col.laborar en el projecte
@@ -9595,6 +9607,7 @@ Hola, puc demanar un prestec¿.
 Hola, sembla que vaig perdre la maleta a l'últim vol.
 Hola, si compro un ordenador hi ha opció de finançar-ho?
 Hola, si mira, es que crec que hi hagut un error.
+Hola, soc xinès però parlo català.
 Hola, voldria obrir un compte.
 Hola, voldria saber quines formes e pagament hi ha.
 Hola, vull modificar nom de reserva.
@@ -12471,6 +12484,7 @@ La repostería i els dolços mostren una gran varietat.
 La reserva dels vehicles es farà amb el bloc de gestió de reserves.
 La resistència a qualsevol nova idea és proporcional al quadrat de la seua importància.
 La respiració pot ajudar a retardar l'ejaculació precoç.
+La resposta correcta sempre és la més llarga.
 La resposta era sempre un somriure confús
 La resta havíem de llançar una pluja de granades
 La resta pertany i serveix al passat.
@@ -14119,6 +14133,7 @@ No ens costarà massa persuadir-lo, i espere amb impaciència tenir-ne noves.
 No ens havien tallat l'aigua
 No ens podem prometre sense el consentiment dels que ens han donat la vida;
 No ens posem nerviosos.
+No entenc ni què cony diu.
 No era ben certa ni tan sols llavors
 No era ni molt xic, ni molt gran
 No era precisament una sinecura, especialment els primers dies.
@@ -15331,6 +15346,7 @@ Per què no quedem un dia?
 Per què no vens a dormir? És ja molt tard!
 Per què sent necessitat d'afecte el monstre de Frankenstein?
 Per què tant de silenci?
+Per què tothom va amb mascareta a la uni encara?
 Per què us amoïneu ara? Que potser us creieu que parle de vós?
 Per què vessar la sang inútil?
 Per què és important que llegisca exactament el que se'm mostra?
@@ -15719,6 +15735,7 @@ Pobre de mi! No parlem de la meua prudència.
 Pobre germà meu! Qui sap si també s’haurà salvat per un sortós atzar?
 Poc abans de casar-se, Joaquim comprà una casa nova de trinca.
 Poc li feia que se li buidés la bossa
+Poca broma, m'havia acostumat a badallar amb mascareta.
 Pocs mesos abans, ningú no hauria vist res de còmic
 Podem afegir unes anous trossejades a la pasta.
 Podem assolir la coneixença de què són els valors espirituals d’una comunitat.
@@ -16336,6 +16353,7 @@ Que fi que fa el cafè.
 Que fora de cantar en llengua llemosina
 Que fossin els esforços, per realitzar la seva obra
 Que fossin les misèries morals que sofriria
+Que guai que agafant el primer tren ja comenci a clarejar el dia.
 Que hauria de fer per casar-me?
 Que hi ha res més bonic que un safareig?
 Que hi ha res tant bo com la viram?
@@ -19639,6 +19657,7 @@ Una altra cara faria si haguessin acceptat la meva moció al projecte.
 Una altra manera de fer la confitura és bullint els moniatos amb la pell.
 Una altra secció ens rellevà, vam lliurar els nostres fusells
 Una amiga veritable es queda quan tots els altres han desaparegut.
+Una ampolla de sidra, sisplau.
 Una antiga nissaga d'herois allí l'ha deixat ben clavada.
 Una arada trencada, era apedaçada, un cop i un altre
 Una autèntica amplitud d'esperit
@@ -20891,6 +20910,7 @@ zoo: "ni furtant-nos els somnis, ni cremant la trinxera... callaran la fera"
 És aquest accident el que fa canviar les vides dels tres personatges.
 És aquesta comanda?
 És aquesta que vol?
+És ben bé així.
 És bo encontrar-te algú per parlar, de vegades.
 És bo menjar fruita cada dia.
 És capaç de desenvolupar una vida social diferenciada de la resta d'animals gregaris.
@@ -21019,6 +21039,7 @@ zoo: "ni furtant-nos els somnis, ni cremant la trinxera... callaran la fera"
 És possible que sí que calgui fer alguna transacció econòmica.
 És precisament per això que cadascú és per a si mateix ell mateix.
 És president dels Amics del País, Vicent Lassala.
+És que a sobre després les preguntes tenen errades tipogràfiques.
 És que em venia verticalment a damunt mateix del cap.
 És que em venia verticalment a damunt mateix del cap…
 És que en Pere Perdis ignorava que voler és poder.

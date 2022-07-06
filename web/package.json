@@ -43,7 +43,7 @@
     "@types/classnames": "2.3.1",
     "@types/jest": "27.4.1",
     "@types/jest-axe": "3.5.3",
-    "@types/lodash.memoize": "4.1.6",
+    "@types/lodash.memoize": "4.1.7",
     "@types/lodash.pick": "4.4.6",
     "@types/lodash.throttle": "4.1.6",
     "@types/react": "17.0.42",
