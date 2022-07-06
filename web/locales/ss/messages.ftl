@@ -327,6 +327,8 @@ contribution-experience = Sipiliyoni sekulekelela
 skip-submission-feedback = Yeca umbiko wekumikisa
 off = Valiwe
 on = Vuliwe
+help-accent = Udzinga lusito ngendlela yekukhuluma?
+help-variants = Udzinga lusito ngetinhlobo?
 
 ## Profile - Email
 
@@ -383,6 +385,7 @@ about-nav-how-it-works = Kanjani ?
 about-nav-partners = Balingani
 about-nav-get-involved = Hlanganyela
 about-nav-how-it-works-2 = Common Voice usebenta njani?
+about-nav-playbook = Fundza kuhlanganyela
 
 ## Community Playbook Content
 ## What is a language
@@ -561,6 +564,7 @@ record-instruction = { $actionType }<recordIcon></recordIcon>fundza lomusho uphu
 record-stop-instruction = { $actionType }<stopIcon></stopIconuma> socedzile
 record-three-more-instruction = Kusele lamatsatfu!
 record-again-instruction = Kuhle! <recordIcon></recordIcon> Tfwebula sicephu sakho lesilandzelako
+record-again-instruction2 = Wente kahle. tfwebula futsi<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>Kekugcina!
 share-clip = Yaba sicephu sakho lesitfwebuliwe
 share-common-voice = Yaba Common Voice
@@ -654,6 +658,7 @@ profile-form-delete = Yesula likhasi
 
 ## Profile Download
 
+download-q = Udzinga ku download i-data yakho?
 download-profile-title = Likhasi lelichaza kabanti ngawe
 download-profile-size = A few bytes
 download-recordings-title = Lokutfwebuliwe
@@ -673,6 +678,7 @@ download-request-metadata-link = Imisho lemagama
 ## Landing
 
 welcome-staff = Siyanemukela { $company } tisebenti!
+login-company = Ngena / Bhalisa nge email ye { $company }
 
 ## DemoLayout
 
@@ -741,6 +747,7 @@ sc-footer-report-copyright = Bika tinkinga tema copyright
 sc-footer-privacy = Lokuyimfihlo
 sc-footer-terms = Imigomo
 sc-footer-cookies = Cookies
+sc-login-signup-button = Ngena / Bhalisa
 sc-logout-button = Phuma
 
 ## HOME
