@@ -50,6 +50,9 @@ email-subscription-title-new =
 improve-audio =
     Imininingwana yephrofayili ithuthukisa ihlelo lokurekhodiweko
     ekulumweni yokufundisa enembileko.
+keep-track =
+    Hlola ituthukwakho ngamalimi 
+    ahlukahlukeneko.
 compare-progress =
     Qala ituthukwakho nayimadaniswa neyabanye
     abafaka isandla ephasini mazombe.
@@ -75,6 +78,11 @@ username-optin-public =
 
 ## ProjectStatus
 
+status-hours =
+    { $hours ->
+        [one] Kuqinisekiswe i-awara okwanje!
+       *[other] kuqinisekiswe ama-awara okwanje!
+    }
 
 ## ProfileForm
 
@@ -100,6 +108,7 @@ skip-submission-note =
 faq-when-release2-q =
     Nizolitjhaphulula nini ihlelo leCommmon Voice 
     ngamanye amalimi?
+faq-why-mission-q = Kubayini  iCommon Voice iyingcenye yehlelo leMozilla
 faq-is-goal-assistant-q =
     Kghani umngomo weCommon Voice kukwenza amaphimbo 
     azosisiza?
@@ -170,10 +179,14 @@ about-playbook-how-record-content-4 = Yenza isiqiniseko sokobana ihlelo liyarekh
 
 ## How to grow language
 
+about-playbook-how-grow-language =
+    Singalithuthukisa njani ilimi ngokuphumeleleko 
+    kuCommon Voice?
 about-playbook-how-grow-language-content-8 = <strong>Yiba sikghwari!</strong> Ilimi elikhulunywa mphakathi wangekhenu lizokuhluka begodu nanzi iindlela ezimbalwa zokuthoma.
 
 ## How to validate
 
+about-playbook-how-validate = Ngingazi njani ukuthi kufuze ngiwuphasise umutjho?
 about-playbook-how-validate-content-1 = Nange ukghona <strong>ukubezwa</strong> begodu <strong>ubazwisisa</strong>, kungaba kuhle <strong>uphasise</strong>
 about-playbook-how-validate-content-4 = Nange okurekhodiweko kwaliwa babantu aba-2, kukhutjhwa ngomunye umhlobo webulungelo.
 
@@ -297,6 +310,9 @@ visibility-overlay-note =
 
 ## Custom Goals
 
+lose-goal-progress-warning =
+    Nawutjhentjha umgomo ungalahlekelwa 
+    yituthukwakho.
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Siza iCommon Voice ifikelele  i-awara
@@ -322,6 +338,9 @@ download-recently-requested =
     Ungabawa okurekhodileko 
     woke malanga { $days }
 download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufake efayilini yinye namkha emafayilini amanengi we-ZIP. Nakhu okubawe esikhathini esidlulileko:
+download-request-assembling-description =
+    Amafayela wakho sele ahlanganisiwe. Sibawa uhlole 
+    godu ngemva kwesikhatjhana.
 
 ## Landing
 
@@ -360,6 +379,7 @@ contribution-misreadings-description-extended-list-3 = Ukufunda okuthileko okung
 contribution-misreadings-description-extended-list-4 =
     Kulahleke amezwi wokugcina
     ngombana ujamise ukurekhoda msinyana.
+contribution-misreadings-example-3-explanation = [Ukujamisa ukurekhoda ngaphambi kwegama lokugcina]
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
 contribution-varying-pronunciations-example-2-explanation = [‘Ukukhuliswa’ ngesiNgisi kuphinyiselwa ngesilabhulu yinye ingasi ezimbili]
 contribution-background-noise-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kusuze ngaphandle kwalokha okhunye kuzwakala.
@@ -396,6 +416,9 @@ sc-howto-addlang-text =
 sc-howto-cite-item-1 = Ungahlanganisa newebhusayidi, isb. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa indlela yokutlola yefundo ephakamileko isb. Harvard style "Mozilla (2021) Common Voice. Efumaneka ku-https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 sc-howto-cite-item-3 = Bona ufumane umtlolo ongekho ku-inthanethi, ungasebenzisa indlela yokutlola isb. Harvard style " Jess (2021) Ilayisensami yeenkondlo zophakathi"
+sc-howto-review-criteria-4 =
+    Nange umutjho uvumelana nemibandela gandelela 
+    ikunupe ethi "Phasisa" ngaphasi.
 sc-howto-review-criteria-6 =
     Nange ingasekho imitjho ongayibuyekeza sibawa
     usisize sifumane imitjho eyengeziweko!
