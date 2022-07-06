@@ -120,6 +120,7 @@ resource-playbook-info = <playbookLink>Kgwetša keletšo ya maleba <playbookLink
 
 ## Request Language Pages
 
+request-language-explanation-2 = Le rena re tla <strong> tsibiša moeta phila wa ba dudi gore o na le kgahlego <strong>kore ba go fe thekgo tsebo e o ka e thlokang.
 
 ## Languages Overview
 
