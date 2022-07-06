@@ -4,6 +4,7 @@ yes-receive-emails = Yebo, ngithumele ama-imeyili. Ngingathanda ukuhlala nginolw
 privacy-info = Sithembisa ukuphatha imininingwane yakho ngokucophelela. Funda kabanzi kwi<privacyLink>Isaziso Sobumfihlo</privacyLink>.
 email-opt-in-info = Ngingathanda ukuthola ama-imeyili afana nezikhumbuzi zemigomo, izibuyekezo zami zokuqhubeka nezincwadi zezindaba ezimayelana ne-Common Voice.
 email-opt-in-info-sub-with-challenge = Thola ama-imeyili afana nezikhumbuzi zenselele nezinjongo, izibuyekezo zenqubekelaphambili, nezincwadi zezindaba ezimayelana ne-Common Voice.
+indicates-required = Izinkambu ezimakwe ngenkanyezi (*) ziyadingeka.
 banner-error-slow-1 = Uxolo, iCommon Voice isebenza kancane. Siyabonga ngentshisekelo yakho.
 banner-error-slow-2 = Sithola ithrafikhi eningi futhi okwamanje siphenya izinkinga.
 
@@ -97,6 +98,10 @@ faq-why-not-ask-read-q = Kungani ungaceli abantu ukuthi bafunde ezincwadini noma
 faq-why-account-q = Kungani kufanele ngibhalisele i-akhawunti?
 faq-how-privacy-q = Uqinisekisa kanjani ukungaziwa nobumfihlo babantu abanikele ngamazwi abo?
 faq-what-determine-identity-q = Kusho ukuthini ukuthi angikwazi “ukunquma ubunikazi” bezikhulumi kudathasethi yeCommon Voice?
+faq-what-determine-identity-a =
+    Idathasethi yeCommon Voice ivulelekile kuwo wonke umuntu, iyinsiza engakwazi ukusetshenziswa ukufundisa izinhlelo zokusebenza zamazwi aqoshiwe ezibanzi. Ukuvikela ubumfihlo kwabaxhasi bethu, sicela wonke umuntu ozosebenzisa iCommon Voice dataset ukuba ahloniphe ubumfihlo babaxhasi. 
+    
+    Lonke ulwazi lwamazwi aqoshiwe lususwa yonke iminingingwane yabantu engase ihlonze ukuba ngubani. Uma ufaka lolulwazi lwamazi aqoshiwe, uvuma ukuba angeke uzame ukunquma ubunikazi bomxhasi. Lokhu kusho ukuthi ngeke uzame ukuhlanganisa ulwazi olusemazwini aqoshiwe nemininingwane yomxhasi. Kepha, ungasabenzisa lolulwazi ukufunda ngokuqoshiwe kwamazwi, oqoshwayo noma ezinye izinhlelo zokusebenza ezinjengokuthi uhlanganise ulwazi nolunye olukhona kulolwazi lwamazwi aqoshiwe.
 faq-description = I-Common Voice iyingxenye yesinyathelo se-Mozilla sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 
 ## ABOUT US
@@ -252,6 +257,7 @@ speak-loading-error =
     Sicela uzame futhi emuva kwesikhathi.
 keep-track-profile = Gcina umkhondo wenqubekelaphambili yakho ngephrofayela
 login-to-get-started = Ngena ngemvume noma bhalisa ukuze uqalise
+target-segment-first-banner = Siza wakhe engxenye yokuqala eqondiwe yeCommon Voice kokuthi { $locale }
 
 ## Reporting
 
