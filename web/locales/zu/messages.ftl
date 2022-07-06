@@ -18,6 +18,7 @@ banner-error-slow-2 = Sithola ithrafikhi eningi futhi okwamanje siphenya izinkin
 
 ## Layout
 
+share-text = Siza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani, nikela ngezwi lakho ku-{ $link }
 
 ## Home Page
 
@@ -65,6 +66,7 @@ skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma no
 
 ## FAQ
 
+faq-is-goal-assistant-q = Ingabe umgomo we-Common Voice ukwakha umsizi wezwi?
 faq-do-want-native-q = Mina ngingumuntu ongeyena owomdabu futhi ngikhuluma ngendlela ehlukile, usafuna izwi lami?
 faq-what-quality-q = Iliphi izinga lekhwalithi yomsindo elidingekayo ukuze isiqeshana sezwi sisetshenziswe kudathasethi?
 faq-why-10k-hours-q = Kungani amahora angu-10,000 aqinisekisiwe kuwumgomo wolimi ngalunye lokuthwebula umsindo?
@@ -198,6 +200,7 @@ speak-loading-error =
 
 ## Reporting
 
+report-different-language-detail = Ibhalwe ngolimi oluhlukile kunalokhu engikukhulumayo.
 report-difficult-pronounce-detail = Iqukethe amagama noma imishwana okunzima ukuyifunda noma ukuyibiza.
 
 ## Goals
@@ -240,6 +243,7 @@ goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#Co
 
 ## Profile Download
 
+download-recordings-info = Kuhlanganisa ama-mp3 nemisho ehlobene, kungase kuthathe isikhathi ukulungiselela
 download-recordings-unavailable = Awukwazi ukucela ukurekhodwa kwakho ngenkathi esinye isicelo sisaqhubeka.
 download-recently-requested = Ungacela ukukhishwa okusha kokurekhodiwe njalo ezinsukwini ezingu-{ $days }.
 download-requests-info = Uma ucela okuqoshiwe kwakho, sikuhlanganisa kube ifayela le-ZIP elilodwa noma amaningi. Nazi izicelo zakho ezedlule:
@@ -254,6 +258,7 @@ profile-not-required = Ukuba nephrofayela akudingekile ukuthi unikele nakuba kus
 
 ## Demo Datasets
 
+demo-language-select-card-header = I-Common Voice iyidathasethi yezwi enkulu kunazo zonke emhlabeni etholakala esidlangalaleni, enezilimi eziningi.
 
 ## Demo Account
 
@@ -284,6 +289,7 @@ contribution-background-voices-description-extended = Uma ukurekhodwa kunqamuka,
 
 ## HOME
 
+sc-home-review-text = Sisize ngokubuyekeza imisho ngokunemba ngokweziqondiso.
 
 ## GENERAL
 
