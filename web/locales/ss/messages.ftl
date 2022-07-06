@@ -1,11 +1,13 @@
 ## General
 
+return-to-cv = Buyela ku Common Voice
 email-input =
     .label = Liposi lembane
 submit-form-action = Mikisa
 loading = Loading…
 not-available-abbreviation = N/A
 banner-error-slow-link = Lukasi lenchubo
+error-something-went-wrong = Siyacolisa, kukhona lokungakahambi kahle
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -209,6 +211,7 @@ logout = Phuma
 
 ## Home Page
 
+home-cta = Khuluma, faka umbono lapha!
 wall-of-text-first = { "" }
 show-wall-of-text = Fundza Kabanti
 help-us-title = Sisite sicinisekise imisho
@@ -324,6 +327,7 @@ on = Vuliwe
 
 ## Profile - Email
 
+browse-file-title = Faka sitfombe
 connect-gravatar = Connect with Gravatar
 avatar-uploaded = Avatar uploaded
 max-file-size = { $kb }kb max
@@ -337,6 +341,8 @@ add-language = Ngeta Lulwimi
 ## FAQ
 
 faq-title = Imibuto levame kubutwa
+faq-what-cv-q = Yini Common Voice?
+faq-what-is-cv = Yini Common Voice?
 faq-using-cv = Kusebentisa Common Voice
 faq-search-for-answers =
     .label = Phenya timphendvulo
@@ -417,6 +423,7 @@ de-identified = Kususwe imininingwane yemniyo
 
 ## Error pages
 
+error-title-503 = Sisabhekene nenkinga lencane emishinini yetfu
 error-code = Liphutsa { $code }
 
 ## Data
@@ -562,6 +569,7 @@ report-other-comment =
     .placeholder = Phawula
 success = Imphumelelo
 continue = Chubeka
+report-success = Umbiko uphumelele kahle
 
 ## Goals
 
@@ -633,6 +641,7 @@ download-start = Download profile data
 download-request = Cela leticephu letitfwebuliwe
 download-requests = Past recordings download requests
 download-request-button = Download
+download-request-archive-single = Lifayela linye le ZIP lelicuketse
 download-request-refresh-button = Vuselela
 download-request-modal-title = Download Links
 download-request-link-text = Zip #{ $offset } of { $total }
@@ -645,6 +654,7 @@ welcome-staff = Siyanemukela { $company } tisebenti!
 ## DemoLayout
 
 demo-get-started = Asicale
+demo-welcome = Siyakwemukela ka Common Voice
 
 ## Demo Datasets
 
@@ -657,6 +667,7 @@ demo-account = i-Account
 ## Demo Account
 
 demo-account-card-header = { "" }
+demo-account-sign-up = Tfumela i-link yekubhalisa
 
 ## Demo Contribute
 
@@ -674,6 +685,7 @@ contribution-for-example = kubekisa
 contribution-misreadings-title = Lokufundvwe kabi
 contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
 contribution-misreadings-example-6-explanation = [Should be “We are”]
+contribution-misreadings-example-8-title = The bumblebee sped by.
 contribution-varying-pronunciations-title = Tindlela tekukhuluma letehlukahlukene
 contribution-varying-pronunciations-example-2-title = Sandla sakhe besiphakam-ile.
 contribution-background-noise-title = Imisindvo lengemuva
