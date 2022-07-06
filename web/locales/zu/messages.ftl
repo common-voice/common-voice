@@ -28,6 +28,7 @@ default-tagline = I-Mozilla Common Voice iyisinyathelo sokusiza ukufundisa imish
 help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhulume kahle lo musho ongezansi?
 no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
+help-make-dataset = Sisize sakhe idathasethi elezinga eliphezulu, nevulelekile esidlangalaleni
 email-subscription-title-new = Bhalisela izincwadi zezindaba zeCommon Voice, izikhumbuzi zemigomo nezibuyekezo zenqubekelaphambili
 
 ## Account Benefits
@@ -54,6 +55,11 @@ username-email-not-demographic = Igama olisebenzisayo kanye ne-imeyili yakho nge
 
 ## ProjectStatus
 
+status-hours =
+    { $hours ->
+        [one] Ihora elilodwa eliqinisekisiwe kuze kube manje!
+       *[other] { $hours } amahora aqinisekisiwe kuze kube manje!
+    }
 
 ## ProfileForm
 
@@ -71,6 +77,8 @@ skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma no
 ## FAQ
 
 faq-when-release2-q = Uzoyikhulula nini idatha yeCommon Voice ngezinye izilimi?
+faq-why-mission-q = Kungani i-Common Voice iyingxenye yemishini ye-Mozilla?
+faq-what-cv-and-deepspeech-q = Uyini umehluko phakathi kweCommon Voice kanye neDeep Speech?
 faq-is-goal-assistant-q = Ingabe umgomo we-Common Voice ukwakha umsizi wezwi?
 faq-do-want-native-q = Mina ngingumuntu ongeyena owomdabu futhi ngikhuluma ngendlela ehlukile, usafuna izwi lami?
 faq-why-different-speakers-q = Kungani udinga izikhulumi eziningi kangaka ezihlukene ngolimi ngalunye?
@@ -87,6 +95,7 @@ faq-description = I-Common Voice iyingxenye yesinyathelo se-Mozilla sokusiza uku
 
 ## How does it work section
 
+about-new-lang-subtitle = Sethula isayithi le-Common Voice ngalolu limi.
 about-speak-text = Abanikeli baqopha iziqeshana zezwi ngokufunda ebhange lemisho enikelwe.
 about-listen-queue-text = Iziqeshana zezwi zifakwa emugqeni wokuhambisa ozilungiselela ukulalelwa.
 about-listen-text = Abasebenzisi baqinisekisa ukunemba kweziqeshana ezinikelwe, behlola ukuthi isikhulumi siwufunde kahle umusho.
@@ -105,6 +114,7 @@ about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi 
 
 ## How does localization work
 
+about-playbook-how-localize-content-1 = Ukuhunyushwa kwesayithi le-Common Voice kwenzeka <strong>e-Pontoon</strong>.
 about-playbook-how-localize-content-4 = Isayithi lizolungela ukwethulwa uma sesifinyelele ekuqedweni okungu-75%.
 
 ## How to add sentences
@@ -114,6 +124,7 @@ about-playbook-how-add-sentences-content-4 = Imisho eqinisekisiwe ithunyelwa nga
 
 ## How to record quality
 
+about-playbook-how-record-quality = Ngiqopha kanjani isiqeshana sezwi sezinga eliphezulu?
 about-playbook-how-record-content-2 = Gwema umsindo omningi wangemuva - kufanele kube lula ukukuzwa.
 about-playbook-how-record-content-3 = Funda umusho ngokucophelela - ungaphuthi, ungashintshi noma wengeze amagama.
 about-playbook-how-record-content-4 = Qiniseka ukuthi inkundla iyarekhoda ngaphambi kokuthi uqale ukukhuluma, nokuthi iyama kuphela uma usuqedile.
@@ -147,6 +158,7 @@ hours-recorded-explanation = Isibalo samahora okuqoshwa kwezwi esiwaqoqile kuze 
 data-download-modal = Usuzoqalisa ukuloda kwe-<size>GB</size>, qhubeka?
 data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
 review-terms = Ngokusebenzisa iCommon Voice, uyavumelana <termsLink>Nemigomo</termsLink> kanye <privacyLink>Nesaziso Sobumfihlo</privacyLink>
+review-aborted = Ukulodiwe kunqanyuliwe. Uyafuna ukususa okurekhodiwe kwakho?
 review-submit-msg = Siyabonga ngokurekhoda!<lineBreak></lineBreak>Manje buyekeza futhi uhambise iziqeshana zakho ngezansi.
 
 ## Datasets Page
@@ -203,6 +215,7 @@ language-section-in-progress-new-description = Lezi zilimi okwamanje zingaphansi
 
 goal-help-recording = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokurekhoda yansuku zonke { $goalValue }!
 goal-help-validation = Usize i-Common Voice ukufinyelela <goalPercentage></goalPercentage> kwinhlonso yethu yokuqinisekisa wansuku zonke { $goalValue }!
+record-platform-not-supported-ios-non-safari = Ku-iOS sicela uqhubeke ne-Safari ukuze ukwazi ukurekhoda...
 listen-empty-state = Siphelelwe iziqeshana ezizoqinisekiswa ngalolu limi...
 listen-loading-error =
     Asikwazanga ukuthola iziqeshana zomsindo ozozilalela.
@@ -226,6 +239,7 @@ visibility-overlay-note = Qaphela: Uma kusethelwe kokuthi 'Kuyabonakala', lesi s
 
 ## Custom Goals
 
+goal-type = Hlobo luni lomgomo ofuna ukulakha?
 lose-goal-progress-warning = Ngokushintsha injongo yakho, ungase ulahlekelwe inqubekelaphambili okukhona.
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
@@ -258,10 +272,13 @@ goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#Co
 
 ## Profile Download
 
+download-profile-info = Kufaka phakathi i-imeyili, igama olisebenzisayo nolwazi lwezibalo zabantu, olutholakala ngokushesha
 download-recordings-info = Kuhlanganisa ama-mp3 nemisho ehlobene, kungase kuthathe isikhathi ukulungiselela
 download-recordings-unavailable = Awukwazi ukucela ukurekhodwa kwakho ngenkathi esinye isicelo sisaqhubeka.
 download-recently-requested = Ungacela ukukhishwa okusha kokurekhodiwe njalo ezinsukwini ezingu-{ $days }.
 download-requests-info = Uma ucela okuqoshiwe kwakho, sikuhlanganisa kube ifayela le-ZIP elilodwa noma amaningi. Nazi izicelo zakho ezedlule:
+download-request-assembling-description = Amafayela akho ayahlanganiswa. Sicela uhlole futhi ngokuhamba kwesikhathi.
+download-request-modal-description = Nazi izixhumanisi zokuloda amafayela akho e-ZIP.
 
 ## Landing
 
@@ -270,6 +287,7 @@ profile-not-required = Ukuba nephrofayela akudingekile ukuthi unikele nakuba kus
 
 ## DemoLayout
 
+demo-welcome-subheader = Unentshisekelo yokufunda okwengeziwe nokuba negalelo kuphrojekthi?
 
 ## Demo Datasets
 
@@ -281,6 +299,7 @@ demo-account-card-header = Ukuba ne-akhawunti akudingekile ukuthi unikele, nakub
 
 ## Demo Contribute
 
+demo-contribute-card-header = Ulungele ukwengeza izwi lakho noma ukuboleka indlebe yakho?
 
 ## Demo Dashboard
 
@@ -290,6 +309,7 @@ demo-dashboard-card-header = Amadeshibhodi omuntu siqu akugcina unolwazi lwakamu
 
 contribution-criteria-page-description = Qonda ukuthi yini okufanele uyibheke lapho ulalele iziqeshana zezwi futhi usize ukwenza izwi elirekhodiwe lakho licebe kakhulu!
 contribution-misreadings-description-extended-list-1 = Kushoda <strong>'A'</strong> noma <strong>'The'</strong>. ekuqaleni kokuqoshwa.
+contribution-misreadings-description-extended-list-2 = Ishoda ngo-<strong>'s'</strong> ekupheleni kwegama.
 contribution-misreadings-description-extended-list-3 = Ukufunda izifinyezo ezingekho, njengokuthi "We're" esikhundleni sokuthi "We are", noma okuphambene nalokho.
 contribution-misreadings-description-extended-list-4 = Uphuthelwa isiphetho segama lokugcina ngokunqamula ukuqopha ngokushesha okukhulu.
 contribution-misreadings-example-3-explanation = [Ukurekhoda kunqamukile ngaphambi kwegama lokugcina]
@@ -309,6 +329,7 @@ contribution-background-voices-example-1-title = Ama-dinosaurs amakhulu e-Triass
 
 ## HOME
 
+sc-home-collect-text = Sisize ngokubhala noma ukuqoqa imisho Yesizinda Somphakathi.
 sc-home-review-text = Sisize ngokubuyekeza imisho ngokunemba ngokweziqondiso.
 
 ## GENERAL
@@ -423,10 +444,13 @@ sc-review-form-reviewed-message =
         [one] umusho ongu-1 ubuyekeziwe. Ngiyabonga!
        *[other] { $sentences } ibuyekeziwe. Ngiyabonga!
     }
+sc-review-form-review-failure = Isibuyekezo asikwazanga ukugcineka. Sicela uzame futhi emuva kwesikhathi.
 
 ## SETTINGS
 
 sc-settings-skipped-decription = Ngaphambilini weqe imisho ngenkathi ubuyekeza. Ukusetha kabusha imisho eyeqiwe kuzokhombisa yonke imisho eyeqiwe futhi. Lokhu kuzimele olimini.
+# VALIDATION
+sc-validation-number-of-words = Umusho kufanele ube namagama aphakathi kwe-1 ne-14 (okuhlanganisayo).
 
 # [/SentenceCollector]
 
