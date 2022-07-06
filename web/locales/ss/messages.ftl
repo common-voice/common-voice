@@ -630,6 +630,7 @@ download-size = Linani
 download-selected = Lokukhetsiwe
 download-start = Download profile data
 download-request = Cela leticephu letitfwebuliwe
+download-requests = Past recordings download requests
 download-request-button = Download
 download-request-refresh-button = Vuselela
 download-request-modal-title = Download Links
