@@ -21,6 +21,9 @@ email-opt-in-info-sub-with-challenge =
 
 ## Home Page
 
+home-title =
+    ICommon Voice neMozilla izibekele umgomo wokusiza
+    ekufundiseni imitjhini ukuthi abantu bamambala bakhuluma njani
 default-tagline =
     IMozilla Common Voice izimisele ukusiza
     ekufundiseni imitjhini bona abantu bamambala bakhuluma njani.
@@ -112,6 +115,9 @@ about-playbook-how-add-sentences-content-4 = Imitjho eqinisekisiweko ikhanjiswa 
 
 ## How to record quality
 
+about-playbook-how-record-content-2 =
+    Linga bona kungabi netjhada elinengi elizwakala ngemuva - kufuze kube
+    lula ukukuzwa.
 about-playbook-how-record-content-4 = Yenza isiqiniseko sokobana ihlelo liyarekhoda ngaphambi kobana uthome ukukhuluma begodu liyajama nawuqedako.
 
 ## How to grow language
@@ -300,6 +306,7 @@ sc-howto-findpd-tips-3 =
 sc-submit-confirm =
     Ngiyaqinisekisa bona imitjho le
     <wikipediaLink>yehlelo lomphakathi</wikipediaLink> begodu nginamalungelo wokuyifaka.
+sc-submit-filtered = Imitjho efakiweko ayikaphasi ngebanga lokungahlangabezani neemfuneko (sibawa ufake imitjho emitjha elungisiweko)
 
 ## ADD LANGUAGE
 
