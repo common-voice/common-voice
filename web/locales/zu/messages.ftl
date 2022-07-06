@@ -4,6 +4,7 @@ yes-receive-emails = Yebo, ngithumele ama-imeyili. Ngingathanda ukuhlala nginolw
 privacy-info = Sithembisa ukuphatha imininingwane yakho ngokucophelela. Funda kabanzi kwi<privacyLink>Isaziso Sobumfihlo</privacyLink>.
 email-opt-in-info = Ngingathanda ukuthola ama-imeyili afana nezikhumbuzi zemigomo, izibuyekezo zami zokuqhubeka nezincwadi zezindaba ezimayelana ne-Common Voice.
 email-opt-in-info-sub-with-challenge = Thola ama-imeyili afana nezikhumbuzi zenselele nezinjongo, izibuyekezo zenqubekelaphambili, nezincwadi zezindaba ezimayelana ne-Common Voice.
+banner-error-slow-1 = Uxolo, iCommon Voice isebenza kancane. Siyabonga ngentshisekelo yakho.
 banner-error-slow-2 = Sithola ithrafikhi eningi futhi okwamanje siphenya izinkinga.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -56,6 +57,7 @@ username-email-not-demographic = Igama olisebenzisayo kanye ne-imeyili yakho nge
 ## ProfileForm
 
 profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi usize idatha yethu yezwi inembe kakhulu.
+thanks-for-account = Siyabonga ngokuqinisekisa i-akhawunti yakho, manje asakhe iphrofayela yakho.
 accept-privacy = Ngilungile uma uphatha lolu lwazi njengoba uchaza kokuthi <privacyLink>Inqubomgomo Yobumfihlo</privacyLink> ye-Mozilla
 skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma noma Lalela ukuze ushintshe uhlobo lomnikelo.
 
@@ -324,9 +326,15 @@ sc-howto-findpd-tips-3 = Ngeshwa asikwazi ukuba nezindatshana ze-Wikimedia okwam
 ## STATS
 
 sc-stats-error = Asikwazanga ukulanda izibalo. Sicela uzame futhi emuva kwesikhathi.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Umqoqi Wemisho weCommon Voice uqoqe  { $sentenceCount } imisho { $languageCount } ngezilimi!
 
 ## ADD
 
+sc-submit-prompt =
+    .message = Imisho ayithunyelwanga, uqinisekile ukuthi ufuna ukuhamba?
 sc-submit-confirm = Ngiyaqinisekisa ukuthi le misho <wikipediaLink>yisizinda somphakathi</wikipediaLink> futhi nginemvume yokuyilayisha.
 sc-submit-filtered = Imisho ehlungiwe ngenxa yokwehluleka kwezidingo (sicela uhambise izinguqulo ezilungisiwe njengemisho emisha):
 
@@ -344,6 +352,8 @@ sc-add-lang-process-notice = Uma ulimi lwakho lungekho ohlwini lapha, ungalucela
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Imisho ayithunyelwanga, uqinisekile ukuthi ufuna ukuhamba?
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Awukho umusho osuvele ubuyekeziwe.
