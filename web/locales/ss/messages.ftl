@@ -375,6 +375,7 @@ about-localization-title = Kusondzetwa kwelikheli langcondvomshina
 about-sentence-collection-title = Kukolekwa kwemisho
 about-new-lang-title = Kusungulwa kwelulwimi lolusha.
 about-voice-contrib-title = Kulekelela ngelivi
+about-voice-contrib-subtitle = Bantfu bayeta batonikela ngemavi abo.
 about-voice-validation-title = Kucinisekisa Livi
 about-voice-validation-subtitle = Labanye bantfu bayawacinisekisa lawo mafayela amavi latfwebuliwe
 about-dataset-release-title = Dataset Release
@@ -589,6 +590,7 @@ record-again-instruction2 = Wente kahle. tfwebula futsi<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>Kekugcina!
 share-clip = Yaba sicephu sakho lesitfwebuliwe
 share-common-voice = Yaba Common Voice
+review-instruction = Buyeketa uphindze utfwebule kabusha ticephu uma kudzingekile
 record-submit-tooltip = { $actionType } mikisa uma ulungele
 clips-uploaded = Ticephu leti-uploadiwe
 record-abort-title = Cedza kutfwebula kucala?
@@ -669,6 +671,8 @@ how-many-per-day = Kuhle! Tingaphi ticephu lotitfwebula ngelilanga?
 how-many-a-week = Kuhle! Tingaphi ticephu lotitfwebula ngeliviki?
 confirm-goal = Cinisekisa umgomo
 goal-interval-weekly = Ngemaviki
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Yaba emagoli akho { $count } emafayela latfwebuliwe ngelilanga { $type }
 share-goal-type-speak = Lokhulumako
 share-goal-type-listen = Ulalele
 share-goal-type-both = Kukhuluma nekulalela
@@ -704,6 +708,7 @@ download-request-metadata-link = Imisho lemagama
 
 welcome-staff = Siyanemukela { $company } tisebenti!
 login-company = Ngena / Bhalisa nge email ye { $company }
+read-more-about = Fundza kabanti ekhasini lelichaza Kabanti ngatsi
 
 ## DemoLayout
 
@@ -795,6 +800,7 @@ sc-howto-addsen-title = Ngeta imisho lemisha
 sc-howto-cite-title = Indlela yeku-Cite
 sc-howto-review-title = Buyeketa imisho
 sc-howto-review-criteria-3 = Lomusho kumele ukhulumeke.
+sc-howto-findpd-subtitle = Phenya ku-internet
 sc-howto-findpd-subtitle-2 = Timbandzakanye netinkapani noma tinhlangano talakhaya.
 
 ## MY SENTENCES
@@ -880,6 +886,8 @@ sc-criteria-item-3 = Lomusho kumele ukhulumeke.
 
 sc-review-title = Buyeketa imisho
 sc-review-loading = Sisafaka imisho…
+sc-review-form-prompt =
+    .message = Imisho lebuyeketiwe ayikamikiswa, unesiciniseko saloko?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Umtfombo: { $sentenceSource }
