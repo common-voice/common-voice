@@ -6,6 +6,7 @@ email-input =
 submit-form-action = Mikisa
 loading = Loading…
 email-opt-in-info-title = Ngenela luhla lweliposi lembane lwa Common Voice.
+indicates-required = Tindzawo letimakwe ngenkhanyeti (*) tidzingekile.
 not-available-abbreviation = N/A
 banner-error-slow-link = Lukasi lenchubo
 error-something-went-wrong = Siyacolisa, kukhona lokungakahambi kahle
@@ -625,6 +626,7 @@ record-button-label = Tfwebula livi lakho
 share-title-new = <bold>Sisite </bold>sitfole emavi lamanengi
 target-segment-first-card = Ulekelela ku target segment yetfu yekucala
 target-segment-generic-card = Unikela ku target ye segment
+target-segment-first-banner = Sita ekwakheni i-target segment ya common voice yekucala ku { $locale }
 target-segment-add-voice = Ngeta Livi Lakho
 target-segment-learn-more = Fundza Kabanti
 
@@ -697,6 +699,7 @@ cant-decide = Awukhoni kukhetsa?
 how-many-per-day = Kuhle! Tingaphi ticephu lotitfwebula ngelilanga?
 how-many-a-week = Kuhle! Tingaphi ticephu lotitfwebula ngeliviki?
 which-goal-type = Ufuna kukhuluma, kulalela, noma kokubili?
+help-share-goal = Sisite sitfole emavi lamanengi, yaba ligoli lakho
 confirm-goal = Cinisekisa umgomo
 goal-interval-weekly = Ngemaviki
 # $type is one of share-goal-type-*
@@ -872,6 +875,7 @@ sc-my-submission = Kumikisa: { $batchId }
 sc-my-source = Umtfombo: { $source }
 sc-my-delete = Yesula imisho lekhetsiwe
 sc-my-deleting = Yesula imisho lekhetsiwe…
+sc-my-err-failed-delete = Sehlulekile kwesula imisho lekhetsiwe... Sicela uphindze wetame futsi!
 
 ## REJECTED
 
