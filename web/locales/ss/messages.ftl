@@ -355,6 +355,8 @@ about-speak = Khuluma
 about-listen-queue = Lidelezi lekulalela
 about-listen-queue-text = { "" }
 about-listen = Lalela
+about-yes-votes = 2 wema voti latsi Yebo
+about-no-votes = 2 wema voti latsi Cha
 about-dataset-new = Common Voice Dataset
 about-clip-graveyard = Clip Graveyard
 about-get-involved = Hlanganyela
@@ -486,6 +488,7 @@ other-language = Lolunye Lulwimi
 
 request-language-form-email =
     .label = Likheli leliposi lakho lembane
+request-language-form-info-explanation-list-2 = </addLink>Ema Code aka ISO </addLink> uma khona lowatiko
 
 ## Languages Overview
 
@@ -573,6 +576,7 @@ show-ranking = Khombisa sigaba sami
 ## Custom Goals
 
 both-speak-and-listen = Kokubili
+both-speak-and-listen-long = Kokubili (khuluma phindze ulalele)
 daily-goal = Umgomo welilanga
 weekly-goal = Ligoli leliviki
 easy-difficulty = Kumelula
@@ -730,6 +734,7 @@ sc-submit-err-add-sentences = Sicela wengete imisho
 sc-submit-title = Ngeta imisho
 sc-submit-select-language =
     .labelText = Khetsa Lulwimi
+sc-submit-add-sentences = Ngeta <wikipediaLink>public domain</wikipediaLink> Imisho
 sc-submit-button =
     .submitText = Mikisa
 
@@ -748,6 +753,7 @@ sc-confirm-button-text = Vuma
 sc-lang-info-title-total = Konkhe
 sc-lang-info-title-personal = Mayelana nami
 sc-lang-info-review-now = <reviewLink>Buyeketa nyalo!</reviewLink>
+sc-lang-info-add-more = *[other] { $count } Ngeta imisho manje!</addLink>
 
 ## LOGIN
 
