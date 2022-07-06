@@ -43,6 +43,7 @@ join-newsletter = Joyina ngokuzikhethela ohlwini lwethu lwe-imeyili ukuze uthole
 
 ## What's public
 
+email-not-public = Ngeke senze i-imeyili yakho ibe sesidlangalaleni.
 recordings-and-locale-public = Inombolo yokurekhodwa nokuthi iziphi izilimi onikela kuzo kuzoba sesidlangalaleni.
 username-optin-public = Ungakhetha ukwenza igama olisebenzisayo libe sesidlangalaleni noma lingaziwa.
 username-email-not-demographic = Igama olisebenzisayo kanye ne-imeyili yakho ngeke zihlotshaniswe nedatha eshicilelwe.
@@ -118,6 +119,7 @@ about-language-req-subtitle = Umuntu ucela ukwengezwa ulimi.
 about-localization-subtitle = Umbhalo wewebhusayithi uhunyushelwa kulolo limi.
 about-sentence-collection-subtitle = Imisho iqoqwa ukuze abantu bayifundele phezulu.
 about-new-lang-subtitle = Sethula isayithi le-Common Voice ngalolu limi.
+about-dataset-release-subtitle = Sikhipha idathasethi njalo ezinyangeni ezi-3.
 about-subscribe-text = Ingabe ufuna ukuhlala uxhumene ne-Common Voice?
 about-speak-text = Abanikeli baqopha iziqeshana zezwi ngokufunda ebhange lemisho enikelwe.
 about-listen-queue-text = Iziqeshana zezwi zifakwa emugqeni wokuhambisa ozilungiselela ukulalelwa.
@@ -131,6 +133,8 @@ about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Luyini ulimi ku-Common Voice?
+about-playbook-what-is-language-content-1 = { "" }
 
 ## How do I add a language
 
@@ -181,6 +185,7 @@ sst-explanation = Ubuchwepheshe beSpeech-to-text (STT) buguqula idatha yezwi ibe
 
 ## Error pages
 
+error-title-404 = Asikwazanga ukukutholela lelo khasi
 
 ## Data
 
@@ -387,6 +392,7 @@ contribution-background-voices-example-1-title = Ama-dinosaurs amakhulu e-Triass
 
 ## HOME
 
+sc-home-title = Siyakwamukela Kumqoqi Wemisho yeCommon Voice
 sc-home-collect-text = Sisize ngokubhala noma ukuqoqa imisho Yesizinda Somphakathi.
 sc-home-review-text = Sisize ngokubuyekeza imisho ngokunemba ngokweziqondiso.
 
@@ -427,6 +433,7 @@ sc-stats-summary = Umqoqi Wemisho weCommon Voice uqoqe  { $sentenceCount } imish
 sc-submit-err-confirm-pd = Sicela uqinisekise ukuthi le misho ayisizinda somphakathi.
 sc-submit-prompt =
     .message = Imisho ayithunyelwanga, uqinisekile ukuthi ufuna ukuhamba?
+sc-submit-from-where = Ivelaphi le misho ye-<wikipediaLink>isizinda somphakathi</wikipediaLink>?
 sc-submit-ph-read-how-to =
     .placeholder = Funda iHow-to yethu uma ungaqiniseki ukuthi
 sc-submit-confirm = Ngiyaqinisekisa ukuthi le misho <wikipediaLink>yisizinda somphakathi</wikipediaLink> futhi nginemvume yokuyilayisha.
