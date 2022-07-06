@@ -21,6 +21,9 @@ banner-error-slow-2 =
 
 ## Layout
 
+share-text =
+    Siza ngokufundisa imitjhini bona abantu bamambala bakhuluma njani, 
+    nikela ngephimbo lakho ku { $link }
 
 ## Home Page
 
@@ -85,6 +88,9 @@ skip-submission-note =
 
 ## FAQ
 
+faq-is-goal-assistant-q =
+    Kghani umngomo weCommon Voice kukwenza amaphimbo 
+    azosisiza?
 faq-do-want-native-q = Leli akusililimi engilimunyileko begodu kuyezwakala lokho nangikhulumako. Nisalifuna iphimbo lami?
 faq-what-quality-q = Okurekhodiweko kufuze kube kiliphi izinga bona iphimbo lisetjenziswe ebulungelweni?
 faq-why-10k-hours-q =
@@ -277,6 +283,9 @@ goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -
 
 ## Profile Download
 
+download-recordings-info =
+    Ukuhlanganisa ne-mp3 emitjhweni kungathatha 
+    isikhathi eside
 download-recordings-unavailable =
     Angekhe wakghona ukubawa okurekhodileko nange
     kusesenesinye isibawo osifakileko.
@@ -297,6 +306,7 @@ profile-not-required =
 
 ## Demo Datasets
 
+demo-language-select-card-header = ICommon Voice lihlalo elikhamba phambili ephasini mazombe elinamaphimbo wamalimi ahlukahlukeneko.
 
 ## Demo Account
 
@@ -318,6 +328,7 @@ contribution-misreadings-description-extended-list-4 =
     Kulahleke amezwi wokugcina
     ngombana ujamise ukurekhoda msinyana.
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
+contribution-varying-pronunciations-example-2-explanation = [‘Ukukhuliswa’ ngesiNgisi kuphinyiselwa ngesilabhulu yinye ingasi ezimbili]
 contribution-background-noise-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kusuze ngaphandle kwalokha okhunye kuzwakala.
 contribution-background-voices-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kususe ngaphandle kwalokha okhunye kuzwakala.
 
@@ -331,6 +342,9 @@ contribution-background-voices-description-extended = Nange okurekhodiweko kuqun
 
 ## HOME
 
+sc-home-review-text =
+    Sisiza ngokubuyekeza imitjho uqale bona ilungile na 
+    ngokuya ngeenqophiso.
 
 ## GENERAL
 
