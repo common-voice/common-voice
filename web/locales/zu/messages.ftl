@@ -157,6 +157,7 @@ hours-recorded-explanation = Isibalo samahora okuqoshwa kwezwi esiwaqoqile kuze 
 
 data-download-modal = Usuzoqalisa ukuloda kwe-<size>GB</size>, qhubeka?
 data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
+data-bundle-description = Idatha yeCommon Voice kanye nawo wonke amanye amadathasethi ezwi ngenhla.
 review-terms = Ngokusebenzisa iCommon Voice, uyavumelana <termsLink>Nemigomo</termsLink> kanye <privacyLink>Nesaziso Sobumfihlo</privacyLink>
 review-aborted = Ukulodiwe kunqanyuliwe. Uyafuna ukususa okurekhodiwe kwakho?
 review-submit-msg = Siyabonga ngokurekhoda!<lineBreak></lineBreak>Manje buyekeza futhi uhambise iziqeshana zakho ngezansi.
@@ -425,6 +426,14 @@ sc-lang-info-left-for-you =
         [0] Ayikho imisho esele ukuthi uyibuyekeze.
         [one] umusho ongu-1 osele ukuthi uwubuyekeze.
        *[other] { $unreviewedSentencesByYou } imisho esele ukuthi uyibuyekeze.
+    }
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ayikho imisho eqinisekisiwe.
+        [one] umusho oqinisekisiwe o-1.
+       *[other] { $validatedSentences } imisho eqinisekisiwe.
     }
 
 ## LOGIN
