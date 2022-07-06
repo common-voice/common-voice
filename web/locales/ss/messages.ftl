@@ -613,6 +613,7 @@ download-request = Cela leticephu letitfwebuliwe
 download-request-button = Download
 download-request-refresh-button = Vuselela
 download-request-modal-title = Download Links
+download-request-link-text = Zip #{ $offset } of { $total }
 download-request-metadata-link = Imisho lemagama
 
 ## Landing
@@ -650,6 +651,7 @@ contribution-criteria-page-title = Luhla lwekulekelela
 contribution-for-example = kubekisa
 contribution-misreadings-title = Lokufundvwe kabi
 contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
+contribution-misreadings-example-6-explanation = [Should be “We are”]
 contribution-varying-pronunciations-title = Tindlela tekukhuluma letehlukahlukene
 contribution-background-noise-title = Imisindvo lengemuva
 contribution-background-voices-title = Emavi langemuva
