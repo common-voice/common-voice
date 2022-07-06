@@ -208,6 +208,7 @@ terms = Imigomo
 cookies = Cookies
 faq = FAQ
 content-license-text = Emafayela atfolakala phasi kwe <licenseLink>Creative Commons license</licenseLink>
+share-title = Sisite sitfole labanye labanganikela ngemavi abo!
 link-copied = I-link Ikotjiwe
 back-top = Buyela Etulu
 logout = Phuma
@@ -367,6 +368,7 @@ change-email-setings = Shintja liposi lakho lembane kuma settings ngaphasi kwala
 faq-title = Imibuto levame kubutwa
 faq-what-cv-q = Yini Common Voice?
 faq-why-important-q = Kumcoka ngani loku?
+faq-how-get-q = Ngingayitfola njani le data yaka Common Voice?
 faq-why-my-lang-q = Leni lulwimi lwami lungangetwa?
 faq-how-calc-hours-q = Common Voice uwabala njani ema hora?
 faq-where-src-from-2-q = Umtfombo wemagama uchamukaphi?
@@ -450,6 +452,7 @@ about-playbook-how-grow-language-content-6 = Kubambisana nekuchumana
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Ngiyitfola njani, futsi ngiyisebentisa njani le dataset?
 
 ## How are decisions made
 
@@ -594,7 +597,7 @@ skip = Yeca
 shortcuts = Tindlela tekujubelisa
 goal-help-recording = { "" }
 record-cta = Cala kutfwebula
-record-platform-not-supported-desktop = { "" }
+record-platform-not-supported-desktop = Kubongcondvomshina, ungalekelela ngeku download....
 record-must-allow-microphone = Vumela kusebenta kwembobho.
 record-no-mic-found = Kute umbhobho lotfolakele.
 record-error-too-short = Le recording beyiyimfisha kakhulu.
@@ -624,6 +627,8 @@ listen-last-time-instruction = <playIcon></playIcon>Kwekugcina!
 speak-empty-state-cta = Nikela imisho
 record-button-label = Tfwebula livi lakho
 share-title-new = <bold>Sisite </bold>sitfole emavi lamanengi
+keep-track-profile = Gcina inchubo yakho ngelikhasi lelichaza kabanti ngawe
+login-to-get-started = Ngena / bhalisa kute utokhona kucala
 target-segment-first-card = Ulekelela ku target segment yetfu yekucala
 target-segment-generic-card = Unikela ku target ye segment
 target-segment-first-banner = Sita ekwakheni i-target segment ya common voice yekucala ku { $locale }
@@ -853,6 +858,7 @@ sc-howto-addlang-title = Kungeta tilwimi lotosebenta ngato
 sc-howto-addsen-title = Ngeta imisho lemisha
 sc-howto-cite-title = Indlela yeku-Cite
 sc-howto-review-title = Buyeketa imisho
+sc-howto-review-subtitle = Ciniseka kutsi imisho ihlangabeta loluhla lolulandzelako:
 sc-howto-review-criteria-1 = Lomusho kumele ubhaleke kahle.
 sc-howto-review-criteria-2 = Lomusho kumele ube bete emaphutsa.
 sc-howto-review-criteria-3 = Lomusho kumele ukhulumeke.
@@ -945,6 +951,7 @@ sc-personal-not-added = Awukangeti lulwimi kwamanje.
 
 sc-criteria-modal = ⓘ Buyeketa Luhla
 sc-criteria-title = Buyeketa luhla
+sc-criteria-make-sure = Ciniseka kutsi imisho ihlangabeta loluhla lolulandzelako:
 sc-criteria-item-1 = Lomusho kumele ubhaleke kahle.
 sc-criteria-item-2 = Lomusho kumele ube bete emaphutsa.
 sc-criteria-item-3 = Lomusho kumele ukhulumeke.
@@ -954,6 +961,7 @@ sc-criteria-item-3 = Lomusho kumele ukhulumeke.
 sc-review-title = Buyeketa imisho
 sc-review-loading = Sisafaka imisho…
 sc-review-select-language = Sicela ukhetse lulwimi lotobuyeketa ngalo imisho.
+sc-review-no-sentences = Kute imisho lemele icibisekiswe. <addLink>Ngeta manje manje!!</addLink>
 sc-review-form-prompt =
     .message = Imisho lebuyeketiwe ayikamikiswa, unesiciniseko saloko?
 # Variables:
