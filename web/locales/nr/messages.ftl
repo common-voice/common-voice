@@ -41,6 +41,7 @@ help-us-explain =
     umutjho ongenzasi?
 no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa usisize sivale isikhalesi ngokuthi urekhode okuthileko njenga nje.
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
+help-make-dataset = Sisiza senze umsebenzi osezingeni eliphezulu
 email-subscription-title-new =
     Zitlolise bona ufumane iindaba ngeCommon Voice, imigomo 
     netuthuko yamva nje
@@ -178,6 +179,7 @@ about-playbook-how-add-sentences-content-4 = Imitjho eqinisekisiweko ikhanjiswa 
 
 ## How to record quality
 
+about-playbook-how-record-quality = Ngingasirekhoda njani isiqetjhana esisezingeni eliphezulu?
 about-playbook-how-record-content-2 =
     Linga bona kungabi netjhada elinengi elizwakala ngemuva - kufuze kube
     lula ukukuzwa.
@@ -344,6 +346,9 @@ goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -
 
 ## Profile Download
 
+download-profile-info =
+    Faka i-email, igama nemininingwanakho 
+    khona nje
 download-recordings-info =
     Ukuhlanganisa ne-mp3 emitjhweni kungathatha 
     isikhathi eside
@@ -357,6 +362,7 @@ download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufa
 download-request-assembling-description =
     Amafayela wakho sele ahlanganisiwe. Sibawa uhlole 
     godu ngemva kwesikhatjhana.
+download-request-modal-description = Naka ama-link ongadawunilowuda kiwo amafayelakho.
 
 ## Landing
 
@@ -367,6 +373,9 @@ profile-not-required =
 
 ## DemoLayout
 
+demo-welcome-subheader =
+    Ufuna ukufunda okwengeziweko begodu unikele 
+    ephrojekthini le?
 
 ## Demo Datasets
 
@@ -418,6 +427,9 @@ contribution-background-voices-example-1-title =
 
 ## HOME
 
+sc-home-collect-text =
+    Sisiza ngokutlola namkha ngokubuthelele imitjho 
+    eyamuKelekako eMphakathini.
 sc-home-review-text =
     Sisiza ngokubuyekeza imitjho uqale bona ilungile na 
     ngokuya ngeenqophiso.
