@@ -128,6 +128,7 @@ faq-why-10k-hours-a =
     Lawa ma-awara okungenzeka
     ayatlhogeka bona ufake ikulumo emtjhinini.
 faq-why-not-ask-read-q = Kubayini ungakhuthazi abantu bona bafunde iincwadi namkha iinhloko eziku-Wikipedia ngamalimi ahlukahlukeneko?
+faq-why-account-q = Kubayini kufuze ngivule i-akhawundi?
 faq-how-privacy-q =
     Uqinisekisa njani ukuthi
     abantu abanikela ngamaphimbo wabo abaziwa?
@@ -242,6 +243,9 @@ review-submit-msg =
 ## Datasets Page
 
 datasets-headline = Sakha umthombo wawo woke umuntu, amaphimbo wamalimi ahlukahlukeneko angasetjenziswa nginanyana ngubani bona azifundise ikulumo eyamukelekako.
+confirm-size =
+    Ukulungele ukuthoma ukudawuniloda i 
+    <b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> bona angekhe ulinge ukufumana bona maphimbo wabobani aku-Common Voice
 want-dataset-update = Ufuna sikwazise nasikhupha ihlelo elitjha leCommon Voice? Zitlolise engcenyenethu yeendaba.
 resource-nemo-info = <githubLink>INVIDIA NeMo</githubLink>™ yi <docsLink>lithulusi lawo woke umuntu</docsLink> lokuthuthukisa zerhubhululo yamahlelo we-AI
@@ -312,6 +316,9 @@ speak-loading-error =
 
 ## Reporting
 
+report-ask =
+    Ngibuphi ubudisi ohlangabezana nabo ngemitjho
+    le?
 report-different-language-detail =
     Kutlolwe ngelimi elihlukileko 
     kunengilikhulumako.
@@ -515,6 +522,14 @@ sc-confirm-are-you-sure =
         Imitjho ayikathunyelwa. Unesiqiniseko 
         sokobana ufuna ukuphuma?
 # Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Inani lemitjho efumanekako.
+        [one] Umutjho mu-1 ofumanekako.
+       *[other] imitjho efumanekako.
+    }
+# Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
@@ -552,6 +567,14 @@ sc-lang-info-validated =
         [0] Ayikho imitjho eqinisekisiweko.
         [one] Mu-1 umutjho oqinisekisiweko.
        *[other] imitjho eqinisekisiweko.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Inani lemitjho erarhiweko.
+        [one] Umutjho mu-1 orarhiweko.
+       *[other] imitjho erarhiweko
     }
 
 ## LOGIN
