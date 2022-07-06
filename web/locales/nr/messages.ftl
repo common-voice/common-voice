@@ -227,6 +227,9 @@ hours-recorded-explanation =
 
 data-download-modal = Sele ukulungele ukudawuniloda i <size>{ $size }GB</size>, uyaraga?
 data-subtitle = Sakha ibulungelo lamaphimbo arekhodiweko angasetjenziswa ngiwo woke umuntu bona angawasebenzisa ukubandula iinsetjenziswa bona zikhulume ikulumo eyamukeleko.
+data-bundle-description =
+    Nanti ihlelo leCommon Voice namanye 
+    amaphimbo ngehla.
 data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
 review-terms = Ngokusebenzisa iCommon Voice, uvumelana ne <termsLink>Mibandela</termsLink> kunye ne <privacyLink>Nemigomo</privacyLink>
 review-aborted =
@@ -331,6 +334,11 @@ goal-type = Ngimuphi umgomo ofuna ukuzibekela wona?
 lose-goal-progress-warning =
     Nawutjhentjha umgomo ungalahlekelwa 
     yituthukwakho.
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Sisiza sifikelele i-awara
+       *[other] ama-wara phakathi  nomgomo ozibeleke wona
+    }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Siza iCommon Voice ifikelele  i-awara
@@ -520,6 +528,14 @@ sc-lang-info-in-review =
         [0] Ayikho imitjho engabuyekezwa.
         [one] 1 umutjho ongabuyekezwa.
        *[other] imitjho engabuyekezwa.
+    }
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ayikho imitjho eqinisekisiweko.
+        [one] Mu-1 umutjho oqinisekisiweko.
+       *[other] imitjho eqinisekisiweko.
     }
 
 ## LOGIN
