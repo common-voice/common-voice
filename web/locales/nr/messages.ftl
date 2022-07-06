@@ -100,6 +100,7 @@ status-hours =
 
 profile-form-variant =
     .label = Ngimaphi ama { $language } ahlukahlukeneko owakhulumako?
+profile-form-custom-accent-placeholder-2 = Thoma ukutlola uhlathulule indlela ophimisela ngayo
 profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu usize ihlelo lethu linembe khudlwana.
 thanks-for-account =
     Siyathokoza ngokuqinisekisa i-akhawundi yakho, njeke asenze 
@@ -113,6 +114,7 @@ skip-submission-note =
 
 ## Profile - Email
 
+file_too_large = Ifayela elikhethiweko likhulu
 
 ## Profile - Email
 
@@ -166,6 +168,7 @@ about-sentence-collection-subtitle = Imitjho ibuthelelwe ukwenzela bona umuntu a
 about-new-lang-subtitle =
     Sethula ikhasi le-Common Voice ngokusemthethweni 
     ngelimeli.
+about-voice-contrib-subtitle = Abantu bayeza bazokunikela ngamaphimbo wabo.
 about-dataset-release-subtitle = Sitjhaphulula okurekhodiweko qobe eenyangeni ezi-3.
 about-subscribe-text = Ufuna ukuhlala uthintana ne-Common Voice?
 about-speak-text =
@@ -297,6 +300,9 @@ your-feedback = Kghani unemibono yokuthi singayithuthukisa njani i-Common Voice 
 download-helpus =
     Sisiza sakhe umphakathi ngetheknoloji yamaphimbo
     hlala ufumana zamva nje nge-email.
+download-form-email =
+    .label = Siyathokoza
+    .value = sizokuthinta.
 
 ## Contact Modal
 
@@ -343,6 +349,7 @@ record-platform-not-supported-ios-non-safari =
     Ku-iOS sibawa uragele phambili ngeSafari bona ukghone 
     ukurekhoda...
 review-tooltip = Buyekeza bewurekhode kabutjha khona la
+review-instruction = Buyekeza bewurekhode nange kutlhogeka
 record-abort-text = Nawuphuma nje uzokulahlekelwa ngosele ukwenzile
 listen-again-instruction =
     Wenze kuhle!<playIcon></playIcon> Lalela godu 
@@ -420,6 +427,10 @@ which-goal-type = Ufuna ukuKhuluma, ukuLalela namkha kokubili?
 receiving-emails-info = Sele ukulungele ukufumana ama-email anjengeenkhumbuzo zemigomo, ituthukwakho yamva nje neendaba ezimalungana ne-Common Voice
 not-receiving-emails-info = Okwanje ufakwe ku-<bold>INGASI</bold> bona wamukele ama-email ngehloso yokukukhumbuza, ukukwazisa ngetuthuko neendaba ezimalungana ne-Common Voice
 help-share-goal = Sisiza sifumane amaphimbo angeziweko, yabelana ngomgomwakho
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Yabelana { $count } nephimbo qobe langa umgomo we { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Yabelana { $count } ngephimbo qobe veke umgomo we { $type }
 # LINK will be replaced with the current URL
 goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -- sebenzisana nami sifundise imitjhini ukuthi abantu bamambala bakhuluma njani { $link }
 weekly-goal-created = Imigomo yakho yeveke sele ihleliwe
@@ -459,6 +470,7 @@ login-company = Thungela / Tlolisa nge-email ye { $company }
 profile-not-required =
     Kuhle ukuba neprhofayili bona unikele
     Nanyana kunjalo, qala ngenzasi ukuthi kubayini.
+read-more-about = Funda okwengeziweko ekhasini leMininingwana yekhasi
 
 ## DemoLayout
 
@@ -500,6 +512,9 @@ contribution-misreadings-description-extended-list-4 =
     Kulahleke amezwi wokugcina
     ngombana ujamise ukurekhoda msinyana.
 contribution-misreadings-description-extended-list-5 = Ukulinga kanengana ukufunda igama.
+contribution-misreadings-example-1-title = Iingorho zeTriassic.
+contribution-misreadings-example-2-title = Iingorho zeTriassic.
+contribution-misreadings-example-3-title = Iingorho zeTriassic.
 contribution-misreadings-example-3-explanation = [Ukujamisa ukurekhoda ngaphambi kwegama lokugcina]
 contribution-misreadings-example-4-title = IngorhoyeTriassic. Iye.
 contribution-misreadings-example-4-explanation = [Kurekhodwe okunengi ukudlula ebegade kutlhogeka]
@@ -513,6 +528,9 @@ contribution-background-noise-description-extended = Nange okurekhodiweko kuqunt
 contribution-background-noise-example-1-fixed-title =
     <strong>[Sneeze]</strong> Iingorho 
     ze- <strong>[cough]</strong> Triassic.
+contribution-background-noise-example-2-fixed-title =
+    Iingorho ze <strong>[cough]</strong> i
+    Triassic.
 contribution-background-noise-example-2-explanation = [Ingcenye yokutloliweko ayizwakali]
 contribution-background-voices-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kususe ngaphandle kwalokha okhunye kuzwakala.
 contribution-background-voices-example-1-title =
@@ -555,6 +573,7 @@ sc-howto-review-subtitle =
     Yenza isiqiniseko bona imitjho ihlangabezana nemibandela 
     elandelako:
 sc-howto-review-criteria-1 = Imitjho kufuze ipeledwe kuhle.
+sc-howto-review-criteria-2 = Imitjho kufuze ivumelane nemithetho yokutlola nokupeleda.
 sc-howto-review-criteria-4 =
     Nange umutjho uvumelana nemibandela gandelela 
     ikunupe ethi "Phasisa" ngaphasi.
@@ -562,6 +581,7 @@ sc-howto-review-criteria-6 =
     Nange ingasekho imitjho ongayibuyekeza sibawa
     usisize sifumane imitjho eyengeziweko!
 sc-howto-findpd-title = Ukufumana imitjho ekhona ku-Public Domain
+sc-howto-findpd-subtitle = Zifune ku-inthanethi
 sc-howto-findpd-tips = Nanzi ezinye iinyeleliso zokufumana imitjho:
 sc-howto-findpd-tips-1 = Imithombo ekhamba phambili ongaqala kiyo maphimbo arekhodiweko, okutloliweko, iinkripthi zamamuvi namkha nanyana ngimuphi umthombo othembekileko emumethe imikhulumiswano yaqobe lilanga.
 sc-howto-findpd-tips-3 =
@@ -700,6 +720,8 @@ sc-personal-not-added = Alikho ilimi olifakileko.
 sc-criteria-make-sure =
     Yenza isiqiniseko bona imitjho ihlangabezana nemibandela 
     elandelako:
+sc-criteria-item-1 = Imitjho kufuze ipeledwe kuhle.
+sc-criteria-item-2 = Imitjho kufuze ivumelane nemithetho yokutlola nokupeleda.
 sc-criteria-item-4 = Nange umutjho uhlangabezana nakho koke okutlhogekako gandelela i- &quot; engehlangothini lesokudla &quot;Phasile&quot.
 sc-criteria-item-6 =
     Nange ingasekho imitjho ongayibuyekeza sibawa
@@ -712,6 +734,8 @@ sc-review-select-language = Sibawa ukhethe ilimi bona ubuyekeze imitjho.
 sc-review-no-sentences =
     Ayikho imitjho ongayibuyekeza. <addLink>Faka 
     imitjho engeziweko khona nje!</addLink>
+sc-review-form-prompt =
+    .message = Uyaqiniseka bona uyibuyekezile imitjho engakakhanjiswa?
 sc-review-form-keyboard-usage-custom = Ungasebenzisa neendlela zokwenza izinto msinyana: { sc-review-form-button-approve-shortcut } ukuphasisa, { sc-review-form-button-reject-shortcut } ukufeyilisa, { sc-review-form-button-skip-shortcut } ukudlulisa
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
