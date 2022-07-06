@@ -111,6 +111,9 @@ about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngo
 
 ## How to add sentences
 
+about-playbook-how-add-sentences-content-3 =
+    Ungasebenzisa <scraperLink>Ihlelo lokurhunyeza
+    imitjho</scraperLink> ukuvimbela imitjho emifitjhani evela ku-Wikipedia
 about-playbook-how-add-sentences-content-4 = Imitjho eqinisekisiweko ikhanjiswa ngaboLesithathu begodu ifumaneka ngemva kokutjhatjhululwa okulandelako.
 
 ## How to record quality
@@ -352,6 +355,7 @@ sc-criteria-item-6 =
 ## REVIEW
 
 sc-review-lang-not-selected = Awekho amalimi owakhethileko. Sibawa uye ku <profileLink>Profayilakho</profileLink> bona ukhethe amalimi.
+sc-review-form-keyboard-usage-custom = Ungasebenzisa neendlela zokwenza izinto msinyana: { sc-review-form-button-approve-shortcut } ukuphasisa, { sc-review-form-button-reject-shortcut } ukufeyilisa, { sc-review-form-button-skip-shortcut } ukudlulisa
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
