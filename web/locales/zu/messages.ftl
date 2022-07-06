@@ -78,6 +78,7 @@ faq-description = I-Common Voice iyingxenye yesinyathelo se-Mozilla sokusiza uku
 
 ## How does it work section
 
+about-speak-text = Abanikeli baqopha iziqeshana zezwi ngokufunda ebhange lemisho enikelwe.
 about-listen-queue-text = Iziqeshana zezwi zifakwa emugqeni wokuhambisa ozilungiselela ukulalelwa.
 about-listen-text = Abasebenzisi baqinisekisa ukunemba kweziqeshana ezinikelwe, behlola ukuthi isikhulumi siwufunde kahle umusho.
 about-is-it-valid-text = Isiqeshana sezwi simakwa ngokuthi "sivumelekile" uma umsebenzisi esinikeza ivoti likaYebo.
@@ -131,6 +132,7 @@ sentence-collection-explanation = Ukuqoqa imisho esizindeni somphakathi, noma uk
 ## Data
 
 data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
+review-terms = Ngokusebenzisa iCommon Voice, uyavumelana <termsLink>Nemigomo</termsLink> kanye <privacyLink>Nesaziso Sobumfihlo</privacyLink>
 
 ## Datasets Page
 
@@ -163,6 +165,9 @@ request-language-explanation-2 =
     Sizokwazisa <strong>nomphathi wethu womphakathi
     ukuthi unentshisekelo</strong>, ngakho bangakunikeza noma ikuphi
     ukwesekwa okwengeziwe noma ulwazi ongase uludinge.
+request-language-form-info-explanation =
+    "Faka ulwazi oluningi ngangokunokwenzeka ngolimi. Lokhu
+    kungafaka:"
 request-language-success-list-1 =
     Kufanele uthole i-imeyili echazayo maduze
     izinyathelo zokwenza ulimi lwakho lwengezwe ku-Common Voice
@@ -247,6 +252,7 @@ profile-not-required = Ukuba nephrofayela akudingekile ukuthi unikele nakuba kus
 
 ## Demo Account
 
+demo-account-card-header = Ukuba ne-akhawunti akudingekile ukuthi unikele, nakuba kuwusizo.
 
 ## Demo Contribute
 
@@ -336,6 +342,14 @@ sc-confirm-uploading = Imisho iyalayishwa. Lokhu kungathatha imizuzu embalwa kuy
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ayikho imisho ebuyekezwayo.
+        [one] umusho ongu-1 uyabuyekezwa.
+       *[other] imisho engu-{ $totalInReview } iyabuyekezwa.
+    }
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
