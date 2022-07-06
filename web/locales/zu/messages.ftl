@@ -33,6 +33,7 @@ email-subscription-title-new = Bhalisela izincwadi zezindaba zeCommon Voice, izi
 ## Account Benefits
 
 improve-audio = Ulwazi lwephrofayela luthuthukisa idatha yomsindo esetshenziswa ekuqeqesheni ukunemba kokuqaphela inkulumo.
+keep-track = Landelela ukuqhubeka kwakho namamethrikhi ngezilimi eziningi.
 compare-progress = Bona ukuthi inqubekelaphambili yakho iqhathaniseka kanjani nabanye abanikeli emhlabeni wonke.
 join-newsletter = Joyina ngokuzikhethela ohlwini lwethu lwe-imeyili ukuze uthole izibuyekezo nolwazi olusha mayelana nephrojekthi.
 
@@ -119,10 +120,12 @@ about-playbook-how-record-content-4 = Qiniseka ukuthi inkundla iyarekhoda ngapha
 
 ## How to grow language
 
+about-playbook-how-grow-language = Singalukhulisa kanjani ngokuphumelelayo ulimi ku-Common Voice?
 about-playbook-how-grow-language-content-8 = <strong>Yakha ubuciko!</strong> Umphakathi wakho wolimi uzohluka, futhi lezi izindlela ezimbalwa zokuqalisa.
 
 ## How to validate
 
+about-playbook-how-validate = Ngazi kanjani ukuthi ngigunyaze isiqeshana sezwi?
 
 ## How to access dataset
 
@@ -180,6 +183,7 @@ request-language-explanation-2 =
 request-language-form-info-explanation =
     "Faka ulwazi oluningi ngangokunokwenzeka ngolimi. Lokhu
     kungafaka:"
+request-language-form-info-explanation-list-3 = Izixhumanisi zamawebhusayithi ezingasisiza siqonde ulimi
 request-language-success-list-1 =
     Kufanele uthole i-imeyili echazayo maduze
     izinyathelo zokwenza ulimi lwakho lwengezwe ku-Common Voice
@@ -222,6 +226,7 @@ visibility-overlay-note = Qaphela: Uma kusethelwe kokuthi 'Kuyabonakala', lesi s
 
 ## Custom Goals
 
+lose-goal-progress-warning = Ngokushintsha injongo yakho, ungase ulahlekelwe inqubekelaphambili okukhona.
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Siza iCommon Voice ifinyelele { $hours } ihora
@@ -279,12 +284,15 @@ demo-account-card-header = Ukuba ne-akhawunti akudingekile ukuthi unikele, nakub
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Amadeshibhodi omuntu siqu akugcina unolwazi lwakamuva ngenqubekelaphambili yomuntu ngamunye kanye nomphakathi.
 
 ## Validation criteria
 
 contribution-criteria-page-description = Qonda ukuthi yini okufanele uyibheke lapho ulalele iziqeshana zezwi futhi usize ukwenza izwi elirekhodiwe lakho licebe kakhulu!
+contribution-misreadings-description-extended-list-1 = Kushoda <strong>'A'</strong> noma <strong>'The'</strong>. ekuqaleni kokuqoshwa.
 contribution-misreadings-description-extended-list-3 = Ukufunda izifinyezo ezingekho, njengokuthi "We're" esikhundleni sokuthi "We are", noma okuphambene nalokho.
 contribution-misreadings-description-extended-list-4 = Uphuthelwa isiphetho segama lokugcina ngokunqamula ukuqopha ngokushesha okukhulu.
+contribution-misreadings-example-3-explanation = [Ukurekhoda kunqamukile ngaphambi kwegama lokugcina]
 contribution-varying-pronunciations-example-1-explanation = [I-‘Beret’ ILUNGILE noma ngabe isigcizelelo sikuhlamvu wokuqala (UK) noma wesibili (US)]
 contribution-varying-pronunciations-example-2-explanation = [Igama elesiNgisi u'Raised' liphinyiswa ngohlamvu olulodwa, hhayi ezimbili]
 contribution-background-noise-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
@@ -313,6 +321,7 @@ sc-howto-addlang-text = Uma usungenile ungakhetha izilimi zakho esigabeni sephro
 sc-howto-cite-item-1 = Ungafaka iwebhusayithi, isb "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa isitayela sereferensi yezemfundo, isb isitayela sase-Harvard "Mozilla (2021) Common Voice. Itholakala ku https://commonvoice.mozilla.org/ (Kufinyelelwe: 15th September 2021)"
 sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-inthanethi, ungasebenzisa isitayela sereferensi yezemfundo isb isitayela saseHarvard "Jess (2021) Izinkondlo Zami Zelayisensi Yomphakathi"
+sc-howto-review-criteria-4 = Uma umusho uhambisana nemibandela, chofoza inkinobho ethi "Vumela".
 sc-howto-review-criteria-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
 sc-howto-findpd-tips-1 = Imithombo engcono kakhulu ongayibheka amaphodikasti, okulotshiweyo, imibhalo yamamuvi nanoma yini engaba khona ingaqukatha izingxoxo zansuku zonke.
 sc-howto-findpd-tips-3 = Ngeshwa asikwazi ukuba nezindatshana ze-Wikimedia okwamanje. Ngakho-ke ungakopishi ukunamathisela kusuka lapho.
