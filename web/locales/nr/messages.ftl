@@ -496,6 +496,14 @@ sc-submit-filtered = Imitjho efakiweko ayikaphasi ngebanga lokungahlangabezani n
 
 ## ADD LANGUAGE
 
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Inani lemitjho efeyilileko
+        [one] Umutjho mu-1 ofeyilileko
+       *[other] imitjho efeyilileko
+    }
 sc-add-lang-process-notice =
     Nange ilimi lakho lingaveli la, ungabawa
     bona lifakwe ngokulandela ikambiso le <languageProcessLink>yehlelo nanti</languageProcessLink>.
@@ -521,6 +529,14 @@ sc-confirm-uploading = Imitjho iyafakwa. Lokhu kungathatha imizuzu embalwa kuye 
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Inani lemitjho nasele iphelele.
+        [one] Umutjho mu-1 opheleleko.
+       *[other] inani lemitjho nasele iphelele.
+    }
 # Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
