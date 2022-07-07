@@ -446,6 +446,7 @@ about-playbook-how-add-sentences = Ngiyingeta njani imisho?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Ngikhona njani kutfwebula ticephu letisezingeni lelisecophelweni lelisetulu?
 about-playbook-how-record-content-5 = <accuracyLink> Bona lokunengi eluhleni lwekungaphazami </accuracyLink>
 
 ## How to grow language
