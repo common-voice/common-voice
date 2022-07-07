@@ -27,8 +27,13 @@ error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 
 ## Languages
 
-af = IsiKarakalpak
+ab = Isi-Abkhaz
+ace = Isi-Acehnese
+ady = Isi-Adyghe
+af = Isi-Afrikaans
+am = Isi-Amharic
 an = Isi-Aragonese
+ar = Isi-Arabic
 arn = IsiMapudungun
 ast = Isi-Asturia
 az = Isi-Azerbaijani
@@ -143,7 +148,7 @@ sk = IsiSlovak
 skr = IsiSaraiki
 sl = IsiSlovenia
 so = IsiSomali
-sq = { "" }
+sq = Isi-Albania
 sr = IsiSerbian
 ss = IsiSwati
 st = IsiSotho seSewula
@@ -230,6 +235,7 @@ todays-progress =
 help-reach-goal = Sisiza sithome { $goal }
 read-terms-q = Uyifundile imibandela yethu?
 ready-to-record = Ukulungele ukunikela ngephimbo lakho?
+all-locales = Koke
 x-weeks-short =
     { $count ->
         [one] Iveke
@@ -335,9 +341,13 @@ profile-form-language =
 profile-form-variant =
     .label = Ngimaphi ama { $language } ahlukahlukeneko owakhulumako?
 profile-form-variant-default-value = Akukho okuhlukahlukeneko okhethiweko
+profile-form-accent =
+    .label = Ukuphimisela
 profile-form-custom-accent-help-text =
     .label = Ungayihlathulula njani indlela ophimisela ngayo?
 profile-form-custom-accent-placeholder-2 = Thoma ukutlola uhlathulule indlela ophimisela ngayo
+profile-form-age =
+    .label = Ubudala
 profile-form-gender-2 =
     .label = Ubulili
 leaderboard-visibility =
@@ -1037,6 +1047,7 @@ card-button-back = Emuva
 demo-language-select-label = Funa amalimi
 demo-eofy-header = 2019 Umnyaka-wokugcina-Wokutjhatjhululwa
 demo-eofy-sub_header = Ihlelo lephimbo, ukuLungele ukuDawuniloda
+demo-account = I-akhawundi
 
 ## Demo Account
 
@@ -1129,6 +1140,7 @@ see-less = <chevron></chevron>Veza okuncani
 
 sc-header-home = Isendlalelo
 sc-header-how-to = Indlela ongakwenza ngayo
+sc-header-add = Ngezelela
 sc-header-review = Buyekeza
 sc-header-rejected = Susa imitjho
 sc-header-my = Imitjho yami
@@ -1408,6 +1420,7 @@ sc-review-form-prompt =
 sc-review-form-source = Umthombo: { $sentenceSource }
 sc-review-form-button-reject = lahla
 sc-review-form-button-skip = Dlula
+sc-review-form-button-approve = Vuma
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
