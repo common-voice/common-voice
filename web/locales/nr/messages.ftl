@@ -33,6 +33,7 @@ bg = IsiLuganda
 cak = IsiKaqchikel
 ckb = IsiCentral Kurdish
 cnh = IsiHakha Chin
+co = IsiCorsica
 cs = IsiCzech
 da = IsiDanish
 de = IsiGerman
@@ -56,6 +57,7 @@ gn = IsiGuarani
 ha = IsiHausa
 he = IsiHebheru
 hi = IsiHindi
+hr = IsiCroatia
 hsb = IsiSorbian, Upper
 ht = IsiHaitia
 hu = Hungarian
@@ -166,6 +168,7 @@ datasets = Ukuhlelwa kwemininingwana
 profile = Iphrofayili
 help = Isizo
 terms = Imigomo
+cookies = Amafayela amancani
 faq = I-FAQ
 content-license-text = Ilayisense: <licenseLink>{ $license }</licenseLink>
 share-title = Okhunye
@@ -1030,6 +1033,7 @@ demo-dashboard-card-header =
 
 ## Validation criteria
 
+contribution-criteria-nav = Ihlelo
 contribution-criteria-link = Zwisisa iindlela zokunikela
 contribution-criteria-page-title = Indlela yokunikela
 contribution-criteria-page-description = Zwisisa bona khuyini okufuze ukutjheje nawulalele iinqetjhana ezirekhodiweko begodu usize ekwenzeni okurekhodileko kunothe!
@@ -1109,6 +1113,7 @@ sc-footer-translate = Tjhugulula ikhaseli
 sc-footer-report-copyright = Bika iindaba zamalungelo wokugadangisa
 sc-footer-privacy = Ifihlo
 sc-footer-terms = Imibandela
+sc-footer-cookies = Amafayela amancani
 sc-login-signup-button = Thungela / Zitlolise
 sc-logout-button = Phuma
 

@@ -1,6 +1,6 @@
 ## Languages
 
-contribute = IsiKikuyu
+contribute = Nikela
 get-involved-button = IsiNgisi
 get-involved-title = Nikela ku { $lang }
 get-involved-text = londa
@@ -10,7 +10,7 @@ get-involved-email =
 get-involved-opt-in = IsiKorea
 get-involved-submit = Thumela
 get-involved-stayintouch = IsiYiddish
-get-involved-privacy-info = Ifihlo
+get-involved-privacy-info = IsiCornish
 get-involved-success-title = Iphumelele
 get-involved-success-text =
     Sizokubuya nemininingwana eyengeziweko
