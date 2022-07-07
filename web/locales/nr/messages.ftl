@@ -4,6 +4,7 @@ yes-receive-emails = Iye, ngithumelani ama-email. Ngingakuthabela ukufumana imin
 privacy-info = { "" }
 return-to-cv = Buyela kuCommon Voice
 submit-form-action = Thumela
+loading = Iyalowuda...
 email-opt-in-info = Ngingakuthabela ukufumana ama-email akhuluma ngeenkhumbuzo zemigomo, ituthukwami neendaba ezimalungana ne-Common Voice.
 email-opt-in-info-title = Ngenela ihlelo leCommon Voice
 email-opt-in-info-sub-with-challenge =
@@ -38,6 +39,7 @@ hyw = Isi-Armenian sangeTlhagwini
 kmr = IsiKurmanji Kurdish
 knn = IsiKonkani (Devanagari)
 lb = IsiLuxembourgish
+lt = IsiLithuania
 mai = IsiMaithili
 mdf = IsiMoksha
 mg = IsiMalagasy
@@ -143,9 +145,7 @@ home-cta = Khuluma, nikela endaweni le!
 wall-of-text-more-desktop = { "" }
 show-wall-of-text = Funda okwengeziweko
 help-us-title = Imitjho
-help-us-explain =
-    Gandelela, dlala lalela bese uyasitjela: bawutjho kuhle na
-    umutjho ongenzasi?
+help-us-explain = Lalela
 no-clips-to-validate = Ubukhulu
 vote-yes = Iye
 vote-no = Awa
@@ -385,7 +385,7 @@ how-does-it-work-title-v2 = Isebenza njani iCommon Voice?
 ## How does it work section
 
 about-language-req-subtitle = Omunye ubawe bona kufakwe ilimi.
-about-localization-title = Iwebhusayidi yelimi lendabuko
+about-localization-title = Ilimi lendabuko
 about-localization-subtitle = Umtlolo osetjenziswe kuwebhusayidi utjhugululelwe eliminelo.
 about-sentence-collection-title = Imitjho eminengi
 about-sentence-collection-subtitle = Imitjho ibuthelelwe ukwenzela bona umuntu ayifundele phezulu.
@@ -404,6 +404,7 @@ about-speak = Khuluma
 about-speak-text =
     Abanikelako barekhoda amaphimbwabo ngokufunda 
     imitjho ekunikelwe ngayo.
+about-listen-queue = Umjeje wokulalela
 about-listen-queue-text =
     Iinqetjhana ezilalelwako zifakwa erhelweni
     elilungiselela ukulalelwa.
@@ -666,6 +667,7 @@ request-language-error = Kungenzeka asikasifumani isibaweso. Sibawa usithumele i
 
 language-section-in-progress = Iyaraga
 language-section-in-progress-new-description = Umphakathi usawathuthukisa amalimi la. <localizationGlossaryLink>Izinzolwazi yelocalization</localizationGlossaryLink> begodu <sentenceCollectionGlossaryLink>kutlhogeka imitjho</sentenceCollectionGlossaryLink> bona afakwe ngokusemthethweni.
+language-section-launched-description = Ilimi lendabuko
 languages-show-more = Veza okunengi
 languages-show-less = Veza okuncani
 language-meter-in-progress = Ituthuko
@@ -863,6 +865,7 @@ share-n-daily-contribution-goal = Yabelana { $count } nephimbo qobe langa umgomo
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Yabelana { $count } ngephimbo qobe veke umgomo we { $type }
 share-goal-type-speak = Ukukhuluma
+share-goal-type-listen = Ukulalela
 share-goal-type-both = Khuluma begodu Ulalele
 # LINK will be replaced with the current URL
 goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -- sebenzisana nami sifundise imitjhini ukuthi abantu bamambala bakhuluma njani { $link }
