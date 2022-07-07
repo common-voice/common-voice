@@ -343,6 +343,7 @@ review-submit-msg =
 ## Datasets Page
 
 datasets-headline = Sakha umthombo wawo woke umuntu, amaphimbo wamalimi ahlukahlukeneko angasetjenziswa nginanyana ngubani bona azifundise ikulumo eyamukelekako.
+validated-hr-total = Inani eliqinisekisweko le-Hr
 email-to-download = Faka i-email bona udawunilowude
 confirm-size =
     Ukulungele ukuthoma ukudawuniloda i 
