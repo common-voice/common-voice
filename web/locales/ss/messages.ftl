@@ -242,6 +242,7 @@ email-subscription-title = bhalisela tindzaba letihamba embili ngeliposi lembane
 
 benefits = Inzuzo
 rich-data = { "" }
+view-goals = Buka inchubo yakho mayicatsaniswa nenchubo yemsebenti jikelele.
 
 ## What's public
 
@@ -398,7 +399,7 @@ about-voice-validation-title = Kucinisekisa Livi
 about-voice-validation-subtitle = Labanye bantfu bayawacinisekisa lawo mafayela amavi latfwebuliwe
 about-dataset-release-title = Dataset Release
 about-dataset-release-subtitle = I-dataset siyikhipha njalo makuphela tinyanga letintsatfu
-about-subscribe-text = Bhalisa
+about-subscribe-text = Uyafuna kuhlala uchumene na Common Voice?
 about-speak = Khuluma
 about-listen-queue = Lidelezi lekulalela
 about-listen-queue-text = { "" }
@@ -808,10 +809,10 @@ contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
 contribution-misreadings-example-3-title = Ema dinosaur lamakhulu ase Triassi-
 contribution-misreadings-example-4-title = Ema-dinosaurs lamakhulu ase Triassic. Yebo.
 contribution-misreadings-example-4-explanation = [More has been recorded than the required text]
-contribution-misreadings-example-5-title = Siyaphuma sisayotfola likhofi.
+contribution-misreadings-example-5-title = Siyaphuma siyotfola likhofi.
 contribution-misreadings-example-6-title = Siyaphuma siyotfola likhofi.
 contribution-misreadings-example-6-explanation = [Should be “We are”]
-contribution-misreadings-example-7-title = Siyaphuma sisayotfola likhofi.
+contribution-misreadings-example-7-title = Siyaphuma siyotfola likhofi.
 contribution-misreadings-example-7-explanation = [No ‘a’ in the original text]
 contribution-misreadings-example-8-title = The bumblebee sped by.
 contribution-varying-pronunciations-title = Tindlela tekukhuluma letehlukahlukene
