@@ -23,9 +23,11 @@ error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 
 ## Languages
 
+ckb = IsiCentral Kurdish
 cnh = IsiHakha Chin
 dsb = IsiSorbian, Lower
 hsb = IsiSorbian, Upper
+hyw = Isi-Armenian sangeTlhagwini
 kmr = IsiKurmanji Kurdish
 knn = IsiKonkani (Devanagari)
 mhr = IsiMeadow Mari
@@ -44,7 +46,9 @@ rm-vallader = IsiRomansh Vallader
 sat = IsiSantali (Ol Chiki)
 st = IsiSotho seSewula
 tok = IsiToki Pona
+zh-CN = IsiChinese (China)
 zh-HK = IsiChinese (Hong Kong)
+zh-TW = IsiChinese (Taiwan)
 
 # [/]
 
@@ -179,6 +183,7 @@ leaderboard-visibility =
     .label = Ukubonakala kwebhodi
 profile-form-add-accent = Faka indlela ejayelekileko yokuphimisela "{ $inputValue }"
 why-profile-title = Kubayini iprhofayili?
+build-profile = Yakha iphrofayili
 edit-profile = Lungisa Iphrofayili
 profile-create-success = Ukghonile ukwenza iphrofayili!
 profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu usize ihlelo lethu linembe khudlwana.
@@ -216,6 +221,7 @@ browse-file =
 connect-gravatar = Ngena ku-Gravatar
 gravatar_not_found = Akuna-gravatar efumanekako ku-emailakho
 file_too_large = Ifayela elikhethiweko likhulu
+avatar-uploaded = I-Aveyitha ifakiwe
 remove-avatar = Susa isithombe
 
 ## Profile - Email
@@ -307,6 +313,8 @@ about-yes-votes-text = Bona uphumelele ukungena ehlelweni le-Common Voice iphimb
 about-no-votes = Kunamavowudi ama≥ 2
 about-no-votes-text = Kunamavowudi ama≥ 2
 about-dataset-new = I-Common Voice Dataset
+about-clip-graveyard = Iinqetjhana ezilahliweko
+about-clip-graveyard-text = { "" }
 about-get-involved = Zibandakanye
 about-stay-in-touch = Ngingahlala njani nginelwazi?
 about-stay-in-touch-button = Zitlolise
@@ -447,6 +455,7 @@ review-submit-title = Buyekeza bewuThumele
 review-submit-msg =
     Siyathokoza
     ngokurekhoda!<lineBreak></lineBreak>Buyekeza ngemva kwalokho uthumele okurekhodileko okungenzasi.
+review-cancel = Susa okuthumeleko
 review-keep-recordings = Bulunga okurekhodiweko
 
 ## Datasets Page
@@ -454,6 +463,7 @@ review-keep-recordings = Bulunga okurekhodiweko
 datasets-headline = Sakha umthombo wawo woke umuntu, amaphimbo wamalimi ahlukahlukeneko angasetjenziswa nginanyana ngubani bona azifundise ikulumo eyamukelekako.
 validated-hr-total = Inani eliqinisekisweko le-Hr
 overall-hr-total = Inani lakho koke Hr
+audio-format = Ihlelo lomdumo
 number-of-voices = Inani lamaphimbo
 email-to-download = Faka i-email bona udawunilowude
 confirm-size =
@@ -572,6 +582,7 @@ record-no-mic-found = Umbhobho awufumaneki.
 record-error-too-short = Okurekhodiweko kufitjhani khulu.
 record-error-too-long = Okurekhodiweko kude khulu.
 record-error-too-quiet = Okurekhodiweko kuthule khulu.
+record-cancel = Susa okurekhodiweko
 record-instruction =
     { $actionType }<recordIcon></recordIcon> 
     fundela umutjho phezulu
@@ -706,6 +717,7 @@ help-reach-hours-general-pluralized =
        *[other] ama-awara ngelimi ozikhethele lona
     }
 set-a-goal = Beka umgomo
+cant-decide = Awukghoni ukuthatha isiqunto?
 how-many-per-day = Kuhle! Zingakhi iinqetjhana ngelanga?
 how-many-a-week = Kuhle! Zingakhi iinqetjhana ngeveke?
 which-goal-type = Ufuna ukuKhuluma, ukuLalela namkha kokubili?
@@ -788,6 +800,7 @@ demo-welcome-subheader =
 ## Demo Datasets
 
 demo-language-select-card-header = ICommon Voice lihlalo elikhamba phambili ephasini mazombe elinamaphimbo wamalimi ahlukahlukeneko.
+demo-language-select-label = Funa amalimi
 demo-eofy-header = 2019 Umnyaka-wokugcina-Wokutjhatjhululwa
 demo-eofy-sub_header = Ihlelo lephimbo, ukuLungele ukuDawuniloda
 
@@ -844,6 +857,7 @@ contribution-varying-pronunciations-example-1-title = Umbethe ibherede ehlokwakh
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
 contribution-varying-pronunciations-example-2-title = Isandla sakhe besiphakamile.
 contribution-varying-pronunciations-example-2-explanation = [‘Ukukhuliswa’ ngesiNgisi kuphinyiselwa ngesilabhulu yinye ingasi ezimbili]
+contribution-background-noise-title = Itjhada elingemuva
 contribution-background-noise-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kusuze ngaphandle kwalokha okhunye kuzwakala.
 contribution-background-noise-example-1-fixed-title =
     <strong>[Sneeze]</strong> Iingorho 
@@ -855,6 +869,7 @@ contribution-background-noise-example-2-explanation = [Ingcenye yokutloliweko ay
 contribution-background-noise-example-3-fixed-title =
     <strong>[Crackle]</strong> iingorho ze
     <strong>[crackle]</strong> -riassic.
+contribution-background-voices-title = Amezwi angemuva
 contribution-background-voices-description-extended = Nange okurekhodiweko kuqunteka namkha kutjhitjhiza kususe ngaphandle kwalokha okhunye kuzwakala.
 contribution-background-voices-example-1-title =
     Ingorho yeTriassic. 
@@ -1150,3 +1165,5 @@ sc-validation-no-abbreviations = Imitjho akukafuzi ibe namagama arhunyeziweko
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Khetha ilimi/Ilimi lendabuko

@@ -4,7 +4,8 @@ get-involved-button = Zibandakanye
 get-involved-title = Nikela ku { $lang }
 get-involved-text = IsiNdebele (Tlhagwini)
 get-involved-form-title = Zitlolisele { $lang } zamva nje:
-get-involved-opt-in = Iyaraga
+get-involved-opt-in = Isi-Afaan Ormoo
+get-involved-stayintouch = { "" }
 get-involved-privacy-info = IsiGoan Konkani
 get-involved-success-title =
     Uphumelele ukuzitlolisela ukunikela 
