@@ -20,6 +20,7 @@ banner-error-slow-2 = Sithola ithrafikhi eningi futhi okwamanje siphenya izinkin
 
 ## Layout
 
+content-license-text = Okuqukethwe kutholakala ngaphansi <licenseLink> Ilayisensi  ye-Creative Commons </licenseLink>
 share-title = Sisize sithole abanye abanganikela ngamazwi abo!
 share-text = Siza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani, nikela ngezwi lakho ku-{ $link }
 
@@ -423,6 +424,7 @@ sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-
 sc-howto-review-subtitle = Qiniseka ukuthi umusho uhambiselana nemibandela elandelayo:
 sc-howto-review-criteria-4 = Uma umusho uhambisana nemibandela, chofoza inkinobho ethi "Vumela".
 sc-howto-review-criteria-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
+sc-howto-findpd-title = Ukuthola imisho ekhona Kusizinda Somphakathi
 sc-howto-findpd-tips = Nawa amathiphu okuthola imisho:
 sc-howto-findpd-tips-1 = Imithombo engcono kakhulu ongayibheka amaphodikasti, okulotshiweyo, imibhalo yamamuvi nanoma yini engaba khona ingaqukatha izingxoxo zansuku zonke.
 sc-howto-findpd-tips-3 = Ngeshwa asikwazi ukuba nezindatshana ze-Wikimedia okwamanje. Ngakho-ke ungakopishi ukunamathisela kusuka lapho.
@@ -554,6 +556,7 @@ sc-lang-info-rejected =
 
 ## PROFILE
 
+sc-personal-err-lang-not-found = Ayikwazanga ukususa ulimi: ulimi alutholakali
 sc-personal-not-added = Awukangezi izilimi okwamanje.
 
 ## REVIEW CRITERIA
@@ -580,6 +583,7 @@ sc-review-form-review-failure = Isibuyekezo asikwazanga ukugcineka. Sicela uzame
 ## SETTINGS
 
 sc-settings-skipped-decription = Ngaphambilini weqe imisho ngenkathi ubuyekeza. Ukusetha kabusha imisho eyeqiwe kuzokhombisa yonke imisho eyeqiwe futhi. Lokhu kuzimele olimini.
+sc-settings-failed = Ayikwazanga ukushintsha izilungiselelo. Ngicela uzame futhi.
 # VALIDATION
 sc-validation-number-of-words = Umusho kufanele ube namagama aphakathi kwe-1 ne-14 (okuhlanganisayo).
 
