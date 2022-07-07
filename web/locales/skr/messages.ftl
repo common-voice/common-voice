@@ -755,8 +755,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> کلپ
        *[other] <bold>{ $count }</bold> کلپ
     }
-goal-help-recording = تساں کامن وائس کوں ساݙے  ݙین٘ہوار { $goalValue }  ریکاڈنگ  ہدف دے <goalPercentage> تائیں پُڄݨ وچ مدد ݙتی ہے۔
-goal-help-validation = تساں کامن وائس کوں ساݙے  ݙین٘ہوار { $goalValue }  تصدیقی ہدف دے </goalPercentage> تائیں پُڄݨ وچ مدد ݙتی ہے۔
+goal-help-recording = تساں کامن وائس کوں ساݙے  ݙین٘ہوار { $goalValue }  ریکاڈنگ  ہدف دے <goalPercentage> تائیں پُڄݨ وچ مدد ݙتی ہے!
+goal-help-validation = تساں کامن وائس کوں ساݙے  ݙین٘ہوار { $goalValue }  تصدیقی ہدف دے </goalPercentage> تائیں پُڄݨ وچ مدد ݙتی ہے!
 contribute-more =
     { $count ->
         [one] ٻیا { $count } کرݨ کیتے تیار ہو؟
