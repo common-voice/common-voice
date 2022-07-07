@@ -691,6 +691,7 @@ data-other-ted-description = I-TED-LIUM yenziwe ithathelwa eenkulumweni ezigadan
 data-other-voxforge-description = IVoForge yahlonywa bona kubuthelelwe ikulumo etlolwe phasi bona isetjenziswe Ngokutjhaphulukileko.
 your-feedback = Kghani unemibono yokuthi singayithuthukisa njani i-Common Voice siyenze ibengcono? Ungasazisa ngokusitlolela namkha ngenye indlela
 go-discourse = Tjhinga ekulumweni
+missing-language = { "" }
 go-languages-page = Ngena ekhasini lamalimi
 ready-to-validate = Ukulungele ukusiza ngokuphasisa imitjho?
 dataset-version = Umbono
@@ -952,6 +953,20 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Beka umgomo
 cant-decide = Awukghoni ukuthatha isiqunto?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] i-awara  izokufumaneka esikhathini esingaphezudlwana kwe
+       *[other] ama-awara  izokufumaneka esikhathini esingaphezudlwana kwe
+    }{ NUMBER($periodMonths) ->
+        [one] nyanga nange
+       *[other] iinyanga nange
+    }{ NUMBER($people) ->
+        [one] umuntu isiqetjhana
+       *[other] abantu isiqetjhana
+    }{ NUMBER($clipsPerDay) ->
+        [one] iinqetjhana
+       *[other] ngelanga.
+    }
 how-many-per-day = Kuhle! Zingakhi iinqetjhana ngelanga?
 how-many-a-week = Kuhle! Zingakhi iinqetjhana ngeveke?
 which-goal-type = Ufuna ukuKhuluma, ukuLalela namkha kokubili?
