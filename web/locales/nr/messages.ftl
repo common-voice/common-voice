@@ -26,6 +26,8 @@ error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 
 ## Languages
 
+arn = IsiMapudungun
+bg = IsiLuganda
 ckb = IsiCentral Kurdish
 cnh = IsiHakha Chin
 dsb = IsiSorbian, Lower
@@ -35,9 +37,20 @@ hsb = IsiSorbian, Upper
 hyw = Isi-Armenian sangeTlhagwini
 kmr = IsiKurmanji Kurdish
 knn = IsiKonkani (Devanagari)
+lb = IsiLuxembourgish
+mai = IsiMaithili
+mdf = IsiMoksha
+mg = IsiMalagasy
 mhr = IsiMeadow Mari
+mk = IsiMacedonia
+ml = IsiMalay
+mn = IsiMongolia
 mni = IsiMeetei Lon
+mos = IsiMossi
+mr = IsiMarathi
 mrj = IsiHill Mari
+ms = { "" }
+mt = IsiMaltese
 nan-tw = IsiTwi
 nb-NO = IsiNorwegian Bokmål
 nd = IsiNdebele (Tlhagwini)
@@ -69,6 +82,7 @@ sk = IsiSlovak
 skr = IsiSaraiki
 sl = IsiSlovenia
 so = IsiSomali
+sq = { "" }
 sr = IsiSerbian
 ss = IsiSwati
 st = IsiSotho seSewula
@@ -264,6 +278,7 @@ visible = Bonakalako
 profile-form-add-accent = Faka indlela ejayelekileko yokuphimisela "{ $inputValue }"
 profile-form-submit-save = Bulunga
 profile-form-submit-saved = Ibulungiwe
+male = Umuntu omduna
 why-profile-title = Kubayini iprhofayili?
 build-profile = Yakha iphrofayili
 settings = Amasethingi
@@ -534,6 +549,7 @@ data-bundle-description =
     Nanti ihlelo leCommon Voice namanye 
     amaphimbo ngehla.
 release-version = Umbono
+license-mixed = Okuhlanganisiweko
 data-download-singleword-title = Dawuniloda iGama Linye Olifunako
 data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
 review-terms = Ngokusebenzisa iCommon Voice, uvumelana ne <termsLink>Mibandela</termsLink> kunye ne <privacyLink>Nemigomo</privacyLink>
@@ -563,6 +579,7 @@ email-to-download = Faka i-email bona udawunilowude
 confirm-size =
     Ukulungele ukuthoma ukudawuniloda i 
     <b>{ $size }</b>
+size-megabyte = MB
 confirm-no-identify = <b>Uyavuma</b> bona angekhe ulinge ukufumana bona maphimbo wabobani aku-Common Voice
 validated-hours = Ama-awara aqinisekisiweko
 recorded-hours = Ama-awara wokurekhoda
@@ -602,6 +619,8 @@ download-no = Awa ngiyathokoza
 contact-title = Iforomo lemininingwana yokuthintana
 contact-form-name =
     .label = Igama
+contact-form-message =
+    .label = Umlayezo
 
 ## Request Language Modal
 
@@ -946,6 +965,7 @@ contribution-criteria-link = Zwisisa iindlela zokunikela
 contribution-criteria-page-title = Indlela yokunikela
 contribution-criteria-page-description = Zwisisa bona khuyini okufuze ukutjheje nawulalele iinqetjhana ezirekhodiweko begodu usize ekwenzeni okurekhodileko kunothe!
 contribution-for-example = ngokwesibonelo
+contribution-misreadings-title = Okungakafundwa kuhle
 contribution-misreadings-description-extended-list-1 = Kutjhoda u- <strong>'A'</strong> namkha u- <strong>'The'</strong> ekuthomeni kokurekhodiweko.
 contribution-misreadings-description-extended-list-2 =
     Kutjhoda u <strong>'s'</strong> ekugcineni 
@@ -1018,6 +1038,7 @@ sc-footer-report-copyright = Bika iindaba zamalungelo wokugadangisa
 sc-footer-privacy = Ifihlo
 sc-footer-terms = Imibandela
 sc-login-signup-button = Thungela / Zitlolise
+sc-logout-button = Phuma
 
 ## HOME
 
@@ -1284,6 +1305,8 @@ sc-review-form-button-reject = lahla
 sc-review-form-button-skip = Dlula
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Ungasebenzisa neendlela zokwenza izinto msinyana: { sc-review-form-button-approve-shortcut } ukuphasisa, { sc-review-form-button-reject-shortcut } ukufeyilisa, { sc-review-form-button-skip-shortcut } ukudlulisa
