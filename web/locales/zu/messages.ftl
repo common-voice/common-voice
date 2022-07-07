@@ -73,6 +73,8 @@ status-hours =
 
 profile-form-variant =
     .label = Uhlobo luni lwe-{ $language } olukhulumayo?
+profile-form-custom-accent-help-text =
+    .label = Ungakuchaza kanjani ukuphimisela kwakho?
 profile-form-custom-accent-placeholder-2 = Qala ukuthayipha ukuze uchaze indlela ophimisa ngayo
 profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi usize idatha yethu yezwi inembe kakhulu.
 thanks-for-account = Siyabonga ngokuqinisekisa i-akhawunti yakho, manje asakhe iphrofayela yakho.
@@ -106,6 +108,7 @@ faq-why-my-lang-q = Kungani ulimi lwami lungakafakwa?
 faq-what-quality-q = Iliphi izinga lekhwalithi yomsindo elidingekayo ukuze isiqeshana sezwi sisetshenziswe kudathasethi?
 faq-why-10k-hours-q = Kungani amahora angu-10,000 aqinisekisiwe kuwumgomo wolimi ngalunye lokuthwebula umsindo?
 faq-why-10k-hours-a = Leli cishe inani lamahora adingekayo ukuqeqesha isistimu yokukhiqiza inkulumo-iya-kumbhalo.
+faq-how-calc-hours-q = I-Common Voice iwabala kanjani amahora?
 faq-where-src-from-2-q = Uvelaphi umbhalo owumthombo?
 faq-why-not-ask-read-q = Kungani ungaceli abantu ukuthi bafunde ezincwadini noma izindatshana zeWikipedia ngezilimi ezahlukene?
 faq-why-account-q = Kungani kufanele ngibhalisele i-akhawunti?
@@ -136,6 +139,7 @@ about-listen-text = Abasebenzisi baqinisekisa ukunemba kweziqeshana ezinikelwe, 
 about-is-it-valid-text = Isiqeshana sezwi simakwa ngokuthi "sivumelekile" uma umsebenzisi esinikeza ivoti likaYebo.
 about-yes-votes-text = Ukwenza kube yidathasethi yeCommon Voice, isiqeshana sezwi kufanele siqinisekiswe ngabasebenzisi ababili abahlukene.
 about-dataset-new-text = Idathasethi yeCommon Voice iqukethe amakhulu ezinkulungwane zamasampuli ezwi asiza onjiniyela bakhe amathuluzi okwazi izwi.
+about-stay-in-touch = Ngihlala kanjani ngithintana?
 about-stay-in-touch-text-1 = <emailFragment>Bhalisa</emailFragment> ohlwini lwethu lwama-imeyili ukuze ufunde ukuthi ungaba nengxenye kanjani emikhankasweni, imicimbi kanye nezici zokuklama ngokuhlanganyela ku-Common Voice.
 about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi lwe-Mozilla ngokujoyina <discourseLink>Discourse</discourseLink> yezingxoxo zezihloko, noma <matrixLink>Matrix</matrixLink> ukuze uthole iseluleko esisheshayo.
 
@@ -147,6 +151,7 @@ about-playbook-what-is-language-content-1 = { "" }
 
 ## How do I add a language
 
+about-playbook-how-add-language = Ngilufaka kanjani ulimi?
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Buka umhlahlandlela wethu wokuthi usetshenziswa kanjani iPontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Bukela umhlahlandlela wethu wokusebenzisa Umqoqi Wemisho</sentenceCollectorVideo>.
 
@@ -185,6 +190,7 @@ about-playbook-how-access-dataset-content-2 = Uma ufuna amathuluzi okwakha amamo
 ## How are decisions made
 
 about-playbook-how-project-governance-content-2 = Ukubusa kwethu kusekelwe phezu kwezinsika:
+about-playbook-how-project-governance-content-7 = <governanceLink>Funda kabanzi mayelana nendlela esibuswa ngayo</governanceLink>
 
 ## Glossary
 
@@ -202,6 +208,7 @@ error-title-404 = Asikwazanga ukukutholela lelo khasi
 data-download-modal = Usuzoqalisa ukuloda kwe-<size>GB</size>, qhubeka?
 data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
 data-bundle-description = Idatha yeCommon Voice kanye nawo wonke amanye amadathasethi ezwi ngenhla.
+data-download-singleword-title = Loda Ingxenye Yethagethi Yegama Elilodwa
 data-download-singleword-callout-v2 = Lena ingxenye yokusetshenziswa eqhutshwayo equkethe idatha ukuze inike amandla ukubonwa kwedijithi ekhulunyiwe kanye nokutholwa yebo / cha.
 review-terms = Ngokusebenzisa iCommon Voice, uyavumelana <termsLink>Nemigomo</termsLink> kanye <privacyLink>Nesaziso Sobumfihlo</privacyLink>
 review-aborted = Ukulodiwe kunqanyuliwe. Uyafuna ukususa okurekhodiwe kwakho?
@@ -227,7 +234,7 @@ missing-language = Awuboni ulimi lwakho luboniswa Kusethi Yedatha? Ukucela ulimi
 
 download-helpus = Sisize sakhe umphakathi mayelana nobuchwepheshe bezwi, hlala uxhumene nge-imeyili.
 download-form-email =
-    .label = Faka i-emeyili yakho
+    .label = { "" }
     .value = Siyabonga, sizokuthinta.
 
 ## Contact Modal
@@ -339,6 +346,8 @@ activity-needed-calculation-plural =
         [one] { $clipsPerDay } isiqeshana ngosuku
        *[other] iziqeshana ezingu-{ $clipsPerDay } ngosuku."
     }
+how-many-per-day = Kuhle! Zingaki iziqeshana ngosuku?
+how-many-a-week = Kuhle! Zingaki iziqeshana ngeviki?
 which-goal-type = Uyafuna Ukukhuluma, Ukulalela noma kokubili?
 receiving-emails-info =
     Okwamanje umiselwe ukuthola ama-imeyili afana nezikhumbuzi zegoli, 
