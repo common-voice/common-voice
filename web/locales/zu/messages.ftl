@@ -33,6 +33,8 @@ help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhu
 no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
 help-make-dataset = Sisize sakhe idathasethi elezinga eliphezulu, nevulelekile esidlangalaleni
+sign-up-account = Bhalisela i-akhawunti
+email-subscription-title = bhalisela izibuyekezo ze-imeyili
 email-subscription-title-new = Bhalisela izincwadi zezindaba zeCommon Voice, izikhumbuzi zemigomo nezibuyekezo zenqubekelaphambili
 
 ## Account Benefits
@@ -282,6 +284,9 @@ record-platform-not-supported = Siyaxolisa, inkundla yakho ayisekelwe okwamanje.
 record-platform-not-supported-desktop = Kumadivayisi edeskithophu ungadlala iqhaza ngokuloda...
 record-platform-not-supported-ios-non-safari = Ku-iOS sicela uqhubeke ne-Safari ukuze ukwazi ukurekhoda...
 record-must-allow-microphone = Kufanele uvumele ukufinyelela kwemakrofoni.
+record-error-too-short = Ukuqopha bekukufushane kakhulu.
+record-error-too-long = Ukuqopha bekukude kakhulu.
+record-error-too-quiet = Ukuqopha bekuthule kakhulu.
 review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
 review-instruction = Buyekeza futhi uqophe kabusha iziqeshana uma kudingeka
 record-abort-text = Ukuhamba manje kusho ukuthi uzolahlekelwa ukuqhubeka kwakho
@@ -379,6 +384,7 @@ download-recordings-unavailable = Awukwazi ukucela ukurekhodwa kwakho ngenkathi 
 download-recently-requested = Ungacela ukukhishwa okusha kokurekhodiwe njalo ezinsukwini ezingu-{ $days }.
 download-requests-info = Uma ucela okuqoshiwe kwakho, sikuhlanganisa kube ifayela le-ZIP elilodwa noma amaningi. Nazi izicelo zakho ezedlule:
 download-request-description = { $clipCount } iziqeshana zezwi, isamba sikasayizi wengobo yomlando { $size }. Iphelelwa yisikhathi { $expires }.
+download-request-archive-multiple = Hlukanisa kube { $archiveCount } amafayela e-ZIP aqukethe
 download-request-assembling-description = Amafayela akho ayahlanganiswa. Sicela uhlole futhi ngokuhamba kwesikhathi.
 download-request-modal-description = Nazi izixhumanisi zokuloda amafayela akho e-ZIP.
 
@@ -466,6 +472,7 @@ sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-
 sc-howto-review-subtitle = Qiniseka ukuthi umusho uhambiselana nemibandela elandelayo:
 sc-howto-review-criteria-1 = Umusho kumele ubhalwe ngendlela efanele.
 sc-howto-review-criteria-2 = Umusho kumele uhambisane nohlelo lolimi.
+sc-howto-review-criteria-3 = Umusho kumele ukhulumeke.
 sc-howto-review-criteria-4 = Uma umusho uhambisana nemibandela, chofoza inkinobho ethi "Vumela".
 sc-howto-review-criteria-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
 sc-howto-findpd-title = Ukuthola imisho ekhona Kusizinda Somphakathi
@@ -610,6 +617,7 @@ sc-personal-not-added = Awukangezi izilimi okwamanje.
 
 sc-criteria-make-sure = Qiniseka ukuthi umusho uhambiselana nemibandela elandelayo:
 sc-criteria-item-2 = Umusho kumele uhambisane nohlelo lolimi.
+sc-criteria-item-3 = Umusho kumele ukhulumeke.
 sc-criteria-item-4 = Uma umusho uhlangabezana nemibandela, chofoza okuthi &quot;Vumela&quot; inkinobho kwesokudla.
 sc-criteria-item-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
 
@@ -634,9 +642,12 @@ sc-review-form-review-failure = Isibuyekezo asikwazanga ukugcineka. Sicela uzame
 ## SETTINGS
 
 sc-settings-skipped-decription = Ngaphambilini weqe imisho ngenkathi ubuyekeza. Ukusetha kabusha imisho eyeqiwe kuzokhombisa yonke imisho eyeqiwe futhi. Lokhu kuzimele olimini.
+sc-settings-show-all-button = Khombisa yonke imisho eyeqiwe futhi
 sc-settings-failed = Ayikwazanga ukushintsha izilungiselelo. Ngicela uzame futhi.
 # VALIDATION
 sc-validation-number-of-words = Umusho kufanele ube namagama aphakathi kwe-1 ne-14 (okuhlanganisayo).
+sc-validation-no-numbers = Umusho akufanele ube nezinombolo
+sc-validation-no-symbols = Umusho akufanele ube nezifanekiselo
 
 # [/SentenceCollector]
 
