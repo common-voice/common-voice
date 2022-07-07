@@ -1,6 +1,6 @@
 ## Languages
 
-contribute = s
+contribute = Vula
 get-involved-button = IsiTshivenda
 get-involved-title = Nikela ku { $lang }
 get-involved-text = Isi-Urdu

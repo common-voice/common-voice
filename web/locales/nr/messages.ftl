@@ -10,6 +10,7 @@ email-opt-in-info-sub-with-challenge =
     Fumana ama-email akhuluma ngephaliswano, iinkhumbuzo zemigomo,
     ituthuko yamva nje neendaba zeCommon Voice.
 indicates-required = Isitsonga
+not-available-abbreviation = N/A
 banner-error-slow-1 =
     Usilibalele iCommon Voice ikhamba kabuthaka. Siyathokoza 
     ngokuba nekareko.
@@ -40,10 +41,14 @@ mrj = IsiHill Mari
 nan-tw = IsiTwi
 nb-NO = IsiNorwegian Bokmål
 nd = IsiNdebele (Tlhagwini)
+ne-NP = IsiNepali
+nia = IsiNias
 nn-NO = IsiNorwegian Nynorsk
 nr = IsiNdebele (Sewula)
 nso = IsiSotho seTlhagwini
 nyn = IsiRunyankole
+oc = Isi-Occita
+or = Isi-Odia
 pa-IN = IsiPunjabi
 pap-AW = IsiPapiamento (Aruba)
 pl = IsiPolish
@@ -104,7 +109,7 @@ terms = Imigomo
 content-license-text =
     Okumumethweko kuyafumaneka ngaphasi 
     kwe <licenseLink>Ilayisense Yokuthoma Izinto Ezijayelekileko</licenseLink>
-share-title = Sisiza bona sifumane abanye abanganikela ngamaphimbo wabo!
+share-title = Okhunye
 share-text =
     Siza ngokufundisa imitjhini bona abantu bamambala bakhuluma njani, 
     nikela ngephimbo lakho ku { $link }
@@ -129,6 +134,7 @@ help-us-explain =
     umutjho ongenzasi?
 no-clips-to-validate = Ubukhulu
 vote-yes = Iye
+vote-no = Awa
 toggle-play-tooltip = Gandelela { shortcut-play-toggle } bona utjhugulule indlela yokudlala
 speak-subtitle = Dawuniloda iphimbo lakho
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
@@ -206,7 +212,7 @@ shortcut-skip = Iindlela eziquntelako
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = y
+shortcut-play-toggle = p
 shortcut-play-toggle-label = Dlala/Jama
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
@@ -286,6 +292,7 @@ skip-submission-description =
 skip-submission-note =
     Tjheja: Kusafuze ukhethe hlangana
     NokuKhuluma nokuLalela bona utjhugulule indlela onganikela ngayo.
+off = Qima
 help-accent = Utlhoga isizo ngokuphimisela?
 help-variants = Utlhoga isizo ngemihlobohlobo?
 
@@ -512,6 +519,7 @@ error-title-503 = Siqalene nebesingakakulindeli
 
 data-download-button = Dawunilowuda ihlelo leCommon Voice
 data-download-yes = Iye
+data-download-deny = Awa
 data-download-license = Ilayisense: <licenseLink>CC-0</licenseLink>
 data-download-modal = Sele ukulungele ukudawuniloda i <size>{ $size }GB</size>, uyaraga?
 data-subtitle = Sakha ibulungelo lamaphimbo arekhodiweko angasetjenziswa ngiwo woke umuntu bona angawasebenzisa ukubandula iinsetjenziswa bona zikhulume ikulumo eyamukeleko.
@@ -592,6 +600,8 @@ download-no = Awa ngiyathokoza
 ## Contact Modal
 
 contact-title = Iforomo lemininingwana yokuthintana
+contact-form-name =
+    .label = Igama
 
 ## Request Language Modal
 
@@ -905,6 +915,7 @@ demo-welcome-subheader =
 ## Demo Datasets
 
 demo-language-select-card-header = ICommon Voice lihlalo elikhamba phambili ephasini mazombe elinamaphimbo wamalimi ahlukahlukeneko.
+card-button-next = Okulandelako
 demo-language-select-label = Funa amalimi
 demo-eofy-header = 2019 Umnyaka-wokugcina-Wokutjhatjhululwa
 demo-eofy-sub_header = Ihlelo lephimbo, ukuLungele ukuDawuniloda
