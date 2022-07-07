@@ -330,6 +330,8 @@ not-receiving-emails-info = Okwamanje usethelwe <bold>CHA</bold> ukuthola ama-im
 help-share-goal = Sisize sithole amazwi engeziwe, wabelane ngenjongo yakho
 # LINK will be replaced with the current URL
 goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#CommonVoice -- ngijoyine futhi usize ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani { $link }
+weekly-goal-created = Injongo yakho yeviki idaliwe
+daily-goal-created = Injongo yakho yansuku zonke isiyakhiwe
 track-progress = Landela inqubekelaphambili yakho la nasekhasini lakho lama-stat.
 return-to-edit-goal = Buyela lapha ukuze ushintshe injongo yakho noma nini.
 
