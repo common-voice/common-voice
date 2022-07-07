@@ -260,6 +260,7 @@ record-platform-not-supported-desktop = Kumadivayisi edeskithophu ungadlala iqha
 record-platform-not-supported-ios-non-safari = Ku-iOS sicela uqhubeke ne-Safari ukuze ukwazi ukurekhoda...
 review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
 record-abort-text = Ukuhamba manje kusho ukuthi uzolahlekelwa ukuqhubeka kwakho
+listen-again-instruction = Umsebenzi omuhle!<playIcon></playIcon> Lalela futhi uma usulungile
 listen-empty-state = Siphelelwe iziqeshana ezizoqinisekiswa ngalolu limi...
 listen-loading-error =
     Asikwazanga ukuthola iziqeshana zomsindo ozozilalela.
