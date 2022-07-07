@@ -58,6 +58,7 @@ faq-when-release2-a = Mohuta wa maleme a mantši dathasete ya Common Voice e dut
 faq-why-mission-a = Mozilla e ikemišeditše go boloka mologo o botšwe ebile o hwetšagala ke batho bohle. Go dira bjalo re hloka go matlafatša babopi ba wepesaete ka mediro ya go swana le Common Voice. Ge ditheknolotši tša go hlaboša lentšu di dutše di ata go matlafatša tswalano ya ditišwa, re dumela gore di swanetše go hlankela badiriši ka moka go lekana. Seo se bolela gore go beeletša karolo ya maleme a mantši le go amogela mmelelo o fapanego gammogo le teka-tekano ya palo ya batho ge o aga le go tlhahloba ditheknolotši tša mantšu. Common Voice ke mothopo wa setšhaba wo o hwetšagala ke motho yo mongwe le yo mongwe, gomme dihlopha tša Mozilla le batšweletši lefaseng ka bophara ba šetše ba šomiša seo mananeo a bona.
 faq-what-cv-and-deepspeech-a = Dathasete ya Common Voice e dumelelana le entšene Deep South ya Mozilla e bolegilego ya go tlhatholla Polelong. Phetolelo ya mathomo ya polelong e tseneletšego ya Deep Speech e lokoloktšwe ka November 2017 gomme esale e tšwela pele ka go fetoga go tloga ka nako yeo. Gotee le dathasete ya Common Voice, re dumela gore theknolotši e e bulegilego go lemoša lentšu e swanetše go hwetšwa ke motho yo mongwe le yo mongwe. Re holofela gore ditheknolotši tše di tla thuša batšweletši go aga ditšweletšwa ke ditirelo tše di mpsha tše dintši.
 faq-is-goal-assistant-a = Boikemišetšo bja dathasete ya Common Voice ke go thuša motho lege e le ofe goba ofe lefaseng go aga tlhathollo ya mantšu , tlhathollo ya diboledi, goba mohuta ofe goba ofe wa sedirišwa se hlokago datha ya lentšu. Mothuši wa lentšu ke e nngwe feela ya mehuta e mentši ya didirišwa tšeo di šomišago go aga dathasete.
+faq-do-want-native-a = Ee, ka go kgethega re nyaka lentšu la gago! Karolo ya boikemišetšo bja Common Voice ke go kgobokanetša mmelelo e mentši ya go fapa-fapana ka moo go ka kgonegago e le gore tlhathollo e amogetšwego ya lentšu e šoma gabotse go batho bohle. Seo se bolela gore meneelo e tšwago go diboledi tšeo di sego tša matswalo a moo a bohlokwa kudu.
 faq-why-different-speakers-a =
     Bontši bja dathabeise di eteletšwa go bontšha palo e feteletšego ya palo ya batho e sekametšego go lebana le<articleLink> banna le maemo a magareng</articleLink>. Mmolelo le mebolelwana ao a atišago go sekametšego go emelwa ka tlase go di datha sete di eteletšwe gantši di tswalaganywago le dihlopha tša batho bao ba šetšego ba boeletšwe ka thoko. Metšene e mentši le yona e thatafalelwa go kwešiša mantšu a basadi. 
     Ke kamoo polokelong ya rena ya lentšu re nyakang mehuta e fapa-fapanego!"
@@ -89,6 +90,7 @@ about-playbook-how-add-language-translating-content-2 =
 
 ## How does localization work
 
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Hlangwa akhaonte</pontoonAccountLink> ge e ba o se na yona. Ke moka, o kgetha polelo <strong> (‘Sehlopha’)</strong> ebe o kgetha morero, <pontoonCvLink>Common Voice</pontoonCvLink>. Go tla ba le difaele tše tla fetolelwa. klika go e le nngwe, ke moka e bontšha mantšu a Seisemane lepokisana go e fetolela.
 about-playbook-how-localize-content-3 = Phetolelo e tšwa go Seisemane, eupša o ka bona <strong>Ditšhišinyo</strong>  ka dipolelong tše dingwe. Tobetsa <strong>aekhone ya Profaele</strong> aekhone, ke moka  <strong>Selaelatirišo</strong>  linke yaebe o tsenya dipolelo tšeo o di bolelago. Ka tlase ga sona ka letsogong le letona go tla ba le lenaneo la diphetolelo e bitšwago <strong>Locales</strong>. Diphetolelo di bontšha saeteng ka morago ga letšatši letee.
 
 ## How to add sentences
@@ -109,6 +111,7 @@ about-playbook-how-grow-language-content-5 = O ka šomiša lekgotla la polediša
 
 ## How to access dataset
 
+about-playbook-how-access-dataset-content-1 = O ka ya go <datasetsPage>letlakaleng la di-dathasete</datasetsPage>, kgetha mohuta le (di)polelo tšeo o di nyakago, gomme o di taneloute! Difaele di na le <metadataLink>methadatha a linki</metadataLink>, bjalo ka tsebišo ya palo ya batho le datha e netefatšwego. O tla hloka go nea ka aterese ya e-meile go tanelouta dathasete.
 
 ## How are decisions made
 
