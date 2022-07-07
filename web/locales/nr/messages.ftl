@@ -23,12 +23,14 @@ error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 
 ## Languages
 
+cnh = IsiHakha Chin
 dsb = IsiSorbian, Lower
 hsb = IsiSorbian, Upper
 kmr = IsiKurmanji Kurdish
 knn = IsiKonkani (Devanagari)
 mhr = IsiMeadow Mari
 mni = IsiMeetei Lon
+mrj = IsiHill Mari
 nan-tw = IsiTaiwanese (Minnan)
 nb-NO = IsiNorwegian Bokmål
 nd = IsiNdebele (Tlhagwini)
@@ -80,6 +82,8 @@ toggle-play-tooltip = Gandelela { shortcut-play-toggle } bona utjhugulule indlel
 speak-subtitle = Dawuniloda iphimbo lakho
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
 listen-subtitle = Sisiza siqinisekise amaphimbo
+hours-recorded = Ama-awara wokurekhoda
+hours-validated = Ama-awara aqinisekisiweko
 voices-online = Amaphimbo afumanekako nje
 todays-progress =
     { $count ->
@@ -173,6 +177,7 @@ leaderboard-visibility =
     .label = Ukubonakala kwebhodi
 profile-form-add-accent = Faka indlela ejayelekileko yokuphimisela "{ $inputValue }"
 why-profile-title = Kubayini iprhofayili?
+edit-profile = Lungisa Iphrofayili
 profile-create-success = Ukghonile ukwenza iphrofayili!
 profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu usize ihlelo lethu linembe khudlwana.
 thanks-for-account =
@@ -185,7 +190,9 @@ accept-privacy =
 accept-privacy-title = Umthetho wefihlo
 login-identity = Imininingwana yokungena
 login-signup = Thungela / Zitlolise
+email-subscriptions = Ukuzitlolisela ama-Email
 download-profile = Dawuniloda imininingwanami
+contribution-experience = Nikela Ngelwazi
 skip-submission-feedback = Yeqa uMlayezo oBuyako
 skip-submission-description =
     { $count ->
@@ -281,6 +288,7 @@ about-voice-contrib-title = Ukunikela ngephimbo
 about-voice-contrib-subtitle = Abantu bayeza bazokunikela ngamaphimbo wabo.
 about-voice-validation-title = Ukuqinisekiswa kwephimbo
 about-voice-validation-subtitle = Abanye abantu baqinisekisa iinqetjhana zokurekhodiweko.
+about-dataset-release-title = daily-goal
 about-dataset-release-subtitle = Sitjhaphulula okurekhodiweko qobe eenyangeni ezi-3.
 about-subscribe-text = Ufuna ukuhlala uthintana ne-Common Voice?
 about-speak-text =
@@ -297,11 +305,14 @@ about-yes-votes-text = Bona uphumelele ukungena ehlelweni le-Common Voice iphimb
 about-no-votes = Kunamavowudi ama≥ 2
 about-no-votes-text = Kunamavowudi ama≥ 2
 about-dataset-new = I-Common Voice Dataset
+about-get-involved = Zibandakanye
 about-stay-in-touch = Ngingahlala njani nginelwazi?
 about-stay-in-touch-button = Zitlolise
 about-stay-in-touch-text-1 = <emailFragment>Zitlolise ku</emailFragment> bona ufunde ukuthi ungasifaka njani isandla emajimeni, ezenzakalweni nokuthuthukisa ubujamo be-Common Voice.
 about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngokuthi ungene<discourseLink>Ebulungelweni</discourseLink> bona nikhulumisane ngeenhloko ezithileko namkha <matrixLink>Ubuhlanga</matrixLink> bona ufumane isiyeleliso ngokurhabako.
 about-nav-why-common-voice = Kubayini ?
+about-nav-how-it-works = Njani
+about-nav-get-involved = Zibandakanye
 about-nav-how-it-works-2 = Isebenza njani iCommon Voice?
 about-nav-playbook = Funda ukuthi ungasiza njani
 
@@ -396,6 +407,7 @@ sentence-collection-explanation =
 hours-recorded-explanation =
     Inani lama-awara esele siwabuthelele 
     bekube nje.
+hours-validated-explanation = { "" }
 sst = Ikulumo-kuya-kokutloliweko (STT)
 sst-explanation = Ikulumo etlolwa phasi (STT) itjhugululwa iba liphimbo
 
@@ -414,6 +426,8 @@ data-get-started =
     <speechBlogLink>Thoma ngehlelo lokuHlola
     iPhimbo</speechBlogLink>
 data-other-title = Elinye ihlelo lamaphimbo…
+data-other-goto = Ngena ku { $name }
+data-other-download = Dawuniloda imininingwana
 data-bundle-button = Dawunilowuda ihlelo
 data-bundle-description =
     Nanti ihlelo leCommon Voice namanye 
@@ -421,6 +435,7 @@ data-bundle-description =
 data-download-singleword-title = Dawuniloda iGama Linye Olifunako
 data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
 review-terms = Ngokusebenzisa iCommon Voice, uvumelana ne <termsLink>Mibandela</termsLink> kunye ne <privacyLink>Nemigomo</privacyLink>
+terms-agree = Ngiyavuma
 terms-disagree = Angivumi
 review-aborted =
     Uku-aplowuda kujamile. Ufuna ukususa 
@@ -448,8 +463,10 @@ whats-inside = Khuyini engaphakathi kwehlelo le-Common Voice?
 want-dataset-update = Ufuna sikwazise nasikhupha ihlelo elitjha leCommon Voice? Zitlolise engcenyenethu yeendaba.
 get-started-speech = Thoma ngokuhlola iphimbo
 other-datasets = Elinye ihlelo lamaphimbo
+feedback-q = Uwufumene umbiko obuyako?
 resource-nemo-info = <githubLink>INVIDIA NeMo</githubLink>™ yi <docsLink>lithulusi lawo woke umuntu</docsLink> lokuthuthukisa zerhubhululo yamahlelo we-AI
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> izibophezele ukuvula ihlelo letheknoloji lokukhuluma. Amahlelwabo ahlanganisa ifundo engeneleleko STT ne TTS.
+community-playbook = Incwadi yokudlala yomphakathi
 resource-playbook-info = <playbookLink>Fumana isinqophiso esilisizo</playbookLink> kilo loke ikhambo leCommon Voice, kusukela ekulumweni yendabuko, ukusebenzisa ihlelweli nokuthi ungathintana njani nomphakathethu.
 data-other-librispeech-description = I-LibriSpeech mitlolo engathatha pheze ama-awara ayi-1000 ye 16Khz efundwa ngelimi lesiNgisi ethethwe eencwadini ezirekhodiweko zehlelo le-LibriVox
 data-other-ted-name = IsiTED-LIUM Corpus
@@ -474,6 +491,7 @@ download-no = Awa ngiyathokoza
 
 ## Contact Modal
 
+contact-title = Iforomo lemininingwana yokuthintana
 
 ## Request Language Modal
 
@@ -569,6 +587,7 @@ record-submit-tooltip = { $actionType } thumela nasele ukulungele
 record-abort-title = Qeda ukurekhoda qangi?
 record-abort-text = Nawuphuma nje uzokulahlekelwa ngosele ukwenzile
 record-abort-submit = Thumela iinqetjhana
+record-abort-continue = Qeda ukurekhoda
 record-abort-delete = Phuma namkha Susa iinqetjhana
 listen-instruction =
     { $actionType }<playIcon></playIcon> bayikhulume 
@@ -587,6 +606,7 @@ listen-loading-error =
 speak-empty-state =
     Ayisekho imitjho engarekhodwa 
     ngelimeli...
+speak-empty-state-cta = Nikela ngemitjho
 speak-loading-error =
     "Ayikho imitjho esiyifumanako
     ongayitjho.
@@ -615,6 +635,7 @@ report-offensive-language-detail =
     alumelako.
 report-grammar-or-spelling = Umtjhapho wokutlola / ukupeleda
 report-grammar-or-spelling-detail = Umutjho unomraro wokutlola nokupeleda.
+report-different-language = Ilimi elihlukileko
 report-different-language-detail =
     Kutlolwe ngelimi elihlukileko 
     kunengilikhulumako.
@@ -638,12 +659,14 @@ validations =
 
 your-languages = Amalimi wakho
 toward-next-goal = Umgomo olandelako
+goal-reached = Fikelela umgomo
 clips-you-recorded = Iinqetjhana ozirekhodileko
 clips-you-validated = Iinqetjhana oziqinisekisileko
 todays-recorded-progress = Ituthuko yanamhlanjesi yokurekhodwe kuCommon Voice
 todays-validated-progress =
     Okuphasisiweko namhlanjesi okurekhodwe 
     kuCommon Voice
+contribution-activity = Umsebenzi womnikelo
 top-contributors = Umnikelo ophezulu
 recorded-clips = Rekhoda Iinqetjhana
 validated-clips = Iinqetjhana eziqinisekisiweko
@@ -690,6 +713,7 @@ n-clips-pluralized =
        *[other] iinqetjhana
     }
 help-share-goal = Sisiza sifumane amaphimbo angeziweko, yabelana ngomgomwakho
+confirm-goal = Qinisekisa umngomo
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Yabelana { $count } nephimbo qobe langa umgomo we { $type }
 # $type is one of share-goal-type-*
@@ -704,6 +728,7 @@ return-to-edit-goal = Buyela la bona ulungise imigomakho nanyana kunini.
 
 ## Profile Delete
 
+profile-form-delete = Susa Iphrofayili
 
 ## Profile Download
 
@@ -733,6 +758,7 @@ download-request-archive-multiple = Zihlukaniswe zaba yi { $archiveCount } kumaf
 download-request-assembling-description =
     Amafayela wakho sele ahlanganisiwe. Sibawa uhlole 
     godu ngemva kwesikhatjhana.
+download-request-modal-title = Dawuniloda Amalinki
 download-request-modal-description = Naka ama-link ongadawunilowuda kiwo amafayelakho.
 download-request-link-text = Zip #{ $offset } ye { $total }
 download-request-metadata-link = Amagama wemitjho
@@ -784,7 +810,9 @@ demo-dashboard-card-header =
 ## Validation criteria
 
 contribution-criteria-link = Zwisisa iindlela zokunikela
+contribution-criteria-page-title = Indlela yokunikela
 contribution-criteria-page-description = Zwisisa bona khuyini okufuze ukutjheje nawulalele iinqetjhana ezirekhodiweko begodu usize ekwenzeni okurekhodileko kunothe!
+contribution-for-example = ngokwesibonelo
 contribution-misreadings-description-extended-list-1 = Kutjhoda u- <strong>'A'</strong> namkha u- <strong>'The'</strong> ekuthomeni kokurekhodiweko.
 contribution-misreadings-description-extended-list-2 =
     Kutjhoda u <strong>'s'</strong> ekugcineni 
@@ -866,6 +894,7 @@ sc-languages-fetch-error =
 
 ## HOW-TO
 
+sc-howto-title = Indlela ongakwenza ngayo
 sc-howto-addlang-title = Faka amalimi ozokusebenza ngawo
 sc-howto-addlang-text =
     Nasele uthungele ungakghona ukukhetha amalimi
@@ -1087,6 +1116,8 @@ sc-review-no-sentences =
 sc-review-form-prompt =
     .message = Uyaqiniseka bona uyibuyekezile imitjho engakakhanjiswa?
 sc-review-form-keyboard-usage-custom = Ungasebenzisa neendlela zokwenza izinto msinyana: { sc-review-form-button-approve-shortcut } ukuphasisa, { sc-review-form-button-reject-shortcut } ukufeyilisa, { sc-review-form-button-skip-shortcut } ukudlulisa
+sc-review-form-button-submit =
+    .submitText = Qeda ukubuyekeza
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =

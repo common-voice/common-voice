@@ -1,11 +1,11 @@
 ## Languages
 
+get-involved-button = Zibandakanye
+get-involved-title = Nikela ku { $lang }
 get-involved-text = IsiNdebele (Tlhagwini)
 get-involved-form-title = Zitlolisele { $lang } zamva nje:
 get-involved-opt-in = Iyaraga
-get-involved-privacy-info =
-    Sithembisa ukugcina imininingwana yakho iyifihlo.
-    Funda okwengeziweko ngesaZiso sethu sezinto eziyiFihlo<privacyLink>Nemigomo</privacyLink>.
+get-involved-privacy-info = IsiGoan Konkani
 get-involved-success-title =
     Uphumelele ukuzitlolisela ukunikela 
     ku { $language }. Siyathokoza.
