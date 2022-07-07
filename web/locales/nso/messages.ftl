@@ -93,6 +93,7 @@ about-playbook-how-add-sentences-content-2 =
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-5 = O ka šomiša lekgotla la poledišano ya inthaneteng go kgona go iša molaetša go batho ka moka. Abelana melaetša e hlalosago gore na ke baka la eng go le bohlokwa, gomme o ikgokaganye le batho ba bangwe bao ba bolelago ka mathata a go swana le ditokelo tša polelo, lentšu la AI, goba tshekamelo go theknolotši. Bona dikeletšo tše dingwe mabapi le<campaignLink> go tsamaiša lesolo  la setšhaba, go akaretša le diteng tšeo o ka di šomišago gape</campaignLink>.
 
 ## How to validate
 
@@ -111,6 +112,7 @@ about-playbook-how-add-sentences-content-2 =
 
 ## Data
 
+data-explanatory-text = Re dumela gore dathasete tša lentšu tše dikgolo di tla hwetšagala phatlalatša di kgothaletša go tšweletša mekgwa e mefsa le tlhodišano ya kgwebo e matla go theknolotši ya go mantšu e thekgilwego ke motšhene. Se ke boiteko ba lefase ka moka gomme re mema motho yo mongwe le yo mongwe go tšea karoko. Boikemišetšo bja rena ke go thuša theknolotši le poledišano gore e tsentšhwe batho ka moka, e bonagatše mehuta e fapa-fapanego ya mantšu a tšwago lefaseng ka bophara.
 
 ## Datasets Page
 
@@ -175,6 +177,7 @@ dataset-description-hours =
 
 ## Demo Contribute
 
+demo-contribute-card-body-v2 = Ka ge bjale o tseba gonyenyane ka Common Voice, ke ka baka la eng o sa e leke? Tobetsa aekhoneng ya maekrofouno go thoma go bala mafoko ka go hlaboša lentšu.<br/><br/>Ge e ba o kgetha go ahlahla ditlaleletšo tša lentšu la batho ba bangwe, tobetsa leswao la go bapala. O tla thuša go netefatša gore direkhoto di dumelelana le mafoko ao a ngwadilwego mo sekerining.
 
 ## Demo Dashboard
 
@@ -203,6 +206,7 @@ sc-home-intro = Molekgetho wa Mafoko ke karolo ya<commonVoiceLink> Common Voice<
 
 ## HOW-TO
 
+sc-howto-addsen-item-2 = Dinomoro. Ga se gwa swanela go ba le dinoromo mangwalong a mothopo gobane di ka baka mathata ge o hlaboša lentšu. Tsela yeo palo e balwago ka gona e ithekgile ka kamano ya taba gomme e ka hlagiša gakantšhago go dathasete. Ka mohlala, palo ya “2409” e ka balwa ka nepo e le “mašome-pedi le metšo nne lefeela le senyane” le “dikete tše pedi le makgolo a mane le metšo e senyane”.
 sc-howto-addsen-item-3 = Dikhutsofatšo le mantšu a khutsofadišwego go swana le “USA”  goba “ICE” di swanetše go phengwa mongwalong wa mothopo  ka baka la gore di ka balwa ka tsela e sa dumelelanago le mopeleto wa tšona. Go oketša moo, go ka ba le dipalo tše dintši tše nepagetšego bakeng sa khutsofatšo e le nngwe. Ka mohlala, khutsofatšo “ICE” e ka bitšwa “I-C-E” goba e le lentšung letee.
 sc-howto-findpd-text-2 = Gopola gore re hloka tumelelo ya go phatlalatša dipolelo tšeo, ke kamoo re kgonthišetša gore mengwalo ke ya<wikipediaLink> batho ka moka</wikipediaLink>. Ge goba a gona dipontšho molaleng, boledišana le motho yo temana yeo e leng ya gagwe gomme o botšiša gore e ba ba nyaka go neela temana ya bona Sebakeng sa Setšhaba. Ge e ba ba nyaka, ba thuše go tsena mogatong a <cc0WaiverLink>Tumelelano ya Meneelo</cc0WaiverLink> . Ge e ba ga ba nyake go tsena tiragalo ya temana, ke moka wa dumelelwa go diriša temana yeo.
 
