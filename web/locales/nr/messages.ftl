@@ -49,6 +49,7 @@ tok = IsiToki Pona
 zh-CN = IsiChinese (China)
 zh-HK = IsiChinese (Hong Kong)
 zh-TW = IsiChinese (Taiwan)
+zu = IsiZulu
 
 # [/]
 
@@ -82,6 +83,7 @@ help-us-explain =
     Gandelela, dlala lalela bese uyasitjela: bawutjho kuhle na
     umutjho ongenzasi?
 no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa usisize sivale isikhalesi ngokuthi urekhode okuthileko njenga nje.
+vote-yes = Iye
 toggle-play-tooltip = Gandelela { shortcut-play-toggle } bona utjhugulule indlela yokudlala
 speak-subtitle = Dawuniloda iphimbo lakho
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
@@ -103,6 +105,16 @@ x-weeks-short =
     { $count ->
         [one] Iveke
        *[other] vk
+    }
+x-months-short =
+    { $count ->
+        [one] mo
+       *[other] { "" }
+    }
+x-years-short =
+    { $count ->
+        [one] y
+       *[other] { "" }
     }
 help-make-dataset = Sisiza senze umsebenzi osezingeni eliphezulu
 sign-up-account = Zitlolise ube ne-akhawundi
@@ -145,6 +157,12 @@ username-optin-public =
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = y
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = { "" }
 
 ## Speak Shortcuts
 
@@ -173,6 +191,8 @@ profile-form-username =
     .label = Ibizo olisebenzisako
 profile-form-native-language =
     .label = Ilimi owalimunyako
+profile-form-additional-language =
+    .label = Ilimi elingezelelweko
 profile-form-variant =
     .label = Ngimaphi ama { $language } ahlukahlukeneko owakhulumako?
 profile-form-variant-default-value = Akukho okuhlukahlukeneko okhethiweko
@@ -222,6 +242,7 @@ connect-gravatar = Ngena ku-Gravatar
 gravatar_not_found = Akuna-gravatar efumanekako ku-emailakho
 file_too_large = Ifayela elikhethiweko likhulu
 avatar-uploaded = I-Aveyitha ifakiwe
+max-file-size = { $kb }kb siling.
 remove-avatar = Susa isithombe
 
 ## Profile - Email
@@ -229,6 +250,7 @@ remove-avatar = Susa isithombe
 manage-subscriptions = Lawula ukutlolisa
 manage-email-subscriptions = Tlhogomela ukuzitlolisela ama-email
 email-already-used = I-email le, sele isetjenziswe kwenye i-akhawundi
+add-language = Faka ilimi
 change-email-setings =
     Tjhugulula i-emailakho kumaSethingi ngaphasi kwengcenye 
     yokuThungela
@@ -430,6 +452,7 @@ error-title-503 = Siqalene nebesingakakulindeli
 ## Data
 
 data-download-button = Dawunilowuda ihlelo leCommon Voice
+data-download-yes = Iye
 data-download-license = Ilayisense: <licenseLink>CC-0</licenseLink>
 data-download-modal = Sele ukulungele ukudawuniloda i <size>{ $size }GB</size>, uyaraga?
 data-subtitle = Sakha ibulungelo lamaphimbo arekhodiweko angasetjenziswa ngiwo woke umuntu bona angawasebenzisa ukubandula iinsetjenziswa bona zikhulume ikulumo eyamukeleko.
@@ -586,6 +609,7 @@ record-cancel = Susa okurekhodiweko
 record-instruction =
     { $actionType }<recordIcon></recordIcon> 
     fundela umutjho phezulu
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> nawuqedileko
 record-three-more-instruction = Kusele mithathu!
 record-again-instruction =
     Kuhle!<recordIcon></recordIcon> Rekhoda 
@@ -593,6 +617,7 @@ record-again-instruction =
 record-again-instruction2 =
     Wenze kuhle, rekhoda godu 
     <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Yokugcina!
 review-tooltip = Buyekeza bewurekhode kabutjha khona la
 share-clip = Yabelana ngesiquntu engisirekhodileko
 share-common-voice = Yabelana ngeCommon Voice
@@ -611,6 +636,7 @@ listen-again-instruction =
     Wenze kuhle!<playIcon></playIcon> Lalela godu 
     nasele ujame kuhle
 listen-3rd-time-instruction = Sele kuphele ezi-2, ragela phambili!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Yokugcina!
 listen-empty-state =
     Asisenayo imitjho engaqinisekiswa 
     ngelimeli...
@@ -852,6 +878,7 @@ contribution-misreadings-example-6-explanation = [Kufuze kube ngu “Sibo”]
 contribution-misreadings-example-7-title = Sisayokusela ikofi.
 contribution-misreadings-example-7-explanation = [Awa kuno ‘a’ emtlolweni wokuthoma]
 contribution-misreadings-example-8-title = Ikhamba ngebelo le.
+contribution-misreadings-example-8-explanation = [Okungatlhogekiko]
 contribution-varying-pronunciations-title = Ukuphimisela okuhlukahlukeneko
 contribution-varying-pronunciations-example-1-title = Umbethe ibherede ehlokwakhe.
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
@@ -879,6 +906,8 @@ contribution-background-voices-example-1-explanation =
     another]</strong>
 contribution-reader-effects-title = Iinkunupe zokufunda
 contribution-just-unsure-title = Awuqiniseki?
+see-more = <chevron></chevron>Veza okwengeziweko
+see-less = <chevron></chevron>Veza okuncani
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -989,6 +1018,7 @@ sc-submit-prompt =
     .message =
         Imitjho ayikathunyelwa. Unesiqiniseko 
         sokobana ufuna ukuphuma?
+sc-submit-title = Faka imitjho
 sc-submit-select-language =
     .labelText = Khetha ilimi
 sc-submit-add-sentences =
@@ -1013,6 +1043,7 @@ sc-submit-guidelines =
 
 sc-add-lang-could-not-add = Angikghoni ukufaka ilimi
 sc-add-lang-sec-label = Faka ilimi ofuna ukunikela kilo
+sc-add-lang-sec-button = Faka ilimi
 sc-add-err-unexpected = Ubujamo obungakalindeleki sibuyela kuseyiva
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
@@ -1076,6 +1107,7 @@ sc-lang-info-in-review =
         [one] 1 umutjho ongabuyekezwa.
        *[other] imitjho engabuyekezwa.
     }
+sc-lang-info-review-now = <reviewLink>Buyekeza nje</reviewLink>
 sc-lang-info-add-more = <addLink>Faka eminye imitjho nje</addLink>
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
