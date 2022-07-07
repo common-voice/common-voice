@@ -31,7 +31,9 @@ home-title = I-Common Voice iwuhlelo lwe-Mozilla lokusiza ukufundisa imishini uk
 default-tagline = I-Mozilla Common Voice iyisinyathelo sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhulume kahle lo musho ongezansi?
 no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
+toggle-play-tooltip = Cindezela{ shortcut-play-toggle } ukuze uguqule imodi yokudlala
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
+ready-to-record = Ulungele ukunikela ngezwi lakho?
 help-make-dataset = Sisize sakhe idathasethi elezinga eliphezulu, nevulelekile esidlangalaleni
 sign-up-account = Bhalisela i-akhawunti
 email-subscription-title = bhalisela izibuyekezo ze-imeyili
@@ -231,6 +233,7 @@ data-other-ted-description = Ikhophasi ye-TED-LIUM yenziwe ngezinkulumo ezilalel
 data-other-voxforge-description = I-VoxForge yasungulwa ukuze iqoqe inkulumo eqoshiwe ukuze isetshenziswe nezinjini zokuqaphela izinkulumo zamahhala kanye ne-Open Source.
 your-feedback = Ingabe unayo imibono yokuthi singayenza kanjani idathasethi ye-Common Voice ibe ngcono? Sazise ku-Discourse
 missing-language = Awuboni ulimi lwakho luboniswa Kusethi Yedatha? Ukucela ulimi qonda ekhasini lethu leZilimi.
+ready-to-validate = Ulungele ukusiza ukuqinisekisa imisho?
 
 ## Download Modal
 
@@ -238,6 +241,7 @@ download-helpus = Sisize sakhe umphakathi mayelana nobuchwepheshe bezwi, hlala u
 download-form-email =
     .label = { "" }
     .value = Siyabonga, sizokuthinta.
+download-back = Buyela kwidathasethi ye-Common Voice
 
 ## Contact Modal
 
@@ -648,6 +652,7 @@ sc-settings-failed = Ayikwazanga ukushintsha izilungiselelo. Ngicela uzame futhi
 sc-validation-number-of-words = Umusho kufanele ube namagama aphakathi kwe-1 ne-14 (okuhlanganisayo).
 sc-validation-no-numbers = Umusho akufanele ube nezinombolo
 sc-validation-no-symbols = Umusho akufanele ube nezifanekiselo
+sc-validation-no-abbreviations = Umusho akufanele ube nezifinyezo
 
 # [/SentenceCollector]
 
