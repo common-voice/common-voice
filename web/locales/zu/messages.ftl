@@ -3,6 +3,7 @@
 yes-receive-emails = Yebo, ngithumele ama-imeyili. Ngingathanda ukuhlala nginolwazi nge-Common Voice Project.
 privacy-info = Sithembisa ukuphatha imininingwane yakho ngokucophelela. Funda kabanzi kwi<privacyLink>Isaziso Sobumfihlo</privacyLink>.
 email-opt-in-info = Ngingathanda ukuthola ama-imeyili afana nezikhumbuzi zemigomo, izibuyekezo zami zokuqhubeka nezincwadi zezindaba ezimayelana ne-Common Voice.
+email-opt-in-info-title = Joyina uhlu lwamakheli e-Common Voice
 email-opt-in-info-sub-with-challenge = Thola ama-imeyili afana nezikhumbuzi zenselele nezinjongo, izibuyekezo zenqubekelaphambili, nezincwadi zezindaba ezimayelana ne-Common Voice.
 indicates-required = Izinkambu ezimakwe ngenkanyezi (*) ziyadingeka.
 banner-error-slow-1 = Uxolo, iCommon Voice isebenza kancane. Siyabonga ngentshisekelo yakho.
@@ -201,6 +202,7 @@ error-title-404 = Asikwazanga ukukutholela lelo khasi
 data-download-modal = Usuzoqalisa ukuloda kwe-<size>GB</size>, qhubeka?
 data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
 data-bundle-description = Idatha yeCommon Voice kanye nawo wonke amanye amadathasethi ezwi ngenhla.
+data-download-singleword-callout-v2 = Lena ingxenye yokusetshenziswa eqhutshwayo equkethe idatha ukuze inike amandla ukubonwa kwedijithi ekhulunyiwe kanye nokutholwa yebo / cha.
 review-terms = Ngokusebenzisa iCommon Voice, uyavumelana <termsLink>Nemigomo</termsLink> kanye <privacyLink>Nesaziso Sobumfihlo</privacyLink>
 review-aborted = Ukulodiwe kunqanyuliwe. Uyafuna ukususa okurekhodiwe kwakho?
 review-submit-msg = Siyabonga ngokurekhoda!<lineBreak></lineBreak>Manje buyekeza futhi uhambise iziqeshana zakho ngezansi.
@@ -224,12 +226,16 @@ missing-language = Awuboni ulimi lwakho luboniswa Kusethi Yedatha? Ukucela ulimi
 ## Download Modal
 
 download-helpus = Sisize sakhe umphakathi mayelana nobuchwepheshe bezwi, hlala uxhumene nge-imeyili.
+download-form-email =
+    .label = Faka i-emeyili yakho
+    .value = Siyabonga, sizokuthinta.
 
 ## Contact Modal
 
 
 ## Request Language Modal
 
+request-language-success-title = Isicelo solimi sithunyelwe ngempumelelo, siyabonga.
 request-language-success-content = Sizothintana ngolwazi olwengeziwe mayelana nendlela yokwengeza ulimi lwakho ku-Common Voice maduze nje.
 
 ## Request Language Pages
@@ -321,16 +327,16 @@ help-reach-hours-general-pluralized =
     }
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] { $totalHours } ihora
-       *[other] { $totalHours } amahora
+        [one] { $totalHours } ihora  lifinyeleleka esikhathini esingaphezudlwana nje kuka
+       *[other] { $totalHours } amahora  ifinyeleleka esikhathini esingaphezudlwana kuka
     }{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } ​​inyanga
-       *[other] { $periodMonths } ​​izinyanga
+        [one] { $periodMonths } ​​inyanga uma
+       *[other] { $periodMonths } ​​izinyanga uma
     } { NUMBER($people) ->
-        [one] { $people } umuntu
-       *[other] abantu abangu-{ $people }
+        [one] { $people } umuntu orekhodayo
+       *[other] abantu abangu-{ $people } abarekhodayo
     } { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } isiqeshana
+        [one] { $clipsPerDay } isiqeshana ngosuku
        *[other] iziqeshana ezingu-{ $clipsPerDay } ngosuku."
     }
 which-goal-type = Uyafuna Ukukhuluma, Ukulalela noma kokubili?
@@ -601,6 +607,7 @@ sc-review-select-language = Sicela ukhethe ulimi ozobuyekeza imisho.
 sc-review-no-sentences = Ayikho imisho ezobuyekezwa. <addLink>Engeza eminye imisho manje!</addLink>
 sc-review-form-prompt =
     .message = Imisho ebuyekeziwe ayithunyelwanga, uqinisekile?
+sc-review-form-keyboard-usage-custom = Ungasebenzisa futhi Izinqamuleli Zekhibhodi: { sc-review-form-button-approve-shortcut } ukuze Ukugunyaza, { sc-review-form-button-reject-shortcut } Ukunqaba, { sc-review-form-button-skip-shortcut } Ukweqa
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
