@@ -53,6 +53,7 @@ no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa u
 toggle-play-tooltip = Gandelela { shortcut-play-toggle } bona utjhugulule indlela yokudlala
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
 listen-subtitle = Sisiza siqinisekise amaphimbo
+voices-online = Amaphimbo afumanekako nje
 help-reach-goal = Sisiza sithome { $goal }
 read-terms-q = Uyifundile imibandela yethu?
 ready-to-record = Ukulungele ukunikela ngephimbo lakho?
@@ -116,6 +117,7 @@ profile-form-custom-accent-help-text =
     .label = Ungayihlathulula njani indlela ophimisela ngayo?
 profile-form-custom-accent-placeholder-2 = Thoma ukutlola uhlathulule indlela ophimisela ngayo
 profile-form-add-accent = Faka indlela ejayelekileko yokuphimisela "{ $inputValue }"
+why-profile-title = Kubayini iprhofayili?
 profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu usize ihlelo lethu linembe khudlwana.
 thanks-for-account =
     Siyathokoza ngokuqinisekisa i-akhawundi yakho, njeke asenze 
@@ -188,6 +190,7 @@ faq-description = Iphimbo elijayelekileko liyingcenye yegadango elithethwe yi-Mo
 
 ## ABOUT US
 
+about-title = Kubayini iCommon Voice?
 how-does-it-work-title-v2 = Isebenza njani iCommon Voice?
 
 ## How does it work section
@@ -211,7 +214,10 @@ about-listen-queue-text =
 about-listen-text = Abasebenzisa ihlelweli bayaqinisekisa bona amaphimbo abanikela ngawo, anembile ngokuqala bona isikhulumi sifunda imitjho kuhle.
 about-is-it-valid = Isiqetjhada sisemthethweni?
 about-is-it-valid-text = Okurekhodiweko kutshwaywa ngokuthi "Kuphasile" lokha okusebenzisako nakakuvowudela ngo-Iye.
+about-yes-votes = Kunamavowudi ama-≥ 2
 about-yes-votes-text = Bona uphumelele ukungena ehlelweni le-Common Voice iphimbo kufuze liphasiswe babantu ababili abahlukileko.
+about-no-votes = Kunamavowudi ama≥ 2
+about-no-votes-text = Kunamavowudi ama≥ 2
 about-stay-in-touch = Ngingahlala njani nginelwazi?
 about-stay-in-touch-text-1 = <emailFragment>Zitlolise ku</emailFragment> bona ufunde ukuthi ungasifaka njani isandla emajimeni, ezenzakalweni nokuthuthukisa ubujamo be-Common Voice.
 about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngokuthi ungene<discourseLink>Ebulungelweni</discourseLink> bona nikhulumisane ngeenhloko ezithileko namkha <matrixLink>Ubuhlanga</matrixLink> bona ufumane isiyeleliso ngokurhabako.
@@ -291,6 +297,7 @@ about-playbook-how-project-governance = Iinqunto zephrojekthi zenziwa njani?
 about-playbook-how-project-governance-content-2 = Umthethosisekelo wethu uyafumaneka ku:
 about-playbook-how-project-governance-content-3 = Ifihlo, ivikeleko nokuba sepepeneneni.
 about-playbook-how-project-governance-content-4 = Ukuzibandakanya komphakathi nokuthatha iinqunto.
+about-playbook-how-project-governance-content-5 = Ukuqakatheka nokutjhejwa.
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda okwengeziweko ngendlela esibuswa ngayo</governanceLink>
 
 ## Glossary
@@ -379,6 +386,8 @@ request-language-success-content = Sizokubuya nemininingwana engeziweko emalunga
 
 request-language-heading = Buza ngelimi elitjha
 request-language-explanation-2 = Sizokubuye <strong>sakwazisa  nomphathi womphakathethu ukuthi unekareko</strong>, ukwenzela bona bakunikele nanyana ngiliphi isekelo elengeziweko nelwazi okungenzeka ulitlhoge.
+request-language-form-email =
+    .label = Isiphande sakho se-email
 request-language-form-info =
     .label = Imininingwana ngelimi
 request-language-form-info-explanation =
@@ -386,6 +395,9 @@ request-language-form-info-explanation =
     ngelimi ngendlela ongakghona ngayo. Lokhu
     kungahlanganisa:
 request-language-form-info-explanation-list-1 = Amagama welimi lakho
+request-language-form-info-explanation-list-2 =
+    Amakhowudi <isoCodeLink> we-ISO</isoCodeLink> nange 
+    angazi
 request-language-form-info-explanation-list-3 = Ngena kuzindzolwazi engasisiza sizwisise ilimi
 request-language-google-recaptcha-required = kuyatlhogeka reCAPTCHA nange ufuna ukuragela phambili
 request-language-google-recaptcha-error =
@@ -505,11 +517,13 @@ visibility-overlay-note =
 get-started-goals = Thoma ngemigomo
 create-custom-goal = Zibekele umngomo
 goal-type = Ngimuphi umgomo ofuna ukuzibekela wona?
+both-speak-and-listen-long = Kokubili (Ukukhuluma nokuLalela)
 lose-goal-progress-warning =
     Nawutjhentjha umgomo ungalahlekelwa 
     yituthukwakho.
 want-to-continue = Ufuna ukuragela phambili?
 lose-changes-warning = Nawuphuma nje uzokulahlekelwa matjhuguluko owenzileko
+build-custom-goal = Zibekele umngomo ojayelekileko
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] Sisiza sifikelele i-awara
@@ -565,6 +579,7 @@ download-request-assembling-description =
     Amafayela wakho sele ahlanganisiwe. Sibawa uhlole 
     godu ngemva kwesikhatjhana.
 download-request-modal-description = Naka ama-link ongadawunilowuda kiwo amafayelakho.
+download-request-link-text = Zip #{ $offset } ye { $total }
 
 ## Landing
 
@@ -627,6 +642,7 @@ contribution-misreadings-example-4-title = IngorhoyeTriassic. Iye.
 contribution-misreadings-example-4-explanation = [Kurekhodwe okunengi ukudlula ebegade kutlhogeka]
 contribution-misreadings-example-5-title = Sisayokusela ikofi.
 contribution-misreadings-example-6-title = Sisayokusela ikofi.
+contribution-misreadings-example-6-explanation = [Kufuze kube ngu “Sibo”]
 contribution-misreadings-example-7-title = Sisayokusela ikofi.
 contribution-misreadings-example-7-explanation = [Awa kuno ‘a’ emtlolweni wokuthoma]
 contribution-misreadings-example-8-title = Ikhamba ngebelo le.
@@ -742,6 +758,9 @@ sc-submit-prompt =
     .message =
         Imitjho ayikathunyelwa. Unesiqiniseko 
         sokobana ufuna ukuphuma?
+sc-submit-add-sentences =
+    Faka imitjho <wikipediaLink>eya
+    </wikipediaLink> emphakathini
 sc-submit-ph-one-per-line =
     .placeholder = Umutjho munye elayinini
 sc-submit-from-where =
@@ -819,6 +838,7 @@ sc-lang-info-in-review =
         [one] 1 umutjho ongabuyekezwa.
        *[other] imitjho engabuyekezwa.
     }
+sc-lang-info-add-more = <addLink>Faka eminye imitjho nje</addLink>
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
