@@ -22,7 +22,9 @@ error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 
 ## Languages
 
+nan-tw = IsiTaiwanese (Minnan)
 sat = IsiSantali (Ol Chiki)
+tok = IsiToki Pona
 zh-HK = IsiChinese (Hong Kong)
 
 # [/]
@@ -60,8 +62,8 @@ listen-subtitle = Sisiza siqinisekise amaphimbo
 voices-online = Amaphimbo afumanekako nje
 todays-progress =
     { $count ->
-        [one] "Ilanga"
-       *[other] "Amalanga"
+        [one] Ituthuko
+       *[other] yanamhlanjesi
     }
 help-reach-goal = Sisiza sithome { $goal }
 read-terms-q = Uyifundile imibandela yethu?
@@ -131,6 +133,8 @@ status-hours =
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Ibizo olisebenzisako
 profile-form-variant =
     .label = Ngimaphi ama { $language } ahlukahlukeneko owakhulumako?
 profile-form-variant-default-value = Akukho okuhlukahlukeneko okhethiweko
@@ -231,13 +235,16 @@ how-does-it-work-title-v2 = Isebenza njani iCommon Voice?
 ## How does it work section
 
 about-language-req-subtitle = Omunye ubawe bona kufakwe ilimi.
+about-localization-title = Iwebhusayidi yelimi lendabuko
 about-localization-subtitle = Umtlolo osetjenziswe kuwebhusayidi utjhugululelwe eliminelo.
 about-sentence-collection-subtitle = Imitjho ibuthelelwe ukwenzela bona umuntu ayifundele phezulu.
 about-new-lang-title = Ilimi elitjha elifakwa ngokusemthethweni
 about-new-lang-subtitle =
     Sethula ikhasi le-Common Voice ngokusemthethweni 
     ngelimeli.
+about-voice-contrib-title = Ukunikela ngephimbo
 about-voice-contrib-subtitle = Abantu bayeza bazokunikela ngamaphimbo wabo.
+about-voice-validation-title = Ukuqinisekiswa kwephimbo
 about-voice-validation-subtitle = Abanye abantu baqinisekisa iinqetjhana zokurekhodiweko.
 about-dataset-release-subtitle = Sitjhaphulula okurekhodiweko qobe eenyangeni ezi-3.
 about-subscribe-text = Ufuna ukuhlala uthintana ne-Common Voice?
@@ -395,6 +402,7 @@ confirm-size =
     Ukulungele ukuthoma ukudawuniloda i 
     <b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> bona angekhe ulinge ukufumana bona maphimbo wabobani aku-Common Voice
+validated-hours = Ama-awara aqinisekisiweko
 whats-inside = Khuyini engaphakathi kwehlelo le-Common Voice?
 want-dataset-update = Ufuna sikwazise nasikhupha ihlelo elitjha leCommon Voice? Zitlolise engcenyenethu yeendaba.
 get-started-speech = Thoma ngokuhlola iphimbo
@@ -403,6 +411,7 @@ resource-nemo-info = <githubLink>INVIDIA NeMo</githubLink>™ yi <docsLink>lithu
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> izibophezele ukuvula ihlelo letheknoloji lokukhuluma. Amahlelwabo ahlanganisa ifundo engeneleleko STT ne TTS.
 resource-playbook-info = <playbookLink>Fumana isinqophiso esilisizo</playbookLink> kilo loke ikhambo leCommon Voice, kusukela ekulumweni yendabuko, ukusebenzisa ihlelweli nokuthi ungathintana njani nomphakathethu.
 data-other-librispeech-description = I-LibriSpeech mitlolo engathatha pheze ama-awara ayi-1000 ye 16Khz efundwa ngelimi lesiNgisi ethethwe eencwadini ezirekhodiweko zehlelo le-LibriVox
+data-other-ted-name = IsiTED-LIUM Corpus
 data-other-ted-description = I-TED-LIUM yenziwe ithathelwa eenkulumweni ezigadangisiweko begodu okutloliweko kuyafumaneka kuzinzolwazi yeTED.
 data-other-voxforge-description = IVoForge yahlonywa bona kubuthelelwe ikulumo etlolwe phasi bona isetjenziswe Ngokutjhaphulukileko.
 your-feedback = Kghani unemibono yokuthi singayithuthukisa njani i-Common Voice siyenze ibengcono? Ungasazisa ngokusitlolela namkha ngenye indlela
@@ -465,6 +474,7 @@ request-language-error = Kungenzeka asikasifumani isibaweso. Sibawa usithumele i
 ## Languages Overview
 
 language-section-in-progress-new-description = Umphakathi usawathuthukisa amalimi la. <localizationGlossaryLink>Izinzolwazi yelocalization</localizationGlossaryLink> begodu <sentenceCollectionGlossaryLink>kutlhogeka imitjho</sentenceCollectionGlossaryLink> bona afakwe ngokusemthethweni.
+language-validation-progress = Ituthuko eqinisekisiweko
 
 ## Contribution
 
@@ -582,6 +592,9 @@ todays-recorded-progress = Ituthuko yanamhlanjesi yokurekhodwe kuCommon Voice
 todays-validated-progress =
     Okuphasisiweko namhlanjesi okurekhodwe 
     kuCommon Voice
+top-contributors = Umnikelo ophezulu
+validated-clips = Iinqetjhana eziqinisekisiweko
+total-approved = Inomboro yokuphasisiweko
 set-visibility = Tjengisa nangikhona
 visibility-overlay-note =
     Tjheja: Amasethingi wengcenye ethi 'Bonakala'
@@ -649,6 +662,7 @@ download-profile-size = Faka amabhayithi ambalwa
 download-recordings-info =
     Ukuhlanganisa ne-mp3 emitjhweni kungathatha 
     isikhathi eside
+download-recordings-size = Yide khulu
 download-recordings-unavailable =
     Angekhe wakghona ukubawa okurekhodileko nange
     kusesenesinye isibawo osifakileko.
@@ -737,6 +751,7 @@ contribution-misreadings-example-6-explanation = [Kufuze kube ngu “Sibo”]
 contribution-misreadings-example-7-title = Sisayokusela ikofi.
 contribution-misreadings-example-7-explanation = [Awa kuno ‘a’ emtlolweni wokuthoma]
 contribution-misreadings-example-8-title = Ikhamba ngebelo le.
+contribution-varying-pronunciations-title = Ukuphimisela okuhlukahlukeneko
 contribution-varying-pronunciations-example-1-title = Umbethe ibherede ehlokwakhe.
 contribution-varying-pronunciations-example-1-explanation = [‘Berete’ ngu Iye kungakhathaliseki bona ugandelelwa kokothoma e- (UK) namkha kwesibili e- (US)]
 contribution-varying-pronunciations-example-2-title = Isandla sakhe besiphakamile.
