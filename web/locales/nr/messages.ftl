@@ -920,7 +920,7 @@ validated-clips = Iinqetjhana eziqinisekisiweko
 total-approved = Inomboro yokuphasisiweko
 overall-accuracy = Ukunemba
 set-visibility = Tjengisa nangikhona
-visibility-overlay-note = Bonakalako
+visibility-overlay-note = Tjheja: Amasethingi wengcenye ethi 'Bonakala' angatjhugululwa la <profileLink>ekhasini lePhrofayili</profileLink>
 show-ranking = Veza ukutshwaya kwami
 
 ## Custom Goals

@@ -10,7 +10,7 @@ get-involved-email =
 get-involved-opt-in = Iye, ngithumelani ama-email. Ngingakuthabela ukuhlala nginelwazi ngetuthuko yelimeli ku-Common Voice.
 get-involved-submit = Thumela
 get-involved-stayintouch = IsiYiddish
-get-involved-privacy-info = IsiCornish
+get-involved-privacy-info = Sithembisa ukugcina imininingwana yakho iyifihlo. Funda okwengeziweko ngesaZiso sethu sezinto eziyiFihlo <privacyLink>Nemigomo</privacyLink>.
 get-involved-success-title = Iphumelele
 get-involved-success-text =
     Sizokubuya nemininingwana eyengeziweko
