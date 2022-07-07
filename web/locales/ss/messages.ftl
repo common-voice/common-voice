@@ -438,6 +438,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = Le-site ye localization isebenta njani?
+about-playbook-how-localize-content-1 = Kuhumushwa kwelikhasi la Common Voice kwenteka ku<strong>Pontoon</strong>.
 about-playbook-how-localize-content-5 = Bukela i-video yetfu lechaza kabanti kuze usitakale.
 
 ## How to add sentences
@@ -1048,6 +1049,7 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = Cedza kubuyeketa
+sc-review-form-review-failure = Kubuyeketwa akusaseveki. Sicela ubuye wetame futsi.
 sc-review-link = Buyeketa
 
 ## SETTINGS
@@ -1057,6 +1059,8 @@ sc-settings-ui-language = Interface Language
 sc-settings-reset-skipped = Lungisa imisho leyecekile
 sc-settings-show-all-button = Khombisa yonkhe imisho leyengciwe futsi
 sc-settings-failed = Ema settings akashintjeki. Sicela uphindze wetame futsi.
+# VALIDATION
+sc-validation-number-of-words = Umusho kumele ucuketse ligamalelingu 1 kuya kulangu 14
 sc-validation-no-numbers = Imisho akukameli ibe netinimbolo
 sc-validation-no-symbols = Imisho akukameli ibe nemifanekiso
 sc-validation-no-abbreviations = Imisho akukameli ibe netifinyeto
