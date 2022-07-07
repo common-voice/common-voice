@@ -109,6 +109,7 @@ profile-form-variant =
 profile-form-custom-accent-help-text =
     .label = Ungayihlathulula njani indlela ophimisela ngayo?
 profile-form-custom-accent-placeholder-2 = Thoma ukutlola uhlathulule indlela ophimisela ngayo
+profile-form-add-accent = Faka indlela ejayelekileko yokuphimisela "{ $inputValue }"
 profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu usize ihlelo lethu linembe khudlwana.
 thanks-for-account =
     Siyathokoza ngokuqinisekisa i-akhawundi yakho, njeke asenze 
@@ -125,6 +126,9 @@ help-variants = Utlhoga isizo ngemihlobohlobo?
 
 ## Profile - Email
 
+browse-file =
+    Dosa ubeke namkha 
+    <browseWrap>Ufune</browseWrap>
 gravatar_not_found = Akuna-gravatar efumanekako ku-emailakho
 file_too_large = Ifayela elikhethiweko likhulu
 
@@ -214,6 +218,9 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Buke
 about-playbook-how-add-language-collecting-sentences-content-1 =
     <sentenceCollectorVideo>Bukela 
     iinqophiso zethu kuzoKubuthelela iMitjho</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-3 =
+    <sentenceCollectorFragment>Fumana eminye
+     imitjho</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -244,6 +251,9 @@ about-playbook-how-record-content-3 =
     Funda umutjho kuhle-ungeqi, 
     utjhugulule namkha ungezelele amagama.
 about-playbook-how-record-content-4 = Yenza isiqiniseko sokobana ihlelo liyarekhoda ngaphambi kobana uthome ukukhuluma begodu liyajama nawuqedako.
+about-playbook-how-record-content-5 =
+    <accuracyLink>Fumana okwengeziweko 
+    kweziqinisekisiweko.</accuracyLink>
 
 ## How to grow language
 
@@ -267,6 +277,7 @@ about-playbook-how-access-dataset-content-2 = Nange funa amathulusi wokwakha ama
 
 about-playbook-how-project-governance = Iinqunto zephrojekthi zenziwa njani?
 about-playbook-how-project-governance-content-2 = Umthethosisekelo wethu uyafumaneka ku:
+about-playbook-how-project-governance-content-4 = Ukuzibandakanya komphakathi nokuthatha iinqunto.
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda okwengeziweko ngendlela esibuswa ngayo</governanceLink>
 
 ## Glossary
@@ -290,6 +301,9 @@ error-title-404 = Asilifumani ikhasi olifunako
 
 data-download-modal = Sele ukulungele ukudawuniloda i <size>{ $size }GB</size>, uyaraga?
 data-subtitle = Sakha ibulungelo lamaphimbo arekhodiweko angasetjenziswa ngiwo woke umuntu bona angawasebenzisa ukubandula iinsetjenziswa bona zikhulume ikulumo eyamukeleko.
+data-get-started =
+    <speechBlogLink>Thoma ngehlelo lokuHlola
+    iPhimbo</speechBlogLink>
 data-bundle-description =
     Nanti ihlelo leCommon Voice namanye 
     amaphimbo ngehla.
@@ -344,6 +358,7 @@ request-language-success-content = Sizokubuya nemininingwana engeziweko emalunga
 
 ## Request Language Pages
 
+request-language-heading = Buza ngelimi elitjha
 request-language-explanation-2 = Sizokubuye <strong>sakwazisa  nomphathi womphakathethu ukuthi unekareko</strong>, ukwenzela bona bakunikele nanyana ngiliphi isekelo elengeziweko nelwazi okungenzeka ulitlhoge.
 request-language-form-info-explanation =
     Faka imininingwana eminengi 
@@ -375,6 +390,11 @@ goal-help-recording =
 goal-help-validation =
     Usize iCommon Voice ukufikelela 
     <goalPercentage></goalPercentage> umgomo wokuqinisekisa { $goalValue } welanga!
+contribute-more =
+    { $count ->
+        [one] Ukulungele ukwenza
+       *[other] okwengeziweko?
+    }
 record-platform-not-supported = Sibawa usilibalele okufunako akufumaneki.
 record-platform-not-supported-ios-non-safari =
     Ku-iOS sibawa uragele phambili ngeSafari bona ukghone 
@@ -398,6 +418,7 @@ listen-instruction =
 listen-again-instruction =
     Wenze kuhle!<playIcon></playIcon> Lalela godu 
     nasele ujame kuhle
+listen-3rd-time-instruction = Sele kuphele ezi-2, ragela phambili!<playIcon></playIcon>
 listen-empty-state =
     Asisenayo imitjho engaqinisekiswa 
     ngelimeli...
@@ -412,6 +433,7 @@ speak-loading-error =
     "Ayikho imitjho esiyifumanako
     ongayitjho.
     Sibawa ulinge ngesikhathi esilandelako."
+share-title-new = <bold>Sisiza</bold> sifumane amanye amaphimbo
 keep-track-profile = Tjheja ituthukwakho ngephrofayili
 login-to-get-started = Thungela namkha uzitlolise bona uthome
 target-segment-first-card = Unikela engcenyeni yethu yokuthoma
@@ -456,6 +478,7 @@ goal-type = Ngimuphi umgomo ofuna ukuzibekela wona?
 lose-goal-progress-warning =
     Nawutjhentjha umgomo ungalahlekelwa 
     yituthukwakho.
+want-to-continue = Ufuna ukuragela phambili?
 lose-changes-warning = Nawuphuma nje uzokulahlekelwa matjhuguluko owenzileko
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
@@ -619,6 +642,7 @@ sc-languages-fetch-error =
 
 ## HOW-TO
 
+sc-howto-addlang-title = Faka amalimi ozokusebenza ngawo
 sc-howto-addlang-text =
     Nasele uthungele ungakghona ukukhetha amalimi
     owafunako erhelweni.
