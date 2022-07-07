@@ -235,6 +235,7 @@ read-terms-q = Uyifundzile imigomo yetfu?
 ready-to-record = Ulungele kunikela ngelivi lakho?
 all-locales = Konkhe
 today = Namuhla
+help-make-dataset = Sisite kwakha i-datset lesezingeni lelisetulu futsi lengatfolwa sive sonkhe.
 sign-up-account = bhalisela kuvula i-account
 email-subscription-title = bhalisela tindzaba letihamba embili ngeliposi lembane
 
@@ -714,8 +715,8 @@ lose-changes-warning = Kuhamba nyalo kusho kutsi utolahlekelwa tingucuko lotenti
 build-custom-goal = Yakha ligoli lakho
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
-        [one] { "" }
-       *[other] { "" }
+        [one] Sisiste sifike ku { $hours } lihora nge { $language } ngeligoli lakho
+       *[other] Sisiste sifike ku { $hours } wemahora nge { $language } ngeligoli lakho
     }
 set-a-goal = Setha ligoli
 cant-decide = Awukhoni kukhetsa?
@@ -763,6 +764,7 @@ download-request-archive-single = Lifayela linye le ZIP lelicuketse
 download-request-archive-multiple = Hlephula kube{ $archiveCount } ngemafayela e ZIP lacuketse
 download-request-refresh-button = Vuselela
 download-request-modal-title = Download Links
+download-request-modal-description = Nawa ema link eku download amafayela laku ZIP.
 download-request-link-text = Zip #{ $offset } of { $total }
 download-request-metadata-link = Imisho lemagama
 
