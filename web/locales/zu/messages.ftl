@@ -119,6 +119,7 @@ faq-how-calc-hours-q = I-Common Voice iwabala kanjani amahora?
 faq-where-src-from-2-q = Uvelaphi umbhalo owumthombo?
 faq-why-not-ask-read-q = Kungani ungaceli abantu ukuthi bafunde ezincwadini noma izindatshana zeWikipedia ngezilimi ezahlukene?
 faq-why-account-q = Kungani kufanele ngibhalisele i-akhawunti?
+faq-is-account-public-q = Ingabe ulwazi lwe-akhawunti yami lusesidlangalaleni?
 faq-how-privacy-q = Uqinisekisa kanjani ukungaziwa nobumfihlo babantu abanikele ngamazwi abo?
 faq-what-determine-identity-q = Kusho ukuthini ukuthi angikwazi “ukunquma ubunikazi” bezikhulumi kudathasethi yeCommon Voice?
 faq-what-determine-identity-a =
@@ -129,6 +130,7 @@ faq-description = I-Common Voice iyingxenye yesinyathelo se-Mozilla sokusiza uku
 
 ## ABOUT US
 
+how-does-it-work-title-v2 = Isebenza kanjani i-Common Voice?
 
 ## How does it work section
 
@@ -165,6 +167,7 @@ about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollec
 
 ## How does localization work
 
+about-playbook-how-localize = Ngabe i-localization yesayithi isebenza kanjani?
 about-playbook-how-localize-content-1 = Ukuhunyushwa kwesayithi le-Common Voice kwenzeka <strong>e-Pontoon</strong>.
 about-playbook-how-localize-content-4 = Isayithi lizolungela ukwethulwa uma sesifinyelele ekuqedweni okungu-75%.
 about-playbook-how-localize-content-5 = Buka umchazi wethu wevidiyo ukuze usize
