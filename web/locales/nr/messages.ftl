@@ -466,6 +466,11 @@ language-section-in-progress-new-description = Umphakathi usawathuthukisa amalim
 
 ## Contribution
 
+clips-with-count-pluralized =
+    { $count ->
+        [one] Isiqetjhana
+       *[other] Iinqetjhana
+    }
 goal-help-recording =
     Usize iCommon Voice 
     <goalPercentage></goalPercentage> umgomo welanga { $goalValue } wokurekhoda!
@@ -500,6 +505,7 @@ review-tooltip = Buyekeza bewurekhode kabutjha khona la
 share-clip = Yabelana ngesiquntu engisirekhodileko
 share-common-voice = Yabelana ngeCommon Voice
 review-instruction = Buyekeza bewurekhode nange kutlhogeka
+record-submit-tooltip = { $actionType } thumela nasele ukulungele
 record-abort-title = Qeda ukurekhoda qangi?
 record-abort-text = Nawuphuma nje uzokulahlekelwa ngosele ukwenzile
 record-abort-delete = Phuma namkha Susa iinqetjhana
@@ -566,6 +572,7 @@ validations =
 
 ## Dashboard
 
+your-languages = Amalimi wakho
 toward-next-goal = Umgomo olandelako
 clips-you-recorded = Iinqetjhana ozirekhodileko
 clips-you-validated = Iinqetjhana oziqinisekisileko
@@ -715,6 +722,7 @@ contribution-misreadings-description-extended-list-4 =
 contribution-misreadings-description-extended-list-5 = Ukulinga kanengana ukufunda igama.
 contribution-misreadings-example-1-title = Iingorho zeTriassic.
 contribution-misreadings-example-2-title = Iingorho zeTriassic.
+contribution-misreadings-example-2-explanation = [Kungenzeka ‘iphelelwe sikhathi’]
 contribution-misreadings-example-3-title = Iingorho zeTriassic.
 contribution-misreadings-example-3-explanation = [Ukujamisa ukurekhoda ngaphambi kwegama lokugcina]
 contribution-misreadings-example-4-title = IngorhoyeTriassic. Iye.
@@ -958,6 +966,7 @@ sc-login-err-try-again = Sibawa ulinge godu.
 
 sc-personal-err-lang-not-found = Ngekhe ukghone ukukhupha ilimi: ilimi alifumaneki
 sc-personal-err-remove = Angikghoni ukususa ilimi
+sc-personal-your-languages = Amalimi wakho:
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } efakwe nguwe
