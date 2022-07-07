@@ -8,7 +8,7 @@ get-involved-form-title = Zitlolisele { $lang } zamva nje:
 get-involved-opt-in = Isi-Ukrainia
 get-involved-stayintouch = IsiYiddish
 get-involved-privacy-info = Isi-Ukrainia
-get-involved-success-title = Isi-Uzbek
+get-involved-success-title = Iphumelele
 get-involved-success-text =
     Sizokubuya nemininingwana eyengeziweko
     nasele ifumaneka.

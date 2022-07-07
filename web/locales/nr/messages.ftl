@@ -46,11 +46,20 @@ rm-sursilv = IsiRomansh Sursilvan
 rm-vallader = IsiRomansh Vallader
 sat = IsiSantali (Ol Chiki)
 st = IsiSotho seSewula
+sv-SE = IsiSwedish
+sw = IsiSwahili
+syr = IsiSyriac
+ta = IsiTamil
+te = IsiTelugu
+tg = IsiTajik
 th = IsiThai
 ti = IsiTigrinya
 tig = IsiTigre
 tk = IsiTurkmen
+tl = IsiTagalog
 tok = IsiToki Pona
+tt = IsiTatar
+ty = IsiTahitian
 uby = Isi-Ubykh
 udm = Isi-Udmurt
 vec = IsiVenetia
@@ -67,6 +76,7 @@ zu = IsiZulu
 ## Layout
 
 speak-now = Khuluma nje
+terms = Imigomo
 content-license-text =
     Okumumethweko kuyafumaneka ngaphasi 
     kwe <licenseLink>Ilayisense Yokuthoma Izinto Ezijayelekileko</licenseLink>
@@ -331,7 +341,7 @@ about-voice-validation-title = Ukuqinisekiswa kwephimbo
 about-voice-validation-subtitle = Abanye abantu baqinisekisa iinqetjhana zokurekhodiweko.
 about-dataset-release-title = daily-goal
 about-dataset-release-subtitle = Sitjhaphulula okurekhodiweko qobe eenyangeni ezi-3.
-about-subscribe-text = Ufuna ukuhlala uthintana ne-Common Voice?
+about-subscribe-text = Zitlolise
 about-speak-text =
     Abanikelako barekhoda amaphimbwabo ngokufunda 
     imitjho ekunikelwe ngayo.
@@ -593,6 +603,7 @@ language-validation-progress = Ituthuko eqinisekisiweko
 
 ## Contribution
 
+action-tap = IsiTap
 clips-with-count-pluralized =
     { $count ->
         [one] Isiqetjhana
@@ -935,6 +946,7 @@ sc-header-my = Imitjho yami
 sc-footer-report-bugs = Bika okungakalungi
 sc-footer-translate = Tjhugulula ikhaseli
 sc-footer-report-copyright = Bika iindaba zamalungelo wokugadangisa
+sc-footer-terms = Imibandela
 sc-login-signup-button = Thungela / Zitlolise
 
 ## HOME
