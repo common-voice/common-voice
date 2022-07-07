@@ -79,6 +79,7 @@ skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma no
 
 ## Profile - Email
 
+file_too_large = Ifayela elikhethiwe likhulu kakhulu
 
 ## Profile - Email
 
@@ -391,6 +392,9 @@ contribution-misreadings-description-extended-list-2 = Ishoda ngo-<strong>'s'</s
 contribution-misreadings-description-extended-list-3 = Ukufunda izifinyezo ezingekho, njengokuthi "We're" esikhundleni sokuthi "We are", noma okuphambene nalokho.
 contribution-misreadings-description-extended-list-4 = Uphuthelwa isiphetho segama lokugcina ngokunqamula ukuqopha ngokushesha okukhulu.
 contribution-misreadings-description-extended-list-5 = Ukuthatha imizamo embalwa yokufunda igama.
+contribution-misreadings-example-1-title = Ama-dinosaurs amakhulu e-Triassic.
+contribution-misreadings-example-2-title = I-dinosaur enkulu ye-Triassic.
+contribution-misreadings-example-3-title = Ama-dinosaurs amakhulu e-Triassi-.
 contribution-misreadings-example-3-explanation = [Ukurekhoda kunqamukile ngaphambi kwegama lokugcina]
 contribution-misreadings-example-4-title = Ama-dinosaurs amakhulu e-Triassic. Yebo.
 contribution-misreadings-example-4-explanation = [Okurekhodiwe kuningi kunaloku okudingekayo embhalweni]
@@ -402,6 +406,7 @@ contribution-varying-pronunciations-example-1-explanation = [I-‘Beret’ ILUNG
 contribution-varying-pronunciations-example-2-explanation = [Igama elesiNgisi u'Raised' liphinyiswa ngohlamvu olulodwa, hhayi ezimbili]
 contribution-background-noise-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 contribution-background-noise-example-1-fixed-title = <strong>[ukuthimula]</strong> Ama-dinosaurs amakhulu we-<strong>[ukukhwehlela]</strong> we-Triassic.
+contribution-background-noise-example-2-fixed-title = I-dino enkulu <strong>[ukukhwehlela]</strong> i-Triassic.
 contribution-background-noise-example-2-explanation = Ingxenye yombhalo ayizwakali
 contribution-background-voices-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 contribution-background-voices-example-1-title = Ama-dinosaurs amakhulu e-Triassic. <strong>[funda ngezwi elilodwa]</strong>
@@ -432,6 +437,7 @@ sc-howto-cite-item-2 = Ungasebenzisa isitayela sereferensi yezemfundo, isb isita
 sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-inthanethi, ungasebenzisa isitayela sereferensi yezemfundo isb isitayela saseHarvard "Jess (2021) Izinkondlo Zami Zelayisensi Yomphakathi"
 sc-howto-review-subtitle = Qiniseka ukuthi umusho uhambiselana nemibandela elandelayo:
 sc-howto-review-criteria-1 = Umusho kumele ubhalwe ngendlela efanele.
+sc-howto-review-criteria-2 = Umusho kumele uhambisane nohlelo lolimi.
 sc-howto-review-criteria-4 = Uma umusho uhambisana nemibandela, chofoza inkinobho ethi "Vumela".
 sc-howto-review-criteria-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
 sc-howto-findpd-title = Ukuthola imisho ekhona Kusizinda Somphakathi
@@ -572,6 +578,7 @@ sc-personal-not-added = Awukangezi izilimi okwamanje.
 ## REVIEW CRITERIA
 
 sc-criteria-make-sure = Qiniseka ukuthi umusho uhambiselana nemibandela elandelayo:
+sc-criteria-item-2 = Umusho kumele uhambisane nohlelo lolimi.
 sc-criteria-item-4 = Uma umusho uhlangabezana nemibandela, chofoza okuthi &quot;Vumela&quot; inkinobho kwesokudla.
 sc-criteria-item-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
 
