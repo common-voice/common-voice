@@ -30,11 +30,13 @@ error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 af = IsiKarakalpak
 arn = IsiMapudungun
 bg = IsiLuganda
+ca = IsiCatala
 cak = IsiKaqchikel
 ckb = IsiCentral Kurdish
 cnh = IsiHakha Chin
 co = IsiCorsica
 cs = IsiCzech
+cv = IsiChuvash
 da = IsiDanish
 de = IsiGerman
 dsb = IsiSorbian, Lower
@@ -167,6 +169,7 @@ speak-now = Khuluma nje
 datasets = Ukuhlelwa kwemininingwana
 profile = Iphrofayili
 help = Isizo
+contact = Thintana
 terms = Imigomo
 cookies = Amafayela amancani
 faq = I-FAQ
@@ -337,6 +340,7 @@ build-profile = Yakha iphrofayili
 settings = Amasethingi
 edit-profile = Lungisa
 profile-create-success = Ukghonile ukwenza iphrofayili!
+profile-close = { "" }
 profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu usize ihlelo lethu linembe khudlwana.
 thanks-for-account =
     Siyathokoza ngokuqinisekisa i-akhawundi yakho, njeke asenze 
@@ -745,6 +749,7 @@ language-validation-progress = Ituthuko eqinisekisiweko
 
 ## Contribution
 
+action-click = vala
 action-tap = IsiTap
 clips-with-count-pluralized =
     { $count ->
@@ -854,6 +859,8 @@ report-difficult-pronounce-detail =
     ukuwafunda namkha ukuwaphimisela.
 report-offensive-speech = Ikulumo elumelako
 report-offensive-speech-detail = Okurekhodiweko kunamezwi adelelako namkha alumelako.
+report-other-comment =
+    .placeholder = Umbono
 report-success = Umbiko uphasile
 
 ## Goals
@@ -1289,6 +1296,7 @@ sc-confirm-ready =
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } Imitjho ayikabuyekezwa. Nange ufuna, ungabuyekeza imitjhwakho khona nje ngaphambi kobana uyikhambise.
+sc-confirm-button-text = Qinisekisa
 sc-confirm-uploading = Imitjho iyafakwa. Lokhu kungathatha imizuzu embalwa kuye ngenani lemitjho efakiweko. Sibawa ungalivali izinzolwazeli.
 
 ## LANGUAGE INFO
