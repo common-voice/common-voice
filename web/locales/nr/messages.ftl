@@ -118,6 +118,7 @@ username-optin-public =
 ## Speak Shortcuts
 
 shortcut-discard-ongoing-recording-label = Susa okurekhodwako
+shortcut-submit-label = Thumela iinqetjhana
 request-language-text = Awuliboni ilimi lakho ku-Common Voice?
 request-language-button = Bawa Ilimi
 
@@ -520,6 +521,7 @@ review-instruction = Buyekeza bewurekhode nange kutlhogeka
 record-submit-tooltip = { $actionType } thumela nasele ukulungele
 record-abort-title = Qeda ukurekhoda qangi?
 record-abort-text = Nawuphuma nje uzokulahlekelwa ngosele ukwenzile
+record-abort-submit = Thumela iinqetjhana
 record-abort-delete = Phuma namkha Susa iinqetjhana
 listen-instruction =
     { $actionType }<playIcon></playIcon> bayikhulume 
@@ -906,6 +908,7 @@ sc-add-err-failed =
         [one] Umutjho mu-1 ofeyilileko
        *[other] imitjho efeyilileko
     }
+sc-add-err-submission = Kube nomraro nawuthumelako
 sc-add-lang-process-notice =
     Nange ilimi lakho lingaveli la, ungabawa
     bona lifakwe ngokulandela ikambiso le <languageProcessLink>yehlelo nanti</languageProcessLink>.
