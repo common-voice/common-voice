@@ -615,6 +615,7 @@ goal-help-recording = { "" }
 record-cta = Cala kutfwebula
 record-platform-not-supported = Siyacolisa, inkhundla yakho ayikasekelwa kwamanje.
 record-platform-not-supported-desktop = Kubongcondvomshina, ungalekelela ngeku download....
+record-platform-not-supported-ios-non-safari = Ku iOS, sicela uchubeke nga Safari kuze ukhone kutfwebula.
 record-must-allow-microphone = Vumela kusebenta kwembobho.
 record-no-mic-found = Kute umbhobho lotfolakele.
 record-error-too-short = Le recording beyiyimfisha kakhulu.
@@ -751,6 +752,7 @@ profile-form-delete = Yesula likhasi
 download-q = Udzinga ku download i-data yakho?
 download-info = Sitjele kutsi ungatsandza ku download ini:
 download-profile-title = Likhasi lelichaza kabanti ngawe
+download-profile-info = Kufaka ekhatsi liposi lembane, emagama nemniningwane wakho, kuyatfolakala masinyane.
 download-profile-size = A few bytes
 download-recordings-title = Lokutfwebuliwe
 download-recordings-size = Typically megabytes
@@ -779,6 +781,7 @@ read-more-about = Fundza kabanti ekhasini lelichaza Kabanti ngatsi
 
 demo-get-started = Asicale
 demo-welcome = Siyakwemukela ka Common Voice
+demo-welcome-subheader = Unenshisekelo yekwati kabanti nekulekelela kulomsebenti?
 
 ## Demo Datasets
 
@@ -798,6 +801,7 @@ demo-account-sign-up = Tfumela i-link yekubhalisa
 
 ## Demo Contribute
 
+demo-contribute-card-header = Ulungele kungeta livi lakho noma ke kupha indlebe?
 demo-listen-subtitle = Ulungele kulekelela?
 
 ## Demo Dashboard
@@ -810,6 +814,7 @@ contribution-criteria-link = Condzisisa luhla lwekulekelela
 contribution-criteria-page-title = Luhla lwekulekelela
 contribution-for-example = kubekisa
 contribution-misreadings-title = Lokufundvwe kabi
+contribution-misreadings-description-extended-list-2 = Kushoda <strong>'s'</strong> ekugcineni kweligama.
 contribution-misreadings-description-extended-list-5 = Kutsatsa emahlandla kufundza ligama.
 contribution-misreadings-example-1-title = Ema dinosaur lamakhulu ase Triassic.
 contribution-misreadings-example-2-title = I dinosaur lenkhulu yase Triassic.
