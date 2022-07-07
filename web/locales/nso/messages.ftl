@@ -84,6 +84,9 @@ about-header-description-v2 = Theknolotši ya go tlhathollo lentšu e fetola tse
 
 ## How to add sentences
 
+about-playbook-how-add-sentences-content-2 =
+    "Mafoko a swanela go hlahlobja le go amagelwa ke batho ba babedi gore di tsenywe mo go Common Voice. O hlangwa tlhahlo mabapi le tša polelo ya geno
+    <languageGuidelinesLink> mo</languageGuidelinesLink>. Mafoko a swanetše go ba<licenseLink> lefelong la batho bohle</licenseLink>  gomme le be kopana go fetwa/ka tlase ga mantšu a 15. O ka kgopela mong wa mongwalo go e dira <waiverLink>CC0 o šomiša mokgwa wa rena wa go tlogela</waiverLink>, gomme o re romele go commonvoice@mozilla.com"
 
 ## How to record quality
 
@@ -175,6 +178,7 @@ dataset-description-hours =
 
 ## Demo Dashboard
 
+demo-dashboard-card-body = Bakeng sa setsopolwana se sengwe le sengwe sa lentšu le neetšwego, gomme setsopolwana se sengwe le se sengwe sa odio se kgonthišwe, di-dashpoto tša akhaonto ya gago di a kaonefatšwa go bontšha tšwelo pele ya gago ya moragorago go ye nngwe le ye nngwe ya lpolelong yeo o neelago go yona. Ee, o ka neela go tše fetago e tee!<br/><br/> Šomiša di-dashpoto go latela dipalo-palo tša gago, go bona gore na o šoma bjang le batho ba bangwe setšhabeng, gomme o beele dipakane tša letšatši le letšatši goba tša beke le beke.
 
 ## Validation criteria
 
