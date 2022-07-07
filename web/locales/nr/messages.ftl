@@ -57,6 +57,7 @@ default-tagline =
     IMozilla Common Voice izimisele ukusiza
     ekufundiseni imitjhini bona abantu bamambala bakhuluma njani.
 home-cta = Khuluma, nikela endaweni le!
+show-wall-of-text = Funda okwengeziweko
 help-us-title = Sisiza siqinisekise imitjho!
 help-us-explain =
     Gandelela, dlala lalela bese uyasitjela: bawutjho kuhle na
@@ -416,6 +417,7 @@ confirm-size =
     <b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> bona angekhe ulinge ukufumana bona maphimbo wabobani aku-Common Voice
 validated-hours = Ama-awara aqinisekisiweko
+recorded-hours = Ama-awara wokurekhoda
 whats-inside = Khuyini engaphakathi kwehlelo le-Common Voice?
 want-dataset-update = Ufuna sikwazise nasikhupha ihlelo elitjha leCommon Voice? Zitlolise engcenyenethu yeendaba.
 get-started-speech = Thoma ngokuhlola iphimbo
@@ -610,6 +612,7 @@ todays-validated-progress =
     Okuphasisiweko namhlanjesi okurekhodwe 
     kuCommon Voice
 top-contributors = Umnikelo ophezulu
+recorded-clips = Rekhoda Iinqetjhana
 validated-clips = Iinqetjhana eziqinisekisiweko
 total-approved = Inomboro yokuphasisiweko
 set-visibility = Tjengisa nangikhona
@@ -793,6 +796,7 @@ contribution-background-voices-example-1-title =
 contribution-background-voices-example-1-explanation =
     Uyeza? <strong>[called by 
     another]</strong>
+contribution-reader-effects-title = Iinkunupe zokufunda
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
