@@ -47,6 +47,9 @@ quy = IsiQuechua Chanka
 rm-sursilv = IsiRomansh Sursilvan
 rm-vallader = IsiRomansh Vallader
 sat = IsiSantali (Ol Chiki)
+sk = IsiSlovak
+sl = IsiSlovenia
+so = IsiSomali
 st = IsiSotho seSewula
 sv-SE = IsiSwedish
 sw = IsiSwahili
@@ -105,7 +108,7 @@ help-us-title = Sisiza siqinisekise imitjho!
 help-us-explain =
     Gandelela, dlala lalela bese uyasitjela: bawutjho kuhle na
     umutjho ongenzasi?
-no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa usisize sivale isikhalesi ngokuthi urekhode okuthileko njenga nje.
+no-clips-to-validate = Ubukhulu
 vote-yes = Iye
 toggle-play-tooltip = Gandelela { shortcut-play-toggle } bona utjhugulule indlela yokudlala
 speak-subtitle = Dawuniloda iphimbo lakho
@@ -177,6 +180,8 @@ username-optin-public =
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = Dlula
 
 ## Listen Shortcuts
 
@@ -1022,6 +1027,9 @@ sc-my-no-sentences = Ayikho imitjho efumanekako!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Okuthunyeliweko: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Umthombo: { $source }
 sc-my-delete = Susa imitjho ekhethiweko
 sc-my-deleting = Susa imitjho ekhethiweko…
 sc-my-err-failed-delete =
@@ -1209,6 +1217,10 @@ sc-review-no-sentences =
     imitjho engeziweko khona nje!</addLink>
 sc-review-form-prompt =
     .message = Uyaqiniseka bona uyibuyekezile imitjho engakakhanjiswa?
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Umthombo: { $sentenceSource }
+sc-review-form-button-skip = Dlula
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 sc-review-form-keyboard-usage-custom = Ungasebenzisa neendlela zokwenza izinto msinyana: { sc-review-form-button-approve-shortcut } ukuphasisa, { sc-review-form-button-reject-shortcut } ukufeyilisa, { sc-review-form-button-skip-shortcut } ukudlulisa
