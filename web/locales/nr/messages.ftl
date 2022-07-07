@@ -31,13 +31,23 @@ bg = IsiLuganda
 cak = IsiKaqchikel
 ckb = IsiCentral Kurdish
 cnh = IsiHakha Chin
+de = IsiGerman
 dsb = IsiSorbian, Lower
+el = IsiGreek
 es = IsiSpanish
 fa = IsiPersia
+ff = IsiFulah
+fi = IsiFinnish
+fr = IsiFrench
+fy-NL = IsiFrisia
 ga-IE = Isi-Irish
+gl = IsiGalicia
+gn = IsiGuarani
+ha = IsiHausa
 he = IsiHebheru
 hi = IsiHindi
 hsb = IsiSorbian, Upper
+ht = IsiHaitia
 hu = Hungarian
 hyw = Isi-Armenian sangeTlhagwini
 ia = Isi-Interlingua
@@ -48,6 +58,7 @@ is = Isi-Icelandic
 it = Isi-Itali
 izh = Isi-Izhoria
 ja = IsiJapani
+ka = IsiGeorgian
 kbd = IsiKabardia
 kk = IsiKazakh
 km = IsiKhmer
@@ -217,9 +228,7 @@ keep-track =
 compare-progress =
     Qala ituthukwakho nayimadaniswa neyabanye
     abafaka isandla ephasini mazombe.
-view-goals =
-    Qala ituthukwakho uyimadanise 
-    nemigomo ozibekele yona.
+view-goals = Imigomo
 join-newsletter = Nawuthandako ungangenela ihlelo lethu lokufumana zamva nje nge-email ufumane nemininingwana emitjha ngephrojekthi.
 
 ## What's public
@@ -292,6 +301,8 @@ profile-form-variant-default-value = Akukho okuhlukahlukeneko okhethiweko
 profile-form-custom-accent-help-text =
     .label = Ungayihlathulula njani indlela ophimisela ngayo?
 profile-form-custom-accent-placeholder-2 = Thoma ukutlola uhlathulule indlela ophimisela ngayo
+profile-form-gender-2 =
+    .label = Ubulili
 leaderboard-visibility =
     .label = Ukubonakala kwebhodi
 hidden = Kufihlekileko
@@ -534,6 +545,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Funda okwengez
 
 ## Glossary
 
+glossary = Isithasiselo
 localization-explanation =
     Le yindlela yethu yokutjhugulula nokuvumelanisa esikwenzako
     (namalimi) amanengi wendabuko.
@@ -602,6 +614,7 @@ email-to-download = Faka i-email bona udawunilowude
 confirm-size =
     Ukulungele ukuthoma ukudawuniloda i 
     <b>{ $size }</b>
+size-gigabyte = I-GB
 size-megabyte = MB
 confirm-no-identify = <b>Uyavuma</b> bona angekhe ulinge ukufumana bona maphimbo wabobani aku-Common Voice
 validated-hours = Ama-awara aqinisekisiweko
