@@ -47,9 +47,12 @@ quy = IsiQuechua Chanka
 rm-sursilv = IsiRomansh Sursilvan
 rm-vallader = IsiRomansh Vallader
 sat = IsiSantali (Ol Chiki)
+scn = IsiSicilia
+si = IsiSinhala
 sk = IsiSlovak
 sl = IsiSlovenia
 so = IsiSomali
+ss = IsiSwati
 st = IsiSotho seSewula
 sv-SE = IsiSwedish
 sw = IsiSwahili
@@ -828,6 +831,7 @@ download-recordings-unavailable =
 download-recently-requested =
     Ungabawa okurekhodileko 
     woke malanga { $days }
+download-size = Ubukhulu
 download-start = Dawuniloda iphrofayili
 download-request = Bawa okurekhodiweko
 download-requests = Iimbawo ezidlulileko zokudawunilowuda imitjho
