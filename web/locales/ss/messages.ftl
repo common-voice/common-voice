@@ -374,6 +374,7 @@ faq-how-get-q = Ngingayitfola njani le data yaka Common Voice?
 faq-why-my-lang-q = Leni lulwimi lwami lungangetwa?
 faq-how-calc-hours-q = Common Voice uwabala njani ema hora?
 faq-where-src-from-2-q = Umtfombo wemagama uchamukaphi?
+faq-why-account-q = Kudzingeke ngani kutsi ngibhalisele i-account?
 faq-is-account-public-q = Imininingwane yami ibonwa sive?
 faq-what-is-cv = Yini Common Voice?
 faq-using-cv = Kusebentisa Common Voice
@@ -522,6 +523,7 @@ audio-format = Audio Format
 number-of-voices = Linani lemavi
 splits = Kuhlukana
 email-to-download = Faka i-email utokhona ku-download
+confirm-size = Ulungele kucala i-download ye  <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Download { $language }
@@ -608,6 +610,7 @@ skip = Yeca
 shortcuts = Tindlela tekujubelisa
 goal-help-recording = { "" }
 record-cta = Cala kutfwebula
+record-platform-not-supported = Siyacolisa, inkhundla yakho ayikasekelwa kwamanje.
 record-platform-not-supported-desktop = Kubongcondvomshina, ungalekelela ngeku download....
 record-must-allow-microphone = Vumela kusebenta kwembobho.
 record-no-mic-found = Kute umbhobho lotfolakele.
@@ -651,6 +654,7 @@ target-segment-learn-more = Fundza Kabanti
 
 report = Bika
 report-title = Mikisa umbiko
+report-ask = Ngutiphi tinkinga lohlangabetana nato kulemisho?
 report-offensive-language = Lulwimi lolucasulako
 report-offensive-language-detail = Lelisentenisi linenhlamba futsi liyalulata.
 report-grammar-or-spelling = Grammatical / spelling error
@@ -939,6 +943,14 @@ sc-add-err-submission = Inkinga yekumikisa
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-sentences-title = Cinisekisa Imisho Lemisha
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Kute imisho letfolakele
+        [one] munye umusho lotfolakele
+       *[other] { $countOfSentences } imisho letfolakele
+    }
 sc-confirm-button-text = Vuma
 
 ## LANGUAGE INFO
