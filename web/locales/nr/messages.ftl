@@ -404,7 +404,7 @@ about-speak = Khuluma
 about-speak-text =
     Abanikelako barekhoda amaphimbwabo ngokufunda 
     imitjho ekunikelwe ngayo.
-about-listen-queue = Umjeje wokulalela
+about-listen-queue = Lalela
 about-listen-queue-text =
     Iinqetjhana ezilalelwako zifakwa erhelweni
     elilungiselela ukulalelwa.
