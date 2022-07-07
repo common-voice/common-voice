@@ -38,6 +38,7 @@ wall-of-text-more-desktop = Gona bjale o ka nea ka lentšu la gago go re thuša 
 
 ## ProfileForm
 
+why-demographic-explanation-2 = Datha ya modiriši ye o sa tsebjego bjalo ka mengwaga, le bong bja motho, le mmolelo ao a thuša go go kaonefatša datha ya odio e šomišago go eteletša nepagatšo ya di-entšene a tlhathollo ya mantšu. Leina la gago la mošomiši le e-meile di ka se itswalanye le datha yeo e rometšego, gomme o ka kgetha gore na leina la gago la mošomiši le phatlalatšwe goba le se tsebje.
 
 ## Profile - Email
 
@@ -62,6 +63,7 @@ faq-why-different-speakers-a =
     Ke kamoo polokelong ya rena ya lentšu re nyakang mehuta e fapa-fapanego!"
 faq-what-quality-a = Re nyaka gore dathasete ya Common Voice e bonagatše seka sa theetšwago temogo ya sefetošetšamantšung dingwalwa e tla kwala nageng, kamoo re nyaka mehuta e fapa-fapanego. Go tlaleletša ntle le diboledi tše dintši tša go fapana, dathasete e nago le odio yeo e fapanego e tla ruta temogo ya sefetošetšamantšung dingwalwa go berekišana le maemo a fapanego a lefase, go tloga bokamorago go bolela le lešata ka koloi. Ge feela o dikarolwana tša lentšu la gago le sa kwagale, le tla swanela go ba se se loketšego dathasete.
 faq-why-not-ask-read-a = Go dira gore dathasete ya Common Voice e be molemo ka moo go ka kgonegago, re tšere sephetho sa go dumelela mothopo wa mogwalo feela go hwetšagala ka tlase ga laesense ya Creative Commons (CC0). Go šomiša maemo a CC0 go bolela gore go boima kudu go hwetša le go kgoboketša mothopo wa mogwalo, eupša go dumelela mang le mang go šomiša dintlha tša lentšu ka ntle ga dithibelo tša ditirišo goba tumelelo go tšwa go Mozilla. Mafelelong, re nyaka go dira gore dathasete ya maleme a mantši/polelo e ntši e be molemo ka moo go ka kgonegago go motho yo mongwe le yo mongwe, go akaretša banyakišiši, diyunibesithi, ba thomago, mebušo, mekgatlo ya merero ya setšhaba, le batho ba ratago go itloša bodutu.
+faq-how-privacy-a = Dikarolo ka moka tša lentšu go dathasete di hlakotšwe boitsebišo bja motho. Ge moneedi a nea datha tša palo ya batho ka profaele ya bona, tsebišo yeo e itlhaotše go tšwa ditsopolwa tša lentšu pele e ka tlangwa go taneloutiwa go dathasete gomme ga go mohla e phatlalatšwa letlakaleng la boemo bja rena.
 faq-what-determine-identity-a =
     "The Common Voice dathasete ke se dirišwa seo se bolegilego ebile se hwetšagala phatlalatša se ka be rekišwa go eteletšwa mehuta e fapanego ya disebedišwa tša go kgona go bolela. Go sireletša tšhireletšo baneedi ba rena, re kgopela motho yo mongwe le yo mongwe yo a taoneloutago Common Voice go hlompha sephiring sa baneedi. 
     
@@ -73,6 +75,7 @@ about-header-description-v2 = Theknolotši ya go tlhathollo lentšu e fetola tse
 
 ## How does it work section
 
+about-clip-graveyard-text = Setsopolwa sa Graveyard se na le dirakolo tša lentšu tše di sa fihlaho go dathasete ya Common Voice. Bjalo ka dathasete, setsopolwa sa Graveyard ya hwetšagala bakeng sa go tanelouta.                               Re ka rata go leboga batho le mekgatlo e latelago ka thušo ya bona morerong o:
 
 ## Community Playbook Content
 ## What is a language
@@ -194,6 +197,7 @@ demo-dashboard-card-body = Bakeng sa setsopolwana se sengwe le sengwe sa lentšu
 contribution-varying-pronunciations-description = Eba šedi pele o gana setsopolwana ka baka la gore mmadi ga a bitša lentšu ka tsela e fošagetšego, o beile kgateletšo lefelong le fošagetšego, goba go bonagala a hlokomologile letswao la potšišo. Go na le mehuta e mentši ya go bitšwa ga mantšu e didirišwago lefaseng ka bophara, yeo mohlomongwe o se ke wa ekwa setšhabeng sa geno. Ka kgopelo nea ka moedi wa tebogo go bao ba bolelago ka tsela e fapanego le ya gago.
 contribution-background-noise-description = Re nyaka gore alkoritheme ya go ithuta ya motšhene e kgone go šoma le lešata le fapanego, ešita le mašata a magolo ao a ka amogelwago ge feela le sa go thibele go kwa mongwalo ka moka. Mmino wa bokamorago wa llela fase o LOKILE; mmino o wa godimo ka mo go lekanego go go thibela go kwa lentšu le lengwe le lengwe ga wa lokela.
 contribution-background-voices-description = Lefelong la bokamorago le se nago lešata le LOKILE, eupša ga re nyake mantšu a mangwe a ka dirago gore mokgwa wa motšhene o kgetholwe mantšu ao a se be gona mongwalong. Ge e ba o ka kwa mantšu a phapano go ao a lego mongwalong, setsopolwana se swanetše go ganwa. Se se tlwaetše go diragala moo TV e tlogetšwego, goba moo poledišano e diragalago kgauswi le moo.
+contribution-volume-description = Go tla ba le phaphano ya tlhago ya modumo magareng ga babadi. Gana feela ge e ba modumo o le godimo kudu moo rekhotilwego e sa kwale botse, goba (seo se tlwaelegilego kudu) ge e ba e le tlase moo e sa kwale gore go boletšwe eng ka ntle le go lebelela mo go ngwadilego.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -212,9 +216,13 @@ sc-home-intro = Molekgetho wa Mafoko ke karolo ya<commonVoiceLink> Common Voice<
 
 ## HOW-TO
 
+sc-howto-addsen-item-1 = Mafoko ka moka ao o wa rometšego a swanetše go ba ka tlase ga<wikipediaLink> laesense ya Mafelong a Batho Bohle (CC-0)</wikipediaLink>. Ho thekga go akeretšwa ga mošomo o sego ka tlase ga laesense ya setšhaba, re hlangwe <cc0WaiverLink>thempleite ya Dumelano ya Neelano</cc0WaiverLink> bakeng sa mešomo moo mong wa ditokelo tša molao a ka rata go neela dintlha go Common Voice.
 sc-howto-addsen-item-2 = Dinomoro. Ga se gwa swanela go ba le dinoromo mangwalong a mothopo gobane di ka baka mathata ge o hlaboša lentšu. Tsela yeo palo e balwago ka gona e ithekgile ka kamano ya taba gomme e ka hlagiša gakantšhago go dathasete. Ka mohlala, palo ya “2409” e ka balwa ka nepo e le “mašome-pedi le metšo nne lefeela le senyane” le “dikete tše pedi le makgolo a mane le metšo e senyane”.
 sc-howto-addsen-item-3 = Dikhutsofatšo le mantšu a khutsofadišwego go swana le “USA”  goba “ICE” di swanetše go phengwa mongwalong wa mothopo  ka baka la gore di ka balwa ka tsela e sa dumelelanago le mopeleto wa tšona. Go oketša moo, go ka ba le dipalo tše dintši tše nepagetšego bakeng sa khutsofatšo e le nngwe. Ka mohlala, khutsofatšo “ICE” e ka bitšwa “I-C-E” goba e le lentšung letee.
+sc-howto-addsen-item-4 = Maswao-dikga. Maswao a kgethegilego le maswao-dikga a polelo e swanetše go akaretšwa feela ge go hlokagala. Ka mohlala, aphostrofi e akaretšwa mantšung a Seisemane bjalo ka “o seke” le “re” gomme e swanetše go tsentšhwa mothopong wa tša mongwalong, eupša ga go bonolo gore o hloke leswao le ikgethegilego bjalo ka “@” goba “#”.
+sc-howto-addsen-post-1 = Re kgetha mafoko a tlhago/poledišano. Lege phapano ya sefonetiki le mantšu a fapanego mafokong a bohlokwa, re leka go dira gore mafoko a go gatišwa di be bose kudu ka moo re ka kgonago. Ka gona go ka ba monate ge o ka leka go boloka mafoko a gago a be a tlhago/kopanelago kamoo go ka kgonegalago.
 sc-howto-findpd-text-2 = Gopola gore re hloka tumelelo ya go phatlalatša dipolelo tšeo, ke kamoo re kgonthišetša gore mengwalo ke ya<wikipediaLink> batho ka moka</wikipediaLink>. Ge goba a gona dipontšho molaleng, boledišana le motho yo temana yeo e leng ya gagwe gomme o botšiša gore e ba ba nyaka go neela temana ya bona Sebakeng sa Setšhaba. Ge e ba ba nyaka, ba thuše go tsena mogatong a <cc0WaiverLink>Tumelelano ya Meneelo</cc0WaiverLink> . Ge e ba ga ba nyake go tsena tiragalo ya temana, ke moka wa dumelelwa go diriša temana yeo.
+sc-howto-findpd-partner-1 = Go na le mekgatlo e mentši ya setšhaba e ka nyakago go šomišana gomme e šetše e na le ditemana tše dintši tšeo ba ka neelago ka tšona go etša go lefelong la batho bohle. Ikgokaganye le diyunibesithi tša lefelong leo, Mebušo le mekgatlo e bulegilego go bolela ka morero le go kgopela thušo ya bona.
 
 ## MY SENTENCES
 
