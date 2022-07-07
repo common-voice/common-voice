@@ -48,6 +48,8 @@ help-us-explain =
 no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa usisize sivale isikhalesi ngokuthi urekhode okuthileko njenga nje.
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
 help-make-dataset = Sisiza senze umsebenzi osezingeni eliphezulu
+sign-up-account = Zitlolise ube ne-akhawundi
+email-subscription-title = zitlolise ufumane zamja nje nge-email
 email-subscription-title-new =
     Zitlolise bona ufumane iindaba ngeCommon Voice, imigomo 
     netuthuko yamva nje
@@ -313,6 +315,7 @@ download-helpus =
 download-form-email =
     .label = Siyathokoza
     .value = sizokuthinta.
+download-back = Buyela kuCommon Voice Datasets
 
 ## Contact Modal
 
@@ -362,6 +365,9 @@ record-platform-not-supported-ios-non-safari =
     Ku-iOS sibawa uragele phambili ngeSafari bona ukghone 
     ukurekhoda...
 record-must-allow-microphone = Kufuze uvumele umbhobho usebenze.
+record-error-too-short = Okurekhodiweko kufitjhani khulu.
+record-error-too-long = Okurekhodiweko kude khulu.
+record-error-too-quiet = Okurekhodiweko kuthule khulu.
 review-tooltip = Buyekeza bewurekhode kabutjha khona la
 review-instruction = Buyekeza bewurekhode nange kutlhogeka
 record-abort-text = Nawuphuma nje uzokulahlekelwa ngosele ukwenzile
@@ -477,6 +483,7 @@ download-recently-requested =
     woke malanga { $days }
 download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufake efayilini yinye namkha emafayilini amanengi we-ZIP. Nakhu okubawe esikhathini esidlulileko:
 download-request-description = { $clipCount } amaphimbo, inani lokubulungiweko { $size }. Phelelwe sikhathi { $expires }.
+download-request-archive-multiple = Zihlukaniswe zaba yi { $archiveCount } kumafayela we-ZIP
 download-request-assembling-description =
     Amafayela wakho sele ahlanganisiwe. Sibawa uhlole 
     godu ngemva kwesikhatjhana.
@@ -601,6 +608,7 @@ sc-howto-review-subtitle =
     elandelako:
 sc-howto-review-criteria-1 = Imitjho kufuze ipeledwe kuhle.
 sc-howto-review-criteria-2 = Imitjho kufuze ivumelane nemithetho yokutlola nokupeleda.
+sc-howto-review-criteria-3 = Imitjho kufuze ikhulumeke.
 sc-howto-review-criteria-4 =
     Nange umutjho uvumelana nemibandela gandelela 
     ikunupe ethi "Phasisa" ngaphasi.
@@ -751,6 +759,7 @@ sc-criteria-make-sure =
     elandelako:
 sc-criteria-item-1 = Imitjho kufuze ipeledwe kuhle.
 sc-criteria-item-2 = Imitjho kufuze ivumelane nemithetho yokutlola nokupeleda.
+sc-criteria-item-3 = Imitjho kufuze ikhulumeke.
 sc-criteria-item-4 = Nange umutjho uhlangabezana nakho koke okutlhogekako gandelela i- &quot; engehlangothini lesokudla &quot;Phasile&quot.
 sc-criteria-item-6 =
     Nange ingasekho imitjho ongayibuyekeza sibawa
@@ -779,11 +788,15 @@ sc-review-form-review-failure = Okubuyekezileko angekhe kubulungeke. Sibawa ulin
 ## SETTINGS
 
 sc-settings-skipped-decription = Weqe imitjho nawubuyekezako esikhathini esidlulileko. Ukubuyisela emva imitjho eyeqiweko kuzokuvezela yoke imitjho  eyeqiweko godu. Lokhu kuya ngelimi.
+sc-settings-show-all-button = Veza yoke imitjho eyeqiweko godu
 sc-settings-failed = Ngekhe ukghone ukutjhentjha amasethingi: Sibawa ulinge godu.
 # VALIDATION
 sc-validation-number-of-words =
     Imitjho kufuze ibe namagama ahlangana kweli-1 kuya kwali-14 
     (nasele kuhlangene koke)
+sc-validation-no-numbers = Imitjho akukafuzi ibe neenomboro
+sc-validation-no-symbols = Imitjho akukafuzi ibe namatshwayo
+sc-validation-no-abbreviations = Imitjho akukafuzi ibe namagama arhunyeziweko
 
 # [/SentenceCollector]
 
