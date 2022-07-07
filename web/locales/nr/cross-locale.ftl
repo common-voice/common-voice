@@ -2,14 +2,12 @@
 
 get-involved-button = Zibandakanye
 get-involved-title = Nikela ku { $lang }
-get-involved-text = IsiYoruba
+get-involved-text = Isi-Urdu
 get-involved-form-title = Zitlolisele { $lang } zamva nje:
-get-involved-opt-in = Isi-Afaan Ormoo
+get-involved-opt-in = Isi-Ukrainia
 get-involved-stayintouch = IsiYiddish
-get-involved-privacy-info = IsiGoan Konkani
-get-involved-success-title =
-    Uphumelele ukuzitlolisela ukunikela 
-    ku { $language }. Siyathokoza.
+get-involved-privacy-info = Isi-Ukrainia
+get-involved-success-title = Isi-Uzbek
 get-involved-success-text =
     Sizokubuya nemininingwana eyengeziweko
     nasele ifumaneka.

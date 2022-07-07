@@ -1,13 +1,14 @@
 ## General
 
 yes-receive-emails = Iye, ngithumelani ama-email. Ngingakuthabela ukufumana imininingwana ngephrojekthi yeCommon Voice.
+privacy-info = { "" }
 return-to-cv = Buyela kuCommon Voice
 email-opt-in-info = Ngingakuthabela ukufumana ama-email akhuluma ngeenkhumbuzo zemigomo, ituthukwami neendaba ezimalungana ne-Common Voice.
 email-opt-in-info-title = Ngenela ihlelo leCommon Voice
 email-opt-in-info-sub-with-challenge =
     Fumana ama-email akhuluma ngephaliswano, iinkhumbuzo zemigomo,
     ituthuko yamva nje neendaba zeCommon Voice.
-indicates-required = Iindawana ezitshwaywe nge (*) ziyatlhogeka.
+indicates-required = Isitsonga
 banner-error-slow-1 =
     Usilibalele iCommon Voice ikhamba kabuthaka. Siyathokoza 
     ngokuba nekareko.
@@ -33,7 +34,7 @@ knn = IsiKonkani (Devanagari)
 mhr = IsiMeadow Mari
 mni = IsiMeetei Lon
 mrj = IsiHill Mari
-nan-tw = IsiTaiwanese (Minnan)
+nan-tw = IsiTwi
 nb-NO = IsiNorwegian Bokmål
 nd = IsiNdebele (Tlhagwini)
 nn-NO = IsiNorwegian Nynorsk
@@ -46,6 +47,11 @@ rm-vallader = IsiRomansh Vallader
 sat = IsiSantali (Ol Chiki)
 st = IsiSotho seSewula
 tok = IsiToki Pona
+uby = Isi-Ubykh
+udm = Isi-Udmurt
+vec = IsiVenetia
+vot = IsiVotic
+xh = IsiXhosa
 zh-CN = IsiChinese (China)
 zh-HK = IsiChinese (Hong Kong)
 zh-TW = IsiChinese (Taiwan)
@@ -201,6 +207,7 @@ profile-form-custom-accent-help-text =
 profile-form-custom-accent-placeholder-2 = Thoma ukutlola uhlathulule indlela ophimisela ngayo
 leaderboard-visibility =
     .label = Ukubonakala kwebhodi
+visible = Bonakalako
 profile-form-add-accent = Faka indlela ejayelekileko yokuphimisela "{ $inputValue }"
 why-profile-title = Kubayini iprhofayili?
 build-profile = Yakha iphrofayili
@@ -466,6 +473,7 @@ data-bundle-button = Dawunilowuda ihlelo
 data-bundle-description =
     Nanti ihlelo leCommon Voice namanye 
     amaphimbo ngehla.
+release-version = Umbono
 data-download-singleword-title = Dawuniloda iGama Linye Olifunako
 data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
 review-terms = Ngokusebenzisa iCommon Voice, uvumelana ne <termsLink>Mibandela</termsLink> kunye ne <privacyLink>Nemigomo</privacyLink>
@@ -512,6 +520,7 @@ your-feedback = Kghani unemibono yokuthi singayithuthukisa njani i-Common Voice 
 go-discourse = Tjhinga ekulumweni
 go-languages-page = Ngena ekhasini lamalimi
 ready-to-validate = Ukulungele ukusiza ngokuphasisa imitjho?
+dataset-version = Umbono
 
 ## Download Modal
 
@@ -714,9 +723,7 @@ validated-clips = Iinqetjhana eziqinisekisiweko
 total-approved = Inomboro yokuphasisiweko
 overall-accuracy = Ukunemba
 set-visibility = Tjengisa nangikhona
-visibility-overlay-note =
-    Tjheja: Amasethingi wengcenye ethi 'Bonakala'
-    angatjhugululwa la <profileLink>ekhasini lePhrofayili</profileLink>
+visibility-overlay-note = Bonakalako
 show-ranking = Veza ukutshwaya kwami
 
 ## Custom Goals
@@ -756,6 +763,7 @@ n-clips-pluralized =
     }
 help-share-goal = Sisiza sifumane amaphimbo angeziweko, yabelana ngomgomwakho
 confirm-goal = Qinisekisa umngomo
+goal-interval-weekly = Ngeveke
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Yabelana { $count } nephimbo qobe langa umgomo we { $type }
 # $type is one of share-goal-type-*
@@ -904,6 +912,7 @@ contribution-background-voices-example-1-title =
 contribution-background-voices-example-1-explanation =
     Uyeza? <strong>[called by 
     another]</strong>
+contribution-volume-title = Ivolomu
 contribution-reader-effects-title = Iinkunupe zokufunda
 contribution-just-unsure-title = Awuqiniseki?
 see-more = <chevron></chevron>Veza okwengeziweko
@@ -1000,6 +1009,7 @@ sc-rejected-none-found = Akunamitjho engakaphasiswa efumanekako!
 
 ## STATS
 
+sc-stats-updating = Ukubuyekeza…
 sc-stats-error = Asikghoni ukufumana iimbalobalo. Sibawa ulinge godu esikhathini esizako.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
@@ -1167,6 +1177,8 @@ sc-review-no-sentences =
     imitjho engeziweko khona nje!</addLink>
 sc-review-form-prompt =
     .message = Uyaqiniseka bona uyibuyekezile imitjho engakakhanjiswa?
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
 sc-review-form-keyboard-usage-custom = Ungasebenzisa neendlela zokwenza izinto msinyana: { sc-review-form-button-approve-shortcut } ukuphasisa, { sc-review-form-button-reject-shortcut } ukufeyilisa, { sc-review-form-button-skip-shortcut } ukudlulisa
 sc-review-form-button-submit =
     .submitText = Qeda ukubuyekeza
