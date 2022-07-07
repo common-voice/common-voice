@@ -1360,6 +1360,14 @@ sc-lang-info-in-review =
         [one] 1 umutjho ongabuyekezwa.
        *[other] imitjho engabuyekezwa.
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Ayisekho imitjho eseleko etlhoga ukubuyekezwa.
+        [one] Kunomutjho mu-1 oseleko otlhoga ukubuyekezwa.
+       *[other] imitjho eseleko etlhoga ukubuyekezwa.
+    }
 sc-lang-info-review-now = <reviewLink>Buyekeza nje</reviewLink>
 sc-lang-info-add-more = <addLink>Faka eminye imitjho nje</addLink>
 # Variables:
