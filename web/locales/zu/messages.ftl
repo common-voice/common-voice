@@ -33,6 +33,7 @@ help-us-explain = Cindezela okuthi dlala, lalela futhi usitshele: ingabe bawukhu
 no-clips-to-validate = Kubonakala sengathi azikho iziqeshana ongazilalela ngalolu limi. Sisize sigcwalise ulayini ngokurekhoda okunye manje.
 toggle-play-tooltip = Cindezela{ shortcut-play-toggle } ukuze uguqule imodi yokudlala
 speak-paragraph = Ukuqopha iziqeshana zezwi kuyingxenye ebalulekile yokwakha idathasethi yethu evulekile; abanye bangathi kumnandi futhi.
+read-terms-q = Uyifundile Imigomo yethu?
 ready-to-record = Ulungele ukunikela ngezwi lakho?
 help-make-dataset = Sisize sakhe idathasethi elezinga eliphezulu, nevulelekile esidlangalaleni
 sign-up-account = Bhalisela i-akhawunti
@@ -90,6 +91,7 @@ help-variants = Udinga usizo oluthile ngokuhlukile?
 
 ## Profile - Email
 
+browse-file-title = Hudula bese udedela noma <browseWrap>Phequlula</browseWrap>
 gravatar_not_found = Ayikho i-gravatar etholakele ye-imeyili yakho
 file_too_large = Ifayela elikhethiwe likhulu kakhulu
 
@@ -151,6 +153,7 @@ about-dataset-new-text = Idathasethi yeCommon Voice iqukethe amakhulu ezinkulung
 about-stay-in-touch = Ngihlala kanjani ngithintana?
 about-stay-in-touch-text-1 = <emailFragment>Bhalisa</emailFragment> ohlwini lwethu lwama-imeyili ukuze ufunde ukuthi ungaba nengxenye kanjani emikhankasweni, imicimbi kanye nezici zokuklama ngokuhlanganyela ku-Common Voice.
 about-stay-in-touch-text-2 = Ungakwazi ukuhlangana nabanye emiphakathini yolimi lwe-Mozilla ngokujoyina <discourseLink>Discourse</discourseLink> yezingxoxo zezihloko, noma <matrixLink>Matrix</matrixLink> ukuze uthole iseluleko esisheshayo.
+about-nav-how-it-works-2 = Isebenza kanjani i-Common Voice?
 about-nav-playbook = Funda ukuthi libanjwa kanjani iqhaza
 
 ## Community Playbook Content
@@ -174,6 +177,7 @@ about-playbook-how-localize-content-5 = Buka umchazi wethu wevidiyo ukuze usize
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Ngiyengeza kanjani imisho?
 about-playbook-how-add-sentences-content-3 = Ungasebenzisa <i-scraperLink>Isikhiphi semisho</scraperLink> ukuze usebenzise imisho emifushane kusuka ku-Wikipedia.
 about-playbook-how-add-sentences-content-4 = Imisho eqinisekisiwe ithunyelwa ngaphandle ngoLwesithathu, futhi iyatholakala ngemva kokukhishwa okulandelayo.
 
@@ -200,6 +204,7 @@ about-playbook-how-access-dataset-content-2 = Uma ufuna amathuluzi okwakha amamo
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Zenziwa kanjani izinqumo zephrojekthi?
 about-playbook-how-project-governance-content-2 = Ukubusa kwethu kusekelwe phezu kwezinsika:
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda kabanzi mayelana nendlela esibuswa ngayo</governanceLink>
 
@@ -232,6 +237,7 @@ confirm-size = Ulungele ukuqalisa ukuloda kwe-<b>{ $size }</b>
 confirm-no-identify = <b>Uyavuma</b> ukungazami ukucacisa ukuthi ungubani izikhulumi kudathasethi yeCommon Voice
 whats-inside = Yini engaphakathi kwedathasethi yeCommon Voice?
 want-dataset-update = Ufuna izibuyekezo uma sikhipha inguqulo entsha yedathasethi yeCommon Voice? Bhalisela iphephandaba lethu.
+get-started-speech = Qalisa Ngokuqaphela Inkulumo
 resource-nemo-info = I-<githubLink>NVIDIA NeMo</githubLink>™ iyi-<docsLink>ikhithi yamathuluzi yomthombo ovulekile</docsLink> yabacwaningi abakha amamodeli e-AI engxoxo esezingeni eliphezulu.
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> inikezelwe ekuvuleni ubuchwepheshe benkulumo. Amaphrojekthi abo ahlanganisa ukufunda okujulile okusekelwe ku-STT kanye nezinjini ze-TTS.
 resource-playbook-info = <playbookLink>Thola isiqondiso esiwusizo</playbookLink> kulo lonke uhambo lwe-Common Voice, kusukela ekwenzeni okwasendaweni kuya ekusetshenzisweni kwedathasethi, kanye nendlela yokuxhumana nomphakathi wethu.
@@ -298,6 +304,7 @@ record-must-allow-microphone = Kufanele uvumele ukufinyelela kwemakrofoni.
 record-error-too-short = Ukuqopha bekukufushane kakhulu.
 record-error-too-long = Ukuqopha bekukude kakhulu.
 record-error-too-quiet = Ukuqopha bekuthule kakhulu.
+record-again-instruction = Kuhle!<recordIcon></recordIcon> Qopha isiqeshana sakho esilandelayo
 record-again-instruction2 = Qhubeka, uqophe futhi <recordIcon></recordIcon>
 review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
 review-instruction = Buyekeza futhi uqophe kabusha iziqeshana uma kudingeka
@@ -340,6 +347,7 @@ visibility-overlay-note = Qaphela: Uma kusethelwe kokuthi 'Kuyabonakala', lesi s
 
 goal-type = Hlobo luni lomgomo ofuna ukulakha?
 lose-goal-progress-warning = Ngokushintsha injongo yakho, ungase ulahlekelwe inqubekelaphambili okukhona.
+want-to-continue = Ufuna ukuqhubeka?
 lose-changes-warning = Ukuhamba manje kusho ukuthi uzolahlekelwa izinguquko zakho
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
