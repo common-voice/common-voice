@@ -1,10 +1,12 @@
 ## Languages
 
 contribute = IsiKikuyu
-get-involved-button = IsiLatvia
+get-involved-button = IsiNgisi
 get-involved-title = Nikela ku { $lang }
 get-involved-text = londa
 get-involved-form-title = Zitlolisele { $lang } zamva nje:
+get-involved-email =
+    .label = I-Email
 get-involved-opt-in = IsiKorea
 get-involved-submit = Thumela
 get-involved-stayintouch = IsiYiddish

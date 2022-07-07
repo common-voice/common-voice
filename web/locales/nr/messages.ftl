@@ -3,6 +3,8 @@
 yes-receive-emails = Iye, ngithumelani ama-email. Ngingakuthabela ukufumana imininingwana ngephrojekthi yeCommon Voice.
 privacy-info = { "" }
 return-to-cv = Buyela kuCommon Voice
+email-input =
+    .label = I-Email
 submit-form-action = Thumela
 loading = Iyalowuda...
 email-opt-in-info = Ngingakuthabela ukufumana ama-email akhuluma ngeenkhumbuzo zemigomo, ituthukwami neendaba ezimalungana ne-Common Voice.
@@ -34,10 +36,14 @@ cnh = IsiHakha Chin
 de = IsiGerman
 dsb = IsiSorbian, Lower
 el = IsiGreek
+en = IsiNgisi
+eo = Isi-Esperanto
 es = IsiSpanish
+et = Isi-Estonia
 fa = IsiPersia
 ff = IsiFulah
 fi = IsiFinnish
+fo = IsiFaroese
 fr = IsiFrench
 fy-NL = IsiFrisia
 ga-IE = Isi-Irish
@@ -82,6 +88,7 @@ mr = IsiMarathi
 mrj = IsiHill Mari
 ms = { "" }
 mt = IsiMaltese
+myv = Isi-Erzya
 nan-tw = IsiTwi
 nb-NO = IsiKinyarwanda
 nd = IsiNdebele (Tlhagwini)
@@ -153,6 +160,7 @@ speak-now = Khuluma nje
 profile = Iphrofayili
 help = Isizo
 terms = Imigomo
+faq = I-FAQ
 content-license-text = Ilayisense: <licenseLink>{ $license }</licenseLink>
 share-title = Okhunye
 share-text =
@@ -171,6 +179,7 @@ default-tagline =
     IMozilla Common Voice izimisele ukusiza
     ekufundiseni imitjhini bona abantu bamambala bakhuluma njani.
 home-cta = Khuluma, nikela endaweni le!
+wall-of-text-more-mobile = Woke umuntu
 wall-of-text-more-desktop = { "" }
 show-wall-of-text = Funda okwengeziweko
 help-us-title = Imitjho
@@ -266,6 +275,7 @@ shortcut-vote-yes = { "" }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekhoda/Jama
 shortcut-rerecord-toggle-label = Rekhoda kabutjha
+shortcut-discard-ongoing-recording = PHUMA
 shortcut-discard-ongoing-recording-label = Susa okurekhodwako
 shortcut-submit = Buyela
 shortcut-submit-label = Thumela iinqetjhana
@@ -311,10 +321,11 @@ profile-form-add-accent = Faka indlela ejayelekileko yokuphimisela "{ $inputValu
 profile-form-submit-save = Bulunga
 profile-form-submit-saved = Ibulungiwe
 male = Umuntu omduna
+female = Umuntu wengubo
 why-profile-title = Kubayini iprhofayili?
 build-profile = Yakha iphrofayili
 settings = Amasethingi
-edit-profile = Lungisa Iphrofayili
+edit-profile = Lungisa
 profile-create-success = Ukghonile ukwenza iphrofayili!
 profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu usize ihlelo lethu linembe khudlwana.
 thanks-for-account =
@@ -327,6 +338,7 @@ accept-privacy =
 accept-privacy-title = Umthetho wefihlo
 login-identity = Imininingwana yokungena
 login-signup = Thungela / Zitlolise
+edit = Lungisa
 email-subscriptions = Ukuzitlolisela ama-Email
 download-profile = Dawuniloda imininingwanami
 contribution-experience = Nikela Ngelwazi
@@ -518,6 +530,7 @@ about-playbook-how-record-content-5 =
 about-playbook-how-grow-language =
     Singalithuthukisa njani ilimi ngokuphumeleleko 
     kuCommon Voice?
+about-playbook-how-grow-language-content-2 = Izehlakalo
 about-playbook-how-grow-language-content-4 = Zokuthintana
 about-playbook-how-grow-language-content-6 = Ukubambisana nezokuthintana
 about-playbook-how-grow-language-content-8 = <strong>Yiba sikghwari!</strong> Ilimi elikhulunywa mphakathi wangekhenu lizokuhluka begodu nanzi iindlela ezimbalwa zokuthoma.
@@ -563,6 +576,7 @@ sst-explanation = Ikulumo etlolwa phasi (STT) itjhugululwa iba liphimbo
 
 error-title-404 = Asilifumani ikhasi olifunako
 error-title-503 = Siqalene nebesingakakulindeli
+error-code = Umtjhapho { $code }
 
 ## Data
 
