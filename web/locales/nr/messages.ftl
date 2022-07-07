@@ -14,6 +14,7 @@ banner-error-slow-1 =
 banner-error-slow-2 =
     Sinomjeje omude khulu begodu sisafunisisa
     ukuthi kubayini.
+banner-error-slow-link = Ubujamo bekhasi
 error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -22,8 +23,13 @@ error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 
 ## Languages
 
+dsb = IsiSorbian, Lower
+hsb = IsiSorbian, Upper
 nan-tw = IsiTaiwanese (Minnan)
+rm-sursilv = IsiRomansh Sursilvan
+rm-vallader = IsiRomansh Vallader
 sat = IsiSantali (Ol Chiki)
+st = IsiSotho seSewula
 tok = IsiToki Pona
 zh-HK = IsiChinese (Hong Kong)
 
@@ -32,6 +38,7 @@ zh-HK = IsiChinese (Hong Kong)
 
 ## Layout
 
+speak-now = Khuluma nje
 content-license-text =
     Okumumethweko kuyafumaneka ngaphasi 
     kwe <licenseLink>Ilayisense Yokuthoma Izinto Ezijayelekileko</licenseLink>
@@ -176,6 +183,7 @@ browse-file =
 connect-gravatar = Ngena ku-Gravatar
 gravatar_not_found = Akuna-gravatar efumanekako ku-emailakho
 file_too_large = Ifayela elikhethiweko likhulu
+remove-avatar = Susa isithombe
 
 ## Profile - Email
 
@@ -238,6 +246,7 @@ how-does-it-work-title-v2 = Isebenza njani iCommon Voice?
 about-language-req-subtitle = Omunye ubawe bona kufakwe ilimi.
 about-localization-title = Iwebhusayidi yelimi lendabuko
 about-localization-subtitle = Umtlolo osetjenziswe kuwebhusayidi utjhugululelwe eliminelo.
+about-sentence-collection-title = Imitjho eminengi
 about-sentence-collection-subtitle = Imitjho ibuthelelwe ukwenzela bona umuntu ayifundele phezulu.
 about-new-lang-title = Ilimi elitjha elifakwa ngokusemthethweni
 about-new-lang-subtitle =
@@ -264,6 +273,7 @@ about-no-votes = Kunamavowudi ama≥ 2
 about-no-votes-text = Kunamavowudi ama≥ 2
 about-dataset-new = I-Common Voice Dataset
 about-stay-in-touch = Ngingahlala njani nginelwazi?
+about-stay-in-touch-button = Zitlolise
 about-stay-in-touch-text-1 = <emailFragment>Zitlolise ku</emailFragment> bona ufunde ukuthi ungasifaka njani isandla emajimeni, ezenzakalweni nokuthuthukisa ubujamo be-Common Voice.
 about-stay-in-touch-text-2 = Ungahlangana nabanye abasemphakathini weMozilla ngokuthi ungene<discourseLink>Ebulungelweni</discourseLink> bona nikhulumisane ngeenhloko ezithileko namkha <matrixLink>Ubuhlanga</matrixLink> bona ufumane isiyeleliso ngokurhabako.
 about-nav-why-common-voice = Kubayini ?
@@ -325,6 +335,7 @@ about-playbook-how-record-content-5 =
 about-playbook-how-grow-language =
     Singalithuthukisa njani ilimi ngokuphumeleleko 
     kuCommon Voice?
+about-playbook-how-grow-language-content-4 = Zokuthintana
 about-playbook-how-grow-language-content-6 = Ukubambisana nezokuthintana
 about-playbook-how-grow-language-content-8 = <strong>Yiba sikghwari!</strong> Ilimi elikhulunywa mphakathi wangekhenu lizokuhluka begodu nanzi iindlela ezimbalwa zokuthoma.
 
@@ -359,6 +370,7 @@ sentence-collection-explanation =
 hours-recorded-explanation =
     Inani lama-awara esele siwabuthelele 
     bekube nje.
+sst = Ikulumo-kuya-kokutloliweko (STT)
 sst-explanation = Ikulumo etlolwa phasi (STT) itjhugululwa iba liphimbo
 
 ## Error pages
@@ -475,6 +487,8 @@ request-language-error = Kungenzeka asikasifumani isibaweso. Sibawa usithumele i
 ## Languages Overview
 
 language-section-in-progress-new-description = Umphakathi usawathuthukisa amalimi la. <localizationGlossaryLink>Izinzolwazi yelocalization</localizationGlossaryLink> begodu <sentenceCollectionGlossaryLink>kutlhogeka imitjho</sentenceCollectionGlossaryLink> bona afakwe ngokusemthethweni.
+languages-show-more = Veza okunengi
+languages-show-less = Veza okuncani
 language-validation-progress = Ituthuko eqinisekisiweko
 
 ## Contribution
@@ -495,6 +509,7 @@ contribute-more =
         [one] Ukulungele ukwenza
        *[other] okwengeziweko?
     }
+record-cta = Thoma ukurekhoda
 record-platform-not-supported = Sibawa usilibalele okufunako akufumaneki.
 record-platform-not-supported-ios-non-safari =
     Ku-iOS sibawa uragele phambili ngeSafari bona ukghone 
@@ -672,6 +687,7 @@ download-recently-requested =
     Ungabawa okurekhodileko 
     woke malanga { $days }
 download-start = Dawuniloda iphrofayili
+download-request = Bawa okurekhodiweko
 download-requests = Iimbawo ezidlulileko zokudawunilowuda imitjho
 download-requests-info = Nawubawa okurekhodileko, sikuhlanganisa ndawonye sikufake efayilini yinye namkha emafayilini amanengi we-ZIP. Nakhu okubawe esikhathini esidlulileko:
 download-request-description = { $clipCount } amaphimbo, inani lokubulungiweko { $size }. Phelelwe sikhathi { $expires }.
@@ -682,6 +698,7 @@ download-request-assembling-description =
     godu ngemva kwesikhatjhana.
 download-request-modal-description = Naka ama-link ongadawunilowuda kiwo amafayelakho.
 download-request-link-text = Zip #{ $offset } ye { $total }
+download-request-metadata-link = Amagama wemitjho
 
 ## Landing
 
@@ -784,6 +801,8 @@ contribution-background-voices-example-1-explanation =
 
 ## HEADER/FOOTER
 
+sc-header-rejected = Susa imitjho
+sc-footer-report-bugs = Bika okungakalungi
 sc-footer-translate = Tjhugulula ikhaseli
 sc-footer-report-copyright = Bika iindaba zamalungelo wokugadangisa
 sc-login-signup-button = Thungela / Zitlolise
@@ -794,6 +813,7 @@ sc-home-title = Uyamukelwa ku-Common Voice Collector
 sc-home-collect-text =
     Sisiza ngokutlola namkha ngokubuthelele imitjho 
     eyamuKelekako eMphakathini.
+sc-home-review-title = Buyekeza imitjho
 sc-home-review-text =
     Sisiza ngokubuyekeza imitjho uqale bona ilungile na 
     ngokuya ngeenqophiso.
@@ -815,6 +835,7 @@ sc-howto-cite-title = Indlela yokudzubhula
 sc-howto-cite-item-1 = Ungahlanganisa newebhusayidi, isb. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa indlela yokutlola yefundo ephakamileko isb. Harvard style "Mozilla (2021) Common Voice. Efumaneka ku-https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 sc-howto-cite-item-3 = Bona ufumane umtlolo ongekho ku-inthanethi, ungasebenzisa indlela yokutlola isb. Harvard style " Jess (2021) Ilayisensami yeenkondlo zophakathi"
+sc-howto-review-title = Buyekeza imitjho
 sc-howto-review-subtitle =
     Yenza isiqiniseko bona imitjho ihlangabezana nemibandela 
     elandelako:
@@ -851,6 +872,7 @@ sc-my-err-failed-delete =
 
 ## REJECTED
 
+sc-rejected-title = Susa imitjho
 sc-rejected-loading = Faka imitjho erarhiweko…
 sc-rejected-err-fetching =
     Kube nomraro nasilinga ukufumana imitjho enomraro. Sibawa 
@@ -877,6 +899,8 @@ sc-submit-prompt =
     .message =
         Imitjho ayikathunyelwa. Unesiqiniseko 
         sokobana ufuna ukuphuma?
+sc-submit-select-language =
+    .labelText = Khetha ilimi
 sc-submit-add-sentences =
     Faka imitjho <wikipediaLink>eya
     </wikipediaLink> emphakathini
@@ -997,6 +1021,7 @@ sc-personal-not-added = Alikho ilimi olifakileko.
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ Indlela yokubuyekeza
+sc-criteria-title = Buyekeza
 sc-criteria-make-sure =
     Yenza isiqiniseko bona imitjho ihlangabezana nemibandela 
     elandelako:
@@ -1011,6 +1036,7 @@ sc-criteria-item-6 =
 ## REVIEW
 
 sc-review-lang-not-selected = Awekho amalimi owakhethileko. Sibawa uye ku <profileLink>Profayilakho</profileLink> bona ukhethe amalimi.
+sc-review-title = Buyekeza imitjho
 sc-review-select-language = Sibawa ukhethe ilimi bona ubuyekeze imitjho.
 sc-review-no-sentences =
     Ayikho imitjho ongayibuyekeza. <addLink>Faka 

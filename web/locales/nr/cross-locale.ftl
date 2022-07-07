@@ -1,5 +1,6 @@
 ## Languages
 
+get-involved-text = IsiSotho seSewula
 get-involved-form-title = Zitlolisele { $lang } zamva nje:
 get-involved-opt-in = Iye, ngithumelani ama-email. Ngingakuthabela ukuhlala nginelwazi ngetuthuko yelimeli ku-Common Voice.
 get-involved-privacy-info =
