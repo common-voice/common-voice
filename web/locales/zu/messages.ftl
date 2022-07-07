@@ -81,6 +81,7 @@ profile-form-variant =
 profile-form-custom-accent-help-text =
     .label = Ungakuchaza kanjani ukuphimisela kwakho?
 profile-form-custom-accent-placeholder-2 = Qala ukuthayipha ukuze uchaze indlela ophimisa ngayo
+profile-form-add-accent = Engeza ukuphimisa kwangokwezifiso okusha "{ $inputValue }"
 profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi usize idatha yethu yezwi inembe kakhulu.
 thanks-for-account = Siyabonga ngokuqinisekisa i-akhawunti yakho, manje asakhe iphrofayela yakho.
 accept-privacy = Ngilungile uma uphatha lolu lwazi njengoba uchaza kokuthi <privacyLink>Inqubomgomo Yobumfihlo</privacyLink> ye-Mozilla
@@ -206,6 +207,7 @@ about-playbook-how-access-dataset-content-2 = Uma ufuna amathuluzi okwakha amamo
 
 about-playbook-how-project-governance = Zenziwa kanjani izinqumo zephrojekthi?
 about-playbook-how-project-governance-content-2 = Ukubusa kwethu kusekelwe phezu kwezinsika:
+about-playbook-how-project-governance-content-4 = Ukubamba iqhaza komphakathi kanye nokwenza izinqumo.
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda kabanzi mayelana nendlela esibuswa ngayo</governanceLink>
 
 ## Glossary
@@ -266,6 +268,7 @@ request-language-success-content = Sizothintana ngolwazi olwengeziwe mayelana ne
 
 ## Request Language Pages
 
+request-language-heading = Buza ngolimi olusha
 request-language-explanation-2 =
     Sizokwazisa <strong>nomphathi wethu womphakathi
     ukuthi unentshisekelo</strong>, ngakho bangakunikeza noma ikuphi
@@ -311,6 +314,7 @@ review-instruction = Buyekeza futhi uqophe kabusha iziqeshana uma kudingeka
 record-abort-text = Ukuhamba manje kusho ukuthi uzolahlekelwa ukuqhubeka kwakho
 listen-instruction = { $actionType }<playIcon></playIcon> ingabe bawukhulume kahle umusho?
 listen-again-instruction = Umsebenzi omuhle!<playIcon></playIcon> Lalela futhi uma usulungile
+listen-3rd-time-instruction = 2 phansi, qhubeka kanjalo!<playIcon></playIcon>
 listen-empty-state = Siphelelwe iziqeshana ezizoqinisekiswa ngalolu limi...
 listen-loading-error =
     Asikwazanga ukuthola iziqeshana zomsindo ozozilalela.
@@ -485,6 +489,7 @@ sc-languages-fetch-error = Sehlulekile ukulanda izilimi ezitholakalayo. Iminikel
 
 ## HOW-TO
 
+sc-howto-addlang-title = Yengeza izilimi ozosebenza ngazo
 sc-howto-addlang-text = Uma usungenile ungakhetha izilimi zakho esigabeni sephrofayela.
 sc-howto-cite-item-1 = Ungafaka iwebhusayithi, isb "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Ungasebenzisa isitayela sereferensi yezemfundo, isb isitayela sase-Harvard "Mozilla (2021) Common Voice. Itholakala ku https://commonvoice.mozilla.org/ (Kufinyelelwe: 15th September 2021)"
