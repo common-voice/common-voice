@@ -259,6 +259,7 @@ record-platform-not-supported = Siyaxolisa, inkundla yakho ayisekelwe okwamanje.
 record-platform-not-supported-desktop = Kumadivayisi edeskithophu ungadlala iqhaza ngokuloda...
 record-platform-not-supported-ios-non-safari = Ku-iOS sicela uqhubeke ne-Safari ukuze ukwazi ukurekhoda...
 review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
+record-abort-text = Ukuhamba manje kusho ukuthi uzolahlekelwa ukuqhubeka kwakho
 listen-empty-state = Siphelelwe iziqeshana ezizoqinisekiswa ngalolu limi...
 listen-loading-error =
     Asikwazanga ukuthola iziqeshana zomsindo ozozilalela.
@@ -294,6 +295,7 @@ visibility-overlay-note = Qaphela: Uma kusethelwe kokuthi 'Kuyabonakala', lesi s
 
 goal-type = Hlobo luni lomgomo ofuna ukulakha?
 lose-goal-progress-warning = Ngokushintsha injongo yakho, ungase ulahlekelwe inqubekelaphambili okukhona.
+lose-changes-warning = Ukuhamba manje kusho ukuthi uzolahlekelwa izinguquko zakho
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] Siza kufinyelele kwi { $hours } hora { $language } nenjongo womuntu siqu
@@ -327,12 +329,14 @@ help-share-goal = Sisize sithole amazwi engeziwe, wabelane ngenjongo yakho
 # LINK will be replaced with the current URL
 goal-share-text = Ngisanda kwakheka umgomo womuntu siqu wokunikela ngezwi ku-#CommonVoice -- ngijoyine futhi usize ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani { $link }
 track-progress = Landela inqubekelaphambili yakho la nasekhasini lakho lama-stat.
+return-to-edit-goal = Buyela lapha ukuze ushintshe injongo yakho noma nini.
 
 ## Profile Delete
 
 
 ## Profile Download
 
+download-info = Sitshele ukuthi yini ongathanda ukuyiloda:
 download-profile-info = Kufaka phakathi i-imeyili, igama olisebenzisayo nolwazi lwezibalo zabantu, olutholakala ngokushesha
 download-recordings-info = Kuhlanganisa ama-mp3 nemisho ehlobene, kungase kuthathe isikhathi ukulungiselela
 download-recordings-unavailable = Awukwazi ukucela ukurekhodwa kwakho ngenkathi esinye isicelo sisaqhubeka.
@@ -345,6 +349,7 @@ download-request-modal-description = Nazi izixhumanisi zokuloda amafayela akho e
 ## Landing
 
 help-contribute = Ungasiza ukwakha isethi yedatha ehlukahlukene, yomthombo ovulekile ngokudala iphrofayela yeCommon Voice futhi unikele ngezwi lakho.
+login-company = Ngena / Bhalisa nge-imeyili ye-{ $company }
 profile-not-required = Ukuba nephrofayela akudingekile ukuthi unikele nakuba kusiza, bona ukuthi kungani ngezansi.
 
 ## DemoLayout
@@ -376,11 +381,13 @@ contribution-misreadings-description-extended-list-1 = Kushoda <strong>'A'</stro
 contribution-misreadings-description-extended-list-2 = Ishoda ngo-<strong>'s'</strong> ekupheleni kwegama.
 contribution-misreadings-description-extended-list-3 = Ukufunda izifinyezo ezingekho, njengokuthi "We're" esikhundleni sokuthi "We are", noma okuphambene nalokho.
 contribution-misreadings-description-extended-list-4 = Uphuthelwa isiphetho segama lokugcina ngokunqamula ukuqopha ngokushesha okukhulu.
+contribution-misreadings-description-extended-list-5 = Ukuthatha imizamo embalwa yokufunda igama.
 contribution-misreadings-example-3-explanation = [Ukurekhoda kunqamukile ngaphambi kwegama lokugcina]
 contribution-misreadings-example-4-title = Ama-dinosaurs amakhulu e-Triassic. Yebo.
 contribution-misreadings-example-4-explanation = [Okurekhodiwe kuningi kunaloku okudingekayo embhalweni]
 contribution-misreadings-example-5-title = Sizophuma siyothenga ikhofi.
 contribution-misreadings-example-7-title = Sizophuma siyothola ikhofi.
+contribution-varying-pronunciations-example-1-title = Ekhanda ugqoke ibharethi.
 contribution-varying-pronunciations-example-1-explanation = [I-‘Beret’ ILUNGILE noma ngabe isigcizelelo sikuhlamvu wokuqala (UK) noma wesibili (US)]
 contribution-varying-pronunciations-example-2-explanation = [Igama elesiNgisi u'Raised' liphinyiswa ngohlamvu olulodwa, hhayi ezimbili]
 contribution-background-noise-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
@@ -415,6 +422,7 @@ sc-howto-cite-item-3 = Ngombhalo wesizinda esisesidlangalaleni ongatholakali ku-
 sc-howto-review-subtitle = Qiniseka ukuthi umusho uhambiselana nemibandela elandelayo:
 sc-howto-review-criteria-4 = Uma umusho uhambisana nemibandela, chofoza inkinobho ethi "Vumela".
 sc-howto-review-criteria-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
+sc-howto-findpd-tips = Nawa amathiphu okuthola imisho:
 sc-howto-findpd-tips-1 = Imithombo engcono kakhulu ongayibheka amaphodikasti, okulotshiweyo, imibhalo yamamuvi nanoma yini engaba khona ingaqukatha izingxoxo zansuku zonke.
 sc-howto-findpd-tips-3 = Ngeshwa asikwazi ukuba nezindatshana ze-Wikimedia okwamanje. Ngakho-ke ungakopishi ukunamathisela kusuka lapho.
 
@@ -556,6 +564,7 @@ sc-criteria-item-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize 
 ## REVIEW
 
 sc-review-lang-not-selected = Awukhethanga noma yiziphi izilimi. Sicela uye <profileLink>Iphrofayela</profileLink> yakho ukuze ukhethe izilimi.
+sc-review-select-language = Sicela ukhethe ulimi ozobuyekeza imisho.
 sc-review-no-sentences = Ayikho imisho ezobuyekezwa. <addLink>Engeza eminye imisho manje!</addLink>
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
