@@ -217,7 +217,7 @@ export default class Model {
   );
 
   getLanguageStats = lazyCache(
-    'get-all-total-language-stat',
+    'get-all-language-stats',
     async (): Promise<any> => {
       const languages = await this.db.getLanguages();
       const allLanguageIds = languages.map(language => language.id);
@@ -240,7 +240,7 @@ export default class Model {
           .getValidClipCount(allLanguageIds)
           .then(data => statsReducer(data)),
         this.db
-          .getTotalSpeakerCount(allLanguageIds)
+          .getTotalUniqueSpeakerCount(allLanguageIds)
           .then(data => statsReducer(data)),
         this.db
           .getAllClipCount(allLanguageIds)

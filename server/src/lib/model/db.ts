@@ -233,16 +233,17 @@ export default class DB {
     )[0];
   }
 
-  async getTotalSpeakerCount(
+  async getTotalUniqueSpeakerCount(
     localeIds: number[]
   ): Promise<{ locale_id: number; count: number }[]> {
     return (
       await this.mysql.query(
         `
-        SELECT clips.locale_id, COUNT(1) AS count
-        FROM clips
-        WHERE clips.locale_id IN (?)
-        GROUP BY clips.locale_id
+        SELECT temp.locale_id, COUNT(1) AS count
+        FROM (select c.locale_id, count(1) from clips c
+        WHERE c.locale_id IN (?)
+        GROUP BY c.client_id, c.locale_id) temp
+        GROUP BY temp.locale_id
       `,
         [localeIds]
       )
