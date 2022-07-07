@@ -959,6 +959,14 @@ sc-lang-info-title-total = Konkhe
 sc-lang-info-title-personal = Mayelana nami
 sc-lang-info-review-now = <reviewLink>Buyeketa nyalo!</reviewLink>
 sc-lang-info-add-more = *[other] { $count } Ngeta imisho manje!</addLink>
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Kute imisho lejikisiwe
+        [one] munye umusho lojikisiwe
+       *[other] { $rejectedSentences } imisho lejikisiwe
+    }
 
 ## LOGIN
 
