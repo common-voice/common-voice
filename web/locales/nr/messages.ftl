@@ -81,7 +81,9 @@ no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa u
 toggle-play-tooltip = Gandelela { shortcut-play-toggle } bona utjhugulule indlela yokudlala
 speak-subtitle = Dawuniloda iphimbo lakho
 speak-paragraph = Iinqetjhada zamaphimbo ezirekhodiweko ziyingcenye eqakathekileko yokwakha ihlelo lethu; abanye bangathi, le yingcenye ethabisako.
+speak-goal-text = Iinqetjhana ezirekhodiweko
 listen-subtitle = Sisiza siqinisekise amaphimbo
+listen-goal-text = Iinqetjhana eziqinisekisiweko
 hours-recorded = Ama-awara wokurekhoda
 hours-validated = Ama-awara aqinisekisiweko
 voices-online = Amaphimbo afumanekako nje
@@ -326,6 +328,7 @@ about-playbook-what-is-language = Ngiliphi ilimi elikuCommon Voice?
 about-playbook-how-add-language = Ngingalifaka njani ilimi?
 about-playbook-how-add-language-translating-heading = Indawo yokutjhugulula
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Bukela iinqophiso zethu kubona isetjenziswa njani iPontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Buthelela imitjho
 about-playbook-how-add-language-collecting-sentences-content-1 =
     <sentenceCollectorVideo>Bukela 
     iinqophiso zethu kuzoKubuthelela iMitjho</sentenceCollectorVideo>.
@@ -584,6 +587,7 @@ share-clip = Yabelana ngesiquntu engisirekhodileko
 share-common-voice = Yabelana ngeCommon Voice
 review-instruction = Buyekeza bewurekhode nange kutlhogeka
 record-submit-tooltip = { $actionType } thumela nasele ukulungele
+clips-uploaded = Iinqetjhana ezifakiweko
 record-abort-title = Qeda ukurekhoda qangi?
 record-abort-text = Nawuphuma nje uzokulahlekelwa ngosele ukwenzile
 record-abort-submit = Thumela iinqetjhana
@@ -878,6 +882,7 @@ sc-login-signup-button = Thungela / Zitlolise
 ## HOME
 
 sc-home-title = Uyamukelwa ku-Common Voice Collector
+sc-home-collect-title = Buthelela imitjho
 sc-home-collect-text =
     Sisiza ngokutlola namkha ngokubuthelele imitjho 
     eyamuKelekako eMphakathini.
