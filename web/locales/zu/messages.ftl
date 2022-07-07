@@ -394,6 +394,7 @@ contribution-varying-pronunciations-example-1-explanation = [I-‘Beret’ ILUNG
 contribution-varying-pronunciations-example-2-explanation = [Igama elesiNgisi u'Raised' liphinyiswa ngohlamvu olulodwa, hhayi ezimbili]
 contribution-background-noise-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 contribution-background-noise-example-1-fixed-title = <strong>[ukuthimula]</strong> Ama-dinosaurs amakhulu we-<strong>[ukukhwehlela]</strong> we-Triassic.
+contribution-background-noise-example-2-explanation = Ingxenye yombhalo ayizwakali
 contribution-background-voices-description-extended = Uma ukurekhodwa kunqamuka, noma kunokuqhekeka, yenqaba ngaphandle kokuba wonke umbhalo ungazwakala.
 contribution-background-voices-example-1-title = Ama-dinosaurs amakhulu e-Triassic. <strong>[funda ngezwi elilodwa]</strong>
 
