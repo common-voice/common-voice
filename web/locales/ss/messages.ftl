@@ -938,6 +938,14 @@ sc-add-lang-could-not-add = Asikakhoni kungeta lulwimi
 sc-add-lang-sec-label = Ngeta lulwimi lofuna kulekelela kulo
 sc-add-lang-sec-button = Ngeta Lulwimi
 sc-add-err-unexpected = Imphendvulo lengakagadzeki iphuma ku server
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Kute imisho lefeyilile
+        [one] munye umusho lofeyilile
+       *[other] { $sentences } imisho lefeyilile
+    }
 sc-add-err-submission = Inkinga yekumikisa
 
 ## ADD SENTENCES CONFIRMATION
