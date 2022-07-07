@@ -562,8 +562,16 @@ about-playbook-how-add-language = Com puc afegir una llengua?
 about-playbook-how-add-language-content-1 = Primer, comproveu si la vostra llengua <languageLink>ja existeix</languageLink>. Si no és així, heu de <strong>traduir el lloc i recollir-ne frases</strong>.
 about-playbook-how-add-language-translating-heading = Traduint el lloc
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Vegeu la guia sobre com usar Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Utilitzem una eina de Mozilla anomenada <pontoonLink>Pontoon</pontoonLink> per a les traduccions. Pontoon té moltes llengües, però si no té la vostra, podeu <pontoonRequestLink>sol·licitar que s'hi afegeixi</pontoonRequestLink>.
+    A continuació, per a fer que la llengua estigui disponible en el projecte Common Voice,
+    <githubRepoLink>demaneu la llengua a GitHub</githubRepoLink>. <localizationFragment>Vegeu més informació sobre la traducció del lloc</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Recollint frases
 about-playbook-how-add-language-collecting-sentences-content-1 = .<sentenceCollectorVideo>Vegeu la guia d'ús del Sentence Collector</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Podeu <sentenceCollectorLinkAdd>afegir un petit nombre de frases</sentenceCollectorLinkAdd>,
+    o podeu fer <bulkImportDocsLink>importacions massives mitjançant Github</bulkImportDocsLink>.
+    Recordeu que les frases han de ser <licenseLink>CC0 (o domini públic)</licenseLink>, o també podeu escriure'n.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Vegeu més sobre el recull de frases</sentenceCollectorFragment>.
 
 ## How does localization work
