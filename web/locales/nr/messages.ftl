@@ -287,6 +287,9 @@ recordings-and-locale-public =
 username-optin-public =
     Ungazikhethela bona ufuna igama ozibiza ngalo libonwe babantu 
     namkha awa.
+username-email-not-demographic =
+    Ibizo olisebenzisako ne-email yakho angekhe 
+    kuvezwe emphakathini
 
 ## Speak & Listen Shortcuts
 
