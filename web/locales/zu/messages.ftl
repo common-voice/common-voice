@@ -84,6 +84,7 @@ profile-form-custom-accent-placeholder-2 = Qala ukuthayipha ukuze uchaze indlela
 profile-form-add-accent = Engeza ukuphimisa kwangokwezifiso okusha "{ $inputValue }"
 profile-explanation = Landelela inqubekela-phambili yakho ngephrofayela futhi usize idatha yethu yezwi inembe kakhulu.
 thanks-for-account = Siyabonga ngokuqinisekisa i-akhawunti yakho, manje asakhe iphrofayela yakho.
+why-demographic = Kungani kubalulekile lokhu?
 accept-privacy = Ngilungile uma uphatha lolu lwazi njengoba uchaza kokuthi <privacyLink>Inqubomgomo Yobumfihlo</privacyLink> ye-Mozilla
 login-signup = Ngena / Bhalisa
 skip-submission-note = Qaphela: Usazodinga ukukhetha phakathi kokuthi Khuluma noma Lalela ukuze ushintshe uhlobo lomnikelo.
@@ -103,6 +104,8 @@ change-email-setings = Shintsha i-imeyili yakho ngezilungiselelo ngaphansi kokut
 
 ## FAQ
 
+faq-what-cv-q = Iyini i-Common Voice?
+faq-why-important-q = Kungani ibalulekile?
 faq-why-important-a =
     Ukukhuluma indlela evamise ukusetshenziswa ukuxhumana nabantu kanti ubuchwepheshe bamazwi busenzela lokhu kube lula ngokusilethela lobuchwepheshe kumakhompyutha ethu nakomakhalekhukhwini bethu. Sifuna ukuxhasa onjiniyela ukuze bekwazi ukuwakha izinhlelo zokusebenza zamazwi aqoshiwe, njengabatoliki abasebenza esikhathini sangempela kanye nabasizi abakwazi ukukhuluma ngezinkundla ezidijithali. Okwamanje, ulwazi oludingekayo lokwakha amazwi izinhlelo zokusebenza zamazwi aqoshiwe ziyabiza futhi zinabanikazi. Siyathemba ukuthi iCommon Voice dataset izonikeza onjiniyela konke abakudingayo ukuze basungule futhi benze ubuchwepheshe bokukhuluma butholakale ngezilimi zabo. 
     
@@ -129,6 +132,7 @@ faq-what-determine-identity-a =
     Idathasethi yeCommon Voice ivulelekile kuwo wonke umuntu, iyinsiza engakwazi ukusetshenziswa ukufundisa izinhlelo zokusebenza zamazwi aqoshiwe ezibanzi. Ukuvikela ubumfihlo kwabaxhasi bethu, sicela wonke umuntu ozosebenzisa iCommon Voice dataset ukuba ahloniphe ubumfihlo babaxhasi. 
     
     Lonke ulwazi lwamazwi aqoshiwe lususwa yonke iminingingwane yabantu engase ihlonze ukuba ngubani. Uma ufaka lolulwazi lwamazi aqoshiwe, uvuma ukuba angeke uzame ukunquma ubunikazi bomxhasi. Lokhu kusho ukuthi ngeke uzame ukuhlanganisa ulwazi olusemazwini aqoshiwe nemininingwane yomxhasi. Kepha, ungasabenzisa lolulwazi ukufunda ngokuqoshiwe kwamazwi, oqoshwayo noma ezinye izinhlelo zokusebenza ezinjengokuthi uhlanganise ulwazi nolunye olukhona kulolwazi lwamazwi aqoshiwe.
+faq-what-is-cv = Iyini i-Common Voice?
 faq-description = I-Common Voice iyingxenye yesinyathelo se-Mozilla sokusiza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani.
 
 ## ABOUT US
@@ -168,6 +172,7 @@ about-playbook-what-is-language-content-1 = { "" }
 about-playbook-how-add-language = Ngilufaka kanjani ulimi?
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Buka umhlahlandlela wethu wokuthi usetshenziswa kanjani iPontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Bukela umhlahlandlela wethu wokusebenzisa Umqoqi Wemisho</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Bona okwengeziwe ngokuqoqwa kwemisho</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -188,6 +193,7 @@ about-playbook-how-record-quality = Ngiqopha kanjani isiqeshana sezwi sezinga el
 about-playbook-how-record-content-2 = Gwema umsindo omningi wangemuva - kufanele kube lula ukukuzwa.
 about-playbook-how-record-content-3 = Funda umusho ngokucophelela - ungaphuthi, ungashintshi noma wengeze amagama.
 about-playbook-how-record-content-4 = Qiniseka ukuthi inkundla iyarekhoda ngaphambi kokuthi uqale ukukhuluma, nokuthi iyama kuphela uma usuqedile.
+about-playbook-how-record-content-5 = <accuracyLink>Bona okwengeziwe ngemibandela yokunemba.</accuracyLink>
 
 ## How to grow language
 
@@ -225,6 +231,7 @@ error-title-404 = Asikwazanga ukukutholela lelo khasi
 
 data-download-modal = Usuzoqalisa ukuloda kwe-<size>GB</size>, qhubeka?
 data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
+data-get-started = <speechBlogLink>Qalisa Ngokuqaphela Inkulumo</speechBlogLink>
 data-bundle-description = Idatha yeCommon Voice kanye nawo wonke amanye amadathasethi ezwi ngenhla.
 data-download-singleword-title = Loda Ingxenye Yethagethi Yegama Elilodwa
 data-download-singleword-callout-v2 = Lena ingxenye yokusetshenziswa eqhutshwayo equkethe idatha ukuze inike amandla ukubonwa kwedijithi ekhulunyiwe kanye nokutholwa yebo / cha.
@@ -252,6 +259,7 @@ ready-to-validate = Ulungele ukusiza ukuqinisekisa imisho?
 
 ## Download Modal
 
+download-title = Ukuloda kwakho kuqalile.
 download-helpus = Sisize sakhe umphakathi mayelana nobuchwepheshe bezwi, hlala uxhumene nge-imeyili.
 download-form-email =
     .label = { "" }
@@ -307,6 +315,7 @@ record-must-allow-microphone = Kufanele uvumele ukufinyelela kwemakrofoni.
 record-error-too-short = Ukuqopha bekukufushane kakhulu.
 record-error-too-long = Ukuqopha bekukude kakhulu.
 record-error-too-quiet = Ukuqopha bekuthule kakhulu.
+record-instruction = { $actionType }<recordIcon></recordIcon> bese uwufundela phezulu umusho
 record-again-instruction = Kuhle!<recordIcon></recordIcon> Qopha isiqeshana sakho esilandelayo
 record-again-instruction2 = Qhubeka, uqophe futhi <recordIcon></recordIcon>
 review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
@@ -323,6 +332,7 @@ speak-empty-state = Siphelelwe yimisho okumele siyiqophe ngalolu limi...
 speak-loading-error =
     Asikwazanga ukukutholela umusho ukuthi ukhulume.
     Sicela uzame futhi emuva kwesikhathi.
+share-title-new = <bold>Sisize</bold> sithole amazwi engeziwe
 keep-track-profile = Gcina umkhondo wenqubekelaphambili yakho ngephrofayela
 login-to-get-started = Ngena ngemvume noma bhalisa ukuze uqalise
 target-segment-first-card = Udlala iqhaza engxenyeni yethu yokuqala esiqondiswe kuyo
