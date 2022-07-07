@@ -313,6 +313,7 @@ error-title-503 = Siqalene nebesingakakulindeli
 
 ## Data
 
+data-download-button = Dawunilowuda ihlelo leCommon Voice
 data-download-modal = Sele ukulungele ukudawuniloda i <size>{ $size }GB</size>, uyaraga?
 data-subtitle = Sakha ibulungelo lamaphimbo arekhodiweko angasetjenziswa ngiwo woke umuntu bona angawasebenzisa ukubandula iinsetjenziswa bona zikhulume ikulumo eyamukeleko.
 data-get-started =
@@ -502,6 +503,7 @@ visibility-overlay-note =
 ## Custom Goals
 
 get-started-goals = Thoma ngemigomo
+create-custom-goal = Zibekele umngomo
 goal-type = Ngimuphi umgomo ofuna ukuzibekela wona?
 lose-goal-progress-warning =
     Nawutjhentjha umgomo ungalahlekelwa 
@@ -757,6 +759,7 @@ sc-submit-guidelines =
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Angikghoni ukufaka ilimi
 sc-add-lang-sec-label = Faka ilimi ofuna ukunikela kilo
 sc-add-err-unexpected = Ubujamo obungakalindeleki sibuyela kuseyiva
 # Variables:
@@ -839,6 +842,7 @@ sc-lang-info-rejected =
 ## PROFILE
 
 sc-personal-err-lang-not-found = Ngekhe ukghone ukukhupha ilimi: ilimi alifumaneki
+sc-personal-err-remove = Angikghoni ukususa ilimi
 sc-personal-not-added = Alikho ilimi olifakileko.
 
 ## REVIEW CRITERIA
