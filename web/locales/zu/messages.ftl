@@ -676,6 +676,7 @@ sc-lang-info-rejected =
 ## PROFILE
 
 sc-personal-err-lang-not-found = Ayikwazanga ukususa ulimi: ulimi alutholakali
+sc-personal-err-remove = Ayikwazanga ukususa ulimi
 sc-personal-not-added = Awukangezi izilimi okwamanje.
 
 ## REVIEW CRITERIA
