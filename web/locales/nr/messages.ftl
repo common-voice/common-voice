@@ -215,7 +215,7 @@ wall-of-text-more-desktop = { "" }
 show-wall-of-text = Funda okwengeziweko
 help-us-title = Imitjho
 help-us-explain = Lalela
-no-clips-to-validate = Ubukhulu
+no-clips-to-validate = Kubonakala ngathi akukho okulalelwako ngelimeli. Sibawa usisize sivale isikhalesi ngokuthi urekhode okuthileko njenga nje.
 vote-yes = Iye
 vote-no = Awa
 toggle-play-tooltip = Gandelela { shortcut-play-toggle } bona utjhugulule indlela yokudlala
@@ -1287,6 +1287,14 @@ sc-add-lang-could-not-add = Angikghoni ukufaka ilimi
 sc-add-lang-sec-label = Faka ilimi ofuna ukunikela kilo
 sc-add-lang-sec-button = Faka ilimi
 sc-add-err-unexpected = Ubujamo obungakalindeleki sibuyela kuseyiva
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Imitjho efakiweko. imitjho yaliwe ngombana iyabuyelelwa.
+        [one] imitjho yaliwe ngombana iyabuyelelwa.
+       *[other] imitjho yaliwe ngombana iyabuyelelwa.
+    }
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
