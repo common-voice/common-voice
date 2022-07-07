@@ -11,3 +11,4 @@ get-involved-success-title =
 get-involved-success-text =
     Sizokubuya nemininingwana eyengeziweko
     nasele ifumaneka.
+get-involved-return-to-languages = Buyela emalimini

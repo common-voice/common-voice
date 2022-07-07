@@ -22,6 +22,7 @@ error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 
 ## Languages
 
+sat = IsiSantali (Ol Chiki)
 
 # [/]
 
@@ -99,6 +100,7 @@ username-optin-public =
 ## Speak Shortcuts
 
 request-language-text = Awuliboni ilimi lakho ku-Common Voice?
+request-language-button = Bawa Ilimi
 
 ## ProjectStatus
 
@@ -190,6 +192,8 @@ faq-what-determine-identity-q = Kutjho ukuthini ukuthi "angikghoni ukwazi bona n
 faq-what-is-cv = faq-what-cv-qYini iCommon Voice?
 faq-using-cv = Ukusebenzisa iCommon Voice
 faq-description = Iphimbo elijayelekileko liyingcenye yegadango elithethwe yi-Mozilla bona ifundise imitjhini ukuthi abantu bamambala bakhuluma njani.
+faq-search-for-answers =
+    .label = Funa iimpendulo
 
 ## ABOUT US
 
@@ -282,6 +286,7 @@ about-playbook-how-record-content-5 =
 about-playbook-how-grow-language =
     Singalithuthukisa njani ilimi ngokuphumeleleko 
     kuCommon Voice?
+about-playbook-how-grow-language-content-6 = Ukubambisana nezokuthintana
 about-playbook-how-grow-language-content-8 = <strong>Yiba sikghwari!</strong> Ilimi elikhulunywa mphakathi wangekhenu lizokuhluka begodu nanzi iindlela ezimbalwa zokuthoma.
 
 ## How to validate
@@ -330,6 +335,7 @@ data-subtitle = Sakha ibulungelo lamaphimbo arekhodiweko angasetjenziswa ngiwo w
 data-get-started =
     <speechBlogLink>Thoma ngehlelo lokuHlola
     iPhimbo</speechBlogLink>
+data-other-title = Elinye ihlelo lamaphimbo…
 data-bundle-description =
     Nanti ihlelo leCommon Voice namanye 
     amaphimbo ngehla.
@@ -340,6 +346,7 @@ terms-disagree = Angivumi
 review-aborted =
     Uku-aplowuda kujamile. Ufuna ukususa 
     okurekhodileko?
+review-submit-title = Buyekeza bewuThumele
 review-submit-msg =
     Siyathokoza
     ngokurekhoda!<lineBreak></lineBreak>Buyekeza ngemva kwalokho uthumele okurekhodileko okungenzasi.
@@ -348,6 +355,7 @@ review-submit-msg =
 
 datasets-headline = Sakha umthombo wawo woke umuntu, amaphimbo wamalimi ahlukahlukeneko angasetjenziswa nginanyana ngubani bona azifundise ikulumo eyamukelekako.
 validated-hr-total = Inani eliqinisekisweko le-Hr
+overall-hr-total = Inani lakho koke Hr
 email-to-download = Faka i-email bona udawunilowude
 confirm-size =
     Ukulungele ukuthoma ukudawuniloda i 
@@ -356,6 +364,7 @@ confirm-no-identify = <b>Uyavuma</b> bona angekhe ulinge ukufumana bona maphimbo
 whats-inside = Khuyini engaphakathi kwehlelo le-Common Voice?
 want-dataset-update = Ufuna sikwazise nasikhupha ihlelo elitjha leCommon Voice? Zitlolise engcenyenethu yeendaba.
 get-started-speech = Thoma ngokuhlola iphimbo
+other-datasets = Elinye ihlelo lamaphimbo
 resource-nemo-info = <githubLink>INVIDIA NeMo</githubLink>™ yi <docsLink>lithulusi lawo woke umuntu</docsLink> lokuthuthukisa zerhubhululo yamahlelo we-AI
 resource-coqui-info = I-<coquiLink>Coqui</coquiLink> izibophezele ukuvula ihlelo letheknoloji lokukhuluma. Amahlelwabo ahlanganisa ifundo engeneleleko STT ne TTS.
 resource-playbook-info = <playbookLink>Fumana isinqophiso esilisizo</playbookLink> kilo loke ikhambo leCommon Voice, kusukela ekulumweni yendabuko, ukusebenzisa ihlelweli nokuthi ungathintana njani nomphakathethu.
@@ -386,6 +395,7 @@ request-language-success-title =
     Isibawo selimi sithunyelwe ngokuphumelelako, 
     siyathokoza.
 request-language-success-content = Sizokubuya nemininingwana engeziweko emalungana nokuthi ungalifaka njani ilimi lakho ku-Common Voice esikhathini esingaphelisi ihliziyo.
+select-language = Khetha ilimi...
 
 ## Request Language Pages
 
@@ -453,6 +463,8 @@ record-again-instruction2 =
     Wenze kuhle, rekhoda godu 
     <recordIcon></recordIcon>
 review-tooltip = Buyekeza bewurekhode kabutjha khona la
+share-clip = Yabelana ngesiquntu engisirekhodileko
+share-common-voice = Yabelana ngeCommon Voice
 review-instruction = Buyekeza bewurekhode nange kutlhogeka
 record-abort-text = Nawuphuma nje uzokulahlekelwa ngosele ukwenzile
 record-abort-delete = Phuma namkha Susa iinqetjhana
@@ -477,6 +489,7 @@ speak-loading-error =
     "Ayikho imitjho esiyifumanako
     ongayitjho.
     Sibawa ulinge ngesikhathi esilandelako."
+record-button-label = Rekhoda iphimbo
 share-title-new = <bold>Sisiza</bold> sifumane amanye amaphimbo
 keep-track-profile = Tjheja ituthukwakho ngephrofayili
 login-to-get-started = Thungela namkha uzitlolise bona uthome
@@ -516,6 +529,7 @@ todays-recorded-progress = Ituthuko yanamhlanjesi yokurekhodwe kuCommon Voice
 todays-validated-progress =
     Okuphasisiweko namhlanjesi okurekhodwe 
     kuCommon Voice
+set-visibility = Tjengisa nangikhona
 visibility-overlay-note =
     Tjheja: Amasethingi wengcenye ethi 'Bonakala'
     angatjhugululwa la <profileLink>ekhasini lePhrofayili</profileLink>
@@ -543,6 +557,7 @@ help-reach-hours-general-pluralized =
         [one] Siza iCommon Voice ifikelele  i-awara
        *[other] ama-awara ngelimi ozikhethele lona
     }
+set-a-goal = Beka umgomo
 how-many-per-day = Kuhle! Zingakhi iinqetjhana ngelanga?
 how-many-a-week = Kuhle! Zingakhi iinqetjhana ngeveke?
 which-goal-type = Ufuna ukuKhuluma, ukuLalela namkha kokubili?
@@ -624,7 +639,7 @@ demo-account-sign-up = Thumela ilinki yokuzitlolisa
 ## Demo Contribute
 
 demo-contribute-card-header = Ukulungele ukurekhoda iphimbo lakho namkha ukusiboleka indlebe?
-demo-listen-subtitle = { "" }
+demo-listen-subtitle = Sele ukulungele ukunikela?
 
 ## Demo Dashboard
 
@@ -688,6 +703,7 @@ contribution-background-voices-example-1-explanation =
 ## HEADER/FOOTER
 
 sc-footer-translate = Tjhugulula ikhaseli
+sc-footer-report-copyright = Bika iindaba zamalungelo wokugadangisa
 
 ## HOME
 
@@ -764,6 +780,7 @@ sc-stats-summary =
 ## ADD
 
 sc-submit-err-select-lang = Sibawa ukhethe ilimi.
+sc-submit-err-add-sentences = Sibawa ufake imitjho.
 sc-submit-err-add-source = Sibawa ufake umthombo.
 sc-submit-err-confirm-pd = Sibawa uqinisekise bona imitjho le ingaya emphakathini.
 sc-submit-prompt =
@@ -870,6 +887,7 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-try-again = Sibawa ulinge godu.
 
 ## PROFILE
 
@@ -912,6 +930,7 @@ sc-review-form-review-failure = Okubuyekezileko angekhe kubulungeke. Sibawa ulin
 
 ## SETTINGS
 
+sc-settings-reset-skipped = Faka kabutjha imitjho eyeqiweko
 sc-settings-skipped-decription = Weqe imitjho nawubuyekezako esikhathini esidlulileko. Ukubuyisela emva imitjho eyeqiweko kuzokuvezela yoke imitjho  eyeqiweko godu. Lokhu kuya ngelimi.
 sc-settings-show-all-button = Veza yoke imitjho eyeqiweko godu
 sc-settings-failed = Ngekhe ukghone ukutjhentjha amasethingi: Sibawa ulinge godu.
