@@ -388,6 +388,7 @@ how-does-it-work-title-v2 = Common Voice usebenta njani?
 
 about-language-req-subtitle = Kukhona locela kutsi kungetwe lulwimi.
 about-localization-title = Kusondzetwa kwelikheli langcondvomshina
+about-localization-subtitle = Emagama lasekhasini langcondvomshina ahumushwe ngalolulwimi.
 about-sentence-collection-title = Kukolekwa kwemisho
 about-sentence-collection-subtitle = Imisho ikolekelwa kutsi bantfu bawafundze baphimisele.
 about-new-lang-title = Kusungulwa kwelulwimi lolusha.
@@ -652,6 +653,7 @@ report-title = Mikisa umbiko
 report-offensive-language = Lulwimi lolucasulako
 report-offensive-language-detail = Lelisentenisi linenhlamba futsi liyalulata.
 report-grammar-or-spelling = Grammatical / spelling error
+report-grammar-or-spelling-detail = Lomusho unemaphutsa ekuhlelweni nasekubhalweni kwawo
 report-different-language = Lulwimi lolwehlukile
 report-difficult-pronounce = Kulukhuni kuyisho
 report-offensive-speech = Inkhulumo lecansulako
@@ -726,6 +728,7 @@ share-goal-type-listen = Ulalele
 share-goal-type-both = Kukhuluma nekulalela
 weekly-goal-created = Ligoli lakho leliviki selakhekile
 daily-goal-created = Ligoli lakho lelilanga selakhekile
+track-progress = Landzela inchubo lana nasekhasini letinombolo.
 return-to-edit-goal = Buyela lana utokhona kushintja ligoli lakho lanoma kunini.
 share-goal = Yaba ligoli lami
 
