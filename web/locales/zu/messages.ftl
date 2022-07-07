@@ -281,9 +281,11 @@ goal-help-validation = Usize i-Common Voice ukufinyelela <goalPercentage></goalP
 record-platform-not-supported = Siyaxolisa, inkundla yakho ayisekelwe okwamanje.
 record-platform-not-supported-desktop = Kumadivayisi edeskithophu ungadlala iqhaza ngokuloda...
 record-platform-not-supported-ios-non-safari = Ku-iOS sicela uqhubeke ne-Safari ukuze ukwazi ukurekhoda...
+record-must-allow-microphone = Kufanele uvumele ukufinyelela kwemakrofoni.
 review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
 review-instruction = Buyekeza futhi uqophe kabusha iziqeshana uma kudingeka
 record-abort-text = Ukuhamba manje kusho ukuthi uzolahlekelwa ukuqhubeka kwakho
+listen-instruction = { $actionType }<playIcon></playIcon> ingabe bawukhulume kahle umusho?
 listen-again-instruction = Umsebenzi omuhle!<playIcon></playIcon> Lalela futhi uma usulungile
 listen-empty-state = Siphelelwe iziqeshana ezizoqinisekiswa ngalolu limi...
 listen-loading-error =
@@ -394,6 +396,7 @@ demo-welcome-subheader = Unentshisekelo yokufunda okwengeziwe nokuba negalelo ku
 ## Demo Datasets
 
 demo-language-select-card-header = I-Common Voice iyidathasethi yezwi enkulu kunazo zonke emhlabeni etholakala esidlangalaleni, enezilimi eziningi.
+demo-eofy-sub_header = Idathasethi Yezwi, Ilungele Ukulodwa
 
 ## Demo Account
 
@@ -502,6 +505,7 @@ sc-submit-filtered = Imisho ehlungiwe ngenxa yokwehluleka kwezidingo (sicela uha
 ## ADD LANGUAGE
 
 sc-add-lang-sec-label = Engeza ulimi ofuna ukufaka isandla kulo
+sc-add-err-unexpected = Impendulo engalindelekile ibuyisiwe iqhamuka kwi-server
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
