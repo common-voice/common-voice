@@ -3,6 +3,7 @@
 yes-receive-emails = Iye, ngithumelani ama-email. Ngingakuthabela ukufumana imininingwana ngephrojekthi yeCommon Voice.
 privacy-info = { "" }
 return-to-cv = Buyela kuCommon Voice
+submit-form-action = Thumela
 email-opt-in-info = Ngingakuthabela ukufumana ama-email akhuluma ngeenkhumbuzo zemigomo, ituthukwami neendaba ezimalungana ne-Common Voice.
 email-opt-in-info-title = Ngenela ihlelo leCommon Voice
 email-opt-in-info-sub-with-challenge =
@@ -27,6 +28,7 @@ error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 ckb = IsiCentral Kurdish
 cnh = IsiHakha Chin
 dsb = IsiSorbian, Lower
+es = IsiSpanish
 hsb = IsiSorbian, Upper
 hyw = Isi-Armenian sangeTlhagwini
 kmr = IsiKurmanji Kurdish
@@ -75,6 +77,7 @@ zu = IsiZulu
 
 ## Layout
 
+speak = Khuluma
 speak-now = Khuluma nje
 terms = Imigomo
 content-license-text =
@@ -342,6 +345,7 @@ about-voice-validation-subtitle = Abanye abantu baqinisekisa iinqetjhana zokurek
 about-dataset-release-title = daily-goal
 about-dataset-release-subtitle = Sitjhaphulula okurekhodiweko qobe eenyangeni ezi-3.
 about-subscribe-text = Zitlolise
+about-speak = Khuluma
 about-speak-text =
     Abanikelako barekhoda amaphimbwabo ngokufunda 
     imitjho ekunikelwe ngayo.
@@ -510,6 +514,7 @@ validated-hr-total = Inani eliqinisekisweko le-Hr
 overall-hr-total = Inani lakho koke Hr
 audio-format = Ihlelo lomdumo
 number-of-voices = Inani lamaphimbo
+splits = Ukuhlukanisa
 email-to-download = Faka i-email bona udawunilowude
 confirm-size =
     Ukulungele ukuthoma ukudawuniloda i 
@@ -599,6 +604,7 @@ language-section-in-progress-new-description = Umphakathi usawathuthukisa amalim
 languages-show-more = Veza okunengi
 languages-show-less = Veza okuncani
 language-total-progress = Pheleleko
+language-speakers = Iinkhulumi
 language-validation-progress = Ituthuko eqinisekisiweko
 
 ## Contribution
@@ -715,6 +721,7 @@ report-success = Umbiko uphasile
 
 ## Goals
 
+streaks = Amatshwayo
 validations =
     { $count ->
         [one] Eqinisekisiweko
@@ -732,6 +739,7 @@ todays-recorded-progress = Ituthuko yanamhlanjesi yokurekhodwe kuCommon Voice
 todays-validated-progress =
     Okuphasisiweko namhlanjesi okurekhodwe 
     kuCommon Voice
+stats = Iimbalobalo
 contribution-activity = Umsebenzi womnikelo
 top-contributors = Umnikelo ophezulu
 recorded-clips = Rekhoda Iinqetjhana
@@ -784,6 +792,7 @@ goal-interval-weekly = Ngeveke
 share-n-daily-contribution-goal = Yabelana { $count } nephimbo qobe langa umgomo we { $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Yabelana { $count } ngephimbo qobe veke umgomo we { $type }
+share-goal-type-speak = Ukukhuluma
 share-goal-type-both = Khuluma begodu Ulalele
 # LINK will be replaced with the current URL
 goal-share-text = Ngizibekele umgomo wokunikela ngephimbo lami ku #CommonVoice -- sebenzisana nami sifundise imitjhini ukuthi abantu bamambala bakhuluma njani { $link }
@@ -943,6 +952,7 @@ see-less = <chevron></chevron>Veza okuncani
 
 sc-header-rejected = Susa imitjho
 sc-header-my = Imitjho yami
+sc-header-statistics = Iimbalobalo
 sc-footer-report-bugs = Bika okungakalungi
 sc-footer-translate = Tjhugulula ikhaseli
 sc-footer-report-copyright = Bika iindaba zamalungelo wokugadangisa
@@ -1009,6 +1019,9 @@ sc-my-err-fetching =
     Kube nomraro nasilinga ukufumana imitjho enomraro. Sibawa ulinge 
     godu.
 sc-my-no-sentences = Ayikho imitjho efumanekako!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Okuthunyeliweko: { $batchId }
 sc-my-delete = Susa imitjho ekhethiweko
 sc-my-deleting = Susa imitjho ekhethiweko…
 sc-my-err-failed-delete =
@@ -1026,6 +1039,7 @@ sc-rejected-none-found = Akunamitjho engakaphasiswa efumanekako!
 
 ## STATS
 
+sc-stats-title = Iimbalobalo
 sc-stats-updating = Ukubuyekeza…
 sc-stats-error = Asikghoni ukufumana iimbalobalo. Sibawa ulinge godu esikhathini esizako.
 # Variables:
