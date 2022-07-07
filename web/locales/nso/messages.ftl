@@ -16,6 +16,7 @@
 
 ## Home Page
 
+wall-of-text-more-desktop = Gona bjale o ka nea ka lentšu la gago go re thuša go aga dathabeise ya lentšu e bolegielgo yeo mang le mang a ka e šomiša go dira mananeotiriši a mafsa a didirišwa le wepesaete. Bala mafoko go thuša metšhene go ithuta gore na batho ba kgonthe ba bolela bjang. Lebediša mošomo wa baneedi ba babgwe go kaonefatša boemo. Go bonolo gakaalo!
 
 ## Account Benefits
 
@@ -55,6 +56,7 @@ faq-why-important-a =
 faq-when-release2-a = Mohuta wa maleme a mantši dathasete ya Common Voice e dutše e tšwelapele go hlakana le go hlwekiša. Ge e ba o rata go re thuša go tliša Common Voice malemeng a ma mpsha, eya o lebelela <sentenceCollectorLink>Sedirišwa sa go Kgobokanetša Mafoko</sentenceCollectorLink> bakeng sa go oketša mafoko a ma mpsha go dathasete le Mozilla <pontoonLink>Pontoon</pontoonLink>  bakeng sa go fetolela wepesaete ya bosona. Dipolelo tše mpsha di tsenywa go Common Voice bakeng sa tlaleletšo ya lentšu ga go se go kgoboketšego mafoko a amogetšwego a 5000.
 faq-why-mission-a = Mozilla e ikemišeditše go boloka mologo o botšwe ebile o hwetšagala ke batho bohle. Go dira bjalo re hloka go matlafatša babopi ba wepesaete ka mediro ya go swana le Common Voice. Ge ditheknolotši tša go hlaboša lentšu di dutše di ata go matlafatša tswalano ya ditišwa, re dumela gore di swanetše go hlankela badiriši ka moka go lekana. Seo se bolela gore go beeletša karolo ya maleme a mantši le go amogela mmelelo o fapanego gammogo le teka-tekano ya palo ya batho ge o aga le go tlhahloba ditheknolotši tša mantšu. Common Voice ke mothopo wa setšhaba wo o hwetšagala ke motho yo mongwe le yo mongwe, gomme dihlopha tša Mozilla le batšweletši lefaseng ka bophara ba šetše ba šomiša seo mananeo a bona.
 faq-what-cv-and-deepspeech-a = Dathasete ya Common Voice e dumelelana le entšene Deep South ya Mozilla e bolegilego ya go tlhatholla Polelong. Phetolelo ya mathomo ya polelong e tseneletšego ya Deep Speech e lokoloktšwe ka November 2017 gomme esale e tšwela pele ka go fetoga go tloga ka nako yeo. Gotee le dathasete ya Common Voice, re dumela gore theknolotši e e bulegilego go lemoša lentšu e swanetše go hwetšwa ke motho yo mongwe le yo mongwe. Re holofela gore ditheknolotši tše di tla thuša batšweletši go aga ditšweletšwa ke ditirelo tše di mpsha tše dintši.
+faq-is-goal-assistant-a = Boikemišetšo bja dathasete ya Common Voice ke go thuša motho lege e le ofe goba ofe lefaseng go aga tlhathollo ya mantšu , tlhathollo ya diboledi, goba mohuta ofe goba ofe wa sedirišwa se hlokago datha ya lentšu. Mothuši wa lentšu ke e nngwe feela ya mehuta e mentši ya didirišwa tšeo di šomišago go aga dathasete.
 faq-why-different-speakers-a =
     Bontši bja dathabeise di eteletšwa go bontšha palo e feteletšego ya palo ya batho e sekametšego go lebana le<articleLink> banna le maemo a magareng</articleLink>. Mmolelo le mebolelwana ao a atišago go sekametšego go emelwa ka tlase go di datha sete di eteletšwe gantši di tswalaganywago le dihlopha tša batho bao ba šetšego ba boeletšwe ka thoko. Metšene e mentši le yona e thatafalelwa go kwešiša mantšu a basadi. 
     Ke kamoo polokelong ya rena ya lentšu re nyakang mehuta e fapa-fapanego!"
@@ -78,9 +80,13 @@ about-header-description-v2 = Theknolotši ya go tlhathollo lentšu e fetola tse
 
 ## How do I add a language
 
+about-playbook-how-add-language-translating-content-2 =
+    Re šomiša sedirišwa sa Mozilla se bitšwago <pontoonLink>Pontoon</pontoonLink>  bakeng sa diphetolelo. Pontoon e na le dipolelo tše dintši, eupša ge e ba e se na ya gago o ka <pontoonRequestLink>kgopela gore polelo ya geno e tsenywe</pontoonRequestLink>. 
+    Ke moka, o dire gore polelo e hwetšegale modirong wa Common Voice, <githubRepoLink>kgopela polelo e mpsha go GitHub</githubRepoLink>. <localizationFragment>Bona diphetolelo tše oketšegilego mo saete</localizationFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize-content-3 = Phetolelo e tšwa go Seisemane, eupša o ka bona <strong>Ditšhišinyo</strong>  ka dipolelong tše dingwe. Tobetsa <strong>aekhone ya Profaele</strong> aekhone, ke moka  <strong>Selaelatirišo</strong>  linke yaebe o tsenya dipolelo tšeo o di bolelago. Ka tlase ga sona ka letsogong le letona go tla ba le lenaneo la diphetolelo e bitšwago <strong>Locales</strong>. Diphetolelo di bontšha saeteng ka morago ga letšatši letee.
 
 ## How to add sentences
 
