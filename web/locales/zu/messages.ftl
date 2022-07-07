@@ -238,6 +238,7 @@ error-title-503 = Sibhekene nesikhathi sokungasebenzi esingalindelekile
 
 ## Data
 
+data-download-button = Loda Idatha yeCommon Voice
 data-download-modal = Usuzoqalisa ukuloda kwe-<size>GB</size>, qhubeka?
 data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
 data-get-started = <speechBlogLink>Qalisa Ngokuqaphela Inkulumo</speechBlogLink>
@@ -265,6 +266,7 @@ data-other-ted-description = Ikhophasi ye-TED-LIUM yenziwe ngezinkulumo ezilalel
 data-other-voxforge-description = I-VoxForge yasungulwa ukuze iqoqe inkulumo eqoshiwe ukuze isetshenziswe nezinjini zokuqaphela izinkulumo zamahhala kanye ne-Open Source.
 your-feedback = Ingabe unayo imibono yokuthi singayenza kanjani idathasethi ye-Common Voice ibe ngcono? Sazise ku-Discourse
 missing-language = Awuboni ulimi lwakho luboniswa Kusethi Yedatha? Ukucela ulimi qonda ekhasini lethu leZilimi.
+go-languages-page = Iya Ekhasini Lezilimi
 ready-to-validate = Ulungele ukusiza ukuqinisekisa imisho?
 
 ## Download Modal
@@ -334,6 +336,7 @@ record-again-instruction2 = Qhubeka, uqophe futhi <recordIcon></recordIcon>
 review-tooltip = Buyekeza futhi uqophe kabusha iziqeshana lapha njengoba uhamba
 review-instruction = Buyekeza futhi uqophe kabusha iziqeshana uma kudingeka
 record-abort-text = Ukuhamba manje kusho ukuthi uzolahlekelwa ukuqhubeka kwakho
+record-abort-delete = Phuma futhi Susa iziqeshana
 listen-instruction = { $actionType }<playIcon></playIcon> ingabe bawukhulume kahle umusho?
 listen-again-instruction = Umsebenzi omuhle!<playIcon></playIcon> Lalela futhi uma usulungile
 listen-3rd-time-instruction = 2 phansi, qhubeka kanjalo!<playIcon></playIcon>
@@ -356,6 +359,7 @@ target-segment-first-banner = Siza wakhe engxenye yokuqala eqondiwe yeCommon Voi
 
 report-ask = Yiziphi izinkinga ohlangabezana nazo ngalo musho?
 report-offensive-language-detail = Umusho unolimi olungenanhlonipho noma olunenhlamba.
+report-grammar-or-spelling = Iphutha lohlelo lolimi / isipelingi
 report-grammar-or-spelling-detail = Umusho unephutha lohlelo noma lokubhalwa kwegama.
 report-different-language-detail = Ibhalwe ngolimi oluhlukile kunalokhu engikukhulumayo.
 report-difficult-pronounce-detail = Iqukethe amagama noma imishwana okunzima ukuyifunda noma ukuyibiza.
@@ -372,6 +376,8 @@ visibility-overlay-note = Qaphela: Uma kusethelwe kokuthi 'Kuyabonakala', lesi s
 
 ## Custom Goals
 
+get-started-goals = Qalisa ngemigomo
+create-custom-goal = Yakha umgomo wangokwezifiso
 goal-type = Hlobo luni lomgomo ofuna ukulakha?
 lose-goal-progress-warning = Ngokushintsha injongo yakho, ungase ulahlekelwe inqubekelaphambili okukhona.
 want-to-continue = Ufuna ukuqhubeka?
