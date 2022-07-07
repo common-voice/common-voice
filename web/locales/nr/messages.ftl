@@ -42,16 +42,24 @@ nd = IsiNdebele (Tlhagwini)
 nn-NO = IsiNorwegian Nynorsk
 nr = IsiNdebele (Sewula)
 nso = IsiSotho seTlhagwini
+nyn = IsiRunyankole
 pap-AW = IsiPapiamento (Aruba)
 quy = IsiQuechua Chanka
 rm-sursilv = IsiRomansh Sursilvan
 rm-vallader = IsiRomansh Vallader
+ro = IsiRomania
+ru = IsiRussia
+sah = IsiSakha
 sat = IsiSantali (Ol Chiki)
+sc = IsiSardinia
 scn = IsiSicilia
+shi = IsiShilha
 si = IsiSinhala
 sk = IsiSlovak
+skr = IsiSaraiki
 sl = IsiSlovenia
 so = IsiSomali
+sr = IsiSerbian
 ss = IsiSwati
 st = IsiSotho seSewula
 sv-SE = IsiSwedish
@@ -65,6 +73,7 @@ ti = IsiTigrinya
 tig = IsiTigre
 tk = IsiTurkmen
 tl = IsiTagalog
+tn = IsiTswana
 tok = IsiToki Pona
 tt = IsiTatar
 ty = IsiTahitian
@@ -107,7 +116,7 @@ default-tagline =
     ekufundiseni imitjhini bona abantu bamambala bakhuluma njani.
 home-cta = Khuluma, nikela endaweni le!
 show-wall-of-text = Funda okwengeziweko
-help-us-title = Sisiza siqinisekise imitjho!
+help-us-title = Imitjho
 help-us-explain =
     Gandelela, dlala lalela bese uyasitjela: bawutjho kuhle na
     umutjho ongenzasi?
@@ -184,7 +193,7 @@ username-optin-public =
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = Dlula
+shortcut-skip = Iindlela eziquntelako
 
 ## Listen Shortcuts
 
@@ -197,8 +206,10 @@ shortcut-vote-yes = { "" }
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Rekhoda/Jama
 shortcut-rerecord-toggle-label = Rekhoda kabutjha
 shortcut-discard-ongoing-recording-label = Susa okurekhodwako
+shortcut-submit = Buyela
 shortcut-submit-label = Thumela iinqetjhana
 request-language-text = Awuliboni ilimi lakho ku-Common Voice?
 request-language-button = Bawa Ilimi
@@ -234,8 +245,11 @@ leaderboard-visibility =
     .label = Ukubonakala kwebhodi
 visible = Bonakalako
 profile-form-add-accent = Faka indlela ejayelekileko yokuphimisela "{ $inputValue }"
+profile-form-submit-save = Bulunga
+profile-form-submit-saved = Ibulungiwe
 why-profile-title = Kubayini iprhofayili?
 build-profile = Yakha iphrofayili
+settings = Amasethingi
 edit-profile = Lungisa Iphrofayili
 profile-create-success = Ukghonile ukwenza iphrofayili!
 profile-explanation = Sebenzisa iphrofayili yakho bona uhlole ituthukwako begodu usize ihlelo lethu linembe khudlwana.
@@ -275,7 +289,7 @@ gravatar_not_found = Akuna-gravatar efumanekako ku-emailakho
 file_too_large = Ifayela elikhethiweko likhulu
 avatar-uploaded = I-Aveyitha ifakiwe
 max-file-size = { $kb }kb siling.
-remove-avatar = Susa isithombe
+remove-avatar = Susa
 
 ## Profile - Email
 
@@ -512,6 +526,8 @@ review-submit-title = Buyekeza bewuThumele
 review-submit-msg =
     Siyathokoza
     ngokurekhoda!<lineBreak></lineBreak>Buyekeza ngemva kwalokho uthumele okurekhodileko okungenzasi.
+review-recording = Buyekeza
+review-rerecord = Rekhoda kabutjha
 review-cancel = Susa okuthumeleko
 review-keep-recordings = Bulunga okurekhodiweko
 
@@ -612,6 +628,8 @@ language-section-in-progress-new-description = Umphakathi usawathuthukisa amalim
 languages-show-more = Veza okunengi
 languages-show-less = Veza okuncani
 language-total-progress = Pheleleko
+language-search-input =
+    .placeholder = Funa
 language-speakers = Iinkhulumi
 language-validation-progress = Ituthuko eqinisekisiweko
 
@@ -705,6 +723,7 @@ target-segment-learn-more = Funda okwengeziweko
 
 ## Reporting
 
+report = Bika
 report-title = Thumela umlayezo
 report-ask =
     Ngibuphi ubudisi ohlangabezana nabo ngemitjho
@@ -821,6 +840,7 @@ download-profile-info =
     Faka i-email, igama nemininingwanakho 
     khona nje
 download-profile-size = Faka amabhayithi ambalwa
+download-recordings-title = Okurekhodiweko
 download-recordings-info =
     Ukuhlanganisa ne-mp3 emitjhweni kungathatha 
     isikhathi eside
@@ -832,6 +852,7 @@ download-recently-requested =
     Ungabawa okurekhodileko 
     woke malanga { $days }
 download-size = Ubukhulu
+download-selected = Ikhethiwe
 download-start = Dawuniloda iphrofayili
 download-request = Bawa okurekhodiweko
 download-requests = Iimbawo ezidlulileko zokudawunilowuda imitjho
@@ -842,6 +863,7 @@ download-request-archive-multiple = Zihlukaniswe zaba yi { $archiveCount } kumaf
 download-request-assembling-description =
     Amafayela wakho sele ahlanganisiwe. Sibawa uhlole 
     godu ngemva kwesikhatjhana.
+download-request-refresh-button = Vuselela
 download-request-modal-title = Dawuniloda Amalinki
 download-request-modal-description = Naka ama-link ongadawunilowuda kiwo amafayelakho.
 download-request-link-text = Zip #{ $offset } ye { $total }
@@ -959,6 +981,7 @@ see-less = <chevron></chevron>Veza okuncani
 
 ## HEADER/FOOTER
 
+sc-header-review = Buyekeza
 sc-header-rejected = Susa imitjho
 sc-header-my = Imitjho yami
 sc-header-statistics = Iimbalobalo
@@ -1190,6 +1213,7 @@ sc-login-err-try-again = Sibawa ulinge godu.
 sc-personal-err-lang-not-found = Ngekhe ukghone ukukhupha ilimi: ilimi alifumaneki
 sc-personal-err-remove = Angikghoni ukususa ilimi
 sc-personal-your-languages = Amalimi wakho:
+sc-personal-remove-button = susa
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } efakwe nguwe
@@ -1224,9 +1248,12 @@ sc-review-form-prompt =
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Umthombo: { $sentenceSource }
+sc-review-form-button-reject = lahla
 sc-review-form-button-skip = Dlula
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Ungasebenzisa neendlela zokwenza izinto msinyana: { sc-review-form-button-approve-shortcut } ukuphasisa, { sc-review-form-button-reject-shortcut } ukufeyilisa, { sc-review-form-button-skip-shortcut } ukudlulisa
 sc-review-form-button-submit =
     .submitText = Qeda ukubuyekeza
@@ -1239,9 +1266,11 @@ sc-review-form-reviewed-message =
        *[other] imitjho ebuyekeziweko. Siyathokoza!
     }
 sc-review-form-review-failure = Okubuyekezileko angekhe kubulungeke. Sibawa ulinge ngokukhamba kwesikhathi.
+sc-review-link = Buyekeza
 
 ## SETTINGS
 
+sc-settings-title = Amasethingi
 sc-settings-ui-language = Ilimi okuthintwana ngalo
 sc-settings-reset-skipped = Faka kabutjha imitjho eyeqiweko
 sc-settings-skipped-decription = Weqe imitjho nawubuyekezako esikhathini esidlulileko. Ukubuyisela emva imitjho eyeqiweko kuzokuvezela yoke imitjho  eyeqiweko godu. Lokhu kuya ngelimi.
