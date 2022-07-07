@@ -386,6 +386,7 @@ how-does-it-work-title-v2 = Common Voice usebenta njani?
 
 ## How does it work section
 
+about-language-req-subtitle = Kukhona locela kutsi kungetwe lulwimi.
 about-localization-title = Kusondzetwa kwelikheli langcondvomshina
 about-sentence-collection-title = Kukolekwa kwemisho
 about-sentence-collection-subtitle = Imisho ikolekelwa kutsi bantfu bawafundze baphimisele.
@@ -573,6 +574,7 @@ request-language-form-info =
 request-language-form-info-explanation-list-1 = Emagama elulwimi lwakho
 request-language-form-info-explanation-list-2 = </addLink>Ema Code aka ISO </addLink> uma khona lowatiko
 request-language-google-recaptcha-required = reCAPTCHA uyadzingeka uma ufuna kuchubeka
+request-language-google-recaptcha-error = Kukhona lokuhambe kabi nge reCAPTCHA. Sicela uphindze wetame futsi.
 
 ## Languages Overview
 
