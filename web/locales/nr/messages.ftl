@@ -28,9 +28,15 @@ error-something-went-wrong = Usilibalele kunento engakhambi kuhle
 ## Languages
 
 af = IsiKarakalpak
+an = Isi-Aragonese
 arn = IsiMapudungun
+ast = Isi-Asturia
+az = Isi-Azerbaijani
+ba = IsiBashkir
+bas = IsiBasaa
+be = IsiBelarusia
 bg = IsiBulgaria
-bn = { "" }
+bn = IsiBengali
 br = IsiBreton
 bs = IsiBosnia
 bxr = IsiBuryat
@@ -51,6 +57,7 @@ en = IsiNgisi
 eo = Isi-Esperanto
 es = IsiSpanish
 et = Isi-Estonia
+eu = IsiBasque
 fa = IsiPersia
 ff = IsiFulah
 fi = IsiFinnish
@@ -67,6 +74,7 @@ hr = IsiCroatia
 hsb = IsiSorbian, Upper
 ht = IsiHaitia
 hu = Hungarian
+hy-AM = Isi-Armenia
 hyw = Isi-Armenian sangeTlhagwini
 ia = Isi-Interlingua
 id = Isi-Indonesia
@@ -246,6 +254,7 @@ email-subscription-title-new =
 
 ## Account Benefits
 
+benefits = Iinzuzo
 improve-audio =
     Imininingwana yephrofayili ithuthukisa ihlelo lokurekhodiweko
     ekulumweni yokufundisa enembileko.
@@ -343,6 +352,7 @@ female = Umuntu wengubo
 why-profile-title = Kubayini iprhofayili?
 dashboard = Ideshibhodi
 build-profile = Yakha iphrofayili
+avatar = Isi-Avatar
 settings = Amasethingi
 edit-profile = Lungisa
 profile-create-success = Ukghonile ukwenza iphrofayili!
@@ -890,6 +900,7 @@ todays-validated-progress =
     Okuphasisiweko namhlanjesi okurekhodwe 
     kuCommon Voice
 stats = Iimbalobalo
+awards = Abonongorwana
 contribution-activity = Umsebenzi womnikelo
 top-contributors = Umnikelo ophezulu
 recorded-clips = Rekhoda Iinqetjhana
@@ -909,6 +920,7 @@ both-speak-and-listen = Kokubili
 both-speak-and-listen-long = Kokubili (Ukukhuluma nokuLalela)
 weekly-goal = Umgomo Weveke
 easy-difficulty = Lula
+average-difficulty = Isilinganiso
 difficult-difficulty = Kubudisi
 pro-difficulty = IsiPro
 lose-goal-progress-warning =
@@ -1021,6 +1033,7 @@ demo-welcome-subheader =
 
 demo-language-select-card-header = ICommon Voice lihlalo elikhamba phambili ephasini mazombe elinamaphimbo wamalimi ahlukahlukeneko.
 card-button-next = Okulandelako
+card-button-back = Emuva
 demo-language-select-label = Funa amalimi
 demo-eofy-header = 2019 Umnyaka-wokugcina-Wokutjhatjhululwa
 demo-eofy-sub_header = Ihlelo lephimbo, ukuLungele ukuDawuniloda
